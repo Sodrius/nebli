@@ -1,0 +1,1390 @@
+NEBLI · APOSTILA
+
+Enzimas I
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:   Tema central de P2 -- leia com paciência; MM rende sempre.
+Onde estudar:  Lehninger Cap. 6 + Voet Cap. 13­14
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A enzima e o substrato
+       1.1 O que enzima faz e por que é rápida
+       1.2 Sítio ativo e ajuste induzido
+       1.3 Cofatores, coenzimas e holoenzima
+  PARTE II -- Como a enzima catalisa
+       2.1 Energia de ativação e G
+       2.2 Complexo ES e estado de transição
+       2.3 Os seis mecanismos catalíticos
+  PARTE III -- Cinética enzimática
+       3.1 Hipérbole MM e estado estacionário
+       3.2 K_M e V_max: significado e armadilhas
+       3.3 k_cat, eficiência catalítica e Lineweaver-Burk
+
+RESUMINDO
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (Q01­Q08) · verde
+       Integração (Q09­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       MC azul-claro · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Enzima é a peça que faz a química da célula caber dentro do tempo biológico. Sem enzima, glicose
+    oxidaria em uma escala de horas até dias para liberar energia -- e a célula não consegue esperar.
+    A pergunta deste resumo não é "o que é enzima" (você já tem uma noção do colegial: catalisador
+    biológico, proteína), e sim por que ela funciona tão bem. Aqui o caminho é estrutural primeiro --
+    o que a enzima é, com quem ela conversa, o que ela usa de acessório --, depois físico -- por que
+    ela acelera a reação em fatores de um milhão a um trilhão sem mudar o equilíbrio --, e só no fim
+    cinético -- como você quantifica esse poder com dois números, KM e Vmax. Decorar a equação de
+    Michaelis-Menten antes de entender por que existe complexo ES é a melhor forma de perder a
+    discursiva. Inibição e regulação ficam para Enzimas II.
+
+PARTE I -- A enzima e o substrato
+
+1.1 -- O que uma enzima faz, e por que ela é tão rápida
+
+Comece pelo que enzima resolve. Uma reação química tem um número intrínseco: a velocidade na qual
+ela acontece em condições "normais" -- sem ajuda externa, em pH e temperatura fisiológicos. Para
+muitas reações relevantes para a vida, essa velocidade é desesperadoramente lenta. A descarboxilação
+de uma fosfomonoester, por exemplo, levaria centenas de milhões de anos para metade dos reagentes se
+converter em produto na temperatura corporal. Catalisada pela enzima certa, a mesma reação acontece
+em milissegundos. A enzima é a diferença entre a química possível e a química viável dentro de um
+organismo.
+
+   Tecnicamente, a enzima é uma proteína -- quase sempre. Existe um grupo pequeno de moléculas de
+RNA com atividade catalítica, chamadas ribozimas, mas para fins do 1º ano você pode tratar enzima
+como "proteína que catalisa". Como qualquer outra proteína, é cadeia de aminoácidos dobrada de um
+jeito específico, e essa forma é o que cria o sítio onde a química acontece. Tira a proteína do dobramento
+(desnatura) e você perde a função, mesmo que a sequência de aminoácidos permaneça intacta.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Note como o slide já diz tudo: as enzimas aceleram reações em fatores de 10 a 10¹² em relação às mesmas reações
+não-catalisadas. E essa aceleração acontece em condições fisiológicas brandas -- não a 300 °C nem a pH 1.
+
+Agora a parte que aluno costuma errar na primeira P2: a enzima não muda o equilíbrio da reação. K, a
+constante de equilíbrio, depende só do G entre produtos e reagentes -- é puramente termodinâmica.
+Enzima é cinética: ela muda a velocidade com que a reação chega ao equilíbrio, não onde o equilíbrio fica.
+Se uma reação não é espontânea sem enzima, ela continua não-espontânea com enzima. A diferença é
+só que, com enzima, ela chega rápido ao equilíbrio que existiria de qualquer jeito. Esse ponto vai voltar
+como armadilha na PARTE II, quando entrarmos no diagrama de energia.
+
+    Enzima não muda K, só k
+
+    O equilíbrio é dado pelos produtos e reagentes -- pela termodinâmica. Enzima mexe apenas na
+    velocidade da reação. Se K = 10-4 (favorece reagente), com enzima continua 10-4: a enzima só faz
+    você chegar mais rápido a esse equilíbrio ruim. Isso aparece em prova como "enzima aumenta o
+    rendimento da reação" (errado) ou "enzima desloca o equilíbrio" (errado).
+
+Como existem milhares de enzimas no corpo, a comunidade científica criou um sistema de nomen
+clatura: a Comissão de Enzimas1 organiza tudo em seis classes pela natureza da reação. Oxirredutases
+(transferem elétrons, ex: lactato desidrogenase), transferases (transferem grupos, ex: hexoquinase),
+hidrolases (quebram com água, ex: tripsina), liases (rompem ligação sem hidrólise nem oxidação, ex:
+aldolase), isomerases (rearranjam, ex: triose-fosfato isomerase) e ligases (ligam usando ATP, ex: DNA
+ligase). O nome usual termina em "-ase" (lactase, urease) ou conserva nome histórico (pepsina, tripsina).
+O sistema EC é Class.Subclass.SubSubClass.Serial -- por exemplo, EC 3.4.17.1 é a carboxipeptidase A:
+classe 3 (hidrolase), subclasse 4 (atua em ligação peptídica), sub-subclasse 17 (metalocarboxipeptidase),
+série 1 (primeira catalogada).
+
+   1Comissão de Enzimas ­ International Union of Biochemistry and Molecular Biology -- atribui um código EC X.Y.Z.W
+a cada enzima conhecida, indicando classe, subclasse, sub-subclasse e número de série
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esquema da nomenclatura EC com a carboxipeptidase A como exemplo. Repare que cada número estreita o tipo de
+química: classe  subclasse  sub-subclasse  série.
+
+   Resumindo até aqui: Enzima é proteína (raramente RNA) que acelera reação em 10­10¹² vezes sem
+   mexer no equilíbrio. K não muda; só k muda. Nomenclatura por classe EC: oxirredutase, transferase,
+   hidrolase, liase, isomerase, ligase.
+
+1.2 -- Sítio ativo: chave-fechadura, ajuste induzido e a regra da geometria
+
+Onde, exatamente, a enzima atua? Em uma região muito pequena da sua superfície, chamada sítio ativo
+-- uma cavidade ou sulco moldado pela forma 3D da proteína. O substrato encaixa nesse sulco, e é ali, e
+só ali, que a química acontece. O resto da proteína serve para sustentar essa geometria.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esquema do sítio ativo. Substrato (verde) encaixa em um sulco da enzima (amarelo). A figura é didática -- a enzima
+real não é tão rígida quanto parece aqui.
+
+A primeira ideia que tentaram para explicar isso foi a hipótese chave-fechadura2 de Emil Fischer,
+em 1894: o sítio é uma fechadura, o substrato é a chave correspondente, encaixa porque tem forma
+complementar. É didaticamente útil, mas erra na rigidez. Décadas depois, Daniel Koshland propôs
+um modelo mais correto: o ajuste induzido3. O sítio ativo muda de forma quando o substrato chega
+-- vira a "fechadura ideal" só na presença da "chave". A vantagem evolutiva é grande: a enzima pode
+discriminar substratos parecidos (porque só o substrato verdadeiro induz o ajuste produtivo) e ainda
+evitar autoataque (porque sem substrato a maquinaria catalítica fica fora de alinhamento).
+
+    Sítio ativo é dinâmico
+
+    Chave-fechadura é o modelo mais lembrado, mas é antigo e impreciso. O modelo de ajuste
+    induzido é o que se usa hoje. A enzima muda de forma ao receber o substrato -- algumas mais,
+    algumas menos. Quem cobra isso em P2 espera você saber que Fischer está superado.
+
+Repare nas forças que mantêm o substrato no sítio: são todas não-covalentes. Pontes de hidrogênio
+entre grupos polares de aminoácidos do sítio e átomos polares do substrato, interações hidrofóbicas
+entre cadeias laterais alifáticas e regiões apolares do substrato, atrações eletrostáticas entre cargas
+opostas, forças de van der Waals quando a forma encaixa bem. Não há ligação covalente no reconhec
+imento -- isso é importante porque permite o ciclo: substrato entra, produto sai, sítio fica disponível
+para o próximo. Se fosse ligação covalente no reconhecimento, a enzima ficaria "presa" ao substrato.
+
+   Uma propriedade que cai bastante: a enzima é estereoespecífica4. Como o sítio ativo é construído
+de L-aminoácidos arranjados em uma geometria assimétrica, ele "enxerga" diferença entre dois enan
+
+   2hipótese chave-fechadura ­ modelo de Fischer (1894): substrato encaixa rigidamente em sítio ativo pré-formado,
+como chave numa fechadura
+
+   3ajuste induzido ­ modelo de Koshland (1958): o sítio ativo muda de forma ao receber o substrato, otimizando o encaixe
+e posicionando os resíduos catalíticos
+
+   4estereoespecífica ­ reconhece e atua sobre uma única forma quiral do substrato -- geralmente L-aminoácidos, D-
+açúcares -- porque o sítio ativo é assimétrico
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+tiômeros -- moléculas que são imagens especulares uma da outra. Aluno acha que enantiômero "não
+cabe" no sítio porque seria maior ou menor. Errado: ele tem exatamente o mesmo tamanho e as mesmas
+ligações químicas. O que muda é a geometria 3D. A enzima reconhece a quiralidade da mesma forma
+que sua mão direita reconhece a luva direita: o tamanho da mão esquerda é idêntico, mas ela não entra.
+
+  Repare como o sítio ativo só acomoda uma das duas formas quirais do substrato. A mesma molécula, em forma
+  especular, simplesmente não orienta os grupos corretos contra os resíduos catalíticos.
+
+Algumas enzimas são mais permissivas -- chama-se promiscuidade enzimática. A quimotripsina é o
+exemplo clássico: foi caracterizada como hidrolase de ligação peptídica, mas também hidrolisa ligação
+éster com química muito parecida. Isso é diferente de "não tem especificidade" -- ela continua sendo
+seletiva, só aceita uma classe um pouco mais ampla. Promiscuidade enzimática é tema de pesquisa em
+evolução molecular: enzimas promíscuas seriam o ponto de partida para evoluir novas funções.
+
+   Resumindo até aqui: Sítio ativo é cavidade pequena formada pela dobra 3D da enzima. Modelo atual:
+   ajuste induzido (sítio muda ao receber S). Forças de reconhecimento: não-covalentes. Enzima é estere
+   oespecífica por causa da assimetria 3D do sítio.
+
+1.3 -- Cofatores e coenzimas: a enzima quase nunca trabalha sozinha
+
+Algumas enzimas atuam só com a parte proteica. Outras precisam de uma molécula acessória para
+funcionar. Esse acessório se chama cofator, e é um conceito guarda-chuva: cobre tanto íons inorgânicos
+(Mg2+, Zn2+, Fe2+, Mn2+, Cu2+, K+) quanto moléculas orgânicas complexas. A parte só-proteica, sem cofator,
+chama-se apoenzima5. Com o cofator ligado, vira holoenzima6. Mnemônico que funciona: "apo" tem o
+som de "vazio" -- apoenzima é vazia de cofator, inativa.
+
+   5apoenzima ­ apenas a parte proteica da enzima, sem cofator; inativa
+   6holoenzima ­ enzima completa: parte proteica (apoenzima) + cofator; ativa
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esquema apoenzima + cofator = holoenzima. Note que o grupo prostético é um caso particular: é um cofator que se
+liga fortemente (covalente ou afinidade muito alta) e fica permanentemente associado.
+
+Quando o cofator é uma molécula orgânica complexa, ele recebe o nome específico de coenzima7. NAD8+/
+NADH, FAD9/FADH2, CoA10, biotina, piridoxal-fosfato (PLP11), tiamina-pirofosfato (TPP12) são coenzimas
+clássicas. A maioria deriva de vitaminas -- daí o caráter essencial dessas vitaminas na dieta. NAD+ vem
+de B3 (niacina), FAD de B2 (riboflavina), CoA de B5 (ácido pantotênico), PLP de B6, TPP de B1 (tiamina),
+biotina de B7.
+
+   Termo final: grupo prostético13. É o "cofator que não sai" -- fica colado à enzima. O heme da catalase
+é um grupo prostético; o FAD em algumas desidrogenases também. O contraste é com coenzimas como
+NAD+ e CoA, que entram, participam da reação, saem modificados, e a enzima usa outra molécula de
+coenzima na rodada seguinte.
+
+   Aqui há uma confusão clássica de aluno: a coenzima "se gasta"? Em uma única reação enzimática, sim,
+ela é modificada -- NAD+ vira NADH, ATP vira ADP, S-adenosilmetionina vira S-adenosil-homocisteína.
+Mas dentro da célula, coenzimas são regeneradas em outras reações: NADH oxida de volta para NAD+
+na cadeia respiratória; ADP vira ATP de novo pela mesma cadeia; e por aí vai. Numa visão sistêmica, a
+coenzima é catalítica -- vai e volta entre estados. Numa visão de uma reação só, ela parece consumida.
+
+   7coenzima ­ cofator orgânico, geralmente derivado de uma vitamina, que se associa transitoriamente à enzima para
+participar da reação
+
+   8NAD ­ nicotinamida adenina dinucleotídeo -- coenzima de transferência de elétrons central no metabolismo oxida
+tivo
+
+   9FAD ­ flavina adenina dinucleotídeo -- coenzima de transferência de elétrons derivada da riboflavina B2
+   10CoA ­ coenzima A -- transportadora de grupos acila, derivada do ácido pantotênico B5
+   11PLP ­ piridoxal-fosfato -- coenzima da maioria das reações de aminoácidos, derivada da B6
+   12TPP ­ tiamina-pirofosfato -- coenzima de descarboxilações oxidativas, derivada da B1
+   13grupo prostético ­ cofator que se liga firmemente à enzima (covalente ou afinidade tão alta que é praticamente
+permanente); difere de coenzima livre, que entra e sai a cada ciclo
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Álcool desidrogenase usa NAD+ como aceptor de elétrons: etanol + NAD+  acetaldeído + NADH. Depois, NADH é
+ reoxidado em outras reações. A coenzima é cíclica no sistema, modificada em cada reação individual.
+
+    Pelagra: deficiência de B3 quebra o ciclo NAD/NADH
+    Niacina (B3) é precursora de NAD+. Em dieta deficiente (clássica no Brasil rural histórico -- milho
+    como base alimentar sem nixtamalização), a célula não consegue manter as concentrações de
+    NAD+/NADH adequadas. A maioria das oxirredutases para de funcionar. Manifestação clínica é
+    dramática: as quatro D -- dermatite, diarreia, demência e morte. Trata-se com nicotinamida
+    oral. Doença evitável que matou milhões no século XX.
+
+   Resumindo até aqui: Apoenzima = só proteína (inativa); holoenzima = apoenzima + cofator (ativa).
+   Cofator inclui íons inorgânicos e moléculas orgânicas. Coenzima = cofator orgânico, geralmente vitam
+   ina-derivada. Grupo prostético = cofator firmemente ligado. Coenzimas se modificam por reação mas se
+   regeneram no sistema.
+
+PARTE II -- Como a enzima catalisa
+
+2.1 -- Energia de ativação: a enzima baixa a barreira, não muda o destino
+
+Reações químicas têm uma topografia conceitual: um diagrama de energia em que o eixo horizontal
+é o "progresso da reação" (de reagentes em direção a produtos) e o eixo vertical é a energia. Reagentes
+ficam em um vale; produtos em outro. Entre os dois vales há um morro -- chamado estado de transição14
+--, e a altura desse morro é o que determina a velocidade da reação. Quanto mais alto o morro, menos
+
+   14estado de transição ­ configuração de energia máxima ao longo do caminho de reação; não é uma molécula estável,
+é um ponto instável no topo da barreira
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+moléculas têm energia suficiente para subir, menos reação acontece por unidade de tempo. Essa altura
+tem nome: energia de ativação15 -- abreviada Ea em livros antigos, G em livros modernos.
+
+  Diagrama de energia: reagentes (esquerda) sobem para o estado de transição (topo) antes de cair para produtos
+  (direita). A altura do morro é a energia de ativação. Quanto mais alta a Ea, mais lenta a reação.
+
+A pergunta crítica é: o que muda com enzima? A enzima reduz a altura do morro. Ela não muda nem o
+vale de saída (energia dos reagentes), nem o vale de chegada (energia dos produtos). A diferença vertical
+entre os dois vales, que é o G da reação, fica idêntica com ou sem enzima. O que muda é só a altura da
+subida intermediária. Resultado: muito mais moléculas têm energia suficiente para passar pelo topo,
+e a velocidade aumenta -- em fator de 106 a 1012, como vimos no 1.1. Mas o equilíbrio final, a relação
+entre concentração de produto e reagente em estado estacionário, continua o mesmo. Enzima rápida
+em reação espontânea? Bingo. Enzima rápida em reação não-espontânea? Ela vai te levar rápido até
+o equilíbrio desfavorável, e parar lá.
+
+    G  Ea -- e enzima só mexe em um deles
+
+    Aluno mistura. G é a diferença vertical reagentes­produtos (vai a favor ou contra a reação
+    acontecer). Ea é a altura da subida intermediária (vai a favor ou contra da reação ser rápida). En
+    zima muda Ea (cinética), nunca G (termodinâmica). Reação com G positivo não-espontânea
+    continua não-espontânea com enzima. A célula acopla reações desfavoráveis a hidrólise de ATP
+    justamente porque enzima sozinha não basta.
+
+A outra armadilha é "enzima anula a barreira". Não. Ela baixa -- tipicamente em 10 a 100 kJ/mol --, e isso
+já é suficiente para um ganho cinético gigantesco (cada redução de 5,7 kJ/mol na Ea, a 25 °C, multiplica
+
+   15energia de ativação ­ diferença entre a energia do estado fundamental dos reagentes e a energia do estado de
+transição; é a "barreira" cinética da reação
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+a velocidade por 10, porque a relação é exponencial). Mas a barreira não some: se sumisse, a reação iria
+ao equilíbrio instantaneamente nos dois sentidos, e o complexo ES nunca acumularia.
+
+Resumindo até aqui: Ea = altura do morro entre reagentes e produtos. Enzima reduz Ea sem mexer
+em G. Reação mais rápida em ambas as direções, mas o equilíbrio final é idêntico. Catálise é fenômeno
+cinético, não termodinâmico.
+
+2.2 -- O complexo ES e o estado de transição
+
+Como exatamente a enzima reduz a Ea? Pela formação do complexo enzima-substrato. O caminho da
+reação fica, em forma esquemática:
+
+                                          E + S  ES  EP  E + P
+
+   A enzima encontra o substrato em solução, eles formam um complexo não-covalente reversível
+chamado ES, e dentro desse complexo a química acontece. ES vira EP (enzima + produto ainda ligado), e
+finalmente E + P (produto sai, enzima livre para o próximo ciclo). O passo crítico é o ES  EP -- é onde
+a barreira é atravessada. O insight da enzimologia moderna foi entender por que esse passo é tão mais
+fácil dentro do sítio do que em solução livre.
+
+Esquema do caminho enzimático: E + S formam ES, que vira EP, que se dissocia em E + P. A enzima é regenerada a
+cada ciclo -- ela não é "consumida".
+
+O salto conceitual veio de Linus Pauling em 1948. A pergunta dele foi: por que o sítio ativo é da forma que
+é? A resposta intuitiva -- "para encaixar bem o substrato" -- está errada. O sítio ativo é complementar
+ao estado de transição, não ao substrato. O substrato encaixa "razoavelmente" (algumas interações
+boas, outras forçadas, energia liberada parcial). À medida que a reação progride em direção ao estado
+de transição, o substrato muda de forma -- orbitais se reorganizam, ligações se distorcem, ângulos
+mudam. E é nessa forma intermediária que o encaixe é PERFEITO. A energia liberada pela ligação ótima
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+no estado de transição compensa parte do custo de subir a barreira -- e por isso a Ea efetiva é menor
+dentro do sítio do que em solução.
+
+Sítio complementar ao ESTADO DE TRANSIÇÃO, não ao substrato
+
+Essa é a frase mais valiosa do capítulo. Aluno decora "o sítio encaixa o substrato como chave na
+fechadura" e perde a P2 onde a pergunta exige Pauling. Substrato encaixa razoavelmente; estado
+de transição encaixa perfeitamente. Inibidores que mimetizam o estado de transição (chama
+dos "análogos do estado de transição") são alguns dos inibidores enzimáticos mais potentes
+conhecidos -- e base de várias classes de fármacos.
+
+Aqui surge uma segunda confusão. Aluno mistura ES (complexo) com ES (estado de transição
+enzimático, no topo da barreira). São coisas diferentes no diagrama de energia. ES é um vale -- uma
+forma estável e relativamente longeva. ES, com daga sobrescrita, é o topo do morro dentro do caminho
+enzimático. ES  ES ainda exige subir uma barreira; só que essa barreira é menor que a barreira da
+reação não-catalisada (porque ES é estabilizado pelo sítio).
+
+     O substrato no sítio ativo. Repare como a enzima envelopa o substrato -- é o ajuste induzido em ação. Esse
+     envelopamento é o que permite à enzima estabilizar a forma do estado de transição.
+
+Um detalhe sutil que aparece em questões mais avançadas: estabilizar demais o ES é ruim para a
+catálise. Se ES é um vale muito fundo, o substrato fica preso, não progride para EP. Eficiência catalítica
+máxima exige que ES seja apenas levemente mais estável que E + S livres, e que ES seja muito menos
+energético que o estado de transição não-catalisado. Em uma enzima cataliticamente perfeita, ES é
+apenas um patamar quase imperceptível no caminho -- o que importa é a transição.
+
+   Resumindo até aqui: E + S  ES  EP  E + P. Pauling: sítio ativo é complementar ao ESTADO DE
+   TRANSIÇÃO, não ao substrato. Energia da ligação ótima no estado de transição compensa parte da Ea
+   -- por isso enzima acelera.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.3 -- Os mecanismos químicos: como o sítio realmente faz a química
+
+Estabilizar o estado de transição é o princípio geral. Mas o sítio ativo precisa de ferramentas químicas
+concretas para conseguir isso. A bioquímica catalogou seis mecanismos básicos, e quase toda enzima
+usa combinação de dois ou três deles.
+
+ Os mecanismos catalíticos enzimáticos clássicos. Cada um é uma "ferramenta" no kit do sítio ativo; enzimas reais
+ combinam várias.
+Catálise ácido-base. O sítio ativo tem um resíduo com pKa próximo de 7 (histidina é a favorita), que
+pode doar ou aceitar próton no momento certo da reação. Não é o pH do meio que muda -- é um próton
+específico transferido pontualmente, dentro do sítio, no instante em que a química precisa. Histidina
+é especial porque o anel imidazol tem pKa intermediário ( 6­7), então em pH fisiológico está parcial
+mente protonado e parcialmente desprotonado -- pode atuar como base ou como ácido conforme o
+passo da reação.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Ribonuclease pancreática usa duas histidinas: His12 (pKa 5,4) atua como base, retirando próton do 2-OH da ribose
+para gerar nucleófilo. His119 (pKa 6,4) atua como ácido, protonando o grupo de saída. Mecanismo coordenado de
+catálise ácido-básica.
+Catálise covalente. O sítio forma uma ligação covalente transitória com o substrato. Ressalva: tran
+sitória. A ligação se quebra antes do produto sair. Resultado líquido: a reação é dividida em duas meias-
+reações mais fáceis cada, ambas com Ea menor que a reação direta. Quimotripsina é o exemplo clássico: a
+serina do sítio (Ser195) ataca a carbonila do peptídeo, forma intermediário acil-enzima covalente, depois
+a água ataca o intermediário e libera o segundo fragmento peptídico. A serina volta livre.
+
+   Catálise por íon metálico. Um íon metálico no sítio (Zn2+, Mg2+, Mn2+, Fe2+/3+, Cu2+, Cu+) ajuda de três
+formas: orienta o substrato (cargas positivas atraem oxigênios negativos), polariza ligações (deixando o
+carbono mais eletrofílico), e pode ativar moléculas de água ao redor (uma H2O ligada a Zn2+ perde próton
+mais fácil, virando OH- nucleofílico). Aluno acha que "metal catalítico" = Hg, Pb, mercúrio em peixe.
+Errado: os metais catalíticos clássicos da biologia são leves e fisiológicos -- Zn e Mg são os mais comuns.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Anidrase carbônica usa Zn2+ coordenado por 3 histidinas e uma água. A água ligada ao Zn2+ perde próton mais
+ facilmente (efeito da carga positiva próxima) e vira OH-, que ataca CO2 e gera HCO3-. Reação importantíssima no
+ transporte de CO2 no sangue.
+
+Catálise eletrostática. Cargas positivas no sítio estabilizam cargas negativas que aparecem no estado
+de transição (ou vice-versa). Não há ligação covalente nem transferência de próton -- é só atração de
+cargas. Comum em enzimas que processam intermediários carregados.
+
+   Efeitos de proximidade e orientação. O sítio aproxima fisicamente os dois substratos numa reação
+bimolecular (quando há mais de um substrato), e os mantém na orientação correta para o ataque produ
+tivo. Não parece muito, mas o ganho é enorme: a célula multiplica a probabilidade de colisão produtiva
+em fator de  108. Proximidade e orientação não é "só juntar" -- é congelar os substratos no ângulo
+exato e na distância exata onde a reação acontece.
+
+   Estabilização preferencial do estado de transição (também chamada "complementaridade ao estado
+de transição"). É o mecanismo geral discutido no 2.2 -- Pauling. Inclui todos os outros como casos
+particulares, no fundo.
+
+   Na prática, uma enzima real combina dois ou três mecanismos. RNase usa ácido-base e proximidade.
+Anidrase carbônica usa metal e ácido-base. Quimotripsina usa covalente, ácido-base e proximidade. Por
+isso o ensino enzimológico foca na lista geral antes de qualquer exemplo: o que cada enzima faz é uma
+combinação dessas ferramentas básicas.
+
+   Resumindo até aqui: Seis mecanismos: ácido-base (His), covalente (Ser, Cys), metal (Zn, Mg), elet
+   rostática, proximidade/orientação, estabilização do estado de transição. Enzimas reais combinam dois
+   ou três. RNase: ácido-base. Anidrase carbônica: metal + ácido-base. Quimotripsina: covalente + ácido-
+   base + proximidade.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Cinética: como a gente mede o que a enzima faz
+
+3.1 -- V contra [S]: a hipérbole e por que ela aparece
+
+Até aqui falamos do como da catálise. Agora muda a pergunta: como a gente mede o quão boa uma
+enzima é? A resposta passa por um único experimento conceitual: você fixa a quantidade de enzima [E]t
+em um tubo, varia a concentração de substrato [S], e mede a velocidade inicial V0 da reação para cada
+[S]. Plota V0 no eixo y, [S] no eixo x. O gráfico que sai tem uma forma muito específica -- e essa forma
+diz mais do que o aluno imagina.
+
+A curva V0 vs [S] de uma enzima típica é uma hipérbole retangular. Em [S] baixo, V0 sobe rápido e quase linearmente.
+Em [S] alto, satura num platô. Esse platô é Vmax.
+Por que a hipérbole? Pense no mecanismo. Em [S] baixo, a enzima passa a maior parte do tempo livre
+-- substrato é raro, encontros são raros. Cada vez que aparece S, ele se liga, reage, e a enzima volta livre.
+A velocidade é proporcional a [S]: dobra [S], dobra V0 (regime de primeira ordem em S). Em [S] alto, a
+enzima passa a maior parte do tempo com substrato ligado -- assim que ela termina um ciclo, já tem
+outro S esperando. A velocidade fica limitada pela rapidez do ciclo, não pela disponibilidade de S. Mesmo
+se você dobrar [S], a velocidade não aumenta (regime de ordem zero em S). Entre os dois extremos, uma
+transição suave -- é o que dá o formato hiperbólico.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare na origem do platô: em [S] >> [E], a segunda etapa (ES  EP  E + P) torna-se limitante. Toda enzima está
+ocupada o tempo todo, e o que limita é a velocidade intrínseca do ciclo catalítico.
+
+O platô tem um nome: Vmax16. É a velocidade máxima que aquela quantidade de enzima consegue atingir.
+Importante: Vmax não é constante intrínseca da enzima -- depende de [E]t. Se você dobrar a quantidade
+de enzima no tubo, Vmax dobra. KM (próximo subtópico) é que é constante da enzima.
+
+   Para escrever isso matematicamente, Michaelis e Menten (1913) usaram um truque chamado aprox
+imação do estado estacionário. Em um instante intermediário da reação (depois do início, antes do
+final), a concentração de ES atinge um valor que muda muito devagar -- formação de ES (a partir de E
++ S) é compensada por degradação de ES (em E + S, ou em E + P). Matematicamente, escreve-se d[ES]/
+dt  0, e resolve. O resultado é a equação que carrega os dois nomes:
+
+                                     V0 = (Vmax · [S]) / (KM + [S])
+
+    Estado estacionário não é equilíbrio
+
+    Aluno usa as palavras como sinônimos e perde a P2. Equilíbrio é V_direta = V_inversa para o passo
+    individual. Estado estacionário é [ES] constante porque a formação dele iguala a degradação total
+    -- mas o sistema todo está progredindo para produto. MM usa estado estacionário, não equilíbrio.
+    Diferença pequena na fala, gigantesca no significado.
+
+Verifique a equação nos extremos. Em [S] muito menor que KM: o denominador  KM, e V0  (Vmax/KM)
+· [S]. Linear em [S], inclinação Vmax/KM. Em [S] muito maior que KM: o denominador  [S], e V0  Vmax.
+Independente de [S], no platô. A equação reproduz a intuição cinética. Em [S] exatamente igual a KM, V0
+= Vmax/2.
+
+   16Vmax ­ velocidade máxima da reação, alcançada quando [S] >> KM e toda enzima está saturada de substrato; depende
+da quantidade total de enzima [E]t
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Curva V0 vs [S] é hipérbole retangular. Em [S] baixo: 1ª ordem em S (linear). Em [S]
+alto: ordem zero em S (platô = Vmax). Estado estacionário (não equilíbrio) é a hipótese matemática para
+chegar à equação MM. V0 = (Vmax · [S]) / (KM + [S]).
+
+3.2 -- K_M e V_max: significado e armadilhas
+
+A equação MM tem dois parâmetros: Vmax (que já discutimos) e KM. KM é a estrela e a vilã. Ela carrega
+o significado intuitivo de afinidade da enzima pelo substrato -- e é justamente o que aluno entende
+errado com mais frequência.
+
+Definição operacional: KM é a concentração de substrato em que V0 = Vmax/2. Visualmente, é o [S] sob o meio da subida
+da hipérbole. Tem unidade de concentração (mM, M, etc.).
+
+Note o que KM é, operacionalmente: a [S] necessária para chegar à metade de Vmax. Quanto menor KM,
+menos substrato é necessário para meio-saturar a enzima -- significa que a enzima "captura" S facil
+mente em [S] baixa. KM baixo significa alta afinidade. O inverso vale: KM alto significa que a enzima
+exige muito S antes de meio-saturar -- KM alto = afinidade BAIXA. Essa é a inversão que aluno erra
+todo ano.
+
+    K_M alto = afinidade BAIXA
+    Inversão clássica da P2. KM alto significa que a enzima precisa de mais substrato para chegar
+    a Vmax/2. Mais substrato = enzima "menos atraída" = afinidade menor. Pensar: KM alto = enzima
+    "exigente". Mneumônico: KM e afinidade são inversamente proporcionais.
+
+Há mais uma sutileza. KM não é exatamente a constante de dissociação Kd do complexo ES. No mecan
+ismo MM completo (E + S  ES  E + P, com constantes k1, k-1, k2), o tratamento matemático dá KM = (k-1
++ k2)/k1. Kd seria k-1/k1. KM = Kd apenas quando k2 << k-1 -- ou seja, quando a catálise é lenta comparada
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+à dissociação do ES. Para enzimas reais com catálise rápida, KM > Kd, e KM deixa de ser puramente
+"afinidade" para incluir um pedaço da velocidade do passo catalítico. Para o 1º ano, basta saber que KM
+é uma boa aproximação da afinidade na maioria dos casos, mas tecnicamente é diferente.
+
+   Vmax, por sua vez, é simples: é a velocidade observada quando toda a enzima está em forma ES. Como
+[ES] = [E]t na saturação, e V0 = k2 · [ES], então Vmax = k2 · [E]t. Dobra [E]t, dobra Vmax. KM não muda (porque
+KM depende de k's, não de [E]t).
+
+v não é V_max
+
+Talvez o erro mais cobrado: aluno vê "enzima com Vmax = 100 mol/min", recebe [S] = 6 mM, KM
+= 2 mM, e responde "v = Vmax × ([S]/KM) = 300 mol/min". Errado. A equação é v = Vmax × [S]/(KM
++ [S]) = 100 × 6/(2+6) = 75 mol/min. v nunca passa de Vmax -- é só Vmax em [S]  . Decorar a
+equação MM completa, com o KM+[S] no denominador.
+
+Use o significado prático: se você compara duas enzimas que atuam no mesmo substrato, a com KM
+menor tem mais afinidade -- funciona em [S] mais baixo. Exemplo clássico que vai voltar muito:
+hexoquinase (no tecido periférico) tem KM para glicose  0,1 mM, glicoquinase (no fígado) tem KM  10
+mM. Em [S] = 5 mM (glicemia de jejum), hexoquinase está praticamente saturada (50× KM); glicoquinase
+opera em meia-saturação. Quando a glicemia sobe para 15 mM pós-refeição, hexoquinase já não sente
+diferença, mas glicoquinase aumenta substancialmente sua atividade. A diferença de KM é o que separa
+"uso constante" de "uso pós-refeição". Vai voltar em Carboidratos, Glicólise e Gliconeogênese.
+
+Resumindo até aqui: KM = [S] em V0 = Vmax/2. KM baixo = afinidade alta; KM alto = afinidade baixa
+(inversão clássica). KM = Kd só quando k2 << k-1. Vmax = k2·[E]t -- depende de quanta enzima existe. Equação
+completa: v = Vmax·[S]/(KM + [S]). Hexoquinase (KM 0,1 mM) vs glicoquinase (KM 10 mM) é o exemplo
+paradigmático.
+
+3.3 -- k_cat, eficiência catalítica e Lineweaver-Burk
+
+Vmax depende de quanta enzima você usou. Como comparar duas enzimas, então? A solução é normalizar
+Vmax pela quantidade de enzima. O número resultante é kcat17:
+
+                                                  kcat = Vmax / [E]t
+
+   Unidade: s-1. Significa "quantos substratos um único sítio processa por segundo, na saturação".
+Anidrase carbônica tem kcat  106 s-1 -- uma das mais rápidas conhecidas. Catalase tem kcat  4 × 107.
+Enzimas mais devagar ficam em 10­103 s-1. kcat é constante intrínseca da enzima -- não depende de
+quantos miligramas você colocou no tubo.
+
+   Aluno confunde com Vmax. Vmax muda com [E]t kcat não. Dobra a enzima, dobra Vmax, mas kcat fica
+idêntico. É como diferenciar "litros por minuto de água saindo de uma torneira" (depende de quantas
+torneiras você abriu) e "litros por minuto por torneira" (característico da torneira).
+
+   Combinando os dois parâmetros, surge a constante mais importante da enzimologia comparativa: a
+eficiência catalítica kcat/KM. Ela mede a velocidade da enzima em [S] baixo (regime de primeira ordem):
+
+                                          V0  (kcat/KM) · [E]t · [S], em [S] << KM
+
+   17kcat ­ número de moléculas de substrato convertidas em produto por sítio ativo por segundo, em saturação; é o
+"turnover" da enzima -- independe da quantidade de enzima usada
+
+                                                                                19
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+   Por que kcat/KM é a melhor métrica de "qual enzima é melhor"? Porque na maioria das condições fisi
+ológicas, [S] está abaixo de KM -- então o que importa é a eficiência em [S] baixo, não a Vmax em saturação.
+kcat/KM tem teto físico em torno de 108­109 M-1s-1 -- o limite da difusão (quão rápido S consegue encon
+trar E em solução). Enzimas que atingem esse limite são chamadas cataliticamente perfeitas: cada
+encontro substrato-enzima produz reação. Anidrase carbônica, acetilcolinesterase, fumarase, triose-
+fosfato isomerase estão nesse clube.
+
+Hexoquinase vs glicoquinase: a divisão de trabalho metabólico
+
+Hexoquinase (tecidos periféricos): KM = 0,1 mM, baixa Vmax, inibida por seu produto (glicose-6-
+fosfato). Função: capturar glicose mesmo em glicemia baixa (jejum). Glicoquinase (hepatócitos e
+células  pancreáticas): KM = 10 mM, alta Vmax, NÃO inibida por G6P. Função: processar glicose só
+quando a glicemia está alta -- pós-refeição -- armazenando como glicogênio no fígado, ativando
+secreção de insulina no pâncreas. Em paciente diabético com glicemia de jejum 11 mM (200 mg/
+dL), glicoquinase está rodando em meia-saturação fora do horário fisiológico, hexoquinase em
+saturação total. Conhecer a diferença de KM e regulação é o que separa explicar metabolismo de
+decorá-lo.
+
+Faltou um item: como você extrai Vmax e KM dos dados experimentais? A hipérbole é matematicamente
+chata para ajustar por inspeção visual -- você precisa do platô para Vmax, e o platô assintótico é difícil de
+localizar com precisão. Lineweaver e Burk (1934) tiveram a ideia de inverter a equação:
+
+                                       1/V0 = (KM/Vmax) · (1/[S]) + 1/Vmax
+
+   Se você plotar 1/V0 no eixo y contra 1/[S] no eixo x, sai uma reta. A inclinação dessa reta é KM/Vmax
+o intercepto em y é 1/Vmax o intercepto em x (onde a reta cruza y = 0) é -1/KM. Pronto: três parâmetros
+extraídos de uma regressão linear simples.
+
+       20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O gráfico de Lineweaver-Burk: 1/V0 vs 1/[S]. Intercepto y = 1/Vmax. Intercepto x = -1/KM. Inclinação = KM/Vmax. A
+linearização foi essencial pré-computador; hoje regressão não-linear é mais precisa, mas LB sobrevive por didática
+e por visualizar tipos de inibição.
+
+    Inclinação de Lineweaver-Burk não é K_M
+    Aluno mistura. Inclinação = KM/Vmax. Intercepto y = 1/Vmax. Intercepto x = -1/KM. Note o sinal
+    negativo no intercepto x -- fica do lado esquerdo do eixo y, em x negativo, justamente porque 1/
+    [S] > 0 mas a extrapolação cruza o eixo do lado negativo.
+LB tem limitações: ele amplifica erros em [S] baixo (porque 1/[S] fica grande quando [S] é pequeno, e
+pequenos erros experimentais lá viram pontos influentes na regressão). Por isso a estatística moderna
+recomenda regressão não-linear diretamente sobre v vs [S]. Mas LB continua útil em provas, livros
+didáticos, e principalmente para visualizar inibição -- porque os três tipos clássicos de inibição (com
+petitiva, não-competitiva, incompetitiva) dão padrões visuais distintos no gráfico LB. Isso fica para
+Enzimas II.
+   Resumindo até aqui: kcat = Vmax/[E]t, turnover por sítio; independente de [E]t. kcat/KM = eficiência
+   catalítica, mede velocidade em [S] baixo (regime fisiológico); teto difusional  109 M-1s-1. Lineweaver-
+   Burk: 1/V vs 1/[S] linear; inclinação = KM/Vmax, intercepto y = 1/Vmax, intercepto x = -1/KM. LB amplifica
+   erros mas continua útil didaticamente e para visualizar inibição.
+
+                                                                                21
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Encerrando: enzima é proteína que catalisa em condições fisiológicas brandas, aceitando sub
+strato em um sítio ativo dinâmico, baixando a Ea sem mexer no G. O complexo ES é obrigatório
+-- é por meio dele que o sítio estabiliza o estado de transição (a sacada de Pauling). A química
+acontece por combinação de seis mecanismos: ácido-base, covalente, metal, eletrostática, prox
+imidade/orientação, estabilização da transição. Mede-se a enzima por V0 vs [S] -- hipérbole
+retangular, com platô Vmax e ponto-médio em KM. KM baixo = afinidade alta. kcat = turnover por
+sítio. kcat/KM = eficiência catalítica em [S] baixo, com teto difusional. Próximo passo em Enzimas
+II: como o corpo controla essa máquina enzimática -- inibidores competitivos, não-competi
+tivos, alosterismo, modificação covalente, zimogênios. Mas o substrato dessa regulação já está
+aqui: para regular, é preciso entender o que está sendo regulado.
+
+       22
+NEBLI                                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Enzima não muda K, só k                                   Seis mecanismos catalíticos
+
+Catálise é fenômeno cinético. K (constante de equi Ácido-base (His com pKa  7, transferência local de
+
+líbrio) e G são termodinâmicos -- dependem só próton, não muda pH bulk). Covalente (intermediário
+
+de produtos e reagentes. Enzima reduz Ea, acelera transitório, ex: Ser195 da quimotripsina). Metal (Zn
+
+a reação nos dois sentidos, mas o equilíbrio final em anidrase carbônica, Mg em quinases -- orienta,
+
+é idêntico. Reação não-espontânea continua não- polariza, ativa H2O). Eletrostática (cargas estabilizam
+
+espontânea com enzima.                                    transição). Proximidade/orientação (ganho efetivo de
+
+Sítio ativo dinâmico                                       108 em [S] local). Estabilização preferencial da tran
+
+   Modelo Fischer (chave-fechadura) está superado.        sição (Pauling, mecanismo geral).
+Modelo Koshland (ajuste induzido) é o atual: o sítio      Hipérbole MM e estado estacionário
+
+MUDA de forma ao receber o substrato. Reconhec            V0 vs [S] é hipérbole retangular: 1ª ordem em S
+
+imento é por forças não-covalentes -- covalente, baixo (linear), ordem zero em S alto (platô = Vmax).
+
+quando aparece, é transitório no mecanismo.               Hipótese central: estado estacionário ([ES] constante,
+
+Estereoespecificidade                                     formação = degradação) -- NÃO equilíbrio. Equação:
+
+   Sítio é assimétrico porque é construído de L- V0 = Vmax · [S] / (KM + [S]).
+aminoácidos. Enantiômeros têm o mesmo tamanho K_M: afinidade invertida
+
+e a mesma química, mas geometria 3D diferente -- o KM = [S] em V0 = Vmax/2. Unidade de concentração
+
+sítio só acomoda uma das formas, como luva direita (mM, M). KM baixo = afinidade alta (enzima captura
+
+só veste mão direita.                                     S fácil). KM alto = afinidade baixa (enzima exigente).
+
+Holoenzima e cofatores                                    KM = Kd apenas se k2 << k-1 (catálise lenta vs dissoci
+
+   Apoenzima (só proteína) é INATIVA. Holoenzima          ação). Hexoquinase (KM 0,1 mM) vs glicoquinase (KM
+(apo + cofator) é ATIVA. Cofator é guarda-chuva: íons     10 mM) é o exemplo paradigmático.
+inorgânicos (Zn, Mg, Fe) e coenzimas (NAD, FAD,           V_max vs k_cat
+
+CoA -- derivadas de vitaminas B). Grupo prostético = Vmax = k2·[E]t -- depende da quantidade de enzima.
+
+cofator firmemente ligado. Coenzimas se modificam Dobra [E]t, dobra Vmax. kcat = Vmax/[E]t = turnover por
+
+por reação mas se regeneram em outras vias.               sítio (s-1). kcat é constante intrínseca, independente
+
+Energia de ativação                                       de [E]t. Anidrase carbônica: kcat  106 s-1.
+
+Ea (altura da barreira) e G (diferença reagente- Eficiência catalítica e perfeição
+
+produto) são quantidades diferentes no diagrama de kcat/KM mede V em [S] baixo (regime fisiológico
+
+energia. Enzima reduz Ea em 10­100 kJ/mol -- não mais comum). Unidade M-1s-1. Teto físico em  109
+
+anula. Cada 5,7 kJ/mol a menos multiplica V por 10 (a M-1s-1 -- limite difusional. Enzimas que atingem
+
+25 °C, escala exponencial).                               (anidrase, acetilcolinesterase, fumarase, triose-fos
+
+Pauling: sítio é complementar à TRANSIÇÃO fato isomerase) são "cataliticamente perfeitas": cada
+
+A frase mais valiosa do tema. Sítio ativo encaixa encontro vira reação.
+
+o estado de transição perfeitamente, não o substrato.
+
+Energia liberada na ligação ótima do estado de tran
+
+sição compensa parte da Ea. Análogos do estado de
+
+transição são inibidores extremamente potentes e
+
+base de várias classes de fármacos.
+
+                                                      23
+NEBLI                                                          RESUMINDO
+
+Lineweaver-Burk: leitura visual dos
+parâmetros
+
+   Inverte MM: 1/V0 = (KM/Vmax)(1/[S]) + 1/Vmax. Plot 1/
+V vs 1/[S] = reta. Inclinação = KM/Vmax intercepto y = 1/
+Vmax intercepto x = -1/KM. Amplifica erros em [S] baixo
+(regressão não-linear é melhor hoje), mas sobrevive
+didaticamente e para visualizar tipos de inibição em
+Enzimas II.
+
+                                                           24
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+Sobre o papel das enzimas em reações químicas celulares, assinale a alternativa correta.
+
+   A) Enzimas aumentam a constante de equilíbrio K da reação, deslocando-a no sentido dos produtos
+   por efeito catalítico direto sobre a química.
+   B) Enzimas são consumidas a cada ciclo catalítico e precisam ser sintetizadas para a próxima reação.
+   C) Enzimas tornam reações termodinamicamente desfavoráveis em reações espontâneas, ao reduzir
+   o G da reação para valores negativos.
+   D) Enzimas aumentam a velocidade da reação em até 1012 vezes sem alterar a constante de equilíbrio
+   da reação química.
+   E) Enzimas atuam exclusivamente em condições extremas de pH e temperatura para acelerar reações,
+   semelhantes aos catalisadores químicos inorgânicos clássicos.
+
+Questão 02 Consolidação
+Sobre o modelo atualmente aceito de interação enzima-substrato, assinale a alternativa correta.
+
+   A) O modelo chave-fechadura de Fischer é aceito como descrição definitiva do sítio ativo.
+   B) O substrato se liga ao sítio ativo apenas por ligações covalentes que são desfeitas após a reação.
+   C) O sítio ativo é uma estrutura rígida que não se altera durante o ciclo catalítico.
+   D) O sítio ativo muda de conformação ao receber o substrato, otimizando o encaixe -- modelo de ajuste
+   induzido.
+   E) O sítio ativo aceita qualquer substrato cuja massa molecular seja compatível com a cavidade.
+
+Questão 03 Consolidação
+Sobre cofatores e coenzimas enzimáticas, assinale a alternativa correta.
+
+   A) Apoenzima é a forma ativa da enzima, já ligada ao seu cofator específico.
+   B) Holoenzima é o conjunto apoenzima + cofator, sendo a forma cataliticamente ativa.
+   C) Cofator e coenzima são sinônimos exatos e podem ser usados intercambiavelmente.
+   D) Coenzimas são sempre íons metálicos como Zn2+ ou Mg2+.
+   E) Grupo prostético é um cofator que se dissocia da enzima a cada ciclo catalítico.
+
+                            25
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre a energia de ativação (Ea) em uma reação catalisada por enzima, assinale a alternativa correta.
+   A) A enzima reduz a Ea da reação sem alterar o G entre reagentes e produtos.
+   B) A enzima reduz tanto a Ea quanto o G da reação, tornando-a mais espontânea.
+   C) A enzima elimina completamente a barreira de ativação, levando a reação ao equilíbrio instanta
+   neamente.
+   D) A enzima aumenta a Ea para garantir que apenas reações específicas ocorram no sítio ativo.
+   E) A Ea e o G referem-se ao mesmo conceito termodinâmico no diagrama de energia.
+
+Questão 05 Consolidação
+
+Segundo o conceito proposto por Linus Pauling para explicar a eficiência catalítica das enzimas, assinale
+a alternativa correta.
+
+   A) O sítio ativo é complementar à estrutura primária do substrato em sua forma fundamental.
+   B) O sítio ativo é complementar exclusivamente aos produtos finais da reação.
+   C) O sítio ativo é complementar ao estado de transição, estabilizando essa forma instável e reduzindo
+   a Ea.
+   D) O sítio ativo deve estabilizar fortemente o complexo ES para que a catálise seja eficiente.
+   E) O complexo ES e o estado de transição (ES) representam a mesma espécie no diagrama de energia.
+
+Questão 06 Consolidação
+
+Sobre os mecanismos químicos da catálise enzimática, assinale a alternativa correta.
+
+   A) Catálise ácido-base envolve mudança global do pH do meio aquoso onde a enzima atua, deslocando
+   o equilíbrio iônico da solução.
+   B) Catálise covalente forma uma ligação química permanente entre enzima e produto final, modifi
+   cando irreversivelmente a estrutura proteica do sítio ativo.
+   C) Catálise por íons metálicos (Zn2+, Mg2+, Fe) polariza ligações e ativa moléculas de água no sítio,
+   gerando nucleófilos.
+   D) Catálise por proximidade limita-se a aumentar a concentração efetiva de substratos no microam
+   biente do sítio, sem efeito sobre orientação geométrica.
+   E) Enzimas reais usam apenas um mecanismo catalítico isolado por reação, escolhido entre os seis
+   possíveis durante a evolução do sítio ativo.
+
+                         26
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre a curva de V0 em função de [S] de uma reação enzimática típica que segue Michaelis-Menten,
+assinale a alternativa correta.
+
+   A) Em [S] muito menor que KM, a velocidade é aproximadamente linear em relação a [S] (regime de
+   primeira ordem em S).
+   B) Em [S] muito menor que KM, a velocidade atinge Vmax, pois a enzima está completamente saturada.
+   C) A curva é uma linha reta em todo o intervalo de [S] avaliado experimentalmente.
+   D) Vmax é uma constante intrínseca da enzima e não depende da concentração total de enzima [E]t.
+   E) Em [S] muito maior que KM, a velocidade da reação cresce exponencialmente com [S].
+
+Questão 08 Consolidação
+
+Sobre o significado da constante de Michaelis KM no formalismo cinético enzimático, assinale a alter
+nativa correta.
+
+   A) KM é uma constante adimensional que mede afinidade relativa entre enzimas distintas.
+   B) KM alto significa afinidade alta da enzima pelo substrato, pois a enzima sustenta valores elevados.
+   C) KM corresponde à concentração de substrato em que V0 é metade de Vmax, com unidade de concen
+   tração.
+   D) KM é estritamente igual à constante de dissociação Kd do complexo ES em qualquer condição
+   cinética.
+   E) KM é igual a Vmax dividido pela concentração total de enzima [E]t.
+
+Questão 09 Integração
+
+Considere uma enzima com Vmax = 200 mol·min-1 medida com [E]t = 0,1 mol em volume de 1 mL. Sobre
+kcat dessa enzima, assinale a alternativa correta.
+
+   A) kcat é igual a Vmax, independentemente de [E]t, pois ambos descrevem velocidade máxima.
+   B) kcat muda quando [E]t muda, pois é proporcional à massa total de enzima no tubo.
+   C) kcat = Vmax/[E]t e descreve o número de moléculas convertidas por sítio ativo por unidade de tempo.
+   D) kcat é numericamente igual a KM quando a enzima opera em condições fisiológicas.
+   E) kcat tem unidade de molaridade por minuto, igual à de V0 em qualquer experimento.
+
+                         27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 10 Integração
+
+Sobre a constante de especificidade kcat/KM e seu significado catalítico, assinale a alternativa correta.
+
+   A) kcat/KM mede a eficiência da enzima em [S] baixo, com teto físico próximo de 109 M-1s-1 (limite
+   difusional).
+
+   B) kcat/KM é independente de kcat e KM individualmente, sendo determinada apenas pela concentração
+   total de enzima [E]t no ensaio experimental.
+
+   C) kcat/KM mede a velocidade da enzima em condições de saturação completa por substrato, equival
+   endo numericamente a Vmax normalizada pela enzima.
+
+   D) kcat/KM não tem teto físico -- pode crescer indefinidamente com a otimização evolutiva e o aper
+   feiçoamento estrutural do sítio ativo.
+   E) kcat/KM tem unidade de s-1 e descreve diretamente o turnover por sítio ativo da enzima, sendo
+   equivalente em significado a kcat.
+
+Questão 11 Integração
+
+Sobre estereoespecificidade enzimática e o reconhecimento de enantiômeros, assinale a alternativa
+correta.
+
+   A) A enzima reconhece o enantiômero correto porque o enantiômero errado possui massa molecular
+   distinta.
+   B) Estereoespecificidade ocorre porque ligações covalentes transitórias entre o sítio ativo e o substrato
+   distinguem isômeros ópticos durante o ciclo catalítico.
+   C) O sítio ativo é assimétrico (formado por L-aminoácidos) e só acomoda uma das duas formas quirais
+   do substrato.
+   D) Enzimas reconhecem enantiômeros pela diferença de carga elétrica entre as formas D e L do
+   substrato.
+   E) Enantiômeros são reconhecidos pela enzima porque possuem números diferentes de átomos no
+   esqueleto carbônico, alterando a massa molecular do substrato.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Sobre o papel das vitaminas do complexo B na função enzimática, assinale a alternativa correta.
+
+A) Cada vitamina B atua diretamente como cofator no sítio ativo, sem necessidade de processamento
+metabólico prévio.
+
+B) Vitamina B3 (niacina) é idêntica à coenzima NADH e atua diretamente como aceptor de elétrons.
+
+C) Coenzimas derivadas de vitaminas B são consumidas em uma única reação e não se regeneram em
+outras vias.
+D) Vitaminas B são precursoras de coenzimas (B3  NAD+, B2  FAD, B6  PLP, B1  TPP) -- sua
+falta compromete reações enzimáticas dependentes.
+
+E) Vitaminas B não influenciam a atividade enzimática porque atuam apenas no metabolismo de
+aminoácidos.
+
+Questão 13 Integração
+
+Uma reação tem G = +20 kJ/mol em condições fisiológicas e é catalisada por uma enzima específica.
+Sobre o efeito dessa catálise enzimática, assinale a alternativa correta.
+
+   A) A enzima torna a reação espontânea ao reduzir o G entre reagentes e produtos para valores
+   negativos, deslocando o equilíbrio favoravelmente.
+   B) A enzima aumenta a constante de equilíbrio K da reação a favor dos produtos, deslocando-a no
+   sentido direto da síntese química.
+   C) A enzima permite que a reação ocorra a uma velocidade observável apenas a temperaturas elevadas.
+   D) A enzima não modifica nem a velocidade nem o equilíbrio da reação, pois G positivo bloqueia
+   ambos.
+   E) A enzima acelera a chegada ao equilíbrio (que é desfavorável aos produtos) sem alterar K nem G
+   da reação.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Sobre a relação entre o complexo ES e o estado de transição (ES) no diagrama de energia da catálise
+enzimática, assinale a alternativa correta.
+
+A) ES e ES ocupam o mesmo ponto no diagrama de energia -- ambos no topo da barreira catalítica
+e representando a configuração de energia máxima ao longo do caminho de reação.
+
+B) ES é um intermediário transitório instável de altíssima energia, enquanto ES é um vale estável no
+diagrama de energia onde enzima e substrato permanecem ligados.
+
+C) Quanto mais profundo o vale de ES no diagrama de energia, maior é necessariamente a eficiência
+catalítica da enzima -- vale de ES profundo significa ligação ótima do substrato e velocidade máxima.
+
+D) ES é um vale relativamente estável no diagrama; ES é o ponto de máxima energia ao longo do
+caminho, e a transição ES  ES exige superar uma barreira intermediária.
+
+E) ES e ES existem apenas em reações não-catalisadas; em reações enzimáticas, o substrato vai direto
+a produto sem formar nenhum complexo intermediário com a enzima ao longo do caminho.
+
+Questão 15 Integração
+
+Julgue os itens sobre o conceito geral de enzima e sua atuação em reações químicas.
+Cada item deve ser julgado de forma independente.
+
+   I. Enzimas alteram a constante de equilíbrio K da reação catalisada, deslocando-a no sentido dos
+   produtos.
+   II. A nomenclatura sistemática EC (X.Y.Z.W) reflete a natureza da reação catalisada, indicando classe,
+   subclasse, sub-subclasse e número de série.
+   III. Toda enzima é uma proteína; não existe atividade catalítica em moléculas de RNA dentro de células
+   vivas.
+   IV. Enzimas atuam em condições fisiológicas brandas (temperatura corporal, pH próximo a 7), difer
+   entemente de catalisadores químicos inorgânicos que muitas vezes exigem condições extremas.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Sobre a aproximação do estado estacionário usada por Michaelis e Menten para derivar a equação
+cinética, assinale a alternativa correta.
+
+   A) Estado estacionário e equilíbrio termodinâmico são sinônimos quando aplicados a sistemas enz
+   imáticos, refletindo a constância das concentrações de reagentes, produtos e intermediários ao longo
+   do tempo.
+
+   B) No estado estacionário, a concentração de ES é matematicamente zero porque a enzima opera em
+   fluxo contínuo de substrato, sem acumular complexos intermediários ao longo da reação cinética.
+
+   C) No estado estacionário, a velocidade direta é exatamente igual à velocidade inversa para cada passo
+   elementar da reação enzimática, caracterizando equilíbrio em cada um deles.
+
+   D) No estado estacionário, a concentração total de enzima [E]t varia continuamente com o tempo até
+   atingir o platô de Vmax, num processo conhecido como ativação cinética dinâmica.
+
+   E) No estado estacionário, a concentração de ES permanece aproximadamente constante porque a
+   formação de ES é compensada por sua degradação -- embora o sistema esteja progredindo para
+   produto.
+
+Questão 17 Integração
+
+Uma enzima opera com Vmax = 100 mol·min-1 e KM = 2 mM em ensaio cinético. Em [S] = 6 mM, qual é o
+valor de V0?
+
+   A) V0 = 100 mol·min-1, pois [S] excede largamente KM e a enzima está completamente saturada.
+   B) V0 = 200 mol·min-1, pois V0 = Vmax·[S]/KM = 100 × 6/2 = 300, normalizado a 200 pelo limite cinético.
+   C) V0 = 50 mol·min-1, correspondente a metade da Vmax, pois [S] supera KM em três vezes.
+   D) V0 = 75 mol·min-1, aplicando MM: Vmax·[S]/(KM+[S]) = 100 × 6/(2+6) = 600/8.
+   E) V0 = 300 mol·min-1, pois a equação MM permite que V0 exceda Vmax em concentrações altas.
+
+                       31
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Julgue os itens sobre o gráfico de Lineweaver-Burk e os parâmetros cinéticos que dele se extraem.
+Cada item deve ser julgado de forma independente.
+
+   I. O gráfico de Lineweaver-Burk plota 1/V0 no eixo y contra 1/[S] no eixo x e gera uma reta para enzima
+   que obedece a Michaelis-Menten.
+   II. A inclinação da reta no gráfico de Lineweaver-Burk corresponde a KM diretamente, sem necessidade
+   de envolver Vmax.
+   III. O intercepto no eixo y do gráfico de Lineweaver-Burk corresponde a 1/Vmax o intercepto no eixo x
+   corresponde a -1/KM.
+   IV. O gráfico de Lineweaver-Burk amplifica erros experimentais em [S] alto, sendo desaconselhado
+   para estimar KM em condições de saturação.
+
+Questão 19 Integração
+
+Sobre as forças que mantêm o substrato no sítio ativo durante o reconhecimento inicial enzima-
+substrato, assinale a alternativa correta.
+
+   A) Ligações covalentes formadas entre resíduos do sítio e átomos do substrato no momento do recon
+   hecimento.
+   B) Atração gravitacional entre as massas moleculares da enzima e do substrato durante o reconhec
+   imento.
+   C) Interações exclusivamente eletrostáticas entre cargas formais opostas, sem outras forças rele
+   vantes para o encaixe inicial.
+   D) Ligações de dissulfeto temporárias entre cisteínas do sítio ativo e cisteínas do substrato durante o
+   reconhecimento.
+   E) Forças não-covalentes -- pontes de hidrogênio, interações hidrofóbicas, atrações eletrostáticas e
+   forças de van der Waals.
+
+                       32
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Sobre a relação entre KM e a constante de dissociação Kd do complexo ES no formalismo cinético de
+Michaelis-Menten, assinale a alternativa correta.
+
+   A) KM e Kd são matematicamente idênticos em todas as condições cinéticas.
+   B) KM é sempre numericamente maior que Kd, com diferença de até três ordens de grandeza.
+   C) KM = (k-1 + k2)/k1 Kd = k-1/k1 coincidem apenas quando k2 << k-1.
+   D) KM depende exclusivamente de k2 (passo catalítico); Kd depende exclusivamente de k1.
+   E) KM e Kd são quantidades inversas -- uma é o recíproco da outra em qualquer enzima.
+
+Questão 21 Integração
+
+Sobre grupos prostéticos e a distinção em relação a outras categorias de cofatores, assinale a alternativa
+correta.
+
+   A) Grupo prostético é qualquer cofator orgânico associado à enzima, independentemente da estabil
+   idade da ligação com a apoenzima, incluindo coenzimas livres como NAD+ que entram e saem do sítio.
+   B) Grupo prostético e apoenzima referem-se à mesma entidade molecular dentro do conceito de
+   holoenzima, ambos descrevendo a parte proteica em estado inativo sem cofator associado.
+   C) Grupo prostético é cofator que se liga firmemente à enzima (covalente ou afinidade muito alta),
+   permanecendo associado entre ciclos -- diferente de coenzimas que entram e saem.
+   D) Grupo prostético atua exclusivamente em enzimas digestivas como pepsina e tripsina, e nunca em
+   enzimas do metabolismo intermediário ou de vias biossintéticas celulares importantes.
+   E) Grupo prostético se dissocia da enzima a cada ciclo catalítico, sendo reposto pelo citoplasma a cada
+   nova reação.
+
+Questão 22 Integração
+
+Julgue os itens sobre energia de ativação (Ea) e o efeito da catálise enzimática.
+Cada item deve ser julgado de forma independente.
+
+   I. A enzima reduz a Ea da reação sem alterar o G entre reagentes e produtos.
+   II. Uma redução de aproximadamente 5,7 kJ/mol na Ea, a 25 °C, multiplica a velocidade observada da
+   reação por um fator de 10 (relação exponencial).
+   III. A enzima acelera a reação tanto no sentido direto quanto no sentido inverso, pois Ea é reduzida
+   em ambos os caminhos.
+   IV. A enzima elimina completamente a Ea quando atinge sua eficiência catalítica máxima, levando a
+   reação ao equilíbrio em tempo zero.
+
+                       33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Julgue os itens sobre o complexo enzima-substrato (ES) e o estado de transição na catálise enzimática.
+Cada item deve ser julgado de forma independente.
+
+I. O sítio ativo é estruturalmente complementar ao substrato em sua forma fundamental, e nunca ao
+estado de transição.
+
+II. ES é o ponto de energia máxima ao longo do caminho de reação, equivalente ao estado de transição
+da reação não-catalisada.
+
+III. Estabilizar excessivamente o complexo ES é vantajoso para a eficiência catalítica em qualquer
+enzima conhecida.
+
+IV. Análogos do estado de transição funcionam como inibidores potentes porque ligam-se ao sítio
+com afinidade equivalente ou superior à do estado de transição real.
+
+Questão 24 Integração
+
+Sobre o mecanismo catalítico da anidrase carbônica (anidrase carbônica II, EC 4.2.1.1), assinale a alter
+nativa correta.
+
+   A) A enzima utiliza catálise covalente, formando ligação química permanente entre o Zn2+ do sítio e o
+   produto bicarbonato gerado na reação.
+   B) O Zn2+ atua isoladamente, em solução livre dentro do sítio ativo, sem coordenação com resíduos de
+   aminoácidos da apoenzima.
+   C) A enzima requer hidrólise contínua de ATP para superar a barreira termodinâmica de formação do
+   bicarbonato a partir de CO2 e água.
+   D) A reação CO2 + H2O  HCO3- + H+ ocorre espontaneamente em alta velocidade fisiológica sem
+   participação enzimática direta no organismo.
+   E) O Zn2+ coordenado por três histidinas polariza a H2O ligada, gerando OH- nucleofílico que ataca o
+   CO2 -- catálise por íon metálico.
+
+                       34
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Em ensaio cinético, dobra-se a concentração total de enzima [E]t em um tubo, mantendo todas as outras
+condições idênticas. Qual o efeito esperado sobre Vmax e KM?
+
+   A) Vmax permanece inalterada e KM dobra, pois KM é diretamente proporcional à concentração total de
+   enzima no ensaio cinético.
+
+   B) Vmax permanece inalterada e KM cai pela metade, refletindo o aumento da afinidade aparente pela
+   maior quantidade de enzima livre.
+
+   C) Vmax cai pela metade e KM dobra, pois ambos parâmetros respondem proporcionalmente à concen
+   tração total de enzima no sistema.
+
+   D) Vmax e KM dobram simultaneamente, mantendo o quociente Vmax/KM constante, característica da
+   cinética enzimática.
+
+   E) Vmax dobra e KM permanece inalterada, pois Vmax = k2·[E]t e KM é constante intrínseca da enzima.
+
+Questão 26 Aplicação
+
+A bactéria Helicobacter pylori coloniza o estômago humano, ambiente de pH em torno de 2, e produz a
+enzima urease, que catalisa: ureia + H2O  2 NH3 + CO2. Sobre a relevância dessa atividade enzimática
+para a sobrevivência da bactéria, assinale a alternativa correta.
+
+   A) A urease degrada o pH ácido diretamente por reação química espontânea, atuando como tampo
+   nante químico do bicarbonato gerado a partir do ácido gástrico no estômago.
+   B) A NH3 gerada pela urease inibe a produção de ácido pelas células parietais gástricas do hospedeiro
+   por mecanismo enzimático direto sobre a bomba H+/K+-ATPase apical.
+   C) A urease atua sobre proteínas da mucosa gástrica para abrir caminho até o epitélio.
+   D) A NH3 gerada captura H+ formando NH4+, elevando o pH local imediatamente ao redor da bactéria
+   e permitindo sua sobrevivência em ambiente ácido.
+   E) O CO2 liberado serve de substrato direto para a respiração celular bacteriana, gerando ATP.
+
+                       35
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Em ensaio experimental, mede-se a anidrase carbônica em meio contendo Zn2+ (controle) e em meio
+cuja Zn2+ foi removido por agente quelante. A atividade enzimática (em mol HCO3- / s) cai praticamente
+a zero no segundo caso, mesmo com a apoproteína intacta e em concentração idêntica. A melhor expli
+cação mecanística é:
+
+   A) O Zn2+ é cofator metálico essencial -- sem ele, a apoproteína perde a capacidade de polarizar H2O e
+   gerar o nucleófilo OH- que ataca o CO2 é exemplo de catálise por íon metálico.
+
+   B) A apoproteína sem Zn2+ perde completamente a estrutura primária da cadeia polipeptídica e
+   despolimeriza imediatamente no ensaio experimental, fragmentando-se em aminoácidos livres no
+   meio aquoso da reação.
+
+   C) O Zn2+ atua como substrato consumido a cada ciclo catalítico da anidrase carbônica, sendo conver
+   tido em produto a cada reação; sua ausência no meio interrompe completamente a reação por falta de
+   reagente metálico.
+
+   D) O quelante usado no experimento reagiu covalentemente com os resíduos catalíticos do sítio ativo
+   da apoenzima, inativando-a de forma irreversível e permanente por modificação química covalente
+   das histidinas do sítio.
+
+   E) Zn2+ é coenzima orgânica complexa derivada de vitamina B do complexo respiratório, participando
+   diretamente da química do CO2, sendo continuamente regenerada na cadeia respiratória mitocondrial
+   após cada ciclo catalítico.
+
+                      36
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Em hepatócitos, a glicoquinase apresenta KM para glicose de aproximadamente 10 mM. Em paciente com
+diabetes mellitus mal controlado e glicemia de jejum de 12 mM (216 mg/dL), qual a melhor descrição do
+comportamento da glicoquinase em comparação a indivíduo saudável com glicemia de jejum em torno
+de 5 mM?
+
+   A) A glicoquinase hepática do paciente diabético está completamente saturada com substrato e
+   operando em Vmax independentemente da glicemia capilar do momento, fornecendo capacidade
+   máxima e constante de fosforilação glicídica em qualquer condição metabólica do organismo, seja em
+   jejum prolongado ou pós-prandial imediato.
+
+   B) A glicoquinase hepatocítica do paciente tem sua atividade reduzida progressivamente pelo
+   aumento crônico da glicemia através de um efeito de inibição por excesso de substrato, fenômeno
+   comum em enzimas dependentes de cofatores específicos no metabolismo hepático humano descrito
+   em diabetes mal controlado.
+
+   C) A glicoquinase hepatocítica aumenta progressivamente sua afinidade pela glicose (KM cai) em
+   resposta direta à hiperglicemia crônica do paciente diabético mal controlado, num mecanismo
+   adaptativo enzimático de longo prazo característico de enzimas presentes em tecidos sensores
+   metabólicos.
+
+   D) Em glicemia de 12 mM (próxima a KM), a glicoquinase opera em torno de meia-saturação, captando
+   glicose com taxa elevada -- situação que no jejum fisiológico não deveria ocorrer; em indivíduo
+   saudável (5 mM), a enzima opera em [S] muito abaixo de KM e em taxa baixa.
+
+   E) A glicoquinase hepática está completamente inativa em glicemia abaixo de 15 mM, independente
+   mente do estado metabólico do organismo, função fisiológica clássica de proteção do fígado contra
+   fosforilação glicídica em condições de jejum prolongado ou estresse metabólico agudo.
+
+                      37
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Lactente de 5 meses apresenta vômitos pós-mamada, hipoglicemia recorrente, icterícia desde a 1ª
+semana e catarata bilateral em desenvolvimento. Pesquisa enzimática revela atividade da galactose-1-
+fosfato uridiltransferase reduzida a 5% do valor normal em eritrócitos. Sobre a interpretação cinética
+desse achado, assinale a alternativa correta.
+
+   A) A redução de atividade pode refletir mutação em Vmax (kcat menor ou estabilidade comprometida)
+   ou em KM (afinidade reduzida pelo substrato) -- ambas explicam o acúmulo tóxico de galactose-1-
+   fosfato e a hipoglicemia clínica.
+
+   B) A redução de atividade enzimática sempre reflete diminuição direta de KM, pois KM é o único
+   determinante da velocidade enzimática observada em qualquer condição clínica do paciente afetado.
+
+   C) A enzima mutada inverte completamente sua função química, passando a sintetizar galactose-1-
+   fosfato a partir de uridil-difosfato em vez de consumi-la, gerando o acúmulo tóxico observado nesse
+   paciente.
+
+   D) Sem a enzima funcional, o G da reação fica positivo e a galactose-1-fosfato deixa de ser
+   termodinamicamente formável no organismo do paciente, levando ao acúmulo paradoxal observado
+   clinicamente.
+
+   E) A mutação muda o pH ótimo da enzima galactose-1-fosfato uridiltransferase, e a correção clínica
+   pode ser feita ajustando o pH sanguíneo do paciente com infusão de soluções tampão alcalinas
+   hospitalares.
+
+                      38
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Em paciente diabético no setor de urgência com glicemia capilar de 280 mg/dL ( 15 mM), considere a
+coexistência fisiológica de hexoquinase (KM  0,1 mM, distribuição ubíqua) e glicoquinase (KM  10 mM,
+hepatócitos e células  pancreáticas). Sobre a vantagem fisiológica dessa coexistência em diferentes KM,
+assinale a alternativa correta.
+
+   A) Hexoquinase e glicoquinase têm exatamente o mesmo KM em condições fisiológicas mas atuam
+   em tecidos distintos do organismo para evitar redundância funcional, garantindo que a glicose seja
+   processada por enzimas diferentes em hepatócitos e tecidos periféricos sem sobreposição catalítica.
+
+   B) A hexoquinase só opera em valores de glicemia acima de 10 mM, enquanto a glicoquinase só opera
+   em condições de glicemia abaixo de 0,1 mM, garantindo que o organismo processe glicose em todos
+   os intervalos possíveis de concentração fisiológica e patológica.
+
+   C) Glicoquinase é a enzima de baixa afinidade que predomina nas hemácias maduras circulantes,
+   captando glicose do plasma para a glicólise eritrocitária e gerando ATP exclusivamente por fermen
+   tação láctica anaeróbia no eritrócito sem mitocôndrias.
+
+   D) Hexoquinase (KM baixo, afinidade alta) garante captação de glicose em tecidos periféricos mesmo
+   em glicemia baixa de jejum; glicoquinase (KM alto, afinidade baixa) só fica ativa no fígado e células
+    pós-refeição (glicemia alta), permitindo armazenamento hepático e secreção de insulina apenas
+   quando há glicose abundante.
+
+   E) A diferença de KM entre as duas isoformas hexoquinase e glicoquinase é fisiologicamente irrele
+   vante porque ambas as enzimas operam permanentemente em condições de saturação completa por
+   substrato em qualquer tecido do organismo humano, independentemente da glicemia presente.
+
+                      39
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique, em termos termodinâmicos e cinéticos, por que uma enzima não pode tornar espon
+tânea uma reação cujo G é positivo, mesmo que reduza drasticamente a energia de ativação.
+
+    MODELO DE RESPOSTA
+
+   G depende exclusivamente da diferença de energia livre entre produtos e reagentes --
+   é grandeza termodinâmica, fixada pela natureza das espécies envolvidas. Energia de
+   ativação (Ea) é a altura da barreira intermediária no caminho de reação -- grandeza
+   cinética, que controla a velocidade. A enzima atua sobre Ea, nunca sobre G. Reduzir
+   Ea acelera a chegada ao equilíbrio nos dois sentidos, mas o equilíbrio final é o mesmo.
+   Reações com G positivo continuam não-espontâneas com enzima. A célula contorna
+   isso acoplando reações desfavoráveis à hidrólise de ATP, que injeta energia livre sufi
+   ciente para o G global ficar negativo.
+
+Questão Q2
+
+Linus Pauling propôs em 1948 que "o sítio ativo é complementar ao estado de transição, e não
+ao substrato". Explique por que essa formulação é mecanicamente correta e por que ela explica a
+eficiência catalítica das enzimas.
+
+    MODELO DE RESPOSTA
+
+   Se o sítio fosse complementar ao substrato em forma fundamental, ele estabilizaria
+   o vale de ES. Estabilizar ES não baixa Ea -- apenas aprofunda o "poço" de partida,
+   podendo até reduzir a velocidade. Para baixar Ea, o sítio precisa estabilizar a forma de
+   energia máxima ao longo do caminho: o estado de transição (ES). A energia liberada
+   pela ligação ótima da enzima ao estado de transição compensa parte do custo de subir
+   a barreira. O resultado é Ea efetiva menor dentro do sítio, e a reação acelera 106­1012
+   vezes. Análogos do estado de transição são inibidores potentíssimos justamente porque
+   ligam-se com afinidade muito alta.
+
+                             40
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Em uma única reação enzimática (ex: lactato desidrogenase, que reduz piruvato a lactato com
+NADH), a coenzima NADH é convertida em NAD+ e parece "consumida". Explique por que, no
+contexto celular, NADH e outras coenzimas derivadas de vitaminas B são consideradas catalíticas
+e não simples substratos.
+
+MODELO DE RESPOSTA
+
+Numa única reação, sim -- NADH é modificada (NADH  NAD+ na redução do piruvato).
+Mas no contexto celular, o NAD+ é reoxidado em outras reações (na cadeia respiratória
+mitocondrial, principalmente), regenerando NADH. A coenzima vai e volta entre esta
+dos oxidado/reduzido em ciclos sucessivos -- como uma "moeda" de transferência de
+elétrons. Soma final: a quantidade total de NAD não muda; apenas seu estado redox flui
+pelo sistema. Por isso a célula precisa de pouca quantidade absoluta de cada coenzima
+-- alguns micromolares são suficientes --, e as vitaminas B precursoras são necessárias
+em quantidades pequenas na dieta.
+
+Questão Q4
+
+Aluno desavisado afirma: "KM alto significa que a enzima tem afinidade alta pelo substrato,
+porque KM grande representa muita ligação enzima-substrato no equilíbrio". Explique por que o
+raciocínio está invertido e o que KM realmente representa.
+
+    MODELO DE RESPOSTA
+
+   KM tem unidade de concentração -- é a [S] em que V0 = Vmax/2. Se a enzima precisa de
+   muita [S] para chegar à meia-saturação, é porque a maioria das moléculas de enzima
+   fica vazia em [S] baixa; ela "captura" o substrato com dificuldade. KM alto = afinidade
+   BAIXA. O contrário: KM baixo significa que meia-saturação acontece em [S] muito
+   pequena -- enzima captura substrato facilmente. Matematicamente, KM = (k-1 + k2)/k1
+   se a afinidade real (k1 alto) é alta, KM fica pequeno. KM e afinidade são inversamente
+   proporcionais.
+
+       41
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+O texto abaixo, escrito por um aluno do 1º ano em uma redação de estudo, contém três erros
+conceituais importantes. Identifique cada erro e explique brevemente a correção.
+"kcat é a mesma coisa que Vmax -- descreve a velocidade máxima da enzima e dobra quando
+dobramos a quantidade total de enzima no tubo. Já o gráfico de Lineweaver-Burk é mais útil que
+a hipérbole de Michaelis-Menten para extrair os parâmetros porque a inclinação dele dá direto o
+valor de KM, e além disso o método não amplifica erros experimentais -- é estatisticamente mais
+robusto que a regressão não-linear."
+
+MODELO DE RESPOSTA
+
+Erro 1: kcat não é igual a Vmax. kcat = Vmax/[E]t -- é turnover por sítio (s-1), constante
+intrínseca da enzima. Vmax muda com [E]t kcat não. Erro 2: a inclinação do gráfico de
+Lineweaver-Burk não é KM, é KM/Vmax. O intercepto y é 1/Vmax e o intercepto x é -1/
+KM nenhum desses dá KM diretamente sem cálculo. Erro 3: Lineweaver-Burk amplifica
+erros em [S] baixo (pequenos erros experimentais ficam grandes quando se calcula 1/
+[S]). Por isso a estatística moderna recomenda regressão não-linear diretamente sobre
+v vs [S] -- mais precisa que a linearização.
+
+       42
+NEBLI                              ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 D  Q02 D            Q03 B      Q04 A     Q05 C
+Q06 C  Q07 A            Q08 C
+                                   Q12 D     Q13 E
+INTEGRAÇÃO (Q09­Q25)    Q11 C      Q17 D     Q18 CECE
+                        Q16 E      Q22 CCCE  Q23 EEEC
+Q09 C  Q10 A            Q21 C
+                                   Q29 A     Q30 D
+Q14 D  Q15 EECC         Q28 D
+
+Q19 E  Q20 C
+
+Q24 E  Q25 E
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D  Q27 A
+
+                               45
+

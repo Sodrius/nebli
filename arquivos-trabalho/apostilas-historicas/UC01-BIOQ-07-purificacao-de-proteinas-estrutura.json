@@ -1,0 +1,230 @@
+{
+  "slug": "UC01-BIOQ-07-purificacao-de-proteinas",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-BIOQ-07-purificacao-de-proteinas.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-BIOQ-07-purificacao-de-proteinas.txt",
+  "total_paginas": 35,
+  "total_palavras": 9855,
+  "total_imagens": 140,
+  "media_palavras_pagina": 281.6,
+  "paginas_amostra": [
+    1,
+    2,
+    4,
+    11,
+    13,
+    35
+  ],
+  "paginas_amostra_str": "1,2,4,11,13,35",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 132,
+      "imagens": 4,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 135,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 439,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 316,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 225,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 323,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 385,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 411,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 174,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 336,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 525,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 410,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 91,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 216,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 226,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 440,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 252,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 241,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 236,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 252,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 253,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 306,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 314,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 295,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 333,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 269,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 262,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 277,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 330,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 310,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 328,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 278,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 269,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 184,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 82,
+      "imagens": 4,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

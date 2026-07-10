@@ -1,0 +1,43 @@
+{
+  "slug": "bioq-22-lipideos-regulacao",
+  "total_armadilhas_unicas": 2,
+  "total_questoes_com_armadilha": 2,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Confundir a ordem da síntese com a da β-oxidação (que são processos inversos mas não identicamente reversíveis). Na síntese: condensação → redução (NADPH) → desidratação → segunda redução (NADPH). Na β-oxidação: oxidação (FAD) → hidratação → segunda oxidação (NAD⁺) → tiólise. O aluno inverte a direção das reações de redox.",
+      "origens": [
+        "0265"
+      ],
+      "nivel": "dificil",
+      "conceito": "Etapas enzimáticas da síntese de ácidos graxos",
+      "tags": [
+        "bioquimica",
+        "sintese-acidos-graxos",
+        "enzimas",
+        "ciclo",
+        "beta-oxidacao"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Achar que ácido graxo pode ser convertido em glicose (c) via Acetil-CoA → ciclo de Krebs → neoglicogênese. Em animais, a piruvato desidrogenase é irreversível e não há via do glioxilato — Acetil-CoA não pode ser convertido em piruvato ou oxaloacetato líquido, impedindo a síntese líquida de glicose.",
+      "origens": [
+        "q-0156"
+      ],
+      "nivel": "dificil",
+      "conceito": "Biosíntese possíveis a partir de diferentes substratos",
+      "tags": [
+        "metabolismo",
+        "gluconeogenese",
+        "lipogenese",
+        "sintese-proteina",
+        "vias-biosinteticas"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

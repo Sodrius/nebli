@@ -1,0 +1,301 @@
+Código Genético
+e Síntese Protéica (Tradução)
+O que é o código genético?
+✔ Como a seqüência de mRNA transcrito é transformado
+em seqüência protéica.
+✔ Como se traduz 4 letras do mRNA em 20 aa.
+✔ O codigo é designado como triplete:
+42 = 16 aa
+43 = 64 aa
+
+Código Genético
+
+Relação entre a sequência de bases no DNA
+(mRNA) e a sequência de aminoácidos na proteína
+
+Um grupo de 3
+bases codiﬁca
+um aa e o
+código é
+degenerado pois
+na maioria dos
+casos um
+mesmo aa pode
+ser codiﬁcado
+por vários
+tripletes
+
+Teria
+sobreposição,
+contínuo ou
+pontuado?
+
+✔ Todos os codons têm signiﬁcado: 61
+especiﬁcam para aa, e os outros 3 são
+“nonsense” ou “de parada”
+✔ Somente um aa é indicado para cada
+um dos 61 codons
+
+Síntese Protéica
+
+tRNA
+
+Ativação do aa ao tRNA
+Aminoacil-tRNA
+sintetase
+
+20 aa + tRNA -----------------> aacil-tRNA
+ATP
+
+As aa-tRNA sintetases são
+especíﬁcas (pelo menos 20).
+
+AMP + PPi
+
+Síntese Protéica
+A tradução é mediada por várias
+macromoléculas, incluindo
+mRNA, tRNA, enzimas
+ativadoras, fatores protéicos e os
+ribossomos.
+
+A síntese protéica é realizada da direção amino para
+o carboxi terminal.
+2. O mRNA é traduzido na direção 5’-> 3’ e é
+realizada nos ribossomos
+3. Vários ribossomos podem traduzir simultaneamente
+uma única molécula de mRNA
+1.
+
+Tradução em procariontes
+
+Ribossoma
+
+Mecanismos da Síntese Protéica
+
+3 fases distintas:
+Iniciação
+Elongação
+Término
+
+Iniciação: está
+relacionada à
+ligação do mRNA
+e o aminoacil-tRNA
+a pequena
+subunidade do
+Ribossomo, seguido
+da subunidade
+grande. Participação
+efetiva de Fatores
+de Iniciação (IF)
+
+Início de Síntese
+*o códon de iniciação AUG (raramente GUC ou
+UUG) está sempre contido na sua seqüência. O
+sinal de início AUG (met) é precedido de várias
+bases que reconhecem o rRNA 30S
+* seqüência complementar do rRNA, denominada
+seqüência de Shine-Dalgarno.
+5’AGGAGGXXXXXXXXAUG…3’ mRNA
+de 6 a 8 bases
+
+Fatores de Iniciação (Initiation Factors)
+●
+
+Os fatores de Iniciação (FI ou IF) são
+proteínas de peso molecular baixo que se
+ligam ao tRNA (IF-2) e ao Ribossomas
+(IF-1 e IF-3). Sua função principal é
+facilitar a ligação entre o fMet-RNAt à
+subunidade 30S ribossomomal.
+
+Met
+
+Em procariotes o f-Met-tRNAf é
+o primeiro, mas somente o
+primeiro, os outros são normais
+N-formil metionine é o primeiro aa
+de todas proteínas de E.coli.
+
+A enzima formil transferase adiciona o grupo formil.
+Não se sabe se o Met-tRNA entra no sítio P diretamente ou
+se entra primeiro no sítio A e, depois, move-se para o sítio P.
+
+✔ Elongação é a síntese de todas as ligações
+
+peptídicas com o tRNA no sítio aceptor
+(A) e no sitio peptidil (P)
+✔ Depois que a região de iniciação do
+mRNA foi corretamente ligada ao
+ribossomo, ele se move em uma direção
+ﬁxa durante a síntese protéica.
+✔ Todos os aminoacil-tRNAs subsequentes
+entram no sítio A.
+
+Depois que o segundo aminoacil-tRNA é colocado, corretamente,
+no sítio A, uma ligação peptídica se forma entre a carboxila do
+primeiro aa e o grupo amino do segundo.
+O Fator de Elongação Tu (EF-Tu) se liga aos
+aminoacyl-tRNA e com gasto de energia de GTP
+é inserido no sítio A. O EF-Tu às custas de GTP.
+
+O Fator de Elongação G (EF-G) facilita a
+translocação do ribossoma sobre o mRNA
+na direção 3’com gasto de energia de GTP.
+
+1. A formação da ligação peptídica move o
+ponto de ligação de P para o sítio A.
+2. A carboxila do aa do sítio P é transferida do
+tRNA para aminogrupo do aa do sítio A
+3. Tanto em eucariotos como em procariotos,
+3 fatores são necessários para a etapa de
+elongação da síntese protéica:
+
+em procariotos: EF-Tu, EF-Ts e EF-G
+em eucariotos: EF1a, EFlbg e EF2
+
+A peptidil transferase catalisa a
+formação da ligação peptídica
+
+•
+
+Término
+
+•
+
+ocorre quando o codon
+“stop” é alcançado.
+A presença de Fatores de
+Terminação (release
+factors; RF) no sitio A
+transforma a peptidil
+transferase em uma
+hidrolase que quebra o
+peptídeo da tRNA
+carregador.
+RF1 reconhece UAA e
+UAG
+RF2 reconhece UAA e
+UGA
+
+•
+
+•
+•
+
+Modiﬁcações pós-tradução e
+endereçamento de proteínas
+As modiﬁcações de
+proteínas acontecem
+para que as mesmas
+sejam funcionais.
+Várias modiﬁcações
+são descritas na
+literatura.
+
+X
+
+X
+
+Modiﬁcações pós-tradução e endereçamento de
+proteínas
+Entre elas:
+Fosforilação
+Metilação
+Alquilação
+Glutationação
+Digestão por proteases
+Nitração
+Oxidação
+Adição de açúcares
+
+Adição de grupos de açúcares
+
+Adição de grupos de
+açúcares
+Proteína
+
+Proteínas de membranas e
+receptores
+
+Fosforilação de proteínas
+
+Ativação de enzimas do metabolismo de açúcares.
+Ser, thr e tyr são os principais alvos de fosforilação
+
+Metilação de proteínas
+
+Metilação de proteínas acontecem principalmente
+na arginina em um ou dois grupos de NH2
+
+Alquilação de proteínas
+
+Digestão de proteínas por proteases
+
+Glutationação proteínas
+Estrutura de Glutationa
+(GSH)
+
+Glutationação proteínas
+Acontece principalmente no grupo SH livre de
+cys
+SH
+
+SH
+
+SH
+
+SSG
+
+SSG
+
+GSH
+SSG
+
+Nitração proteínas
+Acontece principalmente no aminoácido tirosina
+
+Regulação pós-tradução
+▪ Adição de fosfatos, metilas e outros grupos:
+
+Realizada depois do ﬁnal de síntese
+▪ Adição de cofatores orgânicos ou metálicos:
+A incorporação é feita simultaneamente
+durante a síntese.
+
+Regulação pós-tradução
+▪ Síntese de proteínas destinadas a outras
+
+localidades celulares: Os ribossomas estão
+associados às membranas do retículo
+endoplasmático (RE) que favorecerá o
+direcionamento das proteínas.
+
+Translocação de Proteinas: É um mecanismo essencial
+para proteínas de membrana ou mesmo de secreção
+▪
+
+O comando de ligação do ribossoma ao RE está contido no
+mRNA. A partícula de reconhecimento de sinal detecta
+um sinal no mRNA e conduz os Ribossomos para a
+membrana do RE.
+▪ A seqüência de sinal tem de 16 a 26 aa com 7-13 residuos
+hidrofóbicos
+▪ A proteina é sintetizada como uma pré-proteina
+▪ Translocases catalisam o movimento das proteínas através
+de gradientes de energia (ATP, GTP e gradientes ionicos)
+
+Direcionamento ou Secreção
+
+Exercício para a Tarde.
+▪
+
+O gene de insulina é expresso nas células pancreáticas.
+Durante a sintese de seu RNAm, o mesmo tem que ser
+processado (CAP, poli-A e retirada de introns) antes de
+expressar o hormonio insulina. Esquematize todas as
+etapas de processamento deste gene mostrando os
+mecanismos deste preparação para a sintese proteica.
+
+

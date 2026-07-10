@@ -1,0 +1,1032 @@
+NEBLI · APOSTILA
+
+Química e estrutura de
+aminoácidos
+
+Bioquímica · UC01 · Aula 6 (Bioq/04)
+
+Disciplina:    Bioquímica (UC01)
+Bloco:         Bioquímica de biomoléculas -- P1
+Nota de uso:   Estudar com o slide aberto ao lado -- o resumo complementa, não
+               substitui.
+Onde estudar:  Lehninger 8ª ed, Cap. 3 §3.1 e §3.2 · Devlin Cap. 3 · slide do professor (16
+               frames)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa -- não substitui -- a aula.
+
+                                               Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A anatomia comum dos aminoácidos
+       1.1 O alfabeto químico -- C, COOH, NH e a cadeia lateral
+       1.2 As cinco famílias da cadeia lateral
+       1.3 Aminoácidos modificados e funções não-proteicas
+  PARTE II -- pKa, zwitteríon e ponto isoelétrico
+       2.1 Por que cada aminoácido tem três pKa
+       2.2 Lendo a curva de titulação -- tampão e pI
+       2.3 Calculando o pI -- qual par de pKa importa
+  PARTE III -- Da molécula ao diagnóstico
+       3.1 A ligação peptídica -- condensação e direção NC
+       3.2 Proteínas inteiras também têm pI
+       3.3 Eletroforese de soro e gamopatia monoclonal
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (10) · Integração (15) · Aplicação (5)
+       Gabarito consolidado ao final do documento
+
+ETAPA 3 -- 5 DISCURSIVAS MECANÍSTICAS
+       Resposta-modelo curta (100 palavras; Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       7 questões selecionadas do banco, gabarito inline
+
+ETAPA 5 -- NEBLICARDS
+       8 cartões de revisão espaçada (1 cloze por card)
+
+FECHAMENTO
+       Gabarito consolidado da Etapa 2
+       Resumindo (panorama em 1 página)
+       Glossário de siglas
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Os 20 aminoácidos canônicos são o alfabeto da vida. Vinte letras, e cada proteína do seu corpo -- da hemoglobina
+    que carrega oxigênio até a queratina dos seus cabelos -- é uma palavra escrita com essas letras em ordem específica.
+    Mas antes de entender como a sequência cria função (isso fica para o resumo de Proteínas I), precisamos olhar
+    bem para cada letra. E aqui está o que faz dos aminoácidos um tema mais rico do que parece: cada um deles é, ao
+    mesmo tempo, uma molécula com personalidade química própria (carga, polaridade, tamanho, capacidade
+    de formar ligações de hidrogênio) e um ácido poliprótico -- ou seja, libera mais de um próton em pH diferente, e
+    por isso tem um comportamento ácido-base que vai muito além da titulação de HCl que você fez no ensino médio.
+    Esse comportamento explica três coisas que aparecem direto na clínica: por que a histidina é o tampão favorito
+    do sangue, por que cada proteína tem um pH preferido e por que a eletroforese de soro detecta mieloma múltiplo.
+    Vamos do átomo ao laboratório de análises clínicas em três passos.
+
+PARTE I -- A anatomia comum dos aminoácidos
+
+1.1 O alfabeto químico -- C, COOH, NH e a cadeia lateral
+Antes de qualquer coisa, vamos fixar uma definição prática. Um aminoácido1 é uma molécula com quatro
+vizinhos pendurados num único carbono central. Esse carbono central tem nome: chama-se carbono 2. E os
+quatro vizinhos são sempre os mesmos em 19 dos 20 aminoácidos canônicos: um grupo carboxila (--COOH),
+um grupo amino (--NH), um hidrogênio (--H) e o famoso grupo R -- a cadeia lateral.
+
+   1aminoácido -- molécula com um grupo carboxila (--COOH) e um grupo amino (--NH) ligados ao mesmo carbono central, chamado
+carbono alfa
+
+   2carbono  -- o carbono central do aminoácido, ligado simultaneamente ao grupo carboxila, ao amino, a um hidrogênio e à cadeia lateral R
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estrutura geral do aminoácido. Repare como o carbono  concentra quatro vizinhos diferentes: amino à esquerda, carboxila acima,
+hidrogênio à direita e a cadeia lateral R embaixo. Tudo o que diferencia os 20 aminoácidos canônicos está naquele R -- o resto da
+molécula é idêntico.
+
+Por que isso importa? Porque o tronco do aminoácido -- C com COOH, NH e H -- é igual em todos. Quando
+você ligar dois aminoácidos por uma ligação peptídica (vamos chegar lá em 3.1), os grupos amino e carboxila
+são consumidos na ligação. O que sobra exposto e disponível para interagir com tudo ao redor (água, outros
+aminoácidos da mesma proteína, ligantes, íons) é justamente o R. Por isso a cadeia lateral é o personagem
+principal do resumo inteiro: ela define se o aminoácido é ácido ou básico, se é hidrofóbico ou hidrofílico, se vai
+parar dobrado para dentro da proteína ou exposto para fora. As 20 personalidades nascem de 20 R diferentes.
+
+   Uma observação geométrica que vai voltar a importar várias vezes: como o C tem quatro vizinhos difer
+entes (com exceção da glicina, em que R = H), ele é um centro quiral -- ou seja, existe na forma "esquerda" e na
+forma "direita" da mesma molécula, como mãos espelhadas. A natureza, por uma razão que parece arbitrária
+mas é evolutivamente ancorada, escolheu apenas a forma L para construir proteínas. Toda enzima do seu corpo
+reconhece L-aminoácidos; D-aminoácidos existem (em parede bacteriana, por exemplo), mas não entram na
+sua linha de montagem ribossomal. Essa estereoespecificidade vai ser cobrada quando você estudar enzimas
+-- guarde para depois.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: C = carbono central + 4 grupos (COOH, NH, H, R). O R define a personalidade química do
+aminoácido. Quiralidade L é exclusiva das proteínas.
+
+1.2 As cinco famílias da cadeia lateral (e por que mesmo apolar é solúvel)
+Os 20 aminoácidos canônicos são classificados em cinco famílias químicas, e a classificação é feita olhando só
+para o R. As famílias são: apolares alifáticos (cadeias de carbono e hidrogênio sem anel), apolares aromáticos
+(com anel benzeno ou similar), polares não-carregados (têm --OH, --SH ou --NH no R, mas não ionizam em
+pH fisiológico), polares carregados positivamente (lisina, arginina, histidina -- têm nitrogênio que captura
+próton e fica +) e polares carregados negativamente (aspartato e glutamato -- têm carboxila extra no R que
+perde próton e fica -).
+
+Tabela dos 20 aminoácidos com códigos de 3 e 1 letra. Note como o slide já marca por cor as cinco famílias -- amarelo para apolares,
+azul para polares neutros, vermelho para os carregados. Essa codificação volta nas tabelas de pKa e nos slides de proteínas.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estruturas dos apolares alifáticos e aromáticos. Repare que o R deles é só carbono e hidrogênio -- não há nada que possa formar
+ligação com água. São essas as cadeias laterais que se enterram no miolo hidrofóbico das proteínas. A prolina é a peculiar do grupo:
+seu R volta e se liga ao próprio nitrogênio do amino, formando um anel rígido (isso vai destruir hélices  no resumo de Proteínas I).
+
+Agora a confusão a desfazer, e o próprio slide do professor avisa em letras vermelhas: classificação é
+arbitrária, e mesmo aminoácidos "apolares" são solúveis em água. Como assim? A resposta está em
+onde o aminoácido livre carrega carga. No pH fisiológico ( 7,4), o grupo COOH está desprotonado (vira COO)
+e o grupo NH está protonado (vira NH) -- então o tronco do aminoácido carrega duas cargas opostas,
+uma positiva e uma negativa. Essa forma com cargas separadas chama-se zwitteríon3. Mesmo quando o R é
+um hidrocarboneto puramente hidrofóbico (como na valina ou na leucina), o tronco zwitteriônico interage
+
+   3zwitteríon -- forma anfótera do aminoácido em pH fisiológico, com o NH protonado a +1 e o COOH desprotonado a -1, gerando carga
+líquida zero mas com dois polos elétricos
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+fortemente com água -- e por isso o aminoácido livre é solúvel. Quando esses mesmos aminoácidos viram
+resíduos numa proteína, o NH e o COOH são consumidos pela ligação peptídica, e aí sim o R fica isolado:
+leucina dentro de uma proteína realmente se comporta como hidrofóbica. A distinção livre × residual é o que
+confunde o aluno na primeira leitura.
+
+Aminoácido livre × resíduo numa proteína
+
+   Aminoácido livre em solução: tronco zwitteriônico (NH + COO) puxa para a água; mesmo R hidrofóbico
+fica solúvel. Aminoácido como resíduo numa proteína: NH e COOH foram consumidos pela ligação peptídica,
+sobrou só o R exposto -- agora sim, R hidrofóbico vai para o miolo, R polar fica na superfície. A classificação por
+polaridade vale para o resíduo, não para o aminoácido isolado.
+
+Os polares carregados são os personagens mais ativos quimicamente: os positivos (Lys, Arg, His) frequente
+mente estabilizam moléculas com carga negativa (ATP, DNA, fosfatos de substratos enzimáticos); os negativos
+(Asp, Glu) atraem cátions metálicos no sítio ativo de muitas enzimas (Mg², Zn², Ca²). A histidina merece
+destaque especial -- voltaremos a ela na PARTE II, porque seu R tem pKa  6,0, o único entre os 20 que está
+perto do pH fisiológico, fazendo dela o tampão preferido das proteínas. A cisteína também é especial porque
+seu --SH pode formar ponte dissulfeto (--S--S--) com outra cisteína, costurando partes distantes da proteína
+(volta no resumo de Proteínas I).
+
+1.3 Aminoácidos modificados e funções para além da proteína
+Os 20 canônicos são o que entra na linha de montagem do ribossomo. Mas o corpo precisa de outras peças
+-- e a estratégia evolutiva foi simples: pega um dos 20, encaixa na proteína via ribossomo, e depois modifica
+quimicamente o resíduo já dentro da proteína. Essas modificações pós-traducionais geram os aminoácidos
+incomuns4. Quatro exemplos importam para a clínica: 4-hidroxiprolina e 5-hidroxilisina (geradas no colágeno
+por hidroxilação dependente de vitamina C -- a deficiência da vitamina causa escorbuto, doença em que o
+colágeno fica frouxo); -carboxiglutamato (Gla, gerado por uma carboxilação dependente de vitamina K --
+fundamental para a cascata de coagulação, é por isso que warfarina, antagonista da vitamina K, anticoagula);
+selenocisteína (o 21º aminoácido proteinogênico, raro mas presente em enzimas antioxidantes como a
+glutationa peroxidase); desmosina (cruzamento de quatro lisinas que dá elasticidade à elastina dos pulmões
+e artérias).
+
+   4aminoácidos incomuns -- aminoácidos modificados quimicamente após a tradução, como hidroxiprolina e hidroxilisina no colágeno
+ou -carboxiglutamato na cascata de coagulação
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Acima: o C como centro quiral, com L-alanina e D-alanina espelhadas. Apenas a forma L participa de proteínas. Abaixo: alguns
+aminoácidos incomuns -- hidroxiprolina, -carboxiglutamato e selenocisteína. Todos são modificações de um dos 20 canônicos, feitas
+depois que o ribossomo já fez seu trabalho.
+
+                                                                                 8
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+Funções não-proteicas dos aminoácidos
+
+   Vários aminoácidos viram precursores de moléculas sinalizadoras importantes: o glutamato é, ele próprio, o
+principal neurotransmissor excitatório do SNC a descarboxilação do glutamato gera GABA, o principal inibitório;
+a tirosina origina dopamina, noradrenalina, adrenalina e a tiroxina (T4, hormônio da tireoide); o triptofano
+origina a serotonina; a histidina, por descarboxilação, vira histamina (o mediador da inflamação e da alergia --
+antialérgicos como loratadina bloqueiam justamente seus receptores). A glicina, na medula espinal, é o segundo
+neurotransmissor inibitório. Quando você decora "aminoácido é peça de proteína", lembre-se que ele é também
+farmácia.
+
+Síntese PARTE I -- Cada aminoácido = tronco comum (C + COOH + NH + H) + cadeia lateral R única. R
+define personalidade em 5 famílias: apolares alifáticos, apolares aromáticos, polares neutros, polares + (Lys, Arg,
+His), polares - (Asp, Glu). Aminoácido livre é zwitteriônico e solúvel em água; o R só "mostra a cara" hidrofóbica
+quando vira resíduo dentro de proteína. Modificações pós-traducionais geram aminoácidos incomuns (Hyp
+do colágeno, Gla da coagulação, selenocisteína dos antioxidantes). E vários canônicos têm vida própria como
+precursores de neurotransmissores e hormônios.
+
+PARTE II -- Aminoácido como ácido poliprótico: pKa, zwit
+teríon e pI
+
+2.1 Por que cada aminoácido tem três pKa (e a glicina tem dois)
+Aqui o assunto se conecta diretamente com o resumo de pH e tampões. Voltamos a Henderson-Hasselbalch
+(HH), só que agora aplicado a uma molécula que tem vários grupos ionizáveis na mesma molécula. Em
+pH baixo (ácido forte), tudo o que pode capturar próton, captura -- o COOH fica intacto como --COOH e o
+NH vira --NH. Em pH alto (básico forte), tudo o que pode soltar próton, solta -- o COOH vira --COO e o
+NH vira NH neutro. Entre os dois extremos, conforme você adiciona OH, o aminoácido perde prótons um
+por vez, em ordem: primeiro sai o do COOH (que é o mais ácido, pKa 2), depois sai o da cadeia lateral se ela for
+ionizável (pKa varia conforme o R), e por último sai o do NH (pKa 9-10). Cada perda corresponde a um pKa.
+
+       9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Acima: forma não-iônica (hipotética, só existe em vácuo) versus forma zwitteriônica (o que de fato existe em solução, em pH
+fisiológico). Abaixo: a transição completa conforme o pH sobe, da forma totalmente protonada (+1) para a zwitteriônica (0) e para
+a totalmente desprotonada (-1). Cada flecha representa a perda de um próton com seu pKa próprio. AAs se comportam como ácidos
+polipróticos.
+
+Aminoácidos sem grupo ionizável na cadeia lateral (glicina, alanina, valina, leucina, etc. -- a maioria dos
+apolares) têm só dois pKa: o do COOH (pK  2) e o do NH (pK  9). Aminoácidos com R ionizável (Asp,
+Glu, Lys, Arg, His, Cys, Tyr) têm três pKa: pK do COOH, pK_R da cadeia lateral, e pK do NH. O pK_R é o
+que dá personalidade ácido-base ao aminoácido: aspartato tem pK_R  3,9 (é ácido extra); lisina tem pK_R 
+10,5 (é base extra); histidina, pK_R  6,0 -- repare como esse último está muito perto do pH fisiológico de
+7,4, o que faz da histidina a única cadeia lateral que tampona efetivamente o sangue.
+
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Henderson-Hasselbalch volta aqui -- mas com várias ionizações
+
+   Em torno de cada pKa, o aminoácido se comporta como um tampão (você já viu isso em pH/tampões: tampão
+tampona em ±1 unidade do pKa). Por isso o aminoácido tem várias zonas de tamponamento -- uma por pKa.
+Em pH 2 ele tampona pelo COOH; em pH 9 tampona pelo NH; e se for histidina, tampona também em pH 6. É
+por isso que a frase do slide "AAs se comportam como ácidos polipróticos" é mais do que rótulo: é diretamente o
+que prediz como cada um vai responder a uma curva de titulação.
+
+2.2 Lendo a curva de titulação -- onde está o tampão, onde está o pI
+Uma curva de titulação é só um gráfico de pH (eixo Y) em função da quantidade de OH adicionado (eixo
+X). Você começa com o aminoácido todo protonado em pH baixo e vai adicionando base aos poucos. Para a
+glicina, que só tem dois pKa, a curva tem duas regiões planas (os "patamares" onde o pH muda pouco com
+adição de base -- porque ali está tamponando) separadas por um pulo (onde o pH sobe rápido -- não há mais
+grupo perto para receber o próton).
+
+       11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Curva de titulação da glicina. Patamar de baixo (caixa rosa esquerda) = COOH tampona em pH ~2,34 (= pK). Patamar de cima
+(caixa rosa direita) = NH tampona em pH ~9,60 (= pK). Entre os dois patamares, o pulo: ali está o pI (ponto isoelétrico), em pH
+5,97 -- a glicina existe predominantemente como zwitteríon, carga líquida zero. Note que o pI fica exatamente no meio dos dois pKa,
+porque a glicina não tem cadeia lateral ionizável.
+
+O ponto exato de meio-equivalente de cada região plana é o pKa daquele grupo -- é onde metade das moléculas
+perdeu o próton e metade ainda não perdeu (a definição de pKa, basicamente). E há um ponto especial entre
+os dois patamares: o pH em que a carga líquida da molécula é zero -- todas as moléculas estão na forma
+zwitteriônica (NH + COO = 0). Esse ponto chama-se ponto isoelétrico5 (pI). Para glicina, pI = 5,97. Para um
+aminoácido com R ionizável, a curva tem três patamares e dois pulos -- e o pI estará num desses dois pulos,
+em posição que depende da natureza do R.
+
+   5ponto isoelétrico -- pH em que a carga líquida da molécula é zero, ou seja, a soma de todas as cargas positivas iguala a soma de todas
+as cargas negativas
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Curva da histidina, três pKa: pK  1,82 (COOH), pK_R  6,0 (imidazol da cadeia lateral), pK  9,17 (NH). Repare como o patamar
+central, em torno de pH 6, é a região de tamponamento da cadeia lateral imidazólica -- e é justamente essa proximidade com o pH
+fisiológico (7,4) que faz da histidina o tampão favorito do sangue. Toda hemoglobina aproveita esse imidazol no efeito Bohr; nas
+proteínas, His é a única cadeia lateral que pode pegar ou soltar próton em condição fisiológica.
+
+2.3 Calculando o pI -- qual par de pKa importa, e por que
+A regra para calcular o pI é simples mas pede atenção: você identifica a forma com carga líquida zero (Z) e
+tira a média dos dois pKa que delimitam essa forma -- o pKa da reação que gera Z vindo da forma +1, e o pKa
+da reação que consome Z indo para a forma -1. Em fórmula: pI = (pKa que leva +1  0 + pKa que leva 0 
+-1) / 2. Para a glicina, sem R ionizável, é direto: pI = (pK + pK)/2 = (2,34 + 9,60)/2 = 5,97.
+
+   Para um aminoácido ácido como o aspartato, o segredo é perguntar: a forma zero está antes ou depois do
+pK do R? O aspartato tem dois grupos COOH (o do tronco e o do R) e um NH. Em pH muito baixo, ele tem
+carga +1 (tronco protonado: NH + COOH + COOH-R = +1 - 0 - 0). Ao subir o pH, o primeiro COOH a soltar
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+é o do tronco (pK  2,0): vai para 0 (NH + COO + COOH = 0). Subindo mais, o COOH da cadeia lateral solta
+(pK_R  3,9): vai para -1 (NH + COO + COO = -1). O ciclo Z é gerado em pK  2,0 e consumido em pK_R
+ 3,9. Então pI = (2,0 + 3,9)/2  3,0. O pI dos aminoácidos ácidos é baixo -- exatamente porque há um grupo
+extra negativo que precisa ser neutralizado por carga positiva, e a carga positiva só vem do NH que ainda
+está protonado em pH baixo. Para um aminoácido básico como a lisina, a lógica é inversa: pI fica alto ( 9,7),
+porque o NH extra do R só sai em pH alto.
+
+Resumindo até aqui: pI = média dos dois pKa que delimitam a forma Z. Aminoácido neutro  pI  6. Ácido 
+pI baixo ( 3). Básico  pI alto ( 9-10).
+
+Síntese PARTE II -- Cada aminoácido tem 2 ou 3 pKa: COOH ( 2), R (se houver, varia), NH ( 9). Em torno de
+cada pKa há uma zona de tamponamento -- daí a histidina (pK_R  6,0) ser o tampão fisiológico por excelência.
+O pI é o pH onde a carga líquida é zero; calcula-se pela média dos dois pKa que delimitam a forma Z. AA neutro:
+pI  6. AA ácido: pI baixo. AA básico: pI alto. Em pH > pI a molécula está globalmente negativa; em pH < pI,
+globalmente positiva -- guarde isso para a eletroforese na PARTE III.
+
+PARTE III -- Da molécula ao diagnóstico
+
+3.1 A ligação peptídica -- condensação, resíduo e direcionalidade NC
+Para formar uma proteína, aminoácidos se ligam covalentemente entre o grupo carboxila de um e o grupo
+amino do seguinte. O grupo OH do carboxila e o H do amino saem como uma molécula de água -- é uma reação
+de condensação6. A ligação química nova entre o C da carboxila e o N do amino chama-se ligação peptídica.
+
+   6condensação -- reação química em que dois grupos funcionais se ligam covalentemente liberando uma molécula pequena, tipicamente
+água
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Formação da ligação peptídica entre dois aminoácidos. O OH da carboxila do AA1 e o H do amino do AA2 saem como HO; sobra a
+ligação C--N. Note que o que está dentro do retângulo vermelho ganha um nome próprio: cada um vira um "resíduo de aminoácido".
+A reação é reversível em princípio (a hidrólise reverte tudo, é o que enzimas digestivas como tripsina e quimotripsina fazem no
+intestino), mas em pH neutro e sem catalisador a ligação peptídica é extremamente estável -- tem meia-vida de centenas de anos.
+
+Cada unidade dentro da cadeia, que perdeu seu COOH e seu NH originais para a ligação, ganha um nome
+próprio: resíduo de aminoácido7. E a cadeia, mesmo longa, mantém um N-terminal (a extremidade onde
+sobra um NH livre, do primeiro aminoácido) e um C-terminal (onde sobra um COOH livre, do último). Por
+convenção universal, sequências de proteína são escritas e numeradas do N-terminal para o C-terminal -- e a
+
+   7resíduo de aminoácido -- unidade de aminoácido dentro de uma cadeia peptídica; difere do aminoácido livre porque os grupos COOH
+e NH foram consumidos pelas ligações peptídicas dos vizinhos
+
+                                                                                15
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+síntese ribossomal acontece nessa mesma direção. Isso vai ser explorado no resumo de tradução: o ribossomo
+monta a proteína NC, como você lê uma frase, da esquerda para a direita.
+
+3.2 Proteínas inteiras também têm pI (e ele depende da composição)
+Se cada aminoácido livre tem um pI, e uma proteína é feita de centenas de resíduos com cadeias laterais
+ionizáveis (Asp, Glu, Lys, Arg, His, Cys, Tyr), então a proteína inteira também tem um pI -- o pH em que
+a soma das cargas positivas e negativas de todas as cadeias laterais se anula. E esse pI proteico depende da
+composição. Olhe o exemplo da albumina sérica: 585 resíduos, dos quais 61 são glutamato e 36 são aspartato (97
+negativos), e 57 lisina, 24 arginina, 16 histidina (97 positivos). Embora pareça empate, os pKa diferentes desses
+grupos fazem com que a albumina tenha um pI  4,9 -- ou seja, ela é uma proteína ácida. Em pH fisiológico
+(7,4), pH > pI, então a albumina está globalmente negativa.
+
+       16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Acima: uma cadeia peptídica esquemática (Ala-Glu-Gly-Lys) mostrando que as cadeias laterais ionizáveis (COO do glutamato,
+NH da lisina) é que ditam o pI da proteína inteira. Abaixo: pIs característicos de proteínas comuns -- pepsina extremamente ácida
+(pI ~1, daí ela funcionar no estômago), albumina sérica ácida (~4,9), hemoglobina próxima do neutro (6,8), lisozima e citocromo c
+francamente básicos (>10). Cada proteína tem um pI próprio, que serve como uma assinatura química.
+
+    pI da proteína × pH do meio -- a regra de ouro da carga
+       Em pH > pI, a proteína está globalmente negativa (perdeu mais prótons do que ganhou). Em pH < pI, está
+
+    globalmente positiva. No pI exato, carga líquida zero -- e aí ela tem solubilidade mínima e tende a precipitar
+    (é assim que a queijaria forma a coalhada: leva o leite ao pI da caseína). Essa regra explica como a eletroforese
+    separa proteínas: você escolhe um pH único (geralmente em torno de 8,6, alcalino) e todas as proteínas com pI <
+    8,6 ficam negativas -- mas em graus diferentes, conforme a distância entre o pI delas e o pH do meio.
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+3.3 Eletroforese de soro -- quando a diferença de pI vira diagnóstico
+Reúna o que vimos até aqui e a eletroforese fica óbvia. Você pega uma amostra de soro (contém centenas de
+proteínas -- albumina, -, -, - e -globulinas, basicamente), coloca num gel num pH alcalino, e aplica um
+campo elétrico. Como em pH 8,6 quase toda proteína sérica está negativa (todas têm pI < 8,6), todas migram em
+direção ao polo positivo (anodo). Mas migram em velocidades diferentes, dependendo da carga líquida e do
+tamanho. A albumina, muito negativa e relativamente pequena, voa para o anodo. As -globulinas (anticorpos),
+com pI  7-8, têm carga líquida pequena em pH 8,6 e mal se mexem. Entre os dois extremos, ficam  e 
+globulinas em posições intermediárias. O resultado é uma série de bandas distribuídas no gel, que viram um
+traçado característico no densitômetro.
+
+       18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Eletroforese de proteínas séricas. À esquerda: padrão normal -- albumina dominante (pico alto),  pequena,  moderada, 
+moderada,  ampla e em distribuição policlonal (vários anticorpos de várias subclasses migram com pIs ligeiramente diferentes,
+formando uma faixa larga). À direita: padrão patológico -- banda  estreita e altíssima, sinal de gamopatia monoclonal (um único
+clone de plasmócito produzindo um único anticorpo em quantidade enorme). É a assinatura eletroforética do mieloma múltiplo.
+
+                                                                                19
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que isso aparece direto na prova e na clínica
+
+   A eletroforese de proteínas séricas é o exame que detecta gamopatia monoclonal -- situação em que um único
+clone de plasmócitos do paciente passou a produzir um único anticorpo (uma única paraproteína) em quantidades
+enormes. A paraproteína migra como uma banda estreita (porque é uma molécula única, com um pI único),
+aparecendo no traçado como um "pico em forma de igreja" na zona gama. Essa é a marca laboratorial clássica do
+MM também aparece em macroglobulinemia de Waldenström e em MGUS. Repare que tudo o que viabilizou esse
+exame foi a química que você está aprendendo agora: a ideia de pI, a propriedade de proteínas diferentes terem
+pI diferentes, e a regra de carga em função de pH × pI.
+
+Síntese PARTE III -- A ligação peptídica é uma condensação que solta HO entre o COOH de um aminoácido
+e o NH do seguinte -- e o que sobra dentro da cadeia é o resíduo. Sequência é sempre escrita NC. Proteínas
+inteiras herdam o conceito de pI dos aminoácidos: cada proteína tem um pI próprio, ditado pela composição de
+cadeias laterais ionizáveis. Em pH > pI a proteína está negativa, em pH < pI positiva, no pI exato solubilidade
+mínima. A eletroforese de soro explora isso: separa proteínas em pH alcalino, e a banda  estreita assina gamopatia
+monoclonal -- porta de entrada laboratorial para o mieloma múltiplo.
+
+Conclusão integradora
+
+   Vimos os aminoácidos em três planos. No primeiro, anatomia química: tronco comum (C + COOH
++ NH + H) e cadeia lateral R, que diferencia os 20 canônicos em cinco famílias. R é o personagem --
+define hidrofobicidade, capacidade de fazer ligação de hidrogênio e carga. No segundo plano, compor
+tamento ácido-base: aminoácidos são poliprotéticos, com 2 ou 3 pKa, e o ponto isoelétrico (pI) é o pH
+onde a carga líquida zera -- o paralelo direto com pH/tampões do resumo 1 A histidina, com pK_R  6,0,
+é a peça-chave do tamponamento fisiológico das proteínas. No terceiro plano, consequências macro
+moleculares: a ligação peptídica encadeia resíduos numa sequência NC que vai virar proteína; cada
+proteína inteira tem seu próprio pI, e a diferença de pI entre proteínas é o que a eletroforese explora para
+diagnosticar doenças tão diferentes quanto mieloma múltiplo e hepatopatias. A ponte entre química de
+bancada (titular um aminoácido com KOH) e clínica (interpretar uma eletroforese de soro) é o mesmo
+conceito de pI -- e é por isso que esta aula, aparentemente "básica", aparece direto em provas de
+Bioquímica, Imunologia e Patologia Clínica.
+
+       20
+NEBLI                           ETAPA 1 -- TEXTO DIDÁTICO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+   Qual conjunto de grupos químicos está, simultaneamente, ligado ao carbono  de todos os 20 aminoácidos
+
+canônicos (excetuando-se peculiaridades de cadeia lateral)?
+  A) Carboxila, hidroxila, hidrogênio e cadeia lateral R.
+  B) Amino, fosfato, hidrogênio e cadeia lateral R.
+  C) Carboxila, amino, hidrogênio e cadeia lateral R.
+  D) Carboxila, amino, oxidrila e cadeia lateral R.
+  E) Sulfidrila, amino, hidrogênio e cadeia lateral R.
+
+Questão 02 Consolidação
+   As proteínas dos seres vivos são montadas com aminoácidos de qual configuração estereoquímica?
+  A) D-aminoácidos, porque oferecem maior estabilidade conformacional à hélice .
+  B) Apenas L-aminoácidos contendo grupo R hidrofóbico, para garantir o miolo apolar.
+  C) Uma mistura racêmica de D- e L-aminoácidos, ajustada pelo ribossomo.
+  D) D-aminoácidos no N-terminal e L-aminoácidos no C-terminal.
+  E) Apenas L-aminoácidos, configuração reconhecida pela maquinaria de tradução.
+
+Questão 03 Consolidação
+   Em qual das alternativas todos os aminoácidos pertencem à mesma família química (classificação baseada
+
+no grupo R)?
+  A) Valina, leucina, isoleucina -- apolares alifáticos.
+  B) Lisina, glutamato, histidina -- polares carregados positivamente.
+  C) Serina, treonina, fenilalanina -- polares não-carregados.
+  D) Aspartato, glutamato, asparagina -- polares carregados negativamente.
+  E) Triptofano, prolina, tirosina -- apolares aromáticos.
+
+                            21
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre o comportamento do aminoácido livre em solução aquosa em pH fisiológico ( 7,4), julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+I. O grupo COOH permanece protonado, conservando carga zero no carbono carboxílico.
+II. O grupo NH permanece desprotonado, neutro, com carga zero.
+III. A forma predominante é o zwitteríon, com NH e COO coexistindo na mesma molécula.
+IV. Mesmo aminoácidos com cadeia lateral hidrofóbica (como leucina) são solúveis em água quando livres,
+porque o tronco zwitteriônico ainda interage fortemente com a água.
+
+Questão 05 Consolidação
+
+   Qual aminoácido é precursor direto, por descarboxilação, do principal neurotransmissor inibitório do
+sistema nervoso central?
+
+  A) Tirosina, que origina dopamina.
+  B) Glutamato, que origina GABA.
+  C) Triptofano, que origina serotonina.
+  D) Histidina, que origina histamina.
+  E) Glicina, que já é, ela própria, o inibitório medular.
+
+Questão 06 Consolidação
+
+   A formação de -carboxiglutamato (Gla) a partir de resíduos de glutamato em proteínas da cascata de
+coagulação depende de qual cofator vitamínico?
+
+  A) Vitamina B (piridoxina), cofator de transaminases.
+  B) Vitamina B (cianocobalamina), cofator de mutases.
+  C) Vitamina C (ascorbato), redutor essencial.
+  D) Vitamina K, indispensável à -carboxilase do retículo endoplasmático hepático.
+  E) Vitamina A (retinol), envolvida na sinalização nuclear.
+
+                         22
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 07 Consolidação
+
+O pK dos aminoácidos refere-se à ionização de qual grupo, e está aproximadamente em qual faixa de valor?
+A) Grupo -carboxila (COOH), com pKa próximo de 2.
+B) Grupo -amino (NH), com pKa próximo de 9.
+C) Cadeia lateral R, exclusivamente em aminoácidos básicos, com pKa próximo de 10.
+D) Grupo hidroxila terminal, com pKa próximo de 7.
+E) Sulfidrila da cisteína, com pKa próximo de 8.
+
+Questão 08 Consolidação
+
+   Sobre o comportamento ácido-base dos aminoácidos, julgue os itens.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Aminoácidos sem grupo ionizável na cadeia lateral (como Gly, Ala, Val) possuem dois pKa.
+  II. Aminoácidos com cadeia lateral ionizável (como Asp, Glu, Lys, Arg, His) possuem três pKa.
+  III. O pKa do grupo -amino (NH) é tipicamente menor do que o pKa do grupo -carboxila (COOH).
+  IV. Em todo aminoácido, o pK (NH) é o primeiro grupo a perder próton quando o pH sobe a partir de
+  pH 1.
+
+Questão 09 Consolidação
+
+   Na curva de titulação da glicina, os dois patamares (zonas de pH aproximadamente estável apesar da adição
+de base) correspondem a:
+
+  A) Pontos de equivalência da reação ácido-base, onde a glicina está completamente ionizada.
+  B) Pontos onde a glicina precipita por insolubilidade isoelétrica.
+  C) Pontos onde o tampão glicina-glicinato troca de carga líquida instantaneamente.
+  D) Regiões de tamponamento, em torno de pK (COOH) e pK (NH), onde a glicina resiste à variação de pH.
+  E) Regiões onde o zwitteríon converte-se na forma D da glicina, mais estável.
+
+                         23
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 10 Consolidação
+
+O ponto isoelétrico (pI) de um aminoácido é definido como o pH em que:
+A) Todos os grupos ionizáveis estão simultaneamente protonados.
+B) A carga líquida da molécula é zero (cargas + e - se cancelam).
+C) A solubilidade do aminoácido é máxima e ele permanece totalmente dissolvido.
+D) O aminoácido se comporta exclusivamente como ácido, doando prótons.
+E) O aminoácido se ioniza em apenas um dos seus grupos funcionais.
+
+Questão 11 Integração
+
+   Considere os aminoácidos lisina (Lys), aspartato (Asp), serina (Ser), prolina (Pro) e fenilalanina (Phe). Qual
+deles, devido a peculiaridade estrutural da própria cadeia lateral, costuma interromper hélices  porque seu R
+volta e se liga ao próprio nitrogênio , formando um anel rígido?
+
+  A) Lisina, porque o grupo amino terminal repele outras carga positivas.
+  B) Aspartato, porque a carboxila lateral compete com o backbone.
+  C) Serina, porque a hidroxila lateral forma ligações de hidrogênio competitivas.
+  D) Fenilalanina, porque o anel aromático é grande demais para a hélice.
+  E) Prolina, porque seu R volta e se liga ao próprio nitrogênio , gerando um anel rígido.
+
+Questão 12 Integração
+
+   Em uma curva de titulação da histidina, observa-se um patamar de tamponamento em torno de pH 6,0, mais
+central do que os patamares da maioria dos demais aminoácidos. Qual conceito explica diretamente por que
+esse comportamento é fisiologicamente relevante para o sangue (pH 7,4)?
+
+  A) O imidazol da histidina, com pK_R próximo de 6,0, tampona melhor em pH muito ácido, longe de 7,4.
+  B) A histidina é o aminoácido mais abundante nas proteínas plasmáticas, daí seu impacto numérico.
+  C) Em torno do pH fisiológico de 7,4, o imidazol está parcialmente protonado e pode rapidamente capturar
+  ou liberar H, comportando-se como tampão proteico efetivo.
+  D) A histidina não tampona em pH fisiológico; o tampão fisiológico real é a lisina, com pK_R 10,5.
+  E) A histidina está sempre protonada em pH 7,4 e por isso desempenha papel estrutural, não tamponante.
+
+                         24
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+   Considere dois aminoácidos: aminoácido X tem pK = 2,1, pK_R = 4,1 e pK = 9,7; aminoácido Y tem pK =
+2,2, pK_R = 10,5 e pK = 9,1. Quais são, aproximadamente, os pIs de X e Y?
+
+  A) pI(X)  3,1 (ácido) e pI(Y)  9,8 (básico).
+  B) pI(X)  5,9 (neutro) e pI(Y)  5,9 (neutro).
+  C) pI(X)  6,9 e pI(Y)  6,6 -- diferença pequena, ambos tampão excelente em pH 7,4.
+  D) pI(X)  9,7 (básico) e pI(Y)  2,2 (ácido).
+  E) pI(X)  4,1 e pI(Y)  10,5 -- diretamente o pK_R.
+
+Questão 14 Integração
+
+   Sobre a relação entre cadeia lateral e localização do resíduo numa proteína globular solúvel em água, julgue
+os itens.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Resíduos com cadeia lateral hidrofóbica (Val, Leu, Ile, Phe, Met) tendem a ocupar o miolo da proteína,
+  longe da água.
+  II. Resíduos com cadeia lateral carregada (Lys, Arg, Asp, Glu) tendem a ocupar a superfície da proteína, em
+  contato com a água.
+  III. Resíduos polares neutros (Ser, Thr, Asn, Gln) tendem a ocupar a superfície, podendo fazer ligações de
+  hidrogênio com a água.
+  IV. No aminoácido livre em solução, a leucina é insolúvel em água por causa do R apolar, contradizendo a
+  regra "como livre, todo AA é solúvel".
+
+Questão 15 Integração
+
+   Aplicando a equação de Henderson-Hasselbalch a um aminoácido com pK_R = 6,0 (histidina) em pH 7,0, qual
+é, aproximadamente, a proporção entre a forma protonada (HA, imidazólio) e a desprotonada (A, imidazol)
+da cadeia lateral?
+
+  A) 10 protonadas para 1 desprotonada -- pH < pKa, predomina HA.
+  B) Praticamente todas protonadas -- apenas em pH > 8 começa a desprotonação.
+  C) 1:1 -- pH = pKa, sempre meia titulação.
+  D) 1 protonada para 10 desprotonadas -- pH 1 unidade acima do pKa.
+  E) 1:100 -- proporção tão pequena que o imidazol não tampona.
+
+                       25
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 16 Integração
+
+   Considere uma proteína composta exclusivamente por 50 resíduos de glutamato e 50 resíduos de lisina
+(proteína artificial, mas ilustrativa). Seu pI esperado estará:
+
+  A) Próximo de 2 -- Glu é ácido e dominante numericamente.
+  B) Próximo de 5 -- calculado pela média dos pK_R do Glu apenas.
+  C) Próximo do pH fisiológico ( 7) -- porque o número de cargas + e - é igual e os pKa balanceiam a curva.
+  D) Próximo de 11 -- Lys é base e dominante numericamente.
+  E) Indeterminado -- proteínas não têm pI.
+
+Questão 17 Integração
+   Sobre a relação entre pI e comportamento elétrico de uma proteína em solução, julgue os itens.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Em pH > pI, a proteína apresenta carga líquida negativa.
+  II. Em pH < pI, a proteína apresenta carga líquida negativa.
+  III. No pI exato, a proteína atinge solubilidade mínima e tende a precipitar.
+  IV. No pI exato, a proteína migra rapidamente em direção ao polo positivo durante eletroforese.
+
+Questão 18 Integração
+
+   Durante a formação de uma ligação peptídica entre dois aminoácidos, ocorre:
+  A) Adição de uma molécula de água e formação de uma ligação C--S.
+  B) Eliminação de uma molécula de água entre o COOH do primeiro aminoácido e o NH do segundo,
+  originando uma ligação C--N estável.
+  C) Eliminação de CO, sobrando a ligação N--N característica dos peptídeos.
+  D) Adição de ATP, formando uma ligação fosfodiéster entre os dois resíduos.
+  E) Oxidação do C-terminal, gerando ligação CO entre os carbonos .
+
+                       26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 19 Integração
+
+   A pepsina é uma protease gástrica com pI  1, enquanto a lisozima salivar/lacrimal tem pI  11. Esses pIs
+extremos refletem qual peculiaridade funcional?
+
+  A) Ambas são enzimas instáveis em pH fisiológico e por isso precisam ser inativadas rapidamente.
+  B) Pepsina é estável em pH baixo do estômago ( 1,5), enquanto a lisozima precisa de carga positiva para se
+  ligar à parede bacteriana, que é negativa.
+  C) O pI das enzimas é apenas uma curiosidade biofísica sem conexão com função fisiológica.
+  D) Pepsina é catiônica e lisozima aniônica em pH fisiológico, exatamente o oposto do que sugere o pI.
+  E) Pepsina exige pH alcalino para atuar, e lisozima exige pH ácido para clivar peptidoglicano.
+
+Questão 20 Integração
+
+   Sobre a eletroforese de proteínas séricas em pH alcalino ( 8,6), julgue os itens.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. A albumina, com pI 4,9, está fortemente positiva em pH 8,6 e migra rápido para o catodo.
+  II. Em pH 8,6, qualquer proteína com pI = 8,6 ficaria com carga líquida positiva.
+  III. Proteínas com pI mais distante de 8,6 (mais ácidas, como albumina) migram mais rápido do que proteínas
+  com pI próximo de 8,6 (como -globulinas).
+  IV. No traçado normal, a banda  é uma faixa larga porque é composta por muitos anticorpos diferentes,
+  com pIs ligeiramente distintos.
+
+Questão 21 Integração
+
+   A 4-hidroxiprolina e a 5-hidroxilisina são essenciais para a estabilidade da tripla hélice do colágeno. A
+síntese dessas modificações requer:
+
+  A) Vitamina C (ascorbato), redutor essencial da prolil/lisil hidroxilase -- sua deficiência causa escorbuto.
+  B) Vitamina K, na carboxilação dependente de -carboxilase hepática.
+  C) Vitamina B (cobalamina), em reações de metilação.
+  D) Ferro reduzido (Fe²), apenas -- sem participação vitamínica.
+  E) Selênio, na forma de selenocisteína inserida no ribossomo.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 22 Integração
+
+   Em qual dos aminoácidos abaixo a cadeia lateral pode formar uma ligação covalente intramolecular
+adicional (ponte dissulfeto) com outro resíduo da mesma cadeia ou de outra cadeia da proteína?
+
+  A) Serina, pelo grupo hidroxila.
+  B) Tirosina, pelo grupo fenólico.
+  C) Treonina, pelo grupo hidroxila secundário.
+  D) Cisteína, pelo grupo sulfidrila (-SH), que oxida com outro -SH formando -S--S-.
+  E) Metionina, pelo grupo tioéter da cadeia lateral.
+
+Questão 23 Integração
+
+   Sobre a direcionalidade da cadeia polipeptídica e a convenção de leitura, julgue os itens.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. O N-terminal é a extremidade onde resta um grupo -amino livre, do primeiro resíduo da cadeia.
+  II. O C-terminal é a extremidade onde resta um grupo -carboxila livre, do último resíduo da cadeia.
+  III. Por convenção universal, sequências de proteínas são escritas e numeradas do N-terminal para o C-
+  terminal.
+  IV. A síntese ribossomal ocorre do C-terminal para o N-terminal, em sentido oposto ao da convenção de
+  leitura.
+
+Questão 24 Integração
+
+   Na curva de titulação do ácido glutâmico, observam-se três pKa: 2,19 (-COOH), 4,25 (-COOH da cadeia
+lateral) e 9,67 (-NH). O pI do glutamato é, aproximadamente:
+
+  A) 9,67 -- sempre o pK do -amino.
+  B) 2,19 -- sempre o pK do -carboxila.
+  C) (2,19 + 9,67)/2 = 5,93 -- média dos extremos.
+  D) 4,25 -- exatamente o pK_R da cadeia lateral.
+  E) (2,19 + 4,25)/2 = 3,22 -- média dos dois pKa que delimitam a forma neutra.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+   Em um traçado de eletroforese de proteínas séricas, observou-se na zona gamma uma banda estreita, alta e
+em forma de "torre", em contraste com a faixa larga e baixa habitualmente vista. A interpretação imediata é:
+
+  A) Hipoalbuminemia por desnutrição.
+  B) Padrão de gamopatia monoclonal -- sugere mieloma múltiplo, macroglobulinemia de Waldenström ou
+  MGUS.
+  C) Hipogamaglobulinemia congênita.
+  D) Padrão de fase aguda --  e  aumentadas em resposta inflamatória.
+  E) Síndrome nefrótica, com perda urinária de albumina e diminuição global de proteínas.
+
+Questão 26 Aplicação
+
+   Mulher de 68 anos é encaminhada à hematologia com dor lombar progressiva, anemia normocítica e insufi
+ciência renal recente. A eletroforese de proteínas séricas mostra hipoalbuminemia leve e uma banda estreita e
+altíssima na região , com 4,5 g/dL nessa banda isolada. A radiografia de crânio evidencia lesões ósseas líticas
+múltiplas em "saca-bocado". Qual o diagnóstico mais provável e o que a banda estreita representa em termos
+físico-químicos?
+
+  A) Hepatopatia crônica; a banda representa -antitripsina secretada em excesso pelos hepatócitos lesados.
+  B) Síndrome nefrótica; a banda representa transferrina aprisionada no soro por perda urinária seletiva.
+  C) Doença renal crônica isolada; a banda representa -microglobulina acumulada por queda da filtração
+  glomerular.
+  D) Mieloma múltiplo; a banda estreita é uma paraproteína (anticorpo monoclonal idêntico) com pI único,
+  daí migrar como faixa fina em vez de larga.
+  E) Lúpus eritematoso sistêmico; a banda representa anticorpos antinucleares policlonais em alta concen
+  tração.
+
+                       29
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+   Em um experimento clássico, uma mistura de lisina, glicina e aspartato (em concentrações iguais) é aplicada
+a uma coluna de cromatografia de troca catiônica equilibrada em pH 6,0 (resina com cargas negativas, retém
+o que estiver positivo na solução). Considere pK valores aproximados: Lys pK_R = 10,5 (pI 9,7); Gly pI 5,97;
+Asp pI 2,8. Julgue os itens sobre o comportamento na coluna.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Em pH 6,0, a lisina está globalmente positiva (pH < pI = 9,7) e adere fortemente à resina.
+  II. Em pH 6,0, o aspartato está globalmente positivo (pH > pI = 2,8) e adere fortemente à resina.
+  III. A glicina está em pH próximo do seu pI (5,97), com carga líquida quase zero, e atravessa a coluna com
+  pouca retenção.
+  IV. Aumentar o pH do tampão de eluição faz a lisina perder carga positiva, soltando-se da resina por último.
+
+Questão 28 Aplicação
+
+   Em uma queijaria, a acidificação do leite cru por bactérias láticas (que produzem ácido lático) faz a caseína
+precipitar e formar a coalhada -- etapa fundamental da produção de queijo. Qual conceito explica diretamente
+esse fenômeno?
+
+  A) A acidificação desnatura covalentemente a caseína por hidrólise de ligações peptídicas.
+  B) O ácido lático se liga ao cálcio do leite, removendo-o da caseína e desestruturando a micela.
+  C) A queda do pH leva a caseína em direção ao seu ponto isoelétrico ( 4,6), onde a carga líquida se anula e
+  a solubilidade é mínima, causando agregação e precipitação.
+  D) O ácido lático aumenta a temperatura do meio, desnaturando termicamente a caseína.
+  E) A caseína se converte em paracaseinato de cálcio por catálise ácida específica.
+
+                      30
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+   Em um laboratório de pesquisa, deseja-se separar hemoglobina (pI 6,8) da albumina (pI 4,9) por eletroforese
+em gel. Em qual pH de corrida ambas as proteínas estarão negativas e migrarão para o anodo, mas com a maior
+diferença prática de velocidade entre as duas?
+
+  A) pH 4,0 -- abaixo de ambos pIs, ambas positivas, separação por carga positiva diferencial.
+  B) pH 5,5 -- entre os dois pIs, hemoglobina positiva e albumina negativa, migram em sentidos opostos.
+  C) pH 6,5 -- próximo do pI da hemoglobina, ela não se move e a albumina migra livremente.
+  D) pH 8,6 -- bem acima de ambos pIs, ambas negativas, mas albumina muito mais negativa que hemoglobina
+  (porque a distância pH-pI é maior para a albumina), migra mais rápido.
+  E) pH 11 -- ambas positivas e indistintas, migrando juntas para o catodo.
+
+Questão 30 Aplicação
+
+   Um paciente em uso crônico de warfarina (anticoagulante oral) apresenta INR de 7,5 e sangramento gengival
+após escovação dental. Qual modificação pós-traducional de resíduos de aminoácido a warfarina inibe, expli
+cando seu efeito anticoagulante?
+
+  A) Hidroxilação de resíduos de prolina e lisina, dependente de vitamina C -- relevante para o colágeno.
+  B) -carboxilação de resíduos de glutamato, dependente de vitamina K -- relevante para a ativação dos
+  fatores II, VII, IX e X da cascata de coagulação.
+  C) Fosforilação de resíduos de serina e treonina, dependente de ATP -- relevante para sinalização intracelu
+  lar.
+  D) Glicosilação de resíduos de asparagina, dependente de UDP-açúcares -- relevante para o tráfego de
+  proteínas.
+  E) Selenocisteinilação de resíduos de serina -- relevante para enzimas antioxidantes como glutationa perox
+  idase.
+
+                      31
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 01
+   Explique por que um aminoácido como a leucina, com cadeia lateral francamente hidrofóbica, é
+
+altamente solúvel em água quando está livre em solução -- mas, ao virar resíduo dentro de uma proteína
+globular, tende a ocupar o miolo hidrofóbico em vez da superfície.
+
+    MODELO DE RESPOSTA
+
+       O aminoácido livre carrega, em pH fisiológico, duas cargas no tronco: o grupo -amino protonado
+   (NH) e o -carboxila desprotonado (COO). Essa forma zwitteriônica interage fortemente com água
+   por forças íon-dipolo, mantendo a leucina solúvel apesar do R apolar. Quando a leucina vira resíduo
+   numa proteína, NH e COOH são consumidos pela ligação peptídica e perdem suas cargas. Sobra
+   exposto só o R hidrofóbico, que minimiza contato com água escondendo-se no miolo apolar -- o efeito
+   hidrofóbico passa a ditar a localização.
+
+Questão 02
+   Explique mecanisticamente por que a histidina, dentre os 20 aminoácidos canônicos, é considerada
+
+o tampão proteico fisiológico por excelência. Especifique o grupo químico envolvido e o motivo de seu
+pKa ser determinante.
+
+    MODELO DE RESPOSTA
+
+       O imidazol da cadeia lateral da histidina tem pK_R próximo de 6,0 -- único entre os aminoácidos
+   canônicos a estar perto do pH fisiológico de 7,4. Em pH 7,4 (uma unidade acima do pKa), aproximada
+   mente 1 em cada 11 imidazóis está protonado e 10 estão desprotonados. Essa coexistência das duas
+   formas em proporção significativa permite que o grupo capture H (se o pH cair) ou libere H (se subir),
+   tamponando in situ. Hemoglobina explora justamente isso no efeito Bohr; nenhum outro pK_R está
+   perto o suficiente para funcionar como tampão fisiológico.
+
+                             32
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 03
+
+   O aspartato tem pK  2,0 (-COOH), pK_R  3,9 (-COOH) e pK  9,8 (-NH). Explique como se
+identifica e calcula seu pI, e por que esse valor é tão baixo ( 3) em comparação ao pI da glicina ( 6).
+
+MODELO DE RESPOSTA
+
+   O pI é o pH em que a forma de carga líquida zero (Z) predomina. Para o aspartato, partindo de pH
+ácido (carga +1: NH + 2 COOH), a primeira ionização (pK  2,0) leva a Z; a segunda (pK_R  3,9)
+leva a -1. Logo, pI = (pK + pK_R)/2 = (2,0 + 3,9)/2  3,0. O pI é baixo porque o aspartato tem dois
+grupos COOH (carga negativa potencial) e apenas um NH (carga positiva potencial) -- só em pH bem
+baixo o segundo COOH ainda permanece protonado, equilibrando a carga.
+
+Questão 04
+
+   Explique como o conceito de ponto isoelétrico (pI), aplicado a proteínas inteiras, viabiliza o uso da
+eletroforese de proteínas séricas como exame de rastreamento para mieloma múltiplo.
+
+    MODELO DE RESPOSTA
+
+       Cada proteína sérica tem um pI próprio, ditado por sua composição de cadeias laterais ionizáveis.
+   Em pH alcalino ( 8,6), todas as proteínas com pI < 8,6 ficam negativas e migram para o anodo, em
+   velocidades proporcionais à diferença pH - pI. Anticorpos policlonais normais migram como faixa
+   larga em  (pIs ligeiramente diferentes). No mieloma, um único clone de plasmócito produz uma
+   paraproteína idêntica -- todas as moléculas com o mesmo pI migram juntas, gerando banda estreita e
+   alta em . Esse pico em "torre" é o sinal eletroforético do mieloma múltiplo.
+
+       33
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 05 -- Identifique o erro
+
+   Um aluno argumenta: "Numa proteína qualquer, basta contar os resíduos de glutamato + aspartato
+(cargas negativas) e somar lisina + arginina + histidina (cargas positivas). Se os dois números forem
+iguais, o pI da proteína é exatamente 7,0 -- porque as cargas estão balanceadas. Foi por isso que a
+albumina, que tem 97 negativos e 97 positivos, deveria ter pI 7,0 -- mas ela tem 4,9, e eu não entendo."
+Aponte o erro de raciocínio e explique o motivo correto.
+
+MODELO DE RESPOSTA
+
+   O erro está em supor que igualdade no número de grupos ácidos e básicos garante igualdade de
+cargas no pH 7. Não garante, porque os pKa desses grupos são diferentes e ditam quanto cada grupo
+está ionizado em dado pH. Em pH 7,0, os COOH do glutamato e aspartato (pK_R 4-4,5) estão essen
+cialmente todos desprotonados (carga -1 cada), enquanto histidina (pK_R 6,0) já está majoritariamente
+desprotonada e contribui pouca carga positiva. Sobra um excesso de carga negativa real. Para zerar a
+carga líquida da albumina, é preciso descer o pH até 4,9, onde os COOH começam a ser reprotonados
+-- daí o pI 4,9. Composição em número  composição em carga; o pKa decide.
+
+       34
+NEBLI                                       ETAPA 5 -- NEBLICARDS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C  Q02 E            Q03 A     Q04 EECE  Q05 B
+                        Q08 CCEE  Q09 D     Q10 B
+Q06 D  Q07 A
+                        Q13 A     Q14 ECCE  Q15 D
+INTEGRAÇÃO (Q11­Q25)    Q18 B     Q19 D     Q20 EEEC
+                        Q23 CCCE  Q24 E     Q25 B
+Q11 E  Q12 C
+Q16 C  Q17 CEEC         Q28 C     Q29 D     Q30 B
+
+Q21 A  Q22 D
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D  Q27 ECEE
+
+                        42
+NEBLI                                                                                                        GABARITO -- ETAPA 2
+
+   Resumindo
+
+C e cadeia lateral R                                               Histidina, o tampão fisiológico
+
+   Todo aminoácido tem o mesmo tronco -- carbono  ligado              Único aminoácido com pK_R  6,0 -- perto do pH sanguíneo
+a COOH, NH, H e à cadeia lateral R. O que diferencia os 20         de 7,4. Por isso o imidazol da His é o tampão proteico por
+canônicos está no R. Personalidade química, polaridade, carga      excelência, e é o que viabiliza o efeito Bohr da hemoglobina (a
+e função dentro da proteína dependem dele.                         ser visto no resumo de Hb).
+5 famílias do R                                                    Ponto isoelétrico (pI)
+
+Apolares alifáticos (Gly, Ala, Val, Leu, Ile, Pro, Met) · apo pH em que a carga líquida da molécula é zero. Calcula-se
+
+lares aromáticos (Phe, Trp, Tyr) · polares neutros (Ser, Thr, Cys, pela média dos dois pKa que delimitam a forma Z. AA neutro:
+
+Asn, Gln) · polares + (Lys, Arg, His) · polares - (Asp, Glu). pI  6. AA ácido (Asp, Glu): pI baixo ( 3). AA básico (Lys, Arg):
+
+R hidrofóbico vai para o miolo da proteína; R polar fica na pI alto ( 9-10). Histidina: pI  7,6.
+
+superfície.                                                        Regra de carga
+
+Livre × resíduo                                                    Em pH > pI a molécula está globalmente negativa (deu
+
+Aminoácido livre em solução é zwitteriônico (NH + mais H do que pegou). Em pH < pI, globalmente positiva.
+
+COO) e solúvel em água mesmo com R hidrofóbico. Quando No pI exato, carga líquida zero -- solubilidade mínima, tende
+
+vira resíduo numa proteína, NH e COOH são consumidos a precipitar. Base para eletroforese, cromatografia de troca
+
+pela ligação peptídica e só sobra o R exposto -- agora a classi iônica e precipitação isoelétrica.
+
+ficação por polaridade vale.                                       Ligação peptídica
+
+Quiralidade L                                                      Condensação entre COOH de um aminoácido e NH do
+
+O C é centro quiral (exceto glicina). Proteínas usam só L- seguinte, com perda de HO. Cria a ligação C--N estável
+
+aminoácidos. D-aminoácidos existem (parede bacteriana) mas (meia-vida de séculos sem catalisador). Dentro da cadeia, cada
+
+não entram no ribossomo. Enzimas reconhecem apenas a unidade vira resíduo; a cadeia tem N-terminal (NH livre) e C-
+
+forma L.                                                           terminal (COOH livre). Sequência sempre escrita e numerada
+
+Funções não-proteicas                                              NC.
+
+Vários aminoácidos viram precursores de mensageiros. Glu pI de proteína inteira
+
+= neurotransmissor excitatório principal · GABA (descarboxi Cada proteína tem um pI próprio, ditado pela composição
+
+lação de Glu) = inibitório · Tyr  dopamina, noradrenalina, de cadeias laterais ionizáveis. Pepsina pI 1 (funciona no
+
+adrenalina, T4 · Trp  serotonina · His  histamina (alergia, estômago, ambiente ácido) · albumina pI 4,9 · hemoglobina pI
+
+antihistamínicos bloqueiam) · Gly = inibitório medular.            6,8 · lisozima e citocromo c pI > 10. Em pH 7,4 plasmático,
+
+Modificações pós-traducionais                                      quase toda proteína está negativa (albumina muito negativa,
+
+                                                                               anticorpos pouco negativos).
+   4-OH-prolina e 5-OH-lisina no colágeno (precisam vitamina
+C -- escorbuto se faltar) · -carboxiglutamato (Gla) na coagu Eletroforese de soro
+
+lação (precisa vitamina K -- warfarina antagoniza) · selenocis Coloca-se soro em gel em pH 8,6 (alcalino). Todas as pro
+
+teína em antioxidantes (glutationa peroxidase) · desmosina na teínas com pI < 8,6 ficam negativas e migram para o anodo, em
+
+elastina.                                                          velocidades diferentes conforme carga × tamanho. Resultado:
+
+3 pKa por aminoácido                                               5 bandas -- albumina (dominante) ·  ·  ·  · . Cada banda
+
+                                                                            contém um conjunto característico de proteínas séricas.
+Aminoácido com R não-ionizável (Gly, Ala...) tem 2 pKa:
+
+COOH ( 2) e NH ( 9). Com R ionizável (Asp, Glu, Lys, Arg,
+
+His, Cys, Tyr) ganha um pK_R extra. Cada pKa cria uma zona
+
+de tamponamento em torno dele -- AAs se comportam como
+
+ácidos polipróticos.
+
+                                                               43
+NEBLI                                                            RESUMINDO
+
+Gamopatia monoclonal -- mieloma múltiplo
+
+   Quando um único clone de plasmócito prolifera de forma
+maligna, produz uma paraproteína (anticorpo único, em quan
+tidade enorme). Na eletroforese aparece como banda estreita,
+alta e em forma de "torre" na zona gama (a gama policlonal
+normal é uma faixa larga de muitos anticorpos diferentes). Pico
+monoclonal estreito em  sugere mieloma múltiplo, Walden
+ström ou MGUS. Confirmação por imunofixação.
+
+44
+NEBLI                    RESUMINDO
+
+Glossário de siglas
+
+Abreviações e acrônimos usados neste resumo, em ordem alfabética.
+
+              GABA -- ácido -aminobutírico -- principal neurotransmissor inibitório do SNC, alvo de benzodiazepínicos
+                  HCl -- ácido clorídrico
+
+              MGUS -- gamopatia monoclonal de significado indeterminado -- paraproteína presente sem critérios para
+                          mieloma; em alguns casos evolui para MM com o tempo
+
+                  MM -- mieloma múltiplo -- neoplasia hematológica de plasmócitos que se manifesta com lesões ósseas
+                          líticas, hipercalcemia, insuficiência renal e anemia
+
+                 SNC -- sistema nervoso central
+                    T4 -- tiroxina -- hormônio tireoidiano principal, regula metabolismo basal
+
+                     45
+

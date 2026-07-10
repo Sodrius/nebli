@@ -1,0 +1,332 @@
+{
+  "slug": "UC01-FMEMB-04-propriedades-passivas-da-membrana-plasmatica",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-FMEMB-04-propriedades-passivas-da-membrana-plasmatica.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-FMEMB-04-propriedades-passivas-da-membrana-plasmatica.txt",
+  "total_paginas": 52,
+  "total_palavras": 13986,
+  "total_imagens": 780,
+  "media_palavras_pagina": 269.0,
+  "paginas_amostra": [
+    1,
+    2,
+    3,
+    4,
+    12,
+    52
+  ],
+  "paginas_amostra_str": "1,2,3,4,12,52",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 100,
+      "imagens": 15,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 192,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 509,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 341,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 335,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 442,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 193,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 55,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 237,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 254,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 175,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 199,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 321,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 115,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 104,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 323,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 321,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 108,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 307,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 368,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 274,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 453,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 227,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 205,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 368,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 385,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 385,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 345,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 430,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 248,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 274,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 265,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 196,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 276,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 257,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 36,
+      "palavras": 222,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 37,
+      "palavras": 250,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 38,
+      "palavras": 222,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 39,
+      "palavras": 241,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 40,
+      "palavras": 208,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 41,
+      "palavras": 281,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 42,
+      "palavras": 265,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 43,
+      "palavras": 262,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 44,
+      "palavras": 269,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 45,
+      "palavras": 261,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 46,
+      "palavras": 270,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 47,
+      "palavras": 330,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 48,
+      "palavras": 340,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 49,
+      "palavras": 311,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 50,
+      "palavras": 346,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 51,
+      "palavras": 239,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 52,
+      "palavras": 82,
+      "imagens": 15,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

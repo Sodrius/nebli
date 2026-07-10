@@ -1,0 +1,57 @@
+# MAPA_CONTEUDO -- histo-11-orgaos-linfaticos
+# Slide-fonte: 3850a4c1-Linfoide_Med_2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: TECIDO LINFÓIDE Profa. Marilene H. Lopes marilenehl@usp.br
+slide-02: OBJETIVOS ¢ Origem e funções das principais células envolvidas na Resposta Imune: ¢ Linfócitos T e B ¢ Macrófago e outras células apresentadoras de antígeno ¢ Distinguir os tecidos linfóides frouxo, denso e nodular
+slide-03: SISTEMA LINFÓIDE ¢ Órgãos linfóides primários: produzem componentes celulares do SI: Medula Óssea Timo ¢ Órgãos linfóides secundários: resposta imunológica: Linfonodos Baço Agregados de tecido linfóide (MALT- Tec. Linfóide associado mucosa)
+slide-04: DISTRIBUIÇÃO CORPORAL DOS VASOS E ÓRGÃOS LINFÁTICOS Constante circulação das células imunitárias sangue/linfa/tec. conj.
+slide-05: FUNÇÃO • Proteger o corpo contra patógenos ou antígenos invasores; • Mecanismo de defesa: Resposta Imunológica - Distinguir próprio do não-próprio ao organismo
+slide-06: Três mecanismos básicos de defesa: 1. Mecanismos protetores de superfície (barreiras físicas): 1ª linha de defesa. Ex.: pele e superfícies mucosas. 2. Imunidade inata (inespecífica): -aumento na permeabilidade vascular -extravasamento de plasma (inch...
+slide-07: 3. Imunidade adquirida (específica): Envolvem o sistema imune (linfóide ou linfático) Organismo reconhece o agente agressor como não próprio: - corpo estranho: imunógeno ou antígeno Organismo produz substâncias específicas: anticorpos Diferença: Nece...
+slide-08: Linfócitos B: resposta humoral Linfócitos T: resposta celular Originam os plasmócitos, células produtoras de anticorpo Destroem células malignas e infectadas por vírus Ajudam outras células a realizar as suas funções através da secreção de interleuci...
+slide-09: Classes de células envolvidas na Resposta Imune 1. Linfócitos • Existem linfócitos de 03 tipos: B, T e NK. • Células B e T possuem marcadores específicos. • Originam-se células precursoras na medula óssea. • linfócitos T (ou células T), amadurecem Ti...
+slide-10: sangue tecido LINFÓCITOS
+slide-11: Linfócitos B: originados da Medula óssea Possuem IgM (e IgD) na superfície Originam os plasmócitos: células produtoras de anticorpo Linfócitos NK: “natural killer” (10-15%) resposta imunitária inata: não precisam de estímulo para reagir (atacam célul...
+slide-12: Têm especificamente o marcador de superfície TCR (T cell receptor) T citotóxico ou killer (TK) - Destroem células malignas e infectadas por vírus. Interagem com T helper. Perforinas- poros célula infectada T helper (TH) – Ajudam os outros linfócitos ...
+slide-13: Células T regulador (Treg) –regulam resposta imune, evita respostas insuficientes ou excessivas -quando o estímulo inicial é removido/ controlam término da resposta Prevenção de autoimunidade.- quando há resposta imune a antígenos próprios (doenças a...
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: Tecido Linfóide Rede de células fixas Macrófagos fixos ou histiócitos Células reticulares (Fibras reticulares) Células livres Macrófagos livres Linfócitos Plasmócitos
+slide-16: Tecido Linfóide Arranjo nos órgãos linfóides: Frouxo: predomínio da rede de células fixas (Seios) Denso: predomínio de células livres (Cordões) Nodular: tecido linfóide denso em arranjo esférico (Nódulos)
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: Nódulos Linfáticos Predomínio de células livres em arranjo esférico Centro germinativo: local de produção de linfócitos Estruturas temporárias Sem cápsula Dependem de estímulo antigênico Presença de: Linfócitos (B) Macrófagos livres Plasmócitos
+slide-20: Tecido Linfóide Tecido linfático difuso Nódulos Tecido linfóide associado à mucosa: MALT
+slide-21: Tecido Linfóide Tecido linfóide difuso: População difusa de linfócitos e plasmócitos nos sistemas digestivo, urinário, genital e respiratório. Tecido linfático nodular: -Nódulos linfáticos isolados -Agregados linfóides nos intestinos -Placas de Peyer...
+slide-22: Órgãos Linfóides Primários ou centrais Timo Medula óssea Secundários ou periféricos Linfonodos Baço
+slide-23: Órgãos Linfóides
+slide-24: Timo Lóbulos tímicos Células reticulares epiteliais e linfócitos
+slide-25: Timo Lóbulos incompletos: córtex e medula contínuos
+slide-26: Timo Lóbulos tímicos Septo Córtex Células reticulares epiteliais e linfócitos Poucos macrófagos especialmente no córtex
+slide-27: Timo Células reticulares epiteliais Compõem o estroma reticular Produzem hormônios Medula Córtex Linfócitos ou timócitos: Compõem o parênquima do órgão
+slide-28: Timo Células reticulares epiteliais Compõem o estroma reticular Produzem hormônios Linfócitos ou timócitos: Compõem o parênquima do órgão Arranjo das células reticulares epiteliais
+slide-29: córtex medula Corpúsculo tímico ou de Hassall Timo Células reticulares epiteliais degeneradas ou em involução Medula Auxilia formação dos Treg
+slide-30: Células reticulares epiteliais: -Formam a barreira hematotímica exclusivamente no córtex, - Dificulta penetração antígenos do sangue; Timo: barreira hematotímica
+slide-31: Timo de idoso Linfopoiese residual T –vida adulta
+slide-32: Timo Diagnóstico Diferencial do órgão: Corpúsculo tímico (ou de Hassall)
+slide-33: [VISUAL -- usar adjacente com titulo extraivel]
+slide-34: Linfonodos (ou gânglios linfáticos) Filtram a linfa Trajeto dos vasos linfáticos Produzem linfócitos B Fazem a recirculação de linfócitos E A
+slide-35: Cápsula, córtex, medula, hilo Linfonodos
+slide-36: Córtex: seio subcapsular, seios peritrabeculares, nódulos linfáticos Linfonodos
+slide-37: Linfonodo – Região Paracortical Região Paracortical Área timo- dependente Nesta região ocorrem as vênulas de endotélio alto, local de entrada dos linfócitos do sangue no linfonodo.
+slide-38: Medula: seios medulares e cordões medulares Linfonodos seios medulares: cels reticulares e macrófagos Cordões: LB, macrófago e plasmócito
+slide-39: Circulação de sangue no Linfonodo
+slide-40: Linfonodo Diagnóstico Diferencial do órgão: Seio subcapsular
+slide-41: Linfonodo https://www.youtube.com/watch?v=XpFPMskIFM8&t=6s
+slide-42: Baço Filtram o sangue Produzem linfócitos Fazem a recirculação de linfócitos
+slide-43: Baço Cápsula e trabéculas Polpa branca: bainhas e nódulos linfáticos, artéria central Polpa vermelha: cordões esplênicos e capilares sinusóides
+slide-44: Circulação do Baço
+slide-45: [VISUAL -- usar adjacente com titulo extraivel]
+slide-46: [VISUAL -- usar adjacente com titulo extraivel]
+slide-47: https://www.youtube.com/watch?v=ulc8n9HCKrI
+slide-48: Baço Diagnóstico Diferencial do órgão: Nódulo linfático com artéria central
+slide-49: REFERÊNCIAS BIBLIOGRÁFICAS ¢Junqueira & Carneiro, 11a ed., 2006 ¢Kierszenbaum, 2a ed., 2009 ¢Ross, 5a ed., 2008

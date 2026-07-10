@@ -1,0 +1,1280 @@
+NEBLI · APOSTILA
+
+Introdução ao metabolismo
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. O foco aqui é entender POR QUE a
+Onde estudar:  célula consegue (ou não consegue) fazer uma reação -- termodinâmica
+               é a régua. Depois, ver como ela paga as reações caras usando ATP como
+               moeda e por que oxidar com NAD+/FAD vale tanto a pena.
+
+               Lehninger, Cap. 13 -- Princípios de Bioenergética e Tipos de Reações
+               Bioquímicas. Stryer/Berg, Cap. 15 -- Metabolismo: conceitos e desenho
+               básico.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A célula obedece à termodinâmica
+       1.1 Sistema, energia interna, calor e trabalho
+       1.2 As duas leis: energia se conserva, desordem cresce
+       1.3 Entalpia e entropia: o que cada uma mede
+       1.4 G = H - T·S: a fórmula que prevê espontaneidade
+  PARTE II -- ATP, a moeda universal de energia
+       2.1 A estrutura química do ATP
+       2.2 Por que a hidrólise libera tanta energia
+       2.3 Acoplamento: pagando reações caras com ATP
+       2.4 ATP não anda sozinho: outras moedas energéticas
+  PARTE III -- Reações redox: extraindo energia da oxidação
+       3.1 O princípio do redox biológico
+       3.2 Potencial Eo' e a ponte para G
+       3.3 NAD+/NADH e FAD/FADH2: os bondes de elétrons
+       3.4 Por que oxidar com O vale tanto
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de entrar nas vias do metabolismo -- glicólise, Krebs, beta-oxidação -- precisamos parar
+    e responder uma pergunta básica: como a célula "sabe" se uma reação vai acontecer ou não? Por
+    que a glicose, dissolvida num copo de água em cima da bancada, fica lá parada indefinidamente,
+    mas, dentro de uma célula, vira CO2 e água? A resposta está na termodinâmica.
+    Este resumo cobre três blocos. Primeiro, a régua: termodinâmica nos diz o que é possível. Depois, a
+    moeda: o ATP1 e como a célula paga reações caras. Por fim, a colheita: as reações de óxido-redução,
+    com NAD+2 e FAD3 carregando os elétrons que vão financiar a fabricação de ATP. Os nomes das
+    enzimas vêm depois; primeiro entenda por que a célula funciona desse jeito.
+
+PARTE I -- A célula obedece à termodinâmica
+
+1.1 -- Sistema, energia interna, calor e trabalho
+Termodinâmica começa com uma divisão simples do universo: você separa o que te interessa
+-- o sistema -- de todo o resto, que vira a vizinhança. Num laboratório, o sistema pode ser
+o tubo de ensaio com a reação; numa célula, pode ser uma mitocôndria, ou uma única reação
+química acontecendo no citoplasma. A escolha é sua; o importante é que, depois de definida,
+você fica de olho no que entra e sai do sistema.
+
+   Esse sistema tem uma quantidade total de energia chamada energia interna (símbolo U).
+Pensa nela como a poupança energética da matéria: cada molécula contribui um pouco. Parte
+é energia cinética -- moléculas vibrando, girando, se movendo. Parte é energia potencial --
+guardada nas ligações químicas, como uma mola comprimida que pode ser solta quando a
+ligação se rompe.
+
+   A energia interna só muda de duas maneiras: por trabalho (w), quando o sistema empurra
+alguma coisa (um pistão, uma membrana, uma molécula contra um gradiente), ou por calor
+(q), quando há diferença de temperatura entre sistema e vizinhança e a energia flui na forma
+de calor. A primeira lei sintetiza isso numa equação enxuta:
+
+                                                     U=q+w
+   Convenção: q positivo quando calor entra no sistema; w positivo quando o trabalho é
+feito sobre o sistema. Quando a célula contrai um músculo, está realizando trabalho contra
+a vizinhança (w negativo, sai do sistema); quando uma reação exergônica libera calor para o
+
+   1ATP ­ adenosina trifosfato -- a "moeda corrente" da energia celular, cuja hidrólise libera energia útil para reações
+desfavoráveis
+
+   2NAD+ ­ nicotinamida adenina dinucleotídeo -- coenzima aceptora de elétrons na forma de íon hidreto
+   3FAD ­ flavina adenina dinucleotídeo -- coenzima aceptora de dois átomos de hidrogênio
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+citoplasma, q sai do sistema (também negativo, do ponto de vista do sistema). Em ambos casos
+a energia interna cai.
+
+1.2 -- As duas leis: energia se conserva, desordem cresce
+Termodinâmica clássica tem duas leis fundamentais que vão te seguir por toda a bioquímica.
+
+   A primeira lei é a conservação da energia: a energia do universo (sistema + vizinhança) é
+constante. Energia pode mudar de forma -- vira calor, vira trabalho, vira ligação química --
+mas não desaparece nem é criada. Queime um mol de glicose num bico de Bunsen e ele libera
+ 2870 kJ como calor + luz. Queime essa mesma glicose pela respiração celular e a célula libera
+os mesmos  2870 kJ -- só que distribuídos entre calor e síntese de ATP. A energia total saindo
+é igual nos dois casos. O que muda é só como ela aparece.
+
+   A segunda lei diz outra coisa: o universo tende sempre para mais desordem. Toda mudança
+espontânea aumenta a entropia total do universo. Soa abstrato, mas tem consequência muito
+concreta: um cubo de gelo derrete sozinho sobre a bancada porque o estado "água líquida" tem
+mais desordem molecular que "rede cristalina de gelo". Você nunca vê o copo se recongelar
+espontaneamente à temperatura ambiente. A direção do tempo, em química, é a direção do
+crescimento da entropia do universo.
+
+   Aqui tem uma pegadinha clássica de prova. A entropia do sistema pode até diminuir numa
+reação espontânea -- desde que a entropia da vizinhança aumente o suficiente para compen
+sar. O que precisa crescer é a soma. Quando a célula dobra uma proteína, a entropia da cadeia
+polipeptídica cai (uma sequência aleatória vira uma estrutura organizada). A célula consegue
+fazer isso porque o dobramento libera calor que aquece a água ao redor, aumentando muito a
+entropia desse meio. O saldo do universo é positivo, e a reação é espontânea.
+
+Entropia do sistema NÃO é entropia do universo
+
+Aluno tende a olhar só para o sistema. Mas a segunda lei fala do universo. Toda reação espontânea
+aumenta a entropia total (sistema + vizinhança), e não a entropia do sistema isoladamente. Reação
+ordenadora no sistema é perfeitamente possível, desde que pague em desordem da vizinhança.
+Esse é o truque que dobra proteínas e replica DNA.
+
+1.3 -- Entalpia e entropia: o que cada uma mede
+A entalpia (H) é uma medida do conteúdo de calor de um sistema à pressão constante. Em
+bioquímica isso quase sempre vale, porque a célula trabalha a 1 atm. A variação de entalpia (
+H) é a diferença entre a entalpia dos produtos e a dos reagentes:
+·  H < 0: reação exotérmica -- libera calor para o meio.
+·  H > 0: reação endotérmica -- absorve calor do meio.
+A entropia (S) é a medida da desordem molecular.  S positivo significa que os produtos estão
+mais desordenados que os reagentes -- mais maneiras possíveis de arranjar moléculas, mais
+combinações de posição e energia disponíveis. Dois exemplos rápidos: a oxidação completa de
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+um sólido a gases (glicose + 6 O2  6 CO2 + 6 H2O) produz muito gás e aumenta brutalmente a
+desordem;  S é grande e positivo. Já a condensação de dois gases em um líquido (2 H2 + O2 
+2 H2O) ordena o sistema;  S fica negativo.
+
+   A pergunta-chave para a célula é: "essa reação vai acontecer ou não?". Nenhuma das duas
+grandezas, sozinha, responde a isso. Reação exotérmica não é sinônimo de espontânea --
+existe reação endotérmica espontânea, e existe exotérmica não-espontânea. Você precisa das
+duas grandezas juntas, e foi isso que Gibbs descobriu.
+
+1.4 -- G = H - T·S: a fórmula que prevê espontaneidade
+Gibbs mostrou que existe uma única grandeza capaz de prever espontaneidade numa reação
+química a temperatura e pressão constantes: a energia livre de Gibbs, G. Para qualquer reação:
+
+                                            G=H-TS
+
+   T é a temperatura absoluta, em Kelvin. A regra é direta: se  G é negativo, a reação é espon
+tânea no sentido escrito (é exergônica); se positivo, é não-espontânea (e a reação inversa é que
+é espontânea -- é endergônica); se exatamente zero, o sistema está em equilíbrio.
+
+   Repare o que a fórmula está dizendo. Ela combina dois "votos". A entalpia vota a favor
+da espontaneidade quando o sistema libera calor ( H < 0). A entropia vota a favor quando
+aumenta a desordem ( S > 0), e a contribuição dela cresce com a temperatura -- por isso -
+T   S aparece multiplicada por T. Daí saem quatro cenários clássicos que precisam estar na
+ponta da língua:
+
+    Repare como a fórmula combina  H,  S e T num único veredito. Exergônica significa  G < 0 (a reação rola);
+    endergônica significa  G > 0 (não rola sem ajuda externa).
+
+ H < 0 e  S > 0: a reação é sempre espontânea, em qualquer temperatura. Os dois votos a
+favor; nada segura.  H > 0 e  S < 0 é o oposto -- nunca espontânea, em nenhuma T. Os dois
+
+                                                                                 5
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+votos contra. Os dois casos interessantes são os mistos: quando  H < 0 e  S < 0, a reação só
+é espontânea em T baixa (a entalpia ganha, mas se a T sobe, o termo - T   S vira positivo e
+mata  G); quando  H > 0 e  S > 0, a reação só é espontânea em T alta (a entropia precisa de
+T grande para vencer a entalpia desfavorável).
+
+Resumindo até aqui:  G une entalpia e entropia num único veredito.  G < 0 = a reação rola;  G > 0 =
+não rola sem ajuda;  G = 0 = equilíbrio. Sinal de  H e  S decide se a temperatura ajuda ou atrapalha.
+
+E o " G padrão"? A célula nunca está em condições padrão (1 M de tudo, 25 ° C, pH 0). Por isso
+a bioquímica usa o  G0 -- "delta G zero linha" -- definido em condições mais realistas: pH
+7, 25 ° C, atividade da água = 55 M, prótons = 10- 7 M. Mesmo assim, a célula real raramente
+está em  G0: as concentrações reais de reagentes e produtos podem deslocar a  G na direção
+oposta. A equação que liga os dois mundos é:
+
+                              G =  G0 + R T ln([produtos] / [reagentes])
+
+   R é a constante dos gases (8,314 J  K- 1  mol- 1). Essa equação é importante porque explica
+como uma reação com  G0 positivo pode rodar dentro da célula -- basta que a razão produtos/
+reagentes seja baixa o suficiente para o termo logarítmico empurrar  G para negativo. É como
+pagar com cartão de crédito sob promoção: a "concentração" entra na conta da  G real.
+
+Síntese 1.4 -- A energia livre de Gibbs é a régua única da espontaneidade química. Ela depende
+de  H,  S, T e -- na célula real -- das concentrações de reagentes e produtos. A célula não viola
+a regra; ela aproveita a equação, alterando concentrações ou acoplando reações para manter  G
+negativo.
+
+                            MAPA CONCEITUAL
+
+                                          I
+
+                          Termodinâmica é a régua
+
+                                            
+
+1.1 ­ Sistema               1.2/1.3 ­ Leis                  1.4 ­ Veredito
+
+Energia interna, calor e    Conservação + crescimento da    G=H-TS
+trabalho                    entropia
+
+                         Régua fixada, agora a moeda: como a célula paga reações caras.
+
+PARTE II -- ATP, a moeda universal de energia
+
+                                            6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.1 -- A estrutura química do ATP
+Aqui chegamos ao centro de tudo. Se a termodinâmica diz "essa reação só rola com  G < 0",
+como a célula faz centenas de reações que, isoladamente, teriam  G > 0? Resposta: ela paga
+essas reações com ATP. ATP é a moeda; toda reação cara saca da conta-corrente de ATP. Mas
+por que essa molécula consegue fazer esse papel? Mecanismo, não nome.
+
+   ATP é "adenosina trifosfato", e a molécula se decompõe em três peças. Adenina é uma base
+nitrogenada, a mesma que aparece no DNA e no RNA. Ribose é o açúcar de cinco carbonos. E
+os três fosfatos (chamados de , , , do mais próximo da ribose para o mais externo) ficam
+ligados em série, formando uma cauda. Adenina mais ribose já formam um "nucleosídeo"
+chamado adenosina; adicione um fosfato e tem AMP4 dois fosfatos e tem ADP5 três e tem o ATP
+propriamente dito.
+
+Observe as ligações entre fosfatos. As ligações ­ e ­ (anidridos de ácido fosfórico) carregam  30 kJ/mol cada; a
+ligação  (éster com a ribose) é muito mais "barata".
+
+As ligações entre os fosfatos ­ e ­ são ligações fosfoanidrido (anidridos de ácido
+fosfórico), formadas pela "perda de água" entre dois grupos fosfato adjacentes. Por que isso
+importa? Anidridos são intrinsecamente instáveis. Quando você junta dois ácidos perdendo
+uma água, está empilhando muita carga negativa num espaço pequeno; o sistema fica ten
+sionado, e essa tensão é exatamente o que se libera quando a ligação se rompe. A ligação 
+(entre o primeiro fosfato e a ribose) é um éster fosfórico -- mais estável e mais barata em
+energia. Por isso a hidrólise do AMP libera pouca energia, enquanto a hidrólise do ATP até ADP
+libera muita.
+
+   4AMP ­ adenosina monofosfato
+   5ADP ­ adenosina difosfato
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.2 -- Por que a hidrólise libera tanta energia
+Quando ATP + H2O  ADP + Pi (onde Pi é fosfato inorgânico), libera-se  G0 = - 30,5 kJ/mol
+em condições padrão. Na célula viva, com as concentrações reais (ATP alto, ADP e Pi baixos), o
+valor sobe para - 50 a - 60 kJ/mol. De onde vem tanta energia? Não é mágica de "ligação rica
+em energia"; são quatro razões mecanísticas que operam juntas.
+
+   Quatro mecanismos somam-se na hidrólise: separação de cargas, ressonância do Pi, ionização do ADP, melhor
+   solvatação dos produtos.
+
+A primeira é a repulsão eletrostática. ATP carrega quatro cargas negativas no pH fisiológico,
+amontoadas na cauda de fosfatos como ímãs do mesmo polo presos lado a lado. Quebrar a
+ligação separa esses ímãs -- uma carga vai com o ADP, outra escapa no Pi. Cargas iguais
+distantes têm menos energia que cargas iguais próximas; soltá-las é favorável.
+
+   A segunda é a estabilização do Pi por ressonância. O fosfato livre tem suas cargas
+distribuídas igualmente entre os quatro oxigênios por ressonância. Enquanto preso ao ADP,
+o oxigênio que faz a ligação não consegue participar plenamente dessa ressonância. Quando
+o Pi se desliga, a carga é distribuída uniformemente nos quatro oxigênios -- e o sistema fica
+energeticamente mais relaxado.
+
+   A terceira é a ionização do ADP. Assim que o ADP é formado, ele ainda tem um próton no
+fosfato terminal que se ioniza espontaneamente em pH 7. Essa ionização libera um próton
+no meio e contribui mais um empurrão para o equilíbrio. A quarta é a solvatação: ADP e Pi
+separados se hidratam melhor do que o ATP intacto; cada um ganha sua própria casca de água,
+o que é entropicamente favorável (mais maneiras de a água se arranjar ao redor de dois objetos
+pequenos do que ao redor de um grande).
+
+   Repare em uma coisa: nenhuma das quatro razões é "a ligação tem muita energia". Não existe
+"ligação rica em energia" no sentido literal. A energia vem da diferença entre estados -- ATP
+tenso de um lado, ADP e Pi relaxados do outro. É um conceito que confunde aluno de primeiro
+
+                                                                                 8
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+ano, porque a expressão "ligação de alta energia" pegou e virou clichê; mas, mecanisticamente,
+o que importa é a diferença entre antes e depois.
+
+ATP não é especial por causa de uma 'ligação rica'
+
+"Ligação de alta energia" é apelido didático, não realidade física. ATP é especial porque a hidrólise
+leva a produtos muito mais estáveis que o reagente. Tudo -- repulsão eletrostática, ressonância,
+ionização, solvatação -- favorece o lado ADP + Pi. Quando o aluno trata a ligação como se ela
+"guardasse" energia internamente, perde o mecanismo. A energia está na diferença de estabil
+idade.
+
+2.3 -- Acoplamento: pagando reações caras com ATP
+Aqui está o segredo de como ATP financia o metabolismo. Imagine que a célula precisa fosfo
+rilar uma molécula de glicose. A reação direta com fosfato inorgânico seria:
+
+                      Glicose + Pi  Glicose-6-fosfato + H2O ( G0 = +13,8 kJ/mol)
+
+   Desfavorável. Sozinha, essa reação não acontece em escala biológica. Mas a célula não faz
+desse jeito. Em vez de pegar Pi livre, ela usa a enzima hexoquinase para acoplar duas reações:
+
+                    Glicose + ATP  Glicose-6-fosfato + ADP ( G0 = - 16,7 kJ/mol)
+
+   A nova  G é a soma das duas individuais: hidrolisar ATP libera - 30,5 kJ/mol, fosforilar
+glicose com Pi livre custa +13,8 kJ/mol. Combinando: - 30,5 + 13,8 = - 16,7. Favorável.
+
+   Repare que a célula não hidrolisa o ATP num copo separado e depois "usa o calor" para
+fosforilar a glicose. Ela transfere diretamente o grupo fosfato terminal do ATP para a glicose,
+num único passo, no sítio ativo da enzima. Esse mecanismo se chama acoplamento direto
+(ou "acoplamento por intermediário comum"): o fosfato é o intermediário que aparece nas
+duas reações somadas, e a enzima é a casa onde a transferência acontece sem que o ATP seja
+desperdiçado como calor.
+
+   Cada vez que a célula fosforila um açúcar, monta uma cadeia de proteína, prende um
+aminoácido a um tRNA, transporta um íon contra o gradiente, contrai um músculo -- está
+acoplando uma reação endergônica a uma exergônica que paga a conta. ATP é o intermediário
+onipresente.
+
+2.4 -- ATP não anda sozinho: outras moedas energéticas
+ATP é o coringa, mas não é a única moeda. A célula usa uma gradação de fosfatos com difer
+entes energias de hidrólise. Compostos com  G0 de hidrólise mais negativo que o ATP são
+chamados "compostos de alta energia"; compostos com  G0 menos negativo são "de baixa
+energia".
+
+Composto                  G0 (kJ/mol) Função fisiológica
+
+Fosfoenolpiruvato (PEP)  - 61,9  Doa fosfato ao ADP na glicólise (etapa da piru
+                                 vato-quinase)
+
+                                 9
+NEBLI                              ETAPA 1 -- TEXTO DIDÁTICO
+
+1,3-bisfosfoglicerato  - 49,4  Intermediário glicolítico; doa fosfato ao ADP
+Fosfocreatina (PCr)    - 43,1  Reserva muscular rápida; regenera ATP em
+                               poucos segundos
+ATP  ADP + Pi          - 30,5  Moeda principal -- intermediário universal
+Glicose-1-fosfato      - 20,9  Açúcar ativado para o metabolismo do
+                               glicogênio
+Glicose-6-fosfato      - 13,8  Primeira intermediária da glicólise
+
+Repare em duas coisas. Primeiro, o ATP está no meio da escala -- não no topo. Isso é proposi
+tal. Compostos acima do ATP podem doar fosfato para ele (regenerando ATP); compostos
+abaixo recebem fosfato dele (consumindo ATP). É exatamente porque ATP fica numa posição
+intermediária que ele consegue ser intermediário em todas as direções -- bom recebedor de
+cima, bom doador para baixo.
+
+   Segundo, a fosfocreatina merece atenção especial: no músculo, ela funciona como tanque-
+reserva de fosfato de alta energia. Em repouso, a creatina-quinase usa ATP em excesso para
+fabricar fosfocreatina. Em exercício intenso, quando o ATP cai rápido, a reação se inverte: PCr
++ ADP  creatina + ATP. Esse "amortecedor" dá ao músculo energia para 4-5 segundos de
+esforço máximo antes mesmo de a glicólise acelerar.
+
+Suplementação de creatina
+
+A creatina alimentar é convertida em fosfocreatina no músculo. Suplementação aumenta a
+reserva muscular de PCr em até  20%. O efeito ergogênico -- leve, mas real -- vem disso:
+mais "tanque" para o ATP antes do músculo depender da glicólise anaeróbica e da queima do
+glicogênio. Não é "energia extra"; é uma reserva de regeneração mais rápida.
+
+Acetil-CoA também é uma moeda energética importante, mas em um formato diferente:
+armazena energia numa ligação tioéster (S­C=O em vez de O­C=O). Tioésteres têm  G0
+de hidrólise alto ( - 31 kJ/mol, similar ao ATP), por razões parecidas com o caso do ATP: o
+produto da hidrólise (CoA-SH + ácido carboxílico) é muito mais estabilizado por ressonância e
+ionização do que o reagente intacto, porque o enxofre faz ressonância pior que o oxigênio com
+a carbonila adjacente. É essa diferença que justifica a posição da acetil-CoA como "moeda" no
+metabolismo central.
+
+   Resumindo até aqui: ATP é a moeda principal porque fica no meio da escala: pode ser regenerado por
+   moedas mais altas (PEP, PCr) e consumido para fosforilar moedas mais baixas (G6P). O acoplamento
+   direto, via enzima, é como a célula paga reações desfavoráveis sem desperdiçar energia como calor.
+
+                               10
+NEBLI                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+                          MAPA CONCEITUAL
+
+                                        II
+
+                          ATP é a moeda intermediária
+
+2.1/2.2 ­ Estrutura                                           2.4 ­ Escala
+
+Anidridos fosfóricos + 4         2.3 ­ Acoplamento     
+mecanismos da hidrólise                                        PEP > PCr > ATP > G6P
+                           Enzima transfere fosfato
+
+                                  direto ao substrato
+
+         Sabemos pagar reações. Falta saber como a célula colhe a energia que coloca no ATP.
+
+PARTE III -- Reações redox: extraindo energia da oxidação
+
+3.1 -- O princípio do redox biológico
+Termodinâmica define se uma reação rola; ATP é como a célula transporta a energia uma
+vez que ela foi extraída. Mas falta uma peça: como a célula extrai energia dos combustíveis?
+Resposta: oxidando-os. E oxidação, em bioquímica, é exatamente o que você aprendeu em
+química do ensino médio -- perda de elétrons.
+
+   Uma reação de óxido-redução sempre tem duas metades acontecendo simultaneamente:
+alguém perde elétrons (oxida-se), alguém ganha (reduz-se). Os elétrons não viajam soltos no
+vácuo -- eles passam de um par redox para outro, sempre em par (doador-aceptor).
+
+   Na bioquímica, a transferência de elétrons aparece em quatro formatos, dependendo de
+"como" o elétron viaja:
+
+Como elétron puro (citocromos, onde Fe3+  Fe2+);
+como átomo de hidrogênio (1 H = 1 H+ + 1 e-, perdeu
+hidrogênio = oxidou); como íon hidreto (1 H- = 1 próton
++ 2 elétrons -- o jeito do NAD+ aceitar a carga em um
+só passo); ou pela combinação direta com oxigênio (a
+queima clássica).
+
+                                                                                                   Quatro formas de transferência de elétrons.
+
+Resumindo o vocabulário: ganho de oxigênio ou perda de hidrogênio = oxidação. Perda de
+oxigênio ou ganho de hidrogênio = redução. Para a célula, o "combustível" é uma molécula
+reduzida (cheia de ligações C­H) e o produto final do metabolismo aeróbico é uma molécula
+oxidada (CO2). Cada vez que um C­H vira C­O, libera energia -- porque o oxigênio é muito
+
+                                                                                11
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+mais eletronegativo que o hidrogênio, e os elétrons descem para um "lar" energeticamente
+mais baixo.
+
+3.2 -- Potencial Eo' e a ponte para G
+Cada par redox tem uma "vontade" característica de aceitar elétrons. A medida disso é o
+potencial de redução padrão, simbolizado Eo' (em volts), com a linha (`) indicando condições
+biológicas (pH 7). Convenção: Eo' alto = forte aceptor de elétrons (oxidante forte, "gosta" de
+receber elétrons); Eo' baixo = forte doador de elétrons (redutor forte, "gosta" de soltar elétrons).
+
+   Exemplos centrais que você vai reencontrar em cadeia respiratória:
+· NAD+ + 2e- + H+  NADH: Eo' = - 0,32 V (baixo -- NADH é bom doador de elétrons).
+· Piruvato + 2e- + 2H+  Lactato: Eo' = - 0,19 V.
+· Citocromos da cadeia respiratória: Eo' varia de +0,04 a +0,25 V (intermediários).
+· ½ O2 + 2e- + 2H+  H2O: Eo' = +0,82 V (alto -- O2 é o aceptor universal).
+
+Em uma reação redox completa, os elétrons sempre fluem espontaneamente do par com Eo'
+mais baixo (doador) para o par com Eo' mais alto (aceptor). A diferença de potencial entre os
+dois pares converte-se diretamente em energia livre disponível:
+
+                                           G0 = - n  F   Eo'
+
+   n é o número de elétrons transferidos; F é a constante de Faraday (96,5 kJ  V- 1  mol- 1). O
+sinal negativo na frente garante que, quanto maior o  Eo' (diferença positiva entre aceptor e
+doador), mais favorável a reação ( G mais negativa). É a ponte direta entre eletroquímica e
+termodinâmica.
+
+3.3 -- NAD+/NADH e FAD/FADH2: os bondes de elétrons
+A célula não passa elétrons do combustível diretamente para o O2 em um único passo -- isso
+liberaria 220 kJ/mol de uma vez só, mais energia do que pode ser capturada num único ATP. A
+solução evolutiva foi outra: usar coenzimas intermediárias que aceitam elétrons em pequenos
+pacotes, carregam-nos até a cadeia respiratória e, lá, entregam de forma escalonada.
+
+       12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ NAD+ aceita 2 elétrons como um íon hidreto (:H-) num único passo. O segundo H+ removido do substrato escapa
+ para o solvente.
+
+Os dois bondes principais são o NAD+ e o FAD. O NAD+ aceita dois elétrons como um íon
+hidreto (:H-), que entra inteiro na nicotinamida e vira NADH; o segundo próton removido
+do substrato escapa para o meio aquoso. Eo' do par NAD+/NADH = - 0,32 V. O NAD+ é uma
+coenzima livre (não está covalentemente ligada à enzima); ele se solta e vai entregar o "frete"
+de elétrons em outra organela.
+
+   O FAD é diferente. Aceita dois elétrons junto com dois prótons (dois átomos de hidrogênio
+inteiros), virando FADH2. Em quase todos os casos, FAD fica covalentemente ligado à enzima
+(por isso é chamado de "grupo prostético"). O Eo' do par FAD/FADH2 depende da proteína a que
+está ligado, mas, em geral, é menos negativo que o NAD+ -- o FADH2 é um doador de elétrons
+"mais fraquinho".
+
+   Essa diferença em Eo' tem consequência mecanística direta. Quando o NADH transfere seus
+elétrons para a cadeia respiratória, entra pelo Complexo I, no topo da cadeia; ao descer até o
+O2, passa por mais "andares" e libera mais energia para bombear prótons. O FADH2, que tem
+Eo' menos negativo, entra mais embaixo (Complexo II), pula um andar e libera menos energia.
+Resultado prático: cada NADH gera  2,5 ATP na cadeia respiratória; cada FADH2 gera  1,5 ATP.
+
+3.4 -- Por que oxidar com O vale tanto
+Vamos juntar tudo. A oxidação completa de uma molécula de glicose tem uma  G0 gigantesca:
+
+                           C6H12O6 + 6 O2  6 CO2 + 6 H2O ( G0 = - 2870 kJ/mol)
+   Energia para queima na hora num bico de Bunsen. A célula, em vez de soltar tudo de uma
+vez, faz isso em etapas. Glicólise quebra a glicose em piruvato; o piruvato entra no Krebs e é
+oxidado a CO2, gerando NADH e FADH2 na cadeia respiratória, o NADH e o FADH2 doam elétrons
+que descem até o O2. Mas o ganho efetivo de ATP, por que é tão alto? Porque a diferença de Eo'
+entre o NADH (- 0,32 V) e o par O2/H2O (+0,82 V) é gigantesca:  Eo' = 1,14 V. Pela fórmula:
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+                                G0 = - 2 × 96,5 × 1,14  - 220 kJ/mol por NADH
+
+   Comparando com o custo de fazer um ATP ( +30,5 kJ/mol -- o sinal inverte porque é a reação
+inversa da hidrólise), dá pra estimar  7 ATP por NADH "no papel". Na prática, a célula é menos
+eficiente -- perdas em cada passo e o custo de transportar coisas pela membrana fazem o saldo
+real cair para os  2,5 ATP/NADH e  1,5 ATP/FADH2 já mencionados.
+
+   Onde isso te leva: a célula que oxida glicose até CO2 + H2O com cadeia respiratória ativa obtém
+ 30 ATP por glicose. Uma célula que faz só fermentação láctica obtém 2 ATP. A diferença é
+gigante -- é por isso que organismos aeróbicos dominam, e é por isso que privação de oxigênio
+(hipóxia, isquemia, envenenamento da cadeia respiratória) é tão devastadora.
+
+Resumindo até aqui: Combustíveis (glicose, gorduras, aminoácidos) doam elétrons a NAD+ e FAD;
+NADH e FADH2 carregam esses elétrons até a cadeia respiratória; lá, os elétrons descem em cascata até o
+O2, e cada passo libera energia que vira gradiente de prótons, e gradiente vira ATP via ATP-sintase. Sem
+O2, a cascata para e o saldo de ATP despenca.
+
+Conclusão integradora
+
+Veja como tudo se encaixa. A termodinâmica define a régua: uma reação só rola se  G é
+negativa, e  G depende de entalpia, entropia, temperatura e concentrações. A célula não
+quebra a regra -- ela joga com ela. Quando precisa fazer uma reação cara, acopla-a a uma
+exergônica via ATP. Quando precisa estocar a energia que veio dos combustíveis, fosforila
+ADP de volta em ATP. Quando precisa colher a energia desses combustíveis, oxida-os e
+armazena os elétrons em NADH e FADH2. E quando precisa transformar esse "frete" de
+elétrons em ATP, manda-os à cadeia respiratória, onde a diferença de Eo' entre NADH (-
+0,32 V) e O2 (+0,82 V) é capturada como gradiente de prótons, que por sua vez gira a ATP-
+sintase. É o circuito fechado do metabolismo aeróbico, e cada peça deste resumo é um
+pedaço dessa engrenagem.
+Nas próximas aulas -- glicólise, Krebs, cadeia respiratória, gliconeogênese -- você vai
+ver vias específicas onde esses princípios reaparecem em detalhe. Mas sempre que ficar
+perdido nos nomes das enzimas e dos intermediários, volte a três perguntas: "onde está
+o ATP? onde estão os elétrons? por que isso é espontâneo?". A termodinâmica é a régua.
+ATP é a moeda. Redox é como se colhe a energia.
+
+       14
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+                              MAPA CONCEITUAL
+
+                                           III
+
+       Redox colhe a energia do combustível
+
+                              
+
+3.1 ­ Princípio                      3.2 ­ Potencial               3.3/3.4 ­ Bondes
+
+Oxidar = perder elétrons (ou   Diferença em Eo vira  G via   NADH (2,5 ATP) e FADH2 (1,5
+H)
+                                      Faraday                       ATP)
+
+       Cadeia respiratória é o destino dos elétrons -- próxima aula.
+
+                              15
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Termodinâmica é a régua                                     NAD+ e FAD são os bondes universais
+
+   Toda reação obedece a  G =  H - T   S. Só rola se           NAD+ aceita íon hidreto (2 e- + 1 H+) num passo (Eo
+G < 0.  H mede calor;  S mede desordem; T amplifica         = - 0,32 V); entra na cadeia pelo Complexo I, gera  2,5
+o peso da entropia.                                         ATP. FAD aceita 2 H inteiros; entra pelo Complexo II,
+Os 4 cenários clássicos                                     gera  1,5 ATP.
+                                                            Por que oxidar com O2 vale tanto
+   Combinando sinais de  H e  S: ambos favoráveis
+ sempre espontânea; ambos desfavoráveis                         Eo entre NADH (- 0,32 V) e O2/H2O (+0,82 V) =
+nunca; mistos  só em T baixa ( H <0,  S <0) ou T            1,14 V   G0 = - 220 kJ/mol por NADH. Respiração
+alta ( H >0,  S >0).                                        aeróbica:  30 ATP/glicose; fermentação láctica: 2.
+Condições reais corrigem  G
+
+   A célula não está em condições padrão. As concen
+trações entram via R T ln(razão produtos/reagentes).
+Reação com  G0 positivo pode rodar in vivo se pro
+dutos baixos e reagentes altos.
+ATP é a moeda intermediária
+
+   Hidrólise libera  30,5 kJ/mol em condições padrão
+(até  60 in vivo). Quatro razões: repulsão elet
+rostática, ressonância do Pi, ionização do ADP, mel
+hor solvatação dos produtos.
+Acoplamento direto via enzima
+
+   A hexoquinase transfere fosfato do ATP direto à
+glicose no sítio ativo. As  G somam: - 30,5 + 13,8 = -
+16,7 kJ/mol. A célula nunca desperdiça ATP como calor
+isolado.
+Escala de moedas energéticas
+
+   Acima do ATP: PEP (- 61,9), 1,3-BPG (- 49,4), fos
+focreatina (- 43,1). Abaixo: G1P, G6P. ATP fica no meio
+porque precisa receber de cima e doar para baixo.
+Fosfocreatina: tanque-reserva muscular
+
+   Em repouso, ATP fabrica PCr; em exercício intenso,
+PCr + ADP regenera ATP em microssegundos. Sus
+tenta 4-5 segundos de esforço máximo antes da
+glicólise acelerar.
+Redox colhe energia oxidando combustível
+
+   Oxidar = perder elétrons (ou H). Diferença em Eo
+entre doador e aceptor vira  G via  G0 = - n  F  
+Eo. Eo alto = forte aceptor.
+
+                                                        16
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a primeira lei da termodinâmica aplicada a um sistema bioquímico, é correto afirmar:
+  A) A energia interna de um sistema isolado pode aumentar se a reação for exotérmica o
+  suficiente.
+  B) A energia total do universo (sistema + vizinhança) permanece constante em qualquer
+  transformação química, conforme a conservação de energia.
+  C) Em sistemas biológicos, a primeira lei deixa de ser válida porque há fluxo contínuo de
+  matéria.
+  D) A primeira lei impede que reações endotérmicas ocorram espontaneamente em qualquer
+  condição.
+  E) A energia interna de um sistema aberto é sempre maior que a de um sistema fechado
+  equivalente.
+
+Questão 02 Consolidação
+
+A energia livre de Gibbs ( G) de uma reação é definida pela equação:
+  A)  G = T   S -  H, e prevê espontaneidade quando positiva.
+  B)  G =  H + T   S, e indica reação exotérmica quando negativa.
+  C)  G =  H   S - T, e independe da temperatura absoluta.
+  D)  G =  H - T   S, e indica reação espontânea quando negativa.
+  E)  G =  H +  S / T, e prevê espontaneidade quando  G > 0.
+
+                            17
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Julgue os itens sobre conceitos centrais de termodinâmica química:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Uma reação com  H negativo é classificada como exotérmica e libera calor para a vizin
+  hança.
+  II. A segunda lei da termodinâmica afirma que a entropia do sistema sempre aumenta em
+  processos espontâneos.
+  III.  G = 0 indica que a reação atingiu o equilíbrio químico nas condições consideradas.
+  IV. Reações endergônicas ( G > 0) são sempre acompanhadas de absorção de calor.
+
+Questão 04 Consolidação
+
+Em relação à estrutura química do ATP, é correto afirmar:
+
+  A) Contém uma base nitrogenada (adenina), uma ribose e três grupos fosfato em série ligados
+  por anidridos fosfóricos.
+  B) Contém duas bases nitrogenadas, um grupo desoxirribose e dois grupos fosfato unidos
+  por ligações peptídicas.
+  C) É um nucleotídeo derivado do RNA com ligação O-glicosídica entre adenina e a ribose
+  carregada.
+  D) Apresenta três ligações ésteres fosfóricos consecutivas formando uma cauda apolar e
+  neutra em pH 7.
+  E) Possui um anel pirimidínico ligado a três grupos fosfato terminais, todos com a mesma
+  energia de hidrólise.
+
+                         18
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Sobre por que a hidrólise do ATP libera  30,5 kJ/mol em condições padrão:
+
+  A) A ligação fosfoanidrido contém uma reserva interna de energia química, liberada quando
+  o oxigênio rompe a ligação.
+
+  B) A reação é endotérmica e a energia vem da absorção de calor pela vizinhança aquosa do
+  ATP.
+
+  C) Os produtos (ADP + Pi) são mais estáveis que o reagente por separação de cargas,
+  ressonância e melhor solvatação.
+
+  D) O ATP libera energia porque a adenina rearranja seus elétrons em um anel aromático mais
+  estável.
+
+  E) A energia provém da formação de uma nova ligação covalente entre os produtos e a água
+  do meio.
+
+Questão 06 Consolidação
+
+Julgue os itens sobre ATP e acoplamento de reações:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A ligação fosfoanidrido do ATP armazena energia química na própria ligação, conforme o
+  conceito de "ligação rica em energia".
+  II. Em reações de acoplamento, a enzima transfere o grupo fosfato do ATP diretamente para
+  o substrato, sem liberar energia como calor isolado.
+  III. O ATP serve como intermediário energético porque tem energia de hidrólise inter
+  mediária entre compostos de alta e de baixa energia.
+  IV. A hidrólise do ATP em condições celulares libera menos energia que em condições padrão,
+  porque as concentrações de ADP e Pi são maiores.
+
+                         19
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre as coenzimas redox NAD+ e FAD, é correto afirmar:
+
+  A) Ambas aceitam apenas um elétron por vez e ficam covalentemente ligadas à enzima onde
+  atuam.
+
+  B) NAD+ é um cofator metálico e FAD é uma coenzima aniônica derivada do nucleotídeo
+  timina.
+
+  C) NAD+ aceita um próton apenas, enquanto FAD aceita dois prótons sem transferência de
+  elétrons.
+  D) NAD+ aceita 2 elétrons como íon hidreto (:H-) e FAD aceita 2 átomos de hidrogênio
+  inteiros.
+
+  E) Ambas têm o mesmo Eo' e geram a mesma quantidade de ATP ao serem oxidadas na cadeia
+  respiratória.
+
+Questão 08 Consolidação
+
+Em bioquímica, "oxidação" de uma molécula corresponde a:
+  A) Ganho de um próton (H+) sem alteração de seus elétrons de valência originais.
+  B) Quebra de uma ligação covalente C-C pela ação de uma enzima hidrolítica específica.
+  C) Adição de uma molécula de água, com formação de um grupo hidroxila no carbono
+  central.
+  D) Transferência de calor para um aceptor de menor entropia, conforme a segunda lei.
+  E) Perda de elétrons -- equivalente, em muitos casos biológicos, à perda de hidrogênio ou
+  ganho de oxigênio.
+
+                         20
+NEBLI                                                                     ETAPA 2 -- OBJETIVAS
+
+Questão 09 Consolidação
+
+Julgue os itens sobre potencial de redução padrão (Eo') e energia livre:
+
+Cada item deve ser julgado de forma independente.
+
+I. Em uma reação redox espontânea, os elétrons fluem do par com Eo' mais baixo para o par
+com Eo' mais alto.
+
+II. A equação  G0 = - n  F   Eo' liga a diferença de potencial à energia livre disponível
+na reação.
+
+III. Um par redox com Eo' muito positivo é um forte doador de elétrons, capaz de reduzir a
+maioria dos aceptores biológicos.
+
+IV. A diferença de Eo' entre o par NAD+/NADH (- 0,32 V) e O2/H2O (+0,82 V) é a base termod
+inâmica da cadeia respiratória aeróbica.
+
+Questão 10 Consolidação
+
+O rendimento aproximado de ATP gerado pela oxidação de um NADH na cadeia respiratória é:
+  A)  0,5 ATP, porque o NADH precisa primeiro ser fosforilado antes de doar elétrons à cadeia.
+  B)  2,5 ATP, porque o NADH entra pelo Complexo I e seus elétrons descem por toda a cadeia
+  respiratória.
+  C)  7 ATP, conforme o cálculo teórico baseado apenas na  G0 da hidrólise do ATP.
+  D)  38 ATP, valor igual ao saldo total da oxidação completa da molécula de glicose.
+  E) Zero ATP, porque o NADH é regenerado a NAD+ apenas em condições anaeróbicas (fer
+  mentação).
+
+                         21
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+Uma reação bioquímica é caracterizada experimentalmente com  H = - 30 kJ/mol e  S = +50
+J  K- 1  mol- 1. Sobre essa reação:
+
+A) Será espontânea apenas em temperaturas baixas, pois o termo - T   S domina em altas T.
+
+B) Não é possível prever a espontaneidade sem conhecer o pH e a pressão do sistema consid
+erado.
+
+C) Será espontânea em qualquer temperatura, pois ambos os termos contribuem para um 
+G negativo.
+
+D) Será não-espontânea em qualquer temperatura, e a reação inversa é que ocorrerá natu
+ralmente.
+
+E) Estará sempre em equilíbrio porque os efeitos da entalpia e da entropia se cancelam
+exatamente.
+
+Questão 12 Integração
+
+No citoplasma de um hepatócito, a razão [ATP]/[ADP] é mantida em torno de 10 e [Pi] é  1 mM.
+Considerando  G0 da hidrólise do ATP igual a - 30,5 kJ/mol, qual a  G real esperada para a
+hidrólise nessas condições?
+
+  A) Mais negativa que - 30,5 kJ/mol, porque o termo R T ln([produtos]/[reagentes]) é negativo
+  quando produtos estão baixos e reagentes altos.
+
+  B) Igual a - 30,5 kJ/mol, porque as concentrações reais não influenciam a  G de uma reação
+  de hidrólise.
+
+  C) Menos negativa que - 30,5 kJ/mol, porque a alta concentração de ATP empurra o equilíbrio
+  para a esquerda.
+
+  D) Positiva, porque a concentração de ATP no citoplasma é elevada demais para sustentar
+  a hidrólise.
+
+  E) Zero, porque qualquer reação acoplada ao metabolismo central opera necessariamente
+  em equilíbrio termodinâmico.
+
+                       22
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Julgue os itens sobre os mecanismos que tornam a hidrólise do ATP energeticamente favorável:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A ligação fosfoanidrido é "rica em energia" no sentido literal de armazenar energia em
+  seus orbitais moleculares.
+  II. A separação das cargas negativas concentradas na cauda fosfato do ATP contribui para a
+  estabilidade dos produtos.
+  III. O fosfato inorgânico (Pi) é mais estabilizado por ressonância quando permanece ligado
+  ao ADP do que após sua liberação no meio aquoso.
+  IV. O ADP recém-formado sofre ionização adicional em pH fisiológico, o que contribui para
+  a estabilização energética dos produtos.
+
+Questão 14 Integração
+
+A enzima hexoquinase fosforila a glicose usando ATP. Sabendo que  G0 da hidrólise do ATP
+é - 30,5 kJ/mol e que  G0 da fosforilação direta da glicose com Pi livre é +13,8 kJ/mol, qual
+conceito explica a viabilidade da reação catalisada pela hexoquinase?
+
+  A) A enzima fornece a energia adicional necessária ao consumir uma molécula de Pi extra
+  durante a catálise.
+
+  B) A hidrólise do ATP libera calor que aquece o meio e desloca o equilíbrio da fosforilação no
+  sentido direto.
+
+  C) A enzima reduz a  G da fosforilação ao redor de seu sítio ativo, alterando a constante de
+  equilíbrio.
+
+  D) O acoplamento direto via intermediário comum soma as duas  G individuais, resultando
+  em - 16,7 kJ/mol.
+
+  E) A enzima usa um cofator de NADH adicional para suprir a diferença energética entre os
+  reagentes e produtos.
+
+                       23
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Compostos fosforilados em ordem decrescente de  G0 de hidrólise: fosfoenolpiruvato (- 61,9)
+> fosfocreatina (- 43,1) > ATP (- 30,5) > glicose-6-fosfato (- 13,8). Sobre essa escala:
+
+A) O ATP é o composto de maior energia de hidrólise da escala biológica, capaz de doar fosfato
+apenas a moléculas mais reduzidas.
+
+B) Compostos acima do ATP podem doar fosfato ao ADP, regenerando ATP; abaixo, recebem
+fosfato do ATP -- por isso ATP é intermediário ideal.
+
+C) A fosfocreatina não pode regenerar ATP no músculo porque tem  G0 mais negativo que
+a hidrólise do próprio ATP.
+
+D) Compostos abaixo do ATP, como a glicose-6-fosfato, possuem ligações fosfoanidrido que
+liberam mais energia ao serem hidrolisadas.
+
+E) A posição do ATP na escala depende exclusivamente do pH e independe da temperatura
+ou da pressão do sistema.
+
+Questão 16 Integração
+
+Um atleta inicia uma corrida de 100 metros em velocidade máxima. Durante os primeiros 4-5
+segundos, a fonte principal de regeneração de ATP no músculo esquelético é:
+
+  A) A respiração mitocondrial aeróbica, que opera em capacidade plena desde o primeiro
+  segundo de exercício intenso.
+  B) A oxidação completa dos ácidos graxos via beta-oxidação, mobilizada imediatamente
+  após o início da contração.
+  C) A glicólise anaeróbica, que produz lactato e fornece ATP rapidamente a partir do
+  glicogênio muscular.
+  D) A síntese de ATP via fermentação alcoólica, ativada em períodos de hipóxia tecidual no
+  músculo.
+  E) A transferência de fosfato da fosfocreatina para o ADP via creatina-quinase, regenerando
+  ATP em microssegundos.
+
+                       24
+NEBLI                                                          ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+Julgue os itens sobre reações de óxido-redução em bioquímica:
+
+Cada item deve ser julgado de forma independente.
+
+I. Em bioquímica, tanto a perda de hidrogênio quanto o ganho de oxigênio por uma molécula
+representam formas equivalentes de oxidação dessa molécula.
+
+II. A diferença de potencial de redução entre dois pares ( Eo') está relacionada à energia livre
+da reação pela equação  G0 = - n  F   Eo'.
+
+III. Quanto mais positivo o Eo' de um par redox, maior sua tendência a doar elétrons em
+reações biológicas.
+
+IV. O par O2/H2O, com Eo' = - 0,82 V, é o aceptor universal de elétrons na respiração aeróbica.
+
+Questão 18 Integração
+
+O NAD+, ao receber elétrons em uma reação catalisada por uma desidrogenase, é convertido
+em NADH. Sobre esse processo:
+
+  A) O NAD+ aceita um único elétron por vez, com transferência sequencial em duas etapas
+  catalisadas pela mesma enzima.
+  B) O NAD+ recebe dois prótons (H+) sem transferência de elétrons -- a redução ocorre apenas
+  pela protonação da nicotinamida.
+  C) O NAD+ aceita um íon hidreto (dois elétrons + um próton) num único passo e libera o
+  próton excedente no solvente.
+  D) O NAD+ permanece covalentemente ligado à enzima durante toda a transferência, sem se
+  desprender do sítio ativo.
+  E) O NAD+ recebe diretamente uma molécula de O2 e libera dois elétrons como subproduto
+  da oxidação do substrato.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Comparando o destino dos elétrons doados por NADH e FADH2 na cadeia respiratória, é correto
+afirmar que:
+
+A) NADH e FADH2 entram pelo mesmo complexo e geram exatamente a mesma quantidade
+de ATP por mol oxidado.
+
+B) FADH2 entra pelo Complexo I no topo da cadeia, percorre todos os andares e gera  2,5 ATP
+por mol.
+
+C) NADH é oxidado fora da cadeia respiratória, sem contribuir para o gradiente de prótons
+na membrana mitocondrial.
+
+D) NADH entra pelo Complexo I ( 2,5 ATP); FADH2 entra pelo Complexo II e gera  1,5 ATP.
+
+E) Ambos doam elétrons diretamente ao Complexo IV, que os transfere ao O2 sem bombea
+mento de prótons intermediário.
+
+Questão 20 Integração
+
+Julgue os itens sobre o sistema NAD+/FAD e a cadeia respiratória:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O NADH possui Eo' menos negativo que o FADH2, o que faz dele um doador de elétrons
+  mais fraco na cadeia.
+  II. FAD acepta elétrons como íon hidreto puro, sem transferência de prótons associada à
+  redução.
+  III. A diferença em Eo' entre NADH e O2 equivale a  1,14 V, que se traduz em  220 kJ/mol de
+  energia livre por par de elétrons.
+  IV. Cada NADH oxidado na cadeia respiratória bombeia mais prótons do que cada FADH2,
+  gerando mais ATP por molécula oxidada.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Considere a fusão de um cristal: H2O(s)  H2O(l), com  H > 0 e  S > 0. Em qual situação essa
+reação é espontânea?
+
+A) Apenas em temperaturas muito baixas, próximas ao zero absoluto, quando  H domina
+sobre o termo entrópico.
+
+B) Apenas em temperaturas suficientemente altas, quando o termo T   S supera a entalpia
+desfavorável.
+
+C) Em qualquer temperatura, porque o aumento de entropia garante  G negativo indepen
+dentemente do valor de  H.
+
+D) Em nenhuma temperatura, porque o produto - T   S aumenta com T e sempre supera a
+ H positiva.
+
+E) Apenas no equilíbrio, quando as concentrações de sólido e líquido se igualam exatamente
+em volume relativo.
+
+Questão 22 Integração
+
+A acetil-CoA é considerada um composto de alta energia comparável ao ATP. A razão termod
+inâmica para isso é:
+
+  A) O grupo tioéster (S-C=O) tem  G0 de hidrólise alto porque o enxofre faz ressonância pior
+  que oxigênio com a carbonila.
+  B) A acetil-CoA contém uma ligação fosfoanidrido entre o acetato e o grupo CoA, similar à
+  do ATP em sua geometria.
+  C) O acetato livre tem entalpia de formação mais positiva que a do reagente, tornando a
+  hidrólise endotérmica e favorável.
+  D) A coenzima A age como um agente redutor forte, doando elétrons ao acetato durante a
+  reação de hidrólise.
+  E) O grupo tioéster contém uma ligação dupla S=O que armazena energia química na própria
+  ligação covalente.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+O ATP é frequentemente descrito como "moeda intermediária" do metabolismo energético.
+Qual o motivo conceitual dessa nomenclatura?
+
+A) Porque o ATP tem a maior energia de hidrólise entre todos os compostos fosforilados
+conhecidos em sistemas biológicos.
+
+B) Porque a hidrólise do ATP gera calor que aquece o citoplasma e acelera reações pela
+equação de Arrhenius.
+
+C) Porque o ATP atua em todos os compartimentos celulares e em todos os tipos de reação
+química conhecidos.
+
+D) Porque sua  G0 de hidrólise é intermediária entre as moedas mais e menos energéticas,
+permitindo dupla direção de transferência.
+
+E) Porque o ATP é o único composto capaz de ser sintetizado tanto na glicólise quanto na
+cadeia respiratória mitocondrial.
+
+Questão 24 Integração
+
+Julgue os itens sobre entropia e espontaneidade em sistemas biológicos:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Uma proteína passando da forma desnaturada para a forma nativa apresenta diminuição
+  da entropia do polipeptídio.
+  II. O dobramento de uma proteína globular no citoplasma viola a segunda lei da termod
+  inâmica do universo.
+  III. O efeito hidrofóbico libera moléculas de água ordenadas em torno de superfícies apolares,
+  aumentando a entropia do solvente.
+  IV. Reações que ordenam o sistema podem ser espontâneas quando a entropia da vizinhança
+  aumenta o suficiente para compensar.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Considerando o saldo aproximado de ATP da oxidação completa de uma glicose pela respiração
+aeróbica e pela glicólise anaeróbica, é correto afirmar:
+
+  A) Ambas as vias geram  30 ATP/glicose porque o saldo final é definido pela  G0 da reação
+  global de oxidação.
+
+  B) A respiração aeróbica gera  2 ATP/glicose; a fermentação láctica gera  30 ATP, devido à
+  oxidação direta pelo lactato.
+
+  C) A fermentação alcoólica é exclusivamente humana e gera o mesmo saldo de ATP da
+  respiração mitocondrial.
+
+  D) O saldo aeróbico independe da cadeia respiratória, sendo determinado apenas pela
+  glicólise no citoplasma celular.
+
+  E) A respiração aeróbica gera  30 ATP/glicose; a fermentação láctica gera apenas 2, justifi
+  cando a dependência de O2 dos organismos aeróbicos.
+
+Questão 26 Aplicação
+
+Um paciente é internado com intoxicação por monóxido de carbono (CO) após inalação
+prolongada em incêndio. O CO compete com o O2 pela ligação ao Fe2+ do heme, reduzindo dras
+ticamente a entrega de oxigênio aos tecidos. Sobre o efeito metabólico esperado no miocárdio
+desse paciente:
+
+  A) A fosfocreatina muscular se acumula rapidamente, oferecendo proteção sustentada contra
+  a queda de ATP cardíaca.
+
+  B) A síntese de ATP via Krebs aumenta para compensar o déficit, porque o Krebs independe
+  de oxigênio.
+
+  C) Sem aceptor final, o fluxo da cadeia para, o NADH acumula e a célula depende da glicólise
+  anaeróbica ( 2 ATP/glicose).
+
+  D) O potencial de redução do par O2/H2O se torna mais negativo, aumentando o ganho
+  energético do NADH oxidado.
+
+  E) O acoplamento entre cadeia respiratória e ATP-sintase se intensifica, gerando mais ATP
+  por par de elétrons transferido.
+
+                       29
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Um paciente envenenado por cianeto (CN-) apresenta paragem da cadeia respiratória pelo
+bloqueio do Complexo IV (citocromo c oxidase), impedindo a transferência final de elétrons
+ao O2. Mesmo respirando normalmente, o paciente desenvolve acidose metabólica grave em
+minutos. A explicação molecular é:
+
+A) O cianeto inibe a glicólise, reduzindo a produção de piruvato no citoplasma da célula
+muscular esquelética.
+
+B) O cianeto aumenta o potencial de oxidação do O2, tornando a respiração aeróbica termod
+inamicamente desfavorável.
+
+C) O cianeto bloqueia a ATP-sintase diretamente, dissipando o gradiente de prótons da
+membrana mitocondrial.
+
+D) Sem aceptor final, NADH e FADH2 acumulam; a célula recorre à glicólise anaeróbica, com
+produção de lactato e H+.
+
+E) O cianeto inativa o NAD+ no citoplasma, impedindo a fosforilação a nível de substrato
+durante a glicólise.
+
+Questão 28 Aplicação
+
+Um maratonista realiza esforço intenso por um minuto consecutivo, depois mantém ritmo
+moderado por 90 minutos. Sobre o sequenciamento de fontes energéticas no músculo
+esquelético, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Nos primeiros 4-5 segundos, a regeneração de ATP depende principalmente da reação
+  fosfocreatina + ADP  creatina + ATP, mediada pela creatina-quinase.
+  II. Entre  10 e  60 segundos de esforço intenso, a glicólise anaeróbica predomina,
+  consumindo glicogênio muscular e gerando lactato.
+  III. Após  5 minutos de esforço sustentado, a fonte principal volta a ser a fosfocreatina, sem
+  participação da oxidação aeróbica.
+  IV. Em esforço moderado prolongado, a oxidação aeróbica de glicose e ácidos graxos torna-
+  se predominante, gerando alto saldo de ATP por molécula oxidada.
+
+                      30
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+O 2,4-dinitrofenol (DNP) é um composto lipofílico capaz de atravessar a membrana mitocon
+drial interna carregando prótons, dissipando o gradiente quimiosmótico. Foi vendido como
+"queimador de gordura" nos anos 1930 e causou várias mortes por hipertermia. O efeito
+metabólico esperado em uma célula tratada com DNP é:
+
+A) Aumento da síntese de ATP via ATP-sintase, devido ao maior fluxo de prótons pela
+membrana mitocondrial interna.
+
+B) Bloqueio total da cadeia respiratória pelo impedimento da oxidação de NADH e FADH2 nos
+complexos enzimáticos.
+
+C) Acidose intracelular grave por acúmulo de NADH e diminuição da glicólise anaeróbica
+como rota compensatória.
+
+D) Aumento do potencial de redução do par O2/H2O, reduzindo o ganho energético por elétron
+oxidado na cadeia.
+
+E) Aumento do consumo de O2 e da queima de combustíveis, mas com queda da síntese de
+ATP -- energia perdida como calor.
+
+Questão 30 Aplicação
+
+Um lactente apresenta hipotonia grave, atraso no desenvolvimento e níveis elevados de lactato
+sérico. Investigação revela mutação que reduz a atividade do Complexo I mitocondrial. A
+explicação bioquímica para a hiperlactatemia desse paciente é:
+
+  A) O Complexo I sintetiza lactato como subproduto normal da cadeia respiratória, e sua
+  deficiência acumula o substrato a montante.
+  B) Com o Complexo I deficiente, o NADH se acumula no citoplasma; para regenerar NAD+ e
+  manter a glicólise, a lactato-desidrogenase converte piruvato em lactato.
+  C) A deficiência reduz o potencial de redução do par NAD+/NADH, aumentando a  G da
+  hidrólise do ATP em condições reais.
+  D) O Complexo I controla a entrada de lactato na mitocôndria, e sua deficiência impede a
+  oxidação completa do produto da glicólise.
+  E) A deficiência aumenta a velocidade da gliconeogênese hepática, gerando lactato como
+  precursor da glicose plasmática.
+
+                      31
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+Explique, em termos mecanísticos, por que a hidrólise do ATP libera  30,5 kJ/mol em
+condições padrão. Sua resposta deve apontar por que os produtos (ADP + Pi) são mais
+estáveis que o reagente.
+
+    MODELO DE RESPOSTA
+
+   A hidrólise do ATP é favorável porque os produtos (ADP + Pi) são bem mais estabilizados
+   que o reagente. Quatro mecanismos somam-se: (1) repulsão eletrostática -- ATP tem 4
+   cargas negativas amontoadas na cauda fosfato; separá-las custa menos; (2) ressonância
+   do Pi liberado -- as 4 cargas se distribuem igualmente pelos oxigênios, o que era
+   impedido com ele preso ao ADP; (3) ionização espontânea do ADP em pH 7, liberando
+   próton; (4) melhor solvatação dos produtos. Não existe "ligação rica em energia" -- a
+   energia está na diferença de estabilidade entre antes e depois.
+
+Questão Q2
+A fosforilação direta de glicose com fosfato inorgânico é desfavorável ( G0 = +13,8 kJ/
+mol), mas a hexoquinase fosforila glicose usando ATP. Explique o conceito de acopla
+mento direto via intermediário comum e calcule a  G0 resultante.
+
+    MODELO DE RESPOSTA
+
+   Acoplamento direto significa que a enzima transfere o grupo fosfato terminal do ATP
+   para a glicose num único passo, dentro do sítio ativo, sem hidrolisar ATP separada
+   mente. O fosfato é o intermediário comum às duas semi-reações. A  G0 resultante é
+   a soma algébrica: (- 30,5) + (+13,8) = - 16,7 kJ/mol. A reação acoplada é favorável e a
+   célula nunca desperdiça a energia do ATP como calor isolado. A enzima é a "casa" onde
+   a transferência acontece com economia termodinâmica.
+
+                             32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Compare NAD+ e FAD como coenzimas redox: como cada um aceita elétrons, qual o Eo'
+relativo, em que complexo da cadeia respiratória entrega elétrons, e qual o rendimento
+aproximado em ATP por mol oxidado.
+
+MODELO DE RESPOSTA
+
+NAD+ é uma coenzima livre que aceita 2 elétrons como íon hidreto (:H-) num único
+passo, virando NADH; um próton é liberado no meio. Eo' = - 0,32 V (mais negativo,
+doador mais forte). Entra pelo Complexo I no topo da cadeia, percorre todos os trechos
+e rende  2,5 ATP. FAD é grupo prostético covalente; aceita 2 átomos de H inteiros (2
+elétrons + 2 prótons), virando FADH2. Eo' menos negativo, doador mais fraco. Entra pelo
+Complexo II, pula um trecho e rende  1,5 ATP. A diferença em Eo' explica a diferença
+em ATP.
+
+Questão Q4
+
+Uma reação tem  G0 = +6 kJ/mol, ou seja, é endergônica em condições padrão. Mostre
+como essa reação pode, mesmo assim, rodar in vivo. Use a equação  G =  G0 + R T
+ln([produtos]/[reagentes]).
+
+    MODELO DE RESPOSTA
+
+   Em condições celulares as concentrações não são 1 M. A equação mostra que se a razão
+   [produtos]/[reagentes] for baixa o suficiente, o termo logarítmico fica suficientemente
+   negativo para vencer a  G0 positiva. Exemplo: se a razão for 0,01, R T ln(0,01)  - 11,4
+   kJ/mol a 37 ° C. Somando:  G = +6 + (- 11,4) = - 5,4 kJ/mol -- favorável. A célula faz
+   isso mantendo produtos sempre baixos (consumidos por outras enzimas a jusante) e
+   reagentes altos (continuamente repostos por enzimas a montante).
+
+       33
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um aluno, ao explicar por que o ATP é a "moeda energética" da
+célula, escreveu: "A ligação fosfoanidrido do ATP é uma ligação química especial que ar
+mazena energia em seus orbitais moleculares. Quando essa ligação é quebrada, a energia
+armazenada é liberada como calor, e a célula usa esse calor para aquecer o citoplasma e
+acelerar as reações enzimáticas dependentes de ATP." Aponte o erro conceitual e explique
+como o ATP de fato fornece energia para reações endergônicas.
+
+MODELO DE RESPOSTA
+
+O erro é tratar a "ligação fosfoanidrido" como reservatório literal de energia e supor
+que a célula usa o calor da hidrólise para acelerar reações. Nenhuma das duas é correta.
+A energia da hidrólise não está armazenada na ligação -- está na diferença de estabil
+idade entre ATP e (ADP + Pi). Os produtos são mais estáveis por separação de cargas,
+ressonância do Pi, ionização do ADP e melhor solvatação. Além disso, a célula não usa o
+calor: ela acopla o ATP a reações endergônicas via intermediário comum, transferindo
+o fosfato diretamente ao substrato dentro do sítio ativo da enzima, sem desperdiçá-lo
+como calor isolado.
+
+       34
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 D         Q03 CECE  Q04 A     Q05 C
+                        Q08 E     Q09 CCEC  Q10 B
+Q06 ECCE  Q07 D
+                        Q13 ECEC  Q14 D     Q15 B
+INTEGRAÇÃO (Q11­Q25)    Q18 C     Q19 D     Q20 EECC
+                        Q23 D     Q24 CECC  Q25 E
+Q11 C     Q12 A
+                        Q28 CCEC  Q29 E     Q30 B
+Q16 E     Q17 CCEE
+
+Q21 B     Q22 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 D
+
+                        37
+

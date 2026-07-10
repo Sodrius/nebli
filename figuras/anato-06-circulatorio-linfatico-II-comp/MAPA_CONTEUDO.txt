@@ -1,0 +1,17 @@
+# MAPA_CONTEUDO -- anato-06-circulatorio-linfatico-II-comp
+# Slide-fonte: Aula 6_Material Complementar.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Aula 6 Material Complementar Profa. Katiúcia B. S. Paiva katipaiva@usp.br
+slide-02: [VISUAL -- usar adjacente com titulo extraivel]
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: [VISUAL -- usar adjacente com titulo extraivel]
+slide-07: [VISUAL -- usar adjacente com titulo extraivel]
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]

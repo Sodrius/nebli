@@ -1,0 +1,1328 @@
+NEBLI · APOSTILA
+
+Membrana plasmática
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Estudar com o slide aberto ao lado; foque em entender o porquê de cada
+               propriedade da bicamada antes de decorar nomes de fosfolipídios.
+Onde estudar:  Alberts -- Fundamentos da Biologia Celular, Cap. 11. Junqueira & Carneiro,
+               Cap. 5.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que existe membrana e do que ela é feita
+       1.1 Por que toda célula precisa de uma membrana
+       1.2 A lógica do lipídio anfipático e a bicamada espontânea
+       1.3 Quem mora na bicamada: fosfolipídeos, colesterol, glicolipídeos
+  PARTE II -- A membrana é um fluido bidimensional
+       2.1 Mosaico fluido: o que se move e o que não se move
+       2.2 Quatro fatores que decidem a fluidez
+       2.3 Assimetria das duas folhas (e por que ela importa)
+  PARTE III -- Proteínas, glicocálix e o prelúdio da seletividade
+       3.1 Proteínas integrais: -hélice e barril-
+       3.2 Periféricas e ancoradas (lipídeo, GPI)
+       3.3 Glicocálix e o prelúdio da seletividade
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de mergulhar no que a membrana é, vale fixar o porquê ela existe. Toda célula precisa de
+    um jeito de manter "dentro" diferente de "fora" -- e essa fronteira precisa ser ao mesmo tempo
+    selada o suficiente pra reter o que importa e seletiva o suficiente pra deixar passar o que precisa.
+    Quase tudo que você vai aprender sobre membrana sai dessa tensão: como uma fina camada
+    de gordura, com cerca de 5 nanômetros de espessura, consegue cumprir duas missões aparente
+    mente opostas?
+    A resposta vem em três tempos. Primeiro, a química do lipídio anfipático monta a bicamada
+    sozinha -- sem nenhuma máquina ajudando (PARTE I). Segundo, essa bicamada não é uma
+    parede rígida; é um fluido bidimensional regulado por composição, e nessa fluidez está a chave de
+    várias funções celulares (PARTE II). Terceiro, são as proteínas embutidas que decidem o que entra,
+    o que sai e quem reconhece quem (PARTE III). No fim, você vai ver que "membrana" é menos uma
+    estrutura e mais um sistema dinâmico que viabiliza a vida celular.
+
+PARTE I -- Por que existe membrana e do que ela é feita
+
+1.1 -- Por que toda célula precisa de uma membrana
+Imagine tentar fazer química delicada num laboratório onde tudo está misturado: reagentes,
+produtos, enzimas, sais -- todos boiando juntos no mesmo recipiente. Você não tem controle
+de nada. A célula resolveu esse problema com membranas: barreiras finas que separam ambi
+entes químicos distintos. Quando você olha o que a membrana plasmática (a membrana mais
+externa, que envolve a célula inteira) faz na prática, aparecem quatro frentes complementares.
+
+   A primeira é a delimitação. A membrana separa o líquido intracelular do extracelular, e os
+dois ambientes são radicalmente diferentes. Só pra dar uma sensação concreta da escala da
+diferença: dentro da célula a concentração de potássio (K+) é cerca de 140 mM e fora é 4 mM; o
+sódio (Na+) é o oposto, 145 mM fora e 12 mM dentro. Essa diferença, que parece detalhe químico,
+é exatamente o que permite ao neurônio gerar um potencial de ação, ao músculo se contrair,
+ao rim filtrar o sangue. Sem a membrana segurando essa assimetria, nada disso aconteceria.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare como Na+, Ca2+ e Cl- dominam o meio extracelular, enquanto K+, Mg2+ e aminoácidos dominam o intracelular.
+A membrana é o que segura essa assimetria.
+
+A segunda função é compartimentalização. Dentro das células eucarióticas existem organelas
+-- núcleo, mitocôndria, retículo endoplasmático, complexo de Golgi, lisossomo -- e cada
+uma delas é envolvida pela sua própria membrana. Cada organela funciona como uma
+micro-fábrica especializada, com pH próprio, conjunto próprio de enzimas, função própria.
+O lisossomo, por exemplo, mantém pH em torno de 4,5 (bem ácido) pra que suas enzimas
+hidrolíticas funcionem; se elas vazassem pro citosol (pH 7,2), mal trabalhariam ali e ainda
+assim digeriam componentes celulares importantes no caminho. Sem compartimentalização,
+a complexidade da célula eucariótica não seria possível.
+
+   A terceira função é o armazenamento de gradientes -- a forma celular de guardar energia.
+Quando a célula consome ATP1 pra bombear Na+ pra fora e K+ pra dentro, ela está convertendo
+energia química em energia potencial estocada como gradiente iônico. Esse gradiente é depois
+resgatado em vários processos: co-transportar glicose pra dentro do enterócito, disparar um
+potencial de ação no neurônio, acionar contração muscular. A membrana é o que torna possível
+guardar energia em forma de "desequilíbrio iônico". O detalhe mecanístico fica para o resumo
+de Transporte.
+
+   A quarta é a sinalização. A célula precisa "saber" o que acontece fora dela -- se chegou um
+hormônio, se outra célula a está tocando, se há um patógeno por perto. Tudo isso é decidido por
+proteínas embutidas na membrana, os receptores. A membrana, portanto, não é uma parede
+passiva -- é onde a célula escuta o mundo. As proteínas voltam com calma na PARTE III.
+
+   1ATP ­ adenosina trifosfato -- a "moeda" de energia química da célula
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Membrana plasmática não é parede celular
+
+Os dois termos confundem alunos do 1º semestre. Membrana plasmática é a bicamada lipídica
+que envolve toda célula -- animal, vegetal, fúngica, bacteriana. Parede celular é uma camada
+rígida adicional, por fora da membrana, presente apenas em plantas (celulose), fungos (quitina)
+e bactérias (peptidoglicano). A célula animal não tem parede -- só a membrana. Quando você lê
+"membrana" em biologia humana, é sempre membrana plasmática, nunca parede.
+
+Síntese 1 -- A membrana existe por quatro razões interligadas: delimitar (manter dentro 
+fora), compartimentalizar (separar organelas), armazenar gradientes (energia potencial iônica)
+e sinalizar (escutar o ambiente). Essas funções se desdobram nos próximos subtópicos: a delim
+itação vem da química da bicamada (1.2), os gradientes das proteínas de transporte (3.1) e a
+sinalização das proteínas receptoras (3.3).
+
+1.2 -- A lógica do lipídio anfipático e a bicamada que se monta sozinha
+Agora a pergunta mais importante: por que justamente uma bicamada de lipídios? Por que não
+uma camada simples de proteínas, ou um filme de açúcar, ou outra coisa qualquer? A resposta
+tem nome técnico -- anfipaticidade -- e mecanismo simples.
+
+   Um fosfolipídio é uma molécula com duas regiões químicas opostas no mesmo corpo. De
+um lado, uma cabeça polar (com fosfato e um pequeno grupo orgânico) que adora água --
+é hidrofílica. Do outro, duas caudas apolares (cadeias de hidrocarboneto, em geral com 14 a
+24 carbonos) que rejeitam água -- são hidrofóbicas. Uma molécula com essas duas regiões
+opostas no mesmo corpo é chamada anfipática2. Sabão e detergente são anfipáticos pelo
+mesmo motivo -- uma cabeça polar e uma cauda hidrocarbônica.
+
+O fosfolipídio é desenhado como uma cabeça (esfera) e duas caudas (linhas). A cabeça é polar, as caudas são apolares
+-- eis a anfipaticidade.
+
+   2anfipática ­ molécula com uma região hidrofílica e outra hidrofóbica na mesma estrutura, como o sabão; é o que torna
+possível a bicamada se formar sozinha em água
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Agora pense o que acontece quando você joga fosfolipídios na água. As cabeças polares ficam
+felizes em contato com a água. As caudas, que repelem água, têm um problema -- precisam
+fugir do meio aquoso. A natureza resolve isso de duas maneiras. Pode formar uma micela: uma
+esfera onde todas as caudas apontam pra dentro e todas as cabeças ficam viradas pra fora, em
+contato com a água. Ou -- e isso é o ponto -- pode formar uma bicamada: duas folhas paralelas
+onde as caudas se escondem no meio, protegidas da água por cabeças polares dos dois lados.
+
+Bicamada e micela: as duas estruturas que fosfolipídios montam espontaneamente em água. Para fosfolipídios de
+membrana, a bicamada vence porque as caudas são longas demais pra caber numa única esfera de micela.
+
+A escolha entre micela e bicamada é geométrica. Moléculas com uma cauda só (como ácidos
+graxos livres ou detergentes) cabem bem numa micela. Fosfolipídios têm duas caudas -- ficam
+"cilíndricos" demais pra fechar uma micela pequena, e a bicamada plana vira a configuração
+energeticamente mais favorável.
+
+   Resumindo até aqui: A bicamada se forma sozinha porque as caudas hidrofóbicas precisam fugir da
+   água; a geometria de duas caudas favorece a folha plana sobre a esfera.
+
+Existe um detalhe importante que vale destacar: a bicamada se fecha sobre si mesma auto
+maticamente. Por que isso? Porque uma folha plana com bordas tem as caudas das pontas
+expostas à água -- situação termodinamicamente ruim. Curvar a folha até as bordas se
+encontrarem (formando uma vesícula esférica) elimina essa exposição. É essa propriedade --
+espontânea, sem precisar de máquina nenhuma -- que permite à célula ser uma bolsa fechada,
+e que permite às membranas se quebrarem e se religarem (em endocitose, exocitose, divisão
+celular) sem deixar furos.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que lipossomos funcionam como veículo de droga
+
+Esse fechamento espontâneo da bicamada tem aplicação prática. Em laboratório, é possível
+fabricar lipossomos -- pequenas vesículas artificiais formadas só de bicamada -- e encapsular
+dentro delas uma droga (por exemplo, doxorrubicina pra câncer). A droga fica protegida na fase
+aquosa interna, a cauda hidrofóbica da bicamada protege da degradação enzimática no sangue, e
+a vesícula só libera o conteúdo quando atinge o tecido-alvo. A doxorrubicina lipossomal (Doxil) é
+um dos primeiros exemplos clínicos dessa estratégia. Nada disso seria viável se a bicamada não
+fechasse sozinha.
+
+Síntese 2 -- A bicamada existe porque o fosfolipídio é anfipático: cabeça polar adora água, duas
+caudas apolares precisam fugir dela. A geometria das duas caudas favorece a folha plana sobre
+a micela, e a folha se fecha sobre si mesma para esconder as bordas. Tudo isso é espontâneo --
+termodinâmica resolve, célula não precisa gastar energia pra manter a estrutura.
+
+1.3 -- Quem mora na bicamada: fosfolipídeos, colesterol, glicolipídeos
+Falamos genericamente em "lipídio de membrana", mas é hora de separar os três tipos prin
+
+cipais. Cada um tem um papel distinto.
+
+As três classes de lipídio de membrana, todas anfipáticas: fosfolipídio (cabeça polar grande, duas caudas), colesterol
+(anel rígido pequeno, OH como única cabeça) e glicolipídio (cabeça com açúcar). Note como o colesterol é geometri
+camente diferente das outras duas.
+
+Os fosfolipídios são a maioria -- formam cerca de 70 a 80% dos lipídios de uma membrana
+plasmática típica. Estruturalmente são derivados do glicerol (uma molécula de três carbonos)
+com duas caudas de ácido graxo de um lado e uma cabeça contendo fosfato do outro. A cabeça
+pode ter diferentes grupos: colina (formando fosfatidilcolina, o mais abundante), serina
+(fosfatidilserina), etanolamina (fosfatidiletanolamina), inositol (fosfatidilinositol). Não é
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+decoreba inútil -- vamos ver em 2.3 que cada um desses se localiza preferencialmente em um
+lado da bicamada, e que esse padrão é funcionalmente importante.
+
+   O colesterol tem uma estrutura completamente diferente: é um esteróide -- quatro anéis
+fundidos formando uma molécula rígida e plana -- com uma única hidroxila (­OH) como
+cabeça polar e uma pequena cauda hidrocarbônica. É anfipático, mas a região polar é mínima
+(só a OH) e o resto é hidrofóbico. Em membranas animais, o colesterol pode chegar a 30­40%
+dos lipídios totais -- quase um pra cada fosfolipídio. Membranas vegetais e bacterianas têm
+pouco ou nenhum colesterol; é uma marca bastante característica de célula animal.
+
+ O colesterol se insere entre os fosfolipídios. Sua OH fica perto das cabeças polares e o anel rígido se aloja na região
+ proximal das caudas -- exatamente onde ele consegue exercer o efeito "tampão de fluidez" que veremos em 2.2.
+
+Os glicolipídios são uma minoria -- talvez 5% dos lipídios -- mas têm uma localização e
+função muito específicas. Como o nome diz, têm um açúcar (ou cadeia curta de açúcares) ligado
+covalentemente à cabeça polar. E mais importante: estão exclusivamente na folha externa
+da membrana plasmática, com o açúcar voltado pro meio extracelular. Eles fazem parte do
+glicocálix -- a "barba" de carboidratos que cobre a superfície celular -- e participam de recon
+hecimento celular e adesão. O sistema sanguíneo ABO, por exemplo, depende de diferenças
+nos açúcares dos glicolipídios da hemácia: tipo A tem um açúcar específico na ponta, tipo B
+tem outro, tipo O não tem nenhum. Vamos voltar nisso em 3.3.
+
+    Colesterol não é só vilão metabólico
+    Aluno de 1º ano frequentemente associa "colesterol" só ao colesterol circulante (LDL, HDL) e
+    a doença cardiovascular. Em biologia celular, o colesterol é estrutural: a membrana plasmática
+    precisa dele pra funcionar -- sem colesterol, a fluidez se desregula com a temperatura e a mem
+    brana não consegue formar rafts lipídicos (microdomínios especializados que veremos em 2.1).
+    Colesterol em excesso na circulação é problema clínico; colesterol na membrana é necessidade
+    celular. São o mesmo composto, com efeitos diferentes em contextos diferentes.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 3 -- Três famílias de lipídio na membrana: fosfolipídios (maioria, geometria de duas
+caudas, cabeça variável), colesterol (esteróide rígido, exclusivo de animais, modula fluidez) e
+glicolipídios (minoria, exclusivos da folha externa, função de reconhecimento). Cada classe tem
+geometria própria -- e essa geometria vai decidir como cada uma se comporta na bicamada
+(PARTE II).
+
+PARTE II -- A membrana é um fluido bidimensional
+
+2.1 -- Mosaico fluido: o que se move e o que não se move
+Até agora a bicamada parecia uma estrutura estática -- duas folhas paralelas, lipídios alin
+hados, organização rígida. Não é. Em 1972, Singer e Nicolson propuseram o modelo do mosaico
+fluido, que é até hoje o paradigma central pra entender membrana: a bicamada é um fluido
+bidimensional onde os componentes (lipídios e proteínas) se movem livremente dentro do
+plano, mas dificilmente atravessam de uma folha pra outra.
+
+  Mosaico fluido: lipídios e proteínas distribuídos como peças num mosaico, mas livres pra deslizar lateralmente.
+  "Fluido" significa movimento lateral; "mosaico" significa que diferentes componentes coexistem lado a lado.
+
+Existem quatro tipos básicos de movimento que um fosfolipídio pode fazer na bicamada, e
+a frequência de cada um é muito diferente. Difusão lateral (deslizar para o lado, no plano da
+membrana) é rapidíssima -- um fosfolipídio pode "atravessar" a membrana de uma hemácia
+em poucos segundos só por difusão térmica. Rotação (girar em torno do próprio eixo) também
+é instantânea. Flexão das caudas é ainda mais frequente. Mas o quarto movimento -- flip-
+flop, que é trocar de folha (a cabeça polar atravessa o interior hidrofóbico) -- é extremamente
+raro: a meia-vida do flip-flop espontâneo é de horas a dias.
+
+                                                                                 9
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo até aqui: Difusão lateral é rápida (segundos); flip-flop espontâneo é raríssimo (horas) --
+   por isso a assimetria entre as folhas é estável.
+
+Por que essa diferença? Porque arrastar uma cabeça polar (carregada, hidratada) através do
+miolo hidrofóbico custa muita energia -- a cabeça precisa "desidratar" no caminho e atrav
+essar 30 angstroms de meio apolar. A célula aproveita exatamente essa dificuldade pra manter
+as duas folhas com composições diferentes (assunto de 2.3). E quando precisa fazer flip-
+flop dirigido (montar a membrana, sinalizar apoptose), tem enzimas dedicadas -- flipases,
+flopases, scramblases.
+
+Difusão lateral é livre; flip-flop espontâneo, não
+
+Confusão comum em prova. Dizer que "fosfolipídios se movem livremente na membrana" é
+verdade no plano -- difusão lateral é livre, rápida e não custa energia. Mas se a alternativa
+diz "fosfolipídios trocam de folha livremente", está errado: o flip-flop espontâneo é raríssimo, e
+quando acontece de forma rápida é porque existe uma enzima específica catalisando.
+
+Uma observação importante: nem todos os componentes da membrana se movem livremente.
+Existem microdomínios -- regiões da bicamada com composição lipídica distinta, que se
+mantêm relativamente coesas dentro do "oceano" da membrana. Os mais famosos são as
+balsas lipídicas (lipid rafts): regiões enriquecidas em colesterol e esfingolipídios, mais orde
+nadas e mais espessas que o resto da bicamada. Elas funcionam como "plataformas" onde
+certas proteínas de sinalização tendem a se concentrar -- você não precisa juntar as proteínas
+manualmente, porque elas preferem ficar dentro do raft por afinidade lipídica. Vamos voltar
+nisso quando discutirmos restrição de mobilidade de proteínas (3.1).
+
+Síntese 4 -- A membrana é fluida no plano (difusão lateral livre) mas não na direção perpendic
+ular (flip-flop espontâneo raríssimo). Essa diferença é o que estabiliza a assimetria entre as folhas.
+Microdomínios como rafts mostram que a fluidez não é uniforme -- partes da membrana são
+mais "coesas" que outras.
+
+2.2 -- Quatro fatores que decidem a fluidez
+A fluidez não é fixa -- ela depende de quatro variáveis principais, e a célula regula ativamente
+essa composição pra manter a fluidez na faixa funcional. Entender esses quatro fatores resolve
+a maior parte das pegadinhas de prova sobre membrana.
+
+   Temperatura. É o mais intuitivo. Com mais calor, as caudas se agitam mais e a membrana
+fica mais fluida; com frio, as caudas se aproximam, as interações de van der Waals predom
+inam e a bicamada cristaliza (transição de fase). Existe uma temperatura crítica de transição
+(Tm) abaixo da qual a membrana "congela" e perde função. A célula não consegue mudar a
+temperatura ambiente, mas pode mudar os outros três fatores pra compensar.
+
+       10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   Comprimento da cadeia de ácido graxo. Quanto mais longa a cadeia, mais pontos de
+contato entre as caudas vizinhas, mais interações de van der Waals, mais rígida a membrana.
+Quanto mais curta a cadeia, mais fluida -- menos pontos de contato, menos interação. Esta é
+uma das três armadilhas clássicas do tema: cadeias curtas aumentam fluidez, cadeias longas
+diminuem.
+
+   Grau de insaturação. Esta é talvez a regra mais importante. Uma cauda saturada (sem dupla
+ligação carbono-carbono) é uma linha reta -- alinha bem com as caudas vizinhas, empaco
+tamento eficiente, baixa fluidez. Uma cauda insaturada (com pelo menos uma dupla ligação
+cis) tem uma curva, um "joelho" na molécula -- não empacota bem, deixa espaços vazios, alta
+fluidez. Quanto mais insaturações, mais fluida a membrana. Peixes que vivem em água gelada
+têm membranas ricas em ácidos graxos poli-insaturados -- é assim que eles mantêm fluidez
+funcional a 4 °C.
+
+Cauda saturada (reta) empacota com as vizinhas -- membrana rígida. Cauda insaturada cis (com joelho) cria vazios
+-- membrana fluida. Esse "joelho" é a chave física da regulação por insaturação.
+
+Colesterol. Aqui está o efeito mais interessante -- e a segunda armadilha clássica. O colesterol
+funciona como um tampão de fluidez: em temperatura alta, ele diminui a fluidez (porque o
+anel rígido limita o movimento das caudas vizinhas); em temperatura baixa, ele aumenta a
+fluidez (porque impede que as caudas se aproximem demais e cristalizem). Ou seja, o colesterol
+não é simplesmente "torna mais rígida" ou "torna mais fluida" -- ele estabiliza a fluidez na
+faixa funcional, qualquer que seja a temperatura. É por isso que mamíferos têm membranas
+com tanto colesterol: não precisamos da regulação fina por insaturação (como o peixe ártico)
+porque temos o colesterol fazendo o trabalho de buffer.
+
+                                                                                11
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+Colesterol em prova -- efeito dual
+
+Quase toda questão de membrana cobra esse ponto. Errado: "colesterol aumenta a fluidez" ou
+"colesterol diminui a fluidez". Certo: "colesterol estabiliza a fluidez" ou "colesterol tem efeito dual:
+diminui em temperatura alta, aumenta em temperatura baixa". Pensa no anel esteroide como um
+amortecedor -- ele resiste a mudanças, em qualquer direção.
+
+   Resumindo até aqui: Temperatura  ou cadeias curtas ou mais insaturações  membrana mais fluida.
+   Colesterol tampona a fluidez nos dois sentidos.
+
+A célula usa essas variáveis ativamente. Quando bactérias são colocadas em temperatura mais
+baixa, elas remodelam sua membrana sintetizando mais ácidos graxos insaturados -- em
+horas, a membrana volta à fluidez funcional. Esse processo se chama adaptação homeovis
+cosa. Em mamíferos, a regulação acontece por colesterol, principalmente.
+
+    Síntese 5 -- Quatro fatores controlam a fluidez: temperatura (calor , frio ), comprimento da
+    cadeia (curta , longa ), insaturação (mais ) e colesterol (tampão dos dois lados). Membrana de
+    peixe ártico usa insaturação; mamífero usa colesterol. A regra de prova: colesterol não aumenta
+    nem diminui -- estabiliza.
+
+2.3 -- Assimetria das duas folhas (e por que ela importa)
+A bicamada é simétrica geometricamente (duas folhas iguais), mas composicionalmente é as
+simétrica -- cada folha tem um conjunto diferente de fosfolipídios. Essa assimetria é mantida
+ativamente e tem função biológica concreta.
+
+   Em uma membrana plasmática típica, fosfatidilcolina e esfingomielina ficam predomi
+nantemente na folha externa (extracelular). Fosfatidilserina, fosfatidiletanolamina e fosfa
+tidilinositol ficam predominantemente na folha interna (citosólica). Os glicolipídios já vimos:
+exclusivos da folha externa, com o açúcar voltado pra fora.
+
+   Como essa assimetria é construída? De dois jeitos. Construção assimétrica: os fosfolipídios
+são sintetizados no retículo endoplasmático sempre na folha citosólica e depois "flipados"
+seletivamente pra folha luminal por flipases específicas -- então cada classe acaba indo para
+um lado preferencial desde o início. Manutenção ativa: enzimas chamadas flipases gastam
+ATP pra puxar fosfolipídios específicos da folha externa pra interna, e flopases fazem o oposto.
+Tudo isso pra contrabalançar o flip-flop espontâneo (raro, mas existe) que tenderia a misturar
+as folhas com o tempo.
+
+   Por que a célula gasta energia mantendo isso? Porque a assimetria carrega informação
+funcional. Fosfatidilinositol, restrito à folha citosólica, é um substrato chave para sinalização:
+ele recebe um grupo fosfato da enzima PI3K3 e vira PIP3, que recruta proteínas com domínio
+
+3PI3K ­ fosfatidilinositol 3-quinase -- enzima de sinalização intracelular
+                                                                             12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PH (como Akt) -- toda a via PI3K/Akt, que é central pra crescimento celular e câncer, depende
+desse fosfolipídio estar do lado certo.
+
+   O exemplo mais didático, porém, é a fosfatidilserina (PS) na apoptose. Em célula saudável,
+PS está restrita à folha interna -- flipases gastam ATP pra mantê-la lá. Quando a célula
+entra em apoptose (morte celular programada), duas coisas acontecem: a flipase é desligada
+e uma scramblase é ativada, que embaralha as duas folhas. Resultado: PS aparece na folha
+externa, virada pra fora. Os macrófagos da redondeza têm receptores que reconhecem essa
+"PS exposta" como um sinal de "me coma" -- fagocitam a célula apoptótica em silêncio,
+sem disparar inflamação. Esse mecanismo, lindo na sua precisão, depende inteiramente de a
+assimetria existir em condição basal -- se PS já estivesse na folha externa o tempo todo, o sinal
+de morte não funcionaria.
+
+Em apoptose, flipase é inibida e scramblase ativada -- fosfatidilserina aparece na folha externa. O macrófago lê esse
+sinal e fagocita a célula em silêncio.
+
+    Anexina V no diagnóstico de apoptose
+    Em laboratório de pesquisa e em alguns testes diagnósticos, marcam-se células com anexina V,
+    uma proteína que se liga especificamente a fosfatidilserina exposta. Combinada com um corante
+    de viabilidade (como iodeto de propídio), permite distinguir: célula viva (não marca nada), célula
+    em apoptose precoce (marca anexina V mas não PI), célula em apoptose tardia ou necrose (marca
+    os dois). Esse ensaio depende exatamente da assimetria fisiológica -- se PS sempre estivesse fora,
+    anexina V não diferenciaria nada.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 6 -- As duas folhas têm composição diferente, mantida ativamente por flipases e flopases
+que gastam ATP. PC e esfingomielina ficam fora; PS, PE e PI ficam dentro; glicolipídios exclusivos
+da folha externa. A assimetria carrega informação: PI3K usa fosfatidilinositol interno; macrófagos
+reconhecem fosfatidilserina externa como sinal de "me coma" em células apoptóticas.
+
+PARTE III -- Proteínas, glicocálix e o prelúdio da seletividade
+
+3.1 -- Proteínas integrais: -hélice transmembrana e barril-
+A bicamada sozinha é uma boa barreira pra coisa pequena e apolar, mas péssima pra qualquer
+coisa polar -- íons, aminoácidos, glicose, água. E uma membrana só lipídica seria inútil:
+nada entraria, nada sairia, nada seria reconhecido. As proteínas é que fazem todo o trabalho
+funcional. Em uma membrana plasmática típica, proteínas chegam a 50% da massa total (em
+algumas membranas especializadas, como a mitocondrial interna, passa de 75%).
+
+As três formas básicas de associação proteína-membrana: integrais (atravessam a bicamada), ancoradas por lipídio
+(presas covalentemente a uma cauda hidrofóbica) e periféricas (presas só por interações eletrostáticas com cabeças
+polares ou com outras proteínas).
+
+As proteínas se associam à membrana de três modos. Integrais atravessam a bicamada -- pelo
+menos um pedaço delas está embebido no meio hidrofóbico. Ancoradas por lipídio não atrav
+essam a bicamada, mas estão covalentemente presas a uma molécula lipídica que se insere
+na folha. Periféricas não tocam a bicamada diretamente -- ficam grudadas por interações
+eletrostáticas com cabeças polares ou com outras proteínas integrais. Vamos olhar cada uma.
+
+   Para uma proteína ser integral (atravessar a bicamada), ela precisa resolver um problema
+químico parecido com o que os lipídios resolvem: a região que fica dentro do miolo hidrofóbico
+precisa ser hidrofóbica também. Mas proteínas são feitas de aminoácidos, e os aminoácidos
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+têm o esqueleto peptídico cheio de ligações peptídicas polares (carbonila e amida). Como
+esconder essa polaridade?
+
+   A solução mais comum é a -hélice transmembrana. Quando o segmento da proteína que
+atravessa a bicamada se enrola numa -hélice, todos os carbonilas e amidas do esqueleto pep
+tídico formam ligações de hidrogênio internas (carbonila do resíduo n com amida do resíduo
+n+4) -- toda a polaridade do esqueleto fica satisfeita dentro da hélice, e a superfície externa
+da hélice fica decorada apenas pelas cadeias laterais dos aminoácidos. Se essas cadeias laterais
+forem hidrofóbicas (leucina, valina, isoleucina, alanina, fenilalanina), a hélice toda exibe uma
+superfície apolar pra fora -- exatamente o que o miolo da bicamada precisa.
+
+-hélices transmembrana de múltiplas passagens. Quando várias hélices atravessam a bicamada e se aglomeram,
+podem formar um poro ou canal -- é assim que a maioria dos canais iônicos e transportadores é montada.
+
+Uma proteína integral pode atravessar a bicamada uma vez (passagem única, como o receptor
+de insulina) ou várias vezes (múltiplas passagens, como os GLUT -- transportadores de glicose
+-- que têm 12 -hélices transmembrana). Quando várias hélices se aglomeram, o espaço entre
+elas pode formar um canal aquoso pelo qual íons ou pequenos solutos atravessam -- essa é a
+arquitetura dos canais iônicos e da maioria dos transportadores.
+
+   Existe uma segunda solução estrutural, menos comum em humanos: o barril-. Aqui, fitas-
+ (e não -hélices) se organizam num cilindro, com as cadeias laterais hidrofóbicas voltadas
+pra fora (na interface com o miolo lipídico) e as hidrofílicas voltadas pra dentro (formando um
+poro aquoso). Barril- é típico de membranas externas de bactérias gram-negativas (porinas),
+mitocôndrias e cloroplastos -- todas estruturas com origem evolutiva bacteriana. É mais
+rígido que o conjunto de -hélices, com menos flexibilidade conformacional.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+-hélice vs barril- em prova
+
+Pegadinha clássica: dizer que "todas as proteínas transmembrana são -hélices" -- errado, existe
+barril-. Mas também é errado dizer que "barril- é comum em mamíferos" -- em mamíferos,
+o barril- aparece quase só em organelas de origem bacteriana (mitocôndria externa). A regra
+prática: -hélice é a forma universal e dominante; barril- é uma especialidade evolutiva ligada a
+membranas externas de procariotos.
+
+Síntese 7 -- Proteínas integrais atravessam a bicamada usando duas arquiteturas: -hélice trans
+membrana (a regra geral, esconde a polaridade do esqueleto peptídico em ligações H internas) ou
+barril- (típica de mitocôndria externa e bactérias). Múltiplas passagens podem formar canais
+aquosos -- é a base estrutural dos canais iônicos e transportadores.
+
+3.2 -- Proteínas periféricas e ancoradas (lipídeo, GPI)
+Nem toda proteína de membrana atravessa a bicamada. Existem dois modos importantes de
+"ficar na membrana sem cruzar pra dentro".
+
+   As proteínas ancoradas por lipídio têm uma estratégia engenhosa: a proteína em si fica na
+fase aquosa (citosol ou exterior), mas está covalentemente ligada a uma molécula lipídica que
+se enfia na bicamada. A âncora mais conhecida é o GPI (GPI4): um fosfatidilinositol modificado
+com uma cadeia curta de açúcares, ligado por uma porção C-terminal da proteína. Proteínas
+ancoradas por GPI ficam exclusivamente na folha externa (porque a âncora é adicionada no
+lúmen do retículo endoplasmático, que vira a folha externa quando a vesícula chega à mem
+brana plasmática). Outras âncoras incluem palmitato e farnesilo, que prendem proteínas na
+folha interna (citosólica) -- exemplo clássico é a proteína Ras, oncogene central, que precisa
+da farnesilação pra funcionar.
+
+   As proteínas periféricas são as mais simples estruturalmente: não tocam o meio
+hidrofóbico, ficam grudadas só por interações eletrostáticas, ligações de hidrogênio ou
+afinidade com proteínas integrais. Por causa disso, elas são facilmente removidas da mem
+brana -- basta lavar com solução de alta força iônica (NaCl alto) ou pH alterado, e elas soltam.
+Já as proteínas integrais e ancoradas só saem se a bicamada for desfeita com detergente.
+
+   4GPI ­ glicosilfosfatidilinositol -- âncora lipídica adicionada a proteínas no lúmen do RE; prende a proteína na folha
+externa da membrana
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+    Hemoglobinúria paroxística noturna -- quando o GPI falha
+
+    Existe uma doença rara, chamada hemoglobinúria paroxística noturna (HPN), em que uma
+    mutação em uma enzima da via de síntese do GPI faz com que hemácias percam suas proteínas
+    ancoradas por GPI. Duas dessas proteínas (CD55 e CD59) protegem a hemácia da ação do sistema
+    complemento (parte da imunidade inata que pode lisar células). Sem CD55 e CD59 ancoradas, a
+    hemácia fica vulnerável e é destruída pelo próprio sistema imune -- o paciente apresenta anemia
+    hemolítica intermitente. O ponto didático: o mecanismo de doença é especificamente a perda
+    da âncora GPI -- não há nada errado com as proteínas em si, só com o jeito de prendê-las na
+    membrana.
+
+A distinção entre periféricas, ancoradas e integrais não é apenas curiosidade estrutural -- ela
+define como a proteína pode ser regulada. Proteína periférica pode "ir e vir" da membrana
+conforme a célula sinaliza (recrutamento da proteína Akt para a membrana pelo PIP3 que
+vimos em 2.3 é um exemplo perfeito). Proteína integral está presa ali até ser internalizada por
+endocitose. Essa diferença de mobilidade é estrutural -- não dá pra a célula simplesmente
+"soltar" uma integral.
+
+    Síntese 8 -- Três modos de associação proteína-membrana: integrais (cruzam a bicamada),
+    ancoradas por lipídio (presas covalentemente a uma cauda hidrofóbica embebida, GPI na folha
+    externa, palmitato/farnesilo na interna) e periféricas (grudadas só por interação eletrostática,
+    removíveis por sal alto). Cada modo tem uma "estratégia de mobilidade" diferente -- periférica
+    vai e vem por sinalização; integral fica até endocitose.
+
+3.3 -- Glicocálix e o prelúdio da seletividade
+A face externa da membrana plasmática está coberta por uma camada de carboidratos
+chamada glicocálix5. Esses carboidratos vêm de duas fontes: os açúcares ligados aos glicol
+ipídios (que vimos em 1.3) e os açúcares ligados às glicoproteínas -- proteínas integrais ou
+ancoradas que receberam cadeias de oligossacarídeos no retículo endoplasmático e no Golgi.
+Toda proteína secretada ou de membrana voltada pra face externa passa por glicosilação;
+quase nenhuma proteína citosólica passa.
+
+   5glicocálix ­ cobertura de carboidratos da superfície externa da membrana plasmática, formada por oligossacarídeos
+de glicoproteínas e glicolipídios; participa de reconhecimento celular e proteção mecânica
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O glicocálix é a "barba" de carboidratos virada pra fora, formada pelos açúcares de glicoproteínas e glicolipídios da
+folha externa. Ele cobre a superfície celular e é a primeira coisa que outra célula encontra ao tocar a sua.
+
+O glicocálix tem três funções principais. Primeiro, proteção mecânica e química -- funciona
+como um colchão hidratado que separa fisicamente a membrana de moléculas e células do
+meio externo. Segundo, reconhecimento celular: as combinações específicas de açúcares na
+superfície funcionam como uma "assinatura" reconhecida por outras células e por proteínas
+circulantes. Os antígenos do sistema sanguíneo ABO são exemplo direto disso -- tipo A tem
+N-acetilgalactosamina como açúcar terminal nos seus glicolipídios, tipo B tem galactose, tipo
+O não tem nenhum (só a base do açúcar ancestral). É essa diferença de um açúcar que define se
+sua hemácia é A, B, AB ou O. Terceiro, adesão: muitas interações célula-célula e célula-matriz
+começam pelo reconhecimento de açúcares por proteínas chamadas lectinas. Quando um
+neutrófilo sai do vaso sanguíneo para um foco de infecção, o primeiro passo é o "rolamento"
+sobre o endotélio mediado por lectinas (selectinas) que reconhecem açúcares específicos do
+glicocálix endotelial.
+
+   Agora, voltando ao tema central do resumo: a bicamada por si só é uma barreira seletiva --
+ela deixa passar bem alguns tipos de molécula e barra outros. Para entender o porquê, pense
+no que uma molécula precisa fazer pra atravessar a bicamada por difusão pura: dissolver-se no
+miolo hidrofóbico e atravessar uns 30 angstroms de meio apolar. Moléculas pequenas e apo
+lares (O2, CO2, N2, esteroides) atravessam fácil -- não têm polaridade pra esconder. Moléculas
+pequenas e polares sem carga (água, glicerol, ureia) atravessam com dificuldade moderada --
+a água, por exemplo, atravessa, mas a permeabilidade é baixa em membranas sem aquapor
+inas. Moléculas grandes e polares (glicose, aminoácidos) praticamente não atravessam -- são
+polares demais pra entrar no miolo. E íons (Na+, K+, Cl-, Ca2+) são absolutamente excluídos --
+uma carga elétrica no miolo hidrofóbico custa uma energia gigantesca; a bicamada é pratica
+mente impermeável a íons.
+
+                                                                                18
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo até aqui: Bicamada nua deixa passar gás e lipossolúvel; barra praticamente tudo que é
+   polar grande ou carregado. É essa impermeabilidade que torna proteínas de transporte indispensáveis.
+
+E é exatamente nessa exclusão dos polares grandes e dos íons que entram as proteínas de
+transporte -- canais e transportadores que atravessam a bicamada e fornecem rotas contro
+ladas para o que a difusão não consegue resolver. Cada canal é seletivo (deixa passar Na+ mas
+não K+, ou água mas nada mais), cada transportador tem sua especificidade. A membrana,
+portanto, é seletiva em dois níveis: a bicamada faz uma filtragem grosseira (passa o pequeno
+apolar, barra o resto), e as proteínas integrais decidem ativamente o resto. O mecanismo
+detalhado de cada tipo de transporte (difusão simples, facilitada, ativa primária, secundária,
+transporte vesicular) é o tema do próximo resumo desta série; aqui, vale fixar o princípio: a
+impermeabilidade da bicamada nua é o que torna o transporte mediado por proteínas possível
+e necessário.
+
+O que atravessa por difusão simples -- e o que não
+
+Erro comum: assumir que a água atravessa "livremente" a membrana. Atravessa, mas devagar;
+em tecidos que dependem de transporte rápido de água (rim, intestino), há aquaporinas (canais
+específicos pra água) acelerando o processo em ordens de magnitude. Outro erro: achar que
+glicose entra sozinha -- não entra, depende dos transportadores GLUT. Ions então, nem por reza:
+a membrana é cerca de 10 vezes mais permeável a O2 do que a Na+.
+
+Síntese 9 -- O glicocálix protege, identifica (ABO) e media adesão (selectinas, lectinas). A bica
+mada é seletiva por natureza física: gases e lipossolúveis passam, polares grandes e íons não
+passam -- e por isso a célula precisa das proteínas integrais como canais e transportadores. A
+maquinaria detalhada é o próximo resumo (13 Transporte de membrana).
+
+       19
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Olhando para trás, três fios atravessam o resumo inteiro.
+O primeiro fio é a anfipaticidade como princípio organizador. O fosfolipídio resolve,
+com uma química muito simples (cabeça polar + duas caudas apolares), o problema
+enorme de criar uma barreira aquosa: a bicamada se monta sozinha, se fecha sobre si
+mesma, se religa quando é cortada. Sem precisar de máquina, sem precisar de ATP. É
+uma solução elegante porque a termodinâmica faz todo o trabalho pesado.
+O segundo fio é a fluidez como condição funcional. Membrana boa não é parede rígida
+-- é fluido bidimensional, regulado por temperatura, comprimento de cadeia, insatu
+ração e colesterol. A célula remodela ativamente essa composição pra manter a fluidez na
+faixa funcional, e usa enzimas (flipases, scramblases) para criar e desfazer assimetrias
+entre as folhas quando precisa sinalizar. A apoptose com fosfatidilserina externa é o
+exemplo mais elegante de como uma "simples" mudança de localização de um lipídio
+carrega uma mensagem biológica completa.
+O terceiro fio é a especialização funcional pelas proteínas. A bicamada nua é uma
+barreira seletiva tosca -- passa gás, barra íon. As proteínas integrais, ancoradas e per
+iféricas é que fazem a membrana cumprir todas as funções que listamos na introdução:
+transporte, reconhecimento, sinalização, adesão, geração de gradientes. A diversidade
+arquitetural (-hélice, barril-, ancoramento por GPI, periférica recrutável) reflete di
+versidade funcional -- cada modo de associação serve a um tipo diferente de problema
+biológico.
+Quando você fizer o próximo resumo (Transporte de membrana), todos esses três fios
+voltam transformados em mecanismo: o transporte passivo aproveita os gradientes que
+a membrana segura; o transporte ativo usa proteínas integrais com múltiplas passagens;
+o transporte vesicular depende exatamente da capacidade da bicamada se fechar e religar
+sem deixar furos. Por isso, ter os princípios deste resumo bem ancorados é o que vai
+tornar o próximo tema simples de entender.
+
+       20
+NEBLI                                                                         ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Anfipaticidade                                          PS exposta = sinal "me coma"
+
+O fosfolipídio tem cabeça polar e duas caudas apo Em apoptose, a flipase é inibida e a scramblase
+
+lares; é essa dualidade química que faz a bicamada se ativada; fosfatidilserina aparece na folha externa
+
+montar sozinha em água, sem máquina nem ATP, e e macrófagos fagocitam a célula em silêncio, sem
+
+se fechar sobre si mesma para esconder bordas.          inflamação. Anexina V marca PS exposta no labo
+
+Quatro funções da membrana                              ratório.
+
+Delimitação (dentro  fora), compartimentaliza Proteínas integrais
+
+ção (organelas com químicas próprias), armazena Atravessam a bicamada por -hélice transmem
+
+mento de gradiente (energia potencial iônica) e brana (regra geral, esconde polaridade do esqueleto
+
+sinalização (receptores escutam o ambiente). Tudo o peptídico em ligações H internas) ou barril- (típico
+
+que veio depois serve a essas quatro frentes.           de mitocôndria externa e bactérias). Múltiplas pas
+
+Três classes de lipídio                                 sagens podem formar canais.
+
+Fosfolipídios (maioria, geometria de duas caudas, Proteínas ancoradas
+
+cabeça variável), colesterol (esteróide rígido, 30­ Covalentemente presas a um lipídio embebido.
+
+40% em animais, ausente em vegetais/bactérias) e GPI (glicosilfosfatidilinositol) ancora na folha ex
+
+glicolipídios (minoria, exclusivos da folha externa, terna; palmitato/farnesilo ancoram na interna (ex.:
+
+açúcar voltado para fora).                              Ras, oncogene). Falha do GPI causa hemoglobinúria
+
+Mosaico fluido                                          paroxística noturna.
+
+Singer & Nicolson, 1972. Difusão lateral é rápida Glicocálix
+
+(segundos); rotação e flexão idem; flip-flop espon Camada de carboidratos na face externa, vinda de
+
+tâneo é raríssimo (horas) -- por isso a assimetria glicoproteínas e glicolipídios. Funções: proteção, re
+
+entre as folhas é estável.                              conhecimento (sistema ABO depende de um açúcar
+
+Quatro fatores controlam a fluidez                      terminal) e adesão (selectinas no rolamento de neu
+
+   Temperatura (calor , frio ), comprimento da trófilos).
+cadeia (curta , longa ), insaturação (cis ) e coles Seletividade da bicamada
+
+terol. Pegadinha de prova: cadeias curtas aumentam Gases e lipossolúveis atravessam por difusão sim
+
+fluidez (menos contato van der Waals).                  ples; polares pequenos (água, ureia) atravessam com
+
+Colesterol = tampão de fluidez                          dificuldade; polares grandes (glicose, aminoácidos)
+
+   Efeito dual: em temperatura alta, diminui a flu praticamente não passam; íons são quase imperme
+idez (anel rígido limita movimento); em temperatura áveis. É por isso que as proteínas de transporte são
+baixa, aumenta (impede cristalização). Nunca "au indispensáveis.
+
+menta" nem "diminui" sozinho -- estabiliza.
+
+Assimetria das folhas
+
+   PC e esfingomielina fora; PS, PE, PI dentro; glicol
+ipídios exclusivos de fora. Mantida ativamente por
+flipases/flopases que gastam ATP, contra o flip-flop
+espontâneo lento.
+
+                                                21
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre as funções biológicas básicas da membrana plasmática, assinale a alternativa correta:
+  A) A delimitação é uma função exclusiva da membrana plasmática externa; organelas inter
+  nas não têm membrana própria.
+  B) A compartimentalização permite ao lisossomo ter pH neutro, igual ao citosol, otimizando
+  suas enzimas.
+  C) O armazenamento de gradientes iônicos é uma forma de a célula guardar energia poten
+  cial usável posteriormente.
+  D) A sinalização ocorre principalmente por difusão de hormônios através da bicamada, sem
+  necessidade de receptores.
+  E) As quatro funções principais (delimitar, compartimentalizar, armazenar gradiente,
+  sinalizar) são independentes e não se relacionam.
+
+Questão 02 Consolidação
+
+Qual característica química do fosfolipídio explica a montagem espontânea da bicamada em
+meio aquoso?
+
+  A) A presença de um grupo fosfato carregado negativamente na cabeça polar.
+  B) O comprimento padronizado das duas caudas de ácido graxo em todos os fosfolipídios.
+  C) A capacidade do glicerol de formar ligações de hidrogênio com a água.
+  D) A ausência de cargas na molécula, que evita repulsão eletrostática entre lipídios.
+  E) O caráter anfipático: cabeça polar hidrofílica e duas caudas apolares hidrofóbicas.
+
+                            22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre as três classes principais de lipídios de membrana, é correto afirmar:
+
+  A) Colesterol está presente em alta concentração nas membranas animais e ausente ou rara
+  em vegetais e bactérias.
+
+  B) Glicolipídios estão distribuídos igualmente nas duas folhas da bicamada, com o açúcar
+  voltado para ambos os lados.
+
+  C) Fosfolipídios representam menos de 30% dos lipídios totais em uma membrana plas
+  mática típica.
+
+  D) Colesterol é um fosfolipídio modificado, com a mesma estrutura básica de glicerol e cabeça
+  polar fosforilada.
+
+  E) Glicolipídios são a classe mais abundante na membrana, superando fosfolipídios em
+  proporção.
+
+Questão 04 Consolidação
+
+O flip-flop de fosfolipídios na bicamada é espontaneamente raro porque:
+
+  A) Os fosfolipídios estão covalentemente ancorados ao citoesqueleto, impedindo qualquer
+  movimento perpendicular.
+  B) A bicamada é rígida e bloqueia toda forma de movimento dos lipídios constituintes.
+  C) Apenas o colesterol consegue atravessar a bicamada por flip-flop, devido ao seu pequeno
+  tamanho.
+  D) Arrastar a cabeça polar carregada pelo miolo hidrofóbico custa energia elevada.
+  E) As enzimas flopases bloqueiam ativamente qualquer movimento entre as folhas da
+  membrana.
+
+                         23
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Julgue os itens sobre o modelo do mosaico fluido proposto por Singer e Nicolson (1972):
+
+Cada item deve ser julgado de forma independente.
+
+  I. A bicamada é uma estrutura rígida onde lipídios e proteínas permanecem fixos em
+  posições definidas.
+  II. A difusão lateral de fosfolipídios no plano da membrana ocorre em escala de segundos.
+  III. O flip-flop espontâneo de fosfolipídios entre as folhas ocorre na mesma escala de tempo
+  que a difusão lateral.
+  IV. A coexistência de diferentes lipídios e proteínas lado a lado é o componente "mosaico" do
+  modelo.
+
+Questão 06 Consolidação
+
+O aumento da temperatura ambiente, em uma membrana com composição lipídica fixa, tende
+a:
+
+  A) Cristalizar a bicamada e diminuir a fluidez por aproximação das caudas vizinhas.
+  B) Aumentar a fluidez por intensificação do movimento térmico das caudas de ácido graxo.
+  C) Provocar flip-flop massivo de fosfolipídios entre as folhas externa e interna.
+  D) Reduzir a permeabilidade da membrana a moléculas pequenas e apolares como O e CO.
+  E) Promover ancoragem irreversível de proteínas periféricas à face citosólica da bicamada.
+
+Questão 07 Consolidação
+
+Sobre a assimetria entre as duas folhas da bicamada na membrana plasmática, é correto
+afirmar:
+
+  A) As duas folhas têm composição idêntica de fosfolipídios; a diferença é apenas estrutural.
+  B) Glicolipídios distribuem-se aleatoriamente entre as duas folhas conforme a temperatura.
+  C) A assimetria se mantém passivamente, sem necessidade de gasto energético pela célula.
+  D) Fosfatidilserina permanece na folha externa em todas as situações fisiológicas.
+  E) Cada folha tem composição distinta, mantida ativamente por flipases que consomem ATP.
+
+                         24
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 08 Consolidação
+
+Sobre as proteínas integrais de membrana, é correto afirmar:
+
+  A) Estão presas à bicamada exclusivamente por interações eletrostáticas com as cabeças
+  polares.
+
+  B) Podem ser removidas da membrana por lavagem com solução de alta força iônica, sem
+  detergente.
+
+  C) Atravessam a bicamada usando -hélice transmembrana ou barril- como motivo estru
+  tural.
+
+  D) Não conseguem atravessar a bicamada mais de uma vez; cada proteína integral tem
+  passagem única.
+
+  E) Sua porção transmembrana é rica em aminoácidos polares carregados como lisina e ácido
+  glutâmico.
+
+Questão 09 Consolidação
+
+Julgue os itens sobre os fatores que controlam a fluidez da membrana:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Cadeias de ácido graxo mais curtas aumentam a fluidez por reduzirem o número de
+  contatos de van der Waals entre caudas vizinhas.
+  II. A presença de duplas ligações cis nas caudas insaturadas cria "joelhos" que impedem o
+  empacotamento eficiente, aumentando a fluidez.
+  III. Em temperatura alta, o colesterol aumenta a fluidez da membrana por desorganizar o
+  empacotamento dos fosfolipídios vizinhos.
+  IV. Membranas plasmáticas de células bacterianas dependem fortemente do colesterol para
+  manter a fluidez em diferentes temperaturas.
+
+                         25
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+Sobre proteínas ancoradas por lipídio (como GPI) e proteínas periféricas, é correto afirmar:
+
+  A) Proteínas periféricas atravessam a bicamada como uma única -hélice e por isso são
+  fracamente associadas à membrana.
+
+  B) Proteínas ancoradas por GPI ficam exclusivamente na folha citosólica, voltadas para o
+  interior da célula.
+
+  C) Proteínas periféricas só podem ser extraídas da membrana com uso de detergentes que
+  solubilizem a bicamada.
+
+  D) Proteínas ancoradas por GPI ficam na folha externa porque a âncora é adicionada no
+  lúmen do retículo endoplasmático.
+
+  E) Proteínas ancoradas por palmitato ficam restritas à face externa da membrana plas
+  mática.
+
+Questão 11 Integração
+
+O fosfatidilinositol, restrito à folha interna da bicamada, é substrato da PI3K, que o converte em
+PIP, recrutando proteínas com domínio PH (como Akt). Se uma droga revertesse a assimetria,
+jogando fosfatidilinositol para a folha externa, a consequência mais direta seria:
+
+  A) Inibição da sinalização via PI3K/Akt por indisponibilidade do substrato na face citosólica.
+  B) Aumento da sinalização via PI3K/Akt por maior contato com hormônios extracelulares.
+  C) Disparo imediato de apoptose por mimetizar a exposição de fosfatidilserina.
+  D) Redução da fluidez membranar por reorganização global dos fosfolipídios.
+  E) Aumento de glicosilação das proteínas periféricas do lado citosólico.
+
+                         26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Lipossomos artificiais são bicamadas esféricas usadas como veículos de entrega de drogas.
+A formação espontânea desses lipossomos a partir de fosfolipídios em água, sem nenhuma
+máquina celular, ilustra principalmente:
+
+  A) A necessidade de proteínas integrais para que a bicamada se feche corretamente.
+  B) O papel ativo do ATP em manter a estrutura básica da membrana.
+  C) A capacidade de glicolipídios de iniciar a formação de uma bicamada em meio aquoso.
+  D) O princípio termodinâmico em que a anfipaticidade fecha sozinha a bicamada em água.
+  E) A função de flipases em catalisar a curvatura inicial da bicamada para formar a esfera.
+
+Questão 13 Integração
+
+Julgue os itens sobre o papel do colesterol em membranas:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Em temperatura corporal alta, o colesterol diminui a fluidez por limitar o movimento das
+  caudas vizinhas com seu anel rígido.
+  II. O colesterol é encontrado em alta concentração em membranas plasmáticas de bactérias,
+  que dependem dele para resistir à temperatura.
+  III. Em temperatura baixa, o colesterol impede o empacotamento excessivo das caudas,
+  evitando que a membrana cristalize.
+  IV. O colesterol é um fosfolipídio modificado e contribui diretamente para a formação da
+  assinatura ABO no glicocálix.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Peixes que vivem em águas árticas, próximas a 4 °C, mantêm membranas plasmáticas fluidas
+o suficiente para função celular normal. O mecanismo adaptativo principal é:
+
+  A) Alta concentração de colesterol nas membranas, como em mamíferos homeotérmicos.
+  B) Substituição de fosfolipídios por glicolipídios na folha externa, com aumento do glicocálix.
+  C) Síntese de cadeias de ácido graxo mais longas, com mais carbonos por cauda.
+  D) Aumento da concentração proteica para gerar calor metabólico local.
+  E) Maior proporção de ácidos graxos insaturados, cujos "joelhos" cis impedem o empacota
+  mento eficiente.
+
+Questão 15 Integração
+
+Canais iônicos transmembrana, como os canais de potássio voltagem-dependentes, têm em
+comum a seguinte característica estrutural:
+
+  A) Uma única -hélice transmembrana que forma o poro por dimerização com outra pro
+  teína idêntica.
+  B) Múltiplas -hélices transmembrana que se aglomeram, formando um poro aquoso entre
+  elas.
+  C) Um motivo barril- central rodeado por hélices ancoradas via GPI à folha externa.
+  D) Estrutura predominantemente periférica, com associação à membrana apenas por inter
+  ações eletrostáticas.
+  E) Cabeças polares de fosfolipídios formando diretamente as paredes do canal aquoso, sem
+  porção proteica.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Os antígenos do sistema sanguíneo ABO são determinados por diferenças nos açúcares termi
+nais de glicolipídios e glicoproteínas na superfície da hemácia. A localização exclusiva desses
+antígenos na face externa da membrana se explica por:
+
+  A) Concentração ativa de glicolipídios na folha externa por flipases específicas para açúcares.
+  B) Migração regulada dos açúcares através da bicamada por canais específicos para car
+  boidratos.
+  C) Síntese citosólica dos antígenos com posterior secreção e adsorção na face externa.
+  D) Distribuição aleatória entre as folhas que coincidentemente concentra mais antígenos no
+  lado externo.
+  E) Glicosilação no lúmen do RE e Golgi, que vira face externa após fusão vesicular.
+
+Questão 17 Integração
+
+Sobre o efeito do colesterol na fluidez da membrana plasmática de células animais, é correto
+afirmar:
+
+  A) Aumenta a fluidez de modo proporcional à concentração, independentemente da temper
+  atura.
+  B) Diminui a fluidez de modo proporcional à concentração, em qualquer temperatura.
+  C) Funciona como tampão de fluidez: diminui em temperaturas altas e aumenta em baixas.
+  D) Não afeta a fluidez; sua função se restringe à formação de domínios de balsa (rafts).
+  E) Substitui fosfolipídios na bicamada, eliminando a necessidade de regulação por insatu
+  ração ou temperatura.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Julgue os itens sobre apoptose e assimetria de fosfolipídios:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Em célula saudável, fosfatidilserina permanece predominantemente na folha externa da
+  membrana plasmática.
+  II. A inativação das scramblases é o evento inicial da apoptose que leva a fosfatidilserina à
+  folha externa.
+  III. Macrófagos reconhecem fosfatidilserina exposta como sinal "me coma" e fagocitam a
+  célula apoptótica sem disparar inflamação.
+  IV. Em laboratório, a marcação com anexina V detecta fosfatidilserina exposta, identificando
+  células em apoptose.
+
+Questão 19 Integração
+
+Sobre proteínas ancoradas por lipídio na membrana plasmática, é correto afirmar:
+
+  A) Proteínas ancoradas por GPI ficam ancoradas exclusivamente na folha citosólica voltada
+  para o citoplasma.
+  B) Proteínas ancoradas por palmitato ficam exclusivamente na folha externa voltada para o
+  meio extracelular.
+  C) Toda proteína ancorada por lipídio atravessa a bicamada com pelo menos uma -hélice
+  transmembrana adicional.
+  D) A âncora GPI fica na folha externa porque foi adicionada no lúmen do RE.
+  E) Proteínas ancoradas por farnesilo são extracelulares, voltadas para fora da célula em quase
+  todos os tipos celulares.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Considerando a seletividade natural da bicamada lipídica nua (sem proteínas de transporte),
+qual ordenação descreve corretamente a velocidade relativa de atravessamento por difusão
+simples?
+
+  A) O > água > glicose > Na
+  B) Na > glicose > água > O
+  C) Glicose > Na > água > O
+  D) Água > Na > O > glicose
+  E) O > Na > glicose > água
+
+Questão 21 Integração
+
+Um aluno de medicina afirma: "colesterol faz mal, então deve ser ruim para a célula em
+qualquer contexto". A análise correta desse raciocínio é:
+
+  A) Está certo: a remoção total de colesterol da dieta melhora a função da membrana plas
+  mática em todas as células.
+  B) Está parcialmente certo: o colesterol membranar é dispensável, pois fosfolipídios sozin
+  hos garantem fluidez.
+  C) Está parcialmente errado: colesterol em excesso na membrana causa arteriosclerose,
+  mesmo sem participar de LDL.
+  D) Está totalmente errado: colesterol não tem qualquer papel estrutural nas membranas; é
+  apenas precursor de hormônios.
+  E) Está errado: colesterol membranar é estrutural e necessário; o problema clínico é o coles
+  terol circulante (LDL) em excesso.
+
+                       31
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Julgue os itens sobre o glicocálix:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O glicocálix é formado por carboidratos de glicoproteínas e glicolipídios voltados para o
+  meio extracelular.
+  II. Funciona como camada protetora, hidratada, separando fisicamente a membrana de
+  moléculas e células externas.
+  III. Participa de adesão celular, como no rolamento de neutrófilos sobre o endotélio mediado
+  por selectinas que reconhecem açúcares específicos.
+  IV. Está distribuído igualmente nas duas folhas da bicamada, com a porção sacarídica voltada
+  tanto para fora quanto para o citosol.
+
+Questão 23 Integração
+
+Em um experimento, a lavagem da membrana plasmática com solução salina de alta força
+iônica (NaCl 1 M) e pH alterado libera certas proteínas, enquanto outras permanecem firme
+mente associadas. O grupo liberado por essa lavagem corresponde a:
+
+  A) Proteínas integrais com múltiplas -hélices transmembrana, como canais iônicos volt
+  agem-dependentes.
+  B) Proteínas periféricas, associadas apenas por interações eletrostáticas com cabeças po
+  lares ou outras proteínas.
+  C) Proteínas ancoradas por GPI, removidas por enzimas específicas em alta força iônica.
+  D) Proteínas integrais com âncora de palmitato ou farnesilo na folha citosólica.
+  E) Glicoproteínas integrais glicosiladas, cujo açúcar é solubilizado por força iônica alta.
+
+                       32
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+O motivo estrutural barril- em proteínas transmembrana é encontrado predominantemente
+em:
+
+  A) Membranas plasmáticas de células animais, formando a maioria dos canais iônicos volt
+  agem-dependentes.
+  B) Membranas internas do retículo endoplasmático rugoso, onde compõe a maquinaria de
+  tradução.
+  C) Domínios citosólicos de proteínas periféricas associadas ao citoesqueleto cortical.
+  D) Membranas externas de bactérias gram-negativas e da mitocôndria, refletindo origem
+  evolutiva bacteriana.
+  E) Membranas lisossomais, formando os canais de prótons que mantêm o pH ácido interno.
+
+Questão 25 Integração
+
+No experimento clássico de Frye e Edidin (1970), células humanas e murinas foram fundidas e
+proteínas de membrana de cada origem foram marcadas com fluoróforos distintos. Após cerca
+de 40 minutos a 37 °C, as duas marcações se misturaram homogeneamente na membrana da
+célula híbrida. Este resultado evidenciou principalmente:
+
+  A) A capacidade de proteínas integrais atravessarem a bicamada por flip-flop espontâneo.
+  B) A organização rígida e estática das proteínas em domínios fixos definidos por GPI.
+  C) O papel exclusivo do colesterol em permitir a mobilidade lateral em temperaturas fisi
+  ológicas.
+  D) O ancoramento permanente de todas as proteínas de membrana ao citoesqueleto cortical.
+  E) A difusão lateral livre de proteínas no plano da membrana, fundamentando o modelo do
+  mosaico fluido.
+
+                       33
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Em uma cultura de timócitos induzidos à apoptose por dexametasona, observa-se que
+macrófagos co-cultivados fagocitam as células apoptóticas sem liberação de citocinas pró-
+inflamatórias. A explicação molecular mais coerente para essa fagocitose silenciosa é:
+
+  A) Os macrófagos reconhecem o aumento de glicolipídios na folha citosólica das células
+  apoptóticas.
+
+  B) As células apoptóticas liberam IL-10, que inibe a inflamação no microambiente.
+
+  C) As células apoptóticas expõem fosfatidilserina na folha externa, lida pelos macrófagos
+  como sinal "me coma".
+
+  D) A inflamação só ocorre se o macrófago fagocitar bactérias, nunca células do próprio
+  organismo.
+
+  E) A fagocitose de timócitos ocorre por sinalização via PI3K/Akt no macrófago, independente
+  da membrana da célula-alvo.
+
+Questão 27 Aplicação
+
+Paciente com 28 anos apresenta anemia hemolítica intermitente, hemoglobinúria matinal e
+plaquetopenia. Investigação revela mutação no gene PIGA, responsável pela síntese do pre
+cursor da âncora glicosilfosfatidilinositol (GPI). Julgue os itens sobre o quadro:
+
+Cada item deve ser julgado de forma independente.
+
+  I. As hemácias do paciente carecem das proteínas reguladoras CD55 e CD59 ancoradas por
+  GPI, ficando vulneráveis ao sistema complemento.
+  II. Proteínas integrais transmembrana convencionais (como as glicoforinas A e B) também
+  estão ausentes nas hemácias do paciente.
+  III. O defeito ocorre na síntese da própria proteína CD55, não na âncora; a transferência da
+  proteína para a membrana é normal.
+  IV. A hemólise depende da exposição de fosfatidilserina na folha externa por inativação
+  direta de flipases pela mutação em PIGA.
+
+                      34
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+O etanol em alta concentração, como em intoxicação aguda, se intercala entre as caudas dos
+fosfolipídios da membrana plasmática de neurônios. O efeito biofísico imediato esperado é:
+
+  A) Cristalização da bicamada com aumento de impermeabilidade a gases dissolvidos como
+  O e CO.
+
+  B) Aumento da fluidez membranar por desorganização do empacotamento das caudas de
+  ácido graxo.
+
+  C) Conversão massiva de fosfatidilserina interna em externa, simulando apoptose general
+  izada.
+
+  D) Substituição química covalente do colesterol pelo etanol, com perda total do tampão de
+  fluidez.
+
+  E) Inversão completa da assimetria das duas folhas, com troca de PC e PE entre os lados.
+
+Questão 29 Aplicação
+
+Em um estudo clássico de fusão célula-célula, células de camundongo (com proteína X marcada
+de vermelho) e células humanas (com proteína Y marcada de verde) foram fundidas com vírus
+Sendai. Após 40 minutos a 37 °C, as marcações verde e vermelha estavam homogeneamente
+misturadas em toda a membrana da célula híbrida. Quando o experimento foi repetido a 4 °C,
+as marcações permaneceram nos hemisférios originais, sem mistura. A interpretação correta
+é:
+
+  A) A 37 °C as proteínas atravessaram a bicamada por flip-flop espontâneo, mudando de folha;
+  a 4 °C o flip-flop foi bloqueado.
+
+  B) A 37 °C ocorreu transcrição e tradução de novas proteínas misturadas; a 4 °C a tradução
+  parou.
+
+  C) O experimento não diz nada sobre fluidez, apenas sobre eficiência da fusão viral em
+  temperatura corporal.
+
+  D) A 37 °C a membrana é fluida e proteínas difundem lateralmente; a 4 °C cristaliza e a
+  difusão para.
+
+  E) A mistura ocorreu por endocitose massiva da membrana híbrida e reciclagem; o frio
+  bloqueia endocitose, não fluidez.
+
+                      35
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Compare a composição lipídica da membrana plasmática de um peixe que vive em águas
+árticas (4 °C) com a de um humano adulto saudável (37 °C). Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A membrana do peixe ártico tende a ter maior proporção de ácidos graxos insaturados,
+  mantendo a fluidez em baixa temperatura.
+
+  II. A membrana humana tende a ter mais colesterol que a do peixe, com função de tampão
+  de fluidez na temperatura corporal estável.
+
+  III. Em humanos, em caso de febre prolongada, a célula pode aumentar a síntese de ácidos
+  graxos saturados como ajuste compensatório.
+
+  IV. Em ambos os casos, a célula mantém a fluidez na faixa funcional por composição lipídica
+  adaptada ao ambiente térmico.
+
+                      36
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+Explique mecanisticamente por que uma bicamada de fosfolipídios se monta espon
+taneamente em água, e por que a folha plana resulta preferida sobre uma micela esférica
+para fosfolipídios típicos de membrana.
+
+    MODELO DE RESPOSTA
+
+   O fosfolipídio é anfipático: cabeça polar adora água, duas caudas hidrofóbicas precisam
+   fugir dela. Em água, as caudas se escondem para reduzir o contato com o solvente (efeito
+   hidrofóbico). A geometria decide o arranjo: moléculas com uma cauda (sabão) cabem
+   numa micela; o fosfolipídio, com duas caudas, fica "cilíndrico" demais -- uma micela
+   pequena não fecha bem, e a folha plana com caudas no interior é energeticamente mais
+   favorável. A folha então se curva sobre si mesma para esconder as bordas, formando
+   vesículas -- sem gasto de ATP.
+
+Questão Q2
+Explique o efeito dual do colesterol sobre a fluidez da membrana e por que a expressão
+"colesterol aumenta a fluidez" é incorreta.
+
+    MODELO DE RESPOSTA
+
+   O anel rígido do colesterol se aloja entre os fosfolipídios, próximo à região das caudas.
+   Em temperatura alta, ele limita o movimento das caudas vizinhas e diminui a fluidez.
+   Em temperatura baixa, ele impede que as caudas se aproximem e se cristalizem,
+   aumentando a fluidez. O efeito é dual: o colesterol não age em uma única direção, ele es
+   tabiliza a fluidez na faixa funcional. Dizer "aumenta a fluidez" ignora o comportamento
+   em temperatura corporal, onde o efeito predominante é de redução do movimento. Por
+   isso "tampão de fluidez" descreve melhor.
+
+                             37
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que o flip-flop espontâneo de fosfolipídios é raro, e por que a célula precisa gastar
+ATP em flipases e flopases para manter a assimetria entre as folhas?
+
+MODELO DE RESPOSTA
+
+Atravessar a cabeça polar (carregada, hidratada) pelo miolo hidrofóbico custa muita
+energia: a cabeça teria de desidratar e percorrer cerca de 30 angstroms de meio apolar.
+Por isso o flip-flop espontâneo é raríssimo (horas a dias). Mesmo assim, ao longo do
+tempo, ele tenderia a misturar as folhas. A célula gasta ATP em flipases e flopases
+para reverter ativamente essas trocas espontâneas, mantendo PS, PE e PI dentro, e
+PC e esfingomielina fora. Sem esse trabalho ativo, a assimetria -- que carrega sinais
+(apoptose, sinalização) -- desapareceria com o tempo.
+
+Questão Q4
+
+Explique por que canais iônicos transmembrana, como o canal de potássio, são tipica
+mente formados por múltiplas -hélices transmembrana, e não por uma única -hélice
+ou por interações periféricas com a bicamada.
+
+    MODELO DE RESPOSTA
+
+   Uma -hélice transmembrana só consegue esconder a polaridade do esqueleto pep
+   tídico fazendo ligações H internas; sua superfície externa precisa ser hidrofóbica para
+   tolerar o miolo lipídico. Mas íons polares carregados não atravessam uma superfície
+   hidrofóbica -- precisam de um poro aquoso. Esse poro só existe se várias hélices se
+   aglomerarem, deixando entre elas um canal cujas paredes internas exponham resíduos
+   polares para os íons. Uma única hélice não tem poro; uma proteína periférica não cruza
+   a bicamada. Por isso canais iônicos exigem múltiplas passagens.
+
+       38
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um aluno afirma: "como o colesterol é prejudicial à saúde cardiovas
+cular, células que tivessem suas membranas reformuladas sem colesterol funcionariam
+melhor -- sem o colesterol como obstáculo, a fluidez seria sempre alta e o transporte
+mais eficiente". Aponte o erro mecanístico e corrija o raciocínio.
+
+MODELO DE RESPOSTA
+
+O erro mistura dois colesteróis em contextos diferentes. O colesterol circulante (em
+LDL), em excesso, contribui para placa aterosclerótica -- é o problema cardiovascular.
+O colesterol membranar é estrutural e funcional: estabiliza a fluidez como tampão dual
+(diminui em calor, aumenta em frio), permite a formação de rafts lipídicos (plataformas
+de sinalização) e modula a permeabilidade. Sem colesterol membranar, a membrana
+ficaria fluida demais na temperatura corporal, permeável demais a moléculas pequenas
+e perderia rafts. A célula seria menos funcional, não mais. São o mesmo composto, mas
+com efeitos opostos em contextos diferentes -- cardiovascular versus celular.
+
+       39
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C  Q02 E            Q03 A     Q04 D     Q05 ECEC
+                        Q08 C     Q09 CCEE  Q10 D
+Q06 B  Q07 E
+                        Q13 CECE  Q14 E     Q15 B
+INTEGRAÇÃO (Q11­Q25)    Q18 EECC  Q19 D     Q20 A
+                        Q23 B     Q24 D     Q25 E
+Q11 A  Q12 D
+                        Q28 B     Q29 D     Q30 CECC
+Q16 E  Q17 C
+
+Q21 E  Q22 CCCE
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C  Q27 CEEE
+
+                        43
+

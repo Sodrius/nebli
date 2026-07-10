@@ -1,0 +1,25 @@
+# MAPA_CONTEUDO -- anato-05-circulatorio-linfatico-I
+# Slide-fonte: 5d08e244-Aula_5_Sistema_Circulatorio_e_Linfatico_I_Parte_2_1.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Aula 5 Generalidades sobre os Sistemas Circulatório e Linfático I Parte 2 Profa. Katiúcia B. S. Paiva katiucia.paiva@fm.usp.br
+slide-02: Sistema Linfático • 3 elementos: ü linfa ü vasos linfáticos ü linfócitos ü tecidos e órgãos linfáticos • Drenagem do excesso de líquido intersticial • Transporte de lipídios da dieta (lipídios e vitaminas lipossolúveis/A, D, E e K) absorvidos no trat...
+slide-03: Tecidos e Órgãos Linfáticos • Primários: células imunocompetentes ü Medula óssea vermelha (epífise de ossos longos e ossos planos): produção de linfócitos B e pré-T (imaturas) ü Timo (maturação de linfócitos T) órgão bilobado, mediastino (esterno-aor...
+slide-04: Tecidos e Órgãos Linfáticos ü Linfonodos (600): interação sistemas linfático e imune ü Cadeias de linfonodos: “Sistema de Filtragem” ü Baço: maior órgão (remoção de antígenos do sangue e células sanguíneas velhas ou defeituosas) • Secundários: ocorre...
+slide-05: Tecidos e Órgãos Linfáticos ü Nódulos linfáticos: mucosa (tecido linfático associado a mucosa – MALT) do trato gastrointestinal, urinário e genital, respiratório ü Nódulos linfáticos agregados: íleo (intestino delgado) e apêndice ü Anel linfático da ...
+slide-06: Capilares Linfáticos • Células endoteliais sobrepostas • Membrana basal incompleta ou ausente (mais permeáveis) • Fundo cego, não contínuos (plexos) • Válvulas numerosas • Tecidos sem vasos linfáticos: avasculares (cartilagem, epiderme, córnea e bulb...
+slide-07: Troncos Linfáticos Ângulo entre veias subclávia e jugular interna Principais: • Lombares • Intestinal • Broncomediastinais • Subclávios • Jugulares
+slide-08: Ducto linfático direito Ducto torácico (L2/38-45 cm) maior vaso linfático Ductos Linfáticos
+slide-09: Ductos Linfáticos Cisterna do Quilo: base do ducto torácico e linfa do dos troncos lombares e intestinal
+slide-10: Cisterna do quilo Ducto torácico Ângulo entre veias subclávia e jugular interna Ductos Linfáticos Ducto linfático direito Ducto torácico
+slide-11: Região torácica (pressão baixa) Vasos Linfáticos • Contração musculatura lisa • Bomba muscular esquelética • Bomba respiratória Região abdominal (pressão alta) Região torácica (pressão alta) Região abdominal (pressão baixa) LINFA
+slide-12: Capilares linfáticos vaso linfático linfonodo Rede venosa Ducto coletor Troncos linfáticos Circulação Linfática 3) Capilares linfáticos 5) Linfonodos 4) Vasos linfáticos 7) Ductos Coletores 6) Troncos linfáticos 8) Rede Venosa LINFA Sangue 1) Capilar...
+slide-13: [VISUAL -- usar adjacente com titulo extraivel]
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: Vaso lactífero/lácteo – linfa leitosa (rica em lipídeos, quilo)

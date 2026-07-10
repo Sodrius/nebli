@@ -1,0 +1,101 @@
+# MAPA_CONTEUDO -- bioq-21-lipideos-rotas
+# Slide-fonte: Metbaolismo de lipídeos 2026final.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: deborah@iq.usp.br
+slide-02: Porque armazenamos lipídios ?
+slide-03: Reserva de lipídio equivale a cerca de 20% do peso 70kg=15kg de reserva de lipídeo. Oxidação de carboidrato produz 2.5X menos energia que a oxidação de lipídios. Para se ter a mesma quantidade de energia 15kg de triacilglicerol = 37,5kg de carboidrat...
+slide-04: Os ácidos graxos são estocados na forma de triacilgliceróis Tecido adiposo
+slide-05: Ativação da lipase hormônio-sensível Adipose Triglyceride LipaseAdipose Triglyceride Lipase (ATGL) e Lipase hormônio sensível (HS Lipase)
+slide-06: Stryer 7a edição Ácidos graxos são mobilizados dos adipócitos por estímulo do glucagon e epinefrina. Estes hormônios ativam a lipase hormônio-sensível
+slide-07: Ciclo de Krebs Corpos Cetônicos Lipases Triacilglicerol Ácido Graxo Acetoacetato Citrato Acetil-CoA Glicerol Gliceraldeído 3 P Glicólise Gliconeogênese Degradação de Triacilgliceróis
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: POLISSACARÍDIOS PROTEÍNAS LIPÍDIOS GLICOSE AMINOÁCIDOS ÁCIDOS GRAXOS Acetil-CoA (2) Oxaloacetato (4) Citrato (6) Isocitrato (6) Cetoglutarato (5) Succinato (4) Fumarato (4) Malato (4) Gly Ala Ser Cys Leu Ile Lys Phe Glu Asp Piruvato (3) CO2 CO2 CO2 C...
+slide-10: A degradação e a síntese de ácidos graxos ocorrem em diferentes compartimentos celulares de lipídios Stryer 9ª edição
+slide-11: Degradação de ácidos graxos na mitocôndria: β-oxidação
+slide-12: Os ácidos graxos (de cadeia longa) são ativados para formar Acil-CoA Ativação dos ácidos graxos para Acil-CoA R-CH2-CH2-COO- + ATP + H-SCoA R-CH2-CH2-CO- SCoA+ AMP + PPi O Bayardo 4ª edição
+slide-13: Degradação: transporte para a mitocôndria através do sistema de transporte carnitina A carnitina aciltransferase I é inibida pelo malonil- CoA.
+slide-14: Oxidação de Ácidos Graxos – Matriz Mitocondrial Processo conhecido como β-oxidação ou Ciclo de Lynen Na β-oxidação, os ácidos graxos originam acetil-CoA. O processo envolve 4 etapas: • Desidrogenação • Hidratação • Oxidação • Tiólise Encurtamento do ...
+slide-15: β-oxidação de ácidos graxos ou Ciclo de Lynen Bayardo 4ª edição 1. Desidrogenação 2. Hidratação da dupla ligação 3. Oxidação do grupo hidroxila e carbonila, resultando em β-cetoacetil-CoA 4. Cisão (tiólise) da β-cetoacetil-CoA pela reação com uma CoA...
+slide-16: • Tiólise •Desidrogenação •Hidratação •Oxidação β-oxidação FADH2 NADH + H
+slide-17: } Ciclo de Linen Ciclo de Krebs POLISSACARÍDIOS PROTEÍNAS LIPÍDIOS GLICOSE AMINOÁCIDOS ÁCIDOS GRAXOS Acetil-CoA (2) Oxaloacetato (4) Citrato (6) Isocitrato (6) Cetoglutarato (5) Succinato (4) Fumarato (4) Malato (4) Gly Ala Ser Cys Leu Ile Lys Phe Gl...
+slide-18: Exemplo de oxidação completa do ácido palmítico (16C) Ciclo de Lynen 1FADH2 + 1NADH + 1 Acetil-CoA + 1 Acil-CoA(n-2) Quantas voltas do ciclo de Lynen são necessárias para a conversão total do ácido palmítico em acetyl-CoA? Qual é o saldo de Acetil-Co...
+slide-19: Ciclo de Krebs Cada volta do ciclo de Krebs origina 3NADH,1 FADH2 e 1NTP(GTP) Quantas NAD e FADH2 resultam no ciclo de Krebs da oxidação do ácido palmítico (16C)?
+slide-20: Fosforilação oxidativa Cada NADH forma 3 ATP e cada FADH2 forma 2 ATP
+slide-21: Produção de ATP na oxidação do ácido palmítico (16C) Acetil-COA, NADH/ FADH ATP β-oxidação Ciclo de Krebs ATP 8 Acetil-CoA 7 NADH 7 FADH2 24 NADH 8 GTP 8 FADH2 Soma 31 NADH 15 FADH2 8 GTP 93 ATP 30 ATP 8 ATP 131 ATP
+slide-22: R-CH2-CH2-COO- + ATP + H-SCoA R-CH2-CH2-CO- SCoA+ AMP + Pi O Ativação do ácido graxo ATP  AMP Equivale a 2 ATP Saldo 129 ATP 131 ATP – 2 ATP
+slide-23: E na Glicólise qual é o saldo de ATP ?
+slide-24: Glicose + NAD + 2ADP + 2Pi → 2Piruvato + 2NADH + 2H + 2ATP + 2H2O Glicólise
+slide-25: 2 Piruvatos Saldo : 2NADH e 2 Acetyl CoA Formação de Acetyl-CoA
+slide-26: Ciclo de Krebs 6NADH 2FADH2 2 ATP 2Acetyl CoA
+slide-27: Rendimento da oxidação da glicose Etapas da oxidação da glicose I. Glicose a 2 piruvatos (glicólise) II. 2 piruvatos a 2 acetil-CoA (formação de acetil-CoA). III. 2 acetil-CoA entram no ciclo de Krebs IV. NADH e FADH2 passam pela cadeia de transporte...
+slide-28: β-oxidação de ácidos graxos de número de átomos de C ímpar Última volta do ciclo de Lynen com uma acil CoA de 5 carbonos produzindo um acetil CoA e um propionil CoA (produto de degradação de alguns aminoácidos). Para a oxidação de ácidos graxos insat...
+slide-29: Degradação de Ácidos Graxos Ciclo de Krebs Corpos Glicólise Gliconeogênese Corpos Cetônicos Lipases Triacilglicerol Ácido Graxo Acetoacetato Ácido cítrico Acetil-CoA Glicerol Gliceraldeído 3 P Lipases Triacilglicerol Triacilglicerol Ácido Graxo Ácido...
+slide-30: O Acetil-CoA formado pela β-oxidação dos ácidos graxos só entra para o Ciclo de Krebs se a degradação de lípideos e carboidratos estiver equilibrada. POLISSACARÍDIOS PROTEÍNAS LIPÍDIOS GLICOSE AMINOÁCIDOS ÁCIDOS GRAXOS Acetil-CoA (2) Oxaloacetato (4)...
+slide-31: No jejum prologando e no diabetes, o oxalacetato entra para a gliconeogênese e não estará disponível para condensar com o acetil-CoA. Nestas condições, o acetil-CoA é desviado para a formação de corpos cetônicos. Formação de corpos cetônicos POLISSAC...
+slide-32: Jejum e Diabetes tipo 1
+slide-33: O que são Corpos Cetônicos? Corpos Cetônicos são derivados do Acetil-CoA
+slide-34: Pulmões Corpos Cetônicos
+slide-35: Formação de corpos cetônicos
+slide-36: Em algumas condições como jejum ou diabetes, corpos cetônicos atingem altos níveis, acarretando cetonemia e cetonúria. O quadro geral é denominado cetose. O ácido acetoacético e hidroxi-butírico são ácidos moderadamente fortes e precisam ser neutrali...
+slide-37: [VISUAL -- usar adjacente com titulo extraivel]
+slide-38: Biossíntese de Ácidos Graxos e Triglicerídeos
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: Excesso calórico na dieta (Carboidratos e proteínas) Síntese de ácidos graxos Triacilglicerol Quando Ocorre a Síntese de Ácidos Graxos? Biossíntese de Ácidos Graxos
+slide-41: No citosol de células hepáticas, adiposas (incluindo as da glândula mamária), renais e nervosas. Onde ocorre a biossíntese dos AGs?
+slide-42: Ile Leu Trp Lys Leu Trp Tyr Phe Acetoacetil-CoA Acetil-CoA Ácidos Graxos ou Corpos cetônicos Aminoácidos Cetogênicos ou Lipogênicos Corpos cetônicos Colesterol Carbonos oriundos dos aminoácidos
+slide-43: Quando a Isocitrato desidogenase está inibida ocorre o transporte do citrato pela tricarboxilato translocase. Transporte do acetil-CoA para o citosol através do citrato
+slide-44: Transporte do acetil-CoA para o citosol através do citrato
+slide-45: [VISUAL -- usar adjacente com titulo extraivel]
+slide-46: CH3-C-SCoA O A acetil-CoA é a doadora inicial de unidades de 2 carbonos para a sintase dos ácidos graxos Os doadores de unidades de 2 carbonos Biossíntese dos AG
+slide-47: A síntese do malonil-CoA ocorre a partir do acetil-CoA + bicarbonato pela ação da acetil-CoA carboxilase Carboxibiotina Regulação da Acetyl-CoA carboxylase: ATP e Acetyl-CoA Fosforilação Malonil-CoA inibe a β-oxidação
+slide-48: Stryer Carreador de acetil ACP e Coenzima A
+slide-49: HS HS CR MT β-CS HD ER AT ACP Malonil-CoA-ACP- transferase β-cetoacil-ACP redutase β-hidroxiacil-ACP desidratase Enoil-ACP redutase Acetil-CoA-ACP transacetilase β-cetoacil-ACP sintase Proteína carreadora de grupo acil (ACP) TE Tioesterase A biossínt...
+slide-50: A biossíntese dos AG e o Complexo Multi-enzimático da Sintase dos Ácidos Graxos Stryer
+slide-51: A biossíntese de AG pela AG sintase começa por uma condensação 1) Condensação
+slide-52: A biossíntese de AG pela AG sintase depende de 4 reações sucessivas 2) Redução
+slide-53: A biossíntese de AG pela AG sintase depende de 4 reações sucessivas 3) Desidratação
+slide-54: A biossíntese de AG pela AG sintase depende de 4 reações sucessivas 4) Redução
+slide-55: Elongamento da cadeia até 16C (palmitato)
+slide-56: [VISUAL -- usar adjacente com titulo extraivel]
+slide-57: Biossíntese de AG (16C) 1. 7 Acetyl-CoA +7CO2 +7 ATP 7 malonyl-CoA + 7 ADP + 7Pi 2. Acetyl-CoA +7malonyl-CoA +14NADPH + 14 H+ palmitato + 7CO2 + 8CoA + 14NADP + + 7H2O 3. 8 Acetyl-CoA +7ATP +14NADPH+ 14 H+ palmitato + 8CoA + 7ADP + 7Pi +14NADP + + 7H...
+slide-58: Elongação dos AG • O complexo da AG sintase sintetiza AG com 16C - palmitato • A adição de mais carbonos acontece no retículo endoplasmático liso e alguns na mitocôndria • Os outros 2 carbonos são doados pelo malonilCoA, a condensação é seguida de re...
+slide-59: Obtenção do glicerol fosfato (glicerol P) Biossíntese de triglicerídeos (TG)
+slide-60: Acilação das 2 oxidrilas livres do glicerol P Biossíntese dos TG
+slide-61: - Remoção do P - Transesterificação do 3º AG Biossíntese dos TG
+slide-62: Regulação do metabolismo dos AG Regulação da citrato liase e da acetil-CoA carboxylase
+slide-63: Glucagon + Lipólise no adipócito ( AMPc) AG livres Acúmulo de palmitato O glucagon inibe biossíntese de ácidos graxos
+slide-64: A insulina ativa a biossíntese de ácidos graxos Glicose Piruvato Piruvato Oxaloacetato Acetil-CoA Citrato Citrato Oxaloacetato Acetil-CoA Malato Citrato liase Enzima málica Piruvato desidrogenase Insulina + Ciclo das pentoses Insulina + PFK-1 PK Ácid...
+slide-65: Insulina - Lipólise no adipócito ( AMPc) AG livres Inibição do palmitato sobre a acetil-CoA carboxilase e o transportador de citrato Síntese de ácidos graxos A insulina ativa a biossíntese de ácidos graxos
+slide-66: [VISUAL -- usar adjacente com titulo extraivel]
+slide-67: 1. O que provoca a degradação dos triacilgliceróis no tecido adiposo?
+slide-68: 2. A pirofosfatase é uma enzima essencial para que o fluxo de ácidos graxos para o interior da mitocôndria se processe com eficiência. Essa enzima, entretanto, catalisa uma reação da qual os ácidos graxos não participam. Explicar este aparente parado...
+slide-69: R-CH2-CH2-COO- + ATP + H-SCoA R-CH2-CH2-CO- SCoA+ AMP + PPi O
+slide-70: 3.. É possível haver oxidação completa de um ácido graxo sem a presença de carnitina?
+slide-71: [VISUAL -- usar adjacente com titulo extraivel]
+slide-72: 4. O ciclo de Lynen pode ser feito em condições anaeróbias?
+slide-73: [VISUAL -- usar adjacente com titulo extraivel]
+slide-74: 5. Citar a localização celular da β-oxidação e da síntese de ácidos graxos.
+slide-75: 6. Por que hemácia e tecido nervoso não oxidam ácidos graxos?
+slide-76: 7. Caso clínico a. Que composto o organismo armazenou, levando a 45 kg de aumento no peso da paciente? Citar o tecido de armazenamento corpóreo do composto. b.Ingerindo uma dieta de 600 kcalorias, a paciente tem um déficit energético. De que forma is...
+slide-77: 8. Por que grande concentração mitocondrial de ATP resulta no aparecimento de quantidades apreciáveis de acetil-CoA no citossol?
+slide-78: [VISUAL -- usar adjacente com titulo extraivel]
+slide-79: 9. Por que a síntese de malonil- CoA é favorecida quando a concentração citosólica de citrato é elevada? Qual é a relação entre malonil-CoA e a síntese de ácidos graxos?
+slide-80: [VISUAL -- usar adjacente com titulo extraivel]
+slide-81: 10. Que semelhança existe entre as reações catalisadas pela enzima málica e pela glicose 6- fosfato desidrogenase?
+slide-82: [VISUAL -- usar adjacente com titulo extraivel]
+slide-83: 11. Como o fígado e o tecido adiposo obtêm glicerol 3-fosfato?
+slide-84: [VISUAL -- usar adjacente com titulo extraivel]
+slide-85: 12. O que impede a síntese e degradação simultânea de ácidos graxos?
+slide-86: Glucagon + Lipólise no adipócito ( AMPc) AG livres Acúmulo de palmitato Transportador de citrato Acetil-CoA Carboxilase - - Síntese de ácidos graxos O glucagon inibe biossíntese de ácidos graxos
+slide-87: Insulina - Lipólise no adipócito ( AMPc) AG livres Inibição do palmitato sobre a acetil-CoA carboxilase e o transportador de citrato Síntese de ácidos graxos A insulina ativa a biossíntese de ácidos graxos
+slide-88: [VISUAL -- usar adjacente com titulo extraivel]
+slide-89: 13. Há consequências derivadas da produção excessiva de corpos cetônicos?
+slide-90: [VISUAL -- usar adjacente com titulo extraivel]
+slide-91: 14. Como a hipoglicemia e uma descarga de adrenalina interferem no metabolismo de triacilgliceróis?
+slide-92: 15. Se a síntese do colesterol é regulado pela concentração de colesterol extracelular porque existem pessoas com uma taxa de colesterol circulante muito elevada ?
+slide-93: [VISUAL -- usar adjacente com titulo extraivel]

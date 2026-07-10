@@ -1,0 +1,1096 @@
+NEBLI · APOSTILA
+
+Metabolismo do glicogênio
+
+Disciplina:    Bioquímica (UC01)
+Onde estudar:  Slides da Profa. MHG · Lehninger cap. 15 (síntese e degradação de
+               glicogênio) · Devlin cap. 14
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que o corpo guarda glicose em forma de glicogênio
+
+       1.1 O problema osmótico que a polimerização resolve
+       1.2 A árvore ramificada e suas duas pontas
+       1.3 Fígado guarda para o sangue, músculo guarda para si
+  PARTE II -- As duas vias: desmontar e remontar a árvore
+       2.1 Glicogenólise: fosforólise em vez de hidrólise
+       2.2 A enzima desramificadora e o destino da glicose-6-fosfato
+       2.3 Glicogênese: a glicose ativada como UDP-glicose
+       2.4 O custo de 2 ATP por glicose incorporada
+  PARTE III -- A regulação que liga uma via e desliga a outra
+       3.1 Controle alostérico: o músculo lê AMP, o fígado lê glicose
+       3.2 A cascata do glucagon: cAMP, PKA e a amplificação do sinal
+       3.3 Um fosfato, efeitos opostos: fosforilase liga, sintase desliga
+       3.4 Quando a via falha: as doenças de depósito de glicogênio
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Toda célula precisa de glicose, mas guardá-la solta dentro do citoplasma seria um desastre -- não
+    pela energia, e sim pela água. Este resumo parte desse problema concreto: por que o corpo prefere
+    amarrar milhares de glicoses numa única árvore ramificada chamada glicogênio. A partir daí, três
+    movimentos. Primeiro, entender a forma do glicogênio e por que cada órgão guarda o seu com
+    uma intenção diferente. Depois, as duas vias que desmontam e remontam essa árvore -- e por
+    que a célula gasta energia para construir o que pode quebrar de graça. Por fim, a regulação: um
+    mesmo sinal hormonal que liga a quebra e, no mesmo gesto, desliga a síntese, para que as duas
+    vias nunca corram ao mesmo tempo. No fim, as doenças de depósito mostram o que acontece
+    quando uma única peça dessa engrenagem falta.
+
+PARTE I -- Por que o corpo guarda glicose em forma de
+glicogênio
+
+1.1 O problema osmótico que a polimerização resolve
+Uma célula que quisesse estocar energia poderia, em tese, simplesmente acumular glicose livre no cito
+plasma. O problema é que cada molécula de glicose dissolvida conta como uma partícula osmoticamente
+ativa: ela puxa água para dentro da célula. Guardar a glicose de algumas horas de reserva hepática como
+moléculas avulsas elevaria a concentração interna a ponto de a água entrar em massa e a célula inchar
+até romper. A solução é polimerizar. Quando milhares de glicoses se ligam numa única macromolécula,
+toda essa reserva passa a contar como uma só partícula para fins osmóticos -- a energia fica guardada,
+mas a água fica de fora.
+Esse polímero é o glicogênio1. Ele é construído com um único tijolo, a glicose, unido por dois tipos de
+ligação: a esmagadora maioria são ligações (14), que enfileiram as glicoses numa cadeia linear, e a
+cada oito a dez resíduos surge uma ligação (16), que cria um ramo lateral. É essa segunda ligação que
+transforma uma corda reta numa árvore densamente ramificada.
+
+   Resumindo até aqui: A célula polimeriza glicose em glicogênio para esconder energia sem pagar o preço
+   osmótico -- milhares de moléculas passam a contar como uma só partícula.
+
+1.2 A árvore ramificada e suas duas pontas
+Vale olhar com cuidado o que a ramificação faz, porque é tentador achar que ela serve apenas para
+empacotar a molécula num volume menor. A função decisiva é outra. Toda cadeia de glicogênio tem
+dois tipos de extremidade: uma única extremidade redutora, presa ao centro da molécula, e muitas
+extremidades não redutoras, nas pontas de cada ramo. As enzimas que adicionam ou removem glicose
+só conseguem trabalhar nas extremidades não redutoras. Logo, quanto mais ramos, mais pontas livres,
+
+   1glicogênio ­ polímero ramificado de glicose; a forma de reserva de carboidrato dos animais, equivalente ao amido das
+plantas
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+e mais pontos simultâneos de ataque -- a célula consegue mobilizar ou depositar muitas glicoses ao
+mesmo tempo, em vez de processar uma fila única, glicose a glicose.
+
+A árvore do glicogênio. À esquerda, a estrutura ramificada: a extremidade redutora (única, no centro) prende a
+molécula; as extremidades não redutoras (muitas, nas pontas) são onde toda enzima trabalha. À direita, o detalhe
+químico: cadeias lineares de ligações (14) e, no ponto de ramificação, a ligação (16). Mais ramos significam
+mais pontas livres -- e mais velocidade para mobilizar a reserva.
+
+    Ramificar não é só compactar
+    Aluno costuma achar: o aluno tende a achar que os ramos (16) existem para deixar a molécula
+    mais compacta, um detalhe de armazenamento.
+    Mecanismo correto: na verdade os ramos multiplicam as extremidades não redutoras, que são os
+    únicos pontos de trabalho das enzimas. Ramificação é, antes de tudo, velocidade de mobilização:
+    muitas pontas atacadas em paralelo. A compactação é consequência, não o motivo.
+
+1.3 Fígado guarda para o sangue, músculo guarda para si
+Esse desenho prepara uma diferença que volta o tempo todo na regulação, então vale fixá-la desde já:
+o glicogênio não tem um único propósito, ele depende de onde está guardado. O fígado armazena de
+50 a 100 gramas de glicogênio, cerca de 10% da sua massa, e o usa como um tampão da glicemia2.
+Quando o açúcar do sangue cai, o fígado quebra seu glicogênio e exporta glicose para todo o corpo --
+ele é generoso, trabalha para os outros órgãos. O músculo faz o oposto: guarda glicogênio (cerca de 2%
+da sua massa, mas em massa total ele supera o fígado) estritamente para o próprio consumo durante a
+contração. O músculo é egoísta -- o que ele quebra, ele queima ali mesmo.
+A raiz molecular dessa diferença aparece só na PARTE II, quando virmos qual enzima o fígado tem e o
+músculo não. Por ora basta guardar a intenção: fígado para o sangue, músculo para si. Quase toda a
+regulação diferencial entre os dois tecidos é um desdobramento dessa única frase.
+
+   2glicemia ­ concentração de glicose no sangue, mantida em faixa estreita porque o cérebro depende quase exclusiva
+mente dela
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- As duas vias: desmontar e remontar a árvore
+
+2.1 Glicogenólise: fosforólise em vez de hidrólise
+Para liberar glicose do glicogênio, a maneira intuitiva seria hidrolisar as ligações -- quebrá-las com
+água, do mesmo jeito que digerimos amido no intestino. A célula faz diferente, e a diferença é o ponto
+inteiro deste subtópico. A enzima glicogênio fosforilase3 não usa água: ela usa fosfato inorgânico. Esse
+ataque por fosfato em vez de água chama-se fosforólise4. A fosforilase vai retirando, uma a uma, as
+glicoses das extremidades não redutoras, e cada glicose sai já carregando um fosfato no carbono 1 -- a
+glicose-1-fosfato.
+Por que isso importa tanto a ponto de a célula ter evoluído uma enzima dedicada? Porque sai mais barato.
+Se a célula hidrolisasse o glicogênio, ela obteria glicose livre e, para usá-la na glicólise5 ou retê-la na
+célula, precisaria gastar um ATP6 para fosforilá-la. A fosforólise entrega a glicose já fosforilada de graça,
+à custa de um fosfato inorgânico que é abundante e barato. A célula economiza um ATP por glicose só
+pela escolha do mecanismo de quebra.
+
+O produto da fosforilase é a glicose-1-fosfato, com o fosfato
+preso ao carbono 1. Esse fosfato não está ali por acaso: ele
+é o atalho energético da fosforólise. Em seguida, a enzima
+fosfoglicomutase7 apenas move esse fosfato do carbono
+1 para o carbono 6, gerando glicose-6-fosfato -- a forma
+que entra de fato no metabolismo.
+
+                                                                                               Fosforólise: a glicose sai já fosforilada.
+
+2.2 A enzima desramificadora e o destino da glicose-6-fosfato
+A fosforilase é poderosa, mas tem um limite físico: ela não consegue chegar perto de um ponto de
+ramificação. Conforme desce um ramo retirando glicoses, ela trava quando faltam quatro resíduos para
+a ligação (16) e simplesmente para. Se nada mais acontecesse, a árvore ficaria cheia de tocos não
+digeríveis. Entra a enzima desramificadora8, uma proteína curiosa porque concentra duas atividades
+num mesmo polipeptídeo. Primeiro ela atua como transferase, pegando o bloco de três resíduos que
+sobrou e transferindo-o para a ponta de outra cadeia, onde a fosforilase volta a alcançá-lo. Depois ela
+atua como (16)-glicosidase, cortando o último resíduo que ficava no ponto de ramificação -- e esse,
+sim, sai como glicose livre, não fosforilada. A ação coordenada das duas enzimas devolve o ramo à
+condição de cadeia linear, e a fosforilase recomeça.
+Resta o destino da glicose-6-fosfato, e é aqui que a frase da PARTE I ("fígado para o sangue, músculo
+para si") ganha base molecular. Para virar glicose livre e sair para o sangue, a glicose-6-fosfato precisa
+
+   3glicogênio fosforilase ­ enzima que cliva o glicogênio por fosforólise, liberando glicose-1-fosfato a partir das extrem
+idades não redutoras
+
+   4fosforólise ­ quebra de uma ligação química pela adição de fosfato inorgânico (Pi), em contraste com a hidrólise, que
+usa água
+
+   5glicólise ­ via central de quebra da glicose, que a converte em piruvato
+   6ATP ­ adenosina trifosfato -- a moeda energética da célula
+   7fosfoglicomutase ­ enzima que desloca o fosfato entre o carbono 1 e o carbono 6 da glicose, convertendo glicose-1-
+fosfato em glicose-6-fosfato
+   8enzima desramificadora ­ enzima bifuncional que remove os ramos do glicogênio: primeiro transfere um bloco de
+resíduos (transferase), depois cliva a ligação (16) (glicosidase)
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+perder o fosfato, e quem faz isso é a glicose-6-fosfatase9. O detalhe que decide tudo: essa enzima existe
+no fígado e no córtex renal, mas não no músculo. O fígado, tendo a fosfatase, remove o fosfato e exporta
+glicose. O músculo, sem ela, fica com a glicose-6-fosfato presa dentro da célula -- e como molécula
+fosforilada não atravessa a membrana, ela só tem um caminho: ser queimada ali mesmo na glicólise. A
+diferença de um único gene explica a diferença de comportamento dos dois órgãos.
+
+Mover o fosfato não é o mesmo que removê-lo
+
+Duas enzimas vizinhas são confundidas o tempo todo, e a inversão muda completamente o
+desfecho. A fosfoglicomutase apenas desloca o fosfato entre o carbono 1 e o carbono 6 -- a glicose
+continua fosforilada, presa na célula. A glicose-6-fosfatase remove o fosfato de vez -- agora a
+glicose está livre e pode sair para o sangue. Mover  remover. É exatamente a fosfatase que o
+músculo não tem: por isso o músculo move o fosfato (G1P  G6P) mas nunca o remove, e sua
+glicose jamais chega à circulação.
+
+2.3 Glicogênese: a glicose ativada como UDP-glicose
+Retomando a glicose-1-fosfato que vimos na degradação -- a síntese de glicogênio caminha por um
+trajeto parecido no começo, mas com uma diferença crucial no meio. Para adicionar uma glicose
+à árvore, não basta ter glicose-1-fosfato; a enzima sintética não consegue usá-la diretamente. Falta o
+passo que costuma ser esquecido: a glicose precisa ser primeiro "ativada", isto é, ligada a um carregador
+que torne a reação seguinte energeticamente favorável. Esse carregador é a UTP10. A glicose-1-fosfato
+reage com UTP e se converte em UDP-glicose11, a moeda da construção -- descoberta por Luis Leloir,
+que ganhou o Nobel por mostrar que açúcares precisam ser ativados por nucleotídeos antes de serem
+polimerizados.
+Com a glicose ativada em mãos, a glicogênio sintase12 adiciona o resíduo à extremidade não redutora,
+formando uma nova ligação (14). Mas a sintase tem um limite importante: ela só alonga uma
+cadeia que já exista, com pelo menos quatro resíduos -- ela não sabe começar uma cadeia do zero.
+Quem resolve esse problema do "primeiro tijolo" é a glicogenina13, uma proteína que se autoglicosila,
+montando sozinha os primeiros resíduos sobre si mesma e oferecendo à sintase um ponto de partida.
+A extremidade redutora permanece, para sempre, presa à glicogenina no coração da molécula. E como
+a sintase só faz ligações lineares, é uma terceira enzima, a enzima ramificadora14, que periodicamente
+transfere um bloco de resíduos para criar uma ligação (16) -- gerando os ramos cuja importância já
+vimos na PARTE I.
+
+2.4 O custo de 2 ATP por glicose incorporada
+
+   9glicose-6-fosfatase ­ enzima que remove o fosfato da glicose-6-fosfato, liberando glicose livre; presente apenas no
+fígado e no córtex renal
+
+   10UTP ­ uridina trifosfato -- nucleotídeo análogo ao ATP, usado para ativar açúcares
+   11UDP-glicose ­ glicose ligada a uridina-difosfato; a forma "ativada" da glicose, doadora de resíduos na síntese de
+glicogênio
+   12glicogênio sintase ­ enzima que alonga o glicogênio adicionando resíduos de UDP-glicose por ligação (14) nas
+extremidades não redutoras
+   13glicogenina ­ proteína que serve de primer para a síntese: autoglicosila-se e fornece o núcleo inicial a partir do qual
+a sintase alonga
+   14enzima ramificadora ­ enzima que cria os ramos: transfere um bloco de 7 resíduos de uma cadeia para criar uma
+nova ligação (16)
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A síntese tem um preço, e vale a pena calcular esse preço com cuidado, porque ele explica por que síntese
+e degradação nunca poderiam ser o mesmo caminho de mão dupla. Pense numa analogia: quebrar uma
+parede é fácil e você até aproveita alguns tijolos; reconstruí-la exige argamassa nova. A célula paga
+essa "argamassa" em ligações de alta energia. Vamos somar passo a passo, no estilo de uma conta de
+mercado, o custo de incorporar uma glicose ao glicogênio.
+Primeira etapa -- prender a glicose. A glicose livre entra na célula e é fosforilada a glicose-6-fosfato,
+consumindo 1 ATP. Esse é o pedágio de entrada de qualquer glicose no metabolismo. Custo até aqui: 1
+ligação de alta energia.
+Segunda etapa -- ativar a glicose. A glicose-1-fosfato reage com UTP para formar UDP-glicose,
+liberando pirofosfato (PiPi, ou PPi15). Aqui está a sutileza que faz a conta fechar: o pirofosfato é imedi
+atamente hidrolisado em dois fosfatos isolados, e essa hidrólise é irreversível. Ela puxa toda a reação
+para frente, garantindo que a glicose fique ativada -- mas ao custo de uma segunda ligação de alta
+energia gasta.
+Terceira etapa -- repor o UTP. O carregador UTP não pode acabar; ele precisa ser regenerado. A célula
+reconstrói UTP a partir do UDP16 usando um ATP (UDP + ATP  UTP + ADP17). Mas atenção: esse ATP não
+é um terceiro gasto a somar -- ele apenas paga a conta da ligação de alta energia que já contabilizamos
+quando o pirofosfato foi hidrolisado. É o mesmo custo, visto de outro ângulo.
+Lendo o número final em palavras: incorporar uma glicose ao glicogênio custa duas ligações de alta
+energia -- uma para prender a glicose (fosforilação inicial) e outra para mantê-la ativada (a hidrólise
+irreversível do pirofosfato). É por isso que a equação global aparece como glicose + 2 ATP + glicogênio(n)
+ glicogênio(n+1). A degradação, por fosforólise, não devolve nenhuma dessas ligações: ela recupera a
+glicose já fosforilada de graça, mas a "argamassa" gasta na construção não volta. Duas vias separadas,
+cada uma com seu balanço -- e nunca um caminho reversível único.
+
+As duas vias, lado a lado, no fígado. À esquerda, a degradação: a fosforilase libera glicose-1-fosfato (à custa de Pi, não
+de ATP), a fosfoglicomutase a converte em glicose-6-fosfato, e a glicose-6-fosfatase remove o fosfato para exportar
+glicose. À direita, a síntese: glicose-6-fosfato  glicose-1-fosfato  UDP-glicose (gastando UTP)  glicogênio. Note
+que os caminhos não são o mesmo trilho percorrido em sentidos opostos -- cada via tem suas próprias enzimas. É
+isso que permite regular as duas separadamente.
+
+   15PPi ­ pirofosfato inorgânico -- dois fosfatos ligados, liberados na ativação da UDP-glicose
+   16UDP ­ uridina difosfato -- forma "descarregada" do UTP, regenerada à custa de ATP
+   17ADP ­ adenosina difosfato -- o ATP após ceder um fosfato
+
+                                                                                 7
+NEBLI                               ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- A regulação que liga uma via e desliga a outra
+
+3.1 Controle alostérico: o músculo lê AMP, o fígado lê glicose
+Ter duas vias separadas só é útil se a célula souber quando usar cada uma -- e, acima de tudo, se ela
+nunca rodar as duas ao mesmo tempo, o que seria queimar ATP em círculos sem ganho nenhum. O
+primeiro nível de controle é o alostérico: pequenas moléculas que sinalizam o estado energético se ligam
+às enzimas e mudam sua atividade na hora, sem precisar de hormônio nenhum. E aqui o músculo e o
+fígado leem sinais diferentes, cada um coerente com sua função.
+No músculo, o sinal que importa é o AMP18. Quando o músculo se contrai intensamente, ele consome
+ATP, e o AMP se acumula como sinal direto de "estou ficando sem energia". O AMP se liga à glicogênio
+fosforilase e a empurra para o estado estado R19 (ativo), ligando a quebra de glicogênio exatamente
+quando o músculo precisa de combustível. Inversamente, glicose-6-fosfato e ATP em abundância
+empurram a enzima para o estado T (tenso, inativo) -- quando há energia de sobra, não faz sentido
+quebrar a reserva.
+
+Músculo: AMP/ATP. Fígado: glicose.  No fígado a lógica é outra, e tem que ser. O fígado não
+                                    quebra glicogênio para si -- quebra para o sangue. Logo,
+                                    faria pouco sentido ele obedecer ao AMP, que reflete a
+                                    energia da própria célula hepática. O sensor hepático é a
+                                    glicose livre: quando a glicemia sobe, a glicose se liga à
+                                    fosforilase a e a desloca para o estado T (inativo), desli
+                                    gando a quebra porque já há açúcar de sobra no sangue.
+                                    O fígado lê a necessidade do corpo, não a sua.
+
+3.2 A cascata do glucagon: cAMP, PKA e a amplificação do sinal
+O controle alostérico é rápido, mas tem um limite: ele só enxerga o que está dentro da própria célula. O
+corpo precisa de um segundo nível, capaz de impor uma ordem de fora -- do pâncreas para o fígado, por
+exemplo, em jejum. Esse é o papel da regulação hormonal por fosforilação20, e ela resolve um problema
+específico: como fazer um único hormônio, presente em pouquíssimas moléculas, mobilizar toneladas
+de glicogênio. A resposta é a amplificação em cascata.
+
+O glucagon (em jejum) ou a epinefrina (no susto, no exercício) chega à superfície da célula e ativa, pela
+proteína G, a adenilil-ciclase21, que transforma ATP em cAMP22 (AMP cíclico). O cAMP, por sua vez, ativa
+a PKA23. A PKA não toca no glicogênio diretamente; ela fosforila a fosforilase quinase, que fosforila a
+glicogênio fosforilase, que finalmente quebra o glicogênio. Cada enzima da fila ativa muitas cópias da
+próxima, então uma única molécula de glucagon acaba liberando milhares de glicoses. É uma cascata
+justamente para multiplicar um sinal minúsculo num efeito enorme.
+
+   18AMP ­ adenosina monofosfato -- acumula quando o ATP se esgota; sinal de baixa energia
+   19estado R ­ conformação "relaxada" e ativa de uma enzima alostérica, com alta afinidade por substrato
+   20fosforilação ­ adição de um grupo fosfato a uma proteína por uma quinase, mudando sua atividade; revertida por
+fosfatases
+   21adenilil-ciclase ­ enzima de membrana que produz cAMP a partir de ATP em resposta a hormônios
+   22cAMP ­ AMP cíclico -- segundo mensageiro que transmite o sinal hormonal para dentro da célula, ativando a PKA
+   23PKA ­ proteína quinase A -- quinase central da via do cAMP, fosforila múltiplos alvos
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A cascata de amplificação. Glucagon ou epinefrina  adenilil-ciclase  cAMP  PKA. A PKA fosforila a fosforilase
+quinase (que ativa a fosforilase, ligando a degradação) e, ao mesmo tempo, fosforila a glicogênio sintase (que a
+inativa, desligando a síntese). Um mesmo sinal, ramificando-se para os dois lados do metabolismo. Cada degrau
+ativa muitas cópias do próximo -- daí a amplificação.
+
+3.3 Um fosfato, efeitos opostos: fosforilase liga, sintase desliga
+Há um detalhe na cascata que parece contraditório à primeira vista e que é, na verdade, a peça mais
+elegante de todo o sistema. A PKA fosforila duas enzimas -- a fosforilase quinase e a glicogênio
+sintase -- mas o mesmo evento químico, a adição de um fosfato, produz efeitos opostos em cada uma.
+Fosforilar a via da fosforilase a ativa: a quebra liga. Fosforilar a glicogênio sintase a inativa: a síntese
+desliga. Não é coincidência nem desperdício; é o mecanismo que garante reciprocidade. Como o mesmo
+sinal que acende a degradação apaga a síntese, é fisicamente impossível as duas vias correrem juntas e
+desperdiçarem ATP num ciclo fútil.
+
+   Resumindo até aqui: Um único fosfato, colocado pela PKA, liga a degradação (ativa a fosforilase) e
+   desliga a síntese (inativa a sintase). Reciprocidade por construção: as duas vias nunca rodam ao mesmo
+   tempo.
+
+A insulina, hormônio do estado alimentado, faz o caminho inverso -- e aqui vale abrir pelo problema que
+ela precisa resolver: depois de uma refeição, com glicose sobrando, a célula quer guardar, não quebrar.
+Para isso ela precisa apagar todos os fosfatos que o glucagon havia colocado. O nó da insulina é a proteína
+fosfatase 124 (PP1): ela remove os fosfatos, e como retirar o fosfato tem efeito oposto a colocá-lo, isso
+simultaneamente inativa a fosforilase (para a quebra) e ativa a sintase (liga a construção). A mesma
+lógica recíproca, agora no sentido do armazenamento. E para que o sinal do glucagon não fique ligado
+para sempre, a fosfodiesterase25 degrada o cAMP em AMP comum, removendo o segundo mensageiro
+e deixando a fosfatase reassumir -- sem esse freio, a quebra de glicogênio não teria como parar.
+
+3.4 Quando a via falha: as doenças de depósito de glicogênio
+
+   24proteína fosfatase 1 ­ enzima que remove fosfatos das enzimas do glicogênio; ativada pela insulina, liga a síntese e
+desliga a degradação
+
+   25fosfodiesterase ­ enzima que converte cAMP em AMP, encerrando o sinal hormonal
+   26glicogenoses ­ doenças de depósito de glicogênio: defeitos hereditários em enzimas da síntese ou degradação, com
+acúmulo do polímero
+
+                                                                                 9
+NEBLI                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+Cada enzima que vimos é, na clínica, um ponto de falha possível. As glicogenoses26 são doenças hered
+itárias em que uma enzima da síntese ou da degradação falta, e o glicogênio se acumula onde não
+deveria -- ou não pode ser mobilizado quando preciso. Como cada enzima tem um tecido e uma função
+específica, o quadro clínico aponta de volta, com precisão, para a peça que falhou. Este é o único ponto
+deste resumo em que vale trocar a prosa por uma tabela: são tipos discretos, cada um definido por uma
+enzima e um órgão, e a comparação lado a lado mostra de imediato a lógica.
+
+Tipo         Enzima ausente          Órgão            Marca clínica
+
+I -- von Gierke Glicose-6-fosfatase  Fígado e rim     Hipoglicemia grave de jejum: o
+                                                      fígado não consegue exportar gli
+                                                      cose. Glicogênio de estrutura nor
+                                                      mal, só em excesso.
+
+II -- Pompe  -1,4-glicosidase (lisos Todos os órgãos  Acúmulo dentro do lisossomo, fora
+             somal)                                   da via clássica; cardiomegalia e
+                                                      morte precoce.
+
+III -- Cori  Enzima  desramifi Fígado e mús Hipoglicemia mais branda;
+             cadora
+                                     culo             glicogênio com ramos curtos de
+
+                                                      mais (só as pontas saem).
+
+V -- McArdle Fosforilase muscular    Músculo          Intolerância ao exercício, cãibras --
+                                                      glicemia normal (o defeito é só no
+                                                      músculo).
+
+Por que von Gierke e McArdle são tão diferentes
+
+As duas falham na degradação, mas em tecidos opostos, e por isso parecem doenças sem relação.
+Na von Gierke, falta a glicose-6-fosfatase hepática: o fígado quebra seu glicogênio mas não
+consegue remover o fosfato para exportar glicose, então o paciente tem hipoglicemia grave entre
+refeições -- o corpo inteiro fica sem açúcar. Na McArdle, falta a fosforilase do músculo: a glicemia
+é perfeitamente normal (o fígado está intacto), mas o músculo não consegue mobilizar seu próprio
+glicogênio durante o esforço, e o paciente sente dor e cãibras ao se exercitar. A mesma família de
+doenças, dois retratos opostos -- e a diferença é exatamente a frase da PARTE I: fígado para o
+sangue, músculo para si.
+
+                                     10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Olhando o tema de cima, um único princípio organiza tudo: a célula tem duas vias separadas para
+o glicogênio justamente para poder nunca rodá-las ao mesmo tempo. O mecanismo nuclear que
+garante isso é a fosforilação recíproca -- um único fosfato, colocado pela PKA sob comando do
+glucagon, liga a degradação e desliga a síntese; a proteína fosfatase 1, sob comando da insulina,
+remove esse fosfato e inverte os dois. Não é um detalhe bioquímico, é a lógica inteira: o estado
+hormonal do corpo decide, num gesto só, se a árvore de glicose é desmontada ou construída. A
+clínica confirma a separação das vias por tecido -- von Gierke trava a exportação hepática e causa
+hipoglicemia; McArdle trava a mobilização muscular e causa cãibra ao esforço. E o tema aponta
+para frente: quando o jejum esgota o glicogênio hepático, é a gliconeogênese que assume a tarefa
+de fabricar glicose do zero -- o próximo capítulo de como o corpo mantém o açúcar do sangue
+quando a comida acaba.
+
+       11
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+O interruptor central: malonil-CoA                        Corpos cetônicos no jejum e no diabetes
+
+O corpo nunca queima e constrói gordura ao mesmo          Quando o oxaloacetato é desviado para a
+tempo. A insulina produz malonil-CoA, que serve de        gliconeogênese, o acetil-CoA da -oxidação se
+tijolo para a síntese e tranca a CPT-1, a porta da -      acumula e o fígado o converte em corpos cetônicos,
+oxidação; o glucagon derruba o malonil-CoA e libera       combustível do cérebro. Em excesso (diabetes tipo
+a queima.                                                 1), baixam o pH e causam cetoacidose.
+
+Por que estocar como gordura                              Síntese é o espelho, não o inverso exato
+
+A gordura rende 2,5 vezes mais energia por grama          A síntese ocorre no citosol, usa NADPH e carreador
+que o carboidrato e é guardada quase sem água,            ACP; o acetil-CoA sai da mitocôndria como citrato.
+enquanto cada grama de glicogênio carrega 3 g de          O ácido graxo de cadeia par não vira glicose,
+água. Estocar energia como açúcar deixaria o corpo        porque o acetil-CoA não gera oxaloacetato líquido
+pesado demais para se mover.                              em mamíferos.
+
+Mobilização hormonal
+
+No jejum e no estresse, glucagon e adrenalina
+disparam AMPc e PKA no adipócito, ativando a
+lipase hormônio-sensível, que libera ácidos graxos
+no sangue. O glicerol segue para o fígado, onde
+alimenta a gliconeogênese.
+
+A lançadeira da carnitina
+
+O acil-CoA de cadeia longa não atravessa a
+membrana mitocondrial: a carnitina o embarca
+(CPT-1), ele cruza e a CPT-2 o devolve à CoA.
+Hemácia (sem mitocôndria) e neurônio (barreira)
+quase não oxidam ácidos graxos.
+
+-oxidação: 2 carbonos por volta
+
+Quatro reações -- desidrogenação, hidratação,
+oxidação e tiólise -- encurtam o ácido graxo em 2
+carbonos por volta, rendendo 1 FADH, 1 NADH e 1
+acetil-CoA. É estritamente aeróbia: sem O, FAD e
+NAD não se regeneram e a via trava.
+
+O saldo de ATP do palmitato
+
+Um palmitato (16C) faz 7 voltas e gera 8 acetil-CoA,
+31 NADH, 15 FADH e 8 GTP no total. Pelos valores
+do material, isso dá 131 ATP brutos; descontados os
+2 ATP da ativação, sobram 129 ATP líquidos.
+
+                                                      12
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Por que a célula armazena glicose na forma polimerizada de glicogênio, em vez de mantê-la livre no
+citoplasma?
+
+   A) Porque a glicose livre seria rapidamente degradada por enzimas citoplasmáticas, ao passo que o
+   polímero resiste a essas enzimas e dura muito mais tempo dentro da célula.
+   B) Porque milhares de glicoses livres elevariam a osmolaridade e atrairiam água para a célula;
+   polimerizadas, contam como uma única partícula osmótica e não causam esse influxo.
+   C) Porque a polimerização gera ligações de alta energia que armazenam mais ATP por grama do que
+   a glicose isolada jamais conseguiria reter em sua forma livre.
+   D) Porque o glicogênio, sendo insolúvel, precipita em grânulos e assim ocupa um volume muito menor
+   do que a mesma quantidade de glicose dissolvida ocuparia.
+   E) Porque apenas a forma polimerizada consegue atravessar a membrana mitocondrial e abastecer
+   diretamente o ciclo de Krebs durante os períodos de jejum prolongado.
+
+)           Consolidação
+Questão 02
+
+Julgue os itens sobre a estrutura química do glicogênio:
+Cada item deve ser julgado de forma independente.
+
+   I. O glicogênio é construído com um único monossacarídeo, a glicose, unido majoritariamente por
+   ligações (14).
+   II. As extremidades redutoras, abundantes nas pontas dos ramos, são os pontos onde as enzimas
+   adicionam e removem glicose.
+   III. As ligações (16) aparecem a cada oito a dez resíduos e geram os pontos de ramificação da
+   molécula.
+   IV. A extremidade redutora, única, permanece presa à glicogenina no centro da molécula.
+
+Questão 03 Consolidação
+
+A glicogênio fosforilase cliva o glicogênio por fosforólise. Qual é a vantagem desse mecanismo frente à
+hidrólise simples?
+
+   A) A glicose sai já como glicose-1-fosfato, à custa de fosfato inorgânico barato, poupando o ATP que
+   seria gasto para fosforilar glicose livre depois.
+
+                            13
+NEBLI                                                                          ETAPA 2 -- 30 OBJETIVAS
+
+B) A fosforólise libera glicose livre mais rapidamente, permitindo que ela atravesse a membrana e
+atinja outros tecidos sem nenhuma etapa intermediária adicional.
+
+C) A hidrólise exigiria oxigênio como aceptor final, enquanto a fosforólise funciona em anaerobiose,
+sendo o único mecanismo viável no músculo em exercício.
+
+D) A fosforólise quebra simultaneamente as ligações (14) e (16), dispensando a enzima desram
+ificadora e acelerando toda a mobilização da reserva.
+
+E) A fosforólise gera diretamente glicose-6-fosfato, que entra na glicólise sem precisar da fosfoglico
+mutase para deslocar o fosfato entre os carbonos.
+
+)           Consolidação
+Questão 04
+
+Sobre a enzima desramificadora na glicogenólise, assinale a alternativa incorreta:
+
+   A) Ela concentra duas atividades catalíticas em um mesmo polipeptídeo: uma transferase e uma
+   (16)-glicosidase, atuando em sequência sobre o ramo.
+   B) A fosforilase trava quatro resíduos antes do ponto de ramificação, exigindo a ação da desramifi
+   cadora para que a degradação prossiga.
+   C) A atividade de transferase desloca um bloco de resíduos para a ponta de outra cadeia, restaurando
+   o acesso da fosforilase às ligações (14).
+   D) A atividade de glicosidase libera o resíduo preso no ponto (16) como glicose livre, e não como
+   glicose-1-fosfato.
+   E) A desramificadora fosforila o resíduo do ponto de ramificação, liberando-o como glicose-1-fosfato
+   que segue para a fosfoglicomutase.
+
+)           Consolidação
+Questão 05
+
+Julgue os itens sobre a glicose-6-fosfatase e o destino da glicose-6-fosfato:
+Cada item deve ser julgado de forma independente.
+
+I. A glicose-6-fosfatase está presente em todos os tecidos que armazenam glicogênio.
+II. No músculo, a ausência da glicose-6-fosfatase mantém a glicose-6-fosfato retida para uso local.
+III. O fígado, por possuir a enzima, consegue exportar glicose livre para o sangue.
+IV. Moléculas de glicose fosforilada atravessam livremente a membrana plasmática.
+
+Questão 06 Consolidação
+Na síntese de glicogênio, a glicose-1-fosfato precisa ser ativada antes de ser polimerizada. Como ocorre
+essa ativação?
+
+                                                                                14
+NEBLI                         ETAPA 2 -- 30 OBJETIVAS
+
+A) A glicose-1-fosfato é fosforilada por um ATP no carbono 6, gerando glicose-1,6-bisfosfato, que seria
+a forma reconhecida pela glicogênio sintase.
+
+B) A glicose-1-fosfato é oxidada por NAD, e a energia liberada nessa oxidação é o que permite à sintase
+formar a ligação glicosídica seguinte.
+
+C) A glicose-1-fosfato liga-se à glicogenina, que transfere a energia de sua própria fosforilação para
+ativar o resíduo que será incorporado à cadeia.
+
+D) A glicose-1-fosfato reage com UTP formando UDP-glicose, a forma ativada; o pirofosfato liberado
+é hidrolisado de modo irreversível, puxando a reação adiante.
+
+E) A glicose-1-fosfato é convertida em glicose-6-fosfato pela mutase, e é essa isomerização que
+fornece a energia necessária à polimerização subsequente.
+
+)           Consolidação
+Questão 07
+
+A glicogênio sintase não consegue iniciar uma cadeia do zero. Como o problema do primeiro resíduo é
+resolvido?
+
+A) A enzima ramificadora monta um oligossacarídeo inicial de sete resíduos e o entrega à sintase, que
+a partir dele passa a alongar a cadeia.
+
+B) A glicogenina atua como primer: ela se autoglicosila, montando sobre si mesma os primeiros
+resíduos, e oferece à sintase um ponto de partida.
+
+C) A fosforilase, operando no sentido reverso, sintetiza os primeiros resíduos a partir de glicose-1-
+fosfato até que a sintase possa assumir o alongamento.
+
+D) A UDP-glicose, em concentração elevada, polimeriza-se espontaneamente em uma cadeia curta
+que então serve de molde para a glicogênio sintase trabalhar.
+
+E) A glicose-6-fosfato condensa-se com a glicose-1-fosfato formando o dissacarídeo inicial, que cresce
+até a sintase reconhecer o substrato e prosseguir.
+
+)           Consolidação
+Questão 08
+
+Julgue os itens sobre o alongamento e a ramificação na síntese de glicogênio:
+Cada item deve ser julgado de forma independente.
+
+   I. A glicogênio sintase só alonga cadeias que já tenham pelo menos quatro resíduos de glicose.
+   II. A própria glicogênio sintase cria as ligações (16) que formam os ramos da molécula.
+   III. A glicogenina precisa de um primer externo fornecido por outra enzima para iniciar a síntese.
+   IV. A enzima ramificadora transfere um bloco de resíduos para formar uma nova ligação (16).
+
+                          15
+NEBLI                                                                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 09 Consolidação
+
+Considerando a equação global glicose + 2 ATP + glicogênio(n)  glicogênio(n+1) + 2 ADP + 2 Pi, qual é
+a origem correta das duas ligações de alta energia gastas por glicose incorporada?
+
+   A) Um ATP fosforila a glicose a glicose-6-fosfato e o segundo ATP é consumido diretamente pela
+   glicogênio sintase ao formar a nova ligação (14).
+
+   B) Os dois ATP são gastos pela glicogenina durante a autoglicosilação inicial, e a etapa de alongamento
+   pela sintase não tem custo energético próprio.
+
+   C) Um ATP prende a glicose como glicose-6-fosfato; a segunda ligação é selada na hidrólise irrever
+   sível do pirofosfato, depois cobrada ao repor o UTP com ATP.
+
+   D) Um ATP é usado pela fosfoglicomutase para mover o fosfato, e o outro pela enzima ramificadora
+   ao transferir o bloco que cria o ponto de ramificação.
+
+   E) Os dois ATP são gastos na regeneração do UTP a partir do UDP, sem que a fosforilação inicial da
+   glicose tenha qualquer custo energético associado.
+
+)           Consolidação
+Questão 10
+
+Julgue os itens que comparam a fosfoglicomutase e a glicose-6-fosfatase:
+Cada item deve ser julgado de forma independente.
+
+I. A fosfoglicomutase remove o fosfato da glicose, liberando glicose livre para o sangue.
+II. A fosfoglicomutase converte glicose-1-fosfato em glicose-6-fosfato deslocando o fosfato entre
+carbonos.
+III. Somente a glicose-6-fosfatase remove o fosfato, e ela existe apenas no fígado e no córtex renal.
+IV. Mover o fosfato entre os carbonos já é suficiente para a glicose deixar a célula.
+
+Questão 11 Integração
+
+Um glicogênio hipoteticamente linear, sem ramos, seria mobilizado muito mais lentamente que o
+normal. Por quê?
+
+   A) Porque as enzimas só atuam nas extremidades não redutoras; sem ramos haveria uma só ponta
+   livre, e a mobilização ocorreria glicose a glicose, em fila única.
+   B) Porque a forma linear seria insolúvel e precipitaria em grânulos compactos, impedindo o acesso
+   físico da fosforilase às ligações internas da longa cadeia.
+   C) Porque sem as ligações (16) a fosforilase não reconheceria o substrato, dependendo inteira
+   mente da enzima desramificadora para conseguir iniciar a quebra.
+   D) Porque a ausência de ramos reduziria o número de extremidades redutoras, que são os pontos de
+   ataque preferenciais das enzimas degradativas do glicogênio.
+
+                                                                                16
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+E) Porque a cadeia linear elevaria a osmolaridade celular, e a célula limitaria a degradação para evitar
+a entrada excessiva de água pela membrana.
+
+)           Integração
+Questão 12
+
+Julgue os itens que ligam o mecanismo da fosforólise à economia de energia da célula:
+Cada item deve ser julgado de forma independente.
+
+   I. A fosforólise libera glicose-1-fosfato, poupando o ATP que seria gasto para fosforilar glicose livre.
+   II. A glicogênio fosforilase quebra a ligação (14) usando uma molécula de água, como na hidrólise.
+   III. O fosfato incorporado à glicose-1-fosfato provém da hidrólise de uma molécula de ATP.
+   IV. A clivagem fosforolítica é energeticamente mais vantajosa do que a hidrolítica para a célula.
+
+Questão 13 Integração
+
+Após uma corrida, parte do lactato muscular vira glicose no fígado. Por que o músculo, ao contrário do
+fígado, não exporta a glicose do seu próprio glicogênio?
+
+   A) Porque o músculo converte toda a glicose-1-fosfato diretamente em lactato, sem passar por
+   glicose-6-fosfato, o que impede qualquer liberação de glicose livre.
+   B) Porque a membrana do miócito carece dos transportadores GLUT necessários para exportar
+   glicose, retendo o açúcar independentemente da presença de fosfato.
+   C) Porque o músculo não possui glicose-6-fosfatase; sua glicose-6-fosfato permanece fosforilada, não
+   atravessa a membrana e é queimada localmente na glicólise.
+   D) Porque a fosforilase muscular gera apenas glicose livre, que é imediatamente consumida pela
+   hexoquinase antes mesmo de poder deixar a célula muscular.
+   E) Porque o glucagon não atua sobre o músculo, e sem esse sinal hormonal a glicose-6-fosfatase
+   muscular permanece permanentemente inativa durante o repouso.
+
+)           Integração
+Questão 14
+
+Sobre o início e o alongamento da cadeia de glicogênio, assinale a alternativa incorreta:
+
+A) A glicogênio sintase alonga a cadeia adicionando resíduos de UDP-glicose por ligações (14) nas
+extremidades não redutoras da molécula.
+
+B) A glicogenina serve de primer, autoglicosilando-se para fornecer o núcleo inicial sobre o qual a
+glicogênio sintase passa a trabalhar.
+
+C) A extremidade redutora permanece ligada à glicogenina no centro da molécula madura de
+glicogênio durante toda a sua existência.
+
+                        17
+NEBLI                                                                     ETAPA 2 -- 30 OBJETIVAS
+
+D) A sintase precisa de uma cadeia preexistente de pelo menos quatro resíduos para conseguir alongá-
+la com novos resíduos de glicose.
+
+E) A glicogenina, após iniciar a cadeia, assume também a criação das ligações (16) que formam os
+ramos do glicogênio maduro.
+
+)           Integração
+Questão 15
+
+Julgue os itens sobre a ativação da glicose e a força motriz da síntese:
+Cada item deve ser julgado de forma independente.
+
+I. A glicogênio sintase usa diretamente a glicose-1-fosfato como doadora de resíduos.
+II. A formação de UDP-glicose libera pirofosfato, que em seguida é hidrolisado de forma irreversível.
+III. A hidrólise do pirofosfato puxa a reação de ativação no sentido da formação de UDP-glicose.
+IV. A reação que forma UDP-glicose é prontamente reversível nas condições da célula.
+
+Questão 16 Integração
+
+O UTP consumido na síntese precisa ser regenerado. Como essa reposição se conecta ao custo energético
+total da via?
+
+   A) O UTP é regenerado pela fosforilação direta da uridina por dois ATP, o que acrescenta dois novos
+   gastos energéticos além da fosforilação inicial da glicose.
+   B) O UDP é refosforilado a UTP à custa de um ATP; esse gasto não é adicional, apenas paga a ligação
+   já contabilizada na hidrólise do pirofosfato.
+   C) O UTP é reposto pela enzima ramificadora, que acopla a transferência do bloco de resíduos à
+   regeneração do nucleotídeo, sem qualquer consumo de ATP.
+   D) A regeneração do UTP consome o pirofosfato liberado na ativação, de modo que a via não gasta
+   nenhuma ligação de alta energia em termos líquidos.
+   E) O UTP é regenerado a partir do cAMP degradado pela fosfodiesterase, ligando o custo da síntese ao
+   término do sinal hormonal disparado pelo glucagon.
+
+)           Integração
+Questão 17
+
+Durante exercício intenso, a glicogenólise muscular acelera mesmo sem mudança hormonal imediata.
+Qual mecanismo alostérico explica isso?
+
+   A) O AMP acumulado pelo consumo de ATP liga-se à fosforilase b e a desloca para o estado R, ativo,
+   ligando a quebra exatamente quando falta energia.
+
+                        18
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+B) A glicose-6-fosfato acumulada no músculo desloca a fosforilase para o estado R, sinalizando que
+há substrato suficiente para sustentar a contração prolongada.
+
+C) O ATP, em queda, deixa de inibir a fosfatase, que então remove o fosfato da sintase e transfere essa
+atividade catalítica para a fosforilase muscular.
+
+D) O AMP ativa diretamente a adenilil-ciclase muscular, elevando o cAMP local e disparando a cascata
+da PKA de forma independente de qualquer hormônio.
+
+E) A queda de cálcio durante a contração desloca a fosforilase quinase para o estado R, ativando a
+fosforilase sem necessidade de nenhuma fosforilação.
+
+)           Integração
+Questão 18
+
+Julgue os itens que comparam o controle alostérico da fosforilase no fígado e no músculo:
+Cada item deve ser julgado de forma independente.
+
+   I. No fígado, a glicose livre desloca a fosforilase a para o estado T, inativando-a.
+   II. A fosforilase hepática é altamente sensível ao AMP, exatamente como a muscular.
+   III. No músculo, a glicose-6-fosfato favorece o estado R, ativo, da fosforilase.
+   IV. O sensor hepático coerente é a glicemia, pois o fígado trabalha para o sangue.
+
+Questão 19 Integração
+
+Uma única molécula de glucagon mobiliza milhares de moléculas de glicose. Qual propriedade da via
+hormonal explica esse ganho?
+
+   A) O glucagon atravessa a membrana e ativa diretamente a fosforilase no citoplasma, e cada molécula
+   do hormônio quebra muitas ligações glicosídicas sucessivas.
+   B) O cAMP formado liga-se de modo estável a cada glicose do glicogênio, marcando-a para a liberação
+   simultânea pela glicogênio fosforilase ativa.
+   C) A PKA fosforila a própria glicose, e essa marcação química é o que permite a uma molécula de
+   hormônio recrutar milhares de açúcares de uma só vez.
+   D) O glucagon induz a transcrição de milhares de cópias da fosforilase, e esse aumento na quantidade
+   de enzima responde sozinho pelo ganho observado.
+   E) A cada degrau da cascata -- adenilil-ciclase, PKA, fosforilase quinase, fosforilase -- uma enzima
+   ativa muitas cópias da seguinte, multiplicando o sinal a cada nível.
+
+)           Integração
+Questão 20
+
+Sobre a ação da PKA no controle do metabolismo do glicogênio, assinale a alternativa incorreta:
+
+                        19
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+A) A PKA não atua diretamente sobre o glicogênio; ela fosforila enzimas-alvo que executam a quebra
+e bloqueiam a síntese do polímero.
+
+B) A fosforilação da fosforilase quinase pela PKA leva, na sequência, à ativação da glicogênio fosfo
+rilase e à degradação do glicogênio.
+
+C) A fosforilação da glicogênio sintase pela PKA a ativa, de modo que a PKA estimula a quebra e a
+síntese de glicogênio ao mesmo tempo.
+
+D) Um mesmo evento de fosforilação ativa a via da fosforilase e inativa a sintase, garantindo a reci
+procidade entre as duas vias opostas.
+
+E) A reciprocidade evita que síntese e degradação ocorram simultaneamente, o que desperdiçaria ATP
+num ciclo fútil sem ganho para a célula.
+
+)           Integração
+Questão 21
+
+Após uma refeição rica em carboidratos, a insulina favorece o armazenamento de glicogênio. Por qual
+mecanismo molecular central ela faz isso?
+
+A) A insulina ativa a proteína fosfatase 1, que remove os fosfatos das enzimas-alvo: inativa a fosforilase
+e ativa a sintase, ligando a via da síntese.
+
+B) A insulina ativa apenas a fosfodiesterase, elevando o cAMP residual e, com isso, deslocando o
+equilíbrio das enzimas para o estado de síntese.
+
+C) A insulina fosforila diretamente a glicogênio sintase em resíduos distintos dos da PKA, o que a torna
+constitutivamente ativa após a refeição.
+
+D) A insulina estimula a adenilil-ciclase de forma branda, e esse cAMP em baixa concentração ativa
+seletivamente a sintase sem ativar a fosforilase.
+
+E) A insulina bloqueia a captação de glicose pelos tecidos, elevando a glicemia, que então inativa a
+fosforilase hepática por ligação alostérica direta.
+
+)           Integração
+Questão 22
+
+Julgue os itens sobre o término do sinal hormonal e a reversibilidade da cascata:
+Cada item deve ser julgado de forma independente.
+
+   I. Uma vez formado, o cAMP mantém a degradação de glicogênio ativa de forma permanente.
+   II. A fosfodiesterase converte AMP em cAMP, prolongando o sinal hormonal do glucagon.
+   III. A fosfodiesterase degrada o cAMP em AMP, encerrando o sinal disparado pelo glucagon.
+   IV. A reversibilidade da fosforilação permite que a fosfatase reassuma quando o sinal cessa.
+
+                        20
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 23 Integração
+
+Considere um resíduo de glicose incorporado ao glicogênio e, logo depois, removido por fosforólise. Qual
+é o saldo líquido de ligações de alta energia desse ciclo de ida e volta?
+
+   A) Saldo zero: as duas ligações gastas na síntese são integralmente recuperadas quando a fosforólise
+   devolve a glicose já fosforilada à célula.
+
+   B) Ganho de uma ligação: a fosforólise gera glicose-1-fosfato, cuja energia supera o custo da síntese,
+   tornando o ciclo de ida e volta levemente favorável.
+
+   C) Perda de uma ligação: a síntese gasta apenas um ATP e a degradação não recupera nada, resultando
+   num custo líquido de exatamente uma ligação.
+
+   D) Perda líquida de duas ligações: a síntese gasta duas e a fosforólise recupera só a glicose fosforilada,
+   sem devolver nenhuma das ligações de alta energia gastas.
+
+   E) Perda de quatro ligações: somam-se os dois ATP da síntese aos dois fosfatos consumidos na
+   fosforólise, o que dobra o custo total do ciclo completo.
+
+)           Integração
+Questão 24
+
+Julgue os itens que ligam a glicogenólise muscular ao metabolismo energético da contração:
+Cada item deve ser julgado de forma independente.
+
+I. No músculo em contração, a glicose-6-fosfato do glicogênio entra na glicólise para gerar ATP.
+II. A glicose mobilizada do glicogênio muscular é exportada para sustentar a glicemia do corpo.
+III. A glicogenólise muscular depende da glicose-6-fosfatase para liberar combustível à célula.
+IV. O AMP acumulado no exercício liga, ao mesmo tempo, a fosforilase e a quebra do glicogênio.
+
+Questão 25 Integração
+
+No jejum, o glucagon mobiliza o glicogênio hepático e estimula a gliconeogênese. Como esses dois
+processos se articulam para sustentar a glicemia?
+
+   A) A gliconeogênese fornece o UTP necessário à síntese de glicogênio, de modo que as duas vias rodam
+   juntas para repor a reserva durante o jejum prolongado.
+   B) O glucagon, via cAMP/PKA, liga a glicogenólise e desliga a síntese; esgotada a reserva, a gliconeogê
+   nese assume, e ambas convergem para exportar glicose ao sangue.
+   C) O glucagon inibe a gliconeogênese enquanto há glicogênio e só a ativa quando a reserva acaba,
+   mantendo as duas vias estritamente mutuamente exclusivas.
+   D) A glicogenólise inibe a gliconeogênese por feedback da glicose-6-fosfato, de modo que apenas uma
+   fonte de glicose opera por vez no fígado em jejum.
+
+                        21
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+E) A insulina residual mantém a sintase ativa durante o jejum, e o glicogênio recém-formado é imedi
+atamente quebrado de novo para liberar glicose ao sangue.
+
+)           Aplicação
+Questão 26
+
+Um lactente apresenta hipoglicemia grave entre as mamadas, fígado aumentado e acúmulo de
+glicogênio de estrutura normal nos hepatócitos. A deficiência enzimática mais provável é:
+
+A) Glicose-6-fosfatase: o fígado quebra o glicogênio mas não remove o fosfato para exportar glicose,
+e por isso falta açúcar à circulação durante o jejum.
+
+B) Fosforilase muscular: a incapacidade de mobilizar o glicogênio no músculo causaria hipoglicemia
+de jejum e aumento compensatório progressivo do fígado.
+
+C) Glicogênio sintase: sem síntese, o fígado não forma reserva e o glicogênio hepático apareceria em
+quantidade muito reduzida, e não aumentada.
+
+D) Enzima ramificadora: o glicogênio acumulado teria ramos curtíssimos e estrutura nitidamente
+anormal, com cadeias externas longas e poucos pontos (16).
+
+E) Adenilil-ciclase hepática: sem cAMP, o glucagon não mobilizaria o glicogênio, mas a estrutura e a
+quantidade do polímero permaneceriam normais.
+
+)           Aplicação
+Questão 27
+
+Um jovem relata cãibras e fadiga intensa logo no início de exercícios vigorosos, mas tem glicemia
+normal e nenhuma alteração hepática. O defeito mais compatível é:
+
+A) Glicose-6-fosfatase hepática: sem exportar glicose, o fígado causaria uma hipoglicemia de esforço
+que explicaria diretamente as cãibras musculares relatadas.
+
+B) Proteína fosfatase 1 muscular: a falha em desfosforilar a sintase impediria o armazenamento,
+deixando o músculo sem glicogênio para sustentar a contração.
+
+C) Fosforilase muscular: o músculo não mobiliza o próprio glicogênio no esforço, faltando com
+bustível local; a glicemia segue normal porque o fígado está intacto.
+
+D) Glicogenina: sem o primer, o músculo não inicia novas cadeias, e a reserva ausente explicaria a
+fadiga já em repouso, e não apenas durante o esforço.
+
+E) Enzima desramificadora muscular: o acúmulo de dextrina-limite romperia as fibras, com glicemia
+elevada por liberação maciça de glicose-1-fosfato no sangue.
+
+)           Aplicação
+Questão 28
+
+                       22
+NEBLI                                                  ETAPA 2 -- 30 OBJETIVAS
+
+Um atleta inicia uma prova intensa. Julgue os itens sobre a resposta do glicogênio muscular nesse
+cenário:
+
+Cada item deve ser julgado de forma independente.
+
+I. Durante o exercício, a epinefrina inibe a glicogenólise muscular para poupar as reservas.
+II. A epinefrina ativa a cascata cAMP/PKA, acelerando a degradação do glicogênio muscular.
+III. O AMP elevado no músculo reforça a ativação alostérica da glicogênio fosforilase.
+IV. Nesse cenário, a glicogênio sintase é ativada simultaneamente à fosforilase muscular.
+
+Questão 29 Aplicação
+
+Três horas após a refeição, a glicemia cai e o pâncreas secreta glucagon. Qual sequência descreve corre
+tamente a resposta hepática que mantém a glicemia?
+
+   A) Glucagon  insulina  proteína fosfatase 1  desfosforilação da fosforilase  síntese de
+   glicogênio  liberação de glicose para o sangue.
+   B) Glucagon  adenilil-ciclase  queda de cAMP  inativação da PKA  ativação da sintase 
+   armazenamento da glicose como glicogênio hepático.
+   C) Glucagon  AMP muscular  fosforilase b no estado R  glicogenólise no músculo  exportação
+   da glicose muscular para a circulação geral.
+   D) Glucagon  adenilil-ciclase  cAMP  PKA  fosforilase quinase  fosforilase a  glicogenólise
+    glicose-6-fosfatase  glicose exportada ao sangue.
+   E) Glucagon  fosfodiesterase  degradação do cAMP  freio da glicogenólise  preservação do
+   glicogênio hepático  estabilização da glicemia em queda.
+
+)           Aplicação
+Questão 30
+
+Logo após uma refeição rica em carboidratos, com glicemia e insulina elevadas, qual é o estado esperado
+das enzimas do glicogênio no fígado?
+
+A) Fosforilase ativa e sintase inativa: a glicose abundante é quebrada e exportada para distribuir
+energia rapidamente aos demais tecidos do corpo.
+
+B) Sintase ativa e fosforilase inativa: a proteína fosfatase 1, estimulada pela insulina, remove os
+fosfatos e direciona a glicose para o armazenamento.
+
+C) Ambas ativas: síntese e degradação correm juntas no período pós-prandial para renovar continu
+amente as cadeias de glicogênio recém-formadas no fígado.
+
+D) Ambas inativas: com a glicemia alta, o fígado suspende todo o metabolismo do glicogênio e passa
+a depender apenas da gliconeogênese momentaneamente.
+
+E) Fosforilase ativa e sintase ativa: o cAMP elevado pela insulina mantém a PKA ligada, favorecendo
+ao mesmo tempo a quebra e a construção do polímero.
+
+                                                   23
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+)
+
+       24
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que a célula quebra o glicogênio por fosforólise, e não por hidrólise, e qual a conse
+quência energética dessa escolha.
+
+    MODELO DE RESPOSTA
+
+   A glicogênio fosforilase ataca a ligação com fosfato inorgânico, não com água. Por
+   isso a glicose sai já como glicose-1-fosfato, carregando um fosfato no carbono 1. A
+   consequência é econômica: se a quebra fosse hidrolítica, a célula obteria glicose livre
+   e precisaria gastar um ATP para fosforilá-la antes de usá-la. A fosforólise entrega a
+   glicose já fosforilada à custa de fosfato inorgânico, que é abundante e barato. A célula
+   economiza, assim, um ATP por resíduo mobilizado -- uma vantagem que se acumula
+   nas milhares de glicoses de cada molécula de glicogênio.
+
+Questão Q2
+
+O músculo não consegue exportar a glicose do seu próprio glicogênio para o sangue, mas o fígado
+consegue. Explique a base molecular dessa diferença.
+
+    MODELO DE RESPOSTA
+
+   A diferença está em uma única enzima: a glicose-6-fosfatase, presente no fígado e
+   no córtex renal, mas ausente no músculo. No fígado, a glicose-6-fosfato derivada do
+   glicogênio tem o fosfato removido por essa enzima, virando glicose livre, que atravessa
+   a membrana e segue para o sangue. No músculo, sem a fosfatase, a glicose-6-fosfato
+   permanece fosforilada; como moléculas fosforiladas não cruzam a membrana, ela
+   fica retida e só pode ser queimada localmente na glicólise. Por isso o fígado guarda
+   glicogênio para a glicemia do corpo, e o músculo, para o próprio consumo.
+
+                             25
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q3
+
+A síntese de glicogênio custa duas ligações de alta energia por glicose incorporada. Mostre, passo
+a passo, de onde vêm esses dois custos.
+
+MODELO DE RESPOSTA
+
+Primeira etapa: a glicose livre é presa como glicose-6-fosfato, consumindo um ATP --
+esse é o primeiro custo. Segunda etapa: a glicose-1-fosfato reage com UTP formando
+UDP-glicose, a forma ativada, e libera pirofosfato. Esse pirofosfato é hidrolisado de
+modo irreversível, e é essa hidrólise que sela o segundo custo, puxando a reação adiante.
+O UTP é depois reposto a partir do UDP usando um ATP, mas esse gasto não é um terceiro
+custo: ele apenas paga a ligação já contabilizada na hidrólise do pirofosfato. Total: duas
+ligações de alta energia por glicose incorporada.
+
+Questão Q4
+
+Explique como um mesmo evento de fosforilação pela PKA consegue ligar a degradação do
+glicogênio e, ao mesmo tempo, desligar a síntese.
+
+    MODELO DE RESPOSTA
+
+   A PKA fosforila dois alvos: a fosforilase quinase e a glicogênio sintase. O mesmo evento
+   químico -- a adição de um fosfato -- produz efeitos opostos em cada um. Fosforilar a
+   via da fosforilase a ativa, ligando a degradação. Fosforilar a glicogênio sintase a inativa,
+   desligando a síntese. Não é desperdício, é o que garante reciprocidade: como o sinal que
+   acende a quebra apaga a construção, é fisicamente impossível as duas vias correrem
+   juntas e gastarem ATP num ciclo fútil. A insulina faz o inverso pela proteína fosfatase
+   1, que remove os fosfatos e reverte os dois efeitos.
+
+       26
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q5
+
+A doença de von Gierke e a doença de McArdle são ambas falhas na degradação do glicogênio,
+mas têm quadros clínicos opostos. Explique mecanicamente por quê.
+
+MODELO DE RESPOSTA
+
+As duas falham na mobilização do glicogênio, mas em tecidos diferentes, e o tecido
+decide o quadro. Na von Gierke, falta a glicose-6-fosfatase hepática: o fígado até quebra
+seu glicogênio, mas não consegue remover o fosfato para exportar glicose. O resultado
+é hipoglicemia grave de jejum, porque o corpo inteiro depende do fígado para manter
+a glicemia entre as refeições. Na McArdle, falta a fosforilase do músculo: a glicemia é
+normal, pois o fígado está intacto, mas o músculo não mobiliza o próprio glicogênio
+durante o esforço, gerando dor e cãibras ao exercício. A mesma família de defeitos
+produz retratos opostos porque o fígado guarda para o sangue e o músculo guarda para
+si.
+
+       27
+NEBLI                                       ETAPA 3 -- 5 DISCURSIVAS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B  Q02 CECC         Q03 A     Q04 E     Q05 ECCE
+                        Q08 CEEC  Q09 C     Q10 ECCE
+Q06 D  Q07 B
+                        Q13 C     Q14 E     Q15 ECCE
+INTEGRAÇÃO (Q11­Q25)    Q18 CEEC  Q19 E     Q20 C
+                        Q23 D     Q24 CEEC  Q25 B
+Q11 A  Q12 CEEC
+                        Q28 ECCE  Q29 D     Q30 B
+Q16 B  Q17 A
+
+Q21 A  Q22 EECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 A  Q27 C
+
+                        28
+

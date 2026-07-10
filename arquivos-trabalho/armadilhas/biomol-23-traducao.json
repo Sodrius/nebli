@@ -1,0 +1,41 @@
+{
+  "slug": "biomol-23-traducao",
+  "total_armadilhas_unicas": 2,
+  "total_questoes_com_armadilha": 2,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Pensar que o aminoacil-tRNA determina o aminoacido -- o anticodon especifica o codon, o AA pode ser trocado",
+      "origens": [
+        "111"
+      ],
+      "nivel": "dificil",
+      "conceito": "Traducao e aminoacil-tRNA sintetases",
+      "tags": [
+        "traducao",
+        "aminoacil-trna",
+        "ribossomo"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "ribossomo Não 'le' qual aminoácido está no tRNA — toda a fidelidade reside na aaRS e seu sitio de proofreading que hidrolisa aminoácidos incorretos",
+      "origens": [
+        "307"
+      ],
+      "nivel": "dificil",
+      "conceito": "fidelidade da tradução depende exclusivamente da aminoacil-tRNA sintetase (não do ribossomo) — ribossomo verifica so pareamento codon-anticodon, não o aminoácido ligado",
+      "tags": [
+        "traducao",
+        "aminoacil-trna",
+        "ribossomo",
+        "enzimologia",
+        "regulacao-genica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

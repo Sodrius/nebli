@@ -1,0 +1,233 @@
+slug: anato-06-circulatorio-linfatico-II
+titulo: "Circulação Sistêmica, Coronariana e o Retorno Venoso e Linfático"
+subtitulo: "Anatomia"
+meta:
+  - ["Disciplina", "Anatomia (UC02)"]
+  - ["Onde estudar", "Slides da aula 6 \"Generalidades sobre os Sistemas Circulatório e Linfático II\" (Profa. Katiúcia Paiva) + Material Complementar · Moore, Anatomia Orientada para a Clínica, 8ª ed., cap. Tórax e Abdome · Netter, Atlas de Anatomia Humana, 7ª ed., pranchas de coração, aorta e sistema venoso"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — Ninja Nerd (Heart Anatomy; Arteries & Veins of the body) · Boards & Beyond / Bootcamp (Cardiovascular › Anatomy) · Sketchy Anatomy (Thorax › Heart › Coronary Circulation) · UWorld: pouca anatomia macro pura (só ganchos) · Pathoma: não cobre (é patologia)",
+      "*Dessuspender no AnKing v12* (decks sob #AK_Step1_v12::) — ordenados por completude; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #SketchyAnatomy::02_Thorax::02_Heart::02_Coronary_Circulation — 23 cards (coronárias, seio coronário)",
+      "*Complementa* · #SketchyAnatomy::02_Thorax::02_Heart::01_Chambers_of_Heart — 33 cards (câmaras, valvas, circuito D/E)",
+      "*Complementa* · #FirstAid::07_Cardiovascular::02_Anatomy::01_Heart_anatomy — 23 cards (anatomia do coração + coronárias)",
+      "*Mais distante* · #FirstAid::02_Immunology::01_Lymphoid_Structures::04_Spleen — 10 cards (baço, drenagem portal)"]]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: SUPERFICIAL de conteúdo molecular, mas o resumo NÃO é raso — é
+#   anatomia macro. Distribuição E2 mapeada em PADRÃO por razão de infra (labels do
+#   gerar_main.py: Q01-10 Cons / Q11-25 Int / Q26-30 Apl). Blueprint = BAIXO rendimento
+#   Step 1 → NÃO forçar clínica externa; foco puro no que o slide entrega.
+#   Fio único: o sangue anda em CIRCUITOS, não em linha reta. Todo nome de vaso que
+#   parece decoreba é, na verdade, uma etapa de um trajeto fechado. A aula mostra (1) os
+#   quatro circuitos (pulmonar, sistêmica, coronariana, fetal) — a lógica antes dos nomes;
+#   (2) a árvore arterial, onde cada ramo da aorta serve um território previsível; (3) o
+#   retorno venoso e linfático, onde o sangue volta por caminhos paralelos e o desvio pelo
+#   fígado, a ponte ázigo e o bloqueio das cavas viram clínica. Cada vaso é lido pelo lugar
+#   que ocupa no circuito, nunca como item de lista solta.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 13-17 — pedido explícito de Davi: "claro e
+#   pequeno". Anatomia não precisa de 22 páginas; o valor é o ANDAIME lógico que faz os
+#   nomes penderem de um trajeto, não o catálogo exaustivo. Catálogo de ramos entra por
+#   figura-fluxograma + quebra-de-prosa controlada, jamais como parágrafo enfileirado).
+# Recorte slide × tema: DECLARADO. O deck (47 slides) + complementar (9 fluxogramas)
+#   entregam ANATOMIA VASCULAR SISTÊMICA — artérias e veias, região por região — mais a
+#   classificação dos tipos de circulação. Duas divergências com o título "Circulatório e
+#   Linfático II":
+#     (a) CIRCULAÇÃO FETAL aparece só nomeada no slide-02 (sem figura própria). Entra como
+#         subtópico conceitual compacto (os 3 shunts e o porquê), NÃO como seção grande —
+#         é conteúdo canônico da lista da professora e a lógica "o que muda ao nascer" é
+#         pedagogicamente rica, mas sem inventar figura que o slide não tem.
+#     (b) SISTEMA LINFÁTICO não está nas figuras deste deck, MAS é conteúdo da aula (título
+#         + banco q-0359 testa ducto torácico/linfático direito/cisterna do quilo/ângulo de
+#         Pirogoff). Entra compacto no fim da PARTE III como "o terceiro caminho de volta".
+#   Ambos tratados em prosa curta de mecanismo — sem figura fabricada (lição biocel-07: sem
+#   slide ≠ inventar; aqui a prosa basta porque o mecanismo é simples e verbalizável).
+#
+# Prioridades desta corrida (Diário de revisões + pedido de Davi):
+#   P1. "Claro e pequeno" (pedido literal). Andaime lógico > exaustividade. Alvo 13-17 pp.
+#       Catálogo de ramos = figura-fluxograma (complementar) + prosa de princípio, nunca
+#       parágrafo-lista de nomes. Isto é o eixo editorial desta corrida.
+#   P2. Diário biocel-07 (peso alto): conteúdo ESPACIAL exige figura. Trajeto do sangue pelo
+#       coração → slide-03 (numerado, a figura-mãe). Coronárias → slide-07. Árvore arterial
+#       → fluxogramas do complementar. Retorno venoso/porta/ázigo/obstrução → slides 23,30,
+#       33,38. Nenhuma cadeia espacial fica sem figura.
+#   P3. Sem pergunta-âncora/retórica de abertura (canônico 2026-05-29). Abertura = afirmação
+#       direta + mecanismo. 5 registros rotacionados (Seção B.bis).
+#   P4. Prosa fluida, NUNCA empilhamento de nomes de vaso. "Artéria X, artéria Y, artéria Z"
+#       coladas = anti-padrão. Cada vaso entra numa frase que diz o que ele irriga/drena.
+#   P5. E2: 10 C/E (cada um 4 itens I-IV, gate hard) nas 3 categorias + 3 "assinale a
+#       incorreta"; gabarito sorteado + guarda anti-degeneração; paridade banda dupla
+#       0.80-1.25 Q01-Q30; cada um dos 13 subtópicos testado >=2x.
+#   P6. Blueprint BAIXO: clínica só a que o slide traz (obstrução de cava é do próprio slide-38,
+#       portanto vale). Não importar cenário de residência externo.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Os quatro circuitos do sangue"
+        subtopicos:
+          - "Duas bombas, dois circuitos em série"
+          - "O trajeto do sangue pelo coração"
+          - "A circulação coronariana: o coração se irriga primeiro"
+          - "A circulação fetal: o mesmo circuito com três atalhos"
+      - titulo: "PARTE II — A árvore arterial: cada ramo, um território"
+        subtopicos:
+          - "A aorta e o princípio geral da ramificação"
+          - "O arco da aorta e a irrigação do encéfalo"
+          - "A aorta torácica: ramos viscerais e parietais"
+          - "A aorta abdominal e as ilíacas"
+      - titulo: "PARTE III — O retorno: veias e linfa de volta ao coração"
+        subtopicos:
+          - "Veias profundas, superficiais e perfurantes"
+          - "As duas cavas e o desvio portal pelo fígado"
+          - "O sistema ázigo: a ponte entre as cavas"
+          - "Quando o retorno é bloqueado"
+          - "A linfa: o terceiro caminho de volta"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Esqueleto + figuras planejadas
+# ---------------------------------------------------------------------------
+# PARTE I:
+#   1.1 Coração = duas bombas em série; pulmonar (VD→pulmão→AE, oxigena) e sistêmica
+#       (VE→corpo→AD, entrega O2). Em série: todo o débito passa pelos dois. VE tem parede
+#       mais grossa (pressão do corpo inteiro). [fig slide-02 tipos ~48% ou slide-05]
+#   1.2 Trajeto passo a passo: VCS+VCI+seio coronário→AD→tricúspide→VD→pulmonar→tronco
+#       pulmonar→aa. pulmonares→pulmão→vv. pulmonares→AE→bicúspide/mitral→VE→aórtica→aorta.
+#       PONTO-DE-QUEBRA: "artéria" = sai do coração, NÃO = sangue oxigenado (a. pulmonar
+#       carrega sangue venoso; vv. pulmonares carregam arterial). [fig slide-03 numerado
+#       ~72% — a figura-mãe, CADEIA multi-passo OBRIGATÓRIA]
+#   1.3 Coronárias nascem da RAIZ da aorta (logo acima da valva aórtica), a. coronária D e E;
+#       drenagem pelo seio coronário → AD. O coração é o 1º território irrigado pela aorta.
+#       [fig slide-07 coronária anterior/posterior + origem ~62%]
+#   1.4 Fetal: pulmão não ventila, placenta oxigena. 3 atalhos: ducto venoso (fígado bypass),
+#       forame oval (AD→AE direto), ducto arterioso (tronco pulmonar→aorta). Ao nascer, 1ª
+#       respiração fecha os shunts. Compacto, conceitual, SEM figura fabricada. [sem fig]
+# PARTE II:
+#   2.1 Aorta: ascendente (só coronárias) → arco → descendente torácica → descendente
+#       abdominal → bifurca em ilíacas comuns. Princípio: artéria nomeada pelo território.
+#       [fig slide-05 sistêmica corpo inteiro ~55%]
+#   2.2 Arco: 3 ramos — tronco braquiocefálico (→ carótida comum D + subclávia D),
+#       carótida comum E, subclávia E. Carótidas+vertebrais→polígono de Willis (anastomose=
+#       rede de segurança). Subclávias→membros superiores. [fig complementar slide-02
+#       fluxograma arco ~70%; fig slide-09 Willis ~50%]
+#   2.3 Torácica descendente: viscerais (bronquiais, esofágicas, pericárdicas, mediastinais)
+#       × parietais (intercostais post., subcostais, frênicas sup.). Princípio visceral/parietal.
+#       [fig complementar slide-03 fluxograma torácica+abdominal ~72% — cobre 2.3 e 2.4]
+#   2.4 Abdominal: ímpares viscerais (tronco celíaco→fígado/estômago/baço; mesentérica sup.→
+#       delgado+cólon D; mesentérica inf.→cólon E+reto); pares (suprarrenais, renais, gonadais);
+#       parietais (frênicas inf., lombares); depois ilíacas comuns→externa (MMII) + interna
+#       (pelve). [fig complementar slide-04 aorta abdominal com níveis vertebrais ~62%]
+# PARTE III:
+#   3.1 Três tipos de veia: profundas (acompanham artérias, vv. acompanhantes), superficiais
+#       (safena magna/parva, na tela subcutânea), perfurantes (furam a fáscia, ligam
+#       superficial→profundo). Fluxo normal: superficial→profundo. [fig slide-23 tipos ~60%]
+#   3.2 Duas cavas: VCS (cabeça/pescoço/MMSS/tórax) e VCI (abdome/pelve/MMII) → AD. DESVIO
+#       PORTAL: sangue do TGI+baço NÃO volta direto — vv. mesentéricas+esplênica formam a
+#       veia porta → fígado (processa nutrientes/detox) → vv. hepáticas → VCI. Circuito com
+#       dois leitos capilares em série. [fig slide-30 porta ~60%]
+#   3.3 Ázigo: via colateral venosa entre VCS e VCI, tributária da VCS; drena parede torácica
+#       (intercostais), com hemiázigo/hemiázigo acessória à esquerda. É a rota alternativa
+#       quando uma cava obstrui. [fig slide-33 ázigo ~60%]
+#   3.4 Obstrução: síndrome da VCS (face/pescoço congestos, colaterais no tórax); obstrução
+#       VCI (colaterais na parede abdominal, ázigo assume). A anastomose que parecia detalhe
+#       vira via de salvamento. atencao-box aqui. [fig slide-38 obstrução clínica ~66%]
+#   3.5 Linfa: retorna líquido intersticial ao sangue. Ducto torácico (da cisterna do quilo,
+#       ~75% do corpo: MMII, abdome, hemitórax E, hemicorpo E) + ducto linfático direito
+#       (quadrante superior D). Ambos desembocam no ângulo subclávia–jugular interna
+#       (ângulo de Pirogoff). Compacto. [sem fig — prosa]
+#
+# SEÇÃO B.bis — Registro de abertura (rotação, sem vizinho igual):
+#   1.1 enquadramento · 1.2 integração-anterior · 1.3 ponto-de-quebra · 1.4 integração-posterior
+#   2.1 enquadramento · 2.2 analogia · 2.3 ponto-de-quebra · 2.4 integração-anterior
+#   3.1 enquadramento · 3.2 ponto-de-quebra · 3.3 analogia · 3.4 integração-anterior · 3.5 integração-posterior
+#
+# SEÇÃO B.ter — Pré-requisitos cruzados (frase-âncora pronta ≤25 palavras):
+#   - Artéria vs veia (definição funcional): "artéria é o vaso que SAI do coração e veia o que
+#     CHEGA — a definição é a direção do fluxo, não se o sangue é oxigenado ou não."
+#   - Leito capilar: "capilar é a rede fininha onde o sangue troca gases e nutrientes com o
+#     tecido; entre uma artéria e uma veia há sempre um leito desses."
+#   - Anastomose: "anastomose é uma conexão entre dois vasos que cria um caminho alternativo —
+#     se um trecho fecha, o sangue desvia pelo outro."
+#   - Território (de irrigação/drenagem): "território é a região que um vaso serve; conhecer o
+#     território é saber o que sofre quando aquele vaso falha."
+#
+# SEÇÃO C — Distribuição E2 (mapeada PADRÃO por infra): 10 Cons (Q01-10) · 15 Int (Q11-25) ·
+#   5 Apl (Q26-30). Formatos: 10 C/E (Q03,06,09,12,15,18,21,24,27,30), 3 "assinale a incorreta"
+#   (Q04,14,22), resto MC. Cada C/E com 4 itens I-IV (gate hard). Paridade banda dupla nos MC.
+#   Cobertura: cada um dos 13 subtópicos testado >=2x (tabela no fechamento).
+#
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo):
+#   - Quebra: aluno acha que "artéria = sangue oxigenado, veia = sangue venoso".
+#     Correção: artéria/veia é a DIREÇÃO (sai/chega ao coração). A a. pulmonar leva sangue
+#     venoso ao pulmão; as vv. pulmonares trazem sangue oxigenado. (q-0359 vizinhança)
+#   - Quebra: aluno inverte tricúspide e bicúspide/mitral.
+#     Correção: TRIcúspide é a direita (átrio D→ventrículo D); bicúspide/mitral é a esquerda.
+#   - Quebra: aluno acha que as coronárias saem do arco da aorta.
+#     Correção: nascem da RAIZ (aorta ascendente, logo acima da valva aórtica) — por isso são
+#     as primeiras a se encher, na diástole.
+#   - Quebra: aluno acha que o sangue do intestino volta direto pela cava.
+#     Correção: passa antes pelo fígado via veia porta (2 leitos capilares em série) — só
+#     depois vai à VCI pelas vv. hepáticas.
+#   - Quebra: aluno confunde o que cada cava drena.
+#     Correção: VCS = acima do diafragma (cabeça, pescoço, MMSS, tórax); VCI = abaixo
+#     (abdome, pelve, MMII).
+#   - Quebra: aluno não vê por que o sistema ázigo importa.
+#     Correção: é a ponte colateral entre VCS e VCI; quando uma cava obstrui, o sangue foge
+#     por ela — é o que salva o retorno.
+#   - Quebra: aluno troca ducto torácico e ducto linfático direito.
+#     Correção: o direito drena só o quadrante superior D; o torácico drena ~75% do corpo, da
+#     cisterna do quilo. Ambos no ângulo subclávia-jugular. (q-0359)
+#   - Quebra: aluno acha que a mesentérica inferior irriga o intestino delgado.
+#     Correção: delgado + cólon direito = mesentérica superior; cólon esquerdo + reto =
+#     mesentérica inferior.
+#
+# SEÇÃO E — Exemplares-âncora:
+#   - Cat 1 (universal, abertura por enquadramento + mecanismo): abrir cada circuito/árvore
+#     pela função que ele serve, não pelo nome.
+#   - Cat 8 (universal, cadeia causa→consequência): o trajeto do sangue é a cadeia-mãe;
+#     escrever como fluxo contínuo, cada passo puxando o próximo.
+#   - Cat 14 (universal, voz de monitor fluida): nomes de vaso sempre dentro de frase com
+#     verbo ("a carótida sobe para o encéfalo"), nunca listados.
+#   - Cat 18 gatilho 1 (quebrar prosa p/ catálogo de tipos discretos): usar SÓ na tabela
+#     visceral×parietal e nos 3 tipos de veia (contrastes paralelos), NÃO na cadeia do trajeto.
+#   - Cat 11 (distratoras mecanísticas) para a E2; Cat 10 para o modelo de resposta da E3.
+
+# ---------------------------------------------------------------------------
+# GABARITO — sorteado com guarda anti-degeneração
+#   MC A-E balanceado 4/4/4/4/4 (20 MC); 10 C/E com C=20/E=20; sem corrida >=4; sem CECE puro.
+# ---------------------------------------------------------------------------
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "CCEC"]
+    - ["04", "A"]
+    - ["05", "C"]
+    - ["06", "ECCE"]
+    - ["07", "E"]
+    - ["08", "A"]
+    - ["09", "CEEC"]
+    - ["10", "D"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "EECC"]
+    - ["13", "B"]
+    - ["14", "E"]
+    - ["15", "CECC"]
+    - ["16", "A"]
+    - ["17", "D"]
+    - ["18", "ECEE"]
+    - ["19", "B"]
+    - ["20", "E"]
+    - ["21", "CCEE"]
+    - ["22", "C"]
+    - ["23", "A"]
+    - ["24", "EECE"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "CEEC"]
+    - ["28", "E"]
+    - ["29", "C"]
+    - ["30", "ECCE"]

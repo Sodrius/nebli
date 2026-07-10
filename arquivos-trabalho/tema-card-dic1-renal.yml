@@ -1,0 +1,84 @@
+slug: dic1-renal
+titulo: "DIC1 · Caso 3 — Insuficiência Renal"
+subtitulo: ""
+meta:
+  - ["Disciplina", "MSP4211 — DIC Básico Clínico (1º ano)"]
+  - ["Onde estudar", "Zatz · Robbins · Junqueira & Carneiro · Marzzoco"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O rim normal"
+        subtopicos:
+          - "1.1 Funções: por que tantas"
+          - "1.2 Néfron como unidade"
+          - "1.3 Filtra 180 L, excreta 1,5 L"
+          - "1.4 Barreira de filtração"
+          - "1.5 Hormônios do rim"
+      - titulo: "PARTE II — Como o rim regula"
+        subtopicos:
+          - "2.1 Homeostase como engenharia"
+          - "2.2 Starling e o edema"
+          - "2.3 Eixo RAA"
+          - "2.4 Ácido-base e gasometria"
+          - "2.5 Clearance e creatinina"
+          - "2.6 Pré, intra e pós-renal"
+          - "2.7 Nefrítica vs nefrótica"
+          - "2.8 LES e autoimunidade glomerular"
+          - "2.9 Fenômeno de Raynaud"
+      - titulo: "PARTE III — O caso da VR, passo a passo"
+        subtopicos:
+          - "3.1 A história e o exame físico"
+          - "3.2 Topografia da falência"
+          - "3.3 Alteração do glomérulo"
+          - "3.4 Diagnóstico e autoimunidade"
+          - "3.5 Histologia e filtração"
+          - "3.6 Permeabilidade da barreira"
+          - "3.7 Histologia e EAS"
+          - "3.8 Nefrítica, justificando"
+          - "3.9 Ácido-base no caso"
+          - "3.10 Ultrassonografia"
+          - "3.11 Imunofluorescência"
+          - "3.12 Desbalanço homeostático"
+          - "3.13 Tipo de edema"
+          - "3.14 Sistemas afetados"
+          - "3.15 RAA na evolução"
+          - "3.16 Creatinina e CKD-EPI"
+          - "3.17 MCP e autonomia"
+  - titulo: "Resumindo"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+  - titulo: "Etapa 3 — 5 discursivas"
+  - titulo: "Gabarito da Etapa 2"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "B"]
+    - ["03", "B"]
+    - ["04", "A"]
+    - ["05", "B"]
+    - ["06", "B"]
+    - ["07", "C"]
+    - ["08", "B"]
+    - ["09", "A"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "C"]
+    - ["13", "C"]
+    - ["14", "B"]
+    - ["15", "B"]
+    - ["16", "C"]
+    - ["17", "C"]
+    - ["18", "B"]
+    - ["19", "C"]
+    - ["20", "B"]
+    - ["21", "A"]
+    - ["22", "C"]
+    - ["23", "B"]
+    - ["24", "C"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "B"]
+    - ["28", "A"]
+    - ["29", "B"]
+    - ["30", "A"]

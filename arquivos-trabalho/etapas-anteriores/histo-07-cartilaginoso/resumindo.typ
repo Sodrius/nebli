@@ -1,0 +1,28 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#resumindo-page((
+  ("Cartilagem é conjuntivo especializado",
+   [Origem mesodérmica, forma especializada de tecido conjuntivo. Função: sustenta forma de tecidos moles, reveste superfícies articulares, e serve de molde para ossos longos antes da ossificação endocondral.]),
+  ("Avascular, sem nervo, sem linfático",
+   [Marca registrada do tecido. Nutrição por difusão da MEC hidratada (70-80% água) a partir do pericôndrio. Distância limitada da difusão obriga metabolismo anaeróbio e limita espessura útil.]),
+  ("Matriz é o tecido, célula é minoria",
+   [MEC ocupa ~95% do volume; condroblastos e condrócitos somam 3-5%. Função mecânica vem da matriz; condrócito é operário de manutenção que mantém composição e responde a sinais mecânicos.]),
+  ("Pericôndrio nutre e renova",
+   [Bainha de conjuntivo denso em duas camadas: fibrosa (vasos, fibroblastos) e condrogênica (células-tronco que viram condroblasto). Falta na cartilagem articular e na fibrocartilagem — exceções que explicam a má cicatrização articular.]),
+  ("Condroblasto e condrócito são idades",
+   [Mesma linhagem, dois estágios: jovem secretora na borda (condroblasto) vira madura aprisionada em lacuna (condrócito). Grupos isógenos (2-8 células) marcam crescimento intersticial recente. Não há condroclasto estabelecido.]),
+  ("Colágeno II aguenta tensão",
+   [Fibras finas em malha tridimensional, dispersas (não em feixes). Diferente do tipo I (conjuntivo denso, tendão). Resiste a tração em qualquer direção. Tipo VI forma matriz capsular ao redor de cada lacuna.]),
+  ("Proteoglicano + GAG aguenta compressão",
+   [Eixo proteico com cadeias de GAG (carga negativa densa). Atrai cátions e água por osmose, gera gel hidratado. Comprime, espreme água, alivia; descomprime, reabsorve. Cartilagem articular vive disso.]),
+  ("Ácido hialurônico ancora agregados",
+   [GAG livre, sem eixo proteico. Dezenas de PGs se prendem a ele via proteínas de ligação, formando agregados gigantes — densidade máxima de carga negativa por volume.]),
+  ("Territórios na matriz",
+   [Capsular (colágeno VI ao redor da lacuna), territorial (PG recente, basófila intensa), interterritorial (mais antiga, mais colágeno II). Leitura morfológica direta na lâmina.]),
+  ("Crescimento: intersticial e aposicional",
+   [Intersticial (mitose dos próprios condrócitos, grupos isógenos) só em jovem. Aposicional (condroblasto vindo do pericôndrio) continua em adulto, exceto onde não há pericôndrio (articular, fibrocartilagem).]),
+  ("Três tipos, função define o lugar",
+   [Hialina (padrão; articulação, traqueia, brônquios, placa epifisária). Elástica (orelha, epiglote, laringe — fibras elásticas dão retorno). Fibrosa (disco, menisco, sínfise — colágeno I em fileiras, resiste tração+compressão).]),
+  ("Cicatrização é deficitária",
+   [Sem vaso para entregar progenitora, sem pericôndrio em articular ou fibrocartilagem. Reparo vem por fibroblasto do conjuntivo vizinho — gera tecido fibroso cicatricial, não cartilagem verdadeira. Base de osteoartrose e hérnia de disco.]),
+))

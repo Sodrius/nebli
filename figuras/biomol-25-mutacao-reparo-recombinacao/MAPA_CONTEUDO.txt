@@ -1,0 +1,57 @@
+# MAPA_CONTEUDO -- biomol-25-mutacao-reparo-recombinacao
+# Slide-fonte: mutacao_reparo_dna.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Mutação e Reparo do DNA
+slide-02: Mutação e Reparo do DNA As mutações espontâneas são produzidas por tipos diversos de trocas nas sequências de bases do DNA Podem ser do tipo: substituição de uma base por outra deleção de uma ou mais bases inserção de bases na nova cópia do DNA O q...
+slide-03: substituição de uma base por outra Filamento Normal de DNA Filamento Normal de DNA mRNA mRNA Proteína Normal Proteína Normal Proteína Alterada Proteína Alterada DNA com substituição de nucleotídeo DNA com substituição de nucleotídeo Códon “STOP” pre...
+slide-04: deleção de uma ou mais bases …Glu His Leu Trp Gly…. …Glu His His Gly Glu….
+slide-05: inserção de bases na nova cópia do DNA …CTC GTG GTG ACC CCT CTC GTC... Alelo normal …CTC GTG GTG ACC CACT CTC GTC… …Glu His His Trp Gly Glu His…. …Glu His His Trp Val Arg Ala….
+slide-06: As mutações espontâneas acontecem raramente e isto é devido a presença da DNA pol III (fidelidade) no processo de replicação e edição da DNA pol I.
+slide-07: Por exemplo: Em Drosophila e E.coli correspondem a 1 mutação para cada 1 bilhão de bases replicadas, ou seja uma mutação nestes organismos ocorre num percentual menor que 1 x 10-7%.
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]
+slide-10: [VISUAL -- usar adjacente com titulo extraivel]
+slide-11: Algumas substâncias químicas produzem mutações específicas no DNA. Por exemplo, o 5-bromouracil, 2-aminopurina e hipoxantina podem ser incorporadas ao DNA erroneamente e induzir mutações. Deaminação oxidativa
+slide-12: Estrutura Química de 5-BrUracil e G Guanina 5-BrUracil 5-BU, um análogo de T (deveria parear com A), pela presença de Br e deslocamento eletrônico, reconhece G T U
+slide-13: A radiação ultra violeta (UV) é outro fator importante reponsável por mutações no DNA.
+slide-14: Qual tipo de UV chega até nós?
+slide-15: Radiação UV pode ser absorvida diretamente por ácidos nucleicos e induzir modificações estruturais nas bases nitrogenadas
+slide-16: A luz UV penetra em nossa pele com diferentes intensidades e profundidade hipoderme epiderme derme
+slide-17: Aspectos Moleculares dos Danos: Em excesso, a luz UV promove o aparecimento de dímeros de Timina (T-T) A presença de dímeros de T induz a expressão de enzimas de reparo. Este mecanismo de reparo está bem estabelecido para diversos organismos.
+slide-18: ETAPAS DE REPARO: • complexo multienzimático codificado nos genes uvrABC é induzido e o sistema reconhece especificamente os dímeros de T. • cliva 12 resíduos de BN, sendo 8 resíduos do lado 5’ e 4 do lado 3’.
+slide-19: Após a clivagem, a DNA pol I sintetiza a parte retirada e a DNA ligase catalisa a junção das duas extremidades.
+slide-20: Reparo de DNA danificado por UV Excisão de 12 bases por excinuclease uvrABC 5’ 3’ 8 4 Síntese de DNA pela DNA polimerase I União pela DNA ligase Dímero de Timina Mostre esquemáticamente os mecanismos de reparo de dímeros de Timina??
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: The Power of Love do a maximiun time of 15 minutes. The Sunboard, which is great for beginners through to advanced tanners, can do up to 20 minutes for advance tanners only. Sun Tanning Studio Pricing Lie down beds: $1.00 per minute, max 15 minute ch...
+slide-23: Câncer de pele ou carcinoma induzido por excesso de radiação ultravioleta e sem mecanismos de reparo no DNA
+slide-24: O câncer de pele está relacionado ao sistema de reparo de DNA A Xeroderma pigmentosum (do grego, pele ressecada; usada pela primeira vez pelos Drs. F. Hebra e M. Kaposi em 1874 para descrever uma pigmentação anormal em seus pacientes) é uma doença r...
+slide-25: É geneticamente transmitida como um autossômico recessivo. A pele fica extremamente sensível a luz do sol. O câncer de pele se desenvolve em várias localidades do corpo e os pacientes morrem com metastases antes de atingirem 30 anos. XP é produzid...
+slide-26: Mecanismos: Danos no DNA disparam imediatamente uma resposta SOS (codificam proteínas de reparo) que é iniciada por proteólise do repressor (lexA repressor) que está ligado à região reguladora do gene. Ativação de Genes SOS SOS genes SOS genes Baixos...
+slide-27: [VISUAL -- usar adjacente com titulo extraivel]
+slide-28: Ativação de Fotoliases Dímeros de ciclobutano podem ser reparados por uma enzima chamada de DNA fotoliase. Usa a energia derivada da luz absorvida para regenerar as 2 pirimidinas que formaram dimerização induzida por luz UV. Ação da Fotoliase
+slide-29: Ativação de Fotoliases: A fotoliase contém co-fatores que absorvem luz (cromóforos), um derivado do ácido fólico.
+slide-30: Reparo direto envolve o retirada de O-6-metil- guanina no DNA. O 6metilG é uma lesão altamente carcinogênica. Reparo de 6-metil Guanina
+slide-31: A enzima metil Guanina metil transferase remove este grupamento metil da G transferindo-o para um resíduo de cys na transferase, inativando-a.
+slide-32: Elementos e sequências móveis de DNA
+slide-33: DNA móveis São definidos como fitas de DNA que têm a capacidade de se mover e se incorporar a genomas 1. plasmídeos 2. transposons 3. particulas virais Quimérico: mitologia grega que mostra hibridos
+slide-34: DNA circulares se recombinam formando intermediários quiméricos Bactérias possuem plasmídeos e outros elementos genéticos móveis capazes de conferir a novas linhagens capacidades diferentes das células mães. Quimérico: mitologia grega que mostra hibr...
+slide-35: Plasmídeos Os plasmídeos são elementos genéticos móveis. São circulares, de tamanho variável (de 2 a 100 kb) e são gens extra-cromossomicos.
+slide-36: Plasmídeos Podem ser dispensados em algumas condições. São chamados de replicons pois têm sua própria origem de replicação (se replica com autonomia) Carregam gens que conferem resistência a antibióticos Plamídeo F (93kb) que confere fertilidade ...
+slide-37: Transferência de informação genética entre bactérias. Bactérias interagem entre si com trocas de material genético - processo chamado conjugação. F factor + Cromossoma de E.coli a b c a b c F factor
+slide-38: Conjugação bacteriana: Troca de material genético entre dois organismos
+slide-39: Transposons Em 1950, Barbara McClintock mostrou que genes em milho poderiam mover-se livremente dentro do genoma Foi visto nicialmente como uma heresia e McClintock foi praticamente excluida da comunidade científica No final da década de 70 biolog...
+slide-40: Transposons - Elementos móveis • Entre 1,1% a 1,4% dos nosso genoma codifica proteína. • Transposons (jumping genes) são moléculas de DNA extremamente móveis. • Podem ter uma simples inserção (IS) ou ser complexo ou multiplo (Tn3, Tn5 e Tn2571) • Alg...
+slide-41: Os transposons mais conhecidos são: –Tn3 que confere resistência ao antibiótico ampicilina –Tn5 conferindo resistência a kanamycin –Tn2571 que confere resistência a multiplos antibióticos. Ampicilina
+slide-42: [VISUAL -- usar adjacente com titulo extraivel]
+slide-43: [VISUAL -- usar adjacente com titulo extraivel]
+slide-44: Transferência de Material Viral Os vírus utilizam a maquinaria celular para se reproduzirem. A única maneira que o vírus tem de se reproduzir é quando seu material genético (DNA ou RNA) está dentro da célula hospedeira
+slide-45: Após multiplicar-se, o vírus rompe a membrana e libera novas particulas viróticas. Este fenomeno é chamado de ciclo lítico. Algumas vezes, o vírus se incorpora ao cromossoma da célula tornando-a um profago (mecanismo chamado de lisogênico)
+slide-46: Exemplo: O fago lambda é incorporado ao cromossoma bacteriano em um lugar específico, próximo ao gene responsável pela utilização da galactose (site-specific recombination), chamado de “attB site”
+slide-47: [VISUAL -- usar adjacente com titulo extraivel]
+slide-48: Sequência específica ATT
+slide-49: Ciclos lisogênico e lítico Mostre esquematicamente os ciclos lítico e lisogênico do fago lambda.

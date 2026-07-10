@@ -1,0 +1,260 @@
+{
+  "slug": "UC01-BIOQ-18-cadeia-respiratoria",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-BIOQ-18-cadeia-respiratoria.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-BIOQ-18-cadeia-respiratoria.txt",
+  "total_paginas": 40,
+  "total_palavras": 13782,
+  "total_imagens": 14,
+  "media_palavras_pagina": 344.6,
+  "paginas_amostra": [
+    1,
+    2,
+    3,
+    4,
+    14,
+    40
+  ],
+  "paginas_amostra_str": "1,2,3,4,14,40",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 113,
+      "imagens": 0,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 184,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 478,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 354,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 359,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 332,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 318,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 404,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 391,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 442,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 383,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 346,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 254,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 148,
+      "imagens": 2,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 319,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 397,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 441,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 245,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 447,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 349,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 335,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 374,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 419,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 347,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 362,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 462,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 397,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 389,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 434,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 346,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 476,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 426,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 463,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 387,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 447,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 36,
+      "palavras": 70,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 37,
+      "palavras": 327,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 38,
+      "palavras": 320,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 39,
+      "palavras": 216,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 40,
+      "palavras": 81,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

@@ -1,0 +1,1906 @@
+NEBLI · APOSTILA
+
+Potencial de repouso da
+membrana
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:   Primeira leitura pós-aula; refazer cálculos antes da P1.
+Onde estudar:  Boron e Boulpaep 3ª ed, Cap. 6 (Electrical Properties of the Cell
+               Membrane); Costanzo 6ª ed, Cap. 1 (seção sobre potencial de membrana)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- O potencial existe porque a membrana é um capacitor
+
+       1.1 Por que a membrana separa cargas
+       1.2 Convenção e sinal: Vm = Vint - Vext
+       1.3 As concentrações iônicas são desiguais por dentro e por fora
+       1.4 Duas forças disputam cada íon: química e elétrica
+  PARTE II -- Equação de Nernst: o potencial de equilíbrio de cada íon
+       2.1 Uma célula só com canal de K gera potencial sozinha
+       2.2 Nernst em mãos: EK = -80 mV
+       2.3 Os outros íons: ENa = +62 mV e ECl = -65 mV
+       2.4 Por que -70 mV não é igual a nenhum dos três
+  PARTE III -- A célula real: GHK, circuito equivalente e a bomba
+       3.1 Equação de GHK por condutâncias: cada íon vota proporcional ao seu peso
+       3.2 Cada canal é bateria + resistência: driving force e lei de Ohm
+       3.3 Três canais em paralelo: corrente líquida zero no repouso
+       3.4 A bomba Na/K: curto vs longo prazo
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q08) · verde
+       Integração (Q09­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Toda célula viva carrega uma diferença de voltagem entre o que está dentro dela e o que está fora
+    -- em torno de -70 mV no neurônio em repouso. Não é um detalhe técnico: é a reserva de energia
+    a partir da qual o neurônio dispara potencial de ação, o músculo se contrai, o coração marca o
+    ritmo, o pâncreas secreta insulina. Sem potencial de repouso não existe fisiologia excitável. Mas
+    de onde vem essa voltagem? Não vem da bomba sódio-potássio diretamente (essa é a confusão
+    clássica), nem de uma "carga elétrica acumulada" misteriosa. Vem de uma combinação muito
+    específica: concentrações iônicas desiguais entre os dois lados da membrana + uma membrana
+    seletivamente permeável + as leis da termodinâmica. Esta aula vai construir o potencial de
+    repouso da partir do zero, em três níveis. Primeiro, por que a membrana separa cargas (PARTE
+    I). Depois, o que a equação de Nernst diz sobre cada íon individual (PARTE II). Por fim, como
+    os três íons votam juntos na célula real, através da equação de GHK e do circuito equivalente da
+    membrana (PARTE III). Ao final, o número -70 mV vai estar plenamente justificado.
+
+PARTE I -- O potencial existe porque a membrana é um
+capacitor
+
+1.1 -- Por que a membrana separa cargas
+Antes de calcular voltagens, vamos resolver uma confusão básica: o que é, fisicamente, um potencial
+de membrana? Um potencial elétrico, em qualquer contexto, é uma diferença de energia por carga --
+é a energia que custaria mover uma carga unitária (digamos, 1 Coulomb) de um ponto ao outro contra
+o campo elétrico. Se você precisa gastar energia para mover uma carga positiva de A para B, é porque B
+está em potencial mais alto do que A. Se a carga vai sozinha de A para B liberando energia, é porque A
+está em potencial mais alto do que B. Voltagem é literalmente "quão difícil é empurrar carga até lá".
+Vm¹ mV²
+E o que a membrana plasmática tem a ver com isso? A membrana é uma bicamada lipídica de 5 nm
+de espessura, atravessada por proteínas (canais, transportadores, bombas). A bicamada lipídica é, por si
+só, uma barreira praticamente impermeável a íons -- os íons são carregados, e o miolo da membrana
+é hidrofóbico. Sem proteína que transporte, um íon simplesmente não cruza a membrana. Esse é o
+ponto-chave: a membrana funciona como um capacitor. Em eletricidade, capacitor é exatamente isso
+-- duas regiões condutoras separadas por uma camada isolante, que conseguem manter cargas opostas
+em cada lado.
+
+   ¹Vm ­ potencial de membrana -- diferença de voltagem entre o lado intracelular e o lado extracelular da membrana
+plasmática, medida em milivolts (mV). Em neurônio em repouso, Vm  -70 mV.
+
+   ²mV ­ milivolt -- milésima parte do Volt; unidade canônica do potencial de membrana. 1 V = 1 J/C (Joule por Coulomb).
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A membrana em repouso (esquerda) tem cargas positivas se acumulando do lado externo e negativas do lado interno
+-- esse "esquema dos sinais" é a marca visual do potencial de repouso. À direita, durante excitação e propagação,
+esse arranjo se inverte localmente. O repouso já é um estado eletricamente carregado -- não é "potencial zero".
+
+Como aparecem as cargas separadas? Por proteínas. Bombas (como a Na/K-ATPase) e transportadores
+secundários gastam energia para mover íons contra seus gradientes, criando concentrações desiguais.
+Canais permitem que certos íons (e não outros) atravessem a membrana por difusão passiva, sempre
+seguindo seu gradiente. Quando um canal seletivo para K+ está aberto, K+ sai da célula (porque está em
+concentração maior dentro do que fora); ao sair, deixa para trás uma carga negativa não-balanceada. É
+a saída líquida de cargas positivas que torna o interior eletronegativo em relação ao exterior.
+
+   Resumindo até aqui: Membrana = capacitor. A bicamada lipídica é isolante e separa cargas; bombas
+   e canais constroem concentrações desiguais e permitem fluxo seletivo de íons. A diferença de potencial
+   nasce do desbalanço de cargas que o fluxo iônico seletivo cria.
+
+    Pouquíssima carga separa para gerar -70 mV
+
+    Um erro intuitivo é imaginar que metade dos íons saiu da célula para gerar o potencial. Falso por
+    várias ordens de grandeza. O número de íons que precisa atravessar a membrana para gerar uma
+    diferença de potencial de -70 mV é ridiculamente pequeno -- algo como uma parte em 100.000 do
+    total de K+ da célula. As concentrações intracelulares e extracelulares praticamente não mudam
+    com o estabelecimento do potencial. Quem manda no Vm é o gradiente de concentração, não o
+    número absoluto de íons que se moveu.
+
+1.2 -- Convenção e sinal: Vm = Vint - Vext
+Antes de seguir, é preciso fixar uma convenção que sempre confunde aluno em prova: como o sinal
+do Vm é definido? A convenção universal em fisiologia é Vm = Vint - Vext -- ou seja, voltagem do
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+meio intracelular menos voltagem do meio extracelular. É a leitura que um eletrodo intracelular faria,
+tomando o meio extracelular como referência (zero).
+
+Convenção do sinal: Vm = Vint - Vext. Quando o interior é mais negativo que o exterior, Vm é negativo (-70 mV no
+repouso). Quando o interior fica menos negativo (ou positivo), dizemos que a membrana despolarizou. Mais negativo
+que o repouso é hiperpolarizar.
+
+A partir dessa convenção, o vocabulário de mudança do Vm fica organizado. Quando o Vm fica menos
+negativo (sobe de -70 para -50 mV, por exemplo, ou chega a 0, ou fica positivo), dizemos que a célula
+despolarizou. Quando o Vm fica mais negativo (cai de -70 para -85 mV), dizemos que a célula hiper
+polarizou. Repolarizar é voltar ao Vm de repouso depois de uma excursão.
+Por que o repouso é negativo? Porque o íon mais permeável da célula em repouso é o K+, e ele tende
+a sair seguindo seu gradiente de concentração (vamos detalhar nas próximas seções). Cada K+ que sai
+leva embora uma carga positiva, deixando o interior cada vez mais negativo. Quando esse interior fica
+negativo o suficiente para atrair o K+ de volta com a mesma força com que ele queria sair, o sistema
+atinge um equilíbrio próximo de Vm  -70 mV. Esse é o esqueleto da história -- falta agora numerá-la.
+
+    Despolarizar não é virar positivo
+    Aluno tende a achar que "despolarizar" = "ficar positivo". Errado. Despolarizar é simplesmente
+    ficar menos negativo. Sair de -70 mV para -50 mV já é despolarizar, mesmo que a célula continue
+    claramente negativa. O termo descreve a direção da mudança, não o sinal absoluto. Esse engano
+    custa pontos em questões sobre influxo de Cl- (que despolariza, mas não chega a positivo) e em
+    questões sobre limiar de disparo (-55 mV é "menos negativo que o repouso, ainda negativo, mas
+    suficiente para abrir Na+ voltagem-dep").
+
+1.3 -- As concentrações iônicas são desiguais por dentro e por fora
+
+                                                                                 5
+NEBLI                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+A primeira condição para existir potencial de membrana é existir concentração desigual de algum
+íon entre os dois lados. Vejamos os números para uma célula nervosa típica de mamífero. Use estas
+concentrações como referência -- vão aparecer em todos os cálculos da aula.
+
+Composição iônica da célula nervosa. Repare: K+ é o cátion abundante dentro da célula; Na+ e Cl- são abundantes
+fora. Existe ainda um grande grupo de ânions impermeáveis (A-) dentro da célula -- proteínas carregadas e fosfatos
+orgânicos -- que ajudam no balanço de cargas mas não atravessam a membrana.
+
+              Íon  Intracelular (mM)      Extracelular  Razão e direção do gradi-
+K+                                             (mM)                      ente
+
+                   100                5                 20× mais dentro -- força
+                                                        química empurra K+ para
+Na+                15                 150               fora
+
+Cl-                13                 150               10× mais fora -- força
+                                                        química empurra Na+ para
+A- (proteínas, fosfatos) Alta         ~0                dentro
+
+                                                        ~12× mais fora -- força
+                                                        química empurra Cl- para
+                                                        dentro
+
+                                                        Impermeáveis -- não atrav-
+                                                        essam; balanceiam carga
+                                                        interna
+
+Algumas observações importantes sobre essa tabela. Primeiro, repare que dentro e fora da célula são,
+cada um, eletricamente neutros como um todo -- para cada cátion existe um ânion correspondente.
+Não há "excesso global" de positivos ou negativos: o que há é desbalanço de quais íons estão em maioria
+
+                                      6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+de cada lado. O K+ alto dentro é balanceado pelos A- orgânicos (proteínas, fosfatos); o Na+ alto fora é
+balanceado pelo Cl- alto fora.
+
+Segundo, esses gradientes não são gratuitos: a Na/K-ATPase gasta ATP continuamente para mantê-los
+(vamos detalhar em 3.4). Sem essa bomba trabalhando, em horas os gradientes colapsariam por vaza-
+mento através de canais e o Vm iria para zero. Os gradientes são uma reserva de energia ativamente
+mantida.
+
+Terceiro, esses três íons -- K+, Na+, Cl- -- são os principais protagonistas do potencial de repouso. Outros
+íons (Ca2+, H+, HCO3-) também atravessam a membrana, mas em concentrações tão baixas ou através
+de canais tão pouco permeáveis no repouso que sua contribuição ao Vm é desprezível neste contexto.
+Vamos voltar a Ca2+ no contexto de sinalização, em outros resumos.
+
+mM³
+
+Resumindo até aqui: K+ alto dentro, Na+ e Cl- altos fora. Os três gradientes são mantidos pela Na/K-
+ATPase (que gasta ATP) e por transportadores secundários. Cada compartimento é neutro como um todo
+-- não há "excesso" de cargas, há sim desbalanço de quem é abundante de cada lado.
+
+1.4 -- Duas forças disputam cada íon: química e elétrica
+Agora chegamos ao conceito que, se bem entendido, faz toda a equação de Nernst parecer trivial: cada
+íon na membrana sofre duas forças simultaneamente, e o que decide para onde ele vai é a soma das
+duas.
+
+A força química (ou gradiente químico, ou gradiente de concentração) empurra o íon do lado em que ele
+está mais concentrado para o lado em que ele está menos concentrado. Para K+, isso significa empurrar
+para fora (de 100 para 5 mM). Para Na+, empurrar para dentro (de 150 para 15 mM). Para Cl-, empurrar
+para dentro (de 150 para 13 mM). Essa força existe pela mesma razão que qualquer difusão acontece: a
+entropia aumenta quando partículas se espalham. Não tem nada a ver com carga -- vale igual para íon,
+vale igual para uréia, glicose, água. É puro gradiente de concentração.
+
+A força elétrica, por outro lado, depende da carga do íon
+e do campo elétrico que a membrana cria. Se o interior
+da célula é negativo (como acontece em repouso, Vm =
+-70 mV), essa negatividade atrai cátions para dentro
+(K+, Na+, Ca2+) e repele ânions para fora (Cl-). Se o inte-
+rior fosse positivo, seria o contrário. A força elétrica vê
+só a carga e a voltagem -- não sabe nada de concen-
+tração.
+
+                                                                                            Duas forças, dois mundos.
+
+   ³mM ­ milimolar -- milésimo de molar (mol/L); unidade canônica de concentração iônica em fisiologia. As concen-
+trações intracelulares de K+ ( 100 mM) e extracelulares de Na+ ( 150 mM) são valores numéricos canônicos.
+
+                                                                                 7
+NEBLI                     ETAPA 1 -- TEXTO DIDÁTICO
+
+O ponto crucial é que essas duas forças, sobre o mesmo íon, podem concordar ou discordar. Para K+
+em repouso, elas discordam: a força química quer empurrar K+ para fora, mas a força elétrica (interior
+negativo) atrai K+ para dentro. Para Na+ em repouso, elas concordam: a força química quer empurrar
+Na+ para dentro, e a força elétrica também atrai Na+ para dentro (porque o interior é negativo). Por isso,
+se um canal de Na+ abrir no repouso, Na+ entra com força enorme -- as duas forças somam na mesma
+direção.
+
+EQ4
+
+gradiente eletroquímico5
+
+A soma das duas forças é chamada de gradiente eletroquímico. Quando o gradiente eletroquímico é
+zero -- ou seja, as duas forças têm o mesmo módulo e sentidos opostos -- o íon está em equilíbrio
+eletroquímico: pode até atravessar a membrana (se há canal), mas não há fluxo líquido. Tantos íons
+saem quanto entram. O Vm em que o gradiente eletroquímico de um determinado íon se anula é o
+potencial de equilíbrio daquele íon, denotado Eíon. Esse é o conceito que a equação de Nernst calcula --
+e é por isso que ela é o coração desta aula.
+
+Resumindo até aqui: Cada íon sofre duas forças simultâneas: a química (gradiente de concentração,
+vai do mais para o menos concentrado) e a elétrica (atração ou repulsão pelo Vm). A soma é o gradiente
+eletroquímico. Quando as duas forças se anulam, o íon está em equilíbrio -- e o Vm naquele momento é
+o potencial de equilíbrio daquele íon, Eíon.
+
+   4EQ ­ equilíbrio eletroquímico -- situação em que a força elétrica e a força química sobre um íon têm magnitudes iguais
+e sentidos opostos; o íon não tem fluxo líquido através da membrana mesmo havendo canais abertos para ele.
+
+   5gradiente eletroquímico ­ soma vetorial da força química (devida ao gradiente de concentração) e da força elétrica
+(devida ao Vm) que atua sobre um íon. É o gradiente eletroquímico que determina a direção do fluxo líquido -- não a força
+química sozinha nem a elétrica sozinha.
+
+                                                                                 8
+NEBLI        ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Equação de Nernst: o potencial de equilíbrio
+
+de cada íon
+
+2.1 -- Uma célula só com canal de K gera potencial sozinha
+Para construir a equação de Nernst de forma intuitiva, vamos fazer um experimento de pensamento.
+Imagine uma célula com as concentrações reais (K+ 100 mM dentro, 5 mM fora), mas com apenas um
+tipo de canal aberto: canal para K+. Os canais de Na+ e de Cl- estão todos fechados. O que acontece com
+o Vm?
+
+Situação inicial: célula com canais de K+ abertos. Apenas a força química está agindo (Vm = 0 mV, sem força elétrica
+ainda). O gradiente eletroquímico é negativo -- empurra K+ para fora, seguindo o gradiente químico.
+No instante inicial, Vm = 0 mV (nenhum potencial estabelecido ainda) e existe só a força química: K+
+tem 20× mais dentro do que fora, então a força química empurra K+ para fora. K+ começa a sair pelos
+canais. Mas espere: cada K+ que sai leva consigo uma carga positiva. A célula, que era neutra, começa a
+ficar negativa por dentro (perdeu cátion). E o exterior, que era neutro, começa a ficar positivo (ganhou
+cátion). Aparece uma diferença de potencial: interior negativo, exterior positivo, Vm fica cada vez mais
+negativo.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+À medida que K+ sai, o interior fica negativo e o exterior positivo. A força elétrica começa a aparecer e ela puxa K+ de
+volta para dentro -- sentido oposto ao da força química. As duas forças passam a se opor.
+
+E aqui vem o ponto-chave: à medida que o Vm fica mais negativo, cresce uma força elétrica que puxa K+
+de volta para dentro (o interior está cada vez mais negativo, e isso atrai cátion). A força química continua
+querendo empurrar K+ para fora (porque o gradiente de concentração mal mudou -- saiu pouquíssimo
+K+ em termos absolutos), mas agora ela tem uma adversária. Em algum momento, as duas forças têm
+magnitudes iguais e sentidos opostos. Nesse momento, K+ não tem mais fluxo líquido: o número de
+íons que sai pelo canal é igual ao número que entra. O sistema chegou ao equilíbrio eletroquímico para
+o K+.
+
+No equilíbrio, força química (saindo) e força elétrica (entrando) se cancelam. Não há fluxo líquido de K+, mesmo com
+canal aberto. O Vm nesse momento é o potencial de equilíbrio do K+, EK.
+
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Qual é o Vm naquele momento de equilíbrio? Essa é a pergunta que a equação de Nernst responde. E a
+resposta é deduzida exigindo justamente que as duas energias (química e elétrica) se cancelem. Vamos
+derivar isso na próxima seção, mas a intuição já está pronta: o EK é o potencial de membrana que tornaria
+as duas forças sobre o K+ iguais e opostas. Como o K+ está concentrado dentro, para segurar esse K+
+dentro é preciso um interior bem negativo -- e é por isso que EK sai negativo (vamos ver: -80 mV).
+
+Resumindo até aqui: Célula só com canal de K: K+ sai por gradiente químico  interior fica negativo
+ aparece força elétrica que puxa K+ de volta  no equilíbrio, as duas forças se cancelam, fluxo líquido
+é zero. O Vm de equilíbrio é o EK -- e a equação de Nernst calcula esse número.
+
+2.2 -- Nernst em mãos: EK = -80 mV
+Agora a derivação. A energia química associada à diferença de concentração de K+ entre os dois lados é
+dada por química = RT ln([K+]int / [K+]ext) -- onde R é a constante dos gases, T é a temperatura absoluta,
+ln é o logaritmo natural. Essa expressão diz "quanta energia por mol de K+ existe a mais do lado
+intracelular em relação ao lado extracelular". Como [K+]int > [K+]ext, esse termo é positivo: há excesso
+de energia química dentro, e o K+ tende a sair para diminuir essa energia (e aumentar a entropia).
+
+A energia elétrica associada ao Vm sobre um íon de valência z é elétrica = zF · Vm -- onde F é a constante
+de Faraday (carga de um mol de cargas elementares). Esse termo diz "quanta energia elétrica por mol
+está armazenada na voltagem". Para K+, z = +1, então a energia elétrica do K+ do lado de dentro é F · Vm; do
+lado de fora, é zero (referência). Se Vm é negativo, elétrica do lado de dentro é negativa -- ou seja, o lado de
+dentro é energeticamente favorável para um cátion (carga positiva atraída pela negatividade interna).
+
+No equilíbrio, as duas energias devem se cancelar quando você compara dentro com fora -- ou seja,
+a energia eletroquímica total do K+ dentro tem que ser igual à energia eletroquímica total do K+ fora.
+Equivalente: ao mover um mol de K+ de dentro para fora, a variação química (RT ln([K]ext/[K]int),
+negativa) cancela exatamente a variação elétrica (zF(Vext - Vint) = -zF·Vm, positiva no caso de Vm
+negativo). Isolando Vm, chega-se à equação de Nernst:
+
+                                   Eíon = (RT / zF) · ln ([íon]ext / [íon]int)
+
+       11
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Forma final da equação de Nernst para K+. EK é o Vm em que as forças sobre o K+ se cancelam. A forma com [K]int
+dentro do log (slides 14­15) é matematicamente equivalente, mudando o sinal -- escolha-se uma e siga consistente.
+Nesta aula vamos usar [íon]ext / [íon]int.
+
+Vamos calcular EK com os números da nossa célula. R = 8,314 J/(mol·K). T = 310,15 K (37 °C). F = 96.485
+C/mol. z = +1 (K+). Em 37 °C, o pré fator RT/zF vale aproximadamente 0,02673 V = 26,73 mV -- vamos
+chamar esse número de fator de Nernst e usá-lo direto.
+
+       EK = 0,02673 · ln (5 / 100) = 0,02673 · ln(0,05) = 0,02673 · (-3,00) = -0,080 V = -80 mV
+
+Repare nos detalhes: ln(5/100) é negativo (porque o argumento é menor que 1, ou seja, há menos K+ fora
+do que dentro). O fator de Nernst é positivo. z = +1, então não inverte sinal. Resultado: EK negativo. Faz
+sentido físico: para segurar K+ dentro (que quer sair), o interior precisa ser eletricamente atraente para
+cátion -- ou seja, negativo.
+
+       12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Cálculo numérico de EK a 37 °C: substituindo R, T, F, z, [K+]ext = 5 mM, [K+]int = 100 mM, chega-se a EK = -80 mV.
+ Este é o número-chave do potencial de repouso -- todo o resto da aula gira em torno dele.
+
+Pequena observação sobre temperatura: o fator de Nernst depende de T. Em 37 °C ele vale 26,73 mV; em
+20 °C (sala, experimento) vale 25,3 mV; em 25 °C vale 25,7 mV. Não é uma diferença grande, mas explica
+por que livros didáticos às vezes calculam EK com 25 mV e chegam a um número ligeiramente diferente
+(-75 mV em vez de -80 mV). Quando a prova der temperatura, usa se o fator daquela temperatura;
+quando não der, assume se 37 °C e RT/F  26,7 mV.
+
+   Resumindo até aqui: Equação de Nernst: Eíon = (RT/zF) · ln([íon]ext/[íon]int). Para K+ em 37 °C com 100
+   mM dentro e 5 mM fora, EK = -80 mV. Esse é o Vm em que K+ não teria fluxo líquido se fosse o único íon
+   permeável.
+
+    Nernst não é o Vm real da célula
+    A equação de Nernst dá o potencial de equilíbrio hipotético de um íon -- o Vm que existiria se a
+    célula fosse permeável a apenas aquele íon. O Vm real da célula viva (-70 mV) depende de todos os
+    íons permeáveis simultaneamente, ponderados por suas condutâncias -- e esse é o trabalho da
+    equação de GHK, que veremos na PARTE III. Nernst calcula o equilíbrio de um íon isolado; GHK
+    calcula o Vm de uma célula real.
+
+2.3 -- Os outros íons: ENa = +62 mV e ECl = -65 mV
+A equação de Nernst funciona, claro, para qualquer íon -- basta substituir as concentrações e a valência.
+Vamos fazer o cálculo para Na+ e Cl-.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Célula com canal só para Na+ aberto. Na+ está concentrado fora, então a força química o empurra para dentro.
+Diferentemente do K+ em repouso, agora a força química também recebe ajuda da força elétrica (interior negativo
+atrai cátion). No equilíbrio teórico só de Na+, o interior precisaria ficar positivo o suficiente para repelir Na+ de volta
+para fora.
+Sódio. Imagine agora uma célula com apenas canais de Na+ abertos. Na+ está 10× mais concentrado fora
+(150 mM ext, 15 mM int), e a força química empurra Na+ para dentro. Na+ começa a entrar, deixando
+dentro cada vez mais positivo. Para chegar ao equilíbrio, é preciso que o interior fique tão positivo que
+repila Na+ de volta para fora com a mesma força com que ele queria entrar. Vai dar um Vm positivo.
+Aplicando Nernst (z = +1, 37 °C):
+
+         ENa = 0,02673 · ln (150 / 15) = 0,02673 · ln(10) = 0,02673 · 2,303 = 0,0615 V  +62 mV
+Cloreto. Cl- tem 13 mM dentro e 150 mM fora. A força química empurra Cl- para dentro (do mais para
+o menos concentrado). Mas Cl- tem valência z = -1: a força elétrica age sobre ele invertida em relação a
+um cátion. Se o interior é negativo, repele Cl- (carga negativa repele carga negativa). Repulsão elétrica
+do interior se opõe à entrada química -- exatamente como acontecia com K+, mas com o gradiente
+químico invertido.
+ECl = (0,02673 / (-1)) · ln (150 / 13) = -0,02673 · ln(11,54) = -0,02673 · 2,446 = -0,0654 V  -65 mV
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cálculo de ECl com z = -1. Repare: a valência negativa inverte o sinal do fator de Nernst, e como ln(150/13) é positivo
+(mais Cl- fora que dentro), o ECl sai negativo. Cl- em equilíbrio "quer" um Vm em torno de -65 mV -- coincidentemente
+próximo do potencial de repouso real.
+Atenção ao papel da valência negativa: para Cl-, z = -1 inverte o sinal do pré-fator. Quem não percebe
+esse detalhe acaba calculando um ECl positivo (errado) ou inverte a razão das concentrações (também
+errado). Faça o cálculo com a razão fixa [ext]/[int] e deixe o sinal de z trabalhar -- é mais consistente.
+
+   Resumindo até aqui: Três potenciais de equilíbrio canônicos em 37 °C: EK = -80 mV (segurar K+ dentro
+   pede interior negativo), ENa = +62 mV (segurar Na+ fora pede interior positivo), ECl = -65 mV (segurar Cl-
+   fora pede interior negativo). Esses três números são o ponto de partida da PARTE III.
+2.4 -- Por que -70 mV não é igual a nenhum dos três
+Aqui chegamos a um ponto que costuma confundir o aluno depois da primeira aula sobre potencial de
+repouso. Olhe os três números acima: EK = -80 mV, ENa = +62 mV, ECl = -65 mV. O Vm de repouso de um
+neurônio é -70 mV. Por que -70 mV não é igual a nenhum dos três potenciais de equilíbrio?
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Os três potenciais de equilíbrio lado a lado: EK = -80 mV, ENa = +62 mV, ECl = -65 mV. O Vm real (-70 mV) está próximo
+de EK, mas não exatamente nele. A pergunta é: por quê? E a resposta envolve os três íons votando juntos, com pesos
+diferentes.
+A resposta intuitiva, e que prepara a PARTE III, é: porque a célula real é permeável aos três íons ao
+mesmo tempo, e cada um "puxa" o Vm em direção ao seu próprio potencial de equilíbrio. O resultado
+é uma média ponderada -- não uma média aritmética simples, mas uma média em que cada íon vota
+com peso proporcional à sua permeabilidade (ou, equivalentemente, à sua condutância).
+No repouso, a membrana plasmática do neurônio tem muito mais canais de K+ abertos do que de Na+ ou
+Cl-. Especificamente, a condutância de K+ é cerca de 10­20 vezes maior que a de Na+, e cerca de 4 vezes
+maior que a de Cl-. Isso significa que o K+ tem o maior peso na votação -- e por isso o Vm de repouso
+fica próximo (mas não igual) de EK = -80 mV. A presença de algum Na+ permeável puxa o Vm um pouco
+para cima (em direção a +62 mV), e o Cl-, com ECl = -65 mV, está perto do próprio Vm e contribui pouco
+para mexer com ele.
+
+   Resumindo até aqui: Vm de repouso  nenhum Eíon porque a célula real é permeável a vários íons
+   simultaneamente. O resultado é uma média ponderada pelas condutâncias. K+ domina (gK  gNa), então
+   Vm fica próximo de EK, mas o vazamento de Na+ (canais NALCN, Na+ de fundo) puxa o Vm uns 10 mV
+   para cima de EK. O afastamento de Vm em relação a EK é a "assinatura" da permeabilidade ao Na+.
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Em  Eíon não viola Nernst
+
+Aluno tende a achar: "se EK = -80 mV, então no repouso (Vm = -70 mV) o K+ não está em equilíbrio,
+então tem que ter fluxo, então Nernst está errado". Calma. Nernst está certíssimo. O que Nernst diz
+é: quando o íon está em equilíbrio eletroquímico, o Vm é Eíon. Se Vm  Eíon, então o íon não está em
+equilíbrio -- e tem fluxo líquido pelos canais abertos. No repouso, K+ está saindo continuamente
+(Vm = -70 mV é menos negativo que EK = -80 mV, então a força líquida empurra K+ para fora). Esse
+vazamento é compensado pela bomba Na/K, que devolve K+ para dentro. O sistema não está em
+equilíbrio termodinâmico -- está em estado estacionário mantido pelo gasto de ATP da bomba.
+
+       17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- A célula real: GHK, circuito equivalente e a
+
+bomba
+
+3.1 -- Equação de GHK por condutâncias: cada íon vota proporcional ao seu peso
+A pergunta deixada pendente é: qual é, exatamente, o Vm de uma célula com vários canais abertos
+simultaneamente? A resposta vem da equação de Goldman Hodgkin Katz (equação de GHK), que gen-
+eraliza Nernst para o caso de múltiplos íons. Existem duas formas dela, equivalentes em casos simples.
+A que vamos usar aqui é a forma por condutâncias, mais intuitiva para o caso de canais separados (não-
+acoplados):
+
+GHK6 ATPase7
+
+                      Vm = (gK · EK + gNa · ENa + gCl · ECl) / (gK + gNa + gCl)
+
+condutância8
+
+Como ler essa equação? O numerador é uma soma em que cada potencial de equilíbrio Eíon entra
+ponderado pela condutância daquele íon. O denominador é a soma das condutâncias -- serve para
+normalizar a votação. O Vm é a "média" dos Eíon, mas é uma média ponderada por g. Em palavras:
+cada íon puxa o Vm na direção do seu Eíon, e o íon com maior condutância (gK no repouso) é quem mais
+consegue puxar.
+
+   6GHK ­ equação de Goldman-Hodgkin-Katz -- generalização da equação de Nernst para o caso em que a membrana é
+permeável a vários íons simultaneamente; o Vm resultante é uma média ponderada dos potenciais de equilíbrio individ-
+uais.
+
+   7ATPase ­ ATPase -- enzima que catalisa a hidrólise de ATP em ADP + Pi, geralmente acoplando essa energia ao
+transporte ativo de íons (Na/K-ATPase, Ca-ATPase, H-ATPase) ou a outro trabalho mecânico.
+
+   8condutância ­ medida de "quão facilmente" um íon atravessa a membrana através dos canais abertos para ele. É o
+inverso da resistência (g = 1/R) e tem unidade de Siemens (S). Em fisiologia celular, condutâncias específicas vêm em S
+ou nS por unidade de área. Conceitualmente: condutância alta = muitos canais abertos = íon "passa fácil".
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cálculo do Vm de repouso com a equação de GHK por condutâncias. Substituindo as condutâncias típicas (gK = 10·10-6
+S, gNa = 0,5·10-6 S, gCl = 2,5·10-6 S) e os três Eíon, chega-se a Vm  -71,65 mV. Esse é o valor previsto para o potencial
+de repouso -- e bate com o medido experimentalmente ( -70 mV).
+
+Vamos fazer o cálculo numérico com as condutâncias típicas do slide. Usando gK = 10·10-6 S, gNa = 0,5·10-6
+S, gCl = 2,5·10-6 S, e os três Eíon que calculamos em 2.2 e 2.3:
+
+                             Vm = [10·(-80) + 0,5·(+62) + 2,5·(-65)] / (10 + 0,5 + 2,5)
+                            Vm = [-800 + 31 - 162,5] / 13 = -931,5 / 13  -71,65 mV
+Olhe o que esse cálculo revela. O termo de K+ no numerador (-800) domina absurdamente em com-
+paração com Na+ (+31) e Cl- (-162,5). É o gK enorme que faz o Vm de repouso ficar puxado para cerca de
+-70 mV, perto de EK = -80 mV. Se gNa fosse zero (membrana totalmente impermeável a Na+), o cálculo
+daria Vm  -83 mV -- bem próximo de EK. Mas o pequeno vazamento de Na+ (gNa = 0,5·10-6) é o suficiente
+para puxar o Vm uns 11 mV em direção a +62 mV. Esse pequeno desvio é o que define o repouso como
+-70 mV em vez de -80 mV.
+
+   Resumindo até aqui: GHK por condutâncias: Vm é média ponderada dos três Eíon, com peso = g do íon.
+   No repouso, gK  gNa  4·gCl, então Vm fica próximo de EK (puxado para cima alguns mV pelo vazamento
+   de Na+). Se a célula mudar a condutância de um íon (abrindo mais canais), o Vm se desloca em direção
+   ao Eíon daquele íon. Esse é o mecanismo de todo potencial de ação, potencial sináptico e modulação da
+   excitabilidade.
+
+3.2 -- Cada canal é bateria + resistência: driving force e lei de Ohm
+Vamos olhar agora a mesma fisiologia por um ângulo diferente -- o do circuito elétrico equivalente
+da membrana. Esse jeito de ver fica famoso porque permite usar a Lei de Ohm para calcular correntes
+iônicas, e prepara o tratamento dos potenciais de ação (que vocês verão no próximo resumo).
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Um canal iônico (no exemplo, para K+) pode ser representado como duas componentes em série: uma bateria (cuja
+força eletromotriz é o Eíon daquele íon) e uma resistência (R = 1/g, inverso da condutância). A bateria é a força que o
+gradiente químico exerce; a resistência é a "dificuldade" de o íon passar pelo canal.
+
+A ideia central é: cada tipo de canal aberto na membrana pode ser representado como uma bateria em
+série com uma resistência. A bateria tem força eletromotriz igual ao potencial de equilíbrio do íon (EK,
+ENa, ECl) -- porque o gradiente químico do íon, quando há canal aberto, atua como uma fonte interna
+de "voltagem química". A resistência R representa quão difícil é o íon passar pelo canal (R = 1/g; quanto
+mais canais abertos, menor a resistência).
+E a corrente que passa por aquele canal segue a Lei de Ohm, com uma sutileza importante: a voltagem
+que impulsiona a corrente não é o Vm sozinho -- é a diferença entre o Vm da célula e o Eíon daquele íon:
+
+                                              iíon = gíon · (Vm - Eíon)
+
+driving force9
+Essa diferença Vm - Eíon é a chamada "driving force" -- a força motriz. Por que ela aparece em vez
+de só Vm? Porque o íon não "vê" só o Vm da célula: ele vê também o Eíon da sua própria bateria interna.
+Quando Vm = Eíon, a bateria do íon está exatamente balanceada com o Vm da célula, não há diferença
+de potencial líquida no canal, e a corrente é zero (mesmo com canal aberto). Equilíbrio eletroquímico
+é exatamente isso: a bateria do íon casa com o Vm da célula.
+Vamos aplicar isso aos três íons no repouso (Vm = -70 mV):
+
+   9driving force ­ força motriz elétrica sobre um íon através de seu canal aberto; é numericamente igual a (Vm - Eíon).
+Indica quanto e em que direção o íon vai fluir através do canal: positiva  cátion sai (ou ânion entra); negativa  cátion
+entra (ou ânion sai); zero  íon em equilíbrio, sem fluxo líquido.
+
+                                                                                20
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+          Vm - E#sub[íon]             Sinal da corrente  Direção do fluxo
+Íon
+
+               (driving force)
+
+K+ (-70) - (-80) = +10 mV Positiva (corrente sai)        K+ sai da célula -- cátion em-
+                                                         purrado para fora
+
+Na+ (-70) - (+62) = -132 mV Negativa (corrente entra)    Na+ entra na célula -- cátion em-
+                                                         purrado para dentro
+
+Cl- (-70) - (-65) = -5 mV       Negativa para ânion (ânion Cl- sai (driving force pequena --
+
+                                sai)                     perto do equilíbrio)
+
+Cálculo da driving force para K+ no repouso: Vm - EK = -70 - (-80) = +10 mV. Positiva  K+ sai pelo canal. Pela Lei
+de Ohm, iK = gK · 10 mV, corrente pequena mas não-nula no repouso.
+
+                                      21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Cálculo da driving force para Na+ no repouso: Vm - ENa = -70 - (+62) = -132 mV. Negativa  Na+ entra pelo canal
+ -- e com magnitude enorme em comparação com a do K+ (132 vs 10 mV). Por isso poucos canais de Na+ abertos já
+ produzem corrente significativa.
+Esses números são instrutivos. A driving force de K+ no repouso é pequena (10 mV) -- porque o Vm de
+repouso está perto de EK. A driving force de Na+ é enorme (132 mV) -- porque o Vm está longuíssimo
+de ENa. É por isso que, quando um canal de Na+ se abre durante um potencial de ação, a entrada de
+Na+ é violentíssima: a célula está muito longe do equilíbrio para Na+, então qualquer canal aberto deixa
+passar muita corrente. E por isso, no repouso, a célula precisa ter pouquíssimos canais de Na+ abertos
+(gNa baixo) -- qualquer abertura desperdiçaria gradiente.
+
+   Resumindo até aqui: Cada canal é bateria (Eíon) + resistência (1/g) em série. A corrente segue Lei de
+   Ohm modificada: i = g·(Vm - Eíon). A "driving force" é Vm - Eíon -- diz quanto e em que direção o íon vai
+   fluir. Driving force de K+ no repouso é pequena (+10 mV); a de Na+ é enorme (-132 mV). Por isso Na+ precisa
+   de canal fechado em repouso, e K+ pode ter canal aberto sem grande gasto.
+
+3.3 -- Três canais em paralelo: corrente líquida zero no repouso
+Agora vamos montar o circuito completo. A membrana plasmática é um circuito em que três ramos
+paralelos (um para cada íon: K+, Na+, Cl-) conectam o citoplasma ao meio extracelular. Cada ramo é
+uma bateria (Eíon) em série com uma resistência (R = 1/g). O Vm é a diferença de potencial entre os dois
+terminais comuns desses três ramos paralelos.
+
+                                                                                22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+  Circuito equivalente da membrana plasmática: três ramos paralelos, cada um com sua bateria (EK, ENa, ECl) e sua
+  resistência (RK, RNa, RCl). Os três ramos compartilham o mesmo Vm -- porque estão conectados aos mesmos dois
+  compartimentos (intra e extracelular).
+
+A condição que define o potencial de repouso é simples: a célula não está acumulando nem perdendo
+carga líquida no estado estacionário. Isso quer dizer que a corrente total atravessando a membrana é
+zero: iK + iNa + iCl = 0. As correntes individuais não são zero (já vimos que K+ sai e Na+ entra continuamente
+no repouso) -- mas elas se cancelam.
+
+Condição de equilíbrio do circuito no repouso: im = iK + iNa + iCl = 0. A corrente líquida é zero, mas correntes individuais
+existem -- K+ saindo, Na+ entrando. Estado estacionário, não equilíbrio termodinâmico.
+Substituindo cada i pela lei de Ohm modificada (i = g·(Vm - Eíon)) e impondo soma zero, chega-se a:
+
+                                 gK·(Vm - EK) + gNa·(Vm - ENa) + gCl·(Vm - ECl) = 0
+
+                                                                                23
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resolvendo essa equação para Vm (basta distribuir, agrupar os termos com Vm e isolar):
+
+                            Vm = (gK·EK + gNa·ENa + gCl·ECl) / (gK + gNa + gCl)
+
+Olha que linda essa derivação: chegamos exatamente à equação de GHK por condutâncias que tínhamos
+usado em 3.1. São duas formulações da mesma física: a equação de GHK pode ser derivada como "o
+Vm que zera a corrente líquida no circuito equivalente". O potencial de repouso é o Vm em que as três
+correntes iônicas, somadas, se anulam. Isso fecha a circularidade conceitual da aula.
+
+ Circuito equivalente colapsado: as três condutâncias paralelas equivalem a uma resistência total Rm = 1/(gK + gNa
+ + gCl). No repouso, im = 0 e o Vm é o "ponto de operação" do circuito. Qualquer perturbação que mude uma das
+ condutâncias muda também o Vm -- princípio básico da excitabilidade.
+
+Atenção a um ponto sutil: o fato de a corrente líquida ser zero não significa que o sistema esteja em
+equilíbrio termodinâmico. Equilíbrio termodinâmico exigiria que cada íon individualmente estivesse
+em equilíbrio (iK = 0 e iNa = 0 e iCl = 0), o que só aconteceria se EK = ENa = ECl. Como esses três Eíon são
+diferentes, nunca há equilíbrio individual. O que há é um estado estacionário em que as correntes
+opostas se cancelam. E manter esse estado custa energia -- porque a saída contínua de K+ e a entrada
+contínua de Na+ dissipam os gradientes ao longo do tempo. Quem repõe? A bomba.
+
+   Resumindo até aqui: Repouso = corrente líquida zero (iK + iNa + iCl = 0), mas correntes individuais
+   existem. Isolando Vm desse balanço, chega-se exatamente à equação de GHK por condutâncias. Estado
+   estacionário  equilíbrio termodinâmico -- a célula gasta ATP continuamente (via Na/K-ATPase) para
+   repor os gradientes que os vazamentos pelos canais dissipam.
+
+3.4 -- A bomba Na/K: curto vs longo prazo
+Falta entender o papel exato da bomba sódio potássio (Na/K-ATPase). Em um esquema dos mais
+simples: a bomba é uma proteína de membrana que, gastando 1 ATP por ciclo, bombeia 3 Na+ para fora
+
+                                                                                24
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+da célula e 2 K+ para dentro. Ela transporta contra os gradientes -- sempre na direção oposta ao que
+canais e vazamentos espontâneos fariam.
+
+Bomba Na/K-ATPase: 3 Na+ saem, 2 K+ entram, gastando 1 ATP por ciclo. A bomba mantém os gradientes -- sem ela,
+em horas, gK e gNa de fundo dissipariam as concentrações e o Vm iria para zero. O fato de sair 3+ e entrar 2+ por
+ciclo torna a bomba eletrogênica -- ela mesma contribui uns -5 mV ao Vm.
+Por que a bomba é necessária? Porque, como vimos em 3.3, o repouso é um estado estacionário com
+vazamentos contínuos: K+ saindo, Na+ entrando, Cl- em quase-equilíbrio. Se nada repusesse esses íons,
+em algumas horas os gradientes acabariam, as concentrações dos dois lados se igualariam, e o Vm iria
+para zero. A bomba não cria diretamente o potencial -- ela mantém os gradientes a partir dos quais
+o potencial é gerado pelos canais. Esse é o ponto mais importante a fixar sobre a bomba.
+Mas existe uma sutileza eletrogênica. Como a bomba carrega 3 cargas positivas para fora e traz apenas
+2 cargas positivas para dentro, cada ciclo da bomba transfere uma carga positiva líquida para fora --
+ou seja, adiciona uma corrente para fora à conta da membrana. Essa corrente é pequena, mas contínua, e
+contribui diretamente uns -3 a -5 mV ao Vm de repouso. Sem a bomba, mesmo com gradientes intactos,
+o Vm seria uns 5 mV menos negativo (próximo de -65 mV em vez de -70 mV). A maior parte do potencial
+é gerada pelos canais; a bomba contribui uma cauda pequena, eletrogênica, mas o papel principal é
+manter os gradientes.
+
+                                                                                25
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estado estacionário no curto prazo: a corrente de saída de K+ é exatamente compensada pela corrente de entrada de
+Na+ (a corrente de Cl- é pequena no nosso modelo). Como iK + iNa  0, o Vm permanece em -70 mV. No longo prazo, a
+Na/K-ATPase devolve esses íons aos compartimentos certos, mantendo os gradientes.
+Curto prazo × longo prazo -- outra distinção importante. No curto prazo (milissegundos a segundos),
+se a bomba for bloqueada (por exemplo, com ouabaína), o Vm não muda imediatamente -- porque os
+gradientes ainda estão lá. O Vm cai um pouquinho ( 5 mV) por causa do efeito eletrogênico direto da
+bomba, e mais nada por um tempo. No longo prazo (horas), com a bomba ainda bloqueada, os vaza-
+mentos pelos canais começam a dissipar os gradientes: [K+]int cai, [Na+]int sobe. Os Eíon vão mudando,
+o Vm vai junto, e eventualmente o potencial vai para zero, a célula incha por entrada osmótica de água
+e morre. Bloquear a bomba é como cortar a manutenção de uma represa: o lago não esvazia na hora,
+mas vai esvaziando até virar terreno seco.
+
+    Bomba bloqueada NÃO zera o Em na hora
+    Aluno tende a achar: "se a bomba mantém o Vm, então bloquear a bomba zera o Vm imediata-
+    mente". Errado em duas camadas. (1) A bomba não mantém o Vm diretamente -- ela mantém
+    os gradientes a partir dos quais os canais fazem o Vm. (2) Bloquear a bomba causa uma queda
+    pequena e imediata ( 5 mV, perda do componente eletrogênico) e uma deterioração lenta e
+    progressiva (horas, perda dos gradientes). Não há colapso instantâneo do Vm em "tempo zero".
+    Esse padrão é o que se observa farmacologicamente com ouabaína e digoxina.
+
+                                                                                26
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Digoxina: bloqueio da Na/K-ATPase a serviço do coração
+
+Digoxina (e o protótipo ouabaína) inibe a Na/K-ATPase. Por que isso é útil clinicamente? No
+miocárdio, bloquear parcialmente a Na/K-ATPase faz [Na+]int subir um pouco; isso reduz o gra
+diente que o trocador Na+/Ca2+ (NCX) usa para extrudar Ca2+. Resultado: Ca2+ intracelular sobe, e
+a contração cardíaca fica mais forte (efeito inotrópico positivo). Usada em insuficiência cardíaca
+por décadas. Janela terapêutica estreita: bloqueio excessivo dissipa demais o gradiente de Na+,
+altera o potencial de repouso atrial/ventricular e dispara arritmias (extrassístoles, bigeminismo,
+taquicardia ventricular). Toxicidade da digoxina = consequência direta da relação bomba gra
+diente Vm.
+
+Hipercalemia: K extracelular alto e despolarização perigosa
+
+Na insuficiência renal crônica ou no uso de poupadores de K+, [K+]ext pode subir de 5 para 7­8
+mM ou mais. Pela equação de Nernst, isso muda EK: por exemplo, com [K+]ext = 8 mM (e [K+]int
+ 100 mM), EK = 0,02673·ln(8/100)  -67 mV -- uns 13 mV menos negativo que o normal. Como
+gK é grande, o Vm de repouso segue EK e despolariza junto (vai de -70 para -60 mV). Despolar
+ização sustentada inativa os canais de Na+ voltagem dep (eles só recuperam-se de inativação em
+hiperpolarização). Resultado: miocárdio não consegue mais disparar potencial de ação eficiente
+-- ondas T apiculadas no ECG, prolongamento do PR, alargamento do QRS, e eventualmente fibri-
+lação ventricular ou parada em sístole. A hipercalemia é uma das raras emergências fisiológicas
+em que o problema é direto sobre o potencial de repouso.
+
+Resumindo até aqui: Bomba Na/K-ATPase: 3 Na+ fora, 2 K+ dentro, 1 ATP por ciclo. Papel principal:
+manter os gradientes -- sem ela, em horas o Vm iria para zero. Papel secundário (eletrogênico): contribui
+uns -5 mV diretamente ao Vm. Bloqueio (ouabaína/digoxina): queda pequena imediata, colapso lento.
+Distorções dos gradientes -- como hipercalemia -- mudam o Eíon e arrastam o Vm com elas, com conse-
+quências clínicas graves.
+
+       27
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Fechando: o potencial de repouso de -70 mV não é um número arbitrário nem uma propriedade
+misteriosa da célula viva -- é a consequência inevitável de três coisas combinadas. Primeira: a
+membrana plasmática é uma bicamada lipídica praticamente impermeável a íons, atravessada
+por canais e bombas seletivos -- funcionando como capacitor que pode reter carga separada.
+Segunda: existem gradientes iônicos estabelecidos entre os dois lados -- K+ alto dentro, Na+ e
+Cl- altos fora -- mantidos ativamente pela Na/K-ATPase, à custa de ATP. Terceira: cada íon tem
+sua tendência termodinâmica própria, calculável pela equação de Nernst, que diz qual seria o
+Vm se a célula fosse permeável apenas a ele. Para K+, EK = -80 mV; para Na+, ENa = +62 mV; para
+Cl-, ECl = -65 mV. Em uma célula real, todos os três íons são permeáveis simultaneamente, mas
+com condutâncias muito diferentes -- gK domina (10­20× maior que gNa, 4× maior que gCl).
+A equação de GHK por condutâncias mostra que o Vm é uma média ponderada: cada íon vota
+com peso proporcional à sua condutância. O resultado: Vm  -71,65 mV, próximo de EK (porque K+
+domina), mas puxado uns 10 mV para cima pelo vazamento de Na+. Visto pelo circuito equiva
+lente, cada canal é bateria (Eíon) em série com resistência (1/g), e o Vm de repouso é o ponto em que
+as três correntes iônicas se cancelam -- iK saindo (driving force +10 mV) compensa iNa entrando
+(driving force -132 mV, mas g pequena), com pouca contribuição de Cl-. A bomba Na/K tem dois
+papéis: principal (manter gradientes que os vazamentos dissipam) e secundário (eletrogênica
+direta, -5 mV). Por que tudo isso importa? Porque o repouso é a reserva de energia a partir da
+qual o neurônio dispara. Quando canais de Na+ voltagem-dependentes abrirem (próxima aula),
+gNa vai subir 1000× em poucos milissegundos, e pelo princípio de GHK o Vm vai se aproximar de
+ENa = +62 mV -- é assim que se gera o potencial de ação. Sem entender o repouso, não se entende
+o disparo. E sem entender Nernst, GHK e o circuito equivalente, não se entende repouso. Aqui
+termina a fundação. Os próximos resumos vão construir sobre essa base.
+
+       28
+NEBLI                                                  RESUMINDO
+
+   Resumindo
+
+Membrana é capacitor: separa cargas                    Equação de Nernst -- íon em equilíbrio
+porque é isolante                                      isolado
+A bicamada lipídica é impermeável a íons; bombas       Eíon = (RT/zF) · ln([íon]ext/[íon]int). Em 37 °C,
+e canais constroem concentrações desiguais.            RT/F  26,7 mV. É o Vm que zera o gradiente
+Pouquíssima carga ( 1 parte em 100.000) precisa        eletroquímico do íon -- o "Vm hipotético" se ele
+atravessar a membrana para gerar -70 mV --             fosse o único permeável. Não é o Vm real da célula
+as concentrações praticamente não mudam. O             viva.
+gradiente comanda, não o número absoluto de
+íons.                                                  Três potenciais de equilíbrio canônicos
+                                                       EK = -80 mV (segurar K+ dentro pede interior
+Convenção: Vm = Vint - Vext, repouso                   negativo). ENa = +62 mV (segurar Na+ fora pede
+negativo                                               interior positivo). ECl = -65 mV (z = -1 inverte o pré-
+O eletrodo lê a voltagem do interior relativa          fator). Esses três são o ponto de partida do GHK.
+ao exterior (zero). Despolarizar = ficar
+menos negativo (de -70 para -50 mV), não               GHK por condutâncias: votação
+obrigatoriamente positivo. Hiperpolarizar = ficar      ponderada
+mais negativo (de -70 para -85 mV).                    Vm = (gK·EK + gNa·ENa + gCl·ECl) / (gK + gNa + gCl).
+                                                       Cada íon puxa o Vm em direção ao seu Eíon, com
+Concentrações canônicas em neurônio                    peso = condutância. No repouso, gK  gNa (10­
+de mamífero                                            20×), então Vm fica próximo de EK. Cálculo dá Vm 
+K+: 100 mM dentro, 5 mM fora (20× maior                -71,65 mV.
+dentro). Na+: 15 mM dentro, 150 mM fora (10×
+maior fora). Cl-: 13 mM dentro, 150 mM fora.           Por que Vm = -70 mV  EK = -80 mV
+Ânions impermeáveis (A-) dentro balanceiam             O vazamento de Na+ (gNa pequena, mas não-zero)
+carga. Gradientes mantidos pela Na/K-ATPase, à         puxa o Vm uns 10 mV acima de EK. Como Vm  EK,
+custa de ATP.                                          K+ tem corrente saindo continuamente no repouso
+                                                       -- compensada pela bomba. Nernst não é violado: o
+Cada íon sofre duas forças: química +                  que falta é equilíbrio individual; o que há é estado
+elétrica                                               estacionário.
+Força química depende do gradiente de
+concentração (do mais para o menos concentrado).       Cada canal = bateria (Eíon) + resistência
+Força elétrica depende da carga e do Vm (interior      (1/g)
+negativo atrai cátion, repele ânion). A soma das       Corrente segue Lei de Ohm modificada: iíon = gíon
+duas é o gradiente eletroquímico -- é ele que          · (Vm - Eíon). A diferença Vm - Eíon é a driving
+determina a direção do fluxo líquido.                  force -- diz quanto e em que direção o íon flui. No
+                                                       repouso: K+ +10 mV (sai), Na+ -132 mV (entra com
+                                                       força), Cl- -5 mV (sai pouco).
+
+                                                   29
+NEBLI                                                    RESUMINDO
+
+Circuito equivalente: iK + iNa + iCl = 0 no
+repouso
+Três ramos em paralelo, mesmo Vm. Corrente
+líquida zero define o repouso, mas as correntes
+individuais não são zero -- K+ sai e Na+ entra
+continuamente, em magnitudes que se cancelam.
+Repouso = estado estacionário, não equilíbrio
+termodinâmico. Manter custa ATP.
+
+Bomba Na/K: papel principal vs
+eletrogênico
+3 Na+ fora, 2 K+ dentro, 1 ATP por ciclo.
+Papel principal: manter os gradientes que canais
+dissipam -- sem ela, em horas o Vm vai para
+zero. Papel eletrogênico: contribui diretamente uns
+-5 mV ao Vm. Bloqueio agudo (ouabaína): queda
+pequena imediata, colapso lento.
+
+Hipercalemia e digoxina -- clínica do
+repouso
+Hipercalemia: [K+]ext alto sobe EK (de -80
+para -67 mV); Vm despolariza junto e inativa
+canais de Na+ voltagem dep -- arritmia, parada.
+Digoxina: bloqueia Na/K-ATPase, [Na+]int sobe,
+NCX extrai menos Ca2+, contração cardíaca aumenta
+(inotrópico). Janela terapêutica estreita.
+
+                                                     30
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre o papel da membrana plasmática na geração do potencial de repouso, é correto afirmar:
+
+   A) a membrana funciona como condutor uniforme: cargas atravessam livremente a bicamada lipídica
+   em proporção ao gradiente de concentração, sem que a fina camada justaposta à membrana se dis-
+   tinga eletricamente do volume IC e sem capacidade de armazenar separações de carga em superfícies
+   opostas da bicamada.
+
+   B) a membrana funciona como resistor puro: deixa íons passarem segundo o tamanho da partícula
+   difundindo pelo canal, mas não retém cargas opostas em superfícies opostas -- qualquer assimetria
+   iônica se dissipa em microssegundos pela difusão imediata pelo poro central.
+
+   C) a membrana funciona como bomba primária: usa ATP diretamente para criar a diferença de
+   potencial entre os dois lados, sem participação dos canais de vazamento e dos gradientes químicos
+   de cada íon permeável estabelecidos previamente pela atividade da Na/K-ATPase.
+
+   D) a membrana funciona como capacitor: a bicamada lipídica isolante mantém cargas opostas em
+   camadas finas justapostas a cada face, e a diferença de potencial nasce do desbalanço de cargas que o
+   fluxo iônico seletivo deixa para trás.
+
+   E) a membrana funciona como filtro passivo de cátions: deixa K+ e Na+ passarem igualmente em
+   qualquer direção, mas bloqueia totalmente o Cl-, sendo o ânion impermeável o responsável pela
+   negatividade interna observada em qualquer célula nervosa de mamífero estudada.
+
+                            31
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 02 Consolidação
+
+A convenção universal adotada em fisiologia para o sinal do potencial de membrana é Vm = Vint - Vext.
+Com base nessa convenção, é correto afirmar que:
+
+A) o Vm de repouso é negativo porque o cálculo subtrai um valor maior (Vext) de um menor (Vint), e o
+sinal nasce dessa operação aritmética e não de qualquer assimetria iônica real entre os dois compar-
+timentos da célula em condições fisiológicas estáveis bem mantidas.
+
+B) despolarizar corresponde a tornar o Vm menos negativo (por exemplo, sair de -70 mV em direção
+a -50 mV ou a 0), e hiperpolarizar corresponde a tornar o Vm mais negativo (por exemplo, ir de -70 a
+-85 mV).
+
+C) o Vm de repouso é negativo porque o Cl- está em maior concentração no interior da célula, e essa
+abundância intracelular de ânions é a explicação direta para o sinal negativo de Vm = Vint - Vext em
+qualquer célula nervosa de mamífero estudada em laboratório.
+
+D) despolarizar significa tornar o Vm positivo, qualquer valor abaixo de zero é repouso ou hiperpolar-
+ização e o termo despolarização só se aplica quando o interior chega efetivamente a valores positivos
+como acontece no pico do potencial de ação propagado pelo neurônio em ativação sináptica.
+
+E) se trocarmos a convenção e adotarmos Vm = Vext - Vint, o sinal do Vm muda mas o mecanismo do
+potencial também muda, pois agora o K+ saindo da célula geraria potencial positivo e o Na+ entrando
+geraria potencial negativo na mesma membrana plasmática.
+
+                         32
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Para uma célula nervosa típica de mamífero em condições fisiológicas, as concentrações iônicas
+canônicas são corretamente descritas em qual alternativa?
+
+A) K+ alto dentro ( 100 mM) e baixo fora ( 5 mM); Na+ baixo dentro ( 15 mM) e alto fora ( 150 mM); Cl-
+baixo dentro ( 13 mM) e alto fora ( 150 mM); ânions impermeáveis em alta concentração no interior.
+
+B) K+ alto fora ( 150 mM) e baixo dentro ( 5 mM); Na+ alto dentro ( 150 mM) e baixo fora ( 15 mM); Cl-
+alto dentro ( 150 mM) e baixo fora ( 13 mM); ânions impermeáveis distribuídos igualmente nos dois
+compartimentos celular e extracelular.
+
+C) K+, Na+ e Cl- estão em concentrações praticamente iguais entre IC e EC; o que difere os comparti-
+mentos é apenas a presença de Ca2+ dentro da célula em concentração maior do que no interstício do
+tecido em qualquer célula nervosa de mamífero saudável.
+
+D) K+ e Na+ altos dentro, Cl- alto fora, e ânions impermeáveis (A-) altos fora -- esses ânions extracelu-
+lares atravessam livremente a membrana e balanceiam as cargas internas geradas pelo K+ que sai
+pelos canais de vazamento da membrana plasmática em repouso fisiológico.
+
+E) todos os três íons monovalentes (K+, Na+, Cl-) ficam em maior concentração no extracelular;
+o intracelular é eletricamente neutralizado apenas por proteínas e fosfatos orgânicos, sem cátions
+inorgânicos relevantes para o repouso da membrana plasmática em qualquer condição experimental
+ou fisiológica observada.
+
+                         33
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre as duas forças (química e elétrica) que atuam sobre um íon difundindo pela membrana, é correto
+afirmar:
+
+A) a força química depende do gradiente de concentração e do sinal da carga do íon: para cátions ela
+empurra na direção do mais concentrado para o menos concentrado, mas para ânions ela inverte o
+sentido e empurra do menos para o mais concentrado.
+
+B) a força elétrica depende do gradiente de concentração e atua sempre no mesmo sentido que a força
+química, somando-se a ela para produzir o gradiente eletroquímico, que por isso é sempre maior do
+que cada componente isolada.
+
+C) a soma das duas forças nunca pode ser nula, pois elas têm naturezas físicas diferentes -- uma
+termodinâmica e a outra eletrostática -- e por isso o íon nunca atinge equilíbrio enquanto houver
+canal aberto e gradiente de concentração entre os dois lados da membrana.
+
+D) a força química e a força elétrica sempre concordam em direção para um mesmo íon, de modo que
+cada íon tem fluxo líquido contínuo enquanto seu canal estiver aberto e a soma das forças nunca se
+cancela no estado de repouso fisiológico da célula.
+
+E) a força química depende só do gradiente de concentração e empurra qualquer partícula do compar-
+timento mais concentrado para o menos concentrado; a força elétrica depende da carga do íon e do
+Vm; quando as duas têm módulos iguais e sentidos opostos, o íon está em equilíbrio eletroquímico e
+não há fluxo líquido.
+
+                         34
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Aplicando-se a equação de Nernst à célula nervosa típica (K+ 100 mM dentro, 5 mM fora) a 37 °C, com
+fator RT/zF  26,7 mV, o potencial de equilíbrio do K+ (EK) e seu significado físico são:
+
+   A) EK = +80 mV, e representa o Vm em que o K+ sairia da célula com máxima velocidade pelos canais
+   de vazamento, porque o gradiente químico estaria reforçado pela força elétrica do interior positivo na
+   mesma direção do gradiente de concentração entre os dois compartimentos da célula.
+
+   B) EK = 0 mV, e representa o estado em que as concentrações intra e extracelulares de K+ estariam
+   iguais, sem mais força química nem força elétrica atuando sobre o íon através de canais de vazamento
+   da membrana plasmática da célula em repouso fisiológico medido.
+
+   C) EK = -80 mV, e representa o Vm hipotético em que a força elétrica gerada pelo interior negativo teria
+   magnitude igual e sentido oposto à força química que empurra K+ para fora, anulando o fluxo líquido
+   pelos canais.
+
+   D) EK = -80 mV, e representa o Vm de repouso real da célula nervosa, idêntico ao valor medido
+   por eletrodo intracelular porque a célula é permeável praticamente só ao K+ e os outros íons não
+   contribuem para o potencial em qualquer condição fisiológica padrão observada na membrana.
+
+   E) EK = -27 mV, calculado pela razão direta [K]ext/[K]int = 5/100 = 0,05 multiplicada pelo fator de
+   Nernst, sem aplicar logaritmo natural à razão de concentrações entre os dois compartimentos da
+   célula nervosa em repouso fisiológico convencional usado em ensino.
+
+                         35
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 06 Consolidação
+
+Os potenciais de equilíbrio canônicos do Na+ e do Cl- em uma célula nervosa típica a 37 °C, com as
+concentrações dadas e valência de cada íon levadas em conta, são corretamente apresentados em qual
+alternativa?
+
+   A) ENa = -62 mV (negativo porque Na+ está concentrado fora e o interior precisa ser negativo para atraí-
+   lo) e ECl = +65 mV (positivo porque Cl- tem carga negativa e o cálculo de Nernst inverte o sinal final).
+
+   B) ENa = +62 mV (positivo porque para barrar a entrada de Na+ o interior teria de ficar positivo,
+   repelindo o cátion) e ECl = -65 mV (negativo porque a valência z = -1 inverte o sinal do fator de Nernst
+   sobre a razão de concentrações).
+
+   C) ENa = +27 mV (calculado sem aplicar logaritmo natural à razão de concentrações entre IC e EC) e ECl
+   = -27 mV (mesmo procedimento, apenas com inversão de sinal pela valência negativa do Cl-).
+
+   D) ENa e ECl são ambos próximos de zero porque Na+ e Cl- estão em concentrações relativamente
+   equilibradas entre os dois compartimentos, e por isso só o K+ contribui significativamente para o
+   potencial de repouso da célula.
+
+   E) ENa = +62 mV e ECl = +65 mV, ambos positivos, pois a razão [íon]ext/[íon]int é maior que 1 para os
+   dois e o fator de Nernst aplicado à razão produz sempre valor positivo independentemente do sinal
+   da valência z do íon.
+
+                         36
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+O potencial de repouso de uma célula nervosa típica vale cerca de -70 mV, valor que não coincide com
+EK (-80 mV), nem com ENa (+62 mV), nem com ECl (-65 mV). A razão para essa discrepância é:
+
+   A) a célula real é permeável aos três íons ao mesmo tempo, e o Vm é média ponderada dos Eíon pelas
+   condutâncias -- como gK domina (10­20× gNa), o Vm fica próximo de EK mas o vazamento de Na+ o
+   puxa para cima.
+
+   B) a equação de Nernst só funciona em condições experimentais artificiais (membrana com um único
+   íon permeável) e perde validade em células vivas -- por isso o Vm real precisa ser medido empirica-
+   mente sem qualquer correspondência com os Eíon calculados a partir das concentrações iônicas reais
+   dos compartimentos da célula viva.
+
+   C) o Vm de -70 mV é uma média aritmética simples dos três potenciais de equilíbrio (EK, ENa e ECl
+   divididos por três), dando aproximadamente -27 mV -- discrepância que se explica pela imprecisão
+   experimental dos eletrodos intracelulares atualmente usados em laboratório eletrofisiológico padrão
+   de neurociência básica e clínica.
+
+   D) a bomba Na/K-ATPase gera diretamente o Vm de -70 mV por meio de sua atividade eletrogênica
+   intensa (estequiometria 3:2 a cada ciclo), e os potenciais de equilíbrio individuais dos íons não têm
+   participação real no estabelecimento do potencial de repouso da célula nervosa típica em qualquer
+   condição fisiológica normal medida no laboratório.
+
+   E) a presença dos ânions impermeáveis intracelulares (A-, proteínas, fosfatos orgânicos, sulfatos)
+   puxa o Vm para um valor médio entre os três Eíon dos íons permeáveis, gerando os -70 mV como reflexo
+   direto da concentração desses ânions fixos no compartimento intracelular da célula em condições
+   fisiológicas estáveis.
+
+                         37
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 08 Consolidação
+
+A equação de Goldman-Hodgkin-Katz (GHK) na forma por condutâncias estabelece que Vm = (gK·EK +
+gNa·ENa + gCl·ECl) / (gK + gNa + gCl). A interpretação correta dessa expressão é:
+
+   A) o numerador soma as concentrações iônicas e o denominador soma as valências; o Vm representa
+   um equilíbrio termodinâmico em que cada íon individualmente está em equilíbrio através de seu
+   canal aberto na membrana e nenhum fluxo iônico líquido atravessa a bicamada lipídica em qualquer
+   condição experimental observada com eletrodo intracelular convencional padrão usado em ensino.
+
+   B) a fórmula é uma média aritmética simples dos três potenciais de equilíbrio, em que cada Eíon tem
+   peso unitário e a soma é dividida por três; as condutâncias entram apenas como fator de correção
+   quando a temperatura difere de 25 °C no experimento eletrofisiológico padrão da preparação biológica
+   medida.
+
+   C) cada íon contribui inversamente proporcional à sua condutância: íons com gí baixa puxam Vm com
+   mais força porque "passam menos" e por isso "pesam mais" na votação final, enquanto íons com gí
+   alta praticamente não influenciam o Vm de repouso da célula em qualquer condição fisiológica padrão
+   estudada em laboratório.
+
+   D) cada íon puxa o Vm em direção ao seu próprio Eíon, com peso proporcional à condutância g daquele
+   íon; o íon com maior condutância (K+ no repouso) domina a média ponderada, fazendo Vm ficar
+   próximo de EK, mas a presença de gNa e gCl não-nulas afasta Vm de EK em alguns mV.
+
+   E) a equação só vale quando a célula está em equilíbrio termodinâmico estrito, com iK = iNa = iCl = 0
+   individualmente; em estados estacionários metabolicamente ativos com bomba Na/K funcionando,
+   ela perde validade e precisa ser substituída pela equação de Nernst do íon mais permeável da mem-
+   brana plasmática em qualquer cálculo de potencial fisiológico medido em laboratório.
+
+                         38
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 09 Integração
+
+Em um experimento de patch-clamp, um canal único de K+ é registrado em uma célula com Vm fixo em
+-90 mV (mais negativo que o EK = -80 mV daquela preparação). Sobre a corrente de K+ esperada através
+desse canal e seu sentido:
+
+   A) a corrente é nula porque o canal está aberto exatamente sobre o EK da preparação, condição em que
+   a bateria interna do íon casa com o Vm da célula e a Lei de Ohm modificada (i = g·(Vm - Eíon)) prevê
+   fluxo líquido zero através do poro central da proteína aberta na membrana plasmática em qualquer
+   experimento de patch-clamp padrão.
+
+   B) a corrente é positiva e o K+ sai da célula porque o gradiente químico continua empurrando o íon
+   do compartimento mais concentrado (interior) para o menos concentrado (exterior), e a força elétrica
+   em Vm = -90 mV não muda esse sentido predominante de saída do íon pelos canais de vazamento
+   abertos da membrana.
+
+   C) a driving force (Vm - EK) vale -90 - (-80) = -10 mV; pela lei de Ohm modificada (i = g·(Vm - EK)), a
+   corrente é negativa, o que significa que o K+ entra na célula -- o interior está negativo o bastante para
+   vencer o gradiente químico e puxar o cátion para dentro.
+
+   D) a corrente acompanha o gradiente químico independentemente do Vm, e como [K+]int é 20× maior
+   que [K+]ext, o K+ sai pelo canal aberto mesmo em -90 mV; o Vm só afetaria o fluxo se chegasse a valores
+   positivos próximos do ENa da membrana plasmática da célula em condições experimentais.
+
+   E) o canal de K+ em -90 mV não permite fluxo porque opera apenas em despolarização da membrana
+   plasmática, condição não atingida nesta preparação experimental; ele continua aberto mas o íon fica
+   preso no poro sem progredir para o outro lado da bicamada lipídica em qualquer experimento medido.
+
+                       39
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 10 Integração
+
+Em uma célula nervosa, uma intervenção farmacológica reduz seletivamente a condutância do K+ (gK)
+para metade do valor de repouso, sem alterar gNa, gCl, nem as concentrações iônicas dos comparti-
+mentos. Pela equação de GHK, o efeito esperado sobre o Vm é:
+
+   A) hiperpolarização da membrana, porque ao reduzir gK o íon que mais "puxa" Vm para EK perde peso
+   na votação e o Vm naturalmente desce em direção a valores mais negativos do que os -70 mV iniciais
+   da célula em repouso fisiológico observado em laboratório.
+
+   B) nenhuma alteração do Vm, pois a equação de GHK depende exclusivamente dos potenciais de
+   equilíbrio EK, ENa e ECl, que não são afetados quando se mexe apenas nas condutâncias e os gradientes
+   iônicos permanecem inalterados após a intervenção farmacológica aplicada na preparação biológica
+   testada.
+
+   C) hiperpolarização imediata seguida de despolarização lenta, pois a queda de gK descarrega o capac-
+   itor de membrana liberando a carga acumulada na superfície interna e só depois o Vm se reequilibra
+   na nova relação de condutâncias entre os três íons permeáveis da membrana plasmática em qualquer
+   condição experimental.
+
+   D) despolarização proporcional ao valor absoluto de gNa, sem participação dos outros termos da
+   equação de GHK na resposta -- o resultado seria idêntico ao que se obteria duplicando gNa, já que o
+   que importa é a razão gNa/gK final na membrana e não os valores absolutos das condutâncias dos três
+   íons permeáveis.
+
+   E) despolarização da membrana, porque K+ perde peso relativo na média ponderada de GHK e o Vm
+   se afasta de EK (-80 mV) em direção a ENa (+62 mV) e ECl (-65 mV) -- clinicamente é o mesmo desfecho
+   de bloqueio parcial de canais de vazamento de K+ na membrana plasmática.
+
+                       40
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+Em uma preparação ex vivo, uma célula nervosa típica de mamífero é incubada em meio com as
+concentrações iônicas canônicas (K+ 100 mM dentro / 5 mM fora; Na+ 15 mM dentro / 150 mM fora; Cl-
+13 mM dentro / 150 mM fora) e a 37 °C. Julgue os itens sobre o sistema:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a Na/K-ATPase é necessária para manter os gradientes iônicos contra os vazamentos contínuos
+   pelos canais -- se for completamente bloqueada por ouabaína, em horas as concentrações IC e EC
+   tendem a se igualar e o Vm caminha para zero, embora no curto prazo o Vm caia apenas alguns mV
+   pela perda do componente eletrogênico direto da bomba.
+
+   II. os ânions impermeáveis intracelulares (A-, proteínas e fosfatos orgânicos) podem atravessar a
+   membrana lentamente por difusão passiva quando o Vm é suficientemente negativo, contribuindo de
+   modo direto para o balanço de cargas que estabelece o potencial de repouso da célula em condições
+   fisiológicas estáveis, e quando esses ânions saem aos poucos o Vm despolariza progressivamente
+   para zero.
+
+   III. a célula como um todo está eletricamente carregada por dentro e por fora: o interior tem excesso
+   global de cargas negativas em comparação com o exterior, e é essa abundância global de cargas
+   líquidas no citoplasma que se traduz diretamente no valor de Vm = -70 mV medido por eletrodo
+   intracelular.
+
+   IV. cada compartimento (intracelular e extracelular) é eletricamente neutro como um todo -- para
+   cada cátion existe um ânion correspondente nos dois lados -- e o que difere é apenas quais íons
+   estão em maioria de cada lado; a diferença de potencial nasce da fina camada de cargas justaposta à
+   membrana, não da neutralidade global.
+
+                       41
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Uma célula nervosa típica em repouso (Vm = -70 mV) é submetida a abertura súbita de canais seletivos
+para Na+ que dobra a condutância gNa, mantendo as concentrações iônicas e os outros gí inalterados.
+Considerando que duas forças atuam sobre cada íon, o efeito esperado sobre o influxo de Na+ é:
+
+   A) aumento expressivo do influxo de Na+, porque em -70 mV as duas forças concordam em direção
+   sobre o íon -- a química empurra Na+ para dentro (gradiente IC  EC) e a elétrica também puxa Na+
+   para dentro (interior negativo atrai cátion) -- e a abertura de mais canais soma à driving force enorme
+   (Vm - ENa = -132 mV) já presente sobre o cátion permeante na membrana.
+
+   B) diminuição do influxo de Na+, pois a abertura de mais canais paradoxalmente reduz a corrente
+   individual por canal segundo um princípio de saturação iônica do poro central -- quanto mais canais
+   abertos, mais íons disputam o mesmo gradiente eletroquímico disponível, e a corrente líquida final
+   fica menor do que era antes da intervenção experimental sobre a membrana plasmática da célula em
+   repouso fisiológico estável.
+
+   C) sem alteração no influxo de Na+, pois a corrente é controlada pela própria força elétrica do potencial
+   de repouso da membrana, que como permanece em -70 mV após a intervenção experimental mantém
+   constante a quantidade de íons que atravessa a membrana plasmática por unidade de tempo em
+   qualquer experimento padrão de eletrofisiologia celular padrão.
+
+   D) redução do influxo de Na+, pois aumentar gNa eleva o Vm em direção a ENa (+62 mV), o que reduz
+   instantaneamente a driving force (Vm - ENa) sobre o íon e faz a corrente por canal cair em proporção
+   direta à magnitude do deslocamento do Vm em direção ao potencial de equilíbrio do cátion no canal
+   aberto da membrana.
+
+   E) influxo zero de Na+, pois com gNa aumentada o Vm fica exatamente sobre ENa (+62 mV), condição
+   em que a bateria interna do íon casa com a tensão da célula e a Lei de Ohm modificada (i = g·(Vm -
+   Eíon)) prevê fluxo líquido nulo em qualquer canal aberto da membrana plasmática da célula em estado
+   estacionário fisiológico.
+
+                       42
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Em uma preparação experimental, uma célula tem apenas canais de K+ funcionais (canais de Na+ e Cl-
+todos bloqueados) e parte do estado Vm = 0 mV. A evolução temporal do sistema até o estado estacionário
+é descrita por:
+
+   A) K+ entra na célula seguindo o gradiente químico, o interior se torna positivo, e o Vm se estabiliza
+   em torno de +80 mV quando a força elétrica passa a repelir o cátion que continua querendo entrar pelo
+   gradiente químico mantido entre os dois lados da membrana plasmática da preparação.
+
+   B) o Vm permanece em 0 mV indefinidamente, pois a membrana é permeável apenas a um íon e
+   nenhum dos demais consegue compensar o fluxo iônico de K+ gerado pelo gradiente químico inicial
+   entre os dois compartimentos celular e extracelular da preparação experimental em curso no labo-
+   ratório de eletrofisiologia.
+
+   C) K+ sai pelos canais e o Vm fica positivo (interior +), porque a saída de cátions deixa cargas negativas
+   dentro mas o equilíbrio termodinâmico exige inverter o sinal medido em relação à convenção Vm =
+   Vint - Vext durante a aproximação ao estado estacionário previsto pela equação de Nernst do íon.
+
+   D) K+ sai da célula pelo gradiente químico, deixando cargas negativas dentro; o Vm fica progressiva-
+   mente mais negativo até que a força elétrica que atrai K+ de volta iguale em módulo a força química
+   -- sistema chega ao equilíbrio em Vm  EK = -80 mV com fluxo líquido nulo.
+
+   E) K+ sai da célula até que as concentrações IC e EC do íon se igualem em torno de 50 mM, e nesse ponto
+   a força química se anula e o Vm se estabiliza em 0 mV mesmo com os canais de K+ ainda funcionais e
+   permeáveis ao íon na membrana plasmática da preparação experimental em curso.
+
+                       43
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Sobre a fração de íons K+ que precisa efetivamente atravessar a membrana para gerar uma diferença de
+potencial de -70 mV em uma célula nervosa típica, é correto afirmar:
+
+A) metade dos íons K+ do interior precisa migrar para o exterior, pois a relação entre número de cargas
+separadas e diferença de potencial em volts é linear e exige movimentação iônica em larga escala para
+gerar a polarização canônica observada na membrana plasmática em repouso fisiológico medido em
+laboratório eletrofisiológico convencional padrão de neurociência básica.
+
+B) a fração é minúscula, da ordem de 1 parte em 100.000 (ou menos) do total de K+ da célula --
+suficiente para gerar dezenas de milivolts de Vm sem alterar perceptivelmente as concentrações
+intracelulares e extracelulares do íon, porque a capacitância da membrana é alta e poucos íons em
+cada superfície já produzem grande potencial.
+
+C) todos os K+ do interior precisam sair em equilíbrio termodinâmico estrito; o número de cátions
+deslocados é exatamente igual ao número que tornaria as duas concentrações iguais nos dois compar-
+timentos celular e extracelular, e por isso os gradientes IC e EC desaparecem após o estabelecimento
+do potencial de repouso na membrana plasmática.
+
+D) cerca de 10% dos K+ do interior migra para o exterior, e essa migração causa queda perceptível
+da [K+]int mensurável em qualquer experimento padrão de ionometria celular ao se estabelecer o
+potencial de repouso na membrana plasmática da célula em estado basal observado no laboratório
+padrão de eletrofisiologia neuronal em mamífero adulto saudável em qualquer ensaio padrão de
+medida com eletrodo intracelular.
+
+E) a fração depende exclusivamente do valor absoluto de gK e não do produto V·C que relaciona carga
+separada com tensão pelo capacitor; com gK alta uma fração maior dos íons migra, com gK baixa
+migra menos, sem relação com a fina capacitância intrínseca da bicamada lipídica da membrana
+plasmática da célula em condições fisiológicas.
+
+                       44
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Considere uma célula nervosa típica em repouso (Vm = -70 mV, EK = -80 mV, ENa = +62 mV, ECl = -65
+mV). Julgue os itens sobre as correntes iônicas pelos canais de vazamento individuais:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a corrente de K+ é nula no repouso, pois o Vm está suficientemente próximo de EK (a diferença de 10
+   mV é desprezível) e a Lei de Ohm modificada prevê fluxo líquido zero sempre que o Vm fica em uma
+   faixa estreita de poucos milivolts em torno do potencial de equilíbrio do íon.
+
+   II. a corrente de Na+ é nula no repouso, pois apesar de Vm estar longe de ENa (driving force de -132
+   mV), a condutância gNa é tão baixa em condições fisiológicas de repouso que o produto g·driving force
+   se anula e nenhum íon Na+ atravessa os canais de vazamento por unidade de tempo na célula em
+   repouso.
+
+   III. a driving force de K+ é (Vm - EK) = (-70) - (-80) = +10 mV, positiva e pequena, e portanto K+ sai
+   continuamente da célula pelos canais de vazamento mesmo em repouso, com fluxo de cátion para
+   fora compensado a longo prazo pela atividade da bomba Na/K-ATPase.
+
+   IV. a corrente líquida total da membrana no repouso é zero (iK + iNa + iCl  0), mas as correntes individu-
+   ais não são -- K+ sai continuamente (driving force +10 mV, condutância alta), Na+ entra continuamente
+   (driving force -132 mV, condutância baixa), e a soma se cancela mantendo Vm estável em -70 mV.
+
+                       45
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Em um experimento clássico, a [K+]ext de uma preparação neuronal é variada enquanto [K+]int per-
+manece em 100 mM. Quando [K+]ext é elevada de 5 mM para 10 mM a 37 °C, o EK e a previsão sobre Vm
+pela equação de GHK são:
+
+   A) EK muda de -80 mV para cerca de -62 mV (aplicando Nernst: 26,7 · ln(10/100)  -61,5 mV), e como
+   gK domina no repouso o Vm acompanha EK e despolariza, ficando ao redor de -55 a -60 mV -- esse é
+   o mecanismo molecular pelo qual a hipercalemia despolariza a membrana e ameaça a excitabilidade
+   cardíaca.
+
+   B) EK muda de -80 mV para -90 mV pela duplicação da [K+]ext, e o Vm hiperpolariza junto com o EK
+   porque a razão [K]ext/[K]int passa de 5/100 a 10/100 e o logaritmo natural dessa nova razão é mais
+   negativo do que era antes do experimento ser aplicado à preparação biológica em curso no laboratório
+   eletrofisiológico de neurociência básica utilizada como modelo experimental padrão.
+
+   C) EK permanece em -80 mV (Nernst depende apenas da razão de concentrações na temperatura fixa
+   de 37 °C, que não muda quando a concentração extracelular sobe), e o Vm fica inalterado porque os
+   outros íons compensam a variação no compartimento extracelular sem alteração medível da mem-
+   brana plasmática observável em qualquer experimento padrão de ionometria celular.
+
+   D) EK vai a zero porque a [K+]ext dobrada faz a razão de concentrações sair do regime válido para
+   a equação de Nernst, e o Vm passa a ser determinado exclusivamente pelos demais íons (Na+ e Cl-)
+   pela equação de Goldman aplicada apenas aos dois íons remanescentes na membrana plasmática em
+   qualquer condição experimental.
+
+   E) EK muda de -80 mV para +62 mV porque a [K+]ext aumentou e inverteu o sinal do gradiente de
+   concentração, e o Vm despolariza fortemente até +50 mV pela dominância de gK na equação de GHK
+   aplicada à célula em repouso fisiológico estável neste experimento eletrofisiológico em laboratório
+   padrão.
+
+                       46
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+O Cl- tem ECl  -65 mV, valor surpreendentemente próximo do Vm de repouso (-70 mV). Sobre as conse-
+quências fisiológicas dessa proximidade numérica:
+
+A) Cl- em repouso flui continuamente para fora da célula com a mesma intensidade com que K+ sai,
+contribuindo igualmente para a corrente de saída de cargas positivas da célula em repouso e ajudando
+a manter o Vm estável em condições fisiológicas em preparações biológicas eletrofisiológicas estáveis
+e bem mantidas.
+
+B) ECl perto de Vm significa que o Cl- domina a determinação do potencial de repouso, mais ainda
+do que o K+, porque íons cuja condutância é baixa "pesam mais" na média ponderada de GHK e por
+isso conseguem determinar o Vm com poucos canais abertos na membrana plasmática da célula em
+repouso fisiológico estável.
+
+C) a proximidade ECl  Vm impede totalmente o GABA-A de mediar inibição sináptica, pois a abertura
+desses canais permeáveis a Cl- não consegue gerar qualquer corrente útil para o neurônio receber
+sinal inibitório vindo do interneurônio gabaérgico do circuito; isso explica por que a inibição sináptica
+no SNC depende exclusivamente de receptores acoplados à proteína Gi.
+
+D) a proximidade de ECl a Vm decorre de a célula bombear Cl- ativamente contra seu gradiente eletro-
+químico continuamente por uma bomba primária dedicada a Cl-, sendo essa atividade da bomba do
+Cl- o motivo direto pelo qual Vm e ECl não divergem em mais de 5 mV em qualquer célula nervosa
+madura.
+
+E) a driving force de Cl- no repouso é pequena (Vm - ECl = -5 mV) e o íon contribui pouco para
+correntes em repouso, mas a abertura de canais de Cl- (como pelo GABA-A) ancora o Vm perto de ECl --
+estabilizando a membrana e impedindo que estímulos excitatórios despolarizem fácil; é o mecanismo
+da inibição sináptica clássica.
+
+                       47
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Sobre o experimento mental "célula com apenas canais de K+ funcionais" (canais de Na+ e Cl- todos
+bloqueados), considere os processos termodinâmicos envolvidos:
+
+Cada item deve ser julgado de forma independente.
+
+   I. no equilíbrio final, a força química sobre o K+ (que empurra para fora pelo gradiente de concentração)
+   tem magnitude exatamente igual e sentido exatamente oposto à força elétrica sobre o K+ (que puxa
+   para dentro porque o interior fica negativo), e portanto o fluxo líquido pelos canais abertos é zero.
+
+   II. a saída efetiva de K+ da célula durante o estabelecimento do equilíbrio corresponde a uma fração
+   substancial do K+ intracelular total (algo como 30 a 50% do íon migra para fora), o suficiente para que
+   as concentrações IC e EC se aproximem visivelmente do equilíbrio termodinâmico estrito.
+
+   III. o Vm no equilíbrio é exatamente o EK calculado pela equação de Nernst aplicada à razão de con-
+   centrações intracelular e extracelular do íon nas condições experimentais da preparação, com sinal e
+   magnitude determinados pelo logaritmo natural dessa razão e pelo fator RT/zF.
+
+   IV. no estado de equilíbrio termodinâmico desse sistema simplificado, mesmo com os canais de K+
+   ainda abertos, não há corrente líquida nem trabalho extraído do sistema, e nenhuma atividade da
+   Na/K-ATPase é necessária para manter o Vm -- diferente do que ocorre na célula real em estado
+   estacionário com vazamentos.
+
+                       48
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Em uma célula nervosa típica em repouso, a condutância de K+ é cerca de 10­20× maior que a de Na+ e
+cerca de 4× maior que a de Cl-. A consequência direta dessa relação para o Vm é:
+
+A) o Vm fica exatamente no ECl (-65 mV) porque Cl- é o íon com condutância intermediária, e na
+equação de GHK o íon de gí intermediária funciona como mediador entre os dois extremos e termina
+como dominante na média ponderada do potencial em qualquer membrana plasmática em condições
+fisiológicas estáveis e equilibradas.
+
+B) o Vm fica em valor médio aritmético entre os três Eíon, ponderando cada um pela razão entre sua
+condutância e a soma das três -- resultado estatisticamente independente das concentrações iônicas
+presentes no momento da medição em qualquer eletrodo intracelular padrão de uso clínico ou em
+qualquer preparação biológica intacta.
+
+C) o Vm fica próximo de EK (-80 mV) porque K+ domina a equação de GHK -- mas não é exatamente
+EK: o vazamento de Na+ (gNa pequena mas não-nula e driving force imensa) puxa o Vm uns 10 mV
+para cima do EK, explicando o valor real de cerca de -70 mV.
+
+D) o Vm fica próximo de ENa (+62 mV) porque Na+ tem a maior driving force (Vm - ENa = -132 mV) e
+por isso domina a corrente total da membrana mesmo com condutância baixa, levando o Vm para
+perto do potencial de equilíbrio do íon na célula em repouso fisiológico e em qualquer outra condição
+metabólica estável.
+
+E) o Vm fica em zero porque K+ e Na+ se cancelam (um sai com a mesma intensidade que o outro entra,
+ambos contribuindo com correntes iguais e opostas em magnitude), e Cl- não contribui para o resul-
+tado final do potencial estabelecido na membrana plasmática em qualquer condição experimental
+conhecida em fisiologia básica.
+
+                       49
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Em uma preparação com condutâncias gK = 10·10-6 S, gNa = 0,5·10-6 S, gCl = 2,5·10-6 S, e EK = -80 mV, ENa
+= +62 mV, ECl = -65 mV, o valor de Vm calculado pela equação de GHK por condutâncias é:
+
+   A) Vm  -80 mV, pois K+ é o íon de maior condutância e a equação de GHK reduz-se ao EK sempre que
+   gK é maior que cinco vezes a soma das outras condutâncias, ignorando os termos minoritários do
+   numerador da equação ponderada em qualquer simulação numérica adotada.
+
+   B) Vm  -71,65 mV, calculado como [10·(-80) + 0,5·(+62) + 2,5·(-65)] / (10 + 0,5 + 2,5) = (-800 + 31 - 162,5) /
+   13 = -931,5/13  -71,65 mV, valor compatível com o potencial de repouso medido experimentalmente
+   em neurônios de mamífero a 37 °C.
+
+   C) Vm = -27 mV, obtido pela média aritmética simples dos três potenciais de equilíbrio (-80 + 62 -
+   65)/3, sem ponderação pelas condutâncias -- esse é o cálculo errado mas frequentemente esperado
+   pelo aluno que confunde média simples com média ponderada por g em qualquer questão sobre
+   potencial de repouso.
+
+   D) Vm = 0 mV, pois K+ sai pelo canal de vazamento e Na+ entra com forças opostas que se cancelam
+   exatamente, anulando o termo de Cl- que tem condutância intermediária mas equilíbrio próximo
+   do repouso e portanto contribui negligivelmente para a média final do potencial na membrana plas-
+   mática estudada.
+
+   E) Vm = +20 mV, dominado pelo termo de Na+ na soma do numerador pela enorme driving force do íon
+   (-132 mV), mesmo com condutância gNa baixa em comparação com gK e gCl em condições fisiológicas
+   de repouso na membrana plasmática da preparação experimental em curso no laboratório.
+
+                       50
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Em uma célula nervosa em repouso (Vm = -70 mV), a driving force para K+ é (Vm - EK) = +10 mV, e para
+Na+ é (Vm - ENa) = -132 mV. Sobre as correntes iônicas em repouso e o porquê de a célula manter Vm
+estável:
+
+   A) a driving force imensa do Na+ (-132 mV) seria explosiva se gNa fosse comparável a gK; como gNa é
+   cerca de 20× menor que gK no repouso, o produto g·driving force se equilibra -- a pequena corrente de
+   saída de K+ (gK alta × driving force pequena) tem módulo igual à pequena corrente de Na+ entrando
+   (gNa baixa × driving force enorme), mantendo im  0 e Vm estável.
+
+   B) a driving force de Na+ é tão grande que se sobrepõe a tudo: Na+ entra a uma taxa muito maior do que
+   K+ sai, e em milissegundos o Vm chega a +60 mV; o que se mede como -70 mV é o regime transitório
+   anterior, antes do equilíbrio termodinâmico final do sistema completo da membrana plasmática da
+   célula em repouso fisiológico.
+
+   C) a driving force de K+ é a única que importa porque K+ tem condutância dominante; Na+ em repouso
+   simplesmente não atravessa a membrana porque seus canais voltagem-dep estão fechados, e essa
+   ausência total de fluxo é o que mantém a célula em -70 mV de modo estável e indefinido sem qualquer
+   gasto de energia metabólica.
+
+   D) a driving force de Cl- (Vm - ECl = -5 mV) é a chave da estabilidade: Cl- entrando hiperpolariza
+   imediatamente o suficiente para compensar qualquer corrente de Na+ entrando, e como gCl é alta
+   no repouso (maior que gK na maioria das células nervosas), qualquer tendência de despolarização é
+   apagada antes de afetar Vm da célula em condições fisiológicas estáveis.
+
+   E) no repouso ambas as correntes individuais (K+ e Na+) são exatamente zero -- não há fluxo iônico
+   passando pelos canais de vazamento, e por isso Vm fica perfeitamente estável em -70 mV sem que a
+   Na/K-ATPase precise gastar energia continuamente para repor algum íon migrado ao longo do tempo
+   do experimento eletrofisiológico em curso.
+
+                       51
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Em uma célula nervosa em repouso a 37 °C, considere as três grandezas: potencial de equilíbrio de cada
+íon (Eíon), driving force (Vm - Eíon) e corrente iônica (iíon = g·(Vm - Eíon)). Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. no instante em que Vm = Eíon de um determinado íon, a driving force daquele íon é zero e a
+   corrente líquida pelo canal aberto é zero, mesmo que existam canais de vazamento abertos para ele na
+   membrana -- situação geometricamente equivalente a casar a bateria interna do canal com a tensão
+   da célula.
+
+   II. a driving force de Na+ em Vm = -70 mV vale -132 mV -- magnitude muito maior que a driving force
+   de K+ (+10 mV) -- e por isso, mesmo com gNa cerca de 20× menor que gK, a corrente iNa tem módulo
+   comparável à corrente iK no repouso, embora em sentido oposto através da membrana plasmática.
+
+   III. a equação iíon = g·(Vm - Eíon) prevê que a corrente é máxima quando Vm = Eíon (driving force máxima
+   por casamento entre os dois potenciais), pois nessa condição o íon "sente" o gradiente termodinâmico
+   mais forte e flui com maior velocidade através dos canais de vazamento da membrana plasmática em
+   repouso.
+
+   IV. a soma das três correntes individuais (iK + iNa + iCl) é exatamente zero no estado estacionário
+   de repouso somente porque as três condutâncias gK, gNa e gCl são iguais entre si, situação fisiológ-
+   ica garantida pela atividade contínua da bomba Na/K-ATPase no neurônio sob qualquer condição
+   metabólica e fisiológica.
+
+                       52
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+O fato de o Vm de repouso (-70 mV) ser diferente de EK (-80 mV) implica que K+ não está em equilíbrio
+termodinâmico estrito na célula viva -- ele continua fluindo pelos canais de vazamento. A interpretação
+correta dessa observação é:
+
+   A) o Vm e o EK precisariam ser idênticos para que a equação de Nernst fosse válida em fisiologia celular;
+   como não são iguais, a fórmula de Nernst está errada para sistemas biológicos reais e foi substituída
+   pela de Goldman, que ignora os potenciais de equilíbrio individuais dos íons permeáveis em qualquer
+   cálculo de potencial de membrana.
+
+   B) a célula está em equilíbrio termodinâmico estrito a -70 mV pois é o Vm experimental observado, e
+   isso prova que K+ não está fluindo no repouso -- qualquer cálculo que sugira o contrário (como EK =
+   -80 mV) é artefato da fórmula matemática aplicada e não corresponde à fisiologia real da membrana
+   plasmática observada.
+
+   C) Vm  EK significa que o K+ entra continuamente na célula pelos canais de vazamento (não sai),
+   pois o gradiente eletroquímico no repouso é negativo para o íon e isso puxa o cátion para dentro
+   contra o gradiente químico que opera no sentido oposto na membrana plasmática da célula em estado
+   estacionário fisiológico.
+
+   D) Vm  EK indica que K+ não está em equilíbrio individual -- ele sai continuamente pelos canais de
+   vazamento, com pequena driving force positiva (+10 mV) -- e a célula só mantém a [K+]int constante
+   porque a Na/K-ATPase devolve continuamente K+ ao IC; o sistema está em estado estacionário (man-
+   tido por gasto de ATP), não em equilíbrio termodinâmico estrito.
+
+   E) Vm  EK é inconsistente com a presença de canais de vazamento abertos na membrana, e portanto
+   a observação experimental indica que esses canais devem estar fechados na maior parte do tempo
+   durante o repouso fisiológico da célula, abrindo-se apenas durante a fase de repolarização de um
+   potencial de ação propagado pelo neurônio em ativação.
+
+                       53
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Em uma simulação numérica de uma membrana com três íons, se gNa é elevado abruptamente para
+1000× o valor de repouso (mimetizando abertura maciça de canais de Na+ voltagem-dependentes em
+um potencial de ação), o efeito esperado sobre Vm pela equação de GHK é:
+
+   A) Vm fica próximo de ECl (-65 mV) pois Cl- passa a ser o íon com menor condutância relativa e por
+   isso "pesa mais" na média ponderada de GHK; aumentar gNa de modo desproporcional inverte a
+   hierarquia normal da equação e privilegia o íon menos permeável da preparação experimental em
+   qualquer condição fisiológica padrão estudada em laboratório eletrofisiológico convencional.
+
+   B) Vm cai para -95 mV porque o influxo maciço de Na+ hiperpolariza a membrana ao trazer cargas
+   positivas para o interior em quantidades elevadas, deslocando o equilíbrio termodinâmico em direção
+   a valores muito mais negativos que o repouso fisiológico inicial da célula em qualquer modelo de
+   simulação numérica adotado em laboratório.
+
+   C) Vm fica em 0 mV permanentemente, pois com gNa elevado em três ordens de grandeza o sistema
+   atinge o ponto de "neutralidade elétrica" em que K+ saindo e Na+ entrando se anulam exatamente,
+   gerando potencial nulo entre os dois compartimentos da membrana plasmática em qualquer simu-
+   lação computacional padrão usada para modelar membranas excitáveis.
+
+   D) Vm permanece em torno de -70 mV pois a equação de GHK é insensível a variações de condutância
+   da ordem de 1000× -- o que determina o Vm é o produto g·E, e como ENa e EK têm sinais opostos, eles
+   se cancelam matematicamente sempre que gNa cresce muito acima de gK na membrana plasmática
+   da preparação biológica.
+
+   E) Vm sobe (despolariza) em direção a ENa (+62 mV), pois aumentar gNa de modo dominante faz Na+
+   vencer a votação ponderada na GHK -- é o mecanismo do potencial de ação, no qual a abertura maciça
+   de canais voltagem-dep inverte a hierarquia gK  gNa e leva o Vm de -70 a +30 mV em milissegundos.
+
+                       54
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Em uma célula nervosa típica em estado estacionário de repouso (Vm = -70 mV), considere a equação
+de GHK por condutâncias e o balanço de correntes através dos canais de vazamento. Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a corrente líquida total atravessando a membrana é exatamente zero, e por isso o sistema está em
+   equilíbrio termodinâmico estrito -- cada íon individualmente também está em equilíbrio (iK = 0, iNa
+   = 0, iCl = 0), o que torna desnecessária qualquer atividade de bomba Na/K-ATPase para manter Vm
+   estável.
+
+   II. as três condutâncias gK, gNa e gCl estão em paralelo do ponto de vista do circuito equivalente da
+   membrana -- todos os três ramos compartilham os mesmos dois compartimentos (intracelular e
+   extracelular) -- e a resistência total da membrana satisfaz 1/Rm = gK + gNa + gCl em condições fisiológ-
+   icas de repouso da célula.
+
+   III. o valor de Vm previsto pela equação de GHK por condutâncias coincide exatamente com o Vm em
+   que a soma iK + iNa + iCl vale zero, pois ambas as derivações partem do mesmo princípio físico (balanço
+   de cargas na superfície da membrana) e produzem a mesma expressão algébrica após reorganização
+   dos termos.
+
+   IV. se a Na/K-ATPase fosse subitamente bloqueada (por ouabaína), o Vm cairia instantaneamente a
+   zero, pois a bomba é diretamente responsável pela geração do potencial de repouso e sem o bombea-
+   mento ativo de Na+ e K+ contra seus gradientes não há possibilidade de manter qualquer separação de
+   cargas na membrana plasmática.
+
+                       55
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Em um experimento de patch-clamp em neurônio isolado, registra-se a carga elétrica armazenada nas
+superfícies da membrana plasmática em função do Vm imposto pelo amplificador. A curva mostra
+relação linear entre carga separada (Q) e Vm, com inclinação constante (Q = C·V, com C  1 F/cm²). Esse
+achado experimental confirma que:
+
+   A) a relação linear demonstra que cargas atravessam livremente a bicamada lipídica em proporção ao
+   Vm aplicado pelo amplificador, comportamento típico de um condutor ôhmico, e por isso a membrana
+   funciona como resistor puro sem capacidade de armazenar separações de cargas no estado de repouso
+   da preparação experimental analisada em laboratório.
+
+   B) a membrana plasmática funciona como capacitor: a bicamada lipídica isolante separa cargas
+   opostas em camadas finas justapostas a cada face, e a quantidade de cargas separadas é proporcional
+   ao Vm pela relação Q = C·V -- confirmando experimentalmente o modelo do capacitor de membrana
+   com capacitância específica de aproximadamente 1 F/cm².
+
+   C) a inclinação constante da curva Q×V indica que o número de íons K+ migrados da célula é igual
+   ao Vm em volts dividido pela constante de Boltzmann -- relação que comprova a equivalência direta
+   entre carga elementar e potencial de membrana sem necessidade de capacitância intermediária da
+   bicamada lipídica em qualquer experimento eletrofisiológico padrão.
+
+   D) a relação Q = C·V não pode ser determinada por patch-clamp em neurônio isolado pois o método
+   não permite medir cargas separadas em superfícies opostas da bicamada -- apenas correntes iônicas
+   através dos canais -- e por isso a interpretação correta exige outra técnica eletrofisiológica diferente
+   da apresentada no enunciado da preparação experimental em curso.
+
+   E) a inclinação constante indica que a membrana se comporta como bomba primária ativa: cargas são
+   bombeadas em proporção ao Vm aplicado, e a capacitância medida representa a eficiência energética
+   do bombeamento iônico pela Na/K-ATPase a cada ciclo de hidrólise de ATP no compartimento
+   intracelular do neurônio em repouso fisiológico medido.
+
+                      56
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Em um experimento clássico, a [K+]ext de uma preparação neuronal é reduzida de 5 mM para 2 mM,
+mantendo as outras variáveis fixas e a temperatura em 37 °C (fator RT/F  26,7 mV). A previsão para o
+novo EK e o efeito esperado sobre o Vm de repouso (sabendo que gK domina) é:
+
+   A) o novo EK vale cerca de -62 mV (Nernst: 26,7·ln(2/100)  -62 mV, ainda menos negativo que o valor
+   original de repouso da preparação experimental), e o Vm despolariza junto, indo de -70 mV em direção
+   a valores menos negativos como -60 mV nas medições eletrofisiológicas em condições fisiológicas
+   convencionais bem mantidas.
+
+   B) o novo EK permanece em -80 mV pois Nernst depende apenas da temperatura fixada na preparação
+   experimental e do tipo de íon medido, e o Vm fica inalterado porque a redução modesta da [K+]ext não
+   chega a perturbar significativamente a hierarquia entre as três condutâncias canônicas da membrana
+   plasmática em qualquer condição fisiológica padrão.
+
+   C) o novo EK vale 0 mV pois a [K+]ext caiu abaixo do limiar mínimo de operação da equação de Nernst
+   (5 mM convencional), e por isso o íon deixa de contribuir para o potencial de repouso da célula nesta
+   preparação experimental específica em qualquer medida com eletrodo intracelular convencional
+   padrão de eletrofisiologia.
+
+   D) o novo EK vale cerca de -104 mV (Nernst: 26,7·ln(2/100)  -104 mV, mais negativo que o original de
+   -80 mV pela razão de concentrações mais extrema), e o Vm acompanha hiperpolarizando -- vai de -70
+   a valores mais negativos como -85 mV; mecanismo pelo qual a hipocalemia hiperpolariza neurônios.
+
+   E) o novo EK vale +27 mV pois reduzir a [K+]ext inverte o gradiente de concentração e por isso muda
+   o sinal do EK, e o Vm despolariza expressivamente até +20 mV em milissegundos, gerando potencial
+   de ação espontâneo na preparação como mecanismo paradoxal da hipocalemia aguda em qualquer
+   modelo de neurônio testado.
+
+                      57
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Uma célula nervosa em cultura recebe administração aguda de ouabaína, inibidor potente e seletivo da
+Na/K-ATPase. O efeito observado em curto prazo (segundos a minutos) e em longo prazo (horas) sobre
+o Vm é:
+
+   A) curto prazo: Vm cai apenas alguns mV ( 3 a 5 mV menos negativo, pela perda do componente
+   eletrogênico direto da bomba), mas os gradientes iônicos permanecem essencialmente intactos por
+   minutos. Longo prazo: os vazamentos contínuos de K+ (sai) e Na+ (entra) pelos canais dissipam os
+   gradientes, os Eíon mudam, e o Vm despolariza progressivamente em direção a zero ao longo de horas
+   até a morte celular.
+
+   B) curto prazo: Vm cai imediatamente para zero ( 0 mV em segundos), pois a Na/K-ATPase é o gerador
+   direto do potencial de repouso. Longo prazo: o Vm permanece em zero pelo restante do experimento,
+   pois sem a bomba os gradientes iônicos colapsam instantaneamente e nenhum mecanismo restaura
+   a polarização da membrana plasmática neste cenário fisiológico clássico.
+
+   C) curto prazo: Vm hiperpolariza brevemente ( -85 mV nos primeiros segundos) pela perda da
+   eletrogenicidade que normalmente compensava no sentido oposto. Longo prazo: o Vm retorna grad-
+   ualmente ao valor de repouso (-70 mV) sem variação adicional, pois os canais de vazamento de K+
+   mantêm o potencial mesmo sem a bomba ativa na membrana plasmática.
+
+   D) curto prazo: nenhuma alteração detectável no Vm (a bomba não contribui de modo eletrogênico
+   em nenhuma medida experimental). Longo prazo: o Vm sobe para +30 mV em algumas horas porque
+   o Na+ entra livremente sem oposição da bomba, e o gradiente do íon se inverte tornando o interior
+   mais positivo que o exterior pela primeira vez no tempo do experimento de ouabaína.
+
+   E) curto prazo: o Vm despolariza para -40 mV em microssegundos por causa do fechamento dos
+   canais de vazamento de K+ desencadeado pela ouabaína. Longo prazo: o Vm volta a -70 mV em poucas
+   horas, pois a ouabaína é metabolizada e a Na/K-ATPase recupera função plena sem alterações persis-
+   tentes da preparação experimental original.
+
+                      58
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Paciente de 62 anos, portador de insuficiência renal crônica em diálise, apresenta-se ao pronto-socorro
+com fraqueza muscular generalizada. ECG mostra ondas T apiculadas, prolongamento do intervalo PR
+e alargamento do QRS. Dosagem laboratorial revela K+ sérico de 7,5 mM (valor normal 3,5 a 5,0 mM). O
+mecanismo molecular pelo qual a hipercalemia provoca essas alterações eletrocardiográficas é:
+
+   A) a [K+]ext elevada faz a [K+]int subir proporcionalmente pelos canais de vazamento da membrana
+   plasmática, e essa elevação intracelular do íon hiperpolariza fortemente a membrana do cardiomióc-
+   ito (Vm -95 mV), gerando dificuldade de chegar ao limiar de disparo e bradicardia sinusal extrema,
+   com bloqueios de condução pelo nó AV e arritmias ventriculares letais sucessivas no traçado clínico
+   monitorado.
+
+   B) a [K+]ext elevada bloqueia diretamente os canais de Na+ voltagem-dependentes do miocárdio em
+   um mecanismo independente do potencial de repouso, sem alteração medível do Vm de repouso do
+   cardiomiócito -- explicando por que os achados eletrocardiográficos aparecem mesmo com [K+]int e
+   gradientes iônicos preservados em condições laboratoriais controladas com eletrodo intracelular.
+
+   C) a [K+]ext elevada altera EK pela equação de Nernst; como gK domina no repouso, o Vm do
+   cardiomiócito despolariza junto (de -90 para -75 mV); a despolarização sustentada mantém parte dos
+   canais voltagem-dep de Na+ em estado inativado (impossíveis de recuperar), reduzindo amplitude e
+   velocidade do PA -- daí QRS alargado, PR prolongado e arritmias.
+
+   D) a [K+]ext elevada gera entrada maciça de K+ na célula seguindo o gradiente de concentração
+   estabelecido pelos canais de vazamento da membrana plasmática, e essa entrada despolariza o
+   cardiomiócito até +30 mV em milissegundos provocando taquicardia ventricular sustentada pelo
+   gatilho elétrico de cada batimento sucessivo do miocárdio em parada elétrica iminente do paciente
+   em emergência.
+
+   E) a [K+]ext elevada estimula diretamente a Na/K-ATPase pela maior oferta de substrato (K+
+   extracelular) na bomba, e o aumento do bombeamento eletrogênico hiperpolariza a membrana do
+   cardiomiócito além do normal -- gerando incapacidade de chegar ao limiar de disparo e os achados
+   eletrocardiográficos relatados no paciente em emergência hospitalar aguda observada no leito clínico.
+
+                      59
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Paciente de 78 anos em uso crônico de digoxina por insuficiência cardíaca apresenta-se com náusea,
+visão amarelada e bradicardia sinusal de 38 bpm. Exames laboratoriais revelam digoxinemia em faixa
+terapêutica usual (1,2 ng/mL) e K+ sérico de 2,8 mM (hipocalemia). Sobre o mecanismo molecular pelo
+qual a hipocalemia potencializa a toxicidade digitálica nesse contexto:
+
+   A) a hipocalemia reduz o [K+]int do cardiomiócito pelo efluxo aumentado via canais de vazamento da
+   membrana plasmática, e essa redução intracelular eleva diretamente a sensibilidade da Na/K-ATPase
+   à digoxina por feedback alostérico na face citoplasmática da bomba, sem qualquer participação da
+   concentração extracelular do íon no mecanismo descrito da intoxicação digitálica do paciente em uso
+   crônico.
+
+   B) a hipocalemia reduz a [Na+]int do cardiomiócito por mecanismo de troca direta com o K+ extracelu-
+   lar através de transportadores secundários da membrana plasmática, e a menor concentração de Na+
+   dentro da célula reduz a competição com a digoxina pelo sítio intracelular da bomba -- pelo qual o
+   medicamento se ligaria normalmente ao alvo molecular do íon nativo da fisiologia da Na/K-ATPase
+   do paciente.
+
+   C) a hipocalemia altera o pH extracelular do paciente, gerando acidose metabólica leve que protona o
+   anel esteroide da digoxina e aumenta sua afinidade por receptores muscarínicos M2 do nó sinoatrial
+   -- explicando a bradicardia sinusal observada como efeito independente da ligação à Na/K-ATPase do
+   cardiomiócito ventricular do paciente crônico em uso prolongado do medicamento.
+
+   D) a hipocalemia hiperpolariza o cardiomiócito (EK mais negativo) e essa hiperpolarização ativa
+   diretamente a digoxina por mecanismo voltagem-dependente, gerando inibição instantânea da Na/
+   K-ATPase apenas em valores de Vm menores que -85 mV -- situação que ocorre exclusivamente
+   em hipocalemia clínica e justifica a estreita janela terapêutica do glicosídeo cardíaco utilizado neste
+   paciente idoso.
+
+   E) a digoxina liga-se ao sítio extracelular da Na/K-ATPase competindo com o K+ extracelular (disputam
+   o mesmo bolsão); quando a [K+]ext cai (hipocalemia), há menos competidor e mais sítios livres para
+   a digoxina ocupar -- aumentando a fração da bomba inibida na mesma digoxinemia, explicando a
+   janela terapêutica estreitar em hipocalemia.
+
+                      60
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que o potencial de repouso de uma célula nervosa típica é negativo e não positivo? Explique
+a partir do mecanismo de saída do K+ e do papel dos ânions impermeáveis intracelulares.
+
+    MODELO DE RESPOSTA
+
+   O sinal negativo vem da saída líquida de cargas positivas pelos canais de vazamento de
+   K+. Como gK é a maior condutância no repouso, K+ sai seguindo o gradiente químico
+   (100 mM IC  5 mM EC) e deixa para trás ânions impermeáveis (A-, proteínas, fosfatos)
+   que não podem acompanhá-lo. Cada K+ que sai gera déficit de carga positiva na camada
+   interna justaposta à membrana e excesso na camada externa. O interior fica eletrica-
+   mente negativo em relação ao exterior. Os A- não geram o sinal sozinhos -- eles já
+   estavam lá desde o início; o sinal aparece quando o K+ migra.
+
+Questão Q2
+
+Explique fisicamente o que a equação de Nernst Eíon = (RT/zF)·ln([íon]ext/[íon]int) calcula. Por que
+ela tem logaritmo natural, e por que a valência z aparece no denominador?
+
+    MODELO DE RESPOSTA
+
+   Nernst calcula o Vm em que a força elétrica sobre o íon teria magnitude igual e sentido
+   oposto à força química -- ou seja, o Vm hipotético em que aquele íon estaria em equi-
+   líbrio eletroquímico através de canais abertos. O logaritmo natural aparece porque a
+   energia química associada a uma diferença de concentração entre dois compartimentos
+   é proporcional a RT·ln(razão de concentrações) -- vem da expressão termodinâmica
+   do potencial químico. A valência z entra no denominador (zF) porque mede quantos
+   coulombs uma mol do íon carrega: íon com z=+2 carrega o dobro de carga por mol
+   que íon com z=+1, então precisa de metade do Vm para gerar a mesma energia elétrica
+   oposta.
+
+                             61
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que o Vm de repouso fica próximo de EK (-80 mV) e não próximo de ENa (+62 mV), se a célula é
+permeável aos dois íons simultaneamente e a driving force de Na+ no repouso (-132 mV) é muito
+maior do que a de K+ (+10 mV)?
+
+MODELO DE RESPOSTA
+
+Porque o que pesa na equação de GHK é o produto g·E, não a driving force isolada. A
+condutância de K+ (gK) é cerca de 20× maior que gNa no repouso -- há muito mais
+canais de vazamento de K+ abertos do que de Na+. Cada íon puxa Vm em direção ao seu
+próprio Eíon com peso proporcional à sua condutância. Como gK domina, o termo gK·EK
+no numerador da GHK ofusca o termo gNa·ENa, e o Vm fica próximo de EK. A driving
+force enorme de Na+ não compensa porque há pouquíssimos canais por onde Na+ efeti-
+vamente passa em repouso.
+
+Questão Q4
+
+Diferencie potencial de equilíbrio (Eíon) de potencial de membrana real (Vm). Em que situação
+fisiológica o Vm pode se aproximar de ENa = +62 mV em uma célula nervosa típica?
+
+    MODELO DE RESPOSTA
+
+   Eíon é o Vm hipotético em que o íon estaria em equilíbrio individual -- não tem fluxo
+   líquido pelos canais. Vm é o potencial real medido, resultado da média ponderada de
+   todos os Eíon pelas condutâncias (GHK). Em repouso, Vm  nenhum Eíon porque gK
+   domina e Vm fica próximo de EK. Durante o potencial de ação, canais de Na+ voltagem-
+   dependentes abrem em massa: gNa salta 1000× em poucos milissegundos e passa a
+   dominar gK. A hierarquia inverte, e o termo gNa·ENa passa a determinar o Vm. O potencial
+   sobe rapidamente em direção a ENa = +62 mV, atingindo o pico do PA em torno de +30 a
+   +40 mV.
+
+       62
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um aluno escreve: "A bomba Na/K-ATPase gera diretamente o potencial de repouso de -70 mV
+pela sua atividade eletrogênica de 3:2, e por isso bloquear a bomba com ouabaína zera o Vm
+imediatamente. Os canais de vazamento de K+ são detalhes secundários sem participação no
+estabelecimento do potencial de repouso." Identifique e corrija os três erros conceituais desse
+trecho.
+
+MODELO DE RESPOSTA
+
+Primeiro erro: a bomba não gera diretamente o Vm de -70 mV. Quem gera o Vm são os
+canais de vazamento (sobretudo de K+) usando os gradientes que a bomba mantém. A
+contribuição direta da bomba pela eletrogenicidade 3:2 é pequena ( 3 a 5 mV). Segundo
+erro: bloquear a bomba com ouabaína não zera o Vm imediatamente. No curto prazo,
+os gradientes ainda estão intactos e os canais continuam funcionando -- Vm cai só
+uns poucos mV pela perda do componente eletrogênico. O colapso vem no longo prazo
+(horas) à medida que os vazamentos dissipam os gradientes. Terceiro erro: os canais de
+vazamento de K+ não são detalhes secundários -- eles são o gerador direto do Vm no
+repouso. Sem gK alta no repouso, o Vm não ficaria próximo de EK.
+
+       63
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D  Q02 B            Q03 A     Q04 E     Q05 C
+Q06 B  Q07 A            Q08 D
+
+INTEGRAÇÃO (Q11­Q25)    Q11 CEEC
+                        Q16 A
+Q09 C  Q10 E            Q21 A     Q12 A     Q13 D
+Q14 B  Q15 EECC                   Q17 E     Q18 CECC
+                        Q28 A     Q22 CCEE  Q23 D
+Q19 C  Q20 B
+
+Q24 E  Q25 ECEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B  Q27 D                      Q29 C     Q30 E
+
+                        69
+

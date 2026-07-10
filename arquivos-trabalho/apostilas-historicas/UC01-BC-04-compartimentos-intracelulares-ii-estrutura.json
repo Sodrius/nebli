@@ -1,0 +1,231 @@
+{
+  "slug": "UC01-BC-04-compartimentos-intracelulares-ii",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-BC-04-compartimentos-intracelulares-ii.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-BC-04-compartimentos-intracelulares-ii.txt",
+  "total_paginas": 35,
+  "total_palavras": 10148,
+  "total_imagens": 12,
+  "media_palavras_pagina": 289.9,
+  "paginas_amostra": [
+    1,
+    2,
+    3,
+    4,
+    9,
+    13,
+    35
+  ],
+  "paginas_amostra_str": "1,2,3,4,9,13,35",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 85,
+      "imagens": 0,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 157,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 498,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 370,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 426,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 398,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 384,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 288,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 211,
+      "imagens": 2,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 256,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 358,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 461,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 194,
+      "imagens": 2,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 275,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 362,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 356,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 377,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 374,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 347,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 251,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 204,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 237,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 223,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 272,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 296,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 301,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 306,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 223,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 357,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 254,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 296,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 254,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 247,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 168,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 82,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

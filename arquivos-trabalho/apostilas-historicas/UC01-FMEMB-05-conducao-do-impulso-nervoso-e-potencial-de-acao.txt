@@ -1,0 +1,1697 @@
+NEBLI · APOSTILA
+
+Condução do impulso nervoso
+e potencial de ação
+
+Fisiologia · P2
+
+Disciplina:    Fisiologia
+Nota de uso:   Estudar depois de potencial de repouso (#24) e propriedades passivas
+               (#23). Leia com o slide do prof aberto ao lado.
+Onde estudar:  Boron capítulo 7 · Purves capítulo 3 · Kandel capítulos 7­9
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que o PA existe: o limite da condução eletrotônica
+
+       1.1 Recap: eletrotônica decai no espaço () e no tempo ()
+       1.2 Onde a eletrotônica falha: capacitância como obstáculo
+       1.3 A solução: amplificação ativa por canais voltagem-dependentes
+  PARTE II -- Mecanismo molecular do PA: canais Na e K voltagem
+       2.1 Canal Na voltagem: três estados e a comporta de inativação
+       2.2 Canal K voltagem: mais lento, sem inativação
+       2.3 Cinética do PA passo a passo: a coreografia Na/K
+  PARTE III -- Refratariedade, codificação por frequência e mielinização
+       3.1 Refratários absoluto e relativo: o legado da inativação
+       3.2 Segmento inicial do axônio e codificação por frequência
+       3.3 Mielinização, capacitância e condução saltatória
+
+RESUMINDO (1 PÁGINA)
+
+       8 seções enxutas, duas colunas
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+       8 Consolidação · 17 Integração · 5 Aplicação (profundidade PROFUNDA)
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+       Mecanísticas; Q5 identifica erro conceitual
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Selecionadas do banco UC01; gabarito inline
+
+GABARITO CONSOLIDADO DA ETAPA 2
+
+       Penúltima seção
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Imagine um neurônio sensorial no seu pé. O receptor de pressão na ponta do dedo detecta
+    que você pisou em algo, gera uma pequena despolarização, e essa informação precisa subir um
+    metro inteiro até chegar ao encéfalo -- sem perder amplitude, sem se diluir no caminho. Se
+    o sinal viajasse simplesmente como uma corrente passiva pela membrana, ele não chegaria: a
+    cada milímetro, a capacitância da membrana o engole e a resistência do axoplasma o vaza. A
+    solução evolutiva é o potencial de ação (PA1): em vez de "transmitir" o sinal, reescrevê-lo a cada
+    micrômetro, fazendo com que cada pedaço de membrana regenere o sinal localmente. Esta aula
+    desmonta o PA em três níveis. Primeiro, por que ele tem que existir -- o limite físico da condução
+    eletrotônica e a invenção da regeneração ativa (PARTE I). Depois, como ele funciona molecular
+    mente -- a coreografia entre canais de Na voltagem (três estados, comporta de inativação) e
+    canais de K voltagem (lento, sem inativação), e a cinética passo a passo do PA (PARTE II). Por
+    fim, as consequências fisiológicas e clínicas -- refratariedade que garante propagação unidi
+    recional, codificação por frequência no segmento inicial, mielinização e condução saltatória, e
+    três síndromes que caem direto do mecanismo (esclerose múltipla, Guillain-Barré, hipocalcemia)
+    (PARTE III). Vamos começar pela pergunta que ainda ficou em aberto desde o resumo sobre
+    potencial de repouso: por que precisamos do PA, e não apenas de uma corrente vazando pela
+    membrana?
+
+PARTE I -- Por que o PA existe: o limite da condução
+
+eletrotônica
+
+1.1 -- Recap rápido: como a corrente decai no espaço e no tempo
+Antes de entrar no PA, vamos lembrar -- sem refazer a derivação -- como uma corrente injetada em um
+pedaço de membrana se comporta no espaço e no tempo. Quando você injeta uma pequena corrente
+em um ponto qualquer da membrana de um axônio, duas coisas competem pela carga. A capacitância da
+membrana (Cm2) "engole" a primeira fração da corrente -- funciona como um capacitor, armazenando
+carga nas duas faces da bicamada. E a resistência da membrana (Rm3) deixa que parte da corrente
+vaze para o meio extracelular através dos canais de vazamento. O resultado é uma carga elétrica que se
+espalha decaindo exponencialmente no espaço (com constante constante de espaço4 ) e carregando
+
+   1PA ­ potencial de ação -- onda de despolarização autopropagada ao longo do axônio, deflagrada quando o potencial
+de membrana cruza o limiar ( -55 mV).
+
+   2Cm ­ capacitância de membrana -- propriedade da bicamada lipídica de armazenar carga elétrica como um capacitor;
+1 µF/cm² em membrana nua.
+
+   3Rm ­ resistência de membrana -- propriedade da bicamada de impedir o vazamento de íons; depende da densidade
+de canais de vazamento abertos no repouso.
+
+   4constante de espaço ­ distância na qual a despolarização cai a 1/e ( 37%) do valor inicial; depende de Rm e Ri. Em
+axônio fino sem mielina,  é da ordem de poucos mm.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+lentamente no tempo (com constante de tempo constante de tempo5  = Rm · Cm).
+Vm6 mV7 ATP8
+
+A condução eletrotônica decai exponencialmente no espaço. À direita, o gráfico mostra que V no ponto x é dado por
+V(x) = Vmáx · e-x/. Em uma distância igual a , o potencial caiu para 37% do valor inicial; em 3, está em 5%. Em um
+axônio amielínico fino,  é de poucos milímetros -- muito menor que o metro que o sinal precisa percorrer do pé ao
+tálamo. Por isso, sem regeneração ativa, o sinal nunca chegaria.
+
+A constante de espaço  depende de duas resistências em razão: a da membrana (Rm) e a do axoplasma
+(Ri). A fórmula é  = (Rm/Ri) -- quanto maior a resistência da membrana (menos vazamento) e
+menor a resistência axoplasmática (citoplasma mais condutor), maior o alcance espacial. É por isso
+que axônios gigantes (como o do lula, 1 mm de diâmetro) conduzem melhor mesmo sem mielina: o
+diâmetro maior reduz Ri. E é por isso que a mielina -- que veremos no fim -- funciona aumentando
+Rm e diminuindo Cm.
+
+   5constante de tempo ­ tempo necessário para a despolarização atingir 63% do valor final, igual ao produto Rm × Cm.
+Quanto maior, mais lenta a resposta da membrana.
+
+   6Vm ­ potencial de membrana -- diferença de potencial elétrico entre o interior e o exterior da célula, expressa em mV;
+no repouso, -70 mV em neurônios.
+
+   7mV ­ milivolt -- milésimo de volt; unidade padrão para Vm.
+   8ATP ­ adenosina trifosfato -- moeda energética da célula; usada pela Na/K-ATPase para bombear íons contra o
+gradiente.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Visão geral do axônio em repouso e em propagação. À esquerda, o segmento está em repouso, com cargas positivas
+fora e negativas dentro -- distribuição uniforme. À direita, uma pequena despolarização local (a "+" no centro) gera
+correntes que se espalham para os dois lados, mas decaem exponencialmente com a distância. Sem regeneração
+ativa, o sinal morre antes de chegar ao destino.
+
+   Resumindo até aqui: Eletrotônica decai exponencialmente: V(x) = Vmáx · e-x/, com  = (Rm/Ri). Em
+   axônios finos sem mielina,  é de poucos mm. Cm engole a primeira corrente como capacitor; Rm vaza o
+   resto pelos canais de fuga. O sinal puramente passivo não chega ao terminal.
+
+1.2 -- Onde a eletrotônica falha: a capacitância como obstáculo
+Vamos olhar com mais cuidado o que a capacitância faz com a corrente injetada. Imagine que você dá
+uma estimulação elétrica de +10 mV em um ponto da membrana, num tempo t = 0. A corrente injetada
+(chamada im, corrente de membrana) se divide em duas vias paralelas. Uma parte (iC) carrega o capac
+itor -- ou seja, acumula cargas positivas na face interna da membrana e separa cargas negativas na
+face externa, sem que essas cargas atravessem a bicamada. Outra parte (iR) atravessa a membrana de
+fato, passando pelos canais de vazamento abertos no repouso, e vai para o meio extracelular.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O modelo elétrico básico da membrana. À direita, o circuito equivalente: a membrana é um capacitor (C) em paralelo
+com uma resistência (Rm). Quando uma corrente im é injetada, ela se divide em iC (carrega o capacitor -- sem
+atravessar a bicamada) e iR (atravessa via canais de fuga). É a relação entre essas duas correntes ao longo do tempo
+que define como V se desenvolve.
+Ri9
+No primeiro instante após o estímulo, quase toda a corrente vai carregar o capacitor -- ou seja, im  iC, e
+iR  0. Isso significa que nenhuma variação de potencial ocorre ainda: a corrente está separando cargas
+nas duas faces da membrana, mas isso por si só ainda não mudou a diferença de potencial (porque o
+capacitor está carregando, não foi descarregado). Só depois que o capacitor começa a se carregar é que
+a tensão começa a subir, e a partir daí iR pode passar pelos canais. Esse atraso é o  = Rm · Cm: o tempo
+característico para o capacitor atingir 63% da carga final.
+
+   9Ri ­ resistência axoplasmática -- resistência interna do citoplasma do axônio à passagem de corrente; depende do
+diâmetro e da composição iônica.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+t = 1 (logo após o estímulo). Vm subiu pouco (de -70 para -69 mV). Quase toda a corrente injetada vai para iC (carregar
+o capacitor); iR mal começou a passar. A capacitância "atrasa" a resposta -- Cm engole a primeira fração da corrente.
+
+t = 3 (próximo do platô). Agora o capacitor está quase totalmente carregado, iC  0 (já não está separando mais
+cargas), e iR domina -- a corrente atravessa a membrana pelos canais resistivos. Vm já está em -60 mV. Quando o
+capacitor enche, a corrente passa a vazar e a tensão estabiliza.
+
+Esse atraso da capacitância tem uma consequência importante: a velocidade do sinal passivo é baixa,
+porque Cm precisa ser carregada antes que V apareça. Em distâncias longas, isso se torna proibitivo
+-- mesmo que o sinal eventualmente chegue, ele chega tarde demais e com amplitude residual abaixo
+do limiar de qualquer canal de amplificação. É por isso que axônios precisam de Rm alta (segura a
+corrente perto, evita vazamento) e Cm baixa (não engole muita corrente como capacitor). A mielina, que
+vamos ver em 3.3, faz exatamente as duas coisas.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Cm "engole" a primeira corrente injetada como capacitor, atrasando a resposta da
+membrana com constante de tempo  = Rm · Cm. Em distâncias longas, o sinal eletrotônico chega tarde
+demais e com amplitude abaixo do limiar. Por isso a evolução precisou de um mecanismo que regenere
+o sinal ativamente a cada m de axônio -- o PA.
+
+1.3 -- A solução: amplificação ativa por canais voltagem-dependentes
+A solução evolutiva é elegante: deixar a membrana ter canais que abrem em resposta à própria volt
+agem. Se a corrente eletrotônica de um ponto X chega ao ponto Y abaixo do limiar, não acontece nada
+-- o sinal morre. Mas se chega acima do limiar (cerca de -55 mV), abre uma população local de canais
+de Na voltagem-dependentes10 na membrana -- e Na entra em massa, despolarizando ainda mais o
+ponto Y. Esse Na que entrou regenera o sinal ativamente, gerando uma nova corrente eletrotônica que
+viaja para Z, abre novos canais lá, e assim por diante.
+
+Na+11 K+12
+
+A condução eletrotônica isolada não chega ao terminal. O slide arquetípico do RDP: se o sinal viajasse apenas como
+corrente passiva, decairia exponencialmente e nunca atingiria o terminal do axônio. A "V" no eixo vertical indica a
+amplitude -- repare que ela morre ao longo do trajeto. A solução é colocar, em pontos sucessivos do axônio, zonas
+que regeneram o sinal. Isso é o PA.
+
+O PA é, portanto, uma invenção biofísica para vencer a distância. Em vez de "transmitir" o sinal de A a B
+(o que seria impossível pela física da membrana), a célula regenera o sinal a cada micrômetro, deixando
+
+   10canais de Na voltagem-dependentes ­ canais iônicos cujo poro abre quando o potencial de membrana despolariza
+além de um limiar ( -55 mV). Permitem influxo passivo de Na a favor do gradiente eletroquímico, despolarizando ainda
+mais a membrana -- um circuito de retroalimentação positiva.
+
+   11Na+ ­ íon sódio -- cátion principal do meio extracelular, em concentração de 140 mM fora e 10 mM dentro da célula;
+ENa  +60 mV.
+
+   12K+ ­ íon potássio -- cátion principal do meio intracelular, em concentração de 140 mM dentro e 4 mM fora da célula;
+EK  -90 mV.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+que cada pedaço de membrana excitável crie uma nova despolarização local. O custo é energético -- todo
+PA deixa um pouco de Na a mais dentro e K a mais fora, que a Na/K-ATPase precisa bombear de volta.
+Mas o benefício é gigantesco: o sinal chega ao terminal com amplitude máxima, sem decaimento, sem
+perda. É um sistema digital sobreposto a um substrato analógico.
+
+Visão clássica do PA propagando ao longo do axônio. A despolarização local abre canais de Na voltagem; o influxo
+de Na regenera o sinal, que se propaga adiante. Cada ponto do axônio "reescreve" o sinal em vez de simplesmente
+passar a corrente.
+
+Curva clássica do PA. No eixo X, tempo; no eixo Y, potencial de membrana. Repare na brusca subida (upstroke)
+quando Vm cruza o limiar de -55 mV -- daí o nome "tudo ou nada". O pico fica perto de +30 mV, depois há a descida
+(downstroke), um undershoot (hiperpolarização abaixo do repouso) e o retorno a Vm de repouso. Cada etapa tem
+uma assinatura molecular diferente, que vamos desmontar na PARTE II.
+
+                                                                                 9
+NEBLI       ETAPA 1 -- TEXTO DIDÁTICO
+
+ENa13 EK14
+
+O limiar (-55 mV) tem um significado biofísico preciso: é o ponto da curva Vm onde a corrente de Na
+entrando ultrapassa a corrente de K saindo. Abaixo dele, o K "ganha" a competição e o Vm volta para
+o repouso (a despolarização eletrotônica simplesmente decai). Acima dele, o Na "ganha", e a membrana
+entra em um circuito de retroalimentação positiva: mais Na entra  mais despolarização  mais
+canais Na abrem  ainda mais Na entra. É essa retroalimentação que torna o PA "tudo ou nada".
+
+Limiar não é Vm de equilíbrio
+
+É comum confundir e achar que limiar é o ponto onde "alguma coisa nova acontece" -- como se
+fosse um valor mágico de voltagem. Não é. O limiar é o ponto onde a corrente de Na entrando
+supera a corrente de K saindo. Abaixo de -55 mV, o K ainda domina; acima, o Na assume. É um
+equilíbrio dinâmico entre duas correntes opostas, não uma propriedade fixa da membrana. Por
+isso o limiar pode mudar: se a célula está em hipocalcemia, ele desce (S4 mais "solto"); se está em
+hiperpolarização sustentada, alguns Na se recuperam da inativação e o limiar também desce.
+
+Resumindo até aqui: A solução evolutiva é regenerar o sinal localmente: canais de Na voltagem abrem
+quando Vm cruza -55 mV, deixam Na entrar, e despolarizam ainda mais. Esse circuito de retroalimen
+tação positiva é o que torna o PA "tudo ou nada". O limiar é onde a corrente de Na entrando supera a de
+K saindo -- não é um valor mágico, é uma competição dinâmica.
+
+   13ENa ­ potencial de equilíbrio do Na -- voltagem na qual o fluxo líquido de Na é zero; +60 mV, calculado pela equação
+de Nernst.
+
+   14EK ­ potencial de equilíbrio do K -- voltagem na qual o fluxo líquido de K é zero; -90 mV.
+
+                                                                                10
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Mecanismo molecular do PA: canais Na e K
+
+voltagem
+
+2.1 -- Canal de Na voltagem: três estados e a comporta de inativação
+Vamos abrir o canal de Na voltagem-dependente. Estruturalmente, é uma proteína única que atravessa
+a membrana com quatro domínios homólogos (chamados de I, II, III e IV). Cada domínio tem seis
+segmentos transmembranares (S1-S6), e o S4 de cada domínio é positivamente carregado (rico em
+argininas e lisinas). Esse S4 é o sensor de voltagem: quando a membrana está em repouso (-70 mV), o
+S4 está "puxado para dentro" pelo potencial negativo interno; quando despolariza, o S4 desliza para
+fora, e esse movimento mecânico abre a comporta de ativação (chamada de comporta m).
+
+Canal de Na voltagem nos estados fechado e aberto. À esquerda, repouso (-70 mV): a comporta de ativação (em
+vermelho) está fechada, o poro impermeável. À direita, despolarização ( -40 mV): o S4 deslizou para fora, a comporta
+abriu, e o Na pode atravessar. Repare que existe uma segunda comporta -- a comporta de inativação -- que vamos
+ver no próximo slide.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Anatomia funcional do canal de Na voltagem. Quatro partes-chave: (1) alça do poro -- região que reveste o canal
+por dentro; (2) filtro de seletividade -- anel de aminoácidos que só deixa Na passar (bloqueado por TTX15); (3) sensor
+de voltagem (S4, positivo) -- desliza para fora quando despolariza; (4) comporta de ativação (m) -- abre com o
+movimento do S4. A comporta de inativação (não mostrada aqui) é uma alça citoplasmática separada, que cai sobre
+o poro quando o canal está aberto há 1 ms.
+Aqui está a sacada que muitos alunos perdem: o canal de Na voltagem tem TRÊS estados, não dois.
+Não é só "fechado/aberto". A sequência irreversível é fechado  aberto  inativado  fechado. O
+estado inativado é uma terceira conformação onde o poro está fisicamente bloqueado, mas não pelo
+mecanismo de ativação. É bloqueado pela comporta de inativação (chamada de comporta h), uma alça
+citoplasmática que "bate" sobre o poro a partir de dentro, cerca de 1 ms depois do canal abrir.
+
+   15TTX ­ tetrodotoxina -- toxina do baiacu que bloqueia o filtro de seletividade do canal de Na voltagem do axônio (mas
+não do canal cardíaco). Dose letal em humanos: 1 mg.
+
+                                                                                12
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Os três estados do canal de Na voltagem em sequência. (1) Fechado: Vm em repouso, comporta de ativação fechada,
+comporta de inativação aberta. (2) Aberto: despolarização abriu m, mas h ainda não caiu -- janela de fluxo de Na.
+(3) Inativado: h caiu sobre o poro, bloqueando -- Na não passa, mesmo com m ainda aberta. A volta a fechado só
+acontece com repolarização sustentada -- h sobe primeiro, depois m fecha. F  A  I  F é unidirecional.
+
+A diferença entre fechado e inativado é crucial. No estado fechado, a comporta de ativação está fechada
+-- mas o canal está pronto para abrir se Vm subir. No estado inativado, a comporta de inativação está
+fechada -- e o canal NÃO responde a estímulos, por mais fortes que sejam. A única forma de sair do
+inativado é repolarizar e esperar (cerca de 5 ms). É essa diferença que vai gerar o período refratário
+absoluto -- vamos ver em 3.1.
+
+       13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Curva temporal do PA com os estados do canal de Na sobrepostos. No upstroke (limiar a pico), os canais abrem e
+Na entra. No pico, o canal já começou a inativar (comporta h cai). Durante a descida e o undershoot, os canais estão
+inativados -- é por isso que não dá para gerar um novo PA durante esse período. Só depois do retorno ao repouso é
+que os canais voltam ao estado fechado (capazes de abrir de novo).
+
+   Resumindo até aqui: Canal Na voltagem tem 3 estados: fechado  aberto  inativado  fechado. O
+   S4 (sensor positivo) abre a comporta m (ativação) com despolarização. 1 ms depois, a comporta h (inati
+   vação) cai sobre o poro pelo lado citoplasmático. Inativado  fechado: inativado não responde a estímulo;
+   fechado responde. TTX bloqueia o filtro do poro; o canal cardíaco tem subtipo diferente, resistente a TTX.
+
+2.2 -- Canal de K voltagem: mais lento, sem inativação
+O canal de K voltagem-dependente tem o mesmo princípio do canal de Na -- sensor S4 carregado
+positivo, despolarização desloca S4, abre comporta -- mas com cinética muito mais lenta ( 10× mais
+lenta que o Na) e sem a comporta de inativação rápida. É essa diferença de tempo entre os dois canais
+que vai esculpir a forma do PA.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Anatomia do canal de K voltagem. Estrutura semelhante ao Na -- filtro de seletividade, sensor de voltagem (S4),
+comporta de ativação. Diferenças principais: (a) o filtro só deixa K passar; (b) não existe comporta de inativação
+rápida -- o canal permanece aberto enquanto Vm permanecer despolarizado; (c) a abertura é lenta -- leva milis
+segundos para a maioria dos canais abrirem após a despolarização. É essa lentidão que cria a "janela" para o PA
+acontecer.
+
+Mecanismo de abertura do canal de K voltagem (modelo de "alavanca"). O S4 carregado positivo desliza para fora
+quando Vm despolariza, e esse movimento mecânico empurra uma "alavanca" intracelular que abre a comporta de
+ativação. Sem comporta de inativação -- o canal só fecha quando Vm volta ao repouso e o S4 retorna ao seu lugar
+original.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O fato de o canal de K não ter inativação rápida tem consequências importantes. Enquanto a membrana
+está despolarizada, o K continua saindo (a favor do seu gradiente eletroquímico, em direção a EK =
+-90 mV). Isso significa que o K não só repolariza a membrana, mas também a hiperpolariza tempo
+rariamente -- gerando o famoso undershoot do PA (Vm cai abaixo do repouso, próximo a -80 mV). Só
+quando Vm volta para perto do repouso é que os canais de K começam a fechar, e Vm sobe de volta para
+-70 mV. Esse vale abaixo do repouso recebe um nome próprio: undershoot16 -- a hiperpolarização pós-
+PA que é a base biofísica do refratário relativo.
+
+Cinética temporal do canal de K comparada ao PA. Durante o limiar e o upstroke, o K ainda está fechado (lento
+demais para acompanhar). No pico, K começa a abrir significativamente. Durante a descida, K está totalmente
+aberto -- é ele que repolariza. No undershoot, K ainda permanece aberto, puxando Vm em direção a EK. No retorno
+ao repouso, K finalmente fecha.
+
+   Resumindo até aqui: Canal K voltagem usa o mesmo S4, mas é 10× mais lento que Na e não tem
+   inativação rápida. Fica aberto enquanto Vm estiver despolarizado, puxando Vm em direção a EK =
+   -90 mV. Repolariza a membrana e gera o undershoot. O retorno ao repouso só acontece quando o K
+   finalmente fecha (de volta ao seu estado conformacional de repouso).
+
+2.3 -- Cinética do PA passo a passo: a coreografia Na/K
+Agora vamos juntar os dois canais e percorrer o PA momento a momento. Esta é a sequência canônica
+que o slide do RDP anima em 10 frames -- vou amarrar cada passo a uma figura específica. A regra
+geral: o Na é rápido e dispara primeiro; o K é lento e chega atrasado; ambos dependem da voltagem. É
+o atraso temporal entre eles que gera a forma característica do PA.
+
+   16undershoot ­ hiperpolarização transitória ao final do PA, em que Vm cai abaixo do potencial de repouso ( -80 mV),
+porque os canais de K voltagem ainda estão abertos e puxam Vm em direção a EK = -90 mV. Termina quando os canais
+de K finalmente fecham.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estado de repouso (Vm = -70 mV). Os canais de K passivos (canais de vazamento) estão abertos -- são eles que
+mantêm o repouso, deixando K sair em direção a EK. Os canais de Na voltagem (vermelhos) estão fechados; os
+canais de K voltagem (azuis) também estão fechados. Nenhuma corrente líquida -- Vm estável.
+
+Limiar (Vm  -55 mV). Uma corrente eletrotônica vinda de um ponto vizinho conseguiu despolarizar a membrana
+até o limiar. Os primeiros canais de Na voltagem se abrem -- e Na começa a entrar. A entrada de Na despolariza
+ainda mais a membrana, abrindo mais canais Na -- circuito de retroalimentação positiva ativado. A partir daqui,
+o processo é "tudo ou nada".
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Upstroke (Vm passa de 0 mV, segue rumo ao pico). A maioria dos canais Na está aberta. Na entra em massa, puxando
+Vm em direção a ENa (+60 mV). Os canais K voltagem (azuis) já começaram a abrir, mas ainda em quantidade
+pequena. Domínio da corrente de Na entrando.
+
+Pico (Vm  +30 mV). Vm está perto, mas não atinge, ENa = +60 mV. Por dois motivos simultâneos: (1) os canais
+de K voltagem já estão abrindo em quantidade significativa -- K saindo puxa Vm de volta; (2) os canais de Na
+começaram a inativar (comporta h caindo) -- Na entrando diminui. No pico, as duas correntes se igualam momen
+taneamente -- daí a inversão da curva.
+
+Repare na nuance: o pico do PA NÃO chega a ENa. Isso é uma confusão clássica. ENa é o ponto onde Vm
+anularia o fluxo líquido de Na -- uma propriedade limite teórico. Mas o PA é um processo dinâmico:
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+enquanto Na ainda está entrando, o K já começou a sair e o Na já começou a inativar. No pico, as três
+coisas se equilibram momentaneamente -- e Vm vira, descendo de novo.
+
+Downstroke (Vm desce de +30 para 0 mV). Os canais de Na estão majoritariamente inativados (h fechada). Na não
+entra mais. Os canais de K voltagem estão totalmente abertos -- K sai em massa em direção a EK. Domínio da
+corrente de K saindo.
+
+Undershoot (Vm  -80 mV). Vm caiu abaixo do repouso -- porque os canais de K voltagem ainda estão abertos, e
+estão puxando Vm em direção a EK (que é mais negativo que Vm de repouso). Os canais de Na estão lentamente
+saindo do estado inativado para o estado fechado. Esta é a fase de hiperpolarização -- base do período refratário
+relativo.
+
+                                                                               19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Retorno ao repouso (Vm = -70 mV). Os canais de K voltagem terminaram de fechar; os canais de Na terminaram de
+voltar ao estado fechado (prontos para abrir de novo, se um novo estímulo chegar). A membrana voltou ao estado
+inicial -- a Na/K-ATPase trabalha em ritmo basal para restaurar os pequenos desvios de gradiente que o PA causou.
+
+    Na/K-ATPase NÃO faz o PA -- só restaura o gradiente
+    Esta é uma das confusões mais comuns. A bomba Na/K-ATPase17 não participa do PA -- ela
+    trabalha em ritmo basal o tempo todo, bombeando 3 Na para fora e 2 K para dentro contra
+    os gradientes. O que faz o PA são os canais voltagem-dependentes, que abrem e fecham
+    passivamente (íons descem o gradiente, nada custa ATP no momento). Apenas depois do PA,
+    a bomba precisa trabalhar um pouquinho a mais para restaurar os gradientes -- mas isso é a
+    longo prazo, não acontece em milissegundos. Curiosidade: um único PA muda menos de 0,01%
+    da concentração intracelular de Na ou K. A célula pode disparar milhares de PAs sem mexer
+    apreciavelmente nos gradientes.
+
+   Resumindo até aqui: Sequência do PA: repouso  limiar (-55 mV, Na começa)  upstroke (Na in
+   regenerativo)  pico (+30 mV, Na inativando + K abrindo)  downstroke (Na inativado, K aberto) 
+   undershoot (-80 mV, K ainda aberto puxando para EK)  repouso (K fecha). A Na/K-ATPase não faz o
+   PA -- restaura o gradiente depois, em ritmo basal. Cada PA muda <0,01% da [Na] e [K] intracelular.
+
+   17Na/K-ATPase ­ bomba transportadora ativa primária presente em toda a membrana plasmática; usa hidrólise de
+ATP para bombear 3 Na para fora e 2 K para dentro contra seus gradientes eletroquímicos. Responsável por manter os
+gradientes que sustentam o potencial de repouso.
+
+                                                                                20
+NEBLI         ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Refratariedade, codificação por frequência e
+
+mielinização
+
+3.1 -- Refratários absoluto e relativo: o legado da inativação
+A comporta de inativação (h) do Na voltagem, que vimos em 2.1, tem uma consequência fisiológica
+gigante: imediatamente depois de um PA, a membrana não consegue disparar outro, mesmo se o
+estímulo for muito forte. Esse é o período refratário absoluto, e ele tem duração de cerca de 1-2 ms --
+o tempo que os canais Na levam para sair do estado inativado e voltar ao estado fechado.
+
+Período refratário absoluto. Logo após o pico, durante a descida e parte do undershoot, todos os canais de Na
+voltagem estão no estado inativado (h fechada). Nesse intervalo, nenhum estímulo dispara PA, por mais forte que
+seja -- não há canais Na disponíveis para abrir. Duração 1-2 ms. O refratário absoluto é uma propriedade molecular
+do canal, não um "cansaço" da membrana.
+Logo depois vem o período refratário relativo, que dura mais alguns milissegundos. Nesse intervalo,
+parte dos canais de Na já recuperou (saiu do inativado e voltou ao fechado), mas dois fatores ainda
+atrapalham: (1) parte dos canais de K voltagem ainda está aberta, segurando Vm hiperpolarizado e
+puxando-o para EK; (2) o restante dos canais de Na ainda está inativado, então a densidade de canais
+disponíveis para abrir é menor. Resultado: é possível disparar um novo PA, mas só com estímulo
+maior.
+
+                                                                                21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Período refratário relativo. No final do undershoot, parte dos canais Na já voltou ao estado fechado (disponíveis),
+mas (a) os K voltagem ainda estão abertos, segurando Vm hiperpolarizado; (b) só parte dos Na recuperou. Resul
+tado: o limiar está elevado (precisa de V maior -- no exemplo do slide, V = 25 em vez de V = 15). PA é possível,
+mas exige estímulo mais forte.
+
+    Refratário absoluto não vem de "ATP esgotado"
+    Outra confusão clássica: aluno acha que o refratário absoluto vem de "a célula precisa repor
+    energia". Não é isso. O refratário absoluto vem exclusivamente da comporta de inativação do
+    canal de Na -- uma propriedade molecular do canal, não metabólica. A Na/K-ATPase trabalha em
+    ritmo basal o tempo todo e não esgota depois de um PA. O canal precisa de tempo para recuperar
+    a conformação fechada, e esse tempo é o refratário absoluto.
+A consequência fisiológica mais importante do refratário é a propagação unidirecional. Quando um
+PA acontece num ponto X do axônio, ele despolariza eletrotonicamente as duas regiões adjacentes --
+X+1 e X-1. Mas X-1 acabou de gerar o PA que chegou aqui, então seus canais Na estão inativados --
+não há como o sinal voltar para trás. Já X+1 está com canais Na ainda fechados (prontos para abrir),
+então o PA prossegue adiante. O refratário é o mecanismo molecular que garante: o PA só viaja em um
+sentido.
+
+                                                                                22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Propagação unidirecional ao longo do axônio. No ponto X, um PA acabou de acontecer; canais Na estão inativados.
+Em X+1, os canais Na ainda estão fechados (capazes de abrir) -- o PA segue para frente. Em X-1, já passou -- não há
+nada para reabrir. A direção é dada pela história recente da membrana, não por uma "polaridade" do axônio.
+
+   Resumindo até aqui: Refratário absoluto = todos os Na voltagem inativados  nenhum PA possível,
+   por mais forte que o estímulo ( 1-2 ms). Refratário relativo = parte dos Na recuperou + K voltagem
+   ainda aberto  limiar elevado, mas PA possível com estímulo maior ( 3-5 ms). Consequência fisiológica:
+   o PA só viaja em uma direção, porque o segmento atrás está sempre em refratário absoluto. A direção é
+   molecular, não geométrica.
+
+3.2 -- Segmento inicial do axônio e codificação por frequência
+Onde, exatamente, o PA nasce? Não é em qualquer ponto da membrana neuronal -- é em uma região
+específica chamada segmento inicial do axônio (AIS18). Essa região, logo depois do cone de inserção,
+tem densidade altíssima de canais de Na voltagem -- cerca de 100-1000× maior que em outros pontos
+da célula. É o ponto de menor limiar de toda a célula.
+
+   18AIS ­ axon initial segment -- segmento inicial do axônio, primeiros 20-50 µm logo após o cone de inserção. Tem
+densidade altíssima de canais de Na voltagem; é o local onde os PAs são iniciados em neurônios.
+
+                                                                                23
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Da árvore dendrítica ao segmento inicial. Os dendritos e o corpo celular recebem milhares de PEPS19 e PIPS20 -- sinais
+analógicos somados de forma espacial e temporal. Esses sinais viajam eletrotonicamente (decaindo) em direção ao
+corpo. Quando atingem o segmento inicial, com sua densidade altíssima de canais Na, é ali que o limiar é mais
+baixo. Se a soma dos PEPS bate o limiar no AIS, nasce um PA. O AIS é o "tomador de decisão" do neurônio.
+A partir do AIS, o PA se propaga ortodromicamente (sentido normal -- em direção ao terminal) --
+mas também antidromicamente por um curto trecho, em direção ao corpo. Isso ressincroniza a árvore
+dendrítica para a "decisão" tomada. Mas o impulso útil vai adiante -- ao longo do axônio, até o terminal
+pré-sináptico.
+Agora a pergunta importante: como o sinal codifica a intensidade do estímulo, se o PA é "tudo ou nada"?
+Por exemplo, se você pisa num prego, como o neurônio sensorial avisa o tálamo se o prego é grande
+ou pequeno?
+
+   19PEPS ­ potencial excitatório pós-sináptico -- pequena despolarização local da membrana pós-sináptica produzida
+por entrada de Na.
+
+   20PIPS ­ potencial inibitório pós-sináptico -- pequena hiperpolarização ou estabilização da membrana pós-sináptica,
+produzida por entrada de Cl ou saída de K.
+
+                                                                                24
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Codificação por frequência. O PA é sempre da mesma amplitude (tudo ou nada). O que muda com a intensidade do
+estímulo é a frequência de PAs -- número de PAs por segundo. Estímulo fraco  poucos PAs (10/s). Estímulo médio 
+frequência intermediária (50/s). Estímulo forte  frequência alta (até 200-500/s, limitada pelo refratário absoluto).
+A informação está no padrão temporal, não na amplitude.
+
+A resposta é elegante: o estímulo mais forte gera PAs com mais frequência, não com mais amplitude.
+Cada PA é exatamente igual -- sobe ao mesmo pico, dura o mesmo tempo. Mas se o estímulo for grande,
+o neurônio dispara muitos PAs por segundo (até o limite imposto pelo refratário absoluto -- cerca de
+500 Hz). Se for pequeno, dispara poucos. O sistema nervoso codifica intensidade em frequência -- é
+um código digital de frequência sobre um substrato analógico de membrana.
+
+    Intensidade NÃO altera amplitude do PA
+
+    É comum imaginar que um estímulo "forte" produz um PA maior. Não é. O PA é tudo ou nada
+    -- ou existe (sempre da mesma forma) ou não existe. O que varia é a frequência com que os PAs
+    são disparados. Um estímulo abaixo do limiar gera nenhum PA. Um estímulo que cruza o limiar
+    minimamente gera 5-10 PAs/s. Um estímulo muito forte gera centenas de PAs/s. Intensidade 
+    frequência. Amplitude do PA é fixa.
+
+   Resumindo até aqui: O AIS (primeiros 20-50 µm do axônio) tem densidade altíssima de Na voltagem
+    é o ponto de menor limiar da célula  é onde o PA nasce. A intensidade do estímulo é codificada em
+   frequência de PAs (até 500 Hz, limitada pelo refratário absoluto), não em amplitude. Sistema digital de
+   frequência sobre substrato analógico de membrana.
+
+3.3 -- Mielinização, capacitância e condução saltatória
+
+                                                                                25
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Vimos em 1.1 que  depende de Rm e Ri. O sistema nervoso dos vertebrados conseguiu uma engenharia
+espetacular para aumentar  e diminuir  ao mesmo tempo: a mielinização. A mielina é uma bainha
+lipídica de muitas voltas que células gliais (oligodendrócitos no SNC, células de Schwann no SNP)
+enrolam ao redor do axônio, deixando intervalos curtos sem cobertura -- os nodos de Ranvier21.
+
+SNC22 SNP23
+
+ Mielinização: SNC × SNP. No SNC (à esquerda), um único oligodendrócito manda prolongamentos que envolvem
+ vários axônios diferentes. No SNP (à direita), uma célula de Schwann envolve um único axônio em muitas voltas,
+ formando uma bainha espessa. Entre as células gliais ficam os nodos de Ranvier -- pontos descobertos onde a
+ membrana axonal fica diretamente exposta ao meio extracelular e concentra canais de Na voltagem.
+
+A mielina age como isolante elétrico. Ela tem duas consequências biofísicas importantes. Primeiro,
+ela aumenta drasticamente Rm nos intervalos internodais -- porque agora o vazamento iônico através
+da membrana é minúsculo (a bainha lipídica é praticamente impermeável). Segundo, ela diminui Cm
+-- porque a capacitância depende da distância entre as duas placas (face interna e face externa da
+membrana funcional), e a mielina afasta essas placas, separando-as por muitas camadas lipídicas.
+
+   21nodos de Ranvier ­ regiões descobertas de membrana axonal entre células gliais formadoras de mielina, espaçadas
+de 1-2 mm. Têm densidade altíssima de canais de Na voltagem (cerca de 1000-2000 por µm²) e são os pontos onde o PA é
+regenerado durante a condução saltatória.
+
+   22SNC ­ sistema nervoso central -- encéfalo e medula espinhal. Mielinização feita pelos oligodendrócitos.
+   23SNP ­ sistema nervoso periférico -- nervos craniais e espinhais fora do SNC. Mielinização feita pelas células de
+Schwann.
+
+                                                                                26
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Como a capacitância depende da geometria. Para um capacitor de placas paralelas, C = 0 · A / d, onde A é a área
+e d é a distância entre as placas. Quanto maior d, menor C. A mielina faz exatamente isso -- afasta as placas (face
+citoplasmática × face externa), aumentando d e diminuindo Cm. Para a mesma corrente, menos carga é "engolida"
+pelo capacitor -- mais corrente sobra para iR (atravessar a membrana e propagar).
+
+Comparação direta: axônio amielínico × mielinizado. À esquerda, axônio amielínico -- d1 pequeno, Cm grande. À
+direita, axônio mielinizado -- d2 grande, Cm pequena. A capacitância na região internodal cai drasticamente. O
+resultado é que menos corrente é gasta carregando o capacitor e mais corrente sobra para propagar adiante.
+
+                                                                              27
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Consequência sobre  e sobre velocidade. No axônio amielínico (acima), Cm grande + Rm menor   pequeno --
+o sinal eletrotônico decai rápido com a distância. No axônio mielinizado (abaixo), Cm pequena + Rm maior  
+grande -- o sinal eletrotônico viaja muito mais longe sem decair significativamente. A consequência prática é que o
+PA não precisa ser regenerado a cada m -- só nos nodos de Ranvier, espaçados de 1-2 mm.
+A consequência funcional é a condução saltatória. No axônio mielinizado, o PA só dispara nos nodos
+de Ranvier. Entre os nodos, a propagação é puramente eletrotônica -- porque  está enorme (graças
+à mielina) e o sinal viaja sem decair significativamente até o próximo nodo, onde então abre os Na
+voltagem locais e regenera o PA. Parece que o PA "salta" de nodo em nodo -- daí o nome "saltatória"
+-- mas o sinal passa por todos eles; só que a propagação entre eles é tão rápida que parece um salto.
+
+                                                                                28
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Condução saltatória nos nodos de Ranvier. Os nodos são pontos descobertos de membrana entre as células de
+Schwann (ou oligodendrócitos), espaçados de cerca de 1-2 mm. A densidade de canais Na voltagem é altíssima nos
+nodos -- fora deles, na bainha de mielina, praticamente não há canais. O PA regenera-se em cada nodo, e entre nodos
+a corrente viaja eletrotonicamente em microssegundos. Velocidade resultante: 50-120 m/s no axônio mielinizado vs
+1 m/s no não mielinizado.
+
+    "Saltatória" não significa que o sinal pula nodos
+    Outra confusão clássica. O sinal NÃO pula nodos. Ele passa por todos eles -- em cada nodo, o
+    PA regenera de novo. O que "salta" é a percepção temporal: como a propagação entre nodos é
+    puramente eletrotônica (microssegundos), e a regeneração do PA leva um pouco mais (milisse
+    gundos), parece que o PA pulou de nodo em nodo. Mas todos os nodos veem o PA. A "saltatória"
+    é uma descrição da forma macroscópica, não do mecanismo molecular.
+
+                                                                                29
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esclerose múltipla -- quando os oligodendrócitos são atacados
+
+Na esclerose múltipla (EM24), o sistema imune autoataca os oligodendrócitos no SNC. As bainhas
+de mielina são desfeitas em placas focais (visíveis na RM25 como placas em substância branca), e
+o resultado biofísico é direto: nos segmentos desmielinizados, Cm volta a ser grande e Rm volta
+a ser pequena --  desaba e  aumenta. A corrente eletrotônica não chega ao próximo nodo com
+amplitude suficiente para abrir os canais Na voltagem, e o PA simplesmente para -- bloqueio
+de condução. Clinicamente, isso aparece como déficit focal e flutuante: visão turva (se as placas
+estão nos nervos ópticos), fraqueza (medula espinhal), ataxia (cerebelo). A doença típica de mulher
+jovem, com surtos e remissões. O mecanismo é direto da biofísica da mielina -- quem entendeu
+a mielina entendeu a EM.
+
+Síndrome de Guillain-Barré -- desmielinização do nervo periférico
+
+Na síndrome de Guillain-Barré (GBS26), o ataque autoimune é contra a mielina das células de
+Schwann -- mesmo mecanismo biofísico da EM, mas no SNP. Tipicamente vem 10-14 dias
+após uma infecção gastrointestinal ou respiratória (Campylobacter jejuni é o gatilho clássico).
+Anticorpos contra epítopos do patógeno fazem reação cruzada com gangliosídeos da mielina
+periférica. Clínica: fraqueza ascendente simétrica, começa nos pés e sobe -- pode chegar aos
+músculos respiratórios e exigir ventilação mecânica. Na eletroneuromiografia, o achado clássico
+é bloqueio de condução: o nervo motor proximal não consegue propagar o estímulo ao músculo.
+Mesmo mecanismo biofísico da EM -- em outro tecido, com outra história clínica.
+
+Hipocalcemia e o sinal de Chvostek -- quando o limiar desce
+
+Pacientes em hipocalcemia (após tireoidectomia, pancreatite, insuficiência renal) frequente
+mente desenvolvem espasmos musculares involuntários, parestesias periorais e o famoso sinal
+de Chvostek (contração da face ao percutir o nervo facial). O mecanismo é biofísico: o Ca²
+extracelular tem um efeito de "estabilização" sobre o sensor S4 do canal de Na voltagem --
+chamado de efeito de screening eletrostático27. Quando o Ca² cai, o S4 fica mais "solto" -- desliza
+para fora com despolarizações menores. O resultado é que o limiar desce, os canais Na voltagem
+abrem com estímulos minúsculos, e a membrana fica hiperexcitável. Espasmos espontâneos,
+tetania, convulsões. O tratamento é repor cálcio (gluconato IV em casos agudos).
+
+   24EM ­ esclerose múltipla -- doença autoimune desmielinizante do SNC; placas inflamatórias destroem a mielina dos
+oligodendrócitos, gerando déficits neurológicos focais.
+
+   25RM ­ ressonância magnética -- exame de imagem que detecta as placas desmielinizantes da esclerose múltipla em
+substância branca.
+
+   26GBS ­ síndrome de Guillain-Barré -- polirradiculoneuropatia desmielinizante autoimune do SNP, frequentemente
+pós-infecciosa; fraqueza ascendente simétrica, melhora espontânea ou com imunoglobulina.
+
+   27efeito de screening eletrostático ­ o Ca² extracelular, sendo divalente, interage com cargas negativas próximas à
+face externa da membrana e ao sensor S4. Sua presença "estabiliza" o S4 no estado de repouso. Hipocalcemia reduz esse
+efeito, deixando o S4 mais "solto" para se mover.
+
+                                                                                30
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Mielina = bainha lipídica isolante  Rm + Cm   +   propagação
+eletrotônica rapidíssima entre nodos. O PA dispara apenas nos nodos de Ranvier (espaçados de 1-2 mm),
+e entre eles a corrente viaja eletrotonicamente. Velocidade: 50-120 m/s vs 1 m/s sem mielina. Desmielin
+ização (EM, Guillain) desfaz  e bloqueia a condução. Hipocalcemia desloca o limiar para baixo, gerando
+hiperexcitabilidade. A clínica derrama direto da biofísica.
+
+Conclusão integradora
+
+Vamos amarrar as três PARTES. A PARTE I respondeu à pergunta de partida: por que precisamos
+do PA. Porque o sinal eletrotônico decai exponencialmente no espaço (V(x) = Vmáx · e-x/) e a
+capacitância da membrana atrasa a resposta no tempo ( = Rm · Cm). Em distâncias longas, o sinal
+chega tarde demais e com amplitude abaixo do limiar. A solução foi inventar canais que abrem
+em resposta à própria voltagem, regenerando o sinal localmente. O limiar (-55 mV) é o ponto onde
+a corrente de Na entrando supera a corrente de K saindo -- não é um valor mágico.
+
+A PARTE II abriu a máquina molecular. O canal de Na voltagem tem três estados (fechado 
+aberto  inativado  fechado), com sensor S4 e comporta de inativação h. O canal de K voltagem
+tem o mesmo princípio, mas é 10× mais lento e não tem inativação rápida. É essa diferença
+temporal que esculpe a forma do PA: upstroke (Na regenerativo)  pico (Na inativando + K
+abrindo)  downstroke (K aberto + Na inativado)  undershoot (K ainda puxa para EK) 
+repouso (K fecha). A Na/K-ATPase não faz o PA -- restaura o gradiente em ritmo basal. Cada PA
+muda <0,01% das concentrações iônicas.
+
+A PARTE III ligou o mecanismo à fisiologia integrativa e à clínica. O refratário absoluto (Na
+inativados) garante propagação unidirecional. O refratário relativo (parte dos Na recuperou + K
+ainda aberto) permite codificação por frequência saturada em 500 Hz. O AIS é o ponto de menor
+limiar da célula -- onde o PA nasce. A mielina aumenta Rm e diminui Cm, gerando  enorme e
+condução saltatória (50-120 m/s vs 1 m/s). Quando a mielina é destruída (EM, Guillain),  desaba e
+o PA para de propagar. Quando o cálcio extracelular cai (hipocalcemia), o S4 fica "solto" e o limiar
+desce, gerando hiperexcitabilidade.
+
+A grande mensagem para guardar: o PA é uma invenção biofísica para vencer a distância. Em
+vez de transmitir o sinal (impossível pela física da membrana), a célula regenera o sinal a cada
+m -- usando canais voltagem-dependentes que abrem, inativam e fecham numa coreografia
+milissegundos. Toda a clínica do nervo (EM, Guillain, TTX, lidocaína, hipocalcemia) deriva dire
+tamente dos parâmetros desse mecanismo: o que muda Rm, o que muda Cm, o que muda o limiar,
+o que muda o estado dos canais. Quem entendeu a biofísica entendeu a clínica.
+
+       31
+NEBLI                                                   RESUMINDO
+
+   Resumindo
+
+Por que o PA existe: a eletrotônica falha               Canal Na voltagem tem 3 estados;
+em distâncias longas                                    comporta h faz o refratário
+
+Pensa comigo: o sinal de um receptor no                 Decora a sequência fechado  aberto  inativado
+seu pé precisa chegar ao tálamo, um metro                fechado e tudo encaixa. Em fechado, a
+acima. Se viajasse como corrente passiva, decairia      comporta de ativação (m) está fechada, mas o
+exponencialmente -- V(x) = Vmáx·e-x/, com               canal está pronto para abrir. Em aberto, o S4
+de poucos mm em axônio fino -- e morreria               deslizou para fora e Na entra. 1 ms depois,
+no caminho. Pior: a capacitância da membrana            a comporta de inativação (h) cai sobre o poro
+(Cm) "engole" a primeira corrente injetada como         pelo lado citoplasmático -- estado inativado: poro
+capacitor, atrasando a resposta com  = Rm·Cm.           fisicamente bloqueado, não responde a estímulo
+Soma das duas perdas: o sinal chega tarde demais        nenhum. A saída para fechado só com Vm de volta
+e com amplitude abaixo do limiar. A evolução            ao repouso. Inativado  fechado é o erro 1 do
+resolveu regenerando o sinal a cada m -- não            tema. TTX bloqueia o filtro do poro (axônio sim,
+transmitindo, reescrevendo -- usando canais de          cardíaco não -- outro subtipo). É a comporta h
+Na que abrem em resposta à própria voltagem.            que faz o refratário absoluto, e o refratário garante
+                                                        propagação unidirecional.
+Limiar = ponto onde corrente de Na
+entrando ultrapassa K saindo                            Canal K voltagem é 10× mais lento; sem
+                                                        inativação rápida
+O limiar ( -55 mV) não é um valor mágico nem uma
+"propriedade" da membrana. É o ponto da curva           O canal de K voltagem usa o mesmo princípio S4
+Vm onde a corrente de Na entrando ultrapassa            do Na, mas é 10× mais lento e não tem comporta
+a corrente de K saindo. Abaixo: o K "ganha"             de inativação rápida. Fica aberto enquanto Vm
+e Vm volta para o repouso (a despolarização             estiver despolarizado, puxando Vm em direção a
+eletrotônica decai). Acima: o Na "ganha" e entra        EK = -90 mV. Repolariza a membrana após o
+em retroalimentação positiva -- mais Na  mais           pico e gera o undershoot (Vm cai abaixo do
+despolarização  mais canais abrem  ainda mais           repouso, próximo a EK, porque os K ainda estão
+Na. É essa retroalimentação que torna o PA "tudo        abertos). O retorno ao repouso só acontece quando
+ou nada". O limiar pode mudar: em hipocalcemia,         os K finalmente fecham. Esse undershoot é a base
+ele desce (S4 mais solto, abre com despolarização       biofísica do refratário relativo: parte dos Na já
+menor) -- gerando tetania.                              recuperou (PA possível), mas K ainda aberto + Vm
+                                                        hiperpolarizado elevam o limiar -- exige estímulo
+                                                        maior.
+
+                                                    32
+NEBLI                                                    RESUMINDO
+
+Cinética do PA: cinco fases definidas                    Mielina Cm + Rm  condução
+pelos dois canais                                        saltatória rapidíssima
+
+Memoriza pela coreografia, não pelos nomes: (1)          A mielina é uma bainha lipídica de muitas voltas
+Repouso -- só K passivo aberto, Vm em -70.               (oligodendrócitos no SNC, células de Schwann
+(2) Limiar (-55) -- Na voltagem começa a abrir;          no SNP) que age como isolante elétrico. Duas
+retroalimentação dispara. (3) Upstroke -- Na             consequências biofísicas: Rm (vazamento iônico
+regenerativo puxa Vm para ENa. (4) Pico (+30,            minúsculo entre nodos) e Cm (placas afastadas
+não chega a ENa) -- Na inativa (h cai), K                por muitas camadas -- capacitância despenca). O
+começa a abrir; correntes se igualam e Vm vira.          resultado:  enorme e  pequeno. O PA só dispara
+(5) Downstroke -- Na inativado + K aberto,               nos nodos de Ranvier (espaçados de 1-2 mm,
+repolarização rápida. (6) Undershoot ( -80) -- K         com densidade altíssima de Na voltagem); entre
+ainda aberto puxa Vm para EK. (7) Repouso -- K           nodos a propagação é eletrotônica rapidíssima.
+fecha, Vm volta a -70. A Na/K-ATPase não faz o PA:       "Saltatória" não é literal -- todos os nodos veem
+só restaura gradiente em ritmo basal. Um PA muda         o PA, só que a propagação entre eles é tão
+<0,01% das [Na]/[K] internas.                            rápida que parece um salto. Velocidade: 50-120 m/s
+                                                         mielinizado vs 1 m/s não mielinizado.
+Refratariedade garante propagação
+unidirecional e codificação por                          Da biofísica à clínica: EM, Guillain e
+frequência                                               hipocalcemia caem do mecanismo
+
+Refratário absoluto ( 1-2 ms) = Na todos inativados      Esse Resumindo só fecha quando você consegue,
+ nenhum estímulo dispara PA. Não é "ATP                  dado um sintoma, apontar o parâmetro biofísico
+esgotado", é molecular: a comporta h precisa de          que falhou. Esclerose múltipla: autoanticorpos
+tempo para subir. Refratário relativo ( 3-5 ms)          contra oligodendrócitos (SNC)  desmielinização
+= parte dos Na recuperou + K ainda aberto                em placas  Cm volta a subir, Rm volta a
+PA possível com estímulo maior. Consequência             cair   desaba  corrente eletrotônica não
+fisiológica: o PA só viaja em uma direção, porque        atinge o próximo nodo  bloqueio de condução
+o segmento atrás está em refratário absoluto.            (visão turva, fraqueza, ataxia). Guillain-Barré:
+Intensidade do estímulo não vira amplitude maior         mesmo mecanismo biofísico, mas contra células de
+-- vira frequência maior (até 500 Hz, limite             Schwann (SNP) -- anticorpos pós-Campylobacter
+imposto pelo refratário). O AIS, com densidade            fraqueza ascendente simétrica, pode evoluir
+altíssima de Na voltagem, é o ponto onde tudo            para insuficiência respiratória. Hipocalcemia: Ca²
+nasce.                                                   extracelular estabiliza o S4 do canal Na por efeito
+                                                         de screening -- quando cai, S4 fica solto  limiar
+                                                         desce  hiperexcitabilidade (tetania, Chvostek).
+                                                         Quem entendeu a biofísica entendeu a clínica.
+
+                                                     33
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a condução eletrotônica em um axônio amielínico, é correto afirmar que:
+
+   A) O sinal eletrotônico propaga-se sem decaimento ao longo do axônio amielínico porque a corrente
+   injetada atravessa a membrana exclusivamente como corrente capacitiva pela bicamada lipídica, sem
+   perdas resistivas pelos canais de fuga abertos no repouso.
+   B) A despolarização decai exponencialmente com a distância segundo V(x) = V0 · e-x/, onde  depende
+   de Rm e Ri; em axônios finos sem mielina,  é de poucos milímetros e o sinal não atinge o terminal.
+
+   C) A constante de tempo  é igual à razão Rm/Cm; quanto maior a capacitância de membrana, mais
+   rápido o potencial atinge o platô de despolarização após o pulso de corrente injetada no axônio
+   amielínico.
+
+   D) A constante de espaço  depende exclusivamente da capacitância de membrana, sendo totalmente
+   independente da resistência transmembrana Rm e da resistência axoplasmática Ri do axônio neu
+   ronal típico do SNP.
+
+   E) A corrente injetada no axônio atravessa a membrana de forma uniforme ao longo de toda a sua
+   extensão, com cinética instantânea e sem que a capacitância de membrana retarde a resposta no
+   tempo.
+
+Questão 02 Consolidação
+
+Sobre o papel da capacitância de membrana (Cm) na condução eletrotônica e na velocidade do sinal,
+assinale a alternativa correta:
+
+   A) Logo após o pulso de corrente, quase toda a corrente injetada vai carregar o capacitor (iC domi
+   nante), e somente depois a corrente resistiva (iR) passa a atravessar a membrana -- esse atraso é
+   descrito pela constante de tempo  = Rm · Cm.
+
+   B) A capacitância de membrana é uma propriedade biofísica desprezível em axônios reais do SNC, e
+   a velocidade do sinal eletrotônico depende apenas da resistência axoplasmática Ri e da densidade de
+   canais de Na voltagem-dependentes ao longo da membrana neuronal.
+
+   C) No instante do pulso, toda a corrente injetada atravessa instantaneamente os canais de fuga (iR)
+   com cinética imediata, porque a membrana neuronal não armazena carga e a capacitância só passa a
+   interferir após vários milissegundos do início.
+
+                            34
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) A constante de tempo  é dada pela razão Cm/Rm, de modo que membranas neuronais com alta
+resistência respondem mais rapidamente do que membranas com baixa resistência a pulsos curtos
+de corrente injetada no axônio amielínico.
+
+E) O atraso provocado pela capacitância de membrana favorece paradoxalmente a propagação a
+longas distâncias do sinal eletrotônico, pois a carga acumulada no capacitor é depois liberada pela
+bicamada lipídica como reforço regenerativo do sinal.
+
+Questão 03 Consolidação
+
+Sobre a necessidade biofísica do potencial de ação como solução evolutiva para a transmissão de sinais
+a longa distância no axônio, é correto afirmar que:
+
+   A) O PA é dispensável em axônios curtos do sistema nervoso central, onde a corrente eletrotônica
+   chega ao terminal com amplitude suficiente para liberar neurotransmissor diretamente da fenda
+   sináptica.
+
+   B) O PA propaga o sinal porque transporta fisicamente os íons Na de um ponto ao outro do axônio,
+   no sentido pré-sináptico, em uma velocidade proporcional à diferença de concentração entre dentro
+   e fora.
+
+   C) O PA é um sinal puramente eletrotônico que decai exponencialmente com a distância, exatamente
+   como o sinal subliminar, e por isso a célula precisa de muitos axônios em paralelo para garantir que
+   o sinal chegue.
+
+   D) O PA é uma solução metabólica para a perda de gradiente: a Na/K-ATPase usa o PA como ciclo
+   regenerativo que repõe diretamente os íons Na e K nos seus compartimentos a cada disparo da
+   membrana.
+
+   E) O PA é uma invenção biofísica para vencer a distância: em vez de transmitir o sinal passivamente,
+   a célula o regenera localmente a cada m de membrana excitável, abrindo canais de Na voltagem-
+   dependentes em pontos sucessivos.
+
+Questão 04 Consolidação
+
+Sobre os três estados do canal de Na voltagem-dependente, é correto afirmar que:
+
+   A) O canal de Na tem apenas dois estados conformacionais -- fechado e aberto -- e a passagem
+   entre eles é totalmente reversível em milissegundos, sem qualquer dependência da história recente
+   do potencial de membrana.
+   B) No estado inativado, a comporta de ativação m está fechada e impede a passagem de Na, sendo
+   este estado idêntico ao estado fechado em conformação molecular e em resposta a estímulos.
+
+       35
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) O canal passa pela sequência irreversível fechado  aberto  inativado  fechado; no estado
+inativado, a comporta de inativação h bloqueia o poro a partir do lado citoplasmático e o canal não
+responde a estímulos.
+
+D) A comporta de inativação h é a mesma estrutura molecular da comporta de ativação m, e ambas se
+movem em sincronia em resposta ao deslocamento do sensor de voltagem S4 da membrana.
+
+E) A recuperação do estado inativado para o estado fechado ocorre durante a despolarização susten
+tada da membrana, e exige a ação direta da Na/K-ATPase para restaurar a conformação fechada do
+canal.
+
+Questão 05 Consolidação
+
+Julgue os itens sobre o canal de Na voltagem-dependente e seu papel no potencial de ação:
+
+Cada item deve ser julgado de forma independente.
+
+   I. O sensor de voltagem S4 do canal de Na é uma hélice transmembrana rica em resíduos básicos
+   (arginina e lisina) com carga positiva, que se desloca para fora em resposta à despolarização da
+   membrana e abre a comporta de ativação.
+
+   II. No estado fechado, o canal não conduz Na mas está disponível para abrir caso o potencial de
+   membrana cruze o limiar; já no estado inativado, o canal não conduz e tampouco responde a despo
+   larizações adicionais, por mais intensas que sejam.
+
+   III. A tetrodotoxina (TTX) é um agonista do canal de Na voltagem do axônio, que aumenta a proba
+   bilidade de abertura da comporta de ativação e prolonga o tempo de permanência do canal no estado
+   aberto durante o PA.
+
+   IV. A diferença entre os subtipos de canal de Na do axônio neuronal e do miocárdio explica por que a
+   TTX bloqueia a condução do PA no axônio, mas tem efeito relativamente menor sobre o PA cardíaco
+   em concentrações terapêuticas baixas.
+
+Questão 06 Consolidação
+
+Sobre o canal de K voltagem-dependente envolvido no potencial de ação, é correto afirmar que:
+
+   A) O canal de K voltagem abre simultaneamente ao canal de Na voltagem durante o limiar, e os dois
+   canais se inativam juntos ao final da fase de despolarização do potencial de ação.
+   B) O canal de K voltagem tem comporta de inativação rápida análoga à comporta h do canal de Na, e
+   por isso fecha em menos de 1 ms após a despolarização da membrana atingir o pico.
+   C) O canal de K voltagem responde apenas à hiperpolarização da membrana, abrindo durante o
+   undershoot do PA para devolver K ao meio intracelular e restaurar o potencial de repouso da célula.
+
+       36
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) A condutância do canal de K voltagem é constante ao longo do PA, sem dependência do potencial
+de membrana, e por isso a fase de repolarização tem cinética igual à fase de despolarização.
+
+E) O canal de K voltagem usa o mesmo sensor S4 que o canal de Na, mas tem cinética cerca de
+dez vezes mais lenta e não apresenta comporta de inativação rápida; permanece aberto enquanto a
+membrana estiver despolarizada.
+
+Questão 07 Consolidação
+
+Julgue os itens sobre a cinética temporal do potencial de ação em um axônio amielínico:
+Cada item deve ser julgado de forma independente.
+
+   I. Durante o upstroke do PA, os canais de K voltagem-dependentes são os principais responsáveis
+   pela corrente entrante de Na, enquanto os canais de Na voltagem permanecem majoritariamente no
+   estado inativado.
+
+   II. O pico do PA atinge exatamente o potencial de equilíbrio do Na (ENa  +60 mV), porque os canais de
+   K voltagem permanecem totalmente fechados até que a fase de repolarização da membrana se inicie.
+
+   III. Durante a fase de repolarização, a maioria dos canais de Na voltagem está no estado inativado e
+   os canais de K voltagem estão majoritariamente abertos, conduzindo K para fora em direção a EK.
+
+   IV. O undershoot do PA, em que o potencial de membrana cai abaixo do valor de repouso, ocorre porque
+   os canais de K voltagem ainda estão abertos e puxam o potencial em direção a EK  -90 mV, mais
+   negativo que o repouso.
+
+Questão 08 Consolidação
+
+Sobre o papel da Na/K-ATPase em relação ao potencial de ação, é correto afirmar que:
+
+   A) A Na/K-ATPase é o gerador do PA: durante a fase de despolarização, ela bombeia Na para dentro da
+   célula e K para fora, gerando a corrente entrante regenerativa que despolariza a membrana até o pico.
+
+   B) A Na/K-ATPase faz a fase de repolarização do PA: ao final da fase de despolarização, ela bombeia
+   ativamente Na para fora em alta velocidade, restaurando rapidamente o potencial de membrana
+   negativo de repouso.
+
+   C) A Na/K-ATPase é o sensor de voltagem do canal de Na: o domínio catalítico da bomba se acopla
+   diretamente ao S4 da subunidade alfa e ativa a abertura da comporta de ativação m durante a despo
+   larização.
+
+   D) A Na/K-ATPase é desativada durante o PA por mecanismo de inibição alostérica do Na intracelular,
+   e só volta a funcionar após o retorno completo da membrana ao potencial de repouso ao final do
+   undershoot.
+
+       37
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+E) A Na/K-ATPase não participa diretamente do PA, trabalha em ritmo basal continuamente bombe
+ando Na para fora e K para dentro; um único PA muda menos de 0,01% das concentrações iônicas
+intracelulares.
+
+Questão 09 Integração
+
+Durante o pico do PA em um axônio amielínico, registra-se um valor de potencial de membrana próximo
+de +30 mV. O potencial de equilíbrio do Na na célula é ENa  +60 mV. Qual a melhor explicação para o
+fato de o pico do PA não atingir ENa?
+
+   A) Os canais de K voltagem ainda estão totalmente fechados, mas a Na/K-ATPase começou a bombear
+   Na para fora em ritmo acelerado, impedindo que o potencial de membrana atinja ENa durante o pico
+   do PA.
+
+   B) Os canais de Na voltagem nunca chegam a abrir completamente durante o upstroke, pois a
+   comporta de ativação m permanece parcialmente fechada mesmo após despolarizações intensas no
+   axônio neuronal.
+
+   C) A Na/K-ATPase consome Na intracelular em uma velocidade que iguala o influxo pelos canais
+   voltagem-dependentes, mantendo o potencial de membrana cerca de 30 mV abaixo do potencial de
+   equilíbrio do Na.
+
+   D) Durante o upstroke, os canais de Na voltagem começam a inativar e os canais de K voltagem
+   começam a abrir; no pico, a corrente entrante de Na é igualada pela corrente de saída de K, invertendo
+   a curva.
+
+   E) O potencial de equilíbrio do Na na membrana do axônio durante o PA cai instantaneamente de
+   +60 mV para +30 mV por conta da redução súbita da concentração intracelular de Na pelo influxo do
+   upstroke.
+
+Questão 10 Integração
+
+Um neurofisiologista estimula eletricamente um axônio amielínico no ponto X e registra a propagação
+do PA nas duas direções, anterógrada e retrógrada. Observa-se que o PA viaja exclusivamente em uma
+direção ao longo do axônio.
+
+   A) A unidirecionalidade decorre de uma "polaridade" anatômica intrínseca da própria membrana
+   axonal, com canais de Na voltagem orientados em uma única direção pela inserção assimétrica e
+   capazes de conduzir corrente apenas no sentido anterógrado.
+
+   B) A propagação é unidirecional porque a Na/K-ATPase trabalha mais intensamente no segmento
+   posterior do axônio em alta velocidade, bombeando Na para fora da célula e impedindo que o sinal
+   eletrotônico consiga regenerar o PA para trás.
+
+       38
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+C) O PA viaja em ambas as direções ao longo do axônio com igual eficiência, e o que se observa como
+unidirecionalidade decorre apenas da posição anatômica do sítio de estimulação em relação ao corpo
+celular do neurônio piramidal estudado.
+
+D) O segmento atrás do ponto onde o PA acabou de passar tem canais de Na no estado inativado
+(período refratário absoluto), e por isso não consegue regenerar o sinal; o segmento adiante tem canais
+fechados e disponíveis para abrir.
+
+E) A unidirecionalidade vem do gradiente de concentração de Na extracelular ao longo do axônio, que
+é maior na direção anterógrada e menor na direção retrógrada, favorecendo a entrada de Na apenas
+no sentido distal da membrana.
+
+Questão 11 Integração
+
+Julgue os itens sobre os períodos refratários absoluto e relativo do potencial de ação:
+
+Cada item deve ser julgado de forma independente.
+
+   I. O período refratário absoluto resulta da inativação dos canais de Na voltagem-dependentes:
+   enquanto a comporta h estiver fechada, nenhum estímulo é capaz de gerar um novo PA, por mais
+   intenso que seja, na mesma região da membrana.
+
+   II. O período refratário relativo coincide com a fase em que parte dos canais de Na voltagem já se
+   recuperou da inativação e parte dos canais de K voltagem ainda está aberta, mantendo a membrana
+   hiperpolarizada e elevando o limiar para o disparo.
+
+   III. O período refratário absoluto resulta principalmente do esgotamento de ATP da Na/K-ATPase ao
+   final do PA, e por isso o seu término depende da síntese mitocondrial de novo ATP no terminal axonal.
+
+   IV. A consequência fisiológica mais importante do período refratário absoluto é garantir a propagação
+   unidirecional do PA ao longo do axônio, pois o segmento posterior recém-despolarizado não con
+   segue regenerar o sinal para trás.
+
+Questão 12 Integração
+
+Um estudante pergunta por que o limiar de disparo do PA em um axônio típico está em torno de -55 mV,
+e não em outro valor qualquer da curva do potencial de membrana. Qual a melhor explicação biofísica?
+
+   A) O limiar é o valor de potencial de membrana no qual a corrente entrante de Na pelos canais
+   voltagem-dependentes recém-abertos supera a corrente de saída de K, ativando o circuito de retroal
+   imentação positiva que dispara o PA.
+   B) O limiar é o valor de potencial de membrana no qual a Na/K-ATPase inverte sua direção de bombea
+   mento, passando a transportar Na para dentro da célula e gerando despolarização regenerativa do
+   axônio.
+
+                                                                                39
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+C) O limiar é uma propriedade fixa e invariante de toda membrana excitável, determinada pela espes
+sura da bicamada lipídica e independente da densidade ou do estado funcional dos canais voltagem-
+dependentes.
+
+D) O limiar é o potencial de equilíbrio do Na calculado pela equação de Nernst em condições de
+repouso, valor a partir do qual a entrada de Na se torna termodinamicamente espontânea no axônio.
+
+E) O limiar é o valor de Vm em que os canais de K voltagem se inativam abruptamente e param
+de conduzir, deixando a corrente de Na pelos canais de fuga conduzir sozinha e despolarizar a
+membrana até o pico.
+
+Questão 13 Integração
+
+Em um experimento de mutagênese, substituem-se os aminoácidos básicos (K e R) do segmento S4
+do canal de Na voltagem por glicina (aminoácido hidrofóbico neutro). O cDNA mutante é expresso em
+células sem canais de Na próprios. Qual seria a consequência funcional esperada?
+
+   A) A cinética de ativação dos canais mutantes se tornaria significativamente mais rápida do que a
+   dos canais selvagens, com upstroke mais íngreme e PA de duração muito reduzida na membrana
+   experimental.
+
+   B) Os canais mutantes perderiam a sensibilidade a voltagem, pois o S4 não teria mais resíduos
+   carregados positivamente capazes de se deslocar em resposta ao campo elétrico transmembrana e
+   abrir a comporta de ativação.
+
+   C) Os canais mutantes perderiam a seletividade a Na e passariam a conduzir cátions e ânions sem
+   discriminação, mesmo mantendo a sensibilidade a voltagem intacta no segmento S4 modificado.
+
+   D) Os canais mutantes manteriam a sensibilidade a voltagem inalterada, mas perderiam exclusiva
+   mente o processo de inativação rápida mediado pela comporta h citoplasmática localizada entre os
+   domínios homólogos III e IV.
+
+   E) Os canais mutantes apresentariam abertura constitutiva no potencial de repouso, conduzindo Na
+   continuamente em qualquer Vm e despolarizando permanentemente a membrana até ENa em poucos
+   milissegundos.
+
+Questão 14 Integração
+Julgue os itens sobre o canal de K voltagem-dependente e sua contribuição para a forma do PA:
+
+Cada item deve ser julgado de forma independente.
+   I. O canal de K voltagem usa um sensor S4 carregado positivamente análogo ao do canal de Na, mas
+   sua cinética de abertura é cerca de dez vezes mais lenta, o que explica por que ele só atua significati
+   vamente a partir do pico do PA.
+
+                                                                                40
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+II. A ausência de comporta de inativação rápida no canal de K voltagem faz com que ele permaneça
+aberto enquanto o potencial de membrana se mantém despolarizado, sendo o principal responsável
+pela fase de repolarização do PA.
+
+III. O canal de K voltagem ainda permanece parcialmente aberto durante o undershoot do PA,
+puxando o potencial de membrana em direção a EK  -90 mV, valor mais negativo que o potencial de
+repouso normal da célula.
+
+IV. O bloqueio parcial do canal de K voltagem por uma toxina seletiva tornaria a fase de repolarização
+do PA mais lenta e prolongaria a duração da onda, elevando o pico do PA por causa da menor corrente
+de saída na fase ascendente.
+
+Questão 15 Integração
+
+No instante do undershoot do PA, registra-se que o potencial de membrana atinge aproximadamente
+-80 mV, valor mais negativo que o potencial de repouso da célula. Qual a melhor explicação para esse
+fenômeno?
+
+   A) A Na/K-ATPase entra em ritmo acelerado ao final do PA e bombeia Na para fora com tal intensidade
+   que hiperpolariza diretamente a membrana até valores próximos do potencial de equilíbrio do K.
+
+   B) Os canais de Na voltagem permanecem majoritariamente abertos durante o undershoot, mas o
+   influxo de Na é compensado por uma corrente de saída ainda maior de Cl que hiperpolariza a
+   membrana.
+
+   C) O potencial de equilíbrio do Na cai transitoriamente para valores muito negativos ao final do PA, e
+   a membrana acompanha esse deslocamento em direção a um novo Vm de equilíbrio temporário.
+
+   D) Os canais de K voltagem ainda permanecem abertos durante o final do downstroke e início do
+   retorno ao repouso, e como não têm inativação rápida, continuam puxando Vm em direção a EK 
+   -90 mV.
+
+   E) O undershoot decorre exclusivamente do fechamento abrupto dos canais de Na voltagem no estado
+   fechado, sem qualquer participação dos canais de K voltagem, que se inativam imediatamente após
+   o pico.
+
+Questão 16 Integração
+Julgue os itens sobre o segmento inicial do axônio (AIS) e a codificação por frequência:
+
+Cada item deve ser julgado de forma independente.
+   I. A amplitude do PA gerado no axônio é proporcional à intensidade do estímulo aplicado: estímulos
+   pequenos produzem PAs de pequena amplitude, enquanto estímulos grandes produzem PAs de
+   amplitude proporcionalmente maior na membrana axonal.
+
+                                                                                41
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+II. O segmento inicial do axônio tem densidade de canais de Na voltagem semelhante à do restante da
+membrana neuronal, e o PA pode nascer em qualquer ponto do soma ou da árvore dendrítica conforme
+a localização do estímulo recebido.
+
+III. A intensidade do estímulo recebido pelo neurônio é codificada na frequência de potenciais de
+ação disparados pelo segmento inicial: estímulos fracos geram poucos PAs por segundo, enquanto
+estímulos fortes geram dezenas a centenas de PAs por segundo.
+
+IV. A frequência máxima de disparo do neurônio é limitada pelo período refratário absoluto, que
+estabelece um intervalo mínimo entre PAs sucessivos da ordem de 1 a 2 ms, correspondendo a uma
+frequência de saturação próxima de 500 Hz.
+
+Questão 17 Integração
+
+Sobre o estado inativado do canal de Na voltagem-dependente e suas consequências fisiológicas para
+a excitabilidade do axônio, é correto afirmar que:
+
+   A) O estado inativado é idêntico ao estado fechado em conformação molecular e em resposta a
+   estímulos, e a passagem entre eles é livre e reversível durante a fase de repolarização do PA.
+
+   B) O estado inativado decorre do deslocamento do sensor S4 para a posição interna da membrana, em
+   sentido inverso ao da despolarização, e por isso desaparece imediatamente após o pico do PA.
+
+   C) O estado inativado coexiste com a comporta de ativação fechada: m e h estão ambas fechadas
+   simultaneamente, e qualquer despolarização da membrana é capaz de reabrir o canal e gerar um novo
+   PA.
+
+   D) A recuperação do estado inativado para o estado fechado ocorre durante a despolarização susten
+   tada da membrana, e por isso a presença de uma despolarização persistente acelera o término do
+   período refratário absoluto.
+
+   E) O estado inativado resulta do deslocamento da comporta h citoplasmática sobre o poro do canal
+   pelo lado interno da membrana e, ao contrário do estado fechado, não responde a estímulos despo
+   larizantes adicionais; sua recuperação exige repolarização sustentada.
+
+Questão 18 Integração
+
+Um neurônio com canais de K voltagem-dependentes parcialmente bloqueados por uma toxina seletiva
+é estimulado a disparar PAs. Qual modificação na forma da onda do PA seria esperada?
+
+   A) A repolarização se tornaria mais lenta e o PA mais longo, com aumento do pico (membrana mais
+   positiva) por menor corrente de saída de K durante a fase ascendente; o undershoot diminuiria ou
+   desapareceria.
+
+       42
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+B) A despolarização seria abolida, pois o bloqueio dos canais de K voltagem impediria a ativação dos
+canais de Na voltagem por mecanismo de acoplamento alostérico entre as duas famílias de canais
+voltagem-dependentes.
+
+C) A velocidade do upstroke aumentaria significativamente, mas o pico do PA ficaria menos positivo,
+pois a falta de corrente de saída de K permitiria que o potencial de membrana atingisse exatamente
+ENa = +60 mV.
+
+D) O PA passaria a ter amplitude reduzida e duração encurtada, pois a falta de saída de K aceleraria
+a inativação dos canais de Na voltagem e antecipar-se-ia o término da fase de despolarização da
+membrana.
+
+E) Nenhuma modificação seria observada, porque a fase de repolarização do PA depende exclusiva
+mente da inativação dos canais de Na voltagem e os canais de K voltagem participam apenas do
+potencial de repouso da membrana.
+
+Questão 19 Integração
+
+Em um axônio amielínico, um estímulo despolarizante leva o potencial de membrana de -70 mV ao
+limiar de -55 mV. A sequência canônica de eventos mecanísticos que se segue até o retorno ao repouso é:
+
+   A) Abertura simultânea de Na e K voltagem com cinéticas idênticas  upstroke rápido  Na/K-
+   ATPase é quem repolariza a membrana  undershoot transitório  retorno ao repouso pela bomba
+   ativa funcionando em alta velocidade no terminal axonal envolvido na resposta.
+
+   B) Upstroke pela abertura dos canais de Na voltagem  pico no qual a corrente entrante de Na é
+   igualada pela corrente de saída de K (Na inativando, K abrindo)  downstroke pela saída de K com
+   Na inativado  undershoot pela permanência do K aberto  repouso quando o K finalmente fecha.
+
+   C) Abertura dos canais de K voltagem em primeiro lugar pela cinética mais rápida  hiperpolarização
+   inicial breve  abertura tardia dos canais de Na voltagem dependentes  upstroke regenerativo 
+   pico  fechamento simultâneo de Na e K ao final do PA e retorno direto ao repouso da membrana.
+
+   D) Inativação imediata dos canais de Na voltagem logo após o estímulo despolarizante  corrente
+   exclusiva de K pelos canais voltagem em toda a janela do PA  repolarização única sem upstroke ou
+   pico mensuráveis, com retorno direto ao Vm de repouso sem undershoot detectável.
+
+   E) Ativação direta da Na/K-ATPase pelo próprio estímulo despolarizante  bombeamento acelerado
+   de Na para dentro da célula e de K para fora em sentido inverso  despolarização regenerativa até
+   atingir o pico  repolarização final por difusão passiva pelos canais de fuga remanescentes.
+
+Questão 20 Integração
+Sobre a relação entre os períodos refratários e a função fisiológica do axônio no SNC, é correto afirmar
+que:
+
+                                                                                43
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+A) O período refratário absoluto impede o disparo de PAs em alta frequência, e por isso a codificação
+por frequência da intensidade do estímulo é uma estratégia inviável em axônios reais do sistema
+nervoso de mamíferos adultos.
+
+B) Os períodos refratários impedem qualquer forma de comunicação a longa distância no SNC, pois
+bloqueiam a propagação do PA tanto no sentido anterógrado quanto no sentido retrógrado em axônios
+mielinizados.
+
+C) O período refratário absoluto garante a propagação unidirecional do PA ao longo do axônio (o
+segmento posterior, com Na inativados, não consegue regenerar o sinal para trás) e fixa um teto na
+frequência máxima de disparo do neurônio.
+
+D) O período refratário relativo é mecanicamente idêntico ao absoluto, e em ambos é impossível
+disparar um novo PA por qualquer intensidade de estímulo aplicada à membrana axonal em qualquer
+momento posterior ao primeiro PA.
+
+E) Os períodos refratários decorrem do esgotamento metabólico da célula após o PA, e portanto
+desaparecem em axônios bem nutridos com alta concentração de ATP intracelular ou em axônios
+mantidos em meio rico em glicose.
+
+Questão 21 Integração
+
+Uma fibra sensorial cutânea responde a um estímulo mecânico de baixa intensidade gerando 10 PAs/
+s no axônio. Quando a intensidade do estímulo aumenta cinco vezes, registra-se uma frequência de 50
+PAs/s. A amplitude de cada PA registrado é a mesma nas duas condições. Qual a melhor explicação?
+
+   A) A amplitude individual do PA varia proporcionalmente à intensidade do estímulo, mas o registro
+   experimental mostrou amplitudes iguais por limitação técnica do amplificador utilizado nas duas
+   condições.
+
+   B) Estímulos mais intensos abrem mais canais de Na voltagem por PA na fibra, gerando PAs de maior
+   amplitude individual; a frequência do disparo, por sua vez, é fixa e independente da intensidade do
+   estímulo no axônio.
+
+   C) O PA é uma resposta tudo ou nada de amplitude fixa; a intensidade do estímulo é codificada na
+   frequência de PAs disparados pelo segmento inicial do axônio, e por isso a mesma amplitude aparece
+   em frequências diferentes.
+
+   D) A relação entre frequência de PAs e intensidade do estímulo decorre exclusivamente da Na/K-
+   ATPase, cuja velocidade de bombeamento aumenta com o estímulo e dispara mais PAs por segundo
+   na fibra sensorial.
+
+   E) O sistema nervoso codifica intensidade em amplitude e frequência simultaneamente, e o caso
+   descrito é uma exceção experimental em fibras sensoriais cutâneas devido à presença de canais de K
+   atípicos.
+
+       44
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Suponha que, por efeito de subunidades auxiliares ou por fosforilação da subunidade alfa, a cinética de
+inativação dos canais de Na voltagem-dependentes do axônio se torne significativamente mais rápida
+que o normal. Que modificações seriam observadas no PA da membrana?
+
+   A) O pico do PA ficaria menos positivo (menor amplitude) e a fase de repolarização seria mais rápida,
+   com redução na duração total da onda; a velocidade do upstroke ficaria ligeiramente reduzida pela
+   inativação precoce.
+
+   B) O pico do PA permaneceria inalterado e a duração total da onda do PA aumentaria significativa
+   mente, pois a inativação mais rápida prolongaria o período refratário absoluto e adiaria a recuperação
+   do canal.
+
+   C) A velocidade do upstroke aumentaria e o pico do PA atingiria valores próximos a ENa = +60 mV,
+   pois a inativação mais rápida liberaria os canais para uma segunda rodada de abertura imediatamente
+   após o pico.
+
+   D) O potencial de membrana de repouso se tornaria mais negativo por hiperpolarização sustentada,
+   e o limiar do PA subiria em torno de 10 mV (para -45 mV), exigindo estímulos mais intensos para o
+   disparo.
+
+   E) Não haveria modificação no PA, pois o processo de inativação dos canais de Na voltagem ocorre
+   apenas durante o período refratário, sem qualquer efeito sobre a forma da onda do PA propriamente
+   dito.
+
+Questão 23 Integração
+
+Sobre como a mielinização aumenta a velocidade de condução do PA em axônios do SNC e do SNP, é
+correto afirmar que:
+
+   A) A mielina aumenta a velocidade ao reduzir a resistência axoplasmática Ri do citoplasma, per
+   mitindo que a corrente flua mais facilmente pelo interior do axônio e atinja os nodos de Ranvier com
+   maior intensidade.
+
+   B) A mielina aumenta a velocidade ao introduzir canais de Na voltagem extra na bainha lipídica ao
+   longo de todo o internodo, gerando PAs em paralelo em cada volta da bainha de mielina do axônio.
+
+   C) A mielina aumenta a velocidade ao reduzir a resistência de membrana Rm na região internodal,
+   facilitando o vazamento de íons para o meio extracelular e acelerando a chegada do sinal ao próximo
+   nodo.
+
+   D) A mielina aumenta a velocidade ao aumentar diretamente a amplitude do PA nos nodos de Ranvier
+   (mais Na entra por nodo) e ao reduzir o limiar da membrana nodal para -80 mV no axônio mielin
+   izado.
+
+                       45
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+E) A mielina aumenta a velocidade ao reduzir a capacitância de membrana Cm e aumentar a
+resistência de membrana Rm na região internodal; isso aumenta , faz a corrente eletrotônica chegar
+ao próximo nodo com amplitude suficiente para regenerar o PA.
+
+Questão 24 Integração
+
+Julgue os itens sobre o canal de Na voltagem-dependente e sua farmacologia:
+
+Cada item deve ser julgado de forma independente.
+
+   I. A tetrodotoxina (TTX) bloqueia o canal de Na voltagem ligando-se à comporta de inativação h
+   pelo lado citoplasmático da membrana, estabilizando o canal no estado inativado mesmo durante o
+   potencial de repouso da célula.
+
+   II. A despolarização sustentada da membrana (por exemplo, em hipercalemia) aumenta a fração de
+   canais de Na voltagem no estado fechado e diminui o número de canais inativados, baixando o limiar
+   para o disparo de PAs subsequentes.
+
+   III. A diferença entre os subtipos do canal de Na voltagem do axônio neuronal e do miocárdio, em
+   parte, é responsável pela seletividade tecidual da TTX, que bloqueia preferencialmente os subtipos do
+   axônio em concentrações terapêuticas baixas.
+
+   IV. A inativação do canal de Na voltagem é a base molecular do período refratário relativo do PA, ao
+   passo que a abertura do canal de K voltagem é o que define a duração do período refratário absoluto
+   na membrana axonal.
+
+Questão 25 Integração
+
+Julgue os itens sobre a mielinização e a condução saltatória nos axônios do SNC e do SNP:
+
+Cada item deve ser julgado de forma independente.
+
+   I. A mielinização do axônio é executada pelas células de Schwann no SNC e pelos oligodendrócitos
+   no SNP; uma única célula de Schwann mieliniza vários axônios em paralelo, enquanto cada oligoden
+   drócito mieliniza um único axônio.
+
+   II. Na condução saltatória, o PA literalmente pula os nodos de Ranvier intermediários e regenera
+   apenas em um nodo a cada dois ou três internodos, o que explica o ganho de velocidade típico do
+   axônio mielinizado em relação ao amielínico.
+
+   III. A bainha de mielina aumenta a capacitância de membrana Cm na região internodal e diminui
+   a resistência de membrana Rm, gerando uma constante de espaço  muito menor que a do axônio
+   amielínico, mas compensada pelo PA nos nodos.
+
+       46
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+IV. Nos nodos de Ranvier, a membrana axonal está descoberta de mielina e concentra densidade altís
+sima de canais de Na voltagem-dependentes; entre os nodos, a propagação é puramente eletrotônica
+e rapidíssima graças ao alto  e baixo Cm da região internodal.
+
+Questão 26 Aplicação
+
+Uma mulher de 32 anos apresenta episódios recorrentes de visão turva e fraqueza progressiva em
+membros inferiores há três semanas. A ressonância magnética mostra placas desmielinizantes em
+substância branca dos hemisférios cerebrais e da medula espinhal. Suspeita-se de esclerose múltipla.
+
+   A) A doença é causada por autoanticorpos contra os canais de Na voltagem-dependentes dos nodos
+   de Ranvier; o bloqueio direto do canal impede a regeneração do PA nos nodos preservados pela mielina
+   intacta.
+
+   B) A doença é causada por hiperativação da Na/K-ATPase nos axônios mielinizados, com consumo
+   excessivo de ATP que esgota a reserva mitocondrial dos oligodendrócitos e leva à degeneração da
+   bainha de mielina ao longo do tempo.
+
+   C) A doença é causada por ataque autoimune aos oligodendrócitos do SNC; a desmielinização aumenta
+   Cm e diminui Rm no internodo, faz  desabar e a corrente eletrotônica não atinge mais o próximo
+   nodo com amplitude suficiente para regenerar o PA.
+
+   D) A doença é causada por bloqueio dos canais de K voltagem dos axônios do SNC pelos linfócitos T
+   autorreativos, com prolongamento da fase de repolarização do PA e fadiga progressiva dos neurônios
+   mielinizados afetados pela inflamação.
+
+   E) A doença é causada por mutação genética nos canais de Ca² voltagem pré-sinápticos dos terminais
+   axonais do SNC; a redução do influxo de Ca² impede a liberação de neurotransmissor e leva a déficit
+   funcional progressivo.
+
+Questão 27 Aplicação
+
+Um homem de 45 anos desenvolve fraqueza muscular ascendente simétrica iniciada nas pernas e pro
+gredindo nos braços, 10 dias após um quadro de gastroenterite. A eletroneuromiografia mostra bloqueio
+de condução em nervos motores periféricos com lentificação acentuada. Suspeita-se de síndrome de
+Guillain-Barré.
+
+   A) A doença decorre de bloqueio dos canais de Na voltagem do músculo esquelético por uma toxina
+   bacteriana absorvida durante a gastroenterite; o PA do nervo motor chega normal ao terminal, mas a
+   fibra muscular não responde ao estímulo aplicado.
+
+   B) A doença decorre de autoanticorpos contra os receptores nicotínicos da placa motora, com bloqueio
+   da transmissão neuromuscular após a gastroenterite; o PA do nervo motor está preservado em todo
+   o seu percurso até o terminal motor.
+
+                                                                                47
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) A doença decorre de bloqueio dos canais Cav pré-sinápticos do terminal motor por autoanticorpos
+pós-infecciosos, com redução da liberação de acetilcolina apesar de o PA do axônio motor estar
+preservado ao longo de toda a sua extensão.
+
+D) A doença decorre de mutação adquirida no gene da subunidade alfa do canal de Na voltagem do
+axônio motor periférico, com inativação acelerada do canal após exposição ao patógeno entérico e
+prolongamento do período refratário absoluto.
+
+E) A doença decorre de ataque autoimune à mielina das células de Schwann do SNP, com desmielin
+ização do nervo periférico por mecanismo biofísico análogo ao da esclerose múltipla mas em outro
+tecido; o bloqueio de condução resulta da queda de  no internodo.
+
+Questão 28 Aplicação
+
+Um pesquisador desenvolve adormecimento periorbital e parestesia das mãos cerca de 30 minutos após
+ingerir sashimi de baiacu em uma ocasião informal no Japão. A intoxicação por tetrodotoxina bloqueia
+a condução do PA em axônios periféricos. Qual o mecanismo molecular mais provável do bloqueio?
+
+   A) A toxina inibe a Na/K-ATPase dos axônios periféricos, dissipando o gradiente iônico de Na e K ao
+   longo de minutos e impedindo a recuperação do potencial de repouso após cada PA disparado pela
+   fibra nervosa.
+
+   B) A toxina liga-se ao filtro de seletividade do canal de Na voltagem-dependente do axônio periférico
+   pelo lado extracelular do poro, impedindo a passagem do íon Na e abolindo a fase de despolarização
+   do PA da fibra nervosa.
+
+   C) A toxina bloqueia os canais de K voltagem-dependentes do axônio periférico, prolongando
+   indefinidamente a fase de repolarização do PA e levando à despolarização sustentada da membrana
+   axonal afetada pela exposição.
+
+   D) A toxina atua como agonista da comporta de inativação h do canal de Na voltagem, mantendo o
+   canal no estado aberto continuamente e gerando despolarização persistente da membrana axonal nas
+   fibras periféricas atingidas.
+
+   E) A toxina ativa a comporta de inativação do canal de K voltagem do axônio periférico, fazendo a
+   fase de repolarização do PA terminar mais cedo e elevando paradoxalmente o limiar de disparo da
+   membrana axonal afetada.
+
+Questão 29 Aplicação
+
+Um anestesista infiltra lidocaína para sutura de uma laceração no dedo de um paciente. Após cerca de
+90 segundos, o paciente refere dor abolida. A lidocaína é um anestésico local que bloqueia os canais de
+Na voltagem-dependentes do axônio, e sua ação depende crucialmente da uso-dependência.
+
+       48
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+A) A lidocaína liga-se preferencialmente aos canais de Na voltagem nos estados aberto e inativado, o
+que torna o bloqueio mais eficaz em fibras nociceptivas C de alta frequência de disparo e justifica por
+que fibras de dor são bloqueadas antes das fibras motoras grossas A.
+
+B) A lidocaína liga-se exclusivamente aos canais de Na voltagem no estado fechado em repouso, e seu
+efeito anestésico independe da atividade elétrica do axônio durante a infiltração, atingindo todas as
+fibras com igual eficiência ao longo do tempo de exposição.
+
+C) A lidocaína atua principalmente sobre os canais de K voltagem-dependentes das fibras nocicep
+tivas, prolongando a fase de repolarização do PA e impedindo a propagação do estímulo doloroso ao
+longo do axônio sensorial periférico cutâneo.
+
+D) A lidocaína bloqueia os receptores AMPA pós-sinápticos no corno dorsal da medula espinhal
+e impede a transmissão do sinal doloroso para o segundo neurônio sensorial central, mecanismo
+independente dos canais de Na voltagem da fibra periférica.
+
+E) A lidocaína atua como agonista da Na/K-ATPase em todas as fibras nervosas da pele atingidas
+pela infiltração, hiperpolarizando a membrana axonal e impedindo qualquer disparo de PA na fibra
+nociceptiva atingida pela infiltração no dedo.
+
+Questão 30 Aplicação
+
+Um paciente evolui em 24 horas após tireoidectomia com formigamento perioral, espasmos musculares
+involuntários nas mãos e sinal de Chvostek positivo. O cálcio sérico total é 6,8 mg/dL. O efeito da
+hipocalcemia sobre a excitabilidade neuromuscular decorre de qual mecanismo biofísico?
+
+   A) A hipocalcemia inibe diretamente a Na/K-ATPase de neurônios motores e fibras musculares;
+   o aumento do Na intracelular despolariza cronicamente a membrana axonal e dispara contrações
+   tetânicas espontâneas em todo o paciente afetado.
+
+   B) A hipocalcemia bloqueia os canais Cav pré-sinápticos da placa motora, reduzindo a liberação de
+   acetilcolina; a queda do PEPS abaixo do limiar paradoxalmente sensibiliza o nervo motor e gera os
+   espasmos descritos no paciente em pós-operatório.
+
+   C) O Ca² extracelular estabiliza o sensor de voltagem S4 do canal de Na voltagem por efeito de
+   screening eletrostático; com a queda do Ca², o S4 fica mais móvel, os canais Na abrem com despo
+   larizações menores, o limiar desce e a célula fica hiperexcitável.
+
+   D) A hipocalcemia eleva a concentração intracelular de Ca² por liberação do retículo, ativa proteases
+   que degradam canais de K voltagem do nervo motor e prolonga indefinidamente a fase de repolar
+   ização do PA, gerando tetania por PAs muito longos.
+
+   E) A hipocalcemia ativa diretamente os receptores NMDA do segmento inicial do axônio motor, com
+   entrada de Ca² pós-sináptico que dispara PAs espontâneos em alta frequência por excitotoxicidade
+   neuromuscular periférica restrita ao paciente afetado.
+
+       49
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que o potencial de ação tem que existir como mecanismo de propagação a longa
+distância no axônio, em vez de a célula simplesmente "transmitir" a corrente de forma passiva
+pela membrana.
+
+    MODELO DE RESPOSTA
+
+   A corrente eletrotônica injetada em um ponto da membrana decai exponencialmente
+   com a distância segundo V(x) = V0 · e-x/, onde  depende de Rm e Ri. Em axônios finos
+   sem mielina,  é de poucos mm -- muito menos que o metro que um sinal precisa
+   percorrer. Além disso, a capacitância da membrana (Cm) atrasa a resposta no tempo (
+   = Rm · Cm), engolindo a primeira fração da corrente como capacitor. O sinal puramente
+   passivo chega tarde e com amplitude abaixo do limiar. A solução evolutiva foi inventar
+   canais de Na voltagem que abrem quando Vm cruza -55 mV; cada m de membrana
+   regenera o sinal ativamente, em vez de só transmiti-lo.
+
+Questão Q2
+
+Descreva os três estados conformacionais do canal de Na voltagem-dependente e explique como
+o estado inativado é o responsável molecular pelo período refratário absoluto do PA.
+
+    MODELO DE RESPOSTA
+
+   O canal de Na voltagem percorre uma sequência irreversível de três estados. (1)
+   Fechado: comporta de ativação m fechada, comporta de inativação h aberta -- canal
+   não conduz, mas está disponível para abrir se Vm cruzar o limiar. (2) Aberto: a despo
+   larização desloca o sensor S4 e m abre -- Na entra. (3) Inativado: cerca de 1 ms depois, a
+   comporta h citoplasmática cai sobre o poro pelo lado interno -- Na não passa, mesmo
+   com m ainda aberta. A volta ao fechado exige repolarização sustentada. Durante o
+   período refratário absoluto, praticamente todos os canais Na estão no estado inativado
+   e nenhum estímulo gera PA, por mais intenso que seja, até que a comporta h se solte e
+   o canal volte ao estado fechado disponível para abrir.
+
+                             50
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique como a diferença de cinética entre os canais de Na voltagem (rápido, com inativação) e
+os canais de K voltagem (lento, sem inativação rápida) esculpe a forma característica do PA, da
+fase de upstroke ao retorno ao repouso.
+
+MODELO DE RESPOSTA
+
+No limiar, os primeiros canais Na voltagem abrem; o influxo regenerativo de Na
+despolariza a membrana e abre mais canais Na -- upstroke íngreme. No pico, a corrente
+entrante de Na é igualada pela corrente de saída de K que começou a abrir e pela
+inativação progressiva do canal Na; por isso o pico fica em torno de +30 mV, sem atingir
+ENa = +60 mV. Na fase de downstroke, Na inativado e K totalmente aberto repolarizam
+a membrana. O canal K não tem inativação rápida e permanece aberto enquanto Vm
+estiver despolarizado -- durante o undershoot, ele ainda puxa Vm em direção a EK =
+-90 mV. Só quando o K finalmente fecha é que a célula volta ao repouso.
+
+Questão Q4
+
+Explique como a mielinização aumenta a velocidade de condução do PA em axônios do SNC e
+do SNP, descrevendo o papel da mielina sobre Cm, Rm e , e por que o resultado é a condução
+saltatória entre os nodos de Ranvier.
+
+    MODELO DE RESPOSTA
+
+   A bainha de mielina é uma camada lipídica isolante que envolve o axônio em muitas
+   voltas, interrompida nos nodos de Ranvier. Ela tem duas consequências biofísicas.
+   Primeiro, reduz drasticamente a capacitância de membrana Cm, porque afasta as faces
+   interna e externa da membrana funcional -- menos corrente é "engolida" pelo capacitor
+   a cada despolarização. Segundo, aumenta a resistência de membrana Rm na região
+   internodal, porque o vazamento iônico através da bicamada lipídica torna-se mínimo.
+   Como  = (Rm/Ri), o aumento de Rm e a redução de Cm ampliam  e reduzem . A cor
+   rente eletrotônica viaja por 1­2 mm sem decair significativamente, chega ao próximo
+   nodo acima do limiar e regenera o PA ali -- daí a aparência de "salto", embora todos os
+   nodos sejam atravessados.
+
+       51
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um colega afirma que "o PA muda significativamente as concentrações intracelulares de Na e
+K a cada disparo, por isso o neurônio depende da Na/K-ATPase para continuar funcionando
+em milissegundos durante a repolarização". Identifique o erro conceitual, explique o que de fato
+ocorre no PA e descreva qual é o papel real da Na/K-ATPase.
+
+MODELO DE RESPOSTA
+
+O erro está em duas afirmações ligadas. Primeiro, um único PA muda menos de 0,01%
+das concentrações intracelulares de Na ou K -- o número de íons que passa pelos
+canais voltagem-dependentes em poucos milissegundos é minúsculo comparado ao
+estoque iônico da célula. A célula pode disparar milhares de PAs sem alterar apreciavel
+mente os gradientes. Segundo, a Na/K-ATPase não participa diretamente do PA nem da
+repolarização. Quem faz o PA são os canais voltagem-dependentes, que abrem e fecham
+passivamente -- os íons descem o gradiente, nada custa ATP no momento. A repolar
+ização decorre da abertura dos canais de K voltagem, não do bombeamento ativo. A Na/
+K-ATPase trabalha em ritmo basal continuamente, restaurando ao longo do tempo os
+pequenos desvios que cada PA causa. O custo metabólico do PA é real, mas distribuído
+na escala de minutos, não de milissegundos.
+
+       52
+NEBLI                                    ETAPA 4 -- FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 B     Q02 A         Q03 E     Q04 C  Q05 CCEC
+Q06 E     Q07 EECC      Q08 E
+                                  Q12 A  Q13 B
+INTEGRAÇÃO (Q09­Q25)    Q11 CCEC  Q17 E  Q18 A
+                        Q16 EECC  Q22 A  Q23 E
+Q09 D     Q10 D         Q21 C
+Q14 CCCC  Q15 D                   Q29 A  Q30 C
+                        Q28 B
+Q19 B     Q20 C
+
+Q24 EECE  Q25 EEEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 E
+
+                        62
+

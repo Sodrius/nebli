@@ -1,0 +1,46 @@
+# MAPA_CONTEUDO -- embrio-gastrulacao-neurulacao
+# Slide-fonte: 9b075caa-Gastrulacao_e_Neurulacao_Medicina_2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: 10/07/26 1 Gastrulação e Neurulação Marilene Hohmuth Lopes marilenehl@usp.br 1 It is not birth, marriage or death, but gastrulation, which is truly the most important time in your life Lewis Wolpert (1986) O evento mais importante da sua vida não é o...
+slide-02: 10/07/26 2 É a reorganização das células da blástula -as células adquirem novas posições e se estabelece o plano do corpo do embrião (morfogênese e sinalização!) -precursores de órgãos endodérmicos e mesodérmicos são trazidas para dentro. - precursor...
+slide-03: 10/07/26 3 MOVIMENTOS CELULARES 5 Gastrulação - Início da morfogênese – desenvolvimento da forma do corpo - Formação da linha primitiva - Formação da notocorda (indução da neurulação) - Formação dos folhetos embrionários - Orientação dos eixos do emb...
+slide-04: 10/07/26 4 Divisão Celular Morfogênese Diferenciação 7 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 8
+slide-05: 10/07/26 5 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 9 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 10
+slide-06: 10/07/26 6 Gastrulação A gastrulação gera do EPIBLASTO os três folhetos germinativos: Ectoderma, Mesoderma e Endoderma. O HIPOBLASTO forma tecidos extraembrionários 11 Gastrulação Na Gastrulação as células do Epiblasto migram para: • espaço entre o E...
+slide-07: 10/07/26 7 Gastrulação Nó Primitivo Linha Primitiva O Nó Primitivo fica na região mais anterior da Linha Primitiva 13 14
+slide-08: 10/07/26 8 Epiblasto Hipoblasto Ectoderma Mesoderma Endoderma 15 As células do Epiblasto que migram Para o espaço “do meio”: Mesoderma Para a camada hipoblástica: Endoderma As células do Hipoblasto são deslocadas lateralmente para formarem a VESÍCULA...
+slide-09: 10/07/26 9 Saco Vitelino Âmnion Epiblasto Hipoblasto Na Gastrulação as células do Epiblasto migram para: • espaço entre o Epiblasto e Hipoblasto • se inserem no hipoblasto 17 18
+slide-10: 10/07/26 10 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 19 NEURULAÇÃO DOBRAMENTO DO CORPO 20
+slide-11: 10/07/26 11 Gastrulação NEURULAÇÃO 21 A NEURULAÇÃO forma o tubo neural. 22
+slide-12: 10/07/26 12 Notocorda Mesoderma axial- processo notocordal Células-pré-cordais -20o dia processo notocordal atinge extensão máxima -24o dia- tubo sólido -núcleo pulposo discos intervertebrais 23 • Estrutural: Age como um eixo rígido de apoio para o e...
+slide-13: 10/07/26 13 25 A NOTOCORDA induz a ECTODERME a formar a PLACA NEURAL 18 DIAS Neurulação 26
+slide-14: 10/07/26 14 27 setas – placa neural Embrião de macaco comparável ao humano no 20º dia do desenvolvimento. A linha primitiva desaparecerá no dia 25 28
+slide-15: 10/07/26 15 Depois da elevação das DOBRAS neurais que surgem na periferia da PLACA neural, o TUBO neural se fecha 29 A formação do tubo neural se dá pela elevação das PREGAS NEURAIS e a perda da conexão do tubo com o ectoderma de revestimento 30
+slide-16: 10/07/26 16 A formação do tubo neural se dá pela elevação das PREGAS NEURAIS e a perda da conexão do tubo com o ectoderma de revestimento 31 As extremidades livres do tubo neural expressam proteínas que se ligam ao ácido fólico. 32
+slide-17: 10/07/26 17 24-26o dias – Fechamento TN- SNC Vesículas encefálicas 33 Malformaçõescongênitas: Defeitosno fechamentodo tuboneural -DTN 34
+slide-18: 10/07/26 18 Migração cels crista-EMT e dobramento lateral concomitante ao fechamento do TN 35 36
+slide-19: 10/07/26 19 37 Migração do dorso para a região ventro lateral agrupadas em quatro divisões no sentido crâniocaudal: cranial; vagal; tronco e lombossacral. 38
+slide-20: 10/07/26 20 Células das crista neural Cranial: arcos branquiais (face) darão origem a estruturas faciais, tais como tecidos conjuntivos, incluindo cartilagem e ossos da face; melanócitos; ossículos da orelha média; alguns tecidos oculares; neurônios ...
+slide-21: 10/07/26 21 Ectoderma Epiblasto Neurectoderma Progenitores neurais Aspectos anatômicos do desenvolvimento neural inicial 41 42
+slide-22: 10/07/26 22 Subdivisões do mesoderma mesoderma paraxial cabeça tronco mesoderma intermediário mesoderma somático mesoderma visceral notocorda Placa do mesoderma lateral 43 SOMITOS: mesoderma paraxial Vértebras, costelas, derme e músculos 44
+slide-23: 10/07/26 23 Mesoderma Lateral Mesoderma Paraxial Notocorda Mesoderma Intermediário Músculo, Esquelet oDerme Rins e Gônadas Sistema Vascular e Hematopoiético Memb pleura/peritônio Anexos Extraembrionários 45 46
+slide-24: 10/07/26 24 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 47 DOBRAMENTO DO CORPO 48
+slide-25: 10/07/26 25 Gastrulação Neurulação DOBRAMENTO DO CORPO 49 Concomitante à formação do TUBO NEURAL, existe um outro movimento que resulta no Dobramento Céfalo-caudal e lateral do Embrião. 50
+slide-26: 10/07/26 26 Durante a gastrulação, forma-se a CAVIDADE AMNIÔNICA que se forma dorsalmente ao embrião (ou seja, acima do ectoderma) 51 No dobramente CÉFALO-CAUDAL o embrião se curva ventralmente 52
+slide-27: 10/07/26 27 Dobramento céfalo-caudal (corte sagital) prega cranial prega caudal 53 Concomitante ao fechamento do tubo neural ocorre o DOBRAMENTO CEFALO-CAUDAL que confere tridimensionalidade ao embrião 54
+slide-28: 10/07/26 28 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 55 56
+slide-29: 10/07/26 29 No dobramento LATERAL o embrião fecha o corpo na região do ventre 57 Dobramento lateral (corte transversal) pregas laterais 58
+slide-30: 10/07/26 30 O DOBRAMENTO LATERAL também confere tridimensionalidade ao embrião 59 Com o dobramento lateral, uma folha doo MESODERMA LATERAL irá se curvar dorsalmente, e outra folha irá se curvar ventralmente 60
+slide-31: 10/07/26 31 61 O ENDODERMA fica ventral ao mesoderma 62
+slide-32: 10/07/26 32 Durante o dobramento embrionário, o endoderma forma um tubo, que originará o tubo digestório. 63 O começo do tubo endodérmico embrionário é a BOCA e o fim o ÂNUS 64
+slide-33: 10/07/26 33 ATENÇÃO! Não há formação de mesoderma na região cloacal (posterior) e na placa precordal (anterior). A placa precordal irá formar a MEMBRANA BUCOFARÍNGEA. 65 A extremidade mais anterior do tubo endodérmico entra em contato direto com o ec...
+slide-34: 10/07/26 34 GASTRULAÇÃO NEURULAÇÃO DOBRAMENTO DO CORPO FECHAMENTO DO TUBO ENDODÉRMICO EXPANSÃO DO ÂMNION 67 http://origamiembryo.cba.arizona.edu/video.cfm 68
+slide-35: 10/07/26 35 69 70
+slide-36: 10/07/26 36 71 72
+slide-37: 10/07/26 37 mesoderme intermediária somitos placa do mesoderma lateral mesoderma somática mesoderma visceral 73 74
+slide-38: 10/07/26 38 75 Bibliografia http://www.embriologiahumana.com.br/ Keith Moore – Embriologia Básica (7ª edicao) 76

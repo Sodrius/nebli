@@ -1,0 +1,309 @@
+{
+  "slug": "UC01-FMEMB-08-sinalizacao-celular-i-e-ii",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-FMEMB-08-sinalizacao-celular-i-e-ii.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-FMEMB-08-sinalizacao-celular-i-e-ii.txt",
+  "total_paginas": 48,
+  "total_palavras": 14015,
+  "total_imagens": 14,
+  "media_palavras_pagina": 292.0,
+  "paginas_amostra": [
+    1,
+    2,
+    4,
+    5,
+    19,
+    26,
+    48
+  ],
+  "paginas_amostra_str": "1,2,4,5,19,26,48",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 86,
+      "imagens": 0,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 166,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 415,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 206,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 295,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 324,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 308,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 391,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 388,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 352,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 244,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 253,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 336,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 373,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 372,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 354,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 219,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 269,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 535,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 300,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 358,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 194,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 263,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 410,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 415,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 131,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 275,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 233,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 313,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 279,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 317,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 285,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 381,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 329,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 342,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 36,
+      "palavras": 382,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 37,
+      "palavras": 330,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 38,
+      "palavras": 338,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 39,
+      "palavras": 212,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 40,
+      "palavras": 241,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 41,
+      "palavras": 219,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 42,
+      "palavras": 241,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 43,
+      "palavras": 271,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 44,
+      "palavras": 260,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 45,
+      "palavras": 268,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 46,
+      "palavras": 265,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 47,
+      "palavras": 195,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 48,
+      "palavras": 82,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

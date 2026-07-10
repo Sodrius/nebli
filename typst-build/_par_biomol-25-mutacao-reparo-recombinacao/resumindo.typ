@@ -1,0 +1,28 @@
+#import "../../typst-template/nebli_v2_apostila.typ": *
+
+#resumindo-page((
+  ("O que é mutação",
+   [Alteração permanente e herdável na sequência de bases. Só vira mutação quando é fixada — copiada para a fita-filha antes de ser reparada.]),
+  ("Três tipos",
+   [Substituição troca uma base (transição entre bases semelhantes, transversão entre tipos diferentes). Inserção e deleção mudam o número de letras.]),
+  ("Frameshift é o pior",
+   [Inserir ou deletar um número de bases não-múltiplo de 3 desloca todo o quadro de leitura adiante, trocando todos os aminoácidos a partir do ponto da mutação.]),
+  ("Por que erros são raros",
+   [A polimerase III coloca a base certa quase sempre, e a atividade de revisão (proofreading) remove a errada que escapa — taxa final de ~1 erro por bilhão de bases.]),
+  ("Origem espontânea",
+   [Tautômeros (forma rara da base que pareia errado) e deaminação da citosina em uracila geram trocas mesmo sem agente externo.]),
+  ("Mutações induzidas",
+   [Análogos de base como o 5-bromouracil enganam o pareamento; a radiação UVB é absorvida pelas bases e cria dímeros de pirimidina entre timinas vizinhas.]),
+  ("Reparo direto",
+   [Desfaz a lesão no lugar: a fotoliase quebra o dímero usando luz; a MGMT remove a metila da O6-metilguanina e se inativa de vez (enzima de uso único).]),
+  ("Reparo por excisão (NER)",
+   [O sistema uvrABC reconhece a distorção da hélice, faz dupla incisão (8 nt na ponta 5′, 4 nt na 3′), a Pol I preenche pela fita-molde e a ligase sela.]),
+  ("Quando o reparo falha",
+   [No xeroderma pigmentoso o NER humano é defeituoso: dímeros do sol não são removidos, acumulam mutações e causam câncer de pele precoce e múltiplo.]),
+  ("Plasmídeos e conjugação",
+   [Plasmídeos são DNA circular autônomo (replicons). O fator F transfere-se de bactéria F⁺ para F⁻ por conjugação, espalhando resistência a antibióticos entre células.]),
+  ("Transposons",
+   [Segmentos que saltam dentro do genoma via transposase. As sequências de inserção são simples; os Tn carregam genes extras, em geral resistência a antibióticos.]),
+  ("Vírus: lítico vs lisogênico",
+   [No lítico o fago se replica e rompe a célula. No lisogênico integra-se como prófago (sítio attB do lambda) e fica latente — recombinação sítio-específica.]),
+))

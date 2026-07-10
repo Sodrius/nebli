@@ -1,0 +1,86 @@
+# MOBILIZACAO / HSL / adrenergico (1.2)
+zO;eo}i&6y	1.2 HSL quebra TG em glicerol+AG
+Ls2g-oLNva	1.2 HSL induzida por epi/glucagon/cortisol
+NKE^S(plx2	1.2 HSL inibida por insulina
+PkKv<Ny;SA	1.2 glicerol->figado->gliconeogenese
+wu!536*ysX	1.2 AG->acetil-CoA via beta-ox
+HhFsEqme2e	1.2 HSL degrada TG do adipocito
+xpARU)u<r2	1.2 alfa2 inibe lipolise
+oCA{%%o&/0	1.2 beta1/beta2 estimula lipolise
+gl.@,@)VP^	1.2 beta3 aumenta lipolise
+E26>dVWz|~	1.2/3.4 glucagon: dec sintese AG, inc lipolise
+lj~/k$%(ZI	1.2 insulina: deposito de gordura, inibe lipolise
+# ATIVACAO / CARNITINA (1.3)
+NYiv.KBRlK	1.3 AG->acil-CoA via acil-CoA sintetase
+IMW%ASW*.w	1.3 acil-CoA->acilcarnitina via CPT1
+tf&[aM?,9?	1.3 enzima limitante beta-ox = CPT-1
+se8y43gfIe	1.3 beta-ox na mitocondria
+I_?i*b[)Wr	1.3 CPT1 inibida por malonil-CoA
+evQ?N]cCh_	1.3 acilcarnitina transportada p/ matriz
+Ja2$)IOJU(	1.3 acilcarnitina->acil-CoA via CPT2
+# BETA-OXIDACAO (1.4)
+C`zKzo}I!;	1.4 acil-CoA->acetil-CoA via desidrogenase
+m8A{UZ9;>+	1.4 cada volta 1 FADH2 + 1 NADH
+HuSD-TyDEW	1.4 acetil-CoA -> cetogenese ou TCA
+iz+(b*k_4d	1.4 peroxissomo beta-ox de VLCFA
+FP@MDhY!:B	1.4 propionil-CoA->metilmalonil-CoA
+C%azB;mfy+	1.4 propionil = unico C de AG que vira glicose
+Jd+xUP*pe8	1.4 MCAD deficiencia
+d8@2hu>O&/	1.4 MCAD/carnitina = hipoglicemia hipocetotica
+ff(2qB=#f?	1.4 deficiencia primaria de carnitina
+b%*6|i!o#m	1.4 via VOMIT gera propionil-CoA
+se]85C=Qy~	1.4 metilmalonil-CoA->succinil-CoA (B12)
+# ESTRUTURA / 1.1
+w&uhyIZ3v;	1.1 ligacao ester AG-glicerol
+QpI|ys+ElB	1.1 lipases clivam ester do TG
+# RENDIMENTO ENERGETICO (2.1/2.2)
+i@Yp^yRn24	2.2 9 kcal/g de gordura
+k8xf5`xzXm	2.2 4 kcal/g carbo/proteina
+# CORPOS CETONICOS (2.3)
+zNKP>#)43-	2.3 cetogenese na mitocondria
+o+D41fWGhp	2.3 cetogenese no figado
+FN`J;4O3|~	2.3 enzima limitante = HMG-CoA sintase
+L~Zvy_1>yY	2.3 tres corpos cetonicos
+o,O]2o`N~:	2.3 cetogenese comeca no acetil-CoA da beta-ox
+qNV_9ftG@F	2.3 acetoacetil-CoA->HMG-CoA sintase
+j[r&z8E9CX	2.3 HMG-CoA->acetoacetato via liase
+x#&^$^[=>/	2.3 acetoacetato->acetona expirada
+zuEl:/z4@_	2.3 acetoacetato->beta-hidroxibutirato
+LE1Eq:]k~X	2.3 2 acetil-CoA por corpo cetonico
+oijw@nbc_B	2.3 cetonicos p/ cerebro/musculo/rim
+uRn{umsp]j	2.3 cetogenese por deplecao de OAA
+DU@2*h#cJ|	2.3 cetogenese no alcool (excesso NADH)
+O4dNshEYop	2.3 hemacia nao usa cetonicos (sem mito)
+v#J$2,_hv9	2.3 acetil-CoA de acetoacetil-CoA -> Krebs
+oPGxT?t&p?	2.3 tioforase extra-hepatica (figado nao consome)
+D)Hc0@c+d!	2.3 beta-OHB->acetoacetato extra-hepatico
+hs;ln9)k5+	2.3/3.4 insulina inibe formacao de cetoacidos
+hm31YuQZoi	2.3 NADH(etanol) OAA->malato impede gliconeogenese
+s|NBM`iWfU	2.3 acidose metabolica no DM = cetoacidos
+v3gnV-t68E	2.3 CAD = anion gap alto por corpos cetonicos
+# COMBUSTIVEL NO JEJUM (2.3/integracao)
+zv5/h>Z+b-	2.3 jejum: prioridade glicose p/ cerebro/hemacia
+t:).4I7syU	2.3 jejum 1-3d: musculo/figado -> AGL
+d-u:!go}Or	2.3 apos 3d: cerebro -> corpos cetonicos
+# SINTESE DE AG (3.1)
+E{S{p/R;(&	3.1 sintese de AG no citoplasma
+LI/@xCD9-/	3.1 sintese de AG: figado/mama/adiposo
+# LANCADEIRA DO CITRATO / ACC (3.2)
+wfH+)zC0kj	3.2 1o passo: citrato mito->citosol
+o2g_@x[*##	3.2 citrato->acetil-CoA+OAA via citrato-liase
+boQAggxq7j	3.2 sintese AG usa acetil-CoA do citrato
+oSQI`!|9cH	3.2 malato->piruvato via enzima malica
+j~V9}wo3Y#	3.2 enzima malica produz NADPH
+q0u$jKaxq/	3.2 enzima limitante sintese AG = ACC
+EehWy>iqbJ	3.2 ACC inibida por glucagon+palmitoil-CoA
+xF6vJC<tQ!	3.2 ACC ativada por insulina+citrato
+I`=(v&7I!Q	3.2 acetil-CoA->malonil-CoA via ACC
+y&OfOC+DC!	3.2 ACC requer ATP/biotina/CO2
+o%6#ThhAp[	3.2 biotina cofator da ACC
+JUQMmHh=d,	3.2 biotina carrega CO2
+# FAS (3.3)
+LzmOcN`8WN	3.3 malonil-CoA->palmitato via FAS
+uUec:<aJpz	3.3 FAS usa NADPH
+Ndc=AMqtBg	3.3 palmitato = 16 carbonos
+ou*l>Qy/;o	3.3 B5(pantotenato)=CoA e FAS
+oC#a86~-(L	3.3 AG essenciais: linoleico/linolenico

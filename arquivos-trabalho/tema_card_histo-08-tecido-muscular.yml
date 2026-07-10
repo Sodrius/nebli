@@ -1,0 +1,163 @@
+slug: histo-08-tecido-muscular
+titulo: "Tecido Muscular"
+subtitulo: "Histologia"
+meta:
+  - ["Disciplina", "Histologia (UC02)"]
+  - ["Onde estudar", "Slides do Prof. FS (teórica + aula prática) · Junqueira & Carneiro, Histologia Básica, cap. 10 · Ross & Pawlina, cap. 11"]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Tema descritivo-histológico com
+#   núcleo mecanístico real (acoplamento excitação-contração; CICR no cardíaco;
+#   via da calmodulina/MLCK no liso). Integração natural: estrutura×função,
+#   tipo de músculo×mecanismo de cálcio, histologia×reconhecimento ao microscópio.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 15-18).
+# Recorte (declarado a pedido de Davi): PARTES I e II = "geralzão" extraído do
+#   deck principal "Tecido muscular - slides.pdf" (estrutura + contração + os 3
+#   tipos). PARTE III = SOMENTE prática — identificar os 3 tecidos ao microscópio
+#   (HE), extraída de "Tecido muscular - slides - aula prática.pdf". Sem ambiguidade
+#   de recorte: cada deck alimenta seu bloco.
+#
+# Prioridades desta corrida (do pedido literal de Davi + Diário de revisões):
+#   P1. Usar TABELA onde a tabela rende (comparação dos 3 tipos = Cat 16 + Cat 18
+#       gatilho 3, caso (a) do CLAUDE.md) e TÓPICO onde cabe (critérios de
+#       reconhecimento ao microscópio na PARTE III = Cat 18 gatilho 1, caso (c)
+#       critérios diagnósticos discretos). Resto = prosa expositiva contínua.
+#   P2. PARTE III é PRÁTICA pura: "como reconhecer", não nova teoria. Cada tipo
+#       ganha um checklist de reconhecimento ancorado numa micrografia HE real.
+#   P3. Diário (biocel-07, peso alto): tema espacial → figura obrigatória. Aqui há
+#       decks ricos (hierarquia do sarcômero, tríade, micrografias) — usar de fato.
+#   P4. Nomes de subtópico diretos e informativos (item 35), não poéticos.
+#   P5. E2: ~10 C/E nas 3 categorias + 2-3 "assinale a incorreta"; gabarito
+#       sorteado de verdade + guarda anti-degeneração; paridade banda dupla Q01-Q30.
+#   P6. Sem pergunta-âncora/retórica de abertura (canônico 2026-05-29).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A célula muscular e sua organização"
+        subtopicos:
+          - "Três tecidos, uma tarefa: virar química em força"
+          - "O vocabulário próprio da fibra · as bainhas de conjuntivo"
+          - "Miofibrila, sarcômero e os filamentos"
+      - titulo: "PARTE II — Como o músculo contrai e por que os três tipos diferem"
+        subtopicos:
+          - "Deslizamento dos filamentos · acoplamento excitação-contração"
+          - "Cardíaco e liso pelo contraste com o esquelético"
+          - "Os três tipos lado a lado · regeneração e hipertrofia"
+      - titulo: "PARTE III — Reconhecer o tecido muscular ao microscópio (prática)"
+        subtopicos:
+          - "As três perguntas do microscópio · estriado esquelético no HE"
+          - "Estriado cardíaco: o disco intercalar como marcador"
+          - "Liso no HE · o exercício integrador do intestino"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Esqueleto das 3 PARTES + figuras planejadas
+# ---------------------------------------------------------------------------
+# PARTE I  (estrutura, deck principal)
+#   1.1 Três tecidos, uma só tarefa (origem mesodérmica; liso/esquelético/cardíaco; voluntário×involuntário)
+#   1.2 O vocabulário da fibra + as bainhas de conjuntivo (sarcolema/sarcoplasma/RS/sarcossoma; epi/peri/endomísio; fibra = sincício multinucleado)  [fig slide-07]
+#   1.3 Miofibrila, sarcômero e os filamentos (hierarquia; linha Z/banda A/I/H/M; actina-tropomiosina-troponina; miosina)  [fig slide-10 + slide-15]
+# PARTE II (função + 3 tipos, deck principal)
+#   2.1 Deslizamento dos filamentos + acoplamento excitação-contração no esquelético (placa motora/ACh, túbulo T, tríade, RS, troponina C)  [fig slide-16 + slide-26]
+#   2.2 Cardíaco e liso pelo contraste com o esquelético (cardiócito, disco intercalar, díade, CICR; liso fusiforme, corpos densos, calmodulina/MLCK, cavéolas)  [fig slide-53]
+#   2.3 Os três tipos lado a lado (TABELA comparativa) + regeneração (células satélite) e hipertrofia (sem mitose; miostatina)  [fig slide-02]
+# PARTE III (prática, deck aula prática)
+#   3.1 As três perguntas do microscópio + estriado esquelético no HE (acidófilo, fibras grandes, núcleos periféricos, estriação; corte long×transversal; epi/peri/endo; fuso muscular)  [fig prat slide-03 + prat slide-07]
+#   3.2 Cardíaco no HE: disco intercalar como marcador (núcleo central 1-2, ramificação, Purkinje, PTAH)  [fig prat slide-13]
+#   3.3 Liso no HE + exercício integrador do intestino (fusiforme, núcleo central, saca-rolhas se contraído; identificar vários tecidos)  [fig prat slide-17 + prat slide-19]
+#
+# Figuras planejadas (≥3 por PARTE): I=3 · II=4 · III=5. Relatório auditável no fechamento.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 enquadramento | 1.2 ponto-de-quebra (a célula é grande demais p/ regras normais) | 1.3 integração-anterior
+# 2.1 ponto-de-quebra (encurta sem encurtar os filamentos) | 2.2 analogia concreta | 2.3 integração-posterior (prepara o microscópio)
+# 3.1 integração-anterior (retoma os 3 tipos, agora ao ME) | 3.2 ponto-de-quebra (o que separa do esquelético) | 3.3 integração-posterior
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# - mesoderma: "a camada embrionária intermediária, de onde saem músculo, osso e sangue"
+# - potencial de ação: "a onda de inversão elétrica que corre pela membrana quando ela despolariza"
+# - junção comunicante (gap): "canais que ligam o citoplasma de duas células e deixam íons passarem direto"
+# - HE: "hematoxilina cora núcleos de roxo-azul, eosina cora citoplasma e fibras de rosa"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# sarcômero · sarcolema · retículo sarcoplasmático · túbulo T · tríade · díade
+# disco intercalar · sincício · célula satélite · corpos densos · calmodulina
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ---------------------------------------------------------------------------
+# - Quebra: tratar cardíaco e esquelético como iguais por ambos serem estriados.
+#   Correção: esquelético é multinucleado/periférico/voluntário e sem junções entre fibras;
+#     cardíaco é mono-(1-2)/central/involuntário e unido por discos intercalares. (origem: q-0272)
+# - Quebra: supor que todo músculo tira o cálcio do retículo sarcoplasmático.
+#   Correção: no esquelético o Ca2+ vem do RS (tríade); no cardíaco a entrada extracelular
+#     pelo DHPR dispara a liberação do RS (CICR, via díade). (origem: q-0408, q-0188)
+# - Quebra: procurar troponina/estriação no músculo liso.
+#   Correção: o liso não tem sarcômero nem troponina; o Ca2+ liga a calmodulina, que ativa a
+#     MLCK, que fosforila a miosina — a regulação é na miosina, não na actina. (origem: q-0380, q-0385)
+# - Quebra: confundir o sinal (causa) com o efeito downstream (consequência) na contração.
+#   Correção: o sinal de acoplamento é a subida do Ca2+ citosólico; a interação actina-miosina é
+#     consequência, não o gatilho. (origem: q-0063)
+# - Quebra: achar que a fibra esquelética se multiplica por mitose ao hipertrofiar.
+#   Correção: a fibra madura não entra em mitose; cresce por síntese de miofilamentos e é
+#     reparada pela diferenciação de células satélite. (origem: q-0186)
+# - Quebra: confundir disco intercalar (marcador do cardíaco) com tríade (estrutura do esquelético).
+#   Correção: disco intercalar é junção célula-célula (aderente + comunicante); tríade é túbulo T +
+#     2 cisternas do RS, dentro da fibra. (origem: q-0185)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Universais: Cat 1 (mecanismo parágrafo-a-parágrafo) → acoplamento excitação-contração 2.1;
+#   Cat 8 (atencao-box) → 1 box em 2.2 para a inversão da fonte de Ca2+ (RS×CICR); Cat 14 (siglas footnote).
+# Cat 7 (analogia construtiva) → deslizamento (régua telescópica que encurta sem encurtar as peças)
+#   e corpos densos do liso (cabos amarrados a nós que aproximam toda a célula). Usar com parcimônia.
+# Cat 16 (catálogo de família) + Cat 18 gatilho 3 (tabela de cruzamento) → TABELA dos 3 tipos em 2.3.
+# Cat 18 gatilho 1 (catálogo de tipos discretos, caso (c) critérios diagnósticos) → checklists de
+#   reconhecimento ao microscópio na PARTE III (1 traço definidor por linha, paralelismo).
+# Cat 15 (#figura-lateral) → corpos densos do liso (slide-53) + fuso muscular, texto curto + figura média.
+# Cat 17 (cadência dialogal) — leitura leve, 1-2 manobras por subtópico onde a prosa pedir.
+# ANTI-EXEMPLARES A4 (rajada de siglas) → vigiar em 2.1/2.2 (Ca2+, ATP, RS, DHPR, RyR juntos).
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "CCE"]
+    - ["03", "A"]
+    - ["04", "E"]
+    - ["05", "ECCE"]
+    - ["06", "D"]
+    - ["07", "C"]
+    - ["08", "CEC"]
+    - ["09", "A"]
+    - ["10", "EECC"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "CEE"]
+    - ["13", "B"]
+    - ["14", "E"]
+    - ["15", "CECC"]
+    - ["16", "C"]
+    - ["17", "A"]
+    - ["18", "ECE"]
+    - ["19", "D"]
+    - ["20", "B"]
+    - ["21", "CCEE"]
+    - ["22", "E"]
+    - ["23", "C"]
+    - ["24", "ECC"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "B"]
+    - ["28", "CEEC"]
+    - ["29", "E"]
+    - ["30", "C"]

@@ -1,0 +1,5635 @@
+{
+  "versao_schema": 2,
+  "tipo": "slim",
+  "descricao": "Frontmatter sem `itens` -- 5x menor que banco.json completo. Use para decisao de classificacao; leia .md completo so para questoes que vai usar na E4.",
+  "total": 409,
+  "questoes": [
+    {
+      "id": 1,
+      "tags": [
+        "transporte-membrana",
+        "bomba-na-k",
+        "transporte-ativo-primario"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "identificação da bomba Na/K como exemplo de transporte ativo primário pelo gasto direto de ATP, distinguindo de transporte secundário que usa gradiente previamente estabelecido",
+      "gabarito": "C",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 2,
+      "tags": [
+        "tonicidade",
+        "osmose",
+        "compartimentos-corporais",
+        "volume-celular"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "efeito da injeção de solução hipotônica no volume celular global, mediado por osmose entre compartimentos extracelular e intracelular",
+      "gabarito": "B",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 3,
+      "tags": [
+        "transporte-membrana",
+        "potencial-eletroquimico",
+        "energia-livre",
+        "transporte-ativo"
+      ],
+      "aula": "fisio-02-transporte-membrana",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "relação entre difusão, gradiente de potencial eletroquímico e transporte ativo — identificar afirmação INcorreta sobre energética do transporte",
+      "gabarito": "C"
+    },
+    {
+      "id": 4,
+      "tags": [
+        "bomba-na-k",
+        "ouabaina",
+        "gradientes-ionicos",
+        "intoxicacao-digitalica",
+        "calcio-intracelular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "consequências da inibição da bomba Na/K em células não-epiteliais — dissipação de gradientes, edema celular, elevação de Ca²⁺ intracelular via trocador Na/Ca, mas glicose não cai diretamente",
+      "gabarito": "D",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 5,
+      "tags": [
+        "proteinas-membrana",
+        "alfa-helice",
+        "glicosilacao",
+        "citoesqueleto",
+        "proteinas-extrinsecas"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "reconhecer afirmação incorreta sobre estrutura de proteínas de membrana — domínios transmembrana são alfa-hélice, não folha-beta",
+      "gabarito": "A",
+      "aula": "biocel-01-membrana-bicamada"
+    },
+    {
+      "id": 6,
+      "tags": [
+        "coeficiente-particao",
+        "lipossolubilidade",
+        "difusao-simples",
+        "transporte-membrana"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "substâncias lipossolúveis (coeficiente de partição alto) atravessam a bicamada por difusão simples, sem proteínas transportadoras",
+      "gabarito": "D",
+      "aula": "biocel-01-membrana-bicamada"
+    },
+    {
+      "id": 7,
+      "tags": [
+        "proteina-g",
+        "gpcr",
+        "toxina-colera",
+        "ribosilacao",
+        "camp",
+        "pka"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "mecanismo da toxina da cólera — ribosilação da subunidade alfa-s, inibição da GTPase, ativação persistente da adenilato ciclase, aumento sustentado de cAMP",
+      "gabarito": "E"
+    },
+    {
+      "id": 8,
+      "tags": [
+        "glut",
+        "transporte-glicose",
+        "difusao-facilitada",
+        "km",
+        "sensor-glicose",
+        "celulas-beta-pancreaticas"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "identificar afirmação incorreta sobre família GLUT — GLUTs fazem transporte BIDIRECIONAL (uniporte facilitado), não unidirecional",
+      "gabarito": "B",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 9,
+      "tags": [
+        "equilibrio-starling",
+        "pressao-oncotica",
+        "endotelio"
+      ],
+      "aula": "fisio-09-transporte-agua",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "edema intersticial por extravasamento de albumina — quando a barreira endotelial perde seletividade para proteína, a pressão oncótica do plasma cai e o equilíbrio de Starling favorece saída de líquido para o interstício",
+      "gabarito": "E"
+    },
+    {
+      "id": 10,
+      "tags": [
+        "bomba-na-k",
+        "transporte-ativo-primario",
+        "fosforilacao"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "ciclo da bomba Na/K — fosforilação da E1 (com Na ligado intracelular) muda para E2 (com afinidade alta por K extracelular), depois desfosforilação volta à E1",
+      "gabarito": "A",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 11,
+      "tags": [
+        "potencial-acao",
+        "periodo-refratario",
+        "canais-na-voltagem",
+        "inativacao-canal"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "período refratário relativo ocorre porque parte dos canais de Na dependentes de voltagem ainda está inativada — é possível disparar PA com estímulo mais forte, mas amplitude será menor",
+      "gabarito": "E"
+    },
+    {
+      "id": 12,
+      "tags": [
+        "potencial-membrana-repouso",
+        "equacao-goldman",
+        "permeabilidade-ionica",
+        "canais-vazamento"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "o potencial de repouso é determinado pelas permeabilidades relativas da membrana aos diferentes íons (não diretamente pela bomba Na/K nem pelo número absoluto de canais)",
+      "gabarito": "C",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 13,
+      "tags": [
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular",
+        "exocitose",
+        "mensageiro-celular"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "cálcio intracelular é o sinal universal que acopla excitação elétrica à resposta de secreção/contração da célula efetora",
+      "gabarito": "B"
+    },
+    {
+      "id": 14,
+      "tags": [
+        "bainha-mielina",
+        "conducao-saltatoria",
+        "capacitancia-membrana",
+        "axonio"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "bainha de mielina aumenta velocidade de PA por reduzir a capacitância da membrana, exigindo menos carga para despolarizar até o limiar",
+      "gabarito": "C"
+    },
+    {
+      "id": 15,
+      "tags": [
+        "gpcr",
+        "fosfolipase-c",
+        "ip3",
+        "reticulo-endoplasmatico",
+        "sinapse-metabotropica",
+        "calcio-intracelular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "cascata metabotrópica de glutamato — receptor mGluR ativa Gq, que ativa fosfolipase C, que cliva PIP2 em DAG e IP3; IP3 abre canais de Ca²⁺ no retículo endoplasmático",
+      "gabarito": "D"
+    },
+    {
+      "id": 16,
+      "tags": [
+        "potencial-membrana-repouso",
+        "equacao-goldman",
+        "permeabilidade-ionica",
+        "canais-vazamento"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Aplicação da equação de Goldman para determinar potencial de membrana em repouso considerando permeabilidades relativas dos íons",
+      "gabarito": "E",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 17,
+      "tags": [
+        "transporte-ativo-primario",
+        "bomba-na-k",
+        "energia-livre",
+        "gradientes-ionicos"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Análise quantitativa do transporte de Cl⁻ usando equação de Nernst para identificar transporte ativo contra gradiente eletroquímico",
+      "gabarito": "D",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 18,
+      "tags": [
+        "gpcr",
+        "camp",
+        "pka",
+        "mensageiro-celular",
+        "proteina-g"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Mecanismo de ação de hormônios via cAMP permevel comparado com ativação direta de PKC via IP3",
+      "gabarito": "E"
+    },
+    {
+      "id": 19,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "permeabilidade-ionica",
+        "equacao-goldman"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeito da mudança de permeabilidade relativa de Na⁺ sobre o potencial de membrana em repouso",
+      "gabarito": "A",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 20,
+      "tags": [
+        "canais-ionicos",
+        "permeabilidade-ionica",
+        "amortecimento-eletronico",
+        "capacitancia-membrana"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel de Cl⁻ como amortecedor de variações rápidas de potencial de membrana via redistribuição equilibradora",
+      "gabarito": "D"
+    },
+    {
+      "id": 21,
+      "tags": [
+        "gpcr",
+        "proteina-g",
+        "mensageiro-celular",
+        "adenilato-ciclase",
+        "camp"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Classificação estrutural de GPCRs e sua interação com proteína G",
+      "gabarito": "B"
+    },
+    {
+      "id": 22,
+      "tags": [
+        "mensageiro-celular",
+        "calcio-intracelular",
+        "fosfodiesterase",
+        "camp",
+        "ip3"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Integração de diferentes rotas de sinalização intracelular e funções de segundos mensageiros",
+      "gabarito": "C"
+    },
+    {
+      "id": 23,
+      "tags": [
+        "camp",
+        "proteina-g",
+        "toxina-pertussis",
+        "pka",
+        "gpcr"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Mecanismo de ação de toxina pertussis via ribosilação de proteína Gi e consequências sobre cAMP",
+      "gabarito": "A"
+    },
+    {
+      "id": 24,
+      "tags": [
+        "sinapse-metabotropica",
+        "fosfolipase-c",
+        "ip3",
+        "reticulo-endoplasmatico",
+        "calcio-intracelular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Mecanismo de liberação de Ca²⁺ em sinapses metabotrópicas por IP₃ abrir canais no retículo endoplasmático",
+      "gabarito": "D"
+    },
+    {
+      "id": 25,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "canais-k-voltagem",
+        "periodo-refratario",
+        "inativacao-canal"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Comprensão de que potencial de ação é resposta tudo-ou-nada; independência de amplitude e forma do potencial de repouso inicial",
+      "gabarito": "A"
+    },
+    {
+      "id": 26,
+      "tags": [
+        "inativacao-canal",
+        "canais-na-voltagem",
+        "periodo-refratario",
+        "potencial-acao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeito da rápida inativação de canais Na⁺ sobre a forma e duração do potencial de ação",
+      "gabarito": "C"
+    },
+    {
+      "id": 27,
+      "tags": [
+        "canais-k-voltagem",
+        "potencial-acao",
+        "repolarizacao",
+        "inativacao-canal"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Inibição parcial de canais K⁺ durante potencial de ação e suas consequências na despolarização e duração",
+      "gabarito": "D"
+    },
+    {
+      "id": 28,
+      "tags": [
+        "potencial-acao",
+        "plato",
+        "canais-ca-voltagem",
+        "repolarizacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Análise de potencial de ação com plato prolongado e identificação de mecanismo (canais Ca²⁺)",
+      "gabarito": "A"
+    },
+    {
+      "id": 29,
+      "tags": [
+        "conducao-eletrotonica",
+        "potencial-acao",
+        "axonio",
+        "resistencia-membrana",
+        "capacitancia-membrana"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Propagação eletrônica de potencial depende de resistência axoplasmática e membrana, não de voltagem-dependência",
+      "gabarito": "A"
+    },
+    {
+      "id": 30,
+      "tags": [
+        "sinapse-quimica",
+        "acoplamento-excitacao-secrecao",
+        "neurotransmissor",
+        "exocitose",
+        "calcio-intracelular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papéis essenciais de Ca²⁺ e vesículas sinápticas na transmissão sináptica química",
+      "gabarito": "E"
+    },
+    {
+      "id": 31,
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "energia-livre",
+        "gradientes-ionicos"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Identificação de transporte secundário (acoplado) versus primário baseado em acoplamento energético",
+      "gabarito": "D",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 32,
+      "tags": [
+        "compartimentos-corporais",
+        "osmose",
+        "volume-celular",
+        "tonicidade",
+        "pressao-oncotica"
+      ],
+      "aula": "fisio-09-transporte-agua",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Cálculo de distribuição de volume em compartimentos corporais após injeção de soluto",
+      "gabarito": "C"
+    },
+    {
+      "id": 33,
+      "tags": [
+        "compartimentos-corporais",
+        "volume-celular",
+        "osmose",
+        "tonicidade"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito de aumento de Na⁺ extracelular sobre volume dos compartimentos e equilíbrio osmótico",
+      "gabarito": "E",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 34,
+      "tags": [
+        "difusao-simples",
+        "lipossolubilidade",
+        "coeficiente-particao",
+        "permeabilidade-ionica"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel de lipossolubilidade e coeficiente de partição na difusão simples através de bicamada",
+      "gabarito": "A",
+      "aula": "biocel-01-membrana-bicamada"
+    },
+    {
+      "id": 35,
+      "tags": [
+        "energia-livre",
+        "termodinamica"
+      ],
+      "aula": "bioq-01-reacoes-quimicas",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Relação entre K (constante de equilíbrio) e espontaneidade (ΔG < 0)",
+      "gabarito": "C"
+    },
+    {
+      "id": 36,
+      "tags": [
+        "equacao-henderson-hasselbalch",
+        "buffers",
+        "ph",
+        "pka"
+      ],
+      "nivel": "medio",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Aplicação da equação Henderson-Hasselbalch para calcular pH de solução tampão após adição de ácido",
+      "gabarito": "D"
+    },
+    {
+      "id": 37,
+      "tags": [
+        "equacao-henderson-hasselbalch",
+        "acidose-metabolica",
+        "buffers"
+      ],
+      "nivel": "dificil",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Diagnóstico de acidose metabólica usando HCO₃⁻ e CO₂; resposta respiratória compensatória",
+      "gabarito": "E"
+    },
+    {
+      "id": 38,
+      "tags": [
+        "aminoacidos-propriedades",
+        "polaridade",
+        "hidrofobicidade",
+        "estrutura-proteina"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Classificação de aminoácidos por propriedades de polaridade e hidrofobicidade",
+      "gabarito": "D"
+    },
+    {
+      "id": 39,
+      "tags": [
+        "estrutura-proteina",
+        "ligacoes-hidrogeno",
+        "alfa-helice",
+        "folha-beta"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "bioq-05-proteinas-estrutura",
+      "conceito_central": "Ligações que determinam e estabilizam estruturas secundárias (hélice α e folha β)",
+      "gabarito": "A"
+    },
+    {
+      "id": 40,
+      "tags": [
+        "hemoglobina",
+        "regulacao-metabolica",
+        "efeito-bohr"
+      ],
+      "aula": "bioq-08b-hemoglobina-II",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeito Bohr: modulação alostérica de hemoglobina por H⁺ e CO₂; relação entre conformação e afinidade",
+      "gabarito": "B"
+    },
+    {
+      "id": 41,
+      "tags": [
+        "proteina-g",
+        "ribosilacao",
+        "sinapse-metabotropica",
+        "mensageiro-celular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Mecanismo de ribosilação por toxinas bacterianas e bloqueio de GTPase de proteína G",
+      "gabarito": "E"
+    },
+    {
+      "id": 42,
+      "tags": [
+        "sinapses-eletricas",
+        "juncoes-gap",
+        "conexinas",
+        "velocidade-propagacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Identificação de sinapses elétricas versus químicas por velocidade de transmissão",
+      "gabarito": "C"
+    },
+    {
+      "id": 43,
+      "aula": "fisio-05-potencial-acao",
+      "tags": [
+        "cone-inserao-axonio",
+        "densidade-canais",
+        "limiar",
+        "cone-insercao-axonio"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Razão anatomofisiológica para cone de inserção ter menor limiar (maior densidade de canais Na⁺)",
+      "gabarito": "E"
+    },
+    {
+      "id": 44,
+      "tags": [
+        "canais-ionicos",
+        "voltagem-dependencia",
+        "seletividade-ionica",
+        "sensor-voltagem"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Papel do domínio S4 com resíduos básicos na sensibilidade a voltagem de canais Na⁺",
+      "gabarito": "D"
+    },
+    {
+      "id": 45,
+      "tags": [
+        "integracao-sinaptica",
+        "somacao-temporal-espacial",
+        "dendritos",
+        "soma"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Papel da localização sináptica e da constante de tempo na somação de sinais subliminares",
+      "gabarito": "B"
+    },
+    {
+      "id": 50,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "inativacao-canal"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Compreensão dos requisitos essenciais para o disparo de um potencial de ação em axônios",
+      "gabarito": "C"
+    },
+    {
+      "id": 51,
+      "tags": [
+        "bainha-mielina",
+        "conducao-saltatoria",
+        "capacitancia-membrana",
+        "constante-espaco"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Mecanismo pelo qual a mielinização acelera a propagação do potencial de ação",
+      "gabarito": "C"
+    },
+    {
+      "id": 52,
+      "tags": [
+        "periodo-refratario",
+        "canais-na-voltagem",
+        "inativacao-canal"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Características fisiológicas do período refratário absoluto",
+      "gabarito": "E"
+    },
+    {
+      "id": 53,
+      "tags": [
+        "potencial-eletroquimico",
+        "equacao-goldman",
+        "potencial-membrana-repouso",
+        "permeabilidade-ionica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Determinação do potencial de repouso de membrana a partir de concentrações iônicas e permeabilidades relativas",
+      "gabarito": "C",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 54,
+      "tags": [
+        "receptor-sensorial",
+        "potencial-gerador",
+        "despolarizacao-graduada"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propriedades dos potenciais geradores em receptores sensoriais mecanicamente estimulados",
+      "gabarito": "D"
+    },
+    {
+      "id": 55,
+      "tags": [
+        "gpcr",
+        "mensageiro-celular",
+        "ip3",
+        "reticulo-endoplasmatico",
+        "calcio-intracelular"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Transdução de sinal via GPCR acoplado a fosfolipase C e liberação de Ca2+ do retículo endoplasmático",
+      "gabarito": "D"
+    },
+    {
+      "id": 56,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "receptores-ionotropicos",
+        "canais-ionicos"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Mecanismo geral de transmissão sináptica química e papel de neurotransmissores e receptores",
+      "gabarito": "E"
+    },
+    {
+      "id": 57,
+      "tags": [
+        "canais-ionicos",
+        "gaba-receptor",
+        "potencial-equilibrio"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Alteração do efeito inibitório do GABA quando muda o potencial de equilíbrio de Cl- via cotransportadores",
+      "gabarito": "E"
+    },
+    {
+      "id": 58,
+      "tags": [
+        "sinapse-quimica",
+        "bloqueio-neuromuscular",
+        "acetilcolina",
+        "receptores-colinergicos"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Identificação do mecanismo de bloqueio da transmissão sináptica preservando potenciais de ação",
+      "gabarito": "E"
+    },
+    {
+      "id": 59,
+      "tags": [
+        "sinapses-eletricas",
+        "conexinas",
+        "sinapse-quimica"
+      ],
+      "aula": "imuno-01-disturbios-imunidade",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Estrutura molecular das sinapses elétricas e formação de canais de comunicação intercelular",
+      "gabarito": "A"
+    },
+    {
+      "id": 60,
+      "tags": [
+        "osmose",
+        "tonicidade",
+        "compartimentos-corporais",
+        "equilibrio-starling"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito de alterações de osmolaridade extracelular no volume celular e mecanismos compensatórios",
+      "gabarito": "A"
+    },
+    {
+      "id": 61,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "receptor-sensorial",
+        "adaptacao-sensorial",
+        "receptor-mecanico",
+        "potencial-gerador"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Definição do fenômeno de adaptação sensorial em receptores",
+      "gabarito": "B"
+    },
+    {
+      "id": 62,
+      "tags": [
+        "limiar",
+        "potencial-membrana-repouso",
+        "canais-na-voltagem",
+        "densidade-canais"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Fatores que determinam o valor do limiar de uma região de membrana excitável",
+      "gabarito": "D"
+    },
+    {
+      "id": 63,
+      "tags": [
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular",
+        "sinapse-quimica",
+        "exocitose"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Sinal universal que acopla excitação neuronal à resposta efetora (contração muscular ou secreção glandular)",
+      "gabarito": "B"
+    },
+    {
+      "id": 64,
+      "tags": [
+        "potencial-acao",
+        "anestesicos-locais",
+        "canais-na-voltagem",
+        "bloqueio-neural"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Mecanismo de ação dos anestésicos locais sobre a condução do impulso nervoso",
+      "gabarito": "E"
+    },
+    {
+      "id": 65,
+      "tags": [
+        "periodo-refratario",
+        "cinetica-canal",
+        "inativacao-canal",
+        "frequencia-disparo"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeito de alterações na cinética de recuperação de inativação sobre frequência máxima de disparo",
+      "gabarito": "B"
+    },
+    {
+      "id": 66,
+      "tags": [
+        "gpcr",
+        "mensageiro-celular",
+        "camp"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Ativação funcional de fatores de transcrição pré-existentes por cascatas de sinalização",
+      "gabarito": "B"
+    },
+    {
+      "id": 67,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "estimulo-sensorial",
+        "receptor-mecanico",
+        "codificacao-neuronal",
+        "integracao-sinaptica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Integração sináptica: número de sinapses simultaneamente ativas necessário para atingir o limiar no cone de inserção",
+      "gabarito": "C"
+    },
+    {
+      "id": 68,
+      "tags": [
+        "nervo-misto",
+        "conducao",
+        "velocidade-propagacao",
+        "anestesicos-locais",
+        "fibras-amielnicas"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Relação entre tipo de fibra, velocidade de condução e seletividade de bloqueio por anestésicos locais",
+      "gabarito": "E"
+    },
+    {
+      "id": 69,
+      "tags": [
+        "sinapse-quimica",
+        "potencial-pos-sinaptico",
+        "neurotransmissor",
+        "inibicao-pre-sinaptica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeito de despolarização pré-sináptica sobre a amplitude do PEPS (inibição pré-sináptica)",
+      "gabarito": "B"
+    },
+    {
+      "id": 70,
+      "tags": [
+        "sinapse-quimica",
+        "potencial-equilibrio",
+        "permeabilidade-seletiva",
+        "peps"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Determinação do valor máximo de potencial pós-sináptico quando o canal é permeável a múltiplos íons",
+      "gabarito": "B",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 71,
+      "tags": [
+        "quimiorrecepcao",
+        "osmolaridade",
+        "tonicidade",
+        "canais-sensiveis-tensao",
+        "volume-celular"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Mecanismos moleculares necessários para que um receptor transduza variações de osmolaridade",
+      "gabarito": "A"
+    },
+    {
+      "id": 72,
+      "tags": [
+        "osmose",
+        "tonicidade",
+        "volume-celular",
+        "compartimentos-corporais"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito de solução hipotônica em volume celular e distribuição de fluidos",
+      "gabarito": "B"
+    },
+    {
+      "id": 73,
+      "tags": [
+        "energia-livre",
+        "difusao",
+        "potencial-quimico",
+        "transporte-ativo",
+        "termodinamica"
+      ],
+      "aula": "bioq-01-reacoes-quimicas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Conceitos de energia livre, potencial químico e força motriz para transportes iônicos",
+      "gabarito": "C"
+    },
+    {
+      "id": 74,
+      "tags": [
+        "ouabaina",
+        "bomba-na-k",
+        "transporte-ativo-primario",
+        "gradientes-ionicos",
+        "calcio-intracelular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Efeitos da inibição da bomba Na-K pela ouabaína em células não-epiteliais",
+      "gabarito": "D",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 75,
+      "tags": [
+        "proteina-membrana",
+        "bicamada-lipidica",
+        "alfa-helice",
+        "folha-beta",
+        "estrutura-proteina"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "bioq-05-proteinas-estrutura",
+      "conceito_central": "Interação entre bicamada lipídica e estrutura de proteínas intrínsecas de membrana",
+      "gabarito": "A"
+    },
+    {
+      "id": 76,
+      "tags": [
+        "osmose",
+        "compartimentos-corporais",
+        "equilibrio-starling",
+        "permeabilidade-membrana"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Barreiras entre compartimentos corporais e equilíbrio osmótico e hidrodinâmico",
+      "gabarito": "C",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 77,
+      "tags": [
+        "lipossolubilidade",
+        "coeficiente-particao",
+        "difusao-simples",
+        "transporte-membrana"
+      ],
+      "aula": "fisio-02-transporte-membrana",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Transporte de moléculas lipossoluveis através da membrana sem estruturas especializadas",
+      "gabarito": "D"
+    },
+    {
+      "id": 78,
+      "tags": [
+        "potencial-membrana-repouso",
+        "despolarizacao",
+        "calcio-transporte",
+        "potencial-eletroquimico"
+      ],
+      "aula": "fisio-02-transporte-membrana",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito de despolarização sobre o transporte de Ca2+ sem mudanças nos gradientes iônicos",
+      "gabarito": "B"
+    },
+    {
+      "id": 79,
+      "tags": [
+        "proteina-g",
+        "gpcr",
+        "camp",
+        "adenilato-ciclase",
+        "pka",
+        "toxina-ribosil"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Efeito de toxina ribosiladora de proteína G sobre resposta a hormônios e cAMP",
+      "gabarito": "E"
+    },
+    {
+      "id": 80,
+      "tags": [
+        "canais-ionicos",
+        "seletividade-canal",
+        "interacao-ionica",
+        "bloqueio-canal",
+        "gating"
+      ],
+      "aula": "bioq-08a-hemoglobina-I",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Mecanismos de seletividade em canais iônicos e relação entre seletividade e gating",
+      "gabarito": "B"
+    },
+    {
+      "id": 81,
+      "tags": [
+        "glut",
+        "transportador-glicose",
+        "km",
+        "insulina",
+        "transporte-membrana"
+      ],
+      "aula": "fisio-02-transporte-membrana",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propriedades funcionais de diferentes isoformas de GLUT e regulação por insulina",
+      "gabarito": "B"
+    },
+    {
+      "id": 82,
+      "tags": [
+        "bicamada-lipidica",
+        "colesterol",
+        "fosfolipidios",
+        "insaturacao",
+        "fluidez-membrana"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Estrutura de bicamadas lipídicas e papel do colesterol na estabilidade de membrana",
+      "gabarito": "B",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 83,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "despolarizacao",
+        "repolarizacao",
+        "periodo-refratario"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Sequência de eventos durante potencial de ação e papel de canais de Na+ e K+ voltagem-dependentes",
+      "gabarito": "C"
+    },
+    {
+      "id": 84,
+      "tags": [
+        "bainha-mielina",
+        "conducao-saltatoria",
+        "potencial-acao",
+        "velocidade-conducao"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Importância da mielinização e condução saltatória na velocidade de transmissão do potencial de ação",
+      "gabarito": "A"
+    },
+    {
+      "id": 85,
+      "tags": [
+        "anestesicos-locais",
+        "bloqueio-canal",
+        "canais-na-voltagem",
+        "conducao-nervosa"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Mecanismo de ação de anestésicos locais bloqueando condução nervosa",
+      "gabarito": "D"
+    },
+    {
+      "id": 86,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular",
+        "exocitose"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel do Ca2+ intracelular e exocitose na liberação de neurotransmissores em sinapses",
+      "gabarito": "B"
+    },
+    {
+      "id": 87,
+      "tags": [
+        "receptores-ionotropicos",
+        "gaba-receptor",
+        "acetilcolina",
+        "peps",
+        "inibicao-sinaptica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propriedades de receptores ionotrópicos e diferença entre receptores excitatórios e inibitórios",
+      "gabarito": "C"
+    },
+    {
+      "id": 88,
+      "tags": [
+        "integracao-sinaptica",
+        "somacao-temporal-espacial",
+        "limiar-disparo"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Integração de múltiplas entradas sinápticas na soma neuronal e geração de potencial de ação",
+      "gabarito": "B"
+    },
+    {
+      "id": 89,
+      "tags": [
+        "inibicao-pre-sinaptica",
+        "neuromodulacao",
+        "sinapses-eletricas",
+        "conexinas",
+        "juncoes-gap"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Mecanismos de modulação pré-sináptica e comparação entre sinapses elétricas e químicas",
+      "gabarito": "A"
+    },
+    {
+      "id": 90,
+      "tags": [
+        "buffers",
+        "ph",
+        "equacao-henderson-hasselbalch",
+        "hemoglobina",
+        "termoregulacao"
+      ],
+      "nivel": "medio",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Sistema de buffer e manutenção de pH em sistemas biológicos",
+      "gabarito": "B"
+    },
+    {
+      "id": 91,
+      "tags": [
+        "potencial-repouso",
+        "equacao-goldman",
+        "gradientes-ionicos",
+        "permeabilidade-ionica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Cálculo do potencial de membrana em repouso usando equação de Goldman",
+      "gabarito": "C",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 92,
+      "tags": [
+        "canais-k-voltagem",
+        "inativacao-canal",
+        "periodo-refratario-relativo",
+        "repolarizacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Período refratário e papel da inativação de canais na excitabilidade neuronal",
+      "gabarito": "B"
+    },
+    {
+      "id": 93,
+      "tags": [
+        "transporte-ativo-primario",
+        "bomba-na-k",
+        "energia-atp",
+        "gradientes-ionicos"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Bomba Na-K como transportador ativo primário e seu papel na manutenção de gradientes",
+      "gabarito": "A",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 94,
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "simporte",
+        "antiporte",
+        "energia-livre"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Transportes secundários e aproveitamento de gradientes iônicos para transportar outros solutos",
+      "gabarito": "B",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 95,
+      "tags": [
+        "endocitose",
+        "exocitose",
+        "vesiculas-revestidas",
+        "clatrina",
+        "mecanismo-transporte"
+      ],
+      "aula": "biocel-04-compartimentos-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Endocitose mediada por receptor e formação de vesículas revestidas",
+      "gabarito": "C"
+    },
+    {
+      "id": 96,
+      "tags": [
+        "reticulo-endoplasmatico",
+        "calcio-intracelular",
+        "liberacao-calcio",
+        "armazenamento"
+      ],
+      "aula": "biocel-03-compartimentos-I",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel do retículo endoplasmático como reservatório de Ca2+ intracelular",
+      "gabarito": "B"
+    },
+    {
+      "id": 97,
+      "tags": [
+        "gpcr",
+        "receptor-sensorial",
+        "mensageiro-celular",
+        "amplificacao-sinal"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Amplificação de sinal em cascatas de transdução através de GPCRs",
+      "gabarito": "A"
+    },
+    {
+      "id": 98,
+      "tags": [
+        "fosfolipase-c",
+        "ip3",
+        "diacilglicerol",
+        "mensageiro-celular",
+        "proteina-kinase-c"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Via de transdução através de fosfolipase C e produção de IP3 e diacilglicerol",
+      "gabarito": "C"
+    },
+    {
+      "id": 99,
+      "tags": [
+        "sinapse-metabotropica",
+        "metabotropico-vs-ionotropico",
+        "tempo-resposta"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Diferenças funcionales entre sinapses ionotrópicas e metabotrópicas",
+      "gabarito": "B"
+    },
+    {
+      "id": 100,
+      "tags": [
+        "capacitancia-membrana",
+        "resistencia-membrana",
+        "propriedades-eletricas"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Propriedades elétricas passivas da membrana plasmática e seu papel na propagação de potencial",
+      "gabarito": "B"
+    },
+    {
+      "id": 101,
+      "tags": [
+        "canais-ca-voltagem",
+        "plato-potencial-acao",
+        "miocardio",
+        "contratilidade"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel de canais de Ca2+ voltagem-dependentes na geração do platô do potencial de ação cardíaco",
+      "gabarito": "C"
+    },
+    {
+      "id": 102,
+      "tags": [
+        "difusao-facilitada",
+        "saturacao-transportador",
+        "cinética-michaelis",
+        "velocidade-transporte"
+      ],
+      "aula": "fisio-02-transporte-membrana",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Cinética de difusão facilitada e saturação de transportadores",
+      "gabarito": "A"
+    },
+    {
+      "id": 103,
+      "tags": [
+        "potencial-equilibrio",
+        "nernst",
+        "estado-estacionario",
+        "voltagem-repouso"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Distinção entre potencial de equilíbrio e potencial de repouso em membranas biológicas",
+      "gabarito": "B",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 104,
+      "tags": [
+        "inativacao-canal",
+        "loop-inativador",
+        "conformacao-canal",
+        "periodo-refratario"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Mecanismo molecular de inativação de canais iônicos e suas consequências fisiológicas",
+      "gabarito": "C"
+    },
+    {
+      "id": 105,
+      "tags": [
+        "axonio",
+        "potencial-acao",
+        "diametro-axonal",
+        "resistencia-axial"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito do diâmetro do axônio na velocidade de propagação de potencial de ação",
+      "gabarito": "B"
+    },
+    {
+      "id": 106,
+      "tags": [
+        "beta-oxidacao",
+        "fosforilacao-oxidativa",
+        "metabolismo-integrado"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Saldo de ATP da beta-oxidacao e fosforilacao oxidativa",
+      "gabarito": "D"
+    },
+    {
+      "id": 107,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "desacoplador"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Especies reativas de oxigenio (ROS) e cadeia respiratoria",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 108,
+      "tags": [
+        "transcricao",
+        "rna-polimerase"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Transcricao e RNA polimerase",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 109,
+      "tags": [
+        "operon-lac",
+        "regulacao-genica"
+      ],
+      "aula": "biomol-24-regulacao-expressao",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Regulacao do operon lac",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 110,
+      "tags": [
+        "processamento-mrna",
+        "splicing",
+        "cap5",
+        "poliadenilacao"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Processamento de RNA em eucariotos",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 111,
+      "tags": [
+        "traducao",
+        "aminoacil-trna",
+        "ribossomo"
+      ],
+      "aula": "biomol-23-traducao",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Traducao e aminoacil-tRNA sintetases",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 112,
+      "tags": [
+        "potencial-acao",
+        "tudo-ou-nada",
+        "periodo-refratario",
+        "canais-na-voltagem",
+        "canais-k-voltagem"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Oscilação de potencial de membrana com cinéticas diferentes de Na+ e K+ é necessariamente tudo-ou-nada",
+      "gabarito": "Probabilístico em nível microscópico; função sigmóide. Abertura rápida de Na+, lenta de K+. Período refratário absoluto impede propagação de outro PA."
+    },
+    {
+      "id": 113,
+      "tags": [
+        "potencial-acao",
+        "sinapse-quimica",
+        "integracao-sinaptica",
+        "somacao-temporal-espacial"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Neurônio em circuito neural recebe sinais sinápticos; processos que levam ao disparo de PA e suas consequências",
+      "gabarito": "Neurônio em circuito não tem receptores próprios; recebe sinais sinápticos que se somam (temporal e espacial). Se somação atinge limiar, dispara PA que se propaga ao axônio terminal."
+    },
+    {
+      "id": 114,
+      "tags": [
+        "gpcr",
+        "proteina-g",
+        "adenilato-ciclase",
+        "camp",
+        "pka"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "GPCR ativa adenilato ciclase via proteína G, aumentando cAMP",
+      "gabarito": "B"
+    },
+    {
+      "id": 115,
+      "tags": [
+        "sinalizacao-intracelular",
+        "camp",
+        "fosfodiesterase",
+        "ip3",
+        "fosfatidil-inositol",
+        "ca2-plus"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Segundo mensageiro modifica proteínas e altera fenótipo; fosfodiesterases interrompem ação",
+      "gabarito": "C"
+    },
+    {
+      "id": 116,
+      "tags": [
+        "camp",
+        "gpcr",
+        "proteina-g",
+        "adenilato-ciclase",
+        "pka",
+        "toxina-pertussis"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Toxina pertussis bloqueia proteína Gi, impedindo hidrólise de GTP; efeito em via cAMP",
+      "gabarito": "B"
+    },
+    {
+      "id": 117,
+      "tags": [
+        "sinapse-quimica",
+        "metabotropica",
+        "glutamato",
+        "fosfolipase-c",
+        "ip3",
+        "calcio-intracelular",
+        "reticulo-endoplasmatico"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Glutamato em sinapse metabotrópica ativa fosfolipase C → IP3 → liberação de Ca2+ do RE",
+      "gabarito": "D"
+    },
+    {
+      "id": 118,
+      "tags": [
+        "canais-sensaveis-estiramento",
+        "potencial-receptor",
+        "potencial-graduado",
+        "despolarizacao",
+        "somacao-espacial"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Receptor sensorial com canais sensíveis a estiramento gera potencial graduado, não tudo-ou-nada",
+      "gabarito": "D"
+    },
+    {
+      "id": 119,
+      "tags": [
+        "potencial-receptor",
+        "potencial-graduado",
+        "somacao-espacial",
+        "receptor-sensorial",
+        "propagacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Potencial graduado em receptor sensorial: amplitude proporcional ao estímulo, sem atenuação apenas se mielinizado",
+      "gabarito": "D"
+    },
+    {
+      "id": 120,
+      "tags": [
+        "potencial-acao",
+        "periodo-refratario",
+        "canais-na-voltagem",
+        "cinetica-ativacao",
+        "cinetica-inativacao"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "PA: sem atenuação, depende de Na+ e K+ voltagem-dependentes, período refratário segue transiente",
+      "gabarito": "A"
+    },
+    {
+      "id": 121,
+      "tags": [
+        "limiar",
+        "potencial-acao",
+        "canais-na-voltagem",
+        "canais-k-voltagem",
+        "potencial-eletroquimico"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Limiar: ponto onde corrente de Na+ supera a de K+ (e outras), disparando PA",
+      "gabarito": "A"
+    },
+    {
+      "id": 122,
+      "tags": [
+        "inativacao-canal",
+        "canais-na-voltagem",
+        "cinética",
+        "periodo-refratario",
+        "duracao-pa"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Inativação mais rápida de Na+ → repolarização e período refratário mais curtos",
+      "gabarito": "A"
+    },
+    {
+      "id": 123,
+      "tags": [
+        "tudo-ou-nada",
+        "potencial-repouso",
+        "inativacao-canal",
+        "limiar",
+        "canais-na-voltagem"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Em potencial de repouso diferente, PA é idêntico → populações de canais em mesmos estados de inativação",
+      "gabarito": "D"
+    },
+    {
+      "id": 124,
+      "tags": [
+        "canais-k-voltagem",
+        "canais-na-voltagem",
+        "potencial-acao",
+        "repolarizacao",
+        "amplitude"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Bloqueio parcial de K+ voltagem-dependente → repolarização mais lenta, PA mais longo e maior amplitude",
+      "gabarito": "D"
+    },
+    {
+      "id": 125,
+      "tags": [
+        "plato",
+        "potencial-acao",
+        "canais-ca-voltagem",
+        "canais-na-voltagem",
+        "repolarizacao",
+        "inativacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "PA com platô: despolarização rápida (Na+) seguida por platô (Ca2+), repolarização lenta",
+      "gabarito": "B"
+    },
+    {
+      "id": 126,
+      "tags": [
+        "propagacao-eletrotonica",
+        "resistencia-membrana",
+        "capacitancia-membrana",
+        "constante-comprimento",
+        "axonio"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Propagação eletrônica: depende de resistência axial (menor = mais longe) e capacitância (menor = mais rápido)",
+      "gabarito": "A"
+    },
+    {
+      "id": 127,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "acetilcolina",
+        "peps",
+        "calcio-intracelular",
+        "exocitose"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Sinapse química ionotrópica: Ca2+ abre em terminal pré, neurotransmissor abaixa limiar pós",
+      "gabarito": "E"
+    },
+    {
+      "id": 128,
+      "tags": [
+        "glutamato",
+        "receptores-ionotropicos",
+        "receptores-nmda",
+        "calcio-intracelular",
+        "neurotoxicidade",
+        "excitabilidade"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Glutamato ativa NMDA → Ca2+ intracelular; excesso é tóxico → excitotoxicidade",
+      "gabarito": "C"
+    },
+    {
+      "id": 129,
+      "tags": [
+        "transmissao-neuromuscular",
+        "acetilcolina",
+        "tubocurarina",
+        "acetilcolinesterase",
+        "potencial-acao"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Droga bloqueia transmissão neuromuscular; PA preservados. Bloqueio está na sinapse (pré ou pós)",
+      "gabarito": "E"
+    },
+    {
+      "id": 130,
+      "tags": [
+        "sinapses-eletricas",
+        "conexinas",
+        "juncoes-gap",
+        "retardo"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Sinapse elétrica: retardo < 0.1 ms, via conexinas e junções gap",
+      "gabarito": "C"
+    },
+    {
+      "id": 131,
+      "tags": [
+        "cone-insercao-axonio",
+        "cone-inserção",
+        "limiar",
+        "densidade-canais",
+        "propagacao-eletrotonica"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Cone de inserção dispara primeiro: limiar mais baixo por somação de sinais sinápticos ou maior densidade de canais Na+",
+      "gabarito": "Entre as opções, há múltiplas explicações válidas. A principal: (2) densidade de Na+ maior, (3) densidade de K+ menor, (4) menor atenuação eletrônica no cone. A opção (1) é falsa: regiões têm limiares diferentes."
+    },
+    {
+      "id": 132,
+      "aula": "fisio-05-potencial-acao",
+      "tags": [
+        "mutagenese",
+        "canais-na-voltagem",
+        "s4-segment",
+        "sensor-voltagem",
+        "seletividade-ionica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Segmento S4 tem resíduos carregados positivamente (K, R); substituição por G → perda de sensibilidade a voltagem",
+      "gabarito": "D"
+    },
+    {
+      "id": 133,
+      "tags": [
+        "somacao-temporal-espacial",
+        "sinapses-excitatoria",
+        "sinapses-inibitoria",
+        "integracao-sinaptica",
+        "atenuacao-eletrotonica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Somação espacial é não-linear; sinapses no corpo celular são mais eficientes; atenuação de sinais distantes é maior",
+      "gabarito": "B"
+    },
+    {
+      "id": 134,
+      "tags": [
+        "osmose",
+        "pressao-osmotica",
+        "tonicidade",
+        "equilíbrio-osmótico"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Pressão osmótica necessária para evitar fluxo de água em solução hipertônica",
+      "gabarito": "A",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 135,
+      "tags": [
+        "osmose",
+        "tonicidade",
+        "isosmotica",
+        "hipertonica",
+        "hipotónica",
+        "coeficiente-reflexao"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Solução isosmótica pode ser hipertônica se coeficiente de reflexão < 1 (soluto penetra)",
+      "gabarito": "C",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 136,
+      "tags": [
+        "estresse-osmotico",
+        "murchamento-celular",
+        "regulacao-volume"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Estresse hipertônico: murchamento inicial, depois recuperação volume por aumento osmóios intracelulares",
+      "gabarito": "D",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 137,
+      "tags": [
+        "estresse-osmotico",
+        "furosemide",
+        "cotransporte-nkcc1",
+        "regulacao-volume"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Furosemide bloqueia NKCC1 → impossibilita recuperação de volume rápida em estresse hipertônico",
+      "gabarito": "C"
+    },
+    {
+      "id": 138,
+      "tags": [
+        "osmose",
+        "pressao-osmotica",
+        "pressao-hidrostatica",
+        "equilíbrio-osmótico",
+        "desequilibrio-osmotico"
+      ],
+      "aula": "fisio-09-transporte-agua",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Após RVI, célula mantém-se em desequilíbrio osmótico com solução extracelular; pressão hidrostática balanceia",
+      "gabarito": "D"
+    },
+    {
+      "id": 139,
+      "tags": [
+        "osmose",
+        "plasma",
+        "intersticio",
+        "macromoleculas",
+        "proteinas",
+        "absorçao-agua",
+        "renal-glomérulo"
+      ],
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Plasma é hiperosmótico (macromoléculas); força de Starling governa transferência de água entre plasma e interstício",
+      "gabarito": "A-V; B-V; C-V; D-V; E-F",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 140,
+      "tags": [
+        "homeostase",
+        "retroalimentacao-negativa",
+        "feedback-negativo",
+        "regulacao-hormonal",
+        "sensor",
+        "efetor"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Sensor em retroalimentação negativa: detecta continuamente e controla efetor para manter variável",
+      "gabarito": "B",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 141,
+      "tags": [
+        "homeostase",
+        "retroalimentacao-negativa",
+        "oscilacao",
+        "ganho-sistema",
+        "set-point"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Homeostase: variável oscila com amplitude determinada pelo ganho; sensor pode ajustar set-point",
+      "gabarito": "C",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": "q-0142",
+      "tags": [
+        "termodinamica",
+        "espontaneidade",
+        "energia-livre"
+      ],
+      "aula": "bioq-14-introducao-metabolismo",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Interpretação de K grande e espontaneidade da reação",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0143",
+      "tags": [
+        "ph",
+        "pka",
+        "equacao-henderson-hasselbalch",
+        "tampao",
+        "buffers"
+      ],
+      "nivel": "dificil",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Cálculo de pH usando Henderson-Hasselbalch com adição de ácido",
+      "gabarito": "B"
+    },
+    {
+      "id": "q-0144",
+      "tags": [
+        "ph",
+        "buffers",
+        "acidose",
+        "alcalose",
+        "equilibrio-acido-base",
+        "bicarbonato"
+      ],
+      "nivel": "dificil",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Diagnóstico de distúrbio ácido-base (acidose vs alcalose)",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0145",
+      "tags": [
+        "ph",
+        "resposta-respiratoria",
+        "compensacao",
+        "acidemia",
+        "co2",
+        "bicarbonato"
+      ],
+      "nivel": "medio",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Compensação respiratória da acidemia",
+      "gabarito": "E"
+    },
+    {
+      "id": "q-0146",
+      "tags": [
+        "aminoacidos",
+        "propriedades",
+        "radicais",
+        "hidrofobo",
+        "hidrofobo-aromatico",
+        "carregado",
+        "polar"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propriedades dos radicais de aminoácidos",
+      "gabarito": "D"
+    },
+    {
+      "id": "q-0147",
+      "tags": [
+        "titulacao",
+        "aminoacidos",
+        "pka",
+        "ponto-isoeletrico",
+        "carboxila",
+        "amino",
+        "radical"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Identificação de forma de aminoácido em curva de titulação",
+      "gabarito": "A"
+    },
+    {
+      "id": "q-0148",
+      "tags": [
+        "proteinas",
+        "estrutura",
+        "ligacoes-hidrogenio",
+        "hidrofobicidade",
+        "dobramento",
+        "solvatacao",
+        "entropia"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "bioq-05-proteinas-estrutura",
+      "conceito_central": "Fatores determinantes do dobramento de proteínas",
+      "gabarito": "E"
+    },
+    {
+      "id": "q-0149",
+      "tags": [
+        "colesterol",
+        "membrana",
+        "lipidios",
+        "fluidez",
+        "rigidez",
+        "propriedades-membrana"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel do colesterol na fluidez e propriedades de membrana",
+      "gabarito": "C",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": "q-0150",
+      "tags": [
+        "termodinamica",
+        "espontaneidade",
+        "entalpia",
+        "entropia",
+        "energia-livre",
+        "gibbs"
+      ],
+      "aula": "bioq-14-introducao-metabolismo",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Condições de espontaneidade independente de temperatura",
+      "gabarito": "D"
+    },
+    {
+      "id": "q-0151",
+      "tags": [
+        "ph",
+        "pka",
+        "equacao-henderson-hasselbalch",
+        "tampao",
+        "bicarbonato",
+        "acidemia"
+      ],
+      "nivel": "dificil",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Cálculo de pH do sangue usando Henderson-Hasselbalch",
+      "gabarito": "A"
+    },
+    {
+      "id": "q-0152",
+      "tags": [
+        "ph",
+        "buffers",
+        "acidose",
+        "alcalose",
+        "equilibrio-acido-base",
+        "diagnostico"
+      ],
+      "nivel": "dificil",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Diagnóstico de distúrbio ácido-base pela concentração de CO₂ e HCO₃⁻",
+      "gabarito": "D"
+    },
+    {
+      "id": "q-0153",
+      "tags": [
+        "ph",
+        "alcalose",
+        "resposta-respiratoria",
+        "vomito",
+        "disturbio-acido-base",
+        "compensacao"
+      ],
+      "nivel": "medio",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "MC",
+      "conceito_central": "Compensação respiratória da alcalose metabólica por vômitos",
+      "gabarito": "A"
+    },
+    {
+      "id": "q-0154",
+      "tags": [
+        "glicólise",
+        "equilíbrio",
+        "energia-livre",
+        "frutose-6-fosfato",
+        "glicose-6-fosfato",
+        "termodinamica"
+      ],
+      "aula": "bioq-14-introducao-metabolismo",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Cálculo de ΔG° e ΔG' em reação de isomerização",
+      "gabarito": "Vide justificativa"
+    },
+    {
+      "id": "q-0155",
+      "tags": [
+        "piruvato-carboxilase",
+        "acomp-ativacao",
+        "modulacao-alosterica",
+        "regulacao-metabolica",
+        "enzimas"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Regulação alostérica de piruvato carboxilase",
+      "gabarito": "Vide justificativa",
+      "aula": "bioq-11-enzimas-II-regulacao"
+    },
+    {
+      "id": "q-0156",
+      "tags": [
+        "metabolismo",
+        "gluconeogenese",
+        "lipogenese",
+        "sintese-proteina",
+        "vias-biosinteticas"
+      ],
+      "aula": "bioq-22-lipideos-regulacao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Biosíntese possíveis a partir de diferentes substratos",
+      "gabarito": "Vide justificativa"
+    },
+    {
+      "id": "q-0157",
+      "tags": [
+        "krebs",
+        "intermediarios",
+        "succinato",
+        "fumarato",
+        "malato",
+        "oxaloacetato",
+        "isocitrato"
+      ],
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Identificação de intermediários do ciclo de Krebs",
+      "gabarito": "Vide justificativa"
+    },
+    {
+      "id": "q-0158",
+      "tags": [
+        "enzimas",
+        "cinética",
+        "km",
+        "vmax",
+        "substrato",
+        "michaelis-menten",
+        "catalise"
+      ],
+      "aula": "bioq-10-enzimas-I-cinetica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Interpretação de parâmetros cinéticos de enzimas",
+      "gabarito": "B"
+    },
+    {
+      "id": "q-0159",
+      "tags": [
+        "transporte-membrana",
+        "osmose",
+        "tonicidade",
+        "volume-celular",
+        "solutos",
+        "agua"
+      ],
+      "aula": "fisio-09-transporte-agua",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Efeito de soluções hipotônicas, isotônicas e hipertônicas no volume celular",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0160",
+      "tags": [
+        "bomba-na-k",
+        "transporte-ativo",
+        "atp",
+        "gradiente-eletroquimico",
+        "eletroliticos"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Funcionamento e importância da bomba Na⁺/K⁺-ATPase",
+      "gabarito": "A",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": "q-0161",
+      "tags": [
+        "potencial-membrana-repouso",
+        "equacao-goldman",
+        "concentracao-ionica",
+        "permeabilidade"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Cálculo do potencial de membrana usando equação de Goldman",
+      "gabarito": "B"
+    },
+    {
+      "id": "q-0162",
+      "tags": [
+        "potencial-acao",
+        "despolarizacao",
+        "repolarizacao",
+        "canais-na-voltagem",
+        "canais-k-voltagem",
+        "inativacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Fases do potencial de ação e seus mecanismos iônicos",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0163",
+      "tags": [
+        "periodo-refratario",
+        "inativacao-canal",
+        "potencial-acao",
+        "limiar",
+        "excitabilidade"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Período refratário absoluto vs relativo",
+      "gabarito": "A"
+    },
+    {
+      "id": "q-0164",
+      "tags": [
+        "conducao-saltatoria",
+        "bainha-mielina",
+        "velocidade-conducao",
+        "distancia-entre-nos"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Condução saltatorial vs condução contínua",
+      "gabarito": "B"
+    },
+    {
+      "id": "q-0165",
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "exocitose",
+        "calcio-intracelular",
+        "acoplamento-excitacao-secrecao"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Mecanismo de liberação de neurotransmissores",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0166",
+      "tags": [
+        "acetilcolina",
+        "receptores",
+        "nicotinico",
+        "muscarinicos",
+        "neurotransmissao",
+        "sinapse"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Tipos de receptores de acetilcolina",
+      "gabarito": "D"
+    },
+    {
+      "id": "q-0167",
+      "tags": [
+        "integracao-sinaptica",
+        "somacao-temporal-espacial",
+        "psps",
+        "potencial-pós-sinaptico",
+        "excitatorio",
+        "inibitorio"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Soma temporal e espacial de PSPs",
+      "gabarito": "B"
+    },
+    {
+      "id": "q-0168",
+      "tags": [
+        "glicólise",
+        "atp",
+        "nad",
+        "piruvato",
+        "gliceraldeido-3-fosfato",
+        "fosfoglicerato",
+        "rendimento"
+      ],
+      "aula": "bioq-15-glicolise",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Balanço de ATP e redução de NAD⁺ na glicólise",
+      "gabarito": "C"
+    },
+    {
+      "id": "q-0169",
+      "tags": [
+        "krebs",
+        "nadh",
+        "fadh2",
+        "atp",
+        "gtp",
+        "rendimento-energetico",
+        "respiration"
+      ],
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Número de NADH e FADH₂ produzidos no ciclo de Krebs",
+      "gabarito": "D"
+    },
+    {
+      "id": "q-0170",
+      "tags": [
+        "cadeia-respiratoria",
+        "complexo-i",
+        "complexo-ii",
+        "complexo-iii",
+        "complexo-iv",
+        "gradiente-proton",
+        "atp-sintase"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Bombeamento de prótons na cadeia respiratória",
+      "gabarito": "B"
+    },
+    {
+      "id": 171,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "inativacao-canal",
+        "periodo-refratario"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Potencial de ação",
+      "gabarito": "C"
+    },
+    {
+      "id": 172,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "inativacao-canal",
+        "periodo-refratario"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Potencial de ação",
+      "gabarito": "D"
+    },
+    {
+      "id": 173,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "inativacao-canal",
+        "periodo-refratario"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Potencial de ação",
+      "gabarito": "D"
+    },
+    {
+      "id": 174,
+      "tags": [
+        "canais-ionicos",
+        "permeabilidade-ionica",
+        "potencial-membrana-repouso"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Canais ionicos",
+      "gabarito": "D"
+    },
+    {
+      "id": 175,
+      "tags": [
+        "integracao-sinaptica",
+        "somacao-temporal-espacial",
+        "sinapse-quimica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Integracao sinaptica",
+      "gabarito": "B"
+    },
+    {
+      "id": 176,
+      "tags": [
+        "osmose",
+        "tonicidade",
+        "volume-celular"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Osmose",
+      "gabarito": "A"
+    },
+    {
+      "id": 177,
+      "tags": [
+        "volume-celular",
+        "tonicidade",
+        "osmose"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Regulação de volume",
+      "gabarito": "E"
+    },
+    {
+      "id": 178,
+      "tags": [
+        "volume-celular",
+        "tonicidade",
+        "osmose"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Regulação de volume",
+      "gabarito": "C"
+    },
+    {
+      "id": 179,
+      "tags": [
+        "osmose",
+        "tonicidade",
+        "volume-celular"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Osmose",
+      "gabarito": "I-V; II-V; III-V; IV-V"
+    },
+    {
+      "id": 180,
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "osmose"
+      ],
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Transporte renal",
+      "gabarito": "A-F; B-V; C-F; D-F; E-V",
+      "aula": "fisio-09-transporte-agua"
+    },
+    {
+      "id": 181,
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "transporte-membrana"
+      ],
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Transporte epitelial",
+      "gabarito": "Ver Explicacao",
+      "aula": "fisio-09-transporte-agua"
+    },
+    {
+      "id": 182,
+      "tags": [
+        "compartimentos-corporais",
+        "osmose",
+        "tonicidade"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Homeostase",
+      "gabarito": "C"
+    },
+    {
+      "id": 183,
+      "tags": [
+        "compartimentos-corporais",
+        "osmose",
+        "tonicidade"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Homeostase",
+      "gabarito": "E",
+      "aula": "fisio-01-introducao"
+    },
+    {
+      "id": 184,
+      "tags": [
+        "actino-miosina",
+        "acoplamento-excitacao-secrecao"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Tecidos musculares",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 185,
+      "tags": [
+        "juncoes-gap",
+        "conexinas",
+        "actino-miosina"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Musculo cardiaco e juncoes",
+      "gabarito": "A"
+    },
+    {
+      "id": 186,
+      "tags": [
+        "actino-miosina",
+        "acoplamento-excitacao-secrecao"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "facil",
+      "formato": "Discursiva",
+      "conceito_central": "Tecido muscular esqueletico",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 187,
+      "tags": [
+        "actino-miosina",
+        "acoplamento-excitacao-secrecao"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Tecidos musculares",
+      "gabarito": "I-V; II-F; III-F; IV-F; V-V; VI-F"
+    },
+    {
+      "id": 188,
+      "tags": [
+        "reticulo-endoplasmatico",
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Reticulo sarcoplasmatico e tubulos T",
+      "gabarito": "A"
+    },
+    {
+      "id": 189,
+      "aula": "histo-07-cartilaginoso-osseo",
+      "tags": [],
+      "nivel": "facil",
+      "formato": "Discursiva",
+      "conceito_central": "Tecido osseo",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 190,
+      "aula": "histo-07-cartilaginoso-osseo",
+      "tags": [],
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Celulas osseas",
+      "gabarito": "I-V; II-V; III-F; IV-F"
+    },
+    {
+      "id": 191,
+      "tags": [],
+      "aula": "anato-02-ossos-generalidades",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Periosteo e endosteo",
+      "gabarito": "D"
+    },
+    {
+      "id": 192,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Ossificacao e tipos de tecido osseo",
+      "gabarito": "I-V; II-V; III-F; IV-F"
+    },
+    {
+      "id": 193,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Ossificacao endocondral",
+      "gabarito": "I-F; II-V; III-V; IV-V"
+    },
+    {
+      "id": 194,
+      "aula": "histo-07-cartilaginoso-osseo",
+      "tags": [],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Pericondrio",
+      "gabarito": "B"
+    },
+    {
+      "id": 195,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Cartilagem hialina",
+      "gabarito": "I-F; II-F; III-V; IV-V; V-F; VI-V"
+    },
+    {
+      "id": 196,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Crescimento e histogenese da cartilagem",
+      "gabarito": "I-F; II-V; III-F; IV-V"
+    },
+    {
+      "id": 197,
+      "aula": "histo-07-cartilaginoso-osseo",
+      "tags": [],
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Fibrocartilagem",
+      "gabarito": "I-V; II-V; III-F; IV-F; V-F"
+    },
+    {
+      "id": 198,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Cartilagem hialina vs pericondrio",
+      "gabarito": "D"
+    },
+    {
+      "id": 199,
+      "tags": [
+        "planos-anatomicos"
+      ],
+      "aula": "anato-01-intro-planos-eixos",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Termos de orientacao",
+      "gabarito": "C"
+    },
+    {
+      "id": 200,
+      "tags": [
+        "planos-anatomicos"
+      ],
+      "aula": "anato-01-intro-planos-eixos",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Planos e eixos",
+      "gabarito": "D"
+    },
+    {
+      "id": 201,
+      "tags": [
+        "neuroanatomia-divisoes",
+        "planos-anatomicos"
+      ],
+      "aula": "anato-01-intro-planos-eixos",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Subdivisoes da anatomia",
+      "gabarito": "E"
+    },
+    {
+      "id": 202,
+      "tags": [],
+      "aula": "anato-02-ossos-generalidades",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Cintura escapular",
+      "gabarito": "B"
+    },
+    {
+      "id": 203,
+      "aula": "anato-02-ossos-generalidades",
+      "tags": [],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Classificacao de ossos",
+      "gabarito": "D"
+    },
+    {
+      "id": 204,
+      "tags": [],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Nutricao ossea",
+      "gabarito": "A"
+    },
+    {
+      "id": 205,
+      "tags": [],
+      "aula": "anato-03-articulacoes",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Articulacoes",
+      "gabarito": "C"
+    },
+    {
+      "id": 206,
+      "tags": [],
+      "aula": "anato-03-articulacoes",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Articulacoes sinoviais",
+      "gabarito": "A"
+    },
+    {
+      "id": 207,
+      "tags": [],
+      "aula": "anato-04-musculos",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Tipos de movimento articular",
+      "gabarito": "C"
+    },
+    {
+      "id": 208,
+      "tags": [],
+      "aula": "anato-04-musculos",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Insercoes musculares",
+      "gabarito": "A"
+    },
+    {
+      "id": 209,
+      "aula": "anato-04-musculos",
+      "tags": [],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Sistema de alavancas",
+      "gabarito": "D"
+    },
+    {
+      "id": 210,
+      "tags": [],
+      "aula": "anato-04-musculos",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Acao muscular",
+      "gabarito": "E"
+    },
+    {
+      "id": 211,
+      "tags": [
+        "krebs",
+        "fosforilacao-oxidativa",
+        "cofatores-enzimaticos",
+        "acetil-coa"
+      ],
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Ciclo de Krebs e cadeia respiratoria",
+      "gabarito": "C"
+    },
+    {
+      "id": 212,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "canais-k-voltagem",
+        "repolarizacao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "oscilação do potencial de membrana dependente de canais de sódio e potássio",
+      "gabarito": "N/A"
+    },
+    {
+      "id": 213,
+      "tags": [
+        "gpcr",
+        "proteina-g",
+        "camp",
+        "pka"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "receptor GPCR acoplado a proteína G e via de sinalização cAMP",
+      "gabarito": "B"
+    },
+    {
+      "id": 214,
+      "tags": [
+        "ip3",
+        "camp",
+        "segunda-mensageiro",
+        "sinal-intracelular"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "fosfodiesterases como reguladores de segunda mensageiros",
+      "gabarito": "C"
+    },
+    {
+      "id": 215,
+      "tags": [
+        "toxina-pertussis",
+        "adenilato-ciclase",
+        "camp",
+        "inibicao-gi"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "efeito da toxina pertussis na sinalização via proteína Gi",
+      "gabarito": "B"
+    },
+    {
+      "id": 216,
+      "tags": [
+        "glutamato",
+        "nmda",
+        "ampa",
+        "excitotoxicidade",
+        "receptor-ionotropico"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "mecanismo de excitotoxicidade do glutamato e seus receptores",
+      "gabarito": "C"
+    },
+    {
+      "id": 217,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "vesiculas",
+        "exocitose",
+        "calcio-intracelular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "encerramento da transmissão sináptica por remoção de neurotransmissor",
+      "gabarito": "B"
+    },
+    {
+      "id": 218,
+      "tags": [
+        "receptor-mecanico",
+        "canal-mecanossensivel",
+        "membrana-deformacao",
+        "estiramiento"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "despolarização gradual em mecanorreceptores sensíveis a estiramiento",
+      "gabarito": "D"
+    },
+    {
+      "id": 219,
+      "tags": [
+        "limiar",
+        "potencial-acao",
+        "canais-na-k-voltagem",
+        "proprietario-cinética"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "limiar como propriedade do potencial de membrana de célula excitável",
+      "gabarito": "C"
+    },
+    {
+      "id": 220,
+      "tags": [
+        "axonio-amielinico",
+        "periodo-refratario",
+        "disparos-repetidos",
+        "bainha-mielina"
+      ],
+      "aula": "histo-10-tecido-nervoso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "período refratário em axônios amielínicos com padrão de disparo lento",
+      "gabarito": "A"
+    },
+    {
+      "id": 221,
+      "tags": [
+        "drogas-sinapses",
+        "acetilcolina",
+        "bloqueadores",
+        "anestesicos-locais",
+        "toxinas"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "mecanismo de drogas que bloqueiam transmissão neuromuscular",
+      "gabarito": "C"
+    },
+    {
+      "id": 222,
+      "tags": [
+        "somacao-temporal-espacial",
+        "integracao-sinaptica",
+        "epsc",
+        "dendrito",
+        "capacitancia-membrana"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "base mecanística da somação espacial e temporal de sinais sinápticos",
+      "gabarito": "E"
+    },
+    {
+      "id": 223,
+      "tags": [
+        "acetilcolina",
+        "mecanismo-acao",
+        "receptor-nicotinico",
+        "dessenssibilizacao"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "mecanismo de ação da acetilcolina em receptores nicotínicos",
+      "gabarito": "B"
+    },
+    {
+      "id": 224,
+      "tags": [
+        "receptor-catalico",
+        "proteina-g",
+        "sinalizacao-intraceular",
+        "metaborotico"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "diferença entre receptores ionotrópicos e metabotrópicos",
+      "gabarito": "A"
+    },
+    {
+      "id": 225,
+      "tags": [
+        "receptor-catalico",
+        "tirosina-quinase",
+        "mecanismo-acao",
+        "autofosforilacao"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "receptor catalítico envolvido em sinalização hormonal",
+      "gabarito": "D"
+    },
+    {
+      "id": 226,
+      "tags": [
+        "glutamato",
+        "sinapse-metabotropica",
+        "fosfolipase-c",
+        "mensageiro-celular"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "glutamato em receptores metabotrópicos e exceção à regra ionotrópica",
+      "gabarito": "B"
+    },
+    {
+      "id": 227,
+      "tags": [
+        "homeostase-cannon",
+        "retrorregulacao-negativa",
+        "sistema-nervoso",
+        "integracao-fisiologica"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "homeostase por retrorregulação negativa (Canon)",
+      "gabarito": "D"
+    },
+    {
+      "id": 228,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "sinapses-eletricas",
+        "conexina",
+        "gap-junctions",
+        "acoplamento-eletrico"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "características de sinapses elétricas e gap junctions",
+      "gabarito": "C"
+    },
+    {
+      "id": 229,
+      "tags": [
+        "hormonio-segunda-mensageiro",
+        "camp-camp",
+        "subunidade-proteiqa-g",
+        "dissociacao-gs"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "inativação de proteínas G e retorno ao estado basal",
+      "gabarito": "B"
+    },
+    {
+      "id": 230,
+      "tags": [
+        "neurotransmissor-terminacao-pre-sinaptica",
+        "ace",
+        "mecanismo-bloqueio",
+        "terminal-pre-sinaptco"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "localização e função de neurotransmissores na terminação pré-sináptica",
+      "gabarito": "C"
+    },
+    {
+      "id": 231,
+      "tags": [
+        "periodo-refratario-absoluto",
+        "inativacao-canal-na",
+        "voltagem-dependencia",
+        "recuperacao"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "período refratário absoluto e cinética de inativação de canais Na+",
+      "gabarito": "B"
+    },
+    {
+      "id": 232,
+      "tags": [
+        "conducao-saltatoria",
+        "bainha-mielina",
+        "velocidade-conducao",
+        "nodulos-ranvier"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "importância da bainha de mielina na velocidade de condução",
+      "gabarito": "A"
+    },
+    {
+      "id": 233,
+      "tags": [
+        "canais-ca-voltagem",
+        "inativacao-lenta",
+        "platô-potencial-acao",
+        "musculo-cardiaco"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "canais de Ca2+ e platô em potencial de ação cardíaco",
+      "gabarito": "C"
+    },
+    {
+      "id": 234,
+      "tags": [
+        "pka",
+        "fosforilacao",
+        "proteinas-alvo",
+        "efeitos-fisiologicos-camp"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "PKA e seus efeitos fisiológicos via fosforilação",
+      "gabarito": "B"
+    },
+    {
+      "id": 235,
+      "tags": [
+        "pkc",
+        "dag-ca2-simultaneo",
+        "ativacao-sinergica",
+        "fosforilacao"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "ativação sinérgica de PKC por DAG e Ca2+",
+      "gabarito": "A"
+    },
+    {
+      "id": 236,
+      "tags": [
+        "ip3",
+        "rianodina",
+        "liberacao-ca2-ret",
+        "mensageiro-celular"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "IP3 como segundo mensageiro liberando Ca2+ do retículo",
+      "gabarito": "B"
+    },
+    {
+      "id": 237,
+      "tags": [
+        "despolarizacao-gradual",
+        "voltagem-repouso",
+        "amplitude-resposta"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "potencial gerador em receptores sensoriais como despolarização gradual",
+      "gabarito": "A"
+    },
+    {
+      "id": 238,
+      "tags": [
+        "amplificacao-sinal-sinapse",
+        "vesiculas-quanta",
+        "liberacao-multivesicular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "amplificação de sinal em sinapses químicas",
+      "gabarito": "B"
+    },
+    {
+      "id": 239,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "neuropeptidos",
+        "sinapse-peptidergica",
+        "liberacao-vesicular",
+        "coreleaser"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "neuropeptídios como co-transmissores em sinapses",
+      "gabarito": "C"
+    },
+    {
+      "id": 240,
+      "tags": [
+        "despolarizacao-dv-dt",
+        "velocidade-conducao-axon",
+        "diametro-axonico"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "relação entre velocidade de condução e propriedades do axônio",
+      "gabarito": "A"
+    },
+    {
+      "id": 241,
+      "tags": [
+        "adenosina-neuromodulador",
+        "receptores-purinergicos",
+        "inibicao-presinaptca",
+        "feedback-negativo"
+      ],
+      "aula": "fisio-01-introducao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "adenosina como neuromodulamódor inibitório",
+      "gabarito": "B"
+    },
+    {
+      "id": 242,
+      "tags": [
+        "gaba-gabar-receptor-ionotropico",
+        "cloro-influxo",
+        "hiperpolarizacao-inibicao"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "GABA como principal neurotransmissor inibitório",
+      "gabarito": "B"
+    },
+    {
+      "id": 243,
+      "tags": [
+        "serotonina-receptor-metaborotico-gpcr",
+        "neuromodulaçao-comportamento"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "serotonina e seus receptores metabotrópicos",
+      "gabarito": "C"
+    },
+    {
+      "id": 244,
+      "tags": [
+        "dopamina-receptor-d1-d2-gpcr",
+        "movimento-reward"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "dopamina e receptores D1/D2",
+      "gabarito": "A"
+    },
+    {
+      "id": 245,
+      "tags": [
+        "noradrenalina-adrenergico-gpcr-alfa-beta",
+        "simpático"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "receptores adrenérgicos alfa e beta para noradrenalina",
+      "gabarito": "B"
+    },
+    {
+      "id": 246,
+      "tags": [
+        "constante-tempo-membrana-rc-tau-integracao"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "constante de tempo da membrana e sua importância em integração",
+      "gabarito": "A"
+    },
+    {
+      "id": 247,
+      "tags": [
+        "comprimento-eletrotonica-lambda-eletronico-spread"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "comprimento eletrônico e atenuação de sinais",
+      "gabarito": "B"
+    },
+    {
+      "id": 248,
+      "tags": [
+        "eq-goldman-voltagem-equilibrio-multiplos-ions"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "equação de Goldman e potencial de membrana em múltiplos íons",
+      "gabarito": "A",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 249,
+      "tags": [
+        "propag-potencial-acao-velocidade-voltagem-repouso"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "propagação do potencial de ação é um processo local",
+      "gabarito": "B"
+    },
+    {
+      "id": 250,
+      "tags": [
+        "resting-potential-bomba-na-k-atp-gradiente"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "potencial de repouso e dependência de gradiente Na/K",
+      "gabarito": "A",
+      "aula": "fisio-03-potencial-repouso"
+    },
+    {
+      "id": 251,
+      "aula": "fisio-08-sinalizacao-II",
+      "tags": [
+        "ligand-gated-ionotropic-transmitter-receptor"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "receptores ionotrópicos (ligando-sensíveis)",
+      "gabarito": "B"
+    },
+    {
+      "id": 252,
+      "tags": [
+        "metaborotico-receptor-gpcr-lento-segundos-mensageiros"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "receptores metabotrópicos (GPCR) e respostas lentas",
+      "gabarito": "A"
+    },
+    {
+      "id": 253,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "sinapses-inhibitorias-soma-zona-disparoeficacia"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "sinapses inibitórias no soma têm maior eficácia",
+      "gabarito": "A"
+    },
+    {
+      "id": 254,
+      "tags": [
+        "subunidade-canal-voltagem-selectivity-filter"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "seletividade de canais iônicos e filtro de seletividade",
+      "gabarito": "B"
+    },
+    {
+      "id": 255,
+      "aula": "fisio-05-potencial-acao",
+      "tags": [
+        "sensibilidade-voltagem-s4-segmento-sensor"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "sensor de voltagem (S4) em canais iônicos",
+      "gabarito": "A"
+    },
+    {
+      "id": 256,
+      "tags": [
+        "sinapse-neuromuscular-placa-motora-nicotinico-especifico"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "sinapses neuromusculares usam receptores nicotínicos",
+      "gabarito": "B"
+    },
+    {
+      "id": 257,
+      "tags": [
+        "retrograde-signaling-postsinaptica-presinaptca-lutp-ltd"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "sinais retrógrados de pós-sináptica para pré-sináptica",
+      "gabarito": "A"
+    },
+    {
+      "id": 258,
+      "tags": [
+        "ltp-long-term-potentiation-ampa-receptor-mecanismo"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "LTP e inserção de receptores AMPA",
+      "gabarito": "B"
+    },
+    {
+      "id": 259,
+      "tags": [
+        "ltd-long-term-depression-ltp-inverso-fraco-estimulo"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "LTD como mecanismo oposto ao LTP",
+      "gabarito": "A"
+    },
+    {
+      "id": 260,
+      "tags": [
+        "canal-potassio-inward-rectifier-kir-polarity-condutancia"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "canais Kir (retificadores para dentro) e sua condutância voltagem-dependente",
+      "gabarito": "B"
+    },
+    {
+      "id": 261,
+      "aula": "fisio-05-potencial-acao",
+      "tags": [
+        "voltagem-gating-gated-channels-ativacao-inativacao-kinetics"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "mecanismos de ativação e inativação em canais voltagem-gating",
+      "gabarito": "A"
+    },
+    {
+      "id": 262,
+      "tags": [
+        "anatomia-humana",
+        "terminologia-anatomica",
+        "planos-eixos"
+      ],
+      "aula": "anato-01-intro-planos-eixos",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Nomenclatura e terminologia anatômica para organização do corpo",
+      "gabarito": "A"
+    },
+    {
+      "id": 263,
+      "tags": [
+        "anatomia-humana",
+        "cavidades-corporais",
+        "diafragma"
+      ],
+      "aula": "anato-06-circulatorio-linfatico-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Anatomia das cavidades do corpo humano e suas divisões",
+      "gabarito": "D"
+    },
+    {
+      "id": 264,
+      "tags": [
+        "bioquimica",
+        "cetogenese",
+        "diabetes",
+        "dieta"
+      ],
+      "aula": "bioq-21-lipideos-rotas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Metabolismo de lipídios e formação de corpos cetônicos em diferentes condições nutricionais",
+      "gabarito": "B"
+    },
+    {
+      "id": 265,
+      "tags": [
+        "bioquimica",
+        "sintese-acidos-graxos",
+        "enzimas",
+        "ciclo",
+        "beta-oxidacao"
+      ],
+      "aula": "bioq-22-lipideos-regulacao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Etapas enzimáticas da síntese de ácidos graxos",
+      "gabarito": "1-malonil; 2-condensação; 3-redução; 4-hidratação; 5-liberação"
+    },
+    {
+      "id": 266,
+      "tags": [
+        "bioquimica",
+        "deficiencia-enzimatica",
+        "g6pd",
+        "anemia",
+        "hemacia",
+        "nadph",
+        "estresse-oxidativo"
+      ],
+      "aula": "bioq-20-pentoses-radicais-livres",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+      "gabarito": "D"
+    },
+    {
+      "id": 267,
+      "tags": [
+        "bioquimica",
+        "via-pentoses",
+        "nadph",
+        "lipogenese",
+        "glicose"
+      ],
+      "aula": "bioq-20-pentoses-radicais-livres",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Função do NADPH em diferentes vias metabólicas",
+      "gabarito": "A"
+    },
+    {
+      "id": 268,
+      "tags": [
+        "bioquimica",
+        "via-pentoses",
+        "nadph",
+        "ribose",
+        "nucleotideos",
+        "estresse-oxidativo"
+      ],
+      "aula": "bioq-20-pentoses-radicais-livres",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+      "gabarito": "Nenhuma-oxidativa-as duas-as duas-não oxidativa"
+    },
+    {
+      "id": 269,
+      "tags": [
+        "histologia-vascular",
+        "tunicas-vasculares",
+        "arteria-elastica",
+        "arteria-muscular"
+      ],
+      "aula": "histo-09-vasos-sanguineos-linfaticos",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+      "gabarito": "C"
+    },
+    {
+      "id": 270,
+      "tags": [
+        "histologia-vascular",
+        "tunicas-vasculares",
+        "veia",
+        "arteria",
+        "comparacao"
+      ],
+      "aula": "histo-09-vasos-sanguineos-linfaticos",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+      "gabarito": "I-F; II-V; III-F; IV-V"
+    },
+    {
+      "id": 271,
+      "tags": [
+        "embriologia",
+        "derivados-embrionarios",
+        "ectoderme",
+        "mesoderme",
+        "endoderme"
+      ],
+      "aula": "embrio-02-blastocisto-gastrulacao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Identificação correta dos derivados das três camadas germinativas",
+      "gabarito": "A"
+    },
+    {
+      "id": 272,
+      "tags": [
+        "histologia-muscular",
+        "musculo-cardiaco",
+        "musculo-esqueletico",
+        "musculo-liso",
+        "comparacao"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+      "gabarito": "B"
+    },
+    {
+      "id": 273,
+      "tags": [
+        "histologia-tecido-epitelial",
+        "epitélio",
+        "polaridade-celular",
+        "membrana-basal",
+        "junções-celulares"
+      ],
+      "aula": "histo-03-tecidos-epiteliais",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+      "gabarito": "D"
+    },
+    {
+      "id": 274,
+      "tags": [
+        "histologia-tecido-conjuntivo",
+        "colageno",
+        "fibroblasto",
+        "matriz-extracelular",
+        "tipos-colageno"
+      ],
+      "aula": "histo-04-tecido-conjuntivo",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+      "gabarito": "E"
+    },
+    {
+      "id": 275,
+      "tags": [
+        "histologia-ossea",
+        "osteoblasto",
+        "osteoclasto",
+        "osteocito",
+        "remodelacao-ossea"
+      ],
+      "aula": "histo-07-cartilaginoso-osseo",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Função das células ósseas no processo de formação e reabsorção do osso",
+      "gabarito": "I-V; II-F; III-V; IV-F"
+    },
+    {
+      "id": 276,
+      "tags": [
+        "enzimas",
+        "km",
+        "vmax",
+        "enzimologia",
+        "inibicao-enzimatica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+      "gabarito": "C",
+      "aula": "bioq-11-enzimas-II-regulacao"
+    },
+    {
+      "id": 277,
+      "tags": [
+        "histologia-sanguinea",
+        "celulas-sanguineas",
+        "eritrocito",
+        "leucocito",
+        "plaquetas"
+      ],
+      "aula": "histo-02-hematopoese",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Características morfológicas e funcionais dos componentes celulares do sangue",
+      "gabarito": "B"
+    },
+    {
+      "id": 278,
+      "tags": [
+        "anatomia",
+        "articulacao",
+        "tipos-articulacao",
+        "sinovial",
+        "cartilagem"
+      ],
+      "aula": "anato-03-articulacoes",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Classificação das articulações e características estruturais da articulação sinovial",
+      "gabarito": "D"
+    },
+    {
+      "id": 279,
+      "tags": [
+        "metabolismo",
+        "glicólise",
+        "atp",
+        "enzimas",
+        "regulacao-metabolica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+      "gabarito": "A",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 280,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-etanol",
+        "regulacao-alosterica",
+        "acidose-metabolica",
+        "krebs",
+        "buffers"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "consequencias metabolicas da intoxicacao alcoolica: inibição indireta da gliconeogênese por falta de substrato (NADH alto desvia piruvato→lactato e OAA→malato) e cetoacidose",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 281,
+      "tags": [
+        "cetogenese",
+        "krebs",
+        "fosforilacao-oxidativa",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "calculo do saldo de ATP na oxidacao do beta-hidroxibutirato em condicoes aerobia, anaerobia e com desacoplador (DNP)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 282,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "glicolise",
+        "regulacao-metabolica",
+        "efeito-pasteur"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "efeito da oligomicina sobre leveduras (Crabtree-positivas) em glicose vs glicerol: glicolise compensa parcialmente, mas glicerol exige cadeia respiratória funcional",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 283,
+      "tags": [
+        "glicolise",
+        "regulacao-alosterica",
+        "enzimologia",
+        "regulacao-metabolica",
+        "f26bp"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "características bioquimicas, termodinamicas e cineticas da PFK-1 e seu controle alosterico por ATP (inibição) e F2,6BP (ativação) incluindo efeito do pH",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-11-enzimas-II-regulacao",
+      "figura": ""
+    },
+    {
+      "id": 284,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "metabolismo-integrado"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "experimento para distinguir antimicina (bloqueia Complexo III) de oligomicina (bloqueia ATP-sintase) usando oximetria + DNP como revelador",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 285,
+      "tags": [
+        "glicolise",
+        "eritrocito",
+        "transporte-ativo-primario",
+        "bomba-na-k",
+        "doencas-metabolicas"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "seletividade eritrociaria de droga que degrada PEP: eritrocito depende 100% da glicolise (sem mitocôndria), perda da piruvato-quinase = colapso energético → hemolise",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 286,
+      "tags": [
+        "gliconeogenese",
+        "regulacao-alosterica",
+        "modificacao-covalente",
+        "krebs",
+        "enzimologia"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "piruvato carboxilase ativada por acetil-CoA como sinal de excesso de combustivel; modificacao covalente (fosforilação) como segundo mecanismo regulatorio",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-11-enzimas-II-regulacao"
+    },
+    {
+      "id": 287,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "metabolismo-integrado",
+        "gliconeogenese",
+        "lipogenese",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "regras de interconversao de macronutrientes: glicose→AG (sim); AG→glicose (não em mamiferos, regra fundamental); proteína→glicose (sim, AA glicogenicos)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 288,
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "tags": [
+        "krebs",
+        "fosforilacao-oxidativa",
+        "enzimologia",
+        "cofatores-enzimaticos",
+        "energia-livre"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "identificacao dos intermediarios alfa-KG→OAA, classes de enzimas, reagentes/produtos e saldo de ATP por volta de Krebs com e sem DNP",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 289,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "glicolise",
+        "energia-livre"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "amital bloqueia Complexo I → NADH não oxidado; FADH2 (entra em Q diretamente via Complexo II) continua; saldo de ATP despenca; DNP não reverte",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 290,
+      "tags": [
+        "metabolismo-glicogenio",
+        "regulacao-alosterica",
+        "modificacao-covalente",
+        "regulacao-metabolica",
+        "glicolise"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "estrutura do glicogenio (alfa1→4 e alfa1→6) e vantagens; condicoes fisiologicas de mobilizacao hepática vs muscular; por que musculo não exporta glicose (sem G6Pase)",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-13-carboidratos"
+    },
+    {
+      "id": 291,
+      "tags": [
+        "via-pentoses",
+        "glicolise",
+        "nadph",
+        "energia-livre",
+        "regulacao-metabolica"
+      ],
+      "aula": "bioq-20-pentoses-radicais-livres",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "quando a célula precisa so de ribose-5-P, usa ramo Não-oxidativo (F6P+G3P → 3 ribose-5-P), sem consumo ou síntese de ATP e sem gerar NADPH desnecessario",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 292,
+      "tags": [
+        "glicolise",
+        "fosforilacao-oxidativa",
+        "efeito-pasteur",
+        "regulacao-metabolica",
+        "eritrocito"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "efeito Pasteur no musculo cardíaco: em anaerobiose consumo de glicose dispara (glicolise compensa); em aerobiose, 30 ATP/glicose reduz 15x o consumo",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 293,
+      "tags": [
+        "cromatina",
+        "eucromatina-heterocromatina",
+        "nucleossomo",
+        "transcricao",
+        "ciclo-celular"
+      ],
+      "nivel": "facil",
+      "formato": "discursiva",
+      "conceito_central": "identificacao de heterocromatina (periferica densa), nucléolo (fabrica de rRNA) e eucromatina (descondensada, ativa) em micrografia eletrônica",
+      "gabarito": "ver Explicacao",
+      "aula": "biomol-20-acidos-nucleicos"
+    },
+    {
+      "id": 294,
+      "tags": [
+        "ciclo-celular",
+        "mitose",
+        "cromatina"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "numero de cromatides em G1 (46 cromossomos × 1 = 46) vs metafase (46 cromossomos × 2 = 92 cromatides) antes da disjuncao",
+      "gabarito": "A",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 295,
+      "tags": [
+        "ciclo-celular",
+        "citometria-fluxo",
+        "marcadores-proliferacao"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "interpretacao de histograma de citometria de fluxo com iodeto de propidio: pico G1 (2N), vale S (conteudo intermediario), pico G2/M (4N)",
+      "gabarito": "A",
+      "aula": "biocel-07-divisao-celular",
+      "figura": ""
+    },
+    {
+      "id": 296,
+      "tags": [
+        "apoptose",
+        "ciclo-celular",
+        "quimioterapia",
+        "citometria-fluxo",
+        "p53"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "doxorrubicina intercala DNA + inibe topoisomerase II → quebras de dupla fita → apoptose via p53 → pico sub-G1 em citometria por fragmentacao internucleossomal",
+      "gabarito": "B",
+      "aula": "biocel-07-divisao-celular",
+      "figura": ""
+    },
+    {
+      "id": 297,
+      "tags": [
+        "ciclo-celular",
+        "ciclinas-cdk",
+        "oncoproteinas",
+        "regulacao-genica"
+      ],
+      "nivel": "facil",
+      "formato": "discursiva",
+      "conceito_central": "mapa dos complexos ciclina-CDK por fase: CDK4/6+ciclinaD em G1, CDK2+ciclinaE em G1/S, CDK2+ciclinaA em S, CDK1+ciclinaB em M — todas afirmativas corretas",
+      "gabarito": "ver Explicacao",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 298,
+      "tags": [
+        "ciclo-celular",
+        "marcadores-proliferacao",
+        "quimioterapia",
+        "oncoproteinas"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "Ki67 marca células em qualquer fase ativa do ciclo (G1,S,G2,M), ausente em G0 — aumento Após tratamento indica falha terapeutica, não resposta",
+      "gabarito": "ver Explicacao",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 299,
+      "tags": [
+        "ciclo-celular",
+        "oncoproteinas",
+        "p53",
+        "quimioterapia",
+        "ciclinas-cdk"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "com p53 wild-type, resistencia ao tratamento pode ocorrer por: perda de p14ARF (libera MDM2 para degradar p53) OU amplificacao de MDM2 (degrada p53 diretamente)",
+      "gabarito": "E",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 300,
+      "tags": [
+        "apoptose",
+        "oncoproteinas",
+        "quimioterapia",
+        "p53"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "venetoclax (inibidor de BCL-2) ativa via intrinseca de apoptose independente de p53 — util em leucemias com delecao 17p/mutacao TP53, resistentes a quimioterapia convencional",
+      "gabarito": "E",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 301,
+      "tags": [
+        "ciclo-celular",
+        "oncoproteinas",
+        "p53",
+        "ciclinas-cdk",
+        "cromatina"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "HPV16/18: E7 degrada pRb (cai), libera E2F (sobe), causa superexpressao de p16 por perda do feedback repressivo (sobe — paradoxo); E6 degrada p53 (p21 cai)",
+      "gabarito": "E",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 302,
+      "tags": [
+        "nucleossomo",
+        "cromatina",
+        "histonas",
+        "estrutura-proteina"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "nucleossomo: octamero de histonas (H2A, H2B, H3, H4 × 2) com ~147 pb de DNA em 1,65 voltas; histonas tem carga POSITIVA (Lys/Arg) que neutraliza fosfatos do DNA",
+      "gabarito": "A",
+      "aula": "biomol-20-acidos-nucleicos"
+    },
+    {
+      "id": 303,
+      "tags": [
+        "p53",
+        "oncoproteinas",
+        "ciclo-celular",
+        "quimioterapia",
+        "regulacao-genica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "com p53 wild-type, resistencia ao tratamento pode ocorrer por perda de p14ARF (II) e amplificacao de MDM2 (III) — ambos neutralizam p53 funcionalmente sem mutacao",
+      "gabarito": "C",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 304,
+      "tags": [
+        "transcricao",
+        "rna-polimerase",
+        "regulacao-genica",
+        "processamento-mrna",
+        "fatores-transcricao"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "RNA pol Não precisa de primer (inicia de novo) e tem menor fidelidade que DNA pol; fator sigma reconhece promotores bacterianos; ativação pos-traducional de TFs por fosforilação/ligante/relocalizacao",
+      "gabarito": "ver Explicacao",
+      "aula": "biomol-20-acidos-nucleicos",
+      "figura": ""
+    },
+    {
+      "id": 305,
+      "tags": [
+        "regulacao-genica",
+        "operon-lac",
+        "transcricao",
+        "metabolismo-integrado"
+      ],
+      "aula": "biomol-24-regulacao-expressao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "regulação dupla do operon lac: repressao negativa por LacI (removida pela alolactose) E ativação positiva por CAP-cAMP (presente so sem glicose) — explica o crescimento diauxico",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 306,
+      "tags": [
+        "processamento-mrna",
+        "splicing",
+        "cap5",
+        "poliadenilacao",
+        "transcricao",
+        "regulacao-genica"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "diferencas gene→pre-mRNA→mRNA maduro: cap 5', remocao de introns por spliceossomo, poliadenilacao 3'; contraste com procariontes (sem splicing, sem cap, sem compartimento)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 307,
+      "tags": [
+        "traducao",
+        "aminoacil-trna",
+        "ribossomo",
+        "enzimologia",
+        "regulacao-genica"
+      ],
+      "aula": "biomol-23-traducao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "fidelidade da tradução depende exclusivamente da aminoacil-tRNA sintetase (não do ribossomo) — ribossomo verifica so pareamento codon-anticodon, não o aminoácido ligado",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 308,
+      "tags": [
+        "dna-recombinante",
+        "splicing",
+        "transcricao",
+        "traducao",
+        "metabolismo-integrado"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "aula": "biocel-05-compartimentos-III",
+      "conceito_central": "producao de hGH em E. coli requer cDNA (sem introns); IPTG como indutor do promotor lac; HBsAg Não pode ser feito em bacteria (glicoproteina, requer levedura)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 309,
+      "tags": [
+        "regulacao-genica",
+        "transcricao",
+        "cromatina",
+        "epigenetica",
+        "splicing",
+        "traducao"
+      ],
+      "aula": "biomol-24-regulacao-expressao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "eucariotos regulam expressão em multiplos niveis (cromatina, transcrição, processamento, exportacao, estabilidade mRNA, tradução, pos-tradução); procariontes concentram na transcrição (operons, sigma, riboswitches)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 310,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "enzimologia",
+        "regulacao-metabolica",
+        "regulacao-alosterica",
+        "energia-livre"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "sequencia completa da gliconeogênese (piruvato→glicose): 4 etapas de bypass (piruvato carboxilase, PEPCK, FBPase-1, G6Pase) e 6 etapas reversiveis da glicolise — custo de 6 ATP + 2 NADH",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 311,
+      "tags": [
+        "fosforilacao-oxidativa",
+        "desacoplador",
+        "glicolise",
+        "energia-livre",
+        "krebs"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "DNP elimina todo ATP oxidativo — saldo com DNP = so ATP de substrato-nivel (2 ATP da glicolise + 2 GTP do Krebs = 4 ATP por glicose)",
+      "gabarito": "D"
+    },
+    {
+      "id": 312,
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "krebs",
+        "acetil-coa",
+        "regulacao-metabolica"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "analise V/F: desacoplador AUMENTA consumo de O2 mas DIMINUI ATP; acetil-CoA não atravessa membrana interna; acoplamento e quimiosmotico (protons, não elétrons para ATP-sintase)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 313,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "metabolismo-integrado"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "gliconeogênese a partir de glicerol: 1 ATP por glicerol (glicerol-quinase); 2 glicerois = 1 glicose → custo de 2 ATP por glicose (muito menor que a partir de piruvato: 6 ATP)",
+      "gabarito": "E"
+    },
+    {
+      "id": 314,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-integrado",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "substratos gliconeogenicos validos: oxaloacetato, piruvato, glicerol SIM; acetil-CoA e ácidos graxos de cadeia par Não (regra fundamental em mamiferos)",
+      "gabarito": "D"
+    },
+    {
+      "id": 315,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "desacoplador"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "inibidor que para consumo de O2 e e revertido por DNP = oligomicina (inibe ATP-sintase): gradiente fica preso, cadeia para, DNP cria via alternativa de dissipacao",
+      "gabarito": "C"
+    },
+    {
+      "id": 316,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "ciclo-cori",
+        "cofatores-enzimaticos"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "na gliconeogênese a partir de lactato, o NADH gerado pela LDH (lactato→piruvato) compensa exatamente o NADH consumido pela GAPDH reversa — saldo de NADH = 0",
+      "gabarito": "B"
+    },
+    {
+      "id": 317,
+      "tags": [
+        "processamento-mrna",
+        "splicing",
+        "cap5",
+        "poliadenilacao",
+        "rna-polimerase"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "etapas de processamento do pre-mRNA eucariotico: capeamento 5' (co-transcricional), splicing (spliceossomo U1-U6), poliadenilacao 3' (CPSF+CstF+PAP), exportacao via NPC",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 318,
+      "tags": [
+        "regulacao-genica",
+        "operon-lac",
+        "operon-trp",
+        "transcricao",
+        "metabolismo-integrado"
+      ],
+      "aula": "biomol-24-regulacao-expressao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "lac e catabolico-induzivel (substrato desativa repressor LacI + ativação positiva por CAP-cAMP); trp e anabolico-repressivel (produto ativa repressor TrpR como corepressor + atenuacao)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 319,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "enzimologia"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "custo de 6 ATP equivalentes para sintetizar 1 glicose a partir de 2 piruvatos: 2 ATP (piruvato carboxilase) + 2 GTP (PEPCK) + 2 ATP (fosfoglicerato quinase reversa)",
+      "gabarito": "C"
+    },
+    {
+      "id": 320,
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "tags": [
+        "krebs",
+        "cofatores-enzimaticos",
+        "enzimologia",
+        "metabolismo-integrado"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "no Krebs, os carbonos do acetil-CoA são OXIDADOS → NAD+/FAD são REDUZIDOS — 4 reações de oxidorredução por volta gerando 3 NADH + 1 FADH2",
+      "gabarito": "C"
+    },
+    {
+      "id": 321,
+      "tags": [
+        "glicolise",
+        "fosforilacao-oxidativa",
+        "eritrocito",
+        "energia-livre",
+        "metabolismo-integrado"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "hemacia gera 2 ATP/glicose; hepatocito com lancadeira malato-aspartato gera 38 ATP/glicose → razao 19:1 → hemacia precisa metabolizar 19 moles de glicose para cada mol no hepatocito",
+      "gabarito": "D",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 322,
+      "tags": [
+        "glicolise",
+        "gliconeogenese",
+        "regulacao-alosterica",
+        "f26bp",
+        "regulacao-metabolica"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "F2,6BP regula reciprocamente PFK-1 (ativa) e FBPase-1 (inibe) — produzido pela enzima bifuncional PFK-2/FBPase-2, controlada por glucagon (PKA→inativa PFK-2) e insulina",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-11-enzimas-II-regulacao"
+    },
+    {
+      "id": 323,
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "desacoplador",
+        "metabolismo-integrado"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "identificacao de rotenona vs DNP por oximetria: rotenona bloqueia Complexo I (revertida por succinato); DNP dissipa gradiente (potencial cai a zero, cadeia continua, O2 cai até zero)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 324,
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-glicogenio",
+        "doencas-metabolicas",
+        "enzimologia"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "G6Pase existe SÓ em figado e rim cortex → sua ausencia afeta APENAS essas células (doenca de Von Gierke); musculo e cerebro não a expressam e não 'perdem' nada diretamente",
+      "gabarito": "C",
+      "aula": "bioq-13-carboidratos"
+    },
+    {
+      "id": 325,
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "tags": [
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "glicolise",
+        "energia-livre",
+        "cadeia-respiratoria"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "oligomicina inibe ATP-sintase → gradiente acumula → cadeia para por contra-pressao → Krebs/PDH param → so glicolise anaeróbia funciona → 2 ATP por glicose",
+      "gabarito": "E"
+    },
+    {
+      "id": 326,
+      "tags": [
+        "conducao-eletrotonica",
+        "constante-espaco",
+        "capacitancia-membrana",
+        "resistencia-membrana",
+        "axonio"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "propagacao eletrotonica: constante de espaco lambda = sqrt(rm/ri); MAIOR rm e MENOR ri = maior alcance; capacitancia ALTA atenua e atrasa o sinal",
+      "gabarito": "A"
+    },
+    {
+      "id": 327,
+      "tags": [
+        "calcio-intracelular",
+        "receptores-ionotropicos",
+        "neurotransmissor",
+        "sinapse-quimica",
+        "canais-ca-voltagem"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "excitotoxicidade por glutamato = ativação excessiva de receptores NMDA (alta permeabilidade a Ca2+) → influxo massivo de Ca2+ → calpaina, NOS, PLA2 → morte celular",
+      "gabarito": "C"
+    },
+    {
+      "id": 328,
+      "tags": [
+        "regulacao-metabolica",
+        "enzimologia",
+        "estrutura-proteina"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "alosteria (heterotropica): ligação em sitio DIFERENTE do sitio funcional afeta propriedades de outro local na proteína — diferente de cooperatividade homotropica (mesmo sitio)",
+      "gabarito": "B",
+      "aula": "bioq-11-enzimas-II-regulacao"
+    },
+    {
+      "id": 329,
+      "tags": [
+        "hemoglobina",
+        "estrutura-proteina",
+        "metaloproteina"
+      ],
+      "aula": "bioq-08a-hemoglobina-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Fe2+ do heme tem 6 coordenacoes: 4 pelos nitrogenios da porfirina, 1 pela histidina proximal (F8) e 1 por O2; histidina distal (E7) estabiliza O2 por ponte H mas não se liga ao ferro",
+      "gabarito": "B"
+    },
+    {
+      "id": 330,
+      "tags": [
+        "regulacao-genica",
+        "fosfolipidios",
+        "estrutura-membrana",
+        "fatores-crescimento"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "betametasona/dexametasona em gestantes < 34 semanas ativa transcrição de genes de surfactante (DPPC + SP-A/B/C/D) nos pneumocitos tipo II, reduzindo síndrome do desconforto respiratório neonatal",
+      "gabarito": "A",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 331,
+      "tags": [
+        "estrutura-membrana",
+        "lipossolubilidade",
+        "fosfolipidios"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "ácidos graxos insaturados cis REDUZEM o ponto de fusao e AUMENTAM a fluidez da membrana (dobras cis impedem empacotamento compacto) — o enunciado afirma o contrario (e falso)",
+      "gabarito": "B",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 332,
+      "tags": [
+        "citoesqueleto",
+        "dineina-axonemal",
+        "microtubulos",
+        "proteinas-membrana"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "cilios/flagelos tem axonema (9+2 microtubulos) com dineinas axonemais que convertem deslizamento em flexao; diferente de microvilos (actina) que aumentam superficie absortiva",
+      "gabarito": "B",
+      "aula": "biocel-02-tecnicas-citoesqueleto"
+    },
+    {
+      "id": 333,
+      "tags": [
+        "mitose",
+        "citoesqueleto",
+        "actino-miosina"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "anel contractil da citocinese e de ACTINA + MIOSINA II (não dineina) — posicao e determinada pelo fuso de microtubulos, mas a contracao em si e actomiosina",
+      "gabarito": "B",
+      "aula": "biocel-07-divisao-celular"
+    },
+    {
+      "id": 334,
+      "tags": [
+        "canais-ionicos",
+        "potencial-eletroquimico",
+        "permeabilidade-ionica",
+        "gradientes-ionicos",
+        "potencial-equilibrio"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "valinomicina aumenta permeabilidade ao K+ → K+ sai (Vm = -70 mV e menos negativo que E_K+ = -88 mV) → equilibrio quando Vm = E_K+; concentrações Não se igualam",
+      "gabarito": "ver Explicacao",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 335,
+      "tags": [
+        "bomba-na-k",
+        "transporte-ativo-primario",
+        "calcio-intracelular",
+        "transporte-ativo-secundario",
+        "energia-livre"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "queda de ATP afeta: Na/K-ATPase para → gradiente de Na+ dissipa → NCX reverte (Ca2+ entra) → SERCA para → [Ca2+]i dispara → proteases → edema celular → necrose",
+      "gabarito": "ver Explicacao",
+      "aula": "fisio-02-transporte-membrana"
+    },
+    {
+      "id": 336,
+      "aula": "fisio-03-potencial-repouso",
+      "tags": [
+        "canais-ionicos",
+        "seletividade-ionica",
+        "canais-k-voltagem",
+        "canais-na-voltagem",
+        "estrutura-proteina"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "seletividade iônica e determinada pelo filtro de seletividade (P-loop, sequencia TVGYG em canais K+) — para mudar K+→Na+ seria necessário alterar geometria e quimica do filtro",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 337,
+      "tags": [
+        "gpcr",
+        "mensageiro-celular",
+        "camp",
+        "receptores-ionotropicos",
+        "hormonio-peptidico"
+      ],
+      "nivel": "medio",
+      "formato": "CE",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "analise V/F sobre sinalizacao celular: hormônios peptídicos não se ligam SÓ a GPCRs (também RTKs, JAK-STAT); cAMP não e o unico 2o mensageiro de GPCRs (Gq→IP3+DAG+Ca2+)",
+      "gabarito": "a-V; b-V; c-V; d-F; e-F; f-F; g-V; h-V; i-V"
+    },
+    {
+      "id": 338,
+      "tags": [
+        "enzimologia",
+        "energia-livre",
+        "termodinamica",
+        "regulacao-metabolica"
+      ],
+      "aula": "bioq-14-introducao-metabolismo",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "enzima diminui energia de ativação (estabiliza estado de transicao) e aumenta a constante de velocidade — Não altera DeltaG, posicao de equilibrio, reversibilidade, nem energia do substrato ou produto",
+      "gabarito": "B"
+    },
+    {
+      "id": 339,
+      "tags": [
+        "reticulo-endoplasmatico",
+        "traducao",
+        "proteinas-membrana",
+        "exocitose",
+        "endocitose"
+      ],
+      "nivel": "facil",
+      "formato": "MC",
+      "aula": "biocel-05-compartimentos-III",
+      "conceito_central": "proteína de membrana segue via secretoria: núcleo → processamento → SRP reconhece peptídeo sinal → RER → RE → Golgi → membrana plasmatica; tradução ocorre no RER (não em ribossomos livres)",
+      "gabarito": "C"
+    },
+    {
+      "id": 340,
+      "tags": [
+        "estrutura-proteina",
+        "aminoacidos-propriedades",
+        "ph",
+        "buffers",
+        "enzimologia"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "glutationa tem ligação gama-glutamil (não alfa-peptidica) entre Glu-Cys → resistente a aminopeptidases; pI = (pK alfa-COOH 2,35 + pK Asp-COOH 3,9)/2 = 3,1; carga em pH 5 = -1",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 341,
+      "tags": [
+        "estrutura-membrana",
+        "lipossolubilidade",
+        "fosfolipidios",
+        "aminoacidos-propriedades"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "linoleico (18:2, cis-Delta9,12, omega-6) tem duplas dobras → maior fluidez vs palmitico (saturado, linear); dominios transmembranares usam AA apolares (Val/Ile/Leu/Phe/Ala)",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 342,
+      "tags": [
+        "estrutura-membrana",
+        "lipossomos",
+        "endocitose",
+        "reticulo-endoplasmatico"
+      ],
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "DSPC (2 cadeias, formato cilindrico) forma lipossomos (não micelas); lipidio cationico ionizavel ALC-0315 condensa mRNA em pH ácido e permite escape endossomal por protonacao em pH ~ 5",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 343,
+      "tags": [
+        "hemoglobina",
+        "regulacao-metabolica",
+        "efeito-bohr",
+        "estrutura-proteina"
+      ],
+      "aula": "bioq-08b-hemoglobina-II",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "HbF tem maior afinidade por O2 que HbA porque cadeia gama tem Ser143 (vs His143 beta) — His contribui ao bolso de BPG; sem BPG efetivo, HbF permanece no estado R (alta afinidade)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 344,
+      "tags": [
+        "estrutura-proteina",
+        "aminoacidos-propriedades",
+        "enzimologia",
+        "ph"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "cromatografia de exclusao: sai primeiro quem e MAIOR (300 kDa); troca iônica com resina negativa em pH 6: sai primeiro quem e NEGATIVO nesse pH (pI < pH → não retido pela resina negativa)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 345,
+      "tags": [
+        "estrutura-proteina",
+        "aminoacidos-propriedades",
+        "ph",
+        "buffers"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "heptapeptideo com ponte S-S: tiois das Cys bloqueados (não ionizaveis); pI = (2,35 + 3,9)/2 = 3,1; carga em pH 5 = -1 (alfa-NH3+ = +1; alfa-COO- = -1; Asp-COO- = -1)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 346,
+      "tags": [
+        "buffers",
+        "ph",
+        "equacao-henderson-hasselbalch",
+        "enzimologia"
+      ],
+      "nivel": "medio",
+      "aula": "bioq-02-ph-tampoes",
+      "formato": "discursiva",
+      "conceito_central": "para pH 5-6, tampao adequado e acetato (pKa 4,5, zona efetiva 3,5-5,5); para pH 6-7 e fosfato (pKa2 7,21); eficiencia depende de pKa proximo ao pH desejado e concentração total alta",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 347,
+      "tags": [
+        "hemoglobina",
+        "regulacao-metabolica",
+        "estrutura-proteina",
+        "metaloproteina"
+      ],
+      "aula": "bioq-08a-hemoglobina-I",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "Hb (tetramero, curva sigmoide, libera O2 nos tecidos) vs Mb (monomero, curva hiperbolica, armazena O2 no musculo) — cooperatividade e alosteria exigem multiplas subunidades",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 348,
+      "tags": [
+        "estrutura-membrana",
+        "lipossolubilidade",
+        "fosfolipidios",
+        "regulacao-metabolica"
+      ],
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "homeoviscose bacteriana: em frio sintetiza mais AG insaturados cis (dobras cis impedem empacotamento → fluidez mantida); em calor mais saturados; demonstra que fluidez e o parametro regulado",
+      "gabarito": "ver Explicacao",
+      "aula": "bioq-03-lipideos"
+    },
+    {
+      "id": 349,
+      "tags": [
+        "estrutura-proteina",
+        "aminoacidos-propriedades",
+        "hormonio-peptidico",
+        "gpcr"
+      ],
+      "aula": "bioq-04-aminoacidos",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "atividade biológica de oxitocina/vasopressina depende da conformação imposta pela ponte S-S (anel de 6 AA) e da identidade do residuo 8 (Leu vs Arg) que determina seletividade pelo receptor",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 350,
+      "tags": [
+        "estrutura-proteina",
+        "enzimologia",
+        "proteinas-membrana"
+      ],
+      "aula": "bioq-07-purificacao-proteinas",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "SDS-PAGE sem DTT mantem pontes S-S (banda de 180 = 2×90 unidas); com DTT quebra S-S → viram banda de 90; 160 e 60 são subunidades individuais sem S-S; total = 160+90+90+60 = 400 kDa",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 351,
+      "tags": [
+        "diferenciacao-celular",
+        "celulas-tronco",
+        "epigenetica",
+        "ciclo-celular",
+        "cromatina"
+      ],
+      "aula": "biocel-09-diferenciacao-celular",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "V/F: multipotentes nao originam 3 folhetos (so pluripotentes); diferenciacao continua na vida adulta; maior diferenciacao = menor potencialidade; heranca epigenetica e SEM mudanca de sequencia",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 352,
+      "tags": [
+        "hematopoiese",
+        "granulocitos",
+        "fatores-crescimento",
+        "regulacao-metabolica"
+      ],
+      "aula": "histo-02-hematopoese",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "excesso de G-CSF ou infeccao bacteriana (via TNF-alfa/IL-1/IL-6→G-CSF) acelera producao granulocitica → libera neutrofilos imaturos (desvio a esquerda); mecanismo e o mesmo",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 353,
+      "tags": [
+        "hematopoiese",
+        "leucocitos",
+        "eritrocito",
+        "metabolismo-integrado"
+      ],
+      "aula": "histo-02-hematopoese",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "V/F sobre celulas do sangue: monocitos sao maiores leucocitos circulantes (nao macrofagos); reticulocitose indica medula ativa (nao sempre problema); neutrofilos circulantes sao MADUROS (nao imaturos)",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 354,
+      "tags": [
+        "dna-recombinante",
+        "splicing",
+        "transcricao",
+        "traducao",
+        "enzimologia"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "medio",
+      "formato": "discursiva",
+      "conceito_central": "producao de insulina recombinante em E. coli: cDNA (sem introns), promotor lac + IPTG, selecao por ampicilina; insulina NAO e glicosilada → pode ser produzida em bacteria",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 355,
+      "tags": [
+        "reparo-dna",
+        "mutacao",
+        "transcricao",
+        "dna-recombinante",
+        "regulacao-genica"
+      ],
+      "aula": "biomol-25-mutacao-reparo-recombinacao",
+      "nivel": "dificil",
+      "formato": "discursiva",
+      "conceito_central": "UvrABC (NER bacteriano): UvrA reconhece distorcao, UvrBC faz incisoes assimetricas (4-5 nt do 3' e 8 nt do 5'), UvrD remove o oligonucleotideo, Pol I preenche, ligase sela",
+      "gabarito": "ver Explicacao"
+    },
+    {
+      "id": 356,
+      "tags": [
+        "anatomia-coracao",
+        "valvas-cardiacas"
+      ],
+      "aula": "anato-05-circulatorio-linfatico-I",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "faces e margens do coracao: pulmonar direita = atrio direito (margem direita); esternocostal = ventriculo direito (margem ANTERIOR); diafragmatica = ambos ventriculos (margem inferior); pulmonar esquerda = ventriculo esquerdo (margem ESQUERDA)",
+      "gabarito": "I-V; II-F; III-V; IV-F"
+    },
+    {
+      "id": 357,
+      "tags": [
+        "anatomia-coracao",
+        "valvas-cardiacas",
+        "grandes-vasos"
+      ],
+      "aula": "anato-05-circulatorio-linfatico-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "na sistole ventricular abrem-se as valvas SEMILUNARES (pulmonar e aortica) para ejetar sangue no tronco pulmonar e aorta — as valvas AV fecham nessa fase",
+      "gabarito": "A"
+    },
+    {
+      "id": 358,
+      "tags": [
+        "anatomia-coracao",
+        "grandes-vasos",
+        "sistema-linfatico"
+      ],
+      "aula": "anato-05-circulatorio-linfatico-I",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "tronco braquiocefalico (so lado direito) origina carotida comum DIREITA e subclavia DIREITA (nao esquerdas); seio coronario drena no atrio direito; braquiocefalicas D+E formam VCS",
+      "gabarito": "A"
+    },
+    {
+      "id": 359,
+      "tags": [
+        "sistema-linfatico",
+        "anatomia-coracao",
+        "grandes-vasos"
+      ],
+      "aula": "anato-06-circulatorio-linfatico-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "ducto linfotico direito drena quadrante superior direito; ducto toracico (da cisterna do quilo) drena tudo o mais; ambos drenam no angulo venoso subclavia-jugular do respectivo lado",
+      "gabarito": "B"
+    },
+    {
+      "id": 360,
+      "aula": "histo-04-tecido-conjuntivo",
+      "tags": [],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Matriz extracelular",
+      "gabarito": "C"
+    },
+    {
+      "id": 361,
+      "tags": [],
+      "aula": "histo-06-metastase-epitelio-conjuntivo",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Tecido conjuntivo",
+      "gabarito": "A"
+    },
+    {
+      "id": 362,
+      "tags": [],
+      "aula": "histo-05-tecido-adiposo",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Tecido adiposo",
+      "gabarito": "I-V; II-F; III-F; IV-V"
+    },
+    {
+      "id": 363,
+      "tags": [],
+      "aula": "histo-06-metastase-epitelio-conjuntivo",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Tecido conjuntivo",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 364,
+      "tags": [],
+      "aula": "histo-06-metastase-epitelio-conjuntivo",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Tecido conjuntivo",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 365,
+      "aula": "histo-03-tecidos-epiteliais",
+      "tags": [],
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Tecido epitelial de revestimento",
+      "gabarito": "I-F; II-F; III-F; IV-F; V-V; VI-V"
+    },
+    {
+      "id": 366,
+      "aula": "histo-04-tecido-conjuntivo",
+      "tags": [],
+      "nivel": "facil",
+      "formato": "Discursiva",
+      "conceito_central": "Matriz extracelular",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 367,
+      "tags": [
+        "exocitose"
+      ],
+      "aula": "histo-06-metastase-epitelio-conjuntivo",
+      "nivel": "medio",
+      "formato": "CE",
+      "conceito_central": "Epitelio glandular",
+      "gabarito": "I-V; II-V; III-V; IV-F; V-F"
+    },
+    {
+      "id": 368,
+      "tags": [
+        "fibras-amielinicas",
+        "potencial-acao",
+        "conducao-eletrotonica"
+      ],
+      "aula": "fisio-04-propriedades-passivas",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propagacao em fibra amielinica",
+      "gabarito": "C"
+    },
+    {
+      "id": 369,
+      "tags": [
+        "periodo-refratario",
+        "inativacao-canal",
+        "potencial-acao"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Periodo refratario relativo",
+      "gabarito": "A"
+    },
+    {
+      "id": 370,
+      "aula": "fisio-05-potencial-acao",
+      "tags": [
+        "canais-k-voltagem",
+        "sensor-voltagem",
+        "canais-ionicos"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Estrutura molecular de canais Kv",
+      "gabarito": "A"
+    },
+    {
+      "id": 371,
+      "tags": [
+        "inativacao-canal",
+        "canais-na-voltagem",
+        "periodo-refratario"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Inativacao do canal de sodio",
+      "gabarito": "D"
+    },
+    {
+      "id": 372,
+      "tags": [
+        "frequencia-disparo",
+        "potencial-acao",
+        "receptor-sensorial"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Codificacao de frequência",
+      "gabarito": "A"
+    },
+    {
+      "id": 373,
+      "tags": [
+        "potencial-acao",
+        "canais-na-voltagem",
+        "inativacao-canal",
+        "periodo-refratario"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Propagacao do potencial de ação",
+      "gabarito": "D"
+    },
+    {
+      "id": 374,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "calcio-intracelular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Receptor NMDA",
+      "gabarito": "E"
+    },
+    {
+      "id": 375,
+      "tags": [
+        "permeabilidade-ionica",
+        "potencial-acao",
+        "canais-na-voltagem"
+      ],
+      "aula": "fisio-03-potencial-repouso",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Permeabilidade durante o PA",
+      "gabarito": "B",
+      "figura": ""
+    },
+    {
+      "id": 376,
+      "tags": [
+        "peps",
+        "sinapse-quimica",
+        "receptores-ionotropicos",
+        "integracao-sinaptica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Mecanismos de PEPS",
+      "gabarito": "B"
+    },
+    {
+      "id": 377,
+      "tags": [
+        "integracao-sinaptica",
+        "calcio-intracelular",
+        "sinapse-quimica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Mecanismos de potencializacao sinaptica",
+      "gabarito": "B"
+    },
+    {
+      "id": 378,
+      "tags": [
+        "gpcr",
+        "receptores-ionotropicos",
+        "mensageiro-celular"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Conceito de receptor",
+      "gabarito": "E"
+    },
+    {
+      "id": 379,
+      "tags": [
+        "canais-na-voltagem",
+        "inativacao-canal",
+        "potencial-acao"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-05-potencial-acao",
+      "conceito_central": "Estados do canal de sodio no repouso",
+      "gabarito": "D"
+    },
+    {
+      "id": 380,
+      "tags": [
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Musculo liso",
+      "gabarito": "A",
+      "aula": "histo-08-tecido-muscular"
+    },
+    {
+      "id": 381,
+      "tags": [
+        "neurotransmissor",
+        "sinapse-quimica",
+        "mensageiro-celular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Plasticidade e neurotransmissores",
+      "gabarito": "B"
+    },
+    {
+      "id": 382,
+      "tags": [
+        "sinapse-quimica",
+        "receptores-ionotropicos",
+        "integracao-sinaptica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Célula pos-sinaptica",
+      "gabarito": "E"
+    },
+    {
+      "id": 383,
+      "tags": [
+        "neurotransmissor",
+        "sinapse-quimica",
+        "acetilcolina"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Encerramento da neurotransmissao",
+      "gabarito": "B"
+    },
+    {
+      "id": 384,
+      "tags": [
+        "potencial-acao",
+        "limiar",
+        "potencial-membrana-repouso"
+      ],
+      "aula": "fisio-05-potencial-acao",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Independencia do PA em relacao ao potencial de repouso",
+      "gabarito": "D"
+    },
+    {
+      "id": 385,
+      "tags": [
+        "plato",
+        "canais-ca-voltagem",
+        "acoplamento-excitacao-secrecao"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Plato e canais de calcio",
+      "gabarito": "D"
+    },
+    {
+      "id": 386,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "enzimologia"
+      ],
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Gliconeogenese",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 387,
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "tags": [
+        "desacoplador",
+        "fosforilacao-oxidativa",
+        "cadeia-respiratoria"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Fosforilacao oxidativa e desacoplamento",
+      "gabarito": "D"
+    },
+    {
+      "id": 388,
+      "tags": [
+        "fosforilacao-oxidativa",
+        "cadeia-respiratoria",
+        "metabolismo-integrado"
+      ],
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Fosforilacao oxidativa e ciclo de Krebs",
+      "gabarito": "I-F; II-F; III-F; IV-F; V-V; VI-V; VII-V"
+    },
+    {
+      "id": 389,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Gliconeogenese a partir do glicerol",
+      "gabarito": "B"
+    },
+    {
+      "id": 390,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-integrado",
+        "regulacao-metabolica"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Substratos da gliconeogenese e marcacao isotopica",
+      "gabarito": "D"
+    },
+    {
+      "id": 391,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "nadph"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Gliconeogenese e equivalentes de reducao",
+      "gabarito": "B"
+    },
+    {
+      "id": 392,
+      "tags": [
+        "processamento-mrna",
+        "splicing",
+        "cap5",
+        "poliadenilacao"
+      ],
+      "aula": "biomol-22-transcricao",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Processamento de RNAm em eucariontes",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 393,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "acetil-coa"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Gliconeogenese a partir de piruvato",
+      "gabarito": "C"
+    },
+    {
+      "id": 394,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "fosforilacao-oxidativa",
+        "cadeia-respiratoria",
+        "metabolismo-integrado"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Saldo de ATP e gliconeogenese",
+      "gabarito": "D"
+    },
+    {
+      "id": 395,
+      "tags": [
+        "f26bp",
+        "glicolise",
+        "gliconeogenese",
+        "regulacao-metabolica"
+      ],
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Regulacao por frutose-2,6-bifosfato",
+      "gabarito": "Ver Explicacao",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 396,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "ciclo-cori",
+        "regulacao-metabolica"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Gliconeogenese a partir de lactato",
+      "gabarito": "E"
+    },
+    {
+      "id": 397,
+      "tags": [
+        "glicolise",
+        "regulacao-metabolica",
+        "enzimologia",
+        "f26bp"
+      ],
+      "nivel": "facil",
+      "formato": "Discursiva",
+      "conceito_central": "Glicolise (passos glicose ate piruvato)",
+      "gabarito": "Ver Explicacao",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 398,
+      "tags": [
+        "reparo-dna",
+        "dna-recombinante",
+        "ciclo-celular"
+      ],
+      "aula": "biomol-21-replicacao-dna",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Replicacao do DNA",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 399,
+      "tags": [
+        "fosforilacao-oxidativa",
+        "cadeia-respiratoria",
+        "metabolismo-integrado"
+      ],
+      "aula": "bioq-18-transporte-eletrons-II",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Lancadeiras mitocondriais e saldo de ATP",
+      "gabarito": "D"
+    },
+    {
+      "id": 400,
+      "tags": [
+        "cadeia-respiratoria",
+        "inibidores-enzimaticos",
+        "fosforilacao-oxidativa"
+      ],
+      "aula": "bioq-17-ciclo-krebs-TE-I",
+      "nivel": "dificil",
+      "formato": "Discursiva",
+      "conceito_central": "Inibidores da cadeia respiratoria e graficos",
+      "gabarito": "Ver Explicacao"
+    },
+    {
+      "id": 401,
+      "tags": [
+        "glicolise",
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "f26bp",
+        "inibidores-enzimaticos"
+      ],
+      "nivel": "dificil",
+      "formato": "CE",
+      "conceito_central": "Regulacao glicolise e gliconeogenese",
+      "gabarito": "I-V; II-V; III-V; IV-F; V-V; VI-F",
+      "aula": "bioq-15-glicolise"
+    },
+    {
+      "id": 402,
+      "tags": [
+        "estrutura-acidos-nucleicos",
+        "dna-rna",
+        "2-oh",
+        "ribose-desoxirribose",
+        "bases-nitrogenadas",
+        "fita-simples-vs-dupla"
+      ],
+      "nivel": "facil",
+      "formato": "Discursiva",
+      "conceito_central": "Diferencas estruturais entre DNA e RNA: acucar (desoxirribose vs ribose, 2'-OH), bases (T vs U), fita (dupla vs simples), estabilidade (DNA arquivo vs RNA mensagem)",
+      "gabarito": "Ver Explicacao",
+      "aula": "biomol-20-acidos-nucleicos"
+    },
+    {
+      "id": 403,
+      "aula": "bioq-16-gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "acetil-coa"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "NADH e gliconeogenese a partir de piruvato",
+      "gabarito": "B"
+    },
+    {
+      "id": 404,
+      "tags": [
+        "receptores-colinergicos",
+        "acetilcolina",
+        "sinapse-quimica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Juncao neuromuscular e farmacologia colinergica",
+      "gabarito": "C"
+    },
+    {
+      "id": 405,
+      "tags": [
+        "neurotransmissor",
+        "receptores-ionotropicos",
+        "sinapse-quimica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Neurotransmissores e receptores ionotropicos metabotropicos",
+      "gabarito": "D"
+    },
+    {
+      "id": 406,
+      "tags": [
+        "hormonio-peptidico",
+        "mensageiro-celular",
+        "fatores-crescimento"
+      ],
+      "nivel": "medio",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Receptor com atividade tirosina quinase",
+      "gabarito": "D"
+    },
+    {
+      "id": 407,
+      "tags": [
+        "mensageiro-celular",
+        "gpcr"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "facil",
+      "formato": "MC",
+      "conceito_central": "Termorregulacao e febre",
+      "gabarito": "A"
+    },
+    {
+      "id": 408,
+      "tags": [
+        "acoplamento-excitacao-secrecao",
+        "calcio-intracelular",
+        "reticulo-endoplasmatico"
+      ],
+      "aula": "histo-08-tecido-muscular",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Acoplamento excitacao-contracao muscular esqueletico",
+      "gabarito": "B"
+    },
+    {
+      "id": 409,
+      "tags": [
+        "gpcr",
+        "receptores-colinergicos",
+        "neurotransmissor"
+      ],
+      "aula": "fisio-07-sinalizacao-I",
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Receptor muscarinico no plexo enterico",
+      "gabarito": "C"
+    },
+    {
+      "id": 410,
+      "tags": [
+        "sinapse-quimica",
+        "neurotransmissor",
+        "calcio-intracelular"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Canal NMDA e bloqueio por magnesio",
+      "gabarito": "E"
+    },
+    {
+      "id": 411,
+      "aula": "fisio-06-transmissao-sinaptica",
+      "tags": [
+        "receptores-ionotropicos",
+        "receptores-colinergicos",
+        "sinapse-quimica"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "conceito_central": "Mecanismo de antagonismo farmacologico em receptores de membrana",
+      "gabarito": "E"
+    },
+    {
+      "id": 412,
+      "tags": [
+        "exocitose",
+        "acetilcolina",
+        "sinapse-quimica"
+      ],
+      "aula": "fisio-06-transmissao-sinaptica",
+      "nivel": "medio",
+      "formato": "MC",
+      "conceito_central": "Toxina botulinica e bloqueio de exocitose",
+      "gabarito": "C"
+    },
+    {
+      "id": 413,
+      "tags": [
+        "toxina-colera",
+        "gpcr",
+        "camp",
+        "adenilato-ciclase"
+      ],
+      "nivel": "dificil",
+      "formato": "MC",
+      "aula": "fisio-07-sinalizacao-I",
+      "conceito_central": "Toxina colerica e mecanismo de elevacao de cAMP",
+      "gabarito": "A"
+    }
+  ]
+}

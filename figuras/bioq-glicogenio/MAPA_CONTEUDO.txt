@@ -1,0 +1,49 @@
+# MAPA_CONTEUDO -- bioq-glicogenio
+# Slide-fonte: metabolismo do glicogênio 2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Metabolismo do glicogênio
+slide-02: Utilização da glicose
+slide-03: Reserva de carboidratos polímeros de D-glicose Amido (plantas) Tubérculo de batata
+slide-04: Amido ligações β(14)
+slide-05: Glicogênio (animais e microrganismos) Fígado 50-100g – 10% da massa manutenção da glicemia Músculo reserva energética 2% massa Repouso Após exercício
+slide-06: [VISUAL -- usar adjacente com titulo extraivel]
+slide-07: Ponto de ramificação Extremidade redutora Extremidade não redutora Glicogênio Extremidade redutora (C1 no resíduo final na última molécula de glicose da cadeia)
+slide-08: Utilização da glicose Glicose armazenada como glicogênio e usada para manter os níveis de açucar no sangue. No músculo a glicose é armazenada como glicogênio que é utilizado quando o corpo precisa de mais energia Glucose entra facilmente nas células ...
+slide-09: Porque estocar o Glicogênio?
+slide-10: Síntese Degradação
+slide-11: Glicose 6-fosfato Fígado (glicose 6-fosfatase) Glicose Sangue Glicólise Músculo Piruvato Lactato CO2+H2O Glicogênio (n) Degradação do Glicogênio Glicogenólise Glicogênio (n-1) + Glicose 1-fosfato Glicogênio fosforilase Fosfoglicomutase
+slide-12: Glicose-1-fosfato Pi Glicose-6-fosfato pyridoxal phosphate (PLP) N H C O P O− O O OH CH3 C H O − + H2 Degradação do Glicogênio Glicogênio +Pi Glicose 1-fosfato + Glicogênio (n-1 unidade) A clivagem fosforolítica é energeticamente vantajosa e impede a...
+slide-13: Fosfoglicomutase
+slide-14: Degradação do Glicogênio 1. Glicogênio fosforilase retira os resíduos de glicose até sobrarem 4 resíduos antes da ramificação. 2. Enzima desramificadora (glicosil transferase e a1-6 glicosidase) Atividade de uma única enzima.
+slide-15: Degradãção Síntese
+slide-16: Repetida adição de unidades de glicose às extremidades não redutoras de um fragmento de glicogênio. Glicogênese- síntese de glicogênio A síntese do glicogênio utiliza como precursor uma forma ativada da glicose e gasta 2ATP por glicose incorporada: N...
+slide-17: Fosfoglicomutase
+slide-18: UDP glicose é uma forma ativada da glicose. Glicose 1-fosfato +UTP +H2O UDP-glicose + 2Pi Luis Federico Leloir- Nobel em 1987 Síntese de glicogênio UDP glicose pirofosforilase
+slide-19: Adiciona UDP glicose no C-4 do glicogênio. São necessárias 4 unidades de glicose para que a sintase adicione glicoses no glicogênio Glicogênio sintase Síntese de glicogênio
+slide-20: Enzima ramificadora (1,4 - 1,6 transglicosilase)
+slide-21: Síntese de glicogênio Glicogenina tem atividade de glicosiltransferase A extremidade redutora permanece ligada à Glicogenina
+slide-22: Vias de síntese e degradação de glicogênio
+slide-23: A síntese de glicogênio utiliza 2 ATPs Glicose + ATP Glicose 6-fosfato + ADP + H+ Glicose 6-fosfato Glicose 1-fosfato Glicose 1-fosfato + UTP UDP glicose + PPi UDP + ATP UTP + ADP PPi + H2O 2Pi + H+ Glicose + 2ATP + glicogênio (n) + H2O glicogênio (n...
+slide-24: Regulação por hormônios Regulações alostéricas. Regulação por fosforilação. Síntese e degradação são reguladas de forma coordenada. Regulação do metabolismo do glicogênio
+slide-25: -Resposta hormonal (diferente em diferentes tecidos). -Efetores alostéricos sinalizam o estado energético da célula. -Fosforilação reversível em resposta a hormônios (insulina, epinefrina e glucagon). Degradação do glicogênio: Degradãção Síntese
+slide-26: Glucagon estimula a degradação do glicogênio e a gliconeogênese Insulina estimula a síntese do glicogênio Hormonal no fígado
+slide-27: Regulação da glicogênio fosforilase (degradação do glicogênio)
+slide-28: Glicogênio Fosforilase Muscular -Glicose-6-fosfato, ATP favorecem estado T (tenso, menos ativo), AMP favorece estado R da fosforilase b por alosteria Epinefrina Fosforilação da fosforilase (fosforilase quinase) Fosforilase a Exercicio [AMP] Ativação ...
+slide-29: -Ausência de glicose 6-fosfatase no músculo assegura que a glicose 6-fosfato derivada do glicogênio permaneça na célula para a formação de energia. Porque a glicose liberada do glicogênio no músculo permanece no músculo ?
+slide-30: 2- A Fosforilase a não é sensível ao AMP porque este não tem grandes oscilações no fígado. 3- Altos níveis de glicose passam Fosforilase a do estado R para o T (inativo). 1- Ao contrário do músculo, a Fosforilase a é a mais susceptível a transição T ...
+slide-31: Como que o glucagon induz a fosforilação da fosforilase a ???
+slide-32: Cascata de ativação
+slide-33: Cascata de ativação da PKA https://www.youtube.com/watch?v=Kl3xbK6rmGM
+slide-34: Proteína fosfatase 1 (PP1)
+slide-35: Fosfodiesterase transforma o AMPc em AMP Parar quebra de glicogênio A adenosina 3',5'- monofosfato cíclico (cAMP ou AMP cíclico)
+slide-36: Fosfodiesterase transforma o AMPc em AMP Ativação da fosfatase 1. Inativação da glicogênio fosforilase e ativação da glicogênio sintase Parar a quebra de glicogênio
+slide-37: Controle para parar a quebra de glicogênio Ativação da fosfatase
+slide-38: Regulação da glicogênio sintase
+slide-39: Glicogênio sintase ativa (a) é desfosforilada e inativa (b) é fosforilada Regulação pela fosforilação por PKA fosforilação tem efeitos opostos Degradação de glicogênio Síntese de glicogênio inativa ativa
+slide-40: Insulina promove a síntese do glicogênio
+slide-41: Doenças associadas ao metabolismo do glicogênio

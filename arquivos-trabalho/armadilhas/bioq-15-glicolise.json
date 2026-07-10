@@ -1,0 +1,150 @@
+{
+  "slug": "bioq-15-glicolise",
+  "total_armadilhas_unicas": 8,
+  "total_questoes_com_armadilha": 9,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Confundir efeito alosterico do ATP em [alta] (inibe PFK-1) com seu papel de substrato no sitio ativo",
+      "origens": [
+        "395",
+        "401"
+      ],
+      "nivel": "dificil",
+      "conceito": "Regulacao por frutose-2,6-bifosfato",
+      "tags": [
+        "f26bp",
+        "glicolise",
+        "gliconeogenese",
+        "regulacao-metabolica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 2
+    },
+    {
+      "descricao": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inibitório (diferente do sítio ativo) é ocupado → PFK-1 é inibida. É regulação pelo produto energético: célula com energia suficiente desacelera a glicólise. Sinal de energia baixa (AMP/ADP) faz o oposto.",
+      "origens": [
+        "0279"
+      ],
+      "nivel": "dificil",
+      "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+      "tags": [
+        "metabolismo",
+        "glicólise",
+        "atp",
+        "enzimas",
+        "regulacao-metabolica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "S. cerevisiae e Crabtree-positiva: pode crescer em glicose sem mitocondria, mas NAO em glicerol (entra pela cadeia via FADH2)",
+      "origens": [
+        "282"
+      ],
+      "nivel": "dificil",
+      "conceito": "efeito da oligomicina sobre leveduras (Crabtree-positivas) em glicose vs glicerol: glicolise compensa parcialmente, mas glicerol exige cadeia respiratoria funcional",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "glicolise",
+        "regulacao-metabolica",
+        "efeito-pasteur"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "outros tecidos tem fosforilacao oxidativa e substrato alternativo — a seletividade e pela ausencia de mitocondria no eritrocito maduro",
+      "origens": [
+        "285"
+      ],
+      "nivel": "dificil",
+      "conceito": "seletividade eritrociaria de droga que degrada PEP: eritrocito depende 100% da glicolise (sem mitocondria), perda da piruvato-quinase = colapso energetico → hemolise",
+      "tags": [
+        "glicolise",
+        "eritrocito",
+        "transporte-ativo-primario",
+        "bomba-na-k",
+        "doencas-metabolicas"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "LDH cardiaca normalmente converte LACTATO→piruvato em aerobiose, NAO produz lactato — so em anaerobiose o sentido se inverte para reoxidar NADH citosólico",
+      "origens": [
+        "292"
+      ],
+      "nivel": "dificil",
+      "conceito": "efeito Pasteur no musculo cardiaco: em anaerobiose consumo de glicose dispara (glicolise compensa); em aerobiose, 30 ATP/glicose reduz 15x o consumo",
+      "tags": [
+        "glicolise",
+        "fosforilacao-oxidativa",
+        "efeito-pasteur",
+        "regulacao-metabolica",
+        "eritrocito"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "lancadeira de glicerol-fosfato renderia 36 ATP (nao 38); a questao especifica malato-aspartato (38 ATP) — nao confundir as duas lancadeiras",
+      "origens": [
+        "321"
+      ],
+      "nivel": "medio",
+      "conceito": "hemacia gera 2 ATP/glicose; hepatocito com lancadeira malato-aspartato gera 38 ATP/glicose → razao 19:1 → hemacia precisa metabolizar 19 moles de glicose para cada mol no hepatocito",
+      "tags": [
+        "glicolise",
+        "fosforilacao-oxidativa",
+        "eritrocito",
+        "energia-livre",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [
+        "questao"
+      ],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Questao discursiva: cada mecanismo deve ser explicitado -- conclusao correta sem raciocinio nao pontua",
+      "origens": [
+        "397"
+      ],
+      "nivel": "facil",
+      "conceito": "Glicolise (passos glicose ate piruvato)",
+      "tags": [
+        "glicolise",
+        "regulacao-metabolica",
+        "enzimologia",
+        "f26bp"
+      ],
+      "palavras_proibidas": [
+        "questao"
+      ],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Confundir ATP bruto produzido (4 ATP) com ATP líquido (2 ATP, após descontar os 2 investidos nas etapas de hexoquinase e fosfofrutocinase). O aluno lembra '4 ATP' sem subtrair o investimento inicial. Também comum esquecer que são 2 NADH (um por cada triose, pois glicose gera 2 trioses).",
+      "origens": [
+        "q-0168"
+      ],
+      "nivel": "medio",
+      "conceito": "Balanço de ATP e redução de NAD⁺ na glicólise",
+      "tags": [
+        "glicólise",
+        "atp",
+        "nad",
+        "piruvato",
+        "gliceraldeido-3-fosfato",
+        "fosfoglicerato",
+        "rendimento"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

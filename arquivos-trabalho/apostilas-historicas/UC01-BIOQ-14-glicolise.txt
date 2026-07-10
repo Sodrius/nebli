@@ -1,0 +1,1814 @@
+NEBLI · APOSTILA
+
+Glicólise
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:   Primeira leitura pós-aula; releia antes da P2.
+Onde estudar:  Lehninger 7ª ed cap 14; Berg 9ª ed cap 16; Boron 3ª ed cap 60
+               (metabolismo de carboidratos)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Estratégia e fase preparatória
+
+       1.1 Por que glicólise importa -- citosol, 10 reações, captação por GLUTs
+       1.2 Fase preparatória -- investimento de 2 ATP (HK  PFK-1  aldolase  TPI)
+       1.3 Hexoquinase × glicoquinase -- Km diferente, função tecidual diferente
+  PARTE II -- Pagamento e destino do piruvato
+       2.1 GAPDH -- a reação que casa oxidação com fosforilação
+       2.2 As três geradoras de ATP -- PGK, enolase, piruvato quinase
+       2.3 Destino do piruvato -- regenerar NAD via lactato ou acetil-CoA
+       2.4 Velocidade × capacidade -- três sistemas energéticos no exercício
+  PARTE III -- Regulação
+       3.1 As três válvulas -- HK, PFK-1, PK como pontos irreversíveis
+       3.2 PFK-1 e a frutose-2,6-bifosfato -- o regulador-mor
+       3.3 Regulação hormonal -- glucagon, insulina e adrenalina
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q09) · verde
+       Integração (Q10­Q23) · azul
+       Aplicação (Q24­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A glicólise é a primeira via metabólica que vale a pena entender bem -- e não porque seja "a mais
+    importante" (cada via tem seu lugar), mas porque ela ensina, em dez reações, como o corpo extrai
+    energia de uma molécula combustível. Aqui dentro estão os movimentos que vão se repetir em
+    vias maiores: ativação por fosforilação, isomerização de açúcares, oxidação acoplada à formação
+    de composto de alta energia, fosforilação ao nível do substrato, regulação por enzimas-válvula.
+    Esta aula percorre a via na ordem das reações, mas o foco é o que cada passo faz pela célula -- não
+    decorar nomes. No fim você vai entender por que a glicólise está no citosol e não na mitocôndria,
+    por que o cérebro depende dela mesmo em jejum, por que o exercício intenso faz dor muscular, e
+    por que o fígado e o músculo regulam a via de jeitos diferentes.
+
+PARTE I -- Estratégia e fase preparatória
+
+1.1 Por que glicólise importa -- citosol, 10 reações, captação por GLUTs
+Comecemos pelo motivo prático: de onde vem o ATP que cada célula do corpo usa todo o tempo? Várias
+respostas existem (fosforilação oxidativa, -oxidação, corpos cetônicos), mas existe uma resposta uni
+versal -- todas as células do corpo conseguem fazer glicólise. Hemácia faz, neurônio faz, miócito faz,
+espermatozoide faz. Algumas dependem exclusivamente dela (a hemácia não tem mitocôndria, então é
+glicólise ou nada); outras usam como ponto de partida obrigatório (o cérebro consome cerca de 50­60%
+de toda a glicose circulante do organismo, e essa glicose entra em metabolismo via glicólise). Glicólise
+é o tronco comum: o que vem depois muda de tecido para tecido, mas a via até o piruvato é universal.
+ATP1 ADP2 Pi3 NAD4
+
+A via tem dez reações enzimáticas e acontece inteiramente no citosol. Vale parar nesse detalhe: glicólise
+é citosólica. Diferente do ciclo de Krebs e da cadeia respiratória, que precisam da mitocôndria, a glicólise
+não exige organela nenhuma -- basta o citoplasma e as dez enzimas dissolvidas nele. Isso explica por
+que a hemácia (que não tem mitocôndria) sobrevive: ela tem o citosol, tem as dez enzimas, faz ATP. A
+via mora onde toda célula tem espaço.
+
+   1ATP ­ adenosina trifosfato -- moeda energética da célula; sua hidrólise libera a energia usada por bombas, motores
+moleculares e biossíntese.
+
+   2ADP ­ adenosina difosfato -- forma "descarregada" do ATP, recebe um fosfato e volta a ATP via fosforilação ao nível
+do substrato ou oxidativa.
+
+   3Pi ­ fosfato inorgânico -- íon ortofosfato (HPO42-), substrato da GAPDH e produto da hidrólise de ATP.
+   4NAD ­ nicotinamide adenine dinucleotide -- coenzima de oxidorredução; aceita 2 elétrons + 1 próton (NAD+  NADH)
+durante a oxidação de um substrato.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ As dez reações da glicólise, do lado direito do esquema. Repare que de uma molécula de glicose (6 carbonos) saem
+ duas moléculas de piruvato (3 carbonos cada). A célula investe 2 ATP no começo e recebe 4 ATP no fim -- saldo
+ líquido de 2 ATP.
+Antes da reação 1, há um problema logístico: a glicose precisa entrar na célula. Glicose é uma molécula
+polar (cheia de OHs), não atravessa a bicamada lipídica por difusão simples. A célula precisa de um
+transportador específico -- a família dos GLUTs (proteínas de membrana que fazem difusão facilitada
+de glicose). Você já viu GLUTs na aula de transporte de membrana; aqui basta lembrar o que importa para
+a glicólise: tecidos diferentes expressam isoformas diferentes, e essas diferenças determinam quando o
+tecido capta glicose. GLUT1 da hemácia tem KM baixo ( 1 mM) e capta o tempo todo. GLUT2 do hepatócito
+tem KM alto ( 15 mM) e só capta bem quando a glicemia sobe (depois da refeição). GLUT3 do neurônio
+tem KM muito baixo (alta afinidade) -- o neurônio é o último a ficar sem glicose mesmo em jejum.
+GLUT4 do músculo e adipócito só vai para a membrana se a insulina mandar. Cada tecido capta glicose
+no ritmo que faz sentido para sua função.
+GLUT5
+
+   5GLUT ­ glucose transporter -- família de transportadores de glicose por difusão facilitada; quatro isoformas principais
+(GLUT1­4) distribuem-se em tecidos diferentes com afinidades diferentes pela glicose.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A tabela comparativa dos GLUTs é a base para entender
+o resto da regulação tecidual. O ponto-âncora é simples:
+KM baixo = afinidade alta = capta mesmo em baixa
+glicemia (neurônio, hemácia). KM alto = afinidade baixa
+= só capta em alta glicemia (hepatócito, célula  do
+pâncreas). O GLUT4 é especial porque sua presença
+na membrana depende de sinal hormonal -- insulina
+manda vesículas com GLUT4 fundirem com a mem
+brana plasmática, e a captação de glicose pelo músculo
+dispara depois da refeição. Sem insulina (diabetes tipo GLUT1, GLUT2, GLUT3, GLUT4: mesmo plano de
+1), GLUT4 fica preso no citoplasma e o músculo "não vê" transporte facilitado, KM e regulação distintos.
+a glicose mesmo com glicemia alta.
+
+Dentro da célula, a glicose entra na reação 1 da glicólise. Reação 1 já é uma reação irreversível e regulada
+-- não é coincidência. A célula precisa de um ponto de controle no início da via, e a primeira reação faz
+dupla função: capturar a glicose dentro da célula (porque o produto, glicose-6-fosfato, não atravessa a
+membrana de volta) e marcá-la para entrar na via. Vamos olhar isso em detalhe no 1.2.
+
+Resumindo até aqui: Glicólise é universal e citosólica: dez reações enzimáticas no citosol convertem
+uma glicose em dois piruvatos, saldo líquido de 2 ATP. A glicose entra na célula via GLUTs (com afinidade e
+regulação diferentes em cada tecido) e é imediatamente fosforilada -- o que a aprisiona dentro da célula.
+
+1.2 Fase preparatória -- investimento de 2 ATP (HK  PFK-1  aldolase  TPI)
+A glicólise se divide em duas fases didáticas. A fase preparatória (reações 1 a 5) gasta 2 ATP para
+
+"preparar" a glicose -- fosforilar, isomerizar e quebrar em dois pedaços de três carbonos. A fase de
+
+pagamento (reações 6 a 10, vista em 2.1 e 2.2) recupera 4 ATP e gera 2 NADH, fechando o saldo positivo.
+
+Pense assim: a célula investe energia para depois colher energia maior. Sem a fase preparatória, a
+
+glicose não tem "como" virar piruvato -- está estável demais. Os dois ATP iniciais funcionam como
+
+ativação.
+
+HK6 G6P7 F6P8 PFK-19 F1,6BP10 TPI11 G3P12 DHAP13
+
+Reação 1 -- Hexoquinase. A glicose recém-chegada do GLUT é fosforilada no carbono 6 pela hexo
+
+quinase, gastando 1 ATP. O produto é a glicose-6-fosfato. Essa reação cumpre três funções de uma
+
+vez: (1) aprisiona a glicose dentro da célula -- o GLUT só transporta glicose neutra, não glicose-6-
+
+   6HK ­ hexoquinase -- primeira enzima da glicólise; fosforila glicose em glicose-6-fosfato usando ATP, presente em
+todos os tecidos, KM baixo ( 0,05 mM).
+
+   7G6P ­ glicose-6-fosfato -- produto da hexoquinase; molécula carregada que não atravessa a membrana, aprisionada
+na célula. Inibe alostericamente a HK.
+
+   8F6P ­ frutose-6-fosfato -- isômero da glicose-6-fosfato (aldose  cetose), produto da fosfoglicose-isomerase.
+   9PFK-1 ­ fosfofrutoquinase-1 -- terceira enzima da glicólise; fosforila F6P em F1,6BP usando ATP. Enzima-válvula
+principal, fortemente regulada.
+   10F1,6BP ­ frutose-1,6-bifosfato -- produto da PFK-1, substrato da aldolase. É a molécula mais "rica" da fase preparatória.
+   11TPI ­ triose-fosfato isomerase -- quinta enzima da glicólise; converte di-hidroxiacetona-fosfato em gliceraldeído-3-
+fosfato.
+   12G3P ­ gliceraldeído-3-fosfato -- única triose-fosfato que segue na via; alvo da reação 6 (GAPDH).
+   13DHAP ­ di-hidroxiacetona-fosfato -- uma das duas trioses-fosfato produzidas pela aldolase; é convertida em G3P
+pela TPI.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+fosfato carregada; (2) ativa a molécula para as reações seguintes; (3) é ponto de controle (a G6P inibe a
+própria HK por feedback). O mecanismo é digno de uma olhada: o ATP entra no sítio ativo formando
+um complexo Mg2+-ATP, e o magnésio cumpre um papel curioso -- ele blinda as cargas negativas do
+fosfato , tornando o átomo de fósforo mais "atacável". O grupo OH do carbono 6 da glicose faz um
+ataque nucleofílico sobre esse fósforo, o -fosfato sai do ATP e gruda na glicose. Sem o Mg2+, as cargas
+negativas se repeliriam e a reação não aconteceria -- quase toda quinase precisa de magnésio pelo
+mesmo motivo.
+
+ O magnésio (verde) blinda as cargas negativas do fosfato  do ATP, deixando o fósforo "exposto" ao ataque nucle
+ ofílico do OH do carbono 6 da glicose. Sem Mg2+, a reação não anda. Mesmo mecanismo se repete em todas as
+ quinases da via.
+Reação 2 -- Fosfoglicose-isomerase. A glicose-6-fosfato é uma aldose (carbonila no C1). A fosfoglicose-
+isomerase converte para a frutose-6-fosfato, que é uma cetose (carbonila no C2). É só uma isomerização
+-- não consome nem libera ATP. Mas serve para um propósito específico: preparar o substrato para a
+próxima fosforilação. A frutose-6-fosfato tem o C1 livre (um grupo CH2OH em vez de carbonila), pronto
+para receber um fosfato.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Isomerização aldose  cetose. O grupo carbonila migra de C1 para C2, liberando o C1 para a próxima fosforilação.
+Sem essa isomerização, a PFK-1 não tem onde colocar o fosfato.
+
+Reação 3 -- PFK-1. A frutose-6-fosfato é fosforilada no C1 pela fosfofrutoquinase-1, gastando o segundo
+ATP. O produto é a frutose-1,6-bifosfato. Esta é a reação-chave da glicólise -- a etapa mais regulada, a
+que decide se a via vai andar ou não. Vamos voltar a ela com calma na PARTE III. Por enquanto, registre:
+aqui se consome o segundo ATP, e a frutose ganha um fosfato em cada extremidade -- fica simétrica o
+bastante para a próxima reação cortar a molécula no meio.
+
+Reação 4 -- Aldolase. A frutose-1,6-bifosfato (6 carbonos, 2 fosfatos) é clivada ao meio pela aldolase,
+produzindo dois fragmentos de 3 carbonos, cada um com um fosfato: gliceraldeído-3-fosfato (G3P) e
+di-hidroxiacetona-fosfato (DHAP). É uma condensação aldólica reversa -- quebra de uma ligação C-
+C com a ajuda de um aminoácido catalítico no sítio ativo. Daqui em diante a via deixa de tratar uma
+molécula de glicose e passa a tratar duas moléculas de triose-fosfato -- por isso o saldo final é dobrado
+(cada ATP gerado vale por 2).
+
+Clivagem aldólica da frutose-1,6-bifosfato em duas trioses-fosfato. A ligação C3­C4 é rompida, e cada metade leva
+consigo um fosfato -- uma molécula de 6 carbonos vira duas de 3 carbonos.
+
+                                                                                7
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+Reação 5 -- Triose-fosfato isomerase. Só uma das duas trioses (o G3P) segue na via -- a DHAP é um
+beco sem saída glicolítico. A TPI resolve isso convertendo DHAP em G3P. No saldo, uma glicose entra e
+duas moléculas de G3P saem da fase preparatória. A TPI é uma das enzimas mais rápidas conhecidas
+-- chega perto do limite difusional, ou seja, cada vez que substrato e enzima se encontram, a reação
+acontece.
+
+   Resumindo até aqui: Fase preparatória em 5 movimentos: (1) HK fosforila glicose  G6P (1 ATP), (2)
+   isomerase converte G6P em F6P, (3) PFK-1 fosforila F6P  F1,6BP (2º ATP), (4) aldolase corta F1,6BP em
+   G3P + DHAP, (5) TPI converte DHAP em G3P. Saldo: 2 ATP gastos, 2 G3P prontos para a fase de pagamento.
+
+A tabela abaixo resume as dez reações inteiras -- vale tê-la em mente como referência rápida (a fase de
+pagamento aparece em 2.1 e 2.2).
+
+Passo           Enzima        Substrato  Produto          Observação
+
+1      Hexoquinase / Glico Glicose  G6P                   Gasta 1 ATP · irreversível
+                                                          · regulada
+       quinase
+
+2      Fosfoglicose-isomerase G6P  F6P                    Aldose  cetose · rever
+                                                          sível
+
+3      PFK-1                  F6P  F1,6BP                 Gasta 1 ATP · irreversível
+                                                          · válvula principal
+
+4      Aldolase               F1,6BP  G3P + DHAP          Clivagem C3­C4 · rever
+                                                          sível
+
+5      TPI                    DHAP  G3P                   Isomerização rápida · re
+                                                          versível
+
+6      GAPDH                  G3P + NAD+ + Pi  1,3-BPG +  Oxidação acoplada à
+                              NADH                        fosforilação · reversível
+
+7      PGK                    1,3-BPG + ADP  3-PG + ATP   1ª geração de ATP · re
+                                                          versível
+
+8      Fosfoglicerato mutase  3-PG  2-PG                  Migração de fosfato · re
+                                                          versível
+
+9      Enolase                2-PG  PEP + H2O             Desidratação · gera com
+                                                          posto de alta energia
+
+10     Piruvato quinase       PEP + ADP  piruvato + ATP   2ª geração de ATP · irre
+                                                          versível · regulada
+
+1.3 Hexoquinase × glicoquinase -- Km diferente, função tecidual diferente
+A primeira reação da glicólise existe em duas versões enzimáticas -- e a diferença entre elas é uma
+das melhores demonstrações de como o corpo usa a mesma química para funções tecido-específicas
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+completamente diferentes. Hexoquinase e glicoquinase fazem a mesmíssima reação (glicose + ATP 
+glicose-6-fosfato + ADP), mas trabalham em regimes opostos.
+
+A hexoquinase aparece em todos os tecidos menos no fígado (e em menor grau no pâncreas). Ela tem
+KM muito baixo -- em torno de 0,05 mM para glicose. Lembrando o significado: KM é a concentração de
+substrato que faz a enzima trabalhar a meia velocidade. KM muito baixo significa que mesmo em pouca
+glicose a enzima já está perto da Vmax. Como a glicemia normal em jejum é 5 mM (100× maior que o KM
+da hexoquinase), a hexoquinase trabalha praticamente saturada o tempo todo. Em outras palavras: o
+tecido com hexoquinase capta glicose em qualquer condição -- não espera a glicemia subir. Isso faz
+sentido para músculo, cérebro, hemácia: nenhum desses pode "esperar" a próxima refeição.
+
+E há mais uma trava: a hexoquinase é inibida pelo seu próprio produto, a glicose-6-fosfato. Se a
+célula tem G6P sobrando (porque a glicólise está represada à frente ou porque vai usar a glicose para
+glicogênio), a HK desliga. Resultado: o tecido só consome glicose se ela tem destino imediato. Captação
+economizadora.
+
+  Hexoquinase nos tecidos extra-hepáticos: KM baixo ( 0,05 mM) e inibição por produto (G6P). A enzima trabalha
+  saturada na glicemia fisiológica, mas desliga quando o tecido não precisa de mais glicose.
+A glicoquinase é a versão hepática (também presente na célula  pancreática). Tem KM alto -- em torno
+de 10­15 mM. E não é inibida pela G6P. Por que essa diferença? Porque o fígado tem um papel especial
+no metabolismo da glicose: ele é o amortecedor da glicemia. Depois da refeição, a glicemia portal pode
+chegar a 10­15 mM. A glicoquinase, com KM naquela faixa, só começa a trabalhar de verdade quando a
+glicemia está alta. Em jejum (glicemia 4­5 mM), a glicoquinase opera bem abaixo da Vmax -- o fígado
+quase não capta glicose, deixando-a livre para os tecidos prioritários (cérebro, hemácia). O fígado não
+compete com o cérebro pela glicose em jejum.
+
+                                                                                 9
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+Glicoquinase no fígado: KM alto ( 15 mM) e ausência de inibição por G6P. O fígado só "vê" a glicose depois da refeição,
+quando a glicemia sobe -- e processa o excesso em vez de competir com o cérebro em jejum.
+
+   Resumindo até aqui: Mesma reação, dois regimes: hexoquinase (KM 0,05 mM, inibida por G6P) capta
+   glicose em qualquer glicemia  tecidos prioritários (cérebro, músculo, hemácia). Glicoquinase (KM 15 mM,
+   não inibida por G6P) só capta em alta glicemia  fígado e célula  depois da refeição. A diferença de KM
+   é o que faz o fígado não roubar glicose do cérebro em jejum.
+
+Característica    Hexoquinase                             Glicoquinase
+
+Tecido            Cérebro, músculo, hemácia, maioria Fígado, célula  pancreática
+
+KM para glicose   0,05 mM (afinidade alta)      10­15 mM (afinidade baixa)
+
+Regime fisiológico Saturada na glicemia normal  Só ativa em glicemia alta
+
+Inibição por G6P  Sim -- feedback negativo      Não
+
+Função            Captação obrigatória para tecidos Amortecimento pós-prandial da
+
+                  prioritários                  glicemia
+
+Há uma consequência clínica importante. Mutações na glicoquinase causam uma forma de diabetes
+chamada MODY tipo 2 -- a célula  do pâncreas, sem glicoquinase normal, não detecta corretamente
+a glicemia e libera menos insulina. O órgão "sensor de glicose" perde sensibilidade. É um exemplo
+concreto de como uma enzima do citosol decide a fisiologia do organismo inteiro.
+
+                                            10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Pagamento e destino do piruvato
+
+2.1 GAPDH -- a reação que casa oxidação com fosforilação
+Fim da fase preparatória, temos duas moléculas de gliceraldeído-3-fosfato prontas para entrar na fase
+de pagamento. A próxima reação (a sexta da via) é a peça mais engenhosa da glicólise inteira, e vale
+demorar nela: a gliceraldeído-3-fosfato desidrogenase, GAPDH. Por que é tão importante? Porque é nela
+que a célula capta a energia da oxidação do açúcar num formato que pode ser usado para fazer ATP.
+Sem essa engenhosidade, a glicólise não geraria saldo energético positivo.
+
+GAPDH14 BPG15 PGK16
+
+Vamos pelo mecanismo. A GAPDH faz três coisas ao mesmo tempo:
+
+1. Oxida o gliceraldeído-3-fosfato -- o grupo aldeído (CHO) do C1 perde elétrons e vira um grupo car
+    bonila ligado a oxigênio. Os elétrons saem dois a dois e são transferidos para o NAD+, que vira NADH.
+
+2. Incorpora um fosfato inorgânico (Pi) -- não vem de ATP. A GAPDH pega Pi do citosol e o liga
+    ao C1 oxidado, criando uma ligação acil-fosfato (CO-O-PO32-). Essa ligação é altíssima energia --
+    comparável ao fosfato terminal do ATP.
+
+3. Reduz NAD+ a NADH -- recebe os 2 elétrons + 1 próton da oxidação no C1.
+
+O produto é o 1,3-bifosfoglicerato (BPG), com dois fosfatos: um no C3 (que estava lá desde a fase
+preparatória) e um acil-fosfato no C1 -- alta energia.
+
+   14GAPDH ­ glyceraldehyde-3-phosphate dehydrogenase -- sexta enzima da glicólise; oxida G3P a 1,3-bifosfoglicerato
+acoplando a oxidação a uma fosforilação com Pi e à redução de NAD+ a NADH.
+
+   15BPG ­ 1,3-bifosfoglicerato -- produto da GAPDH; intermediário de alta energia (acil-fosfato no C1) que doa fosfato ao
+ADP na reação da PGK.
+
+   16PGK ­ fosfoglicerato quinase -- sétima enzima da glicólise; transfere o fosfato de alta energia do 1,3-BPG ao ADP,
+gerando ATP e 3-fosfoglicerato. Primeira geração de ATP da via.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Mecanismo da GAPDH. Repare como a oxidação do C1 (perda de elétrons para o NAD+) está mecanisticamente
+acoplada à incorporação do Pi no mesmo carbono. O cisteína-SH catalítico do sítio ativo ataca o aldeído, forma um
+intermediário tioéster com a enzima, perde os elétrons para o NAD+, e só então o Pi entra e empurra o substrato para
+fora. Sem essa coreografia, a energia da oxidação se perderia como calor.
+
+O ponto pedagógico aqui é grande: a célula pegou a energia química da oxidação do açúcar e a
+"embalou" num intermediário fosforilado de alta energia. Esse intermediário (o 1,3-BPG) vai ser usado
+na próxima reação para fazer ATP. Por isso GAPDH é chamada de "ponte" -- ela casa um processo
+termodinâmico (oxidação, que libera energia) com um processo químico (fosforilação, que vai usar essa
+energia). Sem essa reação acoplada, a glicólise não conseguiria fazer ATP no citosol.
+
+   Resumindo até aqui: GAPDH é a peça-chave da glicólise: faz três coisas ao mesmo tempo -- oxida G3P,
+   incorpora Pi (do citosol, sem gastar ATP) e reduz NAD+ a NADH. O produto 1,3-BPG tem uma ligação acil-
+   fosfato de alta energia que será usada para fosforilar ADP. Sem GAPDH, a energia da oxidação se perderia
+   como calor.
+
+Há uma consequência interessante e clínica: o NADH gerado precisa ser regenerado a NAD+. A célula
+tem uma quantidade pequena de NAD+ ( 0,8 mmol/kg de músculo). Se todo NAD+ virasse NADH, a GAPDH
+pararia -- fim da glicólise. Existem duas saídas:
+-- Condição aeróbica: o NADH é transferido para a mitocôndria (via lançadeiras de glicerol-fosfato ou
+malato-aspartato) e o NAD+ é regenerado lá pelo complexo I da cadeia respiratória.
+-- Condição anaeróbica: o piruvato (produto final da glicólise) é reduzido a lactato pela lactato
+desidrogenase, e nessa reação o NADH vira NAD+ de novo. O lactato existe principalmente para essa
+regeneração -- ele é "esgoto" de elétrons quando o oxigênio falta.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Vamos voltar ao destino do piruvato em 2.3. Por enquanto, fixe: GAPDH e a regeneração do NAD+ são
+inseparáveis -- toda glicólise rápida depende de um sistema eficiente para reciclar NAD+.
+
+Arseniato envenena na GAPDH
+
+O arseniato (AsO43-) é parecido com o fosfato e substitui o Pi no sítio da GAPDH. A enzima incor
+pora o arseniato no lugar do fosfato, formando um intermediário acil-arseniato -- que é instável
+e se desfaz espontaneamente, sem gerar o composto de alta energia. Resultado: a glicólise
+continua andando, mas não gera ATP. Hemácias, que dependem só da glicólise, esvaziam o ATP
+em minutos e hemolisam. É um caso clássico de mimetismo molecular -- átomo semelhante,
+mas a química falha no passo decisivo.
+
+2.2 As três geradoras de ATP -- PGK, enolase, piruvato quinase
+Da GAPDH em diante, a célula recebe os ATP que vai colher. São três reações importantes -- duas que
+produzem ATP diretamente (PGK e PK) e uma que prepara o substrato para a última (enolase).
+
+Reação 7 -- Fosfoglicerato quinase. O 1,3-bifosfoglicerato tem aquele acil-fosfato de alta energia no C1.
+A PGK transfere esse fosfato para uma molécula de ADP, gerando ATP e deixando o substrato como 3-
+fosfoglicerato. É a primeira geração de ATP da glicólise -- fosforilação ao nível do substrato. Como a
+fase preparatória produziu dois G3P, e cada um vai gerar 1 ATP aqui, recuperamos os 2 ATP gastos na
+fase preparatória. Daqui em diante, a glicólise está empatada -- o que vier depois é lucro.
+
+PEP17 PK18
+
+Primeira geração de ATP: PGK transfere o fosfato de alta energia do 1,3-BPG para o ADP. Como temos duas moléculas
+de 1,3-BPG por glicose, são 2 ATP recuperados -- empatando o saldo da fase preparatória.
+
+   17PEP ­ fosfoenolpiruvato -- produto da enolase; intermediário com a maior energia de hidrólise de fosfato dos
+metabólitos comuns; doador de fosfato para o ADP na reação da piruvato quinase.
+
+   18PK ­ piruvato quinase -- décima enzima da glicólise; transfere o fosfato do PEP ao ADP, gerando ATP e piruvato.
+Enzima irreversível e regulada.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Reação 8 -- Fosfoglicerato mutase. O 3-fosfoglicerato tem o fosfato no C3. A mutase migra esse
+fosfato para o C2, produzindo 2-fosfoglicerato. É uma reação reversível, sem ganho energético -- só
+rearranjo. Mas serve para posicionar o fosfato de forma que a próxima reação consiga transformá-lo
+num composto de altíssima energia.
+
+Reação 9 -- Enolase. A enolase faz uma desidratação: remove uma molécula de H2O do 2-fosfoglicerato,
+criando o fosfoenolpiruvato (PEP). Aqui está um detalhe lindo da química: a remoção daquela água
+eleva drasticamente a energia de hidrólise do fosfato. O 2-fosfoglicerato tinha um fosfato de energia
+"comum" (G de hidrólise -18 kJ/mol). O PEP tem G de hidrólise -62 kJ/mol -- mais energia do que o
+próprio ATP ( -31 kJ/mol). É um dos compostos com a maior energia de hidrólise da bioquímica.
+
+Por que tanta energia? Porque o PEP, ao perder o fosfato, vira piruvato -- e o piruvato existe em
+duas formas tautoméricas: enol (com OH) e ceto (com carbonila). A forma ceto é muito mais estável
+termodinamicamente. Quando o fosfato sai, o enol se rearranja para ceto, e esse rearranjo libera uma
+energia enorme -- energia que estava "presa" no PEP pela presença do fosfato. O PEP é como uma mola
+comprimida: o fosfato é a trava; quando ele sai, a mola libera a energia.
+
+Enolase remove uma molécula de água do 2-fosfoglicerato. O produto, fosfoenolpiruvato (PEP), é o composto de mais
+alta energia da via. A desidratação não consome ATP, mas eleva a energia do intermediário acima da do próprio ATP
+-- é o segundo grande "truque" da glicólise.
+Reação 10 -- Piruvato quinase. A PK transfere o fosfato do PEP para uma molécula de ADP, gerando
+ATP e liberando piruvato. Segunda geração de ATP -- outra vez 2 ATP por glicose, porque temos
+duas moléculas de PEP. Esta reação é altamente exergônica (G fortemente negativo) -- irreversível,
+e portanto regulada. Vamos voltar à regulação da PK na PARTE III; aqui basta dizer que ela está sob
+controle por feedback (ATP a inibe; F1,6BP a ativa).
+
+                                                                                14
+NEBLI                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+Segunda geração de ATP: PK transfere o fosfato do PEP ao ADP. Reação altamente exergônica -- irreversível e
+regulada. Daqui sai o piruvato, e daqui em diante a célula precisa decidir o que fazer com ele (item 2.3).
+
+   Resumindo até aqui: Fase de pagamento em três reações geradoras: GAPDH oxida G3P e gera o 1,3-BPG
+   (alta energia). PGK pega esse fosfato e faz o 1º ATP. Depois mutase + enolase preparam o PEP (composto
+   de altíssima energia). PK pega o fosfato do PEP e faz o 2º ATP. Total: 4 ATP gerados - 2 ATP investidos =
+   saldo líquido +2 ATP por glicose.
+
+Saldo final da glicólise:
+
+                                 Produto / Investimento      Quantidade por glicose
+ATP gastos (HK + PFK-1)                                      -2
+ATP gerados (2× PGK + 2× PK)                                 +4
+Saldo líquido de ATP                                         +2
+NADH gerados (2× GAPDH)                                      +2
+Piruvatos produzidos                                         +2
+H2O líquida                                                  +2
+
+A equação global, depois de simplificar:
+             Glicose + 2 NAD+ + 2 ADP + 2 Pi  2 piruvato + 2 NADH + 2 ATP + 2 H2O + 2 H+
+
+2.3 Destino do piruvato -- regenerar NAD via lactato ou acetil-CoA
+Chegamos ao piruvato. O que acontece com ele agora depende de oxigênio. E essa decisão não é livre
+-- ela é forçada pelo problema da regeneração de NAD+ que mencionamos em 2.1. Lembre-se: a GAPDH
+precisa de NAD+ para continuar oxidando G3P. Se a célula deixar todo o NAD+ virar NADH e não regenerar,
+a glicólise para. O destino do piruvato é, em grande parte, o que decide se o NAD+ vai ser regenerado.
+
+                                                         15
+NEBLI        ETAPA 1 -- TEXTO DIDÁTICO
+
+LDH19 PDH20
+
+Cenário 1 -- há oxigênio (aeróbico). O piruvato entra na mitocôndria e é convertido em acetil-CoA pelo
+complexo da piruvato desidrogenase (PDH). O acetil-CoA entra no ciclo de Krebs, gera mais NADH e
+FADH2, que vão para a cadeia respiratória -- e a cadeia respiratória regenera NAD+ a partir do NADH
+(oxidando-o de volta na mitocôndria). O NADH da glicólise (gerado no citosol) também tem como chegar
+à mitocôndria via lançadeiras (glicerol-fosfato no músculo, malato-aspartato no coração e fígado). Com
+O2 disponível, a célula recicla NAD+ em alta taxa, e a glicólise pode operar continuamente.
+
+Cenário 2 -- falta oxigênio (anaeróbico) ou demanda muito alta. Sem O2, a cadeia respiratória para; o
+NADH não é mais reoxidado pela mitocôndria; e o NAD+ começaria a faltar para a GAPDH. Solução: a
+lactato desidrogenase (LDH) converte o piruvato em lactato, e essa reação reoxida o NADH a NAD+.
+O piruvato é o "esgoto" -- ele aceita os elétrons que estavam no NADH e se transforma em lactato.
+A glicólise pode continuar enquanto houver ADP, Pi, glicose e LDH suficiente -- independente do
+oxigênio.
+
+Regeneração de NAD+ pela LDH. O lactato não é "lixo metabólico" -- é o preço que a célula paga para continuar
+fazendo glicólise sem O2. O piruvato aceita os elétrons do NADH e vira lactato; o NAD+ reciclado volta para a GAPDH.
+
+Existem células que vivem em regime anaeróbico por padrão, mesmo com O2 disponível:
+-- Hemácias não têm mitocôndria. Toda sua glicólise termina em lactato. Esse lactato sai da hemácia,
+viaja pelo sangue e é metabolizado por outros tecidos (fígado principal -- ciclo de Cori).
+-- Fibras musculares brancas (de contração rápida) têm poucas mitocôndrias. Em esforço intenso,
+fazem glicólise anaeróbica abundante -- daí a dor muscular do exercício intenso (acúmulo de lactato
++ H+  acidose local).
+
+   19LDH ­ lactate dehydrogenase -- lactato desidrogenase; enzima citosólica que reduz piruvato a lactato regenerando
+NAD+ a partir de NADH. Atua principalmente em condições anaeróbicas ou em tecidos com glicólise muito rápida.
+
+   20PDH ­ pyruvate dehydrogenase -- complexo da piruvato desidrogenase; converte piruvato em acetil-CoA dentro da
+mitocôndria, liberando CO2 e gerando NADH. É a ponte entre glicólise e ciclo de Krebs.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+-- Em exercício intenso (sprint, levantamento de peso), qualquer fibra muscular pode ir para anaeróbico
+se a demanda exceder a capacidade aeróbica.
+
+Acúmulo de lactato no exercício intenso. O lactato não causa dor por ser ácido em si -- é o H+ coproduzido que
+acidifica a célula. Em pH 6,5, a contração começa a falhar, e terminações nervosas percebem o ambiente ácido como
+dor.
+
+    O lactato não é vilão
+    A medicina antiga (e parte do senso comum) trata o lactato como sinal de "intoxicação" muscular.
+    Não é. O lactato é uma molécula útil -- ele é levado pelo sangue ao fígado, que o reconverte em
+    piruvato e depois em glicose (gliconeogênese -- ciclo de Cori). É como se o músculo "exportasse"
+    parte da glicose mal-processada para o fígado "terminar de processar". A acidose muscular que
+    dói no exercício vem do H+ coproduzido na hidrólise de ATP em alta taxa, não do lactato em si.
+    Em UTI, lactato sanguíneo elevado é marcador de hipoperfusão tecidual (tecidos sem O2 estão
+    fazendo glicólise anaeróbica) -- o lactato sinaliza o problema, mas não causa o problema.
+
+   Resumindo até aqui: O destino do piruvato é regulado pela necessidade de regenerar NAD+. Com O2:
+   piruvato  acetil-CoA na mitocôndria (PDH)  Krebs  cadeia respiratória regenera NAD+. Sem O2 ou
+   em alta demanda: piruvato  lactato (LDH), reoxidando NADH a NAD+. Hemácia (sem mitocôndria) e
+   fibra muscular branca (poucas mitocôndrias) vivem nesse segundo regime.
+
+2.4 Velocidade × capacidade -- três sistemas energéticos no exercício
+Para fechar a parte do destino do piruvato, vale colocar a glicólise no contexto mais amplo de como o
+músculo escolhe seu combustível durante o exercício. Existem três sistemas energéticos, com carac
+terísticas diferentes de velocidade (quantos ATP por segundo dá) e capacidade (quanto tempo sustenta).
+Cada sistema brilha em um regime -- e a glicólise anaeróbica fica no meio.
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PCr21
+
+Sistema do fosfagênio (ATP-PCr). O músculo armazena ATP livre (suficiente para 2 segundos) e
+fosfocreatina (PCr -- suficiente para mais 8 segundos). A creatina quinase transfere o fosfato da PCr
+para ADP, regenerando ATP instantaneamente. Velocidade altíssima ( 9­10 ATP/segundo equivalente),
+capacidade ridícula (segundos). É o sistema do sprint de 100 metros, do levantamento explosivo, do
+soco.
+
+Sistema anaeróbico -- glicólise até lactato. Quando o fosfagênio esgota (após 10 segundos), o músculo
+passa a depender da glicólise. Faz piruvato  lactato. Velocidade moderada ( 2­3 ATP/segundo),
+capacidade modesta (1­2 minutos). É o sistema da corrida de 400 m, do esforço de subir uma escada
+correndo. O fator limitante é o acúmulo de H+ e a queda de pH muscular.
+
+Sistema aeróbico -- fosforilação oxidativa. Quando o esforço dura mais que 2 minutos, o músculo
+precisa do oxigênio. Glicólise + Krebs + cadeia respiratória produz muito mais ATP por glicose (cerca
+de 30 ATP por glicose, contra 2 da anaeróbica), mas a taxa é mais lenta -- limitada pela difusão de O2
+e pelo número de mitocôndrias. Velocidade baixa ( 1­2 ATP/segundo), capacidade enorme (horas). É o
+sistema da maratona, da caminhada, de qualquer atividade aeróbica prolongada.
+
+Os três sistemas energéticos comparados em velocidade e capacidade. Quanto mais rápido entrega ATP, menos
+tempo sustenta. O fosfagênio é uma rajada; a glicólise anaeróbica é uma corrida curta; a fosforilação oxidativa é uma
+maratona. O corpo usa os três em sequência conforme o exercício se prolonga.
+
+   21PCr ­ fosfocreatina -- molécula muscular que armazena fosfato de alta energia; a creatina quinase transfere esse
+fosfato para ADP, gerando ATP em escala de segundos.
+
+                                                                                18
+NEBLI                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+                      Sistema    Velocidade        Capacidade  Exemplo de ativi
+Fosfagênio (ATP-PCr)             9­10 ATP/s       Segundos                 dade
+
+Anaeróbico (glicólise  lactato)  2­3 ATP/s        1­2 minutos  Sprint 100 m, salto,
+                                                  Horas        levantamento explo
+Aeróbico (Krebs + cadeia respiratória) 1­2 ATP/s               sivo
+
+                                                               Corrida 400 m, subir
+                                                               escada rápido
+
+                                                               Caminhada, mara
+                                                               tona, ciclismo de
+                                                               baixa intensidade
+
+Resumindo até aqui: Velocidade e capacidade têm trade-off: fosfagênio é rajada (rápido, dura segun
+dos), glicólise anaeróbica é meio-termo (moderado, dura 1­2 min), oxidativo é maratona (lento, dura
+horas). A glicólise anaeróbica é o sistema do esforço intenso médio -- onde a demanda já passou do
+fosfagênio mas o oxigênio ainda não consegue acompanhar.
+
+                                 19
+NEBLI                   ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Regulação
+
+3.1 As três válvulas -- HK, PFK-1, PK como pontos irreversíveis
+A glicólise não fica "ligada" o tempo todo na mesma velocidade -- ela acelera depois da refeição,
+desacelera em jejum, dispara no exercício, freia no repouso. Como? Através do controle de três reações
+irreversíveis. Se você quer regular uma via, precisa controlar passos que não podem voltar -- caso
+contrário, controlar uma reação reversível só desloca o equilíbrio, mas não para o fluxo. Hexoquinase
+(1), PFK-1 (3) e piruvato quinase (10) são as três válvulas da glicólise -- as três reações irreversíveis, as
+três principais alvos de regulação.
+
+As três enzimas-válvula da glicólise: hexoquinase (entrada), PFK-1 (comprometimento) e piruvato quinase (saída).
+Cada uma controla um ponto irreversível, e nenhuma sozinha resolve a regulação inteira. PFK-1 é a principal --
+vamos vê-la em detalhe no 3.2.
+
+Por que três válvulas, e não uma só? Porque cada uma controla uma decisão diferente:
+Hexoquinase / Glicoquinase (reação 1) -- controla a entrada da glicose no metabolismo. Decide se a
+glicose vai ser usada pela célula naquele momento. Inibida por G6P (na hexoquinase) -- quando há
+excesso de produto, fecha a entrada.
+PFK-1 (reação 3) -- controla o comprometimento da molécula com a glicólise. Até a F6P, a glicose ainda
+pode ser desviada (para a via das pentoses-fosfato, por exemplo). Depois da PFK-1, a frutose-1,6-bifosfato
+só tem um destino: o resto da glicólise. É aqui que a célula decide "essa glicose vai virar piruvato". Por
+isso a PFK-1 é o ponto de controle mais sensível e mais regulado.
+Piruvato quinase (reação 10) -- controla a saída da via. Regulação por feedback (ATP a inibe; F1,6BP,
+lá de trás, a ativa -- feedforward, sinaliza que tem coisa chegando). No fígado, também é regulada por
+fosforilação (glucagon  fosforila e inativa).
+AMP22
+
+   22AMP ­ adenosina monofosfato -- produto da hidrólise de ATP em ADP + Pi (ou de adenilato ciclase em AMPc). Acumula
+quando o ATP cai; ativa PFK-1 alostericamente sinalizando "célula precisa de mais ATP".
+
+                                                                                20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Três válvulas, três decisões diferentes: HK/glicoquinase controla a entrada da
+glicose, PFK-1 controla o comprometimento com a via, PK controla a saída. PFK-1 é a principal -- ela é o
+ponto onde a célula decide se vai ou não fazer glicólise. As três são irreversíveis (caso contrário, regular
+não faria sentido).
+
+3.2 PFK-1 e a frutose-2,6-bifosfato -- o regulador-mor
+A PFK-1 é a enzima-mor da glicólise. Ela responde a uma rede de sinais que reflete o estado energético
+da célula: ela acelera quando há demanda de ATP, freia quando há ATP sobrando.
+
+Sinais que inibem a PFK-1 (freios):
+
+-- ATP alto: quando o ATP está abundante, a célula não precisa fazer mais. ATP se liga a um sítio
+alostérico da PFK-1 (diferente do sítio catalítico -- onde o substrato ATP entra como doador de fosfato)
+e diminui sua atividade. A enzima detecta "tem energia sobrando, freia".
+
+-- Citrato alto: o citrato é um intermediário do ciclo de Krebs. Se acumula, é sinal de que a mitocôndria
+está bem alimentada e não precisa de mais piruvato. O citrato volta ao citosol e freia a PFK-1. É um
+exemplo elegante de comunicação entre vias: o produto de uma via posterior freia uma via anterior.
+
+-- pH baixo: ácido inibe a PFK-1. Durante a glicólise anaeróbica intensa, o lactato e o H+ se acumulam, e
+o próprio pH baixo freia a PFK-1. É um mecanismo de autorregulação -- se a glicólise está produzindo
+ácido demais, ela mesma desacelera.
+
+Sinais que ativam a PFK-1 (aceleradores):
+
+-- AMP alto: o AMP é sinal de "falta ATP". Quando o ATP é hidrolisado em ADP, e o ADP é convertido em
+AMP, o aumento do AMP sinaliza déficit energético. AMP se liga ao sítio alostérico da PFK-1 (compete
+com o ATP regulador) e ativa a enzima. Pouco ATP  muito AMP  PFK-1 acelera.
+
+-- Frutose-2,6-bifosfato: o ativador mais potente, e o mais interessante. Vamos olhar com cuidado.
+
+PFK-1 como nó regulatório: inibida por ATP e citrato (sinais de "tem energia"), ativada por AMP e F-2,6-BP (sinais de
+"precisa de energia"). A enzima integra múltiplos sinais antes de decidir a taxa da glicólise.
+
+                                                                                21
+NEBLI               ETAPA 1 -- TEXTO DIDÁTICO
+
+F-2,6-BP23 PFK-224
+
+A frutose-2,6-bifosfato (F-2,6-BP) merece uma seção própria. Não confunda com a frutose-1,6-bifos
+fato -- esta é intermediária da glicólise (a F1,6BP), aquela é só mensageiro regulatório. A F-2,6-BP não
+está na via principal; ela é fabricada paralelamente pela PFK-2, uma enzima bifuncional do citosol que
+pega F6P e o fosforila no carbono 2 (em vez do carbono 1, como faz a PFK-1).
+
+A F-2,6-BP, uma vez produzida, se liga à PFK-1 num sítio alostérico e a ativa fortemente -- aumentando
+sua afinidade por F6P e diminuindo a sensibilidade ao ATP inibitório. É o ativador mais potente da
+PFK-1.
+
+ A frutose-2,6-bifosfato é sintetizada pela PFK-2 a partir de F6P. Não entra na via glicolítica -- é só sinal regulador.
+ Quando a glicemia está alta e a célula quer fazer glicólise, a F-2,6-BP sobe e abre a válvula PFK-1.
+
+E a PFK-2 é regulada por fosforilação. Ela é uma enzima bifuncional curiosa: o mesmo polipeptídeo
+tem dois domínios -- uma quinase (PFK-2, que fabrica F-2,6-BP) e uma fosfatase (FBPase-2, que destrói
+F-2,6-BP). Qual dos dois domínios está ativo depende do estado de fosforilação da proteína. No fígado,
+a proteína quinase A (PKA) fosforila a enzima  ativa a FBPase-2 e inibe a PFK-2  F-2,6-BP cai 
+PFK-1 desacelera  glicólise freia. Sem fosforilação, é o contrário: PFK-2 ativa, FBPase-2 inibida, F-2,6-
+BP sobe, PFK-1 acelera.
+Quem fosforila a PFK-2 hepática? A PKA, que é ativada por AMPc, que é ativado pelo glucagon. É aqui
+que a glicemia controla o fígado: glicemia baixa  glucagon alto  AMPc alto no hepatócito  PKA ativa
+ PFK-2 fosforilada  F-2,6-BP cai  glicólise hepática freia (o fígado não rouba glicose do cérebro).
+Glicemia alta  insulina alta  defosforilação  F-2,6-BP sobe  glicólise hepática acelera (o fígado
+processa o excesso).
+
+   23F-2,6-BP ­ frutose-2,6-bifosfato -- molécula reguladora produzida pela PFK-2 a partir de F6P; ativador alostérico mais
+potente da PFK-1. Não é intermediário da glicólise -- é mensageiro regulatório dedicado.
+
+   24PFK-2 ­ fosfofrutoquinase-2 -- enzima bifuncional (também tem domínio FBPase-2); produz F-2,6-BP a partir de F6P
+quando ativa, ou degrada quando o domínio FBPase-2 está ativo. Regulada por fosforilação (PKA).
+
+                                                                                22
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: F-2,6-BP é o sinal-mor: ativada pela PFK-2 (não confundir com PFK-1), ela se liga
+à PFK-1 num sítio alostérico e a desperta. No fígado, a PFK-2 é regulada por fosforilação pela PKA, que
+recebe sinal do glucagon -- glicemia baixa  glucagon  PKA  PFK-2 fosforilada  F-2,6-BP cai 
+fígado não consome glicose. Sem essa regulação, o fígado em jejum competiria com o cérebro.
+
+3.3 Regulação hormonal -- glucagon, insulina e adrenalina
+A regulação intracelular da PFK-1 e da PK é coordenada com o estado do organismo inteiro através de
+hormônios. Três protagonistas -- glucagon, insulina e adrenalina -- ajustam a glicólise conforme a
+glicemia e a demanda.
+
+Glucagon -- fígado, glicemia baixa. Liberado pelo pâncreas quando a glicemia cai (entre refeições,
+jejum). Ativa receptor Gs no hepatócito  AMPc sobe  PKA ativa. A PKA fosforila duas peças
+importantes no fígado: (1) PFK-2  forma fosforilada tem domínio FBPase-2 ativo  F-2,6-BP cai 
+PFK-1 freia. (2) Piruvato quinase hepática (PK-L)  fosforilada vira inativa  PK freia. Resultado: a
+glicólise hepática para. Por que o fígado quer parar de fazer glicólise quando a glicemia está baixa?
+Porque o fígado é o órgão da gliconeogênese -- ele deve estar produzindo glicose para o sangue, não
+consumindo. Glucagon transforma o fígado de consumidor em produtor de glicose.
+
+Insulina -- fígado e músculo, glicemia alta. Liberada pela célula  pancreática depois da refeição.
+Sinaliza via receptor de insulina (RTK)  cascata que culmina na defosforilação da PFK-2 e da PK-L
+(por ativação de fosfatases). PFK-2 defosforilada produz F-2,6-BP  PFK-1 acelera  glicólise hepática
+dispara. Insulina também move GLUT4 para a membrana do músculo e adipócito  glicose entra 
+glicólise muscular dispara. Insulina é o sinal "gaste glicose".
+
+Adrenalina -- músculo, exercício. Em exercício ou estresse, a adrenalina é liberada pela suprarrenal e
+age via receptor  no músculo  AMPc sobe  PKA ativa. Mas no músculo, ao contrário do fígado, a
+PFK-2 é uma isoforma diferente -- a PKA fosforilada ativa o domínio quinase em vez de inativá-lo.
+Resultado: F-2,6-BP sobe no músculo  PFK-1 acelera. Mesma molécula (AMPc), efeitos opostos em
+órgãos diferentes: no fígado freia a glicólise, no músculo acelera. Por quê? Porque o músculo precisa de
+glicose no exercício, e o fígado precisa economizar glicose para mandar para o sangue.
+
+       23
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumo da regulação hormonal: glucagon e adrenalina ativam PKA via AMPc, mas o efeito sobre PFK-2 depende do
+tecido. No fígado, a PFK-2 fosforilada desliga (vira FBPase-2). No músculo, a PFK-2 fosforilada acende. Insulina, em
+ambos os tecidos, defosforila e tem efeito oposto ao glucagon.
+
+   Resumindo até aqui: Três hormônios, três decisões: glucagon freia a glicólise hepática (fígado vira
+   produtor de glicose). Insulina acelera a glicólise hepática e muscular (organismo gasta a glicose recém-
+   chegada). Adrenalina acelera a glicólise muscular (exercício precisa de ATP rápido). A mesma PKA pode
+   acelerar ou frear a glicólise dependendo da isoforma da PFK-2 que o tecido expressa.
+
+    Diabetes tipo 2 e a glicólise hepática
+    Em pacientes com resistência à insulina, o sinal insulina chega mas o fígado responde menos.
+    A defosforilação da PFK-2 é incompleta, a F-2,6-BP fica baixa, e a glicólise hepática não acelera
+    adequadamente depois da refeição. Ao mesmo tempo, a gliconeogênese hepática (que deveria ser
+    freada pela insulina) continua ativa -- o fígado segue produzindo glicose mesmo com glicemia
+    alta. Resultado: hiperglicemia pós-prandial persistente. Boa parte do raciocínio sobre diabetes
+    tipo 2 passa por esses interruptores da PFK-2.
+
+                                                                                24
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Olhando o conjunto: a glicólise é o exemplo paradigmático de como o corpo organiza uma via
+metabólica. Dez reações no citosol, das quais três irreversíveis fazem a regulação. A primeira
+(HK ou glicoquinase) decide se a glicose entra; a terceira (PFK-1) decide quanto da glicose vai virar
+piruvato; a décima (PK) decide o ritmo final da saída. Entre essas três válvulas, a química flui em
+equilíbrio reversível -- controlar uma reação reversível seria inútil, e por isso a célula concentra
+esforço nas três irreversíveis.
+
+A GAPDH é o coração energético da via: ela é o lugar onde a energia química da oxidação do açúcar
+é capturada na forma de um intermediário fosforilado de alta energia. Sem essa captura, toda a
+energia da oxidação se perderia como calor. As duas reações geradoras de ATP (PGK e PK) são
+consequência direta dessa captura: PGK explora o acil-fosfato do 1,3-BPG, PK explora o fosfato do
+PEP (de altíssima energia graças à desidratação da enolase).
+
+O destino do piruvato é o que liga a glicólise ao resto do metabolismo. Com O2, piruvato vai para
+Krebs e a célula colhe 30 ATP por glicose; sem O2, piruvato vira lactato para regenerar NAD+ e a
+célula vive com os 2 ATP da glicólise. Hemácias e fibras brancas vivem permanentemente no
+segundo regime; o resto do corpo escolhe conforme a demanda.
+
+A regulação hormonal coordena a glicólise com o estado do organismo inteiro. Glucagon freia
+o fígado para que ele produza glicose; insulina acelera fígado e músculo para gastar a glicose;
+adrenalina acelera o músculo no exercício. O ponto de convergência é a F-2,6-BP, mensageira
+que ativa a PFK-1, e cuja produção depende da PFK-2 -- uma enzima bifuncional cuja resposta
+à fosforilação varia entre tecidos. A mesma química (PKA, AMPc) produz efeitos opostos em
+órgãos diferentes porque a peça executora é tecido-específica.
+
+A grande lição da glicólise não é decorar os dez nomes das enzimas -- é entender como uma
+única via universal pode ser modulada por contexto, e como cada peça da modulação faz sentido
+fisiológico. Quando esse raciocínio estiver firme, gliconeogênese, glicogenólise, -oxidação e
+ciclo de Krebs vão fazer muito mais sentido -- todos seguem a mesma lógica de válvulas, sinais
+alostéricos e hormônios.
+
+       25
+NEBLI                                                    RESUMINDO
+
+   Resumindo
+
+Glicólise é universal e citosólica                       Destino do piruvato depende do NAD+
+
+Dez reações no citosol, uma glicose vira dois            Com O2: piruvato  acetil-CoA  Krebs  cadeia
+piruvatos. Saldo: +2 ATP e +2 NADH. Toda célula faz      regenera NAD+ ( 30 ATP/glicose). Sem O2: piruvato
+-- hemácia, cérebro, músculo -- porque não exige          lactato (LDH) reoxida NADH. LDH existe pra
+mitocôndria.                                             manter glicólise rodando, não pra fazer lactato.
+
+Glicose entra pelos GLUTs, cada tecido o                 Lactato não é vilão, é exportação
+seu
+                                                         Hemácia e fibra muscular branca produzem sempre.
+GLUT1 (hemácia, KM baixo) sempre; GLUT2 (fígado,         O H+ coproduzido -- não o lactato -- causa dor (pH
+KM alto) só na refeição; GLUT3 (neurônio) em jejum;      6,5 inibe contração). Fígado reconverte em glicose
+GLUT4 (músculo, adipócito) só com insulina.              (ciclo de Cori).
+
+Fase preparatória -- investe 2 ATP                       Três sistemas energéticos -- velocidade
+HK: glicose  G6P (1 ATP). PFK-1: F6P  F1,6BP (2º         × capacidade
+ATP, reação-válvula). Aldolase + TPI  entram 2           Fosfagênio: 10 ATP/s, segundos (sprint).
+G3P na fase de pagamento.                                Anaeróbico: 2­3 ATP/s, 1­2 min (400 m). Aeróbico:
+                                                         1­2 ATP/s, horas (maratona). Velocidade e duração
+HK × glicoquinase -- diferença                           são inversamente proporcionais.
+fisiológica
+HK: KM 0,05 mM, inibida por G6P  tecidos                 Três válvulas, três pontos irreversíveis
+prioritários captam sempre. Glicoquinase: KM 15          HK/glicoquinase (entrada), PFK-1
+mM, não inibida  fígado só capta após a refeição.        (comprometimento -- a mais regulada) e PK (saída).
+                                                         Regular reação reversível é inútil -- só desloca o
+GAPDH -- coração energético da via                       equilíbrio. A célula concentra controle nessas três.
+Oxida G3P, incorpora Pi (sem ATP) e reduz NAD+
+num único ato. Produz 1,3-BPG com acil-fosfato de        Regulação central -- F-2,6-BP e
+alta energia -- embalagem que vira ATP na PGK            hormônios
+seguinte.                                                F-2,6-BP é mensageiro regulatório (não
+                                                         intermediário) feito pela PFK-2 bifuncional; ativa
+Quatro ATP no nível do substrato, saldo                  fortemente a PFK-1. Glucagon  PKA  F-2,6-BP
++2                                                       cai  fígado freia glicólise. Adrenalina (músculo)
+PGK: 1,3-BPG  3-PG + 1º ATP. Enolase: 2-PG                PKA  glicólise acelera. Insulina defosforila
+PEP (altíssima energia). PK: PEP  piruvato + 2º          ambos  acelera nos dois tecidos.
+ATP. 2 G3P × 2 ATP = 4 brutos - 2 investidos = +2
+líquidos.
+
+                                                     26
+NEBLI      RESUMINDO
+
+       27
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a localização celular e o panorama geral da glicólise em uma célula humana típica, é correto
+afirmar:
+
+   A) a glicólise ocorre dentro da matriz mitocondrial em paralelo ao ciclo de Krebs, com suas dez
+   enzimas ancoradas na membrana mitocondrial interna lado a lado com a cadeia respiratória, e por
+   isso depende inteiramente da integridade da organela para acontecer no citoplasma da célula.
+
+   B) a glicólise depende obrigatoriamente da presença de oxigênio para que o piruvato seja gerado
+   a partir da glicose, motivo pelo qual hemácias (sem mitocôndria) não conseguem extrair qualquer
+   quantidade útil de ATP da glicose que circula pelo plasma.
+
+   C) a glicólise é uma via citosólica de dez reações que converte uma molécula de glicose em duas de
+   piruvato, com saldo líquido de 2 ATP, e roda em qualquer célula humana -- mesmo na hemácia, que
+   não tem mitocôndria.
+
+   D) a glicólise consome diretamente dois NADH e produz dois NAD+ em sua reação inicial pela
+   hexoquinase, sendo esta a enzima responsável pela transferência redox que ativa a glicose recém-
+   importada do meio extracelular pelo GLUT da membrana.
+
+   E) a glicólise consiste em apenas cinco reações que terminam diretamente em acetil-CoA dentro da
+   matriz mitocondrial, sem passar pelo intermediário piruvato citosólico, e sem qualquer geração de
+   ATP por fosforilação ao nível do substrato.
+
+                            28
+NEBLI                                                                              ETAPA 2 -- OBJETIVAS
+
+Questão 02 Consolidação
+
+A fase preparatória da glicólise (reações 1 a 5) cumpre qual papel para a célula?
+
+A) investe 2 ATP para fosforilar a glicose, isomerizá-la em frutose e quebrá-la em duas trioses-fosfato,
+deixando dois gliceraldeídos-3P prontos para a fase de pagamento que vem em seguida.
+
+B) gera saldo líquido positivo de 4 ATP por glicose por meio das fosforilações da hexoquinase e da
+fosfofrutoquinase-1, que transferem fosfato do substrato diretamente para o ADP do citoplasma da
+célula.
+
+C) oxida diretamente a glicose a piruvato em um único passo enzimático catalisado pela aldolase, que
+cliva o hexose em duas trioses e ainda gera 2 NADH como subproduto da oxidação inicial.
+
+D) converte glicose em lactato dentro do citosol consumindo NADH em cada reação, de modo a
+regenerar o NAD+ necessário às fosforilações terminais da própria fase preparatória da via.
+
+E) produz acetil-CoA a partir de glicose-6-fosfato em cinco passos consecutivos do citosol, dispen
+sando totalmente o piruvato como intermediário e a entrada na mitocôndria pelo PDH na célula.
+
+Questão 03 Consolidação
+
+Hexoquinase e glicoquinase catalisam a mesma reação (glicose + ATP  glicose-6-fosfato + ADP), mas
+têm propriedades cinéticas diferentes. Sobre essas duas enzimas, é correto afirmar:
+
+   A) hexoquinase fica restrita ao fígado e à célula  do pâncreas, enquanto glicoquinase é a forma encon
+   trada no cérebro, no músculo esquelético e na hemácia de qualquer paciente em jejum prolongado ou
+   em alimentação normal.
+
+   B) glicoquinase tem KM baixo ( 0,05 mM) e fica saturada já na glicemia de jejum em qualquer tecido,
+   enquanto a hexoquinase só começa a trabalhar bem quando a glicemia portal sobe acima de 10 mM
+   depois da refeição.
+
+   C) as duas enzimas têm KM essencialmente idênticos, e a diferença funcional entre elas decorre apenas
+   da quantidade de proteína expressa em cada tecido sob estímulo hormonal de insulina e glucagon em
+   estado basal de alimentação.
+
+   D) hexoquinase não é regulada por seu produto, ao passo que glicoquinase sofre inibição forte pela
+   glicose-6-fosfato -- daí o fígado deixar de captar glicose mesmo com glicemia alta no período pós-
+   prandial.
+
+   E) hexoquinase tem KM baixo ( 0,05 mM) e é inibida por G6P, captando glicose nos tecidos prioritários;
+   glicoquinase tem KM alto ( 10 mM) e não é inibida por G6P, atuando como sensor pós-prandial no
+   fígado e na célula .
+
+                         29
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre a reação catalisada pela gliceraldeído-3-fosfato desidrogenase (GAPDH), é correto afirmar:
+
+A) a GAPDH fosforila o gliceraldeído-3-fosfato consumindo uma molécula de ATP no citoplasma,
+sendo esta uma das duas etapas que gastam ATP na fase preparatória da glicólise da célula muscular.
+
+B) a GAPDH oxida o gliceraldeído-3-fosfato no C1, incorpora um fosfato inorgânico (Pi) livre do citosol
+nesse carbono e reduz NAD+ a NADH, gerando 1,3-bifosfoglicerato com acil-fosfato de alta energia.
+
+C) a GAPDH reduz NADH a NAD+ regenerando a coenzima oxidada, e gera 3-fosfoglicerato diretamente
+a partir do gliceraldeído-3-fosfato, sem passar pelo intermediário 1,3-bifosfoglicerato de alta energia.
+
+D) a GAPDH transfere o fosfato terminal de uma molécula de ATP para o gliceraldeído-3-fosfato no
+carbono 1, regenerando ADP e formando 1,3-bifosfoglicerato como produto direto da reação no citosol.
+
+E) a GAPDH catalisa a clivagem da frutose-1,6-bifosfato em duas trioses-fosfato (gliceraldeído-3P e
+di-hidroxiacetona-fosfato), sendo essa a primeira reação geradora de NADH na via.
+
+Questão 05 Consolidação
+
+Julgue os itens sobre a fase preparatória da glicólise (HK  PGI  PFK-1  aldolase  TPI):
+Cada item deve ser julgado de forma independente.
+
+   I. a fase preparatória produz saldo líquido positivo de 2 ATP por glicose porque tanto a hexoquinase
+   quanto a PFK-1 são fosforilações ao nível do substrato que transferem fosfato do açúcar diretamente
+   para o ADP em cada reação.
+
+   II. a aldolase cliva a frutose-1,6-bifosfato em duas trioses-fosfato distintas -- gliceraldeído-3-fosfato
+   (aldose) e di-hidroxiacetona-fosfato (cetose) -- e só o gliceraldeído-3P segue diretamente na via.
+
+   III. a triose-fosfato isomerase converte di-hidroxiacetona-fosfato em gliceraldeído-3-fosfato sem
+   consumir ATP nem cofator, sendo uma das enzimas mais rápidas conhecidas e operando próxima ao
+   limite difusional.
+
+   IV. a PFK-1 catalisa a fosforilação da glicose no carbono 6, gerando glicose-6-fosfato como produto
+   desta reação inicial da fase preparatória e gastando 1 ATP nesse passo enzimático.
+
+                         30
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 06 Consolidação
+
+Sobre a fosfoglicerato quinase (PGK), a sétima reação da glicólise, é correto afirmar:
+
+A) a PGK isomeriza o 3-fosfoglicerato em 2-fosfoglicerato deslocando o grupo fosfato de C3 para C2,
+sem consumir ATP nem cofator algum, sendo uma reação reversível de simples rearranjo molecular
+no citosol da célula.
+
+B) a PGK desidrata o 2-fosfoglicerato em fosfoenolpiruvato removendo uma molécula de água da
+estrutura do composto, sem consumir ATP nem cofator, e elevando muito a energia de hidrólise do
+fosfato preso.
+
+C) a PGK oxida o gliceraldeído-3-fosfato em 1,3-bifosfoglicerato, transferindo elétrons ao NAD+ e
+incorporando fosfato inorgânico (Pi) ao carbono 1 do substrato no sítio ativo enzimático ao mesmo
+tempo.
+
+D) a PGK transfere o acil-fosfato de alta energia do 1,3-bifosfoglicerato para o ADP, gerando ATP e 3-
+fosfoglicerato -- primeira fosforilação ao nível do substrato da glicólise, recuperando os 2 ATP gastos
+na fase preparatória.
+
+E) a PGK transfere o fosfato do fosfoenolpiruvato (PEP) para o ADP, gerando ATP e piruvato -- sendo
+este o passo final irreversível da via responsável pela segunda geração de ATP da glicólise.
+
+                         31
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre o destino do piruvato em condição anaeróbica (ou em tecidos com glicólise muito rápida), é correto
+afirmar:
+
+   A) o piruvato é reduzido a lactato pela lactato desidrogenase (LDH), reação que reoxida NADH a NAD+
+   -- sem essa regeneração, a GAPDH ficaria sem coenzima oxidada e a glicólise pararia rapidamente
+   na célula.
+
+   B) o piruvato é oxidado a acetil-CoA pela piruvato desidrogenase (PDH) no citosol da célula muscular,
+   gerando CO2 e NADH livre, sendo esta a rota anaeróbica clássica das fibras musculares brancas que
+   dependem só da glicólise em sprint curto.
+
+   C) o piruvato é diretamente exportado para a mitocôndria mesmo sem oxigênio, onde é convertido
+   em malato pela ação da malato desidrogenase mitocondrial, fornecendo intermediários para a glico
+   neogênese hepática direta a partir da via glicolítica.
+
+   D) o piruvato é convertido em alanina por transaminação no citosol, e essa alanina é exportada para a
+   mitocôndria para entrar como combustível direto na cadeia respiratória mitocondrial em condições
+   estritamente anaeróbicas.
+
+   E) o piruvato é descarboxilado oxidativamente em etanol e CO2 no citosol pela piruvato descarbox
+   ilase, sendo esta a fermentação anaeróbica padrão de qualquer célula humana em hipóxia que precise
+   regenerar NAD+ da glicólise rápida.
+
+                         32
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 08 Consolidação
+
+Julgue os itens sobre velocidade, capacidade e os três sistemas energéticos do músculo:
+
+Cada item deve ser julgado de forma independente.
+
+   I. o sistema do fosfagênio (ATP-PCr) é o mais rápido em entregar ATP por segundo ( 9­10 ATP/s) e
+   o mais limitado em capacidade (segundos), sustentando esforços muito curtos como o sprint de 100
+   metros e os levantamentos explosivos.
+
+   II. a glicólise anaeróbica é mais rápida do que a fosforilação oxidativa em ATP por segundo, mas
+   tem capacidade muito menor -- sustenta esforços intensos por minutos, e seu limitante prático é o
+   acúmulo de H+ e a queda do pH muscular.
+
+   III. a fosforilação oxidativa é o sistema mais rápido entre os três em ATP por segundo, e seu rendi
+   mento total por glicose ( 30 ATP) decorre do mesmo limite difusional que a torna mais veloz que a
+   glicólise anaeróbica observada em paralelo.
+
+   IV. o sistema do fosfagênio (ATP-PCr) entrega ATP mais lentamente do que a fosforilação oxidativa
+   por segundo, e sua função dominante na fisiologia muscular é sustentar exercícios prolongados acima
+   de 30 minutos contínuos.
+
+Questão 09 Consolidação
+
+Sobre as três reações irreversíveis (válvulas) da glicólise e seu papel regulatório, é correto afirmar:
+
+   A) as três válvulas são hexoquinase, aldolase e enolase, sendo a aldolase o ponto de controle principal
+   porque a clivagem da frutose-1,6-bifosfato em duas trioses-fosfato representa a etapa termodinami
+   camente irreversível mais fortemente regulada da via.
+
+   B) as três válvulas são hexoquinase (entrada da glicose no metabolismo), PFK-1 (comprometimento
+   da glicose com a glicólise) e piruvato quinase (saída da via), e são exatamente as três reações termod
+   inamicamente irreversíveis da via.
+
+   C) todas as dez reações da glicólise são reguladas por modificação covalente em paralelo, e as três
+   válvulas se distinguem das demais apenas por serem as únicas catalisadas por enzimas constitutivas
+   do citosol em vez de induzíveis pelos hormônios.
+
+   D) as três válvulas estão concentradas na fase preparatória (reações 1, 2 e 3), e nenhuma reação da
+   fase de pagamento exerce papel regulatório significativo, deixando a saída da via inteiramente livre
+   da modulação fisiológica relevante.
+
+   E) a única válvula da glicólise é a PFK-1, e o controle por hexoquinase e piruvato quinase só ocorre em
+   situações patológicas como diabetes ou jejum prolongado, sendo irrelevante para a fisiologia normal
+   da regulação metabólica da via no fígado.
+
+                         33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 10 Integração
+
+Em um experimento, células musculares são incubadas em meio sem glicose mas com gliceraldeído-3-
+fosfato marcado isotopicamente disponível para captação direta pela célula. Após alguns minutos,
+observa-se acúmulo de 1,3-bifosfoglicerato e queda do NAD+ citosólico. Sobre a sequência mecanística
+que explica o acúmulo e a queda observados, é correto afirmar:
+
+   A) a GAPDH transfere o fosfato terminal de uma molécula de ATP para o gliceraldeído-3-fosfato no
+   carbono 1, gerando 1,3-bifosfoglicerato; o NAD+ cai porque o gasto contínuo de ATP arrasta NADH para
+   reoxidação na mitocôndria via lançadeira.
+
+   B) a GAPDH cliva o gliceraldeído-3-fosfato em piruvato e fosfato inorgânico em uma única reação
+   citosólica; o NAD+ cai porque a clivagem requer redução de duas moléculas de coenzima para cada
+   gliceraldeído-3-fosfato processado pela enzima da célula.
+
+   C) a GAPDH isomeriza o gliceraldeído-3-fosfato em di-hidroxiacetona-fosfato como produto direto
+   da reação; o NAD+ cai porque a isomerização libera elétrons que reduzem a coenzima e o 1,3-bifos
+   foglicerato observado vem de outra via paralela.
+
+   D) a GAPDH oxida o gliceraldeído-3-fosfato e incorpora Pi no C1, gerando 1,3-bifosfoglicerato com
+   acil-fosfato de alta energia e reduzindo NAD+ a NADH; sem um caminho eficiente para reoxidar o
+   NADH, o NAD+ cai e o 1,3-BPG acumula porque o substrato chega mais rápido do que a PGK consegue
+   processar.
+
+   E) a GAPDH fosforila o gliceraldeído-3-fosfato no carbono 3 gastando uma molécula de ATP,
+   produzindo 1,3-bifosfoglicerato; o NAD+ cai porque o substrato compete com a coenzima pelo mesmo
+   sítio alostérico da enzima na superfície da proteína citosólica.
+
+                       34
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+Um aluno acompanha o que acontece com a frutose-1,6-bifosfato marcada no carbono 1 ao longo da
+fase preparatória até a entrada na fase de pagamento. Sobre o destino do C1 da F1,6BP marcada nessa
+sequência de reações da glicólise, é correto afirmar:
+
+   A) o C1 da F1,6BP permanece na metade que vira gliceraldeído-3-fosfato (G3P) e por isso é incorporado
+   diretamente ao 1,3-bifosfoglicerato do citosol; o C1 da DHAP é exalado como CO2 na própria reação da
+   aldolase no início da fase de pagamento.
+
+   B) o C1 da F1,6BP cai na metade que vira di-hidroxiacetona-fosfato (DHAP) na clivagem aldólica; pela
+   TPI, esse mesmo carbono é convertido a gliceraldeído-3-fosfato e segue na via -- daí as duas trioses
+   contribuírem com sua massa ao piruvato final.
+
+   C) o C1 da F1,6BP é perdido como fosfato inorgânico pela aldolase no momento da clivagem do hexose-
+   bifosfato em duas trioses, e nenhuma das duas metades resultantes carrega esse carbono adiante na
+   via glicolítica do citosol da célula.
+
+   D) o C1 da F1,6BP é transferido diretamente a uma molécula de ADP gerando ATP já na própria
+   reação da aldolase, motivo pelo qual a clivagem aldólica é uma das fosforilações ao nível do substrato
+   contadas no saldo líquido positivo final da via.
+
+   E) o C1 da F1,6BP permanece como fosfato no carbono 1 do G3P até a reação da GAPDH, que então
+   remove esse fosfato e o transfere ao ADP gerando o primeiro ATP da fase de pagamento por mecan
+   ismo direto na enzima do citosol.
+
+                       35
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Um paciente em jejum prolongado mantém glicemia de 4 mM. Considerando que o cérebro depende
+quase exclusivamente da glicose e expressa principalmente GLUT3 e hexoquinase, enquanto o hepatóc
+ito expressa GLUT2 e glicoquinase, sobre o que se espera observar nesse cenário é correto afirmar:
+
+   A) o neurônio capta glicose em alta taxa porque GLUT3 tem KM baixo e a hexoquinase, com KM
+   0,05 mM, opera saturada mesmo a 4 mM; o hepatócito praticamente não capta porque GLUT2 e
+   glicoquinase ambos têm KM alto e não trabalham bem em glicemia baixa.
+
+   B) o hepatócito capta glicose preferencialmente porque a glicoquinase, com KM 10 mM, opera saturada
+   em glicemia de jejum e tem afinidade superior à hexoquinase neuronal; o cérebro fica em desvan
+   tagem porque seu GLUT3 só é eficiente quando a glicemia portal sobe.
+
+   C) tanto o cérebro quanto o fígado captam glicose na mesma proporção em jejum porque a glicemia
+   plasmática é a mesma em todos os tecidos e as diferenças de KM entre hexoquinase e glicoquinase só
+   são relevantes quando há diferenças locais de glicemia no leito vascular.
+
+   D) nenhum dos dois tecidos consegue captar glicose efetivamente a 4 mM porque GLUT3 só funciona
+   acima de 10 mM e a hexoquinase tem KM alto na faixa de 10 mM -- o paciente em jejum prolongado
+   depende exclusivamente da cetose hepática para nutrir o cérebro.
+
+   E) a hexoquinase do neurônio é inibida pelo G6P acumulado em jejum e por isso o cérebro deixa de
+   captar glicose; o fígado, com glicoquinase não inibida por G6P, assume a captação para distribuir
+   glicose ao cérebro via gliconeogênese contínua reversa.
+
+                       36
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Sobre a glicoquinase hepática e da célula  do pâncreas e suas implicações na regulação da glicemia,
+julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a glicoquinase funciona como sensor de glicose pós-prandial porque seu KM ( 10 mM) coincide com a
+   faixa em que a glicemia portal varia depois das refeições -- variações na glicemia produzem variações
+   proporcionais na velocidade da enzima.
+
+   II. mutações inativadoras na glicoquinase da célula  do pâncreas causam diabetes MODY tipo 1 por
+   destruição autoimune dos ácinos pancreáticos, sendo o tratamento padrão o uso de imunossupres
+   sores e a reposição parenteral diária de glucagon.
+
+   III. a glicoquinase, ao contrário da hexoquinase muscular, é estimulada alostericamente pela própria
+   glicose-6-fosfato (G6P) produzida na reação, mecanismo de retroalimentação positiva que satura a
+   enzima já em jejum e a torna ineficaz como sensor pós-prandial.
+
+   IV. a glicoquinase não é inibida por G6P, e por isso o fígado pode continuar captando e fosforilando
+   glicose mesmo com G6P alto -- o excedente é canalizado para a síntese de glicogênio em vez de barrar
+   a entrada na própria via.
+
+                       37
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Considerando a cadeia de reações GAPDH  PGK  fosfoglicerato mutase  enolase  piruvato
+quinase a partir de uma única molécula de gliceraldeído-3-fosfato, é correto afirmar sobre o saldo de
+ATP e de NADH dessa sequência:
+
+   A) o gliceraldeído-3-fosfato gera 4 ATP no total dessa sequência porque a PGK gera 1 ATP, a
+   fosfoglicerato mutase gera 1 ATP, a enolase gera 1 ATP, e a piruvato quinase gera o quarto ATP -- todas
+   operam por fosforilação ao nível do substrato.
+
+   B) o gliceraldeído-3-fosfato gera 2 ATP e consome 1 NADH na sequência observada -- a PGK gasta
+   NADH para fosforilar ADP, e a PK ainda regenera o NAD+ no passo final da via no citosol da célula
+   muscular humana em atividade.
+
+   C) o gliceraldeído-3-fosfato gera 1 ATP líquido na sequência porque a PGK gera 1 ATP, mas a piruvato
+   quinase consome 1 ATP para gerar fosfoenolpiruvato a partir do 2-fosfoglicerato -- saldo zero entre
+   as duas geradoras dessa parte da via.
+
+   D) o gliceraldeído-3-fosfato gera 3 ATP no total porque a GAPDH, a PGK e a piruvato quinase fosforilam
+   ADP em três passos consecutivos -- sequência única na bioquímica humana de três fosforilações ao
+   nível do substrato em apenas uma porção da glicólise.
+
+   E) o gliceraldeído-3-fosfato gera 2 ATP nessa sequência (1 pela PGK + 1 pela PK) e produz 1 NADH
+   na própria GAPDH; como cada glicose dá 2 G3P, o total na fase de pagamento é 4 ATP + 2 NADH, que
+   menos os 2 ATP investidos rende saldo líquido de 2 ATP.
+
+                       38
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Sobre o motivo termodinâmico de o fosfoenolpiruvato (PEP) ter a maior energia de hidrólise dentre os
+intermediários da glicólise, é correto afirmar:
+
+A) o PEP carrega dois fosfatos terminais ligados em série no mesmo carbono e a hidrólise simultânea
+das duas ligações fosfoanidrido libera muito mais energia do que a hidrólise de uma única ligação do
+tipo presente em ATP.
+
+B) o PEP é estabilizado por uma ligação fosfoamida entre fósforo e nitrogênio do grupo amino, e a alta
+energia de hidrólise vem do fato de essa ligação P­N ser muito menos comum na bioquímica humana
+e por isso ter G bastante negativo.
+
+C) a hidrólise do PEP libera piruvato na forma enol, que tautomeriza imediatamente para a forma ceto
+muito mais estável; a energia liberada pela tautomerização soma-se à da quebra do fosfato e por isso
+o G de hidrólise do PEP é tão negativo ( -62 kJ/mol).
+
+D) o PEP é uma molécula simétrica que se quebra em dois fragmentos iguais ao hidrolisar o fosfato, e a
+entropia ganha com a fragmentação simétrica explica o G fortemente negativo da reação na piruvato
+quinase no citosol da célula durante a glicólise rápida.
+
+E) a alta energia de hidrólise do PEP decorre da formação de uma ligação dupla C=C extra no fragmento
+que sobra após a saída do fosfato terminal, e essa ligação dupla nova é o que estabiliza o produto final
+em relação ao PEP de partida na própria piruvato quinase.
+
+                       39
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Em um experimento, hepatócitos isolados são tratados com um inibidor seletivo do complexo da
+piruvato desidrogenase (PDH), enquanto células musculares brancas (sem mitocôndrias relevantes) são
+incubadas no mesmo meio. Sobre o destino esperado do piruvato nos dois tipos celulares e o efeito sobre
+a glicólise, é correto afirmar:
+
+   A) o hepatócito acumula piruvato porque a PDH inibida não consegue convertê-lo em acetil-CoA; sem
+   reoxidação eficiente do NADH gerado pela GAPDH na mitocôndria, a glicólise hepática desacelera, e
+   parte do piruvato é desviada para lactato pela LDH para regenerar NAD+ e evitar parada total.
+
+   B) o hepatócito mantém a glicólise inalterada porque a PDH não tem relação com o destino do piruvato
+   no citosol; a fibra muscular branca, por já depender exclusivamente do lactato no estado basal inde
+   pendente do tratamento experimental, fica completamente insensível ao inibidor da PDH.
+
+   C) tanto o hepatócito quanto a fibra muscular branca acumulam acetil-CoA porque a PDH inibida não
+   consegue convertê-lo em piruvato; sem piruvato disponível para a LDH no citosol, a glicólise para em
+   ambas as células e o NADH se acumula sem possibilidade alguma de reoxidação direta.
+
+   D) a fibra muscular branca passa a oxidar todo o piruvato em acetil-CoA pela via alternativa do citosol
+   independente da PDH, gerando mais ATP por glicose do que no estado normal; o hepatócito reduz
+   drasticamente a glicólise porque depende mais da via da PDH para regenerar NAD+ no citoplasma.
+
+   E) o hepatócito direciona todo o piruvato exclusivamente para gliconeogênese revertendo a glicólise
+   inteira, e a fibra muscular branca passa a captar o lactato exportado pelo fígado em vez de produzir o
+   seu próprio -- fenômeno inverso ao do ciclo de Cori clássico descrito em fisiologia geral do exercício
+   humano.
+
+                       40
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+Um atleta executa um sprint de 30 segundos no início da prova e em seguida passa a uma corrida de
+média intensidade por 10 minutos. Sobre a sequência de sistemas energéticos predominantes e o papel
+da glicólise nessas duas fases, é correto afirmar:
+
+   A) no sprint inicial o sistema dominante é a fosforilação oxidativa porque é o mais rápido em ATP por
+   segundo entre os três e a glicólise anaeróbica só entra como reserva durante a corrida prolongada que
+   se segue ao esforço explosivo inicial da partida do atleta.
+
+   B) tanto o sprint quanto a corrida usam predominantemente o sistema do fosfagênio (ATP-PCr)
+   porque é o único sistema capaz de sustentar exercício acima de poucos segundos contínuos, sendo a
+   glicólise irrelevante para qualquer modalidade esportiva de duração superior a um minuto inteiro.
+
+   C) no sprint inicial o sistema dominante é a glicólise aeróbica direta com piruvato indo para a
+   mitocôndria, e na corrida prolongada o sistema passa a ser o fosfagênio porque o lactato muscular se
+   acumula e força a célula a usar fosfocreatina como fonte alternativa de ATP citosólico.
+
+   D) no sprint inicial o fosfagênio (ATP-PCr) é dominante nos primeiros segundos e a glicólise
+   anaeróbica assume após 10 segundos sustentando até 1­2 minutos; na corrida de 10 minutos, a
+   fosforilação oxidativa torna-se dominante porque tem capacidade muito maior em duração apesar da
+   velocidade menor.
+
+   E) no sprint inicial a glicólise anaeróbica é o sistema mais lento entre os três e por isso não contribui
+   em nada para ATP, sendo o fosfagênio o único ativo; na corrida prolongada, a glicólise anaeróbica
+   continua sendo o único sistema relevante porque a fosforilação oxidativa não atende a demanda da
+   corrida média.
+
+                       41
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Sobre as três válvulas (hexoquinase, PFK-1, piruvato quinase) e a regulação da glicólise, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. todas as dez reações da glicólise são igualmente reguladas por modificação covalente, sendo a
+aldolase o ponto de controle mais sensível porque a clivagem da F1,6BP em duas trioses representa a
+única etapa irreversível da via.
+
+II. a PFK-1 é regulada por modificação covalente (fosforilação pela PKA), mecanismo análogo ao da
+glicogênio fosforilase, e a piruvato quinase hepática é regulada exclusivamente por concentração de
+substrato sem qualquer modulação alostérica nem hormonal direta.
+
+III. a PFK-1 é o ponto de controle mais sensível porque é onde a glicose se compromete com a via
+-- depois de virar F1,6BP, a molécula só tem um destino -- e é a enzima que integra mais sinais
+alostéricos (ATP, AMP, citrato, F-2,6-BP).
+
+IV. a piruvato quinase é ativada por F-1,6-bifosfato vinda do passo anterior da PFK-1 -- exemplo de
+regulação por feedforward -- e inibida por ATP, que sinaliza energia abundante; no fígado também
+sofre fosforilação inativadora pela PKA sob ação do glucagon.
+
+                       42
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Uma célula com glicemia constante de 5 mM tem sua PFK-1 totalmente bloqueada por um inibidor
+seletivo, mas mantém todas as outras enzimas da glicólise intactas. Sobre o que acontece com o conjunto
+dos metabólitos da via nessa célula e com o saldo de ATP, é correto afirmar:
+
+   A) a glicose continua sendo fosforilada normalmente em G6P pela hexoquinase porque a HK só
+   responde ao seu produto direto, e a F6P acumulada pela PGI consegue puxar o fluxo todo da fase
+   preparatória mesmo sem PFK-1 funcional na sequência da via.
+
+   B) a G6P e a F6P acumulam imediatamente porque a fase preparatória é interrompida no passo da
+   PFK-1; a G6P acumulada inibe alostericamente a própria hexoquinase, freando a entrada de glicose, e
+   o saldo de ATP cai a zero porque sem F1,6BP não há G3P nem fase de pagamento subsequente.
+
+   C) a glicólise continua normal porque a aldolase consegue clivar diretamente a frutose-6-fosfato em
+   duas trioses-fosfato sem precisar da PFK-1 nem do intermediário F1,6BP, mantendo intacto o saldo
+   positivo de 2 ATP por glicose em qualquer tecido humano normal.
+
+   D) a fase de pagamento da glicólise continua plenamente funcional porque o gliceraldeído-3-fosfato é
+   gerado pela isomerase a partir da G6P diretamente, sem a necessidade da clivagem aldólica catalisada
+   pela aldolase no caminho normal da via no citosol da célula.
+
+   E) a célula passa a gerar ATP via fosfoenolpiruvato a partir do 3-fosfoglicerato originado da glicer
+   aldeído-fosfato desidrogenase no caminho reverso, sustentando o saldo positivo da via mesmo sem
+   PFK-1 funcional, e exportando piruvato para o meio extracelular como sempre.
+
+                       43
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Sobre a relação entre frutose-1,6-bifosfato (F1,6BP) e frutose-2,6-bifosfato (F-2,6-BP) no contexto da
+regulação da glicólise hepática, é correto afirmar:
+
+A) F1,6BP e F-2,6-BP são a mesma molécula com nomes diferentes em literaturas distintas -- ambas
+resultam da fosforilação da F6P pela PFK-1 e ambas servem como ativador alostérico das enzimas-
+válvula da glicólise hepática durante o período pós-prandial em qualquer mamífero.
+
+B) F1,6BP é molécula reguladora produzida pela PFK-2 e ativa a PFK-1 alostericamente, enquanto F-2,6-
+BP é intermediário da glicólise produzido pela PFK-1 e segue diretamente para a aldolase no citosol --
+inversão simples dos papéis entre as duas moléculas na via metabólica humana.
+
+C) F1,6BP e F-2,6-BP são produzidas pela mesma enzima (PFK-1) em proporções iguais, e a célula
+decide qual das duas vai para a glicólise e qual fica de reserva regulatória a partir de modificação
+covalente direta sobre o produto da reação no citoplasma do hepatócito normal.
+
+D) F1,6BP é o ativador alostérico mais potente da PFK-1, sendo produzida pela PFK-2 bifuncional em
+resposta a sinal de glicemia alta no hepatócito; F-2,6-BP é o intermediário da glicólise e ativa a piruvato
+quinase hepática por feedforward sob ação direta do glucagon plasmático.
+
+E) F1,6BP é intermediário da glicólise (produto da PFK-1, substrato da aldolase) e ativa a piruvato
+quinase por feedforward; F-2,6-BP é molécula reguladora produzida pela PFK-2 a partir de F6P e ativa
+a PFK-1 alostericamente -- não é intermediário da via, é mensageiro regulatório dedicado.
+
+                       44
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Sobre a PFK-2 hepática (enzima bifuncional com domínios quinase e fosfatase) e sua regulação por
+glucagon e insulina, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a PFK-2 hepática é uma enzima bifuncional com um domínio quinase (produz F-2,6-BP) e um
+   domínio fosfatase (FBPase-2, degrada F-2,6-BP); o estado de fosforilação da proteína decide qual dos
+   dois domínios está ativo em cada momento da regulação.
+
+   II. no fígado, o glucagon ativa a PFK-2 e por isso eleva a F-2,6-BP -- esse aumento estimula a PFK-1 e
+   acelera a glicólise hepática durante o jejum, mecanismo que garante o fornecimento direto de piruvato
+   para a gliconeogênese contínua do fígado.
+
+   III. no fígado, o glucagon  AMPc  PKA  fosforilação da PFK-2  ativação do domínio FBPase-2
+    queda da F-2,6-BP  freio sobre a PFK-1  glicólise hepática desacelera, liberando glicose para o
+   sangue em vez de consumi-la dentro do hepatócito.
+
+   IV. a insulina ativa fosfatases que defosforilam a PFK-2 hepática, deslocando-a para o estado quinase
+   ativo -- a F-2,6-BP sobe, a PFK-1 acelera, e a glicólise hepática processa o excesso de glicose pós-
+   prandial em vez de exportá-la para o sangue.
+
+                       45
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Por que a mesma molécula AMPc -- gerada pela ativação da PKA via glucagon -- produz efeitos opostos
+sobre a glicólise no fígado (freia) e no músculo esquelético (acelera)? A explicação mecanística mais
+completa é:
+
+   A) porque o AMPc é metabolizado em isômeros tecido-específicos diferentes no fígado e no músculo,
+   sendo a isoforma muscular um ativador da PFK-2 e a isoforma hepática um inibidor da mesma enzima
+   -- diferença gerada por etapa enzimática extra do hepatócito.
+
+   B) porque a concentração de AMPc atinge níveis muito mais altos no músculo do que no fígado mesmo
+   com o mesmo estímulo, e essa diferença de concentração é o que decide entre ativação e inibição da
+   PFK-1 em cada tecido por mecanismo dependente apenas do gradiente.
+
+   C) porque cada tecido expressa uma isoforma diferente da PFK-2: no fígado, a fosforilação pela PKA
+   inativa o domínio quinase e ativa o FBPase-2 (F-2,6-BP cai, glicólise freia); no músculo, a fosforilação
+   ativa o domínio quinase (F-2,6-BP sobe, glicólise acelera).
+
+   D) porque a PKA muscular fosforila a PFK-1 diretamente em serinas ativadoras enquanto a PKA
+   hepática fosforila a PFK-1 em serinas inibidoras -- diferença que decorre exclusivamente da sequência
+   primária das duas isoformas da PFK-1 expressas em cada tecido humano sob estímulo do glucagon
+   plasmático.
+
+   E) porque o fígado expressa um receptor de glucagon de afinidade muito menor do que o músculo, e
+   por isso a PKA não chega ao limiar de ativação no hepatócito mesmo com glucagon alto plasmático,
+   fenômeno que reduz a F-2,6-BP no hepatócito e a eleva no miócito esquelético.
+
+                       46
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Considere a comparação entre as três enzimas-válvula (HK/glicoquinase, PFK-1 e PK) quanto ao tipo
+dominante de regulação fisiológica observada em cada uma na fisiologia humana. Sobre essa compara
+ção, é correto afirmar:
+
+   A) HK é regulada por feedback do próprio produto (G6P), PFK-1 é predominantemente alostérica (ATP,
+   AMP, citrato, F-2,6-BP) e PK é ativada por feedforward (F1,6BP) e modulada covalentemente no fígado
+   (fosforilação pela PKA sob glucagon).
+
+   B) HK é regulada exclusivamente por modificação covalente via PKA hepática durante o jejum, PFK-1
+   é controlada apenas por concentração de substrato sem alosteria de qualquer tipo, e PK é uma enzima
+   constitutiva sem regulação relevante na fisiologia humana basal.
+
+   C) todas as três válvulas têm padrões idênticos de regulação fisiológica e a diferença entre elas
+   reside apenas no nível de expressão proteica em cada tecido em condições normais -- daí o controle
+   distribuído da glicólise ser idêntico em todos os tecidos do corpo humano.
+
+   D) HK é controlada exclusivamente por hormônios via cAMP e PKA na fisiologia normal, PFK-1 é
+   regulada apenas pelo seu produto direto F1,6BP em mecanismo de feedback negativo simples sobre a
+   própria reação, e PK é totalmente insensível ao estado energético da célula muscular.
+
+   E) HK é ativada pelo seu produto direto G6P em retroalimentação positiva única na bioquímica, PFK-1
+   é estimulada por ATP alto como sinal de boa disponibilidade de doador de fosfato, e PK é fosforilada
+   e ativada pela PKA sob ação do glucagon no estado de jejum prolongado.
+
+                       47
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 24 Aplicação
+
+Hemácias isoladas são incubadas com arseniato (AsO43-) em concentração capaz de saturar o sítio da
+GAPDH. Em poucos minutos observa-se queda acentuada do ATP intracelular sem inibição direta da
+enzima e sem acúmulo de 1,3-bifosfoglicerato no citosol. Sobre o mecanismo que explica esse achado, é
+correto afirmar:
+
+A) o arseniato inibe diretamente a GAPDH ao ocupar o sítio do gliceraldeído-3-fosfato e impedir a
+oxidação do C1 do aldeído, mecanismo que bloqueia a passagem do fluxo glicolítico na hemácia e por
+isso derruba o ATP citosólico em poucos minutos de incubação.
+
+B) o arseniato compete com o ATP no sítio das quinases da via (hexoquinase e PFK-1), inativando as
+fosforilações iniciais da fase preparatória e por isso o saldo positivo de 2 ATP por glicose se perde na
+hemácia incubada com o tóxico em concentração saturante.
+
+C) o arseniato é importado pela hemácia via GLUT1 deslocando a captação de glicose por inibição
+competitiva no transportador, e por isso a queda do ATP intracelular decorre da privação direta do
+substrato da via no citosol da célula sem mitocôndria.
+
+D) o arseniato bloqueia a lactato desidrogenase (LDH), impedindo a regeneração de NAD+ a partir do
+NADH gerado pela GAPDH; sem NAD+ oxidado a glicólise para na própria GAPDH e o ATP cai por falta
+de substrato para as geradoras à frente.
+
+E) o arseniato substitui o fosfato inorgânico (Pi) no sítio da GAPDH e gera 1-arseno-3-fosfoglicerato
+em vez de 1,3-bifosfoglicerato; esse intermediário é instável e hidrolisa espontaneamente sem ser
+substrato da PGK -- a GAPDH continua catalisando, mas o acil-fosfato de alta energia some, e como
+a hemácia depende exclusivamente da glicólise, o ATP cai rápido.
+
+                      48
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 25 Aplicação
+
+Uma criança com anemia hemolítica crônica leve apresenta atividade da piruvato quinase eritrocitária
+reduzida a 25% do normal por mutação hereditária. As hemácias circulantes mostram ATP baixo e
+2,3-bifosfoglicerato (2,3-BPG) elevado em relação ao controle saudável da mesma faixa etária. Sobre os
+mecanismos que explicam esses achados, é correto afirmar:
+
+   A) a PK reduzida bloqueia a entrada de glicose pela hexoquinase porque o piruvato deixa de inibir a HK
+   por feedback negativo direto, mecanismo que paralisa a glicólise no início da via e por isso a hemácia
+   mutante deixa de gerar ATP suficiente para se manter íntegra na circulação periférica.
+
+   B) a PK reduzida cria gargalo no fim da via -- o fluxo glicolítico cai e o ATP eritrocitário despenca
+   porque a hemácia depende só da glicólise; ao mesmo tempo intermediários anteriores à PK se acu
+   mulam, e o desvio para o ramo Rapoport-Luebering eleva o 2,3-BPG; sem ATP, a Na+-K+-ATPase falha
+   e a hemácia é destruída no baço.
+
+   C) a PK reduzida estimula a síntese compensatória de hemoglobina fetal (HbF) na medula óssea, e o
+   2,3-BPG aumentado decorre da maior afinidade da HbF pelo regulador alostérico em relação à HbA
+   adulta normal, mecanismo que protege o eritrócito mutado da hemólise periférica intensa.
+
+   D) a PK reduzida bloqueia diretamente a lactato desidrogenase (LDH) eritrocitária e por isso o NADH
+   se acumula sem reoxidação; o 2,3-BPG sobe como subproduto direto da reação da LDH bloqueada, e o
+   ATP cai por falta de regeneração de NAD+ no citosol da hemácia comprometida.
+
+   E) a PK reduzida ativa alostericamente a GAPDH compensatoriamente, gerando mais 1,3-bifos
+   foglicerato (1,3-BPG) por unidade de tempo e por isso o 2,3-BPG sobe; entretanto, o excesso de NADH
+   gerado bloqueia a hexoquinase no início da via, derrubando o ATP eritrocitário em quadro hemolítico
+   crônico no paciente avaliado.
+
+                      49
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Após sprint intenso de 1 minuto, um corredor sente dor muscular aguda e fraqueza nas pernas. Julgue
+os itens sobre os mecanismos bioquímicos envolvidos:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a glicólise anaeróbica intensa produz lactato e H+ a partir do piruvato pela LDH, e essa reação
+   regenera o NAD+ necessário para a GAPDH continuar trabalhando -- sem a LDH, a glicólise pararia
+   em poucos segundos por falta de coenzima oxidada disponível no citosol da fibra muscular branca.
+
+   II. a queda do pH muscular para 6,5 inibe a PFK-1 (o ATP funciona como inibidor mais forte da enzima
+   em pH ácido) e freia a glicólise; essa autorregulação contribui para a fadiga muscular e funciona como
+   mecanismo protetor contra acidificação ainda mais severa do citosol da célula em esforço intenso.
+
+   III. o íon lactato em si é a substância química responsável pela dor muscular por toxicidade direta
+   sobre as terminações nervosas -- quando o lactato cai depois do exercício, a dor cessa imediatamente
+   porque o íon é eliminado do tecido na mesma velocidade em que se ionizou no sarcoplasma.
+
+   IV. o lactato exportado para o plasma é captado pelo fígado e convertido de volta em glicose pela
+   gliconeogênese (ciclo de Cori), com gasto líquido de ATP hepático para reciclar o esqueleto carbônico
+   -- a glicose volta ao sangue e pode ser usada de novo pelo músculo em exercícios subsequentes do
+   mesmo atleta.
+
+                      50
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Um paciente jovem é diagnosticado com diabetes MODY-2 por mutação heterozigota inativadora na
+glicoquinase. Sua glicemia de jejum é 130 mg/dL, ele não tem destruição autoimune das ilhotas nem
+resistência insulínica clínica, e a hemoglobina glicada está apenas levemente elevada. Sobre o mecan
+ismo bioquímico que liga a mutação ao quadro, é correto afirmar:
+
+   A) a glicoquinase mutada bloqueia diretamente o transportador GLUT2 da célula  do pâncreas,
+   impedindo a entrada de glicose na ilhota e por isso a secreção de insulina cai mesmo com glicemia
+   normal-alta no jejum -- o set-point da glicemia sobe por falha primária de captação na ilhota
+   pancreática.
+
+   B) a glicoquinase mutada gera autoanticorpos contra a própria enzima por exposição de epítopos
+   crípticos da proteína recém-traduzida no ribossomo da célula , e essa autoimunidade destrói pro
+   gressivamente as ilhotas pancreáticas até o paciente desenvolver diabetes insulino-dependente em
+   adulto jovem.
+
+   C) a glicoquinase mutada impede a ligação do ATP no sítio ativo da enzima e por isso a fosforilação da
+   glicose em G6P não ocorre na célula ; sem G6P, a célula  não percebe a refeição, não libera insulina, e
+   por isso a glicemia de jejum sobe acima do normal em todo paciente portador da mutação inativadora.
+
+   D) a glicoquinase da célula  funciona como sensor de glicemia -- seu KM 10 mM faz a velocidade
+   variar proporcionalmente à glicose plasmática; a mutação KM (ou Vmax) desloca a curva: a célula
+    só percebe glicemia mais alta como sinal de "refeição", o set-point sobe, mas não há destruição de
+   ilhotas nem perda progressiva da função -- só recalibração do sensor.
+
+   E) a glicoquinase mutada não consegue mais ser inibida pela G6P em retroalimentação negativa
+   normal, e por isso fosforila glicose em excesso descontroladamente; o G6P alto inibe a HK das demais
+   células e a glicemia plasmática sobe porque os outros tecidos param de captar glicose enquanto a
+   célula  consome tudo.
+
+                      51
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Uma cultura de células musculares é submetida a hipóxia aguda (privação de O2 sem privação de
+glicose). Em poucos minutos observa-se aceleração da glicólise -- fenômeno conhecido como efeito
+Pasteur invertido -- com queda concomitante das concentrações de citrato e ATP citosólicos. Sobre o
+mecanismo dessa aceleração, é correto afirmar:
+
+   A) sem O2 a cadeia respiratória para, NADH se acumula na mitocôndria e o ATP citosólico cai; a queda
+   do ATP e do citrato (inibidores alostéricos da PFK-1) somada à subida do AMP/ADP (ativadores) libera
+   a PFK-1, acelerando a glicólise; o piruvato é desviado para lactato pela LDH para regenerar NAD+
+   citosólico -- efeito Pasteur invertido clássico.
+
+   B) sem O2 a hexoquinase é estimulada por feedback positivo do próprio produto G6P, que se acumula
+   porque a fase de pagamento ainda funciona em pleno vapor; a piruvato quinase é inibida pelo lactato
+   citosólico crescente, e por isso a glicólise acelera apenas na fase preparatória sem aumentar o saldo
+   final de ATP da via.
+
+   C) sem O2 a glicólise acelera porque a GAPDH passa a operar de modo reverso, regenerando NAD+ a
+   partir de NADH e gliceraldeído-3-fosfato em vez de oxidar o aldeído; o ATP cai porque a hexoquinase
+   é inibida pela queda de citrato citosólico, mecanismo que freia a entrada de glicose na via mesmo com
+   PFK-1 ativa.
+
+   D) sem O2 a piruvato quinase é fosforilada pela PKA muscular sob ação direta do glucagon endógeno
+   liberado pela hipóxia, e a enzima ativada acelera a saída da via glicolítica; o citrato cai porque o
+   piruvato deixa de entrar na mitocôndria e por isso o ciclo de Krebs não consome mais o intermediário
+   hepático.
+
+   E) sem O2 a fosforilação oxidativa para e por isso a célula passa a queimar exclusivamente fosfocre
+   atina (PCr) por longos minutos; a glicólise acelera apenas como subproduto colateral do consumo de
+   PCr, e o citrato e o ATP caem porque ambos são consumidos diretamente na própria reação da creatina
+   quinase no citosol da célula.
+
+                      52
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Lactente de 3 meses apresenta icterícia neonatal persistente, esplenomegalia palpável, hemoglobina
+8 g/dL, reticulócitos 12%, bilirrubina indireta elevada e lactato sérico em jejum normal. O esfregaço
+sanguíneo mostra hemácias deformadas (equinócitos); o ensaio enzimático eritrocitário revela piru
+vato quinase reduzida a 20% do normal, com G6PD e hexoquinase normais. Sobre a fisiopatologia
+bioquímica que conecta o diagnóstico aos achados, é correto afirmar:
+
+   A) o defeito está na glicólise da hemácia e a hemólise decorre do excesso de NADPH gerado em com
+   pensação pela via das pentoses-fosfato hiperativa; o NADPH alto destrói a membrana eritrocitária por
+   peroxidação reversa de fosfolipídios e por isso a icterícia neonatal e a anemia normocítica observada
+   no exame inicial do lactente avaliado em hospital.
+
+   B) o defeito é da G6PD com acúmulo de corpúsculos de Heinz por oxidação descontrolada da
+   hemoglobina dentro da hemácia jovem; a icterícia e a esplenomegalia decorrem da fagocitose dos
+   corpúsculos no baço pelo macrófago residente, e o lactato sérico é normal porque a glicólise eritroc
+   itária permanece intacta na criança avaliada inicialmente.
+
+   C) a hemácia madura é a única célula sem mitocôndria e depende exclusivamente da glicólise para
+   ATP; a PK reduzida cria gargalo no fim da via, o ATP eritrocitário cai, a Na+-K+-ATPase falha, a
+   hemácia incha por entrada de Na+ e água e é fagocitada no baço (hemólise extravascular crônica 
+   esplenomegalia, icterícia, reticulocitose); o 2,3-BPG sobe pelo acúmulo de intermediários anteriores
+   à PK, deslocando a curva da Hb à direita.
+
+   D) o defeito está na piruvato desidrogenase (PDH) mitocondrial da hemácia, que não consegue
+   mais converter piruvato em acetil-CoA dentro da organela; o piruvato acumulado é convertido em
+   lactato pela LDH em excesso, mas o lactato sérico permanece normal porque o fígado o recicla via
+   gliconeogênese contínua no ciclo de Cori clássico descrito.
+
+   E) o defeito é da lactato desidrogenase (LDH) eritrocitária, que não consegue regenerar NAD+ a partir
+   do NADH gerado pela GAPDH; a glicólise para por falta de coenzima oxidada e o ATP cai, mas o
+   lactato sérico permanece normal porque a LDH defeituosa não consegue produzir lactato em primeira
+   instância no caso descrito acima.
+
+                      53
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Atleta de 28 anos completa maratona em 3h45min. No quilômetro 30 começa a sentir cãibras musculares
+intensas nas panturrilhas e fraqueza. Análise laboratorial logo após a prova: lactato sérico 8 mmol/L
+(normal <2), pH arterial 7,32, glicemia 65 mg/dL, e a biópsia muscular mostra glicogênio esgotado. Sobre
+os mecanismos bioquímicos que explicam o quadro, é correto afirmar:
+
+   A) as cãibras decorrem de hipocalcemia aguda induzida pelo exercício prolongado por sequestro do
+   íon na fibra muscular em contração; a glicólise acelera para repor ATP perdido pela bomba de cálcio,
+   e o lactato sérico sobe como subproduto direto da hipocalcemia plasmática sustentada durante todo
+   o segundo terço da prova.
+
+   B) as cãibras decorrem de hipotermia leve por desvio sanguíneo para a pele em corrida prolongada
+   em ambiente quente; a glicólise anaeróbica é ativada pela queda de temperatura corporal central, e o
+   lactato sérico sobe como resposta termogênica fisiológica ao estresse térmico imposto ao corpo do
+   atleta em sua reta final.
+
+   C) as cãibras decorrem da inibição direta da piruvato desidrogenase (PDH) muscular pelo acúmulo de
+   acetil-CoA derivado da -oxidação de ácidos graxos em exercício longo; sem PDH ativa, o piruvato vira
+   lactato e a célula muscular tetaniza por excesso de íons orgânicos no sarcoplasma do atleta avaliado.
+
+   D) as cãibras decorrem do excesso de creatina-fosfato (PCr) acumulada por anos de treinamento
+   aeróbico prévio, que sobrecarrega a creatina quinase muscular e induz contração espasmódica invol
+   untária; a glicólise acelera para tentar consumir o estoque, e o lactato sérico sobe como subproduto
+   direto desse consumo acelerado pela maratona.
+
+   E) com glicogênio muscular esgotado e glicemia caindo, o músculo perde substrato para a fosforilação
+   oxidativa de alta capacidade e passa a depender mais da glicólise anaeróbica (média velocidade, baixa
+   capacidade) -- daí lactato sérico alto; o pH muscular cai para 6,5, inibe a PFK-1 (ATP vira inibidor mais
+   forte em pH ácido), e a fadiga se instala; as cãibras combinam acidose intracelular + Ca2+ desregulado
+   por falha da Ca-ATPase em ATP baixo + sinalização nervosa anômala.
+
+                      54
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que a GAPDH é considerada a reação conceitualmente mais elegante da glicólise? Explique
+como ela consegue gerar um composto de alta energia sem gastar ATP.
+
+    MODELO DE RESPOSTA
+
+   Porque a GAPDH acopla, num único passo, duas reações que normalmente seriam
+   separadas: oxidação do gliceraldeído-3-fosfato e fosforilação com Pi inorgânico livre
+   do citosol. A energia liberada pela oxidação do aldeído a um grupo carboxila (que
+   reduz NAD+ a NADH) é capturada na formação de uma ligação acil-fosfato -- o 1,3-
+   bifosfoglicerato. Esse fosfato fica em estado de alta energia porque a oxidação pagou
+   por ele, não porque veio do ATP. É a PGK seguinte que transfere esse fosfato ao ADP,
+   gerando o primeiro ATP da via.
+
+Questão Q2
+
+Por que o saldo líquido da glicólise é 2 ATP por glicose, e não 4 ATP? Mostre a conta passo a passo.
+
+    MODELO DE RESPOSTA
+
+   Porque cada glicose investe 2 ATP na fase preparatória (HK na reação 1 + PFK-1 na
+   reação 3) e só depois a aldolase parte o hexose em duas trioses. A partir daí, cada glicose
+   original gera 2 moléculas de gliceraldeído-3-fosfato, e cada uma rende 2 ATP na fase
+   de pagamento (1 pela PGK + 1 pela PK). O bruto é 2×2 = 4 ATP gerados. Subtraindo os 2
+   ATP investidos, sobram 2 ATP líquidos. O ponto fácil de errar: esquecer a duplicação na
+   clivagem aldólica e contar só 1 G3P.
+
+                             55
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que a frutose-2,6-bifosfato (F-2,6-BP) é chamada de "regulador" e não de "intermediário" da
+glicólise, embora pareça quimicamente parecida com a F-1,6-BP?
+
+MODELO DE RESPOSTA
+
+Porque a F-2,6-BP não entra no fluxo da via -- fica de lado, ligando-se alostericamente
+à PFK-1 e aumentando muito sua atividade. É produzida pela PFK-2 (enzima separada
+e bifuncional) a partir da F6P, e a célula a fabrica especificamente para sinalizar "tem
+glicose chegando -- acelera a glicólise". A F-1,6-BP, ao contrário, é substrato da aldolase
+e segue viagem até virar piruvato. Mesmas duas frutoses bifosforiladas, papéis opostos:
+uma é o sinal regulatório, a outra é o metabólito do caminho.
+
+Questão Q4
+
+A hemácia humana faz lactato mesmo com oxigênio plenamente disponível no plasma. Por que
+ela escolhe esse caminho "ineficiente" em vez de oxidar o piruvato em CO2 + H2O?
+
+    MODELO DE RESPOSTA
+
+   Porque a hemácia madura não tem mitocôndria -- perdeu a organela durante a matu
+   ração para virar uma "saca de hemoglobina" cheia, sem competir por espaço com outros
+   conteúdos. Sem mitocôndria, não há PDH, Krebs ou cadeia respiratória disponível
+   dentro da célula. A glicólise no citosol é a única fonte de ATP, e a GAPDH precisa de NAD+
+   oxidado para continuar rodando. A LDH converte o piruvato em lactato consumindo
+   NADH -- é essa reação que regenera o NAD+ e mantém a glicólise viva. O lactato é o
+   "preço" da ausência de mitocôndria.
+
+       56
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um aluno escreve: "O arseniato é um inibidor competitivo da hexoquinase porque compete com
+o ATP pelo mesmo sítio da enzima. Por isso, hemácias incubadas com arseniato param a glicólise
+na primeira reação e o G6P acumula no citosol -- esse acúmulo é o que derruba o ATP intracelular
+e mata a célula." Aponte e corrija os erros mecanísticos desse trecho.
+
+MODELO DE RESPOSTA
+
+O trecho erra em três pontos. Primeiro, o arseniato não atua na hexoquinase nem
+compete com ATP -- ele atua na GAPDH, onde substitui o fosfato inorgânico (Pi), não
+o ATP. Segundo, a glicólise não para com arseniato: a GAPDH continua catalisando a
+oxidação do gliceraldeído-3-P normalmente; o que muda é o produto. Em vez de 1,3-
+bifosfoglicerato (acil-fosfato estável), forma-se 1-arseno-3-fosfoglicerato, que hidrolisa
+espontaneamente sem passar pela PGK. Terceiro, não há acúmulo de G6P -- o que falha
+é a geração de ATP na PGK, porque o substrato de alta energia some pela hidrólise não
+enzimática. A GAPDH segue ativa; o ATP é que não sai.
+
+       57
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q09)
+
+Q01 C  Q02 A            Q03 E     Q04 B     Q05 ECCE
+Q06 D  Q07 A            Q08 CECE  Q09 B
+                                            Q14 E
+INTEGRAÇÃO (Q10­Q23)    Q12 A     Q13 CEEC  Q19 B
+                        Q17 D     Q18 EECC
+Q10 D  Q11 B            Q22 C     Q23 A     Q28 A
+Q15 C  Q16 A
+                        Q26 CCEC  Q27 D
+Q20 E  Q21 CECE
+
+APLICAÇÃO (Q24­Q30)
+
+Q24 E  Q25 B
+Q29 C  Q30 E
+
+                        63
+

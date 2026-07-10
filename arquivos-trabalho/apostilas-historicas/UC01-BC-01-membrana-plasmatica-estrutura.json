@@ -1,0 +1,261 @@
+{
+  "slug": "UC01-BC-01-membrana-plasmatica",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-BC-01-membrana-plasmatica.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-BC-01-membrana-plasmatica.txt",
+  "total_paginas": 40,
+  "total_palavras": 10492,
+  "total_imagens": 11,
+  "media_palavras_pagina": 262.3,
+  "paginas_amostra": [
+    1,
+    2,
+    4,
+    6,
+    10,
+    28,
+    40
+  ],
+  "paginas_amostra_str": "1,2,4,6,10,28,40",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 96,
+      "imagens": 0,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 144,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 373,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 297,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 330,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 305,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 301,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 363,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 284,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 438,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 302,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 403,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 263,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 297,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 303,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 363,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 367,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 350,
+      "imagens": 1,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 310,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 319,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 417,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 191,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 185,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 266,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 196,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 210,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 210,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 191,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 206,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 186,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 193,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 204,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 211,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 246,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 282,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 36,
+      "palavras": 135,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 37,
+      "palavras": 257,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 38,
+      "palavras": 255,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 39,
+      "palavras": 161,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 40,
+      "palavras": 82,
+      "imagens": 0,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

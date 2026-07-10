@@ -1,0 +1,66 @@
+// NEBLI mindmap — amostra Graphviz (twopi radial)
+// Render: dot -Ktwopi -Tsvg amostra-2-graphviz.dot -o amostra-2.svg
+// Alternativa: dot -Kneato (layout mais "energético", menos radial)
+
+digraph Glicolise {
+  // Layout
+  layout=twopi;
+  ranksep=1.6;
+  overlap=false;
+  splines=curved;
+  bgcolor="transparent";
+
+  // Defaults — paleta NEBLI
+  node [
+    fontname="Montserrat",
+    fontsize=10,
+    shape=box,
+    style="filled,rounded",
+    color="#1E3A5F",
+    fillcolor="#FAFBFC",
+    fontcolor="#1E3A5F",
+    margin="0.15,0.08"
+  ];
+  edge [
+    color="#4DA6A6",
+    arrowsize=0.6,
+    penwidth=1.1
+  ];
+
+  // Centro
+  root [
+    label="Glicólise\nglicose → 2 piruvato\n+2 ATP +2 NADH",
+    fillcolor="#1E3A5F",
+    fontcolor="white",
+    fontsize=12,
+    shape=ellipse,
+    width=2.0
+  ];
+
+  // PARTES (1º anel)
+  p1 [label="PARTE I\nFase preparatória", fillcolor="#E6EDF4", fontcolor="#1E3A5F"];
+  p2 [label="PARTE II\nFase de geração", fillcolor="#E6EDF4", fontcolor="#1E3A5F"];
+  p3 [label="PARTE III\nRegulação e destinos", fillcolor="#E6EDF4", fontcolor="#1E3A5F"];
+  root -> {p1 p2 p3};
+
+  // PARTE I — sub-ramos
+  p1a [label="Consome 2 ATP"];
+  p1b [label="Hexoquinase\nglicose → G6P"];
+  p1c [label="PFK-1\nF6P → F1,6BP\n(irreversível)"];
+  p1d [label="Aldolase\n→ 2 trioses"];
+  p1 -> {p1a p1b p1c p1d};
+
+  // PARTE II — sub-ramos
+  p2a [label="Rende 4 ATP + 2 NADH"];
+  p2b [label="GAPDH\noxida + gera NADH"];
+  p2c [label="PGK\n1º ATP (substrato)"];
+  p2d [label="Piruvato-quinase\nPEP → piruvato\n(irreversível)"];
+  p2 -> {p2a p2b p2c p2d};
+
+  // PARTE III — sub-ramos
+  p3a [label="PFK-1\n↑ AMP, F2,6BP\n↓ ATP, citrato"];
+  p3b [label="Aeróbio → acetil-CoA → Krebs"];
+  p3c [label="Anaeróbio → lactato (Cori)"];
+  p3d [label="Balanço: 2 ATP + 2 NADH + 2 piruvato"];
+  p3 -> {p3a p3b p3c p3d};
+}

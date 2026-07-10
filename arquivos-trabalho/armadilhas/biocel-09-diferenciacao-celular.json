@@ -1,0 +1,26 @@
+{
+  "slug": "biocel-09-diferenciacao-celular",
+  "total_armadilhas_unicas": 1,
+  "total_questoes_com_armadilha": 1,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "heranca epigenetica e justamente a transmissao de padroes de expressao SEM mudanca no DNA (metilacao de CpG mantida por DNMT1) — o item (d) inverte isso",
+      "origens": [
+        "351"
+      ],
+      "nivel": "medio",
+      "conceito": "V/F: multipotentes nao originam 3 folhetos (so pluripotentes); diferenciacao continua na vida adulta; maior diferenciacao = menor potencialidade; heranca epigenetica e SEM mudanca de sequencia",
+      "tags": [
+        "diferenciacao-celular",
+        "celulas-tronco",
+        "epigenetica",
+        "ciclo-celular",
+        "cromatina"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

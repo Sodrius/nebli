@@ -1,0 +1,247 @@
+# Aulas da UC02 — FMUSP, Turma 114, 2026
+# Fonte: cronogramas/CRONOGRAMA UC2 2026vpos greve.pdf (atualizado 2026-06-03 pós-greve).
+# Pré-greve original em backups/tecnicos/aulas_uc02.yml.pre-pos-greve.bak.
+# Cada aula vira um resumo NEBLI quando Davi solicitar.
+#
+# Convenção de slug:
+#   [disciplina-abrev]-[numero-da-aula-na-disciplina]-[tema-curto]
+#   disciplinas UC02:
+#     biomol  -> Biologia Molecular (continuação de UC01)
+#     biocel  -> Biologia Celular (continuação de UC01)
+#     histo   -> Histologia
+#     anato   -> Anatomia
+#     bioq    -> Bioquímica (continuação de UC01)
+#     embrio  -> Embriologia
+#     imuno   -> Imunologia
+#   numero: ordem dentro da disciplina, continuando a numeração de UC01 quando aplicável.
+#   tema-curto: 2–4 palavras kebab-case.
+#
+# Cronograma pós-greve: apenas 3 provas (16/jun, 30/jun, 16/jul).
+# Aulas removidas vs pré-greve:
+#   - histo-01-intro-tecidos-sangue (sem slot próprio no pós-greve; cai em HISTORICO).
+# Decisão: aula vai pra prova onde seu PRIMEIRO slot de ensino cai.
+
+uc: UC02
+turma: 114
+ano: 2026
+total_aulas: 30
+
+aulas:
+  # =================================================================
+  # P1 (16/jun) — TECIDOS BÁSICOS + INTRODUÇÃO À ANATOMIA
+  # =================================================================
+  - slug: histo-03-tecidos-epiteliais
+    disciplina: Histologia
+    prova: P1
+    ordem: 1
+    titulo: "Tecidos epiteliais"
+    docente: FO
+
+  - slug: histo-04-tecido-conjuntivo
+    disciplina: Histologia
+    prova: P1
+    ordem: 2
+    titulo: "Tecido conjuntivo: células e matriz extracelular"
+    docente: PPC
+
+  - slug: histo-05-tecido-adiposo
+    disciplina: Histologia
+    prova: P1
+    ordem: 3
+    titulo: "Tecido adiposo"
+    docente: FO
+
+  - slug: histo-02-hematopoese
+    disciplina: Histologia
+    prova: P1
+    ordem: 4
+    titulo: "Células do sangue e hematopoese"
+    docente: FO
+
+  - slug: biocel-09-diferenciacao-celular
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 5
+    titulo: "Diferenciação celular"
+    docente: FO
+
+  - slug: histo-06-metastase-epitelio-conjuntivo
+    disciplina: Histologia
+    prova: P1
+    ordem: 6
+    titulo: "Interação epitélio-conjuntivo: metástase"
+    docente: RC
+
+  - slug: anato-01-intro-planos-eixos
+    disciplina: Anatomia
+    prova: P1
+    ordem: 7
+    titulo: "Introdução à anatomia: planos e eixos anatômicos"
+    docente: KBP
+
+  # =================================================================
+  # P2 (30/jun) — TECIDOS DE SUPORTE + DNA + LIPÍDIOS + PENTOSES
+  # =================================================================
+  - slug: anato-02-ossos-generalidades
+    disciplina: Anatomia
+    prova: P2
+    ordem: 8
+    titulo: "Anatomia: generalidades dos ossos"
+    docente: KBP/JCB
+
+  - slug: histo-07-cartilaginoso-osseo
+    disciplina: Histologia
+    prova: P2
+    ordem: 9
+    titulo: "Tecido cartilaginoso e tecido ósseo"
+    docente: FO
+
+  - slug: anato-03-articulacoes
+    disciplina: Anatomia
+    prova: P2
+    ordem: 10
+    titulo: "Anatomia: generalidades das articulações"
+    docente: KBP/JCB
+
+  - slug: bioq-20-pentoses-radicais-livres
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 11
+    titulo: "Via das pentoses fosfato; bioquímica de radicais livres"
+    docente: IC
+
+  - slug: biomol-25-mutacao-reparo-recombinacao
+    disciplina: Biologia Molecular
+    prova: P2
+    ordem: 12
+    titulo: "DNA: mutação, lesão, reparo, sequências móveis e recombinação"
+    docente: PC
+
+  - slug: anato-04-musculos
+    disciplina: Anatomia
+    prova: P2
+    ordem: 13
+    titulo: "Anatomia: generalidades dos músculos"
+    docente: KBP/JCB
+
+  - slug: histo-08-tecido-muscular
+    disciplina: Histologia
+    prova: P2
+    ordem: 14
+    titulo: "Tecido muscular"
+    docente: FS
+
+  - slug: bioq-21-lipideos-rotas
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 15
+    titulo: "Metabolismo de lipídios: rotas metabólicas"
+    docente: DS
+
+  - slug: bioq-22-lipideos-regulacao
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 16
+    titulo: "Metabolismo de lipídios: regulação da síntese e degradação"
+    docente: DS
+
+  # =================================================================
+  # P3 (16/jul) — CIRCULATÓRIO/LINFÁTICO + NERVOSO + EMBRIOLOGIA + IMUNO
+  # =================================================================
+  - slug: anato-05-circulatorio-linfatico-I
+    disciplina: Anatomia
+    prova: P3
+    ordem: 17
+    titulo: "Anatomia: sistemas circulatório e linfático I"
+    docente: RZ
+
+  - slug: histo-09-vasos-sanguineos-linfaticos
+    disciplina: Histologia
+    prova: P3
+    ordem: 18
+    titulo: "Sistema circulatório: histologia de vasos sanguíneos e linfáticos"
+    docente: ML
+
+  - slug: bioq-25-depuracao
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 19
+    titulo: "Funções de depuração e seus distúrbios"
+    docente: KBP/CL/RZ
+
+  - slug: histo-10-tecido-nervoso
+    disciplina: Histologia
+    prova: P3
+    ordem: 20
+    titulo: "Tecido nervoso"
+    docente: VF
+
+  - slug: anato-06-circulatorio-linfatico-II
+    disciplina: Anatomia
+    prova: P3
+    ordem: 21
+    titulo: "Anatomia: sistemas circulatório e linfático II"
+    docente: KBP/JCB
+
+  - slug: biomol-26-dna-recombinante-pcr
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 22
+    titulo: "Tecnologia do DNA recombinante: clonagem, PCR e sequenciamento do DNA"
+    docente: PC
+
+  - slug: histo-11-orgaos-linfaticos
+    disciplina: Histologia
+    prova: P3
+    ordem: 23
+    titulo: "Sistema linfático: histologia dos órgãos linfáticos"
+    docente: ML
+
+  - slug: embrio-01-gametogenese-fertilizacao
+    disciplina: Embriologia
+    prova: P3
+    ordem: 24
+    titulo: "Embriologia I: gametogênese e fertilização"
+    docente: CYIY
+
+  - slug: bioq-23-aminoacidos-ureia
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 25
+    titulo: "Metabolismo de aminoácidos: ciclo da ureia e transaminases"
+    docente: IC
+
+  - slug: embrio-02-blastocisto-gastrulacao
+    disciplina: Embriologia
+    prova: P3
+    ordem: 26
+    titulo: "Embriologia II: formação de blastocisto e gastrulação"
+    docente: CYIY
+
+  - slug: embrio-03-neurulacao
+    disciplina: Embriologia
+    prova: P3
+    ordem: 27
+    titulo: "Embriologia III: neurulação"
+    docente: CYIY
+
+  - slug: imuno-01-disturbios-imunidade
+    disciplina: Imunologia
+    prova: P3
+    ordem: 28
+    titulo: "Distúrbios da imunidade; comunicação química e defesa orgânica"
+    docente: AB
+
+  - slug: bioq-24-glicogenio
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 29
+    titulo: "Vias e regulação da síntese e degradação do glicogênio"
+    docente: DS
+
+  - slug: biomol-27-bacterias-patogenicas
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 30
+    titulo: "Identificação de bactérias patogênicas (aula multimídia)"
+    docente: PC

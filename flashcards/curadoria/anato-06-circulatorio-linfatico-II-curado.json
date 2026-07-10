@@ -1,0 +1,71 @@
+{
+  "slug": "anato-06-circulatorio-linfatico-II",
+  "tag_ancora": "NEBLI::anato-06-circulatorio-linfatico-II",
+  "gerado_em": "2026-07-04",
+  "n_kept": 31,
+  "tags_puras": [],
+  "impuras": [
+    {
+      "tag": "#AK_Step1_v12::#SketchyAnatomy::02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation",
+      "guids_kept": [
+        "CW?@~i6rK@",
+        "i`.@F/B?}",
+        "B]8y^<yC6w",
+        "hyElk]4U%K",
+        "wdT:86R6bs"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#SketchyAnatomy::02_Thorax::02_Heart::02_Coronary_Circulation",
+      "guids_kept": [
+        "p$1tgwyoBK",
+        "C$75>F$*Y?",
+        "ndcEbT{Sf!",
+        "fQ=qAjim]",
+        "Cm&mPmTG+9",
+        "dpj9i=m#lN",
+        "PF`/n$YU2",
+        "Lpd%VItn!E"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#SketchyAnatomy::02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches",
+      "guids_kept": [
+        "Og)Ue2yqsh"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#SketchyAnatomy::02_Thorax::03_Vasculature::02_Superior_Vena_Cava",
+      "guids_kept": [
+        "d[Q`kt[7,J",
+        "lQ$.>(5%Bv",
+        "6v2gbKqaa",
+        "uH~mgOWkKw"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#SketchyAnatomy::04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches",
+      "guids_kept": [
+        "w`%]jE{lz:",
+        "n6@xE3=uUJ",
+        "hmgOmK!Y)s",
+        "d<:wxJXf7_",
+        "N3],4C]h${",
+        "Cj<[cg4;$/",
+        "K!_X6;A9,^",
+        "M${9@E|T3Y",
+        "Ntunw|4#Bv",
+        "sUM:IR-Rlg",
+        "u@k[i30p!J",
+        "M;d28rDP%J"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::07_Cardiovascular::02_Anatomy::01_Heart_anatomy",
+      "guids_kept": [
+        "MQZ#E]57NI"
+      ]
+    }
+  ],
+  "criterio": "rigido 2026-07-04: card entra so se mapeia num subtopico da Secao B do Tema Card; vizinhanca anatomica (topografia/conducao/etiologia/complicacao) nao basta"
+}

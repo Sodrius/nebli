@@ -1,0 +1,70 @@
+# MAPA_CONTEUDO -- bioq-23-aminoacidos-ureia
+# Slide-fonte: Aula Medicina-Metab aminoácidos-01-07-2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Metabolismo de aminoácidos
+slide-02: Proteínas endógenas AMINOÁCIDOS Se constantemente ocorre a degradação e síntese de proteínas Porque necessitamos repor os aminoácidos ? Proteínas da dieta ?
+slide-03: 1. Os aminoácidos nunca são aproveitados totalmente. As proteínas sintetizadas não são as mesmas que estão sendo degradadas num dado momento. Alguns aminoácidos são oxidados. 2. Gliconeogênese utiliza o esqueleto de aminoácidos glicogênicos. 3. Deter...
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: Ciclos endógenos do nitrogênio determinam condições de equilíbrio corporal.
+slide-06: Equilíbrio nitrogenado: Avaliação do metabolismo protéico pode ser feita pelo balanço de nitrogênio. Balanço de nitrogênio = Quantidade de N ingerido – Quantidade de N excretado N excretado= uréia na urina (90%) + proteínas nas fezes (não digeridas, ...
+slide-07: Equilíbrio nitrogenado: Dieta adequada em que a injestão = eliminação Balanço de nitrogênio = 0. Aumento de consumo vai se adequar a um aumento na eliminação. Excesso de proteína é armazenada como gordura. Balanço de nitrogênio positivo: Excreção < I...
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: Conteúdo protéico dos alimentos: [g/ 100g de alimento (%)].
+slide-10: Necessidades dos aminoácidos
+slide-11: 8 Biossíntese de Aminoácidos Os seres humanos produzem todos os 20 aminoácidos? Aminoácidos Essenciais Não Essenciais Fenilalanina Alanina Histidina Arginina Isoleucina Asparagina Leucina Aspartato Lisina Cisteína Metionina Glutamato Treonina Glutami...
+slide-12: Precisam ser obtidos através da alimentação Seres humanos só são capazes de sintetizar 11 dos 20 aminoácidos As células humanas não dispõem de reserva de aminoácidos Por quê precisamos de aminoácidos exógenos?
+slide-13: Efeito complementar Ingerir em uma refeição proteínas com deficiências em aminoácidos essenciais diferentes. Cuidado essencial para dietas vegetarianas visto que: 1. Conteúdo protéico inferior a proteínas animais. 2. Deficiências de aminoácidos essen...
+slide-14: Kwashiorkor desnutrição essencialmente protéica. Edema (diminuição da osmolaridade plasmática por uma baixa de albumina plasmática), alteração da pele, cabelo, olhos, anorexia, lesões hepáticas queda da resistência. Marasmo mais comum causado por def...
+slide-15: POLISSACARÍDIOS PROTEÍNAS LIPÍDIOS GLICOSE AMINOÁCIDOS ÁCIDOS GRAXOS Acetil-CoA (2) Oxaloacetato (4) Citrato (6) Isocitrato (6) Cetoglutarato (5) Succinato (4) Fumarato (4) Malato (4) Gly Ala Ser Cys Leu Ile Lys Phe Glu Asp Piruvato (3) CO2 CO2 CO2 C...
+slide-16: Aminoácidos cetogênicos e glicogênicos Síntese de proteínas
+slide-17: OXIDAÇÃO DOS AMINOÁCIDOS O C NH2 H2N Uréia COO- C H R +H3N aminoácidos CO2 + H2O glicose Corpos cetônicos NH4 + amônia 20 tipos diferente COO- C R O -cetoácidos
+slide-18: Degradação de proteínas
+slide-19: Degradação de proteínas endógenas - Processo regulado, proteínas tem meia vida variável, mas mecanismos que controlam a degradação são apenas parcialmente conhecidos - Degradação 400 g/d proteína, 300-350 g “reciclados” dos 20 aminoácidos - Nem todos...
+slide-20: Proteínas Macromoléculas formadas por até 20 aa diferentes unidos por ligação peptídica. Proteína degradada em peptídeos e aa - Enzimas proteolíticas Endopeptidases Pepsina, tripsina, quimotripsina e elastase Exopeptidases Carboxipeptidase A e B C-te...
+slide-21: Quebra da ligação peptídica
+slide-22: Locais: • estômago • intestino Síntese das enzimas: • estômago • pâncreas • intestino Digestão de proteínas
+slide-23: [VISUAL -- usar adjacente com titulo extraivel]
+slide-24: Digestão de proteínas e absorção de AAS http://www.lib.mcg.edu/edu/eshuphysio/program/section6/6ch7/s6ch7_8.htm A absorção acontece por um sistema de transporte ativo, seletivo para os diferentes grupos de aminoácidos (neutros, ácidos, básicos).
+slide-25: Digestão de proteínas Quimiotripsina Hidrolisa ligações peptídicas de AA aromáticos Hidrolisa as ligações peptídicas a partir da região C-terminal Elastase Tripsina Carboxipeptidase Aminopeptidase (na membrana em borda de escova) Di e tripeptidases (...
+slide-26: https://edisciplinas.usp.br/pluginfile.php/5580935/mod_resource/content/4/PANCR EATITE%20AGUDA%20-%20Cap%C3%ADtulo-02.indd.pdf
+slide-27: Destino dos aminoácidos absorvidos • Síntese de proteínas e peptídeos • Síntese de substâncias nitrogenadas (purinas) • Síntese de outros aminoácidos (reações de transaminação) • Catabolismo (reações de desaminação)(oxidados) As proteínas estabelecem...
+slide-28: Destino dos aminoácidos no perído absortivo Glicogênio
+slide-29: Destino dos aminoácidos no jejum Mobilização de proteínas teciduais
+slide-30: Meia-vida de proteínas Proteína Meia-vida Hemoglobina Falciforme 10-20 dias (Hb normal=120 dias Ornitina descarboxilase 5-30 minutos HMG-CoA redutase 3 horas PEP carboxiquinase 5 horas Glicoquinase 1,25 dias Acetil-CoA carboxilase 2 dias Alanina tran...
+slide-31: Aminoácidos são provenientes da dieta (hidrolisados no trato digestivo, 1/4) e das proteínas endógenas (hidrolisadas intracelularmente 3/4). Degradação Intracelular -Catepsinas (proteases lisossomais) -Sistema Ubiquitina (Proteossoma) https://www.ncb...
+slide-32: Stryer Proteossoma
+slide-33: OXIDAÇÃO DOS AMINOÁCIDOS O C NH2 H2N Uréia COO- C H R +H3N aminoácidos CO2 + H2O glicose Corpos cetônicos NH4 + amônia 20 tipos diferente COO- C R O -cetoácidos
+slide-34: O grupo amina da maioria dos aminoácidos é coletado inicialmente como glutamato -Grupo amina é retirado e transferido para o -cetoglutarato formando glutamato. -Cadeia carbônica convertida em -cetoácido. Aminoácido + -cetoglutarato -cetoácido + g...
+slide-35: -Grupo amina é retirado e transferido para o -cetoglutarato formando glutamato. -Cadeia carbônica convertida em -cetoácido. Aminoácido + -cetoglutarato -cetoácido + glutamato -cetoácido -cetoácido
+slide-36: A transferência do grupo amino é feita pelas transaminases COO- HC-NH3 + (CH2)2 COO- Glutamato + COO- C=O CH2 Oxaloacetato COO- HC-NH3 + Aspartato COO- (CH2)2 COO- C=O  Cetoglutarato + (Aspartato aminotransferase) COO- CH2 COO-
+slide-37: Aminoácido + -cetoglutarato -cetoácido + glutamato Reação catalisada por aminotransferases (transaminases) Citosol e mitocôndria (coenzima piridoxal-fosfato derivada da vitamina B6).
+slide-38: Piridoxal Fosfato (B6) • Amplamente distribuída • Fontes: – Trigo, aveia, milho – Amendoim, nozes – Gema de ovo – Carnes em geral • Peixe, galinha, porco, fígado
+slide-39: Glutamato + oxaloacetato Aspartato + −cetoglutarato Remoção do grupo amino O glutamato e convertido em aspartato ou amônia (precursores da síntese de ureia) Transaminação Desaminação (fígado)
+slide-40: Cérebro (astrócitos) , Rim e Fígado Fígado (mitocôndria)
+slide-41: [VISUAL -- usar adjacente com titulo extraivel]
+slide-42: Devido à toxicidade da amônia ela deve ser transportada para o fígado por transportadores de amônia (não tóxicos e permeáveis à membrana plasmática) Glutaminase (equilibrio ácido base) Glutamina sintase Outros tecidos Glutamina e Alanina são os trans...
+slide-43: https://www.researchgate.net/figure/GABA-glutamate-glutamine-cycle-The-metabolic- processes-release-and-neurotransmitter_fig1_234076717
+slide-44: • Grupo amino transferido indiretamente para NH4+ ou glutamato
+slide-45: Formação de aspartato ou amônia
+slide-46: Uréia Ciclo da Uréia Gasta-se 4 ATPs
+slide-47: [VISUAL -- usar adjacente com titulo extraivel]
+slide-48: Regeneração de 3 ATPs
+slide-49: Metabolismo de aminoácidos
+slide-50: 9 Doenças do Metabolismo de Aminoácidos
+slide-51: 9 Doenças do Metabolismo de Aminoácidos Fenilcetonúria (PKU) • Doença autossômica recessiva • Deficiência na enzima fenilalanina hidroxilase, da via de oxidação da fenilalanina.
+slide-52: 9 Metabolismo da Fenilalanina
+slide-53: 9 Doenças do Metabolismo de Aminoácidos Fenilcetonúria (PKU) Consequências metabólicas?
+slide-54: carbamoyl phosphate synthetase deficiency or ornithine transcarbamoylase deficiency
+slide-55: 9 Doenças do Metabolismo de Aminoácidos Fenilcetonúria (PKU) Fenilalanina Tirosina P-hidroxifenil-piruvatoÁcido acético Fenilpiruvato Acúmulo no sangue Fluido cérebro espinhal Cruza a barreira hemato-encefálica Fenilalanin a hidroxilase Retardo menta...
+slide-56: 9 Doenças do Metabolismo de Aminoácidos
+slide-57: Doenças Hereditárias do metabolismo dos aminoácidos Fenilcetonúria Fenilalanina sérica alta
+slide-58: Doenças Hereditárias do metabolismo dos aminoácidos
+slide-59: [VISUAL -- usar adjacente com titulo extraivel]
+slide-60: [VISUAL -- usar adjacente com titulo extraivel]
+slide-61: Astrocytic urea cycle detoxifies Aβ-derived ammonia while impairing memory in Alzheimer’s disease https://www.sciencedirect.com/science/article/abs/pii/S1550413122001930?via%3Dihub
+slide-62: https://www.youtube.com/watch?v=qqI_BCKfAEE

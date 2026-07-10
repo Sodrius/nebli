@@ -1,0 +1,39 @@
+{
+  "slug": "anato-01-intro-planos-eixos",
+  "total_armadilhas_unicas": 2,
+  "total_questoes_com_armadilha": 4,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Confundir mecanismo com consequencia; analisar todos os distratores antes de responder",
+      "origens": [
+        "199",
+        "200",
+        "201"
+      ],
+      "nivel": "facil",
+      "conceito": "Termos de orientacao",
+      "tags": [
+        "planos-anatomicos"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 3
+    },
+    {
+      "descricao": "Usar 'plano frontal' em vez de 'plano coronal' (d), ou 'plano longitudinal' como sinônimo de sagital mediano. A terminologia anatômica padronizada usa termos precisos: coronal (não frontal), sagital mediano (não longitudinal), e os três eixos correspondentes. Nomenclaturas informais não são aceitas.",
+      "origens": [
+        "0262"
+      ],
+      "nivel": "facil",
+      "conceito": "Nomenclatura e terminologia anatômica para organização do corpo",
+      "tags": [
+        "anatomia-humana",
+        "terminologia-anatomica",
+        "planos-eixos"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

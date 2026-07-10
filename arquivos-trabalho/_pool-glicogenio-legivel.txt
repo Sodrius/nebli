@@ -1,0 +1,208 @@
+[  1] (Bootcamp) Thyroid hormone increases the processes of [glycogenolysis] , [ gluconeogenesis ], [ proteolysis ], and [ lipolysis ], all of which may provide sources of ATP
+      V: Goal is to increase metabolism to meet the demand for substrate associated with increased O 2 consumption
+[  2] (Bootcamp) Insulin decreases blood glucose concentration by promoting synthesis and storage of [ glycogen ] in the [ muscle ] and [ liver ], while simultaneously inhibiting [ glycogenolysis ]
+      V: [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons
+[  3] (Bootcamp) Glucagon acts on the [ liver ] (primarily) and [ adipose ] tissue
+      V: - Liver : to promote gluconeogenesis , glycogen breakdown and decrease in glycolysis - Adipose : increased activity of adipose triglyceride lipase (leads to mor
+[  4] (Bootcamp) Glucagon increases blood glucose concentration by increasing [ glycogenolysis ] and gluconeogenesis, while simultaneously inhibiting [ glycogen ] formation from glucose
+[  5] (Bootcamp) Overall, the effects of thyroid hormones are [catabolic]
+      V: Increased glycogenolysis , gluconeogenesis , lipolysis
+[  6] (Bootcamp) When insulin acts on liver tissue, it causes [in]creased glycogenesis and [de]creased glycogenolysis
+[  7] (Physeo) When insulin acts on muscle tissue, it causes [ in ] creased glycogen storage and [ in ] creased protein synthesis
+[  8] (Bootcamp) When insulin binds its receptor, the receptor [ dimerizes ] and is activated via tyrosine kinase activity
+      V: 1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3
+[  9] (Bootcamp) [ Autophosphorylation ] of the insulin receptor allows binding of [ insulin receptor substrate 1 (IRS-1)]
+      V: 1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3
+[ 10] (Bootcamp) Following binding of insulin receptor substrate 1 (IRS) to the insulin receptor , [ SH2 ] -domain proteins bind to IRS-1 phosphotyrosines
+      V: 1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3
+[ 11] (Bootcamp) What SH2-domain protein , when activated, results in the translocation of GLUT-4 to the membrane in adipose and muscle? [PI 3 kinase]
+      V: 1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3
+[ 12] (Bootcamp) Phosphorylation of glycogen phosphorylase causes enzyme [activation]
+      V: e.g., due to glucagon ; this favors glycogenolysis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons
+[ 13] (Bootcamp) Phosphorylation of glycogen synthase causes enzyme [inactivation]
+      V: e.g., due to glucagon ; this inhibits glycogenesis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons
+[ 14] (Bootcamp) Dephosphorylation of glycogen phosphorylase causes enzyme [inactivation]
+      V: e.g., due to insulin ; this inhibits glycogenolysis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons
+[ 15] (Bootcamp) Dephosphorylation of glycogen synthase causes enzyme [activation]
+      V: e.g., due to insulin ; this favors glycogenesis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons
+[ 16] (Bootcamp) Anaerobic glycolysis produces a net of [0] NADH per glucose molecule
+      V: - Aerobic glycolysis produces a net of 2 NADH per glucose - Under aerobic conditions, the NADH is used in the ETC to make ATP - Under anaerobic conditions, the 
+[ 17] (Bootcamp) Which organs phosphorylate glucose using glucokinase ? [Liver and pancreas β cells]
+[ 18] (Bootcamp) Hexokinase is characterized by a(n) [ low ] K m relative to glucokinase
+      V: i.e., higher affinity
+[ 19] (Bootcamp) Glucokinase is characterized by a(n) [ high ] K m relative to hexokinase
+      V: i.e., lower affinity
+[ 20] (Bootcamp) Hexokinase is characterized by a(n) [ low ] V max relative to glucokinase
+      V: [img]
+[ 21] (Bootcamp) Glucokinase is characterized by a(n) [ high ] V max relative to hexokinase
+      V: [img]
+[ 22] (Bootcamp) Is hexokinase activity induced by insulin ? [No]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 23] (Bootcamp) Is glucokinase activity induced by insulin ? [Yes]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 24] (Bootcamp) Is hexokinase activity inhibited by glucose-6-phosphate ? [Yes]
+      V: - Glucokinase is inhibited by fructose -6-phosphate - Hexokinase is inhibited by glucose -6-phosphate [img] Image licensed by Physeo and used with permission. P
+[ 25] (Bootcamp) Is glucokinase activity inhibited by glucose-6-phosphate ? [No]
+      V: But rather inhibited by fructose-6-phosphate [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 26] (Bootcamp) Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ hexokinase ] in most tissues
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 27] (Bootcamp) Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ glucokinase ] in the liver and β cells of the pancreas
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 28] (Bootcamp) Glucokinase is regulated via negative feedback by [fructose-6-phosphate]
+      V: Glucokinase is inhibited by fructose -6-phosphate Hexokinase is inhibited by glucose -6-phosphate [img] Image licensed by Physeo and used with permission. Purch
+[ 29] (Bootcamp) Glucokinase is regulated via positive feedback by [insulin]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 30] (Bootcamp) In hereditary fructose intolerance , fructose-1-P accumulates , causing a decrease in available [phosphate]
+      V: Decreased phosphate results in inhibition of glycogenolysis and gluconeogenesis [img] Image licensed by Physeo and used with permission. Purchase full access he
+[ 31] (Bootcamp) In hereditary fructose intolerance , decreased available phosphate leads to [ inhibition ] of glycogenolysis and gluconeogenesis
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 32] (Bootcamp) What is the rate-limiting enzyme for glycogenesis ? [Glycogen synthase]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 33] (Bootcamp) What is the rate-limiting enzyme for glycogenolysis ? [Glycogen phosphorylase]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 34] (Bootcamp) [ Glucose-1-phosphate ] is converted to [ UDP-glucose ] via the enzyme UDP-glucose pyrophosphorylase (glycogen synthesis)
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 35] (Bootcamp) UDP-glucose contributes to [ glycogen ] formation via the enzyme [ glycogen synthase ]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 36] (Bootcamp) The enzyme [ glycogen synthase ] catalyzes the formation of [ α-(1,4) ] bonds between glucose molecules
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 37] (Bootcamp) [ Branching enzyme ] catalyzes the formation of [ α-(1,6) ] bonds between glucose molecules
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 38] (Bootcamp) Glycogen synthase is regulated via negative feedback by AMP , [ epinephrine ], and [ glucagon ]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 39] (Bootcamp) Glycogen synthase is up-regulated by [ insulin ], [ cortisol ], and [ glucose-6-phosphate ]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 40] (Bootcamp) [ Glycogen phosphorylase ] liberates [ glucose-1-phosphate ] residues off branched glycogen until 4 glucose units remain on a branch
+      V: The rate-determining enzyme in glycogenolysis is glycogen phosphorylase [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 41] (Bootcamp) When [ four ] glucose units remain on a branch of glycogen, [ debranching enzyme ( 4-α-D-glucanotransferase )] moves 3 glucose residues from the branch to the linkage
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 42] (Bootcamp) When [ one ] glucose unit(s) remains on a branch of glycogen, [ debranching enzyme ( α-1,6-glucosidase )] cleaves off the last residue, liberating glucose
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 43] (Bootcamp) The branched glycogen molecule (pre-debranching enzyme) is cleaved by the enzyme [ α-1,4-glucosidase (acid maltase) ] in the [ lysosomes ], only
+      V: Only a small amount of glycogen is degraded in lysosomes [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 44] (Bootcamp) The one to four glucose residues remaining on a branch after glycogen phosphorylase has shortened it are referred to as "[ limit dextrins ]"
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 45] (Bootcamp) Glycogen phosphorylase is regulated by positive feedback by [ epinephrine ] via the [ β ] receptor (liver and muscle)
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 46] (Bootcamp) Glycogen phosphorylase is regulated by positive feedback by [ epinephrine ] via the [ α ] receptor (liver only )
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 47] (Bootcamp) Glycogen phosphorylase is regulated via positive feedback by [AMP] (muscle)
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 48] (Bootcamp) Glycogen phosphorylase is regulated via negative feedback by ATP , insulin , and [ glucose-6-phosphate ]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 49] (Bootcamp) In skeletal muscle , glycogenolysis ultimately produces [ glucose-6-phosphate ], which is rapidly metabolized during exercise
+      V: Muscle lacks glucose-6-phosphatase
+[ 50] (Bootcamp) [ Periodic acid-Schiff (PAS) ] stain identifies glycogen and is thus useful in identifying glycogen storage diseases
+      V: - Periodic acid oxidizes carbon-carbon bonds, forming aldehydes that produce a brilliant magenta on reacting with fuchsin-sulfurous acid - This is particularly 
+[ 51] (Bootcamp) What is the mode of inheritance of glycogen storage diseases ? [Autosomal recessive]
+      V: e.g., von Gierke, Pompe, Cori, Andersen, McArdle, Hers... [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 52] (Bootcamp) [ Von Gierke ] disease is also known as glycogen storage disease type [ I ]
+      V: Von Gierke = One Gierke (type 1 ) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 53] (Bootcamp) [ Von Gierke ] disease is caused by a deficiency of the enzyme [ glucose-6-phosphatase ]
+      V: - Glucose-6-phosphatase is important for liver regulation of blood glucose - Thus, G6P will build up in the liver , and be shunted into all available pathways -
+[ 54] (Bootcamp) Von Gierke disease is characterized by very increased levels of [ glycogen ] in the liver and kidneys , with subsequent [ hepatomegaly ] and [ renomegaly ]
+      V: - Deficiency in glucose-6-phosphatase results in accumulation of glucose in G6P form - Liver cannot convert G6P to release it - This leads to excess incorporati
+[ 55] (Bootcamp) Von Gierke disease is associated with increased blood [ lactate ], [ triglycerides ], and [ uric ] acid
+      V: - Excess pyruvate is shunted into triglyceride synthesis - Cori (Lactate) Cycle fails because the liver cannot form glucose from 2 pyruvates , resulting in lact
+[ 56] (Bootcamp) Von Gierke disease is characterized by [ impaired ] gluconeogenesis and [ impaired ] glycogenolysis
+      V: Thus the liver (failure of gluconeogenesis → hypoglycemia) is affected, but muscle is not (glycogenolysis does not fail in muscles - no glucose-6-phosphatase pr
+[ 57] (Bootcamp) Treatment of von Gierke disease includes frequent oral [glucose] or [cornstarch] between meals
+      V: Cornstarch is a glucose polymer, this will prevent hypoglycemia from developing [img] [img] Image licensed by Physeo and used with permission. Purchase full acc
+[ 58] (Bootcamp) Treatment of von Gierke disease includes avoidance of [fructose], [galactose], sucrose, and lactose
+      V: Fructose and galactose both lead to increased glucose-6-phosphate , which increases G6P accumulation in the liver Sucrose = Glucose + Fructose Lactose = Glucose
+[ 59] (Bootcamp) [ Pompe ] disease is also known as glycogen storage disease type [ II ]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 60] (Bootcamp) [ Pompe ] disease is caused by a deficiency of the enzyme [ lysosomal α-1,4-glucosidase (acid maltase)]
+      V: ' P om P e trashes the P um P ' ("P's" in the 1st and 4th letters to remember the "1,4" in the enzyme name) [img] [img] Image licensed by Physeo and used with p
+[ 61] (Bootcamp) Pompe disease is characterized by [ cardio ] megaly
+      V: Death is often from heart failure [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 62] (Bootcamp) [ Pompe ] disease is a glycogen storage disease associated with [ hypertrophic ] cardiomyopathy
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here . [img]
+[ 63] (Bootcamp) Pompe disease is associated with exercise [intolerance]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 64] (Bootcamp) [ Cori ] disease is also known as glycogen storage disease type [ III ]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 65] (Bootcamp) [ Cori ] disease is caused by a deficiency of the [ glycogen debranching enzyme (α-1,6-glucosidase and 4-α-D-glucanotransferase)]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 66] (Bootcamp) Cori disease is associated with accumulation of [ limit dextrin ] -like structures in the cytosol
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 67] (Bootcamp) Cori disease presents as a milder form of Von Gierke with [normal] blood lactate levels
+      V: - In Von Gierke disease , G6P accumulates due to G6Pase deficiency, is shunted into glycolysis → ↑ pyruvate → ↑ lactate - In Cori disease , G6Pase is intact, so
+[ 68] (Bootcamp) Cori disease is characterized by [ functional ] gluconeogenesis and [ impaired ] glycogenolysis
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 69] (Bootcamp) [ Andersen ] disease is also known as glycogen storage disease type [ IV ]
+      V: [img]
+[ 70] (Bootcamp) [ Andersen ] disease is caused by a deficiency of the enzyme [ branching enzyme ]
+      V: Glycogen storage disease type 4 ABCD A ndersen → B ranching C ori → D ebranching [img]
+[ 71] (Bootcamp) [ McArdle ] disease is also known as glycogen storage disease type [ V ]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 72] (Bootcamp) [ McArdle ] disease is caused by a deficiency of the enzyme [ muscle glycogen phosphorylase (myophosphorylase)]
+      V: M for M uscle [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 73] (Bootcamp) McArdle disease is associated with painful [ muscle cramps ] that occur with [ strenuous exercise ]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 74] (Bootcamp) McArdle disease may present with [ red/brown ] -colored urine due to [ myoglobinuria (rhabdomyolysis)]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 75] (Bootcamp) McArdle disease is associated with [arrhythmia] due to electrolyte abnormalities
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 76] (Bootcamp) Patients with McArdle disease may experience the "[ second-wind ]" phenomenon during exercise due to increased muscular blood flow
+      V: - Better tolerance for aerobic exercise after approximately 10 minutes - The phenomenon is believed to be due to recruitment of alternative energy sources (e.g.
+[ 77] (Bootcamp) [ Hers ] disease is also known as glycogen storage disease type [ VI ]
+      V: [img]
+[ 78] (Bootcamp) [ Hers ] disease is caused by a deficiency of the enzyme [ hepatic glycogen phosphorylase ]
+      V: H ers = H epatic M cArdle's = M uscle [img]
+[ 79] (Bootcamp) Hers disease is characterized by [ functional ] gluconeogenesis and [ impaired ] glycogenolysis
+      V: Deficiency of the enzyme hepatic glycogen phosphorylase [img]
+[ 80] (Bootcamp) Hers disease classically presents with mild fasting [hypoglycemia], hepatomegaly, and cirrhosis
+      V: [img]
+[ 81] (Bootcamp) Which glycogen storage disorder is associated with severe fasting hypoglycemia ? [Von Gierke disease]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 82] (Bootcamp) Which glycogen storage disorder is associated with accumulation of limit dextrin-like structures ? [Cori disease]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 83] (Bootcamp) Which glycogen storage disorder is associated with increased glycogen in muscle ? [McArdle disease (type V)]
+      V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 84] (Physeo) Muscle cannot participate in gluconeogenesis because it lacks the enzyme [glucose-6-phosphatase]
+      V: [img] Image licensed by Physeo and used with permission. Purchase full access here . [img] Image licensed by Physeo and used with permission. Purchase full acce
+[ 85] (Bootcamp) Glucose-6-phosphate is converted to [glucose] via the enzyme [ glucose-6-phosphatase ]
+      V: Primarily in the liver (but also in the kidney) [img] Image licensed by Physeo and used with permission. Purchase full access here .
+[ 86] (Bootcamp) Muscle biopsy of a patient with primary carnitine deficiency shows elevated [ triglycerides ]
+      V: Helps distinguish from McArdle's disease , which has elevated glycogen
+[ 87] (FirstAid) The oil red O and sudan black stains are useful for staining [lipids]
+      V: Helps distinguish McArdle's disease (PAS) from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian , CC BY-SA 3.0 , via Wikimedia Commons, Tirupat
+[ 88] (Bootcamp) The PAS stain is useful for staining [glycogen]
+      V: Helps distinguish McArdle's disease (PAS), from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian (image 1) , Tirupathipichiah (image 2) , both 
+[ 89] (Bootcamp) What is the major source of energy while fasting between meals ? [Hepatic glycogenolysis]
+      V: Minor sources include hepatic gluconeogenesis and adipose release of free fatty acids
+[ 90] (Physeo) Glycogen stores typically are depleted after [12] - [18] hours
+      V: May last up to one day
+[ 91] (Physeo) During 1 - 3 days of starvation , the muscle and liver shift fuel use from glucose to [ free fatty acids ]
+[ 92] (Physeo) What is the major source of energy during fasting (1 - 3 days)? [Hepatic gluconeogenesis]
+      V: - From peripheral tissue lactate and alanine - From adipose tissue glycerol and propionyl-CoA
+[ 93] (Physeo) After three days of starvation , the main source of energy for the brain becomes [ ketone bodies ] from [adipose] stores
+[ 94] (Physeo) Vitamin [B 6 ] is also known as [ pyridoxine ]
+[ 95] (Bootcamp) What vitamin is used as a cofactor for transamination , decarboxylation reactions , and glycogen phosphorylase ? [B 6 (pyridoxal phosphate)]
+[ 96] (Physeo) A(n) [ phosphorylase ] enzyme adds inorganic phosphate onto a substrate without using ATP
+      V: - Acts to break down , e.g., glycogen phosphorylase Condensation : - Without ATP is synthase - With ATP is synthetase
+[ 97] (Bootcamp) Activation of [ β 2 ] adrenergic receptors [ stimulates ] gluconeogenesis in the liver
+      V: β 2 leads to activation of PKA, in which gluconeogenesis and glycogenolysis are stimulated by phosphorylation (dephosphorylation via insulin induced protein pho
+[ 98] (Physeo) Which type of glial cell acts as a glycogen fuel reserve buffer ? [Astrocytes]
+      V: [img] Photo credit: OpenStax , CC BY 4.0
+[ 99] (Bootcamp) What glycogen storage disorder is a cause of secondary gout ? [Von Gierke disease]
+      V: - Deficiency in glucose-6-phosphatase → failure of the Cori cycle → build-up of lactate in the blood - Lactate is an organic anion, and is a counterion for uric
+[100] (Bootcamp) Enzyme replacement therapy for [ Pompe ] disease requires replacement of [ α-1,4-glucosidase ] (AKA [ acid maltase ] )
+      V: - Patients with Pompe often have hypertrophic cardiomyopathy (look for patients with exercise intolerance , crescendo-decrescendo murmur ) - Not to be confused 
+[101] (Bootcamp) Patients with von Gierke disease often have thin extremities, short stature, and "[doll]-like" facies
+      V: - Due to fat deposition in the cheeks and relatively small stature - von Gierke Doll [img]
+[102] (Bootcamp) The hallmark of [McArdle disease] is a flat venous lactate curve with a rise in ammonia levels during exercise
+      V: [img]
+[103] (FirstAid) [ Diastase ] can be used in conjunction with PAS to demonstrate glycogen deposits
+      V: Digests glycogen to form maltose and glucose (easily washed away during processing), therefore giving a negative reaction; Tropheryma whipplei cell wall glycopr
+[104] (Bootcamp) Glycogenolysis and skeletal muscle contraction are synchronized via intracellular accumulation of [Ca 2+ ] following neuromuscular stimulation
+      V: Ca 2+ (along with cAMP) → stimulation of phosphorylase kinase → activation of glycogen phosphorylase → energy necessary for an aerobic muscle contraction
+[105] (FirstAid) Glucagon , cortisol , and epinephrine induce [ insulin resistance ] due to phosphorylation of [serine] / [threonine] residues of the insulin receptor and IRS-1
+      V: - Both glucagon and catecholamines increase the activity of PKA which phosphorylates serine and threonine residues on targets - TNF-α can also induce insulin re
+[106] (Bootcamp) Patient presents with chronic exercise intolerance with myalgia, fatigue, painful cramps, and myoglobinuria [McArdle disease (glycogen storage disease type V)]
+      V: - Skeletal muscle glycogen phosphorylase deficiency - May also experience the " second-wind " phenomenon during exercise due to increased muscular blood flow wi
+[107] (Bootcamp) Which glycogen storage disease is characterized by hypotonia , cardiomegaly , and hepatomegaly in infancy? [Pompe disease (GSD type II)]
+      V: Enlarged lysosomes with periodic acid-Schiff (PAS) positive material can be seen in muscle biopsy [img]
+[108] (Bootcamp) Von Gierke disease and Cori disease can cause [ hepatic adenomas ]
+      V: [img]

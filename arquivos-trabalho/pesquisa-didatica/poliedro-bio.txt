@@ -1,0 +1,763 @@
+
+===== poliedro-bio PÁGINA 13 =====
+FRENTE 1
+13
+10 Quais são os componentes do citoplasma responsáveis pelo transporte?
+11 Quais são os organoides relacionados com a fotossíntese e a síntese de proteínas?
+12 O que é secreção e qual é o organoide responsável por sua realização?
+13 UTFPR 2017
+O núcleo celular contém todas as informações sobre a função e a estrutura da célula. Analise as armativas a seguir
+sobre a estrutura do núcleo celular eucariótico.
+I. 
+O material genético do núcleo localiza-se em estruturas chamadas cromossomos.
+II. 
+Os nucléolos são orgânulos delimitados por uma membrana e constituídos de DNA.
+III. A carioteca ou membrana nuclear é dupla e porosa.
+IV. O nucleoplasma ou suco nuclear é formado por água, ribossomos e material genético.
+Estão corretas apenas as armativas:
+A I e II.
+B II e III.
+C III e IV.
+D I e III.
+E  II e IV.
+14 Cite dois componentes de uma célula vegetal que não estão presentes em células animais.
+15 Qual é a principal estrutura que as células animais e vegetais possuem, mas que não ocorre em células bacterianas?
+16 Escreva a equação da fotossíntese.
+17 Diferencie autótrofos de heterótrofos.
+18 Compare fotossíntese com quimiossíntese.
+19 O que é ATP e qual é o seu papel no metabolismo?
+20 Compare respiração aeróbia e fermentação. Dê dois exemplos de tipos de fermentação.
+
+===== poliedro-bio PÁGINA 14 =====
+BIOLOGIA
+Capítulo 1
+Organização dos seres vivos  e noções de bioenergética
+14
+1 Unisa Entende-se por biosfera:
+A a uma comunidade biológica.
+B ao conjunto de todos os ecossistemas terrestres.
+C ao conjunto de todas as populações.
+D ao conjunto de todas as espécies.
+E aos fatores ambientais de uma região.
+2 UFF Os ecossistemas são constituídos da interação entre:
+A animais e vegetais.
+B diversos fatores abióticos.
+C seres vivos e fatores abióticos.
+D fatores físicos e químicos.
+E os indivíduos de uma população.
+3 UFRGS 2019 Em relação às densidades populacionais dos ecossistemas, é correto afirmar que:
+A as populações aumentam independentemente das condições ambientais.
+B os limites ambientais provocam aumento das taxas de mortalidade e diminuição das taxas de natalidade.
+C os gráficos que expressam o tamanho de populações em relação ao tempo formam curvas ascendentes contínuas.
+D as espécies de vidas curtas têm baixas taxas reprodutivas.
+E essas densidades são sempre maiores do que teoricamente possível.
+4 Unesp A sequência indica os crescentes níveis de organização biológica:
+célula → I → II → III → população → IV → V → biosfera.
+Os níveis I, III e IV correspondem, respectivamen te, a:
+A órgão, organismo e comunidade.
+B tecido, organismo e comunidade.
+C órgão, tecido e ecossistema.
+D tecido, órgão e bioma.
+E tecido, comunidade e ecossistema.
+5 Fuvest 2020
+Analise o esquema de uma célula adulta.
+As estruturas I, II, III e IV caracterizam-se pela presença, respectivamente, de
+A glicídeo, lipídeo, água e ácido nucleico.
+B proteína, glicídeo, água e ácido nucleico.
+C lipídeo, proteína, glicídeo e ácido nucleico.
+D lipídeo, glicídeo, ácido nucleico e água.
+E glicídeo, proteína, ácido nucleico e água.
+Exercícios propostos
+
+===== poliedro-bio PÁGINA 31 =====
+FRENTE 1
+31
+•
+Cromossomo metacêntrico: apresenta centrômero em posição mediana; tem braços de mesmo comprimento.
+•
+Cromossomo submetacêntrico: tem centrômero um pouco deslocado da posição central; apresenta um braço ligeiramente mais longo que o outro.
+•
+Cromossomo acrocêntrico: seu centrômero fica próximo à uma extremidade; tem um braço longo e outro curto.
+•
+Cromossomo telocêntrico: o centrômero fica na extremidade do cromossomo; esse tipo não ocorre em seres humanos.
+Genoma, cariótipo e idiograma
+A totalidade do material genético de uma espécie constitui seu genoma. Isso inclui o DNA nuclear e o DNA mitocondrial; em algas e plantas, há
+ainda o DNA dos cloroplastos.
+Cariótipo é o conjunto de cromossomos de um indivíduo. No ser humano há 46 cromossomos, sendo dois deles (X e Y) determinantes do sexo do indivíduo;
+os demais 44 cromossomos são denominados autossômicos. Os cromossomos sexuais são X e Y, sendo que a mulher tem cromossomos sexuais XX e os
+cromossomos sexuais do homem são XY. Assim, mulher e homem diferem em apenas um cromossomo, o cromossomo y.
+Diferenças entre cariótipo e genoma.
+Idiograma é a representação organizada dos cromossomos de um indivíduo. Os pares de cromossomos são numerados e apresentados em ordem
+decrescente de tamanho. Os idiogramas são úteis na identificação de alterações cromossômicas, como a Síndrome de Down, caracterizada pela
+presença de um cromossomo adicional. Pelo cariótipo, pode-se perceber a diferença estrutural entre o cromossomo X e o cromossomo Y.
+Andreas Bolzer, Gregor Kreth, Irina Solovei,
+Daniela Koehler, Kaan Saracoglu, Christine Fauth,
+Stefan Müller, Roland Eils, Christoph Cremer,
+Michael R. Speicher, Thomas Cremer/wikimedia
+commons
+Idiograma de uma mulher.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+X/Y
+Courtesy: National Human Genome Research Institute/wikimedia commons
+Idiograma de um homem.
+
+===== poliedro-bio PÁGINA 32 =====
+BIOLOGIA
+Capítulo 2
+Noções de material genético e núcleo
+32
+1 UEM 2017 Sobre os genes e os cromossomos, assinale o que for correto.
+01
+Gene é uma sequência de nucleotídeos do DNA (ácido desoxirribonucleico), que pode ser transcrita em uma
+versão de RNA (ácido ribonucleico).
+02 O código genético corresponde às informações presentes no DNA para a síntese dos genes e dos cromossomos.
+04 Cromatina é um conjunto de filamentos formados por moléculas de DNA associadas a proteínas presentes no
+núcleo das células eucarióticas.
+08 Durante a divisão celular, as moléculas de DNA se separam da cromatina, formando os cromossomos duplicados.
+16
+As mutações gênicas determinam aberrações cromossômicas devido à mudança no número de cromossomos,
+mudança decorrente de alterações na frequência das bases nitrogenadas do DNA.
+Soma:
+2 Uerj Compartimentos e estruturas que contêm ácidos nucleicos, em uma célula eucariota, estão apresentados na
+seguinte alternativa:
+A Mitocôndria – aparelho de Golgi – lisossomo
+B Mitocôndria – retículo endoplásmico rugoso – cloroplasto
+Retículo endoplásmico liso – aparelho de Golgi – cloroplasto
+D Retículo endoplásmico rugoso – retículo endoplásmico liso – lisossomo
+Exercícios complementares
+Quer saber mais?
+Site
+• Cromossomos
+<www.genome.gov/26524120>.
+1. Organização do núcleo
+O núcleo é dotado de carioteca, cariolinfa (ou nucleoplasma), nucléolo
+e filamentos de cromatina.
+2. Cromatina
+Um filamento de cromatina é denominado cromonema; possui DNA e
+histonas (proteínas associadas). Cada cromonema apresenta inúmeros
+genes.
+3. Ciclo celular
+Uma célula normalmente apresenta dois períodos: intérfase (não divi-
+são) e divisão celular (mitose ou meiose). O DNA apresenta replicação
+durante a intérfase.
+4. O material genético no ciclo celular
+Uma célula em intérfase tem filamentos de cromatina descondensados.
+Pode ocorrer a replicação do material genético, gerando duas cromá-
+tides-irmãs unidas pelo centrômero.
+Durante a divisão celular (mitose), o material genético sofre conden-
+sação, diferenciando-se em cromossomos. O centrômero duplica-se
+e há a separação das cromátides, que passam a ser denominados
+cromossomos-irmãos. Posteriormente, ocorre a descondensação dos
+cromossomos.
+5. Tipos de células: haploides e diploides
+Zigoto e células somáticas têm “número duplo” de cromossomos, sendo
+denominados células diploides. Gametas possuem “número simples”
+de cromossomos e são designados como células haploides. O nú-
+mero haploide de cromossomos é representado por n, enquanto o
+número diploide é indicado por 2n.
+6. Homólogos e alelos
+Cromossomos homólogos têm a mesma forma, o mesmo tamanho e a
+mesma sequência de genes. Um é proveniente do pai e o outro da mãe.
+Células diploides (2n), como as células do corpo de um animal (somá-
+ticas), apresentam pares de cromossomos homólogos.
+Células haploides (n), como os gametas de um animal, têm um repre-
+sentante de cada par de homólogos.
+Alelos são genes localizados na mesma região de cromossomos
+homólogos e são responsáveis pela determinação de uma mesma
+característica.
+7. Como o material genético funciona
+Gene é um segmento de DNA que comanda a produção de uma pro-
+teína.
+O DNA serve como modelo para a produção de RNA mensageiro, que
+se liga aos ribossomos e orienta a síntese de uma proteína. A proteí-
+na pode ser uma enzima, responsável pelo controle de uma reação
+química específica. Essa reação pode determinar uma característica.
+8. Mutações
+São modificações no material genético; ocorrem principalmente pela
+alteração na ordem das bases nitrogenadas.
+9. Mutações – causas e consequências
+Mutações são espontâneas ou induzidas por agentes do ambiente.
+Podem ser favoráveis, desfavoráveis ou indiferentes. Apenas as mu-
+tações que ocorrem em células germinativas são transmitidas aos
+descendentes.
+Mutações ocorrem de modo aleatório e não são provocadas pelas
+necessidades dos seres vivos.
+Resumindo
+
+===== poliedro-bio PÁGINA 45 =====
+FRENTE 1
+45
+1 O que é mitose? Por que a mitose é denominada divisão equacional?
+2 Uece 2019 No que diz respeito ao ciclo celular, é correto armar que
+A a divisão celular é necessária para a reprodução celular, o crescimento e o reparo de um organismo; nos organis-
+mos unicelulares, ela tem finalidade essencialmente reprodutiva.
+B células eucariontes se reproduzem por um processo chamado de fissão enquanto as células procariontes se re-
+produzem pelos processos chamados de mitose e meiose.
+C a citocinese é uma etapa da divisão celular semelhante em células vegetais e células animais.
+interfase é uma etapa de preparação para a divisão celular, que consiste das subfases G1, S e G2. Na subfase G1
+da interfase, ocorre a síntese do DNA.
+3 Relacione mitose com câncer.
+4 Quais são as etapas da intérfase? Em qual delas acontece a replicação do material genético?
+5 Cite as quatro fases da mitose. O que é citocinese?
+6 Associe as fases da mitose com os seguintes processos: início da condensação, cromossomos localizados na região
+mediana da célula, separação das cromátides (com a formação dos cromossomos-irmãos) e reconstrução do núcleo.
+Revisando
+
+===== poliedro-bio PÁGINA 46 =====
+BIOLOGIA
+Capítulo 3
+Divisão celular: mitose e meiose
+46
+7 IFPE 2018 Na doença de Alzheimer, as alterações na
+proteína “tau” levam à desintegração dos “microtúbu-
+los” existentes nas células do cérebro, destruindo o
+sistema de transporte dos neurônios, ou seja, inicial-
+mente provoca disfunções na comunicação bioquímica
+entre os neurônios e, numa fase posterior, a morte des-
+tas células.
+Na divisão celular os “microtúbulos” são responsáveis
+A pela organização do fuso mitótico.
+B pela contração muscular.
+C pela atividade de endocitose.
+pela atividade de exocitose.
+E pelo estrangulamento da célula na citocinese.
+8 O que é meiose? Quais células a meiose gera nos ani-
+mais e nos vegetais?
+9 UFPR 2016 Desastres em usinas nucleares, como os
+ocorridos em Chernobyl (1986) e Fukushima (2011), ge-
+ram preocupação devido às grandes quantidades de
+material radioativo lançadas no ambiente. A radiação
+produz mutações, tendo efeitos sobre a heredita-
+riedade. No caso das células do sistema reprodutor
+masculino, a duração dos efeitos depende do estágio
+da espermatogênese afetado pela radiação, podendo
+haver menor ou maior chance de a mutação causar
+efeitos transgeracionais (aparecer nas gerações futu-
+ras). O efeito da radiação será mais duradouro e será
+mais provável a observação de efeitos transgeracio-
+nais se a mutação ocorrer:
+A nos espermatozoides.
+B nas espermátides.
+C nas espermatogônias.
+nos espermatócitos I.
+E nos espermatócitos II.
+10 Qual é o nome da meiose II? O que se passa com o
+material genético nessa etapa?
+11 Cite dois processos que se verificam na meiose e que
+contribuem para o aumento da variabilidade genética.
+12 Coloque em ordem correta o surgimento das células
+na gametogênese: cito I, células germinativas, cito II
+e gônia. Indique a carga cromossômica de cada uma
+dessas células.
+13 UFPR 2019 Sobre a divisão celular, é correto armar:
+A Ao final da mitose ocorre redução da ploidia da cé-
+lula por meio da separação das cromátides-irmãs.
+B Os gametas haploides são originados por meio
+da separação dos cromossomos homólogos que
+ocorre na meiose I.
+C A segregação dos cromossomos homólogos ocorre
+durante a mitose I, originando gametas haploides.
+A meiose origina gametas haploides por meio da
+separação das cromátides-irmãs.
+E O crossing over ocorre durante a mitose, podendo
+produzir gametas recombinantes.
+14 Por que na gametogênese feminina cada ovogônia
+origina um único óvulo?
+
+===== poliedro-bio PÁGINA 61 =====
+4
+CAPÍTULO
+A geração de vida e o método cientíco
+Uma mosca pode pousar sobre um alimento, depositar ovos e ir embora
+rapidamente, sem que ninguém veja. Dias depois, larvas irão surgir, aparentemente
+originadas pelo próprio alimento.
+Durante muito tempo, situações como essa zeram com que muitas pessoas
+acreditassem que seres vivos poderiam ser gerados a partir de algo sem vida. Neste
+capítulo, vamos entender como o uso do método cientíco permitiu que a geração
+de vida fosse esclarecida.
+FRENTE 1
+Victoria 1/Shutterstock.com
+
+===== poliedro-bio PÁGINA 62 =====
+BIOLOGIA
+Capítulo 4
+A geração de vida e o método científico
+62
+Biogênese e abiogênese
+Seres vivos apresentam grande complexidade bioquí-
+mica. Um ser vivo provém de outro ser vivo, por meio de
+reprodução; isso está de acordo com a visão conhecida
+como biogênese.
+No entanto, desde a Antiguidade havia a crença
+de que outro caminho também era possível (sem negar
+ou descartar a geração de vida por reprodução): a
+abiogênese, ou geração espontânea, que considera a
+formação de um ser vivo a partir de algo não vivo (Fig. 1),
+em condições específicas. Vários filósofos gregos defen-
+diam essa ideia, mas foi Aristóteles (384-322 a.C.) que lhe
+conferiu um melhor acabamento; ele acreditava que era
+necessário um princípio ativo ou força vital para converter
+algo não vivo em ser vivo. Um barril com água, por exem-
+plo, com cabelo de mulher, recebendo água de chuva,
+poderia converter os fios em serpentes. Essa crença per-
+durou até o século XIX d.C. e foi defendida por pessoas
+cultas e grandes pensadores. A discussão de como essa
+visão foi derrubada é uma parte importante da história da
+ciência. A seguir, são descritos trabalhos que se tornaram
+célebres nessa importante discussão.
+Fig. 1 Pela teoria da abiogênese, seres vivos seriam provenientes de algo não
+vivo. Assim, uma camisa suja em local escuro, com grãos de trigo, geraria ca-
+mundongos; um barril com água e cabelos de mulher, na chuva, geraria cobras.
+Francesco Redi
+Esse italiano do século XVII foi o primeiro a contrariar a
+ideia de geração espontânea de maneira contundente. Redi
+viveu no período influenciado pelo Renascimento (entre final
+do séc. XIII e meados do séc. XVII). Outro italiano, Galileu
+Galilei, havia mostrado grandes falhas em fundamentos da
+Física de Aristóteles. Redi observou que carne em apodreci-
+mento rapidamente ficava recoberta por pequenos animais
+semelhantes a vermes. A visão dominante da época era de
+que a carne em putrefação gerava esses pequenos “vermes”.
+Redi notou também que onde havia carne em putrefação
+também havia moscas rondando. Procurou analisar o compor-
+tamento e a forma dos “vermes”; verificou que eles moviam-se
+e alimentavam-se, mas, depois de algum tempo, deixavam de
+se alimentar e de se movimentar. Posteriormente, formavam um
+casulo, do qual emergia uma mosca adulta. Com base nessas
+informações, elaborou uma hipótese: moscas poderiam de-
+positar ovos na carne, e eles geravam os vermes, que depois
+davam origem a moscas. Isso significaria que a carne não gera
+verme. Mas Redi tinha de testar sua hipótese: Ele escreveu:
+uma crença seria vã sem a confirmação da experiência.
+Assim, Redi elaborou um experimento para provar sua
+teoria: utilizou frascos contendo carne, alguns cobertos por
+gaze e outros descobertos. Nos frascos descobertos, houve
+desenvolvimento de larvas sobre a carne; nos frascos cober-
+tos, não ocorreu desenvolvimento de larvas na carne, mas
+sobre a gaze. Onde havia moscas, havia larvas; e onde não
+havia moscas, não havia larvas. Dessa maneira, Redi concluiu
+que os vermes eram oriundos de moscas, ou seja, os seres
+vivos são provenientes de outros seres vivos. Com isso, fica
+demonstrada a ausência de geração espontânea (Fig. 2).
+Carne sem contato com
+moscas = ausência de larvas
+Aparecimento de larvas
+na carne com moscas
+Frascos
+descobertos
+Frascos cobertos
+com gaze
+Fig. 2  À esquerda, estão os frascos abertos; à direita, os frascos são cobertos. A
+cobertura dos frascos impede a entrada de moscas, e não ocorre o desenvolvi-
+mento de “vermes” (larvas) na carne.
+
+===== poliedro-bio PÁGINA 91 =====
+FRENTE 2
+91
+Um trecho de grande importância em sua viagem foi a passagem pela América do Sul. A expedição passou pelo
+Brasil, pelo Uruguai e pela Argentina. Na foz do rio da Prata, Darwin descobriu alguns fósseis; um deles lembrando o tatu,
+mas bem maior.
+Posteriormente, a expedição percorreu a costa do Chile e passou algumas semanas no arquipélago de Galápagos,
+situado a aproximadamente mil quilômetros do Equador. Galápagos tem treze principais ilhas vulcânicas; cada ilha tem
+um tipo diferente de jabuti gigante. Os jabutis diferem de uma ilha para outra pelo formato do casco, do bico, do pescoço
+e por outras características. Uma explicação plausível para esses tipos diferentes era que os animais apresentavam seme-
+lhanças (todos podiam facilmente ser caracterizados como jabutis); essa semelhança era indicativa de parentesco, ou seja,
+os diferentes tipos eram provenientes de um ancestral comum, que ocupou as várias ilhas do arquipélago. Esse ancestral
+teria originado os diferentes tipos de jabutis através de evolução.
+Outros organismos investigados por Darwin, em Ga-
+lápagos, foram os tentilhões, pássaros provenientes do
+continente sul-americano. Em Galápagos, os tentilhões di-
+versificaram-se e adaptaram-se às condições de cada ilha,
+principalmente ao tipo de alimento disponível: insetos, se-
+mentes ou cactos. Uma espécie utiliza espinhos de cactos
+como ferramentas para retirar insetos alojados em troncos
+de árvores; essa espécie lembra o modo de alimentação
+do pica-pau que usa seu bico rígido e longo para comer
+insetos do tronco de árvores. Darwin explicou a diversidade
+dos tentilhões como resultado de modificações ocorridas
+a partir de um ancestral comum (Fig. 15).
+Fig. 15 As espécies de tentilhões
+estudadas por Darwin apresentam
+bicos adaptados a diferentes tipos
+de alimentos. Darwin considerou
+que essas espécies eram proceden-
+tes de um ancestral comum.
+Uma pista: a seleção artificial
+De volta à Inglaterra, Darwin está convencido de que os
+seres vivos estão sujeitos a mudanças evolutivas. Procura,
+então, explicações para o mecanismo de modificações das
+espécies. Uma parte da resposta é obtida pela observação
+de espécies domésticas. O ser humano provocou grandes
+modificações nas espécies de animais domésticos, como
+cavalos, cães e gado bovino. Darwin descobriu que essas
+mudanças eram baseadas na seleção artificial: o ser hu-
+mano seleciona nas ninhadas os animais que apresentam
+as características que ele deseja obter na espécie. Esses
+indivíduos são separados do restante da ninhada e, quando
+atingem a idade adulta, são cruzados com outros dotados
+das mesmas características. Repetindo-se esse processo
+durante várias gerações, são obtidas novas linhagens de
+animais domésticos que atendem a uma necessidade es-
+pecífica do ser humano (Fig. 16).
+Fig. 16 As diversas raças de
+cães são produto da seleção
+artificial.
+Daigual/Wikimedia Commons
+Mapa-múndi e a expedição de Darwin
+No mapa: Percurso da expedição de que Darwin participou.
+ÁFRICA
+Espanha
+ÁSIA
+Ilhas Cocos
+Madagascar
+Arábia
+Oceano
+Pacíﬁco
+Oceano
+Índico
+Oceano
+Atlânco
+AMÉRICA
+DO SUL
+AMÉRICA
+DO NORTE
+OCEANIA
+Austrália
+Nova
+Zelândia
+Galápagos
+0
+2560 km
+
+===== poliedro-bio PÁGINA 92 =====
+BIOLOGIA
+Capítulo 1
+Evolução: conceitos e evidências
+92
+Um exemplo
+O organismo está adaptado ao ambiente em relação ao
+seu conjunto de características e não apenas de uma carac-
+terística isoladamente. Por exemplo, os leões são adaptados
+ao predatismo na savana africana; eles apresentam vários
+atributos que os tornam predadores muito eficientes: sen-
+tidos aguçados, força, velocidade etc. Além disso, têm uma
+cor que os torna menos visíveis às presas; é uma tonalidade
+de marrom, semelhante à da vegetação, principalmente no
+período de seca (Fig. 18).
+Fig. 18 A coloração da leoa contribui para que ela não seja notada por suas presas.
+Schuyler Shepherd/Wikimedia Commons
+A compreensão do mecanismo proposto por Darwin fica
+mais fácil com a utilização de um exemplo hipotético. Consi-
+deremos uma determinada espécie de roedor, que apresenta
+dois tipos de indivíduos: alguns têm pelo branco e outros
+possuem pelo marrom. Suponha que o ambiente tenha uma
+curta estação chuvosa durante o ano e que, na maior parte
+do tempo, o ambiente tenha água apenas nos rios que cortam
+a região. Durante a seca prolongada, a vegetação rasteira,
+representada por gramíneas, assume uma coloração parda.
+Os animais de pelo marrom são menos notados por seus
+predadores, enquanto os brancos ficam bem destacados.
+Com isso, os brancos são capturados com mais frequên-
+cia e sua quantidade fica bastante reduzida, em contraste
+com os de pelo marrom, que se tornam mais abundantes. O
+ambiente realiza a seleção natural, eliminando os roedores
+brancos e possibilitando a sobrevivência e a reprodução
+dos roedores marrons, que se revelaram mais adaptados.
+A variabilidade é submetida à seleção natural e passam a
+predominar os organismos mais adaptados (Fig. 19).
+Variabilidade
+na população
+Marrom
+Branco
+Seleção de
+indivíduos
+(de acordo com
+as características
+do meio)
+Vegetação com
+tonalidade marrom
+Predadores
+Adaptação
+Marrons
+predominam
+Fig. 19 Esquema do darwinismo. A variabilidade é submetida à seleção natural,
+passando a predominar os mais adaptados.
+A influência de Malthus
+O problema para Darwin passou a ser o de identificar
+o mecanismo que causa as modificações que ocorrem na
+natureza, sem a interferência proposital do ser humano.
+Darwin relata que obteve sua resposta lendo o trabalho
+de Thomas Malthus sobre populações (Um ensaio sobre
+populações).
+Aqui, não discutiremos a pertinência ou não das ideias
+de Malthus, mas destacaremos como elas influenciaram
+o trabalho de Darwin (Wallace também foi inspirado por
+Malthus e por Lyell!).
+Vamos considerar os seguintes pontos propostos por
+Malthus sobre a população humana mundial.
+• 
+A população cresce em progressão geométrica (os
+matemáticos mostram que um crescimento desse tipo
+é representado graficamente por uma hipérbole).
+• 
+A produção de alimento cresce em progressão arit-
+mética (isso significa que o crescimento é linear,
+sendo representado por uma reta).
+Em outras palavras, Malthus afirma que o ritmo de
+crescimento populacional é muito mais rápido que o da
+produção alimentar. Então, ele conclui que haveria, no fu-
+turo, falta de alimento para todos, acarretando grande luta
+pela sobrevivência. Quando Darwin leu isso, concluiu que
+na natureza havia uma intensa luta pela sobrevivência. Po-
+demos acompanhar seu raciocínio:
+• 
+os seres de uma espécie apresentam diferenças entre si;
+• 
+uma espécie tem potencialidade para apresentar
+crescimento exponencial;
+• 
+isso não ocorre porque os recursos são limitados,
+como o alimento, que não é suficiente para todos. As
+populações acabam ficando mais ou menos estáveis
+ao longo do tempo;
+• 
+há uma grande luta pela sobrevivência e muitos são
+eliminados;
+• 
+apenas alguns sobrevivem: os mais adaptados;
+• 
+é o ambiente que promove a “escolha” dos mais adap-
+tados; o ambiente realiza a seleção natural (Fig. 17).
+Crescimento
+da população
+Produção
+de alimento
+Progressão
+geométrica
+Luta pela
+sobrevivência
+Darwin elabora
+o conceito de
+seleção natural
+Progressão
+aritmética
+Ideias de Malthus
+Fig. 17 Influência das ideias de Malthus sobre Darwin, que elaborou o conceito
+de seleção natural.
+Assim, a variabilidade é submetida à seleção natural e
+os mais adaptados passam a predominar. Esse mecanismo
+de adaptação dos seres vivos ao ambiente, proposto por
+Darwin, é conhecido como darwinismo.
+
+===== poliedro-bio PÁGINA 151 =====
+FRENTE 2
+151
+O sequestro (absorção) do carbono da atmosfera
+(CO2) é feito principalmente pelos seres clorolados
+que, no processo de fotossíntese, sintetizam a molé-
+cula da glicose(C6H12O6).
+Para manter armazenado, por longo prazo, o carbono
+que foi retirado da atmosfera, é aconselhável:
+A controlar as atividades vulcânicas.
+B transformar as florestas em zonas agrícolas.
+C instalar hortas em grande parte das residências.
+impedir o desflorestamento e estimular o reflores-
+tamento.
+E diminuir a biodiversidade, facilitando os cálculos
+sobre as atividades respiratórias.
+24 Enem 2016 Os seres vivos mantêm constantes trocas
+de matéria com o ambiente mediante processos co-
+nhecidos como ciclos biogeoquímicos. O esquema
+representa um dos ciclos que ocorrem nos ecossis-
+temas.
+Leguminosas, como a soja, são cultivadas com diver-
+sas nalidades. Uma delas deve-se à sua importância
+no ciclo do nitrogênio (N2), uma vez que, em suas raí-
+zes, instalam-se bactérias que:
+A fixam o gás nitrogênio do ar.
+B transformam amônia em nitritos.
+C enriquecem o solo em amônia.
+transformam nitritos em nitratos.
+E eliminam N2 para o solo.
+27 UFJF 2020
+Em 2011, o zootecnista da Embrapa Luiz Carlos Gui-
+lherme desenvolveu em seu doutorado o “Sistema integrado
+alternativo para produção de alimentos: agricultura familiar”,
+conhecido como “Sisteminha”. Ele consiste em um sistema
+integrado de produção de alimentos que contribui com a
+segurança e soberania alimentar dos seus beneficiários, em
+geral pessoas em situação de vulnerabilidade. O elemento
+central da tecnologia desenvolvida é a criação de peixes em
+um tanque construído com materiais de baixo custo, onde
+funciona um sistema de recirculação e filtragem. Com um
+balde, um cano de PVC, uma mangueira de limpeza de pis-
+cina e uma garrafa pet constrói-se o biofiltro. Nessa estrutura
+bactérias agem na decomposição dos resíduos metabólicos
+produzidos pelos peixes, como é o caso da amônia. A amô-
+nia, altamente tóxica para os peixes, é transformada pelas
+bactérias presentes no filtro em nitrito ou nitrato. Assim, parte
+da água do tanque de peixes é utilizada como biofertilizante
+na irrigação da cultura de hortaliças. O resíduo gerado no
+cultivo dos peixes também pode ser reaproveitado para a
+formação de composto e produção de húmus de minhoca.
+No texto acima são descritas duas etapas do ciclo do
+nitrogênio. Assinale a alternativa CORRETA:
+A Fixação e amonificação.
+B Nitrificação e desnitrificação.
+C Amonificação e nitrificação.
+Fixação e nitrificação.
+E Amonificação e desnitrificação.
+28 Enem 2017
+Uma grande virada na moderna história da agricul-
+tura ocorreu depois da Segunda Guerra Mundial. Após a
+guerra, os governos haviam se deparado com um enorme
+excedente de nitrato de amônio, ingrediente usado na fa-
+bricação de explosivos. A partir daí as fábricas de munição
+foram adaptadas para começar a produzir fertilizantes ten-
+do como componente principal os nitratos.
+SOUZA, F. A. Agricultura natural/orgânica como instrumento de fixação
+biológica e manutenção do nitrogênio no solo: um modelo sustentável
+de MDL. Disponível em: www.planetaorganico.com.br.
+Acesso em: 17 jul. 2016 (adaptado).
+No ciclo natural do nitrogênio, o equivalente ao prin-
+cipal componente desses fertilizantes industriais é
+produzido na etapa de
+A nitratação
+B nitrosação
+C amonificação
+desnitrificação
+E fixação biológica do N2
+O esquema apresentado corresponde ao ciclo bio-
+geoquímico do(a):
+A água.
+B fósforo.
+C enxofre.
+carbono.
+E nitrogênio.
+25 Uece Apesar de o nitrogênio estar presente na at-
+mosfera de forma bastante abundante, este elemento
+não pode ser diretamente absorvido pelos vegetais.
+Os organismos conseguem o nitrogênio essencial à
+vida pela absorção de nitratos presentes no solo e na
+água. Os nitratos encontram-se disponíveis para a uti-
+lização, pelos seres vivos, pela:
+A ação dos fungos decompositores.
+B decomposição de rochas a partir do intemperismo.
+C ação de bactérias do gênero Rhizobium.
+presença de micorrizas nas raízes das plantas.
+26 PUC-Campinas O biodiesel resulta da reação química
+desencadeada por uma mistura de óleo vegetal (soja,
+milho, mamona, babaçu e outros) com álcool de cana.
+O ideal é empregar uma mistura do biodiesel com
+diesel de petróleo cuja proporção ideal ainda será
+definida. Quantidades exageradas de biodiesel fazem
+decair o desempenho do combustível.
+Estado gasoso
+Herbívoro
+Morte
+Plantas
+Decomposição
+Depósito
+subterrâneo
+Carnívoro
+Combustão
+
+===== poliedro-bio PÁGINA 152 =====
+bIOLOGIa
+Capítulo 4
+Energia e matéria no ecossistema
+152
+Detalhes do ciclo do nitrogênio
+Foi apresentada uma noção geral dos papéis de inúmeros tipos de bactérias no ciclo do nitrogênio. Agora serão mostrados detalhes sobre algumas
+bactérias e sobre outros seres vivos que participam desse ciclo.
+A nitrificação é um processo que converte amônia em nitrato. As bactérias que a realizam são quimiossintetizantes. Ela é dividida em duas etapas:
+nitrosação e nitratação. A nitrosação é realizada por bactérias do gênero Nitrosomonas, que convertem NH3 em nitrito (NO2
+–), que é eliminado no
+ambiente, sendo utilizado pelas bactérias que realizam nitratação. A nitratação é feita por bactérias do gênero Nitrobacter, que transformam nitrito
+em nitrato, que é eliminado no ambiente e pode ser absorvido pelas plantas.
+Nitrosação
+Nitrosomonas
+Nitriﬁcação
+NH3
+2
+NO−
+3
+NO−
+Nitratação
+Nitrobacter
+Fig. 21 Esquema do processo de nitrificação.
+O que se passa na nitrificação ilustra o que ocorre no ciclo do nitrogênio como um todo: a bactéria recebe algum material nitrogenado do ambiente,
+utiliza esse material em seu metabolismo e gera um resíduo, que é empregado por outro ser vivo. Isso pode ser visto na tabela que se segue.
+e Texto complementar
+29 PUC-Rio Johanna Dobereiner foi uma pesquisadora pioneira no Brasil, que correlacionou a maior produção de bio-
+massa vegetal em leguminosas, com a presença de nódulos em suas raízes. Essas estruturas estão relacionadas a
+que processo a seguir descrito?
+a Desnitrificação.
+b Fixação de N2.
+c Fixação do CO2.
+d Respiração das raízes.
+e Amonificação.
+30 UFJF Um dos motivos para que se recomende a utilização de leguminosas na recuperação de áreas degradadas é a pos-
+sibilidade de essas plantas se associarem a determinadas bactérias, permitindo que elas possam:
+a aumentar a solubilização do fósforo pela produção de fosfatases.
+b reduzir a perda de água e aumentar a fotorrespiração.
+c utilizar o nitrogênio atmosférico como fonte primária para a produção de aminoácidos.
+d aumentar a absorção do alumínio e do manganês.
+e reduzir a acidez do solo e aumentar o tamanho das raízes.
+31 Enem PPL 2019
+A cada safra, a quantidade de café beneficiado é igual à quantidade de resíduos gerados pelo seu beneficiamento. O
+resíduo pode ser utilizado como fertilizante, pois contém cerca de 6,5% de pectina (um polissacarídeo), aproximadamente
+25% de açúcares fermentáveis (frutose, sacarose e galactose), bem como resíduos de alcaloides (compostos aminados)
+que não foram extraídos no processo.
+LIMA, L. K. S. et al. Utilização de resíduo oriundo da torrefação do café na agricultura em substituição à adubação convencional.
+ACSA – Agropecuária Científica no Semi-Árido, v. 10, n. 1, jan.-mar., 2014 (adaptado).
+Esse resíduo contribui para a fertilidade do solo, pois
+a possibilita a reciclagem de carbono e nitrogênio.
+b promove o deslocamento do alumínio, que é tóxico.
+c melhora a compactação do solo por causa da presença de pectina.
+d eleva o pH do solo em função da degradação dos componentes do resíduo.
+e apresenta efeitos inibidores de crescimento para a maioria das espécies vegetais pela cafeína.
+Material
+nitrogenado
+Bactérias que o utilizam
+Resíduo
+gerado
+Bactérias que utilizam
+o resíduo
+NH3
+Nitrificantes; é empregado para a realização de quimiossíntese.
+NO3
+–
+Desnitrificantes
+NO3
+–
+Desnitrificantes; é utilizado na respiração celular anaeróbia dessas bactérias.
+N2
+Fixadoras de nitrogênio
+N2
+Fixadoras de nitrogênio; é usado para formar amônia, que as bactérias
+empregam na síntese de aminoácidos.
+NH3
+Nitrificantes
+Tab. 1 Organismos atuantes na transformação dos materiais nitrogenados.

@@ -1,0 +1,67 @@
+# MAPA_CONTEUDO -- histo-08-tecido-muscular
+# Slide-fonte: Tecido muscular - slides.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Tecido Muscular Tecido Muscular
+slide-02: Características Morfológicas e Funcionais Distintas Origem: Mesodérmica Função: Movimentos corporais (Voluntários e Involuntários) Tipos: Tecido Muscular Liso Tecido Muscular Estriado Esquelético Tecido Muscular Cardíaco Características Morfológicas ...
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: Myostatin-related muscle hypertrophy
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: Nomenclatura Especial • Membrana plasmática: Sarcolema • Citoplasma: Sarcoplasma • Retículo Endoplasmático Liso: Retículo Sarcoplasmático • Mitocôndria: Sarcossoma
+slide-07: Tecido Muscular Estriado Esquelético Tecido Muscular Estriado Esquelético T.C.D. Fibras ret. + M.E.C.
+slide-08: Vasos e nervos adaptados utilizam essas bainhas de tecido conjuntivo para alcançar as células musculares.
+slide-09: Miofibrilas Miofibrilas
+slide-10: Miofibrilas são constituídas de repetidas unidades de sarcômeros Sarcômeros são as unidades básicas de contração
+slide-11: Filamentos Finos – Actina, Tropomiosina e Troponina
+slide-12: Suporte estrutural transversal, inserção dos filamentos de actina. a-actinina Creatina quinase Suporte estrutural transversal dos filamentos de miosina
+slide-13: Associações não-covalentes Miosinas
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: S/ Ca2+ S/ Ca2+ C/ C C/ Ca2+
+slide-16: O comprimento dos filamentos não é alterado O sarcômero diminui
+slide-17: Sarcoplasma e Túbulos T Sarcoplasma e Túbulos T
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: [VISUAL -- usar adjacente com titulo extraivel]
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: [VISUAL -- usar adjacente com titulo extraivel]
+slide-23: •Célula Muscular: Sincício multinucleado •10-100 mm de diâmetro •Podendo alcançar vários centímetros de comprimento •Núcleos periféricos •Sarcolema circundado por lamina basal e células satélites. •Túbulos T (Transversais): longas invaginações do sar...
+slide-24: Como um impulso nervoso dispara uma contração muscular???
+slide-25: [VISUAL -- usar adjacente com titulo extraivel]
+slide-26: 1- Um potencial de ação no neurônio gera um sinal de contração-excitação mediado pela acetilcolina na placa motora 2- a acetilcolina induz a despolarização do sarcolema, que propaga-se pelos túbulos T (Potencial de ação) 3- quando o potencial de ação...
+slide-27: Cada ramificação nervosa inerva uma única fibra muscular. Axônio-tronco + suas fibras musculares = unidade motora Controle fino = poucas fibras por unidade motora Pouca precisão = muitas fibras por unidade motora
+slide-28: [VISUAL -- usar adjacente com titulo extraivel]
+slide-29: [VISUAL -- usar adjacente com titulo extraivel]
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: Proprioceptores Fuso neuromuscular Fuso neuromuscular
+slide-33: Órgãos tendinosos de Golgi Órgãos tendinosos de Golgi
+slide-34: Regeneração Regeneração: -Capacidade regenerativa parcial - Baseada na diferenciação de células satélites
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Diâmetro da fibra muscular estriada esquelética: • sexo • nutrição • idade • atividade física  Da massa muscular Hipertrofia das fibras Síntese de miofilamentos As fibras musculares estriadas esqueléticas MITOSE
+slide-37: Pós bandex   Calouro
+slide-38: Rhabdomyolysis Rhabdomyolysis
+slide-39: Rhabdophobia Rhabdophobia
+slide-40: Junção Músculo-Tendão Junção Músculo-Tendão
+slide-41: Tecido Muscular Estriado Cardíaco Tecido Muscular Estriado Cardíaco
+slide-42: [VISUAL -- usar adjacente com titulo extraivel]
+slide-43: [VISUAL -- usar adjacente com titulo extraivel]
+slide-44: [VISUAL -- usar adjacente com titulo extraivel]
+slide-45: [VISUAL -- usar adjacente com titulo extraivel]
+slide-46: Cardiócitos: Cilindros/cilindros ramificados ~90mm de comprimento ~1,5mm de diâmetro Núcleo central Mononucleadas Sarcômeros Túbulos T ao nível dos discos Z, maiores que da musculatura esquelética Reticulo sarcoplasmático menos extenso Díades Mitocôn...
+slide-47: [VISUAL -- usar adjacente com titulo extraivel]
+slide-48: [VISUAL -- usar adjacente com titulo extraivel]
+slide-49: [VISUAL -- usar adjacente com titulo extraivel]
+slide-50: [VISUAL -- usar adjacente com titulo extraivel]
+slide-51: Tecido Muscular Liso Tecido Muscular Liso Células fusiformes e afiladas Núcleo central
+slide-52: Cavéolas atuam como tubulos T Junções comunicantes Lamina basal conecta às adjacências e transmite tensões Ca2+ proveniente do meio externo Tropomiosina Miosina II Sensibilidade ao Ca2+ na quinase de cadeia leve da miosina Responde a estímulos hormon...
+slide-53: Trama de filamentos de miosina II, filamentos de actina e filamentos intermediários (desmina e vimentina) Corpos densos (ricos em a-actinina)
+slide-54: [VISUAL -- usar adjacente com titulo extraivel]
+slide-55: [VISUAL -- usar adjacente com titulo extraivel]
+slide-56: Momento Darwin Momento Darwin
+slide-57: [VISUAL -- usar adjacente com titulo extraivel]
+slide-58: http://www.virtual.epm.br/material/tis/curr- bio/trab2000/cardiovasc/contratilidadecardiaca.htm http://www.lab.anhb.uwa.edu.au/mb140/ Histologia e Biologia Celular: Uma Introdução à Patologia - Abraham L. Kierszenbaum 2ª Ed. Histologia Básica - 11ª E...
+slide-59: Prática Identificar : Músculo Estriado Esquelético •Epimísio, Perimísio e endomísio •Miofibrílas •Núcleos periféricos Músculo Cardíaco •Discos Intercalares •Fibras de Purkinje •Nucleos centrais Músculo liso Identificar a musculatura lisa Lâminas suge...

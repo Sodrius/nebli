@@ -1,0 +1,1627 @@
+NEBLI · APOSTILA
+
+Sinalização celular
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:   Primeira leitura pós-aula; releia antes da P2.
+Onde estudar:  Boron 3ª ed, Cap. 3 (Signal transduction); Costanzo 6ª ed, Cap. 1 (seção
+               sobre segundos mensageiros)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Como células conversam
+
+       1.1 Tipos de comunicação -- gap, contato, parácrina, endócrina
+       1.2 O panorama dos receptores -- quatro famílias
+       1.3 Receptores-canal -- resposta rápida e direta
+  PARTE II -- GPCRs e segundos mensageiros
+       2.1 GPCR e a proteína G -- o ciclo GTP/GDP
+       2.2 Via do AMPc -- Gs, adenilato ciclase, PKA
+       2.3 Via do IP3/DAG -- Gq, PLC, PKC
+       2.4 Cálcio como hub -- múltiplas fontes, calmodulina, CaMKII
+  PARTE III -- Receptores enzimáticos, intracelulares e modulação
+       3.1 Receptores enzimáticos -- RTK e o exemplo da insulina
+       3.2 Mensageiros lipossolúveis -- NO e esteroides
+       3.3 Modulação -- especificidade, conversa cruzada, dessensibilização
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q12) · verde
+       Integração (Q13­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Todo organismo multicelular vive um problema básico: bilhões de células precisam combinar
+    comportamento -- contrair junto, secretar no momento certo, crescer só quando autorizado,
+    parar de crescer quando preciso. A célula sozinha não sabe da fome do organismo nem do estresse
+    do dia. Quem traz essa informação de fora para dentro é a sinalização celular. Esta aula descreve
+    a arquitetura básica desse sistema -- quem manda o sinal (mensageiro), quem recebe na super
+    fície (receptor), o que acontece dentro da célula (transdução) e como tudo isso é desligado depois
+    (modulação). Vamos descobrir que a célula reusa o mesmo plano arquitetônico para hormônios,
+    neurotransmissores, fatores de crescimento e mensageiros locais -- só troca as peças.
+
+PARTE I -- Como células conversam
+
+1.1 -- Tipos de comunicação intercelular
+Antes de falar de receptor, vamos resolver uma confusão que volta muito em prova: que formas difer
+entes uma célula tem para conversar com outra? O sistema é bem mais variado do que "uma manda
+hormônio pelo sangue e a outra ouve". Existe um espectro inteiro de comunicações, organizado pela
+distância e pelo modo de entrega.
+
+A forma mais direta -- quase carona -- são as junções gap. Duas células vizinhas alinham canais prote
+icos chamados conexons nas suas membranas, e esses canais se encaixam formando um poro contínuo
+que liga o citoplasma das duas. Por esse poro passam íons (Na+, K+, Ca2+) e moléculas pequenas (até 1 kDa,
+AMPc inclusive). Como íons passam diretamente, a comunicação é elétrica e bidirecional -- se uma
+célula despolariza, a vizinha despolariza junto, quase ao mesmo tempo. É assim que o miocárdio contrai
+sincronizado (o impulso passa de miócito em miócito) e como o intestino faz peristaltismo coordenado.
+Junção gap não é sinapse química -- não há neurotransmissor, não há fenda, não há receptor: é fio
+direto.
+
+AMPc1 ATP2
+
+As junções gap também têm um interruptor de segurança: fecham se o pH local cai muito ou se o
+Ca2+ citoplasmático sobe muito. Por que isso importa? Porque essas duas alterações sinalizam dano na
+célula vizinha -- se ela está rompida, o pH ácido e o Ca2+ alto vazariam pelo poro e contagiariam toda a
+vizinhança. Fechar a junção isola o dano.
+
+   1AMPc ­ adenosina monofosfato cíclico -- segundo mensageiro intracelular, produzido pela adenilato ciclase a partir
+de ATP, ativa principalmente a PKA.
+
+   2ATP ­ adenosina trifosfato -- moeda energética celular; substrato da adenilato ciclase e doador de fosforilação para
+quinases.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Junções gap em ação: cada conexon é um cilindro de seis conexinas; dois conexons alinhados das duas células
+vizinhas formam o poro contínuo. Repare nos exemplos -- sinapse elétrica, coração, peristaltismo -- que dependem
+dessa passagem direta.
+
+Quando as células não precisam de poro contínuo, mas mesmo assim querem conversar só quem está ao
+lado, usam sinalização dependente de contato. Aqui o sinalizador é uma proteína presa na membrana
+de uma célula, e o receptor é uma proteína presa na membrana da célula vizinha -- para o sinal
+acontecer, as duas membranas têm que se tocar. Exemplo paradigmático: integrina integrina3 da célula
+reconhecendo fibronectina da matriz extracelular, ou as proteínas Notch-Delta do desenvolvimento
+embrionário. Sem contato físico, sem sinal. Quando uma célula epitelial perde a integrina (caiu da
+membrana basal, descolou do tecido), o que chega não é nada -- e o nada é interpretado como ordem de
+apoptose. A célula sabe que está no lugar certo porque sente que está colada.
+
+   3integrina ­ família de receptores de membrana que reconhece proteínas da matriz extracelular, como fibronectina e
+laminina. Quando ligada, gera sinal de sobrevivência; quando perde o contato, dispara apoptose -- fenômeno chamado
+anoikis.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Sinalização dependente de contato: ligante de uma membrana toca receptor da outra. Sem o toque, sem sinal -- e
+na ausência de sinalização por integrina, a célula entra em apoptose.
+
+Acima desses dois modos diretos, vem a sinalização por mensageiro liberado. A célula que sinaliza
+secreta uma molécula no meio extracelular; outra célula captura essa molécula no receptor. A diferença
+entre os subtipos é quão longe o mensageiro viaja:
+-- Parácrina: o mensageiro difunde pelo interstício e age em células vizinhas a poucos micrômetros de
+distância. Foi degradado ou recapturado antes de chegar longe. Exemplo clássico: histamina liberada
+por mastócito age na vizinhança (vasodilatação local).
+-- Sináptica: variante muito especializada da parácrina, em que duas células neuronais formam uma
+estrutura permanente (a sinapse) e o mensageiro (neurotransmissor) é liberado num espaço pequeno
+( 20 nm) e atinge o receptor em microssegundos. Sinapse é parácrina de altíssima precisão espacial.
+-- Endócrina: o mensageiro é jogado na corrente sanguínea e viaja por todo o corpo. Só células que têm
+o receptor correto respondem. Exemplo clássico: insulina sai do pâncreas, atinge todo o organismo, mas
+só fígado, músculo e tecido adiposo respondem (porque expressam o receptor de insulina).
+-- Autócrina: a célula sinaliza para si mesma -- secreta um mensageiro e captura no próprio receptor.
+Comum em sistema imune (T-helper produz IL-2 e ela mesma responde) e em alguns tipos de câncer
+(estímulo autônomo de crescimento).
+
+   Resumindo até aqui: Quanto mais perto, mais direto: junção gap (sem mensageiro, poro contínuo)
+    contato (ligante de membrana × receptor de membrana)  parácrina (mensageiro difunde para
+   vizinhos)  sináptica (parácrina especializada)  endócrina (mensageiro pelo sangue). Endócrina é a
+   única que viaja pela corrente; parácrina nunca usa o sangue.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Parácrina não anda no sangue
+
+Aluno tende a achar que "parácrina" é só um modo "mais fraco" de endócrina, com mensageiro
+circulando pelo sangue em menor concentração. Errado. Parácrina difunde pelo interstício e age
+localmente -- geralmente é degradada ou recapturada antes de cair em capilar. Endócrina é a que
+usa a corrente sanguínea. NO (óxido nítrico) é parácrino paradigmático: meia-vida de segundos,
+age só no vaso adjacente.
+
+1.2 -- O panorama dos receptores -- quatro famílias
+Dos modos de comunicação, agora vamos ao recepto: a peça que recebe o sinal e o traduz em algo
+que a célula consegue fazer. Praticamente toda a sinalização que vamos estudar passa por uma de
+quatro famílias de receptor, e vale a pena memorizar essa taxonomia antes de mergulhar em qualquer
+detalhe -- porque cada família tem um mecanismo característico, e saber qual família reconhece um
+mensageiro é meio caminho andado.
+
+GPCR4 RTK5 GTP6 GDP7
+
+A primeira separação grande é: o mensageiro é hidrossolúvel ou lipossolúvel? Hidrossolúveis
+(peptídeos, aminoácidos, catecolaminas) não atravessam a membrana -- precisam de receptor na
+membrana, do lado de fora. Lipossolúveis (esteroides, hormônios da tireoide, vitamina D) atravessam a
+membrana sozinhos e ligam-se a receptores dentro da célula. Por isso a primeira divisão da taxonomia
+é: receptores de membrana × receptores intracelulares.
+
+   4GPCR ­ G protein-coupled receptor -- receptor acoplado a proteína G; família de receptores de membrana com sete
+hélices transmembrana, que ativam uma proteína G heterotrimérica intracelular.
+
+   5RTK ­ receptor tyrosine kinase -- receptor de membrana com atividade tirosina-quinase intrínseca, ativado por fatores
+de crescimento e por insulina; sinaliza por autofosforilação após dimerização.
+
+   6GTP ­ guanosina trifosfato -- nucleotídeo que, ligado à subunidade  das proteínas G, mantém-nas ativas; sua hidrólise
+a GDP encerra o sinal.
+
+   7GDP ­ guanosina difosfato -- forma inativa do nucleotídeo na subunidade  das proteínas G; é trocado por GTP quando
+o receptor é ativado.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+As quatro famílias canônicas: três tipos de receptor de membrana (canal, GPCR, enzimático) + receptor intracelular.
+Cada família tem um mecanismo característico -- saber qual família responde a qual mensageiro é o primeiro mapa
+do tema.
+
+Dentro dos receptores de membrana, são três famílias:
+Receptores-canal (ionotrópicos) -- o receptor é um canal iônico. Quando o ligante chega, o canal abre,
+íons passam, e a célula muda de potencial. Resposta extremamente rápida (milissegundos), sem inter
+mediários. Exemplo: receptor nicotínico de acetilcolina na junção neuromuscular, receptor AMPA de
+glutamato no cérebro, receptor GABA-A.
+Receptores acoplados a proteína G (GPCR, metabotrópicos) -- o receptor não é canal nem enzima; ele é
+um intermediário que, ao receber o ligante, ativa uma proteína G na face citoplasmática da membrana.
+A proteína G ativada controla enzimas ou canais. Resposta mais lenta (centenas de ms a segundos), mas
+permite amplificação (um receptor ativa várias proteínas G; cada uma ativa várias enzimas; cada enzima
+produz muitos mensageiros). É a família mais numerosa e mais farmacológica do corpo. Exemplo: re
+ceptor -adrenérgico de adrenalina, receptor muscarínico de acetilcolina, receptor de glucagon, ACTH,
+dopamina.
+Receptores com atividade enzimática intrínseca -- o próprio receptor é uma enzima. Quando o ligante
+chega, a enzima entra em ação. A subfamília principal é a dos RTK (receptores tirosina-quinase), em
+que o ligante induz a dimerização do receptor, e cada monômero fosforila tirosinas do outro. Exemplo:
+receptor de insulina, receptor de EGF (fator de crescimento epidérmico), receptor de PDGF.
+Receptores intracelulares -- molécula lipossolúvel atravessa a membrana, liga-se a um receptor
+citosólico ou nuclear, o complexo vai (ou já está) no núcleo, liga-se ao DNA e regula a transcrição.
+Resposta lenta (horas a dias) porque envolve síntese proteica nova. Exemplo: receptor de cortisol, de
+estradiol, de testosterona, de tiroide, de vitamina D.
+
+                                                                                 7
+NEBLI                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+       Família          Localização  Mecanismo         Tempo de re    Exemplos
+                                                            sposta
+
+Canal (ionotrópico)     Membrana     Receptor abre     Milissegundos  Nicotínico,
+                                     canal iônico ao                  AMPA, NMDA,
+                                     ligar                            GABA-A
+
+GPCR (metabotrópico) Membrana        Receptor ativa    Centenas de    -adrenérgico,
+                                     proteína G  efe   ms a segundos  muscarínico,
+                                     tor  2º men                      glucagon, ACTH
+                                     sageiro
+
+Enzimático (RTK)        Membrana     Dimerização       Minutos        Insulina, EGF,
+                                     autofosforilação                 PDGF, fatores de
+                                      cascata                         crescimento
+
+Intracelular (nuclear)  Citosol  ou Ligante atravessa Horas a dias    Cortisol, estra
+                        núcleo           membrana  re
+                                         ceptor liga ao DNA           diol,  testos
+                                          transcrição
+                                                                      terona, T3, vit D
+
+A escolha da família é uma escolha de prazo. Quer resposta em milissegundos? Canal. Quer resposta
+em segundos com amplificação grande? GPCR. Quer resposta sustentada com cascata e potencial mi
+togênico? RTK. Quer mudar o programa de expressão da célula? Receptor intracelular. A mesma célula
+tem receptores das quatro famílias, e usa cada uma para o problema certo.
+
+   Resumindo até aqui: Quatro famílias, quatro prazos: canal (ms)  GPCR (s)  RTK (min)  intracelu
+   lar (h­d). Hidrossolúveis ficam fora da célula com receptor de membrana; lipossolúveis atravessam e
+   usam receptor intracelular.
+
+1.3 -- Receptores-canal -- a resposta mais rápida
+Vamos olhar com mais cuidado a primeira família, porque ela é a mais simples mecanisticamente e
+prepara o vocabulário para o resto. No receptor-canal, o receptor e o canal são a mesma proteína. O
+ligante encaixa num sítio extracelular, e essa ligação muda a conformação da proteína inteira, abrindo
+o poro central. Os íons que estavam fora entram (ou os que estavam dentro saem) por difusão passiva,
+seguindo seu gradiente eletroquímico. Não há segundo mensageiro, não há cascata, não há amplifi
+cação enzimática. Só passagem direta de íons. Por isso a resposta é tão rápida -- milissegundos do
+binding ao íon na célula.
+
+PEPS8 PIPS9 NMDA10 AMPA11 GABA12
+
+   8PEPS ­ potencial excitatório pós-sináptico -- despolarização local da membrana pós-sináptica gerada por entrada de
+Na+ (e às vezes Ca2+) através de canais ativados por neurotransmissor excitatório.
+
+   9PIPS ­ potencial inibitório pós-sináptico -- hiperpolarização ou estabilização da membrana pós-sináptica gerada por
+entrada de Cl- (ou saída de K+) através de canais ativados por neurotransmissor inibitório.
+
+   10NMDA ­ N-methyl-D-aspartate -- subtipo de receptor de glutamato que combina dois requisitos para abrir: ligação do
+glutamato E despolarização prévia que remove o bloqueio por Mg2+ permeável a Ca2+.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O que muda entre um receptor-canal e outro é qual íon ele deixa passar -- e isso determina se ele
+excita ou inibe a célula. Quando o canal é permeável a Na+, o íon positivo entra e a membrana despo
+lariza: o resultado é um potencial excitatório pós-sináptico, PEPS. Exemplo clássico: receptor AMPA do
+glutamato no SNC. Outro exemplo: receptor nicotínico de acetilcolina na junção neuromuscular. Quando
+o canal é permeável a Cl-, o íon negativo entra e a membrana hiperpolariza (ou se estabiliza próximo
+do potencial de repouso): potencial inibitório, PIPS. Exemplo canônico: receptor GABA-A -- o principal
+mecanismo inibitório rápido do cérebro, alvo dos benzodiazepínicos e do álcool.
+
+Três receptores-canal lado a lado: acetilcolina (Na+  PEPS), glutamato AMPA (Na+  PEPS) e GABA-A (Cl-  PIPS).
+Mesmo plano arquitetônico, íons diferentes, respostas opostas. Excitar ou inibir é uma decisão de qual canal está ali.
+
+O receptor NMDA merece uma menção à parte, porque é o único que pede duas condições simultanea
+mente para abrir: ligação do glutamato e despolarização prévia da membrana. Por que precisa de dois?
+Porque o canal NMDA tem um Mg2+ entupindo o poro no potencial de repouso. Só quando a célula está
+despolarizada (por um PEPS prévio de AMPA, por exemplo) o Mg2+ sai do poro, e aí, com o glutamato
+ligado, o canal abre e deixa passar Ca2+ (não só Na+). Esse comportamento de "só abre se duas coisas
+acontecerem ao mesmo tempo" faz do NMDA um detector de coincidência -- peça-chave da plastici
+dade sináptica, do aprendizado e da memória. O cálcio que entra pelo NMDA é o sinal molecular de
+"duas células acabaram de disparar juntas".
+
+   Resumindo até aqui: Receptor-canal é o canal. O ligante abre o poro, íons passam, e a célula muda o
+   potencial -- sem segundo mensageiro. Na+ entrando = excitação (PEPS, AMPA, nicotínico); Cl- entrando
+   = inibição (PIPS, GABA-A). NMDA é o detector de coincidência, abre só com glutamato E despolarização,
+   e deixa entrar Ca2+.
+
+   11AMPA ­ -amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid -- subtipo de receptor-canal de glutamato, permeável
+principalmente a Na+ medeia a maior parte da transmissão excitatória rápida do SNC.
+
+   12GABA ­ gamma-aminobutyric acid -- ácido -aminobutírico, principal neurotransmissor inibitório do SNC; ativa o
+receptor GABA-A (canal de Cl-, ionotrópico) e o GABA-B (GPCR).
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- GPCRs e segundos mensageiros
+
+2.1 -- GPCR e a proteína G -- o ciclo GTP/GDP
+Sai-se da família mais simples (canal) para a mais numerosa e mais farmacológica do organismo: os
+receptores acoplados à proteína G. Cerca de metade dos medicamentos prescritos atua sobre algum
+GPCR -- -bloqueadores, agonistas opioides, anti-histamínicos, anti-hipertensivos diversos. Vale a
+pena entender bem o mecanismo, porque ele se repete com pequenas variações em toda a família.
+
+O GPCR tem uma assinatura estrutural inconfundível: sete hélices que cruzam a membrana, com o N-
+terminal para fora (onde geralmente fica o sítio de ligação) e o C-terminal para dentro. Acoplada a ele, do
+lado citoplasmático, vive a proteína G -- uma proteína heterotrimérica (três subunidades diferentes:
+, , ). A subunidade  tem um sítio que liga nucleotídeo de guanina: ou GDP (forma inativa) ou GTP
+(forma ativa).
+
+Receptor de sete hélices transmembrana com a proteína G trimérica (, , ) ancorada na face citoplasmática. Repare
+na subunidade  com seu sítio para nucleotídeo -- é nele que se decide se o sinal está ligado ou desligado.
+
+Em repouso, a proteína G está completa (--) e a subunidade  carrega GDP. Nessa configuração, a
+proteína não faz nada -- não ativa enzima, não modula canal.
+Quando chega o ligante no receptor, o receptor muda de conformação. Esse novo formato funciona
+como um catalisador de troca de nucleotídeo (GEF -- fator de troca): força a subunidade  a soltar o GDP
+e ligar GTP, que está em excesso no citoplasma. A troca GDP  GTP é o gesto que liga o sinal. Com GTP
+no sítio, a subunidade  muda de forma, solta-se do dímero - e se liga ao próximo efetor da cascata
+-- uma enzima ou um canal, dependendo do tipo de G.
+
+   Resumindo até aqui: Receptor ligado pelo ligante = catalisador de troca: força  a trocar GDP por GTP.
+   G com GTP solta-se de  e ativa o efetor. Receptor não fosforila a proteína G -- só facilita a troca de
+   nucleotídeo.
+
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Ciclo da proteína G. Receptor ativado força a troca GDP  GTP em ; -GTP se dissocia de  e ativa o efetor; depois
+ hidrolisa GTP a GDP (devagar, segundos), perde afinidade pelo efetor, e se reassocia ao . O ciclo se reseta sozinho.
+
+E como o sinal desliga? A subunidade  tem atividade GTPase intrínseca: lenta, mas inexorável, ela
+hidrolisa o próprio GTP em GDP + Pi. Isso normalmente leva alguns segundos. Quando a hidrólise
+acontece,  volta à forma inativa, solta o efetor e se reassocia ao . O sistema voltou ao repouso. A
+hidrólise do GTP é o relógio interno do desligamento. É um dos vários mecanismos que vamos ver para
+terminar o sinal -- outros são a fosforilação do receptor por GRKs (dessensibilização) e a degradação do
+segundo mensageiro (PDE, em 2.2). O sistema é cheio de freios em cada etapa.
+
+Atenção a um ponto que cai muito: o dímero  não se vai para sempre. Quando  hidrolisa GTP,  se
+reúne. Além disso, enquanto  está separada, o próprio  pode modular efetores próprios (canais de K+
+no coração, certas formas de PLC). Os dois "pedaços" da proteína G fazem sinalização -- não só .
+
+Resta um ponto: nem toda proteína G faz a mesma coisa. Existem três famílias principais de G, e a
+diferença entre elas determina toda a fisiologia da sinalização que veio adiante:
+
+       11
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+    Família      Efetor que ativa/inibe       Efeito sobre o 2º Exemplos de recep
+
+                                              mensageiro              tor
+
+Gs (estimuladora) Estimula adenilato ci  AMPc              -adrenérgicos,
+                               clase
+                                                           glucagon,       ACTH,
+
+                                                           dopamina D1
+
+Gi (inibitória)  Inibe adenilato ciclase       AMPc        2-adrenérgico, mus
+                                                           carínico M2, opioides,
+                                                           dopamina D2
+
+Gq               Ativa PLC                     IP3 + DAG   Ca2+ 1-adrenérgico, mus
+
+                                              e ativa PKC  carínico M1/M3, an
+
+                                                           giotensina,     vaso
+
+                                                           pressina V1
+
+A mesma adrenalina, ligando-se a um 1 (cardíaco, Gs) acelera o coração, e a um 1 (vaso periférico,
+Gq) contrai o vaso. Mensageiro idêntico, receptores diferentes, proteínas G diferentes, respostas
+opostas. Isso resolve uma confusão que vai aparecer várias vezes: não é o mensageiro que determina o
+efeito -- é o conjunto receptor + proteína G da célula que recebe.
+
+2.2 -- Via do AMPc -- Gs, adenilato ciclase, PKA
+A primeira via que vamos detalhar é a do AMPc, porque foi a primeira a ser descoberta historicamente
+(Sutherland, anos 1960) e porque dá o gabarito mecânico para entender todas as outras. A história
+começa com Gs ativada.
+
+A enzima na ponta da via é a adenilato ciclase -- uma enzima de membrana com um sítio voltado para
+o citoplasma. Quando Gs-GTP se liga a ela, ela é ativada e transforma ATP em AMPc + pirofosfato.
+O AMPc é o segundo mensageiro: pequeno, hidrossolúvel, difunde livremente pelo citoplasma. Em
+segundos, a concentração de AMPc na célula pode subir muitas vezes em relação ao basal -- amplifi
+cação característica da cascata.
+
+                                          12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cascata canônica do AMPc: ligante  GPCR  Gs-GTP  adenilato ciclase  AMPc (a partir de ATP)  PKA 
+fosforilação de alvos. Cada flecha amplifica: um receptor ativado gera várias Gs, cada uma ativa uma ciclase, cada
+ciclase faz muitos AMPc, cada PKA fosforila muitos substratos.
+
+O AMPc não fosforila nada diretamente. Ele é só o sinalizador interno. O executor é a PKA -- proteína
+quinase A. A PKA em repouso é uma quaterneta: duas subunidades regulatórias + duas catalíticas,
+todas juntas, inativas. Cada subunidade regulatória tem sítios para quatro moléculas de AMPc. Quando
+AMPc se liga, a regulatória muda de forma, solta as catalíticas, e estas saem livres pelo citoplasma para
+fosforilar serinas e treoninas de proteínas-alvo. Quatro AMPc liberam duas subunidades catalíticas --
+a estequiometria preserva o caráter de "interruptor" em vez de regulação contínua.
+PKA13 PDE14
+E como o sinal termina? Por dois mecanismos. Primeiro: o GTP em Gs é hidrolisado (vimos em 2.1),
+Gs volta a Gs-GDP, solta a adenilato ciclase, e a ciclase para de produzir AMPc. Segundo, e mais rápido:
+existe uma fosfodiesterase (PDE) sempre ativa no citoplasma, que quebra continuamente AMPc em 5-
+AMP. Enquanto a PDE trabalha, o AMPc só se acumula se for produzido mais rápido do que degradado.
+Quando a produção para, a PDE limpa o citoplasma em segundos. Adenilato ciclase é o acelerador; PDE
+é o freio sempre acionado. Esse desenho permite que a célula responda a mudanças no sinal, e não só
+à sua presença.
+
+   13PKA ­ proteína quinase A -- quinase ativada pelo AMPc; em repouso é um tetrâmero com duas subunidades regu
+latórias e duas catalíticas, e quando AMPc se liga às regulatórias, as catalíticas são liberadas e fosforilam serinas/treoninas
+dos alvos.
+
+   14PDE ­ fosfodiesterase -- enzima que degrada nucleotídeos cíclicos: PDE quebra AMPc em 5-AMP e GMPc em 5-GMP,
+encerrando o sinal. Sildenafil inibe PDE5 (específica do GMPc no corpo cavernoso) para sustentar o efeito vasodilatador
+do NO.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Como sildenafil funciona
+
+O sildenafil (Viagra) inibe a PDE5, isoforma da fosfodiesterase específica do GMPc no músculo liso
+do corpo cavernoso. Bloqueando a PDE5, o GMPc gerado pelo NO (vamos ver em 3.2) se acumula,
+prolongando o relaxamento muscular e a vasodilatação. Não é um vasodilatador direto -- é um
+inibidor do desligamento do sinal. Mesma lógica vale para milrinona (inibidor de PDE3, usada
+em insuficiência cardíaca) e teofilina (inibidor inespecífico de PDEs, usada em asma).
+
+Resumindo até aqui: AMPc não fosforila -- quem fosforila é a PKA. Gs ativa adenilato ciclase  ATP
+vira AMPc  AMPc libera as catalíticas da PKA  PKA fosforila alvos em Ser/Thr. PDE quebra AMPc
+continuamente, fazendo o sinal ser sensível à taxa de produção, não à presença.
+
+2.3 -- Via do IP3/DAG -- Gq, PLC, PKC
+A segunda grande via metabotrópica usa um truque diferente: em vez de produzir um mensageiro só,
+ela produz dois a partir da clivagem de um lipídeo da própria membrana. Gq ativada (lembrar: 1-
+adrenérgicos, muscarínicos M1/M3, angiotensina, vasopressina V1) se liga à enzima PLC (fosfolipase C).
+A PLC reconhece um fosfolipídeo específico da camada interna da membrana -- PIP2 (fosfatidilinositol
+bifosfato) -- e o corta em dois pedaços.
+
+PLC15 PIP216 IP317 DAG18 PKC19
+
+O corte gera IP3 (a "cabeça" hidrossolúvel) e DAG (a "cauda" lipossolúvel). Como as duas moléculas
+têm solubilidades opostas, seguem caminhos diferentes -- e cada uma vira um segundo mensageiro
+independente.
+
+   15PLC ­ fosfolipase C -- enzima de membrana ativada por Gq; cliva o fosfolipídeo PIP2 em IP3 (hidrossolúvel, vai para
+o citosol) e DAG (lipossolúvel, fica na membrana).
+
+   16PIP2 ­ fosfatidilinositol 4,5-bifosfato -- fosfolipídeo da camada interna da membrana plasmática, substrato da PLC.
+Sua cabeça inositol fosforilada vira IP3 quando clivada.
+
+   17IP3 ­ inositol 1,4,5-trifosfato -- segundo mensageiro hidrossolúvel, formado pela clivagem de PIP2; difunde pelo
+citosol e abre canais de Ca2+ no retículo endoplasmático.
+
+   18DAG ­ diacilglicerol -- segundo mensageiro lipossolúvel, formado pela clivagem de PIP2; fica embutido na membrana
+plasmática e ativa a PKC.
+
+   19PKC ­ proteína quinase C -- quinase ativada conjuntamente por DAG (na membrana) e Ca2+ (vindo do RE via IP3);
+fosforila serinas e treoninas de diversos alvos celulares.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Clivagem do PIP2 pela PLC ativada por Gq. O IP3 (cabeça) escapa para o citosol e abre canais de Ca2+ no RE. O DAG
+(cauda) permanece na membrana e ativa a PKC, em conjunto com o Ca2+ vindo do RE.
+
+IP3 difunde para o citoplasma. Lá ele encontra o seu receptor: um canal de cálcio na membrana
+do retículo endoplasmático. O RE armazena Ca2+ em concentração centenas de vezes maior que o
+citoplasma; ao abrir o canal de IP3, esse cálcio sai do RE para o citosol em pulso. Em segundos, [Ca2+]
+citosólico salta de 100 nM para 1 M -- dez vezes ou mais. É um sinal molecular potente, que a célula
+usa para várias coisas (vamos detalhar em 2.4).
+DAG permanece na membrana plasmática. Não é solúvel em água, fica embutido entre os fosfolipídeos,
+e atrai para a face interna da membrana uma quinase específica -- a PKC (proteína quinase C). Mas
+atenção: PKC clássica precisa de DAG e Ca2+ para ativar. Ou seja, ela só liga quando as duas metades
+da via Gq estão acontecendo: DAG na membrana (do corte de PIP2) e Ca2+ alto no citoplasma (do canal
+IP3 no RE). Essa exigência dupla é elegante: a PKC age só quando o sinal Gq está rodando completo, em
+pleno vapor.
+
+   Resumindo até aqui: Gq  PLC  corta PIP2 em IP3 + DAG. IP3 (hidrossolúvel) vai ao RE e libera Ca2+.
+   DAG (lipossolúvel) fica na membrana e, junto com o Ca2+ que veio do RE, ativa a PKC. Os dois braços da
+   via convergem na PKC -- DAG e Ca2+ são parceiros, não alternativas.
+
+2.4 -- Cálcio como hub -- múltiplas fontes, calmodulina, CaMKII
+O Ca2+ merece um subtópico só dele porque é o segundo mensageiro mais versátil da célula. Não é
+exclusivo de uma via -- entra na história por várias vias e modula dezenas de processos: contração
+muscular, exocitose de neurotransmissores, ativação de quinases, ativação de fosfatases, indução de
+apoptose. O truque para o Ca2+ ser bom sinal é que sua concentração basal no citoplasma é mantida
+extremamente baixa ( 100 nM). Comparado com o extracelular ( 1 mM), a célula faz um esforço enorme
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+para manter essa diferença de 10.000×. Esse abismo é construído por ATPases -- bombas que jogam
+Ca2+ para fora ou para o RE -- funcionando continuamente.
+
+Por que importa que o basal seja tão baixo? Porque qualquer entrada moderada de Ca2+ vira um pulso
+enorme em termos relativos. Subir de 100 nM para 1 M é "só" 0,001 mM em valor absoluto -- quase
+nada para um íon -- mas é dez vezes o basal, e o sistema é calibrado para essa razão. Sinal bom é razão
+alta sobre baixo ruído.
+
+O Ca2+ citosólico sobe por duas rotas independentes que podem somar:
+
+-- Da fora para dentro, por canais da membrana plasmática que se abrem. Os principais são: canais
+voltagem-dependentes (abrem quando a célula despolariza -- fundamentais no miocárdio, no axônio
+pré-sináptico, em músculo liso) e receptor NMDA (que vimos em 1.3 -- abre só com glutamato + despo
+larização e deixa entrar Ca2+).
+
+-- De dentro para dentro, soltando o que estava estocado. A principal rota é o canal de IP3 no RE (que
+vimos em 2.3). Outra rota é o receptor de rianodina (RyR) no músculo esquelético e cardíaco -- abre por
+Ca2+ alto (Ca2+-induzido-por-Ca2+).
+
+Cálcio entra por dois caminhos: pela membrana plasmática (canal voltagem-dependente, receptor NMDA) e pelo RE
+(canal de IP3, RyR). As duas rotas operam em paralelo e somam. ATPases bombeiam Ca2+ de volta para o RE e para
+o extracelular -- o sinal acaba quando essas bombas vencem a entrada.
+
+E como o Ca2+ executa o sinal? Aqui entra a calmodulina, uma proteína pequena, abundante, ubíqua, que
+tem quatro sítios de ligação para Ca2+. Quando o Ca2+ citosólico sobe, esses sítios se ocupam, a calmod
+ulina muda de conformação, e vira o sensor do íon. Calmodulina não é enzima, é sensor. O complexo
+Ca2+-calmodulina liga-se a enzimas-alvo e as ativa. A principal família de alvos são as quinases depen
+dentes de Ca/calmodulina -- em particular a CaMKII, abundante no SNC, responsável por boa parte da
+plasticidade sináptica (potenciação de longo prazo no hipocampo, base molecular de memória).
+
+                                                                                16
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+CaMKII20
+
+Atenção a uma confusão muito frequente: CaMKII não é PKA. Ambas são quinases, mas as duas pre
+cisam de mensageiros diferentes -- PKA é ativada por AMPc, CaMKII pelo complexo Ca2+-calmodulina.
+Dois mensageiros, duas quinases, dois alvos. A célula tem várias quinases independentes justamente
+para conseguir respostas distintas para sinais distintos.
+
+Ca² não é único, calmodulina é só sensor
+
+Erros muito comuns nesse tópico: (1) achar que Ca2+ só entra do exterior -- errado, sobe também
+do RE por canal de IP3. (2) achar que calmodulina é uma quinase -- errado, é sensor; quem
+fosforila é a CaMKII (ou outra Ca/CaM-quinase). (3) achar que o Ca2+ citoplasmático em repouso
+é alto -- errado, é mantido em 100 nM, baixo justamente para que pulsos pequenos sejam
+detectáveis.
+
+Resumindo até aqui: Ca² é segundo mensageiro versátil porque o basal é absurdamente baixo ( 100
+nM, 10.000× menor que o extracelular). Entra por duas rotas -- canais da membrana (voltagem-dep,
+NMDA) e canais do RE (IP3R, RyR) -- e é "lido" pela calmodulina, que ativa quinases como CaMKII.
+Calmodulina é sensor, CaMKII é enzima.
+
+   20CaMKII ­ calcium/calmodulin-dependent protein kinase II -- quinase dependente do complexo Ca2+-calmodulina,
+abundante no SNC; chave para potenciação de longo prazo (LTP) no hipocampo e memória.
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Receptores enzimáticos, intracelulares e
+
+modulação
+
+3.1 -- Receptores enzimáticos -- RTK e o exemplo da insulina
+Saímos das duas grandes vias metabotrópicas (AMPc e IP3/DAG) e vamos para a terceira família de
+receptor de membrana: aquela em que o receptor mesmo é uma enzima. A subfamília mais importante
+é a dos RTK -- receptores tirosina-quinase. Hormônios e fatores de crescimento clássicos sinalizam por
+aqui: insulina, IGF-1, EGF (epidérmico), PDGF (derivado de plaquetas), FGF (de fibroblastos), VEGF (de
+endotélio).
+
+A estrutura é diferente do GPCR: o RTK atravessa a membrana uma vez só, com o N-terminal
+extracelular (onde liga o hormônio) e o C-terminal intracelular (que carrega o domínio tirosina-quinase
+intrínseco). Sozinho, monomérico, o RTK não tem atividade -- o domínio quinase está numa confor
+mação inativa.
+
+A chave do RTK é a dimerização ligante-induzida. Quando o hormônio (insulina, EGF...) chega, ele
+faz com que dois receptores se aproximem e formem um par. Em alguns RTKs (insulina, IGF-1), o
+receptor já existe como dímero permanente (estrutura 22 ligada por pontes dissulfeto) mesmo antes
+do hormônio chegar -- e o que muda com o hormônio é a conformação do dímero. Em outros (EGF,
+PDGF), os monômeros estão soltos e o hormônio causa a associação física. O resultado, em ambos os
+casos, é o mesmo: dois domínios quinase ficam vizinhos.
+
+Receptor de insulina como protótipo dos RTK diméricos. Insulina liga-se ao sítio extracelular, induz mudança de
+conformação do dímero 22, e os dois domínios quinase intracelulares se aproximam e se fosforilam mutuamente
+em tirosinas -- autofosforilação cruzada (trans).
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+E o que dois domínios quinase vizinhos fazem? Fosforilam tirosinas um do outro -- autofosforilação
+em trans. Cada monômero é, ao mesmo tempo, quinase do vizinho e substrato do vizinho. Em segundos,
+várias tirosinas das duas caudas citoplasmáticas estão fosforiladas. Essas tirosinas-fosfato funcionam
+como sítios de encaixe para proteínas adaptadoras que carregam domínios SH2 (que reconhecem
+fosfotirosina). O RTK não envia sinal só por atividade enzimática -- ele envia sinal também pela
+paisagem de tirosinas-fosfato que cria na própria cauda.
+
+A partir daí, várias cascatas podem ser disparadas em paralelo, dependendo de quais adaptadoras a
+célula expressa: a via Ras/Raf/MEK/ERK (MAPK), associada a crescimento e divisão; a via PI3K/Akt,
+associada a sobrevivência e metabolismo; a via PLC, que produz IP3 e DAG (essa converge com Gq!). Um
+único RTK ativado pode disparar várias respostas em paralelo -- por isso a sinalização por fatores de
+crescimento é tão rica e tão suscetível a ser sequestrada em câncer (mutações que ativam permanente
+mente um RTK ou um efetor do RTK estão entre as causas mais comuns de tumores sólidos).
+
+Diabetes tipo 2 -- RTK que parou de ouvir
+
+A insulina sinaliza por receptor RTK. No tipo 2, o receptor existe e a insulina circula -- em
+concentrações até mais altas que o normal --, mas a cascata pós-receptor responde mal. Um dos
+mecanismos é a fosforilação inibitória em serinas da IRS-1 (a primeira adaptadora da cascata da
+insulina) por outras quinases como JNK, ativadas em ambiente inflamatório (obesidade, ácidos
+graxos livres). Sem IRS-1 funcional, o sinal não desce até o GLUT-4, que é a peça que de fato leva
+a glicose para dentro da célula muscular. Resultado: glicemia alta apesar de insulina circulante
+alta -- definição operacional de resistência à insulina.
+
+Resumindo até aqui: RTK exige dímero. Sozinho não fosforila nada; em par, cada monômero fosforila
+tirosinas do outro (autofosforilação trans). As tirosinas-fosfato viram sítios de encaixe para adaptadoras
+(Grb2, IRS-1) que disparam cascatas paralelas (Ras/MAPK, PI3K/Akt, PLC). Insulina e fatores de cresci
+mento sinalizam por aqui.
+
+3.2 -- Mensageiros lipossolúveis -- NO e esteroides
+Até agora vimos sempre o mensageiro batendo num receptor de membrana -- porque a maioria deles
+é hidrossolúvel, não atravessa o lipídeo da membrana, e precisa de um receptor virado para fora. Mas
+existem dois grupos importantes que atravessam a membrana sozinhos e usam mecanismos comple
+tamente diferentes: o NO e os esteroides.
+
+NO21 GMPc22
+
+O óxido nítrico (NO) é o mensageiro mais peculiar do conjunto. É um gás, sintetizado pela enzima
+NO-sintase (NOS) a partir do aminoácido L-arginina, em resposta a um aumento de Ca2+ na célula
+endotelial (que pode vir de bradicinina, acetilcolina, estresse mecânico do fluxo sanguíneo). Por ser gás,
+lipossolúvel, com meia-vida de poucos segundos, o NO difunde pela membrana da própria célula que o
+
+   21NO ­ óxido nítrico -- gás biológico, mensageiro parácrino lipossolúvel, sintetizado pela NO-sintase a partir de L-
+arginina; ativa a guanilil ciclase no músculo liso, gera GMPc, relaxa o vaso.
+
+   22GMPc ­ guanosina monofosfato cíclico -- segundo mensageiro produzido pela guanilil ciclase a partir de GTP, em
+resposta ao NO; ativa a PKG, que fosforila alvos no músculo liso, levando ao relaxamento.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+produziu, atravessa o interstício e entra na célula vizinha -- tipicamente o músculo liso vascular. Lá, o
+NO encontra a guanilil ciclase solúvel, uma enzima citoplasmática, e ativa-a. A guanilil ciclase produz
+GMPc a partir de GTP -- mensageiro análogo ao AMPc, mas guanina em vez de adenina. O GMPc ativa
+a PKG (proteína quinase G), que fosforila alvos no músculo liso, levando ao relaxamento. Resultado:
+vasodilatação local.
+
+Cascata do NO. Acetilcolina (ou bradicinina, ou estresse mecânico) ativa NO-sintase na célula endotelial  NO
+difunde para o músculo liso vizinho  ativa guanilil ciclase  GMPc  PKG  relaxamento. NO é parácrino: célula
+que produz não é a que responde. Meia-vida de segundos limita o alcance.
+
+Atenção a uma confusão clássica: o NO não age na célula que o produziu. Quem produz é o endotélio,
+quem responde é o músculo liso vizinho. NO é parácrino paradigmático -- meia-vida de segundos,
+alcance microscópico. Em concentração baixa fisiológica, NO é mensageiro; em concentração alta
+(produzida pela iNOS de macrófagos), é citotóxico contra patógenos. Mesma molécula, duas funções,
+separadas por dose.
+Os esteroides (cortisol, aldosterona, testosterona, estradiol, progesterona) e parentes lipossolúveis (T3,
+T4, vitamina D, ácido retinóico) seguem uma lógica completamente diferente. Por serem lipossolúveis,
+atravessam a membrana plasmática livremente, entram no citoplasma e/ou núcleo, e ligam-se a
+receptores intracelulares. Esses receptores são proteínas que, no repouso, estão associadas a chaper
+onas (HSP90, HSP70) e ficam inativas. Quando o hormônio chega, o receptor solta as chaperonas, muda
+de conformação, dimeriza, e o complexo vai (ou já está) no núcleo. Lá, ele reconhece uma sequência
+específica de DNA (HRE -- hormone response element) na região promotora de genes-alvo, e recruta a
+maquinaria de transcrição. O resultado é a síntese de novas proteínas.
+
+                                                                                20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esteroide entra livremente na célula, liga seu receptor citosólico (que solta as chaperonas), dimeriza, vai ao núcleo,
+liga-se a sequências HRE no DNA e ativa a transcrição de genes-alvo. Resposta lenta (horas a dias) -- depende de
+síntese de mRNA e proteína nova.
+
+A diferença operacional é o tempo de resposta. GPCR e RTK ligam ou desligam proteínas existentes --
+efeito em segundos a minutos. Receptor intracelular cria proteínas novas -- efeito em horas a dias. Por
+isso o cortisol demora horas para atingir efeito pleno (ainda que a primeira fração apareça em minutos
+por mecanismos não-genômicos), e a vitamina D atinge seus alvos em dias. A escolha do mecanismo é
+a escolha do prazo da resposta.
+
+   Resumindo até aqui: Lipossolúveis atravessam a membrana -- não precisam de receptor de mem
+   brana. NO é gás parácrino, célula que produz não é a que responde: NO  guanilil ciclase  GMPc 
+   PKG  relaxamento. Esteroides ligam-se a receptores intracelulares que viram fatores de transcrição --
+   resposta lenta, depende de proteína nova.
+
+3.3 -- Modulação -- especificidade, conversa cruzada, dessensibilização
+Fechamos a aula recolhendo três fenômenos que, juntos, explicam por que o mesmo mensageiro pode
+produzir respostas tão diferentes em tecidos diferentes -- e por que o sistema todo não fica preso em
+"ligado" depois que o ligante chega.
+Especificidade da resposta -- por que a mesma adrenalina faz coisas opostas em tecidos diferentes.
+Quando a adrenalina chega ao coração, ela acelera; quando chega ao brônquio, ela dilata; quando chega
+à arteríola periférica, ela contrai. O mensageiro é idêntico. O que muda é o conjunto de receptores que
+cada tecido expressa: o miócito tem 1 (Gs  AMPc  PKA  fosforila canais e maquinária contrátil); o
+brônquio tem 2 (também Gs); o vaso periférico tem 1 (Gq  IP3 + DAG  Ca2+  contração). Especi
+ficidade não está no mensageiro nem no receptor isoladamente -- está na combinação receptor-via-
+célula. É por isso que medicamentos que se ligam ao mesmo receptor com diferentes seletividades para
+subtipos (1-seletivo vs não-seletivo, por exemplo) têm efeitos clínicos tão diferentes.
+
+                                                                                21
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Especificidade celular: o mesmo mensageiro liga diferentes receptores em diferentes células, e cada combinação
+receptor-célula produz uma resposta distinta -- porque cada célula expressa um repertório próprio de receptores, de
+proteínas intracelulares e de genes silenciados desde o desenvolvimento.
+
+Conversa cruzada -- vias não são paralelas, elas se falam. Vimos AMPc e IP3/DAG/Ca2+ como vias
+separadas. Na prática, elas se cruzam constantemente: a PKA (do AMPc) pode fosforilar componentes
+da via do Ca2+ (modula canais de Ca2+ tipo L, por exemplo); o Ca2+ alto pode modular certas isoformas de
+adenilato ciclase (ativando ou inibindo a produção de AMPc); a PKC (do DAG) pode fosforilar receptores
+GPCR e dessensibilizá-los. Crosstalk é regra, não exceção. Isso permite que o estado integrado da célula
+-- o conjunto de sinais que está recebendo agora -- module a resposta a um sinal específico. Adrenalina
+sozinha faz uma coisa; adrenalina junto com glucagon sobrepõe efeitos sobre o AMPc; adrenalina junto
+com atividade vagal (acetilcolina muscarínica M2, Gi) tem efeitos antagonizados sobre o coração. A
+célula não é um soma simples de cascatas independentes -- é uma rede que integra.
+
+       22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Modulação por crosstalk: o segundo mensageiro de uma via (AMPc) ativa a PKA, que fosforila alvos da outra via
+(PKC, fosfatases, canais), modulando a resposta integrada. Vias se cruzam, somam, antagonizam -- a célula integra
+antes de responder.
+
+Dessensibilização -- por que o sinal não fica eternamente aceso. Mesmo com o ligante ainda no
+receptor, a célula desliga o sinal por vários mecanismos sobrepostos. O mais rápido é a fosforilação
+do receptor por GRKs (G protein-coupled receptor kinases). Quando o receptor está ativado, as GRKs
+reconhecem essa conformação e fosforilam serinas/treoninas na cauda citoplasmática do receptor.
+As caudas fosforiladas atraem uma proteína chamada -arrestina, que cobre o receptor e impede que
+ele continue ativando a proteína G. Receptor coberto não sinaliza, mesmo com ligante. A -arrestina
+também recruta a maquinaria de endocitose -- o receptor é internalizado em vesículas de clatrina, sai
+da membrana, fica em endossomas, pode ser desfosforilado e reciclado (volta para a membrana) ou
+degradado em lisossomos. Esse último cenário, mais lento, é a downregulation -- perda permanente
+de receptor depois de exposição prolongada ao agonista.
+GRK23
+Esse é o mecanismo da taquifilaxia farmacológica: uso repetido ou contínuo de um agonista (por
+exemplo, broncodilatador 2 inalado) leva à fosforilação maciça do receptor, internalização, e perda
+gradual do efeito. Suspender o agente e dar tempo para a célula re-expressar os receptores devolve o
+efeito. Lógica clínica importante.
+
+   23GRK ­ G protein-coupled receptor kinase -- quinase específica que fosforila GPCRs ativados na sua cauda citoplasmática,
+recrutando -arrestina e iniciando a dessensibilização.
+
+                                                                                23
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Dessensibilização  degradação
+
+Dessensibilização rápida é fosforilação por GRKs + -arrestina + internalização: reversível,
+recupera em minutos quando o ligante sai. Downregulation é a etapa mais lenta -- degradação
+lisossomal do receptor internalizado, e o efeito só volta quando a célula sintetiza receptores novos
+(horas a dias). Dois mecanismos, dois tempos, dois reversibilidades. Não confundir.
+
+Resumindo até aqui: Especificidade nasce do conjunto receptor + via + célula -- não do mensageiro
+sozinho. Crosstalk faz vias conversarem -- PKA modula Ca2+, Ca2+ modula ciclase, PKC fosforila recep
+tores. Dessensibilização rápida é GRKs fosforilando o receptor ativado e -arrestina o cobrindo --
+reversível em minutos; downregulation é degradação do receptor internalizado -- só reverte com recep
+tores novos.
+
+Conclusão integradora
+
+Fechando: a sinalização celular tem uma arquitetura comum que aparece o tempo inteiro --
+ligante extracelular  receptor  transdução intracelular  resposta --, e a célula reusa essa
+arquitetura quatro vezes, escolhendo a família do receptor pelo prazo da resposta que precisa.
+Para resposta em milissegundos, receptor-canal: AMPA e nicotínico abrem Na+ e excitam; GABA-
+A abre Cl- e inibe; NMDA é detector de coincidência que deixa entrar Ca2+. Para resposta em
+segundos com amplificação, GPCR: receptor de sete hélices ativa proteína G trimérica que, com
+Gs ou Gi, controla a via do AMPc-PKA, e com Gq, controla a via do IP3/DAG-Ca2+-PKC. O cálcio é
+hub de ambas as vias e de várias outras, lido por calmodulina e executado por CaMKII e outras
+quinases. Para resposta em minutos com cascata e mitogenia, RTK: insulina e fatores de cresci
+mento usam dimerização e autofosforilação cruzada para criar paisagens de fosfotirosinas que
+disparam Ras/MAPK e PI3K/Akt em paralelo. Para resposta em horas a dias com expressão gênica
+nova, receptor intracelular: esteroides, T3, vit D, NO (este último com mecanismo intermediário
+via GMPc) atravessam a membrana e ligam-se a receptores que viram fatores de transcrição. Em
+cima de tudo, três mecanismos garantem que o sistema não fique imobilizado nem responda
+errado: especificidade (a combinação receptor-via-célula define a resposta, não o mensageiro
+sozinho), crosstalk (vias se cruzam -- PKA modula Ca2+, Ca2+ modula ciclase, PKC dessensibiliza
+GPCR), e dessensibilização (GRKs fosforilam o receptor ativado, -arrestina cobre, endocitose
+interna, reciclagem ou degradação). O que une tudo é uma ideia simples: a célula tem um
+repertório fixo de mecanismos, e usa o mesmo plano para cada mensageiro -- variando peça
+e prazo, mas mantendo a arquitetura.
+
+       24
+NEBLI                                                    RESUMINDO
+
+   Resumindo
+
+Quatro famílias, quatro prazos                           Cascata do IP3/DAG -- dois mensageiros,
+                                                         dois compartimentos
+A célula reusa o mesmo plano arquitetônico --
+ligante  receptor  transdução  resposta --               Gq  PLC corta PIP2 em IP3 (hidrossolúvel, vai
+e escolhe a família pelo prazo: canal (ms)  GPCR         ao citosol e abre canal de Ca2+ no RE) e DAG
+(s)  RTK (min)  receptor intracelular (h­d). A           (lipossolúvel, fica na membrana). PKC precisa de
+escolha é prática, não acidente evolutivo.               DAG E Ca2+ -- os dois braços da via convergem nela.
+
+Hidrossolúvel × lipossolúvel                             Cálcio -- basal absurdamente baixo é o
+Hidrossolúveis (peptídeos, catecolaminas) ficam          que faz dele sinal
+fora e exigem receptor na membrana. Lipossolúveis
+(esteroides, T3, vit D, NO) atravessam a membrana        Citosol em repouso 100 nM, extracelular 1 mM
+e usam receptor intracelular. A solubilidade decide      (10.000× maior). Sobe por duas rotas que somam:
+onde o receptor fica.                                    canais da membrana (voltagem-dep, NMDA) e
+                                                         canais do RE (IP3R, RyR). Calmodulina é sensor
+GPCR -- o ciclo GTP/GDP é o sinal                        (liga 4 Ca2+); CaMKII é a enzima executora -- não
+                                                         confundir.
+
+Receptor ativado catalisa troca de GDP por GTP em        RTK -- sem dímero, sem sinal
+G; G-GTP solta  e ativa o efetor. Hidrólise do           Receptor monomérico inativo; ligante (insulina,
+GTP por G é o relógio do desligamento -- leva            EGF, PDGF) força dimerização, e cada monômero
+segundos. Receptor não fosforila a proteína G -- só      fosforila tirosinas do outro (autofosforilação trans).
+facilita a troca de nucleotídeo.                         Tirosinas-P viram sítios para adaptadoras (Grb2,
+                                                         IRS-1) que disparam Ras/MAPK e PI3K/Akt em
+Gs, Gi, Gq -- três famílias de proteína G                paralelo.
+Gs estimula adenilato ciclase   AMPc (-
+adrenérgico, glucagon). Gi inibe adenilato ciclase       Lipossolúveis -- NO parácrino e
+ AMPc (M2, 2, opioides). Gq ativa PLC  IP3 +             esteroides nucleares
+DAG  Ca2+ e PKC (1, M1/M3, angiotensina, V1).
+
+Cascata do AMPc -- PKA é o executor                      NO é gás: célula endotelial produz por NO-
+                                                         sintase, difunde para o músculo liso vizinho, ativa
+Gs  adenilato ciclase  ATP vira AMPc  AMPc               guanilil ciclase  GMPc  PKG  relaxamento.
+libera as subunidades catalíticas da PKA. PKA            Esteroides atravessam a membrana, ligam receptor
+fosforila Ser/Thr dos alvos -- AMPc por si só não        intracelular que dimeriza, vai ao núcleo, liga DNA
+fosforila nada. PDE quebra AMPc continuamente --         (HRE) e ativa transcrição -- resposta lenta (h­d).
+sildenafil inibe PDE5.
+
+                                                     25
+NEBLI                                                    RESUMINDO
+
+Especificidade -- o mensageiro não
+decide sozinho
+Mesma adrenalina faz coisas opostas em tecidos
+diferentes: 1 cardíaco acelera (Gs), 1 vascular
+contrai (Gq), 2 brônquico dilata (Gs). A combinação
+receptor + via + repertório celular determina a
+resposta -- não o mensageiro.
+
+Crosstalk -- vias se cruzam, não são
+paralelas
+PKA fosforila componentes do Ca2+, Ca2+ modula
+adenilato ciclase, PKC dessensibiliza GPCR.
+A célula integra todos os sinais antes de
+responder. Por isso adrenalina + acetilcolina vagal
+antagonizam no coração -- somam-se sobre o
+AMPc.
+
+Dessensibilização -- GRKs + -arrestina,
+reversível
+Receptor ativado é fosforilado por GRKs na cauda
+citoplasmática; -arrestina cobre e bloqueia a
+proteína G; endocitose interna o receptor --
+reciclagem (minutos) ou degradação lisossomal (h­
+d, downregulation). Taquifilaxia de 2-agonista
+inalado.
+
+                                                     26
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre os modos de comunicação intercelular, é correto afirmar:
+
+   A) a sinalização parácrina utiliza a corrente sanguínea como veículo para alcançar células vizinhas a
+   poucos micrômetros do ponto de liberação.
+   B) a junção gap forma um poro contínuo entre células vizinhas, permitindo passagem direta de íons
+   e moléculas pequenas sem neurotransmissor.
+   C) a sinalização dependente de contato exige que o ligante seja liberado no interstício antes de alcançar
+   o receptor da célula vizinha.
+   D) a sinalização endócrina alcança células próximas por difusão pelo interstício, sem cair no plasma
+   e sem precisar do sistema circulatório.
+   E) a sinalização autócrina ocorre apenas em células do sistema imune, onde a célula produz e libera
+   mensageiros que atuam em células distantes.
+
+Questão 02 Consolidação
+
+Sobre as junções gap entre células vizinhas, é correto afirmar:
+
+   A) funcionam como sinapse química clássica, com vesículas de neurotransmissor liberadas em fenda
+   estreita entre as células e ativação de receptores específicos na membrana pós-juncional do parceiro.
+   B) permanecem permanentemente abertas durante toda a vida da célula, sem qualquer regulação por
+   sinais intracelulares como pH local, concentração de Ca2+ citoplasmático ou estado redox.
+   C) permitem passagem somente de proteínas pequenas pelo poro central, bloqueando seletivamente
+   íons como Na+, K+ e Ca2+ entre o citoplasma das duas células conectadas.
+   D) conectam o citoplasma de duas células vizinhas por conexons alinhados e fecham-se em resposta
+   a queda de pH ou aumento de Ca2+ citosólico.
+   E) acoplam células vizinhas apenas eletricamente pela passagem de íons monovalentes, sem possi
+   bilitar a difusão do segundo mensageiro AMPc entre o citosol das células conectadas pelo poro.
+
+                            27
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre as quatro famílias canônicas de receptores e seus tempos de resposta, é correto afirmar:
+
+   A) receptores-canal respondem em milissegundos, GPCRs em segundos, RTKs em minutos e recep
+   tores intracelulares em horas a dias.
+
+   B) receptores intracelulares respondem em milissegundos porque já ficam no núcleo ligados ao DNA
+   antes do hormônio.
+
+   C) GPCRs respondem em horas porque dependem só da síntese proteica nova mediada por fatores de
+   transcrição.
+
+   D) RTKs respondem em milissegundos porque o ligante abre direto um canal iônico embutido no
+   domínio quinase.
+
+   E) receptores-canal respondem em horas porque dependem de segundos mensageiros como AMPc e
+   de cascatas longas.
+
+Questão 04 Consolidação
+
+Mensageiros lipossolúveis como cortisol e hormônios da tireoide ligam-se a:
+
+   A) receptores acoplados à proteína G na membrana plasmática, que ativam adenilato ciclase e pro
+   duzem AMPc como segundo mensageiro intracelular.
+
+   B) receptores-canal ionotrópicos na membrana, abrindo passagem direta para íons e gerando despo
+   larização em milissegundos sem cascata enzimática.
+
+   C) receptores tirosina-quinase na superfície, que se dimerizam após o binding e se autofosforilam
+   mutuamente nas tirosinas das caudas citoplasmáticas.
+
+   D) receptores ligados a guanilil ciclase na membrana, produzindo GMPc no citoplasma para ativar a
+   PKG e fosforilar alvos do músculo liso vascular.
+
+   E) receptores intracelulares no citosol ou núcleo, que após o binding ligam-se ao DNA em sequências
+   HRE e regulam a transcrição de genes-alvo.
+
+                         28
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Julgue os itens sobre os receptores-canal (ionotrópicos):
+Cada item deve ser julgado de forma independente.
+
+   I. no receptor-canal o próprio receptor é o canal iônico, e a ligação do ligante muda a conformação da
+   proteína abrindo o poro central.
+
+   II. o receptor AMPA do glutamato deixa entrar Na+, despolariza a membrana e gera um potencial
+   excitatório pós-sináptico (PEPS).
+
+   III. o receptor GABA-A é permeável a Na+ e gera potencial excitatório pós-sináptico, sendo o principal
+   mecanismo despolarizante rápido do SNC.
+
+   IV. a resposta do receptor-canal ocorre em milissegundos, pois não envolve segundo mensageiro nem
+   cascata enzimática entre o ligante e o íon.
+
+Questão 06 Consolidação
+
+Sobre o ciclo GTP/GDP da subunidade G após ativação do GPCR pelo ligante, é correto afirmar:
+
+   A) o GPCR ativado fosforila tirosinas da subunidade G em resíduos específicos da face citoplasmática,
+   e essa fosforilação é o gesto bioquímico que liga a proteína G e dispara a cascata da adenilato ciclase
+   em seguida.
+
+   B) G em repouso carrega GTP ligado ao seu sítio de nucleotídeo; ao chegar o ligante no receptor, o
+   GTP é trocado por GDP, e a forma G-GDP é a que se dissocia do dímero  e se liga ativada ao próximo
+   efetor.
+
+   C) o GPCR ativado catalisa a troca de GDP por GTP em G; G-GTP solta-se do dímero  e liga-se ao
+   efetor, e a hidrólise lenta do GTP desliga o sinal.
+
+   D) a hidrólise do GTP em G ocorre em microssegundos no início da cascata, dando à proteína G o
+   papel essencial de fornecer energia química direta para o efetor (adenilato ciclase ou fosfolipase C)
+   seguir funcionando.
+
+   E) o dímero  liberado pela ativação se dissocia permanentemente do trímero original, e G-GTP
+   precisa ser sintetizada nova a cada ciclo de sinalização para que o receptor consiga acionar novamente
+   a cascata efetora.
+
+                         29
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre as três famílias principais de subunidades G e seus efetores na membrana, é correto afirmar:
+
+   A) Gs e Gi atuam sobre a fosfolipase C, gerando IP3 e DAG; Gq atua sobre a adenilato ciclase e
+   modula a concentração de AMPc citoplasmático.
+
+   B) Gs ativa a adenilato ciclase e eleva AMPc; Gi inibe a adenilato ciclase e reduz AMPc; Gq ativa a
+   fosfolipase C e gera IP3 e DAG na cascata.
+
+   C) Gs, Gi e Gq atuam todas sobre a mesma enzima alvo (adenilato ciclase), variando apenas a
+   intensidade do estímulo sobre a produção de AMPc.
+
+   D) Gq ativa a guanilil ciclase solúvel e eleva GMPc, enquanto Gs e Gi atuam diretamente sobre a
+   fosforilação de canais iônicos da membrana.
+
+   E) Gi ativa a adenilato ciclase tal como Gs, e Gq inibe a fosfolipase C; nenhuma das três atua sobre
+   o conteúdo de Ca2+ do retículo.
+
+Questão 08 Consolidação
+
+Julgue os itens sobre a via do AMPc (Gs  adenilato ciclase  PKA):
+Cada item deve ser julgado de forma independente.
+
+   I. o AMPc, produzido a partir de ATP pela adenilato ciclase, fosforila diretamente os alvos da célula em
+   resíduos de serina e treonina.
+   II. a PKA em repouso é um tetrâmero com duas subunidades regulatórias e duas catalíticas; o AMPc
+   liga-se nas regulatórias e libera as catalíticas.
+   III. a adenilato ciclase utiliza GTP como substrato para produzir AMPc, sendo o nucleotídeo de
+   guanina convertido diretamente em mensageiro cíclico.
+   IV. a fosfodiesterase (PDE) quebra continuamente o AMPc em 5-AMP, fazendo do sinal uma resposta
+   sensível à taxa de produção, e não à mera presença do estímulo.
+
+                         30
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 09 Consolidação
+
+Sobre a proteína quinase A (PKA) e seus alvos, é correto afirmar:
+
+   A) a PKA é ativada pela ligação do complexo Ca2+-calmodulina às suas subunidades regulatórias,
+   liberando as catalíticas para o citoplasma.
+
+   B) a PKA fosforila os alvos em resíduos de tirosina, exatamente como o receptor da insulina e os demais
+   receptores tirosina-quinase da membrana.
+
+   C) a PKA é uma fosfatase que retira fosfatos de proteínas-alvo, exercendo função oposta às quinases
+   da família tirosina-quinase intrínseca dos RTKs.
+
+   D) a PKA em repouso tem suas subunidades catalíticas presas às regulatórias; o AMPc liga-se às
+   regulatórias, libera as catalíticas, e estas fosforilam Ser/Thr de alvos.
+
+   E) a PKA atua exclusivamente sobre canais iônicos da membrana plasmática, não tendo alvos cito
+   plasmáticos nem alvos nucleares como fatores de transcrição.
+
+Questão 10 Consolidação
+
+Sobre a clivagem do PIP2 pela fosfolipase C (PLC) na via Gq, é correto afirmar:
+
+   A) PIP2 é clivado em IP3 (hidrossolúvel, vai ao RE e libera Ca2+) e DAG (lipossolúvel, fica na membrana
+   e ativa a PKC junto com Ca2+).
+
+   B) PIP2 é clivado em IP3 e DAG, ambos hidrossolúveis, que difundem juntos pelo citosol e ativam de
+   forma sinérgica a adenilato ciclase, gerando AMPc para o ramo executor da cascata Gq na membrana.
+
+   C) PIP2 é clivado em AMPc citoplasmático e fosfato inorgânico, e o AMPc produzido por essa rota
+   converge com o gerado pela adenilato ciclase clássica, ativando a mesma PKA no citoplasma do alvo
+   final.
+
+   D) PIP2 é fosforilado e convertido em PIP3 e DAG; o PIP3 difunde até o retículo endoplasmático e abre
+   canais de Ca2+ no RE, enquanto o DAG fica solúvel no citoplasma ativando a PKA.
+
+   E) PIP2 é hidrolisado em glicerol e fosfatidilcolina pela PLC, e a guanilil ciclase solúvel converte o
+   glicerol em GMPc para ativar a PKG no músculo liso vascular do vaso periférico estimulado.
+
+                         31
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 11 Consolidação
+
+Sobre o Ca2+ como segundo mensageiro citosólico, é correto afirmar:
+
+   A) o Ca2+ entra na célula apenas pelos canais voltagem-dependentes da membrana plasmática, sem
+   qualquer contribuição de estoques internos celulares.
+
+   B) a calmodulina é uma proteína-quinase que fosforila diretamente os alvos do Ca2+ em serinas e
+   treoninas, sem precisar de uma enzima intermediária.
+
+   C) o Ca2+ citoplasmático em repouso é mantido em 1 mM, mesma faixa do Ca2+ extracelular, e qualquer
+   entrada adicional sinaliza por gradiente leve.
+
+   D) o receptor de IP3 fica na membrana plasmática e libera Ca2+ do meio extracelular para dentro da
+   célula assim que IP3 chega pela fosfolipase C.
+
+   E) o Ca2+ citosólico sobe por duas rotas que somam -- canais da membrana plasmática (voltagem-
+   dep, NMDA) e canais do RE (IP3R, RyR) -- e é lido pela calmodulina.
+
+Questão 12 Consolidação
+
+Sobre os receptores tirosina-quinase (RTK) e a ativação ligante-induzida, é correto afirmar:
+
+   A) o RTK monomérico em repouso já é cataliticamente ativo, e o ligante apenas direciona o domínio
+   quinase para fosforilar o substrato correto no citoplasma.
+
+   B) o RTK exige proteína G heterotrimérica para transduzir o sinal, da mesma maneira que os GPCRs
+   ativam Gs ou Gq na face citoplasmática da membrana.
+
+   C) o RTK exige dimerização ligante-induzida; em par, cada monômero fosforila tirosinas do outro
+   (autofosforilação trans), criando sítios de encaixe para adaptadoras.
+
+   D) o RTK abre um canal iônico no centro do dímero ao receber o ligante, permitindo entrada direta de
+   Ca2+ que ativa PKA e PKC simultaneamente.
+
+   E) o RTK é internalizado pela -arrestina antes de qualquer fosforilação, e a sinalização do ligante
+   começa apenas dentro do endossoma já fechado em vesícula.
+
+                         32
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Em um experimento, células musculares lisas são tratadas com análogo não-hidrolisável de GTP
+(GTPS), que ocupa o sítio de nucleotídeo de G mas não pode ser quebrado a GDP. Após estimulação
+breve por agonista de GPCR, o efeito esperado sobre a sinalização da célula é:
+
+   A) encerramento mais rápido do sinal porque o análogo não-hidrolisável funciona como inibidor
+   competitivo do receptor e bloqueia a troca de nucleotídeo na subunidade G.
+
+   B) G fica continuamente ativa porque a hidrólise do GTP é o relógio interno de desligamento; sem
+   hidrólise, G permanece ligada ao efetor mesmo após o ligante sair.
+
+   C) G não é capaz de se ligar ao efetor porque a presença do análogo no sítio impede a mudança
+   conformacional que normalmente acompanha a troca GDP  GTP no início da cascata.
+
+   D) a proteína G heterotrimérica nem chega a se montar porque o análogo impede que  se associe à
+   subunidade G carregada com nucleotídeo no estado de repouso da célula.
+
+   E) a adenilato ciclase é inibida porque o análogo de GTP simula a presença persistente de GDP no sítio,
+   mimetizando o estado de repouso permanente da subunidade G efetora.
+
+Questão 14 Integração
+
+Uma família apresenta mutação na adenilato ciclase que reduz drasticamente sua afinidade pela Gs-
+GTP, embora a enzima preserve normalmente sua função catalítica. Considerando os efeitos sobre uma
+célula hepática estimulada por glucagon, o desfecho mais provável é:
+
+   A) aumento exagerado do AMPc citoplasmático em resposta ao glucagon porque Gs não consegue se
+   desligar da ciclase mutada e mantém a produção do mensageiro ativa por mais tempo.
+
+   B) resposta normal ao glucagon porque a fosfodiesterase compensa a falha na ativação fornecendo
+   AMPc adicional ao citoplasma a partir do AMP livre disponível no meio.
+
+   C) aumento da liberação de Ca2+ do retículo endoplasmático porque a Gs livre, sem alvo na ciclase,
+   ativa diretamente a fosfolipase C e gera IP3 em quantidade compensatória.
+
+   D) resposta reduzida ao glucagon porque o acoplamento Gs­ciclase está comprometido; menos
+   AMPc é gerado, menos PKA é liberada e a fosforilação dos alvos hepáticos cai.
+
+   E) resposta aumentada ao glucagon porque a perda de afinidade Gs­ciclase é compensada pelo
+   aumento da síntese de novas moléculas de adenilato ciclase pela própria PKA do hepatócito.
+
+                       33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Sobre o receptor NMDA de glutamato e suas propriedades únicas, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. o NMDA é um detector de coincidência porque exige glutamato ligado E despolarização prévia da
+   membrana para remover o Mg2+ do poro e abrir o canal.
+
+   II. o NMDA, quando aberto, é permeável apenas a Na+ e gera PEPS rápido, comportando-se exatamente
+   como o receptor AMPA em todas as suas propriedades funcionais.
+
+   III. a entrada de Ca2+ pelo NMDA aberto é eletricamente irrelevante para a plasticidade sináptica e não
+   participa de mecanismos como a potenciação de longo prazo no hipocampo.
+
+   IV. a remoção do bloqueio por Mg2+ no NMDA acontece quando a membrana é despolarizada por um
+   PEPS prévio, geralmente disparado por receptores AMPA na mesma sinapse.
+
+Questão 16 Integração
+
+Em uma célula vascular lisa estimulada por agonista 1-adrenérgico (acoplado a Gq), a PKC clássica é
+o alvo que executa boa parte da resposta contrátil. Sobre o que ativa a PKC clássica nesse contexto, é
+correto afirmar:
+
+   A) a PKC clássica precisa de DAG (gerado na membrana pela PLC) e de Ca2+ citoplasmático (liberado
+   do RE pelo IP3) simultaneamente -- os dois braços da via Gq convergem nela.
+
+   B) a PKC clássica é ativada apenas por DAG na membrana plasmática, sem qualquer dependência do
+   Ca2+ que vem do retículo endoplasmático pela via do IP3 e do canal IP3R.
+
+   C) a PKC clássica é ativada por AMPc na membrana plasmática porque a Gq também ativa a adenilato
+   ciclase em paralelo à fosfolipase C, fornecendo o segundo mensageiro à quinase.
+
+   D) a PKC clássica é ativada apenas por Ca2+ vindo do RE; o DAG fica na membrana como subproduto
+   inerte da clivagem do PIP2 e não tem função efetora própria.
+
+   E) a PKC clássica é ativada pelo complexo IP3 mais DAG no citoplasma, e a participação do Ca2+ do
+   retículo é dispensável no estímulo 1-adrenérgico vascular.
+
+                       34
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+No miocárdio ventricular, um único potencial de ação eleva o Ca2+ citosólico em pulso necessário para a
+contração. Sobre as rotas que somam para esse pulso, é correto afirmar:
+
+   A) todo o Ca2+ do pulso vem exclusivamente da bomba SERCA do retículo sarcoplasmático, que sai do
+   RE para o citosol em direção contrária ao seu gradiente durante a despolarização da membrana do
+   miócito cardíaco.
+
+   B) o pulso é gerado apenas pelo receptor NMDA do miócito ventricular, que abre por glutamato
+   extracelular liberado por terminações nervosas locais e deixa entrar Ca2+ pela membrana plasmática
+   em milissegundos durante a sístole.
+
+   C) o pulso depende exclusivamente da fosfolipase C ativada por Gq, que gera IP3 e libera Ca2+ do
+   retículo endoplasmático pelo receptor de IP3 na cardiomiocélula durante cada ciclo do potencial de
+   ação ventricular.
+
+   D) o pulso resulta da abertura do canal IP3R do RE diretamente pelo voltagem do potencial de ação
+   ventricular, sem participação dos canais voltagem-dependentes da membrana plasmática nem do
+   receptor de rianodina do RE liso.
+
+   E) o Ca2+ entra primeiro por canais voltagem-dependentes da membrana, e esse Ca2+ dispara o RyR no
+   RE liberando mais Ca2+ do estoque -- Ca2+-induzido-por-Ca2+.
+
+Questão 18 Integração
+
+Sobre o receptor de insulina e a cascata pós-receptor no músculo esquelético, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. o receptor de insulina é um GPCR que ativa Gs para gerar AMPc, e o AMPc dispara a translocação
+   do GLUT-4 para a membrana plasmática do miócito.
+   II. o receptor de insulina é um RTK com estrutura dimérica 22; a insulina muda a conformação do
+   dímero e os dois domínios quinase se fosforilam em trans.
+   III. as tirosinas-fosfato criadas na cauda do receptor de insulina recrutam adaptadoras como IRS-1,
+   que disparam as cascatas PI3K/Akt levando à translocação do GLUT-4.
+   IV. a fosforilação inibitória de IRS-1 em resíduos de serina (por exemplo, por JNK em quadro infla
+   matório) deixa a via mais sensível à insulina e melhora a captação de glicose.
+
+                       35
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Sobre o óxido nítrico (NO) como mensageiro vascular, considerando que a célula endotelial é estimulada
+por bradicinina, é correto afirmar:
+
+A) o NO é produzido na célula muscular lisa em resposta à bradicinina, difunde para o endotélio e ativa
+a guanilil ciclase endotelial gerando GMPc que relaxa o próprio endotélio.
+
+B) o NO é hidrossolúvel, liga-se a um receptor de membrana de sete hélices na célula muscular lisa, e
+ativa Gs para gerar AMPc e relaxar a fibra muscular do vaso periférico.
+
+C) o NO é produzido pelo endotélio pela NO-sintase, difunde pela membrana até o músculo liso
+vizinho, ativa guanilil ciclase solúvel gerando GMPc  PKG  relaxamento -- sinalização parácrina.
+
+D) o NO atua na célula endotelial que o produziu, ativando uma cascata intracelular autócrina que
+fosforila proteínas de adesão e desfaz a interação com o músculo liso adjacente.
+
+E) o NO ativa um receptor intracelular do tipo nuclear que se liga a HRE no DNA da célula muscular
+lisa e induz transcrição de novos canais de K+ para hiperpolarizar a fibra.
+
+Questão 20 Integração
+
+Sobre a sinalização por cortisol (hormônio esteroide), é correto afirmar:
+
+   A) o cortisol atravessa a membrana plasmática livremente, liga-se a um receptor intracelular que solta
+   chaperonas HSP, dimeriza, vai ao núcleo e se liga a HRE no DNA regulando a transcrição.
+
+   B) o cortisol liga-se a um receptor de membrana de sete hélices na superfície celular que ativa Gq,
+   gerando IP3 (vai ao RE) e DAG (fica na membrana); a resposta é rápida em segundos e é totalmente
+   independente de qualquer síntese proteica nova.
+
+   C) o cortisol é um hormônio peptídico hidrossolúvel que não atravessa a membrana; liga-se a um RTK
+   na superfície e dispara cascata Ras/MAPK que culmina em ativação direta do GLUT-4 no fígado e na
+   musculatura esquelética do paciente.
+
+   D) o cortisol é produzido pela NO-sintase a partir de L-arginina na célula endotelial, difunde para o
+   músculo liso vizinho como mensageiro parácrino e ativa a guanilil ciclase solúvel para gerar GMPc
+   citoplasmático no vaso.
+
+   E) o cortisol liga-se à calmodulina no citosol, e o complexo cortisol-calmodulina ativa a CaMKII, que
+   fosforila alvos imediatos da membrana e regula a transcrição nuclear em poucos minutos pela via
+   clássica da quinase Ca/calmodulina.
+
+                       36
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Por que a mesma adrenalina pode acelerar o coração, dilatar o brônquio e contrair a arteríola periférica?
+A explicação mecanística mais completa é:
+
+A) porque a adrenalina é metabolizada em isômeros diferentes em cada tecido -- adrenalina cardíaca,
+adrenalina brônquica e adrenalina vascular -- cada uma com afinidade específica por um único
+receptor por tecido-alvo.
+
+B) porque a concentração plasmática de adrenalina varia entre os tecidos pelo aporte sanguíneo
+desigual, ativando diferentes faixas de afinidade do receptor em cada região e gerando respostas
+opostas conforme a região irrigada.
+
+C) porque cada tecido expressa uma adenilato ciclase própria com sensibilidade distinta a AMPc, e
+essa diferença de produção do segundo mensageiro determina sozinha se a resposta vai ser contração
+ou relaxamento.
+
+D) porque cada tecido expressa um repertório próprio de receptores adrenérgicos (1 cardíaco, 2
+brônquico, 1 vascular) com proteínas G diferentes (Gs ou Gq); o mensageiro é o mesmo, a combinação
+receptor-via-célula é distinta.
+
+E) porque a adrenalina sofre fosforilação por GRKs antes de chegar ao receptor, e essa fosforilação
+prévia direciona a molécula a tecidos específicos, restringindo sua ação a um único subtipo adrenér
+gico por órgão.
+
+Questão 22 Integração
+
+Sobre RTKs e a transdução pós-receptor (Ras/MAPK, PI3K/Akt, PLC), julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. as tirosinas-fosfato criadas pela autofosforilação do RTK funcionam como sítios de encaixe para
+   proteínas adaptadoras com domínios SH2 que reconhecem fosfotirosina.
+   II. um único RTK ativado só pode disparar uma cascata por vez (ou Ras/MAPK ou PI3K/Akt), nunca
+   ambas em paralelo na mesma célula com o mesmo ligante.
+   III. a via PLC disparada pelo RTK gera IP3 e DAG e converge com a sinalização que partiria de Gq --
+   exemplo de crosstalk entre famílias de receptor diferentes.
+   IV. mutações que ativam permanentemente um RTK (ou um efetor a jusante como Ras) são incomuns
+   em tumores sólidos, sendo características quase exclusivas de doenças benignas e autoimunes.
+
+                       37
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Sobre o destino do dímero  após a ativação da proteína G heterotrimérica pelo GPCR, é correto afirmar:
+
+   A)  é degradado por proteólise no citoplasma a cada ciclo, e o trímero -- precisa ser sintetizado
+   integralmente novo a cada vez que o receptor é estimulado pelo ligante.
+
+   B)  libera-se temporariamente de G-GTP, pode modular efetores próprios (como canais de K+
+   cardíacos), e se reassocia a G quando esta hidrolisa o GTP a GDP -- ciclo.
+
+   C)  permanece ancorado ao GPCR ativo enquanto G-GTP atua sobre o efetor, e só se libera quando
+   o ligante sai do receptor extracelular ao final da estimulação.
+
+   D)  é fosforilado pelas GRKs ao mesmo tempo que o receptor, e essa fosforilação dispara sua inter
+   nalização pela -arrestina e a degradação lisossomal definitiva.
+
+   E)  é dissociado para sempre do trímero original na primeira ativação, e a célula precisa expressar
+    novo de outra reserva intracelular para restaurar a sinalização posterior.
+
+Questão 24 Integração
+
+O uso repetido e prolongado de um 2-agonista inalado leva à perda gradual do efeito broncodilatador
+(taquifilaxia). O mecanismo dominante dessa dessensibilização rápida é:
+
+   A) aumento da concentração plasmática do agonista por bioacumulação progressiva nos pulmões,
+   que satura permanentemente o receptor e bloqueia a saída do ligante do sítio extracelular do GPCR.
+
+   B) degradação irreversível do receptor 2 por proteases lisossomais ativadas imediatamente após o
+   primeiro estímulo, sem possibilidade de reciclagem ou reaparecimento do receptor na membrana.
+
+   C) redução da afinidade do receptor 2 pelo agonista por mutação somática induzida pelo tratamento,
+   alterando permanentemente a sequência da proteína nas células do epitélio brônquico do paciente.
+
+   D) substituição de Gs por Gi na cauda citoplasmática do receptor 2, invertendo o sinal e fazendo a
+   mesma molécula contrair o brônquio em vez de relaxá-lo na musculatura lisa.
+
+   E) fosforilação do receptor ativado pelas GRKs em serinas/treoninas da cauda citoplasmática, recru
+   tamento de -arrestina e internalização -- mecanismo reversível em minutos após a retirada do
+   agonista.
+
+                       38
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Em uma fibra cardíaca, a chegada simultânea de adrenalina (1, Gs  AMPc  PKA) e acetilcolina (M2,
+Gi  AMPc) tem efeitos opostos sobre a frequência. Esse fenômeno ilustra qual conceito-chave da
+modulação da sinalização?
+
+   A) a especificidade absoluta dos receptores, que impede qualquer comunicação entre vias e mantém
+   cada cascata operando sozinha sem interferência das demais cascatas paralelas da célula.
+
+   B) a degradação cruzada dos ligantes, em que adrenalina e acetilcolina ligam-se mutuamente no
+   plasma e formam um complexo inativo antes mesmo de alcançar os respectivos receptores na mem
+   brana da fibra cardíaca.
+
+   C) crosstalk entre vias -- duas cascatas convergem sobre o mesmo segundo mensageiro (AMPc) com
+   efeitos opostos, e a célula integra os dois inputs antes de gerar a resposta líquida sobre a frequência.
+
+   D) a dessensibilização do receptor 1 pelo receptor M2, em que a ocupação do M2 dispara as GRKs
+   especificamente sobre o 1 e impede que adrenalina ative a cascata do AMPc na mesma fibra.
+
+   E) a especificidade tecidual mutuamente exclusiva, em que cada fibra do miocárdio expressa apenas
+   um dos dois receptores -- 1 nas células do nó SA e M2 nas do nó AV -- sem coexistência na mesma
+   célula.
+
+                       39
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Em uma fatia de hipocampo mantida em laboratório, um pesquisador aplica glutamato em condições
+em que a membrana pós-sináptica está mantida no potencial de repouso ( -70 mV). Ele observa que
+receptores AMPA abrem e deixam Na+ entrar, mas o canal NMDA permanece praticamente fechado
+mesmo na presença do glutamato. A explicação molecular esperada é:
+
+   A) no potencial de repouso a célula tem glutamato endógeno saturado no sítio do NMDA, e o ligante
+   aplicado externamente não consegue competir com a ocupação prévia do canal pelo aminoácido.
+
+   B) no potencial de repouso o NMDA está fosforilado por GRKs e coberto por -arrestina, e essa cober
+   tura impede que o glutamato extracelular chegue ao sítio de ligação na fenda sináptica do receptor.
+
+   C) no potencial de repouso a permeabilidade do NMDA é seletiva para K+ só após a despolarização da
+   célula o canal muda sua seletividade iônica e passa a aceitar Na+ e Ca2+ de uma vez.
+
+   D) no potencial de repouso o Mg2+ extracelular bloqueia fisicamente o poro do NMDA, mesmo com
+   glutamato ligado; a despolarização prévia (por AMPA, por exemplo) é o que tira o Mg2+ e permite a
+   abertura do canal.
+
+   E) no potencial de repouso o NMDA não reconhece glutamato como ligante e exige a chegada de
+   aspartato como co-agonista obrigatório, sendo este o único caminho para a abertura do canal em
+   qualquer condição de membrana.
+
+                      40
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+O sildenafil é um inibidor da PDE5, a fosfodiesterase específica do GMPc no músculo liso do corpo
+cavernoso. Considerando a cascata fisiológica do NO neste tecido, o mecanismo pelo qual o fármaco
+produz vasodilatação é:
+
+   A) acumular o GMPc gerado pelo NO endotelial ao bloquear sua degradação pela PDE5, prolongando
+   a ativação da PKG e o relaxamento da musculatura lisa do corpo cavernoso peniano.
+
+   B) aumentar a produção endógena de NO pelo endotélio cavernoso ao estimular diretamente a ativi
+   dade catalítica da NO-sintase neuronal e endotelial, gerando mais óxido nítrico no tecido cavernoso
+   peniano durante a estimulação sexual.
+
+   C) bloquear o influxo de Ca2+ pelos canais voltagem-dependentes do músculo liso cavernoso,
+   reduzindo o tônus contrátil basal da fibra e mimetizando ao nível celular os efeitos clínicos de um
+   bloqueador clássico de canal de cálcio do tipo L.
+
+   D) ativar diretamente a guanilil ciclase solúvel da musculatura lisa cavernosa, produzindo GMPc novo
+   de forma independente do NO endotelial e prolongando o relaxamento durante a estimulação sexual
+   do paciente no momento da resposta vascular.
+
+   E) funcionar como agonista direto do receptor 2-adrenérgico do músculo liso cavernoso, ativando
+   Gs e elevando AMPc citoplasmático para induzir relaxamento por fosforilação de alvos da PKA na
+   musculatura lisa do corpo cavernoso peniano.
+
+                      41
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Em um experimento ex vivo, ácinos pancreáticos são estimulados por acetilcolina via receptor mus
+carínico M3 (acoplado a Gq). A resposta esperada inclui aumento de Ca2+ citosólico e secreção exócrina
+de enzimas digestivas. Sobre o caminho mecanístico desse aumento, é correto afirmar:
+
+   A) M3 ativa Gs, e Gs estimula a adenilato ciclase elevando AMPc citoplasmático; o AMPc abre canais
+   HCN da membrana plasmática do ácino, e esses canais deixam entrar Ca2+ direto do meio extracelular
+   para o citosol em pulso secretório.
+
+   B) M3 ativa Gi, que inibe a adenilato ciclase e reduz AMPc citoplasmático; a queda de AMPc resultante
+   fecha bombas SERCA do RE liso, e o Ca2+ que estava estocado no retículo vaza passivamente para o
+   citoplasma e dispara a secreção.
+
+   C) M3 abre diretamente um canal iônico ligado ao próprio domínio do receptor, permitindo entrada
+   de Ca2+ do meio extracelular em milissegundos, sem qualquer participação de proteína G, fosfolipase
+   C ou segundo mensageiro citoplasmático.
+
+   D) M3 ativa um RTK acoplado ao seu domínio intracelular do receptor, gerando autofosforilação em
+   trans nas tirosinas e ativando a cascata PI3K/Akt para mobilizar Ca2+ indiretamente pela via clássica
+   dos fatores de crescimento.
+
+   E) M3 ativa Gq, que estimula a fosfolipase C; a PLC cliva PIP2 em IP3 (vai ao RE e abre canal IP3R
+   liberando Ca2+ do estoque) e DAG (fica na membrana e ativa a PKC junto com Ca2+).
+
+                      42
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Um paciente é admitido com quadro de diarreia aquosa volumosa, sem sangue, com perdas
+hidroeletrolíticas graves. O agente infeccioso isolado produz uma toxina que catalisa a ADP-ribosilação
+da subunidade Gs nas células do epitélio intestinal, modificação que abole a atividade GTPásica
+intrínseca de Gs e a deixa permanentemente carregada com GTP. Sobre a sequência mecanística que
+explica a diarreia neste paciente, é correto afirmar:
+
+   A) Gs travada em GTP perde afinidade pela adenilato ciclase, e essa perda reduz AMPc; sem AMPc, a
+   PKA não fosforila o CFTR, e o Cl- fica retido na célula, gerando secreção compensatória de Na+ e água.
+
+   B) a toxina inibe diretamente a fosfodiesterase intestinal, e a queda de AMPc resultante leva a bloqueio
+   da abertura do CFTR e a uma diarreia osmótica por acúmulo de soluto não-absorvido no lúmen
+   intestinal.
+
+   C) Gs travada em GTP fica continuamente ativa, estimula sem interrupção a adenilato ciclase, eleva
+   AMPc cronicamente, ativa PKA, e a PKA fosforila o canal CFTR -- secreção massiva de Cl- arrasta Na+
+   e água para o lúmen, diarreia secretória.
+
+   D) a toxina ativa diretamente a fosfolipase C nas células intestinais, gera IP3 que libera Ca2+ do RE, e
+   o Ca2+ alto abre canais epiteliais de Na+ aumentando a absorção -- paradoxo que se manifesta como
+   diarreia secretória aquosa.
+
+   E) Gs travada em GTP impede o acoplamento da Gi à mesma ciclase, e a ausência da Gi resulta em
+   redução leve da produção de AMPc; o resto da resposta secretória vem de neurotransmissão entérica
+   autônoma, e não da via do canal CFTR epitelial.
+
+                      43
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Uma paciente apresenta hipertireoidismo com bócio difuso, e o estudo identifica autoanticorpo IgG
+dirigido contra o receptor de TSH (TSH-R) na membrana da célula tireoidiana. O autoanticorpo liga-
+se ao TSH-R e o ativa de forma contínua, mimetizando a estimulação fisiológica pelo TSH hipofisário.
+Considerando que o TSH-R é um GPCR acoplado a Gs, sobre o mecanismo pelo qual esse autoanticorpo
+gera hiperprodução de T3/T4, é correto afirmar:
+
+   A) o autoanticorpo bloqueia o receptor de TSH na membrana, e a ausência de sinalização leva à atrofia
+   da glândula com hipotireoidismo central, o oposto do que se descreve no quadro clínico apresentado.
+
+   B) o autoanticorpo mimetiza o TSH, ativa continuamente o TSH-R que aciona Gs, e a Gs estimula a
+   adenilato ciclase elevando o AMPc; o AMPc cronicamente alto sustenta a transcrição de tireoglobulina
+   e a produção de T3/T4.
+
+   C) o autoanticorpo atravessa a membrana da célula tireoidiana e liga-se diretamente a um receptor
+   nuclear de T3, induzindo a produção autocrina de mais T3 e T4 pela própria glândula em circuito de
+   feedback positivo sustentado.
+
+   D) o autoanticorpo ativa receptores tirosina-quinase da célula tireoidiana, dispara PI3K/Akt e leva à
+   proliferação celular e ao bócio, sem qualquer participação da via do AMPc ou da cascata clássica do
+   TSH na produção hormonal.
+
+   E) o autoanticorpo ativa o TSH-R via Gq, gerando IP3 e DAG; o Ca2+ mobilizado do RE é o sinal direto
+   que dispara a secreção de T3 e T4 prontos a partir de vesículas pré-formadas na célula folicular.
+
+                      44
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que a sinalização por GPCR amplifica muito mais o sinal do que a sinalização por receptor-
+canal, mesmo que o ligante extracelular seja o mesmo nas duas situações?
+
+    MODELO DE RESPOSTA
+
+   Cada flecha da cascata GPCR multiplica o sinal: um único receptor ativado catalisa
+   a troca GDPGTP em várias subunidades G em sequência; cada G-GTP ativa uma
+   adenilato ciclase, que produz centenas de moléculas de AMPc; e cada PKA liberada
+   fosforila múltiplos alvos. O receptor-canal, ao contrário, abre passagem direta para íons
+   na proporção de uma molécula de ligante por uma abertura de poro -- não há etapa
+   enzimática intermediária. Por isso GPCRs produzem resposta mais lenta mas mais
+   potente, e receptores-canal produzem resposta mais rápida porém estequiométrica.
+
+Questão Q2
+
+Por que o dímero  da proteína G não se vai embora para sempre depois que G se desliga dele
+para ativar o efetor? Que mecanismo faz a proteína G voltar à forma trimérica de repouso?
+
+    MODELO DE RESPOSTA
+
+   Porque o desligamento de  é regulado pelo próprio ciclo GTPase da subunidade G.
+   Quando G carrega GTP, sua afinidade por  cai e ela se solta do dímero, ficando livre
+   para ativar o efetor. Mas G tem atividade GTPase intrínseca lenta (segundos), e quando
+   o GTP é hidrolisado a GDP, G recupera afinidade alta por  e se reassocia. O dímero ,
+   enquanto separado, pode até modular efetores próprios (canais de K+ no coração, certas
+   PLC), mas espera ali a G se desligar. O ciclo GTPase reseta o sistema sozinho.
+
+                             45
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+IP3 e DAG são produtos da clivagem do mesmo lipídeo (PIP2) pela mesma enzima (PLC). Por que
+então seguem caminhos diferentes e ativam respostas distintas dentro da célula?
+
+MODELO DE RESPOSTA
+
+Porque IP3 e DAG têm solubilidades opostas, e a solubilidade decide o destino dentro da
+célula. IP3, hidrossolúvel, sai da membrana e difunde pelo citosol; encontra seu receptor
+(um canal de Ca2+) na membrana do retículo endoplasmático e libera o Ca2+ estocado.
+DAG, lipossolúvel, fica embutido na bicamada da membrana plasmática; lá ele recruta
+a PKC, que precisa estar na membrana para ser ativada (junto com o Ca2+ que veio do
+RE). Mesmo precursor, dois compartimentos, dois alvos -- e os dois braços convergem
+na PKC.
+
+Questão Q4
+
+Por que a resposta a um hormônio esteroide como o cortisol leva horas para se manifestar plena
+mente, enquanto a resposta a um neurotransmissor que ativa receptor-canal (como o glutamato
+em AMPA) leva milissegundos? Compare o mecanismo.
+
+    MODELO DE RESPOSTA
+
+   Porque os dois mecanismos atuam em escalas temporais completamente diferentes.
+   O receptor-canal AMPA é o próprio canal: glutamato chega, muda a conformação da
+   proteína, o poro abre, Na+ entra, a célula despolariza -- tudo em milissegundos, sem
+   cascata bioquímica. O cortisol atravessa a membrana, liga-se a receptor intracelular
+   que solta chaperonas e vai ao núcleo, liga-se a sequências HRE no DNA, recruta a
+   maquinaria de transcrição, e induz síntese de mRNAs e proteínas novas. Esse processo
+   todo de transcrição e tradução leva horas. A escolha do mecanismo é a escolha do prazo
+   da resposta.
+
+       46
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um aluno escreve: "O AMPc é o segundo mensageiro mais rápido do organismo porque ele
+mesmo fosforila as proteínas-alvo, sem precisar de enzima intermediária. Por isso a sinalização
+por adrenalina via -adrenérgico (GPCR) é tão veloz -- direto AMPc fosforila." Aponte e corrija os
+erros mecanísticos desse trecho, explicando o que de fato acontece na via Gs  adenilato ciclase
+ PKA.
+
+MODELO DE RESPOSTA
+
+O trecho contém dois erros centrais. Primeiro: o AMPc não fosforila nada diretamente
+-- é apenas o mensageiro interno. Quem fosforila é a PKA, que em repouso é um
+tetrâmero com duas subunidades regulatórias e duas catalíticas presas. Quando AMPc
+se liga às regulatórias, as catalíticas se soltam e ficam livres para fosforilar serinas e tre
+oninas dos alvos. Segundo: a velocidade da sinalização -adrenérgica não vem de "ser
+direta" -- vem da amplificação em cascata (receptor  várias Gs  várias ciclases 
+muito AMPc  muitas PKAs ativadas) e da resposta em segundos (não milissegundos).
+Resposta direta seria a do receptor-canal, que abre o íon na hora, sem cascata. GPCR é
+amplificada, sim, mas não instantânea.
+
+       47
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 D         Q03 A     Q04 E  Q05 CCEC
+Q06 C     Q07 B         Q08 ECEC  Q09 D  Q10 A
+Q11 E     Q12 C
+                        Q15 CEEC  Q16 A  Q17 E
+INTEGRAÇÃO (Q11­Q25)    Q20 A     Q21 D  Q22 CECE
+                        Q25 C
+Q13 B     Q14 D                   Q29 C  Q30 B
+                        Q28 E
+Q18 ECCE  Q19 C
+
+Q23 B     Q24 E
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 A
+
+                        55
+

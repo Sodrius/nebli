@@ -1,0 +1,64 @@
+slug: biocel-07-divisao-celular
+titulo: "Divisão celular"
+subtitulo: "Biologia Celular (UC01)"
+meta:
+  - ["Disciplina", "Biologia Celular (UC01)"]
+  - ["Onde estudar", "Alberts — Fundamentos da Biologia Celular (3ª ed.) cap. 18 + Alberts — Biologia Molecular da Célula (6ª ed.) cap. 17 + Junqueira & Carneiro — Biologia Celular e Molecular (10ª ed.)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O ciclo celular e seu termostato"
+        subtopicos:
+          - "1.1 As quatro fases e por que a célula divide"
+          - "1.2 Ciclinas e CDK: o termostato molecular"
+          - "1.3 Os três checkpoints que decidem ir adiante"
+      - titulo: "PARTE II — Mitose passo a passo"
+        subtopicos:
+          - "2.1 Prófase e prometáfase: condensar e desmontar"
+          - "2.2 Metáfase: o fuso captura e alinha"
+          - "2.3 Anáfase: a separatase corta a coesina"
+          - "2.4 Telófase e citocinese: o anel contrátil"
+      - titulo: "PARTE III — Quando o controle quebra"
+        subtopicos:
+          - "3.1 p53, o guardião do genoma"
+          - "3.2 pRb e E2F: a porta de G1/S"
+          - "3.3 HPV: como o vírus rouba os freios"
+          - "3.4 Mirando o ciclo: quimioterapia e diagnóstico"
+  - titulo: "Resumindo"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+  - titulo: "Etapa 3 — 5 discursivas"
+  - titulo: "Gabarito da Etapa 2"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "CCEE"]
+    - ["05", "A"]
+    - ["06", "E"]
+    - ["07", "C"]
+    - ["08", "CECE"]
+    - ["09", "B"]
+    - ["10", "CCEC"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "A"]
+    - ["13", "CEEC"]
+    - ["14", "B"]
+    - ["15", "E"]
+    - ["16", "C"]
+    - ["17", "A"]
+    - ["18", "D"]
+    - ["19", "CCEE"]
+    - ["20", "B"]
+    - ["21", "E"]
+    - ["22", "CECC"]
+    - ["23", "A"]
+    - ["24", "D"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "E"]
+    - ["28", "C"]
+    - ["29", "A"]
+    - ["30", "D"]

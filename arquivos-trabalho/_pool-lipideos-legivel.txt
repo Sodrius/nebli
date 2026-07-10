@@ -1,0 +1,1745 @@
+Total: 455 cards
+[1] GUID=LcGDaz+DZW TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the effect of hypoglycemia and starvation on growth hormone secretion ? [Increased]
+  V: Stimulatory Factors Inhibitory Factors ↓ Glucose ↑ Glucose ↓ FFA ↑ FFA Fasting Obesity Exercise GH Stress Obesity Sleep Senescence α-adrenergic agonis
+
+[2] GUID=Dt|#udG:P0 TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Glucocorticoids are a potent stimulator for [ gluconeogenesis ], thus they are essential for survival during [ fasting ]
+  V: Overall the effects of glucocorticoids are catabolic and diabetogenic
+
+[3] GUID=llXc;kx5^9 TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Insulin increases glucose transport to [muscle] and [adipose] tissue by directing the insertion of the [ GLUT-4 ] transporter into the cell membranes
+  V: Exercise can also increase GLUT-4 expression (muscle tissue only); end result is decreased blood glucose concentration
+
+[4] GUID=lj~/k$%(ZI TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: In adipose tissue, insulin stimulates [fat deposition (increased triglyceride synthesis)] and inhibits [lipolysis]
+  V: Thus in insulin resistance, patients have high TAG and low HDL levels
+
+[5] GUID=hs;ln9)k5+ TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Insulin inhibits [ ketoacid ] formation in the liver because decreased fatty acid degradation provides less acetyl-CoA substrate for [ ketoacid ] formation
+
+[6] GUID=s|NBM`iWfU TAG=Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis
+  F: What is the cause of metabolic acidosis in a patient with diabetes mellitus ? [Increased production of ketoacids]
+  V: May cause increased ventilation rate to compensate [img]
+
+[7] GUID=iV#j9QCufY TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: What is the blood concentration of K + in a patient with diabetes mellitus ? [Increased ( hyperkalemia ) due to decreased K + uptake into cells]
+  V: [img]
+
+[8] GUID=HhW8?aDOIS TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Glucagon acts on the [ liver ] (primarily) and [ adipose ] tissue
+  V: - Liver : to promote gluconeogenesis , glycogen breakdown and decrease in glycolysis - Adipose : increased activity of adipose triglyceride lipase (le
+
+[9] GUID=v/AF%??-&2 TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the effect of insulin on glucagon secretion ? [Decreased]
+  V: Also decreased by hyper glycemia and somatostatin Factors Affecting Glucagon Secretion Stimulatory Factors Inhibitory Factors Fasting Somatostatin ↓ G
+
+[10] GUID=qjM!rzwk#{ TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Glucagon increases blood glucose concentration by increasing [ glycogenolysis ] and gluconeogenesis, while simultaneously inhibiting [ glycogen ] formation from glucose
+
+[11] GUID=B1~c3M>^;x TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Glucagon increases blood glucose concentration by increasing [ gluconeogenesis ] via decreased production of fructose-2,6-bisphosphate
+
+[12] GUID=E26>dVWz|~ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Glucagon causes [decreased] fatty acid synthesis and [increased] lipolysis , which shunts substrates towards gluconeogenesis
+
+[13] GUID=bh(o`.f^@k TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: What is the effect of glucagon on blood fatty acid and ketoacid concentration ? [Increased, due to increased lipolysis]
+
+[14] GUID=bzFL$bEtqn TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Which nutrients (glucose, amino acids, fatty acids) stimulate release of somatostatins ? [All three :)]
+
+[15] GUID=M^kldZ;<Q& TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Type [ 1 ] diabetes mellitus is characterized by insulin deficiency
+  V: Whereas type 2 diabetes mellitus is characterized by insulin resistance [img]
+
+[16] GUID=c4v2p6D>MW TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Why does type 1 diabetes mellitus present with weight loss and decreased muscle mass? Increased [ lipolysis and proteolysis ] due to unopposed [glucagon from lack of insulin]
+  V: [img]
+
+[17] GUID=OBb:wslm-H TAG=Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis
+  F: One of the most feared complications of type 1 diabetes is [ diabetic ketoacidosis (DKA)]
+  V: - No insulin to inhibit lipolysis to make ketones; type 2 can also develop following pancreas exhaustion → no insulin - DKA is a state of low insulin 
+
+[18] GUID=Pt;uW!nD6Q TAG=Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis
+  F: Diabetic ketoacidosis often arises with [ stress ] (e.g., infection)
+  V: Increased epinephrine → increased glucagon → exacerbated lipolysis
+
+[19] GUID=qUqa}[Eo>g TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: In T1DM , increased [ lipolysis ] leads to an increase in free fatty acids , which the liver consumes to secrete [ ketone bodies ]
+  V: Lack of insulin → no inhibition of HSL → lipolysis
+
+[20] GUID=_K$vX1ah; TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: What are the two major ketone bodies produced in T1DM ? [β-hydroxybutyrate and acetoacetate]
+  V: β-hydroxybutyrate is more prevalent
+
+[21] GUID=C&t8Zy;v>X TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Diabetic ketoacidosis is associated with a(n) [ fruity ] breath odor due to exhaled [ acetone ]
+
+[22] GUID=ej*D?vxThW TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Diabetic ketoacidosis (DKA) is associated with [ Kussmaul ] breathing, which is rapid/deep breathing to compensate for metabolic [ acidosis ]
+
+[23] GUID=GSy(#e>fI~ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: What is the typical serum potassium level in a newly diagnosed patient with T1DM ? [Increased]
+  V: - NOTE: Despite elevated serum potassium, intracellular potassium stores are low, so total body potassium may be low - When treated with insulin , K +
+
+[24] GUID=A,U##/469$ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: What is the intracellular potassium level in a patient with T1DM ? [Decreased]
+  V: Due to less uptake, secondary to lack of insulin
+
+[25] GUID=PGvovQ!j4B TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What type of acidosis will a patient with diabetic ketoacidosis (DKA) experience? [High anion gap metabolic acidosis]
+  V: - "MU D PILES" - Due to accumulation of ketones (organic acids) [img]
+
+[26] GUID=bqX]?MIW^B TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Will a diabetic ketoacidosis patient present with hyper- or hypoglycemia ? [Hyperglycemia (usually < 600 mg/dL)]
+  V: vs. HHS (> 600 mg/dL)
+
+[27] GUID=i[MFPAM6*t TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: What fungal infection is a feared complication in diabetic ketoacidosis (DKA)? [Mucormycosis]
+  V: Usually caused by Rhizopus infection [img] Photo credit: Higuchi et al. , CC BY 4.0 , via Frontiers in Cutaneous Immunology and Allergy [img] Photo cr
+
+[28] GUID=b<`M_3pS/m TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: What is the treatment for diabetic ketoacidosis (DKA) and hyperglycemic hyperosmolar state (HHS)? - IV [ fluids ] (restore blood volume) - IV [ insulin ] (restore glucose and stop ketogenesis) - [ K + ] (to replete intracellular stores)
+  V: - Fluids : peed out fluid with glucose - Potassium : Replete if levels ≤ 5.2 mEq/L - Despite extracellular hyperkalemia (due to low insulin), must add
+
+[29] GUID=pGk)IBBRA? TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: One of the most feared complications of type 2 diabetes is [hyperosmolar hyperglycemic state (HHS)]
+  V: Hyperglycemia causes excessive osmotic diuresis, leading to dehydration and possibly coma [img]
+
+[30] GUID=y/w!R804>t TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: What demographic is most commonly associated with hyperosmolar hyperglycemic state (HHS)? [Elderly with T2DM, especially with limited ability to drink]
+  V: Frequently presents with severe hyperglycemia and increased serum osmolality without acidosis/ketonemia (still have insulin which suppresses ketone pr
+
+[31] GUID=DasMnTNeL5 TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: Hyperosmolar hyperglycemic state (HHS) often presents with glucose levels > [600] mg/dL and increased serum osmolarity (> 320 mOsm/kg)
+  V: vs. DKA, which usually has glucose < 600 and serum osmolarity < 320
+
+[32] GUID=n74s0VId&b TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: Does hyperosmolar hyperglycemic state (HHS) present with ketoacidosis? Why? [No, ketone production is inhibited by presence of insulin]
+  V: Type 2 DM produce some insulin → inhibits hormone sensitive lipase → no lipolysis or fatty acid breakdown → no ketone bodies
+
+[33] GUID=PR}CAZ%x{F TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: What is the treatment for hyperosmolar hyperglycemic state (HHS)? [Aggressive IV fluids and insulin therapy]
+  V: - Add potassium replacement if K + ≤ 5.2 - Need much more fluids because we peed out lots of fluid with the high glucose - Give insulin to reduce gluc
+
+[34] GUID=LkAdm@Vmmx TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Overall, the effects of glucagon are [catabolic]
+
+[35] GUID=Csr}`c9]<P TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Overall, the effect of cortisol is [catabolic]
+  V: Increases gluconeogenesis , lipolysis , and proteolysis
+
+[36] GUID=F9fi=6}I4g TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: When insulin acts on adipose tissue, it causes [ in ] creased triglyceride storage and [ de ] creased lipolysis
+
+[37] GUID=HLaV1Dw}W% TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: IV [ regular ] insulin is useful in management of [ diabetic ketoacidosis ] (type 1 DM complication)
+  V: Watch K + levels because you risk inducing a hypokalemia via insulin's action on Na + -K + ATPase
+
+[38] GUID=s>oB%h0P`B TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Which membrane-bound organelle is involved in the catabolism of very-long-chain fatty acids , branched-chain fatty acids , amino acids, and ethanol? [Peroxisome]
+  V: An example of a branched-chain fatty acid = Phytanic Acid [img] Photo credit: OpenStax , CC BY 4.0
+
+[39] GUID=kd0xggivV4 TAG=01_Metabolism::03_Lipids_&_Proteins::06_Lipid_Digestion_Absorption
+  F: [ Lipid ] -soluble substances cross the membranes of capillary endothelial cells by [ simple diffusion ]
+  V: e.g., O 2 and CO 2
+
+[40] GUID=K;c,QDL@E4 TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: One sign of hyperlipidemia is [ xanthomas ], which are plaques or nodules composed of [ lipid-laden histiocytes ] in [ skin ]
+  V: [img] [img] Photo credit: Min.neel , CC BY-SA 3.0 , via Wikimedia Commons; Image(s) licensed by DermNet and used with permission, CC-BY-NC-ND 3.0 NZ
+
+[41] GUID=zG.bh*ypB` TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: When a xanthoma affects the eyelids, it is known as [ xanthelasma ]
+  V: [img] [img] Photo credit: Klaus D. Peter, Wiehl, Germany , CC BY 3.0 DE , via Wikimedia Commons Image(s) licensed by DermNet and used with permission,
+
+[42] GUID=B%rd5%RUE( TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: One sign of hyperlipidemia is [ tendinous xanthomas ], which are plaques or nodules composed of lipid-laden histiocytes in [ tendons (especially Achilles)]
+  V: [img] Photo credit: Kumar et al. , CC BY 2.0 , via BMC Case Journal
+
+[43] GUID=H=%&|kl3sf TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: One sign of hyperlipidemia is [ corneal arcus ], which are lipid deposits in the cornea
+  V: AKA arcus lipoides or arcus senilis [img] Photo credit: Afrodriguezg , CC BY-SA 4.0 , via Wikimedia Commons [img] Photo credit: A montasir , CC BY-SA 
+
+[44] GUID=z$wjl/1m~p TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Corneal arcus (arcus senilis) is common in the [ elderly ], but appears earlier in life in patients with [ hypercholesterolemia ]
+  V: [img] [img] Photo credit: Afrodriguezg , CC BY-SA 4.0 , via Wikimedia Commons Photo credit: A montasir , CC BY-SA 4.0 , via Wikimedia Commons
+
+[45] GUID=dBjtdK<dG^ TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: After being absorbed from the GI tract, free cholesterol is packaged into a(n) [ chylomicron ] as cholesteryl ester
+  V: - Cholesteryl ester is more efficiently packed into chylomicrons - Chylomicrons initially have the apoA-1 cofactor, which activates LCAT to convert ch
+
+[46] GUID=A/YO,byN.W TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The main component of chylomicrons is [triglycerides]
+  V: Cholesterol esters make up a lesser component [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[47] GUID=Oo%eR@*Ti{ TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Which apolipoproteins do chylomicrons express on their surface? - [Apo B-48] - [Apo C-II] - [Apo E]
+  V: - Apo B-48 allows chylomicrons to enter lacteals (mediates chylomicron secretion into lymphatics → empty into the thoracic duct → empties into the blo
+
+[48] GUID=fAKe[5Vej8 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Free fatty acids can be converted back to [triglycerides] and stored in adipose tissue
+
+[49] GUID=D@MFgkJpUc TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: The remnant receptor on the liver binds to [ ApoE ] of the chylomicron remnant , causing subsequent endocytosis
+  V: Remaining cholesterol ester is unloaded and made into bile acids or repackaged and sent into circulation via VLDL [img] Photo credit: Image licensed b
+
+[50] GUID=HsX:69$-T| TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: The first intermediate in cholesterol synthesis is [mevalonate] (from HMG-CoA)
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[51] GUID=CpGOR%0yB> TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Cholesterol from the liver may be repackaged into the interior of [VLDLs]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[52] GUID=D_OsoPWfP- TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Depletion of triglycerides from VLDLs produces IDLs , which may undergo further removal of triglycerides via the enzyme [ hepatic triglyceride lipase ], forming LDL
+  V: Some IDLs return directly to the liver [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[53] GUID=O-eT]dk1;6 TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: The main component of LDL is a core of [cholesteryl esters]
+
+[54] GUID=KD6HXBQ6vi TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: [ LDLs ] are the main source of cholesterol delivery to peripheral tissues in the body
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[55] GUID=v([Xf/;X;y TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: The LDL receptor on the liver binds to [ ApoB-100 ] of the LDL particle , causing subsequent endocytosis
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[56] GUID=hiTmg.|Q&3 TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: [ Lecithin cholesterol acyltransferase (LCAT)] converts free cholesterol into cholesteryl esters for transport by HDL
+  V: - This step forms mature HDL from nascent HDL - To do this, LCAT requires the A-I cofactor, which HDL has [img] Photo credit: Image licensed by Physeo
+
+[57] GUID=hb^$J1D=M$ TAG=Biochemistry::09_Lipid_Metabolism::08_Lipid_Transport:_Peripheral_Cholesterol_Activity_and_Summary_of_Lipid_Transport
+  F: [ Mature ] HDL particles contain LCAT-generated cholesteryl esters
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[58] GUID=sF&)oNDR3~ TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: HDL transfers cholesteryl esters to LDLs, IDLs, and VLDLs via [ cholesteryl ester transfer protein (CETP) ] to be transported back to the liver
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[59] GUID=A)_-c<{th5 TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: [ Statins ] exert their effects by inhibiting the enzyme [ HMG-CoA reductase ], thus decreasing cholesterol production
+  V: e.g., simvastatin, atorvastatin, rosuvastatin [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[60] GUID=Jg!4oM:_LX TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins indirectly cause [ increased ] LDL receptor expression on hepatocytes
+  V: Occurs in response to decreased cholesterol synthesis → results in ↑ LDL clearance from circulation (via receptor-mediated endocytosis)
+
+[61] GUID=vjm0.ej$Q+ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Statins ] significantly reduce [ LDL ] levels (30 - 60% reductions)
+
+[62] GUID=O<,K*y.wR= TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do statins have on triglyceride levels? [Mild decrease]
+
+[63] GUID=NJXx0HWQ5x TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do statins have on HDL levels? [Mild increase]
+
+[64] GUID=iTzQb9K7w. TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: The first-line treatment for hypercholesterolemia (LDL) is with lifestyle modification and [statins]
+
+[65] GUID=g-)Y{j:CCP TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Statins ] are the most effective lipid-lowering medications for preventing future cardiovascular events
+  V: - Initiated in the setting of MI and other acute coronary syndromes - Drugs that raise HDL (e.g., niacin) are not associated with improved cardiac out
+
+[66] GUID=tnvkzC:U)T TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Statins ] are the only lipid-lowering drugs consistently proven to reduce risk of atherosclerotic heart disease
+
+[67] GUID=Re;X/}0@#w TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statin therapy may be used to reduce the risk of cardiovascular events and mortality in patients with [diabetes]
+  V: Also reduces risk in patients with peripheral artery disease [img]
+
+[68] GUID=bUS~+D$Og) TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins reduce risk of future vascular events in patients with a history of TIA or [stroke]
+  V: TIA = transient ischemic attack
+
+[69] GUID=M#_KG(|9#, TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins may be [teratogenic], therefore avoid during the first trimester of pregnancy
+  V: Note: Research has shown that this really isn't a worry → for Step exams, just know that it could because cholesterol biosynthesis is important in dev
+
+[70] GUID=Nb5C|<{MVk TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: The most common side effect of statins is [myopathy], which occurs weeks to months after starting therapy
+  V: - e.g., muscle weakness, soreness - Exacerbated by fibrate usage - For patients who are intolerant of one statin due to myopathy, discontinue statin t
+
+[71] GUID=c1Pc#D$-cJ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins can cause elevations in serum [ creatine kinase (CK)], which may indicate myopathy
+  V: CK-MM (skeletal), CK-MB (cardiac), CK-BB (brain) [img]
+
+[72] GUID=Qkx{sf(t[[ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins may cause mild [ hepato ] toxicity , and thus mild elevations in [ liver ] function tests
+  V: - Therefore obtaining baseline LFT before initiation is recommended - Hepatotoxicity is reversible with discontinuation of statins
+
+[73] GUID=oWrRXC:%fy TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: All statins , except for [ pravastatin ], are metabolized by [ cytochrome p450 ]
+  V: Drugs that inhibit cytochrome p450 metabolism increase serum levels of statins, increasing risk of developing myopathy [img]
+
+[74] GUID=v}%$<kF*zM TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What drug class do cholestyramine , colestipol , and colesevelam belong to? [Bile acid resins]
+  V: AKA bile acid sequestrants
+
+[75] GUID=xN8drM<5?2 TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Normally , 95% of bile acids in the ileum are recycled back to the liver through [ enterohepatic ] circulation
+  V: [img] Photo credit: Original: Boumphreyfr Vector: Vezixig , CC BY-SA 3.0 , via Wikimedia Commons
+
+[76] GUID=p%cxUpyfoe TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Bile acid resins (e.g., cholestyramine)] bind bile acids in the intestinal lumen, preventing absorption and recycling to the liver
+  V: Cationic resins [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[77] GUID=oDXK/-9Wct TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins (e.g., cholestyramine) interrupt bile acid recycling and promote synthesis of new bile acids , depleting liver [cholesterol] stores
+
+[78] GUID=KfRLk<fs}f TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins (e.g., cholestyramine) indirectly [ increase ] HMG-CoA reductase activity and thus [ increase ] cholesterol synthesis by the liver
+
+[79] GUID=q]E^lRwRb TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins indirectly cause [ increased ] LDL receptor expression
+  V: Liver needs more cholesterol to synthesize bile acids
+
+[80] GUID=Qt7B9L_0XS TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do bile acid resins have on LDL levels? [Moderately decreased]
+
+[81] GUID=CD;qMn~7Kp TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do bile acid resins have on HDL levels? [Slightly increased]
+
+[82] GUID=NEq@IRvAB4 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins are used in patients with primary [ hypercholesterolemia ], usually in conjunction with statins
+
+[83] GUID=iWW!G|7utL TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do bile acid resins have on serum triglyceride levels? [Slightly increased ]
+  V: - Increased bile acid synthesis activates liver enzymes that concurrently increase production of triglycerides - Thus contraindicated in patients with
+
+[84] GUID=I)b@?.(GP] TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins frequently cause GI side effects , such as [constipation] and [bloating]
+  V: Avoid in diverticulitis
+
+[85] GUID=w9%Ky/bMb+ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Bile acid resins can lead to [ steatorrhea ], which may impair the absorption of [ fat-soluble vitamins (A, D, E, K) ]
+  V: Watch for excess anti-coagulation in patients on warfarin (thus also exacerbated with vitamin K deficiency)
+
+[86] GUID=lQ:R{o|4O6 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Bile acid resins ] are lipid-lowering agents that may decrease the absorption of [ statins ], thus these drugs should be given 4 hours apart
+  V: Also may decrease absorption of digoxin, thiazides, warfarin, and aspirin
+
+[87] GUID=LZ0Ryhfc]~ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Ezetimibe ] is a lipid-lowering agent that blocks absorption of [ cholesterol ] by inhibiting the [ NPC1L1 ] transporter at the small intestinal brush border
+  V: - Often combined with statin therapy - NPC1L1 = Niemann-Pick C1 Like 1 [img] Photo credit: Image licensed by Physeo and used with permission. Purchase
+
+[88] GUID=MU0B*?*q@f TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Ezetimibe restricts the liver's access to exogenous [cholesterol]
+  V: Due to decreased gastrointestinal absorption of cholesterol [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full acces
+
+[89] GUID=xyXMRayh1g TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Ezetimibe indirectly [ increases ] HMG-CoA reductase activity and thus [ increases ] cholesterol synthesis by the liver
+
+[90] GUID=GZowIqz/?S TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Ezetimibe indirectly causes [ increased ] LDL receptor expression
+
+[91] GUID=OAG&B2EO^` TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect does ezetimibe have on LDL levels? [Moderately decreased]
+
+[92] GUID=Ny1)SpzzbN TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What GI side effect is associated with ezetimibe ? [Diarrhea]
+  V: Causes impaired fat absorption, leading to steatorrhea
+
+[93] GUID=kC=2%6^b)$ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Ezetimibe may cause increased [liver] function tests
+  V: Hepatotoxic
+
+[94] GUID=b4Z_bZl.E5 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Evolocumab and alirocumab are lipid-lowering agents that inhibit [PCSK9]
+
+[95] GUID=Qc40&a=%nI TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: [ PCSK9 ] is a protease produced by the liver that leads to degradation of [ hepatocyte ] [ LDL ] receptors
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[96] GUID=nOb<r7P%A. TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Evolocumab binds PCSK9 and [ prevents ] degradation of hepatic LDL receptors
+  V: Increased LDL receptors leads to increased uptake of circulating LDL (lipid lowering) [img] Photo credit: Image licensed by Physeo and used with permi
+
+[97] GUID=lyGD},k[YU TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What drug class do gemfibrozil and fenofibrate belong to? [Fibrates]
+
+[98] GUID=tvMY*xV4H( TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Fibrates ] upregulate the enzyme [ lipoprotein lipase (LPL)] by activating [ PPAR-α ]
+  V: PPAR-α also induces HDL synthesis by facilitating the transfer of triglycerides from these lipoproteins to HDL [img] Photo credit: Image licensed by P
+
+[99] GUID=e%&)5h!Q*P TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Fibrates significantly decrease serum [ triglycerides ] by increasing their [ hydrolysis ] in VLDLs and chylomicrons
+  V: Increased LPL activity via PPAR-α stimulation leads to increased triglyceride clearance [img] Photo credit: Image licensed by Physeo and used with per
+
+[100] GUID=ksyK#2l!g TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: One way fibrates decrease serum triglycerides is by decreasing hepatic [VLDL] secretion
+  V: Another way is by enhancing the activity of lipoprotein lipase , leading to increased breakdown of triglycerides [img] Photo credit: Image licensed by
+
+[101] GUID=fn;D+yPeQg TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Fibrates lead to [ mild decreases ] in serum LDL by reducing VLDL
+
+[102] GUID=jOs<Q4oDQ< TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What effect do fibrates have on HDL levels? [Mildly increased HDL]
+  V: Via stimulation of PPAR-α
+
+[103] GUID=Hs&3>W_&vM TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Fibrates may cause [ myopathy ] as an adverse effect , especially when combined with [ statins ]
+
+[104] GUID=Jk!ED8w>Xn TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Fibrates increase risk of [cholesterol gallstones] and should be used with caution in patients with biliary tract disease
+  V: - Inhibition of cholesterol 7α-hydroxylase → ↓ in bile acids → bile supersaturation with cholesterol → cholesterol gallstones - Also use with caution 
+
+[105] GUID=JK?%*|meS} TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Niacin (vitamin B 3 ) ] is the most effective drug for increasing serum [ HDL ]
+  V: Levels of HDL are moderately increased
+
+[106] GUID=ITC7W2/T55 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: [ Fibrates ] are the most effective drugs for decreasing serum [ triglycerides ]
+
+[107] GUID=l([]omCf&* TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Niacin ( vitamin B 3 ) [mildly] decreases serum triglycerides by decreasing hepatic [VLDL] secretion
+  V: Also inhibits lipolysis in adipose tissue (via inhibition of hormone-sensitive lipase ) [img] Photo credit: Image licensed by Physeo and used with per
+
+[108] GUID=eXpsf4QMMm TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Niacin leads to [ moderately decreased ] serum LDL by reducing [VLDL] synthesis
+  V: Niacin also inhibits lipolysis via inhibition of hormone-sensitive lipase
+
+[109] GUID=c5evb=$T64 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: A common adverse effect associated with niacin toxicity is cutaneous [ flushing ] and [ warmth ] due to increased [prostaglandin] activity
+  V: Can be prevented using NSAIDs [img] [img] Photo credit: Doc James , CC BY-SA 4.0 , via Wikimedia Commons; Doc James , CC BY-SA 4.0 , via Wikimedia Com
+
+[110] GUID=jy?FND=:@k TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Flushing and warmth , secondary to niacin use, may be prevented with [NSAIDs]
+  V: - Take 30 min before taking niacin - This is because these symptoms are caused by prostaglandins [img] [img] Photo credit: Doc James , CC BY-SA 4.0 , 
+
+[111] GUID=M^r0nr6]Y4 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Niacin (B 3 ) can cause elevated [ liver ] function tests with severe [ hepato ] toxicity
+  V: Onset is unpredictable therefore requires monitoring
+
+[112] GUID=kK:P?y_:bX TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Fish oil ], a supplement high in [ omega-3 fatty ] acids , may be used to lower serum [ triglyceride ] levels
+  V: May also reduce risk of mortality in coronary heart disease
+
+[113] GUID=yfF$8H1!#! TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Increased ventilation (e.g., high altitude) causes [ decreased ] PaCO 2
+
+[114] GUID=I7Jc_@WJ8f TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: High altitude initially causes [ respiratory ] [ alkalosis ] and hypoxia , which may cause acute [ altitude ] sickness
+  V: e.g., headache, fatigue, dizziness, nausea, palpitations, insomnia [img]
+
+[115] GUID=zFQtMy[5so TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: In response to respiratory alkalosis (e.g., due to high altitude), there is increased renal excretion of [ HCO 3 - ]
+  V: - This causes diuresis and thus hemoconcentration - May augment with a carbonic anhydrase inhibitor (e.g., acetazolamide)
+
+[116] GUID=s[e#8`]*/] TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Fibrates mildly increase the synthesis of [HDL] via upregulation of PPAR-α
+
+[117] GUID=nL:R>h:d7w TAG=01_Biochem::06_Metabolism::14_Electron_transport_chain_and_oxidative_phosphorylation::*ATP_Production
+  F: What is the only metabolic pathway for generating ATP, anaerobically ? [Glycolysis]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[118] GUID=xrJC*G1Pg% TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Anaerobic glycolysis produces a net of [2] ATP per glucose molecule
+  V: Net of 0 NADH per glucose molecule
+
+[119] GUID=M?qucuV[[Q TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Anaerobic glycolysis produces a net of [0] NADH per glucose molecule
+  V: - Aerobic glycolysis produces a net of 2 NADH per glucose - Under aerobic conditions, the NADH is used in the ETC to make ATP - Under anaerobic condit
+
+[120] GUID=H!G;$uLY+Q TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Is a hexokinase gene mutation associated with maturity-onset diabetes of the young (MODY)? [No]
+  V: Non-insulin dependent
+
+[121] GUID=wN_n71&!=X TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Is a glucokinase gene mutation associated with maturity-onset diabetes of the young (MODY)? [Yes]
+  V: - Heterozygous mutations of this cause a decrease in β cell metabolism; mild, nonprogressive hyperglycemia that often worsens with pregnancy induced i
+
+[122] GUID=A]!MWL:77x TAG=01_Biochemistry::01_Physiology::18_Fatty_Acid_Synthesis:_Part_1
+  F: [ Pyruvate ] is converted to [ acetyl-CoA ] by the enzyme [ pyruvate dehydrogenase ]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[123] GUID=dqES,YG16W TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Conversion of pyruvate into acetyl-CoA releases a molecule of [ CO 2 ] and [ NADH ]
+
+[124] GUID=z}m`8omgqG TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Acetyl-CoA ] is combined with [ oxaloacetate ] via the enzyme [ citrate synthase ], forming [ citrate ]
+  V: C itrate I s K rebs' S tarting S ubstrate F or M aking O xaloacetate [img]
+
+[125] GUID=gFD!;yx|1& TAG=01_Biochemistry::01_Physiology::18_Fatty_Acid_Synthesis:_Part_1
+  F: Citrate is converted into [ isocitrate ] via the enzyme cis-aconitase (Kreb's cycle)
+  V: C itrate I s K rebs' S tarting S ubstrate F or M aking O xaloacetate [img]
+
+[126] GUID=mlj@1c*Be~ TAG=01_Biochemistry::01_Physiology::18_Fatty_Acid_Synthesis:_Part_1
+  F: Isocitrate is converted to [ α-ketoglutarate ] via the enzyme [ isocitrate dehydrogenase ]
+  V: C itrate I s K rebs' S tarting S ubstrate F or M aking O xaloacetate [img]
+
+[127] GUID=fMy^3xHht1 TAG=01_Biochemistry::01_Physiology::18_Fatty_Acid_Synthesis:_Part_1
+  F: What is the rate-limiting enzyme for the Krebs cycle (TCA cycle)? [Isocitrate dehydrogenase (IDH)]
+  V: [img]
+
+[128] GUID=8E;Q$#&t6 TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Malate is converted to [ oxaloacetate ] via the enzyme malate dehydrogenase
+  V: C itrate I s K rebs' S tarting S ubstrate F or M aking O xaloacetate [img] [img] Image licensed by Physeo and used with permission. Purchase full acce
+
+[129] GUID=Py.W|w+.1k TAG=01_Biochemistry::01_Physiology::18_Fatty_Acid_Synthesis:_Part_1
+  F: Conversion of malate into oxaloacetate produces a molecule of [NADH]
+  V: [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[130] GUID=O~fXD`OKc< TAG=01_Biochemistry::01_Physiology::19_Fatty_Acid_Synthesis:_Part_2
+  F: Where in the cell does the Krebs cycle take place? [Mitochondria]
+  V: [img]
+
+[131] GUID=t%aP)}PyLT TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: In total, the TCA cycle produces [1] FADH 2 per acetyl-CoA
+  V: [img]
+
+[132] GUID=gqu>%iL*@U TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: In total, the TCA cycle produces [1] GTP per acetyl-CoA
+  V: [img]
+
+[133] GUID=k8tN.(20fP TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Where in the cell does acetyl-CoA production (from pyruvate) take place? [Mitochondria]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[134] GUID=E9yfzQ/JcY TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: Pyruvate carboxylase requires [ATP], [biotin], and [CO 2 ]
+  V: "ABC carboxylase" [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[135] GUID=BtDfud)7Ro TAG=01_Biochemistry_&_Genetics::08_Fatty_Acid_Synthesis
+  F: [ Acetyl-CoA ] is a(n) [ obligate ] activator of pyruvate carboxylase
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[136] GUID=DI65{])wR* TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Pyruvate carboxylase is regulated via positive feedback by [acetyl-CoA]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[137] GUID=F&+G/val:Q TAG=01_Biochemistry::01_Physiology::19_Fatty_Acid_Synthesis:_Part_2
+  F: Where in the cell does conversion of pyruvate → oxaloacetate take place? [Mitochondria]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[138] GUID=itMJ4SG6z} TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Where does the energy to power gluconeogenesis come from in a starvation state? [β-oxidation of fatty acids]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[139] GUID=hm31YuQZoi TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Increased NADH/NAD + (e.g., due to ethanol) causes increased conversion of [ oxaloacetate ] → [ malate ], thus preventing [ gluconeogenesis ]
+
+[140] GUID=QT(X@KW*f1 TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Individuals with alcohol use disorder commonly have fasting [hypoglycemia]
+  V: - Due to decreased gluconeogenesis, secondary to high NADH/NAD + ratio - Oxaloacetate usually is shuttled out via malate/aspartate to be used for GNG 
+
+[141] GUID=Ax3BkN>?- TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Plasma osmolarity may be estimated by P osm = [(2 * Na + ) + (Glucose/18) + (BUN/2.8)]
+  V: - Na + = plasma Na + concentration (mEq/L) - Glucose = plasma glucose concentration (mg/dL) - BUN = blood urea nitrogen concentration (mg/dL)
+
+[142] GUID=srl`ksuzEc TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What non-volatile acids are commonly elevated in type 1 diabetes ? [Acetoacetic acid and β-hydroxybutyric acid (ketoacidosis)]
+
+[143] GUID=jc#~ruu=>K TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: If the "lost" HCO 3 - in metabolic acidosis is replaced by [ unmeasured anions ], the anion gap is [ increased ]
+  V: - e.g., diabetic ketoacidosis, lactic acidosis - “MUDPILES” [img] [img] [img]
+
+[144] GUID=vjG5y1BF]I TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Hyperventilation as a respiratory compensation for metabolic acidosis is known as [ Kussmaul ] breathing
+  V: Watch 'Kussmaul breathing,' Jeff Suchard, via YouTube (0:27),
+
+[145] GUID=kD4h(2?{>4 TAG=Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis
+  F: One function of the [ HMP ] shunt is to provide a source of [ NADPH ], which is required for [ reductive ] reactions
+  V: e.g., glutathione reduction inside RBCs, fatty acid, and cholesterol biosynthesis [img] Image licensed by Physeo and used with permission. Purchase fu
+
+[146] GUID=sVq]8w|)=y TAG=01_Biochemistry::01_Physiology::19_Fatty_Acid_Synthesis:_Part_2
+  F: Conversion of glucose-6-P into ribulose-5-P (HMP shunt) produces one molecule of CO 2 and two molecules of [ NADPH ]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[147] GUID=Iyy]|!MP+X TAG=Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis
+  F: In the [liver], the HMP shunt provides a source of NADPH for biosynthesis of fatty acids , cholesterol , and steroids
+
+[148] GUID=jUF4v|84_] TAG=01_Biochemistry::01_Physiology::19_Fatty_Acid_Synthesis:_Part_2
+  F: Conversion of glucose-6-phosphate to 6-phosphogluconate , via G6PD , produces a molecule of [ NADPH ]
+  V: This NADPH is then utilized by the enzyme glutathione reductase [img] [img] Image licensed by Physeo and used with permission. Purchase full access he
+
+[149] GUID=q0u$jKaxq/ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: What is the rate-limiting enzyme of fatty acid synthesis ? [Acetyl-CoA carboxylase]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[150] GUID=EehWy>iqbJ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Acetyl-CoA carboxylase is inhibited by [ glucagon ] and [ palmitoyl-CoA ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[151] GUID=xF6vJC<tQ! TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Acetyl-CoA carboxylase is regulated via positive feedback by [ insulin ] and [ citrate ]
+  V: Acetyl-CoA carboxylase activates fat synthesis and makes malonyl-CoA which inhibits fat oxidation in the liver [img] Photo credit: Image licensed by P
+
+[152] GUID=E{S{p/R;(& TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Where in the cell does fatty acid synthesis occur? [Cytoplasm]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[153] GUID=boQAggxq7j TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acid synthesis requires [ acetyl-CoA ], which is provided directly from [ citrate ]
+  V: As Krebs cycle continues following a high carbohydrate meal, isocitrate dehydrogenase is inhibited by high ATP , thus citrate backs up [img] Photo cre
+
+[154] GUID=xPE~:zK#N* TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acid synthesis requires [ NADPH ], which is provided by the [ HMP shunt ] and [ malic ] enzyme
+  V: [img] [img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM (2015) NADPH-generating systems in bacteria and archaea. Front. Micro
+
+[155] GUID=oSQI`!|9cH TAG=Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis
+  F: In the cytosol, malate may be converted to pyruvate via the enzyme [ malic enzyme ] (fatty acid synthesis)
+  V: Contributes to fatty acid synthesis in addition to NADPH from the HMP shunt [img] [img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Keng
+
+[156] GUID=j~V9}wo3Y# TAG=Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis
+  F: Conversion of malate to pyruvate via malic enzyme produces a molecule of [NADPH] (fatty acid synthesis)
+  V: Contributes to fatty acid synthesis in addition to NADPH from the HMP shunt [img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM
+
+[157] GUID=LI/@xCD9-/ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acid synthesis predominantly occurs in the [liver], [lactating mammary] glands (women), and [adipose] tissue
+
+[158] GUID=wfH+)zC0kj TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: The first step of fatty acid synthesis is transport of [citrate] from the mitochondria to the cytosol through its shuttle
+  V: - In the well-fed state , abundance of ATP in hepatocytes inhibits isocitrate dehydrogenase , leading to high levels of citrate in the mitochondria - 
+
+[159] GUID=o2g_@x[*## TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: In the cytosol , [citrate] is metabolized into [acetyl-CoA] and [oxaloacetate] via [ ATP citrate lyase ] as part of fatty acid synthesis
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[160] GUID=I`=(v&7I!Q TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Acetyl-CoA is converted to [ malonyl-CoA ] via the enzyme [ acetyl-CoA carboxylase ] (fatty acid synthesis)
+  V: - In the well-fed state , abundance of ATP in hepatocytes inhibits isocitrate dehydrogenase , leading to high levels of citrate in the mitochondria ; 
+
+[161] GUID=y&OfOC+DC! TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Acetyl-CoA carboxylase requires [ATP], [biotin], and [CO 2 ]
+  V: "ABC carboxylase" Also required for Propionyl-CoA carboxylase and Pyruvate carboxylase [img] Photo credit: Image licensed by Physeo and used with perm
+
+[162] GUID=LzmOcN`8WN TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Malonyl-CoA may be converted to [ palmitate ] via the enzyme [ fatty acid synthase ]
+  V: - May also be referred to as palmitate synthase - This is the only fatty acid made de novo in humans [img] Photo credit: Image licensed by Physeo and 
+
+[163] GUID=uUec:<aJpz TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Which enzyme of the fatty acid synthesis pathway utilizes NADPH ? [Fatty acid synthase]
+  V: May also be referred to as palmitate synthase [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[164] GUID=Ndc=AMqtBg TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Palmitate is a(n) [16]-carbon fatty acid
+  V: May be elongated or desaturated in the endoplasmic reticulum
+
+[165] GUID=oC#a86~-(L TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: What two fatty acids are essential in humans? [Linoleic acid (omega-6) and linolenic acid (omega-3)]
+  V: Both of these fatty acids are essential for synthesis of arachidonic acids linoleic acid nomenclature: C18:2 (9,12) linolenic acid nomenclature: C18:3
+
+[166] GUID=bo-b`@%OoL TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Fatty Acid Nomenclature : C18:2 (9,12) is a(n) [18]-carbon fatty acid with [ two ] double bonds
+  V: Nomenclature: C[#Carbons]:[#double bonds] (location of double bonds)
+
+[167] GUID=qAI{lL{(xI TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: In naturally occurring fatty acids , double bonds are in the [ cis ] configuration
+
+[168] GUID=pj{!7+W?#e TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: When membrane phospholipids are in the [ trans ] configuration, they cause decreased membrane fluidity
+
+[169] GUID=s]x_>!v_w[ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Are fatty acids polar or non-polar? [Non-polar]
+
+[170] GUID=jF}^l!?kbB TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: Is glycerol polar or non-polar? [Polar]
+
+[171] GUID=CCgzzTD1RL TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Are triglycerides polar or non-polar? [Non-polar]
+  V: Ester bonds are non -polar and thus an hydrous (more space efficient)
+
+[172] GUID=w&uhyIZ3v; TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: What type of bond exists between fatty acids and glycerol (e.g., triglycerides)? [Ester bonds]
+  V: [img] Photo credit: Wolfgang Schaefer , Public domain, via Wikimedia Commons
+
+[173] GUID=QpI|ys+ElB TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: What type of enzyme cleaves triglyceride ester bonds? [Lipases]
+  V: e.g., lipoprotein lipase, hormone sensitive lipase - T riglycerides i n chylomicrons and VLDLs: Lipoprotein lipase (LPL) - T riglycerides i n IDLs and
+
+[174] GUID=j]aUGB7(B^ TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: What is the purpose of converting cholesterol into cholesteryl ester ? [More space-efficient (anhydrous)]
+  V: Also traps cholesterol in the interior of cells so it cannot be freely transferred to other cells in the blood
+
+[175] GUID=eOhB-eFGq: TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: [Lipoproteins] are a physical complex of lipids and proteins ( apoproteins )
+  V: e.g., chylomicrons, chylomicron remnants, VLDL, IDL, LDL, and HDL
+
+[176] GUID=j;~=<lf19& TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Apolipoprotein [A-1] is an activator of the enzyme [ lecithin cholesterol acyltransferase (LCAT)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[177] GUID=Ed/~w{MB`O TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Apolipoprotein A-1 is a major component of [high density] lipoprotein
+  V: - This is not found on ANY other major apolipoprotein - Chylomicrons also contain apo A1 initially, but it is quickly transferred to HDL in the bloods
+
+[178] GUID=GQ<)`YM}4K TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: Apo B -[ 48 ] is found only on particles originating from the intestines , whereas Apo B -[ 100 ] is found only on particles originating from the liver
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[179] GUID=D5E(UTaXU< TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: Apolipoprotein E may be found on every lipoprotein except [LDL]
+  V: Apo E = E verything E xcept LDL [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[180] GUID=P(B3nK(j^d TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Apolipoprotein [C-II] is a cofactor and activator of the enzyme [ lipoprotein lipase (LPL)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[181] GUID=NG^7UcyOfj TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Which four lipoproteins is apolipoprotein C-II found on? [HDL, IDL*, VLDL, and chylomicrons]
+  V: AMBOSS and other sources do not include IDL, while FA 2023 does; the likely explanation is that Apo C-II may be found on IDL for a very short time bef
+
+[182] GUID=G&.bCUoiR~ TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Apolipoprotein [B-48] mediates [ chylomicron ] secretion by the intestines
+  V: This is only on particles that originate from the intestines [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full acce
+
+[183] GUID=o^[zcRoaVt TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Which lipoprotein is apolipoprotein B-48 found on? [Chylomicrons (and their remnants)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[184] GUID=NF7$@[:R[G TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Apolipoprotein [B-100] binds the [ LDL ] receptor on the liver
+  V: This is found only on particles originating from the liver [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access
+
+[185] GUID=f4$$lC:`eI TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Which three lipoproteins is apolipoprotein B-100 found on? [VLDL, IDL, and LDL]
+  V: All three lipoproteins with apolipoprotein B-100 originate from the liver [img] Photo credit: Image licensed by Physeo and used with permission. Purch
+
+[186] GUID=qfPCgo`}p[ TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The intestines package [ triglycerides ] and [ cholesteryl esters ] into [chylomicrons] , which initially enter the lymph
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[187] GUID=vM:Dd]g_b& TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: In the lymph , chylomicrons only express apolipoprotein [ B-48 ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[188] GUID=l-qJNUd2ZC TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: From the lymph , chylomicrons enter the [blood] via the thoracic duct
+  V: [img] Photo credit: Keministi , CC0, via Wikimedia Commons
+
+[189] GUID=n_yR4f@Ngb TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: In the blood , chylomicrons pick up apolipoprotein [C-II] and [E] from circulating [HDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[190] GUID=CtUO.hhTJ% TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Once in the vicinity of adipocytes , apolipoprotein [ C-II ] on the chylomicron activates the enzyme [ lipoprotein lipase (LPL)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[191] GUID=CsN!I2:&o4 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: The triglycerides inside the chylomicron are broken down into [ fatty acids ] by lipoprotein lipase in the vicinity of the adipocytes (or peripheral tissue)
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[192] GUID=QS>>dK+QfA TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Once inside the adipocyte , fatty acids are reconverted into [ triglycerides ]
+
+[193] GUID=jvu*zUypgK TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: As triglycerides are removed from the chylomicron , the chylomicron shrinks , forming a(n) [chylomicron remnant]
+  V: Which is absorbed by the liver [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[194] GUID=N^?:(t??r- TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: The chylomicron remnant expresses only apolipoprotein [ B-48 ] and apolipoprotein [ E ] on its surface
+  V: Apolipoprotein C is recycled back to HDL [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[195] GUID=On(4^A$J{| TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: What happens to apolipoprotein C-II on the chylomicron as it forms a chylomicron remnant ? [Recycled back to HDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[196] GUID=sdjjIIqcP- TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: The liver packages [ triglycerides ] and [ cholesterol ] into [ VLDLs ], which enter the blood
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[197] GUID=Q@UPq@Ez,( TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: Initially , VLDLs only express apolipoprotein [ B-100 ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[198] GUID=gol1C}<=:Z TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: What is the main component of VLDL ? [Triglycerides (60%)]
+  V: Cholesterol esters make up a lesser component
+
+[199] GUID=AUn+[t=M+z TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: In the blood , VLDLs pick up apolipoprotein [ C-II ] and [ E ] from circulating [ HDL ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[200] GUID=lQw/}b[TI; TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Once in the vicinity of adipocytes , apolipoprotein [ C-II ] on the VLDL activates the enzyme [ lipoprotein lipase (LPL) ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[201] GUID=P,a)`h(1yc TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: The triglycerides inside the VLDL are broken down into [ fatty acids ] by lipoprotein lipase in the vicinity of the adipocytes (or peripheral tissue)
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[202] GUID=ORwV0}lL:k TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: As triglycerides are removed from the VLDLs , the VLDL shrinks , forming [IDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[203] GUID=wINZ<jo.|R TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: The IDL expresses apolipoprotein [ B-100 ] and apolipoprotein [ E ] on its surface
+  V: Note: First Aid also includes apolipoprotein C-II; this discrepancy is likely explained by the fact that Apo C-II is present on IDL for a very short t
+
+[204] GUID=rn$|,D$c24 TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: What eventually happens to apolipoprotein C-II on the VLDL after it forms an IDL ? [Recycled back to HDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[205] GUID=D{b.{0MMex TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: Once in the vicinity of the liver , the IDL may directly bind a(n) [ LDL ] receptor via apolipoprotein B-100
+  V: Delivers cholesterol esters and remaining triglycerides to the liver [img] Photo credit: Image licensed by Physeo and used with permission. Purchase f
+
+[206] GUID=Go$O|pn2nd TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: Further removal of triglycerides from IDL , via the enzyme [ hepatic triglyceride lipase ], leads to the formation of [ LDL ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[207] GUID=kPxSelq>XT TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: LDL only expresses a single copy of apolipoprotein [ B-100 ] on its surface
+  V: Loses apoE when formed from IDL [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[208] GUID=b!Si2cI<(D TAG=Biochemistry::09_Lipid_Metabolism::08_Lipid_Transport:_Peripheral_Cholesterol_Activity_and_Summary_of_Lipid_Transport
+  F: Which two organs produce nascent HDL ? [Liver and intestines]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[209] GUID=f^TOgwu5fa TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: The enzyme [ LCAT ] may convert cholesterol to cholesteryl ester in the blood in the presence of apolipoprotein [ A-1 ] (found on HDL)
+  V: Lecithin cholesterol acyltransferase (LCAT) [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[210] GUID=D@:1sYj+>+ TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Cholesteryl ester inside of mature HDL may be transferred to VLDL, IDL, or LDL via the enzyme [ cholesteryl ester transfer protein (CETP)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[211] GUID=zmN^#2yXr! TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Which enzyme is responsible for the degradation of triglycerides in the small intestine ? [Pancreatic lipase]
+  V: - T riglycerides i n chylomicrons and VLDLs: Lipoprotein lipase (LPL) - T riglycerides i n IDLs and chylomicron remnants: hepatic triglyceride lipase 
+
+[212] GUID=o{wdS0Vp,) TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Which lipid transport enzyme is responsible for the degradation of triglycerides in the chylomicrons and VLDLs ? [Lipoprotein lipase (LPL)]
+  V: - T riglycerides i n IDLs and chylomicron remnants: hepatic triglyceride lipase - T riglycerides stored in adipocytes: hormone-sensitive lipase - T ri
+
+[213] GUID=q!CT~=boHb TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: Lipoprotein lipase (LPL) is regulated via positive feedback by [ insulin ] and [ apolipoprotein C-II ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[214] GUID=KT1ZxTxBw_ TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Which lipid transport enzyme is responsible for the degradation of remaining triglycerides in IDLs and chylomicron remnants ? [Hepatic triglyceride lipase]
+  V: - T riglycerides i n chylomicrons and VLDLs: Lipoprotein lipase (LPL) - T riglycerides stored in adipocytes: hormone-sensitive lipase - T riglycerides
+
+[215] GUID=HhFsEqme2e TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Which lipid transport enzyme is responsible for the degradation of triglycerides stored in adipocytes ? [Hormone-sensitive lipase]
+  V: - T riglycerides i n chylomicrons and VLDLs: Lipoprotein lipase (LPL) - T riglycerides i n IDLs and chylomicron remnants: hepatic triglyceride lipase 
+
+[216] GUID=Ls;X]_7[Yq TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Which lipoproteins carry the most cholesterol ? [LDL and HDL]
+  V: LDL transports cholesterol from liver to tissues; HDL from tissues to liver
+
+[217] GUID=r+jE[&Hl(G TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Which lipoprotein is secreted by intestinal epithelial cells and delivers dietary triglycerides to peripheral tissue ? [Chylomicrons]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[218] GUID=h9MT2X/z/% TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Which lipoprotein is secreted by the liver and delivers hepatic TGs to peripheral tissue ? [VLDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[219] GUID=eu?YS36|58 TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Which lipoprotein is formed by the degradation of VLDL and delivers TGs and cholesterol to the liver ? [IDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[220] GUID=p!dbho!$Bg TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Which lipoprotein is formed by modification of IDL and delivers hepatic cholesterol to peripheral tissue ? [LDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[221] GUID=dj<6f3~Xv= TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: Which lipoprotein mediates reverse cholesterol transport from the periphery to the liver ? [HDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[222] GUID=b%}<fY2wF> TAG=Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins
+  F: Which lipoprotein is a repository for apolipoproteins C-II and E ? [HDL]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[223] GUID=dW:OLtX#fZ TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: The LDL-containing clathrin-coated pits fuse with [ lysosomes ], which break down cholesteryl esters into cholesterol
+  V: Via the enzyme lysosomal esterase [img] Photo credit: Katzmann JL, Gouni-Berthold I and Laufs U (2020) PCSK9 Inhibition: Insights From Clinical Trials
+
+[224] GUID=KfU)CHc%`: TAG=Biochemistry::09_Lipid_Metabolism::07_Lipid_Transport:_Lipoprotein_Export_from_Liver
+  F: What happens to most of the endocytosed LDL receptors ? [Recycled to cell membrane]
+  V: Some LDL receptors are degraded; replaced via LDL-receptor gene expression [img] Photo credit: Katzmann JL, Gouni-Berthold I and Laufs U (2020) PCSK9 
+
+[225] GUID=MT!e6_tPQW TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: Increased levels of cholesterol inside the hepatocyte leads to [ decreased ] activity of the enzyme [ HMG-CoA reductase ]
+  V: When cholesterol ↑ in cells: ↓ HMG CoA Reductase → no synthesis ↑ ACAT → storage ↓ LDL receptor → no uptake When cholesterol ↓ in cells: ↑ HMG CoA Red
+
+[226] GUID=vO7q~b)@{* TAG=Biochemistry::09_Lipid_Metabolism::04_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Lipoproteins
+  F: The precipitated cholesterol in blood vessels may be picked up by [ HDL ] and esterified to cholesteryl ester
+  V: - Esterification occurs via the activity of apolipoprotein A and LCAT - Cholesteryl ester may then be transferred to IDL, VLDL, or LDL [img] Photo cre
+
+[227] GUID=yjEM!*%`C$ TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ I ] hyperlipoproteinemia is also known as [ familial hyperchylomicronemia ]
+  V: [img]
+
+[228] GUID=oEiQ|>$mI& TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: What is the mode of inheritance of type I hyperlipoproteinemia ? [Autosomal recessive]
+  V: Type I and III are AR Type II and IV are AD [img]
+
+[229] GUID=q;BEP5cDpo TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ I ] lipoproteinemia is due to a(n) [ LPL ] or [ apo C-II ] deficiency
+  V: - Chylomicrons use LPL ( lipoprotein lipase ) to release FFAs from their TAGs to adipocytes, generating chylomicron remnants - Apo C-II is used to act
+
+[230] GUID=lT4h,eI7cY TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipoprotein is elevated in type I hyperlipoproteinemia ? [Chylomicrons]
+  V: - Hence why type I hyperlipoproteinemia is also known as familial chylomicronemia syndrome - Chylomicrons are broken down using LPL (activated by apo 
+
+[231] GUID=C/!_B^~nH9 TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipids are elevated in type I hyperlipoproteinemia ? [ Triglycerides and cholesterol]
+  V: TAG are typically above 1000 mg/dL [img]
+
+[232] GUID=s,4g.sio^H TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ I ] hyperlipoproteinemia commonly presents with red-orange [ eruptive/pruritic xanthomas ]
+  V: - Plaques or nodules composed of lipid-laden histiocytes ("foam cells") in skin (also in bone marrow and liver) - Also may present with lipemia retina
+
+[233] GUID=kUz!/_,.,. TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which type of familial dyslipidemia is associated with pancreatitis and hepatosplenomegaly ? [Type I (hyperchylomicronemia)]
+  V: May also have fatty liver and abdominal pain after high fat meals [img]
+
+[234] GUID=oVR2CxEk}c TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Does type I familial dyslipidemia cause an increased risk for atherosclerosis ? [No]
+  V: - Type II and III do , type I and IV do not (*other sources say type IV does carry coronary artery risk- type I and type V carry no risk) [img]
+
+[235] GUID=EsI-iZ+Cw< TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ I ] familial dyslipidemia is characterized by a(n) "[creamy]" layer in supernatant
+  V: [img] Photo credit: Mark-shea at English Wikipedia , Public domain, via Wikimedia Commons [img]
+
+[236] GUID=g;h,z*b=vT TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IIa ] familial dyslipidemia is also known as [ familial hypercholesterolemia ]
+  V: [img]
+
+[237] GUID=fE_o3Qmh%K TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: What is the mode of inheritance of type II familial dyslipidemia ? [Autosomal dominant]
+  V: Type I and III are AR Type II and IV are AD [img]
+
+[238] GUID=yfJZwO8jcq TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IIa ] familial dyslipidemia is due to either: - Absent or defective [ LDL receptors ] - Defective [ apo B-100 ]
+  V: - Conversely, type IIb familial dyslipidemia is due to defective LDL receptors and increased apo B-100 synthesis - Apo B-100 is the ligand for LDL rec
+
+[239] GUID=q^pVVLi&P& TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipoprotein is elevated in type IIa familial dyslipidemia ? [LDL]
+  V: [img]
+
+[240] GUID=Huy!P-)?.R TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipid is elevated in type IIa familial dyslipidemia ? [Cholesterol]
+  V: Hence why it is also known as familial hypercholesterolemia [img]
+
+[241] GUID=t(&s4=0c*d TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IIa ] familial dyslipidemia commonly presents with tendinous [ xanthomas ], especially on the [ Achilles ] tendon
+  V: Can also present on the knuckles [img] Photo credit: Kumar et al. , CC BY 2.0 , via BMC Case Journal [img]
+
+[242] GUID=tW:LAsL48S TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which type of familial dyslipidemia is associated with corneal arcus ? [Type II (familial hypercholesterolemia)]
+  V: [img] Photo credit: Afrodriguezg , CC BY-SA 4.0 , via Wikimedia Commons [img] Photo credit: A montasir , CC BY-SA 4.0 , via Wikimedia Commons [img]
+
+[243] GUID=e=eA7%Wx4= TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Does type IIa familial dyslipidemia cause an increased risk for atherosclerosis ? [Yes, accelerated atherosclerosis may cause MI before age 20]
+  V: - Type II and III do , type I and IV do not (*other sources say type IV does carry coronary artery risk- type I and type V carry no risk) [img]
+
+[244] GUID=zH{ehfv`(i TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Patients with heterozygous familial hypercholesterolemia (1:500) have cholesterol levels of ~ [300] mg/dL
+  V: Compared to ~ 700+ mg/dL in homozygous familial hypercholesterolemia [img]
+
+[245] GUID=pEpPmp?jw& TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Patients with homozygous familial hypercholesterolemia (very rare) have cholesterol levels of ~ [700+] mg/dL
+  V: Compared to ~ 300 mg/dL in heterozygous familial hypercholesterolemia [img]
+
+[246] GUID=m_NR1,n6G/ TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IV ] familial dyslipidemia is also known as [ familial hypertriglyceridemia ]
+  V: [img]
+
+[247] GUID=NRf:pOCWjs TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: What is the mode of inheritance of type IV familial dyslipidemia ? [Autosomal dominant]
+  V: Type I and III are AR Type II and IV are AD [img]
+
+[248] GUID=D$d}B(N:Lj TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IV ] familial dyslipidemia is due to hepatic overproduction of [ VLDL ]
+  V: [img]
+
+[249] GUID=pK9F4bt5%d TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipoprotein is elevated in type IV familial dyslipidemia ? [VLDL]
+  V: [img]
+
+[250] GUID=PPDqiKQ>jY TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Which serum lipid is elevated in type IV familial dyslipidemia ? [Triglycerides]
+  V: Hence why it is also known as hypertriglyceridemia [img]
+
+[251] GUID=l9^PcNd|q> TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Patients with type IV familial dyslipidemia often have triglyceride levels around [ 200 ] to [ 500 ] mg/dL, which typically is not enough to cause pancreatitis
+  V: When TG > 1000 mg/dL, this causes acute pancreatitis [img]
+
+[252] GUID=P!z~o3)2?& TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: Cholesterol synthesis begins with [acetyl-CoA]
+  V: [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuronal Lipid Metabolism: Multiple Pathways Driving Functional Outcomes in He
+
+[253] GUID=r+`.O8WW{V TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: Where in the cell does cholesterol synthesis occur? [Cytoplasm]
+
+[254] GUID=ML~cmE_%_0 TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: What is the rate-limiting enzyme for cholesterol synthesis ? [HMG-CoA reductase]
+  V: [img] Photo credit: Tracey et al. , CC BY 4.0 , via Frontiers in Molecular Neuroscience
+
+[255] GUID=zYN*<=/}Z3 TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: HMG-CoA reductase is regulated via positive feedback by [ insulin ] and [ thyroxine (T 4 ) ]
+  V: Glucagon & Cholesterol → (-) HMG-CoA reductase (+) ← Insulin & Thyroxine [img] Photo credit: Tracey et al. , CC BY 4.0 , via Frontiers in Molecular Ne
+
+[256] GUID=Ik;}YK+<t] TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: HMG-CoA reductase is regulated via negative feedback by [ glucagon ] and [ cholesterol ]
+  V: Glucagon & cholesterol → (-) HMG-CoA reductase (+) ← Insulin & thyroxine [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuro
+
+[257] GUID=zmHtISRl%f TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: HMG-CoA is converted to [ mevalonate ] via the enzyme [ HMG-CoA reductase ] (cholesterol synthesis)
+  V: [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuronal Lipid Metabolism: Multiple Pathways Driving Functional Outcomes in He
+
+[258] GUID=m2D}a]9a,] TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: HMG-CoA reductase requires two molecules of [NADPH]
+  V: [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuronal Lipid Metabolism: Multiple Pathways Driving Functional Outcomes in He
+
+[259] GUID=FU)hO1h15V TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: What substance is the primary regulator of membrane fluidity ? [Cholesterol]
+  V: [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuronal Lipid Metabolism: Multiple Pathways Driving Functional Outcomes in He
+
+[260] GUID=ngB#|.a><? TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: What substance is the precursor to bile acids , steroids , and vitamin D ? [Cholesterol]
+  V: [img] Photo credit: Tracey TJ, Steyn FJ, Wolvetang EJ and Ngo ST (2018) Neuronal Lipid Metabolism: Multiple Pathways Driving Functional Outcomes in He
+
+[261] GUID=KZNZ(0LIS! TAG=Biochemistry::09_Lipid_Metabolism::08_Lipid_Transport:_Peripheral_Cholesterol_Activity_and_Summary_of_Lipid_Transport
+  F: What % of plasma cholesterol is esterified by the enzyme LCAT ? [67% (2/3rds)]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[262] GUID=ukIPa~+{KQ TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: What class of drugs inhibits the enzyme HMG-CoA reductase ? [Statins]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[263] GUID=Du&FZyp$Ex TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Statins are [ competitive ] [ reversible ] inhibitors of HMG-CoA reductase
+
+[264] GUID=zO;eo}i&6y TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: In adipose tissue, triglycerides are broken down into glycerol and fatty acids by the enzyme [ hormone-sensitive lipase ]
+  V: - T riglycerides i n chylomicrons and VLDLs: Lipoprotein lipase (LPL) - T riglycerides i n IDLs and cylomicron remnants: hepatic triglyceride lipase -
+
+[265] GUID=Ls2g-oLNva TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Hormone sensitive lipase is induced by [ epinephrine ], [ glucagon ], and [ cortisol ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[266] GUID=NKE^S(plx2 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Hormone sensitive lipase is regulated via negative feedback by [ insulin ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[267] GUID=PkKv<Ny;SA TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Glycerol , from triglyceride breakdown , travels to the liver and is converted to glucose via the process of [gluconeogenesis]
+  V: Via the enzyme glycerol kinase [img] Photo credit: Boumphreyfr , CC BY-SA 3.0 , via Wikimedia Commons
+
+[268] GUID=wu!536*ysX TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acids , from triglyceride breakdown , are broken down into acetyl-CoA via the process of [ β-oxidation ]
+  V: Acetyl-CoA is then used for the Kreb's cycle or to produce ketone bodies [img] Photo credit: Image licensed by Physeo and used with permission. Purcha
+
+[269] GUID=NYiv.KBRlK TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: In preparation for β-oxidation, fatty acids in the cytosol are converted to [ fatty acyl-CoA ] via the enzyme [ fatty acyl-CoA synthetase ]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[270] GUID=IMW%ASW*.w TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: In the intermembrane space , fatty acyl-CoA is converted to [ fatty acyl-carnitine ] via the enzyme [ carnitine palmitoyltransferase 1 (CPT1)]
+  V: - Carnitine acyltransferase-1 (CAT1) - Note : there are conflicting sources saying this happens in the cytosol vs. intermembrane space [img] Photo cre
+
+[271] GUID=tf&[aM?,9? TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: What is the rate-limiting enzyme of fatty acid β-oxidation ? [Carnitine palmitoyl transferase-1 (CPT-1)]
+  V: Carnitine acyltransferase-1 [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[272] GUID=se8y43gfIe TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Where in the cell does β-oxidation occur? [Mitochondria]
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[273] GUID=I_?i*b[)Wr TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Carnitine acyltransferase-1 (CAT1) is regulated via negative feedback by [ malonyl-CoA ]
+  V: Malonyl-CoA is produced during fatty acid synthesis from acetyl-CoA [img] Photo credit: Image licensed by Physeo and used with permission. Purchase fu
+
+[274] GUID=evQ?N]cCh_ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acyl-carnitine is transported from the intermembrane space into the mitochondrial matrix via the [ carnitine ] transporter
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[275] GUID=Ja2$)IOJU( TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acyl-carnitine is converted into [ fatty acyl-CoA ] via the enzyme [ carnitine palmitoyl transferase 2 (CPT2)]
+  V: Carnitine acyltransferase-2 (CAT2) [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[276] GUID=C`zKzo}I!; TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Fatty acyl-CoA is broken down into molecules of [ acetyl-CoA ] via the enzyme [ fatty acyl-CoA dehydrogenase ] (β-oxidation)
+  V: There are multiple forms of fatty acyl-CoA dehydrogenase depending on the length of the fatty acyl-CoA (e.g., long CAD, medium CAD...) [img] Photo cre
+
+[277] GUID=m8A{UZ9;>+ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Each cycle of β-oxidation produces [ one ] molecule(s) of FADH 2 and [ one ] molecule(s) of NADH
+  V: [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .
+
+[278] GUID=HuSD-TyDEW TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: The acetyl-CoA generated through β-oxidation is used for [ ketogenesis ] (liver) or the [ TCA cycle ]
+  V: Ketogenesis occurs when the TCA cycle cannot (e.g., excess acetyl-CoA or limited intermediates, such as oxaloacetate) [img] Photo credit: Image licens
+
+[279] GUID=ff(2qB=#f? TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Primary carnitine ] deficiency is an inherited defect in the transport of long chain fatty acids into the mitochondria
+  V: Deficiency may be in CPT1 (CAT1), CPT2 (CAT2), or carnitine transporter [img] Photo credit: Image licensed by Physeo and used with permission. Purchas
+
+[280] GUID=hOAr1>WrYd TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Primary carnitine deficiency is characterized by muscle weakness and hypotonia , which is provoked by prolonged [exercise] ( especially if fasting )
+  V: - Prolonged exercise increases energy demands, and fasting depletes glycogen stores, forcing reliance on fatty acid oxidation - In primary carnitine d
+
+[281] GUID=C2]eBOL_V{ TAG=Biochemistry::09_Lipid_Metabolism::14_Disorders_of_Fatty_Acid_Metabolism
+  F: Primary carnitine deficiency may present with [ myoglobin ] uria
+  V: - Prolonged exercise increases energy demands, and fasting depletes glycogen stores, forcing reliance on fatty acid oxidation - In primary carnitine d
+
+[282] GUID=oTtx0Gh6?$ TAG=Biochemistry::09_Lipid_Metabolism::14_Disorders_of_Fatty_Acid_Metabolism
+  F: Muscle biopsy of a patient with primary carnitine deficiency shows elevated [ triglycerides ]
+  V: Helps distinguish from McArdle's disease , which has elevated glycogen
+
+[283] GUID=rU~[/ViuF! TAG=01_Biochem::06_Metabolism::39_Fatty_acid_metabolism::*MCAD_Deficiency
+  F: The oil red O and sudan black stains are useful for staining [lipids]
+  V: Helps distinguish McArdle's disease (PAS) from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian , CC BY-SA 3.0 , via Wikimedia Common
+
+[284] GUID=A.$]JVQKoP TAG=01_Biochem::06_Metabolism::39_Fatty_acid_metabolism::*MCAD_Deficiency
+  F: The PAS stain is useful for staining [glycogen]
+  V: Helps distinguish McArdle's disease (PAS), from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian (image 1) , Tirupathipichiah (image 
+
+[285] GUID=Jd+xUP*pe8 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Medium chain acyl-CoA dehydrogenase (MCAD) ] deficiency is characterized by an inability to break down medium-sized fatty acids
+  V: - Milk has a lot of medium-sized fatty acids - Fasting is a huge problem because the liver needs energy from β-oxidation for gluconeogenesis [img] Pho
+
+[286] GUID=Kn|WDR<zKW TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: What is the mode of inheritance of medium chain acyl-CoA dehydrogenase (MCAD) deficiency ? [Autosomal recessive]
+
+[287] GUID=FC,k>RdIk< TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Medium chain acyl-CoA dehydrogenase (MCAD)] deficiency is characterized by the accumulation of [ 6 ] to [ 12 ] -carbon acyl carnitines in the blood
+
+[288] GUID=d8@2hu>O&/ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Medium chain acyl-CoA dehydrogenase (MCAD) deficiency and primary carnitine deficiency are characterized by [ hypo ] ketotic [ hypo ] glycemia
+  V: - Due to impaired β-oxidation (ATP is needed for gluconeogenesis; acetyl-CoA is needed for ketogenesis) - Occurs during periods of fasting (treatment 
+
+[289] GUID=L:`<tc7FDZ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: [ Medium chain acyl-CoA dehydrogenase (MCAD) ] deficiency may cause [ dicarboxylic ] acidemia/aciduria due to omega oxidation of fatty acids
+
+[290] GUID=I*26+{Ezw/ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Which type of acyl-CoA dehydrogenase is used to breakdown 6-12 carbon fatty acyl-CoA ? [Medium (medium chain acyl-CoA dehydrogenase)]
+
+[291] GUID=x6FK)MURVt TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Medium chain acyl-CoA dehydrogenase (MCAD) deficiency may present in infancy or early childhood with [vomiting], hyper[ammon]emia, lethargy, seizures, coma, and liver dysfunction
+
+[292] GUID=ls>mf@jI#H TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Treatment for medium chain acyl-CoA dehydrogenase (MCAD) deficiency includes avoiding [ fasting ]
+
+[293] GUID=zNKP>#)43- TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Where in the cell does ketogenesis occur? [Mitochondria]
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[294] GUID=o+D41fWGhp TAG=Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis
+  F: In which organ does ketogenesis occur? [Liver]
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[295] GUID=FN`J;4O3|~ TAG=Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis
+  F: What is the rate-limiting enzyme of ketogenesis ? [HMG-CoA synthase]
+  V: [img] Photo credit: Chu et al. , CC BY 4.0 , via Frontiers in Aging
+
+[296] GUID=L~Zvy_1>yY TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: What are the three ketone bodies ? [ Acetoacetate ] [ β-hydroxybutyrate ] [ Acetone ]
+  V: They are only made in the liver, but can't be used in the liver [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Fo
+
+[297] GUID=o,O]2o`N~: TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Ketogenesis begins with [ acetyl-CoA ], which is provided by β-oxidation of fatty acids
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[298] GUID=qNV_9ftG@F TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Acetoacetyl-CoA is converted to [ HMG-CoA ] via the enzyme [ HMG-CoA synthase ] (ketogenesis)
+  V: [img] Photo credit: Sav vas , CC0, via Wikimedia Commons [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for S
+
+[299] GUID=j[r&z8E9CX TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: HMG-CoA may be converted to [ acetoacetate ] via the enzyme HMG-CoA lyase (ketogenesis)
+  V: This occurs in the mitochondria [img] Photo credit: Sav vas , CC0, via Wikimedia Commons [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydr
+
+[300] GUID=x#&^$^[=>/ TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Acetoacetate may spontaneously be converted to [ acetone ], which is expired in the lungs
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[301] GUID=zuEl:/z4@_ TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: In the liver , acetoacetate may be converted to [ β-hydroxybutyrate ], which then travels to extrahepatic tissues (ketone body metabolism)
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[302] GUID=D)Hc0@c+d! TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: In extrahepatic tissues, β-hydroxybutyrate may be converted back to [ acetoacetate ] via the enzyme β-hydroxybutyrate dehydrogenase
+  V: - This enzyme is not present in the liver (hence why liver cannot utilize KBs) - One NAD + is used in the process [img] Photo credit: Chu Y, Zhang C a
+
+[303] GUID=oPGxT?t&p? TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: In extrahepatic tissues, acetoacetate is activated to [ acetoacetyl-CoA ] via the enzyme [ thiophorase ] (ketone body metabolism)
+  V: - This enzyme is not present in the liver (hence why liver cannot utilize KBs); one NAD + is used in the process - Thiophorase AKA succinyl-CoA:3-keto
+
+[304] GUID=v#J$2,_hv9 TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: The acetyl-CoA from acetoacetyl-CoA (ketone body metabolism) is used to generate energy via the [ Krebs cycle ]
+  V: [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydroxybutyrate, Friend or Foe for Stressed Hearts. Front. Aging 2:681513. doi: 10.3389/fragi
+
+[305] GUID=LE1Eq:]k~X TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: How many molecules of acetyl-CoA are produced from a single ketone body ? [Two]
+  V: This occurs in the mitochondria [img] Photo credit: Sav vas , CC0, via Wikimedia Commons [img] Photo credit: Chu Y, Zhang C and Xie M (2021) Beta-Hydr
+
+[306] GUID=oijw@nbc_B TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Ketone bodies are primarily used for energy in the [ brain ] (starvation state), [ muscle ], and kidney
+  V: - The brain preferentially uses glucose, but will utilize ketones for most of its energy needs during prolonged starvation - Ketone bodies are only ma
+
+[307] GUID=uRn{umsp]j TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Ketogenesis occurs in both prolonged starvation and ketoacidosis due to depletion of [ oxaloacetate ], thus preventing gluconeogenesis
+  V: Oxaloacetate cannot be combined with acetyl-CoA to form citrate , thus acetyl-CoA accumulates
+
+[308] GUID=DU@2*h#cJ| TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies
+  F: Ketogenesis occurs in alcohol use disorder due to excess [NADH], which causes shunting of oxaloacetate to malate
+  V: Oxaloacetate cannot be combined with acetyl-CoA to form citrate, thus acetyl-CoA accumulates
+
+[309] GUID=y)MK+N,ZT! TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Can a urine test for ketones detect acetoacetate ? [Yes]
+  V: * DKA confirmed by measuring BHB in the SERUM β-hydroxybutyrate is detectable in βlood (serum)
+
+[310] GUID=BKEnm1n9)4 TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Can a urine test for ketones detect β-hydroxybutyrate ? [No]
+  V: Can test for acetoacetate in urine - confirmed by measuring β-hydroxybutyrate in the serum β-hydroxybutyrate is detectable in the βlood (serum)
+
+[311] GUID=b%*6|i!o#m TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Propionyl-CoA ] may be generated via the " VOMIT " pathway: [ V aline] [ O dd-carbon fatty acids] [ M ethionine] [ I soleucine] [ T hreonine]
+  V: [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[312] GUID=c]{pc$W!!s TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Propionyl-CoA may be generated via the [ VOMIT ] pathway
+  V: V aline O dd-carbon fatty acids M ethionine I soleucine T hreonine [img] Image licensed by Physeo and used with permission. Purchase full access here 
+
+[313] GUID=FP@MDhY!:B TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Propionyl-CoA is converted to [ methylmalonyl-CoA ] via the enzyme [ propionyl-CoA carboxylase ]
+  V: Deficiency of propionyl-CoA carboxylase causes propionic acidemia [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[314] GUID=se]85C=Qy~ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Methylmalonyl-CoA may be converted to [ succinyl-CoA ] via the enzyme [ methylmalonyl-CoA mutase ] (with [vitamin B 12 ] as a cofactor)
+  V: Odd chain fatty acid metabolism [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[315] GUID=N,kV%!oB4= TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: If methylmalonyl-CoA mutase is dysfunctional , [methylmalonic acid] accumulates in the blood and urine
+  V: e.g., vitamin B 12 deficiency, mutase defect, etc. [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[316] GUID=k8xf5`xzXm TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: How much energy (kcal) can be produced from 1g of protein or carbohydrate (e.g., whey)? [4 kcal]
+
+[317] GUID=i@Yp^yRn24 TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: How much energy (kcal) can be produced from 1 g of fat ? [9 kcal]
+  V: 0.9 kg of fat contains approximately 7000 kcal
+
+[318] GUID=OGz&WZ9IE+ TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: How much energy (kcal) can be produced from 1g of alcohol ? [7 kcal]
+
+[319] GUID=zv5/h>Z+b- TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: During fasting and starvation , the priority is to supply sufficient glucose to the [ brain ] and [ RBCs ] while preserving [protein]
+
+[320] GUID=G1vNFm_72M TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the major source of energy while fasting between meals ? [Hepatic glycogenolysis]
+  V: Minor sources include hepatic gluconeogenesis and adipose release of free fatty acids
+
+[321] GUID=C&z}/0;fKN TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: Glycogen stores typically are depleted after [12] - [18] hours
+  V: May last up to one day
+
+[322] GUID=O4dNshEYop TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Can red blood cells use ketones for energy? Why? [No, they lack mitochondria]
+  V: Strictly use glucose
+
+[323] GUID=C%azB;mfy+ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: [ Propionyl ] -CoA is the only fatty acid carbon that may be used to make glucose (via gluconeogenesis)
+  V: Propionyl-CoA (from odd-carbon fatty acids) is ultimately converted to succinyl-CoA , which enters the Kreb cycle [img] Image licensed by Physeo and u
+
+[324] GUID=t:).4I7syU TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: During 1 - 3 days of starvation , the muscle and liver shift fuel use from glucose to [ free fatty acids ]
+
+[325] GUID=neL8R.Su|Y TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: What is the major source of energy during fasting (1 - 3 days)? [Hepatic gluconeogenesis]
+  V: - From peripheral tissue lactate and alanine - From adipose tissue glycerol and propionyl-CoA
+
+[326] GUID=d-u:!go}Or TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: After three days of starvation , the main source of energy for the brain becomes [ ketone bodies ] from [adipose] stores
+
+[327] GUID=O@->4]D|>u TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: After adipose stores have been depleted (prolonged starvation), vital [protein] degradation accelerates, leading to organ failure and death
+  V: Amount of excess stores determines survival time
+
+[328] GUID=zhy#H]U@RV TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the major source of energy during the first 2 seconds of exercise ? [Stored ATP]
+  V: Time during exercise Source of ATP First 2 seconds Stored ATP 2-7 seconds Creatine phosphate 10 - 60 seconds Anaerobic glycolysis > 60 seconds Aerobic
+
+[329] GUID=PZ1_Cm:{%L TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the major source of energy during the first 2 - 7 seconds of exercise ? [Creatine phosphate]
+  V: - Via the phosphocreatine shuttle - Creatine kinase takes phosphate from phosphocreatine and makes ATP Time during exercise Source of ATP First 2 seco
+
+[330] GUID=wmY-2;6^`T TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the dominant metabolic pathway during the first minute of strenuous exercise ? [Anaerobic metabolism]
+  V: Time during exercise Source of ATP First 2 seconds Stored ATP 2-7 seconds Creatine phosphate 10 - 60 seconds Anaerobic glycolysis > 60 seconds Aerobic
+
+[331] GUID=HUP{lA&,wS TAG=Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State
+  F: What is the major source of energy after a few minutes of exercise ? [Aerobic metabolism]
+  V: Via oxidative phosphorylation Time during exercise Source of ATP First 2 seconds Stored ATP 2-7 seconds Creatine phosphate 10 - 60 seconds Anaerobic g
+
+[332] GUID=h]Cwv/r),s TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: Fat-soluble vitamin deficiencies may occur with syndromes that cause [steatorrhea] (e.g., cystic fibrosis and sprue)
+  V: [img]
+
+[333] GUID=t;KMRHt:qj TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Absorption of fat-soluble vitamins is dependent on the intact [ ileum ], [ pancreatic ] secretions , and [ bile ] emulsification
+
+[334] GUID=y.wLa8@y.9 TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Vitamin [ B 1 ] is also known as [ thiamine ]
+
+[335] GUID=c`tY;`iy&j TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the coenzyme ( active ) form of vitamin B 1 ? [Thiamine pyrophosphate (TPP)]
+
+[336] GUID=pN*x{#~]a[ TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Thiamine pyrophosphate (vitamin B 1 ) is a cofactor for the enzyme [ pyruvate dehydrogenase ] ( glycolysis )
+  V: " T ender L oving C are F or N ancy" enzyme: - T hiamine pyrophosphate (vitamin B 1 ) - L ipoic acid - C oenzyme A (vitamin B 5 , pantothenic acid) - 
+
+[337] GUID=lm]|9wWFaE TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Thiamine pyrophosphate (B 1 ) is a cofactor for the enzyme [ α-ketoglutarate dehydrogenase ] (TCA cycle)
+  V: " T ender L oving C are F or N ancy" enzyme T hiamine pyrophosphate (B 1 ) L ipoic acid C oenzyme A (B 5 , pantothenic acid) F AD (B 2 , riboflavin) N
+
+[338] GUID=0s5]zrX#q TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: ATP depletion in vitamin B 1 (thiamine) deficiency is worsened by [glucose] infusion
+  V: IV thiamine should be given before glucose to prevent the development of Wernicke encephalopathy
+
+[339] GUID=ogHt9ZX*p& TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Which tissues are affected first in vitamin B 1 (thiamine) deficiency ? [Highly aerobic tissue (e.g., brain, heart, etc.)]
+
+[340] GUID=KbwG)9).@q TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Vitamin B 1 deficiency is seen in [alcohol use disorder] and [malnutrition]
+
+[341] GUID=oX.&H822Zu TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: One complication of severe, prolonged vitamin [ B 1 (thiamine) ] deficiency is [ Wernicke-Korsakoff ] syndrome
+  V: - Often in patients with chronic alcohol use disorder with suspected malnutrition ; the two occur together and have the same etiology but are two dist
+
+[342] GUID=gS(w1Zrd&1 TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: [ Wernicke encephalopathy ] is characterized by a triad of symptoms that may be remembered with the mnemonic " CAN O'beer ": [ C onfusion] [ A taxia] [ N ystagmus/ O phthalmoplegia]
+  V: - This triad is only present in ~30% of patients with Wernicke encephalopathy per AMBOSS - Seen in cases of severe malnourishment such as alcohol use 
+
+[343] GUID=kX-1twhk8j TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Wernicke encephalopathy is characterized by a triad of symptoms that may be remembered with the mnemonic [ CAN O'beer ]
+  V: C onfusion A taxia N ystagmus/ O phthalmoplegia - This triad is only present in ~30% of patients with Wernicke encephalopathy per AMBOSS - Seen in cas
+
+[344] GUID=vM;*:>Cm?I TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Is the memory loss associated with Wernicke-Korsakoff syndrome temporary or permanent? [Permanent]
+  V: Wernicke encephalopathy is reversible whereas the memory changes that are associated with Korsakoff syndrome are not [img] [img]
+
+[345] GUID=QU_Z+$7;OX TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Vitamin [ B 3 ] is also known as [ niacin ]
+
+[346] GUID=v5>*]xyi1 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Vitamin B 3 (niacin) is a constituent of [ NAD + ] and [ NADP + ]
+
+[347] GUID=K>lmq`HRPV TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Vitamin B 3 (niacin) is involved in many [redox] reactions
+  V: Niacin is needed for the production of NAD + and NADP + which are involved in several redox reactions as electron carriers
+
+[348] GUID=K[J&(N(}+~ TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Vitamin B 3 (niacin) is used to treat pellagra and [ dyslipidemia ]
+  V: - Lowers levels of VLDL - Raises levels of HDL [img]
+
+[349] GUID=hSeU`/cST3 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Vitamin [ B 3 (niacin)] excess is associated with hyper [ glycemia ] and hyper [ uricemia ]
+
+[350] GUID=ou*l>Qy/;o TAG=01_Biochemistry_&_Genetics::08_Fatty_Acid_Synthesis
+  F: Vitamin [ B 5 (pantothenic acid)] is an essential component of [ coenzyme A ] and fatty acid synthase
+
+[351] GUID=hVRHnp}TQt TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: Vitamin [ B 7 ] is also known as [ biotin ]
+
+[352] GUID=j,z&2sVIqv TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Vitamin B 7 (biotin) is a cofactor for [ carboxylation ] reactions
+  V: Adds a 1-carbon group
+
+[353] GUID=dquhH)ij#Y TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: Vitamin B 7 (biotin) is a cofactor for the enzyme [ pyruvate carboxylase ] (gluconeogenesis)
+  V: Pyruvate (3C) → oxaloacetate (4C) [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[354] GUID=o%6#ThhAp[ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Vitamin B 7 (biotin) is a cofactor for the enzyme [ acetyl-CoA carboxylase ] (fatty acid synthesis)
+  V: Acetyl-CoA (2C) → malonyl-CoA (3C) [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[355] GUID=CGbwh;:QJY TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: Vitamin B 7 (biotin) is a cofactor for the enzyme [ propionyl-CoA carboxylase ] ( VOMIT pathway)
+  V: Propionyl-CoA (3C) → methylmalonyl-CoA (4C) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .
+
+[356] GUID=b?@7`2+}M( TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: Vitamin [ B 7 (biotin)] deficiency may be caused by excessive ingestion of [ raw eggs ], which contain [ avidin ]
+  V: " Avid in in egg whites avid ly binds biotin"
+
+[357] GUID=hG8mx(GwgE TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: In addition to ingestion of raw eggs, vitamin B 7 (biotin) deficiency may occur with [antibiotic] use or [biotinidase] deficiency
+  V: - Broad-spectrum antibiotics - Biotinidase cleaves biotin from meats (thus just supplement with biotin) → multiple carboxylase deficiency
+
+[358] GUID=B]8-8tXKTl TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: Vitamin B 7 (biotin) deficiency presents with [alopecia], macular dermatitis, mental status changes, enteritis, and lactic acidosis
+  V: - Thus patients with vitamin B 7 (biotin) deficiency have increased AG metabolic acidosis - Lactic acidosis due to lactate buildup (the liver cannot c
+
+[359] GUID=Fvx07F^^Hj TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Vitamin B 12 (cobalamin) is a cofactor for [ methionine synthase ] and [ methylmalonyl-CoA mutase ]
+  V: Transfers CH 3 groups as methylcobalamin [img] Photo credit: Lyon et al. , CC BY 4.0 , via MDPI Nutrients [img] Image licensed by Physeo and used with
+
+[360] GUID=lsXXZwX)QM TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Increased NADH/NAD + (e.g., due to ethanol) causes decreased TCA activity, thus increasing utilization of acetyl-CoA for [ ketogenesis ] and [ lipogenesis ]
+  V: Predisposes to ketoacidosis and hepatosteatosis
+
+[361] GUID=tqmjBev[1F TAG=01_Biochem::06_Metabolism::14_Electron_transport_chain_and_oxidative_phosphorylation::*ATP_Production
+  F: Aerobic metabolism of glucose produces [ 32 ] net ATP via the [ malate-aspartate ] shuttle (heart and liver)
+
+[362] GUID=g_nPX[vH(Q TAG=01_Biochem::06_Metabolism::14_Electron_transport_chain_and_oxidative_phosphorylation::*ATP_Production
+  F: In the muscle , aerobic metabolism of glucose produces [ 30 ] net ATP via the [ glycerol-3-phosphate ] shuttle
+
+[363] GUID=I0:GE&<8m- TAG=01_Biochem::06_Metabolism::14_Electron_transport_chain_and_oxidative_phosphorylation::*ATP_Production
+  F: [ Arsenic ] is a heavy metal that causes glycolysis to produce zero net ATP
+  V: - Arsenite binds to lipoic acid - Arsenate is a phosphate analog and incorporates into 3PG to form an unstable anhydride, resulting in spontaneous hyd
+
+[364] GUID=i%-Bph=qn> TAG=04_Biochem::02_Metabolism::10_Fatty_Acids
+  F: NADPH is generally used as an electron carrier in [ anabolic ] processes
+  V: - e.g., steroid and fatty acid synthesis; supplies reducing equivalents - vs. NAD+ which is generally used as an electron carrier in catabolic process
+
+[365] GUID=JUQMmHh=d, TAG=05_Biochem::05_Metabolism::34_Biotin_(B7)_-_Nutrition
+  F: What does the carrier molecule biotin carry in its activated form? [CO 2 ]
+
+[366] GUID=xpARU)u<r2 TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Activation of [ α 2 ] adrenergic receptors [ inhibits ] lipolysis and release of fatty acids
+  V: You are inhibiting transmission through PKA, so you don't have phosphorylation (and activation) of HSL (which breaks TAGs into FFA and glycerol)
+
+[367] GUID=oCA{%%o&/0 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: Activation of β 1 and β 2 adrenergic receptors [ stimulates ] lipolysis and release of fatty acids
+  V: HSL (hormone-sensitive lipase - found in the liver) is stimulated by phosphorylation via PKA, resulting in digestion of TAG to FFA and glycerol backbo
+
+[368] GUID=i~R70aiGCX TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: [ Korsakoff ] syndrome is a late manifestation of Wernicke encephalopathy characterized by [ confabulations ], irreversible memory loss, and personality changes
+  V: Confabulation is when individuals distort, falsify, or misinterpret memories without the intent of deception [img] [img] [img]
+
+[369] GUID=sgs[::}%C. TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Wernicke-Korsakoff syndrome is characterized by: - Damage [bi]laterally to the [mammillary bodies] - Periventricular hemorrhagic lesions to the [dorsomedial] nucleus of the [thalamus]
+  V: - Mammillary bodies are involved in recollective and spatial memory - The dorsomedial nucleus of the thalamus plays a role in memory - The anterior th
+
+[370] GUID=K+_TD)^9/A TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Wernicke-Korsakoff syndrome is associated with [thiamine (vitamin B 1 )] deficiency and excessive [alcohol] use
+  V: [img] [img] [img]
+
+[371] GUID=z?vB5xb$}G TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Wernicke-Korsakoff syndrome can be induced iatrogenically by giving [glucose] without thiamine to a vitamin B 1 deficient patient (e.g., alcohol use disorder or malnourishment)
+  V: [img] [img] [img]
+
+[372] GUID=j@uIU_Cz0v TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Adrenoleukodystrophy is due to a mutation in a(n) [peroxisomal] membrane transporter, preventing very long chain fatty acids (VLCFAs) from being tagged with [ coenzyme A ]
+  V: - This is caused by a mutation in ABCD1, a gene coding for ALD, a peroxisomal membrane transporter protein which is needed for VLCFAs to be transporte
+
+[373] GUID=HmuqN[:#%Z TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Adrenoleukodystrophy is inherited in a(n) [X-linked recessive] fashion
+  V: Thus, typically affects males
+
+[374] GUID=I63dV)2n~3 TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: In [ adrenoleukodystrophy ], the peroxisomal metabolism of [ very long-chain fatty acids (VLCFA)] is disrupted, resulting in excessive buildup in the nervous system , adrenal gland , and [ testes ]
+  V: Initial symptoms in childhood : - Adrenal insufficiency ( often first sx ) - Hyperactivity - Hyperpigmentation of skin Progression : - Progressive dem
+
+[375] GUID=cLW,+QUw&h TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: Adrenoleukodystrophy is a progressive disease that damages the [ adrenal ] glands and [ white ] matter of the brain
+  V: - Can lead to long-term coma/death and Addison disease; can also damage the testes in males - VLCFA panel, plasma ACTH, and MRI can help diagnose - Mu
+
+[376] GUID=uk+7{3+sQA TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: What is the most common leukodystrophy ? [Adrenoleukodystrophy]
+
+[377] GUID=Ch[`/1!m%u TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The bile salts and phospholipids in bile are [amphipathic] molecules, which allows for the emulsification and solubilization of lipids in an aqueous environment
+
+[378] GUID=PVT{oPqPMe TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Which portion of the small intestine is responsible for absorption of bile salts ? [Terminal ileum]
+  V: Allows for high concentration of bile salts along the entire small intestine, maximizing lipid digestion/absorption; loss of the terminal ileum (e.g.,
+
+[379] GUID=O<h~[Q3>eH TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: One function of bile is to aid in the digestion and absorption of [ lipids ]
+  V: Thus bile is important in absorption of fat-soluble vitamins
+
+[380] GUID=w^8~(nwZZj TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: One function of bile is excretion of [ cholesterol ] and bilirubin
+  V: Body's primary means of eliminating cholesterol
+
+[381] GUID=qg38NmS?[- TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Pancreatic [ lipases ] are responsible for fat digestion in the small intestine
+  V: Includes pancreatic lipase, cholesterol ester hydrolase, and phospholipase A 2 Lipid Digestion Triglyceride (lingual, gastric, pancreatic lipases) → m
+
+[382] GUID=F1jgTrN<U, TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The hydrophobic products of [ lipid ] digestion are solubilized in micelles by bile acids
+  V: e.g., cholesterol, monoglycerides, free fatty acids [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[383] GUID=A{}$=t_=7s TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: [ Micelles ] bring the products of lipid digestion into contact with the intestinal brush border , where the lipid products diffuse across the luminal membrane
+  V: [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[384] GUID=u7CWH[SZDp TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Inside intestinal epithelial cells , the products of lipid digestion are [ re-esterified ] to reform the ingested lipid
+  V: [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[385] GUID=rYWt~AI^[d TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: Inside the intestinal epithelial cells , re-esterified lipids are packaged with apolipoproteins into [chylomicrons]
+  V: [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[386] GUID=Gs4ffZSa5[ TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The chylomicrons in intestinal epithelial cells enter lymphatic capillaries known as [lacteals]
+  V: [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[387] GUID=lTBAp$#3a? TAG=Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption
+  F: The chylomicrons in the lymphatic capillaries enter the bloodstream via the [ thoracic duct ]
+  V: Through lymphatics to thoracic duct [img] Photo credit: OpenStax College, CC BY 3.0 , via Wikimedia Commons
+
+[388] GUID=Cg3iCf1>N5 TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: [ Abetalipoproteinemia ] is characterized by a deficiency of apolipoprotein [ B-48 ] and [ B-100 ]
+
+[389] GUID=KB2f$z5M8| TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: Abetalipoproteinemia is a(n) [autosomal recessive] inherited malabsorption disorder that is caused by a mutation in the [ microsomal triglyceride transfer protein (MTTP)] gene
+  V: - Abetalipoproteinemia is a defect in the MTTP gene - MTTP functions as a chaperone protein necessary for proper folding of apoB and helps transfer li
+
+[390] GUID=jLTzQo7DlU TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: Abetalipoproteinemia is associated with malabsorption due to defective [ chylomicron ] formation , which requires apoB-48
+
+[391] GUID=I]bX]*>#p+ TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: [ Abetalipoproteinemia ] is associated with absent plasma VLDL and LDL , which require apoB-100
+
+[392] GUID=rh7yA.]rp) TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What class of lipid-lowering drugs is associated with cholesterol gallstone formation? [Fibrates]
+  V: - e.g., gemfibrozil, fenofibrate - Fibrates inhibit cholesterol 7-α hydroxylase → decreased bile acid synthesis → supersaturation of bile with cholest
+
+[393] GUID=zk6sVqRq~G TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: [ Arachidonic acid ] is released from the phospholipid cell membrane by the enzyme [ phospholipase A 2 ]
+  V: [img]
+
+[394] GUID=pl;Y,Q,H?% TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: What is the precursor molecule of thromboxane A 2 ? [Arachidonic acid]
+  V: [img]
+
+[395] GUID=u9OAM4vXFr TAG=Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids
+  F: What is the precursor molecule to prostanoids and leukotrienes ? [Arachidonic acid]
+  V: [img]
+
+[396] GUID=L&AO^j9V$P TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: What pathologic RBC is seen in liver disease , vitamin E deficiency , and abetalipoproteinemia (states of cholesterol dysregulation)? [Acanthocytes (spur cells)]
+  V: - Acanthocytes → liver disease, ↓ vitamin E, abetalipoproteinemia vs. - Echinocytes ("burr cells") → liver disease, end-stage renal disease, pyruvate 
+
+[397] GUID=g*:`$G!.3E TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Serum triglycerides generally must be > [ 1,000 ] mg/dL to cause pancreatitis
+  V: - Can also cause eruptive xanthomas ; diagnosis confirmed with a fasting serum lipid profile and treated with statins In acute pancreatitis, if trigly
+
+[398] GUID=qL_<[wIP-s TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: PCSK9 inhibitors ([ alirocumab ] and [ evolocumab ]) prevent [ LDL ] -receptor degradation, dramatically decreasing [ LDL ] concentrations in the blood
+  V: - PCSK9 is a protease secreted by the liver that binds onto LDL receptors, tagging them for internalization and degradation, thus more LDL stays in th
+
+[399] GUID=L/s|_agyVD TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Colchicine can affect the muscle, resulting in a(n) [ myopathy ]
+  V: Similar to statins & fibrates, colchicine is a potential cause of drug-induced rhabdomyolysis
+
+[400] GUID=LyrkipIZpM TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: What is the most common predisposing factor to mucormycosis ? [Diabetic ketoacidosis]
+  V: Proliferates in the setting of high blood sugar and high ketones (e.g., diabetic ketoacidosis in T1DM) [img] Photo credit: Higuchi et al. , CC BY 4.0 
+
+[401] GUID=BPhd;vhaGN TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: In [ Mucormycosis ], the fungus has a predilection to proliferate in [ blood vessel ] walls , especially where there is excess [ glucose ] and [ ketone bodies ]
+  V: e.g., diabetic ketoacidosis in T1DM (high blood sugar and high blood ketones) [img] Photo credit: Yale Rosen from USA , CC BY-SA 2.0 , via Wikimedia C
+
+[402] GUID=gl.@,@)VP^ TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: In fat , stimulation of β 3 receptors results in [increased lipolysis]
+  V: G s activation leads to increased cAMP → activates PKA which phosphorylates hormone-sensitive lipase which activates it
+
+[403] GUID=nn>}4()3xS TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: In the treatment of diabetic ketoacidosis (DKA) and hyperosmolar hyperglycemic state (HHS), aggressive [iso]tonic saline fluids are indicated
+  V: - These are both hyperosmotic states and thus isotonic solutions will bring down the tonicity (relatively hypotonic to the hypertonic state) - DKA: IV
+
+[404] GUID=J{qbO/RInZ TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the likely diagnosis in a young patient with nausea / vomiting , weight loss , hyperventilation , and polydipsia ? Laboratory exam is significant for low HCO 3 - and high blood glucose and K + levels [Diabetic ketoacidosis (DKA)]
+
+[405] GUID=hQ$U{C,=^j TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the recommended IV fluid regimen for hydration in patients with diabetic ketoacidosis ? [0.9% NS initially, add 5% dextrose once serum glucose is ≤ 200 mg/dL]
+
+[406] GUID=f/ueSx6qk{ TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the recommended insulin regimen in patients with diabetic ketoacidosis ? [IV insulin initially followed by subcutaneous insulin (see below); overlap SQ & IV insulin by 1-2 hours]
+  V: Hold insulin if serum K + < 3.3 mEq/L
+
+[407] GUID=O*pA_x`_y- TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What are the best markers for indicating resolution of diabetic ketoacidosis ? [Serum anion gap and β-hydroxybutyrate levels]
+  V: The gap closes with elimination of ketone anions [img]
+
+[408] GUID=Bfmv#B-/~^ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: How do total body K + levels typically change in patients with diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS)? [Decreased]
+  V: NOTE: Despite elevated serum potassium, total body potassium may be low - When treated with insulin , K + rapidly shifts from the extracellular space 
+
+[409] GUID=z]EGCgJf-u TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ III ] familial dyslipidemia is also known as [ familial dysbetalipoproteinemia ]
+  V: [img]
+
+[410] GUID=IT6jG^dPpP TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ III ] familial dyslipidemia is due to a defective [ apo E ] allele
+  V: - Apo E is involved in remnant uptake - Type thr EE → apo E - Loss of E3 and E4 alleles, generating a defective apo E2 form [img]
+
+[411] GUID=b&Akhk1P3@ TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: What is the mode of inheritance of type III familial dyslipidemia ? [Autosomal recessive]
+  V: Type I and III are autosomal recessive, and type II and IV are autosomal dominant [img]
+
+[412] GUID=oU;,.yFG,c TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ III ] familial dyslipidemia presents with [ tuberoeruptive ] xanthomas and [ palmar ] xanthomas
+  V: Palmar xanthomas ( diagnostic ) Tuberoeruptive xanthoma [img] Photo credit: R. Le, M. Minan, A. Mcintyre, & R. Hegele, Severe Combined Dyslipidemia Wi
+
+[413] GUID=yZnYBfCYZK TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Does type III familial dyslipidemia cause an increased risk for atherosclerosis ? [Yes]
+  V: - Premature coronary and peripheral atherosclerosis - Type II and III do , type I and IV do not (*other sources say type IV does carry coronary artery
+
+[414] GUID=KB$Qdk|C!E TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: The serum lipoproteins elevated in type III familial dyslipidemia are [chylomicrons] and [VLDL]
+  V: Because the liver cannot use apo E to uptake these lipoproteins by the remnant receptor (apo E receptor), chylomicrons and VLDL stay in the blood [img
+
+[415] GUID=u2p2;PH+@l TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type III familial dyslipidemia is confirmed by genetic analysis that shows absence of E [ 3 ] and E [ 4 ] Apo alleles
+  V: Results in Apo E2 allele [img]
+
+[416] GUID=MwQrWllfYb TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What two cholesterol-modulating drug classes should not be combined due to a high risk of causing rhabdomyolysis ? [Statins + fibrates]
+  V: - Do not give with a CYP450 inhibitor - Other drugs include daptomycin, integrase inhibitors, and drugs that can cause seizures
+
+[417] GUID=zIf!#|@{AK TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Diabetic ketoacidosis is often precipitated by acute [ infection ] due to systemic release of catecholamines and cortisol
+  V: These hormones are counter-regulatory to insulin and produce hyperglycemia and ketonemia with osmotic diuresis
+
+[418] GUID=iz+(b*k_4d TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: The peroxisome is a cytosolic membrane-bound organelle involved in the β-oxidation of [very-long-chain fatty acids (VLCFA)]
+  V: This is defective in adrenoleukodystrophy - VLCFA build up and cause pathology
+
+[419] GUID=KgX.3Fs?l7 TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Activation of which sympathetic receptor leads to increased lipolysis , increased thermogenesis in skeletal muscle, and increased bladder relaxation ? [β 3 ]
+  V: This is a G s linked receptor
+
+[420] GUID=n>yyi0Hx,n TAG=Biochemistry::09_Lipid_Metabolism::03_Lipid_Digestion_and_Absorption:_Cholesterol_and_Clinical_Implications
+  F: Patients with abetalipoproteinemia will have enterocytes with [clear] cytoplasm, prominently at the tips of the villi
+  V: This is because chylomicrons need ApoB48 to mediate secretion into lacteals; without it, chylomicrons build up in the villi epithelium and fat remains
+
+[421] GUID=c,Njc=y$nQ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Infection , pain , and sleep deprivation can precipitate [hyper]glycemia in patients with insulin-treated diabetes
+  V: These stressful situations increase catecholamine release, which raises glucose by decreasing pancreatic insulin secretion and by increasing glycogeno
+
+[422] GUID=OiZ)]nr<9) TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Severe diabetic ketoacidosis (DKA) can cause [respiratory] failure
+  V: - Thus can cause a concomitant respiratory acidosis on top of the metabolic acidosis - Due to severe DKA causing pulmonary edema, respiratory fatigue,
+
+[423] GUID=uFIeP|yerC TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Patients with diabetic ketoacidosis have [increased] bicarbonate reuptake
+  V: - Serum bicarbonate is low , however - α-intercalated cells in the kidney respond to metabolic acidosis by removing H + from the blood into the urine,
+
+[424] GUID=cp{{:s#7~k TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Vomiting causes [metabolic alkalosis] Diarrhea causes [metabolic acidosis]
+  V: - Vomit = lose HCl = alkalosis - Diarrhea = lose HCO 3 - = acidosis
+
+[425] GUID=zIjCl{=v(j TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: In which order should thiamine and glucose be given in the treatment of alcohol withdrawal ? [Thiamine then glucose]
+  V: Thiamine allows proper processing of glucose through metabolic pathway A: in CAC T: from PPP to glycolysis P: pyruvate to acetyl-CoA (glycolysis to TC
+
+[426] GUID=D?;0|]0=@- TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: Ketoacidosis and hypoglycemia may indicate [alcoholic ketoacidosis]
+  V: Glucose ≤ 250 Hypoglycemia : ↑ NADH = ↓ oxaloacetate (shuttled to malate) ↓ oxaloacetate for GNG ↑ NADH = ↓ lactate to pyruvate ↓ pyruvate for GNG Ket
+
+[427] GUID=PD(2oN(-At TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the likely diagnosis in a pregnant patient that develops encephalopathy , nystagmus , and gait ataxia after several days of hyperemesis gravidarum ? [Wernicke encephalopathy]
+  V: - Secondary to thiamine deficiency - This triad is only present in ∼30% of patients with Wernicke encephalopathy per AMBOSS - Seen in alcohol use diso
+
+[428] GUID=P)9fap/&Im TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: (-) ketones or acidosis and glucose > 600 mg/dL is suggestive of [hyperosmolar hyperglycemic state (HHS)]
+  V: (-) ketones and acidosis because there's some insulin around in patients with type 2 diabetes to suppress ketone release Diabetic Ketoacidosis (DKA) H
+
+[429] GUID=v3gnV-t68E TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Diabetic ketoacidosis (DKA) = [↑] anion gap due to [ketone bodies]
+  V: No insulin = ↑ ketone bodies Anion gap = [Na + - (Cl - + HCO 3 - )] Normal = 8 - 16 (anion gap) [img] Photo credit: Dr. Agnibho Mondal , CC BY-SA 4.0 
+
+[430] GUID=knat0y3*&x TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the recommended treatment for Wernicke encephalopathy ? [Thiamine prior to or along with glucose administration]
+  V: [img] [img]
+
+[431] GUID=s^aN4RZT9; TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: High intensity statins are recommended for: - Patients < 75 years old with clinical [ASCVD] - Patients with LDL > [190 mg/dL] - Patients [with diabetes] aged 40-75 with 10 yr. risk of ASCVD > 7.5%
+  V: - ASCVD = atherosclerotic cardiovascular disease (e.g., acute coronary syndrome, MI, angina, stroke, peripheral artery disease) - High-intensity stati
+
+[432] GUID=H-1IuH=s2V TAG=Biochemistry::09_Lipid_Metabolism::06_Lipid_Transport:_Triglyceride_and_Cholesterol_Import_to_Liver
+  F: [Statins] = inhibition of HMG-CoA reductase
+  V: Reduce endogenous cholesterol production from the liver → ↑ LDL receptors suck LDL out of blood [img] Photo credit: Image licensed by Physeo and used 
+
+[433] GUID=zy:,D%pke1 TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: Flushing and pruritus secondary to niacin therapy is caused by [prostaglandin]-induced peripheral vasodilation and can be treated with [aspirin]
+  V: [img] [img] Photo credit: Doc James , CC BY-SA 4.0 , via Wikimedia Commons
+
+[434] GUID=OBUs,=9-ww TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: The two high intensity statins are [atorvastatin] and [rosuvastatin]
+  V: A Rose is the best Indicated in: - Patients < 75 years old with clinical ASCVD - Patients with LDL > 190 mg/dL - Patients with diabetes aged 40-75 wit
+
+[435] GUID=G`FyhPuaN7 TAG=Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis
+  F: What is the treatment regimen for diabetic ketoacidosis ? - IV [fluids], IV [insulin], and [potassium (if ≤ 5.2)] - Once the anion gap closes : [subQ insulin] - Once blood glucose reaches 200 - 250 mg/dL: [D5W]
+  V: - Insulin infusion should be continued for 1 - 2 hrs after subcutaneous administration for bridging - D5W is to prevent hypoglycemia; monitor K + , Mg
+
+[436] GUID=BY.(4O~,{f TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Blood glucose < 600 = [DKA] Blood glucose > 600 = [HHS]
+  V: Note : This is most common presentation, patients in DKA can still have blood glucose > 600 Diabetic Ketoacidosis (DKA) Hyperosmolar Hyperglycemic Sta
+
+[437] GUID=C-9m*A#^Gp TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: [DKA] = onset < 1 day [HHS] = onset over > 5 days
+  V: - DKA = diabetic ketoacidosis - Hyperosmolar hyperglycemic state (HHS) AKA hyperosmolar hyperglycemic nonketotic syndrome (HHNK) Diabetic Ketoacidosis
+
+[438] GUID=b)Dyy:/>6z TAG=Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation
+  F: [ Adrenoleukodystrophy ] is the accumulation of very-long-chain fatty acids in the adrenals, testes, and white matter , presenting as cognitive, visual, hearing, and motor dysfunction
+  V: - Inheritance: X-linked, males affected - Pathophysiology: mutation in ABCD1 gene → defective production of adrenoleukodystrophy protein ( ALDP ) in t
+
+[439] GUID=Oqo>M!}OFb TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Rapid lowering of glucose in DKA can lead to [cerebral edema] and seizures
+  V: Analogous to rapid correction of hypernatremia - due to excess IVF and insulin, which decreases plasma osmolality (→ more water goes into cells)
+
+[440] GUID=n_R0hJQ6}c TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IIa ] familial dyslipidemia presents with increased levels of [ LDL and cholesterol ]
+  V: [img]
+
+[441] GUID=Moytb/YEe* TAG=Biochemistry::09_Lipid_Metabolism::10_Familial_Dyslipidemias
+  F: Type [ IIb ] familial dyslipidemia presents with increased levels of [ LDL, cholesterol, and VLDL ]
+  V: - Serum ApoB is consistently elevated - Coronary artery disease is common, but not earlier than the general population [img]
+
+[442] GUID=o7Zde+ErX5 TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: [ Propionic acidemia ] is caused by a defect in the enzyme [ propionyl-CoA carboxylase ]
+
+[443] GUID=DHC.+7n4}^ TAG=04_Biochem::02_Metabolism::10_Fatty_Acids::Extra
+  F: The treatment for propionic acidemia is a low [protein] diet that does not include [valine], [methionine], [isoleucine], or [threonine]
+  V: Substances that metabolize into propionyl-CoA cause you to VOMIT: Valine, Odd-chain fatty acids, Methionine, Isoleucine, and Threonine
+
+[444] GUID=Nx/F|G~K[_ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Uncontrolled diabetes (HHS, DKA) will cause a(n) [hyper]osmotic volume [ contraction ]
+  V: [img]
+
+[445] GUID=y)u.Y!m?KA TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Uncontrolled diabetes (HHS, DKA) will cause ECF volume to [ decrease ]
+  V: Due to polyuria, which decreases ECF (loss of hypotonic fluid from ECF space) [img]
+
+[446] GUID=Q>q6<dVqj? TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: [Cerebral edema] is a complication in up to 1% of patients with diabetic ketoacidosis
+  V: - Typically seen in the first 12 hours after the initiation of treatment - Cerebral edema is associated with a high mortality rate - Monitor patients 
+
+[447] GUID=cuVzMMv~uF TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Adipocytes, β cells, and FFAs cause release of [adipokines], which contribute to insulin resistance in obesity
+  V: A group of cytokines that regulate response to inflammation (e.g., adiponectin, leptin)
+
+[448] GUID=t*B%aYH]h[ TAG=Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis
+  F: Intracellular accumulation of triglycerides and FFAs contributes to insulin resistance in obesity via [inhibition of insulin signaling]
+  V: - Excess glucose and FFAs also accumulates in β cells leading to insulin resistance * Adipocytes, hepatocytes, muscle cells
+
+[449] GUID=NWXz~S.#@/ TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: What is the total body phosphate level in a patient with type 1 diabetes ? [Decreased]
+  V: - Phosphate and glucose are buddies. If glucose can't get into the cell, phosphate also stays in serum. Cells deplete their intracellular stores. This
+
+[450] GUID=CDV?h,Rf{~ TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: Patients with type 1 diabetes mellitus in DKA can present with [prerenal acute kidney injury (AKI)]
+  V: Due to osmotic diuresis → volume depletion → decreased renal perfusion → prerenal azotemia [img]
+
+[451] GUID=P4a$1v{)Rq TAG=Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis
+  F: What is the effect of hyperglycemia (e.g., DKA/HHS) on serum sodium levels? [Decreased (hyponatremia)]
+  V: - Elevated serum glucose → osmotic shift of water from ICF to ECF → dilution of serum sodium → hyponatremia - Patients with DKA/HHS can have true hypo
+
+[452] GUID=NPQ(WWG0jr TAG=04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra
+  F: Diabetic ketoacidosis can present with [ increased ] serum cholesterol , triglycerides , and free fatty acids
+  V: Insulin deficiency → lipolysis → lipids → released into bloodstream
+
+[453] GUID=y8h=4caM1& TAG=07_Endocrine::03_Diabetes::02_Diabetic_Ketoacidosis_(DKA)_&_Hyperosmolar_Hyperglycemic_State_(HHS)
+  F: Stress causes increased secretion of [ epinephrine ] and [ cortisol ], particularly in the absence of insulin
+  V: Causes stress hyperglycemia
+
+[454] GUID=ofeox<h:?k TAG=08_Endocrine::04_Pathology::17_Hyperglycemic_emergencies::*Hyperosmolar_Hyperglycemic_State
+  F: Hyperosmolar hyperglycemic state (HHS) may present with what symptoms? [ H ypovolemic shock] [ H ypotension] [ S eizures]
+  V: Due to severe volume depletion, osmotic diuresis, and fluid shifts into the brain
+
+[455] GUID=u:o|?(-^t= TAG=Biochemistry::09_Lipid_Metabolism::09_Hyperlipidemia_Pharmacology
+  F: What is the first-line treatment for bile acid diarrhea ? [Bile acid resins]
+  V: e.g., cholestyramine, colestipol, colesevelam
+

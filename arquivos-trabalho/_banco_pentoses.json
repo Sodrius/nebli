@@ -1,0 +1,57 @@
+[
+ {
+  "id": 266,
+  "nivel": "dificil",
+  "cc": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+  "arm": null,
+  "tags": [
+   "bioquimica",
+   "deficiencia-enzimatica",
+   "g6pd",
+   "anemia",
+   "hemacia",
+   "nadph",
+   "estresse-oxidativo"
+  ]
+ },
+ {
+  "id": 267,
+  "nivel": "dificil",
+  "cc": "Função do NADPH em diferentes vias metabólicas",
+  "arm": null,
+  "tags": [
+   "bioquimica",
+   "via-pentoses",
+   "nadph",
+   "lipogenese",
+   "glicose"
+  ]
+ },
+ {
+  "id": 268,
+  "nivel": "dificil",
+  "cc": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+  "arm": null,
+  "tags": [
+   "bioquimica",
+   "via-pentoses",
+   "nadph",
+   "ribose",
+   "nucleotideos",
+   "estresse-oxidativo"
+  ]
+ },
+ {
+  "id": 291,
+  "nivel": "dificil",
+  "cc": "quando a célula precisa so de ribose-5-P, usa ramo Não-oxidativo (F6P+G3P → 3 ribose-5-P), sem consumo ou síntese de ATP e sem gerar NADPH desnecessario",
+  "arm": null,
+  "tags": [
+   "via-pentoses",
+   "glicolise",
+   "nadph",
+   "energia-livre",
+   "regulacao-metabolica"
+  ]
+ }
+]

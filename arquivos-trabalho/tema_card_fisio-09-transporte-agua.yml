@@ -1,0 +1,60 @@
+slug: fisio-09-transporte-agua
+titulo: "Transporte epitelial: da membrana à água"
+subtitulo: "Fisiologia"
+meta:
+  - ["Disciplina", "Fisiologia (UC01)"]
+  - ["Onde estudar", "Guyton & Hall — Transporte através da membrana; Boron & Boulpaep — Transporte epitelial e osmose"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O desafio de absorver"
+        subtopicos:
+          - "1.1 O que significa absorver"
+          - "1.2 A superfície gigante"
+          - "1.3 Quatro barreiras, duas rotas"
+      - titulo: "PARTE II — A via transcelular"
+        subtopicos:
+          - "2.1 Difusão simples"
+          - "2.2 Transporte mediado por proteínas"
+          - "2.3 Transporte ativo e a lógica do enterócito"
+      - titulo: "PARTE III — Via paracelular e a água"
+        subtopicos:
+          - "3.1 Passar por entre as células"
+          - "3.2 A água segue o soluto"
+          - "3.3 Tonicidade, aquaporina e leaky × tight"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+  - titulo: "Etapa 3 — 5 questões discursivas"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "A"]
+    - ["03", "E"]
+    - ["04", "C"]
+    - ["05", "A"]
+    - ["06", "D"]
+    - ["07", "B"]
+    - ["08", "D"]
+    - ["09", "C"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "E"]
+    - ["13", "B"]
+    - ["14", "A"]
+    - ["15", "D"]
+    - ["16", "C"]
+    - ["17", "A"]
+    - ["18", "E"]
+    - ["19", "B"]
+    - ["20", "D"]
+    - ["21", "C"]
+    - ["22", "E"]
+    - ["23", "A"]
+    - ["24", "D"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "B"]
+    - ["28", "E"]
+    - ["29", "A"]
+    - ["30", "C"]

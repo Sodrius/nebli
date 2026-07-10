@@ -1,0 +1,2102 @@
+{
+  "slug": "bioq-20-pentoses-radicais-livres",
+  "gerado_em": "2026-07-05",
+  "tags_consulta": [
+    "Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+    "Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+    "Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+    "FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+    "FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency",
+    "FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+    "B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+    "B&B::18_Pathology::01_General::03_Free_Radicals",
+    "Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+    "SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+    "SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)",
+    "Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+    "Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+    "DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+    "Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+    "Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+    "Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+  ],
+  "regex": null,
+  "n_cards": 169,
+  "cards": [
+    {
+      "guid": "oZ:4-zDsxz",
+      "deck": "AnKing Step Deck",
+      "front": "Reperfusion of irreversibly-damaged cells post-MI may result in [ Ca 2+ ] influx, leading to [ hypercontraction ] of myofibrils ([ contraction band necrosis ])",
+      "raw0": "<div><b>Reperfusion</b> of irreversibly-damaged cells post-MI may result in {{c1::<b>Ca<sup>2+</sup></b>}} influx, leading to {{c2::<b>hypercontraction</b>}} of myofibrils ({{c3::<u>contraction band necrosis</u>}}) </div>",
+      "back": "Recognizable as pink bands [img] Photo credits: Nephron , CC BY-SA 3.0 , via Wikimedia Commons; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously, licensed under CC BY-SA 3.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "Du3anf;9f/",
+      "deck": "AnKing Step Deck",
+      "front": "Reperfusion of irreversibly-damaged cells post-MI may result in [ free radical ] formation (due to O 2 ), further damaging myocytes (known as [ reperfusion injury ])",
+      "raw0": "<div><b>Reperfusion</b> of irreversibly-damaged cells post-MI may result in {{c1::<b>free</b> <b>radical</b>}} <b>formation</b> (due to O<sub>2</sub>), further damaging myocytes (known as {{c2::<u>reperfusion injury</u>}})</div>",
+      "back": "Diagnose with continued rise in cardiac enzymes after opening a blocked vessel",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "Cl>G<cW1-}",
+      "deck": "AnKing Step Deck",
+      "front": "One complication of Mycoplasma pneumoniae is autoimmune [ hemolytic anemia ] due to high concentrations of cold agglutinins ( IgM )",
+      "raw0": "<div>One complication of <i>Mycoplasma </i><i>pneumoniae</i> is <b>autoimmune </b>{{c1::<b>hemolytic anemia</b>}} due to high concentrations of <b>cold agglutinins</b> (<b>IgM</b>)</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "LYwSU2#xB#",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ hexokinase ] in most tissues",
+      "raw0": "<div><div><b>Glucose</b> is converted to {{c2::<b>glucose-6-phosphate</b>}} by the enzyme {{c1::<i><b>hexokinase</b></i>}} in <u>most</u> tissues</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)"
+      ]
+    },
+    {
+      "guid": "d:hFuaXr+W",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ glucokinase ] in the liver and β cells of the pancreas",
+      "raw0": "<div><div><b>Glucose</b> is converted to {{c2::<b>glucose-6-phosphate</b>}} by the enzyme {{c1::<i><b>glucokinase</b></i>}}<i><b> </b></i>in the <u>liver</u> and <u>β cells of the pancreas</u></div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)"
+      ]
+    },
+    {
+      "guid": "d]/S$2:36c",
+      "deck": "AnKing Step Deck",
+      "front": "In liver [ microsomes ], ethanol may be converted to acetaldehyde via the enzyme [ CYP2E1 ]",
+      "raw0": "<div>In liver {{c1::<b>microsomes</b>::organelle}}, <u>ethanol</u> may be converted to <u>acetaldehyde</u> via the enzyme {{c2::<b>CYP2E1</b>}}</div>",
+      "back": "- Liver microsomes (vesicles of hepatocyte ER) contain phase 1 enzymes (e.g., CYPs, Flavin-containing monoxygenases, esterases, amidases, epoxide hydrolases) and phase 2 enzymes (e.g., UGTs) - For catalytic activity of liver microsome enzymes, exogenous cofactors (e.g., NADPH for CYPs/FMOs) are necessary - vs. in the peroxisome , ethanol may be converted to acetaldehyde via the enzyme catalase",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "De1m5OEf4j",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the cell does hexosemonophosphate (HMP) shunt activity occur? [Cytoplasm]",
+      "raw0": "<div><div>Where in the <u>cell</u> does <b>hexosemonophosphate </b>(HMP)<b> shunt</b> activity occur? </div><br><div>{{c1::Cytoplasm}}</div></div>",
+      "back": "AKA the pentose-5-pathway or the 6-phosphogluconate pathway",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "RaEDQ5]]10",
+      "deck": "AnKing Step Deck",
+      "front": "What is the rate-limiting enzyme of the HMP shunt ? [Glucose-6-phosphate dehydrogenase (G6PD)]",
+      "raw0": "<div><div>What is the <u>rate-limiting enzyme</u> of the <b>HMP shunt</b>? </div><br><div>{{c1::Glucose-6-phosphate dehydrogenase (G6PD)}}</div></div>",
+      "back": "Hexose monophosphate (HMP) shunt AKA Pentose phosphate pathway (PPP) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "kD4h(2?{>4",
+      "deck": "AnKing Step Deck",
+      "front": "One function of the [ HMP ] shunt is to provide a source of [ NADPH ], which is required for [ reductive ] reactions",
+      "raw0": "<div><div>One function of the {{c3::<b>HMP</b>}}<b> shunt</b> is to provide a source of {{c1::<b>NADPH</b>}}, which is required for {{c2::<u>reductive</u>}}<u> reactions</u> </div></div>",
+      "back": "e.g., glutathione reduction inside RBCs, fatty acid, and cholesterol biosynthesis [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "dxAS[ISwR7",
+      "deck": "AnKing Step Deck",
+      "front": "One function of the HMP shunt is to provide a source of [ ribose-5-phosphate ], which is used for [ nucleotide ] synthesis and glycolytic intermediates",
+      "raw0": "<div><div>One function of the <b>HMP shunt</b> is to provide a source of {{c1::<b>ribose-5-phosphate</b>}}, which is used for {{c2::<u>nucleotide</u>}}<u> synthesis</u> and glycolytic intermediates</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "HPd&LdGTSj",
+      "deck": "AnKing Step Deck",
+      "front": "The HMP shunt may be referred to as the [pentose phosphate] pathway",
+      "raw0": "<div>The <b>HMP shunt</b> may be referred to as the <b>{{c1::pentose phosphate}} pathway</b></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "DkO](+hW%-",
+      "deck": "AnKing Step Deck",
+      "front": "Does activity of the HMP shunt use ATP ? [No]",
+      "raw0": "<div><div>Does activity of the <u>HMP shunt</u> <b>use ATP</b>? </div><br><div>{{c1::No}} </div></div>",
+      "back": "No ATP is used or produced in the HMP shunt pathway [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "u,5Q354y(0",
+      "deck": "AnKing Step Deck",
+      "front": "Does activity of the HMP shunt produce ATP ? [No]",
+      "raw0": "<div><div><div>Does activity of the <u>HMP shunt</u> <b>produce ATP</b>? </div><br><div>{{c1::No}} </div></div></div>",
+      "back": "No ATP is used or produced in the HMP shunt pathway [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "o8,26,Y&]~",
+      "deck": "AnKing Step Deck",
+      "front": "HMP shunt activity is primarily found in the [ adrenal ] glands , [ liver ], [ lactating mammary ] glands (females), and [ RBCs ]",
+      "raw0": "<div><div><b>HMP shunt activity</b> is primarily found in the {{c1::<b>adrenal</b>}} <b>glands</b>, {{c2::<b>liver</b>}}, {{c3::<b>lactating mammary</b>}} <b>glands</b> (females), and {{c4::<b>RBCs</b>}} </div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "e,lljGR7?S",
+      "deck": "AnKing Step Deck",
+      "front": "[ Glucose-6-phosphate ] is ultimately converted to [ ribulose ] -5-phosphate via the enzyme [ glucose-6-phosphate dehydrogenase ( G6PD ) ]",
+      "raw0": "<div><div>{{c3::<b>Glucose-6-phosphate</b>}} is <i>ultimately</i> converted to {{c1::<b>ribulose</b>}}<b>-5-phosphate</b> via the enzyme {{c2::<b><i>glucose-6-phosphate dehydrogenase</i> (<i>G6PD</i>)</b>}} </div></div>",
+      "back": "6-phosphogluconate is an intermediate in this reaction [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "sVq]8w|)=y",
+      "deck": "AnKing Step Deck",
+      "front": "Conversion of glucose-6-P into ribulose-5-P (HMP shunt) produces one molecule of CO 2 and two molecules of [ NADPH ]",
+      "raw0": "<div><div>Conversion of <b>glucose-6-P</b> into <b>ribulose-5-P</b> (HMP shunt) produces <u>one</u> molecule of <b>CO<sub>2</sub></b> and <u>two</u> molecules of {{c1::<b>NADPH</b>}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "PRUpVM*i5+",
+      "deck": "AnKing Step Deck",
+      "front": "Is the conversion of glucose-6-P into ribulose-5-P (HMP shunt) a reversible or irreversible reaction? [Irreversible]",
+      "raw0": "<div><div>Is the conversion of <b>glucose-6-P</b> into <b>ribulose-5-P</b> (HMP shunt) a <u>reversible</u> or <u>irreversible</u> reaction? </div><br><div>{{c1::Irreversible}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "ih8HIyFIk-",
+      "deck": "AnKing Step Deck",
+      "front": "Ribulose-5-phosphate may be converted to [ribose]-5-phosphate via the enzyme phosphopentose isomerase (HMP shunt)",
+      "raw0": "<div><div><b>Ribulose-5-phosphate</b> may be converted to <b>{{c1::ribose}}-5-phosphate</b> via the enzyme <i>phosphopentose isomerase </i>(HMP shunt)</div></div>",
+      "back": "- This reaction also may produce glyceraldehyde-3-phosphate and fructose-6-phosphate This is reversible and thus is governed by the cellular demand for ribose-5-phosphate : - If in excess : Shunted to make G3P and F6P for ATP generation - If in demand : Enzymes act in reverse to take G3P and F6P to make ribose-5-phosphate for nucleotide synthesis [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "j2-=]9rJb.",
+      "deck": "AnKing Step Deck",
+      "front": "Is the conversion of ribulose-5-P into ribose-5-P (HMP shunt) a reversible or irreversible reaction? [Reversible]",
+      "raw0": "<div><div><div>Is the conversion of <b>ribulose-5-P</b> into <b>ribose-5-P</b> (HMP shunt) a <u>reversible</u> or <u>irreversible</u> reaction? </div><br><div>{{c1::Reversible}}</div></div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Iyy]|!MP+X",
+      "deck": "AnKing Step Deck",
+      "front": "In the [liver], the HMP shunt provides a source of NADPH for biosynthesis of fatty acids , cholesterol , and steroids",
+      "raw0": "<div><div>In the {{c1::liver::organ}}, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <u>biosynthesis</u> of <b>fatty</b> <b>acids</b>, <b>cholesterol</b>, and <b>steroids</b></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "yWqtbkb`0^",
+      "deck": "AnKing Step Deck",
+      "front": "In [neutrophils], the HMP shunt provides a source of NADPH for NADPH oxidase activity, which is used for respiratory burst",
+      "raw0": "<div><div>In {{c1::neutrophils}}, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <i>NADPH oxidase</i> activity, which is used for <b><u>respiratory burst</u></b> </div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here . [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "rKBHTacy;)",
+      "deck": "AnKing Step Deck",
+      "front": "In the RBCs , the HMP shunt provides a source of NADPH for reduction of [H 2 O 2 ] (via reduced glutathione)",
+      "raw0": "<div><div>In the <u>RBCs</u>, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <u>reduction</u> of {{c1::H<sub>2</sub>O<sub>2</sub>}} (via reduced glutathione)</div></div>",
+      "back": "[img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM (2015) NADPH-generating systems in bacteria and archaea. Front. Microbiol. 6:742. doi: 10.3389/fmicb.2015.00742 , CC BY 3.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::16_Pentose_phosphate_pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "kg.u)A]t,2",
+      "deck": "AnKing Step Deck",
+      "front": "[ Oxidized ] glutathione may be converted to [ reduced ] glutathione via the enzyme [ glutathione reductase ]",
+      "raw0": "<div><div>{{c1::<b>Oxidized</b>}}<b> glutathione</b> may be converted to {{c1::<b>reduced</b>}}<b> glutathione</b> via the enzyme {{c2::<i>glutathione reductase</i>}}</div></div>",
+      "back": "Glutathione reductase uses NADPH and FAD as cofactors for this reaction [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "mE}6gDA!&i",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme glutathione [ reductase ] requires a molecule of [ NADPH ], which is provided by the activity of the enzyme G6PD",
+      "raw0": "<div><div>The enzyme <b><i>glutathione</i></b> {{c2::<b><i>reductase</i></b>}} requires a molecule of {{c1::<b>NADPH</b>}}, which is provided by the activity of the enzyme <i><b>G6PD</b></i></div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "jUF4v|84_]",
+      "deck": "AnKing Step Deck",
+      "front": "Conversion of glucose-6-phosphate to 6-phosphogluconate , via G6PD , produces a molecule of [ NADPH ]",
+      "raw0": "<div><div><div>Conversion of <b>glucose-6-phosphate</b> to <b>6-phosphogluconate</b>, via <i>G6PD</i>, produces a molecule of {{c1::<b>NADPH</b>}}</div></div></div>",
+      "back": "This NADPH is then utilized by the enzyme glutathione reductase [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "0*#qZdz=w",
+      "deck": "AnKing Step Deck",
+      "front": "[ Reduced ] glutathione may be converted to [ oxidized ] glutathione via the enzyme [ glutathione peroxidase ]",
+      "raw0": "<div><div>{{c1::<b>Reduced</b>}}<b> glutathione</b> may be converted to {{c1::<b>oxidized</b>}}<b> glutathione</b> via the enzyme {{c2::<b><i>glutathione peroxidase</i></b>}} </div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "L)B@LYazn3",
+      "deck": "AnKing Step Deck",
+      "front": "What is the chemical name for oxidized glutathione ? [Glutathione-sulfur-sulfur-Glutathione (GSSG)]",
+      "raw0": "<div><div>What is the <u>chemical name</u> for <b>oxidized glutathione</b>? </div><br><div>{{c1::Glutathione-sulfur-sulfur-Glutathione (GSSG)}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "I`&74Y+a=4",
+      "deck": "AnKing Step Deck",
+      "front": "What is the chemical name for reduced glutathione ? [2x Glutathione-sulfhydryl (GSH)]",
+      "raw0": "<div><div>What is the <u>chemical name</u> for <b>reduced glutathione</b>? </div><br><div>{{c1::2x Glutathione-sulfhydryl (GSH)}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "CP:0.`KnC.",
+      "deck": "AnKing Step Deck",
+      "front": "[ H 2 O 2 ] may be converted to [ H 2 O ] via the enzyme glutathione [ peroxidase ]",
+      "raw0": "<div><div>{{c1::<b>H<sub>2</sub>O<sub>2</sub></b>}}<b> </b>may be converted to {{c2::<b>H<sub>2</sub>O</b>}} via the enzyme <i><b>glutathione </b></i>{{c3::<i><b>peroxidase</b></i>}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "d25y;/wGZz",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme glutathione peroxidase requires a reducing agent , which is provided in the form of [ reduced glutathione (GSH) ]",
+      "raw0": "<div><div>The enzyme <b>glutathione peroxidase</b> requires a <u>reducing agent</u>, which is provided in the form of {{c1::<b>reduced glutathione (GSH)</b>}} </div></div>",
+      "back": "- A reducing agent is a substance that causes reduction by being oxidized - GSH is an electron donor [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "pwbs?YbRFb",
+      "deck": "AnKing Step Deck",
+      "front": "What inclusion body may be seen inside the RBCs of patients with G6PD deficiency ? [Heinz bodies]",
+      "raw0": "What <u>inclusion body</u> may be seen inside the RBCs of patients with <b>G6PD deficiency</b>?<br><br>{{c1::Heinz bodies}}",
+      "back": "Blood smear shows bite cells (left) and Heinz bodies (right) [img] [img] Photo credit (left): Author: N. J. Wheeler, Jr, USC DCP; (right): “Heinz Body” by Timothy F. Herman; Muhammad U. Javaid., StatPearls [Internet]. is licensed under CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "BL/E.K+A{j",
+      "deck": "AnKing Step Deck",
+      "front": "Heinz bodies form due to precipitation of denatured [hemoglobin] within RBCs",
+      "raw0": "<div><div><b>Heinz bodies</b> form due to precipitation of <i>denatured</i> {{c1::hemoglobin}} within RBCs</div></div>",
+      "back": "- Hb sulfhydryl groups donate an electron to hydrogen peroxide, forming hemoglobin crosslinks - Classically associated with G6PD deficiency [img] Photo credit: Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics"
+      ]
+    },
+    {
+      "guid": "xPE~:zK#N*",
+      "deck": "AnKing Step Deck",
+      "front": "Fatty acid synthesis requires [ NADPH ], which is provided by the [ HMP shunt ] and [ malic ] enzyme",
+      "raw0": "<div><div><b>Fatty acid synthesis</b> requires {{c1::<u>NADPH</u>}}, which is provided by the {{c2::<b>HMP shunt</b>}} and {{c3::<b>malic</b>}}<b> enzyme</b></div></div>",
+      "back": "[img] [img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM (2015) NADPH-generating systems in bacteria and archaea. Front. Microbiol. 6:742. doi: 10.3389/fmicb.2015.00742 , CC BY 3.0",
+      "tags": [
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "uUec:<aJpz",
+      "deck": "AnKing Step Deck",
+      "front": "Which enzyme of the fatty acid synthesis pathway utilizes NADPH ? [Fatty acid synthase]",
+      "raw0": "<div><div>Which <i>enzyme</i> of the <b>fatty acid synthesis</b> pathway utilizes <u>NADPH</u>?</div><br><div>{{c1::Fatty acid synthase}}</div></div>",
+      "back": "May also be referred to as palmitate synthase [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "cgqJg20-*)",
+      "deck": "AnKing Step Deck",
+      "front": "Purine synthesis begins with [ribose-5-phosphate] (de novo pathway)",
+      "raw0": "<b>Purine synthesis</b> begins with {{c1::ribose-5-phosphate}} (de novo pathway)",
+      "back": "De novo requires aspartate , glycine , glutamine , and THF [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "y<S*dg#:?{",
+      "deck": "AnKing Step Deck",
+      "front": "Thiamine pyrophosphate (vitamin B 1 ) is a cofactor for the enzyme [ transketolase ] (HMP shunt)",
+      "raw0": "<div><div><div><div><b>Thiamine pyrophosphate</b> (vitamin B<sub>1</sub>) is a <u>cofactor</u> for the enzyme {{c1::<i>transketolase</i>}} (HMP shunt)</div></div></div></div>",
+      "back": "- Transketolase is an enzyme of the pentose phosphate pathway that uses vitamin B 1 as a cofactor to shuttle 2-carbon fragments between sugar molecules - Abnormal variants of transketolase may predispose to Wernicke-Korsakoff syndrome [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::01_Pentose_Phosphate_Pathway",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "oX.&H822Zu",
+      "deck": "AnKing Step Deck",
+      "front": "One complication of severe, prolonged vitamin [ B 1 (thiamine) ] deficiency is [ Wernicke-Korsakoff ] syndrome",
+      "raw0": "One complication of <i>severe, prolonged</i> <b>vitamin </b>{{c2::<b>B<sub>1</sub> (thiamine)</b>}}<b> </b><u>deficiency</u> is {{c1::<b>Wernicke-Korsakoff</b>}}<b> syndrome</b>",
+      "back": "- Often in patients with chronic alcohol use disorder with suspected malnutrition ; the two occur together and have the same etiology but are two distinct conditions ↓ Thiamine leads to ↓ ATP and ↑ ROS synthesis, leading to neuronal injury - Wernicke encephalopathy is reversible and presents with classic triad of confusion , ataxia , and nystagmus/ophthalmoplegia - Korsakoff syndrome is a later complication of prolonged B 1 deficiency that is irreversible and presents with a triad of confabulations (buzzword), anterograde/retrograde amnesia , and personality changes - Korsakoff syndrome represents damage to the limbic system, especially the mammillary bodies of the hypothalamus [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "tY^R3b[0fA",
+      "deck": "AnKing Step Deck",
+      "front": "Diagnosis of vitamin B 1 (thiamine) deficiency is made by measuring increased [ transketolase ] activity in [RBCs] following thiamine administration",
+      "raw0": "<div><div><div><div>Diagnosis of vitamin B<sub>1</sub> (thiamine) <u>deficiency</u> is made by measuring <u>increased</u> {{c1::<i>transketolase</i>}} activity in {{c2::RBCs}} <u>following thiamine administration</u></div></div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "w{BnQ#=oa=",
+      "deck": "AnKing Step Deck",
+      "front": "Vitamin [ E ] is also referred to as [ tocopherol ] or tocotrienol",
+      "raw0": "<b>Vitamin</b> {{c1::<b>E</b>}} is also referred to as {{c2::<b>tocopherol</b>}} or <b>tocotrienol</b>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions"
+      ]
+    },
+    {
+      "guid": "h:XM02^o@M",
+      "deck": "AnKing Step Deck",
+      "front": "Vitamin E primarily functions as a(n) [antioxidant]; protects RBCs and membranes from free radical damage",
+      "raw0": "<div><div><div><b>Vitamin E</b> primarily functions as a(n) {{c1::antioxidant}}; protects RBCs and membranes from free radical damage</div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions"
+      ]
+    },
+    {
+      "guid": "S!hxWApE^",
+      "deck": "AnKing Step Deck",
+      "front": "What vitamins function as antioxidants ? [Vitamins A, C, and E]",
+      "raw0": "<div>What <u>vitamins</u> function as <b>antioxidants</b>?</div><br><div>{{c1::Vitamins A, C, and E::3}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions"
+      ]
+    },
+    {
+      "guid": "i%-Bph=qn>",
+      "deck": "AnKing Step Deck",
+      "front": "NADPH is generally used as an electron carrier in [ anabolic ] processes",
+      "raw0": "<div><b>NADPH</b> is generally used as an <i>electron carrier</i> in {{c1::<b>anabolic</b>::anabolic/catabolic}} processes</div>",
+      "back": "- e.g., steroid and fatty acid synthesis; supplies reducing equivalents - vs. NAD+ which is generally used as an electron carrier in catabolic processes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "Ijy~FbUun[",
+      "deck": "AnKing Step Deck",
+      "front": "Which universal electron carrier is used in the cytochrome P-450 system of the liver? [NADPH]",
+      "raw0": "<div>Which <u>universal electron carrier</u> is used in the <b>cytochrome P-450 system</b> of the liver?</div><br><div>{{c1::NADPH}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "Ivd4>E|$+t",
+      "deck": "AnKing Step Deck",
+      "front": "Stored intracellular iron is bound to [ferritin], which prevents iron from forming free radicals via the Fenton reaction",
+      "raw0": "<div><div><u>Stored</u> <b>intracellular</b> <b>iron</b> is bound to {{c1::ferritin}}, which prevents iron from forming free radicals via the Fenton reaction</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "O9HT%FH3,t",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency is a disorder resulting in reduced [half-life] of G6PD",
+      "raw0": "<div><b>Glucose-6-phosphate dehydrogenase (G6PD) deficiency</b> is a disorder resulting in <u>reduced</u> {{c1::half-life}} of G6PD</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "k8$^{ST^)3",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of G6PD deficiency ? [X-linked recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>G6PD deficiency</b>? </div><br><div>{{c1::X-linked recessive}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "i+FczPGWU9",
+      "deck": "AnKing Step Deck",
+      "front": "RBCs are normally exposed to oxidative stress , especially by [ hydrogen peroxide (H 2 O 2 )]",
+      "raw0": "<div><b>RBCs</b> are normally exposed to <u>oxidative stress</u>, especially by {{c1::<b>hydrogen peroxide</b> (H<sub>2</sub>O<sub>2</sub>)::chemical}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Jk/cgK.iLY",
+      "deck": "AnKing Step Deck",
+      "front": "H 2 O 2 may be neutralized by [reduced] glutathione (an antioxidant)",
+      "raw0": "<div><b>H<sub>2</sub>O<sub>2</sub></b> may be <u>neutralized</u> by <b>{{c1::reduced}}</b><b> </b><b>glutathione</b> (an antioxidant) </div>",
+      "back": "Reduced glutathione is oxidized in the process (thus forming oxidized glutathione) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "bK!25KI#Qc",
+      "deck": "AnKing Step Deck",
+      "front": "[ NADPH ], a by-product of G6PD , is needed to regenerate [ reduced ] glutathione",
+      "raw0": "<div>{{c2::<b>NADPH</b>}}, a by-product of <i>G6PD</i>, is needed to <u>regenerate</u> {{c1::<b>reduced</b>::oxidized/reduced}} <b>glutathione</b> </div>",
+      "back": "Thus, G6PD deficiency results in decreased ability to regenerate reduced glutathione [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "M_4=n14ge$",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency renders RBCs susceptible to [oxidative] stress",
+      "raw0": "<div><b>G6PD deficiency</b> renders RBCs susceptible to {{c1::oxidative}} stress </div>",
+      "back": "Due to decreased NADPH and thus decreased reduced glutathione regeneration [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "gv<uj;I[mK",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency is a cause of [normocytic] anemia",
+      "raw0": "<div><b>G6PD deficiency</b> is a cause of {{c1::normocytic::MCV}} <b>anemia</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "j:tjmHM?7A",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency is characterized primarily by [intravascular] hemolysis",
+      "raw0": "<b>G6PD deficiency</b> is characterized <i>primarily</i> by {{c1::intravascular::intravascular/extravascular}} <b>hemolysis</b>",
+      "back": "- Intravascular hemolysis due to increased oxidative stress - However, extravascular hemolysis occurs as well (due to consumption by macrophages because red cells become rigid)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "G?+5x}O+((",
+      "deck": "AnKing Step Deck",
+      "front": "The [ African ] variant of G6PD deficiency results in [ mildly ] reduced half-life of G6PD",
+      "raw0": "<div>The {{c1::<b>African</b>}} variant of <u>G6PD deficiency</u> results in {{c2::<i>mildly</i>}} reduced half-life of G6PD </div>",
+      "back": "- Whereas the Mediterranean variant results in markedly reduced half-life - Thus leading to mild intravascular hemolysis with oxidative stress",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "hEF`Q_d1`@",
+      "deck": "AnKing Step Deck",
+      "front": "The [ Mediterranean* ] variant of G6PD deficiency results in [ markedly ] reduced half-life of G6PD",
+      "raw0": "<div>The {{c1::<b>Mediterranean*</b>}} variant of <u>G6PD deficiency</u> results in {{c2::<i>markedly</i>}} reduced half-life of G6PD </div>",
+      "back": "Thus leading to marked intravascular hemolysis with oxidative stress *Greek and Italian (some French, Spanish, Turkish)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "z;/L<+/|1.",
+      "deck": "AnKing Step Deck",
+      "front": "High carrier frequency of the mutant G6PD allele is likely due to its protective role against [ Plasmodium falciparum ] malaria",
+      "raw0": "<div><b>High carrier frequency</b> of the <u>mutant G6PD allele</u> is likely due to its <i>protective</i> role against {{c1::<i>Plasmodium falciparum</i>}} malaria</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "end43ObgsH",
+      "deck": "AnKing Step Deck",
+      "front": "In [ G6PD ] deficiency , oxidative stress precipitates denatured [hemoglobin] as [ Heinz bodies ]",
+      "raw0": "<div>In {{c3::<b>G6PD</b>}}<b> deficiency</b>, <u>oxidative stress</u> precipitates denatured {{c2::hemoglobin}} as {{c1::<b>Heinz bodies</b>}}</div>",
+      "back": "Blood smear shows bite cells (1st) and Heinz bodies (2nd): [img] [img] Photo credit: N. J. Wheeler, Jr, USC DCP; Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "C&eiUD{o|x",
+      "deck": "AnKing Step Deck",
+      "front": "In G6PD deficiency, Heinz bodies are removed from RBCs by splenic macrophages , resulting in formation of [bite] cells",
+      "raw0": "In G6PD deficiency, <b>Heinz bodies</b> are removed from RBCs by <u>splenic macrophages</u>, resulting in formation of {{c1::bite}} <b>cells</b>",
+      "back": "AKA degmacytes Blood smear shows bite cells (1st) and Heinz bodies (2nd): [img] [img] Photo credit: Author: N. J. Wheeler, Jr, USC DCP (left image); Ailuromancy , Public domain, via Wikimedia Commons (right image) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "kwHf?e79/H",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency presents with [ hemoglobin ] uria and [ back ] pain days after exposure to oxidative stress",
+      "raw0": "<div><b>G6PD deficiency</b> presents with {{c1::<u>hemoglobin</u>}}<u>uria</u> and {{c2::<u>back</u>}}<u> pain</u> days after exposure to oxidative stress</div>",
+      "back": "- Back pain due to nephrotoxicity of hemoglobin - This card used to say presents hours after exposure, but AMBOSS & UWorld confirm this occurs 2-4 days after exposure (May 2025)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "b0#~aAYzGn",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common cause of oxidative stress in patients with G6PD deficiency ? [Infection]",
+      "raw0": "<div>What is the <i>most common</i> cause of <u>oxidative stress</u> in patients with <b>G6PD deficiency</b>?</div><br><div>{{c1::Infection}} </div>",
+      "back": "Inflammatory response produces free radicals that diffuse into RBCs, causing oxidative damage",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "w+]0}+^93D",
+      "deck": "AnKing Step Deck",
+      "front": "What mediterranean food may be a source of oxidative stress in patients with G6PD deficiency ? [Fava beans]",
+      "raw0": "<div>What <u>mediterranean food</u> may be a source of <i>oxidative stress</i> in patients with <b>G6PD deficiency</b>? </div><br><div>{{c1::Fava beans}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Qrk`G!A`I}",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs is contraindicated in patients with G6PD deficiency ? [Sulfa drugs]",
+      "raw0": "<div>What <i>class</i> of drugs is <u>contraindicated</u> in patients with <b>G6PD deficiency</b>? </div><br><div>{{c1::Sulfa drugs::Besides anti-malarials or NSAIDs}}</div>",
+      "back": "Other drugs contraindicated in patients with G6PD include anti-malarials (e.g., primaquine), NSAIDs , isoniazid , etc. Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "n5fCjT7B|r",
+      "deck": "AnKing Step Deck",
+      "front": "Anti- [ malarial ] drugs , such as primaquine , may induce oxidative stress and are thus contraindicated in patients with G6PD deficiency",
+      "raw0": "<div><b>Anti-</b>{{c1::<b>malarial</b>}}<b> drugs</b>, such as <b>primaquine</b>, may induce <u>oxidative stress</u> and are thus <i>contraindicated</i> in patients with <b>G6PD deficiency</b></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "EnC,Gb7,ny",
+      "deck": "AnKing Step Deck",
+      "front": "Anti- [ tuberculosis ] drugs , such as isoniazid , may induce oxidative stress and are thus contraindicated in patients with G6PD deficiency",
+      "raw0": "<div><b>Anti-</b>{{c1::<b>tuberculosis</b>}}<b> drugs</b>, such as <b>isoniazid</b>, may induce <u>oxidative stress</u> and are thus <i>contraindicated</i> in patients with <b>G6PD deficiency</b> </div>",
+      "back": "Other antibacterials that do this include nitrofurantoin , dapsone Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "p<O[WXYXLS",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common enzymatic disorder of RBCs ? [G6PD deficiency]",
+      "raw0": "<div>What is the <i>most common</i> <u>enzymatic disorder</u> of <b>RBCs</b>? </div><br><div>{{c1::G6PD deficiency}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Hive5?CWOu",
+      "deck": "AnKing Step Deck",
+      "front": "What test is performed to screen for G6PD deficiency ? [Heinz preparation]",
+      "raw0": "<div>What test is performed to <u>screen</u> for <b>G6PD deficiency</b>?</div><br><div>{{c1::Heinz preparation}}</div>",
+      "back": "Uses a crystal violet stain to visualize precipitated Hb [img] Photo credit: Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "dJg8Tr>x4G",
+      "deck": "AnKing Step Deck",
+      "front": "The diagnosis of G6PD deficiency is confirmed via [ enzyme ] studies , which are performed [ weeks ] after a hemolytic episode resolves",
+      "raw0": "<div>The diagnosis of <b>G6PD deficiency</b> is <u>confirmed</u> via {{c1::<b>enzyme</b>}} <b>studies</b>, which are performed {{c2::<i>weeks</i>}} after a hemolytic episode resolves </div>",
+      "back": "Enzymatic studies at the time of hemolysis would be normal → cells that lack the G6PD enzyme lysed during the hemolytic episode",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Qk*MTzQCgd",
+      "deck": "AnKing Step Deck",
+      "front": "[ Autoimmune hemolytic anemia (AIHA) ] is the antibody-mediated destruction of RBCs",
+      "raw0": "<div>{{c1::<b>Autoimmune hemolytic anemia (AIHA)</b>}} is the <u>antibody-mediated</u> destruction of <b>RBCs</b></div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "pI,lHY59Yb",
+      "deck": "AnKing Step Deck",
+      "front": "The antibodies in immune hemolytic anemia are either Ig[G] or Ig[M]",
+      "raw0": "<div>The <u>antibodies</u> in <b>immune hemolytic anemia</b> are either Ig{{c1::G}} or Ig{{c1::M}}</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "kukFjN2*S!",
+      "deck": "AnKing Step Deck",
+      "front": "Ig [ G ] -mediated immune hemolytic anemia always causes [ extravascular ] hemolysis",
+      "raw0": "<div><b>Ig</b>{{c2::<b>G</b>}}<b>-mediated</b> <u>immune hemolytic anemia</u> <i>always</i> causes {{c1::<b>extravascular</b>}} <b>hemolysis</b></div>",
+      "back": "- Ig G → G uarantees extravascular hemolysis - Ig M → M ay cause extravascular hemolysis - Cold agglutinin disease causes intravascular hemolysis [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "jS!<u9#VBJ",
+      "deck": "AnKing Step Deck",
+      "front": "Which form of autoimmune hemolytic anemia is also known as warm agglutinin disease ? [IgG]",
+      "raw0": "<div>Which form of <u>autoimmune hemolytic anemia</u> is also known as <b>warm agglutinin disease</b>? </div><br><div>{{c1::IgG::IgM or IgG}}</div>",
+      "back": "Binds RBCs in the relatively warm temperature ( 37 ° C / 98.6 °F ) of the central body; \" warm weather is G reat\" [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "fGeE.MDDv{",
+      "deck": "AnKing Step Deck",
+      "front": "In IgG-mediated hemolytic anemia , the membrane of the antibody-coated RBCs is consumed by splenic macrophages , resulting in [spherocyte] formation",
+      "raw0": "<div>In <u>IgG-mediated hemolytic anemia</u>, the membrane of the antibody-coated RBCs is <b>consumed by splenic macrophages</b>, resulting in {{c1::spherocyte}} formation</div>",
+      "back": "Similar to hereditary spherocytosis [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img] [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "dCV^qWR}%j",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common cause of IgG-mediated immune hemolytic anemia ? [Systemic lupus erythematosus (SLE)]",
+      "raw0": "<div>What is the <i>most common</i> cause of <u>IgG-mediated</u> <b>immune hemolytic anemia</b>? </div><br><div>{{c1::Systemic lupus erythematosus (SLE)}}</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "y#kR!=}vRa",
+      "deck": "AnKing Step Deck",
+      "front": "Which form of immune hemolytic anemia is associated with SLE ? [IgG]",
+      "raw0": "<div>Which form of <u>immune hemolytic anemia</u> is associated with <b>SLE</b>? </div><br><div>{{c1::IgG::IgG or IgM}}</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "nCLpJFgqf$",
+      "deck": "AnKing Step Deck",
+      "front": "What cancer is associated with IgG-mediated immune hemolytic anemia ? [Chronic lymphocytic leukemia (CLL)]",
+      "raw0": "<div>What <i>cancer</i> is associated with <u>IgG-mediated</u> <b>immune hemolytic anemia</b>?</div><br><div>{{c1::Chronic lymphocytic leukemia (CLL)}}</div>",
+      "back": "- Classically associated with warm AIHA per UWorld - May also be seen with IgM-mediated IHA [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "k2z=d=~~1e",
+      "deck": "AnKing Step Deck",
+      "front": "Which form of immune hemolytic anemia may be caused by drugs ? [IgG]",
+      "raw0": "<div><div>Which form of <u>immune hemolytic anemia</u> may be caused by <b>drugs</b>? </div><br><div>{{c1::IgG::IgG or IgM}}</div></div>",
+      "back": "Dru G s [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "CJ)hyHNze^",
+      "deck": "AnKing Step Deck",
+      "front": "Certain drugs (e.g., [ penicillin ]), bind to RBC membranes, leading to formation of antibodies against the drug-RBC complex (IgG-mediated hemolytic anemia)",
+      "raw0": "<div>Certain drugs (e.g., {{c1::<b>penicillin</b>}}), bind to RBC membranes, leading to formation of <u>antibodies</u> against the <b>drug-RBC complex</b> (IgG-mediated hemolytic anemia)</div>",
+      "back": "Whereas α-methyldopa induces production of autoantibodies against RBCs (IgG-mediated hemolytic anemia) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Npa9;(@s5*",
+      "deck": "AnKing Step Deck",
+      "front": "Certain drugs (e.g., [ α-methyldopa ]) induce production of autoantibodies against RBCs (IgG-mediated hemolytic anemia)",
+      "raw0": "<div>Certain drugs (e.g., {{c1::<b>α-methyldopa</b>}}) induce production of <u>autoantibodies</u> against <b>RBCs</b> (IgG-mediated hemolytic anemia)</div>",
+      "back": "Whereas penicillin binds to RBC membranes, leading to formation of antibodies against the drug-RBC complex (IgG-mediated hemolytic anemia) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "q-wf151^rn",
+      "deck": "AnKing Step Deck",
+      "front": "Treatment of IgG-mediated hemolytic anemia involves cessation of the offending drug (if applicable) and [steroids]; may also use IVIG for temporary relief",
+      "raw0": "Treatment of <b>IgG-mediated hemolytic anemia</b> involves <u>cessation of the offending drug</u> (if applicable) and {{c1::steroids}}; may also use <u>IVIG</u> for temporary relief",
+      "back": "- Steroids slow down antibody production - IVIG = intravenous immunoglobulin so splenic macrophages eat that instead [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "i#(D85Pk>,",
+      "deck": "AnKing Step Deck",
+      "front": "What is the last resort treatment for IgG-mediated hemolytic anemia ? [Splenectomy]",
+      "raw0": "<div>What is the <i>last resort</i> treatment for <u>IgG-mediated hemolytic anemia</u>? </div><br><div>{{c1::Splenectomy}}</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "GFB[=CFC5a",
+      "deck": "AnKing Step Deck",
+      "front": "Ig [ M ] -mediated immune hemolytic anemia usually causes [ extravascular ] hemolysis",
+      "raw0": "<div><b>Ig</b>{{c2::<b>M</b>}}<b>-mediated</b> <u>immune hemolytic anemia</u> <b><i>usually </i></b>causes {{c1::<b>extravascular</b>}} <b>hemolysis</b></div>",
+      "back": "- Ig G → G uarantees extravascular hemolysis - Ig M → M ostly causes extravascular hemolysis - However, intravascular hemolysis can occur in severe cases through complement activation on RBCs bound by IgM antibodies - IgG-mediated hemolytic anemia will cause extravascular hemolysis every time however [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "y%B!U#O}*?",
+      "deck": "AnKing Step Deck",
+      "front": "Which form of autoimmune hemolytic anemia is also known as cold agglutinin disease ? [IgM]",
+      "raw0": "<div><div>Which form of <u>autoimmune hemolytic anemia</u> is also known as <b>cold agglutinin disease</b>? </div><br><div>{{c1::IgM::IgG or IgM}}</div></div>",
+      "back": "- Binds RBCs and leads to agglutination at <30°C (<86°F); \" c old weather is M iserable\" - Most likely to occur at the fingertips , but as the RBCs return to core they warm up and IgM dissociates off (conformation does not favor agglutination anymore) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "q.So%d@KYx",
+      "deck": "AnKing Step Deck",
+      "front": "When temperatures drop below 30°C , IgM AIHA antibodies may bind RBCs and activate [complement]",
+      "raw0": "<div><div>When temperatures drop below <b>30°C</b>, <b>IgM</b> <b>AIHA</b> <b>antibodies</b> may bind RBCs and activate {{c1::complement}}</div></div>",
+      "back": "- This occurs particularly in the extremities, as the RBC IgM complexes return back to the core the temperature increases - causing IgM to dissociate and leave C3 behind (which gets inactivated by DAF / MIRL); opsonized cells are cleared by the spleen - HOWEVER extreme activation of complement can lead to intravascular hemolysis [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "fNNE2D,<E*",
+      "deck": "AnKing Step Deck",
+      "front": "In IgM-mediated hemolytic anemia , RBCs inactivate complement but residual C3b serves as an opsonin for splenic macrophages , resulting in [spherocyte] formation",
+      "raw0": "<div><div>In <u>IgM-mediated hemolytic anemia</u>, RBCs inactivate complement but <i>residual C3b</i> serves as an opsonin for<b> splenic macrophages</b>, resulting in {{c1::spherocyte}} formation</div></div>",
+      "back": "Physiologically, RBCs are protected from complement-mediated destruction by GPI-anchored surface proteins , including CD55 (DAF) and CD59 (MIRL) [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "QpqHjF>}j<",
+      "deck": "AnKing Step Deck",
+      "front": "IgM-mediated hemolytic anemia is commonly associated with [ Mycoplasma pneumoniae ] infection and [ infectious mononucleosis ]",
+      "raw0": "<div><u>IgM-mediated hemolytic anemia</u> is commonly associated with {{c1::<i><b>Mycoplasma pneumoniae</b></i>}} infection and {{c2::<b>infectious mononucleosis</b>}}</div>",
+      "back": "- AKA cold agglutinin hemolytic anemia (CAHA) - Ig M : M ycoplasma , M ononucleosis [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "xOj~}skO=$",
+      "deck": "AnKing Step Deck",
+      "front": "What cancer may be associated with IgM-mediated immune hemolytic anemia ? [Chronic lymphocytic leukemia (CLL)]",
+      "raw0": "What <i>cancer</i> may be associated with <u>IgM-mediated</u> <b>immune hemolytic anemia</b>?<br><br>\n\n{{c1::Chronic lymphocytic leukemia (CLL)}}",
+      "back": "More commonly associated with IgG-mediated AIHA [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "E0VSum,k,K",
+      "deck": "AnKing Step Deck",
+      "front": "Which form of autoimmune hemolytic anemia causes painful, blue fingers and toes with cold exposure ? [IgM (cold agglutinin)]",
+      "raw0": "<div><div>Which form of <u>autoimmune hemolytic anemia</u> causes <b>painful, blue fingers and toes</b> with <b>cold exposure</b>? </div><br><div>{{c1::IgM (cold agglutinin)::IgG or IgM}}</div></div>",
+      "back": "Cold agglutination typically occurs in limbs, fingertips, toes , nose, ears [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "CMKLc)c&P~",
+      "deck": "AnKing Step Deck",
+      "front": "What test is used to diagnose autoimmune hemolytic anemia ? [Direct antiglobulin test (Coombs)]",
+      "raw0": "<div>What test is used to <u>diagnose</u> <b>autoimmune hemolytic anemia</b>? </div><br><div>{{c1::Direct antiglobulin test (Coombs)}}</div>",
+      "back": "Initial workup: CBC, reticulocyte count, hemolysis workup, and cold agglutinin titer (cold) or PBS (hot) [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "D&UZ.KA-07",
+      "deck": "AnKing Step Deck",
+      "front": "The [ direct ] Coombs test adds [ anti-human globulin (Coombs reagent)] to a sample of a patient's [ RBCs ]",
+      "raw0": "<div>The {{c1::<u>direct</u>}} <b>Coombs test</b> adds {{c2::<b>anti-human globulin</b> (Coombs reagent)}} to a sample of a patient's {{c3::<b>RBCs</b>}}</div>",
+      "back": "- Coombs reagent is a polyvalent IgM/G/C3 binding Ab; RBCs agglutinate if RBCs have been coated with antibodies - This test is commonly used to detect hemolytic anemias ; AKA the DAT (direct antibody test) [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "mCCH^fSXw5",
+      "deck": "AnKing Step Deck",
+      "front": "The [ direct ] Coombs test answers the question: \"Are the patient's RBCs already bound by immunoglobulin (or complement)?\"",
+      "raw0": "<div>The {{c1::<u>direct</u>}} <b>Coombs test</b> answers the question:</div><br><div> \"Are the patient's RBCs <i>already bound</i> by immunoglobulin (or complement)?\"</div>",
+      "back": "- Most important test for immune hemolytic anemia - While the indirect Coombs test answers the question: \"Does the patient have antibodies in their serum?\" [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "yywesj}|x2",
+      "deck": "AnKing Step Deck",
+      "front": "The [ indirect ] Coombs test adds [ donor RBCs ] and [ anti-human globulin (Coombs reagent)] to the patient's [ serum ]",
+      "raw0": "<div>The {{c1::<u>indirect</u>}} <b>Coombs test</b> adds {{c2::<b>donor RBCs</b>}} and {{c3::<b>anti-human globulin</b> (Coombs reagent)}} to the patient's {{c4::<b>serum</b>}}</div>",
+      "back": "- RBCs agglutinate if patient serum has anti-donor RBC antibody - Often used to test maternal blood [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "mA;)Upzu^a",
+      "deck": "AnKing Step Deck",
+      "front": "The [ indirect ] Coombs test answers the question: \"Does the patient have antibodies in their serum ?\"",
+      "raw0": "<div>The {{c1::<u>indirect</u>}} <b>Coombs test</b> answers the question: </div><br><div>\"Does the patient have <i>antibodies in their serum</i>?\"</div>",
+      "back": "While the direct Coombs test answers the question: \"Are the patient's RBCs already bound by immunoglobulin (or complement)?\" [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "z#B[<=&Kjn",
+      "deck": "AnKing Step Deck",
+      "front": "In erythrocytes , 90% of glucose is used for [glycolysis]",
+      "raw0": "<div>In <u>erythrocytes</u>, <b>90%</b> of <b>glucose</b> is used for {{c1::glycolysis}}</div>",
+      "back": "The remaining 10% is used in the HMP shunt",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)"
+      ]
+    },
+    {
+      "guid": "D|JP9]bF18",
+      "deck": "AnKing Step Deck",
+      "front": "In erythrocytes , 10% of glucose is used for the [HMP shunt]",
+      "raw0": "<div>In <u>erythrocytes</u>, <b>10%</b> of <b>glucose</b> is used for the {{c1::HMP shunt}}</div>",
+      "back": "The remaining 90% is used in glycolysis",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::11_HMP_Shunt_(Pentose_Phosphate_Pathway)"
+      ]
+    },
+    {
+      "guid": "jPT%=R}l+R",
+      "deck": "AnKing Step Deck",
+      "front": "One complication of chronic lymphocytic leukemia (CLL) is [ autoimmune hemolytic (AIHA)] anemia",
+      "raw0": "<div>One complication of <b>chronic lymphocytic leukemia</b> (CLL) is {{c1::<u>autoimmune hemolytic</u> (AIHA)::specific}} anemia</div>",
+      "back": "More commonly associated with IgG-mediated AIHA , but can also be IgM-mediated AIHA [img] [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "K+_TD)^9/A",
+      "deck": "AnKing Step Deck",
+      "front": "Wernicke-Korsakoff syndrome is associated with [thiamine (vitamin B 1 )] deficiency and excessive [alcohol] use",
+      "raw0": "<div><b>Wernicke-Korsakoff syndrome</b> is associated with {{c1::thiamine (vitamin B<sub>1</sub>)}} <u>deficiency</u> and <u>excessive</u> {{c2::alcohol}} use</div>",
+      "back": "[img] [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra"
+      ]
+    },
+    {
+      "guid": "BlbX;4W7F1",
+      "deck": "AnKing Step Deck",
+      "front": "The tissue damage in hemochromatosis is mediated by the generation of [free radicals]",
+      "raw0": "<div><div>The <u>tissue damage</u> in <b>hemochromatosis</b> is mediated by the generation of {{c1::free radicals}} </div></div>",
+      "back": "Increased Fe 2+ causes increased production of free radicals by the Fenton reaction [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "jBD:X+Z#KR",
+      "deck": "AnKing Step Deck",
+      "front": "The coarse yellowish-brown pigment in hepatocytes / Kupffer cells from hemochromatosis may be distinguished from lipofuscin by staining with [Prussian blue]",
+      "raw0": "The coarse <u>yellowish-brown pigment</u> in hepatocytes / Kupffer cells from <b>hemochromatosis</b> may be <i>distinguished</i> from <b>lipofuscin</b> by staining with {{c1::Prussian blue}}",
+      "back": "- Hemosiderin = iron + ferritin complexes that form micelles that accumulate in cells - The hemosiderin deposits of hemochromatosis will stain; lipofuscin will not - Can also stain hemosiderin deposits golden-yellow with hematoxylin [img] Photo credit: Häggström , CC0, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "E;~uZiS$A%",
+      "deck": "AnKing Step Deck",
+      "front": "[ Lipofuscin ] is a yellow-brown \" wear and tear \" pigment in cells associated with normal aging",
+      "raw0": "<div><div>{{c1::<b>Lipofuscin</b>}} is a <u>yellow-brown</u> \"<b>wear</b> <b>and tear</b>\" <b>pigment</b> in cells associated with <b>normal aging</b> </div></div>",
+      "back": "- As people age, autophagy declines in function; organellar membranes that normally get cleared by autophagy accumulate in lysosomes and oxidize / polymerize to lipofuscin - May also be seen with malnutrition and cachexia [img] Photo credit: Calicut Medical College , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "Av&1R;^NX^",
+      "deck": "AnKing Step Deck",
+      "front": "In which cellular organelle does lipofuscin accumulate? [Lysosomes]",
+      "raw0": "<div><div>In which cellular organelle does <b>lipofuscin</b> accumulate? </div><br><div>{{c1::Lysosomes}}</div></div>",
+      "back": "Organellar membranes that fail to get removed by autophagy thus are oxidized / polymerize in lysosomes by lysosomal enzymes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "KT@PHolgl1",
+      "deck": "AnKing Step Deck",
+      "front": "Deposits of lipofuscin are commonly found in the [ liver ], heart , colon , kidney , and eye of elderly individuals; and are caused by [lipid peroxidation]",
+      "raw0": "<div><div>Deposits of <b>lipofuscin</b> are commonly found in the {{c1::<b>liver</b>}}, <b>heart</b>, <b>colon</b>, <b>kidney</b>, and <b>eye</b> of <u>elderly</u> individuals; and are caused by {{c2::lipid peroxidation}}</div></div>",
+      "back": "- Age related \"wear and tear\" deposit caused by lipid peroxidation (unsaturated fatty acids) products of lysozymes - Thus on autopsy, patients can have \" brown atrophy of the heart / liver \" [img] Photo credit: Mikael Häggström, M.D. , CC0, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "BKLCe;u{f}",
+      "deck": "AnKing Step Deck",
+      "front": "Wilson disease is characterized by accumulation of copper , especially in the [ liver ], brain , cornea , and kidneys",
+      "raw0": "<div><b>Wilson disease</b> is characterized by <u>accumulation of copper</u>, especially in the {{c1::<b>liver</b>}}, <b>brain</b>, <b>cornea</b>, and <b>kidneys</b> </div>",
+      "back": "Copper-mediated production of hydroxyl free radicals leads to tissue damage [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "Cjm#M,=bM`",
+      "deck": "AnKing Step Deck",
+      "front": "Zone [ III ] of the liver is the [ centrilobular (pericentral vein)] zone",
+      "raw0": "<div><b>Zone </b>{{c2::<b>III</b>}} of the liver is the {{c1::<b>centrilobular</b> (pericentral vein)}} <b>zone</b></div>",
+      "back": "- Most sensitive to metabolic toxins (zone III has the highest concentration of CYP450) - First to show ischemic necrosis (furthest away from blood supply) - Affected by alcoholic hepatitis and Budd-Chiari syndrome first [img] Photo credit: Alexander Boyd, Owen Cain, Abhishek Chauhan, Gwilym James Webb , CC BY 4.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "wt#Rrl,>)i",
+      "deck": "AnKing Step Deck",
+      "front": "Which liver zone contains the cytochrome P-450 system ? [Zone III (centrilobular)]",
+      "raw0": "<div>Which <u>liver zone</u> contains the <b>cytochrome P-450 system</b>? </div><br><div>{{c1::Zone III (centrilobular)}}</div>",
+      "back": "[img] Photo credit: Alexander Boyd, Owen Cain, Abhishek Chauhan, Gwilym James Webb , CC BY 4.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "fo.ROTbTSX",
+      "deck": "AnKing Step Deck",
+      "front": "Which liver zone is affected first by metabolic toxins (e.g., alcohol, acetaminophen, ethanol, CCl 4 , halothane, rifampin)? [Zone III (centrilobular)]",
+      "raw0": "Which <u>liver zone</u> is affected <i>first</i> by <b><i>metabolic</i> toxins</b> (e.g., alcohol, acetaminophen, ethanol, CCl<sub>4</sub>, halothane, rifampin)? <br><br>{{c1::Zone III (centrilobular)}}",
+      "back": "[img] Photo credit: Alexander Boyd, Owen Cain, Abhishek Chauhan, Gwilym James Webb , CC BY 4.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "p=#mU)uj~~",
+      "deck": "AnKing Step Deck",
+      "front": "If O 2 accepts one electron, it forms [superoxide ( O 2 - • )]",
+      "raw0": "<div>If <b>O<sub>2</sub></b> <i>accepts</i> <u>one</u> electron, it forms {{c1::superoxide (<b>O<sub>2</sub><sup>-</sup> <sup>•</sup></b>)}}</div>",
+      "back": "NADPH oxidase forms this in inflammation O 2 → O 2 - • → H 2 O 2 → • OH → H 2 O [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "c!X=ETj{4*",
+      "deck": "AnKing Step Deck",
+      "front": "If O 2 accepts two electrons, it forms [hydrogen peroxide (H 2 O 2 )]",
+      "raw0": "<div>If <b>O<sub>2</sub> </b><i>accepts</i> <u>two</u> electrons, it forms {{c1::hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>)}}</div>",
+      "back": "O 2 → O 2 - • → H 2 O 2 → • OH → H 2 O To make H 2 O, O 2 accepts total of 4 e - in the ETC (oxidative phosphorylation)",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "s1%l0plglB",
+      "deck": "AnKing Step Deck",
+      "front": "If O 2 accepts three electrons, it forms [hydroxyl radical ( • OH )]",
+      "raw0": "<div>If <b>O<sub>2</sub> </b><i>accepts</i> <u>three</u> electrons, it forms {{c1::hydroxyl radical (<sup>•</sup><span class=\"chemf nowrap\">OH</span>)}}</div>",
+      "back": "O 2 → O 2 - • → H 2 O 2 → • OH → H 2 O - If it accepts four electrons, it forms H 2 O",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "w=cGm-.;fG",
+      "deck": "AnKing Step Deck",
+      "front": "Pathologic generation of free radicals arises with ionizing radiation , which hydrolyzes H 2 O to [ • OH ]",
+      "raw0": "<div><i>Pathologic</i> generation of <u>free radicals</u> arises with <b>ionizing radiation</b>, which hydrolyzes <b>H<sub>2</sub>O</b> to {{c1::<b><sup>•</sup></b><b><span class=\"chemf nowrap\">OH</span></b>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "r;]Q/Z3N.w",
+      "deck": "AnKing Step Deck",
+      "front": "Which oxygen -derived free radical is the most damaging ? [Hydroxyl radical ( • OH) ]",
+      "raw0": "<div>Which <i>oxygen</i>-derived <u>free radical</u> is the <b>most damaging</b>?</div><br><div>{{c1::Hydroxyl radical (<sup>•</sup><span class=\"chemf nowrap\">OH)</span>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "I#VextE;Uv",
+      "deck": "AnKing Step Deck",
+      "front": "Pathologic generation of free radicals arises with metals (e.g., copper and iron) via the [Fenton] reaction",
+      "raw0": "<div><i>Pathologic</i> generation of <u>free radicals</u> arises with<b> metals</b> (e.g., copper and iron) via the <b>{{c1::Fenton}} reaction</b> </div>",
+      "back": "- Generates • OH - e.g., hemochromatosis (iron) and Wilson disease (copper)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "hC#!`n>lw*",
+      "deck": "AnKing Step Deck",
+      "front": "Free radicals cause cellular injury via [ peroxidation ] of lipids and [ oxidation ] of DNA and proteins",
+      "raw0": "<div><b>Free radicals</b> cause cellular injury via {{c1::<u>peroxidation</u>}} of <b>lipids</b> and {{c1::<u>oxidation</u>}} of <b>DNA</b> and <b>proteins</b></div>",
+      "back": "DNA damage is implicated in aging and oncogenesis",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "d:Xzg*=|S<",
+      "deck": "AnKing Step Deck",
+      "front": "Free radicals may be eliminated via [ antioxidants ] (e.g., reduced glutathione and vitamins A, C, and E)",
+      "raw0": "<div><b>Free radicals</b> may be <i>eliminated</i> via {{c1::<u>antioxidants</u>}} (e.g., reduced glutathione and vitamins A, C, and E)</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::07_Vitamin_E_Antioxidant_Pathway_and_Functions",
+        "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::03_HMP_Shunt_(Pentose_Pathway)",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "gfL8ap+/>U",
+      "deck": "AnKing Step Deck",
+      "front": "What enzyme reduces superoxide ( O 2 · - ) to H 2 O 2 ? [Superoxide dismutase]",
+      "raw0": "<div>What <u>enzyme</u> reduces <b>superoxide</b> (<b>O<sub>2</sub></b><b>·</b><sup>-</sup>) to <b>H<sub>2</sub>O<sub>2</sub></b>?</div><br><div>{{c1::Superoxide dismutase}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "ACBL/at9$]",
+      "deck": "AnKing Step Deck",
+      "front": "What enzymes reduce hydrogen peroxide ( H 2 O 2 ) to O 2 and H 2 O ? [Catalase] and [glutathione peroxidase]",
+      "raw0": "<div><div>What <u>enzymes</u> reduce <b>hydrogen peroxide </b>(<b>H<sub>2</sub>O<sub>2</sub></b>) to <b>O<sub>2</sub> </b>and <b>H<sub>2</sub>O</b>? </div><br><div>{{c1::Catalase}} and {{c1::glutathione peroxidase}}</div></div>",
+      "back": "O 2 +(NADPH oxidase)→ O 2 - +( Superoxide Dismutase )→ H 2 O 2 +( Catalase )→ OH - +( Glutathione peroxidase )→ H 2 O [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "sCzjChSdP?",
+      "deck": "AnKing Step Deck",
+      "front": "Free radicals may be eliminated via metal carrier proteins , such as [ transferrin (Fe 2+ )] and [ ceruloplasmin (Cu 2+ )]",
+      "raw0": "<div><b>Free radicals</b> may be <i>eliminated</i> via <u>metal carrier proteins</u>, such as {{c1::<b>transferrin</b> (Fe<sup>2+</sup>)}} and {{c2::<b>ceruloplasmin</b> (Cu<sup>2+</sup>)}}</div>",
+      "back": "Ceruloplasmin is copper carrier in blood; it is synthesized by hepatocytes and possesses ferroxidase activity",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "wf,w4n,XR*",
+      "deck": "AnKing Step Deck",
+      "front": "What organic solvent used in the dry cleaning industry is converted to free radicals in the liver ? [Carbon tetrachloride (CCl 4 )]",
+      "raw0": "What <u>organic solvent</u> used in the <b>dry cleaning industry</b> is converted to <b><i>free radicals</i></b> in the <b>liver</b>?<br><br>{{c1::Carbon tetrachloride (CCl<sub>4</sub>)}}",
+      "back": "Converted to CCl 3 free radical by P450 system of hepatocytes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "NpPQP<)>$I",
+      "deck": "AnKing Step Deck",
+      "front": "CCl 3 free radical damage in the liver results in decreased apolipoprotein synthesis with resultant [ fatty ] change and [centrilobular] necrosis",
+      "raw0": "<div><b>CCl<sub>3</sub> </b>free radical damage in the <b>liver</b> results in <u>decreased</u><b> apolipoprotein synthesis</b> with resultant {{c1::<b>fatty</b>}} <b>change </b>and <b>{{c2::centrilobular::location}} necrosis</b></div>",
+      "back": "Free radical causes cell injury , which results in RER swelling and decreased protein synthesis [img] Ronen, Joshua; Shaheen, Shahzeb; Steinberg, David; Justus, Kevin R , CC BY 3.0 , via Wikimedia Commons Zone III [img] Photo credit: Alexander Boyd, Owen Cain, Abhishek Chauhan, Gwilym James Webb , CC BY 4.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "iQ~!IoVF5w",
+      "deck": "AnKing Step Deck",
+      "front": "What cause of free radical injury occurs following thrombolytic therapy ? [Reperfusion injury]",
+      "raw0": "<div>What cause of <u>free radical injury</u> occurs following <b>thrombolytic therapy</b>? </div><br><div>{{c1::Reperfusion injury}}</div>",
+      "back": "- Return of blood to ischemic tissues results in production of O 2 -derived free radicals (from inflammation), which allows for continued injury - The formation of ROS after ischemic injury is temperature dependent, so it can be decreased by therapeutic hypothermia",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::04_Free_Radical_Injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "bXhdGt@LYF",
+      "deck": "AnKing Step Deck",
+      "front": "Destruction of phagocytosed material occurs through [ respiratory ( oxidative ) burst ], which utilizes [ O 2 ] as a substrate",
+      "raw0": "<div><u>Destruction</u> of <b>phagocytosed</b> <b>material</b> occurs through {{c2::<b>respiratory</b> (<b>oxidative</b>) <b>burst</b>}}, which utilizes {{c1::<b>O<sub>2</sub></b>}} as a substrate</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "B=&60HT0/K",
+      "deck": "AnKing Step Deck",
+      "front": "What is the end product of oxidative burst that destroys phagocytosed microbes? [Hypochlorous acid (HClO)]",
+      "raw0": "<div>What is the <u>end product</u> of <b>oxidative</b> <b>burst</b> that destroys phagocytosed microbes? </div><br><div>{{c1::Hypochlorous acid (HClO)}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "jrK1VW;YCs",
+      "deck": "AnKing Step Deck",
+      "front": "O 2 is converted to [ superoxide ( O 2 - )] by the enzyme [ NADPH oxidase ] (oxidative burst)",
+      "raw0": "<b>O<sub>2</sub></b> is converted to {{c2::<b>superoxide</b> (<b>O<sub>2</sub><sup>-</sup></b>)}} by the enzyme {{c1::<b><i>NADPH oxidase</i></b>}} (oxidative burst)",
+      "back": "Chronic granulomatous disease (CGD) → NADPH oxidase mutation → decreased production of superoxide anions [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "Du7d0Hu[:?",
+      "deck": "AnKing Step Deck",
+      "front": "O 2 - • is converted to [ H 2 O 2 ] by the enzyme superoxide dismutase (oxidative burst)",
+      "raw0": "<div><b>O<sub>2</sub><sup>-</sup><sup>•</sup></b> is converted to {{c1::<b>H</b><sub style=\"font-weight: bold;\">2</sub><b>O</b><sub style=\"font-weight: bold;\">2</sub>}} by the enzyme <b><i>superoxide dismutase</i></b> (oxidative burst)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "i>I2B(4o~!",
+      "deck": "AnKing Step Deck",
+      "front": "H 2 O 2 is converted to [ HClO (hypochlorous acid)] by the enzyme [ myeloperoxidase ] (oxidative burst)",
+      "raw0": "<div><b>H<sub>2</sub>O<sub>2</sub></b> is converted to {{c1::<b>HClO</b> (hypochlorous acid)}} by the enzyme {{c2::<b><i>myeloperoxidase</i></b>}}<i> </i>(oxidative burst)</div>",
+      "back": "HClO (hypochlorous acid) may also be referred to as bleach [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "PcG7[$s1^|",
+      "deck": "AnKing Step Deck",
+      "front": "[ Chronic granulomatous disease (CGD)] is due to a defect in [ NADPH oxidase ]",
+      "raw0": "{{c2::<b>Chronic granulomatous disease</b> (CGD)}} is due to a defect in {{c1::<b>NADPH oxidase</b>}}",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "Eh90AAKkSF",
+      "deck": "AnKing Step Deck",
+      "front": "[ Chronic granulomatous ] disease is characterized by recurrent infection and granuloma formation with [ catalase ] -positive organisms",
+      "raw0": "{{c2::<b>Chronic granulomatous</b>}} <b>disease</b> is characterized by <i>recurrent</i> <u>infection</u> and <u>granuloma formation</u> with {{c1::<b>catalase</b>}}<b>-positive organisms</b>",
+      "back": "High-risk catalase positive infections in CGD : - Staph aureus - Burkholderia cepacia - Serratia marcescens - Nocardia - Aspergillus [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "xx58+%7R{d",
+      "deck": "AnKing Step Deck",
+      "front": "How do phagocytes in chronic granulomatous disease (CGD) patients kill catalase-negative organisms ? [Use H 2 O 2 produced by invading organisms to produce HClO - ]",
+      "raw0": "<div>How do phagocytes in <b>chronic granulomatous disease</b> (CGD) <u>patients</u> kill <b>catalase-negative organisms</b>? </div><br><div>{{c1::Use H<sub>2</sub>O<sub>2</sub> produced by invading organisms to produce HClO<sup>-</sup>}}</div>",
+      "back": "Catalase positive organisms are capable of reducing their own H 2 O 2 , leaving phagocytes without ROS for fighting infections [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "q<a&4t~i(o",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency may be diagnosed with the dihydrorhodamine test or nitroblue tetrazolium test ? [Chronic granulomatous disease (CGD)]",
+      "raw0": "<div>Which <u>immunodeficiency</u> may be diagnosed with the <b>dihydrorhodamine test </b>or<b> nitroblue tetrazolium test</b>?</div><br><div>{{c1::Chronic granulomatous disease (CGD)}}</div>",
+      "back": "- DHR: assesses production of superoxide radical by measuring conversion of DHR to rhodamine (fluoresces green); stimulate cells with PMA - Thus, cells with deficient NADPH oxidase will exhibit decreased green fluorescence - NBT: dye turns blue if NADPH oxidase is functional; stays colorless / yellow if NADPH oxidase is defective - Properly functioning neutrophils produce ROS, that reduce yellow NBT to dark blue formazan, that precipitates within cells [img] [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "cDx-Dw])c[",
+      "deck": "AnKing Step Deck",
+      "front": "O 2 -independent killing in phagocytes is [ less ] effective than O 2 -dependent killing",
+      "raw0": "<div><b>O<sub>2</sub>-independent killing</b> in phagocytes is {{c1::<u>less</u>}} effective than <b>O<sub>2</sub>-dependent killing</b> </div>",
+      "back": "Occurs via enzymes present in leukocyte secondary granules (e.g., lysozyme in macrophages, major basic protein in eosinophils)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra"
+      ]
+    },
+    {
+      "guid": "oeH%fBVrc&",
+      "deck": "AnKing Step Deck",
+      "front": "What toxic intermediate is formed in small amounts by metabolism of acetaminophen ? [NAPQI]",
+      "raw0": "<div>What <u>toxic intermediate</u> is formed in small amounts by <i>metabolism</i> of <b>acetaminophen</b>? </div><br><div>{{c1::NAPQI}}</div>",
+      "back": "- NAPQI = N-acetyl-p-benzoquinoneimine - This depletes glutathione and forms toxic tissue byproducts in liver [img] Photo credit: Andrew Murkin , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "IE/>ub{/t^",
+      "deck": "AnKing Step Deck",
+      "front": "Acetaminophen toxicity results in depletion of hepatic [glutathione] stores by NAPQI",
+      "raw0": "<div><b>Acetaminophen</b> <b>toxicity</b> results in <u>depletion</u> of hepatic {{c1::glutathione}} stores by NAPQI</div>",
+      "back": "N-acetylcysteine restores depleted hepatic glutathione in patients with acetaminophen toxicity [img] Photo credit: Andrew Murkin , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "sal8muL)o9",
+      "deck": "AnKing Step Deck",
+      "front": "Overdose of acetaminophen causes [hepatic] necrosis",
+      "raw0": "<div><u>Overdose</u> of <b>acetaminophen</b> causes {{c1::hepatic::organ}} <b>necrosis</b></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "c|npnpt*v`",
+      "deck": "AnKing Step Deck",
+      "front": "[ Nitrofurantoin ] is a urinary antiseptic that can trigger hemolysis in patients with [ G6PD deficiency ]",
+      "raw0": "{{c1::<b>Nitrofurantoin</b>}} is a <u>urinary antiseptic</u> that can trigger <b>hemolysis</b> in patients with {{c2::<b>G6PD deficiency</b>}}",
+      "back": "2 things to know: - Used for UTIs in pregnancy - Can trigger hemolysis in G6PD deficiency - TMP-SMX and quinolones are contraindicated in pregnancy",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "N1q1!xyfl8",
+      "deck": "AnKing Step Deck",
+      "front": "What phase of drug metabolism includes reduction , oxidation , and hydrolysis ? [Phase I]",
+      "raw0": "<div>What <u>phase of drug metabolism</u> includes <b>reduction</b>, <b>oxidation</b>, and <b>hydrolysis</b>? </div><br><div>{{c1::Phase I}}</div>",
+      "back": "P450 cytochrome oxidases",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "p+Pupou#|`",
+      "deck": "AnKing Step Deck",
+      "front": "What phase of drug metabolism includes methylation , glucuronidation , acetylation , and sulfation (i.e., conjugation)? [Phase II]",
+      "raw0": "<div><div>What <u>phase of drug metabolism</u> includes <b>methylation</b>, <b>glucuronidation</b>, <b>acetylation</b>, and <b>sulfation</b> (i.e., conjugation)? </div><br><div>{{c1::Phase II}}</div></div>",
+      "back": "- e.g., this is the process by which the majority of acetaminophen is metabolized (small amounts get metabolized by CYP450 into toxic NAPQI) - Geriatric patients have M ore GAS (phase II) [img] Photo credit: Andrew Murkin , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "H$3w9tsJa8",
+      "deck": "AnKing Step Deck",
+      "front": "In women , clonality was historically determined by analysis of [ glucose-6-phosphate dehydrogenase (G6PD)] isoforms",
+      "raw0": "<div>In <b>women</b>, clonality was historically determined by analysis of {{c1::<b>glucose-6-phosphate dehydrogenase</b> (G6PD)}} isoforms</div>",
+      "back": "- Because neoplastic cells are derived from a single progenitor , this characteristic allows a pathologist to identify whether a sample of tissue is neoplastic or not - This method is almost entirely historical now and has been replaced by looking at microsatellites / methylation patterns (useful in women AND men)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Omj}jw**nu",
+      "deck": "AnKing Step Deck",
+      "front": "The normal ratio of active G6PD isoforms in a sample of any woman's tissue is [1:1]",
+      "raw0": "The normal ratio of active G6PD isoforms in a sample of any <u>woman's</u> tissue is {{c1::1:1}}",
+      "back": "- Multiple isoforms exist, but only one isoform is inherited from each parent, and in a cell one isoform is randomly inactivated ( lyonization ) - Thus if a mother has the G6PD-A isoform, and the father has the G6PD-D isoform, a sample of their childs tissue will normally on average express a ratio of 1:1 A:D",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "vCoLTO0Zpr",
+      "deck": "AnKing Step Deck",
+      "front": "Clonality can be determined by analysis of [androgen] receptor isoforms",
+      "raw0": "<div><b>Clonality</b> can be determined by analysis of {{c1::androgen}} <b><u>receptor</u></b> isoforms</div>",
+      "back": "- Like G6PD, this is located on the X-chromosome; better than G6PD since it needs less sample material - This method is largely historical now and has been replaced by looking at microsatellites / methylation patterns (useful in women AND men)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "lXv,+QiY1(",
+      "deck": "AnKing Step Deck",
+      "front": "Ionizing radiation causes carcinogenesis by generating [hydroxyl free radicals]",
+      "raw0": "<b>Ionizing radiation</b> causes carcinogenesis by generating {{c1::hydroxyl free radicals::specific}}",
+      "back": "Water in tissues gets hit by ionizing radiation → • OH → induction of double-strand DNA breaks",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "ywR*Mjv@Yb",
+      "deck": "AnKing Step Deck",
+      "front": "Sulfasalazine can cause a hemolytic anemia in patients with [ G6PD ] deficiency",
+      "raw0": "<b>Sulfasalazine</b> can cause a <b>hemolytic anemia </b>in patients with {{c1::<b>G6PD</b>}} <b>deficiency</b>",
+      "back": "Sulfa salazine is a sulfa drug",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "z!f~AO_UmB",
+      "deck": "AnKing Step Deck",
+      "front": "IFN-γ is important for activating the [ respiratory burst ] in phagocytes",
+      "raw0": "<div><u>IFN-γ</u> is important for activating the {{c1::<b>respiratory burst</b>}} in <b>phagocytes</b></div>",
+      "back": "The respiratory burst is important because it allows phagocytes the ability to kill ingested microbes Steps 1 and 2 are the respiratory burst, step 3 converts the product to HClO (the most potent antibacterial - H 2 O 2 is still antibacterial), this distinguishes CGD from a myeloperoxidase deficiency (nitroblue tetrazolium test) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "u~=yH|ItV/",
+      "deck": "AnKing Step Deck",
+      "front": "Individuals with [ chronic granulomatous ] disease are susceptible to colonization by [ catalase ] -positive organisms such as [ Candida and Aspergillus ]",
+      "raw0": "Individuals with {{c3::<b>chronic granulomatous</b>}}<b> disease</b> are susceptible to colonization by {{c2::<u>catalase</u>}}<u>-positive</u> organisms such as {{c1::<i>Candida</i> and <i>Aspergillus</i>::which <u>fungi</u> (2)}}",
+      "back": "- CGD = lack of NADPH oxidase , therefore cannot perform respiratory burst - In these patients, phagocytes use H 2 O 2 made by bacteria to perform respiratory burst; however, the enzyme catalase neutralizes H 2 O 2 - Therefore, they are susceptible to infection by catalase-positive organisms [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "mWn#8{6#[_",
+      "deck": "AnKing Step Deck",
+      "front": "What is the likely diagnosis in an African-American patient that presents with dark urine that stains positive with Prussian blue after being treated for a urinary tract infection? [G6PD deficiency]",
+      "raw0": "What is the likely <i>diagnosis</i> in an African-American patient that presents with <u>dark urine</u> that stains positive with <b>Prussian blue</b> after being treated for a urinary tract infection?<br><br><div>{{c1::G6PD deficiency}}</div>",
+      "back": "- Positive stain indicates presence of hemosiderin in the urine due to hemolysis - Hemolytic episodes are often precipitated by infection or medications ( increased oxidative stress )",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "gt2LEc#gdd",
+      "deck": "AnKing Step Deck",
+      "front": "Side effects of dapsone include methemoglobinemia , [ agranulocytosis ], and [ hemolytic anemia in G6PD deficiency ]",
+      "raw0": "Side effects of <u>dapsone</u> include <b>methemoglobinemia</b>, {{c1::<b>agranulocytosis</b>}}, and {{c2::<b>hemolytic anemia in G6PD deficiency</b>}}",
+      "back": "Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "KKvR/s#x>r",
+      "deck": "AnKing Step Deck",
+      "front": "What drug used to treat Mycobacterium leprae may present with Heinz bodies and bite cells (degmacytes) ? [Dapsone]",
+      "raw0": "What drug used to treat <i>Mycobacterium leprae </i>may present with <u>Heinz bodies</u> and <b>bite cells (degmacytes)</b>?<br><br><div>{{c1::Dapsone}}</div>",
+      "back": "Due to it causing hemolytic anemia in G6PD deficiency [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "Or&=:n1U!b",
+      "deck": "AnKing Step Deck",
+      "front": "Penicillins can result in autoimmune [ hemolytic anemia ], which results in a positive direct Coombs test due to Ig[G] against [ penicillin ] binding to RBCs",
+      "raw0": "<b>Penicillins</b> can result in <b>autoimmune </b>{{c1::<b>hemolytic anemia</b>}}, which results in a <u>positive direct Coombs test</u> due to <b>Ig{{c3::G}} </b>against {{c3::<b>penicillin</b>}} <u>binding to RBCs</u>",
+      "back": "- Antibodies against penicillin-RBC complex vs. α-methyldopa inducing autoantibodies against RBCs - Direct Coombs test positive hemolytic anemia (type II HSR) [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "kqDolMUKPK",
+      "deck": "AnKing Step Deck",
+      "front": "Pegloticase can result in what hematologic pathology? [Hemolytic anemia in G6PD deficiency]",
+      "raw0": "<b>Pegloticase</b> can result in what <u>hematologic</u> pathology?<br><br><div>{{c1::Hemolytic anemia in G6PD deficiency}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "MZm_~NS]j(",
+      "deck": "AnKing Step Deck",
+      "front": "Which chronic gout drug must be administered IV ? [Pegloticase]",
+      "raw0": "Which <i>chronic </i>gout drug <u>must</u> be <b>administered IV</b>?<br><br><div>{{c1::Pegloticase}}</div>",
+      "back": "Risk of hemolysis in G6PD deficiency and anaphylaxis requires pegloticase to be given IV while closely monitored inpatient",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "b2)N`zBM>n",
+      "deck": "AnKing Step Deck",
+      "front": "Which gram positive rod(s) is/are catalase positive ? [ Listeria monocytogenes and Nocardia ]",
+      "raw0": "Which <u>gram positive rod(s)</u> is/are <b>catalase positive</b>?<br><br><div>{{c1::<i>Listeria monocytogenes</i> and <i>Nocardia</i>}}</div>",
+      "back": "Patients with chronic granulomatous disease are susceptible to catalase positive organisms",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "Iz9RQM60/7",
+      "deck": "AnKing Step Deck",
+      "front": "Nocardia is [ catalase ] positive , thus patients with chronic granulomatous disease are susceptible to infection",
+      "raw0": "<i>Nocardia</i> is {{c1::<b>catalase</b>}}<b> positive</b>, thus patients with <u>chronic granulomatous disease</u> are susceptible to infection",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "FsCPb{29e8",
+      "deck": "AnKing Step Deck",
+      "front": "Pseudomonas aeruginosa is [ catalase ] positive , thus patients with chronic granulomatous disease are susceptible to infection",
+      "raw0": "<i>Pseudomonas </i><i>aeruginosa</i> is {{c1::<b>catalase</b>}}<b> positive</b>, thus patients with <u>chronic granulomatous disease</u> are susceptible to infection",
+      "back": "- CGD = lack of NADPH oxidase , therefore cannot perform respiratory burst - In these patients, phagocytes use H 2 O 2 made by bacteria to perform respiratory burst; however, the enzyme catalase neutralizes H 2 O 2 - Therefore, they are susceptible to infection by catalase-positive organisms [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt"
+      ]
+    },
+    {
+      "guid": "P_Mp9Vp{]i",
+      "deck": "AnKing Step Deck",
+      "front": "Sulfa drugs are contraindicated in [ G6PD deficiency ], as they can precipitate [ hemolytic anemia ]",
+      "raw0": "<b>Sulfa drugs</b> are contraindicated in {{c1::<u>G6PD deficiency</u>}}, as they can precipitate {{c2::<b>hemolytic anemia</b>}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "qV2-V:xXvx",
+      "deck": "AnKing Step Deck",
+      "front": "The antimalarials that can cause hemolysis in G6PD deficiency may be remembered with the mnemonic \"[Queen DAP]\"",
+      "raw0": "The <u>antimalarials</u> that can cause <b>hemolysis</b> in <b>G6PD deficiency</b> may be remembered with the mnemonic \"{{c1::Queen DAP}}\"",
+      "back": "Q uinidine D apsone A rtesunate P rimaquine G6PD deficiency should be ruled out prior to initiating antimalarial therapy",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "xxpqh|Fpci",
+      "deck": "AnKing Step Deck",
+      "front": "The antimalarials that can cause [ hemolysis in G6PD deficiency ] may be remembered with the mnemonic \" Queen DAP \": [ Q uinidine] [ D apsone] [ A rtesunate] [ P rimaquine]",
+      "raw0": "The <u>antimalarials</u> that can cause {{c1::<b>hemolysis</b> in <b>G6PD deficiency</b>}} may be remembered with the mnemonic \"<b>Queen DAP</b>\":<br><br><div class=\"mnemonics\">{{c1::<u>Q</u>uinidine::<b>Queen</b>}}<br>{{c1::<u>D</u>apsone::<b>D</b>}}<br>{{c1::<u>A</u>rtesunate::<b>A</b>}}<br>{{c1::<u>P</u>rimaquine::<b>P</b>}}</div>",
+      "back": "G6PD deficiency should be ruled out prior to initiating antimalarial therapy",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::12_HMP_Shunt",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "M8@rj18kVs",
+      "deck": "AnKing Step Deck",
+      "front": "[ Mycoplasma pneumoniae ] is a bacteria associated with Ig [ M ] [ cold ] agglutination of [ RBCs ]",
+      "raw0": "{{c3::<i>Mycoplasma pneumoniae</i>}} is a bacteria associated with <b>Ig</b>{{c1::<b>M</b>}} {{c1::<u>cold</u>}}<u> agglutination</u> of {{c2::<b>RBCs</b>}}",
+      "back": "- Similar to that seen in infectious mononucleosis - Less specific than PCR - \"Mycoplasma gets cold (high titer of cold agglutinins IgM) without a coat (no cell wall)\" [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "uCQ]bfsT8I",
+      "deck": "AnKing Step Deck",
+      "front": "The cold serum agglutination test involves IgM cold agglutinins and blood group antigen [ I ] of human RBCs",
+      "raw0": "The <b>cold serum agglutination test</b> involves <b>IgM</b> <u>cold agglutinins</u> and <b>blood group antigen </b>{{c1::<b>I</b>}} of human RBCs",
+      "back": "- Test detects antibodies produced during Mycoplasma pneumoniae infection - These antibodies target the I antigen which is found on RBCs and respiratory epithelial cells [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "fN<?LEM_SM",
+      "deck": "AnKing Step Deck",
+      "front": "Do women's cells undergoing neoplasia maintain a 1:1 ratio of G6PD isoforms? [No]",
+      "raw0": "Do women's cells undergoing <b>neoplasia</b> maintain a 1:1 ratio of <u>G6PD</u> isoforms?<br><br><div>{{c1::No}}</div>",
+      "back": "These only have ONE isoform (as they are MONOclonal)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "bCDuQDXI|T",
+      "deck": "AnKing Step Deck",
+      "front": "Both G6PD and the androgen receptor are located on which chromosome ? [X chromosome]",
+      "raw0": "Both <b>G6PD </b>and the <b>androgen receptor</b> are located on which <u>chromosome</u>?<br><br><div>{{c1::X chromosome}}</div>",
+      "back": "However one chromosome of the two is randomly inactivated by lyonization in each cell, which eventually leads to cells in a sample of tissue having an average expression of 1:1 isoform A:isoform B",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "M=PtB/#tD~",
+      "deck": "AnKing Step Deck",
+      "front": "When total myocardial ischemia lasts < 30 minutes, restoration of blood flow leads to [ reversible contractile ] dysfunction",
+      "raw0": "When <u>total myocardial ischemia</u> lasts &lt; 30 minutes, restoration of blood flow leads to {{c1::<i>reversible</i> <b>contractile</b>}} dysfunction",
+      "back": "- AKA myocardial stunning - Full myocardial contractility is not immediately restored, instead returns to normal over next several hours to days",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "BNn6G%s;xN",
+      "deck": "AnKing Step Deck",
+      "front": "Name (4) organisms that are catalase-positive (not mentioned in SketchyMicro) (1) [ Burkholderia cepacia ] (2) [ Serratia marcescens ] (3) [ Salmonella ] (4) [ H. pylori ]",
+      "raw0": "Name (4) organisms that are <b>catalase-positive</b> (not mentioned in SketchyMicro)<br><br>(1) {{c2::<i>Burkholderia cepacia</i>}}<br>(2) {{c2::<i>Serratia marcescens</i>}}<br>(3) {{c2::<i>Salmonella</i>}}<br>(4) {{c2::<i>H. pylori</i>}}",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra"
+      ]
+    },
+    {
+      "guid": "fcvBlP$&S#",
+      "deck": "AnKing Step Deck",
+      "front": "What blood smear finding is consistent with autoimmune hemolytic anemia ? [Spherocytes]",
+      "raw0": "What <u>blood smear finding</u> is consistent with <b>autoimmune hemolytic anemia</b>?<br><br><div>{{c1::Spherocytes}}</div>",
+      "back": "Has a (+) Coombs test differentiating it from hereditary spherocytosis [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "PTN[og%pUa",
+      "deck": "AnKing Step Deck",
+      "front": "Which commonly used disinfectant causes free radical production which oxidizes cellular components? [Hydrogen peroxide (H 2 O 2 )]",
+      "raw0": "Which commonly used <u>disinfectant</u> causes <b>free radical production</b> which oxidizes cellular components?<br><br><div>{{c1::Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals::Extra",
+        "#AK_Step1_v12::#FirstAid::04_Pathology::01_Cellular_Injury::07_Free_radical_injury",
+        "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::05_Free_Radical_Injury"
+      ]
+    },
+    {
+      "guid": "EebJ}-C^~|",
+      "deck": "AnKing Step Deck",
+      "front": "Pro-carcinogens are often metabolized to their active form via cytochrome p450 [monooxygenase]",
+      "raw0": "<b>Pro-carcinogens</b> are often metabolized to their active form via cytochrome p450 {{c1::monooxygenase::enzyme}}",
+      "back": "This enzyme is present in hepatic microsomes and normally acts to metabolize steroids, alcohol , toxins, and other foreign substances by rendering them soluble and easier to excrete",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "pK!#crdkq=",
+      "deck": "AnKing Step Deck",
+      "front": "Acetaminophen toxicity results from overproduction of the toxic metabolite [NAPQI], which leads to hepatic necrosis ; treated with [N-acetylcysteine] and activated charcoal*",
+      "raw0": "<b>Acetaminophen toxicity</b> results from <i>overproduction</i> of the <u>toxic metabolite</u> {{c1::NAPQI}}, which leads to <b>hepatic necrosis</b>;<b> </b>treated with {{c1::N-acetylcysteine}} and activated charcoal*",
+      "back": "* If < 4 hrs after ingestion, start activated charcoal to prevent absorption of toxins - NAC replenishes glutathione stores in the liver (which inactivates NAPQI) - Most effective when given prior to the onset of hepatotoxicity, preferably within 8 hours [img] Photo credit: Andrew Murkin , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    },
+    {
+      "guid": "zIjCl{=v(j",
+      "deck": "AnKing Step Deck",
+      "front": "In which order should thiamine and glucose be given in the treatment of alcohol withdrawal ? [Thiamine then glucose]",
+      "raw0": "In which order should <u>thiamine</u> and <u>glucose</u> be given in the treatment of <b>alcohol withdrawal</b>?<br><br><div>{{c1::Thiamine <i>then </i>glucose}}</div>",
+      "back": "Thiamine allows proper processing of glucose through metabolic pathway A: in CAC T: from PPP to glycolysis P: pyruvate to acetyl-CoA (glycolysis to TCA) \"ATP\" because deficiency of B1 leads to low ATP (no CAC) - therefore when giving glucose without thiamine you're adding \"fuel to the fire\" ATP on a branch",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra"
+      ]
+    },
+    {
+      "guid": "q)X#)Gd)Tg",
+      "deck": "AnKing Step Deck",
+      "front": "What are the two main conditions associated with spherocytes ? [Hereditary spherocytosis] [Immune-mediated hemolysis (autoimmune or drug-related)]",
+      "raw0": "What are the two main conditions associated with <u><b>spherocytes</b></u>?<br><br><div>{{c1::Hereditary spherocytosis}}</div><div>{{c1::Immune-mediated hemolysis (autoimmune or drug-related)}}</div><div> </div>",
+      "back": "- Hereditary spherocytosis has a (-) Coombs test - Immune-mediated has a (+) Coombs test [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "AMUe[(Y2=:",
+      "deck": "AnKing Step Deck",
+      "front": "Hemolytic anemia presents with the following parameters: [low] haptoglobin [high] bilirubin [high] LDH",
+      "raw0": "<b>Hemolytic anemia</b> presents with the following parameters:<br><br>\n<ul class=\"shuffle\" style=\"padding-left: 0 !important; width: 90% !important; max-width: 90% !important;\">\n<li style=\"text-align: center; list-style-type: none;\">{{c1::low}} haptoglobin</li>\n<li style=\"text-align: center; list-style-type: none;\">{{c1::high}} bilirubin</li>\n<li style=\"text-align: center; list-style-type: none;\">{{c1::high}} LDH</li>\n</ul>",
+      "back": "- Haptoglobin binds to hemoglobin, so its absence means that hemoglobin was destroyed - Heme is broken down to bilirubin - LDH is elevated because it's released when red blood cells are destroyed [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "wV=i}9xT`c",
+      "deck": "AnKing Step Deck",
+      "front": "[Warm] autoimmune hemolytic anemia is associated with drugs, cancer, and SLE",
+      "raw0": "{{c1::Warm::Warm/Cold}} autoimmune hemolytic anemia is associated with<b> drugs, cancer, and SLE</b>",
+      "back": "Those associated with IgM (mycoplasma/mono) are cold [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA)"
+      ]
+    },
+    {
+      "guid": "ReP|s!v*!D",
+      "deck": "AnKing Step Deck",
+      "front": "What is the likely diagnosis in an African-American male that presents with fever , jaundice , dark urine and the peripheral smears below? [Glucose-6-phosphate dehydrogenase (G6PD) deficiency] [img] [img]",
+      "raw0": "What is the likely <i>diagnosis</i> in an African-American male that presents with <b>fever</b>, <b>jaundice</b>, <b>dark urine</b> and the peripheral smears below? <br><br>{{c1::Glucose-6-phosphate dehydrogenase (G6PD) deficiency}}<br><br><img src=\"6bf191b5fd52b5bfa771abd2cfbcf5dd.jpeg\" width=\"445\"><img src=\"07ebf64ed20458e68de3f986bace6476.webp\" width=\"250\">",
+      "back": "Photo credit (left): Author: N. J. Wheeler, Jr, USC DCP; Ailuromancy , Public domain, via Wikimedia Commons Blood smear shows bite cells (first photo) and Heinz bodies (second photo) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt",
+        "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::04_Normocytic_Anemia::06_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Hmh@ontS]I",
+      "deck": "AnKing Step Deck",
+      "front": "Neutrophils filled with Staphylococcus aureus is suggestive of [ chronic granulomatous disease (CGD)]",
+      "raw0": "<b>Neutrophils</b> <u>filled</u> with <i>Staphylococcus aureus</i> is suggestive of {{c1::<b>chronic granulomatous disease</b> (CGD)::diagnosis}}",
+      "back": "- Inability to destroy catalase (+) organisms within phagocytes - Normal cell counts (vs. SCID, a B/T cell deficiency) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::05_HMP_Shunt::Extra",
+        "#AK_Step1_v12::#B&B::18_Pathology::01_General::03_Free_Radicals"
+      ]
+    }
+  ]
+}

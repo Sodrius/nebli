@@ -1,0 +1,29 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# AJUSTAR: complete os <EN?>, funda/remova conceitos redundantes,
+# e acrescente subtopico que a E1 ensina mas nao marcou como termo-nota.
+# PARTE I — Mutação: o que muda e por que aparece
+1.1	códons	códons|<EN?>
+1.2	transição	transição|<EN?>
+1.3	transversão	transversão|<EN?>
+1.4	frameshift	frameshift|<EN?>
+1.5	tautômero	tautômero|<EN?>
+1.6	dímero de pirimidina	dímero de pirimidina|<EN?>
+1.7	UVB — radiação ultravioleta B	UVB|<EN?>
+1.8	UVA — radiação ultravioleta A	UVA|<EN?>
+# PARTE II — Reparo: desfazer o erro antes que fixe
+2.1	fotorreativação	fotorreativação|<EN?>
+2.2	excinuclease	excinuclease|<EN?>
+2.3	autossômico recessivo	autossômico recessivo|<EN?>
+2.4	MGMT — O6-metilguanina-DNA-metiltransferase	MGMT|<EN?>
+2.5	NER — nucleotide excision repair	NER|nucleotide excision repair
+2.6	LexA — repressor que mantém desligados os genes da resposta SOS bacteriana; é clivado quando há dano extenso ao DNA	LexA|<EN?>
+2.7	RecA — proteína bacteriana que	RecA|<EN?>
+# PARTE III — DNA móvel e recombinação
+3.1	replicons	replicons|<EN?>
+3.2	conjugação	conjugação|<EN?>
+3.3	transposase	transposase|<EN?>
+3.4	prófago	prófago|<EN?>
+3.5	lisogenia	lisogenia|<EN?>
+3.6	recombinação sítio-específica	recombinação sítio-específica|<EN?>
+3.7	IS — insertion sequence	IS|insertion sequence

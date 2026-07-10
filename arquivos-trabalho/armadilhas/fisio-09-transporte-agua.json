@@ -1,0 +1,112 @@
+{
+  "slug": "fisio-09-transporte-agua",
+  "total_armadilhas_unicas": 6,
+  "total_questoes_com_armadilha": 6,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Confundir onde o soluto se distribui (apenas plasma inicialmente, depois interstício) com volume total de distribuição",
+      "origens": [
+        "0032"
+      ],
+      "nivel": "dificil",
+      "conceito": "Cálculo de distribuição de volume em compartimentos corporais após injeção de soluto",
+      "tags": [
+        "compartimentos-corporais",
+        "osmose",
+        "volume-celular",
+        "tonicidade",
+        "pressao-oncotica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Achar que, após recuperar o volume, a célula voltou à osmolaridade inicial de 290 mOsmol/L (A) ou que está em equilíbrio osmótico com o extracelular hipertônico (E). Na verdade, a osmolaridade intracelular ficou entre os dois valores, e o fluxo de água é zero por turgência — pressão hidrostática, não equilíbrio osmótico.",
+      "origens": [
+        "0138"
+      ],
+      "nivel": "dificil",
+      "conceito": "Após RVI, célula mantém-se em desequilíbrio osmótico com solução extracelular; pressão hidrostática balanceia",
+      "tags": [
+        "osmose",
+        "pressao-osmotica",
+        "pressao-hidrostatica",
+        "equilíbrio-osmótico",
+        "desequilibrio-osmotico"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Confundir mecanismo com consequencia; analisar todos os distratores antes de responder",
+      "origens": [
+        "180"
+      ],
+      "nivel": "medio",
+      "conceito": "Transporte renal",
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "osmose"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Questão discursiva: cada mecanismo deve ser explicitado -- conclusao correta sem raciocinio não pontua",
+      "origens": [
+        "181"
+      ],
+      "nivel": "dificil",
+      "conceito": "Transporte epitelial",
+      "tags": [
+        "transporte-ativo-secundario",
+        "cotransporte",
+        "transporte-membrana"
+      ],
+      "palavras_proibidas": [
+        "questão"
+      ],
+      "incidencia": 1
+    },
+    {
+      "descricao": "aluno pode marcar D pensando \"se albumina sai do plasma, pressão osmótica total cai\" — mas o que importa para o equilíbrio de Starling é a pressão oncótica (proteínas grandes), e a queda dela no plasma com aumento no interstício favorece saída de água",
+      "origens": [
+        "9"
+      ],
+      "nivel": "medio",
+      "conceito": "edema intersticial por extravasamento de albumina — quando a barreira endotelial perde seletividade para proteína, a pressão oncótica do plasma cai e o equilíbrio de Starling favorece saída de líquido para o interstício",
+      "tags": [
+        "equilibrio-starling",
+        "pressao-oncotica",
+        "endotelio"
+      ],
+      "palavras_proibidas": [
+        "cai"
+      ],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Marcar E ('depende da permeabilidade ao soluto') por parecer mais precisa e completa. Para o caso padrão de soluto impermeável, o resultado é sempre plasmólise (C). E é verdadeira apenas quando o soluto penetra (σ < 1), mas a questão descreve soluto externo superior em concentração — o contexto padrão é impermeável.",
+      "origens": [
+        "q-0159"
+      ],
+      "nivel": "medio",
+      "conceito": "Efeito de soluções hipotônicas, isotônicas e hipertônicas no volume celular",
+      "tags": [
+        "transporte-membrana",
+        "osmose",
+        "tonicidade",
+        "volume-celular",
+        "solutos",
+        "agua"
+      ],
+      "palavras_proibidas": [
+        "questão"
+      ],
+      "incidencia": 1
+    }
+  ]
+}

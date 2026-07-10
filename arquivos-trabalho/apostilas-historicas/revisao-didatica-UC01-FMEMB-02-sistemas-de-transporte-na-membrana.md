@@ -1,0 +1,64 @@
+# Revisão didática Tier 2 — UC01-FMEMB-02-sistemas-de-transporte-na-membrana
+
+**Tema (ancoragem):** Sistemas de transporte na membrana plasmática (UC01 FMEMB aula 2)
+**Recorte real do PDF:** Bicamada como barreira → difusão simples (Lei de Fick, O2/CO2) → transporte facilitado (transportadores GLUTs, canais iônicos, comporta) → transporte ativo primário (Na/K-ATPase, SERCA, H/K-ATPase, V-ATPase) → transporte ativo secundário (simporte SGLT, antiporte NHE3, trocador Na/Ca) → conclusão integradora. Cobre o tema canônico integralmente; sem endocitose/exocitose.
+**Autor:** Italiano (NEBLI)
+**Avaliador:** Sonnet via general-purpose simulando revisor-pdf-didatico
+**Data:** 2026-05-25
+**Total páginas:** 38 | **Média palavras/pág:** 277 | **Total imagens:** 9
+
+---
+
+## Sumário executivo
+
+- Score médio: **4.1 / 5**
+- CRÍTICOS falhando (score ≤ 2): **0**
+- IMPORTANTES falhando (score ≤ 2): **0**
+- Veredito: **[APROVAR]**
+
+---
+
+## Detalhamento por critério
+
+| # | Critério | Sev | Score | Justificativa | Citação literal (p) | Sugestão |
+|---|---|---|---|---|---|---|
+| T2.1 | Pergunta ingênua abrindo subtópicos | CRÍTICO | 4 | A introdução abre com a pergunta "por que precisamos discutir transporte?" e cada PARTE segue estrutura de problema → solução. Seção 2.1 abre com "A glicose é o exemplo canônico... Como ela entra?" e 3.1 com "Quem cria o gradiente em primeiro lugar?" — padrão consistente. Perde meio ponto porque 2.2 e 2.3 não abrem com pergunta explícita; iniciam diretamente com descrição. | "vale parar e perguntar a coisa óbvia que ninguém costuma perguntar: por que precisamos discutir transporte?" (p.3) | Adicionar pergunta ingênua também em 2.2 ("Se o transportador é tão eficiente, para que existe outro tipo de proteína?") e 2.3. |
+| T2.2 | Mecanismo antes do nome técnico | CRÍTICO | 5 | Padrão exemplar: a bicamada é descrita como "sanduíche de óleo entre duas fatias de pão molhado" antes de qualquer nomenclatura. O transportador é explicado como "porta giratória" antes de receber o rótulo GLUT. O canal é um "túnel" antes de se falar em canal iônico. A Na/K-ATPase tem seu ciclo descrito em três passos antes da sigla aparecer com destaque. | "O mecanismo é o de uma porta giratória: o transportador tem um sítio de ligação... a glicose se encaixa; o transportador muda de conformação como uma engrenagem que gira" (p.7) | Manter como está — modelo a ser seguido. |
+| T2.3 | Pré-requisitos retomados em 1–2 frases | IMP | 4 | Gradiente eletroquímico, segunda lei da termodinâmica e termodinâmica de hidrólise de ATP são retomados en passant com frases âncora. Michaelis-Menten é explicitamente referenciado: "matematicamente idêntica à de Michaelis-Menten para enzimas (a mesma matemática, porque o problema mecanístico é o mesmo)". Perde 1 ponto porque o potencial de membrana em repouso é citado antes de ser explicado (seção 3.3), assumindo que o aluno já sabe o conceito. | "matematicamente idêntica à de Michaelis-Menten para enzimas (a mesma matemática, porque o problema mecanístico é o mesmo: sítio finito + ciclo de ligação-desligação)" (p.8) | Na seção 3.3, quando mencionar "-70 mV", adicionar 1 frase: "Potencial de repouso é a diferença de carga entre o interior e exterior da célula em estado não excitado — veremos isso em detalhe mais adiante." |
+| T2.4 | Aprofundamento em camadas (porquê cru → nuance → exceção → clínica) | IMP | 5 | Execução exemplar em todas as três PARTES. Cada subtópico: (1) mecanismo cru, (2) fórmula/cinética como nuance, (3) exceção/confusão (box "Difusão simples não satura", box "Canal aberto ainda é transporte passivo", box "Eletrogênico não é o que faz o potencial de repouso"), (4) integração clínica no próprio texto ou em box clínico (EAP, cólera, digoxina). O gradiente de camadas é mantido mesmo dentro dos boxes. | "Cuidado: dizer que a Na/K-ATPase é eletrogênica não significa que ela 'faz' o potencial de repouso. A maior parte dos -70 mV vem do gradiente de K+..." (p.17) | Manter como está. |
+| T2.5 | Diálogo > livro-texto (3 parágrafos aleatórios) | CRÍTICO | 5 | Parágrafos testados: (a) intro da seção 1.1, (b) parágrafo sobre movimento browniano em 1.2, (c) parágrafo sobre GLUT-1 vs GLUT-2. Todos em segunda pessoa implícita, com "Repare", "Vale a pena olhar", "Olhe o gráfico que sai disso". Metáforas concretas sustentadas ao longo do texto (porta giratória, túnel, represa, bateria). Sem tom de manual. | "A primeira coisa que choca quando se entende difusão é perceber que não existe força líquida puxando a tinta. Cada molécula está fazendo seu caminho aleatório, sem direção preferida." (p.4) | Manter como está. |
+| T2.6 | Boxes/avisos em voz mecanística (sem vocab de prova) | CRÍTICO | 5 | Todos os seis boxes identificados (Edema pulmonar e lei de Fick, Difusão simples não satura, KM como decisão tecidual, Canal aberto ainda é transporte passivo, Digoxina e a Na/K-ATPase, Eletrogênico não é o que faz o potencial de repouso) explicam o mecanismo sem frases como "cai na prova" ou "lembrar que". O box da cólera é o mais denso e mantém voz explicativa até o fim. | "A digoxina é um inibidor reversível da Na/K-ATPase... O resultado: o Na+ intracelular sobe um pouco. E daí o que acontece é interessante — o miocárdio tem um trocador Na/Ca... Com mais Na+ intracelular, o gradiente de Na+ cai, o trocador trabalha menos, e o Ca² intracelular sobe." (p.13) | Manter como está. |
+| T2.7 | Variação de registro entre subtópicos vizinhos | IMP | 3 | As três PARTES têm registro similar — todas usam prosa com metáforas, sínteses numeradas e boxes. Não há variação intencional de registro (ex.: uma seção mais técnica para contrastar com outra mais narrativa). Isso é uma opção válida e coerente com a missão, mas pode cansar em leitura longa. A seção 2.3 quebra com tabela comparativa — é a maior variação de registro encontrada. | "Critério Canal iônico Transportador / Velocidade 10⁶–10⁸ íons/s — rápido / 10²–10⁴ moléculas/s — lento" (p.11) | Opcional: introduzir um subtópico de tom mais "investigativo" (ex.: "O que acontece quando bloqueamos a bomba?") para alternar o ritmo na PARTE III. |
+| T2.8 | Mini-resumos em parágrafos longos | IMP | 5 | Sete "Sínteses" numeradas + "Resumindo até aqui" recorrentes ao fim de cada subseção. Padrão sistemático e bem-executado. Sínteses são concretas, não repetem o parágrafo anterior palavra por palavra, acrescentam perspectiva integradora. | "Síntese 5 — Bomba é a fonte do gradiente. Quem cobra ATP é a bomba; depois disso, qualquer canal ou transportador a favor do gradiente está, em última análise, vivendo do trabalho que a bomba fez antes." (p.14) | Manter como está. |
+| T2.9 | Conclusão integradora em 3+ camadas | IMP | 5 | Conclusão cobre: (1) camada estrutural (bicamada como barreira seletiva), (2) camada mecanística (três rotas complementares com suas lógicas), (3) camada hierárquica (Na/K-ATPase como infraestrutura de tudo), (4) camada clínica implícita ("absorção intestinal, reabsorção renal, sinalização elétrica, contração muscular, regulação ácido-base"). Integra os três blocos sem repetir as sínteses parciais. | "Toda a fisiologia da absorção intestinal, da reabsorção renal, da sinalização elétrica, da contração muscular, da regulação ácido-base, da homeostase de volume celular se reduz a combinações desses três mecanismos." (p.18) | Manter como está. |
+| T2.11 | Figuras integradas ao texto | IMP | 3 | JSON indica 9 imagens em 38 páginas; distribuição: p.5, p.6, p.8, p.9, p.11, p.13, p.14, p.15, p.16. Texto extraído indica legendas presentes ("Repare como a gota de tinta começa concentrada..."; "Subunidades proteicas dispostas em coroa formam um poro central..."). Porém: (a) entre p.17 e p.38 (21 páginas = 55% do documento) não há nenhuma imagem — seção 3.3 inteira, conclusão, Resumindo e E2/E3 sem figura; (b) análise visual não foi possível por ausência de pdftoppm. Score baseado em metadados + texto. | "Os quatro grandes gradientes iônicos da célula. Na+ e Cl- altos fora, K+ alto dentro, Ca² altíssimo fora (~10.000× maior que dentro). Cada gradiente é uma 'bateria' pronta para gerar trabalho quando o canal certo abrir" (p.10) | Incluir ao menos uma figura esquemática na seção 3.3 (ciclo completo da Na/K-ATPase ligando primário→secundário→potencial) e uma no Resumindo/conclusão. A segunda metade do documento ficou visualmente vazia. |
+| T2.12 | Cota de antropomorfismo (≤3× por capítulo) | DES | 4 | Usos identificados: "a célula resolve" (p.7), "a célula constrói três soluções" (p.18), "a fisiologia agindo na arquitetura cinética" (p.8). Total = 3, dentro do limite. Frases como "a célula vive empurrando essa tendência" (p.3) são borderline mas funcionam como metáfora explicativa, não antropomorfismo de agência. | "a célula resolve com uma proteína integral chamada transportador facilitado" (p.7) | OK — dentro do limite. Monitorar em versão revisada. |
+| T2.13 | Densidade visual e legibilidade | IMP | 3 | Metadados: 277 palavras/página em média — denso para apostila didática (ideal ~200–240). Três "mapas conceituais" em texto puro (I, II, III) são úteis mas de qualidade visual limitada (ASCII art no .txt). Imagens concentradas nas páginas 5–16; segunda metade imageticamente vazia. Sem análise visual direta disponível. Score conservador por combinação de alta densidade textual e distribuição desequilibrada de figuras. | "MAPA CONCEITUAL / I / Difusão simples explica O2 e CO2 / 1.1 – Lipídio / Lipossol vel passa; polar grande não / 1.2 – Fick / Fluxo cresce com gradiente e área" (p.6) | Converter mapas conceituais de texto para figura vetorial real. Redistribuir ao menos 2 figuras para a segunda metade (seções 3.2–3.3). |
+
+---
+
+## Incidência dos 7 erros NEBLI
+
+| # | Erro | Presente? | Evidência |
+|---|---|---|---|
+| 1 | Paridade de distratoras em E2 Aplicação (Q26–Q30) | PRESENTE (leve) | Q26 distratora A (correta) tem ~35 palavras; distratoras B–E têm 15–25 palavras. Q27 é CE — formato estruturalmente diferente, paridade não se aplica da mesma forma. Q28 distratoras C e E têm 10–12 palavras contra ~20 da correta D. Q29 correta B tem ~15 palavras; distratoras A/C/D/E têm 12–18 — paridade razoável. Q30 correta C tem ~20 palavras; demais têm 15–20 — aceitável. Pior caso: Q28 distratoras A/B/C/E com 10–12 palavras vs correta D com ~20. Ratio ~1.7 — acima do limite de 1.25. |
+| 2 | Siglas sem `#sigla()` na 1ª aparição | N/A | Apostila histórica em PDF/txt extraído — não usa sistema Typst/`#sigla()`. Critério não aplicável ao formato. Siglas identificadas no texto: GLUT, SGLT, NHE3, NCX, SERCA, CFTR, EAP, SRO, AMPA. Todas recebem expansão textual na 1ª aparição (ex.: "transportadores facilitados de glicose; GLUT-1 a GLUT-14 em humanos" em nota de rodapé p.4; CFTR tem nota "cystic fibrosis transmembrane regulator — canal de Cl- ativado por AMPc" p.15). Boa prática mesmo sem a macro. |
+| 3 | Subagentes Opus customizados falhando | N/A | Erro de pipeline NEBLI — não aplicável a apostila histórica de autor externo. |
+| 4 | Heredoc atômico ENAMETOOLONG no Windows | N/A | Erro de pipeline NEBLI — não aplicável. |
+| 5 | `questao-ce` exige tupla `("I", [conteúdo])` | N/A | Erro de template Typst NEBLI — não aplicável ao formato desta apostila. |
+| 6 | Termo-notas abaixo do alvo (4 em vez de 6–8) | N/A | Apostila não usa sistema de termo-nota Typst. Analiticamente, o texto usa notas de rodapé (¹GLUT, ²EAP, ³CFTR) — apenas 3 identificadas. Se fosse NEBLI, seria insuficiente. Registrado como observação, não bloqueio. |
+| 7 | Tema-card com teto E1 errado | N/A | Não se aplica — apostila histórica não passa por Tema Card NEBLI. A E1 tem aproximadamente 18 páginas (p.3–p.18), dentro do teto canônico de 22. |
+
+---
+
+## Top 3 recomendações priorizadas
+
+1. **Redistribuir figuras para a segunda metade do documento (p.17–p.38).** A seção 3.3 (Na/K-ATPase como motor de tudo), a conclusão integradora e o Resumindo somam ~8 páginas sem nenhuma imagem. Uma figura do ciclo Na/K-ATPase mostrando os três efeitos simultâneos (gradiente de Na+, gradiente de K+, eletrogenicidade) seria de alto impacto pedagógico exatamente onde a síntese de tudo ocorre.
+
+2. **Resolver paridade em Q28 (E2 Aplicação).** As distratoras A, B, C e E da Q28 têm 10–12 palavras contra ~20 da correta D. Um aluno com dificuldade real pode acertar por exclusão visual. Reescrever cada distratora com mecanismo plausível-mas-errado em 20–25 palavras (ex.: distratora A "A furosemida age nos pneumócitos ativando a Na/K-ATPase apical, que remove ativamente o líquido alveolar ao custo de ATP sintetizado pelas mitocôndrias locais").
+
+3. **Converter os três "Mapas Conceituais" de ASCII para figuras reais.** O conteúdo dos mapas é adequado, mas o formato texto puro (linhas, colunas e setas em ASCII) é difícil de ler em PDF e não transmite hierarquia visual. Substituir por diagrama vetorial simples com caixas e setas seria suficiente — não precisa ser elaborado, só legível.
+
+---
+
+[APROVAR]

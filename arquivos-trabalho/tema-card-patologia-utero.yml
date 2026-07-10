@@ -1,0 +1,29 @@
+slug: patologia-utero
+titulo: "Patologia do útero — corpo e colo"
+subtitulo: "Patologia · Ciclo clínico"
+sem_e2: true
+meta:
+  - ["Disciplina", "Patologia — Aparelho reprodutor feminino"]
+  - ["Onde estudar", "Robbins Cap. 22 + Respostas do Relatório da prof."]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Como a peça uterina chega ao patologista"
+        subtopicos:
+          - "1.1 Procedimentos cirúrgicos do útero"
+          - "1.2 Protocolo de envio e fixação"
+          - "1.3 Descrição macroscópica orientada"
+      - titulo: "PARTE II — Patologia do corpo"
+        subtopicos:
+          - "2.1 Leiomioma e adenomiose"
+          - "2.2 Pólipos e hiperplasia endometrial"
+          - "2.3 Carcinoma endometrial — tipos I e II"
+      - titulo: "PARTE III — Patologia do colo"
+        subtopicos:
+          - "3.1 HPV, displasia e carcinoma in situ"
+          - "3.2 Carcinoma invasor e estadiamento TNM"
+          - "3.3 Resposta à radioterapia"
+  - titulo: "Etapa 3 — 5 discursivas"
+    descricoes:
+      - "Discursivas ancoradas em imagem macro/micro do relatório"

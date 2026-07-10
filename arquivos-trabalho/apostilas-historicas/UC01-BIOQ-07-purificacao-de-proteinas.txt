@@ -1,0 +1,1299 @@
+NEBLI · APOSTILA
+
+Purificação de proteínas
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. O foco aqui não é decorar o nome de
+Onde estudar:  cada coluna ou gel; é ENTENDER que propriedade física de cada técnica
+               explora -- tamanho, carga, afinidade ou pI -- e por que faz sentido
+               encadeá-las da etapa bruta até o produto puro.
+
+               Lehninger, Cap. 3 -- Aminoácidos, Peptídeos e Proteínas (seção de
+               purificação). Stryer/Berg, Cap. 3 -- A Exploração das Proteínas.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que purificar e por onde começar
+       1.1 Quando uma proteína precisa estar pura
+       1.2 A lógica das etapas: enriquecer e remover
+       1.3 Como saber se está pura: rendimento e atividade específica
+  PARTE II -- Cromatografia: separar fazendo a amostra passar por uma coluna
+       2.1 Filtração em gel: separa por tamanho
+       2.2 Troca iônica: separa por carga
+       2.3 Afinidade: separa por interação específica
+  PARTE III -- Eletroforese: separar puxando com campo elétrico
+       3.1 SDS-PAGE: igualando a carga para isolar tamanho
+       3.2 Focalização isoelétrica: cada proteína no seu pI
+       3.3 Eletroforese bidimensional: o mapa completo do proteoma
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Uma célula contém milhares de proteínas misturadas no mesmo citoplasma, e o bioquímico que
+    quer estudar uma delas precisa, de alguma forma, separá-la de todo o resto. Esse problema, que
+    parece banal, é a porta de entrada de boa parte da bioquímica experimental e da biotecnologia
+    moderna -- sem ele não existiria insulina recombinante, nem teste rápido de HIV, nem o diag-
+    nóstico moderno das hemoglobinopatias. Este resumo cobre as três famílias de técnicas que
+    dominam a purificação: critérios gerais de estratégia, cromatografia em coluna e eletroforese. O
+    fio condutor é simples -- toda técnica explora uma diferença física entre proteínas (tamanho,
+    carga, afinidade) e a transforma em separação espacial.
+
+PARTE I -- Por que purificar e por onde começar
+
+1.1 -- Quando uma proteína precisa estar pura
+Antes de pensar em técnica, vale pensar no problema. Por que alguém gastaria semanas
+tentando isolar uma única proteína de uma mistura com milhares de outras? Há três respostas
+práticas que se reforçam.
+
+   A primeira é o estudo da função. Para medir a atividade catalítica de uma enzima, sua
+cinética, sua dependência de cofator ou seu mecanismo de regulação, é preciso ter certeza
+de que o que se mede vem dela, e não de uma contaminante. Uma preparação 80% pura
+parece boa no papel, mas se os 20% restantes contêm uma enzima parecida que consome o
+mesmo substrato, todo o número medido vira ruído. A segunda é a determinação estrutural.
+Cristalografia de raios X e ressonância magnética nuclear exigem amostras essencialmente
+homogêneas -- uma única espécie de proteína, em alta concentração. Sem pureza, não há
+cristal aproveitável. A terceira é a produção em escala industrial: insulina humana, hormônio
+de crescimento, anticorpos monoclonais terapêuticos. Tudo isso é purificado a partir de E. coli¹
+ou de culturas de células animais, e o produto final tem de passar por critérios rigorosos de
+pureza antes de chegar ao paciente.
+
+   O ponto comum às três situações é que pureza não é capricho estético -- é a condição para
+que qualquer afirmação posterior sobre aquela proteína seja confiável.
+
+1.2 -- A lógica das etapas: enriquecer e remover
+A primeira intuição de quem está começando é imaginar que existe uma "técnica mágica"
+que separa a proteína-alvo de tudo o mais em um único passo. Não existe. Toda purificação
+real é uma sequência de etapas -- tipicamente quatro a sete -- em que cada uma aproveita
+uma propriedade física diferente para enriquecer a amostra. O esquema clássico começa com a
+
+   ¹E. coli ­ Escherichia coli -- bactéria muito usada como hospedeira para produzir proteínas humanas em laboratório
+
+                                                                                 3
+NEBLI                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+escolha do material. Se a proteína de interesse é abundante em um tecido específico, começa-se
+por ele: hemoglobina do eritrócito, mioglobina do músculo cardíaco, albumina do soro. Quanto
+mais abundante no ponto de partida, menos trabalho terá a sequência inteira.
+
+   Depois vem a lise -- romper as células para liberar o conteúdo -- seguida de uma fração
+grosseira por centrifugação, que separa núcleos, mitocôndrias e debris da fração solúvel. Daí
+em diante, cada etapa subsequente é uma técnica de purificação propriamente dita: precipi-
+tação por sulfato de amônio (que aproveita diferenças de solubilidade), cromatografia (que
+aproveita tamanho, carga ou afinidade), eletroforese analítica (mais para conferir o resultado
+do que para purificar em escala).
+
+Resumindo até aqui: Cada etapa do protocolo aumenta a pureza às custas de perder alguma quanti-
+dade da proteína-alvo  quanto mais etapas, mais limpa a amostra, menor o rendimento absoluto. A
+arte está no equilíbrio.
+
+A escolha das técnicas e a ordem em que aparecem não é arbitrária. Etapas iniciais são, em
+geral, de baixa resolução e alta capacidade -- lidam com volumes grandes e impurezas gros-
+seiras. Etapas finais são de alta resolução e baixa capacidade -- refinam o que sobrou. Inverter
+essa ordem é desperdiçar uma coluna cara fazendo trabalho de centrífuga.
+
+    Material            Lise +       Precipitação      Cromatografia     Eletroforese
+                  centrifugação
+  tecido onde a                     sulfato de amônio   tamanho, carga,      analítica
+alvo é abundante    fração solúvel  (baixa resolução)        afinidade    (conferência)
+
+          Rendimento total  a cada etapa
+          Atividade específica (pureza relativa)  a cada etapa
+
+Esquema canônico de uma purificação de proteína. O material de partida é escolhido pela abundância da alvo; cada
+etapa subsequente explora uma propriedade física diferente, e a resolução das técnicas cresce conforme se avança.
+O rendimento total cai etapa a etapa; a atividade específica (pureza relativa) sobe -- esses dois números são os
+indicadores que o bioquímico monitora.
+
+                                    4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O problema do bioquímico, ilustrado por David Goodsell: a célula bacteriana e o plasma sanguíneo são oceanos de
+proteínas misturadas. Repare na densidade molecular -- separar uma única espécie dessa mistura é o ponto de
+partida da purificação.
+
+1.3 -- Como saber se está pura: rendimento e atividade específica
+Para monitorar se o protocolo está funcionando, o bioquímico precisa de dois números a cada
+etapa: quanta proteína total ainda tem na amostra, e quanta atividade da proteína-alvo ainda
+tem. A razão entre os dois é a atividade específica². Atividade específica subindo de etapa em
+etapa é o sinal de que a purificação está funcionando; se cair, alguma coisa errada está aconte-
+cendo (a proteína está sendo desnaturada, ou ficou presa na coluna).
+
+   O outro número é o rendimento -- quantos por cento da atividade total que havia no extrato
+inicial sobraram nesta etapa. Rendimento sempre cai, porque toda manipulação perde um
+pouco. Um protocolo bem desenhado pode terminar com 20-40% de rendimento e centenas de
+vezes mais pureza; um protocolo ruim pode chegar a 90% de pureza com 2% de rendimento,
+e isso é praticamente inviável para produção.
+
+   ²atividade específica ­ quantidade de atividade catalítica (ou de ligação) por miligrama de proteína total -- sobe
+quando a proteína-alvo se enriquece em relação às contaminantes
+
+                                                                                 5
+NEBLI                                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+                             Tabela típica de uma purificação enzimática
+
+                  Etapa      Prot. total (mg)  Atividade (U) Atv. específica (U/mg)      Rend. (%)
+Extrato bruto                      20 000                                                    100
+Sulfato de amônio                   5 000                        100 000     5                70
+Filtração em gel                    1 200                        70 000     14                52
+Troca iônica                          250                        52 000     43                38
+Cromatografia de afinidade             15                        38 000    152                27
+                                                                 27 000   1 800
+
+ atividade específica cresce 360×  purificação está funcionando
+ rendimento cai para 27%  preço pago em massa absoluta perdida
+
+Tabela hipotética de purificação enzimática mostrando o gesto típico: a atividade específica sobe etapa a etapa (de 5
+para 1800 U/mg, fator de 360×), enquanto o rendimento cai progressivamente (de 100% para 27%). Os dois números
+andam em direções opostas -- esse é o trade-off operacional que define se um protocolo é bom ou não.
+
+Síntese 1 -- Purificar é sequenciar etapas, cada uma explorando uma propriedade física distinta.
+A atividade específica monitora se está dando certo; o rendimento monitora quanto se perdeu
+pelo caminho. A meta é otimizar os dois ao mesmo tempo, sabendo que se opõem.
+
+                             MAPA CONCEITUAL
+
+                                           I
+
+       Toda técnica vira diferença física em separação
+
+                                               
+
+1.1 ­ Por quê                1.2 ­ Como                                   1.3 ­ Monitor
+
+Função, estrutura, produção    Sequência de etapas, cada uma              Atividade específica sobe;
+exigem amostra homogênea
+                             com critério diferente                       rendimento sempre cai
+
+             Com a lógica posta, partimos para a primeira família de técnicas: cromatografia.
+
+PARTE II -- Cromatografia: separar fazendo a amostra passar
+por uma coluna
+
+2.1 -- Filtração em gel: separa por tamanho
+A ideia da cromatografia é simples: a amostra é dissolvida em um líquido (fase móvel³) que
+passa por uma coluna preenchida com um material poroso (a fase estacionária). Diferentes
+
+   ³fase móvel ­ solução tampão que carrega a amostra através da coluna, mantendo pH e força iônica controlados
+                                                                                 6
+NEBLI                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+proteínas interagem de forma diferente com o material da coluna, e por isso saem em tempos
+diferentes. A primeira das três variantes que importam é a filtração em gel -- também
+chamada de cromatografia de exclusão por tamanho.
+
+   A coluna é preenchida com pequenas esferas de polímero (dextrana ou agarose reticuladas)
+que têm poros internos de tamanho controlado. Proteínas grandes não conseguem entrar
+nesses poros e contornam as esferas pelo espaço externo -- é um caminho curto, e elas saem
+primeiro. Proteínas pequenas entram nos poros, se demoram navegando pelo labirinto interno
+das esferas, e saem por último. O resultado parece contraintuitivo até a primeira vez que se
+entende: numa coluna de filtração em gel, as proteínas grandes saem antes das pequenas.
+
+   Essa técnica tem dois usos práticos comuns. O primeiro é separar uma proteína-alvo de
+contaminantes de massa muito diferente -- por exemplo, tirar uma proteína grande de uma
+mistura com peptídeos pequenos. O segundo é estimar a massa molecular nativa de uma
+proteína desconhecida: calibra-se a coluna com proteínas-padrão de massa conhecida, mede-
+se o volume em que a proteína-alvo sai, e por interpolação se chega à massa. A vantagem aqui
+é que a proteína sai na sua forma nativa -- ao contrário do SDS-PAGE, que mede a massa da
+cadeia desnaturada.
+
+                         grande           pequena
+
+       Grande não entra                               Pequena entra
+       nos poros                                      nos poros 
+       contorna                                       se demora 
+       caminho curto                                  caminho longo
+
+                         sai primeiro     sai depois
+
+O mecanismo contraintuitivo da filtração em gel. A proteína grande (azul) não cabe nos poros das esferas, contorna
+por fora e faz caminho curto -- sai primeiro. A pequena (vermelha) entra nos poros, serpenteia pelo labirinto interno
+e sai depois. A coluna funciona como o inverso de uma peneira de cozinha.
+
+2.2 -- Troca iônica: separa por carga
+A segunda variante explora a carga elétrica líquida da proteína. As esferas da coluna são
+funcionalizadas com grupos químicos carregados -- positivos numa coluna de troca aniônica
+(ela liga proteínas negativas), negativos numa coluna de troca catiônica (ela liga proteínas
+positivas). A amostra é aplicada num pH em que a proteína-alvo tem carga líquida oposta à da
+resina, e ela se adere; as proteínas com carga do mesmo sinal (ou neutras) passam direto e são
+descartadas.
+
+                                       7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   Para soltar a proteína-alvo, aplica-se um gradiente salino4 na fase móvel. Conforme a con-
+centração de sal sobe, os íons cloreto (ou sódio) competem pelos sítios carregados da resina
+e deslocam as proteínas grudadas, uma a uma, na ordem da intensidade da sua interação.
+Proteínas com pouca carga líquida saem primeiro; proteínas muito carregadas precisam de
+mais sal para serem deslocadas e saem por último. Variando a velocidade do gradiente, dá para
+separar proteínas com cargas só ligeiramente diferentes.
+
+2.3 -- Afinidade: separa por interação específica
+A terceira variante é a mais poderosa, e também a que mais depende de conhecimento prévio
+sobre a proteína-alvo. A coluna é preenchida com esferas funcionalizadas com um ligante5 que
+se liga especificamente à proteína de interesse: um substrato análogo (para uma enzima), um
+cofator, um anticorpo, ou um peptídeo curto que se reconhece. Quando a mistura passa pela
+coluna, só a proteína-alvo gruda; todas as outras saem direto. Lava-se a coluna para remover
+contaminantes inespecíficos e depois solta-se a proteína-alvo com uma solução que rompe a
+interação -- uma solução do próprio ligante em alta concentração (que compete pelo sítio), ou
+mudança de pH.
+
+   Em uma única etapa de cromatografia de afinidade, é possível enriquecer uma proteína em
+mil ou dez mil vezes -- um ganho que levaria muitas etapas combinadas de filtração e troca
+iônica para alcançar. O preço a pagar é precisar de um ligante específico, o que nem sempre
+se tem. Para proteínas recombinantes, esse problema foi resolvido elegantemente: o gene é
+modificado para que a proteína expressa carregue uma "cauda" de seis histidinas (His-tag),
+que liga avidamente uma coluna de níquel imobilizado. Praticamente toda a indústria de
+proteínas recombinantes hoje usa essa estratégia.
+
+Insulina recombinante
+
+A insulina humana usada por diabéticos é produzida em E. coli ou em leveduras genetica-
+mente modificadas. A proteína expressa carrega uma cauda His que permite purificá-la por
+cromatografia de afinidade em uma única etapa, com altíssima pureza. Antes desse esquema,
+a insulina vinha de pâncreas de porcos e bovinos, com risco de reações imunológicas; hoje o
+produto é molecularmente idêntico ao humano.
+
+   4gradiente salino ­ aumento progressivo da concentração de sal -- tipicamente NaCl -- na fase móvel, que compete
+com a proteína pelos sítios carregados da resina e a desloca
+
+   5ligante ­ molécula que se liga especificamente à proteína-alvo -- pode ser um substrato, inibidor, cofator, anticorpo,
+ou tag genético como His-cauda
+
+                                                                                 8
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+As três variantes de cromatografia lado a lado. Repare como cada uma explora uma propriedade diferente (tamanho,
+carga, afinidade específica) e como o desenho da coluna muda em cada caso -- a fase estacionária é o que carrega
+o critério de separação.
+
+A tabela abaixo organiza as três variantes pelos seus eixos comparáveis. Note como o que
+distingue cada técnica é, fundamentalmente, o que está na superfície das esferas da coluna
+-- o resto é consequência.
+
+Técnica           Princípio físico     Ordem de saída       Resolução típica
+
+Filtração em gel  Tamanho molecular Grandes primeiro, pe- Modesta -- separa fa-
+
+                  -- esferas porosas re- quenas por último  tores 2-5× de massa
+
+                  tardam os pequenos
+
+Troca iônica      Carga líquida no pH  Pouca carga primeiro, Boa -- separa cargas
+                  usado -- competição
+                  com sal              muita carga por úl- ligeiramente difer-
+
+                                       timo (gradiente)     entes
+
+Afinidade         Ligação específica Tudo passa direto, só  Excelente -- en-
+
+                  com ligante imobi- a alvo fica; sai com   riquecimento      de
+
+                  lizado               competidor           1000-10000× em uma
+
+                                                            etapa
+
+                                       9
+NEBLI                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+Filtração em gel é contraintuitiva
+
+O reflexo do aluno é pensar que numa "peneira", os pequenos passam primeiro. Mas a coluna
+não funciona como peneira de cozinha. As esferas são cheias de poros, e os pequenos entram
+nesses poros, se demoram no labirinto, e saem depois. Grandes não cabem, contornam as esferas
+pelo lado de fora, fazem caminho curto e saem antes. Memorize o gesto físico: pequena entra em
+buraco, demora; grande não entra, escapa.
+
+Síntese 2 -- Toda cromatografia funciona pelo mesmo gesto: fase móvel carrega a amostra
+através de fase estacionária funcionalizada. O que muda é o que está na superfície das esferas --
+poros (tamanho), grupos carregados (carga) ou ligantes específicos (afinidade). Resolução cresce
+de filtração para troca iônica para afinidade, e a especificidade exigida do bioquímico também.
+
+                                                                  MAPA CONCEITUAL
+
+                                                                 II
+
+       Fase móvel + fase estacionária funcionalizada
+
+2.1 ­ Tamanho                                                  2.3 ­ Afinidade
+
+Poros nas esferas; grandes         2.2 ­ Carga           Ligante específico; ganho de
+saem antes
+                             Grupos iônicos; gradiente          1000×
+
+                                    salino solta
+
+        Cromatografia separa em coluna; agora vejamos como o campo elétrico separa em gel.
+
+PARTE III -- Eletroforese: separar puxando com campo
+elétrico
+
+3.1 -- SDS-PAGE: igualando a carga para isolar tamanho
+Eletroforese é a outra grande família de técnicas. A ideia básica: aplica-se um campo elétrico
+em um gel, e as proteínas migram através dele em direção ao polo oposto à sua carga. Quem
+migra mais rápido chega mais longe num tempo dado. O problema é que, na eletroforese livre,
+a velocidade de migração depende de dois fatores ao mesmo tempo -- carga e tamanho -- e
+fica impossível interpretar o resultado: uma proteína pequena e pouco carregada pode migrar
+tão rápido quanto uma grande e muito carregada.
+
+   6SDS ­ dodecil sulfato de sódio -- detergente que se liga uniformemente à cadeia polipeptídica e cobre tudo de carga
+negativa, mascarando a carga original da proteína
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   A solução foi engenhosa: usar SDS6, um detergente forte que desnatura a proteína, desfaz
+pontes dissulfeto (com a adição de um agente redutor como -mercaptoetanol) e se liga
+uniformemente ao longo da cadeia polipeptídica -- aproximadamente uma molécula de SDS
+para cada dois resíduos de aminoácido. O efeito é duplo: a proteína é desenrolada em uma
+cadeia linear, e fica coberta por uma camada uniforme de carga negativa, proporcional ao seu
+comprimento. A carga original da proteína fica completamente mascarada.
+
+   A partir daí, todas as proteínas têm a mesma razão carga/massa, e o que decide a velocidade
+de migração é só o tamanho -- proteínas pequenas atravessam o gel mais rápido, grandes
+ficam para trás. A técnica é chamada SDS-PAGE7, e produz bandas separadas na razão direta
+da massa molecular logarítmica. Calibrando o gel com padrões de massa conhecida, dá para
+estimar a massa de qualquer proteína desconhecida com erro de poucos por cento.
+
+Western blot e diagnóstico de HIV
+
+O SDS-PAGE é a base do Western blot, técnica em que as proteínas separadas no gel são transferi-
+das para uma membrana e detectadas por anticorpos específicos. No diagnóstico confirmatório
+de HIV, o soro do paciente é usado como fonte de anticorpos: se contiver anticorpos contra pro-
+teínas virais (gp120, gp41, p24), elas aparecerão como bandas detectáveis no padrão característico
+do vírus. O Western blot só dá positivo quando há anticorpos contra pelo menos duas proteínas-
+chave -- critério que praticamente elimina falso-positivo.
+
+3.2 -- Focalização isoelétrica: cada proteína no seu pI
+A segunda técnica de eletroforese aproveita outra propriedade -- o pI8, o ponto isoelétrico
+da proteína. Toda proteína tem um pH no qual sua carga líquida é exatamente zero, porque
+as cargas positivas dos resíduos básicos (lisina, arginina) cancelam as cargas negativas dos
+resíduos ácidos (glutamato, aspartato). Esse pH é único para cada proteína, determinado pela
+sua composição de aminoácidos.
+
+   A focalização isoelétrica9 (IEF) monta um gel com um gradiente de pH -- pH baixo em um
+polo, pH alto no outro, valores intermediários distribuídos ao longo do gel. Quando se aplica o
+campo elétrico, cada proteína começa a migrar. Se está num pH abaixo do seu pI, ela tem carga
+líquida positiva e migra em direção ao cátodo (que tem pH mais alto). À medida que avança,
+encontra valores de pH maiores e sua carga vai caindo. Quando chega exatamente ao pH igual
+ao seu pI, a carga vira zero e ela para. Se um movimento aleatório a empurrar para fora desse
+ponto, ela readquire carga (do sinal oposto) e é puxada de volta -- o pI funciona como um poço
+de potencial.
+
+   7SDS-PAGE ­ eletroforese em gel de poliacrilamida com dodecil sulfato de sódio -- separa proteínas desnaturadas
+estritamente por tamanho
+
+   8pI ­ ponto isoelétrico -- valor de pH em que a carga líquida da proteína é zero; varia de proteína para proteína depen-
+dendo dos aminoácidos ionizáveis
+
+   9focalização isoelétrica ­ técnica que separa proteínas pelo pI usando um gradiente de pH estável no gel -- cada
+proteína migra até o pH = pI e para por ter carga zero
+
+                                                                                11
+NEBLI                                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+   O resultado é que cada proteína se "foca" numa banda estreita correspondente ao seu pI. A
+resolução é altíssima: dá para distinguir proteínas que diferem em pI por 0,01 unidade.
+
+                          início: proteínas espalhadas pelo gel
+
+         +                            pH 7                                     -
+
+       ânodo                                                                 cátodo
+
+       pH 3                                                                   pH 10
+
+              proteína A  proteína B        proteína C           proteína D
+                pI  4,5     pI  6,3           pI  7,7              pI  9,1
+
+              cada proteína migra até o pH = pI  carga zera  para de migrar
+
+Mecanismo da focalização isoelétrica. O gel é montado com gradiente de pH (ácido à esquerda, básico à direita).
+Cada proteína, partindo de uma posição aleatória, migra até o ponto em que o pH local iguala seu pI; aí a carga
+líquida vira zero e o movimento para. Pequenas oscilações para fora são corrigidas por restauração de carga oposta
+-- o pI funciona como poço de potencial.
+
+Hemoglobinopatias
+
+A focalização isoelétrica é a técnica de escolha para o diagnóstico moderno das hemoglobinopa-
+tias. A hemoglobina A normal, a hemoglobina S (falciforme), a hemoglobina C, a hemoglobina
+F (fetal) e outras variantes têm pIs ligeiramente diferentes porque diferem em apenas alguns
+aminoácidos. No IEF, cada variante migra para uma posição distinta no gel, e o padrão de bandas
+permite identificar qual hemoglobina o paciente carrega -- útil em triagem neonatal e em casos
+de anemia hemolítica inexplicada.
+
+3.3 -- Eletroforese bidimensional: o mapa completo do proteoma
+A grande sacada do final do século XX foi combinar as duas técnicas anteriores em sequência,
+num único gel -- a eletroforese bidimensional. A amostra é primeiro submetida a uma corrida
+de focalização isoelétrica em uma direção (que separa por pI); depois, o mesmo gel é girado
+90° e submetido a uma corrida de SDS-PAGE na direção perpendicular (que separa por massa
+molecular). O resultado é um padrão bidimensional em que cada proteína da amostra aparece
+como um único ponto, com coordenadas (pI, massa).
+
+   A potência dessa técnica é que ela consegue resolver milhares de proteínas simultanea-
+mente em um único gel -- efetivamente, todo o proteoma celular num espaço analisável.
+Comparando o gel 2D de uma célula normal com o de uma célula doente, dá para identificar
+exatamente quais proteínas estão presentes em quantidades alteradas. Foi a base experimental
+de boa parte da proteômica do início dos anos 2000, antes da espectrometria de massa de alta
+resolução tomar o seu lugar como ferramenta dominante.
+
+                                      12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Eletroforese explorando carga. Na focalização isoelétrica, cada proteína migra até o pH = pI e para. A comparação
+normal × patológico mostra como pequenas alterações de carga (por mutação pontual em um aminoácido ionizável)
+deslocam bandas inteiras -- base do diagnóstico de hemoglobinopatias.
+
+ Gel bidimensional: a horizontal é o pI (focalização isoelétrica); a vertical é a massa molecular (SDS-PAGE). Cada
+ ponto é uma proteína da amostra com sua coordenada única (pI, massa). Milhares de proteínas resolvidas em um
+ único gel.
+
+                                                                                13
+NEBLI                                                          ETAPA 1 -- TEXTO DIDÁTICO
+
+Eletroforese de proteínas séricas e mieloma múltiplo
+
+No laboratório clínico, a eletroforese de proteínas séricas em uma única dimensão separa as
+frações do soro (albumina, 1, 2, , -globulinas). No mieloma múltiplo, um clone de plasmócitos
+produz uma única espécie de imunoglobulina em quantidade enorme -- o que aparece como
+um pico estreito e altíssimo na fração , chamado de pico monoclonal ou pico M. O padrão é tão
+característico que a eletroforese é um dos exames de primeira linha quando se suspeita da doença.
+
+Síntese 3 -- Eletroforese explora carga em campo elétrico. SDS-PAGE mascara a carga original e
+isola a separação por tamanho; focalização isoelétrica usa gradiente de pH para parar cada pro-
+teína no seu pI; a combinação das duas no gel 2D produz um mapa do proteoma com coordenadas
+(pI, massa) para cada espécie.
+
+                                                                  MAPA CONCEITUAL
+
+                                                                III
+
+       Campo elétrico puxa, gel define o critério
+
+                                          
+
+3.1 ­ Tamanho                3.2 ­ Carga                       3.3 ­ 2D
+
+SDS mascara carga; só massa    Gradiente de pH; proteína para  pI e massa juntas; proteoma
+importa
+                             no pI                             inteiro num gel
+
+Três técnicas, três princípios físicos, um problema comum resolvido por caminhos paralelos.
+
+                                          14
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+O arsenal técnico da purificação de proteínas se organiza em torno de uma única
+ideia: transformar uma diferença física entre proteínas em separação espacial. A
+cromatografia faz isso fazendo a amostra atravessar uma coluna em que diferentes pro-
+teínas interagem com tempos diferentes -- separação no tempo de saída. A eletroforese
+faz isso submetendo a amostra a um campo elétrico em um gel -- separação na distância
+percorrida. As propriedades exploradas se repetem entre as duas famílias: tamanho
+(filtração em gel e SDS-PAGE), carga (troca iônica e focalização isoelétrica) e ligação
+específica (cromatografia de afinidade, que não tem análogo em eletroforese). A escolha
+das técnicas em um protocolo concreto depende do que se sabe sobre a proteína-alvo e
+do que se quer no final -- produção em escala favorece afinidade (uma etapa, alto rendi-
+mento); pesquisa exploratória favorece combinações sequenciais com monitoramento
+de atividade específica em cada passo. Na medicina, essas técnicas saíram do laboratório
+de pesquisa e entraram na rotina clínica: SDS-PAGE como base do Western blot para
+confirmação de HIV, focalização isoelétrica para hemoglobinopatias, eletroforese de
+proteínas séricas para mieloma múltiplo, cromatografia de afinidade para produção de
+insulina e hormônio de crescimento recombinantes. Cada técnica que parece abstrata
+na bancada acaba, em algum ponto, decidindo um diagnóstico ou viabilizando um
+tratamento.
+
+       15
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Western blot confirma HIV                                   Filtração em gel é contraintuitiva
+
+O SDS-PAGE separa proteínas virais por massa  Esferas porosas: grandes não entram nos poros 
+
+transferência para membrana  soro do paciente contornam por fora, caminho curto, saem primeiro.
+
+como fonte de anticorpos. Bandas contra gp120, Pequenas entram no labirinto interno, demoram,
+
+gp41 e p24  diagnóstico confirmatório. Bandas em saem por último. Memorize: pequena entra em bu-
+
+2 proteínas-chave praticamente elimina falso-pos- raco e se atrasa; grande escapa por cima.
+
+itivo.                                                      Troca iônica separa por carga
+
+SDS-PAGE é a régua universal                                Resina com grupos positivos liga proteínas nega-
+
+Detergente SDS mascara a carga original e tivas (troca aniônica) e vice-versa. Gradiente salino
+
+desnatura  todas as proteínas migram só por crescente desloca as proteínas grudadas  pouca
+
+tamanho. Calibrando com padrões de massa con- carga sai primeiro, muita carga por último. Boa res-
+
+hecida, estima-se a massa de qualquer proteína de- olução para cargas só ligeiramente diferentes.
+
+sconhecida com erro de poucos por cento.                    Eletroforese 2D mapeia o proteoma
+
+Hemoglobinopatias diagnosticadas por IEF                    1ª dimensão = IEF (pI), 2ª dimensão = SDS-PAGE
+
+HbA, HbS, HbC, HbF diferem em poucos aminoá- (massa) no mesmo gel girado 90°. Cada proteína vira
+
+cidos  pIs ligeiramente diferentes. Na focalização um ponto único com coordenadas (pI, massa) 
+
+isoelétrica, cada variante migra até parar no seu pI milhares resolvidas. Comparação normal × doente
+
+ padrão de bandas distingue qual hemoglobina o revela proteínas com expressão alterada.
+
+paciente carrega. Base da triagem neonatal de falci- Cromatografia: três variantes, um esquema
+
+forme.                                                         Fase móvel (tampão) carrega amostra através de
+Pico monoclonal e mieloma múltiplo                          fase estacionária funcionalizada na coluna. O que
+
+Eletroforese de proteínas séricas separa as frações muda é a superfície das esferas: poros (tamanho)
+
+(albumina  -globulinas). Clone único de plasmóc-  grupos iônicos (carga)  ligante específico
+
+itos produz uma só imunoglobulina em excesso  (afinidade). Resolução cresce; especificidade exigida
+
+aparece como pico M estreito e alto na fração . também.
+
+Exame de primeira linha na suspeita de mieloma.
+
+Atividade específica monitora a purificação
+
+   Atividade da alvo dividida pela proteína total sobe
+a cada etapa bem-sucedida  enriquecimento. Se
+cair  proteína está sendo desnaturada ou ficou
+presa na coluna. Rendimento sempre cai; a arte é o
+equilíbrio entre pureza ganha e quantidade perdida.
+Cromatografia de afinidade produz insulina
+recombinante
+
+   Gene da proteína-alvo recebe cauda de seis histid-
+inas (His-tag)  expressão em E. coli ou levedura 
+coluna de níquel imobilizado captura só a alvo. Uma
+etapa, enriquecimento de 1000-10000×. Base da in-
+sulina humana usada por diabéticos hoje.
+
+                                                        16
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a necessidade de purificar uma proteína antes de estudá-la, assinale a alternativa
+correta.
+
+  A) Para estudos cinéticos, basta uma preparação com cerca de 50% de pureza, pois contam-
+  inantes não afetam medidas de velocidade de reação enzimática.
+  B) A pureza é a condição para que as medidas atribuídas àquela proteína sejam confiáveis,
+  evitando que contaminantes adicionem sinal espúrio.
+  C) Cristalografia de raios X tolera amostras heterogêneas porque o cristal seleciona apenas
+  uma espécie durante o crescimento das faces.
+  D) Produtos terapêuticos recombinantes como insulina dispensam etapas finais de purifi-
+  cação, já que a bactéria hospedeira produz somente a proteína de interesse.
+  E) Pureza alta é puramente estética e não interfere em medidas de função, estrutura ou
+  aplicação clínica de uma proteína isolada.
+
+Questão 02 Consolidação
+
+A respeito da lógica geral de um protocolo de purificação de proteínas, julgue os itens a seguir.
+
+Cada item deve ser julgado de forma independente.
+
+  I. Cada etapa de purificação aumenta a pureza da proteína-alvo ao custo de perder alguma
+  fração da quantidade total presente.
+  II. O rendimento absoluto em proteína-alvo tende a subir a cada etapa adicional, porque
+  novas técnicas recuperam material perdido nas etapas anteriores.
+  III. Quanto mais abundante a proteína-alvo no material de partida, mais simples e mais curto
+  tende a ser o protocolo subsequente.
+  IV. Etapas iniciais devem ser de alta resolução e baixa capacidade; etapas finais, de baixa
+  resolução e alta capacidade, para refinar volumes grandes.
+
+                            17
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 03 Consolidação
+
+Em um protocolo clássico de purificação, qual é a primeira providência prática depois de
+escolhido o tecido de partida?
+
+  A) Aplicar imediatamente cromatografia de afinidade, garantindo enriquecimento máximo
+  antes de qualquer outra manipulação do material.
+
+  B) Submeter o extrato cru à eletroforese analítica, etapa indispensável para definir quais
+  técnicas posteriores serão escolhidas.
+
+  C) Realizar diretamente eletroforese bidimensional para mapear o proteoma e só então
+  decidir qual proteína isolar do gel.
+
+  D) Romper as células (lise) e separar a fração solúvel por centrifugação, removendo núcleos,
+  mitocôndrias e debris insolúveis.
+
+  E) Adicionar ligante específico da proteína-alvo ao tecido íntegro, deixando que a interação
+  aconteça antes mesmo da lise celular.
+
+Questão 04 Consolidação
+
+A atividade específica de uma preparação proteica é definida como:
+
+  A) A razão entre a quantidade de atividade da proteína-alvo e a massa total de proteína na
+  amostra, expressando o grau de pureza relativo.
+  B) A massa absoluta de proteína-alvo em miligramas presente na amostra, independente-
+  mente da quantidade de proteínas contaminantes.
+  C) A fração percentual da atividade inicial que sobrou após a etapa, sem qualquer referência
+  à massa total de proteína presente.
+  D) A razão entre o volume da amostra inicial e o volume da amostra final, refletindo o grau
+  de concentração obtido na etapa.
+  E) A razão entre a massa molecular nativa e a massa da cadeia desnaturada, indicando o
+  número de subunidades por complexo.
+
+                         18
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 05 Consolidação
+
+Durante o monitoramento de um protocolo de purificação enzimática, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A atividade específica subindo de etapa em etapa é o sinal de que a proteína-alvo está se
+  enriquecendo em relação às contaminantes.
+  II. O rendimento sempre tende a cair de etapa em etapa, porque toda manipulação experi-
+  mental implica alguma perda de material.
+  III. Um protocolo que termina com 90% de pureza e 2% de rendimento é considerado
+  eficiente para produção em escala industrial.
+  IV. Atividade específica que cai abruptamente em uma etapa pode indicar desnaturação da
+  proteína-alvo ou retenção indevida na coluna.
+
+Questão 06 Consolidação
+
+Sobre rendimento e atividade específica ao longo de um protocolo, é correto afirmar:
+
+  A) Em um protocolo bem desenhado, rendimento e atividade específica caem juntos, indi-
+  cando que ambos refletem perda progressiva de material.
+  B) Rendimento expressa o aumento de pureza obtido na etapa; atividade específica indica o
+  volume final em mililitros da amostra recuperada.
+  C) Rendimento e atividade específica andam em direções opostas: a pureza sobe, mas a
+  quantidade absoluta de proteína-alvo cai a cada etapa.
+  D) Ambos os parâmetros sobem simultaneamente em todas as etapas, refletindo o ganho
+  cumulativo proporcionado pelas técnicas combinadas.
+  E) A atividade específica é constante ao longo do protocolo, servindo apenas como controle
+  interno de qualidade entre etapas distintas.
+
+                         19
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 07 Consolidação
+
+Em uma coluna de filtração em gel (cromatografia de exclusão por tamanho), qual proteína
+sai primeiro?
+
+  A) A de menor massa molecular, pois cabe nos poros das esferas e atravessa rapidamente o
+  labirinto interno do material da coluna.
+
+  B) Todas saem ao mesmo tempo, pois o critério dessa cromatografia é a carga líquida da
+  proteína no tampão usado e não o tamanho.
+
+  C) A de carga mais negativa, pois é atraída eletrostaticamente pelas esferas positivas que
+  compõem a fase estacionária da coluna.
+
+  D) A de maior afinidade pela fase móvel, pois é arrastada com velocidade superior à das
+  demais ao longo do leito da coluna.
+
+  E) A de maior massa molecular, pois não entra nos poros das esferas e contorna o leito pelo
+  espaço externo, fazendo caminho mais curto.
+
+Questão 08 Consolidação
+
+Sobre a eletroforese bidimensional clássica de proteínas, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A primeira dimensão é uma corrida de SDS-PAGE, que separa as proteínas estritamente
+  por carga líquida líquida no gel de poliacrilamida.
+  II. A segunda dimensão é uma focalização isoelétrica perpendicular, que separa as proteínas
+  pelo número de pontes dissulfeto presentes em cada cadeia.
+  III. Cada proteína da amostra aparece no gel final como um único ponto, com coordenadas
+  correspondentes ao seu pI e à sua massa molecular.
+  IV. A técnica permite resolver milhares de proteínas em um único gel, viabilizando compara-
+  ções entre amostras normais e patológicas.
+
+                         20
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 09 Consolidação
+
+Em uma coluna de troca iônica catiônica (resina com grupos negativos), quais proteínas ficam
+retidas?
+
+  A) As que têm carga líquida positiva no pH do tampão usado, pois são atraídas eletrostatica-
+  mente pelos grupos negativos da resina.
+
+  B) As de maior massa molecular, pois entram com mais dificuldade nos poros internos das
+  esferas e ficam presas no caminho.
+
+  C) As que carregam um ligante específico capaz de reconhecer e ligar-se aos grupos químicos
+  imobilizados na superfície da resina.
+
+  D) As que têm carga líquida negativa no pH usado, pois competem com o sal pelos sítios
+  negativos disponíveis na fase estacionária.
+
+  E) As que possuem pI igual ao pH do tampão, pois nesse ponto a interação eletrostática com
+  a resina atinge seu valor máximo.
+
+Questão 10 Consolidação
+
+A cromatografia de afinidade explora qual propriedade da proteína-alvo?
+
+  A) O tamanho molecular efetivo da proteína em sua forma nativa, retardando a passagem
+  das maiores ao longo da coluna porosa.
+  B) A carga líquida da proteína no pH do tampão usado, prendendo-a aos grupos iônicos
+  imobilizados na superfície da resina.
+  C) A solubilidade em meio salino concentrado, fazendo a proteína precipitar e ficar retida no
+  leito da coluna durante a corrida.
+  D) A capacidade de se ligar especificamente a um ligante imobilizado, como um substrato
+  análogo, um inibidor, um cofator ou uma cauda His.
+  E) A massa molecular da cadeia desnaturada por SDS, viabilizando a separação por mobil-
+  idade eletroforética na coluna pressurizada.
+
+                         21
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 11 Integração
+
+Um pesquisador combina, em sequência, precipitação por sulfato de amônio, cromatografia
+de troca iônica e, por fim, cromatografia de afinidade. Sobre a lógica dessa ordem, é correto
+afirmar:
+
+  A) A ordem é arbitrária; qualquer permutação levaria ao mesmo rendimento e pureza, pois
+  as três técnicas exploram a mesma propriedade da proteína.
+
+  B) A cromatografia de afinidade deveria vir primeiro, pois oferece o maior enriquecimento
+  por etapa, dispensando todas as anteriores como redundantes.
+
+  C) Etapas de alta capacidade e baixa resolução (precipitação) vêm cedo para lidar com
+  volumes grandes; etapas finais de alta resolução refinam o que sobrou.
+
+  D) A precipitação por sulfato de amônio deveria ser usada apenas como etapa final, pois é a
+  técnica com a maior resolução do protocolo.
+
+  E) As três técnicas devem ser aplicadas em paralelo no mesmo extrato, e seus produtos
+  somados, para maximizar o rendimento total ao final.
+
+Questão 12 Integração
+
+Em uma tabela de purificação, a atividade específica passou de 5 U/mg no extrato inicial
+para 1.800 U/mg na etapa final, com rendimento final de 27%. Sobre esse resultado, é correto
+afirmar:
+
+  A) O fator de purificação é de aproximadamente 27 vezes, refletindo o percentual de atividade
+  que sobrou ao final do protocolo combinado.
+  B) O rendimento de 27% indica falha no protocolo: protocolos aceitáveis devem manter
+  rendimento acima de 90% para serem considerados viáveis.
+  C) A atividade específica final corresponde à massa absoluta em miligramas da proteína-
+  alvo recuperada ao término do protocolo aplicado.
+  D) O ganho de atividade específica indica perda de pureza, pois a proteína-alvo está se
+  concentrando junto com mais contaminantes a cada etapa.
+  E) O fator de purificação é de cerca de 360 vezes, e a perda de rendimento é o custo esperado
+  por chegar a esse grau de pureza.
+
+                       22
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 13 Integração
+
+Um pesquisador isola uma enzima por filtração em gel e estima sua massa molecular nativa
+em 240 kDa. A mesma enzima, analisada por SDS-PAGE com agente redutor, exibe uma única
+banda em 60 kDa. Julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A enzima nativa é provavelmente um homotetrâmero, formado por quatro subunidades
+  de 60 kDa associadas por interações não covalentes na forma funcional.
+
+  II. A filtração em gel mede a massa molecular da cadeia desnaturada, enquanto o SDS-PAGE
+  mede a massa nativa do complexo proteico oligomérico inteiro.
+
+  III. O SDS quebra as interações não covalentes entre subunidades, permitindo que cada
+  cadeia migre individualmente no gel conforme seu tamanho molecular.
+
+  IV. A combinação das duas técnicas é útil porque mede propriedades distintas -- massa
+  nativa do complexo e massa de cada cadeia individualmente.
+
+Questão 14 Integração
+
+Em uma coluna de filtração em gel, três proteínas (X = 200 kDa, Y = 50 kDa, Z = 12 kDa) são
+aplicadas simultaneamente. Qual é a ordem esperada de saída?
+
+  A) Z primeiro, depois Y, e por último X -- a proteína menor consegue atravessar o leito da
+  coluna sem obstáculos, alcançando o detector antes.
+  B) X primeiro, depois Y, e por último Z -- a maior não entra nos poros, contorna as esferas e
+  sai antes; a menor entra e demora no labirinto.
+  C) Y primeiro, depois X, e por último Z -- proteínas de massa intermediária encontram
+  caminho mais direto que as muito grandes ou muito pequenas.
+  D) As três saem juntas em volume único, pois a filtração em gel separa proteínas exclusiva-
+  mente por carga elétrica e não por tamanho molecular.
+  E) Z primeiro, depois X, e por último Y -- proteínas pequenas escapam pela lateral, as
+  grandes ficam presas e as intermediárias saem ao final.
+
+                       23
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 15 Integração
+
+Uma proteína tem pI 5,0 e está sendo separada em uma coluna de troca aniônica (resina com
+grupos positivos) em tampão pH 7,0. O que se espera?
+
+  A) Em pH 7,0 a proteína tem carga líquida negativa (pH > pI), liga-se à resina positiva e é
+  eluída posteriormente com gradiente crescente de sal.
+
+  B) Em pH 7,0 a proteína tem carga líquida positiva (pH > pI), é repelida pela resina positiva e
+  sai diretamente sem qualquer retenção no leito.
+
+  C) Em pH 7,0 a proteína está exatamente no seu pI e tem carga zero, ficando estacionária na
+  entrada da coluna sem migração nenhuma observada.
+
+  D) O resultado depende apenas do tamanho molecular da proteína, pois a troca iônica utiliza
+  esferas porosas similares à filtração em gel padrão.
+
+  E) A proteína precipita imediatamente ao entrar na coluna, pois o pH ácido do tampão
+  favorece agregação de qualquer proteína com pI próximo a 5.
+
+Questão 16 Integração
+
+Em uma coluna de troca iônica, o gradiente salino é aplicado para eluir as proteínas retidas.
+Julgue os itens sobre o mecanismo de eluição.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O sal eluído (NaCl, por exemplo) age fornecendo energia térmica ao sistema, aquecendo a
+  coluna e dissociando as proteínas da resina por agitação.
+  II. Proteínas pouco carregadas ligam-se fracamente à resina e são deslocadas com baixa
+  concentração salina; proteínas muito carregadas exigem mais sal.
+  III. O gradiente salino atua simultaneamente sobre o tamanho e sobre o pI das proteínas,
+  permitindo separação por dois critérios físicos ao mesmo tempo.
+  IV. Os íons do sal (Cl ou Na) competem com a proteína pelos sítios carregados da resina,
+  deslocando-a quando a concentração local atinge limite suficiente.
+
+                       24
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 17 Integração
+
+Uma mistura contém proteínas A (pI 4,5), B (pI 6,0) e C (pI 9,0), aplicada em coluna de troca
+catiônica (resina negativa) em tampão pH 5,5. Qual é a ordem de eluição?
+
+  A) B sai primeiro, depois A com baixa concentração de sal, e por último C, que precisa de
+  gradiente salino mais alto para eluir do leito.
+
+  B) As três proteínas saem juntas no volume morto, pois nenhuma delas se liga a uma coluna
+  de troca catiônica em pH próximo a 5 sob o gradiente.
+
+  C) A ordem é A, B, C -- proteínas mais ácidas (menor pI) sempre saem primeiro em troca
+  catiônica, independentemente do pH do tampão usado.
+
+  D) A sai primeiro (não retida, pH > pI dá carga negativa), depois B (positiva fraca, sai com
+  pouco sal) e por último C (positiva forte, exige mais sal).
+
+  E) C sai primeiro porque é a mais básica (pI alto), e A sai por último porque é a mais ácida e
+  fica mais tempo associada à resina catiônica do leito.
+
+Questão 18 Integração
+
+Em cromatografia de afinidade com coluna de níquel imobilizado (Ni²-NTA), proteínas
+recombinantes com cauda de seis histidinas são purificadas em uma única etapa. Como ocorre
+a eluição da proteína-alvo retida?
+
+  A) Aumentando-se progressivamente a concentração de NaCl no tampão, que compete com
+  a histidina pelos sítios disponíveis no níquel imobilizado.
+  B) Submetendo a coluna a um campo elétrico que arrasta a proteína para fora dos sítios de
+  coordenação do íon níquel ancorado à matriz.
+  C) Aplicando solução com imidazol em alta concentração, que compete com o anel imi-
+  dazólico das histidinas pelos sítios de coordenação do Ni².
+  D) Trocando o tampão por água pura, o que rompe as interações hidrofóbicas que mantêm a
+  proteína fixada à fase estacionária da coluna.
+  E) Submetendo a coluna a temperatura próxima de 90 °C, que desnatura a proteína e libera-
+  a do contato com o íon imobilizado pela matriz.
+
+                       25
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 19 Integração
+
+Sobre a comparação entre filtração em gel e SDS-PAGE para estimar massa molecular de uma
+proteína, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A filtração em gel fornece a massa molecular do complexo proteico em sua forma nativa,
+  considerando associações entre subunidades preservadas no tampão.
+
+  II. O SDS-PAGE fornece a massa molecular da cadeia polipeptídica desnaturada, refletindo o
+  tamanho de cada subunidade individual da proteína em estudo.
+
+  III. Para um dímero ligado por pontes dissulfeto, SDS-PAGE com agente redutor mostraria
+  uma única banda do dobro da massa de cada cadeia simples.
+
+  IV. Filtração em gel e SDS-PAGE sempre fornecem o mesmo valor de massa, pois ambas as
+  técnicas utilizam o mesmo princípio físico de separação por tamanho.
+
+Questão 20 Integração
+
+Em SDS-PAGE, qual é o papel específico do agente redutor (como -mercaptoetanol ou DTT)
+adicionado à amostra antes da corrida?
+
+  A) Conferir carga negativa uniforme à proteína, mascarando a carga elétrica original que
+  cada cadeia polipeptídica tem em solução fisiológica.
+  B) Reduzir e quebrar as pontes dissulfeto entre cisteínas, permitindo que cadeias unidas por
+  ligação covalente migrem como bandas independentes.
+  C) Estabelecer um gradiente de pH ao longo do gel de poliacrilamida, permitindo que cada
+  proteína migre até parar no seu ponto isoelétrico próprio.
+  D) Aumentar a porosidade do gel de poliacrilamida, garantindo que proteínas muito grandes
+  possam atravessar o leito sem ficar retidas no topo.
+  E) Funcionar como tampão de pH neutro durante a corrida, impedindo que variações locais
+  alterem a carga das proteínas durante a migração no gel.
+
+                       26
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 21 Integração
+
+Sobre o mecanismo da focalização isoelétrica (IEF), assinale a alternativa correta.
+
+  A) As proteínas migram no gel até atingirem o ânodo, onde se acumulam por terem carga
+  líquida positiva forte na maior parte do gradiente de pH.
+
+  B) O SDS mascara a carga das proteínas, e a separação ocorre exclusivamente pela diferença
+  de massa molecular no campo elétrico aplicado ao gel.
+
+  C) O gradiente de pH é eliminado no início da corrida, e as proteínas migram apenas pelo seu
+  tamanho como no SDS-PAGE clássico em poliacrilamida.
+
+  D) A resolução da técnica é baixa: dificilmente distingue proteínas que diferem em mais de
+  uma unidade inteira de pI no gradiente clássico.
+
+  E) Cada proteína migra até o ponto em que o pH local iguala seu pI; ali sua carga vira zero e
+  ela para, focalizando-se em banda estreita.
+
+Questão 22 Integração
+
+Em uma eletroforese bidimensional clássica, qual é a sequência canônica das duas dimensões?
+
+  A) Primeira dimensão: focalização isoelétrica (separa por pI); segunda dimensão: SDS-PAGE
+  perpendicular (separa por massa molecular da cadeia).
+  B) Primeira dimensão: SDS-PAGE (separa por carga líquida); segunda dimensão: cro-
+  matografia de troca iônica (separa por afinidade ao ligante).
+  C) Primeira dimensão: filtração em gel (separa por tamanho); segunda dimensão: cro-
+  matografia de afinidade (separa por ligante específico imobilizado).
+  D) Primeira dimensão: cromatografia de troca iônica (separa por carga); segunda dimensão:
+  SDS-PAGE perpendicular (separa por pI da proteína).
+  E) Primeira dimensão: SDS-PAGE (separa por massa); segunda dimensão: SDS-PAGE per-
+  pendicular (separa também por massa, refinando o resultado).
+
+                       27
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 23 Integração
+
+Um laboratório clínico utiliza focalização isoelétrica para diagnóstico de hemoglobinopatias.
+Julgue os itens sobre o fundamento da técnica nesse contexto.
+
+Cada item deve ser julgado de forma independente.
+
+  I. As variantes HbA, HbS e HbC têm massa molecular muito distinta entre si, motivo pelo
+  qual a focalização isoelétrica consegue separá-las eficientemente.
+
+  II. Substituições pontuais de aminoácidos com cargas diferentes (como Glu por Val em HbS)
+  alteram o pI da hemoglobina e deslocam sua banda no gel.
+
+  III. Cada variante de hemoglobina migra no IEF até o ponto em que o pH do gradiente iguala
+  seu próprio pI, gerando padrão de bandas característico identificável.
+
+  IV. Como todas as hemoglobinas têm exatamente o mesmo pI, a focalização isoelétrica não
+  permite distinguir variantes patológicas de hemoglobina normal.
+
+Questão 24 Integração
+
+Por que, em SDS-PAGE, todas as proteínas migram com velocidade que depende essencial-
+mente apenas do tamanho?
+
+  A) Porque o SDS desfaz todas as pontes dissulfeto e as interações iônicas internas, sem afetar
+  a forma global ou a carga da proteína na corrida.
+  B) Porque o gel de poliacrilamida possui poros uniformes que filtram apenas por carga,
+  neutralizando o efeito do tamanho durante a corrida elétrica.
+  C) Porque o agente redutor isola a carga original da proteína, eliminando o efeito do tamanho
+  molecular sobre a velocidade ao longo do gel.
+  D) Porque o SDS cobre a cadeia com carga negativa proporcional ao comprimento, igualando
+  a razão carga/massa de todas as proteínas no gel.
+  E) Porque o gel é submetido a temperatura elevada que desnatura todas as proteínas igual-
+  mente, anulando diferenças de carga e de tamanho.
+
+                       28
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 25 Integração
+
+Comparando o gel 2D de uma célula tumoral com o de uma célula normal do mesmo tecido,
+observa-se que vários pontos têm intensidade aumentada e alguns pontos novos aparecem. O
+que essa observação sugere?
+
+  A) As células tumorais têm proteoma idêntico ao das células normais; diferenças observadas
+  refletem apenas artefatos da preparação experimental da amostra.
+
+  B) Apenas proteínas com pI alterado por mutação podem ser identificadas no gel; mudanças
+  de quantidade ou expressão não geram pontos detectáveis no gel.
+
+  C) Há proteínas com expressão aumentada na célula tumoral, e proteínas novas, ausentes na
+  célula normal, expressas como resultado da transformação maligna.
+
+  D) Os pontos novos correspondem necessariamente a contaminantes externos introduzidos
+  na preparação tumoral, sem relação com a biologia celular estudada.
+
+  E) A técnica não permite comparar amostras distintas no mesmo experimento, pois cada gel
+  2D só é interpretável de forma isolada e sem referência.
+
+Questão 26 Aplicação
+
+Um grupo de pesquisa quer caracterizar uma nova quinase descrita em fígado de rato. Eles
+dispõem de extrato bruto hepático e querem medir o Km da enzima para ATP com confiança.
+Sem purificação prévia, o que tende a contaminar a medida e levar a um valor falso de Km?
+
+  A) A presença de cofatores como Mg² no extrato favoreceria a reação corretamente, levando
+  a um Km próximo ao real, sem necessidade de purificar.
+  B) Apenas a presença de inibidores irreversíveis da quinase-alvo poderia alterar a cinética;
+  outras enzimas presentes não interferem na medida feita.
+  C) Como o ATP é consumido por dezenas de outras enzimas (ATPases, outras quinases), o
+  Km medido refletiria a soma de afinidades, e não a quinase-alvo.
+  D) Inibidores reversíveis específicos somam-se à medida, mas, como ATPases não com-
+  petem pelo ATP, não há risco real de contaminar o valor de Km obtido.
+  E) Outras enzimas que consomem ATP no extrato (ATPases, outras quinases, sintetases)
+  competem pelo substrato e distorcem a cinética da quinase-alvo medida.
+
+                       29
+NEBLI                     ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 27 Aplicação
+
+Em uma triagem neonatal por focalização isoelétrica, o exame de um recém-nascido revela
+duas bandas: uma na posição da HbF (fetal) e outra deslocada, na posição característica da HbS.
+Julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O resultado é compatível com heterozigose para falciforme: o bebê tem traço falciforme
+  (HbAS futuro) e ainda exibe hemoglobina fetal abundante no período neonatal.
+
+  II. A focalização isoelétrica distingue HbA, HbS e HbF porque essas variantes têm pIs ligeira-
+  mente diferentes, com posições reprodutíveis no gradiente de pH no gel.
+
+  III. Como as três hemoglobinas têm massa molecular praticamente idêntica, o SDS-PAGE
+  seria mais informativo que o IEF para diagnosticar essa variante específica.
+
+  IV. A HbF (fetal) é normalmente a hemoglobina predominante ao nascimento e tende a ser
+  substituída por HbA nos primeiros meses de vida pós-natal saudável.
+
+Questão 28 Aplicação
+
+Um laboratório acadêmico precisa produzir 50 mg de uma proteína recombinante humana
+para ensaios estruturais. A proteína expressa em E. coli traz cauda His-tag adicionada por
+engenharia genética. Qual é a estratégia mais eficiente para purificá-la em uma única etapa
+principal?
+
+  A) Filtração em gel diretamente do lisado bacteriano, pois separa a proteína-alvo do restante
+  do conteúdo bacteriano com boa resolução por massa.
+
+  B) Cromatografia de afinidade em coluna de Ni² imobilizado, que liga avidamente a cauda
+  His e libera por competição com imidazol em alta concentração.
+
+  C) Eletroforese bidimensional preparativa, que separa o lisado em pontos individuais e
+  permite recortar a proteína-alvo do gel para uso experimental.
+
+  D) Precipitação por sulfato de amônio seguida de diálise prolongada, suficiente para atingir
+  o grau de pureza necessário a ensaios estruturais finos.
+
+  E) Troca iônica catiônica em pH 8, pois nesse pH a maioria das proteínas bacterianas tem
+  carga oposta à do recombinante recombinante alvo recombinante.
+
+                      30
+NEBLI                     ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 29 Aplicação
+
+Em um caso suspeito de mieloma múltiplo, o paciente apresenta dor óssea, hipercalcemia
+e insuficiência renal progressiva. Solicita-se eletroforese de proteínas séricas. No traçado da
+eletroforese, qual achado é mais característico da doença?
+
+  A) Albumina elevada de forma isolada com perfil de globulinas absolutamente normal e
+  fração  dentro do limite inferior da referência laboratorial.
+
+  B) Diminuição global das frações 1 e 2, com fração  baixa, sugerindo deficiência primária
+  na produção dos componentes inflamatórios de fase aguda.
+
+  C) Aumento difuso e policlonal da fração , formando uma base larga e suave, padrão típico
+  de resposta inflamatória crônica de origem reativa benigna.
+
+  D) Pico estreito e altíssimo na fração  (pico M monoclonal), produzido por um clone único
+  de plasmócitos secretando uma imunoglobulina específica única.
+
+  E) Queda isolada da fração  com fração  preservada e fração de albumina aumentada,
+  padrão sugestivo de hepatopatia crônica em fase compensada bem inicial.
+
+Questão 30 Aplicação
+
+Uma residente recebe o relatório de focalização isoelétrica de um paciente adulto com anemia
+hemolítica de causa não esclarecida. O traçado mostra uma banda na posição de HbA, outra na
+posição de HbC e nenhuma banda na posição de HbS. Qual interpretação é mais adequada?
+
+  A) O paciente é portador heterozigoto para hemoglobina S, e a banda em HbC corresponde,
+  na verdade, a um artefato técnico da corrida do gel realizada.
+  B) O resultado descarta qualquer hemoglobinopatia: a presença de HbA já é suficiente para
+  excluir mutações estruturais relevantes no laboratório clínico.
+  C) O paciente é heterozigoto composto AC (HbAC): produz uma cadeia  normal e outra com
+  mutação GluLys no códon 6 que desloca o pI.
+  D) O laudo é incompatível com qualquer fenótipo viável e provavelmente reflete erro de coleta
+  ou de identificação da amostra durante o processamento.
+  E) O paciente tem provável deficiência de G6PD eritrocitária, e o padrão de bandas observado
+  é característico desse defeito enzimático específico.
+
+                      31
+NEBLI                            ETAPA 2 -- QUESTÕES OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique, em termos físicos, por que em uma coluna de filtração em gel as proteínas
+grandes saem antes das pequenas, ao contrário do que sugere a analogia com uma
+peneira de cozinha.
+
+    MODELO DE RESPOSTA
+
+   As esferas da coluna são porosas -- o critério separador está dentro delas, não fora. Pro-
+   teínas pequenas entram nos poros e percorrem o labirinto interno das esferas, fazendo
+   caminho longo. Proteínas grandes não cabem nos poros e só contornam as esferas pelo
+   espaço externo, fazendo caminho curto. Como a fase móvel arrasta todos no mesmo
+   fluxo, a distância percorrida define o tempo de saída: caminho curto sai primeiro. A
+   "peneira" do senso comum tem buracos por onde os pequenos passam -- aqui, são os
+   pequenos que ficam presos no caminho.
+
+Questão Q2
+
+Por que, em uma coluna de troca iônica, o gradiente salino é capaz de eluir as proteínas
+que estavam ligadas à resina, e como esse mecanismo permite separar proteínas com
+cargas líquidas diferentes?
+
+    MODELO DE RESPOSTA
+
+   A proteína-alvo está presa por interação eletrostática entre sua carga líquida e os grupos
+   de carga oposta da resina. Quando se aumenta a concentração de sal na fase móvel, os
+   íons (Na ou Cl) ocupam progressivamente os sítios carregados da resina e deslocam
+   as proteínas por competição. Proteínas com pouca carga líquida ligam-se fracamente
+   e saem com baixa concentração salina; proteínas muito carregadas estão mais firme-
+   mente ancoradas e exigem maior força iônica para serem deslocadas. Aplicando o sal
+   de forma gradual, cada proteína sai no momento em que a concentração local rompe
+   sua interação específica.
+
+                             32
+NEBLI      ETAPA 3 -- QUESTÕES DISCURSIVAS
+
+Questão Q3
+
+Explique por que o SDS-PAGE permite separar proteínas estritamente por massa mole-
+cular, apesar de a velocidade de migração em campo elétrico normalmente depender
+tanto da carga quanto do tamanho.
+
+MODELO DE RESPOSTA
+
+O SDS é um detergente que se liga uniformemente à cadeia polipeptídica desnaturada,
+aproximadamente uma molécula a cada dois resíduos. Cada molécula de SDS adiciona
+uma carga negativa, de modo que a quantidade de carga total fica proporcional ao
+comprimento da cadeia. A razão carga/massa torna-se então igual para todas as proteí-
+nas, anulando o efeito da carga original. Como o gel de poliacrilamida atua como uma
+peneira molecular, a velocidade restante depende somente do tamanho -- proteínas
+pequenas atravessam o gel mais rápido e migram mais longe que as grandes.
+
+Questão Q4
+
+Por que a focalização isoelétrica produz bandas extremamente estreitas e estáveis,
+mesmo após longo tempo de corrida, enquanto outras eletroforeses tendem a borrar
+progressivamente as bandas?
+
+    MODELO DE RESPOSTA
+
+   No gel de IEF, cada proteína migra até o ponto em que o pH local iguala seu pI. Nesse
+   pH, a carga líquida vira zero e a proteína para de se mover. Se uma flutuação ou difusão
+   a empurrar para um lado de menor pH, ela readquire carga positiva e o campo elétrico
+   a puxa de volta; se for empurrada para pH maior, fica negativa e é puxada no sentido
+   oposto. O pI funciona, então, como poço de potencial: qualquer afastamento gera força
+   restauradora. Esse mecanismo de auto-correção mantém a banda estreita indefinida-
+   mente, sem o borramento progressivo da eletroforese comum.
+
+       33
+NEBLI      ETAPA 3 -- QUESTÕES DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um estudante afirma o seguinte sobre o protocolo de purificação
+de uma enzima: "Como cromatografia de afinidade enriquece a proteína em até 10.000
+vezes em uma única etapa, ela deve sempre ser a primeira do protocolo -- assim
+eliminamos rapidamente quase todos os contaminantes e ganhamos tempo nas etapas
+seguintes, que ficam mais fáceis e rápidas." Aponte a falha e proponha a correção.
+
+MODELO DE RESPOSTA
+
+O erro está em colocar afinidade no início. Etapas iniciais lidam com volumes brutos
+e elevadas concentrações de contaminantes, partículas insolúveis e detritos celulares
+-- material que entopem ou saturam colunas de afinidade, comprometendo a especi-
+ficidade e a vida útil da resina cara. Por isso, o protocolo canônico começa com etapas
+de alta capacidade e baixa resolução (centrifugação, precipitação por sulfato de amônio,
+eventualmente troca iônica), que reduzem volume e impurezas grosseiras. A afinidade
+entra ao final, quando o extrato já está enxuto: aí ela rende seu enriquecimento carac-
+terístico sem desperdício. A ordem certa é capacidade primeiro, resolução por último.
+
+       34
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 CECE      Q03 D     Q04 A     Q05 CCEC
+                        Q08 EECC  Q09 A     Q10 D
+Q06 C     Q07 E
+                        Q13 CECC  Q14 B     Q15 A
+INTEGRAÇÃO (Q11­Q25)    Q18 C     Q19 CCEE  Q20 B
+                        Q23 ECCE  Q24 D     Q25 C
+Q11 C     Q12 E
+                        Q28 B     Q29 D     Q30 C
+Q16 EECE  Q17 D
+
+Q21 E     Q22 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 E     Q27 CCEC
+
+                        37
+

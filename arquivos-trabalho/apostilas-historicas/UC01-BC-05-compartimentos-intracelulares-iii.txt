@@ -1,0 +1,1436 @@
+NEBLI · APOSTILA
+
+Compartimentos
+intracelulares III
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Primeira leitura pós-aula; releia antes da P1.
+Onde estudar:  Alberts 6ª ed, Cap. 12 (seções 12.7­12.8) e Cap. 13 (rotas secretórias)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- RE: dobrar, ligar, açucarar
+
+       1.1 Por que modificar depois de traduzir
+       1.2 Chaperonas -- HSP70 co-traducional e HSP60 pós-traducional
+       1.3 Pontes dissulfeto e PDI -- o ambiente oxidante do RE
+       1.4 Glicosilação N-ligada -- bloco pré-formado e função de etiqueta
+       1.5 Controle de qualidade -- ERAD, UPR e estresse do RE
+  PARTE II -- Golgi: continuar, etiquetar, clivar
+       2.1 Cisternas cis/medial/trans -- sequência das modificações
+       2.2 Glicosilação O-ligada e sulfatação
+       2.3 Clivagem proteolítica -- pré-pró-insulina como modelo
+  PARTE III -- Endereçamento e secreção
+       3.1 Sequências-sinal -- N-terminal, C-terminal e KDEL/KKXX
+       3.2 Via constitutiva × via regulada
+       3.3 Exemplos celulares -- célula , célula caliciforme, glândulas
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q10) · verde
+       Integração (Q11­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A aula anterior contou a história do tráfego -- quem importa pelo RE, quem brota em vesícula,
+    quem ancora no lisossomo. Mas faltou um pedaço importante: o que acontece com a proteína
+    depois que ela entra no RE? Porque o ribossomo entrega no lúmen uma fita de aminoácidos quase
+    nua. Para virar enzima funcional, anticorpo solúvel, receptor de membrana ou hormônio secre
+    tado, essa fita precisa enovelar do jeito certo, ganhar pontes covalentes que tranquem o formato,
+    ser decorada com açúcares e -- muitas vezes -- ser cortada em pedaços. O RE faz o pré-acaba
+    mento; o Golgi continua o serviço e despacha. No fim da linha, vesículas com endereço escrito
+    no exterior partem para a membrana, para a matriz extracelular, para grânulos de secreção. Esta
+    aula segue essa cadeia de modificações pós-traducionais -- porque entender PTM é entender por
+    que uma sequência de aminoácidos vira proteína de verdade.
+
+PARTE I -- RE: dobrar, ligar, açucarar
+
+1.1 -- Por que modificar depois de traduzir
+Comece pela pergunta que organiza a parte inteira: se o ribossomo já leu o mRNA e produziu a cadeia
+de aminoácidos, por que ela ainda precisa de mais trabalho antes de funcionar? A resposta tem três
+pontas, e cada uma justifica um tipo de modificação que vamos ver.
+Primeira ponta -- a sequência linear de aminoácidos não é o produto final. O ribossomo entrega
+uma fita estendida; a proteína funcional é uma estrutura tridimensional dobrada. Em muitos casos a
+fita se enovela sozinha em segundos, guiada pelas interações entre seus próprios aminoácidos. Mas
+para proteínas grandes, com várias regiões hidrofóbicas, com cadeias longas que precisam atravessar
+membranas, esse enovelamento espontâneo é lento, ineficiente e propenso a erro. A cadeia precisa de
+ajuda para encontrar a forma certa. Quem ajuda são as chaperonas.
+Segunda ponta -- o ambiente onde a proteína vai trabalhar é hostil. Uma proteína secretada vai parar
+no plasma, no suco gástrico, no muco respiratório, na luz intestinal. Ambientes onde o pH oscila, onde
+proteases circulam, onde a temperatura sobe na febre. A cadeia precisa ser travada no formato correto
+antes de sair, e o trinco bioquímico que faz isso são as pontes dissulfeto -- ligações covalentes entre
+cisteínas, formadas exclusivamente no ambiente oxidante do RE.
+Terceira ponta -- a célula precisa marcar a proteína para o destino certo. O ribossomo não escreve "vou
+para o lisossomo" na cadeia. Quem marca destino é a maquinaria do RE e do Golgi, decorando a proteína
+com açúcares específicos. A glicosilação faz dois trabalhos ao mesmo tempo: ajuda no enovelamento
+(açúcares são hidrofílicos, estabilizam regiões na água do lúmen) e funciona como etiqueta para o
+controle de qualidade. Mais tarde no Golgi, açúcares específicos viram códigos postais para o lisossomo,
+para a membrana plasmática, para a secreção.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Modificar a proteína depois de traduzir resolve três problemas: ajudar a cadeia a
+enovelar (chaperonas), travar o formato no ambiente certo (pontes dissulfeto no RE oxidante) e marcar
+o destino (glicosilação). Estas três pontas estruturam toda a PARTE I.
+
+ As três modificações pós-traducionais que começam no RE: enovelamento (com chaperonas), formação de pontes
+ dissulfeto e glicosilação. Repare como cada uma resolve um problema diferente -- forma, estabilidade, endereço.
+
+1.2 -- Chaperonas -- HSP70 e HSP60
+Chaperonas são proteínas que ajudam outras proteínas a enovelar chaperona1. O nome vem do signifi
+cado social antigo: alguém que acompanha uma jovem em sociedade para impedir contato impróprio.
+Aplicado à célula, a chaperona acompanha a cadeia nascente para impedir que ela faça contato
+impróprio -- interações hidrofóbicas erradas, agregação com outras cadeias, enovelamento prematuro
+em conformação errada. Não doa estrutura, só evita o erro.
+HSP702
+HSP603
+Existem duas famílias importantes para a aula de hoje: HSP70 e HSP60. Elas trabalham em momentos
+diferentes da vida da proteína. Vamos por partes.
+
+   1chaperona ­ proteína auxiliar do enovelamento, geralmente induzida por estresse térmico (daí o nome heat shock
+protein, HSP, seguido do peso molecular em kDa). Não faz parte do produto final -- atua transitoriamente, gastando ATP,
+e solta a proteína quando ela atinge a forma correta.
+
+   2HSP70 ­ heat shock protein 70 kDa -- chaperona da família 70 que atua durante a tradução, segurando segmentos
+hidrofóbicos da cadeia que sai do ribossomo até que cheguem o resto da sequência e suas próprias parceiras de enovel
+amento.
+
+   3HSP60 ­ heat shock protein 60 kDa -- chaperona da família 60 que forma um barril fechado (chaperonina), dentro do
+qual a proteína pode enovelar isolada do citosol.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+HSP70 ligando-se a regiões hidrofóbicas expostas em uma cadeia nascente. A cada ciclo, a chaperona hidrolisa ATP,
+solta o segmento, e dá chance à cadeia de enovelar antes do próximo ciclo de ligação.
+
+HSP70 é a chaperona co-traducional. Enquanto o ribossomo ainda está traduzindo a proteína, segmen
+tos hidrofóbicos vão saindo do túnel ribossomal. No citosol aquoso, esses segmentos teriam tendência a
+colapsar uns sobre os outros -- ou pior, agregar com proteínas vizinhas -- formando estruturas erradas.
+A HSP70 reconhece justamente essas regiões hidrofóbicas, se liga a elas e as protege enquanto a cadeia
+ainda não tem o resto da sequência. A ligação não é estática: a HSP70 hidrolisa ATP, solta, religa, solta de
+novo. Cada ciclo é uma chance da cadeia tentar enovelar; se conseguir, a HSP70 não religa e segue para
+outro substrato. Se a proteína termina pequena e simples, geralmente a HSP70 sozinha é suficiente.
+
+Ação sequencial: HSP70 atua durante a tradução, mantém a cadeia estendida até a chegada da HSP60; a HSP60
+forma um barril fechado onde a proteína termina o enovelamento isolada do meio.
+
+                                                                               5
+NEBLI                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+HSP60 é a chaperona pós-traducional, e funciona como uma gaiola. Ela monta um barril cilíndrico
+fechado por uma tampa, e a proteína mal-enovelada é empurrada para dentro. Dentro do barril, isolada
+de outras proteínas e protegida do citosol, a cadeia tem tempo e espaço para tentar enovelar sem agregar
+com nada. Hidrólise de ATP fecha a tampa, dá um intervalo de 10 segundos, e abre. Se o enovelamento
+aconteceu, a proteína sai pronta. Se não, volta para outro ciclo. HSP60 é o reformatório das proteínas
+que a HSP70 não conseguiu resolver sozinha.
+
+Estrutura do barril de HSP60. Repare na forma cilíndrica fechada -- a proteína-substrato enovela isolada lá dentro,
+longe do citosol, por cerca de 10 segundos por ciclo de ATP.
+
+Família  Quando atua          Mecanismo               Gasto de ATP Imagem mental
+
+HSP70    Co-traducional       Liga regiões hidrofóbi  Sim -- 1 ATP    Mão que segura
+         (durante a síntese)  cas expostas, ciclos    por ciclo       segmentos para
+                              rápidos de soltar/reli                  não agregar
+                              gar
+
+HSP60    Pós-traducional      Encapsula a proteína    Sim -- vários   Gaiola onde a pro
+         (depois da síntese)  em barril fechado para  ATPs por ciclo  teína se ajeita soz
+                              enovelar isolada        de 10s          inha
+
+Não confunda os dois tempos das chaperonas
+
+HSP70 = co-traducional, atua enquanto a cadeia está sendo fabricada -- segura segmentos
+hidrofóbicos para não agregar. HSP60 = pós-traducional, atua depois que a cadeia foi terminada
+-- encapsula a proteína inteira num barril para enovelar isolada. Cada uma tem seu momento e
+seu mecanismo. Confundir produz erro de prova: "HSP60 atua durante a tradução" é falso. Ambas
+hidrolisam ATP, mas em ritmos diferentes (HSP70 em ciclos rápidos, HSP60 em ciclos longos).
+
+                              6
+NEBLI                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: HSP70 segura, HSP60 enclausura. HSP70 atua durante a tradução, ligando regiões
+hidrofóbicas para impedir agregação. HSP60 atua depois da tradução, empacotando a proteína num
+barril fechado para enovelar isolada. Ambas gastam ATP.
+
+1.3 -- Pontes dissulfeto e a PDI
+Algumas proteínas precisam de mais do que enovelamento -- precisam de trinco covalente. É aqui
+que entram as pontes dissulfeto: ligações covalentes entre dois átomos de enxofre de duas cisteínas
+distantes na sequência linear mas vizinhas no espaço, depois que a proteína se dobra. Cada ponte trava a
+forma 3D no lugar; uma proteína com três pontes dissulfeto fica praticamente impossível de desnaturar
+em condições fisiológicas.
+
+A PDI PDI4 catalisa a formação dessas pontes no lúmen
+
+do RE. Por que só no RE e não no citosol? Porque
+
+o lúmen do RE é um ambiente oxidante -- tem altas
+
+concentrações de moléculas que aceitam elétrons (como
+
+o glutationo oxidado, GSSG). O citosol, ao contrário,
+
+é redutor -- tem glutationo reduzido (GSH) que doa
+
+elétrons. Em ambiente redutor, qualquer ponte S­S que
+
+tentasse se formar seria desfeita imediatamente. O RE
+
+é o único compartimento da célula onde dissulfetos
+
+sobrevivem.                                            PDI catalisando uma ponte S­S entre cisteínas dis
+
+                                                       tantes na sequência mas vizinhas no espaço.
+
+A PDI não decide quais cisteínas pareiam -- ela só facilita a química. O que decide é o enovelamento
+da própria proteína: ao se dobrar, certas cisteínas ficam vizinhas no espaço, e a PDI catalisa a ligação
+entre elas. Se a primeira tentativa de pareamento não corresponder ao padrão estável da proteína, a PDI
+também quebra e isomeriza -- troca o pareamento até dar certo. Forma  ponte  trinco. Essa é a
+ordem: a proteína enovela primeiro, e só depois as pontes travam o que ficou.
+Quem mais precisa disso? Proteínas que vão sair da célula. Anticorpos têm múltiplas pontes dissulfeto
+inter e intracadeia -- sem elas, a estrutura em Y desabaria. Insulina tem três pontes (duas entre cadeias,
+uma intracadeia). Enzimas digestivas como a tripsina têm seis pontes que mantêm a forma ativa mesmo
+em pH ácido do suco gástrico. Quanto mais hostil for o destino, mais pontes dissulfeto a proteína
+costuma carregar. É um padrão evolutivo claro.
+
+Resumindo até aqui: O RE é oxidante; o citosol é redutor. PDI catalisa pontes S­S entre cisteínas vizinhas
+no espaço, depois que a proteína enovela. Proteínas secretadas (anticorpos, insulina, tripsina) acumulam
+pontes porque vão trabalhar em ambientes hostis.
+
+1.4 -- Glicosilação N-ligada -- bloco pré-formado e função de etiqueta
+
+   4PDI ­ protein disulfide isomerase -- isomerase de pontes dissulfeto, abundante no lúmen do RE. Forma, quebra e
+rearranja pontes S­S até encontrar o padrão estável; usa duas cisteínas próprias do sítio ativo como ferramenta de troca.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A glicosilação é a modificação pós-traducional mais frequente das proteínas que passam pelo RE -- a
+maioria delas é glicosilada. Existem dois tipos principais, classificados pelo átomo da proteína a que o
+açúcar se liga: glicosilação N-ligada (no nitrogênio da cadeia lateral da asparagina, N) e glicosilação O-
+ligada (no oxigênio da hidroxila de serinas e treoninas). A N-ligada começa no RE; a O-ligada acontece
+só no Golgi. Vamos para a N-ligada agora.
+
+ Oligossacarídeo precursor pré-formado, ancorado na membrana do RE por um lipídeo chamado dolicol-fosfato. A
+ composição é fixa: 14 açúcares -- 2 N-acetilglicosaminas (azul), 9 manoses (verde) e 3 glicoses (vermelho).
+
+A grande peculiaridade da N-glicosilação é que o açúcar é transferido em bloco. Não é colocado um
+açúcar de cada vez. Em vez disso, a célula pré-fabrica, ancorada na membrana do RE, uma cadeia de 14
+açúcares -- 2 N-acetilglicosaminas + 9 manoses + 3 glicoses -- presa a um lipídeo chamado dolicol-
+fosfato. Esse bloco fica pendurado na membrana, com os açúcares apontando para o lúmen, esperando
+a chegada da proteína-alvo.
+
+A oligossaril-transferase, vizinha do translocon, reconhece a asparagina-alvo na cadeia nascente e transfere o bloco
+inteiro do dolicol-fosfato para o nitrogênio da cadeia lateral da Asn. Uma única reação, 14 açúcares de uma vez.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Quando uma asparagina apropriada aparece na cadeia que está entrando no RE, uma enzima vizinha
+do translocon -- a oligossaril-transferase oligossaril-transferase5 -- transfere o bloco inteiro em uma
+reação só. A asparagina precisa estar num contexto N­X­S/T (onde X é qualquer aminoácido exceto
+prolina) para ser reconhecida. 14 açúcares saltam do dolicol para a cadeia nascente em uma única
+reação química. É um processo radicalmente mais rápido do que adicionar açúcar por açúcar.
+
+Logo após a transferência, glicosidases começam a recortar o oligossacarídeo. As três glicoses são removidas em
+sequência (3210). A presença de uma única glicose remanescente é o sinal "estou enovelando" para o controle
+de qualidade.
+
+Depois da transferência, glicosidases do RE começam a editar o oligossacarídeo. As três glicoses são
+removidas em sequência. E é justamente essa edição que gera a etiqueta de controle de qualidade.
+Enquanto a proteína está enovelando, uma glicose permanece -- sinalizando "estou em processo".
+Quando a proteína termina de enovelar, a última glicose é removida -- sinalizando "pronta para o Golgi".
+Se a proteína falha no enovelamento, uma enzima recoloca uma glicose -- sinalizando "preciso de mais
+uma chance". A glicose é um carimbo molecular que o controle de qualidade lê.
+
+    CDG -- congenital disorders of glycosylation
+    Mutações que prejudicam alguma das enzimas que fabricam o oligossacarídeo do dolicol -- ou
+    a transferência para a asparagina -- causam doenças congênitas de glicosilação. Como pratica
+    mente todas as glicoproteínas secretadas são afetadas, o quadro é multissistêmico: retardo do
+    desenvolvimento, hipotonia, alterações neurológicas, distúrbios endócrinos, alterações hepáti
+    cas. Os tipos mais comuns (CDG-Ia, deficiência em fosfomanomutase) cursam com mortalidade
+    infantil alta. Demonstra como uma falha no pré-acabamento do RE atinge a proteína-funcional
+    inteira em escala sistêmica.
+
+1.5 -- Controle de qualidade -- calnexina, ERAD e UPR
+
+   5oligossaril-transferase ­ enzima integral da membrana do RE, posicionada ao lado do translocon. Transfere o bloco
+de 14 açúcares do dolicol-fosfato para a asparagina-alvo em uma única reação enzimática, durante a tradução.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Vamos juntar as peças. A proteína entrou no RE, ganhou um oligossacarídeo de 14 açúcares, está enove
+lando, está formando pontes dissulfeto. Quem confere se tudo isso deu certo? Um sistema de controle
+de qualidade (QC) montado em torno da glicosilação.
+O QC clássico do RE é o ciclo da calnexina. Calnexina calnexina6 e calreticulina (a versão solúvel)
+são chaperonas-lectinas que reconhecem oligossacarídeos com uma única glicose remanescente --
+exatamente o estado intermediário que vimos no item anterior. O ciclo: glicosidases removem 2 das
+3 glicoses  calnexina liga  segura a proteína enquanto ela enovela  glicosidase remove a última
+glicose  calnexina solta. Se a proteína enovelou direito, segue para o Golgi. Se não, uma transferase
+recoloca uma glicose  calnexina pega de novo  nova tentativa de enovelamento. O ciclo se repete
+até dar certo -- ou até a célula desistir.
+E quando a célula desiste? Aciona o ERAD ERAD7. A proteína mal-dobrada é reconhecida, ubiquitinada,
+retrotranslocada para o citosol pelo mesmo translocon (ou um homólogo) e degradada no proteassomo.
+A proteína que não passa no controle do RE não sai vivendo dali -- ou se ajusta, ou é demolida.
+
+Retrotranslocação para o citosol e degradação proteassomal -- o destino das proteínas que não passam no controle
+de qualidade. Algumas proteínas têm até 80% de enovelamento errado e o ERAD descarta o excesso.
+
+Quando o volume de proteínas mal-dobradas começa a se acumular -- porque uma mutação afetou
+várias delas, porque a célula está sintetizando rápido demais, porque o ambiente do RE está alterado
+-- a célula dispara um sistema de alarme: a UPR UPR8. A UPR tem três efeitos integrados: reduz a
+tradução (menos cadeias novas entrando), aumenta a expressão de chaperonas (mais ajudantes para
+o enovelamento) e aumenta o ERAD (mais demolição do que não dá certo). Se a UPR consegue resolver,
+a célula volta ao normal. Se não, dispara apoptose -- a célula com RE estressado morre antes de virar
+problema sistêmico.
+
+   6calnexina ­ chaperona-lectina ancorada na membrana do RE. Reconhece especificamente oligossacarídeos com uma
+única glicose remanescente -- o estado intermediário do processamento que sinaliza "proteína enovelando".
+
+   7ERAD ­ endoplasmic reticulum-associated degradation -- degradação associada ao retículo endoplasmático. Sistema
+que retira proteínas que não enovelam corretamente, manda de volta ao citosol via canal específico (retrotranslocação) e
+entrega ao proteassomo para destruição.
+
+   8UPR ­ unfolded protein response -- resposta a proteínas mal-dobradas. Sistema de sinalização disparado quando o RE
+acumula proteínas mal-enoveladas; reduz a tradução geral, aumenta a expressão de chaperonas e do ERAD, e em casos
+extremos induz apoptose celular.
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+  Ativação da UPR quando o RE acumula proteínas mal-dobradas. Três sensores na membrana do RE detectam o
+  excesso e disparam vias paralelas que reduzem tradução, aumentam chaperonas e aceleram o ERAD.
+
+    UPR mal-resolvida e doença
+    A UPR sustentada -- quando o RE permanece estressado por longo tempo -- está envolvida
+    em várias doenças. Em diabetes tipo 2, células  do pâncreas tentam compensar a resistência
+    periférica à insulina sintetizando mais hormônio; o excesso de pré-pró-insulina mal-dobrada
+    sobrecarrega o RE e dispara UPR crônica  apoptose das células   falência endócrina. Em
+    fibrose cística, a CFTR mutante mais comum (F508) não passa no QC, é retida no RE, e nunca
+    chega à membrana plasmática -- o canal de cloreto não funciona, secreções ficam viscosas.
+    Doenças neurodegenerativas como Alzheimer e Parkinson têm componente de estresse de RE
+    crônico por agregados proteicos. UPR mal-resolvida = célula apoptótica = órgão falindo.
+
+    Síntese 1.5 -- O QC do RE é montado em torno da glicosilação. A calnexina reconhece oligos
+    sacarídeos com uma glicose, segura a proteína enquanto ela enovela, e solta quando termina. Se
+    não termina, o ciclo se repete. Se não dá certo de jeito nenhum, ERAD retrotransloca a proteína
+    ao citosol e o proteassomo a destrói. Volume grande de proteínas mal-dobradas dispara a UPR --
+    reduz tradução, sobe chaperonas, e em casos extremos induz apoptose.
+
+PARTE I termina com uma síntese: o RE é uma linha de pré-acabamento. A proteína entra crua, sai
+dobrada, travada por dissulfetos, decorada com oligossacarídeo, e auditada por um controle de qualidade
+implacável. Se passa, segue para a próxima estação -- o Golgi.
+
+PARTE II -- Golgi: continuar, etiquetar, clivar
+
+2.1 -- Cisternas cis, medial, trans -- uma esteira de modificações
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Do RE, a proteína embarca em vesículas que zarpam em direção ao complexo de Golgi. O Golgi é uma
+pilha de cisternas achatadas -- geralmente 4 a 6 -- com polaridade funcional clara: a face cis recebe
+vesículas vindas do RE, a face trans despacha vesículas para os destinos finais, e entre elas trabalha a
+face medial. Cada cisterna tem um conjunto próprio de enzimas, e a proteína vai passando de uma para
+a próxima, sofrendo modificações sequenciais. Cis recebe, medial trabalha, trans despacha.
+
+Cisternas cis, medial e trans do Golgi. Repare como cada cisterna concentra modificações específicas -- manose-6-
+fosfato e remoção de manoses na face cis, glicosilação O-ligada na medial, sulfatação e sialic acid na trans. A proteína
+é processada como em uma esteira, ganhando modificações etapa por etapa.
+O que muda de cisterna para cisterna? Os açúcares. No RE, a proteína recebeu o oligossacarídeo de 14
+açúcares inteiro; ao chegar no Golgi cis, esse oligossacarídeo começa a ser editado -- algumas manoses
+são removidas, outros açúcares são adicionados. Na cisterna medial, mais remoções e adições. Na trans,
+modificações finais -- sulfatação de tirosinas e carboidratos, adição de sialic acid (ácido siálico, açúcar
+muito ácido que dá carga negativa às glicoproteínas de superfície). Cada cisterna do Golgi tem um kit
+enzimático específico, e a proteína ganha modificações características daquele kit ao passar.
+Isso tem uma consequência interessante: o oligossacarídeo final de uma glicoproteína secretada por
+uma célula  do pâncreas, por exemplo, é radicalmente diferente do oligossacarídeo final de uma glico
+proteína de uma célula hepática -- porque cada tipo celular tem combinações diferentes de enzimas nas
+suas cisternas do Golgi. Os açúcares de superfície funcionam, no fim, como uma assinatura tecidual
+-- e essa diversidade está na base do reconhecimento celular, dos grupos sanguíneos ABO, da rejeição
+imunológica.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Os açúcares expostos na superfície celular funcionam como código de reconhecimento. A diversidade de combinações
+é enorme -- base molecular de grupos sanguíneos, autoreconhecimento imunológico, adesão célula-célula.
+
+   Resumindo até aqui: Golgi é polarizado: cis recebe do RE, trans despacha para os destinos. Cada cisterna
+   tem um kit enzimático próprio que modifica os açúcares conforme a proteína passa -- manose-6-fosfato
+   e remoção de manoses na cis, glicosilação O-ligada na medial, sulfatação e sialic acid na trans.
+2.2 -- Glicosilação O-ligada e sulfatação
+Vimos no RE a glicosilação N-ligada (no nitrogênio da asparagina, bloco pré-formado, transferência em
+massa). No Golgi acontece a outra grande variante: a glicosilação O-ligada. As diferenças são marcantes.
+
+  Mucina -- glicoproteína do muco -- com sua característica densa cobertura de cadeias O-ligadas. Cada serina/
+  treonina ao longo do esqueleto proteico recebe seu próprio açúcar, individualmente.
+A glicosilação O-ligada acontece exclusivamente no Golgi, sem precursor pré-formado. Os açúcares
+são adicionados um por um ao oxigênio da hidroxila de serinas e treoninas selecionadas. Cada adição é
+catalisada por uma glicosil-transferase específica. Sem bloco, sem dolicol, sem oligossaril-transferase
+única -- é construção peça por peça, açúcar por açúcar. Isso permite uma flexibilidade que a N-
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+glicosilação não tem: a proteína final pode ter combinações muito variáveis de açúcares, dependendo
+de quais enzimas estão disponíveis na célula.
+
+ Esquema da adição O-ligada: cada serina ou treonina aceita um açúcar individual, em reações sequenciais catal
+ isadas por glicosil-transferases específicas. Não há bloco pré-formado -- é trabalho artesanal.
+
+Quem mais aproveita esse mecanismo? Mucinas -- as glicoproteínas do muco. Mucinas têm um
+esqueleto proteico cheio de serinas e treoninas, e cada uma delas é decorada com cadeias O-ligadas. O
+resultado é uma proteína em que os açúcares respondem por mais da metade da massa total, dando a
+viscosidade, a capacidade de reter água e a função protetora do muco -- gástrico, respiratório, intestinal.
+Outro exemplo importante são os proteoglicanos, com cadeias longas de glicosaminoglicanos GAG9
+ligadas O. Esses proteoglicanos são componentes maiores da matriz extracelular -- cartilagem, derme,
+parede de vasos.
+
+   9GAG ­ glicosaminoglicano -- polissacarídeo longo, negativamente carregado, ligado a proteínas centrais para formar
+proteoglicanos. Componentes maiores da matriz extracelular: ácido hialurônico, condroitina-sulfato, heparan-sulfato.
+
+                                                                                14
+NEBLI                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+Característica      N-ligada           O-ligada         Local                Exemplo
+                                                                       --
+Sítio na proteína Nitrogênio da Oxigênio         da --
+
+                Asn (em N­X­S/ hidroxila de Ser/
+
+                T)                Thr
+
+Modo de adição  Bloco pré-for     Um açúcar por       N: RE; O: Golgi  --
+                mado, 14 açú      vez, peça por peça
+                cares de uma vez
+
+Carreador       Dolicol-fosfato Não tem -- açúcar --                   --
+                na membrana livre no Golgi
+                do RE
+
+Função típica   Etiqueta de QC +  Cobertura      de --                 Insulina       (N),
+                estabilidade
+                                  mucinas,       pro                   mucina gástrica
+
+                                  teoglicanos da                       (O)
+
+                                  MEC
+
+Há ainda uma modificação importante na face trans do Golgi: a sulfatação. Sulfotransferases adicionam
+grupos sulfato a tirosinas e a carboidratos. A sulfatação dá carga negativa fortíssima às moléculas --
+fundamental para os glicosaminoglicanos heparan-sulfato e condroitina-sulfato, que precisam dessa
+carga para reter água e prover elasticidade aos tecidos. Tirosinas sulfatadas aparecem em hormônios
+(gastrina), em proteínas de coagulação e em receptores de quimiocinas.
+
+   Resumindo até aqui: N-ligada começa no RE, bloco pré-formado de 14 açúcares no dolicol; O-ligada
+   acontece só no Golgi, um açúcar por vez em Ser/Thr. Mucinas e proteoglicanos são os clientes principais
+   da O-ligada. Sulfatação na face trans dá carga negativa às glicoproteínas da matriz e a hormônios.
+
+2.3 -- Clivagem proteolítica -- pré-pró-insulina como modelo
+Algumas proteínas saem da tradução maiores do que precisam ser para funcionar -- carregam pedaços
+extras que servem para outras coisas (endereçamento, manter inativa durante o transporte) e que só são
+removidos depois, por clivagem proteolítica. Clivagem é uma modificação pós-traducional irreversível
+-- uma vez cortado o pedaço, ele não volta. É como cortar uma fita: você não desfaz o corte.
+
+O exemplo mais didático é a insulina. Vamos seguir a cadeia desde a tradução até o grânulo de secreção.
+
+                                       15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Maturação proteolítica da pré-pró-insulina. Tradução produz a cadeia de 110 aminoácidos com peptídeo-sinal N-
+terminal. No RE, o sinal é cortado pela peptidase de sinal -- sobra a pró-insulina, com cadeias A e B unidas pelo
+peptídeo C. No Golgi, proteases específicas removem o peptídeo C, liberando a insulina madura com cadeias A e B
+unidas só por pontes dissulfeto.
+
+Etapa 1 -- tradução no citosol. O ribossomo lê o mRNA da insulina e produz uma cadeia de cerca de
+110 aminoácidos chamada pré-pró-insulina. Os primeiros aminoácidos da cadeia são o peptídeo-sinal
+hidrofóbico que direciona a tradução para o RE.
+Etapa 2 -- entrada no RE. A SRP reconhece o peptídeo-sinal emergindo do ribossomo, leva o ribossomo
+até o translocon, e a cadeia entra no lúmen co-traducionalmente. Logo após a entrada, a peptidase de
+sinal corta o peptídeo-sinal. O que resta é a pró-insulina -- uma cadeia única de cerca de 85 aminoá
+cidos, que enovela no lúmen do RE com a ajuda das chaperonas e ganha três pontes dissulfeto catalisadas
+pela PDI.
+Etapa 3 -- passagem pelo Golgi. A pró-insulina embarca em vesículas COPII e segue para o Golgi. Lá
+ela pode receber modificações finais nos açúcares (a insulina não é fortemente glicosilada, mas passa
+pelo Golgi como todas as proteínas secretadas).
+Etapa 4 -- clivagem proteolítica no grânulo de secreção. Na face trans do Golgi, a pró-insulina
+é empacotada em grânulos de secreção. Dentro do grânulo, proteases específicas -- pró-hormônio
+convertases -- cortam a pró-insulina em dois pontos, removendo um trecho central chamado peptídeo
+C. O que resta são duas cadeias separadas (A e B), unidas apenas pelas pontes dissulfeto que foram
+formadas lá no RE. Essa é a insulina madura.
+Etapa 5 -- secreção regulada. Quando o nível de glicose no sangue sobe, a célula  é estimulada e
+libera o conteúdo do grânulo na corrente sanguínea -- insulina + peptídeo C juntos, em concentrações
+equimolares.
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Pré-pró-insulina perde o peptídeo-sinal no RE (vira pró-insulina) e perde o
+peptídeo C no Golgi (vira insulina madura -- duas cadeias A e B unidas por pontes dissulfeto). É a história
+em duas clivagens -- uma reduz o tamanho na entrada do RE, outra ativa o hormônio no grânulo.
+
+    Peptídeo C como marcador clínico
+
+    O peptídeo C tem meia-vida plasmática maior que a da insulina e é dosável separadamente. Como
+    é secretado em quantidade igual à da insulina endógena, mas não está presente nas preparações
+    de insulina exógena (insulina injetada nos diabéticos), a dosagem de peptídeo C distingue se um
+    paciente está produzindo insulina endógena. Em diabetes tipo 1, o peptídeo C é muito baixo ou
+    indetectável (células  destruídas). Em diabetes tipo 2 inicial, o peptídeo C costuma estar normal
+    ou aumentado (resistência periférica, hiperinsulinemia compensatória). Em hipoglicemia por
+    insulinoma, o peptídeo C está alto. Uso clínico direto de um conhecimento básico de PTM.
+
+A clivagem proteolítica não é exclusiva da insulina. Outras proteínas seguem o mesmo padrão "pré-
+pró-X". A pró-opiomelanocortina (POMC) na hipófise é uma cadeia única que, dependendo de qual
+conjunto de proteases atua em qual tipo celular, gera produtos diferentes -- ACTH no lobo anterior,
+MSH no lobo intermediário. Uma única cadeia, vários hormônios, dependendo das tesouras locais.
+Várias enzimas digestivas (tripsinogênio  tripsina, pepsinogênio  pepsina, quimiotripsinogênio 
+quimiotripsina) também usam clivagem proteolítica como mecanismo de ativação -- saem inativas do
+pâncreas/estômago para não digerirem a própria célula que as fabricou, e são ativadas apenas no lúmen
+do intestino/estômago, no local certo, no momento certo.
+
+    Síntese 2.3 -- Clivagem proteolítica é uma PTM irreversível. Pré-pró-insulina perde o peptídeo-
+    sinal no RE e o peptídeo C no Golgi -- vira insulina madura A+B unida por dissulfetos. POMC vira
+    ACTH ou MSH dependendo da célula. Zimogênios pancreáticos (tripsinogênio etc.) são ativados
+    por clivagem no intestino para proteger a célula de origem.
+
+PARTE II fecha. RE faz o pré-acabamento, Golgi continua o serviço -- modificando açúcares, sulfatando,
+cortando precursores. A próxima parte segue a proteína para fora.
+
+PARTE III -- Endereçamento e secreção
+
+3.1 -- Sequências-sinal e retenção (KDEL, KKXX)
+Voltamos à pergunta que abriu a PARTE I: como a célula sabe para onde mandar cada proteína? Já vimos
+a resposta para o RE -- peptídeo-sinal N-terminal hidrofóbico reconhecido pela SRP. Mas RE não é o
+único destino. Cada compartimento tem sua própria sequência-sinal.
+
+       17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+  Sequências-sinal na estrutura da proteína. Podem estar na região N-terminal (mais comum -- peptídeo-sinal
+  para RE), no C-terminal (KDEL, KKXX para retenção no RE) ou no interior da proteína (sinais de ancoragem em
+  membrana).
+Sequência-sinal é qualquer sequência de aminoácidos necessária e suficiente para direcionar a
+proteína a um compartimento. "Necessária" significa que sem ela a proteína não vai. "Suficiente"
+significa que basta colá-la em outra proteína qualquer para essa nova proteína passar a ir junto. É um
+GPS proteico -- pequeno, modular, intercambiável.
+Cada destino tem seu sinal típico:
+· RE -- peptídeo-sinal N-terminal hidrofóbico, 15­30 aminoácidos, reconhecido pela SRP, cortado
+  pela peptidase de sinal após entrada.
+· Núcleo -- sinal de localização nuclear (NLS), rico em lisinas e argininas (cargas positivas), pode estar
+  em qualquer posição da cadeia, reconhecido pela importina.
+· Mitocôndria -- sequência N-terminal anfipática (alterna aminoácidos hidrofóbicos e positivos),
+  reconhecida por receptores TOM/TIM, cortada após importação.
+· Peroxissomo -- sinal C-terminal SKL (serina-lisina-leucina, três aminoácidos só), reconhecido pelo
+  receptor Pex5.
+Há uma categoria especial: sinais de retenção. Algumas proteínas precisam ficar no RE -- chaperonas
+como a PDI, a calnexina, a BiP, são proteínas residentes do RE e não devem viajar com a carga. Mas elas
+inevitavelmente acabam embarcando em vesículas COPII que vão para o Golgi. Como elas voltam?
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Retorno do Golgi ao RE pelo sinal de retenção. Proteínas solúveis com a sequência KDEL no C-terminal são recon
+hecidas por receptores específicos no Golgi e embaladas em vesículas retrógradas (COPI) que voltam ao RE. Proteínas
+transmembrana com motivo KKXX no domínio citosólico fazem o mesmo.
+
+Pelo motivo KDEL. Proteínas solúveis residentes do RE carregam no C-terminal a sequência KDEL
+(lisina-aspartato-glutamato-leucina) KDEL10 -- quatro aminoácidos. Quando a proteína chega ao Golgi,
+um receptor de KDEL reconhece a sequência, captura a proteína, e a embala em vesículas COPI que
+voltam para o RE. KDEL é um bilhete de volta. Proteínas residentes transmembrana usam um motivo
+similar mas diferente: KKXX no domínio citosólico (duas lisinas seguidas no C-terminal voltado para o
+citosol) KKXX11. Mesmo princípio, alvo diferente.
+
+    Não confunda os sentidos das capas vesiculares
+
+    COPII: brota do RE em direção ao Golgi -- anterógrada, o caminho normal da carga. COPI: brota
+    do Golgi em direção ao RE -- retrógrada, recupera proteínas residentes do RE que escaparam.
+    Clatrina: brota do trans-Golgi em direção ao endossomo/membrana plasmática, e também faz
+    endocitose na MP. Cada capa tem uma direção e uma rota. Confundir COPI com COPII é erro
+    mecanístico comum em provas.
+
+   Resumindo até aqui: Cada destino tem sua sequência-sinal: peptídeo N-terminal para RE, NLS para
+   núcleo, anfipática para mitocôndria, SKL para peroxissomo. Proteínas residentes do RE voltam do Golgi
+   por motivos de retenção -- KDEL no C-terminal das solúveis, KKXX no domínio citosólico das trans
+   membrana, ambos reconhecidos por COPI.
+
+3.2 -- Via constitutiva × via regulada
+Saída do Golgi, a proteína embarca em vesículas para o destino final. Mas há duas modalidades de
+tráfego para a membrana plasmática -- duas vias de secreção, com lógicas diferentes.
+
+   10KDEL ­ motivo de retenção no RE para proteínas solúveis: lisina-aspartato-glutamato-leucina no C-terminal. Recon
+hecido por receptores no Golgi que reembalam a proteína em vesículas COPI de retorno.
+
+   11KKXX ­ motivo de retenção no RE para proteínas transmembrana: duas lisinas (KK) seguidas de dois aminoácidos
+quaisquer no domínio citosólico C-terminal. Reconhecido pela maquinaria COPI no Golgi.
+
+                                                                                19
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+Via constitutiva -- secreção contínua, "sai por padrão". As vesículas brotam do trans-Golgi e fundem
+com a membrana plasmática continuamente, sem esperar sinal. Toda célula faz isso. É como a entrega
+seguir por padrão -- sem necessidade de autorização. Esse mecanismo cobre dois trabalhos principais: a
+reposição contínua de proteínas e lipídeos da membrana plasmática (a célula está sempre desgastando
+membrana e precisa repor) e a secreção contínua de proteínas extracelulares e da matriz extracelular
+(colágeno, fibronectina, anticorpos por plasmócitos em produção alta). Não há gatilho -- é um fluxo
+basal.
+
+Via regulada -- secreção controlada por sinal, "espera o gatilho". Aqui as vesículas brotam do trans-
+Golgi mas não fundem imediatamente. Em vez disso, são armazenadas no citoplasma como grânulos
+de secreção, esperando. Quando chega o sinal -- geralmente um aumento de Ca² citosólico disparado
+por um estímulo externo (hormônio, neurotransmissor, glicose alta, despolarização) -- os grânulos
+correm para a membrana e fundem em massa. Liberação rápida, em pulso, sob controle. Esta via existe
+apenas em células especializadas: células  do pâncreas (insulina), neurônios (neurotransmissores),
+células do sistema nervoso autônomo (catecolaminas), células acinares pancreáticas (enzimas diges
+tivas), mastócitos (histamina).
+
+Grânulos de secreção em célula  do pâncreas, marcados com anti-clatrina (verde). Os grânulos ficam armazenados,
+esperando o sinal de glicose alta para fundirem com a membrana plasmática e liberarem a insulina madura.
+
+Via       Gatilho             Onde acontece               Exemplos
+
+Constitutiva Nenhum -- fluxo con Toda célula eucariótica  Reposição de proteínas da
+                       tínuo, padrão                      MP, colágeno, anticorpos
+
+Regulada  Sinal externo  Ca²  Células especializadas      Insulina, neurotransmis
+          citosólico sobe     (, neurônio, acinar)        sores, enzimas digestivas,
+                                                          histamina
+
+A diferença não é só de gatilho -- é de escala temporal. Na constitutiva, a proteína sai contínua e
+gradualmente; nunca há um pulso. Na regulada, a proteína fica estocada por horas ou dias, e quando
+
+                              20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+o sinal chega milhares de moléculas são liberadas em segundos. Estoque permite resposta rápida;
+constitutiva permite reposição estável. Cada uma resolve um tipo diferente de problema fisiológico.
+
+Resumindo até aqui: Constitutiva: contínua, sem gatilho, em toda célula -- repõe MP e secreta MEC.
+Regulada: estocada em grânulos, liberada em pulso quando Ca² sobe, em células especializadas --
+insulina, neurotransmissores, enzimas digestivas. Estoque permite resposta rápida; constitutiva mantém
+o fluxo estável.
+
+3.3 -- Exemplos celulares -- célula , célula caliciforme, glândulas
+Vamos costurar os mecanismos da aula com três exemplos celulares que aparecem o tempo todo na
+medicina.
+
+Célula  do pâncreas -- insulina via secreção regulada. Sintetiza pré-pró-insulina no RE rugoso,
+processa para pró-insulina (corte do peptídeo-sinal pela peptidase de sinal, enovelamento com
+chaperonas, três pontes dissulfeto via PDI), embarca em COPII para o Golgi, passa pelas cisternas
+cis-medial-trans, é empacotada em grânulos de secreção na face trans (com clivagem para insulina
+madura + peptídeo C). Os grânulos ficam estocados aguardando glicose alta. Quando a glicose sobe, é
+metabolizada na célula , gera ATP, fecha canais de K ATP-dependentes, despolariza a membrana, abre
+canais de Ca² voltagem-dependentes, Ca² entra, e os grânulos fundem com a membrana plasmática.
+Toda a aula condensada numa única célula -- modificação no RE, processamento no Golgi, secreção
+regulada.
+
+Célula caliciforme do epitélio intestinal/respiratório -- mucina via secreção também regulada.
+Especializada na produção de muco, sintetiza enormes quantidades da glicoproteína mucina -- pro
+teína-eixo decorada com cadeias O-ligadas adicionadas no Golgi. As cadeias O-ligadas dão à mucina a
+viscosidade característica do muco e a capacidade de reter água. As células caliciformes estocam mucina
+em grânulos secretores e liberam em resposta a estímulos químicos e mecânicos (irritação, infecção).
+
+   Célula caliciforme em corte histológico do epitélio intestinal. Note o aspecto "vazio" da porção apical -- são os
+   grânulos de mucina prestes a serem secretados. Patologia: hipersecreção em bronquite crônica, asma.
+
+Glândulas exócrinas -- secreção combinada. Glândulas exócrinas (sudoríparas, salivares, pâncreas
+exócrino, mamárias) são tecidos inteiros especializados em secreção. Acinos pancreáticos, por exemplo,
+
+                                                                                21
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+sintetizam enzimas digestivas (tripsinogênio, quimiotripsinogênio, lipase, amilase) -- todas passam
+pelo RE, ganham pontes dissulfeto, são glicosiladas, embaladas em grânulos de zimogênio. Quando o
+sinal chega (colecistocinina liberada pelo duodeno em resposta à comida), os grânulos fundem com
+a membrana apical e despejam as enzimas no lúmen do ducto pancreático. Importante: as enzimas
+saem como zimogênios inativos -- só são ativadas no duodeno por enterocinase (corta tripsinogênio
+ tripsina; tripsina ativa as outras). É a segurança que vimos em 2.3: a célula que fabrica não pode ser
+digerida pela própria carga.
+
+Quando a segurança falha -- pancreatite aguda
+
+Se as enzimas digestivas pancreáticas forem ativadas dentro do pâncreas -- antes de chegarem
+ao duodeno --, elas começam a digerir o próprio órgão. É a pancreatite aguda. Causas típicas:
+cálculo biliar bloqueando o ducto pancreático (refluxo de bile no pâncreas ativa tripsinogênio),
+álcool em excesso (mecanismos complexos envolvendo aumento de Ca² intracelular e ativação
+prematura). Sintomas: dor abdominal violenta em barra, vômito, hiperamilasemia. Demonstra
+na prática por que a célula evoluiu para secretar zimogênios inativos -- quando esse mecanismo
+falha, o resultado é catastrófico para o próprio órgão.
+
+Síntese 3.3 -- Três células contam a aula inteira: célula  do pâncreas (insulina via secreção
+regulada por glicose/Ca²), célula caliciforme (mucina via secreção regulada, açúcares O-ligados
+dão a viscosidade), e ácino pancreático (zimogênios inativos saem por secreção regulada e são
+ativados no duodeno). Quando a segurança falha -- zimogênios ativados precocemente -- surge
+pancreatite aguda.
+
+       22
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Fechando: começamos a aula com uma pergunta -- por que a proteína precisa de modificações
+depois de traduzida? E vimos a resposta em três frentes mecanísticas. No RE, a proteína recém-
+traduzida ganha ajuda para enovelar (chaperonas HSP70 e HSP60), trava o formato com pontes
+dissulfeto (PDI no ambiente oxidante), recebe um oligossacarídeo pré-formado de 14 açúcares
+no nitrogênio de asparaginas (N-glicosilação a partir do dolicol-fosfato), e passa pelo controle de
+qualidade da calnexina -- quem não enovela é demolido por ERAD, e excesso de mal-dobradas
+dispara UPR. No Golgi, a proteína segue por cisternas cis-medial-trans, cada uma com seu kit
+enzimático: edição dos açúcares, glicosilação O-ligada (um por vez em Ser/Thr) para mucinas e
+proteoglicanos, sulfatação na face trans, e clivagem proteolítica de precursores como a pré-pró-
+insulina, que perde o peptídeo-sinal no RE e o peptídeo C no Golgi. No endereçamento e secreção,
+sequências-sinal específicas levam cada proteína ao seu destino -- peptídeo N-terminal para
+RE, NLS para núcleo, KDEL/KKXX para retenção/retorno --, e a secreção sai pela via constitutiva
+(contínua, em toda célula) ou pela via regulada (estocada em grânulos, liberada por Ca² em
+células especializadas). Insulina, mucina, zimogênios pancreáticos: cada um demonstra a aula
+inteira em uma única célula. No fim, o que une todos esses mecanismos é uma ideia simples: a
+proteína funcional não é a sequência linear que sai do ribossomo -- é o produto de uma cadeia de
+modificações que dá forma, estabilidade e endereço. Modificação pós-traducional é o que separa
+um pedaço de fita aminoacídica de uma proteína de verdade.
+
+       23
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Por que modificar depois de traduzir                      N-glicosilação -- bloco de 14 açúcares
+                                                          em massa
+A sequência linear que sai do ribossomo não é
+o produto final. Três pontas justificam as PTMs:          Único caso de transferência em massa na
+enovelamento correto (chaperonas dão forma 3D),           bioquímica de glicosilação. Um oligossacarídeo pré-
+travamento estável (pontes dissulfeto fixam o             formado (2 GlcNAc + 9 manoses + 3 glicoses) é
+formato no RE oxidante) e endereçamento ao                construído no dolicol-fosfato na membrana do RE e
+destino (glicosilação marca o caminho). Modificar         transferido inteiro pela oligossaril-transferase para
+é o que separa fita de aminoácidos de proteína            o nitrogênio de uma asparagina em contexto N­
+funcional.                                                X­S/T da cadeia que está entrando no lúmen. 14
+                                                          açúcares em uma única reação enzimática.
+
+HSP70 segura, HSP60 enclausura                            Calnexina, ERAD e UPR -- controle de
+                                                          qualidade
+HSP70 é co-traducional: liga regiões hidrofóbicas
+que saem do ribossomo, segura para não agregar            Glicosidases removem 2 glicoses do oligo 
+com vizinhas, solta com ATP em ciclos rápidos.            calnexina liga a proteína com 1 glicose
+HSP60 é pós-traducional: forma um barril fechado          remanescente  segura enquanto enovela 
+onde a proteína mal-dobrada entra e enovela               última glicose removida  calnexina solta.
+isolada do citosol por 10 segundos por ciclo. Ambas       Não enovelou? Transferase recoloca a glicose,
+gastam ATP, em ritmos diferentes.                         ciclo recomeça. Não dá certo nunca? ERAD
+                                                          retrotransloca para o citosol e o proteassomo
+RE é oxidante, citosol é redutor --                       destrói. Excesso de mal-dobradas dispara UPR:
+pontes dissulfeto                                         reduz tradução, sobe chaperonas, e se nem isso
+                                                          resolve  apoptose.
+Cisteínas distantes na sequência mas vizinhas no
+espaço formam ligações S­S catalisadas pela PDI --        Golgi -- cis recebe, medial trabalha,
+só no RE, porque o lúmen é oxidante (glutationo           trans despacha
+oxidado) e o citosol é redutor (glutationo reduzido)
+destruiria as pontes. Forma  ponte  trinco: a             Pilha de 4­6 cisternas com kits enzimáticos
+proteína enovela primeiro, depois as pontes travam.       diferentes. Cis recebe vesículas vindas do RE e
+Anticorpos, insulina, tripsina dependem disso para        adiciona manose-6-fosfato a enzimas lisossomais.
+sobreviver fora da célula.                                Medial edita os açúcares -- remoções e adições.
+                                                          Trans faz modificações finais: sulfatação de
+                                                          tirosinas/carboidratos e adição de ácido siálico.
+                                                          Combinações de açúcares variam entre tipos
+                                                          celulares -- base molecular de grupos sanguíneos
+                                                          e reconhecimento celular.
+
+                                                      24
+NEBLI                                                   RESUMINDO
+
+O-glicosilação -- um açúcar por vez no                  KDEL e KKXX -- bilhetes de volta ao RE
+Golgi
+                                                        Chaperonas residentes do RE acabam embarcando
+Sem bloco, sem dolicol, sem transferência em            em COPII para o Golgi. Como voltam? KDEL
+massa. Acontece exclusivamente no Golgi: glicosil-      no C-terminal (solúveis: PDI, BiP, calreticulina) é
+transferases adicionam um açúcar por vez ao             reconhecido por receptor no Golgi e a proteína é
+oxigênio da hidroxila de serinas e treoninas.           reembalada em COPI retrógrada de volta ao RE.
+Cliente principal é mucina (açúcares respondem          KKXX no domínio citosólico faz o mesmo para
+por mais de metade da massa -- viscosidade              residentes transmembrana. COPII = anterógrada;
+do muco) e proteoglicanos com cadeias longas            COPI = retrógrada -- não confundir.
+de glicosaminoglicanos (GAGs) para a matriz
+extracelular.                                           Via constitutiva × via regulada
+
+Pré-pró-insulina -- duas clivagens, dois                Constitutiva: fluxo contínuo do trans-Golgi à MP,
+locais                                                  sem gatilho, em toda célula -- repõe membrana,
+                                                        secreta colágeno e anticorpos. Regulada: vesículas
+Cadeia de 110 aminoácidos saída do ribossomo. No        estocadas como grânulos de secreção, fundem
+RE: peptidase de sinal corta o peptídeo-sinal N-        em pulso quando Ca² citosólico sobe por sinal
+terminal  vira pró-insulina ( 85 aa, com 3 pontes       externo. Existe só em células especializadas --  do
+dissulfeto formadas pela PDI). No Golgi/grânulo:        pâncreas (insulina), neurônio (neurotransmissor),
+pró-hormônio convertases removem o peptídeo             acinar pancreática (enzimas digestivas), mastócito
+C central  vira insulina madura (cadeias A +            (histamina).
+B unidas só pelas pontes dissulfeto). Peptídeo C
+dosado clinicamente distingue insulina endógena         Três células contam a aula inteira
+de exógena.
+                                                        Célula  do pâncreas: pré-pró-insulina  RE
+Sequências-sinal -- cada destino tem                     Golgi  grânulo regulado, libera por glicose
+seu GPS                                                 alta. Célula caliciforme: mucina O-glicosilada
+                                                        estocada e secretada por estímulo mecânico/
+Peptídeo-sinal N-terminal hidrofóbico  RE (via          químico. Ácino pancreático: zimogênios inativos
+SRP). NLS rico em lisinas/argininas  núcleo (via        saem por secreção regulada e só são ativados no
+importina). Sequência anfipática N-terminal             duodeno -- quando essa segurança falha (cálculo
+mitocôndria (via TOM/TIM). SKL no C-terminal            biliar, álcool), enzimas digestivas digerem o próprio
+peroxissomo (via Pex5). Cada uma é necessária e         pâncreas  pancreatite aguda.
+suficiente -- colar a sequência em outra proteína
+redireciona o destino.
+
+                                                    25
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre o porquê de modificar uma proteína depois de traduzida, é correto afirmar:
+   A) a sequência de aminoácidos que sai do ribossomo já é a proteína funcional, dispensando trabalho
+   posterior.
+   B) as modificações pós-traducionais acontecem todas no citosol, antes da entrada da proteína no
+   retículo.
+   C) enovelamento, pontes dissulfeto e glicosilação ajustam forma, estabilidade e destino da proteína.
+   D) splicing e poliadenilação são as principais modificações pós-traducionais das proteínas secretadas.
+   E) as modificações pós-traducionais são reversíveis e voltam ao estado inicial após a secreção.
+
+Questão 02 Consolidação
+
+Sobre as chaperonas HSP70 e HSP60, é correto afirmar:
+   A) HSP60 é co-traducional e atua durante a tradução segurando segmentos hidrofóbicos da cadeia
+   nascente.
+   B) ambas ditam a estrutura tridimensional final da proteína-substrato, sem depender da sequência
+   primária.
+   C) HSP70 atua somente no lúmen do retículo endoplasmático, dispensando hidrólise de ATP em seus
+   ciclos.
+   D) HSP60 forma uma fita estendida que liga regiões hidrofóbicas sem encerrar a proteína em compar
+   timento isolado.
+   E) HSP70 atua durante a tradução e HSP60 encapsula a proteína em barril fechado pós-tradução.
+
+                            26
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+As pontes dissulfeto entre cisteínas se formam preferencialmente:
+   A) no lúmen do retículo endoplasmático, onde o ambiente é oxidante e a PDI catalisa o pareamento.
+   B) no citosol, onde glutationo reduzido (GSH) doa elétrons para a formação das pontes S­S.
+   C) na mitocôndria, onde a cadeia respiratória mantém o ambiente fortemente oxidante para dissulfe
+   tos.
+   D) no lúmen do trans-Golgi, onde sulfotransferases adicionam grupos sulfato às cisteínas livres.
+   E) dentro do barril da HSP60, onde a proteína enovela isolada do meio aquoso citoplasmático.
+
+Questão 04 Consolidação
+A glicosilação N-ligada se caracteriza por:
+
+   A) adição de um açúcar por vez no oxigênio de serinas e treoninas selecionadas na face trans do Golgi.
+   B) adição de cadeias de glicosaminoglicanos longos diretamente ao oxigênio da hidroxila de tirosinas.
+   C) adição enzimática de grupos sulfato ao nitrogênio de asparaginas, antes do início da tradução.
+   D) transferência em bloco de um oligossacarídeo pré-formado para o nitrogênio de asparaginas no RE.
+   E) remoção sequencial de todos os açúcares pré-existentes na proteína recém-traduzida no citosol.
+
+Questão 05 Consolidação
+
+O sistema de controle de qualidade do RE atua de modo a:
+
+   A) destruir todas as proteínas mal-dobradas dentro do lúmen do RE por proteases residentes ácidas
+   similares às do lisossomo.
+   B) reter proteínas mal-enoveladas até o enovelamento concluir ou enviá-las ao ERAD para degradação
+   no citosol.
+   C) enviar para o Golgi cis qualquer proteína recém-sintetizada, sem aval da calnexina ou da calreti
+   culina.
+   D) destruir o oligossacarídeo precursor de 14 açúcares, removendo a etiqueta que sinaliza o estado de
+   enovelamento.
+   E) degradar apenas proteínas residentes do RE que escapam ao Golgi durante a UPR aguda, poupando
+   as proteínas da carga.
+
+                         27
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 06 Consolidação
+
+Sobre as ações do controle de qualidade no retículo endoplasmático, é correto afirmar:
+
+   A) a UPR responde só a aumento de volume luminal, sem relação direta com proteínas mal-dobradas.
+   B) o ERAD digere as proteínas defeituosas no próprio lúmen do RE por hidrolases ácidas residentes.
+   C) a calnexina liga proteínas com oligossacarídeo totalmente desprovido de glicoses, sinalizando
+   pronta-para-Golgi.
+   D) a UPR sustentada nunca induz apoptose, sendo sempre adaptativa e reversível em qualquer cenário
+   fisiológico.
+   E) a UPR reduz a tradução geral, aumenta a expressão de chaperonas e potencializa a degradação
+   por ERAD.
+
+Questão 07 Consolidação
+
+Sobre a polaridade funcional do complexo de Golgi, é correto afirmar:
+
+   A) a face trans recebe vesículas vindas do RE e a face cis despacha vesículas para a membrana
+   plasmática.
+   B) todas as cisternas do Golgi têm o mesmo kit enzimático modificador, sem polaridade funcional
+   definida entre cis, medial e trans no aparelho.
+   C) a face cis recebe vesículas vindas do RE e a face trans despacha vesículas para os destinos finais.
+   D) a face medial recebe vesículas vindas diretamente do citosol e processa proteínas integrais sem
+   necessidade de passar pelas demais cisternas do Golgi.
+   E) a face trans é onde toda glicosilação tem início, antes mesmo de a proteína entrar no retículo
+   endoplasmático rugoso pelo translocon Sec61.
+
+Questão 08 Consolidação
+
+Sobre a glicosilação O-ligada, é correto afirmar:
+   A) acontece exclusivamente no Golgi, com adição de açúcares um por um ao oxigênio de Ser e Thr.
+   B) usa o mesmo bloco pré-formado de 14 açúcares no dolicol que a glicosilação N-ligada do RE.
+   C) ocorre no citosol antes da entrada da proteína no RE, sem dependência das enzimas do Golgi.
+   D) adiciona açúcares ao nitrogênio de asparaginas no consenso N­X­S/T, com X diferente de prolina.
+   E) forma o esqueleto proteico das mucinas, sem dependência de glicosil-transferases específicas do
+   Golgi.
+
+                         28
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 09 Consolidação
+
+A maturação da pré-pró-insulina envolve, em ordem:
+
+   A) transcrição no Golgi, remoção do peptídeo C no citosol e formação das pontes dissulfeto no
+   lisossomo.
+   B) remoção do peptídeo-sinal no RE, formação das pontes dissulfeto no RE e clivagem do peptídeo C
+   no Golgi.
+   C) adição do peptídeo-sinal no Golgi, remoção do peptídeo C no RE e ativação no citosol pelo prote
+   assomo.
+   D) glicosilação pesada na face trans, remoção do peptídeo C no lúmen do RE e fosforilação no citosol.
+   E) tradução no lúmen do RE, formação das pontes dissulfeto no citosol e remoção do peptídeo C na MP.
+
+Questão 10 Consolidação
+
+Sobre sequências-sinal de endereçamento das proteínas, é correto afirmar:
+   A) todas as sequências-sinal estão sempre no extremo N-terminal e são cortadas após a importação.
+   B) a sequência-sinal para o núcleo é hidrofóbica e idêntica à utilizada para a entrada no RE.
+   C) a SRP reconhece a sequência-sinal de proteínas destinadas à mitocôndria durante a tradução
+   citoplasmática.
+   D) cada destino tem sua sequência-sinal característica, podendo estar em diferentes posições da
+   cadeia.
+   E) proteínas peroxissomais usam um sinal N-terminal hidrofóbico semelhante ao das proteínas do RE.
+
+                         29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+Em um experimento, uma proteína secretada e que normalmente carrega três pontes dissulfeto é
+redirecionada artificialmente para enovelar no citosol em vez do RE. O resultado mais provável é:
+
+A) enovelamento normal e três pontes dissulfeto íntegras, pois o citosol contém PDI livre suficiente
+para catalisar a ligação entre cisteínas vizinhas no espaço.
+
+B) perda das pontes dissulfeto porque o citosol é redutor (rico em glutationo reduzido) e impede a
+manutenção de ligações S­S estáveis.
+
+C) perda das pontes dissulfeto porque a PDI exige pH alcalino e um cofator metálico residente do RE
+que está ausente do citosol da célula.
+
+D) maior estabilidade das três pontes dissulfeto pelo ambiente termodinamicamente favorável do
+citosol em comparação ao lúmen oxidante do retículo endoplasmático.
+
+E) enovelamento normal porque pontes dissulfeto exigem apenas proximidade espacial das cisteínas,
+independentemente do potencial redox do compartimento celular.
+
+Questão 12 Integração
+
+Uma linhagem celular tem mutação que abole a função catalítica da PDI no lúmen do RE. O efeito mais
+consistente esperado sobre proteínas secretadas ricas em cisteínas é:
+
+   A) a glicosilação N-ligada falha por incapacidade do oligossacaril-transferase reconhecer asparaginas
+   próximas a cisteínas livres no lúmen do retículo endoplasmático.
+   B) as proteínas mal-enoveladas acumulam pontes dissulfeto corretas, retidas indefinidamente pelo
+   ciclo da calnexina, e secretadas em pulso por sinal de Ca².
+   C) as proteínas são totalmente glicosiladas com bloco do dolicol no RE, mas perdem suas sequências-
+   sinal e seguem aberrantemente para o lisossomo via M6P.
+   D) as proteínas saem do RE com pontes dissulfeto erradas ou em número reduzido, comprometendo
+   a estrutura terciária final.
+   E) a tradução pausa permanentemente no citosol porque a SRP depende de feedback redox da PDI
+   para liberar o ribossomo durante a importação.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Sobre HSP70 e HSP60 e seus papéis no enovelamento de proteínas, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. HSP70 atua durante a tradução, ligando regiões hidrofóbicas da cadeia nascente para impedir
+agregação precoce no citosol.
+
+II. HSP60 não consome ATP, atuando como suporte estrutural passivo que mantém a proteína-
+substrato em conformação ativa.
+
+III. HSP60 forma um barril fechado por tampa, dentro do qual a proteína enovela isolada em ciclos de
+cerca de 10 segundos.
+
+IV. HSP70 e HSP60 ditam ativamente a estrutura tridimensional final da proteína, atuando como
+moldes que impõem conformação à cadeia recém-traduzida.
+
+Questão 14 Integração
+
+Considere uma proteína secretada com asparaginas em três contextos distintos: (i) Asn­Gly­Ser,
+(ii) Asn­Pro­Thr e (iii) Asn­Leu­Ser. Quanto à N-glicosilação no retículo endoplasmático, é correto
+esperar:
+
+   A) glicosilação apenas em (i) e (iii), pois o consenso N­X­S/T exige que X não seja prolina, condição
+   violada apenas em (ii).
+   B) glicosilação somente em (ii), pois prolina cria curvatura local que aproxima a asparagina da oligos
+   saril-transferase ligada ao translocon do RE rugoso.
+   C) glicosilação em todos os três sítios, já que apenas a presença da asparagina basta para o reconhec
+   imento pelo translocon do retículo endoplasmático rugoso.
+   D) glicosilação somente em (i), pois apenas a glicina permite acesso da oligossaril-transferase à cadeia
+   nascente, com prolina e leucina bloqueando o sítio.
+   E) nenhuma glicosilação, pois o consenso N­X­S/T não se aplica a proteínas secretadas e exige uma
+   serina interna ao núcleo da cadeia.
+
+                       31
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Uma célula é exposta a uma droga que inibe especificamente a retrotranslocação no RE. O efeito
+esperado, depois de algumas horas, é:
+
+A) secreção aumentada de proteínas corretamente dobradas para o meio extracelular por compen
+sação do tráfego pelo Golgi.
+
+B) redução da expressão da BiP e demais chaperonas residentes, com tradução acelerada de proteínas
+secretadas saudáveis no citoplasma.
+
+C) acidificação progressiva do lúmen do RE pela ação reflexa da V-ATPase em compensar o acúmulo
+de proteínas mal-dobradas.
+
+D) desativação da SRP citoplasmática, com bloqueio total da entrada de novas proteínas no retículo
+endoplasmático rugoso.
+
+E) acúmulo de proteínas mal-dobradas no lúmen do RE, com ativação da UPR e, se sustentado, indução
+de apoptose celular.
+
+Questão 16 Integração
+
+Sobre a sequência de modificações pelas cisternas do Golgi para uma glicoproteína secretada, é correto
+afirmar:
+
+   A) a remoção de manoses começa na face trans, junto à adição inicial de sulfato em tirosinas e oligos
+   sacarídeos terminais.
+   B) a sulfatação ocorre na face cis, antes da fosforilação de manoses para o endereçamento de enzimas
+   lisossomais.
+   C) as modificações ocorrem em sequência polarizada: remoção de manoses na cis, processamento na
+   medial e sulfatação/sialilação na trans.
+   D) todas as modificações são feitas simultaneamente na face medial, sem dependência das demais
+   cisternas do complexo de Golgi.
+   E) a face trans recebe a proteína do RE e a face cis despacha vesículas para a membrana plasmática
+   logo após a sulfatação.
+
+                       32
+NEBLI                                                                ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+Sobre glicosilação O-ligada e sulfatação no Golgi, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. A glicosilação O-ligada acontece exclusivamente no lúmen do retículo endoplasmático rugoso, sobre
+asparaginas no consenso N­X­S/T, antes do tráfego pelo Golgi.
+
+II. A sulfatação no Golgi ocorre tipicamente na face trans, depois das etapas de remoção e adição de
+açúcares processadas nas demais cisternas.
+
+III. Mucinas devem sua viscosidade às extensas cadeias O-ligadas, que retêm água ao longo de um
+esqueleto rico em Ser e Thr.
+
+IV. A sulfatação de tirosinas e carboidratos é uma decoração inerte, sem efeito relevante sobre recon
+hecimento celular ou função de hormônios e proteoglicanos.
+
+Questão 18 Integração
+
+Sobre as sequências de retenção das proteínas residentes do RE, é correto afirmar:
+
+   A) proteínas residentes do RE solúveis dispensam sinal de retenção, pois o lúmen retém qualquer
+   proteína sem peptídeo-sinal funcional.
+   B) KDEL é um sinal N-terminal hidrofóbico clivado pela peptidase de sinal na entrada do RE,
+   restringindo escape pela face cis.
+   C) KKXX no domínio luminal de proteínas transmembrana é reconhecido por receptores citosólicos
+   para ancorá-las no aparelho de Golgi.
+   D) proteínas solúveis do RE carregam KDEL no C-terminal, que é reconhecido no Golgi e recupera a
+   proteína via vesículas COPI retrógradas.
+   E) as proteínas solúveis com KDEL ficam permanentemente ancoradas na membrana do RE, sem
+   nenhum risco de escape para o Golgi cis.
+
+                       33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Por que proteínas secretadas com várias pontes dissulfeto são tipicamente maturadas no RE e não no
+Golgi?
+
+A) porque o Golgi tem pH ácido em todas as cisternas, condição que rompe pontes S­S formadas
+previamente no RE rugoso.
+
+B) porque o lúmen do RE é oxidante e abriga a PDI, condições que catalisam a formação correta das
+pontes S­S entre cisteínas.
+
+C) porque as cisteínas só estão acessíveis no momento em que a proteína atravessa o translocon do
+Golgi para o trans-Golgi.
+
+D) porque o Golgi remove enzimaticamente todos os átomos de enxofre da cadeia lateral das cisteínas
+presentes na proteína secretada.
+
+E) porque a PDI é uma enzima residente exclusiva do trans-Golgi e ali catalisa todas as ligações
+dissulfeto da proteína madura.
+
+Questão 20 Integração
+
+Considere uma asparagina no consenso N­X­S/T de uma proteína entrando no retículo endoplasmático.
+Julgue:
+Cada item deve ser julgado de forma independente.
+
+   I. Um bloco de 14 açúcares é transferido em uma única reação para o nitrogênio da asparagina, no
+   lúmen do retículo endoplasmático.
+   II. O bloco precursor é pré-montado sobre dolicol-fosfato, lipídeo ancorado na membrana do RE com
+   os açúcares apontando para o lúmen.
+   III. Logo após a transferência, glicosidases do RE adicionam outras três glicoses ao oligossacarídeo,
+   gerando um intermediário com 17 açúcares na asparagina.
+   IV. O intermediário com uma única glicose remanescente é reconhecido pela calnexina, que segura a
+   proteína enquanto o enovelamento se completa.
+
+                       34
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Sobre as mucinas como exemplos de glicoproteínas com modificação O-ligada extensa, é correto
+afirmar:
+
+A) mucinas têm extensas cadeias O-ligadas em Ser e Thr; os açúcares respondem por mais da metade
+da massa total, dando viscosidade ao muco.
+
+B) mucinas dependem exclusivamente de N-glicosilação no retículo endoplasmático, com bloco do
+dolicol contendo glicoses terminais responsáveis pela hidratação local do muco.
+
+C) mucinas perdem todos os açúcares ao chegar na membrana apical, restando o esqueleto proteico
+nu para funções de proteção e reconhecimento intestinal e respiratório.
+
+D) mucinas são proteoglicanos sulfatados da matriz extracelular, com cadeia central de gli
+cosaminoglicanos longos ligados covalentemente a um eixo proteico hidrofóbico curto.
+
+E) mucinas dependem exclusivamente de sulfatação de tirosinas para reter água nos tecidos respi
+ratório e intestinal, dispensando inteiramente a ligação dos açúcares O-ligados.
+
+Questão 22 Integração
+
+Sobre a clivagem proteolítica de pré-pró-hormônios na via secretória, é correto afirmar:
+
+   A) todas as clivagens ocorrem no citosol, antes da entrada do precursor no retículo endoplasmático
+   rugoso, e dependem do proteassomo 26S.
+   B) a peptidase de sinal cliva o peptídeo C interno da pró-insulina no lúmen do RE, gerando insulina
+   madura.
+   C) pró-hormônio convertases reconhecem qualquer ligação peptídica sem nenhuma especificidade
+   de sítio, dispensando aminoácidos básicos vizinhos na cadeia.
+   D) a clivagem proteolítica é uma modificação reversível, com religação enzimática dos peptídeos C
+   dentro do grânulo de secreção sob estímulo de Ca².
+   E) a peptidase de sinal cliva o peptídeo-sinal no RE e pró-hormônio convertases removem o peptídeo
+   C no grânulo do trans-Golgi.
+
+                       35
+NEBLI                                                         ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Sobre o complexo de Golgi e suas cisternas, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. A face cis recebe vesículas COPII vindas do RE, em rota anterógrada da via secretória.
+
+II. A fosforilação de manoses para endereçamento ao lisossomo ocorre tipicamente na face trans do
+Golgi.
+
+III. Todas as cisternas do Golgi compartilham um único kit enzimático homogêneo, sem polaridade
+funcional entre cis, medial e trans.
+
+IV. A face trans concentra modificações finais como sulfatação e adição de sialic acid antes do despa
+cho das vesículas.
+
+Questão 24 Integração
+
+Sobre os sinais de retenção KDEL e KKXX no transporte retrógrado Golgi  RE, é correto afirmar:
+
+   A) ambos são reconhecidos pela importina- no citosol e direcionam proteínas para reentrada no
+   núcleo durante a interfase.
+   B) KDEL é um sinal de proteoglicano sulfatado e KKXX é um motivo glicosilado, ambos reconhecidos
+   no lúmen do trans-Golgi.
+   C) KDEL no C-terminal de proteínas solúveis e KKXX no domínio citosólico de proteínas transmem
+   brana são reconhecidos por COPI no Golgi.
+   D) KDEL é exclusivo de leveduras (HDEL em mamíferos) e KKXX é exclusivo de proteínas mitocon
+   driais com ancoragem na membrana externa.
+   E) ambos os motivos estão localizados na alça luminal das proteínas transmembrana, reconhecidos
+   por SRP na entrada do RE.
+
+                       36
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Sobre as vias constitutiva e regulada de secreção em células eucarióticas, é correto afirmar:
+
+   A) as duas vias dependem do mesmo gatilho intracelular (Ca² alto), com escala temporal idêntica de
+   liberação extracelular.
+   B) a via constitutiva exige sinal externo para liberar grânulos estocados, enquanto a regulada flui
+   continuamente em todas as células.
+   C) apenas células especializadas têm via constitutiva, restrita a hepatócitos e plasmócitos que secre
+   tam proteínas plasmáticas.
+   D) a via constitutiva flui continuamente em toda célula, enquanto a regulada estoca vesículas e libera
+   em pulso por sinal específico.
+   E) a via regulada secreta apenas lipídeos para reposição da membrana plasmática, sem participação
+   de proteínas hormonais ou enzimas.
+
+Questão 26 Aplicação
+
+Uma criança com fenótipo multissistêmico (atraso de desenvolvimento, hipotonia, hepatopatia) é
+investigada por suspeita de doença congênita da glicosilação (CDG). Análise bioquímica mostra
+deficiência grave em fosfomanomutase, impedindo a síntese do oligossacarídeo precursor no dolicol-
+fosfato. O efeito direto sobre as glicoproteínas secretadas é:
+
+   A) aumento da N-glicosilação total das proteínas, com cadeias mais longas e maior antigenicidade nas
+   glicoproteínas plasmáticas.
+   B) bloqueio da transferência em bloco do oligossacarídeo para a asparagina, com proteínas mal-
+   glicosiladas e função múltipla comprometida.
+   C) aumento compensatório da glicosilação O-ligada no Golgi medial, restaurando a função de quase
+   todas as glicoproteínas plasmáticas.
+   D) redirecionamento das glicoproteínas para o citosol, com reembalagem do precursor no Golgi e
+   secreção independente do RE.
+   E) acúmulo de pontes dissulfeto trocadas pela PDI, com redução compensatória da N-glicosilação só
+   em proteínas mitocondriais.
+
+                       37
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Um neurônio em cultura é tratado com um inibidor que bloqueia especificamente a função da HSP70
+citosólica. Logo após o início do tratamento, observa-se que cadeias nascentes recém-saídas do
+ribossomo formam agregados visíveis no citosol. A explicação mecanística mais provável é:
+
+   A) a inibição da HSP70 acelera a tradução, com excesso de cadeias maduras competindo pelo translo
+   con do RE rugoso.
+
+   B) a HSP70 normalmente catalisa pontes dissulfeto no citosol; sua inibição libera cisteínas livres que
+   agregam por ligações S­S aberrantes.
+
+   C) a HSP70 inativada não consegue clivar o peptídeo-sinal, com cadeias acumuladas na face citosólica
+   do retículo endoplasmático rugoso.
+
+   D) sem HSP70 funcional, segmentos hidrofóbicos saindo do ribossomo agregam entre si antes do
+   enovelamento, formando inclusões citosólicas.
+
+   E) sem HSP70, a oligossaril-transferase do RE deixa de funcionar e os agregados são glicoproteínas
+   acumuladas no lúmen do retículo.
+
+Questão 28 Aplicação
+
+Em pesquisa farmacológica, uma droga é desenhada para inibir especificamente as pró-hormônio
+convertases do grânulo de secreção das células -pancreáticas. O efeito direto esperado sobre a insulina
+e o peptídeo C secretados após estímulo por glicose é:
+
+   A) secreção de pró-insulina intacta (com o peptídeo C ainda interno) em vez de insulina madura, com
+   queda de função insulínica.
+   B) aumento compensatório da secreção de insulina madura, com elevação simultânea de peptídeo C
+   livre na circulação por hiperatividade endócrina.
+   C) redirecionamento da pró-insulina ao lisossomo e secreção exclusivamente do peptídeo C livre, sem
+   cadeias A e B na circulação portal.
+   D) retenção da pró-insulina no retículo endoplasmático por bloqueio da entrada no Golgi, sem liber
+   ação alguma para o meio extracelular.
+   E) secreção de insulina madura normal, com perda restrita de peptídeo C plasmático por degradação
+   pelas convertases inibidas.
+
+                      38
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Um adolescente com fibrose cística apresenta a mutação F508 em homozigose no gene CFTR. A análise
+molecular mostra que a proteína CFTR-F508 é traduzida em quantidade normal e entra no retículo
+endoplasmático, mas não chega à membrana apical das células epiteliais. As secreções respiratórias
+e digestivas tornam-se viscosas, levando a infecções pulmonares recorrentes. A explicação molecular
+mais coerente para essa retenção é:
+
+   A) a mutação F508 abole o peptídeo-sinal N-terminal, impedindo o reconhecimento pela SRP e a
+   entrada da proteína no RE rugoso.
+
+   B) a mutação F508 cria um sinal aberrante de M6P, redirecionando o CFTR mutante para o lisossomo
+   em vez da membrana plasmática.
+
+   C) a mutação F508 inibe a oligossaril-transferase do RE, abolindo a glicosilação N-ligada e
+   impedindo a saída do CFTR mutante para o Golgi.
+
+   D) a mutação F508 ativa uma sequência KDEL críptica no CFTR mutante, com retenção permanente
+   do canal no lúmen do RE por COPI recorrente.
+
+   E) o CFTR-F508 enovela mal no RE, é retido pelo controle de qualidade (ciclo da calnexina) e enviado
+   ao ERAD para degradação no proteassomo.
+
+Questão 30 Aplicação
+
+Em um modelo experimental de diabetes tipo 2, células -pancreáticas estão expostas a glicemia
+cronicamente elevada e demanda sustentada de insulina. Microscopia eletrônica mostra retículo endo
+plasmático dilatado, redução do número de grânulos de insulina madura e marcadores de apoptose. A
+análise de transcrição revela aumento de chaperonas (BiP), redução geral de tradução e aumento de
+componentes do ERAD. A explicação mais coerente para esse quadro é:
+
+   A) bloqueio total da via constitutiva, com toda a insulina sendo redirecionada para o lisossomo via
+   receptor de manose-6-fosfato.
+
+   B) perda da via regulada de secreção, com insulina liberada continuamente sem dependência de Ca²
+   ou estímulo de glicose alta.
+
+   C) UPR sustentada por sobrecarga de pré-pró-insulina mal-dobrada no RE, levando a falência adap
+   tativa e apoptose da célula .
+
+   D) perda da N-glicosilação por inibição reflexa do dolicol, com insulina mal-glicosilada sendo secre
+   tada em quantidade excessiva.
+
+   E) hiperatividade da PDI, com formação de pontes dissulfeto aberrantes entre cadeias A e B e secreção
+   de insulina hiperestável e inativa.
+
+                      39
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que as pontes dissulfeto entre cisteínas se formam preferencialmente no lúmen
+do retículo endoplasmático, e não no citosol, em uma proteína secretada com alta riqueza de
+cisteínas.
+
+    MODELO DE RESPOSTA
+
+   O lúmen do RE é um ambiente oxidante -- concentra glutationo oxidado (GSSG) e
+   abriga a PDI, isomerase de pontes dissulfeto que catalisa a ligação covalente entre dois
+   enxofres de cisteínas vizinhas no espaço. O citosol, ao contrário, é redutor (rico em
+   glutationo reduzido, GSH), e qualquer dissulfeto que tentasse se formar seria desfeito.
+   Como a proteína só forma a forma 3D estável depois das pontes travarem o dobramento,
+   a maturação só pode ocorrer no compartimento oxidante. Por isso anticorpos, insulina
+   e tripsina dependem do RE.
+
+Questão Q2
+
+Explique a diferença mecanística entre HSP70 e HSP60 no auxílio ao enovelamento de uma
+proteína recém-traduzida, indicando em que momento da vida da proteína cada uma atua.
+
+    MODELO DE RESPOSTA
+
+   HSP70 atua durante a tradução. Reconhece regiões hidrofóbicas que vão saindo do túnel
+   ribossomal, liga-se transitoriamente para impedir agregação prematura e libera em
+   ciclos rápidos de hidrólise de ATP, dando à cadeia chances repetidas de enovelar. HSP60
+   atua depois da tradução. Forma um barril cilíndrico fechado por tampa, dentro do qual a
+   proteína inteira é encapsulada e tenta enovelar isolada do citosol em ciclos de cerca de 10
+   segundos. HSP70 segura segmentos enquanto a cadeia ainda cresce; HSP60 enclausura
+   a proteína já pronta para uma tentativa protegida.
+
+                             40
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que a glicosilação ligada ao N transfere um oligossacarídeo pré-formado de 14 açúcares como
+bloco, em vez de adicionar açúcares um por um na asparagina do retículo endoplasmático?
+
+MODELO DE RESPOSTA
+
+A transferência precisa ser rápida porque ocorre cotraducional, durante a entrada da
+cadeia no lúmen do RE. Montar 14 açúcares um a um sobre cada asparagina seria lento
+demais e dessincronizaria a glicosilação com a importação. O bloco GlcManGlcNAc
+é pré-fabricado em paralelo sobre o dolicol-fosfato (lipídeo ancorado na membrana do
+RE) e transferido em uma única reação pela oligossaril-transferase, posicionada ao lado
+do translocon. Além de eficiente, o bloco padronizado serve de etiqueta uniforme para
+o controle de qualidade da calnexina, que precisa de um substrato previsível.
+
+Questão Q4
+
+Descreva a sequência maturacional da pré-pró-insulina, desde a tradução até a insulina madura
+no grânulo de secreção, indicando onde acontece cada clivagem.
+
+    MODELO DE RESPOSTA
+
+   Tradução produz a pré-pró-insulina, cadeia única com peptídeo-sinal N-terminal. A
+   SRP reconhece o sinal e a cadeia entra cotraducional no RE pelo translocon. No lúmen,
+   a peptidase de sinal cliva o peptídeo-sinal: sobra a pró-insulina, que enovela com
+   chaperonas e ganha três pontes dissulfeto via PDI. Em vesículas COPII, segue ao Golgi
+   e é empacotada em grânulos de secreção na face trans. No grânulo, pró-hormônio
+   convertases removem o peptídeo C interno; restam as cadeias A e B unidas pelas pontes
+   dissulfeto -- a insulina madura, liberada quando a glicose sobe.
+
+       41
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Identifique o erro
+
+Identifique o erro mecanístico no trecho abaixo e reescreva-o corretamente: "Quando o retículo
+endoplasmático acumula proteínas mal-dobradas, a UPR é disparada e degrada as proteínas
+defeituosas diretamente dentro do lúmen do RE por proteases residentes específicas; em paralelo,
+a UPR aumenta a tradução geral para tentar repor as proteínas perdidas, e nunca induz apoptose
+celular porque é sempre uma resposta adaptativa reversível."
+
+MODELO DE RESPOSTA
+
+Erro: a UPR não degrada proteínas dentro do RE -- as proteínas mal-dobradas são
+retrotranslocadas ao citosol pelo translocon (Sec61 ou homólogo), ubiquitinadas e
+degradadas no proteassomo 26S, em rota chamada ERAD. A UPR também não aumenta
+a tradução; pelo contrário, ela reduz a tradução geral (via fosforilação de eIF2) para
+diminuir a entrada de novas cadeias no RE, enquanto aumenta a expressão de chap
+eronas e do próprio ERAD. E a UPR sustentada por longo tempo induz apoptose --
+mecanismo central em diabetes tipo 2 (apoptose de células  por estresse de RE crônico)
+e em doenças neurodegenerativas com agregados proteicos.
+
+       42
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C  Q02 E            Q03 A     Q04 D  Q05 B
+Q06 E  Q07 C            Q08 A     Q09 B  Q10 D
+
+INTEGRAÇÃO (Q11­Q25)    Q13 CECE  Q14 A  Q15 E
+                        Q18 D     Q19 B  Q20 CCEC
+Q11 B  Q12 D            Q23 CEEC  Q24 C  Q25 D
+
+Q16 C  Q17 ECCE         Q28 A     Q29 E  Q30 C
+
+Q21 A  Q22 E
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B  Q27 D
+
+                        48
+

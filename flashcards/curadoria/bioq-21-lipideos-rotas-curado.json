@@ -1,0 +1,173 @@
+{
+  "slug": "bioq-21-lipideos-rotas",
+  "tag_ancora": "NEBLI::bioq-21-lipideos-rotas",
+  "tags_puras": [],
+  "impuras": [
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins",
+      "guids_kept": [
+        "zO;eo}i&6y",
+        "HhFsEqme2e"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis",
+      "guids_kept": [
+        "Ls2g-oLNva",
+        "NKE^S(plx2",
+        "PkKv<Ny;SA",
+        "xpARU)u<r2",
+        "oCA{%%o&/0",
+        "gl.@,@)VP^",
+        "E26>dVWz|~",
+        "lj~/k$%(ZI",
+        "NYiv.KBRlK"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids",
+      "guids_kept": [
+        "wu!536*ysX",
+        "w&uhyIZ3v;",
+        "oC#a86~-(L"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::12_Fatty_Acid_Degradation:_Carnitine_Shuttle",
+      "guids_kept": [
+        "IMW%ASW*.w",
+        "tf&[aM?,9?",
+        "se8y43gfIe",
+        "I_?i*b[)Wr",
+        "evQ?N]cCh_",
+        "Ja2$)IOJU(",
+        "C`zKzo}I!;",
+        "HuSD-TyDEW",
+        "o,O]2o`N~:"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation",
+      "guids_kept": [
+        "m8A{UZ9;>+",
+        "iz+(b*k_4d",
+        "FP@MDhY!:B",
+        "C%azB;mfy+",
+        "boQAggxq7j",
+        "EehWy>iqbJ",
+        "xF6vJC<tQ!",
+        "y&OfOC+DC!"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::14_Disorders_of_Fatty_Acid_Metabolism",
+      "guids_kept": [
+        "Jd+xUP*pe8",
+        "d8@2hu>O&/",
+        "ff(2qB=#f?"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::10_Fatty_Acids",
+      "guids_kept": [
+        "b%*6|i!o#m",
+        "se]85C=Qy~"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption",
+      "guids_kept": [
+        "QpI|ys+ElB"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State",
+      "guids_kept": [
+        "i@Yp^yRn24",
+        "k8xf5`xzXm",
+        "oijw@nbc_B",
+        "zv5/h>Z+b-",
+        "t:).4I7syU",
+        "d-u:!go}Or"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis",
+      "guids_kept": [
+        "zNKP>#)43-",
+        "o+D41fWGhp",
+        "FN`J;4O3|~",
+        "L~Zvy_1>yY",
+        "qNV_9ftG@F",
+        "j[r&z8E9CX",
+        "x#&^$^[=>/",
+        "zuEl:/z4@_",
+        "LE1Eq:]k~X",
+        "uRn{umsp]j",
+        "O4dNshEYop",
+        "D)Hc0@c+d!",
+        "s|NBM`iWfU"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis",
+      "guids_kept": [
+        "DU@2*h#cJ|",
+        "oPGxT?t&p?"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::40_Ketone_bodies",
+      "guids_kept": [
+        "v#J$2,_hv9"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra",
+      "guids_kept": [
+        "hs;ln9)k5+"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::11_Ketone_Bodies",
+      "guids_kept": [
+        "hm31YuQZoi"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis",
+      "guids_kept": [
+        "v3gnV-t68E"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis",
+      "guids_kept": [
+        "E{S{p/R;(&",
+        "LI/@xCD9-/",
+        "wfH+)zC0kj",
+        "o2g_@x[*##",
+        "oSQI`!|9cH",
+        "j~V9}wo3Y#",
+        "q0u$jKaxq/",
+        "I`=(v&7I!Q",
+        "o%6#ThhAp[",
+        "LzmOcN`8WN",
+        "uUec:<aJpz",
+        "Ndc=AMqtBg"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Pixorize::01_Biochemistry::01_Vitamins::09_Vitamin_B7_(Biotin)",
+      "guids_kept": [
+        "JUQMmHh=d,"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::08_Fatty_Acid_Synthesis",
+      "guids_kept": [
+        "ou*l>Qy/;o"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+NEBLI · APOSTILA
+
+pH e tampões
+
+Bioquímica · UC01 · Aula 02
+
+Disciplina:    Bioquímica (UC01)
+Bloco:         Equilíbrio ácido-base
+Slides-fonte:  Bioquímica/02 - pH e tampões.pdf
+Páginas:       13
+Nota de uso:   Estudar com o slide aberto ao lado -- o resumo complementa, não
+               substitui.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                               Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A química de fundo: pH, ácidos e pKa
+       1.1 O que é pH (escala log, faixa fisiológica)
+       1.2 Brønsted-Lowry -- ácido doa, base recebe H+
+       1.3 Ka, pKa e a régua da força ácida
+  PARTE II -- Tampões: a mistura inteligente que segura o pH
+       2.1 O que é tampão e por que precisa de par conjugado
+       2.2 Henderson-Hasselbalch -- a razão importa, não a concentração
+       2.3 Curva de titulação e a faixa efetiva (pKa ± 1)
+  PARTE III -- O corpo em equilíbrio: tampões fisiológicos e desequilíbrios
+       3.1 Quem tampona onde (bicarbonato, hemoglobina, fosfato)
+       3.2 Bicarbonato -- o sistema aberto que faz o impossível
+       3.3 Acidose × alcalose, metabólica × respiratória
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (10) · Integração (15) · Aplicação (5)
+       Gabarito consolidado ao final do documento
+
+ETAPA 3 -- 5 DISCURSIVAS MECANÍSTICAS
+       Resposta-modelo curta (100 palavras; Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       Selecionadas do banco, com gabarito inline
+
+ETAPA 5 -- NEBLICARDS
+       Cartões de revisão espaçada (1 cloze por card)
+
+FECHAMENTO
+       Gabarito consolidado da Etapa 2
+       Resumindo (panorama em 1 página)
+       Glossário de siglas
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    O corpo humano é uma máquina de precisão. A glicólise, a respiração celular, as enzimas diges-
+    tivas, a coagulação do sangue -- cada um desses processos depende de um ambiente com a
+    quantidade certa de prótons (H). Essa quantidade, medida pelo pH, precisa ficar dentro de uma
+    faixa muito estreita: no plasma arterial, entre 7,35 e 7,45. Uma variação de apenas 0,3 unidades
+    para cima ou para baixo já configura emergência médica. Como o corpo mantém esse equilíbrio
+    numa régua de alguns centésimos? A resposta está nos tampões -- misturas que absorvem ácido
+    ou base sem deixar o pH disparar. Nesta etapa, você vai entender a química por trás: o que é pH,
+    como os ácidos fracos se comportam, como nasce a equação de Henderson-Hasselbalch, e por que
+    o tampão bicarbonato consegue funcionar mesmo operando longe do seu pH ideal.
+
+PARTE I -- A química de fundo: pH, ácidos e pKa
+
+1.1 O que é pH -- e por que uma pequena variação importa muito
+Antes de qualquer coisa, vamos esclarecer um ponto que muita gente passa batido. pH¹ não
+é uma escala linear de "quanto ácido tem". É uma escala logarítmica. Isso significa que a
+diferença entre pH 7 e pH 6 não é "um poucadinho mais ácido" -- é dez vezes mais ácido. Entre
+pH 7 e pH 5, cem vezes. Essa compressão logarítmica é o que permite ao pH representar, numa
+régua de 0 a 14, concentrações que vão de 1 mol/L de H (pH 0) a 0,00000000000001 mol/L
+(pH 14).
+
+   A definição formal é simples:
+                                                 "pH" = -log[H]
+
+   O sinal negativo existe para transformar números pequenos e negativos (como -7 do log de
+10) em números positivos e manuseáveis. A H2O pura tem concentração de H = 10 mol/L,
+então seu pH é -log(10) = 7 -- o ponto neutro da escala. Abaixo de 7, o meio é ácido; acima de
+7, básico.
+
+   ¹pH -- medida logarítmica da concentração de íons hidrogênio livres em solução; quanto maior o pH, menor a concen-
+tração de H e mais básica a solução
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A escala de pH de 0 a 14. Repare como os extremos (suco gástrico pH  2; água sanitária pH  12) estão 10 bilhões de
+vezes mais concentrados em H do que o ponto neutro -- é a escala logarítmica comprimindo essa enorme variação
+numa régua pequena.
+
+Agora veja o que isso significa para o corpo. O plasma arterial tem pH entre 7,35 e 7,45 -- uma
+faixa de apenas 0,1 unidade. Uma diferença de 0,1 em pH equivale a variar a concentração de
+H em cerca de 26%. Parece pouco em número absoluto, mas as enzimas, os canais iônicos e as
+proteínas do coração foram moldados pela evolução para funcionar nessa faixa. Abaixo de pH
+7,2, o coração perde força contrátil. Abaixo de 6,8 ou acima de 7,8, o risco é de vida.
+
+   Resumindo até aqui: pH = -log[H]  escala logarítmica  1 unidade de pH = 10× na concentração de
+   H  faixa fisiológica plasmática é 7,35­7,45, estreitíssima porque enzimas e proteínas foram calibradas
+   para ela
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O pH no plasma venoso é um pouco menor (7,31­7,41) porque os tecidos estão constantemente
+jogando CO2 no sangue. Dentro das células, o pH é ainda mais ácido (6,7­7,1), porque a
+maquinaria metabólica gera prótons continuamente. Cada compartimento tem sua faixa,
+porque as enzimas de cada compartimento foram ajustadas para trabalhar nela.
+
+1.2 Ácidos e bases na visão de Brønsted-Lowry
+Você provavelmente aprendeu no ensino médio que ácido é substância que libera H em água.
+Essa definição de Arrhenius funciona para HCl em água, mas começa a emperrar em soluções
+biológicas, onde substâncias trocam prótons entre si sem necessariamente "se ionizar" num
+sentido clássico. A visão de Brønsted-Lowry² resolve isso de forma elegante:
+
+· Ácido = qualquer substância que doa H.
+· Base = qualquer substância que recebe H.
+
+Toda vez que um ácido doa um próton, sobra uma base -- e esse par recebe o nome de par
+conjugado. O ácido acético (CHCOOH) doa um H e se torna acetato (CHCOO): os dois são
+um par ácido-base conjugado. O ácido carbônico (H2CO3) doa H e vira bicarbonato (HCO3-);
+o bicarbonato, por sua vez, pode ceder outro H e virar carbonato (CO32-). A mesma molécula
+pode ser ácido em relação a uma base mais forte, e base em relação a um ácido mais forte --
+tudo depende do par.
+
+   Uma distinção fundamental é entre ácidos fortes e ácidos fracos. Um ácido forte como o
+HCl se dissocia completamente em água: cada molécula entrega seu H, e a base conjugada
+(Cl) é tão fraca que não pega o próton de volta. Um ácido fraco como o ácido acético ou o ácido
+carbônico se dissocia parcialmente -- num equilíbrio dinâmico, parte das moléculas está na
+forma ácida (HA) e parte na forma base conjugada (A), e as duas formas coexistem. Essa
+coexistência é o fundamento dos tampões.
+
+1.3 Ka, pKa e a régua da força ácida
+Para comparar ácidos fracos entre si, precisamos de um número que capture "quanto esse ácido
+gosta de abrir mão do próton". Esse número é a constante de dissociação ácida, Ka:
+
+                                                                  [][ ]
+                                                          = []
+
+Ka é uma razão entre produtos (A e H) e reagente (HA). Se Ka for grande, os produtos dominam
+-- o ácido se dissocia bem, é relativamente forte. Se Ka for pequeno, HA domina -- o ácido
+se dissocia pouco, é fraco. Por exemplo, o ácido acético tem Ka = 1,78 × 10 -- esse número
+pequeno diz que em solução 0,1 M, apenas cerca de 1,3% das moléculas está dissociada.
+
+   Trabalhar com números como 1,78 × 10 é inconveniente, então fazemos o mesmo truque do
+pH: pKa = -log(Ka). O ácido acético tem pKa = 4,75. A regra de ouro: quanto menor o pKa, mais
+
+   ²Brønsted-Lowry -- teoria que define ácido como doador de próton (H) e base como receptor de próton; mais geral
+que Arrhenius porque funciona em qualquer solvente e em transferências diretas entre moléculas
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+forte o ácido (mais gosta de largar o próton). HCl tem pKa  -7 (fortíssimo); ácido carbônico
+tem pKa = 6,1 (fraco, e é por isso que funciona como tampão fisiológico).
+
+  Dissociação do ácido acético 0,1 M. Repare como apenas uma fração pequena das moléculas realmente perde o
+  próton -- o equilíbrio pende fortemente para o lado não dissociado, o que define "ácido fraco".
+
+Os pKas mais importantes da fisiologia humana são melhor visualizados assim:
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Lista de pKas biológicos. Repare que os fosfatos têm três pKas diferentes -- HPO/HPO (2,1), HPO/HPO² (7,2) e
+HPO²/PO³ (12,3) -- correspondendo às três etapas de dissociação. O pKa 7,2 é o único fisiologicamente relevante,
+por estar próximo ao pH intracelular.
+
+    Atenção -- Ka e pKa têm relação inversa
+       É tentador confundir: se Ka grande = ácido forte, por que pKa pequeno = ácido forte? Porque o
+
+    sinal de menos no logaritmo inverte tudo. Ka = 10³  pKa = 3 (ácido mais forte). Ka = 10¹  pKa
+    = 10 (ácido muito fraco). Sempre que ver um pKa baixo, lembre: ácido forte, base conjugada fraca,
+    pouca afinidade por H.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese I -- pH = -log[H], escala logarítmica -- diferença de 1 unidade representa 10× na
+concentração de H. Faixa fisiológica plasmática: 7,35­7,45 -- estreitíssima porque as proteínas
+foram calibradas para ela. Ácidos fracos se dissociam parcialmente (Ka pequeno, pKa alto); os pKas
+biológicos centrais são 6,1 (HCO/HCO -- tampão bicarbonato) e 7,2 (HPO/HPO² -- tampão
+fosfato intracelular).
+
+PARTE II -- Tampões: a mistura inteligente que segura o pH
+
+2.1 O que é um tampão e por que precisa de ácido fraco + base conjugada
+Imagine que você adiciona uma pitada de ácido clorídrico a um copo d'água pura e ao mesmo
+tempo a outro copo contendo uma solução com ácido acético e acetato. No primeiro copo, todo
+o H adicionado fica livre -- o pH despenca. No segundo copo, quase nada acontece: o pH muda
+pouquíssimo. Esse segundo sistema é um tampão³.
+
+   Mas por que precisa ser ácido fraco + base conjugada, e não dois ácidos fortes? Porque o
+tampão precisa ter reserva nos dois sentidos:
+· Se alguém joga H na solução, a base conjugada (A) captura esse próton: A + H  HA. O H
+
+  extra foi absorvido -- virou HA em vez de ficar livre para abaixar o pH.
+· Se alguém joga OH na solução, o ácido fraco (HA) cede um próton: HA + OH  A + HO. O
+
+  OH foi neutralizado antes de subir o pH.
+
+   ³tampão -- mistura de ácido fraco e sua base conjugada em concentrações comparáveis; capaz de absorver adições
+moderadas de ácido ou base sem alteração significativa de pH
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Tampão em ação: na chegada de H, a base conjugada A o captura; na chegada de OH, o ácido fraco HA neutraliza.
+O pH se mantém em ambos os casos. Repare que ambas as formas precisam estar presentes simultaneamente para
+que isso funcione.
+
+A chave está na coexistência de HA e A. Um ácido forte não funciona porque já doou tudo
+-- se você coloca HCl puro em água, não há A sobrando para capturar H adicional. Precisa
+de equilíbrio parcial, coexistência das duas formas -- e é exatamente o que um ácido fraco
+garante.
+
+   Uma questão que vale colocar: o tampão consegue absorver todo ácido adicionado, sem
+limite? Não. Um tampão tem capacidade finita. Se você jogar HCl em excesso, vai esgotar a
+reserva de A. O sistema perde capacidade tamponante quando um dos componentes do par
+
+                                                                                 9
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+é consumido quase completamente. Por isso a capacidade tamponante -- proporcional à
+concentração total do tampão -- importa tanto quanto o pKa.
+
+2.2 A equação de Henderson-Hasselbalch -- derivação intuitiva
+Já sabemos que o Ka é definido por:
+
+                                                                  [][ ]
+                                                          = []
+
+Queremos uma fórmula que ligue o pH à razão entre base conjugada e ácido fraco -- porque é
+
+essa razão que um tampão controla. A derivação é direta e vale acompanhar passo a passo:
+
+Isolamos  [H]:  [ ]  =  Ka  ×  [HA]
+                               []
+
+Aplicamos  -log  dos  dois  lados:   -  log[ ]  =  -  log  Ka  +  log(  []    )
+                                                                        [HA]
+
+Substituindo as definições de pH e pKa:
+
+                            "pH" = "pKa" + log([A] / ["HA"])
+
+Essa é a equação de Henderson-Hasselbalch4.
+
+   4Henderson-Hasselbalch -- equação que relaciona o pH de uma solução tampão ao pKa do ácido fraco e à razão entre
+as concentrações de base conjugada e ácido fraco; permite calcular o pH de qualquer tampão e prever como ele responde
+a adições de ácido ou base
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Derivação de Henderson-Hasselbalch: partir do Ka e isolar [H] é o único truque algebraico. O resto é aplicar -log
+ dos dois lados. Repare que a equação emerge naturalmente da definição de Ka -- não é uma fórmula decorada, é
+ uma conseqüência.
+
+Em linguagem humana, a equação diz: o pH de um tampão é o pKa do ácido fraco, ajustado
+pelo logaritmo da proporção entre base e ácido. Se [A] > [HA], o log é positivo e o pH sobe
+acima do pKa. Se [HA] > [A], o log é negativo e o pH cai abaixo do pKa. E se [A] = [HA], log(1)
+= 0, e o pH é exatamente o pKa -- esse caso especial é importantíssimo.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Caso particular [A] = [HA]: quando a metade do ácido se dissociou, pH = pKa. Este é o ponto de máxima eficiência
+tamponante, porque há máxima reserva em ambos os lados.
+
+   Resumindo até aqui: Henderson-Hasselbalch: pH = pKa + log([A]/[HA])  quando [A] = [HA], pH =
+   pKa  a razão é a alavanca que o corpo usa para ajustar o pH do plasma
+O ponto [A] = [HA] é o mais eficiente porque a reserva dos dois lados está equilibrada: há A
+suficiente para capturar H e HA suficiente para ceder próton a bases. Qualquer desvio da razão
+1:1 diminui a reserva de um lado.
+
+2.3 Curva de titulação, ponto de inflexão e faixa efetiva
+
+   5curva de titulação -- gráfico que mostra a variação do pH de uma solução de ácido fraco conforme se adiciona
+progressivamente uma base forte; revela o pKa no ponto de inflexão e a faixa efetiva de tamponamento
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A curva de titulação5 de um ácido fraco tem a forma de um S alongado. O ponto central dessa
+curva -- exatamente onde metade do ácido foi convertida em base conjugada -- é o ponto de
+inflexão, onde pH = pKa. É aqui que a inclinação da curva é menor: cada adição de base causa
+a menor variação de pH possível, ou seja, o tampão está trabalhando com máxima eficiência.
+
+Curva de titulação do ácido acético (pKa 4,75). A faixa efetiva de tamponamento está entre pH 3,75 e 5,75 (pKa ± 1).
+Repare como a curva é quase plana nessa região -- cada mililitro de base muda pouco o pH. Fora dessa faixa, a curva
+inclina acentuadamente: o tampão perdeu eficiência.
+
+A regra prática que emerge daí: um tampão só tamponeia de forma efetiva numa faixa de pKa
+± 1 unidade de pH. Fora dessa faixa, a proporção HA/A fica tão assimétrica (99:1 ou 1:99) que a
+reserva de um lado se esgota rapidamente. Isso tem uma implicação enorme para a fisiologia:
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+· O tampão fosfato (H2PO4- / HPO42-) com pKa = 7,2 funciona muito bem no pH intracelular
+  ( 7,0­7,3) -- está dentro da faixa ± 1.
+
+· O tampão bicarbonato com pKa = 6,1 está fora da faixa ideal para o pH plasmático 7,4
+  (diferença de 1,3 unidades). Mas, como veremos na Parte III, um truque biológico elegante
+  contorna completamente essa limitação.
+
+Atenção -- faixa efetiva vs eficiência máxima
+
+   A faixa pKa ± 1 não significa que fora dela o tampão seja inútil -- significa que a eficiência cai
+significativamente. Em pH = pKa + 1, a proporção A/HA = 10:1 -- 91% já está como base conjugada,
+com pouco ácido sobrando para absorver OH. Quanto mais longe do pKa, menor a capacidade
+tamponante em um dos sentidos.
+
+Síntese II -- Tampão = ácido fraco + base conjugada coexistindo. Henderson-Hasselbalch: pH =
+pKa + log([A]/[HA]) -- quando [A] = [HA], pH = pKa, o ponto de máxima eficiência. A faixa útil
+vai de pKa - 1 a pKa + 1. Fora dela, a reserva fica assimétrica e a capacidade tamponante cai: há
+muito ácido ou muita base conjugada, mas pouco do outro lado.
+
+PARTE III -- O corpo em equilíbrio: tampões fisiológicos e
+desequilíbrios
+
+3.1 Quem tampona onde -- panorama dos tampões corporais
+Agora que você entende o mecanismo, olhe o que o corpo consegue fazer. O experimento de
+Swan e Pitts é revelador: quando se infunde 14 mmoles de H por litro de sangue em cães,
+a expectativa seria uma queda catastrófica de pH. O que se observou: queda de apenas 0,30
+unidades (de 7,44 para 7,14), correspondendo a um aumento de apenas 36 nmoles/L de H livres.
+Ou seja, mais de 13 milhões de nmoles/L de H foram absorvidos pelos tampões sem deixar
+rastro no pH. A produção diária normal de ácidos pelo metabolismo -- cerca de 12 moles de
+CO e 0,1 moles de ácidos metabólicos -- é tratada por esse sistema como algo trivial.
+
+       14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Experimento de Swan e Pitts: 14 mmoles/L de H infundidos, apenas 36 nmoles/L ficaram livres. Os tampões corporais
+absorveram mais de 99,99% da carga ácida. Repare que o número 13.999.964 nmoles/L absorvidos torna a eficiência
+concreta, não apenas "grande".
+
+No plasma sanguíneo, os tampões se distribuem em proporções bem definidas:
+· Bicarbonato (64%): o tampão quantitativamente mais importante, apesar do pKa de 6,1 --
+
+  explicamos o porquê na próxima seção.
+· Hemoglobina-histidina (28%): os resíduos de histidina6 na Hb tamponeia eficientemente
+
+  perto de pH 7,4 porque os grupos imidazólicos têm pKa  6,0­7,0.
+
+   6histidina -- aminoácido com grupo imidazólico de pKa  6,0­7,0; presente nas cadeias da hemoglobina em posição
+estratégica para tamponar o pH do eritrócito; esse pKa próximo ao fisiológico torna a histidina o principal tamponador
+proteico
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+· Proteínas plasmáticas (7%): albumina e outras proteínas contribuem com seus grupos
+  ionizáveis.
+
+· Fosfato (1%): pouca contribuição no plasma (concentração baixa), mas dominante no inte-
+  rior celular.
+
+Proporção dos tampões plasmáticos: bicarbonato 64%, hemoglobina 28%, proteínas 7%, fosfato 1%. Repare que a
+dominância do bicarbonato contradiz o que esperaríamos pelo pKa desfavorável -- a explicação está no fato de ser
+sistema aberto.
+
+Intracelularmente, fosfato e proteínas dominam, porque a concentração de bicarbonato é
+menor e o CO equilibra mais lentamente. A Hb nos eritrócitos é especialmente eficiente porque
+está em concentração altíssima -- cerca de 5 mmol/L de grupos imidazólicos de histidina
+funcionais --, muito mais concentrada que qualquer tampão proteico no plasma.
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+3.2 Tampão bicarbonato -- o sistema aberto que faz o impossível
+Aqui chegamos ao ponto mais contraintuitivo de todo o tema. O tampão bicarbonato tem pKa
+= 6,1, e o pH plasmático que ele precisa manter é 7,4 -- diferença de 1,3 unidades, claramente
+fora da faixa efetiva de pKa ± 1. Segundo as regras da Parte II, esse tampão deveria ser quase
+inútil nesse pH. Como, então, ele responde por 64% do tamponamento plasmático?
+
+   A resposta está num conceito que muda tudo: o tampão bicarbonato é um sistema aberto.
+   O CO produzido pelo metabolismo dissolve-se no plasma e se hidrata para formar ácido
+carbônico (HCO), que rapidamente perde um próton gerando bicarbonato:
+
+                                     CO + HO  HCO  HCO + H
+
+       17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Sistema aberto do bicarbonato: o CO equilibra-se continuamente entre o plasma e o ar alveolar. Note que a equação
+modificada de Henderson-Hasselbalch usa a pressão parcial de CO (pCO) em vez da concentração de HCO, porque
+pCO é o que o pulmão controla em tempo real.
+
+Em um sistema fechado (frasco de laboratório), se você adiciona H, o HCO se acumula e o
+tamponamento vai se esgotando. Mas nos pulmões, o CO é continuamente eliminado para
+o ar alveolar. Isso significa que o equilíbrio acima pode ser constantemente deslocado para a
+esquerda: quando H aumenta, mais CO sai pelos pulmões, puxando a reação e consumindo H.
+A abertura do sistema é o que permite tamponamento virtualmente ilimitado na direção ácida.
+
+   A concentração de CO no plasma é expressa como pCO2, regulada pela ventilação. A equação
+de Henderson-Hasselbalch modificada para o bicarbonato fica:
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+                              "pH" = 6.1 + log([HCO] / ("pCO" × 0.03))
+
+   Onde 0,03 é a solubilidade do CO no plasma (mmol/L/mmHg). No estado normal: [HCO]
+ 24 mmol/L e pCO  40 mmHg  pH = 6,1 + log(24/1,2) = 6,1 + log(20) = 6,1 + 1,30 = 7,40.
+Perfeito.
+
+   O que o sistema aberto permite: ao regular pCO (pelo pulmão) e [HCO] (pelo rim), o corpo
+pode ajustar o numerador e o denominador da razão independentemente. Nenhum tampão
+de laboratório consegue fazer isso -- e é por isso que um tampão com pKa "errado" consegue
+ser dominante na fisiologia.
+
+Resumindo até aqui: Sistema aberto: CO sai pelos pulmões  desloca equilíbrio  consome H  pH
+sobe. Pulmão controla pCO (denominador); rim controla HCO (numerador). Juntos, ajustam pH com
+precisão cirúrgica
+
+Atenção -- por que o pKa de 6,1 não é problema
+
+   Em pH 7,4 e pKa 6,1, a razão [HCO]/[HCO] = 10^(1,3)  20:1. Ou seja, 95% está como bicarbonato
+e apenas 5% como HCO. Parece desfavorável para tamponar ácido -- mas a abertura do sistema
+garante reposição contínua de HCO via CO produzido pelo metabolismo. O tampão opera
+assimétrico, mas nunca se esgota porque o reservatório de CO é praticamente infinito enquanto
+o metabolismo continuar.
+
+3.3 Acidose e alcalose -- metabólica × respiratória
+Quando o pH plasmático cai abaixo de 7,35, chamamos de acidose7. Quando sobe acima de
+7,45, chamamos de alcalose8. A classificação entre respiratória e metabólica indica onde está
+o defeito primário.
+
+   Olhe para a equação: pH = 6,1 + log([HCO] / pCO × 0,03). Tudo que aumenta o numerador
+ou diminui o denominador sobe o pH  alcalose. Tudo que diminui o numerador ou aumenta
+o denominador cai o pH  acidose. A compensação fisiológica sempre atua na variável que
+não foi o defeito primário:
+
+· Acidose respiratória: pCO  (hipoventilação)  H   pH . Compensação renal: rim retém
+  HCO  HCO sobe, parcialmente restaurando a razão.
+
+· Acidose metabólica: ácidos em excesso  HCO consumido  HCO   pH . Compen-
+  sação respiratória: hiperventilação  pCO   pH sobe parcialmente.
+
+· Alcalose respiratória: hiperventilação  pCO   pH . Compensação renal: rim excreta
+  HCO.
+
+· Alcalose metabólica: perda de H (ex.: vômito de HCl) ou ganho de HCO  pH . Compen-
+  sação respiratória: hipoventilação discreta  pCO .
+
+   7acidose -- condição clínica em que o pH plasmático cai abaixo de 7,35; pode ser respiratória (causa primária: CO) ou
+metabólica (causa primária: ácidos ou HCO)
+
+   8alcalose -- condição clínica em que o pH plasmático sobe acima de 7,45; pode ser respiratória (causa primária: CO
+por hiperventilação) ou metabólica (causa primária: ácidos ou HCO)
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Quadro das quatro desordens ácido-base: acidose/alcalose × respiratória/metabólica. Note a simetria -- o defeito
+primário move pH e uma variável (HCO ou CO), e a compensação move a variável oposta para tentar restaurar a
+razão na equação de Henderson-Hasselbalch.
+
+                                                                               20
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Bicarbonato de sódio na acidose metabólica grave
+
+   Na acidose metabólica grave (pH < 7,1, como em cetoacidose diabética severa), administra-se
+HCO intravenoso para aumentar diretamente o numerador da H-H e subir o pH. O risco: H +
+HCO  HO + CO. Se o pulmão não ventilar para eliminar esse CO extra, o CO acumula e
+paradoxalmente a acidose intracelular piora -- porque o CO atravessa membranas muito mais
+rápido que o HCO. Na célula, CO + HO  HCO  H + HCO. Por isso, na prática clínica, a
+decisão de usar bicarbonato em acidose é controversa e deve considerar a função ventilatória do
+paciente.
+
+Síntese III -- Tampões plasmáticos: bicarbonato (64%), hemoglobina-histidina (28%), proteínas
+(7%), fosfato (1%). O bicarbonato domina apesar do pKa de 6,1 porque é sistema aberto -- pulmão
+regula pCO e rim regula [HCO] de forma independente. Nas quatro desordens ácido-base, o
+defeito primário define o tipo (respiratório = CO; metabólico = HCO) e a compensação atua na
+variável oposta para parcialmente restaurar o pH.
+
+Conclusão integradora
+
+   O pH fisiológico não é uma propriedade mágica do sangue -- é a consequência de
+equilíbrios químicos precisos mantidos por sistemas redundantes. Ácidos fracos e suas
+bases conjugadas coexistem em solução e formam tampões porque têm reserva em
+ambos os sentidos. A equação de Henderson-Hasselbalch captura isso numa fórmula: o
+pH depende da razão [A]/[HA], não das concentrações absolutas. O tampão bicarbonato
+faz o aparentemente impossível -- funcionar 1,3 unidades fora do pKa ideal -- porque é
+um sistema aberto controlado em tempo real pelo pulmão (pCO) e pelo rim (HCO). E
+quando esse sistema falha, produz as quatro desordens ácido-base que o médico aprende
+a reconhecer pela mesma lógica: qual variável da equação foi o defeito primário e qual
+variável está compensando.
+
+       21
+NEBLI                           ETAPA 1 -- TEXTO DIDÁTICO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 1 Consolidação
+
+   A escala de pH é logarítmica. O pH do plasma arterial normal é 7,4, e o pH de uma solução
+de ácido clorídrico a determinada concentração é 5,4. Quantas vezes a concentração de H na
+solução ácida é maior do que no plasma arterial?
+
+  A) 2 vezes.
+  B) 100 vezes.
+  C) 10 vezes.
+  D) 1 000 vezes.
+  E) 20 vezes.
+
+Questão 2 Consolidação
+
+   Qual das alternativas descreve corretamente como um tampão funciona?
+  A) Um tampão remove completamente qualquer ácido ou base adicionado, impedindo qual-
+  quer variação de pH.
+  B) Um tampão é formado por ácido fraco e base conjugada em concentrações comparáveis,
+  que absorvem adições de ácido ou base sem alterar significativamente o pH.
+  C) Um tampão é formado por um ácido forte que se dissocia completamente, garantindo
+  reserva de prótons.
+  D) A capacidade tamponante de um tampão independe da sua concentração total.
+  E) Um tampão funciona apenas em pH neutro, porque fora de pH 7,0 o equilíbrio se desfaz.
+
+                            22
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 3 Consolidação
+
+Julgue cada afirmação sobre a escala de pH e a teoria de Brønsted-Lowry.
+
+Cada item deve ser julgado de forma independente.
+
+I. Segundo Brønsted-Lowry, um ácido é qualquer espécie capaz de receber um próton de
+outra molécula.
+II. O bicarbonato (HCO) pode atuar como base (aceitando H) e também como ácido
+(cedendo H), dependendo do par com que reage.
+III. Na equação pH = -log[H], o sinal negativo converte logaritmos de concentrações muito
+pequenas em valores positivos e manuseáveis.
+IV. Um ácido forte como o HCl forma uma base conjugada (Cl) que, em solução fisiológica,
+tem grande tendência de recapturar o próton cedido.
+
+Questão 4 Consolidação
+
+   A equação de Henderson-Hasselbalch é: pH = pKa + log([A]/[HA]). Qual das afirmações
+interpreta corretamente o caso especial em que [A] = [HA]?
+
+  A) Nesse ponto, pH = 2 × pKa, pois as duas concentrações iguais se somam.
+  B) Nesse ponto, o tampão está esgotado e não consegue mais absorver nem ácido nem base.
+  C) Nesse ponto, pH = pKa, e o tampão opera com máxima eficiência porque há igual reserva
+  de forma ácida e básica.
+  D) Nesse ponto, o pH é necessariamente neutro (7,0), independentemente do pKa do ácido.
+  E) Nesse ponto, log([A]/[HA]) = log(0) = 0, e portanto o pH é indeterminado.
+
+                        23
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 5 Consolidação
+
+   Considere dois ácidos fracos: ácido acético (pKa = 4,75) e ácido carbônico (pKa = 6,1). Qual
+afirmação sobre a relação Ka­pKa e a força ácida relativa está correta?
+
+  A) O ácido carbônico é mais forte porque tem pKa maior -- quanto maior o pKa, mais forte
+  o ácido.
+
+  B) Ambos têm a mesma força ácida porque pH e pKa são grandezas do mesmo tipo.
+
+  C) O ácido acético é mais forte que o bicarbonato, mas o acetato (base conjugada do ácido
+  acético) tem maior afinidade por H do que o bicarbonato.
+
+  D) O ácido acético é mais forte: tem pKa menor (4,75 < 6,1), ou seja, maior tendência de se
+  dissociar, e seu acetato tem menor afinidade por H do que o bicarbonato.
+
+  E) O pKa do ácido acético ser menor significa que o ácido acético é uma base mais forte do
+  que o ácido carbônico.
+
+Questão 6 Consolidação
+
+   Julgue as afirmações sobre a relação Ka/pKa e a faixa efetiva de tamponamento.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Quanto maior o Ka de um ácido fraco, maior sua tendência de se dissociar em solução
+  aquosa.
+  II. A equação pKa = -log Ka implica que um ácido com Ka = 10³ (pKa = 3) é mais fraco do que
+  um ácido com Ka = 10¹ (pKa = 10).
+  III. A faixa efetiva de tamponamento de um par ácido-base é definida como pKa ± 1 unidade
+  de pH.
+  IV. Em pH = pKa + 1, a proporção [A]/[HA] = 10:1 -- como há 91% na forma base, o tampão
+  tem pouca reserva de base conjugada para capturar ácidos adicionais.
+
+                        24
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 7 Consolidação
+
+   Um tampão de acetato está preparado com [CHCOO]/[CHCOOH] = 1:1. Qual é o pH da
+solução (pKa acético = 4,75) e o que ocorre ao adicionar pequena quantidade de NaOH?
+
+  A) pH = 4,75; a adição de NaOH converte parte de CHCOOH em CHCOO, aumentando a razão
+  [A]/[HA] e elevando levemente o pH.
+  B) pH = 4,75; a adição de NaOH abaixa o pH porque OH reage com CHCOO, gerando mais
+  ácido acético.
+  C) pH = 7,0; porque mistura igualitária de ácido e base sempre resulta em neutralidade.
+  D) pH = 4,75; após adição de NaOH, o pH permanece exatamente 4,75 independentemente da
+  quantidade adicionada.
+  E) pH = 9,5; porque pKa reflete o pH de neutralidade do par conjugado.
+
+Questão 8 Consolidação
+
+   A curva de titulação de um ácido fraco (pKa = 5,0) é traçada com adição progressiva de NaOH.
+Em que região da curva a variação de pH por mililitro de base adicionada é mínima, e por quê?
+
+  A) Nos extremos da curva (pH muito baixo ou muito alto), porque o tampão está completa-
+  mente no lado ácido ou básico.
+  B) No ponto onde [A] = 0, porque não há base conjugada para reagir com o ácido adicionado.
+  C) No ponto de equivalência (toda solução como A), onde a resistência à variação é máxima.
+  D) Na região de pH 1­3, porque em pH muito baixo há muita reserva de H disponível.
+  E) Na faixa pKa ± 1 (pH 4,0­6,0), onde HA e A coexistem em concentrações comparáveis,
+  absorvendo efetivamente ácidos ou bases adicionados.
+
+                        25
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 9 Consolidação
+
+Julgue as afirmações sobre a curva de titulação e a faixa efetiva de tamponamento.
+
+Cada item deve ser julgado de forma independente.
+
+I. O ponto de inflexão da curva de titulação de um ácido fraco corresponde ao pH = pKa; é
+nesse ponto que a inclinação da curva é mínima.
+II. Na região pKa ± 1, a curva é relativamente plana, indicando que grandes adições de base
+causam pequenas variações de pH.
+III. O ponto de equivalência (onde todo HA foi convertido em A) é o ponto de maior eficiência
+tamponante da curva.
+IV. Fora da faixa pKa ± 1, a curva inclina mais abruptamente porque um dos componentes do
+par está quase esgotado.
+
+Questão 10 Consolidação
+
+   O tampão fosfato usa o par HPO/HPO² (pKa = 7,2). O tampão bicarbonato usa HCO/
+HCO (pKa = 6,1). Com base apenas no critério pKa ± 1, qual é mais eficiente para tamponar o
+pH intracelular típico ( 7,0)?
+
+  A) O bicarbonato, porque tem pKa mais baixo e isso o torna mais forte em condições ácidas.
+  B) Ambos são igualmente eficientes, pois pH 7,0 está dentro de 1 unidade dos dois pKas.
+  C) O bicarbonato, porque a diferença de 0,9 entre seu pKa (6,1) e o pH 7,0 é menor do que a
+  diferença de 0,2 entre pKa do fosfato (7,2) e o pH.
+  D) O bicarbonato, porque operar com razão [A]/[HA] = 7,9:1 (em pH 7,0, pKa 6,1) é mais
+  eficiente do que razão 0,63:1 (em pH 7,0, pKa 7,2).
+  E) O fosfato, porque seu pKa (7,2) está a apenas 0,2 unidades de pH 7,0, enquanto o pKa do
+  bicarbonato (6,1) está a 0,9 unidades -- o fosfato está mais centrado na faixa efetiva para
+  esse pH.
+
+                        26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 11 Integração
+
+   O tampão bicarbonato tem pKa = 6,1 e o pH arterial normal é 7,4 -- uma diferença de 1,3
+unidades, fora da faixa pKa ± 1. Mesmo assim, o bicarbonato responde por 64% do tampona-
+mento plasmático. A explicação mecanística mais correta é:
+
+  A) É sistema aberto: o pulmão elimina o CO de H + HCO  CO + HO, deslocando o
+  equilíbrio para a direita e expandindo a capacidade tamponante ácida muito além da con-
+  centração isolada.
+
+  B) A concentração de bicarbonato (24 mmol/L) é tão alta que compensa o pKa desfavorável
+  por pura quantidade de tampão.
+
+  C) A hemoglobina amplifica o bicarbonato ao transferir prótons diretamente para o CO
+  dissolvido, aumentando a eficiência.
+
+  D) O pH 7,4 é, na verdade, dentro da faixa pKa ± 1 do bicarbonato, pois a faixa biológica efetiva
+  se estende além de ± 1 unidade.
+
+  E) O rim regenera HCO mais rápido do que o pulmão elimina CO, mantendo a razão [HCO]/
+  [CO] constante independentemente do pKa.
+
+Questão 12 Integração
+
+   Na equação de Henderson-Hasselbalch modificada para o bicarbonato -- pH = 6,1 +
+log([HCO] / (pCO × 0,03)) -- o pulmão e o rim controlam variáveis distintas. Qual par de
+afirmações descreve corretamente essa divisão de trabalho?
+
+  A) Pulmão controla [HCO] (numerador); rim controla pCO (denominador).
+  B) Pulmão controla a produção intracelular de CO; rim controla a difusão de CO do tecido
+  para o sangue.
+  C) Ambos controlam pCO: pulmão aumenta e rim diminui, em sentidos opostos.
+  D) Pulmão controla pCO (denominador), por regular a ventilação; rim controla [HCO]
+  (numerador), por reabsorção e regeneração de bicarbonato.
+  E) O pulmão e o rim controlam conjuntamente apenas o numerador, sem influência sobre o
+  denominador.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+   Um paciente apresenta pH = 7,20, [HCO] = 12 mM (normal 24 mM) e pCO = 30 mmHg
+(normal 40 mmHg). Julgue cada afirmação sobre esse quadro.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. O distúrbio primário é uma acidose metabólica, identificada pela queda do HCO abaixo
+  do normal.
+
+  II. A pCO baixa (30 mmHg) representa compensação respiratória por hiperventilação, com
+  o objetivo de elevar o pH parcialmente.
+
+  III. Se o pulmão aumentasse mais a ventilação, reduzindo pCO para 20 mmHg, o pH
+  retornaria exatamente a 7,4 -- compensação respiratória completa.
+
+  IV. A queda de HCO nesse caso indica que o distúrbio é respiratório: o pulmão não conseguiu
+  eliminar CO, acumulando ácido carbônico e consumindo bicarbonato indiretamente.
+
+Questão 14 Integração
+
+   Um paciente com overdose de opioides apresenta hipoventilação grave. Antes de qualquer
+compensação renal, qual padrão gasométrico é esperado?
+
+  A) pH , pCO , [HCO]  -- alcalose respiratória com compensação metabólica.
+  B) pH , pCO , [HCO]  -- acidose metabólica por hipóxia tecidual.
+  C) pH , pCO , [HCO]  -- acidose respiratória com compensação renal incipiente.
+  D) pH , pCO , [HCO] normal -- acidose respiratória pura, sem compensação renal ainda.
+  E) pH normal, pCO , [HCO]  -- compensação renal completa já presente.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+   A histidina da hemoglobina possui grupo imidazólico com pKa entre 6,0 e 7,0. Por que esse
+pKa específico torna a histidina um tamponador eficiente no eritrócito (pH intracelular 7,2)?
+
+  A) Porque histidina com pKa de 6­7 é um ácido forte, capturando H de forma irreversível e
+  sem atingir equilíbrio.
+
+  B) Porque pKa 6­7 equivale ao pH do plasma arterial (7,4), garantindo que toda histidina
+  esteja na forma não protonada e pronta para capturar H.
+
+  C) Porque pKa 6­7 está a menos de 1 unidade do pH do eritrócito ( 7,2), garantindo reserva
+  de ambas as formas (protonada e não protonada) para absorver H ou OH.
+
+  D) Porque histidinas estão no interior da proteína, inacessíveis a H do citossol, formando
+  um reservatório passivo.
+
+  E) Porque pKa 6­7 garante que a histidina opere exclusivamente como doador de prótons,
+  sem aceitar H do meio.
+
+Questão 16 Integração
+
+   Julgue as afirmações sobre a diferença entre tampão bicarbonato fechado (laboratório) e
+aberto (fisiológico).
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Num sistema fechado, ao adicionar H, o HCO se acumula sem escapar, limitando pro-
+  gressivamente a capacidade tamponante.
+
+  II. No sistema fisiológico, a concentração de CO dissolvido no plasma é mantida constante
+  pelos pulmões: o CO produzido pela tamponação não é eliminado, mas convertido de volta
+  a HCO pelo rim, reconstituindo o tampão sem necessidade de ventilação.
+
+  III. Um tampão fechado de bicarbonato seria mais eficiente que o fisiológico, porque acumu-
+  laria HCO para reagir com bases adicionadas.
+
+  IV. Em sistemas abertos, o pulmão e o rim devem ajustar [HCO] e pCO em conjunto e
+  simultaneamente -- o controle de uma variável necessariamente exige alteração propor-
+  cional da outra para manter o pH estável.
+
+                       29
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 17 Integração
+
+   Paciente com vômitos repetidos perde grande quantidade de HCl gástrico. Qual distúrbio
+ácido-base e qual compensação fisiológica são esperados?
+
+  A) Alcalose metabólica (perda de H eleva HCO e pH); compensação por hipoventilação
+  discreta, retendo CO para parcialmente baixar o pH.
+
+  B) Acidose metabólica (perda de Cl gera acidose hiperclorêmica); compensação renal
+  retendo HCO.
+
+  C) Alcalose respiratória (perda de Cl estimula quimiorreceptores); compensação renal exc-
+  retando NaHCO.
+
+  D) Alcalose metabólica; compensação respiratória por hiperventilação para eliminar mais
+  CO e baixar o pH.
+
+  E) Nenhum distúrbio: a perda de HCl é compensada imediatamente pela regeneração de HCl
+  pelo estômago.
+
+Questão 18 Integração
+
+   No estado normal, a razão [HCO]/(pCO × 0,03) no plasma é aproximadamente 20:1, o que
+representa 95% do tampão bicarbonato na forma base. Por que o sistema fisiológico mantém
+essa proporção assimétrica e ainda funciona?
+
+  A) Porque no sistema aberto, o CO produzido pelo metabolismo continuamente repõe a
+  forma ácida (HCO), compensando a assimetria e permitindo tamponamento mesmo com
+  pouquíssimo HCO disponível.
+
+  B) Porque razão 20:1 corresponde exatamente ao ponto de máxima eficiência tamponante
+  da equação de Henderson-Hasselbalch.
+
+  C) Porque 95% na forma base significa que há reserva enorme de HCO para neutralizar
+  ácidos, tornando o tampão mais eficiente que qualquer outro.
+
+  D) Porque a assimetria é um artefato de medição; a razão real no líquido intracelular é 1:1, e
+  essa é a que importa para o tamponamento.
+
+  E) Porque o rim compensa a assimetria excretando HCO em excesso, mantendo a razão
+  sempre próxima de 1:1 no plasma.
+
+                       30
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 19 Integração
+
+Julgue as afirmações sobre os quatro distúrbios ácido-base primários.
+
+Cada item deve ser julgado de forma independente.
+
+I. Na acidose respiratória, o distúrbio primário é o aumento de pCO por hipoventilação, que
+gera mais HCO e eleva a concentração de H no plasma.
+II. Na alcalose respiratória, a hiperventilação aumenta pCO, deslocando o equilíbrio CO +
+HO  HCO  H + HCO para a direita, produzindo mais H e baixando o pH.
+III. Na acidose metabólica compensada, a compensação respiratória é capaz de retornar o
+pH exatamente a 7,40, desde que o pulmão funcione adequadamente.
+IV. Na alcalose metabólica, a compensação respiratória consiste em hipoventilação leve para
+reter CO e parcialmente reduzir o pH.
+
+Questão 20 Integração
+
+   O experimento de Swan e Pitts mostrou que infundir 14 mmoles/L de H no sangue de cães
+resultou em apenas 36 nmoles/L de H livres -- a diferença foi absorvida pelos tampões. Qual
+conclusão mecanística esse dado sustenta?
+
+  A) O pH não varia com adição de ácido quando os tampões estão em concentração suficiente.
+  B) O ácido injetado foi metabolizado pelas células antes de se dissociar, não tamponado
+  quimicamente.
+  C) O experimento demonstra que os rins excretam ácido em segundos, sem depender de
+  tampões.
+  D) Mais de 99,99% da carga ácida foi absorvida pelos tampões corporais -- o ácido "desa-
+  parece" na reserva tamponante antes de ficar livre no plasma.
+  E) Os tampões biológicos têm capacidade infinita de absorver H, demonstrada pela quase
+  ausência de H livre.
+
+                       31
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 21 Integração
+
+   Bicarbonato de sódio IV é administrado a um paciente com acidose metabólica grave (pH
+7,1). Qual risco mecanístico específico existe se o paciente estiver com ventilação mecânica
+insuficiente?
+
+  A) O bicarbonato pode precipitar no sangue e causar êmbolo alcalino nos capilares.
+  B) O HCO administrado será excretado rapidamente pelo rim antes de elevar o pH.
+  C) O CO formado pela reação H + HCO penetra nas células mais rápido que o HCO e, sem
+  ventilação suficiente, piora a acidose intracelular.
+  D) O bicarbonato ativa o tampão fosfato, deslocando Ca² da albumina e causando tetania.
+  E) A dose de bicarbonato não pode ser calculada sem o pKa exato de todas as proteínas
+  plasmáticas.
+
+Questão 22 Integração
+
+   Julgue as afirmações sobre a distribuição dos tampões fisiológicos.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. O tampão bicarbonato responde por 64% do tamponamento plasmático, apesar do pKa 6,1
+  estar distante do pH 7,4.
+  II. O tampão fosfato responde por apenas 1% do tamponamento plasmático porque seu pKa
+  de 7,2 o torna ineficiente a pH 7,4 -- a diferença de 0,2 unidades impede qualquer tampon-
+  amento efetivo nesse pH.
+  III. A hemoglobina contribui com 28% do tamponamento plasmático por meio dos resíduos
+  de histidina em suas cadeias proteicas, cujos grupos imidazólicos têm pKa 6­7, dentro da
+  faixa efetiva do pH intracelular do eritrócito.
+  IV. Proteínas plasmáticas como a albumina contribuem com 7% do tamponamento por meio
+  de seus grupos ionizáveis (histidinas, carboxilas).
+
+                       32
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 23 Integração
+
+   Texto motivador: Um pesquisador prepara dois tampões a pH 7,0: tampão A com fosfato
+(pKa = 7,2) e tampão B com bicarbonato (pKa = 6,1), ambos hermeticamente fechados e a 0,1 M
+de concentração total. Ao adicionar a mesma quantidade de ácido forte a cada tampão fechado,
+qual varia mais o pH e por quê?
+
+   Qual afirmação está correta?
+
+  A) O tampão A (fosfato), pois pH 7,0 está no limite da faixa pKa ± 1 do fosfato.
+
+  B) O tampão A (fosfato), pois fosfato tem menor solubilidade e portanto menor capacidade
+  tamponante a pH 7,0.
+
+  C) Ambos variam exatamente igual, pois têm a mesma concentração total (0,1 M) e pH inicial
+  idêntico.
+
+  D) O tampão B (bicarbonato), pois o bicarbonato fechado opera com razão [HCO]/[HCO]
+  muito assimétrica a pH 7,0 ( 7,9:1), com pouquíssimo HCO sobrando -- ao adicionar ácido,
+  essa reserva ácida se esgota rapidamente, enquanto o fosfato opera mais centrado em sua
+  faixa.
+
+  E) O tampão B (bicarbonato fechado), pois pKa 6,1 está 0,9 unidades de pH 7,0; o fosfato (pKa
+  7,2) está apenas 0,2 unidades -- razão mais centrada, melhor reserva nos dois lados.
+
+Questão 24 Integração
+
+   Texto motivador: No estado normal: [HCO] = 24 mM, pCO = 40 mmHg, pH = 7,4. Suponha
+que a ventilação cesse subitamente e a pCO suba para 80 mmHg em segundos, enquanto
+[HCO] ainda não mudou (compensação renal demora horas).
+
+   Qual é o pH resultante? (log 10 = 1; 0,03 × 80 = 2,4)
+  A) pH  7,70 -- alcalose por excesso de CO.
+  B) pH  7,40 -- permanece o mesmo porque [HCO] também dobrou junto.
+  C) pH  6,80 -- acidose grave pela duplicação de pCO.
+  D) pH  7,10: log(24/2,4) = log(10) = 1; pH = 6,1 + 1 = 7,10 -- acidose respiratória.
+  E) pH  7,40 -- o logaritmo atenua a variação do denominador a zero.
+
+                       33
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+Julgue as afirmações sobre a lógica do par ácido-base conjugado como tampão.
+
+Cada item deve ser julgado de forma independente.
+
+I. Para tamponar em ambos os sentidos, o sistema precisa ter tanto a forma ácida (HA) quanto
+a forma básica (A) em concentrações significativas.
+
+II. Um ácido forte como HCl não pode ser o componente ácido de um tampão, pois sua
+dissociação é completa -- após a ionização total, não resta HA disponível para ceder H a
+uma base adicionada; toda a reserva ácida foi consumida instantaneamente.
+
+III. Dobrar a concentração total de um tampão dobra a quantidade de moles de H ou OH que
+ele pode absorver antes do esgotamento -- capacidade tamponante é diretamente propor-
+cional à concentração total.
+
+IV. Uma razão [A]/[HA] = 9:1 significa que 90% do tampão está como base conjugada e 10%
+como ácido fraco -- o tampão tem boa reserva para absorver tanto ácidos (via A) quanto
+bases (via HA), com capacidade simétrica nos dois sentidos.
+
+Questão 26 Aplicação
+
+   Texto motivador: Um estudante prepara um tampão de acetato com [CHCOO]/[CHCOOH]
+= 3:1 (pKa = 4,75). Ele calcula: pH = 4,75 + log(3) = 4,75 + 0,48  5,23. Seu professor afirma que
+esse tampão seria eficiente para manter soluções em pH 5,2.
+
+   Qual das afirmações está correta sobre a eficiência desse tampão a pH 5,23?
+
+  A) O tampão não funciona a pH 5,23 porque a fórmula de Henderson-Hasselbalch só se aplica
+  quando [A] = [HA].
+
+  B) O pH calculado está correto, mas o tampão só funciona para pH exatamente igual ao pKa
+  (4,75), não para 5,23.
+
+  C) O tampão é ineficiente porque razão 3:1 significa que há mais base do que ácido, tornando-
+  o assimétrico.
+
+  D) O tampão está na faixa pKa ± 1 (faixa efetiva 3,75­5,75), portanto funciona -- com reserva
+  de HA suficiente para absorver bases e de A para absorver ácidos.
+
+  E) O professor está equivocado: a faixa efetiva do tampão acetato é apenas de pH 4,0 a 4,75,
+  pois acima do pKa o tampão deixa de funcionar.
+
+                       34
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+   Texto motivador: Durante exercício intenso, o músculo esquelético produz CO e ácido
+lático. No sangue venoso muscular, o pH cai levemente e a pCO sobe. No pulmão, parte do CO
+é eliminada; o pH sobe. Os rins têm resposta mais lenta (horas), relevante se o exercício for
+prolongado.
+
+   Qual afirmação descreve corretamente a resposta integrada imediata (segundos a minutos)
+do tampão bicarbonato durante o exercício?
+
+  A) O músculo aumenta [HCO] local para compensar o aumento de H, independentemente
+  do pulmão.
+
+  B) O tampão bicarbonato é ineficaz durante o exercício porque o pKa 6,1 está longe do pH
+  venoso muscular ( 7,1).
+
+  C) O rim regenera HCO em segundos, elevando o numerador da equação H-H antes que o
+  pulmão aja.
+
+  D) O pulmão hiperventila, reduzindo pCO; como pCO é o denominador da equação H-H, a
+  razão [HCO]/pCO×0,03 sobe e o pH se eleva parcialmente.
+
+  E) Não há resposta de tampão durante o exercício transitório -- o corpo aceita a acidose
+  temporária e aguarda o metabolismo normalizar.
+
+Questão 28 Aplicação
+
+   Texto motivador: Dois frascos hermeticamente fechados contêm, respectivamente: frasco
+X com tampão fosfato (HPO/HPO², pKa 7,2) a pH 7,4, e frasco Y com tampão bicarbonato
+(HCO/HCO, pKa 6,1) a pH 7,4, ambos a 0,05 M. A mesma quantidade de HCl forte é adicionada
+a cada frasco.
+
+   Em qual frasco o pH variará mais, e qual é a explicação?
+
+  A) No frasco X (fosfato), pois pH 7,4 está mais longe do pKa 7,2 do que de 6,1 -- o fosfato opera
+  mais assimétrico.
+  B) No frasco X (fosfato), pois fosfato tem menor afinidade por H do que bicarbonato a pH 7,4.
+  C) No frasco Y (bicarbonato), pois o fosfato forma precipitados em meio ácido.
+  D) No frasco Y (bicarbonato fechado): razão  20:1 a pH 7,4 -- quase sem HCO para absorver
+  ácido. O fosfato (pKa 7,2, razão  1,6:1) opera mais centrado, com reserva bilateral.
+  E) Ambos variam exatamente igual, pois têm concentração total idêntica (0,05 M).
+
+                      35
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+   Texto motivador: Jovem de 22 anos, 2 dias de diarreia intensa. Gasometria: pH = 7,20,
+[HCO] = 14 mM (referência 22­26 mM), pCO = 28 mmHg (referência 35­45 mmHg). Frequên-
+cia respiratória 28 irpm. A diarreia causa perda direta de HCO pelas fezes.
+
+   Qual é o diagnóstico do distúrbio ácido-base e o mecanismo da taquipneia?
+
+  A) Acidose metabólica (perda fecal de HCO); a taquipneia é compensação respiratória --
+  reduz pCO, sobe a razão [HCO]/pCO×0,03 e eleva o pH.
+
+  B) Alcalose respiratória por hiperventilação; o HCO baixo é consequência de excreção renal
+  excessiva de bicarbonato.
+
+  C) Acidose respiratória por acúmulo de CO; a pCO baixa indica que o pulmão está compen-
+  sando eficientemente.
+
+  D) Acidose metabólica; a taquipneia é consequência da desidratação, não compensação
+  ácido-base.
+
+  E) Alcalose metabólica; diarreia causa perda de ácidos gástricos, elevando [HCO].
+
+Questão 30 Aplicação
+
+   Texto motivador: Paciente com DPOC grave e retenção crônica de CO. Gasometria: pH =
+7,32, pCO = 58 mmHg (referência 35­45 mmHg), [HCO] = 29 mM (referência 22­26 mM). O
+médico explica que o HCO elevado é adaptação renal crônica ao excesso de CO.
+
+   Qual é o distúrbio primário e o que o HCO elevado representa na equação de Henderson-
+Hasselbalch?
+
+  A) Alcalose respiratória; o rim aumenta HCO para compensar a perda de CO.
+  B) Acidose respiratória; o HCO elevado indica que o rim consumiu ácido para diminuir H,
+  acumulando excesso de base em vez de compensar.
+  C) Acidose metabólica; o HCO alto indica que os rins excretam ácido para compensar.
+  D) Alcalose metabólica; o paciente retém CO como compensação de uma alcalose prévia.
+  E) Acidose respiratória crônica; o rim reteve HCO (elevou o numerador H-H), atenuando a
+  queda de pH -- compensação do excesso de CO.
+
+                      36
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 1
+   Explique por que, na equação de Henderson-Hasselbalch, o pH de um tampão depende
+
+da razão [A]/[HA] e não das concentrações absolutas de cada componente.
+
+    MODELO DE RESPOSTA
+
+       A equação pH = pKa + log([A]/[HA]) deriva diretamente da definição de Ka = [A]
+   [H]/[HA]. Ao isolar [H] e aplicar -log dos dois lados, o pKa fica como constante e o que
+   resta é o logaritmo da razão. Se você dobrar ambas as concentrações mantendo a razão
+   constante (ex.: de 0,1 M/0,1 M para 0,2 M/0,2 M), o log não muda -- logo o pH também
+   não. O que importa é o quanto de base conjugada sobrou para capturar H em relação
+   ao quanto de ácido fraco existe para ceder H, não os números absolutos.
+
+Questão 2
+   Por que a faixa efetiva de tamponamento de um sistema ácido-base é pKa ± 1 unidade
+
+de pH? Explique usando o argumento das proporções do par conjugado.
+
+    MODELO DE RESPOSTA
+
+       Em pH = pKa + 1, a equação H-H dá log([A]/[HA]) = 1, ou seja, [A]/[HA] = 10:1 --
+   91% está como base conjugada, apenas 9% como ácido fraco. A reserva ácida (para
+   neutralizar bases) está quase esgotada. Em pH = pKa - 1, o inverso: 91% como ácido, 9%
+   como base -- reserva básica quase esgotada. Fora dessa faixa, um dos lados cai abaixo
+   de 9%, e a resistência à variação de pH despenca. A faixa ± 1 é onde ambas as formas
+   coexistem em proporções suficientes (ao menos 9:1 dos dois lados) para absorver ácido
+   e base com eficiência razoável.
+
+                             37
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 3
+
+   O tampão bicarbonato tem pKa = 6,1, e o pH plasmático é 7,4 -- diferença de 1,3
+unidades, fora da faixa pKa ± 1. Explique por que esse sistema, ainda assim, é o tampão
+dominante do plasma (64% do total).
+
+MODELO DE RESPOSTA
+
+   A vantagem do bicarbonato não está no pKa, mas no fato de ser um sistema aberto:
+quando H reage com HCO, forma-se CO, que é continuamente eliminado pelos pul-
+mões. Isso desloca o equilíbrio -- CO + HO  HCO  H + HCO -- para a direita,
+consumindo H sem esgotar o tampão. Além disso, pulmão e rim regulam pCO e [HCO]
+de forma independente, ajustando o numerador e o denominador da equação H-H
+separadamente -- algo impossível para qualquer tampão fechado de laboratório.
+
+Questão 4
+
+   Qual é a diferença mecanística essencial entre acidose metabólica e acidose respi-
+ratória, usando a equação de Henderson-Hasselbalch como referência?
+
+    MODELO DE RESPOSTA
+
+       Na equação pH = 6,1 + log([HCO] / pCO×0,03), a acidose metabólica tem como
+   defeito primário a queda do numerador -- HCO cai porque foi consumido por excesso
+   de H (diarreia, cetoacidose) ou porque houve perda direta de bicarbonato. A acidose
+   respiratória tem como defeito primário o aumento do denominador -- pCO sobe por
+   hipoventilação, gerando mais HCO e aumentando [H]. A compensação sempre atua
+   na variável que não foi o defeito primário: respiratória compensa a metabólica (pulmão
+   reduz pCO); renal compensa a respiratória (rim retém HCO).
+
+       38
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 5 -- Identifique o erro
+
+   Um estudante, ao revisar pH e tampões, escreve: "O bicarbonato é um tampão muito
+ruim para o plasma porque seu pKa de 6,1 está longe do pH de 7,4. Para tamponar bem,
+o sistema precisaria de um tampão com pKa de 7,4 exato, e então o pulmão e o rim só
+ajustariam pequenas variações." Identifique o erro central do raciocínio e corrija-o.
+
+MODELO DE RESPOSTA
+
+   O erro é supor que o critério pKa ± 1 se aplica igualmente a sistemas abertos e
+fechados. O estudante está correto para um tampão de laboratório fechado -- nesse
+caso, pKa = 6,1 realmente seria inadequado para pH 7,4. Mas o tampão bicarbonato
+fisiológico é aberto: o pulmão elimina continuamente o CO gerado pela tamponação, e
+o rim regula [HCO]. Isso significa que os dois parâmetros da equação H-H são contro-
+lados independentemente, tornando o sistema capaz de operar com eficiência mesmo
+assimétrico (razão 20:1 entre HCO e HCO). Um tampão com pKa de exatamente 7,4,
+mas fechado e sem regulação orgânica, seria muito menos eficaz do que o bicarbonato
+fisiológico.
+
+       39
+NEBLI                                       ETAPA 5 -- NEBLICARDS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 B         Q03 ECCE  Q04 C     Q05 D
+                        Q08 E     Q09 CCEC  Q10 E
+Q06 CECE  Q07 A
+                        Q13 CECE  Q14 D     Q15 C
+INTEGRAÇÃO (Q11­Q25)    Q18 A     Q19 CEEC  Q20 D
+                        Q23 E     Q24 D     Q25 CCCE
+Q11 A     Q12 D
+                        Q28 D     Q29 A     Q30 E
+Q16 CEEE  Q17 A
+
+Q21 C     Q22 CECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 D
+
+                        47
+NEBLI                                                                           GABARITO -- ETAPA 2
+
+   Resumindo
+
+Sistema aberto do bicarbonato -- o truque pH = -log[H] -- escala logarítmica
+
+central                                                 Cada unidade de pH representa dez vezes mais H
+
+O tampão bicarbonato domina o plasma (64%) -- não uma unidade a mais. pH 6 é dez vezes mais
+
+apesar do pKa 6,1 porque é sistema aberto: o pul- ácido que pH 7; pH 5 é cem vezes. Essa compressão
+
+mão controla pCO (denominador) e o rim controla logarítmica é o que permite representar concen-
+
+HCO (numerador) de forma independente, garanti- trações que variam em 14 ordens de grandeza numa
+
+ndo ajuste preciso e reserva virtualmente ilimitada. régua de 0 a 14.
+
+Henderson-Hasselbalch -- a equação de tra- Proporção dos tampões plasmáticos
+
+balho                                                   Bicarbonato 64%, hemoglobina-histidina 28%,
+
+pH = pKa + log([A]/[HA]). Quando [A] = [HA], pH = proteínas plasmáticas 7%, fosfato 1%. A hemoglobina
+
+pKa (máxima eficiência). Para o bicarbonato: pH = 6,1 contribui tanto porque está em concentração altís-
+
++ log([HCO] / pCO × 0,03). Em pH normal, a razão é sima nos eritrócitos e os resíduos de histidina têm
+
+20:1, confirmando que a razão importa mais do que pKa  6,0­7,0, próximo ao pH fisiológico.
+
+as concentrações absolutas.                             Tampão -- por que precisa de ácido fraco
+
+Faixa efetiva pKa ± 1 -- regra de ouro do                  Tampão = ácido fraco + base conjugada coex-
+tamponamento                                            istindo. A captura H extra; HA neutraliza OH. Um
+
+Um tampão só trabalha bem dentro de 1 unidade ácido forte não tampona porque já doou tudo -- não
+
+de pH acima ou abaixo do seu pKa. Fora dessa faixa, há base conjugada disponível. A coexistência das
+
+a proporção HA/A fica assimétrica ( 10:1) e a reserva duas formas é o requisito estrutural inegociável.
+
+de um lado se esgota rapidamente. O fosfato (pKa pKa -- régua da força ácida
+
+7,2) respeita a regra intracelularmente; o bicarbonato     pKa = -log(Ka). Quanto menor o pKa, mais forte o
+burla a regra sendo sistema aberto.                     ácido (mais gosta de largar o próton). pKas biológicos
+Quatro desordens ácido-base -- lógica única             essenciais: ácido lático 3,86, histidina  6,0, HCO/
+
+Olhe a equação: tudo que aumenta o numerador HCO 6,1, HPO/HPO² 7,2. Ka e pKa têm relação
+
+(HCO) ou diminui o denominador (pCO) sobe inversa -- Ka grande = pKa pequeno = ácido forte.
+
+o pH  alcalose. O inverso  acidose. Respiratório Curva de titulação -- ponto de inflexão
+
+= defeito primário no CO; metabólico = defeito             A curva de titulação de um ácido fraco tem forma
+primário no HCO. A compensação atua sempre na           de S. O ponto de inflexão -- onde a curva é mais plana
+variável oposta ao defeito primário.                    -- é o pH = pKa, onde [HA] = [A]. Nesse ponto, a
+pH fisiológico -- faixa estreitíssima                   resistência à mudança de pH é máxima. Fora da faixa
+
+Plasma arterial: 7,35­7,45. Plasma venoso: 7,31­7,41. ± 1, a curva fica mais íngreme e o tamponamento
+
+Intracelular: 6,7­7,1. Uma variação de 0,1 unidade enfraquece.
+
+representa 26% de mudança na concentração de H. Brønsted-Lowry -- ácido doa, base recebe
+
+Acidose < 7,2; alcalose > 7,6; risco de vida fora de 6,8­ Na visão de Brønsted-Lowry, ácido é qualquer
+
+7,8.                                                    doador de H e base é qualquer receptor -- indepen-
+
+                                                        dente de solvente. Isso permite descrever pares con-
+
+                                                        jugados (HCO/HCO, HCO/CO²) e entender que a
+
+                                                        mesma molécula pode ser ácido ou base dependendo
+
+                                                        do par com quem reage.
+
+                                                48
+NEBLI                                                     RESUMINDO
+
+Ácidos fortes vs fracos
+
+   Ácido forte (HCl, HNO): dissocia completamente,
+base conjugada muito fraca, sem equilíbrio de volta.
+Ácido fraco (HCO, HPO, ác. acético): dissocia par-
+cialmente -- HA e A coexistem. Essa coexistência é
+o que permite tamponamento.
+
+                                                      49
+

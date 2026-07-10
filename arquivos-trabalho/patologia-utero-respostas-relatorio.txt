@@ -1,0 +1,116 @@
+Útero
+
+Corpo do útero
+Útero
+
+Corpo do útero
+  histologia
+        Peça A - corpo
+        Comente sobre os tipos de procedimento cirúrgico do útero
+        incluindo este ao qual a paciente foi submetida. Elabore uma
+        descrição macroscópica. Formule a hipótese principal e justifique.
+
+Peça A
+Grupo            Procedimento                            Descrição
+    Diagnóstico  Ultrassonografia transvaginal           Avaliação do útero e anexos
+    Diagnóstico  Histeroscopia diagnóstica               Visualização da cavidade uterina
+    Diagnóstico  Biópsia de endométrio                   Investigação de alterações
+
+    Rastreio     Citopatológico cervical (Papanicolau)   Rastreamento de câncer do colo
+
+    Rastreio     Colposcopia                             Avaliação do colo uterino
+
+    Oncológico   Exérese da zona de transformação (EZT)  Remoção da área de transformação cervical
+
+    Oncológico   Conização do colo uterino               Retirada em cone (diagnóstico/terapêutico)
+
+    Oncológico   Biópsia do colo uterino                 Investigação de lesões suspeitas
+    Terapêutico  Inserção de DIU                         Contracepção
+    Terapêutico  Retirada de DIU                         Remoção do dispositivo
+    Terapêutico  Cauterização do colo uterino            Tratamento de lesões benignas
+    Terapêutico  Polipectomia uterina                    Retirada de pólipos
+    Cirúrgico    Curetagem uterina                       Esvaziamento uterino
+    Cirúrgico    AMIU                                    Aspiração uterina
+    Cirúrgico    Miomectomia                             Retirada de miomas
+    Cirúrgico    Histerectomia total                     Retirada completa do útero
+    Cirúrgico    Histerectomia subtotal                  Retirada parcial
+    Cirúrgico    Histerectomia vaginal                   Via vaginal
+    Cirúrgico    Histerectomia laparoscópica             Via minimamente invasiva
+
+    Oncológico   Histerectomia radical                   Retirada ampliada (útero + paramétrios ± linfonodos)
+
+    Oncológico   Traquelectomia                          Preserva útero (em casos selecionados)
+
+    Oncológico   Linfadenectomia pélvica                 Avaliação de disseminação
+    Obstétrico   Parto cesáreo                           Via cirúrgica
+    Obstétrico   Revisão uterina pós-parto               Avaliação de restos
+    Obstétrico   Curetagem pós-aborto                    Esvaziamento uterino
+Peça A
+Peça A
+Peça B- corpo
+Descreva os prováveis achados microscópicos considerando a sua hipótese principal
+Thirteen out of 137 cases (9.5%) with a diagnosis of endometrial polyp
+were associated with hyperplasia and/or malignancy in our cohort.
+
+The frequency of hyperplasia without atypia, hyperplasia with atypia
+and carcinoma was 6/137 (4.4%), 5/137 (3.6%) and 2/137 (1.5%),
+respectively.
+Peça C- corpo
+Comente sobre os achados clínicos e de exames complementares destas lesões
+Peça D-corpo
+Descreva o achado macroscópico e comente o provável achado microscópico
+
+Peça E-corpo
+Comente sobre possíveis repercussões clínicas e achados de exames complementares
+Peça F-corpo
+Formule uma hipótese principal e diagnósticos diferenciais
+Peça G-corpo
+Comente sobre os locais da peça para amostragem (retirada de fragmentos da peça
+cirúrgica para análise microscópica).
+As características típicas da mulher acometida por HE ou CE (presentes concomitantemente em cerca de 80% dos casos) são:
+obesidade, diabetes, hipertensão e sangramento vaginal na pós-menopausa.
+Peça G-corpo
+Comente sobre os locais da peça para amostragem (retirada de fragmentos da peça
+cirúrgica para análise microscópica).
+As mulheres com HA/NIE devem ser submetidas à histerectomia total
+com ou sem salpingo-oforectomia bilateral, preferentemente, por via
+laparoscópica, devido ao risco de uma neoplasia maligna não
+diagnosticada ou progressão para CE.
+Peça H-colo
+Comente sobre os possíveis achados clínicos e de exames complementares.
+Peça H-colo
+Comente sobre os possíveis achados clínicos e de exames complementares.
+
+Categoria                                                                Achados
+
+Sintomas iniciais             Sangramento vaginal irregular (pós-coito, intermenstrual), corrimento fétido, aumento do fluxo
+
+Sintomas de doença avançada                Dor pélvica persistente, lombalgia, perda de peso, fadiga
+
+  Sintomas por invasão local  Hematúria (bexiga), tenesmo/hematoquezia (reto), fístulas vesico/retovaginais
+       Exame físico geral                          Palidez (anemia), emagrecimento, caquexia
+          Toque vaginal
+        Toque bimanual                          Colo endurecido, irregular, friável, massa tumoral
+           Toque retal         Comprometimento de paramétrios (fixação), redução da mobilidade uterina
+        Exame especular
+                                                  Avaliação de invasão posterior e paramétrios
+    Citologia (Papanicolau)            Lesão vegetante, ulcerada ou infiltrativa, sangramento ao toque
+
+              Biópsia                     Confirma diagnóstico (carcinoma escamoso mais comum)
+Ressonância magnética (RM)
+                                          Confirma diagnóstico (carcinoma escamoso mais comum)
+        Tomografia (TC)         Melhor exame para avaliar extensão local (paramétrios, órgãos adjacentes)
+              PET-CT
+                                                           Avalia linfonodos e metástases
+           Cistoscopia                                     Pesquisa de doença à distância
+     Retossigmoidoscopia                               Avalia invasão de bexiga (estádio IVA)
+
+          Função renal                                          Avalia invasão de reto
+           Hemograma                               Pode mostrar insuficiência por hidronefrose
+
+                                                           Anemia (sangramento crônico)
+Peça I- colo
+Comente sobre o T do estadiamento TNM e evolução da lesão.
+Peça J- colo
+Comente sobre a resposta terapêutica e complicações relacionadas ao tratamento.
+

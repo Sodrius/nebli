@@ -1,0 +1,54 @@
+# MAPA_CONTEUDO -- embrio-01-gametogenese-fertilizacao
+# Slide-fonte: Final gametogênese e fertilização Med TB 2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: 08/07/26 1 Gametogênese e fertilização Profa Marilene Lopes ICB-USP marilenehl@usp.br 1 De onde vêm os gametas? 2
+slide-02: 08/07/26 2 PGC primordial germ cells De onde vêm os gametas? crista genital embrião humano 4ª semana http://www.embriologiahumana.com.br/ (células germinativas primordiais) 3 PGC primordial germ cells embrião humano 7ª semana crista genital XX → ovár...
+slide-03: 08/07/26 3 MEIOSE I MEIOSE II Prófase I Leptóteno Zigóteno Paquíteno Diplóteno Diacinese A meiose é diferente entre a mulher e o homem Diplóteno 5 PGC PGC Nascimento – 7 milhões de folículos primordiais Do nascimento à puberdade a maioria degenera Na...
+slide-04: 08/07/26 4 diferenciação http://www.embriologiahumana.com.br/ 7 12ª-20ª semana do embrião feminino – entrada em S (replicação do DNA) 8
+slide-05: 08/07/26 5 9 10
+slide-06: 08/07/26 6 11 12
+slide-07: 08/07/26 7 A divisão celular é interrompida na prófase da meiose I. A células permanecerá nessa condição até a puberdade 13 A menina nasce com cerca de 7 milhões de folículos primordiais 14
+slide-08: 08/07/26 8 A partir da puberdade, mensalmente um folículo primordial (quiescente desde o período pré-natal) é ativado Folículo maduro tem 2,5 cm 15 Ovócitos I retomam a meiose – o primeiro evento é a condensação dos cromossomos 16
+slide-09: 08/07/26 9 17 18
+slide-10: 08/07/26 10 19 21
+slide-11: 08/07/26 11 22 ovócito Zona pelúcida Espaço perivitelino Corona radiata grânulos corticais http://www.embriologiahumana.com.br/ o ovócito II avança para a meiose II e PÁRA em metáfase II 23
+slide-12: 08/07/26 12 O ovócito em desenvolvimento •Aumenta de volume •É rodeado de células somáticas (foliculares) secreção da Zona pelúcida pelo ovócito e pelas células foliculares 25 Células Foliculares/Granulosa •São células que auxiliam na maturação do ov...
+slide-13: 08/07/26 13 Lembrem-se que a ovulação libera um ovócito primário cuja Meiose II ainda não terminou! 28 ZP2 ZP3 A Zona Pelúcida é uma barreira física e molecular constituída de uma trama de proteínas extracelulares. Em especial; ZP3 e ZP2 ZP1 29
+slide-14: 08/07/26 14 diferenciação http://www.embriologiahumana.com.br/ 30 31
+slide-15: 08/07/26 15 32 33
+slide-16: 08/07/26 16 34 Os espermatozóides amadurecem no epidídimo 35
+slide-17: 08/07/26 17 No Núcleo: • Remoção de água • Eliminação de RNAs • Alongamento da forma nuclear • Condensação nuclear No Citoplasma: • Fusão do Golgi, formando o Acrossoma • Concentração de mitocôndrias perto do flagelo • Formação do flagelo 36 ovócito ...
+slide-18: 08/07/26 18 Motor Combustível BOMBA DSMAC Tercom Sistema de teleguia Espermatozóide é como um Míssil teleguiado Mitocôndria combustível Flagelo motor Núcleo acrossomo Irene I 38 A cabeça do espermatozóide tem 3 bicamadas lípidas: a membrana plasmátic...
+slide-19: 08/07/26 19 A cabeça do espermatozóide contém receptores para proteínas da Zona Pelúcida v Receptor para proteína ZP3 Receptor para proteína ZP2 Memb. Plasmática Memb. Externa do acrossomo Memb. Interna do acrossomo Conteúdo acrossomal Irene I 40 cap...
+slide-20: 08/07/26 20 Capacitação (7-12h): alterações metabólicas e iônicas membrana http://www.embriologiahumana.com.br/ 42 Capacitação : Maturação molecular do espermatozóide no trato uterino: •Aumento da fluidez de membrana com a remoção de colesterol. •Mod...
+slide-21: 08/07/26 21 Os GRÂNULOS CORTICAIS são uma barreira de vesículas exocíticas que impedem a polispermia http://visualsunlimited.photoshelter.com/image/I0000u8hiJGn2_Pg grânulos corticais 45 http://www.embriologiahumana.com.br/ 46
+slide-22: 08/07/26 22 47 Embrião humano in vitro 48
+slide-23: 08/07/26 23 Embrião humano in vitro 49 Embrião humano in vitro 50
+slide-24: 08/07/26 24 52 Penetração do espermatozóide na corona radiata http://www.embriologiahumana.com.br/ liberação de hialuronidase que atua nas junções celulares entre as células foliculares 53
+slide-25: 08/07/26 25 Zona pelúcida Penetração do espermatozóide na corona radiata http://www.embriologiahumana.com.br/ (acrossomo ainda está intacto) 54 Primeiro contato com a zona pelúcida http://www.embriologiahumana.com.br/ 55
+slide-26: 08/07/26 26 membrana externa do acrossomo membrana interna do acrossomo membrana citoplasmática do espermatozóide http://www.embriologiahumana.com.br/ 56 http://www.embriologiahumana.com.br/ Aumento de Ca++ ® fusão das membrana citoplasmática do espe...
+slide-27: 08/07/26 27 http://www.embriologiahumana.com.br/ membrana interna do acrossomo acrosina Reação acrossômica! 58 Reação acrossômica e interação de ZP2 com seu receptor http://www.embriologiahumana.com.br/ O conteúdo acrossomal é composto por diversas e...
+slide-28: 08/07/26 28 http://www.embriologiahumana.com.br/ 60 Fusão das membranas dos dois gametas http://www.embriologiahumana.com.br/ Mais de um espermatozóide pode atravessar a ZP, no entanto apenas um deverá estabelecer o contato com as proteínas de reconh...
+slide-29: 08/07/26 29 O PROBLEMA DA POLISPERMIA... •Reação da zona cortical (exocitose de grânulos corticais) •Modificação do ZP3 e ZP2 62 http://www.embriologiahumana.com.br/ • mudança no potencial de membrana • impede a fusão da membrana de outro espermatozó...
+slide-30: 08/07/26 30 Bloqueios à polispermia Alteração da zona pelúcida http://www.embriologiahumana.com.br/ 64 Bloqueios à polispermia http://www.embriologiahumana.com.br/ 65
+slide-31: 08/07/26 31 http://www.embriologiahumana.com.br/ 66 pró-núcleo feminino 2º corpúsculo polar 67
+slide-32: 08/07/26 32 68 Os pró-núcleos passam por alterações que precedem a fusão do material genético 69
+slide-33: 08/07/26 33 http://www.embriologiahumana.com.br/ Lembrem-se: esse é um esquema simplificado. Na espécie humana cada pró-núcleo tem 23 cromossomos (N=23) 70 Começa a fase S da primeira clivagem do embrião 71
+slide-34: 08/07/26 34 72 73
+slide-35: 08/07/26 35 http://www.embriologiahumana.com.br/ 74 75
+slide-36: 08/07/26 36 76 77
+slide-37: 08/07/26 37 78 79
+slide-38: 08/07/26 38 80 Zigoto Pró-núcleos Zona pelúcida 81
+slide-39: 08/07/26 39 http://www.embriologiahumana.com.br/ 82 83
+slide-40: 08/07/26 40 84 72 horas depois da fecundação 85
+slide-41: 08/07/26 41 86 Penetração de fluidos através da ZP 4º-5º dia após a fecundação 87
+slide-42: 08/07/26 42 Formação da Blastocele 88 89
+slide-43: 08/07/26 43 90 NA COMPACTAÇÃO as junções intercelulares são reforçadas, permitindo que ocorra a CAVITAÇÂO 91
+slide-44: 08/07/26 44 eclosão 92 Massa Celular Interna Blastocele (cavidade preenchida de fluido) Trofoectoderme Zona Pelúcida Ao final de várias mitoses, distinguem-se duas populações de células (com O MESMO GENOMA): •Massa Celular Interna •Trofoectoderme Emb...
+slide-45: 08/07/26 45 Massa Celular Interna Blastocele (cavidade preenchida de fluido) Trofoectoderme Zona Pelúcida Ao final de várias mitoses, distinguem-se duas populações de células (com O MESMO GENOMA): •Massa Celular Interna •Trofoectoderme Embrião Propri...
+slide-46: 08/07/26 46 Início da implantação 96 Dúvidas ? Obrigada! 97

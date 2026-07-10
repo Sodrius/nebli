@@ -1,0 +1,168 @@
+tema: "Tecido adiposo"
+slug: "histo-05-tecido-adiposo"
+disciplina: "UC2 — Histologia"
+onde_estudar: "Junqueira & Carneiro, Histologia Básica (cap. 6); Ross & Pawlina, Histologia Texto e Atlas (cap. 9); Lehninger, Princípios de Bioquímica (cap. 17 — lipogênese/lipólise)"
+alvo_paginas_e1: "piso 2, teto 22 — alvo 14-17"
+recorte_slide_tema: "O slide cobre integralmente o tema (58 páginas: definição, histogênese, unilocular, obesidade, multilocular). Recorte 1:1."
+
+# ============================================================
+# Seção A — Prioridades desta corrida (do § Diário de revisões)
+# ============================================================
+prioridades_corrida:
+  - prio: "Eixo prioritário: 'ver na lâmina'. Cada subtópico morfológico (1.1, 2.1, 3.1) recebe critério visual EMBUTIDO + caixa 'Como identificar' com sequência prática de cinco passos."
+  - prio: "biocel-07 (peso alto): cadeia ≥4 setas obrigatoriamente com figura adjacente. Aqui o slide é farto — explorar generosamente."
+  - prio: "Banda dupla 0.80-1.25 paridade Q01-Q30."
+  - prio: "Pergunta âncora / retórica / ingênua BANIDAS como recurso editorial."
+  - prio: "Filtro de admissão Integração: mapa A+B gravado antes (já feito)."
+  - prio: "Tabela auditável de figuras no fechamento (chat, não PDF)."
+
+# ============================================================
+# Seção B — Esqueleto das 3 PARTES
+# ============================================================
+estrutura_e1:
+  parte_1:
+    titulo: "Origem e classificação"
+    subtopicos:
+      - "Definição: forma especializada de tecido conjuntivo"
+      - "Histogênese: do mesênquima ao adipócito maduro"
+      - "Os dois tipos: unilocular e multilocular"
+    figuras_planejadas:
+      - "slide-06 — adipócitos isolados no conjuntivo (55%)"
+      - "slide-07 — histogênese mesenquimal (60%)"
+      - "slide-08 — classificação amarelo vs marrom (70%)"
+  parte_2:
+    titulo: "Tecido adiposo unilocular: armazém e órgão endócrino"
+    subtopicos:
+      - "Morfologia na lâmina: aprender a ler o anel de sinete"
+      - "De onde vem o triacilglicerol armazenado: três origens"
+      - "Lipogênese vs lipólise: o eixo hormonal que decide o destino"
+      - "Funções: reserva, isolamento, proteção, órgão endócrino"
+      - "Distribuição e obesidade: hipertrófica vs hiperplásica"
+    figuras_planejadas:
+      - "slide-13 — anel de sinete em HE (70%)"
+      - "slide-15 — lâmina basal individual (figura-lateral 38%)"
+      - "slide-23 — três origens dos TAGs (78%)"
+      - "slide-25 — eixo lipogênese/lipólise (72%)"
+      - "slide-38 — funções da leptina (65%)"
+  parte_3:
+    titulo: "Tecido adiposo multilocular: o forno biológico"
+    subtopicos:
+      - "Morfologia na lâmina: aprender a ler o multilocular"
+      - "UCP-1: o desacoplamento que vira calor"
+      - "Estímulo simpático: ligar o forno"
+      - "Distribuição etária e relevância clínica"
+    figuras_planejadas:
+      - "slide-46 — adipócito marrom em HE (72%)"
+      - "slide-51 — UCP-1 e termogênese (75%)"
+      - "slide-52 — termografia do morcego (60%)"
+
+# ============================================================
+# Seção B.bis — Registros de abertura por subtópico
+# ============================================================
+registros_abertura:
+  p1_s1: "integração-anterior — retoma tecido conjuntivo da aula passada"
+  p1_s2: "enquadramento — origem mesenquimal comum, programas distintos"
+  p1_s3: "ponto-de-quebra — morfologia segue função (cofre vs forno)"
+  p2_s1: "enquadramento — descrição morfológica direta + roteiro de identificação"
+  p2_s2: "ponto-de-quebra — de onde vem essa gordura toda?"
+  p2_s3: "analogia concreta — interruptor de duas vias hormonais"
+  p2_s4: "integração-posterior — lipídio é só metade do que esse tecido faz"
+  p2_s5: "ponto-de-quebra — obesidade infantil é biologicamente diferente da adulta"
+  p3_s1: "analogia concreta — mesmo carbono, dois destinos"
+  p3_s2: "enquadramento — o segredo está na UCP-1"
+  p3_s3: "integração-anterior — o mesmo simpático que mobiliza glicose no fígado"
+  p3_s4: "ponto-de-quebra — recém-nascido não treme, então como aquece?"
+
+# ============================================================
+# Seção C — Distribuição E2 + termos-nota
+# ============================================================
+profundidade: "PADRÃO"
+distribuicao_e2:
+  consolidacao: 10
+  integracao: 15
+  aplicacao: 5
+
+termos_nota_obrigatorios:
+  - "adipócito — célula altamente diferenciada governada por PPARγ"
+  - "lipoblasto — precursor mesenquimal do adipócito"
+  - "lâmina basal — colágeno IV + laminina ao redor de cada adipócito"
+  - "triacilglicerol — éster glicerol + 3 ácidos graxos; reserva energética"
+  - "leptina — adipocina que sinaliza saciedade ao hipotálamo"
+  - "adiponectina — adipocina sensibilizadora de insulina"
+  - "UCP-1 (termogenina) — canal desacoplador da mitocôndria do marrom"
+  - "termogênese sem tremor — calor por dissipação do gradiente de prótons"
+
+# ============================================================
+# Seção D — Pontos de quebra
+# ============================================================
+pontos_quebra:
+  - quebra: "A gotícula lipídica do adipócito branco NÃO tem membrana"
+    correcao: "Lipídio fica em contato direto com o citosol, estabilizado por capa proteica de perilipina (fosforilável por PKA). Confunde com vesícula envolta por bicamada."
+    origem: "Junqueira/Carneiro + livro-texto biocel"
+  - quebra: "LPL fica no endotélio, não no adipócito"
+    correcao: "Adipócito sintetiza LPL e exporta. Enzima atua no lúmen do capilar ancorada por GPIHBP1. Hidrólise dos TAGs acontece DENTRO da lipoproteína circulante."
+    origem: "Lehninger cap. 17"
+  - quebra: "UCP-1 não bombeia prótons — é canal de retorno"
+    correcao: "Deixa prótons voltarem à matriz sem passar pela ATP-sintase, dissipando gradiente em calor. Ela é o ralo, não a turbina."
+    origem: "Lehninger + Kierszenbaum"
+  - quebra: "Lipólise no branco não é queima"
+    correcao: "Branco hidrolisa e exporta ácidos graxos para músculo/fígado oxidarem. Marrom hidrolisa E oxida na mesma célula."
+    origem: "ponto de quebra clássico"
+  - quebra: "Cor marrom vem dos citocromos mitocondriais, não do lipídio"
+    correcao: "Mitocôndrias abundantes (citocromos a, a3, b, c — grupos heme) + rede capilar densa = aspecto pardo."
+    origem: "Ross/Pawlina cap. 9"
+  - quebra: "Obesidade hipertrófica vs hiperplásica não é só semântica"
+    correcao: "Hipertrófica (adulto): células maiores, número fixo. Hiperplásica (criança): número aumentado pela vida toda. Adultos recuperam peso esvaziando/reenchendo embalagens permanentes."
+    origem: "armadilha clínica clássica"
+  - quebra: "Marrom em adulto não é vestígio"
+    correcao: "PET-FDG 2009 confirmou depósitos ativos em pescoço/supraclavicular. Atividade aumenta com frio crônico. Obesos têm menos UCP-1 funcional."
+    origem: "literatura pós-2009"
+
+# ============================================================
+# Seção E — Exemplares-âncora
+# ============================================================
+exemplares_ancora: |
+  Exemplar 1 (universal — mecanística parágrafo-por-parágrafo): aplicar em 2.3 (eixo hormonal) e 3.2 (UCP-1).
+  Exemplar 7 (analogia construtiva): mesmo carbono, dois destinos — cofre vs lareira (3.1); interruptor de duas vias hormonais (2.3).
+  Exemplar 9 (clinica-box): obesidade recorrente (2.5); marrom como alvo farmacológico (3.4).
+  Exemplar 14 (footnote siglas): TAG, VLDL, LPL, HSL, AMPc, PKA, UCP-1, β3, ATP, BL.
+  Exemplar 15 (figura-lateral): descrição morfológica curta + lâmina basal (2.1).
+  Exemplar 16 (tabela família): comparativo branco vs marrom em 1.3 (caso a da § Bullets).
+
+# ============================================================
+# Gabarito (sem balanceamento — direção declarada)
+# ============================================================
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "D"]
+    - ["03", "B"]
+    - ["04", "A"]
+    - ["05", "C"]
+    - ["06", "C"]
+    - ["07", "B"]
+    - ["08", "C"]
+    - ["09", "B"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "C"]
+    - ["13", "B"]
+    - ["14", "B"]
+    - ["15", "D"]
+    - ["16", "E"]
+    - ["17", "B"]
+    - ["18", "C"]
+    - ["19", "C"]
+    - ["20", "D"]
+    - ["21", "E"]
+    - ["22", "B"]
+    - ["23", "B"]
+    - ["24", "C"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "E"]
+    - ["27", "B"]
+    - ["28", "C"]
+    - ["29", "D"]
+    - ["30", "E"]

@@ -1,0 +1,152 @@
+slug: bioq-21-lipideos-rotas
+titulo: "Metabolismo de Lipídeos"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Bioquímica (UC02)"]
+  - ["Onde estudar", "Slides da Profa. Déborah (IQ-USP) · Lehninger cap. 17 (oxidação de ácidos graxos) + cap. 21 (biossíntese de lipídios) · Stryer cap. 22"]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PROFUNDO (8 Cons · 17 Int · 5 Apl). Tema de fim de P2 (UC02) que
+#   amarra β-oxidação, ciclo de Krebs, cadeia respiratória, gliconeogênese, corpos
+#   cetônicos e regulação recíproca por insulina/glucagon. Cálculo de rendimento é central.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 16-20 — tema largo, mas coeso).
+# Recorte: VALIDADO com Davi (2026-06-25). O slide é uma aula única "Metabolismo de
+#   lipídeos" cobrindo rotas (bioq-21) + regulação (bioq-22). Davi pediu UM resumo só,
+#   completo, ancorado em bioq-21-lipideos-rotas. A regulação recíproca entra como PARTE III.
+#
+# Prioridades desta corrida (foco do Davi = "saber aplicar" + aplicar os ajustes de 2026-06-24):
+#   P1. CÁLCULO DE ATP em ETAPAS ROTULADAS (item 1/18, modelo Mankiw, anti-padrão A1). É o
+#       coração do "saber aplicar": o aluno tem de reproduzir o saldo do palmitato sozinho.
+#   P2. Valores P/O do PROFESSOR (NADH=3, FADH2=2, 131 bruto / 129 líquido) como primários;
+#       box registrando a convenção moderna (2,5/1,5 → ~106) — calibrar pela autoridade do slide.
+#   P3. Abrir cada conceito pelo PROBLEMA/mecanismo, nome técnico depois (anti-padrões A2/A3).
+#   P4. Resumindo enxuto: 6-10 seções, ~30-45 palavras de frase encadeada (item 36).
+#   P5. Nomes de subtópico diretos, não-poéticos (item 35).
+#   P6. Quebrar a prosa SÓ na contabilidade de ATP (tabela = gatilho 3 da Categoria 18) e na
+#       comparação β-ox × síntese (gatilho 3); resto é prosa de monitor.
+#   P7. E2: ~10 C/E nas 3 categorias + 3 "assinale a incorreta" + 3 questões de cálculo;
+#       gabarito sorteado de verdade + guarda anti-degeneração; paridade banda dupla Q01-Q30.
+#   P8. Diário (biocel-07): tema com cadeia espacial (carnitina, β-ox 4 passos, lançadeira do
+#       citrato, FAS) → figura obrigatória. Slide é rico — usar slides do professor.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Da gordura estocada ao acetil-CoA: a β-oxidação"
+        subtopicos:
+          - "1.1 Por que o corpo guarda energia como gordura, e não como açúcar"
+          - "1.2 Mobilização: como o adipócito libera o ácido graxo no sangue"
+          - "1.3 A entrada na mitocôndria: ativação e a lançadeira da carnitina"
+          - "1.4 A β-oxidação: cortar o ácido graxo de dois em dois carbonos"
+      - titulo: "PARTE II — A conta da energia e o destino do acetil-CoA"
+        subtopicos:
+          - "2.1 Quanto ATP rende oxidar um palmitato (16 carbonos)"
+          - "2.2 Por que a gordura rende muito mais que a glicose"
+          - "2.3 Quando o acetil-CoA não cabe no Krebs: os corpos cetônicos"
+      - titulo: "PARTE III — Construir em vez de queimar: síntese e regulação"
+        subtopicos:
+          - "3.1 Onde e quando o corpo fabrica ácido graxo"
+          - "3.2 A lançadeira do citrato e o passo comprometido (malonil-CoA)"
+          - "3.3 A sintase de ácidos graxos e a montagem do palmitato"
+          - "3.4 A regulação recíproca: insulina liga uma via e desliga a outra"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 ponto-de-quebra (açúcar com água pesaria 10x) | 1.2 enquadramento |
+# 1.3 ponto-de-quebra (o AG não atravessa a membrana sozinho) |
+# 1.4 integração-anterior (retoma o acil-CoA já dentro) |
+# 2.1 enquadramento (agora a conta) | 2.2 integração-anterior (compara com glicólise) |
+# 2.3 ponto-de-quebra (e quando o Krebs entope?) |
+# 3.1 integração-posterior (prepara a regulação) | 3.2 enquadramento |
+# 3.3 analogia concreta (linha de montagem) | 3.4 integração-anterior (fecha o par)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# acetil-CoA: "a unidade de 2 carbonos que entra no ciclo de Krebs — moeda comum de
+#   carboidrato, gordura e proteína"
+# ciclo de Krebs: "as 8 reações na matriz mitocondrial que arrancam elétrons do
+#   acetil-CoA, gerando NADH e FADH2"
+# cadeia respiratória / fosforilação oxidativa: "onde NADH e FADH2 entregam seus
+#   elétrons e o fluxo bombeia prótons que a ATP-sintase usa para fazer ATP"
+# AMPc / PKA: "o segundo mensageiro que o glucagon e a adrenalina disparam para
+#   fosforilar enzimas e mudar o metabolismo"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# triacilglicerol · lipase hormônio-sensível · carnitina · acil-CoA ·
+# β-oxidação (ciclo de Lynen) · corpos cetônicos · malonil-CoA · acetil-CoA carboxilase ·
+# sintase de ácidos graxos (FAS) · cetoacidose
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo, NUNCA voz de prova)
+# ---------------------------------------------------------------------------
+# - Quebra: tratar "comer pouco carboidrato" como causa única da cetose.
+#   Correção: a cetose nasce do excesso de acetil-CoA da β-oxidação somado à falta de
+#   oxaloacetato (desviado para a gliconeogênese); dieta rica em gordura + pobre em
+#   carboidrato é o contexto clássico. (origem interna: q-0264)
+# - Quebra: inverter a ordem das reações da síntese em relação à β-oxidação.
+#   Correção: síntese = condensação → redução (NADPH) → desidratação → redução (NADPH);
+#   β-oxidação = oxidação (FAD) → hidratação → oxidação (NAD+) → tiólise. São espelhadas
+#   na lógica, não idênticas no sentido nem nas coenzimas. (origem interna: q-0265)
+# - Quebra: achar que ácido graxo de cadeia par vira glicose.
+#   Correção: o acetil-CoA não gera oxaloacetato líquido (piruvato-desidrogenase é
+#   irreversível, sem ciclo do glioxilato em mamíferos) — não há síntese líquida de
+#   glicose a partir de AG par. Só o glicerol e o propionil-CoA (cadeia ímpar) entram. (origem interna: q-0156)
+# - Quebra: somar o ATP da ativação como se fosse 1 ATP.
+#   Correção: a ativação consome ATP→AMP + PPi, e o PPi é hidrolisado a 2 Pi — gasto
+#   energético equivalente a 2 ligações de alta energia (2 ATP). Por isso 131 bruto − 2 = 129. (origem interna: slide 22)
+# - Quebra: achar que a β-oxidação roda sem oxigênio porque "não usa O2 diretamente".
+#   Correção: cada volta gera FADH2 e NADH que precisam ser reoxidados na cadeia
+#   respiratória; sem O2 final, FAD/NAD+ não se regeneram e o ciclo trava. (origem interna: slide 72)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo) + Cat 8/14 (universais) + olhar na Cat 17 (cadência).
+# Cat 12 + Cat 18 "cálculo em etapas" → saldo de ATP do palmitato (P1) — exemplar-mãe deste resumo.
+# Cat 18 gatilho 3 (tabela de cruzamento) → tabela do rendimento (β-ox + Krebs + FosfOx) e
+#   tabela β-oxidação × síntese (espelho). Resto da E1 é prosa.
+# Cat 4 (magnitudes ancoradas) → 15 kg de gordura = 100+ kg de glicogênio hidratado (abertura 1.1).
+# Cat 7 (analogia) → carnitina = "balsa", FAS = "linha de montagem" (com cautela, sem forçar).
+# Cat 9 (clinica-box) → cetoacidose diabética; jejum prolongado.
+# ANTI-EXEMPLARES A1 (matemática feia), A2/A3 (camada sem o porquê), A4 (rajada de siglas) → vigiar.
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "CCEE"]
+    - ["03", "D"]
+    - ["04", "A"]
+    - ["05", "ECCE"]
+    - ["06", "C"]
+    - ["07", "CEEC"]
+    - ["08", "D"]
+  integracao:
+    - ["09", "A"]
+    - ["10", "E"]
+    - ["11", "EECC"]
+    - ["12", "C"]
+    - ["13", "E"]
+    - ["14", "CECC"]
+    - ["15", "B"]
+    - ["16", "A"]
+    - ["17", "ECEC"]
+    - ["18", "D"]
+    - ["19", "C"]
+    - ["20", "E"]
+    - ["21", "CCEC"]
+    - ["22", "A"]
+    - ["23", "E"]
+    - ["24", "EECE"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "CEEC"]
+    - ["28", "E"]
+    - ["29", "A"]
+    - ["30", "ECCE"]

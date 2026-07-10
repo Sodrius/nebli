@@ -1,0 +1,113 @@
+# Camada 2 pre-filtrada — anato-06-circulatorio-linfatico-II
+# 103 cards no pool: 65 provaveis-bons, 38 ruido-provavel (blocklist de patologia).
+# LER A FUNDO os provaveis-bons; PASSAR O OLHO no ruido e resgatar falso-positivo.
+# keep = anote o guid + id de conceito da checklist. Precisao > recall.
+
+## PROVAVEIS-BONS (65) — ler a fundo, keep/drop card-a-card
+
+- [1] `CW?@~i6rK@` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Oxygenated blood flows from the lungs to the [ left atrium ] of the heart via the [ pulmonary veins ]
+- [2] `i`.@F/B?}` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Blood flows from the left ventricle to the [aorta] through the [aortic] valve
+- [3] `B]8y^<yC6w` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Deoxygenated blood flows from the vena cava to the [right atrium]
+- [4] `hyElk]4U%K` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Blood flows from the right atrium to the right ventricle through the [ tricuspid] valve
+- [5] `wdT:86R6bs` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Blood flows from the pulmonary artery to the [ lungs ] for oxygenation
+- [6] `f5xztK@f!a` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — The [AV] node is located in the posteroinferior part of the interatrial septum
+- [7] `o2hf0t9Rm;` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — The [SA] node is located in the wall of the right atrium near the orifice of the superior vena cava
+- [8] `H0&R-q2/b(` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Which baroreceptors are responsive to only increases in arterial pressure? [Aortic arch receptors]
+- [9] `Q#%w)5{_b$` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — [ Peripheral ] chemoreceptors are located in the [ carotid bodies ] and [ aortic bodies ]
+- [10] `D]||Q7u#bi` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — [ Pulmonary capillary wedge pressure (PCWP)] is a good approximation of [left atrial] pressure
+- [11] `s:cV(F3W46` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — What is used to measure pulmonary capillary wedge pressure (PCWP)? [Pulmonary artery catheter (Swan-Ganz catheter)]
+- [12] `M5|m8!UNoO` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — [ Coarctation of the aorta ] is the narrowing of the aorta near the insertion of the ductus arteriosus
+- [13] `w`m*hr$<KG` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — In the infantile form , coarctation of the aorta lies [ after ] the aortic arch , and [ before ] the patent ductus arteriosus (PDA)
+- [14] `o8F=(Z+-(f` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — In the adult form , coarctation of the aorta lies [ after ] the aortic arch , and [ after ] the insertion of the ductus arteriosus
+- [15] `G{^oaFc%%<` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — [ Transesophageal ] echocardiogram (higher sensitivity) may be used to detect lesions on heart valves , which aids in the diagnosis of infective endocarditis
+- [16] `r6hr[I-/LC` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Atrial fibrillation can lead to thromboembolic events , particularly [stroke]
+- [17] `Og)Ue2yqsh` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — The remnant of the ductus arteriosus is the [ ligamentum arteriosum ], which connects the aorta and pulmonary artery
+- [18] `If~vFb2,)G` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — The SA node is commonly supplied by the [ right coronary ] artery The AV node is commonly supplied by the [ dominant (right) coronary ] artery
+- [19] `p$1tgwyoBK` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — The posterior descending artery (PDA) most commonly arises from the [right coronary] artery (85%)
+- [20] `C$75>F$*Y?` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — When the [ posterior descending artery (PDA)] arises from the [ right coronary ] artery , it is referred to as right-dominant circulation (85%)
+- [21] `ndcEbT{Sf!` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — When the [ posterior descending artery (PDA)] arises from the [ left circumflex ] artery , it is referred to as left-dominant circulation (8%)
+- [22] `fQ=qAjim]` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — When the [ posterior descending artery (PDA)] arises from both the right coronary artery and left circumflex artery , it is referred to as [ codominant ] circulation (7%)
+- [23] `iF#qvmN);<` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Coronary artery occlusion most commonly occurs in the [left anterior descending] artery
+- [24] `MQZ#E]57NI` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Coronary blood flow peaks in early [diastole]
+- [25] `gU!k63GIB$` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — The most posterior part of the heart is the [left atrium]
+- [26] `IoHtSQ2$`g` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — Enlargement of the heart can cause [dysphagia] due to compression of the esophagus
+- [27] `cm3mrbPcCP` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — Enlargement of the heart can cause [hoarseness] due to compression of the left recurrent laryngeal nerve
+- [28] `k+O@3S]NIR` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Pericardium) — The outermost layer of the pericardium is the [fibrous pericardium]
+- [29] `G(3$KH3$2O` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Pericardium) — The middle layer of the pericardium is the [parietal layer of serous pericardium]
+- [30] `xTsgN$iRrY` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Pericardium) — The inner layer of the pericardium is the [visceral layer of serous pericardium (epicardium)]
+- [31] `ObzNjmTk8N` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Pericardium) — The [ pericardial cavity ] lies between parietal and visceral layers of serous pericardium
+- [32] `Cm&mPmTG+9` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Which artery supplies the posterior third of the interventricular septum ? [Posterior descending artery (PDA)]
+- [33] `dpj9i=m#lN` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Which artery supplies the anterior two-thirds of the interventricular septum ? [Left anterior descending artery (LAD)]
+- [34] `PF`/n$YU2` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Which arteries supply the anterolateral papillary muscle ? [LCX, LAD]
+- [35] `bX]{0l{.c)` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — A(n) [ lymphatic ] pleural effusion is also known as [ chylothorax ]
+- [36] `F=Et%z^UB!` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Lymphatic pleural effusion is characterized by a(n) [ milky ]- appearing fluid with increased [ triglycerides ]
+- [37] `M;d28rDP%J` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — The [ aorta ], [ thoracic duct ], and [ azygos vein ] perforate the diaphragm at the level of [ T12 ]
+- [38] `h;w1<g#5J}` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — The common carotid artery bifurcates at the level of [C4]
+- [39] `dncq^06F~Z` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Which cranial nerve monitors the aortic body and arch chemo- and baroreceptors ? [Vagus nerve (CN X)]
+- [40] `dOiiYjPJk^` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Esophageal varices arise secondary to [ portal hypertension ]
+- [41] `yv)cP+$:oU` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Portal [hypertension] may lead to [ portosystemic ] shunts , which can result in esophageal varices, gastric varices, anorectal varices, and caput medusae
+- [42] `w`%]jE{lz:` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the celiac artery branch off the aorta? [T12/L1]
+- [43] `n6@xE3=uUJ` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the superior mesenteric artery branch off the aorta? [L1]
+- [44] `hmgOmK!Y)s` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the inferior mesenteric artery branch off the aorta? [L3]
+- [45] `d<:wxJXf7_` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — Which artery supplies the regions of the foregut ? [Celiac trunk]
+- [46] `N3],4C]h${` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — Which artery supplies the regions of the midgut ? [Superior mesenteric artery]
+- [47] `Cj<[cg4;$/` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — Which artery supplies the regions of the hindgut ? [Inferior mesenteric artery]
+- [48] `K!_X6;A9,^` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the renal artery branch off the aorta? [L1/L2]
+- [49] `M${9@E|T3Y` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the gonadal artery branch off the aorta? [L1/L2]
+- [50] `Ntunw|4#Bv` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — What vertebral level does the aorta bifurcate into the left and right common iliac arteries ? [L4]
+- [51] `6v2gbKqaa` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — The [ right lymphatic ] duct drains lymph from the right side of the body above the diaphragm
+- [52] `uH~mgOWkKw` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — The [ thoracic ] duct drains most lymph into the junction of the [ left subclavian ] and [ left internal jugular veins ]
+- [53] `He9$WQ6V`*` (02_Thorax::02_Heart::02_Coronary_Circulation) — What artery is likely obstructed given the ECG below ? [Right coronary artery] [img]
+- [54] `rI<;Y:6f{Q` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — What is the likely diagnosis in a patient with a recent URI who presents with JVD , hypotension , non-palpable PMI , and clear lungs (CXR below)? [Pericardial effusion] [img]
+- [55] `hN537Q%):i` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Patients with large pericardial effusion have an enlarged "[water bottle]" shaped heart on chest x-ray
+- [56] `izTomY2K*[` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — On a CT of the thorax , the [trachea] is a good landmark to localize the esophagus (located posteriorly) and the great vessels (located anteriorly)
+- [57] `wRibbnjbnc` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Approximately 90% of left atrial thrombi are found within the [ left atrial appendage ] in patients with nonvalvular atrial fibrillation
+- [58] `wR~5D+56zj` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — On a PA chest x-ray of the thorax, the [right atrium] composes most of the right side of the cardiac silhouette
+- [59] `sUM:IR-Rlg` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — The inferior phrenic artery branches off the [aorta] at [T12]
+- [60] `u@k[i30p!J` (04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches) — Superior suprarenal artery branches off the [ inferior phrenic artery ] Middle suprarenal artery branches off the [ aorta ] Inferior suprarenal artery branches off the [ renal artery ]
+- [61] `p;p[:de{Kq` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy) — The [right ventricle] composes the majority of the anterior surface of the heart
+- [62] `swGd2i1*3%` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — In a blunt cardiac injury , the [right ventricle] is the most common structure to be injured, while the [aortic valve] is the most common valve to be injured
+- [63] `Lpd%VItn!E` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Most of the venous drainage from the myocardium traverses the [ coronary sinus (CS) ], which delivers deoxygenated blood to the right atrium
+- [64] `iU^J%EbKEo` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Any factor that causes increased [right atrial] pressure will cause coronary sinus dilation
+- [65] `s*]h8uhaQ.` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Chylothorax is differentiated from other causes of exudative pleural effusion by its milky-white color and elevated [ triglyceride ] levels
+
+## RUIDO-PROVAVEL (38) — passar o olho, resgatar bom cortado
+
+- `M1eYZaL?S=` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — [ Aortic dissection ] is a longitudinal intimal tear with transmission of blood through th…  ⟨corte: dissection⟩
+- `iFVW9^hs*c` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Aortic dissection usually occurs in the proximal [10] cm of the aorta (high stress region)  ⟨corte: dissection⟩
+- `fBSyE]O,-r` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Stanford type [A (proximal)] aortic dissection involves the ascending aorta and/or the aor…  ⟨corte: dissection⟩
+- `ywmO@|(HDa` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Stanford type [B ( distal ) ] aortic dissection involves only the descending aorta  ⟨corte: dissection⟩
+- `crJzF&zIu3` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Traumatic aortic rupture (due to trauma and/or deceleration injury) most commonly occurs a…  ⟨corte: rupture⟩
+- `ko`A*HxnK4` (02_Thorax::02_Heart::02_Coronary_Circulation) — Myocardial infarction most commonly involves the [left anterior descending (LAD)] artery (…  ⟨corte: infarct⟩
+- `y1Y4_tBK+z` (02_Thorax::02_Heart::02_Coronary_Circulation) — The second most common artery involved in a myocardial infarction is the [right coronary a…  ⟨corte: infarct⟩
+- `Cjq8WDle7h` (02_Thorax::02_Heart::02_Coronary_Circulation) — The third most common artery involved in a myocardial infarction is the [left circumflex a…  ⟨corte: infarct⟩
+- `zdTf#!G,+` (02_Thorax::02_Heart::02_Coronary_Circulation) — One complication that may occur [ 2 ] - [ 7 ] days post-MI is [ papillary muscle rupture ]…  ⟨corte: rupture⟩
+- `4F.:ded]W` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which artery is associated with anteroseptal myocardial infarction? [Left anterior descend…  ⟨corte: infarct⟩
+- `N~5Pd0&Td9` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which artery is associated with anteroapical myocardial infarction? [ Distal left anterior…  ⟨corte: infarct⟩
+- `d{7q.[*{R.` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which arteries may be associated with anterolateral myocardial infarction? [LAD or LCX]  ⟨corte: infarct⟩
+- `tL-T*i~_h|` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which artery is associated with lateral myocardial infarction? [Left circumflex artery (LC…  ⟨corte: infarct⟩
+- `rhi-l^tFk6` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which artery is typically associated with inferior myocardial infarction? [Right coronary…  ⟨corte: infarct⟩
+- `zV>]^q2zT4` (02_Thorax::02_Heart::02_Coronary_Circulation) — Which artery is associated with posterior myocardial infarction? [Posterior descending art…  ⟨corte: infarct⟩
+- `h.c0GFtilv` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — [ Mitral valve prolapse ] is the ballooning of the mitral valve into the left atrium durin…  ⟨corte: prolapse⟩
+- `P7DGUZa>#C` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Mitral stenosis is most commonly due to [chronic rheumatic heart] disease  ⟨corte: stenosis⟩
+- `MXz!&Y;ZgM` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Chronic mitral stenosis may result in left [atrial] dilatation due to volume overload  ⟨corte: stenosis⟩
+- `vj;u#Ja5P%` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — One possible complication of mitral stenosis is [atrial fibrillation] with associated risk…  ⟨corte: stenosis⟩
+- `d,=@#K!}&f` (02_Thorax::02_Heart::02_Coronary_Circulation) — There is an increased risk for [ posteromedial ] papillary muscle rupture (post-MI) due to…  ⟨corte: rupture⟩
+- `qri4s:4d,,` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — One complication associated with lung cancer is [hoarseness] due to compression of the rec…  ⟨corte: cancer⟩
+- `l3sRDHmB)`` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — One complication associated with lung cancer is [superior vena cava] syndrome due to compr…  ⟨corte: cancer⟩
+- `d[Q`kt[7,J` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Superior vena cava (SVC) syndrome is characterized by impaired drainage of the upper extre…  ⟨corte: syndrome⟩
+- `lQ$.>(5%Bv` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Superior vena cava (SVC) syndrome is characterized by impaired drainage of the head & neck…  ⟨corte: syndrome⟩
+- `G>0m=;Q,#J` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — SVC syndrome can be caused by [ thromboemboli ] from indwelling central venous catheters  ⟨corte: syndrome⟩
+- `yJ;eMtv|ca` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — SVC syndrome can raise [intracranial] pressure (if obstruction is severe), leading to head…  ⟨corte: syndrome⟩
+- `dPs/$>6Of` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — [ Lymphatic ] pleural effusion occurs due to [ thoracic duct ] injury from trauma or malig…  ⟨corte: malignan⟩
+- `ANKSJ`_i-k` (07_Cardiovascular::02_Anatomy::01_Heart_anatomy::*Coronary_Blood_Supply) — Which layer of the heart wall is most vulnerable to hypoxia/ischemia ? [Subendocardium (LV…  ⟨corte: ischemia⟩
+- `f{+o]J@7y3` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — One possible complication of mitral stenosis is [ dysphagia ] and [ hoarseness ] due to le…  ⟨corte: stenosis⟩
+- `qKYGl.e!#@` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Subclavian steal syndrome typically occurs due to hemodynamically significant stenosis of…  ⟨corte: syndrome⟩
+- `JJ(_>g%OT{` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — Obstruction of the [ brachiocephalic vein ] causes symptoms similar to those seen in SVC s…  ⟨corte: syndrome⟩
+- `Pg[9V;>x;!` (02_Thorax::03_Vasculature::02_Superior_Vena_Cava) — [Superior vena cava (SVC) syndrome] is a possible mass effect complication of lung cancers…  ⟨corte: syndrome⟩
+- `u&*WZS6zhD` (02_Thorax::02_Heart::02_Coronary_Circulation) — An infarction of the [RCA] may result in: [img]  ⟨corte: infarct⟩
+- `gg4F!bzjx^` (02_Thorax::02_Heart::02_Coronary_Circulation) — An infarction of which coronary artery may lead to the ECG results below? [Left circumflex…  ⟨corte: infarct⟩
+- `b1|3}I;*i<` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Aortic dissection can propagate proximally to the aortic root resulting in [ aortic regurg…  ⟨corte: dissection⟩
+- `q@GyM7(<o1` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Coarctation of the aorta may cause upper extremity hypertension and aortic [ dissection ]  ⟨corte: dissection⟩
+- `AUh.vwD9m[` (02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation) — Large [ thoracic aortic ] aneurysms may present with dysphagia and hoarseness  ⟨corte: aneurysm⟩
+- `C;-Cx!!Pf_` (02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches) — Occlusion of the carotid arteries by an expanding [ thoracic aortic ] dissection may cause…  ⟨corte: dissection⟩

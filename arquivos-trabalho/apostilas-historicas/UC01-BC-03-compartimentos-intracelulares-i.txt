@@ -1,0 +1,1465 @@
+NEBLI · APOSTILA
+
+Compartimentos
+intracelulares I
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Primeira leitura pós-aula; releia antes da P1.
+Onde estudar:  Alberts 6ª ed, Cap. 12 (seções 12.1­12.3 + abertura de 12.5)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que ter compartimentos?
+       1.1 A pergunta evolutiva
+       1.2 As três vias de transporte intracelular
+       1.3 Sequências-sinal: o princípio de Blobel
+  PARTE II -- O núcleo
+       2.1 Envelope nuclear
+       2.2 Poros nucleares
+       2.3 Cromatina e estruturas sub-nucleares
+  PARTE III -- Mitocôndrias e peroxissomos
+       3.1 Mitocôndria: dupla membrana e gradiente
+       3.2 Mitocôndrias são organelas dinâmicas
+       3.3 Importação mitocondrial: TOM, TIM e o motor pós-traducional
+       3.4 Peroxissomos: membrana única, função vital
+
+RESUMINDO
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (Q01­Q10) · verde
+       Integração (Q11­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de qualquer coisa, é preciso desfazer uma confusão fundamental. Quando ouvimos "com
+    partimento intracelular", quase todo mundo imagina uma sala fechada dentro da célula -- um
+    quarto onde a célula guarda alguma coisa. Isso é parcialmente verdade, mas só parcialmente, e
+    aceitar essa imagem como definição esconde o que realmente importa.
+    Um compartimento intracelular é, antes de qualquer outra coisa, um ambiente químico distinto.
+    O pH é diferente, a concentração de cálcio é diferente, as enzimas são diferentes, e o conjunto de
+    reações que pode acontecer ali não acontece em nenhum outro lugar da célula. Mantermos essa
+    diferença química é o que justifica a existência do compartimento -- e isso só é possível porque
+    uma membrana lipídica separa duas concentrações que, sem ela, se misturariam por difusão em
+    segundos.
+    Toda a aula deriva dessa ideia. Por que a célula eucarionte gastou bilhões de anos construindo
+    um sistema endomembranar? Porque sem ele, as 10 mil reações químicas que acontecem ao
+    mesmo tempo em uma célula viva interfeririam umas nas outras de forma catastrófica. Como
+    cada organela importa as proteínas certas e exclui as erradas? Por meio de sequências-sinal --
+    pequenos trechos de aminoácidos que funcionam como CEP postal. E o que acontece quando esse
+    sistema falha? Doenças graves, das quais a síndrome de Zellweger é o caso paradigmático.
+    Esta aula é a primeira de três sobre compartimentos. Vamos cobrir aqui o princípio geral (por
+    que compartimentar, como as proteínas chegam aos seus destinos) e três organelas -- núcleo,
+    mitocôndria, peroxissomo. As duas aulas seguintes (II e III) vão cobrir retículo endoplasmático,
+    Golgi e tráfego vesicular.
+
+PARTE I -- Por que ter compartimentos?
+
+1.1 -- A pergunta evolutiva
+
+Comecemos pela pergunta mais básica: por que uma célula precisaria de compartimentos? Bactérias e
+arqueias (procariontes) não têm -- todas as reações químicas delas acontecem no mesmo citoplasma,
+sem subdivisões internas. Elas funcionam, vivem, se reproduzem. Então por que a célula eucarionte se
+deu ao trabalho?
+
+   A resposta tem três camadas, e a primeira é puramente química. Reações químicas têm pH ótimo,
+concentração ótima de cofatores e enzimas específicas. Se a célula precisa, por exemplo, degradar uma
+proteína gasta em aminoácidos livres (lisossomo, pH 4,5) e ao mesmo tempo sintetizar uma proteína
+nova (citosol, pH 7,2), ela tem dois problemas simultâneos: o pH ácido necessário para a hidrólise
+destruiria as enzimas de síntese, e o pH neutro do citosol inativaria as hidrolases. Sem compartimento
+separado, escolha uma das duas -- nenhuma célula sobrevive sem fazer as duas.
+
+   Resumindo até aqui: Compartimento existe para manter condições químicas incompatíveis funcio
+   nando ao mesmo tempo. Sem membrana, sem gradiente. Sem gradiente, sem especialização química.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A segunda camada é a regulação. Uma vez que diferentes processos ficam em diferentes compartimen
+tos, a célula pode ligar e desligar cada um separadamente, controlando o que entra e sai de cada um.
+O núcleo, por exemplo, isola o DNA do citoplasma e cria uma chance de revisar o RNA mensageiro
+antes que ele seja traduzido -- o que é impossível em bactérias, onde a tradução começa antes mesmo
+de a transcrição terminar (o ribossomo "monta" no mRNA enquanto a RNA-polimerase ainda está
+produzindo o transcrito).
+
+   A terceira é proteção. O DNA eucarionte é gigantesco (cerca de mil vezes maior que o de uma bactéria
+típica) e altamente regulado. Mantê-lo isolado no núcleo, longe das proteínas citoplasmáticas que
+poderiam danificá-lo (nucleases, espécies reativas de oxigênio, ribossomos em tradução), foi um ganho
+evolutivo decisivo.
+
+ Repare como o núcleo aparece envolto por duas membranas -- não foi por acaso. A hipótese mais aceita é que
+ ele se formou por invaginação da membrana plasmática: uma dobra para dentro acabou se fechando em volta
+ do nucleoide bacteriano ancestral, e as duas membranas (interna + externa) refletem essa origem geométrica. A
+ mitocôndria, à direita, também tem duas membranas, mas por outro motivo: ela veio de endossimbiose -- uma
+ bactéria aeróbia foi engolida sem ser digerida, e a membrana externa da mitocôndria é, na verdade, a membrana
+ do fagossomo da célula hospedeira.
+
+Aqui está uma confusão que vale desfazer logo: duas membranas não significam "organela mais
+importante". A dupla membrana do núcleo veio de invaginação; a da mitocôndria, de endossimbiose.
+São rotas evolutivas diferentes que produziram um resultado topológico semelhante. O peroxissomo,
+que veremos no fim da aula, tem membrana única -- e nem por isso é menos essencial.
+
+   DNA1 RNA2 mRNA3 rRNA4
+
+   1DNA ­ ácido desoxirribonucleico -- molécula que carrega a informação genética
+   2RNA ­ ácido ribonucleico -- molécula intermediária na expressão da informação genética
+   3mRNA ­ RNA mensageiro -- RNA que é traduzido em proteína
+   4rRNA ­ RNA ribossomal -- componente estrutural e catalítico do ribossomo
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O ponto central da compartimentalização em uma figura: membranas criam regiões com concentrações diferentes.
+O verde fora não se mistura com o amarelo dentro -- e isso só funciona porque a bicamada lipídica é impermeável
+à maioria das moléculas hidrossolúveis.
+
+1.2 -- As três vias de transporte intracelular
+
+Construir compartimentos isolados resolve um problema mas cria outro: como as proteínas chegam ao
+destino correto? Pense no tamanho da empreitada. A célula sintetiza todas as suas proteínas no citosol,
+no ribossomo. Mas a maioria dessas proteínas precisa terminar em algum lugar que não é o citosol --
+no núcleo, na mitocôndria, no peroxissomo, no retículo endoplasmático. Como cada proteína sabe para
+onde ir?
+
+   A célula resolve isso com três grandes vias de transporte intracelular, cada uma adaptada à topologia
+da organela-destino:
+
+   A primeira é o transporte por barreira seletiva, usada exclusivamente para entrada e saída do núcleo.
+O envelope nuclear não é uma membrana qualquer -- ele tem aberturas grandes, os poros nucleares,
+que conectam diretamente o nucleoplasma ao citosol. Uma proteína atravessa o poro como passa por
+uma porta com porteiro: precisa apresentar a "credencial" certa e ser deixada entrar.
+
+   A segunda é o transporte transmembrana, usado para entrar nas organelas que não fazem parte do
+sistema endomembranar -- mitocôndria, peroxissomo, cloroplasto (em plantas) e o próprio RE. Aqui
+a proteína precisa atravessar fisicamente a bicamada lipídica, o que é difícil para uma proteína já
+enovelada (ela é grande, polar, com cara externa hidrofílica). A solução é manter a proteína parcialmente
+desenovelada enquanto ela passa por um translocon -- um canal proteico transmembrana feito sob
+medida para isso.
+
+   A terceira é o transporte vesicular, usado entre RE, Golgi, lisossomos, endossomos e membrana
+plasmática. Aqui a proteína nunca sai do lúmen -- ela é encapsulada em vesículas que brotam de um
+compartimento e se fundem com outro. A proteína entra no lúmen do RE só uma vez (durante a tradução
+co-traducional) e, dali em diante, viaja sempre dentro de membranas. Esta via é o tema dos resumos II
+e III; nesta aula, ela só será citada.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+As três vias canônicas. Repare como cada uma corresponde a uma situação topológica diferente: barreira seletiva
+quando o destino mantém continuidade citoplasmática (núcleo); transmembrana quando o destino é uma organela
+com membrana fechada e proteínas precisam atravessar a bicamada (mitocôndria, peroxissomo); vesicular quando
+o destino faz parte do sistema endomembranar e a proteína nunca "sai" do lúmen.
+
+   Resumindo até aqui: Cada compartimento usa uma via fixa. Núcleo = poro (barreira seletiva). Mitocôn
+   dria e peroxissomo = transmembrana (translocon). RE, Golgi, lisossomo, vesículas secretoras = vesicular.
+   Confundir as vias é um erro caro de prova.
+
+1.3 -- Sequências-sinal: o princípio de Blobel
+
+Nos anos 1970, Günter Blobel (Nobel de 1999) formulou o princípio que organiza tudo o que acabamos
+de ver: "proteínas têm sinais intrínsecos que governam sua localização subcelular". A frase parece
+simples, mas mudou a biologia celular. Em vez de imaginar que as proteínas "achavam" suas organelas
+por sorte ou afinidade vaga, Blobel propôs que cada proteína carrega, codificada na sua própria
+sequência de aminoácidos, a informação de onde precisa ir.
+
+   E aqui está uma armadilha clássica de prova: sequência-sinal é feita de aminoácidos, não de
+nucleotídeos. A informação está dentro da proteína, não no mRNA. O mRNA codifica a sequência-sinal
+como codifica qualquer outro trecho da proteína; a "leitura" do sinal só acontece depois que a proteína
+(ou pelo menos sua porção N-terminal) já está sintetizada. Quem confunde isso, perde questão.
+
+   NLS5 NPC6 PTS17 PTS28
+
+   5NLS ­ sinal de localização nuclear -- sequência rica em lisina/arginina, interna ou C-terminal
+   6NPC ­ complexo do poro nuclear -- Nuclear Pore Complex
+   7PTS1 ­ Peroxisomal Targeting Signal 1 -- tripleto C-terminal SKL
+   8PTS2 ­ Peroxisomal Targeting Signal 2 -- sinal N-terminal de 9 aminoácidos
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   A sequência-sinal funciona porque existe um receptor específico na membrana-alvo que a recon
+hece. Nada de afinidade mágica. Para a mitocôndria, o receptor é a TOM20 (subunidade da Translocase
+of Outer Membrane). Para o peroxissomo, é a PEX5 (que reconhece PTS1) ou a PEX7 (que reconhece
+PTS2). Para o núcleo, é a importina-, que liga a NLS no citosol e leva a proteína até o poro.
+
+Sequência-sinal funciona como CEP postal: a proteína carrega no próprio polipeptídeo a informação de seu destino.
+Necessárias e suficientes -- quer dizer que se você cortar a sequência-sinal, a proteína vai para o lugar errado; e se
+você acoplar a sequência-sinal de outra proteína a uma proteína qualquer, ela vai para o destino indicado pelo sinal.
+
+   Resumindo até aqui: Princípio de Blobel: cada proteína carrega na própria sequência de aminoácidos
+   o endereço de onde precisa ir. Sinal = aminoácidos (não nucleotídeos). Cada organela tem seu receptor
+   -- sem receptor, sem importação.
+
+Importante notar uma diferença: a sequência-sinal mitocondrial e a do RE são N-terminais e são
+clivadas após o transporte (a proteína madura na matriz já não as tem). A NLS (nuclear) e as PTS (perox
+issomais), em contraste, podem ser internas, são reconhecidas mas não são removidas -- a proteína
+madura no núcleo ou no peroxissomo ainda carrega o sinal. Isso é importante porque, nessas organelas,
+a proteína pode ser exportada e reimportada quantas vezes for necessário usando o mesmo sinal.
+
+   A consequência prática disso? Vamos ver agora, organela por organela.
+
+PARTE II -- O núcleo
+
+2.1 -- Envelope nuclear
+
+O envelope nuclear é a estrutura mais imponente da célula eucarionte -- é o que dá nome ao grupo (eu-
+cariontes = "núcleo verdadeiro"). E ele tem três características que precisamos entender em ordem.
+
+   Primeiro, é uma membrana dupla. Não é uma única bicamada lipídica; são duas bicamadas separadas
+por um espaço intermembranar (espaço perinuclear) de cerca de 20­40 nm. A membrana externa tem
+ribossomos aderidos do lado citosólico -- sim, exatamente como o RE rugoso -- porque ela é contin
+uação do RE. Em microscopia eletrônica, dá para acompanhar a membrana externa do envelope nuclear
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+"saindo" e virando RE sem solução de continuidade. O lúmen do RE e o espaço perinuclear são o mesmo
+compartimento luminal.
+
+Repare como a membrana externa se conecta com o RE -- não há fronteira física, são a mesma membrana. A interna
+fica do lado da cromatina. O espaço perinuclear entre as duas é contínuo com o lúmen do RE.
+
+Segundo, a membrana interna está apoiada em uma rede proteica chamada lâmina nuclear. E aqui
+vem outra confusão de nome: laminas (com "a"), no plural, são proteínas -- uma classe específica de
+filamentos intermediários -- não têm relação direta com "lâminas de cromatina". As laminas A, B, C
+polimerizam formando uma malha logo abaixo da membrana interna, dando rigidez ao envelope e an
+corando regiões específicas de cromatina (a heterocromatina periférica fica em contato com a lâmina).
+
+   lâmina nuclear9
+   Terceiro, o envelope desmonta na mitose. Quando a célula entra em mitose, a CDK1 fosforila as
+laminas, que se despolimerizam, e a membrana do envelope se fragmenta em vesículas. Isso permite
+que o fuso mitótico chegue até os cromossomos. No fim da mitose (telófase), as laminas são desfosfo
+riladas, repolimerizam, e o envelope se remonta em volta de cada conjunto de cromossomos-filhos.
+
+2.2 -- Poros nucleares
+
+Os poros nucleares são onde a magia funcional do núcleo acontece. Eles são complexos macromolec
+ulares enormes -- cerca de 125 MDa, ou seja, 30 vezes a massa de um ribossomo --, compostos por
+aproximadamente 30 proteínas diferentes chamadas nucleoporinas. Uma célula típica tem 3 mil a 5 mil
+poros distribuídos pelo envelope.
+
+   NPCs10
+
+   9lâmina nuclear ­ rede de filamentos intermediários (proteínas tipo lamina A, B, C) que reveste a face interna do
+envelope nuclear, dando suporte mecânico e ancorando cromatina
+
+   10NPCs ­ complexos do poro nuclear, no plural -- Nuclear Pore Complexes
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O complexo do poro nuclear visto de cima e de lado. Note a simetria octogonal e o "anel citoplasmático" (filamentos
+virados para o citosol) e o "cesto nuclear" (estrutura em gaiola virada para o nucleoplasma). A região central do poro
+tem nucleoporinas com sequências repetitivas FG (fenilalanina-glicina) que formam uma malha hidrofílica seletiva.
+
+Aqui está o ponto operacional: o poro nuclear não é um buraco aberto. Ele tem um diâmetro de cerca
+de 40 nm, parece grande, mas a região central é preenchida por uma malha proteica seletiva. Moléculas
+pequenas (até 20­40 kDa, como íons, açúcares, pequenas proteínas) atravessam por difusão passiva.
+Mas qualquer coisa maior precisa ser ativamente transportada -- apresentar uma NLS, ligar-se a uma
+importina, e ser puxada para dentro contra o gradiente hidrofóbico da malha FG.
+
+   Resumindo até aqui: Poro = portão com porteiro. <20 kDa passa por difusão; >20 kDa exige NLS +
+   importina + gasto de GTP. A direcionalidade vem do gradiente Ran-GTP (alto no núcleo, baixo no citosol).
+
+A energia desse transporte vem do GTP hidrolisado pela proteína Ran. No núcleo, Ran-GTP é abundante;
+no citosol, é Ran-GDP. Quando a importina- + cargo entram no núcleo, Ran-GTP se liga à importina
+e força o desligamento do cargo. A importina sai vazia pelo poro, troca GTP por GDP no citosol e fica
+disponível para outra rodada. É o mesmo princípio que veremos no transporte mitocondrial (energia
+química acoplada ao deslocamento direcional).
+
+   Outra confusão que vale desfazer: o mesmo NPC faz importação e exportação. Não existem "poros
+de entrada" e "poros de saída". O mesmo complexo bombeia proteínas para dentro (carregadas por
+importinas) e exporta mRNAs e subunidades ribossomais para fora (carregadas por exportinas). A
+direção é dada pelo cargo e pelo estado do Ran, não pela estrutura do poro.
+
+2.3 -- Cromatina e estruturas sub-nucleares
+
+Dentro do núcleo, o DNA não fica solto. Está sempre associado a proteínas -- principalmente histonas --
+formando uma estrutura chamada cromatina. E aqui vem outra armadilha de prova mortal: cromatina
+existe sempre, não só na mitose. Os cromossomos que vemos na metáfase com forma de "X" são
+apenas a forma ultracondensada da cromatina, organizada para a divisão. Na interfase, a cromatina está
+descondensada (mais difusa), mas continua existindo -- e continua sendo cromatina, não outra coisa.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   cromatina11
+   Na interfase, a cromatina divide-se em duas classes:
+   A heterocromatina é a cromatina densamente compactada, transcricionalmente inativa. Fica em
+geral perto da periferia do núcleo (ancorada na lâmina nuclear), aparece como manchas escuras na
+microscopia eletrônica, e carrega marcas de histona que silenciam a transcrição (H3K9me3, H3K27me3).
+Heterocromatina abriga genes que aquela célula específica não precisa expressar -- em um neurônio
+adulto, por exemplo, os genes de hemoglobina ficam em heterocromatina permanente.
+   A eucromatina, por contraste, é a cromatina descondensada, transcricionalmente ativa. Ocupa o
+interior do núcleo, é mais clara em microscopia eletrônica, e carrega marcas de ativação (H3K4me3,
+acetilação de H3K27). É onde a RNA polimerase trabalha -- onde os genes de "manutenção" e os genes
+específicos da célula estão sendo transcritos a cada instante.
+
+Heterocromatina é silenciada, não só apertada
+
+Estudante de prova fica tentado a achar que a diferença entre eu- e heterocromatina é apenas
+mecânica (uma compactada, outra solta). É mais que isso: a heterocromatina é funcionalmente
+silenciada por marcas químicas nas histonas que recrutam proteínas repressoras. Reverter hete
+rocromatina em eucromatina exige remoção dessas marcas, não só "esticar" o DNA.
+
+ Heterocromatina periférica (densa, escura, ancorada na lâmina) e eucromatina central (descondensada, ativa). O
+ nucléolo, em destaque, é uma região da eucromatina dedicada à produção de rRNA.
+
+Dentro do núcleo, ainda existem estruturas sub-nucleares sem membrana -- agregados proteína-
+RNA que se formam por separação de fase, sem precisar de bicamada lipídica. As três principais são o
+nucléolo (síntese de rRNA, montagem de subunidades ribossomais), os corpos de Cajal (processamento
+de snoRNAs e snRNAs) e os speckles intercromatínicos (estoque de fatores de splicing).
+
+   11cromatina ­ complexo de DNA enrolado em proteínas histonas; existe em todas as fases do ciclo celular, em graus
+variados de compactação
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   O nucléolo merece atenção especial. É a maior estrutura sub-nuclear, visível ao microscópio óptico
+mesmo sem coloração específica, e é a fábrica de RNA ribossomal. As 200 cópias do gene de rRNA (em
+loci de cromossomos diferentes) coalescem em uma única região do núcleo onde a RNA polimerase I
+trabalha sem parar. Em células de alta atividade proteica (como linfócitos ativados ou hepatócitos), pode
+haver mais de um nucléolo por célula, porque a demanda por ribossomos é gigante.
+
+  Nucléolo, corpos de Cajal e grânulos intercromatínicos: estruturas sub-nucleares sem membrana, formadas por
+  separação de fase. Cada uma concentra um conjunto específico de proteínas e RNAs.
+   Resumindo até aqui: Cromatina = DNA + proteínas, existe sempre. Heterocromatina (densa, silenciada)
+   vs eucromatina (descondensada, ativa). Nucléolo é a fábrica de rRNA, sem membrana, formado por
+   separação de fase.
+
+PARTE III -- Mitocôndrias e peroxissomos
+
+3.1 -- Mitocôndria: dupla membrana e gradiente
+
+A mitocôndria tem uma arquitetura desenhada por sua função: ela é a usina química da célula, sede da
+respiração celular, e cada elemento de sua estrutura serve a esse objetivo.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estrutura mitocondrial. Membrana externa com porinas (canais grandes que deixam passar tudo até 5 kDa). Espaço
+intermembranar (com prótons bombeados pelos complexos da respiração). Membrana interna pregueada em cristas,
+sede dos complexos respiratórios I­IV e da ATP-sintase. Matriz com DNA mitocondrial, ribossomos próprios, ciclo
+de Krebs.
+
+Começamos pela parte externa. A membrana externa mitocondrial é, comparativamente, um pano
+furado. Ela tem porinas (canais proteicos formados por barris-) que deixam passar livremente qual
+quer coisa até cerca de 5 kDa -- íons, metabólitos, ATP, ADP, fosfato. Em termos químicos, o espaço
+intermembranar é praticamente equivalente ao citosol em concentrações de pequenas moléculas. Não
+é a barreira funcional da mitocôndria.
+
+   A membrana interna, por contraste, é altamente seletiva e quase totalmente impermeável. É ali que
+está toda a maquinaria que importa: os quatro complexos da cadeia respiratória, a ATP-sintase, os
+transportadores específicos para piruvato, ADP/ATP, fosfato, ácidos graxos, e por aí vai. Cada molécula
+que cruza a membrana interna precisa de um transportador dedicado. É essa impermeabilidade que
+permite manter o gradiente eletroquímico de prótons -- o  negativo dentro da matriz, com pH mais
+alto que o do espaço intermembranar -- que é o coração do mecanismo quimiosmótico (que vamos ver
+com calma em Bioenergética, mas precisa estar no radar agora).
+
+   ATP12
+   A membrana interna é dobrada em cristas. Não são pregas da externa -- são invaginações da interna.
+Quanto mais ativa a mitocôndria (músculo cardíaco, neurônio), mais cristas; quanto menos, menos
+cristas. A função das cristas é puramente geométrica: aumentam a área disponível para os complexos
+respiratórios e a ATP-sintase. Mais área, mais ATP por unidade de volume mitocondrial.
+   Por fim, a matriz contém o DNA mitocondrial -- uma molécula circular de 16 kb, que codifica apenas
+13 proteínas (todas subunidades dos complexos respiratórios), 22 tRNAs e 2 rRNAs. As outras cerca de
+1.500 proteínas da mitocôndria vêm do genoma nuclear, são sintetizadas no citosol e importadas -- é
+o assunto do 3.3.
+
+   12ATP ­ adenosina trifosfato -- moeda energética da célula
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+DNA mitocondrial é uma fração ínfima do total
+
+Aluno tende a superestimar o mtDNA porque "mitocôndria tem DNA próprio" é fato que
+impressiona. Mas 13 proteínas é pouquíssimo -- a mitocôndria depende esmagadoramente das
+proteínas vindas do citosol. Essa dependência é o que torna a importação mitocondrial (3.3) um
+processo central, não acessório.
+
+3.2 -- Mitocôndrias são organelas dinâmicas
+
+Aqui vem uma virada conceitual que os livros didáticos antigos não enfatizavam: a mitocôndria não é
+uma organela isolada. Ela está constantemente se fundindo com outras mitocôndrias e se separando
+delas, em equilíbrio dinâmico. Em uma célula viva, o que existe é uma rede mitocondrial -- não centenas
+de organelas-feijão independentes, mas uma malha que troca conteúdo continuamente.
+
+   A fusão é mediada por proteínas chamadas mitofusinas 1 e 2 (na membrana externa) e OPA1 (na
+interna). Quando duas mitocôndrias se aproximam, as mitofusinas das duas se ligam, puxam as mem
+branas externas até se fundirem, e em seguida as OPA1 fazem o mesmo com as internas. O resultado é
+uma mitocôndria tubular com duas matrizes misturadas.
+
+   A fissão é o inverso: uma proteína chamada Drp1 (Dynamin-related protein 1) forma um anel ao redor
+de um tubo mitocondrial, contrai usando GTP, e estrangula o tubo até cortá-lo em dois pedaços. Aqui
+está um detalhe elegante: o RE marca o lugar da fissão. Antes da Drp1 chegar, túbulos do RE entram em
+contato com a mitocôndria e a "abraçam" no ponto exato onde a fissão vai acontecer -- funcionando
+como uma régua que define o sítio de corte.
+
+Contato físico entre RE (verde) e mitocôndria (vermelho). Esses pontos de contato marcam onde a fissão mitocondrial
+vai ocorrer -- o RE "envolve" o tubo mitocondrial e direciona a Drp1 para o local.
+
+Qual a função disso? Complementação genética. Em condições normais, surgem deleções e mutações
+pontuais no mtDNA o tempo todo. Se cada mitocôndria fosse isolada, mutações se acumulariam
+em organelas individuais até inviabilizá-las. Com fusão constante, mtDNAs íntegros vindos de uma
+mitocôndria "saudável" diluem e complementam os mtDNAs danificados de outra. A rede mitocondrial
+funciona como um pool genético comum.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Mitocôndria é uma rede dinâmica, não organela isolada. Mitofusinas/OPA1
+fundem, Drp1 fissiona, RE marca o sítio. Função: complementação genética entre mtDNAs.
+
+3.3 -- Importação mitocondrial: TOM, TIM e o motor pós-traducional
+
+Como uma proteína mitocondrial sintetizada no citosol chega à matriz? Esta pergunta tem uma
+resposta extraordinariamente bem-trabalhada pela evolução, e ela difere ponto a ponto da importação
+ao RE (que veremos em Compartimentos II).
+
+   Primeiro, a importação mitocondrial é pós-traducional -- a proteína termina de ser sintetizada
+inteira no citosol antes de ser importada. Isso contrasta com a importação do RE rugoso, que é co-
+traducional (a proteína vai entrando no RE enquanto ainda está sendo sintetizada). A consequência
+prática é que a proteína mitocondrial precisa ser mantida desenovelada enquanto espera o transporte.
+Chaperonas citosólicas (Hsp70 e Hsp90) se ligam à proteína recém-sintetizada e impedem que ela se
+enovele prematuramente -- uma proteína já enovelada não passaria pelo poro estreito do TOM.
+
+   TOM13 TIM14 MPP15
+
+   A sequência-sinal mitocondrial fica no N-terminal da proteína, é rica em arginina e lisina (cargas
+positivas), e forma uma -hélice anfipática -- um lado polar/positivo, outro hidrofóbico. Essa hélice é
+o que o receptor TOM20 reconhece.
+
+Repare como a proteína atravessa as duas membranas em um único movimento, passando pelos translocons TOM
+e TIM alinhados. O sinal N-terminal entra primeiro (cargas positivas puxadas eletroforeticamente pelo  negativo
+da matriz), depois a Hsp70 da matriz traciona o resto da cadeia, gastando ATP. Lá dentro, a peptidase MPP cliva o
+sinal e libera a proteína madura, que se enovela com a ajuda de Hsp60.
+
+   13TOM ­ Translocase of Outer Membrane -- translocon da membrana mitocondrial externa
+   14TIM ­ Translocase of Inner Membrane -- translocon da membrana mitocondrial interna
+   15MPP ­ Mitochondrial Processing Peptidase -- peptidase que cliva a sequência-sinal mitocondrial na matriz
+
+                                                                                14
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Vamos seguir a viagem da proteína passo a passo:
+   A sequência-sinal N-terminal liga-se ao receptor TOM20 na superfície da mitocôndria. O complexo
+
+TOM (Translocase of Outer Membrane) é um canal proteico que atravessa a membrana externa. A
+proteína começa a passar pelo TOM ainda parcialmente segura pelas chaperonas citosólicas.
+
+   Nos sítios de contato -- pontos onde a membrana externa e a interna estão muito próximas --, o canal
+TOM se alinha com o canal TIM23 (na membrana interna). A proteína passa pelas duas membranas
+numa só viagem, sem cair no espaço intermembranar.
+
+   Aqui entram duas fontes de energia. Primeiro, o gradiente eletroquímico da membrana interna: o
+sinal N-terminal positivo é eletroforeticamente puxado para a matriz, que tem potencial negativo.
+Sem esse gradiente, a importação para. Segundo, Hsp70 da matriz liga-se ao N-terminal assim que ele
+emerge na matriz e traciona o resto da cadeia, gastando ATP. É um motor pull pós-traducional.
+
+   Quando a proteína está toda na matriz, a MPP (peptidase da matriz) cliva a sequência-sinal -- a pro
+teína madura não tem mais o sinal. Em seguida, a Hsp60 (chaperonina mitocondrial) ajuda a proteína
+a enovelar-se na sua estrutura final.
+
+Resumindo até aqui: Importação mitocondrial = pós-traducional, exige proteína desenovelada, usa
+dois translocons (TOM + TIM), depende de gradiente eletroquímico + ATP de Hsp70 da matriz, termina
+com clivagem da sequência-sinal pela MPP.
+
+3.4 -- Peroxissomos: membrana única, função vital
+
+O peroxissomo é o segundo organela compartimentar desta aula, e em quase tudo é o oposto da
+mitocôndria.
+
+   Tem membrana única -- uma só bicamada lipídica. Não tem DNA próprio. Não tem cadeia respi
+ratória nem ATP-sintase. Não tem cristas. Em termos topológicos é como um lisossomo ou uma vesícula
+grande. Em termos funcionais, no entanto, é central: realiza reações químicas que nenhum outro
+compartimento faz.
+
+       15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Montagem do peroxissomo. As proteínas peroxinas (PEX) -- codificadas por 22 genes diferentes em humanos --
+ coordenam a importação tanto das proteínas de membrana quanto das proteínas de matriz. PEX19 é a receptora
+ citosólica para proteínas de membrana; PEX5 e PEX7 reconhecem os sinais PTS1 e PTS2 das proteínas de matriz.
+
+A função mais conhecida é a -oxidação de ácidos graxos de cadeia muito longa (>C22, como o ácido
+tetracosanoico C24). A mitocôndria também faz -oxidação, mas só consegue importar ácidos graxos
+de cadeia média e longa. Cadeias muito longas precisam do peroxissomo -- ele encurta primeiro,
+depois o produto vai para a mitocôndria completar a oxidação. Sem peroxissomo, esses ácidos graxos
+se acumulam.
+
+   A reação peroxissomal de -oxidação gera HO (peróxido de hidrogênio) como subproduto -- daí o
+nome "peroxissomo". O HO é tóxico e seria letal se vazasse para o citosol, então o peroxissomo contém
+duas enzimas potentes para neutralizá-lo: a catalase (converte HO em HO + O) e a urato-oxidase.
+Manter essas reações isoladas é, mais uma vez, o argumento da compartimentalização: gerar peróxido
+em ambiente onde ele é imediatamente destruído.
+
+   PEX16
+   O peroxissomo também sintetiza plasmalogênios -- uma classe de fosfolipídios que é o principal
+componente da bainha de mielina. Isso conecta o peroxissomo ao sistema nervoso central: sem perox
+issomo funcional, sem mielina funcional.
+   A importação peroxissomal usa um mecanismo distinto do mitocondrial. Proteínas com PTS1
+(tripleto C-terminal, geralmente Ser-Lys-Leu) são reconhecidas pela PEX5 no citosol. Proteínas com
+PTS2 (sinal N-terminal) são reconhecidas pela PEX7. Os complexos receptor-cargo se ligam à mem
+brana peroxissomal e o cargo é importado -- aqui a proteína pode entrar já enovelada, ao contrário da
+mitocôndria. Esse é um dos diferenciais mais marcantes: o peroxissomo importa cargo enovelado, sem
+precisar desenovelá-lo.
+
+   16PEX ­ peroxinas -- proteínas que coordenam a biogênese e a importação de proteínas no peroxissomo
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+As proteínas do peroxissomo seguem um caminho alternativo: PTS1 (C-terminal) é reconhecido por PEX5; PTS2 (N-
+terminal) por PEX7. Diferente do mitocondrial, o cargo pode estar enovelado.
+
+    Síndrome de Zellweger e doenças peroxissomais
+    Mutações em qualquer um dos 22 genes PEX causam doenças peroxissomais. A mais grave é a
+    síndrome de Zellweger, em que peroxissomos não se formam corretamente (são "fantasmas" de
+    membrana sem matriz funcional). Resultado: acúmulo de ácidos graxos de cadeia muito longa,
+    deficiência de plasmalogênios, e -- pela falência de mielinização -- encefalopatia neonatal grave,
+    hipotonia profunda, convulsões. A maioria dos bebês com Zellweger morre no primeiro ano. É o
+    exemplo paradigmático de como a falha de uma organela "secundária" pode ser letal.
+
+   Resumindo até aqui: Peroxissomo: membrana única, sem DNA, sem cristas. Faz -oxidação de cadeias
+   muito longas, neutraliza HO com catalase, sintetiza plasmalogênios para mielina. PEX/PTS, impor
+   tação enovelada. Zellweger é o paradigma das doenças peroxissomais.
+
+       17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Volte ao começo desta aula. Dissemos que compartimento intracelular não é "lugar onde fica X",
+e sim ambiente químico distinto. Agora você consegue ver por quê.
+O núcleo só consegue manter o DNA isolado, controlado e revisado porque o envelope nuclear
+separa um ambiente onde o pH, a concentração de fatores de transcrição e a presença de RNases
+são diferentes daqueles do citosol. O poro nuclear não é uma falha nesse sistema -- é o portão
+que permite tráfego seletivo sem destruir o gradiente, usando sequência-sinal (NLS), receptor
+(importina) e energia (Ran-GTP).
+A mitocôndria só consegue gerar ATP porque suas duas membranas, especialmente a interna,
+sustentam o gradiente eletroquímico de prótons. Sem essa impermeabilidade, o gradiente vazaria
+em segundos e a ATP-sintase pararia. As proteínas que fazem todo esse trabalho -- 1.500 delas --
+vêm do genoma nuclear, atravessam TOM e TIM pós-traducionalmente, e dependem de chaper
+onas em ambos os lados para conseguir cruzar.
+O peroxissomo, com sua membrana única, isola reações químicas que geram peróxido -- concen
+trando o veneno onde ele é imediatamente neutralizado. Sem ele, ácidos graxos de cadeia muito
+longa se acumulam e plasmalogênios não são sintetizados. A síndrome de Zellweger mostra qual
+é o preço de falhar nessa importação.
+Em todos os três casos, três peças se repetem: (1) membrana seletiva, (2) sequência-sinal, (3)
+receptor e energia. Esse trio é o algoritmo da compartimentalização eucarionte. Em Comparti
+mentos II veremos como o RE e o Golgi adicionam uma quarta peça -- o tráfego vesicular -- que
+estende esse algoritmo para o resto da célula.
+
+       18
+NEBLI                                                                ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Compartimento = ambiente químico distinto Cromatina existe SEMPRE
+
+   Não é apenas "lugar dentro da célula"; é uma região         Cromatina = DNA + histonas, presente em todas
+com pH, íons, enzimas e substratos diferentes do            as fases do ciclo. Cromossomos visíveis na metáfase
+citosol -- possível porque uma membrana lipídica            são só a forma ultracondensada. Heterocromatina
+seletiva separa concentrações que de outro modo se          (densa, periférica, transcricionalmente silenciada
+misturariam. Sem membrana, sem compartimento.               por H3K9me3/H3K27me3) vs eucromatina (descon
+Procariontes não têm; eucariontes basearam toda sua         densada, central, ativa por H3K4me3/acetilação). Nu
+complexidade em ter.                                        cléolo: fábrica de rRNA, sem membrana.
+Três vias de transporte intracelular                        Mitocôndria: dupla membrana, gradiente
+
+Cada compartimento usa uma via fixa. Núcleo: Membrana externa com porinas (passa tudo até 5
+
+barreira seletiva (poros nucleares). Mitocôndria e kDa, equivale ao citosol). Membrana interna imper
+
+peroxissomo: transporte transmembrana (translo meável, sede da cadeia respiratória, mantém o gradi
+
+con). RE, Golgi, lisossomo, vesículas: vesicular. Con ente eletroquímico de prótons. Cristas são invagi
+
+fundir vias é erro grave de prova -- uma proteína nações da interna, não pregas da externa -- mais
+
+nuclear não entra por vesícula, e uma proteína de cristas em mitocôndria ativa. Matriz com mtDNA
+
+mitocôndria não atravessa o NPC.                            codifica só 13 proteínas; as outras 1.500 vêm do
+
+Princípio de Blobel: sinal é aminoácidos                    núcleo.
+
+Sequência-sinal é trecho de aminoácidos na Rede mitocondrial dinâmica
+
+própria proteína, não nucleotídeos do mRNA. Cada Mitocôndria não é organela isolada -- rede que
+
+organela tem seu sinal e seu receptor: TOM20 (mi se funde (Mitofusinas 1/2 + OPA1) e fissiona (Drp1)
+
+tocôndria), PEX5/PEX7 (peroxissomo), importina- constantemente. RE marca o sítio da fissão (contato
+
+(núcleo). Sinal mitocondrial e do RE são clivados após físico antes da Drp1 chegar). Função: complemen
+
+transporte; NLS e PTS não são clivadas -- a proteína tação genética entre mtDNAs -- diluir mutações
+
+madura ainda carrega.                                       pontuais e resgatar deleções.
+
+Envelope nuclear: duas membranas, lâminas Importação mitocondrial: TOM + TIM, pós-
+
+Membrana dupla; a externa é continuação direta do traducional
+
+RE e tem ribossomos. Espaço perinuclear = lúmen do Proteína termina inteira no citosol, mantida de
+
+RE. Laminas (com `a') = filamentos intermediários senovelada por Hsp70/Hsp90. Sinal N-terminal (-
+
+proteicos que revestem a face interna, dando suporte hélice anfipática rica em Lys/Arg) reconhecido por
+
+mecânico. Desmonta na mitose por fosforilação das TOM20. Atravessa TOM + TIM23 alinhados num só
+
+laminas pela CDK1; remonta na telófase.                     movimento. Energia: gradiente eletroquímico puxa
+
+Poro nuclear: cutoff de 20 kDa                              eletroforeticamente o sinal positivo + ATP da Hsp70
+
+   Complexo macromolecular de 125 MDa com 30 da matriz traciona o resto. MPP cliva o sinal; Hsp60
+nucleoporinas. <20 kDa atravessa por difusão; >20 ajuda enovelamento final.
+
+kDa precisa de NLS + importina + gasto de GTP (via
+
+Ran-GTP/GDP). Mesmo NPC faz importação e expor
+
+tação -- direção dada pelo cargo e Ran, não pelo poro.
+
+                                                        19
+NEBLI                                                RESUMINDO
+
+Peroxissomo: membrana única, -oxidação e
+mielina
+
+   Membrana única, sem DNA. Faz -oxidação de
+ácidos graxos de cadeia muito longa (>C22 -- mi
+tocôndria não importa) gerando H2O2, neutralizado
+por catalase. Sintetiza plasmalogênios (componente
+da mielina). PEX5 reconhece PTS1 (C-terminal); PEX7
+reconhece PTS2 (N-terminal). Cargo importado já
+enovelado ( mitocôndria). Síndrome de Zellweger
+(mutação em PEX) causa encefalopatia neonatal
+grave.
+
+20
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a definição funcional de compartimento intracelular, é correto afirmar:
+   A) Toda região delimitada por proteínas integrais da membrana plasmática, ainda que sem bicamada
+   lipídica completa em torno, constitui um compartimento intracelular dotado de função química.
+   B) Região delimitada por uma bicamada lipídica que mantém composição química distinta do citosol,
+   permitindo reações químicas específicas.
+   C) Aglomerado proteico sem membrana delimitante, formado por interação eletrostática entre
+   cadeias polares, no qual ocorrem reações químicas separadas do restante da célula.
+   D) Estrutura proteica ancorada ao citoesqueleto que concentra enzimas relacionadas numa região do
+   citosol, sem necessidade de membrana lipídica ao redor.
+   E) Espaço delimitado pela membrana plasmática externa, no qual a célula realiza todas as suas reações
+   químicas em ambiente único e homogêneo.
+
+Questão 02 Consolidação
+
+Sobre as três vias canônicas de transporte intracelular de proteínas, é correto afirmar:
+   A) Toda proteína recém-sintetizada chega à organela de destino encapsulada em vesículas que brotam
+   do retículo endoplasmático e atravessam o citosol até a organela-alvo.
+   B) O transporte por barreira seletiva é a via dominante para entrega de proteínas à matriz mitocon
+   drial, atravessando os complexos TOM-TIM no envelope mitocondrial.
+   C) O transporte vesicular é exclusivo da entrega de proteínas ao núcleo, partindo do citosol em direção
+   ao nucleoplasma com fusão da vesícula ao envelope nuclear.
+   D) A escolha da via é determinada pelo tamanho da proteína: pequenas vão por barreira seletiva,
+   médias por transmembrana, grandes por vesículas, independentemente da organela-alvo.
+   E) Barreira seletiva entrega ao núcleo, transmembrana entrega à mitocôndria e ao peroxissomo, e
+   vesicular conecta os compartimentos endomembranares.
+
+                            21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre o princípio das sequências-sinal descrito por Günter Blobel, é correto afirmar:
+
+   A) As sequências-sinal são trechos do mRNA que direcionam o ribossomo a uma organela específica
+   antes mesmo de a tradução começar no citosol.
+
+   B) Cada proteína contém em sua estrutura tridimensional final uma cavidade que se encaixa direta
+   mente na membrana da organela-alvo, sem mediação de receptor.
+
+   C) Cada proteína carrega na própria sequência de aminoácidos um trecho que funciona como
+   endereço, sendo reconhecido por um receptor específico na membrana da organela-alvo.
+
+   D) As sequências-sinal são modificações pós-traducionais (fosforilação ou glicosilação) adicionadas
+   no citosol e marcam o destino da proteína após o término da tradução.
+
+   E) As sequências-sinal são lipídios covalentemente ligados à proteína madura que se ancoram às
+   membranas-alvo por afinidade hidrofóbica direta com a bicamada.
+
+Questão 04 Consolidação
+
+Sobre o envelope nuclear, é correto afirmar:
+
+   A) É formado por duas bicamadas lipídicas separadas por um espaço perinuclear contínuo com o
+   lúmen do retículo endoplasmático.
+   B) É uma única bicamada lipídica idêntica à membrana plasmática, com proteínas integrais que
+   formam canais para entrada de RNA na direção do citosol.
+   C) Mantém-se intacto durante toda a mitose, com poros que se alargam para permitir a passagem do
+   fuso mitótico até os cromossomos condensados.
+   D) É sustentado por filamentos de actina dispostos imediatamente abaixo da membrana interna,
+   dando rigidez mecânica e ancorando a cromatina periférica.
+   E) A membrana externa é independente do retículo endoplasmático, separada dele por um conjunto
+   de proteínas de ancoragem e por uma camada glicoproteica densa.
+
+                         22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Sobre os poros nucleares, é correto afirmar:
+
+   A) São canais passivos que permitem livre passagem de qualquer molécula entre nucleoplasma e
+   citosol, independentemente do tamanho ou da existência de sequência-sinal.
+
+   B) Existem poros distintos especializados em importação e poros especializados em exportação, com
+   estruturas proteicas diferentes e ancoradas em regiões opostas do núcleo.
+
+   C) Cada poro é formado por uma única proteína de grande massa molecular, ancorada nas duas
+   membranas do envelope, sem subunidades adicionais ou complexo multiproteico.
+
+   D) Moléculas menores que 20 kDa atravessam por difusão; moléculas maiores exigem sinal de local
+   ização nuclear (NLS), receptor (importina) e energia (GTP).
+
+   E) O transporte ativo através do poro é movido pela hidrólise de ATP pela proteína Ran, ocorre apenas
+   no sentido citosol-núcleo e dispensa sinal de localização específico.
+
+Questão 06 Consolidação
+
+Sobre a cromatina, é correto afirmar:
+
+   A) É uma estrutura presente apenas durante a mitose, quando o DNA se condensa em cromossomos
+   visíveis ao microscópio óptico, e desaparece durante a interfase celular.
+   B) Eucromatina e heterocromatina diferem unicamente no grau de compactação física do DNA, sem
+   diferença significativa em atividade transcricional ou em marcas químicas de histona.
+   C) É a associação de DNA com proteínas (principalmente histonas), presente em todas as fases do ciclo
+   celular, com graus variados de condensação.
+   D) É composta exclusivamente por histonas modificadas covalentemente, sem participação direta da
+   molécula de DNA, e funciona como base proteica estrutural do núcleo interfásico.
+   E) A heterocromatina é a forma transcricionalmente ativa da cromatina, localizada no centro do
+   núcleo próximo ao nucléolo e marcada por acetilação extensiva das caudas de histona.
+
+                         23
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre a estrutura da mitocôndria, é correto afirmar:
+
+   A) A membrana externa é altamente seletiva e sede dos complexos da cadeia respiratória, enquanto a
+   interna é permeável a moléculas pequenas e contém porinas tipo barril-.
+
+   B) A membrana externa contém porinas e é praticamente permeável a moléculas até 5 kDa; a
+   membrana interna é altamente seletiva e contém os complexos respiratórios.
+
+   C) As cristas mitocondriais são invaginações da membrana externa, aumentando a área disponível
+   para a entrada de moléculas pequenas via porinas do espaço intermembranar.
+
+   D) O DNA mitocondrial codifica toda a maquinaria respiratória da organela, eliminando totalmente a
+   necessidade de importação de proteínas sintetizadas no citosol pelo ribossomo.
+
+   E) Mitocôndrias têm uma única bicamada lipídica e mantêm o gradiente eletroquímico de prótons
+   exclusivamente pela impermeabilidade dessa membrana ao íon H do espaço externo.
+
+Questão 08 Consolidação
+
+Sobre a dinâmica de fusão e fissão mitocondrial, é correto afirmar:
+
+   A) Mitocôndrias são organelas estáticas, formadas durante o desenvolvimento embrionário e manti
+   das isoladas pelo restante da vida da célula, sem fusão ou fissão posteriores.
+   B) A fissão mitocondrial é iniciada espontaneamente em qualquer ponto do tubo mitocondrial, sem
+   direcionamento por outras estruturas celulares como o retículo endoplasmático.
+   C) Mitofusinas e Drp1 atuam no mesmo passo da fusão, formando um complexo único que une duas
+   mitocôndrias adjacentes e contrai a membrana até a unificação completa.
+   D) Mitocôndrias surgem de novo a partir de vesículas do retículo endoplasmático, sem necessidade
+   de mitocôndria preexistente para gerar uma organela funcional nova.
+   E) Mitofusinas 1/2 e OPA1 medeiam a fusão; Drp1 medeia a fissão; o RE marca o sítio da fissão pelo
+   contato físico com o tubo mitocondrial.
+
+                         24
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 09 Consolidação
+
+Sobre a importação de proteínas para a matriz mitocondrial, é correto afirmar:
+
+   A) Ocorre de forma pós-traducional: a proteína é sintetizada inteira no citosol, mantida desenovelada
+   por chaperonas, e então atravessa os translocons TOM e TIM até a matriz.
+
+   B) Ocorre de forma co-traducional: o ribossomo se ancora à membrana externa e a proteína vai sendo
+   translocada à medida que é sintetizada, sem necessidade de chaperonas citosólicas.
+
+   C) A proteína atravessa a membrana externa pelos poros do envelope nuclear que se comunicam com
+   a mitocôndria nos sítios de contato físico entre as duas organelas adjacentes.
+
+   D) A sequência-sinal mitocondrial é nucleotídica, presente no mRNA, e reconhecida pelo ribossomo
+   durante a tradução, antes mesmo de a proteína ser sintetizada por completo.
+
+   E) A energia da importação vem exclusivamente da hidrólise de ATP por chaperonas citosólicas, sem
+   participação do gradiente de prótons sustentado pela membrana mitocondrial interna.
+
+Questão 10 Consolidação
+
+Sobre o peroxissomo, é correto afirmar:
+
+   A) Possui duas bicamadas lipídicas e DNA próprio, semelhante à mitocôndria, mas sem cadeia respi
+   ratória nem ATP-sintase, dependendo da glicólise para produção de energia.
+   B) Sintetiza ATP pela cadeia respiratória que se localiza em cristas próprias de sua membrana interna
+   pregueada, complementando a função energética da mitocôndria.
+   C) Possui uma única bicamada lipídica, não tem DNA próprio, e realiza -oxidação de ácidos graxos
+   de cadeia muito longa gerando peróxido de hidrogênio neutralizado pela catalase.
+   D) Importa suas proteínas exclusivamente pelo translocon TIM da membrana interna mitocondrial,
+   que reconhece sequências-sinal idênticas às mitocondriais clivadas por MPP no lúmen.
+   E) Tem por função única o armazenamento de lipídios neutros, sendo dispensável para a manutenção
+   da bainha de mielina, do metabolismo lipídico e da neutralização do peróxido celular.
+
+                         25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+Considere a afirmação: "Procariontes não têm compartimentalização porque o número de reações
+químicas que executam é menor". Sobre essa afirmação:
+
+A) É correta: a quantidade absoluta de reações é o critério evolutivo principal que determina se um
+organismo precisa ou não compartimentar seu citoplasma com membranas internas.
+
+B) É correta no caso dos procariontes simples (arqueobactérias), mas falsa para cianobactérias, que
+possuem compartimentos verdadeiros delimitados por membrana lipídica como cloroplasto rudi
+mentar.
+
+C) É correta porque procariontes têm menos genes e produzem menos proteínas, dispensando a
+separação física de processos químicos no citosol e a especialização química por organela.
+
+D) É incorreta: o ganho da compartimentalização é qualitativo (permitir condições químicas incom
+patíveis simultaneamente), não quantitativo, e procariontes evoluíram outras soluções (megaproteí
+nas, microcompartimentos sem membrana).
+
+E) É incorreta porque procariontes apresentam compartimentos delimitados por membranas semel
+hantes aos eucariontes, como o periplasma das gram-negativas, que é homólogo ao retículo
+endoplasmático eucarionte.
+
+Questão 12 Integração
+
+Sobre a relação entre a sequência-sinal de uma proteína e seu destino subcelular, é correto afirmar:
+
+   A) Se uma proteína citosólica for fundida geneticamente à sequência-sinal mitocondrial N-terminal
+   de outra proteína, a proteína resultante passa a ser direcionada à matriz mitocondrial -- a sequência-
+   sinal é necessária e suficiente.
+
+   B) A localização de uma proteína é determinada pelo seu ponto isoelétrico (pI): proteínas com pI alto
+   vão ao núcleo, e proteínas com pI baixo são direcionadas à mitocôndria e ao peroxissomo do citosol.
+
+   C) Apenas proteínas pequenas (<30 kDa) podem ser redirecionadas pela troca da sequência-sinal;
+   proteínas maiores resistem ao redirecionamento porque já adquiriram localização determinada pela
+   estrutura terciária natural.
+
+   D) Sequências-sinal mitocondriais e peroxissomais são intercambiáveis, porque ambas as organelas
+   têm membrana lipídica e sistemas de importação evolutivamente conservados que reconhecem o
+   mesmo motivo N-terminal.
+
+   E) A sequência-sinal só atua se estiver no exato N-terminal da proteína; sinais internos ou C-terminais
+   são, por definição estrutural, não funcionais e nunca direcionam proteína a nenhuma organela.
+
+                       26
+NEBLI                                                         ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Sobre o transporte através do poro nuclear, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. Uma proteína de 18 kDa sem sinal de localização nuclear (NLS) pode atravessar o poro nuclear por
+difusão passiva, em ambas as direções.
+
+II. O mesmo complexo do poro nuclear (NPC) é capaz de mediar tanto a importação quanto a expor
+tação de macromoléculas, dependendo do cargo e do estado do Ran.
+
+III. Uma proteína de 65 kDa exclusivamente nuclear, com NLS clássica, atravessa o NPC ligada à
+importina sem gasto de energia, por gradiente puramente difusional.
+
+IV. Os complexos do poro nuclear são feitos de uma única proteína, a nucleoporina, com cerca de 30
+cópias por NPC formando um anel octogonal.
+
+Questão 14 Integração
+
+Sobre a desmontagem do envelope nuclear na mitose, é correto afirmar:
+
+   A) O envelope permanece íntegro durante toda a mitose: a abertura é feita pela ruptura das laminas,
+   mas a bicamada lipídica não se desfaz em momento algum do ciclo de divisão celular.
+
+   B) O envelope se desfaz apenas em algumas células em divisão (mitose aberta), enquanto outras
+   células dividem o núcleo já dentro de um envelope sustentado por novas membranas em todo o
+   processo.
+
+   C) O envelope se fragmenta porque a CDK1 fosforila as laminas, que despolimerizam e perdem
+   capacidade de sustentar a membrana; a bicamada converte-se em vesículas que se redistribuem entre
+   as células-filhas e remontam o envelope na telófase.
+
+   D) O envelope é digerido enzimaticamente por proteases citosólicas no início da prófase, e cada
+   célula-filha sintetiza um envelope completamente novo após a citocinese, com membranas vindas do
+   retículo endoplasmático rugoso.
+
+   E) O envelope se mantém intacto e os cromossomos passam pelos poros nucleares já alargados pela
+   fosforilação das nucleoporinas, sem necessidade de ruptura da bicamada lipídica em nenhuma fase
+   da divisão.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Sobre as diferenças entre eucromatina e heterocromatina, é correto afirmar:
+
+   A) Eucromatina é a forma silenciada da cromatina, marcada por H3K9me3 e H3K27me3; heterocro
+   matina é a forma ativa, marcada por H3K4me3 e acetilação ampla das caudas de histona.
+
+   B) Eucromatina e heterocromatina são equivalentes em conteúdo de DNA por nucleossomo, diferindo
+   apenas no tipo de RNA polimerase que as transcreve e no compartimento subnuclear que ocupam.
+
+   C) Heterocromatina contém apenas DNA repetitivo e sequências satélites, sem genes codificadores;
+   eucromatina contém todos os genes funcionais do genoma humano e exclusivamente esses genes.
+
+   D) Eucromatina é exclusiva da interfase e heterocromatina é exclusiva da mitose; durante a interfase,
+   apenas eucromatina é detectável e ela ocupa todo o volume do núcleo igualmente.
+
+   E) Heterocromatina é densamente compactada, silenciada por marcas como H3K9me3, associada
+   à periferia nuclear; eucromatina é descondensada, transcricionalmente ativa, e ocupa o interior do
+   núcleo.
+
+Questão 16 Integração
+
+Sobre o nucléolo e outras estruturas sub-nucleares, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. O nucléolo é uma região do núcleo dedicada principalmente à replicação do DNA cromossômico,
+   ocorrendo durante a fase S do ciclo celular.
+   II. O nucléolo, os corpos de Cajal e os grânulos intercromatínicos são estruturas dinâmicas que se
+   formam por separação de fase e não são delimitadas por membrana.
+   III. Uma célula com alta demanda de síntese proteica (como linfócitos ativados ou hepatócitos) pode
+   apresentar mais de um nucléolo, refletindo a maior produção de subunidades ribossomais.
+   IV. Os corpos de Cajal participam principalmente da degradação de rRNAs danificados, ao passo que
+   os grânulos intercromatínicos armazenam histonas livres.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+Sobre a relação entre o DNA mitocondrial (mtDNA) e o genoma nuclear na biogênese mitocondrial, é
+correto afirmar:
+
+A) O mtDNA codifica todas as 1.500 proteínas mitocondriais, garantindo autonomia genética com
+pleta em relação ao núcleo e dispensando importação proteica via translocon TOM-TIM da membrana
+mitocondrial.
+
+B) O mtDNA codifica apenas 13 proteínas (subunidades dos complexos respiratórios), 22 tRNAs e 2
+rRNAs; as outras 1.500 proteínas mitocondriais vêm do genoma nuclear e são importadas via TOM-
+TIM.
+
+C) O mtDNA é responsável apenas pelas proteínas estruturais da membrana externa mitocondrial,
+enquanto o genoma nuclear codifica as proteínas catalíticas e os complexos respiratórios alocados na
+membrana interna pregueada.
+
+D) O mtDNA é uma cópia funcional duplicada de uma região do cromossomo 17 humano, repetida
+secundariamente na mitocôndria por endossimbiose evolutiva com bactérias aeróbias ancestrais
+bem-sucedidas.
+
+E) Toda proteína mitocondrial é sintetizada pelos ribossomos próprios da matriz mitocondrial a
+partir do mtDNA local; o ribossomo citosólico não participa em nenhum grau da síntese de proteínas
+dessa organela.
+
+Questão 18 Integração
+
+Sobre a dinâmica da rede mitocondrial, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. A fusão entre duas mitocôndrias permite a mistura dos respectivos mtDNAs, funcionando como
+   mecanismo de complementação genética contra acúmulo de mutações pontuais.
+   II. O retículo endoplasmático estabelece contato físico com tubos mitocondriais antes da fissão,
+   marcando o sítio onde a Drp1 vai contrair a membrana.
+   III. Mitofusinas 1 e 2 medeiam a fusão da membrana mitocondrial interna, enquanto OPA1 medeia a
+   fusão da externa, em um processo coordenado em duas etapas.
+   IV. Mitocôndrias surgem de novo a partir da fusão de vesículas do retículo endoplasmático rugoso
+   com gotículas lipídicas do citosol, em células que precisam expandir sua massa mitocondrial.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Sobre a energética da importação mitocondrial de proteínas para a matriz, é correto afirmar:
+
+   A) A energia da importação tem duas fontes: o gradiente eletroquímico da membrana interna, que
+   puxa eletroforeticamente o sinal N-terminal positivo, e o ATP gasto pelas chaperonas Hsp70 da
+   matriz, que tracionam a cadeia restante.
+
+   B) A importação não requer energia adicional, sendo um processo passivo de difusão facilitada do
+   polipeptídeo desenovelado através do canal aberto do complexo TOM-TIM23 da mitocôndria intacta.
+
+   C) A única fonte de energia é o ATP hidrolisado por chaperonas citosólicas (Hsp70 e Hsp90) que
+   mantêm a proteína desenovelada antes do transporte, sem qualquer participação do gradiente eletro
+   químico da membrana mitocondrial interna.
+
+   D) A energia vem exclusivamente da hidrólise de GTP pela proteína Ran, em mecanismo semelhante
+   ao do transporte através do poro nuclear NPC, mas sem necessidade de gradiente eletroquímico de
+   prótons na membrana interna.
+
+   E) O gradiente de prótons da membrana interna é dissipado durante a importação proteica e poste
+   riormente restabelecido pela cadeia respiratória; nenhuma chaperona da matriz é necessária para a
+   tração da cadeia restante na matriz.
+
+Questão 20 Integração
+
+Sobre o destino da sequência-sinal mitocondrial após a importação da proteína, é correto afirmar:
+
+   A) A sequência-sinal é mantida intacta na proteína madura, podendo servir como sinal de re-expor
+   tação para o citosol quando a célula precisar exportar a proteína em outra fase do ciclo celular.
+
+   B) A sequência-sinal é deslocada do N-terminal para o C-terminal por uma reação enzimática
+   específica, mas permanece presente na proteína funcional como marcador permanente da origem
+   mitocondrial.
+
+   C) A sequência-sinal é glicosilada pela peptidase MPP da matriz mitocondrial, alterando sua função
+   sem clivagem do polipeptídeo, e passa a integrar diretamente o sítio ativo da proteína madura.
+
+   D) A sequência-sinal é clivada por uma peptidase específica da matriz (MPP, Mitochondrial Process
+   ing Peptidase), e a proteína madura -- que então se enovela com a ajuda da Hsp60 -- já não a contém.
+
+   E) A sequência-sinal é fosforilada nos resíduos de serina e retida nos sítios de contato TOM-TIM da
+   membrana, sinalizando ao sistema TOM o término da importação para liberar o próximo polipeptídeo
+   da fila.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Sobre as diferenças entre membrana externa e interna mitocondriais, é correto afirmar:
+
+   A) Ambas as membranas são igualmente seletivas e impermeáveis a moléculas pequenas, depen
+   dendo de transportadores específicos para qualquer molécula que cruze a bicamada, inclusive os íons
+   inorgânicos da matriz e do citosol que entram via canais regulados.
+
+   B) A membrana externa é a sede direta dos quatro complexos da cadeia respiratória e da ATP-sintase,
+   enquanto a interna serve apenas como barreira mecânica para conter a matriz e o mtDNA dentro do
+   espaço delimitado da organela aeróbia.
+
+   C) A membrana externa contém porinas (canais -barril) que permitem livre passagem de moléculas
+   até 5 kDa; a membrana interna é altamente seletiva, contém os complexos respiratórios e a ATP-
+   sintase, e sua impermeabilidade ao H sustenta o gradiente eletroquímico que move a fosforilação
+   oxidativa.
+
+   D) A membrana interna contém porinas permeáveis a moléculas pequenas, enquanto a externa é
+   seletiva e abriga os transportadores específicos da fosforilação oxidativa e da cadeia respiratória, em
+   uma topologia inversa à descrita na maioria dos livros-texto de biologia celular atuais.
+
+   E) Ambas as membranas mitocondriais são derivadas exclusivamente da membrana plasmática da
+   célula hospedeira durante o processo endossimbiótico ancestral, sendo funcionalmente equivalentes
+   e diferindo apenas no grau de dobramento e na quantidade total de proteínas integrais inseridas.
+
+Questão 22 Integração
+
+Sobre o peroxissomo e a importação de proteínas peroxissomais, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. Proteínas com PTS1 (tripleto C-terminal, geralmente Ser-Lys-Leu) são reconhecidas pela PEX5 no
+   citosol e levadas ao peroxissomo.
+   II. Diferente da importação mitocondrial, a importação peroxissomal pode aceitar proteínas-cargo já
+   enoveladas, sem necessidade de desenovelamento prévio.
+   III. Proteínas com PTS2 (sinal N-terminal de cerca de 9 aminoácidos) são reconhecidas pela PEX19, a
+   mesma proteína que coordena a inserção de proteínas integrais de membrana peroxissomal.
+   IV. A síntese de plasmalogênios -- principal fosfolipídio da bainha de mielina -- ocorre parcialmente
+   no peroxissomo, e sua deficiência por falha peroxissomal contribui para a disfunção neurológica em
+   doenças como a síndrome de Zellweger.
+
+                       31
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Sobre a origem evolutiva das duas membranas do núcleo e da mitocôndria, é correto afirmar:
+
+   A) Núcleo e mitocôndria adquiriram a dupla membrana pelo mesmo mecanismo evolutivo de endos
+   simbiose por outra bactéria ancestral; no caso do núcleo, especificamente por engolfamento de um
+   arqueon ancestral preservado no citosol da hospedeira durante o período pré-cambriano de origem
+   eucarionte.
+
+   B) O envelope nuclear se originou por invaginação da membrana plasmática da célula ancestral,
+   gerando uma dupla membrana topologicamente conectada com o RE; a mitocôndria se originou por
+   endossimbiose de uma bactéria aeróbia, cujas membranas correspondem à membrana original da
+   bactéria e à do fagossomo hospedeiro.
+
+   C) Ambas as organelas surgiram por invaginação da membrana plasmática em períodos evolutivos
+   distintos da história celular, e a continuidade topológica do envelope nuclear com o retículo endoplas
+   mático rugoso é apenas casual sem implicação direta sobre a origem geométrica das duas bicamadas
+   do envelope.
+
+   D) O envelope nuclear veio de endossimbiose de uma arquibactéria contendo DNA ancestral, e a
+   mitocôndria veio de invaginação simples da membrana plasmática em uma célula ancestral aeróbia
+   já capaz de fosforilação oxidativa antes da aquisição do compartimento nuclear na linhagem.
+
+   E) Ambas as organelas têm membrana dupla por mero acaso evolutivo sem relação direta com sua
+   origem celular real, e essa característica topológica é igualmente compartilhada com peroxissomos e
+   lisossomos da via endocítica e secretora na célula eucarionte madura.
+
+                       32
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Sobre as marcas de histona e a função da heterocromatina periférica, é correto afirmar:
+
+   A) A heterocromatina é silenciada por marcas como H3K9me3 e H3K27me3, e sua ancoragem à lâmina
+   nuclear na periferia do núcleo contribui para manter genes silenciados de modo estável; em uma
+   célula diferenciada como o neurônio, genes não usados (como os de hemoglobina) ficam em hetero
+   cromatina periférica permanente.
+
+   B) A heterocromatina é definida exclusivamente pela ausência de modificações químicas covalentes
+   nas caudas N-terminais das histonas, sendo neutra do ponto de vista bioquímico geral; sua com
+   pactação observada em microscopia eletrônica é puramente um efeito da carga elétrica negativa do
+   DNA isolado.
+
+   C) A heterocromatina e a lâmina nuclear não interagem fisicamente em nenhum momento do ciclo
+   celular eucarionte; a localização periférica observada dos genes silenciados é um epifenômeno pas
+   sivo do tamanho relativo do núcleo, sem participação proteica direta de qualquer fator de ancoragem
+   específico.
+
+   D) Os genes que ficam em heterocromatina são silenciados apenas durante a divisão mitótica, quando
+   a cromatina se condensa para a segregação cromossômica; durante a interfase do ciclo celular, todos
+   os genes voltam à condição funcional de eucromatina ativa em transcrição.
+
+   E) A heterocromatina é marcada por H3K4me3 e por acetilação extensa da lisina 27 da histona H3,
+   indicadores químicos de alta atividade transcricional ativa concentrada exclusivamente na periferia
+   nuclear próxima à face interna do envelope e à lâmina nuclear.
+
+                       33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Sobre o papel do retículo endoplasmático na fissão mitocondrial, é correto afirmar:
+
+   A) O retículo endoplasmático produz vesículas COPII que se fundem com a mitocôndria, dividindo
+   o tubo mitocondrial em duas porções por inflação interna progressiva da membrana externa do
+   compartimento da matriz.
+
+   B) O retículo endoplasmático não tem participação direta na fissão mitocondrial; a Drp1 escolhe o sítio
+   de fissão por reconhecimento aleatório de uma sequência conservada da membrana externa do tubo
+   mitocondrial sem mediação de outras organelas.
+
+   C) O retículo endoplasmático regula a fissão à distância pela liberação de Ca² no citosol, mas
+   sem contato físico com a mitocôndria no sítio de divisão, atuando apenas via segundo mensageiro
+   citosólico difusível pela célula em divisão mitótica avançada.
+
+   D) O retículo endoplasmático secreta diretamente proteínas Drp1 que migram pelo citosol até a
+   mitocôndria por difusão livre, sem necessidade de contato membrana-membrana entre as duas
+   organelas envolvidas no processo da fissão coordenada do tubo.
+
+   E) Túbulos do retículo endoplasmático envolvem o tubo mitocondrial antes da Drp1 chegar, marcando
+   o sítio exato de fissão; o contato físico RE-mitocôndria precede e direciona o recrutamento da Drp1 ao
+   local da divisão.
+
+                       34
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Um pesquisador estuda mutações em laminas A/C (gene LMNA) que causam progéria de Hutchinson-
+Gilford, uma síndrome de envelhecimento acelerado em crianças. Microscopia mostra núcleos com
+forma irregular, "lobulados", e fragilidade aumentada à deformação mecânica. Qual mecanismo mole
+cular liga a mutação em LMNA aos achados nucleares?
+
+A) A mutação em LMNA gera laminas que não se ancoram à membrana plasmática externa da célula,
+comprometendo a transdução de força mecânica do citoesqueleto até o citosol periférico, sem efeito
+sobre a arquitetura do envelope nuclear interno.
+
+B) A mutação em LMNA bloqueia a translocação ativa de proteínas pelo poro nuclear, alterando
+o tamanho aparente do núcleo por acúmulo gradual de proteínas não importadas no citosol, sem
+comprometer o suporte mecânico do envelope nuclear.
+
+C) A mutação em LMNA aumenta inespecificamente a permeabilidade da membrana externa do
+envelope nuclear, deformando progressivamente o núcleo por entrada excessiva de fluido vindo do
+citosol durante a interfase, sem participação da rede de filamentos intermediários internos.
+
+D) As laminas formam a rede de filamentos intermediários abaixo da membrana interna do envelope,
+dando suporte mecânico ao núcleo; mutações em LMNA enfraquecem essa rede, gerando núcleos
+disformes e mecanicamente frágeis, mais suscetíveis a danos por estresse mecânico -- base celular
+da progéria.
+
+E) As laminas regulam diretamente a transcrição dos genes do ciclo celular ligando-se aos promo
+tores; mutações em LMNA causam parada precoce do ciclo celular, e a forma irregular do núcleo é
+apenas um epifenômeno secundário da senescência celular induzida pela mutação.
+
+                      35
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Em um experimento clássico, pesquisadores fundiram a sequência-sinal mitocondrial da subunidade
+IV da citocromo c oxidase (primeiros 22 aminoácidos, com forte caráter anfipático e cargas positivas) ao
+N-terminal da enzima diidrofolato redutase (DHFR), uma proteína estritamente citosólica. A construção
+foi expressa em células de mamífero e a localização da DHFR foi rastreada. O resultado mais provável é:
+
+A) A DHFR permanece estritamente citosólica porque sua estrutura tridimensional intrínseca impede
+o desenovelamento necessário para atravessar o complexo TOM-TIM, mesmo com sequência-sinal
+mitocondrial funcional fundida ao seu N-terminal pela manipulação genética.
+
+B) A DHFR é direcionada à matriz mitocondrial e, após clivagem da sequência-sinal pela MPP, a fração
+madura mostra-se na matriz com função enzimática preservada -- demonstrando que a sequência-
+sinal é necessária e suficiente para o redirecionamento subcelular.
+
+C) A DHFR é direcionada ao núcleo pelo poro nuclear NPC, pois sequências ricas em arginina e lisina
+funcionam como NLS clássica, predominando sobre o sinal mitocondrial nativo quando ambos os
+tipos de sinal estão presentes simultaneamente na cadeia.
+
+D) A DHFR é direcionada ao peroxissomo via importação por PEX7, pois o sinal N-terminal
+mitocondrial é estruturalmente similar ao PTS2 peroxissomal e ativa cruzadamente a importação
+peroxissomal nas células de mamífero estudadas no experimento padrão.
+
+E) A DHFR é direcionada ao lúmen do retículo endoplasmático rugoso, pois qualquer sequência N-
+terminal hidrofóbica é reconhecida pela partícula SRP e leva à inserção co-traducional no RE via
+translocon Sec61 da membrana, independentemente da sequência total real.
+
+                      36
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Um lactente de 3 meses apresenta hipotonia profunda, convulsões refratárias, fácies dismórfica e
+hepatomegalia. Exames laboratoriais revelam acúmulo de ácidos graxos de cadeia muito longa (C26:0
+elevado) e deficiência de plasmalogênios. Microscopia eletrônica de fígado mostra "fantasmas" de per
+oxissomos -- vesículas de membrana sem matriz funcional. O mecanismo molecular mais provável é:
+
+A) Deficiência hereditária da carnitina-palmitoil-transferase I (CPT1) da membrana mitocondrial
+externa, bloqueando a entrada de ácidos graxos no compartimento da matriz e levando a acúmulo
+citosólico progressivo de C26:0 sem afetar diretamente o peroxissomo nem a síntese de plas
+malogênios na bainha de mielina.
+
+B) Mutação isolada em uma única enzima da via de -oxidação peroxissomal, restringindo o defeito
+a uma única reação metabólica e mantendo o restante do peroxissomo morfológica e funcionalmente
+intacto na microscopia eletrônica, sem alterar a importação proteica via PEX nem a síntese de plas
+malogênios na via lipídica.
+
+C) Deficiência da catalase peroxissomal, com acúmulo letal de HO no peroxissomo e morte celular
+por estresse oxidativo difuso no hepatócito, sem efeito direto sobre a -oxidação mitocondrial nem
+sobre a síntese inicial de plasmalogênios da membrana da bainha de mielina.
+
+D) Mutação no gene LMNA com falência da lâmina nuclear, causando disfunção nuclear difusa no
+hepatócito e no neurônio, que secundariamente afeta a expressão das enzimas peroxissomais e a
+importação geral de proteínas nas organelas mitocondriais e peroxissomais.
+
+E) Mutação em um gene PEX (peroxina) que compromete a biogênese do peroxissomo: sem PEX
+funcional, as proteínas peroxissomais não são importadas, o peroxissomo não amadurece, acumula-
+se C26:0 (porque a -oxidação peroxissomal falha) e faltam plasmalogênios (cuja síntese exige passos
+peroxissomais) -- quadro compatível com síndrome de Zellweger.
+
+                      37
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Um experimento usa drogas para dissipar o gradiente eletroquímico de prótons da membrana mitocon
+drial interna (com um desacoplador como CCCP) em cultura celular. Ao mesmo tempo, ATP é mantido
+em concentração normal por suplementação. Qual é o efeito esperado sobre a importação de novas
+proteínas para a matriz mitocondrial?
+
+A) A importação é severamente comprometida, mesmo com ATP normal, porque o gradiente
+eletroquímico ( negativo dentro) é necessário para puxar eletroforeticamente a sequência-sinal N-
+terminal positiva através do TIM23 -- sem ele, a translocação pela membrana interna trava, ainda
+que o motor ATP-dependente das chaperonas continue disponível.
+
+B) A importação não é afetada pelo desacoplador porque o gradiente eletroquímico só é necessário
+para a síntese de ATP pela ATP-sintase da membrana interna, e a importação proteica via TOM-TIM
+depende exclusivamente do ATP fornecido externamente para Hsp70 mitocondrial da matriz.
+
+C) A importação acelera após a dissipação do gradiente, porque a queda do potencial de membrana
+reduz a resistência elétrica da membrana interna mitocondrial e facilita a passagem direta do
+polipeptídeo desenovelado pelo poro do translocon sem barreira eletroquímica.
+
+D) A importação para apenas no caso de proteínas da membrana externa mitocondrial, que dependem
+do gradiente para se inserir lateralmente na bicamada externa; proteínas direcionadas à matriz
+continuam sendo importadas normalmente pelo translocon TIM23 alinhado.
+
+E) A importação continua sem prejuízo aparente, mas a clivagem subsequente da sequência-sinal N-
+terminal pela peptidase MPP da matriz é bloqueada por ausência de prótons no espaço da matriz
+mitocondrial, gerando proteínas maduras com o sinal retido na cadeia.
+
+                      38
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Um estudo cria células com versão mutante da Drp1 que perdeu atividade GTPásica, mas mantém
+capacidade de oligomerizar em anéis ao redor de tubos mitocondriais. Após 48 horas de cultura, qual é
+o fenótipo mitocondrial esperado?
+
+A) Mitocôndrias completamente desorganizadas no citosol, com matrizes dispersas pelo citoplasma,
+porque sem Drp1 funcional o retículo endoplasmático não consegue mais estabelecer contato físico
+com a mitocôndria durante a fase G2 do ciclo celular em divisão.
+
+B) Mitocôndrias ausentes da célula em cultura, pois sem Drp1 funcional não há biogênese mitocon
+drial nova e as organelas já existentes degradam-se por mitofagia compensatória induzida pelo dano
+funcional nas primeiras horas após o início do experimento.
+
+C) Mitocôndrias hiperfundidas, formando redes alongadas e tubulares, porque a fusão (Mitofusinas
++ OPA1) continua funcionando normalmente, enquanto a fissão (que dependeria da contração GTP-
+dependente do anel de Drp1) está bloqueada -- o equilíbrio dinâmico desloca-se para o lado da fusão.
+
+D) Mitocôndrias fragmentadas em pequenas esferas dispersas, porque a Drp1 mutante atua de modo
+dominante-negativo sobre a maquinaria de fusão da membrana externa, induzindo fissão excessiva
+e aleatória ao longo dos tubos mitocondriais íntegros.
+
+E) Mitocôndrias normais em quantidade e tamanho médio na célula em cultura, porque outras
+GTPases redundantes do citosol (como Dynamin-2) compensam totalmente a perda de função da Drp1
+mutante dentro de 24 a 48 horas após o início do experimento padrão.
+
+                      39
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que a sequência-sinal das proteínas é composta de aminoácidos, e não de
+nucleotídeos do mRNA, e por que esse detalhe estrutural é incompatível com o reconhecimento
+pelo ribossomo durante a tradução.
+
+    MODELO DE RESPOSTA
+
+   O princípio de Blobel postula que a informação de localização subcelular está dentro
+   da própria proteína, codificada como um trecho da cadeia polipeptídica. Esse trecho
+   só assume sentido funcional depois de traduzido -- ele só é reconhecido quando sai
+   do ribossomo e é apresentado, como sequência de aminoácidos, a um receptor proteico
+   na membrana da organela-alvo. O mRNA, em contraste, é uma molécula de RNA cuja
+   sequência de nucleotídeos só pode ser lida pela maquinaria de tradução (ribossomo +
+   tRNAs); não existe receptor de membrana que reconheça nucleotídeos. Por isso o sinal
+   de localização opera necessariamente em nível proteico, pós ou co-traducional, e nunca
+   no mRNA.
+
+Questão Q2
+
+Compare o estado de enovelamento exigido para a importação de proteínas pela mitocôndria e
+pelo peroxissomo, explicando o mecanismo subjacente em cada caso.
+
+    MODELO DE RESPOSTA
+
+   Na importação mitocondrial, a proteína precisa estar desenovelada (mantida assim por
+   Hsp70/Hsp90 citosólicas), porque o canal estreito do TOM-TIM23 não acomoda uma
+   estrutura tridimensional dobrada -- apenas uma cadeia linear. A energia de traciona
+   mento vem de Hsp70 da matriz, gastando ATP, somada ao puxão eletroforético do .
+   No peroxissomo, ao contrário, a proteína pode entrar já enovelada: o complexo de
+   importação peroxissomal (envolvendo várias PEX) acomoda dímeros e até oligômeros
+   pré-formados. Essa diferença mecanística é uma das características mais marcantes do
+   peroxissomo.
+
+                             40
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique por que a presença de duas membranas no núcleo e na mitocôndria não significa origem
+evolutiva comum, e qual é o mecanismo de cada uma.
+
+MODELO DE RESPOSTA
+
+As duas organelas adquiriram dupla membrana por rotas evolutivas distintas. O enve
+lope nuclear surgiu por invaginação da membrana plasmática da célula ancestral --
+uma dobra que se fechou em volta do material genético, gerando duas bicamadas topo
+logicamente conectadas com o RE (a membrana externa do envelope é contínua com a
+membrana do RE). A mitocôndria surgiu por endossimbiose -- uma bactéria aeróbia foi
+engolida por uma célula ancestral sem ser digerida; sua membrana original tornou-se
+a membrana mitocondrial interna, e a membrana do fagossomo hospedeiro tornou-se
+a externa. Conclusões topológicas semelhantes, origens distintas.
+
+Questão Q4
+
+Descreva o papel do retículo endoplasmático no processo de fissão mitocondrial, explicando
+como o contato físico entre as duas organelas direciona a ação da Drp1.
+
+    MODELO DE RESPOSTA
+
+   Antes da fissão, túbulos do RE entram em contato direto com o tubo mitocondrial e o
+   "abraçam" no ponto preciso onde a fissão vai ocorrer. Esse contato físico não é casual:
+   ele marca o local da constrição. A Drp1 (Dynamin-related protein 1), citosólica, é então
+   recrutada para esse sítio específico, oligomeriza em um anel ao redor do tubo, e contrai
+   usando hidrólise de GTP, estrangulando a mitocôndria até cortá-la em dois pedaços.
+   Assim, o RE funciona como uma "régua" que define onde, e a Drp1 como a "tesoura" que
+   executa o corte.
+
+       41
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+A afirmação abaixo aparece num resumo de cromatina. Identifique o erro conceitual e explique o
+que é correto.
+"A cromatina é uma estrutura formada por DNA e proteínas que existe apenas durante a mitose.
+Antes da divisão, o DNA fica solto no nucleoplasma. Eucromatina e heterocromatina diferem
+unicamente no grau de compactação, sem implicações funcionais -- ambas estão sendo tran
+scritas o tempo todo."
+
+MODELO DE RESPOSTA
+
+A afirmação contém dois erros graves. Primeiro, cromatina existe em todas as fases do
+ciclo celular, não só na mitose; o DNA nunca fica "solto" -- está sempre associado a his
+tonas formando nucleossomos, e estes se organizam em fibras de cromatina de variada
+compactação. Os cromossomos visíveis na metáfase são só a forma ultracondensada da
+cromatina, organizada para a divisão. Segundo, a diferença entre eucromatina e hetero
+cromatina não é apenas estrutural: heterocromatina é transcricionalmente silenciada
+por marcas químicas nas histonas (H3K9me3, H3K27me3) que recrutam complexos
+repressores; eucromatina é transcricionalmente ativa, com marcas como H3K4me3 e
+acetilação que mantêm o DNA acessível à RNA-polimerase. Reverter heterocromatina
+em eucromatina exige remoção dessas marcas -- não basta "desenrolar".
+
+       42
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 E         Q03 C     Q04 A  Q05 D
+Q06 C     Q07 B         Q08 E     Q09 A  Q10 C
+
+INTEGRAÇÃO (Q11­Q25)    Q13 CCEE  Q14 C  Q15 E
+                        Q18 CCEE  Q19 A  Q20 D
+Q11 D     Q12 A         Q23 B     Q24 A  Q25 E
+
+Q16 ECCE  Q17 B         Q28 E     Q29 A  Q30 C
+
+Q21 C     Q22 CCEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 B
+
+                        47
+

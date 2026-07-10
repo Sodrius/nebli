@@ -1,0 +1,21 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#discursiva("Q1",
+  [Explique por que a parede de uma artéria de grande calibre é tão diferente da parede de uma veia de mesmo calibre, usando o regime de pressão como fio condutor.],
+  [A diferença nasce da pressão que cada vaso suporta. A artéria recebe o sangue logo após o coração, sob alta pressão pulsátil, e por isso reforça a parede: túnica média espessa de músculo liso e/ou lâminas elásticas, e uma lâmina elástica interna nítida marcando a íntima. Isso mantém a luz pequena e redonda. A veia trabalha no retorno, sob pressão baixíssima, e não precisa desse reforço: dispensa lâminas elásticas, tem média escassa, adventícia colágena espessa e luz ampla, muitas vezes achatada. A mesma planta de três túnicas, portanto, é esculpida em dois sentidos opostos pela pressão local.])
+
+#discursiva("Q2",
+  [Descreva os três tipos de capilar e explique por que a lâmina basal, e não apenas o endotélio, é o critério que separa o fenestrado do sinusoide.],
+  [O capilar contínuo tem endotélio sem poros e lâmina basal contínua — o mais vedado, típico de músculo e tecido nervoso. O fenestrado ganha poros no endotélio para acelerar a troca, mas mantém a lâmina basal contínua; predomina no rim e no intestino. O sinusoide tem endotélio fenestrado e, sobretudo, lâmina basal descontínua, com luz larga; aparece no fígado e na medula óssea. Olhar só o endotélio confunde, porque fenestrado e sinusoide têm ambos poros. O que de fato os separa é a lâmina basal: contínua no fenestrado (retém células, deixa passar moléculas) e descontínua no sinusoide (deixa passar células inteiras).])
+
+#discursiva("Q3",
+  [Explique por que o endotélio não deve ser tratado como um simples forro do vaso, citando duas funções ativas e ligando-as à aterosclerose.],
+  [O endotélio é um epitélio pavimentoso simples quimicamente ativo. Primeiro, libera óxido nítrico, que difunde para a túnica média e relaxa o músculo liso, dilatando o vaso — ou seja, ajuda a regular a pressão. Segundo, produz o fator de von Willebrand e mantém uma superfície antitrombótica, controlando quando o sangue coagula. Enquanto essas funções operam, a parede se protege. Quando o endotélio é lesado por hipertensão, tabagismo ou colesterol alto, perde a produção de NO e a superfície antitrombótica, e é exatamente nesse ponto de disfunção que a placa de aterosclerose começa. A doença mais comum das artérias nasce, portanto, na célula mais fina do vaso.])
+
+#discursiva("Q4",
+  [Explique como o sangue venoso retorna das pernas ao coração contra a gravidade e por que a falência desse mecanismo produz varizes.],
+  [No retorno, quase não sobra pressão para empurrar o sangue, e nas pernas ele ainda precisa subir contra a gravidade. Dois elementos resolvem isso em conjunto. As válvulas venosas, dobras da túnica íntima em meia-lua, funcionam como comportas de mão única: deixam o sangue seguir para o coração e se fecham contra o refluxo. Mas elas não bombeiam nada. Quem impulsiona é a bomba muscular: os músculos esqueléticos da perna, ao se contraírem, comprimem as veias por fora e espremem o sangue adiante, enquanto as válvulas garantem o sentido único. Quando as válvulas se tornam incompetentes, o sangue reflui e se acumula, dilatando e tortuosando a veia — são as varizes.])
+
+#discursiva("Q5",
+  [Explique a lógica do sistema linfático: o que ele recolhe, por que seu capilar precisa começar aberto e sem junções de oclusão, e para onde a linfa vai.],
+  [Nos capilares sanguíneos, um pouco de líquido sempre escapa para o interstício e não é todo reabsorvido pelo lado venoso; sem drenagem, o tecido incharia. Recolher esse excedente é a tarefa do sistema linfático. Seu capilar começa em fundo cego dentro dos tecidos e, ao contrário do sanguíneo, não tem junções de oclusão vedando as células: as bordas se sobrepõem como abas que se abrem para dentro, e filamentos de ancoragem as puxam quando o interstício incha. É essa frouxidão proposital que deixa entrar líquido, proteínas grandes e células, formando a linfa. Dali a linfa segue por vasos com muitas válvulas, é filtrada nos linfonodos e devolvida ao sangue nas grandes veias da base do pescoço, sobretudo pelo ducto torácico.])

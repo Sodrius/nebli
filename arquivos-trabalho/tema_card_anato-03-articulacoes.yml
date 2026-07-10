@@ -1,0 +1,177 @@
+tema: "Generalidades das Articulações"
+slug: anato-03-articulacoes
+disciplina: Anatomia
+uc: UC02
+prova: P2
+docente: KBP/JCB
+onde_estudar: "Slides Aula 3 + Material Complementar + Drake/Moore cap. generalidades"
+alvo_paginas_e1: "piso 2, teto 22 (alvo 14-18)"
+profundidade: PADRÃO
+
+prioridades_corrida:
+  - "PESO ALTO: figuras obrigatórias — anatomia tem componente espacial intenso; 51 slides PNGs disponíveis"
+  - "Variação de registro entre subtópicos (sem dois pares vizinhos no mesmo registro)"
+  - "Prosa fluida sem empilhamento de nomes anatômicos — mecanismo/função antes do nome"
+
+partes:
+  - numero: I
+    titulo: "A lógica das conexões — por que os ossos nunca se tocam"
+    subtopicos:
+      - "1.1 O princípio: tecido conjuntivo como intermediário universal"
+      - "1.2 O trade-off mobilidade × estabilidade"
+      - "1.3 As duas classificações: estrutura anatômica e movimento"
+    figuras:
+      - {slide: "slide-04", mecanismo: "overview: ossos + articulação como intermediário", largura: "65%"}
+      - {slide: "slide-06", mecanismo: "tabela comparativa das 3 categorias estruturais", largura: "70%"}
+      - {slide: "slide-07", mecanismo: "classificação funcional sinartrose/anfiartrose/diartrose", largura: "55%"}
+
+  - numero: II
+    titulo: "Do imóvel ao semimóvel — fibrosas e cartilagíneas"
+    subtopicos:
+      - "2.1 Articulações fibrosas: fibras que decidem o movimento"
+      - "2.2 Articulações cartilagíneas: primárias e secundárias"
+      - "2.3 Vascularização e inervação — a regra e as exceções"
+    figuras:
+      - {slide: "slide-11", mecanismo: "sutura plana entre ossos cranianos", largura: "55%"}
+      - {slide: "slide-13", mecanismo: "sutura serreada/dentada — coronal, sagital, lambdóidea", largura: "60%"}
+      - {slide: "slide-15", mecanismo: "fontanelas e craniossinostose", largura: "65%"}
+      - {slide: "slide-18", mecanismo: "sindesmose tibiofibrular e radioulnar", largura: "60%"}
+      - {slide: "slide-21", mecanismo: "sincondrose — lâmina epifisial transitória", largura: "60%"}
+      - {slide: "slide-23", mecanismo: "sínfise púbica e discos intervertebrais", largura: "55%"}
+
+  - numero: III
+    titulo: "O livre movimento — articulações sinoviais em profundidade"
+    subtopicos:
+      - "3.1 Estrutura da articulação sinovial: cartilagem, líquido, cápsula"
+      - "3.2 Elementos acessórios: soluções para problemas específicos"
+      - "3.3 Os seis tipos: geometria define movimento"
+      - "3.4 Vascularização sinovial e Lei de Hilton"
+    figuras:
+      - {slide: "slide-31", mecanismo: "componentes da articulação sinovial", largura: "70%"}
+      - {slide: "slide-38", mecanismo: "disco articular na ATM", largura: "60%"}
+      - {slide: "slide-39", mecanismo: "meniscos do joelho", largura: "55%"}
+      - {slide: "slide-40", mecanismo: "lábio articular do quadril e ombro", largura: "55%"}
+      - {slide: "slide-42", mecanismo: "articulação plana — deslizamento não-axial", largura: "55%"}
+      - {slide: "slide-43", mecanismo: "gínglimo — tornozelo, flexão-extensão", largura: "60%"}
+      - {slide: "slide-44", mecanismo: "trocóide — atlantoaxial C1/C2, rotação", largura: "60%"}
+      - {slide: "slide-48", mecanismo: "selar — carpometacárpica do polegar", largura: "55%"}
+      - {slide: "slide-50", mecanismo: "esferóide — ombro/quadril, triaxial", largura: "65%"}
+
+registros_abertura:
+  - subtopico: "1.1"
+    registro: enquadramento
+    gancho: "Em um corpo com 206 ossos, é tentador imaginar um esqueleto como peças metálicas que se encostam — rígidas no contato. A realidade é diferente..."
+  - subtopico: "1.2"
+    registro: ponto-de-quebra
+    gancho: "O que decide se uma articulação vai ser fixa ou livre? Não é o tipo de osso, nem o tamanho da superfície — é o tipo de tecido que preenche o espaço entre eles e o quanto esse tecido pode se deformar."
+  - subtopico: "1.3"
+    registro: integração-anterior
+    gancho: "Essa relação mobilidade-estabilidade se manifesta de duas formas distintas na classificação — uma olha para o tecido, a outra olha para o movimento."
+  - subtopico: "2.1"
+    registro: abertura-por-desfazer-confusao
+    gancho: "A palavra 'fibrosa' pode sugerir rigidez total — mas o grau de movimento depende do comprimento das fibras, não da presença delas."
+  - subtopico: "2.2"
+    registro: integração-posterior
+    gancho: "Onde as fibrosas usam tecido conjuntivo denso, as cartilagíneas substituem o colágeno por cartilagem — mas o princípio é o mesmo: um intermediário sólido que limita (sem eliminar) o movimento."
+  - subtopico: "2.3"
+    registro: analogia-concreta
+    gancho: "Imagine tentar nutrir um tijolo de cerâmica por dentro — não é possível. A solução é nutrir pela superfície, por difusão, a partir do tecido vizinho."
+  - subtopico: "3.1"
+    registro: analogia-concreta
+    gancho: "A palavra 'sinovial' vem de 'junto ao ovo' — e a metáfora é quase perfeita: uma cápsula que envolve tudo, um fluido viscoso e escorregadio dentro, e superfícies revestidas por um material que desliza sem atrito."
+  - subtopico: "3.2"
+    registro: enquadramento
+    gancho: "Os elementos acessórios não são enfeites — cada um é uma solução anatômica para um problema específico de estabilidade, amortecimento ou congruência."
+  - subtopico: "3.3"
+    registro: integração-anterior
+    gancho: "Estabelecida a estrutura básica, a geometria das superfícies articulares é o que determina quais movimentos são possíveis — e em quantos eixos."
+  - subtopico: "3.4"
+    registro: ponto-de-quebra
+    gancho: "John Hilton, cirurgião britânico do século XIX, percebeu algo que parece óbvio depois de formulado mas nunca havia sido dito: os nervos de uma articulação são os mesmos dos músculos que a movem."
+
+prerequisitos_cruzados:
+  - prereq: "Tecido conjuntivo"
+    frase: "Tecido conjuntivo é o conjunto de células e matriz extracelular que preenche, sustenta e conecta estruturas — aqui, ele preenche o espaço entre os ossos e define o tipo de articulação."
+  - prereq: "Cartilagem hialina vs fibrocartilagem"
+    frase: "Cartilagem hialina é translúcida e rica em colágeno II; fibrocartilagem tem feixes densos de colágeno I e é mais resistente à compressão — daí ser usada nos discos intervertebrais."
+  - prereq: "Tecido ósseo"
+    frase: "O osso é um tecido mineralizado e rígido — por isso não pode se deformar para amortecer impacto; quem faz isso nas articulações é a cartilagem articular."
+
+pontos_de_quebra:
+  - quebra: "Classificação estrutural e funcional não se sobrepõem 1:1"
+    correcao: "Fibrosas são geralmente sinartroses, mas a sindesmose tibiofibrular é anfiartrose. Toda diartrose é sinovial, mas o critério estrutural e o funcional descrevem a mesma articulação por ângulos diferentes."
+  - quebra: "Sinovial ≠ imóvel (inversão clássica)"
+    correcao: "Articulações sinoviais são as mais MÓVEIS do corpo — são as diartroses. Sinartroses são as IMÓVEIS (ex: suturas cranianas)."
+  - quebra: "Cartilagem articular tem vasos — erro clássico"
+    correcao: "A cartilagem articular é avascular e não inervada. A nutrição vem por difusão a partir do líquido sinovial, não de vasos intrínsecos."
+  - quebra: "Lâmina epifisial como articulação permanente"
+    correcao: "A lâmina epifisial é uma sincondrose TRANSITÓRIA que sofre sinostose ao final do crescimento — não é estrutura permanente."
+  - quebra: "Confundir ligamento com tendão"
+    correcao: "Ligamento = osso→osso (não contrátil, lesão = entorse). Tendão = músculo→osso (transmite força ativa, lesão = ruptura/distensão)."
+  - quebra: "Disco articular = menisco"
+    correcao: "Disco articular é completo (divide a cavidade em duas; ex: ATM). Menisco é incompleto/semilunar (não divide; ex: joelho)."
+
+termos_nota_obrigatorios:
+  - "artrologia"
+  - "cinesiologia"
+  - "diartrose"
+  - "sinartrose"
+  - "sinostose"
+  - "gonfose"
+  - "membrana sinovial"
+  - "craniossinostose"
+
+distribuicao_e2:
+  profundidade: PADRÃO
+  consolidacao: 10
+  integracao: 15
+  aplicacao: 5
+
+gabarito:
+  consolidacao:
+    - ["01", "A"]
+    - ["02", "A"]
+    - ["03", "C"]
+    - ["04", "B"]
+    - ["05", "B"]
+    - ["06", "B"]
+    - ["07", "A"]
+    - ["08", "E"]
+    - ["09", "A"]
+    - ["10", "E"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "A"]
+    - ["13", "A"]
+    - ["14", "A"]
+    - ["15", "B"]
+    - ["16", "B"]
+    - ["17", "E"]
+    - ["18", "E"]
+    - ["19", "A"]
+    - ["20", "E"]
+    - ["21", "B"]
+    - ["22", "E"]
+    - ["23", "D"]
+    - ["24", "B"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "E"]
+    - ["27", "C"]
+    - ["28", "A"]
+    - ["29", "B"]
+    - ["30", "D"]
+
+exemplares_ancora:
+  - exemplar: "1.1 (mecanístico parágrafo-por-parágrafo)"
+    gesto: "cada parágrafo tem função discreta e encadeada"
+    uso: "componentes da articulação sinovial — 1 parágrafo por componente, conectados causalmente"
+  - exemplar: "6.1 (organização terminológica)"
+    gesto: "organizar família de termos antes de mergulhar em cada um"
+    uso: "entrada das classificações — sinartrose/anfiartrose/diartrose em parágrafo organizador antes de detalhar"
+  - exemplar: "7 (analogia construtiva)"
+    gesto: "analogia segura que ilumina mecanismo sem enganar"
+    uso: "sinovial = 'junto ao ovo' na abertura; geometria dos 6 tipos como 'encaixe define trajetória'"
+  - exemplar: "15 (figura lateral)"
+    gesto: "texto curto + figura média ao lado"
+    uso: "cada tipo de sutura e cada tipo de articulação sinovial ao lado da sua descrição"

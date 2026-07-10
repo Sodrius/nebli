@@ -1,0 +1,76 @@
+hn!PPo(X:|	[02_Blotting]	Are RNA and protein typically fragmented before analysis ? [No]
+l.~L&iyfVT	[02_Blotting]	Is DNA typically fragmented before analysis ? [Yes]
+m!^T8BMK,K	[01_Polymerase_Chain_Re]	[ DNA ] polymerase must see a(n) [ RNA primer ] to bind, which is complementary and antiparallel to the template strand
+AL>Oun3TJ)	[*MicroRNA]	[microRNAs] are small, noncoding RNA molecules that post-transcriptionally regulate protein expression
+DZcu*Q8j[h	[*MicroRNA]	microRNA often leads to the [silencing/inactivation] of target mRNA , thus causing [ decreased ] translation into protei
+pLfc3o50?=	[*MicroRNA]	Abnormal expression of miRNAs contributes to certain [malignancies] (e.g., by silencing an mRNA from a tumor suppressor 
+y+,/rIUf9=	[09_Molecular_cloning]	[ Recombinant ] DNA is DNA spliced together from two sources (usually human gene + bacterial vector)
+uGu4W8_~<d	[09_Molecular_cloning]	A(n) [ palindrome ] is a DNA sequence which reads the same backwards and forwards on opposite strands of DNA (usually 4 
+mE^lpMO!eO	[09_Molecular_cloning]	What class of enzymes cleaves nucleotides at the ends of a DNA strand? [Exonucleases]
+jRZK>AI:.w	[09_Molecular_cloning]	What class of enzymes cleaves nucleotides in the middle of a DNA strand? [Endonucleases]
+DTfA<~LN7R	[09_Molecular_cloning]	[Cloning] is the production of a recombinant DNA molecule that is self-perpetuating
+Hqs!p?=L$T	[09_Molecular_cloning]	The first step of cloning is to isolate the eukaryotic [mRNA] of interest
+v8=fbiCjA-	[01_Polymerase_Chain_Re]	Cloning : Isolated mRNA is exposed to reverse transcriptase to produce [ cDNA ] (lacks introns)
+l{;LM^ma0m	[09_Molecular_cloning]	Cloning : After cDNA is produced, cDNA fragments are inserted into [ bacterial plasmids ], which contain [antibiotic res
+P|r|8)S&il	[09_Molecular_cloning]	Cloning : After the recombinant plasmid has been produced, it is transformed into [bacteria]
+dQ,i)M];fg	[Extra]	DNA requires [fragmentation] for analysis , RNA and proteins do not (analyzed directly)
+sW&U<EuQNl	[03_Southern,_Western,_]	All RNA/DNA is [negatively] charged
+yg7G1*FlM|	[03_Southern,_Western,_]	Most proteins are [negatively] charged
+08iUkf;~+	[02_Blotting]	Gel electrophoresis separates fragments on the basis of [size]
+myuA+8$tV8	[02_Blotting]	When using blotting procedures , the [probe] determines what sequences are detected
+wE/zWfIL=y	[02_Blotting]	A(n) [ Southern ] blot is used to analyze [DNA]
+Gaogt!pI1d	[02_Blotting]	A(n) [ Northern ] blot is used to analyze [RNA]
+zD2_BLboB+	[02_Blotting]	Does a Southern blot require gel electrophoresis before analysis? [Yes]
+p;?N#^1wyl	[02_Blotting]	Does a Northern blot require gel electrophoresis before analysis? [Yes]
+z6q~b4p1_!	[Extra]	A Northern blot is useful for studying gene [expression]
+xR0zmIW{]L	[02_Blotting]	A(n) [ Western ] blot is used to analyze [protein]
+Hram,tJ0bP	[02_Blotting]	What type of probe is used to bind protein when using a Western blot ? [Labeled antibody]
+Rhzb#]*d%9	[02_Blotting]	What type of probe is used to bind DNA/RNA when using a Southern/Northern blot ? [Labeled single-stranded DNA / RNA olig
+CcLL&<r=J=	[03_Blotting_procedures]	Does a Dot (slot) blot require gel electrophoresis before analysis? [No!]
+pJeOdZ4^tB	[Extra]	A(n) [ Southwestern ] blot is used to identify [ DNA-binding ] proteins using labeled oligonucleotide probes
+t+PWqt|Y_*	[Extra]	[ RFLP ] analysis analyzes DNA using variations in restriction enzyme sites between homologous DNA strands
+ePqwo7~Y/%	[01_PCR]	[ Polymerase chain reaction (PCR)] is a powerful diagnostic tool used to amplify a desired fragment of DNA
+Ow)%=S|%Yk	[01_PCR]	In the first step of PCR , DNA is [denatured] by using [heat] to separate the strands
+q/J/Zbp,V?	[01_PCR]	In the second step of PCR , [ DNA primers] [ anneal ] to specific sequences on each DNA strand to be amplified
+LNS|XmcX_k	[01_Polymerase_Chain_Re]	In the final step of PCR , heat-stable [Taq DNA polymerase] [ elongates ] the DNA sequence following each primer
+LWBYl29|Sb	[01_Polymerase_Chain_Re]	How many primers are needed for polymerase chain reaction (PCR)? [Two (one for the 3' end of each DNA strand)]
+n65[|ou2N?	[01_PCR]	What type of primer is used in a polymerase chain reaction (PCR)? [DNA primer]
+plZX5,Fd5x	[01_Polymerase_Chain_Re]	Which end of the DNA strand does the DNA primer bind to during PCR? [3' end]
+I7hFQbMUe4	[01_PCR]	PCR requires the addition of all four [deoxyribonucleotide triphosphates (dNTPs)] for DNA synthesis
+Jc61yGH*sL	[03_Flow_Cytometry]	[Flow cytometry] is a laboratory technique used to assess size, granularity, and protein expression of individual cells 
+pDG%-|UfU=	[04_Flow_cytometry]	What laboratory technique is useful in determining CD4 cell count in HIV patients? [Flow cytometry]
+D6(PE_a,7<	[03_Flow_Cytometry]	In flow cytometry , cells are tagged with [antibodies] specific to surface or intracellular proteins
+EqHo8=1nY.	[03_Flow_Cytometry]	In flow cytometry , antibodies are tagged with a unique [fluorescent dye], which is detected and counted during analysis
+p<Y61ie`[]	[Extra]	[ Microarrays ] analyze thousands of nucleic acid sequences arranged in grids on glass or silicon
+L|x::p.jW4	[05_Microarrays_and_FIS]	[ Microarrays ] are a laboratory technique used to profile gene expression levels of thousands of genes simultaneously t
+I*+&|z07G6	[05_Microarrays_and_FIS]	Microarrays use a(n) [labeled DNA/RNA] probe, which is hybridized to the chip, and a scanner detects the relative amount
+m5^ii,r)80	[05_Microarrays_and_FIS]	What two types of variations in DNA are detected when using microarrays ? (DNA markers) [ - Single nucleotide polymorphi
+jtO4Js}=Zy	[04_ELISA]	[Enzyme-linked immunosorbent assay (ELISA)] is an immunologic test used to detect the presence of either a specific anti
+w{GRtC22FV	[04_ELISA]	When using ELISA , detection involves the use of a(n) [antibody] linked to a(n) [enzyme]
+=Ie38oi4p	[04_Microarray,_GWAS,_K]	[ Karyotyping ] is a process in which [ metaphase ] chromosomes are stained, ordered, and numbered according to morpholo
+n$D@NX[=dg	[04_Microarray,_GWAS,_K]	What laboratory technique is used to diagnose chromosomal imbalances ? [Karyotyping]
+F3sN[~O.Oi	[05_Microarrays_and_FIS]	[Fluorescence in situ hybridization (FISH)] uses a fluorescent DNA/RNA probe to bind to a specific gene of interest on c
+d7=l53;X!v	[Extra]	[Fluorescence in situ hybridization (FISH)] is a laboratory technique used for specific localization of genes and direct
+f#oqAK<Zwg	[05_Microarrays_and_FIS]	A(n) [microdeletion] is detected with FISH as no fluorescence on a chromosome compared to fluorescence at the same locus
+AxqWNY7L?4	[05_Microarrays_and_FIS]	A(n) [translocation] is detected with FISH as fluorescence of the target gene outside the original chromosome
+u6So=%<$Qs	[05_Microarrays_and_FIS]	A(n) [duplication] is detected with FISH as an extra site of fluorescence on one chromosome relative to its homologous c
+3N0Q_nlh(	[*Transgenic_Strategies]	[Transgenic] strategies in mice involve random insertion or targeted insertion/deletion within a mouse genome
+iHyFT.(fkn	[*Transgenic_Strategies]	A(n) [knock-out] transgenic mouse has had a gene removed
+z<KPq[*OIW	[*Transgenic_Strategies]	A(n) [knock-in] transgenic mouse has had a gene inserted
+gY(-y@`Qw`	[*Transgenic_Strategies]	A(n) [Cre-lox] system can inducibly manipulate genes at specific developmental points (e.g., study a gene whose deletion
+fb0t(~5njm	[10_Gene_expression_mod]	RNA [ interference ] uses [ dsRNA ] complementary to an mRNA of interest to " knock down " gene expression
+AG+$KgclC6	[03_Flow_Cytometry]	[ Paroxysmal nocturnal hemoglobinuria (PNH)] may be confirmed via [ flow cytometry ], which detects a lack of CD [ 55 ] 
+bI<F1o;$E{	[Extra]	[PCR] is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+lU*a2q?sn=	[05_ELISA]	What is the confirmatory test for HIV ? [HIV-1/2 antibody differentiation immunoassay]
+EiF3MvBPpm	[01_PCR]	What test determines the amount of viral RNA in plasma ? [Viral load]
+GcCvcqbNoW	[04_Microarray,_GWAS,_K]	What is the next step in management for an adolescent girl with primary amenorrhea with a uterus present on ultrasound a
+tuIP#f6R4{	[02_CRISPR_Cas9]	Is homologous recombination error prone ? [No]
+nCRgH<5j~0	[02_CRISPR_Cas9]	Is nonhomologous end joining (NHEJ) error prone ? [Yes]
+st.VCkZ(tA	[02_CRISPR_Cas9]	[ CRISPR/Cas9 ] is a genome editing tool that is derived from bacteria to knock in / out any DNA sequence
+EwDdM!<g>u	[02_CRISPR_Cas9]	At its core, CRISPR/Cas9 utilizes an endonuclease ([Cas9]) and a(n) [ guide ] RNA that binds to a complementary target D
+{1<?{An6K	[02_CRISPR_Cas9]	When using CRISPR/Cas9 that introduce a double strand break to knock-out target DNA, [nonhomologous end joining (NHEJ) e
+tu2n`4$-iN	[02_CRISPR_Cas9]	When using CRISPR/Cas9 to knock-in DNA, a(n) [repair template] must be added to guide insertion of a construct
+IfwP.KCbF!	[Extra]	A direct ELISA tests for a(n) [antigen] An indirect ELISA tests for a(n) [antibody against an antigen]
+n?`[N@?U5>	[Extra]	Herpes simplex virus (HSV) is definitively diagnosed with [PCR] or [viral cultures]
+Bt/{4J(vAH	[04_Microarray,_GWAS,_K]	What is the next step in management of a patient with primary amenorrhea who has an intact endocrine axis but no uterus 
+mBeY2]2ph)	[Extra]	[Sickle cell anemia] [img]

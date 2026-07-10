@@ -1,0 +1,60 @@
+slug: ciclo-de-krebs
+titulo: "Ciclo de Krebs"
+subtitulo: "Bioquímica · Metabolismo aeróbio"
+meta:
+  - ["Disciplina", "Bioquímica (UC01)"]
+  - ["Onde estudar", "Lehninger Cap. 16 + slides do prof"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Do piruvato ao acetil-CoA"
+        subtopicos:
+          - "1.1 Por que glicólise não basta"
+          - "1.2 Transporte para a matriz"
+          - "1.3 Complexo PDH"
+      - titulo: "PARTE II — As 8 reações"
+        subtopicos:
+          - "2.1 Condensação e isomerização"
+          - "2.2 Duas descarboxilações oxidativas"
+          - "2.3 Fosforilação em nível de substrato"
+      - titulo: "PARTE III — Face dupla do ciclo"
+        subtopicos:
+          - "3.1 Função anfibólica"
+          - "3.2 Anaplerose"
+          - "3.3 Regulação fina"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "C"]
+    - ["04", "B"]
+    - ["05", "D"]
+    - ["06", "D"]
+    - ["07", "B"]
+    - ["08", "A"]
+    - ["09", "B"]
+    - ["10", "CECC"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "C"]
+    - ["13", "CCCE"]
+    - ["14", "B"]
+    - ["15", "B"]
+    - ["16", "CCCE"]
+    - ["17", "B"]
+    - ["18", "B"]
+    - ["19", "D"]
+    - ["20", "B"]
+    - ["21", "C"]
+    - ["22", "CCEC"]
+    - ["23", "B"]
+    - ["24", "C"]
+    - ["25", "CCEC"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "B"]
+    - ["28", "B"]
+    - ["29", "A"]
+    - ["30", "CCCE"]

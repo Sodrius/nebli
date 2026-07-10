@@ -1,0 +1,1766 @@
+NEBLI · APOSTILA
+
+Ciclo de Krebs
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:   Primeira leitura pós-aula; releia regularmente até dominar.
+Onde estudar:  Lehninger 7ª ed cap 16; Berg 9ª ed cap 17; Boron 3ª ed cap 58 (oxidação
+               celular)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Da glicólise ao ciclo, com o PDH como ponte
+
+       1.1 Por que oxidar acetil-CoA -- matriz mitocondrial, panorama
+       1.2 Piruvato entra na matriz e perde o primeiro carbono
+       1.3 Complexo PDH -- três enzimas, cinco coenzimas
+       1.4 TPP, lipoamida e a clínica do beribéri
+  PARTE II -- As oito reações em ordem
+       2.1 Condensação e isomerização -- citrato, fluoracetato como toxina
+       2.2 As duas descarboxilações oxidativas -- NADH + CO duas vezes
+       2.3 Fosforilação em nível de substrato -- succinil-CoA até GTP
+       2.4 Três reações que regeneram OAA -- FADH, fumarato, NADH
+  PARTE III -- Contabilidade, regulação e o ciclo como hub
+       3.1 Balanço por volta e da glicose ao Krebs -- 30­32 vs 38 ATP
+       3.2 Regulação alostérica das quatro enzimas-chave
+       3.3 Funções anfibólicas -- entradas e saídas de intermediários
+       3.4 Anaplerose -- piruvato carboxilase repõe o OAA
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q08) · verde
+       Integração (Q09­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Imagine que a glicose acabou de ser quebrada no citosol em duas moléculas de piruvato. A glicólise
+    sozinha rendeu pouquíssimo: só 2 ATP1 líquidos por glicose, e a maior parte da energia química
+    do açúcar continua trancada nas ligações C­H do piruvato. O ciclo do ácido cítrico -- também
+    chamado ciclo de Krebs ou ciclo do TCA2, descrito por Hans Krebs em 1937 -- é onde essa energia é
+    finalmente liberada. Em oito reações encadeadas, dentro da matriz mitocondrial, cada acetil-CoA
+    é totalmente oxidado a 2 CO, e a energia das ligações é transferida para NADH3 e FADH4. Esses
+    transportadores levam os elétrons para a cadeia respiratória, e é lá que a maior parte do ATP da
+    glicose realmente aparece. Sem o ciclo de Krebs, oxidar glicose por completo seria impossível.
+    Esta aula vai construir o ciclo em três níveis. Primeiro, como o piruvato chega à matriz e vira
+    acetil-CoA pela ponte do complexo PDH (PARTE I). Depois, as oito reações do ciclo, uma por uma,
+    com a química do que cada enzima faz (PARTE II). Por fim, a contabilidade energética, a regulação
+    alostérica e o papel anfibólico do ciclo como hub central do metabolismo (PARTE III).
+
+PARTE I -- Da glicólise ao ciclo, com o PDH como ponte
+
+1.1 -- Por que oxidar acetil-CoA -- matriz mitocondrial, panorama
+Antes de mergulhar em mecanismo, vamos resolver uma confusão comum. Muita gente acha que "o
+ciclo de Krebs produz ATP". Isso está em grande parte errado. O ciclo gera só 1 GTP5 (equivalente a 1 ATP)
+por volta, em uma fosforilação em nível de substrato. A imensa maioria do ATP que o ciclo viabiliza
+não sai do ciclo em si, e sim da cadeia respiratória, alimentada pelos NADH e FADH que o ciclo produz.
+O verdadeiro produto do ciclo é poder redutor -- elétrons em alta energia carregados em coenzimas.
+
+   1ATP ­ adenosina trifosfato -- moeda energética da célula. Cada ligação fosfoanidrido entre os fosfatos  e  libera 30
+kJ/mol quando hidrolisada.
+
+   2TCA ­ tricarboxylic acid -- sinônimo em inglês usado em livros internacionais
+   3NADH ­ nicotinamida adenina dinucleotídeo reduzido -- coenzima que carrega 2 elétrons em alta energia, doados à
+cadeia respiratória.
+   4FADH ­ flavina adenina dinucleotídeo reduzido -- coenzima que carrega 2 elétrons em energia ligeiramente menor
+que NADH; ligada covalentemente à enzima.
+   5GTP ­ guanosina trifosfato -- análogo do ATP com guanina no lugar da adenina. Em metabolismo, equivale a 1 ATP
+(interconvertido pela nucleosídeo difosfato quinase).
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Visão geral em uma frase: o ciclo são 8 reações que oxidam acetil-CoA a 2 CO, conservando a energia liberada nos
+compostos reduzidos NADH e FADH. Repare que CO é o "destino" do carbono, e NADH/FADH são o "destino" da
+energia.
+
+Onde isso acontece? Dentro da matriz mitocondrial. As oito enzimas do ciclo (com uma exceção, a suc
+cinato desidrogenase, que está embutida na membrana interna) ficam todas dissolvidas na matriz, em
+concentrações altas -- alguns autores chamam isso de metabolon, sugerindo que as enzimas trabalham
+fisicamente próximas, "entregando" o produto de uma diretamente à seguinte. A matriz mitocondrial
+é, em essência, a usina termoelétrica da célula.
+
+As oito enzimas do ciclo, todas localizadas na matriz mitocondrial. A única que foge à regra é a succinato desidro
+genase (SDH), embutida na membrana interna -- ela é simultaneamente enzima do ciclo e complexo II da cadeia
+respiratória.
+
+                                                                                4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+SDH6
+
+E por que esse ciclo é tão central? Por três razões que valem fixar agora. Primeira: é o ponto de
+convergência da oxidação de carboidratos, lipídios e proteínas. Glicose, ácidos graxos e a maioria
+dos aminoácidos terminam virando acetil-CoA -- todos passam pela mesma porta. Segunda: os inter
+mediários do ciclo são anfibólicos -- saem para virar precursores de aminoácidos, ácidos graxos,
+glicose (na gliconeogênese), porfirinas. O ciclo não é só catabólico, é também anabólico. Terceira: o ciclo
+entrega elétrons em alta energia (NADH e FADH) à cadeia respiratória, que os usa para bombear prótons
+e fabricar a maioria do ATP da célula. Sem Krebs, a cadeia respiratória fica sem combustível.
+
+Resumindo até aqui: Ciclo de Krebs = 8 reações na matriz mitocondrial que oxidam acetil-CoA a 2 CO
+e geram NADH, FADH e 1 GTP por volta. O produto principal é poder redutor, não ATP direto -- quem
+fabrica ATP em massa é a cadeia respiratória, alimentada pelos NADH/FADH do ciclo.
+
+1.2 -- Piruvato entra na matriz e perde o primeiro carbono
+A glicólise terminou no citosol e entregou 2 piruvatos por glicose. Esses piruvatos precisam agora
+alcançar a matriz mitocondrial -- e atravessar duas membranas para chegar lá. A membrana externa da
+mitocôndria é razoavelmente permissiva (tem porinas), mas a membrana interna é seletiva. Piruvato
+precisa de carregador específico.
+
+  Da glicose ao piruvato no citosol; do piruvato, atravessa a membrana mitocondrial interna via transportador de
+  monocarboxilato (MCT7). Sem esse transporte, o piruvato fica preso no citosol e o ciclo nunca começa.
+
+Uma vez na matriz, o piruvato não entra no ciclo diretamente. Antes ele sofre uma reação de
+"preparação" chamada descarboxilação oxidativa: perde um carbono como CO e o que sobra (um grupo
+
+   6SDH ­ succinato desidrogenase -- enzima do ciclo de Krebs que também é o complexo II da cadeia respiratória. Catalisa
+succinato  fumarato, reduzindo FAD a FADH.
+
+   7MCT ­ transportador de monocarboxilato -- proteína integral da membrana mitocondrial interna que importa piru
+vato em simporte com H.
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+acetil de 2 carbonos) é transferido para a coenzima A. O produto é acetil-CoA, e é ele -- não o piruvato
+-- quem entra no ciclo.
+
+O complexo piruvato desidrogenase (PDH) é a ponte entre a glicólise e o ciclo de Krebs. Catalisa a descarboxilação
+oxidativa do piruvato: piruvato (3C) + CoA8 + NAD9  acetil-CoA (2C) + CO + NADH. Não faz parte do ciclo de
+Krebs em sentido estrito, mas sem ele o ciclo não recebe combustível.
+
+PDH10
+A reação global do PDH é:
+
+                       Piruvato + CoA-SH + NAD  Acetil-CoA + CO + NADH + H
+
+                                          G'°  -33,4 kJ/mol -- irreversível na célula
+Repare nos produtos. Sai 1 CO (o primeiro carbono da glicose a virar gás carbônico), sai 1 NADH (o
+primeiro NADH oxidativo derivado do esqueleto carbônico da glicose; lembrando que a glicólise também
+gerou NADH no citosol, mas é outro pool), e sai 1 acetil-CoA pronto para entrar no ciclo. Como cada
+glicose dá 2 piruvatos, cada glicose passa duas vezes pelo PDH e duas vezes pelo ciclo.
+
+    PDH não faz parte do ciclo, mas é tratado junto
+
+    É comum o aluno achar que o PDH é "a primeira etapa do ciclo". Não é. O ciclo de Krebs estrito tem
+    8 reações, começa em citrato sintase (acetil-CoA + OAA  citrato) e termina em malato desidro
+    genase (malato  OAA). O PDH fornece o substrato (acetil-CoA), mas é uma reação preparatória.
+    Esse detalhe importa em contabilidade de ATP: o NADH do PDH e os NADHs do ciclo são contados
+    separadamente quando se fecha o balanço por glicose.
+
+   8CoA ­ coenzima A -- transportadora de grupos acila por ligação tioéster com o grupo ­SH terminal. Derivada do ácido
+pantotênico.
+
+   9NAD ­ nicotinamida adenina dinucleotídeo oxidado -- aceitador de 2 elétrons via hidreto; reduzido a NADH.
+   10PDH ­ complexo piruvato desidrogenase -- agregado multienzimático na matriz mitocondrial que converte piruvato
+em acetil-CoA + CO + NADH. Reação irreversível na célula.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Piruvato no citosol  entra na matriz via MCT/MPC11  PDH faz descarboxilação
+oxidativa. Produtos: 1 CO, 1 NADH, 1 acetil-CoA por piruvato. Acetil-CoA é o substrato real do ciclo; PDH
+é a ponte irreversível.
+
+1.3 -- Complexo PDH -- três enzimas, cinco coenzimas
+O PDH não é uma enzima; é um agregado de três enzimas diferentes trabalhando em sequência, com
+cinco coenzimas distintas. Essa arquitetura merece atenção porque um padrão semelhante aparece
+de novo dentro do ciclo (na -cetoglutarato desidrogenase, etapa 4) e também na desidrogenase de
+aminoácidos de cadeia ramificada -- é um motivo recorrente em descarboxilações oxidativas.
+
+As três enzimas do complexo PDH. E1 (piruvato desidrogenase, usa TPP12) descarboxila o piruvato. E2 (diidrolipoil
+transacetilase, usa ácido lipóico ligado covalentemente) transfere o acetil para a CoA. E3 (diidrolipoil desidrogenase,
+usa FAD13) reoxida o lipoato e doa os elétrons para o NAD.
+
+acetil-CoA14
+
+E1 (piruvato desidrogenase) é a parte que efetivamente reconhece o piruvato e tira o CO. Para isso usa
+tiamina pirofosfato (TPP), derivada da vitamina B1. E2 (diidrolipoil transacetilase) recebe o grupo de
+2 carbonos (chamado "hidroxietil" enquanto ainda está em TPP) e o transfere para o ácido lipóico, que
+está ligado covalentemente a uma lisina da própria E2 -- formando uma "lipoamida". O lipoato pega o
+grupo acetil e oxida o hidroxietil a acetil; em seguida, o lipoato passa o acetil para a CoA, gerando acetil-
+CoA e ficando ele mesmo reduzido (diidrolipoato). E3 (diidrolipoil desidrogenase) entra para reoxidar
+
+   11MPC ­ carreador de piruvato mitocondrial -- complexo proteico recentemente caracterizado responsável pelo trans
+porte de piruvato através da membrana interna, em conjunto com a família MCT.
+
+   12TPP ­ tiamina pirofosfato -- coenzima derivada da vitamina B1 (tiamina). Aceitadora do carbânion do piruvato no E1
+do complexo PDH.
+
+   13FAD ­ flavina adenina dinucleotídeo oxidado -- aceitador de 2 elétrons via 2 hidrogênios; reduzido a FADH.
+   14acetil-CoA ­ grupo de dois carbonos (CH­CO­) ligado por tioéster ao ­SH terminal da coenzima A. A ligação tioéster
+é de alta energia ( 31 kJ/mol de hidrólise), e é essa energia que viabiliza a condensação com OAA na primeira etapa do ciclo.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+o diidrolipoato: tira 2 elétrons + 2 H do lipoato reduzido, passa primeiro para um FAD ligado à E3, e o
+FADH formado transfere os elétrons ao NAD, regenerando NADH.
+
+ As cinco coenzimas do PDH e a vitamina que originou cada uma. TPP (de tiamina, B1), CoA (de ácido pantotênico,
+ B5), NAD (de niacina, B3), FAD (de riboflavina, B2), ácido lipóico (vitamina não-clássica). Deficiência em qualquer
+ uma dessas vitaminas compromete o PDH e, indiretamente, todo o catabolismo aeróbico.
+Repare na economia da arquitetura. O grupo acetil nunca solta no meio -- ele "viaja" da TPP para o
+lipoato e do lipoato para a CoA sem se difundir livremente. O ácido lipóico tem uma cadeia flexível longa
+que age como um braço mecânico, alcançando os sítios das três enzimas. É por isso que o complexo
+funciona como uma única unidade catalítica e praticamente não há vazamento de intermediários. Em
+E. coli, microscopia eletrônica mostra que o complexo PDH tem o tamanho de um ribossomo.
+
+O ácido lipóico ligado a uma lisina da E2 forma a chamada lipoamida, com uma cadeia longa e flexível. Esse "braço"
+é o que permite ao lipoato visitar os três sítios ativos do complexo sem o grupo acetil precisar se difundir livremente.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: PDH = 3 enzimas + 5 coenzimas. E1 (TPP) descarboxila; E2 (lipoato) transfere
+acetil para CoA; E3 (FAD  NAD) reoxida o lipoato. O braço flexível do lipoato canaliza o intermediário
+entre os três sítios -- arquitetura repetida na -cetoglutarato desidrogenase.
+
+1.4 -- TPP, lipoamida e a clínica do beribéri
+Cinco coenzimas, quatro derivadas de vitaminas hidrossolúveis (TPP, CoA, NAD, FAD são B1, B5, B3 e
+B2 respectivamente; lipoato a célula sintetiza). Deficiência de qualquer uma compromete o PDH. Mas
+a deficiência com história clínica mais marcante é a de tiamina (B1), que dá o quadro do beribéri.
+
+Beribéri -- deficiência de tiamina. A melhor fonte é levedura de cerveja seca; aparece em populações que consomem
+arroz polido (perda da casca rica em B1) e em alcoolistas crônicos (déficit alimentar + má absorção). Duas formas
+clínicas: beribéri seco (neuropatia periférica) e beribéri úmido (insuficiência cardíaca de alto débito). Em alcoolis
+tas, soma-se a encefalopatia de Wernicke (oftalmoplegia, ataxia, confusão) e a síndrome de Korsakoff (amnésia
+anterógrada).
+
+beribéri15
+A lógica clínica é direta. Sem TPP, o PDH não consegue descarboxilar piruvato -- o piruvato se acumula
+no citosol e vira lactato (via lactato desidrogenase, regenerando NAD para a glicólise continuar). Em
+paciente com beribéri, o lactato sérico sobe, e tecidos altamente glicolíticos como o cérebro e o
+miocárdio param de oxidar glicose por completo. Daí o quadro neurológico (Wernicke-Korsakoff em
+alcoolistas) e o cardíaco (insuficiência de alto débito por miocárdio metabolicamente lentificado).
+
+   15beribéri ­ doença carencial por deficiência de vitamina B1 (tiamina). Sem TPP, o PDH e a -cetoglutarato desidro
+genase travam, e tecidos altamente dependentes de oxidação aeróbica de glicose (coração, neurônios) sofrem primeiro.
+Reposição parenteral de tiamina reverte a forma aguda em horas.
+
+                                                                                 9
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Antes da glicose, a tiamina -- regra do pronto-socorro
+
+Em paciente com suspeita de alcoolismo, NUNCA infundir soro glicosado sem dar tiamina antes
+(ou junto). A glicose chega à célula, vira piruvato pela glicólise, e sem TPP o PDH não consegue
+processar -- o piruvato acumulado pode precipitar uma encefalopatia de Wernicke aguda. A regra
+prática é tiamina IM/IV 100 mg antes do soro glicosado. Essa é uma das pegadinhas clássicas
+em prova de clínica médica.
+
+Estrutura da tiamina pirofosfato (TPP). O anel tiazol é onde o piruvato se liga; o anel pirimidínico ativa o C2 do tiazol
+como nucleófilo. Os dois fosfatos servem para ancorar a coenzima no sítio ativo. A reação do PDH é, em essência,
+química do anel tiazol da TPP.
+
+   Resumindo até aqui: Sem B1, sem TPP, sem PDH funcional. Piruvato acumula  vira lactato; tecidos
+   aeróbicos (cérebro, coração) sofrem primeiro. Beribéri seco = neuropatia; beribéri úmido = insuficiência
+   cardíaca. Em alcoolistas: Wernicke-Korsakoff. Tiamina antes da glicose é regra do PS.
+
+       10
+NEBLI                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- As oito reações em ordem
+
+2.1 -- Condensação e isomerização -- citrato, fluoracetato como toxina
+Acetil-CoA chegou. Agora começa o ciclo de fato. Olhe primeiro a figura panorâmica abaixo -- vamos
+transitar por ela várias vezes nesta PARTE II. As oito reações estão dispostas em círculo, cada uma
+com sua enzima identificada. Repare que o ciclo começa e termina com o mesmo intermediário, o
+oxaloacetato (OAA). Acetil-CoA entra (2 carbonos), 2 CO saem, e OAA é regenerado -- isso é o que faz o
+sistema ser um ciclo e não uma via linear.
+
+Figura-âncora da PARTE II. As 8 reações do ciclo em círculo, com a enzima de cada etapa. Em sentido horário a partir
+do topo: citrato sintase (1)  aconitase (2)  isocitrato desidrogenase (3)  -cetoglutarato desidrogenase (4) 
+succinil-CoA sintetase (5)  succinato desidrogenase (6)  fumarase (7)  malato desidrogenase (8)  de volta a
+OAA. Acetil-CoA entra na etapa 1; 2 CO saem nas etapas 3 e 4; NADH/FADH/GTP saem nas etapas 3, 4, 5, 6 e 8.
+
+OAA16
+
+   16OAA ­ oxaloacetato -- -cetoácido de 4 carbonos. Substrato da citrato sintase (etapa 1) e produto da malato desidro
+genase (etapa 8). É o "carregador" do ciclo: regenera-se a cada volta.
+
+   17descarboxilação oxidativa ­ reação que combina remoção de CO (descarboxilação) com transferência de elétrons
+(oxidação) para NAD, em um mesmo passo enzimático. Acontece em três pontos centrais do metabolismo: PDH (piruvato
+ acetil-CoA), ICD18 (isocitrato  -KG19, etapa 3 do ciclo) e -KG-DH (-KG  succinil-CoA, etapa 4). Sempre irreversível
+na célula.
+
+   18ICD ­ isocitrato desidrogenase -- enzima da etapa 3 do ciclo. A isoforma mitocondrial usa NAD (não NADP),
+produzindo NADH + CO + -cetoglutarato.
+
+                                                                                11
+NEBLI                        ETAPA 1 -- TEXTO DIDÁTICO
+
+descarboxilação oxidativa17
+
+Etapa 1 -- citrato sintase. O acetil-CoA condensa com o oxaloacetato. O grupo metila do acetil ataca o
+carbono carbonílico do OAA, formando uma ligação C­C e liberando a CoA. O produto é o citrato, uma
+molécula de 6 carbonos (4 do OAA + 2 do acetil). A reação é fortemente exergônica:
+
+       Acetil-CoA + OAA + HO  Citrato + CoA-SH + H
+
+       G'° = -32,2 kJ/mol -- irreversível, ponto de regulação
+
+Etapa 1: condensação aldólica entre acetil-CoA e OAA, catalisada pela citrato sintase. O G'° muito negativo (-32 kJ/
+mol) vem da hidrólise concomitante da ligação tioéster do acetil-CoA -- é a tioéster que paga a condensação. Por
+ser irreversível, esta é uma das três grandes alavancas de regulação do ciclo.
+Etapa 2 -- aconitase. O citrato é uma molécula simétrica em torno do grupo central, e seria difícil para
+uma desidrogenase atacá-lo seletivamente. Por isso, a aconitase faz uma isomerização: move o grupo
+­OH do C3 para o C2, passando por um intermediário desidratado (cis-aconitato). O produto final é o
+isocitrato -- mesma fórmula molecular do citrato (CHO), mas com a hidroxila num carbono que pode
+ser oxidado na etapa seguinte. A reação é reversível, com G'°  +13 kJ/mol; só caminha para frente
+porque o isocitrato é consumido imediatamente pela etapa 3.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Fluoracetato -- rodenticida de toxicidade extrema. Após captação pela célula, é convertido em fluorocitrato, que é
+um inibidor potentíssimo da aconitase. O ciclo trava na etapa 2, citrato acumula, oxidação aeróbica colapsa. Dose
+letal: 2­10 mg/kg em humanos. Sintomas em 30­100 min: náusea, vômito, dor abdominal, arritmias e convulsões.
+Sem antídoto específico. Caso clássico de toxicologia: a aconitase é um nó de estrangulamento do metabolismo.
+
+    Fluoracetato e o paradoxo do envenenamento por análogo
+
+    O fluoracetato é uma molécula minúscula (CHF­COOH) que a célula confunde com acetato. Ela
+    vira fluoroacetil-CoA e entra na citrato sintase como se fosse acetil-CoA, produzindo fluoroci
+    trato. Esse fluorocitrato então se liga avidamente à aconitase e não é processado -- fica preso
+    no sítio, inativando a enzima. É um exemplo paradigmático de "letal synthesis": o organismo
+    fabrica seu próprio veneno a partir de um precursor inerte. Sem aconitase, o ciclo de Krebs trava;
+    sem ciclo, não há NADH para a cadeia respiratória; sem cadeia, não há ATP. Em poucas horas,
+    parada cardíaca.
+
+   Resumindo até aqui: Etapa 1: citrato sintase condensa acetil-CoA + OAA  citrato (-32 kJ/mol, irrever
+   sível). Etapa 2: aconitase isomeriza citrato em isocitrato. Bloqueio da aconitase pelo fluoracetato trava
+   todo o ciclo -- daí seu uso como rodenticida e sua periculosidade aguda.
+
+2.2 -- As duas descarboxilações oxidativas -- NADH + CO duas vezes
+Etapa 3 -- isocitrato desidrogenase (ICD). Aqui o ciclo perde seu primeiro carbono como CO. A enzima
+primeiro oxida o ­OH do isocitrato a uma cetona, produzindo um intermediário transiente chamado
+oxalossuccinato (a forma carboxilada do -cetoglutarato). Esse oxalossuccinato é instável: o grupo
+carboxila adjacente à cetona se desprende espontaneamente como CO, gerando -cetoglutarato (-
+KG) de 5 carbonos. O par redox dessa reação é NAD  NADH (na ICD mitocondrial; existe também uma
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+isoforma citosólica que usa NADP, ligada à biossíntese de gordura). A reação é muito exergônica (G'°
+ -20 kJ/mol) e irreversível.
+
+Mecanismo da ICD. Primeiro o NAD aceita o hidreto do C2 do isocitrato, oxidando-o a oxalossuccinato (cetona). Em
+seguida, o grupo carboxila no C3 (-carbonila) sai como CO. O Mn² no sítio ativo estabiliza o intermediário enolato.
+Resultado: -KG + CO + NADH.
+
+Etapa 4 -- -cetoglutarato desidrogenase. O -KG perde o segundo carbono como CO, e o grupo de
+4 carbonos restante é transferido para a CoA-SH formando succinil-CoA. NAD é reduzido a NADH.
+Essa reação é quase idêntica em mecanismo à do PDH: mesmo motivo de três enzimas, mesmas
+cinco coenzimas (TPP, lipoato, CoA, FAD, NAD), mesma química de descarboxilação oxidativa. A única
+diferença é o substrato (-cetoglutarato no lugar do piruvato). A reação é fortemente exergônica (G'° 
+-33 kJ/mol) e irreversível.
+
+       14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Etapa 4 -- -cetoglutarato desidrogenase. Mesma química do PDH: descarboxilação oxidativa de um -cetoácido,
+transferência para CoA, produção de NADH. Por isso é cofator-dependente das mesmas vitaminas (B1, B2, B3, B5 +
+lipoato). Em paciente com beribéri, esta enzima também trava -- o ciclo perde duas etapas de uma vez.
+
+    Os dois CO que saem do ciclo NÃO são do acetil que acabou de entrar
+    Um detalhe sutil mas importante: os dois CO liberados nas etapas 3 e 4 não são os mesmos dois
+    carbonos do acetil-CoA que entrou. Por causa da simetria do citrato e do mecanismo da aconitase,
+    os carbonos do acetil "viajam" pelo ciclo de modo que só saem como CO em voltas posteriores.
+    Em termos de balanço estequiométrico líquido, cada volta libera 2 CO; mas se você marcar
+    isotopicamente os carbonos do acetil, eles não saem nessa mesma volta. Para fins de prova de
+    fisiologia, basta saber que cada volta = 2 CO saem.
+
+   Resumindo até aqui: Etapas 3 e 4 = as duas descarboxilações oxidativas. Cada uma libera 1 CO + 1
+   NADH. A etapa 4 é quimicamente idêntica ao PDH (mesmas 5 coenzimas, mesmo motivo de 3 enzimas).
+   Ambas são irreversíveis e pontos de regulação.
+
+2.3 -- Fosforilação em nível de substrato -- succinil-CoA até GTP
+Etapa 5 -- succinil-CoA sintetase. Saímos da etapa 4 com succinil-CoA, que carrega uma ligação
+tioéster de alta energia. Essa energia não pode ser desperdiçada. A succinil-CoA sintetase aproveita a
+hidrólise da ligação tioéster para fosforilar um nucleotídeo difosfato -- gerando GTP (em alguns tecidos,
+ATP). Esta é a única fosforilação em nível de substrato do ciclo, e contribui com aquele 1 GTP por volta
+que mencionamos no início.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Mecanismo da succinil-CoA sintetase em três passos. (1) O fosfato inorgânico ataca o succinil-CoA, formando
+succinil-fosfato e liberando CoA. (2) O fosfato é transferido para um resíduo de histidina do sítio ativo, gerando
+3-fosfo-histidina (intermediário covalente). (3) A fosfo-histidina transfere o fosfato para GDP20, gerando GTP e
+liberando o succinato. Conservação química elegante: a energia da tioéster é convertida em fosfato de alta energia,
+sem dissipação.
+A reação global da etapa 5 é:
+
+                          Succinil-CoA + GDP + Pi21  Succinato + CoA-SH + GTP
+                             G'°  -3,3 kJ/mol -- próximo do equilíbrio, reversível in vivo
+E o GTP gerado é equivalente energético do ATP: a nucleosídeo difosfato quinase converte rapidamente
+GTP + ADP22 em GDP + ATP, equalizando os pools. Por isso, em contabilidade, conta-se 1 ATP por volta
+do ciclo (vindo da etapa 5).
+
+   20GDP ­ guanosina difosfato -- produto da hidrólise do GTP; substrato da succinil-CoA sintetase.
+   21Pi ­ fosfato inorgânico (HPO² em pH fisiológico). Pool celular 1­5 mM.
+   22ADP ­ adenosina difosfato -- produto da hidrólise do ATP; substrato da ATP-sintase para regenerar ATP.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Nucleosídeo difosfato quinase: GTP + ADP  GDP + ATP. Mantém os pools de nucleotídeos equilibrados, e é por isso
+que o GTP do ciclo é contabilizado como ATP em termos energéticos.
+
+   Resumindo até aqui: Etapa 5 = fosforilação em nível de substrato. A energia da tioéster do succinil-CoA
+   é "salva" como GTP, via intermediário fosfo-histidina. É o único ATP/GTP que sai do ciclo diretamente --
+   o resto vem da cadeia respiratória, alimentada pelos NADH/FADH das outras etapas.
+
+2.4 -- Três reações que regeneram OAA -- FADH, fumarato, NADH
+Restam três reações para fechar o ciclo: oxidar succinato (4C, sem heteroátomo interessante) de volta
+a OAA (4C, com cetona) -- para que um novo acetil-CoA possa entrar na próxima volta. Repare que
+estamos fazendo uma oxidação líquida de 4 elétrons (dois H) nessa sequência: succinato  fumarato
+ malato  OAA.
+Etapa 6 -- succinato desidrogenase (SDH). O succinato (CH­CH no meio) é oxidado a fumarato
+(CH=CH no meio, ligação dupla trans). Os 2 elétrons + 2 H removidos vão para um FAD ligado covalente
+mente à enzima, gerando FADH. FAD em vez de NAD aqui porque a reação é energeticamente "fraca"
+demais para reduzir NAD: o par redox succinato/fumarato fica próximo do par FAD/FADH em potencial
+(G'°  0).
+A SDH é a única enzima do ciclo embutida na membrana mitocondrial interna -- ela é simultanea
+mente o complexo II da cadeia respiratória. O FADH gerado não se solta: passa os elétrons diretamente
+para a ubiquinona dentro da membrana. Por isso, o FADH "entra" na cadeia respiratória em um ponto
+mais à frente que o NADH (depois do complexo I), e bombeia menos prótons -- o que se traduz em
+menos ATP por FADH que por NADH (vamos quantificar em 3.1).
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Etapa 6: SDH oxida succinato a fumarato, com FAD  FADH. Único passo do ciclo embutido na membrana interna
+-- ela é também o complexo II da cadeia respiratória. G'°  0 (reação no equilíbrio).
+
+Malonato como inibidor competitivo da SDH. Estrutura: HOOC­CH­COOH (3 carbonos) versus succinato HOOC­
+CH­CH­COOH (4 carbonos). O malonato "imita" o succinato no sítio ativo e bloqueia a entrada do substrato
+real. Paradigma histórico de inibição competitiva -- foi com esse experimento que Krebs e outros confirmaram a
+sequência do ciclo, observando acúmulo de succinato quando malonato era adicionado.
+
+MDH23
+
+   23MDH ­ malato desidrogenase -- enzima da etapa 8 do ciclo. Oxida malato a OAA, gerando NADH. Reação altamente
+endergônica em equilíbrio (G'° = +29,7 kJ/mol), só caminha para frente porque a citrato sintase consome OAA imedi
+atamente.
+
+                                                                                18
+NEBLI                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+Etapa 7 -- fumarase. A fumarase adiciona uma molécula de HO à dupla ligação trans do fumarato,
+gerando L-malato (4C com ­OH no C2). É uma hidratação estereoespecífica -- só L-malato é produzido,
+nunca D-malato. G'°  -3,8 kJ/mol, reversível.
+
+       Fumarato + HO  L-malato
+
+Etapa 8 -- malato desidrogenase (MDH). O ­OH do malato é oxidado a cetona, regenerando o OAA.
+NAD é reduzido a NADH. Atenção a esse G'°:
+
+       L-malato + NAD  OAA + NADH + H
+
+       G'° = +29,7 kJ/mol -- endergônica em equilíbrio, mas caminha para frente in vivo
+
+G'°24
+
+Como pode uma reação endergônica funcionar? Porque a citrato sintase consome OAA imediata
+mente, mantendo a concentração de OAA muito baixa ( µM). A equação de Gibbs depende do quociente
+[produtos]/[reagentes]; com [OAA] muito baixo, o G real (não o G'°) fica negativo. É o acoplamento
+entre as etapas 8 e 1 que torna o ciclo termodinamicamente viável. Removeu-se a citrato sintase,
+malato acumula, OAA cai a zero, ciclo trava.
+
+Resumindo até aqui: Três etapas finais para regenerar OAA: succinato  fumarato (FADH, etapa 6,
+SDH)  malato (etapa 7, fumarase)  OAA (NADH, etapa 8, MDH). Etapa 8 é endergônica mas viabi
+lizada pelo consumo imediato de OAA pela etapa 1. O acoplamento 81 é o "puxa" termodinâmico do
+ciclo.
+
+   24G'° ­ variação de energia livre de Gibbs em condições padrão bioquímicas (pH 7, 25 °C, concentrações de 1 M). Difere
+do G real (in vivo) porque na célula as concentrações são longe de 1 M. Uma reação com G'° positivo pode ainda assim
+correr para frente in vivo se o produto é mantido em concentração muito baixa -- o caso da etapa 8 do ciclo.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Contabilidade, regulação e o ciclo como hub
+
+3.1 -- Balanço por volta e da glicose ao Krebs -- 30­32 vs 38 ATP
+Vamos fechar a contabilidade. Por cada volta do ciclo (ou seja, por cada acetil-CoA que entra), o saldo é:
+
+                               Acetil-CoA + 3 NAD + FAD + GDP + Pi + 2 HO 
+                                2 CO + CoA-SH + 3 NADH + FADH + GTP + 2 H
+                   3 NADH (etapas 3, 4, 8) · 1 FADH (etapa 6) · 1 GTP (etapa 5) · 2 CO (etapas 3, 4)
+Como cada glicose dá 2 piruvatos e portanto 2 acetil-CoA, o ciclo roda duas vezes por glicose. Acumu
+lando glicólise + PDH + Krebs:
+                       Balanço por glicose (estoque bruto de produtos reduzidos):
+
+                                       Glicólise: 2 ATP + 2 NADH (citosólicos)
+                                               PDH (×2): 2 NADH (matriz)
+
+                                       Ciclo (×2): 6 NADH + 2 FADH + 2 GTP
+Agora, quanto ATP isso vira na cadeia respiratória? Aqui há um detalhe histórico importante. Livros
+antigos (e a figura clássica do slide 34) assumiam:
+
+                   Modelo antigo: 3 ATP por NADH · 2 ATP por FADH · 1 ATP por GTP
+                         2 + (2×3) + (2×3) + (6×3) + (2×2) + 2 = 38 ATP por glicose
+
+Modelo estequiométrico antigo (38 ATP). Esta era a contabilidade até os anos 1990 -- pressupõe que cada NADH
+gera 3 ATP e cada FADH gera 2 ATP. Ainda aparece em provas mais antigas, então vale conhecer.
+
+                                                                              20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Mas medidas mais cuidadosas do rendimento da ATP sintase mostraram que a relação H/ATP não é
+inteira, e que o transporte mitocondrial gasta parte do gradiente. A estequiometria moderna é:
+
+       Modelo moderno: 2,5 ATP por NADH · 1,5 ATP por FADH · 1 ATP por GTP
+
+        2 + (2×1,5) + (2×2,5) + (6×2,5) + (2×1,5) + 2 = 30­32 ATP por glicose
+
+Tabela 16-1 do Lehninger: estequiometria moderna com 2,5 ATP/NADH e 1,5 ATP/FADH. O total varia entre 30 e 32
+ATP dependendo de qual lançadeira (malato-aspartato ou glicerol-fosfato) é usada para trazer os NADH citosólicos
+da glicólise para dentro da mitocôndria.
+A faixa de 30­32 ATP aparece porque os 2 NADH da glicólise são citosólicos e precisam de uma
+lançadeira (malato-aspartato no fígado/coração, glicerol-fosfato em músculo/cérebro) para chegar à
+matriz mitocondrial. A lançadeira malato-aspartato preserva o NADH (rende 2,5 ATP); a glicerol-fosfato
+converte em FADH (rende só 1,5 ATP). Daí a diferença de 2 ATP no total final.
+
+    Use a contabilidade moderna se a prova der opção numérica
+    Para a P3 de UC1 da FMUSP, a contabilidade moderna (30­32 ATP) é a que vale. O número 38
+    ATP ainda aparece em provas em formato de "modelo antigo" para comparação histórica, mas se
+    a questão pedir "qual o rendimento da oxidação completa de uma glicose?", a resposta esperada
+    hoje é 30 ou 32 ATP, dependendo da lançadeira. Se a questão não especificar lançadeira, vale
+    "30­32".
+
+                                                                                21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Por volta: 3 NADH + 1 FADH + 1 GTP + 2 CO. Por glicose: 2 ATP (glicólise) + 2
+NADH (glicólise) + 2 NADH (PDH) + 6 NADH (Krebs) + 2 FADH (Krebs) + 2 GTP (Krebs). Total: 30­32 ATP
+(modelo moderno, 2,5 ATP/NADH, 1,5 ATP/FADH) ou 38 ATP (modelo antigo, 3:2).
+
+3.2 -- Regulação alostérica das quatro enzimas-chave
+O ciclo não roda em velocidade fixa -- acelera quando a célula precisa de ATP e freia quando o ATP está
+abundante. A regulação se concentra em quatro enzimas-chave, escolhidas porque catalisam reações
+irreversíveis ou estão no ponto de entrada do ciclo:
+
+Regulação alostérica do ciclo. PDH (porta de entrada do acetil): inibido por NADH, acetil-CoA e ATP; ativado por
+NAD, ADP, Ca². Citrato sintase (etapa 1): inibida por citrato e succinil-CoA (feedback do próprio produto e de etapas
+posteriores), por NADH e ATP. Isocitrato desidrogenase (etapa 3): ativada por ADP e Ca²; inibida por NADH e ATP. -
+cetoglutarato desidrogenase (etapa 4): inibida por succinil-CoA e NADH; ativada por Ca². Padrão consistente: sinais
+de "energia em excesso" (ATP, NADH, acetil-CoA) freiam; sinais de "demanda" (ADP, NAD, Ca²) aceleram.
+
+Os três sinais que freiam (= "tenho energia sobrando"):
+· ATP alto: a célula está cheia de moeda energética, não precisa fabricar mais.
+· NADH alto: a cadeia respiratória está saturada de elétrons (relação NADH/NAD alta), não dá conta de
+
+  processar mais.
+· Acetil-CoA alto (no caso do PDH): já há substrato suficiente acumulado adiante.
+Os três sinais que aceleram (= "preciso de mais energia"):
+· ADP alto: a célula gastou ATP, precisa repor.
+· NAD alto: a cadeia respiratória está com fome de elétrons.
+
+                                                                                22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+· Ca² alto: a célula está em ação (músculo se contraindo, neurônio disparando) -- sinal direto de
+  demanda imediata.
+
+O Ca² ativa três enzimas em paralelo: PDH (via PDH-fosfatase), isocitrato desidrogenase e -cetoglutarato desidro
+genase. Significado fisiológico: quando o músculo se contrai (Ca² alto no citosol e na matriz), o ciclo acelera
+simultaneamente em vários pontos, sincronizando demanda de ATP com produção. Mesma molécula que dispara a
+contração dispara o metabolismo.
+
+O papel especial do Ca² merece destaque. Em músculo, neurônio e células secretoras, o Ca² é o sinal
+universal de ativação -- sobe quando há despolarização ou demanda funcional. O fato de o Ca² entrar
+na matriz mitocondrial e ativar simultaneamente três enzimas do ciclo (PDH, ICD, -KG-DH) significa
+que o mesmo sinal que dispara a função celular dispara a produção de ATP. É um acoplamento
+elegantíssimo entre estímulo e metabolismo.
+
+   Resumindo até aqui: Quatro enzimas-chave reguladas: PDH, citrato sintase, ICD, -KG-DH. Freiam com
+   ATP, NADH, acetil-CoA, succinil-CoA. Aceleram com ADP, NAD e principalmente Ca² -- que ativa 3 das
+   4 em paralelo, sincronizando contração/disparo com produção energética.
+
+3.3 -- Funções anfibólicas -- entradas e saídas de intermediários
+Até aqui tratamos o ciclo como uma via catabólica -- gera energia oxidando acetil-CoA. Mas o ciclo é
+também anabólico: seus intermediários saem do ciclo para virar precursores de biossínteses essenciais.
+Por isso se diz que o ciclo é anfibólico (do grego amphi-, "duplo lado" -- catabólico e anabólico).
+anfibólico25
+
+   25anfibólico ­ que serve simultaneamente a vias catabólicas (quebra para gerar energia) e anabólicas (síntese de
+macromoléculas). O ciclo de Krebs é o exemplo canônico: oxida acetil-CoA e fornece intermediários (citrato, -KG, succinil-
+CoA, OAA) para biossíntese de lipídios, aminoácidos, porfirinas e nucleotídeos.
+
+                                                                                23
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+Funções anfibólicas do ciclo. Entradas anabólicas (aminoácidos quebrados): aspartato e asparagina entregam OAA;
+várias entregam -KG (via glutamato), succinil-CoA (Met, Val, Ile, Thr), fumarato (Phe, Tyr). Saídas: citrato sai para o
+citosol e vira acetil-CoA citosólico (síntese de ácidos graxos e esteróis); -KG sai para virar glutamato e os aminoá
+cidos derivados; succinil-CoA é precursor das porfirinas (heme); OAA vira aspartato (e pirimidinas via aspartato) e
+também glicose pela gliconeogênese (via PEP26). O ciclo é o hub central do metabolismo intermediário.
+
+As principais saídas a memorizar (cada uma é um ramo importante da biossíntese):
+
+    Intermediário  Produto biossintético                                         Relevância
+Citrato
+-KG                Acetil-CoA citosólico  áci Síntese de lipídios; via do "citrato-malato
+Succinil-CoA
+Fumarato           dos graxos, esteróis        shuttle"
+OAA
+                   Glutamato  outros aminoá Receptor universal de NH em transami
+
+                   cidos, glutamina            nação
+
+                   Porfirinas (heme), corrinas Síntese de hemoglobina; mioglobina;
+
+                   (B12)                       citocromos
+
+                   Sai do ciclo da uréia (aspar Conecta ciclo da uréia com Krebs
+                   tato  fumarato)
+
+                   Aspartato  pirimidinas,     Síntese de nucleotídeos; produção hep
+                   asparagina; glicose (glico  ática de glicose em jejum
+                   neogênese via PEP)
+
+26PEP ­ fosfoenolpiruvato -- intermediário rico em energia da glicólise
+                                                                             24
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Implicação clínica direta: se o ciclo é ativamente drenado (por exemplo, durante crescimento celular
+intenso, em tumores), os intermediários precisam ser repostos -- caso contrário, o OAA cai, a etapa 1
+trava e o ciclo para. Essa reposição é o tema da próxima seção: anaplerose.
+
+Resumindo até aqui: Ciclo é anfibólico: simultaneamente quebra acetil-CoA (catabolismo) e fornece
+intermediários para biossínteses (anabolismo). Saídas principais: citrato (lipídios), -KG (aminoácidos),
+succinil-CoA (porfirinas), OAA (pirimidinas, glicose). Drenagem precisa ser reposta para manter o OAA.
+
+3.4 -- Anaplerose -- piruvato carboxilase repõe o OAA
+Se intermediários saem do ciclo para biossíntese, é preciso repor -- senão o OAA, em particular, diminui
+e a etapa 1 (citrato sintase) trava. Reações que abastecem o ciclo de intermediários são chamadas
+anapleróticas (do grego ana-plerão, "encher por cima").
+anaplerose27
+A principal reação anaplerótica é catalisada pela piruvato carboxilase, presente em fígado e rim:
+
+                                   Piruvato + HCO + ATP  OAA + ADP + Pi
+
+                                  G'°  -2 kJ/mol · consome 1 ATP · biotina como cofator
+
+Piruvato carboxilase -- reação anaplerótica principal. Carboxila piruvato (3C) em OAA (4C), gastando ATP e usando
+biotina como carregador de CO. Repõe OAA sempre que o ciclo está sendo drenado para biossíntese. Localização:
+fígado e rim (também relevante na gliconeogênese).
+
+   27anaplerose ­ processo de reposição de intermediários do ciclo de Krebs quando eles são drenados para biossíntese. A
+reação anaplerótica dominante em mamíferos é a piruvato carboxilase, que converte piruvato em OAA gastando ATP. Sem
+anaplerose adequada, o ciclo perde substrato (OAA cai), a etapa 1 trava e a oxidação aeróbica colapsa.
+
+                                                                                25
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Como essa enzima sabe a hora de funcionar? Por um sinal alostérico elegante: acetil-CoA é o ativador
+positivo da piruvato carboxilase.
+
+Regulação da piruvato carboxilase pelo acetil-CoA. Quando a glicólise está intensa e o nível de acetil-CoA sobe,
+há sinal de que a célula precisa de mais OAA para acomodar o acetil entrando no ciclo. O acetil-CoA ativa alosteri
+camente a piruvato carboxilase, que converte parte do piruvato em OAA em vez de levar tudo para acetil-CoA.
+Virtualmente inativa na ausência de acetil-CoA -- outro exemplo de regulação por substrato à frente.
+
+A lógica fisiológica é direta: acetil-CoA alto significa "estou recebendo muito combustível mas o OAA
+pode não dar conta". A célula desvia parte do piruvato (em vez de tudo virar acetil-CoA via PDH) para
+fabricar OAA novo via piruvato carboxilase. Isso aumenta a capacidade do ciclo quando ele está sobre
+carregado, e também alimenta a gliconeogênese hepática em jejum.
+
+    Deficiência de piruvato carboxilase
+    Defeito raro mas grave. Sem piruvato carboxilase funcional, o fígado não consegue fazer glico
+    neogênese a partir de piruvato/lactato, e o ciclo de Krebs perde sua reposição principal de OAA.
+    Resultado: acidose láctica grave (piruvato acumula  vira lactato), hipoglicemia em jejum (sem
+    gliconeogênese), atraso neurológico (cérebro depende de glicose). Aparece nas primeiras semanas
+    de vida em forma severa, ou em criança com atraso e episódios de acidose em forma branda.
+    Diagnóstico: dosagem da enzima em fibroblastos.
+
+   Resumindo até aqui: Anaplerose = reabastecimento do ciclo. A reação principal é piruvato + HCO +
+   ATP  OAA via piruvato carboxilase (fígado e rim, ativada por acetil-CoA). Sem anaplerose, OAA cai,
+   ciclo trava. Defeito raro  acidose láctica + hipoglicemia + déficit neurológico.
+
+                                                                                26
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Olhando para trás, o ciclo de Krebs é três coisas ao mesmo tempo. Primeiro, é uma máquina
+catabólica precisa: cada acetil-CoA entra, dois CO saem, e a energia das ligações é transferida
+para 3 NADH + 1 FADH + 1 GTP -- o trabalho real de extração de energia da glicose. Segundo,
+é um hub anabólico: seus intermediários alimentam síntese de aminoácidos, ácidos graxos,
+porfirinas, nucleotídeos, e glicose hepática. Terceiro, é um nó regulador finamente sintonizado:
+quatro enzimas-chave respondem a ATP/ADP, NADH/NAD e Ca², sincronizando demanda celular
+com produção energética. A clínica chega por três portas: (1) deficiência de tiamina (beribéri,
+Wernicke), porque trava PDH e -KG-DH; (2) intoxicação por fluoracetato, porque trava aconitase;
+(3) defeitos de piruvato carboxilase, porque comprometem anaplerose. Em todos os três casos, o
+paciente apresenta acidose láctica + sinal neurológico + falência energética em tecidos aeróbi
+cos. Quando você reconhecer esse trio na prova, pense no ciclo. E quando contar ATP, lembre: o
+ciclo produz só 1 GTP direto; o resto vem da cadeia respiratória, fabricado a partir dos NADH e
+FADH que o Krebs entrega.
+
+       27
+NEBLI                                                    RESUMINDO
+
+   Resumindo
+
+Por que o ciclo existe                                   Beribéri -- o problema da B1
+A confusão clássica é achar que Krebs produz ATP         Sem tiamina (B1) não tem TPP; sem TPP, PDH
+em massa. Não produz -- gera só 1 GTP por volta.         e -KG-DH travam simultaneamente. Piruvato
+O trabalho real é colher elétrons em alta energia        acumula, LDH o desvia para lactato  aciduria
+(3 NADH + 1 FADH por volta) e entregar à cadeia          láctica. Tecidos aeróbicos (cérebro, coração) sofrem.
+respiratória, que é quem fabrica ATP em massa.           Três síndromes: beribéri seco (neuropatia), úmido
+Sem cadeia respiratória, NADH/FADH acumulam e            (IC alto débito), Wernicke-Korsakoff (alcoolistas --
+o ciclo para por falta de NAD livre.                     confusão, ataxia, oftalmoplegia, lesão dos corpos
+                                                         mamilares). Regra do PS: em alcoolista com
+Onde acontece e quem participa                           hipoglicemia, tiamina ANTES da glicose -- glicose
+Tudo na matriz mitocondrial. As 8 enzimas                sem tiamina precipita Wernicke fulminante.
+ficam dissolvidas ali, exceto a SDH (succinato
+desidrogenase), única ancorada na membrana               As 8 reações em ordem -- o roteiro
+interna -- porque é simultaneamente complexo             Decora a sequência com os pontos-chave de
+II da cadeia respiratória, passando elétrons direto      cada uma: (1) citrato sintase: acetil-CoA + OAA
+pra coenzima Q sem o FADH "sair" como                     citrato (irreversível, G'° = -32 kJ/mol). (2)
+molécula difusível. O piruvato entra na matriz por       aconitase: citrato  isocitrato (alvo do fluoracetato
+transportador específico (MCT/MPC).                      via fluorocitrato). (3) ICD: isocitrato  -KG +
+                                                         CO + NADH (primeira descarboxilação). (4) -
+O PDH é a ponte, não parte do ciclo                      KG-DH: -KG  succinil-CoA + CO + NADH
+Lembra: o ciclo começa em citrato sintase (acetil-       (complexo análogo ao PDH; mesma 5 coenzimas,
+CoA + OAA  citrato) e termina em malato                  mesma sensibilidade à deficiência de tiamina). (5)
+desidrogenase (malato  OAA). O PDH fica                  succinil-CoA sintetase: succinil-CoA  succinato
+ANTES -- é uma reação preparatória. Mas é                + GTP (única fosforilação em nível de substrato;
+uma ponte irreversível e regulada, então tratamos        mecanismo Pi  succinil-P  fosfo-His  GDP).
+junto. Mecanismo: piruvato + CoA + NAD                   (6) SDH: succinato  fumarato + FADH (única
+acetil-CoA + CO + NADH. Arquitetura: complexo            a usar FAD; alvo do malonato por inibição
+multienzimático com 3 enzimas (E1, E2, E3) e             competitiva). (7) fumarase: fumarato + HO  L-
+5 coenzimas (TPP, lipoamida, CoA, FAD, NAD).             malato (hidratase pura, sem cofator redox). (8)
+A lipoamida tem um braço flexível que passeia            MDH: malato  OAA + NADH (endergônica no
+entre os sítios ativos -- economia mecânica que          padrão, G'° = +29,7 kJ/mol; só roda porque CS
+evita o intermediário escapar pra solvente. Em           consome OAA mantendo a concentração baixa -- Le
+contabilidade de ATP, o NADH do PDH é contado            Chatelier). Saldo por volta: 3 NADH + 1 FADH + 1
+separadamente do NADH do ciclo.                          GTP + 2 CO; OAA volta ao começo.
+
+                                                     28
+NEBLI                                                     RESUMINDO
+
+Dois inibidores famosos -- o gabarito de                  Regulação -- quatro enzimas que
+prova                                                     decidem o fluxo
+Fluoracetato (rodenticida composto 1080): entra           Quatro enzimas-chave: PDH, CS, ICD, -KG-DH.
+na célula e é ativado pela maquinaria metabólica          Inibidores ("energia OK, freia"): ATP, NADH, acetil-
+normal a fluoroacetil-CoA; condensa com OAA pela          CoA, succinil-CoA. Ativadores ("acelera"): ADP,
+citrato sintase formando fluorocitrato, que bloqueia      AMP, NAD, e principalmente Ca², que ativa
+a aconitase. Exemplo paradigmático de "letal              simultaneamente PDH, ICD e -KG-DH -- o mesmo
+synthesis" -- a célula cria o próprio veneno. Dose        Ca² que dispara a contração muscular invade a
+letal humana 2­10 mg/kg; sintomas em 30­100               matriz e acelera o ciclo, sincronizando demanda
+min; sem antídoto específico. Caso clínico clássico:      mecânica com produção energética. PDH tem
+trabalhador rural com convulsões, arritmia, citrato       regulação extra por modificação covalente: PDH-
+sérico elevado.                                           quinase fosforila (inativa) em jejum, poupando
+Malonato: HOOC­CH­COOH (3 carbonos) imita                 piruvato para gliconeogênese; PDH-fosfatase
+o succinato (4 carbonos) no sítio ativo da                desfosforila (ativa) em estado alimentado com
+SDH e bloqueia competitivamente. Reversível               insulina alta.
+com excesso de succinato. Foi historicamente
+importante: o acúmulo de succinato quando                 Anfibólico + anaplerose -- o ciclo como
+malonato é adicionado confirmou que a SDH é o             hub
+passo 6 do ciclo. Cai como exemplo de inibição            Anfibólico não quer dizer "ciclo nos dois
+competitiva nas provas -- basicamente sempre.             sentidos". Quer dizer que serve simultaneamente
+                                                          ao catabolismo (acetil-CoA a CO) E ao anabolismo
+Balanço energético por glicose -- 30­32                   (intermediários para biossíntese). Saídas: citrato 
+ou 38?                                                    ácidos graxos e colesterol; -KG  glutamato e
+Os dois números aparecem em livros, e isso                aminoácidos; succinil-CoA  porfirinas; OAA 
+confunde. O cálculo moderno (2,5 ATP/NADH mit,            aspartato, pirimidinas, gliconeogênese. Entradas:
+1,5 ATP/FADH): glicólise rende 2 ATP direto + 2           aminoácidos catabolizados em -KG, succinil-CoA,
+NADH citosólico (que entra via lançadeira), PDH × 2       fumarato, OAA. Como o ciclo perde intermediários
+= 2 NADH, ciclo × 2 = 6 NADH + 2 FADH + 2 GTP.            o tempo todo para biossíntese, o OAA cairia e a
+Total 30­32 ATP. Por que 30 ou 32? Depende da             CS travaria. Por isso a anaplerose -- do grego
+lançadeira do NADH citosólico: a malato-aspartato         "preencher de novo". Reação principal: piruvato
+(fígado, rim, coração) entrega NADH mitocondrial          carboxilase (PC) -- piruvato + HCO + ATP 
+= 32 ATP; a glicerol-fosfato (músculo, cérebro)           OAA. Cofator biotina; restrita a fígado e rim (por
+entrega FADH = 30 ATP (perde 1 ATP por NADH               isso músculo não faz gliconeogênese). Ativada
+cit). O cálculo antigo (3:2 ATP) dá 38 ATP -- ainda       por acetil-CoA: lógica = "se tem muito acetil-CoA
+aparece em prova brasileira. Macete: se a questão         chegando, precisa de mais OAA para acomodar".
+pede o número, olhe se ela menciona "2,5 ATP/             Clínica: deficiência de PC dá o trio acidose láctica
+NADH" ou "30/32" no enunciado -- aí é cálculo             + hipoglicemia + hiperamonemia nas primeiras
+moderno; senão, provavelmente é o clássico 38.            semanas de vida.
+
+                                                      29
+NEBLI                       RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre o panorama geral do ciclo de Krebs e seu papel no catabolismo, é correto afirmar:
+
+   A) o ciclo gera diretamente todo o ATP da oxidação completa da glicose: a maior parte das 30 a 32
+   ligações fosfato de alta energia formadas por molécula de açúcar saem em fosforilações em nível de
+   substrato dentro do próprio ciclo, e a cadeia respiratória apenas reoxida coenzimas para reciclagem
+   sem participar do balanço energético da glicose.
+
+   B) as oito reações ocorrem no citosol, em sequência com a glicólise, e o produto principal é piruvato
+   -- que então atravessa as membranas mitocondriais por difusão simples para entrar nos comparti
+   mentos onde ocorre a cadeia respiratória da célula em respiração aeróbia.
+
+   C) o O molecular participa diretamente de duas das oito reações (nas descarboxilações oxidativas
+   catalisadas pela isocitrato e pela -cetoglutarato desidrogenases), oxidando carbonos do substrato a
+   CO por incorporação direta de oxigênio.
+
+   D) as oito reações ocorrem na matriz mitocondrial (com a SDH ancorada na membrana interna como
+   exceção), oxidam acetil-CoA a 2 CO, e produzem 3 NADH + 1 FADH + 1 GTP por volta; o grosso do
+   ATP só aparece depois, na cadeia respiratória alimentada pelas coenzimas reduzidas.
+
+   E) o acetil-CoA entra sozinho no ciclo sem precisar condensar com qualquer outro substrato -- a
+   primeira reação é uma simples descarboxilação dos seus dois carbonos, gerando CO e regenerando
+   CoA-SH livre para a próxima volta do ciclo na matriz mitocondrial.
+
+Questão 02 Consolidação
+
+Sobre a entrada do piruvato na matriz mitocondrial e sua conversão a acetil-CoA pelo complexo piruvato
+desidrogenase (PDH), é correto afirmar:
+
+   A) o piruvato atravessa a membrana mitocondrial interna por difusão simples, sem necessidade de
+   transportador específico, já que é uma molécula pequena e neutra em pH fisiológico que cruza a
+   bicamada lipídica livremente em qualquer condição.
+
+   B) o piruvato entra na matriz por transportador específico (MPC, simporte com H); na matriz, o
+   PDH catalisa piruvato + CoA + NAD  acetil-CoA + CO + NADH, reação irreversível em condições
+   celulares (G'°  -33 kJ/mol) que conecta a glicólise ao ciclo.
+
+   C) o PDH é formalmente a primeira reação do ciclo de Krebs (sua reação número 1), e por isso o NADH
+   que ele gera é contado dentro do balanço por volta do ciclo nas tabelas convencionais de bioquímica
+   clínica.
+
+                                                                                30
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) o PDH utiliza apenas NAD como coenzima, sem participação de outras cofatores; o carbono perdido
+como CO vira diretamente ATP por uma fosforilação em nível de substrato dentro da própria reação
+catalisada pelo complexo enzimático na matriz.
+
+E) a reação do PDH é livremente reversível em condições celulares, e por isso em jejum prolongado o
+acetil-CoA acumulado consegue voltar a piruvato e daí a glicose pela gliconeogênese, fechando a via
+no sentido inverso.
+
+Questão 03 Consolidação
+
+O complexo PDH é um agregado multienzimático com três enzimas (E1, E2, E3) e cinco coenzimas. Sobre
+essa arquitetura:
+
+   A) E1 descarboxila o piruvato usando TPP (de B1); E2 transfere o grupo acetil para a CoA via lipoamida
+   (braço flexível ligado covalentemente à enzima); E3 reoxida o diidrolipoato usando FAD (de B2) e
+   finalmente reduz NAD (de B3) -- economia mecânica que evita difusão do intermediário.
+
+   B) as três enzimas funcionam de modo independente, sem contato físico -- o grupo acetil inter
+   mediário se difunde livremente pelo solvente entre uma reação e a próxima, e a estequiometria fica
+   garantida pela alta concentração local de substrato na matriz mitocondrial em qualquer condição
+   fisiológica.
+
+   C) E1 é a enzima que reduz o NAD no passo final da reação global, gerando o NADH que sairá do
+   complexo para alimentar a cadeia respiratória downstream em qualquer tecido aeróbio do organismo.
+
+   D) o grupo acetil sai do complexo na forma de aldeído livre em solução, e só depois se conjuga com a
+   coenzima A por uma reação adicional catalisada por uma quarta enzima da matriz mitocondrial em
+   qualquer condição fisiológica.
+
+   E) o complexo PDH é regulado exclusivamente por concentração de substrato (piruvato) -- não há
+   controle alostérico nem modificação covalente envolvida no controle de sua atividade in vivo na célula
+   eucariótica em qualquer tecido aeróbio testado.
+
+Questão 04 Consolidação
+
+Em uma criança com beribéri infantil por deficiência alimentar grave de tiamina (vitamina B1), julgue
+os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. a tiamina é precursora da TPP (tiamina pirofosfato), coenzima essencial de pelo menos três descar
+   boxilações oxidativas relevantes -- PDH, -cetoglutarato desidrogenase e transcetolase da via das
+   pentoses -- e por isso a deficiência compromete múltiplas rotas do metabolismo aeróbio simultane
+   amente.
+
+       31
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+II. no exame laboratorial, espera-se que o lactato sérico esteja abaixo do limite inferior da normal
+idade, pois sem TPP a PDH trava e o piruvato deixa de ser convertido a qualquer outro metabólito,
+acumulando inerte no citosol sem ser desviado pela LDH28.
+
+III. no exame laboratorial, espera-se que o piruvato sérico esteja abaixo do limite inferior da normal
+idade, pois sem TPP a glicólise trava na fosfofrutoquinase (a PFK-129 depende alostericamente da
+concentração intracelular de TPP), e o piruvato simplesmente deixa de ser produzido em quantidade
+detectável no plasma.
+
+IV. o quadro do beribéri ocorre por deficiência de tiamina (não por excesso): sem TPP, PDH e -cetog
+lutarato desidrogenase travam, e tecidos altamente dependentes do metabolismo aeróbio (cérebro,
+miocárdio, nervos periféricos) sofrem com déficit energético e clínica de Wernicke + cardiomiopatia.
+
+Questão 05 Consolidação
+
+A citrato sintase catalisa a primeira reação do ciclo: acetil-CoA + OAA  citrato + CoA-SH. Sobre essa
+reação:
+
+   A) consome 1 ATP por molécula de citrato sintetizado, gasto necessário para a condensação dos
+   esqueletos de 2 e 4 carbonos em um produto único de 6 carbonos sem participação de qualquer outra
+   fonte de energia química na reação.
+
+   B) é livremente reversível em condições fisiológicas (G'°  0), e por isso o acúmulo de citrato
+   citoplasmático na lipogênese pode fazer o fluxo voltar para acetil-CoA + OAA mitocondriais como
+   mecanismo regulatório.
+
+   C) a aconitase é a enzima que catalisa esse passo, isomerizando diretamente o oxaloacetato no citrato
+   sem etapa intermediária de desidratação; é uma reação simples de rearranjo de carbonos sem partic
+   ipação de coenzima redox da matriz mitocondrial.
+
+   D) a energia da condensação vem da hidrólise direta de uma molécula de GTP da matriz mitocondrial,
+   em uma fosforilação em nível de substrato análoga à do PDH em uma reação anterior ao ciclo.
+
+   E) a energia vem da hidrólise da ligação tioéster do acetil-CoA (G  -31 kJ/mol), e o resultado é uma
+   reação fortemente exergônica (G'° = -32 kJ/mol), irreversível em condições celulares -- primeiro
+   ponto de "compromisso" do ciclo.
+
+Questão 06 Consolidação
+
+As duas descarboxilações oxidativas do ciclo (isocitrato  -cetoglutarato e -KG  succinil-CoA)
+compartilham características gerais. Sobre elas:
+
+28LDH ­ lactato desidrogenase -- enzima citosólica que reduz piruvato a lactato regenerando NAD
+29PFK-1 ­ fosfofrutoquinase-1 -- terceira enzima da glicólise, ponto regulatório alostérico
+
+                                                                             32
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+A) a isocitrato desidrogenase usa FAD como coenzima, gerando FADH junto com o CO e o -KG; já a
+-KG desidrogenase usa NAD, gerando NADH e succinil-CoA com perda do segundo CO da volta do
+ciclo.
+
+B) a -KG desidrogenase é uma enzima simples de uma única subunidade, com mecanismo indepen
+dente do PDH; a isocitrato desidrogenase, por sua vez, é o complexo multienzimático análogo ao PDH
+do ciclo de Krebs em arquitetura completa.
+
+C) a ICD usa NAD (gera NADH + CO); a -KG-DH é um complexo análogo ao PDH (mesmas 5
+coenzimas: TPP, lipoamida, CoA, FAD, NAD) e gera NADH + CO + succinil-CoA -- daí deficiência de
+tiamina travar simultaneamente PDH e -KG-DH.
+
+D) ambas as descarboxilações geram diretamente ATP em fosforilação em nível de substrato, e por isso
+saem 2 ATPs do ciclo nessas duas reações antes mesmo de qualquer NADH chegar à cadeia respiratória
+para fosforilação oxidativa subsequente.
+
+E) os CO liberados nessas duas reações vêm direta e exclusivamente dos dois carbonos do acetil-CoA
+que entrou na volta atual, e portanto cada acetil-CoA é completamente convertido em CO na mesma
+volta em que entrou no ciclo.
+
+Questão 07 Consolidação
+
+A reação succinato  fumarato é catalisada pela succinato desidrogenase (SDH), com particularidades
+únicas no ciclo. Sobre ela:
+
+   A) a SDH é a única enzima do ciclo a usar FAD (em vez de NAD), porque a oxidação CH­CH  CH=CH
+   é de baixa energia e não chegaria a reduzir NAD; é também a única ancorada na membrana interna
+   -- funciona simultaneamente como complexo II da cadeia respiratória.
+
+   B) a SDH usa NAD como aceitador de elétrons (como as demais desidrogenases do ciclo), e fica
+   dissolvida na matriz mitocondrial como todas as outras enzimas; o que a diferencia é apenas o pH
+   ótimo deslocado para 8,5 em vez de 7,4 do resto do ciclo.
+
+   C) a SDH é inibida competitivamente pelo malato (de estrutura similar ao succinato), o que explica o
+   feedback negativo da última etapa do ciclo sobre a primeira e o ajuste fino do fluxo metabólico em
+   condições de saciedade energética.
+
+   D) a SDH catalisa reação fortemente endergônica que precisaria ser acoplada à hidrólise direta de
+   ATP da matriz mitocondrial para ocorrer em pH fisiológico em qualquer tecido aeróbio do organismo
+   eucarionte saudável.
+
+   E) o produto da reação da SDH é o oxaloacetato direto (não o fumarato), e por isso a etapa seguinte é a
+   malato desidrogenase que regenera a forma de partida do ciclo para condensar com novo acetil-CoA
+   na volta seguinte do ciclo.
+
+       33
+NEBLI                    ETAPA 2 -- OBJETIVAS
+
+Questão 08 Consolidação
+
+Sobre o balanço energético do ciclo de Krebs por volta única (ou seja, por acetil-CoA oxidado),
+considerando rendimentos modernos (2,5 ATP/NADH mitocondrial e 1,5 ATP/FADH):
+
+   A) por volta saem 4 NADH e 2 FADH, totalizando cerca de 13 ATP após reoxidação na cadeia respi
+   ratória, sem ATP em nível de substrato pois o ciclo não possui essa modalidade de geração direta de
+   fosfato de alta energia.
+
+   B) 3 NADH + 1 FADH + 1 GTP por volta -- equivalente a 10 ATP (3·2,5 + 1·1,5 + 1 = 7,5 + 1,5 + 1) por acetil-
+   CoA quando os transportadores reoxidam na cadeia; o GTP é fosforilação em nível de substrato pela
+   succinil-CoA sintetase.
+
+   C) por volta saem 2 NADH + 1 FADH + 2 GTP, equivalente a 7 ATP, contagem que inclui o NADH do
+   PDH como pertencente ao ciclo já que o PDH é considerado parte do mecanismo de Krebs nas tabelas
+   didáticas modernas.
+
+   D) por volta saem 12 ATP por uma estequiometria fixa de 1 ATP por reação enzimática do ciclo (8
+   reações × 1 ATP + correções de coenzimas reoxidadas na cadeia respiratória), número clássico em
+   textos didáticos antigos.
+
+   E) por volta sai 1 GTP exclusivamente, sem qualquer NADH ou FADH contado para a equação, pois
+   esses transportadores fazem parte do balanço da cadeia respiratória e não do ciclo em si dentro da
+   matriz mitocondrial do tecido aeróbio.
+
+Questão 09 Integração
+
+Em mitocôndrias isoladas respirando com piruvato + ADP, observa-se queda contínua de O e geração
+de ATP. Subitamente eleva-se a [Ca²] na matriz a valores compatíveis com contração muscular intensa.
+O efeito esperado sobre o fluxo do ciclo é:
+
+   A) redução do fluxo, pois o Ca² entra na matriz e desloca o Mg² dos sítios catalíticos das desidro
+   genases -- o Mg² é cofator essencial da ICD e da MDH, e sua substituição pelo Ca² inativa essas
+   enzimas-chave em qualquer tecido aeróbio testado.
+
+   B) nenhum efeito, pois o Ca² atua apenas no citosol (acoplamento excitação-contração) e não tem
+   alvos enzimáticos relevantes na matriz mitocondrial -- a regulação do ciclo depende exclusivamente
+   das relações ATP/ADP e NADH/NAD em qualquer condição fisiológica.
+
+   C) inibição imediata do PDH por ativação Ca²-dependente da PDH-quinase (que fosforila e inativa
+   o complexo); a contração muscular intensa portanto freia a oxidação de piruvato em vez de acelerá-
+   la, mecanismo paradoxal de proteção contra acidose láctica.
+
+   D) aumento do fluxo: o Ca² entra na matriz durante a contração e ativa simultaneamente PDH, ICD
+   e -KG-DH -- três pontos regulatórios da via -- sincronizando a oferta de ATP pela mitocôndria com
+   a demanda gerada pela contração no citoplasma; acoplamento elegante entre função e energia.
+
+                                                                                34
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+E) desacoplamento da cadeia respiratória, pois o Ca² em alta concentração matricial abre o poro de
+transição da membrana interna, dissipando o gradiente de prótons e inativando a ATP-sintase --
+mecanismo da morte celular por sobrecarga de Ca² em isquemia-reperfusão.
+
+Questão 10 Integração
+
+Sobre as três enzimas do complexo PDH e o papel funcional da lipoamida ligada à E2, é correto afirmar:
+
+   A) a lipoamida funciona como um braço mecânico flexível covalentemente ligado a uma lisina da
+   E2 -- sua cadeia longa permite "visitar" os sítios ativos de E1, E2 e E3 sem que o grupo acetil inter
+   mediário precise se difundir livremente, canalizando a reação.
+
+   B) a lipoamida fica dissolvida na matriz e se difunde livremente entre as três enzimas, levando o grupo
+   acetil de uma para a outra como uma coenzima móvel típica em qualquer condição experimental ou
+   fisiológica testada em laboratório de bioquímica básica.
+
+   C) a lipoamida é a coenzima da E1 (descarboxilação do piruvato) -- quem aceita o grupo hidroxietil
+   é o lipoato, não a TPP, e por isso a deficiência de B1 (tiamina) não afeta o complexo em condições
+   fisiológicas em humanos adultos.
+
+   D) a lipoamida é regenerada por hidrólise direta de ATP no sítio da E2 a cada ciclo catalítico do
+   complexo PDH na matriz mitocondrial em qualquer tecido aeróbio do organismo em condições fisi
+   ológicas testadas em laboratório.
+
+   E) a lipoamida só aparece em deficiências de tiamina como cofator de emergência substituto da TPP
+   que estaria faltando no sítio da E1 do complexo PDH em humanos com beribéri grave em terapia
+   clínica intensiva.
+
+Questão 11 Integração
+
+O complexo PDH é regulado tanto por modificação covalente quanto por alosteria. Sobre essa regulação
+dupla na situação de jejum prolongado (glucagon alto, insulina baixa):
+
+   A) a PDH-quinase é inativada pela insulina baixa, e por isso o complexo permanece desfosforilado
+   e plenamente ativo durante o jejum prolongado, contribuindo para manter o catabolismo da glicose
+   mesmo quando o suprimento de carboidrato é mínimo no organismo intacto.
+
+   B) acetil-CoA e NADH funcionam como ativadores alostéricos do complexo PDH em jejum prolongado,
+   sinalizando "carga energética baixa" e empurrando piruvato para a oxidação aeróbia em qualquer
+   tecido aeróbio do organismo humano em qualquer condição metabólica testada.
+
+   C) a fosforilação ocorre apenas em condições patológicas (diabetes descompensado) e não tem papel
+   na fisiologia normal do jejum prolongado em humanos adultos saudáveis em qualquer condição
+   metabólica testada em laboratório clínico controlado em adultos.
+
+       35
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) a piruvato carboxilase é alvo da regulação por fosforilação descrita (não a PDH), e em jejum o OAA
+aumenta e empurra o piruvato para o ciclo em vez de para a gliconeogênese hepática em qualquer
+condição metabólica testada em humanos adultos.
+
+E) a PDH-quinase (ativa em insulina baixa) fosforila e inativa o complexo, poupando piruvato para a
+gliconeogênese hepática; em paralelo, acetil-CoA e NADH inibem alostericamente o PDH (sinais de
+"combustível abundante por -oxidação"); Ca² alto reverte a inativação ativando a PDH-fosfatase.
+
+Questão 12 Integração
+
+A aconitase catalisa a conversão citrato  isocitrato, e é o alvo do fluorocitrato (produto de "letal
+synthesis" derivado do fluoracetato). Sobre o mecanismo:
+
+   A) a aconitase faz uma isomerização direta sem etapa intermediária de desidratação ou rehidratação;
+   o fluorocitrato bloqueia a enzima por substituição estequiométrica do citrato no sítio ativo sem
+   qualquer alteração covalente da proteína-alvo, em mecanismo de inibição reversível clássica.
+
+   B) a aconitase usa NAD como cofator e gera NADH na conversão citrato  isocitrato, sendo então uma
+   das fontes de NADH mais importantes do ciclo na matriz mitocondrial em qualquer tecido aeróbio em
+   respiração celular ativa em condições fisiológicas testadas.
+
+   C) a aconitase faz a reação em duas etapas químicas (desidratação a cis-aconitato + rehidratação ao
+   isocitrato), e o fluorocitrato -- formado quando fluoracetato entra na célula, vira fluoroacetil-CoA e
+   condensa com OAA -- inativa a aconitase, fazendo o citrato acumular e travar o ciclo.
+
+   D) o fluoracetato bloqueia a citrato sintase diretamente (não a aconitase), impedindo a condensação
+   inicial do ciclo; é uma inibição reversível por análogo estrutural do acetil-CoA no sítio ativo da enzima
+   da etapa 1 do ciclo na matriz mitocondrial em qualquer tecido aeróbio normal.
+
+   E) o fluorocitrato é metabolizado normalmente pela aconitase a fluoroisocitrato, que prossegue
+   pelo ciclo sem efeito tóxico -- daí a baixa letalidade do fluoracetato em rodenticidas modernos em
+   qualquer condição experimental testada em humanos adultos saudáveis.
+
+Questão 13 Integração
+
+Sobre a fosforilação em nível de substrato catalisada pela succinil-CoA sintetase (succinil-CoA  succi
+nato + GTP), julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. a reação requer apenas ADP livre no meio; a energia vem da clivagem direta da ligação C­C interna do
+   succinil, sem participação de ligação rica em energia, pois o succinato já é molécula de baixa energia
+   em solução fisiológica.
+
+       36
+NEBLI                                                                            ETAPA 2 -- OBJETIVAS
+
+II. a fosforilação em nível de substrato é livremente reversível em condições celulares, e por isso o ciclo
+de Krebs pode girar facilmente no sentido inverso (de succinato a succinil-CoA) sempre que houver
+excesso de GTP citosólico em qualquer tecido aeróbio.
+
+III. o intermediário succinil-fosfato transfere o fosforil para uma histidina do sítio ativo (3-fosfo-
+His) e dessa histidina vai para GDP, formando GTP -- sequência mecanística que define a fosforilação
+em nível de substrato e a distingue da fosforilação oxidativa que ocorre na membrana interna.
+
+IV. o GTP gerado equivale a ATP para fins de balanço energético, pois a nucleosídeo difosfato quinase
+converte rapidamente GTP + ADP  GDP + ATP em reação livremente reversível; por isso o ciclo gera
+"1 ATP equivalente" por volta em nível de substrato.
+
+Questão 14 Integração
+
+Em um experimento, isolam-se mitocôndrias funcionais e adiciona-se malonato (HOOC­CH­COOH)
+em concentrações crescentes. O efeito observado e o tipo de inibição são:
+
+   A) malonato é desacoplador como o DNP30 sua estrutura de ácido dicarboxílico pequeno se difunde
+   protonada e ionizada pela membrana mitocondrial interna, dissipando o gradiente de prótons da
+   cadeia respiratória sem qualquer interação direta com as enzimas do ciclo, com queda da síntese de
+   ATP e elevação do consumo de O em oximetria padrão.
+
+   B) malonato (3C) imita o succinato (4C, ­OOC­CH­CH­COO) no sítio ativo e é inibidor competitivo
+   da SDH -- o ciclo trava no passo 6, succinato se acumula, e o efeito é revertido por elevação de
+   [succinato]; caso histórico clássico de inibição competitiva por análogo estrutural.
+
+   C) malonato inibe a fumarase irreversivelmente por ligação covalente ao sítio ativo da enzima, e o
+   resultado é acúmulo de fumarato com queda imediata de [OAA] na matriz mitocondrial -- paradigma
+   da inibição irreversível por modificação covalente do sítio catalítico em qualquer tecido aeróbio
+   submetido ao tratamento experimental controlado.
+
+   D) malonato é um substrato alternativo da SDH e gera FADH adicional pela enzima, aumentando
+   o rendimento de ATP por glicose oxidada em mitocôndrias isoladas em experimentos de oximetria
+   padrão em laboratório de bioquímica básica.
+
+   E) malonato bloqueia o complexo I da cadeia respiratória (como rotenona) e indiretamente trava o
+   ciclo por acúmulo de NADH, sem efeito direto sobre nenhuma enzima do ciclo propriamente dita na
+   matriz mitocondrial em qualquer tecido aeróbio testado.
+
+Questão 15 Integração
+
+30DNP ­ 2,4-dinitrofenol -- desacoplador clássico da fosforilação oxidativa
+                                                                             37
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+Considerando que a oxidação completa de uma molécula de glicose passa por glicólise  2 PDH 
+2 voltas do ciclo, e que cada NADH gera 2,5 ATP e cada FADH gera 1,5 ATP (rendimento moderno), o
+balanço total de ATP por glicose, em hepatócito com lançadeira malato-aspartato, é:
+
+A) 32 ATP -- glicólise: 2 ATP + 2 NADH cit (entram como NADH mit pela lançadeira) = 7 ATP; 2 PDH:
+2 NADH = 5 ATP; ciclo (2 voltas): 6 NADH + 2 FADH + 2 GTP = 20 ATP; total = 32 ATP. Com lançadeira
+glicerol-fosfato seria 30 (os 2 NADH cit viram FADH e perdem 1 ATP cada na entrada mitocondrial).
+
+B) 12 ATP, pela contagem clássica de 2 ATP da glicólise + 2 GTP do ciclo (×2 voltas) + 6 ATP da
+reoxidação dos NADHs em fosforilação a nível de substrato adicional não contabilizada nos cálculos
+modernos do balanço energético.
+
+C) 7 ATP, soma do GTP do ciclo (×2 voltas) com o ATP líquido da glicólise -- sem contribuição da cadeia
+respiratória já que NADH e FADH só fornecem poder redutor para reações biossintéticas e não geram
+ATP em hepatócito normal.
+
+D) 52 ATP, pela contagem clássica que assume rendimento de 3 ATP/NADH e 2 ATP/FADH aplicado
+a todos os 10 NADH e 2 FADH produzidos por glicose no organismo intacto em condições aeróbias
+bem mantidas em humanos adultos.
+
+E) 2 ATP, pois apenas a glicólise gera ATP em fosforilação a nível de substrato; o ciclo de Krebs é uma
+via puramente biossintética que não contribui para o balanço energético líquido da oxidação aeróbia
+da glicose em hepatócito normal.
+
+Questão 16 Integração
+
+As duas descarboxilações oxidativas (isocitrato  -KG e -KG  succinil-CoA) liberam CO. Em uma
+volta única do ciclo:
+
+   A) os 2 CO liberados vêm direta e exclusivamente dos dois carbonos do acetil-CoA que entrou na
+   volta atual -- cada acetil é portanto completamente convertido em CO na mesma volta em que entrou
+   na matriz mitocondrial, em uma estequiometria simples de "entra acetil, sai 2 CO" sem demora ou
+   rearranjo posicional dos átomos de carbono.
+
+   B) os 2 CO são liberados na reação da SDH (succinato  fumarato), que descarboxila o succinato em
+   duas etapas químicas sucessivas catalisadas pela mesma enzima ancorada na membrana interna em
+   tecido aeróbio em qualquer condição metabólica testada em laboratório padrão de bioquímica básica.
+
+   C) só 1 CO é liberado por volta -- o outro CO "estequiométrico" representa apenas o balanço este
+   quiométrico da redução de NAD a NADH sem perda real de carbono pelo substrato em si no contexto
+   de qualquer tecido aeróbio com mitocôndrias ativas em respiração celular.
+
+   D) os 2 CO liberados na volta atual vêm dos carbonos do OAA original (acumulados de voltas ante
+   riores); os carbonos do acetil-CoA da volta atual viram parte do citrato e só saem como CO depois de
+   2­3 voltas -- fato comprovado por marcação isotópica com ¹C clássica do tempo de Krebs.
+
+       38
+NEBLI                                                                                ETAPA 2 -- OBJETIVAS
+
+E) nenhum CO é liberado por volta -- o ciclo opera em sistema fechado de carbono, com regeneração
+estequiométrica do OAA por incorporação direta dos átomos do acetil-CoA sem oxidação a CO em
+nenhuma etapa da matriz mitocondrial em qualquer tecido aeróbio testado.
+
+Questão 17 Integração
+
+A fumarase catalisa fumarato + HO  L-malato; a malato desidrogenase (MDH) catalisa malato +
+NAD  OAA + NADH (G'° = +29,7 kJ/mol). Sobre essas duas reações finais do ciclo:
+
+   A) a fumarase é uma desidrogenase que usa NAD como cofator e gera NADH adicional na conversão
+   de fumarato a malato, contribuindo para o rendimento total de NADHs por volta do ciclo na matriz
+   mitocondrial em qualquer tecido aeróbio normal.
+
+   B) a MDH é livremente reversível com pequeno G, e o sentido fisiológico (malato  OAA) é mantido
+   apenas por concentração de substrato -- variação ínfima na [NAD] não afeta a direção da reação na
+   matriz em qualquer condição experimental ou fisiológica testada.
+
+   C) a fumarase é hidratase pura (sem cofator redox, estereoespecífica para L-malato); a MDH tem G'°
+   = +29,7 kJ/mol (desfavorável no padrão), e roda no sentido OAA porque a citrato sintase consome OAA
+   imediatamente -- Le Chatelier mantém [OAA] mínima e puxa a reação para frente.
+
+   D) a MDH é a única enzima do ciclo que usa FAD (não NAD), e seu produto direto é o fumarato,
+   que então é desidratado pela fumarase a OAA em uma sequência de reações reversíveis na matriz
+   mitocondrial em qualquer tecido eucariótico saudável aeróbio.
+
+   E) a fumarase consome ATP para forçar a hidratação do fumarato, em um gasto energético da etapa 7
+   do ciclo que reduz substancialmente o saldo líquido por volta em tecidos com alta demanda energética
+   como músculo cardíaco em contração mantida em humanos adultos.
+
+Questão 18 Integração
+
+Sobre a regulação alostérica das quatro enzimas-chave do controle do ciclo de Krebs (PDH, citrato
+sintase, ICD e -KG-DH), julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. ATP, NADH e acetil-CoA inibem essas enzimas -- sinais de "carga energética alta" mandando freiar
+   o fluxo; o ciclo é controlado por feedback negativo dos próprios produtos finais da via.
+   II. ATP ativa as quatro enzimas (sinal "energia disponível para trabalhar"), enquanto ADP e AMP31
+   as inibem (sinal "células com pouca demanda energética, freiar produção de mais ATP") -- lógica
+   clássica de controle metabólico em equilíbrio termodinâmico estrito.
+
+31AMP ­ adenosina monofosfato -- sinal alostérico de baixa carga energética celular
+                                                                             39
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+III. Ca², ADP e NAD ativam as enzimas-chave -- sincronizando a demanda da célula com a oferta de
+ATP, especialmente durante contração muscular (Ca² vaza para a matriz e estimula PDH, ICD e -KG-
+DH simultaneamente em paralelo).
+
+IV. a PDH é a única dessas quatro também regulada por modificação covalente -- fosforilada (forma
+ativa) por PDH-quinase em jejum com insulina baixa, e desfosforilada (forma inativa) por PDH-
+fosfatase em estado pós-prandial com insulina alta; o controle covalente opera, portanto, em sentido
+inverso ao da lógica alostérica do ciclo.
+
+Questão 19 Integração
+
+No mecanismo do PDH e do -KG-DH (complexos análogos), há um passo em que o grupo 2-carbonos
+hidroxietil (ainda preso à TPP) é oxidado a acetil antes da transferência para a CoA. Sobre essa oxidação:
+
+   A) a oxidação CH(OH)­CH  CO­CH é catalisada pela própria E3 (diidrolipoil desidrogenase), com
+   uso direto de NAD como aceitador final de elétrons no passo intermediário do complexo enzimático
+   em qualquer condição testada.
+
+   B) a oxidação ocorre pela transferência do par eletrônico ao lipoato ligado covalentemente à E2 --
+   o hidroxietil-TPP doa elétrons para o lipoato (que reduz de dissulfeto a ditiol), e simultaneamente o
+   carbono fica acetilado e é transferido ao ­SH livre da lipoamida.
+
+   C) a oxidação requer O molecular como aceitador direto, em uma reação tipo monoxigenase catal
+   isada pela E1 do complexo PDH em condições aeróbias intracelulares na matriz mitocondrial em
+   qualquer tecido com respiração mitocondrial ativa em humanos.
+
+   D) não há oxidação intermediária do hidroxietil -- o grupo de 2 carbonos sai diretamente da TPP como
+   aldeído acetaldeído livre, e só depois é oxidado fora do complexo PDH pela aldeído desidrogenase
+   mitocondrial em uma reação adicional dependente de NAD em humanos.
+
+   E) a oxidação é catalisada por um citocromo da membrana interna acoplado ao complexo II, com
+   transferência direta de elétrons do hidroxietil ao FAD do complexo II e daí à coenzima Q da cadeia
+   respiratória da mitocôndria do tecido aeróbio em respiração celular ativa em humanos saudáveis.
+
+Questão 20 Integração
+
+A regeneração do FAD da SDH a partir do FADH não ocorre por uma reação separada dentro do ciclo --
+ela acontece dentro da cadeia respiratória. Sobre essa peculiaridade da SDH:
+
+   A) a SDH é a única enzima do ciclo simultaneamente fixada na membrana interna e que funciona
+   como complexo II da cadeia respiratória -- o FADH formado na reação succinato  fumarato é
+   reoxidado in situ, transferindo seus elétrons direto à coenzima Q sem se difundir como o NADH faz
+   com o complexo I.
+
+       40
+NEBLI                                                                               ETAPA 2 -- OBJETIVAS
+
+B) a SDH se difunde livremente entre a matriz e a membrana interna conforme o estado energético
+da célula, com translocação dinâmica que muda a posição da enzima de acordo com a demanda
+metabólica em contração muscular ou repouso fisiológico em qualquer tecido aeróbio do organismo
+intacto.
+
+C) o FADH da SDH é reoxidado por uma flavina redutase mitocondrial específica que devolve elétrons
+a um pool de FAD livre na matriz, sem passar pela cadeia respiratória -- daí o rendimento "perdido"
+da SDH em relação às outras desidrogenases do ciclo na matriz mitocondrial em qualquer condição
+experimental testada.
+
+D) a SDH usa NAD como aceitador final (não FAD), e seu NADH é produto idêntico ao das outras
+desidrogenases -- a única peculiaridade é a localização membranar da enzima, sem consequência
+para o rendimento energético em ATP por volta do ciclo de Krebs em qualquer tecido eucariótico
+aeróbio saudável.
+
+E) o FADH da SDH não chega a se formar realmente -- o FAD da enzima é regenerado por um
+mecanismo interno de tautomerização que evita a redução real do cofator a cada ciclo catalítico da
+enzima na membrana interna em qualquer condição metabólica testada.
+
+Questão 21 Integração
+
+A reação malato  OAA tem G'° = +29,7 kJ/mol (desfavorável no padrão). Sobre como a célula consegue
+rodar essa reação no sentido OAA mesmo com termodinâmica padrão adversa:
+
+   A) a célula acopla a MDH à hidrólise direta de ATP, fornecendo energia química adicional que torna
+   o G total negativo apesar do G'° intrinsecamente desfavorável da reação de oxidação na matriz
+   mitocondrial em condições fisiológicas em qualquer tecido aeróbio testado.
+
+   B) a MDH usa FAD em vez de NAD na célula viva (apesar de o NAD ser citado nos livros), e a maior
+   força de redução do FAD compensa a desfavorabilidade termodinâmica padrão da reação na matriz
+   em qualquer tecido aeróbio em respiração celular ativa.
+
+   C) o G'° padrão é medido em condições inexistentes na célula, e o valor real in vivo é negativo --
+   não há mecanismo especial necessário para rodar a reação no sentido OAA, ela simplesmente vai
+   espontaneamente como qualquer outra reação do ciclo na mitocôndria em qualquer condição.
+
+   D) a citrato sintase consome OAA imediatamente após sua formação, mantendo [OAA] muito baixa
+   na matriz; pela Lei de Le Chatelier, a baixíssima [produto] desloca a MDH no sentido OAA mesmo
+   com G'° desfavorável -- o G real (com concentrações celulares) fica negativo apesar do padrão.
+
+   E) a célula contorna o problema fazendo o ciclo no sentido inverso (OAA  malato  fumarato  ...)
+   sempre que a demanda energética é alta, gerando ATP pela rota retrógrada com rendimento equiva
+   lente em qualquer tecido aeróbio com mitocôndrias funcionais ativas em respiração celular.
+
+Questão 22 Integração
+
+                                                                                41
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+Sobre o significado de "ciclo anfibólico" e as principais saídas anabólicas de intermediários do Krebs, é
+correto afirmar:
+
+A) anfibólico = serve tanto ao catabolismo (oxidação do acetil-CoA a CO) quanto ao anabolismo
+(saída de intermediários para biossínteses): citrato  ácidos graxos e colesterol; -KG  glutamato
+e aminoácidos; succinil-CoA  porfirinas (heme); OAA  aspartato e gliconeogênese -- o ciclo é o
+hub central do metabolismo intermediário.
+
+B) anfibólico significa que o ciclo opera nos dois sentidos com igual probabilidade (direto e retró
+grado simultaneamente), e por isso intermediários como citrato e -KG podem ser sintetizados por
+reversão das próprias reações em qualquer condição fisiológica do organismo eucariótico saudável
+em qualquer tecido aeróbio com mitocôndrias ativas em respiração celular.
+
+C) anfibólico se refere à dupla localização da via -- uma parte na matriz mitocondrial e outra no
+citosol -- sem implicação direta em função catabólica vs anabólica do ciclo em qualquer tecido aeróbio
+do organismo em condições fisiológicas normais bem mantidas em laboratório de bioquímica clínica
+padrão de uso clínico atual.
+
+D) anfibólico designa o uso paralelo de FAD e NAD como aceitadores de elétrons (anfo = dois), sem
+relação com entradas ou saídas anabólicas dos intermediários do ciclo em qualquer condição exper
+imental ou metabólica controlada testada em laboratório.
+
+E) anfibólico significa que o ciclo é exclusivamente catabólico mas com regulação alostérica em duas
+direções (positiva e negativa); as saídas anabólicas descritas em livros-texto são raras e patológicas,
+não fisiológicas em humanos adultos saudáveis em qualquer condição metabólica.
+
+Questão 23 Integração
+
+Em estado pós-prandial com insulina alta, o fluxo de citrato sai da mitocôndria para o citosol para
+alimentar a lipogênese. Esse fluxo é viabilizado por:
+
+   A) um transportador específico de citrato na membrana mitocondrial interna que opera por hidrólise
+   direta de GTP da matriz mitocondrial; uma vez no citosol, o citrato é oxidado direto a CO pela
+   aconitase citosólica para gerar energia adicional ao tecido em qualquer condição metabólica.
+
+   B) conversão prévia do citrato a acetil-CoA dentro da matriz pela ATP-citrato-liase mitocondrial, com
+   posterior difusão simples do acetil-CoA pela membrana interna pelos poros aniônicos não-seletivos
+   da mitocôndria em qualquer tecido aeróbio testado em humanos.
+
+   C) um transportador específico de citrato na membrana mitocondrial interna; uma vez no citosol,
+   o citrato é clivado por ATP-citrato-liase (ACL32) em acetil-CoA + OAA, regenerando o substrato da
+   síntese de ácidos graxos no citosol -- o OAA é convertido a malato (NADH cit) e devolvido à matriz
+   pela lançadeira.
+
+32ACL ­ ATP-citrato-liase -- enzima citosólica que cliva citrato em acetil-CoA + OAA para lipogênese
+                                                                             42
+NEBLI                                                                            ETAPA 2 -- OBJETIVAS
+
+D) exportação direta do citrato pela membrana interna por difusão simples -- a membrana interna
+é permeável a todos os ânions tricarboxílicos pequenos em qualquer tecido eucariótico aeróbio
+saudável em condições normais bem mantidas em experimento controlado em laboratório.
+
+E) o citrato não sai da mitocôndria -- a lipogênese citosólica usa acetil-CoA derivado direto da -
+oxidação peroxissomal, sem participação alguma do ciclo de Krebs ou dos seus intermediários em
+qualquer condição experimental ou fisiológica testada em humanos adultos.
+
+Questão 24 Integração
+
+Sobre a anaplerose (do grego "preencher de novo") e a piruvato carboxilase (PC33), julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a PC catalisa piruvato + HCO + ATP  OAA na matriz, principal reação anaplerótica em fígado e
+   rim; cofator biotina (ligada covalentemente via lisina), ativador alostérico acetil-CoA -- quando há
+   "muito combustível" (acetil-CoA alto) e o ciclo precisa de mais OAA para condensar, a PC repõe.
+
+   II. a anaplerose significa reposição de intermediários do ciclo -- necessária porque, embora o OAA
+   seja "catalítico" em uma volta isolada, saídas anabólicas contínuas (citrato  lipogênese, -KG 
+   glutamato, succinil-CoA  heme) drenam intermediários e baixariam [OAA] suficiente para travar a
+   citrato sintase em estado estacionário sem reposição.
+
+   III. a PC tem distribuição tecidual ampla e uniforme -- está presente em todos os tecidos do organ
+   ismo na mesma concentração, e por isso o músculo esquelético pode fazer gliconeogênese a partir
+   de lactato com a mesma eficiência que o fígado em condições fisiológicas de jejum prolongado em
+   humanos.
+
+   IV. a PC pode operar sem acetil-CoA como ativador alostérico -- sua atividade basal sem o ativador
+   é alta o suficiente para sustentar o fluxo de OAA em condições fisiológicas de saciedade alimentar
+   com insulina elevada e glucagon baixo em qualquer tecido aeróbio do organismo eucariótico humano
+   adulto.
+
+Questão 25 Integração
+
+O cálculo clássico (3 ATP/NADH, 2 ATP/FADH) dá 38 ATP por glicose; o cálculo moderno (2,5 ATP/
+NADH, 1,5 ATP/FADH) dá 30 a 32 ATP. A diferença entre 30 e 32 no cálculo moderno está relacionada a:
+
+   A) o número de voltas do ciclo por glicose (2 ou 3 a depender do tecido considerado no cálculo da
+   glicemia em jejum prolongado em humanos adultos saudáveis em experimento clínico controlado em
+   laboratório).
+
+33PC ­ piruvato carboxilase -- enzima mitocondrial anaplerótica que repõe OAA
+                                                                             43
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+B) a lançadeira que transporta os elétrons do NADH citosólico (da glicólise) para dentro da mitocôn
+dria: a malato-aspartato (fígado, rim, coração) entrega NADH mit  2,5 ATP por NADH cit  32 ATP
+total; já a glicerol-fosfato (músculo, cérebro) entrega FADH  1,5 ATP por NADH cit  30 ATP total.
+
+C) o tipo de hexose oxidada -- frutose dá 30 ATP por seguir a via da frutoquinase hepática, e glicose
+dá 32 ATP por seguir a hexoquinase clássica em qualquer tecido eucariótico aeróbio em respiração
+celular ativa em condições normais.
+
+D) a temperatura corporal (a 37 °C dá 30 ATP, a 38 °C dá 32 ATP por glicose oxidada em hepatócito
+normal em condições fisiológicas estáveis bem mantidas em qualquer experimento controlado de
+calorimetria celular indireta).
+
+E) a estequiometria da bomba H/ATP-sintase varia conforme o pH da matriz mitocondrial, e por isso
+o rendimento por NADH oscila entre 2,5 e 2,7 ATP a depender da condição metabólica e do tecido em
+respiração celular aeróbia normal em humanos adultos saudáveis observados em laboratório.
+
+Questão 26 Aplicação
+
+Durante uma corrida de 800 m, o músculo esquelético entra em contração intensa: o Ca² citosólico sobe
+abruptamente e parte invade a matriz mitocondrial; o ATP cai e o ADP sobe na mesma matriz. Sobre o
+fluxo do ciclo de Krebs nessas fibras durante o exercício:
+
+   A) o fluxo cai abruptamente, pois o Ca² entra na matriz e bloqueia simultaneamente PDH, ICD e -
+   KG-DH, freando o ciclo apesar da alta demanda energética da contração em curso na musculatura
+   esquelética em exercício submáximo.
+
+   B) o fluxo permanece inalterado, pois Ca² atua só na contração e a regulação do ciclo depende exclu
+   sivamente da relação ATP/ADP em qualquer condição fisiológica testada em humanos saudáveis em
+   qualquer tipo de exercício físico submáximo ou máximo realizado.
+
+   C) o fluxo aumenta apenas pelo aumento de [ADP] sobre a ATP-sintase, sem participação direta do
+   Ca² nas desidrogenases do ciclo de Krebs durante exercício físico submáximo em qualquer condição
+   experimental controlada em humanos saudáveis em qualquer protocolo testado.
+
+   D) o fluxo cai, pois ADP é um inibidor das desidrogenases mitocondriais quando se acumula em
+   concentrações altas, situação clássica da contração muscular intensa em humanos adultos saudáveis
+   em qualquer tipo de exercício físico submáximo ou máximo realizado em condições controladas.
+
+   E) o fluxo aumenta drasticamente pela soma de dois sinais convergentes: Ca² ativa PDH, ICD e -
+   KG-DH (sincroniza oferta com demanda da contração) e ADP ativa a ICD e a fosforilação oxidativa;
+   resultado é o mecanismo de acoplamento elegante entre contração e respiração celular muscular.
+
+Questão 27 Aplicação
+
+                      44
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+Paciente em jejum prolongado recebe nutrição parenteral exclusivamente com solução de aminoácidos
+-- sem glicose nem lipídios. No fígado, esses aminoácidos entram no ciclo em diferentes pontos (-KG,
+succinil-CoA, fumarato, OAA, acetil-CoA) e parte é desviada para gliconeogênese. Sobre o ciclo nessa
+situação:
+
+A) os intermediários do ciclo cairiam progressivamente, pois aminoácidos não conseguem entrar
+diretamente na via do ciclo de Krebs em nenhum ponto sem passar antes pela glicólise hepática, e o
+fluxo cairia a zero em horas pela falta de OAA reposto em condições de jejum prolongado.
+
+B) o ciclo travaria imediatamente, pois aminoácidos consomem OAA na transaminação com glutam
+ato sem repor nenhum intermediário, e o resultado seria acúmulo de citrato e CO na matriz
+mitocondrial dos hepatócitos do paciente em terapia nutricional parenteral exclusiva com aminoá
+cidos em UTI.
+
+C) aminoácidos glicogênicos não contribuem para o ciclo em humanos, pois sua oxidação ocorre
+exclusivamente em peroxissomos, sem participação da matriz mitocondrial em qualquer condição
+metabólica ou fisiológica testada em humanos saudáveis em jejum prolongado em terapia clínica.
+
+D) o ciclo opera no modo anfibólico: aminoácidos entram (AlapiruvatoOAA via PC; AspOAA
+via transaminação; Glu-KG; Val/Ilesuccinil-CoA; Phe/Tyrfumarato) -- anaplerose abun
+dante; e simultaneamente intermediários saem (OAAPEPglicose pela gliconeogênese; succinil-
+CoAheme). Fluxo do ciclo é mantido pela dupla entrada/saída.
+
+E) o ciclo opera em sentido inverso (gliconeogênese pura), com OAA  fumarato  succinato 
+succinil-CoA  -KG, gerando ATP pela rota retrógrada com rendimento equivalente em hepatócito
+em qualquer tecido com mitocôndrias funcionais em respiração celular aeróbia ativa em humanos
+adultos.
+
+Questão 28 Aplicação
+
+Recém-nascido apresenta-se com acidose láctica grave, hipoglicemia, hiperamonemia e atraso neu
+rológico. Estudos enzimáticos confirmam deficiência hereditária de piruvato carboxilase. Sobre o
+mecanismo da clínica:
+
+   A) a deficiência da PC elevaria a glicemia (não a hipoglicemia descrita), pois o piruvato acumulado
+   seria desviado para a gliconeogênese hepática por uma rota alternativa que contorna a PC pela ação
+   direta da PEPCK34 sobre o piruvato em humanos com a mutação em qualquer tecido aeróbio normal.
+
+   B) a PC repõe OAA por anaplerose (piruvato + HCO + ATP  OAA); sem PC, OAA cai  citrato
+   sintase trava  piruvato acumula  desviado para lactato (acidose láctica); sem OAA citosólico,
+   gliconeogênese para (hipoglicemia); hiperamonemia por reduzida síntese de uréia (depende de
+   aspartato derivado de OAA).
+
+34PEPCK ­ fosfoenolpiruvato carboxiquinase -- converte OAA em PEP no citosol durante gliconeogênese
+                                                                             45
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) a deficiência de PC causaria alcalose metabólica (não acidose láctica), pois o piruvato acumulado
+seria desviado para fermentação alcoólica em humanos com a mutação em hepatócitos em qualquer
+condição metabólica testada em laboratório em recém-nascidos em condições controladas em UTI
+neonatal.
+
+D) a hipoglicemia descrita não tem relação com a deficiência de PC -- é apenas coincidência labora
+torial pela má alimentação do recém-nascido em UTI neonatal antes do diagnóstico definitivo da
+doença pelo médico assistente no caso clínico apresentado em ambiente hospitalar em humanos.
+
+E) a PC catalisa OAA  piruvato (não o sentido inverso); a deficiência elevaria OAA e travaria o ciclo no
+passo final, com clínica oposta à descrita no enunciado em humanos adultos saudáveis ou em recém-
+nascidos com mutação na enzima em qualquer condição.
+
+Questão 29 Aplicação
+
+Paciente de 47 anos, alcoolista crônico, é trazido ao pronto-socorro confuso, com nistagmo, ataxia de
+marcha e oftalmoplegia. Laboratório revela aciduria láctica (lactato 6 mM, ref < 2), piruvato sérico
+elevado e relação lactato/piruvato preservada. RM cerebral mostra hipersinal nos corpos mamilares
+bilaterais. Sobre o mecanismo molecular do quadro:
+
+   A) o paciente tem encefalopatia de Wernicke por deficiência de tiamina: sem TPP, PDH e -KG-DH
+   travam; piruvato acumula e a LDH o desvia para lactato (aciduria láctica); cérebro e nervos periféricos
+   (alta dependência aeróbia) sofrem déficit energético -- manejo: tiamina IV ANTES da glicose, pois
+   infusão de glicose sem tiamina precipita Wernicke fulminante.
+
+   B) a clínica corresponde a intoxicação aguda por etanol pura, sem participação da tiamina; aciduria
+   láctica vem da inibição direta da gluconeogênese pelo etanol metabolizado a acetato pela aldeído
+   desidrogenase em hepatócitos do paciente alcoólatra crônico em uso prolongado de bebidas alcoólicas
+   em hábito diário.
+
+   C) a deficiência é de piridoxina (B6) e não de tiamina; o quadro corresponde a polineuropatia periférica
+   clássica de alcoólatra com aciduria láctica por inibição direta da LDH pelos metabólitos da piridoxina
+   deficiente em hepatócitos do paciente em jejum prolongado com má absorção intestinal de vitamina
+   B6 pela dieta inadequada.
+
+   D) a clínica é de intoxicação por metanol; o paciente desenvolveu acidose láctica pela inibição direta do
+   PDH pelo formiato (produto do metabolismo do metanol pela álcool-desidrogenase em hepatócitos
+   do paciente em uso de bebida adulterada em condições de risco social vulneráveis em humanos com
+   hábitos crônicos).
+
+   E) o paciente tem cetoacidose alcoólica clássica sem participação de tiamina; o lactato elevado vem da
+   fermentação láctica direta do etanol pelo metabolismo hepático em condições de hipoxia tecidual pela
+   depleção de NAD no alcoolatra crônico em qualquer condição clínica observada no pronto-socorro
+   hospitalar em adultos.
+
+       46
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Trabalhador rural é trazido ao PS 90 min após ingestão acidental de rodenticida contendo fluoracetato
+de sódio (composto 1080). Convulsões, arritmia ventricular, acidose metabólica grave. Dosagem: citrato
+sérico elevado, lactato elevado. Sobre o mecanismo, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. o fluoracetato é tóxico por ação direta sobre a aconitase, sem precisar de ativação metabólica
+   intracelular -- basta a entrada da molécula nas células musculares e neurais para inibir a enzima.
+
+   II. o alvo molecular do efeito tóxico é a aconitase (não a citrato sintase): o fluoroacetil-CoA condensa
+   com OAA pela citrato sintase formando fluorocitrato, que é um análogo competitivo do citrato e
+   bloqueia a aconitase no passo 2 do ciclo.
+
+   III. o acúmulo de citrato sérico observado na dosagem decorre da gliconeogênese hepática descon
+   trolada durante o estresse metabólico agudo, e não tem relação com o ponto de inibição do ciclo de
+   Krebs causado pelo fluorocitrato no tecido alvo.
+
+   IV. o quadro é exemplo paradigmático de "letal synthesis" -- a célula transforma uma molécula relati
+   vamente inerte (fluoracetato) em um inibidor enzimático letal (fluorocitrato) pela própria maquinaria
+   metabólica da célula; não há antídoto específico -- tratamento é apenas de suporte (anticonvulsi
+   vantes, controle da acidose, suporte ventilatório).
+
+       47
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique passo a passo como o complexo piruvato desidrogenase (PDH) converte piruvato em
+acetil-CoA + CO + NADH. Cite as três enzimas (E1, E2, E3), as cinco coenzimas e o papel do braço
+de lipoamida.
+
+    MODELO DE RESPOSTA
+
+   Piruvato chega à matriz e liga a TPP da E1 (piruvato desidrogenase); a TPP descar
+   boxila o piruvato gerando CO e um intermediário hidroxietil-TPP. A E2 (diidrolipoil
+   transacetilase) carrega uma lipoamida ligada covalentemente a uma lisina -- esse braço
+   flexível "visita" o sítio da E1, recebe o hidroxietil e o oxida a acetil, ficando reduzida
+   (diidrolipoato); transfere então o acetil à CoA-SH gerando acetil-CoA. A E3 (diidrolipoil
+   desidrogenase) reoxida o diidrolipoato com FAD ligado, e o FADH doa os elétrons ao
+   NAD formando NADH. Cinco coenzimas: TPP, lipoamida, CoA, FAD, NAD (vitaminas
+   B1, B5, B2, B3 + lipoato).
+
+Questão Q2
+
+Calcule o saldo de ATP por glicose totalmente oxidada em hepatócito (lançadeira malato-aspar
+tato) usando rendimento moderno (2,5 ATP por NADH mitocondrial, 1,5 ATP por FADH). Explique
+a aritmética e por que, em músculo (lançadeira glicerol-fosfato), o total cai para 30.
+
+    MODELO DE RESPOSTA
+
+   Glicólise: 2 ATP líquidos + 2 NADH citosólicos. PDH ×2 voltas: 2 NADH. Ciclo ×2 voltas:
+   6 NADH + 2 FADH + 2 GTP. No hepatócito, a lançadeira malato-aspartato entrega os
+   2 NADH citosólicos como NADH mitocondrial: 2 + 2·2,5 + 2·2,5 + 6·2,5 + 2·1,5 + 2 = 2
+   + 5 + 5 + 15 + 3 + 2 = 32 ATP. Em músculo, a lançadeira glicerol-fosfato entrega esses
+   elétrons ao FAD da glicerol-3-P desidrogenase mitocondrial -- viram FADH (1,5 ATP
+   cada), e cada NADH citosólico perde 1 ATP: total = 30 ATP. O cálculo clássico 3:2 (38 ATP)
+   é didaticamente conveniente mas superestima o rendimento real.
+
+                             48
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que ATP, NADH e Ca² regulam o ciclo de Krebs em sentidos opostos? Ligue a resposta ao
+acoplamento entre contração muscular e produção de ATP no exercício.
+
+MODELO DE RESPOSTA
+
+ATP e NADH são produtos finais do trabalho do ciclo -- quando se acumulam, sinalizam
+"carga energética alta, freiar produção" e inibem PDH, citrato sintase, ICD e -KG-
+DH. ADP e NAD fazem o oposto (ativam) -- sinalizam demanda. Ca² ativa três das
+quatro enzimas-chave (PDH, ICD, -KG-DH). Durante a contração muscular, o Ca²
+liberado pelo retículo sarcoplasmático também invade a matriz mitocondrial e aciona
+simultaneamente a contração (no citosol) e o ciclo (na matriz) -- mesmo sinal que
+pede trabalho, pede ATP. É um mecanismo elegante de feedforward: oferta de ATP sobe
+junto com a demanda, sem esperar que a queda de ATP/ADP "diga" ao mitocôndrio para
+acelerar.
+
+Questão Q4
+
+O oxaloacetato (OAA) é descrito como "catalítico" -- entra e sai a cada volta sem ser consumido.
+Mesmo assim, a célula precisa fazer anaplerose. Explique por quê, citando o papel da piruvato
+carboxilase como reposição principal.
+
+    MODELO DE RESPOSTA
+
+   Em uma volta isolada de Krebs, o OAA é regenerado: condensa com acetil-CoA na etapa
+   1 e ressurge na etapa 8 (MDH). Em sistema fechado, [OAA] permaneceria constante.
+   Porém o ciclo é anfibólico: intermediários saem continuamente para biossínteses --
+   citrato  ácidos graxos, -KG  glutamato e aminoácidos, succinil-CoA  heme,
+   OAA  gliconeogênese. Essas saídas drenam o pool, e [OAA] cai. Quando [OAA] fica
+   baixa, a citrato sintase trava (a primeira reação é a mais sensível ao substrato) e o
+   ciclo desacelera. A piruvato carboxilase (fígado, rim) repõe: piruvato + HCO + ATP 
+   OAA, ativada alostericamente por acetil-CoA -- quando há "excesso de combustível", a
+   enzima entende que precisa de mais OAA para condensar.
+
+       49
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um aluno escreve: "(a) o ciclo de Krebs gera 6 ATP diretamente por volta na própria via, sem
+participação da cadeia respiratória; (b) a SDH usa FAD em vez de NAD porque a oxidação CH­CH
+não libera energia suficiente para reduzir NAD; (c) o malonato inibe competitivamente a SDH, e
+por isso o ciclo trava no passo da succinato desidrogenase com acúmulo de succinato." Identifique
+qual das três afirmações está errada e corrija-a com mecanismo.
+
+MODELO DE RESPOSTA
+
+A afirmação (b) está correta -- SDH usa FAD justamente porque o E da oxidação alcano
+ alceno não é suficiente para reduzir NAD. A afirmação (c) também está correta --
+malonato (3C) imita succinato (4C), bloqueia o sítio ativo competitivamente, succinato
+acumula; caso histórico clássico de inibição competitiva. O erro está em (a). O ciclo NÃO
+gera 6 ATP diretamente por volta -- gera 1 GTP ( 1 ATP) por fosforilação em nível
+de substrato pela succinil-CoA sintetase. O grosso do rendimento ( 9 ATP por volta)
+vem da reoxidação dos 3 NADH e 1 FADH na cadeia respiratória. Por volta, contagem
+moderna: 3·2,5 + 1·1,5 + 1 = 10 ATP, dos quais apenas 1 (o GTP) é direto. Confundir "ATP
+por volta" com "ATP direto do ciclo" é o erro recorrente -- o ciclo é principalmente uma
+bomba de poder redutor, não de ATP.
+
+       50
+NEBLI                              ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 D     Q02 B         Q03 A      Q04 CEEC  Q05 E
+Q06 C     Q07 A         Q08 B
+
+INTEGRAÇÃO (Q09­Q25)    Q11 E
+                        Q16 D
+Q09 D     Q10 A         Q21 D      Q12 C     Q13 EECC
+Q14 B     Q15 A                    Q17 C     Q18 CECE
+                        Q28 B      Q22 A     Q23 C
+Q19 B     Q20 A
+
+Q24 CCEE  Q25 B
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 E     Q27 D                    Q29 A     Q30 ECEC
+
+                               55
+

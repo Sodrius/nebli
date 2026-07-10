@@ -1,0 +1,35 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# AJUSTAR: complete os <EN?>, funda/remova conceitos redundantes,
+# e acrescente subtopico que a E1 ensina mas nao marcou como termo-nota.
+# PARTE I — O neurônio: a célula que fala
+1.1	De onde vêm e os tipos de neurônio	onde tipos neurônio|<EN?>
+1.2	O corpo celular: a fábrica do neurônio	corpo celular fábrica|<EN?>
+1.3	Dendritos, axônio e o transporte a longa distância	Dendritos axônio transporte|<EN?>
+1.4	A sinapse: onde o sinal passa adiante	sinapse onde sinal|<EN?>
+1.5	neuroectoderma	neuroectoderma|<EN?>
+1.6	crista neural	crista neural|<EN?>
+1.7	pericário	pericário|<EN?>
+1.8	corpúsculo de Nissl	corpúsculo de Nissl|<EN?>
+1.9	cone de implantação	cone de implantação|<EN?>
+1.10	RER — retículo endoplasmático rugoso	RER|<EN?>
+1.11	ATP — adenosina trifosfato	ATP|adenosina trifosfato
+# PARTE II — A glia e a bainha de mielina
+2.1	Astrócitos e a barreira hematoencefálica	Astrócitos barreira hematoencefálica|<EN?>
+2.2	Oligodendrócito, Schwann e a mielina	Oligodendrócito Schwann mielina|<EN?>
+2.3	Microglia, ependimárias e células satélites	Microglia ependimárias células|<EN?>
+2.4	barreira hematoencefálica	barreira hematoencefálica|<EN?>
+2.5	nó de Ranvier	nó de Ranvier|<EN?>
+2.6	condução saltatória	condução saltatória|<EN?>
+2.7	plexo coroide	plexo coroide|<EN?>
+2.8	BHE — barreira hematoencefálica	BHE|<EN?>
+2.9	SNC — sistema nervoso central	SNC|sistema nervoso central
+2.10	SNP — sistema nervoso periférico	SNP|<EN?>
+# PARTE III — A arquitetura do tecido nervoso
+3.1	Substância branca e substância cinzenta	Substância branca substância|<EN?>
+3.2	Córtex cerebral, cerebelo e medula espinal	Córtex cerebral cerebelo|<EN?>
+3.3	O nervo periférico, os gânglios e as meninges	nervo periférico gânglios|<EN?>
+3.4	neurópilo	neurópilo|<EN?>
+3.5	citoarquitetura	citoarquitetura|<EN?>
+3.6	liquor	liquor|<EN?>
+3.7	LCR — líquido cerebroespinal	LCR|<EN?>

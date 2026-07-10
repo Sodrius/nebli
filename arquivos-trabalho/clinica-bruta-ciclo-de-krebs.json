@@ -1,0 +1,95 @@
+{
+  "slug": "ciclo-de-krebs",
+  "gerado_em": "2026-05-27",
+  "etapa1_path": "typst-build/_par_ciclo-de-krebs/etapa1.typ",
+  "resumindo_path": "typst-build/_par_ciclo-de-krebs/resumindo.typ",
+  "mapa_confusoes_path": "mapa-confusoes/ciclo-krebs.md",
+  "clinica_boxes": [
+    {
+      "titulo": "Deficiência de tiamina: beribéri e Wernicke-Korsakoff",
+      "conteudo": "A vitamina B1 não é estocada em quantidade significativa pelo organismo. Reservas se esgotam em poucas semanas de privação alimentar. As duas síndromes clássicas decorrem dessa carência. O beribéri tem duas formas. A forma \"úmida\" cursa com insuficiência cardíaca de alto débito (o coração precisa bombear mais para compensar o metabolismo prejudicado, e descompensa). A forma \"seca\" cursa com neuropatia periférica simétrica, com fraqueza e perda de sensibilidade. Em ambos os casos, a causa imediata é a paralisação da PDH e da α-KG desidrogenase no tecido afetado. A síndrome de Wernicke-Korsakoff é a apresentação neurológica clássica em alcoolistas crônicos. O álcool atrapalha a absorção intestinal de tiamina e ainda aumenta a demanda metabólica que requer B1. O quadro agudo (Wernicke) traz confusão mental, ataxia e oftalmoplegia; se não tratado, evolui para a forma crônica e irreversível (Korsakoff), com amnésia anterógrada e confabulação. Por isso, em qualquer alcoolista descompensado em pronto-socorro, repõe-se tiamina por via intravenosa _antes_ de dar glicose — porque oferecer glicose sem B1 dispara consumo do estoque residual e pode precipitar a Wernicke aguda."
+    },
+    {
+      "titulo": "Por que jejum prolongado causa cetose",
+      "conteudo": "Durante jejum prolongado, o oxaloacetato hepático é desviado em massa para a gliconeogênese — a síntese de glicose nova para alimentar cérebro e hemácias. Isso esvazia o ciclo de Krebs no fígado. Enquanto isso, a lipólise no tecido adiposo manda ácidos graxos para o fígado, que os converte em acetil-CoA em grande quantidade. O acetil-CoA acumula, mas não tem oxaloacetato para condensar (porque o OAA está sendo todo desviado para gliconeogênese). A piruvato carboxilase tenta reabastecer, mas o piruvato disponível também está escasso (afinal, a glicólise está reduzida no estado de jejum). Resultado: o acetil-CoA que sobra é desviado para a síntese de _corpos cetônicos_ (acetoacetato, β-hidroxibutirato, acetona). É a cetose fisiológica do jejum. Em quantidades fisiológicas é adaptativa — o cérebro pode usar corpos cetônicos como combustível. Em quantidades excessivas (cetoacidose diabética), ela ameaça a vida pela acidose metabólica grave que produz."
+    }
+  ],
+  "atencao_boxes": [
+    {
+      "titulo": "Fluoracetato: o veneno que paralisa o ciclo",
+      "conteudo": "O fluoracetato é um composto usado historicamente como rodenticida (e, infelizmente, em casos de envenenamento criminoso). Sozinho ele é inerte. O problema é que dentro da célula ele é convertido pela própria citrato sintase em fluorocitrato — um análogo do citrato que se encaixa no sítio ativo da aconitase mas não pode ser processado, ficando preso lá. Resultado: aconitase bloqueada → o ciclo trava em citrato → não há mais regeneração de NADH/FADH₂ → cadeia respiratória sem substrato → falência energética celular. Em humanos, doses de 2–10 mg/kg são letais. Os sintomas aparecem em 30 a 100 minutos: náusea, vômito, dor abdominal, taquicardia, fibrilação ventricular, hipotensão, falência renal, convulsões, coma e morte. Não há antídoto específico; o tratamento é de suporte. O caso ilustra uma lição geral do metabolismo: travar um único passo de uma via central destrói tudo o que depende dela. Tecidos com alta demanda energética (cérebro, coração) são os primeiros a falhar."
+    },
+    {
+      "titulo": "Hipóxia é falência energética em minutos",
+      "conteudo": "Tecidos com alta demanda energética e baixa reserva de glicogênio dependem absolutamente do funcionamento conjunto de Krebs + cadeia respiratória. Cérebro e miocárdio são os dois exemplos canônicos. Quando uma artéria coronária oclui (infarto agudo do miocárdio), o aporte de O₂ ao tecido downstream cai a zero em segundos. A cadeia respiratória trava em segundos. O NADH para de ser reoxidado. O NAD⁺ se esgota. O ciclo de Krebs para. A célula tenta sobreviver à custa de glicólise anaeróbia, mas o rendimento de 2 ATP por glicose não basta para manter as bombas iônicas e a integridade da membrana. Em minutos, a célula entra em necrose isquêmica. O AVC isquêmico segue a mesma lógica, no cérebro. A janela terapêutica de poucas horas para reperfundir o tecido (trombólise, trombectomia) reflete diretamente esse cronograma metabólico: antes desse limite, parte do tecido ainda é recuperável; depois dele, a maioria das células já entrou em morte irreversível."
+    }
+  ],
+  "confusoes_previstas": [
+    {
+      "titulo": "PDH não pertence ao ciclo de Krebs",
+      "aluno_acha": "aluno acha que a PDH é uma das 8 reações do ciclo",
+      "mecanismo": "a PDH é a ponte que prepara o substrato. O ciclo começa na reação 1 (citrato sintase), com o acetil-CoA já formado. Os 2 NADH gerados pela PDH (1 por piruvato × 2 piruvatos por glicose) entram no balanço total da oxidação aeróbia, mas não contam como \"produto do ciclo\"."
+    },
+    {
+      "titulo": "Os 2 CO₂ liberados não vêm dos carbonos que acabaram de entrar",
+      "aluno_acha": "aluno acha que os 2 CO₂ liberados no ciclo são os 2 carbonos do acetil que acabou de entrar",
+      "mecanismo": "estudos com isótopos mostram que os 2 carbonos perdidos como CO₂ na primeira volta do ciclo vêm do _oxaloacetato_, não do acetil que acabou de entrar. Os carbonos do acetil ficam dentro do ciclo e só saem em voltas posteriores. Para o balanço energético global isso não muda nada (no longo prazo, cada acetil é oxidado completamente), mas a contabilidade carbono a carbono não é linear como parece à primeira vista."
+    },
+    {
+      "titulo": "O ciclo de Krebs não consome oxigênio",
+      "aluno_acha": "aluno acha que o O₂ entra dentro de alguma reação do ciclo",
+      "mecanismo": "nenhuma das 8 reações do ciclo usa O₂ diretamente. O O₂ é consumido apenas na cadeia respiratória, como aceptor final de elétrons. A dependência do ciclo em relação ao O₂ é _indireta_: sem O₂, a cadeia respiratória trava, o NADH não consegue ser reoxidado a NAD⁺, falta NAD⁺ para as reações 3, 4 e 8, e o ciclo para por escassez de cofator. Por isso hipóxia mata: não por falta de oxigênio dentro do ciclo, mas por paralisação da via que regenera os cofatores que o ciclo precisa."
+    }
+  ],
+  "resumindo_secoes": [
+    {
+      "titulo": "O que é o ciclo",
+      "corpo": "Sequência fechada de 8 reações na matriz mitocondrial que oxida o acetil-CoA em 2 CO₂. Por volta gera 3 NADH, 1 FADH₂, 1 GTP e regenera o oxaloacetato."
+    },
+    {
+      "titulo": "Entrada via PDH",
+      "corpo": "Piruvato → acetil-CoA pela piruvato desidrogenase, um complexo de 3 enzimas (E1, E2, E3) com 5 coenzimas (TPP, ácido lipóico, CoA, FAD, NAD⁺). Não pertence ao ciclo."
+    },
+    {
+      "titulo": "Por que B1 é clínica",
+      "corpo": "Sem tiamina, PDH e α-cetoglutarato desidrogenase travam. Beribéri (úmido: cardíaco; seco: neuropatia) e Wernicke-Korsakoff (alcoolista). Repor B1 IV antes de glicose no PS."
+    },
+    {
+      "titulo": "As 8 reações em síntese",
+      "corpo": "R1 condensação (acetil + OAA → citrato); R2 isomerização; R3 e R4 descarboxilações oxidativas (saem 2 CO₂, 2 NADH); R5 GTP; R6 FADH₂; R7 hidratação; R8 NADH final."
+    },
+    {
+      "titulo": "R5 é a única fosforilação em nível de substrato",
+      "corpo": "Succinil-CoA → succinato + GTP via succinil-CoA sintetase. A energia da ligação tioéster vai direto para GDP. Todos os outros ATPs do ciclo vêm indiretos, via cadeia respiratória."
+    },
+    {
+      "titulo": "Fluoracetato como veneno",
+      "corpo": "Rodenticida convertido em fluorocitrato dentro da célula. Bloqueia aconitase, paralisa o ciclo. Em 30-100 min: convulsão, arritmia, falência. Letal a 2-10 mg/kg em humanos, sem antídoto."
+    },
+    {
+      "titulo": "Balanço por glicose",
+      "corpo": "Cada glicose → 2 acetil-CoA → 2 voltas do ciclo. Total de ~20 ATP só do Krebs. Somado a glicólise e PDH, ~30-32 ATP por glicose oxidada (não os 38 antigos)."
+    },
+    {
+      "titulo": "Função anfibólica",
+      "corpo": "Intermediários saem para biossíntese: α-KG → glutamato; succinil-CoA → heme; OAA → aspartato e gliconeogênese; citrato → ácidos graxos. O ciclo é catabólico E anabólico."
+    },
+    {
+      "titulo": "Anaplerose por piruvato carboxilase",
+      "corpo": "Piruvato + HCO₃⁻ + ATP → OAA. Repõe oxaloacetato que sai por anfibolia. Inativa sem acetil-CoA — acetil-CoA acumulado é o sinal de \"preciso de mais OAA\"."
+    },
+    {
+      "titulo": "Regulação: lógica única em 4 pontos",
+      "corpo": "PDH, citrato sintase, isocitrato desidrogenase, α-KG desidrogenase. ATP e NADH altos freiam; ADP e Ca²⁺ altos aceleram. Ca²⁺ liga contração muscular à produção de ATP."
+    },
+    {
+      "titulo": "Krebs não consome O₂ — mas para sem ele",
+      "corpo": "Nenhuma reação do ciclo usa O₂. Mas sem O₂ a cadeia respiratória trava, NAD⁺ se esgota, e o ciclo congela por falta de cofator. Isquemia mata por essa cadeia indireta."
+    },
+    {
+      "titulo": "Por que tecidos sensíveis morrem rápido",
+      "corpo": "Cérebro e miocárdio dependem absolutamente da fosforilação oxidativa. Em isquemia, glicólise anaeróbia rende 2 ATP/glicose — insuficiente para bombas iônicas. Necrose em minutos, janela curta para reperfusão."
+    }
+  ],
+  "mapa_confusoes_raw": "# Mapa de Confusões — Ciclo de Krebs\n\n**Slug:** `ciclo-krebs` · **Aula UC01:** `bioq-17-ciclo-krebs-TE-I` · **Versão:** 2026-05-25 (rev. para formato canônico do validador)\n\nCatálogo dos erros mecanísticos típicos do tema. Distratoras da E2 puxam DESTE arquivo.\n\n## 1.1 Por que o piruvato não entra direto no ciclo\n\n1. **Acetil-CoA atravessa a membrana mitocondrial interna** — falso. Não há transportador para acetil-CoA. O que atravessa é o citrato (via transportador tricarboxilato), clivado no citosol pela ATP-citrato liase. *Origem: q-0312.*\n2. **PDH é parte do ciclo de Krebs** — falso. PDH é a porta de entrada; o ciclo começa formalmente na citrato sintase. O NADH da PDH não é \"do ciclo\", é da reação preparatória. *Origem: q-0320.*\n3. **O piruvato atravessa por difusão simples** — falso. Usa transportador específico (MPC, monocarboxylate pyruvate carrier) em simporte com H⁺. *Origem: livro.*\n4. **Os 2 CO₂ saem da reação da PDH** — falso. PDH perde 1 CO₂ (antes do ciclo); os outros 2 CO₂ saem nos passos 3 e 4 do ciclo (IDH e α-KGDH). *Origem: q-0288, q-0320.*\n\n## 1.2 Complexo PDH: 3 enzimas, 5 coenzimas\n\n1. **PDH usa só NAD⁺ como cofator** — falso. Usa cinco coenzimas: TPP, ácido lipóico, CoA, FAD, NAD⁺. *Origem: q-0288.*\n2. **E1 reduz NAD⁺** — falso. Quem reduz NAD⁺ é o E3. E1 descarboxila o piruvato via TPP. *Origem: banco NEBLI.*\n3. **O grupo acetila sai do complexo como aldeído** — falso. Sai como tioéster acetil-CoA — ligação rica em energia (~31 kJ/mol). *Origem: livro.*\n4. **As 5 coenzimas da PDH só servem aqui** — falso. As mesmas 5 (TPP, ácido lipóico, CoA, FAD, NAD⁺) aparecem no passo 4 do ciclo (α-KGDH, mecanismo idêntico). *Origem: q-0288.*\n\n## 1.3 Beribéri e Wernicke (vit B1)\n\n1. **B1 deficiency só afeta a PDH** — falso. Paralisa PDH E α-KGDH. Daí o quadro de Wernicke (cérebro depende de glicose oxidativa). *Origem: integração clínica.*\n2. **Em deficiência de tiamina o lactato cai** — falso. Sobe. Sem PDH, piruvato acumula e vira lactato pela LDH — acidose láctica. *Origem: livro.*\n3. **Alcoolista hipoglicêmico recebe glicose primeiro** — *invertido e perigoso*. Tiamina vem antes. Glicose pura em paciente B1-depletado precipita Wernicke agudo. *Origem: regra prática de PS.*\n4. **B1 = B12** — falso. B1 (tiamina) entra em PDH e α-KGDH. B12 (cobalamina) entra na metionina sintase e na metilmalonil-CoA mutase — não toca em Krebs. Deficiência de B12 dá anemia megaloblástica + degeneração combinada subaguda da medula. *Origem: livro.*\n\n## 2.1 Visão geral e saldo por volta\n\n1. **Saldo por volta = 2 NADH** — falso. São 3 NADH (IDH, α-KGDH, MDH) + 1 FADH₂ (SDH) + 1 GTP + 2 CO₂. *Origem: q-0169, q-0288, q-0320.*\n2. **Saldo da PDH é \"do ciclo\"** — falso. Os 2 NADH da PDH (por glicose) vêm antes do ciclo começar. Por glicose: 2 NADH (PDH) + 6 NADH (ciclo, 2 voltas) + 2 NADH (glicólise). *Origem: q-0169.*\n3. **Glicose aeróbica = 36 ATP exatos** — número antigo. Valor moderno: 30–32 ATP (depende do shuttle citosólico do NADH glicolítico). *Origem: q-0169.*\n4. **NADH citosólico da glicólise entra direto na mitocôndria** — falso. Membrana interna é impermeável a NADH. Os elétrons entram via shuttle malato-aspartato (mantém como NADH na matriz, ~2,5 ATP) ou glicerol-3P (entrega como FADH₂ via UQ, ~1,5 ATP). *Origem: q-0388.*\n\n## 2.2 Passos 1–4: condensação, isomerização, oxidações\n\n1. **Citrato sintase consome ATP** — falso. Não consome. A energia vem da hidrólise da ligação tioéster do acetil-CoA. *Origem: livro.*\n2. **Fluoracetato bloqueia diretamente a aconitase** — parcialmente falso. Mecanismo: fluoracetato → fluoracetil-CoA → fluorocitrato (via citrato sintase) → inibe aconitase. Síntese letal. *Origem: slide 21, livro.*\n3. **Isocitrato desidrogenase usa FAD** — falso. Usa NAD⁺. FAD aparece só na SDH no ciclo (e indiretamente em E3 da α-KGDH). *Origem: livro.*\n4. **α-KGDH é uma enzima simples (monomérica)** — falso. É um complexo análogo à PDH (3 enzimas, mesmas 5 coenzimas: TPP, ácido lipóico, CoA, FAD, NAD⁺). *Origem: q-0288.*\n\n## 2.3 Passos 5–8: GTP, SDH, OAA\n\n1. **GTP do passo 5 = 2 ATP** — falso. 1 GTP equivale a 1 ATP (convertido por nucleosídeo difosfato quinase). *Origem: q-0288.*\n2. **SDH está na matriz** — falso. SDH é a única enzima do ciclo embutida na membrana mitocondrial interna — é o Complexo II da cadeia respiratória. *Origem: q-0157, q-0388, q-0400.*\n3. **FADH₂ rende mesmo ATP que NADH** — falso. FADH₂ ~1,5 ATP, NADH ~2,5 ATP. Diferença mecanística: FADH₂ entra na cadeia mais a jusante (via Complexo II/UQ), bombeia menos H⁺. *Origem: q-0157, q-0388.*\n4. **MDH não roda porque ΔG⁰' positivo** — falso. Roda por princípio de Le Chatelier: citrato sintase consome OAA imediatamente, puxando a reação para frente. Razão NAD⁺/NADH alta também favorece. *Origem: livro.*\n\n## 2.4 Regulação por carga energética\n\n1. **ATP ativa o ciclo** — invertido. ATP INIBE o ciclo (sinal \"energia OK, freia\"). ADP/AMP ATIVAM. *Origem: livro.*\n2. **Oligomicina/cianeto inibem enzima do ciclo diretamente** — falso. Bloqueiam ATP-sintase / Complexo IV. Cadeia para → NADH acumula → NAD⁺ desaparece → IDH/α-KGDH/MDH ficam sem aceptor → ciclo para por falta de NAD⁺. *Origem: q-0312, q-0325, q-0387.*\n3. **Desacoplador = mesmo efeito que oligomicina** — falso. DNP faz o oposto: colapsa gradiente, ciclo dispara, O₂ sobe, ATP cai. Hipertermia. *Origem: q-0312, q-0325.*\n4. **Ca²⁺ inibe o ciclo** — falso. Ca²⁺ na matriz ATIVA IDH e α-KGDH. Sinal de \"contração começou, preciso de mais ATP\" — feed-forward. *Origem: livro.*\n\n## 3.1 Krebs como hub biossintético\n\n1. **Krebs é só catabolismo** — falso. É anfibólico — cede α-KG (glutamato), OAA (aspartato), succinil-CoA (heme), citrato (acetil-CoA citosólico → AG). Toda saída drena OAA. *Origem: q-0211, q-0388.*\n2. **Citrato sai da mitocôndria para virar ATP no citosol** — falso. Citrato sai para virar acetil-CoA citosólico (síntese de AG e colesterol). Saída anabólica. *Origem: livro.*\n3. **α-KG só serve para virar succinil-CoA** — falso. α-KG sai do ciclo para virar glutamato (e a partir dele, glutamina, prolina, arginina). Entrada catabólica de muitos aminoácidos. *Origem: livro.*\n4. **Succinil-CoA só serve para virar succinato** — falso. Succinil-CoA é precursor obrigatório de porfirinas (heme da hemoglobina, citocromo, catalase). *Origem: livro.*\n\n## 3.2 Anaplerose e piruvato carboxilase\n\n1. **Anaplerose significa retirar intermediários** — falso. Anaplerose (\"preencher de novo\") significa REPOR. O contrário é cataplerose. *Origem: livro.*\n2. **Piruvato carboxilase usa piruvato + acetil-CoA como substratos** — falso. Usa piruvato + HCO₃⁻ + ATP. Acetil-CoA é o ATIVADOR alostérico (sem ele, enzima virtualmente inativa). *Origem: q-0211.*\n3. **AG par é anaplerótico** — falso. β-oxidação de AG par gera só acetil-CoA, que entra com 2C e sai como 2 CO₂ — saldo líquido = 0. AG ímpar repõe (via propionil-CoA → succinil-CoA, B12-dependente). *Origem: livro, integração com gliconeogênese.*\n4. **Piruvato carboxilase está em todos os tecidos igualmente** — falso. Restrita a fígado e rim. Por isso músculo não consegue fazer gliconeogênese a partir de piruvato. *Origem: livro.*\n\n## 3.3 Jejum prolongado e cetose\n\n1. **Cetoacidose por excesso de glicose** — invertido. Cetoacidose por falta de OAA disponível (drenado pela gliconeogênese em jejum/DM1). Sem OAA, acetil-CoA da β-oxidação vira corpo cetônico. *Origem: integração clínica.*\n2. **\"AG queima na fogueira dos carboidratos\" = exigência energética** — falso. A fogueira é OAA. Sem carboidrato → sem piruvato → sem piruvato carboxilase → sem OAA → sem combustão completa. *Origem: integração clínica.*\n3. **Em jejum bem adaptado, o cérebro continua dependendo só de glicose** — falso. Após 2–3 semanas o cérebro adapta transportadores e passa a queimar corpos cetônicos como combustível principal, poupando glicose. *Origem: livro.*\n4. **DKA = cetose patológica por excesso de insulina** — invertido. DKA é por insulina baixa/ausente em DM1 — lipólise descontrolada, β-oxidação em torrente, OAA drenado, acetil-CoA → cetônicos em quantidade que ultrapassa o tamponamento sanguíneo. *Origem: integração clínica.*\n"
+}

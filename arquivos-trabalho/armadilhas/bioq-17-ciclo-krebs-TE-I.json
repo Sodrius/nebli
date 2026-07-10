@@ -1,0 +1,133 @@
+{
+  "slug": "bioq-17-ciclo-krebs-TE-I",
+  "total_armadilhas_unicas": 7,
+  "total_questoes_com_armadilha": 10,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Misturar local de acao dos inibidores: antimicina bloqueia Complexo III, oligomicina bloqueia ATP-sintase",
+      "origens": [
+        "211",
+        "387",
+        "388",
+        "400"
+      ],
+      "nivel": "dificil",
+      "conceito": "Ciclo de Krebs e cadeia respiratoria",
+      "tags": [
+        "krebs",
+        "fosforilacao-oxidativa",
+        "cofatores-enzimaticos",
+        "acetil-coa"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 4
+    },
+    {
+      "descricao": "alfa-KG-DH e complexo multienzimatico (como PDH), não enzima unica; GTP do Krebs e substrato-nivel, Não afetado pelo DNP",
+      "origens": [
+        "288"
+      ],
+      "nivel": "medio",
+      "conceito": "identificacao dos intermediarios alfa-KG→OAA, classes de enzimas, reagentes/produtos e saldo de ATP por volta de Krebs com e sem DNP",
+      "tags": [
+        "krebs",
+        "fosforilacao-oxidativa",
+        "enzimologia",
+        "cofatores-enzimaticos",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "desacoplador AUMENTA consumo de O2 (cadeia roda mais) mas DIMINUI producao de ATP — alunos confundem 'acoplamento' com transferencia direta de elétrons",
+      "origens": [
+        "312"
+      ],
+      "nivel": "medio",
+      "conceito": "analise V/F: desacoplador AUMENTA consumo de O2 mas DIMINUI ATP; acetil-CoA não atravessa membrana interna; acoplamento e quimiosmotico (protons, não elétrons para ATP-sintase)",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "krebs",
+        "acetil-coa",
+        "regulacao-metabolica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "o Krebs e via OXIDATIVA — acetil-CoA perde elétrons (oxidado), NAD+/FAD ganham elétrons (reduzidos); confundir quem oxida e quem reduz e erro classico",
+      "origens": [
+        "320"
+      ],
+      "nivel": "facil",
+      "conceito": "no Krebs, os carbonos do acetil-CoA são OXIDADOS → NAD+/FAD são REDUZIDOS — 4 reações de oxidorredução por volta gerando 3 NADH + 1 FADH2",
+      "tags": [
+        "krebs",
+        "cofatores-enzimaticos",
+        "enzimologia",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "com oligomicina a cadeia respiratória Também para (gradiente acumula) — Krebs e PDH param junto; saldo final e 2 ATP da glicolise, não 6 ou mais",
+      "origens": [
+        "325"
+      ],
+      "nivel": "medio",
+      "conceito": "oligomicina inibe ATP-sintase → gradiente acumula → cadeia para por contra-pressao → Krebs/PDH param → so glicolise anaeróbia funciona → 2 ATP por glicose",
+      "tags": [
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "glicolise",
+        "energia-livre",
+        "cadeia-respiratoria"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Pular o Malato entre Fumarato e Oxaloacetato — o aluno coloca apenas 3 intermediários (B=Succinato, C=Fumarato, D=Oxaloacetato) esquecendo que Fumarato → Malato → Oxaloacetato são dois passos. Além disso, confundir que succinato desidrogenase usa FAD (não NAD⁺), produzindo FADH₂, não NADH.",
+      "origens": [
+        "q-0157"
+      ],
+      "nivel": "dificil",
+      "conceito": "Identificação de intermediários do ciclo de Krebs",
+      "tags": [
+        "krebs",
+        "intermediarios",
+        "succinato",
+        "fumarato",
+        "malato",
+        "oxaloacetato",
+        "isocitrato"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Contar 4 NADH em vez de 3, esquecendo que succinato desidrogenase (passo succinato → fumarato) usa FAD como aceptor de elétrons — produz FADH₂, não NADH. Os 3 NADH vêm de isocitrato desidrogenase, α-cetoglutarato desidrogenase e malato desidrogenase.",
+      "origens": [
+        "q-0169"
+      ],
+      "nivel": "dificil",
+      "conceito": "Número de NADH e FADH₂ produzidos no ciclo de Krebs",
+      "tags": [
+        "krebs",
+        "nadh",
+        "fadh2",
+        "atp",
+        "gtp",
+        "rendimento-energetico",
+        "respiration"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

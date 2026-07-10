@@ -1,0 +1,191 @@
+{
+  "slug": "biomol-25-mutacao-reparo-recombinacao",
+  "tag_ancora": "NEBLI::biomol-25-mutacao-reparo-recombinacao",
+  "tags_puras": [],
+  "impuras": [
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+      "guids_kept": ["eC6.axc5D%"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+      "guids_kept": ["pXB9u{]WQp"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+      "guids_kept": ["h@*st8m~,p"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+      "guids_kept": ["PE:l}h-apM"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+      "guids_kept": ["ic5$^ZX*`8"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Silent",
+      "guids_kept": ["r]JU>+9q^n"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::01_Single_nucleotide_substitutions::*Missense",
+      "guids_kept": ["I>8b76*:kp"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Nonsense",
+      "guids_kept": ["mr<L}a>Lp9"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::02_Other_mutations::*Frameshift",
+      "guids_kept": ["lEse#5m=+g"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair",
+      "guids_kept": ["Bi84|O=k+u"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage",
+      "guids_kept": ["kjkdApy8u%"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage",
+      "guids_kept": ["sDyd6qUVj)"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["r&`FW|Y2Y#"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["D+aa%tW(nr"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["lW[I?/0%c~"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["Q.s;;D]DTJ"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["IC[-?&IFM7"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+      "guids_kept": ["c@k7sMQ=X4"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+      "guids_kept": ["#jjn?4~/K"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+      "guids_kept": ["L:P;6~uq#."]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+      "guids_kept": ["Jb9Gw7bgyo"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+      "guids_kept": ["qB$u`?AY5k"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
+      "guids_kept": ["e.EMV?Q=L="]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+      "guids_kept": ["k`c7C8XTK)"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
+      "guids_kept": ["zz:SZGvcAK"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+      "guids_kept": ["d>157HCw+z"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+      "guids_kept": ["LY!}:t.}<^"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+      "guids_kept": ["E-pqB(_lO?"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+      "guids_kept": ["k@rSelUHzZ"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+      "guids_kept": ["7kfGkn!LF"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+      "guids_kept": ["qy-^#X]Gk4"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+      "guids_kept": ["vHd]4o<t0#"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
+      "guids_kept": ["O,cjH!MqgS"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["KsEZ(/%&6C"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["hu+Z.L7gM1"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["xOTGW!/!Vb"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["bl@4$z8hs_"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["M6bO9o}ogN"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["Dyn=#zdaj,"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["L<t.E_=<%7"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["fkEX<Ki}J,"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["sJjey-*@a."]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["r<Z6gLLWl?"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["i*o2F3tm?-"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["hgn9CST,,1"]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+      "guids_kept": ["w:{^BM&@rf"]
+    }
+  ]
+}

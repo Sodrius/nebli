@@ -1,0 +1,159 @@
+slug: histo-07-cartilaginoso
+titulo: "Tecido cartilaginoso"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Histologia (UC02)"]
+  - ["Onde estudar", "Junqueira & Carneiro cap. 7 + Ross & Pawlina cap. 7"]
+
+# ============================================================
+# Planejamento (lido pela sessão; gerar_main.py ignora)
+# ============================================================
+alvo_paginas_e1: "piso 2, teto 22 — alvo 14-17"
+recorte_slide_tema: "O slide cobre integralmente os slides 1-62 (cartilaginoso). Os slides 65-159 são do tecido ósseo (resumo separado). Recorte 1:1 dentro do cartilaginoso."
+
+prioridades_corrida:
+  - prio: "Eixo prioritário: 'ver na lâmina'. Cada subtópico morfológico recebe critério visual EMBUTIDO."
+  - prio: "biocel-07 (peso alto): cadeia ≥4 setas com figura adjacente. O slide é farto — explorar."
+  - prio: "Banda dupla 0.80-1.25 paridade Q01-Q30."
+  - prio: "Pergunta âncora / retórica / ingênua BANIDAS."
+  - prio: "Tabela auditável de figuras no fechamento (chat, não PDF)."
+  - prio: "Sigla sempre via #sigla() na 1ª aparição (MEC, GAG, PG)."
+
+registros_abertura:
+  p1_s1: "integração-anterior — retoma tecido conjuntivo (aula passada)"
+  p1_s2: "enquadramento — origem mesodérmica e marca avascular"
+  p1_s3: "ponto-de-quebra — sem vaso, sem nervo, sem linfático: como vive?"
+  p1_s4: "analogia concreta — pericôndrio como capa nutridora"
+  p1_s5: "enquadramento — duas idades da mesma célula"
+  p2_s1: "ponto-de-quebra — o que define o tecido não é a célula, é a matriz"
+  p2_s2: "enquadramento — colágeno II é a malha que segura tudo"
+  p2_s3: "analogia concreta — proteoglicano como esponja molecular"
+  p2_s4: "integração-posterior — territórios anunciam quem secretou o quê"
+  p3_s1: "ponto-de-quebra — duas formas de crescer, dois lugares de origem"
+  p3_s2: "enquadramento — hialina é o padrão, elástica e fibrosa são variações"
+  p3_s3: "integração-anterior — cartilagem que vira osso (gancho para o próximo resumo)"
+  p3_s4: "ponto-de-quebra — por que cartilagem lesionada não cicatriza"
+
+profundidade: "PADRÃO"
+
+termos_nota_obrigatorios:
+  - "condroblasto — célula jovem secretora de matriz cartilaginosa"
+  - "condrócito — célula madura aprisionada em lacuna"
+  - "pericôndrio — bainha de conjuntivo denso que envolve e nutre a cartilagem"
+  - "grupo isógeno — agrupamento de condrócitos vindos de um único condroblasto"
+  - "proteoglicano — eixo proteico + cadeias de GAG; retém água por carga negativa"
+  - "ácido hialurônico — GAG livre que ancora agregados de proteoglicanos"
+  - "condronectina — glicoproteína multiadesiva que prende condrócito ao colágeno II"
+  - "matriz territorial — halo basófilo rico em PG ao redor das lacunas"
+
+pontos_quebra:
+  - quebra: "Cartilagem é avascular, mas tem nutrição"
+    correcao: "Pericôndrio leva sangue na borda; nutriente difunde pela MEC hidratada até o condrócito. O metabolismo do condrócito é anaeróbio porque a difusão de O₂ não alcança o interior."
+    origem: "Junqueira/Carneiro cap. 7"
+  - quebra: "Condroblasto e condrócito não são tipos diferentes — são idades"
+    correcao: "Mesma linhagem: jovem secretora na borda (condroblasto) vira madura aprisionada (condrócito). Não confundir com condroclasto (questionado pela literatura)."
+    origem: "armadilha clássica"
+  - quebra: "Crescimento intersticial NÃO acontece em adulto"
+    correcao: "Condrócito maduro perde capacidade mitótica. Crescimento intersticial só ocorre na cartilagem jovem (fetal/infantil). No adulto sobra aposicional, limitado."
+    origem: "Ross & Pawlina + ponto de quebra"
+  - quebra: "Colágeno II é exclusivo de hialina e elástica — fibrosa tem tipo I"
+    correcao: "Fibrocartilagem é híbrido: colágeno tipo I (do conjuntivo denso) + algumas fibras tipo II. Por isso resiste a tração, não a compressão pura."
+    origem: "Kierszenbaum"
+  - quebra: "Fibrocartilagem não tem pericôndrio"
+    correcao: "É sempre contígua a conjuntivo denso modelado (tendão, ligamento). A nutrição vem por esse conjuntivo, não por uma bainha própria."
+    origem: "Junqueira/Carneiro"
+  - quebra: "Matriz territorial vs interterritorial não é decoração de prova"
+    correcao: "Territorial (ao redor da lacuna) é basófila — rica em PG recém-secretados. Interterritorial é mais antiga, mais colagenosa. Lê na lâmina porque os condrócitos novos colorem o entorno."
+    origem: "histologia clínica"
+  - quebra: "Cartilagem não se regenera bem porque não há vaso para entregar célula nova"
+    correcao: "A célula que repararia (condroblasto) precisa vir do pericôndrio. Sem vaso na lesão profunda, não chega progenitora. O reparo vira tecido conjuntivo cicatricial."
+    origem: "ponto de quebra clínico"
+  - quebra: "Líquido sinovial nutre cartilagem articular — não pericôndrio"
+    correcao: "A superfície articular é nua: sem pericôndrio. A nutrição vem do líquido sinovial por difusão. Por isso lesão articular é tão difícil de reparar."
+    origem: "Ross & Pawlina"
+
+exemplares_ancora: |
+  Exemplar 1 (mecanística parágrafo-por-parágrafo): aplicar em 2.1-2.3 (matriz).
+  Exemplar 7 (analogia construtiva): proteoglicano como esponja molecular (2.3).
+  Exemplar 9 (clinica-box): osteoartrose (3.4); disco intervertebral (3.3).
+  Exemplar 14 (siglas via footnote): MEC, GAG, PG, AH, GP.
+  Exemplar 15 (figura-lateral): morfologia do condrócito (1.5).
+  Exemplar 16 (tabela família): comparativo hialina × elástica × fibrosa (3.2).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Identidade do tecido cartilaginoso"
+        subtopicos:
+          - "1.1 De onde vem e por que importa"
+          - "1.2 A marca registrada: avascular, abundante matriz"
+          - "1.3 Como um tecido sem vaso se alimenta"
+          - "1.4 O pericôndrio: bainha que nutre e renova"
+          - "1.5 Duas idades da mesma célula: condroblasto e condrócito"
+      - titulo: "PARTE II — A matriz que define tudo"
+        subtopicos:
+          - "2.1 Por que a matriz é o tecido, não a célula"
+          - "2.2 Colágeno tipo II: a malha tensional"
+          - "2.3 Proteoglicanos e GAGs: a esponja que segura água"
+          - "2.4 Territórios da matriz: ler a lâmina"
+      - titulo: "PARTE III — Tipos, crescimento e clínica"
+        subtopicos:
+          - "3.1 Dois jeitos de crescer: intersticial e aposicional"
+          - "3.2 Hialina, elástica e fibrosa: o mesmo princípio em três versões"
+          - "3.3 Onde cada uma aparece e por quê"
+          - "3.4 Por que cartilagem lesionada não cicatriza"
+  - titulo: "Resumindo"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Os pontos que precisam estar na ponta da língua"
+  - titulo: "Etapa 2 — 30 objetivas"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "10 Consolidação · 15 Integração · 5 Aplicação"
+  - titulo: "Etapa 3 — 5 discursivas"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Mecanismo em até 100 palavras"
+  - titulo: "Gabarito"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Respostas da Etapa 2"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "A"]
+    - ["05", "E"]
+    - ["06", "B"]
+    - ["07", "C"]
+    - ["08", "D"]
+    - ["09", "B"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "B"]
+    - ["13", "C"]
+    - ["14", "E"]
+    - ["15", "B"]
+    - ["16", "A"]
+    - ["17", "D"]
+    - ["18", "C"]
+    - ["19", "B"]
+    - ["20", "E"]
+    - ["21", "D"]
+    - ["22", "C"]
+    - ["23", "A"]
+    - ["24", "B"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "B"]
+    - ["28", "D"]
+    - ["29", "E"]
+    - ["30", "A"]

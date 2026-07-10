@@ -1,0 +1,375 @@
+=== p1 (226) ===
+• O processo de
+transcrição está
+relacionado à passagem
+da mensagem genética
+contida no DNA para o
+RNA (qualquer tipo de
+RNA), portanto a síntese
+de RNA.
+• A transcrição é o
+principal mecanismo de
+regulação gênica.
+Transcrição
+=== p2 (0) ===
+
+=== p3 (204) ===
+O processo de transcrição é realizado por
+um
+complexo
+enzimático
+onde
+a
+enzima chave é a RNA Polimerase
+(RNA Pol), composta de subunidades e
+que realiza a polimerização do RNA a
+partir de um molde de DNA.
+=== p4 (0) ===
+
+=== p5 (375) ===
+Diferenças entre o processo nos eucariotos e
+procariotos
+A transcrição nos eucariotos ocorre no núcleo,
+enquanto a tradução ocorre no citoplasma. Já nos
+procariontes tal separação celular não existe,
+sendo os 2 processos muito bem acoplados no
+espaço.
+A separação temporal e espacial desses 2 processos
+nos eucariontes permite a eles uma melhor
+regulação da expressão gênica.
+=== p6 (316) ===
+✔A existência de mRNA foi postulado
+primeiramente pelos franceses F. Jacob and
+J. Monod (prêmio Nobel em Medicina) em
+1961 (postulado de Jacob and Monod)
+✔propriedades do mRNA:
+✔composição das bases deve reﬂetir a do
+DNA
+✔tamanhos diferentes
+✔tem que associar-se a ribossomos
+✔alta velocidade de síntese e degradação
+=== p7 (362) ===
+RNA polimerase
+●A transcrição é catalisada pela enzima RNA Pol.
+●Em procariotos existe apenas um tipo de RNA Pol
+(500 kDa) enquanto nos eucariontes existem 3.
+●RNA Pol de procariotos 4 tipos de subunidades:
+α2ββ’σ
+    α – liga sequências regulatórias
+    β – forma ligações fosfodiéster
+    β’– liga-se ao DNA molde
+    σ – reconhece promotor e inicia a síntese.
+=== p8 (207) ===
+Funções da RNA polimerase
+● Procura no DNA sítios de
+iniciação. Por exemplo, em E. coli
+existe aproximadamente 2.000
+“promoter sites”
+● Desenovela temporariamente a
+dupla ﬁta para produzir simples ﬁta
+de DNA
+=== p9 (268) ===
+● Seleciona o nucleotídeo correto e catalisa
+a formação da ligação fosfodiéster (do lado
+3’-OH). O processo é repetido várias vezes
+já que a Pol se movimenta pelo DNA
+molde.
+●Detecta o sinal de término
+O transcrito é produzido do início ao ﬁm com
+uma única polimerase.
+=== p10 (17) ===
+Reação da RNA Pol
+=== p11 (60) ===
+A síntese de RNA tem 3 fases:
+Iniciação
+Elongação
+Terminação
+=== p12 (298) ===
+●A síntese de RNA começa em regiões do
+DNA chamadas de promotoras - seqüências
+especíﬁcas reconhecidas pela RNA Pol -
+que direcionam a transcrição de genes.
+●Essas seqüências podem ser bastante
+variáveis, porém, mantêm conservadas
+regiões responsáveis pela função promotora.
+Inicio  da  Transcrição
+=== p13 (399) ===
+●Em procariotos, 2 dessas regiões - conhecidas
+como seqüências de consenso - estão presentes a
+cerca de 10 e 35 pares  de  bases  acima  do 
+ponto  de  início  da 
+    transcrição (5‘TATATT 3’e  5' TTGACA 3’).
+●Nos eucariotos a principal região promotora é
+conhecida como TATA box (cerca de 25) mas,
+outras regiões têm sido descritas como
+importantes (40, 110 pares de bases).
+Inicio da  Transcrição
+=== p14 (247) ===
+procariontes
+    -35
+   -10
+       +1
+5’------TTGACA---------TATATT------start site--3’
+eucariontes
+   -110         -40                     -25             +1
+5’---CAAT----GC ------------TATA-----start site--- 3’
+Duas ou mais sequências ativadoras
+=== p15 (52) ===
+Sequências representativas de promotores  em E. coli
+=== p16 (247) ===
+✔o fator σ liga-se ao sítio promotor com uma
+constante de associação 1000 vezes superior
+à da enzima sozinha.
+✔sem o fator σ, a enzima associa-se
+inespeciﬁcamente a qualquer segmento do
+DNA.
+Estabelece-se um complexo binário
+(RNA Pol/DNA) estável.
+=== p17 (340) ===
+●O fator σ interage, via carboxila terminal,
+com as seqüências -10 e -35 do promotor.
+A região central do fator σ interage com o
+restante da RNA Pol.
+●Após a formação do complexo binário
+ocorre a abertura local da dupla hélice
+(bolha), promovida pela RNA Pol, com o
+rompimento das pontes de H e a exposição
+de 17 bases em cada uma das ﬁtas.
+=== p18 (218) ===
+Neste momento então, estabelece-se a
+primeira ligação fosfodiéster entre 2
+ribonucleotídios trifosfatados
+complementares às bases expostas na ﬁta
+molde.
+Está constituído o complexo ternário: DNA,
+RNA Pol e RNA nascente
+=== p19 (342) ===
+●O RNA recém sintetizado pareia-se
+temporariamente com a ﬁta molde de DNA,
+formando um híbrido curto RNA-DNA (cerca de
+12 pares de bases). 
+●A cada nucleotídeo adicionado, o híbrido RNA-
+DNA gira, fazendo com que a ponta 3’-OH do
+RNA ﬁque no centro catalítico da RNA Pol.
+Topoisomerase precede a Pol aliviando o
+superenovelamento.
+Alongamento
+=== p20 (325) ===
+Uma vez iniciada, a transcrição segue
+numa velocidade de 50 b/s, estando a
+RNA Pol ligada à ﬁta molde de DNA até
+encontrar o sinal de término.
+A RNA Pol não tem atividade de nuclease,
+ou seja, não revisa a cadeia de RNA
+nascente (1 erro/10,000 bases).
+A ﬁdelidade da síntese de RNA é bem menor
+que aquela observada para o DNA
+=== p21 (0) ===
+
+=== p22 (232) ===
+Terminação
+●O sinal de terminação é tão preciso
+quanto o de iniciação
+●Em bactéria existem no mínimo duas
+classes de seqüências de sinalização do
+término da transcrição: uma utiliza a
+proteína r (rho) e outra não (rho-
+independente)
+=== p23 (514) ===
+Terminação rho-independente
+A RNA Pol atinge uma região rica em C e G (muito
+estável) e em seguida uma região longa de A.  A interação
+entre A-U é a mais fraca então, o mRNA se torna instável
+e é liberado como um oligonucleotídeo novo.
+Esse acontecimento desencadeia:
+Parada da RNA Pol,
+Destruição parcial do híbrido RNA-DNA
+(proporcionando instabilidade da região que permanece
+ligada),
+Dissociação do RNA nascente da RNA Pol,
+Restabelecimento da região dupla-ﬁta do DNA, Liberação
+da RNA Pol da ﬁta molde do DNA.
+=== p24 (238) ===
+Terminação rho-dependente
+Em alguns casos a proteína rho (ρ) auxilia o
+término da transcrição.
+ρ que também é chamado de fator de terminação,
+reconhece as regiões de terminação e auxilia a
+RNA polimerase a clivar o mRNA recém
+sintetizado.
+=== p25 (68) ===
+PPP
+5’
+ATP
+ADP  +
+Pi
+3
+’
+5
+’
+3
+’
+ρ reconhece regiões de terminação
+ρ
+=== p26 (0) ===
+
+=== p27 (282) ===
+Processamento Pós-transcricional
+do mRNA em Eucariontes
+Em eucariontes, tradução e transcrição
+são separados
+– Transcrição no núcleo
+– Tradução no citoplasma
+No caminho para o citoplasma, após
+sua síntese, o “mRNA primário” tem
+que ser convertido em “mRNA
+maduro” (monocistrônicos).
+=== p28 (0) ===
+
+=== p29 (227) ===
+Adição de Cap na extremidade
+5’ do mRNA de eucariotos
+●Os transcritos primários (RNA não processado)
+são protegidos por um grupo guanilil
+●A reação é catalisada por guanilil transferase
+●O residuo Cap-G é metilado na posição 7.
+=== p30 (0) ===
+
+=== p31 (16) ===
+7-MetilGuanilato
+=== p32 (427) ===
+3'-PoliAdenição
+●Após a transcrição de uma região de consenso
+AAUAAA (reconhecido por endonucleases
+especiﬁcas), 10-30 nucleotideos depois desta
+região, uma cauda de 100 a 200 resíduos de A
+é adicionada no  mRNA transcrito
+●Poli(A) polimerase adiciona este resíduo
+●Função não conhecida mas, é sugerido que a
+cauda de poli(A) está relacionada à
+estabilidade, posicionamento e velocidade na
+tradução e proteção contra nucleases.
+=== p33 (0) ===
+
+=== p34 (180) ===
+Retirada de Introns
+●Introns são regiões não codiﬁcantes e estão entre exons
+●Os mecanismos de como os introns são retirados do
+mRNA e como os exons são rearranjados são complexos.
+=== p35 (457) ===
+1. A  retirada de um intron ocorre após 2 reações
+de transesteriﬁcação (tansferência do fosfato de
+um açúcar a outro) para unir os exons. Este
+processo é mediado por estruturas complexas
+chamadas de “spliceossomos).
+2. Os spliceossomos são constituidos pela
+associação de ribonucleoproteínas pequenas
+(Small nuclear ribonucleoprotein particles -
+snRNPs; 6-10 proteínas e 100-300 nucleotídeos
+ricos em Uracil).
+3. São descritos 5 tipos (U1, U2, U4, U5 e U6).
+=== p36 (259) ===
+“Splicing” do Pre-mRNA
+▪“Splicing” acontece somente no nucleo
+▪O lado 5’de um intron tem sempre GU
+e o lado 3’ é sempre  AG
+▪Todos os introns têm um "branch site"
+de 18 to 40 nucleotídeos upstream da
+região 3'-splice. O branch site é
+essencial para o splicing
+=== p37 (0) ===
+
+=== p38 (6) ===
+Lariat
+=== p39 (355) ===
+Branch site e Lariat
+●Branch site = YNYRAY, onde Y = pirimidine,
+R = purina e N é qualquer base
+●O "lariat" fecha um loop covalentemente no
+RNA formado por 5'-P do intron 5'-G e o 2'-
+OH-A do branch site
+●Os exons se fecham e retiram o lariat.
+●O lariat é instável; a ligação 2'-5' fosfodiester é
+rapidamente clivada e então o intron é
+degradado no nucleo
+=== p40 (308) ===
+Montagem do Spliceosome
+●snRNPs U1 e U5 ligam no 5'- e 3'- sitio
+de splice, e U2 snRNP liga no branch
+site
+●Interação entre as snRNPs aproximam
+5'- e 3'- sitios de splice e lariat pode se
+formar e a ligação dos exon acontece
+●A reação de transesteriﬁcação que
+conectam os exons é catalisada pelas
+"ribozimas"
+=== p41 (214) ===
+U
+1
+U
+1
+U
+1
+ATP
+U
+2
+U
+2
+intron
+exon
+exon
+Action of small
+nuclear
+ribonucleoprotein
+particles (snRNPs)
+U
+6
+U
+2
+ATP
+ATP
+ATP
+ATP
+U
+2
+U
+2
+U
+2
+U
+4
+U
+4
+U
+4
+U
+4
+U
+5
+U
+5
+U
+5
+U
+5
+U
+5
+U
+5
+U
+6
+U
+6
+U
+6
+U
+6
+U
+6
+U
+6
+ATP
+mRNA
+ATP
+=== p42 (0) ===
+

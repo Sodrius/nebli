@@ -1,0 +1,1490 @@
+NEBLI · APOSTILA
+
+Gliconeogênese
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Leia com o slide do prof aberto ao lado; figuras citadas no texto
+Onde estudar:  referenciam o slide.
+
+               Lehninger, Princípios de Bioquímica (7ª ed.), Cap. 14 (gliconeogênese e
+               regulação recíproca com glicólise) · Marks, Bioquímica Médica Básica (4ª
+               ed.), Cap. 31 · vídeo do Prof. Onuchic sobre Von Gierke (referência do
+               próprio slide)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que não é glicólise de volta
+
+       1.1 O problema termodinâmico das 4 reações irreversíveis
+       1.2 Os 6 passos compartilhados que rodam ao contrário
+       1.3 Onde acontece: fígado, rim e os compartimentos da célula
+  PARTE II -- Substratos e o atravessamento mitocondrial
+       2.1 Lactato e o ciclo de Cori
+       2.2 Glicerol e aminoácidos glicogênicos
+       2.3 A lançadeira que devolve NADH ao citosol
+  PARTE III -- Regulação recíproca e quando a via falha
+       3.1 F2,6BP: o sinalizador que liga e desliga em paralelo
+       3.2 Glucagon, acetil-CoA e a integração com Krebs
+       3.3 Von Gierke e a hipoglicemia alcoólica
+
+RESUMINDO (1 PÁGINA)
+
+       9 seções enxutas em duas colunas
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+       10 Consolidação · 15 Integração · 5 Aplicação
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+       Mecanísticas; Q5 identifica erro conceitual
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Selecionadas do banco UC01; gabarito inline
+
+GABARITO CONSOLIDADO DA ETAPA 2
+
+       Penúltima seção
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Gliconeogênese é a via que fabrica glicose nova a partir de moléculas que não são açúcar --
+    lactato, glicerol, alguns aminoácidos. Ela é a contrapartida da glicólise, mas não é a mesma
+    estrada andada para trás. Esse é o erro mais comum do aluno do primeiro ano: imaginar que
+    basta rodar as dez reações da glicólise no sentido inverso. Três delas são termodinamicamente
+    irreversíveis, e tentar invertê-las custaria uma quantidade absurda de ATP1. A célula resolveu o
+    problema construindo desvios paralelos -- enzimas diferentes, em compartimentos diferentes,
+    que conseguem fazer o mesmo trabalho líquido no sentido oposto. Esta aula percorre o porquê
+    dos desvios, quem traz os tijolos (substratos), como o NADH atravessa a membrana mitocondrial
+    sem se perder, como a célula liga ou desliga a via com um único mensageiro (a frutose-2,6-
+    bifosfato), e o que acontece em duas situações clínicas em que a via falha -- a doença de Von Gierke
+    e a hipoglicemia alcoólica. Estudar gliconeogênese é, no fundo, entender como o fígado fabrica
+    glicose entre as refeições para que o cérebro continue funcionando.
+
+PARTE I -- Por que não é glicólise de volta
+
+1.1 O problema termodinâmico das 4 reações irreversíveis
+A primeira coisa a fixar é a pergunta certa: se a glicólise é só uma sequência de reações catalisadas por
+enzimas, por que não rodar tudo ao contrário? Em teoria, qualquer reação enzimática é reversível --
+basta deslocar o equilíbrio. Na prática, três reações da glicólise têm G tão fortemente negativo que, no
+sentido inverso, exigiriam uma quantidade proibitiva de energia.
+
+São três as reações irreversíveis da glicólise. a HK2 (glicose  G6P3), a PFK-14 (F6P5  F1,6BP6) e
+a piruvato quinase -- PK7 -- (PEP8  piruvato) -- todas com G por volta de -15 a -25 kJ/mol no
+sentido glicolítico. Para inverter, seria preciso empurrar contra esse gradiente, e o custo energético
+seria proibitivo. A célula resolveu o problema com uma decisão de arquitetura: em vez de inverter,
+contornar. Cada um desses três passos ganha uma enzima diferente na gliconeogênese, que faz o
+trabalho oposto com química também diferente.
+
+   1ATP ­ adenosina trifosfato -- moeda energética da célula; sua hidrólise libera a energia usada por bombas, motores e
+biossíntese
+
+   2HK ­ hexoquinase -- primeira enzima da glicólise; fosforila glicose em G6P consumindo ATP
+   3G6P ­ glicose-6-fosfato -- produto da hexoquinase; molécula carregada que fica presa na célula
+   4PFK-1 ­ fosfofrutoquinase-1 -- terceira enzima da glicólise; fosforila F6P em F1,6BP gastando ATP; enzima-válvula
+principal
+   5F6P ­ frutose-6-fosfato -- isômero do G6P (aldose  cetose)
+   6F1,6BP ­ frutose-1,6-bifosfato -- produto da PFK-1; molécula simétrica clivada em duas trioses
+   7PK ­ piruvato quinase -- décima enzima da glicólise; transfere o fosfato do PEP ao ADP, gerando ATP e piruvato
+   8PEP ­ fosfoenolpiruvato -- intermediário com a maior energia de hidrólise de fosfato dos metabólitos comuns
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Três reações da glicólise são irreversíveis (HK, PFK-1, PK). Inverter custaria energia
+proibitiva. A gliconeogênese não é a mesma estrada de volta -- é uma estrada paralela em 3 trechos,
+com enzimas distintas em cada desvio. Os outros 7 passos da glicólise são reversíveis e a gliconeogênese
+reaproveita as mesmas enzimas.
+
+Repare que aparece uma quarta enzima exclusiva da gliconeogênese -- a glicose-6-fosfatase (G6Pase),
+no fim da via. Ela não substitui uma reação irreversível da glicólise (a HK e a G6Pase fazem reações
+opostas, mas a G6Pase também é o passo que libera glicose livre para o sangue). Por isso falamos
+em quatro enzimas exclusivas da gliconeogênese: PC9 (PC), PEPCK10 (PEPCK), FBPase-111 (FBPase-1) e
+G6Pase12 (G6Pase). A figura abaixo mostra os três desvios e a via inteira.
+
+Vista geral da via. As setas azuis verticais (duplas) representam reações reversíveis -- compartilhadas com a glicólise.
+As setas vermelhas indicam os passos irreversíveis -- onde a gliconeogênese precisa de enzimas próprias. Os três
+desvios irreversíveis aparecem com enzimas exclusivas -- PC + PEPCK (substituindo PK), FBPase-1 (substituindo
+PFK-1) e G6Pase (substituindo HK/GK). Para fazer uma glicose, a via consome 4 ATP + 2 GTP + 2 NADH -- caro, mas
+necessário quando a glicemia depende disso.
+
+A pergunta natural agora é: por que tantas enzimas exclusivas, por que não uma só? Porque cada desvio
+resolve um problema termodinâmico diferente. O desvio do PK não dá só pra hidrolisar piruvato + Pi 
+PEP -- essa reação inversa do PK teria G +25 kJ/mol, simplesmente não acontece. A célula gasta dois
+
+   9PC ­ piruvato carboxilase -- enzima mitocondrial exclusiva da gliconeogênese; converte piruvato em oxaloacetato
+consumindo ATP e CO2, ativada por acetil-CoA
+
+   10PEPCK ­ fosfoenolpiruvato carboxiquinase -- citosólica (parcialmente mitocondrial em humanos); converte oxaloac
+etato em PEP consumindo GTP
+
+   11FBPase-1 ­ frutose-1,6-bifosfatase-1 -- citosólica e exclusiva da gliconeogênese; hidrolisa F1,6BP a F6P + Pi; inibida
+por F2,6BP e por AMP (sinal de baixa energia)
+
+   12G6Pase ­ glicose-6-fosfatase -- enzima do lúmen do retículo endoplasmático em fígado, rim e intestino; converte
+G6P em glicose livre
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+passos (carboxila piruvato a OAA13 com ATP, depois descarboxila OAA a PEP com GTP14) porque o vai-
+e-volta de uma carboxilação acoplada cria um intermediário de alta energia onde antes não havia. Mais
+detalhe vem em 2.3.
+
+As três reações irreversíveis da glicólise (em destaque). Esses são os três pontos que a gliconeogênese não pode
+simplesmente inverter -- cada um ganha um desvio com enzima e química próprias. O quarto desvio (G6Pase) não
+está na figura porque a via glicolítica não tem reação equivalente; é exclusivo da gliconeogênese e libera a glicose
+livre.
+
+1.2 Os 6 passos compartilhados que rodam ao contrário
+Antes de mergulhar nos quatro desvios exclusivos, vale fixar o que não muda. Das dez reações da
+glicólise, sete são reversíveis -- operam perto do equilíbrio (G próximo de zero), com a mesma enzima
+funcionando nos dois sentidos. Na gliconeogênese, esses seis passos (são seis porque a TPI conecta as
+duas trioses por isomerização e funciona uma só vez na soma) rodam exatamente ao contrário, com as
+mesmas enzimas da glicólise.
+
+DHAP15 NADH16 NAD17
+
+A enolase, a fosfoglicerato mutase, a PGK18, a gliceraldeído-3-fosfato desidrogenase (já citada acima), a
+triose-fosfato isomerase e a aldolase são todas reaproveitadas. Repare que na direção gliconeogênica
+essas reações fazem o trabalho contrário do que faziam na glicólise -- a PGK passa de "geradora de
+
+   13OAA ­ oxaloacetato -- intermediário de 4 carbonos do ciclo de Krebs e da gliconeogênese; ponto de saída pela PEPCK
+   14GTP ­ guanosina trifosfato -- análogo do ATP usado especificamente pela PEPCK
+   15DHAP ­ di-hidroxiacetona-fosfato -- uma das duas trioses-fosfato produzidas pela aldolase; é convertida em G3P
+(gliceraldeído-3-fosfato -- triose-fosfato produtiva da via) pela TPI (triose-fosfato isomerase).
+   16NADH ­ forma reduzida da nicotinamida adenina dinucleotídeo; carrega 2 elétrons + 1 H. Doador de elétrons para
+a GAPDH (gliceraldeído-3-fosfato desidrogenase) operando reversa na gliconeogênese; recebe elétrons na cadeia respi
+ratória.
+   17NAD ­ nicotinamide adenine dinucleotide, forma oxidada (NAD+); coenzima de oxidorredução; aceita 2 elétrons + 1
+próton durante a oxidação de um substrato.
+   18PGK ­ fosfoglicerato quinase -- gera ATP na glicólise; consome ATP na gliconeogênese
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ATP" a "consumidora de ATP", a GAPDH passa de "produtora de NADH" a "consumidora de NADH". O
+sentido líquido de cada uma é determinado pelas concentrações de substrato e produto -- e como a
+célula que está fazendo gliconeogênese tem PEP alto (acabou de ser produzido pela PEPCK) e G6P rela
+tivamente baixo (vai sair como glicose), o equilíbrio dessas reações reversíveis se desloca naturalmente
+para o sentido inverso da glicólise.
+
+Resumindo até aqui: Sete reações da glicólise são reversíveis -- operam perto do equilíbrio com a
+mesma enzima nos dois sentidos. A gliconeogênese reaproveita essas enzimas no sentido contrário. O
+que determina o sentido é a concentração de substrato/produto, não a enzima. Só as quatro reações
+irreversíveis exigem enzimas próprias da gliconeogênese.
+
+Há uma consequência sutil mas importante na GAPDH reversa. Na glicólise, a GAPDH oxida o G3P e
+produz NADH no citosol. Na gliconeogênese, a GAPDH faz o oposto -- reduz o 1,3-BPG de volta a G3P,
+consumindo NADH citosólico. Esse detalhe parece técnico mas vai mandar na PARTE II: dependendo
+do substrato (lactato, piruvato, alanina), o NADH citosólico já chega pronto ou precisa ser importado da
+mitocôndria. Quem entender a GAPDH reversa entende por que existe lançadeira no item 2.3.
+
+1.3 Onde acontece: fígado, rim e os compartimentos da célula
+A gliconeogênese é uma via órgão-específica. Acontece predominantemente no fígado -- que é o
+grande exportador de glicose para o sangue entre as refeições. Em jejum prolongado (>2 dias), o córtex
+renal assume papel relevante, contribuindo com cerca de 40% da produção de glicose. O intestino del
+gado também tem alguma capacidade gliconeogênica menor. Outros tecidos não fazem gliconeogênese
+-- músculo, cérebro, tecido adiposo não têm a glicose-6-fosfatase e portanto não conseguem liberar
+glicose livre.
+
+A distribuição não é por capricho. O fígado tem G6Pase porque é seu trabalho exportar glicose; o mús
+culo não tem porque seu trabalho é consumir glicose, não doar. Essa diferença é o que faz o glicogênio
+muscular ser "egoísta" (só serve para o próprio músculo) e o glicogênio hepático ser "altruísta" (alimenta
+o sangue inteiro).
+
+Dentro do hepatócito, a via não está toda no mesmo compartimento -- e isso já antecipa um problema
+clínico importante. A piruvato carboxilase é mitocondrial. Significa que o piruvato precisa entrar na
+mitocôndria para ser convertido em oxaloacetato. A PEPCK humana é cerca de metade mitocondrial
+e metade citosólica (depende do isoforma -- em ratos a PEPCK é quase 100% citosólica; em humanos,
+é mais ou menos meio a meio). A FBPase-1 e a aldolase são citosólicas. E a G6Pase está no lúmen do
+RE19 -- retículo endoplasmático -- a glicose-6-fosfato precisa de um transportador -- o G6PT20 -- para
+entrar no RE, sofrer hidrólise, e a glicose livre sai por outro transportador.
+
+   19RE ­ retículo endoplasmático -- organela membranosa; a G6Pase está ancorada na face luminal
+   20G6PT ­ glucose-6-phosphate transporter, codificado pelo gene SLC37A4 -- leva G6P do citosol ao lúmen do RE, onde
+a G6Pase a hidrolisa
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: A gliconeogênese mora em três compartimentos: PC mitocondrial  PEPCK
+citosólica (e parcialmente mitocondrial)  FBPase-1 e GAPDH-reversa citosólicas  G6Pase no lúmen
+do RE. O fígado tem todas as enzimas; rim em jejum prolongado também; músculo e cérebro não têm
+G6Pase e não exportam glicose.
+
+G6Pase no lúmen do retículo endoplasmático do hepatócito e do nefrócito. A G6P precisa entrar no RE por um trans
+portador específico (G6PT/SLC37A4) para encontrar a G6Pase. Glicose livre e Pi saem por outros transportadores. Em
+jejum, a expressão da G6Pase aumenta -- o fígado se prepara para exportar mais glicose.
+A figura do RE acima é central para o que vem na PARTE III. Defeito em qualquer peça desse sistema
+-- G6Pase, G6PT, transportador de Pi -- produz a mesma síndrome clínica: a doença de Von Gierke
+(glicogenose tipo I). O paciente não consegue liberar glicose livre nem do glicogênio nem da glico
+neogênese, e mesmo com fígado cheio de glicogênio fica em hipoglicemia. Vamos voltar a isso no item
+3.3 com calma.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Substratos e o atravessamento mitocondrial
+
+2.1 Lactato e o ciclo de Cori
+A gliconeogênese precisa de matéria-prima. Quais moléculas a célula consegue usar para fabricar
+glicose? Três famílias principais: lactato, glicerol e aminoácidos glicogênicos. Os intermediários do
+ciclo de Krebs também podem entrar (via OAA), mas em humanos isso é quantitativamente menor que
+as três famílias acima.
+
+Substratos da gliconeogênese. Lactato vem do músculo em exercício e da hemácia (que não tem mitocôndria).
+Glicerol vem da lipólise do tecido adiposo. Aminoácidos glicogênicos (alanina, glutamina, outros) vêm da degradação
+proteica muscular. Cada um entra em um ponto diferente da via, e cada um traz seu próprio "saldo" de NADH e ATP.
+LDH21
+Comecemos pelo lactato, o substrato mais didático. Em exercício intenso, o músculo branco faz glicólise
+anaeróbica abundante -- produz piruvato, e como falta oxigênio para a fosforilação oxidativa, a lactato
+desidrogenase (LDH) converte piruvato em lactato regenerando NAD+. A hemácia também produz
+lactato o tempo todo, porque não tem mitocôndria nenhuma. Esse lactato cai no sangue. Quem captura?
+O fígado. A LDH hepática é a mesma enzima da muscular, mas como a relação NADH/NAD+ é diferente
+nos dois tecidos, ela funciona no sentido oposto: no fígado, a LDH consome lactato e gera piruvato (e,
+de quebra, NADH citosólico -- anote esse detalhe, vai ser importante em 2.3).
+
+   21LDH ­ lactate dehydrogenase, lactato desidrogenase -- enzima citosólica reversível que converte piruvato em lactato
+(regenerando NAD+) ou lactato em piruvato (consumindo NAD+). Sentido depende da relação NADH/NAD+ no tecido.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O ciclo de Cori. Músculo (e hemácia) faz glicólise  piruvato  lactato  sangue. Fígado capta lactato  piruvato
+ gliconeogênese  glicose  sangue  músculo. O músculo "exporta" parte da glicose mal-aproveitada para o
+fígado "terminar de processar". O lactato não é lixo -- é uma moeda metabólica entre tecidos.
+
+O ciclo de Cori é um exemplo elegante de cooperação inter-órgãos. O músculo passa para o fígado o
+trabalho energeticamente caro (gliconeogênese consome 4 ATP + 2 GTP + 2 NADH por glicose), e em
+troca recebe glicose pronta de volta. O músculo não tem como fazer gliconeogênese (não tem G6Pase),
+o fígado tem como fazer com folga -- divisão de trabalho metabólico.
+
+   Resumindo até aqui: Lactato é o substrato mais didático. Vem do músculo anaeróbico e da hemácia
+   (sem mitocôndria). Fígado capta, LDH reverte para piruvato (e gera NADH citosólico). A gliconeogênese
+   a partir do lactato já chega com o NADH que vai ser necessário lá adiante na GAPDH reversa -- por isso
+   lactato dispensa lançadeira.
+
+2.2 Glicerol e aminoácidos glicogênicos
+O glicerol vem da lipólise do tecido adiposo. Quando o tecido adiposo quebra triacilgliceróis (em jejum,
+sob ação do glucagon), libera três ácidos graxos + um glicerol. Os ácidos graxos viram corpos cetônicos
+no fígado, mas o glicerol entra na gliconeogênese. Ele cai no sangue, chega ao fígado, é fosforilado
+pela glicerol-quinase (consome 1 ATP) gerando glicerol-3-fosfato, e a glicerol-3-fosfato desidrogenase
+o oxida a di-hidroxiacetona-fosfato (DHAP -- uma das duas trioses da glicólise).
+MDH22
+
+   22MDH ­ malato desidrogenase -- enzima reversível que converte oxaloacetato em malato (consumindo NADH) ou
+malato em oxaloacetato (gerando NADH). Existe em duas isoformas, mitocondrial e citosólica.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Entrada do glicerol na gliconeogênese. Glicerol  glicerol-3-fosfato (glicerol-quinase, 1 ATP)  DHAP (glicerol-3-
+fosfato desidrogenase, produz NADH). A DHAP cai diretamente na via na altura da aldolase reversa -- pula os passos
+do PEP e da FBPase-1, e portanto é o substrato mais "econômico" energeticamente.
+
+A entrada do glicerol via DHAP tem uma vantagem: pula os passos mais caros da via. Não precisa de
+PC, não precisa de PEPCK, não precisa de FBPase-1 -- entra direto na altura da aldolase, segue até G6P,
+e a G6Pase libera a glicose. Por isso a gliconeogênese a partir do glicerol é a mais barata: consome só 1
+ATP por glicerol (versus 4 ATP + 2 GTP + 2 NADH por piruvato).
+Os aminoácidos glicogênicos são a terceira família. Aminoácido glicogênico significa que seu esqueleto
+carbônico, depois de remover o grupo amino, é capaz de gerar um intermediário da gliconeogênese
+(piruvato, OAA, fumarato, succinil-CoA, -cetoglutarato). Praticamente todos os 20 aminoácidos são
+glicogênicos, exceto leucina e lisina (estritamente cetogênicos). Em jejum prolongado, a degradação
+proteica muscular fornece esses aminoácidos ao fígado.
+O aminoácido mais importante quantitativamente é a alanina, transportada do músculo ao fígado no
+chamado ciclo glicose-alanina (irmão do ciclo de Cori). No músculo, alanina é gerada pela transami
+nação de piruvato com glutamato; ela viaja pelo sangue até o fígado, onde é re-transaminada de volta a
+piruvato (e o grupo amino vira ureia). Esse piruvato entra na gliconeogênese e vira glicose, que volta ao
+músculo. Diferente do ciclo de Cori, o ciclo glicose-alanina exporta também o nitrogênio do músculo
+para o fígado -- eliminando dois problemas em uma só viagem.
+
+   Resumindo até aqui: Três substratos, três rotas de entrada. Lactato entra como piruvato (e traz
+   NADH citosólico). Glicerol entra como DHAP (pula os passos caros). Aminoácidos glicogênicos entram
+   como piruvato (alanina), OAA, fumarato ou -cetoglutarato. Alanina, no ciclo glicose-alanina, exporta
+   também o nitrogênio muscular para o fígado.
+
+2.3 A lançadeira que devolve NADH ao citosol
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Aqui está a parte mais difícil da gliconeogênese, e merece atenção. O passo da GAPDH reversa precisa
+de NADH no citosol -- sem NADH citosólico, a via para. Pergunta: de onde vem esse NADH? Depende
+do substrato.
+
+-- Lactato: A LDH hepática que reverte lactato  piruvato já gera NADH no citosol como subproduto.
+Cada lactato traz seu próprio NADH. Lactato é o substrato mais conveniente energeticamente -- não
+exige lançadeira.
+
+-- Piruvato direto (ou alanina, que vira piruvato): O piruvato entra na mitocôndria, vira OAA pela
+PC. Aqui surge um problema: o OAA não atravessa a membrana mitocondrial interna -- não existe
+transportador específico. A célula resolve com um truque de redox. O OAA mitocondrial é reduzido a
+malato pela malato desidrogenase mitocondrial (consome NADH mitocondrial). O malato atravessa a
+membrana mitocondrial (existe transportador). No citosol, o malato é reoxidado a OAA pela malato
+desidrogenase citosólica -- e essa oxidação gera o NADH citosólico que será usado pela GAPDH
+reversa. A mesma manobra que serviu para transportar OAA fora da mitocôndria também serviu para
+entregar NADH no citosol. Dois pássaros, uma pedrada.
+
+O atravessamento mitocondrial quando o substrato é o lactato. Piruvato entra na mitocôndria, vira OAA (PC), depois
+malato (MDH-mit, consome NADH), o malato sai para o citosol, vira OAA de novo (MDH-cit, gera NADH), e o OAA
+é convertido em PEP pela PEPCK. Repare que o NADH é "transportado" da mitocôndria para o citosol disfarçado
+de malato.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Detalhe das duas reações de desvio da PK. À esquerda, PC: piruvato + CO2 + ATP  OAA + ADP + Pi. À direita,
+PEPCK: OAA + GTP  PEP + GDP + CO2. O CO2 entra na PC e sai na PEPCK -- não fica nada para o saldo de
+carbono. O custo líquido é 1 ATP + 1 GTP por piruvato convertido em PEP. A descarboxilação na PEPCK é o que torna
+a reação termodinamicamente favorável: libera energia suficiente para arrancar o fosfato do GTP e instalá-lo no
+enol-piruvato, criando o composto de alta energia que é o PEP.
+
+    Lactato dispensa lançadeira; piruvato não
+
+    Os dois substratos passam pela mesma sequência PC  MDH-mit  malato  MDH-cit 
+    PEPCK na mitocôndria. Mas o lactato já entregou um NADH no citosol antes mesmo de entrar
+    na mitocôndria, quando a LDH hepática converteu lactato  piruvato. Resultado: gliconeogênese
+    a partir de lactato não precisa gerar mais NADH citosólico -- pode dispensar parte da volta
+    pelo malato (em mais detalhe: a PEPCK pode ser parcialmente citosólica em humanos, e o
+    OAA citosólico vem direto via aspartato/malato suficiente para o transporte sem precisar virar
+    lançadeira de redox). Quando o substrato é piruvato puro (ou alanina), a manobra do malato é
+    obrigatória, porque a GAPDH reversa precisa de NADH citosólico e ninguém o gerou.
+
+   Resumindo até aqui: O atravessamento mitocondrial é o passo mais complexo da via. Piruvato vira
+   OAA na mitocôndria (PC), OAA vira malato (MDH-mit), malato atravessa para o citosol, vira OAA de
+   novo (MDH-cit, gera NADH cit), OAA vira PEP (PEPCK). A lançadeira do malato cumpre duas funções de
+   uma vez: transporta o esqueleto carbônico para fora da mitocôndria e entrega o NADH no citosol que será
+   necessário pela GAPDH reversa. Lactato dispensa essa lançadeira porque já chega com NADH citosólico
+   de presente.
+
+                                                                                12
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+A lançadeira malato-aspartato (cuja reação global
+é mostrada no slide-19) faz a mesma manobra
+para uma função fisiológica diferente -- importar o
+NADH glicolítico do citosol para a matriz mitocondr
+ial em condições aeróbicas. Reação global reversível:
+NADH(cit) + NAD+ (mit)  NAD+ (cit) + NADH(mit). No
+fígado, em jejum, o sentido se inverte -- a célula está
+fazendo gliconeogênese, precisa de NADH citosólico, e o
+malato sai da mitocôndria em vez de entrar. O mesmo
+aparato bioquímico que ajuda a fosforilação oxidativa Lançadeira malato-aspartato -- presente em fí
+em jejum alimentado também serve à gliconeogênese gado, rim e coração.
+em jejum.
+
+A reação global da gliconeogênese a partir de 2 piruvatos é:
+
+     2 piruvato + 4 ATP + 2 GTP + 2 NADH + 6 H2O  1 glicose + 4 ADP + 2 GDP + 6 Pi + 2 NAD+
+
+Compare com a glicólise: a glicólise rende 2 ATP + 2 NADH por glicose. A gliconeogênese gasta 4 ATP
++ 2 GTP + 2 NADH por glicose. Gliconeogênese custa cerca de 6 fosfatos de alta energia "líquidos" (4
+ATP gastos - 2 ATP que a glicólise teria produzido, mais 2 GTP). É caro -- mas é o custo de manter a
+glicemia em jejum.
+
+       13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Regulação recíproca e quando a via falha
+
+3.1 F2,6BP: o sinalizador que liga e desliga em paralelo
+A gliconeogênese e a glicólise não podem rodar ao mesmo tempo na mesma célula. Se rodassem, o
+efeito líquido seria gastar ATP sem produzir nada -- um "ciclo fútil" que dissipa energia em calor. A
+célula tem que escolher uma ou outra, e essa escolha é coordenada por uma molécula mensageira
+engenhosa: a frutose-2,6-bifosfato (F2,6BP).
+
+F2,6BP23 PKA24
+
+A F2,6BP não é intermediário da via. É sinal regulatório puro. Ela é fabricada por uma enzima bifun
+cional chamada PFK-2/FBPase-2 -- uma única proteína com dois domínios: uma quinase -- PFK-225 --
+que produz F2,6BP a partir de F6P, e uma fosfatase -- FBPase-226 -- que destrói F2,6BP de volta a F6P.
+Qual dos dois domínios está ativo depende do estado de fosforilação da proteína. No fígado, a PKA
+fosforila a PFK-2/FBPase-2  o domínio FBPase-2 fica ativo  F2,6BP cai. Sem fosforilação (insulina
+alta), o domínio PFK-2 fica ativo  F2,6BP sobe.
+
+E o efeito da F2,6BP nas enzimas-válvula é recíproco:
+
+-- Ativa a PFK-1 -- ativador alostérico mais potente da glicólise. F2,6BP alta  glicólise acelera.
+
+-- Inibe a FBPase-1 -- F2,6BP alta  gliconeogênese freia.
+
+   23F2,6BP ­ frutose-2,6-bifosfato -- molécula reguladora produzida pela PFK-2 (domínio quinase da enzima bifuncional,
+descrita no corpo abaixo) a partir de F6P; ativa a PFK-1 (glicólise) e inibe a FBPase-1 (gliconeogênese). Não é intermediário
+das vias -- é mensageiro regulatório dedicado.
+
+   24PKA ­ proteína quinase A -- quinase ativada por AMPc; fosforila a PFK-2 bifuncional no fígado, mudando seu modo
+de operação de "produz F2,6BP" para "destrói F2,6BP".
+
+   25PFK-2 ­ fosfofrutoquinase-2 -- domínio que SINTETIZA F2,6BP a partir de F6P; ativo quando a enzima NÃO está
+fosforilada
+
+   26FBPase-2 ­ frutose-2,6-bifosfatase-2 -- domínio que DEGRADA F2,6BP de volta a F6P; ativo quando a enzima ESTÁ
+fosforilada pela PKA
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Regulação recíproca pela F2,6BP. Insulina (refeição): defosforila a PFK-2/FBPase-2  domínio PFK-2 ativo  F2,6BP
+sobe  PFK-1 acelera (glicólise) + FBPase-1 freia (gliconeogênese). Glucagon (jejum): PKA fosforila a PFK-2/FBPase-2
+ domínio FBPase-2 ativo  F2,6BP cai  PFK-1 freia + FBPase-1 acelera. Um único sinal, dois efeitos coordenados
+em direções opostas.
+Por que recíproco? Porque a célula quer evitar o ciclo fútil. Se F2,6BP é alta, glicólise está ligada e
+gliconeogênese está desligada simultaneamente. Se F2,6BP é baixa, gliconeogênese ligada e glicólise
+desligada. Uma única molécula coordena as duas vias em direções opostas -- engenhoso demais para
+passar despercebido.
+
+   Resumindo até aqui: F2,6BP é o interruptor central: ativa PFK-1 (glicólise acelera) e inibe FBPase-1
+   (gliconeogênese freia). Glucagon  PKA fosforila a enzima bifuncional  F2,6BP cai  glicólise para,
+   gliconeogênese acelera. Insulina faz o inverso. Um único sinal, duas vias coordenadas em sentidos
+   opostos -- sem ciclo fútil.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Detalhe da enzima bifuncional PFK-2/FBPase-2. Forma defosforilada (insulina dominante): domínio quinase ativo,
+produz F2,6BP, glicólise corre. Forma fosforilada (glucagon dominante): domínio fosfatase ativo, destrói F2,6BP,
+gliconeogênese corre. PFK-2 também é ativada alostericamente por F6P e PEP; FBPase-2 é inibida por citrato.
+
+3.2 Glucagon, acetil-CoA e a integração com Krebs
+Além da F2,6BP, a piruvato carboxilase tem seu próprio sinal regulatório: o acetil-CoA. Esse detalhe
+parece técnico, mas conecta a gliconeogênese a duas outras vias de uma vez -- a -oxidação de ácidos
+graxos e o ciclo de Krebs.
+CoA27 PDH28
+O cenário é o seguinte: em jejum, o tecido adiposo libera ácidos graxos, que viajam ao fígado e ali
+são oxidados (-oxidação) gerando acetil-CoA mitocondrial em abundância. Esse acetil-CoA tem dois
+efeitos opostos sobre o piruvato:
+-- Ativa a piruvato carboxilase -- sinal de "tem combustível abundante (acetil-CoA), faça mais OAA".
+O OAA puxa a gliconeogênese para frente e também puxa o ciclo de Krebs (OAA é o substrato da citrato
+sintase).
+-- Inibe o complexo da piruvato desidrogenase (PDH) -- sinal de "já tem acetil-CoA demais, não
+converta mais piruvato em acetil-CoA". Essa inibição é crucial: sem ela, o piruvato seria desviado para
+acetil-CoA, e acetil-CoA não pode ser convertido em glicose em humanos (não há reação que reverta
+a PDH).
+
+   27CoA ­ coenzima A -- molécula que carrega grupos acila por ligação tioéster; o acetil-CoA (acetil + CoA) é o substrato
+central do ciclo de Krebs.
+
+   28PDH ­ pyruvate dehydrogenase, piruvato desidrogenase -- complexo mitocondrial que converte piruvato em acetil-
+CoA, liberando CO2 e gerando NADH. Inibido por acetil-CoA (feedback negativo).
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+O acetil-CoA é o sentinela do estado energético da mitocôndria. Quando abundante (-oxidação ativa em jejum),
+ele ativa a PC (faz mais OAA) e inibe a PDH (impede que mais piruvato vire acetil-CoA). Resultado: piruvato é
+redirecionado para OAA, e o OAA segue para gliconeogênese. É uma das integrações metabólicas mais elegantes do
+organismo.
+
+Por que isso é tão importante? Porque resolve o paradoxo de "como o fígado em jejum sabe priorizar
+gliconeogênese". A resposta é: ele não decide conscientemente -- ele responde ao excesso de acetil-
+CoA produzido pela queima dos ácidos graxos. Jejum  lipólise  -oxidação  acetil-CoA alto  PC
+ativada, PDH inibida  gliconeogênese roda.
+
+       17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Vista integrada da regulação. Glucagon sobe  PKA  F2,6BP cai  PFK-1 freia, FBPase-1 acelera. Ácidos graxos
+sobem  -oxidação  acetil-CoA alto  PC ativada, PDH inibida. Ao mesmo tempo, glucagon fosforila a piruvato
+quinase hepática -- PK-L29 -- inativando-a -- impede que o PEP recém-produzido seja imediatamente reconvertido
+a piruvato. Três frentes coordenadas: hormonal, alostérica e por fosforilação.
+
+   Resumindo até aqui: Acetil-CoA é o sentinela mitocondrial. Quando -oxidação está ativa (jejum),
+   acetil-CoA acumula  ativa PC (faz OAA) e inibe PDH (impede mais acetil-CoA). Glucagon, F2,6BP e
+   acetil-CoA agem em três frentes coordenadas para garantir que o fígado produza glicose em jejum sem
+   ciclo fútil.
+Há ainda uma quarta peça regulatória: a PK-L hepática é fosforilada e inativada pela PKA sob ação
+do glucagon. Por quê? Porque sem essa inativação, o PEP recém-produzido pela PEPCK seria imediata
+mente reconvertido a piruvato pela PK, fechando um ciclo fútil entre as enzimas-válvula. Glucagon
+desliga a PK-L para que o PEP siga em frente na via. Outra coordenação elegante.
+
+3.3 Von Gierke e a hipoglicemia alcoólica
+Para fechar a aula, dois cenários clínicos onde a via falha -- e em ambos o paciente tem hipoglicemia,
+mas por motivos mecanisticamente opostos. Entender os dois é a melhor forma de testar se você
+entendeu a via inteira.
+
+   29PK-L ­ isoforma L da piruvato quinase, predominante no fígado; alvo de fosforilação pela PKA, ao contrário da
+isoforma muscular
+
+                                                                                18
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Doença de Von Gierke -- glicogenose tipo I
+
+É uma deficiência hereditária da glicose-6-fosfatase (subtipo Ia) ou do transportador G6PT
+(subtipo Ib). Sem G6Pase funcional, a glicose-6-fosfato não consegue virar glicose livre -- e nem
+o glicogênio nem a gliconeogênese conseguem fazer o fígado exportar glicose. O paciente é
+geralmente uma criança com:
+· Hipoglicemia grave em jejum (fígado não exporta glicose, glicemia despenca em 3­4h sem
+
+  refeição).
+· Hepatomegalia volumosa (G6P acumula no hepatócito, vira glicogênio, fígado incha).
+· Acidose lática (G6P acumulado é desviado pela glicólise  produz piruvato  LDH  lactato
+
+  em excesso  cai no sangue).
+· Hipertrigliceridemia e hiperuricemia (G6P sobrando vai para via das pentoses-fosfato e
+
+  biossíntese de lipídios; AMP acumula e vira ácido úrico).
+
+O tratamento é nutricional -- refeições frequentes, amido cru à noite (digestão lenta sustenta
+glicemia). A enzima ausente é a peça-fim da via -- sem ela, tudo a montante perde função
+fisiológica.
+
+O segundo cenário é o do slide de abertura -- a estudante de 18 anos com hipoglicemia alcoólica. Esse
+caso é mais sutil que Von Gierke, mas também é uma falha da gliconeogênese.
+
+Hipoglicemia alcoólica aguda
+
+O etanol é metabolizado no fígado por duas oxidações sucessivas: álcool desidrogenase (etanol
+ acetaldeído) e acetaldeído desidrogenase (acetaldeído  acetato). Cada uma dessas oxidações
+gera NADH no citosol. Resultado: o citosol do hepatócito alcoolizado tem NADH altíssimo -- a
+relação NADH/NAD+ dispara.
+
+Por que isso causa hipoglicemia? Porque três reações da gliconeogênese dependem da relação
+NADH/NAD+:
+· LDH (lactato  piruvato): NADH alto força o sentido inverso (piruvato  lactato). Piruvato fica
+
+  "preso" como lactato e não chega ao OAA.
+· MDH (malato  OAA): NADH alto força o sentido inverso (OAA  malato). OAA fica "preso"
+
+  como malato e não vira PEP.
+· Glicerol-3-fosfato desidrogenase: NADH alto inibe a entrada do glicerol como DHAP.
+
+Resultado: três substratos diferentes (lactato, piruvato, glicerol) ficam bloqueados no caminho
+-- gliconeogênese trava. A paciente do slide vinha vomitando depois de uma noite de bebedeira;
+sem ingestão de carboidratos (vomitou), sem glicogênio sobrando (já tinha sido consumido nas
+horas anteriores), com gliconeogênese travada pelo NADH alcoólico -- a glicemia despencou e
+ela chegou ao PS com confusão mental. O tratamento é glicose endovenosa (não adianta tentar
+dar carboidrato oral em vômito).
+
+       19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Metabolismo do etanol no hepatócito. Cada oxidação gera NADH no citosol -- álcool desidrogenase (etanol 
+acetaldeído) e acetaldeído desidrogenase (acetaldeído  acetato). Duas moléculas de NADH por molécula de etanol,
+todas no citosol -- exatamente onde a gliconeogênese precisa de NAD+ disponível para a LDH e a MDH funcionarem
+no sentido certo.
+
+Manifestações do alcoolismo agudo: hipoglicemia, acidose (a mesma manobra que freia gliconeogênese empurra
+piruvato para lactato -- acidose lática). Em alcoolismo crônico: desnutrição, toxicidade por acetaldeído, cirrose,
+deficiência de vitaminas (folato, B1/tiamina, A, D). A hipoglicemia aguda é o que mata na sala de emergência; o resto
+mata em anos.
+
+                                                                                20
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que a paciente do slide foi tão grave
+
+Repare que três condições se somaram: (1) ingestão aguda e abundante de álcool  NADH
+citosólico altíssimo  gliconeogênese travada. (2) Vômitos  perda de qualquer carboidrato
+ingerido + impossibilidade de absorver alimento. (3) Estudante adolescente, magra, sem
+reserva de glicogênio sobressalente (provavelmente em jejum prévio à bebedeira). Os três
+fatores combinados eliminam todas as três fontes de glicemia: ingestão (vômito), glicogenólise
+(sem reserva), gliconeogênese (bloqueada). Sobra hipoglicemia profunda -- confusão mental,
+hipotermia, respiração irregular. O tratamento é glicose EV imediata. Se fosse só uma das três
+falhas, a paciente provavelmente compensaria.
+
+Resumindo até aqui: Dois cenários, mesma hipoglicemia, mecanismos opostos. Von Gierke: enzima
+ausente (G6Pase), gliconeogênese montada mas sem porta de saída -- paciente tem fígado cheio e
+sangue vazio. Alcoólica: enzimas presentes, mas relação NADH/NAD+ desvirtuada -- substratos ficam
+presos no caminho. Em ambos, fixar a glicemia precisa de glicose exógena (oral em Von Gierke, EV no
+álcool agudo).
+
+       21
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+A gliconeogênese é a via que mantém o cérebro vivo entre as refeições. Sem ela, qualquer humano
+em jejum prolongado entraria em hipoglicemia profunda em poucas horas -- porque o cérebro
+consome cerca de 120 g de glicose por dia, e o glicogênio hepático mal dá para 12 horas. A via
+fabrica glicose nova a partir de moléculas que não são açúcar (lactato, glicerol, aminoácidos
+glicogênicos), pagando o preço de 4 ATP + 2 GTP + 2 NADH por glicose.
+
+A grande lição da via é que ela não é a glicólise de costas para frente. Três reações da glicólise são
+termodinamicamente irreversíveis, e a gliconeogênese constrói desvios bioquímicos para cada
+uma: PC + PEPCK no lugar da piruvato quinase, FBPase-1 no lugar da PFK-1, G6Pase no lugar
+da hexoquinase/glicoquinase. Os outros sete passos são reversíveis e reaproveitados -- o que
+determina o sentido é a concentração relativa de substratos e produtos, não a enzima.
+
+O atravessamento mitocondrial é o passo mais delicado da via. O piruvato precisa virar OAA
+dentro da mitocôndria (PC mitocondrial), mas o OAA não atravessa a membrana mitocondrial. A
+célula resolve com a manobra do malato -- OAA é reduzido a malato na mitocôndria (consome
+NADH-mit), o malato atravessa, e é reoxidado a OAA no citosol (gera NADH-cit). A mesma
+manobra que transporta o esqueleto carbônico também entrega o NADH que será necessário
+pela GAPDH reversa. Quando o substrato é o lactato, a lançadeira é dispensável -- a LDH hepática
+já forneceu o NADH citosólico no primeiro passo.
+
+A regulação coordena gliconeogênese e glicólise em direções opostas via uma única molécula --
+a frutose-2,6-bifosfato. Glucagon  PKA  PFK-2 fosforilada  F2,6BP cai  glicólise freia e
+gliconeogênese acelera. Insulina faz o inverso. Uma molécula, dois efeitos coordenados -- evita
+o ciclo fútil que dissiparia ATP em calor. O acetil-CoA é o sinal complementar: produzido pela -
+oxidação dos ácidos graxos em jejum, ele ativa a PC e inibe a PDH, garantindo que piruvato seja
+desviado para OAA em vez de virar mais acetil-CoA.
+
+A aplicação clínica fica nos dois protagonistas do slide. Von Gierke: defeito hereditário da G6Pase
+-- fígado cheio de glicogênio, mas sem porta de saída para a glicose. Hipoglicemia alcoólica:
+relação NADH/NAD+ desvirtuada no citosol -- substratos da gliconeogênese ficam presos no
+caminho. Em ambos, o cérebro fica sem combustível e o paciente entra em hipoglicemia -- pelo
+mesmo desfecho clínico, por mecanismos bioquímicos completamente diferentes.
+
+Quando glicólise, gliconeogênese e os hormônios da glicemia (glucagon × insulina) estiverem
+firmes, glicogênio, -oxidação e ciclo de Krebs vão fazer muito mais sentido. Todos seguem
+a mesma lógica de válvulas alostéricas, sinais hormonais coordenados, e integração entre
+tecidos.
+
+       22
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Clientes obrigatórios                                     Bypass 3: G6Pase
+
+Cérebro consome 120 g de glicose/dia e não recebe         Libera glicose livre a partir de glicose-6-fosfato.
+ácidos graxos pela barreira hematoencefálica.             Reside no lúmen do retículo endoplasmático.
+Hemácias não têm mitocôndria. Em jejum, a                 Presente só em fígado, rim e intestino -- daí esses
+glicemia precisa ser sustentada para esses clientes.      serem os únicos órgãos que exportam glicose.
+
+Quando e onde                                             Custo energético
+Glicogênio hepático cobre 8­12 h. Depois disso,           Cada glicose nova custa 4 ATP + 2 GTP + 2
+gliconeogênese assume -- predominantemente no             NADH (são dois piruvatos por glicose). A glicólise
+fígado (85­90%), com contribuição renal crescente         no sentido oposto rendia apenas 2 ATP --
+em jejum prolongado e acidose. Músculo não                gliconeogênese é cara, mas indispensável.
+exporta glicose.
+                                                          Regulação alostérica direta
+Três precursores                                          AMP (sinal de pobreza energética) ativa PFK-1 e
+Lactato (das hemácias e do músculo em esforço),           inibe FBPase-1. ATP e citrato fazem o oposto. Acetil-
+aminoácidos glicogênicos (todos menos leucina e           CoA, alto no jejum, ativa a piruvato-carboxilase --
+lisina), e glicerol da lipólise. Ácidos graxos NÃO        desvia piruvato para gliconeogênese.
+viram glicose em mamíferos.
+                                                          F2,6BP: o interruptor hormonal
+Três pontes (bypasses)                                    Glucagon  cAMP  PKA  fosforila a bifuncional
+Sete passos da glicólise são reversíveis                  PFK-2/FBPase-2  F2,6BP cai  glicólise inibida,
+e compartilhados. Três passos irreversíveis               gliconeogênese ativada. Insulina faz o caminho
+(hexoquinase, PFK-1, piruvato-quinase) exigem             oposto. Cuidado: F2,6BP não é intermediário da via,
+enzimas diferentes -- bypasses -- com sítios              é só sinal.
+distintos e gasto energético próprio.
+                                                          Ciclos integradores
+Bypass 1: piruvato  PEP                                   Cori: lactato muscular vira glicose no fígado (sem
+Piruvato-carboxilase (mitocôndria, biotina, ATP)          nitrogênio). Glicose-alanina: alanina muscular vira
+faz oxaloacetato. PEPCK citosólica (gasta GTP) faz        glicose no fígado e descarta o nitrogênio amino
+PEP. Oxaloacetato sai como malato, carregando             como ureia. Os dois resgatam o piruvato exportado
+junto o NADH que o citossol precisará adiante.            pelo músculo.
+
+Bypass 2: FBPase-1                                        Clínica: álcool e Von Gierke
+
+Hidrolisa frutose-1,6-bisfosfato em frutose-6-            Álcool em jejum: NADH em excesso drena
+fosfato. Sai fosfato inorgânico, não ATP -- é             piruvato e oxaloacetato (viram lactato e malato) 
+hidrólise simples. Enzima distinta da PFK-1, com          hipoglicemia + acidose lática. Von Gierke (defeito de
+regulação alostérica recíproca.                           G6Pase): glicogênio acumulado mas hipoglicemia
+                                                          paradoxal -- não exporta glicose.
+
+                                                      23
+NEBLI                       RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre os tecidos que dependem obrigatoriamente de glicose como combustível, é correto afirmar:
+   A) Tanto o cérebro quanto as hemácias dependem de glicose porque consomem ATP em taxa muito
+   elevada -- qualquer tecido com alta demanda energética é cliente obrigatório da glicose.
+   B) As hemácias podem alternar para corpos cetônicos como combustível principal nas primeiras 48
+   horas de jejum, poupando glicose para o sistema nervoso central.
+   C) O cérebro depende de glicose porque a barreira hematoencefálica não permite a passagem de ácidos
+   graxos de cadeia longa; a hemácia depende porque não possui mitocôndria.
+   D) O músculo esquelético também é cliente obrigatório, pois exporta glicose-6-fosfato para o sangue
+   durante o exercício prolongado, suprindo o cérebro.
+   E) A retina e a medula renal usam glicose preferencialmente porque suas células possuem maior
+   densidade de transportadores GLUT-4, ativados pela insulina basal.
+
+Questão 02 Consolidação
+
+Sobre o tempo de duração das reservas hepáticas e o início da gliconeogênese em jejum, é correto
+afirmar:
+
+   A) O glicogênio hepático cobre cerca de 24 horas de jejum; depois disso a glicogenólise muscular
+   sustenta a glicemia por mais 48 horas.
+   B) O glicogênio hepático rende cerca de 100 g de glicose e cobre 8 a 12 horas; a gliconeogênese começa
+   em pequena escala antes disso e predomina após o esgotamento da reserva.
+   C) A gliconeogênese só se inicia depois que o glicogênio hepático está totalmente esgotado, em torno
+   de 16 horas -- antes disso ela permanece bioquimicamente inativa.
+   D) No jejum prolongado de duas semanas (fase V), a gliconeogênese atinge seu pico máximo, porque
+   o cérebro passa a depender exclusivamente de glicose nessa fase.
+   E) O rim contribui sempre com cerca de 50% da glicose sanguínea sintetizada, repartindo a tarefa
+   com o fígado em proporção fixa independente do estado nutricional.
+
+Questão 03 Consolidação
+
+Sobre os precursores não-carboidrato da gliconeogênese, é correto afirmar:
+
+                                                                                24
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+A) Todos os 20 aminoácidos são glicogênicos, pois todos podem ser desaminados a piruvato ou a um
+intermediário do ciclo de Krebs, gerando esqueleto carbônico para a via.
+
+B) Os ácidos graxos de cadeia ímpar são os únicos lipídeos capazes de gerar glicose em mamíferos,
+pois geram propionil-CoA, que entra no ciclo de Krebs como succinil-CoA.
+
+C) O glicerol é considerado um lipídeo e, portanto, não pode contribuir como precursor da gliconeogê
+nese -- ele é metabolizado apenas pelo tecido adiposo para ressíntese de triglicerídeos.
+
+D) Lactato, aminoácidos glicogênicos e glicerol são os três precursores principais; leucina e lisina são
+exceções porque são puramente cetogênicos e não geram glicose.
+
+E) O acetil-CoA gerado pela -oxidação dos ácidos graxos é o precursor quantitativamente mais
+importante da gliconeogênese durante o jejum prolongado.
+
+Questão 04 Consolidação
+
+Sobre o número de passos irreversíveis da glicólise e o motivo de existirem bypasses na gliconeogênese:
+
+   A) Existem três passos irreversíveis na glicólise (hexoquinase, PFK-1 e piruvato-quinase); cada um
+   precisa de uma reação substituta, pois rodá-los inversamente exigiria energia inviável.
+
+   B) Existem cinco passos irreversíveis distribuídos entre as fases preparatória e de pagamento da
+   glicólise; cada um exige uma enzima própria no caminho inverso.
+
+   C) Apenas a hexoquinase é irreversível na glicólise -- os outros nove passos são reversíveis e a glico
+   neogênese simplesmente os roda no sentido contrário, com a mesma enzima.
+
+   D) Os passos irreversíveis são definidos por terem G positivo; eles são contornados pela glico
+   neogênese porque o sentido inverso requer reposição de fosfato a partir de Pi.
+
+   E) Não existem passos irreversíveis na glicólise: o conceito de "bypass" se refere apenas a desvios
+   mitocondriais que evitam o gasto de NADH no citossol.
+
+Questão 05 Consolidação
+
+Julgue os itens sobre a enzima piruvato-carboxilase:
+Cada item deve ser julgado de forma independente.
+
+   I. A reação ocorre na matriz mitocondrial, gera oxaloacetato a partir de piruvato e bicarbonato, gasta
+   um ATP e requer biotina como cofator do grupo carboxila ativado.
+   II. A enzima é alostericamente inibida por acetil-CoA, sinalizando que há substrato em excesso no
+   ciclo de Krebs e o piruvato deve seguir para a oxidação completa.
+   III. A reação é fisiologicamente irreversível e representa o primeiro passo de bypass da piruvato-
+   quinase no caminho do piruvato até o fosfoenolpiruvato.
+
+                                                                                25
+NEBLI                                                                           ETAPA 2 -- 30 OBJETIVAS
+
+IV. O produto oxaloacetato atravessa diretamente a membrana mitocondrial interna até o citossol,
+onde é convertido em fosfoenolpiruvato pela PEPCK.
+
+Questão 06 Consolidação
+
+Sobre a fosfoenolpiruvato-carboxiquinase (PEPCK):
+
+   A) Catalisa a fosforilação do oxaloacetato com gasto de ATP, gerando fosfoenolpiruvato e ADP; o
+   cofator biotina carrega o grupo fosforil entre dois sítios da enzima.
+
+   B) Descarboxila o oxaloacetato e fosforila o produto usando GTP, gerando fosfoenolpiruvato, CO e
+   GDP; é predominantemente citosólica na espécie humana.
+
+   C) Catalisa a reação inversa da piruvato-quinase usando ATP, regenerando o fosfato no piruvato para
+   formar fosfoenolpiruvato sem necessidade de descarboxilação intermediária.
+
+   D) É uma enzima exclusivamente mitocondrial em mamíferos, motivo pelo qual o oxaloacetato
+   precisa ser convertido em malato antes de retornar ao citossol.
+
+   E) Atua sobre o piruvato em conjunto com a piruvato-carboxilase no mesmo passo catalítico, dispen
+   sando a formação intermediária de oxaloacetato.
+
+Questão 07 Consolidação
+
+Sobre a reação catalisada pela frutose-1,6-bisfosfatase-1 (FBPase-1):
+
+   A) É a mesma enzima da PFK-1 funcionando no sentido contrário; a célula muda a conformação da
+   enzima para alternar entre cinase e fosfatase conforme o sinal hormonal.
+
+   B) Transfere um grupo fosfato da frutose-1,6-bisfosfato para ADP, gerando frutose-6-fosfato e ATP --
+   etapa de regeneração de ATP na gliconeogênese.
+
+   C) Catalisa a conversão direta de frutose-1,6-bisfosfato em frutose-2,6-bisfosfato pela transferência
+   do fosfato do C1 para o C2, em uma reação intramolecular reversível.
+
+   D) Atua sobre a glicose-6-fosfato no retículo endoplasmático, hidrolisando o fosfato e liberando
+   glicose livre que sai do hepatócito pela GLUT-2.
+
+   E) Hidrolisa o grupo fosfato do C1 da frutose-1,6-bisfosfato, liberando fosfato inorgânico (Pi) e
+   frutose-6-fosfato; é enzima distinta da PFK-1 e tem regulação alostérica recíproca a ela.
+
+Questão 08 Consolidação
+Sobre a localização e a distribuição tecidual da glicose-6-fosfatase (G6Pase):
+
+       26
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+A) Está no citossol de todas as células que armazenam glicogênio, incluindo o músculo esquelético,
+garantindo que a glicogenólise libere glicose livre para o sangue.
+
+B) É mitocondrial e está presente apenas no fígado; gera glicose livre que sai pela membrana mito
+condrial interna para o citossol e depois ao sangue via GLUT-2.
+
+C) Reside no lúmen do retículo endoplasmático e está presente apenas em fígado, rim e intestino --
+daí esses serem os únicos órgãos que exportam glicose ao sangue.
+
+D) Está presente em todas as células do corpo, sem distinção tecidual; o que distingue fígado e músculo
+é o nível de expressão da hexoquinase, não da G6Pase.
+
+E) Está localizada no aparelho de Golgi de hepatócitos e enterócitos; o transporte vesicular leva a
+glicose livre da face trans-Golgi à membrana plasmática para secreção.
+
+Questão 09 Consolidação
+
+Julgue os itens sobre o custo energético da gliconeogênese:
+Cada item deve ser julgado de forma independente.
+
+   I. Cada molécula de glicose sintetizada a partir de dois piruvatos consome 4 ATP, 2 GTP e 2 NADH; a
+   glicólise no sentido oposto rendia apenas 2 ATP líquidos.
+   II. O bypass da piruvato-quinase é a etapa mais cara: gasta 1 ATP (piruvato-carboxilase) e 1 GTP
+   (PEPCK) por piruvato -- total de 2 ATP + 2 GTP por glicose.
+   III. O bypass da PFK-1 (catalisado pela FBPase-1) hidrolisa um fosfato como Pi, sem regenerar ATP;
+   portanto, o ATP gasto pela PFK-1 na glicólise não é recuperado na gliconeogênese.
+   IV. O bypass da hexoquinase (catalisado pela G6Pase) regenera um ATP a partir do fosfato liberado,
+   parcialmente compensando o gasto energético total da via.
+
+Questão 10 Consolidação
+
+Sobre a frutose-2,6-bisfosfato (F2,6BP) e seu papel na regulação:
+
+   A) É um regulador alostérico puro: ativa fortemente a PFK-1 e inibe fortemente a FBPase-1; não é
+   intermediário da via glicolítica nem da gliconeogênese.
+   B) É um intermediário direto da via glicolítica, formado a partir da frutose-1,6-bisfosfato pela ação da
+   PFK-2 sobre o carbono 2.
+   C) Inibe a PFK-1 e ativa a FBPase-1, freando a glicólise e estimulando a gliconeogênese -- mecanismo
+   pelo qual o glucagon eleva a glicemia.
+   D) É sintetizada exclusivamente na mitocôndria, atravessa a membrana mitocondrial e regula apenas
+   as enzimas mitocondriais da gliconeogênese (piruvato-carboxilase e PEPCK).
+
+                                                                                27
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+E) Sua síntese é catalisada pela frutose-1,6-bisfosfatase-2, e sua degradação pela fosfofrutoquinase-2
+-- ambas atividades de uma proteína bifuncional.
+
+Questão 11 Integração
+
+Uma criança de 9 meses é levada ao pediatra por convulsões matinais recorrentes, palidez e abdome
+distendido. A glicemia em jejum prolongado é de 32 mg/dL (normal 70­99), o lactato sanguíneo é de 8
+mmol/L (normal < 2) e a ultrassonografia mostra hepatomegalia importante. Qual mecanismo molec
+ular explica a apresentação?
+
+   A) Defeito na piruvato-quinase muscular: a glicólise não progride além do fosfoenolpiruvato, o lactato
+   muscular se acumula sistemicamente e o cérebro fica sem combustível durante o sono.
+
+   B) Defeito na alanina-aminotransferase hepática: o esqueleto carbônico da alanina não consegue se
+   converter em piruvato no fígado, paralisando a gliconeogênese a partir de aminoácidos.
+
+   C) Defeito na piruvato-desidrogenase mitocondrial: o piruvato não entra no ciclo de Krebs, acumula-
+   se como lactato, e o ATP necessário para a gliconeogênese não é gerado em quantidade suficiente.
+
+   D) Defeito na glicose-6-fosfatase hepática (síndrome de Von Gierke): glicogênio e glicose-6-fosfato
+   acumulam no fígado, mas a glicose livre não é exportada -- daí hepatomegalia, hipoglicemia e acidose
+   lática paradoxais.
+
+   E) Defeito no transportador GLUT-2 do hepatócito: a glicose recém-formada pela gliconeogênese é
+   retida dentro da célula, levando à hipoglicemia sistêmica sem alteração do conteúdo hepático de
+   glicogênio.
+
+Questão 12 Integração
+
+Durante uma maratona, um atleta entra em zona de esforço anaeróbico nos quilômetros finais. Sobre
+as alterações metabólicas e a integração músculo­fígado nesse cenário:
+
+   A) O músculo passa a fazer gliconeogênese local a partir do lactato acumulado, gerando glicose para
+   o próprio consumo -- por isso a fadiga muscular se reduz nos minutos finais.
+   B) O músculo produz lactato em quantidade crescente; o lactato cai no sangue, é captado pelo fígado,
+   reconvertido a piruvato e segue para a gliconeogênese -- esse é o ciclo de Cori.
+   C) O fígado libera glicogênio diretamente ao músculo via vesículas exossomais, dispensando a pas
+   sagem pelo sangue e pela gliconeogênese hepática durante o exercício intenso.
+   D) O músculo converte lactato em alanina pela alanina-aminotransferase reversa, liberando NH no
+   sangue; a alanina é então captada pelo cérebro para uso direto como combustível.
+   E) A produção de lactato muscular cessa imediatamente quando o suprimento de O é retomado, e a
+   glicose sanguínea volta ao normal sem necessidade de envolvimento hepático.
+
+                                                                                28
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+Sobre por que o oxaloacetato precisa sair da mitocôndria como malato (e não diretamente) no bypass
+piruvato  PEP:
+
+   A) O oxaloacetato é tóxico para a célula em concentrações citosólicas relevantes; convertê-lo em
+   malato permite que ele atravesse a membrana plasmática em vez da mitocondrial.
+
+   B) A piruvato-carboxilase é citosólica; o oxaloacetato precisa entrar na mitocôndria como malato para
+   ser reciclado no ciclo de Krebs antes de retornar como PEP.
+
+   C) O oxaloacetato citosólico inibe alostericamente a piruvato-quinase, e a conversão a malato evita
+   esse feedback indesejado durante o bypass.
+
+   D) A membrana mitocondrial interna possui transportadores específicos para todos os inter
+   mediários do ciclo de Krebs, incluindo o oxaloacetato, mas o malato é preferido por questões cinéticas.
+
+   E) O oxaloacetato não atravessa a membrana mitocondrial interna por falta de transportador especí
+   fico, e a conversão a malato (via malato-desidrogenase) carrega de quebra o NADH que o citossol vai
+   precisar adiante.
+
+Questão 14 Integração
+
+Quando o precursor da gliconeogênese é o lactato (em vez de piruvato ou alanina), o caminho é mais
+curto. Qual é a razão bioquímica disso?
+
+   A) O lactato atravessa a membrana mitocondrial interna por difusão direta, dispensando os trans
+   portadores específicos que o piruvato precisa atravessar -- daí o ganho de velocidade observado em
+   hepatócitos isolados.
+
+   B) A lactato-desidrogenase mitocondrial converte lactato diretamente em fosfoenolpiruvato dentro
+   da matriz, sem passar pela formação intermediária de oxaloacetato e dispensando totalmente a etapa
+   da PEPCK.
+
+   C) A lactato-desidrogenase gera NADH no próprio citossol ao converter lactato em piruvato; a célula
+   dispensa o ciclo malato (que serviria para transportar NADH da mitocôndria) e pode usar a PEPCK
+   mitocondrial.
+
+   D) O lactato bypassa o próprio bypass da piruvato-quinase entrando direto na via como 1,3-bisfos
+   foglicerato citosólico, encurtando seis passos completos em relação à gliconeogênese clássica do
+   piruvato.
+
+   E) O lactato é mais lipofílico que o piruvato e atravessa as membranas por difusão simples passiva,
+   sem necessidade dos transportadores de monocarboxilato que o piruvato e o alanina dependem para
+   entrar nos hepatócitos.
+
+                                                                                29
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+Sobre a regulação alostérica e hormonal da escolha entre glicólise e gliconeogênese no hepatócito:
+
+   A) O glucagon, via cAMP e PKA, fosforila a bifuncional PFK-2/FBPase-2: o domínio cinase desliga e o
+   domínio fosfatase liga, fazendo a F2,6BP cair -- glicólise inibida, gliconeogênese ativada.
+
+   B) O glucagon ativa diretamente a piruvato-quinase por fosforilação, acelerando o consumo de fos
+   foenolpiruvato e mantendo a glicemia elevada após as refeições.
+
+   C) A insulina, via cAMP, eleva o nível de F2,6BP no hepatócito, freando a glicólise e ativando a glico
+   neogênese -- daí a glicemia subir após uma refeição rica em carboidratos.
+
+   D) A regulação por F2,6BP atua apenas no músculo esquelético; no fígado, a escolha entre glicólise e
+   gliconeogênese depende exclusivamente da razão AMP/ATP.
+
+   E) O AMP elevado inibe simultaneamente a PFK-1 e a FBPase-1, freando ambas as vias para preservar
+   substrato durante a queda energética celular.
+
+Questão 16 Integração
+
+Em um experimento, hepatócitos isolados são incubados com piruvato marcado em ¹C no carbono 2
+(¹C-piruvato), na presença de bicarbonato (HCO) também marcado em ¹C. Após 30 minutos, glicose
+marcada é detectada no meio. Julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. Todos os seis carbonos da glicose recém-formada contêm ¹C, porque cada piruvato contribui com
+   três carbonos diretamente para a glicose, e dois piruvatos formam uma glicose.
+
+   II. O CO liberado pela reação da PEPCK contém ¹C, porque o carbono incorporado pela piruvato-car
+   boxilase (a partir do bicarbonato) é o mesmo carbono que sai como CO na descarboxilação seguinte.
+
+   III. A glicose marcada não aparece se a célula for tratada com avidina, proteína que sequestra biotina
+   -- a piruvato-carboxilase fica inativa e o bypass da piruvato-quinase é bloqueado.
+
+   IV. O experimento demonstra que a piruvato-carboxilase é dispensável quando há lactato disponível,
+   porque o lactato entra na via como gliceraldeído-3-fosfato diretamente.
+
+Questão 17 Integração
+Sobre a diferença entre o ciclo de Cori e o ciclo glicose-alanina:
+
+   A) Cori transporta nitrogênio amino do músculo para o fígado na forma de NH livre; glicose-alanina
+   transporta carbono na forma de lactato sem nitrogênio acoplado.
+
+                                                                                30
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+B) Cori transporta carbono (lactato) do músculo ao fígado, sem nitrogênio; glicose-alanina transporta
+carbono e nitrogênio amino simultaneamente (a alanina carrega o grupo amino destinado à ureia).
+
+C) Ambos os ciclos transportam a mesma molécula (lactato), mas em direções opostas: Cori vai do
+músculo ao fígado, glicose-alanina vai do fígado ao músculo.
+
+D) Cori opera somente em exercício aeróbico, enquanto glicose-alanina opera somente em jejum
+prolongado -- não há sobreposição funcional entre os dois ciclos.
+
+E) Cori é exclusivo das hemácias (que produzem lactato continuamente), enquanto glicose-alanina é
+exclusivo do músculo esquelético em esforço; nenhum dos dois envolve o fígado.
+
+Questão 18 Integração
+
+Sobre a inibição da gliconeogênese pelo etanol em alcoolismo agudo:
+
+   A) O acetaldeído gerado na primeira etapa do metabolismo do etanol forma adutos covalentes com o
+   sítio ativo da piruvato-carboxilase mitocondrial, inativando-a irreversivelmente em poucas horas de
+   bebida intensa.
+
+   B) O etanol compete diretamente com o piruvato pelo transportador mitocondrial de monocarbox
+   ilato, impedindo a entrada de piruvato na matriz e bloqueando o primeiro passo do bypass da
+   piruvato-quinase no hepatócito.
+
+   C) O acetato produzido na segunda etapa do metabolismo do etanol é um inibidor alostérico potente
+   da fosfoenolpiruvato-carboxiquinase citosólica, freando a saída de oxaloacetato como PEP e parando
+   a gliconeogênese.
+
+   D) A oxidação do etanol gera NADH em excesso no hepatócito; o NADH alto desloca o equilíbrio de
+   duas reações: piruvato  lactato (pela LDH) e oxaloacetato  malato (pela MDH), drenando os dois
+   substratos das enzimas-chave do bypass.
+
+   E) O etanol ativa diretamente a glicose-6-fosfatase no lúmen do retículo endoplasmático, esgotando
+   rapidamente o estoque hepático de glicose-6-fosfato disponível para exportação à corrente sanguínea
+   sistêmica.
+
+Questão 19 Integração
+
+Sobre por que o músculo esquelético não exporta glicose para o sangue, apesar de ter as enzimas até a
+glicose-6-fosfato:
+
+   A) Porque o músculo expressa hexoquinase em baixa quantidade durante o jejum, restringindo o
+   substrato glicose-6-fosfato disponível para qualquer etapa final de exportação à corrente sanguínea.
+
+       31
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+B) Porque a membrana plasmática do miócito esquelético não possui transportadores GLUT fun
+cionais voltados para fora, impedindo a saída de glicose mesmo se ela conseguisse ser desfosforilada
+localmente pela maquinaria interna.
+
+C) Porque o músculo não possui a glicose-6-fosfatase -- enzima ausente no miócito e presente apenas
+em fígado, rim e intestino -- e portanto não consegue remover o fosfato da glicose-6-fosfato para
+liberá-la ao sangue.
+
+D) Porque o glicogênio muscular é estruturalmente diferente do hepático (ramificações em -1,4 em
+vez de -1,6) e sua glicogenólise gera apenas glicose-1-fosfato, molécula não exportável pela mem
+brana plasmática.
+
+E) Porque o miócito tem a PEPCK ausente, e sem PEPCK não há como regenerar a glicose-6-fosfato a
+partir dos precursores não-carboidrato (como o lactato local produzido em esforço anaeróbico).
+
+Questão 20 Integração
+
+Sobre a regulação alostérica direta (não-hormonal) das enzimas-chave do hepatócito:
+
+   A) A PFK-1 é ativada simultaneamente por ATP e citrato; a FBPase-1 é ativada por AMP -- esse padrão
+   de regulação cruzada garante que ambas as vias permaneçam ativas em paralelo quando há substrato
+   em excesso no fígado.
+
+   B) A piruvato-carboxilase é alostericamente inibida por acetil-CoA, porque acetil-CoA elevado
+   significa que o ciclo de Krebs está cheio e o piruvato deve seguir para a glicólise, não para a glico
+   neogênese hepática paralela.
+
+   C) A piruvato-quinase hepática é estimulada por alanina e por ATP, dois sinais que o jejum prolongado
+   eleva -- assim a glicólise hepática se acelera para regenerar substrato à gliconeogênese em paralelo
+   dentro do hepatócito.
+
+   D) A glicose-6-fosfatase no retículo endoplasmático é regulada alostericamente por insulina e
+   glucagon ligados diretamente ao sítio catalítico do lúmen, sem mediadores citosólicos como cAMP ou
+   frutose-2,6-bisfosfato.
+
+   E) AMP ativa a PFK-1 e inibe a FBPase-1 -- sinal de pobreza energética que privilegia a glicólise (gera
+   ATP) sobre a gliconeogênese (gasta ATP); citrato e ATP fazem o oposto, freando a glicólise quando a
+   célula está com energia em excesso.
+
+Questão 21 Integração
+
+Uma mulher de 70 anos faz dieta hipoproteica há vários meses. Em consulta de rotina, apresenta
+hipoglicemia de jejum leve e fadiga progressiva. Qual mecanismo melhor explica a relação entre a
+restrição proteica e a glicemia limítrofe?
+
+       32
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+A) A baixa ingestão proteica crônica eleva a insulina basal por mecanismo compensatório pancreático,
+freando a gliconeogênese hepática mesmo em jejum prolongado e levando a quedas suaves de
+glicemia entre as refeições.
+
+B) Aminoácidos glicogênicos (especialmente alanina) são o principal substrato da gliconeogênese no
+jejum prolongado, depois que o glicogênio se esgota e o glicerol da lipólise não basta; sem ingestão
+proteica, falta substrato para a via.
+
+C) A dieta hipoproteica eleva o nível citosólico de F2,6BP hepática, freando a gliconeogênese por
+inibição alostérica direta da frutose-1,6-bisfosfatase (FBPase-1) e mantendo a glicose sanguínea
+limítrofe.
+
+D) Sem aminoácidos suficientes, o ciclo de Cori se rompe, e o lactato muscular não consegue mais ser
+convertido em glicose no fígado por falta de NADH citosólico para reduzir o 1,3-bisfosfoglicerato.
+
+E) A restrição proteica crônica reduz a expressão hepática da glicose-6-fosfatase, bloqueando a etapa
+final de exportação da glicose recém-sintetizada mesmo com substratos gliconeogênicos em quan
+tidade abundante no sangue.
+
+Questão 22 Integração
+
+Julgue os itens sobre o ciclo glicose-alanina:
+Cada item deve ser julgado de forma independente.
+
+   I. O músculo esquelético converte aminoácidos provenientes da degradação proteica em piruvato;
+   o piruvato recebe o grupo amino de outros aminoácidos pela alanina-aminotransferase, virando
+   alanina.
+
+   II. A alanina cai no sangue e chega ao fígado, onde a alanina-aminotransferase reverte o processo:
+   alanina + -cetoglutarato  piruvato + glutamato; o piruvato segue para a gliconeogênese, e o
+   nitrogênio entra no ciclo da ureia.
+
+   III. O ciclo glicose-alanina é energeticamente neutro: o ATP gasto no fígado para sintetizar glicose
+   nova é exatamente compensado pelo ATP gerado no músculo via glicólise da glicose retornada.
+
+   IV. O músculo esquelético converte parte da alanina diretamente em glicose durante o jejum, pois
+   possui todas as enzimas da gliconeogênese, incluindo a glicose-6-fosfatase.
+
+Questão 23 Integração
+
+Sobre o significado fisiológico de a piruvato-carboxilase ser alostericamente ativada por acetil-CoA:
+   A) Acetil-CoA elevado no hepatócito significa que ácidos graxos estão sendo oxidados ativamente
+   (estado de jejum); ativar a piruvato-carboxilase desvia o piruvato disponível para a gliconeogênese,
+   em vez de queimá-lo em Krebs.
+
+                                                                                33
+NEBLI                                                                    ETAPA 2 -- 30 OBJETIVAS
+
+B) Acetil-CoA elevado sinaliza dieta rica em carboidratos absorvida há pouco; ativar a piruvato-car
+boxilase acelera a glicólise hepática e reduz a glicemia pós-prandial elevada pelos receptores GLUT-2
+do hepatócito.
+
+C) Acetil-CoA é cofator direto da piruvato-carboxilase, e sua ligação ao sítio ativo é parte essencial do
+mecanismo catalítico -- não existe real regulação alostérica, apenas efeito de saturação do substrato
+por excesso.
+
+D) Acetil-CoA inibe (e não ativa) a piruvato-carboxilase, pois quando o ciclo de Krebs está cheio o
+organismo precisa freá-la para evitar acúmulo tóxico de oxaloacetato no citossol e na matriz mito
+condrial.
+
+E) O efeito do acetil-CoA é exclusivamente mitocondrial e regula apenas a piruvato-desidrogenase
+do complexo PDH, sem qualquer ação alostérica sobre a piruvato-carboxilase ou outras enzimas do
+bypass.
+
+Questão 24 Integração
+
+Sobre a localização subcelular da glicose-6-fosfatase e seu significado regulatório:
+
+   A) Está livre no citossol do hepatócito, próxima fisicamente da hexoquinase, formando um par enz
+   imático coordenado que permite ajustar finamente o fluxo bidirecional de glicose-6-fosfato dentro
+   do hepatócito conforme a glicemia oscila.
+
+   B) Está ancorada no envelope nuclear externo do hepatócito, garantindo que apenas a fração de
+   glicose-6-fosfato destinada à transcrição dos genes glicogenéticos da via das pentoses-fosfato seja
+   desfosforilada dentro do núcleo.
+
+   C) Está embutida na membrana plasmática do hepatócito, voltada para o sangue da face sinusoidal,
+   hidrolisando a glicose-6-fosfato imediatamente antes da saída da glicose livre pelo transportador
+   GLUT-2 da membrana basolateral.
+
+   D) Está no lúmen do retículo endoplasmático; a glicose-6-fosfato entra pelo transportador G6PT, é
+   hidrolisada lá dentro, e a glicose livre + Pi saem por transportadores específicos. Isso isola a G6Pase
+   da G6P citosólica e evita ciclo fútil com a hexoquinase.
+
+   E) Está dispersa pelo citossol em forma livre e ativa apenas quando a glicemia cai -- a regulação é
+   puramente baseada na concentração local do substrato, sem necessidade de compartimentalização.
+
+Questão 25 Integração
+Sobre o ciclo de Cori e a assimetria energética entre músculo e fígado:
+
+       34
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+A) O ciclo de Cori é energeticamente neutro: cada ATP gasto no fígado para refazer a glicose é exata
+mente o ATP que o músculo gerou na glicólise -- a soma algébrica do ciclo inteiro é zero, e não há
+ônus líquido para nenhum dos dois compartimentos.
+
+B) O músculo gasta 6 ATP por glicose produzida via gliconeogênese muscular local; o fígado retorna
+o lactato como combustível direto reoxidado, e o ciclo se completa sem custo líquido global de ATP
+nem para o músculo nem para o fígado.
+
+C) O músculo em esforço anaeróbico gera 2 ATP por glicose pela glicólise; o fígado gasta 6 ATP para
+refazer essa glicose pela gliconeogênese. O ciclo transfere o ônus energético do músculo (anaeróbico)
+para o fígado (aeróbico).
+
+D) O ciclo de Cori opera apenas em jejum prolongado, quando o glicogênio hepático já se esgotou
+completamente -- não tem papel relevante durante o exercício físico agudo nem durante o esforço
+anaeróbico de curta duração no músculo esquelético.
+
+E) Cori se completa exclusivamente dentro da fibra muscular esquelética, sem participação hepática
+-- o lactato é reoxidado a piruvato pela mesma LDH, e a glicose é refeita no citossol muscular pela
+G6Pase local da própria célula.
+
+Questão 26 Aplicação
+
+Uma estudante de 18 anos é trazida ao pronto-socorro após ingerir grande quantidade de bebida
+alcoólica em jejum durante uma festa. Está confusa, com vômitos repetidos, respiração irregular e
+hipotermia. A glicemia capilar é 38 mg/dL, e o lactato sanguíneo é 6 mmol/L. Qual o mecanismo
+bioquímico que melhor explica essa apresentação?
+
+   A) Cetoacidose alcoólica clássica: o etanol é convertido diretamente em corpos cetônicos pelo fígado
+   em ritmo acelerado pela -oxidação reversa, elevando o ânion-gap progressivamente e levando à
+   acidose metabólica franca com hipoglicemia secundária ao consumo cetogênico desenfreado pelos
+   tecidos periféricos demandantes e pelo cérebro adaptado.
+
+   B) O metabolismo hepático do etanol gera duas moléculas de NADH por etanol, elevando dramati
+   camente a razão NADH/NAD no hepatócito. O excesso de NADH desloca piruvato  lactato e
+   oxaloacetato  malato, drenando os substratos da piruvato-carboxilase e da PEPCK. Em jejum (sem
+   glicogênio), isso paralisa a gliconeogênese e causa hipoglicemia + acidose lática.
+
+   C) O acetaldeído gerado pela álcool-desidrogenase é altamente tóxico para o hepatócito, levando à
+   necrose extensa do parênquima hepático em poucas horas e liberação de potássio intracelular; a
+   hipoglicemia decorre da disfunção hepática global aguda secundária à necrose.
+
+   D) O etanol inibe diretamente a glicose-6-fosfatase no lúmen do retículo endoplasmático por mecan
+   ismo de ligação covalente ao sítio ativo, impedindo a exportação de glicose recém-sintetizada pelo
+   fígado; o lactato sobe por acúmulo nos tecidos periféricos.
+
+       35
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+E) A bebida alcoólica costuma vir acompanhada de carboidratos refinados em grande quantidade
+absoluta; a hiperinsulinemia reativa após a ingestão maciça é a principal causa da hipoglicemia aguda
+neste cenário típico de festas universitárias.
+
+Questão 27 Aplicação
+
+Um lactente de 6 meses é internado com hipoglicemia grave em jejum (glicemia 28 mg/dL), hepatome
+galia importante, lactato 9 mmol/L, ácido úrico elevado e triglicerídeos elevados. Após o diagnóstico
+genético, é confirmada uma mutação no gene da glicose-6-fosfatase. Sobre o manejo desse paciente:
+
+   A) O tratamento de escolha é uma dieta hiperproteica intensiva, fornecendo o máximo possível de
+   aminoácidos glicogênicos circulantes (especialmente alanina) para alimentar continuamente a glico
+   neogênese hepática residual do paciente.
+
+   B) O paciente deve receber uma dieta cetogênica estrita imediata, forçando o cérebro do lactente a usar
+   corpos cetônicos como combustível alternativo principal e dispensando totalmente a necessidade de
+   glicose sanguínea sustentada por gliconeogênese.
+
+   C) O paciente deve evitar completamente qualquer ingestão de glicogênio dietético ou amido cru, para
+   não sobrecarregar ainda mais o estoque hepático de glicogênio já gravemente comprometido e em
+   acúmulo crescente.
+
+   D) O paciente precisa receber alimentação frequente com amido cru (libera glicose lentamente no
+   intestino) e/ou infusão noturna contínua de glicose. A glicose oral contorna o defeito hepático -- o
+   intestino tem G6Pase intacta, e a glicose absorvida sustenta a glicemia.
+
+   E) O tratamento definitivo é a administração regular de glucagon subcutâneo intermitente, que
+   estimula a gliconeogênese hepática residual e contorna o defeito enzimático da G6Pase ao mobilizar
+   substratos alternativos via cAMP/PKA.
+
+Questão 28 Aplicação
+
+Um corredor de longa distância termina uma prova de 42 km e, nas três horas seguintes, ainda apresenta
+glicemia normal sem ter se alimentado. Qual mecanismo melhor explica essa estabilidade da glicemia
+no pós-exercício imediato?
+
+   A) O lactato produzido pelo músculo durante o exercício é captado pelo fígado e usado como precursor
+   da gliconeogênese (ciclo de Cori); a glicose nova retorna ao sangue e mantém a glicemia, à custa de
+   gasto de ATP hepático.
+
+   B) A massa muscular trabalhada libera glicose diretamente no sangue ao final do exercício pela
+   ativação súbita e transitória da glicose-6-fosfatase muscular induzida pela adrenalina pós-esforço,
+   restaurando a glicemia gradualmente em 20­30 minutos após a parada.
+
+       36
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+C) O acetil-CoA produzido em quantidade pela -oxidação dos ácidos graxos durante a corrida
+prolongada é convertido diretamente em glicose pela gliconeogênese hepática reversa do Krebs,
+dispensando completamente outros substratos como lactato e alanina.
+
+D) A insulina elevada no pós-exercício imediato mantém os transportadores GLUT-4 do músculo
+abertos na membrana, recapturando a glicose circulante para reposição do glicogênio muscular e
+estabilizando a glicemia sanguínea por simples redistribuição.
+
+E) O exercício prolongado bloqueia a captação de glicose por praticamente todos os tecidos extra-
+cerebrais via inibição dos GLUTs periféricos, mantendo a glicemia naturalmente alta sem necessidade
+de produção endógena hepática adicional pela gliconeogênese.
+
+Questão 29 Aplicação
+
+Em um modelo experimental, hepatócitos isolados são incubados com lactato (substrato único). Em
+metade dos tubos, adiciona-se um inibidor seletivo da piruvato-carboxilase; na outra metade, um
+inibidor seletivo da PEPCK. Em ambos os grupos, a produção de glicose cai a quase zero. Qual interpre
+tação é correta?
+
+   A) O resultado é totalmente inesperado: como o lactato é considerado o precursor mais eficiente
+   da gliconeogênese hepática, ele deveria entrar diretamente na via como gliceraldeído-3-fosfato
+   citosólico, dispensando tanto piruvato-carboxilase como PEPCK em condições experimentais ideais.
+
+   B) O resultado prova de modo experimental contundente que a piruvato-carboxilase é citosólica e
+   a PEPCK é exclusivamente mitocondrial -- ambas necessárias em compartimentos opostos e em
+   sequência para que a glicose seja produzida a partir de qualquer substrato precursor.
+
+   C) O resultado confirma que ambas as enzimas são parte do mesmo bypass (piruvato  oxaloacetato
+    PEP). Mesmo com lactato como substrato, o lactato precisa virar piruvato (via LDH) e seguir o
+   bypass clássico -- qualquer interrupção das duas enzimas paralisa a via inteira.
+
+   D) O resultado demonstra experimentalmente que o lactato precisa obrigatoriamente de glicerol
+   como cofator alostérico ativador da piruvato-carboxilase para entrar na via da gliconeogênese; sem o
+   glicerol acompanhante, qualquer perturbação enzimática bloqueia a via.
+
+   E) O resultado é provavelmente artefato experimental dos hepatócitos isolados: in vivo, o lactato
+   bypassa completamente piruvato-carboxilase e PEPCK, entrando direto na via como 3-fosfoglicerato
+   pela ação da lactato-aldolase hepática descrita recentemente.
+
+Questão 30 Aplicação
+
+Um paciente diabético tipo 1 está em coma cetoacidótico no PS -- glicemia 480 mg/dL, cetonemia
+elevada, acidose com ânion-gap aumentado. O médico raciocina que o quadro metabólico decorre de
+
+       37
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+glucagon alto e insulina ausente. Sobre o estado do hepatócito desse paciente em relação à F2,6BP e à
+gliconeogênese:
+
+A) A insulina elevada secundariamente pela hiperglicemia mantida eleva a F2,6BP no hepatócito,
+ativando a glicólise e freando a gliconeogênese -- daí a cetonemia decorrer exclusivamente da lipólise
+periférica desinibida pelo adipócito sem captação adequada de glicose.
+
+B) O glucagon eleva o cAMP hepático em pacientes diabéticos, mas o efeito sobre a F2,6BP é prati
+camente nulo na vigência de hiperglicemia franca -- a regulação alostérica por F2,6BP só funciona
+corretamente quando a glicemia está baixa ou normal.
+
+C) A F2,6BP está elevada porque o glucagon ativa diretamente a PFK-2 do fígado por via independente
+de cAMP, acelerando a glicólise hepática e gerando os corpos cetônicos cetoacidóticos a partir do
+piruvato em excesso disponível no citossol.
+
+E) O glucagon (sem oposição da insulina) eleva cAMP, ativa PKA, que fosforila a bifuncional PFK-2/
+FBPase-2: PFK-2 desliga, FBPase-2 liga, F2,6BP cai. Com F2,6BP baixa, a gliconeogênese hepática roda
+em alta -- explica em parte a hiperglicemia mesmo sem aporte alimentar.
+
+       38
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+No bypass piruvato  fosfoenolpiruvato, o oxaloacetato formado na matriz mitocondrial é con
+vertido em malato antes de sair para o citossol, e lá é reoxidado a oxaloacetato. Explique por que
+esse "rodeio" via malato é necessário em termos de transporte e de equivalentes redutores.
+
+    MODELO DE RESPOSTA
+
+   Duas razões. Primeira, de transporte: o oxaloacetato não possui transportador especí
+   fico na membrana mitocondrial interna, mas o malato possui. Reduzir oxaloacetato a
+   malato (pela malato-desidrogenase mitocondrial, gastando NADH) é o jeito de fazê-
+   lo atravessar a membrana. Segunda, de equivalentes redutores: ao reoxidar o malato
+   no citossol pela malato-desidrogenase citosólica, gera-se NADH citosólico. Esse NADH
+   é necessário adiante, na reversão da gliceraldeído-3-fosfato-desidrogenase. Como a
+   razão NADH/NAD citosólica é cerca de cinco vezes menor que a mitocondrial, o ciclo
+   malato transporta carbono e poder redutor ao mesmo tempo.
+
+Questão Q2
+
+Apesar de o músculo esquelético ter glicogênio armazenado e a maquinaria glicolítica completa,
+ele não contribui para a glicemia sanguínea. Explique o motivo bioquímico desse fato e descreva
+como o músculo "indiretamente" colabora com a manutenção da glicemia através do fígado.
+
+    MODELO DE RESPOSTA
+
+   O músculo não tem glicose-6-fosfatase -- enzima presente apenas em fígado, rim e
+   intestino. Sem ela, a glicose-6-fosfato gerada pela glicogenólise muscular ou pela gli
+   coneogênese muscular não pode ser desfosforilada, e glicose-6-fosfato fosforilada não
+   atravessa a membrana plasmática (a forma livre, sim). Assim, toda glicose do glicogênio
+   muscular é consumida localmente pela glicólise. A contribuição indireta acontece via
+   lactato (ciclo de Cori) e via alanina (ciclo glicose-alanina): o músculo exporta esses dois
+   produtos ao sangue, e o fígado os reconverte em glicose, devolvendo-a ao sangue.
+
+                             39
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q3
+
+Quando a glicemia cai e o glucagon é liberado, o fígado deve frear a glicólise e acelerar a glico
+neogênese. Explique como a frutose-2,6-bisfosfato (F2,6BP) opera esse interruptor, citando a
+cascata hormonal envolvida e o efeito final sobre as duas vias.
+
+MODELO DE RESPOSTA
+
+Glucagon ativa receptor acoplado a proteína Gs, eleva cAMP e ativa a proteína-quinase
+A (PKA). A PKA fosforila a enzima bifuncional PFK-2/FBPase-2: o domínio cinase
+(PFK-2) é inativado, e o domínio fosfatase (FBPase-2) é ativado. O nível citosólico de
+F2,6BP cai. Sem F2,6BP, a PFK-1 perde seu ativador alostérico mais potente -- glicólise
+freia. Simultaneamente, a FBPase-1 perde seu inibidor mais potente -- gliconeogênese
+acelera. Insulina faz o caminho oposto: desfosforila a bifuncional, PFK-2 ativa, F2,6BP
+sobe, glicólise ativada e gliconeogênese inibida.
+
+Questão Q4
+
+Uma jovem em jejum ingere grande quantidade de álcool e desenvolve hipoglicemia grave com
+acidose lática. Explique, em termos bioquímicos, por que essas duas alterações estão ligadas ao
+metabolismo hepático do etanol.
+
+    MODELO DE RESPOSTA
+
+   O fígado oxida etanol em duas etapas: álcool-desidrogenase (citosólica, etanol 
+   acetaldeído) e acetaldeído-desidrogenase (mitocondrial, acetaldeído  acetato). Cada
+   etapa gera NADH -- duas moléculas por etanol. A razão NADH/NAD hepática sobe
+   drasticamente. Esse NADH desloca duas reações reversíveis no sentido errado para a
+   gliconeogênese: a lactato-desidrogenase passa a converter piruvato em lactato (o lac
+   tato sobe  acidose lática), e a malato-desidrogenase converte oxaloacetato em malato.
+   Sem piruvato e sem oxaloacetato, as enzimas-chave do bypass (piruvato-carboxilase,
+   PEPCK) ficam sem substrato. Em jejum, com glicogênio esgotado, a gliconeogênese era
+   a única fonte -- daí a hipoglicemia.
+
+       40
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q5
+
+Descreva a fisiopatologia da síndrome de Von Gierke (glicogenose tipo I) integrando o defeito
+enzimático aos quatro achados clínicos clássicos: hepatomegalia, hipoglicemia, acidose lática e
+hiperuricemia.
+
+MODELO DE RESPOSTA
+
+A síndrome resulta da deficiência da glicose-6-fosfatase hepática (tipo Ia) ou do
+transportador G6PT do retículo endoplasmático (tipo Ib). O hepatócito sintetiza gli
+cose-6-fosfato normalmente (por glicogenólise e gliconeogênese), mas não consegue
+desfosforilá-la para exportar glicose livre ao sangue. Hepatomegalia: a glicose-6-
+fosfato acumula e estimula a síntese de mais glicogênio, que se acumula no hepatócito.
+Hipoglicemia: o sangue não recebe glicose hepática mesmo em jejum, apesar do
+glicogênio estar abundante. Acidose lática: o excesso de glicose-6-fosfato é desviado
+para glicólise, gerando lactato em alta. Hiperuricemia: o desvio para a via das pentoses-
+fosfato e o aumento do catabolismo de purinas elevam o ácido úrico. O tratamento é
+amido cru frequente, que mantém a glicemia pela absorção lenta.
+
+       41
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C     Q02 CEEE      Q03 E     Q04 E  Q05 A
+Q06 ECCE  Q07 B         Q08 D     Q09 A  Q10 E
+
+INTEGRAÇÃO (Q11­Q25)    Q13 B     Q14 E  Q15 CCEC
+                        Q18 EECC  Q19 C  Q20 C
+Q11 D     Q12 CCEE      Q23 B     Q24 E  Q25 C
+Q16 A     Q17 D
+                        Q28 EECC  Q29 E  Q30 D
+Q21 B     Q22 CCEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 B
+
+                        47
+

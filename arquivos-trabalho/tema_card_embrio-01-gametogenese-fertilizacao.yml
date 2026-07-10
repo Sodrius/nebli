@@ -1,0 +1,60 @@
+slug: embrio-01-gametogenese-fertilizacao
+titulo: "Gametogênese e Fertilização"
+subtitulo: "Embriologia"
+meta:
+  - ["Disciplina", "Embriologia (UC02)"]
+  - ["Onde estudar", "Slides da aula Gametogênese e Fertilização (UC02, Embriologia, Profa. Marilene H. Lopes, ICB-USP) · Moore & Persaud, Embriologia Clínica, cap. Primeira Semana do Desenvolvimento · Langman, Embriologia Médica, cap. Gametogênese · Junqueira & Carneiro, Histologia Básica (aparelho reprodutor, para revisão)"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — De onde vêm os gametas e a meiose"
+        subtopicos:
+          - "Origem e migração das PGCs"
+          - "Meiose: reduzir e diversificar"
+          - "Ovogênese, paradas e envoltórios"
+      - titulo: "PARTE II — Espermatogênese e capacitação"
+        subtopicos:
+          - "Espermatogênese contínua"
+          - "Espermiogênese: a remodelação"
+          - "Arquitetura e capacitação"
+      - titulo: "PARTE III — Fertilização e início do desenvolvimento"
+        subtopicos:
+          - "Encontro e reação acrossômica"
+          - "Fusão e bloqueio à polispermia"
+          - "Singamia, clivagem e blastocisto"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CCEC"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "D"]
+    - ["07", "ECCE"]
+    - ["08", "E"]
+    - ["09", "CEEC"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "EECE"]
+    - ["13", "C"]
+    - ["14", "E"]
+    - ["15", "CECC"]
+    - ["16", "B"]
+    - ["17", "A"]
+    - ["18", "EECC"]
+    - ["19", "D"]
+    - ["20", "C"]
+    - ["21", "CCEE"]
+    - ["22", "E"]
+    - ["23", "B"]
+    - ["24", "ECEE"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "CEEC"]
+    - ["28", "C"]
+    - ["29", "A"]
+    - ["30", "ECCE"]

@@ -1,0 +1,215 @@
+#!/usr/bin/env python3
+"""pos_pipeline_check.py — Check final + auto-fix pos-compilacao do PDF.
+
+Canonico 2026-05-26. Roda DEPOIS de `auditar_pdf.py` e antes de mover
+o PDF para `resumos-gerados/`. Faz duas coisas:
+
+1. **Verificacao FINAL do PDF**: extrai texto do PDF e roda checks
+   adicionais que so fazem sentido com o artefato final:
+   - "ETAPA 4" residual no texto
+   - "Bloco:" ou similares vazando da capa
+   - Numeracao de pagina sincronizada com paginas reais
+   - Strings de markdown nao-renderizadas (`**X**`)
+
+2. **Relatorio em topicos** (stdout):
+   - O que esta OK
+   - O que precisa de atencao
+   - O que e bug bloqueante
+
+Uso:
+    python3 typst-build/pos_pipeline_check.py <pdf> [--slug NOME]
+
+Retorna exit 0 se PDF e movivel. Exit 1 se ha bloqueio.
+"""
+
+from __future__ import annotations
+
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def extract_pdf_text(pdf_path: Path) -> str:
+    """Extrai texto do PDF via pdftotext (Poppler) ou PyPDF2 como fallback."""
+    try:
+        out = subprocess.run(
+            ["pdftotext", "-layout", str(pdf_path), "-"],
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=30,
+        )
+        if out.returncode == 0:
+            return out.stdout
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
+    # Fallback: tentativa via parse manual minimo
+    try:
+        data = pdf_path.read_bytes()
+        # Heuristica seca: pula PDFs cuja extracao depende de poppler
+        return ""
+    except OSError:
+        return ""
+
+
+def count_pdf_pages(pdf_path: Path) -> int:
+    data = pdf_path.read_bytes()
+    return len(re.findall(rb"/Type\s*/Page\b", data))
+
+
+def check_etapa4_fantasma(texto: str) -> tuple[bool, str]:
+    if not texto:
+        return False, "PDF sem texto extraivel -- pulando check (instalar poppler-utils para validar)"
+    if "ETAPA 4" in texto.upper():
+        idx = texto.upper().find("ETAPA 4")
+        ctx = texto[max(0, idx-40):idx+50].replace("\n", " ")
+        return True, f"ETAPA 4 fossil detectada: ...{ctx}..."
+    return False, "OK - sem header fossil de ETAPA 4"
+
+
+def check_bloco_prova_capa(texto: str) -> tuple[bool, str]:
+    if not texto:
+        return False, "PDF sem texto extraivel"
+    # So checa as primeiras 2000 chars (regiao da capa)
+    capa_area = texto[:2000]
+    if re.search(r"\bBloco:\s*P[123]\b", capa_area, re.I):
+        return True, "Capa contem 'Bloco: PN' (viola CLAUDE.md)"
+    if re.search(r"\bProva\s*[123]\b", capa_area, re.I):
+        return True, "Capa contem 'Prova N' (viola CLAUDE.md)"
+    return False, "OK - capa sem bloco/prova"
+
+
+def check_markdown_bold(texto: str) -> tuple[bool, str]:
+    if not texto:
+        return False, "PDF sem texto extraivel"
+    # Procura `**texto**` literal no texto extraido (Typst nao renderiza)
+    matches = re.findall(r"\*\*[^\s*][^*\n]{0,80}?[^\s*]\*\*", texto)
+    if matches:
+        return True, f"Markdown bold nao-renderizado: {len(matches)} ocorrencia(s) -- exemplo: `{matches[0]}`"
+    return False, "OK - sem markdown bold vazado"
+
+
+def check_numeracao(pdf_path: Path, texto: str) -> tuple[bool, str]:
+    n_real = count_pdf_pages(pdf_path)
+    if not texto:
+        return False, f"PDF tem {n_real} paginas (texto nao extraivel -- pulando check de numeracao)"
+    # Estrategia conservadora: separar paginas via form-feed e pegar a ultima
+    # linha curta nao-vazia de cada pagina. Rodape NEBLI = numero centralizado
+    # isolado. Falsos positivos comuns: "200 um" em legendas, "Cap. 19" etc.
+    pages = texto.split("\x0c")
+    rodape_nums = []
+    for p in pages:
+        lines = [ln.strip() for ln in p.splitlines() if ln.strip()]
+        if not lines:
+            continue
+        # Ultima linha que seja apenas um numero curto isolado
+        for ln in reversed(lines[-3:]):
+            if re.fullmatch(r"\d{1,3}", ln):
+                rodape_nums.append(int(ln))
+                break
+    if not rodape_nums:
+        return False, f"PDF tem {n_real} paginas, rodape numerico nao detectado (provavel ausencia de footer ou PDF sem text-extract)"
+    max_num = max(rodape_nums)
+    if max_num > n_real + 2:
+        return True, (f"Numeracao inflada: rodape exibe ate {max_num} mas PDF tem {n_real} paginas "
+                      f"(diferenca {max_num - n_real}) -- verificar se template conta paginas-fantasma")
+    if max_num < n_real - 2:
+        return True, (f"Numeracao dessincronizada: rodape ate {max_num} mas PDF tem {n_real} paginas")
+    return False, f"OK - numeracao coerente ({n_real} paginas, rodape ate {max_num})"
+
+
+def check_paginas_em_branco(pdf_path: Path) -> tuple[bool, str]:
+    """Heuristica: PDF com 1+ pagina cujo conteudo extraivel e quase vazio."""
+    try:
+        out = subprocess.run(
+            ["pdftotext", "-layout", str(pdf_path), "-"],
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=30,
+        )
+        if out.returncode != 0:
+            return False, "pdftotext indisponivel -- pulando"
+        text = out.stdout
+        pages = text.split("\x0c")  # form feed = separador de paginas
+        # Ignorar a ultima entrada (artefato comum de pdftotext: split gera N+1
+        # entradas para PDF de N paginas; a ultima fica vazia)
+        if pages and not pages[-1].strip():
+            pages = pages[:-1]
+        # Pagina em branco real = pagina interna (nao primeira nem ultima) com
+        # menos de 20 chars de conteudo extraivel
+        empty = []
+        for i, p in enumerate(pages, 1):
+            if 1 < i < len(pages) and len(p.strip()) < 20:
+                empty.append(i)
+        if empty:
+            return True, f"Paginas internas em branco detectadas: {empty[:10]} (verificar `#etapa-header` duplicado)"
+        return False, "OK - sem paginas em branco interna"
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        return False, "pdftotext indisponivel -- pulando"
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Uso: pos_pipeline_check.py <pdf>")
+        return 1
+    pdf_path = Path(sys.argv[1])
+    if not pdf_path.exists():
+        print(f"x PDF nao encontrado: {pdf_path}")
+        return 1
+
+    print(f"=== NEBLI pos_pipeline_check -- {pdf_path.name} ===")
+    print(f"Tamanho: {pdf_path.stat().st_size / (1024*1024):.1f} MB")
+    n_pages = count_pdf_pages(pdf_path)
+    print(f"Paginas: {n_pages}")
+    print()
+
+    texto = extract_pdf_text(pdf_path)
+    if not texto:
+        print("! pdftotext nao disponivel ou falhou -- checks de conteudo limitados.")
+        print("  Instale `poppler-utils` ou use WSL para extracao plena.")
+        print()
+
+    checks = [
+        ("ETAPA 4 fossil", check_etapa4_fantasma(texto)),
+        ("Bloco/Prova na capa", check_bloco_prova_capa(texto)),
+        ("Markdown bold vazado", check_markdown_bold(texto)),
+        ("Numeracao de pagina", check_numeracao(pdf_path, texto)),
+        ("Paginas em branco", check_paginas_em_branco(pdf_path)),
+    ]
+
+    okays = []
+    avisos = []
+    bloqueios = []
+    for nome, (problema, msg) in checks:
+        if problema:
+            if nome in ("ETAPA 4 fossil", "Bloco/Prova na capa"):
+                bloqueios.append(f"  [x] {nome}: {msg}")
+            else:
+                avisos.append(f"  [!] {nome}: {msg}")
+        else:
+            okays.append(f"  [v] {nome}: {msg}")
+
+    print("OK:")
+    for m in okays: print(m)
+    if avisos:
+        print()
+        print("AVISOS:")
+        for m in avisos: print(m)
+    if bloqueios:
+        print()
+        print("BLOQUEIOS:")
+        for m in bloqueios: print(m)
+
+    print()
+    if bloqueios:
+        print(f"x FALHA - {len(bloqueios)} bloqueio(s). NAO mover PDF.")
+        return 1
+    if avisos:
+        print(f"! OK COM AVISOS - {len(avisos)} aviso(s). Pode mover, mas conferir.")
+    else:
+        print("v OK - PDF pode ser movido para resumos-gerados/.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

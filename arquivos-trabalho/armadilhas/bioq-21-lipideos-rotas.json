@@ -1,0 +1,25 @@
+{
+  "slug": "bioq-21-lipideos-rotas",
+  "total_armadilhas_unicas": 1,
+  "total_questoes_com_armadilha": 1,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Marcar D (proteínas pobre em carbo) como igualmente cetogênica que B. Embora proteínas cetogênicas gerem Acetil-CoA, a via principal e mais eficiente de cetogênese é a β-oxidação de ácidos graxos (B). Dieta pobre em carboidratos + rica em lipídios é o contexto clássico de cetose — não apenas ausência de carboidratos.",
+      "origens": [
+        "0264"
+      ],
+      "nivel": "medio",
+      "conceito": "Metabolismo de lipídios e formação de corpos cetônicos em diferentes condições nutricionais",
+      "tags": [
+        "bioquimica",
+        "cetogenese",
+        "diabetes",
+        "dieta"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

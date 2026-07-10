@@ -1,0 +1,65 @@
+slug: morte-celular
+titulo: "Morte celular"
+subtitulo: "Biologia Celular · UC01 · Aula 8"
+meta:
+  - ["Disciplina", "Biologia Celular (UC01)"]
+  - ["Onde estudar", "Alberts — Fundamentos da Biologia Celular (3ª ed.) cap. 18 + Junqueira & Carneiro — Biologia Celular e Molecular (10ª ed.) + Alberts — Biologia Molecular da Célula (5ª ed.)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Por que a célula morre por ordem"
+        subtopicos:
+          - "1.1 Sinais extracelulares que sustentam a vida"
+          - "1.2 Morte programada vs acidental"
+          - "1.3 Os três tipos canônicos de morte regulada"
+      - titulo: "PARTE II — Apoptose: o suicídio silencioso"
+        subtopicos:
+          - "2.1 Morfologia e o sinal eat-me"
+          - "2.2 Cascata de caspases"
+          - "2.3 Via extrínseca: receptores de morte"
+          - "2.4 Via intrínseca: a mitocôndria decide"
+          - "2.5 Regulação fina e amplificação cruzada"
+      - titulo: "PARTE III — Autofagia e necrose regulada"
+        subtopicos:
+          - "3.1 Autofagia: sobrevivência primeiro"
+          - "3.2 Necroptose: necrose intencional"
+          - "3.3 Piroptose: morte que recruta o sistema imune"
+          - "3.4 Necrose acidental e ferroptose"
+  - titulo: "Resumindo"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+  - titulo: "Etapa 3 — 5 discursivas"
+  - titulo: "Gabarito da Etapa 2"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "CCEE"]
+    - ["05", "A"]
+    - ["06", "E"]
+    - ["07", "C"]
+    - ["08", "CECE"]
+    - ["09", "B"]
+    - ["10", "CCEC"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "C"]
+    - ["13", "B"]
+    - ["14", "CCEE"]
+    - ["15", "E"]
+    - ["16", "A"]
+    - ["17", "CECE"]
+    - ["18", "C"]
+    - ["19", "D"]
+    - ["20", "CCEC"]
+    - ["21", "B"]
+    - ["22", "E"]
+    - ["23", "CCEE"]
+    - ["24", "D"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "B"]
+    - ["28", "D"]
+    - ["29", "E"]
+    - ["30", "A"]

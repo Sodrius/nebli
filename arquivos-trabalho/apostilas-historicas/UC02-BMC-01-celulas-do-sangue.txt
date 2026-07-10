@@ -1,0 +1,1583 @@
+NEBLI · APOSTILA
+
+Células do Sangue
+
+Histologia
+
+Disciplina:    Histologia
+Nota de uso:
+               Estude com o slide aberto ao lado. O sangue é o tecido conjuntivo mais
+Onde estudar:  atípico que você vai conhecer: matriz líquida (plasma) suspendendo
+               células que não se tocam. O fio mecanístico é função  forma: cada
+               elemento figurado existe porque uma demanda fisiológica precisava ser
+               resolvida de um jeito que nenhuma outra célula resolveria. Não decore
+               'neutrófilo tem núcleo lobulado' antes de entender por que essa forma
+               serve à diapedese. Quem aprende a tabela de elementos figurados sem
+               o porquê de cada um perde a integração na clínica.
+
+               Junqueira e Carneiro, Histologia Básica, Cap. 12 (Sangue). Ross e
+               Pawlina, Histologia -- Texto e Atlas, Cap. 10. Para a parte funcional/
+               clínica: Kierszenbaum e Tres, Histologia e Biologia Celular, Cap. 6. Abbas
+               (Imunologia Celular e Molecular) para o detalhe dos linfócitos.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- O sangue como tecido
+
+       1.1 Tecido conjuntivo líquido: função antes da forma
+       1.2 Plasma: composição, proteínas e hematócrito
+       1.3 Plasma vs soro: o que muda quando o sangue coagula
+  PARTE II -- Hemácias
+       2.1 Anucleadas e bicôncavas: forma a serviço da troca gasosa
+       2.2 Hemoglobina e o ciclo de 120 dias
+       2.3 Membrana, flexibilidade e grupos sanguíneos
+  PARTE III -- Leucócitos e plaquetas
+       3.1 Granulócitos: neutrófilos, eosinófilos, basófilos
+       3.2 Agranulócitos: linfócitos e monócitos
+       3.3 Plaquetas, coagulação e medula óssea
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    O sangue é o tecido mais estranho que você vai encontrar na histologia, e essa estranheza é
+    o melhor jeito de entrar nele. Tecido conjuntivo, todo mundo aprende, é aquele que tem muita
+    matriz extracelular separando as células -- pense no osso, na cartilagem, no conjuntivo frouxo
+    da derme. O sangue segue essa lógica, mas leva ao extremo: a matriz é líquida, as células flutuam,
+    e nenhuma toca a outra. Por isso a regra "uma estrutura, uma função" aqui ganha um sabor
+    diferente -- em vez de uma arquitetura fixa de células ancoradas, o que governa tudo é o porquê
+    de cada célula existir circulando.
+
+    Este resumo segue o fio do funcional: por que existem hemácias anucleadas e bicôncavas, por que
+    neutrófilos têm núcleo lobulado e vivem dois dias, por que linfócitos podem viver anos, por que
+    plaquetas nem são células inteiras. Quem decora "neutrófilo: 48­66%, núcleo polilobado, fagoc
+    itose" antes de entender por que essa célula precisa ser exatamente assim para fazer o que faz vai
+    esquecer a tabela em uma semana. Vamos da forma para a função, e quando a função explicar a
+    forma, o nome cola sozinho.
+
+PARTE I -- O sangue como tecido
+
+1.1 -- Tecido conjuntivo líquido: função antes da forma
+Antes de qualquer detalhe, fixa essa imagem: tecido conjuntivo é uma família de tecidos em que as
+células estão afastadas umas das outras, separadas por uma matriz extracelular abundante. No osso,
+a matriz é mineralizada e dura. Na cartilagem, é firme e elástica. No conjuntivo frouxo, é uma malha
+de fibras de colágeno e elastina mergulhada em substância fundamental. E no sangue? A matriz é água
+com proteínas, sais e moléculas dissolvidas -- o plasma. As células ficam suspensas nessa matriz e são
+levadas por ela.
+
+Essa é a primeira coisa que precisa fazer sentido. O sangue não é "células viajando" -- é tecido conjun
+tivo se mexendo. A matriz extracelular dele anda junto, empurrada pelo coração, dentro do sistema
+cardiovascular fechado, mantendo um fluxo regular que ocupa cerca de 7 a 8% do peso do corpo. Em
+uma pessoa de 70 kg, isso dá em torno de 5 litros circulando o tempo todo.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O sangue ao lado dos outros tecidos básicos. Repare que ele aparece como tecido conjuntivo -- categoria que também
+inclui o conjuntivo frouxo (matriz fibrosa), o ósseo (matriz mineralizada) e o cartilaginoso (matriz firme). O que
+muda entre eles é só a natureza da matriz.
+
+Por que esse tecido inteiro evoluiu? Porque toda célula do corpo precisa de duas coisas que ela sozinha
+não consegue providenciar: insumo (oxigênio, glicose, aminoácidos, hormônios) e remoção de lixo
+(gás carbônico, ureia, calor). Em um organismo pequeno isso se resolve por difusão direta com o meio
+externo, mas a partir de alguns milímetros de espessura a difusão deixa de bastar. A solução evolutiva
+foi um sistema de entrega: um líquido que circula passando perto de toda célula e troca com ela. As
+funções do sangue brotam dessa lógica única -- transporte de oxigênio das vias aéreas para os tecidos,
+transporte de gás carbônico de volta, distribuição de nutrientes vindos do intestino, transporte de
+hormônios das glândulas para os alvos, deslocamento de células e moléculas de defesa para onde há
+infecção, e tamponamento de pH1 e temperatura corporal.
+
+   Resumindo até aqui: Sangue é tecido conjuntivo cuja matriz é líquida. Ele existe porque, em organismos
+   grandes, a difusão direta entre célula e meio externo deixa de bastar -- o sangue resolve isso circulando
+   e trocando com cada célula. Daí saem todas as funções: entregar O2 e nutrientes, recolher CO2 e resíduos,
+   transportar hormônios e células de defesa, manter pH e temperatura.
+
+Falar em "células do sangue" é, então, falar em duas populações: uma celular (as hemácias, os leucócitos
+e as plaquetas -- chamadas em conjunto de elementos figurados) e uma extracelular (o plasma). É
+exatamente o que você vê quando centrifuga uma amostra de sangue: as células, mais densas, descem;
+o plasma, menos denso, sobe. O resultado é uma coluna estratificada em três camadas que fala muito
+sobre o organismo de quem doou aquele sangue.
+
+   1pH ­ medida da concentração de íons hidrogênio; o sangue mantém pH entre 7,35 e 7,45, faixa fora da qual enzimas
+vitais começam a falhar
+
+                                                                                 4
+NEBLI                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+Sangue centrifugado. Embaixo, a massa vermelha dos eritrócitos. No meio, uma linha branca finíssima -- o "buffy
+coat", camada de leucócitos e plaquetas. Em cima, o líquido amarelado: o plasma. 99% das células no fundo são
+hemácias.
+
+1.2 -- Plasma: composição, proteínas e hematócrito
+Olha o tubo centrifugado de perto. Aquela coluna vermelha embaixo é o que se chama de hematócrito: a
+fração do volume total de sangue ocupada por hemácias. O nome é literal -- "krítos" em grego significa
+"separado", e o hematócrito é o sangue separado por densidade. Em homens, o valor normal fica entre
+39 e 50%; em mulheres, entre 35 e 45%. A diferença não é arbitrária: testosterona estimula eritropoese,
+então quem produz mais testosterona tende a ter mais hemácias circulando.
+
+Dentro daquela coluna vermelha, 99% das células são
+
+hemácias. A camada esbranquiçada acima -- chamada
+
+"buffy coat" ou camada leucocitária -- concentra leucócitos
+
+e plaquetas, e representa pouco mais de 1% do volume. Já o
+
+plasma, que ocupa o resto do tubo (de 50 a 60% do total),
+
+é água com solutos dissolvidos. Em valores arredondados:
+
+90% água, 7% proteínas, 1% sais inorgânicos e 2% de com
+
+postos orgânicos diversos (aminoácidos, glicose, vitaminas,
+
+hormônios, lipídios).                                        Hematócrito normal
+
+As proteínas do plasma merecem atenção especial porque cada classe carrega uma função diferente.
+As albuminas são as mais abundantes (cerca de 60% das proteínas plasmáticas) e funcionam como
+puxador osmótico: quanto mais albumina há no vaso, mais água o vaso "segura" dentro de si por pressão
+oncótica2. Quando o fígado para de produzir albumina, ou ela é perdida pela urina, a água sai do vaso e
+vai para o interstício -- é edema. Já as globulinas alfa, beta e gama incluem os anticorpos (imunoglobu
+
+   2pressão oncótica ­ componente osmótico exercido especificamente por proteínas -- diferente da osmolaridade dos
+sais, ela atua através da parede capilar
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+linas, todas gama-globulinas), proteínas transportadoras de hormônios e enzimas, e fatores do sistema
+imune. As lipoproteínas carregam lipídios -- colesterol e triglicerídeos -- que não se dissolvem em
+água sozinhos. E o fibrinogênio mais a protrombina são os atores principais da coagulação, sobre os
+quais volta logo abaixo.
+
+  Quatro classes de proteínas plasmáticas, cada uma com uma função distinta. Memorize por função, não por
+  nome: albumina cuida da osmose, globulinas cuidam da defesa e do transporte, lipoproteínas cuidam do lipídio,
+  fibrinogênio cuida da coagulação.
+
+O resto do plasma -- aqueles 1% de sais e 2% de orgânicos -- não é decoração. Os íons Na3, K4, Cl,
+Ca² e bicarbonato (HCO) compõem o ambiente iônico que mantém a osmolaridade e o pH dentro da
+faixa em que enzimas funcionam. Glicose, aminoácidos e ácidos graxos fornecem substrato energético.
+Hormônios em concentrações pequenas mas suficientes coordenam metabolismo. Em outras palavras:
+o plasma é o ambiente bioquímico em que toda célula do organismo está mergulhada -- direta ou
+indiretamente, via líquido intersticial.
+
+    Síntese 1.2 -- Plasma é a matriz líquida do sangue: 90% água, 7% proteínas (albumina osmótica,
+    globulinas de defesa, lipoproteínas, fibrinogênio coagulador), 1% sais, 2% orgânicos. Hematócrito
+    é a fração do sangue ocupada por hemácias -- 39­50% em homens, 35­45% em mulheres.
+    Dentro do hematócrito, 99% são hemácias; o "buffy coat" (camada esbranquiçada acima) tem o
+    pouco mais de 1% de leucócitos e plaquetas.
+
+1.3 -- Plasma vs soro: o que muda quando o sangue coagula
+Essa distinção é fonte clássica de confusão e, ao mesmo tempo, fonte clássica de questão de prova. Vamos
+por mecanismo.
+Imagine que você tirou sangue de uma veia e colocou no tubo. Duas coisas podem acontecer dali em
+diante, dependendo do que você fez com o tubo.
+
+   3Na ­ sódio -- principal cátion do líquido extracelular
+   4K ­ potássio -- principal cátion intracelular, em baixa concentração no plasma
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cenário 1: você adicionou anticoagulante. O anticoagulante -- pode ser heparina5, citrato de sódio (que
+quela cálcio) ou EDTA6 -- bloqueia a cascata de coagulação. Sem coagulação, o sangue continua líquido.
+Quando você centrifuga esse tubo, o que sobe é plasma: a matriz líquida intacta, com fibrinogênio,
+protrombina e todos os fatores de coagulação ainda dissolvidos. As células descem; o plasma fica em
+cima.
+
+Cenário 2: você não adicionou nada. Sem anticoagulante, a própria cascata de coagulação dispara. O
+fibrinogênio dissolvido é cortado pela trombina ativada, libera fibrinopeptídeos7 e se polimeriza em
+uma rede de fibrina. Essa rede aprisiona as células e forma um coágulo. Quando você centrifuga esse
+tubo, o coágulo (com as células dentro) desce, e o líquido que sobra em cima é o soro: tudo o que estava
+no plasma original menos o fibrinogênio (já transformado em fibrina e preso no coágulo) e menos os
+outros fatores de coagulação consumidos no processo.
+
+Plasma vs soro: ambos são a parte líquida do sangue centrifugado, mas plasma vem de sangue tratado com antico
+agulante (mantém fibrinogênio); soro vem de sangue que foi deixado coagular primeiro (perdeu o fibrinogênio para
+o coágulo). A diferença é só essa -- mas decide qual tubo o laboratório pede para cada exame.
+
+A diferença, então, é estritamente essa: soro = plasma sem fibrinogênio (e sem os fatores de coagulação
+consumidos). Não há um "soro mais nutritivo" ou um "plasma mais rico" -- é só o estado bioquímico
+em que você obteve a amostra. Mas a escolha entre um e outro importa na prática clínica: para dosar
+fatores de coagulação você precisa de plasma (tubo azul, com citrato); para dosar anticorpos ou íons fora
+da cascata, soro basta (tubo seco, sem aditivo).
+
+   5heparina ­ polissacarídeo natural que ativa a antitrombina III; usado tanto fisiologicamente quanto como medica
+mento e reagente de laboratório
+
+   6EDTA ­ ácido etilenodiamino tetra-acético -- quelante de cálcio usado em tubos roxos de hemograma
+   7fibrinopeptídeos ­ pequenos pedaços de proteína que se desprendem do fibrinogênio na ativação, deixando os
+monômeros de fibrina expostos
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A cascata de coagulação em si vai aparecer com mais detalhe quando você estudar hemostasia, mas o
+esqueleto cabe aqui: lesão vascular libera fator tecidual8 e ativa uma sequência de proteases plasmáticas
+(Fator XII, XI, IX, VIII, X), que convergem em uma via comum -- protrombina vira trombina (a serina-
+protease central), trombina corta fibrinogênio em fibrina, e a fibrina se polimeriza em rede. Cálcio é
+cofator essencial em vários passos; vitamina K é cofator na síntese hepática de protrombina, daí o uso
+de varfarina9 como anticoagulante. Quando o coágulo já cumpriu o papel, o sistema plasmina10 dissolve
+a rede. Todo esse circuito acontece em segundos a poucos minutos, e o equilíbrio entre coagulação e
+anticoagulação é fundamental -- pender demais para um lado dá trombose11, para o outro dá hemor
+ragia.
+
+Cascata de coagulação em panorama. Você não precisa decorar todos os fatores numerados -- fixe o esqueleto: via
+intrínseca (interna ao vaso) e via extrínseca (dispara com lesão tecidual) convergem na ativação do Fator X; daí vem
+trombina, daí vem fibrina. Hemofilia clássica é falta de Fator VIII; heparina e antitrombina III freiam a trombina; t-
+PA ativa plasmina, que dissolve o coágulo formado.
+
+   8fator tecidual ­ proteína da membrana das células endoteliais danificadas; dispara a via extrínseca da coagulação
+   9varfarina ­ anticoagulante oral que bloqueia o ciclo da vitamina K no fígado, reduzindo a síntese de protrombina e
+outros fatores
+   10plasmina ­ serina-protease que digere a fibrina; ativada a partir do plasminogênio pelo t-PA, é o "remendo" do
+remendo
+   11trombose ­ formação de coágulo dentro de vaso intacto, obstruindo o fluxo -- base do AVC isquêmico e do infarto
+
+                                                                                 8
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+Plasma fresco congelado vs soro nas transfusões
+
+Quando um paciente sangrando precisa repor fatores de coagulação (porque tem doença hepática,
+ou está em coagulação intravascular disseminada, ou tomou anticoagulante demais), o banco
+de sangue libera plasma fresco congelado -- separado de sangue coletado com anticoagulante
+e congelado antes que as proteínas se degradem. Soro não serve para isso porque já perdeu o
+fibrinogênio. O detalhe técnico de "plasma vs soro" sai do livro de histologia e vira escolha clínica.
+
+Conclusão integradora
+
+Da PARTE I você sai entendendo o que é o sangue como tecido: matriz líquida (plasma)
+suspendendo elementos figurados (células e plaquetas), com uma proporção precisa entre os dois
+(hematócrito) e uma química do plasma que carrega solutos, defende osmoticamente o vaso,
+transporta lipídios e contém a maquinaria da coagulação. A distinção plasma vs soro é só uma
+consequência do que se faz com o tubo depois da coleta. Agora vamos descer para a célula mais
+numerosa e mais desnudada do sangue -- a hemácia -- e ver por que ela é como é.
+
+       9
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Hemácias
+
+2.1 -- Anucleadas e bicôncavas: forma a serviço da troca gasosa
+A hemácia (também chamada eritrócito ou glóbulo vermelho -- três nomes, uma célula) é a célula
+mais abundante do sangue, e ao mesmo tempo a mais desnudada. Um humano adulto carrega cerca
+de 25 trilhões delas; em um homem, a concentração média é de 5,5 milhões por mm³ de sangue; em
+uma mulher, 4,5 milhões. Para colocar em perspectiva: um único milímetro cúbico -- o volume de uma
+cabeça de alfinete -- tem mais hemácias do que existem humanos no planeta.
+
+E essa célula radicalizou a especialização. Olhe o que ela não tem: núcleo, mitocôndrias, retículo
+endoplasmático, complexo de Golgi, ribossomos. Nada. O que sobra dentro de uma hemácia madura de
+mamífero é uma membrana plasmática, um citoesqueleto subjacente, hemoglobina e algumas enzimas
+glicolíticas. Mais nada. É praticamente um envelope com hemoglobina dentro.
+
+O formato do disco bicôncavo também não é estético. Ele
+resolve dois problemas ao mesmo tempo. Primeiro, max
+imiza a área de troca: comparado a uma esfera de mesmo
+volume, o disco bicôncavo tem cerca de 20­30% mais
+área de membrana -- e troca gasosa é uma função estri
+tamente de superfície. Cada hemácia oferece em torno
+de 140 µm² de membrana para a hemoglobina capturar
+e liberar gases. Segundo, facilita a flexão: ao passar por
+capilares de 3 µm de diâmetro -- mais estreitos que ela
+própria, que mede 7,5 µm de borda a borda -- a hemácia se Disco bicôncavo em corte
+dobra como uma panqueca enrolada, e a depressão central
+serve de eixo para essa flexão. Esfera não flexiona; disco
+bicôncavo flexiona.
+
+Por que tanta especialização? Porque a função da hemácia é uma só: transportar oxigênio dos pulmões
+para os tecidos, e gás carbônico no caminho inverso. Toda estrutura dela se subordina a essa função.
+Sem núcleo, ela não sintetiza proteínas novas -- mas também não gasta espaço com cromatina, e
+a hemoglobina ocupa praticamente todo o volume disponível. Sem mitocôndrias, ela não consome o
+oxigênio que carrega -- uma hemácia que respirasse aerobicamente seria o pior tipo de carregador,
+porque consumiria parte da carga no caminho. Sem aparato sintético, ela vive de glicose por glicólise
+anaeróbica pura, gerando ATP12 o suficiente para manter as bombas de íons e o citoesqueleto.
+
+12ATP ­ adenosina trifosfato -- moeda energética da célula
+                                                                             10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Conteúdo de uma hemácia madura: membrana plasmática, citoesqueleto subjacente, hemoglobina e enzimas gli
+colíticas. Sem núcleo, sem organelas. A célula é praticamente um saco de hemoglobina otimizado para troca gasosa.
+
+    Por que mamíferos perderam o núcleo das hemácias
+
+    Aves, répteis e anfíbios mantêm núcleo nas hemácias. Mamíferos perderam -- e isso não é
+    coincidência. Sem núcleo, a hemácia: (a) ocupa menos espaço interno com cromatina, deixa mais
+    lugar para hemoglobina; (b) torna-se mais flexível, atravessa capilares mais estreitos sem entupir;
+    (c) tem expectativa de vida limitada, porque não consegue se reparar -- o que paradoxalmente
+    serve como controle de qualidade, removendo células antigas e danificadas em ciclo previsível. O
+    preço é não poder se dividir nem renovar proteínas: a hemácia é uma célula terminal no sentido
+    mais radical.
+
+   Resumindo até aqui: Hemácia é célula terminal sem núcleo, sem organelas, com forma de disco
+   bicôncavo. A forma maximiza área de troca gasosa e permite passar por capilares estreitos. O conteúdo
+   é praticamente só hemoglobina + glicólise. Tudo na célula serve à função única de carregar O2 e CO2 sem
+   consumi-los no caminho.
+
+2.2 -- Hemoglobina e o ciclo de 120 dias
+Toda essa engenharia existe para abrigar uma proteína: a hemoglobina. Cada hemácia tem em torno
+de 270 milhões de moléculas de hemoglobina, e cada hemoglobina é um tetrâmero -- quatro cadeias
+polipeptídicas (duas alfa e duas beta no adulto) com um grupo heme enfiado em cada uma. O heme é
+um anel de porfirina com um átomo de ferro (Fe²) no centro, e é esse ferro que liga o oxigênio. Cada
+hemoglobina, portanto, carrega até quatro O -- um por cadeia.
+O oxigênio se liga ao ferro de forma reversível, sem oxidá-lo (o Fe² se mantém Fe², não vira Fe³).
+Quando carregada, a hemoglobina chama-se oxi-hemoglobina; quando carrega gás carbônico -- preso
+a aminoácidos das cadeias, não ao ferro -- chama-se carbamino-hemoglobina. A oxi-hemoglobina é
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+vermelha viva; a desoxi é vermelha-escura. É por isso que sangue arterial parece vermelho-vivo (rico
+em oxi-Hb) e sangue venoso parece quase roxo (mais desoxi e mais carbamino-Hb).
+
+Hemoglobina: tetrâmero com duas cadeias  e duas , cada uma abraçando um heme. Cada heme tem um Fe² central
+que liga um O. Quatro hemes por hemoglobina, quatro O por hemoglobina carregada.
+
+A vida da hemácia é cronometrada. Ela nasce na medula óssea a partir de uma célula-tronco
+hematopoiética, passa pela linhagem eritroide (proeritroblasto  eritroblasto basófilo  eritroblasto
+policromático  eritroblasto ortocromático  reticulócito) e só então expulsa o núcleo e cai na circu
+lação como hemácia madura. Esse processo -- chamado eritropoese -- leva cerca de uma semana e é
+estimulado pela eritropoetina13, hormônio produzido pelos rins quando detectam queda de oxigenação.
+Uma vez na circulação, a hemácia tem vida de aproximadamente 120 dias. Por que esse número especí
+fico? Porque ela não consegue se reparar -- sem núcleo, sem ribossomos, qualquer proteína danificada
+não é substituída. Com o tempo, as proteínas do citoesqueleto vão se desnaturando, a membrana fica
+menos flexível, e enzimas como a lactato desidrogenase14 vão se degradando. Em algum ponto, a célula
+fica rígida o suficiente para ficar presa nos sinusoides do baço, e os macrófagos esplênicos a fagocitam. O
+ferro do heme é reciclado (vai para o fígado e volta a ser usado em hemoglobina nova); o anel porfirínico
+vira bilirrubina, excretada pelo fígado na bile; as cadeias proteicas são quebradas em aminoácidos
+reutilizáveis.
+
+   13eritropoetina ­ hormônio produzido pelos rins em resposta a hipóxia; alvo terapêutico em anemias renais e, infeliz
+mente, em doping atlético
+
+   14lactato desidrogenase ­ enzima da glicólise; sua perda gradual marca o envelhecimento da hemácia
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Ciclo de vida: medula óssea produz hemácias jovens (sequência de eritroblastos perdendo núcleo); circulam por 120
+dias; ficam presas nos sinusoides do baço; macrófagos digerem. O ferro volta para nova síntese, a porfirina vira
+bilirrubina, as proteínas viram aminoácidos.
+
+    Anemia: três mecanismos, um achado
+    Anemia é o achado clínico de redução da capacidade de transporte de oxigênio do sangue -- pode
+    ser por menos hemácias, hemácias menos funcionais (com pouca hemoglobina), ou ambos. Os
+    três mecanismos básicos: (1) perda -- hemorragia aguda ou crônica; (2) produção insuficiente
+    -- medula óssea com problema, deficiência de ferro, vitamina B12 ou ácido fólico, deficiência
+    de eritropoetina (insuficiência renal); (3) destruição acelerada -- hemólise, seja por defeito da
+    própria hemácia (esferocitose, falciforme), seja por agressão externa (autoanticorpos, parasitas
+    como malária). Os sintomas (fadiga, palidez, dispneia ao esforço) são todos consequência do
+    mesmo problema mecanístico: oxigenação tecidual insuficiente.
+
+    HbA1c e diabetes
+    Hemoglobina exposta cronicamente a glicose alta sofre glicação não-enzimática -- açúcares se
+    ligam quimicamente a aminoácidos da proteína, e essa reação é irreversível. A fração de hemo
+    globina glicada (chamada HbA1c ou hemoglobina glicada) reflete a média de glicemia dos últimos
+    2­3 meses (porque a hemácia vive 120 dias). Por isso o exame de HbA1c é o melhor marcador de
+    controle do diabetes a médio prazo -- uma glicemia pontual mostra o momento, a HbA1c mostra
+    a tendência. Valor acima de 6,5% diagnostica diabetes; entre 5,7 e 6,4% é pré-diabetes.
+
+2.3 -- Membrana, flexibilidade e grupos sanguíneos
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Se você lembra da PARTE II, a hemácia precisa passar por capilares mais estreitos do que ela. Isso só
+funciona porque a membrana plasmática dela é sustentada por uma malha de proteínas do citoesqueleto
+especialmente projetada para deformar sob carga e voltar à forma original. Conhecer essa malha vale
+a pena porque os defeitos genéticos dela produzem doenças clássicas.
+
+Citoesqueleto da membrana eritrocitária. Espectrina é o "elástico" central (duas cadeias  e  entrelaçadas) formando
+uma rede hexagonal sob a membrana. Anquirina, banda 3, banda 4.1, banda 4.2, banda 4.9, glicoforina C e actina
+conectam essa rede à membrana. Quando uma dessas proteínas falha geneticamente, a malha desorganiza e a
+hemácia perde a forma bicôncava.
+
+A espinha dorsal da malha é a espectrina, um par de cadeias  e  entrelaçadas como um cabo. Vários
+cabos de espectrina se conectam em nós (junções de actina, banda 4.1 e banda 4.9) formando uma rede
+hexagonal logo abaixo da membrana. Essa rede é ancorada à membrana por anquirina e banda 3 (canal
+de troca de ânions); glicoforina C faz outra ancoragem ao lado. Quando a hemácia se dobra para passar
+pelo capilar, a rede de espectrina se deforma elasticamente e volta. Quando ela relaxa, a rede puxa a
+membrana de volta para a forma bicôncava.
+Esferocitose hereditária e eliptocitose hereditária são doenças autossômicas em que uma dessas
+proteínas -- espectrina, anquirina, banda 3, banda 4.1 -- está defeituosa. Sem a rede funcionando, a
+hemácia perde a forma bicôncava: vira esfera (esferocitose) ou elipse (eliptocitose). E aí dois problemas
+aparecem em cadeia: a hemácia perde flexibilidade (não passa pelo baço sem se romper) e perde área de
+troca gasosa. O resultado clínico é anemia hemolítica crônica, com esplenomegalia15 e icterícia leve por
+excesso de bilirrubina circulante.
+
+   15esplenomegalia ­ aumento do baço; consequência de o baço ficar sequestrando hemácias defeituosas
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: A flexibilidade da hemácia depende de uma malha de espectrina ancorada à
+membrana por anquirina, banda 3 e outras proteínas. Defeitos genéticos nessa malha (esferocitose, elip
+tocitose) eliminam a forma bicôncava, reduzem a flexibilidade e provocam anemia hemolítica crônica
+com sequestro esplênico.
+
+Na superfície externa da membrana, glicoproteínas e glicolipídios carregam cadeias de açúcares que
+funcionam como assinatura imunológica -- são os grupos sanguíneos. O sistema ABO se define por
+três açúcares possíveis na ponta dessa cadeia: hemácia tipo A tem N-acetil-galactosamina, tipo B tem
+galactose, tipo AB tem ambas, tipo O não tem nem uma nem outra (só a estrutura básica de fucose).
+Anticorpos naturais anti-A e anti-B circulam no plasma de quem não tem aquele antígeno (o tipo O tem
+ambos, anti-A e anti-B; o tipo AB não tem nenhum dos dois). Em transfusão, hemácias com um antígeno
+desconhecido entram no organismo de um receptor com anticorpo correspondente -- os anticorpos se
+ligam, ativam complemento, e há hemólise maciça intravascular: febre, calafrios, dor lombar, hemoglo
+binúria, e em casos graves, choque e morte.
+
+O sistema Rh é o segundo mais importante. A proteína RhD16 está presente nas hemácias Rh-positivas
+e ausente nas Rh-negativas. Diferente do ABO, anti-RhD não aparece naturalmente -- precisa de
+sensibilização prévia (transfusão errada, gestação anterior com feto Rh-positivo). Daí a importância de
+monitorar gestantes Rh-negativas com fetos Rh-positivos: o anti-RhD materno (produzido na primeira
+gestação) atravessa a placenta na segunda e ataca as hemácias fetais -- quadro conhecido como eritrob
+lastose fetal17, hoje prevenida por injeção de imunoglobulina anti-D logo após o primeiro parto.
+
+Sistema ABO. Os quatro tipos diferem pelos açúcares que ornamentam a cadeia básica da membrana. O tipo O tem a
+estrutura mínima; A acrescenta N-acetil-galactosamina; B acrescenta galactose; AB tem ambas. Como os anticorpos
+naturais respeitam essa lógica, o tipo O é o "doador universal" de hemácias (sem antígeno para atacar) e o tipo AB
+é o "receptor universal" (sem anticorpo para atacar).
+
+   16RhD ­ antígeno proteico de membrana; sua presença ou ausência define Rh-positivo ou Rh-negativo, com importância
+máxima em gestação e transfusão
+
+   17eritroblastose fetal ­ doença hemolítica do recém-nascido por incompatibilidade Rh; prevenível com imunoglob
+ulina anti-D pós-parto
+
+                                                                                15
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+A PARTE II te entrega a hemácia inteira: anucleada para liberar espaço para hemoglobina, bicôn
+cava para maximizar troca e flexão, sustentada por uma rede de espectrina que define a forma e a
+flexibilidade, ancorada por anquirina, banda 3 e companhia. Vive 120 dias porque não consegue se
+reparar; quando envelhece, o baço a destrói e o ferro é reciclado. Na superfície carrega antígenos
+ABO e Rh que definem compatibilidade transfusional. Cada estrutura -- desde a ausência de
+núcleo até o açúcar terminal no glicoforina -- serve à função única de transportar gás. Agora
+vamos para a outra metade dos elementos figurados: leucócitos e plaquetas, que existem para
+defender e remendar.
+
+       16
+NEBLI                                ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Leucócitos e plaquetas
+
+3.1 -- Granulócitos: neutrófilos, eosinófilos, basófilos
+A virada conceitual aqui é importante. Hemácia faz transporte; ela vive dentro do vaso, sempre.
+Leucócito faz defesa; o vaso, para ele, é só a estrada -- o destino é o tecido. Toda a arquitetura do leucócito
+vai estar a serviço de sair da circulação, encontrar o agressor no tecido conjuntivo, e neutralizá-lo. A
+consequência morfológica disso é que leucócitos são bem mais heterogêneos que hemácias: cada tipo
+resolve um problema de defesa diferente, então cada um tem uma forma diferente.
+
+Antes de cada tipo, fixe a divisão. Em uma distensão sanguínea corada por Romanovsky18, dá para
+classificar leucócitos pelo conteúdo do citoplasma. Os que têm grânulos específicos visíveis e núcleo
+lobulado são os granulócitos: neutrófilo, eosinófilo, basófilo. Os que não têm grânulos específicos e têm
+núcleo regular são os agranulócitos: linfócito e monócito.
+
+  Os cinco tipos de leucócito em distensão sanguínea corada por Romanovsky. Granulócitos em cima: neutrófilo
+  (grânulos róseos, núcleo polilobulado), eosinófilo (grânulos vermelho-alaranjados grandes, núcleo bilobado),
+  basófilo (grânulos escuros densos que escondem o núcleo). Agranulócitos embaixo: monócito (núcleo reniforme,
+  citoplasma cinza-azulado abundante) e linfócito (núcleo grande arredondado, citoplasma escasso).
+
+Neutrófilos. São os leucócitos mais numerosos -- entre 48 e 66% do total de leucócitos circulantes -- e
+os granulócitos mais comuns. O núcleo deles é polimorfo: 2 a 5 lobos conectados por filamentos finos de
+cromatina. Daí o nome alternativo polimorfonuclear19 ou PMN. Uma forma jovem, chamada bastonete
+
+   18Romanovsky ­ corante composto por eosina (ácida, cor rosa), azul-de-metileno (básica, azul) e azures (básicos,
+púrpura); base das misturas de Leishman, Wright e Giemsa usadas em hematologia
+
+   19polimorfonuclear ­ PMN -- qualquer granulócito com núcleo dividido em lobos; na prática, neutrófilo é o PMN por
+excelência
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ou bastão, tem o núcleo ainda em forma de C ou U, sem segmentação completa -- quando aparece em
+grande quantidade no sangue, indica que a medula está despejando neutrófilos jovens em resposta a
+uma infecção bacteriana aguda (o famoso "desvio à esquerda" no hemograma).
+
+O citoplasma do neutrófilo tem três tipos de grânulos,
+cada um com um arsenal diferente. Grânulos específicos
+(secundários), menores e mais numerosos, contêm enzi
+mas como colagenase e fosfolipase, ativadores do comple
+mento e peptídeos antimicrobianos. Grânulos azurófilos
+(primários), maiores e menos numerosos, são lisossomos
+com mieloperoxidase, defensinas e proteases -- o aparato
+de digestão do material fagocitado. Grânulos terciários têm
+fosfatases e metaloproteinases que ajudam a romper a ma Três tipos de grânulo
+triz extracelular durante a migração. Junto a tudo isso, o
+complexo da NADPH oxidase na membrana gera espécies
+reativas de oxigênio (O, HO) na chamada "explosão respi
+ratória" que mata bactérias engolfadas.
+
+A vida do neutrófilo é uma coreografia em três atos. Ato 1: quimiotaxia. Bactérias no tecido liberam
+peptídeos formilados; macrófagos teciduais liberam citocinas como IL-820 e TNF21 o endotélio do capilar
+próximo, ativado por esses sinais, começa a expor moléculas de adesão. O neutrófilo circulante "fareja"
+gradiente de quimiocinas e segue a maior concentração. Ato 2: diapedese. O neutrófilo desacelera no
+capilar (rolling, mediado por selectinas), depois adere firmemente (mediado por integrinas ligando a
+moléculas da superfamília das imunoglobulinas no endotélio), e por fim se espreme entre as células
+endoteliais para sair do vaso e entrar no tecido conjuntivo. Ato 3: fagocitose. No tecido, o neutrófilo
+reconhece a bactéria via receptores de superfície (toll-like, scavenger, receptores de complemento C3b e
+de Fc de anticorpos), envolve o agente patogênico com pseudópodes, forma um fagossomo, funde com
+lisossomos, libera o conteúdo dos grânulos e a explosão respiratória, e digere o invasor. Depois disso, o
+neutrófilo morre -- vida útil no tecido é de horas. Pus é literalmente acumulado de neutrófilos mortos.
+
+   20IL-8 ­ interleucina 8 -- quimiocina secretada por macrófagos e células endoteliais na inflamação; principal sinal
+recrutador de neutrófilos
+
+   21TNF ­ fator de necrose tumoral -- citocina pró-inflamatória que ativa endotélio e leucócitos
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Coreografia da diapedese. Em sequência: selectina pega selectin-receptor (rolling lento), o endotélio mostra
+quimiocina, integrina do leucócito se ativa, integrina prende em molécula da família das imunoglobulinas no
+endotélio, e o leucócito atravessa por entre células endoteliais. Mastócitos próximos liberam heparina e histamina
+amplificando o quadro. Tudo dirigido por gradiente de moléculas atraentes (chemoattractants).
+Eosinófilos. Representam apenas 1 a 5% dos leucócitos circulantes. O núcleo é bilobado (em forma
+de fone de telefone antigo), e o citoplasma é cheio de grânulos grandes que se coram intensamente
+de rosa-alaranjado pela eosina -- daí o nome. Dentro desses grânulos há proteína básica principal
+(MBP), peroxidase do eosinófilo, proteína catiônica do eosinófilo -- um arsenal especialmente eficaz
+contra parasitas grandes demais para fagocitose, como helmintos. O mecanismo de ataque é diferente:
+o eosinófilo se cola ao parasita revestido por IgE22 ou IgG23, libera o conteúdo dos grânulos sobre a
+superfície do parasita, e a MBP rompe a membrana do helminto. Eosinófilos também modulam reações
+alérgicas -- quando estão aumentados no sangue (eosinofilia), pense em parasitose ou alergia.
+
+   22IgE ­ imunoglobulina E -- anticorpo associado a reações alérgicas e a defesa contra parasitas helmínticos
+   23IgG ­ imunoglobulina G -- anticorpo mais abundante; principal mediador da imunidade humoral
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Eosinófilo em distensão (esquerda) e em microscopia eletrônica (direita). Os grânulos específicos têm um cristaloide
+central de proteína básica principal -- a "lança" que rompe a membrana de parasitas. Núcleo bilobado.
+
+Basófilos. Os mais raros -- menos de 1% dos leucócitos, e às vezes nem aparecem em uma distensão
+padrão. O núcleo é bilobado, mas fica escondido por grânulos cheios e escuros que se coram intensa
+mente pelos corantes básicos -- daí o nome. O conteúdo dos grânulos é histamina e heparina, exata
+mente as mesmas substâncias dos mastócitos24 teciduais. Basófilo e mastócito são primos funcionais --
+quando ativados por IgE ligada a alérgeno (poeira, pólen, ácaro, veneno de inseto), ambos degranulam,
+jogam histamina no tecido, causam vasodilatação local, aumento de permeabilidade vascular, bronco
+constrição e o quadro clínico de alergia. Em casos graves, a degranulação sistêmica causa anafilaxia25.
+
+    Inflamação aguda vs crônica em uma célula
+
+    Um neutrófilo no infiltrado inflamatório indica processo agudo (horas a dias); um linfócito
+    predominando indica processo crônico (semanas, meses, anos). Daí a dica clínica do hemograma:
+    leucocitose com neutrofilia aponta para infecção bacteriana aguda; leucocitose com linfocitose
+    aponta para infecção viral, parasitose ou processo crônico; eosinofilia aponta para parasita
+    ou alergia; basofilia (rara) aparece em leucemia mieloide crônica e algumas reações alérgicas
+    sistêmicas.
+
+3.2 -- Agranulócitos: linfócitos e monócitos
+Linfócitos. Representam 25 a 27% dos leucócitos circulantes -- o segundo grupo mais numeroso depois
+dos neutrófilos. Em distensão sanguínea, um linfócito típico parece quase só núcleo: uma esfera grande
+
+   24mastócitos ­ células do tecido conjuntivo com função muito semelhante à do basófilo, mas diferenciadas localmente,
+não no sangue; principais responsáveis pelo "tijolo" alérgico no tecido
+
+   25anafilaxia ­ reação alérgica sistêmica grave; cursa com hipotensão, broncoespasmo, urticária e risco de morte por
+choque distributivo
+
+                                                                                20
+NEBLI                 ETAPA 1 -- TEXTO DIDÁTICO
+
+de cromatina densa ocupando 90% do volume celular, com uma fina borda de citoplasma azulado em
+volta. Aproxima-se em tamanho de uma hemácia, o que ajuda a identificar.
+
+Funcionalmente, há três tipos. Linfócitos B (10­15% dos linfócitos) reconhecem antígenos diretamente
+pelos receptores de superfície que são, na verdade, imunoglobulinas ancoradas; quando ativados, se
+diferenciam em plasmócitos26 e produzem anticorpos solúveis em grande escala. Linfócitos T (cerca
+de 70­80% dos linfócitos) se subdividem em dois grandes grupos: os T-CD4 helper (50­60% dos
+linfócitos T), que coordenam a resposta imune ativando outros leucócitos via citocinas -- quando o
+HIV27 destrói os T-CD4 progressivamente, o sistema imune inteiro desorganiza, e é assim que a AIDS
+se instala; e os T-CD8 citotóxicos (20­25%), que matam diretamente células infectadas por vírus ou
+células tumorais por reconhecimento via MHC28. Células NK (natural killers, 10% dos linfócitos) matam
+células sem necessidade de reconhecimento por MHC -- uma defesa de primeira linha contra células
+infectadas ou tumorais.
+
+Linfócito em repouso  Por que o linfócito é quase só núcleo? Porque, diferente do
+                      neutrófilo (que vive horas e morre na função), o linfócito
+                      é uma célula de memória. Ele precisa estar pronto para se
+                      ativar, proliferar e diferenciar em resposta a um antígeno
+                      que pode aparecer hoje, daqui a um mês ou daqui a 50 anos.
+                      Cromatina condensada, citoplasma mínimo, baixa atividade
+                      metabólica -- é um estado de "espera" eficiente. Quando
+                      o linfócito é ativado, o núcleo descondensa, o citoplasma
+                      cresce, organelas aparecem, e a célula vira efetora (plasmóc
+                      ito, T-helper ativo, T-citotóxico ativo).
+
+A vida útil dos linfócitos é altamente variável -- dias para os efetores, anos a décadas para os de
+memória. É por isso que vacinas funcionam: o primeiro contato com um antígeno (na vacina) gera
+linfócitos B e T de memória; anos depois, num segundo contato com o agente real, esses linfócitos
+reconhecem e respondem rapidamente, antes que a infecção se estabeleça.
+
+Monócitos. Representam cerca de 8% dos leucócitos. São os maiores leucócitos em distensão sanguínea
+-- o que ajuda a identificar à primeira olhada. O núcleo tem forma de rim, ferradura ou U, geralmente
+excêntrico; o citoplasma é abundante, azul-acinzentado, com grânulos azurófilos finos (lisossomos).
+Mas o detalhe que muda tudo é que monócito não é uma célula terminal. Ele circula no sangue por
+apenas 20­24 horas, depois sai para o tecido conjuntivo e se diferencia em macrófago.
+
+   26plasmócitos ­ célula efetora derivada do linfócito B; especializada em produção massiva de anticorpos solúveis; vive
+no tecido linfoide, retículo endoplasmático muito desenvolvido
+
+   27HIV ­ vírus da imunodeficiência humana -- destrói progressivamente os linfócitos T-CD4, levando à AIDS
+   28MHC ­ complexo principal de histocompatibilidade -- moléculas de superfície que apresentam pedaços de proteínas
+intracelulares ao linfócito T
+
+                                                                                21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Monócito em distensão. Núcleo reniforme excêntrico, cromatina frouxa, citoplasma abundante azul-acinzentado.
+Em microscopia eletrônica (embaixo, à direita), retículo endoplasmático visível, mitocôndrias presentes -- diferente
+da hemácia ou do linfócito em repouso, o monócito já tem o aparato sintético pronto para virar macrófago.
+
+E o macrófago tecidual cumpre dois papéis essenciais. Primeiro, é fagócito mais eficiente que o neutró
+filo: vive semanas a meses no tecido, fagocita bactérias, células mortas, debris, hemácias velhas (no
+baço), partículas inaladas (no pulmão, virando macrófago alveolar). Macrófagos têm nomes diferentes
+conforme o tecido -- células de Kupffer no fígado, micróglia no sistema nervoso central, osteoclastos
+no osso (esses derivam da mesma linhagem). Segundo, o macrófago é célula apresentadora de antígeno
+(APC): depois de fagocitar e digerir um agente, expõe pedaços dele em MHC-II na superfície, e apresenta
+esses pedaços aos linfócitos T-helper. Sem essa apresentação, a resposta adaptativa (a dos linfócitos) não
+dispara. Macrófago é, então, a ponte entre imunidade inata (que ele executa diretamente, fagocitando)
+e imunidade adaptativa (que ele inicia, apresentando antígeno).
+
+   Resumindo até aqui: Linfócitos são as células da imunidade adaptativa -- reconhecimento específico,
+   memória de longo prazo. B produz anticorpos (vira plasmócito), T-CD4 coordena, T-CD8 mata célula
+   infectada, NK mata sem precisar de MHC. Monócitos são a "linha de frente" da imunidade inata tecidual
+   -- saem do vaso em 24h, viram macrófagos, fagocitam, apresentam antígeno aos linfócitos. A ponte entre
+   inato e adaptativo está no macrófago.
+
+    Cuidado com 'célula terminal'
+
+    Granulócitos (neutrófilo, eosinófilo, basófilo) e linfócitos B/T são chamados células terminais --
+    uma vez no sangue, não se dividem mais nem se transformam em outra célula. Já o monócito
+    não é terminal: ele é precursor do macrófago tecidual. A tabela do Junqueira deixa isso explícito:
+    "monócito (não é célula terminal)". Cair nessa pegadinha em prova é desnecessário se você
+    entende o porquê -- o monócito é um pacote em trânsito que abre quando chega no tecido.
+
+                                                                                22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+3.3 -- Plaquetas, coagulação e medula óssea
+A última população dos elementos figurados é a das plaquetas -- também chamadas trombócitos.
+Estrutural e conceitualmente, plaquetas quebram a regra de tudo o que você viu até aqui: elas não são
+células inteiras. São fragmentos do citoplasma de uma célula gigante da medula óssea, o megacariócito.
+Quando o megacariócito amadurece (com núcleo poliploide, frequentemente com 32n ou 64n de DNA),
+pseudópodes de sua membrana se prolongam para dentro dos sinusoides venosos da medula e se
+fragmentam ao serem arrastados pelo fluxo -- cada megacariócito libera milhares de plaquetas. As
+plaquetas circulam então no sangue por 10 a 12 dias e são removidas pelo baço quando envelhecem.
+
+ Megacariócito na medula óssea (núcleo lobulado, citoplasma vastíssimo) liberando fragmentos plaquetários para
+ o sinusoide venoso. Cada megacariócito gera milhares de plaquetas. Embaixo, plaquetas circulantes ao lado de
+ hemácias para escala.
+Em distensão sanguínea, plaqueta aparece como ponto pequeno púrpura -- 2 a 4 µm, bem menor
+que qualquer célula sanguínea. Ainda assim, dentro dela há estrutura: a região central, mais escura,
+chamada granulômero, concentra os grânulos (alfa, densos e lisossomos); a região periférica, mais
+clara, chamada hialômero, contém microtúbulos e microfilamentos que regulam a forma. Plaqueta em
+repouso é discoide; ativada, emite pseudópodes longos, fica estrelada, e gruda em outras plaquetas e na
+parede vascular.
+
+                                                                                23
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+O conteúdo dos grânulos é o que importa para a função.
+
+Grânulos alfa têm fibrinogênio, fator de von Willebrand,
+
+fator de crescimento derivado de plaqueta (PDGF, que
+
+estimula reparo tecidual), trombospondina. Grânulos
+
+densos (também chamados delta) têm serotonina (que
+
+provoca vasoconstrição local), ADP (que recruta mais
+
+plaquetas, amplificando a agregação) e cálcio. Ao serem
+
+ativadas, as plaquetas degranulam todo esse conteúdo
+
+-- vasoconstrição, agregação, coagulação e início do
+
+reparo acontecem em segundos.                             Estrutura da plaqueta
+
+O papel das plaquetas na hemostasia (o controle do sangramento) acontece em três fases. Fase vascular:
+o vaso lesado contrai espasticamente, reduzindo o fluxo. Fase plaquetária (hemostasia primária): pla
+quetas detectam colágeno exposto na parede vascular (via fator de von Willebrand), aderem ao colágeno,
+ativam-se, degranulam ADP e serotonina, e recrutam mais plaquetas -- forma-se o tampão plaque
+tário, uma agregação primária que tampa o orifício mecanicamente. Fase de coagulação (hemostasia
+secundária): a cascata de coagulação que você já viu na PARTE I dispara, gera trombina, trombina corta
+fibrinogênio em fibrina, e a fibrina forma uma rede que envolve e estabiliza o tampão plaquetário. Esse
+tampão estabilizado é o coágulo. Quando o tecido subjacente se repara, a plasmina dissolve a fibrina e
+o coágulo desaparece.
+
+Coagulação em ação. À esquerda, vista de microscopia: o agregado plaquetário no local da lesão, com hemácias
+presas na rede de fibrina. À direita, vista esquemática: plaquetas ativadas estreladas, conectadas por fibrina, tampam
+o defeito vascular. Sem plaquetas, sangramento; sem fibrina, o tampão se desfaz.
+
+                                                                                24
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+    Trombocitopenia e trombocitose
+
+    Contagem normal de plaquetas: 150 a 450 mil por mm³ (150­450 × 10/L). Abaixo de 150 mil é
+    trombocitopenia -- sangramentos espontâneos, petéquias na pele, sangramento de mucosas.
+    Pode ser por destruição autoimune (PTI), consumo (CIVD), produção insuficiente (leucemia,
+    quimioterapia) ou sequestro esplênico. Acima de 450 mil é trombocitose -- risco aumentado de
+    trombose; vem em doenças mieloproliferativas ou reativa a infecção, inflamação crônica ou ferro
+    baixo.
+
+Para fechar o circuito, vale falar do berço onde tudo isso é produzido -- a medula óssea. Em um adulto,
+a medula óssea ativa (chamada medula vermelha) ocupa principalmente os ossos chatos (esterno,
+costelas, ossos do crânio, ossos da pelve) e as epífises proximais do fêmur e do úmero. Nas crianças, todos
+os ossos longos contêm medula vermelha; com a idade, a maior parte é substituída por medula amarela
+rica em adipócitos, conservando função hematopoética apenas nas regiões citadas. Em situações de
+demanda extrema (anemia crônica grave, mielofibrose), a medula amarela pode reverter para vermelha
+-- uma reserva fisiológica importante.
+
+Medula óssea ativa em corte. Vermelha porque está produzindo hemácias (em sequência de maturação visível
+em volta dos sinusoides venosos), neutrófilos, eosinófilos, basófilos, monócitos, linfócitos B (linfócitos T saem para
+amadurecer no timo) e plaquetas (a partir do megacariócito gigante visível). Adipócitos compõem a medula amarela
+inerte; ela ocupa boa parte dos espaços conforme o organismo envelhece.
+
+                                                                                25
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Leucocitose e leucopenia: dois marcadores rápidos
+
+Contagem normal de leucócitos no adulto: 6.000 a 10.000 por mm³ (3,5 a 10,5 × 10/L). Leucocitose
+-- número aumentado -- geralmente significa infecção, inflamação ou neoplasia hematológica.
+Leucopenia -- número diminuído -- pode indicar viroses (que consomem ou destroem leucóc
+itos), aplasia medular, quimioterapia, leucemias aleucêmicas, ou hiperesplenismo. O hemograma
+diferencial (que dá não só o total mas a porcentagem de cada tipo) refina o diagnóstico: neutrofilia
+aponta para bactéria, linfocitose para vírus ou parasitose, eosinofilia para alergia ou helminto.
+
+Conclusão integradora
+
+Você acabou de percorrer o sangue inteiro como tecido conjuntivo líquido. Plasma é a matriz;
+hemácias, leucócitos e plaquetas são os elementos figurados; o conjunto é mantido em circulação
+fechada pelo coração e renovado continuamente pela medula óssea. Cada elemento figurado ex
+iste porque uma demanda fisiológica precisa de uma solução específica: hemácia para transporte
+gasoso (e por isso é anucleada, bicôncava e cheia de hemoglobina), neutrófilo para fagocitose
+bacteriana rápida (por isso é polilobado, móvel e cheio de grânulos), eosinófilo para parasita
+(grânulos com MBP), basófilo para alergia (histamina + heparina, IgE), linfócito para imunidade
+específica e memória (citoplasma escasso, vida longa), monócito para virar macrófago no tecido
+(precursor, não terminal), plaqueta para hemostasia primária (fragmento de megacariócito,
+pronto para degranular). Quando você fechar essa lógica de função  forma para cada célula, a
+tabela de elementos figurados cola sem decoreba, e qualquer questão clínica fica acessível pelo
+mecanismo.
+
+       26
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Sangue como tecido conjuntivo                             Hemoglobina
+
+Tecido conjuntivo líquido em que a matriz                 Tetrâmero (2 + 2 no adulto) com 4 hemes, cada
+extracelular (plasma) carrega os elementos                um com Fe² que liga 1 O reversivelmente. Oxi-Hb
+figurados (hemácias, leucócitos, plaquetas). Cerca        vermelho-vivo (arterial), desoxi-Hb e carbamino-
+de 7­8% do peso corporal, circulação fechada              Hb vermelho-escuro (venoso). HbA1c glicada reflete
+movida pelo coração, 5 L no adulto.                       glicemia média de 2­3 meses (diabetes).
+
+Composição centrifugada                                   Membrana e grupos sanguíneos
+Sangue centrifugado: hemácias embaixo                     Citoesqueleto de espectrina ancorado por anquirina
+(hematócrito 39­50% em homens, 35­45% em                  e banda 3 mantém forma e flexibilidade --
+mulheres), buffy coat fino no meio (leucócitos e          defeitos genéticos dão esferocitose ou eliptocitose.
+plaquetas, 1%), plasma amarelado em cima ( 50%            Antígenos ABO (açúcares terminais) e Rh (proteína
+do volume).                                               RhD) na superfície definem compatibilidade
+                                                          transfusional.
+Plasma vs soro
+Plasma é o líquido obtido com anticoagulante              Neutrófilo
+(mantém fibrinogênio). Soro é o líquido que sobra         48­66% dos leucócitos; núcleo polilobulado (2­
+após deixar o sangue coagular (perdeu fibrinogênio        5 lobos, bastonete quando jovem). Três tipos
+para o coágulo). Diferença bioquímica única, mas          de grânulos com enzimas, antimicrobianos
+decide qual tubo o laboratório pede.                      e lisossomos. Quimiotaxia  diapedese 
+                                                          fagocitose; vive horas no tecido. Aumentado em
+Proteínas do plasma                                       infecção bacteriana aguda.
+Albuminas (60%) seguram água no vaso por
+pressão oncótica. Globulinas // incluem                   Eosinófilo e basófilo
+anticorpos e transportadores. Lipoproteínas               Eosinófilo (1­5%): bilobado, grânulos com MBP e
+carregam colesterol e triglicerídeos. Fibrinogênio e      peroxidase, mata helminto e modula alergia (IgE/
+protrombina fazem coagulação.                             IgG). Basófilo (<1%): grânulos com histamina e
+                                                          heparina, ativado por IgE, faz reação alérgica e
+Hemácia: forma a serviço da função                        anafilaxia -- primo do mastócito tecidual.
+Anucleada, sem organelas, disco bicôncavo ( 7,5
+µm), só hemoglobina e enzimas glicolíticas. Forma         Linfócito
+maximiza área ( 140 µm²) e flexibilidade -- passa         25­27%; quase só núcleo, citoplasma escasso.
+por capilares de 3 µm. Vive 120 dias; baço destrói;       Linfócitos B viram plasmócitos produtores de
+ferro reciclado, porfirina vira bilirrubina.              anticorpo; T-CD4 helper coordena, T-CD8 citotóxico
+                                                          mata célula infectada via MHC, NK mata sem MHC.
+                                                          Memória dura anos a décadas -- base da vacinação.
+
+                                                      27
+NEBLI                                                   RESUMINDO
+
+Monócito e macrófago
+8% dos leucócitos, maior leucócito circulante,
+núcleo reniforme. Único leucócito não terminal:
+circula 24h, sai para o tecido e vira macrófago
+(Kupffer no fígado, micróglia no SNC, alveolar
+no pulmão). Fagocita e apresenta antígeno aos
+linfócitos T.
+
+Plaqueta e hemostasia
+Fragmento citoplasmático anucleado de
+megacariócito da medula óssea; 150­450 mil/mm³,
+vive 10­12 dias. Hemostasia primária: adere ao
+colágeno via von Willebrand, ativa-se, degranula
+ADP/serotonina, agrega. Hemostasia secundária:
+cascata de coagulação tece fibrina sobre o tampão.
+
+                                                    28
+NEBLI                       RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+O sangue é classificado como tecido conjuntivo porque:
+
+   A) é movido por contrações rítmicas do coração e ocupa um sistema cardiovascular fechado em todo
+   o organismo.
+   B) contém células fagocitárias capazes de migrar para o tecido conjuntivo periférico durante reações
+   inflamatórias.
+   C) apresenta células dispersas em uma matriz extracelular abundante, característica que define todos
+   os tecidos conjuntivos.
+   D) participa do transporte de nutrientes, gases respiratórios e hormônios para todas as células do
+   organismo.
+   E) origina-se de células-tronco hematopoéticas pluripotentes presentes na medula óssea vermelha
+   durante toda a vida.
+
+Questão 02 Consolidação
+Sobre o hematócrito normal de um adulto:
+
+   A) representa a fração do volume sanguíneo total ocupada pelo plasma e não pelas células.
+   B) tem valores normais aproximados de 39 a 50% em homens e 35 a 45% em mulheres.
+   C) é igual em homens e mulheres porque depende apenas do volume corporal total e da hidratação.
+   D) na camada esbranquiçada acima dele (buffy coat) concentram-se 99% das hemácias do indivíduo.
+   E) reflete diretamente a quantidade de leucócitos em circulação, sendo útil no diagnóstico de
+   infecções.
+
+Questão 03 Consolidação
+Qual proteína plasmática é a principal responsável pela manutenção da pressão oncótica do sangue?
+
+   A) Fibrinogênio, sintetizado pelo fígado e ativado pela trombina.
+   B) Gama-globulinas, principais transportadoras de hormônios esteroides no plasma.
+   C) Lipoproteínas, responsáveis pelo transporte de colesterol e triglicerídeos.
+
+                                                                                29
+NEBLI                                                                   ETAPA 2 -- OBJETIVAS (30)
+
+D) Albumina, sintetizada no fígado e responsável por cerca de 60% das proteínas plasmáticas totais.
+
+E) Protrombina, precursora da trombina ativa da cascata de coagulação.
+
+Questão 04 Consolidação
+
+A diferença bioquímica entre plasma e soro é que:
+
+   A) o soro corresponde ao plasma após a remoção do fibrinogênio e dos fatores de coagulação consum
+   idos durante a coagulação.
+   B) o plasma é obtido sem anticoagulante e o soro é obtido com anticoagulante, exatamente o oposto
+   da prática laboratorial.
+   C) o soro contém mais proteínas totais que o plasma porque os fatores de coagulação ativados ficam
+   concentrados nele.
+   D) o plasma contém apenas água e sais, enquanto o soro contém proteínas, hormônios e moléculas
+   orgânicas.
+   E) não há diferença bioquímica significativa entre eles além do tubo de coleta usado pelo laboratório.
+
+Questão 05 Consolidação
+
+Julgue os itens a seguir sobre as características das hemácias humanas:
+Cada item deve ser julgado de forma independente.
+
+   I. Em mamíferos adultos, as hemácias são anucleadas e desprovidas de organelas como mitocôndrias
+   e retículo endoplasmático.
+   II. As hemácias contêm um sistema enzimático completo de fosforilação oxidativa, o que garante alta
+   eficiência energética para o transporte de gases.
+   III. O formato de disco bicôncavo aumenta a área de superfície da membrana plasmática, favorecendo
+   as trocas gasosas.
+   IV. As hemácias circulam por aproximadamente 30 dias antes de serem removidas pelos macrófagos
+   da medula óssea.
+
+Questão 06 Consolidação
+Sobre a hemoglobina presente nas hemácias humanas adultas, é correto afirmar que:
+
+   A) cada molécula possui apenas um grupo heme central capaz de ligar uma única molécula de O,
+   limitando o transporte.
+
+                                                                                30
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+B) o ferro do grupo heme é oxidado de Fe² para Fe³ ao se ligar reversivelmente ao oxigênio molecular
+durante o transporte.
+
+C) o gás carbônico transportado pela hemoglobina liga-se diretamente ao átomo de ferro central do
+heme, competindo com o O.
+
+D) a hemoglobina adulta normal (HbA) é composta por quatro cadeias polipeptídicas iguais, todas do
+tipo alfa, com quatro grupos heme.
+
+E) a hemoglobina é um tetrâmero composto por quatro cadeias globínicas, cada uma com um grupo
+heme contendo Fe² capaz de ligar reversivelmente uma molécula de O.
+
+Questão 07 Consolidação
+
+O formato bicôncavo da hemácia traz duas vantagens principais relacionadas à sua função. Quais são
+elas?
+
+   A) Maior resistência mecânica à cisalhamento e capacidade de divisão por mitose dentro dos capilares
+   estreitos.
+
+   B) Maior estabilidade osmótica em meios diluídos e capacidade de produzir hemoglobina nova
+   quando necessário.
+
+   C) Maior área de superfície para troca gasosa e maior flexibilidade para atravessar capilares estreitos.
+
+   D) Maior aderência ao endotélio vascular durante a inflamação e capacidade de fagocitose de bactérias
+   circulantes.
+
+   E) Maior densidade celular comparada ao plasma e capacidade de armazenar oxigênio dentro de
+   organelas especializadas.
+
+Questão 08 Consolidação
+
+Quanto à diferenciação entre granulócitos e agranulócitos do sangue:
+
+   A) granulócitos têm núcleo arredondado e citoplasma uniforme, enquanto agranulócitos têm núcleo
+   lobulado e grânulos específicos visíveis no citoplasma.
+   B) granulócitos possuem núcleo de forma irregular ou lobulado e grânulos específicos no citoplasma;
+   agranulócitos têm núcleo de forma regular e citoplasma sem granulações específicas proeminentes.
+   C) a divisão entre granulócitos e agranulócitos refere-se à origem embriológica das células e ao tecido
+   linfoide em que amadurecem, não à morfologia citoplasmática.
+   D) linfócitos e monócitos são classificados como granulócitos porque contêm grânulos azurófilos
+   visíveis na coloração de Romanovsky modificada.
+
+       31
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+E) os basófilos são considerados agranulócitos porque seus grânulos específicos são pequenos e
+geralmente não são visíveis ao microscópio óptico de rotina.
+
+Questão 09 Consolidação
+
+O leucócito mais numeroso no sangue periférico de um adulto saudável, responsável principal pela
+fagocitose de bactérias na fase aguda da inflamação, é o:
+
+   A) linfócito, célula da imunidade adaptativa de memória prolongada.
+   B) monócito, precursor circulante dos macrófagos teciduais fagocitários.
+   C) eosinófilo, principal célula contra parasitas helmínticos e alergias.
+   D) neutrófilo, granulócito polimorfonuclear com núcleo de 2 a 5 lobos e três tipos de grânulos cito
+   plasmáticos.
+   E) basófilo, célula primária das reações alérgicas e da anafilaxia sistêmica.
+
+Questão 10 Consolidação
+
+As plaquetas (trombócitos) são:
+
+   A) pequenos fragmentos citoplasmáticos anucleados, originários do citoplasma de megacariócitos da
+   medula óssea, com vida média de 10 a 12 dias.
+
+   B) células pequenas nucleadas, originadas a partir de monócitos, com função principal de produzir
+   fatores de coagulação plasmáticos solúveis.
+
+   C) células anucleadas, derivadas da diferenciação terminal dos eosinófilos, especializadas em modu
+   lar a inflamação aguda no tecido lesionado.
+
+   D) precursores celulares de eritrócitos imaturos que circulam temporariamente no sangue antes de
+   amadurecer e perder o núcleo no tecido.
+
+   E) grânulos extracelulares formados pela degranulação dos mastócitos circulantes na corrente san
+   guínea durante reações alérgicas sistêmicas.
+
+Questão 11 Integração
+
+Um paciente com cirrose hepática avançada apresenta hipoalbuminemia (albumina sérica 1,8 g/dL;
+referência 3,5­5,0 g/dL) e edema periférico importante.
+Considerando o mecanismo que liga as duas observações, qual a melhor explicação?
+
+       32
+NEBLI  ETAPA 2 -- OBJETIVAS (30)
+
+A) a baixa albumina aumenta a viscosidade global do plasma e dificulta o retorno venoso pelas grandes
+veias, provocando represamento periférico e edema.
+
+B) a queda da albumina reduz a pressão oncótica do plasma; com menor força puxando água para
+dentro do vaso, o líquido extravasa para o interstício e produz edema.
+
+C) a hipoalbuminemia leva à perda secundária dos fatores de coagulação plasmáticos pelo rim,
+gerando sangramento intersticial difuso responsável pelo edema clínico.
+
+D) a redução da albumina ativa diretamente os linfócitos B circulantes, que liberam citocinas vasodi
+latadoras causadoras do edema generalizado dos membros inferiores.
+
+E) a baixa albumina aumenta proporcionalmente a concentração de fibrinogênio no plasma, levando
+à formação de microtrombos que obstruem capilares e provocam o edema observado.
+
+Questão 12 Integração
+
+Um técnico de laboratório precisa dosar o fator VIII da coagulação de um paciente com suspeita de
+hemofilia. Para isso, ele deve coletar o sangue em tubo:
+
+   A) sem anticoagulante, esperar a coagulação completa do tubo e separar o soro sobrenadante claro
+   para enviar à dosagem do fator VIII livre, pois o soro conserva integralmente os fatores plasmáticos
+   originais.
+
+   B) seco com gel separador, sem qualquer aditivo, e usar o sobrenadante claro após a centrifugação para
+   a dosagem do fator de coagulação, processo que mantém todas as proteínas hepáticas plasmáticas
+   dissolvidas.
+
+   C) com EDTA em concentração padrão, porque este aditivo preserva integralmente todos os fatores de
+   coagulação plasmáticos durante o armazenamento prolongado da amostra coletada na sala de coleta.
+
+   D) com anticoagulante (geralmente citrato), centrifugar e usar o plasma -- porque apenas no plasma
+   os fatores de coagulação ainda estão presentes; no soro, o fator VIII já foi consumido durante a coagu
+   lação do tubo.
+
+   E) com heparina em alta concentração para inativar imediatamente o fator VIII presente e congelá-lo
+   no estado plasmático original antes da dosagem por ensaio cromogênico específico.
+
+Questão 13 Integração
+
+Uma paciente apresenta anemia hemolítica crônica, esplenomegalia e hemácias com forma esférica em
+vez de bicôncava em sua distensão sanguínea. A causa mais provável do quadro envolve:
+
+   A) defeito hereditário em proteínas do citoesqueleto da membrana eritrocitária, como espectrina ou
+   anquirina, com perda da malha que mantém o disco bicôncavo e da flexibilidade que permitiria a
+   passagem pelos sinusoides esplênicos sem ruptura.
+
+                                                                                33
+NEBLI  ETAPA 2 -- OBJETIVAS (30)
+
+B) deficiência alimentar crônica de ferro, com produção de hemácias menores e arredondadas pela
+síntese insuficiente de hemoglobina necessária para preencher o volume celular habitual da hemácia
+adulta saudável circulante.
+
+C) presença de autoanticorpo dirigido especificamente contra a molécula de hemoglobina dentro
+da célula, que provoca alteração conformacional secundária da proteína citoplasmática e mudança
+previsível na forma celular total.
+
+D) defeito mitocondrial intrínseco das hemácias circulantes, com queda na produção de ATP
+necessária à manutenção do citoesqueleto da membrana e colapso progressivo da forma bicôncava
+habitual em esfera.
+
+E) excesso de eritropoetina renal estimulando hemácias jovens a sair precocemente da medula
+óssea com forma ainda esférica antes da maturação completa do citoesqueleto periférico das células
+liberadas.
+
+Questão 14 Integração
+
+Julgue os itens a seguir sobre as etapas da defesa imune e os leucócitos envolvidos:
+Cada item deve ser julgado de forma independente.
+
+   I. Os neutrófilos, antes da fagocitose no tecido, executam diapedese: rolling mediado por selectinas,
+   adesão firme mediada por integrinas e diapedese propriamente dita entre células endoteliais.
+
+   II. O monócito é um leucócito terminal: uma vez liberado pela medula, ele apenas circula no sangue,
+   e a fagocitose tecidual é executada por neutrófilos.
+
+   III. O eosinófilo é particularmente eficaz contra parasitas helmínticos: liga-se ao parasita revestido
+   por IgE ou IgG e libera o conteúdo de seus grânulos (entre eles a proteína básica principal) sobre a
+   superfície do verme.
+
+   IV. Os basófilos são funcionalmente distintos dos mastócitos teciduais: enquanto basófilos liberam
+   histamina, mastócitos liberam apenas heparina e não participam de reações alérgicas.
+
+Questão 15 Integração
+Um paciente com diabetes mellitus tipo 2 tem glicemia de jejum 142 mg/dL e HbA1c 8,9%.
+Sobre a HbA1c como marcador glicêmico:
+
+   A) reflete a glicemia das últimas 24 horas e é útil para o ajuste fino diário da dose insulínica em
+   pacientes em descompensação aguda.
+   B) mede a quantidade total de hemoglobina circulante no organismo, indicando indiretamente o
+   controle glicêmico crônico do paciente diabético.
+
+                                                                                34
+NEBLI  ETAPA 2 -- OBJETIVAS (30)
+
+C) resulta da glicação não-enzimática irreversível da hemoglobina e reflete a glicemia média dos
+últimos 2­3 meses porque a hemácia tem vida média de aproximadamente 120 dias.
+
+D) é uma forma anormal de hemoglobina produzida no diabetes descompensado por mutação
+adquirida, semelhante à hemoglobina S da anemia falciforme hereditária.
+
+E) mede a quantidade de hemoglobina ligada ao oxigênio em condições de hiperglicemia sustentada,
+sendo um marcador da capacidade de transporte gasoso atual.
+
+Questão 16 Integração
+
+O tipo sanguíneo O é considerado doador universal de hemácias. A justificativa imunológica desse fato
+é que:
+
+   A) as hemácias O expressam ao mesmo tempo os antígenos A e B, sendo aceitas por qualquer receptor
+   por suposta tolerância imunológica imediata.
+
+   B) o plasma do tipo O contém apenas anticorpos contra o antígeno D do sistema Rh, neutralizando
+   reações transfusionais comuns nos receptores A e B.
+
+   C) o tipo O carrega o antígeno H não modificado, que é universalmente tolerado por receptores A, B e
+   AB porque nenhum produz anticorpos anti-H.
+
+   D) as hemácias O têm apenas a estrutura básica de açúcares (sem N-acetil-galactosamina e sem
+   galactose terminais); não há antígeno A ou B na superfície para ser atacado por anticorpos do receptor.
+
+   E) as hemácias O são revestidas por glicoforinas em densidade aumentada, que mascaram fisicamente
+   qualquer reação antigênica do sistema ABO transfusional.
+
+Questão 17 Integração
+
+Uma criança apresenta hemograma com leucocitose à custa de eosinofilia (eosinófilos 18% do total de
+leucócitos, valor normal até 5%) e suspeita clínica de parasitose intestinal. O mecanismo principal de
+ação do eosinófilo contra helmintos é:
+
+   A) fagocitar o helminto inteiro por meio de pseudópodes longos e digeri-lo internamente em
+   fagolisossomos especialmente grandes do citoplasma eosinofílico, como faz com bactérias.
+   B) ligar-se ao parasita revestido por IgE ou IgG e degranular sobre sua superfície proteínas como a
+   proteína básica principal (MBP) e a proteína catiônica, que rompem a membrana do verme.
+   C) liberar histamina e heparina em concentração altíssima sobre o parasita, induzindo lise local por
+   hipersensibilidade imediata e edema mucoso intenso que expulsa o verme.
+   D) produzir anticorpos específicos contra antígenos do helminto que, em conjunto com o comple
+   mento, opsonizam o parasita para destruição pelos macrófagos teciduais residentes.
+
+                                                                                35
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+E) apresentar antígenos do parasita aos linfócitos T-CD8 citotóxicos via MHC de classe I para que estes
+destruam diretamente o verme por reconhecimento específico.
+
+Questão 18 Integração
+
+Sobre a relação entre monócito e macrófago tecidual:
+
+   A) o monócito é um leucócito agranulócito que circula no sangue por cerca de 20 horas e, ao migrar
+   para os tecidos, diferencia-se em macrófago, célula mais eficiente em fagocitose e capaz de apresentar
+   antígenos aos linfócitos T.
+
+   B) o monócito sai da medula óssea como célula já totalmente diferenciada em sua função efetora,
+   circula no sangue periférico por toda a vida do indivíduo e nunca se transforma em outra célula em
+   qualquer tecido do organismo.
+
+   C) o monócito é classificado como um eritrócito jovem imaturo que se transforma em macrófago
+   tecidual quando entra em contato direto com microrganismos patogênicos no tecido conjuntivo
+   periférico lesionado pela infecção bacteriana.
+
+   D) o macrófago tecidual corresponde a uma plaqueta ativada e nucleada secundariamente, formada
+   diretamente a partir do megacariócito gigante da medula óssea sob estímulo inflamatório intenso por
+   citocinas circulantes.
+
+   E) monócitos circulantes e macrófagos teciduais pertencem a linhagens hematopoéticas embrio
+   logicamente distintas durante o desenvolvimento e não compartilham qualquer relação direta de
+   precursor e célula efetora.
+
+Questão 19 Integração
+
+Julgue os itens a seguir sobre os linfócitos:
+Cada item deve ser julgado de forma independente.
+
+   I. Linfócitos B, quando ativados por antígeno, diferenciam-se em plasmócitos, células que produzem
+   grandes quantidades de imunoglobulinas solúveis.
+   II. Os linfócitos T-CD8 (citotóxicos) reconhecem antígenos apresentados por moléculas de MHC e são
+   capazes de destruir diretamente células infectadas por vírus ou células tumorais.
+   III. Os linfócitos T-CD4 (helper) executam diretamente a lise de células infectadas por vírus, sendo as
+   principais células efetoras da imunidade celular.
+   IV. As células NK (natural killers) só destroem células-alvo após reconhecimento específico de
+   antígenos via receptores de MHC-II.
+
+       36
+NEBLI                      ETAPA 2 -- OBJETIVAS (30)
+
+Questão 20 Integração
+
+As hemácias humanas adultas, mesmo realizando intenso transporte de O, não consomem o oxigênio
+que carregam. O mecanismo bioquímico que explica isso é:
+
+A) a presença exclusiva de cadeias gama na hemoglobina adulta, que retêm o O com afinidade
+extremamente alta e impedem qualquer uso intracelular do gás transportado.
+
+B) a baixa atividade citoplasmática da NADPH oxidase, que normalmente consumiria o O na produção
+de espécies reativas de oxigênio; sem essa enzima, o gás permanece intacto.
+
+C) um sistema de bombeamento ativo da membrana que exporta o O recém-ligado para fora da célula
+imediatamente, antes que ele possa ser metabolizado internamente.
+
+D) a ausência de mitocôndrias na hemácia madura, o que impossibilita a fosforilação oxidativa; a
+célula obtém ATP exclusivamente por glicólise anaeróbica e portanto não consome O.
+
+E) a presença de uma membrana plasmática especial impermeável ao próprio oxigênio molecular, que
+entra e sai da célula apenas ligado à hemoglobina intracelular.
+
+Questão 21 Integração
+
+Uma gestante Rh-negativa carrega um feto Rh-positivo em sua segunda gestação. O risco de eritrob
+lastose fetal acontece porque:
+
+   A) a primeira gestação Rh-positiva é a mais perigosa, pois a mãe ainda não desenvolveu tolerância
+   imunológica completa ao antígeno RhD fetal estranho.
+
+   B) na primeira gestação anticorpos maternos da classe IgM anti-RhD atravessam livremente a pla
+   centa e atacam diretamente as hemácias do feto Rh-positivo.
+
+   C) a primeira gestação ou parto sensibilizou o sistema imune materno ao antígeno RhD; na segunda
+   gestação Rh-positiva, anticorpos IgG anti-RhD maternos atravessam a placenta e hemolisam as
+   hemácias fetais.
+
+   D) a mãe Rh-negativa produz anticorpos anti-Rh espontaneamente desde o nascimento por reativi
+   dade cruzada, e estes atacam qualquer feto Rh-positivo já desde a primeira gestação.
+
+   E) o feto Rh-positivo produz anticorpos anti-RhD que passam pela placenta para a mãe, e estes voltam
+   ao próprio feto na segunda gestação atacando suas hemácias por autoimunidade.
+
+Questão 22 Integração
+
+Em um hemograma, a presença aumentada de neutrófilos em forma de bastonete ("desvio à esquerda")
+indica:
+
+                       37
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+A) doença genética da maturação dos granulócitos com defeito em proteínas do citoesqueleto que
+impede a segmentação nuclear normal dos neutrófilos circulantes.
+
+B) resposta da medula óssea a uma infecção bacteriana aguda, com liberação de neutrófilos jovens
+(bastonetes) antes da completa segmentação nuclear, para repor o consumo periférico.
+
+C) degeneração celular dos neutrófilos circulantes maduros, com regressão do núcleo polilobulado a
+uma forma menos madura em U decorrente do envelhecimento celular.
+
+D) parasitose intestinal aguda em fase de migração tecidual, em que neutrófilos em bastonete são
+liberados especificamente para combater os helmintos junto aos eosinófilos.
+
+E) reação alérgica grave do tipo anafilaxia, na qual basófilos imaturos são confundidos morfologica
+mente com bastonetes de neutrófilo na coloração de Romanovsky.
+
+Questão 23 Integração
+
+Julgue os itens a seguir sobre as plaquetas e a hemostasia:
+Cada item deve ser julgado de forma independente.
+
+   I. Plaquetas funcionam como células independentes, produzindo seus próprios fatores de coagulação
+   a partir de genes ativados após lesão vascular.
+   II. Hemostasia primária e hemostasia secundária são processos idênticos: ambos consistem na for
+   mação da rede de fibrina sobre a parede do vaso lesado.
+   III. Na hemostasia primária, plaquetas aderem ao colágeno exposto da parede vascular por meio do
+   fator de von Willebrand, ativam-se e formam um tampão plaquetário inicial.
+   IV. Na hemostasia secundária, a cascata de coagulação gera trombina, que cliva fibrinogênio em
+   fibrina; a rede de fibrina estabiliza o tampão plaquetário e completa o coágulo.
+
+Questão 24 Integração
+
+A medula óssea vermelha de um adulto é responsável pela hematopoese. Quanto à sua distribuição e
+função:
+
+   A) está restrita aos ossos chatos (esterno, costelas, ossos do crânio e pelve) e às epífises proximais do
+   fêmur e do úmero; o restante dos ossos longos é ocupado por medula amarela, predominantemente
+   adiposa, que pode reverter à atividade hematopoética em demandas extremas.
+
+   B) ocupa toda a cavidade medular dos ossos longos durante toda a vida adulta do indivíduo,
+   permanecendo continuamente ativa em todos os ossos do esqueleto, sem substituição alguma por
+   tecido adiposo medular ao longo da vida em qualquer fase fisiológica de envelhecimento.
+
+       38
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+C) está localizada exclusivamente no fígado e no baço dos indivíduos adultos saudáveis, sendo a
+medula óssea apenas um sítio transitório de hematopoese durante o desenvolvimento embrionário
+fetal precoce e neonatal imediato sem função adulta posterior.
+
+D) produz exclusivamente as hemácias circulantes do organismo adulto; os leucócitos granulócitos
+e agranulócitos e as plaquetas circulantes são produzidos em sítios distintos como timo, baço e
+linfonodos respectivamente, sem participação medular óssea direta.
+
+E) contém apenas adipócitos durante toda a vida adulta saudável do indivíduo, e a hematopoese só
+passa a ocorrer em situações patológicas graves específicas, em sítios extramedulares como o fígado,
+baço e linfonodos periféricos do indivíduo afetado.
+
+Questão 25 Integração
+
+Em uma biópsia de medula óssea, o histologista identifica uma célula gigante, multilobada, com
+numerosos pseudópodes que se estendem para dentro de um sinusoide venoso adjacente.
+Essa célula é:
+
+   A) um macrófago residente da medula óssea que está fagocitando hemácias defeituosas presentes na
+   luz do sinusoide venoso medular vizinho.
+
+   B) um osteoclasto multinucleado que está reabsorvendo a parede óssea trabecular próxima ao sinu
+   soide medular vascularizado nessa região.
+
+   C) um eritroblasto policromático em fase final de maturação, prestes a expelir o núcleo picnótico para
+   tornar-se reticulócito circulante.
+
+   D) um megacariócito, célula de núcleo poliploide lobado que projeta extensões citoplasmáticas para
+   dentro dos sinusoides, onde elas se fragmentam liberando plaquetas para a circulação.
+
+   E) uma célula-tronco hematopoética pluripotente migrando do nicho medular para a circulação
+   periférica em busca de novo sítio hematopoético.
+
+Questão 26 Aplicação
+
+Uma mulher de 32 anos com história de menstruação abundante há dois anos procura emergência com
+palidez, fadiga progressiva, dispneia ao subir um lance de escada. Hemograma: hemoglobina 7,2 g/dL
+(ref 12­16), volume corpuscular médio (VCM) 68 fL (ref 80­100), hemácias hipocrômicas e microcíticas
+na distensão.
+O quadro é compatível com:
+
+   A) esferocitose hereditária com defeito em proteínas do citoesqueleto da hemácia, gerando hemólise
+   crônica, esplenomegalia e hemácias arredondadas.
+
+       39
+NEBLI  ETAPA 2 -- OBJETIVAS (30)
+
+B) anemia por deficiência de ferro causada pela perda menstrual prolongada: o ferro insuficiente
+compromete a síntese de hemoglobina, gerando hemácias menores (microcíticas) e mais pálidas
+(hipocrômicas).
+
+C) reação alérgica crônica a alimentos ricos em ferro com inibição da absorção intestinal e aumento
+secundário da destruição esplênica das hemácias maduras circulantes.
+
+D) doença autoimune com produção de anticorpos circulantes contra a hemoglobina, gerando anemia
+hemolítica do tipo normocrômico e normocítico no hemograma.
+
+E) diabetes mellitus descompensado de longa data levando a glicação intensa da hemoglobina e queda
+da capacidade de transporte gasoso refletida em hemácias menores.
+
+Questão 27 Aplicação
+
+Um paciente com leucemia mieloide aguda recebe quimioterapia citotóxica intensa. Sete dias após,
+apresenta hemograma com 600 neutrófilos/mm³ (referência 1.700­7.000) e febre alta sem foco evidente.
+A interpretação fisiopatológica mais adequada é:
+
+   A) a febre indica uma reação alérgica direta à quimioterapia citotóxica administrada por via venosa
+   nos últimos dias, e a queda dos neutrófilos circulantes é consequência secundária da migração maciça
+   dessas células para o local da inflamação alérgica iniciada.
+
+   B) a quimioterapia citotóxica eliminou todas as bactérias da microbiota normal do organismo do
+   paciente neutropênico, e a febre alta é causada pelo excesso de fragmentos bacterianos endógenos
+   liberados subitamente na corrente sanguínea após esse efeito eliminatório agudo descrito.
+
+   C) a quimioterapia destruiu as células em divisão da medula óssea, incluindo precursores de neutró
+   filos; a neutropenia profunda elimina a primeira linha de defesa contra bactérias, e qualquer infecção
+   bacteriana -- mesmo de baixa carga -- pode causar febre sem foco clínico evidente (neutropenia
+   febril).
+
+   D) a febre é causada exclusivamente por hemólise massiva intravascular induzida pela quimioterapia
+   citotóxica administrada nos últimos dias junto ao acesso venoso, sem qualquer relação com processo
+   infeccioso bacteriano oportunista subjacente no paciente em tratamento ativo.
+
+   E) a queda dos neutrófilos circulantes é apenas um achado laboratorial sem relevância clínica ime
+   diata para o quadro descrito, pois os linfócitos circulantes podem compensar inteiramente a defesa
+   antibacteriana neste paciente jovem hematológico imunodeprimido sob terapia.
+
+Questão 28 Aplicação
+
+Um menino de 8 anos, atópico, é ferroado por uma abelha. Em minutos desenvolve urticária general
+izada, dispneia com sibilos, queda da pressão arterial. Recebe adrenalina intramuscular e melhora
+rapidamente.
+
+                                                                                40
+NEBLI                                                   ETAPA 2 -- OBJETIVAS (30)
+
+A célula central na fisiopatologia desse quadro é:
+
+A) o neutrófilo polimorfonuclear, principal fagócito agudo do organismo, que engloba o veneno
+proteico da abelha por pseudópodes e libera mediadores inflamatórios sistêmicos durante uma
+degranulação maciça simultânea no leito vascular sistêmico do paciente atópico.
+
+B) o linfócito T-CD8 citotóxico, que reconhece antígenos do veneno apresentados por moléculas de
+MHC-I das células do paciente atópico e libera perforina causando lise celular sistêmica generalizada
+e o quadro descrito de instabilidade clínica aguda imediata.
+
+C) o monócito circulante recém-egresso da medula óssea, que rapidamente se diferencia em
+macrófago sistêmico circulante e libera histamina endógena e outros mediadores vasoativos contra
+o antígeno proteico reconhecido pela primeira vez nesse paciente atópico.
+
+D) o eosinófilo bilobado circulante, que ataca o veneno proteico de abelha reconhecido equivocada
+mente como um parasita helmíntico tecidual, liberando proteína básica principal sobre a corrente
+sanguínea com efeito vasoativo sistêmico característico do quadro descrito acima.
+
+E) o basófilo circulante e o mastócito tecidual, que se ligam à IgE específica contra o veneno; o cross-
+linking de IgE pela reexposição causa degranulação maciça com liberação de histamina e outros
+mediadores vasoativos, produzindo o quadro de anafilaxia.
+
+Questão 29 Aplicação
+
+Um paciente com cirrose hepática avançada apresenta sangramento de mucosa oral espontâneo,
+equimoses nos membros e prolongamento do tempo de protrombina no exame. Plaquetas 240.000/mm³
+(normais).
+Considerando que o fígado é o sítio principal de síntese da maioria dos fatores de coagulação, a causa
+mais provável do sangramento é:
+
+   A) deficiência funcional de fatores de coagulação plasmáticos (incluindo protrombina e fibrinogênio),
+   de síntese hepática, levando à falha da hemostasia secundária mesmo com contagem plaquetária
+   normal nesse paciente cirrótico.
+
+   B) destruição autoimune das plaquetas circulantes pelo baço aumentado nesse paciente cirrótico,
+   levando à falha da hemostasia primária apesar da contagem plaquetária periférica registrar valores
+   normais no hemograma.
+
+   C) deficiência grave da medula óssea em produzir megacariócitos funcionais nesse paciente, com
+   queda funcional das plaquetas circulantes detectável apenas em testes especializados não solicitados
+   pela equipe.
+
+   D) excesso anormal de vitamina K acumulada no fígado cirrótico, que inibe paradoxalmente a coagu
+   lação ao bloquear a ação fisiológica da antitrombina III sistêmica do paciente.
+
+                                                    41
+NEBLI      ETAPA 2 -- OBJETIVAS (30)
+
+E) hipoalbuminemia hepática grave que reduz a pressão oncótica plasmática e provoca sangramento
+periférico por extravasamento direto de hemácias para os tecidos lesionados.
+
+Questão 30 Aplicação
+
+Um homem de 28 anos é diagnosticado com AIDS após contagem de linfócitos T-CD4 igual a 80 células/
+mm³ (referência > 500). Ele apresenta múltiplas infecções oportunistas (pneumonia por Pneumocystis,
+candidíase oral, toxoplasmose cerebral).
+A explicação fisiopatológica que liga a queda dos T-CD4 ao quadro infeccioso é:
+
+   A) a queda dos linfócitos T-CD4 reduz diretamente a produção plasmática de anticorpos antibacteri
+   anos das classes IgG e IgM no organismo, deixando o paciente sistemicamente vulnerável a qualquer
+   microrganismo gram-positivo ou gram-negativo presente no ambiente clínico hospitalar.
+
+   B) os linfócitos T-CD4 helper são as principais células fagocitárias circulantes do organismo humano
+   adulto; sua redução numérica elimina a primeira linha de defesa contra bactérias intracelulares e
+   parasitas oportunistas teciduais comuns nesse paciente imunodeficiente.
+
+   C) os linfócitos T-CD4 são os mediadores diretos da lise efetora de células infectadas por vírus via
+   reconhecimento específico por MHC de classe I; sua perda numérica compromete especificamente a
+   defesa antiviral sistêmica esperada do paciente HIV-positivo crônico.
+
+   D) os T-CD4 coordenam toda a resposta imune adaptativa, ativando linfócitos B (produção de anti
+   corpos), linfócitos T-CD8 (lise citotóxica) e macrófagos (fagocitose intensa); sem essa coordenação, o
+   sistema imune desorganiza e perde capacidade de responder a múltiplos tipos de patógenos.
+
+   E) os linfócitos T-CD4 produzem em altíssima concentração espécies reativas de oxigênio (ROS) que
+   matam diretamente patógenos extracelulares no espaço intersticial; sua perda numérica elimina o
+   principal mecanismo microbicida sistêmico do organismo desse paciente.
+
+       42
+NEBLI                            ETAPA 2 -- OBJETIVAS (30)
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique, em termos mecanísticos, por que a hemácia madura dos mamíferos perdeu o núcleo e
+as organelas durante a evolução, e por que essa escolha favorece sua função.
+
+    MODELO DE RESPOSTA
+
+   A hemácia tem função única -- transportar O2 sem consumi-lo no caminho. Perder
+   mitocôndrias garante que ela não respire aerobicamente e não roube parte da carga
+   (sobrevive de glicólise anaeróbica). Perder o núcleo libera espaço interno para mais
+   hemoglobina, aumenta a flexibilidade para atravessar capilares estreitos e estabelece
+   vida média finita ( 120 dias), funcionando como controle de qualidade automático. O
+   preço é não conseguir se reparar nem se dividir -- daí a renovação contínua precisar
+   vir da medula óssea. Forma serve à função.
+
+Questão Q2
+
+Diferencie plasma e soro do ponto de vista bioquímico, explicando o mecanismo que gera a
+diferença e por que essa distinção importa na prática laboratorial.
+
+    MODELO DE RESPOSTA
+
+   Plasma é o líquido obtido quando o sangue é coletado com anticoagulante (heparina,
+   citrato ou EDTA): a cascata de coagulação fica bloqueada e o fibrinogênio permanece
+   dissolvido. Soro é o líquido obtido quando o sangue é deixado coagular sem anticoag
+   ulante: a trombina ativada corta o fibrinogênio em fibrina, que se polimeriza em rede e
+   fica presa no coágulo junto com as células. O sobrenadante perde fibrinogênio e fatores
+   de coagulação consumidos. Por isso dosagens de fatores de coagulação exigem plasma;
+   dosagens fora dessa cascata podem usar soro.
+
+                             43
+NEBLI      ETAPA 3 -- DISCURSIVAS (5)
+
+Questão Q3
+
+Compare as vidas úteis do neutrófilo e do linfócito de memória, explicando mecanicamente por
+que uma célula vive horas e a outra vive anos a décadas, e relacione isso à função de cada uma.
+
+MODELO DE RESPOSTA
+
+Neutrófilo é fagócito de resposta aguda: degranula seu arsenal (proteases, peptídeos
+antimicrobianos, espécies reativas de oxigênio) sobre o invasor e morre na função --
+sua maquinaria é descartável e a morte é parte do trabalho. Linfócito de memória,
+ao contrário, precisa estar pronto para responder a um antígeno que pode aparecer
+décadas depois (base mecanística da vacinação). Cromatina condensada, citoplasma
+escasso e metabolismo mínimo mantêm a célula em "espera" eficiente. Vida útil curta
+serve à inflamação aguda; vida útil longa serve à imunidade adaptativa.
+
+Questão Q4
+
+Explique como a hemoglobina A1c (HbA1c) se forma e por que sua dosagem reflete a glicemia
+média dos últimos 2 a 3 meses, em vez da glicemia atual do momento da coleta.
+
+    MODELO DE RESPOSTA
+
+   A HbA1c se forma por glicação não-enzimática da hemoglobina: glicose plasmática
+   se liga covalente e irreversivelmente a aminoácidos das cadeias globínicas. A reação é
+   proporcional à concentração e ao tempo de exposição -- quanto mais alta a glicemia
+   e mais tempo, mais hemoglobina glicada. Como a hemácia vive cerca de 120 dias e a
+   glicação não se desfaz, em qualquer momento a HbA1c dosada representa uma média
+   ponderada da glicemia das últimas 8­12 semanas. Por isso é o marcador padrão de
+   controle do diabetes a médio prazo, complementar à glicemia pontual.
+
+       44
+NEBLI      ETAPA 3 -- DISCURSIVAS (5)
+
+Questão Q5
+
+Descreva, passo a passo, as etapas moleculares da diapedese de um neutrófilo desde a circulação
+sanguínea até o tecido conjuntivo infectado. Cite as moléculas envolvidas em cada etapa.
+
+MODELO DE RESPOSTA
+
+(1) Sinalização inflamatória: macrófagos teciduais detectam bactérias e liberam IL-1,
+TNF- e IL-8; essas citocinas ativam o endotélio do capilar próximo a expor moléculas
+de adesão. (2) Rolling: selectinas (E-selectina e P-selectina) do endotélio capturam gli
+coligantes (PSGL-1) da superfície do neutrófilo, fazendo a célula desacelerar e rolar pela
+parede. (3) Adesão firme: quimiocinas (IL-8) ativam integrinas (LFA-1, Mac-1) do neu
+trófilo, que se ligam fortemente a ICAMs (família das imunoglobulinas) no endotélio. (4)
+Diapedese propriamente dita: o neutrófilo se espreme entre células endoteliais, atrav
+essa a membrana basal (auxiliado por proteases dos grânulos terciários) e cai no tecido
+conjuntivo. (5) Quimiotaxia tecidual: o neutrófilo segue o gradiente de quimiocinas até
+a bactéria.
+
+       45
+NEBLI                                       ETAPA 4 -- FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C  Q02 B            Q03 D     Q04 A     Q05 CECE
+Q06 E  Q07 C            Q08 B     Q09 D     Q10 A
+
+INTEGRAÇÃO (Q11­Q25)    Q13 A     Q14 ECEC  Q15 C
+                        Q18 A     Q19 CCEE  Q20 D
+Q11 B  Q12 D            Q23 EECC  Q24 A     Q25 D
+Q16 E  Q17 B
+                        Q28 E     Q29 A     Q30 D
+Q21 C  Q22 B
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B  Q27 C
+
+                        50
+

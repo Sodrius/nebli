@@ -1,0 +1,291 @@
+slug: bioq-20-pentoses-radicais-livres
+titulo: "Via das Pentoses-Fosfato: NADPH, Ribose e Defesa Antioxidante"
+subtitulo: "Bioquímica"
+meta:
+  - ["Disciplina", "Bioquímica (UC02)"]
+  - ["Onde estudar", "Slides da aula Via das Pentoses-Fosfato (UC02, Bioquímica) · Lehninger, Princípios de Bioquímica, cap. Glicólise, gliconeogênese e via das pentoses-fosfato · Marzzoco & Torres, Bioquímica Básica, cap. Via das pentoses-fosfato · Devlin, Bioquímica com Correlações Clínicas (NADPH, glutationa e deficiência de G6PD)"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — Boards & Beyond / Bootcamp (Biochem › Pentose Phosphate Pathway + Oxidative Stress) · Sketchy Biochem (Pentose Phosphate Pathway & G6PD Deficiency) · Ninja Nerd (Pentose Phosphate Pathway) · Physeo (Metabolism › HMP shunt) · UWorld: ganchos clínicos (deficiência de G6PD, favismo, primaquina) · Pathoma: não cobre (é patologia geral)",
+      "*Dessuspender no AnKing v12* (decks sob #AK_Step1_v12::) — ordenados por completude; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency — 40 cards (via completa + G6PD)",
+      "*Cobre melhor* · #Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications — 39 cards (NADPH e implicações clínicas)",
+      "*Complementa* · #SketchyPath::09_Blood_&_Coagulation::02_Normocytic_&_Macrocytic_Anemias::03_G6PD_Deficiency_&_Autoimmune_Hemolytic_Anemia_(AIHA) — 62 cards (anemia hemolítica por G6PD)",
+      "*Complementa* · #FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency — 22 cards (quadro-resumo da deficiência)",
+      "*Mais distante* · #Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency — 28 cards (mnemônicos da doença)"]]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Blueprint = ALTO rendimento.
+#   Fio mecanístico único: a via das pentoses é a resposta da célula a duas necessidades
+#   que a glicólise NÃO atende — poder redutor para CONSTRUIR (NADPH) e o açúcar de 5
+#   carbonos para fazer material genético (ribose-5-P). A aula inteira mostra (1) o que a
+#   via entrega, (2) como ela se divide em duas fases que a célula liga conforme a demanda,
+#   e (3) por que, sem o NADPH dela, a hemácia se rompe sob estresse oxidativo (deficiência
+#   de G6PD). Integração natural: pentoses×glicólise (compartilham G6P, F6P, G3P);
+#   NADPH×lipogênese; ribose×síntese de nucleotídeos; NADPH×glutationa×radicais livres.
+# Blueprint (ALTO): aprofundar com 1-2 frases de mecanismo — G6PD como passo controlador
+#   inibido por NADPH; glutationa regenerada pela glutationa redutase à custa de NADPH;
+#   por que a HEMÁCIA (sem mitocôndria, sem outra fonte de NADPH) é a mais vulnerável.
+#   Ângulo E2/E3 de Aplicação: deficiência de G6PD → hemólise desencadeada por oxidante
+#   (favismo, primaquina, infecção); resistência à malária. Gancho clínico invisível:
+#   anemia hemolítica por oxidante. Fonte invisível — nunca citar "Step 1/residência/USMLE".
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 14-18 — tema denso mas de fio único claro).
+# Recorte: 1 slide da aula "Via das Pentoses" (56 páginas). O slide cobre EXATAMENTE o
+#   tema pedido — via das pentoses + radicais livres. Vai da caracterização geral (destinos
+#   da glicose, dois produtos) à fase oxidativa, fase não-oxidativa, regulação, e fecha em
+#   NADPH/glutationa/G6PD/favismo/malária. Cobrir o arco todo, com PESO no núcleo
+#   ALTO-rendimento (NADPH×G6PD×glutationa×hemólise). A química fina da fase não-oxidativa
+#   (todos os intermediários de 4-7 C) entra como PANORAMA, não como decoreba reação-a-reação.
+#
+# Prioridades desta corrida (Diário de revisões + pedido):
+#   P1. Diário biocel-07 (peso alto): NÃO fechar cadeia multi-passo sem figura. Fase
+#       oxidativa (4 reações) + conexão com glicólise = figura OBRIGATÓRIA → slide-16.
+#       Fase não-oxidativa (remontagem de carbono) → slide-18/49. 9 figuras (3 por PARTE),
+#       todas do slide do professor.
+#   P2. Sem pergunta-âncora/retórica de abertura (canônico 2026-05-29). Abertura =
+#       afirmação direta + mecanismo. Os 5 registros rotacionados.
+#   P3. Prosa fluida, NUNCA rajada de siglas (canônico 2026-05-29). NADPH/NADP+/G6PD/GSH/
+#       GSSG/ERO entram dentro de frase com sujeito+verbo+complemento — a distinção
+#       NADPH≠NADH é conceito, não par de siglas coladas.
+#   P4. E2: ~10 C/E (cada um 4 itens I-IV, gate hard) nas 3 categorias + 2-3 "assinale a
+#       incorreta"; gabarito sorteado + guarda anti-degeneração; paridade banda dupla
+#       0.80-1.25 Q01-Q30; cada subtópico testado >=2x.
+#   P5. Bloco Onde aprofundar ordenado por completude (canônico 2026-07-01), tags reais
+#       do export v12 via buscar_tags_anking.py.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O que a via entrega e por que ela existe"
+        subtopicos:
+          - "Os três destinos da glicose-6-fosfato"
+          - "Dois produtos, um propósito: NADPH e ribose-5-fosfato"
+          - "NADPH não é NADH: duas moedas redutoras separadas"
+          - "Onde, quando e quanto: citosol, tecidos que constroem e a hemácia"
+      - titulo: "PARTE II — Como a via funciona por dentro"
+        subtopicos:
+          - "Duas fases: uma que oxida, outra que rearranja"
+          - "Fase oxidativa: a G6PD abre o caminho e solta NADPH"
+          - "Fase não-oxidativa: remontar o carbono sem gastar NADPH"
+          - "Quatro cenários de demanda: como a célula escolhe o ramo"
+          - "O termostato da via: a razão NADPH/NADP+ e a G6PD"
+      - titulo: "PARTE III — NADPH contra os radicais livres"
+        subtopicos:
+          - "Radicais livres: o preço de respirar oxigênio"
+          - "A glutationa: o escudo que o NADPH mantém carregado"
+          - "A hemácia no fio da navalha"
+          - "Deficiência de G6PD: favismo, primaquina e malária"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Esqueleto das 3 PARTES + figuras planejadas
+# ---------------------------------------------------------------------------
+# PARTE I
+#   1.1 Três destinos da G6P: virar glicogênio (reserva), descer a glicólise (energia) ou
+#       entrar na via das pentoses (biossíntese). A via das pentoses NÃO é para produzir
+#       ATP — é para produzir INSUMOS de construção. Enquadra o resto. [sem figura própria;
+#       preview com slide-08]
+#   1.2 Os dois produtos: NADPH (poder redutor para vias anabólicas e defesa antioxidante)
+#       + ribose-5-fosfato (o açúcar de 5C que forma nucleotídeos → DNA, RNA, ATP, coenzimas
+#       NAD+/FAD/CoA). Nenhum ATP é produzido nem consumido líquido pela via em si.
+#       [fig slide-08 overview G6P->ribose+2NADPH 60%; fig-lateral slide-33 ribose vs desoxirribose 34%]
+#   1.3 NADPH ≠ NADH: mesma química de óxido-redução, papéis OPOSTOS. NADH é gerado na
+#       oxidação (catabolismo) e leva elétrons à cadeia respiratória p/ fazer ATP; NADPH é
+#       gerado na via das pentoses e DOA elétrons para biossíntese redutora (ácidos graxos,
+#       colesterol) e para regenerar antioxidantes. A única diferença estrutural é um
+#       fosfato extra no NADPH — a etiqueta que as enzimas leem p/ não confundir os dois
+#       estoques. Razão fisiológica: NAD+/NADH ~1000 (célula quer NAD+ p/ oxidar);
+#       NADPH/NADP+ alto (célula quer NADPH p/ reduzir). [fig-lateral slide-09 NADPH vs NADH — fosfato em vermelho 40%]
+#   1.4 Onde/quando/quanto: citosol de todas as células; ~20% da glicose passa por ela;
+#       mais ativa em fígado, tecido adiposo, glândula mamária, córtex adrenal, hemácia —
+#       tecidos que SINTETIZAM lipídios/esteroides ou que precisam de defesa antioxidante.
+#       Liga quando há glicose e a glicólise está freada (ATP alto). A hemácia é caso
+#       especial: sem mitocôndria, a via das pentoses é sua ÚNICA fonte de NADPH. [sem fig nova]
+# PARTE II
+#   2.1 Duas fases com naturezas diferentes: OXIDATIVA (irreversível, produz NADPH + CO2 +
+#       ribulose-5-P) e NÃO-OXIDATIVA (reversível, não produz NADPH, só interconverte
+#       açúcares de 3-7 carbonos). A célula pode rodar as fases em velocidades diferentes.
+#       Enquadra as duas subseções seguintes. [sem fig própria]
+#   2.2 Fase oxidativa, 3 reações-chave: (1) G6PD oxida G6P a 6-fosfoglicono-δ-lactona,
+#       reduzindo NADP+ a NADPH (passo controlador, irreversível); (2) lactonase hidrolisa
+#       a lactona a 6-fosfogliconato; (3) 6-fosfogliconato desidrogenase oxida e
+#       DESCARBOXILA (libera CO2), gerando ribulose-5-P + o 2º NADPH. Ribulose-5-P isomeriza
+#       a ribose-5-P. Saldo: 2 NADPH + 1 CO2 + ribose por G6P. [fig slide-16 fase oxidativa + conexão glicólise 72% — CADEIA, OBRIGATÓRIA]
+#   2.3 Fase não-oxidativa: quando a célula precisa de ribose mas não de tanto NADPH, OU
+#       quando sobra ribose, transcetolase (transfere 2C) e transaldolase (transfere 3C)
+#       remontam pentoses em frutose-6-P e gliceraldeído-3-P (e vice-versa) — intermediários
+#       compartilhados com a glicólise. Tudo reversível: a via "conversa" com a glicólise
+#       nos dois sentidos. Isomerase/epimerase ajustam as pentoses. [fig slide-49 transcetolase/transaldolase mecanismo 66%; fig slide-18 remontagem de carbono/reciclagem 62%]
+#   2.4 Quatro cenários de demanda (governa QUAL ramo roda):
+#       (a) precisa só de ribose (célula em divisão) → só a NÃO-oxidativa, a partir de
+#           F6P/G3P da glicólise, sem gerar NADPH desnecessário;
+#       (b) precisa de NADPH e ribose em igual medida → predomina a OXIDATIVA (entrega os dois);
+#       (c) precisa de muito NADPH e pouca ribose (lipogênese) → oxidativa + não-oxidativa
+#           reciclam a ribose de volta a F6P/G3P p/ re-render mais NADPH;
+#       (d) precisa de NADPH e ATP → oxidativa + não-oxidativa, e o G3P desce a glicólise.
+#       [reaproveita slide-18]
+#   2.5 Regulação: a G6PD é o passo controlador. Ativada alostericamente por NADP+, INIBIDA
+#       por NADPH (inibição por produto). A razão NADPH/NADP+ é o sensor: NADPH alto (célula
+#       "cheia" de poder redutor) trava a via; NADPH consumido (NADP+ sobe) libera a via.
+#       Elegante: a via se autorregula pelo próprio produto. [fig slide-51 regulação — G6PD inibida por NADPH 62%]
+# PARTE III
+#   3.1 Radicais livres: átomos/moléculas com elétron desemparelhado, muito reativos. A
+#       própria respiração vaza ~0,2% do O2 como superóxido (~400 g/ano num adulto). Cascata
+#       de espécies reativas de oxigênio (ERO): O2 → superóxido → peróxido de hidrogênio →
+#       radical hidroxila. Superóxido dismutase e catalase/glutationa peroxidase desarmam a
+#       cascata. Reação de Fenton (H2O2 + Fe2+ → hidroxila) explica por que ferro livre é
+#       perigoso. [fig slide-39 cascata de ERO 60%]
+#   3.2 A glutationa (GSH, tripeptídeo Glu-Cys-Gly): seu grupo -SH doa elétrons e neutraliza
+#       o peróxido (via glutationa peroxidase), oxidando-se a GSSG (dímero). Para voltar a
+#       funcionar, GSSG precisa ser REDUZIDA de volta a 2 GSH — e quem faz isso é a glutationa
+#       redutase, gastando NADPH. Aqui fecha o circuito: G6PD → NADPH → glutationa reduzida →
+#       ERO neutralizada. Sem NADPH, o escudo fica descarregado. [fig slide-41 loop NADPH->glutationa->remoção ERO 75% — figura integradora]
+#   3.3 A hemácia no fio da navalha: carrega O2 (fonte constante de ERO), não tem mitocôndria
+#       (sem outra fonte de NADPH) e não sintetiza proteínas novas (não repõe enzimas
+#       danificadas). Depende 100% da via das pentoses p/ manter a glutationa e o ferro da
+#       hemoglobina reduzido (Fe2+). Se o NADPH falha, a hemoglobina oxida e precipita (corpos
+#       de Heinz), a membrana é danificada e a célula hemolisa. [fig slide-27 glutationa na hemácia 60%]
+#   3.4 Deficiência de G6PD: enzimopatia mais comum do mundo (~400 milhões de pessoas). Em
+#       repouso a hemácia se vira; sob ESTRESSE OXIDATIVO (fármacos como primaquina/dapsona/
+#       sulfas, infecção, favas — favismo) a demanda de NADPH dispara, o escudo não recarrega
+#       e vem a HEMÓLISE aguda. Ligada ao X (afeta mais homens). A mesma fragilidade da
+#       membrana dá RESISTÊNCIA à malária (Plasmodium falciparum não completa o ciclo na
+#       hemácia frágil) — por isso a mutação é frequente em áreas de malária endêmica.
+#       [reaproveita slide-41/27; clínica inline]
+#
+# Figuras planejadas (>=3 por PARTE): I=3 (slide-08, slide-33, slide-09) · II=4 (slide-16,
+#   slide-49, slide-18, slide-51) · III=3 (slide-39, slide-41, slide-27). Total 10. slide-45
+#   (reações listadas em texto) e slide-44 (glutationa redundante com 41) DESCARTADOS pelo
+#   filtro de utilidade. Relatório auditável no fechamento.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 enquadramento | 1.2 integração-posterior | 1.3 ponto-de-quebra | 1.4 integração-anterior
+# 2.1 enquadramento | 2.2 integração-anterior | 2.3 analogia concreta | 2.4 ponto-de-quebra | 2.5 integração-posterior
+# 3.1 enquadramento | 3.2 integração-anterior | 3.3 analogia concreta | 3.4 ponto-de-quebra
+# Nenhum par vizinho compartilha registro.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# - glicólise: "sequência que quebra a glicose em piruvato no citosol, rende ATP e NADH, e
+#     passa por intermediários (glicose-6-P, frutose-6-P, gliceraldeído-3-P) que a via das
+#     pentoses também usa"
+# - NADH/cadeia respiratória: "o NADH gerado no catabolismo entrega elétrons à cadeia
+#     respiratória na mitocôndria para fabricar ATP — é a moeda da produção de energia"
+# - nucleotídeo: "a unidade que forma DNA e RNA: uma base nitrogenada + um açúcar de 5
+#     carbonos (a ribose) + fosfato; a ribose vem da via das pentoses"
+# - inibição por produto / alostérica: "quando o próprio produto de uma via se liga à
+#     enzima controladora e a desliga, a célula evita fabricar o que já tem de sobra"
+# - hemácia: "o glóbulo vermelho é uma célula sem núcleo e sem mitocôndria, cheia de
+#     hemoglobina; não fabrica proteínas novas nem produz ATP/NADPH pela mitocôndria"
+# - ligado ao X: "gene que fica no cromossomo X; como o homem tem um X só, uma cópia
+#     defeituosa já o afeta, enquanto a mulher costuma ter a segunda cópia para compensar"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# poder redutor · ribose-5-fosfato · anabolismo/biossíntese redutora · inibição por produto ·
+# espécie reativa de oxigênio · superóxido · glutationa · corpos de Heinz · hemólise ·
+# enzimopatia · favismo · transcetolase · transaldolase
+# Siglas (#sigla na 1a): NADPH · NADP+ · NADH · NAD+ · G6P · G6PD · ATP · CO2 · GSH · GSSG ·
+# ERO · DNA · RNA · CoA · F6P · G3P
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ---------------------------------------------------------------------------
+# - Quebra: confundir a G6PD (enzima da via das pentoses) com a glicose-6-fosfato (G6P,
+#     intermediário compartilhado).
+#   Correção: G6P é o AÇÚCAR de partida; a G6PD é a ENZIMA que o oxida a 6-fosfogliconato
+#     gerando NADPH. A G6PD não participa da glicólise — quem falha na deficiência é a defesa
+#     antioxidante, não a produção de ATP glicolítico. (banco NEBLI 0266)
+# - Quebra: achar que NADPH e NADH são intercambiáveis por serem "quase iguais".
+#   Correção: têm papéis opostos — NADH ALIMENTA a cadeia respiratória (produz ATP, é da
+#     oxidação); NADPH DOA elétrons para construir (síntese de lipídios) e para regenerar a
+#     glutationa (defesa). O fosfato extra é a etiqueta que separa os dois estoques. (banco NEBLI 0267)
+# - Quebra: inverter o que cada fase faz.
+#   Correção: a fase OXIDATIVA produz NADPH + ribose + CO2 e é irreversível; a fase
+#     NÃO-OXIDATIVA só remonta açúcares (F6P, G3P) de forma reversível e NÃO gera NADPH. Só
+#     NADPH → oxidativa; só ribose → não-oxidativa a partir de F6P/G3P. (banco NEBLI 0268)
+# - Quebra: pensar que a célula sempre roda a via inteira do começo ao fim.
+#   Correção: a célula liga o ramo conforme a demanda — em divisão celular usa só a
+#     não-oxidativa (quer ribose, não NADPH); na lipogênese roda os dois para maximizar
+#     NADPH e reciclar a ribose. O custo de rodar só a não-oxidativa é apenas 1 ATP da
+#     hexoquinase. (banco NEBLI 291)
+# - Quebra: supor que a G6PD é regulada "de fora", por hormônio.
+#   Correção: o controle principal é interno e imediato — NADP+ ativa a G6PD, NADPH a inibe;
+#     a razão NADPH/NADP+ é o sensor. A via se desliga sozinha quando o poder redutor está
+#     alto. (slide-51)
+# - Quebra: achar que a deficiência de G6PD causa hemólise o tempo todo.
+#   Correção: em repouso a hemácia se mantém; a crise vem quando um OXIDANTE (primaquina,
+#     sulfas, infecção, favas) dispara a demanda de NADPH que a enzima deficiente não supre
+#     — aí a glutationa não recarrega, a hemoglobina oxida (corpos de Heinz) e a célula
+#     rompe. (armadilha clínica)
+# - Quebra: tratar a resistência à malária como coincidência.
+#   Correção: a mesma fragilidade da membrana da hemácia deficiente de G6PD atrapalha o
+#     ciclo do Plasmodium falciparum dentro dela — por isso a mutação persiste em áreas de
+#     malária endêmica (vantagem seletiva). (slide-43)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo, universal) → fio "a via das pentoses fabrica
+#   INSUMOS de construção (NADPH + ribose), não energia" costura as 3 PARTES.
+# Cat 6 (organização terminológica) → NADPH vs NADH; fase oxidativa vs não-oxidativa;
+#   GSH vs GSSG. Diferenciar sem virar lista seca.
+# Cat 7 (analogia construtiva, parcimônia) → NADPH como "bateria de construção" separada da
+#   "bateria de energia" (NADH); glutationa como "escudo" que o NADPH recarrega; G6PD como
+#   "termostato" da via. 1 por subtópico onde couber.
+# Cat 4 (magnitudes ancoradas) → ~20% da glicose pela via; ~0,2% do O2 vira superóxido
+#   (~400 g/ano); ~400 milhões com deficiência de G6PD.
+# Cat 9 (clinica-box, cadeia 4-6 linhas) → crise hemolítica por G6PD (oxidante → escudo
+#   descarregado → corpos de Heinz → hemólise). 1 na PARTE III.
+# Cat 8 (atencao-box, parcimônia 1-2/PARTE) → inversões com peso: G6P≠G6PD; NADPH≠NADH;
+#   fase oxidativa≠não-oxidativa. Resto vira confusao-prevista (gold) ou prosa dialogada.
+# Cat 16/18 (catálogo com traço definidor = tabela) → os 4 cenários de demanda (tabela:
+#   demanda | qual ramo | gera NADPH?); comparação fase oxidativa×não-oxidativa. Resto = prosa.
+# Cat 11/13 (QUESTIONADOR) → distratoras mecanísticas do Mapa de Confusões; texto motivador
+#   clínico nas Aplicações (favismo, primaquina, crise hemolítica).
+
+# ---------------------------------------------------------------------------
+# GABARITO — sorteado (guarda anti-degeneração aplicada)
+# MC (A-E): 20 questões. C/E (I-IV, 4 itens): 10 questões —
+#   Q03,Q06,Q09 (Cons) · Q12,Q15,Q18,Q21,Q24 (Int) · Q27,Q30 (Apl).
+#   "Assinale a incorreta" (MC): Q07, Q19, Q25.
+# Distribuição MC: A=4 B=4 C=3 D=5 E=4 (max 25% <40%, sem corrida 4+).
+# ---------------------------------------------------------------------------
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CEEC"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "ECCE"]
+    - ["07", "D"]
+    - ["08", "A"]
+    - ["09", "CCEE"]
+    - ["10", "E"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "EECC"]
+    - ["13", "D"]
+    - ["14", "A"]
+    - ["15", "CEEC"]
+    - ["16", "C"]
+    - ["17", "E"]
+    - ["18", "ECCE"]
+    - ["19", "B"]
+    - ["20", "D"]
+    - ["21", "CCEE"]
+    - ["22", "A"]
+    - ["23", "E"]
+    - ["24", "EECC"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "CEEC"]
+    - ["28", "D"]
+    - ["29", "A"]
+    - ["30", "ECCE"]

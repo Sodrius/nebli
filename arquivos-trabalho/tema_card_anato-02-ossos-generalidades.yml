@@ -1,0 +1,241 @@
+slug: anato-02-ossos-generalidades
+titulo: "Generalidades dos ossos"
+subtitulo: "Anatomia"
+meta:
+  - ["Disciplina", "Anatomia"]
+  - ["Onde estudar", "Moore Anatomia Orientada Cap. Introdução + Sobotta Atlas Vol. 1 (ossos)"]
+
+# =========================================================================
+# Seção A — Alvo, recorte, prioridades desta corrida
+# =========================================================================
+# Alvo de páginas E1: piso 2, teto 22 (canônico). Alvo desta corrida: 14-18.
+# Recorte slide x tema: slide cobre TUDO do tema do cronograma (generalidades dos ossos)
+#   sem desvio. Não entra anatomia regional (membros específicos, pelve, crânio individual);
+#   exemplos nomeados só para fixar conceito morfológico.
+#
+# PRIORIDADES DESTA CORRIDA (pedido explícito do Davi, 2026-06-19):
+#   P1. FOCO EM MECANISMO. Cada subtópico abre pelo problema mecânico que o osso
+#       resolve (carga, alavanca, hematopoese, proteção), não pela nomenclatura.
+#   P2. QUALIDADE > QUANTIDADE de nomes. Nome próprio entra na prosa só quando
+#       ele é o conceito; resto vira ETAPA 4 — SEMI-GLOSSÁRIO no fim do PDF.
+#   P3. ETAPA 4 CUSTOMIZADA NESTA CORRIDA. Não é a E4 do banco (removida em
+#       2026-05-22). É um catálogo nominal de acidentes ósseos + ossos pneumáticos
+#       específicos + composição axial/apendicular, em formato tabela compacta,
+#       INSERIDA entre E3 e Gabarito. Sigla `#sigla` + `#termo-nota` cobrem o
+#       glossário inline; E4 cobre o glossário consolidado.
+#   P4. Diário de revisões: biocel-07 (35pp sem figura) — irrelevante aqui, slide
+#       tem 55 PNGs ricos. Mas reforça o reflexo "figura é canônica" — usar farto.
+
+# =========================================================================
+# Seção B — Esqueleto das 3 PARTES + figuras planejadas
+# =========================================================================
+# PARTE I — O osso como órgão vivo: função, embriologia e mineralização dinâmica
+#   1.1 — As 5 funções do osso (sustenta, protege, alavanca, hematopoese, reserva)
+#         Figura: slide-05 (funções) — largura 55%
+#   1.2 — Duas rotas para fabricar osso: ossificação intramembranosa vs endocondral
+#         Figura: slide-12 (intramembranosa, mesênquima direto) — largura 70%
+#         Figura: slide-13 (endocondral, molde cartilaginoso) — largura 70%
+#   1.3 — Mineralização em equilíbrio: por que osso é dinâmico (osteopenia → osteoporose;
+#         osteopetrose como inverso). Por que glicocorticoide ataca osso.
+#         Figura: slide-17 (densidade mineral, espectro patológico) — largura 60%
+#
+# PARTE II — Arquitetura serve à carga: cortical, esponjoso, periósteo, endósteo
+#   2.1 — Duas arquiteturas, dois problemas: denso suporta carga axial, esponjoso
+#         distribui carga em rede e abriga medula.
+#         Figura: slide-19 (cortical denso) — largura 50%, lateral
+#         Figura: slide-21 (esponjoso trabecular) — largura 50%, lateral
+#   2.2 — Ósteon: a solução para nutrir matriz mineralizada (canal central +
+#         lamelas concêntricas + canalículos como rede de difusão de soluto)
+#         Figura: slide-20 (ósteon detalhado) — largura 72%
+#   2.3 — Periósteo, endósteo, cartilagem articular: três camadas com três trabalhos
+#         distintos (crescimento aposicional × osteogênese interna × superfície de
+#         deslize)
+#         Figura: slide-22 (superfícies ósseas) — largura 60%
+#         Figura: slide-25 (crescimento aposicional) — largura 55%
+#
+# PARTE III — Forma serve à função: morfologia, vascularização e acidentes ósseos
+#   3.1 — Cinco morfologias, cinco soluções mecânicas (longo=alavanca; curto=cubo
+#         de compressão; plano=escudo; irregular=encaixe; sesamóide=polia)
+#         Figura: slide-28 (longo com epífise/diáfise/metáfise) — largura 50%, lateral
+#         Figura: slide-32 (díploe — sanduíche de osso plano) — largura 50%, lateral
+#         Figura: slide-36 (sesamóides — patela) — largura 50%, lateral
+#   3.2 — Pneumáticos e localização: o osso oco e os "fora de série"
+#         Figura: slide-38 (pneumáticos com cavidades) — largura 65%
+#   3.3 — Vascularização: o forame nutrício e os 4 territórios arteriais
+#         Figura: slide-47 (4 territórios + forame nutrício) — largura 72%
+#   3.4 — Acidentes ósseos: a superfície escreve a história mecânica do osso
+#         Figura: slide-49 (ligamento × tendão — onde o osso sofre tração) — largura 60%
+
+# Cadeia multi-passo ≥5: endocondral tem 5+ etapas (molde cartilaginoso →
+# pericôndrio vira periósteo → centro primário → invasão vascular → centros
+# secundários epifisiais → fechamento da linha epifisial). FIGURA OBRIGATÓRIA
+# já planejada (slide-13).
+
+# =========================================================================
+# Seção B.bis — Registro de abertura por subtópico (rotação obrigatória)
+# =========================================================================
+# Os 5 registros: (1) enquadramento, (2) integração-anterior, (3) integração-posterior,
+# (4) analogia concreta, (5) ponto-de-quebra. Nenhum par vizinho compartilha.
+# Pergunta âncora/retórica BANIDA (canônico 2026-05-29).
+#
+# 1.1 — enquadramento (o que é osso, por que estudar)
+# 1.2 — analogia concreta (escultor vs marceneiro: dois jeitos de fazer osso)
+# 1.3 — ponto-de-quebra (você pensaria que osso pronto é estático — não é)
+# 2.1 — integração-posterior (vai voltar nas próximas aulas de histo)
+# 2.2 — enquadramento (problema-engenheiro: como nutrir matriz dura?)
+# 2.3 — analogia concreta (3 camadas, 3 ofícios)
+# 3.1 — integração-anterior (a arquitetura da PARTE II agora aparece em 5 formas)
+# 3.2 — ponto-de-quebra (osso pneumático parece anomalia, mas é eficiência)
+# 3.3 — enquadramento (osso é vivo → precisa de sangue → como sangue entra?)
+# 3.4 — integração-posterior (essas marcas é o que você vai palpar na clínica)
+
+# =========================================================================
+# Seção B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# =========================================================================
+# Mínimo 3 — frase ≤25 palavras, redator cola na 1ª aparição.
+#
+# - Pré: tecido conjuntivo e matriz extracelular (UC02 histo-04).
+#   Frase: "Lembrando da matriz extracelular: rede de proteína fibrosa banhada
+#   em gel — no osso, essa rede é mineralizada com cálcio."
+#
+# - Pré: célula-tronco mesenquimal (UC02 biocel-09 diferenciação).
+#   Frase: "Célula-tronco mesenquimal é a célula coringa do conjuntivo — pode
+#   virar fibroblasto, condrócito, adipócito ou osteoblasto, dependendo do sinal."
+#
+# - Pré: hematopoese (histologia, vem em sequência).
+#   Frase: "Hematopoese é a fábrica de células do sangue — eritrócitos,
+#   leucócitos e plaquetas saem da medula óssea vermelha, dentro do osso esponjoso."
+#
+# - Pré: noção macro de cartilagem hialina (histo-07 vem na sequência).
+#   Frase: "Cartilagem hialina é o tecido de superfície de deslize das
+#   articulações — denso, avascular, branco-azulado, cobre as extremidades dos ossos."
+
+# =========================================================================
+# Seção C — Distribuição da E2 (PADRÃO: 10 Cons · 15 Int · 5 Apl)
+# =========================================================================
+# Termo-notas obrigatórios (alvo 6-8):
+#   - ósteon
+#   - díploe
+#   - osteogênico
+#   - aposicional
+#   - forame nutrício
+#   - acidente ósseo
+#   - mesenquimal
+#   - remodelação óssea
+
+# =========================================================================
+# Seção D — Pontos de quebra do raciocínio (voz de mecanismo, vocab banido)
+# =========================================================================
+# 1. Quebra: Aluno confunde "ossificação intramembranosa" com "ossificação
+#    de tecidos moles" (ossos heterotrópicos).
+#    Correção: intramembranosa é EMBRIONÁRIA dentro de mesênquima (normal);
+#    heterotópica é PATOLÓGICA, depois do nascimento, em músculo ou tendão.
+#
+# 2. Quebra: Aluno acha que osso cortical e osso compacto são coisas
+#    diferentes — são sinônimos. E que osso esponjoso é "frágil" — pelo
+#    contrário, ele distribui carga em rede.
+#    Correção: cortical = compacto = denso (mesmo tecido). Esponjoso só é
+#    trabecular — leveza com resistência via geometria de favo.
+#
+# 3. Quebra: Aluno espera "linha epifisial" durante a infância — ela só
+#    aparece DEPOIS que a placa de crescimento fecha (vira cicatriz óssea).
+#    Correção: na criança em crescimento existe placa epifisial (cartilagem,
+#    radioluscente); no adulto existe linha epifisial (osso, cicatriz da placa).
+#
+# 4. Quebra: Aluno acha que crescimento em comprimento vem do periósteo —
+#    vem da placa epifisial. Periósteo faz crescimento APOSICIONAL (espessura).
+#    Correção: periósteo deposita osso por fora (engrossa). Placa epifisial
+#    empilha condrócitos novos em cima e osso novo embaixo (alonga).
+#
+# 5. Quebra: Aluno trata "côndilo, cabeça, fóvea, capítulo" como sinônimos
+#    de "protuberância no osso".
+#    Correção: todos são processos articulares (entram em articulação), mas
+#    diferem no formato — côndilo é grande e arredondado; cabeça é bola num
+#    colo; fóvea é côncava/convexa lisa; capítulo é cabecinha pequena.
+#
+# 6. Quebra: Aluno acha que sesamóide existe pra "proteger o tendão do atrito".
+#    Só isso é uma metade da história — o sesamóide ALTERA O BRAÇO DE ALAVANCA
+#    do tendão, melhorando o trabalho mecânico do músculo. A patela é o
+#    exemplo nuclear: sem ela o quadríceps perde força de extensão.
+#    Correção: sesamóide = polia que aumenta o ângulo de tração do tendão.
+#
+# 7. Quebra: Aluno acha que o forame nutrício é a única entrada de sangue.
+#    Correção: há 4 territórios (epifisial, metafisial, periosteal, nutrícia)
+#    — o forame nutrício é a entrada da artéria nutrícia, que é UMA das quatro.
+
+# =========================================================================
+# Seção E — Exemplares-âncora
+# =========================================================================
+# Vou guiar voz pela leitura de:
+# - Exemplares de Anatomia (se houver) — voz didática menos densa, mais
+#   imagem-centrada que bioquímica.
+# - Exemplar de abertura por "ponto-de-quebra" (slide-17 mineralização):
+#   começa pelo que o aluno NÃO ESPERA (osso é dinâmico).
+# - Voz NEBLI canônica: mecanismo antes de nome, nome técnico depois do
+#   conceito. Aplica-se especialmente bem aqui, dado o pedido P1+P2 do Davi.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O osso como órgão vivo"
+        subtopicos:
+          - "1.1 As cinco funções do osso"
+          - "1.2 Duas rotas para fabricar osso"
+          - "1.3 Mineralização é um equilíbrio"
+      - titulo: "PARTE II — Arquitetura serve à carga"
+        subtopicos:
+          - "2.1 Cortical e esponjoso, dois problemas"
+          - "2.2 Ósteon: nutrir uma matriz dura"
+          - "2.3 Periósteo, endósteo e cartilagem"
+      - titulo: "PARTE III — Forma serve à função"
+        subtopicos:
+          - "3.1 Cinco morfologias, cinco soluções"
+          - "3.2 Ossos pneumáticos e fora de série"
+          - "3.3 Vascularização: 4 territórios"
+          - "3.4 Acidentes ósseos: leitura da superfície"
+  - titulo: "Resumindo"
+    blocos: []
+  - titulo: "Etapa 2 — 30 questões objetivas"
+    blocos: []
+  - titulo: "Etapa 3 — 5 discursivas mecanísticas"
+    blocos: []
+  - titulo: "Apêndice — Semi-glossário osteológico"
+    blocos: []
+  - titulo: "Gabarito consolidado da Etapa 2"
+    blocos: []
+
+# Gabarito sorteado independentemente (sem balanceamento).
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "A"]
+    - ["04", "C"]
+    - ["05", "CECE"]
+    - ["06", "B"]
+    - ["07", "A"]
+    - ["08", "D"]
+    - ["09", "C"]
+    - ["10", "ECCE"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "A"]
+    - ["13", "E"]
+    - ["14", "B"]
+    - ["15", "D"]
+    - ["16", "CCEE"]
+    - ["17", "A"]
+    - ["18", "E"]
+    - ["19", "B"]
+    - ["20", "D"]
+    - ["21", "A"]
+    - ["22", "C"]
+    - ["23", "ECEC"]
+    - ["24", "B"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "E"]
+    - ["28", "A"]
+    - ["29", "C"]
+    - ["30", "D"]

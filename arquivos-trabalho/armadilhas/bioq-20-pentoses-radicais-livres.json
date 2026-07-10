@@ -1,0 +1,80 @@
+{
+  "slug": "bioq-20-pentoses-radicais-livres",
+  "total_armadilhas_unicas": 4,
+  "total_questoes_com_armadilha": 4,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Achar que G6PD afeta a glicólise (B) por confundir G6P (intermediário glicolítico) com G6PD (enzima da via das pentoses). G6PD converte G6P em 6-fosfogluconato, gerando NADPH — não é enzima glicolítica. Sem NADPH, a glutationa não pode ser regenerada → hemácias expostas a ERO → hemólise.",
+      "origens": [
+        "0266"
+      ],
+      "nivel": "dificil",
+      "conceito": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+      "tags": [
+        "bioquimica",
+        "deficiencia-enzimatica",
+        "g6pd",
+        "anemia",
+        "hemacia",
+        "nadph",
+        "estresse-oxidativo"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Confundir o papel do NADPH na síntese de ácidos graxos (cofator redutor, 2 NADPH por elongação) com seu papel na degradação lipídica. NADPH alto → mais cofator para síntese de AG (via acetil-CoA carboxilase + FAS). O aluno pode também confundir NADPH com NADH, que é gerado na β-oxidação.",
+      "origens": [
+        "0267"
+      ],
+      "nivel": "dificil",
+      "conceito": "Função do NADPH em diferentes vias metabólicas",
+      "tags": [
+        "bioquimica",
+        "via-pentoses",
+        "nadph",
+        "lipogenese",
+        "glicose"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Inverter as fases: a fase OXIDATIVA produz NADPH + ribose-5-P; a fase NÃO-OXIDATIVA interconverte pentoses (produzindo F6P e G3P) sem gerar NADPH. O aluno confunde quando precisar de só NADPH (ativa oxidativa + não-oxidativa reciclando ribose) vs só pentoses (ativa não-oxidativa a partir de F6P/G3P).",
+      "origens": [
+        "0268"
+      ],
+      "nivel": "dificil",
+      "conceito": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+      "tags": [
+        "bioquimica",
+        "via-pentoses",
+        "nadph",
+        "ribose",
+        "nucleotideos",
+        "estresse-oxidativo"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "o ramo oxidativo gera NADPH (desperdicado se não necessário); a via não-oxidativa e reversivel e não produz NADPH; custo e apenas 1 ATP da hexoquinase",
+      "origens": [
+        "291"
+      ],
+      "nivel": "dificil",
+      "conceito": "quando a célula precisa so de ribose-5-P, usa ramo Não-oxidativo (F6P+G3P → 3 ribose-5-P), sem consumo ou síntese de ATP e sem gerar NADPH desnecessario",
+      "tags": [
+        "via-pentoses",
+        "glicolise",
+        "nadph",
+        "energia-livre",
+        "regulacao-metabolica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

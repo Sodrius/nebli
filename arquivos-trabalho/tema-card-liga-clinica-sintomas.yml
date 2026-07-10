@@ -1,0 +1,79 @@
+slug: liga-clinica-sintomas
+titulo: "Sintomas-chave do raciocínio clínico"
+subtitulo: "Liga de Clínica Médica · Curso Introdutório 2026"
+meta:
+  - ["Disciplina", "Liga de Clínica Médica — Curso Introdutório"]
+  - ["Onde estudar", "Harrison cap. dor torácica, dispneia e edema · Goldman-Cecil cap. correspondentes · UpToDate (Clinical manifestations and evaluation of edema in adults) · Swap & Nagurney JAMA 2005;294:2623"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Dor Torácica: pensar antes de pedir exame"
+        subtopicos:
+          - "1.1 Raciocínio antes da tomografia"
+          - "1.2 Causas graves primeiro"
+          - "1.3 Os cinco grandes diferenciais"
+      - titulo: "PARTE II — Avaliação da Dispneia"
+        subtopicos:
+          - "2.1 Dispneia × fadiga"
+          - "2.2 Dispneia aguda: estabilidade primeiro"
+          - "2.3 Dispneia crônica: as seis causas"
+      - titulo: "PARTE III — Edema: Starling e as 4 etiologias"
+        subtopicos:
+          - "3.1 Forças de Starling no capilar"
+          - "3.2 Localizado × sistêmico"
+          - "3.3 Edema renal (nefrótica × nefrítica)"
+          - "3.4 Edema hepático (cirrose)"
+          - "3.5 Edema cardíaco (IC) e outras causas"
+  - titulo: "Resumindo"
+    descricoes:
+      - "Modelo hipotético-dedutivo, 5 causas letais de dor torácica, ECG"
+      - "Dispneia × fadiga, 6 causas crônicas, likelihood ratio na prática"
+      - "Forças de Starling, nefrótica × nefrítica, cirrose, ICFER × ICFEP, NYHA"
+  - titulo: "Etapa 2 — 30 objetivas"
+    descricoes:
+      - "Consolidação Q01–Q10 (formato Por que/Como/O que explica)"
+      - "Integração Q11–Q25 (cruzamento de dois domínios)"
+      - "Aplicação Q26–Q30 (vinhetas clínicas)"
+  - titulo: "Etapa 3 — 5 discursivas"
+    descricoes:
+      - "ECG normal não exclui IAM, ortopneia × DPN, edema nefrótica"
+      - "Ascite no cirrótico, edema por anlodipino"
+  - titulo: "Gabarito — Etapa 2"
+    descricoes:
+      - "Consolidação · Integração · Aplicação"
+
+gabarito:
+  consolidacao:
+    - ["01", "E"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "C"]
+    - ["05", "E"]
+    - ["06", "B"]
+    - ["07", "E"]
+    - ["08", "C"]
+    - ["09", "D"]
+    - ["10", "D"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "A"]
+    - ["13", "A"]
+    - ["14", "E"]
+    - ["15", "C"]
+    - ["16", "D"]
+    - ["17", "C"]
+    - ["18", "C"]
+    - ["19", "C"]
+    - ["20", "D"]
+    - ["21", "A"]
+    - ["22", "E"]
+    - ["23", "A"]
+    - ["24", "A"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "C"]
+    - ["28", "B"]
+    - ["29", "A"]
+    - ["30", "B"]

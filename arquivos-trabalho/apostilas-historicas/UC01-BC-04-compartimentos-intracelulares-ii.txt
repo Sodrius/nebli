@@ -1,0 +1,1187 @@
+NEBLI · APOSTILA
+
+Compartimentos
+intracelulares II
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Primeira leitura pós-aula; releia antes da P1.
+Onde estudar:  Alberts 6ª ed, Cap. 12 (seções 12.4­12.6) + abertura do Cap. 13
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A lógica do tráfego de proteínas
+
+       1.1 Por que endereçar proteínas?
+       1.2 As três rotas de transporte intracelular
+       1.3 Importação co-traducional ao RE -- SRP e translocon
+  PARTE II -- Retículo endoplasmático
+       2.1 RE rugoso e RE liso
+       2.2 Solúveis × transmembrana -- o destino define a topologia
+       2.3 Modificações no RE -- glicosilação, dissulfetos, controle de qualidade
+  PARTE III -- Golgi, vesículas e lisossomos
+       3.1 Complexo de Golgi -- cis, medial, trans
+       3.2 Vesículas -- capas (clatrina, COPI, COPII)
+       3.3 Endocitose mediada por receptor
+       3.4 Lisossomo -- manose-6-fosfato e doenças de armazenamento
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q10) · verde
+       Integração (Q11­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A célula é um amontoado de membranas que separam ambientes químicos diferentes -- isso a
+    aula anterior já deixou claro. Mas separar é metade do problema. A outra metade é fazer com que
+    cada proteína recém-fabricada saiba para onde ir. Esta aula é sobre esse endereçamento. Quem
+    produz proteínas é o ribossomo, no citosol; mas a esmagadora maioria delas precisa terminar em
+    outro lugar -- na membrana plasmática, dentro de um lisossomo, secretada para fora, integrada
+    à mitocôndria. Como a célula decide o destino? E como o mensageiro chega lá inteiro? O fio
+    condutor da aula é uma rede de tráfego intracelular que começa no retículo endoplasmático, passa
+    pelo Golgi como estação de modificação, e termina em vesículas que zarpam para cada endereço
+    com a carga certa. No final, você vai entender por que o endereçamento errado de uma única
+    enzima pode produzir uma doença mortal.
+
+PARTE I -- A lógica do tráfego de proteínas
+
+1.1 -- Por que endereçar proteínas?
+Comece pela pergunta de origem: por que isso é um problema? Uma bactéria não tem esse drama. O
+citosol dela é o ambiente único onde tudo acontece -- síntese, metabolismo, reações enzimáticas, repli
+cação do DNA. Toda enzima fabricada está exatamente onde precisa estar, porque não há "outro lugar"
+para ela ir. A célula eucariótica, por outro lado, fez uma aposta diferente. Compartimentalizou. Encolheu
+o citosol e enfiou ali dentro vários sacos-membrana especializados: um núcleo, mitocôndrias, retículo
+endoplasmático, Golgi, lisossomos, peroxissomos. Cada saco ganhou um pH próprio, uma composição
+iônica própria, um conjunto próprio de enzimas, um conjunto próprio de substratos. Reações que seriam
+incompatíveis no mesmo ambiente -- degradação ácida no lisossomo enquanto a síntese proteica
+ocorre no citosol neutro -- passaram a coexistir tranquilamente, cada uma na sua sala.
+A aposta deu certo, mas criou um problema novo: quem entrega o quê em cada sala? O ribossomo só
+sabe traduzir mRNA em proteína. Ele não tem GPS embutido. Quando termina, o produto cai onde o
+ribossomo estava -- quase sempre no citosol. Como a hexoquinase, recém-sintetizada no citosol, vai
+parar dentro da mitocôndria para a glicólise? Como a tripsina, fabricada no mesmo citosol, é entregue
+ao lúmen do intestino sem digerir a célula no caminho? Como a insulina, produzida em uma célula  do
+pâncreas, atravessa membrana após membrana até ser exocitada na corrente sanguínea?
+A resposta tem uma palavra: endereçamento. Cada proteína destinada a outro compartimento carrega
+na própria sequência uma etiqueta -- uma sequência curta de aminoácidos que funciona como CEP.
+Quem lê essa etiqueta são receptores específicos em cada organela. Lê, reconhece, importa. Não há
+etiqueta, fica no citosol. É um sistema simples no princípio, sofisticado na implementação. Günter
+
+   1Günter Blobel (1936­2018), biólogo molecular germano-americano. Demonstrou nos anos 70 que proteínas destinadas
+ao RE carregam um peptídeo-sinal N-terminal que é reconhecido durante a tradução. O conceito generalizou-se para todas
+as organelas -- cada destino tem seu próprio tipo de etiqueta.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Blobel ganhou o Nobel de 1999 por demonstrar exatamente isso1 -- e a aula de hoje é, em larga medida,
+a história de como essas etiquetas funcionam para um conjunto específico de destinos.
+
+Resumindo até aqui: Compartimentalizar separou reações incompatíveis, mas obrigou a célula a
+inventar um sistema de endereçamento. Cada proteína que não fica no citosol carrega uma etiqueta de
+sequência -- e é a etiqueta, não o ribossomo, que define o destino.
+
+1.2 -- As três rotas de transporte intracelular
+A célula não usa um único método para mover proteína entre compartimentos. Usa três, e cada um faz
+sentido para um tipo específico de destino. Vale memorizar esse trio agora -- ele estrutura tudo que
+vem depois.
+
+Os três modos de tráfego intracelular. O poro nuclear funciona como uma porta seletiva que reconhece etiquetas
+e deixa a proteína passar enovelada. O transporte transmembrana atravessa a bicamada via canal proteico,
+geralmente exigindo desenovelamento. O transporte vesicular embala a carga em uma vesícula que zarpa de uma
+organela e funde com outra.
+
+A primeira rota é o transporte por barreira seletiva -- exemplificada pelo poro nuclear. O poro é uma
+estrutura proteica gigantesca que perfura o envelope nuclear e funciona como porta, não como buraco.
+Ela seleciona quem passa lendo etiquetas (sinais de localização nuclear, NLS) e deixa passar a proteína já
+enovelada. Repare na imagem do poro como um anel com fibrilas para os dois lados: ele é uma máquina,
+não uma fenda passiva. Essa rota cobre a comunicação entre citosol e núcleo nos dois sentidos, e ela foi
+o foco da aula anterior.
+A segunda rota é o transporte transmembrana -- proteína passando por um canal embutido na
+bicamada lipídica, geralmente desenovelada, depois reenovelando do outro lado. É como passar uma
+linha por uma agulha: ou você desfia ou ela não cabe. Esse mecanismo serve principalmente para a
+importação de proteínas para mitocôndria, peroxissomo e -- o tema central de hoje -- retículo endo
+plasmático. A grande diferença entre o RE e os outros dois está em quando o desenovelamento acontece.
+Em mitocôndria e peroxissomo, a proteína é sintetizada inteira no citosol, e só depois é importada
+
+                                                                                 4
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+(transporte pós-traducional). No RE, a proteína começa a ser traduzida e já entra no RE enquanto está
+sendo fabricada (co-traducional). Vamos voltar a essa diferença daqui a pouco.
+A terceira rota é o transporte vesicular -- pequenas bolsas de membrana que brotam de uma organela
+carregando proteínas dentro do lúmen ou na própria membrana da bolsa, viajam pelo citosol e fundem
+com a membrana da organela-alvo. É o método usado para mover proteínas entre RE, Golgi, membrana
+plasmática, endossomos e lisossomos. Toda a "via secretória" -- a estrada principal que produz proteí
+nas de secreção, de membrana e de organela -- funciona por transporte vesicular.
+NLS2
+RE3
+
+       Rota    Mecanismo                 Destino típico  Estado da proteína
+
+Poro seletivo  Porta proteica gigante    Núcleo          Já enovelada
+               (NPC) que lê etiquetas e
+               deixa passar
+
+Transmembrana  Cadeia atravessa canal    Mitocôndria,  peroxis Desenovelada
+               proteico (translocon) na  somo, RE
+               bicamada
+
+Vesicular      Bolsa de membrana         Golgi, lisossomo, MP, ex Enovelada, dentro da
+               brota de uma organela e
+               funde com outra           ocitose         vesícula
+
+Resumindo até aqui: A aula segue a rota transmembrana até o RE -- e dali em diante, a vesicular. Poro
+fica para a aula anterior; mito e peroxissomo também.
+
+1.3 -- Importação co-traducional ao RE -- SRP e translocon
+Aqui está o ponto que muda tudo. Quando uma proteína é destinada ao RE, ela não é sintetizada por
+completo no citosol para depois ser importada -- como acontece com proteínas mitocondriais ou
+peroxissomais. Em vez disso, a tradução começa no citosol, é interrompida no meio, e a continuação
+acontece com o ribossomo já ancorado na membrana do RE, com a cadeia nascente entrando direto no
+lúmen pelo translocon. É co-traducional: o produto entra no RE ao mesmo tempo em que é fabricado.
+
+Por que essa escolha? Porque proteínas destinadas ao RE costumam ser grandes, hidrofóbicas em
+segmentos, ou enovelam rápido demais. Se elas fossem sintetizadas inteiras no citosol, dificilmente
+conseguiriam ser desenoveladas depois para atravessar o canal -- chaperonas teriam que segurar a
+forma estendida o tempo todo, gastando energia, e mesmo assim com baixa eficiência. A estratégia co-
+traducional resolve isso de forma elegante: a proteína entra no RE antes de ter forma definitiva, ainda
+esticada, e enovela só do lado de dentro.
+
+   2NLS ­ nuclear localization signal -- sinal de localização nuclear, sequência rica em lisinas e argininas que direciona
+proteínas ao núcleo via importina.
+
+   3RE ­ retículo endoplasmático -- rede de membranas contínuas que partem do envelope nuclear, dividida em RE rugoso
+(com ribossomos) e RE liso (sem ribossomos).
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A SRP reconhece o peptídeo-sinal emergindo do ribossomo, faz a tradução pausar, e leva o complexo até o receptor
+de SRP na membrana do RE. Encaixe no translocon  SRP solta  tradução retoma com a cadeia entrando direto
+no lúmen. Repare como o ribossomo nunca solta o mRNA durante toda a manobra.
+
+O mecanismo passa por uma molécula central: a SRP4. Ela é um complexo de RNA + proteínas que circula
+no citosol em busca de ribossomos traduzindo proteínas com etiqueta para o RE. A etiqueta aqui é o
+peptídeo-sinal -- uma sequência hidrofóbica curta ( 15­30 aminoácidos), geralmente no N-terminal,
+ou seja, a primeira coisa a sair do ribossomo.
+Vamos passo a passo. (1) O ribossomo começa a traduzir o mRNA no citosol. (2) Os primeiros aminoáci
+dos saem do túnel ribossomal -- se houver peptídeo-sinal, ele emerge primeiro. (3) A SRP, patrulhando o
+citosol, encaixa-se no peptídeo-sinal e no ribossomo, e dispara uma pausa na tradução. A tradução para,
+mas o ribossomo não solta o mRNA. (4) O complexo SRP-ribossomo-mRNA-cadeia-nascente difunde
+até a membrana do RE, onde encontra o receptor de SRP, uma proteína integral do RE. (5) Encaixe
+ribossomo­receptor  o ribossomo é entregue ao translocon5 -- um canal aquoso na membrana do RE
+que vai receber a cadeia. (6) A SRP solta, a tradução retoma, e a cadeia que sai do ribossomo entra direto
+no canal do translocon, atravessa a membrana e cai no lúmen do RE. (7) Uma protease específica do RE
+-- peptidase de sinal -- corta o peptídeo-sinal logo após a entrada, liberando a proteína madura.
+A SRP é, portanto, uma máquina de "freio + entrega". Ela impede que a proteína termine no citosol
+e fisicamente leva o ribossomo até o RE. O receptor de SRP é a sua contraparte ancorada -- sem ele, a
+entrega não acontece.
+
+   4signal recognition particle -- partícula de reconhecimento de sinal, complexo de RNA + 6 proteínas. Em mamíferos,
+contém o 7SL RNA e proteínas SRP9, 14, 19, 54, 68, 72. A SRP54 reconhece o peptídeo-sinal e tem atividade GTPásica.
+
+   5Translocon -- complexo proteico Sec61// que forma um canal aquoso através da membrana do RE. Quando vazio, o
+canal é fechado por um "plug" (tampão) e por uma vedação lateral. Quando uma cadeia nascente entra, o plug se desloca
+e o canal abre.
+
+                                                                                 6
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+Não confunda os tempos da importação
+
+Mitocôndria e peroxissomo importam pós-traducionalmente -- a proteína inteira é fabricada
+no citosol e depois é importada (precisa de chaperonas para mantê-la desenovelada). RE importa
+co-traducionalmente -- a proteína entra ao mesmo tempo em que é fabricada. Outra confusão
+frequente: o peptídeo-sinal não é DNA, não é RNA, é parte da própria proteína -- são os primeiros
+aminoácidos traduzidos. E essa parte é cortada após a entrega, então a proteína madura no lúmen
+do RE não tem mais o peptídeo-sinal.
+
+    Síntese 1.3 -- O endereçamento ao RE acontece enquanto a proteína está sendo traduzida. A
+    SRP reconhece o peptídeo-sinal, pausa a tradução, leva o ribossomo até o receptor de SRP na
+    membrana do RE, transfere o ribossomo ao translocon, e a tradução retoma com a cadeia entrando
+    direto no lúmen. A peptidase de sinal corta o peptídeo-sinal após a entrada. Fim do tráfego do
+    citosol para o RE.
+
+PARTE I termina com uma ideia que vale guardar: o tráfego intracelular não é caótico nem aleatório.
+Cada proteína carrega no próprio polipeptídeo a informação sobre seu destino, e a célula tem máquinas
+específicas -- SRP, receptor, translocon -- que leem essa informação e fazem a entrega. A próxima parte
+aprofunda o que acontece uma vez dentro do RE.
+
+PARTE II -- Retículo endoplasmático
+
+2.1 -- RE rugoso e RE liso
+O retículo endoplasmático é uma rede contínua de cisternas -- sacos achatados -- e túbulos, conectada
+diretamente ao envelope nuclear externo. Contínua significa: o lúmen do RE é um espaço único, sem
+septos. A membrana do envelope nuclear externo é parte da membrana do RE -- não há fronteira entre
+eles. Isso parece detalhe, mas tem consequência funcional grande: tudo o que é fabricado e modificado
+no RE pode circular livremente pelo lúmen inteiro até encontrar a porta de saída para o Golgi.
+
+O RE se divide morfológica e funcionalmente em duas porções. RE rugoso -- assim chamado porque
+ao microscópio eletrônico aparece coberto de ribossomos, dando o aspecto granular. É a porção onde
+acontece a síntese co-traducional que acabamos de ver: ribossomos ancorados no translocon enfiando
+proteínas no lúmen. É também onde acontecem as modificações iniciais (glicosilação, dissulfetos,
+controle de qualidade -- voltamos a isso em 2.3).
+
+       7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+À esquerda, micrografias do RE rugoso (com ribossomos aderidos) e do RE liso (sem ribossomos). À direita, esquema
+mostrando a continuidade entre envelope nuclear, RE rugoso, RE de transição e RE liso. Repare como tudo é uma
+única membrana -- o lúmen é compartilhado.
+
+RE liso -- sem ribossomos. Faz outras três coisas principais: síntese de lipídeos (a maioria dos
+fosfolipídeos da célula é fabricada aqui), estoque de cálcio (em células musculares, onde se chama
+retículo sarcoplasmático, esse estoque é a fonte de Ca² para a contração), e detoxificação (em hepatóc
+itos, citocromos P450 modificam xenobióticos para excreção). É também onde acontece o brotamento
+de vesículas que carregam proteínas para frente -- a região chamada RE de transição concentra essa
+atividade.
+A proporção entre RE rugoso e RE liso varia conforme a função da célula. Um plasmócito produzindo
+anticorpos é quase só RE rugoso. Um hepatócito tem muito RE liso para detoxificar. Uma fibra muscular
+esquelética tem retículo sarcoplasmático bem desenvolvido. A morfologia segue a função -- e aqui isso
+é literalmente visível ao microscópio.
+
+2.2 -- Solúveis × transmembrana -- o destino define a topologia
+Uma vez no RE, a proteína pode ter dois destinos topológicos diferentes, e o que determina qual é deles
+está codificado na própria sequência. Vamos ver os dois casos.
+Caso 1: proteína solúvel. O peptídeo-sinal é N-terminal, hidrofóbico, e dispara a importação para o
+RE. A cadeia inteira atravessa o translocon e cai no lúmen. A peptidase de sinal corta o peptídeo-sinal.
+Resultado: a proteína fica completamente no lúmen, solúvel, sem nenhuma parte presa na membrana.
+Será uma proteína secretada (insulina, anticorpo, enzima digestiva) ou uma proteína residente do RE/
+Golgi/lisossomo.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Proteína solúvel: o peptídeo-sinal N-terminal é cortado, a cadeia inteira atravessa o translocon, e a proteína madura
+fica no lúmen do RE.
+
+Caso 2: proteína transmembrana com uma passagem. Aqui aparece um segundo elemento na sequên
+cia: a sequência de parada de transferência -- uma região hidrofóbica interna, alguns aminoácidos
+depois do peptídeo-sinal. Quando essa região hidrofóbica entra no translocon, o canal abre lateralmente
+e libera a região hidrofóbica para dentro da bicamada lipídica. A proteína passa a ter uma porção no
+lúmen do RE (a porção N-terminal, que entrou primeiro) e uma porção no citosol (a porção C-terminal,
+que estava sendo fabricada quando o sinal de parada apareceu) -- atravessada pela hélice transmem
+brana hidrofóbica.
+
+Proteína transmembrana de uma passagem: o peptídeo-sinal puxa a entrada, a sequência de parada de transferência
+ancora a cadeia na membrana, e a proteína termina com uma porção no lúmen e outra no citosol.
+
+Caso 3: proteína transmembrana com múltiplas passagens. Aqui o que organiza o processo é uma
+alternância entre sinais internos de início e sinais internos de parada. Cada sinal interno de início abre o
+translocon e empurra a cadeia para dentro; cada sinal de parada fecha e libera a hélice transmembrana
+
+                                                                                 9
+NEBLI                                                ETAPA 1 -- TEXTO DIDÁTICO
+
+para a bicamada. Sucessivos pares de sinais fazem a cadeia entrar-sair-entrar-sair, deixando múltiplas
+hélices transmembrana ancoradas. Receptores acoplados a proteína G (sete passagens, como o receptor
+adrenérgico) e canais iônicos (várias passagens, como o canal de Na voltagem-dependente) são fabri
+cados assim.
+
+Proteína transmembrana de múltiplas passagens: o peptídeo-sinal interno não é cortado e funciona como primeira
+âncora; um sinal de parada de transferência fecha a primeira passagem; um novo sinal interno de início reabre a
+segunda; e assim por diante. Cada hélice transmembrana é uma alternância sinal-início/sinal-parada.
+
+A topologia final da proteína é decidida durante a inserção co-traducional no RE. Uma vez que a
+proteína saiu do RE, a orientação dela na membrana é definitiva -- o que está no lúmen continuará
+no lúmen quando a proteína chegar à membrana plasmática (porque o lúmen do RE vira o lúmen das
+vesículas, que ao fundir com a MP vira o lado externo da célula). É um princípio importante: o citosol é
+sempre o citosol, e o lúmen das organelas da via secretória é topologicamente "externo" à célula.
+
+         Caso  Sinais na sequência       Resultado              Exemplos
+                                         topológico
+
+Solúvel        Só peptídeo-sinal N-ter   Cadeia inteira no lú   Insulina, anticor
+               minal, depois cortado     men do RE              pos, enzimas diges
+                                                                tivas
+
+Uma passagem   Peptídeo-sinal + 1 se     N-terminal no lúmen,   Receptor de LDL,
+               quência de parada de      C-terminal no citosol  receptor de insulina
+               transferência
+
+Múltiplas passagens Alternância de sinais in Várias hélices trans GPCR (7 passagens),
+
+               ternos início/parada      membrana ancoradas canais iônicos
+
+                                     10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Solúvel = só peptídeo-sinal, cortado, cadeia inteira no lúmen. Uma passagem
+= peptídeo-sinal + parada de transferência, N-terminal no lúmen e C-terminal no citosol. Múltiplas
+passagens = alternância de sinais internos de início/parada. A topologia decidida no RE é a topologia
+final na membrana plasmática.
+
+2.3 -- Modificações no RE -- glicosilação, dissulfetos, controle de qualidade
+Entrou no RE, a proteína começa a sofrer modificações pesadas. Três tipos importam: glicosilação
+ligada ao N, pontes dissulfeto e enovelamento sob supervisão (controle de qualidade). Vamos por
+partes.
+
+Modificações principais no RE: glicosilação ligada ao N (transferência em bloco de oligossacarídeo do dolicol-
+fosfato para a asparagina alvo), formação de pontes dissulfeto (catalisada pela PDI), e enovelamento sob supervisão
+(calnexina e calreticulina).
+
+Glicosilação ligada ao N. Enquanto a cadeia ainda está sendo enfiada no lúmen, uma enzima -- a
+oligossacaril-transferase -- escaneia a sequência em busca de asparaginas (N) em contexto N­X­S/
+T (onde X é qualquer aminoácido exceto prolina). Toda vez que encontra uma, transfere um oligos
+sacarídeo pré-fabricado (uma cadeia de 14 açúcares: 3 glicoses, 9 manoses, 2 N-acetilglicosaminas) que
+estava ancorado na face luminal da membrana via dolicol-fosfato. O bloco inteiro é transferido em uma
+única reação para o nitrogênio da cadeia lateral da asparagina. Daqui em diante, essa asparagina passa
+a ser uma "asparagina glicosilada". A função: a glicosilação contribui para o enovelamento correto (os
+açúcares são hidrofílicos e estabilizam regiões da proteína na água do lúmen) e funciona como tag para
+o controle de qualidade que vem a seguir.
+Pontes dissulfeto. O lúmen do RE é um ambiente oxidante -- diferente do citosol, que é redutor. Essa
+diferença permite que cisteínas próximas no espaço formem ligações covalentes S­S entre elas, estabi
+lizando o enovelamento final. A enzima que catalisa essas ligações chama-se PDI6. As pontes dissulfeto
+trancam o enovelamento -- uma vez formadas, a proteína fica estável mesmo em condições químicas
+
+   6protein disulfide isomerase -- isomerase de pontes dissulfeto, presente em alta concentração no lúmen do RE. Catalisa
+formação, quebra e rearranjo de pontes S­S até a proteína atingir o padrão correto.
+
+                                                                                11
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+adversas (suor, suco gástrico, plasma). É por isso que proteínas secretadas (anticorpos, insulina, enzimas
+digestivas) têm tantas pontes dissulfeto: elas precisam funcionar fora da célula, longe da supervisão
+do citosol.
+Enovelamento sob supervisão. O lúmen do RE é cheio de chaperonas que ajudam proteínas a enovelar
+e impedem que saiam meio dobradas. O ciclo calnexina­calreticulina é o exemplo clássico. Essas duas
+chaperonas reconhecem proteínas glicosiladas com um único glicose remanescente no oligossacarídeo.
+Acabou de chegar a glicoproteína? Tem 3 glicoses. Uma glicosidase corta 2, sobra 1. Calnexina/calretic
+ulina ligam e seguram a proteína enquanto ela tenta enovelar. Outra glicosidase corta o último glicose
+-- calnexina/calreticulina soltam. Se a proteína já enovelou direito, segue para o Golgi. Se não enovelou,
+uma transferase recoloca o glicose -- calnexina/calreticulina pegam de novo. O ciclo se repete até o
+enovelamento dar certo.
+
+Controle de qualidade falhando = doença
+
+Se a proteína nunca consegue enovelar (mutação ruim, por exemplo), o ciclo trava. A proteína
+é retrotranslocada para o citosol e degradada no proteassomo -- um processo chamado ERAD
+(degradação associada ao RE). Em situações de estresse -- muita proteína mal-dobrada acumu
+lando no lúmen -- a célula dispara a resposta a proteínas mal-dobradas (UPR), que tenta
+reduzir a tradução e aumentar a expressão de chaperonas. Quando a UPR não dá conta, a célula
+entra em apoptose. Esse mecanismo é central em diabetes tipo 2 (acúmulo de pré-pró-insulina
+mal-dobrada nas células ), fibrose cística (CFTR mutante preso no RE) e várias doenças neurode
+generativas.
+
+    Síntese 2.3 -- O RE não é só uma porta de entrada -- é uma fábrica de acabamento. Glicosilação
+    ligada ao N marca asparaginas com oligossacarídeo do dolicol, ambiente oxidante permite pontes
+    dissulfeto via PDI, e o ciclo calnexina­calreticulina dá voltas no enovelamento até a proteína sair
+    pronta. Quem não passa no controle vai pro proteassomo via ERAD.
+
+PARTE II fecha aqui. Da entrada co-traducional, passando pela definição da topologia, até as modifi
+cações que tornam a proteína apta a viajar -- todo o trabalho do RE é preparar a carga para a próxima
+parada: o Golgi.
+
+PARTE III -- Golgi, vesículas e lisossomos
+
+3.1 -- Complexo de Golgi -- cis, medial, trans
+Saída do RE, próxima parada: o complexo de Golgi. Estruturalmente, o Golgi é uma pilha de cisternas
+achatadas -- geralmente 4 a 6 -- empilhadas como pratos. Funcionalmente, ele tem duas faces: a face
+cis, que recebe vesículas vindas do RE, e a face trans, que despacha vesículas para os destinos finais
+(membrana plasmática, lisossomos, vesículas secretoras). Entre as duas, uma face medial. Cis recebe,
+trans despacha, medial trabalha no meio. Em geral, o Golgi fica próximo do núcleo, perto da região
+onde está concentrado o RE de transição.
+
+       12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Posição do Golgi próximo ao núcleo. O cluster vesicular tubular ("VTC") é a região intermediária onde vesículas do
+RE se fundem antes de chegar à face cis do Golgi.
+O que acontece no Golgi? Modificações sequenciais. Cada cisterna tem um conjunto próprio de enzimas
+-- glicosil-transferases, glicosidases, sulfotransferases, fosfotransferases. A proteína entra pela face cis
+carregando o oligossacarídeo "padrão" que ganhou no RE; vai sendo modificada cisterna por cisterna;
+sai pela face trans com a glicosilação final, que pode ser radicalmente diferente da inicial. A fosforilação
+de manose (essa especificamente importa muito -- voltamos a ela em 3.4) acontece na face cis. Sulfa
+tação e adição de sialic acid acontecem na face trans.
+
+Vesículas brotam do RE de transição, fundem com o VTC, e progridem pelo Golgi cisterna a cisterna. Na face trans, o
+Golgi se ramifica em vesículas que zarpam para destinos diferentes -- membrana plasmática, lisossomo, grânulos
+de secreção.
+O Golgi é, portanto, uma estação de modificação e classificação. Modifica os açúcares para terminar
+a glicoproteína no padrão correto, e classifica para qual destino a proteína vai com base nas etiquetas
+
+                                                                                13
+NEBLI                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+químicas que ela ganhou. Uma proteína destinada ao lisossomo, por exemplo, ganha manose-6-fosfato
+na face cis -- e essa marca é o que vai direcioná-la para o lisossomo lá adiante. Sem a marca, vai parar
+em outro lugar.
+
+3.2 -- Vesículas -- capas (clatrina, COPI, COPII)
+O transporte entre RE, Golgi, membrana plasmática e endossomos acontece por vesículas. Mas vesícula
+não brota de qualquer membrana de qualquer jeito -- ela é construída por uma capa proteica que se
+monta sobre a membrana de origem, deforma a membrana, recolhe a carga e finaliza o brotamento.
+Três capas dominam, cada uma associada a uma rota específica.
+
+Montagem da capa proteica sobre a membrana doadora. Proteínas adaptadoras reconhecem cargas específicas no
+lúmen e na membrana; as proteínas da capa (clatrina, COPI ou COPII, dependendo da rota) se montam por cima e
+deformam a membrana até o brotamento da vesícula.
+
+Capa      Rota                          Função                   Sinal de carga
+
+COPII     RE  Golgi (anterógrada    Primeira "empurrada" para a  Sinais de saída do RE
+          inicial)                  frente na via secretória     no domínio citosólico da
+                                                                 carga
+
+COPI      Golgi  RE (retrógrada) e Recupera residentes do RE KDEL (solúveis), KKXX
+
+          entre cisternas           que escaparam                (transmembrana)
+
+Clatrina  Trans-Golgi  endos        Triscele de 3 pernas mon     Adaptadores AP-1 (Golgi),
+          somo/MP, e endocitose na  tando rede hexagonal-pen     AP-2 (endocitose)
+          MP                        tagonal
+
+A clatrina merece destaque por ter dois papéis: monta vesículas no trans-Golgi (saída) E também faz
+a endocitose mediada por receptor na membrana plasmática (entrada). É a única das três capas que
+trabalha nos dois sentidos, e a única que aparece na face citosólica da própria MP.
+
+                                    14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+    Não confunda as direções e as capas
+
+    COPII = RE  Golgi (anterógrada, "para frente"). COPI = Golgi  RE (retrógrada, "para trás")
+    e entre cisternas do Golgi. Clatrina = trans-Golgi  endossomo/MP, e endocitose mediada por
+    receptor. A regra mnemônica: COPII tem dois "I" porque é "anterógrada inicial" (RE para Golgi);
+    COPI tem um só porque é a recuperação retrógrada. E clatrina é tudo o que envolve trans-Golgi
+    ou membrana plasmática.
+
+Como a vesícula sabe onde ancorar depois de brotar? Por outra etiqueta: as SNAREs. Cada vesícula
+carrega uma v-SNARE (vesicular) e cada membrana-alvo carrega uma t-SNARE (target). As duas se
+reconhecem e zíper -- o emparelhamento da v-SNARE com a t-SNARE puxa as duas membranas para
+perto e dispara a fusão. SNAREs são, portanto, o sistema de endereçamento de chegada -- equivalente
+à porta de destino, complementando o sistema de endereçamento de carga das capas.
+
+3.3 -- Endocitose mediada por receptor
+A endocitose é o processo pelo qual a célula puxa para dentro de si um pedaço da membrana plasmática
+junto com material extracelular. Há três tipos básicos: fagocitose (engolir partículas grandes, feita por
+macrófagos), pinocitose (engolir líquido extracelular em vesículas pequenas) e endocitose mediada por
+receptor -- o caso que importa aqui, porque é o mais seletivo e o mais clinicamente relevante.
+
+Endocitose mediada por receptor: o ligante extracelular se liga ao receptor na MP; receptores carregados se concen
+tram em uma fossa coberta por clatrina; a clatrina se monta e brota a vesícula para dentro da célula. A acidificação
+do endossomo dissocia receptor de ligante -- o ligante segue para degradação, o receptor é reciclado para a MP.
+
+O mecanismo: na face externa da membrana plasmática, um receptor específico se liga ao ligante alvo
+(LDL para o receptor de LDL, transferrina para o receptor de transferrina, vitamina B12 ligada ao fator
+intrínseco para seu receptor). Cada receptor liga só "o seu". Receptores com ligante se concentram em
+regiões da membrana chamadas fossas cobertas por clatrina -- onde a clatrina se monta do lado
+citosólico da membrana. Quando a montagem termina, a clatrina deforma a membrana para dentro,
+
+                                                                                15
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+brotando uma vesícula coberta de clatrina que carrega o complexo receptor­ligante. Logo após o
+brotamento, a clatrina se desmonta e é reciclada.
+A vesícula funde com um endossomo precoce, cujo lúmen é levemente ácido (pH 6,0). O pH ácido tem
+uma função química importante: muitos receptores soltam o ligante em pH ácido. A separação acontece:
+o receptor é reciclado de volta para a membrana plasmática (em uma vesícula que volta), e o ligante
+segue para o endossomo tardio e dali para o lisossomo, onde é degradado.
+
+Hipercolesterolemia familiar
+
+O LDL ("colesterol ruim") é internalizado por endocitose mediada por receptor -- o receptor
+de LDL (LDLR) está nas fossas cobertas por clatrina. Mutações no gene do LDLR (cromossomo
+19) impedem que o receptor funcione: ou ele não chega à membrana (mutações classe 2, mais
+comuns), ou chega mas não liga LDL (classe 3), ou liga mas não internaliza (classe 4 -- afeta a
+sequência que se ancora na fossa de clatrina). Resultado: LDL fica no plasma em concentrações
+altíssimas (>500 mg/dL em homozigotos), causando aterosclerose grave, infarto do miocárdio
+na adolescência ou início da vida adulta. É a primeira doença em que a relação direta entre uma
+proteína de membrana e uma doença cardiovascular foi demonstrada (Brown e Goldstein, Nobel
+1985).
+
+A mesma maquinaria internaliza muitas outras coisas além do LDL: ferro via transferrina, B12 via fator
+intrínseco, fatores de crescimento via seus receptores específicos (EGF, insulina), e -- relevante na
+patogênese -- alguns vírus, como o influenza, que sequestram a endocitose mediada por receptor para
+entrar na célula.
+
+3.4 -- Lisossomo -- manose-6-fosfato e doenças de armazenamento
+O lisossomo é o compartimento da degradação intracelular. Lúmen com pH 4,5­5,0 (mantido por uma
+bomba de prótons V-ATPase na membrana) e cheio de enzimas hidrolíticas -- proteases (catepsinas),
+nucleases, lipases, glicosidases, sulfatases. Em pH ácido, essas enzimas são ativas e digerem qualquer
+macromolécula que apareça no lúmen. Em pH neutro, elas perdem atividade -- o que é uma proteção:
+se um lisossomo vazasse no citosol, o pH do citosol neutralizaria as enzimas antes que estragassem
+alguma coisa.
+
+       16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Múltiplas rotas chegam ao lisossomo: endocitose (vinda da MP via endossomo), fagocitose (engolfar partículas via
+fagolisossomo) e autofagia (degradar organelas próprias via autofagolisossomo). Em todos os casos, o conteúdo é
+entregue ao lisossomo para hidrólise pelas enzimas ácidas.
+
+Como as enzimas hidrolíticas chegam ao lisossomo sem digerir o RE e o Golgi durante o transporte?
+Pela mesma lógica das outras proteínas: por endereçamento. Mas o endereçamento aqui é um tag
+químico, não uma sequência de aminoácidos. Na face cis do Golgi, enzimas chamadas fosfotransferases
+reconhecem as enzimas lisossomais e fosforilam um resíduo de manose em N-6, criando manose-6-
+fosfato (M6P) nos oligossacarídeos da enzima. Na face trans do Golgi, receptores de M6P reconhecem
+a marca e empacotam as enzimas em vesículas cobertas por clatrina que vão para o endossomo tardio
+(que vai amadurecer em lisossomo). No endossomo, o pH ácido faz o receptor soltar a enzima, o receptor
+é reciclado para o Golgi, e a enzima fica no lisossomo, agora ativa por causa do pH baixo.
+Tudo gira em torno de uma tag química -- manose-6-fosfato -- e do receptor que reconhece essa tag.
+Sem M6P, a enzima é secretada para fora da célula em vez de ir para o lisossomo.
+
+    Doença das células I (I-cell disease, mucolipidose II)
+
+    Mutação na N-acetilglicosamina-1-fosfotransferase -- a enzima do Golgi que adiciona o fosfato
+    à manose. Sem essa enzima, as enzimas lisossomais não ganham a tag M6P. Sem a tag, elas não
+    são reconhecidas pelo receptor de M6P. Sem o reconhecimento, elas saem do trans-Golgi pela via
+    default -- que é a secreção. Resultado bizarro: o sangue do paciente tem concentrações altíssimas
+    de enzimas hidrolíticas, mas o lisossomo está vazio. Sem enzimas, o lisossomo acumula material
+    não digerido -- lipídeos, glicoconjugados, oligossacarídeos -- formando inclusões grosseiras
+    visíveis ao microscópio (daí o nome "células I", de inclusion). Clinicamente: retardo mental,
+    deformidades esqueléticas, hepatoesplenomegalia, óbito na infância. É uma doença que ilustra
+    como uma única falha no endereçamento de um único tipo de enzima desestrutura uma organela
+    inteira.
+
+A I-cell disease é o exemplo mais didático de uma classe de doenças chamada doenças de armazena
+mento lisossomal -- todas têm em comum o acúmulo de algum material não digerido no lisossomo,
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+por falta da enzima específica que degradaria aquele substrato. Mucopolissacaridoses (deficiência
+em enzimas que degradam glicosaminoglicanos), gangliosidoses como Tay-Sachs (deficiência em hex
+osaminidase A, que degrada gangliosídeo GM2), doença de Gaucher (deficiência em glicocerebrosidase).
+Cada uma com uma enzima ausente; cada uma com um substrato acumulado; todas com o lisossomo
+entupido e a célula sofrendo as consequências.
+
+Síntese 3.4 -- O lisossomo recebe enzimas hidrolíticas via vesículas que brotaram do trans-Golgi
+com cobertura de clatrina. O endereçamento é químico -- manose-6-fosfato -- adicionada na
+face cis e lida na face trans. Em pH ácido do endossomo/lisossomo, o receptor solta a enzima. Falha
+no endereçamento (sem M6P, como na I-cell disease) faz a enzima ser secretada e o lisossomo
+ficar vazio, acumulando substratos.
+
+Conclusão integradora
+
+Fechando: a aula de hoje cobriu o tráfego de proteínas pela via secretória. Tudo começa no citosol,
+com o ribossomo lendo um mRNA. Se a proteína carrega peptídeo-sinal N-terminal, a SRP a leva
+ao RE durante a tradução -- importação co-traducional, característica única do RE. No lúmen do
+RE, a proteína é glicosilada (oligossacarídeo do dolicol-fosfato), forma pontes dissulfeto via PDI
+no ambiente oxidante, e passa pelo controle de qualidade de calnexina­calreticulina; quem não
+enovela é degradado por ERAD. Topologicamente, a proteína pode terminar solúvel no lúmen
+(peptídeo-sinal cortado) ou ancorada na membrana (sinais internos de início/parada). Vesículas
+COPII levam a carga do RE ao Golgi, onde cisternas cis-medial-trans fazem modificações sequen
+ciais nos açúcares. COPI faz a rota retrógrada Golgi  RE e entre cisternas. Da face trans do
+Golgi, vesículas cobertas por clatrina vão para a membrana plasmática, para a secreção, ou para
+o lisossomo -- esse último endereçado pela manose-6-fosfato adicionada na face cis do Golgi. A
+endocitose mediada por receptor traz material para dentro da célula via clatrina na membrana
+plasmática, e o material vai parar no lisossomo via endossomo. Cada passo é controlado por
+etiquetas de endereçamento -- sequências de aminoácidos, modificações de açúcar, capas prote
+icas, SNAREs. Quebre uma etiqueta e a célula adoece: hipercolesterolemia familiar quando falha
+o LDLR, I-cell disease quando falha a fosfotransferase do Golgi. O endereçamento certo é a
+diferença entre uma célula funcional e uma célula com inclusões.
+
+       18
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Endereçamento por etiqueta de                            Topologia decidida no RE é definitiva
+aminoácidos
+                                                         Solúvel: peptídeo-sinal cortado, cadeia inteira no
+Toda proteína que não fica no citosol carrega uma        lúmen. Uma passagem: peptídeo-sinal + sequência
+sequência-sinal -- trecho curto de aminoácidos,          de parada de transferência  N-terminal no
+não nucleotídeos. Cada destino tem seu sinal             lúmen, C-terminal no citosol. Múltiplas passagens:
+próprio: peptídeo-sinal N-terminal hidrofóbico para      alternância sinal-início/sinal-parada -- cada par
+o RE, KDEL para retenção no RE, M6P (química,            gera uma hélice transmembrana. Lúmen do RE é
+não aminoácidos) para o lisossomo. Sem etiqueta, a       topologicamente "fora da célula" -- o que está lá
+proteína fica no citosol por default.                    dentro vai virar face externa na MP.
+
+Três rotas: poro, transmembrana,                         Modificações no RE: glicosilação,
+vesicular                                                dissulfetos, QC
+
+Núcleo: poro seletivo, proteína enovelada.               Glicosilação ligada ao N: oligossacarídeo de 14
+Mitocôndria/peroxissomo: transmembrana via               açúcares transferido em bloco do dolicol-fosfato
+canal, pós-traducional, geralmente desenovelada.         para asparagina em contexto N­X­S/T. Pontes
+Via secretória (RE  Golgi  MP/lisossomo/                 dissulfeto: lúmen oxidante, catalisado pela PDI,
+exocitose): vesicular. Confundir as rotas é erro         trava o enovelamento -- comum em proteínas
+mecanístico grave.                                       secretadas. Controle de qualidade: ciclo calnexina­
+                                                         calreticulina segura a proteína glicosilada até
+RE importa CO-traducionalmente -- SRP                    enovelar; quem não passa é retrotranslocado e
++ translocon                                             degradado por ERAD.
+
+Diferença central com mitocôndria/peroxissomo:           Golgi: cis recebe, trans despacha
+aqui a proteína entra no RE enquanto está
+sendo traduzida. SRP reconhece o peptídeo-sinal          Pilha de 4­6 cisternas. Face cis recebe
+N-terminal emergindo do ribossomo, pausa a               vesículas vindas do RE (com COPII). Face trans
+tradução, leva o ribossomo até o receptor de SRP         despacha vesículas para destinos finais. Entre
+na membrana do RE; ribossomo é entregue ao               elas, modificações sequenciais nos açúcares (cada
+translocon (Sec61//); tradução retoma com a              cisterna com seu kit de enzimas). Fosforilação
+cadeia entrando direto no lúmen. Peptidase de sinal      de manose acontece na face cis (gera M6P para
+corta o peptídeo após a entrada.                         enzimas lisossomais); sulfatação e adição de sialic
+                                                         acid na face trans.
+
+                                                     19
+NEBLI                                                     RESUMINDO
+
+Três capas, três rotas                                    I-cell disease: falha no tag M6P
+
+COPII: RE  Golgi (anterógrada inicial). COPI: Golgi       Mutação na N-acetilglicosamina-1-
+ RE retrógrada (recupera escapadas via KDEL/              fosfotransferase do Golgi  enzimas lisossomais
+KKXX) e entre cisternas. Clatrina: trans-Golgi            não ganham M6P  não são reconhecidas
+endossomo/MP, e endocitose mediada por receptor           pelo receptor  secretadas em vez de
+(na face citosólica da MP). Cada vesícula reconhece       irem ao lisossomo. Sangue com enzimas
+a membrana-alvo por SNAREs -- v-SNARE na                  hidrolíticas em excesso; lisossomo vazio acumula
+vesícula encaixa em t-SNARE no destino e dispara a        substratos não digeridos  inclusões celulares
+fusão.                                                    grosseiras. Demonstra como uma única falha
+                                                          no endereçamento entrega uma organela inteira
+Endocitose mediada por receptor e                         disfuncional.
+LDLR
+
+Receptor extracelular liga ligante (LDL,
+transferrina, B12); complexos se concentram em
+fossas cobertas por clatrina; vesícula brota para
+dentro; clatrina se desmonta logo após. Vesícula
+funde com endossomo precoce (pH 6,0) --
+pH ácido dissocia receptor de ligante. Receptor
+reciclado para a MP, ligante para o lisossomo.
+Mutação no LDLR causa hipercolesterolemia
+familiar -- LDL não é internalizado, fica no plasma.
+
+Manose-6-fosfato endereça ao lisossomo
+
+Tag química, não sequência. Enzimas lisossomais
+ganham M6P nos oligossacarídeos na face cis
+do Golgi (via fosfotransferase). Na face trans,
+receptores de M6P empacotam essas enzimas em
+vesículas de clatrina que vão ao endossomo tardio.
+Em pH ácido, receptor solta a enzima e é reciclado.
+Lisossomo final: pH 4,5­5,0 mantido por V-ATPase,
+cheio de hidrolases ácidas.
+
+                                                      20
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+O peptídeo-sinal que direciona uma proteína ao retículo endoplasmático é melhor descrito como:
+
+   A) um trecho hidrofílico no C-terminal da proteína madura.
+   B) uma sequência de nucleotídeos do mRNA, traduzida pela SRP.
+   C) um cofator molecular adicionado à proteína no citosol.
+   D) uma sequência hidrofóbica curta no N-terminal da proteína nascente.
+   E) uma modificação química de manose adicionada na via secretória.
+
+Questão 02 Consolidação
+Qual rota de transporte intracelular é usada por proteínas que se destinam à mitocôndria?
+
+   A) Transporte vesicular, via vesículas brotando do retículo endoplasmático.
+   B) Transporte transmembrana, via translocon, geralmente desenovelado.
+   C) Transporte por barreira seletiva, via poros mitocondriais.
+   D) Endocitose mediada por receptor de superfície mitocondrial.
+   E) Difusão simples através das membranas externa e interna.
+
+Questão 03 Consolidação
+A SRP atua no endereçamento de proteínas ao retículo endoplasmático quando:
+
+   A) reconhece o peptídeo-sinal emergindo do ribossomo e pausa a tradução.
+   B) forma o canal do translocon após a tradução terminar no citosol.
+   C) adiciona oligossacarídeos à proteína já presente no lúmen do RE.
+   D) recupera proteínas residentes do RE que escaparam para o Golgi.
+   E) degrada proteínas mal-dobradas que não passaram no controle de qualidade.
+
+                            21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre a relação entre o retículo endoplasmático rugoso e o liso, é correto afirmar:
+   A) têm lúmens separados por septos, com funções metabólicas distintas.
+   B) o RE liso tem ribossomos no lúmen, e o rugoso na face citosólica.
+   C) só o RE rugoso é contínuo com o envelope nuclear externo.
+   D) hepatócitos são compostos majoritariamente por RE rugoso.
+   E) compartilham o mesmo lúmen contínuo, com funções distintas.
+
+Questão 05 Consolidação
+Uma proteína transmembrana de uma única passagem é gerada quando, durante a inserção no RE:
+
+   A) a peptidase de sinal corta o peptídeo após a entrada da cadeia inteira.
+   B) duas sequências hidrofóbicas internas alternam abertura e fechamento do canal.
+   C) um peptídeo-sinal N-terminal é seguido por uma sequência de parada de transferência.
+   D) a proteína é retrotranslocada para o citosol e re-inserida pelo lado oposto.
+   E) a SRP solta o ribossomo antes da cadeia completar a entrada no lúmen.
+
+Questão 06 Consolidação
+A glicosilação ligada ao N que ocorre no retículo endoplasmático tem como característica:
+
+   A) transferência em bloco de um oligossacarídeo pré-fabricado para asparagina.
+   B) adição sequencial de açúcares um a um diretamente sobre a serina.
+   C) ocorrência exclusiva após a proteína chegar à face trans do Golgi.
+   D) modificação que ocorre no citosol antes da entrada da proteína no RE.
+   E) remoção total dos açúcares pré-existentes, deixando a proteína sem glicano.
+
+                         22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Em relação à organização funcional do complexo de Golgi:
+   A) a face trans é onde as vesículas vindas do RE chegam primeiro.
+   B) todas as cisternas têm o mesmo kit de enzimas modificadoras.
+   C) a face cis está sempre voltada para a membrana plasmática.
+   D) a face cis recebe vesículas do RE, e a face trans despacha para destinos.
+   E) Golgi não tem polaridade -- modificações ocorrem aleatoriamente em qualquer cisterna.
+
+Questão 08 Consolidação
+Qual capa proteica reveste vesículas que brotam do RE em direção ao complexo de Golgi?
+
+   A) Clatrina, com adaptadores AP-2 reconhecendo o receptor de carga.
+   B) COPII, em uma rota anterógrada do RE para o Golgi.
+   C) COPI, em uma rota retrógrada de recuperação de proteínas do RE.
+   D) Caveolina, formando microdomínios ricos em colesterol.
+   E) Dinamina, responsável pelo estrangulamento do pescoço da vesícula.
+
+Questão 09 Consolidação
+
+No mecanismo da endocitose mediada por receptor, o pH ácido do endossomo precoce tem como função
+principal:
+
+   A) degradar o ligante diretamente antes da chegada ao lisossomo.
+   B) ativar enzimas hidrolíticas que digerem o conteúdo internalizado.
+   C) montar a capa de clatrina sobre a face citosólica da vesícula.
+   D) desnaturar o receptor para impedir sua reutilização pela célula.
+   E) dissociar o ligante do receptor, permitindo a reciclagem do receptor.
+
+                         23
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+A manose-6-fosfato (M6P) funciona no tráfego intracelular como:
+   A) um doador de fosfato para a fosforilação oxidativa mitocondrial.
+   B) a fonte de energia para a montagem da capa de clatrina.
+   C) uma etiqueta química que endereça enzimas hidrolíticas ao lisossomo.
+   D) um açúcar removido das proteínas antes de saírem do retículo endoplasmático.
+   E) um cofator necessário para a atividade das enzimas hidrolíticas ácidas.
+
+Questão 11 Integração
+
+Compare o transporte para o núcleo e o transporte para o retículo endoplasmático no que se refere ao
+estado da proteína durante a importação:
+
+   A) ambos importam proteínas já completamente enoveladas, via canais seletivos com gasto de GTP.
+   B) a importação ao núcleo é co-traducional, enquanto a ao RE é pós-traducional via SRP citosólica.
+   C) a importação ao núcleo ocorre com proteína enovelada via poro, enquanto a ao RE é co-traducional
+   com cadeia nascente.
+   D) ambos importam pós-traducionalmente com auxílio obrigatório de chaperonas Hsp70 citosólicas.
+   E) a importação ao núcleo é vesicular, enquanto a ao RE atravessa diretamente a bicamada lipídica.
+
+Questão 12 Integração
+
+Uma célula em cultura é tratada com um inibidor que bloqueia especificamente a ligação da SRP ao seu
+receptor na membrana do RE. O resultado esperado é:
+
+   A) acúmulo no citosol de proteínas com peptídeo-sinal não traduzidas completamente, com tradução
+   pausada.
+   B) translocação aumentada de proteínas para a mitocôndria, em rota compensatória.
+   C) degradação acelerada de proteínas residentes do Golgi, por ativação prematura da UPR.
+   D) glicosilação anômala das proteínas no Golgi, sem afetar o tráfego pelo RE.
+   E) secreção aumentada de enzimas lisossomais pela via default da exocitose.
+
+                         24
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Sobre a inserção co-traducional de proteínas no retículo endoplasmático, julgue os itens a seguir:
+Cada item deve ser julgado de forma independente.
+
+I. O peptídeo-sinal N-terminal é reconhecido pela SRP citosólica enquanto emerge do ribossomo, e o
+complexo formado pausa a tradução.
+
+II. O ribossomo solta o mRNA quando entrega o peptídeo nascente ao translocon, e a tradução é
+completada por ribossomos do RE.
+
+III. A peptidase de sinal cliva o peptídeo-sinal logo após a entrada no lúmen, e a proteína madura não
+carrega mais esse trecho.
+
+IV. Proteínas destinadas a mitocôndria utilizam SRP do mesmo modo, com pausa da tradução durante
+a importação pós-traducional.
+
+Questão 14 Integração
+
+A continuidade morfológica entre o envelope nuclear e o retículo endoplasmático tem como consequên
+cia funcional direta:
+
+   A) permitir que proteínas residentes do núcleo escapem livremente para o citosol durante a interfase.
+   B) acoplar mecanicamente a divisão nuclear ao brotamento de vesículas do RE durante a mitose.
+   C) criar um gradiente de pH constante entre o espaço perinuclear e o lúmen do RE rugoso.
+   D) tornar o nucléolo um subcompartimento do RE liso por compartilhamento de membrana externa.
+   E) permitir que o espaço perinuclear seja contínuo com o lúmen do RE, integrando-os como compar
+   timento único.
+
+Questão 15 Integração
+
+Considere uma proteína com dois sinais internos de início de transferência e um sinal de parada de
+transferência entre eles. A topologia final esperada na membrana é:
+
+   A) proteína solúvel no lúmen, sem âncora na membrana.
+   B) proteína transmembrana com duas hélices, em conformação dobrada.
+   C) proteína periférica, ancorada apenas pela porção N-terminal hidrofóbica.
+   D) proteína com porção solúvel no citosol e domínio C-terminal no lúmen do RE.
+   E) proteína completamente extracelular, sem nenhum trecho transmembrana.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Sobre as modificações sofridas por glicoproteínas no retículo endoplasmático, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. Pontes dissulfeto são formadas no lúmen pela PDI, beneficiando-se do ambiente oxidante que
+distingue o lúmen do RE do citosol redutor.
+
+II. O ciclo calnexina-calreticulina segura glicoproteínas com um único glicose remanescente até o
+enovelamento ser concluído.
+
+III. O oligossacarídeo de 14 açúcares é montado resíduo por resíduo diretamente sobre a asparagina
+após o término da tradução.
+
+IV. Proteínas que falham repetidamente no enovelamento são degradadas dentro do lúmen do RE por
+proteases residentes específicas.
+
+Questão 17 Integração
+
+Em um experimento, uma célula é cultivada com um inibidor que bloqueia especificamente a fosfori
+lação de manose na face cis do Golgi. O efeito esperado sobre o tráfego de enzimas lisossomais é:
+
+   A) degradação prematura das enzimas dentro do retículo endoplasmático via ERAD.
+   B) redirecionamento das enzimas ao núcleo por rota alternativa compensatória.
+   C) retenção das enzimas no Golgi por falha na ativação de capas COPI.
+   D) secreção das enzimas para o meio extracelular pela via default, em vez do destino ao lisossomo.
+   E) fusão direta das vesículas do trans-Golgi com a mitocôndria por afinidade lipídica.
+
+Questão 18 Integração
+
+Sobre o papel das SNAREs no transporte vesicular, é correto afirmar:
+   A) as SNAREs formam a estrutura externa da capa de clatrina durante o brotamento da vesícula.
+   B) as SNAREs são proteínas residentes do lúmen vesicular e atuam após a fusão das membranas.
+   C) v-SNAREs na vesícula e t-SNAREs na membrana-alvo emparelham e aproximam as membranas
+   para fusão.
+   D) as SNAREs catalisam a fosforilação de manose nas enzimas destinadas ao lisossomo.
+   E) as SNAREs degradam a capa proteica após o brotamento, permitindo a fusão da vesícula com o alvo.
+
+                       26
+NEBLI                                                                           ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Sobre as três capas que revestem vesículas na via secretória, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. COPII faz a rota retrógrada do Golgi para o RE, recuperando proteínas residentes que escaparam
+acidentalmente.
+II. COPI faz a rota anterógrada do RE para o Golgi como primeira etapa da via secretória.
+III. Clatrina monta vesículas no trans-Golgi com destino a endossomos e à membrana plasmática.
+IV. Clatrina também monta na face citosólica da membrana plasmática durante a endocitose mediada
+por receptor.
+
+Questão 20 Integração
+
+Por que a importação ao retículo endoplasmático é majoritariamente co-traducional, enquanto a im
+portação à mitocôndria é pós-traducional?
+
+   A) proteínas destinadas ao RE costumam enovelar rapidamente após a tradução, dificultando o trans
+   porte através do translocon na forma estendida.
+   B) proteínas mitocondriais são, em média, maiores e mais hidrofóbicas que as do RE, exigindo a
+   tradução completa no citosol.
+   C) a SRP é exclusiva da mitocôndria e impede que ela importe durante a tradução, ao contrário do RE.
+   D) o RE não tem chaperonas próprias e por isso depende da entrada da cadeia já enovelada do citosol.
+   E) a mitocôndria sintetiza todas as suas proteínas no próprio mtDNA, sem necessidade de importação
+   citosólica.
+
+Questão 21 Integração
+
+Uma mutação em um receptor de membrana plasmática produz proteínas que enovelam mal e nunca
+chegam à superfície celular. O destino mais provável dessas proteínas mutantes é:
+
+   A) acumulação no lúmen do Golgi medial por falha em adquirir sialic acid terminal.
+   B) degradação imediata no proteassomo do citosol antes da entrada no RE.
+   C) secreção descontrolada para o meio extracelular pela via default da exocitose.
+   D) translocação para a mitocôndria via rota alternativa de chaperonas Hsp70.
+   E) retrotranslocação do RE para o citosol e degradação no proteassomo via ERAD.
+
+                       27
+NEBLI                                                                        ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Sobre o tráfego entre RE, Golgi e seus destinos terminais, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. Proteínas residentes do RE carregam etiquetas C-terminais de retenção (KDEL em solúveis) recon
+hecidas no Golgi e recuperadas via COPI.
+
+II. O lúmen do RE é topologicamente equivalente ao citosol porque está contido dentro da célula.
+
+III. Enzimas lisossomais saem do trans-Golgi em vesículas cobertas por clatrina, endereçadas pelo
+receptor de manose-6-fosfato.
+
+IV. As cisternas do Golgi têm distribuição de enzimas distinta, com cis fosforilando manose e trans
+realizando sulfatação e sialilação.
+
+Questão 23 Integração
+
+Compare os destinos de uma proteína nuclear, uma proteína mitocondrial e uma proteína secretada no
+que se refere ao mecanismo de endereçamento:
+
+   A) todas usam SRP citosólica, diferindo apenas no receptor de membrana que reconhece a SRP.
+   B) nuclear usa NLS reconhecido pela importina, mitocondrial usa sequência hidrofóbica anfipática
+   reconhecida por TOM20, secretada usa peptídeo-sinal reconhecido pela SRP.
+   C) todas são endereçadas pela mesma sequência N-terminal, que é clivada após a entrada no compar
+   timento de destino.
+   D) apenas a proteína secretada carrega etiqueta de aminoácidos, as outras dependem de modificações
+   pós-traducionais como ubiquitinação.
+   E) nuclear e mitocondrial usam transporte vesicular, enquanto a secretada usa o poro nuclear como
+   porta de saída inicial.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Sobre a topologia de uma proteína de membrana plasmática que tem o domínio extracelular ligado a
+um açúcar e o domínio citosólico fosforilado, é correto afirmar:
+
+A) o domínio extracelular foi sintetizado primeiro no lúmen do RE e o citosólico foi adicionado poste
+riormente no Golgi.
+B) a glicosilação aconteceu no citosol e a fosforilação no lúmen do RE durante a inserção.
+C) os dois domínios foram glicosilados, mas só o extracelular reteve os açúcares por ação enzimática
+do Golgi.
+D) o domínio glicosilado fica no lúmen do RE durante a síntese (que será o lado extracelular) e o
+citosólico permanece no citosol da célula.
+E) a fosforilação ocorre simultaneamente nos dois lados durante a passagem pelo translocon.
+
+Questão 25 Integração
+
+Em uma célula com perda total da atividade da V-ATPase lisossomal, o efeito direto sobre o tráfego de
+proteínas e a função do lisossomo é:
+
+   A) aumento da atividade hidrolítica do lisossomo pela acidificação compensatória citosólica.
+   B) acúmulo de proteínas residentes do RE no Golgi por bloqueio da rota retrógrada COPI.
+   C) falha na dissociação do receptor de M6P no endossomo tardio e perda de função hidrolítica do
+   lisossomo.
+   D) redirecionamento de todas as vesículas do trans-Golgi para a membrana plasmática.
+   E) degradação acelerada das proteínas no proteassomo do citosol por ativação da UPR.
+
+Questão 26 Aplicação
+
+Em um experimento, células em cultura são tratadas com um análogo do peptídeo-sinal livre
+adicionado ao meio em alta concentração. O composto consegue entrar no citosol e ocupar o sítio
+de reconhecimento da SRP. Considerando o mecanismo da importação co-traducional ao RE, o efeito
+esperado sobre a síntese de proteínas secretadas é:
+
+   A) aumento da síntese pela ativação ectópica do translocon vazio na membrana do RE.
+   B) bloqueio da pausa da tradução em ribossomos traduzindo proteínas com peptídeo-sinal, com
+   cadeias completas no citosol e endereçamento perdido.
+   C) redirecionamento da síntese para mitocôndrias via rota alternativa de chaperonas.
+   D) glicosilação alterada das proteínas no Golgi, sem efeito sobre a entrada no RE.
+   E) degradação acelerada das proteínas nascentes pela protease de sinal antes da entrada no RE.
+
+                       29
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Uma criança apresenta níveis plasmáticos elevados de várias enzimas hidrolíticas ácidas e fibroblastos
+com inclusões grosseiras no citoplasma ao microscópio eletrônico. A biópsia revela lisossomos com
+material acumulado e oligossacarídeos das enzimas com manose, mas sem fosfato em N-6. O defeito
+molecular mais provável está em:
+
+A) N-acetilglicosamina-1-fosfotransferase do complexo de Golgi, que adiciona o fosfato à manose das
+enzimas lisossomais.
+B) receptor de manose-6-fosfato do trans-Golgi, que reconhece a etiqueta e empacota as enzimas.
+C) V-ATPase do lisossomo, que mantém o pH ácido necessário para a atividade das hidrolases.
+D) SRP citosólica, que falha em direcionar as enzimas lisossomais ao retículo endoplasmático.
+E) ciclo calnexina-calreticulina do RE, que falha em garantir o enovelamento correto das enzimas.
+
+Questão 28 Aplicação
+
+Um paciente com hipercolesterolemia familiar homozigótica apresenta LDL plasmático em torno de
+600 mg/dL e infarto do miocárdio aos 18 anos. O receptor de LDL é fabricado normalmente e chega à
+membrana plasmática, mas a internalização não acontece. A mutação mais provável atinge:
+
+   A) o domínio extracelular do receptor que se liga ao LDL, impedindo o reconhecimento da partícula.
+   B) o peptídeo-sinal N-terminal do receptor, impedindo sua entrada no retículo endoplasmático.
+   C) o ciclo calnexina-calreticulina, retendo o receptor no RE com má conformação.
+   D) o domínio citosólico do receptor, que se ancora nas fossas cobertas por clatrina, abolindo a endoc
+   itose mediada por receptor.
+   E) a V-ATPase do endossomo, impedindo a acidificação que dissocia LDL do receptor após a internal
+   ização.
+
+                      30
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Uma célula em cultura recebe um mutante dominante-negativo da proteína Sar1, componente essencial
+da capa COPII no brotamento de vesículas do retículo endoplasmático. Após 12 horas, observa-se que
+a proteína recém-sintetizada VSV-G (modelo de proteína de membrana) permanece detectável no RE e
+não chega ao Golgi nem à membrana plasmática. O mecanismo bloqueado é:
+
+A) a fusão das vesículas do trans-Golgi com a membrana plasmática durante a exocitose.
+B) o reconhecimento do peptídeo-sinal pela SRP, com falha em iniciar a importação ao RE.
+C) a formação de vesículas COPII que carregam a carga do RE em direção ao Golgi como primeira etapa
+da via secretória.
+D) o pareamento de v-SNAREs e t-SNAREs entre vesículas do RE e a face cis do Golgi, com falha na
+fusão das membranas.
+E) a recuperação retrógrada de proteínas residentes do RE pela rota Golgi  RE via vesículas COPI.
+
+Questão 30 Aplicação
+
+Um lactente com hepatoesplenomegalia, deformidades esqueléticas e atraso no desenvolvimento apre
+senta no plasma altíssimas concentrações de enzimas hidrolíticas ácidas (catepsinas, hexosaminidase,
+-manosidase) -- enzimas que normalmente deveriam estar no lisossomo. Os lisossomos das células do
+paciente aparecem cheios de inclusões de material não digerido. A hipótese diagnóstica mais provável é:
+
+   A) hipercolesterolemia familiar por mutação no receptor de LDL, com colesterol acumulado intracelu
+   larmente.
+   B) doença de Tay-Sachs por deficiência específica em hexosaminidase A nos neurônios.
+   C) síndrome de Zellweger por mutação em peroxinas, com defeito no peroxissomo e não no lisossomo.
+   D) fibrose cística por mutação no CFTR, com retenção da proteína no retículo endoplasmático.
+   E) doença das células I (I-cell disease), por mutação na fosfotransferase do Golgi que adiciona M6P,
+   fazendo as enzimas hidrolíticas serem secretadas em vez de irem ao lisossomo.
+
+                      31
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que a SRP precisa pausar a tradução de proteínas com peptídeo-sinal em vez de
+apenas acompanhar o ribossomo durante a importação ao retículo endoplasmático.
+
+    MODELO DE RESPOSTA
+
+   Se a tradução continuasse sem pausa, a cadeia nascente continuaria saindo no citosol
+   antes de o complexo chegar à membrana do RE. Proteínas destinadas ao RE enovelam
+   rapidamente -- uma vez no citosol enoveladas, não conseguem atravessar o translocon,
+   que aceita apenas cadeia estendida. A pausa garante que a cadeia ainda esteja curta e
+   desenovelada quando o ribossomo for entregue ao translocon. O encaixe ribossomo­
+   receptor restaura a tradução, e a cadeia sai direto no lúmen sem nunca passar pelo
+   citosol.
+
+Questão Q2
+
+Explique por que a topologia final de uma proteína de membrana (qual domínio fica no lúmen
+e qual fica no citosol) é decidida durante a inserção no retículo endoplasmático e não posterior
+mente no Golgi.
+
+    MODELO DE RESPOSTA
+
+   Durante a inserção co-traducional, a alternância entre peptídeo-sinal, sequências de
+   parada de transferência e sinais internos de início posiciona cada hélice transmem
+   brana e define qual lado fica em cada face. Uma vez que a cadeia foi inserida na
+   membrana do RE, atravessar uma hélice transmembrana exige desfazer e refazer a
+   inserção -- o que não acontece em condições fisiológicas. Vesículas do RE carregam a
+   topologia intacta até o Golgi, e o lúmen do RE vira o lúmen vesicular e depois o exterior
+   da célula na MP.
+
+                             32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique por que a glicosilação ligada ao N no retículo endoplasmático usa um oligossacarídeo
+pré-fabricado de 14 açúcares transferido em bloco, e não montagem resíduo por resíduo como faz
+o Golgi.
+
+MODELO DE RESPOSTA
+
+No RE, a transferência precisa ser rápida porque acontece durante a tradução em anda
+mento -- montar 14 açúcares um a um sobre cada asparagina alvo seria lento demais
+e dessincronizaria a glicosilação com a entrada da cadeia. O bloco pré-montado no
+dolicol-fosfato (na membrana do RE) é transferido de uma vez pela oligossacaril-trans
+ferase em uma única reação por asparagina. Já no Golgi, modificações são pontuais e
+dispensam montagem em bloco -- basta adicionar ou remover açúcares específicos
+enzima por enzima.
+
+Questão Q4
+
+Por que o endereçamento de enzimas hidrolíticas ao lisossomo usa uma tag química (manose-6-
+fosfato) e não uma sequência de aminoácidos no estilo Blobel?
+
+    MODELO DE RESPOSTA
+
+   As enzimas lisossomais já passaram pela via secretória completa -- RE, Golgi -- antes
+   de irem ao lisossomo. Qualquer sequência de aminoácidos N-terminal já teria sido
+   potencialmente clivada pela peptidase de sinal na entrada do RE; e uma sequência
+   interna competiria com sinais de retenção do RE. A tag química resolve isso: a fosfori
+   lação de manose acontece após a proteína já estar dentro do Golgi (face cis), em uma
+   posição estereoquímica reconhecida apenas pelo receptor de M6P do trans-Golgi. É um
+   endereçamento aplicado tardiamente, após o controle de qualidade.
+
+       33
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Identifique o erro
+
+Identifique o erro mecanístico no trecho abaixo e reescreva-o corretamente: "Na doença das
+células I, o defeito está no receptor de manose-6-fosfato do lisossomo. Sem o receptor funcional,
+as enzimas hidrolíticas ácidas que chegam ao lisossomo não conseguem ser ancoradas e vazam
+para o citosol, onde digerem componentes celulares e causam as inclusões características da
+doença ao microscópio eletrônico."
+
+MODELO DE RESPOSTA
+
+Erro: o defeito está na fosfotransferase do Golgi cis, não no receptor de M6P. Sem
+essa enzima, as proteínas lisossomais não recebem a etiqueta M6P; sem a etiqueta, o
+receptor do trans-Golgi não tem o que reconhecer e as enzimas seguem pela via default
+-- secreção para o meio extracelular. As enzimas ficam altas no plasma e ausentes do
+lisossomo, que acumula substratos não digeridos por falta de hidrolases. As enzimas
+não vazam no citosol -- o pH neutro citosólico as inativaria de qualquer forma; o
+problema é que nunca chegam ao lisossomo.
+
+       34
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D     Q02 B         Q03 A     Q04 E     Q05 C
+Q06 A     Q07 D         Q08 B     Q09 E     Q10 C
+
+INTEGRAÇÃO (Q11­Q25)    Q13 CECE  Q14 E     Q15 B
+                        Q18 C     Q19 ECCE  Q20 A
+Q11 C     Q12 A         Q23 B     Q24 D     Q25 C
+
+Q16 CCEE  Q17 D         Q28 D     Q29 C     Q30 E
+
+Q21 E     Q22 CECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B     Q27 A
+
+                        38
+

@@ -1,0 +1,157 @@
+slug: histo-07-osseo
+titulo: "Tecido ósseo"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Histologia (UC02)"]
+  - ["Onde estudar", "Junqueira & Carneiro cap. 8 + Ross & Pawlina cap. 8"]
+
+alvo_paginas_e1: "piso 2, teto 22 — alvo 16-19"
+recorte_slide_tema: "Slides 65-156 do PDF original (renumerados 01-92 em figuras/histo-07-osseo/). Recorte 1:1. Resumo gêmeo do cartilaginoso — referenciar ossificação endocondral como ponte."
+
+prioridades_corrida:
+  - prio: "Eixo prioritário: identificar célula × função × posição na lâmina."
+  - prio: "Cadeia ≥4 setas com figura adjacente (ossificação endocondral, reabsorção osteoclástica)."
+  - prio: "Banda dupla 0.80-1.25 paridade Q01-Q30."
+  - prio: "Pergunta âncora / retórica BANIDA."
+  - prio: "Tabela auditável de figuras no fechamento."
+  - prio: "Sigla via #sigla() na 1ª aparição (MEC, RANK, RANKL, OPG, ECF, HA)."
+
+registros_abertura:
+  p1_s1: "integração-anterior — retoma cartilagem (resumo anterior)"
+  p1_s2: "ponto-de-quebra — diferença mecânica: cartilagem aguenta compressão por hidratação, osso aguenta por mineralização"
+  p1_s3: "enquadramento — duas frações da matriz: orgânica e inorgânica"
+  p1_s4: "analogia concreta — hidroxiapatita + colágeno como concreto armado"
+  p1_s5: "enquadramento — periósteo e endósteo como pericôndrio especializado"
+  p2_s1: "ponto-de-quebra — três células com origem distinta para uma função integrada"
+  p2_s2: "enquadramento — osteoblasto fabrica matriz orgânica e nucleia mineralização"
+  p2_s3: "integração-posterior — osteócito enterrado vive 25 anos e fala com o vivo"
+  p2_s4: "analogia concreta — osteoclasto como demolidor com cinto de ácido"
+  p2_s5: "ponto-de-quebra — RANK/RANKL/OPG: três proteínas decidem o saldo do balanço ósseo"
+  p3_s1: "enquadramento — duas escalas: macro (compacto × esponjoso), micro (lamelar × não-lamelar)"
+  p3_s2: "analogia concreta — sistema de Havers como tubulação concêntrica"
+  p3_s3: "ponto-de-quebra — ossificar membrana ou substituir cartilagem"
+  p3_s4: "integração-anterior — reparo de fratura recapitula histogênese"
+
+profundidade: "PADRÃO"
+
+termos_nota_obrigatorios:
+  - "osteoblasto — célula formadora de matriz óssea, derivada do mesênquima"
+  - "osteócito — célula óssea madura aprisionada em lacuna, conectada por canalículos"
+  - "osteoclasto — célula gigante multinucleada que reabsorve matriz óssea, vinda da linhagem monócito-macrófago"
+  - "periósteo — bainha de conjuntivo denso que reveste a superfície externa do osso"
+  - "endósteo — camada celular fina que reveste cavidades internas do osso"
+  - "hidroxiapatita — Ca₁₀(PO₄)₆(OH)₂, sal mineral que confere dureza à matriz óssea"
+  - "lacuna de Howship — depressão na superfície óssea onde o osteoclasto reabsorve matriz"
+  - "ósteon — unidade estrutural do osso lamelar; canal central com lamelas concêntricas (sistema de Havers)"
+
+pontos_quebra:
+  - quebra: "Osteoblasto e osteoclasto NÃO são versões da mesma célula"
+    correcao: "Osteoblasto vem do mesênquima (linhagem osteoprogenitora). Osteoclasto vem de monócito/macrófago (linhagem hematopoética). Funções opostas, origens completamente distintas. Confunde com condroblasto/condrócito que SÃO mesma linhagem em idades distintas."
+    origem: "Ross & Pawlina cap. 8"
+  - quebra: "Osteócito não é osteoblasto inativo"
+    correcao: "Quando osteoblasto fica aprisionado pela matriz que secreta, vira osteócito — muda morfologia e função. Mantém a célula viva por décadas, com papel de mecanotransdução e manutenção. Não é mero residente passivo."
+    origem: "Kierszenbaum"
+  - quebra: "RANK/RANKL/OPG é o eixo central da remodelação"
+    correcao: "Osteoblasto expressa RANKL e OPG. RANKL ativa o osteoclasto pelo RANK (estimula reabsorção). OPG é receptor-armadilha, sequestra RANKL (inibe reabsorção). Estrogênio aumenta OPG — por isso menopausa acelera perda óssea."
+    origem: "Junqueira/Carneiro"
+  - quebra: "Matriz óssea calcificada NÃO é cartilagem calcificada"
+    correcao: "Matriz óssea tem colágeno tipo I (não II), em feixes orientados; hidroxiapatita depositada sobre o colágeno. Cartilagem calcificada tem colágeno II e PG, mineralizada sem reorganização. São matrizes quimicamente distintas."
+    origem: "armadilha clássica"
+  - quebra: "Ossificação intramembranosa NÃO precisa de cartilagem"
+    correcao: "Vai direto de membrana mesenquimal a osso (frontal, parietal, partes do occipital, temporal, maxilas, clavícula). A endocondral usa cartilagem como molde. São histogêneses paralelas, não etapas."
+    origem: "Junqueira/Carneiro cap. 8"
+  - quebra: "Sistema de Havers é unidade do osso lamelar, NÃO do esponjoso"
+    correcao: "Ósteon = canal central + lamelas concêntricas + osteócitos em lacunas + canalículos. É a estrutura do osso compacto lamelar. O esponjoso tem trabéculas lamelares também, mas sem ósteons completos (sem canal central com vaso)."
+    origem: "Ross & Pawlina"
+  - quebra: "Reabsorção óssea NÃO é destruição passiva"
+    correcao: "Osteoclasto cria selo (zona de vedação por integrinas e actina), borda franzida bombeia H⁺ via V-ATPase (acidifica a lacuna de Howship), HCl dissolve hidroxiapatita, catepsina K e colagenases digerem colágeno I. Reabsorção é ativa, regulada, e seguida de apoptose do osteoclasto."
+    origem: "Kierszenbaum"
+  - quebra: "Periósteo e endósteo não são só revestimento"
+    correcao: "Periósteo (externo, conjuntivo denso) e endósteo (interno, camada celular fina) ambos têm células osteoprogenitoras. São as fontes de osteoblasto novo para crescimento em espessura e para reparo de fratura. Sem eles, o osso não cicatriza."
+    origem: "Ross & Pawlina"
+
+exemplares_ancora: |
+  Exemplar 1 (mecanística): aplicar em 2.1-2.5 (células e RANK/RANKL).
+  Exemplar 7 (analogia): concreto armado para matriz inorgânica + orgânica (1.3).
+  Exemplar 9 (clinica-box): osteoporose (2.5), fratura (3.4), osteomalácia (1.3).
+  Exemplar 14 (siglas): MEC, RANK, RANKL, OPG, V-ATPase, HA, PTH.
+  Exemplar 15 (figura-lateral): osteoclasto polarizado (2.4).
+  Exemplar 16 (tabela família): compacto vs esponjoso (3.1), intramembranosa vs endocondral (3.3).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Identidade e composição do tecido ósseo"
+        subtopicos:
+          - "1.1 De onde vem e por que importa"
+          - "1.2 A marca: matriz mineralizada como solução mecânica"
+          - "1.3 Matriz inorgânica e orgânica: concreto armado biológico"
+          - "1.4 Periósteo e endósteo: fontes de osteoblasto novo"
+      - titulo: "PARTE II — As três células e o balanço dinâmico"
+        subtopicos:
+          - "2.1 Origens distintas para uma função integrada"
+          - "2.2 Osteoblasto: o que fabrica a matriz"
+          - "2.3 Osteócito: a célula que sente o esforço"
+          - "2.4 Osteoclasto: como se desmonta osso"
+          - "2.5 RANK, RANKL e OPG: o triângulo que decide o saldo"
+      - titulo: "PARTE III — Tipos, histogênese e regeneração"
+        subtopicos:
+          - "3.1 Compacto e esponjoso, lamelar e não-lamelar"
+          - "3.2 Sistema de Havers: a unidade do osso compacto"
+          - "3.3 Duas rotas para virar osso: intramembranosa e endocondral"
+          - "3.4 Crescimento, remodelação e reparo de fratura"
+  - titulo: "Resumindo"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Os pontos que precisam estar na ponta da língua"
+  - titulo: "Etapa 2 — 30 objetivas"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "10 Consolidação · 15 Integração · 5 Aplicação"
+  - titulo: "Etapa 3 — 5 discursivas"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Mecanismo em até 100 palavras"
+  - titulo: "Gabarito"
+    blocos:
+      - titulo: null
+        subtopicos:
+          - "Respostas da Etapa 2"
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "C"]
+    - ["04", "A"]
+    - ["05", "B"]
+    - ["06", "E"]
+    - ["07", "C"]
+    - ["08", "B"]
+    - ["09", "D"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "E"]
+    - ["13", "B"]
+    - ["14", "D"]
+    - ["15", "C"]
+    - ["16", "A"]
+    - ["17", "D"]
+    - ["18", "B"]
+    - ["19", "E"]
+    - ["20", "C"]
+    - ["21", "A"]
+    - ["22", "D"]
+    - ["23", "C"]
+    - ["24", "B"]
+    - ["25", "E"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "D"]
+    - ["28", "C"]
+    - ["29", "A"]
+    - ["30", "E"]

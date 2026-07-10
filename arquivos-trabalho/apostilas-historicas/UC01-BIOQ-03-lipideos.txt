@@ -1,0 +1,1338 @@
+NEBLI · APOSTILA
+
+Estrutura e função de lipídeos
+
+Bioquímica · UC01 · Aula 05 (Bioq/03)
+
+Disciplina:    Bioquímica (UC01)
+Bloco:         Bioquímica de biomoléculas -- P1
+Slides-fonte:  Bioquímica/03 - Lipídeos.pdf
+Páginas:       19 (37 frames)
+Nota de uso:   Estudar com o slide aberto ao lado -- o resumo complementa, não
+               substitui.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa -- não substitui -- a aula.
+
+                                               Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Ácidos graxos: a peça que se repete
+       1.1 O que é lipídeo -- e por que tantas famílias diferentes
+       1.2 Ácido graxo: hidrocarboneto com duas faces
+       1.3 Saturação, cis/trans e o desenho da cadeia
+  PARTE II -- Famílias funcionais: reserva, membrana, hormônio
+       2.1 Triacilgliceróis -- por que reservar como gordura, não como açúcar
+       2.2 Fosfolipídeos e esfingolipídeos -- peças anfipáticas com cabeça polar
+       2.3 Colesterol -- o esteróide rígido que vira hormônio (e tampona a membrana)
+  PARTE III -- Lipídeos em ação: membrana, sinalização e clínica
+       3.1 Bicamada espontânea e a fluidez controlada
+       3.2 Eicosanoides -- quando o lipídeo vira mensageiro inflamatório
+       3.3 Nutrição, gorduras trans e surfactante pulmonar (clínica: SDR)
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (10) · Integração (15) · Aplicação (5)
+       Gabarito consolidado ao final do documento
+
+ETAPA 3 -- 5 DISCURSIVAS MECANÍSTICAS
+       Resposta-modelo curta (100 palavras; Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       7 questões selecionadas do banco, gabarito inline
+
+ETAPA 5 -- NEBLICARDS
+       8 cartões de revisão espaçada (1 cloze por card)
+
+FECHAMENTO
+       Gabarito consolidado da Etapa 2
+       Resumindo (panorama em 1 página)
+       Glossário de siglas
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Lipídeos têm fama de "gordura" -- substância que entope a artéria, sobra na cintura, frita o batatão. Essa imagem
+    caricatural esconde o que eles realmente são: uma das classes de biomoléculas mais versáteis da célula. O mesmo
+    grupo químico que serve de reserva energética também forma a bicamada de toda membrana do corpo, vira
+    hormônios sexuais, fabrica os mediadores da inflamação e cobre os alvéolos para que o pulmão de um recém-
+    nascido consiga respirar. Nesta etapa, você vai entender por que tantas funções diferentes podem nascer de uma
+    mesma família química -- e como a estrutura de cada lipídeo determina, de forma quase mecânica, o que ele
+    consegue fazer no corpo. Termina com a Síndrome do Desconforto Respiratório, um caso clínico clássico que
+    mostra o que acontece quando falta um único fosfolipídeo: o alvéolo colapsa.
+
+PARTE I -- Ácidos graxos: a peça que se repete
+
+1.1 O que é lipídeo -- e por que tantas famílias diferentes
+Antes de qualquer coisa, vamos fixar uma definição prática. Lipídeo não é uma categoria química única como
+"açúcar" ou "proteína". É um termo guarda-chuva que reúne todas as biomoléculas orgânicas que têm uma
+propriedade física em comum: são insolúveis em água, ou pelo menos majoritariamente insolúveis.
+Não há um esqueleto químico fixo que defina lipídeo -- o que une a família é o comportamento na água, não
+a estrutura. Por isso a diversidade molecular é gigantesca: uma molécula de gordura animal, um hormônio
+sexual e um esfingolipídeo de membrana parecem, à primeira vista, coisas radicalmente diferentes. E são. Mas
+todas compartilham a hidrofobicidade -- e a evolução aproveitou essa propriedade para construir funções
+muito distintas a partir de variações no mesmo tema.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Mapa das famílias de lipídeos formados por ácidos graxos. Repare que três grandes categorias -- triacilgliceróis, glicerofosfolipídeos
+e esfingolipídeos -- compartilham os ácidos graxos como peça comum, mudando apenas o "esqueleto" ao qual eles se ligam (glicerol
+nos dois primeiros, esfingosina no terceiro).
+
+As funções que lipídeos exercem se organizam em cinco grandes papéis. Primeiro, reserva energética: a
+oxidação de 1 g de gordura libera cerca de 9 kcal -- mais do dobro do que 1 g de carboidrato ( 4 kcal). Segundo,
+estrutura celular: a bicamada de fosfolipídeos é a base de toda membrana, e sem ela não haveria célula
+no sentido moderno do termo. Terceiro, isolamento térmico e proteção mecânica: a gordura subcutânea
+mantém a temperatura, a gordura visceral protege os órgãos de choques. Quarto, transporte de vitaminas
+lipossolúveis (A, D, E, K) -- sem lipídeos circulantes, essas vitaminas simplesmente não atravessam o organ
+ismo. Quinto, precursores de sinais: colesterol vira hormônios esteroides (testosterona, cortisol, estrogênio);
+o ácido araquidônico vira prostaglandinas e leucotrienos, os mediadores moleculares da inflamação.
+
+   Resumindo até aqui: Lipídeo = guarda-chuva para biomoléculas hidrofóbicas  5 funções: reserva, estrutura,
+   isolamento, transporte de vitaminas, precursor de sinais  unidade está no comportamento físico, não na estrutura
+   química
+
+A despeito da diversidade, a maioria dos lipídeos compartilha um componente: os ácidos graxos. Eles
+aparecem nos triacilgliceróis (reserva), nos glicerofosfolipídeos (membrana) e nos esfingolipídeos (membrana
++ reconhecimento). O colesterol e os esteroides são uma exceção -- derivam de um esqueleto cíclico de quatro
+anéis fundidos, não de ácidos graxos lineares. Por isso vamos começar pelo ácido graxo: é a peça que se repete,
+e entender ela é entender 80% da bioquímica lipídica.
+
+1.2 Ácido graxo: hidrocarboneto com duas faces
+Um ácido graxo1 é, na sua essência, duas coisas grudadas: uma cadeia longa de carbonos e hidrogênios (o
+"rabo") e, numa das pontas, um grupo carboxila (-COOH, a "cabeça"). A cadeia é apolar e hidrofóbica; o grupo
+carboxila é polar, ionizável e hidrofílico. Ter as duas faces na mesma molécula é o que torna o ácido graxo
+
+   1ácido graxo -- ácido carboxílico com cadeia longa de hidrocarboneto (tipicamente 12-24 carbonos); peça-base da maioria dos lipídeos;
+anfipático porque tem cabeça polar (-COOH) e cauda apolar (cadeia carbônica)
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+anfipático -- molécula que ama água de um lado e foge dela do outro. Essa dupla personalidade é central: é
+dela que nascem as bicamadas espontâneas, as micelas dos sais biliares, e o comportamento dos detergentes.
+
+Estrutura de dois ácidos graxos. À esquerda, ácido esteárico (C18:0, totalmente saturado): cadeia reta, organizada. À direita, ácido
+oleico (C18:1, com uma dupla ligação cis em ): cadeia dobrada exatamente onde a dupla aparece. Repare que a "cabeça" -COO
+(em vermelho) é igual nos dois -- é a cauda que muda o comportamento físico.
+
+As cadeias mais comuns têm de 12 a 24 carbonos, e quase sempre em número par -- uma pista de que os ácidos
+graxos são sintetizados pela célula através da adição sucessiva de blocos de 2 carbonos (vamos voltar nesse
+ponto quando estudarmos metabolismo). Cada ácido graxo recebe um número de classificação rápida: C18:0,
+C18:1, C20:4 -- o primeiro número é a contagem de carbonos da cadeia, e o segundo, depois dos dois pontos,
+é o número de duplas ligações (insaturações). Quando há insaturação, registra-se também a posição: C18:1
+ significa "18 carbonos, 1 dupla ligação, e ela está entre os carbonos 9 e 10, contando a partir da carboxila".
+
+Como decodificar o nome de um ácido graxo. C18:1  = ácido oleico. O "C18" diz que a cadeia tem 18 carbonos; o ":1" diz que há
+uma dupla ligação; o "" localiza essa dupla entre os carbonos 9 e 10. A contagem sempre começa pela carboxila (carbono 1).
+
+                                                                                5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Existe ainda outra nomenclatura, ômega, que é a preferida da nutrição. Em vez de contar a partir da carboxila,
+ela conta a partir do último carbono da cauda -- o carbono ômega (). Um ácido graxo "-3" tem a primeira
+dupla ligação no terceiro carbono de trás para frente. Por que duas convenções? Porque para o organismo,
+a posição da insaturação próxima à carboxila é o que importa para o metabolismo (regiocheia das enzimas);
+para a nutrição, o que importa é se essa insaturação está na ponta distante -- porque é exatamente lá que nossas
+enzimas humanas não conseguem inserir duplas ligações, tornando ácidos -3 e -6 essenciais (precisam vir
+da dieta).
+
+Atenção -- duas formas de contar, dois interesses diferentes
+
+    (delta) conta da carboxila para a cauda -- é a notação química clássica.  (ômega) conta da cauda para a
+carboxila -- é a notação nutricional. O mesmo ácido linoleico aparece como C18:2 ,¹² (química) e -6 (nutrição),
+porque sua insaturação mais distante da -COOH está no carbono 6 de trás para frente. Não decore as duas
+tabelas; entenda por que a nutrição prefere ômega: o corpo só não consegue inserir duplas além do carbono 9
+contado da carboxila, então insaturações -3 e -6 obrigatoriamente vêm da comida.
+
+Tabela dos principais ácidos graxos. Os ácidos essenciais -- que o corpo não consegue sintetizar -- estão marcados em laranja
+(linoleico C18:2 -6 e linolênico C18:3 -3) e amarelo (araquidônico C20:4 -6, precursor dos eicosanoides). Repare como todos têm
+número par de carbonos, e como a posição das duplas se concentra na metade distal da cadeia.
+
+1.3 Saturação, cis/trans e o desenho da cadeia
+A presença ou ausência de duplas ligações define o segundo grande atributo de um ácido graxo: a saturação.
+Um ácido graxo saturado não tem nenhuma dupla -- cada carbono carrega o máximo de hidrogênios possível,
+está "saturado de hidrogênio". A cadeia fica reta, flexível, organizada. Um insaturado tem uma ou mais duplas
+ligações, e cada uma introduz um "joelho" na cadeia. Esse joelho é o que muda tudo nas propriedades físicas.
+
+   A geometria do joelho depende de qual isomeria a dupla ligação adota. Em cis, os dois hidrogênios da
+dupla ficam do mesmo lado, e a cadeia se dobra cerca de 30°. Em trans, eles ficam em lados opostos, e a cadeia
+fica praticamente reta -- quase indistinguível de uma cadeia saturada. Praticamente todos os ácidos graxos
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+naturais do nosso corpo são cis, e essa é uma escolha evolutiva crítica: a dobra cis impede que as moléculas
+se empilhem perfeitamente, o que diminui as forças intermoleculares entre elas. Vamos ver as consequências
+disso já.
+
+Comparação visual entre gordura saturada (esquerda) e insaturada (direita). Na saturada, as cadeias correm paralelas, empilhadas
+como palitos num pacote -- máximo contato entre vizinhos. Na insaturada, o joelho cis de cada cadeia força um espaçamento --
+empilhamento desorganizado, menos contato. Essa diferença geométrica é o que separa manteiga (sólida em temperatura ambiente)
+de azeite (líquido).
+
+O que acontece quando moléculas com a mesma cabeça mas cauda diferente são colocadas juntas? Surgem dois
+fenômenos físicos que organizam tudo na bioquímica de lipídeos. O primeiro é o efeito hidrofóbico: cadeias
+apolares evitam contato com a água; ao se agregarem, elas liberam moléculas de água que estavam "presas" ao
+redor delas, e essa água liberada aumenta a entropia do sistema (cresce a desordem). É contraintuitivo, mas a
+agregação dos lipídeos é dirigida pelo ganho de entropia da água -- não da agregação em si. O segundo é a
+força de van der Waals entre as caudas: contatos intermoleculares fracos que se somam ao longo de cadeias
+longas. Quanto mais comprida a cadeia, mais pontos de contato; quanto mais retas as cadeias, mais perto elas
+conseguem ficar; mais forte a coesão. É por isso que ácidos graxos saturados longos formam sólidos (ponto de
+fusão alto) e insaturados formam líquidos (ponto de fusão baixo).
+
+   Resumindo até aqui: Cadeia saturada reta  muito contato  van der Waals forte  ponto de fusão alto
+   (manteiga). Cadeia insaturada com joelho cis  pouco contato  van der Waals fraco  ponto de fusão baixo (azeite).
+
+Os números são eloquentes: ácido esteárico (C18:0, saturado) funde a 71°C; ácido oleico (C18:1, uma insaturação
+cis) funde a 16°C; ácido linoleico (C18:2, duas insaturações cis) funde a -5°C. A mesma cabeça, o mesmo
+número de carbonos -- mas cada dupla cis derruba o ponto de fusão em quase 20°C. Quando voltarmos
+à membrana plasmática na PARTE III, esse mesmo princípio vai explicar por que a fluidez da membrana é tão
+sensível à composição lipídica.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese I -- Lipídeo é definição operacional, não química: tudo que é hidrofóbico. Ácido graxo é a peça-base
+anfipática: cabeça polar (-COOH) + cauda apolar; nomenclatura CX:Y -posição (química) ou ômega (nutricional).
+Saturado = sem dupla = cadeia reta = mais van der Waals = ponto de fusão alto. Insaturado cis = joelho na cadeia
+= menos contato = ponto de fusão baixo. A geometria da cauda decide o estado físico do lipídeo em temperatura
+corporal.
+
+PARTE II -- Famílias funcionais: como o kit vira reserva,
+membrana e hormônio
+
+2.1 Triacilgliceróis -- por que reservar como gordura, não como açúcar
+O triacilglicerol2 (também chamado de triglicerídeo, ou TAG) é o que coloquialmente chamamos de "gordura".
+Sua estrutura é simples: uma molécula de glicerol3 (álcool de três carbonos com três -OH) esterificada com
+três ácidos graxos, um em cada hidroxila. Os três grupos polares do glicerol foram consumidos nas ligações
+éster, e o resultado é uma molécula completamente apolar, neutra, hidrofóbica -- um conjunto compacto de
+três caudas pegadas num cabo de glicerol.
+
+Triacilglicerol -- esqueleto de glicerol esterificado com três ácidos graxos. Repare na imagem 3D à direita como os três ácidos graxos
+se acomodam: a molécula é compacta, apolar, sem cargas expostas -- perfeita para empacotamento denso nas gotículas de gordura
+do tecido adiposo.
+
+Por que o organismo investe em estocar energia como gordura em vez de açúcar? A resposta tem três pernas,
+todas mecanísticas. Primeira: densidade calórica. Cada grama de TAG oxidado libera 9 kcal; cada grama
+de carboidrato, 4 kcal. A diferença vem do estado de oxidação do carbono: nos ácidos graxos, o carbono está
+muito reduzido (cheio de ligações C-H), e cada oxidação para CO libera energia. Em açúcares, o carbono já
+está parcialmente oxidado (cheio de -OH), e há menos elétrons disponíveis para serem extraídos. Segunda:
+
+   2triacilglicerol -- lipídeo neutro formado pela esterificação de uma molécula de glicerol com três ácidos graxos; principal forma de reserva
+energética em animais; armazenado no tecido adiposo
+
+   3glicerol -- álcool de três carbonos com três grupos -OH; serve de "esqueleto" para fixar três ácidos graxos via ligações éster, formando o
+triacilglicerol; também é o esqueleto dos glicerofosfolipídeos
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+armazenamento anidro. Carboidratos como o glicogênio são polares e arrastam consigo 2-3 vezes sua massa
+em água. TAGs são apolares e ficam empacotados em gotículas sem água -- o que reduz drasticamente o peso
+da reserva. Por isso o tecido adiposo, gigantesco em massa, é energeticamente compacto. Terceira: proteção
+mecânica e isolamento térmico. A gordura subcutânea isola contra perda de calor (mais relevante em
+mamíferos que vivem em climas frios), e a gordura visceral amortece órgãos contra impactos.
+
+Resumindo até aqui: TAG é a moeda de reserva: 9 kcal/g (vs 4 kcal/g do açúcar) porque o carbono está mais reduzido;
+estocado sem água (vs glicogênio que arrasta 2-3× água); ainda isola e amortece. Três vantagens convergentes.
+
+A consequência clínica é direta: 1 kg de tecido adiposo armazena cerca de 7 700 kcal -- equivalente a quase
+quatro dias de metabolismo basal de um adulto. Uma pessoa com 10 kg de gordura corporal carrega mais de
+30 dias de reserva energética. É por isso que jejum prolongado é sobrevivível em dias-semanas, enquanto a
+reserva de glicogênio (apenas 400 g, distribuídos entre fígado e músculo) dura apenas cerca de 18-24 horas.
+A vantagem evolutiva é óbvia: animais que enfrentam intervalos longos entre as refeições (incluindo nós)
+precisam de uma reserva densa, leve e robusta -- gordura cumpre isso muito melhor que açúcar.
+
+2.2 Fosfolipídeos e esfingolipídeos -- peças anfipáticas com cabeça polar
+Voltamos ao ácido graxo. Se você esterificar três deles no glicerol, obtém TAG (reserva). Mas se esterificar
+apenas dois -- e substituir o terceiro -OH do glicerol por um grupo fosfato ligado a algum álcool polar --
+você obtém um glicerofosfolipídeo4. Essa pequena modificação muda tudo: o fosfato carrega carga negativa,
+o álcool polar adiciona mais polaridade, e o que era uma molécula totalmente apolar (TAG) agora tem uma
+cabeça polar e duas caudas apolares. É a molécula anfipática perfeita -- a peça que constrói a bicamada de
+toda membrana celular.
+
+Estrutura geral de um glicerofosfolipídeo. O glicerol carrega: posição C1 com ácido graxo saturado (geralmente C16-C18); C2 com
+ácido graxo insaturado (C18-C20); C3 com fosfato + grupo polar X. A combinação saturado + insaturado em posições fixas é uma
+assinatura conservada -- a célula faz isso de propósito, como vamos ver na PARTE III.
+
+   4glicerofosfolipídeo -- lipídeo de membrana formado por glicerol + 2 ácidos graxos + grupo fosfato esterificado a um álcool polar
+(colina, etanolamina, serina, inositol); anfipático com cabeça polar carregada e cauda apolar; base estrutural da bicamada
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O grupo X -- o álcool ligado ao fosfato -- define a cabeça polar do fosfolipídeo, e essa cabeça muda comple
+tamente o comportamento da molécula. Os principais são:
+
+Principais cabeças polares dos glicerofosfolipídeos e suas cargas em pH 7. Repare: fosfatidilcolina e fosfatidiletanolamina têm carga
+zero (zwitterion, neutro); fosfatidilserina e fosfatidilglicerol têm carga negativa (-1); fosfatidilinositol-4,5-bifosfato chega a carga
+-4. A célula explora essas cargas para criar regiões assimétricas -- por exemplo, fosfatidilserina fica restrita à face interna da
+membrana plasmática.
+
+A fosfatidilcolina (PC) e a fosfatidiletanolamina (PE) são as mais abundantes nas membranas. Ambas são
+neutras (zwitteriônicas) -- o fosfato negativo é compensado pela carga positiva da colina ou etanolamina. A
+fosfatidilserina (PS) e a fosfatidilinositol (PI), ao contrário, são aniônicas, carregando cargas negativas
+que servem como sítios de ancoragem para proteínas de sinalização. Existe ainda um caso especial -- a cardi
+olipina -- que tem duas moléculas de glicerofosfolipídeo grudadas, fica restrita à membrana mitocondrial
+interna, e é onde várias enzimas da cadeia respiratória se ancoram.
+
+   Os esfingolipídeos5 são uma família paralela, com uma diferença estrutural chave: substituem o glicerol
+pela esfingosina, um álcool de cadeia longa que já tem uma cauda hidrocarbonada embutida. Resultado: a
+esfingosina contribui com uma das caudas (assume o papel que um ácido graxo teria no glicerolipídeo), e só
+um ácido graxo precisa ser adicionado, ligado por ligação amida ao nitrogênio da esfingosina. A estrutura
+geral final é parecida com a do glicerofosfolipídeo (duas caudas + cabeça polar), mas o esqueleto é diferente.
+
+   5esfingolipídeos -- família de lipídeos baseada na esfingosina (não no glicerol); a esfingosina já tem uma cauda hidrocarbonada longa
+embutida e funciona como "ácido graxo + esqueleto" em uma só molécula; inclui esfingomielinas e glicoesfingolipídeos
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esfingolipídeos. A esfingosina (em azul, à esquerda) é um álcool de cadeia longa que substitui o glicerol e contribui com uma das
+caudas. Cabeças polares variadas: fosfocolina forma esfingomielinas; açúcares formam glicoesfingolipídeos. Repare como o esqueleto
+da esfingosina já carrega uma cauda intrínseca -- economiza um ácido graxo.
+
+O que mais distingue os esfingolipídeos não é só a estrutura -- é a função extra que ganharam na evolução: re
+conhecimento celular. Quando esfingolipídeos têm açúcares como cabeça polar (os glicoesfingolipídeos),
+eles ficam expostos na face externa da membrana, e os açúcares funcionam como uma "identidade molecular"
+da célula. O exemplo clínico clássico é o sistema sanguíneo ABO: o que distingue o sangue tipo A, B, AB ou
+O é exatamente o açúcar terminal de glicoesfingolipídeos da membrana dos eritrócitos. Tipo A tem GalNAc
+terminal; tipo B tem galactose; tipo AB tem os dois; tipo O não tem nenhum. Uma transfusão de sangue tipo A
+num receptor B é rejeitada porque os anticorpos do receptor reconhecem o açúcar errado -- exatamente como
+o sistema imunológico marca uma célula estranha.
+
+    Sistema ABO e a importância clínica dos glicoesfingolipídeos
+       Os antígenos A e B do sangue são açúcares específicos (N-acetilgalactosamina para A; galactose para B) ligados
+
+    a glicoesfingolipídeos da face externa da membrana do eritrócito. Pessoas tipo A produzem anticorpos anti-B;
+    tipo B produz anti-A; tipo O produz ambos os anticorpos. Uma incompatibilidade ABO numa transfusão dispara
+    hemólise maciça em minutos -- é por isso que a tipagem sanguínea é obrigatória antes de qualquer transfusão. O
+    detalhe químico de qual açúcar termina o esfingolipídeo da membrana decide quem pode receber sangue de quem.
+
+2.3 Colesterol -- o esteróide rígido que vira hormônio (e tampona a mem
+brana)
+O colesterol6 é uma exceção dentro da família lipídica: ele não deriva de ácidos graxos. Sua estrutura é comple
+tamente diferente -- quatro anéis de carbono fundidos (o núcleo esteróide, comum a todos os esteroides)
+mais uma cauda lateral curta, e uma única hidroxila (-OH) numa das pontas. Essa única -OH é o que torna
+
+   6colesterol -- lipídeo esteróide com 27 carbonos organizados em 4 anéis fundidos + cauda hidrocarbonada lateral; uma única hidroxila -
+OH na ponta polar; sintetizado pelo fígado e absorvido da dieta animal; precursor de hormônios esteroides, ácidos biliares e vitamina D
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+a molécula levemente anfipática -- quase toda a estrutura é apolar (anéis hidrocarbonados + cauda), com só
+uma cabeça polar minúscula. É essa pequena cabeça que ancora o colesterol na superfície da membrana.
+
+Colesterol -- uma única molécula com muitas funções. À esquerda, a estrutura: anéis A, B, C, D fundidos (o núcleo esteróide), hidroxila
+(-OH) na ponta polar, cadeia hidrocarbonada lateral apolar. À direita, o leque de derivados biológicos: precursor de hormônios sexuais
+(testosterona, estrogênio), cortisol, aldosterona, ácidos biliares, vitamina D. O colesterol é a única fonte desses esteroides -- não há
+rota alternativa.
+
+Colesterol é produzido pelo fígado a partir de acetil-CoA -- e como apenas células animais possuem essa via,
+não existe colesterol em alimentos de origem vegetal. Ele também pode ser absorvido da dieta (ovos,
+carne, laticínios). A circulação não permite que ele viaje livre -- ele é apolar demais. Por isso o colesterol é
+transportado por lipoproteínas (quilomícrons, VLDL, LDL, HDL), partículas que combinam um núcleo de
+TAGs e ésteres de colesterol com uma "casca" de fosfolipídeos e proteínas (apoproteínas) que dá solubilidade.
+LDL é o transportador do fígado para os tecidos; HDL faz o caminho contrário, devolvendo colesterol em
+excesso para o fígado. Quando o LDL está cronicamente alto, o colesterol em excesso se deposita nas paredes
+arteriais -- essa é a base molecular da aterosclerose.
+
+   A função estrutural do colesterol na membrana é uma das coisas mais elegantes da bioquímica. Por ter
+um núcleo de anéis rígidos, ele "encaixa-se" entre os ácidos graxos dos fosfolipídeos com uma propriedade
+peculiar: aumenta a fluidez em temperaturas baixas (porque empurra os fosfolipídeos para longe, impedindo
+o empacotamento gel) e diminui a fluidez em temperaturas altas (porque os anéis rígidos limitam a movi
+mentação livre das caudas). Em vez de manter a membrana sólida ou líquida, ele a mantém intermediária
+-- funciona como um tampão de fluidez. Em humanos, que mantemos temperatura constante a 37°C, isso
+não muda muito. Mas em peixes árticos e mamíferos hibernantes, esse mecanismo permite que a membrana
+funcione em temperaturas extremas. Vamos detalhar esse mecanismo no subtópico 3.1.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Colesterol inserido na membrana. A hidroxila (-OH, em vermelho) ancora-se entre as cabeças polares dos fosfolipídeos, e o núcleo
+esteróide rígido fica imerso na região hidrofóbica das caudas. Repare como o colesterol é praticamente do tamanho do segmento
+superior das caudas dos fosfolipídeos -- ele substitui parcialmente esse trecho e modifica o empacotamento da bicamada.
+
+    Síntese II -- TAG é a moeda da reserva energética: três ácidos graxos no glicerol, apolar, denso, 9 kcal/g,
+    sem água associada. Glicerofosfolipídeos (e esfingolipídeos, análogos) são as peças da bicamada de membrana:
+    anfipáticos, com cabeça polar variável que define carga e função; saturado em C1, insaturado em C2 -- design
+    conservado. Esfingolipídeos com cabeças açucaradas (glicoesfingolipídeos) servem para reconhecimento celular
+    (sistema ABO). Colesterol é o esteróide rígido com 4 anéis, sintetizado no fígado, precursor de hormônios e ácidos
+    biliares, e tampão de fluidez das membranas -- modula a viscosidade dependendo da temperatura.
+
+PARTE III -- Lipídeos em ação: membrana, sinalização e
+clínica
+
+3.1 Bicamada espontânea e a fluidez controlada
+O que acontece quando você joga moléculas anfipáticas (cabeça polar + cauda apolar) numa solução aquosa?
+Elas se organizam sozinhas -- sem gastar energia, sem enzima, sem nenhuma instrução genética. Esse
+fenômeno é o ponto onde a química de superfície encontra a biologia: a partir de um simples princípio
+termodinâmico, a evolução conseguiu criar membranas.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Três estruturas que lipídeos anfipáticos podem formar espontaneamente em água: (a) micela -- esfera com caudas para dentro,
+cabeças para fora, típica de ácidos graxos livres e detergentes; (b) bicamada plana -- duas camadas com caudas se tocando no meio,
+útil em estudos; (c) vesícula (lipossomo) -- bicamada fechada em esfera, com compartimento aquoso interno. As três formas existem
+porque resolvem o mesmo problema: esconder as caudas apolares da água.
+
+A forma que os lipídeos assumem depende da sua geometria: ácidos graxos isolados (uma cauda) tendem a
+formar micelas (esferas com caudas para dentro); fosfolipídeos com duas caudas formam bicamadas (lâminas
+duplas, caudas se tocando no meio); e qualquer bicamada grande o suficiente eventualmente se fecha em uma
+vesícula (esfera oca). Por que a vesícula é o estado mais estável de uma bicamada extensa? Porque qualquer
+bicamada plana tem bordas expostas -- onde as caudas hidrofóbicas ficam em contato com a água. Esse
+contato é energeticamente caro. Ao fechar a bicamada em esfera, as bordas desaparecem, e a energia do sistema
+cai para o mínimo possível. Toda membrana biológica é, fundamentalmente, uma vesícula gigante que
+envolve um compartimento aquoso -- exatamente o que faz a célula ser célula.
+
+   Uma vez que a bicamada existe, surge uma propriedade nova que decide tudo: a fluidez. Membrana muito
+rígida não permite o movimento lateral de proteínas, fusão de vesículas, ou alteração de forma -- processos
+essenciais para a vida celular. Membrana muito fluida perde a integridade de barreira: vaza solutos, deixa
+proteínas se difundirem para regiões erradas. A célula precisa do meio termo, e ajusta sua fluidez por três
+alavancas mecanicamente concretas: (1) comprimento da cauda -- cadeias longas têm mais van der Waals
+entre si, membrana mais rígida; cadeias curtas, menos contato, mais fluida; (2) saturação -- cadeias saturadas
+se empacotam apertadas (rígido); cadeias com joelhos cis impedem o empacotamento (fluido); (3) colesterol
+-- funciona como tampão de fluidez, modulado por temperatura.
+
+                                                                                14
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Transição gel  líquida da membrana com o aumento de temperatura. Em estado gel (baixa temperatura), as cadeias estão paralelas,
+ordenadas, contato máximo entre vizinhos. Aquecendo, as cadeias começam a se mover, dobrar, perder ordem -- vira estado líquido-
+cristalino. A célula opera na temperatura corporal (37 °C em humanos), que é mantida dentro da faixa onde a membrana é
+líquida e funcional.
+
+O colesterol merece atenção especial porque seu efeito é bidirecional. Em temperatura alta (acima do ponto
+de transição da membrana), o colesterol diminui a fluidez: o núcleo de anéis rígidos limita a movimentação
+das caudas dos fosfolipídeos, impedindo que a membrana fique "líquida demais". Em temperatura baixa, ele
+aumenta a fluidez: ao se intercalar entre as cabeças polares, o colesterol impede que os fosfolipídeos se
+aproximem e se empilhem, atrapalhando a transição para o estado gel rígido. O efeito final é manter a fluidez
+dentro de uma faixa estreita, mesmo com variações de temperatura. Para mamíferos com termorregulação
+eficiente (humanos), isso é um ajuste fino; para peixes que vivem em águas frias, é a diferença entre viver e
+morrer congelado.
+
+       15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Colesterol como tampão de fluidez. Em alta temperatura (alto), sem colesterol a membrana fica fluida demais; com colesterol, a
+fluidez é contida. Em baixa temperatura (baixo), sem colesterol a membrana solidifica; com colesterol, a fluidez é mantida. O
+colesterol é o único componente da membrana que funciona simultaneamente em direções opostas conforme a temperatura -- uma
+elegância evolutiva.
+
+   Resumindo até aqui: Bicamada nasce sozinha por efeito hidrofóbico  fluidez determinada por cauda (longa =
+   rígida; com kink cis = fluida) e por colesterol (tampão bidirecional). Sem fluidez correta, não há fusão de vesículas,
+   exocitose, nem movimento de proteínas -- a célula deixa de funcionar.
+
+3.2 Eicosanoides -- quando o lipídeo vira mensageiro inflamatório
+Até agora, lipídeo apareceu como reserva, estrutura ou plataforma. Mas há uma quarta função que abre
+uma porta inteira para a clínica: o lipídeo como molécula sinalizadora. O exemplo paradigmático são os
+eicosanoides7 -- moléculas com 20 carbonos (em grego, eikosi = vinte) derivadas de um único ácido graxo
+poliinsaturado, o ácido araquidônico (C20:4 -6).
+
+   O ácido araquidônico não fica livre na célula -- ele está esterificado na posição C2 dos glicerofosfolipídeos
+da membrana, especialmente da fosfatidilcolina. Quando a célula recebe um sinal pró-inflamatório (citocinas,
+dano tecidual, infecção), uma enzima chamada fosfolipase A2 (PLA2) corta a ligação éster e libera ácido
+araquidônico no citoplasma. A partir daí, o destino do ácido araquidônico se bifurca em duas grandes vias
+enzimáticas:
+
+   7eicosanoides -- família de mediadores lipídicos com 20 carbonos derivados do ácido araquidônico; inclui prostaglandinas, leucotrienos
+e tromboxanos; medeiam inflamação, dor, febre, coagulação e tônus vascular; alvos de anti-inflamatórios como AINEs e corticoides
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Ácido araquidônico como precursor dos eicosanoides. Liberado da membrana por PLA2, ele entra em duas vias paralelas: a via
+ da ciclooxigenase (COX-1/COX-2) gera prostaglandinas e tromboxanos; a via da lipoxigenase (5-LOX, 12-LOX, 15-LOX) gera
+ leucotrienos e HETEs. AINEs (aspirina, ibuprofeno) bloqueiam a COX; corticoides bloqueiam a PLA2, "fechando a torneira" antes
+ da bifurcação.
+
+A via da ciclooxigenase (COX) produz prostaglandinas e tromboxanos. Prostaglandinas medeiam
+dor (sensibilização de nociceptores), febre (acionamento do centro termorregulador no hipotálamo), e vasodi
+latação no foco inflamatório. Tromboxanos promovem agregação plaquetária e vasoconstrição. A via da
+lipoxigenase (LOX) produz leucotrienos, mediadores potentes da inflamação alérgica (broncoconstrição na
+asma) e do recrutamento de neutrófilos.
+
+   A relevância farmacológica é gigantesca. Os AINEs (anti-inflamatórios não esteroides) -- aspirina, ibupro
+feno, naproxeno -- funcionam inibindo a COX, reduzindo a produção de prostaglandinas. Por isso aliviam
+dor, febre e inflamação. Os corticoides (prednisona, dexametasona) atuam mais a montante: inibem a PLA2
+(via indireta), o que bloqueia a liberação do próprio ácido araquidônico da membrana -- fecham a
+torneira antes da bifurcação, suprimindo tanto prostaglandinas quanto leucotrienos. Por isso corticoides são
+anti-inflamatórios mais potentes que AINEs, mas com efeitos colaterais sistêmicos maiores (suprimem toda a
+sinalização derivada do araquidônico, não só uma via).
+
+    Aspirina, COX e ataque cardíaco
+       A aspirina (ácido acetilsalicílico) inibe a COX irreversivelmente por acetilação. Nas plaquetas -- que não têm
+
+    núcleo e não conseguem sintetizar nova COX -- essa inibição dura toda a vida da plaqueta ( 7-10 dias). Resultado:
+    as plaquetas perdem a capacidade de produzir tromboxano A2, e a agregação plaquetária cai. É por isso que
+    aspirina em baixa dose (75-100 mg/dia) é usada para prevenção secundária de infarto e AVC -- não pelo efeito
+    anti-inflamatório, mas pelo efeito antiplaquetário irreversível. O mecanismo bioquímico explica a dose, a duração
+    e a indicação.
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+3.3 Nutrição (-3, trans) e surfactante pulmonar: a Síndrome do Desconforto
+Respiratório
+A questão nutricional dos lipídeos termina de fechar o quadro. Os ácidos graxos essenciais -- -3 (ácido
+-linolênico, C18:3) e -6 (ácido linoleico, C18:2) -- precisam vir da dieta porque enzimas humanas não
+conseguem introduzir duplas ligações além do carbono 9 (contado da carboxila). Isso significa que -3 e -6
+obrigatoriamente vêm do peixe, do óleo de linhaça, das sementes, das nozes. A partir desses precursores, o
+corpo sintetiza ácidos graxos mais longos e mais insaturados (EPA, DHA, araquidônico), que vão modular a
+fluidez de membranas e a produção de eicosanoides. Dieta rica em -3 desloca o equilíbrio para eicosanoides
+menos pró-inflamatórios -- daí o efeito cardiovascular protetor associado ao consumo de peixe gordo.
+
+Ácidos graxos -3 e -6 -- poliinsaturados (PUFAs). A nomenclatura ômega conta da cauda para a carboxila e marca a primeira
+insaturação distal. Esses ácidos são essenciais porque enzimas humanas dessaturam somente até a posição  (a partir da carboxila)
+-- o que estiver mais distante precisa vir da dieta. Daí a recomendação clínica de consumo regular de peixe, sementes e óleos vegetais.
+
+No outro extremo do espectro nutricional estão as gorduras trans. Industrialmente, óleos vegetais (ricos em
+ácidos graxos cis-insaturados) são hidrogenados parcialmente para virar margarinas e gorduras sólidas --
+o objetivo é aumentar o ponto de fusão e a vida de prateleira. O processo converte algumas duplas cis em
+duplas trans. Lembre da PARTE I: cadeia trans é praticamente reta, comporta-se como saturada. Mas trans
+não é apenas saturada disfarçada -- ela é metabolicamente diferente. Estudos clínicos (NEJM 1990, Mensink
+e Katan) mostraram que gorduras trans elevam LDL e reduzem HDL -- efeito duplamente desfavorável que
+aumenta o risco cardiovascular mais do que gorduras saturadas. Por isso há legislação restringindo gorduras
+trans em vários países, incluindo o Brasil.
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Conversão industrial: hidrogenação parcial de óleo vegetal (rico em cis-insaturados) em margarina (com proporção significativa de
+trans). Quimicamente, trans difere do cis apenas pela posição dos hidrogênios na dupla ligação, mas a consequência geométrica é
+dramática -- cadeia trans fica reta, comporta-se como saturada, e eleva LDL e reduz HDL simultaneamente.
+
+    Síndrome do Desconforto Respiratório do Recém-Nascido (SDR)
+       Os alvéolos do pulmão são esferas microscópicas de ar revestidas por uma fina camada de líquido. Pela Lei
+
+    de Laplace (P = 2/r), a pressão necessária para manter um alvéolo aberto é inversamente proporcional ao
+    raio: alvéolos pequenos exigem mais pressão para não colapsar. Sem nenhuma adaptação, alvéolos pequenos
+    colapsariam, e o ar fluiria para os maiores -- o pulmão "se desorganizaria" mecanicamente.
+
+       A solução biológica é o surfactante pulmonar, uma mistura lipídica produzida pelos pneumócitos tipo II em
+    que predomina a dipalmitoil-fosfatidilcolina (DPPC). O surfactante reduz a tensão superficial () do filme
+    líquido alveolar, e o faz mais eficientemente em alvéolos pequenos (onde as moléculas ficam mais compactadas e
+    a redução de  é maior). Resultado: a pressão de colapso fica equilibrada entre alvéolos de tamanhos diferentes.
+
+       No prematuro extremo (<34 semanas), os pneumócitos tipo II ainda não amadureceram, e a produção de
+    surfactante é insuficiente. Os alvéolos pequenos colapsam, áreas inteiras do pulmão ficam sem ventilação, e o
+    bebê desenvolve hipoxemia grave -- a Síndrome do Desconforto Respiratório do Recém-Nascido (SDR). O
+    tratamento atual envolve administração intratraqueal de surfactante exógeno (preparado animal ou sintético) e
+    ventilação mecânica. A bioquímica de um único fosfolipídeo separa um pulmão funcional de uma emergência
+    neonatal.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Lei de Laplace aplicada ao alvéolo. À esquerda, sem surfactante (-LS): alvéolos de raios diferentes (r < r) com tensão superficial
+igual ( = ) produzem pressões diferentes (P > P) -- alvéolo pequeno colapsaria. À direita, com surfactante (+LS): a tensão 
+se ajusta ao raio ( <  no menor), e as pressões ficam equilibradas (P = P). É a química do filme molecular que estabiliza a
+mecânica do pulmão.
+
+    Síntese III -- Bicamada surge espontaneamente por efeito hidrofóbico; fluidez é ajustada por comprimento da
+    cauda, saturação e colesterol (tampão bidirecional). Ácido araquidônico (C20:4 -6) liberado pela PLA2 origina
+    eicosanoides -- prostaglandinas via COX e leucotrienos via LOX --, mediadores da inflamação que são alvos
+    de AINEs e corticoides. -3 e -6 são essenciais; gorduras trans elevam LDL e baixam HDL, aumentando risco
+    cardiovascular. O surfactante pulmonar (DPPC) reduz a tensão superficial nos alvéolos e impede o colapso -- sua
+    ausência em prematuros causa a Síndrome do Desconforto Respiratório, um exemplo clínico de como a estrutura
+    de um único fosfolipídeo decide se um pulmão funciona.
+
+                                                                               20
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+   Lipídeos não são uma classe única -- são uma família de moléculas hidrofóbicas com versatilidade
+funcional sem paralelo na bioquímica. A peça central é o ácido graxo: cabeça polar, cauda apolar,
+anfipático. A geometria da cauda (comprimento, saturação, isomeria cis/trans) determina o estado físico
+e as propriedades de empacotamento. Esterificado no glicerol em três, forma triacilglicerol -- a reserva
+energética densa. Esterificado em dois, com fosfato + álcool polar no terceiro, forma fosfolipídeo -- a
+peça da membrana. Trocando o glicerol pela esfingosina, forma esfingolipídeo -- peça da membrana
++ ferramenta de reconhecimento celular (sistema ABO). Saindo da família dos ácidos graxos para o
+esqueleto esteróide, encontra o colesterol -- precursor de hormônios sexuais, cortisol, ácidos biliares,
+e tampão de fluidez das membranas. Liberado da membrana pela PLA2, o ácido araquidônico vira
+eicosanoide e medeia inflamação, dor, febre, coagulação. E na última fronteira, um único fosfolipídeo -- a
+DPPC do surfactante alveolar -- separa o nascimento de um pulmão funcional do desfecho dramático da
+Síndrome do Desconforto Respiratório. Toda essa diversidade nasce de uma propriedade física simples:
+a hidrofobicidade. A evolução fez o resto.
+
+       21
+NEBLI                           ETAPA 1 -- TEXTO DIDÁTICO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 1 Consolidação
+   Lipídeos são classificados juntos não por compartilharem um esqueleto químico fixo, mas por uma
+
+propriedade física comum. Qual é essa propriedade, e por que ela permite tantas funções biológicas distintas?
+  A) São todos derivados do glicerol; isso garante o esqueleto comum que sustenta funções diversas.
+  B) Têm sempre carga negativa em pH fisiológico; é essa carga que dá origem às funções biológicas.
+  C) São majoritariamente hidrofóbicos; a relação com a água é o que define o grupo, e variações estruturais
+  permitem reserva, membrana, hormônio e sinalização.
+  D) Contêm sempre uma ligação éster; essa ligação é hidrolisável e isso explica as funções metabólicas.
+  E) São polímeros de ácidos graxos; a polimerização cria as diferentes funções biológicas.
+
+Questão 2 Consolidação
+   Considere o ácido graxo C18:1 . Qual interpretação está correta?
+  A) 18 átomos de hidrogênio, 1 carbono, dupla ligação na posição 9 da cadeia.
+  B) Cadeia de 18 carbonos, uma dupla ligação, localizada entre os carbonos 9 e 10 contados a partir da
+  carboxila.
+  C) Cadeia de 18 carbonos, 9 duplas ligações, uma delas entre os carbonos 1 e 2.
+  D) 18 carbonos, 1 dupla ligação, posicionada entre os carbonos 9 e 10 contados a partir do carbono ômega
+  (final da cadeia).
+  E) 18 átomos de carbono e 1 grupo metila terminal, com a dupla na posição 9 da cabeça polar.
+
+                            22
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 3 Consolidação
+
+Julgue cada afirmação sobre a estrutura e o comportamento físico dos ácidos graxos.
+
+Cada item deve ser julgado de forma independente.
+
+I. Um ácido graxo é uma molécula anfipática: a cabeça carboxila é polar e a cauda de hidrocarbonetos é
+apolar.
+II. A maioria dos ácidos graxos naturais tem número par de carbonos, porque são sintetizados pela adição
+sucessiva de blocos de 2 carbonos.
+III. Uma dupla ligação em configuração trans dobra a cadeia em 30°, da mesma forma que uma dupla cis.
+IV. O ácido oleico (C18:1) tem o mesmo ponto de fusão que o ácido esteárico (C18:0), porque ambos têm 18
+carbonos.
+
+Questão 4 Consolidação
+
+   O ácido esteárico (C18:0) funde a 71 °C; o ácido oleico (C18:1, com uma dupla cis em ) funde a 16 °C. Qual
+mecanismo explica essa diferença gigantesca de ponto de fusão entre duas moléculas com o mesmo número
+de carbonos?
+
+  A) A dupla ligação cis introduz um joelho na cadeia do oleico, impedindo o empacotamento denso entre
+  cadeias vizinhas e reduzindo as forças de van der Waals que mantêm o sólido coeso.
+  B) O ácido oleico tem peso molecular menor que o ácido esteárico, e por isso funde a uma temperatura
+  mais baixa.
+  C) A dupla ligação no oleico aumenta o número de elétrons disponíveis, fortalecendo as forças intermolec
+  ulares e elevando o ponto de fusão.
+  D) A diferença vem de que o oleico tem um grupo carboxila mais polar, o que o torna mais hidrofílico e
+  diminui a coesão hidrofóbica.
+  E) O ácido esteárico forma pontes de hidrogênio internas entre suas duas cadeias, e o oleico não -- daí o
+  ponto de fusão diferente.
+
+                        23
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 5 Consolidação
+
+Sobre os triacilgliceróis (TAGs) como forma de reserva energética, qual afirmação está correta?
+
+A) TAGs são hidratados: cada grama de TAG está associada a 2 g de água, semelhante ao glicogênio.
+B) TAGs liberam 4 kcal/g em sua oxidação, igual aos carboidratos, porque também são oxidados a CO
+e HO.
+C) TAGs são moléculas anfipáticas, com cabeça carregada de glicerol e três caudas apolares.
+D) TAGs liberam 9 kcal/g porque o carbono está muito reduzido (rico em ligações C-H); são armazenados
+sem água associada, o que torna a reserva compacta.
+E) TAGs só podem ser estocados em adipócitos porque exigem proteínas transportadoras específicas para
+entrar nessas células.
+
+Questão 6 Consolidação
+
+   Julgue cada afirmação sobre a estrutura dos glicerofosfolipídeos.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Em um glicerofosfolipídeo típico, o carbono 1 do glicerol leva uma cadeia insaturada longa, enquanto o
+  carbono 2 leva uma cadeia saturada curta.
+  II. A fosfatidilcolina tem carga total negativa em pH fisiológico, por causa do fosfato.
+  III. A fosfatidilserina tem carga total negativa em pH 7 e fica preferencialmente restrita à face interna
+  da membrana plasmática em células saudáveis.
+  IV. Diferentes cabeças polares (colina, etanolamina, serina, inositol) conferem identidade química e cargas
+  distintas à membrana, criando regiões funcionalmente especializadas.
+
+Questão 7 Consolidação
+
+   O colesterol tem como característica estrutural marcante:
+  A) Três ácidos graxos esterificados em uma molécula de glicerol.
+  B) Quatro anéis de carbono fundidos (núcleo esteróide), uma cadeia hidrocarbonada lateral e uma única
+  hidroxila polar.
+  C) Uma cabeça polar com fosfato e duas caudas de ácidos graxos.
+  D) Esqueleto de esfingosina com cabeça açucarada, semelhante aos glicoesfingolipídeos.
+  E) Cadeia de 20 carbonos com quatro duplas ligações, semelhante ao ácido araquidônico.
+
+                        24
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 8 Consolidação
+
+Sobre a localização e a origem do colesterol no organismo humano, qual afirmação é correta?
+
+A) Colesterol pode ser sintetizado por plantas e animais, e a maior fonte humana é vegetal (azeite, abacate,
+oleaginosas).
+B) Colesterol é uma molécula hidrofílica e por isso circula livremente no plasma sem precisar de trans
+portadores.
+C) Colesterol é insolúvel em água, mas é transportado no plasma de forma livre, sem necessidade de
+complexos.
+D) Colesterol vem exclusivamente da dieta; o organismo humano não consegue sintetizá-lo.
+E) Colesterol é sintetizado principalmente pelo fígado a partir de acetil-CoA, está ausente em alimentos
+vegetais, e circula no plasma associado a lipoproteínas (quilomícrons, VLDL, LDL, HDL).
+
+Questão 9 Consolidação
+
+   Julgue cada afirmação sobre a estrutura e a propriedade física das membranas biológicas.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. A bicamada lipídica é formada por moléculas saturadas dispostas paralelamente, sem participação de
+  fosfolipídeos insaturados.
+  II. O efeito hidrofóbico que promove a auto-organização da bicamada é energeticamente desfavorável --
+  exige consumo de ATP para manter a estrutura.
+  III. Uma bicamada plana extensa tende a se fechar em vesícula esférica porque, ao fazê-lo, elimina as bordas
+  onde caudas apolares estariam expostas à água.
+  IV. A membrana plasmática em temperatura corporal (37 °C) está em estado gel (ordenado e rígido), o que
+  garante sua integridade como barreira.
+
+                        25
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 10 Consolidação
+
+   O colesterol atua como tampão de fluidez da membrana. Qual descrição captura corretamente esse efeito
+bidirecional?
+
+  A) Em qualquer temperatura, o colesterol aumenta a fluidez da membrana, porque sua estrutura rígida
+  desorganiza o empacotamento dos fosfolipídeos.
+
+  B) Em qualquer temperatura, o colesterol diminui a fluidez da membrana, porque seus anéis rígidos
+  restringem o movimento das cadeias dos fosfolipídeos.
+
+  C) O colesterol é catalogado como tampão de fluidez apenas em peixes árticos e mamíferos hibernantes; em
+  humanos, ele tem função puramente energética.
+
+  D) Em temperatura alta, o colesterol diminui a fluidez (restringe o movimento das caudas); em temper
+  atura baixa, ele aumenta a fluidez (impede o empacotamento gel) -- mantendo a membrana em estado
+  intermediário.
+
+  E) Em temperatura alta, o colesterol aumenta a fluidez; em temperatura baixa, ele diminui a fluidez --
+  sempre acompanhando a tendência térmica.
+
+Questão 11 Integração
+
+   Um pesquisador compara membranas de duas células: a célula A tem alta proporção de fosfolipídeos com
+cadeias saturadas longas; a célula B tem alta proporção de cadeias insaturadas com duplas cis. À mesma
+temperatura, qual descrição é coerente com o que se esperaria?
+
+  A) Membrana A mais fluida que a B, porque cadeias saturadas longas se movem com mais liberdade.
+  B) Membrana A mais rígida (menor fluidez) que a B, porque cadeias saturadas se empacotam com máximo
+  de contato van der Waals; cadeias com kinks cis em B impedem esse empacotamento.
+  C) Ambas têm fluidez idêntica, porque a temperatura é a mesma; estrutura química da cauda não afeta
+  fluidez.
+  D) Membrana A mais fluida que a B, porque insaturações reduzem o número de contatos hidrofóbicos.
+  E) Membrana B mais rígida que a A, porque as duplas ligações são pontos de coesão extra.
+
+                         26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 12 Integração
+
+   Vinheta: um aluno, ao revisar a estrutura dos glicerofosfolipídeos da membrana plasmática, encontra a
+regra empírica "C1 saturado, C2 insaturado". Julgue cada afirmação sobre essa configuração.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. A presença do ácido graxo insaturado em C2 é uma escolha aleatória da evolução; não há consequência
+  funcional clara.
+
+  II. Se todos os ácidos graxos dos fosfolipídeos fossem saturados, a membrana ficaria mais fluida em
+  temperatura corporal.
+
+  III. O ácido araquidônico (C20:4) está tipicamente esterificado em C2; é dele que a fosfolipase A2 libera o
+  substrato para a produção de eicosanoides.
+
+  IV. A combinação saturado/insaturado mantém a membrana em fluidez intermediária -- nem cristalina
+  demais (gel), nem fluida demais -- adequada para a função celular.
+
+Questão 13 Integração
+
+   Vinheta: uma nutricionista explica a um paciente que os ácidos graxos ômega-3 e ômega-6 são essenciais
+e devem vir da dieta. Qual é a justificativa bioquímica dessa essencialidade?
+
+  A) As enzimas humanas (dessaturases) conseguem inserir duplas ligações até a posição 9 contada a partir
+  da carboxila. Insaturações em posições mais distantes (-3, -6) ficam fora do alcance dessas enzimas e
+  precisam vir prontas da dieta.
+  B) O fígado humano não produz ácidos graxos de cadeia longa, apenas de cadeia curta; por isso todos os
+  ácidos com mais de 8 carbonos precisam vir da dieta.
+  C) A microbiota intestinal humana destrói qualquer ácido graxo poliinsaturado endógeno; assim, qualquer
+  PUFA precisa ser absorvido da dieta antes da fermentação bacteriana.
+  D) Os ácidos graxos ômega-3 e ômega-6 não são sintetizados no organismo porque suas enzimas estão
+  restritas ao tecido adiposo, que não tem capacidade biossintética significativa.
+  E) O corpo humano só sintetiza ácidos graxos com configuração trans; cis-insaturados ômega só vêm da
+  dieta.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 14 Integração
+
+   Um adulto em jejum prolongado consegue sobreviver por dias a semanas mobilizando suas reservas
+energéticas. Comparando glicogênio (forma de reserva de carboidrato) e triacilgliceróis (forma de reserva
+lipídica), qual conjunto de razões explica por que TAGs sustentam jejuns muito mais longos?
+
+  A) Glicogênio é mais facilmente convertido em ATP, mas a maior parte do corpo só consegue usar TAG,
+  então o glicogênio é descartado em poucas horas.
+
+  B) O glicogênio é tóxico em concentrações altas, então o organismo prefere a gordura por motivos defen
+  sivos, não energéticos.
+
+  C) Os adipócitos têm enzimas mais lentas que os hepatócitos, então a gordura demora mais a ser consumida
+  do que o glicogênio.
+
+  D) TAGs liberam 9 kcal/g (mais que o dobro do glicogênio, 4 kcal/g) porque o carbono está mais reduzido;
+  e TAGs são anidros, enquanto o glicogênio arrasta 2-3× sua massa em água, o que limita drasticamente o
+  volume de reserva.
+
+  E) TAGs ficam no plasma livremente, enquanto o glicogênio precisa de transportadores específicos para ser
+  usado; isso torna o glicogênio energeticamente caro.
+
+Questão 15 Integração
+
+   Vinheta: uma transfusão sanguínea ABO incompatível pode disparar hemólise grave em minutos. Julgue
+cada afirmação sobre a base molecular do sistema ABO.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. Os antígenos A e B do sangue são açúcares terminais de glicoesfingolipídeos expostos na face externa
+  da membrana dos eritrócitos.
+  II. Uma pessoa do tipo sanguíneo A produz anticorpos anti-B, e essa é a base imunológica da reação adversa
+  a sangue tipo B.
+  III. No tipo sanguíneo O, o glicoesfingolipídeo carrega tanto o açúcar A (GalNAc) quanto o B (galactose), e
+  por isso o O é o doador universal.
+  IV. A diferença molecular entre tipos A, B e O está no açúcar terminal do glicoesfingolipídeo, não em uma
+  proteína diferente.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 16 Integração
+
+   Sobre o transporte plasmático de colesterol e o que distingue, em termos de função, as lipoproteínas
+circulantes, qual afirmação é correta?
+
+  A) LDL traz colesterol de volta ao fígado para excreção; HDL leva colesterol do fígado para os tecidos. Por
+  isso LDL é chamado de "colesterol bom".
+  B) Quilomícrons são fabricados pelo fígado e transportam colesterol da dieta para os tecidos periféricos.
+  C) LDL transporta colesterol do fígado para os tecidos periféricos; HDL faz o caminho inverso, removendo
+  colesterol em excesso dos tecidos de volta ao fígado. LDL cronicamente elevado favorece deposição em
+  paredes arteriais -- base molecular da aterosclerose.
+  D) Todas as lipoproteínas têm a mesma função: transportar TAG. A diferença entre elas é apenas de tamanho.
+  E) HDL e LDL transportam ácidos graxos livres; colesterol viaja apenas em forma esterificada dentro de
+  proteínas plasmáticas específicas.
+
+Questão 17 Integração
+
+   Um experimento incuba membranas artificiais com diferentes composições em temperatura ambiente ( 25
+°C). Qual membrana é menos permeável a moléculas pequenas, e por quê?
+
+  A) Membrana com cadeias saturadas curtas (C12:0); cadeias curtas reduzem permeabilidade porque criam
+  barreira fina.
+  B) Membrana com cadeias insaturadas com várias duplas cis (C18:3); múltiplas insaturações criam inter
+  rupções que selam a bicamada.
+  C) Membrana sem colesterol e com cadeias C16 saturadas + insaturadas misturadas; ausência de colesterol
+  minimiza perturbações.
+  D) Membrana com cadeias saturadas longas (C18:0) + colesterol; o empacotamento denso das cadeias
+  saturadas longas, somado ao colesterol que rigidifica em temperatura ambiente, produz a menor fluidez e a
+  menor permeabilidade.
+  E) Membrana sem fosfolipídeos, formada apenas por ácidos graxos livres; a ausência de cabeça polar reduz
+  a permeabilidade.
+
+                       29
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 18 Integração
+
+   Vinheta: a aspirina (ácido acetilsalicílico) inibe enzimas COX-1 e COX-2 acetilando-as covalentemente.
+Julgue cada afirmação sobre a relação entre essa inibição e o uso clínico da aspirina.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. A inibição da COX pela aspirina é reversível -- basta a droga deixar o sangue para a enzima voltar à
+  atividade normal em minutos.
+
+  II. Como a aspirina inibe a PLA2, ela impede a liberação do ácido araquidônico da membrana e por isso
+  bloqueia também a via dos leucotrienos.
+
+  III. Os AINEs como ibuprofeno e naproxeno têm o mesmo mecanismo da aspirina: inibem COX irrever
+  sivelmente por acetilação.
+
+  IV. Plaquetas não têm núcleo e não sintetizam novas COX; por isso a inibição irreversível da COX pela
+  aspirina dura toda a vida útil da plaqueta ( 7-10 dias), o que justifica o uso de baixa dose para prevenção
+  cardiovascular.
+
+Questão 19 Integração
+
+   Considere quatro ácidos graxos com 18 carbonos: esteárico (C18:0), oleico (C18:1), linoleico (C18:2) e
+linolênico (C18:3). Quais devem ser ordenados em ordem crescente de ponto de fusão?
+
+  A) Esteárico < Oleico < Linoleico < Linolênico (mais carbonos  ponto de fusão maior).
+  B) Linoleico < Linolênico < Oleico < Esteárico (cadeias mais longas funde primeiro).
+  C) Esteárico = Oleico = Linoleico = Linolênico (mesmo número de carbonos  mesmo ponto de fusão).
+  D) Oleico < Esteárico < Linolênico < Linoleico (o número de duplas não importa).
+  E) Linolênico < Linoleico < Oleico < Esteárico (mais insaturações cis  menos empacotamento  menor
+  ponto de fusão).
+
+                       30
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 20 Integração
+
+Julgue cada afirmação sobre os derivados do colesterol e sua relevância fisiológica.
+
+Cada item deve ser julgado de forma independente.
+
+I. O colesterol é precursor obrigatório de testosterona, estrogênio, cortisol, aldosterona e ácidos biliares.
+II. Os hormônios esteroides são moléculas hidrofílicas, por isso circulam livremente no plasma sem
+precisar de carreadores.
+III. A vitamina D é sintetizada a partir do colesterol em uma reação que ocorre na pele, dependente de luz
+ultravioleta.
+IV. Os ácidos biliares são derivados apolares do colesterol, sintetizados para reduzir a solubilidade dos
+lipídeos da dieta no intestino.
+
+Questão 21 Integração
+
+   Um pesquisador estuda a diferença estrutural entre glicerofosfolipídeos e esfingolipídeos. Qual é a
+distinção essencial?
+
+  A) Glicerofosfolipídeos têm cabeça polar; esfingolipídeos não têm cabeça polar.
+  B) Glicerofosfolipídeos são construídos sobre um esqueleto de glicerol + 2 ácidos graxos; esfingolipídeos
+  são construídos sobre esfingosina (que já contém uma cauda intrínseca) + 1 ácido graxo via ligação amida.
+  C) Glicerofosfolipídeos só existem na face interna da membrana; esfingolipídeos só existem na face externa.
+  D) Glicerofosfolipídeos são neutros; esfingolipídeos são sempre carregados negativamente.
+  E) Glicerofosfolipídeos têm uma única cauda; esfingolipídeos têm três caudas.
+
+                       31
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 22 Integração
+
+   Vinheta: a margarina é produzida industrialmente por hidrogenação parcial de óleo vegetal. Esse
+processo, originalmente concebido para aumentar a vida de prateleira e o ponto de fusão do produto,
+gera ácidos graxos trans. Qual afirmação descreve corretamente as consequências bioquímicas dessa trans
+formação?
+
+  A) Cadeias trans são geometricamente quase retas (similares às saturadas), empacotam-se mais densamente
+  do que as cis-insaturadas originais -- daí o ponto de fusão maior. Metabolicamente, gorduras trans elevam
+  LDL e reduzem HDL, efeito duplamente desfavorável que aumenta risco cardiovascular.
+
+  B) Cadeias trans são tão polares quanto as cis-insaturadas; o efeito sobre o ponto de fusão deve-se apenas
+  à oxidação durante o processamento.
+
+  C) Hidrogenação parcial reduz o número de carbonos da cadeia; é por isso que a margarina é energetica
+  mente mais leve que o azeite.
+
+  D) Gorduras trans são metabolicamente neutras -- elevam LDL e elevam HDL na mesma proporção.
+
+  E) Cadeias trans são facilmente convertidas pelo fígado em -3, o que torna a margarina uma fonte protetora
+  contra doença coronariana.
+
+Questão 23 Integração
+
+   Vinheta: uma criança recém-nascida prematura apresenta esforço respiratório progressivo nas primeiras
+horas de vida e é diagnosticada com Síndrome do Desconforto Respiratório. Julgue cada afirmação sobre a
+base bioquímica desse quadro.
+
+   Cada item deve ser julgado de forma independente.
+
+  I. O surfactante pulmonar é composto majoritariamente por dipalmitoil-fosfatidilcolina (DPPC) e é
+  produzido pelos pneumócitos tipo II.
+  II. Em recém-nascidos a termo, a produção de surfactante começa no momento do nascimento e atinge
+  níveis adequados em algumas horas.
+  III. Pela Lei de Laplace (P = 2/r), alvéolos menores exigiriam maior pressão para se manter abertos; o
+  surfactante equaliza essa diferença reduzindo a tensão superficial preferencialmente em alvéolos pequenos.
+  IV. O tratamento da Síndrome do Desconforto Respiratório envolve administração de antibióticos, porque
+  a doença é causada por infecção bacteriana do alvéolo.
+
+                       32
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 24 Integração
+
+   A LDL transporta colesterol do fígado para os tecidos. Pacientes com hipercolesterolemia familiar têm
+mutações no receptor de LDL (LDLR) na superfície dos hepatócitos. Qual consequência bioquímica é coerente
+com essa mutação?
+
+  A) O fígado para de sintetizar colesterol; isso aumenta o LDL plasmático porque ele não consegue ser
+  metabolizado.
+
+  B) Os tecidos periféricos passam a absorver mais colesterol; isso eleva o LDL plasmático.
+
+  C) O fígado deixa de absorver a LDL via endocitose; o LDL acumula no plasma e a deposição em paredes
+  arteriais é favorecida, acelerando aterosclerose.
+
+  D) Tanto o LDL quanto a captação hepática diminuem; o LDL acumula no plasma porque o fígado não
+  consegue endocitar normalmente a partícula, e o colesterol plasmático elevado promove deposição arterial
+  precoce.
+
+  E) O fígado passa a converter LDL em HDL; isso aumenta paradoxalmente o "colesterol bom" e protege
+  contra eventos cardiovasculares.
+
+Questão 25 Integração
+
+   Considere a bicamada lipídica de uma vesícula sintética em água. Por que é energeticamente mais favorável
+que ela se feche em esfera (vesícula) em vez de permanecer como uma lâmina plana?
+
+  A) A esfera tem maior área superficial; isso aumenta a interação com a água e estabiliza a estrutura.
+  B) A bicamada plana é mais simétrica, e essa simetria gera repulsão eletrostática entre as duas camadas.
+  C) A vesícula esférica tem caudas hidrofóbicas expostas em toda sua superfície externa; isso aumenta a
+  entropia.
+  D) A lâmina plana tem cabeças polares expostas, o que é energeticamente caro; ao se enrolar, essas cabeças
+  se escondem dentro da esfera.
+  E) A lâmina plana tem bordas nas quais as caudas hidrofóbicas ficam em contato com a água; fechar em
+  esfera elimina essas bordas e leva o sistema ao estado de menor energia.
+
+                       33
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 26 Aplicação
+
+   Cenário: Uma paciente de 58 anos com história de osteoartrite faz uso crônico e diário de ibuprofeno
+(um AINE não seletivo, inibidor de COX-1 e COX-2) há vários anos. Em consulta de rotina, queixa-se de
+epigastralgia recorrente; o médico solicita endoscopia, que evidencia úlcera gástrica. Estudos mostram que a
+mucosa gástrica saudável depende de prostaglandinas (especialmente PGE) para manter a produção de muco
+protetor e a secreção de bicarbonato. Qual é o mecanismo bioquímico que conecta o uso crônico do AINE à
+úlcera apresentada?
+
+  A) O ibuprofeno acetila irreversivelmente a COX nas células parietais, ativando hipersecreção ácida.
+
+  B) O ibuprofeno induz a expressão de leucotrienos pró-inflamatórios na mucosa, causando dano direto
+  epitelial.
+
+  C) O ibuprofeno bloqueia a fosfolipase A2 na mucosa gástrica, suspendendo qualquer produção de
+  eicosanoides.
+
+  D) O ibuprofeno inibe a COX-1 nas células da mucosa gástrica, reduzindo a produção de prostaglandinas
+  protetoras (PGE); sem PGE, cai a secreção de muco e bicarbonato, e a mucosa fica vulnerável ao ácido --
+  surge a úlcera.
+
+  E) O ibuprofeno é convertido localmente em ácido araquidônico, que acidifica o estômago e produz a úlcera.
+
+                      34
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+   Cenário: Um homem de 64 anos sobreviveu a um infarto agudo do miocárdio há seis meses. Sua prescrição
+de prevenção secundária inclui aspirina 100 mg/dia contínua. O médico explica que essa baixa dose visa
+um efeito antiplaquetário, não anti-inflamatório. Sabendo que aspirina inibe a COX irreversivelmente por
+acetilação, e que plaquetas são fragmentos celulares anucleados, qual é a explicação mais completa para a
+duração prolongada do efeito antiplaquetário mesmo com a meia-vida plasmática curta da aspirina?
+
+  A) A plaqueta não tem núcleo e não sintetiza nova COX. A aspirina acetilada inativa permanentemente a
+  COX-1 presente na plaqueta; sem COX funcional, a plaqueta perde a capacidade de produzir tromboxano
+  A2 (que promove agregação plaquetária) durante toda sua vida útil ( 7-10 dias). O efeito antiplaquetário só
+  termina quando novas plaquetas, produzidas pela medula óssea, substituem as antigas.
+
+  B) A aspirina se liga reversivelmente à COX, mas sua afinidade é tão alta que mantém o bloqueio por dias
+  mesmo com baixa concentração plasmática.
+
+  C) A aspirina inibe a PLA2 plaquetária, bloqueando a liberação do ácido araquidônico e suspendendo a
+  produção de qualquer eicosanoide pela plaqueta.
+
+  D) A baixa dose de aspirina é seletiva para a COX-2, e isso explica o efeito antiplaquetário sem inibir
+  prostaglandinas gástricas.
+
+  E) O fígado converte a aspirina em ácido salicílico, que é o verdadeiro responsável pelo bloqueio reversível
+  da COX, com duração proporcional ao acúmulo do metabólito.
+
+Questão 28 Aplicação
+
+   Cenário: Uma criança nascida prematuramente com 28 semanas de gestação apresenta, nas primeiras horas
+de vida, taquipneia, retrações intercostais e gemido expiratório. A saturação cai progressivamente. O neona
+tologista diagnostica Síndrome do Desconforto Respiratório do Recém-Nascido e instala ventilação mecânica
+com pressão positiva, associada à administração intratraqueal de surfactante exógeno. Qual é a explicação
+bioquímica mais adequada para o efeito terapêutico do surfactante exógeno neste caso?
+
+  A) O surfactante exógeno atua como antibiótico local, controlando a infecção alveolar suspeita.
+  B) O surfactante exógeno aumenta a produção endógena de cortisol, acelerando a maturação pulmonar.
+  C) O surfactante exógeno serve apenas como veículo para os antibióticos administrados via traqueal.
+  D) O surfactante exógeno funciona como broncodilatador, relaxando a musculatura lisa das vias aéreas.
+  E) O surfactante exógeno (rico em DPPC) reduz a tensão superficial do filme líquido alveolar e o faz mais
+  eficientemente em alvéolos pequenos. Pela Lei de Laplace (P = 2/r), isso equaliza as pressões entre alvéolos
+  de tamanhos diferentes, impedindo o colapso dos pequenos. Os alvéolos voltam a ventilar uniformemente
+  e a hipoxemia melhora.
+
+                      35
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+   Cenário: Em uma emergência, um paciente do tipo sanguíneo B recebe acidentalmente uma transfusão
+de concentrado de hemácias do tipo A. Em poucos minutos surgem febre, dor lombar, hipotensão e hemoglo
+binúria. Qual é a base bioquímica imediata dessa reação hemolítica aguda?
+
+  A) Os linfócitos B do receptor reconhecem o eritrócito do tipo A como uma célula tumoral, ativando o
+  sistema do complemento por via tumoral.
+
+  B) Anticorpos antigênicos contra o glicerol presente nos eritrócitos A reconhecem o açúcar errado e ativam
+  o complemento.
+
+  C) Pessoas do tipo sanguíneo B possuem anticorpos anti-A pré-existentes, que reconhecem o açúcar
+  terminal (N-acetilgalactosamina) dos glicoesfingolipídeos da membrana dos eritrócitos do tipo A. O
+  reconhecimento ativa o complemento, destrói a membrana do eritrócito e produz hemólise intravascular.
+
+  D) A diferença entre A e B está em uma proteína da membrana do eritrócito; anticorpos do receptor
+  reconhecem essa proteína e destroem a célula.
+
+  E) O complemento é ativado por contato direto entre proteínas do soro do receptor e o esqueleto de
+  esfingosina dos eritrócitos doadores.
+
+Questão 30 Aplicação
+
+   Cenário: Um homem de 45 anos, fumante, sedentário, com LDL plasmático persistentemente elevado (190
+mg/dL; referência < 130) há vários anos, apresenta angina típica aos esforços. A coronariografia revela placas
+ateromatosas em duas artérias coronárias. Qual é o vínculo bioquímico mais direto entre o LDL elevado e a
+formação dessas placas?
+
+  A) O LDL elevado aumenta a viscosidade do sangue diretamente, dificultando o fluxo nas coronárias e
+  formando placas mecânicas.
+
+  B) O LDL é uma partícula que transporta colesterol do fígado aos tecidos. Quando cronicamente elevado,
+  partículas de LDL entram no espaço subendotelial das artérias, são oxidadas, captadas por macrófagos (que
+  viram células espumosas), e essa accumulação inicia a placa aterosclerótica. Reduzir LDL reduz o suprimento
+  de colesterol que alimenta a placa.
+
+  C) O LDL elevado lesa diretamente o endotélio por hidrólise, criando feridas onde fibrina se acumula e forma
+  a placa.
+
+  D) O LDL é converte-se em HDL nas artérias coronárias, e o excesso de HDL local causa a placa.
+
+  E) O LDL elevado desativa a COX-2 endotelial, e a falta de prostaglandinas vasodilatadoras causa as placas.
+
+                      36
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 1
+   Explique por que duas moléculas com o mesmo número de carbonos -- ácido esteárico (C18:0,
+
+saturado) e ácido oleico (C18:1, com uma dupla cis em ) -- têm pontos de fusão tão diferentes (71 °C
+vs 16 °C, respectivamente).
+
+    MODELO DE RESPOSTA
+
+       A diferença vem da geometria da cauda. No esteárico, todas as ligações C-C são simples e a cadeia é
+   reta e flexível: cadeias vizinhas se aproximam paralelamente, com máximo de contato e número alto de
+   forças de van der Waals somadas. No oleico, a dupla cis em  introduz um joelho de 30°, que impede
+   o empacotamento denso entre vizinhos. Menos pontos de contato  forças intermoleculares somadas
+   mais fracas  temperatura necessária para "soltar" as moléculas (fundir o sólido) cai dramaticamente.
+   Um único joelho derruba o ponto de fusão em 55 °C.
+
+Questão 2
+   Por que o triacilglicerol é uma forma evolutivamente mais eficiente de reserva energética do que o
+
+glicogênio? Explique usando duas razões mecanísticas.
+
+    MODELO DE RESPOSTA
+
+       Primeiro, densidade calórica: a oxidação de TAG libera 9 kcal/g, mais do dobro dos 4 kcal/g do
+   glicogênio. Isso porque o carbono dos ácidos graxos está muito reduzido (rico em ligações C-H), e
+   cada oxidação a CO extrai mais energia. Segundo, armazenamento anidro: TAG é apolar e fica em
+   gotículas sem água; glicogênio é polar e arrasta 2-3× sua massa em água. Estocar 1 kg de gordura
+   corresponde a 7700 kcal em volume compacto; estocar a mesma energia em glicogênio exigiria 4 kg
+   (incluindo a água), inviável para um animal móvel.
+
+                             37
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 3
+
+   Em uma membrana plasmática, o colesterol funciona como tampão de fluidez. Explique por que
+esse efeito é bidirecional -- isto é, por que o colesterol diminui a fluidez em temperatura alta e aumenta
+a fluidez em temperatura baixa.
+
+MODELO DE RESPOSTA
+
+   O colesterol tem um núcleo de quatro anéis rígidos, ancorado pela única -OH na cabeça polar, e
+se intercala entre as cadeias dos fosfolipídeos. Em temperatura alta, as cadeias dos fosfolipídeos têm
+muito movimento; os anéis rígidos do colesterol restringem essa movimentação, reduzindo a fluidez.
+Em temperatura baixa, as cadeias tendem a se empilhar de forma ordenada (estado gel); o volume do
+colesterol entre elas impede esse empilhamento apertado, mantendo a fluidez. O mesmo objeto físico
+-- o núcleo esteróide entre as cadeias -- atua em direções opostas conforme o estado térmico vizinho.
+
+Questão 4
+
+   Por que o ácido araquidônico ocupa um papel central na resposta inflamatória, e como AINEs (ex.:
+ibuprofeno) e corticoides atuam em pontos diferentes dessa via?
+
+    MODELO DE RESPOSTA
+
+       O ácido araquidônico (C20:4 -6) fica esterificado em C2 dos glicerofosfolipídeos da membrana.
+   Quando a célula recebe estímulo inflamatório, a fosfolipase A2 (PLA2) o libera. Uma vez livre, ele se
+   bifurca em duas vias enzimáticas: COX  prostaglandinas e tromboxanos (dor, febre, vasodilatação,
+   agregação plaquetária); LOX  leucotrienos (broncoconstrição, alergia). AINEs como ibuprofeno
+   inibem a COX, bloqueando apenas a primeira via. Corticoides inibem a PLA2, fechando a liberação
+   do próprio araquidônico -- bloqueia as duas vias simultaneamente, daí o efeito anti-inflamatório mais
+   potente e os efeitos colaterais mais amplos.
+
+       38
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 5 -- Identifique o erro
+
+   Um estudante, ao revisar lipídeos, escreve: "Gorduras trans são exatamente equivalentes a
+gorduras saturadas, porque a configuração trans deixa a cadeia reta como uma saturada.
+Portanto, manteiga (gordura saturada de origem animal) e margarina (rica em trans) têm
+o mesmo efeito metabólico, e a recomendação clínica de evitar trans é uma exageração da
+indústria do óleo vegetal." Identifique o erro central e corrija-o.
+
+MODELO DE RESPOSTA
+
+   O erro é dar peso só à geometria e ignorar a química metabólica. Geometricamente, é verdade que
+uma cadeia trans fica quase reta, comporta-se como saturada no empacotamento e eleva o ponto de
+fusão da margarina. Mas o metabolismo distingue as duas. Estudos clínicos (Mensink e Katan, NEJM
+1990) mostraram que gorduras trans elevam o LDL plasmático e simultaneamente reduzem o HDL --
+efeito duplamente desfavorável que aumenta o risco cardiovascular mais do que gorduras saturadas,
+que elevam LDL mas não derrubam HDL. A configuração geométrica é apenas um dos atributos;
+receptores hepáticos, enzimas de remodelagem e vias de eicosanoides distinguem cis, trans e saturadas
+como moléculas diferentes. Recomendação clínica de evitar trans é bem fundamentada.
+
+       39
+NEBLI                                       ETAPA 5 -- NEBLICARDS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C     Q02 B         Q03 CCEE  Q04 A     Q05 D
+                        Q08 E     Q09 CEEE  Q10 D
+Q06 EECE  Q07 B
+                        Q13 A     Q14 D     Q15 CCCE
+INTEGRAÇÃO (Q11­Q25)    Q18 EEEC  Q19 E     Q20 CECE
+                        Q23 ECEC  Q24 D     Q25 E
+Q11 B     Q12 EECC
+Q16 C     Q17 D         Q28 E     Q29 C     Q30 B
+
+Q21 B     Q22 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 A
+
+                        49
+NEBLI                                                             GABARITO -- ETAPA 2
+
+   Resumindo
+
+Lipídeo é definição operacional, não química Colesterol: esteróide rígido, hormônio e tam
+
+Tudo o que é hidrofóbico entra no guarda-chuva: pão de fluidez
+
+TAGs, fosfolipídeos, esfingolipídeos, colesterol e esteroides. A Quatro anéis fundidos + cauda + uma única -OH. Sinteti
+
+unidade não é o esqueleto químico, é o comportamento na zado no fígado a partir de acetil-CoA -- só animais possuem
+
+água. Daí a versatilidade funcional: reserva, membrana, hor essa via. Precursor obrigatório de testosterona, estrogênio,
+
+mônio, mensageiro inflamatório, surfactante.                      cortisol, aldosterona, vitamina D e ácidos biliares. Na mem
+
+Ácido graxo é a peça que se repete                                brana, atua bidirecional: rigidifica em temperatura alta,
+
+   Cadeia hidrocarbonada de 12-24 C com cabeça -COOH              fluidifica em temperatura baixa.
+na ponta -- anfipático. Identidade dada por "CX:Y": número        LDL leva, HDL traz de volta
+
+de carbonos e de duplas. Saturado = reta (manteiga, sólida);      Lipoproteínas resolvem o transporte plasmático de molécu
+
+insaturado cis = joelho de 30° (azeite, líquido); trans  reta = las apolares. Quilomícrons levam lipídeos da dieta; VLDL leva
+
+saturada disfarçada.                                              do fígado; LDL deposita colesterol nos tecidos; HDL devolve
+
+Saturação manda no estado físico via van                          ao fígado. LDL cronicamente alto  aterosclerose. A escolha
+
+der Waals                                                         bioquímica sustenta uma das maiores epidemias clínicas do
+
+   Cadeia reta  empacotamento denso  muitas interações            mundo.
+ ponto de fusão alto. Joelho cis  contato esparso                 Bicamada nasce espontânea por efeito
+fusão baixa. Mesma cabeça, cauda diferente, comportamentos        hidrofóbico
+
+opostos: esteárico funde a 71 °C, oleico a 16 °C, linoleico a -5 °C. Lipídeos anfipáticos em água se organizam sem instrução
+
+TAG é a moeda da reserva energética                               -- o ganho de entropia da água ao "liberar" suas moléculas das
+
+   Três ácidos graxos esterificados no glicerol. Densidade de 9   cadeias apolares é o motor. Bicamadas se fecham em vesículas
+kcal/g (vs 4 do açúcar) porque o carbono está mais reduzido.      para eliminar bordas expostas. Toda célula é, em essência, uma
+Sem água associada -- diferente do glicogênio, que arrasta        vesícula gigante cercando um compartimento aquoso.
+2-3× sua massa em água. Por isso jejum em dias é viável; sem      Fluidez de membrana = vida possível
+
+glicogênio acaba em 24 h.                                         Três alavancas: comprimento da cauda (longa = rígida),
+
+Fosfolipídeo é a peça da bicamada                                 saturação (kink cis = fluida) e colesterol (tampão). Sem fluidez
+
+   Glicerol + 2 ácidos graxos + fosfato + álcool polar. C1 satu   correta, não há fusão de vesículas, exocitose, nem mobilidade
+rado, C2 insaturado -- assinatura conservada. A cabeça polar      lateral de proteínas. A célula deixa de funcionar mesmo com
+(colina, etanolamina, serina, inositol) define carga e função.    bioquímica intacta.
+PI4,5P é precursor de IP e DAG; PS sinaliza apoptose quando       Eicosanoides -- lipídeo vira mensageiro
+
+exposta na face externa.                                          PLA2 libera ácido araquidônico (C20:4 -6) da membrana
+
+Esfingolipídeos = reconhecimento celular                           COX gera prostaglandinas (dor, febre, vasodilatação) e
+
+   Esfingosina substitui o glicerol; ela já carrega uma cauda in  tromboxanos (agregação plaquetária); LOX gera leucotrienos
+trínseca. Com cabeça açucarada (glicoesfingolipídeo), o açúcar    (broncoconstrição, alergia). AINEs inibem COX; corticoides
+terminal é a identidade da célula: o sistema ABO é exatamente     inibem PLA2 -- "fecham a torneira" antes da bifurcação. As
+isso -- GalNAc (A), galactose (B), ambos (AB), nenhum (O).        pirina inibe COX irreversivelmente nas plaquetas, por isso
+Incompatibilidade ABO dispara hemólise.                           protege contra infarto.
+
+                                                              50
+NEBLI                                                             RESUMINDO
+
+SDR do recém-nascido: bioquímica salvando
+pulmão
+
+   Pneumócitos tipo II produzem surfactante rico em DPPC. O
+surfactante reduz a tensão superficial do filme alveolar e o faz
+mais eficientemente nos alvéolos menores -- equaliza pressões
+pela Lei de Laplace e impede colapso. Prematuros com pro
+dução insuficiente entram em insuficiência respiratória; o
+tratamento repõe surfactante exógeno na traqueia. Um único
+fosfolipídeo decide o desfecho.
+
+51
+NEBLI                    RESUMINDO
+
+Glossário de siglas
+
+Abreviações e acrônimos usados neste resumo, em ordem alfabética.
+
+              AINEs -- anti-inflamatórios não esteroides -- drogas como ibuprofeno, naproxeno e aspirina que inibem
+                          a COX
+
+              DPPC -- dipalmitoil-fosfatidilcolina -- fosfolipídio principal do surfactante pulmonar; reduz tensão super
+                          ficial nos alvéolos
+
+                 HDL -- lipoproteína de alta densidade -- recolhe colesterol em excesso dos tecidos e devolve ao fígado;
+                          conhecida como "colesterol bom"
+
+                 LDL -- lipoproteína de baixa densidade -- transporta colesterol do fígado para os tecidos; nível elevado
+                          é fator-chave de aterosclerose
+
+                 LOX -- lipoxigenase -- enzima alternativa da via dos eicosanoides; produz leucotrienos a partir do ácido
+                          araquidônico
+
+               PLA2 -- fosfolipase A2 -- enzima de membrana que cliva glicerofosfolipídios em C2 e libera ácido
+                          araquidônico para a síntese de eicosanoides
+
+                 SDR -- Síndrome do Desconforto Respiratório do Recém-Nascido -- insuficiência respiratória do pre
+                          maturo por deficiência de surfactante pulmonar; tratamento: surfactante exógeno + ventilação
+
+                 TAG -- triacilglicerol -- éster de glicerol com três ácidos graxos; principal forma de reserva energética
+                          em animais; armazenado no tecido adiposo
+
+               VLDL -- lipoproteína de muito baixa densidade -- partícula que transporta TAGs do fígado para os tecidos
+
+                     52
+

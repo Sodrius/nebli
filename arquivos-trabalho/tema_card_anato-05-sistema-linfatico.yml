@@ -1,0 +1,185 @@
+slug: anato-05-sistema-linfatico
+titulo: "Sistema Linfático"
+subtitulo: "Anatomia"
+meta:
+  - ["Disciplina", "Anatomia (UC02)"]
+  - ["Onde estudar", "Slide da Profa. Katiúcia B. S. Paiva (Aula 5 — Sistema Circulatório e Linfático I, Parte 2) · Moore, Anatomia Orientada para a Clínica (sistema linfático) · Netter, Atlas de Anatomia Humana (linfáticos do tronco)"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — Ninja Nerd (Lymphatic System: anatomy & physiology) · Boards & Beyond (Immunology › Lymphoid Organs) · Acland's Video Atlas (linfáticos do tronco) · Sketchy: cobre pouca anatomia macro (foco em imuno/patologia) · Pathoma: não cobre (é patologia)",
+      "*Dessuspender no AnKing v12* (decks sob #AK_Step1_v12::) — ordenados por completude; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #FirstAid::02_Immunology::01_Lymphoid_Structures::03_Lymphatic_drainage_associations — 26 cards (cadeias e territórios de drenagem)",
+      "*Cobre melhor* · #FirstAid::02_Immunology::01_Lymphoid_Structures::02_Lymph_node — 16 cards (córtex, paracórtex, medula, folículo)",
+      "*Complementa* · #Bootcamp::Immunology::01_Lymphoid_Tissue::03_Lymph_Nodes — 23 cards (estrutura e fluxo do linfonodo)",
+      "*Complementa* · #FirstAid::02_Immunology::01_Lymphoid_Structures::04_Spleen — 10 cards (baço, polpa branca/vermelha)",
+      "*Mais distante* · #Bootcamp::Immunology::01_Lymphoid_Tissue::01_Primary_Lymphoid_Tissue — 16 cards (medula óssea e timo)",
+      "*Mais distante* · #FirstAid::02_Immunology::01_Lymphoid_Structures::05_Thymus — 4 cards (timo, órgão primário)"]]
+
+# ===========================================================================
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ===========================================================================
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Tema anatômico-descritivo, mas
+#   com UM fio mecanístico que amarra tudo: o sistema linfático existe para
+#   RECOLHER o líquido que escapa do capilar sanguíneo e DEevolvê-lo à veia,
+#   filtrando-o no caminho. Toda estrutura serve a esse fluxo de mão única e
+#   baixa pressão: capilar de fundo cego com mini-válvulas (entra, não sai);
+#   válvulas ao longo dos vasos (sobe, não desce); linfonodo estrangulado
+#   (aferente numeroso → eferente único = fluxo lento = tempo de filtragem);
+#   propulsão sem bomba central (musculatura da parede + bomba muscular +
+#   bomba respiratória); convergência troncos → ductos → ângulo venoso.
+# Recorte: SLIDE Parte 2 (sistema linfático) da Aula 5. A Parte 1 (coração e
+#   grandes vasos, 44 slides) NÃO entra — é resumo à parte, pendente do PDF.
+#   Este resumo é honestamente "Sistema Linfático (Anatomia)", não o anato-05
+#   inteiro. Histologia fina de vaso/linfonodo ao microscópio é do histo-09;
+#   aqui a parede entra só o suficiente para explicar a função.
+# Blueprint (anatomia macro imuno-linfática, rendimento MÉDIO): ganchos clínicos
+#   leves inline só onde o anatômico pede — linfedema (falha de drenagem),
+#   metástase linfonodal e esvaziamento axilar no câncer de mama, quilotórax
+#   (lesão do ducto torácico), linfonodo palpável (linfadenopatia). Sem box
+#   clínico pesado; 1-2 clínica-box no máximo por PARTE.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 11-14 — tema de um slide só, direto
+#   e fluido, cobrindo 100% do conteúdo com folga de mecanismo).
+#
+# Prioridades desta corrida (do § Diário de revisões + pedido literal):
+#   P1. Tema ESPACIAL → figura é obrigatória (Diário biocel-07, peso alto). Usar
+#       de fato os slides rotulados: circulação linfática, capilar, linfonodo,
+#       troncos, ductos, cisterna do quilo, ângulo venoso.
+#   P2. Prosa expositiva de monitor; abertura = afirmação direta + mecanismo
+#       (sem pergunta-âncora/retórica — canônico 2026-05-29).
+#   P3. E2: ~10 C/E (cada um 4 itens I-IV, gate hard) nas 3 categorias + 2-3
+#       "assinale a incorreta"; gabarito sorteado + guarda anti-degeneração;
+#       paridade banda dupla 0.80-1.25 Q01-Q30; cada subtópico testado >=2x.
+#   P4. Fluidez vence checklist; sem rajada de siglas (a maioria do jargão aqui
+#       é nome anatômico, não sigla — MALT é a principal sigla).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A rede que recolhe o que o sangue deixa para trás"
+        subtopicos:
+          - "As três tarefas do sistema linfático"
+          - "Os elementos e de onde vem a linfa"
+          - "O capilar linfático: a porta de mão única"
+      - titulo: "PARTE II — Onde os linfócitos nascem, amadurecem e trabalham"
+        subtopicos:
+          - "Órgãos primários: medula óssea e timo"
+          - "O linfonodo por dentro: por que é um filtro"
+          - "As cadeias regionais e o baço"
+          - "O tecido linfoide das mucosas"
+      - titulo: "PARTE III — Como a linfa volta ao sangue sem um coração"
+        subtopicos:
+          - "A linfa sobe sem bomba central"
+          - "Dos capilares aos troncos: a convergência"
+          - "Ductos, cisterna do quilo e o retorno à veia"
+
+# ===========================================================================
+# SEÇÃO B — Figuras planejadas (>=3 por PARTE)
+# ===========================================================================
+# PARTE I : slide-04 circulação linfática (mapa geral, 70%) · slide-05 capilar de
+#   fundo cego + filamentos de fixação (60%) · slide-10 drenagem do membro inf
+#   (redes superficiais/profundas, 62%)
+# PARTE II: slide-18 órgãos primários medula/timo (52%) · slide-09 linfonodo por
+#   dentro — cápsula/córtex/medula/aferente-eferente (60%) · slide-11 drenagem
+#   mama→axila (58%) · slide-13 mapa torácico de nódulos (55%)
+# PARTE III: slide-07 propulsão + bomba respiratória (65%) · slide-13 troncos
+#   torácicos (58%) · slide-14 cisterna do quilo/ducto torácico (54%) · slide-17
+#   ângulos venosos direito/esquerdo (54%)
+
+# ===========================================================================
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ===========================================================================
+# 1.1 enquadramento | 1.2 integração-posterior | 1.3 ponto-de-quebra (entra e não volta)
+# 2.1 enquadramento | 2.2 analogia concreta (pedágio/filtro) | 2.3 integração-anterior | 2.4 integração-posterior
+# 3.1 ponto-de-quebra (não há coração no linfático) | 3.2 integração-anterior | 3.3 analogia concreta (afluentes→rio→foz)
+
+# ===========================================================================
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ===========================================================================
+# - líquido intersticial: "o líquido que banha as células, filtrado do plasma nos capilares sanguíneos; sobra um pouco a cada ciclo, e é essa sobra que o linfático recolhe"
+# - linfócito B e T: "glóbulos brancos da imunidade adquirida; o B fabrica anticorpos, o T coordena e mata células infectadas"
+# - gradiente de pressão: "líquido só anda de onde a pressão é maior para onde é menor; uma válvula de mão única deixa passar num sentido e trava no outro"
+# - capilar sanguíneo: "o vaso mais fino, onde o sangue troca gases e nutrientes com o tecido; é dele que o plasma extravasa para o interstício"
+
+# ===========================================================================
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ===========================================================================
+# linfa · líquido intersticial · quilo · vaso lactífero · filamentos de fixação
+# linfonodo · seio linfático · vaso aferente · vaso eferente · cisterna do quilo
+# ducto torácico · ângulo venoso · MALT · anel de Waldeyer · placa de Peyer
+
+# ===========================================================================
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ===========================================================================
+# - Quebra: achar que o linfático é um circuito fechado como o sanguíneo.
+#   Correção: é uma via de MÃO ÚNICA e ABERTA numa ponta — começa em fundo cego no
+#     tecido, recolhe líquido e devolve à veia; não tem volta, não faz circuito. (slide-04)
+# - Quebra: imaginar que a linfa entra no capilar por pressão, empurrada.
+#   Correção: as células endoteliais sobrepostas funcionam como mini-válvulas; quando
+#     o interstício incha, os filamentos de fixação puxam e ABREM as fendas — o líquido
+#     entra, e ao subir a pressão dentro do vaso a fenda fecha e ele não sai. (slide-05)
+# - Quebra: supor que a linfa sobe empurrada por um coração linfático.
+#   Correção: não há bomba central; a linfa sobe pela contração da musculatura lisa da
+#     própria parede + válvulas + compressão externa (bomba muscular esquelética e
+#     bomba respiratória pelo jogo de pressões torácica/abdominal). (slide-07)
+# - Quebra: pensar que o linfonodo tem um vaso que entra e um que sai, iguais.
+#   Correção: VÁRIOS aferentes entram pela convexidade e UM (ou poucos) eferente sai pelo
+#     hilo; esse estrangulamento faz a linfa passar devagar pelos seios, dando tempo aos
+#     macrófagos de filtrar antígenos. (slide-09)
+# - Quebra: achar que o ducto torácico drena o corpo todo por igual.
+#   Correção: o ducto torácico drena TUDO menos o quadrante superior DIREITO (cabeça/pescoço
+#     D, membro superior D, hemitórax D) — esse quadrante cai no ducto linfático direito. (slide-16/17)
+# - Quebra: confundir órgão linfoide primário com secundário.
+#   Correção: primário é onde o linfócito NASCE/AMADURECE sem antígeno (medula óssea e timo);
+#     secundário é onde ele ENCONTRA o antígeno e responde (linfonodo, baço, MALT). (slide-18/19)
+# - Quebra: tratar todo tecido como drenável pelo linfático.
+#   Correção: há tecidos avasculares para o linfático — cartilagem, epiderme, córnea, SNC,
+#     partes do baço e da medula óssea; neles o excesso é resolvido por outra via. (slide-08)
+
+# ===========================================================================
+# SEÇÃO E — Exemplares-âncora
+# ===========================================================================
+# Cat 1 (mecanismo parágrafo-a-parágrafo) → estrutura no 1º parágrafo, função no 2º
+#   (modelo Exemplar 1.2 sinapse elétrica): capilar linfático (arquitetura → mão única);
+#   linfonodo (forma estrangulada → filtragem lenta).
+# Cat 7 (analogia construtiva, parcimônia) → linfonodo como pedágio que afunila o trânsito;
+#   troncos→ductos como afluentes→rio→foz na veia; capilar de fundo cego como ralo com tampa
+#   de mão única. 1 por subtópico onde pedir, nunca forçada.
+# Cat 8 (atencao-box) parcimônia → reservar vermelho p/ inversão com peso clínico
+#   (ducto torácico drena tudo MENOS quadrante sup D → erro de lado no quilotórax/dissecção).
+#   Resto vira confusao-prevista (gold) ou prosa dialogada.
+# Cat 15 (#figura-lateral) → onde texto curto + figura pequena (órgãos primários; ângulo venoso).
+# Cat 14 (siglas footnote) → MALT única sigla real recorrente; SNC pontual. Sem rajada.
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "CCEE"]
+    - ["03", "A"]
+    - ["04", "D"]
+    - ["05", "ECCE"]
+    - ["06", "B"]
+    - ["07", "E"]
+    - ["08", "CEEC"]
+    - ["09", "C"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "CEEC"]
+    - ["12", "D"]
+    - ["13", "A"]
+    - ["14", "EECC"]
+    - ["15", "B"]
+    - ["16", "C"]
+    - ["17", "CCEE"]
+    - ["18", "B"]
+    - ["19", "D"]
+    - ["20", "CCEE"]
+    - ["21", "A"]
+    - ["22", "E"]
+    - ["23", "ECCE"]
+    - ["24", "C"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "A"]
+    - ["28", "CEEC"]
+    - ["29", "E"]
+    - ["30", "CCEE"]

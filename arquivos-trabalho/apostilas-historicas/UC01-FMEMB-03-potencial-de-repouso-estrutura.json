@@ -1,0 +1,404 @@
+{
+  "slug": "UC01-FMEMB-03-potencial-de-repouso",
+  "pdf_path": "C:/AI use/nebli/resumos-gerados/apostilas-historicas/UC01-FMEMB-03-potencial-de-repouso.pdf",
+  "txt_path": "C:/AI use/nebli/arquivos-trabalho/apostilas-historicas/UC01-FMEMB-03-potencial-de-repouso.txt",
+  "total_paginas": 64,
+  "total_palavras": 18806,
+  "total_imagens": 1344,
+  "media_palavras_pagina": 293.8,
+  "paginas_amostra": [
+    1,
+    2,
+    3,
+    4,
+    21,
+    64
+  ],
+  "paginas_amostra_str": "1,2,3,4,21,64",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 97,
+      "imagens": 21,
+      "primeira_linha": "N E B L I  ·  A P O S T I L A"
+    },
+    {
+      "pagina": 2,
+      "palavras": 222,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 3,
+      "palavras": 485,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 4,
+      "palavras": 337,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 5,
+      "palavras": 337,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 6,
+      "palavras": 216,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 7,
+      "palavras": 455,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 8,
+      "palavras": 348,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 9,
+      "palavras": 218,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 10,
+      "palavras": 192,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 11,
+      "palavras": 447,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 12,
+      "palavras": 194,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 13,
+      "palavras": 309,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 14,
+      "palavras": 271,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 15,
+      "palavras": 240,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 16,
+      "palavras": 313,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 17,
+      "palavras": 144,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 18,
+      "palavras": 325,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 19,
+      "palavras": 382,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 20,
+      "palavras": 354,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 21,
+      "palavras": 124,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 22,
+      "palavras": 312,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 23,
+      "palavras": 181,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 24,
+      "palavras": 356,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 25,
+      "palavras": 290,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 26,
+      "palavras": 297,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 27,
+      "palavras": 327,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 28,
+      "palavras": 380,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 29,
+      "palavras": 461,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 30,
+      "palavras": 155,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 31,
+      "palavras": 235,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 32,
+      "palavras": 264,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 33,
+      "palavras": 256,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 34,
+      "palavras": 258,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 35,
+      "palavras": 271,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 36,
+      "palavras": 250,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 37,
+      "palavras": 295,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 38,
+      "palavras": 312,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 39,
+      "palavras": 324,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 40,
+      "palavras": 298,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 41,
+      "palavras": 298,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 42,
+      "palavras": 372,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 43,
+      "palavras": 312,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 44,
+      "palavras": 326,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 45,
+      "palavras": 271,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 46,
+      "palavras": 339,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 47,
+      "palavras": 312,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 48,
+      "palavras": 237,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 49,
+      "palavras": 320,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 50,
+      "palavras": 300,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 51,
+      "palavras": 364,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 52,
+      "palavras": 274,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 53,
+      "palavras": 337,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 54,
+      "palavras": 339,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 55,
+      "palavras": 268,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 56,
+      "palavras": 330,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 57,
+      "palavras": 332,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 58,
+      "palavras": 345,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 59,
+      "palavras": 349,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 60,
+      "palavras": 350,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 61,
+      "palavras": 300,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 62,
+      "palavras": 311,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 63,
+      "palavras": 206,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    },
+    {
+      "pagina": 64,
+      "palavras": 82,
+      "imagens": 21,
+      "primeira_linha": "N E B L I"
+    }
+  ]
+}

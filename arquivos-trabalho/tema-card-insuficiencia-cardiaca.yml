@@ -1,0 +1,67 @@
+slug: insuficiencia-cardiaca
+titulo: "Insuficiência Cardíaca"
+subtitulo: "MSP4211 · 1º ano FMUSP · Caso Clínico 02"
+meta:
+  - ["Disciplina", "MSP4211 — Discussão Integrada de Casos I"]
+  - ["Onde estudar", "Guyton cap. 9 + 22 · Berne & Levy ciclo cardíaco · Robbins coração · Diretriz Brasileira IC Crônica · NEJM 356:1140"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE 1 — O coração como bomba"
+        subtopicos:
+          - "1.1 Sarcômero, cálcio e contração"
+          - "1.2 Ciclo cardíaco e bulhas"
+          - "1.3 Lei de Frank-Starling do coração"
+      - titulo: "PARTE 2 — Quando a bomba falha"
+        subtopicos:
+          - "2.1 Pré-carga, pós-carga, contratilidade"
+          - "2.2 Remodelamento e cardiomegalia"
+          - "2.3 IC esquerda × direita"
+          - "2.4 Forças de Starling no capilar"
+          - "2.5 Sal, água e cascata neuro-humoral"
+      - titulo: "PARTE 3 — Aterosclerose, IAM e desfecho"
+        subtopicos:
+          - "3.1 HAS + dislipidemia → aterosclerose"
+          - "3.2 Da placa ao IAM e troponina"
+          - "3.3 ECG no IAM e corrente de lesão"
+          - "3.4 Stevenson e NYHA"
+          - "3.5 Gasometrias contrastadas"
+          - "3.6 Autonomia, paternalismo e MCP"
+  - titulo: "Resumindo"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+  - titulo: "Etapa 3 — 5 discursivas"
+  - titulo: "Gabarito da Etapa 2"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "C"]
+    - ["03", "A"]
+    - ["04", "CCEE"]
+    - ["05", "D"]
+    - ["06", "B"]
+    - ["07", "C"]
+    - ["08", "CECE"]
+    - ["09", "A"]
+    - ["10", "CCCE"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "D"]
+    - ["13", "C"]
+    - ["14", "CCEC"]
+    - ["15", "A"]
+    - ["16", "B"]
+    - ["17", "ECCE"]
+    - ["18", "D"]
+    - ["19", "C"]
+    - ["20", "CCEC"]
+    - ["21", "A"]
+    - ["22", "B"]
+    - ["23", "CECC"]
+    - ["24", "D"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "B"]
+    - ["28", "D"]
+    - ["29", "A"]
+    - ["30", "C"]

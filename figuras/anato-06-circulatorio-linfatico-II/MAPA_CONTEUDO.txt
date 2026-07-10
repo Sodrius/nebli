@@ -1,0 +1,55 @@
+# MAPA_CONTEUDO -- anato-06-circulatorio-linfatico-II
+# Slide-fonte: Aula 6_Sistema Circulatorio e Linfatico II.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Aula 6 Generalidades sobre os Sistemas Circulatório e Linfático II Profa. Katiúcia B. S. Paiva katiucia.paiva@fm.usp.br
+slide-02: Tipos de Circulação 1) Circulação Pulmonar 2) Circulação Sistêmica 3) Circulação Fetal circulação coronariana
+slide-03: Circulação Pulmonar 1) Veia Cava Superior + Veia Cava Inferior + Seio Coronário 2) Átrio Direito 4) Ventrículo Direito 3) Valva Tricúspide 6) Tronco Pulmonar 7) Artérias Pulmonares 8) Pulmões 9) Veias Pulmonares 5) Valva Pulmonar 10) Átrio Esquerdo 1...
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: Circulação Sistêmica Artéria Carótida Veias Pulmonares Aorta Artérias Mesentéricas Artérias Renais Artérias Ilíacas Veia Jugular Artérias Pulmonares Veia Cava Superior Veia Cava Inferior Veia Hepática Veia Porta Hepática Veias Renais Veias Ilíacas Vi...
+slide-06: Aorta Aorta Torácica (ramos da aorta ascendente, arco e descendente) Aorta Abdominal (ramos abdominais e pélvicos da aorta descendente)
+slide-07: Circulação Coronariana (Cardíaca) A VCS TP VP VP AD VCS VCI VE VD SIA SIVP AE SIVA SC Vista Anterior Vista Posterior Vista Anterior Seio coronário
+slide-08: Arco da Aorta membro superior esquerdo membro superior direito cabeça e pescoço
+slide-09: Circulação Cerebral Polígono de Willis Aa. carótida interna e vertebral
+slide-10: Cabeça e Pescoço Vista Lateral
+slide-11: Membros Superiores • Tronco Braquiocefálico • Artéria Subclávia Esquerda Vista Anterior
+slide-12: Artérias Torácicas Internas Ramos das aa. subclávias (antigamente chamadas de aa. mamárias internas)
+slide-13: Ramos Aorta Descendente Vista Anterior
+slide-14: Ramos Aorta Descendente (Torácica) Ramos Viscerais: • Artérias Pericárdicas: pericárdio • Artérias Bronquiais: brônquios pulmonares • Artérias Esofágicas: esôfago • Árterias Mediastinais: estruturas do mediastino Ramos Parietais: • Artérias Intercost...
+slide-15: Aorta Descendente (Abdominal)
+slide-16: • Artérias Frênicas Inferiores: face inferior do diafragma • Tronco Celíaco: - Artéria hepática comum: fígado, estômago, duodeno, pâncreas - Artéria gástrica esquerda: estômago e esôfago - Artéria esplênica: baço, pâncreas e estômago • Artérias Supra...
+slide-17: • Artérias Renais: rins • Artérias Gonadais: - Artérias testiculares: téstículos (homem) - Artérias ováricas: ovários (mulher) • Artéria Mesentérica Inferior: colos transverso, descendente e sigmóide e reto Aorta Descendente (Abdominal)
+slide-18: • Artérias Ilíacas: - Artérias ilíacas externas: membros inferiores - Artérias ilíacas internas: útero (mulher), próstata (homem), mm. regiões glúteas, bexiga urinária Aorta Descendente (Abdominal)
+slide-19: Trígono Femoral
+slide-20: Ø Limites: lig. inguinal (superior), m. sartório (lateral) e m. adutor longo (medial) Ø Nervo femoral e seus ramos (lateral) Ø Artéria femoral e seus ramos: ramo da a. ilíaca externa (intermédia) Ø Veia femoral: funde-se a v. ilíaca externa (interméd...
+slide-21: Principais Artérias
+slide-22: Principais Veias Femoral Safena Magna Safena Parva Tibial Posterior Dorsal do Pé Arco Venoso Dorsal Ilíaca Comum Poplítea Fibular Femoral Safena Magna Safena Parva Tibial Posterior Vista Anterior Vista Posterior
+slide-23: Drenagem Venosa Sistema venoso: ü Veias profundas: profundamente a fáscia lata ou fáscia muscular da perna e acompanham todas as grandes artérias (vv. acompanhantes) ü Veias superficiais: tela subcutânea e seguem independente das artérias (vv. safena...
+slide-24: Veias Superficiais Principais veias: ü V. safena magna ü V. safena parva ü maioria de suas tributárias não tem nome v. safena magna v. safena magna v. safena parva hiato safeno v. safena parva (perfura fáscia muscular da perna) v. poplítea v. femoral...
+slide-25: v. safena magna v. safena parva
+slide-26: Principais Veias Profundas
+slide-27: Veias Abdominais Vista Anterior
+slide-28: Veias Abdominais V. Ilíaca Comum Vv. Hepáticas Vv. Suprarrenais Vv. Renais V. Testicular ou Ovárica Cava Inferior Vv. Frênicas Inferiores Veia Porta do fígado
+slide-29: Sistema Porta Hepática (Venoso) • Conduz sangue venoso dos órgãos gastrointestinais e baço para o fígado Armazenamento energia Detoxificação
+slide-30: Vv. esplênica + mesentérica inferior + mesentérica superior = formam a veia porta do fígado Vv. gástricas direita e esquerda e veia cística = convergem veia porta do fígado veia porta
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: Retorno Venoso Torácico Vv. Torácicas Internas Vv. braquicefálicas
+slide-33: Sistema Ázigo Ø v. ázigo forma uma via colateral venosa entre VCS e VCI e é tributária da VCS (alternativa drenagem venosa tórax/abdome/dorso quando há obstrução VCI)
+slide-34: Ø v. ázigo forma uma via colateral venosa entre VCS e VCI e é tributária da VCS (alternativa drenagem venosa tórax/abdome/dorso quando há obstrução VCI)
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Sistema Ázigo • Veia ázigo: vv. intercostais posteriors direitas, v. hemiázigo, v. hemiázigo acessória, vv. esofágicas, v. mediastinais, vv. pericárdicas e vv. bronquiais • Veia hemiázigo: vv. intercostais posteriores esquerdas, vv. esofágicas, vv. m...
+slide-37: Retorno Venoso Superficial - tronco
+slide-38: Obstrução Veias Cavas síndrome da veia cava superior compressão da veia cava inferior Utilização do sistema ázigo
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: Veias Comunicantes/Perfurantes • Superficial: vv. mediana e cefálica • Profundo: veia basilica, radial, ulnar, braquial
+slide-41: Veias Comunicantes/Perfurantes
+slide-42: Membros Superiores Vista Anterior
+slide-43: [VISUAL -- usar adjacente com titulo extraivel]
+slide-44: Veias – Cabeça e Pescoço Vista Anterior
+slide-45: Vv. Braquiocefálicas Vista Anterior
+slide-46: [VISUAL -- usar adjacente com titulo extraivel]
+slide-47: [VISUAL -- usar adjacente com titulo extraivel]

@@ -1,0 +1,170 @@
+{
+  "slug": "biocel-07-divisao-celular",
+  "total_armadilhas_unicas": 10,
+  "total_questoes_com_armadilha": 10,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "confundir numero de cromossomos com numero de cromatides — em metafase os 46 cromossomos já se duplicaram mas ainda não se separaram → 92 cromatides",
+      "origens": [
+        "294"
+      ],
+      "nivel": "facil",
+      "conceito": "numero de cromatides em G1 (46 cromossomos × 1 = 46) vs metafase (46 cromossomos × 2 = 92 cromatides) antes da disjuncao",
+      "tags": [
+        "ciclo-celular",
+        "mitose",
+        "cromatina"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "o pico da direita e G2/M (não so M) — ambas as fases tem conteudo 4N de DNA e não são separaveis por este metodo sem outro marcador especifico de mitose",
+      "origens": [
+        "295"
+      ],
+      "nivel": "facil",
+      "conceito": "interpretacao de histograma de citometria de fluxo com iodeto de propidio: pico G1 (2N), vale S (conteudo intermediario), pico G2/M (4N)",
+      "tags": [
+        "ciclo-celular",
+        "citometria-fluxo",
+        "marcadores-proliferacao"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "pico sub-G1 representa células APOPTOTICAS (DNA fragmentado), não G0 — está a ESQUERDA do pico G1 com conteudo de DNA menor que 2N",
+      "origens": [
+        "296"
+      ],
+      "nivel": "medio",
+      "conceito": "doxorrubicina intercala DNA + inibe topoisomerase II → quebras de dupla fita → apoptose via p53 → pico sub-G1 em citometria por fragmentacao internucleossomal",
+      "tags": [
+        "apoptose",
+        "ciclo-celular",
+        "quimioterapia",
+        "citometria-fluxo",
+        "p53"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "CDK1 = Cdc2 = MPF (denominacoes antigas e modernas coexistem); não confundir CDK2-ciclinaA (fase S) com CDK2-ciclinaE (transicao G1/S)",
+      "origens": [
+        "297"
+      ],
+      "nivel": "facil",
+      "conceito": "mapa dos complexos ciclina-CDK por fase: CDK4/6+ciclinaD em G1, CDK2+ciclinaE em G1/S, CDK2+ciclinaA em S, CDK1+ciclinaB em M — todas afirmativas corretas",
+      "tags": [
+        "ciclo-celular",
+        "ciclinas-cdk",
+        "oncoproteinas",
+        "regulacao-genica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "aumento de Ki67 Após tratamento indica RESISTENCIA — erro clínico e interpretar Ki67 alto como 'tumor respondendo e morrendo'",
+      "origens": [
+        "298"
+      ],
+      "nivel": "medio",
+      "conceito": "Ki67 marca células em qualquer fase ativa do ciclo (G1,S,G2,M), ausente em G0 — aumento Após tratamento indica falha terapeutica, não resposta",
+      "tags": [
+        "ciclo-celular",
+        "marcadores-proliferacao",
+        "quimioterapia",
+        "oncoproteinas"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "p53 wild-type Não garante função de p53 — MDM2 amplificado degrada p53 mesmo sem mutacao; perda de p14ARF tem o mesmo efeito (libera MDM2)",
+      "origens": [
+        "299"
+      ],
+      "nivel": "medio",
+      "conceito": "com p53 wild-type, resistencia ao tratamento pode ocorrer por: perda de p14ARF (libera MDM2 para degradar p53) OU amplificacao de MDM2 (degrada p53 diretamente)",
+      "tags": [
+        "ciclo-celular",
+        "oncoproteinas",
+        "p53",
+        "quimioterapia",
+        "ciclinas-cdk"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "via BCL-2/BAX e UPSTREAM de p53 — contorna a resistencia classica de tumores p53-mutados; BCL-2 sequestra BAX/BAK impedindo MOMP",
+      "origens": [
+        "300"
+      ],
+      "nivel": "dificil",
+      "conceito": "venetoclax (inibidor de BCL-2) ativa via intrinseca de apoptose independente de p53 — util em leucemias com delecao 17p/mutacao TP53, resistentes a quimioterapia convencional",
+      "tags": [
+        "apoptose",
+        "oncoproteinas",
+        "quimioterapia",
+        "p53"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "p16 SOBE nos tumores HPV+ (paradoxo) porque pRb degradado não reprime mais a transcrição de p16 — p16 alto e biomarcador de tumor HPV-relacionado",
+      "origens": [
+        "301"
+      ],
+      "nivel": "dificil",
+      "conceito": "HPV16/18: E7 degrada pRb (cai), libera E2F (sobe), causa superexpressao de p16 por perda do feedback repressivo (sobe — paradoxo); E6 degrada p53 (p21 cai)",
+      "tags": [
+        "ciclo-celular",
+        "oncoproteinas",
+        "p53",
+        "ciclinas-cdk",
+        "cromatina"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "perda de p14ARF e amplificacao de MDM2 tem o mesmo efeito final (menos p53 funcional) por mecanismos opostos — não confundir perda com amplificacao",
+      "origens": [
+        "303"
+      ],
+      "nivel": "dificil",
+      "conceito": "com p53 wild-type, resistencia ao tratamento pode ocorrer por perda de p14ARF (II) e amplificacao de MDM2 (III) — ambos neutralizam p53 funcionalmente sem mutacao",
+      "tags": [
+        "p53",
+        "oncoproteinas",
+        "ciclo-celular",
+        "quimioterapia",
+        "regulacao-genica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "dineina e motor de microtubulos (fuso mitotico), miosina II e motor de actina (anel contractil) — posicao sinalizada por microtubulos, mecanismo de contracao e actina+miosina",
+      "origens": [
+        "333"
+      ],
+      "nivel": "facil",
+      "conceito": "anel contractil da citocinese e de ACTINA + MIOSINA II (não dineina) — posicao e determinada pelo fuso de microtubulos, mas a contracao em si e actomiosina",
+      "tags": [
+        "mitose",
+        "citoesqueleto",
+        "actino-miosina"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

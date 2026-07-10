@@ -1,0 +1,28 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#resumindo-page((
+  ("O problema",
+   [NADH e FADH₂ saem do Krebs carregando elétrons de alta energia. Reagir direto com O₂ libera 220 kJ de uma vez — vira calor, não ATP. A cadeia parcela essa queda em quatro complexos.]),
+  ("Potencial de redução",
+   [Elétron flui de E°' menor pra maior. NADH (-0,32 V) entra no topo, O₂ (+0,82 V) recebe no fim. Cada queda libera energia pra bombear próton. FADH₂ entra mais tarde — daí render menos.]),
+  ("Teoria quimiosmótica",
+   [A energia do elétron não vira ATP direto — vira gradiente de próton. H⁺ é bombeado da matriz pro espaço intermembranas, e a membrana interna é impermeável a próton exceto pela ATP sintase.]),
+  ("Complexo I",
+   [Entrada do NADH. FMN recebe, centros Fe-S passam adiante até a CoQ. Bombeia 4 H⁺ por par de elétrons. Inibido por rotenona — inseticida e estudo experimental.]),
+  ("Complexo II",
+   [Mesma enzima do Krebs (succinato desidrogenase). Entrega elétron do FADH₂ pra CoQ. Não bombeia próton — daí FADH₂ render menos que NADH.]),
+  ("Complexo III e citocromo c",
+   [Ciclo Q transfere elétrons da CoQ pro cit c (um por vez) e bombeia 4 H⁺. Cit c é o mensageiro que leva elétron do III pro IV pela face externa da membrana interna.]),
+  ("Complexo IV",
+   [Citocromo oxidase. Junta 4 elétrons + 4 H⁺ + O₂ → 2 H₂O. Cobres Cu_A/Cu_B e citocromos a/a3 prendem o O₂ até estar pronto pra reduzir tudo de uma vez — evita radical livre. Bombeia 2 H⁺.]),
+  ("Cianeto bloqueia o IV",
+   [Liga no Fe do citocromo a3, trava entrega do elétron ao O₂. Sangue venoso fica vermelho-vivo (O₂ não consumido). Antídoto: nitritos → metemoglobina sequestra cianeto. Não confundir com inibidores de I ou III.]),
+  ("ATP sintase é motor mecânico",
+   [F₀ é canal de próton; F₁ tem 3 sítios catalíticos. Próton passando faz o anel girar; rotação muda conformação dos sítios (aberto → frouxo → apertado). 3 H⁺ por ATP, aproximadamente. Oligomicina trava o F₀.]),
+  ("Desacoplador ≠ inibidor",
+   [DNP e UCP1 dissipam o gradiente atravessando a membrana com próton — cadeia continua andando, mas energia vira calor. UCP1 no tecido adiposo marrom aquece o recém-nascido. DNP matou pessoas como emagrecedor.]),
+  ("Lançadeiras",
+   [NADH citosólico não entra direto. Malato-aspartato (fígado, rim, coração) preserva como NADH mitocondrial → 2,5 ATP. Glicerol-3-fosfato (músculo, cérebro) vira FADH₂ na entrada → só 1,5 ATP. Velocidade vs eficiência.]),
+  ("Saldo final",
+   [Glicose oxidada totalmente: ~30–32 ATP com P/O atual (2,5 NADH, 1,5 FADH₂). Livros antigos falam 38 — usavam P/O = 3 e 2. Se a prova pedir, presuma 30–32.]),
+))

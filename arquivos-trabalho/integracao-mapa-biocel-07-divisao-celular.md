@@ -1,0 +1,17 @@
+# Mapa de Integração — biocel-07-divisao-celular
+
+Q11 conecta [ciclina-Cdk como motor] + [CKI p21 como freio em dano de DNA]
+Q12 conecta [ponto G2/M] + [mecanismo Wee1/CDC25 fosforilação inibitória]
+Q13 conecta [APC/C] + [cadeia securina → separatase → coesina → cromátides]
+Q14 conecta [Rb/E2F] + [ciclina D induzida por mitógeno]
+Q15 conecta [p53] + [câncer prevalência clínica]
+Q16 conecta [M-Cdk disparando] + [três alvos paralelos: condensina + lamina + centrossomo]
+Q17 conecta [mitógeno (Ras/MAPK)] + [fator de crescimento (PI3K/Akt/mTOR)]
+Q18 conecta [G0 com sistema desmontado] + [não regeneração de neurônio/cardiomiócito]
+Q19 conecta [APC/C] + [ciclina B destruição → fim da mitose]
+Q20 conecta [quimioterapia clássica] + [seletividade por tecidos proliferativos]
+Q21 conecta [CDC25 fosfatase] + [transição G2/M onda]
+Q22 conecta [retinoblastoma hereditário] + [Rb perda de função]
+Q23 conecta [ATM → p53 → p21] + [parada em G1]
+Q24 conecta [ponto de restrição] + [decisão irreversível de entrar no ciclo]
+Q25 conecta [S-Cdk] + [replicação única (licenciamento) sem re-replicação]

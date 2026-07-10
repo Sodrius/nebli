@@ -1,0 +1,70 @@
+slug: patologia-ovario-tuba
+titulo: "Patologia do ovário e da tuba uterina"
+subtitulo: "Patologia · Ciclo clínico"
+meta:
+  - ["Disciplina", "Patologia — Aparelho reprodutor feminino"]
+  - ["Onde estudar", "Robbins Cap. 22 + Respostas do Relatório e dos Casos da prof."]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O ovário: da peça ao diagnóstico"
+        subtopicos:
+          - "1.1 Da massa ao laudo e a lógica do O-RADS"
+          - "1.2 Cistos não neoplásicos e endometrioma"
+          - "1.3 Tumores epiteliais (seroso, mucinoso, endometrioide, Brenner)"
+          - "1.4 Tumores germinativos (dermoide, disgerminoma, marcadores)"
+          - "1.5 Cordão sexual–estroma e metástases (Krukenberg)"
+      - titulo: "PARTE II — A tuba uterina"
+        subtopicos:
+          - "2.1 Salpingite e doença inflamatória pélvica"
+          - "2.2 Gravidez ectópica tubária"
+          - "2.3 Lesões benignas e imitadoras da tuba"
+      - titulo: "PARTE III — Os cinco casos da prática, comentados"
+        subtopicos:
+          - "3.1 Caso 1 — endometrioma e a torção"
+          - "3.2 Caso 2 — cistadenoma seroso torcido"
+          - "3.3 Caso 3 — carcinoma seroso de alto grau"
+          - "3.4 Caso 4 — disgerminoma e marcadores"
+          - "3.5 Caso 5 — abscesso ovariano"
+  - titulo: "Etapa 2 — 30 objetivas comentadas"
+    descricoes:
+      - "Objetivas estilo prova, com Resolução logo abaixo de cada questão"
+  - titulo: "Etapa 3 — 5 discursivas"
+    descricoes:
+      - "Discursivas ancoradas em macro/micro do relatório, com modelo de resposta"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "A"]
+    - ["05", "C"]
+    - ["06", "B"]
+    - ["07", "D"]
+    - ["08", "C"]
+    - ["09", "A"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "C"]
+    - ["13", "B"]
+    - ["14", "A"]
+    - ["15", "D"]
+    - ["16", "C"]
+    - ["17", "B"]
+    - ["18", "A"]
+    - ["19", "D"]
+    - ["20", "B"]
+    - ["21", "B"]
+    - ["22", "A"]
+    - ["23", "D"]
+    - ["24", "C"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "D"]
+    - ["28", "C"]
+    - ["29", "B"]
+    - ["30", "A"]

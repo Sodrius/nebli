@@ -1,0 +1,17 @@
+# Mapa de Integração — biomol-24-regulacao-expressao
+
+Q11 conecta [operon lac] + [economia energética/custo de ATP em síntese proteica]
+Q12 conecta [TFs específicos] + [identidade tecidual / diferenciação celular]
+Q13 conecta [cromatina/eucromatina] + [diferenciação celular tipo-específica]
+Q14 conecta [miRNA + RISC] + [UTR 3' como sinal pós-transcricional]
+Q15 conecta [splicing alternativo] + [diversidade proteica vs número de genes]
+Q16 conecta [CAP-cAMP] + [adenilato ciclase / sinalização de fome de glicose]
+Q17 conecta [ubiquitinação] + [proteassomo / degradação proteica regulada]
+Q18 conecta [atenuação trp] + [acoplamento transcrição-tradução em procariontes]
+Q19 conecta [enhancer] + [Mediador / arquitetura tridimensional do núcleo]
+Q20 conecta [acetilação de histona] + [interação eletrostática DNA-histona]
+Q21 conecta [fosforilação] + [velocidade de resposta a sinal vs transcrição]
+Q22 conecta [compartimentalização nuclear] + [janelas regulatórias eucarióticas]
+Q23 conecta [alolactose] + [β-galactosidase basal / isomerização da lactose]
+Q24 conecta [estabilidade mRNA] + [UTR 3' / elementos AU-ricos]
+Q25 conecta [H3K9me3] + [heterocromatina / silenciamento gênico tecidual]

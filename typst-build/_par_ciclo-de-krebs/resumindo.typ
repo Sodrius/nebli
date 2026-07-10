@@ -1,0 +1,28 @@
+#import "../../typst-template/nebli_v2_apostila.typ": *
+
+#resumindo-page((
+  ("O que é o ciclo",
+   [Sequência fechada de 8 reações na matriz mitocondrial que oxida o acetil-CoA em 2 CO₂. Por volta gera 3 NADH, 1 FADH₂, 1 GTP e regenera o oxaloacetato.]),
+  ("Entrada via PDH",
+   [Piruvato → acetil-CoA pela piruvato desidrogenase, um complexo de 3 enzimas (E1, E2, E3) com 5 coenzimas (TPP, ácido lipóico, CoA, FAD, NAD⁺). Não pertence ao ciclo.]),
+  ("Por que B1 é clínica",
+   [Sem tiamina, PDH e α-cetoglutarato desidrogenase travam. Beribéri (úmido: cardíaco; seco: neuropatia) e Wernicke-Korsakoff (alcoolista). Repor B1 IV antes de glicose no PS.]),
+  ("As 8 reações em síntese",
+   [R1 condensação (acetil + OAA → citrato); R2 isomerização; R3 e R4 descarboxilações oxidativas (saem 2 CO₂, 2 NADH); R5 GTP; R6 FADH₂; R7 hidratação; R8 NADH final.]),
+  ("R5 é a única fosforilação em nível de substrato",
+   [Succinil-CoA → succinato + GTP via succinil-CoA sintetase. A energia da ligação tioéster vai direto para GDP. Todos os outros ATPs do ciclo vêm indiretos, via cadeia respiratória.]),
+  ("Fluoracetato como veneno",
+   [Rodenticida convertido em fluorocitrato dentro da célula. Bloqueia aconitase, paralisa o ciclo. Em 30-100 min: convulsão, arritmia, falência. Letal a 2-10 mg/kg em humanos, sem antídoto.]),
+  ("Balanço por glicose",
+   [Cada glicose → 2 acetil-CoA → 2 voltas do ciclo. Total de ~20 ATP só do Krebs. Somado a glicólise e PDH, ~30-32 ATP por glicose oxidada (não os 38 antigos).]),
+  ("Função anfibólica",
+   [Intermediários saem para biossíntese: α-KG → glutamato; succinil-CoA → heme; OAA → aspartato e gliconeogênese; citrato → ácidos graxos. O ciclo é catabólico E anabólico.]),
+  ("Anaplerose por piruvato carboxilase",
+   [Piruvato + HCO₃⁻ + ATP → OAA. Repõe oxaloacetato que sai por anfibolia. Inativa sem acetil-CoA — acetil-CoA acumulado é o sinal de "preciso de mais OAA".]),
+  ("Regulação: lógica única em 4 pontos",
+   [PDH, citrato sintase, isocitrato desidrogenase, α-KG desidrogenase. ATP e NADH altos freiam; ADP e Ca²⁺ altos aceleram. Ca²⁺ liga contração muscular à produção de ATP.]),
+  ("Krebs não consome O₂ — mas para sem ele",
+   [Nenhuma reação do ciclo usa O₂. Mas sem O₂ a cadeia respiratória trava, NAD⁺ se esgota, e o ciclo congela por falta de cofator. Isquemia mata por essa cadeia indireta.]),
+  ("Por que tecidos sensíveis morrem rápido",
+   [Cérebro e miocárdio dependem absolutamente da fosforilação oxidativa. Em isquemia, glicólise anaeróbia rende 2 ATP/glicose — insuficiente para bombas iônicas. Necrose em minutos, janela curta para reperfusão.]),
+))

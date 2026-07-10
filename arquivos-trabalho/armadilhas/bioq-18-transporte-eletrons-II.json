@@ -1,0 +1,173 @@
+{
+  "slug": "bioq-18-transporte-eletrons-II",
+  "total_armadilhas_unicas": 10,
+  "total_questoes_com_armadilha": 10,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Esquecer de subtrair o custo de ativacao do acido graxo (-2 ATP equivalentes) no saldo final",
+      "origens": [
+        "106"
+      ],
+      "nivel": "dificil",
+      "conceito": "Saldo de ATP da beta-oxidacao e fosforilacao oxidativa",
+      "tags": [
+        "beta-oxidacao",
+        "fosforilacao-oxidativa",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Misturar local de acao dos inibidores: antimicina bloqueia Complexo III, oligomicina bloqueia ATP-sintase",
+      "origens": [
+        "107"
+      ],
+      "nivel": "dificil",
+      "conceito": "Especies reativas de oxigenio (ROS) e cadeia respiratoria",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "desacoplador"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "corpos cetonicos Não são oxidaveis sem O2 (Krebs para por acumulo de NADH); DNP elimina apenas o ATP oxidativo, não o substrato-nivel",
+      "origens": [
+        "281"
+      ],
+      "nivel": "dificil",
+      "conceito": "calculo do saldo de ATP na oxidacao do beta-hidroxibutirato em condicoes aerobia, anaerobia e com desacoplador (DNP)",
+      "tags": [
+        "cetogenese",
+        "krebs",
+        "fosforilacao-oxidativa",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "oligomicina e revertida por DNP (gradiente preso se dissocia), antimicina Não (problema e upstream na transferencia de elétrons)",
+      "origens": [
+        "284"
+      ],
+      "nivel": "dificil",
+      "conceito": "experimento para distinguir antimicina (bloqueia Complexo III) de oligomicina (bloqueia ATP-sintase) usando oximetria + DNP como revelador",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "FADH2 não e afetado pelo amital (entra em Q pelo Complexo II, downstream do bloqueio) — DNP funciona para oligomicina, Não para inibidores da cadeia",
+      "origens": [
+        "289"
+      ],
+      "nivel": "dificil",
+      "conceito": "amital bloqueia Complexo I → NADH não oxidado; FADH2 (entra em Q diretamente via Complexo II) continua; saldo de ATP despenca; DNP não reverte",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "glicolise",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "com DNP o Krebs CONTINUA girando (NAD+ e regenerado pela cadeia), mas ATP não e formado — saldo real e 4, não 0 nem 38",
+      "origens": [
+        "311"
+      ],
+      "nivel": "medio",
+      "conceito": "DNP elimina todo ATP oxidativo — saldo com DNP = so ATP de substrato-nivel (2 ATP da glicolise + 2 GTP do Krebs = 4 ATP por glicose)",
+      "tags": [
+        "fosforilacao-oxidativa",
+        "desacoplador",
+        "glicolise",
+        "energia-livre",
+        "krebs"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "rotenona/malonato (bloqueiam upstream) Não são revertidos por DNP — DNP so reverte quando o problema e acumulo de gradiente (oligomicina), não bloqueio da cadeia",
+      "origens": [
+        "315"
+      ],
+      "nivel": "medio",
+      "conceito": "inibidor que para consumo de O2 e e revertido por DNP = oligomicina (inibe ATP-sintase): gradiente fica preso, cadeia para, DNP cria via alternativa de dissipacao",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "desacoplador"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "succinato REVERTE o bloqueio por rotenona (Complexo II contorna Complexo I) mas Não reverte DNP; criterio de reversao por succinato distingue inibição de Complexo I de desacoplamento",
+      "origens": [
+        "323"
+      ],
+      "nivel": "dificil",
+      "conceito": "identificacao de rotenona vs DNP por oximetria: rotenona bloqueia Complexo I (revertida por succinato); DNP dissipa gradiente (potencial cai a zero, cadeia continua, O2 cai até zero)",
+      "tags": [
+        "cadeia-respiratoria",
+        "fosforilacao-oxidativa",
+        "inibidores-enzimaticos",
+        "desacoplador",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Confundir mecanismo com consequencia; analisar todos os distratores antes de responder",
+      "origens": [
+        "399"
+      ],
+      "nivel": "medio",
+      "conceito": "Lancadeiras mitocondriais e saldo de ATP",
+      "tags": [
+        "fosforilacao-oxidativa",
+        "cadeia-respiratoria",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Contar apenas os H⁺ bombeados pelo Complexo I (4 H⁺) e esquecer que os elétrons continuam para Complexo III (+4 H⁺) e Complexo IV (+2 H⁺). O total é 10 H⁺ porque NADH alimenta a cadeia inteira (I→III→IV), não apenas o Complexo I.",
+      "origens": [
+        "q-0170"
+      ],
+      "nivel": "dificil",
+      "conceito": "Bombeamento de prótons na cadeia respiratória",
+      "tags": [
+        "cadeia-respiratoria",
+        "complexo-i",
+        "complexo-ii",
+        "complexo-iii",
+        "complexo-iv",
+        "gradiente-proton",
+        "atp-sintase"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

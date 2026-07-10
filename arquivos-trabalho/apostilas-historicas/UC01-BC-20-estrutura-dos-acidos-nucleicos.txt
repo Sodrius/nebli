@@ -1,0 +1,1185 @@
+NEBLI · APOSTILA
+
+Ácidos nucleicos
+
+Biologia Molecular
+
+Disciplina:    Biologia Molecular
+Nota de uso:   Estudar com o slide aberto ao lado; figuras citadas referenciam o slide do
+               professor.
+Onde estudar:  Lehninger, Princípios de Bioquímica (7ª ed.), Cap. 8 · Alberts, Biologia
+               Molecular da Célula (6ª ed.), Cap. 4 · Garrett & Grisham, Biochemistry (6ª
+               ed.), Cap. 10
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- As peças
+       1.1 Bases nitrogenadas: duas famílias, cinco peças
+       1.2 Pentoses: um oxigênio que decide tudo
+       1.3 De base a nucleotídeo: a montagem em duas etapas
+  PARTE II -- DNA: do polímero à dupla hélice
+       2.1 A ligação fosfodiéster e a polaridade 5'3'
+       2.2 Dupla hélice antiparalela e o pareamento Watson-Crick
+       2.3 Estabilidade física: Tm, %GC, denaturação, superenovelamento
+  PARTE III -- RNA e empacotamento
+       3.1 O 2'-OH revisitado: instabilidade como vantagem
+       3.2 Famílias de RNA: mRNA, tRNA, rRNA
+       3.3 Cromatina: empacotando 1,2 m de DNA em 5 µm
+
+RESUMINDO (1 PÁGINA)
+       Fechamento panorâmico antes das questões
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+       10 Consolidação · 15 Integração · 5 Aplicação
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+       Mecanísticas; Q5 identifica erro conceitual
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       Selecionadas do banco; gabarito inline
+
+GABARITO CONSOLIDADO DA ETAPA 2
+       Penúltima seção
+
+                                                                                 2
+NEBLI                                                                                           SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Quase tudo o que importa numa célula passa, em algum momento, por uma fita de DNA1 ou de
+    RNA2. O DNA guarda a receita; o RNA executa. Os dois são polímeros longuíssimos feitos de peças
+    muito parecidas -- tão parecidas que a diferença entre elas cabe num único átomo de oxigênio, e
+    essa diferença minúscula é o que decide se a molécula vai durar décadas dentro do núcleo ou ser
+    destruída em minutos no citoplasma.
+    A aposta deste resumo é começar pela peça. Antes da hélice, antes do ribossomo, antes da repli
+    cação -- qual é o tijolo? Uma vez que você entende como base, açúcar e fosfato se encaixam para
+    formar um nucleotídeo, e como nucleotídeos se ligam para formar uma fita, todas as histórias
+    seguintes (replicação, transcrição, tradução, empacotamento da cromatina) viram consequências
+    naturais de regras químicas simples. É essa lógica de causa  mecanismo  consequência que
+    vai guiar tudo aqui.
+
+PARTE I -- As peças
+
+1.1 -- Bases nitrogenadas: duas famílias, cinco peças
+Vamos começar pelo coração da molécula. As bases nitrogenadas são as letras do alfabeto
+genético -- e como qualquer alfabeto bom, são poucas e específicas. Existem cinco delas no
+total, divididas em duas famílias: as purinas (com dois anéis aromáticos fundidos) e as pirim
+idinas (com um único anel). Essa diferença estrutural parece detalhe químico, mas é ela que
+decide quem pareia com quem na dupla hélice, e por isso vale a pena olhar com cuidado.
+
+   As purinas são duas: adenina (A) e guanina (G). Você pode memorizar como "GA". Ambas
+têm um anel hexagonal fundido com um anel pentagonal -- uma estrutura grande, com
+nove átomos no esqueleto. As pirimidinas são três: citosina (C), timina (T) e uracila (U) --
+mnemônico "CUT". Cada uma tem só o anel hexagonal, é uma molécula menor. Aqui mora a
+primeira regra que precisa virar instinto: T existe só no DNA, U existe só no RNA, e as outras
+três (A, G, C) aparecem nos dois. Quando a célula precisa fazer um RNA a partir de um DNA, ela
+troca cada T por um U -- não é casualidade, é uma decisão evolutiva que voltaremos a discutir
+na PARTE III.
+
+1DNA ­ ácido desoxirribonucleico -- molécula que armazena toda a informação genética da célula
+2RNA ­ ácido ribonucleico -- molécula que executa, transporta e regula a informação do DNA
+
+                                                                              3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Note como as purinas (A, G) têm dois anéis fundidos enquanto as pirimidinas (C, T, U) têm apenas um. Essa diferença
+de tamanho não é cosmética -- ela é o motivo pelo qual purina sempre pareia com pirimidina na dupla hélice, e
+nunca purina com purina.
+
+Por que essa divisão importa tanto? Pense no problema geométrico que a dupla hélice precisa
+resolver. As duas fitas correm paralelas, separadas por exatamente 2 nm. Esse espaço entre os
+esqueletos de açúcar-fosfato precisa ser preenchido por um par de bases -- sempre. Se duas
+purinas tentassem parear (dois anéis duplos), a distância exigida seria maior que 2 nm e a
+hélice abriria. Se duas pirimidinas pareassem (dois anéis simples), a distância seria menor que
+2 nm e a hélice colapsaria. Só o par purina + pirimidina cabe certo -- é a única combinação
+dimensionalmente possível.
+
+    Tamanho não é só estética
+    A diferença purina × pirimidina é o que torna a dupla hélice geometricamente possível. Quando
+    você lê em prova "A só pareia com T e G só com C", isso é verdade, mas é a consequência de uma
+    regra mais funda: purina sempre cabe com pirimidina, e a distribuição dos doadores/aceptores
+    de hidrogênio nas faces das bases é que decide se A vai com T (e não com C) e se G vai com C (e
+    não com T). Em outras palavras: a regra do tamanho permite o pareamento; a regra das pontes de
+    hidrogênio impõe a especificidade.
+
+Falando em pontes de hidrogênio: cada par tem um número específico delas. O par A=T (ou A=U
+no RNA) tem duas pontes de hidrogênio; o par GC tem três. Anote bem isso -- é a chave para
+entender por que regiões ricas em G:C são mais estáveis termicamente, e por que a temperatura
+de fusão do DNA depende da composição de bases. Vamos voltar a esse detalhe na seção 2.3.
+
+   Antes de seguir, vale organizar tudo numa tabela. Catálogo de família proteica é caso clássico
+onde a tabela enxerga o sistema de uma vez:
+
+                                                                                 4
+NEBLI                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+       Base  Classe No DNA? No RNA?       Pareia com
+
+       Adenina (A) Purina       sim  sim T (DNA) / U (RNA)
+
+       Guanina (G) Purina       sim  sim  Citosina
+
+       Citosina (C) Pirimidina  sim  sim  Guanina
+
+       Timina (T) Pirimidina    sim  não  Adenina
+
+       Uracila (U) Pirimidina   não  sim  Adenina
+
+Uma última propriedade que vale guardar: todas as bases nitrogenadas absorvem fortemente
+luz UV3 em torno de 260 nm. Por isso a maneira mais clássica de quantificar DNA num
+laboratório é medir a absorbância dele em 260 nm com um espectrofotômetro -- quanto mais
+bases, mais luz absorve. Esse mesmo detalhe vai voltar transformado em "hipercromismo"
+quando discutirmos denaturação, na seção 2.3.
+
+Síntese 1 -- Cinco bases, duas famílias: purinas (A, G) com dois anéis, pirimidinas (C, T, U) com
+um. T fica só no DNA, U só no RNA. Purina sempre pareia com pirimidina porque é a única
+combinação que cabe nos 2 nm da hélice; A=T tem 2 pontes de H, GC tem 3.
+
+1.2 -- Pentoses: um oxigênio que decide tudo
+Agora o segundo componente da peça -- o açúcar. Tanto DNA quanto RNA usam um açúcar de
+cinco carbonos (uma pentose) na forma cíclica, chamada furanose. A diferença entre o açúcar
+do DNA e o do RNA está num único carbono: o carbono 2.
+
+   No RNA, o açúcar é a D-ribose. Ela tem uma hidroxila (-OH) ligada ao carbono 2. No DNA,
+o açúcar é a 2-desoxirribose -- a mesma molécula, mas sem aquele OH (daí o nome "desoxi",
+literalmente "sem oxigênio"). Parece detalhe. Não é.
+
+3UV ­ ultravioleta -- radiação eletromagnética entre 200 e 400 nm de comprimento de onda
+                                                                              5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Compare os dois açúcares lado a lado. A única diferença está no C2: hidroxila (-OH) na ribose, apenas hidrogênio (-
+H) na desoxirribose. Esse átomo a menos é o que torna o DNA muito mais estável que o RNA.
+
+Aqui está a pergunta que provavelmente já passou pela sua cabeça: por que uma diferença tão
+pequena gera dois polímeros tão diferentes? A resposta passa por um mecanismo químico
+que vai voltar várias vezes neste resumo. O OH do carbono 2 é nucleofílico -- ou seja, ele tem
+disponível um par de elétrons que pode "atacar" outros átomos. E o alvo mais próximo desse
+OH é o fosfato vizinho na própria fita de RNA. Em condições normais isso não acontece, mas
+se o meio ficar levemente alcalino, ou se a temperatura subir, esse 2-OH ataca o fosfato e a
+fita se rompe. O RNA, em outras palavras, carrega dentro de si o mecanismo de sua própria
+destruição.
+
+   O DNA, ao tirar esse oxigênio, fica imune ao ataque. Por isso o DNA dura muito mais --
+décadas dentro do núcleo, milhões de anos em fósseis. O RNA, em contraste, vive minutos
+ou horas no citoplasma. Faz sentido evolutivo perfeito: o arquivo genético precisa durar; a
+mensagem que sai do arquivo pode (e deve) ser descartada depois de usada. Vamos retomar
+essa lógica com mais cuidado na seção 3.1, agora que a peça está dissecada.
+
+   Uma última observação prática: a numeração dos carbonos da pentose recebe um apóstrofo
+(1, 2, 3, 4, 5) para distinguir dos carbonos da base nitrogenada (que vão de 1 a 9 ou de 1 a 6,
+sem apóstrofo). Quando você ler "ligação 53" ou "extremidade 3 livre" daqui em diante,
+esses números se referem ao açúcar. Vale fixar essa convenção agora porque ela vai aparecer
+em quase todos os mecanismos das próximas duas PARTES.
+
+    Síntese 2 -- Duas pentoses, ribose (RNA) e desoxirribose (DNA), diferindo num único oxigênio
+    no C2. Esse OH a mais torna o RNA quimicamente vulnerável a hidrólise -- instável por design.
+    Carbonos do açúcar levam apóstrofo (1, 2, 3, 4, 5) para distinguir dos carbonos da base.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+1.3 -- De base a nucleotídeo: a montagem em duas etapas
+Com base e açúcar na mão, a célula precisa juntá-los -- e depois acrescentar o fosfato. A
+montagem acontece em duas etapas, e cada etapa gera uma molécula com nome próprio. Vale
+separar isso bem porque os termos nucleosídeo e nucleotídeo são facilmente confundidos.
+
+   Etapa 1 -- base + açúcar = nucleosídeo. A ligação que une os dois é chamada de ligação
+N-glicosídica4. Sai uma molécula de água nesse processo, e o produto recebe o nome de nucle
+osídeo. Note que ainda não há fosfato.
+
+   Etapa 2 -- nucleosídeo + fosfato = nucleotídeo. Adiciona-se um (ou dois, ou três) grupo
+fosfato ao carbono 5 do açúcar do nucleosídeo. O produto é o nucleotídeo. A diferença entre
+nucleosídeo e nucleotídeo é exatamente um fosfato -- e essa única diferença muda o nome da
+molécula, sua carga (o nucleotídeo é negativo, porque o fosfato carrega cargas negativas em
+pH fisiológico) e sua função.
+
+ Tabela de nomenclatura: cada base tem um nucleosídeo (sufixo "-osina" para purinas, "-idina" para pirimidinas)
+ e um nucleotídeo correspondente. Note como adenina  adenosina  AMP, e como o "d" minúsculo prefixa os
+ nucleotídeos do DNA (dAMP, dGMP).
+
+A nomenclatura parece complicada mas segue um padrão. A base adenina, quando ligada à
+ribose, vira adenosina (nucleosídeo); adicione um fosfato e vira AMP5. Adicione mais dois
+fosfatos e -- olha só -- você chegou no ATP6. É o mesmo nucleotídeo do DNA, só que com mais
+dois fosfatos pendurados.
+
+   4ligação N-glicosídica ­ ligação covalente entre o C1 de um açúcar e um nitrogênio de uma base nitrogenada (N9 das
+purinas, N1 das pirimidinas)
+
+   5AMP ­ adenosina monofosfato -- nucleotídeo monofosfato da adenosina
+   6ATP ­ adenosina trifosfato -- moeda energética universal das células
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Os nucleotídeos têm vida dupla
+
+Vale registrar uma coisa que cai em prova com frequência: nucleotídeos não servem só como
+tijolo do DNA e do RNA. Eles também são as principais moléculas de transferência de energia da
+célula (ATP, GTP7) e mensageiros intracelulares (AMPc8, GMPc). O mesmo objeto químico (AMP)
+é peça de polímero quando tem 1 fosfato e moeda energética quando tem 3 -- a célula reusa esse
+esqueleto inteligente em vários papéis.
+
+Resumindo até aqui: Base + açúcar = nucleosídeo. Nucleosídeo + fosfato(s) = nucleotídeo. A presença
+do fosfato é a única diferença entre os dois termos -- e o que confere ao nucleotídeo carga negativa e
+capacidade de polimerizar.
+
+Síntese 3 -- A peça final é o nucleotídeo: base nitrogenada + pentose + fosfato. A ligação N-
+glicosídica entre base e açúcar dá o nucleosídeo; o fosfato no C5 transforma nucleosídeo em
+nucleotídeo. O mesmo nucleotídeo serve tanto como tijolo de polímero (com 1 fosfato) quanto
+como moeda energética (com 3, como o ATP).
+
+PARTE II -- DNA: do polímero à dupla hélice
+
+2.1 -- A ligação fosfodiéster e a polaridade 5'3'
+Temos a peça. Agora, como construir o polímero? A célula precisa "soldar" um nucleotídeo
+no próximo, e a solda que ela usa se chama ligação fosfodiéster9. O nome é descritivo: é um
+fosfato que faz dupla ligação éster -- uma para o C5 de um açúcar e outra para o C3 do açúcar
+seguinte. Sai água, sobra polímero.
+
+   7GTP ­ guanosina trifosfato -- segunda moeda energética celular, usada principalmente em síntese proteica e sinal
+ização
+
+   8AMPc ­ AMP cíclico -- segundo mensageiro intracelular, ativador da proteína quinase A
+   9ligação fosfodiéster ­ ligação covalente que une o fosfato no C5 de um nucleotídeo ao OH no C3 do nucleotídeo
+seguinte, formando o esqueleto açúcar-fosfato
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Representação de um polinucleotídeo. Cada açúcar (S) é conectado ao próximo via um fosfato (P) ligado no 5 de
+cima e no 3 de baixo. Repare como as extremidades são quimicamente distintas: uma ponta tem 5-fosfato livre, a
+outra tem 3-OH livre. Essa assimetria é a polaridade da fita.
+
+E aqui aparece uma consequência sutil mas central: como o fosfato sempre liga 5 a 3, as duas
+extremidades de qualquer fita ficam quimicamente diferentes uma da outra. Numa ponta sobra
+o 5-fosfato sem par; na outra, sobra o 3-OH sem par. A fita inteira tem uma direção -- uma
+orientação que faz sentido apenas num sentido.
+
+   Por convenção, sempre se lê e se escreve uma sequência no sentido 53. Quando você lê
+"ATCG" em algum livro, leia mentalmente "começa no 5-fosfato com a adenina, vai descendo
+até o 3-OH com a guanina". Essa convenção não é arbitrária -- ela existe porque toda a
+maquinaria que sintetiza DNA e RNA na célula trabalha exclusivamente nesse sentido. Quando
+estudarmos Replicação na próxima aula, esse fato vai voltar transformado em "fita líder vs fita
+atrasada" -- guarde esse 53 como verdade absoluta.
+
+    Cuidado com o sentido da fita
+    A célula sintetiza DNA e RNA apenas no sentido 53 -- adiciona nucleotídeos novos sempre
+    no 3-OH livre. Isso quer dizer que a leitura do molde acontece no sentido oposto, 35. Não
+    confunda: a fita-molde é lida de 3 para 5, a fita-filha é construída de 5 para 3. Ambas as direções
+    convivem no mesmo evento de síntese.
+
+    Síntese 4 -- A ligação fosfodiéster une o 5-fosfato de um nucleotídeo ao 3-OH do próximo,
+    formando o esqueleto açúcar-fosfato do polímero. Cada fita tem uma polaridade definida: uma
+    extremidade 5 (com fosfato livre) e uma 3 (com OH livre). Convenção universal: leitura sempre
+    no sentido 53.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.2 -- Dupla hélice antiparalela e o pareamento Watson-Crick
+Agora juntamos duas fitas. O DNA não é uma fita só -- são duas, enroscadas uma na outra
+numa hélice. Mas não é uma hélice qualquer: ela tem três propriedades específicas que vale a
+pena destacar separadamente.
+
+   Primeira propriedade -- é dupla. Duas fitas de polinucleotídeo, paralelas, formam a estrutura.
+As pontes de hidrogênio entre as bases das duas fitas mantêm-nas juntas -- é uma interação
+fraca individualmente, mas multiplicada por milhões de bases ao longo de um cromossomo
+torna-se virtualmente irreversível em condições fisiológicas.
+
+   Segunda propriedade -- é antiparalela. As duas fitas correm em direções opostas. Se uma
+fita está orientada 53 de cima para baixo, a outra está 35 de cima para baixo. Por que?
+Porque é a única geometria que permite os pares de bases ficarem alinhados de frente. Se as
+fitas fossem paralelas (ambas 53 no mesmo sentido), as bases ficariam viradas em sentidos
+opostos e não conseguiriam parear. A antiparalelidade é geometricamente necessária -- não
+é capricho da natureza.
+
+   Terceira propriedade -- pareia segundo Watson-Crick. Adenina sempre pareia com timina (no
+DNA) ou uracila (no RNA), via duas pontes de hidrogênio. Guanina sempre pareia com citosina,
+via três pontes. Essa especificidade vem de duas regras combinadas que já discutimos em 1.1: o
+pareamento purina+pirimidina (regra do tamanho) e a distribuição complementar de doadores
+e aceptores de hidrogênio nas faces das bases (regra da especificidade).
+
+A dupla hélice antiparalela. Repare como uma fita está orientada 53 descendente e a outra 35 descendente,
+e como cada par de bases (A=T ou GC) ocupa exatamente o mesmo espaço entre os esqueletos açúcar-fosfato. O
+esqueleto fica para fora, as bases ficam para dentro -- protegidas do solvente.
+
+A geometria da forma mais comum (chamada B-DNA, descrita por Watson e Crick a partir dos
+dados de difração de raios-X de Rosalind Franklin) tem dimensões muito precisas. Diâmetro
+de 2 nm, distância entre bases sucessivas de 0,34 nm, e 10 bases por volta -- o que dá uma
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+volta inteira a cada 3,4 nm de comprimento. Esses números não são curiosidade: eles permitem
+calcular quantas voltas tem qualquer pedaço de DNA, e por isso aparecem em problemas de
+prova.
+
+ Geometria do B-DNA: distância entre bases consecutivas (0,34 nm), comprimento de uma volta completa (3,4 nm,
+ equivalente a 10 bases), diâmetro total de 2 nm. Hélice destrógira (gira para a direita quando observada de cima).
+
+    Por que isso importa fora do laboratório
+    A geometria precisa da dupla hélice tem consequência médica direta. Drogas que se intercalam
+    entre as bases (como a doxorrubicina, usada em quimioterapia) distorcem a hélice e bloqueiam a
+    replicação do DNA, matando preferencialmente células que se dividem rápido -- ou seja, células
+    tumorais. Outras moléculas, como o brometo de etídio (usado em laboratório para visualizar DNA
+    em gel), também se intercalam -- por isso são fortemente mutagênicas e exigem manipulação
+    cuidadosa.
+
+    Síntese 5 -- A dupla hélice tem três propriedades-chave: é dupla (duas fitas pareadas por
+    pontes de H), antiparalela (fitas em sentidos opostos, geometricamente obrigatório) e específica
+    (Watson-Crick: A=T com 2 pontes, GC com 3 pontes). Forma B-DNA: 2 nm de diâmetro, 0,34 nm/
+    base, 10 bases por volta.
+
+2.3 -- Estabilidade física: Tm, %GC, denaturação e superenovelamento
+Como qualquer estrutura mantida por interações fracas, a dupla hélice pode ser desfeita.
+Aqueça o DNA em solução acima de 80 °C e as pontes de hidrogênio quebram, as fitas se
+separam, e a molécula passa de dupla para simples. Esse processo chama-se denaturação10 --
+e é reversível: deixe a solução esfriar lentamente e as fitas se re-pareiam (renaturação). É esse
+
+   10denaturação ­ processo de separação das duas fitas do DNA por quebra das pontes de hidrogênio, geralmente por
+calor (>80 °C) ou pH extremo
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+princípio que está por trás de quase toda técnica de biologia molecular: PCR11, Southern blot,
+hibridização.
+
+   A temperatura na qual metade do DNA está denaturado chama-se temperatura de fusão ou
+Tm12. E aqui vem um princípio que aparece direto em prova: a Tm depende fortemente da
+composição de bases. DNA rico em G:C tem Tm mais alta que DNA rico em A:T -- porque
+cada par GC tem 3 pontes de H e cada par A=T tem só 2. Mais pontes, mais energia para
+desfazer, temperatura mais alta. Bactérias termófilas (que vivem em fontes termais a 80­90
+°C) costumam ter genomas com %GC alta -- não é coincidência, é seleção natural.
+
+   A denaturação produz um efeito ótico curioso e útil. Lembra que as bases absorvem UV
+em 260 nm? Quando as bases estão empilhadas dentro da hélice, elas absorvem menos luz
+do que quando ficam soltas em solução (o empilhamento gera interferência). Ao denaturar,
+a absorbância aumenta 30­40% -- fenômeno chamado hipercromismo. Monitorando a ab
+sorbância em 260 nm enquanto a temperatura sobe, você desenha uma curva de denaturação
+e lê o Tm direto do gráfico.
+
+Curva de denaturação típica. À medida que a temperatura sobe (eixo x), a absorbância em 260 nm (eixo y) aumenta
+progressivamente -- primeiro lentamente, depois abruptamente na faixa de temperatura onde a maioria das pontes
+H quebra. O ponto médio da transição é a Tm. DNA rico em GC desloca a curva inteira para a direita.
+
+    Não confunda denaturação com degradação
+    Denaturação é reversível -- separar as fitas por aquecimento não quebra ligações covalentes, só
+    pontes de H. Esfrie a solução e a hélice se forma de novo. Degradação, por outro lado, envolve
+    quebra da ligação fosfodiéster (por hidrólise, por nuclease, por radiação) e é irreversível. Em prova,
+    "DNA denaturado" não significa "DNA destruído" -- significa apenas "fita simples".
+
+   11PCR ­ polymerase chain reaction -- técnica de amplificação de DNA in vitro baseada em ciclos de denaturação,
+anelamento e extensão
+
+   12Tm ­ melting temperature -- temperatura na qual 50% das moléculas de DNA estão denaturadas em uma amostra
+
+                                                                                12
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Uma última observação sobre estabilidade, importante quando o DNA é circular (como em
+plasmídeos bacterianos ou em DNA mitocondrial): o número de voltas da hélice por unidade
+de comprimento pode variar. Se a célula introduz voltas a mais ou a menos do que o natural
+(10 bases/volta), a molécula gera tensão e se torce sobre si mesma -- fenômeno chamado
+superenovelamento. Enzimas chamadas topoisomerases controlam essa tensão e são alvo
+de antibióticos importantes (quinolonas, como ciprofloxacino, inibem topoisomerases bacte
+rianas).
+
+Síntese 6 -- A dupla hélice é mantida por pontes de H que podem ser desfeitas por calor (denat
+uração) e refeitas por resfriamento (renaturação) -- base de todas as técnicas de hibridização. Tm
+depende da %GC (mais pontes, mais estável). Hipercromismo: bases denaturadas absorvem mais
+UV. DNA circular pode superenovelar; topoisomerases regulam essa tensão.
+
+PARTE III -- RNA e empacotamento
+
+3.1 -- O 2'-OH revisitado: instabilidade como vantagem
+Vamos voltar àquela ribose do RNA com o oxigênio extra no C2. Já adiantamos em 1.2 que esse
+OH torna o RNA quimicamente vulnerável; agora cabe entender por que essa vulnerabilidade
+não é defeito -- é desenho.
+
+   O mecanismo molecular já foi insinuado: o 2-OH é nucleofílico e o fosfato vizinho é o alvo
+natural. Em meio levemente alcalino, ou em temperatura elevada, o 2-OH ataca o fosfato da
+ligação fosfodiéster da própria fita, e a fita se rompe. Por isso o RNA é hidrolisado por base
+diluída, enquanto o DNA é resistente a base -- falta o 2-OH no DNA para acontecer o ataque.
+Por outro lado, o DNA é atacado por ácido diluído (rompe a ligação N-glicosídica purina-açúcar),
+enquanto o RNA é mais resistente ao ácido. São propriedades químicas espelhadas, e elas caem
+em prova exatamente nesse formato.
+
+       13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+DNA vs RNA. A diferença na estabilidade vem do 2-OH: presente no RNA (vulnerável a hidrólise alcalina), ausente
+no DNA (estável). Por isso o DNA é a molécula-arquivo, e o RNA é a molécula-mensagem descartável.
+
+A instabilidade do RNA tem três consequências que vale guardar.
+   Consequência 1 -- meia-vida curta. Um mRNA típico em uma célula humana dura entre min
+
+utos e algumas horas. Isso é exatamente o que você quer para uma mensagem: o gene precisa
+ser expresso por um tempo, fazer seu serviço, e desaparecer. Se o mRNA durasse semanas,
+a célula não conseguiria desligar genes -- toda regulação dependeria da degradação ativa de
+uma molécula imortal.
+
+   Consequência 2 -- fita simples e flexibilidade estrutural. O RNA quase sempre é encontrado
+como fita simples, não pareada. Isso permite que ele dobre sobre si mesmo formando
+estruturas tridimensionais elaboradas -- alças, grampos, pseudo-nós -- que dão ao RNA
+capacidade catalítica, ligação a proteínas específicas, e reconhecimento molecular. O tRNA em
+forma de trevo e o RNA ribossomal são exemplos extremos dessa flexibilidade.
+
+   Consequência 3 -- provavelmente é o ancestral. A hipótese do "mundo de RNA" propõe que o
+RNA veio primeiro na história evolutiva da vida, e que o DNA é uma evolução tardia: a célula
+pegou o RNA, removeu o 2-OH, e ganhou uma molécula estável o suficiente para servir de
+arquivo permanente. Por isso até hoje a célula sintetiza nucleotídeos primeiro como ribonu
+cleotídeos e só depois converte alguns em desoxirribonucleotídeos -- um vestígio da ordem
+evolutiva.
+
+    Síntese 7 -- O 2-OH do RNA é nucleofílico e ataca o fosfato vizinho em condições alcalinas,
+    hidrolisando a fita. Por isso o RNA é vulnerável a base diluída e tem meia-vida curta -- carac
+    terística desejável para uma molécula-mensagem. A instabilidade também explica por que o RNA
+    é geralmente fita simples e por que ele consegue dobrar em estruturas 3D complexas.
+
+3.2 -- Famílias de RNA: mRNA, tRNA, rRNA
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Há vários tipos de RNA na célula, mas três classes principais aparecem em qualquer prova
+de molecular: mensageiro, transportador e ribossomal. Cada uma tem uma estrutura própria
+adaptada à sua função na síntese de proteínas, e vale entender quem faz o quê antes de chegar
+na aula de Tradução (36 da fila).
+
+   O mRNA13 é a cópia transitória de um gene. É linear, lido códon a códon (3 bases por
+aminoácido) pelo ribossomo. Em bactérias, um único mRNA pode codificar várias proteínas
+em sequência (operons); em eucariotos, regra geral, um mRNA codifica uma única proteína e
+ainda passa por processamento (capping, splicing, poliadenilação) antes de sair do núcleo.
+
+   O tRNA14 é o adaptador. Tem entre 73 e 94 nucleotídeos, dobrados numa estrutura em trevo
+(cloverleaf) na vista 2D, e em forma de L na vista 3D. Em uma das pontas (sempre a sequência
+CCA na extremidade 3) carrega um aminoácido específico. Na alça oposta tem o anticódon --
+três bases que vão parear com o códon do mRNA dentro do ribossomo. É essa molécula que faz
+a tradução literal do alfabeto de nucleotídeos para o alfabeto de aminoácidos.
+
+Estrutura em trevo do tRNA. A alça do anticódon na base, a alça do amino ácido (extremidade 3 com CCA) no topo.
+As alças laterais participam do reconhecimento pela aminoacil-tRNA-sintetase específica de cada aminoácido. A
+forma L tridimensional emerge do dobramento desse trevo no espaço.
+
+O rRNA15 é o componente do ribossomo. E aqui aparece um fato que sempre surpreende: o
+ribossomo é cerca de 2/3 RNA e 1/3 proteína em massa. A catálise da reação que forma a
+ligação peptídica entre dois aminoácidos não é feita por proteína -- é feita pelo próprio rRNA.
+O ribossomo é, tecnicamente, um ribozima, uma enzima de RNA.
+
+   13mRNA ­ RNA mensageiro -- cópia transitória de um gene que serve como molde para a síntese de uma proteína
+   14tRNA ­ RNA transportador -- molécula adaptadora que carrega aminoácidos até o ribossomo, lendo códons do mRNA
+   15rRNA ­ RNA ribossomal -- componente estrutural e catalítico do ribossomo, responsável pela formação da ligação
+peptídica
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Antibióticos que atacam o ribossomo
+
+A diferença entre o ribossomo bacteriano (70S) e o ribossomo eucariótico (80S) é a base de
+uma família enorme de antibióticos. Aminoglicosídeos (gentamicina, estreptomicina) ligam-se
+à subunidade 30S bacteriana e causam erro de leitura. Macrolídeos (eritromicina, azitromicina)
+ligam-se à 50S e bloqueiam a saída da cadeia peptídica. Cloranfenicol inibe a peptidil-transferase
+do rRNA bacteriano. Como o ribossomo humano é diferente, conseguimos matar a bactéria sem
+matar a célula hospedeira -- princípio fundamental da toxicidade seletiva.
+
+Síntese 8 -- Três grandes RNAs na tradução: mRNA (mensagem linear, transitória, lida códon
+a códon), tRNA (adaptador em trevo, carrega aminoácido no 3 e lê códon pelo anticódon), rRNA
+(componente catalítico e estrutural do ribossomo -- é o rRNA que catalisa a ligação peptídica,
+tornando o ribossomo um ribozima).
+
+3.3 -- Cromatina: empacotando 1,2 m de DNA em 5 µm
+A última pergunta deste resumo é geométrica antes de ser bioquímica. Cada célula humana
+tem, somando todos os 46 cromossomos, cerca de 1,2 metros de DNA. Esse DNA precisa caber
+dentro de um núcleo com 5 µm de diâmetro -- ou seja, 5 × 10-6 metros. Se você fizer a conta,
+isso significa que o DNA precisa ser compactado num fator de cerca de 240 mil vezes. Como é
+que a célula resolve isso?
+
+   A solução é uma hierarquia de empacotamento, em vários níveis. Cada nível adiciona uma
+camada de compactação, e o conjunto todo se chama cromatina.
+
+Hierarquia do empacotamento da cromatina. Da fita nua de DNA (2 nm) ao colar de nucleossomos (11 nm) à fibra de
+30 nm e, finalmente, ao cromossomo metafásico altamente condensado (700­1400 nm). Cada nível adiciona uma
+camada de compactação.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Nível 1 -- o nucleossomo. A fita nua de DNA se enrola em torno de um octâmero de proteínas
+chamadas histonas16. São oito histonas -- duas cópias de H2A, H2B, H3 e H4 -- formando
+um "carretel" sobre o qual o DNA dá quase duas voltas (147 pares de bases por nucleossomo).
+O resultado parece, ao microscópio eletrônico, um colar de pérolas: nucleossomos espaçados
+por trechos curtos de DNA "linker", e a fibra inteira tem cerca de 11 nm de espessura. Este é o
+primeiro nível e já compacta o DNA por um fator de 6.
+
+   Nível 2 -- a fibra de 30 nm. Os nucleossomos do colar se enrolam novamente, agora estabi
+lizados pela histona H1 (que fica do lado de fora do nucleossomo, "lacrando" a entrada e saída
+do DNA). A fibra resultante tem 30 nm de espessura e compacta o DNA por mais um fator de 7.
+
+   Nível 3 -- alças e domínios. A fibra de 30 nm forma alças ancoradas em uma matriz proteica.
+Cada alça pode ter dezenas de milhares de pares de base. Esse nível é difícil de visualizar mas é
+importante: ele organiza o DNA em domínios funcionais dentro do núcleo, e diferentes regiões
+de um cromossomo podem ter destinos diferentes (mais ou menos expressos).
+
+   Nível 4 -- o cromossomo condensado. Só durante a divisão celular (mitose ou meiose) a cro
+matina se compacta ao máximo, formando o "cromossomo X" clássico visível no microscópio
+óptico. Fora da divisão (na fase interfásica do ciclo celular), o DNA está mais frouxo, em forma
+de cromatina disper sa pelo núcleo -- esse estado mais relaxado é o que permite que enzimas
+acessem o DNA para transcrição.
+
+Cromatina sempre, cromossomo só na divisão
+
+A confusão clássica: aluno tende a achar que "cromossomos" existem o tempo todo dentro
+do núcleo. Não é assim. O termo cromossomo, no sentido morfológico (aquela estrutura em X
+compactada), só faz sentido durante a divisão celular. No resto do ciclo, o DNA está em forma de
+cromatina mais ou menos condensada -- sempre presente, sempre organizada por histonas, mas
+sem a forma clássica de cromossomo metafásico. Essa diferença vai aparecer em Divisão Celular.
+
+Por que a cromatina importa na clínica
+
+Modificações químicas das histonas (acetilação, metilação) regulam quão acessível o DNA fica
+para a transcrição. Drogas que inibem desacetilases de histonas (HDAC inhibitors, como vorino
+stat) são usadas no tratamento de alguns linfomas e leucemias -- abrem regiões de cromatina
+silenciada, reativando genes supressores de tumor. É um exemplo concreto de como a estrutura
+do empacotamento, e não só a sequência das bases, decide o que a célula expressa.
+
+   16histonas ­ família de pequenas proteínas básicas (carregadas positivamente em pH fisiológico) que se ligam ao DNA
+e formam o núcleo do nucleossomo
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 9 -- 1,2 m de DNA cabem em 5 µm de núcleo graças a uma hierarquia de empacotamento.
+O nucleossomo (DNA enrolado em octâmero de histonas) é o nível 1; a fibra de 30 nm é o nível 2;
+alças e domínios formam o nível 3; o cromossomo metafásico condensado é o nível 4, visível só
+durante divisão celular. Modificações de histonas regulam acesso à transcrição.
+
+Conclusão integradora
+
+Olhando para o caminho que percorremos, três fios amarram toda a história. O primeiro
+é a economia de peças: a célula constrói duas moléculas radicalmente diferentes em
+função (arquivo permanente versus mensagem descartável) usando essencialmente os
+mesmos componentes -- 4 bases (com a troca TU), uma pentose (com a troca de um
+único oxigênio) e fosfato. Toda a riqueza funcional emerge dessa economia.
+O segundo fio é o do mecanismo escondido em detalhes que parecem cosméticos. O
+2-OH do RNA não é decoração química: é o que torna o RNA hidrolisável, mensagem
+temporária, fita simples flexível e estruturalmente versátil. A diferença de uma ponte de
+hidrogênio entre GC e A=T não é trivia: ela define a temperatura de fusão de qualquer
+fragmento de DNA. Sempre que aparecer um detalhe estrutural pequeno num enunciado
+de prova, pergunte-se: que consequência funcional este detalhe carrega?
+O terceiro fio é o da geometria como condição de função. A dupla hélice precisa parear
+purina com pirimidina porque é a única combinação que cabe nos 2 nm. Precisa ser
+antiparalela porque é a única orientação que alinha as bases. Precisa ser compactada
+em níveis hierárquicos porque 1,2 metros não cabem em 5 micrômetros de outra forma.
+A geometria não é decorativa -- ela é restrição e solução simultaneamente. Esses três
+fios voltarão nas próximas aulas (Replicação, Transcrição, Tradução) transformados em
+mecanismos enzimáticos concretos. Por enquanto, fica a peça e a hélice: a base de tudo
+o que vem depois.
+
+       18
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Cinco bases, duas famílias                                 Denaturação, Tm e hipercromismo
+
+As bases são A, G (purinas, dois anéis) e C, T, U Aquecer o DNA acima de ~80 °C separa as fitas
+
+(pirimidinas, um anel). T existe só no DNA, U existe (quebra as pontes de H). A temperatura onde metade
+
+só no RNA. Purina sempre pareia com pirimidina -- do DNA está separada é a Tm. DNA rico em GC tem
+
+única combinação que cabe nos 2 nm da hélice.              Tm mais alta. As bases livres absorvem mais UV (260
+
+Pareamento Watson-Crick                                    nm) que as bases empilhadas -- esse aumento de 30­
+
+   A=T (ou A=U) tem 2 pontes de hidrogênio. GC tem 40% chama-se hipercromismo.
+3. Cada par ocupa o mesmo espaço entre os esquele Três classes de RNA na tradução
+
+tos, por isso a hélice tem diâmetro constante. Mais mRNA: mensagem linear, lida códon a códon.
+
+G:C, mais estável termicamente.                            tRNA: adaptador em trevo, carrega aminoácido no 3
+
+O 2-OH como divisor de águas                               e lê o códon pelo anticódon. rRNA: componente do ri
+
+   O RNA tem -OH no C2 do açúcar; o DNA não.               bossomo -- catalisa a ligação peptídica (o ribossomo
+Esse OH nucleofílico ataca o fosfato vizinho em meio       é um ribozima).
+alcalino e cliva a fita. Por isso o RNA é instável         DNA condensado em níveis hierárquicos
+
+(mensagem temporária) e o DNA é estável (arquivo 1,2 m de DNA por célula precisam caber em 5 µm
+
+permanente).                                               de núcleo -- fator de compactação de ~240 mil vezes.
+
+Nucleosídeo vs nucleotídeo                                 Hierarquia: DNA nu  nucleossomo (DNA enrolado
+
+   Nucleosídeo = base + açúcar (ligação N-gli em octâmero de histonas, 11 nm)  fibra de 30 nm
+cosídica). Nucleotídeo = nucleosídeo + fosfato no C5.  alças  cromossomo metafásico. Cromossomo só
+A diferença entre os dois termos é exatamente um na divisão; cromatina sempre.
+fosfato. Nucleotídeos com 3 fosfatos viram moeda Estabilidade química espelhada
+
+energética (ATP, GTP).                                     DNA é atacado por ácido (quebra ligação N-gli
+
+Ligação fosfodiéster e polaridade 53                       cosídica purina-açúcar) e resistente a base. RNA é
+
+   O fosfato une o C5 de um açúcar ao C3 do açúcar         resistente a ácido e hidrolisado por base diluída
+seguinte. Cada fita tem uma ponta 5 (fosfato livre) e      (graças ao 2-OH). Propriedades espelhadas que caem
+uma ponta 3 (OH livre) -- daí a polaridade. A síntese      em prova nesse formato exato.
+de DNA e RNA acontece sempre no sentido 53 (a              Nucleotídeos têm vida dupla
+
+célula adiciona o novo nucleotídeo no 3-OH livre).         O mesmo nucleotídeo serve como tijolo de
+
+Antiparalelismo é geometria, não capricho polímero (com 1 fosfato, dentro do DNA/RNA) e
+
+As duas fitas da dupla hélice correm em sentidos como moeda energética (com 3 fosfatos, ATP/GTP)
+
+opostos (uma 53, a outra 35). É a única ori ou segundo mensageiro (na forma cíclica, AMPc/
+
+entação que permite as bases pareadas ficarem alin GMPc). Economia molecular: a célula reusa o mesmo
+
+hadas de frente uma para a outra dentro da hélice.         esqueleto químico em vários papéis.
+
+Geometria do B-DNA
+
+   Diâmetro de 2 nm, distância entre bases sucessi
+vas de 0,34 nm, 10 bases por volta (= 3,4 nm/volta).
+Hélice destrógira. Esqueleto açúcar-fosfato voltado
+para fora; bases voltadas para dentro, protegidas do
+solvente.
+
+                                                       19
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+Sobre as bases nitrogenadas que compõem os ácidos nucleicos, assinale a alternativa correta:
+
+  A) Adenina e citosina são purinas, enquanto guanina e timina são pirimidinas.
+  B) Uracila aparece tanto no DNA quanto no RNA, substituindo a timina em alguns contextos.
+  C) Purinas têm um único anel aromático e pirimidinas têm dois anéis fundidos.
+  D) Adenina e guanina são purinas com dois anéis; citosina, timina, uracila são pirimidinas
+  com um.
+  E) Todas as cinco bases nitrogenadas aparecem em iguais proporções no DNA humano.
+
+Questão 02 Consolidação
+A diferença química central entre os açúcares do DNA e do RNA é:
+
+  A) Presença de uma hidroxila no carbono 2 da ribose, ausente na desoxirribose do DNA.
+  B) Presença de um grupo fosfato adicional no carbono 3 do açúcar do RNA.
+  C) A ribose tem cinco carbonos e a desoxirribose tem seis carbonos.
+  D) A desoxirribose contém nitrogênio em seu anel, e a ribose não.
+  E) O açúcar do RNA é uma hexose, enquanto o do DNA é uma pentose.
+
+Questão 03 Consolidação
+Julgue os itens sobre a composição de um nucleotídeo:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Um nucleotídeo é composto por base nitrogenada, açúcar pentose e um ou mais grupos
+  fosfato.
+  II. A ligação entre a base e o açúcar é uma ligação peptídica.
+  III. Um nucleosídeo difere de um nucleotídeo apenas pela ausência do grupo fosfato.
+  IV. O fosfato de um nucleotídeo confere carga positiva à molécula em pH fisiológico.
+
+                            20
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 04 Consolidação
+
+Sobre a ligação fosfodiéster que conecta nucleotídeos em uma fita de DNA:
+  A) Liga o carbono 3 de um açúcar ao nitrogênio 9 da base do nucleotídeo seguinte.
+  B) Forma-se entre dois grupos fosfato adjacentes na fita.
+  C) É uma ligação não covalente, facilmente quebrada por aquecimento moderado.
+  D) Liga duas bases nitrogenadas complementares através de pontes de hidrogênio.
+  E) Une o fosfato 5 de um nucleotídeo ao OH 3 do nucleotídeo seguinte.
+
+Questão 05 Consolidação
+Quanto ao pareamento de bases na dupla hélice do DNA, é correto afirmar que:
+
+  A) Adenina pareia com guanina por três pontes de hidrogênio.
+  B) Citosina pareia com timina por duas pontes de hidrogênio.
+  C) Adenina pareia com timina por duas pontes H, guanina com citosina por três.
+  D) O pareamento envolve ligações covalentes entre as bases das duas fitas.
+  E) Purinas sempre pareiam com purinas, mantendo o diâmetro de 2 nm da hélice.
+
+Questão 06 Consolidação
+Julgue os itens sobre o empacotamento do DNA em cromatina:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O nucleossomo é formado pelo enrolamento do DNA em torno de proteínas histonas.
+  II. As histonas têm carga líquida negativa em pH fisiológico, repelindo o DNA.
+  III. O octâmero do nucleossomo contém duas cópias das histonas H2A, H2B, H3 e H4.
+  IV. Cromossomos metafásicos condensados existem em todas as fases do ciclo celular.
+
+                         21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+A temperatura de fusão (Tm) do DNA refere-se à temperatura na qual:
+  A) O DNA é covalentemente hidrolisado em nucleotídeos isolados em solução.
+  B) Metade das moléculas de DNA está com as duas fitas separadas (denaturadas).
+  C) As bases nitrogenadas começam a se decompor termicamente em fragmentos menores.
+  D) As ligações fosfodiéster do esqueleto açúcar-fosfato são rompidas pelo calor.
+  E) O DNA atinge sua máxima absorbância em 260 nm, antes da renaturação completa.
+
+Questão 08 Consolidação
+Sobre as três principais classes de RNA envolvidas na síntese proteica:
+
+  A) O mRNA é o componente catalítico do ribossomo, formando a ligação peptídica.
+  B) O tRNA carrega a informação genética do núcleo até o ribossomo no citoplasma.
+  C) O rRNA é a fita molde a partir da qual o ribossomo lê os códons da proteína.
+  D) O tRNA é o adaptador que carrega aminoácidos e lê códons via anticódon no ribossomo.
+  E) Todas as três classes (mRNA, tRNA, rRNA) têm meia-vida intracelular de várias semanas.
+
+Questão 09 Consolidação
+Sobre a polaridade 53 de uma fita de ácido nucleico, é correto afirmar:
+
+  A) As duas extremidades de uma fita são quimicamente idênticas, sem diferença funcional.
+  B) A polaridade existe apenas no DNA; o RNA é simétrico em ambas as extremidades.
+  C) Uma das extremidades tem 5-fosfato livre e a outra tem 3-OH livre, definindo a direção.
+  D) A polaridade é definida pela posição das pontes de hidrogênio entre as bases pareadas.
+  E) A síntese de novas fitas de DNA pode ocorrer em qualquer direção pela maquinaria celular.
+
+                         22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+Sobre as funções dos nucleotídeos para além de serem peças do DNA e do RNA:
+
+  A) Nucleotídeos não têm nenhuma outra função celular além de serem monômeros de
+  polímero.
+  B) Atuam exclusivamente como cofatores em reações de hidrólise de ligações peptídicas.
+  C) Funcionam unicamente como tampão de pH no citoplasma das células humanas.
+  D) O ATP é a única forma de nucleotídeo com função metabólica fora dos ácidos nucleicos.
+  E) Atuam como moeda energética (ATP, GTP) e segundos mensageiros (AMPc, GMPc) na
+  célula.
+
+Questão 11 Integração
+
+Por que a dupla hélice do DNA mantém diâmetro constante de aproximadamente 2 nm ao
+longo de toda sua extensão?
+
+  A) Porque todas as bases têm o mesmo tamanho, garantindo geometria homogênea.
+  B) Porque o esqueleto açúcar-fosfato impõe rigidez mecânica que impede variação no
+  diâmetro.
+  C) Porque cada par é sempre purina + pirimidina, combinação que ocupa exatamente o
+  mesmo espaço.
+  D) Porque pontes de hidrogênio entre as fitas se ajustam dinamicamente ao tamanho de
+  cada par.
+  E) Porque a hélice gira em ângulos diferentes para compensar variações de tamanho das
+  bases.
+
+Questão 12 Integração
+Julgue os itens sobre o papel do 2-OH na estabilidade do RNA:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O 2-OH é nucleofílico e pode atacar o fosfato vizinho na própria fita, hidrolisando-a.
+  II. Essa vulnerabilidade explica por que o RNA tem meia-vida curta no citoplasma.
+  III. O DNA possui o mesmo 2-OH da ribose, mas é estabilizado pelas histonas.
+  IV. O RNA é mais resistente a meio ácido do que a meio alcalino, pois bases atacam o 2-OH.
+
+                         23
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Considere o objeto químico "adenosina-monofosfato" (AMP). O que precisa acontecer para
+essa molécula se tornar ATP, moeda energética celular?
+
+  A) Adicionar dois fosfatos ao carbono 5 do açúcar, sem alterar base nem ribose.
+  B) Substituir a ribose por desoxirribose, mantendo o restante da estrutura intacto.
+  C) Trocar a adenina por guanina e adicionar um grupo metila no carbono 3.
+  D) Ligar duas moléculas de AMP via ligação fosfodiéster, formando um dinucleotídeo.
+  E) Remover o grupo fosfato e adicionar três grupos hidroxila ao açúcar da molécula.
+
+Questão 14 Integração
+
+Em uma região do genoma humano com altíssima proporção de pares G:C em relação a pares
+A:T, espera-se que:
+
+  A) A Tm da região seja mais baixa do que a média, pois G:C reduz pontes de hidrogênio entre
+  fitas.
+  B) A região seja mais susceptível a denaturação por temperaturas moderadas (50­60 °C).
+  C) O empacotamento em nucleossomos seja impossível, exigindo formato linear sem his
+  tonas.
+  D) A Tm da região seja mais alta, pois cada par G:C contribui com três pontes de hidrogênio.
+  E) A região não possa servir de molde para transcrição, por excesso de estabilidade física.
+
+Questão 15 Integração
+
+Uma sequência de DNA é escrita como 5-ATCG-3. Qual é a sequência da fita complementar e
+como ela deve ser representada?
+
+  A) A complementar é 3-ATCG-5, representada na mesma orientação por paralelismo entre
+  fitas.
+  B) A complementar é 5-CGAT-3, representada paralelamente à fita original.
+  C) A complementar é 5-TAGC-3, representada paralelamente à fita original 53.
+  D) A complementar é 3-TAGC-5, com sentido oposto graças à natureza paralela das duas
+  fitas.
+  E) A complementar é 3-TAGC-5, representada antiparalelamente à fita original 5-ATCG-3.
+
+                       24
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Julgue os itens sobre os níveis hierárquicos de empacotamento da cromatina:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A fibra de 30 nm é o primeiro nível de compactação, formada diretamente do DNA nu.
+  II. Cada nucleossomo contém aproximadamente 1500 pares de base do DNA enrolados.
+  III. O fator de compactação total do DNA no núcleo humano é de cerca de 10 vezes.
+  IV. A histona H1 estabiliza a fibra de 30 nm ao se ligar ao DNA linker entre nucleossomos.
+
+Questão 17 Integração
+
+Por que o RNA é hidrolisado por meio alcalino diluído enquanto o DNA é resistente nessas
+mesmas condições?
+
+  A) O DNA tem mais pares G:C que o RNA, conferindo maior resistência intrínseca a bases.
+  B) O 2-OH do RNA ataca o fosfato vizinho em meio alcalino; o DNA não tem essa hidroxila.
+  C) As histonas associadas ao DNA o protegem do ataque alcalino que destrói o RNA livre.
+  D) O RNA tem uma fita só, enquanto o DNA é duplo e por isso quimicamente mais estável.
+  E) As pirimidinas do RNA (incluindo uracila) são quimicamente menos estáveis que as do
+  DNA.
+
+Questão 18 Integração
+
+O fenômeno de hipercromismo, observado durante a denaturação do DNA, consiste em:
+  A) Diminuição da absorbância em 260 nm conforme as fitas se separam por aquecimento.
+  B) Liberação de fluorescência verde característica da clivagem das ligações fosfodiéster.
+  C) Aumento de 30­40% na absorbância em 260 nm quando as bases empilhadas se desem
+  pilham.
+  D) Mudança da cor da solução de transparente para amarelada conforme o DNA se desnatura.
+  E) Aumento da viscosidade da solução conforme as fitas longas se associam após resfria
+  mento.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+A maquinaria celular que sintetiza novas fitas de DNA ou RNA adiciona nucleotídeos exclusi
+vamente:
+
+  A) Em ambas as direções simultaneamente, partindo do meio da molécula nascente.
+  B) No sentido 35, adicionando o novo nucleotídeo na extremidade 5-fosfato livre.
+  C) Na extremidade 5 da fita-filha, pareando a base nova com a fita-molde.
+  D) No sentido 53, adicionando o novo nucleotídeo na extremidade 3-OH livre da fita.
+  E) Em qualquer direção, dependendo da composição de bases da fita molde lida.
+
+Questão 20 Integração
+
+Julgue os itens sobre a estrutura do nucleossomo:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O octâmero central do nucleossomo é formado por duas cópias de cada histona H2A, H2B,
+  H3 e H4.
+  II. As histonas têm muitos resíduos de lisina e arginina, sendo carregadas negativamente.
+  III. Aproximadamente 147 pares de base de DNA dão cerca de duas voltas em torno do
+  octâmero.
+  IV. A histona H1 fica do lado de fora do octâmero, na entrada e saída do DNA do nucleossomo.
+
+Questão 21 Integração
+
+As duas fitas da dupla hélice do DNA são antiparalelas. Essa propriedade é necessária porque:
+
+  A) Garante carga elétrica neutra na hélice, neutralizando os fosfatos negativos de ambas as
+  fitas.
+  B) Permite que a hélice gire para a direita (destrógira), conformação típica do B-DNA in vivo.
+  C) Impede que as bases interajam entre si, mantendo-as voltadas para o exterior do
+  esqueleto.
+  D) Reduz o gasto energético na síntese de novas fitas durante a replicação semiconservativa.
+  E) É a única orientação em que as bases pareadas ficam alinhadas geometricamente de
+  frente.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+O ribossomo é classificado como um ribozima. Isso significa que:
+
+  A) A reação de formação da ligação peptídica é catalisada pelo rRNA, não pelas proteínas
+  ribossomais.
+  B) Ele é exclusivamente formado por proteínas, sem qualquer participação de moléculas de
+  RNA.
+  C) Ele é uma enzima que catalisa apenas reações de degradação de RNA mensageiro defeitu
+  oso.
+  D) Ele depende de cofatores metálicos para realizar a tradução de proteínas no citoplasma.
+  E) Ele só existe em bactérias, sendo substituído por enzimas proteicas em células eucariotas.
+
+Questão 23 Integração
+
+Sobre a curva de denaturação térmica do DNA, traçada como absorbância em 260 nm em
+função da temperatura, é correto afirmar que:
+
+  A) A absorbância diminui progressivamente conforme a temperatura aumenta acima de 80
+  °C.
+  B) A curva é uma reta com inclinação constante entre 30 °C e 100 °C, sem transição abrupta.
+  C) A Tm é o ponto médio da transição abrupta, e DNA rico em GC desloca a curva para a
+  direita.
+  D) A Tm é o ponto onde a absorbância retorna aos valores iniciais após renaturação total.
+  E) DNA rico em GC tem Tm mais baixa, pois G:C tem menos pontes de hidrogênio que A:T.
+
+Questão 24 Integração
+
+Julgue os itens sobre estabilidade química espelhada do DNA e do RNA:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O DNA é hidrolisado por ácido diluído, que rompe a ligação N-glicosídica entre purina e
+  açúcar.
+  II. O RNA é hidrolisado por base diluída devido ao 2-OH do açúcar atacando o fosfato vizinho.
+  III. O RNA é particularmente vulnerável a ácidos diluídos por causa do 2-OH da sua ribose.
+  IV. O DNA tem alta resistência a base diluída, justamente por não ter a hidroxila no 2.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Por que regiões genômicas ricas em pares G:C tendem a ter Tm mais elevada que regiões ricas
+em pares A:T?
+
+  A) Porque pares G:C são mais leves e exigem mais energia cinética para se separarem termi
+  camente.
+
+  B) Porque cada par GC tem três pontes de hidrogênio enquanto cada par A=T tem apenas
+  duas.
+
+  C) Porque pares G:C ocorrem preferencialmente em regiões de cromatina condensada e
+  protegida.
+
+  D) Porque a guanina absorve mais luz UV em 260 nm que a adenina, retardando a denat
+  uração.
+
+  E) Porque pares G:C são unidos por ligações covalentes adicionais ao pareamento normal.
+
+Questão 26 Aplicação
+
+Um estudante de biologia molecular extrai cromatina nativa de células humanas em cultura
+e digere a amostra com uma nuclease que cliva preferencialmente o DNA exposto entre
+nucleossomos. Após eletroforese, observa um padrão de bandas com tamanhos múltiplos de
+aproximadamente 200 pares de base.
+Esse padrão é consistente com:
+
+  A) Ausência completa de nucleossomos na amostra, com DNA totalmente desempacotado.
+  B) Presença de cromatina desorganizada, sem estrutura periódica detectável por nuclease.
+  C) Replicação do DNA acontecendo de forma ativa nas células no momento da extração.
+  D) Cromatina com nucleossomos espaçados regularmente, 147 pares de base por nucle
+  ossomo mais linker.
+  E) Degradação aleatória do DNA durante a extração, sem relação com a estrutura nativa da
+  cromatina.
+
+                       28
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Um paciente é tratado com doxorrubicina, antineoplásico que se intercala entre as bases da
+dupla hélice do DNA das células-alvo, distorcendo a geometria local da hélice. Sobre o mecan
+ismo molecular e seus efeitos previsíveis, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A intercalação da doxorrubicina entre bases empilhadas distorce a geometria local da dupla
+  hélice.
+
+  II. A distorção bloqueia a passagem das maquinarias de replicação do DNA pelas regiões
+  afetadas.
+
+  III. Células que se dividem rapidamente, como as tumorais, são preferencialmente afetadas
+  pela droga.
+
+  IV. O efeito da doxorrubicina depende exclusivamente de sua capacidade de cortar a fita de
+  DNA com nuclease intrínseca.
+
+Questão 28 Aplicação
+
+Antibióticos como eritromicina e gentamicina exibem toxicidade seletiva contra bactérias,
+sem grande prejuízo às células humanas. Eles atuam ligando-se a sítios específicos do ri
+bossomo bacteriano (70S) que diferem suficientemente das sequências do ribossomo humano
+(80S) para evitar reconhecimento cruzado.
+A explicação molecular para essa toxicidade seletiva está em:
+
+  A) Bactérias produzirem ribossomos a partir de DNA, enquanto humanos os produzem a
+  partir de proteínas.
+
+  B) Os antibióticos serem capazes de penetrar apenas em membranas bacterianas, não nas
+  humanas.
+
+  C) Os antibióticos atuarem nas paredes celulares bacterianas, ausentes nas células humanas.
+
+  D) O ribossomo bacteriano usar mRNA, enquanto o ribossomo humano usa tRNA exclusi
+  vamente.
+
+  E) O rRNA bacteriano (70S) ter sequências distintas do humano (80S), permitindo ligação
+  seletiva.
+
+                      29
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Em uma reação de PCR (reação em cadeia da polimerase), o primeiro passo de cada ciclo é
+aquecer a amostra a 95 °C por cerca de 30 segundos antes de baixar a temperatura para
+permitir o pareamento dos primers.
+A função molecular específica desse aquecimento é:
+
+  A) Ativar a DNA polimerase termoestável, que só funciona em temperaturas próximas a 95
+  °C.
+  B) Degradar covalentemente a fita molde, liberando nucleotídeos livres para a síntese.
+  C) Denaturar o DNA, separando as fitas ao quebrar as pontes de hidrogênio entre as bases.
+  D) Hidrolisar todas as ligações fosfodiéster da amostra, fragmentando o DNA em
+  monômeros.
+  E) Concentrar o DNA por evaporação parcial da solução aquosa, aumentando a sensibilidade.
+
+Questão 30 Aplicação
+
+Pesquisadores extraem RNA total de células e percebem que, mesmo em solução tamponada
+a pH 7,4 e refrigerada, a amostra se degrada rapidamente. Para preservar RNA por mais tempo
+em laboratório, costuma-se trabalhar em pH levemente ácido, usar inibidores de ribonucleases
+e manter a temperatura próxima de 0 °C.
+A justificativa molecular para evitar pH alcalino é:
+
+  A) Em pH alcalino o 2-OH desprotonado fica nucleofílico e cliva a fita atacando o fosfato
+  vizinho.
+
+  B) Em pH alcalino as bases nitrogenadas se quebram em fragmentos menores incompatíveis
+  com análise.
+
+  C) Em pH alcalino o RNA se dobra em estruturas tridimensionais irreversíveis, impedindo
+  análise.
+
+  D) Em pH alcalino as proteínas ribossomais residuais ativam e degradam o RNA por ação
+  enzimática.
+
+  E) Em pH alcalino o RNA forma cristais insolúveis no tampão, precipitando da solução
+  completamente.
+
+                      30
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+Explique por que purinas pareiam exclusivamente com pirimidinas na dupla hélice do
+DNA, articulando duas regras independentes.
+
+    MODELO DE RESPOSTA
+
+   Duas regras combinadas explicam a especificidade. A regra do tamanho: o diâmetro de
+   2 nm da hélice é fixo, e só o par purina + pirimidina (um anel duplo + um simples) cabe
+   nesse espaço -- par purina + purina seria largo demais, par pirimidina + pirimidina
+   seria curto demais. A regra das pontes de hidrogênio: a distribuição de doadores e
+   aceptores nas faces das bases é complementar apenas em A-T (2 pontes) e G-C (3 pontes)
+   -- outras combinações purina-pirimidina (A-C, G-T) não conseguem alinhar todos os
+   pares de H. A primeira regra permite o pareamento; a segunda impõe a especificidade.
+
+Questão Q2
+O RNA é hidrolisado por base diluída, enquanto o DNA permanece estável nas mesmas
+condições. Explique o mecanismo molecular dessa diferença.
+
+    MODELO DE RESPOSTA
+
+   A diferença vem do 2-OH da ribose. Em meio alcalino, o oxigênio do 2-OH é despro
+   tonado e fica fortemente nucleofílico. O alvo natural desse nucleófilo é o fosfato da
+   ligação fosfodiéster adjacente na mesma fita -- o ataque intramolecular forma um
+   intermediário cíclico 2,3-fosfato e cliva a fita. O DNA, ao trocar o 2-OH por 2-H na
+   desoxirribose, perde o nucleófilo e fica imune a esse ataque. Por isso o RNA tem meia-
+   vida curta (adequada para mensagem) e o DNA dura décadas (adequado para arquivo).
+
+                             31
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Considerando que o B-DNA tem 0,34 nm entre bases sucessivas e 10 bases por volta,
+calcule e justifique o comprimento total de uma molécula linear de DNA contendo 200
+pares de base.
+
+MODELO DE RESPOSTA
+
+O cálculo é direto: 200 pares de base × 0,34 nm por par = 68 nm de comprimento total. O
+raciocínio é geométrico -- cada nucleotídeo ocupa 0,34 nm ao longo do eixo da hélice (a
+distância entre planos de bases sucessivos). Em termos de voltas: 200 bases ÷ 10 bases/
+volta = 20 voltas completas, ou 20 × 3,4 nm = 68 nm. Os dois caminhos convergem
+porque a geometria 0,34 nm/base e 3,4 nm/volta são definições equivalentes do mesmo
+passo helicoidal do B-DNA.
+
+Questão Q4
+
+Por que regiões do genoma ricas em G:C têm temperatura de fusão (Tm) mais elevada
+que regiões ricas em A:T? Explique o mecanismo.
+
+    MODELO DE RESPOSTA
+
+   A diferença está no número de pontes de hidrogênio por par. Cada par A=T forma 2
+   pontes de H; cada par GC forma 3. As pontes são a única força que mantém as duas
+   fitas juntas, e quebrá-las exige energia térmica. Mais pontes por par = mais energia
+   necessária para separar as fitas = Tm mais alta. Por isso bactérias termófilas (que vivem
+   em fontes termais a 80­90 °C) costumam ter genomas com %GC alto -- é seleção
+   evolutiva direta da estabilidade térmica do DNA.
+
+       32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Q5
+
+Um aluno escreve: "A síntese de uma proteína começa quando o ribossomo lê o mRNA e
+usa o tRNA para verificar se o aminoácido ligado a ele é o correto para aquele códon. Se
+estiver errado, o ribossomo rejeita o tRNA e busca outro." Identifique o erro conceitual e
+corrija com o mecanismo certo.
+
+MODELO DE RESPOSTA
+
+O erro é atribuir ao ribossomo a verificação do aminoácido. O ribossomo não tem
+mecanismo para checar qual aminoácido está ligado ao tRNA -- ele só verifica o
+pareamento códon-anticódon. Se uma alanina for ligada por engano a um tRNA-Cys,
+o ribossomo aceitará e incorporará alanina onde deveria haver cisteína. A fidelidade
+da tradução depende inteiramente da aminoacil-tRNA-sintetase (aaRS), que tem dois
+sítios: um de ativação (liga o aminoácido ao tRNA) e um de edição (hidrolisa aminoacil-
+tRNA incorretos antes que cheguem ao ribossomo). Essa hierarquia explica por que
+mutações em aaRS causam erros sistemáticos de tradução.
+
+       33
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D     Q02 A         Q03 CECC  Q04 E     Q05 C
+                        Q08 D     Q09 C     Q10 E
+Q06 EECE  Q07 B
+                        Q13 A     Q14 D     Q15 E
+INTEGRAÇÃO (Q11­Q25)    Q18 C     Q19 D     Q20 CECE
+                        Q23 C     Q24 ECCE  Q25 B
+Q11 C     Q12 CCEE
+                        Q28 E     Q29 C     Q30 A
+Q16 EEEC  Q17 B
+
+Q21 E     Q22 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 CCEC
+
+                        37
+

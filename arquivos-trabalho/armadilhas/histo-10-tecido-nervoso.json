@@ -1,0 +1,27 @@
+{
+  "slug": "histo-10-tecido-nervoso",
+  "total_armadilhas_unicas": 1,
+  "total_questoes_com_armadilha": 1,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Marcar a (inativação lenta de Na⁺) como explicação do platô, sem perceber que inativação afeta o fechamento pós-pico — não a velocidade de abertura inicial. O enunciado especifica despolarização RÁPIDA: isso depende da ativação (abertura inicial) de Na⁺, que é rápida independente da cinética de inativação.",
+      "origens": [
+        "0220"
+      ],
+      "nivel": "dificil",
+      "conceito": "período refratário em axônios amielínicos com padrão de disparo lento",
+      "tags": [
+        "axonio-amielinico",
+        "periodo-refratario",
+        "disparos-repetidos",
+        "bainha-mielina"
+      ],
+      "palavras_proibidas": [
+        "enunciado"
+      ],
+      "incidencia": 1
+    }
+  ]
+}

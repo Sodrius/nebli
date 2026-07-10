@@ -1,0 +1,213 @@
+slug: biocel-07-divisao-celular
+titulo: "Ciclo celular: por que divide e como o motor liga"
+subtitulo: "Biologia Celular"
+meta:
+  - ["Disciplina", "Biologia Celular"]
+  - ["Onde estudar", "Alberts Fundamentos da Biologia Celular Cap. 18 + Alberts Biologia Molecular da Célula Cap. 17"]
+
+# =========================================================================
+# Seção A — Alvo, recorte, prioridades desta corrida
+# =========================================================================
+# Recorte slide x tema (canônico 2026-06-19): SLIDE cobre ciclo + morte
+# celular. RESUMO cobre APENAS CICLO CELULAR + PROLIFERAÇÃO. Morte
+# (apoptose, necrose, autofagia) entra em resumo separado e NÃO aparece
+# aqui — referência só no fechamento como projeção pra próxima aula.
+#
+# Alvo: 14-18 pp. Teto canônico 22.
+#
+# PRIORIDADES DESTA CORRIDA (reforço explícito do Davi):
+#   P1. FOCO TOTAL EM MECANISMO. Sopa de siglas (Cdk1/2/4/6, ciclina A/B/D/E,
+#       Rb, E2F, p21, p27, p53, APC/C, securina, separatase, MPF) é
+#       inimiga. Cada sigla é etiqueta para um mecanismo já entendido.
+#   P2. APÊNDICE — SEMI-GLOSSÁRIO no fim. Catálogo dos complexos
+#       ciclina/CdK por fase, inibidores, alvos do APC/C, definições
+#       curtas funcionais. Não entra na E1, só consulta.
+#   P3. Diário de revisões: biocel-07 (resumo prévio) saiu SEM FIGURA.
+#       Reflexo desta corrida: USAR FIGURA PESADAMENTE. 147 PNGs
+#       disponíveis. Cadeia eixo APC/C → securina → separatase precisa
+#       de figura (>= 4 setas).
+
+# =========================================================================
+# Seção B — Esqueleto das 3 PARTES + figuras planejadas
+# =========================================================================
+# PARTE I — Por que existe um ciclo e quem é o motor
+#   1.1 — As três tarefas: duplicar, repartir, coordenar
+#         Figura: slide-05 (as 3 tarefas) — 55%
+#   1.2 — Quatro fases para resolver duas tarefas (interfase + M)
+#         Figura: slide-10 (4 fases: G1, S, G2, M) — 65%
+#         Figura: slide-11 (tempo M ≈ 1h, interfase ≈ 23h) — 55% lateral
+#   1.3 — O motor universal: Cdk + ciclina
+#         Figura: slide-17 (complexo Ciclina-Cdk como quinase) — 60%
+#         Figura: slide-19 (gráfico ciclina sobe-desce ciclicamente) — 65%
+#
+# PARTE II — Como o sistema decide se pode avançar
+#   2.1 — Três interruptores do motor (ciclina, fosforilação, inibidor)
+#         Figura: slide-20 (regulação CdK em camadas) — 70%
+#   2.2 — Ponto G1: começar só se vale a pena começar
+#         Figura: slide-29 (G1 + p53) — 60%
+#   2.3 — Ponto G2: sair da G2 só se DNA está intacto e duplicado
+#         Figura: slide-33 (ponto G2) — 60%
+#   2.4 — Ponto M: separar cromátides só se todas ancoradas — APC/C
+#         Figura: ~slide-50 (APC/C separação) — 70%, CADEIA OBRIGATÓRIA
+#
+# PARTE III — Quem acende e quem desliga o motor
+#   3.1 — Ponto de restrição em G1 e a chave Rb/E2F
+#         Figura: ~slide-65 (Rb fosforilada, E2F liberada) — 60%
+#   3.2 — Mitógenos × fatores de crescimento × fatores de sobrevivência
+#         (3 sinais externos, 3 tarefas distintas)
+#   3.3 — Sair do ciclo: G0 e células que param de ciclar
+#         Figura: tabela de duração ~slide-13 — 55%
+
+# Cadeia ≥4 setas (figura obrigatória):
+#   - APC/C → ubiquitina → securina (degradada) → separatase ativa →
+#     cliva coesina → cromátides separam
+#   - Mitógeno → Ras/MAPK → ciclina D → CdK4/6 → fosforila Rb → libera E2F
+#     → transcrição de gene da fase S
+# Ambas terão figura.
+
+# =========================================================================
+# Seção B.bis — Registro de abertura por subtópico
+# =========================================================================
+# 1.1 — enquadramento (toda célula que vive precisa duplicar e dividir)
+# 1.2 — analogia concreta (fábrica em 4 turnos)
+# 1.3 — ponto-de-quebra (você esperaria UMA enzima; são duas peças)
+# 2.1 — integração-anterior (volta ao motor da 1.3)
+# 2.2 — enquadramento (problema: vale começar?)
+# 2.3 — integração-posterior (vai voltar em câncer)
+# 2.4 — analogia concreta (o último portão é o mais drástico)
+# 3.1 — enquadramento (quem aperta o acelerador externo?)
+# 3.2 — ponto-de-quebra (mitogen NÃO é a mesma coisa que fator de crescimento)
+# 3.3 — integração-posterior (neurônio é o caso extremo)
+
+# =========================================================================
+# Seção B.ter — Pré-requisitos cruzados
+# =========================================================================
+# - Pré: quinase (proteína-quinase) — UC01 já vista.
+#   Frase: "Proteína-quinase é uma enzima que liga um fosfato em outra
+#   proteína-alvo, e esse fosfato funciona como interruptor que liga ou
+#   desliga a função do alvo."
+# - Pré: ubiquitinação e proteassomo — UC01 biocel.
+#   Frase: "Ubiquitina é uma pequena etiqueta proteica; quando colada em
+#   outra proteína, marca essa proteína pra destruição no proteassomo."
+# - Pré: fuso mitótico, microtúbulo (citoesqueleto) — UC01 biocel.
+#   Frase: "Microtúbulo é um cilindro oco feito de tubulina; agrupados em
+#   leque a partir do centrossomo, formam o fuso que puxa cromossomos."
+
+# =========================================================================
+# Seção C — Distribuição da E2 (PADRÃO: 10 Cons · 15 Int · 5 Apl)
+# =========================================================================
+# Termo-notas (alvo 6-8):
+#   - quinase
+#   - ciclina
+#   - ponto de restrição
+#   - condensina
+#   - coesina
+#   - securina
+#   - separatase
+#   - APC/C
+
+# =========================================================================
+# Seção D — Pontos de quebra do raciocínio
+# =========================================================================
+# 1. Quebra: aluno acha que ciclina é uma quinase. Não é — ciclina é a
+#    subunidade reguladora; Cdk é a quinase (catalítica).
+#    Correção: Cdk sem ciclina é inerte; ciclina sem Cdk não faz nada.
+#
+# 2. Quebra: aluno acha que mitógeno e fator de crescimento são a mesma
+#    coisa. NÃO são.
+#    Correção: mitógeno empurra DIVISÃO (libera freio de G1→S);
+#    fator de crescimento empurra CRESCIMENTO (síntese de proteína,
+#    massa celular). Algumas moléculas (PDGF) fazem os dois.
+#
+# 3. Quebra: aluno acha que o ponto de checagem é uma "parada física"
+#    que só ocorre se algo deu errado. Não — é uma trava ATIVA o tempo
+#    todo. Só passa quando o sinal de OK é dado.
+#    Correção: a célula está PARADA por padrão; o que avança é o sinal
+#    positivo. Sem sinal, não passa.
+#
+# 4. Quebra: aluno acha que APC/C "puxa" os cromossomos. Não — APC/C é
+#    ubiquitina-ligase, marca proteínas pra destruição.
+#    Correção: APC/C destrói securina (que prendia separatase); a
+#    separatase, agora liberada, é que corta a coesina e libera as
+#    cromátides irmãs pra serem puxadas pelo fuso.
+#
+# 5. Quebra: aluno trata Rb como "supressor tumoral em geral". É mais
+#    específico: Rb fosforilada SOLTA E2F; E2F transcreve genes pra
+#    entrar em S. Rb é o porteiro que segura E2F enquanto está
+#    desfosforilada.
+#
+# 6. Quebra: aluno acha que neurônio "ainda está em G2 esperando". Não
+#    — neurônio saiu do ciclo (G0) e desmontou o sistema de controle.
+#    G0 é fora do ciclo, não uma fase do ciclo.
+#
+# 7. Quebra: aluno espera que toda quinase ativa fosforilando alvos só
+#    pelo fato de existir. Cdk precisa de DUAS coisas pra ativar: ciclina
+#    ligada + fosforilação ativadora pela CAK e remoção de fosforilação
+#    inibitória pela CDC25 (na transição G2/M).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Por que existe um ciclo e quem é o motor"
+        subtopicos:
+          - "1.1 Duplicar, repartir, coordenar"
+          - "1.2 Quatro fases para duas tarefas"
+          - "1.3 O motor universal: ciclina + Cdk"
+      - titulo: "PARTE II — Como o sistema decide se pode avançar"
+        subtopicos:
+          - "2.1 Três interruptores do motor"
+          - "2.2 Ponto G1: começar só se vale a pena"
+          - "2.3 Ponto G2: DNA intacto e duplicado"
+          - "2.4 Ponto M: APC/C e a separação das cromátides"
+      - titulo: "PARTE III — Quem acende e quem desliga o motor"
+        subtopicos:
+          - "3.1 Ponto de restrição: Rb e E2F"
+          - "3.2 Mitógenos, fatores de crescimento, sobrevivência"
+          - "3.3 G0: sair do ciclo, às vezes pra sempre"
+  - titulo: "Resumindo"
+    blocos: []
+  - titulo: "Etapa 2 — 30 questões objetivas"
+    blocos: []
+  - titulo: "Etapa 3 — 5 discursivas mecanísticas"
+    blocos: []
+  - titulo: "Apêndice — Semi-glossário do ciclo celular"
+    blocos: []
+  # NB. (Etapa 4 do banco antigo permanece removida do canônico desde 2026-05-22;
+  # este apêndice é customização explícita desta corrida e fica entre E3 e Gabarito.)
+  - titulo: "Gabarito consolidado da Etapa 2"
+    blocos: []
+
+gabarito:
+  consolidacao:
+    - ["01", "D"]
+    - ["02", "A"]
+    - ["03", "C"]
+    - ["04", "E"]
+    - ["05", "EECE"]
+    - ["06", "B"]
+    - ["07", "D"]
+    - ["08", "A"]
+    - ["09", "C"]
+    - ["10", "CCEE"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "D"]
+    - ["13", "A"]
+    - ["14", "C"]
+    - ["15", "E"]
+    - ["16", "ECEC"]
+    - ["17", "B"]
+    - ["18", "D"]
+    - ["19", "A"]
+    - ["20", "C"]
+    - ["21", "E"]
+    - ["22", "B"]
+    - ["23", "CECC"]
+    - ["24", "A"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "A"]
+    - ["28", "E"]
+    - ["29", "B"]
+    - ["30", "D"]

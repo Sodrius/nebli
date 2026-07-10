@@ -1,0 +1,57 @@
+slug: biomol-23-traducao
+titulo: "Tradução e Código Genético"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Biologia Molecular"]
+  - ["Onde estudar", "Lehninger Cap. 27 · Stryer Cap. 29 · Alberts Cap. 6"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O Código Genético"
+        subtopicos:
+          - "1.1 O problema da tradução: por que triplete?"
+          - "1.2 Degeneração: um aminoácido, muitos sinônimos"
+          - "1.3 Pontos de partida e de parada"
+      - titulo: "PARTE II — Os Atores e as Três Fases"
+        subtopicos:
+          - "2.1 O tRNA: adaptador entre dois mundos"
+          - "2.2 A aminoacil-tRNA sintetase: a guardiã da fidelidade"
+          - "2.3 O ribossomo: três bancadas e duas subunidades"
+      - titulo: "PARTE III — Além do Ribossomo"
+        subtopicos:
+          - "3.1 Modificações pós-tradução"
+          - "3.2 Sequência sinal e direcionamento"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CEEC"]
+    - ["04", "B"]
+    - ["05", "D"]
+    - ["06", "ECCE"]
+    - ["07", "A"]
+    - ["08", "E"]
+    - ["09", "CECE"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "A"]
+    - ["13", "C"]
+    - ["14", "ECEC"]
+    - ["15", "B"]
+    - ["16", "E"]
+    - ["17", "A"]
+    - ["18", "CCEE"]
+    - ["19", "C"]
+    - ["20", "D"]
+    - ["21", "B"]
+    - ["22", "A"]
+    - ["23", "EECC"]
+    - ["24", "E"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "B"]
+    - ["28", "A"]
+    - ["29", "E"]
+    - ["30", "C"]

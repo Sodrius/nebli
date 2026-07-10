@@ -1,0 +1,1750 @@
+NEBLI · APOSTILA
+
+Divisão celular
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Primeira leitura pós-aula; releia antes da P3.
+Onde estudar:  Morgan, The Cell Cycle: Principles of Control (caps. 1­3); Junqueira &
+               Carneiro 10ª ed, cap. 17; Alberts MBoC 6ª ed, cap. 17 (Cell Cycle)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que existe um ciclo e como ele se organiza
+
+       1.1 Crescimento × divisão -- massa versus número
+       1.2 Panorama das fases -- G1, S, G2, M e a metáfora do timer
+       1.3 Como sabemos disso -- BrdU, citometria, mutantes cdc
+       1.4 Tudo-ou-nada e os checkpoints -- por que o ciclo é mão única
+  PARTE II -- O motor molecular: CDKs, ciclinas e degradação programada
+       2.1 CDKs e ciclinas -- ator e cofator
+       2.2 Controle fino da CDK -- fosforilação, CKIs, CAKs
+       2.3 Degradação programada -- APC/C, SCF e o sistema ubiquitina-proteassoma
+       2.4 Oscilação coordenada -- G1-CDK  S-CDK  M-CDK
+  PARTE III -- Atravessando o ciclo: entrar, replicar, dividir, parar
+       3.1 Entrada em G1 e checkpoint G1/S -- mitógenos, Rb-E2F e feedback positivo
+       3.2 Fase S -- replicar exatamente uma vez (pré-RC e licenciamento)
+       3.3 Entrada em M e mitose -- coesinas, APC/C, securina e separase
+       3.4 Quando há dano -- p53, parada do ciclo, reparo ou apoptose
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q10) · verde
+       Integração (Q11­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A célula humana faz uma coisa que parece banal -- vira duas -- mas, por trás desse gesto, há
+    um dos sistemas mais bem-controlados da biologia. Cada divisão precisa entregar à célula-filha
+    exatamente o mesmo conteúdo da célula-mãe: um genoma inteiro, intacto, copiado uma única
+    vez, fielmente segregado. Errar um cromossomo dá síndromes; copiar duas vezes a mesma região
+    dá amplificação gênica; dividir com DNA danificado propaga mutação e abre porta para câncer.
+    Esta aula é sobre como a célula resolve esse problema. Vamos descobrir que o ciclo celular é um
+    circuito -- não um relógio mecânico que pulsa sozinho, mas uma cadeia de decisões binárias
+    controlada por dois personagens centrais (CDKs e ciclinas), policiada por pontos de checagem,
+    e protegida por um guardião do dano (p53). Quando esse circuito falha, o resultado tem nome:
+    tumor.
+
+PARTE I -- Por que existe um ciclo e como ele se organiza
+
+1.1 -- Crescimento × divisão -- massa versus número
+Antes de falar de ciclo celular propriamente, vamos resolver uma confusão de terminologia que aparece
+todo ano em prova: crescer e dividir não são a mesma coisa. Quando uma célula cresce, ela aumenta de
+massa -- sintetiza mais proteína, mais membrana, mais organela, fica maior. Quando uma célula divide,
+ela aumenta de número -- uma célula vira duas. São dois processos distintos, e ambos juntos compõem
+o que chamamos de proliferação celular. Um tumor cresce em massa porque está proliferando --
+fazendo as duas coisas ao mesmo tempo, e em ritmo errado.
+
+Crescimento é aumento de massa da célula; proliferação é aumento de número. As duas coisas acontecem juntas no
+ciclo celular -- mas são coordenadas separadamente, e por isso podem se desacoplar (célula que cresce sem dividir
+vira poliplóide; célula que divide sem crescer vai ficando cada vez menor).
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Esse desacoplamento existe e é importante. Hepatócito adulto frequentemente cresce sem dividir -- fica
+grande, mantém função, mas não entra em mitose por meses. Embrião de rã, no extremo oposto, divide
+sem crescer: a primeira clivagem do zigoto produz células cada vez menores, porque a massa total do
+embrião é fixa. Em condições normais do adulto, porém, as duas coisas estão acopladas -- toda divisão
+é precedida por um período em que a célula dobra sua massa. Esse período tem nome próprio, e é onde
+a maior parte da vida da célula acontece: a intérfase.
+
+BrdU1
+
+E quando, exatamente, as células decidem dividir? Em três situações principais. Primeiro, no embrião
+-- uma única célula precisa virar trilhões em nove meses, e a proliferação é massiva e quase contínua.
+Segundo, no adulto, para repor tecidos -- epitélio intestinal se renova a cada 3­5 dias, sangue tem
+produção contínua na medula, pele descama e se refaz. Terceiro, em ferimentos -- sinal de dano dispara
+proliferação local para fechar a lesão. Em todos os três cenários, a regra é a mesma: na homeostase,
+divisão e morte celular estão em equilíbrio. Se uma célula proliferou, outra morreu em algum lugar do
+organismo -- ou estamos crescendo (embrião), ou cicatrizando, ou em situação patológica. Câncer é,
+em essência, divisão sem o contrapeso da morte.
+
+Resumindo até aqui: Crescimento = massa; proliferação = número. As duas coisas se acoplam na intér
+fase, mas podem se desacoplar (hepatócito cresce sem dividir; embrião divide sem crescer). No adulto
+saudável, divisão é equilibrada por morte celular -- câncer rompe esse equilíbrio.
+
+1.2 -- Panorama das fases -- G1, S, G2, M e a metáfora do timer
+Agora vamos ao mapa do ciclo. Olhando uma célula que está se preparando para dividir, identificamos
+quatro fases sequenciais. Três delas compõem a intérfase (G1, S, G2) -- a célula está crescendo, repli
+cando o DNA, terminando os preparativos. A quarta é a mitose (M) -- a divisão propriamente dita.
+
+CDK2 APC/C3 SCF4
+
+A fase G1 (de gap 1) é o intervalo entre a mitose anterior e o início da replicação do DNA. Aqui a
+célula cresce, decide se vai mesmo se dividir, e integra os sinais externos -- fatores de crescimento
+(mitógenos), nutrientes, contato com vizinhos. G1 é a fase mais variável em duração: pode durar horas
+(linfócito ativado), dias (hepatócito) ou anos (neurônio que entrou em G0 -- uma "saída" do ciclo,
+descansando indefinidamente em G1 estendido). G1 é onde a célula decide se entra ou não no ciclo.
+
+A fase S (de synthesis) é onde o DNA é replicado. Toda a dupla-hélice da célula é copiada -- uma única
+vez, fielmente, em algumas horas. No fim da S, a célula tem o dobro de DNA que tinha no início (mas o
+mesmo número de cromossomos, agora com duas cromátides irmãs cada).
+
+   1BrdU ­ bromo-deoxiuridina -- análogo da timidina que se incorpora ao DNA durante a fase S; detectado por anticorpo
+anti-BrdU em imunofluorescência, marca células que estavam replicando.
+
+   2CDK ­ quinase dependente de ciclina -- enzima Ser/Thr-quinase cuja atividade só existe quando ligada a uma ciclina;
+é o motor catalítico do ciclo celular.
+
+   3APC/C ­ anaphase-promoting complex/cyclosome -- ubiquitina-ligase E3 ativa em M e G1 que marca para degradação
+securina, ciclinas mitóticas e outras proteínas; libera a saída da mitose.
+
+   4SCF ­ Skp1-Cullin-F-box -- ubiquitina-ligase E3 ativa principalmente em G1/S e S; degrada CKIs e ciclinas G1, liberando
+as CDKs.
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A fase G2 (de gap 2) é o intervalo curto entre S e M. A célula confere se a replicação foi completa, repara
+erros eventuais, e dobra a quantidade de várias proteínas (centrossomos, condensinas) que vai precisar
+logo a seguir.
+
+A fase M (mitose) é a curta -- minutos a uma hora -- em que a célula se divide de fato: o envelope nuclear
+se desfaz, os cromossomos condensam, alinham na placa metafásica, separam pelas cromátides irmãs
+e migram para os polos opostos. Termina com a citocinese, a clivagem do citoplasma em duas células-
+filhas.
+
+Visão geral do ciclo celular. Repare nos níveis das ciclinas oscilando ao longo do tempo -- cada ciclina sobe e desce
+no momento certo, e cada subida ativa uma CDK específica que comanda a próxima fase. O ciclo é um circuito de
+osciladores acoplados, não um relógio mecânico.
+
+A metáfora útil aqui é a do timer. O ciclo não tem um relógio centralizado que pulse e diga "agora é S,
+agora é M". O que existe são ciclinas que sobem e descem em ondas sucessivas, e cada onda ativa uma
+CDK específica que dispara a próxima fase. Quando a onda passa, a ciclina é degradada e a CDK volta
+ao silêncio. A próxima onda começa antes da anterior terminar de descer -- é isso que dá o sentido
+único de progressão. Vamos detalhar esse motor molecular na PARTE II, mas é importante já visualizar
+o esquema: o ciclo avança porque as ciclinas oscilam em sequência, não porque alguém manda.
+
+   Resumindo até aqui: Quatro fases: G1 (decide entrar e cresce)  S (replica DNA exatamente uma vez) 
+   G2 (confere e dobra proteínas)  M (divide). A intérfase (G1+S+G2) ocupa quase todo o tempo; M é breve. O
+   motor são ciclinas oscilantes que ativam CDKs específicas em sequência -- não um relógio centralizado.
+
+1.3 -- Como sabemos disso -- BrdU, citometria, mutantes cdc
+Vale uma pausa para entender como se descobriu que existem fases distintas dentro da intérfase. Sem
+essa caixa-preta aberta, o tema vira decoreba; com ela aberta, fica claro por que o modelo é o que é.
+O primeiro experimento decisivo veio do uso da BrdU, um análogo da timidina. Se a célula está
+replicando DNA, ela incorpora BrdU no lugar da timidina. Injetando BrdU num animal e coletando o
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+tecido 2­3 horas depois, conseguimos detectar -- por imunofluorescência com anticorpo anti-BrdU --
+exatamente quais células estavam em fase S naquele intervalo. Quem brilha estava replicando. Esse
+experimento mostrou pela primeira vez que a síntese de DNA não acontece continuamente, mas só em
+um período definido -- a fase S.
+
+Detecção in vivo de células em fase S: injeta BrdU, espera 2­3 horas, coleta o tecido, marca com anticorpo anti-BrdU
+acoplado a fluoróforo. Quem brilha estava replicando DNA naquele intervalo -- é assim que se identifica a fase S
+num órgão real.
+
+A segunda técnica importante é a citometria de fluxo com corante de DNA (DAPI, Hoechst ou iodeto
+de propídio). Cada célula passa por um laser; o corante ligado ao DNA fluoresce proporcionalmente à
+quantidade de DNA. Células em G1 têm conteúdo 2n de DNA (uma cópia de cada cromossomo); células
+em G2/M têm 4n (duas cópias, ainda no mesmo núcleo, pareadas como cromátides irmãs); células em
+S estão entre 2n e 4n. No histograma resultante, vemos três picos: G1 baixo, S espalhado no meio, G2/
+M alto. Mudando o ambiente da célula (privação de soro, droga inibidora de S), conseguimos parar a
+população em uma fase específica e estudá-la -- uma das ferramentas mais usadas no laboratório de
+ciclo celular até hoje.
+A terceira fonte, mais histórica, foi a genética em leveduras. Leland Hartwell fez uma triagem em
+Saccharomyces cerevisiae procurando mutantes que parassem o crescimento numa fase específica do
+ciclo. Encontrou dezenas -- todos com defeito em um gene, e batizados de cdc (de cell-division cycle).
+Cada cdc parava a célula numa fase: cdc28 (depois renomeado Cdk1) parava em G1 e em G2; cdc25 parava
+na entrada em mitose. Esses mutantes deram os nomes das peças do circuito muito antes de saber-se o
+que cada uma fazia bioquimicamente. É um exemplo bonito de como a genética antecipa a bioquímica:
+identifica componentes pela sua ausência, e só depois descobre a função molecular. Hartwell e seus
+colaboradores receberam o Nobel em 2001.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Três técnicas fundadoras: BrdU detecta quem está replicando (fase S); citometria
+de fluxo separa G1 (2n), S (entre), G2/M (4n) pelo conteúdo de DNA; mutantes cdc em levedura identi
+ficaram os genes do circuito antes da bioquímica. O modelo das quatro fases é empírico -- vem do
+laboratório, não da teoria.
+
+1.4 -- Tudo-ou-nada e os checkpoints -- por que o ciclo é mão única
+Agora chegamos à propriedade mais elegante do ciclo celular, e a que mais aparece em prova: o ciclo é
+unidirecional. Uma vez que a célula entrou em S, ela vai até o fim da S. Uma vez que entrou em mitose,
+vai até o fim da mitose. Não há marcha-ré, não há "pensei melhor, vou voltar para G1". Como o sistema
+garante esse sentido único?
+
+A resposta tem duas peças. A primeira é o princípio do tudo-ou-nada (all-or-none) na ativação das CDKs.
+A próxima fase só começa quando a CDK relevante atravessa um limiar de atividade -- e quando atrav
+essa, atravessa rápido, com feedback positivo que amplifica a transição. Não existe meio-ligado. Isso
+garante que as etapas se completem: a célula não fica com metade do DNA replicado nem com metade
+dos cromossomos segregados. O motor liga totalmente, faz a coisa toda, depois desliga totalmente.
+
+A segunda peça são os checkpoints -- pontos de checagem ao longo do ciclo onde a célula interroga o
+próprio estado antes de avançar. São quatro principais: o checkpoint G1/S (também chamado start ou
+ponto de restrição), antes da entrada em S, conferindo se há mitógenos e nutrientes; o checkpoint intra-
+S, durante a replicação, checando se há danos no DNA ou forquilhas paradas; o checkpoint G2/M, antes
+de entrar em mitose, conferindo se a replicação terminou e o DNA está íntegro; e o checkpoint do fuso
+(spindle assembly checkpoint, SAC), em metáfase, conferindo se todos os cromossomos estão fixados a
+microtúbulos vindos dos dois polos opostos. Se algum checkpoint reprova, a CDK relevante é mantida
+inativa e o ciclo para até o problema ser resolvido.
+
+Checkpoints são vias de sinalização que interagem com o ciclo celular. Cada checkpoint reúne sensores (de mitógeno,
+de dano, de fuso) e produz uma decisão binária: prosseguir ou parar. Repare como a checagem mais farmacologica
+mente importante -- o G1/S -- depende de mitógenos externos.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+SAC5
+
+Checkpoint não é uma peça -- é uma decisão
+
+Aluno tende a imaginar o checkpoint como um "portão" físico no ciclo. Errado. Checkpoint é
+uma via de sinalização -- sensores que detectam problema (DNA quebrado, forquilha parada,
+cinetocoro sem microtúbulo) e disparam uma cascata que ativa CKIs ou inibe CDKs específicas.
+Não há barreira material entre G1 e S; o que separa é a ausência de S-CDK ativa. Quando a
+CDK não atinge o limiar (porque o checkpoint a está inibindo), a próxima fase simplesmente não
+começa. A "porta" é uma quinase com baixa atividade.
+
+Resumindo até aqui: O ciclo é mão única porque combina dois mecanismos: (1) ativação tudo-ou-
+nada das CDKs por feedback positivo -- não existe meio-CDK; (2) checkpoints que param o ciclo se algo
+está errado (G1/S, intra-S, G2/M, fuso). Quando o checkpoint detecta problema, mantém a CDK relevante
+inativa -- e a próxima fase não começa.
+
+   5SAC ­ spindle assembly checkpoint -- checkpoint do fuso mitótico em metáfase; impede a APC/C de degradar securina
+enquanto algum cinetocoro não estiver fixado a microtúbulos de ambos os polos. É o último checkpoint do ciclo.
+
+                                                                                 8
+NEBLI                  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- O motor molecular: CDKs, ciclinas e
+
+degradação programada
+
+2.1 -- CDKs e ciclinas -- ator e cofator
+Agora vamos ao motor do ciclo. As duas peças centrais são as CDKs e as ciclinas. Vale entender a relação
+entre elas antes de qualquer detalhe: a CDK é uma enzima (Ser/Thr-quinase); a ciclina é o seu cofator
+obrigatório. CDK sozinha não faz nada -- é uma quinase inativa. Ciclina sozinha não tem atividade
+catalítica nenhuma -- é só uma proteína estrutural. Junte CDK + ciclina e nasce a atividade quinase. O
+nome "quinase dependente de ciclina" é literal.
+
+A ciclina não é só uma chave liga-desliga; ela também direciona a CDK. A interface ciclina-CDK forma
+parte do sítio que reconhece o substrato -- então a ciclina determina quais proteínas serão fosforiladas.
+Por isso, trocar a ciclina ligada à mesma CDK muda a função. A CDK1 do mamífero pode se ligar à ciclina
+B (e fosforila substratos mitóticos) ou à ciclina A (e fosforila substratos de S/G2). Mesma CDK, ciclinas
+diferentes, alvos diferentes.
+
+    Ciclina é cofator, não enzima
+
+    Confusão clássica: aluno escreve "a ciclina fosforila o substrato". Errado. Quem fosforila é a
+    CDK. A ciclina é o cofator que (a) ativa a CDK e (b) direciona-a para substratos específicos. Sem
+    ciclina, CDK não tem atividade nenhuma; sem CDK, ciclina é proteína estrutural inerte. Os dois
+    precisam estar juntos para o motor rodar.
+
+O timer do ciclo: quatro complexos ciclina-CDK em sequência. G1-CDK (ciclina G1) prepara para a entrada em S; G1/
+S-CDK (ciclina G1/S) dispara a entrada em S; S-CDK (ciclina S) executa a replicação; M-CDK (ciclina M ou ciclina B)
+dispara a mitose. Cada onda de ciclina ativa uma CDK específica, e cada CDK dispara o próximo bloco de eventos.
+
+                                                                                9
+NEBLI                                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+A célula tem várias CDKs e várias ciclinas, e elas se combinam em quatro complexos canônicos, cada
+um ativo numa fase específica do ciclo. Vale memorizar essa tabela -- ela é o esqueleto da fisiologia
+inteira da divisão celular.
+
+Complexo     Ciclina parceira      Função principal               Quando atua
+G1-CDK    Ciclina G1 (D1, D2, D3)
+G1/S-CDK  Ciclina G1/S (E)         Prepara expressão de ciclinas Meio e fim de G1
+S-CDK     Ciclina S (A)            G1/S; fosforila Rb e libera E2F
+
+M-CDK     Ciclina M (B)            Dispara entrada em S; inativa Transição G1  S
+                                   CKIs; ativa pré-replicação
+
+                                   Inicia replicação do DNA; im   Toda a fase S
+                                   pede re-licenciamento das ori
+                                   gens
+
+                                   Condensa    cromossomo;        G2 final e mitose
+
+                                   desmonta envelope nuclear;
+
+                                   monta fuso
+
+Repare na lógica: cada complexo prepara o terreno para o próximo. G1-CDK fosforila Rb e libera o
+programa transcricional que produz a ciclina G1/S; G1/S-CDK inativa as CKIs e estabiliza a S-CDK; S-
+CDK fosforila os componentes do pré-RC e impede que as origens sejam re-licenciadas (garantia de uma
+replicação por ciclo); M-CDK dispara a entrada em mitose. O motor não é linear -- é uma cadeia onde
+cada elo ativa o seguinte e inativa o anterior.
+
+   Resumindo até aqui: CDK é a enzima; ciclina é o cofator que ativa E direciona. Quatro complexos
+   canônicos em sequência: G1-CDK (ciclinas D)  G1/S-CDK (ciclina E)  S-CDK (ciclina A)  M-CDK
+   (ciclina B). Cada complexo prepara o terreno para o próximo, e desaparece quando o próximo entra em
+   cena.
+
+2.2 -- Controle fino da CDK -- fosforilação, CKIs, CAKs
+A ligação à ciclina é necessária, mas não é suficiente para a CDK estar ativa. Por cima dela, vem uma
+camada de regulação fina, com pelo menos quatro mecanismos sobrepostos. Vale a pena entender cada
+um, porque eles aparecem em quase todos os checkpoints e em quase toda a farmacologia do ciclo.
+
+CAK6 CKI7
+
+O primeiro mecanismo, já visto, é a ciclina: sem ela, nada de quinase. O segundo é uma fosforilação
+ativadora feita pela CAK (CDK-activating kinase) numa treonina específica do T-loop da CDK. Sem esse
+fosfato ativador, a CDK não atinge atividade plena, mesmo já ligada à ciclina. O terceiro mecanismo é
+uma fosforilação inibitória, feita pela quinase Wee1, em duas posições próximas (uma Thr e uma Tyr).
+
+   6CAK ­ CDK-activating kinase -- quinase que fosforila a Thr ativadora de outras CDKs (no T-loop); a fosforilação por CAK
+é obrigatória para a CDK atingir atividade plena, mesmo já ligada à ciclina.
+
+   7CKI ­ CDK inhibitor -- proteína inibidora da CDK que se liga ao complexo CDK-ciclina e bloqueia o sítio ativo; principais
+famílias em mamíferos: INK4 (inibe G1-CDK) e Cip/Kip (p21, p27, p57 -- inibem várias).
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Wee1 atua principalmente sobre a M-CDK em G2, mantendo-a inativa até o momento certo. Mesmo com
+ciclina e com a fosforilação ativadora da CAK, se as fosforilações inibitórias de Wee1 estão lá, a CDK
+não age. Para remover esses fosfatos inibitórios, entra a fosfatase Cdc25 -- quando Cdc25 é ativada, ela
+desfosforila os sítios de Wee1 e libera a M-CDK, disparando a entrada em mitose.
+
+Controle da ativação da CDK por fosforilações sobrepostas. A CAK adiciona um fosfato ativador (verde); a Wee1
+adiciona dois fosfatos inibitórios (vermelho); a Cdc25 remove os fosfatos inibitórios e libera a CDK. Para a CDK estar
+ativa, é preciso ter ciclina + fosfato da CAK + ausência dos fosfatos de Wee1. É um sistema com várias chaves em série.
+
+O quarto mecanismo, e talvez o mais importante para a fisiologia, são as CKIs -- proteínas inibidoras
+que se ligam diretamente ao complexo CDK-ciclina e bloqueiam o sítio catalítico. Existem duas famílias
+principais em mamíferos. A família INK4 (p15, p16, p18, p19) é específica para a G1-CDK: liga-se à CDK4/6
+e impede a associação com a ciclina D. A família Cip/Kip (p21, p27, p57) tem espectro mais amplo: liga-se
+a complexos CDK-ciclina já formados e os inibe. p21 é a CKI ativada pelo p53 quando há dano no DNA
+-- vamos voltar a ela em 3.4. p27 é a CKI alta em G0 e G1 inicial; ela cai (degradada pela SCF) quando a
+célula recebe mitógenos.
+
+    Wee1/Cdc25 é um par antagonista -- não uma cascata
+    Aluno tende a achar que Wee1 e Cdc25 atuam em momentos diferentes. Não -- elas atuam ao
+    mesmo tempo, em equilíbrio. O que muda ao longo do ciclo é o balanço: em G2 inicial predomina
+    Wee1 (CDK inibida); na entrada em M predomina Cdc25 (CDK liberada). E há feedback positivo --
+    M-CDK ativa, ela mesma, inibe Wee1 e ativa Cdc25, gerando uma transição abrupta tudo-ou-nada.
+    É o mesmo padrão dos amplificadores eletrônicos: pequeno gatilho, grande resposta.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Quatro camadas de regulação sobre a CDK: (1) presença da ciclina, (2) fosfato
+ativador da CAK no T-loop, (3) fosfatos inibitórios de Wee1 (removidos pela Cdc25), (4) ligação de CKIs
+(INK4 contra G1-CDK; Cip/Kip -- p21, p27 -- espectro amplo). Para a CDK estar ativa, todas as quatro têm
+que estar no estado certo.
+
+2.3 -- Degradação programada -- APC/C, SCF e o sistema ubiquitina-proteassoma
+A célula precisa não só de ligar CDKs no momento certo, mas também de desligá-las irreversivelmente
+quando a fase termina. A desativação não é por desfosforilação (essa é reversível) -- é por destruição
+da ciclina parceira. Sem ciclina, a CDK volta a ser uma proteína inerte. A degradação é o que dá ao ciclo
+o sentido único.
+
+UPS8
+
+A degradação programada acontece pelo sistema ubiquitina-proteassoma (UPS). Resumindo: uma
+proteína "marcada" por uma cadeia de pelo menos quatro ubiquitinas em K48 é reconhecida pelo
+proteassoma 26S, um complexo cilíndrico que a desdobra e a digere em peptídeos curtos. Antes do
+proteassoma, três enzimas adicionam a marca: E1 (ativadora de ubiquitina, gasta ATP), E2 (conjugadora)
+e E3 (ligase -- a que escolhe o substrato e dá especificidade).
+
+O sistema ubiquitina-proteassoma. E1 ativa a ubiquitina (gasto de ATP); E2 a conjuga; E3 é a ligase que decide qual
+substrato vai ser marcado. Cadeia de poliubiquitina K48 com 4 unidades é o sinal de degradação reconhecido pelo
+proteassoma 26S.
+
+No ciclo celular, duas E3 ligases especializadas dominam a cena. A SCF (Skp1-Cullin-F-box) é ativa
+principalmente em G1/S e S, e marca para degradação as CKIs (p27, sobretudo) e a ciclina G1/S. É a SCF
+que faz a célula sair da inibição de G1 quando os mitógenos chegam. A APC/C (anaphase-promoting
+complex/cyclosome) é ativa em M e G1, e marca para degradação a securina (em metáfase tardia) e as
+
+   8UPS ­ sistema ubiquitina-proteassoma -- máquina celular de degradação proteica controlada; uma proteína marcada
+por cadeias de ubiquitina (mín. quatro unidades em K48) é reconhecida e degradada pelo proteassoma 26S.
+
+                                                                                12
+NEBLI                                                          ETAPA 1 -- TEXTO DIDÁTICO
+
+ciclinas mitóticas (no fim da mitose). É a APC/C que dispara a separação das cromátides irmãs e a saída
+da mitose.
+
+Ubiquitina-ligase  Alvos principais             Quando atua        Papel funcional
+
+SCF                CKIs (p27, p21); ciclina G1 final, G1/S, S      Libera CDKs da in
+
+                   G1/S (E)                                        ibição; permite en
+
+                                                                   trada em S
+
+APC/C (com Cdc20)  Securina; ciclina M (B)  Metáfase  anáfase; fi  Dispara separação das
+                                            nal de M               cromátides; saída da
+                                                                   mitose
+
+APC/C (com Cdh1)   Ciclina M residual;      G1 inicial             Mantém G1 livre de M-
+                   outros reguladores de                           CDK; reinicia o ciclo
+                   M
+
+A diferença entre as duas formas da APC/C -- uma com a subunidade Cdc20, outra com a Cdh1 -- vale
+ressaltar. Cdc20 ativa a APC/C na transição metáfase-anáfase (degrada securina e dispara a separação
+das cromátides) e no fim da mitose (degrada a ciclina B). Cdh1 toma o lugar de Cdc20 em G1 inicial e
+mantém a APC/C ativa por toda a G1, impedindo que qualquer ciclina mitótica resista. Essa atividade
+contínua de APC/C-Cdh1 em G1 é o que dá tempo para a célula recomeçar do zero antes de pensar em
+S. Só quando a célula recebe mitógenos suficientes, a SCF (não a APC/C) inicia o desmonte da inibição
+de G1 -- e o ciclo recomeça.
+
+   Resumindo até aqui: Duas ligases de ubiquitina, dois trabalhos: SCF degrada CKIs e ciclina G1/S em G1
+   final/S  libera a entrada em S. APC/C (com Cdc20) degrada securina e ciclina M  dispara anáfase e
+   saída da mitose. APC/C (com Cdh1) persiste em G1, impedindo retorno prematuro de M-CDK.
+
+2.4 -- Oscilação coordenada -- G1-CDK  S-CDK  M-CDK
+Junte os mecanismos das três seções anteriores e o resultado é uma coreografia -- peças que se ligam,
+se ativam, se destroem em sequência. Vamos seguir o circuito uma volta inteira, do nascimento da célula
+em G1 inicial até a divisão seguinte, para fixar como as peças encaixam.
+
+A célula nasce em G1 inicial, sem ciclinas mitóticas (a APC/C-Cdh1 acabou de digerir todas elas) e com
+altas concentrações de CKIs (p27 em primeiro lugar). Nesse estado, todas as CDKs estão silenciadas: a
+M-CDK não tem ciclina B, a S-CDK não tem ciclina A, a G1/S-CDK está bloqueada pela p27. Repouso ativo
+-- não é ausência de regulação, é regulação dominante por inibição.
+
+Quando mitógenos chegam à superfície (sinais externos de "pode crescer e dividir"), começam a ativar
+a expressão das ciclinas G1 (D1, D2, D3). A ciclina D liga-se à CDK4/6 e forma a G1-CDK. Essa quinase tem
+um trabalho central -- fosforilar a proteína Rb (retinoblastoma) -- que vamos detalhar em 3.1. Por agora,
+basta saber que ao fosforilar Rb, a G1-CDK libera o fator de transcrição E2F, que dispara a expressão da
+próxima ciclina da fila: a ciclina E (G1/S).
+
+                                            13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cada onda prepara a próxima. A ciclina E forma a G1/S-CDK, que inativa CKIs (libera complexos previ
+amente bloqueados) e ativa a SCF para degradar a p27. Sem p27, a célula passa o ponto de restrição --
+daqui em diante, mesmo sem mitógenos, o ciclo continua sozinho. G1/S é a fronteira: antes dela, a célula
+precisa de mitógenos para continuar; depois, ela vai até o fim da mitose por inércia. É a passagem
+irreversível mais importante do ciclo.
+
+Os feedbacks positivos garantem a ativação abrupta (all-or-none) das S-CDKs. Quando a G1/S-CDK começa a
+inativar CKIs, mais S-CDK fica disponível; a S-CDK ativada inativa ainda mais CKIs; o circuito amplifica e a transição
+vira rampa íngreme. A irreversibilidade do ponto de restrição vem desse loop.
+
+Da entrada em S em diante, a ciclina A forma a S-CDK, que dispara a replicação (3.2). No fim de S, ciclina
+A começa a dar lugar à ciclina B, que se acumula durante G2. A ciclina B + CDK1 forma a M-CDK -- mas a
+M-CDK fica inativa por fosforilação inibitória de Wee1 durante todo G2. Quando o DNA está replicado e o
+checkpoint G2/M libera, a Cdc25 desfosforila a M-CDK, ela explode em atividade (com feedback positivo
+M-CDK  Cdc25  mais M-CDK), e dispara a mitose (3.3).
+No fim da mitose, quando os cromossomos alinharam e o SAC liberou, a APC/C-Cdc20 degrada securina
+(libera separase, separa cromátides), depois degrada a ciclina B (M-CDK cai a zero, célula sai da mitose).
+Em G1 inicial, APC/C-Cdh1 assume e mantém a degradação de qualquer ciclina mitótica residual. A
+célula está pronta para recomeçar.
+
+   Resumindo até aqui: Uma volta no ciclo, contada peça por peça: mitógenos  ciclinas D  G1-CDK 
+    fosforila Rb  libera E2F   ciclina E  G1/S-CDK  SCF degrada p27 (ponto de restrição) 
+   ciclina A  S-CDK replica  ciclina B  M-CDK (presa por Wee1)  Cdc25 libera  mitose  APC/C-
+   Cdc20 degrada securina e ciclina B  APC/C-Cdh1 limpa G1  recomeça. Cada onda prepara e degrada
+   a seguinte.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Atravessando o ciclo: entrar, replicar, dividir,
+
+parar
+
+3.1 -- Entrada em G1 e checkpoint G1/S -- mitógenos, Rb-E2F e feedback positivo
+A decisão mais importante do ciclo celular não é "como dividir" -- é se dividir. Essa decisão é tomada
+num ponto específico de G1 chamado ponto de restrição (em mamíferos) ou Start (em levedura). Antes
+dele, a célula é sensível ao ambiente: se faltam mitógenos, ela para e volta para G0. Depois dele, a célula
+é comprometida -- vai entrar em S e completar o ciclo, mesmo que os mitógenos desapareçam. Essa é
+a fronteira mais clínica do tema, porque é onde a maioria dos cânceres ataca.
+
+E2F9 Rb10
+
+O mecanismo molecular do ponto de restrição depende de uma única proteína central: a Rb (proteína do
+retinoblastoma). Em G0 e em G1 inicial, a Rb está hipofosforilada e liga-se firmemente a um conjunto
+de fatores de transcrição da família E2F, mantendo-os inativos. Os genes-alvo do E2F são os que a célula
+precisa para entrar em S: ciclina E, ciclina A, DNA-polimerases, timidina-quinase, enzimas da síntese de
+nucleotídeos. Enquanto Rb segura E2F, esses genes ficam desligados, e a célula não consegue entrar
+em S.
+
+Cascata do ponto de restrição. Mitógeno  receptor  Ras/MAPK   ciclina D  G1-CDK fosforila Rb  libera
+E2F   ciclina E  G1/S-CDK fosforila Rb mais ainda  libera mais E2F. O loop positivo (E2F  ciclina E  mais
+fosforilação de Rb  mais E2F) é o que torna a transição irreversível. Rb é o freio; G1-CDK é quem solta o freio.
+
+Quando mitógenos chegam (PDGF, EGF, IGF, ou estímulos hormonais), eles ativam vias intracelulares
+(Ras/MAPK, PI3K/Akt) que disparam a expressão da ciclina D. A ciclina D liga-se à CDK4/6, formando a
+
+   9E2F ­ família de fatores de transcrição que ativa genes da fase S (ciclinas E e A, DNA-polimerases, timidina-quinase);
+é mantida inativa por ligação com Rb hipofosforilada; liberada quando G1-CDK fosforila Rb.
+
+   10Rb ­ proteína do retinoblastoma -- guardiã da entrada em S; quando hipofosforilada, prende o fator E2F e impede
+expressão dos genes de S; quando fosforilada por G1-CDK e G1/S-CDK, libera E2F.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+G1-CDK, que começa a fosforilar Rb. Cada fosfato que entra em Rb afrouxa sua ligação com E2F. Quando
+Rb está suficientemente fosforilada -- hiperfosforilada --, ela solta E2F. E2F livre transcreve a ciclina E
+(e os outros genes de S). A ciclina E forma a G1/S-CDK, que também fosforila Rb, e ainda inativa as CKIs
+que estavam segurando o sistema. O resultado é um loop de feedback positivo: E2F liberado produz
+ciclina E; ciclina E fosforila mais Rb; mais Rb fosforilada libera mais E2F; mais E2F produz mais ciclina
+E. Quando o loop dispara, a transição vira tudo-ou-nada -- e a célula passou o ponto de restrição.
+Daqui em diante, mesmo se os mitógenos forem retirados, o ciclo continua.
+
+Rb INIBE E2F -- a fosforilação LIBERA
+
+Confusão recorrente: aluno acha que Rb ativa E2F e que fosforilar Rb inativa o sistema. Exata
+mente o oposto. Rb funciona como um freio sobre E2F: enquanto Rb está hipofosforilada, ela
+prende E2F e impede a expressão de S. Fosforilar Rb é soltar o freio. A direção certa do raciocínio:
+G1-CDK fosforila Rb  Rb solta E2F  E2F ativa genes de S. Quando perder Rb (mutação
+inativadora), o freio nunca se prende -- E2F está sempre livre -- e a célula prolifera descontro
+ladamente. É a base do retinoblastoma e de muitos outros tumores.
+
+Retinoblastoma -- o paradigma da hipótese two-hit
+
+O retinoblastoma é um tumor maligno da retina infantil, raro mas decisivo na história do câncer.
+Alfred Knudson (1971), analisando dados epidemiológicos da forma familiar versus esporádica
+do tumor, propôs a hipótese dos dois eventos (two-hit): para uma célula virar tumor, ela precisa
+perder as duas cópias do gene Rb (uma de cada cromossomo). Na forma familiar, a criança já nasce
+com uma cópia mutada (germinativa) -- basta um segundo evento somático e o tumor aparece,
+geralmente em ambos os olhos e cedo. Na forma esporádica, os dois eventos têm que acontecer
+na mesma célula -- muito mais raro, geralmente unilateral, mais tardio. Rb é o protótipo do
+gene supressor de tumor: perda de função recessiva, dois alelos para inativar. A genética do
+retinoblastoma fundamentou a categoria conceitual "supressor de tumor" -- depois aplicada ao
+p53, APC, BRCA, e dezenas de outros.
+
+Resumindo até aqui: A decisão de entrar em S depende de mitógenos, e é tomada via Rb-E2F. Mitógeno
+ ciclina D  G1-CDK fosforila Rb  libera E2F  expressão da ciclina E  G1/S-CDK fosforila Rb
+mais  loop positivo  ponto de restrição. Perder Rb (mutação inativadora) = freio nunca prendido =
+proliferação descontrolada. Base do retinoblastoma e modelo do gene supressor de tumor.
+
+3.2 -- Fase S -- replicar exatamente uma vez (pré-RC e licenciamento)
+A fase S tem uma única missão e ela é difícil: replicar todo o DNA da célula, sem erros, e exatamente
+uma vez. Replicar duas vezes a mesma região dá amplificação gênica (excesso de cópia de oncogenes
+pode disparar câncer); replicar incompleto dá deleções; replicar com erros dá mutação. A célula tem
+mecanismos sofisticados para garantir cada uma dessas três exigências. Vamos focar no exatamente
+uma vez, porque é onde aparece o mecanismo mais elegante do tema.
+
+                                                                                16
+NEBLI        ETAPA 1 -- TEXTO DIDÁTICO
+
+ORC11 MCM12
+
+A solução é dividir a replicação em duas etapas separadas no tempo: o licenciamento das origens
+(que só pode acontecer quando as CDKs estão baixas) e o disparo das origens (que só pode acontecer
+quando as CDKs estão altas). Como essas duas condições nunca coexistem dentro de um mesmo ciclo,
+o licenciamento só ocorre uma vez por ciclo -- e cada origem só é disparada uma vez.
+
+Vamos detalhar. Em G1, com todas as CDKs baixas, as origens de replicação do DNA estão acessíveis
+para a montagem do pré-RC (complexo pré-replicativo). O pré-RC é montado em etapas: o ORC (origin
+recognition complex) marca a origem; recruta Cdc6 e Cdt1; e estes recrutam o complexo MCM2-7, que é a
+helicase replicativa que vai abrir a dupla-hélice. Origem com MCM ligado é uma origem "licenciada"
+-- pronta para ser disparada quando a S-CDK aparecer.
+
+O pré-RC só se monta nas origens em G1 (quando as CDKs estão baixas). Quando a S-CDK aparece no início de S, ela
+(a) fosforila e ativa os MCMs licenciados, disparando a replicação, e (b) fosforila Cdc6 e os componentes do pré-RC,
+impedindo o re-licenciamento. Cada origem dispara uma única vez por ciclo.
+
+Quando a S-CDK fica ativa (entrada em S), ela faz duas coisas opostas simultaneamente. Primeiro, ela
+ativa o MCM dos pré-RCs já montados, e a replicação dispara. Segundo, ela inativa qualquer tentativa
+de montagem nova de pré-RC: fosforila Cdc6 (que é degradado pela SCF), fosforila os MCMs ainda livres
+(que são exportados para fora do núcleo), inativa Cdt1. A partir do momento em que a S-CDK acende,
+não se monta mais pré-RC nenhum. As origens que já foram disparadas perderam o MCM (ele foi com
+a forquilha); as origens ainda não disparadas vão disparar logo, e perderão o MCM também. No fim de S,
+todos os MCMs foram embora, e nenhuma origem está licenciada. Mesmo se a S-CDK permanecesse
+ativa, não haveria origem para disparar. Só quando a célula volta para G1 (com CDKs baixas) é que novos
+pré-RCs podem se formar -- e o ciclo seguinte pode replicar.
+
+   11ORC ­ origin recognition complex -- complexo de seis proteínas que se liga às origens de replicação do DNA e marca o
+local onde o pré-RC vai montar; ativo durante toda a intérfase.
+
+   12MCM ­ minichromosome maintenance -- complexo hexamérico (MCM2-7) que funciona como helicase replicativa;
+recrutado ao pré-RC em G1 e ativado pela S-CDK no início da fase S.
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+CDK alta dispara E impede re-licenciamento -- duplo papel
+
+A S-CDK tem dois papéis que parecem contraditórios mas são, na verdade, complementares: ela
+ativa as origens já licenciadas e impede o licenciamento de origens novas. O mecanismo de
+"uma replicação por ciclo" depende dessa dupla função. Se a S-CDK fosse só ativadora, a célula
+re-replicaria; se fosse só inibidora, nunca replicaria. O fato de ela fazer as duas coisas -- ativar
+o licenciado e impedir novo licenciamento -- é o que dá a unicidade.
+
+Resumindo até aqui: Replicação só uma vez por ciclo vem de separar licenciamento (G1, CDKs baixas,
+monta pré-RC com MCM) de disparo (S, CDKs altas, ativa MCM). S-CDK ativa o licenciado E impede novo
+licenciamento -- duplo papel. No fim de S, nenhuma origem está licenciada; precisa voltar para G1 (CDKs
+baixas) para re-licenciar e o ciclo seguinte poder replicar.
+
+3.3 -- Entrada em M e mitose -- coesinas, APC/C, securina e separase
+A mitose é a fase mais visualmente espetacular do ciclo -- o envelope nuclear se desfaz, os cromossomos
+condensam e ficam visíveis ao microscópio, alinham na placa metafásica, se separam, migram para os
+polos. Por trás dessa coreografia, o motor é a M-CDK (ciclina B + CDK1), e o ponto crítico é o checkpoint
+do fuso na transição metáfase-anáfase.
+
+coesina13
+
+Antes de chegar à mitose, vale entender uma peça que vem desde a fase S: as coesinas. Logo que cada
+cromossomo é replicado, suas duas cromátides irmãs ficam fisicamente unidas por anéis proteicos
+chamados coesinas que circundam ambas. Essa união é o que permite, mais tarde, a célula puxar uma
+para cada polo. Sem coesina, as cromátides separam-se cedo demais e a divisão sai errada.
+
+A entrada em M acontece quando a M-CDK (que estava reprimida em G2 pela fosforilação de Wee1)
+é desbloqueada pela Cdc25. M-CDK ativa explode em atividade graças ao loop positivo (M-CDK ativa
+Cdc25 e inibe Wee1, gerando mais M-CDK ativa -- tudo-ou-nada). Em poucos minutos, M-CDK fosforila
+centenas de substratos: condensinas (cromossomo condensa), laminas da lâmina nuclear (envelope
+nuclear se desfaz), proteínas do citoesqueleto e do fuso (microtúbulos se reorganizam para formar o
+fuso mitótico). Toda a paisagem celular muda porque um único complexo enzima-cofator entrou em
+atividade.
+
+   13coesina ­ complexo proteico em anel que circunda as duas cromátides irmãs desde a fase S, mantendo-as juntas; é
+clivado pela separase na transição metáfase-anáfase.
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Os múltiplos eventos disparados pela M-CDK ativa: fosforilação de proteínas de replicação (impede nova S), dupli
+cação dos centrossomos, condensação de cromossomos, desmontagem do envelope nuclear, organização das fibras
+do fuso. Repare como um único motor (M-CDK) coordena dezenas de processos em paralelo -- isso é amplificação
+por fosforilação maciça.
+Os cromossomos condensados, com cromátides ainda unidas por coesina, capturam microtúbulos nos
+seus cinetocoros. Para que a anáfase aconteça com segurança, cada cromossomo precisa estar fixado
+a microtúbulos vindos dos dois polos opostos (configuração biorientada). Enquanto algum cinetocoro
+não estiver corretamente acoplado, o SAC (spindle assembly checkpoint) emite um sinal de espera que
+bloqueia a APC/C. A anáfase só dispara quando o último cromossomo se bioriente.
+Quando o SAC libera, entra em cena o passo mecanístico mais bonito do ciclo. A APC/C (ativada pela
+subunidade Cdc20) marca para degradação uma proteína específica: a securina. Securina, em condições
+normais, está inibindo uma protease chamada separase. Quando a securina é degradada pelo proteas
+soma, a separase fica livre e cliva as coesinas que estavam mantendo as cromátides irmãs unidas. No
+instante em que a coesina é cortada, as cromátides irmãs se separam e migram para os polos opostos
+-- anáfase começou.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Transição metáfase-anáfase. APC/C-Cdc20 marca a securina para degradação  securina vai ao proteassoma 
+separase é liberada  separase cliva a coesina  cromátides irmãs separam-se e migram para os polos opostos. A
+APC/C-Cdc20 também marca a ciclina B para degradação -- a M-CDK cai, a célula sai da mitose.
+
+    Separase corta coesina, não cromossomo
+    Confusão clássica: aluno escreve "a separase corta o cromossomo em duas". Não -- o cromos
+    somo está físico e inteiro o tempo todo. A separase corta a coesina, que é o anel proteico que
+    mantinha as duas cromátides irmãs juntas. Cortada a coesina, as cromátides -- que sempre foram
+    dois cromossomos físicos distintos -- separam-se passivamente, puxadas pelos microtúbulos. A
+    separase é uma tesoura sobre a coesina, não sobre o DNA.
+Junto com a securina, a APC/C-Cdc20 também marca para degradação a ciclina B. Sem ciclina B, a M-
+CDK perde atividade. Sem M-CDK, as fosforilações que mantinham o envelope desfeito, o cromossomo
+condensado e o fuso ativo são revertidas por fosfatases -- o envelope nuclear se remonta, os cromos
+somos descondensam, o fuso desmonta. A citocinese (clivagem do citoplasma por anel contrátil de
+actina-miosina) completa a divisão, e duas células-filhas, cada uma com o conjunto correto de cromos
+somos, começam a próxima G1.
+
+                                                                                20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Aneuploidia, taxol e SAC
+
+Quando o SAC falha -- por mutação em proteínas do checkpoint ou por dano ao fuso --, a APC/
+C dispara cedo demais, as cromátides separam antes de estarem biorientadas, e a célula entra
+em anáfase com cromossomos distribuídos errado. O resultado é a aneuploidia (número errado
+de cromossomos), achado quase universal em células tumorais. Drogas quimioterápicas como o
+taxol (paclitaxel) e os alcaloides da vinca (vincristina, vinblastina) interferem na dinâmica do
+fuso mitótico -- taxol estabiliza microtúbulos, vinca desestabiliza. Em ambos os casos, o fuso
+não consegue biorientar todos os cromossomos, o SAC permanece ativo, a célula fica presa em
+mitose, e (se a parada é longa) acaba ativando apoptose. Por isso essas drogas são tão eficazes
+em tumores de divisão rápida -- pegam a célula no momento mais vulnerável.
+
+Resumindo até aqui: Mitose em 4 batidas: (1) M-CDK ativa (Cdc25 libera Wee1) fosforila centenas de
+substratos -- condensa cromossomo, desmonta envelope, monta fuso; (2) cromossomos biorientam, SAC
+libera; (3) APC/C-Cdc20 degrada securina  separase livre  cliva coesina  cromátides separam
+(anáfase); (4) APC/C também degrada ciclina B  M-CDK cai  fosfatases revertem mitose  citocinese.
+
+3.4 -- Quando há dano -- p53, parada do ciclo, reparo ou apoptose
+Fica faltando a última peça do quebra-cabeça: o que acontece quando o DNA está danificado. Toda
+célula sofre dano continuamente -- raios UV, radicais livres metabólicos, erros de replicação espontâ
+neos. Se a célula entrasse em mitose com DNA quebrado, propagaria mutações para as filhas. O sistema
+precisa de um mecanismo de defesa que detecte o dano e pare o ciclo. Essa peça é a p53.
+
+p5314
+
+A p53 é uma proteína de meia-vida muito curta em condições normais -- ela é continuamente
+sintetizada e continuamente degradada (a ubiquitina-ligase MDM2 a marca para o proteassoma). Em
+condições basais, sua concentração celular é baixíssima e ela não faz quase nada. Quando há dano
+ao DNA, sensores específicos (a quinase ATM detecta quebras de fita dupla; a ATR detecta forquilhas
+paradas e quebras de fita simples) fosforilam a p53 em vários sítios. A fosforilação impede a MDM2 de
+ligar à p53, e a p53 deixa de ser degradada -- sua concentração sobe rápido, em minutos. p53 alta é o
+sinal de "tem dano".
+
+   14p53 ­ tumor protein 53 -- fator de transcrição ativado por dano ao DNA; ativa transcrição de p21 (parada do ciclo),
+GADD45 (reparo) e BAX (apoptose); mutado em 50% dos cânceres humanos; encodado pelo gene TP53.
+
+                                                                                21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+p53 -- o "guardião do genoma". Dano no DNA  ATM/ATR fosforilam p53  p53 estabiliza e ativa transcrição de
+p21 (CKI). p21 inibe G1/S-CDK e S-CDK  ciclo para em G1 ou G2. Se o dano é reparável, o reparo acontece, p53 cai
+e o ciclo retoma. Se é irreparável, p53 dispara apoptose via Bax/Puma  morte programada. Parada, reparo, morte
+-- três decisões binárias.
+
+Com p53 alta, ela age como fator de transcrição. O primeiro alvo é a p21, uma CKI da família Cip/Kip que
+inibe G1/S-CDK e S-CDK. Com p21 alta, a célula para em G1 (não entra em S) ou em G2 (não entra em M).
+O ciclo congela enquanto o dano é avaliado. A p53 também ativa outros genes -- GADD45, que recruta
+maquinaria de reparo; Mdm2 (loop negativo); e, se o dano é grave demais, BAX e PUMA, proteínas pró-
+apoptóticas que disparam morte celular programada via mitocôndria.
+
+    p53 não repara -- sinaliza para parar ou morrer
+    Confusão recorrente: aluno escreve "a p53 repara o DNA danificado". Não -- a p53 é um fator de
+    transcrição, não tem atividade de reparo. O que ela faz é: (a) parar o ciclo (ativando p21), dando
+    tempo para a maquinaria de reparo agir; e (b) disparar apoptose (ativando Bax/Puma) se o dano
+    não pode ser reparado. A p53 decide entre dar tempo ou matar -- não repara nada com as
+    próprias mãos. Quem repara são outras proteínas (BER, NER, MMR, recombinação homóloga,
+    junção de extremidades não homólogas) que a p53 indiretamente recruta ou ativa.
+
+A decisão entre parada reversível (esperar reparar) e apoptose (matar a célula) depende da intensidade
+e da duração do dano. Pouca p53, por pouco tempo: parada do ciclo + reparo; o ciclo retoma quando
+a p53 cai. Muita p53, prolongada: a balança vira para apoptose. p53 é o juiz que pesa o dano contra a
+viabilidade. É por isso que ela é chamada de guardião do genoma.
+
+                                                                                22
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Li-Fraumeni e a centralidade de p53 no câncer
+
+A síndrome de Li-Fraumeni é uma condição genética em que o indivíduo nasce com uma
+mutação germinativa em uma das cópias do TP53 (gene da p53). Esses pacientes têm risco
+enormemente aumentado de múltiplos tipos de câncer ao longo da vida -- sarcoma, mama,
+cérebro, suprarrenal, leucemia. Basta perder a segunda cópia somaticamente para o supressor
+desaparecer da célula. É o paradigma do gene supressor de tumor com herança dominante
+(porque a perda de função é recessiva celular, mas o risco populacional é dominante: basta o
+segundo evento). O p53 está mutado em cerca de 50% de todos os cânceres humanos. Sem ele,
+células com DNA danificado continuam dividindo, acumulam mais mutações, e progridem para
+tumor. Praticamente nenhum câncer escapa da inativação do p53 -- ou por mutação direta, ou
+por amplificação de MDM2, ou por outras rotas que silenciam a via.
+
+Resumindo até aqui: p53 = guardião do genoma. Dano ao DNA  ATM/ATR fosforilam p53  MDM2
+solta  p53 estabiliza  ativa transcrição de p21 (CKI que para o ciclo) e/ou de Bax/Puma (apoptose). p53
+não repara -- sinaliza para parar e/ou morrer. Li-Fraumeni (mutação germinativa em TP53) = câncer
+em múltiplos órgãos. p53 mutada em 50% dos cânceres humanos.
+
+       23
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Fechando: o ciclo celular é um circuito de decisões binárias controlado por motores enzimáticos
+e por checkpoints. Quatro fases -- G1 (cresce e decide), S (replica uma vez), G2 (confere e prepara),
+M (divide) -- são atravessadas em sentido único por causa de duas propriedades fundamentais:
+ativação tudo-ou-nada das CDKs (com loops de feedback positivo) e degradação programada
+das ciclinas e CKIs pelo sistema ubiquitina-proteassoma (SCF na entrada em S, APC/C na saída da
+mitose). O motor são quatro complexos ciclina-CDK em sequência -- G1-CDK, G1/S-CDK, S-CDK,
+M-CDK -- cada um preparando o terreno para o seguinte. Sobre cada CDK incide uma camada de
+controle fino: a ciclina parceira (sem ela, nada); o fosfato ativador da CAK; os fosfatos inibitórios
+de Wee1 (removidos pela Cdc25); a inibição por CKIs (INK4 e Cip/Kip -- p21, p27). A entrada em S
+é controlada pelo eixo mitógeno  ciclina D  G1-CDK  Rb fosforilada  E2F livre  ciclina
+E  ponto de restrição -- uma transição irreversível por feedback positivo. A fase S replica
+exatamente uma vez por separar licenciamento (G1, CDKs baixas, monta pré-RC com MCM) de
+disparo (S, CDKs altas, ativa MCM e impede novo licenciamento). A mitose é disparada pela M-
+CDK e termina com a APC/C-Cdc20 degradando securina (separase corta coesina, cromátides
+separam) e ciclina B (M-CDK cai, célula sai de M). Por cima de tudo, a p53 monitora dano no DNA
+e pode parar o ciclo (via p21) ou disparar apoptose (via Bax/Puma) -- é o guardião do genoma.
+Câncer é, em última análise, a perda controlada de algum braço desse circuito: perda de Rb
+(retinoblastoma, vários tumores)  freio nunca prende E2F; perda de p53 ( 50% dos cânceres, Li-
+Fraumeni)  célula com dano continua dividindo; amplificação de ciclinas ou perda de CKIs 
+CDKs sempre ligadas; falha do SAC  aneuploidia. Entender o ciclo é, ao mesmo tempo, entender
+por que ele falha -- e por que essa falha tem um nome só.
+
+       24
+NEBLI                                                    RESUMINDO
+
+   Resumindo
+
+Ciclo = circuito, não relógio                            M-CDK dispara a tempestade da mitose
+
+O ciclo celular não é um relógio centralizado: é         Em G2, M-CDK fica reprimida por Wee1. Quando
+uma cadeia de osciladores em que ciclinas sobem          Cdc25 desfosforila, M-CDK explode em atividade
+e descem em sequência e cada onda ativa uma CDK          (loop positivo). Fosforila centenas de substratos:
+específica. G1 (cresce)  S (replica)  G2 (confere)       condensa cromossomo, desmonta envelope nuclear,
+ M (divide). A intérfase ocupa quase todo o              monta fuso. Uma única quinase coordena toda a
+tempo; M é breve.                                        mudança de paisagem.
+
+CDK é a enzima, ciclina é o cofator                      Anáfase = APC/C  securina  separase
+CDK sozinha não fosforila nada -- só com ciclina          coesina
+ligada. A ciclina também direciona a CDK aos             SAC libera quando cromossomos estão
+substratos certos. Quatro complexos canônicos: G1-       biorientados. APC/C-Cdc20 degrada securina 
+CDK (D), G1/S-CDK (E), S-CDK (A), M-CDK (B). Cada        separase livre  cliva coesina  cromátides
+um prepara o terreno para o seguinte.                    separam. Mesma APC/C degrada ciclina B  M-
+                                                         CDK cai  reversão mitótica. Separase corta
+Degradação dá o sentido único                            coesina, não cromossomo.
+Desligar CDK é destruir a ciclina. SCF degrada CKIs
+e ciclina E em S; APC/C-Cdc20 degrada securina e         p53 = parada, reparo, morte -- não
+ciclina B no fim de M; APC/C-Cdh1 mantém G1 livre        reparo direto
+de M-CDK. Cada degradação é irreversível -- daí o        Dano no DNA  ATM/ATR fosforilam p53  MDM2
+ciclo ser mão única.                                     solta  p53 estabiliza. p53 ativa transcrição de p21
+                                                         (CKI que para o ciclo) e, se dano grave, de Bax/
+Ponto de restrição: Rb segura E2F                        Puma (apoptose). p53 não tem atividade de reparo
+Mitógeno  ciclina D  G1-CDK fosforila Rb                 -- sinaliza para parar e dar tempo, ou matar se
+ libera E2F  ciclina E  G1/S-CDK fosforila               irreparável.
+mais Rb  loop positivo. Antes desse ponto, célula
+precisa de mitógeno para avançar; depois, vai até o      Câncer e farmacologia -- onde o ciclo
+fim sozinha. Perder Rb = freio nunca prendido --         entra na clínica
+retinoblastoma e muitos outros tumores.                  Perda de Rb  E2F livre (retinoblastoma); perda
+                                                         de p53  dano segue replicando ( 50% dos
+Fase S -- licenciamento separa do                        cânceres, Li-Fraumeni); amplificação de ciclinas
+disparo                                                   CDKs sempre ligadas; falha do SAC 
+Replicar uma só vez por ciclo exige separar duas         aneuploidia. Farmacologia explora isso: taxol trava
+etapas no tempo: licenciamento (G1, CDKs baixas,         fuso, palbociclibe bloqueia G1-CDK (mama ER+), 5-
+monta pré-RC com MCM nas origens) e disparo              FU/MTX ataca síntese em S. Quem divide muito é
+(S, CDKs altas). S-CDK ativa o licenciado E impede       mais vulnerável.
+novo licenciamento -- duplo papel.
+
+                                                     25
+NEBLI      RESUMINDO
+
+       26
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a diferença entre crescimento celular e divisão celular, é correto afirmar:
+
+   A) crescimento e divisão são termos sinônimos em biologia celular, e ambos descrevem o aumento
+   do número total de células em um tecido durante o desenvolvimento embrionário e a regeneração
+   tecidual.
+   B) crescimento celular descreve o aumento do número de células em um tecido por sucessivas mitoses,
+   enquanto divisão se refere apenas ao aumento da massa de cada célula individualmente.
+   C) crescimento e divisão são processos que ocorrem só na fase embrionária e desaparecem no organ
+   ismo adulto, no qual nenhum tecido humano repõe suas células ao longo da vida.
+   D) crescimento celular é aumento de massa de uma célula individual; divisão é aumento de número
+   (uma célula vira duas). Os dois processos juntos compõem a proliferação celular.
+   E) crescimento celular ocorre exclusivamente em células embrionárias indiferenciadas, ao passo que
+   a divisão é exclusiva de células somáticas adultas terminalmente diferenciadas como neurônios.
+
+Questão 02 Consolidação
+
+Sobre a sequência canônica das fases do ciclo celular eucariótico, é correto afirmar:
+
+   A) a célula percorre G1 (crescimento e decisão), S (replicação do DNA), G2 (preparação para mitose) e
+   M (divisão); a interfase reúne G1, S e G2 e ocupa quase todo o tempo do ciclo.
+   B) a célula percorre primeiro a fase M (em que o DNA é replicado), depois G1, G2 e S (em que ocorre a
+   divisão propriamente dita); as fases G1 e G2 são apenas pausas inertes entre eventos.
+   C) a célula percorre a fase S (síntese de proteínas estruturais do fuso), depois G1, G2 e M; a replicação do
+   DNA acontece de forma contínua durante toda a interfase, não em uma fase específica do ciclo celular.
+   D) a célula percorre G0 (síntese de DNA), G1, M e S em sequência; G0 é uma fase obrigatória de todo
+   ciclo e nela ocorre a duplicação dos cromossomos antes da entrada em mitose pela célula em divisão.
+   E) a célula percorre G1 e M alternadamente, sem necessidade das fases S ou G2; a duplicação do DNA
+   acontece simultaneamente à divisão nuclear durante a anáfase mitótica em uma única etapa rápida
+   da divisão.
+
+                            27
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre G0 e a homeostase entre proliferação e morte celular nos tecidos adultos, é correto afirmar:
+
+   A) G0 é uma fase obrigatória de todo ciclo celular, situada entre G2 e M, em que a célula confere se a
+   replicação do DNA foi completa e prepara o aparato mitótico antes de iniciar a divisão.
+
+   B) no tecido adulto saudável, a proliferação celular cessa por completo após o fim do desenvolvimento
+   embrionário; nenhum tecido humano repõe suas células por mitose ao longo da vida adulta normal.
+
+   C) o equilíbrio entre divisão e morte celular não existe -- proliferação e apoptose são processos com
+   pletamente independentes que ocorrem em compartimentos celulares isolados sem comunicação
+   entre os dois eixos.
+
+   D) G0 é uma saída do ciclo: a célula sai de G1 e descansa indefinidamente; no adulto saudável, divisão
+   é equilibrada por morte celular (homeostase) -- câncer rompe esse equilíbrio com saldo positivo.
+
+   E) G0 corresponde à mitose propriamente dita, fase em que os cromossomos se condensam, alinham-
+   se na placa metafásica e separam-se para os polos opostos, terminando com a citocinese e o
+   nascimento das células-filhas.
+
+Questão 04 Consolidação
+
+Sobre o motor molecular do ciclo celular e o papel das ciclinas, é correto afirmar:
+
+   A) as ciclinas são as enzimas catalíticas do ciclo celular, com atividade Ser/Thr-quinase intrínseca que
+   fosforila os substratos da célula independentemente da presença das CDKs em cada fase do ciclo.
+
+   B) o ciclo é cronometrado por um relógio bioquímico centralizado que pulsa em intervalos fixos de
+   tempo, ativando cada fase em sequência rígida sem necessidade de oscilação coordenada das ciclinas
+   no citoplasma.
+
+   C) a concentração de CDKs oscila em ondas sucessivas ao longo do ciclo, enquanto as ciclinas são
+   mantidas em níveis constantes pela síntese contínua e a degradação contínua pelo sistema ubiqui
+   tina-proteassoma.
+
+   D) o ciclo avança porque as ciclinas oscilam em ondas sucessivas: cada onda ativa uma CDK específica
+   que dispara a próxima fase, e a próxima onda começa antes da anterior terminar de descer.
+
+   E) as ciclinas e as CDKs atuam em vias paralelas sem interação direta: as ciclinas regulam a transcrição
+   gênica no núcleo, e as CDKs fosforilam substratos no citoplasma sem qualquer cofator regulatório
+   alostérico.
+
+                         28
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Julgue os itens sobre as técnicas que fundamentaram o modelo das quatro fases do ciclo celular:
+Cada item deve ser julgado de forma independente.
+
+I. a BrdU é um análogo da timidina incorporado ao DNA recém-sintetizado durante a fase S; uma
+injeção de BrdU seguida de imunofluorescência com anticorpo anti-BrdU permite identificar exata
+mente quais células estavam replicando DNA naquele intervalo.
+
+II. a citometria de fluxo com corante de DNA (DAPI ou iodeto de propídio) conta o número de divisões
+celulares completas que cada célula realizou ao longo da vida, sem informar sobre o conteúdo de DNA
+naquele instante específico da medida.
+
+III. os mutantes cdc (cell-division-cycle) de Saccharomyces cerevisiae param o crescimento em uma
+fase específica do ciclo e foram fundamentais para identificar componentes do circuito molecular
+antes da caracterização bioquímica das peças.
+
+IV. a fase G1 é uniformemente curta em todos os tipos celulares (sempre menos de 30 minutos) e sua
+duração é constante entre células do mesmo organismo, independentemente do tipo celular ou do
+estímulo mitogênico recebido.
+
+Questão 06 Consolidação
+
+Sobre a relação entre uma CDK e sua ciclina parceira no complexo ativo, é correto afirmar:
+
+   A) a ciclina é uma proteína estrutural com atividade catalítica Ser/Thr-quinase intrínseca, e a CDK
+   funciona apenas como subunidade regulatória inerte que recruta a ciclina à membrana plasmática
+   para fosforilar substratos.
+
+   B) tanto a CDK quanto a ciclina têm atividade catalítica autônoma própria, e cada uma fosforila
+   um conjunto diferente de substratos independentemente da outra, sem necessidade de formação do
+   complexo para o sinal celular avançar.
+
+   C) a CDK é a enzima Ser/Thr-quinase, mas só tem atividade quando ligada à ciclina parceira; a ciclina
+   não tem atividade catalítica própria -- ativa a CDK e dá parte da especificidade pelo substrato.
+
+   D) a CDK liga-se à ciclina apenas para impedir a sua atividade catalítica, funcionando como inibidor
+   competitivo do sítio ativo; a quinase ativa é a ciclina sozinha após dissociar-se do complexo durante
+   a fase apropriada do ciclo.
+
+   E) as concentrações de CDK e ciclina oscilam em paralelo em ondas sincrônicas ao longo do ciclo, e a
+   atividade do complexo depende exclusivamente do produto das duas concentrações, sem mecanismo
+   regulatório por fosforilação ou inibidores.
+
+                         29
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre a regulação da M-CDK por fosforilações ativadoras e inibitórias durante G2, é correto afirmar:
+
+   A) a CAK fosforila a CDK em uma treonina ativadora do T-loop; a Wee1 fosforila duas posições
+   inibitórias próximas; a Cdc25 remove os fosfatos inibitórios e libera a CDK para disparar a mitose.
+
+   B) a CAK é uma fosfatase que remove o fosfato ativador da CDK ao final da mitose, e a Wee1 é a quinase
+   que adiciona o fosfato ativador no T-loop necessário para a atividade catalítica plena da CDK no início
+   da mitose.
+
+   C) a CDK só precisa estar ligada à ciclina B para atingir atividade plena; nem CAK nem Wee1 nem
+   Cdc25 atuam sobre a M-CDK, que é regulada exclusivamente pela concentração da ciclina parceira
+   disponível na célula em G2.
+
+   D) a Wee1 adiciona o fosfato ativador no T-loop, e a CAK adiciona dois fosfatos inibitórios próximos;
+   a Cdc25 é uma quinase que adiciona um terceiro fosfato compensatório necessário para a entrada em
+   mitose em G2 tardio.
+
+   E) a Cdc25 atua sobre o complexo CDK-ciclina inibindo permanentemente sua atividade catalítica
+   por clivagem proteolítica, e a CAK e a Wee1 atuam apenas sobre a ciclina parceira fora do complexo
+   enzimático durante G2.
+
+Questão 08 Consolidação
+
+Julgue os itens sobre as ubiquitina-ligases SCF e APC/C no ciclo celular:
+Cada item deve ser julgado de forma independente.
+
+   I. a SCF e a APC/C são a mesma E3-ligase com nomes diferentes, e ambas degradam exclusivamente
+   ciclinas mitóticas em qualquer fase do ciclo celular sem distinção temporal nem especificidade pelo
+   substrato proteico marcado.
+
+   II. a SCF é ativa principalmente em G1 final, G1/S e S; marca para degradação as CKIs (p21, p27) e a
+   ciclina G1/S (E), liberando as CDKs da inibição e permitindo a entrada em S.
+
+   III. a APC/C atua apenas em G1 inicial degradando exclusivamente proteínas do citoesqueleto, sem
+   qualquer ação sobre securina, ciclinas mitóticas ou outros componentes do circuito de progressão do
+   ciclo na transição metáfase-anáfase.
+
+   IV. a APC/C ativada por Cdc20 marca securina (libera separase, dispara separação de cromátides) e
+   ciclina B (M-CDK cai, célula sai da mitose) na transição metáfase-anáfase e no fim de M.
+
+                         30
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 09 Consolidação
+
+Sobre a montagem do pré-RC (complexo pré-replicativo) nas origens de replicação durante G1, é correto
+afirmar:
+
+A) o pré-RC é uma estrutura permanente do cromossomo que se mantém ligada ao DNA durante todas
+as fases do ciclo celular, sem ser desmontada na fase S e sem necessidade de remontagem em G1 do
+ciclo seguinte.
+
+B) o pré-RC se monta nas origens de replicação durante a fase M, quando os cromossomos estão
+condensados e o DNA está mais acessível à maquinaria de licenciamento das origens individuais
+marcadas pela mitose anterior.
+
+C) o pré-RC se monta em G1 (CDKs baixas): ORC marca a origem, recruta Cdc6 e Cdt1, que carregam
+o complexo MCM2-7 (helicase replicativa); a origem fica "licenciada" para disparar quando S-CDK
+aparecer.
+
+D) o pré-RC se monta em G2 sob ação direta da M-CDK ativa, e o disparo das origens já licenciadas
+ocorre exclusivamente durante a anáfase mitótica por ação combinada da separase e da APC/C com
+Cdc20 ativada.
+
+E) o pré-RC é uma estrutura citoplasmática de membrana que ancora o DNA replicativo à superfície
+interna do envelope nuclear durante a fase S, sem participação dos complexos ORC, Cdc6, Cdt1 ou
+MCM2-7 no licenciamento das origens.
+
+                         31
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+Sobre o papel da separase na transição metáfase-anáfase, é correto afirmar:
+
+   A) a separase é uma protease que cliva a coesina, anel proteico que mantinha as cromátides irmãs
+   unidas; cortada a coesina, as cromátides separam-se e migram para os polos opostos puxadas pelos
+   microtúbulos.
+
+   B) a separase é uma endonuclease que cliva diretamente o DNA cromossômico em sítios específicos do
+   centrômero, separando as duas cromátides irmãs por corte físico do material genético propriamente
+   dito da estrutura cromossômica.
+
+   C) a separase atua exclusivamente sobre microtúbulos do fuso mitótico, despolimerizando as
+   fibras cinetocóricas e gerando o encurtamento da fibra como mecanismo primário da migração de
+   cromátides em direção aos polos da célula em divisão.
+
+   D) a separase é uma quinase regulatória que fosforila as condensinas e dispara a descondensação dos
+   cromossomos no final da telófase, sem qualquer ação proteolítica sobre coesinas, securinas ou outros
+   substratos durante a separação das cromátides.
+
+   E) a separase é estruturalmente parte da coesina e fica permanentemente ligada às cromátides
+   irmãs ao longo do ciclo celular, dispersando-se passivamente no citoplasma após a despolimerização
+   espontânea do anel ao final da fase S.
+
+                         32
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+O princípio do tudo-ou-nada na ativação das CDKs garante que cada fase do ciclo se complete antes
+da próxima começar. Sobre o mecanismo molecular que produz essa propriedade na transição G2/M, é
+correto afirmar:
+
+   A) a Wee1 e a Cdc25 atuam em momentos sequenciais e completamente separados durante G2 e M,
+   sem qualquer feedback recíproco; a transição abrupta surge apenas da queda gradual da síntese de
+   Wee1 no fim de G2 e da entrada nuclear da Cdc25.
+
+   B) a M-CDK ativa fosforila e inibe a Wee1 e fosforila e ativa a Cdc25; essas duas alças de feedback
+   positivo amplificam um pequeno gatilho inicial em uma rampa íngreme de ativação, e a transição vira
+   abrupta -- tudo-ou-nada.
+
+   C) a ativação tudo-ou-nada depende da degradação da ciclina B pela APC/C-Cdc20 antes mesmo da
+   entrada em mitose, e o pico abrupto de atividade da M-CDK aparece como consequência indireta da
+   queda dos níveis basais da ciclina parceira em G2.
+
+   D) a transição abrupta vem da síntese repentina da ciclina B no início de M sem qualquer alça de
+   feedback positivo entre M-CDK, Wee1 e Cdc25 -- apenas a curva sigmoide da expressão gênica da
+   ciclina B já basta para produzir o padrão tudo-ou-nada na entrada em mitose.
+
+   E) a Wee1 e a Cdc25 catalisam reações reversíveis em equilíbrio termodinâmico durante todo G2, e o
+   resultado é uma curva gradual e suave de ativação da M-CDK sem qualquer descontinuidade temporal
+   na transição G2 para M na célula em divisão.
+
+                       33
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Sobre a natureza molecular dos checkpoints do ciclo celular, é correto afirmar:
+
+   A) um checkpoint é uma barreira física do citoesqueleto que se interpõe materialmente entre G1 e S,
+   formada por feixes de microtúbulos estáveis que impedem mecanicamente o avanço do núcleo pela
+   próxima fase do ciclo celular.
+
+   B) um checkpoint é uma via de sinalização ativa que reúne sensores de problema (dano no DNA,
+   forquilha parada, cinetocoro livre) e dispara cascata que inibe CDKs específicas ou ativa CKIs -- a
+   "porta" é uma quinase com baixa atividade.
+
+   C) um checkpoint atua exclusivamente em situações patológicas de estresse celular agudo e nunca
+   é acionado em células saudáveis em proliferação normal, nas quais o ciclo simplesmente avança em
+   sentido único sem qualquer mecanismo de checagem nas transições.
+
+   D) um checkpoint é uma estrutura proteica fixa do envelope nuclear que se desfaz e refaz a cada ciclo
+   para permitir a passagem do material genético entre G1 e S, atuando apenas como porão estrutural
+   sem qualquer função de sinalização.
+
+   E) um checkpoint é apenas o tempo médio que uma célula leva para completar cada fase do ciclo em
+   um determinado tipo celular, e o avanço do ciclo é cronometrado por relógio interno sem detecção
+   ativa do estado do DNA ou do fuso mitótico.
+
+Questão 13 Integração
+
+Julgue os itens sobre a relação entre CDKs, ciclinas e a especificidade pelo substrato:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a interface entre a ciclina e a CDK forma parte do sítio de reconhecimento do substrato, e por isso
+   trocar a ciclina parceira na mesma CDK pode redirecionar a quinase para fosforilar conjuntos difer
+   entes de proteínas-alvo.
+
+   II. cada complexo ciclina-CDK fosforila um único substrato proteico altamente específico, e dezenas
+   de complexos ciclina-CDK diferentes precisam existir simultaneamente na célula para cobrir o
+   repertório completo de substratos do ciclo celular.
+
+   III. a CDK1 mamífera ligada à ciclina A fosforila substratos da fase S/G2, enquanto a CDK1 ligada à
+   ciclina B fosforila substratos mitóticos, mostrando que a mesma quinase muda de função conforme
+   a ciclina parceira que se associa ao complexo.
+
+   IV. a concentração celular das CDKs oscila em ondas sucessivas ao longo do ciclo, ao passo que
+   as concentrações de ciclinas permanecem relativamente constantes durante a interfase e a mitose,
+   fazendo das CDKs o componente oscilante do timer molecular.
+
+                       34
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Considere uma célula em G2 tardio com altos níveis de ciclina B, CAK ativa fosforilando o T-loop da
+CDK1, Wee1 ainda dominante e Cdc25 inicialmente baixa. Sobre o estado funcional da M-CDK nessa
+configuração e o que falta para a entrada em mitose, é correto afirmar:
+
+   A) a M-CDK está plenamente ativa porque ciclina B e fosforilação ativadora da CAK no T-loop bastam
+   para a atividade catalítica; a Wee1 e a Cdc25 atuam apenas sobre a S-CDK, sem participação na
+   regulação da entrada em mitose.
+
+   B) a M-CDK está inativa porque ciclina B sozinha é suficiente para inibir o complexo; a CDK só ativa
+   quando perde a ciclina parceira durante a degradação pela APC/C com Cdc20 ainda em G2, e a entrada
+   em mitose pode ocorrer.
+
+   C) a M-CDK está inativa porque a CAK não chegou a fosforilar o T-loop ainda, e a entrada em mitose
+   depende exclusivamente da ação tardia da CAK em G2 sobre a treonina ativadora da CDK1 ligada à
+   ciclina B parceira do complexo.
+
+   D) a M-CDK está reprimida pelos fosfatos inibitórios de Wee1, mesmo com ciclina B e fosfato ativador
+   da CAK no T-loop; a entrada em mitose exige a ativação da Cdc25, que remove os fosfatos inibitórios
+   e libera a CDK abruptamente em rampa.
+
+   E) a M-CDK está ativa em níveis basais porque os fosfatos inibitórios de Wee1 são removidos espon
+   taneamente em G2 sem necessidade de Cdc25, e a transição para mitose ocorre quando a concentração
+   da ciclina B atravessa um limiar termodinâmico fixo de saturação.
+
+                       35
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Sobre as duas formas da APC/C (com Cdc20 e com Cdh1) e seus papéis distintos na saída da mitose e em
+G1 inicial, é correto afirmar:
+
+A) a APC/C-Cdh1 substitui a APC/C-Cdc20 em G1 inicial e mantém a degradação contínua de qualquer
+ciclina mitótica residual, impedindo o retorno prematuro da M-CDK e dando tempo para a célula
+recomeçar antes de pensar em S.
+
+B) APC/C-Cdc20 e APC/C-Cdh1 são denominações alternativas do mesmo complexo idêntico, e ambas
+atuam exclusivamente em metáfase-anáfase sem qualquer atividade durante G1 inicial; após a mitose,
+a APC/C é completamente desmontada e ressintetizada em S.
+
+C) a APC/C-Cdc20 atua apenas em G1 inicial degradando p27 e ciclina G1/S, ao passo que a APC/C-Cdh1
+ativa em metáfase degrada securina e ciclina B na transição metáfase-anáfase, gerando a separação
+das cromátides irmãs e a saída da mitose.
+
+D) a APC/C-Cdh1 é ativada em S inicial e degrada principalmente as ciclinas D e E para impedir
+nova entrada em G1 dentro da mesma fase S, ao passo que a APC/C-Cdc20 é ativada em G1 inicial
+degradando MCM e Cdt1 para impedir o re-licenciamento das origens.
+
+E) APC/C-Cdc20 e APC/C-Cdh1 atuam em momentos completamente sobrepostos durante toda a
+mitose e G1 sem qualquer hierarquia temporal nem alvos preferenciais distintos entre as duas formas
+do complexo, e a única diferença está no peso molecular da subunidade ativadora.
+
+                       36
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Sobre a sequência canônica dos complexos ciclina-CDK ao longo do ciclo celular e como cada um prepara
+o terreno para o próximo, é correto afirmar:
+
+A) a sequência canônica é M-CDK em G1 inicial (degrada CKIs)  G1/S-CDK em S (replica DNA)  S-
+CDK em G2 (condensa cromossomos)  G1-CDK em M (separa cromátides); cada complexo prepara a
+transição que dispara a próxima fase do ciclo celular.
+
+B) todos os complexos ciclina-CDK atuam simultaneamente em todas as fases do ciclo, sem hierarquia
+temporal nem ordem definida entre as quatro famílias de ciclinas; o ciclo avança apenas pelo aumento
+gradual da atividade total da CDK independentemente da identidade da ciclina parceira.
+
+C) a sequência canônica é G1-CDK (ciclinas D)  G1/S-CDK (E)  S-CDK (A)  M-CDK (B); G1-CDK
+fosforila Rb e libera E2F, G1/S-CDK inativa CKIs e dispara entrada em S, S-CDK replica o DNA e impede
+re-licenciamento, M-CDK dispara mitose.
+
+D) a sequência canônica é G1-CDK  S-CDK  G1/S-CDK  M-CDK; a S-CDK aparece antes da G1/S-
+CDK na ordem temporal porque a replicação do DNA precede a decisão de entrada em S no ponto de
+restrição, sob ação direta da fosforilação de Rb pela S-CDK.
+
+E) a sequência canônica envolve apenas G1-CDK e M-CDK que se alternam em ondas; as ciclinas E e A
+não existem em mamíferos, e a transição G1/S e a fase S são executadas exclusivamente pela atividade
+da G1-CDK estendida com ciclina D durante toda a interfase.
+
+                       37
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+Julgue os itens sobre a oscilação coordenada das ciclinas e a degradação programada que dá ao ciclo o
+sentido único:
+
+Cada item deve ser julgado de forma independente.
+
+   I. todas as ciclinas oscilam de forma idêntica ao longo do ciclo, com curvas de subida e descida sobre
+   postas e pulsos sincronizados em fase, sem qualquer diferença de estabilidade entre os membros das
+   famílias D, E, A e B da célula em proliferação ativa.
+
+   II. a ciclina B começa a subir antes de a ciclina A terminar de descer, e em geral cada ciclina nova se
+   sobrepõe parcialmente à anterior em ondas escalonadas, em vez de pulsos isolados separados por
+   intervalos sem atividade de CDK na célula.
+
+   III. a degradação programada das ciclinas pelo sistema ubiquitina-proteassoma (SCF na entrada em
+   S, APC/C na saída de M) é o que garante a irreversibilidade do ciclo: sem ciclina, a CDK volta a ser
+   proteína inerte e o evento não pode ser revertido.
+
+   IV. as próprias CDKs degradam diretamente as ciclinas anteriores ao final de cada fase do ciclo, e
+   por isso a transição entre fases é controlada pela ordem das CDKs e não pela ação coordenada das
+   ubiquitina-ligases SCF e APC/C em momentos específicos.
+
+                       38
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Sobre o mecanismo molecular do ponto de restrição em G1 (Rb-E2F-ciclina E), é correto afirmar:
+
+   A) a Rb é um fator de transcrição que ativa diretamente os genes da fase S quando fosforilada pela G1-
+   CDK; a Rb hipofosforilada é a forma ativa, e a fosforilação por mitógenos transcreve a ciclina E para
+   iniciar a fase S na célula em proliferação ativa.
+
+   B) a Rb hipofosforilada sequestra E2F, mantendo os genes de S desligados; mitógenos  ciclina D 
+   G1-CDK fosforila Rb  libera E2F  transcrição da ciclina E  G1/S-CDK fosforila Rb mais  loop
+   positivo, transição irreversível.
+
+   C) a Rb e o E2F são fatores de transcrição independentes que regulam genes paralelos da fase S sem
+   qualquer interação direta entre eles; a fosforilação da Rb pela G1-CDK ativa Rb e E2F simultaneamente,
+   dobrando a transcrição dos genes-alvo da fase S celular.
+
+   D) o ponto de restrição ocorre durante a fase S e depende da fosforilação da Rb pela S-CDK, não pela
+   G1-CDK em G1 médio; antes do ponto de restrição, a célula já está comprometida com a entrada em
+   mitose mesmo na ausência de mitógenos externos.
+
+   E) a E2F é o freio do ciclo, e a Rb é o ativador; a G1-CDK fosforila o E2F e libera a Rb, que então transcreve
+   genes de S; perda da Rb diminui a proliferação por incapacidade de transcrever genes da fase S na
+   célula em divisão.
+
+                       39
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Um experimento retira o soro (e portanto os mitógenos) de uma cultura celular em diferentes momentos
+da fase G1. Em metade dos poços, a retirada é feita antes do ponto de restrição; na outra metade, depois.
+Sobre o desfecho esperado nas duas condições e o porquê molecular, é correto afirmar:
+
+   A) retirar o soro antes do ponto de restrição faz o ciclo continuar normalmente até a mitose, porque
+   a célula já comprometeu sua entrada em S no início de G1 e não depende mais de mitógenos a partir
+   desse ponto inicial da fase G1.
+
+   B) retirar o soro depois do ponto de restrição faz a célula retornar imediatamente para G0, porque
+   o feedback positivo do loop Rb-E2F-ciclina E é reversível a qualquer momento e a ausência de
+   mitógenos desligar imediatamente todo o circuito em G1 tardio.
+
+   C) retirar o soro antes do ponto de restrição faz a célula entrar em apoptose direta via p53 sem qualquer
+   parada do ciclo, porque a falta de mitógeno é interpretada pelo sistema como dano irreparável ao DNA,
+   disparando a via apoptótica intrínseca da célula.
+
+   D) retirar o soro antes do ponto de restrição faz a célula sair para G0; retirar depois deixa a célula
+   completar o ciclo, porque o loop positivo Rb-E2F-ciclina E torna a transição irreversível -- a célula
+   não depende mais de mitógenos a partir desse ponto.
+
+   E) a remoção do soro não tem efeito em nenhum dos dois momentos, porque mitógenos atuam apenas
+   na entrada em mitose (G2/M) e não na transição G1/S; o ponto de restrição corresponde, na verdade,
+   ao checkpoint do fuso na transição metáfase-anáfase.
+
+                       40
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Sobre o duplo papel da S-CDK na fase S -- ativar origens já licenciadas e impedir o re-licenciamento de
+origens novas --, é correto afirmar:
+
+A) a S-CDK ativa as origens já licenciadas durante S, mas não atua sobre componentes do pré-RC; o
+re-licenciamento das origens é impedido apenas pela ausência física de MCMs livres no núcleo, sem
+participação ativa da CDK na inibição do licenciamento.
+
+B) a S-CDK impede tanto a ativação das origens já licenciadas quanto o re-licenciamento de origens
+novas, e a célula replica seu DNA exclusivamente pela ação da G1/S-CDK; no fim de S, novos pré-RCs
+se montam no próprio S para o ciclo seguinte.
+
+C) a S-CDK só atua sobre origens já licenciadas, ativando o MCM e disparando a replicação; o re-licen
+ciamento de origens novas é impedido pela degradação espontânea de Cdc6 e Cdt1 sem necessidade
+de fosforilação por CDK durante toda a fase S celular.
+
+D) a S-CDK tem dois papéis complementares: ativa o MCM nos pré-RCs já montados (dispara repli
+cação) E fosforila Cdc6, MCM livres e Cdt1 (impede re-licenciamento); por isso cada origem dispara
+uma vez por ciclo, e nenhuma origem nova é licenciada em S.
+
+E) a S-CDK é apenas inibitória e bloqueia tanto o disparo quanto o re-licenciamento; a fase S depende
+exclusivamente da G1/S-CDK para a replicação, e a S-CDK só atua na transição S/G2 desligando o
+aparato de replicação que estava ativo durante S.
+
+                       41
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+Julgue os itens sobre a transição metáfase-anáfase e o mecanismo da separação das cromátides irmãs:
+Cada item deve ser julgado de forma independente.
+
+I. a securina é uma proteína inibidora da separase: enquanto a securina está presente e ligada à
+separase, a protease fica inativa; quando a APC/C-Cdc20 marca a securina para degradação no prote
+assoma, a separase é liberada e cliva a coesina.
+
+II. a APC/C-Cdc20 marca para degradação a securina (libera separase) e a ciclina B (M-CDK cai,
+célula sai da mitose) na transição metáfase-anáfase, articulando em um único evento a separação das
+cromátides e o fim da fase M.
+
+III. a separase cliva diretamente o DNA cromossômico no centrômero, e por isso a separação das
+cromátides irmãs envolve uma quebra física do material genético da célula durante a anáfase, com
+religação posterior do DNA na telófase pelas ligases celulares.
+
+IV. enquanto algum cinetocoro não estiver fixado a microtúbulos vindos dos dois polos opostos, o
+SAC (spindle assembly checkpoint) bloqueia a APC/C-Cdc20; a anáfase só dispara quando o último
+cromossomo se bioriente corretamente.
+
+                       42
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Sobre a base molecular do SAC (spindle assembly checkpoint) e sua relação com a APC/C-Cdc20 na
+transição metáfase-anáfase, é correto afirmar:
+
+A) o SAC é uma estrutura permanente do cinetocoro que se mantém ativa durante todas as fases do
+ciclo celular, monitorando continuamente a estabilidade dos microtúbulos do fuso sem qualquer ação
+direta sobre a APC/C, a securina ou a ciclina B mitótica.
+
+B) cinetocoros que ainda não foram fixados a microtúbulos dos dois polos emitem um sinal molecular
+("espere") que inibe a APC/C-Cdc20; quando o último cromossomo se bioriente, o sinal cessa, a APC/
+C ativa e marca securina e ciclina B para degradação.
+
+C) o SAC ativa diretamente a separase em metáfase pela clivagem da securina, sem necessidade de
+participação da APC/C-Cdc20 na degradação por ubiquitinação; a APC/C atua apenas em G1 inicial
+degradando ciclinas residuais sem qualquer função no SAC.
+
+D) o SAC monitora a integridade do DNA durante a metáfase e impede a anáfase em caso de dano no
+material genético; cinetocoros e microtúbulos não participam do checkpoint do fuso, que é exclusi
+vamente uma via de resposta a dano em mitose tardia.
+
+E) o SAC é ativado pela M-CDK e atua exclusivamente fosforilando a coesina diretamente nos sítios
+de clivagem da separase, sem inibir a APC/C-Cdc20 e sem necessidade de monitoramento dos cineto
+coros ou da bi-orientação dos cromossomos no fuso mitótico.
+
+                       43
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Sobre o eixo ATM/ATR  p53  p21 e como o dano ao DNA estabiliza a p53 (que tem meia-vida normal
+mente curtíssima), é correto afirmar:
+
+A) a p53 tem meia-vida longa em condições basais e está sempre presente em concentrações altas na
+célula; o dano ao DNA apenas a transloca do citoplasma para o núcleo, sem modificar sua estabilidade
+nem alterar sua marcação para degradação proteassomal celular.
+
+B) em condições basais, a MDM2 marca continuamente a p53 para o proteassoma; dano no DNA ativa
+ATM/ATR, que fosforilam a p53 em sítios que impedem a ligação com MDM2; a p53 deixa de ser
+degradada, se acumula e ativa transcrição de p21 (CKI) e Bax.
+
+C) o dano ao DNA ativa diretamente a transcrição do gene TP53 em níveis muito altos, sem qualquer
+modificação pós-traducional sobre a proteína p53 já existente nem participação da MDM2 na regu
+lação da estabilidade do guardião do genoma na resposta inicial.
+
+D) a MDM2 é uma quinase que ativa a p53 por fosforilação ativadora, e o dano no DNA inibe a MDM2
+para reduzir os níveis de p53 ativa; com p53 baixa, a célula entra em apoptose por desinibição da via
+intrínseca mitocondrial dependente do Bax e do Puma celulares.
+
+E) ATM e ATR são fosfatases que removem fosfatos inibitórios da MDM2, e essa remoção aumenta a
+degradação da p53; o dano ao DNA reduz a concentração de p53 para liberar o ciclo celular e permitir
+a entrada em mitose mesmo com lesões não reparadas na fita.
+
+                       44
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Sobre como a p53 decide entre parada reversível do ciclo (com reparo) e apoptose definitiva, é correto
+afirmar:
+
+A) a decisão entre parada e apoptose depende da intensidade e duração do sinal de p53: pouca p53 por
+pouco tempo ativa p21 (parada do ciclo + reparo); muita p53 prolongada vira a balança para Bax/Puma
+(apoptose) -- a p53 é o juiz que pesa dano contra viabilidade.
+
+B) a p53 sempre dispara apoptose imediata diante de qualquer dano detectado no DNA, sem qualquer
+mecanismo de parada reversível do ciclo nem possibilidade de reparo prévio à decisão; a célula nunca
+tem chance de recuperar o material genético antes da morte programada.
+
+C) a p53 sempre dispara apenas a parada do ciclo via p21, sem qualquer ativação da via apoptótica; a
+apoptose por dano ao DNA acontece exclusivamente por vias independentes de p53 (caspase-8, via
+extrínseca), e a p53 é um regulador do ciclo sem função apoptótica.
+
+D) a decisão entre parada e apoptose depende exclusivamente do tipo celular e é completamente
+independente da intensidade do dano: hepatócitos sempre param o ciclo, linfócitos sempre entram
+em apoptose, sem qualquer integração quantitativa do sinal pela p53 ativada em resposta ao dano.
+
+E) a p53 dispara apoptose imediatamente em casos de dano leve e parada do ciclo em casos de dano
+grave, em ordem inversa à intensidade do sinal; o reparo do DNA ocorre apenas após a apoptose pela
+ação das células vizinhas que herdam o material genético da célula morta.
+
+                       45
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Um pesquisador isola dois mutantes de levedura Saccharomyces cerevisiae em uma triagem por
+temperatura restritiva. O mutante A para o crescimento em G1 a 37°C; o mutante B para na entrada em
+mitose. A sequenciamento revela que ambos têm mutação em genes diferentes, e ambos são chamados
+de mutantes cdc. Sobre o que essas mutações dizem sobre a natureza do ciclo celular, é correto afirmar:
+
+A) a triagem cdc de Hartwell foi a base genética que identificou componentes do circuito do ciclo antes
+da bioquímica caracterizá-los; mutantes cdc param em fases específicas (vivos) e cada um aponta um
+gene essencial para a transição correspondente.
+
+B) mutantes cdc são mutantes apoptóticos que morrem em fases específicas do ciclo, e a triagem de
+Hartwell identificou apenas genes da via de morte celular programada, sem qualquer contribuição
+para o entendimento dos componentes do circuito molecular do ciclo celular.
+
+C) a triagem de Hartwell foi importante apenas para classificar os tipos morfológicos de levedura sem
+qualquer revelação dos componentes moleculares do ciclo, que só foram descobertos décadas depois
+por estudos de citometria e imunofluorescência em células de mamíferos.
+
+D) mutantes cdc representam mutações em apenas um único gene central do ciclo celular (CDC28), e
+os fenótipos diferentes em fases distintas refletem apenas a temperatura de incubação ou a fase do
+meio de cultura usada no ensaio, sem indicar genes distintos do ciclo.
+
+E) os mutantes cdc não param em fases específicas -- distribuem-se aleatoriamente por todo o ciclo
+a 37°C --, e por isso a triagem de Hartwell foi descartada da história da biologia celular sem qualquer
+reconhecimento posterior pela comunidade científica internacional.
+
+                       46
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Em um experimento em cultura, células HeLa são tratadas com taxol (paclitaxel), droga que estabiliza
+microtúbulos do fuso e impede sua dinâmica normal. A microscopia revela que as células acumulam-
+se em mitose, com cromossomos dispersos sem alinhamento na placa metafásica. Sobre o mecanismo
+molecular dessa parada, é correto afirmar:
+
+A) microtúbulos estabilizados pelo taxol impedem a captura correta dos cinetocoros nos dois polos do
+fuso; o SAC permanece ativo, bloqueia APC/C-Cdc20, securina não é degradada, separase fica inibida
+e a célula trava em metáfase sem entrar em anáfase.
+
+B) o taxol inibe diretamente a separase, e por isso a coesina não é clivada e as cromátides irmãs não se
+separam; o SAC e a APC/C-Cdc20 não participam do mecanismo, e a célula permanece em metáfase
+pela ausência de proteólise da coesina pelo bloqueio direto da protease.
+
+C) o taxol despolimeriza microtúbulos por ligação ao GTP da tubulina e desmonta completamente o
+fuso mitótico em poucos minutos; a célula não consegue formar metáfase nem ativar o SAC, e progride
+para anáfase com cromossomos dispersos sem segregação correta entre as duas filhas.
+
+D) o taxol inibe a Wee1 e ativa permanentemente a M-CDK na entrada em mitose, e essa hiperativação
+da CDK dispara mitose precoce sem replicação completa do DNA; a parada em metáfase observada na
+microscopia reflete dano ao DNA detectado pela ATM em mitose.
+
+E) o taxol bloqueia a expressão de ciclina B na transição G2/M, e por isso a célula entra em mitose com
+baixos níveis de M-CDK; a parada em metáfase observada na microscopia decorre da incapacidade da
+M-CDK fosforilar as condensinas mitóticas em níveis suficientes para a divisão.
+
+                      47
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Pesquisadores testam in vitro o nutlin-3, molécula que se liga ao bolso de MDM2 e impede a ligação
+MDM2­p53. Em uma linhagem de sarcoma com TP53 selvagem mas com amplificação de MDM2, qual
+desfecho molecular e celular é esperado após o tratamento com nutlin-3?
+
+   A) redução da concentração de p53 na célula tratada porque o nutlin-3 mimetiza a função normal
+   da MDM2 sobre a p53 selvagem; a queda da p53 livra o ciclo da inibição por p21, e a célula entra em
+   apoptose direta pela ativação da via Bax/Puma sem parada do ciclo.
+
+   B) aumento da degradação proteassomal da p53 pelo nutlin-3, que potencializa a ação da MDM2
+   amplificada sobre a p53 selvagem; o sarcoma fica com p53 ainda mais baixa e entra em proliferação
+   descontrolada em resposta ao tratamento com o inibidor de bolso da MDM2.
+
+   C) ativação direta do gene TP53 pelo nutlin-3, com aumento da transcrição da p53 sem qualquer
+   participação da MDM2; o nutlin-3 funciona como agonista de receptor nuclear da p53 e dispara síntese
+   maciça da proteína nova em poucos minutos após o tratamento celular do sarcoma.
+
+   D) estabilização da p53 selvagem porque o nutlin-3 impede a MDM2 de marcá-la para degradação; a
+   p53 acumula, ativa p21 (parada do ciclo) e Bax/Puma (apoptose) -- exatamente o que tumores p53-
+   selvagem com MDM2 amplificado precisam para retomar a resposta a dano.
+
+   E) bloqueio da síntese de novas moléculas de MDM2 pelo nutlin-3 com queda da meia-vida da MDM2
+   abaixo de minutos; a p53 não é mais marcada para degradação porque a MDM2 desaparece, mas o
+   efeito é transitório e a resistência reaparece em minutos sem fármaco contínuo.
+
+                      48
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+O palbociclib é um inibidor seletivo das CDK4 e CDK6, aprovado para câncer de mama HR+/HER2-
+avançado em combinação com terapia endócrina. Em uma linhagem de células tumorais com Rb
+selvagem e ciclina D superexpressa, o efeito celular esperado do palbociclib é:
+
+   A) aumento da fosforilação de Rb pela G1-CDK em níveis acima do basal, com hiperliberação de E2F e
+   expressão massiva de ciclina E; a célula entra em S em ritmo acelerado, e o palbociclib funciona como
+   mitógeno sintético em linhagens com ciclina D superexpressa do tumor mamário.
+
+   B) estabilização da Cdc25 e ativação da M-CDK em G2, com aceleração da entrada em mitose; o
+   palbociclib atua exclusivamente sobre a transição G2/M sem qualquer efeito sobre a fase G1, e a parada
+   celular observada na clínica decorre de mitose prematura no tumor mamário.
+
+   C) parada do ciclo em G1 por inibição da G1-CDK: sem CDK4/6 ativa, a Rb fica hipofosforilada, sequestra
+   E2F e impede a transcrição da ciclina E; a célula não atravessa o ponto de restrição e não entra em S
+   -- exatamente o que tumores com ciclina D superexpressa precisam.
+
+   D) inibição direta da separase pelo palbociclib na transição metáfase-anáfase, com bloqueio da
+   clivagem da coesina e parada das células em mitose com cromátides irmãs ainda unidas pelo anel
+   proteico; o efeito sobre G1 é nulo no tumor mamário tratado com o inibidor seletivo.
+
+   E) ativação da APC/C-Cdh1 em G1 com degradação acelerada de todas as ciclinas mitóticas residuais e
+   ressíntese precoce de ciclina D; a célula entra em ciclo mais rapidamente em resposta ao palbociclib,
+   e o ganho clínico do fármaco vem de paradoxal aceleração no tumor mamário sensível.
+
+                      49
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Uma menina de 2 anos é levada ao oftalmologista após a mãe notar leucocoria (reflexo branco da pupila)
+em fotografias com flash. O exame fundoscópico revela massa retiniana branco-acinzentada bilateral.
+A história familiar mostra que o pai teve retinoblastoma unilateral aos 18 meses. O estudo molecular
+confirma mutação germinativa em uma cópia do gene RB1. Sobre o mecanismo molecular esperado
+para a tumorigênese nesta paciente, é correto afirmar:
+
+   A) a paciente já nasceu sem Rb funcional pela mutação germinativa em homozigose, e por isso o E2F
+   está permanentemente livre desde o nascimento em todos os tecidos do organismo; o retinoblastoma
+   surge apenas porque a retina é o único tecido que expressa E2F durante a vida pós-natal.
+
+   B) a mutação germinativa em RB1 é dominante e suficiente para a tumorigênese sem necessidade
+   de qualquer evento somático adicional; o desenvolvimento dos retinoblastos da paciente já ocorre
+   com Rb completamente ausente desde o nascimento, sem participação de mecanismo de dois eventos
+   celulares.
+
+   C) a paciente desenvolve tumores em múltiplos órgãos (sarcoma, mama, cérebro) ao longo da vida
+   porque a perda de Rb compromete a função da p53 em todos os tecidos epiteliais; o retinoblastoma
+   bilateral é apenas a primeira manifestação clínica da síndrome de Li-Fraumeni mascarada na infância.
+
+   D) a paciente desenvolve retinoblastoma porque a mutação somática no RB1 ocorre em S inicial nos
+   progenitores da retina, com perda da função de Rb apenas durante a fase S do ciclo; fora dela, a Rb
+   permanece funcional e a tumorigênese só acontece nos episódios pontuais de replicação descontro
+   lada.
+
+   E) a paciente tem uma cópia de RB1 mutada (germinativa) e uma selvagem; a perda somática da cópia
+   selvagem em um retinoblasto (segundo evento) elimina a Rb funcional, libera E2F e dispara o tumor
+   -- hipótese two-hit de Knudson, característica de gene supressor tumoral.
+
+                      50
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Uma jovem de 23 anos é diagnosticada com osteossarcoma de fêmur. A história familiar revela: mãe
+falecida aos 35 anos por carcinoma de mama bilateral; tia materna com leucemia aos 12 anos; primo
+materno com sarcoma de partes moles aos 8 anos. O sequenciamento germinativo identifica mutação
+de perda de função em uma cópia de TP53. Sobre o mecanismo molecular esperado para o agrupamento
+familiar de cânceres em órgãos diferentes nessa paciente e familiares, é correto afirmar:
+
+   A) a mutação em TP53 atinge especificamente o tecido ósseo da paciente e o tecido mamário da
+   mãe por especialização de p53 em apenas um tipo celular por indivíduo da família; cada portador da
+   síndrome de Li-Fraumeni manifesta câncer em um único órgão sem variabilidade entre membros da
+   família afetada.
+
+   B) todos os tecidos do organismo dependem do controle de dano ao DNA pela p53; a perda da cópia
+   restante (somática) em qualquer célula com lesão impede a parada do ciclo e a apoptose, e a célula com
+   dano continua dividindo -- múltiplos tumores em órgãos diferentes, padrão Li-Fraumeni clássico.
+
+   C) a síndrome de Li-Fraumeni é uma doença autoimune em que anticorpos circulantes contra a p53
+   atacam tecidos diferentes em momentos diferentes da vida, sem qualquer relação com o controle do
+   ciclo celular ou a apoptose; o agrupamento familiar é coincidência e não tem base genética.
+
+   D) a mutação germinativa em TP53 ativa permanentemente a apoptose em todos os tecidos do organ
+   ismo desde o nascimento; o agrupamento familiar reflete a depleção massiva de células saudáveis
+   ao longo da vida com substituição por células-tronco mais frequentemente tumorigênicas em cada
+   órgão.
+
+   E) a perda de p53 só compromete a função de tecidos derivados da crista neural embrionária, e por
+   isso a síndrome de Li-Fraumeni cursa exclusivamente com tumores do sistema nervoso central e
+   ganglionares periféricos; sarcoma, mama e leucemia decorrem de mutações germinativas em genes
+   diferentes nesta família.
+
+                      51
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que a CDK precisa simultaneamente de uma ciclina ligada e da fosforilação ativadora pela CAK
+para ficar ativa? Não bastaria só uma das duas?
+
+    MODELO DE RESPOSTA
+
+   Porque cada uma das duas atua sobre uma face diferente do mesmo problema: levar
+   a alça T (T-loop) da CDK para a posição catalítica. Sem ciclina, a CDK fica com o sítio
+   ativo bloqueado pela própria alça T; a ciclina, ao se ligar, desloca essa alça parcialmente.
+   Mas isso só é suficiente em parte -- a CAK ainda precisa fosforilar uma treonina dentro
+   da alça T para travá-la na posição produtiva. Por isso a regulação tem duas camadas:
+   concentração da ciclina (oscilante) e fosforilação pela CAK (constitutiva). Só os dois
+   juntos dão CDK plenamente ativa.
+
+Questão Q2
+
+Por que a célula consegue garantir que cada origem de replicação do DNA dispare exatamente
+uma vez por ciclo celular? Qual é o mecanismo molecular dessa "memória"?
+
+    MODELO DE RESPOSTA
+
+   Porque a montagem do complexo pré-RC nas origens só ocorre quando a atividade de
+   CDK está baixa, e isso só acontece em G1. Em G1, ORC + Cdc6 + Cdt1 + MCM se ligam às
+   origens; a origem fica "licenciada". Na transição G1/S, a S-CDK fosforila os componentes
+   do pré-RC: alguns são marcados para degradação, outros são exportados do núcleo. O
+   pré-RC, depois disso, não consegue se re-montar enquanto a CDK permanecer alta (S,
+   G2, M). Só quando o ciclo zera (APC/C degrada ciclinas no fim de M) é que CDK cai e
+   nova montagem volta a ser possível.
+
+                             52
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Como o sistema APC/C­securina­separase­coesina garante que as cromátides irmãs só se sep
+arem depois que todos os cromossomos estiverem corretamente alinhados na placa metafásica?
+
+MODELO DE RESPOSTA
+
+O sistema combina inibição direta com checkpoint do fuso. A separase é uma protease
+que cliva coesina (cola entre as cromátides), mas vive inativa porque a securina está
+ligada a ela como inibidor. Para liberar a separase, a APC/C-Cdc20 precisa ubiquitinar
+a securina, que vai ao proteassoma. A APC/C-Cdc20, por sua vez, só é ativada quando
+todos os cinetocoros estão acoplados aos microtúbulos -- cinetocoros não acoplados
+emitem o sinal SAC (spindle assembly checkpoint), que sequestra Cdc20 e mantém a
+APC/C inativa. Um único cromossomo não alinhado paralisa o sistema.
+
+Questão Q4
+
+Por que a p53 é chamada de "guardiã do genoma"? Descreva o mecanismo molecular pelo qual
+ela responde a dano ao DNA, e explique por que a inativação de p53 é a alteração genética mais
+frequente em câncer humano.
+
+    MODELO DE RESPOSTA
+
+   Porque ela centraliza a resposta a dano. Em condições normais, a p53 é instável (MDM2
+   ubiquitina e degrada). Quando há lesão no DNA, sensores como ATM/ATR fosforilam
+   a p53, que escapa do MDM2 e acumula no núcleo. Lá, age como fator de transcrição,
+   induzindo dois alvos críticos: p21 (CKI que inibe G1/S-CDK, parando o ciclo para
+   permitir reparo) e pró-apoptóticos (PUMA, BAX) se o dano é irreparável. Sem p53
+   funcional, célula com DNA danificado continua proliferando, acumulando mutações --
+   combustível para tumorigênese. Por isso 50% dos cânceres humanos têm p53 inati
+   vada.
+
+       53
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um aluno escreveu: "A proteína Rb (retinoblastoma) é um ativador transcricional
+que se liga ao fator E2F e estimula a expressão dos genes da fase S. Quando a célula recebe sinal
+de mitógeno, a G1-CDK fosforila Rb, o que aumenta ainda mais essa ativação -- e o ciclo avança
+para S. Por isso, mutação que perde Rb (como no retinoblastoma) leva à parada do ciclo celular em
+G1." Aponte e corrija os erros, explicando o que de fato acontece.
+
+MODELO DE RESPOSTA
+
+O trecho inverte o papel da Rb em três pontos. Primeiro: a Rb não é ativadora do E2F --
+é inibidora. A Rb hipofosforilada se liga ao E2F e sequestra essa atividade transcricional.
+Segundo: a fosforilação da Rb pela G1-CDK (estimulada por mitógeno via ciclina D) libera
+o E2F, não "aumenta a ativação" do complexo Rb-E2F (que é justamente o complexo
+inibitório). Liberado, E2F transcreve ciclina E, dNTPs e maquinaria de replicação -- só
+aí o ciclo avança. Terceiro: perda de Rb (retinoblastoma, modelo two-hit de Knudson)
+deixa E2F permanentemente livre -- é o oposto de "parada em G1": o ciclo vira hiperpro
+liferativo, e o resultado é tumor.
+
+       54
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D     Q02 B         Q03 E     Q04 A  Q05 CECE
+Q06 C     Q07 B         Q08 ECEC  Q09 D  Q10 A
+
+INTEGRAÇÃO (Q11­Q25)    Q13 CEEC  Q14 D  Q15 A
+                        Q18 B     Q19 E  Q20 D
+Q11 B     Q12 E         Q23 C     Q24 B  Q25 E
+Q16 C     Q17 ECCE
+                        Q28 C     Q29 E  Q30 B
+Q21 CCEC  Q22 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 A     Q27 D
+
+                        62
+

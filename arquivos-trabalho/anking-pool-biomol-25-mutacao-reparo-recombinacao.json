@@ -1,0 +1,1619 @@
+{
+  "slug": "biomol-25-mutacao-reparo-recombinacao",
+  "gerado_em": "2026-07-05",
+  "tags_consulta": [
+    "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+    "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics",
+    "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+  ],
+  "regex": null,
+  "n_cards": 156,
+  "cards": [
+    {
+      "guid": "L)E/<&C=pK",
+      "deck": "AnKing Step Deck",
+      "front": "[ SIADH ] may be caused by drugs, which may be remembered with the mnemonic \" Ca n't C oncentrate S erum N a + \" [ Ca rbamazepine] [ C yclophosphamide] [ S SRIs] [ N SAIDs]",
+      "raw0": "<div>{{c1::<b>SIADH</b>}} may be caused by drugs, which may be remembered with the mnemonic \"<b>Ca</b>n't <b>C</b>oncentrate <b>S</b>erum <b>N</b>a<sup>+</sup>\"</div><br><div><div class=\"mnemonics\"><div>{{c1::<u>Ca</u>rbamazepine::<b>Ca</b>}}</div><div>{{c1::<u>C</u>yclophosphamide::<b>C</b>}}</div><div>{{c1::<u>S</u>SRIs::<b>S</b>}}</div><div>{{c1::<u>N</u>SAIDs::<b>N</b>}}</div></div></div>",
+      "back": "Also commonly seen with valproic acid",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "KY6^n>u4h_",
+      "deck": "AnKing Step Deck",
+      "front": "SIADH may be caused by drugs, which may be remembered with the mnemonic \"[ Ca n't C oncentrate S erum N a + ]\"",
+      "raw0": "<div><b>SIADH </b>may be caused by drugs, which may be remembered with the mnemonic \"{{c1::<b>Ca</b>n't <b>C</b>oncentrate <b>S</b>erum <b>N</b>a<sup>+</sup>}}\"</div>",
+      "back": "Ca rbamazepine C yclophosphamide S SRIs N SAIDs Also commonly seen with valproic acid",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "eC6.axc5D%",
+      "deck": "AnKing Step Deck",
+      "front": "Which type of DNA mutation causes the least severe damage? [Silent mutations]",
+      "raw0": "<div>Which type of <b>DNA</b> <b>mutation</b> causes the <u>least</u> severe damage? </div><br><div>{{c1::Silent mutations}}</div>",
+      "back": "Silent << missense < nonsense < frameshift [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Silent"
+      ]
+    },
+    {
+      "guid": "pXB9u{]WQp",
+      "deck": "AnKing Step Deck",
+      "front": "Which type of DNA mutation causes the most severe damage? [Frameshift mutations]",
+      "raw0": "<div><div>Which type of <b>DNA</b> <b>mutation</b> causes the <u>most</u> severe damage? </div><br><div>{{c1::Frameshift mutations}}</div></div>",
+      "back": "Frameshift > nonsense > missense >> silent [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::02_Other_mutations::*Frameshift"
+      ]
+    },
+    {
+      "guid": "h@*st8m~,p",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [transition] is a type of DNA mutation in which a purine is mutated to another purine (or pyrimidine to pyrimidine)",
+      "raw0": "<div>A(n) {{c1::transition}} is a type of <b>DNA mutation</b> in which a <u>purine</u> is mutated to another <u>purine</u> (or pyrimidine to pyrimidine)</div>",
+      "back": "Compared to a transversion in which a purine is mutated into a pyrimidine and vice versa",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics"
+      ]
+    },
+    {
+      "guid": "PE:l}h-apM",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [transversion] is a type of DNA mutation in which a purine is mutated into a pyrimidine , and vice versa",
+      "raw0": "<div>A(n) {{c1::transversion}} is a type of <b>DNA mutation</b> in which a <u>purine</u> is mutated into a <u>pyrimidine</u>, and vice versa</div>",
+      "back": "Compared to a transition in which a purine is mutated to another purine (or pyrimidine to pyrimidine )",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics"
+      ]
+    },
+    {
+      "guid": "ic5$^ZX*`8",
+      "deck": "AnKing Step Deck",
+      "front": "What class of DNA mutations are characterized by a single nucleotide change? [Point mutations]",
+      "raw0": "<div>What <u>class</u> of <b>DNA mutations</b> are characterized by a <i>single</i> nucleotide change? </div><br><div>{{c1::Point mutations}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics"
+      ]
+    },
+    {
+      "guid": "r]JU>+9q^n",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ silent ] mutation occurs when a nucleotide substitution codes for the same amino acid",
+      "raw0": "<div>A(n) {{c1::<b>silent</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for the <u>same</u> amino acid</div>",
+      "back": "Often a base change in 3rd position of codon (tRNA wobble) [img] Photo credit: Ultrabem , CC0, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Silent"
+      ]
+    },
+    {
+      "guid": "I>8b76*:kp",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ missense ] mutation occurs when a nucleotide substitution codes for a different amino acid",
+      "raw0": "<div>A(n) {{c1::<b>missense</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for a <u>different</u> amino acid</div>",
+      "back": "e.g., sickle cell disease (substitution of glutamic acid with valine) [img] Photo credit: Ultrabem , CC0, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::01_Single_nucleotide_substitutions::*Missense"
+      ]
+    },
+    {
+      "guid": "mr<L}a>Lp9",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ nonsense ] mutation occurs when a nucleotide substitution codes for a stop codon",
+      "raw0": "<div>A(n) {{c1::<b>nonsense</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for a <b>stop</b> codon</div>",
+      "back": "- \" STOP the NON sense\" - Usually results in a nonfunctional protein [img] Photo credit: Ultrabem , CC0, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Nonsense"
+      ]
+    },
+    {
+      "guid": "lEse#5m=+g",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ frameshift ] mutation occurs when there is a deletion or insertion of a number of nucleotides not divisible by [ 3 ], resulting in misreading of all nucleotides downstream",
+      "raw0": "<div>A(n) {{c1::<b>frameshift</b>}}<b> mutation</b> occurs when there is a <u>deletion</u> or <u>insertion</u> of a number of nucleotides <b>not divisible by </b>{{c2::<b>3</b>}}, resulting in misreading of all nucleotides downstream</div>",
+      "back": "Protein may be shorter or longer, and its function may be disrupted or altered; examples include Duchenne muscular dystrophy and Tay-Sachs disease [img] Photo credit: Genomics Education Programme , CC BY 2.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::02_Other_mutations::*Frameshift"
+      ]
+    },
+    {
+      "guid": "GR;`NKDqcm",
+      "deck": "AnKing Step Deck",
+      "front": "A mutation at a(n) [splice site] results in a retained intron in the mRNA, leading to a protein with impaired or altered function",
+      "raw0": "<div><div>A mutation at a(n) {{c1::splice site}} results in a <b>retained intron</b> in the mRNA, leading to a protein with impaired or altered function</div></div>",
+      "back": "Rare cause of cancers, dementia, epilepsy, some types of β-thalassemia, Gaucher disease, and Marfan syndrome",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::02_Other_mutations::*Splice"
+      ]
+    },
+    {
+      "guid": "D+aa%tW(nr",
+      "deck": "AnKing Step Deck",
+      "front": "What form of DNA repair fixes mutations induced by UV radiation ? [Nucleotide excision repair]",
+      "raw0": "<div><div>What form of <b>DNA repair</b> fixes mutations induced by <u>UV radiation</u>?</div><br><div>{{c1::Nucleotide excision repair}}</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "lW[I?/0%c~",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme that recognizes and excises pyrimidine dimer mutations is [excision endonuclease]",
+      "raw0": "<div><div>The enzyme that <u>recognizes</u> and <u>excises</u> <b>pyrimidine dimer</b> mutations is {{c1::excision endonuclease}}</div></div>",
+      "back": "Nucleotide excision repair [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "Q.s;;D]DTJ",
+      "deck": "AnKing Step Deck",
+      "front": "The enzymes that repair pyrimidine dimer mutations are [DNA polymerase] and [DNA ligase]",
+      "raw0": "<div><div>The enzymes that <u>repair</u> <b>pyrimidine dimer</b> mutations are {{c1::DNA polymerase}} and {{c1::DNA ligase}}</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "IC[-?&IFM7",
+      "deck": "AnKing Step Deck",
+      "front": "What phase of the cell cycle do nucleotide excision repairs occur in? [G 1 ]",
+      "raw0": "<div><div>What phase of the cell cycle do <b><u>nucleotide</u> excision repairs</b> occur in?</div><br><div>{{c1::G<sub>1</sub>}}</div></div>",
+      "back": "In contrast, BER occurs in all phases of the cell cycle and Mismatch Repair occurs predominantly in S [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "c@k7sMQ=X4",
+      "deck": "AnKing Step Deck",
+      "front": "Xeroderma pigmentosum is an inherited pathology due to a defective [nucleotide excision repair] pathway",
+      "raw0": "<b>Xeroderma pigmentosum</b> is an inherited pathology due to a defective {{c1::nucleotide excision repair}} pathway",
+      "back": "- This is inherited in an autosomal recessive manner - Can diagnose by measurement of repair mechanisms in WBCs Corneal scarring/ulceration, hyperkeratotic lesions, freckles, etc.: [img] Photo credit: James Halpern, Bryan Hopping and Joshua M Brostoff , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "r`u]y>!z0z",
+      "deck": "AnKing Step Deck",
+      "front": "DNA replication errors lead to [mismatch base] mutations",
+      "raw0": "<div><div><b>DNA replication</b> <b>errors</b> lead to {{c1::mismatch base}} mutations</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair"
+      ]
+    },
+    {
+      "guid": "j5%ty!0_;K",
+      "deck": "AnKing Step Deck",
+      "front": "What form of DNA repair fixes mutations due to DNA replication errors? [Mismatch repair]",
+      "raw0": "<div><div><div>What form of <b>DNA repair</b> fixes mutations due to DNA replication errors?</div><br><div>{{c1::Mismatch repair}}</div></div></div>",
+      "back": "- Very important for maintaining microsatellite stability (DNA slippage can occur easily at these sites) - Problems with this can lead to colon cancer",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair"
+      ]
+    },
+    {
+      "guid": "vR?Jy5`A.u",
+      "deck": "AnKing Step Deck",
+      "front": "Recognition and facilitation of excision of [mismatched nucleotides] occur via enzymes found on two genes: [ MSH2 ( MutS )] or [ MLH1 ( MutL )]",
+      "raw0": "<div><div><u>Recognition</u> and <u>facilitation of excision</u> of <b>{{c2::mismatched nucleotides}}</b> occur via enzymes found on <b>two</b> genes: {{c1::<b>MSH2 </b>(<b>MutS</b>)}} or {{c1::<b>MLH1 </b>(<b>MutL</b>)}} </div></div>",
+      "back": "- MutS recognizes the mismatch on the newly-created daughter strand (distinguished from parent strand by occasional nicks in the daughter strand phosphodiester bonds) - MutL is then recruited and slides along the DNA until MutL encounters a nick in the daughter strand - Exonuclease 1 is then loaded onto the repair complex and activated to excises the mismatch - Mutations in these genes account for 90% of cases of Lynch syndrome",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "hI.2A*H,wo",
+      "deck": "AnKing Step Deck",
+      "front": "The enzymes that repair mismatched base mutations after excision are [DNA polymerase] and [DNA ligase]",
+      "raw0": "<div><div>The enzymes that <u>repair</u> <b>mismatched base</b> mutations after excision are {{c1::DNA polymerase}} and {{c1::DNA ligase}}</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair"
+      ]
+    },
+    {
+      "guid": "qnq8(jlSSs",
+      "deck": "AnKing Step Deck",
+      "front": "What pathology is characterized by a deficiency of the enzymes used in mismatch base repair ? [Lynch syndrome]",
+      "raw0": "<div><div>What pathology is characterized by a deficiency of the <u>enzymes</u> used in <b>mismatch base repair</b>? </div><br><div>{{c1::Lynch syndrome}}</div></div>",
+      "back": "- Mutations in various DNA mismatch repair genes (MLH1, MSH2, MSH6, PMS2, etc.) cause microsatellite instability - AKA hereditary nonpolyposis colorectal cancer (HNPCC) - Leads to colon cancer with microsatellite instability (DNA slippage can occur easily at these sites)",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "l!FX2NoKea",
+      "deck": "AnKing Step Deck",
+      "front": "What phase of the cell cycle do mismatch base repairs predominantly occur? [S]",
+      "raw0": "<div><div>What phase of the cell cycle do <b>mismatch base repairs</b> <u>predominantly</u> occur?</div><br><div>{{c1::S}}</div></div>",
+      "back": "- Some also occur in G 2 - Whereas NER occurs in G 1 and BER occurs throughout cell cycle [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Mismatch_Repair"
+      ]
+    },
+    {
+      "guid": "Bi84|O=k+u",
+      "deck": "AnKing Step Deck",
+      "front": "[Deamination (e.g., cytosine to uracil)] is a mutation that may occur spontaneously or due to heat or nitrates",
+      "raw0": "<div><div>{{c1::Deamination (e.g., cytosine to uracil)}} is a mutation that may occur <u>spontaneously</u> or due to <u>heat</u> or <u>nitrates</u> </div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "nwqw5t7dZE",
+      "deck": "AnKing Step Deck",
+      "front": "What form of DNA repair fixes mutations due to spontaneous/toxic deamination ? [Base excision repair]",
+      "raw0": "What form of <b>DNA repair</b> fixes mutations due to spontaneous/toxic <u>deamination</u>?<br><br>{{c1::Base excision repair}}",
+      "back": "i.e., deamination, oxidation, etc.",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "L~df8dsgh<",
+      "deck": "AnKing Step Deck",
+      "front": "In base excision repair , base-specific [glycosylases] remove the altered base and create a(n) [AP (apurinic/apyrimidinic)] site",
+      "raw0": "In <b>base excision repair</b>, base-specific {{c1::glycosylases}} <u>remove</u> the altered base and create a(n) {{c2::AP (apurinic/apyrimidinic)}} site",
+      "back": "e.g., cytosine deamination is repaired with uracil glycosylase GEL PL ease 1. G lycosylase: removes the altered base 2. E ndonuclease: cuts the nucleotide at 5' end 3. L yase: cuts the nucleotide at 3' end 4. P olymerase: fills 5. L igase: seals",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "AX`Nu.<oXc",
+      "deck": "AnKing Step Deck",
+      "front": "Which base excision repair enzyme is responsible for removing nucleotides at the 5' end ? [AP-endonuclease]",
+      "raw0": "<div><div>Which <b>base excision repair </b>enzyme is responsible for <u>removing nucleotides</u> at the <b>5' end</b>?</div><br><div>{{c1::AP-endonuclease}} </div></div>",
+      "back": "GEL PL ease 1 G lycosylase: removes the altered base 2 E ndonuclease: cuts the nucleotide at 5' end 3 L yase: cuts the nucleotide at 3' end 4 P olymerase: fills 5 L igase: seals",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "CCYove%ykX",
+      "deck": "AnKing Step Deck",
+      "front": "Which base excision repair enzyme is responsible for removing nucleotides at the 3' end ? [Lyase]",
+      "raw0": "Which <b>base excision repair </b>enzyme is responsible for <u>removing nucleotides</u> at the <b>3' end</b>?<br><br>{{c1::Lyase}}",
+      "back": "GEL PL ease: 1. G lycosylase: removes the altered base 2. E ndonuclease: cuts the nucleotide at 5' end 3. L yase: cuts the nucleotide at 3' end 4. P olymerase: fills 5. L igase: seals",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "Go;EIbKA/5",
+      "deck": "AnKing Step Deck",
+      "front": "Which base excision repair enzymes are responsible for filling and sealing the gap from the excised bases ? [DNA polymerase-β] (filling) and [DNA ligase III] (sealing)",
+      "raw0": "Which <b>base excision repair </b>enzymes are responsible for <u>filling</u> and <u>sealing</u> the gap from the <b>excised</b> <b>bases</b>?<br><br>{{c1::DNA polymerase-β::specific}} (filling) and {{c1::DNA ligase III::specific}} (sealing)",
+      "back": "GEL PL ease: 1. G lycosylase: removes the altered base 2. E ndonuclease: cuts the nucleotide at 5' end 3. L yase: cuts the nucleotide at 3' end 4. P olymerase: fills 5. L igase: seals",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "BDPa|Qtk0[",
+      "deck": "AnKing Step Deck",
+      "front": "What phase of the cell cycle do base excision repairs occur in? [Throughout the cell cycle]",
+      "raw0": "<div><div>What phase of the cell cycle do <b><u>base</u> excision repairs</b> occur in?</div><br><div>{{c1::Throughout the cell cycle}}</div></div>",
+      "back": "NER occurs in G 1 and mismatch occurs predominantly in S [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "CH5,lE)SfO",
+      "deck": "AnKing Step Deck",
+      "front": "Which forms of DNA repair repairs double-stranded breaks (due to ionizing radiation) ? [Nonhomologous end joining (NHEJ)] and [homologous recombination]",
+      "raw0": "<div><div>Which forms of <b>DNA repair</b> repairs double-stranded breaks (due to <u>ionizing radiation)</u>?</div><br><div>{{c1::Nonhomologous end joining (NHEJ)}} and {{c2::homologous recombination}}</div></div>",
+      "back": "[img] Photo credit: frontiersin [ Frontiers | Novel Genome-Editing Tools to Model and Correct Primary Immunodeficiencies (frontiersin.org) ] [img] Photo credit: Hannes Lans, Jurgen A Marteijn and Wim Vermeulen , CC BY 2.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "yJHBa-OsDW",
+      "deck": "AnKing Step Deck",
+      "front": "Mechanisms to repair [ dsDNA ] breaks are defective in ataxia telangiectasia , Fanconi anemia, and might be defective in SCID",
+      "raw0": "<div>Mechanisms to <u>repair</u> {{c1::<b>dsDNA</b>}} breaks are <i>defective</i> in <b>ataxia telangiectasia</b>, <b>Fanconi</b> anemia, and might be defective in <b>SCID</b></div>",
+      "back": "Due to defects in the ATM protein, FANC enzymes, and Artemis enzyme respectively",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "E4eVPZjde_",
+      "deck": "AnKing Step Deck",
+      "front": "What anti-neoplastic agents may cause interstitial restrictive lung disease ? [Bleomycin], [busulfan], [methotrexate], and procarbazine",
+      "raw0": "<div>What <u>anti-neoplastic agents</u> may cause <i>interstitial </i><b>restrictive lung disease</b>? </div><br><div>{{c1::Bleomycin}}, {{c2::busulfan}}, {{c3::methotrexate}}, and procarbazine</div>",
+      "back": "Mnemonic: B reathing B ecomes M ore P roblematic ( B leomycin, B usulfan, M ethotrexate, and P rocarbazine)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "E8)-)MR*|Z",
+      "deck": "AnKing Step Deck",
+      "front": "What drugs are risk factors for urothelial carcinoma ? [Cyclophosphamide, phenacetin]",
+      "raw0": "<div>What <i>drugs</i> are <u>risk factors</u> for <b>urothelial carcinoma</b>? </div><br><div>{{c1::Cyclophosphamide, phenacetin::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "z7cS(>Q]~*",
+      "deck": "AnKing Step Deck",
+      "front": "Lynch syndrome and some sporadic colorectal carcinomas arise via the [microsatellite] instability pathway",
+      "raw0": "<b>Lynch syndrome</b> and <i>some</i> <u>sporadic</u><b> colorectal carcinomas</b> arise via the {{c1::microsatellite}} instability pathway",
+      "back": "i.e., the serrated polyp pathway",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "OyI#+A54^4",
+      "deck": "AnKing Step Deck",
+      "front": "[ Lynch ] syndrome is due to an inherited defect in [ DNA mismatch repair ] enzymes , resulting in microsatellite instability",
+      "raw0": "<div>{{c1::<b>Lynch</b>}} <b>syndrome</b> is due to an <i>inherited</i> defect in {{c2::<b>DNA mismatch repair</b>}} <b>enzymes</b>, resulting in microsatellite instability</div>",
+      "back": "MSH2, MLH1",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "mG/B]LuN4x",
+      "deck": "AnKing Step Deck",
+      "front": "Lynch syndrome was previously known as [hereditary nonpolyposis colorectal cancer (HNPCC)]",
+      "raw0": "<div><b>Lynch syndrome</b> was previously known as {{c1::hereditary nonpolyposis colorectal cancer (HNPCC)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "zCtg!Bjb*Q",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of Lynch syndrome (HNPCC)? [Autosomal dominant]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>Lynch syndrome</b> (HNPCC)? </div><br><div>{{c1::Autosomal dominant}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "N&vezt1I^=",
+      "deck": "AnKing Step Deck",
+      "front": "Lynch syndrome progresses to [ colorectal ] carcinoma in ~ 80% of patients",
+      "raw0": "<b>Lynch syndrome</b> progresses to {{c1::<u>colorectal</u>}}<u> carcinoma</u> in ~ 80% of patients",
+      "back": "Colorectal carcinoma: [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "kx2b%y(!}B",
+      "deck": "AnKing Step Deck",
+      "front": "Lynch syndrome is usually [ right ] -sided and always involves the [ proximal ] colon",
+      "raw0": "<div><b>Lynch syndrome</b> is usually {{c1::<b>right</b>::left or right}}<b>-sided</b> and <i>always</i> involves the {{c1::<b>proximal</b>::proximal or distal}} <b>colon</b></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "vW|PX{s-1W",
+      "deck": "AnKing Step Deck",
+      "front": "Lynch syndrome is an autosomal dominant condition associated with increased risk for [ colorectal ], [ endometrial ], [ ovarian ], and gastric cancers",
+      "raw0": "<div><b>Lynch syndrome</b> is an <i>autosomal dominant </i>condition associated with <u>increased</u> risk for {{c1::<b>colorectal</b>}}, {{c2::<b>endometrial</b>}}, {{c3::<b>ovarian</b>}}, and <b>gastric</b> cancers</div>",
+      "back": "- Mnemonic: \"CEO of gastric cancer\" - Prophylactic hysterectomy and bilateral oophorectomy are recommended at age 40 or after childbearing is complete (patients with a uterus should have annual endometrial biopsies beginning at age 30-35) - Minor risk for small bowel, hepatobiliary, & skin cancers",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::01_Lynch_Syndrome"
+      ]
+    },
+    {
+      "guid": "lKN<jXY(aB",
+      "deck": "AnKing Step Deck",
+      "front": "GAS erythrogenic toxin genes are encoded in a [ lysogenic ] phage through specialized transduction",
+      "raw0": "<u>GAS erythrogenic toxin</u> genes are encoded in a {{c1::<b>lysogenic</b>::lytic or lysogenic}} <b>phage</b> through <i>specialized</i> transduction",
+      "back": "Group A Streptococcus (GAS) erythrogenic toxin [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "bN?8iU{-SN",
+      "deck": "AnKing Step Deck",
+      "front": "[Vancomycin] resistance occurs in Enterococcus spp. ([VRE]) via amino acid modification of D-Ala-D-[Ala] to D-Ala-D-[Lac]",
+      "raw0": "{{c1::Vancomycin}} resistance occurs in <b><i>Enterococcus spp. </i></b>({{c1::VRE}}) via amino acid modification of D-Ala-D-{{c2::Ala}} to D-Ala-D-{{c2::Lac}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "E-pqB(_lO?",
+      "deck": "AnKing Step Deck",
+      "front": "[ VanA ] gene from vancomycin-resistant Enterococcus to S. aureus is an example of [ transposition ]",
+      "raw0": "{{c2::<b>VanA</b>}} <b>gene</b> from <u>vancomycin-resistant</u> <i>Enterococcus</i> to <i>S. aureus</i> is an example of {{c1::<b>transposition</b>}}",
+      "back": "[img] Photo credit: Alana Gyemi , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "xHI}acv[~6",
+      "deck": "AnKing Step Deck",
+      "front": "[ Ataxia-telangiectasia ] is due to defects in the [ ATM ] gene",
+      "raw0": "<div>{{c2::<b>Ataxia-telangiectasia</b>}} is due to <u>defects</u> in the {{c1::<b><i>ATM</i></b>}} <b>gene</b></div>",
+      "back": "- ATM = A taxia- T elangiectasia M utated (gene) - Failure in nonhomologous end joining [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "nW,)*Z3hL4",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is always caused by failure to repair DNA double strand breaks ? [Ataxia-telangiectasia]",
+      "raw0": "<div>Which <u>immunodeficiency</u> is <i>always </i>caused by <b>failure to repair DNA double strand breaks</b>? </div><br><div>{{c1::Ataxia-telangiectasia}}</div>",
+      "back": "- Results in unrestricted cell cycle progression (resulting in mutations accumulating) and DNA hypersensitivity to ionizing radiation - VDJ recombination requires double-strand breaks to occur; without ATM gene, these are hard to repair (resulting in a weakened immune system) - Defects in dsDNA repair are also a rare cause of SCID (due to defective Artemis enzyme) [img]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "HlBR(B.F(c",
+      "deck": "AnKing Step Deck",
+      "front": "A taxia- T elangiectasi A presents with a triad of: [ A taxia (cerebellar defects)] [ T elangiectasia (spider angiomas)] [Ig A , G , and E deficiency]",
+      "raw0": "<div><u><b>A</b></u>taxia-<u><b>T</b></u>elangiectasi<b><u>A</u> </b>presents with a <u>triad</u> of:</div><div><br><div class=\"mnemonics\"><div>{{c1::<u>A</u>taxia (cerebellar defects)::<b>A</b>}}</div><div>{{c1::<u>T</u>elangiectasia (spider angiomas)::<b>T</b>}}</div><div>{{c1::Ig<u><b>A</b></u>,<b> G</b>,<b> </b>and<b> E</b> deficiency::<b>A</b>}}</div></div><div> </div></div>",
+      "back": "- Lymphopenia and cerebellar atrophy - Toddlers wobble and sway when walking (almost appear drunk) - Patients also present with slurred / distorted speech , dysphagia , and oculomotor apraxia - Telangiectasias erupt on skin and eye, early aging (premature greying of hair) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "Ey$R{[2l-d",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is associated with increased serum alpha-fetoprotein (AFP)? [Ataxia-telangiectasia]",
+      "raw0": "<div><div>Which <u>immunodeficiency</u> is associated with <b>increased </b>serum<b> alpha-fetoprotein</b> (AFP)? </div><br><div>{{c1::Ataxia-telangiectasia}}</div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "DPv0<JHrn:",
+      "deck": "AnKing Step Deck",
+      "front": "What classes of immunoglobulin are decreased in ataxia-telangiectasia ? [IgA, IgG, and IgE]",
+      "raw0": "<div><div>What classes of <u>immunoglobulin</u> are <i>decreased</i> in <b>ataxia-telangiectasia</b>? </div><br><div>{{c1::IgA, IgG, and IgE}}</div></div>",
+      "back": "- A n G i E doesn't AGE - Thus recurrent sinopulmonary infections [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "sr7EH9oNv:",
+      "deck": "AnKing Step Deck",
+      "front": "Ataxia-telangiectasia is associated with increased risk of [ lymphoma ] and [ leukemia ]",
+      "raw0": "<div><b>Ataxia-telangiectasia</b> is associated with <u>increased</u> risk of {{c1::<b>lymphoma</b>}} and {{c2::<b>leukemia</b>}}</div>",
+      "back": "- Te LL angiectasia = L eukemia and L ymphoma - Increased risk due to lack of surveillance [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "Nl.<1f*/9^",
+      "deck": "AnKing Step Deck",
+      "front": "What is the major risk factor for basal cell carcinoma ? [UVB radiation]",
+      "raw0": "<div>What is the major <u>risk factor</u> for <b>basal cell carcinoma</b>? </div><br><div>{{c1::UVB radiation}}</div>",
+      "back": "UV- B for B asal cell e.g., prolonged exposure to sunlight, albinism, xeroderma pigmentosum [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "wA`J$(*4Fz",
+      "deck": "AnKing Step Deck",
+      "front": "The most significant risk factor for cutaneous squamous cell carcinoma (cSCC) is [UVB]-induced DNA damage",
+      "raw0": "The most significant risk factor for <b>cutaneous squamous cell carcinoma</b> (cSCC) is {{c1::UVB::specific}}-induced DNA damage",
+      "back": "- e.g., prolonged exposure to sunlight, albinism, xeroderma pigmentosum - Other risk factors for cSCC include smoking, chronic immunosuppression, chemical carcinogens, ionizing radiation, and chronic skin damage [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "cpzgMI)Zic",
+      "deck": "AnKing Step Deck",
+      "front": "\"Busulfan lung\" is the term for the [ fibrotic ] pattern of lung damage which can be caused by busulfan",
+      "raw0": "<div><div><div><b>\"Busulfan lung\" </b>is the term for the {{c1::<b>fibrotic</b>}} pattern of lung damage which can be caused by <b>busulfan</b></div></div></div>",
+      "back": "[img] Photo credit: James Heilman, MD, CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "uXVM?pZdn%",
+      "deck": "AnKing Step Deck",
+      "front": "Busulfan chemotherapy is associated with a(n) [ hyperpigmentation ] reaction",
+      "raw0": "<div><div><div><b>Busulfan</b> chemotherapy is associated with a(n) {{c1::<b>hyperpigmentation</b>::skin}}<b> </b>reaction</div></div></div>",
+      "back": "This is known as a \"busulfan tan\" [img] Photo credit: Onetwo1, CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "c!p%)c,BF_",
+      "deck": "AnKing Step Deck",
+      "front": "Busulfan is used to treat [ chronic myeloid ] leukemia",
+      "raw0": "<div><div><div><div><div><div><b>Busulfan</b> is used to treat {{c1::<b>chronic myeloid</b>}} <b>leukemia</b></div></div></div></div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "LdIs|8+$E9",
+      "deck": "AnKing Step Deck",
+      "front": "Nitrosoureas require bioactivation by [ cytochrome p450 ] enzymes to be effective",
+      "raw0": "<div><div><div><b>Nitrosoureas</b> require bioactivation by {{c1::<b>cytochrome p450</b>}} enzymes to be effective</div></div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "xS:A.z>D<-",
+      "deck": "AnKing Step Deck",
+      "front": "Nitrosoureas are able to penetrate the [ blood-brain barrier ], making them especially useful for tumors of the [ central nervous system ]",
+      "raw0": "<div><div><b>Nitrosoureas</b> are able to penetrate the {{c1::<b>blood-brain barrier</b>}}, making them especially useful for tumors of the {{c2::<b>central nervous system</b>}}</div></div>",
+      "back": "- Including glioblastoma multiforme - Because they can penetrate the blood-brain barrier, worry about CNS side effects (convulsions, dizziness, ataxia)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "Cfz68=1I%n",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide is selective for cells that express low / no levels of [aldehyde dehydrogenase]",
+      "raw0": "<div><b style=\"font-weight: bold;\">Cyclophosphamide</b> is selective for cells that express <u>low / no levels</u> of <b>{{c1::aldehyde dehydrogenase::enzyme}}</b></div>",
+      "back": "Thus is selective for cells like lymphocytes [img] Photo credit: ClinMed International Library [ http://clinmedjournals.org/articles/ijdrt/journal-of-dermatology-research-and-therapy-ijdrt-2-019.php?jid=ijdrt ]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "E.zM*glZ*i",
+      "deck": "AnKing Step Deck",
+      "front": "Bioactivation of -phosphamides creates a highly cytotoxic side product known as [ acrolein ], which can cause [ hemorrhagic cystitis ]",
+      "raw0": "<div>Bioactivation of<b> -phosphamides</b> creates a highly cytotoxic side product known as {{c1::<b>acrolein</b>}}, which can cause {{c2::<b>hemorrhagic cystitis</b>}}</div>",
+      "back": "- Acrolein causes bladder toxicity → bleeding - Cyclophosphamide and ifosfamide metabolites accumulate in the bladder - Mesna prevents hemorrhagic cystitis by binding acrolein. It protects the bladder urothelium and is given before and after chemotherapy [img] Photo credit: ClinMed International Library [ http://clinmedjournals.org/articles/ijdrt/journal-of-dermatology-research-and-therapy-ijdrt-2-019.php?jid=ijdrt ] [img] Photo credit: Internet Archive Book Images, No restrictions, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "wnXuwc2:!i",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide is especially suited for neoplasias of [ immune ] cells, while cyclophosphamide and ifosfamide can both be used for [ solid ] malignancies",
+      "raw0": "<div><b>Cyclophosphamide</b> is especially suited for neoplasias of {{c2::<u>immune</u>}} cells, while <b>cyclophosphamide </b>and <b>ifosfamide </b>can <u>both</u> be used for {{c1::<b>solid</b>}} malignancies</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "G?py&go2O@",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide can be used as an immunosuppressant for the treatment of [ lupus ] nephritis , as well as for systemic [ vasculitides ]",
+      "raw0": "<div><div><b>Cyclophosphamide</b> can be used as an immunosuppressant for the treatment of {{c1::<b>lupus</b>}} <b>nephritis</b>, as well as for <b>systemic</b> {{c2::<b>vasculitides</b>}} </div></div>",
+      "back": "- e.g., eosinophilic granulomatosis with polyangiitis (EGPA), microscopic polyangiitis, IgA vasculitis (Henoch-Schönlein purpura), granulomatosis with polyangiitis (GPA), polyarteritis nodosa - When given for vasculitides, often given with corticosteroids [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "g4xD2+frf9",
+      "deck": "AnKing Step Deck",
+      "front": "[ Cyclophosphamide ] can cause a congenital syndrome which may be remembered with the mnemonic \"con GEAL \": [ G rowth restriction] [ E ar and facial abnormalities] [ A bsence of digits] [ L imb hypoplasia]",
+      "raw0": "<div>{{c1::<b>Cyclophosphamide</b>}}<b> </b>can cause a congenital syndrome which may be remembered with the mnemonic \"con<b>GEAL</b>\":</div><div><div class=\"mnemonics\"><br><div>{{c1::<u>G</u>rowth restriction::<b>G</b>}}</div><div>{{c1::<u>E</u>ar and facial abnormalities::<b>E</b>}}</div><div>{{c1::<u>A</u>bsence of digits::<b>A</b>}}</div><div>{{c1::<u>L</u>imb hypoplasia::<b>L</b>}}</div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "I~iv6FOOXC",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide can cause a congenital syndrome which may be remembered with the mnemonic [con GEAL ]",
+      "raw0": "<div><b>Cyclophosphamide</b><b> </b>can cause a congenital syndrome which may be remembered with the mnemonic {{c1::con<b>GEAL</b>}}</div>",
+      "back": "G rowth restriction E ar and facial abnormalities A bsence of digits L imb hypoplasia",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "m%eL;Kz=CC",
+      "deck": "AnKing Step Deck",
+      "front": "Ifosfamide can cause a generalized reabsorptive defect in the [ proximal convoluted ] tubule",
+      "raw0": "<div><div><b>Ifosfamide </b>can cause a generalized reabsorptive defect in the {{c1::<b>proximal convoluted</b>}}<b> tubule</b></div></div>",
+      "back": "This defect is also known as Fanconi syndrome",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "r&`FW|Y2Y#",
+      "deck": "AnKing Step Deck",
+      "front": "Non-ionizing radiation causes carcinogenesis by generating [pyrimidine dimers]",
+      "raw0": "<b>Non-ionizing radiation</b> causes carcinogenesis by generating {{c1::pyrimidine dimers}}",
+      "back": "- These are normally excised by the nucleotide excision repair (NER) pathway, but excess UV-B can overwhelm this system - Patients who have xeroderma pigmentosum have a faulty NER pathway, thus are very susceptible to non-ionizing radiation [img] Photo credit: Wikimedia Commons , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "e.EMV?Q=L=",
+      "deck": "AnKing Step Deck",
+      "front": "Small DNA within the cells of bacteria that replicate independently are known as [plasmids]",
+      "raw0": "<b>Small DNA</b> <i>within</i> the <u>cells of bacteria</u> that <b>replicate independently</b> are known as {{c1::plasmids}}",
+      "back": "- Can contain genes for antibiotic resistance or toxins - Can be transferred from one bacteria to another [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+      ]
+    },
+    {
+      "guid": "DmRfS)Hb1-",
+      "deck": "AnKing Step Deck",
+      "front": "[Transformation] is a way that bacteria uptake DNA from their surrounding environment",
+      "raw0": "{{c1::Transformation}} is a way that bacteria <u>uptake DNA</u> from their <b>surrounding environment</b>",
+      "back": "Naked DNA which is genetic material not associated with lipids or proteins [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+      ]
+    },
+    {
+      "guid": "K:k2!n?y;d",
+      "deck": "AnKing Step Deck",
+      "front": "Addition of [DNAse] will degrade any naked DNA present in a culture medium, inhibiting any bacterial transformation",
+      "raw0": "Addition of {{c1::DNAse}} will <i>degrade</i> any <b>naked DNA</b> present in a culture medium, <i>inhibiting</i> any <u>bacterial transformation</u>",
+      "back": "Recall that transformation is incorporation of naked DNA from environment into bacteria [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+      ]
+    },
+    {
+      "guid": "k`c7C8XTK)",
+      "deck": "AnKing Step Deck",
+      "front": "[Conjugation] involves bacteria extending a sex pilus , allowing exchange of DNA between two different strains",
+      "raw0": "{{c1::Conjugation}} involves bacteria extending a <b>sex pilus</b>, allowing <u>exchange of DNA</u> between two different strains",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+      ]
+    },
+    {
+      "guid": "zz:SZGvcAK",
+      "deck": "AnKing Step Deck",
+      "front": "[High frequency] strains of bacteria will take [plasmids] and incorporate them into their cellular DNA",
+      "raw0": "<u>{{c1::High frequency}} strains of bacteria</u> will take <b>{{c2::plasmids}}</b> and <i>incorporate</i> them <u>into</u> <b>their cellular DNA</b>",
+      "back": "AKA high-frequency recombination cell (Hfr) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+      ]
+    },
+    {
+      "guid": "d>157HCw+z",
+      "deck": "AnKing Step Deck",
+      "front": "When high frequency strains of bacteria undergo [ conjugation ], they transfer their [bacterial] genome with the plasmid to the recipient",
+      "raw0": "When <b>high frequency strains</b> of bacteria undergo {{c1::<u>conjugation</u>}}, they transfer their <b>{{c2::bacterial}} genome</b> <i>with the plasmid</i> to the recipient",
+      "back": "Known as Hfr * F- conjugation [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+      ]
+    },
+    {
+      "guid": "LY!}:t.}<^",
+      "deck": "AnKing Step Deck",
+      "front": "In normal conjugation , is there transfer of bacterial chromosomal DNA? [No - normal conjugation involves transfer of plasmids only ]",
+      "raw0": "In <b>normal conjugation</b>, is there transfer of bacterial <u>chromosomal</u> DNA?<br><br><div>{{c1::No - normal conjugation involves transfer of <b><u>plasmids only</u></b>}}</div>",
+      "back": "Hfr will transfer chromosomal DNA w/ plasmid [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+      ]
+    },
+    {
+      "guid": "J6%1p:Z$]]",
+      "deck": "AnKing Step Deck",
+      "front": "[Transformation] is used to amplify DNA",
+      "raw0": "{{c1::Transformation::Which bacterial genetics phenomenon}} is used to <b>amplify DNA</b>",
+      "back": "Place any DNA into the environment, the bacteria will take it up and continue to replicate with it [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+      ]
+    },
+    {
+      "guid": "B.(q}?q5pp",
+      "deck": "AnKing Step Deck",
+      "front": "[Conjugation] of high-frequency bacterial strains allows us to perform genetic mapping",
+      "raw0": "{{c1::Conjugation}} of <b>high-frequency</b> bacterial strains allows us to perform <b><u>genetic mapping</u></b>",
+      "back": "Hfr will transfer chromosomal DNA w/ plasmid - we see where the plasmid incorporates into the bacterial DNA [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+      ]
+    },
+    {
+      "guid": "O,cjH!MqgS",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [bacteriophage] is a virus that infects bacteria",
+      "raw0": "A(n) {{c1::bacteriophage}} is a <u>virus</u> that <i>infects</i> <b>bacteria</b>",
+      "back": "AKA a \" phage \"",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange"
+      ]
+    },
+    {
+      "guid": "KsEZ(/%&6C",
+      "deck": "AnKing Step Deck",
+      "front": "[Transduction] describes the transfer of DNA from one bacteria to another via a bacteriophage",
+      "raw0": "{{c1::Transduction}} describes the <i>transfer of DNA</i> <u>from one bacteria to another</u> via a <b>bacteriophage</b>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "hu+Z.L7gM1",
+      "deck": "AnKing Step Deck",
+      "front": "What are the two types of bacterial transduction ? [Generalized and specialized]",
+      "raw0": "What are the two types of <b>bacterial</b> <u>transduction</u>?<br><br><div>{{c1::Generalized and specialized}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "xOTGW!/!Vb",
+      "deck": "AnKing Step Deck",
+      "front": "[ Generalized ] bacterial DNA transduction occurs when a(n) [ lytic ] phage infects the bacterium",
+      "raw0": "{{c1::<b>Generalized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when a(n) {{c2::<b>lytic</b>::lytic or lysogenic}} phage infects the bacterium",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "bl@4$z8hs_",
+      "deck": "AnKing Step Deck",
+      "front": "[ Specialized ] bacterial DNA transduction occurs when a(n) [ lysogenic ] phage infects the bacterium",
+      "raw0": "{{c1::<b>Specialized</b>::Generalized or specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when a(n) {{c2::<b>lysogenic</b>::lytic or lysogenic}} phage infects the bacterium",
+      "back": "Incorporates into bacterial DNA, when the DNA is lysed, the bacterial DNA is lysed with it [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "M6bO9o}ogN",
+      "deck": "AnKing Step Deck",
+      "front": "[ Generalized ] bacterial DNA transduction occurs when bacterial chromosomal DNA is packaged in the phage , resulting in transfer of bacterial DNA with lysis of the bacteria",
+      "raw0": "{{c1::<b>Generalized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when <u>bacterial chromosomal DNA</u> is <i>packaged in the phage</i>, resulting in <b>transfer of bacterial DNA</b> with lysis of the bacteria",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "Dyn=#zdaj,",
+      "deck": "AnKing Step Deck",
+      "front": "[ Specialized ] bacterial DNA transduction stems from incorporation of viral DNA into bacterial DNA; excision of viral DNA results in excision of bacterial DNA as well",
+      "raw0": "{{c1::<b>Specialized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> stems from incorporation of viral DNA into bacterial DNA; <i>excision of viral DNA</i> <u>results in excision of bacterial DNA as well</u>",
+      "back": "[img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "L<t.E_=<%7",
+      "deck": "AnKing Step Deck",
+      "front": "The [lytic] cycle is when a phage injects nuclear material into preexisting bacterial DNA, multiplies, and then lyses the cell , releasing the new viruses",
+      "raw0": "The {{c1::lytic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA, </i><b>multiplies,</b> and then <u>lyses the cell</u>, releasing the new viruses",
+      "back": "During generalized transduction , the new viruses may be carrying bacterial DNA [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "fkEX<Ki}J,",
+      "deck": "AnKing Step Deck",
+      "front": "The [lysogenic] cycle is when a phage injects nuclear material into preexisting bacterial DNA and it is incorporated into the host DNA",
+      "raw0": "The {{c1::lysogenic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA </i>and it is <b>incorporated into the host DNA</b>",
+      "back": "May later become excised and enter the lytic phase - certain triggers such as UV light can causes lysis and release the phages [img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "sJjey-*@a.",
+      "deck": "AnKing Step Deck",
+      "front": "Phages that only replicate via the lytic cycle are known as [virulent]",
+      "raw0": "<u>Phages</u> that only replicate via the <b>lytic cycle</b> are known as {{c1::virulent}}",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "r<Z6gLLWl?",
+      "deck": "AnKing Step Deck",
+      "front": "Phages that replicate via both the lytic and lysogenic cycle are known as [temperate]",
+      "raw0": "<u>Phages</u> that replicate via both the <b>lytic and lysogenic cycle</b> are known as {{c1::temperate}}",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "i*o2F3tm?-",
+      "deck": "AnKing Step Deck",
+      "front": "[Lysogeny] allows for non-toxic strains of DNA to obtain bacterial toxins",
+      "raw0": "{{c1::Lysogeny}} allows for <b>non-toxic strains of DNA</b> to <u>obtain bacterial toxins</u>",
+      "back": "Viral DNA is incorporated into host DNA, encoding for bacterial toxins [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "k@rSelUHzZ",
+      "deck": "AnKing Step Deck",
+      "front": "[ Transposition ] describes a(n) [ transposon ] of bacterial DNA that can \" jump \" from one location to another (e.g., bacterial DNA or even a plasmid )",
+      "raw0": "{{c1::<u>Transposition</u>}} describes a(n) {{c2::<b>transposon</b>}} of <b>bacterial DNA</b> that can \"<i>jump</i>\" from one location to another (e.g., <u>bacterial DNA or even a plasmid</u>)",
+      "back": "- Bacterial resistance can be conferred this way - a bacterium that is resistant to a certain antibiotic can encode for this resistance via a transposon - The transposon can jump to a plasmid and this plasmid can be transferred to another bacterium via conjugation - This transposon can then jump back from the plasmid to the new bacterial DNA, conferring antibiotic resistance in the new bacterium",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "7kfGkn!LF",
+      "deck": "AnKing Step Deck",
+      "front": "In transposition of bacterial DNA , a(n) [ transposon ] can move to a(n) [ plasmid ], allowing transfer to another bacterium via [ conjugation ]",
+      "raw0": "In <u>transposition of bacterial DNA</u>, a(n) {{c1::<b>transposon</b>}} can move to a(n) {{c2::<b>plasmid</b>}}, allowing <i>transfer to another bacterium</i> via {{c3::<u>conjugation</u>}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "qy-^#X]Gk4",
+      "deck": "AnKing Step Deck",
+      "front": "Transposition of bacterial DNA allows for transfer of bacterial DNA amongst different strains, such as resistance to [antibiotics]",
+      "raw0": "<b>Transposition of bacterial DNA</b> allows for <u>transfer of bacterial DNA</u> amongst different strains, such as <i>resistance</i> to {{c1::antibiotics}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "#jjn?4~/K",
+      "deck": "AnKing Step Deck",
+      "front": "Xeroderma pigmentosum is inherited in a(n) [ autosomal recessive ] fashion",
+      "raw0": "<b>Xeroderma pigmentosum</b> is inherited in a(n) {{c1::<b>autosomal</b> <b>recessive</b>}} fashion",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "eW)KW=fVoZ",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does cyclophosphamide belong to? [Alkylating agents (cytotoxic chemo)]",
+      "raw0": "What <u>class</u> of drugs does <b>cyclophosphamide</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "k;NA`1>xj;",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does ifosfamide belong to? [Alkylating agents (cytotoxic chemo)]",
+      "raw0": "What <u>class</u> of drugs does <b>ifosfamide</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "BKO^rP2<{7",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does busulfan belong to? [Alkylating agents (cytotoxic chemo)]",
+      "raw0": "What <u>class</u> of drugs does <b>busulfan</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "F8E3FMP5Di",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs do nitrosoureas belong to? [Alkylating agents (cytotoxic chemo)]",
+      "raw0": "What <u>class</u> of drugs do <b>nitrosoureas</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
+      "back": "Include carmustine, lomustine, and streptozocin",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "Hae+4(xjho",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does carmustine belong to? [Nitrosoureas (alkylating agent)]",
+      "raw0": "What <u>class</u> of drugs does <b>carmustine</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "gz:n!T+^c;",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does lomustine belong to? [Nitrosoureas (alkylating agent)]",
+      "raw0": "What <u>class</u> of drugs does <b>lomustine</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "o|vg!<R4n?",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs does streptozocin belong to? [Nitrosoureas (alkylating agent)]",
+      "raw0": "What <u>class</u> of drugs does <b>streptozocin</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "bvu_I&7!~1",
+      "deck": "AnKing Step Deck",
+      "front": "Alkylating agents donate a(n) [alkyl] group that [cross-links] [ DNA ], resulting in cell apoptosis",
+      "raw0": "<b>Alkylating agents</b> donate a(n) <b>{{c1::alkyl}}</b> group that <u>{{c1::cross-links}}</u> {{c2::<b>DNA</b>}}, resulting in cell apoptosis",
+      "back": "Cell cycle non-specific; cell division is brought to a halt and the cell undergoes apoptosis",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "tSDNCo[1g3",
+      "deck": "AnKing Step Deck",
+      "front": "At which phase of the cell cycle do alkylating agents act? [Act throughout the cell cycle]",
+      "raw0": "At which phase of the <u>cell cycle</u> do <b>alkylating agents</b> act?<br><br><div>{{c1::Act <u>throughout</u> the cell cycle}}</div>",
+      "back": "Cross-link DNA → cell division is brought to a halt and the cell undergoes apoptosis [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "z!xA#_D4VZ",
+      "deck": "AnKing Step Deck",
+      "front": "Which chemotherapeutic drugs cross-link DNA at the guanine N-7 ? [Cyclophosphamide, ifosfamide]",
+      "raw0": "Which <u>chemotherapeutic</u> drugs <b>cross-link DNA</b> at the <b>guanine N-7</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide::2}}</div>",
+      "back": "Attaches an alkyl group to the seventh nitrogen of guanine",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "Am5tZy:2)I",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide attaches an alkyl group to the [seventh nitrogen (N-7)] of [ guanine ]",
+      "raw0": "<b>Cyclophosphamide</b> attaches an <u>alkyl group</u> to the {{c1::seventh nitrogen (N-7)}} of {{c2::<b>guanine</b>}}",
+      "back": "Thereby cross-linking DNA",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "i6BZp<2>m2",
+      "deck": "AnKing Step Deck",
+      "front": "Ifosfamide attaches an alkyl group to the [seventh nitrogen (N-7)] of [ guanine ]",
+      "raw0": "<b>Ifosfamide</b> attaches an <u>alkyl group</u> to the {{c1::seventh nitrogen (N-7)}} of {{c2::<b>guanine</b>}}",
+      "back": "Thereby cross-linking DNA",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "Iwz/B9LmUo",
+      "deck": "AnKing Step Deck",
+      "front": "Which two groups of alkylating agents must be activated by CYP450 in the liver ? [Nitrogen mustards, nitrosoureas]",
+      "raw0": "Which <u>two groups</u> of alkylating agents must be <i>activated</i> by <b>CYP450</b> in the <b>liver</b>?<br><br><div>{{c1::Nitrogen mustards, nitrosoureas}}</div>",
+      "back": "- Nitrogen mustards : cyclophosphamide, ifosfamide - Nitrosoureas : carmustine, lomustine, streptozocin [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "kWF,pZ&Kt,",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide is [activated] by CYP450 in the liver",
+      "raw0": "<b>Cyclophosphamide</b> is <u>{{c1::activated}}</u> by <b>CYP450</b> in the liver",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "EhjM`uZyEz",
+      "deck": "AnKing Step Deck",
+      "front": "Ifosfamide is [ activated ] by CYP450 in the liver",
+      "raw0": "<b>Ifosfamide</b> is {{c1::<u>activated</u>}} by <b>CYP450</b> in the liver",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "M%|MsI%ZP7",
+      "deck": "AnKing Step Deck",
+      "front": "Which alkylating agent is used to treat both hematologic malignancies (leukemia, lymphoma) and solid tumors ? [Cyclophosphamide]",
+      "raw0": "Which <u>alkylating agent</u> is used to treat both <b>hematologic malignancies</b> (leukemia, lymphoma) and <b>solid tumors</b>?<br><br><div>{{c1::Cyclophosphamide}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "JrT#Q_Xqf!",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide has a potent [immunosuppressive] effect; hence it can be used for a variety of autoimmune conditions",
+      "raw0": "<b>Cyclophosphamide</b> has a <u>potent</u> {{c1::immunosuppressive}} effect; hence it can be used for a variety of <b>autoimmune conditions</b>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "q/m/#e5zzx",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide can result in [myelo]suppression with resultant -cytopenias",
+      "raw0": "<b>Cyclophosphamide</b> can result in {{c1::myelo}}suppression with resultant -cytopenias",
+      "back": "Make sure you continually check the patient's CBCs!",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "zx/Kx_[P<I",
+      "deck": "AnKing Step Deck",
+      "front": "Which chemotherapeutic drugs are associated with hemorrhagic cystitis with acrolein in urine? [Cyclophosphamide and ifosfamide]",
+      "raw0": "Which <u>chemotherapeutic</u> drugs are associated with <b>hemorrhagic cystitis</b> <i>with</i> <b>acrolein</b> in urine?<br><br><div>{{c1::Cyclophosphamide and ifosfamide}}</div>",
+      "back": "Bleeding is from the bladder in hemorrhagic cystitis",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "nw4%1mVtxR",
+      "deck": "AnKing Step Deck",
+      "front": "What drug can bind acrolein and prevent hemorrhagic cystitis in cyclophosphamide or ifosfamide use? [ MESNA (2-mercaptoethanesulfonate)]",
+      "raw0": "What drug can <u>bind acrolein</u> and <i>prevent</i> <b>hemorrhagic cystitis</b> in cyclophosphamide or ifosfamide use?<br><br><div>{{c1::<u>MESNA</u> (2-mercaptoethanesulfonate)}}</div>",
+      "back": "Recall that acrolein is a toxic metabolite of -phosphamides",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "zi1KnCcLt7",
+      "deck": "AnKing Step Deck",
+      "front": "The [sulfhydryl] group of MESNA binds acrolein , preventing hemorrhagic cystitis due to cyclophosphamide, ifosfamide use",
+      "raw0": "The {{c1::sulfhydryl}} group of <b>MESNA</b> <u>binds acrolein</u>, preventing hemorrhagic cystitis due to cyclophosphamide, ifosfamide use",
+      "back": "FA 2019 changed thiol to sulfhydryl (different names for the same functional group -SH)",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "kv&GI73>Y,",
+      "deck": "AnKing Step Deck",
+      "front": "Besides MESNA , [N-acetylcysteine] can also be used to prevent hemorrhagic cystitis from cyclophosphamide, ifosfamide use",
+      "raw0": "Besides <b>MESNA</b>, {{c1::N-acetylcysteine}} can also be used to <i>prevent</i> <u>hemorrhagic cystitis</u> from cyclophosphamide, ifosfamide use",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "ob3jeclMq@",
+      "deck": "AnKing Step Deck",
+      "front": "Which chemotherapeutic drugs are known to cause bladder cancer ? [Cyclophosphamide, ifosfamide]",
+      "raw0": "Which <u>chemotherapeutic</u> drugs are known to <i>cause</i> <b>bladder cancer</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "g6|pvJL*(G",
+      "deck": "AnKing Step Deck",
+      "front": "Which type of bladder cancer is cyclophosphamide known to cause? [Urothelial carcinoma of the bladder]",
+      "raw0": "Which <u>type</u> of <i>bladder</i> cancer is <b>cyclophosphamide</b> known to cause?<br><br><div>{{c1::Urothelial carcinoma of the bladder}}</div>",
+      "back": "AKA transitional cell carcinoma",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "Ok+r,Kflsx",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide can result in [ SIADH ], with resultant [hypo]natremia",
+      "raw0": "<b>Cyclophosphamide</b> can result in {{c1::<b>SIADH</b>}}, with resultant <u>{{c2::hypo}}natremia</u>",
+      "back": "Excess free water reabsorption due to excess ADH \"Can't C oncentrate Serum Na + \"",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "I6tb)dwb9&",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide is known to cause [infertility] in men",
+      "raw0": "<b>Cyclophosphamide</b> is known to cause {{c1::infertility}} in <u>men</u>",
+      "back": "Decreased sperm count or even azoospermia if severe",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "g%_a&`iK)0",
+      "deck": "AnKing Step Deck",
+      "front": "Cyclophosphamide is known to cause [premature menopause] in females",
+      "raw0": "<b>Cyclophosphamide</b> is known to cause {{c1::premature menopause}} in <u>females</u>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "bEs]t]Fh=7",
+      "deck": "AnKing Step Deck",
+      "front": "Which chemotherapeutic drug is used in bone marrow ablation prior to marrow transplant ? [Busulfan]",
+      "raw0": "Which <u>chemotherapeutic</u> drug is used in <b>bone marrow ablation</b> prior to <b>marrow transplant</b>?<br><br><div>{{c1::Busulfan}}</div>",
+      "back": "Depletes bone marrow",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "qvi`Ig$*DU",
+      "deck": "AnKing Step Deck",
+      "front": "Busulfan is associated with [lung] toxicity",
+      "raw0": "<b>Busulfan</b> is associated with {{c1::lung::organ}} toxicity",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "$<=-X?$E;",
+      "deck": "AnKing Step Deck",
+      "front": "Which alkylating agent can result in hyperpigmentation ? [Busulfan]",
+      "raw0": "Which <u>alkylating agent</u> can result in <b>hyperpigmentation</b>?<br><br><div>{{c1::Busulfan}}<br></div>",
+      "back": "\" Busulfan tan \"",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "F#CbCU4v~O",
+      "deck": "AnKing Step Deck",
+      "front": "Busulfan can result in [myelo]suppression with resultant -cytopenias",
+      "raw0": "<b>Busulfan</b> can result in {{c1::myelo}}suppression with resultant -cytopenias",
+      "back": "Actually useful in prepping a patient's bone marrow before bone marrow transplant",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "l7lq:#EtA,",
+      "deck": "AnKing Step Deck",
+      "front": "Which of the alkylating agents are nitrogen mustards ? [Cyclophosphamide, ifosfamide]",
+      "raw0": "Which of the <u>alkylating agents</u> are <b>nitrogen mustards</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "Cc7D-WMEjQ",
+      "deck": "AnKing Step Deck",
+      "front": "Busulfan can result in pulmonary fibrosis and ultimately [ restrictive lung] disease",
+      "raw0": "<b>Busulfan</b> can result in pulmonary fibrosis and ultimately {{c1::<u>restrictive</u> lung}} disease",
+      "back": "- Methotrexate, bleomycin, busulfan, and amiodarone - Recall that late-stage fibrosis will present with honeycomb lung on CT",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "xt94W{q%fK",
+      "deck": "AnKing Step Deck",
+      "front": "What class of alkylating agents require bioactivation via non-enzymatic hydroxylation in the liver ? [Nitrosoureas (-ustine, streptozocin)]",
+      "raw0": "What class of alkylating agents require <u>bioactivation</u> via <b>non-enzymatic hydroxylation</b> in the <b>liver</b>?<br><br><div>{{c1::Nitrosoureas (-ustine, streptozocin)}} </div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "wD$(gr)LXl",
+      "deck": "AnKing Step Deck",
+      "front": "Which of the alkylating agents can cross the blood-brain barrier ? [Nitrosoureas]",
+      "raw0": "Which of the <u>alkylating agents</u> can cross the <b>blood-brain barrier</b>?<br><br><div>{{c1::Nitrosoureas}}</div>",
+      "back": "Lomustine, carmustine, streptozocin",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "f(i[/aWJp-",
+      "deck": "AnKing Step Deck",
+      "front": "Which of the alkylating agents can be used to treat glioblastoma multiforme ? [Nitrosoureas]",
+      "raw0": "Which of the <u>alkylating agents</u> can be used to treat <b>glioblastoma multiforme</b>?<br><br><div>{{c1::Nitrosoureas}}</div>",
+      "back": "Carmustine, lomustine, streptozocin",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "K]|-b@~LvN",
+      "deck": "AnKing Step Deck",
+      "front": "Nitrosoureas cross the blood-brain barrier and can thus treat brain tumors (e.g., [glioblastoma multiforme])",
+      "raw0": "<b>Nitrosoureas</b> cross the <u>blood-brain</u> barrier and can thus treat <b>brain</b> tumors (e.g., {{c1::glioblastoma multiforme}})",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "E+<W)5)~qI",
+      "deck": "AnKing Step Deck",
+      "front": "Which of the alkylating agents can cause neurotoxicity (convulsions, dizziness, ataxia) ? [Nitrosoureas]",
+      "raw0": "Which of the <u>alkylating agents</u> can cause <b>neurotoxicity </b><i>(convulsions, dizziness, ataxia)</i>?<br><br><div>{{c1::Nitrosoureas}}</div>",
+      "back": "Can cross the blood-brain barrier!",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    },
+    {
+      "guid": "vHd]4o<t0#",
+      "deck": "AnKing Step Deck",
+      "front": "Vancomycin-resistant bacteria typically spread resistance to other bacteria via [transposition]",
+      "raw0": "<u>Vancomycin-resistant bacteria</u> typically spread resistance to other bacteria via {{c1::transposition::mechanism}}",
+      "back": "Typically, the resistance gene (e.g., VanA) and some flanking chromosomal DNA is incorporated into a plasmid (e.g., Tn1546) and transferred into a new bacterium (e.g., VRE → Staph aureus )",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+      ]
+    },
+    {
+      "guid": "L:P;6~uq#.",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with xeroderma pigmentosum often present with freckled and dry skin, extreme [ sunlight ] sensitivity, and [ corneal ] ulcers",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> often present with <u>freckled and dry</u> skin, <u>extreme</u> {{c1::<b>sunlight</b>}}<b> sensitivity, </b>and {{c1::<b>corneal</b>}} <b>ulcers</b>",
+      "back": "Patients will typically be light skinned Corneal scarring/ulceration, hyperkeratotic lesions, freckles: [img] Photo credit: James Halpern, Bryan Hopping and Joshua M Brostoff , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "Jb9Gw7bgyo",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with xeroderma pigmentosum are at risk for which type(s) of skin cancer? [All :)]",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> are at risk for which type(s) of skin cancer?<br><br><div>{{c1::All :)}}</div>",
+      "back": "Melanoma, basal cell carcinoma, and squamous carcinoma [img]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "qB$u`?AY5k",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with xeroderma pigmentosum cannot repair [pyrimidine dimers] formed as a result of UV-B exposure",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> cannot repair {{c1::pyrimidine dimers}} formed as a result of <u>UV-B</u> exposure",
+      "back": "- This card used to say thymidine, but AMBOSS + FA23 confirm pyrimidine dimers are formed (Dec 2023) - These patients either have a defective enzyme that recognizes helix distortions (XPC / XPA) or have a defective excision endonuclease (XPB, XPD-XPG) [img] Photo credit: derivative work: Mouagip (talk)DNA_UV_mutation.gif: NASA/David Herring This W3C-unspecified vector image was created with Adobe Illustrator. , Public domain, via Wikimedia Commons [img] Photo credit: Jones, Daniel & Baxter, Bonnie. (2016). Bipyrimidine Signatures as a Photoprotective Genome Strategy in G + C-rich Halophilic Archaea. Life. 6. 37. 10.3390/life6030037 . CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::02_Xeroderma_Pigmentosum"
+      ]
+    },
+    {
+      "guid": "j6EGiMt[t>",
+      "deck": "AnKing Step Deck",
+      "front": "Homologous recombination occurs [ after ] S phase of the cell cycle, using a(n) [ sister chromatid ] as a template",
+      "raw0": "<b>Homologous recombination</b> occurs {{c1::<b>after</b>::before / after?}} S phase of the cell cycle, using a(n) {{c2::<u>sister chromatid</u>}} as a template",
+      "back": "Because it needs sister chromatids, this must occur after S phase",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination"
+      ]
+    },
+    {
+      "guid": "QA8W|1G0(0",
+      "deck": "AnKing Step Deck",
+      "front": "In homologous recombination , dsDNA breaks are recognized by the [ ATM ] protein and the [ FA core ] complex , which activate [ BRCA1/2 ] to recruit enzymes to repair the break",
+      "raw0": "In <b>homologous recombination</b>, <u>dsDNA breaks</u> are recognized by the {{c2::<u>ATM</u>}}<u> protein</u> and the {{c2::<u>FA core</u>}}<u> complex</u>, which activate {{c1::<b>BRCA1/2</b>}} to recruit enzymes to repair the break",
+      "back": "Thus patients with BRCA1/2, FANC, ATM mutations are susceptible to damage by ionizing radiation [img] Photo credit: Chaya5260 , CC BY-SA 4.0 , via Wikimedia Commons [img] Photo credit: Hannes Lans, Jurgen A Marteijn and Wim Vermeulen , CC BY 2.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination"
+      ]
+    },
+    {
+      "guid": "QXR[:&fjZ",
+      "deck": "AnKing Step Deck",
+      "front": "Homologous recombination is defective in breast/ovarian cancers with [BRCA1/2] mutations",
+      "raw0": "<u>Homologous recombination</u> is defective in <b>breast/ovarian cancers</b> with {{c1::BRCA1/2}} mutations",
+      "back": "Also in Fanconi anemia [img] Photo credit: Chaya5260 , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination"
+      ]
+    },
+    {
+      "guid": "tuIP#f6R4{",
+      "deck": "AnKing Step Deck",
+      "front": "Is homologous recombination error prone ? [No]",
+      "raw0": "Is <b>homologous recombination </b><u>error prone</u>?<br><br><div>{{c1::No}}</div>",
+      "back": "- However, this may result in a unique manifestation of loss of heterozygosity - This can occur when the mutation is in the intact strand being used as a template, and the damaged DNA (which was encoding for a normal protein) is fixed using the mutation",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination"
+      ]
+    },
+    {
+      "guid": "f5CiFO#X<f",
+      "deck": "AnKing Step Deck",
+      "front": "Nonhomologous end joining (NHEJ) occurs [throughout the cell cycle]",
+      "raw0": "<b>Nonhomologous end joining</b> (NHEJ) occurs {{c1::throughout the cell cycle::when in the cell cycle}}",
+      "back": "- This card used to say before S phase of cell cycle, but AMBOSS confirms this occurs throughout the cell cycle (Sept 2023) - There is NO requirement for homology",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "d6}k:>J<0,",
+      "deck": "AnKing Step Deck",
+      "front": "In nonhomologous end joining (NHEJ), dsDNA breaks are recognized by [ ATM ], recruiting the MRN complex which then recruits the [Artemis] protein and various others to help repair the damage",
+      "raw0": "In <b>nonhomologous end joining </b>(NHEJ), dsDNA breaks are recognized by {{c2::<u>ATM</u>}}, recruiting the <u>MRN</u> complex which then recruits the {{c1::Artemis}} protein and various others to help repair the damage",
+      "back": "- NHEJ is crucial for VDJ recombination to work, thus patients with defective NHEJ can manifest with SCID - Artemis, XLF, Pol h and u, cut ends so MRN complex can bind - Cut ends are ligated by DNA ligase IV [img] Photo credit: Hannes Lans, Jurgen A Marteijn and Wim Vermeulen , CC BY 2.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "nCRgH<5j~0",
+      "deck": "AnKing Step Deck",
+      "front": "Is nonhomologous end joining (NHEJ) error prone ? [Yes]",
+      "raw0": "Is <b>nonhomologous end joining </b>(NHEJ)<b> </b><u>error prone</u>?<br><br><div>{{c1::Yes}}</div>",
+      "back": "HIGHLY error prone; this has no template strand to compare to",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "tJoFL^EsG7",
+      "deck": "AnKing Step Deck",
+      "front": "Nonhomologous end joining (NHEJ) is defective in [ ataxia telangiectasia ] and might be defective in [ severe combined immunodeficiency (SCID)]",
+      "raw0": "<b>Nonhomologous end joining</b> (NHEJ) is defective in {{c2::<b>ataxia telangiectasia</b>}} and might be defective in {{c1::<b>severe combined immunodeficiency </b>(SCID)}}",
+      "back": "e.g., defect in the Artemis protein or ATM [img] Photo credit: Hannes Lans, Jurgen A Marteijn and Wim Vermeulen , CC BY 2.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Nonhomologous_End_Joining"
+      ]
+    },
+    {
+      "guid": "c@+C+~`YB2",
+      "deck": "AnKing Step Deck",
+      "front": "BRCA1 and BRCA2 are tumor suppressors that are involved in mediating the [homologous recombination (HR)] pathway of DNA repair",
+      "raw0": "<b>BRCA1</b> and <b>BRCA2</b> are tumor suppressors that are involved in mediating the {{c1::homologous recombination (HR)}} pathway of DNA repair",
+      "back": "- This is a form of double stranded break repair that requires a template strand (thus must occur after S phase) - dsDNA breaks can be detected by ATM and the FA Core Complex, acting as a nidus to recruit BRCA enzymes, which then recruit RAD51 and others to fix the break [img] Photo credit: Chaya5260 , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::01_Double_strand::*Homologous_Recombination"
+      ]
+    },
+    {
+      "guid": "BE3orG}ZS[",
+      "deck": "AnKing Step Deck",
+      "front": "Ifosfamide can cause neurotoxicity due to buildup of its metabolite [ chloroacetaldehyde (CAA)], which can be treated with [ methylene blue ]",
+      "raw0": "<b>Ifosfamide</b> can cause neurotoxicity due to buildup of its metabolite {{c1::<b>chloroacetaldehyde</b> (CAA)}}, which can be treated with {{c2::<u>methylene blue</u>}}",
+      "back": "Alkylating agent",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "FgC&>>DpN{",
+      "deck": "AnKing Step Deck",
+      "front": "Procarbazine is a chemotherapeutic [alkylating] agent used to treat Hodgkin lymphoma and brain tumors",
+      "raw0": "<b>Procarbazine</b> is a chemotherapeutic {{c1::alkylating}} agent used to treat Hodgkin lymphoma and brain tumors",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "BHKYxMx65l",
+      "deck": "AnKing Step Deck",
+      "front": "Procarbazine has notable side effects; including [pulmonary] toxicity and [leuk]emia *bonus: patients should not eat what food?",
+      "raw0": "<b>Procarbazine</b> has notable side effects; including {{c2::pulmonary}} toxicity and {{c1::leuk}}emia<br><br><div><i>*bonus: patients should not eat what food?</i></div>",
+      "back": "- Thus check PFTs in patients who are on this drug - FA2019: adds \"disulfiram-like reaction\" - Any drug messing up DNA has the potential to cause more cancer - *Patients should not eat tyramine-containing food; procarbazine inhibits MAO therefore too much tyramine can lead to a hypertensive crisis [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "i|&xW%pmMs",
+      "deck": "AnKing Step Deck",
+      "front": "The [BLM helicase] is involved in regulating homologous recombination , and when mutated causes Bloom syndrome",
+      "raw0": "The {{c1::BLM helicase::enzyme}} is involved in regulating <u>homologous recombination</u>, and when mutated causes <b>Bloom syndrome</b>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::04_Bloom_Syndrome"
+      ]
+    },
+    {
+      "guid": "o$Q-L4{kFF",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with Bloom syndrome present with cafe-au-lait spots, rash from [sun] exposure, and [short] stature",
+      "raw0": "Patients with <b>Bloom syndrome</b> present with cafe-au-lait spots, rash from {{c1::sun}} exposure, and {{c2::short}} stature",
+      "back": "[img] I mage(s) licensed by DermNet and used with permission, CC-BY-NC-ND 3.0 NZ",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::04_Bloom_Syndrome"
+      ]
+    },
+    {
+      "guid": "oz_f`q4C3U",
+      "deck": "AnKing Step Deck",
+      "front": "Because patients with Bloom syndrome have a dysfunctional BLM helicase enzyme , they are at great risk of developing [cancer]",
+      "raw0": "Because patients with <b>Bloom syndrome </b>have a dysfunctional <u>BLM helicase enzyme</u>, they are at great risk of developing {{c1::cancer}}",
+      "back": "Mutations accumulate quickly due to an enormous increase in exchange events between homologous chromosomes or sister chromatids; patients have high amounts of leukemias, lymphomas, and/or carcinomas",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::04_Bloom_Syndrome"
+      ]
+    },
+    {
+      "guid": "hgn9CST,,1",
+      "deck": "AnKing Step Deck",
+      "front": "[Generalized transduction] is the transfer of random DNA between bacteria using bacteriophages",
+      "raw0": "{{c1::Generalized transduction}} is the <u>transfer of <b><i>random</i></b> DNA</u> between bacteria using <b>bacteriophages</b>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "w:{^BM&@rf",
+      "deck": "AnKing Step Deck",
+      "front": "[Specialized transduction] is the transfer of specific DNA between bacteria using bacteriophages",
+      "raw0": "{{c1::Specialized transduction}} is the <u>transfer of <b><i>specific</i></b> DNA</u> between bacteria using <b>bacteriophages</b>",
+      "back": "[img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+      ]
+    },
+    {
+      "guid": "j%&F5pPox1",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with Bloom syndrome are associated with premature [aging]",
+      "raw0": "Patients with <b>Bloom syndrome</b> are associated with premature {{c1::aging}}",
+      "back": "These patients have shortened telomeres",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::04_Bloom_Syndrome"
+      ]
+    },
+    {
+      "guid": "H/B;zfj:}~",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with ataxia-telangiectasia have vitiligo, granulomas, and a high recurrence of [sinopulmonary] infections",
+      "raw0": "Patients with <b>ataxia-telangiectasia</b> have vitiligo, granulomas, and a high recurrence of {{c1::sinopulmonary::location}} infections",
+      "back": "Recurrent sinopulmonary infections can lead to bronchiectasis; due to being IgA, IgG, and IgE deficient [img]",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair::03_Ataxia-Telangiectasia"
+      ]
+    },
+    {
+      "guid": "kjkdApy8u%",
+      "deck": "AnKing Step Deck",
+      "front": "Slippage in a template strand will cause a(n) [deletion]",
+      "raw0": "<b>Slippage</b> in a <u>template strand</u> will cause a(n) {{c1::deletion}}",
+      "back": "Whereas slippage in a replicated strand will cause an insertion",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage"
+      ]
+    },
+    {
+      "guid": "sDyd6qUVj)",
+      "deck": "AnKing Step Deck",
+      "front": "Slippage in a replicated strand will cause a(n) [insertion]",
+      "raw0": "<b>Slippage</b> in a <u>replicated strand</u> will cause a(n) {{c1::insertion}}",
+      "back": "Whereas slippage in a template strand will cause a deletion",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage"
+      ]
+    },
+    {
+      "guid": "fbi~~6N|zG",
+      "deck": "AnKing Step Deck",
+      "front": "Depurination results in the loss of [purine] bases",
+      "raw0": "<b>Depurination</b> results in the loss of {{c1::purine}} bases",
+      "back": "- Occurs thousands of times per day - Sugar phosphate stays in the backbone",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair"
+      ]
+    },
+    {
+      "guid": "p;X>IkT.^R",
+      "deck": "AnKing Step Deck",
+      "front": "[Procarbazine] is an alkylating agent that also acts as a weak MAO inhibitor",
+      "raw0": "{{c1::Procarbazine}} is an <b>alkylating agent </b>that also acts as a weak <u>MAO inhibitor</u>",
+      "back": "Thus it is important to avoid tyramine-containing foods [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
+      ]
+    },
+    {
+      "guid": "b/zIJBxa1D",
+      "deck": "AnKing Step Deck",
+      "front": "Does cyclophosphamide cause peripheral neuropathy ? [No]",
+      "raw0": "Does <b>cyclophosphamide</b> cause <i>peripheral neuropathy</i>?<br><br><div>{{c1::No}}</div>",
+      "back": "However, vincristine, paclitaxel, or cisplatin can",
+      "tags": [
+        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+# =========================================================
+# NEBLI -- .gitignore (canonico 2026-05-22)
+# Versiona codigo do pipeline + decisoes + banco em .md.
+# Ignora conteudo gerado, materia-prima bruta e arquivos pesados.
+# =========================================================
+
+# ---- Segredos e config local de maquina (NUNCA versionar) ----
+# settings.local.json guarda chaves de API e permissoes locais do Claude Code.
+.claude/settings.local.json
+**/settings.local.json
+*.env
+.env
+.git-credentials
+
+# ---- Artefatos grandes regeneraveis / com copyright (add 2026-07-10) ----
+flashcards/scripts/anking-v12-export.txt
+pequenos_ajustes/Introdução à economia - Mankiw.pdf
+pequenos_ajustes/*.pdf
+
+# ---- Conteudo gerado pelo pipeline ----
+resumos-gerados/
+typst-build/*.pdf
+typst-build/_par_*/*.pdf
+typst-build/_par_*/main.typ
+typst-build/_thumbs/
+typst-build/_cadernos/
+typst-build/__pycache__/
+**/__pycache__/
+*.pyc
+
+# ---- Materia-prima bruta (nao versionavel) ----
+_material/
+slides/*.pdf
+slides/*.png
+slides/*.jpg
+slides/*.jpeg
+Inspiração de FORMA/
+NEBLIcards/
+plataforma/
+material_ligas/
+
+# ---- Arquivos gigantes (fotos/scans/pdfs antigos) ----
+resumos_antigos/
+anti-processo/
+lixo/
+
+# ---- Figuras dos resumos (PNGs extraidos dos slides, ~3 GB) ----
+# Versiona so os MAPA_CONTEUDO.txt (texto pequeno, util pra reproduzir).
+figuras/**/*.png
+figuras/**/*.jpg
+figuras/**/*.jpeg
+figuras/**/*.svg
+!figuras/**/MAPA_CONTEUDO.txt
+!figuras/**/MAPA_CONTEUDO.md
+
+# ---- Figuras do banco (PNGs de questoes, ~107 MB) ----
+banco/figuras/
+
+# ---- Transientes do orquestrador ----
+arquivos-trabalho/tema-cards/
+arquivos-trabalho/relatorios/
+arquivos-trabalho/observacao_tokens.md
+arquivos-trabalho/*.tmp
+arquivos-trabalho/_arquivo-figuras-legadas/
+arquivos-trabalho/**/*.png
+arquivos-trabalho/**/*.jpg
+arquivos-trabalho/**/*.jpeg
+arquivos-trabalho/**/*.pdf
+
+# ---- Backups (vivem em outro lugar; git ja eh backup) ----
+backups/tecnicos/
+backups/operacoes-fechadas/
+
+# ---- Sistema / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+.vscode/
+.idea/
+
+# ---- Logs e caches de Typst ----
+*.log
+.typst-cache/

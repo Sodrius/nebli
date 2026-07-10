@@ -1,0 +1,60 @@
+slug: biomol-22-transcricao
+titulo: "Transcrição"
+subtitulo: "Biologia Molecular"
+meta:
+  - ["Disciplina", "Biologia Molecular (UC01)"]
+  - ["Onde estudar", "Alberts cap. 6 · Lehninger cap. 26"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A máquina e o reconhecimento do promotor"
+        subtopicos:
+          - "1.1 Transcrição não é replicação"
+          - "1.2 RNA Pol α₂ββ'σ"
+          - "1.3 Promotor −10/−35 e fator σ"
+      - titulo: "PARTE II — Elongação e terminação"
+        subtopicos:
+          - "2.1 Química 5'→3' sem primer"
+          - "2.3 Terminação rho-independente"
+          - "2.4 Terminação rho-dependente"
+      - titulo: "PARTE III — Eucariotos e processamento"
+        subtopicos:
+          - "3.2 Cap 5' 7-metilguanosina"
+          - "3.3 Cauda poli-A e AAUAAA"
+          - "3.4 Splicing por spliceossomo"
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "C"]
+    - ["03", "D"]
+    - ["04", "A"]
+    - ["05", "CCEC"]
+    - ["06", "D"]
+    - ["07", "B"]
+    - ["08", "CCEE"]
+    - ["09", "C"]
+    - ["10", "D"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "D"]
+    - ["13", "CCEC"]
+    - ["14", "C"]
+    - ["15", "B"]
+    - ["16", "CCEC"]
+    - ["17", "D"]
+    - ["18", "A"]
+    - ["19", "CCEC"]
+    - ["20", "C"]
+    - ["21", "B"]
+    - ["22", "CCEC"]
+    - ["23", "C"]
+    - ["24", "A"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "CCEC"]
+    - ["28", "B"]
+    - ["29", "E"]
+    - ["30", "A"]

@@ -1,0 +1,213 @@
+tema: "Tecidos epiteliais"
+slug: "histo-03-tecidos-epiteliais"
+disciplina: "UC2 — Histologia"
+onde_estudar: "Junqueira & Carneiro, Histologia Básica (cap. 4); Ross & Pawlina, Histologia Texto e Atlas (cap. 5)"
+alvo_paginas_e1: "piso 2, teto 22 — alvo 14-18"
+recorte_slide_tema: "O slide cobre TODO o tema com 138 páginas; recorte 1:1 entre slide e resumo."
+
+# ============================================================
+# Seção A — Prioridades desta corrida (do § Diário de revisões)
+# ============================================================
+prioridades_corrida:
+  - prio: "Eixo prioritário do Davi: 'ver na lâmina'. Cada subtipo de epitélio recebe critério visual EMBUTIDO na prosa (forma e posição do núcleo, altura celular, polaridade, especializações apicais). Não vira PARTE separada."
+  - prio: "Figura é obrigatória mesmo em tema espacial (Diário 2026-05-29 · biocel-07). Histo é o tema mais visual do semestre — meta ≥4 figuras por PARTE. Se slide não cobre um subtipo bem, reaproveitar slide adjacente ou parar e perguntar."
+  - prio: "Banda dupla 0.80-1.25 paridade Q01-Q30 com relatório obrigatório."
+  - prio: "Pergunta âncora / retórica / ingênua BANIDAS na abertura. 5 registros canônicos."
+  - prio: "Filtro de admissão Integração (Q11-Q25): mapa A+B gravado antes de redigir."
+  - prio: "Tabela auditável de figuras (Figura | PARTE | Origem | Mecanismo | Largura) no fechamento."
+
+# ============================================================
+# Seção B — Esqueleto das 3 PARTES
+# ============================================================
+estrutura_e1:
+  parte_1:
+    titulo: "O que torna um epitélio um epitélio"
+    subtopicos:
+      - "Origem nas três folhas embrionárias e a divisão arbitrária do corpo em 4 tecidos básicos"
+      - "Justaposição com pouca matriz: a marca registrada que separa epitélio de conjuntivo na lâmina"
+      - "Polaridade apico-basal: domínios diferentes na mesma célula"
+      - "Junções celulares: como manter o folheto colado e como decidir o que passa por entre as células"
+      - "Lâmina basal e membrana basal: a fronteira que segura tudo embaixo"
+      - "Avascularidade obrigatória: por que vaso não cruza o folheto e como o nutriente chega"
+    figuras_planejadas:
+      - "slide-04 — quadro dos 4 tecidos básicos (PARTE 1 abertura, ~50%)"
+      - "slide-07 — origem nas 3 folhas embrionárias (~55%)"
+      - "slide-14 — vias trans/paracelular (~60%)"
+      - "slide-21 — zônulas oclusão e adesão (~65%)"
+      - "slide-30 — Clostridium perfringens atacando zônula (clínica, ~55%)"
+      - "slide-36 — lâmina basal + fibras reticulares = membrana basal (~60%)"
+      - "slide-39 — membrana basal HE vs PAS (assinatura visual, ~65%)"
+  parte_2:
+    titulo: "Atlas de identificação: nomear o epitélio que está na lâmina"
+    subtopicos:
+      - "O algoritmo de classificação: número de camadas × forma da camada superficial × especialização apical"
+      - "Simples pavimentoso: a 'linha de núcleos achatados' do endotélio e mesotélio"
+      - "Simples cúbico: núcleo redondo no centro — túbulos renais e folículos da tireoide"
+      - "Simples cilíndrico (colunar): núcleo oval na base — vesícula biliar e intestino"
+      - "Pseudoestratificado: parece estratificado mas todas as células tocam a basal — o impostor do trato respiratório"
+      - "Estratificado pavimentoso: queratinizado (epiderme) × não queratinizado (esôfago, vagina)"
+      - "Transição (urotélio): muda de cara conforme a bexiga enche"
+      - "Especializações apicais como pistas: microvilos (borda em escova), estereocílios, cílios móveis, cílio primário"
+    figuras_planejadas:
+      - "slide-49 — microvilos com feixes de actina (~55%)"
+      - "slide-50 — borda em escova (~50%)"
+      - "slide-54 — estereocílios no epidídimo (~50%)"
+      - "slide-57/59 — cílios móveis e aparelho ciliar (~60%)"
+      - "slide-65 — atlas simples (forma do núcleo) (~70%)"
+      - "slide-69 — composto: simples pavimentoso/cúbico/cilíndrico (~75%)"
+      - "slide-73 — estratificado pavimentoso queratinizado vs não (~70%)"
+      - "slide-74-75 — pseudoestratificado e onde encontrar (~65%)"
+      - "slide-76 — urotélio relaxado/distendido (~60%)"
+      - "slide-79 — classificação por função (endotélio, mesotélio, etc.) (~65%)"
+  parte_3:
+    titulo: "O epitélio que secreta: glandulares exócrinos e endócrinos"
+    subtopicos:
+      - "Como uma glândula nasce de um epitélio de revestimento: o broto que descola e o broto que se mantém ligado"
+      - "Caliciformes: a glândula unicelular embutida no epitélio cilíndrico"
+      - "Exócrinas pluricelulares — três eixos de classificação cruzados: forma do ducto, ramificação da porção secretora, forma da porção secretora"
+      - "Natureza do produto: mucosa (citoplasma claro, núcleo achatado na base) × serosa (citoplasma corado, núcleo arredondado) × mista"
+      - "Células mioepiteliais: o músculo da glândula"
+      - "Endócrinas: cordonal (adrenal, paratireoide) × folicular (tireoide); ausência de ducto e proximidade do capilar"
+    figuras_planejadas:
+      - "slide-91 — uni vs pluricelular (~55%)"
+      - "slide-94 — exócrina vs endócrina (~60%)"
+      - "slide-99-101 — eixos de classificação morfológica (~75%)"
+      - "slide-102 — atlas com exemplos por tipo (~75%)"
+      - "slide-107 — mucosa: cromatina condensada, citoplasma claro (~60%)"
+      - "slide-114 — serosa: núcleo arredondado central, citoplasma corado (~60%)"
+      - "slide-118 — ácino misto com meia-lua serosa (~60%)"
+      - "slide-124 — mioepiteliais na glândula mamária (~55%)"
+      - "slide-126 — cordonal × folicular (~65%)"
+
+# ============================================================
+# Seção B.bis — Registros de abertura por subtópico (5 registros)
+# ============================================================
+registros_abertura:
+  p1_s1: "enquadramento — coloca o epitélio na taxonomia dos 4 tecidos básicos"
+  p1_s2: "integração-anterior — retoma 'célula isolada × célula em comunidade' do resumo de citologia"
+  p1_s3: "ponto-de-quebra — célula epitelial NÃO é uma esfera simétrica; o que faz polaridade existir"
+  p1_s4: "analogia concreta — junção como rebite, parafuso e portinhola"
+  p1_s5: "enquadramento — lâmina basal como tapete no qual o epitélio se senta"
+  p1_s6: "integração-posterior — vaso não cruza; prepara conjuntivo como entregador de nutriente"
+  p2_s1: "ponto-de-quebra — o algoritmo é simples mas o aluno costuma misturar as variáveis"
+  p2_s2: "enquadramento — pavimentoso simples é o mais fino possível"
+  p2_s3: "integração-anterior — cúbico volta o núcleo pro centro"
+  p2_s4: "analogia concreta — cilíndrico = pilha de tijolos verticais"
+  p2_s5: "ponto-de-quebra — pseudoestratificado é o erro mais comum em lâmina"
+  p2_s6: "integração-posterior — estratificado existe onde há atrito"
+  p2_s7: "ponto-de-quebra — transição muda quando você não está olhando"
+  p2_s8: "analogia concreta — especialização apical = ferramenta da superfície"
+  p3_s1: "enquadramento — toda glândula vem de um epitélio de revestimento"
+  p3_s2: "integração-anterior — caliciforme é a versão mínima da glândula"
+  p3_s3: "ponto-de-quebra — três eixos independentes geram a árvore de classificação"
+  p3_s4: "analogia concreta — mucoso é fábrica de gel, seroso é fábrica de enzima"
+  p3_s5: "integração-posterior — mioepitelial conecta com tecido muscular do próximo resumo"
+  p3_s6: "ponto-de-quebra — endócrina perde o ducto durante a embriogênese"
+
+# ============================================================
+# Seção B.ter — Pré-requisitos com frase-âncora pronta
+# ============================================================
+pre_requisitos:
+  - prereq: "Folhas embrionárias (ectoderma, mesoderma, endoderma)"
+    frase_ancora: "Por volta da 3ª semana o embrião se organiza em três folhas, e cada uma vai gerar tecidos diferentes — a casca externa (ectoderma), o miolo (mesoderma) e o tubo interno (endoderma)."
+  - prereq: "Citoesqueleto de actina e microtúbulos (vem da citologia)"
+    frase_ancora: "A actina forma feixes finos que sustentam projeções da membrana; os microtúbulos são tubos mais rígidos que organizam o transporte interno."
+  - prereq: "Coloração HE (hematoxilina-eosina)"
+    frase_ancora: "Hematoxilina é roxa e marca o que tem carga negativa — DNA, RNA. Eosina é rosa e marca proteínas — daí núcleo roxo e citoplasma rosa em quase toda lâmina."
+  - prereq: "Microscopia óptica × eletrônica"
+    frase_ancora: "O microscópio óptico enxerga até cerca de 0,2 µm; o eletrônico chega a 1 nm. Estruturas mais finas que isso só aparecem no eletrônico."
+  - prereq: "Diferença entre tecido epitelial e conjuntivo"
+    frase_ancora: "No conjuntivo, a célula vive cercada por matriz que ela mesma produziu; no epitélio, as células estão coladas umas nas outras com pouca matriz entre elas."
+
+# ============================================================
+# Seção C — Distribuição E2 (PADRÃO) + termos-nota
+# ============================================================
+profundidade: "PADRÃO"
+distribuicao_e2:
+  consolidacao: 10
+  integracao: 15
+  aplicacao: 5
+
+termos_nota_obrigatorios:
+  - "lâmina basal — folheto de colágeno IV + lamininas que sustenta o epitélio na interface com o conjuntivo"
+  - "zônula de oclusão — junção apical que veda paracelularmente e separa domínios"
+  - "borda em escova — tapete denso de microvilos visto na superfície apical de células absortivas"
+  - "queratinização — acúmulo de queratina nas camadas superiores em epitélio estratificado pavimentoso"
+  - "ácino — porção secretora arredondada de glândula exócrina, com luz reduzida no seroso"
+  - "mioepitelial — célula contrátil entre porção secretora e lâmina basal, espreme o produto pro ducto"
+  - "PAS — reação histoquímica que marca polissacarídeos; revela a lâmina basal em rosa-magenta"
+  - "transcitose — vesícula atravessa a célula de um polo ao outro, mecanismo de absorção em capilares"
+
+# ============================================================
+# Seção D — Pontos de quebra do raciocínio (4-8 itens)
+# ============================================================
+pontos_quebra:
+  - quebra: "Confundir pseudoestratificado com estratificado verdadeiro"
+    correcao: "No pseudoestratificado, TODA célula encosta na lâmina basal; o que muda é só a altura dos núcleos. Confirma com o foco fino: se cada núcleo tem 'um pé' embaixo, é pseudo."
+    origem: "armadilha clássica de livro-texto (Junqueira cap. 4)"
+  - quebra: "Achar que urotélio é epitélio de transição funcional (muda de natureza)"
+    correcao: "O urotélio se distende quando a bexiga enche — células superficiais (em cúpula) achatam e camadas intermediárias deslizam, mas o epitélio é o mesmo. Texto novo já reclassifica como pseudoestratificado distensível."
+    origem: "ponto histórico da disciplina (Ross)"
+  - quebra: "Considerar a glândula salivar 'um tecido endócrino' porque parece compacta"
+    correcao: "Tudo que tem ducto excretor desaguando no exterior (boca, pele, intestino, lúmen de víscera) é exócrino. Só vira endócrino quando o ducto se desfaz durante a embriogênese e o produto cai direto no capilar."
+    origem: "armadilha clássica do slide-95"
+  - quebra: "Trocar ácino mucoso por ácino seroso"
+    correcao: "Mucoso: citoplasma quase incolor (proteoglicanos não coram bem em HE), núcleo achatado encostado na base. Seroso: citoplasma róseo intenso (proteínas, eosinofilia), núcleo arredondado central. Misto = ácino mucoso com 'meia-lua' serosa sobreposta."
+    origem: "diferenciação clássica do slide-107 × slide-114"
+  - quebra: "Esquecer que endotélio É epitélio"
+    correcao: "Endotélio = epitélio simples pavimentoso especial dos vasos. Mesotélio = epitélio simples pavimentoso (ou cúbico) das serosas. Nomes diferentes mas mesma família histológica."
+    origem: "confusão típica entre histologia e anatomia (slide-79-82)"
+  - quebra: "Confundir lâmina basal com membrana basal"
+    correcao: "Lâmina basal só aparece no microscópio eletrônico (colágeno IV + laminina + entactina). Membrana basal = lâmina basal + fibras reticulares do conjuntivo subjacente; ESSA sim coras em PAS e vê no óptico."
+    origem: "armadilha frequente (slide-36)"
+  - quebra: "Confundir microvilos com estereocílios e cílios"
+    correcao: "Microvilos: curtos, abundantes, sustentados por actina, função absortiva (intestino, túbulo renal). Estereocílios: muito longos, imóveis, ainda de actina, só em epidídimo e células ciliadas do ouvido interno. Cílios: móveis (com batimento), de microtúbulos 9+2, motilidade ATP-dependente (traqueia, tubas)."
+    origem: "ponto de quebra clássico (slide-48-60)"
+
+# ============================================================
+# Seção E — Exemplares-âncora
+# ============================================================
+exemplares_ancora: |
+  Exemplar 1 (universal — abertura por enquadramento): vou abrir cada PARTE colocando o epitélio dentro de uma taxonomia maior antes de descer ao detalhe. Aplicar em PARTE 1 (4 tecidos básicos) e PARTE 3 (toda glândula nasce de epitélio).
+  Exemplar 8 (universal — cadeia mecanística): cadeia "vaso ausente → nutriente difunde da lâmina basal → consumo limita espessura" vai estruturar a explicação de avascularidade na PARTE 1.
+  Exemplar 14 (universal — analogia concreta): junções como rebite/parafuso/portinhola; ácino como saco de fábrica. Aplicar em P1.S4 e P3.S4.
+  Exemplar temático (atlas/classificação): para o atlas de identificação da PARTE 2, abrir cada subtipo com "o que você vê primeiro" — forma e posição do núcleo são pistas que o aluno reconhece em segundos. Cada subtipo termina com "onde encontrar no corpo" como mnemônico funcional.
+  Exemplar temático (diferenciação visual mucoso × seroso): adaptar o gesto "comparar ladinho a ladinho duas estruturas vizinhas que o aluno troca" — usar tabela ou prosa pareada para mucoso vs seroso na PARTE 3.
+
+# ============================================================
+# Gabarito (sorteio independente, sem balanceamento)
+# ============================================================
+gabarito:
+  consolidacao:
+    - ["01", "A"]
+    - ["02", "A"]
+    - ["03", "C"]
+    - ["04", "B"]
+    - ["05", "B"]
+    - ["06", "B"]
+    - ["07", "A"]
+    - ["08", "E"]
+    - ["09", "A"]
+    - ["10", "E"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "A"]
+    - ["13", "A"]
+    - ["14", "A"]
+    - ["15", "B"]
+    - ["16", "B"]
+    - ["17", "E"]
+    - ["18", "E"]
+    - ["19", "A"]
+    - ["20", "E"]
+    - ["21", "B"]
+    - ["22", "E"]
+    - ["23", "D"]
+    - ["24", "B"]
+    - ["25", "D"]
+  aplicacao:
+    - ["26", "E"]
+    - ["27", "C"]
+    - ["28", "A"]
+    - ["29", "B"]
+    - ["30", "D"]

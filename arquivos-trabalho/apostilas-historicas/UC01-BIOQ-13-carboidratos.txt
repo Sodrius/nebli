@@ -1,0 +1,1171 @@
+NEBLI · APOSTILA
+
+Carboidratos
+
+Bioquímica · UC01 · Aula 25 (Bioq/13)
+
+Disciplina:    Bioquímica (UC01)
+Bloco:         P2 -- Função 1
+Nota de uso:   Estudar com o slide aberto ao lado -- o resumo complementa, não
+               substitui.
+Onde estudar:  Lehninger Cap. 7 · Stryer/Berg Cap. 11 (§11.1­11.4) · Voet & Voet Cap. 8 (pp.
+               358­367)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A unidade fundamental: o monossacarídeo
+       1.1 O que é um carboidrato, afinal
+       1.2 Estereoquímica -- projeção de Fischer, D/L, epímeros
+       1.3 Forma cíclica -- hemiacetal, piranose, anômeros alfa/beta
+  PARTE II -- Como os açúcares se ligam
+       2.1 Açúcar redutor -- Fehling, GOx e o anomérico livre
+       2.2 Ligação O-glicosídica -- lactose, sacarose, trealose
+       2.3 Celulose -- por que humanos não digerem fibra
+  PARTE III -- Carboidratos de reserva e de reconhecimento
+       3.1 Amido -- amilose (hélice) e amilopectina (ramificada)
+       3.2 Glicogênio -- fígado x músculo, papel da G6Pase
+       3.3 Glicoconjugados -- N-/O-glicosilação, glicocálix, ABO
+
+RESUMINDO
+       Panorama em 12 seções, logo após a Etapa 1
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (10) · Integração (15) · Aplicação (5)
+       Gabarito consolidado ao final do documento
+
+ETAPA 3 -- 5 DISCURSIVAS MECANÍSTICAS
+       Resposta-modelo curta (100 palavras; Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       3 questões selecionadas do banco, gabarito inline
+
+FECHAMENTO
+       Gabarito consolidado da Etapa 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Pense por um instante em quase tudo o que você comeu hoje: pão, arroz, fruta, refrigerante, qualquer macarrão.
+    Tudo isso é, em essência, carboidrato. Agora estenda a vista para fora -- a madeira da mesa, o papel deste resumo,
+    o algodão da sua camiseta. Carboidrato de novo. Não é exagero: metade do peso seco da biomassa do planeta é
+    carboidrato, e a cada ano a fotossíntese converte mais de 100 bilhões de toneladas de CO2 e H2O em estruturas
+    açucaradas. Não há outra classe molecular na Terra com essa escala.
+    Para nós, médicos em formação, carboidratos importam por quatro razões que vão aparecer dezenas de vezes
+    nos próximos seis anos. Primeira, são combustível: o cérebro consome 120 g de glicose por dia, e como ele não
+    tem reserva própria, depende da glicemia momento a momento. Segunda, são etiqueta: as células se reconhecem
+    (espermatozoide encontra o óvulo, leucócito reconhece a parede do vaso, transfusão sanguínea dá certo ou
+    errado) por meio de açúcares grudados em proteínas de superfície -- é daí que vem o sistema ABO. Terceira,
+    quando o controle da glicemia falha, açúcares se ligam erroneamente a proteínas (glicação não-enzimática) e dão
+    origem às complicações tardias do diabetes -- retinopatia, neuropatia, doença renal. Quarta, várias doenças graves
+    (intolerância à lactose, doenças do glicogênio, deficiência de G6PD) têm o nome de um carboidrato no diagnóstico.
+    Este resumo monta a fundação. Não vai entrar em via metabólica nenhuma -- isso fica para as aulas de glicólise,
+    gliconeogênese e ciclo de Krebs que virão nas próximas semanas. O foco aqui é o desenho dos carboidratos: que
+    pedaços eles têm, como esses pedaços se ligam, e por que o tipo de ligação manda no destino da molécula. Quando
+    você terminar este texto, vai entender por que vacas digerem grama e nós não, por que sacarose não dá positivo
+    no teste de Fehling, e por que uma transfusão sanguínea pode matar quando o tipo errado entra. Vamos lá.
+
+PARTE I -- A unidade fundamental: o monossacarídeo
+
+1.1 O que é um carboidrato, afinal
+A palavra entrega a definição: carbo (carbono) mais hidrato (água). Os primeiros químicos que analisaram
+esses açúcares perceberam que a fórmula bruta sempre obedecia à proporção (CH2O)n, como se fossem
+moléculas de carbono "hidratadas" por água. A interpretação foi abandonada -- não há água ligada como tal
+--, mas o nome ficou. Hoje preferimos uma definição mais funcional: carboidratos são poliidroxialdeídos ou
+poliidroxicetonas, isto é, moléculas com vários grupos hidroxila (-OH) pendurados numa cadeia de carbonos,
+sendo um deles um aldeído (-CHO) ou uma cetona (C=O). Os termos carboidrato, sacarídeo e açúcar são
+intercambiáveis -- não se preocupe em escolher entre eles.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare na cadeia de carbonos linear, com OH em quase todos os átomos e um aldeído numa das pontas. Esta é a "matéria-prima"
+da família -- qualquer carboidrato pode ser reconstruído mentalmente a partir desse esqueleto.
+
+A partir desse esqueleto, dois eixos organizam toda a família. Primeiro eixo: a natureza do grupo carbonila.
+Se a carbonila está na ponta da cadeia, formando um aldeído, o açúcar é uma aldose -- a glicose é a aldose
+mais célebre. Se a carbonila está num carbono interno, formando uma cetona, é uma cetose -- a frutose, que
+dá o sabor doce das frutas, é o exemplo canônico. Segundo eixo: o número de carbonos. Três carbonos
+= triose; quatro = tetrose; cinco = pentose (ribose, desoxirribose); seis = hexose (glicose, frutose, galactose).
+Combinando os dois eixos, a glicose é uma aldoexose e a frutose é uma cetoexose. Essa é toda a taxonomia
+básica que você precisa.
+
+   Resumindo até aqui: Carboidrato = cadeia carbônica com vários -OH mais um grupo carbonila (aldeído ou cetona).
+   Classificação por dois eixos: aldose/cetose × triose/tetrose/pentose/hexose.
+
+Uma última definição organizadora antes de mergulhar: pelo tamanho, falamos de monossacarídeos (uma
+unidade só -- glicose, frutose), dissacarídeos (duas unidades ligadas -- sacarose, lactose), oligossacarídeos
+(cadeias curtas, geralmente 3 a 20 unidades, frequentemente grudados em proteínas) e polissacarídeos
+(cadeias longas, mais de 20 unidades -- amido, glicogênio, celulose). A Parte I trata do monossacarídeo isolado;
+as Partes II e III tratam do que acontece quando eles se unem.
+
+1.2 Estereoquímica: por que a orientação no espaço decide quem você é
+Aqui mora a primeira armadilha conceitual do tema, e vale apertar o passo. Um carbono que tem quatro
+substituintes diferentes é dito quiral (do grego "mão") -- pode existir em duas formas que são imagens
+especulares uma da outra, como a mão esquerda e a direita. Cada forma se chama um estereoisômero1. Aqui
+está o que importa: enzimas distinguem perfeitamente os dois -- uma enzima que reconhece a glicose D não
+
+   1estereoisômero ­ molécula com mesma fórmula e mesma ordem de ligações que outra, mas com arranjo espacial diferente -- não se
+sobrepõem mesmo por rotação
+
+                                                                                 4
+NEBLI                                                              ETAPA 1 -- TEXTO DIDÁTICO
+
+reconhece a glicose L, embora a fórmula molecular seja idêntica. Por isso a estereoquímica não é detalhe
+estético; é a gramática que o organismo lê.
+
+   Os monossacarídeos têm vários carbonos quirais -- uma aldoexose como a glicose tem quatro. O número de
+estereoisômeros possíveis é 2n, onde n é o número de carbonos quirais. Para a glicose, isso dá 24 = 16 aldoexoses
+possíveis. A natureza usa basicamente duas delas (D-glicose e D-galactose), mais a D-manose com papel menor
+-- outro exemplo de como a evolução escolhe um repertório pequeno de um universo enorme.
+
+Para nomear cada estereoisômero, usa-se a projeção de Fis
+
+cher: desenha-se a cadeia vertical com a carbonila no topo, e
+
+olha-se para o carbono assimétrico mais distante da carbonila
+
+-- no caso da glicose, o C5. Se o OH desse carbono fica à direita
+
+na projeção, o açúcar é da série D; à esquerda, da série L. As
+
+letras D/L vêm do latim dexter/laevus (direita/esquerda) e foram
+
+propostas por Emil Fischer em 1891, antes que se conhecessem
+
+técnicas modernas para determinar configuração -- Fischer ar
+
+bitrou e, por sorte, acertou. Os açúcares da fisiologia humana
+
+são quase todos D; os L existem mas são raros (alguns apare        Olhe o carbono assimétrico mais distante da car
+cem em glicoconjugados, como a L-fucose).                          bonila (no caso da glicose, o C5). Se o OH dele está
+                                                                   à direita na projeção de Fischer, é um D-açúcar; à
+                                                                   esquerda, L. Quase tudo na biologia humana é D.
+
+Resta um conceito que cai muito em prova: o de epímero2. Glicose e galactose, por exemplo, diferem apenas
+no C4: trocou-se a orientação do OH naquele carbono e o nome muda. Glicose e manose diferem só no C2.
+Aqui o aluno costuma confundir epímero com simples isômero -- não são a mesma coisa. Isômero é qualquer
+molécula com a mesma fórmula molecular; estereoisômero é isômero que difere só no arranjo espacial;
+epímero é estereoisômero que difere em apenas um carbono. Epímero é o caso mais restrito dos três.
+
+D/L não tem relação com dextrógiro/levógiro
+
+Cuidado: as letras D e L indicam configuração espacial do carbono assimétrico mais distante da carbonila
+(definição estrutural). Já os símbolos (+) e (-), também chamados dextrógiro e levógiro, indicam o sentido em
+que a molécula desvia luz polarizada (definição experimental, medida no polarímetro). São coisas separadas:
+a D-frutose, por exemplo, é levógira (sinal -). Não confunda. Em provas, a pegadinha quase sempre tenta fazer o
+aluno achar que D = dextrógiro.
+
+1.3 A glicose se fecha: hemiacetal, piranose e o nascimento dos anômeros
+Tudo o que vimos até aqui pintou a glicose como uma cadeia linear de seis carbonos. Em água, é mais
+complicado: a glicose, como toda aldose ou cetose com cinco ou mais carbonos, prefere viver ciclizada. A razão
+vem da química orgânica básica: um aldeído reage com um álcool e forma um hemiacetal3. Numa molécula
+de glicose, o C1 (aldeído) está bem perto do OH do C5 -- eles colidem dentro da própria molécula e a ligação
+
+   2epímero ­ dois estereoisômeros que diferem na configuração de apenas um carbono assimétrico, e são idênticos em todos os outros
+   3hemiacetal ­ produto da reação entre um aldeído e um álcool -- tem um OH e um OR ligados ao mesmo carbono; nas hexoses forma-
+se intramolecularmente, fechando um anel
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+se fecha em um anel de seis átomos. Esse anel se chama piranose. Se em vez do C5 a reação fosse com o C4,
+daria um anel de cinco átomos, chamado furanose -- a frutose usa essa rota e existe em piranose e furanose.
+
+As duas formas cíclicas da D-glicose. Ambas têm a mesma fórmula molecular e a mesma sequência de ligações; a única diferença
+está na orientação do OH no C1 -- o tal carbono anomérico. Acima, alfa: OH para baixo. Abaixo, beta: OH para cima. Diferença
+mínima, consequências enormes.
+
+Quando o anel se fecha, surge um carbono novo, com características novas: o C1, que era aldeído na forma
+linear, agora tem quatro substituintes diferentes -- virou um carbono quiral. Esse C1 ganha um nome especial,
+o carbono anomérico4. E como ele é quiral, pode ter o OH apontando para baixo (chamamos isso de forma
+alfa) ou para cima (forma beta). Essas duas formas são chamadas anômeros5. Alfa-D-glicose e beta-D-glicose:
+mesma molécula, mesmo nome, só muda o OH do C1.
+
+   Você pode estar pensando: "mas qual a diferença prática?". Aqui está o ponto-chave que faz toda a Parte
+II funcionar. A natureza do açúcar -- alfa ou beta -- decide qual enzima vai conseguir reconhecer e
+processar aquele carboidrato. A amilase humana só digere ligações entre carbonos anoméricos alfa (por isso
+digerimos amido). A celulase de cupins só processa ligações entre carbonos anoméricos beta (por isso cupins
+digerem madeira e nós não). É uma diferença mínima na orientação de um OH que separa uma molécula que
+vira reserva de energia (amido) de outra que vira parede celular indigerível (celulose). Guarde essa ideia --
+vamos voltar a ela em 2.3.
+
+   E mais uma coisa: se você pega alfa-D-glicose pura, dissolve em água e mede a rotação da luz polarizada, vê
+o ângulo mudar com o tempo até estabilizar. Esse fenômeno se chama mutarrotação6. O que está acontecendo
+é simples: a forma alfa se abre em cadeia linear, e quando ela se fecha de novo, pode formar alfa ou beta.
+No equilíbrio em solução, a glicose fica com cerca de 1/3 alfa, 2/3 beta, e uma fração mínima na forma
+
+   4carbono anomérico ­ carbono da carbonila original que se torna quiral ao formar o hemiacetal cíclico -- único carbono com dois
+oxigênios ligados a ele simultaneamente
+
+   5anômeros ­ estereoisômeros que diferem apenas na configuração do carbono anomérico
+   6mutarrotação ­ mudança espontânea da rotação óptica de uma solução de açúcar até atingir o equilíbrio entre suas formas cíclicas (alfa
+e beta) por intermédio da cadeia aberta
+
+                                                                                 6
+NEBLI                                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+aberta ( 0,02%). Mas é justamente essa fração aberta -- minoritária, fugaz -- que faz a glicose se comportar
+quimicamente como aldeído. Isso vai ser fundamental no próximo subtópico.
+
+Resumindo até aqui: Em solução, a glicose existe quase só na forma cíclica (anel de 6, chamado piranose). O
+fechamento do anel cria um carbono quiral novo (o anomérico, C1) com duas variantes: alfa (OH para baixo) e beta
+(OH para cima). A diferença alfa/beta decide quais enzimas reconhecem a molécula.
+
+                                                       MAPA CONCEITUAL
+
+                   Parte I -- A unidade fundamental: o monossacarídeo
+
+                   De cadeia aberta a anel cíclico com identidade
+                                                   alfa/beta
+
+                                                 
+
+1.1 ­                                            1.2 ­ Estereoquímica                                1.3 ­ Forma
+Definição                                                                                            cíclica
+                                                 Carbono
+Poliidroxialdeído                                quiral, D/L                                         Anel de 6
+                                                 pela projeção                                       (piranose)
+ou poliidroxicetona. a cadeia ganha quiralidade  de Fischer,      a cadeia se fecha e ganha mais um  por reação
+                                                 epímeros --                                         intramolecular.
+Eixos: aldose/                                   orientação                                          Carbono
+                                                 espacial define                                     anomérico cria
+cetose, número                                   o que a enzima                                      duas formas:
+                                                 reconhece.                                          alfa e beta.
+de carbonos,
+
+tamanho da
+
+cadeia.
+
+     Com o monossacarídeo isolado entendido, podemos perguntar: como esses tijolos se
+                     conectam? E o que muda quando se conectam com OH alfa ou beta?
+
+PARTE II -- Como os açúcares se ligam (e o que vira que)
+
+2.1 Açúcar redutor: a herança química da forma aberta
+Vamos começar por algo que parece detalhe analítico e revela uma propriedade conceitual profunda. Há mais
+de cem anos, antes de a glicemia ser medida em laboratório clínico, ela era detectada por um teste simples:
+pingar uma gota de urina sobre uma solução azul de cobre (II) -- o reagente de Fehling. Se houvesse açúcar
+suficiente, a solução virava vermelho-tijolo (precipitado de cobre I). Esse foi o primeiro teste de glicose na
+medicina. Mas atenção: o teste deu positivo não com toda forma cíclica da glicose; deu positivo porque uma
+fração mínima das moléculas em solução está, a cada instante, na forma aberta -- e aldeído reduz cobre (II) a
+cobre (I).
+
+   Daí o termo açúcar redutor: aquele cujo carbono anomérico está livre (não ocupado em ligação química),
+permitindo a abertura para a forma de cadeia com aldeído ou cetona expostos, capazes de doar elétrons.
+Glicose, frutose, galactose, lactose -- todos são açúcares redutores. Mas, como veremos no próximo subtópico,
+sacarose não é. A diferença mora exatamente no carbono anomérico.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Acima, açúcar redutor: o carbono anomérico (em destaque) está com OH livre -- a molécula pode abrir e expor o aldeído. Abaixo,
+açúcar não-redutor: o carbono anomérico está envolvido na ligação glicosídica -- a molécula não consegue abrir. Sem aldeído exposto,
+sem capacidade de reduzir cobre.
+
+Hoje, na prática clínica, o teste de Fehling foi aposentado. O método moderno usa a GOx7, uma enzima que
+oxida especificamente a beta-D-glicose. Por que substituiu? Porque o Fehling era promíscuo -- qualquer
+açúcar redutor dava positivo, incluindo frutose, lactose, galactose, ou até proteínas redutoras na urina. A
+glicose-oxidase, por ser enzimática, é altamente seletiva: só reage com glicose. Quem tem frutosúria ou
+galactosúria pode ter Fehling positivo sem ter glicemia alterada -- diagnóstico falsamente atribuído a diabetes.
+A troca de Fehling por GOx eliminou esse falso-positivo.
+
+    Pegadinha de prova: GOx vs Fehling
+
+    A armadilha clássica é a inversão: alunos lembram que "o teste de Fehling é o melhor para glicose" -- falso. Fehling
+    é menos específico, dá positivo com qualquer açúcar redutor. GOx é mais específica, reconhece apenas beta-
+    D-glicose. A GOx substituiu o Fehling exatamente por ser melhor. Em prova, qualquer alternativa que afirme o
+    contrário está errada.
+
+2.2 Ligação O-glicosídica: como os açúcares se prendem uns aos outros
+Lembra do hemiacetal que se formou em 1.3 quando o aldeído da glicose reagiu com um OH da própria
+molécula? Pois bem: se em vez do OH ser da própria glicose ele for de outra molécula (outro açúcar, um
+álcool, um aminoácido), o produto se chama acetal. E a ligação química que une os dois fragmentos pelo
+oxigênio se chama ligação O-glicosídica8. Toda vez que dois açúcares se unem para formar um dissacarídeo, o
+que está acontecendo é exatamente isso: o C1 (anomérico) de um se conecta a um OH do outro, perdendo-se
+
+   7GOx ­ glicose-oxidase -- enzima usada no teste enzimático moderno de glicemia; específica apenas para beta-D-glicose
+   8ligação O-glicosídica ­ ligação covalente entre o carbono anomérico de um açúcar e um grupo hidroxila de outra molécula, com
+eliminação de uma molécula de água -- o produto é um acetal
+
+                                                                                 8
+NEBLI                                                ETAPA 1 -- TEXTO DIDÁTICO
+
+uma molécula de água. A ligação fica, portanto, entre o C1 de um açúcar e o C-x do outro (x = qualquer
+um dos OHs disponíveis).
+
+   A nomenclatura faz sentido se você lê devagar. Uma ligação alfa(14) significa: carbono anomérico C1 do
+primeiro açúcar (em configuração alfa) ligado ao carbono 4 do segundo açúcar. Beta(14) é a mesma coisa,
+mas com o C1 em configuração beta. E alfa(16) une o C1 do primeiro ao C6 do segundo -- esse é o tipo de
+ligação que forma ramificações, porque o C6 sai "para o lado" da cadeia principal. Essa pequena gramática
+vai aparecer em todos os polissacarídeos da Parte III.
+
+Três tipos de ligações glicosídicas em dissacarídeos. Repare como a ligação 1,1 (canto direito) prende os dois carbonos anoméricos
+juntos -- esse é o segredo de por que a sacarose e a trealose não são açúcares redutores: nenhum carbono anomérico está livre para
+abrir a cadeia.
+
+Agora, o caso paradigmático que vale guardar. Os três dissacarídeos clássicos da bioquímica humana têm
+comportamentos distintos justamente por causa do tipo de ligação:
+
+Dissacarídeo Ligação Redutor? Origem                 Função / observação
+
+Lactose   beta(14)  SIM leite materno e de mamíferos glicose + galactose;
+                                                                        hidrolisada pela lactase
+                                                                        intestinal. Deficiência da
+                                                                        lactase = intolerância à
+                                                                        lactose
+
+Sacarose  alfa(12beta) NÃO plantas (açúcar de mesa)  glicose + frutose; ambos
+                                                     os carbonos anoméricos
+                                                     estão ocupados na lig
+
+                    9
+NEBLI                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+Dissacarídeo     Ligação    Redutor? Origem                      Função / observação
+Trealose      alfa(11alfa)     NÃO hemolinfa de insetos, fungos
+                                                                 ação -- nenhuma extrem
+                                                                 idade redutora
+
+                                                                 duas glicoses unidas
+                                                                 pelos dois carbonos
+                                                                 anoméricos; reserva en
+                                                                 ergética
+
+Olhe a coluna "redutor?". Lactose é redutora porque a ligação beta(14) ocupa apenas o C1 da galac
+tose; o C1 da glicose continua livre, podendo abrir e expor o aldeído. Sacarose e trealose, ao contrário,
+têm ligações que envolvem os dois carbonos anoméricos ao mesmo tempo -- nenhum dos lados pode
+abrir. Essa é a explicação mecanística completa da pegadinha do Fehling: sacarose, mesmo sendo o açúcar de
+mesa que adoça nosso café, é não-redutora, porque seus dois lados estão presos. Se você guarda só uma coisa
+de carboidratos para a prova, guarde essa.
+
+   Resumindo até aqui: Açúcar redutor = tem carbono anomérico livre. Sacarose tem ambos os anoméricos ocupados
+   na ligação alfa(12beta), por isso é não-redutora. Lactose tem só um anomérico ocupado, por isso é redutora.
+
+2.3 Polissacarídeos estruturais: a celulose e o que nossas enzimas não fazem
+Quando muitas glicoses se ligam em sequência por ligações beta(14), forma-se uma cadeia chamada
+celulose. Ela é o polímero mais abundante da Terra -- mais da metade do carbono da biosfera está em celulose,
+especialmente nas paredes celulares das plantas. Uma única fibra de celulose pode ter até 15 mil resíduos
+de glicose enfileirados. E por que ela é tão útil estruturalmente? Por causa da geometria que a ligação beta
+imprime à molécula: cada resíduo de glicose, em uma cadeia beta, gira aproximadamente 180 graus em relação
+ao anterior, fazendo a cadeia ficar estendida e plana, como uma fita. Várias dessas fitas se alinham paralelas,
+sustentadas por uma rede densa de pontes de hidrogênio, formando microfibrilas extremamente resistentes --
+a parede celular vegetal consegue suportar diferenças de pressão osmótica de até 20 atm sem rebentar.
+
+                            10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Microfibrilas de celulose: cadeias paralelas mantidas juntas por pontes de hidrogênio. O resultado é uma estrutura rígida, com
+resistência mecânica comparável à do aço por massa. Note que a geometria estendida é consequência direta da ligação beta -- uma
+cadeia alfa teria geometria completamente diferente.
+
+E aqui está a pergunta que provavelmente já passou pela sua cabeça: se a celulose é só glicose ligada em
+sequência, e a glicose é nosso combustível principal, por que não comemos folhas e madeira em vez de pão?
+A resposta é simples e mecanística: nossos intestinos não têm enzima capaz de hidrolisar a ligação
+beta(14). Temos alfa-amilase (para amido, ligação alfa), maltase, sacarase, lactase -- mas nenhuma celulase.
+A ligação beta é quimicamente acessível, mas falta a chave biológica que a abriria. Por isso a fibra alimentar
+(composta majoritariamente de celulose) atravessa todo o intestino delgado sem ser absorvida -- ela alimenta
+nossas bactérias intestinais e dá volume ao bolo fecal, mas não vira glicemia.
+
+   Os herbívoros resolveram o problema de outro jeito: não desenvolveram a celulase, mas hospedam
+microorganismos simbiontes (no rúmen das vacas, no ceco dos coelhos, no intestino dos cupins) que produzem
+celulases. A vaca não digere a grama; ela digere as bactérias que digeriram a grama. Insetos como cupins têm
+flagelados no intestino que fazem o mesmo. O resultado é o mesmo -- extrair glicose da celulose -- mas o
+caminho é simbiótico, não enzimático direto. Mais um exemplo de como a evolução, em vez de inventar uma
+enzima nova, prefere terceirizar para um parceiro.
+
+    Uma molécula, dois destinos
+    Amido (alfa-1,4) e celulose (beta-1,4) são feitos do mesmo monossacarídeo -- D-glicose. A única diferença
+    é a configuração do carbono anomérico no momento da ligação. Mas como alfa e beta produzem geometrias
+    completamente diferentes (helicoidal vs estendida), o resultado biológico é radicalmente distinto: um é reserva
+    energética digerível, o outro é estrutura indigerível. A diferença entre comida e fibra é a orientação de um OH.
+
+                                                                                11
+NEBLI                                                                                                   ETAPA 1 -- TEXTO DIDÁTICO
+                                           MAPA CONCEITUAL
+
+                       Parte II -- Como os açúcares se ligam
+
+                       O tipo da ligação glicosídica define o destino do
+                                                       polímero
+
+                                           
+
+2.1 ­ Açúcar                               2.2 ­ Ligação                                     2.3
+redutor                                    glicosídica                                       ­ Geometria e
+                                                                                             destino
+
+Carbono anomérico      o anomérico decide  C1 anomérico + OH    a geometria decide a função  Beta estendido =
+livre  forma                               de outra molécula                                 celulose estrutural
+aberta  aldeído                            = acetal. Posição                                 indigerível para nós.
+exposto  reduz                             (14, 16) e                                        Alfa helicoidal =
+cobre. Base do teste                       configuração (alfa,                               amido digerível.
+de Fehling e da troca                      beta) determinam                                  Mesma glicose, dois
+por GOx.                                   tudo.                                             mundos.
+
+     Agora que sabemos como a ligação muda o destino, fica natural perguntar: que polis
+     sacarídeos a evolução desenhou para guardar energia, e como eles diferem do polímero
+
+                                                           estrutural celulose?
+
+PARTE III -- Carboidratos de reserva e de reconhecimento
+
+3.1 Amido: a despensa das plantas (e a base da dieta humana)
+Se a celulose é o tijolo da parede da planta, o amido é a despensa. Plantas armazenam o excedente da
+fotossíntese (a glicose que sobra depois das necessidades imediatas) na forma de amido, em grânulos dentro
+de organelas chamadas amiloplastos -- abundantes em tubérculos (batata, mandioca), sementes (milho, arroz,
+trigo) e raízes. Quando colhemos esses órgãos vegetais e os transformamos em alimento, é o amido deles que
+nos fornece a maior parte das calorias dietéticas -- em torno de 50 a 60 por cento do total energético em
+populações com dieta baseada em cereais.
+
+   O amido não é uma molécula única, mas uma mistura de duas: amilose (cadeia linear) e amilopectina
+(cadeia ramificada). Vamos olhar cada uma e entender por que a planta carrega as duas.
+
+                                           12
+NEBLI                                                                           ETAPA 1 -- TEXTO DIDÁTICO
+
+A amilose é o componente linear: cadeias longas de glicose
+
+unidas exclusivamente por ligações alfa(14), sem ramificação.
+
+A diferença para a celulose está apenas na configuração alfa (em
+
+vez de beta), mas o efeito geométrico é dramático: em vez de fitas
+
+estendidas, a amilose se enrola sobre si mesma formando uma
+
+hélice esquerda, com cerca de 6 resíduos por volta. Por isso,
+
+quando você pinga iodo em um copo com água de cozimento
+
+de macarrão (ou amido em pó dissolvido), a solução fica azul-
+
+escura -- o iodo se aloja no canal central dessa hélice. É um teste
+
+clássico para detectar amido.                                        Hélice esquerda da amilose: cada volta tem cerca de 6
+
+                                                                     resíduos de glicose. A geometria alfa(14) força essa
+
+                                                                     torção -- é justamente nessa cavidade interna que o
+
+                                                                     iodo se prende, dando o azul característico do teste
+
+                                                                     do amido.
+
+A amilopectina, por sua vez, é o componente ramificado: tem a mesma espinha de ligações alfa(14)
+da amilose, mas a cada 24 a 30 resíduos surge uma ramificação por ligação alfa(16). O resultado é uma
+molécula que parece uma árvore vista de cima, com a cadeia principal lançando galhos em todas as direções.
+E por que a planta investiria energia em ramificar? Porque a ramificação aumenta drasticamente o número
+de extremidades não-redutoras expostas -- os pontos onde as enzimas amilolíticas atacam para liberar
+glicose. Quanto mais extremidades, mais rápida a mobilização da reserva. Uma molécula linear (amilose) só
+pode ser atacada por cada ponta; uma molécula ramificada (amilopectina) pode ser atacada por centenas de
+pontas simultaneamente. A ramificação é, portanto, uma estratégia de cinética: estoca a mesma quantidade
+de glicose, mas libera-a mais rápido quando necessário.
+
+Resumindo até aqui: Amido = amilose (linear, alfa-1,4, hélice) + amilopectina (ramificada, alfa-1,4 com pontos
+alfa-1,6 a cada cerca de 25 resíduos). Ramificar aumenta extremidades não-redutoras  mobilização mais rápida.
+
+3.2 Glicogênio: a versão animal -- mais ramificada, mais ágil
+Animais não acumulam amido. A reserva equivalente em nossas células se chama glicogênio, e a diferença
+mecanística com a amilopectina é gradual mas importante: o glicogênio tem ligações alfa(16) a cada 8 a
+12 resíduos, contra os 24 a 30 da amilopectina. Em outras palavras, o glicogênio é muito mais ramificado
+-- quase o dobro de pontos de ramificação por unidade de comprimento. Isso amplifica ainda mais o número
+de extremidades não-redutoras expostas, e o resultado fisiológico é uma mobilização ultrarrápida de glicose
+quando a demanda surge (exercício, estresse, jejum noturno). Faz sentido: animais correm, plantas não.
+
+                               13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+  Comparação esquemática: à esquerda, amilopectina, menos ramificada. À direita, glicogênio, com pontos alfa(16) bem mais
+  frequentes. Reserva animal precisa ser mais "explosiva" -- mais ramificação = mais frentes de liberação simultânea.
+
+O glicogênio fica armazenado em dois grandes depósitos no corpo, com funções diferentes. No fígado, o
+glicogênio serve para manter a glicemia constante entre as refeições -- quando você dorme, é o glicogênio
+hepático que vai sendo quebrado para liberar glicose no sangue, alimentando especialmente o cérebro. Um
+fígado humano em jejum pós-prandial guarda cerca de 100 g de glicogênio, suficiente para algumas horas
+de glicemia estável. No músculo esquelético, o glicogênio serve para o músculo consumir localmente
+durante o exercício -- não vai para o sangue. O músculo guarda cerca de 400 g de glicogênio no total (somando
+toda a musculatura) e, importante, não exporta glicose (falta-lhe uma enzima específica chamada glicose-6-
+fosfatase). Essas diferenças são tema da aula de metabolismo do glicogênio, que virá adiante; por ora, basta
+entender que a estrutura é a mesma em ambos, e que a localização tecidual define a função.
+
+   Uma curiosidade que vale notar: 1 g de glicogênio carrega consigo cerca de 3 a 4 g de água ligada pelos
+numerosos grupos -OH da molécula. Para guardar a mesma quantidade de energia que 1 g de gordura,
+precisaríamos de 9 a 11 g de glicogênio hidratado. Por isso a evolução não escolheu o glicogênio como reserva
+de longo prazo: pesaria demais. O glicogênio é reserva de curto prazo -- rápido de mobilizar, mas pesado. A
+gordura é reserva de longo prazo -- leve, mas mais lenta de mobilizar. Cada uma tem seu papel.
+
+3.3 Glicoconjugados: quando o açúcar vira identidade
+Até aqui, falamos de carboidratos como combustível ou como estrutura. Existe uma terceira função, e ela é
+tão importante quanto: reconhecimento. Quase todas as proteínas secretadas pelas células e quase todas as
+proteínas que ficam ancoradas na membrana plasmática são glicosiladas -- isto é, têm açúcares (em geral
+oligossacarídeos curtos, 2 a 15 resíduos) ligados covalentemente à cadeia polipeptídica. Essas proteínas são
+chamadas glicoproteínas; o conjunto formado por glicoproteínas e glicolipídeos na superfície externa da
+célula forma uma camada açucarada chamada glicocálix.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Dois tipos de ligação proteína-açúcar. À esquerda, N-glicosídica: o açúcar liga-se ao nitrogênio do grupo amida de uma asparagina
+(Asn). À direita, O-glicosídica: liga-se ao oxigênio do OH de uma serina (Ser) ou treonina (Thr). Os dois acontecem dentro do retículo
+endoplasmático e do complexo de Golgi.
+
+A glicosilação acontece em duas modalidades químicas. Na N-glicosilação, o açúcar (geralmente começando
+por N-acetil-glicosamina) se liga ao nitrogênio do grupo amida de um resíduo de asparagina (Asn) -- esse tipo
+é o mais comum nas proteínas secretadas. Na O-glicosilação, o açúcar se liga ao oxigênio do OH de uma
+serina ou treonina -- frequente em proteínas de membrana e em mucinas (proteínas que dão à saliva e ao
+muco sua textura escorregadia). As duas modalidades são funcionalmente distintas: N-glicosilação serve mais
+ao controle de qualidade de proteínas no retículo endoplasmático; O-glicosilação serve mais à comunicação
+extracelular.
+
+   O que esses açúcares fazem na superfície da célula? Identificam a célula para o resto do organismo.
+O exemplo mais conhecido -- e clinicamente vital -- é o ABO9. Hemácias de tipo A têm um açúcar terminal
+específico (N-acetil-galactosamina); hemácias B têm outro (galactose); AB têm os dois; O não tem nenhum dos
+dois (só o açúcar "base", chamado antígeno H). Se uma pessoa do tipo A recebe sangue do tipo B, seu sistema
+imune reconhece o açúcar B como "estranho" -- ataca, lisa as hemácias transfundidas, e a reação pode ser fatal.
+Uma diferença de um único monossacarídeo terminal decide compatibilidade transfusional. Não há exemplo
+mais didático de como a estrutura química de um açúcar vira informação biológica.
+
+   9ABO ­ sistema sanguíneo que define os grupos A, B, AB e O com base nos açúcares terminais expostos na superfície das hemácias
+                                                                                15
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+Glicação na diabetes -- quando o açúcar vira problema
+
+Quando a glicemia fica cronicamente alta (DM10 mal controlada), moléculas de glicose podem se ligar a proteínas
+sem a participação de enzima -- fenômeno chamado glicação não-enzimática. A reação é lenta e progressiva,
+e produz proteínas anormais (chamadas produtos finais de glicação avançada, ou AGEs) que se acumulam em vasos
+sanguíneos, retina, rim e nervos. Os AGEs alteram a função dos vasos, contribuem para a aterosclerose acelerada
+do diabético, e estão diretamente envolvidos nas complicações tardias (retinopatia, neuropatia, nefropatia). O
+exame de HbA1c que se faz a cada 3 meses no diabético mede exatamente isso: a fração de hemoglobina que foi
+glicada -- proxy da glicemia média do trimestre.
+
+                                                           MAPA CONCEITUAL
+
+                  Parte III -- Carboidratos de reserva e de reconhecimento
+
+                  Função vem do desenho do polímero
+
+                                          
+
+3.1 ­ Amido                               3.2                                          3.3 ­ Glicoconjugados
+                                          ­ Glicogênio
+Reserva vegetal.  animais ramificam mais                    combustível vira etiqueta  Açúcares de
+Amilose linear                            Reserva animal.                              superfície =
++ amilopectina                            Mais ramificado.                             identidade celular.
+ramificada.                               Fígado exporta,                              Sistema ABO.
+                                          músculo não.
+
+Combustível, estrutura, identidade: três funções, uma química básica comum. O resto do
+       semestre vai mostrar como a célula extrai, transforma e usa essa moeda química.
+
+   10DM ­ diabetes mellitus -- doença em que a glicemia permanece elevada por falência da insulina (tipo 1) ou resistência periférica a ela
+(tipo 2)
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Comecei este resumo dizendo que carboidrato é mais que combustível -- espero que agora você sinta
+isso na pele. Os três grandes desfechos que percorremos (reserva, estrutura, reconhecimento) surgem
+todos a partir de variações mínimas da química básica de um monossacarídeo: a orientação de um OH
+(alfa vs beta), a posição da ligação glicosídica (14 vs 16), a presença ou ausência de ramificações,
+a substituição de um resíduo terminal por outro (glicose vs galactose vs N-acetil-galactosamina). Em
+outras palavras: a biologia dos carboidratos é um exercício de combinatória química onde diferenças
+aparentemente cosméticas geram consequências funcionais opostas -- comida vs fibra, reserva vs
+estrutura, antígeno A vs antígeno B.
+Esse princípio -- forma manda na função -- não é exclusivo dos carboidratos, claro; vale para todas
+as macromoléculas biológicas. Mas em carboidratos ele é particularmente cristalino: você sai daqui
+sabendo justificar por que a vaca digere grama e nós não, por que sacarose não reduz Fehling, e por
+que uma transfusão sanguínea pode matar quando o açúcar errado entra. Guarde essas três imagens
+como âncoras -- elas vão voltar nas aulas de metabolismo, de doenças do glicogênio, na conversão de
+hemoglobina em HbA1c, e na clínica da diabetes, das transfusões e das complicações vasculares. Não é
+um tópico isolado; é o alfabeto que vai estruturar metade do que vem pela frente.
+
+       17
+NEBLI                                                                           ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Anomeria alfa/beta                                                   Lactose × Sacarose × Trealose
+
+Quando a glicose se cicliza (anel piranose), o C1 vira quiral Lactose (gal-glic, beta-14, redutora): leite materno; intol
+
+e dá origem a dois anômeros -- alfa (OH para baixo) e beta erância por falta de lactase. Sacarose (gli-fru, alfa-12beta,
+
+(OH para cima). A enzima que digere amido (alfa-amilase) só não-redutora): açúcar de mesa, transporte vegetal. Trealose
+
+reconhece anomérico alfa; a celulase só reconhece beta. Uma (gli-gli, alfa-11alfa, não-redutora): hemolinfa de insetos.
+
+diferença mínima na orientação de um OH decide se o Quem tem o anomérico livre é redutor.
+
+açúcar vira comida ou fibra.                                         Amido × Glicogênio × Celulose
+
+Açúcar redutor                                                       Mesmo monômero (D-glicose), três destinos opostos.
+
+É todo aquele cujo carbono anomérico está livre -- em Amido (alfa-1,4 + alfa-1,6 a cada 25): reserva vegetal.
+
+equilíbrio, abre-se em cadeia aberta e expõe o aldeído capaz de Glicogênio (alfa-1,4 + alfa-1,6 a cada 10): reserva animal,
+
+reduzir Cu². Glicose, frutose, galactose, lactose são redu mais ramificado = mobilização mais rápida. Celulose (beta-1,4
+
+tores. Sacarose e trealose, não -- ambos os anoméricos estão estendido): estrutura vegetal indigerível para humanos (não
+
+ocupados na ligação glicosídica. Pegadinha clássica de prova. temos celulase).
+
+Fehling vs GOx                                                       Glicogênio fígado × músculo
+
+   O teste de Fehling ( 1850) é promíscuo: positivo para                Mesma estrutura química, funções opostas pela enzimolo
+qualquer açúcar redutor (frutose, galactose, lactose dão posi        gia tecidual. Fígado ( 100 g): exporta glicose para manter
+tivo sem haver glicose). Por isso foi substituído pelo teste da      glicemia (tem glicose-6-fosfatase). Músculo ( 400 g total):
+glicose-oxidase, enzimaticamente específica para beta-D-             consome localmente, não exporta (sem glicose-6-fosfatase).
+glicose. GOx é mais específico, não menos.                           Memorizar: músculo é egoísta, fígado é doador.
+Eixos da classificação                                               Glicoconjugados e identidade celular
+
+   (1) Natureza da carbonila  aldose (aldeído na ponta, ex.             Quase toda proteína secretada ou de membrana é glicosi
+glicose) ou cetose (cetona interna, ex. frutose). (2) Número         lada -- açúcares ligados covalentemente. N-glicosídica (em
+de carbonos  triose, tetrose, pentose, hexose. Combinando:           Asn): controle de qualidade no retículo. O-glicosídica (em
+glicose = aldoexose, frutose = cetoexose.                            Ser/Thr): mucinas, sinalização extracelular. O glicocálix é a
+Estereoquímica D/L                                                   camada açucarada externa da célula -- é por ela que as células
+                                                                     se reconhecem.
+   Definida pelo carbono assimétrico mais distante da                Sistema ABO
+carbonila. Se o OH dele aponta para a direita na projeção
+de Fischer  série D (caso da glicose); à esquerda  série L              Os tipos sanguíneos diferem por um único
+(raríssima na fisiologia humana). D/L não tem relação direta         monossacarídeo terminal no glicoconjugado da hemácia:
+com dextrógiro/levógiro (luz polarizada) -- são definições           tipo A = N-acetil-galactosamina; tipo B = galactose; AB = am
+independentes.                                                       bos; O = só o antígeno H, sem terminal específico. Transfusão
+Ligação glicosídica                                                  incompatível dispara reação imune contra o açúcar estranho.
+                                                                     Diferença de um açúcar = vida ou morte transfusional.
+   Une o carbono anomérico C1 de um açúcar ao OH de                  Glicação não-enzimática
+outra molécula com eliminação de água. Notação: alfa(14)
+significa C1 alfa ligado ao C4 do segundo; alfa(16) é o                 Em diabetes mal controlado, glicose se liga a proteínas sem
+tipo que faz ramificação. Posição e configuração da ligação          enzima -- lento e progressivo. Gera AGEs (produtos finais
+ditam toda a função do polissacarídeo resultante.                    de glicação avançada) responsáveis pelas complicações tardias
+                                                                     (retinopatia, neuropatia, nefropatia). HbA1c mede a fração
+                                                                     glicada da hemoglobina -- proxy da glicemia média trimes
+                                                                     tral.
+
+                                                                 18
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 1 Consolidação
+Carboidratos são, por definição química:
+
+  A) Polímeros formados exclusivamente pela ligação peptídica entre aminoácidos.
+  B) Poliidroxialdeídos ou poliidroxicetonas com fórmula próxima de (CH2O)n.
+  C) Moléculas anfipáticas formadas por uma cabeça polar e duas caudas hidrofóbicas.
+  D) Polímeros lineares de nucleotídeos com função de armazenar informação genética.
+  E) Estruturas formadas por anel de cinco carbonos e dois nitrogênios em ressonância.
+
+Questão 2 Consolidação
+A diferença entre uma D-glicose e uma L-glicose está:
+
+  A) Na fórmula molecular: uma tem mais carbonos que a outra.
+  B) No número de grupos hidroxila ligados à cadeia.
+  C) No tipo de grupo carbonila: aldose vs cetose.
+  D) Na configuração espacial do carbono assimétrico mais distante da carbonila.
+  E) No comprimento da cadeia carbônica.
+
+Questão 3 Consolidação
+Quando uma molécula de D-glicose passa da forma linear para a forma cíclica em solução aquosa, surge um
+carbono com características novas. Esse carbono é chamado:
+
+  A) Carbono anomérico -- pode assumir as formas alfa ou beta.
+  B) Carbono alfa, presente também em aminoácidos.
+  C) Carbono terminal, sempre fixado em uma única configuração.
+  D) Centro estereogênico inativo, sem efeito biológico relevante.
+  E) Carbono quiral primário, equivalente ao C2 da glicose.
+
+                            19
+NEBLI                       ETAPA 2 -- OBJETIVAS
+
+Questão 4 Consolidação
+
+Sobre a estrutura e a classificação dos monossacarídeos, julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A glicose é uma aldoexose: tem um grupo aldeído numa das pontas e seis carbonos na cadeia.
+  II. A frutose é uma cetoexose: tem grupo cetona interno e seis carbonos.
+  III. Trioses e tetroses não existem em sistemas biológicos por serem instáveis em água.
+  IV. Para uma aldoexose, o número total de estereoisômeros possíveis é 24 = 16.
+
+Questão 5 Consolidação
+Glicose e galactose são exemplos de:
+
+  A) Isômeros constitucionais, com conectividade atômica diferente.
+  B) Confôrmeros, que interconvertem por rotação de ligação.
+  C) Epímeros -- diferem só na configuração do C4.
+  D) Diastereoisômeros que não compartilham nenhum carbono assimétrico em comum.
+  E) Moléculas idênticas em estrutura e função.
+
+Questão 6 Consolidação
+
+Sobre os açúcares redutores, é correto afirmar que:
+  A) Todo monossacarídeo é redutor; todo dissacarídeo, não-redutor.
+  B) A capacidade redutora depende da presença de pelo menos um carbono asymetric livre, independente
+  mente da posição da carbonila.
+  C) Sacarose, lactose e maltose são todas redutoras, porque são dissacarídeos.
+  D) A capacidade redutora depende da quantidade total de grupos hidroxila na molécula.
+  E) Tem o carbono anomérico livre, permitindo abrir-se em cadeia com aldeído ou cetona expostos.
+
+                        20
+NEBLI                       ETAPA 2 -- OBJETIVAS
+
+Questão 7 Consolidação
+
+Sobre o teste de Fehling e o teste enzimático com glicose-oxidase (GOx), julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O teste de Fehling é mais específico para a glicose do que o teste com GOx.
+  II. Pacientes com frutosúria ou galactosúria podem dar Fehling positivo sem ter glicemia elevada.
+  III. A glicose-oxidase é uma enzima e reconhece especificamente a beta-D-glicose.
+  IV. Trocou-se Fehling por GOx porque a GOx é mais sensível, ou seja, detecta concentrações menores; a
+  especificidade é equivalente.
+
+Questão 8 Consolidação
+A ligação O-glicosídica que une dois monossacarídeos para formar um dissacarídeo:
+
+  A) É uma ligação iônica fraca, hidrolisada espontaneamente em pH neutro.
+  B) Acontece sempre entre o C6 de um açúcar e o C2 do outro.
+  C) É uma ligação peptídica modificada, herdada da química dos aminoácidos.
+  D) Reação do carbono anomérico de um açúcar com o OH de outro, liberando água.
+  E) Não envolve oxigênio em sua estrutura, daí o nome "glicosídica".
+
+Questão 9 Consolidação
+
+A celulose e o amido são feitos do mesmo monossacarídeo (D-glicose). A razão pela qual humanos digerem
+amido mas não celulose é:
+
+  A) O amido tem mais átomos de carbono por molécula que a celulose.
+  B) A ligação beta(14) da celulose não é hidrolisada pelas enzimas intestinais humanas.
+  C) A celulose é tóxica para o intestino humano.
+  D) O amido contém glicose D e a celulose contém glicose L.
+  E) A celulose é absorvida no estômago mas degradada por enzimas gástricas.
+
+                        21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+O amido é composto por dois tipos de polímeros: amilose e amilopectina. A diferença estrutural entre eles é:
+  A) Amilose contém apenas glicose; amilopectina contém glicose e frutose alternadas.
+  B) Amilose existe apenas em plantas; amilopectina é a forma animal de reserva de glicose.
+  C) Amilose usa ligações beta(14); amilopectina usa ligações alfa(14) ramificadas.
+  D) Amilose: linear alfa(14); amilopectina: alfa(14) com ramificações alfa(16).
+  E) Amilose é totalmente solúvel em água; amilopectina forma grânulos insolúveis.
+
+Questão 11 Integração
+
+Considere a fórmula molecular C6H12O6. Quantos estereoisômeros (D ou L combinados) podem existir teori
+camente para uma aldoexose com essa fórmula, dada a quantidade de carbonos assimétricos presentes?
+
+  A) 4 estereoisômeros.
+  B) 8 estereoisômeros.
+  C) 16 estereoisômeros.
+  D) 32 estereoisômeros.
+  E) 64 estereoisômeros.
+
+Questão 12 Integração
+
+Em um experimento, dois compostos com a mesma fórmula molecular C12H22O11 foram testados com o reagente
+de Fehling. O composto X resultou em precipitado vermelho-tijolo; o composto Y manteve a solução azul. Sabe-
+se que ambos são dissacarídeos compostos por duas unidades de glicose. Qual a explicação mais provável?
+
+  A) X tem ligação beta(14) entre os monômeros; Y tem ligação alfa(14).
+  B) X tem uma ligação que ocupa apenas o C1 de uma das glicoses (o outro permanece livre); Y tem ligação
+  que ocupa os dois carbonos anoméricos simultaneamente.
+  C) Y é um açúcar mais doce, o que mascara a reação com o cobre.
+  D) X é da série D e Y é da série L.
+  E) X tem mais grupos hidroxila que Y, devido a uma diferença no peso molecular.
+
+                         22
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Sobre a estereoquímica dos carboidratos, julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Nas projeções de Fischer, o açúcar é da série D quando o OH do carbono assimétrico mais distante do
+  grupo carbonila está posicionado à direita.
+  II. As letras D e L não têm correspondência direta com os símbolos (+) e (-), que indicam o sentido em que
+  a molécula desvia luz polarizada.
+  III. Todos os açúcares da série D são, por consequência, dextrógiros -- isto é, desviam a luz polarizada para
+  a direita.
+  IV. Glicose e manose são exemplos de moléculas idênticas em todos os carbonos assimétricos, exceto um.
+
+Questão 14 Integração
+O fenômeno de mutarrotação observado quando alfa-D-glicose pura é dissolvida em água ocorre porque:
+
+  A) A glicose oxida progressivamente em contato com o ar, mudando sua configuração.
+  B) A forma alfa se converte irreversivelmente em forma beta ao longo do tempo.
+  C) A forma alfa abre em cadeia linear e refecha em alfa ou beta, atingindo equilíbrio ( 1/3 alfa, 2/3 beta).
+  D) Moléculas de glicose se polimerizam espontaneamente para formar dissacarídeos.
+  E) A luz polarizada interage com os elétrons da molécula, oscilando o ângulo medido.
+
+Questão 15 Integração
+
+Por que a sacarose, mesmo sendo o açúcar de mesa que adoça nosso café e cuja molécula contém glicose, não
+dá reação positiva no teste de Fehling?
+
+  A) Porque a sacarose é um açúcar artificial e não reage com cobre.
+  B) Porque a sacarose contém apenas frutose, que não é redutora.
+  C) Porque a ligação entre glicose e frutose na sacarose deixa o carbono anomérico da frutose livre, impedindo
+  a reação.
+  D) Porque a sacarose é da série L, e o teste de Fehling só funciona em açúcares D.
+  E) A ligação alfa(12beta) ocupa os dois carbonos anoméricos -- nenhum lado pode abrir-se.
+
+                       23
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Comparando a estrutura da amilopectina (vegetal) e do glicogênio (animal), pode-se dizer que:
+  A) Amilopectina é mais ramificada que glicogênio.
+  B) Ambas têm a mesma frequência de ramificação, em média uma a cada 50 resíduos.
+  C) Apenas amilopectina tem ramificações; o glicogênio é estritamente linear.
+  D) Glicogênio é mais ramificado que amilopectina (alfa-1,6 a cada 8-12 resíduos vs 24-30).
+  E) Glicogênio possui ligações beta(14) e amilopectina, ligações alfa(14).
+
+Questão 17 Integração
+
+Sobre a forma cíclica dos monossacarídeos, julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O fechamento do anel envolve a reação intramolecular entre o grupo aldeído (ou cetona) e um grupo
+  hidroxila da própria molécula, formando um hemiacetal (ou hemicetal).
+  II. Na D-glicose, o aldeído do C1 reage com o OH do C5, formando um anel de seis átomos chamado piranose.
+  III. Os anômeros alfa e beta diferem na orientação espacial do OH no carbono anomérico (C1), e essa
+  diferença mínima é o que permite ou impede o reconhecimento por enzimas como a alfa-amilase ou a
+  celulase.
+  IV. Em solução aquosa, a glicose existe predominantemente na forma de cadeia aberta; as formas cíclicas
+  são apenas minoritárias.
+
+Questão 18 Integração
+
+A lactose é um dissacarídeo redutor, enquanto a sacarose não é. A explicação correta para essa diferença
+está em:
+
+  A) A lactose é digerida pelos humanos, e a sacarose não.
+  B) Na lactose o C1 da glicose fica livre; na sacarose ambos os anoméricos estão ocupados.
+  C) A lactose é encontrada em mamíferos; a sacarose, em plantas.
+  D) A lactose contém galactose, açúcar mais reativo que a frutose presente na sacarose.
+  E) A lactose é hidrolisada espontaneamente em solução; a sacarose, não.
+
+                       24
+NEBLI                                                                               ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+A intolerância à lactose, condição comum em adultos de várias populações, ocorre porque:
+  A) O pâncreas deixa de secretar insulina suficiente quando há lactose persistente na dieta.
+  B) A lactase intestinal cai com a idade; a lactose não-hidrolisada é fermentada no cólon e gera gases.
+  C) A lactose é tóxica para o epitélio intestinal adulto.
+  D) A lactose precipita no lúmen do intestino delgado, impedindo a absorção de outros nutrientes.
+  E) O fígado deixa de produzir bile suficiente para emulsificar a lactose.
+
+Questão 20 Integração
+
+Apesar de a celulose e a alfa-amilose serem polímeros de D-glicose, suas propriedades macroscópicas são
+radicalmente diferentes (fibra estrutural rígida vs reserva digerível e solúvel). A razão fundamental é:
+
+  A) A diferença na espécie biológica que produz cada um (plantas vs animais).
+  B) O número total de resíduos: celulose tem 15.000, amilose tem apenas 1.000.
+  C) A configuração do anomérico na ligação: beta gera cadeia estendida (celulose); alfa gera hélice esquerda
+  (amilose).
+  D) A presença de oxigênio na celulose e ausência na amilose.
+  E) A celulose contém átomos de fósforo nas pontes que a amilose não possui.
+
+Questão 21 Integração
+Considere os dissacarídeos lactose, sacarose, maltose e trealose. Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Lactose é encontrada no leite de mamíferos e é açúcar redutor.
+  II. Sacarose contém glicose ligada a galactose pela ligação alfa(12beta).
+  III. Trealose é o açúcar redutor mais abundante na hemolinfa dos insetos.
+  IV. Maltose é composta por duas unidades de glicose e é açúcar redutor.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Considere a reação: sacarose + H2O  glicose + frutose, com K = 140000 a 25 graus Celsius. O que esse K
+elevado permite concluir?
+
+  A) A reação é praticamente irreversível e ocorre na bancada em segundos sem catalisador.
+  B) A hidrólise da sacarose é termodinamicamente favorável (Go muito negativo), mas lenta sem catálise
+  enzimática.
+  C) No equilíbrio, a concentração de sacarose é maior que a de glicose e frutose combinadas.
+  D) A reação só ocorre em pH ácido, condição típica do estômago.
+  E) O valor de K não tem relação com a espontaneidade termodinâmica.
+
+Questão 23 Integração
+
+Um corredor de longa distância em meio à prova depende fortemente do glicogênio muscular acumulado.
+Sobre a estrutura ramificada desse polímero, é correto afirmar:
+
+  A) A ramificação serve apenas para reduzir a solubilidade do polímero em água.
+  B) A ramificação não tem função fisiológica, sendo apenas um produto acidental da biossíntese.
+  C) A ramificação multiplica as extremidades não-redutoras, acelerando a liberação de glicose durante o
+  exercício.
+  D) A ramificação alfa(16) torna a molécula resistente à enzima glicogênio-fosforilase, garantindo reserva
+  permanente.
+  E) A ramificação garante que o glicogênio possa ser exportado da fibra muscular para o sangue, suprindo
+  outros tecidos.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Sobre amido e glicogênio, julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Amido e glicogênio são compostos por monossacarídeos diferentes: amido por glicose, glicogênio por
+  galactose.
+  II. Tanto amido quanto glicogênio têm ramificações por ligações alfa(16) na mesma frequência de aparição
+  na cadeia principal.
+  III. O teste do iodo (que dá coloração azul-escura com amido) explora a interação do iodo com a cadeia
+  linear da amilose; com glicogênio a coloração é avermelhada.
+  IV. Tanto o amido quanto o glicogênio são polímeros de D-glicose com ligações alfa-glicosídicas, sendo o
+  glicogênio mais ramificado que a amilopectina.
+
+Questão 25 Integração
+
+Quando você dissolve amido em água e pinga uma gota de solução de iodo, a mistura fica azul-escura. Esse
+resultado é explicado por:
+
+  A) Reação química covalente entre o iodo e os átomos de carbono da glicose.
+  B) Oxidação do iodo pelos açúcares redutores presentes no amido.
+  C) O iodo aloja-se no canal central da hélice da amilose, formando um complexo que absorve luz amarela.
+  D) Liberação de glicose livre que reage com o iodo formando um precipitado colorido.
+  E) Reação ácido-base entre os grupos hidroxila do amido e o iodo.
+
+                       27
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Em laboratório, um pesquisador observa duas culturas celulares: uma de hepatócitos e outra de
+células musculares esqueléticas. Ele administra adrenalina a ambas em concentração equivalente.
+Após 15 minutos, observa que ambos os tipos celulares mobilizam ativamente seu glicogênio, mas
+apenas a cultura de hepatócitos libera glicose no meio extracelular. As células musculares mobi
+lizam, mas não exportam.
+A enzima cuja ausência no músculo explica esse comportamento é:
+
+  A) Glicogênio-fosforilase: presente apenas no fígado, ausente nas células musculares esqueléticas.
+  B) Hexoquinase: ativa apenas em hepatócitos, inibida no músculo durante exercício intenso.
+  C) Glicose-6-fosfatase: presente no fígado, ausente no músculo -- sem ela, glicose-6-P fica aprisionada.
+  D) Lactato-desidrogenase: presente apenas em hepatócitos, ausente no tecido muscular.
+  E) Alfa-amilase: enzima muscular exclusiva, ausente no parênquima hepático.
+
+Questão 27 Aplicação
+
+Um recém-nascido de 4 meses apresenta diarreia volumosa, fezes ácidas e distensão abdominal toda
+vez que é amamentado, com melhora completa quando alimentado com fórmula sem lactose. O
+quadro é compatível com intolerância congênita à lactose por deficiência da lactase intestinal.
+Julgue cada item:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A lactose não-hidrolisada permanece no lúmen intestinal e exerce efeito osmótico, atraindo água e
+  provocando diarreia.
+
+  II. A lactose chega ao cólon e é fermentada pelas bactérias da microbiota, produzindo ácidos orgânicos
+  (lactato, acetato) que acidificam as fezes, e gases (H2, CO2) que distendem o abdome.
+
+  III. O tratamento com fórmula sem lactose remove a fonte do problema, e os sintomas melhoram porque os
+  dissacarídeos remanescentes da fórmula (sacarose, maltose) são hidrolisados normalmente pelas dissacari
+  dases preservadas no enterócito.
+
+  IV. A deficiência da lactase impede também a absorção de glicose e galactose já presentes em forma livre
+  na dieta, pois o transportador SGLT1 depende da prévia hidrólise pela lactase para ser ativado.
+
+                      28
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Um paciente com diabetes mellitus tipo 2 mal controlado apresenta HbA1c de 11 por cento (refer
+ência: menor que 5,7). Esse exame mede a fração da hemoglobina que sofreu glicação não-enzimática
+durante a vida útil da hemácia.
+Sobre o significado desse achado, é correto afirmar:
+
+  A) A HbA1c indica que a hemoglobina do paciente apresenta uma mutação genética grave.
+
+  B) O exame mede a glicemia exatamente no momento da coleta; um valor de 11 por cento indica glicemia
+  de jejum aproximada de 200 mg/dL.
+
+  C) A glicação ocorre porque a hemoglobina é uma enzima glicolítica que catalisa a hidrólise da glicose
+  dentro da hemácia.
+
+  D) O aldeído da glicose aberta liga-se a aminas de proteínas; HbA1c reflete a glicemia média dos 3 meses
+  anteriores.
+
+  E) A HbA1c é resultado da fosforilação enzimática da hemoglobina pela hexoquinase eritrocitária.
+
+Questão 29 Aplicação
+
+Um paciente do grupo sanguíneo A recebe inadvertidamente uma transfusão de sangue do grupo
+B. Em poucos minutos, ele apresenta calafrios, dor lombar intensa, hipotensão e hemoglobinúria.
+Trata-se de uma reação transfusional hemolítica aguda.
+O mecanismo molecular fundamental é:
+
+  A) O sangue B tem viscosidade diferente do A, causando obstrução microvascular.
+  B) Anticorpos anti-B do receptor reconhecem a galactose terminal das hemácias B e ativam o complemento,
+  hemolisando-as.
+  C) O sangue B contém vírus que o sistema imune do tipo A não tolera.
+  D) O ferro presente nas hemácias B é tóxico para o receptor.
+  E) O sangue B tem pH muito mais alcalino que o sangue A, causando lise química das hemácias.
+
+                      29
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Em pesquisa farmacêutica, deseja-se produzir uma proteína terapêutica em quantidade industrial.
+Duas plataformas foram avaliadas: cultura de Escherichia coli (bactéria) e cultura de células de
+levedura ou mamífero. Para algumas proteínas, apenas a segunda funciona -- a primeira gera um
+produto inativo.
+A explicação bioquímica para essa diferença é:
+
+  A) Bactérias produzem proteínas com aminoácidos diferentes dos encontrados em eucariotos.
+  B) A E. coli não forma pontes dissulfeto, processo exclusivo de células com retículo endoplasmático.
+  C) Bactérias usam um código genético diferente do código padrão dos eucariotos.
+  D) Bactérias têm temperatura ótima de cultivo incompatível com proteínas humanas.
+  E) Bactérias não realizam glicosilação -- proteínas como o HBsAg ficam não-funcionais em E. coli.
+
+                      30
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 1
+Explique por que uma diferença mínima (a orientação do OH no carbono anomérico, alfa vs beta) na
+forma cíclica da glicose é capaz de produzir destinos biológicos completamente opostos: digestível e
+calórico em um caso (amido), indigerível e estrutural no outro (celulose). Sua resposta deve mencionar
+geometria do polímero e o reconhecimento enzimático.
+
+    MODELO DE RESPOSTA
+
+   A configuração alfa no carbono anomérico produz, ao polimerizar, uma cadeia que se enrola em hélice
+   esquerda (amilose) -- geometria compatível com o sítio ativo da alfa-amilase humana, que reconhece
+   e hidrolisa a ligação alfa(14). A configuração beta gera cadeia estendida e plana, que se empilha
+   lado a lado em microfibrilas (celulose) -- geometria que nenhuma enzima do trato digestivo humano
+   consegue acomodar. A diferença microscópica (orientação de um OH) propaga-se em escala molecular
+   (forma do polímero) e biológica (digerível vs indigerível). É um exemplo paradigmático de que forma
+   manda na função.
+
+Questão 2
+A sacarose, embora seja um dissacarídeo composto de glicose mais frutose, não dá reação positiva no
+teste de Fehling, enquanto a lactose (galactose mais glicose) dá. Justifique mecanicamente essa diferença,
+identificando o papel do carbono anomérico.
+
+    MODELO DE RESPOSTA
+
+   Um açúcar só reduz cobre (II) quando consegue abrir-se em cadeia aberta e expor o aldeído reativo do
+   carbono anomérico. Na lactose, a ligação beta(14) ocupa apenas o C1 da galactose; o C1 da glicose
+   permanece livre, podendo abrir-se e expor o aldeído -- daí a redução positiva. Na sacarose, a ligação
+   alfa(12beta) prende simultaneamente o C1 da glicose e o C2 da frutose (os dois carbonos anoméricos
+   da molécula); nenhum dos lados pode abrir-se e o aldeído nunca aparece. Sem aldeído exposto, sem
+   redução de Cu2+ -- Fehling negativo.
+
+                             31
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão 3
+
+O músculo esquelético armazena mais glicogênio em massa absoluta que o fígado (cerca de 400 g vs
+100 g), mas é o fígado que mantém a glicemia entre as refeições, e o músculo não contribui diretamente
+para a glicemia plasmática. Explique a base bioquímica dessa diferença funcional.
+
+MODELO DE RESPOSTA
+
+O fígado expressa a enzima glicose-6-fosfatase, que hidrolisa a glicose-6-fosfato (produto da
+degradação do glicogênio) em glicose livre e fosfato inorgânico. A glicose livre, neutra, atravessa a
+membrana via GLUT-2 e atinge o plasma. O músculo esquelético não expressa essa enzima: a glicose-6-
+fosfato, sendo carregada, fica aprisionada na fibra muscular e é oxidada localmente pela glicólise. A
+consequência fisiológica é que o glicogênio muscular serve ao próprio músculo durante o exercício,
+enquanto o hepático sustenta a glicemia sistêmica. Mesma química de armazenamento, enzimologia
+tecidual oposta.
+
+Questão 4
+
+Por que dois pacientes geneticamente saudáveis, ambos do grupo sanguíneo A, podem ser transfundidos
+entre si sem reação adversa, mas a transfusão de sangue do grupo B a esse mesmo receptor pode ser
+letal? Articule a resposta em termos da química do antígeno e da resposta imune.
+
+    MODELO DE RESPOSTA
+
+   A diferença entre os grupos sanguíneos ABO está no monossacarídeo terminal do oligossacarídeo de
+   superfície da hemácia: tipo A termina em N-acetil-galactosamina; tipo B, em galactose; tipo O não
+   tem terminal específico (só o antígeno H precursor). O indivíduo do grupo A produz naturalmente
+   anticorpos anti-B (sem ter contato prévio com o antígeno B). Transfundir sangue B nele expõe esses
+   anticorpos ao açúcar B nas hemácias doadas; o complexo antígeno-anticorpo ativa o complemento, e
+   a hemólise intravascular maciça gera hipotensão, coagulopatia e insuficiência renal. Uma diferença de
+   um único açúcar terminal decide compatibilidade transfusional.
+
+       32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão 5 -- Identifique o erro
+
+Um colega afirma: "A sacarose não é açúcar redutor porque a frutose presente na molécula é uma
+cetose, e cetoses não conseguem reagir com o reagente de Fehling. Já a lactose contém glicose, que
+é aldose; por isso, lactose reduz Fehling." Identifique o erro conceitual desse raciocínio e construa a
+justificativa correta.
+
+MODELO DE RESPOSTA
+
+O erro está em atribuir a diferença ao tipo de carbonila (aldose vs cetose). De fato, cetoses isoladas
+(como a frutose livre) também são redutoras: em solução, a forma aberta tautomeriza permitindo
+abertura para enediol e oxidação. A causa correta da não-reação da sacarose é estrutural: a ligação
+glicosídica alfa(12beta) prende simultaneamente o C1 anomérico da glicose e o C2 anomérico da
+frutose, impossibilitando que qualquer um deles abra a cadeia e exponha a carbonila reativa. Já na
+lactose, a ligação beta(14) ocupa só o C1 da galactose; o C1 da glicose fica livre, abre-se em forma
+aberta e reduz Fehling. Em resumo: o que determina a capacidade redutora não é aldose ou cetose,
+mas se o carbono anomérico está livre ou comprometido.
+
+       33
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B     Q02 D         Q03 A     Q04 CECC  Q05 C
+                        Q08 D     Q09 B     Q10 D
+Q06 E     Q07 EECE
+                        Q13 CCEE  Q14 C     Q15 E
+INTEGRAÇÃO (Q11­Q25)    Q18 B     Q19 B     Q20 C
+                        Q23 C     Q24 EEEC  Q25 C
+Q11 C     Q12 A
+Q16 D     Q17 ECCC      Q28 D     Q29 B     Q30 E
+
+Q21 CEEC  Q22 B
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 CCCE
+
+                        37
+

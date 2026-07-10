@@ -1,0 +1,2121 @@
+NEBLI · APOSTILA
+
+Transplante
+Cardíaco Pediátrico
+
+Liga de Cardiologia e Transplante Cardíaco Pediátrico
+
+Disciplina:    Liga de Cardiologia e Transplante Cardíaco Pediátrico
+Nota de uso:   Primeira leitura pós-aula -- leia junto com os slides.
+Onde estudar:  Apostila da liga + slides das aulas do Curso Introdutório
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+   Sobre este material
+
+Este material foi produzido para o Curso Introdutório da Liga de Cardiologia e Transplante Cardíaco
+Pediátrico da FMUSP (LCTXCP). Cobre anatomia e fisiologia cardiovascular, insuficiência cardíaca, car
+diomiopatias, cardiopatias congênitas, transplante cardíaco e emergências cardiológicas pediátricas.
+A profundidade é deliberadamente inclinada: a Parte I parte do absoluto básico, presumindo conheci
+mento de ensino médio e da UC01, e a profundidade sobe progressivamente ao longo das cinco partes.
+Ao final, o leitor terá sido conduzido da anatomia normal até cenários clínicos integrados de emergência
+cardiológica pediátrica, sem saltos abruptos.
+
+Estrutura
+
+Etapa 1 -- Texto didático  Exposição sequencial em cinco partes temáticas. Cada parte cobre um bloco
+Resumindo                  funcional do conteúdo do curso. As partes são independentes entre si para
+Etapa 2 -- Objetivas       permitir leitura não-linear.
+Etapa 3 -- Discursivas     Síntese em uma página, em duas colunas, com os pontos de maior relevância
+                           clínica de cada parte. Indicado para revisão rápida pré-prova.
+                           Vinte questões de múltipla escolha. Oito de consolidação (conceitos isolados),
+                           oito de integração (cruzam duas ou mais partes) e quatro de aplicação
+                           (cenários clínicos pediátricos). Gabarito ao final.
+                           Cinco questões abertas, uma por parte temática. Cada questão foca em um
+                           mecanismo específico; a resposta-modelo tem no máximo cem palavras.
+
+                           2
+NEBLI                                                                  SOBRE ESTE MATERIAL
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+
+  PARTE I -- Anatomia e fisiologia cardiovascular
+       1.1 O coração como bomba -- quatro câmaras, dois circuitos
+       1.2 Pressão, fluxo e o duplo circuito
+       1.3 A circulação fetal e o que muda ao nascer
+
+  PARTE II -- Insuficiência cardíaca e cardiomiopatias
+       2.1 Quando a bomba falha -- o mecanismo da IC
+       2.2 IC na criança -- apresentação e classificação
+       2.3 Cardiomiopatias -- dilatada, hipertrófica, restritiva
+
+  PARTE III -- Cardiopatias congênitas
+       3.1 A lógica dos shunts -- por que a mistura causa problema
+       3.2 Acianogênicas -- excesso vai para o pulmão
+       3.3 Cianogênicas -- sangue venoso escapa para o corpo
+       3.4 Tratamento cirúrgico -- paliação e correção
+
+  PARTE IV -- Transplante cardíaco pediátrico
+       4.1 Quando se indica transplante
+       4.2 Doador e receptor -- critérios e compatibilidade
+       4.3 Captação -- corrida contra o relógio
+       4.4 Coração artificial / VAD -- a ponte antes da ponte
+
+  PARTE V -- Emergências cardiológicas pediátricas
+       5.1 Choque -- quando o coração não perfunde
+       5.2 Arritmias críticas em crianças
+       5.3 Cardiopatia congênita crítica do recém-nascido
+
+RESUMINDO
+
+       Síntese panorâmica em 1 página
+
+ETAPA 2 -- 20 OBJETIVAS
+
+       Consolidação (Q01­Q08) · verde
+       Integração (Q09­Q16) · azul
+       Aplicação (Q17­Q20) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Uma por PARTE, mecanismo central, modelo 100 palavras (Q5 130)
+
+         3
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de mergulhar em transplante cardíaco pediátrico, é honesto admitir uma coisa: a maior
+    parte do que se vai ver aqui -- cirurgia de Norwood, switch arterial, prostaglandina E1, escolha
+    de doador -- só faz sentido se a base estiver firme. E a base, neste caso, é entender por que
+    o coração tem o desenho que tem. Por que ele se divide em quatro câmaras? Por que algumas
+    crianças nascem azuladas? Por que outras parecem bem ao nascer e descompensam três dias
+    depois? Tudo nesta apostila se resolve quando o aluno entende que o coração é uma bomba
+    dupla e que cada cardiopatia congênita é uma quebra específica desse arranjo. A apostila vai do
+    básico -- anatomia, ciclo cardíaco, pré-carga -- até o avançado -- fisiologia de Fontan, ponte para
+    transplante com Berlin Heart, choque cardiogênico neonatal. A curva sobe devagar nas primeiras
+    páginas e fecha em nível clínico real nas últimas. Leia junto com os slides do curso introdutório;
+    cada figura aqui vem da mesma fonte que o professor usou na aula.
+
+PARTE I -- Anatomia e fisiologia cardiovascular normal
+
+1.1 -- Por que precisamos de um coração com quatro câmaras
+Pense numa célula isolada no fundo do oceano. Ela respira, come e excreta direto pela membrana -- tudo
+o que precisa está a poucos micrômetros de distância, e a difusão resolve. Agora pense num organismo
+do tamanho de um ser humano. A célula do dedão do pé está a um metro e meio do pulmão e a quase
+um metro do intestino. Difusão pura não dá conta dessa distância. Foi esse problema de logística que
+a evolução resolveu inventando um sistema cardiovascular: uma rede de tubos com uma bomba no
+centro que joga sangue à força para todos os cantos, levando oxigênio, glicose, hormônios, e trazendo
+de volta gás carbônico e excretas.
+A bomba é o coração. Os tubos são os vasos. E o desenho desse arranjo não é arbitrário -- ele resolve
+dois problemas ao mesmo tempo. Primeiro: o sangue precisa passar pelo pulmão para pegar oxigênio.
+Segundo: depois de pegar o oxigênio, esse sangue precisa ir para o resto do corpo, e não voltar para o
+pulmão. A solução é separar dois circuitos em série e dar a cada um a sua própria bomba dedicada. É por
+isso que o coração tem quatro câmaras e não duas, e é por isso que algumas malformações congênitas
+-- quando essa separação não acontece direito -- produzem consequências dramáticas.
+
+   Resumindo até aqui: O coração existe para resolver um problema de distância -- distribuir oxigênio
+   e nutrientes em organismos grandes onde a difusão não basta. O desenho de quatro câmaras separa o
+   circuito que oxigena (pulmonar) do circuito que distribui (sistêmico), e cada cardiopatia congênita é uma
+   quebra específica desse arranjo.
+
+Vamos ver o desenho com calma. O coração tem dois lados -- direito e esquerdo -- separados por
+uma parede chamada septo. Cada lado tem duas câmaras: uma de cima, chamada átrio, e uma de baixo,
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+chamada ventrículo. Entre o átrio e o ventrículo do mesmo lado existe uma válvula válvula1 que abre
+em um sentido só, garantindo que o sangue siga sempre adiante. Os átrios são câmaras de "espera" --
+recebem o sangue que está chegando. Os ventrículos são as bombas propriamente ditas -- quando se
+contraem, expulsam o sangue para fora do coração.
+
+AD2
+
+VD3
+
+AE4
+
+VE5
+
+O caminho do sangue, então, é o seguinte. Sangue venoso (pobre em oxigênio, rico em gás carbônico)
+chega das veias cavas no AD. Do AD passa pela válvula tricúspide para o VD. O VD se contrai e empurra
+o sangue pela artéria pulmonar até o pulmão, onde o sangue troca CO por O. Sangue agora oxigenado
+volta pelas veias pulmonares ao AE. Do AE passa pela válvula mitral ao VE. O VE se contrai com força
+e ejeta o sangue pela aorta para todo o corpo. Cada ciclo desse leva menos de um segundo, e acontece
+umas 70 vezes por minuto em adultos em repouso -- bem mais rápido em crianças.
+
+   1válvula ­ estrutura fibrosa em forma de aba que se abre num sentido e fecha no outro, garantindo fluxo unidirecional
+do sangue dentro do coração.
+
+   2AD ­ átrio direito -- câmara superior do coração direito, recebe sangue venoso de todo o corpo pelas veias cavas
+   3VD ­ ventrículo direito -- câmara inferior do coração direito, bombeia sangue para o pulmão pela artéria pulmonar
+   4AE ­ átrio esquerdo -- câmara superior do coração esquerdo, recebe sangue oxigenado dos pulmões pelas veias
+pulmonares
+   5VE ­ ventrículo esquerdo -- câmara inferior do coração esquerdo, bombeia sangue oxigenado para todo o corpo pela
+aorta
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Representação esquemática da circulação sanguínea. Repare como os dois circuitos estão em série: o sangue só pode
+chegar ao corpo depois de ter passado pelo pulmão. O lado direito (azul) lida com sangue pobre em oxigênio; o lado
+esquerdo (vermelho), com sangue rico. A separação é mantida pelo septo.
+
+Um detalhe que vai ser crucial mais adiante: o VE tem parede muito mais espessa que o VD. Não é
+por capricho da evolução -- é por necessidade mecânica. O VE precisa empurrar sangue para a aorta
+contra uma pressão sistêmica de cerca de 120 mmHg em adultos. O VD empurra sangue para a artéria
+pulmonar contra uma pressão muito menor, em torno de 25 mmHg. Quem trabalha contra mais
+resistência precisa de músculo mais grosso, simples assim. Em algumas cardiopatias congênitas, o VD
+acaba precisando bombear contra pressão sistêmica (porque o shunt inverteu, ou porque os circuitos
+estão trocados) -- e quando isso acontece, o VD se hipertrofia em pouco tempo, virando uma parede tão
+espessa quanto a do VE.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Camadas da parede do coração. O miocárdio é a camada que importa funcionalmente -- é onde está o músculo
+ cardíaco. A espessura do miocárdio varia entre câmaras: parede do VE é três a quatro vezes mais espessa que a do
+ VD, refletindo a diferença de pressão que cada um enfrenta.
+
+    Direito não é mais fraco -- é mais leve
+    Aluno tende a pensar "VD é mais fraco que VE". Errado. O VD não é mais fraco; ele simplesmente
+    trabalha contra menos resistência. Em condições onde a pressão pulmonar sobe (hipertensão
+    pulmonar, shunt invertido na síndrome de Eisenmenger), o VD se hipertrofia rapidamente. O
+    músculo se molda à carga que enfrenta, não a um destino genético fixo.
+
+    Síntese 1.1 -- O coração tem quatro câmaras porque separa dois circuitos em série -- pulmonar
+    (baixa pressão) e sistêmico (alta pressão). Cada lado tem um átrio que recebe e um ventrículo que
+    bombeia. O VE é mais espesso porque enfrenta mais resistência; o VD é mais fino porque o pulmão
+    impõe menos. Essa proporção pode inverter quando a carga muda.
+
+1.2 -- Ciclo cardíaco, débito e a lei de Frank-Starling
+Vimos o desenho. Agora o funcionamento. O coração não bombeia o sangue numa corrente contínua
+-- ele faz isso em pulsos. Cada pulso é um ciclo cardíaco, composto de duas fases: sístole (contração
+ventricular, com ejeção de sangue) e diástole (relaxamento ventricular, com enchimento). Os átrios
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+também têm sua sístole, mas curta e logo antes da ventricular. Sístole = aperta; diástole = relaxa. Decore
+isso porque vai voltar o tempo todo.
+
+ Curva de Frank-Starling. No eixo X, o quanto o ventrículo encheu na diástole (volume diastólico final); no eixo Y, o
+ quanto ele ejetou na sístole. Quanto mais o coração enche, mais ele ejeta -- até um certo limite, depois do qual a
+ curva se achata e mais enchimento não traduz mais débito.
+
+Quando o ventrículo se contrai na sístole, parte do sangue que estava lá dentro é ejetada. Esse volume
+ejetado a cada batida chama-se volume sistólico (VS) volume sistólico6. Multiplicado pela frequência
+cardíaca, dá o débito cardíaco -- a quantidade total de sangue que o coração bombeia por minuto.
+
+FC7
+
+DC8
+
+                                                         DC = FC × VS
+
+   6volume sistólico ­ volume de sangue ejetado pelo ventrículo a cada contração -- tipicamente 60 a 100 mL em adultos,
+e proporcionalmente menos em crianças.
+
+   7FC ­ frequência cardíaca -- número de batimentos do coração por minuto. Em crianças menores, é mais alta: recém-
+nascido fica entre 100 e 160 bpm, lactente entre 80 e 150, escolar próximo a 70­110.
+
+   8DC ­ débito cardíaco -- volume total de sangue bombeado pelo coração por minuto. Calcula-se multiplicando FC pelo
+volume sistólico (DC = FC × VS). É a medida central da função de bomba.
+
+                                                                                 8
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+Isso já tem uma consequência clínica importante para crianças. Adultos podem aumentar o débito de
+várias maneiras -- subindo a FC, aumentando o VS por contratilidade maior, ou aumentando a pré-
+carga. Crianças pequenas, especialmente lactentes, têm um ventrículo menos complacente -- não
+conseguem aumentar muito o VS. Para subir o débito, dependem quase só de aumentar a frequência.
+Por isso, quando uma criança está em insuficiência cardíaca, a primeira coisa que aparece é taquicardia.
+Não é uma resposta opcional; é praticamente a única forma que ela tem de tentar compensar.
+
+Resumindo até aqui: DC = FC × VS. Em crianças pequenas, o VS varia pouco porque o ventrículo é menos
+complacente. Então o débito só sobe se a FC subir -- taquicardia é o primeiro sinal de IC pediátrica, não
+um sintoma acessório.
+
+E o que determina o volume sistólico? Três fatores entrelaçados. Primeiro, a pré-carga: quanto sangue
+o ventrículo recebeu antes de contrair (volume diastólico final). Segundo, a contratilidade: quão forte
+o músculo aperta independente do volume. Terceiro, a pós-carga: a pressão contra a qual o ventrículo
+precisa empurrar (basicamente a pressão arterial).
+
+Vamos por partes. A pré-carga é o estiramento das fibras antes da contração. Quanto mais o ventrículo
+enche, mais as fibras musculares se estiram, e -- até um certo limite -- mais forte é a contração que
+vem depois. Essa é a lei de Frank-Starling: o coração ejeta o que recebe. Se o retorno venoso aumenta
+(você bebeu muita água, ou está deitado e o sangue volta mais fácil), o ventrículo enche mais, a fibra
+estira mais, e a sístole seguinte sai com mais força. Sem isso, qualquer descompasso entre o que volta
+pela veia e o que sai pela aorta produziria acúmulo imediato em algum ponto.
+
+       9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Relação entre o estiramento das fibras musculares e a força de contração. Estiramento moderado aumenta a força
+porque há mais sobreposição entre actina e miosina. Estiramento excessivo separa demais os filamentos e a força
+cai -- é o que acontece num coração extremamente dilatado.
+A contratilidade é a "marra" intrínseca do músculo, independente de quanto ele tenha enchido. Cateco
+laminas (adrenalina, noradrenalina) aumentam a contratilidade -- é o que o sistema nervoso simpático
+faz quando você está em situação de luta ou fuga. Drogas usadas em UTI (dobutamina, adrenalina,
+milrinona) fazem o mesmo de forma controlada. Quando o miocárdio está doente -- miocardite, car
+diomiopatia dilatada, infarto -- a contratilidade cai e o débito despenca, mesmo se a pré-carga estiver
+normal.
+A pós-carga é a resistência contra a qual o ventrículo precisa ejetar. Pense em empurrar uma porta: se
+a porta tem mola pesada, você se cansa mais; se não tem, o esforço é mínimo. Para o VE, a pós-carga é
+principalmente a pressão arterial sistêmica. Para o VD, é a pressão arterial pulmonar. Subir a pós-carga
+reduz o volume sistólico: o ventrículo gasta mais energia mas ejeta menos.
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que a hipertensão arterial mata o coração com o tempo
+
+Em um adulto com pressão alta não tratada, o VE precisa ejetar contra 160 mmHg em vez dos
+120 normais. Cada batida custa mais trabalho. O músculo se adapta hipertrofiando -- engrossa
+a parede, fica mais forte. Mas hipertrofia sem aumento proporcional de capilares cria um mús
+culo mal-irrigado. Anos depois, a contratilidade cai, a câmara dilata e instala-se a insuficiência
+cardíaca. É o mecanismo pelo qual hipertensão crônica leva a IC sistólica.
+
+Síntese 1.2 -- Ciclo cardíaco é sístole (ejeta) e diástole (enche). Débito = FC × VS. Volume sistólico
+depende de três coisas: quanto enche (pré-carga), quão forte aperta (contratilidade), e contra
+quanto empurra (pós-carga). Crianças pequenas dependem da FC para subir débito -- taquicardia
+é o primeiro sinal de IC.
+
+1.3 -- Circulação fetal e o que muda ao nascer
+Tudo o que vimos até aqui descreve o coração adulto, ou de uma criança já adaptada à vida fora do útero.
+Mas o feto vive numa situação muito diferente. O pulmão fetal não respira -- está cheio de líquido
+e seus vasos estão muito contraídos. O oxigênio do feto vem da placenta, não do pulmão. Isso muda
+tudo na lógica da circulação, e o coração fetal tem dois desvios anatômicos que só fazem sentido nesse
+contexto: o forame oval e o canal arterial.
+
+PCA9
+
+O forame oval é uma abertura no septo entre AD e AE. Permite que o sangue que chega ao AD (vindo das
+veias cavas) passe direto para o AE, sem precisar passar pelo pulmão. Faz sentido porque o pulmão fetal
+não está oxigenando nada -- mandar sangue para lá seria desperdício. Já o canal arterial (ou ductus
+arteriosus) é um tubo curto que liga a artéria pulmonar à aorta. O pouco sangue que ainda vai do VD
+para a artéria pulmonar, ao encontrar a alta resistência dos vasos pulmonares fetais, escapa pelo canal
+arterial direto para a aorta. Os dois desvios servem ao mesmo propósito: tirar o pulmão do caminho.
+
+   9PCA ­ persistência do canal arterial -- ducto vascular fetal entre artéria pulmonar e aorta que normalmente fecha nos
+primeiros dias após o nascimento. Quando não fecha, vira cardiopatia congênita acianogênica.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Localização do coração no tórax. Repare na proximidade entre coração e pulmões: a anatomia explica por que
+congestão pulmonar e disfunção cardíaca andam juntas -- quando o VE falha, o sangue acumula-se imediatamente
+no leito pulmonar.
+
+E então o bebê nasce. A placenta sai do circuito, o pulmão expande com o primeiro choro, o oxigênio
+entra no sangue, e a resistência vascular pulmonar despenca. De um momento para o outro, o pulmão
+deixa de ser um circuito de alta resistência e vira um circuito de baixa resistência -- exatamente como
+será pelo resto da vida. Essa queda inicia uma cascata: a pressão no lado direito do coração cai, o
+forame oval (que dependia da pressão maior à direita para se manter aberto) se fecha, e o canal arterial
+-- sensível ao aumento de oxigênio e à queda da prostaglandina E2 -- também se contrai e oclui. Em
+poucas horas a dias, a circulação fetal vira a circulação pós-natal definitiva.
+
+   Resumindo até aqui: Feto vive com pulmão fechado e oxigênio vindo da placenta. Forame oval e canal
+   arterial são desvios que tiram o pulmão do circuito. Ao nascer, a queda da resistência pulmonar e o
+   aumento de oxigênio fecham esses desvios -- em horas a dias. Cardiopatias congênitas que dependem
+   desses desvios manifestam-se exatamente nesse momento.
+
+Por que isso é tão importante para a cardiologia pediátrica? Porque muitas cardiopatias congênitas só
+se manifestam clinicamente depois que esses desvios fecham. Enquanto o canal arterial está aberto,
+alguns bebês com obstrução grave do lado esquerdo (coarctação severa, síndrome de hipoplasia do
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+coração esquerdo) parecem bem -- porque o canal arterial está suprindo a circulação sistêmica pelo lado
+direito. Quando o canal fecha, a perfusão sistêmica colapsa de uma hora para outra e o bebê entra em
+choque. É por isso que prostaglandina E1 salva vidas no neonato em choque com cianose ou pulsos
+ausentes: ela mantém o canal arterial aberto, "comprando tempo" até a cirurgia.
+
+Sistema de condução do coração. O nó sinoatrial dispara, o impulso atravessa os átrios, passa pelo nó AV (única ponte
+elétrica entre átrios e ventrículos) e desce pelo feixe de His até as fibras de Purkinje. Esse arranjo garante que átrios
+e ventrículos se contraiam em sequência ordenada.
+
+    Forame oval patente NÃO é o mesmo que CIA
+    Aluno confunde os dois. Forame oval patente é um vestígio do desvio fetal que não fechou
+    completamente -- uma valva-aba que ainda existe e pode se reabrir se a pressão direita subir. CIA
+    (comunicação interatrial) é um defeito estrutural do septo -- falta tecido ali, não é uma valva.
+    Forame oval patente é encontrado em cerca de 20% das pessoas e em geral é assintomático. CIA
+    causa shunt fixo, sobrecarga de câmaras direitas e, se grande, IC.
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 1.3 -- O feto vive com o pulmão tirado do circuito por dois desvios: forame oval (entre
+AD e AE) e canal arterial (entre artéria pulmonar e aorta). Ao nascer, a expansão pulmonar e
+a queda da resistência fecham os dois. Cardiopatias congênitas que dependem desses desvios
+para "esconder" o problema manifestam-se no momento em que eles fecham -- daí o uso de
+prostaglandina E1 para mantê-los abertos quando o bebê depende disso.
+
+       14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Insuficiência cardíaca e cardiomiopatias
+
+2.1 -- IC: quando a bomba não dá conta
+Insuficiência cardíaca é uma palavra que assusta, mas o conceito é simples: o coração não está
+conseguindo bombear sangue suficiente para suprir o que o corpo precisa, ou só consegue fazê-lo
+às custas de pressões de enchimento muito altas. Não é um diagnóstico isolado -- é uma síndrome,
+um conjunto de sinais e sintomas que pode resultar de causas muito diferentes. Adulto com infarto
+antigo, lactente com cardiomiopatia dilatada, criança com cardiopatia congênita não corrigida, idoso
+com hipertensão de longa data -- todos podem chegar ao mesmo ponto final.
+
+IC10
+
+ Insuficiência cardíaca como síndrome final comum: várias doenças (isquemia, hipertensão, cardiomiopatia,
+ valvopatia) convergem para o mesmo conjunto de sinais e sintomas. O caminho é diferente, o destino é o mesmo.
+
+   10IC ­ insuficiência cardíaca -- síndrome clínica em que o coração não consegue manter o débito necessário, ou
+o mantém às custas de pressões de enchimento elevadas. Manifesta-se com dispneia, fadiga, congestão e retenção de
+líquido.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A primeira distinção útil é entre IC sistólica e diastólica. Na IC sistólica, o ventrículo perdeu a capacidade
+de bombear -- a contratilidade caiu. O sangue entra normalmente, mas o ventrículo não ejeta direito.
+A fração de ejeção fração de ejeção11 cai. Na IC diastólica, o ventrículo bombeia bem mas não consegue
+encher direito -- a câmara está rígida, fibrótica ou hipertrofiada. A fração de ejeção pode estar normal,
+mas como o volume que entra é pequeno, o volume que sai também é pequeno, e o débito total cai.
+
+Resumindo até aqui: IC sistólica = problema na ejeção (contratilidade ruim, fração de ejeção baixa). IC
+diastólica = problema no enchimento (câmara rígida, fração de ejeção pode estar normal mas volume
+absoluto é pequeno). Ambas reduzem o débito; o mecanismo é diferente.
+
+A segunda distinção é entre IC esquerda e IC direita. Quando o VE falha, o sangue acumula-se onde?
+Para trás dele: nas veias pulmonares, nos pulmões. Resultado: congestão pulmonar, dispneia, edema
+agudo de pulmão. Quando o VD falha, o sangue acumula-se para trás dele também: nas veias cavas, no
+fígado, nas pernas. Resultado: hepatomegalia, edema de membros inferiores, ingurgitamento jugular.
+IC esquerda congestiona o pulmão; IC direita congestiona o corpo. Em adultos, a causa mais comum
+de IC direita é... IC esquerda -- quando o VE falha por tempo suficiente, a pressão pulmonar sobe, o VD
+se sobrecarrega e acaba falhando também.
+
+2.2 -- O ciclo vicioso neuro-humoral
+A parte mais interessante -- e mais clinicamente útil -- da fisiopatologia da IC é o que acontece depois
+da queda inicial do débito. O corpo não fica parado vendo a perfusão piorar. Dispara mecanismos
+compensatórios que, no curto prazo, conseguem manter a pressão e a perfusão. O problema é que, no
+longo prazo, esses mesmos mecanismos agravam a doença.
+
+Quando o débito cai, dois sistemas se ativam quase imediatamente. Primeiro, o sistema nervoso
+simpático (SNS): catecolaminas (adrenalina, noradrenalina) elevam a FC, aumentam a contratilidade
+e contraem os vasos periféricos. Resultado imediato: pressão arterial sobe, perfusão dos órgãos vitais
+melhora. Segundo, o sistema renina-angiotensina-aldosterona (SRAA): o rim, percebendo perfusão
+diminuída, libera renina, que dispara uma cascata terminando em angiotensina II (potente vasocon
+strictor) e aldosterona (que retém sódio e água). Resultado imediato: volume circulante sobe, a pré-carga
+aumenta, o Frank-Starling ajuda o ventrículo a ejetar mais.
+
+SNS12
+
+SRAA13
+
+   11fração de ejeção ­ porcentagem do volume diastólico final que é ejetada a cada sístole. Normal é ao redor de 55­65%.
+Em IC sistólica, cai abaixo de 40%.
+
+   12SNS ­ sistema nervoso simpático -- divisão do sistema nervoso autônomo que prepara o corpo para luta ou fuga. Em
+IC, ativa-se cronicamente: aumenta FC, contratilidade e vasoconstrição.
+
+   13SRAA ­ sistema renina-angiotensina-aldosterona -- eixo neuro-humoral que regula volume e pressão arterial. Em
+IC, é cronicamente ativado: leva à retenção de sódio e água, vasoconstrição e remodelamento cardíaco.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Representação simplificada do sistema renina-angiotensina-aldosterona. A queda do débito ativa o rim, que dispara
+a cascata: renina  angiotensina I  angiotensina II (vasoconstritor potente, ativa aldosterona)  retenção de
+sódio e água, vasoconstrição. No curto prazo, salva a perfusão. No longo prazo, sobrecarrega o coração doente.
+
+Por algumas semanas, esses mecanismos mantêm o paciente compensado -- pode até ficar assin
+tomático. Mas o coração doente está agora bombeando contra uma pós-carga maior (vasos contraí
+dos), com uma pré-carga maior (volume retido), e em ritmo acelerado. Cada um desses três fatores
+aumenta o trabalho miocárdico. Um músculo que já estava doente é levado a trabalhar ainda mais. O re
+sultado é remodelamento: hipertrofia, dilatação, fibrose, apoptose de miócitos. O ventrículo vai ficando
+maior e mais fraco. Quando a compensação não consegue mais sustentar, o paciente descompensa -- e
+agora os sintomas aparecem todos juntos.
+
+   Resumindo até aqui: A queda inicial do débito ativa SNS e SRAA, que no curto prazo restauram
+   a perfusão. No longo prazo, esses mesmos mecanismos sobrecarregam o coração doente -- pré-carga
+   maior, pós-carga maior, mais trabalho. Resultado: remodelamento, descompensação. É o ciclo vicioso
+   da IC.
+
+Isso explica por que o tratamento moderno da IC sistólica é, em grande medida, desligar os mecan
+ismos compensatórios. Inibidores da ECA e bloqueadores do receptor de angiotensina cortam o SRAA.
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Antagonistas da aldosterona cortam a retenção. Betabloqueadores cortam o SNS -- e aqui vem o que
+parece contraintuitivo: dar betabloqueador num coração já fraco. Por que isso ajuda? Porque o SNS
+cronicamente ativado está destruindo o miocárdio. Reduzir a estimulação simpática crônica permite ao
+músculo descansar e até recuperar função ao longo de meses.
+
+Por que digoxina caiu de uso e betabloqueador subiu
+
+Por décadas, o tratamento da IC era melhorar a contratilidade -- empurrar o coração a bombear
+mais (digoxina, dobutamina). Hoje sabemos que isso melhora os sintomas mas piora a sobre
+vida. Coração que ejeta mais hoje custa mais miocárdio amanhã. O paradigma virou ao contrário:
+desligar o que está pressionando o miocárdio (SRAA, SNS) e deixar ele "respirar". É contraintuitivo
+mas robusto: menos estímulo  mais sobrevida.
+
+Síntese 2.2 -- Quando o débito cai, SNS e SRAA são ativados e restauram a perfusão no curto prazo
+às custas de mais carga sobre um coração já doente. Resultado a longo prazo: remodelamento e
+descompensação. O tratamento moderno é desligar esses mecanismos compensatórios.
+
+2.3 -- IC na criança: o quadro é diferente
+Adulto com IC chega ao pronto-socorro com dispneia aos esforços, ortopneia, edema de membros
+inferiores, jugulares ingurgitadas. Criança com IC raramente apresenta o quadro clássico. Os sintomas
+são mais sutis e exigem que o pediatra esteja atento.
+
+A primeira manifestação no lactente é taquicardia. Coração batendo rápido, em repouso, sem febre, sem
+motivo aparente. Já vimos por quê: o ventrículo do lactente é menos complacente, não pode aumentar
+muito o VS, então só lhe resta subir a FC para tentar manter o débito.
+
+A segunda manifestação é dificuldade para se alimentar. O bebê começa a mamada, suga algumas
+vezes, depois para porque está cansado ou sem fôlego. Aparece sudorese durante a mamada -- um dos
+sinais mais característicos, e estranho à primeira vista, mas que faz todo sentido: mamar é exercício
+para o lactente, e um lactente com débito limitado, ao se esforçar, ativa o SNS, sua, e perde o ritmo da
+mamada. Sudorese durante a mamada é a "dispneia aos esforços" do lactente.
+
+       18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Manifestações clínicas de IC no lactente: taquipneia, sudorese durante a mamada, mamadas interrompidas, baixo
+ganho de peso, infecções respiratórias de repetição, hepatomegalia. Cada sinal é um equivalente pediátrico de um
+sintoma clássico de adulto: sudorese ao mamar = dispneia aos esforços; baixo ganho ponderal = caquexia cardíaca;
+mamadas interrompidas = intolerância ao exercício.
+
+A terceira é baixo ganho ponderal. Criança com IC gasta tanta energia tentando respirar e tantos
+batimentos por minuto que sobra pouco para crescer. Curva de peso desviando para baixo num lactente
+sem causa óbvia gastrointestinal merece pensar em cardiopatia.
+E a quarta -- esta clinicamente importantíssima -- é a hepatomegalia. Quando o VD não está dando
+conta, o sangue acumula no fígado, que aumenta de tamanho. Palpar o fígado abaixo do rebordo costal
+direito num lactente com taquicardia e taquipneia é forte sinal de IC. Em adultos, jugular ingurgitada é
+o sinal equivalente; em lactentes, a jugular é difícil de avaliar e a hepatomegalia toma o lugar.
+
+   Resumindo até aqui: Lactente em IC apresenta-se com taquicardia + sudorese às mamadas + baixo
+   ganho ponderal + hepatomegalia. Não confunda com refluxo, asma ou virose. Em qualquer lactente com
+   esses quatro sinais, peça um ecocardiograma.
+
+A classificação funcional pediátrica equivalente ao NYHA do adulto é a classificação de Ross, baseada
+nesses mesmos critérios. NYHA I (assintomático) corresponde a Ross I; NYHA IV (sintomas em repouso)
+corresponde a Ross IV, em que o bebê tem dificuldade respiratória mesmo sem se alimentar. A terapia
+segue a mesma lógica do adulto -- reduzir pré e pós-carga, melhorar perfusão -- mas as drogas e
+doses são adaptadas. Os estágios A­D da terapia (risco aumentado, anatomia anormal sem sintoma,
+sintomático, terminal) são os mesmos.
+NYHA14
+
+2.4 -- Cardiomiopatias: três padrões, mesma família
+Cardiomiopatias são doenças primárias do miocárdio. O músculo cardíaco em si está doente -- não é
+uma consequência de hipertensão crônica ou de cardiopatia congênita, mas um problema intrínseco
+do tecido. As causas variam de genéticas (mutações em proteínas contráteis) a adquiridas (infecções
+
+   14NYHA ­ New York Heart Association -- classificação funcional de IC em adultos, de I (assintomático) a IV (sintomas
+em repouso). Em pediatria, a versão adaptada é a classificação de Ross.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+virais, toxinas, doenças sistêmicas), e a maior parte é diagnosticada em alguma medida pela aparência
+do coração.
+
+Os três principais padrões de cardiomiopatia. Dilatada: câmara grande, parede fina, contratilidade ruim. Hipertró
+fica: câmara pequena, parede muito espessa, contratilidade pode estar boa mas enchimento é prejudicado. Restritiva:
+câmara normal ou ligeiramente aumentada, parede fibrótica e rígida, enchimento severamente prejudicado.
+
+A cardiomiopatia dilatada (CMD) é a mais comum -- 90% dos casos. O músculo perde força contrátil e
+a câmara se dilata em resposta. Imagine um balão de borracha que perdeu a elasticidade: cada vez que
+você tenta inflar, ele estica mais e mais, mas não consegue puxar de volta. O coração dilatado tem fração
+de ejeção baixa, débito ruim, e tipicamente desenvolve insuficiência cardíaca sistólica. É a indicação
+clássica de transplante cardíaco em criança e em adulto. CMD pode ser familiar (mutações em proteí
+nas estruturais), viral (miocardite que evoluiu mal), tóxica (antraciclinas usadas em quimioterapia), ou
+idiopática (causa não identificada).
+
+                                                                                20
+NEBLI                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+A cardiomiopatia hipertrófica (CMH) é o oposto da dilatada -- o músculo está mais grosso, não mais
+fino. Tipicamente, há hipertrofia assimétrica do septo interventricular, que pode obstruir a via de saída
+do VE. Contratilidade pode estar boa, mas a câmara fica pequena e rígida, atrapalhando o enchimento.
+CMH é tipicamente genética (mutações em proteínas do sarcômero) e é uma das causas mais comuns
+de morte súbita em atletas jovens. O coração comporta-se bem em repouso, mas durante esforço a
+obstrução piora e pode levar a arritmia fatal.
+
+A cardiomiopatia restritiva (CMR) é a mais rara. O músculo está com complacência ruim -- rígido --
+por fibrose, infiltração (amiloidose, sarcoidose, doenças de depósito). Câmara não dilata, parede não
+engrossa muito, mas o ventrículo simplesmente não consegue se relaxar para encher. Resultado: IC
+diastólica grave, ambos os átrios dilatam, paciente vai à congestão sem dilatação ventricular óbvia.
+
+Tipo        Câmara    Parede                   Problema prin   Cenário típico
+                                                        cipal
+
+Dilatada    Grande, dilatada Fina ou normal    Sistólica -- não Indicação major
+
+                                               ejeta           de transplante
+
+Hipertrófica Pequena  Muito espessa, as Diastólica + ob Morte súbita em
+
+                      simétrica                strução de saída atleta jovem
+
+Restritiva  Normal ou pouco Fibrótica, rígida  Diastólica -- não Doença infiltra
+            alterada
+                                               enche           tiva, amiloidose
+
+Resumindo até aqui: Três padrões de cardiomiopatia: dilatada (câmara grande, contratilidade ruim
+-- IC sistólica, candidato a transplante), hipertrófica (câmara pequena, parede espessa -- morte súbita
+em atleta), restritiva (parede rígida, enchimento ruim -- IC diastólica). A morfologia conta a história
+fisiopatológica.
+
+Síntese 2.4 -- Cardiomiopatias são doenças primárias do músculo cardíaco. Três padrões:
+dilatada (contratilidade ruim, mais comum, indicação de transplante), hipertrófica (espessa,
+morte súbita em jovem), restritiva (rígida, enchimento ruim, mais rara). Cada padrão tem causa,
+apresentação e prognóstico diferentes -- mas confluem para IC quando descompensam.
+
+                                 21
+NEBLI                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Cardiopatias congênitas
+
+3.1 -- A lógica dos shunts e por que cianose acontece
+Cardiopatia congênita congênita15 significa um defeito anatômico que veio do desenvolvimento embri
+onário. Cerca de 1% dos recém-nascidos tem alguma cardiopatia congênita significativa, e a maioria
+desses defeitos pode ser organizada em três grandes grupos: shunts esquerda-direita, shunts direita-
+esquerda e lesões obstrutivas. Entender o significado dessas três famílias é a chave para tudo o que
+vem depois.
+
+CC16
+
+Comecemos pela palavra shunt. Em medicina, shunt é uma comunicação anormal por onde o sangue
+passa de um lado para outro sem seguir o trajeto normal. No coração, shunt é uma comunicação
+anormal entre as câmaras direita e esquerda, ou entre os grandes vasos. O sangue flui pelo shunt
+no sentido do gradiente de pressão. Em condições normais, a pressão à esquerda é maior que à direita
+(lembre: o VE bombeia contra 120 mmHg, o VD contra 25 mmHg). Logo, se houver um shunt, o fluxo
+inicial vai ser da esquerda para a direita.
+
+E isso é importante porque define a primeira família clínica. Shunt esquerda-direita (ED) é o tipo
+mais comum. O que acontece quando sangue oxigenado do lado esquerdo escapa para o lado direito?
+Vai parar onde? No pulmão, que já tinha recebido sangue venoso normal -- agora recebe normal + uma
+porção extra do que veio do lado esquerdo. Resultado: hiperfluxo pulmonar. O pulmão é inundado de
+sangue, fica congesto, dificulta a respiração; o VD se sobrecarrega de volume; o débito sistêmico fica
+prejudicado porque parte do sangue ejetado pelo VE recircula em vez de ir para o corpo. Shunt ED
+acaba em insuficiência cardíaca por hiperfluxo pulmonar -- mas NÃO causa cianose, porque o sangue
+do corpo continua sendo o que vem do VE oxigenado.
+
+ Mecanismo do shunt esquerda-direita. Como a queda fisiológica da resistência pulmonar acontece nas primeiras
+ semanas de vida, é nesse momento que os sintomas aparecem. O pulmão fica mais permeável, o sangue prefere ir
+ para ele, e o shunt aumenta. Por isso CIV e PCA grandes manifestam-se entre 4 e 8 semanas, não ao nascimento.
+
+   15congênita ­ presente ao nascimento, resultante de um problema na formação embrionária do coração entre a 3ª e a 8ª
+semana de gestação. Em 1% dos recém-nascidos com forma significativa de doença, em até 5% considerando formas leves.
+
+   16CC ­ cardiopatia congênita -- defeito estrutural do coração ou grandes vasos presente ao nascimento.
+
+                                                                                22
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A queda fisiológica da resistência vascular pulmonar nas primeiras semanas de vida tem uma conse
+quência importante: quanto mais a resistência pulmonar cai, maior fica o shunt ED. É por isso
+que muitas crianças com CIV ou PCA grandes ficam aparentemente bem na primeira semana de vida
+e descompensam entre 4 e 8 semanas, exatamente quando a resistência pulmonar atinge seu nadir.
+Pediatra que não conhece esse fenômeno pode confundir com pneumonia ou bronquiolite.
+
+Resumindo até aqui: Shunt esquerda-direita = sangue extra para o pulmão. Resultado: hiperfluxo
+pulmonar + sobrecarga de câmaras direitas + IC sem cianose. Como o shunt depende da diferença de
+pressão entre os lados e essa diferença só se estabelece depois da queda da resistência pulmonar pós-
+natal, os sintomas tipicamente aparecem entre 4 e 8 semanas, não ao nascimento.
+
+Agora o oposto. Shunt direita-esquerda (DE): sangue venoso, pobre em oxigênio, escapa para o lado
+esquerdo e vai direto para o corpo, sem passar pelo pulmão. Aqui acontece a cianose. Se o sangue arterial
+sai do VE com mistura de sangue venoso, a saturação cai, a hemoglobina desoxigenada se acumula, e a
+pele e mucosas ficam azuladas. Para que cianose seja clinicamente visível, a hemoglobina desoxigenada
+precisa estar acima de 5 g/dL -- é por isso que bebê com anemia profunda pode estar gravemente
+hipoxêmico e não parecer cianótico (não tem hemoglobina suficiente para gerar a cor).
+
+Mas como pode haver shunt DE se a pressão à direita é menor? Porque nas cardiopatias cianogênicas,
+ou há também uma obstrução à direita que joga a pressão direita para cima, ou a anatomia é tal que
+o sangue venoso só tem caminho para a esquerda. Na tetralogia de Fallot, há estenose pulmonar -- o
+sangue venoso encontra resistência para ir ao pulmão e prefere passar pela CIV ao VE. Na transposição
+das grandes artérias, os circuitos estão trocados de tal maneira que o sangue venoso volta diretamente
+para a aorta. Em ambos os casos, mistura de sangue venoso no arterial = cianose.
+
+Cianose central: a saturação cai abaixo de 95%, a hemoglobina desoxigenada ultrapassa 5 g/dL. Saturação periférica
+em ar ambiente abaixo de 90% num neonato é sempre suspeita de cardiopatia congênita cianogênica, especialmente
+se o teste de hiperóxia (100% de O) não corrigir.
+
+                                                                                23
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+    Eisenmenger -- quando um shunt acianogênico vira cianogênico
+
+    Aluno tende a pensar que CIV, CIA e PCA são "para sempre" acianogênicas. Errado. Se um shunt
+    ED grande não é corrigido a tempo, o pulmão se defende contra o hiperfluxo crônico contraindo
+    seus vasos. Com o tempo, essa vasoconstrição vira remodelamento permanente -- hipertrofia da
+    camada média e fibrose. A resistência pulmonar sobe progressivamente até superar a sistêmica.
+    Aí o shunt inverte: agora flui do lado direito (alta pressão) para o esquerdo (baixa pressão), e
+    aparece cianose anos depois do diagnóstico inicial. Isso é a síndrome de Eisenmenger, e quando
+    se instala, a cirurgia já não resolve -- o pulmão está fibrótico. É a razão pela qual CIVs grandes
+    precisam ser fechadas na infância.
+
+E as lesões obstrutivas, terceira família. Aqui não há shunt -- há um estreitamento. Coarctação da aorta,
+estenose pulmonar, estenose aórtica. O ventrículo a montante (acima do obstáculo) precisa bombear
+contra pressão mais alta. Se a obstrução é grave, hipertrofia, descompensa. Algumas lesões obstrutivas
+só aparecem clinicamente quando o canal arterial fecha, porque enquanto o canal estava aberto, o
+sangue podia "desviar" pelo canal -- daí o famoso choque neonatal no 2º ou 3º dia de vida em coarctação
+grave ou em síndrome de hipoplasia do coração esquerdo.
+
+    Síntese 3.1 -- Três famílias de cardiopatia congênita: shunts ED (acianogênicos, hiperfluxo
+    pulmonar, IC entre 4 e 8 semanas -- CIV, CIA, PCA, DSAV); shunts DE (cianogênicos, mistura de
+    sangue venoso no arterial -- tetralogia de Fallot, TGA); lesões obstrutivas (coarctação, estenose
+    pulmonar/aórtica). Shunt ED grande não corrigido pode evoluir para Eisenmenger e inverter o
+    shunt -- virando cianogênico décadas depois.
+
+3.2 -- CC acianogênicas: CIV, CIA, PCA, DSAV, coarctação
+A comunicação interventricular (CIV) é a cardiopatia congênita mais comum -- sozinha, responde por
+cerca de 30% das CCs. É um buraco no septo interventricular. Sangue passa do VE (alta pressão) para
+o VD (baixa pressão), e dali vai para o pulmão. Quanto maior o buraco e menor a resistência pulmonar,
+maior o hiperfluxo e a IC.
+
+CIV17
+
+   17CIV ­ comunicação interventricular -- defeito no septo interventricular permitindo passagem de sangue entre os
+ventrículos. Cardiopatia congênita mais comum.
+
+                                                                                24
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+CIV: defeito do septo interventricular permitindo shunt esquerda-direita. Sopro holossistólico rude em borda esternal
+esquerda é o achado físico clássico. O tamanho do defeito determina o tempo até a IC: pequenas podem fechar
+sozinhas, grandes precisam de cirurgia precoce para evitar Eisenmenger.
+
+Clinicamente: sopro holossistólico rude em borda esternal esquerda, taquipneia que piora entre 4 e 8
+semanas, sudorese às mamadas, baixo ganho ponderal. CIVs pequenas (menores que 3 mm) em geral
+fecham sozinhas -- até 50% das musculares se fecham espontaneamente. CIVs moderadas ou grandes
+geralmente precisam de fechamento cirúrgico (ou por cateter) na infância, antes que a doença vascular
+pulmonar se torne irreversível.
+
+A comunicação interatrial (CIA), segunda mais comum, é diferente. Buraco no septo interatrial. Como
+a pressão atrial é muito menor que a ventricular, o shunt é mais "lento", a sobrecarga é mais gradual.
+A maior parte das CIAs não dá IC na infância -- costumam ser descobertas anos depois, em adultos
+jovens, por arritmias atriais ou sopro durante check-up. A B2 desdobrada de forma fixa é o achado
+clássico.
+
+CIA18
+
+CIA: shunt ED ao nível atrial. O grau de sobrecarga depende da complacência ventricular relativa, da resistência
+pulmonar e do diâmetro do defeito. Como esses fatores favorecem shunt pequeno na infância, a CIA tipicamente não
+produz IC nesta fase -- manifesta-se mais tardiamente.
+
+   18CIA ­ comunicação interatrial -- defeito no septo interatrial. Shunt ED mais "suave" porque a diferença de pressão
+entre os átrios é pequena. Geralmente assintomática na infância.
+
+                                                                                25
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+A persistência do canal arterial (PCA) é a falha de fechamento do canal arterial após o nascimento.
+Lembrando: no feto, o canal arterial liga a artéria pulmonar à aorta para tirar o pulmão do circuito. Após
+o nascimento, ele deve fechar em 1 a 3 dias. Quando não fecha, persiste como uma comunicação aorta
+ artéria pulmonar. Como agora a pressão sistêmica é muito maior que a pulmonar, o sangue flui
+da aorta para o pulmão durante todo o ciclo cardíaco -- sístole e diástole. Por isso o sopro da PCA
+é contínuo, em maquinaria, e os pulsos são amplos (porque a aorta perde volume na diástole para o
+pulmão, a pressão diastólica cai, e a pressão de pulso se alarga).
+
+PCA: comunicação persistente entre aorta e artéria pulmonar. Sopro contínuo em maquinaria + pulsos amplos +
+pressão de pulso aumentada é a tríade clássica. Em recém-nascidos prematuros, indometacina ou ibuprofeno (que
+inibem a síntese de prostaglandina) costumam fechar a PCA farmacologicamente.
+
+PCAs persistentes em prematuros podem ser tratadas com indometacina ou ibuprofeno -- drogas que
+inibem a síntese de prostaglandina e ajudam a contrair o canal. Em crianças maiores, o tratamento é
+mecânico -- fechamento por cateter ou cirurgia.
+
+O defeito do septo atrioventricular (DSAV) é mais complexo. Resulta de uma falha embriológica nos
+coxins endocárdicos -- as estruturas que dividem coração entre câmaras superiores e inferiores e
+formam as valvas AV. No DSAV completo, há um buraco grande que vai do átrio ao ventrículo, e uma
+única valva AV no lugar das duas (tricúspide e mitral). Resultado: shunt atrial + shunt ventricular +
+insuficiência da valva única = sobrecarga importante e IC precoce. Forte associação com síndrome de
+Down -- até metade das crianças com trissomia 21 tem alguma forma de defeito cardíaco, e o DSAV é o
+mais característico.
+
+       26
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+DSAV: defeito dos coxins endocárdicos com shunt atrial + ventricular + valva AV única. Forte associação com
+trissomia 21 -- todo recém-nascido com síndrome de Down deve fazer ecocardiograma. ICC precoce e hipertensão
+pulmonar precoce são a regra; correção cirúrgica precoce é essencial.
+A coarctação da aorta é uma lesão obstrutiva, não um shunt, mas é típica do grupo "acianogênico
+crítico" porque sua apresentação no neonato dependente de canal arterial é dramática. Estreitamento
+da aorta, geralmente no istmo (junto ao canal arterial). Enquanto o canal está aberto, o sangue desvia
+pelo canal e perfunde a parte inferior do corpo apesar do estreitamento. Quando o canal fecha, a perfusão
+da metade inferior do corpo despenca: o neonato entra em choque, com pulsos femorais ausentes e
+palidez. Palpar pulsos femorais em todo recém-nascido é regra -- pulso femoral fraco ou ausente em
+criança aparentemente bem é alerta para coarctação.
+
+Coarctação da aorta: estreitamento, classicamente no istmo. Em recém-nascidos, manifesta-se como choque car
+diogênico quando o canal arterial fecha. Em crianças maiores e adolescentes, hipertensão arterial nos membros
+superiores com pressão e pulsos normais ou diminuídos nos membros inferiores. Diferença de pressão entre MMSS
+e MMII = sinal direto.
+
+                                                                                27
+NEBLI                                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+Lesão       Mecanismo            Sopro caracterís Idade típica      Pista clínica extra
+
+                                         tico          de IC
+
+CIV         Shunt ED ven Holossistólico rude 4­8 semanas Mais frequente das
+
+            tricular             em BEE                             CCs
+
+CIA         Shunt ED atrial Sistólico de ejeção Rara na infân B2 com desdobra
+
+            (suave)              em foco pulmonar cia               mento fixo
+
+PCA         Aorta  AP, con Contínuo              em Variável,       Pulsos        amplos,
+
+            tínuo                maquinaria           lactente em pressão de pulso
+
+                                                      PCA grande    alargada
+
+DSAV        Shunt atrial +       Holossistólico + in  Precoce,      Trissomia 21
+            ventricular + valva  suf. valvar AV       primeiros
+            única                                     meses
+
+Coarctação  Obstrução      do    Sistólico no dorso/  Choque        Pulsos femorais
+                                 escapular            neonatal      ausentes/fracos
+            istmo aórtico                             quando canal
+                                                      fecha
+
+Síntese 3.2 -- CIV é a mais comum, dá IC entre 4 e 8 semanas, fecha por si só em alguns casos.
+CIA é mais "silenciosa", raramente dá IC na infância. PCA persiste do feto, gera sopro contínuo e
+pulsos amplos. DSAV está associado à trissomia 21 e dá IC precoce. Coarctação manifesta-se como
+choque quando o canal arterial fecha -- palpe pulsos femorais sempre.
+
+3.3 -- Tetralogia de Fallot: a CC cianogênica mais comum
+A tetralogia de Fallot é a CC cianogênica mais frequente. O nome vem do médico francês que descreveu
+os quatro componentes anatômicos em 1888. Vamos a eles, na ordem de importância fisiopatológica:
+
+                                             28
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Os quatro componentes anatômicos da tetralogia de Fallot: (1) estenose pulmonar (obstrução da via de saída do VD),
+(2) CIV, (3) dextroposição da aorta (aorta cavalga o septo), (4) hipertrofia do VD (consequência da obstrução). Os dois
+primeiros componentes são os que geram a cianose: o sangue venoso, encontrando resistência para sair pelo pulmão,
+prefere passar pela CIV ao VE e à aorta.
+
+(1) Estenose pulmonar (obstrução da via de saída do VD). É a chave fisiopatológica. Em consequência
+da estenose, o VD precisa fazer força extra para bombear sangue ao pulmão. Sangue venoso encontra
+resistência alta nessa via e procura caminho alternativo. (2) CIV grande -- geralmente perimembranosa
+-- fornece esse caminho alternativo. Sangue venoso passa para o VE. (3) Dextroposição da aorta: a
+aorta está deslocada para a direita, cavalgando o septo interventricular sobre a CIV, recebendo sangue
+de ambos os ventrículos. Sangue venoso vai direto à circulação sistêmica  cianose. (4) Hipertrofia do
+VD: consequência mecânica do trabalho contra a estenose pulmonar.
+
+Lembre-se: os dois primeiros componentes (estenose pulmonar + CIV) são suficientes para explicar
+a cianose. Os outros dois são consequências ou achados anatômicos associados. Quanto mais grave
+a estenose pulmonar, mais sangue venoso atravessa para o lado esquerdo, mais cianose. Em Fallot
+rosado (estenose leve), o gradiente VDpulmão é pequeno e o shunt acaba sendo ED -- a criança não
+fica azul. Em Fallot clássica, a estenose é grave e a cianose é evidente desde o nascimento ou logo depois.
+
+A crise hipoxêmica crise hipoxêmica19 -- ou Tet spell -- é uma emergência clássica da tetralogia.
+Acontece quando, por algum motivo (choro, esforço, febre, desidratação), a resistência vascular sistêmica
+cai. Com a resistência sistêmica menor, o sangue venoso prefere ainda mais escapar do VD para o VE
+pela CIV -- porque o "caminho de fuga" sistêmico ficou mais fácil. A cianose piora dramaticamente, a
+criança fica azul-arroxeada, taquipneica, agitada. Tratamento de emergência: aumentar a resistência
+sistêmica e o retorno venoso. A manobra do joelho ao peito faz exatamente isso -- comprime as
+artérias femorais (sobe a resistência sistêmica) e dobra o quadril (sobe o retorno venoso). Em emergência
+hospitalar, dá-se morfina (acalma e dilata o leito pulmonar), oxigênio, líquidos e, em casos refratários,
+fenilefrina (vasoconstrictor sistêmico) ou betabloqueador.
+
+   19crise hipoxêmica ­ episódio agudo de piora da cianose em criança com tetralogia de Fallot, classicamente desen
+cadeado por choro, esforço ou queda da resistência sistêmica. Também chamado de Tet spell; reverte com manobra do
+joelho ao peito.
+
+                                                                                29
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que a manobra do joelho ao peito funciona
+
+É contra-intuitivo apertar criança cianótica, mas a física é clara: criança em Tet spell tem cianose
+porque o sangue venoso está preferindo escapar pelo VDCIVVE ao invés de seguir para o
+pulmão. Se aumentarmos a resistência sistêmica (apertando as femorais com o joelho no peito),
+tornamos o "caminho fácil" sistêmico menos fácil. Sangue venoso passa a achar o pulmão um
+caminho relativamente menos resistente, vai mais para lá, é oxigenado, retorna ao VE, e a cianose
+alivia. Cuidado oposto: vasodilatadores periféricos pioram o Tet spell.
+
+O tratamento definitivo é cirúrgico. Correção total: fechamento da CIV + abertura da via de saída do
+VD (ampliação cirúrgica, valvotomia, ou tubo VD-tronco pulmonar). Quando a anatomia é desfavorável
+para correção precoce (artérias pulmonares hipoplásicas, anomalia coronariana), faz-se primeiro uma
+cirurgia paliativa paliação20: o Blalock-Taussig modificado -- anastomose anastomose21 entre a artéria
+subclávia (ou um enxerto sintético entre a subclávia e a artéria pulmonar), que aumenta o fluxo pul
+monar e melhora a oxigenação. O paciente é estabilizado, cresce, e a correção total é feita meses depois.
+
+Cirurgia paliativa de Blalock-Taussig modificado: tubo (enxerto sintético) entre a artéria subclávia e a artéria pul
+monar. Aumenta o fluxo pulmonar em cardiopatias cianogênicas com obstrução direita, melhorando a saturação até
+que a anatomia esteja madura para correção definitiva. Indicado quando a correção total não é possível de imediato
+(AP hipoplásicas, anomalia coronariana).
+
+   Resumindo até aqui: Tetralogia de Fallot = estenose pulmonar + CIV + aorta cavalgante + hipertrofia
+   VD. Estenose pulmonar + CIV bastam para explicar a cianose. Crise hipoxêmica (Tet spell) é piora aguda
+   da cianose quando a resistência sistêmica cai; manobra do joelho ao peito reverte. Tratamento: correção
+   total (fechar CIV + abrir via VD) ou paliação (Blalock-Taussig modificado) seguida de correção tardia.
+
+   20paliação ­ estratégia cirúrgica que não corrige a cardiopatia completamente, mas alivia a fisiopatologia mais grave
+(geralmente cianose ou hipofluxo pulmonar) até que a anatomia esteja madura para correção definitiva. Blalock-Taussig
+é o protótipo em cardiopatia cianogênica.
+
+   21anastomose ­ conexão cirúrgica entre dois vasos sanguíneos (ou outros tubos do organismo) que normalmente não
+se comunicam diretamente. Pode ser direta (vaso-vaso) ou interposta com tubo sintético.
+
+                                                                                30
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+3.4 -- Transposição das grandes artérias: circuitos em paralelo
+A transposição das grandes artérias (TGA) é a cardiopatia cianogênica que se manifesta mais cedo --
+geralmente nas primeiras horas ou dias de vida. Os grandes vasos estão trocados: a aorta sai do VD, e
+a artéria pulmonar sai do VE. Pense no que isso significa.
+
+TGA22
+
+Fisiopatologia da TGA: circulações em paralelo, não em série. Sangue venoso (AD  VD) vai direto para a aorta --
+circula pelo corpo sem oxigenar. Sangue oxigenado (AE  VE) volta para o pulmão -- re-oxigena o que já estava
+oxigenado. Sem alguma comunicação entre os dois circuitos (CIA, CIV, PCA), a TGA é incompatível com a vida.
+
+Sangue venoso volta ao AD  vai para o VD  é ejetado pela aorta de volta ao corpo. O sangue
+venoso circula pelo corpo sem nunca ser oxigenado. Em paralelo, sangue oxigenado volta pelas veias
+pulmonares ao AE  vai para o VE  é ejetado pela artéria pulmonar de volta ao pulmão. O sangue
+oxigenado circula pelo pulmão sem nunca ir ao corpo. Os dois circuitos estão em paralelo, não em série.
+É absolutamente incompatível com a vida, a menos que exista alguma mistura entre eles.
+
+A mistura pode acontecer por uma CIA (forame oval ainda aberto), uma CIV (presente em parte dos
+casos) ou pela PCA (canal arterial ainda aberto). Sem nenhuma dessas, o bebê morre nas primeiras
+horas. Por isso, o manejo emergencial do recém-nascido com TGA é manter o canal arterial aberto
+com prostaglandina E1, dando tempo até a cirurgia definitiva.
+
+E a cirurgia definitiva, hoje, é o switch arterial -- operação de Jatene, descrita pelo cirurgião brasileiro
+Adib Jatene em 1975 e refinada nos anos seguintes. As grandes artérias são literalmente cortadas e
+trocadas de posição: a aorta é seccionada, a artéria pulmonar é seccionada, e cada uma é reconectada
+ao ventrículo correto. As artérias coronárias, que saíam da raiz aórtica (que estava no VD), são reim
+plantadas na nova aorta (agora saindo do VE). É uma cirurgia complexa, feita preferencialmente nos
+primeiros 15 dias de vida -- janela na qual o VE ainda está habituado a ejetar contra alta pressão
+pulmonar fetal e pode imediatamente assumir o trabalho sistêmico.
+
+   22TGA ­ transposição das grandes artérias -- cardiopatia em que a aorta emerge do VD e a artéria pulmonar emerge do
+VE. Os circuitos sistêmico e pulmonar funcionam em paralelo, não em série -- incompatível com a vida sem comunicação
+entre os dois.
+
+                                                                                31
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Operação de Jatene (switch arterial) para correção da TGA. As grandes artérias são seccionadas e trocadas de posição;
+as coronárias são reimplantadas na nova aorta. Preferencialmente nos primeiros 15 dias -- depois disso, o VE perdeu
+a habituação à alta pressão sistêmica e não tolera a mudança abrupta.
+
+Quando a janela do switch arterial passou e o VE já não tolera a sobrecarga sistêmica, outras estratégias
+entram em cena. Operações de Senning e Mustard -- chamadas "correções atriais" correção atrial23
+-- não trocam as artérias mas redirecionam o sangue no nível atrial, fazendo um túnel cirúrgico que
+leva sangue venoso ao AE (e dali ao VE  artéria pulmonar) e sangue oxigenado ao AD (e dali ao VD 
+aorta). O VD continua sendo o ventrículo sistêmico, o que a longo prazo tende a falhar, mas a fisiologia
+é compatível com a vida.
+
+Operação de Senning para TGA: redirecionamento atrial usando tecido do próprio septo interatrial. O VD permanece
+como ventrículo sistêmico -- solução fisiológica, mas com risco a longo prazo de IC do VD sistêmico. Substituída em
+larga medida pelo switch arterial quando este é possível.
+
+   23correção atrial ­ estratégia cirúrgica para TGA em que, em vez de trocar as grandes artérias, redireciona-se o sangue
+no nível atrial via um túnel cirúrgico (Senning usa tecido do próprio septo; Mustard usa enxerto sintético ou pericárdio).
+O VD continua sistêmico.
+
+                                                                                32
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que o switch precisa ser feito cedo
+
+Aluno tende a pensar "se é cirurgia, pode ser quando der". Errado para TGA. Enquanto o feto,
+o VE bombeia contra a alta resistência pulmonar fetal e está adaptado a alta pressão. Após o
+nascimento, com a queda da resistência pulmonar, o VE rapidamente "involui" para um regime
+de baixa pressão (porque agora ele só ejeta para o pulmão de baixa resistência). Em 2 a 3 semanas,
+o VE já é incapaz de assumir o trabalho sistêmico. A janela do switch arterial fecha rápido. Por
+isso o diagnóstico fetal é crucial: permite preparar a equipe para cirurgia neonatal.
+
+Resumindo até aqui: TGA = aorta no VD, artéria pulmonar no VE. Circuitos em paralelo -- só sobrevive
+com mistura por CIA, CIV ou PCA. Prostaglandina E1 mantém o canal aberto até cirurgia. Tratamento
+definitivo = switch arterial (Jatene) nos primeiros 15 dias. Se janela perdida, alternativa é correção atrial
+(Senning/Mustard) -- VD continua sistêmico.
+
+3.5 -- Síndrome do coração esquerdo hipoplásico: o desafio cirúrgico
+A síndrome do coração esquerdo hipoplásico (HLHS) é o protótipo da cardiopatia congênita que
+demanda transplante. Todas as estruturas do lado esquerdo são gravemente subdesenvolvidas:
+VE pequeno e não-funcional, valva aórtica atrésica ou gravemente estenótica, aorta ascendente
+hipoplásica. O bebê nasce com um coração de uma câmara só funcional: o VD, que está acumulando o
+trabalho dos dois lados.
+
+HLHS24
+
+Síndrome de hipoplasia do coração esquerdo (HLHS): VE diminuto, valva mitral e aórtica atrésicas ou hipoplásicas,
+aorta ascendente fina. Sobrevivência neonatal depende criticamente do canal arterial aberto: é por ele que o VD
+perfunde a circulação sistêmica retrogradamente, via aorta descendente.
+
+   24HLHS ­ síndrome do coração esquerdo hipoplásico -- cardiopatia congênita em que as estruturas do lado esquerdo
+(VE, valva aórtica, aorta) são gravemente subdesenvolvidas. Sobrevivência depende de canal arterial aberto e de cirurgia
+paliativa em estágios ou transplante.
+
+                                                                                33
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Como o bebê sobrevive ao nascimento? Pelo canal arterial. Enquanto o canal está aberto, o VD bombeia
+para a artéria pulmonar e parte desse sangue desvia pelo canal para a aorta, perfundindo o corpo
+retrogradamente. Quando o canal fecha (1 a 3 dias após o nascimento), o bebê entra em choque
+cardiogênico fulminante. Daí a importância de manter o canal aberto com prostaglandina E1 desde o
+diagnóstico, idealmente fetal.
+
+Sem cirurgia, HLHS é uniformemente fatal. Hoje há duas estratégias:
+(A) Cirurgia paliativa em estágios (operação de Norwood) Norwood25. Três cirurgias, começando na
+primeira semana de vida, ao longo de cerca de 3 anos.
+
+Estágio 1 (Norwood): nas primeiras semanas. Reconstrução da aorta usando o tronco pulmonar e a
+aorta hipoplásica como tecido. Criação de uma fonte estável de fluxo pulmonar (shunt sistêmico-
+pulmonar como Blalock-Taussig, ou shunt VD-AP de Sano). O VD continua sendo o ventrículo sistêmico
+-- vai ejetar para a aorta reconstruída.
+
+Estágio 2 (Glenn bidirecional): por volta de 4-6 meses. A veia cava superior é diretamente anasto
+mosada à artéria pulmonar direita. Sangue venoso da metade superior do corpo passa a ir direto ao
+pulmão, sem passar pelo ventrículo. Reduz o trabalho do VD.
+
+Estágio 3 (Fontan): por volta de 2-4 anos. A veia cava inferior também é redirecionada para a artéria
+pulmonar (geralmente via tubo extracardíaco). Agora todo o sangue venoso vai direto ao pulmão; o VD
+bombeia apenas para a aorta. A circulação fica em série novamente, mas com um ventrículo só.
+
+As três etapas da paliação do HLHS: Norwood (1ª semana), Glenn bidirecional (4-6 meses), Fontan (2-4 anos). O
+resultado final é uma circulação de Fontan: todo o retorno venoso vai direto ao pulmão sem passar por ventrículo; o
+único ventrículo (que era o VD) torna-se sistêmico. Solução engenhosa, mas com complicações a longo prazo.
+
+A fisiologia de Fontan tem uma peculiaridade: o sangue passa pelo pulmão sem ser bombeado por
+ventrículo. Como isso funciona? Pela pressão venosa elevada (forçando passagem passiva pelo leito
+pulmonar) e pela pressão pleural negativa da respiração espontânea. O paciente fica funcional, mas com
+
+   25Norwood ­ primeira etapa da paliação cirúrgica do HLHS em três estágios. Reconstrói a aorta usando o tronco
+pulmonar e cria fonte estável de fluxo pulmonar. Realizada na primeira semana de vida; é seguida da Glenn aos 4-6 meses
+e da Fontan aos 2-4 anos.
+
+                                                                                34
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+pressões venosas cronicamente altas -- daí complicações como enteropatia perdedora de proteínas,
+fibrose hepática, arritmias.
+
+(B) Transplante cardíaco neonatal. Em alguns centros, a estratégia preferida para HLHS é transplante
+direto, sem paliação. Maior dependência de doadores e de imunossupressão por toda a vida, mas evita
+as três cirurgias.
+
+Resumindo até aqui: HLHS = lado esquerdo do coração diminuto, sobrevivência depende do canal ar
+terial. Sem cirurgia é uniformemente fatal. Duas estratégias: (a) Norwood-Glenn-Fontan em três estágios
+-- VD vira ventrículo sistêmico, circulação fica em "Fontan"; (b) transplante cardíaco neonatal. Ambas
+com sobrevida progressivamente melhorada nas últimas décadas, mas com complicações a longo prazo.
+
+Síntese 3.5 -- HLHS é o protótipo da cardiopatia congênita ducto-dependente: VE não funcional,
+vida depende do canal arterial. Sem tratamento, fatal. Duas estratégias: paliação em três estágios
+(Norwood  Glenn  Fontan) ou transplante. É a indicação mais clássica de transplante
+cardíaco pediátrico.
+
+       35
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE IV -- Transplante cardíaco pediátrico
+
+4.1 -- Quando indicar transplante
+Transplante cardíaco é o último recurso. Não é a primeira opção em quase nenhuma situação -- todas
+as outras precisam ter falhado ou ser claramente inviáveis. As três grandes categorias de indicação em
+pediatria são: insuficiência cardíaca refratária a tratamento clínico máximo (tipicamente cardiomiopa
+tia dilatada terminal), cardiopatia congênita complexa não corrigível ou após múltiplas cirurgias
+paliativas (HLHS sendo o protótipo, especialmente em centros que preferem transplante neonatal ao
+Norwood), e algumas formas de cardiomiopatia restritiva ou hipertrófica com função muito ruim.
+
+O ponto crítico para indicação é o conceito de coração terminal: estágio em que nenhuma terapia farma
+cológica adicional vai melhorar o prognóstico, em que o débito cardíaco é insuficiente para a sobrevida,
+em que sinais de baixo débito sistêmico (acidose, oligúria, intolerância a qualquer esforço, dependência
+de drogas inotrópicas) estão presentes. Esse é o paciente que vai para a lista de transplante, classificado
+como estágio D pela classificação de IC pediátrica.
+
+   Resumindo até aqui: Transplante cardíaco pediátrico = último recurso, estágio D de IC. Indicações
+   clássicas: cardiomiopatia dilatada terminal (causa mais comum em adolescentes), HLHS e outras CCs
+   complexas inoperáveis (causa mais comum em neonatos), retransplante, cardiomiopatias terminais.
+   Coração terminal = sem opção farmacológica viável + sinais de baixo débito sistêmico.
+
+4.2 -- Compatibilidade entre doador e receptor
+Compatibilidade é a primeira pergunta logo após indicar o transplante. Três eixos: grupo sanguíneo
+ABO, tamanho, ausência de anticorpos preformados contra o doador.
+
+ABO26
+
+ABO: regra clássica é compatibilidade obrigatória (doador A para receptor A, etc.). Em transplante
+cardíaco pediátrico abaixo de 1 a 2 anos, essa regra pode ser flexibilizada -- chamado ABO-incom
+patible transplant. Por quê? Porque o sistema imune do bebê ainda não produziu anticorpos anti-A e
+anti-B em níveis significativos (eles vêm tipicamente da exposição a antígenos do trato gastrointestinal
+nos primeiros anos). Aproveitando essa "janela de tolerância", é possível transplantar atravessando
+grupos sanguíneos, ampliando substancialmente o pool de doadores possíveis para o lactente.
+
+Tamanho: matching de peso do doador entre 70% e 160% do receptor é regra geral. Um coração de
+doador 30% maior que o receptor cabe no tórax, mas um coração muito maior ou muito menor não
+funcionará bem.
+
+Anticorpos preformados (panel reactive antibodies, PRA): candidatos previamente sensibilizados (por
+gravidez, transfusões, transplantes anteriores, paliações cirúrgicas múltiplas com uso de homoenxer
+tos) podem ter anticorpos que reagem contra antígenos HLA específicos. Esses anticorpos precisam
+ser identificados antes do transplante e o doador escolhido precisa não carregar os antígenos corre
+spondentes -- senão, rejeição hiperaguda.
+
+   26ABO ­ sistema de grupo sanguíneo principal. A compatibilidade ABO é regra geral em transplante de órgãos sólidos,
+mas em pediatria -- especialmente sob 2 anos -- pode ser flexibilizada devido à imaturidade do sistema imune.
+
+                                                                                36
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que candidatos a transplante pediátrico costumam estar mais sensibilizados
+
+Muitas crianças que chegam ao transplante já passaram por uma ou mais cirurgias paliativas
+(Norwood, Glenn, Blalock-Taussig). Essas cirurgias usam homoenxertos (tecido humano de
+banco) e quase sempre exigem transfusões sanguíneas. Cada exposição aumenta o risco de
+sensibilização. Por isso, candidatos pediátricos a transplante chegam com PRA elevado mais
+frequentemente que adultos, e o matching torna-se mais difícil.
+
+4.3 -- Logística da captação: corrida contra o relógio
+Identificado um doador potencial (paciente em morte encefálica, sem contraindicações), começa o
+processo de captação. O coração tolera um tempo de isquemia fria muito curto: cerca de 4 a 6 horas.
+Comparativamente, rim tolera 24 horas, fígado tolera 8 a 12. Por que o coração é tão sensível? Porque
+o miocárdio tem metabolismo predominantemente aeróbico e baixa reserva de glicogênio -- diferente
+do fígado, que armazena glicogênio para metabolismo anaeróbico, e do rim, que tem cortical mais
+resistente. Sem oxigênio, o miocárdio começa a sofrer dano isquêmico irreversível em poucas horas.
+
+OPO27
+
+CTX28
+
+Fluxo de identificação do potencial doador: suspeita de morte encefálica  abertura de protocolo  confirmação do
+diagnóstico  notificação compulsória à CTX  validação  comunicação da doação e distribuição. Cada etapa
+tem prazos e protocolos rígidos. O processo todo precisa caber, em geral, em menos de 24 horas para um coração
+ser viável.
+
+A sequência operacional típica:
+(1) Identificação e abertura de protocolo de morte encefálica no hospital de origem do doador. Critérios
+rigorosos: coma aperceptivo, ausência de reflexos de tronco, apneia, descartadas causas reversíveis.
+
+   27OPO ­ Organização de Procura de Órgãos -- entidade responsável pela avaliação, confirmação do diagnóstico de
+morte encefálica, abordagem da família e acompanhamento da captação.
+
+   28CTX ­ Central de Transplantes -- órgão estadual que coordena a distribuição dos órgãos captados, segue ordem da
+fila e regras de priorização.
+
+                                                                                37
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Dois exames com intervalo (algumas horas) e um exame complementar (EEG, doppler transcraniano,
+arteriografia cerebral).
+
+(2) Aprovação familiar. Em casos de morte encefálica morte encefálica29, a doação no Brasil depende
+de consentimento familiar -- mesmo se o falecido era doador declarado em vida, a família tem palavra
+final na prática.
+
+(3) Avaliação clínica do doador. Idade, comorbidades, função cardíaca (ecocardiograma, eventualmente
+coronariografia em doador mais velho), sorologias. Doador "ideal" é jovem, sem comorbidades, sem
+parada cardiorrespiratória prévia, sem necessidade de altas doses de drogas vasoativas. Quando essas
+condições não estão presentes, ainda assim pode-se aceitar o doador -- falando-se de doador "não
+ideal" ou marginal.
+
+(4) Decisão sobre transporte da equipe captadora. Distância, viabilidade de deslocamento, retorno
+seguro com o órgão. Centros como o InCor frequentemente captam corações de doadores em outras
+cidades ou estados -- o que significa avião, helicóptero, urgência logística.
+
+(5) Captação. Cirurgia no doador, com cuidado meticuloso: preservação das estruturas vasculares (aorta,
+veias cavas, artéria pulmonar) para anastomose no receptor, lavagem com solução cardioplégica gelada
+(interrompe o batimento e protege o miocárdio durante a isquemia), acondicionamento em saco com
+solução de preservação a 4°C, transporte em caixa térmica.
+
+(6) No centro transplantador. Receptor já está sob anestesia. Cirurgia: remoção do coração do receptor
+(deixando geralmente os "cuffs" atriais), implantação do coração doado, anastomose das veias cavas/
+átrios/aorta/artéria pulmonar, restauração da circulação. O cronômetro entre clamp aórtico no doador
+e desclampe no receptor é o "tempo de isquemia fria" -- esse é o número que define se a captação foi
+a tempo.
+
+Transporte da equipe e do órgão: a logística vai de cronograma de voo a temperatura da solução. Tempo de isquemia
+fria deve ficar abaixo de 4 a 6 horas para o coração. Acima disso, o risco de disfunção primária do enxerto sobe
+substancialmente -- pode levar a falência do enxerto nas primeiras horas pós-implante.
+
+   29morte encefálica ­ critério de morte definido pela cessação irreversível de toda a função do encéfalo, incluindo o
+tronco encefálico. Confirmação requer exame clínico padronizado e exame complementar (EEG, doppler transcraniano
+ou arteriografia). É a única condição em que a doação de órgãos sólidos como coração é possível.
+
+                                                                                38
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Coração tolera 4 a 6 horas de isquemia fria -- muito menos que rim (24h) ou
+fígado (8-12h). Logística completa precisa caber nesse tempo: identificação do doador, avaliação, cap
+tação, transporte, implante. Cada hora além do limite aumenta risco de disfunção primária do enxerto.
+
+4.4 -- VAD: ponte mecânica antes da ponte humana
+Para muitos candidatos a transplante, a espera na lista é o desafio. Como manter vivo um coração ter
+minal por semanas ou meses até aparecer um doador compatível? A resposta moderna é o dispositivo
+de assistência ventricular -- VAD -- popularmente chamado de "coração artificial".
+
+VAD30
+
+VAD pediátrico não é coração artificial completo -- em geral, é uma bomba mecânica acoplada que
+assume o trabalho do ventrículo esquerdo (LVAD), do direito (RVAD) ou de ambos (BiVAD). O dispositivo
+mais usado em crianças no Brasil é o Berlin Heart: extracorpóreo (a bomba fica fora do corpo, ligada ao
+coração por cânulas), pulsátil (mimetiza o batimento), pneumático (acionado por console que comprime
+e descomprime a câmara da bomba com ar).
+
+Três indicações de VAD em pediatria: ponte para transplante (mais comum), ponte para recuperação
+(raríssima -- em algumas miocardites virais agudas, o miocárdio se recupera após semanas de descanso
+mecânico), e terapia definitiva (em adultos é mais frequente; em crianças é exceção).
+
+Dispositivos de assistência ventricular: Berlin Heart (extracorpóreo, pulsátil, pneumático -- preferido em pediatria,
+desde neonatos até adolescentes), Heart Mate II e Heart Mate 3 (intratorácicos, fluxo contínuo, indicados para
+adolescentes e adultos). Bateria curta no Berlin Heart (30 min) exige presença constante de console reserva.
+
+Os cuidados pós-implante são intensos. Avaliação contínua do funcionamento da bomba: o sangue
+tem que correr sem coágulos visíveis, sem fibrinas aderidas, sem dobras nas cânulas. Cor do sangue
+na câmara da bomba muda se houver hemólise. Anticoagulação: o sangue em contato com superfícies
+artificiais coagula -- daí heparina sistêmica é regra, e o equilíbrio entre coagulação (que entupiria a
+bomba) e sangramento (que mataria o paciente) é uma corda bamba diária. Infecção do drive-line: as
+
+   30VAD ­ ventricular assist device / dispositivo de assistência ventricular. Bomba mecânica que assume parte ou todo
+o trabalho de um ventrículo. Em pediatria, usado principalmente como ponte para transplante, raramente como terapia
+definitiva ou ponte para recuperação.
+
+                                                                                39
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+cânulas saem pela parede torácica e o local de inserção é porta de entrada para bactérias. Curativo estéril,
+troca rigorosa, vigilância de sinais flogísticos.
+
+Características dos VADs em uso clínico: Berlin Heart é pulsátil e extracorpóreo -- adequado para crianças pequenas
+porque o tamanho da bomba pode ser escalonado. Heart Mate é de fluxo contínuo -- vantagem em adultos, mas
+perde a pulsatilidade arterial, com consequências fisiológicas próprias. Bateria do Berlin Heart é curta (30 min) --
+exige console plugado e backup à disposição.
+
+A complicação mais temida é o AVC isquêmico (por embolização de coágulos formados na bomba) ou
+hemorrágico (em pacientes anticoagulados). Avaliação neurológica diária é parte do cuidado padrão.
+Sangramento de drive-line, infecção sistêmica, disfunção do dispositivo são as outras grandes com
+plicações.
+
+   Resumindo até aqui: VAD = bomba mecânica que assume o trabalho ventricular. Em pediatria, quase
+   sempre como ponte para transplante. Berlin Heart é o mais usado: extracorpóreo, pulsátil, pneumático,
+   escalonável para neonatos. Tríade de complicações: trombose/AVC, infecção do drive-line, sangramento.
+   Anticoagulação cuidadosa é regra.
+
+    Síntese 4.4 -- Para muitos candidatos a transplante pediátrico, o VAD é a ponte até aparecer
+    um doador. Berlin Heart é o padrão em crianças. Os cuidados são intensos -- anticoagulação,
+    prevenção de infecção, monitorização de coágulos na bomba. Complicação mais temida é AVC.
+    Quando o transplante acontece, o VAD é removido junto com o coração nativo.
+
+       40
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE V -- Emergências cardiológicas pediátricas
+
+5.1 -- Choque: cardiogênico, séptico, hipovolêmico, obstrutivo
+Choque, em termos fisiológicos simples, é perfusão tecidual inadequada para a demanda metabólica.
+O sangue não está chegando aos tecidos com a quantidade ou qualidade necessária, e o metabolismo
+celular passa a depender da anaerobiose -- gerando acidose lática. Reconhecer choque é a tarefa
+primeira do pediatra de emergência. Tratar errado por confundir o tipo de choque pode matar o
+paciente.
+
+ Abordagem inicial ABCDE para emergências cardiovasculares pediátricas: A (via aérea e oxigenação), B (esforço
+ respiratório, edema pulmonar), C (perfusão, pulsos, hepatomegalia), D (estado neurológico), E (cianose, sinais per
+ iféricos). O reconhecimento do choque integra os cinco passos: criança em choque tem alteração em vários deles
+ simultaneamente.
+
+ABCDE31
+
+São quatro tipos clássicos:
+
+(1) Choque hipovolêmico: perda de volume circulante. Pode ser por hemorragia (trauma, sangramento
+gastrointestinal) ou por perdas não-hemorrágicas (gastroenterite com desidratação severa). Sinais:
+taquicardia, pulsos finos, perfusão lentificada, mucosas secas, sinal da prega cutânea. Tratamento:
+reposição volêmica vigorosa (cristaloide ou sangue se hemorrágico).
+
+(2) Choque distributivo (séptico): vasodilatação periférica difusa pela cascata inflamatória sistêmica.
+Sinais: pulsos amplos no início ("choque quente"), extremidades quentes, taquicardia, pressão de pulso
+alargada. Evolui para choque frio em fase mais avançada. Tratamento: volume + drogas vasoativas
+(noradrenalina) + antibiótico de amplo espectro precoce + controle do foco.
+
+(3) Choque cardiogênico: falência da bomba. Coração não consegue manter débito. Sinais: taquicardia,
+extremidades frias, pulsos finos, congestão pulmonar (estertores), hepatomegalia, ritmo de galope.
+
+   31ABCDE ­ sequência padrão de avaliação primária em emergências pediátricas: Airway, Breathing, Circulation, Dis
+ability, Exposure. Cobre os principais sistemas e identifica a ameaça imediata à vida.
+
+                                                                                41
+NEBLI                                                         ETAPA 1 -- TEXTO DIDÁTICO
+
+Piora com volume (o coração não consegue lidar com mais pré-carga, e sobrecarregá-lo só congestiona
+o pulmão). Tratamento: drogas inotrópicas (dobutamina, adrenalina, milrinona), ventilação precoce,
+muita cautela com fluidos.
+
+(4) Choque obstrutivo: obstrução mecânica ao fluxo (tamponamento cardíaco, pneumotórax hiperten
+sivo, embolia pulmonar massiva). Tratamento é remover a obstrução.
+
+Tipo              Extremidades          Pulso        Volume         Tratamento-
+                                                                         chave
+
+Hipovolêmico      Frias, mucosas Fino,               Melhora        Cristaloide  /
+
+                  secas            taquicárdico                     sangue
+
+Séptico (quente)  Quentes inicial  Amplo, pressão    Melhora moder  Volume + nora
+                  mente                              adamente       drenalina + ATB
+                                   de         pulso                 precoce
+
+                                   alargada
+
+Cardiogênico      Frias,       he  Fino,             Piora          Dobutamina, ven
+                                   taquicárdico, B3                 tilação, cautela
+                  patomegalia      de galope                        com fluidos
+
+Obstrutivo        Frias            Pulso paradoxal Sem resposta     Remover      ob
+
+                                   se tampona                       strução
+
+                                   mento
+
+A distinção cardiogênico × séptico é a mais importante na sala de emergência, porque o tratamento
+inicial pode ser o oposto. Em sepse, o reflexo é dar volume. Em choque cardiogênico, volume piora.
+Confundir os dois custa caro. Pistas para cardiogênico: hepatomegalia, ritmo de galope, congestão
+pulmonar, evolução não-explicada por foco infeccioso. Em criança com cianose e baixo débito, sempre
+pensar em cardiopatia congênita crítica -- especialmente em neonato.
+
+   Resumindo até aqui: Quatro tipos de choque: hipovolêmico (perda de volume), séptico (vasodilatação),
+   cardiogênico (falência de bomba), obstrutivo (obstrução mecânica). Cardiogênico piora com volume;
+   séptico melhora. Distinguir os dois é a pergunta central na criança em choque que chega ao PS.
+
+5.2 -- Cardiopatia congênita crítica neonatal: o ducto-dependente
+Recém-nascido que chega ao PS com cianose, palidez, taquicardia, pulsos ausentes, acidose metabólica
+-- pense imediatamente em cardiopatia congênita ducto-dependente. Por definição, é a cardiopatia
+em que a sobrevivência depende de o canal arterial estar aberto. Quando o canal fecha (primeiros dias
+após o nascimento), o quadro descompensa abruptamente.
+
+Há dois grupos:
+
+(A) Ducto-dependentes para a circulação pulmonar (cianogênicas): atresia pulmonar, tetralogia de
+Fallot grave, estenose pulmonar crítica, atresia tricúspide. Aqui o ducto serve para levar sangue ao
+
+                                          42
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+pulmão (a partir da aorta, retrogradamente para a artéria pulmonar). Sem o ducto, o pulmão não recebe
+sangue suficiente  cianose extrema, hipoxemia refratária.
+
+(B) Ducto-dependentes para a circulação sistêmica (predominantemente acianogênicas críticas):
+coarctação severa, interrupção do arco aórtico, HLHS, estenose aórtica crítica. Aqui o ducto serve para
+levar sangue ao corpo (a partir da artéria pulmonar, via canal arterial, para a aorta descendente). Sem o
+ducto, a perfusão da metade inferior do corpo (ou de quase todo o corpo, no HLHS) despenca  choque
+cardiogênico fulminante, pulsos femorais ausentes.
+
+A prostaglandina E1 (PGE1, alprostadil) é o medicamento que reabre e mantém aberto o canal arterial.
+Dose habitual de 0,01 a 0,1 mcg/kg/min em infusão contínua endovenosa. Resultado: em minutos a
+horas, o canal arterial se redilata, a perfusão se restabelece, a cianose melhora (ou o choque reverte), e o
+bebê é estabilizado para que a cirurgia definitiva possa ser planejada.
+
+ Prostaglandina E1 em recém-nascido com cardiopatia crítica: dose 0,01­0,05 mcg/kg/min em infusão contínua.
+ Mantém o canal arterial aberto, comprando tempo para diagnóstico e cirurgia. Efeitos colaterais a vigiar: apneia
+ (preparar para intubação) e hipotensão.
+
+Efeitos colaterais a vigiar: apneia (a PGE1 deprime o centro respiratório -- frequentemente é necessário
+intubar o bebê preventivamente) e hipotensão. Mas a alternativa de não usar é morte por choque ou
+hipoxemia -- então o uso é mandatório em qualquer suspeita até que ecocardiograma exclua diagnós
+tico ducto-dependente.
+
+    Teste de hiperóxia -- diferenciando cianose cardíaca de pulmonar
+
+    Diante de um recém-nascido cianótico, como saber se a causa é pulmonar (pneumonia, doença da
+    membrana hialina) ou cardíaca (CC cianogênica)? Coloque o bebê em FiO2 100% por 10 minutos
+    e meça a saturação ou a PaO2 arterial. Cianose pulmonar costuma melhorar substancialmente
+    -- o oxigênio extra atravessa o alvéolo e oxigena o sangue. Cianose cardíaca melhora pouco ou
+    nada -- o sangue está sendo desviado do pulmão, e dar mais oxigênio não ajuda se o sangue não
+    passa por lá. Teste positivo (sem melhora) sugere CC cianogênica -- inicie prostaglandina E1 e
+    peça ecocardiograma imediato.
+
+                                                                                43
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Recém-nascido com cianose ou choque inesperado nos primeiros dias de vida
+= cardiopatia congênita ducto-dependente até prova em contrário. Inicie prostaglandina E1 (0,01-0,05
+mcg/kg/min) imediatamente. Vigie apneia e hipotensão. Peça ecocardiograma urgente. Tempo é
+miocárdio nessa situação.
+
+5.3 -- Arritmias críticas em crianças
+A arritmia mais comum em pediatria que chega à emergência é a taquicardia supraventricular (TSV).
+Apresentação típica: lactente com taquicardia narrow QRS, frequência absurdamente alta (220 a 280
+bpm), início abrupto. Pode estar irritado, descorado, com pulsos finos, dependendo de há quanto tempo
+está taquicardíaco.
+
+TSV32
+
+ TSV em lactente: FC acima de 220 bpm, QRS estreito, início abrupto. Tratamento: manobras vagais (gelo no rosto
+ em lactente), adenosina IV (0,1 mg/kg, podendo escalonar a 0,2 e 0,3 mg/kg em doses subsequentes), cardioversão
+ sincronizada (0,5 a 1 J/kg) se instável hemodinamicamente.
+
+Mecanismo predominante: reentrada -- um circuito elétrico anômalo que rota repetidamente, man
+tendo a arritmia. O nó AV faz parte do circuito em muitas vezes (TSV nodal, taquicardia por reentrada
+AV). Por isso, adenosina funciona: ela bloqueia transitoriamente o nó AV (por alguns segundos), inter
+rompendo o circuito e permitindo que o nó sinusal reassuma. Dose 0,1 mg/kg em bolus rápido seguido de
+flush; pode escalonar a 0,2 e 0,3 mg/kg se necessário. Em criança instável, cardioversão sincronizada
+direta com 0,5 a 1 J/kg.
+A bradiarritmia em criança tem regra simples: a causa mais comum é hipóxia. Antes de pensar
+em problema elétrico, garanta oxigenação. Ventilação efetiva resolve a maior parte das bradicardias
+pediátricas. Se persistir após oxigenação adequada, dose-se adrenalina (0,01 mg/kg). Marca-passo,
+raramente.
+
+   32TSV ­ taquicardia supraventricular -- taquicardia originada acima do feixe de His, tipicamente com QRS estreito. Mais
+comum em lactentes; geralmente revertida por adenosina ou cardioversão sincronizada.
+
+                                                                                44
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Fibrilação ventricular (FV) e taquicardia ventricular sem pulso são raras em crianças, mas catastróficas.
+Tratamento: desfibrilação imediata (2 J/kg na primeira tentativa, escalonando a 4 J/kg), retomada de
+RCP, drogas (adrenalina a cada 3-5 min, amiodarona se refratária).
+
+FV33
+
+Resumindo até aqui: TSV em lactente: FC alta, QRS estreito, início abrupto. Tratamento: adenosina IV
+em bolus rápido (0,1  0,2  0,3 mg/kg), cardioversão sincronizada se instável. Bradicardia em criança:
+causa mais comum é hipóxia -- ventilar primeiro, depois drogas. FV: desfibrilação imediata 2 J/kg.
+
+Síntese 5.3 -- Arritmias críticas em criança: TSV (lactente, QRS estreito, alta frequência --
+adenosina ou cardioversão), bradiarritmia (sempre pensar em hipóxia primeiro), FV (desfibrilação
+imediata). Diferentemente do adulto, em pediatria a regra básica é: na bradicardia, oxigene; na
+taquiarritmia narrow, adenosine; na de QRS largo sem pulso, choque elétrico.
+
+Conclusão integradora
+
+A apostila começou com a anatomia mais básica do coração -- quatro câmaras, dois circuitos
+em série, uma bomba forte à esquerda e uma bomba leve à direita -- e terminou no neonato
+em choque que precisa de prostaglandina, no lactente com cardiomiopatia dilatada à espera de
+doador, no adolescente cujo Berlin Heart bate em vez do coração próprio. Cada uma dessas situ
+ações desconcertantes faz sentido se voltarmos ao desenho original: cardiopatias congênitas são
+quebras específicas do arranjo anatômico que separa os dois circuitos; insuficiência cardíaca é
+incapacidade desse arranjo de manter o débito; transplante é a substituição do coração quando
+todos os mecanismos compensatórios e cirúrgicos esgotaram-se. As emergências cardiológ
+icas pediátricas -- choque, cianose neonatal, arritmias -- são as situações em que o tempo de
+raciocínio é curto e o tratamento errado mata; a apostila ofereceu ferramentas para reconhecê-las.
+A liga não vai ensinar a operar; vai treinar a olhar para um bebê com sudorese durante a mamada
+e pensar talvez seja IC, peça um eco. Esse olhar é o que separa o estudante do médico, e é o que
+esta apostila quis cultivar.
+
+   33FV ­ fibrilação ventricular -- arritmia ventricular caótica e sem perfusão. Rara em pediatria, mas fatal sem desfibri
+lação imediata.
+
+                                                                                45
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Cardiopatia ducto-dependente --                           IC pediátrica -- ciclo vicioso e quadro
+emergência neonatal                                       clínico
+
+RN com cianose, choque ou pulsos ausentes nos             Queda do débito ativa SNS + SRAA:
+primeiros dias = ducto-dependente até prova em            compensa a curto prazo, sobrecarrega o coração
+contrário. Inicie prostaglandina E1 imediatamente         doente a longo prazo. Tratamento moderno
+(0,01­0,05 mcg/kg/min) -- mantém o canal arterial         desliga compensatórios (IECA, betabloqueador,
+aberto, comprando tempo para ecocardiograma e             espironolactona). Lactente apresenta-se com
+cirurgia. Vigie apneia e hipotensão.                      taquicardia + sudorese às mamadas + baixo ganho
+                                                          + hepatomegalia -- não com dispneia aos esforços.
+
+Tetralogia de Fallot -- dois componentes                  Decisão de transplante --
+explicam tudo                                             compatibilidade e isquemia fria
+
+Estenose pulmonar + CIV + dextroposição +                 Três eixos: ABO (flexível em lactente <1­2 anos),
+hipertrofia VD. Os dois primeiros bastam para             tamanho (doador 70­160% do receptor), PRA
+a cianose: sangue venoso encontra resistência ao          (anticorpos preformados). Isquemia fria = 4 a 6h
+pulmão e escapa pela CIV ao VE. Tet spell: piora          (contra 24h do rim) por metabolismo aeróbico e
+aguda quando a resistência sistêmica cai; joelho ao       baixa reserva de glicogênio. Toda a logística da
+peito reverte. Cirurgia: correção total ou Blalock-       captação cabe nesse tempo.
+Taussig.
+
+TGA -- circuitos em paralelo                              VAD -- Berlin Heart é o padrão
+                                                          pediátrico
+Aorta no VD, pulmonar no VE = paralelo, não
+em série. Sobrevive enquanto houver mistura (CIA,         Bomba mecânica que assume o trabalho
+CIV ou PCA). Prostaglandina E1 + Jatene (switch           ventricular. Em criança, principal uso é ponte
+arterial) nos primeiros 15 dias. Depois, o VE perdeu      para transplante. Berlin Heart: extracorpóreo,
+habituação à alta pressão -- alternativa é Senning/       pulsátil, escalonável de neonato a adolescente.
+Mustard (correção atrial) com VD sistêmico.               Tríade de complicações: trombose/AVC, infecção do
+                                                          drive-line, sangramento. Anticoagulação sistêmica
+HLHS -- protótipo do transplante                          obrigatória.
+pediátrico
+                                                          Choque cardiogênico × séptico --
+Hipoplasia do coração esquerdo: VE não funcional,         distinção que salva vidas
+VD assume os dois lados. Sobrevivência neonatal
+depende do canal arterial. Duas estratégias:              Cardiogênico: extremidades frias, pulsos finos,
+paliação em 3 estágios (Norwood  Glenn                    hepatomegalia, congestão pulmonar, piora com
+Fontan) ou transplante neonatal. Indicação mais           volume. Séptico: extremidades quentes, pulsos
+clássica de transplante cardíaco pediátrico.              amplos, melhora com volume. Confundir custa
+                                                          caro: séptico recebe bolus, cardiogênico recebe
+                                                          inotrópico com cautela com fluidos e ventilação
+                                                          precoce.
+
+                                                      46
+NEBLI      RESUMINDO
+
+       47
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 20 objetivas
+
+Questão 01 Consolidação
+
+Sobre o desenho de quatro câmaras do coração humano, é correto afirmar:
+
+   A) as quatro câmaras dispõem-se em paralelo, com cada par atrioventricular bombeando indepen
+   dentemente para um circuito vascular distinto, sem que haja necessidade de comunicação entre os
+   dois lados.
+   B) o arranjo separa um circuito pulmonar de baixa pressão de um circuito sistêmico de alta pressão, e
+   o ventrículo esquerdo é mais espesso porque enfrenta resistência sistêmica muito maior.
+   C) a separação em quatro câmaras é apenas estrutural, sem consequência funcional, pois o sangue
+   oxigenado e o sangue venoso atravessam livremente o septo durante o ciclo cardíaco.
+   D) os dois átrios funcionam como bombas principais e os ventrículos servem apenas como câmaras
+   de espera para o enchimento durante a diástole prolongada.
+   E) a parede do ventrículo direito é a mais espessa do coração porque precisa bombear contra a pressão
+   alveolar elevada presente no leito pulmonar durante toda a respiração.
+
+Questão 02 Consolidação
+
+Durante a vida fetal, o forame oval e o canal arterial existem porque:
+
+   A) aumentam o fluxo de sangue pelo circuito pulmonar fetal e garantem a oxigenação do feto direta
+   mente pela mucosa do alvéolo ainda em formação no segundo trimestre.
+   B) funcionam como válvulas de segurança que se abrem apenas quando a pressão sistêmica fetal cai
+   abaixo de 30 mmHg em situações específicas de estresse intrauterino.
+   C) permitem que o sangue oxigenado pelo pulmão materno chegue ao feto após atravessar a placenta
+   e a veia umbilical, garantindo perfusão miocárdica adequada durante a gestação.
+   D) desviam o sangue do circuito pulmonar fetal, que tem alta resistência e pulmões não-ventilados,
+   em direção à circulação sistêmica oxigenada pela placenta.
+   E) estabelecem uma terceira via de drenagem venosa fetal, complementando as veias cavas em
+   períodos de aumento do retorno venoso durante movimentação fetal intensa.
+
+                            48
+NEBLI                        ETAPA 2 -- 20 OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre o ciclo vicioso da insuficiência cardíaca crônica, é correto afirmar:
+
+   A) a ativação crônica do sistema nervoso simpático e do SRAA, embora compense o débito no curto
+   prazo, aumenta pré-carga e pós-carga sobre um miocárdio já doente, acelerando remodelamento e
+   descompensação.
+
+   B) a ativação do sistema nervoso simpático normaliza definitivamente o débito cardíaco e revia o
+   quadro, dispensando uso crônico de betabloqueadores na maioria dos pacientes com IC.
+
+   C) o SRAA é ativado apenas quando a volemia já está aumentada, atuando como freio fisiológico que
+   reduz a retenção de líquidos e protege o coração da congestão.
+
+   D) a queda do débito não envolve resposta renal direta, pois o rim só reage à pressão arterial sistêmica
+   medida nos barorreceptores aórticos e carotídeos.
+
+   E) a retenção de sódio e água pela aldosterona alivia diretamente a sobrecarga do ventrículo doente
+   porque reduz a pré-carga em descompensações agudas.
+
+Questão 04 Consolidação
+
+Sobre a diferença entre cardiomiopatia dilatada (CMD) e cardiomiopatia hipertrófica (CMH), é correto
+afirmar:
+
+   A) CMD apresenta câmara reduzida e parede muito espessa, enquanto CMH cursa com câmara
+   dilatada e parede afinada, ambas evoluindo principalmente com IC sistólica de fração de ejeção
+   reduzida.
+
+   B) CMD e CMH compartilham o mesmo mecanismo fisiopatológico: hipertrofia adaptativa progres
+   siva do miócito que culmina em falência de bomba ao longo de anos, sendo distinguíveis na prática
+   clínica apenas pelo padrão genético subjacente herdado.
+
+   C) CMD cursa com câmara dilatada, parede fina e contratilidade reduzida (IC sistólica), enquanto CMH
+   cursa com câmara pequena, parede muito espessa e enchimento prejudicado (IC diastólica).
+
+   D) CMH é a indicação mais comum de transplante cardíaco em pediatria porque sua fração de ejeção
+   cai precocemente, ao passo que CMD raramente progride para indicação de transplante em crianças.
+
+   E) CMD e CMH têm aparência ecocardiográfica idêntica, sendo distinguíveis apenas pela história
+   familiar e pelo padrão eletrocardiográfico durante a primeira década de vida.
+
+                         49
+NEBLI                        ETAPA 2 -- 20 OBJETIVAS
+
+Questão 05 Consolidação
+
+Sobre o sentido do shunt em uma comunicação interventricular grande recém-diagnosticada em um
+lactente de seis semanas, é correto afirmar que:
+
+A) o shunt flui da direita para a esquerda porque o ventrículo direito é mais espesso, ejeta com mais
+força que o esquerdo e gera cianose central pela mistura precoce de sangue venoso na aorta.
+
+B) o sentido do shunt depende exclusivamente do tamanho anatômico do defeito; defeitos pequenos
+cursam com shunt direita-esquerda e defeitos grandes invertem para esquerda-direita, independente
+do gradiente pressórico.
+
+C) o shunt é bidirecional em condições basais e só assume sentido único após o uso de drogas in
+otrópicas que normalizem a contratilidade ventricular e equalizem as pressões entre as duas câmaras
+envolvidas.
+
+D) não há shunt enquanto a musculatura ventricular mantiver-se intacta, pois o defeito anatômico
+apenas reduz a complacência das câmaras adjacentes sem permitir passagem efetiva de sangue entre
+os ventrículos.
+
+E) o shunt flui da esquerda para a direita porque a pressão ventricular esquerda é muito maior; cursa
+com hiperfluxo pulmonar, sobrecarga de câmaras direitas e ausência de cianose nessa fase.
+
+Questão 06 Consolidação
+
+Sobre a tetralogia de Fallot, é correto afirmar:
+
+   A) é uma cardiopatia acianogênica em que o shunt esquerda-direita pela CIV provoca hiperfluxo
+   pulmonar e ausência de obstrução à via de saída do ventrículo direito.
+
+   B) combina estenose pulmonar, CIV, aorta cavalgante e hipertrofia do ventrículo direito; a estenose
+   pulmonar associada à CIV explica o shunt direita-esquerda e a cianose.
+
+   C) resulta de quatro defeitos do lado esquerdo do coração -- CIA, valva mitral atrésica, hipoplasia do
+   ventrículo esquerdo e estenose aórtica -- todos cursando com cianose central.
+
+   D) os quatro componentes incluem coarctação da aorta, persistência do canal arterial, hipertrofia do
+   ventrículo esquerdo e CIA -- todos os shunts ocorrem no nível dos grandes vasos.
+
+   E) a hipertrofia do ventrículo direito é o defeito embriológico primário; os outros três componentes
+   são consequências mecânicas do aumento da pressão diastólica direita ao nascimento.
+
+                         50
+NEBLI                        ETAPA 2 -- 20 OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre o tempo de isquemia fria do coração para transplante, é correto afirmar:
+
+   A) o coração tolera tempo de isquemia fria semelhante ao do fígado, em torno de 12 horas, graças à
+   proteção dada pelas soluções de preservação modernas usadas durante o transporte.
+
+   B) coração tolera entre 18 e 24 horas, equiparando-se ao rim, e por isso a captação cardíaca raramente
+   exige logística aérea urgente nos centros transplantadores brasileiros de referência.
+
+   C) coração tolera apenas cerca de 4 a 6 horas, bem menos que rim ou fígado, porque o miocárdio
+   tem metabolismo aeróbico intenso e baixa reserva de glicogênio, sofrendo dano rapidamente sem
+   perfusão.
+
+   D) o tempo de isquemia fria do coração não é fator limitante na captação, pois a solução cardioplégica
+   interrompe completamente o metabolismo miocárdico durante o transporte indefinidamente.
+
+   E) o coração tolera tempo ilimitado se mantido a 4°C, sendo a logística limitada apenas pelo tempo de
+   transporte do receptor até o centro transplantador onde acontecerá o implante final.
+
+Questão 08 Consolidação
+
+Sobre o efeito da prostaglandina E1 em recém-nascido com suspeita de cardiopatia ducto-dependente,
+é correto afirmar:
+
+   A) a PGE1 mantém o canal arterial aberto, garantindo perfusão sistêmica ou pulmonar via canal até a
+   cirurgia definitiva; tem como efeitos colaterais apneia e hipotensão.
+
+   B) a PGE1 contrai imediatamente o canal arterial pela via dependente de COX-2, sendo a droga de
+   escolha para fechar a persistência isolada do canal arterial em recém-nascido a termo já estabilizado
+   hemodinamicamente.
+
+   C) a PGE1 atua como diurético potente, "secando" o pulmão congesto do neonato com cardiopatia
+   ducto-dependente antes do encaminhamento ao centro de referência, sem alteração direta da pressão
+   sistêmica.
+
+   D) a PGE1 é vasoconstritor sistêmico, elevando a pressão arterial em neonatos hipotensos por choque
+   cardiogênico decorrente de coarctação grave da aorta torácica descendente.
+
+   E) a PGE1 antagoniza a ação do simpático no recém-nascido em choque, sendo equivalente farma
+   cológico aos betabloqueadores usados em adultos com insuficiência cardíaca grave estabelecida.
+
+                         51
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 09 Integração
+
+Um lactente de cinco semanas chega ao pediatra com taquicardia em repouso (FC 175), taquipneia leve
+e hepatomegalia de 3 cm abaixo do rebordo costal direito. A mãe relata que ele suga algumas vezes, sua
+durante a mamada e interrompe, parecendo cansado, e o ganho ponderal das últimas duas semanas foi
+baixo. Sobre o quadro, é correto afirmar que:
+
+A) a hepatomegalia indica obrigatoriamente colestase neonatal por hepatite congênita, e a taquicardia
+é resposta sistêmica à hiperbilirrubinemia decorrente do processo inflamatório hepático em curso.
+
+B) a sudorese e a taquicardia decorrem de hipertireoidismo congênito; a hepatomegalia é sinal de
+tireotoxicose neonatal e o tratamento de escolha é tiamazol em dose terapêutica adaptada ao peso.
+
+C) taquicardia em lactente raramente é patológica e a sudorese durante a mamada é fenômeno fisi
+ológico próprio dos lactentes saudáveis, devendo-se apenas orientar a mãe e reavaliar em consulta
+de rotina.
+
+D) o lactente apresenta insuficiência cardíaca pediátrica: a taquicardia compensa volume sistólico
+limitado, sudorese ao mamar é o equivalente da dispneia aos esforços e hepatomegalia reflete con
+gestão venosa sistêmica.
+
+E) trata-se de quadro típico de bronquiolite por vírus sincicial respiratório com leve componente
+sistêmico; basta suporte ventilatório não invasivo e hidratação venosa generosa nas primeiras 48
+horas de internação.
+
+                       52
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 10 Integração
+
+Uma criança de dois anos com tetralogia de Fallot evolui durante uma birra com agitação intensa, choro
+prolongado, piora súbita da cianose e taquipneia. A mãe coloca-a com os joelhos junto ao peito e a
+cianose melhora rapidamente em poucos minutos. O mecanismo central que explica a melhora é:
+
+   A) a posição reduz o retorno venoso ao ventrículo direito, diminuindo o volume que tenta atravessar
+   a estenose pulmonar e aliviando a obstrução da via de saída durante o pico de demanda.
+
+   B) a posição comprime mecanicamente as artérias pulmonares estenóticas, redirecionando o fluxo da
+   artéria pulmonar para a aorta descendente através de canal arterial reaberto temporariamente pela
+   manobra postural.
+
+   C) a flexão do quadril comprime as artérias femorais, aumenta a resistência vascular sistêmica e
+   reverte o gradiente de pressão, fazendo o sangue venoso encontrar o pulmão como caminho relati
+   vamente menos resistente que a CIV.
+
+   D) a manobra estimula o sistema nervoso simpático e eleva a frequência cardíaca, aumentando o
+   débito pulmonar pela equação DC = FC × VS e melhorando a saturação periférica pelo aumento do
+   volume corrente.
+
+   E) a manobra induz vasodilatação sistêmica reflexa, reduzindo a pós-carga do ventrículo esquerdo e
+   desviando mais sangue para a circulação pulmonar pela CIV aberta na tetralogia.
+
+                       53
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 11 Integração
+
+Em um paciente pediátrico com cardiomiopatia dilatada terminal listado para transplante, indica-se
+implante de dispositivo de assistência ventricular (Berlin Heart) como ponte para a cirurgia. Sobre a
+fisiopatologia que justifica a indicação e os cuidados imediatos, é correto afirmar que:
+
+   A) o Berlin Heart é um dispositivo intratorácico de fluxo contínuo, indicado preferencialmente em
+   adolescentes e adultos, e dispensa anticoagulação rigorosa porque o sangue não toca superfícies
+   artificiais durante seu funcionamento dentro do tórax.
+
+   B) a indicação decorre da incapacidade da bomba ventricular doente em manter débito mínimo apesar
+   de terapia clínica máxima; o dispositivo é extracorpóreo, pulsátil e exige anticoagulação rigorosa por
+   contato com superfícies trombogênicas.
+
+   C) o VAD pediátrico é usado preferencialmente como terapia definitiva substituindo o transplante,
+   eliminando a necessidade de imunossupressão a longo prazo e melhorando a qualidade de vida em
+   comparação a um coração doado.
+
+   D) a indicação independe do estado funcional do ventrículo nativo; o VAD é implantado profilatica
+   mente em todo candidato a transplante para reduzir o tempo total na lista de espera nos centros de
+   referência nacional brasileiros.
+
+   E) como o sangue circula em sistema fechado dentro do dispositivo, infecção e tromboembolismo
+   são complicações raras, e o cuidado pós-implante centra-se apenas na monitorização não invasiva da
+   pressão arterial sistêmica do paciente.
+
+                       54
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 12 Integração
+
+Um lactente de quatro meses com comunicação interventricular grande não corrigida chega ao ambu
+latório, e a mãe relata que ele "está mais rosado" e parece menos cansado do que antes. O ecocardiograma
+mostra que a pressão sistólica do ventrículo direito subiu progressivamente nos últimos meses. O
+médico explica que, apesar da aparência mais saudável, o quadro indica progressão. A explicação
+mecanística correta é:
+
+   A) a melhora da cianose decorre do amadurecimento das artérias pulmonares, que perdem espessura
+   muscular ao longo da primeira infância e permitem retorno venoso adequado ao átrio esquerdo nesse
+   intervalo.
+
+   B) a CIV reduziu de tamanho por fibrose espontânea, diminuindo o shunt e melhorando a saturação
+   periférica do lactente sem necessidade de intervenção cirúrgica adicional nos próximos anos.
+
+   C) o quadro indica fechamento espontâneo iminente da CIV, fenômeno comum em musculares
+   pequenas; o aumento da pressão ventricular direita é compensatório e revia a indicação cirúrgica que
+   pode ser adiada com segurança.
+
+   D) a aparência mais saudável é resultado direto do início da terapia neuro-humoral compensatória,
+   com retenção de sódio e água pelo SRAA aumentando o volume circulante eficaz e a perfusão tecidual
+   periférica.
+
+   E) o hiperfluxo pulmonar crônico induziu remodelamento vascular pulmonar com hipertensão pul
+   monar progressiva; a pressão direita está se equalizando à esquerda, reduzindo o shunt -- caminho
+   para síndrome de Eisenmenger e inversão do shunt.
+
+                       55
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 13 Integração
+
+Após o nascimento, um recém-nascido com síndrome de hipoplasia do coração esquerdo (HLHS) é
+admitido na UTI neonatal. A equipe inicia prostaglandina E1 imediatamente. Sobre a base anatomo-
+fisiológica que justifica essa conduta, é correto afirmar:
+
+   A) como o ventrículo esquerdo é hipoplásico e não-funcional, a perfusão sistêmica depende de o
+   ventrículo direito ejetar sangue para a artéria pulmonar e dali, via canal arterial pérvio, atingir a aorta
+   descendente e o corpo.
+
+   B) no HLHS o ventrículo esquerdo é hipertrofiado e excessivamente forte; a PGE1 é usada para reduzir
+   a contratilidade exagerada do lado esquerdo até a correção definitiva por septectomia atrial.
+
+   C) a PGE1 é usada para fechar definitivamente o canal arterial e o forame oval ainda patentes,
+   reduzindo o shunt residual e melhorando a saturação periférica do recém-nascido com HLHS.
+
+   D) a perfusão sistêmica no HLHS depende exclusivamente do forame oval; o canal arterial é irrelevante
+   porque está conectado apenas ao tronco pulmonar e à artéria pulmonar direita.
+
+   E) a PGE1 é vasoconstritor pulmonar específico, e seu uso no HLHS é justificado pelo aumento da pré-
+   carga do ventrículo direito, único ventrículo funcionante na cardiopatia diagnosticada nesse contexto.
+
+                       56
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 14 Integração
+
+Um adolescente com cardiomiopatia dilatada de origem familiar, em terapia farmacológica máxima
+há dois anos, evolui com piora progressiva da capacidade funcional. O ecocardiograma mostra fração
+de ejeção em 18%, dilatação importante do ventrículo esquerdo e disfunção contrátil global. Sobre a
+evolução desse paciente, é correto afirmar que:
+
+A) o paciente deve ser inscrito imediatamente para transplante hepático combinado com cardíaco,
+pois a congestão crônica leva inevitavelmente à fibrose hepática irreversível em adolescentes nessa
+faixa etária e classe funcional.
+
+B) trata-se de cardiomiopatia hipertrófica em fase tardia, com transformação para padrão dilatado; a
+conduta indicada é miotomia septal cirúrgica para alívio da obstrução de via de saída do ventrículo
+esquerdo nesse momento.
+
+C) a CMD pediátrica raramente progride para indicação de transplante cardíaco, sendo manejada
+quase sempre apenas com terapia farmacológica otimizada e ressincronização biventricular; o trans
+plante seria reservado para casos raros com CIV associada e shunt residual significativo.
+
+D) o paciente preenche critérios para coração terminal (estágio D), tem CMD -- indicação clássica de
+transplante cardíaco pediátrico -- e deve ser avaliado para inscrição na lista de transplante, com VAD
+considerado como ponte se houver descompensação.
+
+E) a fração de ejeção em 18% é compatível com cardiomiopatia restritiva avançada, e o tratamento
+de escolha é diurético em altas doses associado a inotrópicos contínuos por tempo indeterminado
+em domicílio.
+
+                       57
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 15 Integração
+
+Após cirurgia de Norwood em um lactente com HLHS, a equipe planeja a sequência cirúrgica. Sobre a
+fisiologia que justifica as três etapas (Norwood, Glenn bidirecional e Fontan), é correto afirmar que:
+
+A) as três etapas têm como objetivo manter o forame oval pérvio durante o crescimento por meio
+de patch atrial reabsorvível, permitindo que o ventrículo esquerdo hipoplásico recupere progressiva
+mente sua função sistólica nativa ao longo dos primeiros anos de vida em condições controladas.
+
+B) a estratégia converte o coração com um único ventrículo funcionante (VD) em uma circulação em
+série: Glenn redireciona o retorno venoso superior direto ao pulmão; Fontan estende o redireciona
+mento ao retorno inferior, deixando o VD apenas como bomba sistêmica.
+
+C) as três etapas são cirurgias de reposição valvar progressiva: Norwood substitui a valva aórtica,
+Glenn substitui a mitral, e Fontan completa a substituição com prótese tricúspide para correção
+anatômica completa do lado direito.
+
+D) a estratégia em três tempos é apenas uma adaptação histórica do switch arterial (Jatene), realizada
+quando o procedimento original não pode ser feito nos primeiros 15 dias de vida em centros de
+referência cardiológica nacional.
+
+E) Norwood, Glenn e Fontan são procedimentos alternativos entre si: o cirurgião escolhe um dos três,
+e a escolha depende do peso do paciente e da disponibilidade de homoenxertos no centro transplan
+tador onde a criança será operada.
+
+                       58
+NEBLI                      ETAPA 2 -- 20 OBJETIVAS
+
+Questão 16 Integração
+
+Um lactente de três meses chega ao pronto-socorro com taquicardia (FC 200), taquipneia, palidez
+intensa, extremidades frias e hepatomegalia importante. A glicemia capilar está normal e não há febre.
+A residente, suspeitando de choque, prescreve infusão rápida de cristaloide a 20 mL/kg. Sobre a conduta,
+é correto afirmar que:
+
+A) a conduta é adequada para todos os tipos de choque pediátrico, pois reposição volêmica é o primeiro
+passo padrão e a resposta hemodinâmica orientará o diagnóstico etiológico nas próximas horas de
+internação.
+
+B) a conduta é apropriada porque taquicardia, palidez e extremidades frias caracterizam choque
+hipovolêmico clássico, e a hepatomegalia indica sangramento gastrointestinal oculto requerendo
+reposição volêmica imediata em duas vias.
+
+C) a conduta é potencialmente prejudicial: hepatomegalia e extremidades frias sugerem choque
+cardiogênico (possivelmente IC pediátrica ou miocardite), em que volume agrava a congestão; deve-
+se priorizar drogas inotrópicas, ventilação e cautela com fluidos.
+
+D) a conduta é apropriada porque a febre não é necessária para diagnóstico de sepse em lactentes
+pequenos, e choque séptico responde a expansão volêmica generosa nesse momento clínico indepen
+dentemente da ausculta cardíaca.
+
+E) a conduta é adequada porque hepatomegalia em lactente sempre indica falência hepática aguda,
+situação em que a reposição volêmica precoce protege a função renal contra síndrome hepatorrenal
+subsequente.
+
+                       59
+NEBLI                     ETAPA 2 -- 20 OBJETIVAS
+
+Questão 17 Aplicação
+
+Recém-nascido a termo, 2 dias de vida, é levado ao pronto-socorro com palidez intensa, sudorese,
+taquicardia (FC 190), taquipneia e pulsos femorais ausentes. A saturação periférica é 92% em membro
+superior direito e 78% em membro inferior. A pressão arterial nos membros superiores é 80/55 mmHg e
+não é detectável nos membros inferiores. A criança aparentava-se bem na alta da maternidade, ontem. A
+ausculta revela B2 hiperfonética, sem sopro audível. Não há histórico materno relevante. Considerando
+o conjunto dos achados, o diagnóstico mais provável e a conduta inicial mais correta são:
+
+A) sepse neonatal de início precoce; iniciar antibioticoterapia empírica de amplo espectro, reposição
+volêmica vigorosa com cristaloide 20 mL/kg e suporte vasopressor, sem necessidade de ecocardio
+grama nas primeiras horas de manejo.
+
+B) persistência do canal arterial não complicada; orientar a mãe sobre o curso benigno e agendar
+reavaliação ambulatorial em 30 dias para reavaliar a manutenção dos pulsos femorais ao longo do
+crescimento da criança.
+
+C) bronquiolite por VSR com componente cardíaco secundário; iniciar oxigenoterapia suplementar
+e fisioterapia respiratória, mantendo monitorização não invasiva até estabilização nas primeiras 24
+horas de evolução clínica.
+
+D) crise hipoxêmica de tetralogia de Fallot; posicionar a criança com joelhos junto ao peito, adminis
+trar morfina endovenosa e considerar fenilefrina caso a cianose não reverta com a manobra postural
+inicial nessa apresentação.
+
+E) cardiopatia congênita ducto-dependente para circulação sistêmica (provável coarctação grave ou
+interrupção do arco aórtico) descompensada pelo fechamento do canal arterial; iniciar prostaglandina
+E1 em infusão contínua e solicitar ecocardiograma urgente em paralelo à estabilização hemod
+inâmica.
+
+                      60
+NEBLI                     ETAPA 2 -- 20 OBJETIVAS
+
+Questão 18 Aplicação
+
+Adolescente de 14 anos, portador de cardiomiopatia dilatada de origem viral diagnosticada aos 9
+anos, em terapia clínica máxima (IECA, betabloqueador, antagonista de mineralocorticoide, diurético),
+evolui nos últimos 6 meses com piora progressiva. Apresenta-se agora com dispneia em repouso,
+ortopneia importante, edema de membros inferiores 3+ e dependência de dobutamina contínua há
+10 dias. Ecocardiograma: fração de ejeção 14%, ventrículo esquerdo dilatado, regurgitação mitral fun
+cional moderada. Inscrito em lista de transplante; no momento, sem doador compatível disponível.
+Considerando o caso, a conduta mais adequada é:
+
+   A) implante de dispositivo de assistência ventricular (Berlin Heart ou HeartMate, conforme tamanho
+   do paciente) como ponte para transplante, mantendo anticoagulação rigorosa, vigilância para AVC,
+   infecção do drive-line e sangramentos, com a expectativa de manter o paciente vivo até o apareci
+   mento de doador compatível.
+
+   B) aumento agressivo das doses de IECA e betabloqueador para o dobro do habitual, com objetivo de
+   maximizar o bloqueio neuro-humoral compensatório, manter a criança em casa em terapia ambula
+   torial e evitar internação prolongada ou procedimentos intervencionistas adicionais nessa fase tão
+   avançada da doença.
+
+   C) retirada imediata da dobutamina contínua e início de inibidor SGLT2 isolado em monoterapia,
+   estratégia recente que tem demonstrado superioridade clínica na cardiomiopatia dilatada terminal
+   pediátrica em estudos randomizados publicados no último ano sobre manejo de falência avançada
+   em adolescentes.
+
+   D) transplante de pulmão isolado como ponte para o transplante cardíaco posterior, melhorando a
+   complacência pulmonar do paciente, reduzindo a pós-carga do ventrículo direito e prolongando a
+   sobrevida até o aparecimento de doador cardíaco compatível em centro de referência nacional.
+
+   E) cirurgia de Glenn bidirecional adaptada para o paciente adolescente, redirecionando o retorno
+   venoso superior direto ao pulmão e descarregando parcialmente o ventrículo esquerdo doente até que
+   apareça doador compatível para o transplante cardíaco em prazo clinicamente razoável.
+
+                      61
+NEBLI                     ETAPA 2 -- 20 OBJETIVAS
+
+Questão 19 Aplicação
+
+Lactente de 5 meses, portador de tetralogia de Fallot ainda não corrigida, chega ao pronto-socorro
+durante o segundo dia de febre por gastroenterite. Está taquipneico, cianótico (saturação 68%), agitado
+e chorando intensamente. A mãe relata que a cianose, antes leve, piorou dramaticamente desde o início
+da manhã. A criança está taquicárdica (FC 195), com extremidades frias e pulsos finos. Considerando o
+conjunto de achados, a sequência terapêutica mais correta é:
+
+   A) administrar imediatamente furosemida endovenosa para reduzir a congestão pulmonar e cardio
+   circulatória, mantendo o paciente em decúbito horizontal para favorecer o retorno venoso ao coração
+   direito durante a manobra inicial.
+
+   B) iniciar nitroprussiato em infusão para reduzir a pós-carga sistêmica e melhorar o débito anteró
+   grado pelo ventrículo esquerdo, associando oxigenoterapia em alta concentração e analgesia leve
+   durante o manejo da crise.
+
+   C) crise hipoxêmica de tetralogia de Fallot precipitada pela desidratação e estresse: posicionar com
+   joelhos junto ao peito para elevar a resistência sistêmica, administrar oxigênio, morfina endovenosa,
+   expansão volêmica cuidadosa; considerar fenilefrina se refratária; planejar correção cirúrgica.
+
+   D) administrar adenosina em bolus rápido endovenoso para reverter o quadro arrítmico subjacente,
+   monitorizando ECG contínuo; em caso de falha, partir para cardioversão sincronizada com 1 J/kg após
+   estabilização inicial das vias aéreas e oxigenação.
+
+   E) inubação orotraqueal imediata seguida de hiperventilação para reduzir CO e provocar vasocon
+   strição pulmonar reflexa que aumenta a perfusão sistêmica do paciente cianótico em quadro agudo
+   no contexto da doença cardíaca de base.
+
+                      62
+NEBLI                     ETAPA 2 -- 20 OBJETIVAS
+
+Questão 20 Aplicação
+
+Recém-nascido a termo, primeiro dia de vida, diagnosticado intraútero com transposição das grandes
+artérias (TGA) com septo interventricular íntegro. Após o nascimento, mostra-se cianótico (saturação
+65%) apesar de oxigenoterapia em alta concentração. A equipe da UTI neonatal iniciou prostaglandina
+E1 em infusão contínua imediatamente. A saturação melhorou para 78% mas permanece insatisfatória.
+O ecocardiograma confirma o diagnóstico e mostra forame oval restritivo. Sobre a conduta seguinte
+mais adequada, é correto afirmar:
+
+A) aumentar a dose de prostaglandina E1 até saturação alvo de 95% e aguardar maturação espontânea
+da janela cirúrgica nos primeiros 60 dias antes de qualquer intervenção adicional, mantendo o
+paciente em UTI sob monitorização contínua até a resolução.
+
+B) transferir o recém-nascido para hospital de referência em cardiologia pediátrica e indicar cirurgia
+atrial de Senning ou Mustard nos próximos dias, deixando o ventrículo direito como ventrículo
+sistêmico em definitivo conforme a estratégia clássica original.
+
+C) iniciar betabloqueador endovenoso para reduzir a frequência cardíaca e otimizar o enchimento
+ventricular, melhorando indiretamente a saturação periférica até que apareça doador compatível para
+transplante cardíaco neonatal no centro de referência nacional.
+
+D) realizar atriosseptostomia de Rashkind por cateter (criar ou ampliar comunicação atrial) para
+melhorar a mistura sanguínea, mantendo a PGE1 e programando switch arterial (Jatene) preferen
+cialmente nos primeiros 15 dias, enquanto o ventrículo esquerdo ainda tolera carga sistêmica.
+
+E) suspender a PGE1 para permitir o fechamento do canal arterial e do forame oval, simplificando a
+anatomia para correção cirúrgica posterior em janela mais favorável após o segundo mês de vida do
+recém-nascido em questão.
+
+                      63
+NEBLI                        ETAPA 2 -- 20 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que o ventrículo esquerdo tem parede muito mais espessa que o ventrículo direito
+e descreva o que acontece com a parede do ventrículo direito quando ele passa a bombear contra
+pressão sistêmica (como na síndrome de Eisenmenger ou na transposição das grandes artérias
+não corrigida).
+
+    MODELO DE RESPOSTA
+
+   O ventrículo esquerdo ejeta sangue contra a pressão sistêmica, em torno de 120 mmHg
+   em adultos. O direito ejeta contra a pressão pulmonar, cerca de 25 mmHg -- quase cinco
+   vezes menor. Quem trabalha contra mais resistência precisa de mais músculo: por isso
+   a parede do VE é três a quatro vezes mais espessa que a do VD. Quando o VD passa a
+   bombear contra pressão sistêmica (Eisenmenger, TGA não corrigida), ele se hipertrofia
+   em semanas ou meses, igualando a espessura do VE. A relação parede-pressão não é
+   destino genético; o músculo se molda à carga.
+
+Questão Q2
+
+Por que a ativação do sistema nervoso simpático, inicialmente compensatória na insuficiência
+cardíaca, agrava o quadro a longo prazo? Explique o ciclo vicioso neuro-humoral e o racional do
+uso de betabloqueador em IC sistólica.
+
+    MODELO DE RESPOSTA
+
+   Quando o débito cai, o SNS ativa-se: catecolaminas aumentam frequência, contratili
+   dade e vasoconstrição periférica. No curto prazo, sobe a pressão e melhora a perfusão.
+   Mas o coração doente agora bombeia contra mais pós-carga (vasos contraídos), com
+   mais pré-carga (volume retido via SRAA) e em ritmo acelerado. Cada batida custa mais
+   trabalho a um músculo já frágil, induzindo remodelamento -- hipertrofia, dilatação,
+   fibrose, apoptose. O betabloqueador desliga essa estimulação crônica deletéria; reduz
+   a demanda sobre o miocárdio e permite recuperação parcial da função. Parece con
+   traintuitivo dar betabloqueador em coração fraco, mas é exatamente o que prolonga
+   sobrevida.
+
+                                                                           64
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q3
+
+Descreva o mecanismo pelo qual a tetralogia de Fallot causa cianose, indicando quais dos quatro
+componentes anatômicos são diretamente responsáveis pelo shunt direita-esquerda.
+
+MODELO DE RESPOSTA
+
+Os quatro componentes da Fallot são estenose pulmonar, CIV grande, aorta cavalgante e
+hipertrofia do VD. A cianose é explicada pelos dois primeiros. A estenose pulmonar ob
+strui a saída do VD, forçando pressões altas dentro dele. O sangue venoso, encontrando
+resistência alta para ir ao pulmão, prefere o caminho de menor resistência: atravessa
+a CIV até o VE e dali à aorta. Sangue venoso na aorta cai diretamente na circulação
+sistêmica e produz cianose. A aorta cavalgante facilita anatomicamente esse desvio,
+mas não é causa primária; a hipertrofia do VD é consequência mecânica da estenose,
+não causa.
+
+Questão Q4
+
+Por que o tempo de isquemia fria tolerado pelo coração é tão mais curto que o de outros órgãos
+sólidos (rim, fígado)? Explique a partir do metabolismo miocárdico e as consequências práticas
+na logística de captação.
+
+    MODELO DE RESPOSTA
+
+   O miocárdio tem metabolismo predominantemente aeróbico e baixa reserva de
+   glicogênio. Diferente do fígado, que armazena glicogênio e tolera períodos longos de
+   metabolismo anaeróbico, e do rim, cuja cortical é mais resistente à isquemia, o miócito
+   depende de oxigênio contínuo para manter a hidrólise de ATP necessária à integridade
+   celular. Sem perfusão, as reservas se esgotam em poucas horas, e dano isquêmico
+   irreversível instala-se em 4 a 6 horas. A consequência prática é dura: captação cardíaca
+   exige logística mais ágil que outros órgãos -- frequentemente aérea -- porque cada
+   hora adicional aumenta o risco de disfunção primária do enxerto após o implante.
+
+       65
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Identifique o erro
+
+Identifique o erro de raciocínio no caso abaixo e descreva a conduta correta: "Recém-nascido
+a termo, 3 dias de vida, é levado ao pronto-socorro com cianose central, taquicardia (FC 200),
+saturação periférica de 62% em ar ambiente sem resposta ao oxigênio em alta concentração. O
+plantonista, ao notar que a criança parece taquipneica, interpreta como insuficiência cardíaca por
+congestão pulmonar e indica furosemida endovenosa para `secar o pulmão' e melhorar a oxige
+nação antes de prosseguir com a investigação."
+
+MODELO DE RESPOSTA
+
+Erro: o quadro descrito não é congestão pulmonar por IC. Cianose central refratária a
+oxigênio com saturação de 62% e sem melhora à hiperóxia em recém-nascido sugere
+cardiopatia congênita cianogênica ducto-dependente -- provavelmente TGA, atresia
+pulmonar ou Fallot grave. A furosemida não corrige a hipoxemia e ainda agrava o
+quadro: reduz a volemia que sustenta o shunt fisiológico mantenedor da circulação.
+Conduta correta: iniciar prostaglandina E1 imediatamente em infusão contínua para
+manter o canal arterial aberto (0,01 a 0,05 mcg/kg/min), garantir via aérea (PGE1 causa
+apneia), evitar diuréticos, solicitar ecocardiograma urgente, transferir a um centro com
+cirurgia cardíaca pediátrica de plantão. Tempo é miocárdio nessa situação.
+
+       66
+NEBLI                                     ETAPA 3 -- 5 DISCURSIVAS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 B  Q02 D            Q03 A      Q04 C  Q05 E
+Q06 B  Q07 C            Q08 A      Q12 E  Q13 A
+                                   Q20 D
+INTEGRAÇÃO (Q09­Q16)    Q11 B
+                        Q16 C
+Q09 D  Q10 C
+Q14 D  Q15 B            Q19 C
+
+APLICAÇÃO (Q17­Q20)
+
+Q17 E  Q18 A
+
+                               67
+

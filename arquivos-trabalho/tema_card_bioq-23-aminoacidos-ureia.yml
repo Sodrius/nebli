@@ -1,0 +1,289 @@
+slug: bioq-23-aminoacidos-ureia
+titulo: "Metabolismo de Aminoácidos: Transaminases e Ciclo da Ureia"
+subtitulo: "Bioquímica"
+meta:
+  - ["Disciplina", "Bioquímica (UC02)"]
+  - ["Onde estudar", "Slides da aula de Metabolismo de aminoácidos (UC02, Bioquímica) · Lehninger, Princípios de Bioquímica, cap. Oxidação de aminoácidos e produção de ureia · Marzzoco & Torres, Bioquímica Básica, cap. Metabolismo de aminoácidos · Devlin, Bioquímica com Correlações Clínicas (ureia e amônia)"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — Boards & Beyond / Bootcamp (Biochem › Protein Metabolism › Urea Cycle & Disorders) · Sketchy Biochem (Urea Cycle, Hyperammonemia/OTC, PKU) · Ninja Nerd (Urea Cycle; Amino Acid Metabolism) · Physeo (Metabolism › Ammonia) · UWorld: ganchos clínicos (hiperamonemia, erros inatos) · Pathoma: não cobre (é patologia)",
+      "*Dessuspender no AnKing v12* (decks sob #AK_Step1_v12::) — ordenados por completude; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency — 45 cards (ciclo da ureia + hiperamonemia + OTC)",
+      "*Cobre melhor* · #Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle — 30 cards (falhas do ciclo, CPS-I/OTC)",
+      "*Complementa* · #B&B::04_Biochem::03_Amino_Acids::04_Ammonia — 35 cards (destino da amônia, transaminação)",
+      "*Complementa* · #Physeo::05_Biochem::05_Metabolism::19_Ammonia — 51 cards (manejo da amônia)",
+      "*Complementa* · #Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria — 18 cards (PKU)",
+      "*Mais distante* · #SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU) — 16 cards (erros inatos, PKU)",
+      "*Mais distante* · #FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia — 7 cards (hiperamonemia, quadro-resumo)"]]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Blueprint = ALTO rendimento.
+#   Fio mecanístico único que amarra tudo: cada aminoácido tem DUAS metades com destinos
+#   separados — o NITROGÊNIO (tóxico como amônia → tem de virar ureia atóxica) e o
+#   ESQUELETO DE CARBONO (vira glicose, corpo cetônico ou energia via Krebs). A aula
+#   inteira é a história de como o corpo separa essas duas metades e descarta o
+#   nitrogênio com segurança. Integração natural: transaminação×Krebs (α-cetoglutarato
+#   /oxaloacetato), esqueleto×gliconeogênese, ciclo da ureia×Krebs (biciclo do
+#   aspartato/fumarato), amônia×neurotoxicidade, erros inatos×genética.
+# Blueprint (ALTO): aprofundar com 1-2 frases de mecanismo — CPS-I vs OTC, transaminação
+#   como transferência (não remoção) de N, destino do esqueleto carbônico. Ângulo E2/E3
+#   de Aplicação: hiperamonemia, deficiência de OTC (ligada ao X), encefalopatia
+#   hepática. Gancho clínico invisível: erros inatos do metabolismo. Fonte invisível —
+#   nunca citar "Step 1/residência/USMLE" no PDF.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 16-20 — tema denso, cobrir do turnover à
+#   clínica sem comprimir o essencial).
+# Recorte: 1 slide da aula "Metabolismo de aminoácidos" (62 páginas). O slide é AMPLO —
+#   vai de balanço nitrogenado e digestão até ciclo da ureia e doenças (PKU). Cobrir o
+#   arco todo, com o PESO no núcleo ALTO-rendimento (transaminação/desaminação, amônia,
+#   ciclo da ureia). Estrutura fina/química do aminoácido (pKa, ponto isoelétrico) é do
+#   bioq-04 (UC01) — aqui só retomada em 1 frase quando necessário. Detalhe de vias de
+#   aminoácidos individuais (ex.: Hartnup, alcaptonúria) fica de fora; PKU entra como
+#   erro representativo do lado do esqueleto carbônico.
+#
+# Prioridades desta corrida (Diário de revisões + pedido):
+#   P1. Tema com forte componente ESPACIAL/de cascata (ciclo da ureia = 5 reações;
+#       transaminação; transporte de amônia). Diário biocel-07 (peso alto): NÃO fechar
+#       cadeia multi-passo sem figura. Ciclo da ureia (>=5 reações) = figura OBRIGATÓRIA
+#       → slide-46. 9 figuras planejadas (3 por PARTE), todas do slide do professor.
+#   P2. Sem pergunta-âncora/retórica de abertura (canônico 2026-05-29). Abertura =
+#       afirmação direta + mecanismo.
+#   P3. Prosa fluida, NUNCA rajada de siglas (canônico 2026-05-29). Amônia/glutamato/
+#       α-cetoglutarato/CPS-I/OTC entram dentro de frase com sujeito+verbo+complemento.
+#   P4. E2: ~10 C/E (cada um 4 itens I-IV, gate hard) nas 3 categorias + 3 "assinale a
+#       incorreta"; gabarito sorteado + guarda anti-degeneração; paridade banda dupla
+#       0.80-1.25 Q01-Q30; cada subtópico testado >=2x.
+#   P5. Bloco Onde aprofundar ordenado por completude (canônico 2026-07-01), tags reais
+#       do export v12 via buscar_tags_anking.py.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Os aminoácidos em fluxo constante"
+        subtopicos:
+          - "Por que degradamos e repomos o tempo todo"
+          - "O balanço de nitrogênio: entra menos sai"
+          - "Essenciais, complementares e a desnutrição proteica"
+          - "Digerir de fora e reciclar por dentro"
+          - "O esqueleto de carbono: glicogênicos e cetogênicos"
+      - titulo: "PARTE II — O destino do nitrogênio"
+        subtopicos:
+          - "As duas metades de um aminoácido"
+          - "Transaminação: o glutamato como coletor central"
+          - "As transaminases e a vitamina B6"
+          - "Desaminação: soltar a amônia de verdade"
+          - "A amônia é tóxica: glutamina e alanina como carregadores"
+      - titulo: "PARTE III — O ciclo da ureia e suas falhas"
+        subtopicos:
+          - "Por que um ciclo inteiro só para descartar nitrogênio"
+          - "As cinco reações: da amônia à ureia"
+          - "A conta de ATP e a parceria com o ciclo de Krebs"
+          - "Quando o ciclo falha: hiperamonemia"
+          - "Um erro do outro lado: fenilcetonúria"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Esqueleto das 3 PARTES + figuras planejadas
+# ---------------------------------------------------------------------------
+# PARTE I
+#   1.1 Turnover: síntese e degradação nunca param; proteína que degrada != proteína que
+#       sintetiza; ~400 g/dia degradados, 3/4 reciclados; aminoácidos não têm reserva
+#       dedicada (nem glicogênio nem gordura equivalente).
+#   1.2 Balanço nitrogenado = N ingerido - N excretado (ureia urinária 90%). Positivo
+#       (crescimento, gravidez, recuperação), negativo (desnutrição, trauma, jejum),
+#       zero (adulto saudável). Excesso de proteína NÃO é estocado como proteína — vira
+#       gordura; o N sobra vira ureia.
+#   1.3 Essenciais (9-10: Phe, Val, Thr, Trp, Ile, Met, His, Leu, Lys + Arg condicional)
+#       vs não-essenciais (11 sintetizados). Efeito complementar (combinar proteínas de
+#       deficiências diferentes); risco em dieta vegetariana. Kwashiorkor (deficiência
+#       proteica → edema por baixa albumina) vs Marasmo (deficiência calórica global).
+#       [fig slide-15 mapa de integração aa->Krebs — usar aqui como abertura do destino, 70%]
+#   1.4 Digestão da dieta: endopeptidases (pepsina/tripsina/quimotripsina/elastase) cortam
+#       ligações internas com especificidade; exopeptidases (carboxipeptidase A/B = C-term;
+#       aminopeptidase = N-term) aparam as pontas; enzimas secretadas como ZIMOGÊNIOS
+#       inativos (estômago/pâncreas/intestino) p/ não se autodigerirem. Degradação
+#       endógena: catepsinas (lisossomo, inespecífico/extracelular) + ubiquitina-
+#       proteassomo (citosólico, marcado, ATP-dependente, seletivo). Meia-vida variável
+#       (ornitina descarboxilase min; hemoglobina 120 d). [fig slide-25 enzimas digestivas 55%; fig slide-32 proteassomo->aa->N/C 55%]
+#   1.5 Destino do esqueleto de C: glicogênicos (viram piruvato/intermediário de Krebs ->
+#       gliconeogênese: Ala, Gly, Ser, Cys, Glu, Asp...) vs cetogênicos (viram
+#       acetil-CoA/acetoacetato -> corpos cetônicos, NÃO fazem glicose: Leu, Lys; alguns
+#       mistos: Phe, Ile, Trp). Período absortivo (síntese) vs jejum (mobilização
+#       tecidual, esqueleto p/ energia/glicose). [reaproveita slide-15]
+# PARTE II
+#   2.1 Duas metades: grupo alfa-amino (o nitrogênio) + esqueleto carbônico. O funil:
+#       oxidar aminoácido = separar N (-> amônia -> ureia) do esqueleto (-> CO2+H2O,
+#       glicose, corpos cetônicos). 20 aminoácidos convergem para poucas rotas.
+#       [fig slide-17 funil de oxidação — abertura da PARTE, 60%]
+#   2.2 Transaminação: o grupo amino da maioria é COLETADO no glutamato. Aminoácido +
+#       alfa-cetoglutarato <-> alfa-cetoácido + glutamato. Ponto-chave: transaminação
+#       TRANSFERE o N, não o REMOVE do corpo — concentra o N de muitos aminoácidos numa
+#       molécula (glutamato) p/ processar depois. Reversível.
+#   2.3 Transaminases (aminotransferases): citosol e mitocôndria; coenzima piridoxal-
+#       fosfato (PLP, derivada de B6) carrega o grupo amino entre substratos. AST
+#       (glutamato+oxaloacetato <-> aspartato+alfa-cetoglutarato) e ALT (marcadores
+#       hepáticos). [fig slide-39 transaminação + desaminação (AST + glutamato DH), 65%]
+#   2.4 Desaminação (fígado): glutamato desidrogenase libera NH4+ do glutamato,
+#       regenerando alfa-cetoglutarato e usando NAD(P)+. É AQUI que o N deixa o esqueleto
+#       de verdade, virando amônia livre. Glutamato -> aspartato (por AST) OU amônia —
+#       ambos são precursores da ureia. [reaproveita slide-39]
+#   2.5 Amônia é neurotóxica -> não viaja livre no sangue. Transporte atóxico: glutamina
+#       (glutamina sintetase fixa NH4+ no glutamato; glutaminase o libera no fígado/rim)
+#       e alanina (ciclo glicose-alanina do músculo). Astrócitos cerebrais fixam amônia
+#       em glutamina (defesa do SNC). [fig slide-42 glutamina/alanina transporte, 60%]
+# PARTE III
+#   3.1 Por que ciclo: amônia é tóxica (SNC), tem de ser convertida em ureia (atóxica,
+#       hidrossolúvel, excretada na urina). Só o fígado tem o ciclo completo. 2 N por
+#       ureia: um da amônia (via CPS-I), outro do aspartato.
+#   3.2 Cinco reações: (1) CPS-I: NH4+ + HCO3- + 2 ATP -> carbamoil-fosfato (mitocôndria;
+#       enzima reguladora, ativada por N-acetilglutamato); (2) OTC: carbamoil-P + ornitina
+#       -> citrulina (mitocôndria); citrulina sai p/ citosol; (3) argininossuccinato
+#       sintetase: citrulina + aspartato + ATP -> argininossuccinato (2º N entra aqui);
+#       (4) argininossuccinato liase -> arginina + FUMARATO; (5) arginase -> ureia +
+#       ornitina (recomeça). Mitocôndria (1-2) + citosol (3-5). [fig slide-46 ciclo completo — CADEIA >=5 REAÇÕES = OBRIGATÓRIA, 75%]
+#   3.3 Conta de ATP: gasta 4 ligações de alta energia (2 ATP no CPS-I + 1 ATP -> AMP+PPi
+#       na argininossuccinato sintetase = 2 equivalentes). MAS o fumarato do passo 4
+#       entra no Krebs -> malato -> oxaloacetato, gerando NADH (~2,5 ATP) e regenerando
+#       aspartato: o "biciclo" ureia<->Krebs recupera parte do custo. Não é grátis, mas
+#       não é tão caro quanto parece. [fig slide-48 regeneração de 3 ATP / biciclo, 60%]
+#   3.4 Hiperamonemia: qualquer bloqueio do ciclo acumula amônia. CPS-I e OTC são os mais
+#       comuns; OTC é LIGADA AO X (não autossômica recessiva como quase todos os outros
+#       erros inatos). Amônia sobe -> encefalopatia (edema astrocitário por glutamina,
+#       tremor, letargia, coma). Encefalopatia hepática: fígado cirrótico não depura amônia.
+#       Tratamento conceptual: restringir proteína, desviar N (benzoato/fenilbutirato).
+#   3.5 Fenilcetonúria (PKU): erro do ESQUELETO carbônico, não do N. Deficiência de
+#       fenilalanina hidroxilase -> fenilalanina não vira tirosina -> acúmulo de Phe e
+#       desvio p/ fenilpiruvato/fenillactato; Phe cruza a barreira hematoencefálica e
+#       causa retardo mental; autossômica recessiva; triagem neonatal; dieta pobre em Phe.
+#       Fecha o arco: mostra os dois lados (N e C) do metabolismo de aminoácidos falhando.
+#       [fig slide-55 via da fenilalanina/PKU, 55%]
+#
+# Figuras planejadas (>=3 por PARTE): I=3 (slide-15, slide-25, slide-32) · II=3 (slide-17,
+#   slide-39, slide-42) · III=3 (slide-46, slide-48, slide-55). Total 9. slide-47 (Krebs
+#   puro) e slide-36 (só AST, redundante com 39) DESCARTADOS pelo filtro de utilidade.
+#   Relatório auditável no fechamento.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 enquadramento | 1.2 integração-posterior | 1.3 analogia concreta | 1.4 integração-anterior | 1.5 ponto-de-quebra
+# 2.1 enquadramento | 2.2 integração-anterior | 2.3 analogia concreta | 2.4 ponto-de-quebra | 2.5 integração-posterior
+# 3.1 enquadramento | 3.2 integração-anterior | 3.3 analogia concreta | 3.4 ponto-de-quebra | 3.5 integração-posterior
+# Nenhum par vizinho compartilha registro.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# - ciclo de Krebs: "sequência de reações na mitocôndria que oxida o acetil-CoA a CO2 e
+#     entrega elétrons (NADH/FADH2) à cadeia respiratória; alfa-cetoglutarato, oxaloacetato,
+#     fumarato e malato são intermediários dele"
+# - gliconeogênese: "fabricação de glicose nova a partir de precursores não-glicídicos
+#     (piruvato, lactato, esqueletos de aminoácidos) quando falta glicose na dieta"
+# - coenzima: "molécula auxiliar que a enzima precisa para funcionar; aqui, o piridoxal-
+#     fosfato (derivado da vitamina B6) carrega o grupo amino de um substrato a outro"
+# - autossômico recessivo vs ligado ao X: "recessivo autossômico precisa das duas cópias
+#     do gene com defeito; ligado ao X está no cromossomo X e afeta mais os homens, que
+#     têm um X só"
+# - barreira hematoencefálica: "filtro que separa o sangue do tecido do cérebro e controla
+#     o que entra; algumas moléculas pequenas, como a fenilalanina em excesso, atravessam"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# turnover proteico · zimogênio · proteassomo · ubiquitina · aminoácido glicogênico ·
+# aminoácido cetogênico · transaminação · piridoxal-fosfato · desaminação · glutamato
+# desidrogenase · glutaminase · carbamoil-fosfato sintetase I · ornitina transcarbamilase ·
+# hiperamonemia · fenilcetonúria · efeito complementar
+# Siglas (#sigla na 1a): ATP · ADP · AMP · PPi · NADH · NAD+ · NADPH · AST · ALT · PLP ·
+# CPS-I · OTC · PKU · GABA · NH3/NH4+ · CO2 · SNC · Pi
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ---------------------------------------------------------------------------
+# - Quebra: achar que a transaminação REMOVE o nitrogênio do corpo.
+#   Correção: a transaminação apenas TRANSFERE o grupo amino para o alfa-cetoglutarato,
+#     concentrando o N no glutamato; quem realmente solta o N (como amônia) é a
+#     DESAMINAÇÃO pela glutamato desidrogenase. (livro-texto)
+# - Quebra: confundir CPS-I com CPS-II.
+#   Correção: CPS-I usa AMÔNIA livre, fica na mitocôndria e abre o ciclo da ureia; CPS-II
+#     usa o nitrogênio da GLUTAMINA, fica no citosol e serve à síntese de pirimidinas —
+#     enzimas diferentes com o mesmo apelido. (livro-texto)
+# - Quebra: tratar aminoácido cetogênico como se pudesse virar glicose.
+#   Correção: cetogênico entra como acetil-CoA/acetoacetato, e acetil-CoA NÃO reverte a
+#     piruvato — logo não alimenta a gliconeogênese; só o esqueleto glicogênico (piruvato/
+#     intermediário de Krebs) vira glicose. (livro-texto)
+# - Quebra: dizer que o ciclo da ureia "gasta 4 ATP e pronto".
+#   Correção: gasta 4 ligações de alta energia, mas o fumarato do passo 4 entra no ciclo
+#     de Krebs e gera NADH, recuperando parte do custo — o biciclo ureia/Krebs amortiza a
+#     conta. (slide-48)
+# - Quebra: supor que a amônia viaja livre no sangue até o fígado.
+#   Correção: amônia livre é neurotóxica; ela viaja de forma atóxica presa como glutamina
+#     (glutamina sintetase) e alanina, e só é liberada no fígado/rim pela glutaminase. (armadilha clínica)
+# - Quebra: assumir que todo erro inato do metabolismo de aminoácidos é autossômico recessivo.
+#   Correção: a deficiência de OTC é LIGADA AO X — afeta mais meninos e não segue o padrão
+#     recessivo autossômico da maioria (PKU, por exemplo, é recessiva autossômica). (armadilha clínica)
+# - Quebra: achar que endopeptidase e exopeptidase cortam a proteína do mesmo jeito.
+#   Correção: endopeptidase (pepsina, tripsina) quebra ligações INTERNAS gerando peptídeos
+#     menores; exopeptidase apara das PONTAS (carboxipeptidase = C-terminal, aminopeptidase
+#     = N-terminal), liberando aminoácidos avulsos. (livro-texto)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo, universal) → fio "duas metades do aminoácido:
+#   nitrogênio tóxico vs esqueleto de carbono" costura as 3 PARTES.
+# Cat 7 (analogia construtiva, parcimônia) → glutamato como "estação coletora" do
+#   nitrogênio; ciclo da ureia como "estação de tratamento" que embala o tóxico; zimogênio
+#   como "arma travada" que só se ativa no lugar certo. 1 por subtópico onde couber.
+# Cat 12 (cálculo bem explicado) → conta de ATP do ciclo da ureia em etapas rotuladas
+#   (4 gastos vs recuperação via fumarato/Krebs), modelo Mankiw; ler o número final em
+#   palavras.
+# Cat 16/18 (catálogo com traço definidor = tabela) → essenciais×não-essenciais;
+#   endopeptidase×exopeptidase; glicogênico×cetogênico; CPS-I×CPS-II. Resto = prosa.
+# Cat 9 (clinica-box, cadeia 4-6 linhas) → hiperamonemia/encefalopatia e PKU. 1-2 por
+#   PARTE, reservados p/ a cadeia clínica que precisa de fôlego.
+# Cat 8 (atencao-box, parcimônia 1-2/PARTE) → inversões com peso: transaminação transfere
+#   (não remove); amônia livre é o tóxico; OTC ligada ao X. Resto vira confusao-prevista
+#   (gold) ou prosa dialogada.
+# Cat 11/13 (QUESTIONADOR) → distratoras mecanísticas do Mapa de Confusões; texto motivador
+#   clínico nas Aplicações (hiperamonemia, PKU neonatal).
+
+# ---------------------------------------------------------------------------
+# GABARITO — sorteado (guarda anti-degeneração aplicada)
+# MC (A-E): 20 questões, 4 por letra (nenhuma >40%, sem corrida 4+).
+# C/E (I-IV, 4 itens): 10 questões — Q03,Q06,Q09 (Cons) · Q12,Q14,Q17,Q20,Q23 (Int) ·
+#   Q27,Q30 (Apl). "Assinale a incorreta" (MC): Q08, Q19, Q25.
+# ---------------------------------------------------------------------------
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CECC"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "ECCE"]
+    - ["07", "E"]
+    - ["08", "C"]
+    - ["09", "CCEC"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "D"]
+    - ["12", "CEEC"]
+    - ["13", "B"]
+    - ["14", "EECC"]
+    - ["15", "E"]
+    - ["16", "A"]
+    - ["17", "CEEC"]
+    - ["18", "C"]
+    - ["19", "D"]
+    - ["20", "CCEE"]
+    - ["21", "B"]
+    - ["22", "E"]
+    - ["23", "ECCE"]
+    - ["24", "A"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "CECC"]
+    - ["28", "D"]
+    - ["29", "E"]
+    - ["30", "EECE"]

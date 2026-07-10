@@ -1,0 +1,72 @@
+
+===== 02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation =====
+  [1] F: Oxygenated blood flows from the lungs to the [ left atrium ] of the heart via the [ pulmonary veins ]
+  [2] F: Blood flows from the left ventricle to the [aorta] through the [aortic] valve
+  [3] F: Deoxygenated blood flows from the vena cava to the [right atrium]
+  [4] F: Blood flows from the right atrium to the right ventricle through the [ tricuspid] valve
+  [5] F: Blood flows from the pulmonary artery to the [ lungs ] for oxygenation
+  [6] F: The most posterior part of the heart is the [left atrium]
+      V: - Thus, left atrium dilation is most likely to compress structures posterior to the heart (e.g., left recurrent laryngea
+  [7] F: The [right ventricle] composes the majority of the anterior surface of the heart
+      V: - Thus in a penetrating trauma at the lower left sternal border, the right ventricle would be hit (pleura would be injur
+
+===== 02_Thorax::02_Heart::02_Coronary_Circulation =====
+  [8] F: The SA node is commonly supplied by the [ right coronary ] artery The AV node is commonly supplied by the [ dominant (right) coronary ] artery
+      V: Supply of AV node: - Left dominant (5-10%) = left circumflex artery - Right dominant (70-80%) = right coronary artery - 
+  [9] F: The posterior descending artery (PDA) most commonly arises from the [right coronary] artery (85%)
+  [10] F: When the [ posterior descending artery (PDA)] arises from the [ right coronary ] artery , it is referred to as right-dominant circulation (85%)
+      V: - The PDA supplies the inferior surface of the left ventricle - When MIs are shown to affect the inferior wall of the he
+  [11] F: When the [ posterior descending artery (PDA)] arises from the [ left circumflex ] artery , it is referred to as left-dominant circulation (8%)
+      V: - The PDA supplies the inferior surface of the left ventricle - When MIs are shown to affect the inferior wall of the he
+  [12] F: When the [ posterior descending artery (PDA)] arises from both the right coronary artery and left circumflex artery , it is referred to as [ codominant ] circulation (7%)
+  [13] F: Which artery supplies the posterior third of the interventricular septum ? [Posterior descending artery (PDA)]
+  [14] F: Which artery supplies the anterior two-thirds of the interventricular septum ? [Left anterior descending artery (LAD)]
+      V: AKA anterior interventricular artery [img] Photo credit: OpenStax , CC BY 4.0
+  [15] F: Which arteries supply the anterolateral papillary muscle ? [LCX, LAD]
+  [16] F: Most of the venous drainage from the myocardium traverses the [ coronary sinus (CS) ], which delivers deoxygenated blood to the right atrium
+      V: This runs transversely in the left atrioventricular groove on the posterior aspect of the heart; opens into right atrium
+
+===== 02_Thorax::03_Vasculature::01_Thoracic_Aorta_&_Branches =====
+  [17] F: The remnant of the ductus arteriosus is the [ ligamentum arteriosum ], which connects the aorta and pulmonary artery
+  [18] F: The common carotid artery bifurcates at the level of [C4]
+
+===== 02_Thorax::03_Vasculature::02_Superior_Vena_Cava =====
+  [19] F: One complication associated with lung cancer is [superior vena cava] syndrome due to compression of the [superior vena cava (SVC)]
+      V: - Most commonly due to mediastinal masses (thymoma / mediastinal lymphadenopathy), less commonly due to right upper lobe
+  [20] F: Superior vena cava (SVC) syndrome is characterized by impaired drainage of the upper extremities , resulting in [edema] and dilated collateral veins in the [upper torso]
+      V: - Blood is trapped in venous circulation leaving less blood to go through pulmonary circulation → shortness of breath - 
+  [21] F: Superior vena cava (SVC) syndrome is characterized by impaired drainage of the head & neck , resulting in [facial plethora] and [jugular venous distension]
+      V: - Fluid build-up in the head is dangerous because it can lead to cerebral edema → ischemia → Cushing reflex - Fluid buil
+  [22] F: [ Lymphatic ] pleural effusion occurs due to [ thoracic duct ] injury from trauma or malignancy
+      V: It may also occur due to the obstruction of the thoracic duct [img] [img] Photo credit: OpenStax , CC BY 4.0 ; James Hei
+  [23] F: The [ right lymphatic ] duct drains lymph from the right side of the body above the diaphragm
+  [24] F: The [ thoracic ] duct drains most lymph into the junction of the [ left subclavian ] and [ left internal jugular veins ]
+      V: Rupture of this can cause chylothorax (e.g., due to surgical trauma during open heart surgery) [img] Photo credit: OpenS
+
+===== 04_Abdomen::03_Vasculature::01_Abdominal_Aorta_&_Branches =====
+  [25] F: What vertebral level does the celiac artery branch off the aorta? [T12/L1]
+  [26] F: What vertebral level does the superior mesenteric artery branch off the aorta? [L1]
+      V: 1st place is superior [img]
+  [27] F: What vertebral level does the inferior mesenteric artery branch off the aorta? [L3]
+      V: Inferior "three"-senteric [img]
+  [28] F: Which artery supplies the regions of the foregut ? [Celiac trunk]
+  [29] F: Which artery supplies the regions of the midgut ? [Superior mesenteric artery]
+  [30] F: Which artery supplies the regions of the hindgut ? [Inferior mesenteric artery]
+  [31] F: What vertebral level does the renal artery branch off the aorta? [L1/L2]
+      V: Just inferior to the superior mesenteric artery [img]
+  [32] F: What vertebral level does the gonadal artery branch off the aorta? [L1/L2]
+      V: Just inferior to the renal artery [img]
+  [33] F: What vertebral level does the aorta bifurcate into the left and right common iliac arteries ? [L4]
+      V: bi- FOUR -cation [img]
+  [34] F: The inferior phrenic artery branches off the [aorta] at [T12]
+      V: Gives off the superior suprarenal artery [img]
+  [35] F: Superior suprarenal artery branches off the [ inferior phrenic artery ] Middle suprarenal artery branches off the [ aorta ] Inferior suprarenal artery branches off the [ renal artery ]
+      V: Suprarenal = adrenal; middle suprarenal comes off at T12/L1 [img]
+  [36] F: The [ aorta ], [ thoracic duct ], and [ azygos vein ] perforate the diaphragm at the level of [ T12 ]
+      V: - At T-1-2, its the red (aorta), white (thoracic duct), and blue (azygos vein) - " I (IVC) ate (8) ten (10) eggs (esopha
+
+===== 07_Cardiovascular::02_Anatomy::01_Heart_anatomy =====
+  [37] F: Coronary blood flow peaks in early [diastole]
+      V: - Thus the duration of diastole is the major limiting factor for coronary blood supply to myocardium; increased HR will 
+
+TOTAL: 37

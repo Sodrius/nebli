@@ -1,0 +1,106 @@
+slug: bioq-glicogenio
+titulo: "Metabolismo do glicogênio"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Bioquímica (UC01)"]
+  - ["Onde estudar", "Slides da Profa. MHG · Lehninger cap. 15 (síntese e degradação de glicogênio) · Devlin cap. 14"]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Tema integrativo de fim de P2/P3:
+#   amarra glicólise, gliconeogênese, sinalização (PKA/cAMP) e clínica (glicogenoses).
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 14-18).
+# Recorte: o slide cobre estrutura, as duas vias, regulação alostérica/covalente/hormonal
+#   e doenças de depósito. Tema pedido = exatamente isso. Sem recorte a declarar.
+#
+# Prioridades desta corrida (foco do Davi = aplicar os "pequenos ajustes" de 2026-06-24):
+#   P1. Escrita matemática em ETAPAS ROTULADAS no custo de 2 ATP/glicose (anti-padrão A1).
+#   P2. Abrir cada camada regulatória pelo PROBLEMA que ela resolve (anti-padrões A2/A3).
+#   P3. Resumindo enxuto: 6-10 seções, ~30-45 palavras de frase encadeada (item 36).
+#   P4. Nomes de subtópico diretos, não-poéticos (item 35).
+#   P5. Quebrar a prosa SÓ nas glicogenoses (tabela = gatilho 1/3 da Categoria 18); resto prosa.
+#   P6. E2: ~10 C/E nas 3 categorias + 3 "assinale a incorreta" + 2 questões de cálculo;
+#       gabarito sorteado de verdade + guarda anti-degeneração; paridade banda dupla Q01-Q30.
+#   P7. Diário de revisões (biocel-07): tema espacial/cadeia → figura obrigatória mesmo sem
+#       ser slide perfeito. Aqui há slides ricos (estrutura, vias, cascata) — usar.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Por que o corpo guarda glicose em forma de glicogênio"
+        subtopicos:
+          - "1.1 O problema osmótico que a polimerização resolve"
+          - "1.2 A árvore ramificada e suas duas pontas"
+          - "1.3 Fígado guarda para o sangue, músculo guarda para si"
+      - titulo: "PARTE II — As duas vias: desmontar e remontar a árvore"
+        subtopicos:
+          - "2.1 Glicogenólise: fosforólise em vez de hidrólise"
+          - "2.2 A enzima desramificadora e o destino da glicose-6-fosfato"
+          - "2.3 Glicogênese: a glicose ativada como UDP-glicose"
+          - "2.4 O custo de 2 ATP por glicose incorporada"
+      - titulo: "PARTE III — A regulação que liga uma via e desliga a outra"
+        subtopicos:
+          - "3.1 Controle alostérico: o músculo lê AMP, o fígado lê glicose"
+          - "3.2 A cascata do glucagon: cAMP, PKA e a amplificação do sinal"
+          - "3.3 Um fosfato, efeitos opostos: fosforilase liga, sintase desliga"
+          - "3.4 Quando a via falha: as doenças de depósito de glicogênio"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 ponto-de-quebra (a glicose livre seria um problema) | 1.2 enquadramento |
+# 1.3 integração-posterior (prepara a regulação tecidual) |
+# 2.1 ponto-de-quebra (hidrolisar custaria caro) | 2.2 enquadramento |
+# 2.3 integração-anterior (retoma a glicose-1-fosfato) | 2.4 analogia concreta |
+# 3.1 enquadramento | 3.2 ponto-de-quebra (alosteria sozinha é lenta) |
+# 3.3 integração-anterior | 3.4 integração-posterior (clínica fecha o ciclo)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# glicogenina · fosforólise · UDP-glicose · enzima desramificadora · glicogenina-primer
+# fosforilase quinase · proteína fosfatase 1 (PP1) · glicogenose
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo) e Cat 8/14 (universais).
+# Cat 12 + Cat 18 "cálculo em etapas" → custo de 2 ATP (P1). Cat 9 (clinica-box) → Von Gierke/McArdle.
+# Cat 16 (catálogo de família) + Cat 18 gatilho 1/3 (tabela) → glicogenoses. Cat 7 (analogia) → árvore/UDP-carregador.
+# ANTI-EXEMPLARES A1 (matemática feia), A2/A3 (camada sem o porquê), A4 (rajada de siglas) → vigiar.
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "CECC"]
+    - ["03", "A"]
+    - ["04", "E"]
+    - ["05", "ECCE"]
+    - ["06", "D"]
+    - ["07", "B"]
+    - ["08", "CEEC"]
+    - ["09", "C"]
+    - ["10", "ECCE"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "CEEC"]
+    - ["13", "C"]
+    - ["14", "E"]
+    - ["15", "ECCE"]
+    - ["16", "B"]
+    - ["17", "A"]
+    - ["18", "CEEC"]
+    - ["19", "E"]
+    - ["20", "C"]
+    - ["21", "A"]
+    - ["22", "EECC"]
+    - ["23", "D"]
+    - ["24", "CEEC"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "C"]
+    - ["28", "ECCE"]
+    - ["29", "D"]
+    - ["30", "B"]

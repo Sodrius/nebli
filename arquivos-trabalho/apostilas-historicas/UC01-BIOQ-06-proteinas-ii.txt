@@ -1,0 +1,1213 @@
+NEBLI · APOSTILA
+
+Proteínas II
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. As patologias só fazem sentido depois
+Onde estudar:  de entender o dobramento normal -- não pule a PARTE II. O fio condutor
+               é um só: aminoácidos hidrofóbicos que se encontram, certos ou errados,
+               decidem tudo.
+
+               Lehninger 8ª ed, Cap. 4 (Estrutura tridimensional das proteínas) e Cap.
+               5 (apenas a parte sobre hemoglobina falciforme). Alberts 7ª ed, Cap.
+               3 (proteínas, chaperonas, doenças por agregação). Stryer 9ª ed, Cap. 2
+               (figuras de colágeno e queratina).
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Quando a regra muda: membrana e fibras
+       1.1 Proteínas de membrana: a hidrofobicidade decide o destino
+       1.2 Queratina e o coiled coil
+       1.3 Colágeno: tripla-hélice de Gly-Pro-Hyp
+       1.4 Escorbuto: por que falta de vitamina C derruba o colágeno
+  PARTE II -- Como dobra (e por que falha)
+       2.1 Desnaturação: o que muda quando a 3ª se desfaz
+       2.2 Agregação: o que torna a desnaturação irreversível
+       2.3 Paradoxo de Levinthal e o caminho do molten globule
+       2.4 Chaperonas: as parceiras do dobramento
+  PARTE III -- Quando o dobramento falha: as doenças
+       3.1 Anemia falciforme: uma troca de aminoácido faz agregar
+       3.2 Príons: a conformação patológica que se replica
+       3.3 Amiloide e neurodegenerações
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    No resumo de Proteínas I, a história parou num lugar específico: a sequência primária dita o
+    enovelamento, e o enovelamento dita a função. A regra parecia firme. O problema é que ela é
+    demais limpa para a célula real. Há proteínas que precisam viver dentro de uma bicamada lipídica
+    -- um ambiente que faria a maioria das outras enovelar errado em segundos. Há proteínas estru
+    turais como o colágeno que adotam hélices que não são alfa-hélices. Há proteínas que dobram,
+    desdobram, redobram -- e proteínas que dobram errado, agregam, e produzem doenças que ainda
+    não sabemos tratar.
+    Este resumo cobre tudo isso. A PARTE I mostra dois ambientes onde a regra "hidrofóbico para
+    dentro, polar para fora" precisa ser revista: a membrana e as proteínas fibrilares. A PARTE II abre
+    a caixa-preta do enovelamento: como uma proteína linear encontra a forma certa entre as 10
+    possíveis, e quem ajuda quando ela perde o caminho. A PARTE III mostra o que acontece quando
+    o enovelamento falha -- anemia falciforme, doença da vaca louca, Alzheimer, Parkinson. As três
+    partes não são três temas separados: são o mesmo tema visto sob três pressões diferentes.
+
+PARTE I -- Quando a regra muda: membrana e fibras
+
+1.1 -- Proteínas de membrana: a hidrofobicidade decide o destino
+A primeira coisa a entender sobre proteínas de membrana é que elas vivem dentro de um
+problema. A bicamada lipídica tem um interior gorduroso -- cadeias de hidrocarboneto da
+cauda dos fosfolipídeos -- e dois "lados" aquosos. Uma proteína globular comum, daquelas
+do citosol, simplesmente não funcionaria ali. Seus aminoácidos polares ficariam expostos ao
+óleo, seus apolares ficariam expostos à água. Em poucos segundos, a estrutura colapsa.
+
+   A solução evolutiva foi inverter a regra que aprendemos no resumo anterior. Em proteínas
+globulares, hidrofóbicos vão para dentro, polares para fora. Em proteínas de membrana, de
+pende do segmento. Os segmentos que atravessam a bicamada têm aminoácidos hidrofóbicos1
+na superfície que toca os lipídeos. Os segmentos que ficam expostos ao citosol ou ao meio
+extracelular têm o padrão habitual de proteína solúvel.
+
+1hidrofóbicos ­ aminoácidos com cadeia lateral apolar -- Ala, Val, Leu, Ile, Met, Phe -- que evitam contato com água
+                                                                              3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A glicoforina2 é o exemplo mais simples. Ela atravessa
+a membrana do eritrócito uma única vez. O segmento
+transmembrana é uma alfa-hélice curta, com uns 20
+aminoácidos, e quase todos eles são hidrofóbicos. As
+pontas que sobram -- uma para fora da célula, outra
+para dentro -- têm a química mista de uma proteína
+solúvel. A glicoforina não forma poro, é só uma "ân
+cora" com função sinalizadora.
+
+                                                                                                   Glicoforina -- um único segmento hidrofóbico
+                                                                                                   atravessando a bicamada.
+
+A aquaporina3 é o caso oposto e ilumina a regra inversa. Ela atravessa a membrana várias vezes
+e forma um poro para a passagem de água. Olhe a figura do slide 4 com calma: na superfície
+externa dos hélices transmembrana -- a parte que toca os lipídeos -- há quase só resíduos
+hidrofóbicos. Mas no interior do poro, onde a água passa, há resíduos polares revestindo o
+canal. A célula construiu, com o mesmo conjunto de aminoácidos, dois ambientes opostos lado
+a lado: lipídico fora, aquoso dentro.
+
+Note a distribuição: cinza apolar para fora (contato com lipídeo), polar para dentro (revestimento do canal). É a regra
+da hidrofobicidade aplicada com cirurgia.
+
+   Resumindo até aqui: Em proteínas de membrana, a sequência primária não codifica só a forma --
+   codifica também o local. Onde a sequência fica hidrofóbica por 20 aminoácidos seguidos, ali é uma
+   travessia da bicamada.
+
+   2glicoforina ­ proteína integral abundante na membrana do eritrócito; tem 1 segmento transmembrana com sequência
+hidrofóbica
+
+   3aquaporina ­ proteína integral que forma poro seletivo para água; usa múltiplos segmentos transmembrana orien
+tando aminoácidos polares para o interior
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 1 -- Proteína globular esconde hidrofóbico, expõe polar. Proteína de membrana faz as
+duas coisas ao mesmo tempo em regiões diferentes da própria molécula. A "regra do dobramento"
+não muda -- só foi aplicada num ambiente bilateral.
+
+1.2 -- Queratina e o coiled coil: hélices que se trançam
+A queratina é a proteína que dá forma a cabelo, unha e camada córnea da pele. Estruturalmente
+ela é simples e instrutiva: duas alfa-hélices se enrolam uma na outra, como dois fios de cabo de
+aço, formando uma super-hélice chamada coiled coil4. Por que duas hélices se enrolam? Porque
+cada hélice individual tem aminoácidos hidrofóbicos colocados a cada 3­4 resíduos. Em uma
+alfa-hélice isolada, esses aminoácidos ficariam expostos a água, o que é energeticamente caro.
+Quando duas hélices se aproximam e suas faces hidrofóbicas se alinham, o problema se resolve
+-- as faces apolares se encontram, ficam protegidas da água, e o resultado é uma estrutura
+muito mais estável.
+
+Coiled coil -- as duas alfa-hélices se torcem uma sobre a outra, escondendo suas faces hidrofóbicas no contato mútuo.
+
+A consequência é mecânica. O coiled coil resiste a tração no eixo longo da fibra. Puxe um fio de
+cabelo: a força tenta separar as hélices, mas as interações hidrofóbicas internas resistem. Daí
+a queratina ser perfeita para estruturas que precisam aguentar puxão.
+
+1.3 -- Colágeno: tripla-hélice de Gly-Pro-Hyp
+O colágeno é uma proteína estrutural diferente -- e a diferença começa pela sequência. Cada
+cadeia de colágeno tem uma sequência repetitiva: Gly-X-Y, onde X é frequentemente prolina e
+Y é frequentemente 4-hidroxiprolina5 (abreviada Hyp). A glicina aparece a cada três resíduos,
+sem exceção. Por que essa rigidez? Porque três cadeias polipeptídicas vão se enrolar em uma
+
+   4coiled coil ­ super-hélice formada por duas ou mais alfa-hélices que se enrolam mutuamente; estabilizada por
+aminoácidos hidrofóbicos a cada 3­4 resíduos
+
+   54-hidroxiprolina ­ resíduo de Hyp, prolina hidroxilada no carbono 4 -- modificação pós-traducional dependente de
+vitamina C
+
+                                                                                 5
+NEBLI                                                ETAPA 1 -- TEXTO DIDÁTICO
+
+tripla-hélice extremamente apertada, e na posição central da hélice só cabe o aminoácido
+mais minúsculo de todos -- a glicina, que tem só um H como cadeia lateral. Qualquer outro
+aminoácido na posição da Gly estoura o espaço, e a tripla-hélice não se forma.
+
+Outra coisa importante: a hélice do colágeno não é
+a alfa-hélice. Ela é mais alongada e não tem pontes
+de hidrogênio dentro de uma única cadeia. As
+pontes de hidrogênio que estabilizam o colágeno
+se formam entre as três cadeias, e dependem forte
+mente do grupo OH da hidroxiprolina. Sem Hyp,
+as pontes de hidrogênio interfilamentares ficam
+fracas, e a tripla-hélice se desfaz.
+
+                                                     Tripla-hélice: três cadeias Gly-Pro-Hyp se enrolam;
+                                                     Gly cabe no centro.
+
+Não confunda hélice de colágeno com alfa-hélice
+
+Aluno olha "hélice" e assume que é a alfa-hélice padrão. São coisas diferentes. A alfa-hélice tem
+3,6 resíduos por volta, é apertada e tem pontes H dentro da própria cadeia. A hélice do colágeno é
+mais estendida, tem 3 resíduos por volta, e suas pontes H são entre as três cadeias da tripla-hélice.
+O colágeno só forma a tripla-hélice porque cada cadeia individual não consegue fazer alfa-hélice
+(a Pro a cada 3 resíduos impede a alfa-hélice padrão).
+
+1.4 -- Escorbuto: por que falta de vitamina C derruba o colágeno
+Aqui a química bate na clínica de maneira direta. A hidroxilação da prolina não acontece
+sozinha. Ela depende de uma enzima chamada prolil-hidroxilase6, que precisa de vitamina C
+(ácido ascórbico) como cofator para manter um íon Fe² no seu sítio ativo no estado reduzido.
+Sem vitamina C, o Fe oxida, a enzima não funciona, a hidroxilação não acontece, e as cadeias
+de colágeno saem da célula sem Hyp.
+
+   E aí o caminho para o sintoma é mecanístico: cadeias sem Hyp não formam pontes de
+hidrogênio entre cadeias com a força adequada, a tripla-hélice fica instável, o colágeno secre
+tado é fraco. Como o colágeno sustenta tudo que precisa de resistência mecânica no corpo --
+pele, vasos sanguíneos, gengivas, ossos -- a consequência é generalizada.
+
+   6prolil-hidroxilase ­ enzima que insere um grupo OH no C4 da prolina durante a maturação do colágeno; depende de
+vitamina C como cofator redutor
+
+                                                                                 6
+NEBLI                                                          ETAPA 1 -- TEXTO DIDÁTICO
+
+Escorbuto
+
+Doença clássica dos marinheiros antes da descoberta de que limões previnem. Os sintomas
+refletem o colágeno enfraquecido: hemorragias gengivais (vasos da gengiva sangram porque a
+parede vascular perde colágeno), dentes que caem, feridas que não cicatrizam (cicatriz é colágeno
+novo), fadiga. A descoberta de que o agente é a vitamina C levou à compreensão de seu papel
+enzimático na prolil-hidroxilase.
+
+                                       MAPA CONCEITUAL
+
+                                                     I
+
+                       Sequência decide destino e mecânica
+
+                                       
+
+1.1 ­ Membrana         outro ambiente  1.2-3 ­ Fibrosas        química vira clínica  1.4 ­ Escorbuto
+
+Hidrofóbico fora,                      Queratina trança;                             Sem vitamina C, Hyp
+polar dentro do poro.                  colágeno tripla-hélice                        não forma; colágeno
+                                       Gly-Pro-Hyp.                                  fraco.
+
+     Em todos os casos, a regra é a mesma: aminoácidos certos na posição certa. PARTE II abre
+                                            como a proteína encontra essa posição.
+
+PARTE II -- Como dobra (e por que falha)
+
+2.1 -- Desnaturação: o que muda quando a 3ª se desfaz
+Uma proteína nativa7 é a versão dobrada, ativa, na conformação certa. Desnaturação é o nome
+técnico para o desfazimento dessa estrutura terciária -- a cadeia continua sendo a mesma
+sequência de aminoácidos, com as mesmas ligações peptídicas, mas perdeu a forma 3D que
+mantinha sua função.
+
+   A pergunta interessante é: o que segura o dobramento, e o que pode desfazê-lo? O dobra
+mento se sustenta por quatro tipos de interação fraca entre as cadeias laterais (R) dos aminoá
+cidos: pontes de hidrogênio, pontes salinas (interações eletrostáticas entre R carregados),
+interações hidrofóbicas (o efeito hidrofóbico empilhando R apolares no interior) e, eventual
+mente, pontes dissulfeto (covalente, mais forte, entre cisteínas). Cada agente desnaturante
+ataca um conjunto específico dessas interações.
+
+   O pH age sobre as pontes salinas. Em pH muito baixo, todos os ácidos (Asp, Glu) ficam
+protonados -- perdem a carga negativa. Em pH muito alto, todos os básicos (Lys, Arg) perdem
+
+   7nativa ­ proteína no estado enovelado biologicamente ativo; corresponde ao mínimo de energia livre da cadeia
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+o próton -- perdem a carga positiva. Sem cargas, as pontes salinas que ajudavam a manter a
+estrutura terciária desaparecem, e a proteína se desfaz.
+
+Em pH ácido, R+ aparece em todo lugar -- Asp e Glu perdem a carga negativa, pontes salinas internas se desfazem.
+
+A temperatura age sobre as pontes de hidrogênio e o efeito hidrofóbico -- agitação térmica
+simplesmente sacode os átomos demais para que essas interações fracas se mantenham. A
+força iônica alta age sobre pontes salinas via blindagem: íons na solução cercam as cargas
+das cadeias laterais e diminuem a força da atração eletrostática à distância. Detergentes agem
+sobre o efeito hidrofóbico de maneira direta: a parte hidrofóbica do detergente se mete entre
+os resíduos apolares internos, e o que estava agrupado se desfaz.
+
+    Sequência primária NÃO se altera com desnaturação
+
+    Erro frequente: aluno acha que desnaturar quebra ligações peptídicas. Não quebra. Ferver um ovo
+    desfaz a estrutura terciária da albumina e ela agrega -- a sequência primária dos aminoácidos
+    continua igual. Quebrar peptídeo é hidrolisar, e isso só acontece em condições muito mais drás
+    ticas que ferver (ácido forte concentrado por horas, por exemplo).
+
+2.2 -- Agregação: o que torna a desnaturação irreversível
+Aqui entra um detalhe que muda tudo. Em princípio, uma proteína desnaturada pode redobrar.
+Anfinsen mostrou isso em 1961 com a ribonuclease: desnaturada em ureia, ela redobrava soz
+inha quando a ureia era removida. A informação para o dobramento está mesmo na sequência
+primária -- esse foi o experimento canônico.
+
+   Mas, na prática, em quase todo cenário fisiológico, a desnaturação é irreversível8. O motivo
+não é termodinâmico -- é cinético. Quando uma proteína se desdobra, seus aminoácidos
+hidrofóbicos, antes escondidos no interior, ficam expostos. Se há outras moléculas da mesma
+proteína por perto, também desdobradas, suas regiões hidrofóbicas expostas se encontram.
+
+   8irreversível ­ na bioquímica de proteínas, irreversibilidade não vem de termodinâmica, mas de competição cinética
+com a agregação
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+E quando duas regiões hidrofóbicas se encontram em meio aquoso, elas se associam para
+escapar da água -- pelo mesmo mecanismo do dobramento original, mas entre moléculas
+diferentes em vez de dentro da mesma. Forma-se um agregado.
+
+Resumindo até aqui: Desnaturação expõe hidrofóbicos  moléculas desdobradas se encontram
+pelas faces apolares  agregado intermolecular  proteína nunca mais redobra individualmente. A
+irreversibilidade é cinética, não termodinâmica.
+
+Esse mesmo mecanismo -- encontros hidrofóbicos entre proteínas mal-dobradas -- é a base
+de várias doenças que vamos ver na PARTE III. Por enquanto, fique com a ideia geral: desnat
+urar é reversível em tubo de ensaio diluído; em concentração celular real, agregação dispara
+primeiro e tranca o estado desnaturado.
+
+2.3 -- Paradoxo de Levinthal e o caminho do molten globule
+Cyrus Levinthal fez em 1968 uma conta que ainda incomoda. Imagine uma proteína pequena
+com 100 aminoácidos. Cada ligação peptídica tem, simplificando muito, três conformações
+possíveis. Isso dá 3¹  5 × 10 conformações totais. Se a proteína tentasse cada uma em 10¹³
+segundos (tempo de uma vibração molecular), levaria mais tempo que a idade do universo para
+encontrar a nativa por acaso. O paradoxo: proteínas dobram em milissegundos a segundos.
+Como?
+
+Paradoxo de Levinthal -- 5 × 10 conformações, mas o dobramento real demora segundos. Algo restringe o caminho.
+
+A resposta veio aos poucos. O dobramento não é uma busca aleatória -- ele segue um caminho
+com restrições energéticas. Primeiro, em milissegundos, os aminoácidos hidrofóbicos colap
+sam para o centro da molécula, escapando da água. O resultado é um glóbulo compacto, mas
+ainda sem a estrutura terciária final, chamado molten globule9. Depois desse colapso inicial, a
+
+   9molten globule ­ intermediário do dobramento -- globular e compacto, com elementos de estrutura secundária
+formados, mas ainda sem o empacotamento final da estrutura terciária
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+proteína ajusta finamente as posições internas -- pequenos movimentos, troca de pontes de
+hidrogênio, otimização de pontes salinas -- até chegar ao mínimo de energia que é a forma
+nativa.
+
+   O dobramento é representado tipicamente como um funil de energia. No topo, a cadeia
+desnaturada com altíssimo número de conformações possíveis. Conforme desce o funil, o
+número de conformações cai drasticamente -- o colapso hidrofóbico restringe rápido, o ajuste
+fino restringe o resto. No fundo do funil, a forma nativa, mínimo de energia. O paradoxo de
+Levinthal se resolve porque a paisagem energética não é plana (busca aleatória), é um funil
+(busca dirigida).
+
+Síntese 2 -- A informação para o dobramento está na sequência primária, mas o caminho
+temporal não é aleatório. Hidrofóbico colapsa primeiro (molten globule), depois acontece o ajuste
+fino. Funil de energia em vez de planície estatística.
+
+2.4 -- Chaperonas: as parceiras do dobramento
+Em proteínas pequenas e simples, o dobramento espontâneo basta. Mas em proteínas grandes,
+ou em condições de stress (febre, hipóxia, agentes desnaturantes), a célula não pode contar
+com a sorte. O risco é que a proteína em estado parcialmente dobrado encontre outra na mesma
+condição e agregue antes de chegar à forma nativa. Para evitar isso, existem as chaperonas10.
+
+   O princípio é simples e elegante. A chaperona reconhece regiões hidrofóbicas expostas --
+exatamente as regiões que estariam disponíveis para causar agregação. Ao se ligar a elas, a
+chaperona faz duas coisas: cobre essas regiões (impedindo que outra proteína desdobrada se
+associe) e dá tempo para que a proteína-cliente continue dobrando. Quando o dobramento
+avança o suficiente para os resíduos hidrofóbicos se enterrarem no interior, a chaperona já não
+tem a quem se ligar -- solta. Tudo isso consome ATP, gasto energético da célula para garantir
+qualidade de dobramento.
+
+   Há duas grandes famílias com mecanismos um pouco diferentes. As Hsp11 da família Hsp70
+atuam co-traducionalmente: enquanto a cadeia ainda está sendo sintetizada pelo ribossomo,
+a Hsp70 já protege as regiões hidrofóbicas conforme elas saem. As da família Hsp60 (com a
+chaperonina GroEL como exemplo bacteriano clássico) funcionam diferente -- formam uma
+câmara fechada onde a proteína inteira é enfiada para dobrar isolada do resto da célula, sem
+risco de encontrar uma vizinha desdobrada.
+
+   10chaperonas ­ classe de proteínas que auxiliam o enovelamento de outras proteínas, ligando-se a regiões hidrofóbicas
+expostas e impedindo agregação prematura
+
+   11Hsp ­ heat shock protein -- chaperona induzida em stress térmico
+
+                                                                                10
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+Chaperona reconhece regiões hidrofóbicas expostas e impede que duas cadeias parcialmente dobradas se encon
+trem.
+
+  Resumindo até aqui: Chaperona é controle de qualidade do dobramento. Sem ela, células em stress
+  veriam epidemia de agregação. O nome "heat shock" vem de terem sido descobertas em células super
+  expressando essas proteínas após choque térmico.
+
+                                                                       MAPA CONCEITUAL
+
+                                                                    II
+
+       Dobramento é caminho dirigido, não busca
+                                       aleatória
+
+                                    
+
+2.1-2 ­ Desnaturar     como acerta  2.3 ­ Funil             quem ajuda  2.4 ­ Chaperonas
+
+Cada agente ataca                   Colapso hidrofóbico                 Cobrem hidrofóbicos
+um tipo de interação;               molten globule  ajuste              expostos, evitam
+agregação trava o                   fino.                               agregação, gastam ATP.
+estado.
+
+                  Quando o caminho falha, a célula paga. PARTE III mostra o que dá errado.
+
+PARTE III -- Quando o dobramento falha: as doenças
+
+3.1 -- Anemia falciforme: uma troca de aminoácido faz agregar
+
+                                    11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A hemoglobina adulta normal, HbA12, é um tetrâmero de duas cadeias  e duas cadeias , com
+146 aminoácidos cada cadeia . Na posição 6 da cadeia , há um resíduo de ácido glutâmico
+(Glu) -- aminoácido polar, com carga negativa em pH fisiológico. Na anemia falciforme, uma
+mutação substitui esse Glu por valina (Val), aminoácido apolar. A proteína resultante é a HbS13.
+
+   A troca parece minúscula -- um aminoácido entre 146 em cada cadeia . Mas o efeito
+mecanístico é devastador. A Val é hidrofóbica. Quando a HbS está no estado desoxigenado
+(depois de entregar O aos tecidos), uma região hidrofóbica no interior do tetrâmero fica
+exposta. A Val da posição 6 de uma molécula encontra esse bolso hidrofóbico de outra molécula
+vizinha de HbS, encaixa nele, e o resultado é que duas HbS se associam. Outras moléculas se
+juntam. Forma-se uma fibra longa que distorce o eritrócito da forma de disco para a forma de
+foice -- daí "falciforme".
+
+ HbS: Glu6Val na cadeia . A Val cria contato hidrofóbico com outra HbS desoxigenada  polimerização 
+ eritrócito em foice.
+
+ Consequências clínicas
+ Eritrócitos falciformes são rígidos e quebradiços. Travam em capilares pequenos (vaso-oclusão:
+ dor intensa, infarto tecidual) e se rompem mais rápido na circulação (hemólise: anemia). Por que
+ a HbA não faz isso? Porque o Glu na posição 6 é polar -- não há bolso hidrofóbico exposto para
+ encaixar. Por que homozigotos sofrem mais? Porque heterozigotos têm metade das moléculas
+ como HbA normal, e isso "dilui" a polimerização. A heterozigose para HbS é frequente em regiões
+ com malária histórica -- explicação evolutiva: HbS dá alguma proteção contra Plasmodium em
+ heterozigotos, o que selecionou o alelo apesar do custo em homozigotos.
+
+12HbA ­ hemoglobina adulta normal,  -- sequência canônica das cadeias  e 
+13HbS ­ hemoglobina falciforme -- Glu6Val na cadeia , agrega em condição desoxigenada
+
+                                                                             12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Falciforme é o exemplo paradigmático de como um único aminoácido errado,
+em ambiente hidrofóbico, dispara agregação intermolecular patológica. O mecanismo é o mesmo da
+agregação na desnaturação -- só que aqui, a "desnaturação" é intrínseca: a proteína já nasce com a face
+hidrofóbica errada.
+
+3.2 -- Príons: a conformação patológica que se replica
+Aqui o conceito vira de cabeça para baixo de um modo que ainda incomoda. Existe na nossa
+membrana neuronal uma proteína chamada PrP14. Na forma normal, chamada PrP^C (de "celu
+lar"), ela tem predominância de alfa-hélices e função fisiológica ainda incerta. Existe também
+uma forma patológica da mesma proteína, com a mesma sequência primária, chamada PrP^Sc
+(de "scrapie", doença ovina priônica). A PrP^Sc tem predominância de folha-beta e tende a
+agregar.
+
+   A descoberta crucial: a PrP^Sc, quando entra em contato com a PrP^C normal, funciona
+como molde -- induz a PrP^C a mudar sua conformação para a forma PrP^Sc. Uma molécula
+patológica converte uma normal. Duas moléculas patológicas convertem duas normais. O
+processo é autocatalítico e produz amiloide15 -- fibras de folha-beta empilhadas.
+
+  Replicação priônica: PrP^Sc serve de molde, converte PrP^C  mais PrP^Sc  autocatálise sem ácido nucleico.
+
+   14PrP ­ prion protein -- proteína do prion, normalmente ancorada à membrana neuronal por âncora GPI; existe nas
+formas normal PrP^C e patológica PrP^Sc
+
+   15amiloide ­ tipo de agregado proteico organizado em fibras com estrutura de folha-beta intermolecular cruzada;
+aparece em várias doenças por dobramento patológico
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Príon é proteína. Só proteína.
+
+A grande surpresa do conceito de príon é que ele transmite "informação patológica" sem DNA
+nem RNA. A "informação" não está na sequência (a sequência é a mesma do hospedeiro), está
+na conformação. Uma proteína mal-dobrada serve de molde para mal-dobrar outras. Isso foi tão
+contra-intuitivo que Stanley Prusiner levou décadas até a hipótese ser aceita. Hoje a doutrina é que
+o agente infeccioso de doenças priônicas é a própria PrP^Sc -- não um vírus, não uma bactéria.
+
+Doenças priônicas
+
+BSE16 em gado. Scrapie em ovelha. CJD17 em humanos. Kuru, descrita em tribo papuana que prat
+icava canibalismo ritual. Todas têm o mesmo padrão histopatológico: degeneração espongiforme
+do córtex cerebral (cérebro vira "queijo suíço"). Sem tratamento eficaz: nada degrada PrP^Sc
+facilmente, ela resiste a calor, proteases, formol.
+
+3.3 -- Amiloide e neurodegenerações
+O conceito de príon -- proteína mudando de conformação para forma patológica e agregando
+-- explica também doenças muito mais comuns que vaca louca. Várias neurodegenerações
+têm como mecanismo central a agregação de uma proteína específica em fibras amiloides.
+
+   No Alzheimer18, o vilão principal é o peptídeo A19. Ele é gerado por clivagem da proteína
+precursora APP20 por duas enzimas de membrana chamadas secretases21 (-secretase + -
+secretase). Quando clivado, o peptídeo A adquire uma conformação em folha-beta, foge
+da água, encontra outros peptídeos A na mesma conformação, e forma placas amiloides
+extracelulares no cérebro. As placas matam neurônios por mecanismos que ainda não estão
+totalmente elucidados, mas envolvem inflamação e dano sináptico.
+
+   16BSE ­ bovine spongiform encephalopathy -- "vaca louca"
+   17CJD ­ doença de Creutzfeldt-Jakob -- forma humana de doença priônica, esporádica, hereditária ou adquirida
+   18Alzheimer ­ neurodegeneração com placas extracelulares de A + emaranhados intracelulares de proteína tau hiper
+fosforilada
+   19A ­ peptídeo beta-amiloide -- fragmento de 40­42 aminoácidos clivado da APP, agrega em fibras amiloides
+extracelulares
+   20APP ­ amyloid precursor protein -- proteína transmembrana neuronal; sua clivagem por secretases pode gerar
+peptídeo A amiloidogênico
+   21secretases ­ proteases de membrana -- -secretase e -secretase -- que clivam APP gerando A; estão no alvo
+terapêutico do Alzheimer
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+APP é clivada por secretases  fragmento A adquire conformação beta  agrega em placas amiloides extracelu
+lares. As secretases são alvo terapêutico.
+
+No Parkinson22, a proteína que agrega é a alfa-sinucleína23, formando agregados intracelu
+lares (corpos de Lewy) em neurônios dopaminérgicos da substância negra. Sintoma cardinal:
+tremor de repouso, rigidez, lentidão de movimento (efeito da perda de dopamina nos circuitos
+motores).
+
+    Por que isso importa terapeuticamente
+    Identificar o passo molecular específico de cada doença abre alvos terapêuticos. No Alzheimer,
+    dois caminhos óbvios: inibir as secretases para diminuir a produção de A, ou impedir a agregação
+    dos peptídeos A já formados. Os medicamentos em desenvolvimento atacam um desses dois
+    pontos. Ainda não temos cura, mas a doença passou de "mistério neurológico" para "problema
+    molecular com alvos definidos". É a vantagem de entender o mecanismo.
+
+   Resumindo até aqui: Alzheimer, Parkinson, falciforme, BSE -- todas têm o mesmo princípio mecanís
+   tico: proteína em conformação errada  expõe região hidrofóbica  encontra outra mesma proteína 
+   agrega em fibras. O detalhe muda (qual proteína, qual cliva quem, intra ou extracelular), o princípio não.
+
+   22Parkinson ­ neurodegeneração com perda de neurônios dopaminérgicos da substância negra; corpos de Lewy
+contêm -sinucleína agregada
+
+   23alfa-sinucleína ­ proteína sináptica pequena cuja agregação intracelular forma os corpos de Lewy do Parkinson
+                                                                                15
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+                                   MAPA CONCEITUAL
+
+                                                III
+
+                     Dobramento errado  agregado patológico 
+                                                       doença
+
+                                   
+
+3.1 ­ Falciforme                   3.2 ­ Príon                             3.3 ­ Amiloide
+
+Val em HbS           uma vai além  PrP^Sc é molde,        mesmo princípio  A no
+desoxi entra em                    converte PrP^C;                         Alzheimer, sinucleína
+bolso hidrofóbico e                autocatálise sem DNA.                   no Parkinson; fibras de
+polimeriza.                                                                folha-beta.
+
+       Três doenças diferentes, um mecanismo comum: encontro hidrofóbico patológico.
+
+Conclusão integradora
+
+O fio deste resumo se desenrola do simples ao patológico. Em ambientes especiais --
+membrana, fibras --, a sequência primária é colocada à prova: ela continua sendo o
+destino, só que o destino agora inclui onde a proteína fica, não só como ela se enovela.
+Quando a proteína precisa enovelar de fato, o caminho não é aleatório: é um funil de
+energia que começa pelo colapso hidrofóbico e termina com ajuste fino, e quando ele
+falha, chaperonas resgatam. Quando nem chaperonas resgatam, ou quando a sequência
+primária já vem com uma face hidrofóbica errada (HbS) ou já vem com tendência a
+virar folha-beta (A, sinucleína, PrP), o resultado é agregação patológica -- proteína se
+encontrando com proteína por engano.
+É essa unidade conceitual que torna o tema importante. Falciforme, Alzheimer, Parkin
+son, vaca louca -- doenças aparentemente sem conexão -- compartilham um mecan
+ismo molecular. Entender o dobramento abre a porta para entender por que tantas
+doenças do envelhecimento cerebral falharam em terapia até descobrirmos que o prob
+lema era o mesmo: estabilizar a forma nativa de uma proteína específica, ou impedir o
+encontro hidrofóbico patológico entre cópias dela.
+
+                                   16
+NEBLI                                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Anemia falciforme                                        Colágeno -- Gly-Pro-Hyp e tripla-hélice
+
+Mutação Glu6Val na cadeia  da hemoglobina Sequência Gly-X-Y repetida. Gly a cada 3 resíduos é
+
+troca um aminoácido polar por um hidrofóbico. obrigatória porque só ela cabe no centro apertado da
+
+Na HbS desoxigenada, a Val encaixa em um bolso tripla-hélice. A hélice do colágeno é diferente da alfa-
+
+hidrofóbico de outra HbS  polimerização em fibras hélice: mais estendida, pontes H entre cadeias, não
+
+ eritrócito em foice  vaso-oclusão e hemólise.           dentro.
+
+Alzheimer e o peptídeo A                                 Coiled coil da queratina
+
+A APP é clivada por -secretase e -secretase Duas alfa-hélices se trançam por interações
+
+na membrana neuronal. O fragmento A adquire hidrofóbicas a cada 3­4 resíduos. Resultado: estru
+
+conformação em folha-beta e agrega em placas tura que resiste a tração no eixo longo -- cabelo,
+
+amiloides extracelulares no cérebro. Inibir secretases unha, camada córnea da pele.
+
+ou impedir agregação são as duas frentes terapêuti Desnaturação por agentes
+
+cas em estudo.                                              pH ataca pontes salinas (protona/desprotona R).
+Príon -- replicação sem ácido nucleico                   Temperatura ataca pontes H e efeito hidrofóbico.
+
+A PrP^Sc (folha-beta) serve de molde e induz Força iônica blinda cargas. Detergente substitui in
+
+a PrP^C normal (alfa-hélice) a mudar de confor terações hidrofóbicas internas. A sequência primária
+
+mação  cadeia autocatalítica. Causa vaca louca, não se altera -- só a forma 3D.
+
+Creutzfeldt-Jakob, scrapie, kuru. A "informação pa Agregação torna desnaturação irreversível
+
+tológica" está na conformação, não na sequência.            Em concentração celular real, a desnaturação ex
+Mecanismo unificador da agregação                        põe hidrofóbicos antes do redobramento. Moléculas
+
+Toda doença por proteína mal-dobrada compar desdobradas se encontram pelas faces apolares 
+
+tilha o mesmo princípio: regiões hidrofóbicas ex agregado intermolecular  proteína não redobra in
+
+postas se encontram em meio aquoso e formam dividualmente. Irreversibilidade é cinética, não ter
+
+agregado intermolecular. Falciforme, Alzheimer, modinâmica.
+
+Parkinson, BSE -- o detalhe muda, o princípio não. Funil de Levinthal e molten globule
+
+Escorbuto e a Hyp do colágeno                            3¹  5 × 10 conformações tornariam dobramento
+
+A prolil-hidroxilase depende de vitamina C para aleatório impossível. O caminho real é dirigido: co
+
+inserir OH na prolina do colágeno. Sem Hyp, as lapso hidrofóbico rápido  molten globule  ajuste
+
+pontes de hidrogênio entre as três cadeias da tripla- fino  forma nativa. Funil de energia substitui busca
+
+hélice ficam fracas  colágeno frágil  hemorragias aleatória.
+
+gengivais, má cicatrização, fadiga.                      Chaperonas -- controle de qualidade
+
+Proteínas de membrana -- regra inversa                   Reconhecem regiões hidrofóbicas expostas e
+
+Em segmentos transmembrana, hidrofóbicos fi impedem agregação. Hsp70 atua co-traducional;
+
+cam na superfície externa (contato com lipídeos) e Hsp60/GroEL forma câmara isolada. Consomem ATP.
+
+polares ficam no interior do poro (aquaporina). Gli "Heat shock" porque sobem em stress térmico.
+
+coforina é o caso mais simples -- um único segmento
+
+hidrofóbico atravessando a bicamada.
+
+                                                     17
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+Em uma proteína integral de membrana com um único segmento transmembrana, como se
+distribuem os aminoácidos ao longo do segmento que atravessa a bicamada?
+
+  A) São majoritariamente polares, para formar o poro de passagem de água iônica.
+  B) Alternam-se polares e apolares para manter a estrutura primária da hélice estável.
+  C) São majoritariamente hidrofóbicos, em contato com as caudas dos fosfolipídeos.
+  D) Concentram cisteínas, que estabilizam o segmento por pontes dissulfeto na bicamada.
+  E) Variam segundo a função, sem relação direta com o ambiente lipídico ao redor.
+
+Questão 02 Consolidação
+O que estabiliza o coiled coil de duas alfa-hélices em uma proteína fibrosa como a queratina?
+
+  A) Pontes dissulfeto entre cisteínas das duas hélices ao longo de toda a extensão.
+  B) Pontes de hidrogênio adicionais entre os esqueletos peptídicos das duas hélices vizinhas.
+  C) Interações eletrostáticas entre cargas positivas e negativas nas faces externas das hélices.
+  D) Interações hidrofóbicas entre resíduos apolares posicionados a cada 3­4 aminoácidos na
+  interface.
+  E) Modificações pós-traducionais que fundem covalentemente as duas hélices em uma única
+  peça.
+
+                            18
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 03 Consolidação
+
+Julgue os itens sobre a estrutura do colágeno:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A sequência primária característica é Gly-X-Y, com Gly a cada 3 resíduos.
+  II. Cada cadeia individual do colágeno adota uma alfa-hélice padrão antes da tripla-hélice.
+  III. As pontes de hidrogênio que estabilizam o colágeno se formam entre as três cadeias da
+  tripla-hélice.
+  IV. A 4-hidroxiprolina é introduzida pelo ribossomo como aminoácido padrão durante a
+  tradução.
+
+Questão 04 Consolidação
+
+No escorbuto, a deficiência de vitamina C compromete o colágeno por qual mecanismo mole
+cular?
+
+  A) Reduz a síntese de glicina, o aminoácido que cabe no centro da tripla-hélice.
+  B) Inativa a prolil-hidroxilase, e sem Hyp as pontes H entre cadeias ficam fracas.
+  C) Impede a clivagem proteolítica final do procolágeno durante sua maturação extracelular.
+  D) Bloqueia a glicosilação dos resíduos de lisina nas regiões terminais do colágeno secretado.
+  E) Desnatura diretamente as cadeias secretadas pelo aumento da força iônica no meio
+  extracelular.
+
+Questão 05 Consolidação
+
+Sobre a desnaturação de uma proteína globular comum, é correto afirmar:
+  A) A estrutura primária é preservada; apenas a forma terciária se desfaz nesse processo.
+  B) As ligações peptídicas são hidrolisadas e a cadeia é fragmentada em peptídeos curtos.
+  C) A sequência de aminoácidos muda em resposta ao agente desnaturante aplicado à pro
+  teína.
+  D) A função pode ser preservada se apenas a estrutura secundária for afetada localmente.
+  E) O processo é sempre reversível em condições fisiológicas dentro da célula viva normal.
+
+                         19
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 06 Consolidação
+
+Julgue cada agente quanto ao seu mecanismo principal de desnaturação proteica:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Aumento da temperatura desestabiliza pontes de hidrogênio e interações hidrofóbicas
+  internas.
+  II. pH muito ácido protona ácidos glutâmico e aspártico, desfazendo as pontes salinas
+  internas.
+  III. Detergentes desnaturam por aumento da força iônica que blinda cargas das cadeias
+  laterais.
+  IV. Detergentes substituem o efeito hidrofóbico interno ao se interpor entre resíduos apo
+  lares.
+
+Questão 07 Consolidação
+
+Qual o princípio geral de ação das chaperonas no enovelamento de proteínas?
+
+  A) Catalisam a formação de ligações peptídicas ainda não fechadas na cadeia nascente.
+  B) Hidrolisam proteínas mal-dobradas usando atividade proteolítica intrínseca em ambiente
+  celular.
+  C) Alteram a sequência primária para guiar o dobramento por caminho energético mais
+  favorável.
+  D) Provêm energia para o dobramento ao acoplar gradiente eletroquímico de prótons à
+  proteína.
+  E) Cobrem regiões hidrofóbicas expostas, impedindo agregação até o dobramento concluir.
+
+                         20
+NEBLI                        ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 08 Consolidação
+
+Como o paradoxo de Levinthal é resolvido na prática biológica do enovelamento?
+
+  A) Pelo número limitado de aminoácidos disponíveis, que restringem as combinações pos
+  síveis na cadeia.
+  B) Pelas chaperonas testarem todas as conformações possíveis e escolherem a nativa correta.
+  C) Pelo dobramento seguir um funil energético dirigido, não uma busca aleatória de confor
+  mações.
+  D) Pelo dobramento ocorrer durante a tradução, antes mesmo da cadeia inteira existir.
+  E) Pela proteína se enovelar em paralelo em vários ribossomos diferentes simultaneamente.
+
+Questão 09 Integração
+
+Pacientes homozigotos para HbS apresentam crises vaso-oclusivas que pioram em hipóxia. Em
+ambientes com baixa tensão de O, a HbS desoxigenada polimeriza em fibras longas dentro do
+eritrócito.
+Qual mecanismo molecular une a mutação Glu6Val à formação dessas fibras?
+
+  A) A Val protona resíduos vizinhos e gera cargas que se atraem entre HbS adjacentes.
+  B) A Val recruta cálcio do citoplasma, e o Ca² faz ponte entre HbS distintas.
+  C) A Val forma pontes dissulfeto novas entre cadeias  de HbS vizinhas em desoxi.
+  D) Na HbS desoxi, a Val apolar encaixa em bolso hidrofóbico de outra HbS, polimerizando.
+  E) A Val acelera oxidação do ferro do heme, libertando Hb sem heme que agrega facilmente.
+
+Questão 10 Integração
+
+Sobre a formação de placas amiloides no Alzheimer:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O peptídeo A tem origem na clivagem proteolítica do receptor de glutamato neuronal.
+  II. As secretases  e  atuam no citosol antes de o peptídeo A ser liberado para fora.
+  III. A conformação patogênica do peptídeo A é predominantemente alfa-helicoidal orga
+  nizada.
+  IV. As placas amiloides extracelulares são compostas por peptídeos A em folha-beta agre
+  gados.
+
+                         21
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 11 Integração
+
+Um marinheiro do século XVI passa meses sem frutas frescas e desenvolve sangramentos gengivais,
+dentes amolecidos e cicatrizes que se reabrem. Os sintomas regridem após reintrodução de cítricos
+na dieta.
+Em qual ponto da maturação do colágeno o quadro descrito interfere?
+
+  A) Na clivagem do procolágeno em colágeno maduro fora da célula, etapa final da maturação.
+  B) Na hidroxilação da prolina, que sem vitamina C não acontece e enfraquece as pontes H.
+  C) Na transcrição do gene do colágeno, que depende de cofatores de vitamina C ativos.
+  D) Na glicosilação dos resíduos de lisina hidroxilada, etapa crucial do colágeno extracelular.
+  E) Na exportação do colágeno do retículo, que depende de vitamina C como sinal de saída.
+
+Questão 12 Integração
+
+Em tubo de ensaio diluído, RNase desnaturada em ureia redobra ao retirar o agente (experimento
+de Anfinsen, 1961). Em condições celulares densas, a mesma proteína fortemente desnaturada rara
+mente retorna à forma nativa.
+O que explica essa diferença entre tubo diluído e ambiente celular?
+
+  A) Em alta concentração, hidrofóbicos expostos se encontram entre moléculas e agregam
+  antes de redobrar.
+  B) Em alta concentração, as ligações peptídicas hidrolisam mais rápido, impedindo o redo
+  bramento espontâneo.
+  C) A ureia residual no meio celular impede que a proteína recupere a conformação nativa
+  estável.
+  D) O pH celular é ácido demais e protona todos os resíduos polares de forma irreversível.
+  E) Chaperonas celulares competem com o redobramento, sequestrando a proteína desnat
+  urada permanentemente.
+
+                       22
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 13 Integração
+
+Julgue os itens sobre o papel das chaperonas no controle de qualidade do enovelamento:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Reconhecem regiões hidrofóbicas expostas em proteínas parcialmente dobradas.
+  II. Impedem que duas proteínas em estado parcialmente dobrado se encontrem e agreguem.
+  III. Hsp70 atua co-traducionalmente, protegendo regiões hidrofóbicas conforme a cadeia sai
+  do ribossomo.
+  IV. Hsp60/GroEL atua substituindo a sequência primária por aminoácidos mais hidrofóbicos.
+
+Questão 14 Integração
+
+O conceito de molten globule resolve o paradoxo de Levinthal porque:
+  A) Mostra que a proteína testa todas as conformações em paralelo no estado intermediário.
+  B) Demonstra que o número total de conformações é menor que 10 na maioria dos casos.
+  C) Representa um colapso hidrofóbico rápido que reduz drasticamente o espaço conforma
+  cional restante.
+  D) Indica que a conformação nativa é a única estável termodinamicamente em qualquer
+  condição.
+  E) Sugere que o dobramento ocorre apenas após a tradução estar totalmente completa.
+
+                       23
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 15 Integração
+
+Uma proteína normal de membrana neuronal, PrP^C, pode ser convertida em uma forma patológ
+ica, PrP^Sc, em contato com esta última. Doenças associadas: BSE em gado, Creutzfeldt-Jakob em
+humanos, kuru em populações antropófagas.
+Como uma única molécula de PrP^Sc consegue desencadear acúmulo progressivo no cérebro?
+
+  A) Insere-se no DNA neuronal e altera a sequência primária da PrP a partir dali.
+  B) Catalisa a tradução de novas cópias de PrP^Sc usando ribossomos modificados pela
+  infecção.
+  C) Replica-se ao incorporar nucleotídeos do hospedeiro em uma sequência codificadora
+  própria.
+  D) Estimula a expressão genética da PrP até saturação da maquinaria de dobramento celular.
+  E) Serve de molde, convertendo PrP^C à conformação PrP^Sc; o processo é autocatalítico.
+
+Questão 16 Integração
+
+Sobre o dobramento de proteínas em diferentes ambientes celulares:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Proteínas integrais de membrana têm aminoácidos polares na superfície externa dos
+  segmentos transmembrana.
+  II. A regra "hidrofóbico para dentro, polar para fora" se aplica idêntica em globular e
+  membrana.
+  III. Em proteínas globulares solúveis, aminoácidos apolares concentram-se no interior,
+  longe da água.
+  IV. Aquaporina exibe duas faces opostas: superfície apolar para o lipídeo, interior polar para
+  o poro.
+
+                       24
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 17 Integração
+
+Qual princípio único explica dobramento normal de globulares, falciforme e agregação
+amiloide patológica?
+
+  A) Aminoácidos hidrofóbicos minimizam contato com água, e isso decide qual cadeia
+  encontra qual.
+  B) Pontes dissulfeto fixam a forma final em todas essas situações, independentemente do
+  ambiente.
+  C) A temperatura é o fator decisivo em todas elas, modulando a velocidade de dobramento.
+  D) Chaperonas controlam a forma de cada proteína nesses três cenários igualmente sempre.
+  E) O número de pontes de hidrogênio é a variável central nas três situações simultaneamente.
+
+Questão 18 Integração
+
+Indivíduos homozigotos para HbS apresentam anemia falciforme grave. Heterozigotos AS são
+clinicamente assintomáticos em condições normais e historicamente protegidos contra malária por
+Plasmodium.
+O que explica a menor gravidade clínica do heterozigoto AS?
+
+  A) A HbA do heterozigoto degrada a HbS no eritrócito antes da polimerização ocorrer fisio
+  logicamente.
+  B) A heterozigose impede totalmente a expressão da cadeia  mutada no eritrócito jovem.
+  C) A HbA do heterozigoto compete com a HbS pelo grupo heme, reduzindo HbS funcional.
+  D) A HbS é convertida em HbA dentro do eritrócito por enzimas heterozigotas específicas.
+  E) Metade das moléculas é HbA normal, o que dilui o pool de HbS disponível para
+  polimerizar.
+
+                       25
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 19 Integração
+
+Julgue os itens sobre as famílias de chaperonas Hsp70 e Hsp60/GroEL:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Hsp70 frequentemente atua co-traducionalmente, à medida que a cadeia emerge do
+  ribossomo.
+  II. Hsp60/GroEL forma uma câmara isolada onde a proteína dobra protegida do meio celular.
+  III. Hsp70 e Hsp60 atuam ambas exclusivamente após o término completo da tradução
+  proteica.
+  IV. GroEL utiliza diretamente a sequência primária da proteína-cliente para guiar o dobra
+  mento.
+
+Questão 20 Integração
+
+Qual proteína agrega na doença de Parkinson, e onde formam-se seus agregados caracterís
+ticos?
+
+  A) Beta-amiloide; agrega em placas extracelulares no córtex frontal dos hemisférios cere
+  brais.
+  B) Proteína PrP^Sc; agrega em fibras espongiformes no córtex cerebral inteiro do paciente.
+  C) Hemoglobina S; agrega em fibras intracelulares em neurônios da substância negra cere
+  bral.
+  D) Alfa-sinucleína; agrega em corpos de Lewy nos neurônios dopaminérgicos da substância
+  negra.
+  E) Proteína tau hiperfosforilada; agrega em emaranhados nos motoneurônios da medula
+  espinhal.
+
+                       26
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 21 Integração
+
+Anfinsen mostrou em 1961 que a ribonuclease desnaturada em ureia redobra ao retirar o agente.
+Levinthal calculou em 1968 que uma busca aleatória entre 10 conformações levaria mais que a
+idade do universo.
+O que estes dois fatos, juntos, ensinam sobre o enovelamento de proteínas?
+
+  A) A informação para enovelar é totalmente externa, fornecida apenas por chaperonas e ATP.
+
+  B) Cada proteína precisa de tradução co-traducional para enovelar em tempo biologicamente
+  viável.
+
+  C) A informação está na sequência primária, mas o caminho temporal é dirigido por um funil
+  energético.
+
+  D) A informação primária basta apenas em proteínas pequenas; grandes dependem só de
+  chaperonas.
+
+  E) Anfinsen e Levinthal são incompatíveis; só um dos dois reflete a realidade biológica do
+  enovelamento.
+
+Questão 22 Integração
+
+Sobre a hélice do colágeno em comparação com a alfa-hélice padrão:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Tanto a hélice do colágeno quanto a alfa-hélice têm 3,6 resíduos por volta apertada.
+  II. Ambas estabilizam-se por pontes de hidrogênio dentro da própria cadeia polipeptídica
+  isolada.
+  III. A hélice do colágeno só é estável quando três cadeias se enrolam em tripla-hélice.
+  IV. Cadeias individuais de colágeno podem assumir alfa-hélice antes da formação da tripla-
+  hélice.
+
+                       27
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 23 Integração
+
+Um aluno afirma que ao ferver um ovo a clara endurece porque as ligações peptídicas da albumina
+foram quebradas. Outro aluno discorda e diz que a estrutura primária permanece intacta.
+Qual aluno está conceitualmente correto e por quê?
+
+  A) O primeiro: o calor é suficiente para hidrolisar ligações peptídicas de qualquer proteína.
+  B) O segundo: o calor desfaz apenas estruturas 2ª, 3ª e 4ª; as ligações peptídicas resistem.
+  C) O primeiro: ferver é hidrólise química, e a clara endurecida representa cadeia fragmentada.
+  D) O segundo: o calor altera só a sequência primária, mantendo as estruturas superiores
+  intactas.
+  E) Ambos: a estrutura primária é parcialmente afetada e parcialmente preservada após
+  ferver.
+
+Questão 24 Integração
+
+Como o peptídeo A surge a partir da proteína precursora APP em neurônios?
+
+  A) APP é clivada por -secretase e -secretase na membrana neuronal, liberando o frag
+  mento A.
+  B) APP sofre fosforilação progressiva por quinases, que a fragmentam em peptídeos A
+  amilóide.
+  C) APP agrega diretamente em folha-beta sem necessidade de proteólise por enzimas
+  adicionais.
+  D) APP é transcrita em duas isoformas, e o A é a forma curta nuclear.
+  E) APP é internalizada por endocitose e processada no lisossomo em fragmentos
+  amiloidogênicos.
+
+                       28
+NEBLI                      ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 25 Integração
+
+Sobre o mecanismo comum às doenças por proteína mal-dobrada:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Em todas, regiões hidrofóbicas expostas se encontram intermolecularmente e formam
+  agregados estáveis.
+  II. Em todas, a sequência primária da proteína agregante é alterada por mutação somática.
+  III. Falciforme, Alzheimer e doença priônica partilham agregação como evento patológico
+  central.
+  IV. Fibras amiloides têm estrutura típica de folha-beta empilhada entre múltiplas moléculas
+  vizinhas.
+
+Questão 26 Aplicação
+
+Um paciente refugiado relata 3 meses sem acesso a frutas ou vegetais frescos. Apresenta gengivas
+hemorrágicas, fadiga intensa, equimoses espontâneas e feridas pequenas que não cicatrizam há
+semanas.
+Qual mecanismo molecular une todos esses sinais clínicos em um único quadro?
+
+  A) Inibição da síntese de hemoglobina por falta de ferro absorvido sem vitamina C dietética.
+  B) Bloqueio da síntese de fatores de coagulação dependentes de vitamina C como cofator
+  obrigatório.
+  C) Acúmulo de ácido ascórbico oxidado, que lesa endotélio capilar diretamente nas mucosas.
+  D) Aumento da fragilidade óssea por hipocalcemia secundária à deficiência de vitamina C
+  tecidual.
+  E) Colágeno frágil em vasos, gengivas e cicatrizes, pela falha na hidroxilação da prolina.
+
+                       29
+NEBLI                     ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 27 Aplicação
+
+Pesquisadores investigam fármacos que reduzam a formação de placas amiloides no córtex de
+pacientes com Alzheimer. Identificam duas estratégias principais: bloquear a clivagem de APP ou
+impedir a polimerização de peptídeos A já formados.
+Qual alvo molecular corresponde à primeira estratégia mencionada acima?
+
+  A) Receptores de glutamato no córtex cerebral, que disparam a liberação local de peptídeo A.
+
+  B) Proteína tau hiperfosforilada nos emaranhados intracelulares de neurônios degenerados
+  pelo Alzheimer.
+
+  C) Beta-secretase e gama-secretase, enzimas que clivam APP gerando o peptídeo A
+  amiloidogênico.
+
+  D) Chaperonas Hsp60 neuronais, que estabilizam o A na forma alfa-hélice fisiologicamente
+  útil.
+
+  E) Canais de cálcio neuronais que regulam a expressão do gene da APP no córtex cerebral.
+
+Questão 28 Aplicação
+
+Biópsia cerebral de paciente com doença neurológica rapidamente progressiva mostra "buracos"
+microscópicos no córtex (aspecto espongiforme), sem inflamação visível e sem identificação de
+qualquer ácido nucleico de patógeno conhecido.
+Qual diagnóstico molecular é compatível com este quadro histopatológico?
+
+  A) Esclerose lateral amiotrófica, com perda de motoneurônios e sem alteração proteica
+  cortical.
+  B) Doença priônica, com acúmulo de PrP^Sc sem necessidade de DNA ou RNA patogênico.
+  C) Encefalite herpética, com material genético viral presente nos buracos espongiformes do
+  córtex.
+  D) Esclerose múltipla, com perda da bainha de mielina em placas pelo córtex cerebral inteiro.
+  E) Hidrocefalia, com dilatação ventricular gerando os buracos observados no exame
+  microscópico.
+
+                      30
+NEBLI                     ETAPA 2 -- QUESTÕES OBJETIVAS
+
+Questão 29 Aplicação
+
+Paciente homozigoto para HbS chega ao pronto-socorro com dor torácica intensa após esforço físico.
+Saturação de O caída. Hemograma mostra eritrócitos em forma de foice predominante.
+Como o estado de hipóxia relaciona-se ao quadro de dor descrito?
+
+  A) Hipóxia eleva o pH sanguíneo, e o pH alcalino faz a HbS protonar e polimerizar localmente.
+  B) Hipóxia ativa as secretases que clivam HbS em fragmentos amiloidogênicos liberados no
+  plasma.
+  C) Hipóxia desnatura HbS pelo aquecimento metabólico associado ao esforço físico do
+  paciente.
+  D) Hipóxia aumenta a fração de HbS desoxigenada, e só HbS-desoxi polimeriza em fibras.
+  E) Hipóxia provoca lise direta dos eritrócitos sem necessidade de polimerização prévia da
+  HbS.
+
+Questão 30 Aplicação
+
+Estudos recentes investigam fármacos que previnam a agregação intracitoplasmática de alfa-sinu
+cleína em neurônios dopaminérgicos. A hipótese é que reduzir a agregação preserve a função celular
+e mitigue sintomas motores.
+Em qual passo da fisiopatologia do Parkinson essa estratégia interfere diretamente?
+
+  A) No próprio evento de polimerização da sinucleína em corpos de Lewy intraneuronais.
+  B) Na recaptação de dopamina pelos terminais pré-sinápticos da substância negra do hos
+  pedeiro.
+  C) Na expressão do gene da alfa-sinucleína no DNA dos neurônios afetados pela doença.
+  D) Na destruição autoimune de neurônios dopaminérgicos da substância negra dorsal
+  isolada.
+  E) Na conversão de levodopa em dopamina pela enzima dopa-descarboxilase em terminais
+  nervosos.
+
+                      31
+NEBLI                            ETAPA 2 -- QUESTÕES OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+Explique por que a Val da posição 6 da cadeia  em HbS, e não o Glu da HbA, dispara a
+polimerização das hemoglobinas em estado desoxigenado.
+
+    MODELO DE RESPOSTA
+
+   Glu é polar e carregado negativamente; Val é apolar. No estado desoxigenado, um bolso
+   hidrofóbico fica exposto na superfície da Hb. A Val da HbS encaixa nesse bolso de uma
+   Hb vizinha -- duas faces apolares se encontram para escapar da água. A HbA com Glu
+   não encaixa: cargas negativas não se enterram em bolso hidrofóbico. Cada contato Val-
+   bolso recruta outra Hb e a fibra cresce em rede longa que distorce o eritrócito. Em HbA
+   oxigenada o bolso nem fica exposto; daí a mutação só repercutir em desoxi.
+
+Questão Q2
+Justifique mecanisticamente por que a desnaturação proteica é, na prática celular, irre
+versível, ainda que termodinamicamente seja reversível.
+
+    MODELO DE RESPOSTA
+
+   Anfinsen mostrou que a sequência primária contém a informação para redobrar -- em
+   tubo diluído, RNase desnaturada volta à forma nativa. Mas dentro da célula a concen
+   tração proteica é altíssima. Quando uma proteína desdobra, seus resíduos hidrofóbicos
+   antes enterrados ficam expostos. Em milissegundos, esses resíduos encontram regiões
+   equivalentes em outras moléculas também desdobradas. As faces apolares se associam
+   para escapar da água, formando agregado intermolecular estável. O agregado tranca o
+   estado desnaturado: não há volta individual. A irreversibilidade não é termodinâmica
+   -- é cinética, ditada pela competição entre redobrar e agregar.
+
+                             32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique como a deficiência de vitamina C, agindo sobre uma única enzima, produz os
+sintomas hemorrágicos e cicatriciais do escorbuto.
+
+MODELO DE RESPOSTA
+
+A enzima é a prolil-hidroxilase, que insere OH na prolina do procolágeno usando Fe² no
+sítio ativo. A vitamina C mantém esse ferro reduzido. Sem vitamina C, Fe oxida, enzima
+não funciona, prolinas saem sem virar Hyp. As pontes de hidrogênio que estabilizam a
+tripla-hélice se formam principalmente via OH da Hyp entre as três cadeias; sem Hyp,
+ficam fracas. Colágeno secretado é frágil. Como colágeno sustenta vasos sanguíneos,
+gengivas, pele e cicatrizes, todos esses tecidos perdem resistência mecânica -- daí o
+sangramento gengival, equimoses e feridas que não fecham.
+
+Questão Q4
+
+Mostre como o paradoxo de Levinthal é resolvido pelo conceito de funil de energia e o
+intermediário molten globule.
+
+    MODELO DE RESPOSTA
+
+   Levinthal: 100 aminoácidos × 3 conformações cada  10 possibilidades. Busca
+   aleatória demoraria mais que a idade do universo. Real: dobramento leva milissegundos
+   a segundos. A resolução vem em duas peças. Primeira, o caminho não é plano -- é um
+   funil. Cada passo na direção da forma nativa restringe enormemente as conformações
+   ainda possíveis. Segunda, o caminho começa com colapso hidrofóbico: em milissegun
+   dos, resíduos apolares se enterram para escapar da água, formando o molten globule
+   (compacto mas ainda sem terciária final). Depois é ajuste fino. Funil substitui planície,
+   e a busca aleatória deixa de ser necessária.
+
+       33
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro: um colega afirma: "A doença da vaca louca é causada por um vírus de
+DNA neurotrópico que ataca o cérebro produzindo os buracos espongiformes. Como é
+um vírus, dá pra desenvolver vacina e antivirais como nas outras doenças virais." Aponte
+a falha conceitual central e corrija com o mecanismo correto.
+
+MODELO DE RESPOSTA
+
+Erro central: tratar a doença da vaca louca (BSE) como infecção viral. Não é. O agente in
+feccioso é a própria proteína PrP em sua conformação patológica (PrP^Sc), sem qualquer
+ácido nucleico envolvido na transmissão. A PrP^Sc tem predominância de folha-beta
+(a PrP^C normal tem alfa-hélice). Quando uma PrP^Sc encontra PrP^C, serve de molde
+e converte a normal em patológica -- o processo é autocatalítico, sem necessidade de
+DNA ou RNA. Por isso vacinas convencionais não se aplicam: não há antígeno viral. A
+PrP^Sc também resiste a calor, formol e proteases. A descoberta dessa biologia rendeu
+Prêmio Nobel a Stanley Prusiner em 1997, justamente por contrariar o dogma "infecção
+exige ácido nucleico".
+
+       34
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C     Q02 D         Q03 CECE  Q04 B     Q05 A
+                        Q08 C
+Q06 CCEC  Q07 E                   Q12 A     Q13 CCCE
+                        Q11 B     Q17 A     Q18 E
+INTEGRAÇÃO (Q11­Q25)    Q16 EECC  Q22 EECE  Q23 B
+                        Q21 C
+Q09 D     Q10 EEEC                Q29 D     Q30 A
+                        Q28 B
+Q14 C     Q15 E
+
+Q19 CCEE  Q20 D
+
+Q24 A     Q25 CECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 E     Q27 C
+
+                        39
+

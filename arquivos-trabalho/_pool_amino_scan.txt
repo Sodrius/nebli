@@ -1,0 +1,259 @@
+### #AK_Step1_v12/01_Introduction_to_Proteins [3]
+xx%5cls,yo	What are the 9 (10*) essential amino acids ? [Phenylalanine] [Valine] [Threonine] [Tryptophan] [Isoleucine] [Methionine] [Histidine] [A
+jLQd{iNz8N	Are the essential amino acids methionine , valine , and histidine ketogenic or glucogenic ? [Glucogenic]
+BImfm8S~Yk	Are the amino acids phenylalanine , isoleucine , threonine , tryptophan, and tyrosine ketogenic or glucogenic ? [Both :)]
+### #AK_Step1_v12/02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases [13]
+b]_`hD&R[Q	One example of a post-translational modification is [trimming], which entails the removal of N- or C-terminal propeptides from a zymoge
+NF,U5$hZo(	Pepsinogen (inactive) is converted into [ pepsin ] (active) in the presence of [ H + ]
+rbjz5NWZw]	Pepsinogen is secreted in response to [ vagal stimulation ] and [ local H + ]
+JKmW;$0N)~	Digestion of protein begins in the stomach with the action of [pepsin]
+oVP:_LrGvD	The first step in intestinal protein digestion involves activation of [ trypsinogen ] (inactive) to [ trypsin ] (active)
+O|cNc=BXu~	Trypsinogen is converted to trypsin via [ enteropeptidase ( enterokinase ) ], a brush-border enzyme on duodenal and jejunal mucosa
+xBp_+kM(kT	Which pancreatic protease cleaves all pancreatic proenzymes to their active forms? [Trypsin]
+tvEjrMn<Dz	[ Chymotrypsinogen ] (inactive) is activated to chymotrypsin (active) via trypsin
+p9vyBpTE;.	[ Proelastase ] (inactive) is activated to elastase (active) via trypsin
+FJv}xiJ(])	[ Procarboxypeptidase ] (inactive) is activated to carboxypeptidase (active) via trypsin
+r<#e8$u@m7	Trypsin results in [ increased ] cleavage of trypsinogen to trypsin
+KZP^m=7t.4	What test(s) is/are used to indirectly assess pancreatic function ? [Serum or fecal elastase]
+xEqIW[RAe$	Pancreatic insufficiency is associated with [ decreased ] excretion of fecal elastase
+### #AK_Step1_v12/03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption [1]
+IkM:;[8%K9	L-amino acids are transported from the intestinal lumen into the cells by [ Na + ] -mediated cotransport
+### #AK_Step1_v12/04_Phenylalanine_Tyrosine_and_Catecholamines [22]
+DQd%Psy@JZ	Which amino acids are the precursors to catecholamines and melanin ? [Phenylalanine, tyrosine]
+K>PWO)|/6G	[ Phenylalanine ] may be converted to [ tyrosine ] via the enzyme [ phenylalanine hydroxylase ], with [ BH 4 (tetrahydrobiopterin)] as 
+iKY~M@%[&w	Deficiency of the enzyme [ phenylalanine hydroxylase ] causes [phenylketonuria (PKU) ]
+u@6qJ<Y5B[	In addition to phenylalanine hydroxylase deficiency ( classic PKU ), malignant phenylketonuria is most commonly caused by a(n) [ dihydr
+pR.(GO,83-	What amino acid becomes essential in patients with phenylketonuria ? [Tyrosine]
+m6uBO)o[gc	Increased phenylalanine (e.g., in PKU) results in excess [phenylketones] in the urine
+u>Sl|iq*K6	[ Phenylketonuria (PKU)] is a metabolic disorder characterized by a(n) [ musty ] body odor
+I./wW!(V3-	Patients with phenylketonuria (PKU) must avoid the artificial sweetener [aspartame], which contains phenylalanine
+hsd;aPwX1;	[ Homogentisic acid ] (from tyrosine) may be converted to [ maleylacetoacetate ] via the enzyme [ homogentisate oxidase ]
+sCOCtHVBJP	Deficiency of the enzyme [ homogentisate oxidase ] causes [ alkaptonuria ]
+BaJrMsUYmC	Alkaptonuria is usually benign but may present with debilitating [ arthralgias ]
+Fht^U=msu#	Maleylacetoacetate , from homogentisic acid , is used to make [ fumarate ], which then enters the Krebs cycle
+ykAFTsD;zT	[ Tyrosine ] is converted to [ dihydroxyphenylalanine (DOPA)] via the enzyme [ tyrosine hydroxylase ] (with [ tetrahydrobiopterin (BH 4
+y5>:6L&%J0	[ Dihydroxyphenylalanine (DOPA)] may be converted to [ melanin ] via the enzyme [ tyrosinase ]
+b;^M1~[(TG	Deficiency of the enzyme [ tyrosinase ] causes [ albinism ]
+iVSK3d@]1v	[ Dihydroxyphenylalanine (DOPA)] may be converted to [ dopamine ] via the enzyme [ DOPA decarboxylase ] (with [ vitamin B 6 ] as a cofa
+mup&?FL859	[ Norepinephrine ] may be converted to [ epinephrine ] via the enzyme [ phenylethanolamine-N-methyltransferase (PNMT)] (with [ SAM ] as
+cs8ljxV[eK	What is the initial breakdown product of epinephrine ? [Metanephrine]
+bj~~rj$L&,	Norepinephrine may be broken down into [ normetanephrine ] via the enzyme catechol-O-methyl transferase (COMT)
+quYbv1u;x2	What is the breakdown product of normetanephrine (from NE) and metanephrine (from EPI)? [Vanillylmandelic acid (VMA)]
+LO6/BStghF	What is the breakdown product of dopamine ? [Homovanillic acid (HVA)]
+xPtkj>111&	Dopamine in the CNS may be degraded to [ 3-methoxytyramine (3-MT)] via the enzyme [ catechol-O-methyltransferase (COMT)]
+### #AK_Step1_v12/05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria [9]
+ORNLiJmZ%c	What is the mode of inheritance of phenylketonuria (PKU)? [Autosomal recessive]
+O;<+%YnACF	When are patients screened for phenylketonuria ? [2 - 3 days after birth]
+v+Ts<o6YZ4	Why is screening for phenylketonuria performed 2-3 days after birth ? [May be normal at birth due to maternal enzymes]
+u<KDR6C0%~	Phenylketones include [phenylacetate], [phenyllactate], and [phenylpyruvate]
+u12i4K[[]u	Phenylketonuria may present with [ hypopigmented ] skin , eczema, [ intellectual ] disability , growth retardation, and seizures
+B$Jro&j38<	[ Maternal ] phenylketonuria is due to lack of proper dietary therapy during pregnancy
+r9g3)uR@$C	Maternal PKU may present with [micro]cephaly, intellectual disability, growth retardation, and congenital [heart] defects in the infant
+Q7v7@HVnOx	Treatment for phenylketonuria includes a diet low in [ phenylalanine ] with supplemental [ tyrosine ] ± [ BH 4 (tetrahydrobiopterin) ]
+E)Ari&edMe	Patients with phenylketonuria develop hypopigmentation of what brain nuclei? [Catecholaminergic brain nuclei]
+### #AK_Step1_v12/12_Branched_Chain_Amino_Acids [10]
+Pd2oHzpWuj	Which amino acids are characterized by branched side chains ? [Isoleucine, leucine, and valine]
+I2CmA/oKiQ	Deficiency of the enzyme [ branched-chain α-ketoacid dehydrogenase ] causes [ maple syrup urine disease (MSUD)]
+ks}6Rqj;IO	Maple syrup urine disease is characterized by blocked degradation of [branched] amino acids
+s/edOG*8f{	Maple syrup urine disease causes increased [α-ketoacids] in the blood, especially those of [ leucine ]
+pEmt9f49pp	What is the mode of inheritance of maple syrup urine disease ? [Autosomal recessive]
+xU].S!4W-r	[Maple syrup urine (MSUD)] disease presents with vomiting , poor feeding , and urine that smells like burnt sugar
+o9F[,T1j1U	Maple syrup urine disease may cause severe CNS defects, [intellectual] disability, and death
+G}Kl8mh&?8	Dietary ingestion of which amino acids should be restricted in patients with maple syrup urine disease ? [Isoleucine, leucine, and vali
+x0XbgH_frw	Treatment of maple syrup urine disease includes high-dose [thiamine] supplementation
+M*d3Gh)yoA	Thiamine pyrophosphate (B 1 ) is a cofactor for the enzyme [ branched-chain α- ketoacid dehydrogenase ] (amino acid metabolism)
+### #AK_Step1_v12/13_Summary_of_High_Yield_Disorders_of_Amino_Acid_Metabolism [1]
+c#:kun9ms?	[ Homocystinuria ] is a metabolic disorder that may present with [ marfanoid ] habitus , however with lens dislocation that subluxes [ 
+### #AK_Step1_v12/14_Ammonia_Transport_Cahill_(Alanine)_Cycle [12]
+QLqL-K$,Mn	In the muscle , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ketoacids ]
+bXYI%a7Swl	In the muscle , glutamate transfers its NH 3 group to [ pyruvate ], forming [ alanine ] and [ α-ketoglutarate ]
+lWBzfrb/0c	The NH 3 from amino acid breakdown in muscle is transported into the blood in the form of [ alanine ]
+wZ@XuH5;NV	What class of enzymes is used in the transfer of NH 3 groups during nitrogen metabolism ? [Aminotransferases]
+vZQy.xy{kI	In the liver , alanine transfers its NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ pyruvate ]
+u3U/`7SL.q	In the liver , [ glutamate ] may transfer a molecule of NH 3 to the urea cycle , reforming α-ketoglutarate
+yR{zY7^L5v	In the liver , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ketoacids ]
+z%C`.Rb*Cv	In the liver , glutamate may transfer its NH 3 to [ oxaloacetate ], forming [ aspartate ] and [ α-ketoglutarate ]
+D_De4kY^cE	Pyruvate is converted to [alanine] via the enzyme [ alanine aminotransferase (ALT) ] (Cahill cycle)
+mP!^0sgo4H	Does the Cahill cycle result in regeneration of NAD + ? [No]
+Q4{Hj04Au2	What is the major gluconeogenic amino acid in the liver? [Alanine]
+w}z+SX7MWd	Alanine is converted to [pyruvate] by alanine aminotransferase (ALT) during the process of gluconeogenesis
+### #AK_Step1_v12/15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine [4]
+sF_!99^xPu	What is the major transport form of NH 3 in the blood (from most tissues )? [Glutamine]
+pcTd9j~;E9	Which tissue/organ uses alanine as its major transport form of NH 3 ? [Muscle]
+m7JUy(E*@|	Pyruvate is converted to [lactate] via the enzyme [ lactate dehydrogenase (LDH) ] (Cori cycle)
+HW}[6lqtrv	[ Alcoholic ] hepatitis is characterized by elevated liver enzymes with ALT [ < ] AST
+### #AK_Step1_v12/16_Urea_Cycle_Pathway [14]
+zb/zN%(S,B	Urea has two nitrogen molecules , one from [ NH 3 ] and one from [ aspartate ]
+Dn}eE=Vk0,	Does the urea cycle occur in the cytoplasm or mitochondria ? [Both :)]
+iBragZr`GY	Where in the cell does the urea cycle begin ? [Mitochondria]
+uWx#,?8}8n	Most excess nitrogen generated by catabolism of amino acids is excreted as [urea], which is made in the liver
+l_?4W2sTp{	The urea cycle begins with [ NH 3 ], [ CO 2 ], and 2 [ ATP ]
+xJ)rl&xU2<	In the first step of the urea cycle , CO 2 and NH 3 are combined to form [ carbamoyl phosphate ] via the enzyme [ carbamoyl phosphate s
+Dw3-+2s|l|	What is the rate-limiting enzyme of the urea cycle ? [Carbamoyl phosphate synthetase I]
+d;Gij(Cz|L	[ N-acetylglutamate ] is a(n) [obligate] activator of carbamoyl phosphate synthetase I
+H6V{E>0.L{	Which metabolic pathways require an obligate activator ? 1. [ Gluconeogenesis ] 2. [ Urea cycle ]
+eH~2TvRo6l	[ Carbamoyl phosphate ] may be combined with [ ornithine ] to form [ citrulline ] via the enzyme [ ornithine transcarbamylase (OTC)]
+MUs@wN0G7e	[ Citrulline ] may be combined with [ aspartate ] to form [ argininosuccinate ] via the enzyme argininosuccinate synthetase (requires 1
+fNqj{`7]HD	Argininosuccinate may be broken down into [ arginine ] and [ fumarate ] via the enzyme argininosuccinase
+y9x,U?-0^,	Arginine may be broken down into [ ornithine ] and [ urea ] via the enzyme [ arginase ]
+I,}oNREhR&	Where in the cell is the carbamoyl phosphate synthetase I enzyme found? [Mitochondria (urea cycle)]
+### #AK_Step1_v12/17_Urea_Cycle_Clinical_Implications [11]
+li(7MQ4.uw	What is the normal serum BUN:creatinine ratio? [~ 15:1]
+x2=q,rdequ	In prerenal azotemia , the BUN:creatinine ratio is [>] 20:1
+Ac<snea>PX	In early postrenal azotemia , the BUN:creatinine ratio is [>] 15
+kL?V4ft`S*	In long-standing (severe) postrenal azotemia , the BUN:creatinine ratio is [<] 15
+uD?2kJ0d5%	In acute tubular necrosis , the BUN:creatinine ratio is [<] 15
+fXRQC-5~~+	Renal failure is associated with an inability to make [urine] and excrete [nitrogenous] wastes
+sOPWi##LYJ	Hyperammonemia results in excess NH 3 , which depletes [ α-ketoglutarate ], leading to inhibition of the TCA cycle
+h0TU@xYD^t	Part of the treatment for hyperammonemia is limiting [protein] in the diet
+F1is!3#Z.6	What treatments for hyperammonemia act by decreasing colonic ammoniagenic bacteria ? [Rifaximin and neomycin]
+O~HvN,jNh!	Symptoms of hyperammonemia include tremor ([asterixis]), slurred speech, somnolence, vomiting, cerebral edema, and blurry vision
+oYn(TIgem&	What are the agents used to lower NH 3 levels in hepatic encephalopathy ? First-line: [Lactulose] Second-line: [Rifaximin]
+### #AK_Step1_v12/18_Disorders_Of_The_Urea_Cycle [25]
+rg$=p|zphB	Disorders of the urea cycle interfere with the body's ability to eliminate [ammonia (NH 3 )]
+xug|mzq!*8	Carbamoyl phosphate synthetase I deficiency presents with [ increased ] NH 4 + and [ hyper ] ammonemia
+F2sagw5/d~	Carbamoyl phosphate synthetase I deficiency presents with [ increased ] glutamine
+C-zX9A1q+X	Carbamoyl phosphate synthetase I deficiency presents with [ decreased ] BUN
+A{iAN],dtA	What is the mode of inheritance of carbamoyl phosphate synthetase I deficiency ? [Autosomal recessive]
+E1p#`C}6^w	Does carbamoyl phosphate synthetase I deficiency present with increased urine orotic acid ? [No]
+HRq,Gt@Ey{	What other enzyme deficiency presents identically to carbamoyl phosphate synthetase I deficiency ? [ N-acetylglutamate synthase deficie
+paxXt/+82;	Carbamoyl phosphate synthetase I deficiency presents in [neonates] as poorly regulated respiration and body temperature , poor feeding 
+NZuP(>[jT7	What is the most common urea cycle disorder ? [Ornithine transcarbamylase (OTC) deficiency]
+PF#PEhqcCi	What is the mode of inheritance of ornithine transcarbamylase (OTC) deficiency ? [X-linked recessive]
+cJIL_G@9li	Ornithine transcarbamylase (OTC) deficiency often presents within the first few [days] of life but may present later
+vYv&XKo`LG	Does ornithine transcarbamylase deficiency present with increased urine orotic acid ? [Yes]
+O38Xo,QIbt	Ornithine transcarbamylase (OTC) deficiency presents with [ increased ] NH 4 + and [ hyper ] ammonemia
+D+rhB41_!3	Ornithine transcarbamylase (OTC) deficiency presents with [ increased ] serum glutamine
+Nit:9,2DQm	Ornithine transcarbamylase (OTC) deficiency presents with [ decreased ] BUN
+MSK:1=4QK%	Ornithine transcarbamylase (OTC) deficiency presents with increased [ orotic ] acid in the blood and urine
+d-Gt<EHf>G	Does ornithine transcarbamylase (OTC) deficiency present with megaloblastic anemia ? [No]
+d[Nk,N1M7|	Carbamoyl phosphate is combined with [ aspartate ] to form [ orotic acid ] (pyrimidine synthesis)
+h4yk.%ArRU	[ Orotic aciduria ] occurs due to the inability to convert orotic acid to UMP due to a defect in the enzyme [ UMP synthase ] (pyrimidin
+rj%wAY*`Ov	What is the mode of inheritance of orotic aciduria ? [Autosomal recessive]
+uDHjG{s](L	[ Orotic aciduria ] presents in children as failure to thrive, developmental delay, and [megaloblastic] anemia refractory to folate and
+Pto;A?fPe(	Does orotic aciduria present with hyperammonemia ? [No]
+B%]W.]*I}A	Does orotic aciduria present with decreased BUN ? [No]
+OYKo[q(ObR	Orotic aciduria is treated with UMP or [ uridine triacetate ] to bypass the mutated enzyme
+Q`CIg#d7Ej	Most disorders of the urea cycle require [arginine] as an essential amino acid, particularly during episodes of hyperammonemia
+### #AK_Step1_v12/05_Ubiquitin_-Proteasome [13]
+XjjHv,Sg3	When proteins are misfolded , multiple [ubiquitins] are added, which aids in trafficking to the proteasome
+PxbQ:G[?T`	The [proteasome] is a barrel-shaped protein complex that degrades damaged or ubiquitin-tagged proteins
+r`9hu[IyO&	Defects in the ubiquitin-proteasome system have been implicated in some cases of [Parkinson] disease
+NB-:5x&=h#	Degeneration of the neurons of the brainstem and [ basal ganglia ] leads to movement disorders (e.g., Parkinson disease, Huntington dis
+lb,=L#W:}y	Lewy body dementia is characterized by intracellular Lewy bodies primarily in the [cortex]
+vx(mEe%V!t	Atrophy via decrease in cell size may occur via [ubiquitin-proteasome] degradation of cytoskeleton
+kBnwY-%S#w	Proteasome inhibitors ([ -zomibs ]) are antineoplastics that inhibit cell cycle progression at the [ G2-M phase ]
+z53p~@7_o=	[ Ubiquitin ] ation of proteins recruits the [ proteasome ] to degrade them
+vnHb.z,m)b	Proteasome inhibitors work best in cancers that mark [pro-apoptotic] proteins to be targeted for degradation too quickly
+A0_=Uys_(D	Proteasome inhibitors are used to treat [ multiple myeloma ] and [ mantle cell lymphoma ]
+gKTeo9*L/f	The ubiquitin-proteasome system is recruited in response to [ damaged ] proteins as a result of cellular stress
+ckmt!0~B1_	If parkinsonism predates cognitive impairment by > 1 year, this is suggestive of [ Parkinson disease dementia ]
+d]bn#!OE?4	If cognitive impairment predates parkinsonism , this is suggestive of [Lewy body dementia]
+### #AK_Step1_v12/22_Amino_acids [17]
+n65MnNuZat	Which amino acid is the precursor to serotonin and niacin ? [Tryptophan]
+e&+/z=,+{>	Which amino acid is the precursor to histamine ? [Histidine]
+w/]/3d6D{8	The amino acids [ aspartate ] and [ glutamate ] are negatively charged at body pH ( acidic )
+Ai`)6q%Y1$	The amino acids [ lysine ] and [ arginine ] are positively charged at body pH ( basic )
+pFvxU&9M{N	What is the charge of the amino acid histidine at body pH? [No charge]
+f`m8;F)((A	Which amino acids are the target of protein kinase A and protein kinase C ? [Serine and threonine]
+w:cvRa;tb4	Which amino acids are required during periods of growth ? [Arginine and histidine]
+mlwF:$cuE)	Which amino acids are only ketogenic ? [Leucine and lysine]
+fCt5YO^/i:	The amino acid [ arginine ] is essential during periods of [ positive ] nitrogen balance
+H&pKqpZgi$	[ Leucine ] is eventually broken down into [ acetyl-CoA ] via the enzyme [ branched-chain α-ketoacid dehydrogenase ]
+cCt~xUu*&W	[ Isoleucine ] and [ valine ] are eventually broken down into [ propionyl-CoA ] via the enzyme [ branched-chain α-ketoacid dehydrogenas
+b%*6|i!o#m	[ Propionyl-CoA ] may be generated via the " VOMIT " pathway: [ V aline] [ O dd-carbon fatty acids] [ M ethionine] [ I soleucine] [ T h
+c]{pc$W!!s	Propionyl-CoA may be generated via the [ VOMIT ] pathway
+FP@MDhY!:B	Propionyl-CoA is converted to [ methylmalonyl-CoA ] via the enzyme [ propionyl-CoA carboxylase ]
+se]85C=Qy~	Methylmalonyl-CoA may be converted to [ succinyl-CoA ] via the enzyme [ methylmalonyl-CoA mutase ] (with [vitamin B 12 ] as a cofactor)
+N,kV%!oB4=	If methylmalonyl-CoA mutase is dysfunctional , [methylmalonic acid] accumulates in the blood and urine
+JF#IbeK*Ve	The amino acid [ asparagine ] is essential for rapidly dividing tumor cells
+### #AK_Step1_v12/23_Urea_cycle [5]
+I7v4Quw[rO	Which metabolic enzymes require an obligate activator ? 1. [ Pyruvate carboxylase (acetyl-CoA)] 2. [ Carbamoyl phosphate synthetase I (
+Kx.8LMUgzy	What happens to the urea that is formed via the breakdown of arginine ? [Excreted in the urine]
+Co`G<97skG	What happens to the ornithine that is formed via the breakdown of arginine (urea cycle)? [It is recycled]
+eb-0|LSJLA	How do levels of serum blood urea nitrogen (BUN) change with liver dysfunction ? [Decreased]
+MBX=ryB7l9	How do levels of serum blood urea nitrogen (BUN) change with kidney dysfunction ? [Increased]
+### #AK_Step1_v12/25_Hyperammonemia [2]
+OTs_MJW17!	What treatment for hyperammonemia acts by acidifying the GI tract , thus trapping NH 4 + for excretion? [Lactulose]
+kKuEyBfvfn	What three treatments for hyperammonemia act by reacting with glycine / glutamine , forming products that are renally excreted ? - [Ben
+### #AK_Step1_v12/07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency [3]
+Abl)G`fSpq	[ Rifaximin and neomycin ] are poorly absorbed antibiotics that eradicate ammonia-producing intestinal bacteria and thus treat [ hepati
+Fb7&J:|yYg	In the intestine , NH 3 may be produced by intestinal [ bacteria ]
+BR1yz{>##}	Cirrhosis may present with neuropsychiatric symptoms due to increased serum [ ammonia (NH 3 ) ]
+### #AK_Step1_v12/08_Cahill_Cori_Cycles [3]
+jkH:E[(XCB	What vitamin acts as a cofactor for aminotransferase enzymes? [Vitamin B 6 (Pyridoxal phosphate)]
+Ft{{LY@Clb	Conversion of pyruvate → lactate (Cori cycle) recycles one molecule of [NAD + ]
+u,aUNj,>,<	Does the Cori cycle result in regeneration of NAD + ? [Yes]
+### #AK_Step1_v12/04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU) [1]
+Px>]6BrhpY	What is the treatment for phenylketonuria (PKU)? [Decrease phenylalanine in diet] and [increase tyrosine content]
+### #AK_Step1_v12/01_Amino_Acids_Overview [4]
+geE;1{[O*c	Histones are rich in the amino acids [lysine] and [arginine]
+c]J/wADkf$	In the [ rough ER ], co-translational [ N-glycosylation ] adds sugars onto the amino acid [ asparagine ]
+kEZ<U#rol;	In the [ Golgi apparatus ], post-translational [ O-glycosylation ] adds sugars onto the amino acids [ serine ] and [ threonine ]
+MkV:M0v!RY	Cystine is made of two [cysteine] amino acids connected by a disulfide bond
+### #AK_Step1_v12/04_Ammonia [11]
+f;/!*tpk$%	In addition to its use as an osmotic laxative , [ lactulose ] may be used in the treatment of [ hepatic encephalopathy ]
+e~]uj8,{*=	What is the mechanism of action by which lactulose treats hepatic encephalopathy ? [Lactulose is metabolized into acidic metabolites, w
+f6d8XCnCm9	The NH 3 in the intestine may be transported to the liver in the form of [ NH 3 ] in the portal blood
+e6NVfyAC97	NH 3 is excreted in the urine primarily in the form of [ urea ] (from the liver) and [ NH 4 + ] (from glutamine breakdown)
+tt|Jv3n-+n	Which tissue/organ uses NH 3 as its major transport form of NH 3 ? [Intestines (via portal blood)]
+Iw%lZyl]sr	Where in the cell is the carbamoyl phosphate synthetase II enzyme found? [Cytoplasm (pyrimidine synthesis)]
+n;?Hl>=@O-	[ Pyruvate dehydrogenase ] deficiency causes a buildup of pyruvate that gets shunted to [ lactate ] (via LDH) and [ alanine ] (via ALT)
+l|]xUNW|:X	Pyruvate dehydrogenase deficiency is characterized by [ increased ] serum alanine starting at infancy
+EwlV**&TzR	[ Astrocytes ] are glial cells that are capable of removing excess neurotransmitters
+B2PKwuYH{y	[ Anti-cyclic citrullinated peptide (anti-CCP)] antibody is specific for [ rheumatoid arthritis ]
+K%F^osER0W	Anti-CCP > anti-RF antibodies is suggestive of [rheumatoid arthritis]
+### #AK_Step1_v12/01_Amino_Acids [7]
+bOza^86(up	A(n) [ nucleosome (10 nm chromatin)] is negatively charged DNA wrapped around the outside of positively charged proteins called [histon
+yg7G1*FlM|	Most proteins are [negatively] charged
+z=aEROfO=]	The Henderson-Hasselbalch equation for any buffer states that: [pH] = [\(pK_a\space +\space log \left(\frac{[A^-]}{[HA]}\right)\)]
+p&@#g(PYUd	A strong acid (e.g., HCl) has a(n) [ lower ] pK than a weak acid
+u8;dYQ=e.:	When the pH of a solution equals the [pK] , the concentrations of the [A - ] and [HA] form of the buffer are equal
+HM,@Q^ec,t	Which amino acid is the precursor to creatine ? [Arginine]
+ys[jQ2#2Zv	Sickle cell anemia occurs due to a point mutation that substitutes [ glutamic acid ] (hydrophilic) with [ valine ] (hydrophobic)
+### #AK_Step1_v12/02_Phenylalanine_and_Tyrosine [45]
+sgl#H=p)NB	Amine hormones are derivatives of the amino acid [tyrosine]
+wL9Wo_umsM	Amine hormones include [ thyroid ] hormones and [ catecholamines ] (epinephrine, norepinephrine, and dopamine)
+qRAl!RmPYu	Prolactin secretion is [ tonically inhibited] by [ dopamine ]
+I*:320bqo(	The glycoprotein thyroglobulin (TG) contains large quantities of the amino acid [tyrosine]
+hg0:`Qz5))	[ Pheochromocytoma and neuroblastoma ] are diagnosed by increased serum and urine levels of catecholamines , or their breakdown product
+g>i)h}u;?B	[ Alkaptonuria ] is a metabolic disorder associated with [ black ] -colored urine after prolonged exposure to air
+s`ige<(r?N	Methionine is combined with adenosine (using ATP) to form [ S -adenosylmethionine (SAM)]
+rc)22IWJY(	S-adenosylmethionine (SAM) is a(n) [methyl] donor
+O2I2%DN-{y	S-adenosylmethionine (SAM) donates a CH 3 group to anabolic pathways, forming [ S-adenosylhomocysteine ]
+f/w{sU3yWJ	S-adenosylhomocysteine breaks down into adenosine and [ homocysteine ]
+j&a93qXfd@	[ Dopamine ] may be converted to [ norepinephrine ] via the enzyme [ dopamine β-hydroxylase ] (with [ vitamin C ] as a cofactor)
+e2-Rv0vOH1	What vitamin is used as a cofactor for synthesis of glutathione , cystathionine , heme , niacin , histamine , and neurotransmitters ? [
+qyBws/>FVu	Vitamin B 9 (folate) is converted to [ tetrahydrofolate (THF)], a coenzyme for [ 1-carbon ] transfer/methylation reactions
+gq3n=d]99k	What does the carrier molecule S-adenosylmethionine (SAM) carry in its activated form? [CH 3 groups]
+Aiw(hqOQun	[Metyrosine] is a tyrosine analog that prevents conversion of tyrosine to L-DOPA
+J]Iv`Vz`m>	Wine and aged cheese contain the sympathomimetic [ tyramine ], which is metabolized by the enzyme [ monoamine oxidase A ]
+N@&6:@D56y	Monoamine oxidase inhibitors can prevent the metabolism of tyramine (e.g., from wine or cheese ingestion), causing a(n) [hypertensive] 
+p+D,)K8Gw$	What neurotransmitters are decreased in Parkinson disease ? [Dopamine] and [serotonin]
+x.Usy%_(>E	[MAO inhibitors] are an effective treatment for atypical depression , but not first-line due to their risk profile
+jK2{}+S_S^	Which neurotransmitter(s) is/are metabolized by monoamine oxidase A (MAO-A)? [Serotonin, norepinephrine, and dopamine]
+r!pwVrKTYC	Which neurotransmitter(s) is/are metabolized by monoamine oxidase B (MAO-B)? [Dopamine]
+cY}s$2O)Zd	[Tyramine] is a substance found in many aged foods (e.g., cheese, meats, alcohol)
+B9$|~tbAK4	Tyramine is metabolized by the enzyme [MAO-A] in the GI tract
+I+LC;Yr0~,	In the presence of MAO inhibitors , tyramine enters the circulation and acts as a(n) [sympathomimetic] agent
+j_qD?&atW7	MAO inhibitors may cause CNS [stimulation]
+r!c<He?U,*	[ Levodopa (L-DOPA)] is a precursor of dopamine that does cross the blood-brain barrier
+fxIW!gCyGA	Once in the CNS, L-DOPA may be converted to [ dopamine ] via the enzyme [ DOPA decarboxylase ]
+e;(M2M}c@I	[ Carbidopa ] is a peripheral [ DOPA decarboxylase ] inhibitor used to increase the bioavailability of levodopa
+}>SsuN@Bm	Carbidopa [ decreases ] the peripheral side effects of levodopa
+E<C<-kv%R_	Carbidopa [ exacerbates ] the neuropsychiatric side effects of levodopa
+BfRJ&[!uVS	Dopamine in the CNS may be degraded to [ DOPAC ] via the enzyme [ MAO-B ]
+QVw3K7Rxw{	Which immunodeficiency is characterized by impaired phagolysosome formation ? [Chédiak-Higashi syndrome]
+FIZCDt/EB?	Chédiak-Higashi syndrome is caused by a defect in the [ lysosomal trafficking regulator (LYST)] gene, resulting in impaired [ phagolyso
+cgS0[+wa~}	What cytoskeletal component is impaired in Chédiak-Higashi syndrome ? [Microtubules]
+eRjq)255J5	Which immunodeficiency is associated with albinism ? [Chédiak-Higashi syndrome]
+G7f:_P)B2h	Which immunodeficiency is characterized by giant granules in leukocytes and platelets ? [Chédiak-Higashi syndrome]
+I0I8S//ewL	Which immunodeficiency is associated with peripheral neuropathy and progressive neurodegeneration ? [Chédiak-Higashi syndrome]
+Tq0{]M<e2	Melanocytes synthesize melanin using the amino acid [tyrosine] as a precursor molecule
+A*66vj{1BN	Which skin disorder is characterized by congenital lack of pigmentation ? [Albinism]
+ItK=/tJQA>	Albinism is associated with increased risk of skin [cancer]
+lDt<zHu5**	What is the work-up for phenylketonuria ? [Check phenylalanine levels (on newborn screen or quantitative amino acid analysis )]
+EoI/+2({bs	Phenylketonuria screening should be done at what age ? [Newborn screening]
+p>iX<dwJY9	Oculocutaneous albinism (OCA) is inherited in a(n) [autosomal recessive] fashion
+hY(<|m@J1t	Ocular albinism is inherited in a(n) [X-linked recessive] fashion
+JU?wB4GD^@	Dysfunction of the hypothalamus leads to [ increased ] prolactin levels

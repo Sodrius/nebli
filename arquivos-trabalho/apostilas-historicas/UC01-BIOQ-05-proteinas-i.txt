@@ -1,0 +1,1436 @@
+NEBLI · APOSTILA
+
+Proteínas I
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. A meta aqui não é decorar nomes
+Onde estudar:  (-hélice, folha-, /, domínio) -- é entender por que cada nível de
+               estrutura aparece. Se você sair sabendo que o efeito hidrofóbico é um
+               problema entrópico da água, não uma atração entre apolares, já tem
+               70% do tema.
+
+               Lehninger 8ª ed, Cap. 4 (Estrutura tridimensional das proteínas). Alberts
+               7ª ed, Cap. 3 (parte sobre estrutura proteica). Stryer 9ª ed, Cap. 2 (figuras
+               particularmente claras de -hélice e folha-).
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Da ligação peptídica à cadeia 3D
+       1.1 A ligação peptídica: o aminoácido vira "resíduo"
+       1.2 Esqueleto, ângulos / e a coreografia do enovelamento
+       1.3 Por que cada sequência sempre dobra do mesmo jeito
+  PARTE II -- As forças que seguram a proteína junta
+       2.1 Ligação H, ponte salina e Van der Waals
+       2.2 Efeito hidrofóbico: o motor central do enovelamento
+       2.3 Ponte dissulfeto: a única covalente
+  PARTE III -- Os quatro níveis hierárquicos
+       3.1 Estrutura secundária: -hélice e folha-
+       3.2 Estrutura terciária e domínios
+       3.3 Estrutura quaternária
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    No resumo anterior você conheceu os aminoácidos -- as 20 letras do alfabeto da bioquímica.
+    Agora vamos juntar essas letras em palavras, frases e parágrafos: as proteínas. E aqui está o
+    pulo do gato -- a sequência de aminoácidos, por si só, não faz proteína nenhuma. O que faz a
+    hemoglobina carregar oxigênio, a quimotripsina cortar peptídeos no intestino e a insulina abrir
+    as portas das células para a glicose é a forma tridimensional que cada cadeia adquire ao se dobrar
+    sobre si mesma.
+    Esta etapa responde a uma pergunta: como uma fila linear de aminoácidos vira uma estrutura
+    3D com função biológica? A resposta tem três camadas. Primeiro, a ligação peptídica prende os
+    aminoácidos numa cadeia com geometria muito particular -- uma cadeia que pode girar em
+    alguns pontos e em outros não. Depois, forças não-covalentes (ligações de hidrogênio, pontes
+    salinas, Van der Waals e o protagonista da história, o efeito hidrofóbico) puxam a cadeia para uma
+    forma compacta. Por fim, essa forma organiza-se em quatro níveis hierárquicos -- primário,
+    secundário, terciário e quaternário -- cada um construído a partir do anterior.
+    Um aviso de antemão: o tema é cheio de vocabulário (-hélice, folha-, domínio, dímero, /...),
+    mas o mecanismo central é simples e elegante. Se você entender que cadeias laterais hidrofóbicas
+    fogem da água como gotas de óleo em vinagrete, já tem 70% do enovelamento na cabeça.
+
+PARTE I -- Da ligação peptídica à cadeia 3D
+
+1.1 -- A ligação peptídica: o aminoácido vira "resíduo"
+Vamos começar com uma reação química simples e ao mesmo tempo fundamental. Quando
+dois aminoácidos se aproximam, o grupo carboxila (-COOH) de um reage com o grupo amino (-
+NH) do outro, liberando uma molécula de água. O que sobra é uma ligação covalente C-N entre
+eles, chamada de ligação peptídica. É uma reação de condensação, ou seja, sai água. Repita
+esse processo dezenas, centenas, milhares de vezes, e você tem uma cadeia polipeptídica.
+
+   A primeira mudança de vocabulário acontece nesse momento. Quando um aminoácido livre
+entra numa cadeia, ele perde um -OH e um -H (que saíram como água), e o que sobra dele
+dentro da cadeia já não é mais um "aminoácido completo" -- passa a se chamar resíduo de
+aminoácido (ou simplesmente "resíduo"). É uma convenção importante: quando o livro diz "a
+hemoglobina tem 574 resíduos", está dizendo que ela tem 574 aminoácidos ligados em cadeia,
+cada um deles tendo perdido uma água ao entrar.
+
+3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Formação da ligação peptídica entre dois aminoácidos. Note que o grupo -COOH de um perde um -OH e o grupo -
+NH do outro perde um -H, formando HO. O que sobra de cada aminoácido na cadeia chama-se resíduo.
+
+Uma questão de tamanho: quando a cadeia tem menos de 50 resíduos, chamamos de peptídeo;
+quando passa de 50, chamamos de proteína. Não é um corte mágico, é convencional. Mas
+mostra que peptídeos pequenos como a oxitocina (9 resíduos), as encefalinas (5 resíduos) e
+o glucagon (29 resíduos) existem e têm funções biológicas potentes -- não precisam ser
+proteínas "completas" para atuarem.
+
+   Convenção de leitura: a cadeia sempre é escrita e lida da extremidade amino (N-terminal,
+com o grupo -NH livre) para a extremidade carboxila (C-terminal, com o grupo -COOH livre).
+Quando alguém diz "Gly-Ala-Ser", subentende-se que a glicina está no N-terminal e a serina
+no C-terminal. Essa direção tem consequências bioquímicas reais -- a síntese proteica no
+ribossomo acontece exatamente nessa ordem, NC.
+
+   Resumindo até aqui: Ligação peptídica = reação de condensação entre -COOH e -NH  sai HO 
+   liga C-N covalente. Aminoácido na cadeia vira "resíduo". Leitura sempre NC. <50 resíduos = peptídeo;
+   >50 = proteína.
+
+Agora uma propriedade da ligação peptídica que vai mudar tudo no próximo subtópico: ela
+tem caráter parcial de dupla ligação. Apesar de ser formalmente uma ligação simples C-N,
+os elétrons do oxigênio da carbonila (C=O) ressonam com a ligação adjacente, e o resultado é
+que os seis átomos próximos à ligação peptídica (os dois carbonos  + C, O, N, H) ficam todos
+travados em um plano rígido. Não há rotação livre em torno da ligação peptídica. Isso é o que
+define o que pode e o que não pode dobrar na cadeia.
+
+1.2 -- Esqueleto, ângulos / e a coreografia do enovelamento
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Imagine a cadeia polipeptídica desenrolada, esticada como um varal. Olhando atentamente,
+você percebe um padrão repetitivo: a sequência de átomos N-C-C-N-C-C-N-C-C... vai
+indefinidamente, com os grupos R (as cadeias laterais que distinguem cada aminoácido)
+pendurados em cada C como ornamentos numa árvore. Esse núcleo repetitivo da cadeia, sem
+os Rs, chama-se esqueleto (ou backbone) da proteína.
+
+O esqueleto da cadeia polipeptídica: átomos N-C-C encadeados, com os grupos R pendurados em cada C. Os
+ângulos  (entre C e N) e  (entre C e C) são os únicos pontos onde a cadeia pode rotacionar -- a ligação peptídica
+em si é rígida.
+
+Agora a parte interessante: quais ligações desse esqueleto podem rotacionar e quais não
+podem? Como vimos no fim de 1.1, a ligação peptídica (C-N) é rígida -- não roda. Mas as duas
+ligações que entram e saem do C -- a ligação C-N (de um lado) e a ligação C-C (do outro) --
+essas podem rotacionar livremente. Os ângulos dessas duas rotações têm nomes próprios: o
+ângulo entre C e N chama-se  (phi); o ângulo entre C e C chama-se  (psi).
+
+   Por que isso importa? Porque, para cada resíduo da cadeia, o par (, ) define exatamente
+para que lado a cadeia vai apontar a partir daquele ponto. Se você fixar os pares (, ) de todos
+os resíduos, a forma 3D da proteína está determinada. O enovelamento da proteína é, em
+última análise, a escolha do par (, ) de cada resíduo.
+
+   Resumindo até aqui: Ligação peptídica = rígida (não roda). Ligações em torno do C ( e ) = rotáveis.
+   A coreografia do enovelamento é a escolha do par (, ) de cada resíduo, posição por posição.
+
+Mas há uma restrição importante: nem todo par (, ) é fisicamente possível. Combinações que
+fariam átomos da cadeia colidirem entre si (impedimento estérico) ficam proibidas. Quando
+se faz o gráfico de quais pares (, ) são viáveis para um aminoácido qualquer, obtém-se
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+um padrão chamado diagrama de Ramachandran1: há regiões permitidas (que correspondem
+justamente a hélices e folhas) e regiões proibidas (que praticamente nenhuma proteína usa).
+É a geometria do esqueleto, mais do que qualquer "decisão" da cadeia, que canaliza o enovel
+amento para algumas formas específicas.
+
+Simulação do dobramento de uma cadeia polipeptídica. A forma final é aquela que maximiza interações favoráveis
+entre os resíduos. As rotações em  e  são o "como" mecânico; o efeito hidrofóbico (PARTE II) é o "por que"
+termodinâmico.
+
+1.3 -- Por que cada sequência sempre dobra do mesmo jeito
+Aqui temos um fato impressionante: uma cadeia polipeptídica com uma certa sequência de
+aminoácidos sempre se dobra da mesma maneira. Se você sintetizar a mesma sequência mil
+vezes em laboratório, todas as cópias vão adquirir a mesma forma 3D -- a chamada confor
+mação nativa2. Não há aleatoriedade no resultado final. A sequência contém a forma.
+
+   Como isso é possível, se em princípio uma cadeia de 100 resíduos poderia explorar um
+número astronômico de conformações? A resposta é que ela não explora todas; ela é guiada
+por interações que a forçam a uma forma com a menor energia possível. A conformação nativa
+é a forma que faz o máximo de interações favoráveis entre os resíduos da cadeia (e entre a
+cadeia e a água ao redor). Toda forma diferente da nativa é energeticamente pior -- e qualquer
+pequena perturbação tende a empurrar a cadeia de volta à forma certa.
+
+   Existe uma proposição famosa, vinda dos experimentos clássicos de Christian Anfinsen
+com a ribonuclease A nos anos 1960: toda a informação necessária para enovelar uma
+proteína está contida na sua sequência de aminoácidos. Não precisa de molde externo, não
+
+   1diagrama de Ramachandran ­ gráfico que mostra quais pares (, ) são geometricamente permitidos sem colisão
+entre átomos da cadeia
+
+   2conformação nativa ­ forma tridimensional única e funcional adquirida por uma cadeia polipeptídica em condições
+fisiológicas
+
+                                                                                 6
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+precisa de instrução adicional. A sequência primária basta. Esse princípio é o que permite,
+hoje em dia, que programas de inteligência artificial como o AlphaFold prevejam a estrutura
+3D de uma proteína a partir só da sequência -- porque, em princípio, a sequência já contém a
+resposta.
+
+Resumindo até aqui: Sequência de aminoácidos  conformação nativa única (mesma sempre). A
+forma escolhida é a de menor energia, com máximo de interações favoráveis. Toda a informação para
+enovelar está na sequência (princípio de Anfinsen).
+
+Mas, atenção: dizer que a informação está na sequência não significa que o enovelamento é
+trivial. Em uma célula real, várias proteínas precisam de "ajudantes" (chaperonas) para chegar
+à forma certa rapidamente e sem agregação -- mas esses ajudantes só aceleram o processo,
+não decidem qual será a forma final. A forma é decidida pela sequência. Essa parte do enov
+elamento (chaperonas, mal-enovelamento, desnaturação) é assunto de Proteínas II -- aqui
+ficamos no princípio.
+
+                              MAPA CONCEITUAL
+
+                                            I
+
+                              Sequência contém forma
+
+                              
+
+1.1 ­ Ligação peptídica              1.2 ­ /                      1.3 ­ Nativa
+
+C-N rígida; condensação -HO;   Únicos ângulos rotáveis do  
+resíduo                                                            Sequência define forma única
+                                      esqueleto
+
+     Sabemos onde a cadeia pode dobrar. Agora vamos ver o que a faz dobrar -- as forças da
+                                                                   PARTE II.
+
+PARTE II -- As forças que seguram a proteína junta
+
+2.1 -- Ligações de hidrogênio, pontes salinas e Van der Waals
+Uma vez que a cadeia já está sintetizada e os ângulos / podem girar, o que decide para onde
+a cadeia vai se enovelar? São as interações que se formam entre partes diferentes da cadeia ao
+se aproximarem. Quase todas essas interações são não-covalentes -- individualmente fracas,
+mas que, somadas às centenas em cada proteína, dão uma estabilidade enorme.
+
+   Vamos começar pelas três interações elétricas da casa. A ligação de hidrogênio é uma inter
+ação eletrostática entre um hidrogênio parcialmente positivo (ligado a um átomo eletroneg
+ativo como O ou N) e outro átomo eletronegativo (geralmente O ou N) com par de elétrons
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+disponível. Uma observação importante e contra-intuitiva: o hidrogênio ligado a carbono não
+faz ligação de hidrogênio -- a diferença de eletronegatividade é pequena demais. Por isso,
+em proteínas, as ligações de hidrogênio acontecem entre os C=O (carbonila) e os N-H (amida)
+dos grupos peptídicos, e entre certos grupos R (de aminoácidos polares como Ser, Thr, Tyr,
+Asn, Gln).
+
+Ligação de hidrogênio em proteínas: entre o oxigênio da carbonila (C=O) de um grupo peptídico e o hidrogênio da
+amina (N-H) de outro grupo peptídico. O esqueleto, e não os grupos R, é o protagonista dessa interação.
+
+Magnitude: cada ligação de hidrogênio vale 20 kJ/mol. Para comparação, uma ligação cova
+lente C-C vale 348 kJ/mol -- ou seja, a ligação de hidrogênio é 17 vezes mais fraca que uma
+covalente. Mas a quantidade compensa: uma proteína média tem centenas de ligações de
+hidrogênio, e a soma estabiliza a estrutura com força considerável.
+
+   A ponte salina3 (também chamada interação iônica ou eletrostática) é a interação entre dois
+grupos R com cargas opostas. Em pH fisiológico, aminoácidos como lisina, arginina e histidina
+têm cadeias laterais com carga positiva, enquanto aspartato e glutamato têm carga negativa.
+Quando dois desses se aproximam ao enovelamento, formam uma "ponte" eletrostática que
+ancora aquela região da cadeia. Aparece com frequência em sítios de ligação enzima-substrato.
+
+   3ponte salina ­ interação eletrostática entre grupos R com cargas elétricas opostas, geralmente entre Lys/Arg/His
+(positivos) e Asp/Glu (negativos)
+
+                                                                                 8
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+    Ponte salina  ligação peptídica -- não confundir!
+
+    Ponte salina é interação não-covalente entre grupos R (cadeias laterais) com cargas opostas. É a
+    soma de muitas dessas que ajuda a estabilizar a forma 3D. Ligação peptídica é a ligação covalente
+    C-N que une os aminoácidos no esqueleto da cadeia. Uma é cabo de aço (covalente), a outra é íma
+    (eletrostático). Confusão clássica em prova quando a questão pergunta "qual interação mantém a
+    estrutura primária" -- resposta: ligação peptídica, não ponte salina.
+
+As forças de Van der Waals são interações ainda mais fracas ( 1 kJ/mol cada), entre dipolos
+elétricos momentâneos que aparecem em todas as moléculas. Funcionam quando dois átomos
+estão muito próximos -- a poucos angstroms de distância. Individualmente, são desprezíveis.
+Coletivamente, no interior compactado de uma proteína onde milhares de átomos se tocam,
+somam uma estabilização significativa.
+
+   Resumindo até aqui: Ligação H = entre O e H-N do esqueleto (ou Rs polares), 20 kJ/mol. Ponte salina =
+   entre Rs de carga oposta (Lys/Arg/His com Asp/Glu). Van der Waals = entre dipolos momentâneos, 1 kJ/
+   mol cada, mas vale pela quantidade.
+
+2.2 -- Efeito hidrofóbico: o motor central do enovelamento
+Se você precisar guardar uma única ideia desta etapa, guarde esta: o efeito hidrofóbico é
+o principal responsável pelo dobramento compacto das proteínas. Não são as ligações de
+hidrogênio, não são as pontes salinas, não é a soma das interações de Van der Waals -- é o
+efeito hidrofóbico que faz a cadeia se fechar.
+
+   Mas o que é "efeito hidrofóbico"? Note que o nome é traiçoeiro: ele sugere que átomos
+hidrofóbicos se atraem, como se houvesse uma "força hidrofóbica" entre eles. Isso é só meia
+verdade. A verdade completa é a seguinte: cadeias laterais hidrofóbicas (R apolares de Val,
+Leu, Ile, Phe, Trp, Met) não conseguem fazer ligações de hidrogênio com a água. Quando uma
+cadeia hidrofóbica está em contato com a água, as moléculas de água ao redor dela ficam
+obrigadas a se organizar em uma "gaiola" semi-cristalina para manter suas próprias ligações
+de hidrogênio entre si, em vez de fazê-las com o R apolar. Essa gaiola tem entropia muito baixa
+-- as águas perdem liberdade.
+
+   Quando duas cadeias hidrofóbicas se aproximam e se "abraçam", liberando as águas que
+antes formavam gaiola em volta delas, a entropia do sistema aumenta drasticamente. As
+águas voltam a ser águas livres, com muitos graus de liberdade. Por isso, juntar grupos
+hidrofóbicos é termodinamicamente favorável -- não porque eles se atraem, mas porque a
+água se livra da gaiola.
+
+       9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Efeito hidrofóbico em ação: grupos apolares se aproximam para evitar contato com a água, e a água, liberada da
+ "gaiola" semi-cristalina que formava ao redor deles, ganha entropia. Esse é o principal motor termodinâmico do
+ enovelamento compacto das proteínas.
+
+A consequência prática é direta: ao se enovelar, a proteína se compacta de tal forma que as
+cadeias laterais hidrofóbicas ficam empacotadas no interior da estrutura, longe da água,
+enquanto as cadeias laterais polares e carregadas ficam na superfície, em contato com a água.
+É como uma gota de óleo num vidro de água: a gota se forma porque o óleo busca minimizar
+contato com a água. A proteína dobrada é uma versão biológica disso -- um interior oleoso
+(hidrofóbico) coberto por uma superfície aquosa (hidrofílica).
+
+   Resumindo até aqui: Efeito hidrofóbico = entropia, não atração. Cadeias apolares forçam águas a
+   formar gaiola entropicamente cara  quando elas se juntam, libertam a água, e o sistema ganha
+   entropia. Resultado: interior hidrofóbico compactado, superfície hidrofílica em contato com solvente.
+
+Esse princípio explica por que proteínas de membrana, que vivem em um ambiente lipídico,
+têm a topologia invertida -- ali, os resíduos hidrofóbicos ficam para fora (em contato com
+os lipídios da bicamada) e os hidrofílicos para dentro (formando poros aquosos). É a mesma
+lógica, em um ambiente diferente: água favorece o que é hidrofílico do lado de fora; lipídio
+favorece o que é hidrofóbico do lado de fora.
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A quimotripsina (PDB4 2cha) em duas representações: wireframe (linhas) mostra o esqueleto, spacefill (preenchida)
+mostra o volume real. Note como a estrutura final é altamente compacta -- sem espaços vazios significativos no
+interior, fruto direto do empacotamento hidrofóbico.
+
+2.3 -- Ponte dissulfeto: a única covalente
+Até agora, todas as forças foram não-covalentes -- fracas individualmente, fortes em conjunto.
+Mas existe uma interação covalente que pode aparecer no enovelamento, e ela vale a pena
+conhecer porque é a única do grupo: a ponte dissulfeto5 (ou ligação S-S).
+
+   A ponte dissulfeto se forma entre as cadeias laterais de duas cisteínas. A cisteína é o único
+dos 20 aminoácidos comuns que tem um grupo -SH (sulfidrila) na cadeia lateral. Quando
+duas cisteínas se encontram durante o enovelamento e o ambiente é oxidante, seus grupos -
+SH perdem 2 elétrons e 2 hidrogênios (oxidação), formando uma ligação -S-S- entre os dois
+enxofres. É covalente, dura 250 kJ/mol -- mais forte que qualquer interação não-covalente.
+
+   4PDB ­ Protein Data Bank -- banco público de estruturas 3D resolvidas experimentalmente
+   5ponte dissulfeto ­ ligação covalente -S-S- formada pela oxidação dos grupos sulfidrila (-SH) de duas cisteínas,
+geralmente em proteínas extracelulares
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Ponte dissulfeto: oxidação dos grupos -SH de duas cisteínas forma a ligação covalente -S-S-. Nem toda proteína tem
+-- é mais comum em proteínas extracelulares e secretadas, onde o ambiente oxidante favorece a sua formação.
+
+Mas há um detalhe crucial: nem toda proteína tem pontes dissulfeto. Proteínas intracelulares
+geralmente não têm, porque o interior da célula é um ambiente redutor (cheio de glutationa e
+outras moléculas que mantêm cisteínas com -SH livre). Proteínas extracelulares e secretadas
+(anticorpos, insulina, hormônios peptídicos) frequentemente têm várias pontes dissulfeto,
+porque o ambiente fora da célula é oxidante e estabiliza a forma S-S. A ponte dissulfeto é, em
+essência, um "fecho de segurança" que tranca a proteína numa forma específica, particular
+mente útil quando a proteína precisa sobreviver em ambientes desafiadores fora da célula.
+
+    Oxitocina e vasopressina: dois hormônios, um anel dissulfeto
+    Oxitocina e vasopressina (ADH6) são dois peptídeos de 9 resíduos cada, com sequências quase
+    idênticas -- diferem em apenas 2 aminoácidos. Ambos têm uma ponte dissulfeto que forma um
+    anel cíclico entre as cisteínas 1 e 6. Apesar dessa enorme semelhança estrutural, suas funções
+    são completamente diferentes: oxitocina causa contração uterina (parto) e ejeção láctea, e está
+    envolvida em vínculos sociais; vasopressina aumenta a reabsorção renal de água e a vasocon
+    strição. A forma do anel definida pela dissulfeto é o que permite que ambos sejam reconhecidos
+    pelos seus receptores específicos -- um exemplo clássico de como pequenas diferências em
+    aminoácidos, restritas a uma forma cíclica fixa, geram funções biológicas totalmente distintas.
+
+   Resumindo até aqui: Ponte dissulfeto = covalente -S-S- entre cisteínas ( 250 kJ/mol). Forma-se em
+   ambiente oxidante (extracelular). Trava a proteína numa forma específica. Não está em toda proteína --
+   é típica de proteínas secretadas/extracelulares.
+
+   6ADH ­ hormônio antidiurético -- também chamado vasopressina, atua aumentando reabsorção de água nos rins
+
+                                                                                12
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+                               MAPA CONCEITUAL
+
+                                             II
+
+       Hidrofóbico é o motor; covalente é o fecho
+
+                               
+
+2.1 ­ Não-covalentes                  2.2 ­ Hidrofóbico           2.3 ­ Dissulfeto
+
+Lig. H, ponte salina, Van der   Entropia da água manda no   Única covalente; cisteínas;
+Waals
+                                       enovelamento                ambiente oxidante
+
+       Já temos as forças. Falta entender como elas geram os 4 níveis hierárquicos da PARTE III.
+
+PARTE III -- Os quatro níveis hierárquicos
+
+3.1 -- Estrutura secundária: -hélice e folha-
+A estrutura primária é a mais simples de definir: é a sequência de aminoácidos na cadeia, do
+N-terminal ao C-terminal, com as pontes dissulfeto (quando houver) marcadas como conexões
+adicionais. É só a sequência, escrita em letrinhas.
+
+   A estrutura secundária é o primeiro nível de dobramento real. São padrões locais e
+repetitivos de enrolamento do esqueleto, mantidos por ligações de hidrogênio entre grupos
+peptídicos (não entre os grupos R!). Há dois padrões dominantes: a -hélice e a folha-.
+
+    Estrutura secundária = ligações H do ESQUELETO, não dos R
+    Uma confusão muito clássica: ao explicar -hélice e folha-, é tentador imaginar que os grupos
+    R fazem as ligações de hidrogênio que estabilizam a estrutura. Errado. As ligações de hidrogênio
+    que sustentam -hélice e folha- são entre o C=O e o N-H do esqueleto da cadeia -- exatamente
+    os mesmos grupos C=O e N-H que vêm da ligação peptídica que estudamos em 1.1. Os grupos R
+    ficam fora da estrutura secundária -- apontando para o lado, sem participar das ligações H que
+    dão forma. Os R só entram em cena na estrutura terciária (3.2), quando o enovelamento global se
+    decide.
+
+A -hélice7 é um enrolamento da cadeia em hélice destra (gira para a direita). Os números
+marcantes: 3,6 resíduos por volta de hélice, com ângulo de 100° entre resíduos consecutivos.
+As ligações de hidrogênio acontecem entre o C=O do resíduo n e o N-H do resíduo n+4 -- ou
+seja, ligando o esqueleto consigo mesmo em intervalo de 4 resíduos. Os grupos R apontam
+para fora, perpendiculares ao eixo da hélice.
+
+   7-hélice ­ padrão de estrutura secundária no qual o esqueleto se enrola em uma hélice destra com 3,6 resíduos por
+volta, sustentada por ligações H entre C=O do resíduo n e N-H do resíduo n+4
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+-hélice: hélice destra com 3,6 resíduos por volta. Ligações H (linhas pontilhadas) entre C=O do resíduo n e N-H do
+resíduo n+4. Repare que os grupos R apontam para fora da hélice -- eles não participam das ligações H.
+
+A folha- é o padrão alternativo. Aqui a cadeia fica estendida (não enrolada), e várias regiões
+da cadeia se alinham lado a lado, formando uma "folha" ondulada. As ligações de hidrogênio
+são entre o C=O de uma fita e o N-H da fita vizinha -- não dentro da mesma fita, mas entre
+fitas adjacentes. Os grupos R alternam acima e abaixo do plano da folha. Há duas variantes: a
+folha- paralela (todas as fitas correm no mesmo sentido NC) e a folha- antiparalela (fitas
+vizinhas correm em sentidos opostos). A antiparalela é mais estável porque as ligações H ficam
+mais alinhadas geometricamente.
+
+Folha-: cadeias estendidas alinhadas lado a lado, com ligações H entre fitas adjacentes. R alternam acima/abaixo
+do plano. Paralela (fitas no mesmo sentido) ou antiparalela (fitas opostas) -- antiparalela é mais estável.
+
+                                                                                14
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Por que os dois padrões e não um único? Porque cada sequência de aminoácidos tem propensão
+diferente: certos aminoácidos (Ala, Glu, Leu, Met) "preferem" -hélice; outros (Val, Ile, Phe,
+Tyr, Trp) preferem folha-; e outros ainda (Gly, Pro) "quebram" qualquer estrutura regular.
+Note especialmente a prolina: o nitrogênio da prolina já está envolvido em um anel rígido
+com sua própria cadeia lateral, e isso impede o ângulo  usual -- a prolina não consegue se
+acomodar dentro de uma -hélice sem causar uma quebra. Quando uma proteína precisa fazer
+uma "dobra" entre dois segmentos de estrutura secundária, frequentemente há uma prolina
+exatamente no ponto de quebra.
+
+A prolina é o aminoácido "quebra-hélice" por excelên
+cia. Seu nitrogênio da amina está preso em um anel de
+5 átomos com a própria cadeia lateral, o que restringe o
+ângulo  a valores incompatíveis com a continuação da
+-hélice. Por isso, prolinas frequentemente aparecem
+nas "alças" entre segmentos de estrutura secundária,
+ou em proteínas como o colágeno, onde a rigidez da
+prolina é essencial para a forma da tripla hélice.
+
+                                                                                                   Prolina e seu anel restringindo o ângulo  --
+                                                                                                   quebra natural de estruturas secundárias reg
+                                                                                                   ulares.
+
+Resumindo até aqui: Estrutura primária = sequência. Estrutura secundária = padrões locais susten
+tados por ligações H do esqueleto: -hélice (3,6 res/volta, H entre n e n+4) e folha- (fitas alinhadas, H
+entre fitas). Prolina quebra estruturas regulares.
+
+3.2 -- Estrutura terciária e domínios
+A estrutura terciária é a forma 3D completa de uma cadeia polipeptídica única -- o jeito como
+os segmentos de -hélice e folha- se arranjam no espaço, junto com as alças que os conectam,
+para formar a conformação nativa final. Se a secundária descreve "como cada pedaço da cadeia
+se enrola localmente", a terciária descreve "como toda a cadeia se organiza no espaço".
+
+       15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estrutura terciária da quimotripsina (PDB 2cha): combinação de -hélices (espirais), folhas- (setas) e alças, organi
+zadas em uma forma 3D específica. Esta é a forma nativa da molécula -- aquela que tem função catalítica.
+
+E qual é a diferença chave entre secundária e terciária, em termos de força? Na secundária,
+lembra, as ligações H são entre grupos do esqueleto (C=O e N-H), localmente. Na terciária, são
+as interações entre grupos R que mandam -- e é justamente nessa hora que entra o efeito
+hidrofóbico que aprendemos em 2.2. Cadeias laterais hidrofóbicas se empacotam no interior;
+cadeias laterais polares e carregadas vão para a superfície; pontes salinas se formam entre Rs
+de carga oposta; pontes dissulfeto travam regiões críticas. A estrutura terciária é, em essência,
+o resultado das interações entre Rs. Por isso, dois Rs que ficam muito distantes na sequência
+primária podem terminar muito próximos espacialmente na estrutura terciária -- basta que
+a cadeia se dobre para colocá-los lado a lado.
+
+   Uma observação útil: dentro da estrutura terciária, é comum encontrar domínios8 --
+porções da cadeia que se enovelam de forma quase independente do resto e que frequente
+mente correspondem a unidades funcionais distintas. Pense numa enzima com dois
+domínios: um deles pode ser o sítio catalítico (onde a reação acontece), enquanto o outro pode
+ser o sítio regulatório (onde um modulador alostérico se liga). É como se a proteína tivesse
+"módulos" reaproveitáveis -- cada domínio com função específica, mas todos parte da mesma
+cadeia.
+
+   8domínios ­ porções de uma cadeia polipeptídica que se enovelam de maneira independente do resto da cadeia, geral
+mente com função distinta
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Fosfofrutoquinase de E. coli mostrando dois domínios separáveis: o domínio catalítico (onde a reação enzimática
+acontece) e o domínio regulador (onde moduladores alostéricos se ligam). Ambos pertencem à mesma cadeia, mas
+se enovelam independentemente.
+
+Domínios são também a base evolutiva da diversidade proteica: a natureza "remixa" domínios
+de funções conhecidas, combinando-os em proteínas novas com funções novas. Várias
+famílias de quinases, por exemplo, compartilham o mesmo domínio catalítico mas diferem
+nos domínios regulatórios -- o que permite a cada uma responder a sinais diferentes mas
+catalisar a mesma reação fundamental.
+
+   Resumindo até aqui: Terciária = forma 3D global de UMA cadeia. Estabilizada por interações entre Rs
+   (hidrofóbico, pontes salinas, ligações H, dissulfeto). Domínios = sub-regiões que se enovelam indepen
+   dentemente, geralmente com função distinta. Rs distantes na sequência podem ficar próximos no espaço.
+
+3.3 -- Estrutura quaternária
+Algumas proteínas terminam aqui -- uma única cadeia, uma estrutura terciária, e pronto: a
+proteína está funcional. Outras proteínas precisam de múltiplas cadeias polipeptídicas asso
+ciadas para serem funcionais. Quando isso acontece, dizemos que a proteína tem estrutura
+quaternária -- o nível de organização que envolve a associação de duas ou mais cadeias
+polipeptídicas (chamadas subunidades) em uma única unidade funcional.
+
+   A hemoglobina é o exemplo arquetípico. Ela é um tetrâmero: quatro cadeias polipeptídicas
+associadas -- duas -globinas e duas -globinas. Cada uma das quatro cadeias tem sua própria
+estrutura terciária (uma estrutura quase idêntica à da mioglobina, com sete -hélices) e seu
+próprio grupo heme, e as quatro se associam para formar o "" funcional.
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Desoxihemoglobina: tetrâmero composto por duas -globinas e duas -globinas, cada uma com seu grupo heme.
+As quatro subunidades se associam por interações não-covalentes (efeito hidrofóbico, ligações H, pontes salinas) --
+não há ligação covalente entre elas.
+
+Por que ter uma estrutura quaternária? Para a hemoglobina, a resposta é elegantíssima: a
+interação entre as quatro subunidades permite o fenômeno de cooperatividade -- quando a
+primeira subunidade liga oxigênio, ela transmite uma pequena mudança conformacional para
+as outras três, aumentando a afinidade delas pelo O. O resultado é uma curva de saturação
+sigmoide em vez de hiperbólica, o que torna a hemoglobina um carregador de O ideal entre o
+pulmão (alta saturação) e o tecido (baixa saturação). Sem estrutura quaternária, esse efeito não
+existiria -- e a hemoglobina ficaria com a curva da mioglobina, que é muito menos eficiente
+em entregar O aos tecidos. Vamos voltar a isso em detalhe em outro resumo dedicado à
+hemoglobina.
+
+    Quaternária com defeito: a anemia falciforme em uma frase
+
+    Na anemia falciforme, uma mutação substitui o glutamato 6 da -globina por uma valina. Em
+    si, essa mudança altera só um aminoácido em uma das quatro subunidades. Mas o glutamato é
+    polar (vai à superfície da cadeia), e a valina é hidrofóbica (queria estar no interior). Essa "marca
+    hidrofóbica" exposta na superfície faz com que múltiplas hemoglobinas mutantes se grudem
+    umas nas outras quando desoxigenadas, formando longos polímeros que distorcem a hemácia
+    em forma de foice -- o que reduz o transporte de O, obstrui capilares e gera crises de dor. Um
+    único aminoácido na estrutura primária, vinculado por uma mudança na superfície da estrutura
+    quaternária -- e o resultado clínico aparece em milhões de pacientes em todo o mundo. Voltare
+    mos à hemoglobina e à sua patologia em um resumo dedicado mais à frente.
+
+Note também que as subunidades de uma proteína quaternária não precisam ser idênticas.
+A hemoglobina é um heterotetrâmero (duas  + duas ). Mas há muitas proteínas que são
+
+                                                                                18
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+homotetrâmeros (quatro subunidades iguais), homodímeros (duas subunidades iguais), ou
+ainda combinações maiores. As ligações entre as subunidades, em geral, são não-covalentes
+-- efeito hidrofóbico, ligações H e pontes salinas entre as superfícies de contato. Ocasional
+mente, pontes dissulfeto unem subunidades covalentemente (como nos anticorpos), mas é
+exceção, não regra.
+
+Resumindo até aqui: Quaternária = 2 cadeias polipeptídicas associadas. Subunidades podem ser
+iguais (homo-) ou diferentes (hetero-). Ligações entre subunidades, em geral, não-covalentes. A hemo
+globina é o exemplo clássico -- 2 + 2, com cooperatividade na ligação de O surgindo da associação.
+
+                                MAPA CONCEITUAL
+
+                                             III
+
+       Quatro níveis encaixados, do átomo à montagem
+
+                                
+
+3.1 ­ Secundária                       3.2 ­ Terciária             3.3 ­ Quaternária
+
+Lig. H do esqueleto: -hélice e   Rs decidem; hidrofóbico     2 cadeias; cooperatividade;
+folha-
+                                        empacota; domínios          hemoglobina
+
+Sequência  forma local  forma global  forma associada. Cada nível usa o anterior.
+
+                                19
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Termina aqui a história das proteínas em uma única narrativa, do átomo ao tetrâmero.
+Vimos que a ligação peptídica prende aminoácidos em uma cadeia com geometria fixa
+-- rígida em si mesma, mas com pontos de rotação ( e ) ao redor dos carbonos .
+Essa cadeia tem, em princípio, infinitas formas possíveis, mas é canalizada por forças
+não-covalentes (ligações de hidrogênio, pontes salinas, Van der Waals) e principalmente
+pelo efeito hidrofóbico -- o motor termodinâmico que afasta cadeias apolares da água
+e libera entropia ao empacotá-las no interior da proteína. Em ambiente oxidante, pontes
+dissulfeto trancam regiões críticas de forma covalente.
+
+A organização do que resulta acontece em quatro níveis hierárquicos: a sequência
+primária define tudo; a estrutura secundária (-hélice e folha-) emerge das ligações
+H do esqueleto; a estrutura terciária aparece quando as cadeias laterais (Rs) decidem
+o enovelamento global, frequentemente organizando-se em domínios funcionais; e a
+estrutura quaternária surge quando múltiplas cadeias se associam em uma unidade
+funcional maior, como a hemoglobina.
+
+O fio condutor é simples e poderoso: sequência  forma  função. A informação está
+toda na sequência primária; as forças não-covalentes (lideradas pelo efeito hidrofóbico)
+executam o enovelamento; a forma 3D resultante é o que faz a proteína trabalhar. Quando
+essa cadeia da causalidade se rompe -- uma única mutação na anemia falciforme, uma
+alteração de um aminoácido em uma proteína estrutural, uma ponte dissulfeto perdida
+em uma proteína exportada -- a doença aparece. Em Proteínas II, vamos ver o que
+acontece quando o enovelamento falha, como a célula tenta corrigir e o que sobra quando
+ela não consegue.
+
+       20
+NEBLI                                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Sequência contém forma                                       Quatro níveis hierárquicos
+
+   A informação para enovelar uma proteína está                 Primária = sequência. Secundária = -hélice /
+integralmente na sua sequência primária (princí              folha-, estabilizada por ligações H do esqueleto.
+pio de Anfinsen). Mesma sequência, mesma confor              Terciária = forma 3D global de uma cadeia, decidida
+mação nativa -- sem necessidade de molde externo.            pelas interações entre Rs (hidrofóbico empacota).
+A forma 3D é consequência inevitável da sequência            Quaternária = múltiplas cadeias associadas (sub
+somada às forças não-covalentes do ambiente aqu              unidades), exemplo clássico hemoglobina 2+2.
+oso.                                                         Domínios são unidades funcionais
+Efeito hidrofóbico é o motor central                         reaproveitáveis
+
+O dobramento compacto das proteínas é dirigido Dentro da estrutura terciária, regiões da cadeia
+
+principalmente pelo efeito hidrofóbico: cadeias lat que se enovelam independentemente do resto for
+
+erais apolares se empacotam no interior para liberar mam domínios. Frequentemente cada domínio cor
+
+a água que formava gaiola entropicamente cara ao responde a uma função distinta -- domínio catalítico
+
+redor delas. Não é atração entre apolares -- é ganho e domínio regulador da fosfofrutoquinase, por exem
+
+de entropia da água ao se liberar dessa gaiola.              plo. A evolução "remixa" domínios para criar novas
+
+Estrutura secundária = ligações H do es                      proteínas.
+
+queleto                                                      Anemia falciforme em uma frase
+
+   -hélice (3,6 resíduos por volta, ligações H entre            Substituição do glutamato 6 (polar, na superfície)
+C=O do resíduo n e N-H do resíduo n+4) e folha-              por valina (hidrofóbica) na -globina expõe uma
+ (fitas estendidas alinhadas, ligações H entre fitas         "marca hidrofóbica" na superfície da hemoglobina.
+adjacentes) são padrões locais. As ligações H que as         As hemoglobinas mutantes se grudam umas nas out
+estabilizam vêm do esqueleto (C=O e N-H), não dos            ras quando desoxigenadas, polimerizam, distorcem a
+grupos R.                                                    hemácia em foice e obstruem capilares.
+Ligação peptídica é rígida; rotação só em /                  Prolina quebra hélices
+
+   A ligação peptídica C-N tem caráter parcial de dupla         O nitrogênio da prolina está preso em um anel
+ligação (ressonância) e não roda. As únicas rotações         rígido com a própria cadeia lateral, restringindo o
+livres do esqueleto são as ligações em torno do C: o         ângulo  a valores incompatíveis com a -hélice. Por
+ângulo  (com o N) e o ângulo  (com o C). É a escolha         isso prolinas aparecem nas alças entre segmentos
+dos pares (, ) que define o enovelamento.                    de estrutura secundária -- naturalmente "dobram" a
+Quatro forças não-covalentes + uma cova                      cadeia onde estiverem.
+lente                                                        Dissulfeto: ambiente decide
+
+Ligações de hidrogênio ( 20 kJ/mol), pontes sali Proteínas intracelulares geralmente não têm
+
+nas entre Rs de carga oposta (Lys/Arg/His com Asp/ pontes dissulfeto (citoplasma é redutor -- glutationa
+
+Glu), forças de Van der Waals entre dipolos momen mantém -SH livre). Proteínas extracelulares e secre
+
+tâneos ( 1 kJ/mol, mas valem pela quantidade). A tadas (anticorpos, insulina) tipicamente têm várias
+
+única covalente é a ponte dissulfeto ( 250 kJ/mol), -- o ambiente oxidante fora da célula estabiliza S-S.
+
+entre cisteínas, típica de proteínas extracelulares ox A dissulfeto trava a forma da proteína em condições
+
+idantes.                                                     desafiadoras.
+
+                                                         21
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a ligação peptídica formada entre dois aminoácidos, é correto afirmar:
+  A) Trata-se de uma ligação não-covalente do tipo eletrostática, formada por atração entre
+  cargas opostas das cadeias laterais.
+  B) É produzida por hidrólise, processo que adiciona uma molécula de água entre o grupo
+  amino e o grupo carboxila.
+  C) Liga o grupo R de um aminoácido ao grupo R do aminoácido seguinte, conectando suas
+  cadeias laterais.
+  D) Permite rotação livre dos átomos ao seu redor, sendo o principal ponto de flexibilidade do
+  esqueleto polipeptídico.
+  E) É covalente C-N, formada por condensação que libera água, e tem caráter parcial de dupla
+  ligação que a torna rígida.
+
+Questão 02 Consolidação
+
+Os ângulos  (phi) e  (psi) do esqueleto polipeptídico correspondem a:
+  A) Rotações em torno das ligações C-N e C-C, respectivamente, sendo os únicos pontos
+  rotáveis do esqueleto.
+  B) Ângulos formados pela ligação peptídica rígida com os carbonos  adjacentes da cadeia.
+  C) Inclinação das cadeias laterais R em relação ao plano da ligação peptídica.
+  D) Ângulos das ligações de hidrogênio entre o C=O e o N-H da cadeia principal em estrutura
+  secundária.
+  E) Direções de saída do grupo amino e do grupo carboxila em relação ao plano da -hélice.
+
+                            22
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 03 Consolidação
+
+Considerando o princípio de Anfinsen e a relação entre sequência primária e enovelamento,
+julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. Toda a informação necessária para o enovelamento de uma proteína é fornecida pelas
+  chaperonas, que decidem qual será a conformação nativa final da cadeia.
+
+  II. Cada sequência polipeptídica produz, ao se enovelar, várias formas tridimensionais alter
+  nativas que coexistem em equilíbrio dinâmico no meio aquoso.
+
+  III. A conformação nativa é instável termodinamicamente, e qualquer perturbação tende a
+  empurrar a cadeia para uma forma diferente de menor energia.
+
+  IV. Por se basear em decisão estocástica do meio, a conformação nativa de uma mesma cadeia
+  varia entre cópias produzidas pelo mesmo organismo.
+
+Questão 04 Consolidação
+
+Sobre a ligação de hidrogênio em proteínas, é correto afirmar:
+
+  A) É uma interação eletrostática entre um H ligado a O ou N e outro átomo eletronegativo,
+  vale 20 kJ/mol e estabiliza a estrutura pela soma das centenas existentes.
+  B) É uma ligação covalente entre H e átomos eletronegativos, com energia equivalente à da
+  ligação C-C do esqueleto da cadeia polipeptídica.
+  C) Forma-se preferencialmente entre H ligados a carbonos e átomos de oxigênio, sendo o
+  tipo de interação mais abundante no esqueleto da cadeia.
+  D) Aparece apenas entre grupos R polares, nunca participando da estabilização do esqueleto
+  principal nem da estrutura secundária da proteína.
+  E) Tem energia em torno de 250 kJ/mol e, individualmente, é a interação mais forte que
+  estabiliza a estrutura terciária das proteínas globulares.
+
+                         23
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 05 Consolidação
+
+Numa cadeia polipeptídica, o N-terminal e o C-terminal correspondem, respectivamente, ao:
+
+  A) Resíduo central com grupo amino livre e ao resíduo central com grupo carboxila livre,
+  escolhidos pelo enovelamento.
+
+  B) Resíduo cuja cadeia lateral é nitrogenada e ao resíduo cuja cadeia lateral apresenta um
+  grupo carboxila ionizado.
+
+  C) Resíduo da extremidade com grupo -NH livre e ao resíduo da extremidade com -COOH
+  livre, sendo a leitura convencional NC.
+
+  D) Resíduo que recebe a primeira ponte dissulfeto e ao resíduo que recebe a última, na
+  sequência de oxidação das cisteínas.
+
+  E) Resíduo onde a chaperona inicia o enovelamento e ao resíduo onde a cadeia se desliga do
+  ribossomo durante a tradução proteica.
+
+Questão 06 Consolidação
+
+Sobre os 4 níveis hierárquicos da estrutura proteica, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A estrutura primária é a forma tridimensional global adquirida pela cadeia polipeptídica
+  após o enovelamento completo no meio aquoso.
+  II. A estrutura secundária descreve a forma 3D global de uma cadeia inteira, integrando todas
+  as -hélices e folhas- em uma conformação única.
+  III. A estrutura terciária só pode existir em proteínas formadas por duas ou mais cadeias
+  polipeptídicas associadas entre si por interações não-covalentes.
+  IV. A estrutura quaternária surge quando duas ou mais cadeias polipeptídicas se associam
+  para formar uma unidade funcional, como ocorre na hemoglobina.
+
+                         24
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 07 Consolidação
+
+Uma cadeia polipeptídica com 80 resíduos é melhor classificada como:
+
+  A) Aminoácido isolado, pois cada resíduo na cadeia mantém suas extremidades amino e
+  carboxila integralmente livres para reagir.
+
+  B) Proteína, pois a convenção considera proteínas as cadeias com mais de 50 resíduos,
+  separando-as dos peptídeos menores.
+
+  C) Peptídeo, pois proteínas só recebem essa designação a partir de cadeias com pelo menos
+  200 resíduos no esqueleto principal.
+
+  D) Oligômero, termo reservado às cadeias polipeptídicas com mais de 50 e menos de 100
+  resíduos no organismo.
+
+  E) Domínio, pois cadeias com menos de 100 resíduos não constituem proteínas indepen
+  dentes mas apenas porções modulares.
+
+Questão 08 Consolidação
+
+O termo "efeito hidrofóbico", no contexto do enovelamento proteico, refere-se principalmente:
+
+  A) À atração eletrostática direta entre cadeias laterais apolares, mediada por dipolos perma
+  nentes do tipo Van der Waals.
+  B) À formação de ligações covalentes entre átomos de carbono das cadeias laterais alifáticas
+  no interior da proteína.
+  C) À repulsão entre cadeias laterais apolares e moléculas de água, gerada por incompatibil
+  idade entre suas nuvens eletrônicas.
+  D) À preferência das moléculas de água por formar ligações de hidrogênio com cadeias
+  laterais polares na superfície da proteína.
+  E) Ao ganho de entropia da água ao ser liberada da gaiola semi-cristalina que formava em
+  torno das cadeias laterais apolares.
+
+                         25
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 09 Integração
+
+A insulina é um hormônio peptídico secretado pelo pâncreas e contém duas cadeias (A e B)
+unidas por pontes dissulfeto intercadeia, além de uma ponte intracadeia na cadeia A. Sobre o
+papel dessas pontes na estabilidade da molécula, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O ambiente extracelular oxidante favorece a manutenção das pontes -S-S-, ao contrário do
+  interior celular, cujo ambiente reduzido tende a desfazê-las.
+
+  II. As pontes dissulfeto da insulina são interações não-covalentes fracas que se rompem
+  facilmente quando a glicemia varia ao longo do dia.
+
+  III. A formação das pontes ocorre por oxidação dos grupos -SH das cisteínas, com perda de
+  2 elétrons e 2 hidrogênios entre os dois átomos de enxofre.
+
+  IV. Sem as pontes dissulfeto, as duas cadeias da insulina perderiam a fixação relativa que
+  sustenta a forma reconhecida pelo seu receptor.
+
+Questão 10 Integração
+
+Em laboratório, uma cadeia polipeptídica é completamente desenovelada por agentes quími
+cos e em seguida esses agentes são removidos. Após equilibrar no meio aquoso, observa-se
+que a cadeia readquire exatamente sua forma 3D original, com plena atividade biológica. Qual
+princípio do enovelamento esse experimento ilustra de modo mais direto?
+
+  A) A sequência primária contém toda a informação necessária para definir a conformação
+  nativa, sem necessidade de fatores externos adicionais.
+
+  B) Chaperonas residuais permanecem ligadas à cadeia mesmo após a desnaturação, con
+  duzindo o reenovelamento na ausência dos agentes químicos.
+
+  C) As pontes dissulfeto pré-existentes mantêm a memória da forma original e arrastam o
+  resto da cadeia para o enovelamento correto novamente.
+
+  D) O meio aquoso "lembra" a forma anterior por uma reorganização semipermanente das
+  moléculas de água que rodeavam a proteína nativa.
+
+  E) A presença de cofatores e íons metálicos no meio aquoso decide o caminho do enovela
+  mento independentemente da sequência de aminoácidos.
+
+                       26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 11 Integração
+
+Sobre as forças não-covalentes que estabilizam o enovelamento de uma proteína globular
+típica, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O efeito hidrofóbico é o motor termodinâmico central do enovelamento, atuando pelo
+  ganho de entropia das moléculas de água liberadas das gaiolas em torno de resíduos
+  apolares.
+
+  II. As pontes salinas estabilizam a estrutura primária da proteína, ligando covalentemente
+  o esqueleto polipeptídico nas posições onde aparecem cargas elétricas opostas.
+
+  III. As forças de Van der Waals, embora cada uma valha pouco ( 1 kJ/mol), tornam-se
+  relevantes pelo grande número de contatos atômicos próximos no interior compactado da
+  proteína.
+
+  IV. As ligações de hidrogênio que estabilizam a -hélice formam-se entre C=O e N-H do
+  esqueleto, não dependendo do tipo de grupo R presente em cada resíduo.
+
+Questão 12 Integração
+
+O diagrama de Ramachandran exibe quais pares de ângulos (, ) são geometricamente
+permitidos para um resíduo. Sobre seu significado mecanístico, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. As regiões "proibidas" do diagrama correspondem a pares de ângulos energeticamente
+  desfavoráveis devido à repulsão eletrostática entre o C=O e o N-H do mesmo resíduo na
+  cadeia.
+
+  II. As regiões "permitidas" coincidem com os pares de ângulos adotados em -hélices e
+  folhas-, refletindo o fato de que essas estruturas correspondem a geometrias sem imped
+  imento estérico.
+
+  III. O diagrama mostra que qualquer combinação de  e  é fisicamente acessível, sendo
+  o enovelamento limitado apenas pelas interações entre grupos R, não pela geometria do
+  esqueleto.
+
+  IV. A prolina, por causa do seu anel que restringe o ângulo , ocupa uma região menor e
+  específica do diagrama, dificultando sua presença no interior de -hélices regulares.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+No interior de uma proteína globular, dois resíduos de lisina (carga positiva) e glutamato
+(carga negativa) ficam próximos espacialmente, mesmo estando separados por 40 posições
+na sequência primária. A interação entre eles é melhor descrita como:
+
+  A) Ligação peptídica adicional entre as cadeias laterais, formando uma "costura" covalente
+  que reforça a estrutura primária local.
+
+  B) Ponte salina, uma interação eletrostática entre grupos R com cargas opostas que estabiliza
+  a forma 3D da estrutura terciária.
+
+  C) Ponte dissulfeto cruzada, formada por oxidação dos grupos -SH originalmente presentes
+  nas cadeias laterais desses dois aminoácidos.
+
+  D) Ligação de hidrogênio do esqueleto, igual à que aparece entre fitas vizinhas de uma folha-
+   paralela ou antiparalela.
+
+  E) Interação de Van der Waals predominante, ao mesmo tempo apolar e independente da
+  carga elétrica das cadeias laterais envolvidas.
+
+Questão 14 Integração
+
+Anticorpos circulam no plasma sanguíneo e a ribonuclease A é uma enzima secretada pelo
+pâncreas para o tubo digestivo. Ambas apresentam um número elevado de pontes dissulfeto.
+Em contraste, enzimas glicolíticas que atuam no citosol raramente apresentam essas pontes.
+Qual a explicação mecanística mais adequada?
+
+  A) Proteínas extracelulares são sintetizadas mais lentamente, o que dá tempo para que
+  múltiplas cisteínas se encontrem e formem pontes covalentes durante o enovelamento.
+
+  B) O citosol é pobre em cisteína, enquanto o meio extracelular tem alta concentração desse
+  aminoácido, o que estabiliza pontes -S-S- em proteínas secretadas.
+
+  C) O meio extracelular é oxidante e estabiliza ligações -S-S- entre cisteínas, enquanto o
+  citosol é redutor e mantém as cisteínas com seus grupos -SH livres.
+
+  D) Anticorpos e enzimas pancreáticas têm sequência rica em prolina, e a prolina catalisa a
+  formação de pontes dissulfeto entre cisteínas próximas no espaço.
+
+  E) Enzimas citosólicas dispensam estabilização covalente porque seu enovelamento de
+  pende exclusivamente da chaperona Hsp90, ausente do meio extracelular.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+Uma proteína de membrana atravessa a bicamada lipídica com vários segmentos transmem
+brana em -hélice. Comparando a distribuição de cadeias laterais hidrofóbicas e hidrofílicas
+nessa proteína com a distribuição em uma proteína globular solúvel no citosol, espera-se que:
+
+  A) Em ambas a distribuição seja idêntica, com hidrofóbicas no interior e hidrofílicas na
+  superfície, pois o princípio do enovelamento é universal.
+
+  B) A proteína de membrana tenha distribuição aleatória de cadeias laterais, já que a bicamada
+  acomoda qualquer arranjo de R nos segmentos transmembrana.
+
+  C) Os segmentos transmembrana exponham cadeias laterais hidrofóbicas voltadas para os
+  lipídios, contrário ao padrão da proteína globular solúvel em água.
+
+  D) Ambas concentrem resíduos polares no interior, pois a água penetra em todas as proteínas
+  independentemente do ambiente em que estão inseridas.
+
+  E) A proteína globular solúvel exiba cadeias laterais hidrofóbicas na superfície externa, pois
+  precisa interagir com membranas circundantes nos compartimentos celulares.
+
+Questão 16 Integração
+
+Em uma enzima formada por uma única cadeia polipeptídica de 400 resíduos, identificam-se
+duas regiões que se enovelam de forma quase independente: uma com função catalítica e outra
+que liga um modulador alostérico. Qual conceito estrutural descreve melhor essas regiões?
+
+  A) Subunidades distintas, pois cada região com função própria define automaticamente uma
+  subunidade independente dentro da cadeia polipeptídica.
+  B) Diferentes estruturas quaternárias, já que cada região mantém suas próprias interações
+  com o solvente e funciona como uma proteína à parte.
+  C) Diferentes estruturas primárias, uma vez que cada porção com função específica corre
+  sponde a uma sequência de aminoácidos isolada na proteína.
+  D) Estruturas secundárias contínuas, pois somente as -hélices e folhas- são capazes de
+  gerar funções catalíticas e regulatórias distintas.
+  E) Domínios, pois são porções da mesma cadeia que se enovelam independentemente e
+  tipicamente correspondem a unidades funcionais distintas.
+
+                       29
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 17 Integração
+
+A -hélice é uma estrutura secundária amplamente encontrada em proteínas. Considere a
+frase: "as ligações de hidrogênio que estabilizam a -hélice são entre o C=O do resíduo n e o
+N-H do resíduo n+4 da própria cadeia". Sobre esse padrão, é correto afirmar que:
+
+  A) As ligações de hidrogênio envolvem os grupos R de cadeias laterais polares, e o intervalo
+  nn+4 corresponde ao salto entre R polares adjacentes na hélice.
+
+  B) O intervalo nn+4 reflete a geometria com 3,6 resíduos por volta, que coloca C=O e N-H
+  do esqueleto frente a frente ao longo do eixo da hélice.
+
+  C) As ligações de hidrogênio só se formam entre fitas vizinhas, e o n+4 corresponde à posição
+  do resíduo da fita adjacente que se alinha com o resíduo n.
+
+  D) O número 4 vem da soma dos quatro tipos de aminoácidos hidrofóbicos que tipicamente
+  aparecem em qualquer -hélice, independentemente da sua sequência.
+
+  E) O intervalo nn+4 marca a distância entre duas pontes dissulfeto consecutivas, que
+  travam a hélice em geometria fixa por meio de ligações covalentes.
+
+Questão 18 Integração
+
+Comparando duas proteínas com mesma função catalítica em organismos distintos, ob
+serva-se que elas compartilham o mesmo domínio enzimático mas diferem em domínios
+regulatórios. Essa observação ilustra principalmente:
+
+  A) Que proteínas com mesma função sempre derivam de uma única cadeia ancestral em que
+  nenhum domínio sofreu modificação evolutiva.
+  B) Que a estrutura quaternária é o nível organizacional onde a evolução opera com maior
+  frequência sobre as enzimas conservadas.
+  C) O conceito de domínios como módulos reaproveitáveis, com a natureza recombinando-
+  os para gerar proteínas novas a partir de funções pré-existentes.
+  D) A constatação de que toda enzima tem necessariamente um domínio catalítico e quatro
+  domínios regulatórios em arranjo simétrico ao redor do sítio ativo.
+  E) Um caso de estrutura primária idêntica gerando estruturas terciárias distintas, depen
+  dendo apenas do ambiente celular onde cada uma se enovela.
+
+                       30
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 19 Integração
+
+Em uma sequência polipeptídica, observa-se que segmentos contínuos de -hélice são
+frequentemente interrompidos por resíduos de prolina ou glicina, em vez de continuarem
+indefinidamente. Qual a explicação estrutural mais adequada para esse padrão?
+
+  A) Prolina e glicina formam ligações dissulfeto que necessariamente bloqueiam a con
+  tinuidade da estrutura helicoidal em proteínas globulares.
+
+  B) A prolina tem o nitrogênio preso em um anel rígido que restringe , e a glicina é tão flexível
+  que permite ângulos incompatíveis com a hélice.
+
+  C) Prolina e glicina são as únicas cadeias laterais carregadas, e cargas iônicas repelem o
+  esqueleto polipeptídico afastando-o da forma helicoidal.
+
+  D) Esses resíduos têm cadeias laterais grandes que ocupam o interior da hélice, bloqueando
+  o avanço do esqueleto polipeptídico ao longo do eixo central.
+
+  E) Prolina e glicina são os aminoácidos preferenciais para fazer ligações de hidrogênio com
+  a água externa, "puxando" a hélice para fora da proteína.
+
+Questão 20 Integração
+
+Em uma proteína dimérica composta por duas subunidades iguais, ligadas exclusivamente por
+interações não-covalentes, espera-se observar que a interface entre as subunidades:
+
+  A) Contenha um número elevado de pontes dissulfeto intercadeia, responsáveis pela fixação
+  das duas subunidades em uma única unidade funcional.
+  B) Exiba apenas cadeias laterais carregadas e polares, semelhantes à superfície externa em
+  contato com a água do meio celular intracelular.
+  C) Concentre resíduos hidrofóbicos e contatos não-covalentes (lig. H, pontes salinas, Van der
+  Waals), semelhantes aos do interior de cada subunidade isolada.
+  D) Esteja perfeitamente coberta por moléculas de água organizadas em gaiola entre as
+  subunidades, sem contatos diretos entre os esqueletos polipeptídicos.
+  E) Apresente um trecho de -hélice exclusivo da interface, atravessando ambas as sub
+  unidades como uma costura covalente entre seus esqueletos.
+
+                       31
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 21 Integração
+
+Um estudante propõe a seguinte hipótese: "se eu adicionar muito etanol à solução de uma
+proteína globular, o etanol substituirá a água ao redor das cadeias laterais hidrofóbicas, e o
+efeito hidrofóbico ficará ainda mais forte, estabilizando a proteína". Sobre a hipótese, é correto
+afirmar que:
+
+  A) Está correta, porque qualquer solvente prótico estabiliza o efeito hidrofóbico em proteínas
+  globulares, intensificando a compactação do interior.
+
+  B) Está correta, pois o etanol substitui a água sem alterar o equilíbrio entre interior
+  hidrofóbico e superfície hidrofílica do enovelamento original.
+
+  C) Está parcialmente correta, pois o etanol mantém o motor entrópico do enovelamento
+  ainda mais ativo do que a água em condições fisiológicas comuns.
+
+  D) Está incorreta apenas porque o etanol é tóxico para proteínas, embora termodinamica
+  mente preserve o efeito hidrofóbico do enovelamento aquoso.
+
+  E) Está incorreta, pois o efeito hidrofóbico depende do ganho de entropia da água; substi
+  tuindo a água por etanol, o motor termodinâmico do enovelamento se perde.
+
+Questão 22 Integração
+
+Comparando uma folha- paralela e uma folha- antiparalela na mesma proteína, é esperado
+que:
+
+  A) A folha- paralela seja sempre mais estável, pois suas ligações de hidrogênio são todas
+  covalentes entre fitas vizinhas com mesmo sentido.
+  B) Ambas tenham estabilidades equivalentes, já que o sentido das fitas não afeta a geometria
+  das ligações de hidrogênio nas folhas-.
+  C) A folha- antiparalela seja mais estável, pois suas ligações de hidrogênio entre fitas
+  adjacentes ficam alinhadas geometricamente de modo mais favorável.
+  D) A folha- paralela dispense ligações de hidrogênio entre fitas, sendo sustentada exclusi
+  vamente por pontes dissulfeto entre cisteínas adjacentes na sequência.
+  E) Em ambas as configurações os grupos R ocupem o plano da folha, formando interações
+  iônicas que substituem as ligações de hidrogênio do esqueleto.
+
+                       32
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 23 Integração
+
+Uma proteína globular é submetida a um experimento em que se aumenta progressivamente
+a temperatura da solução, mas sem cruzar o limiar de desnaturação completa. Observa-se que,
+conforme a temperatura sobe, mais moléculas de água ficam liberadas das proximidades das
+cadeias laterais apolares. Esse achado é coerente com qual interpretação termodinâmica?
+
+  A) O efeito hidrofóbico é puramente entálpico, dependendo da energia das ligações entre
+  átomos apolares e moléculas de água ao redor da proteína.
+
+  B) O efeito hidrofóbico tem componente entálpico desprezível e é insensível à temperatura,
+  dependendo apenas da composição química das cadeias laterais.
+
+  C) A entropia das águas em torno de cadeias apolares é, ao contrário, alta, e diminui ao se
+  aquecer a solução durante experimentos calorimétricos.
+
+  D) O efeito hidrofóbico tem forte componente entrópico ligado à organização das moléculas
+  de água, o que o torna sensível à temperatura do sistema.
+
+  E) A temperatura só afeta as ligações covalentes da proteína, e qualquer mudança na água ao
+  redor da cadeia decorre apenas dessas alterações covalentes.
+
+Questão 24 Integração
+
+A ligação peptídica tem caráter parcial de dupla ligação por ressonância entre o oxigênio da
+carbonila e o nitrogênio do grupo amino. Qual é a consequência estrutural mais direta desse
+caráter parcial de dupla ligação para o enovelamento proteico?
+
+  A) A ligação peptídica torna-se mais longa que uma ligação simples C-N comum, o que
+  permite maior aproximação entre cadeias laterais R hidrofóbicas.
+  B) Os elétrons distribuídos ao longo dela tornam os átomos C=O e N-H altamente apolares,
+  eliminando a possibilidade de ligações de hidrogênio do esqueleto.
+  C) A ligação peptídica passa a girar com maior liberdade que as ligações C-N e C-C,
+  multiplicando as conformações acessíveis para uma mesma sequência.
+  D) A rotação em torno da ligação peptídica é impedida, fixando os seis átomos em torno dela
+  em um plano rígido e restringindo o enovelamento a  e .
+  E) A ressonância distribui carga elétrica positiva sobre toda a cadeia, criando pontes salinas
+  internas que substituem as interações entre grupos R adjacentes.
+
+                       33
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+Sobre a estrutura secundária de proteínas, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. Na -hélice, as ligações de hidrogênio se formam entre grupos R de aminoácidos polares
+  localizados em volta a cada 3,6 resíduos por volta da hélice.
+
+  II. Na folha- antiparalela, todas as fitas correm no sentido NC da esquerda para a direita,
+  e as ligações de hidrogênio se formam entre fitas vizinhas pela igualdade de direção.
+
+  III. As ligações de hidrogênio que sustentam a -hélice envolvem grupos R hidrofóbicos do
+  interior da hélice, deixando o esqueleto polipeptídico exposto ao solvente.
+
+  IV. A geometria da -hélice posiciona os grupos R apontando para fora do eixo da hélice,
+  enquanto as ligações de hidrogênio do esqueleto correm aproximadamente paralelas a esse
+  eixo.
+
+Questão 26 Aplicação
+
+Um paciente é exposto a um detergente forte que destrói a "casca" externa de proteínas
+globulares solúveis no sangue, expondo o que normalmente está enterrado no interior da
+molécula. Em laboratório, observa-se que essas proteínas perdem a forma compacta e formam
+agregados grandes em poucos minutos. A explicação molecular mais consistente para essa
+agregação rápida é:
+
+  A) O detergente liga-se covalentemente às pontes peptídicas do esqueleto e arrasta as pro
+  teínas para o agregado em decorrência da fragmentação da cadeia principal.
+
+  B) A perda de pontes dissulfeto intracadeia, que ficam expostas a um meio redutor pelo
+  detergente, é o que faz as proteínas formarem polímeros entre si.
+
+  C) Os grupos R polares ficam enterrados no interior e, sem contato com a água, agregam-se
+  entre si por meio de ligações iônicas exclusivas das proteínas globulares.
+
+  D) A -hélice é destruída pelo detergente, e os grupos R apolares deixam de formar as
+  ligações de hidrogênio que estabilizam a hélice no meio aquoso normal.
+
+  E) A camada hidrofílica é removida, expondo cadeias laterais apolares ao meio aquoso; o
+  efeito hidrofóbico passa a operar entre proteínas, que se grudam pelo interior antes oculto.
+
+                       34
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+Um laboratório de bioquímica está estudando dois peptídeos sintéticos: o peptídeo A, com
+sequência rica em valina, leucina e isoleucina; e o peptídeo B, com sequência rica em lisina,
+glutamato e serina. Ambos têm 60 resíduos e são incubados em solução aquosa fisiológica.
+Sobre o comportamento esperado de cada peptídeo, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. Espera-se que o peptídeo A tenha tendência muito menor a se manter em solução aquosa
+  do que o peptídeo B, podendo até agregar com outras moléculas do mesmo peptídeo.
+
+  II. Para o peptídeo B, é esperado que os resíduos de lisina e glutamato formem pontes salinas
+  entre si, contribuindo para a estabilidade da forma adquirida pela cadeia.
+
+  III. O peptídeo A será altamente solúvel no meio aquoso porque cadeias laterais apolares
+  fazem inúmeras ligações de hidrogênio com a água, ao contrário do peptídeo B.
+
+  IV. O peptídeo B, ao se enovelar, distribuirá lisina e glutamato no interior compactado, longe
+  da água, porque resíduos carregados rejeitam o contato com o solvente aquoso.
+
+Questão 28 Aplicação
+
+Uma criança apresenta uma mutação herdada que troca uma cisteína por uma serina em
+uma proteína secretada pelo fígado para o plasma. Essa proteína normalmente contém quatro
+pontes dissulfeto que mantêm sua forma funcional no plasma. Sobre as consequências mole
+culares dessa mutação, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A perda de uma cisteína impede a formação de uma das pontes dissulfeto da proteína,
+  deixando uma região previamente travada com maior flexibilidade no meio extracelular.
+
+  II. A serina pode substituir a cisteína sem qualquer alteração funcional, pois possui um
+  grupo -OH similar ao grupo -SH e estabelece pontes covalentes equivalentes.
+
+  III. A redução do número de pontes dissulfeto torna a proteína mais sensível ao ambiente
+  oxidante do plasma, com possível perda da forma reconhecida por seu alvo molecular.
+
+  IV. As outras três pontes dissulfeto, mantidas pelo ambiente oxidante do plasma, ainda
+  contribuem para a estabilidade da proteína, embora não compensem por completo a ponte
+  ausente.
+
+                      35
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+Um paciente com anemia falciforme apresenta hemácias que se deformam em forma de foice
+quando expostas a baixa tensão de oxigênio, como ocorre em capilares teciduais ou em altitude
+elevada. A base molecular da doença é uma única substituição de aminoácido na cadeia  da
+hemoglobina, em que um glutamato (polar, carregado) é trocado por uma valina (apolar) na
+posição 6. Qual mecanismo explica melhor por que a substituição de um único aminoácido em
+uma das 4 cadeias da hemoglobina produz a polimerização patológica observada?
+
+  A) A valina rompe a ligação peptídica do esqueleto da -globina, fragmentando a cadeia em
+  peptídeos menores que se agrupam em filamentos longos no eritrócito.
+
+  B) A valina forma uma ponte dissulfeto covalente com a -globina de outra hemoglobina,
+  ligando irreversivelmente as moléculas em longos polímeros patológicos no plasma.
+
+  C) A valina aumenta a entropia da água ao redor da hemoglobina, impedindo o transporte
+  de oxigênio para os tecidos periféricos do paciente acometido.
+
+  D) A valina, hidrofóbica, fica exposta na superfície da hemoglobina (onde o glutamato polar
+  estaria), e o efeito hidrofóbico "gruda" essa superfície a outra molécula de Hb mutante.
+
+  E) A valina impede o enovelamento total da -globina, eliminando a estrutura quaternária e
+  bloqueando a ligação cooperativa do oxigênio em todas as quatro subunidades.
+
+                      36
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 30 Aplicação
+
+A hemoglobina é um tetrâmero (2 + 2) cuja curva de saturação por oxigênio é sigmoide, em
+contraste com a curva hiperbólica da mioglobina, que é monomérica. Essa diferença permite
+que a hemoglobina entregue mais oxigênio aos tecidos por unidade de queda da PO. Quando
+um indivíduo mutante apresenta uma hemoglobina anormal cujas quatro subunidades não se
+associam (permanecem como monômeros isolados), espera-se observar:
+
+  A) Aumento da afinidade da molécula por oxigênio em todas as faixas de PO, com curva
+  ainda mais íngreme do que a sigmoide normal observada na hemoglobina nativa.
+
+  B) Manutenção exata da curva sigmoide e da cooperatividade, pois cada cadeia monomérica
+  isolada ainda contém os mesmos resíduos do sítio de ligação ao oxigênio.
+
+  C) Perda da cooperatividade na ligação do oxigênio e desempenho parecido com o da mio
+  globina, com curva hiperbólica e entrega prejudicada de O nos tecidos.
+
+  D) Aparecimento de uma curva linear de saturação, com a quantidade de O ligada variando
+  proporcionalmente à PO em qualquer faixa do gradiente fisiológico.
+
+  E) Aumento da capacidade de transporte de oxigênio do sangue, pois cada monômero isolado
+  liga mais O do que uma cadeia integrada em estrutura quaternária.
+
+                      37
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Christian Anfinsen mostrou, com experimentos clássicos em ribonuclease A, que a
+forma 3D de uma proteína é determinada exclusivamente por sua sequência primária.
+Explique, em termos termodinâmicos, por que a sequência basta para definir a confor
+mação nativa, e o que isso implica sobre o caminho do enovelamento.
+
+    MODELO DE RESPOSTA
+
+   A conformação nativa é a forma de menor energia livre acessível à cadeia, aquela em que
+   o número de interações favoráveis entre resíduos (efeito hidrofóbico, ligações H, pontes
+   salinas, Van der Waals) é máximo. Como essas interações dependem só da identidade
+   dos grupos R, a sequência define qual é o mínimo energético. Qualquer outra forma é
+   menos estável, e flutuações térmicas tendem a empurrar a cadeia de volta à nativa. Por
+   isso, em condições fisiológicas, a sequência é informação suficiente -- não é preciso
+   molde externo, apenas tempo e ambiente adequados.
+
+Questão Q2
+
+O efeito hidrofóbico é considerado o motor termodinâmico principal do enovelamento
+de proteínas globulares. Explique por que esse efeito é entrópico (e não simples atração
+entre cadeias laterais apolares) e qual é o "ganho" termodinâmico real quando duas
+cadeias laterais hidrofóbicas se aproximam no interior da proteína.
+
+    MODELO DE RESPOSTA
+
+   Cadeias laterais apolares não fazem ligações de hidrogênio com a água. Para preservar
+   suas próprias ligações H, as moléculas de água em torno de um grupo apolar organi
+   zam-se em uma "gaiola" semi-cristalina, com entropia muito baixa. Quando duas
+   cadeias apolares se aproximam, parte dessa água é liberada, voltando ao bulk com
+   muitos graus de liberdade. O ganho termodinâmico não vem de uma força atrativa di
+   reta entre os grupos apolares, mas do aumento de entropia da água. Por isso é entrópico,
+   e por isso é o motor central do enovelamento compacto.
+
+                             38
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q3
+
+Explique por que as ligações de hidrogênio que sustentam a -hélice se formam entre
+grupos do esqueleto (C=O e N-H da ligação peptídica) e não entre grupos R das cadeias
+laterais. Comente a consequência desse fato para as posições dos grupos R em uma -
+hélice.
+
+MODELO DE RESPOSTA
+
+A -hélice é uma estrutura secundária, ou seja, depende de um padrão repetitivo local
+que possa se formar em praticamente qualquer sequência. Os grupos C=O e N-H da
+ligação peptídica existem em todos os resíduos, independentemente da identidade do
+R, e por isso fornecem doadores e aceptores de ligação H regulares ao longo de toda
+a cadeia. As ligações H ficam dispostas paralelas ao eixo da hélice, ligando o C=O do
+resíduo n ao N-H do resíduo n+4. Como o esqueleto faz todo o trabalho estrutural, os
+grupos R ficam livres para apontar perpendicularmente para fora do eixo, onde poderão
+participar mais tarde das interações da estrutura terciária.
+
+Questão Q4
+
+Anticorpos, hormônios peptídicos como a insulina e enzimas pancreáticas como a
+ribonuclease A frequentemente apresentam várias pontes dissulfeto. Em contraste, enz
+imas glicolíticas que atuam no citosol raramente as têm. Explique por que essa diferença
+é esperada do ponto de vista do ambiente químico em que cada proteína atua.
+
+    MODELO DE RESPOSTA
+
+   A ponte dissulfeto se forma pela oxidação de dois grupos -SH de cisteínas, ligando-os
+   covalentemente como -S-S-. A reação requer ambiente oxidante: no meio extracelular
+   (plasma, lúmen intestinal, lágrima), as cisteínas podem perder seus dois H e dois
+   elétrons e estabilizar a forma -S-S-. No interior celular, o citosol é redutor -- moléculas
+   como a glutationa mantêm as cisteínas com -SH livre, impedindo a formação da ponte.
+   Por isso proteínas secretadas, expostas a um ambiente oxidante, exploram pontes
+   dissulfeto como "fechos" extras de estabilidade, enquanto proteínas citosólicas não.
+
+       39
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão Q5
+
+Um aluno propõe o seguinte raciocínio para explicar a estabilidade de proteínas globu
+lares: "como o efeito hidrofóbico depende da atração entre cadeias laterais apolares,
+quanto mais hidrofóbicas forem as cadeias laterais da proteína, mais estável ela será
+no meio aquoso". Identifique o erro conceitual nesse raciocínio e proponha uma versão
+corrigida.
+
+MODELO DE RESPOSTA
+
+O erro tem duas camadas. Primeiro, o efeito hidrofóbico não é atração entre cadeias
+laterais apolares -- é ganho de entropia da água, que se livra das gaiolas formadas
+em torno desses grupos. Segundo, e mais grave, a conclusão de que "mais hidrofóbico
+= mais estável" inverte a fisiologia: uma proteína com cadeias laterais predominante
+mente apolares tenderia a expor parte delas na superfície (o interior já estaria saturado
+de hidrofóbicos) ou a se agregar com outras moléculas semelhantes, formando precip
+itado em vez de proteína solúvel funcional. A estabilidade depende do equilíbrio entre
+interior hidrofóbico e superfície hidrofílica, decidido pela sequência primária; é o bal
+anço, não o excesso de hidrofóbicos, que produz a forma nativa estável.
+
+       40
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 E     Q02 A         Q03 EEEE  Q04 A     Q05 C
+                        Q08 E
+Q06 EEEC  Q07 B                   Q12 ECEC  Q13 B
+                        Q11 CECC  Q17 B     Q18 C
+INTEGRAÇÃO (Q11­Q25)    Q16 E     Q22 C     Q23 D
+                        Q21 E
+Q09 CECC  Q10 A                   Q29 D     Q30 C
+                        Q28 CECC
+Q14 C     Q15 C
+
+Q19 B     Q20 C
+
+Q24 D     Q25 EEEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 E     Q27 CCEE
+
+                        44
+

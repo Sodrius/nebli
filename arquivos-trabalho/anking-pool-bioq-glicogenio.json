@@ -1,0 +1,1305 @@
+{
+  "slug": "bioq-glicogenio",
+  "gerado_em": "2026-07-04",
+  "tags_consulta": [
+    "Biochemistry::08_Glycogen",
+    "01_Biochem::06_Metabolism::36_Glycogen",
+    "01_Biochem::06_Metabolism::37_Glycogen_storage_diseases",
+    "01_Biochem::06_Metabolism::35_Glycogen_regulation",
+    "05_Biochem::05_Metabolism::07_Glycogen",
+    "05_Biochem::05_Metabolism::08_Glycogen",
+    "05_Biochem::05_Metabolism::09_Glycogen"
+  ],
+  "regex": null,
+  "n_cards": 108,
+  "cards": [
+    {
+      "guid": "MtyRQn=),[",
+      "deck": "AnKing Step Deck",
+      "front": "Thyroid hormone increases the processes of [glycogenolysis] , [ gluconeogenesis ], [ proteolysis ], and [ lipolysis ], all of which may provide sources of ATP",
+      "raw0": "<div>Thyroid hormone increases the processes of <b>{{c1::glycogenolysis}}</b>, {{c1::<b>gluconeogenesis</b>}}, {{c2::<b>proteolysis</b>}}, and {{c2::<b>lipolysis</b>}}, all of which may provide sources of <b>ATP</b></div>",
+      "back": "Goal is to increase metabolism to meet the demand for substrate associated with increased O 2 consumption",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "pDQO]a7eSj",
+      "deck": "AnKing Step Deck",
+      "front": "Insulin decreases blood glucose concentration by promoting synthesis and storage of [ glycogen ] in the [ muscle ] and [ liver ], while simultaneously inhibiting [ glycogenolysis ]",
+      "raw0": "<div><b>Insulin</b> decreases <u>blood glucose concentration</u> by promoting synthesis and storage of {{c1::<b>glycogen</b>}} in the {{c2::<b>muscle</b>}} and {{c2::<b>liver</b>}}, while simultaneously inhibiting {{c1::<b>glycogenolysis</b>}} </div>",
+      "back": "[img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "HhW8?aDOIS",
+      "deck": "AnKing Step Deck",
+      "front": "Glucagon acts on the [ liver ] (primarily) and [ adipose ] tissue",
+      "raw0": "<div><b>Glucagon</b> acts on the {{c1::<b>liver</b>}} (primarily) and {{c1::<b>adipose</b>}} tissue</div>",
+      "back": "- Liver : to promote gluconeogenesis , glycogen breakdown and decrease in glycolysis - Adipose : increased activity of adipose triglyceride lipase (leads to more non-esterified fatty acids in the blood) and reduced malonyl-CoA",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism"
+      ]
+    },
+    {
+      "guid": "qjM!rzwk#{",
+      "deck": "AnKing Step Deck",
+      "front": "Glucagon increases blood glucose concentration by increasing [ glycogenolysis ] and gluconeogenesis, while simultaneously inhibiting [ glycogen ] formation from glucose",
+      "raw0": "<div><b>Glucagon</b> <i>increases</i> <u>blood glucose concentration</u> by increasing {{c1::<b>glycogenolysis</b>}}<b> </b>and gluconeogenesis,  while simultaneously inhibiting {{c1::<b>glycogen</b>}} formation from glucose</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "u|_E+/mP7s",
+      "deck": "AnKing Step Deck",
+      "front": "Overall, the effects of thyroid hormones are [catabolic]",
+      "raw0": "Overall, the effects of <b>thyroid hormones</b> are {{c1::catabolic::anabolic/catabolic}}",
+      "back": "Increased glycogenolysis , gluconeogenesis , lipolysis",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "zV_y;X@M}k",
+      "deck": "AnKing Step Deck",
+      "front": "When insulin acts on liver tissue, it causes [in]creased glycogenesis and [de]creased glycogenolysis",
+      "raw0": "<div>When <b>insulin</b> acts on <b>liver</b> tissue, it causes {{c1::in}}creased glycogenesis and {{c1::de}}creased glycogenolysis</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "OdGF-+M-$`",
+      "deck": "AnKing Step Deck",
+      "front": "When insulin acts on muscle tissue, it causes [ in ] creased glycogen storage and [ in ] creased protein synthesis",
+      "raw0": "<div>When <b>insulin</b> acts on <b>muscle</b> tissue, it causes {{c1::<u>in</u>}}<u>creased</u> glycogen storage and {{c1::<u>in</u>}}<u>creased</u> protein synthesis</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "HCj{]I<#KJ",
+      "deck": "AnKing Step Deck",
+      "front": "When insulin binds its receptor, the receptor [ dimerizes ] and is activated via tyrosine kinase activity",
+      "raw0": "<div><div><div>When <b>insulin</b> binds its receptor, the receptor {{c1::<b>dimerizes</b>}} and is activated via tyrosine kinase activity</div></div></div>",
+      "back": "1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3. IRS binds the insulin receptor and IRS's tyrosine residues are phosphorylated by the activated receptor kinase 4. SH2-domain proteins bind phosphotyrosine residues on IRS [img] Image licensed by Physeo and used with permission. Purchase full textbook here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling"
+      ]
+    },
+    {
+      "guid": "ulWdB@bBAJ",
+      "deck": "AnKing Step Deck",
+      "front": "[ Autophosphorylation ] of the insulin receptor allows binding of [ insulin receptor substrate 1 (IRS-1)]",
+      "raw0": "<div><div>{{c1::<b>Autophosphorylation</b>}} of the <u>insulin receptor</u> allows binding of {{c2::<b>insulin receptor substrate 1</b> (IRS-1)}}</div></div>",
+      "back": "1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3. IRS binds the insulin receptor and IRS's tyrosine residues are phosphorylated by the activated receptor kinase 4. SH2-domain proteins bind phosphotyrosine residues on IRS [img] Image licensed by Physeo and used with permission. Purchase full textbook here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling"
+      ]
+    },
+    {
+      "guid": "z6Ie,6qNJ:",
+      "deck": "AnKing Step Deck",
+      "front": "Following binding of insulin receptor substrate 1 (IRS) to the insulin receptor , [ SH2 ] -domain proteins bind to IRS-1 phosphotyrosines",
+      "raw0": "<div><div>Following binding of <b>insulin receptor substrate 1</b> (IRS) to the <u>insulin receptor</u>, {{c1::<b>SH2</b>}}<b>-domain proteins</b> bind to IRS-1 phosphotyrosines</div></div>",
+      "back": "1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3. IRS binds the insulin receptor and IRS's tyrosine residues are phosphorylated by the activated receptor kinase 4. SH2-domain proteins bind phosphotyrosine residues on IRS [img] Image licensed by Physeo and used with permission. Purchase full textbook here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling"
+      ]
+    },
+    {
+      "guid": "vaoAZ^*v%p",
+      "deck": "AnKing Step Deck",
+      "front": "What SH2-domain protein , when activated, results in the translocation of GLUT-4 to the membrane in adipose and muscle? [PI 3 kinase]",
+      "raw0": "What <b>SH2-domain protein</b>, when activated, results in the <u>translocation</u> of <b>GLUT-4 </b>to the membrane in adipose and muscle?<br><br><div>{{c1::PI<sub>3</sub> kinase}}<br></div>",
+      "back": "1. Insulin binds to the insulin receptor tyrosine kinase 2. Insulin binding induces a conformational change to trigger autophosphorylation by tyrosine kinases 3. IRS binds the insulin receptor and IRS's tyrosine residues are phosphorylated by the activated receptor kinase 4. SH2-domain proteins bind phosphotyrosine residues on IRS [img] Image licensed by Physeo and used with permission. Purchase full textbook here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling"
+      ]
+    },
+    {
+      "guid": "JJ1x}ghncd",
+      "deck": "AnKing Step Deck",
+      "front": "Phosphorylation of glycogen phosphorylase causes enzyme [activation]",
+      "raw0": "<div><div>Phosphorylation of<i> <b>glycogen phosphorylase</b></i> causes enzyme {{c1::activation::activation/inactivation}} </div></div>",
+      "back": "e.g., due to glucagon ; this favors glycogenolysis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "x]WiN$)Ly?",
+      "deck": "AnKing Step Deck",
+      "front": "Phosphorylation of glycogen synthase causes enzyme [inactivation]",
+      "raw0": "<div><div>Phosphorylation of<i> <b>glycogen synthase</b></i> causes enzyme {{c1::inactivation::activation/inactivation}}</div></div>",
+      "back": "e.g., due to glucagon ; this inhibits glycogenesis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "t(VMYBSGCu",
+      "deck": "AnKing Step Deck",
+      "front": "Dephosphorylation of glycogen phosphorylase causes enzyme [inactivation]",
+      "raw0": "<div><div>Dephosphorylation of<i> <b>glycogen phosphorylase</b></i> causes enzyme {{c1::inactivation::activation/inactivation}}</div></div>",
+      "back": "e.g., due to insulin ; this inhibits glycogenolysis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "H5K><38Wcb",
+      "deck": "AnKing Step Deck",
+      "front": "Dephosphorylation of glycogen synthase causes enzyme [activation]",
+      "raw0": "<div><div>Dephosphorylation of<i> <b>glycogen synthase</b></i> causes enzyme {{c1::activation::activation/inactivation}} </div></div>",
+      "back": "e.g., due to insulin ; this favors glycogenesis [img] Photo credit: C. Muessig , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "M?qucuV[[Q",
+      "deck": "AnKing Step Deck",
+      "front": "Anaerobic glycolysis produces a net of [0] NADH per glucose molecule",
+      "raw0": "<b>Anaerobic glycolysis</b> produces a <u>net</u> of {{c1::0}} <b>NADH</b> per glucose molecule",
+      "back": "- Aerobic glycolysis produces a net of 2 NADH per glucose - Under aerobic conditions, the NADH is used in the ETC to make ATP - Under anaerobic conditions, the NADH is not able to be used in the ETC and is oxidized to regenerate NAD+ via the reduction of pyruvate for lactate",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "tOf?3kR0HJ",
+      "deck": "AnKing Step Deck",
+      "front": "Which organs phosphorylate glucose using glucokinase ? [Liver and pancreas β cells]",
+      "raw0": "<div>Which organs <u>phosphorylate glucose</u> using <b>glucokinase</b>? </div><br><div>{{c1::Liver and pancreas β cells::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "nht5(r7.5<",
+      "deck": "AnKing Step Deck",
+      "front": "Hexokinase is characterized by a(n) [ low ] K m relative to glucokinase",
+      "raw0": "<div><b>Hexokinase</b> is characterized by a(n) {{c1::<u>low</u>}} <b>K<sub>m</sub></b> relative to <b>glucokinase</b>  <b>  </b></div>",
+      "back": "i.e., higher affinity",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "bI2Z+$[mcP",
+      "deck": "AnKing Step Deck",
+      "front": "Glucokinase is characterized by a(n) [ high ] K m relative to hexokinase",
+      "raw0": "<div><b>Glucokinase</b> is characterized by a(n) {{c1::<u>high</u>}} <b>K<sub>m</sub></b> relative to <b>hexokinase</b> </div>",
+      "back": "i.e., lower affinity",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "v;)KNCG~C2",
+      "deck": "AnKing Step Deck",
+      "front": "Hexokinase is characterized by a(n) [ low ] V max relative to glucokinase",
+      "raw0": "<div><b>Hexokinase</b> is characterized by a(n) {{c1::<u>low</u>}} <b>V<sub>max</sub></b> relative to <b>glucokinase</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "m.G,<>OGdt",
+      "deck": "AnKing Step Deck",
+      "front": "Glucokinase is characterized by a(n) [ high ] V max relative to hexokinase",
+      "raw0": "<div><b>Glucokinase</b> is characterized by a(n) {{c1::<u>high</u>}} <b>V<sub>max</sub></b> relative to <b>hexokinase</b> <b>  </b> </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "AZXt?v:e~;",
+      "deck": "AnKing Step Deck",
+      "front": "Is hexokinase activity induced by insulin ? [No]",
+      "raw0": "<div>Is <b>hexokinase</b> activity <u>induced</u> by <b>insulin</b>? </div><br><div>{{c1::No}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "f%!|E75_&~",
+      "deck": "AnKing Step Deck",
+      "front": "Is glucokinase activity induced by insulin ? [Yes]",
+      "raw0": "<div><div>Is <b>glucokinase</b> activity <u>induced</u> by <b>insulin</b>? </div><br><div>{{c1::Yes}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "NLYluWT4o3",
+      "deck": "AnKing Step Deck",
+      "front": "Is hexokinase activity inhibited by glucose-6-phosphate ? [Yes]",
+      "raw0": "<div><div>Is <b>hexokinase</b> activity <u>inhibited</u> by <b>glucose-6-phosphate</b>? </div><br><div>{{c1::Yes}}</div></div>",
+      "back": "- Glucokinase is inhibited by fructose -6-phosphate - Hexokinase is inhibited by glucose -6-phosphate [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "xPTngmOJl^",
+      "deck": "AnKing Step Deck",
+      "front": "Is glucokinase activity inhibited by glucose-6-phosphate ? [No]",
+      "raw0": "<div><div>Is <b>glucokinase</b> activity <u>inhibited</u> by <b>glucose-6-phosphate</b>?  </div><br><div>{{c1::No}}</div></div>",
+      "back": "But rather inhibited by fructose-6-phosphate [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "LYwSU2#xB#",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ hexokinase ] in most tissues",
+      "raw0": "<div><div><b>Glucose</b> is converted to {{c2::<b>glucose-6-phosphate</b>}} by the enzyme {{c1::<i><b>hexokinase</b></i>}} in <u>most</u> tissues</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "d:hFuaXr+W",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose is converted to [ glucose-6-phosphate ] by the enzyme [ glucokinase ] in the liver and β cells of the pancreas",
+      "raw0": "<div><div><b>Glucose</b> is converted to {{c2::<b>glucose-6-phosphate</b>}} by the enzyme {{c1::<i><b>glucokinase</b></i>}}<i><b> </b></i>in the <u>liver</u> and <u>β cells of the pancreas</u></div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "hE2aCpaVLS",
+      "deck": "AnKing Step Deck",
+      "front": "Glucokinase is regulated via negative feedback by [fructose-6-phosphate]",
+      "raw0": "<div><div><i><b>Glucokinase</b> </i>is regulated via <u>negative feedback</u> by {{c1::fructose-6-phosphate}}</div></div>",
+      "back": "Glucokinase is inhibited by fructose -6-phosphate Hexokinase is inhibited by glucose -6-phosphate [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "gfPz,tF6NU",
+      "deck": "AnKing Step Deck",
+      "front": "Glucokinase is regulated via positive feedback by [insulin]",
+      "raw0": "<div><div><b><i>Glucokinase</i></b> is regulated via <u>positive feedback</u> by {{c1::insulin}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "l>U<Sc2/Hu",
+      "deck": "AnKing Step Deck",
+      "front": "In hereditary fructose intolerance , fructose-1-P accumulates , causing a decrease in available [phosphate]",
+      "raw0": "<div>In <b>hereditary fructose intolerance</b>, fructose-1-P <i>accumulates</i>, causing a <u>decrease</u> in available {{c1::phosphate}}</div>",
+      "back": "Decreased phosphate results in inhibition of glycogenolysis and gluconeogenesis [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "EpP)_C[pvK",
+      "deck": "AnKing Step Deck",
+      "front": "In hereditary fructose intolerance , decreased available phosphate leads to [ inhibition ] of glycogenolysis and gluconeogenesis",
+      "raw0": "<div>In <b>hereditary fructose intolerance</b>, <u>decreased</u> <i>available phosphate</i> leads to {{c1::<u>inhibition</u>}} of <b>glycogenolysis</b> and <b>gluconeogenesis</b></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "d#O@msi`p,",
+      "deck": "AnKing Step Deck",
+      "front": "What is the rate-limiting enzyme for glycogenesis ? [Glycogen synthase]",
+      "raw0": "<div>What is the <u>rate-limiting enzyme</u> for <b>glycogenesis</b>? </div><br><div>{{c1::Glycogen synthase}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "nu_DNBDjt}",
+      "deck": "AnKing Step Deck",
+      "front": "What is the rate-limiting enzyme for glycogenolysis ? [Glycogen phosphorylase]",
+      "raw0": "<div>What is the <u>rate-limiting enzyme</u> for <b>glycogenolysis</b>? </div><br><div>{{c1::Glycogen phosphorylase}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "Q}L4nHUwJq",
+      "deck": "AnKing Step Deck",
+      "front": "[ Glucose-1-phosphate ] is converted to [ UDP-glucose ] via the enzyme UDP-glucose pyrophosphorylase (glycogen synthesis)",
+      "raw0": "<div>{{c1::<b>Glucose-1-phosphate</b>}} is converted to {{c2::<b>UDP-glucose</b>}} via the enzyme <i>UDP-glucose pyrophosphorylase</i> (glycogen synthesis)</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "P=k|64~K:v",
+      "deck": "AnKing Step Deck",
+      "front": "UDP-glucose contributes to [ glycogen ] formation via the enzyme [ glycogen synthase ]",
+      "raw0": "<div><b>UDP-glucose</b> contributes to {{c1::<b>glycogen</b>}} formation via the enzyme {{c2::<i><b>glycogen synthase</b></i>}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "O&P;nPf?ml",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme [ glycogen synthase ] catalyzes the formation of [ α-(1,4) ] bonds between glucose molecules",
+      "raw0": "<div>The enzyme {{c1::<i><b>glycogen</b> <b>synthase</b></i>}} catalyzes the formation of {{c2::<b>α-(1,4)</b>}}<b> bonds</b> between glucose molecules</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "zvzpQ[^7vL",
+      "deck": "AnKing Step Deck",
+      "front": "[ Branching enzyme ] catalyzes the formation of [ α-(1,6) ] bonds between glucose molecules",
+      "raw0": "<div>{{c1::<b>Branching enzyme</b>}} catalyzes the formation of {{c2::<b>α-(1,6)</b>}}<b> bonds </b>between glucose molecules</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "GX^`~S+mF$",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen synthase is regulated via negative feedback by AMP , [ epinephrine ], and [ glucagon ]",
+      "raw0": "<div><b><i>Glycogen synthase</i></b> is regulated via <u>negative feedback</u> by <b>AMP</b>, {{c1::<b>epinephrine</b>}}, and {{c2::<b>glucagon</b>}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "FYy&M7Hymd",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen synthase is up-regulated by [ insulin ], [ cortisol ], and [ glucose-6-phosphate ]",
+      "raw0": "<div><b><i>Glycogen synthase</i></b> is up-regulated by {{c1::<b>insulin</b>}}, {{c2::<b>cortisol</b>}}, and {{c3::<b>glucose-6-phosphate</b>}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "k&5390&HY)",
+      "deck": "AnKing Step Deck",
+      "front": "[ Glycogen phosphorylase ] liberates [ glucose-1-phosphate ] residues off branched glycogen until 4 glucose units remain on a branch",
+      "raw0": "<div>{{c1::<b><i>Glycogen phosphorylase</i></b>}} liberates {{c2::<b>glucose-1-phosphate</b>}} residues off <u>branched glycogen</u> until 4 glucose units remain on a branch</div>",
+      "back": "The rate-determining enzyme in glycogenolysis is glycogen phosphorylase [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "#B0{*$_]*",
+      "deck": "AnKing Step Deck",
+      "front": "When [ four ] glucose units remain on a branch of glycogen, [ debranching enzyme ( 4-α-D-glucanotransferase )] moves 3 glucose residues from the branch to the linkage",
+      "raw0": "<div>When {{c2::<u>four</u>}} glucose units remain on a branch of glycogen, {{c1::<b>debranching enzyme</b> (<i>4-α-D-glucanotransferase</i>)}} moves 3 glucose residues from the <u>branch</u> to the <u>linkage</u></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "EJ;nDO<sh#",
+      "deck": "AnKing Step Deck",
+      "front": "When [ one ] glucose unit(s) remains on a branch of glycogen, [ debranching enzyme ( α-1,6-glucosidase )] cleaves off the last residue, liberating glucose",
+      "raw0": "<div>When {{c2::<u>one</u>}} glucose unit(s) remains on a branch of glycogen, {{c1::<b>debranching enzyme</b> (<i>α-1,6-glucosidase</i>)}} cleaves off the last residue, liberating glucose</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "l8j*]5^VYh",
+      "deck": "AnKing Step Deck",
+      "front": "The branched glycogen molecule (pre-debranching enzyme) is cleaved by the enzyme [ α-1,4-glucosidase (acid maltase) ] in the [ lysosomes ], only",
+      "raw0": "<div>The <u>branched</u> <b>glycogen molecule</b> (pre-debranching enzyme) is cleaved by the enzyme {{c1::<b style=\"font-style: italic;\">α-1,4-glucosidase</b><b> (acid maltase)</b>}} in the {{c2::<b>lysosomes</b>}}, <i>only</i> </div>",
+      "back": "Only a small amount of glycogen is degraded in lysosomes [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "pmk$)[yPFZ",
+      "deck": "AnKing Step Deck",
+      "front": "The one to four glucose residues remaining on a branch after glycogen phosphorylase has shortened it are referred to as \"[ limit dextrins ]\"",
+      "raw0": "<div>The <u>one</u> to <u>four</u> glucose residues remaining on a branch after <b>glycogen phosphorylase</b> has shortened it are referred to as \"{{c1::<b>limit dextrins</b>}}\" </div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "x<@z]RNXTB",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen phosphorylase is regulated by positive feedback by [ epinephrine ] via the [ β ] receptor (liver and muscle)",
+      "raw0": "<div><div><b><i>Glycogen phosphorylase</i></b> is regulated by <u>positive feedback</u> by {{c1::<b>epinephrine</b>}} via the {{c2::<b>β</b>}}<b> receptor</b> (liver <i>and</i> muscle)</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "l(E+w)vX?;",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen phosphorylase is regulated by positive feedback by [ epinephrine ] via the [ α ] receptor (liver only )",
+      "raw0": "<div><div><b><i>Glycogen phosphorylase</i></b> is regulated by <u>positive feedback</u> by {{c1::<b>epinephrine</b>}} via the {{c2::<b>α</b>}}<b> receptor</b> (liver <i>only</i>)</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "pxM$L7@(H$",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen phosphorylase is regulated via positive feedback by [AMP] (muscle)",
+      "raw0": "<div><div><i><b>Glycogen </b><b>phosphorylase</b></i> is regulated via <u>positive feedback</u> by {{c1::AMP}} (muscle)</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "OzgYDYI,oz",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen phosphorylase is regulated via negative feedback by ATP , insulin , and [ glucose-6-phosphate ]",
+      "raw0": "<div><b><i>Glycogen phosphorylase</i></b> is regulated via <u>negative feedback</u> by <b>ATP</b>, <b>insulin</b>, and {{c3::<b>glucose-6-phosphate</b>}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Regulation",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "k>UdLY/g}H",
+      "deck": "AnKing Step Deck",
+      "front": "In skeletal muscle , glycogenolysis ultimately produces [ glucose-6-phosphate ], which is rapidly metabolized during exercise",
+      "raw0": "<div>In <u>skeletal muscle</u>, <b>glycogenolysis</b> ultimately produces {{c1::<b>glucose-6-phosphate</b>}}, which is rapidly metabolized during exercise</div>",
+      "back": "Muscle lacks glucose-6-phosphatase",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::03_Regulation_of_Glycogen_Metabolism",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::36_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "oOzgi=8C-~",
+      "deck": "AnKing Step Deck",
+      "front": "[ Periodic acid-Schiff (PAS) ] stain identifies glycogen and is thus useful in identifying glycogen storage diseases",
+      "raw0": "<div>{{c1::<b>Periodic acid-Schiff (PAS)</b>}}<b> stain</b> identifies <u>glycogen</u> and is thus useful in <i>identifying</i> <b>glycogen storage diseases</b>  </div>",
+      "back": "- Periodic acid oxidizes carbon-carbon bonds, forming aldehydes that produce a brilliant magenta on reacting with fuchsin-sulfurous acid - This is particularly effective at highlighting glycolipids / mucosubstances secreted by epithelia, basement membranes, and polysaccharides of fungal cell wall",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage_Diseases_(GSDs)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Basics"
+      ]
+    },
+    {
+      "guid": "qgVSGDpgXa",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of glycogen storage diseases ? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>glycogen storage diseases</b>?</div><br><div>{{c1::Autosomal recessive}}</div>",
+      "back": "e.g., von Gierke, Pompe, Cori, Andersen, McArdle, Hers... [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage_Diseases_(GSDs)",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::10_Hers_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Basics",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "B?K/l8l[C?",
+      "deck": "AnKing Step Deck",
+      "front": "[ Von Gierke ] disease is also known as glycogen storage disease type [ I ]",
+      "raw0": "<div>{{c2::<b>Von Gierke</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>I</b>}}</div>",
+      "back": "Von Gierke = One Gierke (type 1 ) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "K^{i%Q-(G/",
+      "deck": "AnKing Step Deck",
+      "front": "[ Von Gierke ] disease is caused by a deficiency of the enzyme [ glucose-6-phosphatase ]",
+      "raw0": "{{c2::<b>Von Gierke</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the enzyme {{c1::<b>glucose-6-phosphatase</b>}}",
+      "back": "- Glucose-6-phosphatase is important for liver regulation of blood glucose - Thus, G6P will build up in the liver , and be shunted into all available pathways - Pathways dependent on G6Pase outside of gluconeogenesis will also be affected [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "LvKYky?e10",
+      "deck": "AnKing Step Deck",
+      "front": "Von Gierke disease is characterized by very increased levels of [ glycogen ] in the liver and kidneys , with subsequent [ hepatomegaly ] and [ renomegaly ]",
+      "raw0": "<div><b>Von Gierke disease</b> is characterized by <u>very increased</u> levels of {{c1::<b>glycogen</b>}} in the <u>liver</u> and <u>kidneys</u>, with subsequent {{c2::<b>hepatomegaly</b>}} and {{c2::<b>renomegaly</b>}}</div>",
+      "back": "- Deficiency in glucose-6-phosphatase results in accumulation of glucose in G6P form - Liver cannot convert G6P to release it - This leads to excess incorporation into glycogen / excess storage [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "cM0vA,pT|;",
+      "deck": "AnKing Step Deck",
+      "front": "Von Gierke disease is associated with increased blood [ lactate ], [ triglycerides ], and [ uric ] acid",
+      "raw0": "<div><b>Von Gierke disease</b> is associated with <u>increased</u> blood {{c1::<b>lactate</b>}}, {{c1::<b>triglycerides</b>::lipid}}, and {{c1::<b>uric</b>}} <b>acid</b></div>",
+      "back": "- Excess pyruvate is shunted into triglyceride synthesis - Cori (Lactate) Cycle fails because the liver cannot form glucose from 2 pyruvates , resulting in lactate building up in the blood - Lactic acid is an organic anion , and is a counter ion for uric acid at the URAT1 antiporter on the apical surface of the collecting duct ; thus the more lactate secreted into the urine, more uric acid reabsorbed into the blood [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "jdT[Yg+*BH",
+      "deck": "AnKing Step Deck",
+      "front": "Von Gierke disease is characterized by [ impaired ] gluconeogenesis and [ impaired ] glycogenolysis",
+      "raw0": "<div><b>Von Gierke disease</b> is characterized by {{c1::<u>impaired</u>::impaired or functional}} <b>gluconeogenesis</b> and {{c1::<u>impaired</u>::impaired or functional}} <b>glycogenolysis</b> </div>",
+      "back": "Thus the liver (failure of gluconeogenesis → hypoglycemia) is affected, but muscle is not (glycogenolysis does not fail in muscles - no glucose-6-phosphatase present) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "dw)BZ*pS@|",
+      "deck": "AnKing Step Deck",
+      "front": "Treatment of von Gierke disease includes frequent oral [glucose] or [cornstarch] between meals",
+      "raw0": "<div>Treatment of <b>von Gierke disease</b> includes <u>frequent</u> oral {{c1::glucose}} or {{c2::cornstarch}} between meals</div>",
+      "back": "Cornstarch is a glucose polymer, this will prevent hypoglycemia from developing [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "D&up]~do=K",
+      "deck": "AnKing Step Deck",
+      "front": "Treatment of von Gierke disease includes avoidance of [fructose], [galactose], sucrose, and lactose",
+      "raw0": "<div>Treatment of <b>von Gierke disease</b> includes <u>avoidance</u> of {{c1::fructose}}, {{c2::galactose}}, sucrose, and lactose</div>",
+      "back": "Fructose and galactose both lead to increased glucose-6-phosphate , which increases G6P accumulation in the liver Sucrose = Glucose + Fructose Lactose = Glucose + Galactose [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "zH%kLV>/sN",
+      "deck": "AnKing Step Deck",
+      "front": "[ Pompe ] disease is also known as glycogen storage disease type [ II ]",
+      "raw0": "<div>{{c2::<b>Pompe</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>II</b>}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "He#N(5=iCk",
+      "deck": "AnKing Step Deck",
+      "front": "[ Pompe ] disease is caused by a deficiency of the enzyme [ lysosomal α-1,4-glucosidase (acid maltase)]",
+      "raw0": "{{c2::<b>Pompe</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the enzyme {{c1::<b>lysosomal<i> α-1,4-glucosidase</i></b> (acid maltase)}}",
+      "back": "' P om P e trashes the P um P ' (\"P's\" in the 1st and 4th letters to remember the \"1,4\" in the enzyme name) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "pdhEmM.Eg;",
+      "deck": "AnKing Step Deck",
+      "front": "Pompe disease is characterized by [ cardio ] megaly",
+      "raw0": "<div><b>Pompe disease</b> is characterized by {{c1::<b>cardio</b>}}<b>megaly</b></div>",
+      "back": "Death is often from heart failure [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "gGb>L`XMpz",
+      "deck": "AnKing Step Deck",
+      "front": "[ Pompe ] disease is a glycogen storage disease associated with [ hypertrophic ] cardiomyopathy",
+      "raw0": "<div>{{c2::<b>Pompe</b>}}<b> disease</b> is a <u>glycogen storage disease</u> associated with {{c1::<b>hypertrophic</b>}}<b> cardiomyopathy</b></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here . [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "EFhbOp)Q&?",
+      "deck": "AnKing Step Deck",
+      "front": "Pompe disease is associated with exercise [intolerance]",
+      "raw0": "<div><b>Pompe disease</b> is associated with exercise {{c1::intolerance}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "i|*-R6v`mg",
+      "deck": "AnKing Step Deck",
+      "front": "[ Cori ] disease is also known as glycogen storage disease type [ III ]",
+      "raw0": "<div>{{c2::<b>Cori</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>III</b>}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "K,0lKu.]^v",
+      "deck": "AnKing Step Deck",
+      "front": "[ Cori ] disease is caused by a deficiency of the [ glycogen debranching enzyme (α-1,6-glucosidase and 4-α-D-glucanotransferase)]",
+      "raw0": "<div>{{c2::<b>Cori</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the {{c1::<b>glycogen debranching enzyme </b>(α-1,6-glucosidase and 4-α-D-glucanotransferase)::enzyme}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "NC.#8C3B=U",
+      "deck": "AnKing Step Deck",
+      "front": "Cori disease is associated with accumulation of [ limit dextrin ] -like structures in the cytosol",
+      "raw0": "<div><b>Cori disease</b> is associated with <u>accumulation</u> of {{c1::<b>limit dextrin</b>}}<b>-like</b> structures in the cytosol</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "N@kjjy9q_C",
+      "deck": "AnKing Step Deck",
+      "front": "Cori disease presents as a milder form of Von Gierke with [normal] blood lactate levels",
+      "raw0": "<div><b>Cori disease</b> presents as a <i>milder</i> form of <u>Von Gierke</u> with {{c1::normal}} blood lactate levels</div>",
+      "back": "- In Von Gierke disease , G6P accumulates due to G6Pase deficiency, is shunted into glycolysis → ↑ pyruvate → ↑ lactate - In Cori disease , G6Pase is intact, so G6P doesn’t accumulate → no significant lactate elevation [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "llM/`o4:Cw",
+      "deck": "AnKing Step Deck",
+      "front": "Cori disease is characterized by [ functional ] gluconeogenesis and [ impaired ] glycogenolysis",
+      "raw0": "<div><b>Cori disease</b> is characterized by {{c1::<u>functional</u>::impaired or functional}} <b>gluconeogenesis</b> and {{c1::<u>impaired</u>::impaired or functional}} <b>glycogenolysis</b></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "DIarDv.dd8",
+      "deck": "AnKing Step Deck",
+      "front": "[ Andersen ] disease is also known as glycogen storage disease type [ IV ]",
+      "raw0": "<div>{{c2::<b>Andersen</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>IV</b>}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::08_Andersen_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_4_Andersen_Disease"
+      ]
+    },
+    {
+      "guid": "c/BxyPy4ek",
+      "deck": "AnKing Step Deck",
+      "front": "[ Andersen ] disease is caused by a deficiency of the enzyme [ branching enzyme ]",
+      "raw0": "<div>{{c2::<b>Andersen</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the enzyme {{c1::<b>branching enzyme</b>}}</div>",
+      "back": "Glycogen storage disease type 4 ABCD A ndersen → B ranching C ori → D ebranching [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::08_Andersen_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_4_Andersen_Disease"
+      ]
+    },
+    {
+      "guid": "J+Vy?PPzVP",
+      "deck": "AnKing Step Deck",
+      "front": "[ McArdle ] disease is also known as glycogen storage disease type [ V ]",
+      "raw0": "<div>{{c2::<b>McArdle</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>V</b>}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "C0u/]yO1mp",
+      "deck": "AnKing Step Deck",
+      "front": "[ McArdle ] disease is caused by a deficiency of the enzyme [ muscle glycogen phosphorylase (myophosphorylase)]",
+      "raw0": "<div>{{c2::<b>McArdle</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the enzyme {{c1::<b><i>muscle</i> glycogen phosphorylase </b>(myophosphorylase)}}</div>",
+      "back": "M for M uscle [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "bTlL5}y}QG",
+      "deck": "AnKing Step Deck",
+      "front": "McArdle disease is associated with painful [ muscle cramps ] that occur with [ strenuous exercise ]",
+      "raw0": "<div><b>McArdle disease</b> is associated with <i>painful</i> {{c1::<b>muscle cramps</b>}} that occur with {{c2::<u>strenuous</u> <b>exercise</b>}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "Hh%lT-teQs",
+      "deck": "AnKing Step Deck",
+      "front": "McArdle disease may present with [ red/brown ] -colored urine due to [ myoglobinuria (rhabdomyolysis)]",
+      "raw0": "<div><b>McArdle disease</b> may present with {{c2::<u>red/brown</u>}}<u>-colored urine</u> due to {{c1::<b>myoglobinuria </b>(rhabdomyolysis)}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "rr,|rw/ka(",
+      "deck": "AnKing Step Deck",
+      "front": "McArdle disease is associated with [arrhythmia] due to electrolyte abnormalities",
+      "raw0": "<div><b>McArdle disease</b> is associated with {{c1::arrhythmia}} due to <b>electrolyte abnormalities</b></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "r3?$7G0m!5",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with McArdle disease may experience the \"[ second-wind ]\" phenomenon during exercise due to increased muscular blood flow",
+      "raw0": "<div>Patients with <b>McArdle disease</b> may experience the \"{{c1::<b>second-wind</b>}}\" <b>phenomenon</b> during exercise due to <u>increased</u> <b>muscular blood flow</b></div>",
+      "back": "- Better tolerance for aerobic exercise after approximately 10 minutes - The phenomenon is believed to be due to recruitment of alternative energy sources (e.g., fatty acids) and increased blood flow to muscles [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "mWhDAmjko*",
+      "deck": "AnKing Step Deck",
+      "front": "[ Hers ] disease is also known as glycogen storage disease type [ VI ]",
+      "raw0": "<div>{{c2::<b>Hers</b>}}<b> disease</b> is also known as <u>glycogen storage disease</u><b> type </b>{{c1::<b>VI</b>}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::10_Hers_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_6_Hers_Disease"
+      ]
+    },
+    {
+      "guid": "c3Wcil^:e`",
+      "deck": "AnKing Step Deck",
+      "front": "[ Hers ] disease is caused by a deficiency of the enzyme [ hepatic glycogen phosphorylase ]",
+      "raw0": "<div>{{c2::<b>Hers</b>}}<b> disease</b> is caused by a <u>deficiency</u> of the enzyme {{c1::<b><i>hepatic</i> glycogen phosphorylase</b>}}</div>",
+      "back": "H ers = H epatic M cArdle's = M uscle [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::10_Hers_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_6_Hers_Disease"
+      ]
+    },
+    {
+      "guid": "RdZEEi-?=x",
+      "deck": "AnKing Step Deck",
+      "front": "Hers disease is characterized by [ functional ] gluconeogenesis and [ impaired ] glycogenolysis",
+      "raw0": "<div><b>Hers disease</b> is characterized by {{c1::<u>functional</u>::impaired or functional}} <b>gluconeogenesis</b> and {{c1::<u>impaired</u>::impaired or functional}} <b>glycogenolysis</b> </div>",
+      "back": "Deficiency of the enzyme hepatic glycogen phosphorylase [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::10_Hers_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_6_Hers_Disease"
+      ]
+    },
+    {
+      "guid": "x7fZ)A?$K",
+      "deck": "AnKing Step Deck",
+      "front": "Hers disease classically presents with mild fasting [hypoglycemia], hepatomegaly, and cirrhosis",
+      "raw0": "<div><b>Hers disease</b> classically presents with <u>mild</u> fasting {{c1::hypoglycemia}}, hepatomegaly, and cirrhosis</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::10_Hers_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_6_Hers_Disease"
+      ]
+    },
+    {
+      "guid": "h4`{SNvs$K",
+      "deck": "AnKing Step Deck",
+      "front": "Which glycogen storage disorder is associated with severe fasting hypoglycemia ? [Von Gierke disease]",
+      "raw0": "<div>Which <u>glycogen storage disorder</u> is associated with <b>severe fasting hypoglycemia</b>? </div><br><div>{{c1::Von Gierke disease}}</div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "jx%<J3K(ts",
+      "deck": "AnKing Step Deck",
+      "front": "Which glycogen storage disorder is associated with accumulation of limit dextrin-like structures ? [Cori disease]",
+      "raw0": "<div><div>Which <u>glycogen storage disorder</u> is associated with<b> accumulation</b> of <b>limit dextrin-like structures</b>? </div><br><div>{{c1::Cori disease}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "HO:.5[a{cr",
+      "deck": "AnKing Step Deck",
+      "front": "Which glycogen storage disorder is associated with increased glycogen in muscle ? [McArdle disease (type V)]",
+      "raw0": "<div><div>Which <u>glycogen storage disorder</u> is associated with<b> increased glycogen in muscle</b>? </div><br><div>{{c1::McArdle disease (type V)}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "kUN|5WM8Mo",
+      "deck": "AnKing Step Deck",
+      "front": "Muscle cannot participate in gluconeogenesis because it lacks the enzyme [glucose-6-phosphatase]",
+      "raw0": "<div><b>Muscle</b> cannot participate in <u>gluconeogenesis</u> because it lacks the enzyme {{c1::glucose-6-phosphatase}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here . [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "Np%0fM&Uh.",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose-6-phosphate is converted to [glucose] via the enzyme [ glucose-6-phosphatase ]",
+      "raw0": "<div><div><b>Glucose-6-phosphate</b> is converted to <b>{{c1::glucose}}</b> via the enzyme {{c2::<i><b>glucose-6-phosphatase</b></i>}}<i> </i></div></div>",
+      "back": "Primarily in the liver (but also in the kidney) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "oTtx0Gh6?$",
+      "deck": "AnKing Step Deck",
+      "front": "Muscle biopsy of a patient with primary carnitine deficiency shows elevated [ triglycerides ]",
+      "raw0": "<div><b>Muscle <i>biopsy</i></b> of a patient with <b>primary carnitine deficiency</b> shows <u>elevated</u> {{c1::<b>triglycerides</b>}} </div>",
+      "back": "Helps distinguish from McArdle's disease , which has elevated glycogen",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease"
+      ]
+    },
+    {
+      "guid": "rU~[/ViuF!",
+      "deck": "AnKing Step Deck",
+      "front": "The oil red O and sudan black stains are useful for staining [lipids]",
+      "raw0": "<div>The <b>oil red O</b> and <b>sudan black</b> <u>stains</u> are useful for staining {{c1::lipids}}</div>",
+      "back": "Helps distinguish McArdle's disease (PAS) from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian , CC BY-SA 3.0 , via Wikimedia Commons, Tirupathipichiah , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Basics"
+      ]
+    },
+    {
+      "guid": "A.$]JVQKoP",
+      "deck": "AnKing Step Deck",
+      "front": "The PAS stain is useful for staining [glycogen]",
+      "raw0": "<div>The <b>PAS</b> <u>stain</u> is useful for staining {{c1::glycogen}}</div>",
+      "back": "Helps distinguish McArdle's disease (PAS), from MCAD deficiency (oil red O) [img] [img] Photo credit: Jensflorian (image 1) , Tirupathipichiah (image 2) , both CC BY-SA 3.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::04_Overview_of_Glycogen_Storage_Diseases_(GSDs)",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Basics"
+      ]
+    },
+    {
+      "guid": "G1vNFm_72M",
+      "deck": "AnKing Step Deck",
+      "front": "What is the major source of energy while fasting between meals ? [Hepatic glycogenolysis]",
+      "raw0": "<div>What is the <i>major</i> source of energy while <b>fasting between meals</b>? </div><br><div>{{c1::Hepatic glycogenolysis}}</div>",
+      "back": "Minor sources include hepatic gluconeogenesis and adipose release of free fatty acids",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "C&z}/0;fKN",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogen stores typically are depleted after [12] - [18] hours",
+      "raw0": "<b>Glycogen</b> <b>stores</b> typically are depleted after {{c1::12}} - {{c1::18}} hours",
+      "back": "May last up to one day",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "t:).4I7syU",
+      "deck": "AnKing Step Deck",
+      "front": "During 1 - 3 days of starvation , the muscle and liver shift fuel use from glucose to [ free fatty acids ]",
+      "raw0": "During <b>1 - 3 days of starvation</b>, the <u>muscle</u> and <u>liver</u> <i>shift</i> fuel use from <b>glucose</b> to {{c1::<b>free fatty acids</b>}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "neL8R.Su|Y",
+      "deck": "AnKing Step Deck",
+      "front": "What is the major source of energy during fasting (1 - 3 days)? [Hepatic gluconeogenesis]",
+      "raw0": "What is the <i>major</i> source of energy during<b> fasting</b> (1 - 3 days)? <br><br>{{c1::Hepatic gluconeogenesis}}",
+      "back": "- From peripheral tissue lactate and alanine - From adipose tissue glycerol and propionyl-CoA",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "d-u:!go}Or",
+      "deck": "AnKing Step Deck",
+      "front": "After three days of starvation , the main source of energy for the brain becomes [ ketone bodies ] from [adipose] stores",
+      "raw0": "<div>After <u>three days</u> of <b>starvation</b>, the main source of energy for the <b>brain</b> becomes {{c1::<b>ketone bodies</b>}} from {{c2::adipose}} stores</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "Ki)*-@*(cA",
+      "deck": "AnKing Step Deck",
+      "front": "Vitamin [B 6 ] is also known as [ pyridoxine ]",
+      "raw0": "<div><div><div><div>Vitamin {{c1::B<sub>6</sub>}} is also known as {{c2::<b>pyridoxine</b>}}</div></div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "lj#Okhcf0r",
+      "deck": "AnKing Step Deck",
+      "front": "What vitamin is used as a cofactor for transamination , decarboxylation reactions , and glycogen phosphorylase ? [B 6 (pyridoxal phosphate)]",
+      "raw0": "<div>What <u>vitamin</u> is used as a <i>cofactor</i> for <b>transamination</b>, <b>decarboxylation reactions</b>, and <b>glycogen phosphorylase</b>?</div><br><div>{{c1::B<sub>6</sub> (pyridoxal phosphate)}}<br></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::01_Glycogenesis",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "Q_8%#)j[ve",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ phosphorylase ] enzyme adds inorganic phosphate onto a substrate without using ATP",
+      "raw0": "<div>A(n) {{c1::<b>phosphorylase</b>}} enzyme <u>adds inorganic phosphate</u> onto a substrate <b>without using ATP</b></div>",
+      "back": "- Acts to break down , e.g., glycogen phosphorylase Condensation : - Without ATP is synthase - With ATP is synthetase",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "yeFSB(,|9t",
+      "deck": "AnKing Step Deck",
+      "front": "Activation of [ β 2 ] adrenergic receptors [ stimulates ] gluconeogenesis in the liver",
+      "raw0": "<div><u>Activation</u> of {{c2::<b>β<sub>2</sub></b>}} adrenergic receptors {{c1::<u>stimulates</u>}} <b>gluconeogenesis</b> in the liver<br></div>",
+      "back": "β 2 leads to activation of PKA, in which gluconeogenesis and glycogenolysis are stimulated by phosphorylation (dephosphorylation via insulin induced protein phosphatase activity leads to the opposite)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis"
+      ]
+    },
+    {
+      "guid": "vZM0Ng_Mt>",
+      "deck": "AnKing Step Deck",
+      "front": "Which type of glial cell acts as a glycogen fuel reserve buffer ? [Astrocytes]",
+      "raw0": "<div><div>Which type of <u>glial cell</u> acts as a <b>glycogen fuel reserve buffer</b>? </div><br><div>{{c1::Astrocytes}}</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "k5-(ML8)Y+",
+      "deck": "AnKing Step Deck",
+      "front": "What glycogen storage disorder is a cause of secondary gout ? [Von Gierke disease]",
+      "raw0": "<div>What <u>glycogen storage disorder</u> is a cause of <b>secondary gout</b>? </div><br><div>{{c1::Von Gierke disease}}</div>",
+      "back": "- Deficiency in glucose-6-phosphatase → failure of the Cori cycle → build-up of lactate in the blood - Lactate is an organic anion, and is a counterion for uric acid at the URAT1 antiporter on the apical surface of the collecting duct; thus, the more lactate secreted into the urine, more uric acid reabsorbed into the blood [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::08_Glycogen_-_Von_Gierke_&_Cori_Disease"
+      ]
+    },
+    {
+      "guid": "jqc0<>^<Ux",
+      "deck": "AnKing Step Deck",
+      "front": "Enzyme replacement therapy for [ Pompe ] disease requires replacement of [ α-1,4-glucosidase ] (AKA [ acid maltase ] )",
+      "raw0": "<div><u>Enzyme replacement therapy</u> for {{c1::<b>Pompe</b>}} disease requires replacement of {{c2::<b>α-1,4-glucosidase</b>}} <i>(AKA </i>{{c2::<i>acid maltase</i>}}<i>)</i></div><div><b></b></div>",
+      "back": "- Patients with Pompe often have hypertrophic cardiomyopathy (look for patients with exercise intolerance , crescendo-decrescendo murmur ) - Not to be confused with Fabry ( alpha-galactosidase-A ) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_2_Pompe_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "FK#$K5Sr+t",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with von Gierke disease often have thin extremities, short stature, and \"[doll]-like\" facies",
+      "raw0": "Patients with <b>von Gierke disease</b> often have thin extremities, short stature, and \"{{c1::doll}}-like\" facies",
+      "back": "- Due to fat deposition in the cheeks and relatively small stature - von Gierke Doll [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease"
+      ]
+    },
+    {
+      "guid": "p]^!&Oi(qX",
+      "deck": "AnKing Step Deck",
+      "front": "The hallmark of [McArdle disease] is a flat venous lactate curve with a rise in ammonia levels during exercise",
+      "raw0": "The hallmark of {{c1::McArdle disease::which glycogen storage disease}} is a <b>flat venous lactate curve</b> with a rise in <u>ammonia levels</u> during exercise",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_5_McArdle_Disease",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::09_Glycogen_-_Pompe_&_Mcardle_Disease"
+      ]
+    },
+    {
+      "guid": "MsXu>D5@z-",
+      "deck": "AnKing Step Deck",
+      "front": "[ Diastase ] can be used in conjunction with PAS to demonstrate glycogen deposits",
+      "raw0": "{{c1::<b>Diastase</b>}} can be used in <b>conjunction</b> with <b>PAS</b> to demonstrate <u>glycogen</u> deposits",
+      "back": "Digests glycogen to form maltose and glucose (easily washed away during processing), therefore giving a negative reaction; Tropheryma whipplei cell wall glycoprotein stains PAS + and is diastase resistant! [img]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Basics"
+      ]
+    },
+    {
+      "guid": "C$Fj#Q.N,F",
+      "deck": "AnKing Step Deck",
+      "front": "Glycogenolysis and skeletal muscle contraction are synchronized via intracellular accumulation of [Ca 2+ ] following neuromuscular stimulation",
+      "raw0": "<b>Glycogenolysis</b> and <b>skeletal muscle contraction</b> are synchronized via intracellular accumulation of {{c1::Ca<sup>2+</sup>}} following neuromuscular stimulation",
+      "back": "Ca 2+ (along with cAMP) → stimulation of phosphorylase kinase → activation of glycogen phosphorylase → energy necessary for an aerobic muscle contraction",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::02_Glycogenolysis",
+        "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::07_Glycogen"
+      ]
+    },
+    {
+      "guid": "Aa9-d8w~T7",
+      "deck": "AnKing Step Deck",
+      "front": "Glucagon , cortisol , and epinephrine induce [ insulin resistance ] due to phosphorylation of [serine] / [threonine] residues of the insulin receptor and IRS-1",
+      "raw0": "<b>Glucagon</b>, <b>cortisol</b>, and <b>epinephrine</b> induce {{c1::<b>insulin</b> <b>resistance</b>}} due to phosphorylation of {{c2::serine}} / {{c2::threonine}} residues of the <u>insulin receptor</u> and <u>IRS-1</u>",
+      "back": "- Both glucagon and catecholamines increase the activity of PKA which phosphorylates serine and threonine residues on targets - TNF-α can also induce insulin resistance via this same mechanism",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::35_Glycogen_regulation_by_insulin_and_glucagon/epinephrine::*Protein_Signalling"
+      ]
+    },
+    {
+      "guid": "flX)l>iHHi",
+      "deck": "AnKing Step Deck",
+      "front": "Patient presents with chronic exercise intolerance with myalgia, fatigue, painful cramps, and myoglobinuria [McArdle disease (glycogen storage disease type V)]",
+      "raw0": "Patient presents with <u>chronic exercise intolerance</u> with myalgia, fatigue, painful cramps, and <b>myoglobinuria</b><br><br>{{c1::McArdle disease (glycogen storage disease type V)::Diagnosis?}}",
+      "back": "- Skeletal muscle glycogen phosphorylase deficiency - May also experience the \" second-wind \" phenomenon during exercise due to increased muscular blood flow with improved tolerance for aerobic exercise after approximately 10 minutes of rest [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::09_McArdle_Disease"
+      ]
+    },
+    {
+      "guid": "sgJ(jDHyLK",
+      "deck": "AnKing Step Deck",
+      "front": "Which glycogen storage disease is characterized by hypotonia , cardiomegaly , and hepatomegaly in infancy? [Pompe disease (GSD type II)]",
+      "raw0": "Which <u>glycogen storage disease</u> is characterized by <b>hypotonia</b>, <b>cardiomegaly</b>, and<b> hepatomegaly </b>in infancy?<br><br>{{c1::Pompe disease (GSD type II)}}",
+      "back": "Enlarged lysosomes with periodic acid-Schiff (PAS) positive material can be seen in muscle biopsy [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::06_Pompe_Disease"
+      ]
+    },
+    {
+      "guid": "IXp]rVS4+",
+      "deck": "AnKing Step Deck",
+      "front": "Von Gierke disease and Cori disease can cause [ hepatic adenomas ]",
+      "raw0": "<div><b>Von Gierke disease </b>and<b> Cori disease </b>can cause {{c1::<u>hepatic adenomas</u>::which liver mass?}}<br></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::05_Von_Gierke_Disease",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::08_Glycogen::07_Cori_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_1_Von_Gierke_Disease",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::37_Glycogen_storage_diseases::*Type_3_Cori_Disease"
+      ]
+    }
+  ]
+}

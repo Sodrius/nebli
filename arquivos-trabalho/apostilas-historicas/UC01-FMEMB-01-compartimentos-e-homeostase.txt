@@ -1,0 +1,1207 @@
+NEBLI · APOSTILA
+
+Compartimentos
+e homeostase
+
+Fisiologia · UC01 · Aula 2 (Fisio/01)
+
+Disciplina:    Fisiologia (UC01)
+Bloco:         Introdução à Fisiologia -- P1
+Nota de uso:   Estudar com o slide aberto ao lado -- o resumo complementa, não
+               substitui.
+Onde estudar:  Berne & Levy Cap. 1 · Guyton & Hall Caps. 1 e 25 · Boron & Boulpaep Cap. 5
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Os compartimentos do organismo
+       1.1 Água corporal total -- a regra dos 60%
+       1.2 Duas barreiras -- membrana × capilar fenestrado
+       1.3 Composição iônica diferencial e a bomba Na/K
+  PARTE II -- Movimento de água entre os compartimentos
+       2.1 Pressão osmótica -- van't Hoff e o 290 mOsm/L
+       2.2 Osmolaridade × tonicidade -- coeficiente de reflexão
+       2.3 Forças de Starling -- trocas no capilar
+  PARTE III -- Homeostase: o organismo se governa
+       3.1 Modelo de Cannon -- sensor, integrador, efetor
+       3.2 Set-point e ganho -- oscilação é regra
+       3.3 Sistema nervoso × endócrino -- dois efetores
+
+RESUMINDO
+       Panorama em 12 seções, logo após a Etapa 1
+
+ETAPA 2 -- 30 OBJETIVAS
+       Consolidação (10) · Integração (15) · Aplicação (5)
+       Gabarito consolidado ao final do documento
+
+ETAPA 3 -- 5 DISCURSIVAS MECANÍSTICAS
+       Resposta-modelo curta (100 palavras; Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       10 questões selecionadas do banco, gabarito inline
+
+FECHAMENTO
+       Gabarito consolidado da Etapa 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A primeira aula de Fisiologia parece desproporcional: você esperava ver "como o coração bombeia" e o professor
+    começa a falar de litros de água, gradientes de íons e o conceito de "meio interno". Tem razão de ser. Antes de
+    qualquer órgão funcionar, o corpo precisa garantir que as células estejam mergulhadas num ambiente controlado.
+    Sangue, urina, suor -- tudo isso é a maneira como o organismo monta e mantém esse ambiente. O nome desse
+    projeto, formalizado por Walter Cannon em 1929, é homeostase1. Para entendê-lo, este resumo trabalha em três
+    passos. Primeiro, descobre onde estão os fluidos do corpo e o que separa um compartimento do outro. Segundo,
+    entende como a água se move entre eles -- pressão osmótica, tonicidade, forças de Starling. Terceiro, conhece
+    como o corpo regula tudo isso por feedback negativo, com o sistema nervoso e o endócrino como executores.
+    Ao final, três conceitos novos vão valer para o resto da medicina: equilíbrio osmótico, equilíbrio de Starling, e
+    retroalimentação negativa. Vamos com calma.
+
+PARTE I -- Os compartimentos do organismo
+
+1.1 Água corporal total e a regra dos 60%
+Antes de qualquer mecanismo, fixemos os números que vão ancorar tudo. Um adulto de 70 kg tem, aproxi
+madamente, 60% do peso corporal em água -- algo como 42 litros. Os outros 40% são sólidos: proteínas,
+gorduras, ossos, minerais. Esses 42 litros não ficam todos no mesmo lugar; estão divididos em dois grandes
+pacotes separados por uma barreira essencial -- a membrana plasmática das células.
+
+   1homeostase ­ estado de equilíbrio dinâmico do meio interno do organismo, mantido por sistemas de retroalimentação negativa que
+detectam e corrigem desvios das variáveis fisiológicas críticas
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Distribuição dos fluidos no corpo. Acima: 60% água, 40% sólidos. Da água, dois terços ( 28 L) ficam dentro das células -- o LIC2 --
+e um terço ( 14 L) fica fora -- o LEC3. Repare na subdivisão do LEC à direita: 74% é intersticial ( 10,3 L, o líquido que banha as
+células), 25% é plasma ( 3,5 L, dentro dos vasos), e 1% é transcelular (líquor, humor aquoso, sinovial, pleural -- pequenos volumes
+em cavidades específicas).
+
+Dois terços da água corporal estão dentro das células -- o líquido intracelular, LIC, somando uns 28 litros. Um
+terço está fora -- o líquido extracelular, LEC, com cerca de 14 litros. Mas o LEC ainda se subdivide: do que
+está fora das células, três quartos é o líquido intersticial (banhando as células diretamente, 10 L) e um quarto
+é o plasma (dentro dos vasos sanguíneos, 3,5 L). Há ainda uma fração mínima, o fluido transcelular ( 1%), que
+reúne líquor, humor aquoso, sinovial -- pequenos volumes em compartimentos especializados.
+
+   Por que essa subdivisão importa? Porque cada barreira entre compartimentos tem permeabilidade diferente,
+e isso decide o que se mistura, o que se move, e em que velocidade. Saber a anatomia hidráulica antes de
+saber a fisiologia evita confusão depois. Quando você injeta uma droga endovenosa, ela entra no plasma; daí
+até a célula-alvo precisa atravessar duas barreiras (capilar e membrana). Quando alguém perde sangue, perde
+plasma, não LIC -- porque as barreiras não permitem mistura instantânea. Toda a fisiologia dos próximos
+capítulos repousa nessa contabilidade simples.
+
+   Uma observação clínica imediata: a porcentagem de água varia entre indivíduos. Em recém-nascidos
+chega a 75%; em idosos, 50%. Mulheres têm um pouco menos que homens ( 55% contra 60%) porque o tecido
+adiposo, que armazena pouca água, é proporcionalmente maior. Indivíduos obesos têm percentual menor pelo
+mesmo motivo. Os 60% é uma média de referência, não dogma -- guarde isso para quando a clínica chegar.
+
+   Resumindo até aqui: Água corporal total  60% do peso (42 L em 70 kg). Dois terços LIC (28 L), um terço LEC (14
+   L). LEC = interstício (10 L) + plasma (3,5 L) + transcelular (0,5 L).
+
+1.2 As duas barreiras: membrana plasmática × capilar fenestrado
+
+   2LIC ­ líquido intracelular -- soma do citoplasma de todas as células do corpo, 28 L num adulto de 70 kg
+   3LEC ­ líquido extracelular -- soma do interstício, do plasma e dos fluidos transcelulares, 14 L num adulto
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O LEC e o LIC são separados pela membrana plasmática das células -- uma bicamada lipídica com proteínas
+embarcadas. Já o plasma e o interstício, ambos dentro do LEC, são separados por uma barreira diferente: a
+parede do capilar fenestrado, formada pelas células endoteliais. Essas duas barreiras têm permeabilidades
+muito distintas, e essa diferença é o que organiza a fisiologia da troca de água.
+
+Duas barreiras, duas seletividades. À esquerda, o capilar fenestrado: tem fendas (fenestras) por onde passam água, íons e moléculas
+pequenas como glicose e aminoácidos; não deixa passar proteínas e células sanguíneas. À direita, a membrana plasmática: bicamada
+lipídica permeável só a moléculas pequenas e lipossolúveis (CO, O, ureia, álcool) e à água; tudo o mais -- íons, glicose, aminoácidos
+-- só passa por proteínas transportadoras específicas. A diferença de seletividade dita o que se equilibra entre compartimentos e o
+que fica retido onde está.
+
+A membrana plasmática é fortemente seletiva. Por ser feita de fosfolipídios -- moléculas com cabeça polar e
+cauda hidrofóbica -- ela funciona como um filtro químico. Atravessam por difusão simples: água (lentamente,
+mas atravessa), gases (O, CO), pequenas moléculas lipossolúveis (etanol, ureia em parte). Não atravessam
+por difusão simples: íons (Na, K, Cl, Ca²), glicose, aminoácidos, nucleotídeos -- tudo isso precisa de
+proteínas específicas (canais, transportadores, bombas), que são o tema do próximo resumo, sobre transporte
+de membrana.
+
+   O capilar fenestrado, ao contrário, é uma peneira muito mais aberta. Suas paredes têm fendas (as
+fenestras) entre as células endoteliais por onde passam livremente íons, açúcares, aminoácidos, água -- tudo
+de baixo peso molecular. O que o capilar não deixa passar são macromoléculas, principalmente proteínas
+plasmáticas (albumina, globulinas) e células sanguíneas. Em capilares de outros tecidos (cérebro, por exemplo)
+a seletividade é maior -- a chamada barreira hematoencefálica -- mas o padrão geral do organismo é capilar
+fenestrado: peneira para íons e nutrientes, retém proteínas.
+
+   Essa diferença prática é fundamental. Quando você injeta NaCl 0,9% no plasma, o Na e o Cl atravessam
+imediatamente o capilar e se equilibram com o interstício -- em minutos, plasma e interstício têm a mesma
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+concentração de NaCl. Mas o Na não entra livremente nas células: a membrana plasmática o exclui. Resultado:
+o NaCl injetado permanece distribuído pelo LEC inteiro (interstício + plasma), e não invade o LIC.
+
+Não confunda as duas barreiras
+
+Aluno comum mistura as duas: pensa que "permeável ao íon" = "íon entra na célula". Errado. O capilar é permeável
+a Na (fácil), mas a membrana celular não é (precisa de transportador). Por isso o Na injetado se distribui pelo LEC
+mas não pelo LIC. Sempre pergunte: "que barreira estou olhando?". Vascular  interstício é capilar fenestrado
+(peneira); interstício  célula é membrana plasmática (seletiva).
+
+1.3 Composição iônica diferencial e a bomba que mantém a assimetria
+Se você medisse os íons dissolvidos no plasma, no interstício e no LIC, encontraria um padrão muito claro
+-- e um pouco surpreendente. Plasma e interstício têm composições quase idênticas (faz sentido: o capilar
+fenestrado deixa íons trafegarem livremente). Ambos são ricos em Na ( 140 mM), Cl ( 105 mM) e bicarbonato
+( 24 mM), com pouquíssimo K ( 4 mM). Já o LIC tem composição oposta: pobre em Na ( 12 mM), pobre em
+Cl ( 5 mM), rico em K ( 140 mM) e em fosfato orgânico/proteínas como ânions principais.
+
+Composição iônica dos três compartimentos. Interstício e plasma têm perfis quase idênticos -- Na e Cl altos, K baixo -- porque o
+capilar deixa os íons se equilibrarem livremente. O LIC é o oposto: K alto, Na e Cl baixos, com proteínas e fosfato organizando a
+carga negativa interna. A diferença Plasma × LIC só existe porque a membrana celular impede a equalização passiva e existe uma
+bomba ativa empurrando contra o gradiente.
+
+Por que essa assimetria, e por que ela importa? Pense termodinamicamente: se a membrana celular fosse
+simplesmente permeável a Na e K, eles se equalizariam (entropia favorece mistura). Logo, manter LIC pobre
+em Na e rico em K é trabalho ativo, gasta energia. Esse trabalho é feito pela bomba Na/K-ATPase4 --
+proteína integral da membrana que, a cada molécula de ATP5 hidrolisada, expulsa 3 Na e importa 2 K. Essa
+
+   4bomba Na/K-ATPase ­ proteína integral da membrana plasmática que, usando energia da hidrólise de ATP, bombeia 3 Na para fora
+e 2 K para dentro a cada ciclo, mantendo os gradientes iônicos do LIC
+
+   5ATP ­ adenosina trifosfato -- molécula que armazena energia química para uso celular
+
+                                                                                 6
+NEBLI                                                              ETAPA 1 -- TEXTO DIDÁTICO
+
+bomba está em toda célula do corpo e consome cerca de 25% do ATP basal de uma célula em repouso. Sem
+ela, em poucos minutos os gradientes se dissipariam.
+
+E para que serve ter Na alto fora e K alto dentro? Três funções
+
+fundamentais decorrem dessa assimetria. Primeiro, transporte
+
+secundário -- o gradiente de Na é usado como "moeda
+
+energética" para puxar glicose e aminoácidos para dentro da
+
+célula (cotransportadores SGLT, transportadores de neurotrans
+
+missores). Segundo, excitabilidade -- a diferença iônica gera o
+
+potencial de repouso da membrana, e abertura de canais de Na
+
+produz potenciais de ação (neurônios, músculo). Terceiro, regu
+
+lação de volume -- a bomba mantém menos solutos dentro da          A bomba Na/K-ATPase é o motor por trás de prati
+célula do que ditaria o equilíbrio passivo, evitando que a célula  camente toda a fisiologia celular: gradientes de Na
+incorpore água indefinidamente e estoure. Sem bomba, nada          que ela cria alimentam o transporte secundário de
+disso funciona. É por isso que cardiotônicos como a digoxina,      glicose, aminoácidos e Ca²; alimentam o potencial de
+que bloqueiam parcialmente a bomba, têm efeito tão dramático       membrana que torna o neurônio excitável; alimen
+no músculo cardíaco.                                               tam o gradiente que regula o volume celular.
+
+Síntese PARTE I -- Água  60% do peso. LIC (2/3, 28 L) e LEC (1/3, 14 L); LEC = interstício (10 L) + plasma
+(3,5 L) + transcelular. Duas barreiras: capilar fenestrado (peneira aberta -- retém só macromoléculas) e membrana
+plasmática (filtro fino -- só passa água e lipossolúveis livremente). Composição iônica: Na/Cl altos no LEC, K alto
+no LIC -- assimetria mantida pela Na/K-ATPase, que custa 25% do ATP basal e alimenta transporte secundário,
+excitabilidade e controle de volume.
+
+                                       MAPA CONCEITUAL
+
+                          PARTE I -- Os compartimentos
+
+                          Onde está a água e o que separa cada porção
+
+                                                      
+
+1.1 ­ Mapa                                1.2 ­ Duas                                    1.3 ­ Assimetria
+hidráulico                                barreiras                                     iônica
+
+60% água, 2/3 LIC, 1/3    organizado por  Capilar fenestrado       permite estabelecer  Na/K-ATPase mantém
+LEC. LEC = interstício +                  é peneira aberta;                             K dentro, Na fora
+plasma + transcelular.                    membrana é filtro fino.                       -- combustível de
+                                          Cada uma decide o que                         transporte, excitabilidade
+                                          se equilibra.                                 e volume.
+
+                          Anatomia hidráulica entendida -- agora o movimento da água.
+
+PARTE II -- Movimento de água entre os compartimentos
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.1 Pressão osmótica: a equação de van't Hoff e o famoso 290 mOsm/L
+Quando dois compartimentos com concentrações diferentes de soluto são separados por uma membrana per
+meável só à água, a água migra do lado menos concentrado para o mais concentrado. Esse é o fenômeno da
+osmose6. A questão prática é: com que força a água quer se mover? Essa força tem nome -- pressão osmótica
+-- e, surpreendentemente, é descrita por uma equação simples, parecida com a equação dos gases ideais.
+
+A equação de van't Hoff.  = i·R·T·C. Não se assuste -- é parente direta da equação dos gases ideais (PV = nRT), rearranjada para
+soluções. Cada partícula de soluto contribui para "empurrar" a água como se fosse um gás dissolvido. Quanto mais partículas, maior
+a pressão osmótica.
+
+A equação é  = i · R · T · C, conhecida como equação de van't Hoff7. Vamos passar por cada peça:  é a pressão
+osmótica (em atm); R é a constante dos gases (0,082 L·atm/mol·K, a mesma de PV = nRT); T é a temperatura
+em Kelvin (310 K no corpo, ou seja, 37 °C); C é a concentração molar do soluto; e i é o fator de van't Hoff -- o
+número de partículas que cada molécula gera ao dissolver. Para NaCl, i = 2 (vira Na + Cl); para glicose, i = 1
+(não dissocia); para CaCl, i = 3 (Ca² + 2 Cl).
+
+   A consequência prática: o que importa para a água não é quanto soluto foi dissolvido em massa, mas
+quantas partículas há em solução. Por isso usamos osmolaridade8 como medida prática: osmolaridade =
+soma de (i × C) sobre todos os solutos. NaCl 145 mM contribui com 290 mOsm/L (porque cada NaCl rende
+duas partículas); glicose 5 mM contribui só com 5 mOsm/L.
+
+   E qual é a osmolaridade do nosso LEC? Aqui está o número-chave da fisiologia toda: cerca de 290 mOsm/
+L, e essa é uma constante fortemente regulada (variações de poucos porcento já disparam mecanismos de
+correção via ADH9 e sede). A osmolaridade do LIC é a mesma 290 mOsm/L, porque a água atravessa a
+
+   6osmose ­ difusão de água através de uma membrana semipermeável, do compartimento com menor concentração de soluto para o de
+maior concentração, até que as concentrações se igualem ou uma força contrária as detenha
+
+   7equação de van't Hoff ­  = iRTC, onde  é a pressão osmótica, i o fator de van't Hoff (número de partículas geradas por molécula
+em solução), R a constante dos gases, T a temperatura em Kelvin e C a concentração molar
+
+   8osmolaridade ­ concentração total de partículas osmoticamente ativas em uma solução, medida em mOsm/L; obtida multiplicando a
+concentração molar de cada soluto pelo seu fator de van't Hoff (i) e somando
+
+   9ADH ­ hormônio antidiurético / vasopressina -- produzido pelo hipotálamo, age no rim aumentando a reabsorção de água
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+membrana plasmática livremente -- os dois compartimentos sempre se equilibram osmoticamente, mesmo
+com composições iônicas completamente diferentes.
+
+145 mM de NaCl = 290 mOsm/L -- eis a pegadinha
+
+Em prova, é comum o enunciado dar a concentração em mM (milimolar) e esperar que você se lembre que NaCl
+tem i = 2. NaCl 145 mM dissocia em Na 145 mM + Cl 145 mM = 290 mOsm/L. Por isso uma solução salina
+"isotônica" (0,9% ou 154 mM) corresponde a 308 mOsm/L, próxima ao plasma. Sempre converta mM  mOsm/L
+multiplicando pelo i.
+
+2.2 Osmolalidade × tonicidade -- e o tal coeficiente de reflexão
+A osmolaridade é um número quantitativo. Mas há um outro conceito, mais sutil, que é o que de fato decide se
+a célula vai inchar ou murchar: a tonicidade10. Duas soluções podem ter a mesma osmolaridade e tonicidades
+opostas -- e isso é o tipo de pegadinha que aparece em prova.
+
+Hemácias em três soluções. À esquerda: isotônica (igual osmolaridade da célula, 290 mOsm/L) -- sem fluxo de água, volume estável.
+No meio: hipotônica -- a água entra na célula, que incha; se o gradiente for grande, a célula estoura (hemólise). À direita: hipertônica
+-- a água sai, a célula murcha (crenação). Mas atenção: este desenho assume que a membrana é impermeável ao soluto. Quando
+o soluto também atravessa (coeficiente de reflexão < 1), a história muda -- ver .atencao-box adiante.
+
+A diferença está no que se chama coeficiente de reflexão11 (símbolo , sigma). Quando  = 1, a membrana é
+totalmente impermeável ao soluto -- ele "fica fora" e atrai água para ele. Quando  = 0, o soluto atravessa a
+membrana tão livremente quanto a água -- não gera força osmótica nenhuma, porque rapidamente se equaliza
+dos dois lados. E quando  está entre 0 e 1, a força osmótica é apenas uma fração da que a osmolaridade prediria.
+
+   10tonicidade ­ propriedade efetiva de uma solução de causar movimento de água através da membrana plasmática de uma célula; depende
+não apenas da osmolaridade total, mas da permeabilidade da membrana aos solutos presentes (coeficiente de reflexão)
+
+   11coeficiente de reflexão ­ parâmetro  entre 0 e 1 que mede a impermeabilidade da membrana a um soluto:  = 1 significa membrana
+totalmente impermeável (todo o soluto é "refletido");  = 0 significa membrana totalmente permeável (soluto passa como se fosse água);
+coeficientes intermediários dão tonicidade efetiva menor que a osmolaridade
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   Exemplo clássico: uma solução 290 mOsm/L de ureia parece isotônica (mesmo número de osmóis), mas
+a ureia atravessa a membrana com facilidade (  0). Resultado: ela se equilibra dentro e fora, não retém
+água no LEC, e a célula incha como se estivesse em solução hipotônica. Já uma solução 290 mOsm/L de
+manitol (  1, não atravessa) é genuinamente isotônica -- neutra para o volume celular. Esse princípio é usado
+clinicamente: manitol endovenoso aumenta a osmolaridade do LEC sem atravessar a membrana, puxa água
+do LIC, e é usado para reduzir edema cerebral.
+
+Isosmolar não é o mesmo que isotônico
+
+Isosmolar significa "mesma osmolaridade" -- comparação quantitativa de mOsm/L. Isotônico significa "mesmo
+efeito sobre o volume celular" -- depende também do . Uma solução isosmolar de ureia é hipotônica (célula
+incha) porque a ureia atravessa a membrana. Uma solução isosmolar de NaCl é isotônica porque o Na não
+atravessa. Sempre pergunte: "o soluto atravessa a membrana?". Se sim, a osmolaridade mente sobre a tonicidade.
+
+Resumindo até aqui: Osmolaridade = soma de partículas (mOsm/L). Tonicidade = efeito real sobre volume celular,
+depende do . LEC e LIC sempre se igualam osmoticamente, mas tonicidade efetiva depende do que atravessa.
+
+2.3 Forças de Starling -- como o capilar troca água com o interstício
+Entre plasma e interstício, a parede do capilar é permeável a tudo que é pequeno (íons, glicose, aminoácidos),
+então essas substâncias não geram diferença osmótica entre os dois compartimentos. O que gera diferença
+osmótica relevante são as proteínas plasmáticas, sobretudo a albumina -- elas ficam retidas no plasma (capi
+lar não deixa passar) e exercem uma pressão osmótica conhecida especificamente como pressão oncótica12.
+Embora as proteínas sejam uma fração pequena dos osmóis totais (em massa, 1 mOsm/L em concentração),
+são as únicas com   1 entre os compartimentos, e por isso seu efeito é decisivo. A pressão oncótica do plasma
+é 25 mmHg.
+
+   12pressão oncótica ­ pressão osmótica gerada exclusivamente pelas proteínas plasmáticas (sobretudo albumina) retidas no comparti
+mento vascular pela impermeabilidade do capilar a macromoléculas; normalmente 25 mmHg
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Forças de Starling no capilar. As setas vermelhas para cima representam a pressão hidrostática (P_c), que empurra água do
+plasma para o interstício. As setas azuis para baixo representam a pressão oncótica (_c) das proteínas plasmáticas, que puxa
+água de volta para o capilar. A relação muda da arteríola para a vênula: arteríola tem P_c alta ( 35 mmHg) -- filtração líquida;
+vênula tem P_c baixa ( 15 mmHg) -- reabsorção líquida. O excesso filtrado que não é reabsorvido é drenado pelo sistema linfático.
+
+Funcionam duas forças opostas em cada ponto do capilar. De um lado, a pressão hidrostática do sangue (P_c)
+-- a pressão mecânica que o sangue exerce contra a parede do capilar, herdada da pressão sistêmica -- empurra
+água para fora do vaso, para o interstício. Do outro, a pressão oncótica (_c) das proteínas plasmáticas
+puxa água de volta para o vaso. A direção e magnitude do fluxo líquido em cada ponto resulta da subtração:
+filtração líquida = k · [(P_c - P_i) - (_c - _i)], onde k é a constante de permeabilidade. Essa relação é a
+equação de Starling.
+
+   A pressão hidrostática diminui ao longo do capilar (de 35 mmHg na ponta arteriolar para 15 mmHg
+na ponta venular), enquanto a pressão oncótica fica praticamente constante ( 25 mmHg). Resultado: no início
+do capilar, P_c > _c, e há filtração líquida (água sai para o interstício); no fim do capilar, P_c < _c, e há
+reabsorção líquida (água volta para o vaso). Em condições normais, há um pequeno excesso de filtração que
+não é reabsorvido -- esse excesso é drenado pelo sistema linfático, que devolve o líquido à circulação.
+
+    Edema -- Starling rompido
+    Edema (acúmulo anormal de líquido no interstício) acontece quando o equilíbrio de Starling se desloca a favor da
+    filtração. Quatro mecanismos clássicos: (1)  pressão hidrostática (insuficiência cardíaca direita  represa veia
+     P_c sobe); (2)  pressão oncótica (cirrose, síndrome nefrótica, desnutrição grave  menos albumina  _c
+    cai); (3)  permeabilidade do capilar (inflamação, queimaduras  proteínas vazam para o interstício  _c
+    local cai); (4) obstrução linfática (filariose, pós-cirurgia oncológica  líquido filtrado não é drenado). Em todos
+    os casos, a regra é a mesma: o capilar virou peneira favorecendo saída de água.
+
+                                                                                11
+NEBLI                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese PARTE II -- Pressão osmótica  = iRTC (van't Hoff). LEC normal  290 mOsm/L, mesma do LIC
+(água atravessa membrana). Tonicidade depende de : isosmolar não é o mesmo que isotônico. Entre plasma
+e interstício, só as proteínas geram diferença osmótica relevante -- pressão oncótica  25 mmHg, retida pelo
+capilar. Forças de Starling: pressão hidrostática empurra água para fora, oncótica puxa de volta. Edema = qualquer
+desequilíbrio dessas forças.
+
+                                        MAPA CONCEITUAL
+
+                           PARTE II -- Movimento de água
+
+       O que faz a água migrar entre os compartimentos
+
+                                         
+
+2.1                        refinada por  2.2 ­ Tonicidade        aplicada no capilar como  2.3 ­ Starling no
+­ Osmolaridade                           real                                              capilar
+                                                                         
+ = iRTC. LEC 290                         Depende do . Isosmolar                            Pressão hidrostática vs
+mOsm/L. Soma de                           isotônico. Ureia                                 oncótica. Filtra na
+partículas, não de massa.                engana, manitol não.                              arteríola, reabsorve na
+                                                                                           vênula. Linfa drena o
+                                                                                           resto.
+
+                    Sabemos como a água se move. Falta saber como o corpo controla isso.
+
+PARTE III -- Homeostase: o organismo se governa
+
+3.1 O modelo de Cannon -- sensor, integrador, efetor, retroalimentação neg
+ativa
+Walter Cannon, em 1929, deu nome ao princípio que organiza toda a fisiologia: o organismo mantém ativa
+mente as condições do meio interno (plasma + interstício) dentro de faixas estreitas, independentemente
+das oscilações do meio externo. Esse controle ativo se chama homeostase. Você está exposto a frio de 5 °C ou
+calor de 40 °C, e seu sangue continua a 37 °C; você jejua 14 horas e a glicemia continua em 5 mM; você ingere
+2 L de água ou só 200 mL no dia, e a osmolaridade do plasma continua em 290 mOsm/L. Como?
+
+                                         12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O esquema canônico da homeostase. Variáveis do meio interno (temperatura, glicose, pH, osmolaridade, íons, O) são monitoradas
+continuamente. Sistemas reguladores (com seus valores de referência) detectam desvios e acionam sistemas e órgãos efetores que
+corrigem a variável de volta ao set-point. A retroalimentação (feedback) fecha a malha: a correção reduz o sinal de erro, e o sistema
+relaxa quando a variável volta ao valor adequado.
+
+A resposta tem três peças universais. Primeiro, um sensor13, que detecta continuamente o valor atual da
+variável (osmorreceptor no hipotálamo, células- do pâncreas sentindo glicemia, quimiorreceptores aórticos
+para PO). Segundo, um integrador14, que compara o sinal do sensor com o valor de referência (set-point) e
+calcula o erro. Terceiro, um efetor15, que executa a correção (rim retendo água, coração acelerando, pâncreas
+secretando insulina, músculo tremendo). E o fechamento da malha -- a retroalimentação negativa16 -- significa
+que a correção reduz o erro, e quando a variável volta ao set-point, o sistema "se acalma" automaticamente.
+
+   O termo "negativa" não significa ruim -- é matemático. Significa que o efeito da correção tem sinal
+contrário ao desvio. Se a glicemia subiu, a insulina cai a glicemia. Se a glicemia caiu, o glucagon sobe a
+glicemia. Em todos os casos, a resposta empurra a variável para o set-point. Há também retroalimentação
+positiva na fisiologia, mas é exceção (ovulação, coagulação, parto) -- sistemas que precisam de um pulso
+intenso e curto, não de estabilidade.
+
+   13sensor ­ estrutura -- célula, terminal nervoso ou proteína -- que detecta o valor atual de uma variável fisiológica e gera sinal proporcional
+ao desvio em relação ao set-point
+
+   14integrador ­ centro -- geralmente neural ou endócrino -- que compara o sinal vindo do sensor com o valor de referência (set-point) e
+decide a magnitude da resposta corretiva
+
+   15efetor ­ órgão ou sistema que executa a resposta corretiva ditada pelo integrador -- pode ser muscular, glandular, vascular, renal,
+comportamental
+
+   16retroalimentação negativa ­ circuito de controle em que a saída do sistema (a correção feita pelo efetor) reduz o sinal de entrada
+(o erro detectado pelo sensor), levando a variável de volta ao valor de referência
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Sensor não é efetor -- confusão clássica
+
+Em questão de prova, é comum o enunciado descrever uma cadeia (variável  sensor  integrador  efetor 
+variável) e pedir para identificar quem faz o quê. Sensor detecta; integrador compara e decide; efetor executa.
+Hormônios podem ser produzidos por integradores (hipotálamo libera ADH) ou agir sobre efetores (insulina age
+sobre fígado/músculo), mas eles próprios não são o sensor da variável que regulam. Na regulação da glicemia,
+por exemplo, a célula- é o sensor e a fonte do hormônio (uma exceção); na regulação da osmolaridade, o
+osmorreceptor hipotalâmico é o sensor, separado do efetor renal.
+
+3.2 Set-point, ganho do sistema e por que oscilação é inevitável
+Uma idealização comum é pensar a homeostase como "a variável fica fixa". Na verdade, ela oscila levemente
+em torno do set-point -- sempre. A glicemia de uma pessoa saudável não fica em 5,0 mM 24 horas por dia: ela
+varia entre 4,5 e 7,5 ao longo do dia, sobe após refeição, cai durante o exercício, oscila por causa do hormônio
+do crescimento à noite. Essas oscilações são normais e parte do funcionamento do sistema.
+
+   A amplitude da oscilação depende do ganho do sistema -- quão forte e rápida é a resposta corretiva. Sistema
+com ganho alto tem oscilações pequenas e correções rápidas (glicemia em jovem saudável, temperatura no
+eutérmico saudável). Sistema com ganho baixo tem oscilações grandes (diabético não controlado: glicemia
+varia de 2 a 20 mM no mesmo dia). E há ainda uma sutileza: o set-point pode ser ajustado. Quando você tem
+febre, o set-point da temperatura subiu de 37 °C para, digamos, 39 °C -- citocinas (IL-1, TNF, PGE) recalibram
+o hipotálamo. O sistema continua funcionando com retroalimentação negativa, só que agora defendendo
+um valor mais alto. Por isso o paciente com febre treme nos primeiros minutos: o corpo, com set-point novo de
+39 °C, lê os 37 °C reais como "frio" e dispara correção (tremor, vasoconstrição) até chegar ao set-point ajustado.
+Quando a infecção é controlada e o set-point volta para 37 °C, o paciente sua (corpo lê os 39 °C reais como
+"quente" e dispara sudorese e vasodilatação).
+
+    Set-points ajustáveis na clínica
+
+    Vários processos clínicos são compreensíveis como ajuste de set-point: febre (set-point térmico sobe por citocinas),
+    aclimatação a altitude (set-point ventilatório se ajusta a hipóxia crônica), gravidez (set-point de osmolaridade
+    plasmática cai 10 mOsm/L pelo aumento da volemia), envelhecimento (vários set-points endócrinos se descal
+    ibram -- daí parte da fragilidade do idoso). O sistema de controle não está "quebrado" -- está defendendo um
+    set-point novo. A intervenção terapêutica depende de entender qual.
+
+   Resumindo até aqui: Variável oscila em torno do set-point; amplitude depende do ganho do sistema. Set-point pode
+   ser ajustado (febre, aclimatação). Homeostase  constância absoluta.
+
+3.3 Sistema nervoso e sistema endócrino -- dois efetores para uma malha
+A homeostase do organismo é executada por dois grandes sistemas reguladores que trabalham em paralelo:
+o sistema nervoso (rápido, eletricamente conduzido, com alvos específicos) e o sistema endócrino (lento,
+quimicamente conduzido por hormônios, com alvos amplos). Os dois cooperam, e raramente uma variável é
+regulada só por um.
+
+       14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Sistemas de regulação convergindo sobre o ambiente interno. O sistema nervoso (canal superior) detecta sinais sensoriais e responde
+via nervos eferentes para órgãos efetores (vasos, coração, glândulas). O sistema endócrino (canal inferior) responde via hormônios
+circulando no plasma, que atingem efetores distantes em segundos a horas. Ambos convergem para manter as variáveis do plasma
+e do interstício dentro dos valores de referência -- 37 °C, 290 mOsm/L, pH 7,4, glicemia 5 mM, PO 95 mmHg.
+
+O sistema nervoso age via potenciais de ação que viajam por axônios e terminam em sinapses sobre o
+órgão-alvo. Resposta em milissegundos a segundos: o reflexo barorreceptor (queda de pressão arterial 
+arcobarorreceptor aórtico  bulbo  simpático  coração acelera, vasos contraem  pressão sobe) é
+executado em menos de 5 segundos. Vantagem do nervoso: rapidez e precisão de alvo. Desvantagem: alcance
+limitado ao tecido inervado.
+
+   O sistema endócrino age via hormônios secretados no plasma, que atingem qualquer célula com receptor
+adequado. Resposta de segundos (adrenalina) a dias (hormônio tireoidiano). Vantagem: alcance sistêmico,
+amplificação massiva (ng/mL de hormônio podem ativar mol/L de resposta intracelular). Desvantagem:
+latência maior, controle menos preciso de alvo.
+
+   Repare como na regulação da osmolaridade os dois trabalham juntos. Osmolaridade plasmática sobe 
+osmorreceptores no hipotálamo disparam  resposta nervosa imediata (sede, com você indo beber água) e
+resposta endócrina simultânea (hipotálamo libera ADH na hipófise posterior  ADH age sobre o rim 
+aquaporinas se inserem nos túbulos coletores  reabsorção de água, urina concentrada). Ambos os braços
+corrigem a osmolaridade, em escalas de tempo diferentes (sede em minutos, ADH em 30 min de pico de ação),
+e os dois braços diminuem com a correção (feedback negativo fechando a malha).
+
+    Síntese PARTE III -- Homeostase de Cannon: manutenção ativa do meio interno por retroalimentação negativa.
+    Três peças universais -- sensor (detecta)  integrador (compara com set-point e decide)  efetor (corrige). A
+    correção reduz o erro, fechando a malha. Variável oscila em torno do set-point; amplitude depende do ganho. Set-
+    point pode ser ajustado (febre, aclimatação, gravidez). Sistema nervoso (rápido, alvo preciso) e endócrino (lento,
+    alcance amplo) trabalham em paralelo -- toda variável fisiológica é regulada pelos dois.
+
+                                                                                15
+NEBLI                                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+                                MAPA CONCEITUAL
+
+                          PARTE III -- Homeostase
+
+                          Como o corpo mantém o meio interno estável
+
+                                             
+
+3.1 ­ Malha de            parametrizada por  3.2 ­ Set-point e          executada por  3.3 ­ Dois
+Cannon                                       ganho                                     sistemas
+                                                                            
+Sensor  integrador                           Variável oscila em torno                  Nervoso (rápido, focal)
+ efetor                                      do set-point. Set-point                   e endócrino (lento,
+retroalimentação                             pode ser ajustado (febre,                 sistêmico) cooperam em
+negativa. Resposta reduz                     gestação).                                toda regulação.
+o erro.
+
+      Compartimento + movimento de água + controle = a fisiologia inteira está montada.
+
+Conclusão integradora
+
+Olhe para trás e veja como os três passos se encadeiam. A PARTE I montou o cenário: o corpo
+é dividido em compartimentos separados por barreiras de seletividades distintas, com composições
+iônicas mantidas ativamente pela Na/K-ATPase. A PARTE II descreveu o que move a água entre esses
+compartimentos: pressão osmótica e tonicidade decidem o tráfego pela membrana plasmática; forças
+de Starling decidem o tráfego entre plasma e interstício. A PARTE III explicou como o corpo controla
+tudo: por malhas de retroalimentação negativa que detectam desvios e disparam correções, executadas
+em paralelo pelo sistema nervoso e pelo endócrino.
+A consequência prática: toda doença que você vai estudar nos próximos seis anos pode ser lida como
+desequilíbrio em uma dessas três camadas. Insuficiência cardíaca = falha de Starling (pressão
+hidrostática venosa sobe, edema aparece). Diabetes insipidus = falha do braço endócrino da homeostase
+osmolar (ADH baixo, perda de água, hipernatremia). Cirrose = queda da pressão oncótica (albumina
+baixa, ascite). Sepse = falha do controle vasomotor (sistema nervoso autônomo descompensa). O
+esquema "compartimento  movimento  controle" é o esqueleto da fisiologia toda. Volte a este
+resumo sempre que o próximo tema introduzir uma nova variável a ser regulada -- sempre será uma
+malha de Cannon nova, com sensor, integrador e efetor diferentes, mas com a mesma lógica de fundo.
+
+                                             16
+NEBLI                                                                          ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Água corporal total                                               Edema -- quatro causas
+
+60% do peso num adulto saudável ( 42 L em 70 kg). 2/3 no Starling rompido a favor da filtração. (1)  P_c -- insuficiên
+
+LIC ( 28 L), 1/3 no LEC ( 14 L). LEC subdividido em interstício cia cardíaca direita. (2)  _c -- cirrose, síndrome nefrótica,
+
+(10 L, 74%), plasma (3,5 L, 25%) e transcelular ( 0,5 L, 1%). desnutrição (albumina baixa). (3)  permeabilidade -- infla
+
+Recém-nascido tem 75% água; idoso, 50%.                           mação, queimadura (proteína vaza). (4) Obstrução linfática
+
+Duas barreiras                                                    -- filariose, pós-cirurgia oncológica.
+
+Capilar fenestrado (entre plasma e interstício): peneira Homeostase de Cannon
+
+aberta a íons e moléculas pequenas; retém só macromoléculas. Manutenção ativa do meio interno por retroalimentação
+
+Membrana plasmática (entre interstício e LIC): filtro fino, só negativa. Três peças: sensor (detecta variável), integrador
+
+passa água e lipossolúveis livremente; íons precisam de trans (compara com set-point, decide correção), efetor (executa). A
+
+portador.                                                         correção reduz o erro -- quando a variável volta ao set-point,
+
+Composição iônica                                                 sistema se acalma. "Negativa" = sinal contrário ao desvio.
+
+LEC (plasma e interstício quase idênticos): Na 140, Cl 105, Set-point e ganho
+
+HCO 24, K 4 (mM). LIC: K 140, Na 12, Cl 5, com fosfato Variável oscila em torno do set-point -- homeostase não
+
+e proteínas como ânions principais. Inversão de Na/K é a é constância absoluta. Amplitude da oscilação depende do
+
+assinatura química do meio celular.                               ganho do sistema (resposta forte e rápida = oscilação pe
+
+Na/K-ATPase                                                       quena). Set-point pode ser ajustado: febre (citocinas sobem 37
+
+   Bomba presente em toda célula. A cada ciclo: hidrolisa 1        39 °C), gestação (osmolaridade plasmática cai 10 mOsm/L),
+ATP, expulsa 3 Na e importa 2 K. Consome 25% do ATP               aclimatação a altitude.
+basal. Sem ela: gradientes se dissipam em minutos, célula         Sistema nervoso × endócrino
+
+incha, excitabilidade some, transporte secundário para.           Dois efetores em paralelo. Nervoso: rápido (ms a s), alvo
+
+Pressão osmótica                                                  preciso, alcance limitado ao tecido inervado. Reflexo baror
+
+    = i·R·T·C (van't Hoff). LEC e LIC ambos em 290 mOsm/          receptor em menos de 5 s. Endócrino: lento (s a dias), alcance
+L (sempre se igualam porque água atravessa). NaCl 145 mM =        sistêmico, amplificação massiva (ng/mL ativa mol/L). Toda
+290 mOsm/L (i = 2). É a soma de partículas, não de massa.         variável é regulada pelos dois -- exemplo da osmolaridade:
+Osmolaridade × tonicidade                                         sede (nervoso) + ADH no rim (endócrino).
+                                                                  Valores de referência ancoram tudo
+   Isosmolar  isotônico. Tonicidade efetiva depende do co
+eficiente de reflexão ():  = 1  soluto fica fora, gera força         Temperatura 37 °C. Osmolaridade plasmática 290 mOsm/
+total;  = 0  soluto atravessa, não retém água. Ureia isosmo       L. pH 7,3-7,4. Glicemia 5 mM ( 90 mg/dL em jejum). PO
+lar é hipotônica (atravessa); manitol isosmolar é isotônico (não  arterial 95 mmHg. Saber esses valores é pré-requisito para
+atravessa). Manitol IV puxa água do LIC -- usado em edema         reconhecer doença -- desvio fora dessa faixa é, por definição,
+cerebral.                                                         ruptura da homeostase. Volte a esses números sempre.
+
+Forças de Starling
+
+   No capilar: pressão hidrostática (P_c) empurra água para
+fora; pressão oncótica (_c, 25 mmHg, da albumina) puxa
+de volta. P_c cai de 35 mmHg (arteríola) para 15 mmHg
+(vênula). Filtração líquida na arteríola, reabsorção na vênula.
+O excedente vai pela linfa.
+
+                                                             17
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 1 Consolidação
+Em um adulto saudável de 70 kg, qual é a distribuição aproximada da água corporal total entre os comparti
+mentos?
+
+  A) 42 litros, dos quais 28 L no líquido extracelular e 14 L no líquido intracelular.
+  B) 60 litros, distribuídos igualmente entre os três compartimentos (plasma, interstício e citoplasma).
+  C) 42 litros, dos quais 28 L no líquido intracelular (2/3) e 14 L no líquido extracelular (1/3), com o LEC
+  subdividido em interstício ( 10 L), plasma ( 3,5 L) e transcelular ( 0,5 L).
+  D) 50 litros, distribuídos como 35 L no plasma e 15 L no líquido intracelular.
+  E) 42 litros, integralmente no plasma sanguíneo.
+
+Questão 2 Consolidação
+Sobre as duas barreiras que separam os compartimentos hídricos, é incorreto afirmar que:
+
+  A) O capilar fenestrado permite passagem livre de íons e moléculas pequenas como glicose e aminoácidos,
+  mas retém macromoléculas.
+  B) A membrana plasmática é permeável à água e a moléculas lipossolúveis por difusão simples.
+  C) Íons como Na e K atravessam a membrana plasmática apenas por proteínas transportadoras específicas.
+  D) A pressão oncótica plasmática deve sua existência à retenção de albumina pelo capilar.
+  E) A membrana plasmática é tão permeável aos íons quanto o capilar fenestrado, pois ambos são compostos
+  de bicamada lipídica.
+
+                            18
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 3 Consolidação
+
+Sobre a composição iônica dos compartimentos hídricos, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O plasma e o líquido intersticial têm composições iônicas quase idênticas em relação a Na, Cl e K.
+  II. O líquido intracelular tem concentração de Na semelhante à do plasma, porque a membrana plasmática
+  é livremente permeável a esse íon.
+  III. O K está concentrado no compartimento intracelular ( 140 mM), enquanto o plasma e o interstício têm
+  K próximo de 4 mM.
+  IV. A concentração de Cl no líquido intracelular é menor que no líquido extracelular, sendo o fosfato
+  orgânico e as proteínas os principais ânions do citoplasma.
+
+Questão 4 Consolidação
+
+Em uma solução aquosa de NaCl 145 mM, qual é a osmolaridade aproximada e por quê?
+  A) Aproximadamente 290 mOsm/L, porque cada molécula de NaCl dissocia-se em duas partículas osmoti
+  camente ativas (Na e Cl), portanto i = 2.
+  B) Exatamente 145 mOsm/L, pois osmolaridade é numericamente igual à concentração molar.
+  C) Aproximadamente 145 mOsm/L, porque o sal não se dissocia completamente em solução fisiológica.
+  D) Aproximadamente 435 mOsm/L, considerando a dissociação em três partículas.
+  E) A osmolaridade depende exclusivamente da temperatura e não da concentração do soluto.
+
+Questão 5 Consolidação
+
+A definição operacional de tonicidade de uma solução em relação a uma célula difere da de osmolaridade
+porque:
+
+  A) Tonicidade é medida em mOsm/L, enquanto osmolaridade é adimensional.
+  B) Tonicidade refere-se apenas a soluções salinas, enquanto osmolaridade vale para qualquer soluto.
+  C) As duas grandezas são sinônimas, sendo a escolha do termo uma questão de tradição.
+  D) Tonicidade considera o coeficiente de reflexão () dos solutos pela membrana plasmática -- é a osmolar
+  idade efetiva na geração de força osmótica sobre a célula --, enquanto osmolaridade é a soma de partículas
+  independentemente da permeabilidade.
+  E) Tonicidade é uma propriedade da membrana, e osmolaridade é uma propriedade do soluto, sem relação
+  prática entre elas.
+
+                        19
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 6 Consolidação
+
+Sobre as forças de Starling no capilar, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A pressão hidrostática capilar permanece constante ao longo do capilar, aproximadamente 25 mmHg em
+  todo o percurso.
+  II. A pressão oncótica é gerada principalmente pelos íons sódio e cloreto plasmáticos.
+  III. Em condições normais, há filtração líquida na extremidade arteriolar e reabsorção líquida na extremidade
+  venular do capilar.
+  IV. O sistema linfático tem papel desprezível na drenagem do excesso de líquido filtrado em condições
+  fisiológicas normais.
+
+Questão 7 Consolidação
+
+As três peças universais de uma malha homeostática segundo o modelo de Cannon são:
+  A) Receptor, hormônio e órgão-alvo.
+  B) Sensor (detecta a variável), integrador (compara com o set-point e decide a correção) e efetor (executa a
+  resposta corretiva).
+  C) Pulmão, rim e fígado, que regulam respectivamente pH, osmolaridade e glicemia.
+  D) Sistema nervoso, sistema endócrino e sistema imunológico.
+  E) Aferente, eferente e medular, em analogia ao arco reflexo motor.
+
+Questão 8 Consolidação
+
+Sobre o conceito de set-point e ganho do sistema homeostático, qual afirmação está correta?
+
+  A) O set-point é fixo ao longo da vida e nunca se altera fisiologicamente.
+  B) O ganho do sistema é maior quando a oscilação da variável regulada é mais ampla.
+  C) Em um sistema com retroalimentação negativa eficaz, a variável fica em valor absolutamente constante,
+  sem qualquer oscilação.
+  D) A variável oscila em torno do set-point; a amplitude da oscilação depende do ganho do sistema (ganho
+  alto  oscilação pequena), e o próprio set-point pode ser ajustado em situações como febre, gestação ou
+  aclimatação.
+  E) O set-point e o ganho referem-se exclusivamente a sistemas industriais e não têm aplicação em fisiologia
+  humana.
+
+                        20
+NEBLI                       ETAPA 2 -- 30 OBJETIVAS
+
+Questão 9 Consolidação
+
+Comparando sistema nervoso e sistema endócrino como executores das respostas homeostáticas:
+
+  A) O sistema nervoso atua em escala de milissegundos a segundos com alvo preciso, enquanto o endócrino
+  atua em escala de segundos a dias com alcance sistêmico amplo.
+  B) Ambos os sistemas trabalham em escala de tempo idêntica, sendo a única diferença a natureza do sinal
+  (elétrico × químico).
+  C) O sistema endócrino é mais rápido que o nervoso, porque hormônios circulam no sangue e atingem todos
+  os tecidos simultaneamente.
+  D) Apenas um dos dois sistemas atua em qualquer variável homeostática -- nunca atuam em paralelo sobre
+  a mesma malha.
+  E) O sistema nervoso só regula movimento voluntário, enquanto o endócrino regula tudo o mais.
+
+Questão 10 Consolidação
+
+Sobre a bomba Na/K-ATPase, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A bomba expulsa 3 Na e importa 2 K por ciclo, com gasto de 1 ATP.
+  II. Está presente em essencialmente todas as células nucleadas do organismo.
+  III. Quando inibida (por exemplo, por ouabaína), os gradientes iônicos se dissipam, mas o volume celular
+  permanece estável porque a membrana é impermeável à água.
+  IV. O gradiente de Na que ela cria é usado apenas para gerar potencial de membrana, sem outras funções
+  fisiológicas.
+
+Questão 11 Integração
+
+Em um experimento, 1 litro de NaCl 0,9% ( 308 mOsm/L) é infundido endovenosamente em um adulto saudável.
+Após o equilíbrio entre compartimentos, espera-se que esse volume:
+
+  A) Distribua-se igualmente entre os 42 L de água corporal total.
+  B) Permaneça integralmente no plasma, sem afetar o volume do interstício.
+  C) Distribua-se predominantemente no líquido extracelular (interstício + plasma) e não entre nas células,
+  porque o Na não atravessa a membrana plasmática livremente.
+  D) Distribua-se predominantemente no líquido intracelular, porque a solução é isotônica.
+  E) Saia rapidamente do organismo pela urina sem afetar nenhum compartimento.
+
+                        21
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 12 Integração
+
+Hemácias humanas são incubadas em uma solução de cloreto de sódio 50 mM ( 100 mOsm/L) a 37 °C. O que
+ocorre nos minutos iniciais?
+
+  A) Não há fluxo de água, porque o Na atravessa a membrana e equilibra os compartimentos.
+  B) As hemácias murcham (crenam), porque a solução é hipertônica.
+  C) O volume das hemácias permanece estável, porque o NaCl não interage com a membrana.
+  D) As hemácias murcham por perda de íons K, antes que ocorra qualquer movimento de água.
+  E) As hemácias incham (e podem hemolisar), porque a solução é hipotônica e a água entra na célula seguindo
+  seu gradiente osmótico.
+
+Questão 13 Integração
+
+A assimetria de composição iônica entre LIC (rico em K, pobre em Na) e LEC (rico em Na, pobre em K) é
+mantida porque:
+
+  A) A membrana plasmática é totalmente impermeável a Na e K em qualquer condição.
+  B) A bomba Na/K-ATPase realiza trabalho ativo bombeando Na para fora e K para dentro contra seus
+  gradientes, gastando ATP e compensando o vazamento passivo desses íons.
+  C) A diferença de pressão hidrostática entre os compartimentos impede a difusão dos íons.
+  D) As proteínas plasmáticas se ligam ao K e o mantêm restrito ao plasma.
+  E) O equilíbrio é puramente eletrostático e não exige consumo de energia.
+
+Questão 14 Integração
+
+Sobre a relação entre osmolaridade e tonicidade de soluções biológicas, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Uma solução de ureia 290 mOsm/L é isotônica para hemácias, pois sua osmolaridade iguala a do plasma.
+  II. Uma solução de manitol 290 mOsm/L é isotônica para hemácias, pois o manitol tem coeficiente de reflexão
+  próximo a 1 na membrana eritrocitária.
+  III. Soluções com mesma osmolaridade sempre produzem o mesmo efeito sobre o volume celular, indepen
+  dentemente do soluto.
+  IV. O manitol endovenoso pode reduzir edema cerebral porque, retido no compartimento vascular, aumenta
+  a tonicidade do LEC e atrai água do LIC.
+
+                       22
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+Uma proteína plasmática (peso molecular 66 kDa, como a albumina) e um íon Na injetados no plasma terão
+destinos diferentes em poucos minutos. Qual a afirmação correta?
+
+  A) Ambos atravessam livremente o capilar e a membrana plasmática, equilibrando-se nos três comparti
+  mentos.
+  B) Ambos ficam retidos no plasma, porque o capilar não permite passagem de substâncias hidrossolúveis.
+  C) O Na atravessa a membrana celular, mas a proteína fica retida no plasma.
+  D) O Na atravessa o capilar fenestrado e se equilibra com o interstício rapidamente, mas não entra livre
+  mente nas células; a proteína permanece no plasma porque o capilar retém macromoléculas.
+  E) O Na fica restrito ao plasma, e a proteína atravessa todas as barreiras igualmente.
+
+Questão 16 Integração
+
+O cotransportador SGLT1, que importa glicose do lúmen intestinal para o enterócito, opera de forma acoplada
+ao Na. Esse transporte é viável porque:
+
+  A) O gradiente de Na (alto no lúmen, baixo no citosol) -- mantido indiretamente pela Na/K-ATPase na
+  membrana basolateral -- armazena energia que é utilizada para puxar a glicose contra seu próprio gradiente.
+  B) O SGLT1 hidrolisa ATP diretamente para mover Na e glicose simultaneamente.
+  C) A glicose se difunde livremente pela membrana, dispensando qualquer transportador.
+  D) O gradiente de K (alto no citosol) é a fonte primária da energia para o cotransporte.
+  E) O SGLT1 funciona por gradiente eletroquímico de Cl.
+
+Questão 17 Integração
+
+Por que uma solução isosmolar de ureia ( 290 mOsm/L) faz uma hemácia inchar, enquanto uma solução
+isosmolar de NaCl ( 290 mOsm/L) mantém o volume estável?
+
+  A) A ureia ioniza-se em solução e aumenta o número total de partículas em relação à osmolaridade nominal.
+  B) O NaCl gera mais partículas em solução do que indica sua concentração molar.
+  C) A ureia tem coeficiente de reflexão próximo de zero na membrana da hemácia -- atravessa livremente --,
+  não retém água no LEC, e a hemácia se comporta como se estivesse em solução hipotônica; o NaCl tem  
+  1, retém água no LEC e mantém o equilíbrio.
+  D) Apenas o NaCl é osmoticamente ativo; a ureia é eletricamente neutra e não exerce pressão osmótica.
+  E) As duas soluções deveriam produzir o mesmo efeito, pois têm a mesma osmolaridade.
+
+                       23
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 18 Integração
+
+Sobre malhas de retroalimentação negativa e ajuste de set-point, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Na febre, citocinas inflamatórias (IL-1, TNF, PGE) recalibram o hipotálamo, elevando o set-point térmico
+  para um valor acima de 37 °C; o sistema continua operando com retroalimentação negativa, mas defendendo
+  um valor novo.
+
+  II. Nas primeiras horas de febre, o paciente típicamente apresenta tremores e vasoconstrição, porque o corpo
+  "lê" a temperatura atual (37 °C) como abaixo do novo set-point e dispara mecanismos de aquecimento.
+
+  III. Após resolução da causa da febre, quando o set-point retorna a 37 °C, o paciente sua e apresenta
+  vasodilatação para perder calor -- agora a temperatura corporal (39 °C) é lida como acima do set-point.
+
+  IV. Retroalimentação positiva é a regra na manutenção das variáveis homeostáticas (osmolaridade, glicemia,
+  pH), enquanto retroalimentação negativa só ocorre em eventos pontuais como ovulação e parto.
+
+Questão 19 Integração
+
+A regulação da osmolaridade plasmática envolve a integração simultânea dos sistemas nervoso e endócrino.
+Qual sequência descreve corretamente essa malha?
+
+  A) Osmolaridade sobe  glândula adrenal libera aldosterona  rim retém Na  osmolaridade volta ao
+  normal.
+  B) Osmolaridade sobe  barorreceptores aórticos disparam  coração reduz frequência  osmolaridade
+  volta ao normal.
+  C) Osmolaridade sobe  pâncreas libera insulina  fígado retém glicose  osmolaridade plasmática volta
+  ao normal.
+  D) Osmolaridade sobe  osmorreceptores hipotalâmicos detectam o desvio  dois braços simultâneos: (i)
+  sede (resposta comportamental rápida) e (ii) liberação de ADH da hipófise posterior, que age sobre o ducto
+  coletor renal aumentando a reabsorção de água  osmolaridade volta ao normal e os osmorreceptores
+  reduzem o disparo.
+  E) A osmolaridade não é uma variável regulada -- depende apenas da ingestão de líquidos.
+
+                       24
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 20 Integração
+
+Qual das seguintes alternativas representa corretamente os valores médios de referência das principais
+variáveis homeostáticas do plasma humano?
+
+  A) Temperatura 39 °C; osmolaridade 145 mOsm/L; pH 7,8; glicemia 12 mM; PO 200 mmHg.
+  B) Temperatura 37 °C; osmolaridade 290 mOsm/L; pH 7,3­7,4; glicemia 5 mM ( 90 mg/dL em jejum); PO
+  arterial 95 mmHg.
+  C) Temperatura 35 °C; osmolaridade 100 mOsm/L; pH 7,0; glicemia 1 mM; PO 20 mmHg.
+  D) Temperatura 37 °C; osmolaridade 290 mOsm/L; pH 6,5; glicemia 5 mM; PO 95 mmHg.
+  E) Os valores variam tanto entre indivíduos que não é possível estabelecer valores de referência.
+
+Questão 21 Integração
+
+Sobre os mecanismos que produzem edema (acúmulo anormal de líquido no interstício), qual não corresponde
+a uma causa fisiopatológica reconhecida?
+
+  A) Aumento da pressão hidrostática capilar (P_c), como ocorre na insuficiência cardíaca direita por
+  congestão venosa.
+  B) Redução da pressão oncótica plasmática (_c), como ocorre na síndrome nefrótica por perda urinária
+  maciça de albumina.
+  C) Aumento da permeabilidade do capilar a proteínas, como ocorre em queimaduras extensas ou em
+  infecções graves com resposta inflamatória sistêmica.
+  D) Obstrução linfática, com falência da drenagem do excedente filtrado, como na filariose bancroftiana.
+  E) Aumento isolado da osmolaridade do plasma sem alteração de pressões hidrostática, oncótica, perme
+  abilidade ou drenagem linfática -- esse mecanismo não gera edema; pelo contrário, tende a retirar água do
+  interstício.
+
+                       25
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 22 Integração
+
+Sobre composição iônica e bomba Na/K-ATPase, julgue:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A inibição farmacológica da Na/K-ATPase em uma célula isolada leva, em poucos minutos, à dissipação
+  dos gradientes de Na e K e ao aumento da concentração intracelular de Ca² -- este último por reversão do
+  trocador Na/Ca².
+
+  II. A glicose entra na maioria das células do organismo por difusão simples através da bicamada lipídica,
+  sem necessidade de transportadores específicos.
+
+  III. O Cl é o ânion mais abundante do líquido intracelular, com concentração intracelular semelhante à do
+  plasma ( 105 mM).
+
+  IV. Em uma célula em repouso, o gradiente eletroquímico do K é o principal determinante do potencial de
+  membrana, refletindo a alta permeabilidade da membrana ao K e a baixa permeabilidade ao Na.
+
+Questão 23 Integração
+
+O coeficiente de reflexão () de um soluto em relação a uma membrana é um parâmetro entre 0 e 1 que
+descreve:
+
+  A) A fração de Na presente na membrana plasmática em relação ao K.
+  B) A direção preferencial do fluxo de água -- para fora se  > 0,5; para dentro se  < 0,5.
+  C) A temperatura crítica da bicamada lipídica acima da qual ocorre transição de fase.
+  D) O grau de impermeabilidade da membrana ao soluto:  = 1 indica impermeabilidade total (soluto total
+  mente "refletido", gera pressão osmótica máxima);  = 0 indica permeabilidade total (soluto atravessa como
+  água, não gera pressão osmótica efetiva).
+  E) O número de aquaporinas por unidade de superfície da membrana.
+
+                       26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 24 Integração
+
+Durante a fase de elevação rápida da febre, um paciente com infecção viral apresenta pele fria, calafrios e
+tremores. A explicação fisiológica mais adequada é:
+
+  A) O hipotálamo sofre dano direto pelo vírus, perdendo capacidade de manter qualquer set-point estável.
+  B) Citocinas (IL-1, PGE) recalibraram o set-point térmico para um valor acima de 37 °C; a temperatura
+  atual do corpo, ainda em 37 °C, é "lida" como abaixo do novo set-point, disparando vasoconstrição cutânea
+  (palidez, frio na pele) e tremor muscular (geração de calor) para atingir o set-point novo.
+  C) O paciente está com hipotermia primária; a febre é apenas uma percepção subjetiva.
+  D) A retroalimentação negativa está abolida durante a infecção, e o corpo deixou de regular a temperatura.
+  E) O sistema endócrino libera grandes quantidades de hormônio tireoidiano agudamente, gerando calafrios
+  como efeito colateral.
+
+Questão 25 Integração
+
+Para uma resposta que demanda grande alcance espacial (atingir simultaneamente fígado, músculo, tecido
+adiposo e cérebro) e amplificação massiva (concentrações na faixa de ng/mL gerando respostas celulares
+amplas), o sistema regulador mais apropriado seria:
+
+  A) O sistema endócrino, pela secreção de hormônios na corrente sanguínea com alcance sistêmico e
+  capacidade de amplificação por cascatas intracelulares (segundos mensageiros).
+  B) O sistema nervoso somático, com seus axônios mielinizados.
+  C) O sistema linfático, pelo transporte ativo de mediadores.
+  D) O sistema digestório, pela absorção rápida de sinais externos.
+  E) O sistema renal isoladamente, dada sua capacidade de filtrar todo o sangue circulante.
+
+                       27
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 26 Aplicação
+
+Paciente de 58 anos com cirrose hepática avançada apresenta-se com volumosa ascite (acúmulo de líquido na
+cavidade peritoneal), edema de membros inferiores e albumina sérica de 1,8 g/dL (valor de referência: 3,5­5,0
+g/dL). Qual o principal mecanismo de Starling que explica esse quadro?
+
+  A) Aumento da pressão hidrostática capilar (P_c) por hipertensão arterial sistêmica.
+  B) Aumento direto da permeabilidade do capilar a íons como Na e Cl.
+  C) Redução da pressão oncótica plasmática (_c) por hipoalbuminemia: o fígado cirrótico produz menos
+  albumina, e a queda da pressão que retém água no compartimento vascular favorece a filtração líquida para
+  o interstício e cavidades, gerando edema e ascite.
+  D) Obstrução isolada do sistema linfático abdominal.
+  E) Aumento isolado da osmolaridade plasmática, atraindo água para o vaso e empurrando-a para o inter
+  stício.
+
+Questão 27 Aplicação
+
+Paciente jovem com trauma cranioencefálico grave apresenta edema cerebral progressivo. O médico opta por
+administrar manitol endovenoso a 20%. Julgue os itens sobre o mecanismo de ação:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O manitol tem coeficiente de reflexão () próximo de 1 nas membranas celulares e na barreira hematoence
+  fálica, sendo retido no compartimento vascular onde aumenta a tonicidade efetiva.
+  II. O efeito esperado é a entrada de água do plasma para o LIC dos neurônios, agravando o edema.
+  III. Pelo gradiente osmótico criado, água é puxada do parênquima cerebral (LIC) para o compartimento
+  vascular, reduzindo o volume cerebral e a pressão intracraniana.
+  IV. Se em vez do manitol fosse administrada ureia (  0 na barreira hematoencefálica em condições de
+  longa exposição), o efeito antiedema seria igualmente eficaz e duradouro.
+
+                      28
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 28 Aplicação
+
+Em uma unidade de terapia intensiva, um paciente recebe inadvertidamente uma infusão de solução salina
+hipertônica 3% ( 1026 mOsm/L) em vez da salina isotônica 0,9%. Qual a consequência aguda mais provável
+sobre o volume celular?
+
+  A) As células incham porque a solução é hipertônica em relação ao plasma.
+  B) O volume celular não se altera, porque a membrana é livremente permeável ao NaCl.
+  C) As células ficam isovolumétricas após poucos segundos, pois Na atravessa a membrana plasmática
+  facilmente.
+  D) As células do organismo murcham (perdem volume) porque a infusão eleva agudamente a osmolaridade
+  do LEC, e água sai do LIC para o LEC seguindo o gradiente osmótico, até nova igualação osmótica entre os
+  compartimentos.
+  E) Apenas as células do trato urinário murcham; as demais permanecem inalteradas.
+
+Questão 29 Aplicação
+
+Paciente de 32 anos refere poliúria importante ( 8 litros/dia) e polidipsia compulsiva há 6 meses, com episódios
+de noctúria. Exames laboratoriais: sódio plasmático 152 mEq/L (normal 135­145), osmolaridade plasmática 305
+mOsm/L (normal 290), osmolaridade urinária 80 mOsm/L (hipo-osmolar à urina normal). O teste de privação
+hídrica não concentra a urina, mas administração de desmopressina (análogo do ADH) reduz o volume urinário
+e eleva a osmolaridade urinária. Qual o mecanismo fisiopatológico mais coerente?
+
+  A) Falha primária do osmorreceptor hipotalâmico, com produção inapropriada e excessiva de ADH.
+  B) Diabetes insipidus central -- falência da hipófise posterior em liberar ADH em resposta ao estímulo dos
+  osmorreceptores; o eixo sensor-integrador funciona (o osmorreceptor dispara, o hipotálamo manda o sinal),
+  mas o efetor endócrino falha, e o rim não recebe sinal para reter água; a desmopressina exógena reverte
+  porque substitui o ADH ausente no túbulo coletor.
+  C) Doença renal crônica avançada com perda da capacidade do rim de filtrar.
+  D) Hiperaldosteronismo primário, com retenção excessiva de sódio.
+  E) Síndrome da secreção inapropriada de ADH (SIADH), com retenção excessiva de água livre.
+
+                      29
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 30 Aplicação
+
+Em um atendimento de pronto-socorro, idoso de 78 anos com sequela de AVC e dificuldade de deglutição
+é trazido após 4 dias com baixa ingestão hídrica e diarreia leve. Apresenta mucosas secas, turgor cutâneo
+reduzido, taquicardia, hipotensão postural, sódio plasmático 158 mEq/L (referência 135­145) e osmolaridade
+plasmática 320 mOsm/L. Qual a alteração hormonal e comportamental esperada como resposta apropriada à
+condição apresentada?
+
+  A) Redução da secreção de ADH e supressão da sede, pois o organismo busca eliminar o excesso de água.
+
+  B) Ausência de qualquer resposta hormonal, pois o paciente está fora do "set-point" e os mecanismos
+  compensatórios já se exauriram.
+
+  C) Liberação massiva de insulina e supressão do glucagon.
+
+  D) Vasodilatação periférica e bradicardia, mediadas pelo parassimpático para reduzir o trabalho cardíaco.
+
+  E) Liberação aumentada de ADH pela hipófise posterior em resposta ao estímulo dos osmorreceptores
+  hipotalâmicos (osmolaridade elevada), com consequente aumento da reabsorção tubular renal de água,
+  somada à ativação da sede como resposta comportamental -- ambos os braços (endócrino e nervoso) da
+  malha homeostática osmolar disparam simultaneamente para corrigir o desvio.
+
+                      30
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 1
+
+Um indivíduo recebe infusão endovenosa de 1 litro de solução salina isotônica (NaCl 0,9%, 290 mOsm/
+L). Após o equilíbrio, observa-se que esse volume se distribuiu predominantemente pelo líquido
+extracelular (interstício + plasma), praticamente sem afetar o líquido intracelular. Explique mecanis
+ticamente por que essa distribuição ocorre, citando as duas barreiras envolvidas e suas permeabilidades
+específicas ao Na e à água.
+
+    MODELO DE RESPOSTA
+
+   Existem duas barreiras com permeabilidades diferentes. O capilar fenestrado, que separa plasma do
+   interstício, deixa passar livremente íons e moléculas pequenas -- o Na injetado equilibra-se entre
+   plasma e interstício em minutos. A membrana plasmática, que separa interstício e LIC, é permeável
+   à água e a lipossolúveis, mas não ao Na -- ele só atravessa via transportadores específicos. Como a
+   tonicidade da solução é igual à do plasma, não há gradiente osmótico líquido que mova água para a
+   célula. Resultado: o NaCl permanece distribuído pelo LEC inteiro e o LIC fica praticamente inalterado.
+
+Questão 2
+
+Duas soluções com a mesma osmolaridade ( 290 mOsm/L) -- uma de ureia, outra de NaCl -- são
+oferecidas a hemácias humanas em experimento controlado. As hemácias na ureia incham; as do NaCl
+mantêm o volume estável. Explique por que duas soluções isosmolares produzem efeitos opostos sobre
+o volume celular, definindo claramente o conceito que diferencia os dois resultados.
+
+    MODELO DE RESPOSTA
+
+   Osmolaridade nominal mede apenas o número total de partículas. A tonicidade efetiva depende
+   também do coeficiente de reflexão () -- quanto o soluto é "barrado" pela membrana. A ureia tem  
+   0 na hemácia: atravessa a membrana com facilidade, equilibra-se rapidamente entre LEC e LIC e não
+   retém água no LEC. Resultado: a hemácia se comporta como se estivesse em solução hipotônica e
+   incha. O NaCl tem   1 (o Na não atravessa): a tonicidade efetiva é igual à osmolaridade, não há
+   gradiente líquido, e o volume permanece estável. Logo, isosmolar não é o mesmo que isotônico.
+
+                             31
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 3
+
+Na cirrose hepática avançada, a produção de albumina pelo fígado cai significativamente. Pacientes
+desenvolvem edema periférico e ascite. Explique, com base nas forças de Starling, por que a queda da
+albumina plasmática provoca acúmulo de líquido no interstício, e por que esse mesmo mecanismo não
+ocorreria se a ureia plasmática estivesse reduzida em proporção semelhante.
+
+MODELO DE RESPOSTA
+
+No capilar, a pressão hidrostática empurra água para fora e a pressão oncótica (gerada pela albumina,
+  1) puxa de volta. A queda da albumina reduz a pressão oncótica plasmática, desequilibrando o
+balanço a favor da filtração -- água sai persistentemente para o interstício, gerando edema e ascite. A
+ureia não cumpriria esse papel: seu   0 no capilar significa que ela não fica retida no plasma e não
+gera diferença osmótica efetiva entre os compartimentos. Pressão oncótica depende exclusivamente
+de solutos retidos pela barreira -- proteínas plasmáticas, não pequenos solutos permeáveis.
+
+Questão 4
+
+Durante a febre, o set-point da temperatura corporal sobe transitoriamente de 37 °C para, digamos, 39 °C,
+sob ação de citocinas inflamatórias. Apesar disso, a retroalimentação negativa continua operando
+normalmente. Explique como um sistema de feedback negativo pode "defender" um valor diferente
+em momentos diferentes, e descreva as respostas observadas (a) na fase de elevação da temperatura e
+(b) na fase de desfervescência.
+
+    MODELO DE RESPOSTA
+
+   Retroalimentação negativa significa que a correção tem sinal contrário ao desvio em relação ao set-
+   point -- não que o set-point seja imutável. Citocinas (IL-1, PGE) recalibram o integrador hipotalâmico
+   para 39 °C; o sistema então defende esse valor novo. (a) Na fase de elevação, a temperatura real (37 °C)
+   é lida como abaixo do set-point: vasoconstrição cutânea e tremores aquecem o corpo até 39 °C. (b) Na
+   desfervescência, citocinas caem, o set-point volta a 37 °C; agora os 39 °C reais são lidos como acima
+   do set-point: vasodilatação e sudorese resfriam até retornar a 37 °C.
+
+       32
+NEBLI      ETAPA 3 -- 5 DISCURSIVAS
+
+Questão 5
+
+Identifique o erro. Um colega afirma: "A Na/K-ATPase serve apenas para gerar o potencial de
+membrana do neurônio. Em células não-excitáveis, como o hepatócito, ela é dispensável -- uma célula
+desse tipo poderia perfeitamente sobreviver com a bomba inibida, pois não precisa de potencial de ação.
+Por isso a ouabaína, que inibe a bomba, é tóxica só para neurônios e células cardíacas." Aponte o erro
+central do raciocínio e corrija com mecanismo.
+
+MODELO DE RESPOSTA
+
+O erro central é restringir a função da Na/K-ATPase à excitabilidade. Ela tem pelo menos três funções
+fundamentais em toda célula: (1) o gradiente de Na que ela cria alimenta transporte secundário
+ativo de glicose, aminoácidos, fosfato, neurotransmissores e Ca² (via trocador Na/Ca²); (2) mantém
+o equilíbrio osmótico -- sem bomba, solutos intracelulares acumulam-se e a célula incorpora água
+até estourar; (3) gera o potencial de membrana, que é importante mesmo em células não-excitáveis
+(sinalização, transporte). Inibir a bomba em hepatócito também é letal: gradientes se dissipam em
+minutos, Ca² intracelular sobe (NCX reverte), proteases se ativam e a célula entra em necrose. A
+ouabaína em dose alta é tóxica para qualquer célula nucleada; o uso clínico do digital em dose baixa é
+seletivo justamente porque o miocárdio tem peculiaridades de acoplamento Na/Ca².
+
+       33
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 C     Q02 E         Q03 CECC  Q04 A     Q05 D
+                        Q08 D     Q09 A     Q10 CCEE
+Q06 EECE  Q07 B
+                        Q13 B     Q14 ECEC  Q15 D
+INTEGRAÇÃO (Q11­Q25)    Q18 CCCE  Q19 D     Q20 B
+                        Q23 D     Q24 B     Q25 A
+Q11 C     Q12 E
+Q16 A     Q17 C         Q28 D     Q29 B     Q30 E
+
+Q21 E     Q22 ECEE
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 CECE
+
+                        40
+

@@ -1,0 +1,21 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#discursiva("Q1",
+  [Explique, em termos termodinâmicos, por que a célula parcela a queda de energia do NADH em quatro complexos em vez de oxidar o NADH diretamente com O₂ em uma única reação.],
+  [A oxidação direta de NADH por O₂ liberaria os ~220 kJ/mol da queda de potencial (E°' de -0,32 V a +0,82 V) de uma só vez. Como a ligação fosfoanidrida do ATP guarda só ~30 kJ/mol, a célula só conseguiria aproveitar uma pequena fração — o resto viraria calor. Parcelar em quatro complexos transforma cada queda parcial em trabalho útil (bombeamento de próton), e o gradiente acumulado é convertido em ATP pela ATP sintase. Aproveitamento sobe de poucos porcento para algo em torno de 40% — alto para um sistema biológico.])
+
+#discursiva("Q2",
+  [Descreva a teoria quimiosmótica de Mitchell. Explique especificamente por que a impermeabilidade da membrana mitocondrial interna ao próton é central para o modelo.],
+  [Mitchell propôs em 1961 que a energia do transporte de elétrons não vira ATP diretamente — vira gradiente eletroquímico de próton através da membrana mitocondrial interna. Complexos I, III e IV bombeiam H⁺ da matriz pro espaço intermembranas, criando força próton-motriz (componente químico + elétrico). A ATP sintase usa o retorno do próton à matriz para sintetizar ATP. A impermeabilidade da membrana é essencial: se H⁺ atravessasse de volta livremente, o gradiente dissiparia sem trabalho. Só a passagem controlada pela ATP sintase preserva a energia.])
+
+#discursiva("Q3",
+  [Cianeto e 2,4-dinitrofenol (DNP) são duas toxinas que afetam a fosforilação oxidativa, mas por mecanismos opostos. Compare-os explicando o que acontece com o consumo de O₂, o gradiente de próton e a produção de ATP em cada caso.],
+  [Cianeto inibe o complexo IV ligando-se ao Fe do citocromo a3 — a entrega final de elétron ao O₂ é bloqueada. Consequência: consumo de O₂ cai a zero, o gradiente não é mais alimentado, ATP cai. DNP é desacoplador: atravessa a membrana lipossolúvel carregando H⁺ de volta à matriz fora da ATP sintase. Consequência: o gradiente é dissipado, mas a cadeia continua andando livremente, então o consumo de O₂ aumenta. ATP cai porque a ATP sintase fica sem gradiente. Em ambos, ATP cai — mas o consumo de O₂ vai em direções opostas.])
+
+#discursiva("Q4",
+  [Explique mecanisticamente por que cada NADH rende aproximadamente 2,5 ATP e cada FADH₂ rende aproximadamente 1,5 ATP. Não basta dizer que entram em pontos diferentes — explique a contabilidade de prótons.],
+  [NADH entrega elétron ao complexo I, que bombeia 4 H⁺ por par. Os elétrons seguem para CoQ → complexo III (mais 4 H⁺) → cit c → complexo IV (mais 2 H⁺). Total: 10 H⁺ bombeados por par. Como a ATP sintase consome ~4 H⁺ por ATP (incluindo Pi/ADP transportados), 10 ÷ 4 ≈ 2,5 ATP. FADH₂ entra no complexo II (succinato desidrogenase), que não bombeia próton — entrega direto à CoQ. Pula os 4 H⁺ do complexo I. Sobram 4 + 2 = 6 H⁺, e 6 ÷ 4 ≈ 1,5 ATP. A diferença é o salto do complexo I.])
+
+#discursiva("Q5",
+  [Um paciente é trazido ao pronto-socorro após incêndio em residência com isolamento térmico de polímero nitrogenado. Apresenta taquipneia, cianose paradoxal com sangue venoso vermelho-vivo na gasometria, acidose metabólica grave por lactato. Explique o mecanismo bioquímico subjacente, justifique o sinal clínico distintivo do sangue venoso e descreva o racional terapêutico do antídoto.],
+  [Polímero nitrogenado em combustão libera cianeto, que se liga com alta afinidade ao Fe³⁺ do citocromo a3 (complexo IV), bloqueando a entrega final do elétron ao O₂. A cadeia respiratória trava: NAD⁺ não regenera, o Krebs para, e a célula migra para glicólise anaeróbica como única fonte de ATP — gerando lactato em massa (acidose). O sinal clínico distintivo do sangue venoso vermelho-vivo se explica porque o O₂ deixa de ser extraído pelos tecidos: a saturação venosa fica anormalmente alta, próxima da arterial. O antídoto clássico são nitritos (nitrito de sódio ou amila), que oxidam o ferro da hemoglobina gerando metemoglobina (Fe³⁺); a metemoglobina compete com o citocromo a3 pelo cianeto, sequestrando-o e liberando o complexo IV. Tiossulfato é dado em sequência para converter o cianeto sequestrado em tiocianato, eliminado renalmente.])

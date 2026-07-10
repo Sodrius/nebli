@@ -1,0 +1,1543 @@
+NEBLI · APOSTILA
+
+Enzimas II
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. O slide segue a sequência canônica:
+Onde estudar:  começa pelos inibidores (irreversíveis, depois os três tipos reversíveis),
+               passa por pH e alosteria, e fecha em modificação covalente, isozimas
+               e zimogênios. O fio mecanístico aqui é entender O QUE muda em
+               KM e em Vmax quando se mexe na enzima -- esse é o gesto
+               que diferencia competitivo de não-competitivo de acompetitivo, e que
+               organiza a leitura do Lineweaver-Burk. Quem decora 'KM sobe, KM cai'
+               sem entender por que perde questão clínica.
+
+               Lehninger, Princípios de Bioquímica, Cap. 6 (Enzimas -- seções sobre
+               inibição, regulação alostérica e modificação covalente). Berg/Stryer Cap.
+               8 e 10. Voet & Voet Cap. 13. Para a clínica da inibição enzimática (AAS,
+               captopril, MTX, AZT, lítio): Goodman & Gilman, As Bases Farmacológicas
+               da Terapêutica, capítulos correspondentes.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Inibição enzimática
+       1.1 Irreversível: a ligação que não solta
+       1.2 Competitiva: quem chega ao sítio primeiro
+       1.3 Não-competitiva: estragando à distância
+       1.4 Acompetitiva: só pega o complexo
+  PARTE II -- Ambiente e alosteria
+       2.1 pH e temperatura: por que a enzima tem um pico
+       2.2 Alosteria: sigmoide e o vai-e-vem TR
+  PARTE III -- Estratégias regulatórias
+       3.1 Modificação covalente reversível: o liga-desliga do fósforo
+       3.2 Isozimas: a mesma reação, contextos diferentes
+       3.3 Zimogênios: nasce inativo, ativa quando precisar
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Enzimas I terminou com um quadro otimista: temos uma máquina molecular elegante, capaz
+    de baixar a energia de ativação em fatores de 106 a 1012, lendo o substrato com precisão estereo
+    química e funcionando em temperatura corporal. Enzimas II é o que a fisiologia e a farmacologia
+    fazem com essa máquina. Como freá-la quando ela precisa parar (inibição), como ajustá-la
+    conforme a célula muda (alosteria, pH), e como ligá-la e desligá-la rapidamente (modificação
+    covalente, zimogênios, isozimas). O fio mecanístico aqui é simples e poderoso: toda manipulação
+    enzimática mexe em duas alavancas, KM e Vmax, e a marca de cada mecanismo é qual delas muda
+    e em qual direção. Quem decora "competitivo sobe K_M, não-competitivo derruba V_max" sem
+    entender o porquê perde a questão clínica de captopril, AZT, AAS, lítio e metotrexato.
+
+PARTE I -- Inibição enzimática
+
+1.1 -- Irreversível: a ligação que não solta
+
+A primeira pergunta é: o que separa um inibidor de qualquer outra molécula que entra no sítio ativo?
+A resposta é trivial -- o inibidor reduz a velocidade da reação. Mas a distinção crítica vem depois: ele
+reduz a velocidade por quanto tempo? Se a redução dura enquanto o inibidor está presente, e some no
+instante em que ele dissocia, é uma inibição reversível1. Se a redução dura enquanto aquela molécula de
+enzima existir, mesmo depois do inibidor ter sido removido do meio, é inibição irreversível2.
+
+   A diferença mecanística está no tipo de ligação. Reversíveis ligam por interações fracas (pontes de
+hidrogênio, van der Waals, eletrostáticas) -- somam-se, mas se desfazem por agitação térmica. Irrever
+síveis ligam covalentemente, geralmente atacando um resíduo nucleofílico do sítio ativo (Ser, Cys, His,
+Lys). A consequência clínica é gigante: para reverter um inibidor irreversível, o corpo precisa sintetizar
+enzima nova. Não basta esperar a droga ser eliminada.
+
+   1inibição reversível ­ forma de inibição em que o inibidor liga e dissocia em equilíbrio dinâmico -- remoção do inibidor
+restaura a atividade enzimática
+
+   2inibição irreversível ­ forma de inibição em que o inibidor estabelece ligação covalente com a enzima, inativando-a
+permanentemente -- a recuperação só ocorre por síntese de enzima nova
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Repare como cada um desses inibidores irreversíveis tem um alvo enzimático específico e gera um efeito farma
+ cológico duradouro -- a recuperação depende da renovação da enzima, não da depuração da droga.
+
+Três exemplos canônicos arrumam o conceito. O AAS3 acetila um resíduo de serina (Ser530) da ciclo-
+oxigenase (COX). A enzima fica permanentemente bloqueada. Como a plaqueta é uma célula anucleada
+-- não pode sintetizar COX nova -- uma dose única de AAS inibe a função plaquetária por toda a vida
+útil daquela plaqueta (7 a 10 dias). Esse é o motivo de a aspirina ser cardioprotetora em dose baixa: o
+efeito antiagregante persiste muito além da meia-vida do fármaco no plasma.
+
+   A penicilina liga covalentemente a transpeptidase bacteriana, enzima que monta a parede de
+peptidoglicano. Sem parede, a bactéria gram-positiva lisa. O AZT4 é um análogo de nucleosídeo: a
+transcriptase reversa do HIV o incorpora ao DNA viral, e como o AZT não tem o 3-OH necessário para a
+próxima ligação, a síntese trava -- o inibidor "engana" a enzima para que ela mesma se inative. E o DFP5
+é o protótipo dos organofosforados: fosforila irreversivelmente a serina catalítica da acetilcolinesterase,
+deixando acetilcolina acumulada na fenda sináptica.
+
+    Inibidor irreversível não é deslocável por excesso de substrato
+
+    O competitivo sai do sítio se [S] sobe muito. O irreversível, por estar covalentemente preso, não sai
+    com [S] alto -- só sai se a enzima for substituída por uma nova. Em intoxicação por organofos
+    forado, dar mais acetilcolina não resolve; a estratégia clínica é regenerar a enzima rapidamente
+    com oxima (pralidoxima) antes que o complexo "envelheça" e se torne refratário até a essa
+    regeneração.
+
+   Resumindo até aqui: Irreversível = ligação covalente, inativa permanentemente aquela molécula de
+   enzima. Recuperação clínica depende da síntese de enzima nova. Exemplos: AAS-COX, penicilina-
+   transpeptidase, AZT-transcriptase, DFP-AChE.
+
+1.2 -- Competitiva: quem chega ao sítio primeiro
+
+   3AAS ­ ácido acetilsalicílico -- aspirina, inibidor irreversível da ciclo-oxigenase por acetilação de Ser530
+   4AZT ­ zidovudina -- análogo de timidina e inibidor irreversível da transcriptase reversa do HIV após incorporação ao
+DNA viral
+   5DFP ­ diisopropilfluorofosfato -- organofosforado que inativa irreversivelmente a acetilcolinesterase, modelo dos
+inseticidas e gases de guerra
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A partir daqui o foco são as reversíveis, que é onde mora a maior parte da farmacologia moderna.
+Existem três sabores, e a diferença entre eles é puramente uma questão de onde o inibidor liga e em qual
+estado da enzima ele liga. O primeiro sabor -- o mais intuitivo -- é o competitivo.
+
+   A ideia é simples e está no nome: o inibidor competitivo6 disputa o sítio ativo com o substrato. Geral
+mente é um análogo estrutural -- uma molécula parecida com o substrato, mas que não reage. Entra,
+fica um tempo, sai. Enquanto está dentro, o sítio fica ocupado e o substrato real não pode entrar.
+
+ Note como o captopril foi desenhado para imitar a porção C-terminal do substrato natural da ECA -- esse tipo de
+ drug design por análogo estrutural é o paradigma dos inibidores competitivos.
+
+Cineticamente, o que importa é que o sistema é deslocável por excesso de substrato. Se você joga muito
+[S], a probabilidade de o substrato encontrar o sítio antes do inibidor sobe -- eventualmente o inibidor
+é "vencido" estatisticamente. Em consequência, Vmax não muda: com [S] muito alto, a enzima volta a
+trabalhar no máximo, como se o inibidor não existisse. O que muda é o KM aparente -- você precisa de
+muito mais substrato para chegar à metade de Vmax. Lendo na curva: a hipérbole é a mesma de cima, só
+"esticada" para a direita.
+
+   A análise por Lineweaver-Burk torna essa leitura geométrica. Com inibidor competitivo, as retas (com
+e sem inibidor) se cruzam no eixo Y, no mesmo intercepto 1/Vmax. A inclinação muda (mais inclinada com
+inibidor), e o intercepto X -- que vale -1/KM -- desloca para mais perto do zero, indicando KM aparente
+maior.
+
+   Três fármacos servem de exemplo clínico vivo. O captopril é inibidor competitivo da ECA7. Foi
+desenhado para imitar a porção C-terminal da angiotensina I, encaixa no sítio ativo da ECA mas não é
+hidrolisado. Resultado: angiotensina II não é gerada, vasodilatação periférica, queda da pressão arterial.
+O MTX8 é análogo estrutural do folato e compete pela diidrofolato redutase, bloqueando a síntese de
+timidilato -- daí a ação quimioterápica e imunossupressora. E o ibuprofeno é competitivo reversível da
+COX (contraste claro com o AAS irreversível), motivo de seu efeito antiagregante se restringir ao tempo
+de circulação do fármaco.
+
+   6inibidor competitivo ­ molécula que compete com o substrato pelo mesmo sítio ativo da enzima, tipicamente por ser
+análogo estrutural do substrato
+
+   7ECA ­ enzima conversora de angiotensina -- converte angiotensina I em angiotensina II; alvo farmacológico em
+hipertensão
+
+   8MTX ­ metotrexato -- análogo de folato, inibidor competitivo da diidrofolato redutase, usado em quimioterapia e
+doenças autoimunes
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Competitivo: análogo do substrato, liga sítio ativo, deslocável por [S] alto. Vmax
+inalterado, KM aparente sobe. No Lineweaver-Burk, retas cruzam no eixo Y. Captopril (ECA), MTX (DHFR),
+ibuprofeno (COX).
+
+1.3 -- Não-competitiva: estragando à distância
+
+O segundo sabor abandona o sítio ativo. O inibidor não-competitivo9 liga em outro lugar da proteína
+-- um sítio alostérico -- e através de uma mudança conformacional distorce o sítio ativo o suficiente
+para que a catálise fique prejudicada. Crucialmente, ele liga tanto à enzima livre (E) quanto ao complexo
+enzima-substrato (ES) com a mesma afinidade -- o substrato e o inibidor são independentes.
+
+O inibidor não-competitivo se liga em sítio diferente do sítio ativo -- repare como a enzima fica com substrato ligado
+E inibidor ligado simultaneamente, sem competição entre eles.
+
+A consequência cinética é o oposto da competitiva. Como o inibidor não está disputando o sítio ativo,
+aumentar [S] não o desloca -- ele continua lá. As enzimas que estão sob seu efeito ficam permanente
+mente prejudicadas; é como se uma fração das enzimas estivesse "fora de combate". Resultado: Vmax cai
+(porque a quantidade efetiva de enzima funcional caiu), e KM não muda (as enzimas que escaparam do
+inibidor têm afinidade normal pelo substrato).
+
+   No Lineweaver-Burk, a leitura é geométrica e simétrica à do competitivo: as retas se cruzam no eixo X
+(mesmo KM aparente, mesmo intercepto -1/KM), mas o intercepto Y sobe (porque 1/Vmax aumenta quando
+Vmax cai). É a "imagem espelhada" geométrica do gráfico competitivo.
+
+    Não-competitivo NÃO é deslocável por [S] alto
+    Aluno tende a estender a regra do competitivo: "se eu dou mais substrato, ganho da inibição". Para
+    não-competitivo é falso. Como ele liga em sítio diferente, [S] alto não o desloca, e Vmax permanece
+    reduzido para sempre -- enquanto inibidor estiver presente.
+
+Clinicamente, o exemplo mais limpo é a inibição da protease do HIV por drogas como saquinavir e
+ritonavir, que ligam fora do sítio catalítico mas distorcem a geometria da fenda enzimática. O resultado
+
+   9inibidor não-competitivo ­ molécula que se liga a um sítio alostérico distinto do sítio ativo, reduzindo a atividade
+catalítica sem competir com o substrato -- Vmax cai, KM não muda
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+é uma protease que existe, está bem dobrada, tem substrato disponível, mas não consegue clivar a
+poliproteína viral -- o vírus monta-se incompleto e fica não-infectivo.
+
+Resumindo até aqui: Não-competitivo: liga sítio alostérico distinto, age sobre E livre ou ES. Vmax cai, KM
+inalterado. Não deslocável por [S]. No Lineweaver-Burk, retas cruzam no eixo X.
+
+1.4 -- Acompetitiva: só pega o complexo
+
+O terceiro sabor é o mais sutil -- e o que confunde mais aluno. O inibidor acompetitivo10 tem uma
+exigência peculiar: ele só liga quando o substrato já está dentro do sítio ativo. Sem ES formado, não há
+sítio para o acompetitivo encaixar. Esse pequeno detalhe muda completamente a cinética.
+
+Note a exigência mecanística do acompetitivo: o inibidor só reconhece a forma da enzima depois que ela já recebeu
+o substrato -- e ao ligar, sequestra o complexo ES, impedindo que ele avance para produto.
+
+A consequência sobre Vmax é direta: o acompetitivo sequestra moléculas de ES, impedindo que avancem
+para produto. Vmax cai, como no não-competitivo. Mas o gesto sobre KM é o que surpreende e cobra
+atenção. Pense em Le Chatelier: a reação E + S  ES  E + P. Se você "remove" ES do equilíbrio (seques
+trando como ES·I), o equilíbrio é puxado para frente -- mais E + S vai se converter em ES para compensar
+a perda. Resultado: KM aparente CAI. Parece haver mais afinidade pelo substrato, porque o complexo ES
+está sendo formado mais facilmente. Mas não há ganho -- esse ES extra está sendo sequestrado pelo
+inibidor.
+
+   A consequência das duas alavancas (Vmax cai, KM cai na mesma proporção) é que a razão Vmax/KM
+permanece constante, e no Lineweaver-Burk as retas (com e sem inibidor) ficam paralelas -- sem cruzar
+em lugar algum. Paralelas no LB = acompetitivo é um marcador visual canônico.
+
+   O exemplo clínico mais conhecido é o lítio -- usado em transtorno bipolar. Ele inibe acompetitiva
+mente a inositol monofosfatase (IMPase), enzima da via dos fosfatidilinositóis. A inibição acompetitiva
+é particularmente eficaz em vias onde o substrato se acumula, porque o efeito do inibidor cresce com
+[S] -- o oposto do competitivo, que precisa de [S] baixo para dominar.
+
+   Antes de fechar a PARTE I, vale ter os quatro tipos lado a lado. Eles diferem apenas em onde o inibidor
+liga e em qual estado da enzima ele liga, e dessas duas escolhas decorre todo o resto.
+
+   10inibidor acompetitivo ­ molécula que se liga apenas ao complexo enzima-substrato (ES), nunca à enzima livre --
+derruba tanto Vmax quanto KM na mesma proporção
+
+                                                                                 7
+NEBLI                                                               ETAPA 1 -- TEXTO DIDÁTICO
+
+Tipo de inibição    KM aparente                         Vmax        Leitura no Lineweaver-
+                                                                    Burk
+
+Competitiva                    sobe                     inalterado  retas cruzam no eixo Y
+
+Não-competitiva     inalterado                          cai         retas cruzam no eixo X
+
+Acompetitiva                   cai         cai (mesma proporção) retas paralelas
+
+Irreversível        -- (sem cinética esta               cai         perda de enzima ativa,
+                                                                    não tem leitura clássica
+                               cionária)                            de LB
+
+Resumindo até aqui: Acompetitivo: liga só a ES, nunca a E livre. Vmax cai E KM cai (Le Chatelier). LB: retas
+paralelas. Exemplo clínico: lítio na IMPase (transtorno bipolar).
+
+                                          MAPA CONCEITUAL
+
+                                                        I
+
+                               Onde liga e em qual estado
+
+                                           
+
+1.1 ­ Irreversível                   1.2 ­ Competitiva                     1.3 ­ Não-comp.
+
+Covalente, inativa permanente        Sítio ativo, deslocável por S  
+                                                                            Outro sítio, sobre E ou ES
+
+     Identificar o tipo de inibição é identificar onde a droga liga e em qual estado da enzima. O
+                                                   resto é consequência cinética.
+
+PARTE II -- Ambiente e alosteria
+
+2.1 -- pH e temperatura: por que a enzima tem um pico
+
+Existe uma maneira de "inibir" uma enzima sem usar nenhuma molécula química nova -- basta mudar
+o ambiente. As duas alavancas ambientais clássicas são pH e temperatura, e as duas têm um pico de
+atividade que precisa ser entendido mecanisticamente, não decorado como número.
+
+   Comece pelo pH. Toda enzima tem um pH ótimo11 no qual sua atividade é máxima. Pepsina opera em
+pH 2 (suco gástrico). Tripsina opera em pH 8 (intestino delgado). Fosfatase alcalina opera em pH 10. A
+maioria das enzimas intracelulares opera em pH 6,8­7,4. O pH ótimo não é universal -- é a marca do
+ambiente fisiológico daquela enzima.
+
+   11pH ótimo ­ valor de pH em que a atividade catalítica é máxima -- reflete o ambiente fisiológico para o qual a enzima
+evoluiu
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare como cada enzima tem seu próprio pico -- a pepsina é ácida porque vive no estômago, a tripsina é alcalina
+porque vive no duodeno. O pH ótimo é a marca do habitat fisiológico.
+
+Por que o gráfico de atividade × pH tem forma de sino e não é monotônico? Porque o que está em jogo
+são os grupos ionizáveis dos resíduos catalíticos do sítio ativo. Se um resíduo crítico para a catálise é His
+(precisa estar protonado para doar próton), ele só funciona quando o pH está abaixo do seu pKa. Se outro
+resíduo crítico é Asp (precisa estar desprotonado para atuar como nucleófilo), ele só funciona quando o
+pH está acima do seu pKa. Os dois resíduos funcionam simultaneamente apenas em uma faixa estreita
+de pH -- o pico do sino.
+
+   Fora dessa faixa, a queda de atividade tem duas origens distintas, e é importante separar. Variação de
+pH dentro da faixa fisiológica (pH 5­9) afeta a ionização dos resíduos catalíticos -- efeito reversível.
+Se você voltar o pH ao ótimo, a atividade volta. Mas se o pH cair muito (pH 1) ou subir muito (pH 12),
+você desnatura a proteína -- quebra pontes salinas, ionização extrema, perda da estrutura terciária.
+Esse efeito é tipicamente irreversível.
+
+    Não confunda 'queda de atividade por pH' com 'desnaturação'
+    Na faixa de pH 5­9, a queda de atividade reflete protonação/desprotonação de resíduos catalíticos
+    -- reversível. Em pH extremo (<3 ou >11), a enzima desnatura -- irreversível. Os dois efeitos
+    aparecem juntos no mesmo gráfico de atividade × pH, mas têm mecanismos diferentes.
+
+Um detalhe que o slide 23 enfatiza e que costuma cair em P2: o pKa de um resíduo livre não é o pKa
+desse mesmo resíduo dentro da proteína. O microambiente do sítio ativo desloca os pKas. Uma lisina
+"livre" tem pKa 10, mas no sítio ativo, se houver cargas negativas vizinhas, esse pKa pode subir para
+11­12 (estabiliza a forma protonada positiva); se houver cargas positivas vizinhas, pode cair para 6­7
+(desestabiliza a forma protonada). É por isso que enzimas conseguem ter resíduos atuando em pHs que
+pareceriam "errados" -- o ambiente proteico ajusta as ionizações.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O pKa do mesmo resíduo varia conforme o microambiente proteico -- cargas positivas vizinhas empurram o pKa
+para baixo, cargas negativas vizinhas o empurram para cima. É essa modulação que permite à enzima ter catálise
+eficiente em pH fisiológico.
+
+Sobre temperatura, o gesto é parecido em forma -- também há um pico -- mas o mecanismo é diferente.
+Subindo a temperatura, a velocidade da reação cresce (a regra dos 10 °C: a velocidade aproximadamente
+dobra a cada 10 °C de aumento, válida para a maioria das reações biológicas até 40 °C). Acima de
+uma temperatura crítica ( 45 °C para enzimas humanas), a estrutura terciária da proteína se desfaz --
+desnaturação térmica -- e a atividade desaba. Por isso febre alta sustentada (>41 °C) começa a compro
+meter a função de várias enzimas hepáticas e neuronais.
+
+   Resumindo até aqui: pH: pico em forma de sino, reflete ionização de resíduos catalíticos. Cada enzima
+   tem seu pH ótimo conforme o habitat fisiológico. Temperatura: pico até a desnaturação ( 45 °C em
+   humanos). Microambiente proteico desloca pKas de resíduos do sítio ativo.
+
+2.2 -- Alosteria: sigmoide e o vai-e-vem TR
+
+A alosteria foi apresentada em Hemoglobina como ferramenta de transporte de O2. Aqui ela vira
+ferramenta enzimática -- e o gesto é o mesmo. Enzima alostérica12 é uma enzima oligomérica (várias
+subunidades) cuja atividade pode ser modulada pela ligação de pequenas moléculas em sítios distintos
+do sítio ativo. Essas moléculas se chamam efetores alostéricos. Se ativam a enzima, são ativadores; se
+inibem, inibidores alostéricos.
+
+   A consequência cinética é a marca registrada: a curva v0 × [S] não é hiperbólica como na enzima
+Michaeliana -- é sigmoide13. Por quê? Porque a enzima oligomérica é cooperativa -- a ligação do sub
+strato em uma subunidade modifica a conformação das demais, aumentando a afinidade pelo substrato
+nas próximas subunidades. É o mesmo princípio TR da hemoglobina, agora numa enzima catalítica.
+
+   12Enzima alostérica ­ enzima geralmente oligomérica cuja atividade é modulada pela ligação de efetores em sítios
+distintos do sítio ativo, exibindo curva v × [S] sigmoide em vez de hiperbólica
+
+   13sigmoide ­ curva em forma de S, característica de enzimas com cooperatividade entre subunidades -- substrato
+atuando em uma subunidade facilita a ligação em outras
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Compare as duas curvas: a hiperbólica de Michaelis-Menten (enzima monomérica simples) e a sigmoide alostérica.
+A inflexão da sigmoide significa que pequenas variações em [S] geram grandes variações em v -- exatamente o que
+se precisa para regulação fina.
+A vantagem fisiológica da sigmoide é grande. Numa curva hiperbólica, dobrar [S] de 0,5·KM para 1·KM
+muda v de 33% para 50% de Vmax -- variação modesta. Na sigmoide, a mesma duplicação na faixa de
+inflexão muda v de 10% para 80% de Vmax -- uma enzima alostérica responde a pequenas variações
+de substrato com grandes variações de velocidade. É o desenho perfeito para um ponto de controle
+metabólico.
+
+   Os efetores alostéricos vêm em duas formas. Efetor homotrópico: é o próprio substrato atuando
+em outras subunidades. Efetor heterotrópico: é uma molécula química diferente do substrato. O ATP
+inibindo alostericamente a fosfofrutoquinase-1 (PFK-1) na glicólise é um exemplo clássico -- célula
+bem carregada de ATP "avisa" a PFK-1 que não precisa quebrar mais glicose. O AMP, ao contrário,
+ativa alostericamente a PFK-1 -- célula com pouca energia "avisa" que precisa de glicólise rápida. Os
+dois efetores, ATP e AMP, ligam em sítios distintos do sítio ativo, e ambos são heterotrópicos (não são
+frutose-6-fosfato, o substrato).
+
+Note como os efetores alostéricos ligam em sítios distintos do sítio catalítico -- ativadores deslocam o equilíbrio para
+a forma de alta afinidade (R), inibidores para a forma de baixa afinidade (T).
+
+                                                                                11
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+Mecanisticamente, dois modelos competem para explicar a cooperatividade. O modelo concertado14
+(MWC, 1965) propõe que todas as subunidades mudam juntas -- a enzima inteira está em T ou está em
+R, sem estados híbridos. A ligação do efetor desloca o equilíbrio entre as duas conformações. O modelo
+sequencial15 (KNF, 1966) propõe que cada subunidade muda independentemente quando o efetor chega
+-- estados híbridos existem. Na prática, enzimas reais se comportam entre os dois extremos; os dois
+modelos são úteis didaticamente, e ambos explicam por que a cooperatividade gera curva sigmoide.
+
+Efetor alostérico não precisa parecer o substrato
+
+Aluno tende a achar que um modulador alostérico precisa ter estrutura química parecida com o
+substrato. Não precisa. ATP inibindo PFK-1 não tem nada a ver com frutose-6-fosfato -- liga em
+sítio diferente, em conformação diferente, e modula via mudança conformacional propagada. A
+"comunicação" entre os sítios é por geometria, não por química.
+
+Resumindo até aqui: Enzima alostérica = oligomérica + sítios reguladores distintos. Curva sigmoide,
+TR, cooperatividade. Efetores homotrópicos (substrato em outro sítio) ou heterotrópicos (ATP, AMP,
+etc.). Modelos MWC (concertado) e KNF (sequencial). Vantagem fisiológica: resposta amplificada a
+pequenas variações de [S].
+
+                                                                   MAPA CONCEITUAL
+
+                                                                 II
+
+                          Mecanismos sem droga nova
+
+2.1 ­ pH e T                                               ?­
+Ionização e desnaturação
+                                 2.2 ­ Alosteria
+
+                          
+                                  Sigmoide, TR, efetores
+
+     Ambiente e cooperatividade ajustam a enzima sem precisar mexer na sequência. Agora
+                                                vamos às estratégias que mexem.
+
+PARTE III -- Estratégias regulatórias
+
+3.1 -- Modificação covalente reversível: o liga-desliga do fósforo
+
+Alosteria é rápida e reversível, mas tem limite -- depende do efetor estar disponível em concentração
+
+   14modelo concertado ­ modelo MWC (Monod-Wyman-Changeux) -- todas as subunidades mudam juntas entre T e
+R, não há estados híbridos
+
+   15modelo sequencial ­ modelo KNF (Koshland-Némethy-Filmer) -- cada subunidade muda independentemente
+quando o ligante chega, gerando estados híbridos com algumas subunidades em T e outras em R
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+apropriada. Para um liga-desliga mais robusto, a célula usa modificação covalente reversível16. A versão
+dominante é a fosforilação: uma quinase17 tira o fosfato terminal do ATP e prende covalentemente em
+um resíduo Ser, Thr ou Tyr da proteína-alvo. Para tirar o fosfato, é preciso uma fosfatase18 que hidrolisa
+a ligação fosfomonoéster e libera Pi.
+
+O liga-desliga clássico: quinase fosforila com gasto de ATP, fosfatase remove o fosfato hidrolisando a ligação. O par
+quinase/fosfatase opera continuamente -- o estado de fosforilação reflete o equilíbrio entre os dois.
+
+A modificação é covalente (estável até a fosfatase agir), mas reversível (não exige síntese de enzima
+nova). É um meio-termo entre alosteria (dura ms) e síntese (dura horas a dias): a fosforilação dura
+segundos a minutos, exatamente a escala temporal de muitas respostas hormonais.
+
+   A pergunta importante é: fosforilar liga ou desliga a enzima? Depende da enzima. A glicogênio
+fosforilase é ativada por fosforilação -- quando o organismo precisa quebrar glicogênio (adrenalina,
+glucagon), a cascata fosforila a fosforilase, que entra em ação. Já a glicogênio sintase é inibida pela
+mesma fosforilação -- quando se quebra glicogênio, faz sentido não estar sintetizando ao mesmo
+tempo. O fosfato é o sinal; o que ele significa funcionalmente é cabeado em cada enzima específica.
+
+   16modificação covalente reversível ­ adição (ou remoção) covalente de um grupo químico -- tipicamente fosfato --
+a um resíduo específico da enzima, modulando sua atividade até a remoção da modificação
+
+   17quinase ­ enzima que transfere o grupo fosfato terminal do ATP para um resíduo Ser, Thr ou Tyr de outra proteína,
+gastando ATP no processo
+
+   18fosfatase ­ enzima que hidrolisa fosfomonoéster, removendo o grupo fosfato de uma proteína -- libera Pi livre, reverte
+a fosforilação
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A glicogênio fosforilase tem duas formas -- fosforilada (ativa, fosforilase a) e não-fosforilada (inativa, fosforilase
+b). A transição é catalisada pela fosforilase quinase em resposta à adrenalina/glucagon -- quando a célula recebe o
+sinal de "quebrar glicogênio".
+
+A força da modificação covalente reversível está na cascata de amplificação19. Adrenalina chega ao
+hepatócito  ativa receptor  ativa adenilil ciclase  produz cAMP  ativa PKA  fosforila fosforilase
+quinase  fosforila glicogênio fosforilase. Cada nível multiplica o sinal por um fator. Uma molécula de
+adrenalina pode ativar 106 moléculas de glicogênio fosforilase -- a quebra de glicogênio responde em
+segundos a estímulos hormonais minúsculos.
+
+    Não confunda fosforilação reversível com modificação covalente irreversível
+
+    AAS acetila a COX irreversivelmente -- só síntese de enzima nova reverte. Fosforilação é covalente
+    também, mas reversível por fosfatase. Os dois tipos compartilham o adjetivo "covalente", mas têm
+    cinéticas totalmente distintas: AAS dura dias (até a plaqueta morrer), a fosforilação dura segundos
+    a minutos.
+
+Outras modificações covalentes reversíveis existem (acetilação, metilação, ubiquitinação, ADP-ribosi
+lação), mas no escopo da P2 de 1º ano a fosforilação é a única que vale decorar com mecanismo. As outras
+aparecem em epigenética e regulação gênica, mais para frente.
+
+   Resumindo até aqui: Quinase + ATP  fosforilação (Ser/Thr/Tyr). Fosfatase  desfosforilação. Rever
+   sível mas covalente. Direção do efeito (ativa/inibe) depende da enzima. Cascata amplifica o sinal: 1
+   hormônio  106 enzimas finais.
+
+3.2 -- Isozimas: a mesma reação, contextos diferentes
+
+Outra estratégia regulatória opera não na atividade individual da enzima, mas na escolha de qual
+versão da enzima cada tecido expressa. Isozimas20 são proteínas com sequências de aminoácidos
+diferentes mas que catalisam a mesma reação química. Por terem sequências distintas, podem ter KM,
+
+   19cascata de amplificação ­ sequência de enzimas em que cada nível ativa o próximo, multiplicando o sinal -- uma
+molécula de hormônio acaba ativando muitas moléculas da enzima terminal
+
+   20Isozimas ­ enzimas com sequências de aminoácidos distintas que catalisam a mesma reação química, geralmente
+com parâmetros cinéticos (KM, Vmax) ou regulatórios diferentes -- permitem que tecidos distintos respondam de formas
+distintas ao mesmo substrato
+
+                                                                                14
+NEBLI                                                ETAPA 1 -- TEXTO DIDÁTICO
+
+Vmax, regulação alostérica e localização tecidual diferentes -- e é exatamente essa variação que confere
+especialização tecidual à mesma via metabólica.
+
+Hexoquinase e glicoquinase catalisam a mesma reação (glicose + ATP  G6P + ADP) -- mas seus KMs drasticamente
+diferentes geram comportamentos opostos: HK satura em qualquer glicemia, GK só "acorda" pós-prandial.
+
+O exemplo canônico é o par hexoquinase / glicoquinase. As duas catalisam a mesma reação -- fosforilam
+glicose em glicose-6-fosfato, gastando ATP. A diferença está nos parâmetros cinéticos. A hexoquinase
+(presente na maioria dos tecidos: músculo, cérebro, hemácia) tem KM  0,05 mM para glicose e é forte
+mente inibida pelo seu próprio produto (G6P). Como a glicemia normal é 5 mM (100× maior que o KM),
+a HK opera saturada o tempo todo -- ela é a "captadora basal" que mantém os tecidos não-hepáticos
+abastecidos de glicose mesmo em jejum prolongado.
+
+   A glicoquinase (presente no hepatócito e na célula  do pâncreas) tem KM  8­10 mM e não é inibida
+por G6P. Como a glicemia normal está abaixo do seu KM, em jejum ela trabalha bem abaixo de Vmax --
+quase em repouso. Mas quando a glicemia sobe após uma refeição (até 10­12 mM no portal hepático),
+a GK responde fortemente. É um sensor de glicemia -- só "acorda" quando há glicose abundante. É a
+enzima certa para o fígado (que armazena glicose como glicogênio quando há excesso) e para a célula 
+(que precisa secretar insulina proporcional à glicemia).
+
+Isozima       KM (glicose) Onde está                 Comportamento fisiológico
+
+Hexoquinase 0,05 mM músculo, cérebro, hemácia        opera saturada -- captação basal
+                                                     contínua, inibida por G6P (autor
+                                                     regulação)
+
+Glicoquinase  8 mM  hepatócito, célula  pancreática  sensor pós-prandial -- só
+                                                     "acorda" quando glicemia sobe,
+                                                     não é inibida por G6P
+
+Outras isozimas importantes na clínica: a LDH21 tem 5 isozimas (LDH1 a LDH5), formadas por combi
+nações tetrâmeras das subunidades H (heart) e M (muscle). LDH1 (H4) predomina em miocárdio; LDH5
+(M4) predomina em fígado e músculo esquelético. Em infarto, o padrão de elevação no soro mudava
+
+   21LDH ­ lactato desidrogenase -- enzima com 5 isozimas (LDH1 a LDH5), combinações de subunidades H e M; padrão
+tecidual diagnóstico
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+conforme o órgão atingido -- diagnóstico clássico antes da era das troponinas. A CK22 tem 3 isozimas
+(MM, MB, BB), e a fração MB no soro foi marcador-padrão de infarto agudo do miocárdio durante
+décadas.
+
+Resumindo até aqui: Isozimas = mesma reação, sequências e parâmetros cinéticos diferentes. Permite
+especialização tecidual. HK (KM 0,05 mM, satura sempre) × GK (KM 8 mM, sensor pós-prandial). LDH e
+CK: marcadores teciduais clássicos.
+
+3.3 -- Zimogênios: nasce inativo, ativa quando precisar
+
+A última estratégia regulatória resolve um problema específico: como fazer uma enzima destrutiva
+(digestiva, coagulação, apoptótica) sem que ela destrua a própria célula que a sintetiza? A resposta é
+zimogênio23 (ou proenzima): a célula sintetiza a enzima em forma inativa, com aminoácidos extras que
+ocultam ou desorganizam o sítio ativo. A enzima só vira funcional depois de uma clivagem proteolítica
+que remove a porção bloqueadora.
+
+ O zimogênio é a estratégia da célula para sintetizar uma enzima destrutiva sem se autodigerir -- a clivagem
+ ativadora só acontece no compartimento certo (lúmen intestinal, sangue circulante), por uma protease específica.
+
+A clivagem ativadora é irreversível -- diferente da fosforilação. Uma vez clivado o zimogênio, a enzima
+fica ativa até ser degradada. Não há "desativação" voltando a zimogênio. Por isso, o controle precisa
+estar na liberação espacialmente regulada da clivagem -- quem corta o zimogênio só está disponível no
+compartimento certo, e em geral há inibidores específicos circulando para conter ativação prematura.
+
+   O exemplo canônico está no trato digestivo. O pâncreas exócrino sintetiza tripsinogênio (zimogênio
+da tripsina), quimotripsinogênio (da quimotripsina), proelastase, procarboxipeptidases -- todas formas
+inativas, armazenadas em grânulos e secretadas no duodeno. No duodeno, a enteroquinase24 (presente
+na mucosa) corta o tripsinogênio em tripsina ativa. A tripsina ativada inicia uma cascata: ativa mais
+tripsinogênio (autoamplificação) e cliva todos os demais zimogênios pancreáticos. A digestão proteica
+é deflagrada por um ponto de controle único -- a enteroquinase intestinal.
+
+   22CK ­ creatina quinase -- enzima com 3 isozimas (MM, MB, BB); CK-MB é marcador clássico de lesão miocárdica
+   23zimogênio ­ forma inativa de uma enzima, sintetizada como precursor com porção extra de aminoácidos que oculta
+ou desorganiza o sítio ativo -- só vira enzima funcional após clivagem proteolítica específica
+   24enteroquinase ­ enzima da mucosa duodenal que cliva tripsinogênio em tripsina, iniciando a cascata de ativação
+dos demais zimogênios pancreáticos
+
+                                                                                16
+NEBLI                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+    Pancreatite aguda é zimogênio ativado fora de hora
+
+    Se o tripsinogênio se ativar dentro do próprio pâncreas (por refluxo biliar, álcool, mutação no gene
+    SPINK1, etc.), a tripsina ativa todos os demais zimogênios pancreáticos in situ -- autodigestão
+    pancreática, dor abdominal severa, elevação de lipase e amilase. O SPINK1 é o inibidor natural de
+    tripsina pancreática justamente para conter essa ativação errada; mutações em SPINK1 são causa
+    genética de pancreatite recorrente.
+
+Outros exemplos importantes: as caspases25 da apoptose são sintetizadas como pró-caspases e ativadas
+em cascata quando a célula recebe sinal para morrer -- sistema "à prova de gatilho acidental". Os
+fatores da coagulação sanguínea (factor X  Xa, factor II  IIa/trombina, etc.) são todos zimogênios,
+ativados em cascata localmente quando há lesão vascular -- coagulação acontece no local certo, não
+sistemicamente.
+
+   Resumindo até aqui: Zimogênio = enzima sintetizada inativa, ativada por clivagem proteolítica
+   irreversível. Estratégia: separa síntese de ativação no espaço -- protege a própria célula. Exemplos:
+   tripsinogênio  tripsina (enteroquinase), pró-caspases (apoptose), factores da coagulação. Pancreatite
+   = ativação em local errado.
+
+                         MAPA CONCEITUAL
+
+                                      III
+
+                         Liga, desliga, especializa
+
+                         
+
+3.1 ­ Fosforilação              3.2 ­ Isozimas                      3.3 ­ Zimogênio
+
+Liga-desliga reversível                                       Síntese inativa, ativa por
+covalente                        Mesma reação, KM diferente
+                                                                     clivagem
+
+Três estratégias com escalas temporais e mecânicas distintas. Juntas, cobrem toda a gama
+                          de regulação enzimática que o 1º ano precisa dominar.
+
+   25caspases ­ família de proteases sintetizadas como pró-caspases (zimogênios); ativadas por clivagem em cascata
+durante a apoptose, executam a desmontagem ordenada da célula
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Conclusão integradora
+
+Enzimas II foi sobre como mexer numa máquina catalítica já entendida em Enzimas I --
+desligando-a (inibição), ajustando-a ao ambiente (pH, alosteria) e ligando-a e desligando-a sob
+demanda (fosforilação, isozimas, zimogênios). O fio mecanístico que percorre todas as PARTES
+é o mesmo: identifique onde o agente liga (sítio ativo ou outro) e em qual estado da enzima (E
+livre, ES, ambos) -- e o resto, KM e Vmax, decorre. Um aluno que sai daqui com esse gesto consegue
+ler qualquer farmacologia nova só pela cinética: AAS é covalente (irreversível), captopril compete
+pelo sítio (KM sobe, Vmax fica), lítio só pega ES (Vmax e KM caem juntos), adrenalina amplifica via
+cascata de fosforilação, tripsina nasce zimogênio para não autodigerir. Mecanismo primeiro,
+nome depois -- e cada nome ganha sentido como consequência do mecanismo, não como
+rótulo a memorizar.
+
+       18
+NEBLI                                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Pergunta-chave                                               Alosteria
+
+Toda manipulação enzimática mexe em duas ala Enzima oligomérica + sítios reguladores distin
+
+vancas -- KM e Vmax -- e cada mecanismo tem sua tos  cooperatividade entre subunidades  curva
+
+assinatura cinética. Identifique onde o agente liga e sigmoide. Efetor homotrópico (substrato) ou het
+
+em qual estado da enzima; o resto decorre.                   erotrópico (ATP, AMP). Modelos MWC (concertado) e
+
+Inibição irreversível                                        KNF (sequencial). Resposta amplificada a pequenas
+
+   Ligação covalente, inativa permanentemente variações de [S] -- desenho perfeito para ponto de
+aquela molécula de enzima. Recuperação clínica de controle metabólico.
+pende de síntese de enzima nova. Exemplos: AAS Fosforilação reversível
+
+acetila Ser530 da COX (efeito persistente na plaqueta), Quinase tira o -fosfato do ATP e prende em Ser/
+
+penicilina, AZT, DFP.                                        Thr/Tyr; fosfatase reverte. Covalente mas reversível,
+
+Competitiva                                                  escala de segundos a minutos. Direção do efeito
+
+   Análogo estrutural do substrato, disputa o sítio          (ativa/inibe) é cabeada em cada enzima. Cascata am
+ativo, deslocável por [S] alto. Vmax inalterado, KM          plifica: 1 hormônio  106 enzimas finais.
+aparente sobe. Lineweaver-Burk: retas cruzam no              Isozimas
+
+eixo Y. Captopril (ECA), metotrexato (DHFR), ibupro Sequências distintas catalisando a mesma reação,
+
+feno (COX).                                                  com KM e regulação diferentes -- permitem especial
+
+Não-competitiva                                              ização tecidual. HK (KM 0,05 mM, satura sempre) ×
+
+   Liga sítio alostérico distinto, age tanto em E livre      glicoquinase (KM 8 mM, sensor pós-prandial). LDH
+quanto em ES, não deslocável por [S] alto. Vmax cai, KM      e CK: marcadores teciduais clássicos.
+inalterado. LB: retas cruzam no eixo X. Inibidores de        Zimogênios
+
+protease do HIV (saquinavir, ritonavir).                     Enzima sintetizada inativa, ativada por clivagem
+
+Acompetitiva                                                 proteolítica irreversível. Estratégia: separa síntese
+
+   Só liga em ES -- sem substrato, não há sítio. Se          de ativação no espaço -- protege a própria célula.
+questra ES e Le Chatelier puxa equilíbrio. Vmax e KM         Tripsinogênio  tripsina (enteroquinase no duo
+caem juntos, na mesma proporção. LB: retas parale            deno); ativação intra-pancreática causa pancreatite
+las. Lítio na IMPase (transtorno bipolar).                   aguda.
+pH e temperatura                                             Quatro tipos de inibição em uma linha
+
+   Pico em forma de sino: na faixa fisiológica reflete          Competitivo sobe KM (Vmax fica). Não-competitivo
+ionização de resíduos catalíticos (reversível); em pH        derruba Vmax (KM fica). Acompetitivo derruba os dois
+extremo desnatura (irreversível). Cada enzima tem            juntos. Irreversível mata a molécula. Onde liga e em
+pH ótimo do seu habitat (pepsina 2, tripsina 8).             qual estado -- o resto é consequência.
+Microambiente proteico desloca pKas dos resíduos.            Por que isso importa clinicamente
+
+                                                             Farmacologia inteira pode ser lida pela cinética.
+
+                                                             AAS dura mais que sua meia-vida (irreversível);
+
+                                                             ibuprofeno dura o que dura no sangue (reversível).
+
+                                                             Lítio funciona melhor onde substrato se acumula
+
+                                                             (acompetitivo). Captopril pode ser superado por au
+
+                                                             mento de angiotensina I (competitivo, mas a fonte é
+
+                                                             o paciente). Mecanismo primeiro, nome depois.
+
+                                                         19
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre os inibidores enzimáticos irreversíveis, é correto afirmar:
+   A) Ligam-se à enzima por interações fracas e podem ser deslocados por excesso de substrato, restau
+   rando a atividade catalítica original.
+   B) Atuam exclusivamente em sítios alostéricos distintos do sítio ativo, distorcendo a geometria da
+   fenda catalítica sem ligação covalente.
+   C) Reduzem KM aparente sem alterar Vmax, assinatura cinética compartilhada com os inibidores não-
+   competitivos clássicos.
+   D) Estabelecem ligação covalente com resíduos do sítio ativo, e a recuperação da atividade enzimática
+   depende da síntese de moléculas novas de enzima.
+   E) Têm efeito farmacológico restrito à meia-vida plasmática do fármaco, pois a inibição cessa assim
+   que a droga é depurada do organismo.
+
+Questão 02 Consolidação
+
+O captopril, fármaco anti-hipertensivo, é descrito como inibidor competitivo reversível da enzima
+conversora de angiotensina (ECA). A assinatura cinética esperada desse mecanismo de inibição é:
+
+   A) Redução de Vmax com KM inalterado, gerando retas que se cruzam no eixo X no gráfico de
+   Lineweaver-Burk.
+   B) Vmax inalterado e KM aparente aumentado, configurando inibição deslocável por aumento da con
+   centração do substrato.
+   C) Queda proporcional de Vmax e KM, com retas paralelas no Lineweaver-Burk típicas da inibição
+   acompetitiva.
+   D) Aumento simultâneo de Vmax e KM, com inversão da hipérbole característica da cinética michaeliana.
+   E) Ligação covalente irreversível ao sítio catalítico, com inativação permanente que persiste após a
+   depuração do fármaco.
+
+                            20
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+No gráfico de Lineweaver-Burk, a linearização da equação de Michaelis-Menten permite ler diretamente
+os parâmetros cinéticos da reação enzimática. Julgue os itens a seguir sobre essa linearização.
+Cada item deve ser julgado de forma independente.
+
+   I. Inibição competitiva mantém o intercepto Y (1/Vmax) constante, e as retas com e sem inibidor
+   cruzam-se exatamente no eixo Y do gráfico linearizado.
+
+   II. Inibição não-competitiva preserva o intercepto X (-1/KM), de modo que as retas com e sem inibidor
+   cruzam-se sobre o eixo Y do gráfico de Lineweaver-Burk.
+
+   III. Inibição acompetitiva produz retas paralelas no Lineweaver-Burk, padrão que reflete a queda
+   proporcional de Vmax e KM gerada pelo sequestro do complexo ES pelo inibidor.
+
+   IV. O intercepto X de cada reta no Lineweaver-Burk corresponde numericamente a +1/KM, com o sinal
+   positivo indicando o sentido fisiológico do consumo de substrato pela enzima.
+
+Questão 04 Consolidação
+
+Sobre a inibição enzimática não-competitiva reversível, considere o seu efeito sobre os parâmetros
+cinéticos da equação de Michaelis-Menten. A alternativa correta é:
+
+   A) Vmax diminui porque uma fração das enzimas é inativada à distância pelo inibidor, enquanto KM
+   permanece inalterado nas enzimas que escapam do inibidor.
+   B) Vmax não muda porque o substrato em excesso desloca o inibidor de seu sítio de ligação alostérico,
+   restaurando integralmente a atividade catalítica.
+   C) KM aparente aumenta, padrão idêntico ao da inibição competitiva reversível clássica em todas as
+   suas manifestações cinéticas.
+   D) Vmax aumenta e KM diminui, configurando aceleração paradoxal da catálise pela ligação alostérica
+   do inibidor à enzima.
+   E) A inibição é deslocável por aumento da concentração do substrato, mesmo que o inibidor ligue em
+   sítio distinto do sítio ativo.
+
+                         21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+A inibição acompetitiva difere dos demais tipos de inibição reversível por uma característica mecanís
+tica essencial. Essa característica é:
+
+   A) O inibidor compete diretamente pelo sítio ativo da enzima, tipicamente por ser análogo estrutural
+   do substrato natural da reação.
+
+   B) O inibidor liga-se covalentemente à enzima, gerando inativação irreversível que persiste após sua
+   remoção do meio reacional.
+
+   C) O inibidor liga-se exclusivamente ao complexo enzima-substrato (ES), não tendo afinidade pela
+   enzima livre -- exige que o substrato já esteja ligado.
+
+   D) O inibidor reduz Vmax sem afetar KM aparente, padrão idêntico ao da inibição não-competitiva
+   clássica reversível.
+
+   E) O inibidor opera apenas em pH extremo, desnaturando a estrutura terciária da enzima e abolindo
+   a atividade catalítica permanentemente.
+
+Questão 06 Consolidação
+
+Sobre o efeito do pH sobre a atividade enzimática, julgue os itens.
+Cada item deve ser julgado de forma independente.
+
+   I. Toda enzima humana apresenta atividade catalítica máxima em pH 7,40, faixa que coincide com o
+   pH plasmático fisiológico e que é universal entre proteínas catalíticas.
+   II. A queda de atividade observada em pH 1 ou pH 12 deve-se primariamente a desnaturação proteica
+   (perda de estrutura terciária), efeito tipicamente irreversível.
+   III. Na faixa de pH 5­9, variações de atividade refletem mudanças no estado de protonação de resíduos
+   catalíticos do sítio ativo (His, Asp, Cys, Lys), efeito reversível.
+   IV. O pKa de um resíduo de aminoácido dentro da proteína pode diferir do pKa do mesmo aminoácido
+   livre em solução, em função do microambiente eletrostático do sítio ativo.
+
+                         22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 07 Consolidação
+
+As enzimas alostéricas apresentam, no gráfico v0 × [S], uma curva característica diferente da hipérbole
+michaeliana. Sobre essa curva e seu significado, a alternativa correta é:
+
+   A) É uma reta crescente, refletindo proporcionalidade direta entre velocidade e concentração de
+   substrato em todas as faixas de [S] estudadas.
+
+   B) É sigmoide (forma de S), e a inflexão central permite resposta amplificada da velocidade a pequenas
+   variações de [S] -- desenho ideal para ponto de controle metabólico.
+
+   C) É hiperbólica, idêntica à de uma enzima monomérica simples, e a alosteria altera apenas Vmax sem
+   afetar a forma da curva cinética observada.
+
+   D) É uma exponencial decrescente, refletindo inativação progressiva da enzima conforme o substrato
+   se acumula no meio reacional intracelular.
+
+   E) É descontínua, com platôs alternados, refletindo as transições discretas entre os múltiplos estados
+   conformacionais oligoméricos da enzima.
+
+Questão 08 Consolidação
+
+Sobre o conceito de isozimas, é correto afirmar:
+
+   A) São formas idênticas da mesma proteína, com sequência de aminoácidos preservada entre tecidos,
+   diferindo apenas em modificações pós-traducionais reversíveis.
+   B) Têm necessariamente o mesmo KM e a mesma Vmax, com regulação alostérica conservada entre
+   todas as variantes teciduais expressas no organismo.
+   C) São zimogênios ativados em tecidos diferentes pela mesma protease, com o tecido de origem
+   determinando a cinética da forma ativa final.
+   D) Catalisam reações químicas diferentes em tecidos distintos, ainda que partilhem a mesma sequên
+   cia primária de aminoácidos no produto traducional.
+   E) Catalisam a mesma reação química, mas têm sequências de aminoácidos diferentes e podem
+   apresentar KM, Vmax e regulação alostérica distintos entre os tecidos.
+
+                         23
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 09 Integração
+
+Um pesquisador testa duas drogas, X e Y, contra a mesma enzima. Em ambas, Vmax é reduzido em relação
+ao controle sem inibidor. Quando ele adiciona excesso de substrato à reação com a droga X, Vmax retorna
+ao valor original; com a droga Y, Vmax permanece reduzido mesmo com [S] alto. Qual classificação
+cinética é compatível com essas observações?
+
+   A) X é não-competitivo e Y é competitivo, porque o substrato em excesso desloca apenas os inibidores
+   que ligam fora do sítio ativo da enzima.
+
+   B) X é competitivo (deslocável por [S]) e Y é não-competitivo ou acompetitivo (não deslocável), porque
+   a chave do deslocamento é a disputa pelo sítio ativo.
+
+   C) Ambos são acompetitivos, mas com afinidades diferentes pelo complexo ES -- daí o comporta
+   mento diferente sob excesso de substrato adicionado à reação.
+
+   D) X é irreversível e Y é reversível, porque inibidores irreversíveis não permitem recuperação alguma
+   da atividade enzimática sob excesso de substrato adicionado.
+
+   E) X é alostérico ativador e Y é alostérico inibidor, porque apenas ativadores podem ser deslocados
+   por aumento da concentração do substrato natural da enzima.
+
+Questão 10 Integração
+
+O metotrexato (MTX) é análogo estrutural do ácido fólico e inibe a diidrofolato redutase (DHFR). Em um
+experimento in vitro, observa-se que a adição de MTX à reação eleva o KM aparente da enzima para o
+folato, sem alterar Vmax. A leitura mecanística correta desses achados é:
+
+   A) O MTX é inibidor não-competitivo da DHFR e liga-se a um sítio alostérico, derrubando Vmax de
+   forma proporcional ao aumento observado da concentração do inibidor.
+
+   B) O MTX é inibidor acompetitivo e só liga ao complexo ES (DHFR-folato), reduzindo KM e Vmax em
+   proporção idêntica observada experimentalmente.
+
+   C) O MTX é inibidor competitivo: disputa o sítio ativo com o folato, é deslocável por excesso de folato
+   (KM sobe, Vmax não muda) e gera retas que cruzam no eixo Y no Lineweaver-Burk.
+
+   D) O MTX é inibidor irreversível, e a elevação do KM aparente reflete a perda gradual de enzimas ativas
+   ao longo do tempo de incubação com o inibidor presente.
+
+   E) O MTX é ativador alostérico positivo da DHFR, e o aumento do KM aparente reflete cooperatividade
+   positiva entre subunidades catalíticas da enzima.
+
+                       24
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 11 Integração
+
+O lítio, usado no tratamento do transtorno bipolar, atua como inibidor acompetitivo da inositol mono
+fosfatase (IMPase). Considerando o mecanismo dessa inibição, a explicação mecanística mais correta
+para o padrão clínico de eficácia preferencial em neurônios com sinalização inositolérgica hiperativada
+é:
+
+   A) Como inibidor acompetitivo, o lítio liga-se preferencialmente à enzima livre, e neurônios com
+   sinalização aumentada têm maior pool de enzima desocupada -- mais alvo disponível para o fármaco
+   atuar.
+
+   B) Como acompetitivo, o lítio é deslocável por excesso de inositol monofosfato (IMP), e neurônios
+   hiperativados têm IMP baixo, o que mantém o lítio ligado e o efeito clínico preservado durante o
+   tratamento.
+
+   C) Como acompetitivo, o lítio reduz Vmax sem afetar KM, e essa assinatura permite inibição farma
+   cológica eficaz em qualquer concentração de substrato fisiológica encontrada nos neurônios afetados.
+
+   D) Como acompetitivo, o lítio só liga ao complexo ES (IMPase-IMP); neurônios hiperativos têm IMP
+   acumulado, mais ES formado, mais alvo para o fármaco -- efeito do inibidor cresce com substrato,
+   oposto ao competitivo.
+
+   E) Como acompetitivo, o lítio compete com IMP pelo sítio ativo, e neurônios com mais substrato
+   ofertam mais oportunidades de competição efetiva pelo sítio catalítico da fosfatase neuronal.
+
+Questão 12 Integração
+
+O ácido acetilsalicílico (AAS) em dose baixa (75­100 mg/dia) é cardioprotetor porque inibe a ciclo-
+oxigenase (COX) plaquetária e bloqueia a síntese de tromboxano A2. O efeito antiagregante persiste por
+7­10 dias após uma única dose, muito além da meia-vida plasmática do AAS ( 3 horas). Qual mecanismo
+cinético explica essa persistência?
+
+   A) O AAS acetila irreversivelmente um resíduo de serina da COX plaquetária, e como plaquetas são
+   anucleadas (não sintetizam COX nova), a inibição persiste até a renovação completa da população
+   plaquetária pela medula óssea.
+
+   B) O AAS é inibidor competitivo reversível da COX, mas tem afinidade tão alta pelo sítio ativo
+   que demora dias para dissociar, gerando efeito antiagregante prolongado superior à sua meia-vida
+   plasmática.
+
+   C) O AAS liga-se a um sítio alostérico da COX e induz mudança conformacional persistente, mecan
+   ismo que difere do efeito reversível do ibuprofeno sobre o mesmo alvo molecular.
+
+   D) O AAS reduz a expressão gênica da COX por modulação epigenética, e o tempo necessário para
+   retomada da transcrição explica a persistência do efeito clínico após dose única padrão.
+
+   E) O AAS inibe a fosforilação da COX por uma quinase específica, e a recuperação só ocorre após nova
+   fosforilação ativadora catalisada por essa quinase plaquetária reguladora.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 13 Integração
+
+Compare o efeito do AAS (irreversível) e do ibuprofeno (competitivo reversível) sobre a ciclo-oxigenase.
+Julgue os itens.
+Cada item deve ser julgado de forma independente.
+
+I. O efeito antiagregante do AAS persiste após a depuração do fármaco do plasma, pois a inibição é
+irreversível e plaquetas anucleadas não sintetizam COX nova; o ibuprofeno tem efeito limitado à sua
+presença no plasma.
+
+II. O ibuprofeno é deslocável por excesso de substrato (ácido araquidônico), enquanto o AAS, por ligar
+covalentemente à enzima, não é deslocável mesmo com [substrato] elevada na reação enzimática.
+
+III. A coadministração crônica de ibuprofeno com AAS em pacientes cardiopatas pode antagonizar
+a cardioproteção do AAS, pois o ibuprofeno ocupa reversivelmente o sítio ativo da COX plaquetária e
+impede a acetilação irreversível pelo AAS.
+
+IV. Tanto AAS quanto ibuprofeno inibem a COX como inibidores acompetitivos, ligando-se exclusi
+vamente ao complexo enzima-substrato e exibindo o padrão de retas paralelas no Lineweaver-Burk.
+
+Questão 14 Integração
+
+Em um experimento com a glicogênio fosforilase muscular, observa-se que a adição de glucagon
+(que ativa a cascata AMPc-PKA) ao meio aumenta drasticamente a atividade da fosforilase em poucos
+segundos. A explicação mecanística mais correta é:
+
+   A) O glucagon ativa diretamente a glicogênio fosforilase ao se ligar a um sítio alostérico positivo da
+   enzima, sem necessidade de modificação covalente intermediária no processo.
+
+   B) O glucagon induz a transcrição do gene da glicogênio fosforilase, aumentando a quantidade de
+   enzima disponível para a quebra de glicogênio durante períodos de hipoglicemia.
+
+   C) O glucagon liga-se covalentemente a um resíduo de cisteína do sítio ativo, ativando a enzima de
+   forma irreversível pela duração total do estímulo hormonal exógeno administrado.
+
+   D) O glucagon inibe a fosfatase responsável por desfosforilar a glicogênio fosforilase, deslocando o
+   equilíbrio para a forma desfosforilada (b), que é a forma ativa em tecidos hepáticos.
+
+   E) O glucagon dispara uma cascata que culmina na fosforilação da glicogênio fosforilase pela fosfo
+   rilase quinase, convertendo a forma b (inativa) na forma a (ativa) -- modificação covalente reversível
+   que pode ser desfeita por fosfatase.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 15 Integração
+
+Considere as isozimas hexoquinase (HK) e glicoquinase (GK), ambas catalisando a fosforilação de
+glicose em glicose-6-fosfato. Sabendo que a HK tem KM  0,05 mM e é inibida por G6P, enquanto a GK
+tem KM  8 mM e não é inibida por G6P, a leitura fisiológica mais correta dessas diferenças é:
+
+   A) A HK do músculo opera abaixo de Vmax/2 em jejum, e a GK do hepatócito opera próxima a Vmax em
+   qualquer glicemia fisiológica do organismo em condições basais nutricionais.
+
+   B) Em glicemia normal de 5 mM, a HK opera saturada (substrato 100× o KM) e mantém captação
+   basal contínua; a GK opera abaixo de Vmax/2 em jejum e só "acorda" quando glicemia portal sobe pós-
+   prandial, atuando como sensor.
+
+   C) A HK do músculo e a GK do hepatócito são reguladas exclusivamente por mudanças no pH
+   intracelular, com inibição por G6P sendo um epifenômeno irrelevante para a fisiologia normal
+   observada.
+
+   D) A inibição da HK por G6P é uma propriedade compartilhada com a GK, mas o G6P só atinge
+   concentração inibitória no hepatócito após refeições muito ricas em carboidratos complexos.
+
+   E) A diferença de KM entre HK e GK é puramente experimental e não reflete diferenças funcionais
+   relevantes -- ambas operam saturadas em condições fisiológicas normais do indivíduo.
+
+Questão 16 Integração
+
+Em uma reação enzimática Michaeliana, na presença de um inibidor X, observa-se que tanto Vmax quanto
+KM aparente caem na mesma proporção (50%), e a razão Vmax/KM permanece constante. No gráfico
+de Lineweaver-Burk, as retas com e sem inibidor aparecem paralelas. Qual mecanismo de inibição é
+consistente com esses achados?
+
+   A) Inibição competitiva clássica: o inibidor disputa o sítio ativo, eleva KM aparente e deixa Vmax inal
+   terado em todas as concentrações experimentais testadas.
+
+   B) Inibição não-competitiva clássica: o inibidor liga em sítio alostérico, derruba Vmax e mantém KM
+   inalterado em todas as concentrações experimentais testadas.
+
+   C) Inibição irreversível por ligação covalente: o inibidor inativa progressivamente moléculas de
+   enzima, gerando perda de atividade total sem padrão característico no Lineweaver-Burk plot.
+
+   D) Inibição acompetitiva: o inibidor liga apenas ao complexo ES, sequestra-o e Le Chatelier puxa o
+   equilíbrio E + S  ES -- KM e Vmax caem juntos, com retas paralelas no Lineweaver-Burk.
+
+   E) Ativação alostérica positiva: o ativador estabiliza a forma de alta afinidade R, com aumento
+   simultâneo de Vmax e redução de KM aparente para o substrato natural da enzima.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 17 Integração
+
+A regulação alostérica e a regulação por modificação covalente reversível são dois mecanismos clássicos
+de controle enzimático. Julgue os itens.
+Cada item deve ser julgado de forma independente.
+
+I. A regulação alostérica opera em escala temporal de milissegundos (ligação/dissociação do efetor),
+enquanto a fosforilação reversível opera em escala temporal de segundos a minutos (ação da quinase
+e da fosfatase).
+
+II. Tanto a regulação alostérica quanto a fosforilação reversível são processos NÃO-covalentes, e
+ambos dependem da ligação reversível de uma pequena molécula em sítio distinto do sítio ativo.
+
+III. A fosforilação pode ativar ou inibir a enzima-alvo, dependendo de qual enzima é o substrato; por
+exemplo, a glicogênio fosforilase é ativada por fosforilação, mas a glicogênio sintase é inibida pela
+mesma modificação.
+
+IV. A regulação alostérica pode operar como cooperatividade homotrópica (substrato modulando
+outras subunidades) ou como modulação heterotrópica (efetor distinto modulando a atividade), com
+curva v × [S] sigmoide em ambos os casos.
+
+Questão 18 Integração
+
+O tripsinogênio é a forma inativa da tripsina, sintetizado no pâncreas exócrino e secretado no duodeno.
+Sobre a ativação desse zimogênio, a alternativa correta é:
+
+   A) A ativação ocorre pela ação da enteroquinase (presente na mucosa duodenal), que cliva o
+   tripsinogênio em tripsina; a tripsina ativa então amplifica a cascata, ativando demais zimogênios
+   pancreáticos como a quimotripsinogênio e proelastase.
+
+   B) A ativação ocorre por fosforilação reversível de um resíduo de Ser do sítio ativo, catalisada por
+   uma quinase intestinal específica; a desfosforilação pela fosfatase pancreática reverte a atividade da
+   enzima.
+
+   C) A ativação ocorre por ligação alostérica de íons cálcio ao sítio regulador do tripsinogênio, mecan
+   ismo reversível que ajusta a atividade tríptica conforme a demanda digestiva imediata e periódica do
+   indivíduo.
+
+   D) A ativação é espontânea no pH ácido do estômago, e a forma ativa entra no duodeno já catalitiica
+   mente competente para digerir as proteínas presentes no quimo gástrico parcialmente digerido pelas
+   pepsinas.
+
+   E) A ativação ocorre por glicosilação no aparelho de Golgi pancreático antes da secreção, e a tripsina
+   chega ao duodeno em sua forma ativa final, sem necessidade de clivagem proteolítica adicional na luz
+   intestinal.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Sobre as cascatas de modificação covalente reversível (como a cascata de sinalização do glucagon 
+AMPc  PKA  fosforilase quinase  glicogênio fosforilase), a vantagem fisiológica do desenho em
+cascata é:
+
+A) Aumentar a especificidade tecidual da resposta hormonal, pois apenas tecidos que expressam
+todas as enzimas da cascata têm capacidade de resposta integrada ao estímulo hormonal recebido.
+
+B) Garantir a reversibilidade da modificação covalente, pois cada nível da cascata é desfosforilado por
+uma fosfatase específica que opera de forma exclusivamente sequencial.
+
+C) Amplificar o sinal hormonal em ordens de magnitude (106 ou mais): uma molécula de hormônio
+chega a ativar milhões de enzimas terminais, permitindo resposta robusta a concentrações hormon
+ais minúsculas.
+
+D) Reduzir o consumo de ATP necessário para sustentar a resposta hormonal, pois a cascata limita a
+fosforilação aos níveis intermediários e poupa a enzima-alvo final do gasto energético.
+
+E) Tornar a resposta hormonal irreversível, garantindo persistência do efeito biológico mesmo após
+o sinal hormonal ter sido depurado da circulação sistêmica do paciente.
+
+Questão 20 Integração
+
+Considere uma enzima alostérica regulada por dois efetores heterotrópicos: ATP (inibidor) e AMP
+(ativador). A interpretação fisiológica desse desenho regulatório é:
+
+   A) A enzima responde apenas ao ATP, e o AMP é um efetor redundante que se acumulou ao longo da
+   evolução, sem função regulatória ativa identificada nos tecidos humanos adultos.
+
+   B) Os dois efetores ligam o mesmo sítio alostérico de forma competitiva, com o estado funcional
+   refletindo a razão ATP/AMP intracelular calculada de modo aproximadamente linear pela célula.
+
+   C) O ATP é ativador em baixa concentração e inibidor em alta, sem participação do AMP; a regulação
+   heterotrópica clássica restringe-se ao efetor de maior afinidade pela enzima estudada in vitro.
+
+   D) A enzima fica ativa quando a célula está com pouca energia (ATP baixo, mas AMP alto) e inativa
+   quando bem carregada (ATP alto, AMP baixo) -- desenho clássico de sensor do estado energético
+   celular.
+
+   E) A enzima responde simultaneamente aos dois efetores em sítios distintos: ATP (alto, célula bem
+   carregada) inibe -- não precisa produzir mais; AMP (alto, célula em déficit energético) ativa -- precisa
+   repor ATP.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 21 Integração
+
+A pancreatite aguda pode ser desencadeada por ativação prematura de tripsinogênio dentro do próprio
+pâncreas, com consequente autodigestão tecidual. A explicação mecanística mais correta para a defesa
+fisiológica contra esse evento é:
+
+A) A síntese pancreática de tripsinogênio é regulada por feedback negativo da própria tripsina circu
+lante, mecanismo que impede o acúmulo intracelular do zimogênio e a autodigestão subsequente do
+tecido pancreático.
+
+B) O pâncreas sintetiza o SPINK1, um inibidor de tripsina específico que neutraliza tripsina premat
+uramente ativada no parênquima pancreático antes que ela ative em cascata os demais zimogênios
+pancreáticos.
+
+C) O tripsinogênio é sintetizado em um compartimento celular sem proteases, e a ativação espontânea
+é termodinamicamente desfavorável em condições intracelulares fisiológicas normais.
+
+D) A enteroquinase (única ativadora do tripsinogênio) é exclusivamente intestinal, e o pâncreas não
+expressa essa enzima -- defesa baseada em separação espacial do gatilho ativador.
+
+E) A tripsina pancreática é uma isozima distinta da tripsina intestinal, com KM ajustado para não
+digerir proteínas pancreáticas, gerando proteção bioquímica seletiva contra a autodigestão.
+
+Questão 22 Integração
+
+Sobre as quatro classes de inibição enzimática (irreversível, competitiva, não-competitiva, acompeti
+tiva), julgue os itens.
+Cada item deve ser julgado de forma independente.
+
+   I. A inibição competitiva reversível pode ser superada pelo aumento da concentração de substrato,
+   restaurando Vmax ao valor sem inibidor; a inibição irreversível, por ligar covalentemente, não pode ser
+   superada por excesso de substrato.
+
+   II. A inibição acompetitiva é caracterizada por queda proporcional de Vmax e KM, com retas paralelas no
+   Lineweaver-Burk; ela só ocorre quando o substrato já está ligado à enzima, formando o complexo ES.
+
+   III. A inibição não-competitiva afeta apenas Vmax sem alterar KM, e essa é a assinatura cinética idêntica
+   à da inibição competitiva clássica de fármacos com análogos estruturais do substrato natural.
+
+   IV. O AAS (irreversível) e o ibuprofeno (competitivo) atuam pelo mesmo mecanismo cinético sobre
+   a ciclo-oxigenase, diferindo apenas no perfil farmacocinético entre os dois fármacos clinicamente
+   disponíveis em diferentes doses.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 23 Integração
+
+Considere que o pKa de um resíduo de histidina livre em solução é aproximadamente 6,0. No sítio
+ativo de uma enzima, esse pKa pode ser deslocado para 7,5 pelo microambiente proteico. A explicação
+mecanística mais correta para esse deslocamento é:
+
+A) A presença de cargas negativas próximas (Asp, Glu) estabiliza a forma protonada (carga positiva)
+da histidina, elevando seu pKa -- o resíduo "prefere" estar protonado em pH mais alto que o usual.
+
+B) O microambiente proteico altera a sequência primária do resíduo de histidina, modificando a
+cadeia lateral e gerando novo grupo ionizável com pKa característico distinto do imidazol original da
+histidina.
+
+C) A temperatura local do sítio ativo é elevada por efeito da hidrólise enzimática, deslocando o pKa de
+todos os resíduos do sítio ativo para valores aproximadamente 1­2 unidades superiores ao usual.
+
+D) A pressão osmótica intracelular alta concentra prótons no sítio ativo, elevando localmente o pH
+efetivo e ajustando os pKas de todos os resíduos catalíticos para valores acima dos teóricos.
+
+E) O deslocamento é puramente artefatual e desaparece quando a enzima é estudada em solução
+fisiológica padrão padronizada pela IUBMB para parâmetros cinéticos descritos na literatura.
+
+Questão 24 Integração
+
+Em uma cascata de coagulação sanguínea, o fator X é sintetizado como pró-fator X (zimogênio) e ativado
+em fator Xa por clivagem proteolítica específica em local de lesão vascular. Considerando o desenho
+geral dos zimogênios na coagulação, a vantagem fisiológica desse mecanismo é:
+
+   A) A clivagem proteolítica aumenta a meia-vida do fator no plasma, prolongando o efeito coagulante
+   após o gatilho inicial do trauma vascular tecidual desencadeado pela lesão.
+
+   B) A síntese hepática dos zimogênios consome menos ATP que a síntese das formas ativas,
+   otimizando o gasto energético do hepatócito durante a produção sistêmica dos fatores de coagulação
+   plasmáticos.
+
+   C) Os zimogênios podem ser regulados por fosforilação reversível em pontos específicos da cascata,
+   permitindo controle fino da coagulação por mecanismos hormonais teciduais durante o processo
+   coagulativo agudo.
+
+   D) A coagulação ocorre apenas no local de lesão (onde está disponível o ativador), preservando o
+   restante da árvore vascular do organismo de trombose disseminada -- separação espacial protege o
+   sistema.
+
+   E) A clivagem ativadora é reversível, permitindo que a coagulação seja "desligada" de forma rápida
+   quando o estímulo cessa, mecanismo regulatório que poupa a célula de sintetizar fatores plasmáticos
+   novos.
+
+                       31
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 25 Integração
+
+Sobre os modelos de cooperatividade alostérica (concertado/MWC e sequencial/KNF), a alternativa
+correta é:
+
+A) O modelo MWC propõe estados híbridos da enzima oligomérica, com algumas subunidades em T
+e outras em R simultaneamente, gerando curva sigmoide pela soma das contribuições parciais.
+
+B) O modelo KNF propõe que todas as subunidades mudam simultaneamente de conformação, sem
+estados intermediários, com a ligação do efetor deslocando o equilíbrio total T  R.
+
+C) Ambos os modelos preveem curva sigmoide v × [S] para enzimas oligoméricas cooperativas, e
+na prática enzimas reais exibem comportamento entre os dois extremos -- os dois são úteis didati
+camente.
+
+D) O modelo MWC só se aplica a enzimas tetrâmericas (como a hemoglobina), enquanto o modelo KNF
+se aplica exclusivamente a enzimas diméricas ou trímeras com regulação heterotrópica.
+
+E) Os dois modelos preveem curva hiperbólica idêntica à de Michaelis-Menten, e a diferença entre
+eles é apenas histórica -- sem consequência cinética prática observável em estudos experimentais.
+
+Questão 26 Aplicação
+
+Um paciente com hipertensão arterial inicia tratamento com captopril (inibidor competitivo da ECA).
+Após algumas semanas, o controle pressórico fica subótimo, e dosa-se renina plasmática elevada. Qual
+é a interpretação cinética mais correta desse achado?
+
+   A) O captopril perdeu eficácia farmacodinâmica e deve ser substituído por um inibidor não-compet
+   itivo da ECA, capaz de derrubar Vmax independentemente da concentração de angiotensina I circulante
+   elevada no paciente.
+
+   B) A elevação da renina aumenta a produção de angiotensina I (substrato da ECA), o que desloca o
+   captopril (inibidor competitivo) do sítio ativo da ECA -- fenômeno chamado de escape, exigindo ajuste
+   de dose ou associação com outro fármaco.
+
+   C) O captopril, sendo inibidor competitivo, exige aumento de dose proporcional à queda da renina
+   plasmática, e o controle só será adequado quando a renina retornar aos níveis basais característicos
+   do indivíduo saudável.
+
+   D) A renina elevada indica que o captopril se converteu em inibidor irreversível na presença de
+   angiotensina I em alta concentração, exigindo descontinuação imediata da medicação pelo risco de
+   tromboembolismo arterial.
+
+   E) A renina elevada bloqueia alostericamente a ECA independentemente do captopril, e o efeito
+   esperado é redução da pressão arterial, contrário ao observado no paciente -- provavelmente erro de
+   medida laboratorial cometido por técnico.
+
+                       32
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 27 Aplicação
+
+Um paciente jovem chega ao pronto-socorro com pupila miótica, sialorreia, fasciculações musculares
+e bradicardia após exposição agrícola a inseticida organofosforado. A conduta mais coerente com o
+mecanismo molecular envolvido é:
+
+A) Administrar exclusivamente atropina, com a expectativa de que a inibição da acetilcolinesterase
+regrida espontaneamente em poucas horas após a depuração plasmática do inseticida absorvido pelo
+paciente exposto.
+
+B) Administrar somente inibidor reversível da acetilcolinesterase (neostigmina) para deslocar o
+organofosforado, sem necessidade de outros antídotos específicos do quadro clínico colinérgico
+agudo descrito acima.
+
+C) Aumentar a oferta de acetilcolina exógena para deslocar o organofosforado do sítio ativo da AChE,
+mecanismo clássico de competição cinética entre substrato e inibidor no sítio catalítico enzimático.
+
+D) Associar atropina (bloqueio dos efeitos muscarínicos da acetilcolina acumulada) com pralidoxima
+(oxima que regenera a AChE fosforilada antes que o complexo "envelheça" e fique refratário), pois o
+organofosforado liga covalentemente a Ser catalítica e não é deslocável por excesso de substrato.
+
+E) Aguardar a síntese de acetilcolinesterase nova pelo paciente, mantendo apenas suporte ventilatório
+por algumas semanas, prazo suficiente para renovação enzimática completa em condições clínicas
+estáveis ao paciente.
+
+                      33
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Um neonato com pancreatite recorrente sem causa aparente é submetido a investigação genética.
+Encontra-se mutação no gene SPINK1 com perda de função da proteína inibidora. Qual é o nexo fisiopa
+tológico mais coerente entre o achado genético e a doença clínica?
+
+A) Sem o SPINK1 (inibidor natural da tripsina pancreática), a tripsina ativada prematuramente no
+parênquima pancreático não é neutralizada -- ela ativa outros zimogênios em cascata, causando
+autodigestão pancreática recorrente.
+
+B) O SPINK1 é a enzima responsável por sintetizar tripsinogênio no pâncreas, e sua perda de função
+leva à deficiência de tripsina ativa no duodeno, com má-absorção proteica e desnutrição associada
+característica do quadro.
+
+C) O SPINK1 é o ativador alostérico positivo da glicogênio fosforilase pancreática, e sua perda de função
+compromete a homeostase glicêmica do hepatócito, indiretamente causando o quadro pancreático
+observado clinicamente.
+
+D) O SPINK1 é a enteroquinase, e sua perda de função impede a ativação fisiológica do tripsinogênio no
+duodeno, gerando má-digestão proteica e pancreatite secundária por refluxo de conteúdo intestinal
+proximal ao pâncreas.
+
+E) O SPINK1 é o cofator catalítico da tripsina, e sua perda de função compromete a função enzimática
+mesmo em tripsina já ativada -- o resultado é insuficiência pancreática exócrina característica do
+quadro descrito.
+
+                      34
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 29 Aplicação
+
+Em um paciente com infarto agudo do miocárdio, observa-se elevação no soro de várias enzimas de
+origem cardíaca: troponinas, CK total, CK-MB. Antes da era das troponinas, a dosagem de CK-MB e do
+padrão de isozimas de LDH (especialmente LDH1) era usada para diagnóstico. Qual é a base molecular
+dessa especificidade tecidual?
+
+   A) As isozimas LDH1 e CK-MB têm KM e Vmax idênticos à LDH5 e CK-MM presentes no fígado e músculo
+   esquelético, e a diferença diagnóstica reflete apenas a quantidade absoluta de cada isozima liberada
+   no soro durante a lesão tecidual.
+
+   B) As isozimas são modificações covalentes reversíveis da mesma proteína, e o padrão de fosforilação
+   difere entre tecidos, permitindo o diagnóstico bioquímico do tecido lesionado pela análise das fosfo-
+   proteínas plasmáticas.
+
+   C) LDH1 e CK-MB são zimogênios cardíacos, ativados especificamente pelo pH local do miócito; a
+   presença das formas ativas no soro indica autodigestão miocárdica, mecanismo patognomônico de
+   infarto recente do miocárdio.
+
+   D) As enzimas cardíacas só existem no miocárdio porque outros tecidos não conseguem sintetizar
+   essa família proteica, e qualquer elevação plasmática indica origem necessariamente cardíaca do
+   quadro clínico observado no paciente em questão.
+
+   E) Diferentes tecidos expressam combinações tetrâmeras distintas das subunidades H e M (LDH) ou
+   MM/MB/BB (CK), e o padrão isozímico plasmático reflete o tecido de origem da lesão -- LDH1 e CK-
+   MB predominam no miocárdio.
+
+                      35
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Uma paciente com transtorno bipolar em tratamento crônico com lítio apresenta tremor fino, polidip
+sia e poliúria. A dosagem plasmática de lítio está em 1,8 mEq/L (faixa terapêutica 0,6­1,2 mEq/L).
+Considerando o mecanismo molecular do lítio sobre a inositol monofosfatase (IMPase), a explicação
+mais coerente para a toxicidade dose-dependente do fármaco é:
+
+A) O lítio em dose tóxica inativa irreversivelmente a IMPase em todos os tecidos por ligação covalente
+nova, exigindo síntese enzimática completa para recuperação da função celular afetada pela droga em
+quadros agudos.
+
+B) O lítio em dose tóxica passa a atuar como inibidor competitivo da IMPase, e a inibição se torna
+deslocável pelo aumento da concentração de inositol monofosfato disponível no compartimento
+neuronal estudado experimentalmente em modelos roteiros.
+
+C) Como inibidor acompetitivo da IMPase, o efeito do lítio cresce com o acúmulo de substrato (IMP).
+Em níveis terapêuticos, atinge tecidos com sinalização inositolérgica ativada; em níveis tóxicos,
+atinge tecidos com IMP basal mais baixo (rim, tireoide, neurônio), gerando os sintomas observados.
+
+D) O lítio em dose tóxica deixa de atuar sobre a IMPase e passa a inibir alostericamente a Na+/K+-
+ATPase em todos os tecidos, gerando o quadro de tremor e poliúria observado independentemente da
+via inositol-fosfato cerebral envolvida na patogenia inicial.
+
+E) A toxicidade do lítio é puramente farmacocinética (acúmulo renal), sem relação com seu mecan
+ismo enzimático na IMPase, que opera de forma idêntica em qualquer concentração plasmática do
+íon estudada in vitro em modelos celulares de cultura padronizados.
+
+                      36
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que a inibição competitiva é deslocável por excesso de substrato, enquanto a inibição
+não-competitiva não o é. Sua resposta deve articular o local de ligação do inibidor em cada caso
+e a consequência cinética sobre Vmax.
+
+    MODELO DE RESPOSTA
+
+   O inibidor competitivo disputa o sítio ativo com o substrato; em [S] muito alto, a proba
+   bilidade do substrato encontrar o sítio antes do inibidor cresce e, no limite, o inibidor é
+   estatisticamente "vencido" -- Vmax retorna ao valor sem inibidor (KM aparente sobe, mas
+   Vmax não muda). O não-competitivo liga em um sítio alostérico distinto, e sua afinidade
+   independe da ocupação do sítio ativo; aumentar [S] não o desloca. As enzimas sob seu
+   efeito ficam permanentemente prejudicadas -- Vmax cai (frações de enzima inativadas)
+   e KM não muda (as enzimas que escapam têm afinidade normal pelo substrato).
+
+Questão Q2
+
+Explique mecanisticamente por que a inibição acompetitiva derruba Vmax e KM na mesma pro
+porção, gerando retas paralelas no gráfico de Lineweaver-Burk. Use o princípio de Le Chatelier na
+sua explicação.
+
+    MODELO DE RESPOSTA
+
+   O inibidor acompetitivo só liga ao complexo ES, nunca à enzima livre. Quando se forma
+   o complexo ES·I, essa fração de ES é sequestrada e não avança para produto -- Vmax cai.
+   Por Le Chatelier, a remoção de ES do equilíbrio E + S  ES puxa a reação para frente:
+   mais E + S converte-se em ES para compensar a perda. Aparentemente, a enzima
+   "ganha" afinidade pelo substrato -- KM aparente CAI. Como Vmax e KM caem na mesma
+   proporção, a razão Vmax/KM permanece constante; no Lineweaver-Burk, a inclinação das
+   retas (KM/Vmax) e o intercepto Y mudam de tal forma que as retas com e sem inibidor
+   ficam paralelas.
+
+                             37
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Compare a inibição farmacológica do ácido acetilsalicílico (AAS) e do ibuprofeno sobre a ciclo-
+oxigenase plaquetária. Explique a diferença na duração do efeito antiagregante entre os dois
+fármacos com base no mecanismo molecular de cada um.
+
+MODELO DE RESPOSTA
+
+O AAS acetila irreversivelmente o resíduo Ser530 da COX, gerando ligação covalente que
+inativa permanentemente aquela molécula de enzima. Como a plaqueta é uma célula
+anucleada (sem capacidade de sintetizar COX nova), a inibição persiste até a renovação
+completa da população plaquetária -- 7 a 10 dias, muito além da meia-vida plasmática
+do AAS ( 3 horas). O ibuprofeno é inibidor competitivo reversível: liga ao sítio ativo
+por interações fracas, dissocia por agitação térmica e é deslocável por aumento do
+substrato. Seu efeito antiagregante restringe-se ao tempo de circulação do fármaco no
+plasma (algumas horas). A diferença explica a indicação cardioprotetora exclusiva do
+AAS em baixa dose.
+
+Questão Q4
+
+Explique por que o desenho em cascata da modificação covalente reversível (hormônio 
+segundo mensageiro  quinase  quinase  enzima-alvo) é fisiologicamente vantajoso para
+respostas hormonais agudas. Mencione a amplificação e a escala temporal da resposta.
+
+    MODELO DE RESPOSTA
+
+   O desenho em cascata permite amplificação multiplicativa: cada nível ativa muitas
+   moléculas do nível seguinte. Uma molécula de adrenalina pode ativar um receptor que
+   produz centenas de moléculas de cAMP, cada uma ativando uma PKA, que fosforila
+   milhares de fosforilase quinases, ativando milhões de glicogênio fosforilases. O ganho
+   total chega a 106 -- a célula responde a concentrações hormonais minúsculas com
+   mobilização metabólica robusta. A escala temporal cabe na janela fisiológica desejada:
+   cada fosforilação dura segundos a minutos (intermediário entre a alosteria, que dura
+   ms, e a síntese proteica, que dura horas). A reversibilidade pela fosfatase garante que o
+   sinal pode ser desligado quando o estímulo cessar.
+
+       38
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro mecanístico na seguinte afirmação e corrija-a com a explicação adequada: "O
+lítio inibe competitivamente a inositol monofosfatase. Por isso, em pacientes com sinalização
+inositolérgica neuronal hiperativada, o efeito clínico é menor -- o excesso de inositol monofosfato
+desloca o lítio do sítio ativo da enzima."
+
+MODELO DE RESPOSTA
+
+O erro é classificar o lítio como inibidor competitivo. O lítio é inibidor acompetitivo
+da IMPase -- só liga ao complexo enzima-substrato (IMPase-IMP), não à enzima livre.
+Consequência: o efeito do lítio CRESCE com o acúmulo de substrato (IMP), não diminui.
+Em neurônios com sinalização inositolérgica hiperativada, o IMP se acumula  mais
+ES disponível  mais alvo para o lítio  MAIOR efeito clínico do fármaco. É justamente
+o oposto do que o aluno descreveu. O mecanismo acompetitivo explica por que o lítio
+tem eficácia preferencial em circuitos neuronais com hiperatividade inositolérgica (rel
+evante no transtorno bipolar), enquanto a toxicidade renal/tireoidiana aparece quando
+a dose plasmática cresce e atinge tecidos com IMP basal mais baixo.
+
+       39
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D     Q02 B         Q03 CEEC  Q04 A     Q05 C
+Q06 EECC  Q07 B         Q08 E
+                                  Q12 A     Q13 CCEC
+INTEGRAÇÃO (Q11­Q25)    Q11 D     Q17 ECCE  Q18 A
+                        Q16 D     Q22 ECEC  Q23 A
+Q09 B     Q10 C         Q21 B
+                                  Q29 E     Q30 C
+Q14 E     Q15 B         Q28 A
+
+Q19 C     Q20 E
+
+Q24 D     Q25 C
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B     Q27 D
+
+                        45
+

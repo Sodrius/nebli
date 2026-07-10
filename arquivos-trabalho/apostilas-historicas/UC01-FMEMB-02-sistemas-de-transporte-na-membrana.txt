@@ -1,0 +1,1292 @@
+NEBLI · APOSTILA
+
+Sistemas de transporte na
+membrana
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:
+               Estude com o slide aberto ao lado. Aqui o ponto não é decorar nome de
+Onde estudar:  bomba ou cor de seta -- é entender qual propriedade física cada tipo de
+               transporte explora (gradiente, ATP, conformação, comporta) e por que o
+               tecido escolhe um e não outro. Quando o nome aparecer na prova, ele
+               deve vir como rótulo de algo que você já entendeu, não como ponto de
+               partida.
+
+               Boron e Boulpaep, Medical Physiology, Cap. 5 (Transport of Solutes and
+               Water). Berne e Levy, Physiology, Cap. 1. Aires, Fisiologia, Cap. 2.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Atravessar sozinho: difusao simples
+       1.1 Por que a membrana e seletiva: lipossolubilidade e tamanho
+       1.2 Difusao simples: movimento browniano e lei de Fick
+       1.3 O caso do O2: quando a difusao basta
+  PARTE II -- Atravessar com ajuda, sem gastar: transporte facilitado
+       2.1 Transportadores: cinetica de saturacao (Jmax, KM)
+       2.2 Canais ionicos: comporta e seletividade
+       2.3 Quando usar canal e quando usar transportador
+  PARTE III -- Atravessar contra o gradiente: transporte ativo
+       3.1 Ativo primario: bombas que gastam ATP
+       3.2 Ativo secundario: simporte e antiporte
+       3.3 A Na/K-ATPase como motor de tudo
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTOES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTOES)
+ETAPA 4 -- QUESTOES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de mergulhar em bombas, canais e curvas de saturação, vale parar e perguntar a coisa
+    óbvia que ninguém costuma perguntar: por que precisamos discutir transporte? A resposta é
+    direta. A membrana plasmática é boa demais no que faz. Ela é uma barreira lipídica de uns 5 nm
+    de espessura que separa um interior aquoso (cheio de íons, açúcares, aminoácidos, ATP) de um
+    exterior também aquoso, mas com composições radicalmente diferentes. Sem essa diferença não
+    há célula -- uma "célula" em equilíbrio com o meio externo é, biologicamente, uma célula morta.
+    Mas manter diferenças custa. Toda concentração que está alta de um lado e baixa do outro tende,
+    espontaneamente, a igualar -- é a segunda lei da termodinâmica trabalhando contra a vida. A
+    célula vive empurrando essa tendência para trás, e o nome desse empurrar é transporte.
+    Vamos organizar a discussão em três grandes movimentos. Primeiro, atravessar sozinho: quem
+    é pequeno e gorduroso passa pela bicamada sem ajuda, por difusão simples. Segundo, atravessar
+    com ajuda mas sem gastar: moléculas que não conseguem furar a bicamada usam proteínas
+    que abrem passagem a favor do gradiente -- canais ou transportadores. Terceiro, atravessar
+    contra o gradiente: quando é preciso bombear soluto na direção desfavorável, a célula gasta ATP
+    (transporte ativo primário) ou aproveita um gradiente já existente para puxar outro (transporte
+    ativo secundário). Os três movimentos cobrem praticamente toda a fisiologia da membrana -- e
+    o último é o que sustenta o resto.
+
+PARTE I -- Atravessar sozinho: difusão simples
+
+1.1 -- Por que a membrana é seletiva: lipossolubilidade e tamanho
+A membrana plasmática é uma bicamada de fosfolipídios. Pense nela como um sanduíche de
+óleo entre duas fatias de pão molhado: o interior do sanduíche é hidrofóbico (caudas de ácido
+graxo), as fatias externas são hidrofílicas (cabeças polares). Esse arranjo cria uma barreira
+termodinâmica para qualquer molécula carregada ou muito polar. Para um íon como o Na+
+atravessar essa bicamada nu, ele teria que largar sua camada de hidratação (as moléculas de
+água que o cercam) e entrar num ambiente onde nenhuma carga é estabilizada -- o custo
+energético é tão alto que, na prática, ele não vai. Por isso a permeabilidade da bicamada pura
+ao Na+ é praticamente zero.
+
+   Já para uma molécula pequena e apolar -- o caso do O2 ou do CO2 -- a história é outra. Ela
+"se sente em casa" no meio das caudas de ácido graxo, atravessa a bicamada como se ela não
+estivesse ali, e sai do outro lado. A permeabilidade da membrana ao O2 é dezenas de milhões
+de vezes maior que ao Na+. Não é exagero retórico; é fato medido.
+
+   Entre esses dois extremos existem casos intermediários. A água é uma molécula polar
+pequena -- em tese, deveria ter dificuldade. Mas é tão pequena que consegue uma perme
+abilidade moderada por difusão simples, e a célula complementa isso com canais específicos
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+(aquaporinas) onde precisa de fluxo rápido. A ureia, neutra mas polar, atravessa um pouco.
+Glicose, neutra mas com seis hidroxilas, atravessa quase nada -- e é por isso que toda célula
+precisa de GLUT1 para captar o açúcar que vive flutuando no sangue.
+
+Resumindo até aqui: Apolar e pequeno  atravessa sozinho. Polar grande ou carregado  não
+atravessa sem ajuda proteica.
+
+A regra prática que sai daqui é simples: quanto mais hidrofóbica e pequena a molécula, mais
+ela usa a bicamada como rota direta; quanto mais polar e grande, mais ela depende de proteína.
+Isso explica por que anestésicos voláteis (apolares, pequenos) entram no cérebro em segundos,
+enquanto antibióticos polares grandes precisam de transportadores específicos para alcançar
+o citoplasma bacteriano -- e por que algumas bactérias resistentes simplesmente "desligam"
+o transportador para ficar fora do alcance da droga.
+
+Síntese 1 -- Toda a história do transporte começa na pergunta: essa molécula se sente confortável
+no meio gorduroso do interior da bicamada? Se sim, atravessa sozinha. Se não, precisa de proteína
+-- e o tipo de proteína vai depender de quão urgente é a passagem e em que direção ela deve ir.
+
+1.2 -- Difusão simples: movimento browniano e lei de Fick
+Difusão é só uma palavra elegante para uma coisa muito antiga: moléculas em meio aquoso
+não param. Cada molécula está sendo bombardeada pelas vizinhas a uma frequência absurda
+-- em torno de 12 colisões por segundo em temperatura corporal -- e cada colisão a empurra
+numa direção aleatória. A velocidade média de uma molécula nesse "andar bêbado" é dada por
+uma fórmula da teoria cinética dos gases adaptada para líquidos:
+
+                                                         v = (3KT/m)
+
+   onde K é a constante de Boltzmann, T a temperatura em Kelvin e m a massa da molécula.
+O gesto físico aqui é o seguinte: aumentar a temperatura aumenta a agitação (velocidade
+sobe com T); aumentar a massa diminui a agitação (velocidade cai com 1/m). É por isso
+que perfume difunde mais rápido que açúcar dissolvido -- não porque "perfume é volátil" no
+sentido mágico, mas porque suas moléculas são pequenas e leves.
+
+1GLUT ­ família de transportadores facilitados de glicose; GLUT-1 a GLUT-14 em humanos
+                                                                              4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare como a gota de tinta começa concentrada num ponto e se espalha sozinha. Nenhuma força direcional
+empurra a tinta -- o que acontece é que, estatisticamente, há mais moléculas saindo da região concentrada do
+que entrando nela, porque é onde elas estão. O fluxo líquido aparece como consequência da geometria, não de um
+"puxão".
+
+A primeira coisa que choca quando se entende difusão é perceber que não existe força líquida
+puxando a tinta. Cada molécula está fazendo seu caminho aleatório, sem direção preferida.
+Mas quando a tinta está toda concentrada num ponto, há muito mais moléculas naquela
+região do que fora dela -- então, simplesmente por contagem, há mais moléculas saltando
+"para fora" da gota do que "para dentro". O resultado macroscópico é uma migração líquida
+do compartimento concentrado para o diluído, mesmo que microscopicamente cada molécula
+esteja num passeio aleatório. É um caso clássico de comportamento emergente: a estatística
+produz direção a partir do caos.
+
+   Agora vamos pôr esse fenômeno num número. A lei de Fick descreve o fluxo de soluto
+através de uma membrana por difusão simples:
+
+                                                    J = - D · A · ( C /  x)
+   onde J é o fluxo (mol/s), D o coeficiente de difusão da molécula (próprio da molécula e do
+meio), A a área da membrana,  C a diferença de concentração entre os dois lados e  x a
+espessura da membrana. O sinal negativo só diz que o fluxo vai do lado mais concentrado para
+o menos concentrado -- convenção, não física.
+   Cada variável tem um gesto. Aumentar a área (mais membrana exposta) aumenta propor
+cionalmente o fluxo -- é por isso que o pulmão tem uma área de troca alveolar de uns 70 m²
+em adultos, dobrada por inúmeras invaginações, e não uma única bolsa esférica. Aumentar 
+C também aumenta linearmente -- é por isso que um gradiente de O2 entre o alvéolo (cerca
+de 100 mmHg) e o sangue venoso (cerca de 40 mmHg) gera fluxo eficiente, mas se o alvéolo
+
+                                                                                 5
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+encher de líquido (EAP2) o  C efetivo cai e a oxigenação despenca. Diminuir  x (membrana
+mais fina) também aumenta o fluxo -- a barreira alvéolo-capilar tem só 0,5  m de espessura,
+justamente porque foi otimizada para troca por difusão.
+
+Edema pulmonar e a lei de Fick
+
+No edema agudo de pulmão, líquido extravasa para o interstício e depois para dentro do alvéolo.
+O O2 do ar inspirado agora precisa atravessar uma camada de líquido antes de chegar ao capilar --
+o  x cresceu de 0,5  m para vários micrômetros. Como a Fick coloca  x no denominador, o fluxo
+cai. Não é que o pulmão "esqueceu" de absorver O2 é que a física da difusão deixou de funcionar
+bem com essa geometria. É por isso que a dispneia do EAP melhora com diurético: tirar líquido
+restaura o  x curto.
+
+Síntese 2 -- Difusão simples é movimento aleatório transformado em fluxo direcional pela
+geometria do problema. A lei de Fick coloca em equação o que o pulmão e o capilar fazem o dia
+inteiro: gradientes grandes, áreas grandes, distâncias pequenas -- fluxo bom.
+
+1.3 -- O caso do O: quando a difusão basta
+O oxigênio é o protótipo do soluto que dispensa proteína. É pequeno (32 Da), apolar, e tem coe
+ficiente de difusão alto em meio lipídico. Olhe o que acontece num capilar sistêmico: o sangue
+arterial chega com pO2 em torno de 100 mmHg; a célula que respira ativamente consome O2 e
+tem pO2 tecidual de uns 40 mmHg ou menos. Esse gradiente de 60 mmHg é a força motriz. O
+capilar tem espessura mínima, a célula está a microns de distância -- Fick faz o trabalho.
+
+Repare o que esse arranjo simples ensina. A célula
+
+não tem máquina especializada para captar O2 ela só
+
+consome o que chega, e o consumo mantém a pO2
+
+intracelular baixa, o que sustenta o gradiente. É um
+
+caso onde a fisiologia delega o "transporte" para a
+
+física. A consequência é que tudo que reduzir o gra
+
+diente -- anemia, intoxicação por monóxido, edema
+
+pulmonar, espessamento alvéolo-capilar na fibrose
+
+-- vai limitar a entrega de O2 sem ter como ser com Sangue arterial (pO2 alta) banha tecidos com pO2
+
+pensado por "ligar mais transportadores".                                        baixa. O O2 sai por difusão pura.
+
+E o CO2? Mesma lógica, sentido inverso. Tecido com pCO2 alta (40­46 mmHg), sangue venoso
+aceita até pCO2 de 46 mmHg, pulmão expira contra ar atmosférico com pCO2 0,3 mmHg. O CO2
+na verdade difunde ainda melhor que o O2 pela bicamada, porque é mais solúvel em lipídio. Por
+isso a retenção de CO2 (hipercapnia) é, em geral, sinal de problema ventilatório (não chegou ar
+nos alvéolos), não problema de difusão.
+
+2EAP ­ edema agudo de pulmão
+                                                                              6
+NEBLI                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+Difusão simples não satura
+
+Esta é uma confusão clássica. Difusão simples obedece a lei de Fick, e a Fick é linear em 
+C -- não tem teto. Por mais que você aumente o gradiente de O2, o fluxo continua subindo
+proporcionalmente. Saturação só aparece quando uma proteína está no meio do caminho (canal
+ou transportador), porque proteína tem número finito. Se a curva fluxo × concentração é uma
+reta sem teto, é difusão simples. Se a curva é uma hipérbole que satura num Jmax, é transporte
+facilitado.
+
+                           MAPA CONCEITUAL
+
+                                         I
+
+                           Difusão simples explica O2 e CO2
+
+                           
+
+1.1 ­ Lipídio                     1.2 ­ Fick                     1.3 ­ Gases
+
+Lipossolúvel passa; polar   Fluxo cresce com gradiente e   O2 e CO2 atravessam sem
+grande não
+                                   área                           ajuda
+
+                     O que é polar grande ou carregado precisa de proteína. Vamos a elas.
+
+PARTE II -- Atravessar com ajuda, sem gastar: transporte
+facilitado
+
+2.1 -- Transportadores: cinética de saturação (Jmax, KM)
+A glicose é o exemplo canônico de molécula que não pode difundir pela bicamada -- é polar,
+com seis grupos hidroxila procurando ligação de hidrogênio, sem nada gorduroso para se
+acomodar entre as caudas dos fosfolipídios. Mas o sangue tem 5 mM de glicose em jejum e
+quase toda célula precisa dela. Como ela entra?
+
+   A célula resolve com uma proteína integral chamada transportador facilitado. O mecanismo
+é o de uma porta giratória: o transportador tem um sítio de ligação para a glicose acessível
+por um dos lados da membrana; a glicose se encaixa; o transportador muda de conformação
+como uma engrenagem que gira; agora o sítio está aberto do outro lado; a glicose se solta;
+a conformação reverte. Sem ATP, sem gradiente extra -- só a glicose seguindo seu próprio
+gradiente, mas usando uma porta giratória em vez de tentar atravessar a parede.
+
+   Esse mecanismo tem uma consequência cinética importante: o transportador é uma pro
+teína, existe em número finito, e cada ciclo leva um tempo. Quando a concentração de glicose
+
+                           7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+externa é baixa, há sítios livres sobrando -- o fluxo cresce praticamente linear com a concen
+tração. Mas quando a concentração sobe muito, todos os transportadores ficam ocupados o
+tempo todo, e o fluxo deixa de subir. Atinge um teto. Olha o gráfico que sai disso:
+
+ Repare como a curva sobe quase linear em baixas concentrações e depois encurva até virar um platô. Esse platô é
+ o Jmax -- a velocidade que a enzima ou o transportador atinge quando está saturado. O KM é a concentração de
+ soluto que dá metade do Jmax: é o nosso "ponto de referência" da afinidade. KM baixo = transportador avido por
+ glicose mesmo quando ela é rara; KM alto = transportador que só "acorda" em concentrações altas.
+
+A equação que descreve isso é matematicamente idêntica à de Michaelis-Menten para enzimas
+(a mesma matemática, porque o problema mecanístico é o mesmo: sítio finito + ciclo de
+ligação-desligação):
+
+                                                 J = Jmax · [S] / (KM + [S])
+   onde [S] é a concentração de soluto. Vale a pena olhar para os dois regimes. Quando [S] é
+muito menor que KM, a fórmula vira J  (Jmax/KM)·[S] -- fluxo linear, parece difusão simples,
+mas com inclinação determinada por Jmax/KM. Quando [S] é muito maior que KM, a fórmula
+vira J  Jmax -- platô. O ponto onde as duas regiões se encontram é justamente em [S] = KM.
+   A diferença entre os GLUTs, a propósito, é exatamente em KM. O GLUT-1 (presente em
+hemácia, neurônio e barreira hematoencefálica) tem KM em torno de 1 mM -- em glicemia
+normal de 5 mM, opera quase saturado o tempo todo, o que garante que cérebro e hemácia
+nunca fiquem sem glicose. O GLUT-2 (no fígado e na célula beta do pâncreas) tem KM em torno
+de 17 mM -- opera longe da saturação na glicemia normal, e só "acorda" quando a glicemia sobe
+muito depois de uma refeição. É exatamente o que um sensor de glicemia precisa fazer: ficar
+quieto quando está normal, responder quando sobe.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+KM como decisão tecidual
+
+Por que o cérebro tem GLUT-3 com KM  1 mM e o fígado tem GLUT-2 com KM  17 mM? Porque
+cérebro não pode parar -- precisa de glicose mesmo em hipoglicemia leve. Fígado precisa medir
+glicemia -- só estoca glicose como glicogênio quando há excesso. A escolha de KM é a fisiologia
+agindo na arquitetura cinética.
+
+Resumindo até aqui: Transportador = porta giratória com sítio finito  cinética satura  curva em
+hipérbole, com Jmax (teto) e KM (concentração que dá metade do Jmax).
+
+Síntese 3 -- Quem usa transportador paga em velocidade -- cada ciclo da porta giratória demora
+-- mas ganha em especificidade e em capacidade de regular o fluxo via número de transporta
+dores na membrana. O cérebro, que precisa de glicose 24h por dia, mantém GLUT-1 e GLUT-3
+sempre presentes na membrana. O músculo, que só precisa muito de glicose quando há insulina
+circulando, esconde o GLUT-4 dentro da célula em vesículas, e só o coloca na membrana quando
+a insulina manda -- voltaremos a isso quando falarmos de sinalização.
+
+2.2 -- Canais iônicos: comporta e seletividade
+Agora outra família proteica, com uma estratégia diferente. O canal iônico não é uma porta
+giratória; é um túnel. A proteína atravessa a membrana, tem um poro central preenchido de
+água, e quando está aberto, deixa íons passarem por difusão eletroquímica pura. Sem mudança
+de conformação a cada íon, sem ciclo de ligação-desligação. O íon entra, atravessa, sai -- em
+poucos microssegundos.
+
+Subunidades proteicas dispostas em coroa formam um poro central preenchido de água. O íon atravessa hidratado,
+ou tem a hidratação parcialmente substituída por contatos com aminoácidos específicos do poro -- é assim que o
+canal escolhe quem passa.
+
+A diferença em números é dramática. Um transportador típico move 10² a 10 moléculas
+por segundo. Um canal aberto move 10 a 10 íons por segundo -- quatro a seis ordens de
+
+                                                                                 9
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+magnitude mais rápido. Isso explica por que o impulso nervoso, que precisa despolarizar a
+membrana em milissegundos, depende de canais e não de transportadores.
+
+   Mas se canais são tão rápidos, por que a célula tem transportadores? Por dois motivos.
+Primeiro, canais são em geral seletivos por carga, não por molécula -- canal de Na+ deixa
+passar Na+ (e um pouco de Li+ e K+, mas pouco), mas não vai passar glicose. Segundo, canais
+transportam a favor do gradiente eletroquímico sem distinção; eles não conseguem bombear
+contra. Para um transportador secundário ativo (que veremos em 3.2), o ciclo de conformação
+é justamente o que permite acoplar a passagem de um soluto à passagem de outro -- coisa que
+um canal aberto não consegue fazer.
+
+   Outro ponto: canal abre e fecha. Quase nenhum canal fica permanentemente aberto. Cada
+um tem uma comporta -- um pedaço da proteína que se move e bloqueia ou libera o poro -- que
+responde a um sinal específico. Canais dependentes de voltagem abrem quando a membrana
+despolariza (são o motor do potencial de ação). Canais dependentes de ligante abrem quando
+uma molécula sinalizadora se liga (acetilcolina no canal nicotínico, glutamato no AMPA).
+Canais dependentes de estiramento abrem quando a membrana é deformada mecanicamente
+(audição, propriocepção). Canais dependentes de íon abrem em resposta a outro íon (canais de
+K+ ativados por Ca2+ intracelular). A comporta é o que torna o canal um interruptor regulável,
+não uma fenda passiva.
+
+Canal aberto ainda é transporte passivo
+
+Uma confusão frequente: alunos veem "canal abre, íon entra" e pensam que isso é transporte
+ativo, porque algo aconteceu. Não é. O que o canal faz é remover a barreira da bicamada para aquele
+íon específico; depois disso, o íon segue seu próprio gradiente eletroquímico, sem gasto de ATP.
+Ativo é só quem move soluto contra o gradiente. Canal só baixa a barreira; o íon faz o resto sozinho.
+
+       10
+NEBLI                                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+Os quatro grandes gradientes iônicos da célula. Na+ e Cl- altos fora, K+ alto dentro, Ca2+ altíssimo fora ( 10.000× maior
+que dentro). Cada gradiente é uma "bateria" pronta para gerar trabalho quando o canal certo abrir -- potencial de
+membrana, contração muscular, sinalização intracelular, secreção. Tudo isso parte de canal certo, na hora certa, no
+lado certo.
+
+    Síntese 4 -- Canal é rápido, simples, regulável por comporta. Transportador é lento, mas pode
+    acoplar fluxos (e por isso pode bombear, como veremos). A célula usa os dois conforme o prob
+    lema: quer comunicação rápida e gradiente já existente -- canal. Quer mover soluto específico
+    com regulação fina -- transportador.
+
+2.3 -- Quando usar canal e quando usar transportador
+A escolha não é arbitrária -- segue regras que dá para enunciar.
+
+Critério        Canal iônico                        Transportador
+                                                    10²­10 moléculas/s -- lento
+Velocidade      10­10 íons/s -- rápido              Hipérbole (Jmax, KM)
+                                                    Mudança de conformação a cada ciclo
+Cinética        Linear (sem saturação típica)       Por molécula específica
+                                                    Sim, se acoplado a outro fluxo
+Mecanismo       Poro aberto/fechado por comporta    Captação de nutrientes, controle fino
+
+Especificidade  Por carga + tamanho de íon
+
+Pode bombear contra Não
+
+Quando faz sentido Sinalização elétrica, potencial
+
+Repare como cada linha da tabela conta uma parte do trade-off. Velocidade alta vem com sele
+tividade grosseira; controle fino vem com lentidão. A célula que precisa disparar um potencial
+de ação em meio milissegundo usa canal de Na+. A célula que precisa carregar glicose contra
+
+                                        11
+NEBLI                                                           ETAPA 1 -- TEXTO DIDÁTICO
+
+gradiente no intestino usa transportador (SGLT, que veremos em 3.2). Não há melhor ou pior
+-- há o trabalho certo para cada mecanismo.
+
+Resumindo até aqui: Canal rápido e burro; transportador lento e fino. Cada um na hora certa.
+
+                                    MAPA CONCEITUAL
+
+                                                  II
+
+               Facilitado: ajuda proteica, sem ATP
+
+                                                 
+
+2.1 ­ Transp.                       2.2 ­ Canal                        2.3 ­ Trade-off
+
+Porta giratória; cinética satura    Túnel com comporta; rápido   Velocidade
+(Jmax, KM)
+                                                                        contra especificidade
+
+                               Até aqui, tudo a favor do gradiente. Agora vamos contra.
+
+PARTE III -- Atravessar contra o gradiente: transporte ativo
+
+3.1 -- Ativo primário: bombas que gastam ATP
+Atravessar a favor do gradiente é grátis -- termodinamicamente, o sistema está caminhando
+para o equilíbrio, e a célula só precisa "abrir a porta". Mas e quando a célula precisa que o
+gradiente exista? Quem cria o gradiente em primeiro lugar?
+
+   A resposta é: bombas. Uma bomba é uma proteína transportadora que, em vez de só facilitar
+passagem, gasta energia (em geral ATP) para mover soluto contra o gradiente. O exemplo
+canônico é a Na/K-ATPase, ou bomba de sódio-potássio, presente na membrana plasmática de
+praticamente toda célula animal.
+
+                                                 12
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Em cada ciclo: três Na+ saem (contra o gradiente, eles já estão menos concentrados dentro), dois K+ entram (também
+contra o gradiente, eles já estão mais concentrados dentro), e um ATP é hidrolisado a ADP + Pi. Estequiometria 3:2:1.
+
+O ciclo da bomba é uma coreografia precisa. Três Na+ intracelulares se ligam ao sítio voltado
+para o interior; o ATP é hidrolisado e o fosfato é transferido para a própria proteína (autofos
+forilação); essa fosforilação muda a conformação da bomba -- agora o sítio está aberto para o
+lado de fora, e os três Na+ são expostos a uma região onde o sódio já é abundante, então eles
+se desligam. Em seguida, dois K+ extracelulares se ligam; a fosforilação cai (defosforilação); a
+bomba volta à conformação original; o sítio se abre para dentro; os dois K+ são liberados no
+citoplasma. ATP gasto, três Na+ fora, dois K+ dentro, mais um ciclo no contador.
+
+   Essa é a bomba que sustenta os gradientes de Na+ e K+ de quase toda célula animal. Sem
+ela, em minutos os gradientes desabariam -- Na+ entraria, K+ sairia, a membrana perderia seu
+potencial de repouso, a célula incharia e morreria. É por isso que ela consome em torno de 30%
+do ATP basal de uma célula em repouso (e 70% num neurônio ativo).
+
+       13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A Na/K-ATPase é apenas uma de várias bombas. As ATPases tipo P se autofosforilam durante o ciclo (Na/K, Ca² do
+retículo, H/K da célula parietal). A ATPase tipo V (vacuolar) bombeia H+ para dentro do lisossomo, garantindo pH
+baixo. Cada uma faz um trabalho específico, mas todas compartilham o princípio: ATP entra, gradiente sai.
+
+Vale citar três outras bombas importantes porque cada uma sustenta uma fisiologia específica.
+A Ca²-ATPase do retículo sarcoplasmático (SERCA) bombeia cálcio do citoplasma de volta para
+o retículo, e é o que termina a contração muscular -- sem SERCA ativa, o músculo não relaxa.
+A H+/K+-ATPase das células parietais gástricas bombeia H+ para a luz do estômago contra um
+gradiente de quase 10× (pH 1 versus pH 7 no citoplasma); é nessa bomba que os inibidores
+de bomba de prótons (omeprazol e similares) atuam. A V-ATPase, espalhada em vesículas,
+mantém o pH ácido do lisossomo (pH 4,5), o que ativa enzimas hidrolíticas e mantém o resto
+da célula seguro de uma acidificação acidental.
+
+    Digoxina e a Na/K-ATPase
+    A digoxina é um inibidor reversível da Na/K-ATPase. Ela se liga ao sítio extracelular da bomba
+    e a bloqueia parcialmente. O resultado: o Na+ intracelular sobe um pouco. E daí o que acontece
+    é interessante -- o miocárdio tem um trocador Na/Ca (antiporte secundário, que veremos em
+    3.2) que normalmente joga Ca² para fora usando a entrada de Na+. Com mais Na+ intracelular,
+    o gradiente de Na+ cai, o trocador trabalha menos, e o Ca² intracelular sobe. Mais cálcio nos
+    cardiomiócitos = contração mais forte. É assim que um inibidor de bomba se torna um inotrópico
+    positivo -- clássica conexão entre transporte ativo primário e secundário.
+
+    Síntese 5 -- Bomba é a fonte do gradiente. Quem cobra ATP é a bomba; depois disso, qualquer
+    canal ou transportador a favor do gradiente está, em última análise, vivendo do trabalho que a
+    bomba fez antes. O gradiente de Na+ vai virar a "moeda corrente" da próxima seção.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+3.2 -- Ativo secundário: simporte e antiporte
+A Na/K-ATPase deixa o Na+ em alta concentração fora da célula. Esse gradiente é uma forma
+armazenada de energia, exatamente como uma represa cheia -- pode ser liberada para fazer
+trabalho. O transporte ativo secundário é a célula aproveitando esse "trabalho armazenado"
+para mover outras moléculas contra os respectivos gradientes, sem gastar ATP diretamente.
+
+   A peça que faz isso é um transportador especial chamado cotransportador, que tem dois
+sítios de ligação numa só proteína. Quando o Na+ do exterior se liga, a conformação muda só o
+suficiente para também aceitar o segundo soluto. Os dois entram juntos. Quando estão dentro,
+a baixa concentração de Na+ intracelular favorece a dissociação, e os dois saem -- agora dentro.
+O Na+ desceu seu gradiente (gratificação termodinâmica grátis), e essa "descida" foi acoplada
+à subida do outro soluto contra o seu próprio gradiente.
+
+   Existem dois sabores: simporte e antiporte.
+
+Simporte Na/glicose (SGLT-1) no enterócito. Na luz intestinal: o gradiente de Na+ (mantido pela Na/K-ATPase no polo
+basolateral) puxa Na+ para dentro da célula; ao entrar, ele "arrasta" uma glicose junto. Resultado: glicose entra no
+enterócito mesmo quando sua concentração luminal é menor que a intracelular. É um Trojan: Na+ paga a passagem
+da glicose.
+
+No simporte, os dois solutos atravessam no mesmo sentido. O caso clássico é o SGLT-1 do
+enterócito (intestino) e o SGLT-2 do túbulo proximal renal -- ambos co-transportam Na+ e
+glicose para dentro da célula. Quem paga a conta é o gradiente de Na+: ele desce, a glicose sobe.
+Essa peça é a base mecanística da reidratação oral nas diarreias agudas -- e o exemplo mais
+salvador de vidas que o transporte ativo secundário oferece.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cólera e a solução de reidratação oral
+
+A toxina da cólera trava aberta uma proteína G que estimula adenilato ciclase no enterócito,
+jogando AMPc alto. O AMPc abre o canal CFTR3, e a célula despeja Cl- (e arrasta Na+ e água) para a
+luz. Resultado: diarreia litros por dia, morte por desidratação em horas. O remédio é uma solução
+de reidratação oral: glicose 2% + NaCl 0,3%. Por que glicose junto? Porque o SGLT-1 ainda funciona
+-- ele puxa glicose e Na+ juntos para dentro da célula, e a água segue por osmose. A glicose não
+é "calórica" ali; ela é o cavalo que puxa o sódio (e a água) de volta. Uma solução de só água e sal
+não funcionaria -- sem glicose, o SGLT não roda. Estima-se que a SRO tenha salvado mais de 50
+milhões de vidas desde 1970.
+
+Antiporte Na/H (NHE3) no túbulo proximal renal. O gradiente de Na+ empurra Na+ para dentro do epitélio, e em troca
+a célula expulsa um H+ para a luz tubular. O H+ expelido junta-se com bicarbonato filtrado e forma CO2 + H2O, que
+reentra. É assim que o rim recupera quase todo o bicarbonato filtrado -- base mecanística do equilíbrio ácido-base.
+
+No antiporte, os dois solutos atravessam em sentidos opostos. O caso clássico é o NHE3 do
+túbulo proximal renal -- antiporte de Na+ (para dentro) e H+ (para fora). De novo, o gradiente
+de Na+ é a moeda; o H+ paga sua "subida" com a "descida" do Na+. Outro antiporte importante
+é o trocador Na/Ca do cardiomiócito (NCX): três Na+ entram e um Ca² sai. É exatamente esse
+trocador que a digoxina afeta indiretamente, como vimos no box clínico acima.
+
+   Resumindo até aqui: Bomba primária cria gradiente de Na+ (gasta ATP)  simporte/antiporte usa esse
+   gradiente como moeda para mover outros solutos sem gastar ATP diretamente. ATP é pago só uma vez;
+   o gradiente trabalha para várias proteínas.
+
+   3CFTR ­ cystic fibrosis transmembrane regulator -- canal de Cl- ativado por AMPc
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 6 -- Toda a economia de transporte ativo secundário depende do gradiente de Na+. Por
+isso a Na/K-ATPase é mais que uma bomba -- é a infraestrutura. Sem ela, a glicose não entra
+no intestino, o bicarbonato não é reabsorvido, o cálcio não sai do miocárdio, o pH celular não se
+mantém. Veremos no próximo subtópico por que ela merece esse status.
+
+3.3 -- A Na/K-ATPase como motor de tudo
+Vale a pena olhar de novo, agora com a perspectiva integrada, para a Na/K-ATPase. Ela faz três
+coisas simultaneamente, e cada uma sustenta um conjunto de fisiologias.
+
+   Primeiro, ela mantém o gradiente de Na+ alto fora. Esse gradiente é a "bateria" do transporte
+ativo secundário em quase todo epitélio absortivo e secretor: enterócito, túbulo renal, ducto
+biliar, ducto pancreático. Sem a bomba, todos esses simportes e antiportes param.
+
+   Segundo, ela mantém o gradiente de K+ alto dentro. Esse gradiente é a base do potencial de
+repouso da membrana -- o K+ tende a sair (porque está mais concentrado dentro), e o vaza
+mento permanente de K+ por canais de "vazamento" mantém a célula com interior negativo.
+Sem isso, não há potencial de repouso, e não há potencial de ação.
+
+   Terceiro, como ela bombeia três cargas positivas para fora e duas para dentro a cada ciclo,
+ela é eletrogênica: contribui diretamente para deixar o interior celular mais negativo. Cerca de
+5 a 10 mV do potencial de repouso vêm diretamente da atividade da bomba (o resto vem do
+gradiente de K+ e da permeabilidade seletiva da membrana).
+
+   Esses três efeitos juntos explicam por que cerca de 30% do consumo basal de ATP de uma
+célula em repouso vai para a Na/K-ATPase, e por que esse número sobe para 70% num neurônio
+em atividade. Tudo o que envolve eletricidade celular, absorção epitelial e regulação de volume
+celular passa por essa única proteína. Quando ela falha -- em isquemia, por exemplo, quando
+o ATP cai -- a primeira coisa que acontece é Na+ entrando, K+ saindo, água seguindo o Na+,
+célula inchando. O inchaço celular agudo da isquemia é, em essência, falência da Na/K-ATPase
+por falta de combustível.
+
+    Eletrogênico não é o que faz o potencial de repouso
+
+    Cuidado: dizer que a Na/K-ATPase é eletrogênica não significa que ela "faz" o potencial de repouso.
+    A maior parte dos -70 mV vem do gradiente de K+ (que ela ajudou a criar) lendo o vazamento por
+    canais de K+. A bomba contribui com uns 5­10 mV diretos. A pergunta de prova "qual a principal
+    causa do potencial de repouso?" pede o gradiente de K+ mais a permeabilidade da membrana ao
+    K+, não a bomba diretamente. A bomba é causa indireta (criou o gradiente), não direta.
+
+Síntese 7 -- A Na/K-ATPase é o paradigma da economia celular: ATP entra, gradientes saem, e os
+gradientes alimentam tudo o mais. Quando você ouvir "esse transporte é ativo secundário" em
+qualquer contexto -- intestino, rim, coração, neurônio -- pode quase sempre assumir que o ATP
+que paga essa conta foi gasto na Na/K-ATPase em algum momento anterior.
+
+                                                                           17
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+                        MAPA CONCEITUAL
+
+                                     III
+
+                        Ativo: contra o gradiente
+
+                        
+
+3.1 ­ Primário                 3.2 ­ Secundário                  3.3 ­ Na/K
+Bomba gasta ATP direto
+                                                           Sustenta tudo o que vem
+                                Usa gradiente como moeda
+                                                                  depois
+
+                                 Três formas de atravessar, uma lógica integrada.
+
+Conclusão integradora
+
+Olhe agora o sistema todo. A membrana plasmática é uma barreira lipídica que, por sua
+natureza, deixa passar quem é apolar e pequeno e bloqueia quem é polar grande ou
+carregado. Para esses bloqueados, a célula constrói três soluções complementares.
+Difusão simples resolve o O2 e o CO2 -- fluxo proporcional ao gradiente, sem teto, sem
+proteína no caminho. Lei de Fick. A fisiologia se reduz a otimizar área, espessura e
+gradiente.
+Transporte facilitado resolve glicose, íons rápidos e moléculas polares pequenas -- agora
+há proteína no caminho. Se é uma porta giratória com sítio finito e cinética saturável, é
+transportador (com seu KM e Jmax). Se é um túnel rápido com comporta, é canal (com
+sua seletividade por carga). Os dois movem soluto a favor do gradiente, sem gastar ATP.
+Transporte ativo resolve tudo o que precisa ir contra o gradiente. Primário gasta ATP
+diretamente (Na/K-ATPase, SERCA, H/K-ATPase, V-ATPase). Secundário aproveita o gra
+diente de Na+ como moeda (simporte de glicose no intestino, antiporte de H+ no rim). Os
+dois andam juntos numa hierarquia onde a Na/K-ATPase paga a conta primária e todos
+os secundários vivem desse gradiente.
+Toda a fisiologia da absorção intestinal, da reabsorção renal, da sinalização elétrica,
+da contração muscular, da regulação ácido-base, da homeostase de volume celular se
+reduz a combinações desses três mecanismos. Decorar o nome de cada bomba é menos
+importante que entender essa arquitetura -- quando o nome aparecer na prova ou na
+clínica, ele virá com um trabalho específico, e o trabalho é o que importa.
+
+                        18
+NEBLI                                                               ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Lipossolubilidade decide                                    Na/K-ATPase é a infraestrutura
+
+A bicamada lipídica deixa passar quem é apolar e 3 Na+ saem, 2 K+ entram, 1 ATP gasto. Sustenta
+
+pequeno (O2, CO2) e bloqueia íons e moléculas polares gradientes, contribui 5­10 mV para o potencial de
+
+grandes. Anestésicos voláteis cruzam em segundos; repouso, consome 30­70% do ATP basal. Sua falên
+
+Na+ e glicose precisam de proteína.                         cia (isquemia) é a primeira causa do edema celular
+
+Lei de Fick                                                 agudo.
+
+J = - D · A ·  C /  x. Fluxo cresce com gradiente Digoxina trabalha de carona
+
+e área, e cai com espessura. No edema pulmonar,             Inibe parcialmente a Na/K-ATPase  Na+ in
+
+x sobe e a oxigenação despenca -- diurético devolve tracelular sobe  trocador Na/Ca trabalha menos 
+
+geometria, devolve oxigenação.                              Ca² intracelular sobe  cardiomiócito contrai mais
+
+Difusão não satura                                          forte. Conecta primário e secundário num só medica
+
+   Curva linear sem teto distingue difusão simples de mento.
+transporte facilitado. Se a curva atinge um Jmax, tem SRO salva por simporte
+
+proteína no caminho.                                        Solução de reidratação oral funciona porque o
+
+Transportador é porta giratória                             SGLT-1 do enterócito co-transporta Na+ e glicose; sem
+
+   Sítio finito + mudança conformacional a cada ciclo glicose, o sódio não atravessa. Sódio puxa água por
+gera cinética hiperbólica idêntica à de Michaelis- osmose. Mais de 50 milhões de vidas desde 1970.
+Menten. Jmax é o teto; KM é a concentração que dá Antiporte no rim recupera bicarbonato
+
+metade do teto e mede afinidade.                            NHE3 no túbulo proximal: Na+ entra, H+ sai. O
+
+KM decide o tecido                                          H+ expelido captura bicarbonato filtrado  CO2 +
+
+   GLUT-1 (KM 1 mM) opera saturado: garante glicose         H2O reabsorve. Base mecanística de quase toda reab
+ao cérebro e à hemácia mesmo em hipoglicemia.               sorção de bicarbonato.
+GLUT-2 (KM 17 mM) só responde quando a glicemia             Tudo é combinação dos três
+
+sobe: é o sensor do hepatócito e da célula .                Difusão (gradiente), facilitado (proteína a favor),
+
+Canal é túnel com comporta                                  ativo (proteína contra). Da troca alveolar à reabsorção
+
+   Move 10 a 10 íons por segundo, 4 a 6 ordens de           tubular, da contração muscular ao impulso nervoso, é
+magnitude mais rápido que transportador. Seleciona          sempre uma das três rotas -- quase sempre paga pela
+por carga + tamanho, e responde a sinais (voltagem,         Na/K-ATPase em algum momento.
+
+ligante, estiramento, íon).
+
+Canal aberto ainda é passivo
+
+   Ele só baixa a barreira da bicamada; o íon segue
+seu gradiente eletroquímico sozinho. Ativo é só quem
+move contra o gradiente, e isso exige ATP -- direto ou
+via gradiente já criado.
+
+                                                        19
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a permeabilidade da bicamada lipídica da membrana plasmática, é correto afirmar:
+  A) Moléculas pequenas e apolares atravessam a bicamada por difusão simples, sem neces
+  sidade de proteína transportadora.
+  B) Íons monovalentes pequenos como Na+ e K+ atravessam a bicamada com facilidade por
+  serem pequenos.
+  C) A glicose atravessa a bicamada por difusão simples graças aos seus seis grupos hidroxila
+  polares.
+  D) A permeabilidade da bicamada à água é nula, já que a água é uma molécula polar.
+  E) Moléculas grandes e apolares atravessam mais facilmente que pequenas e apolares, por
+  melhor encaixe na bicamada.
+
+Questão 02 Consolidação
+
+Sobre a difusão simples e a lei de Fick, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O fluxo de uma molécula por difusão simples é diretamente proporcional ao gradiente de
+  concentração entre os dois lados da membrana.
+  II. O fluxo por difusão simples atinge um teto (Jmax) quando a concentração do soluto fica
+  muito alta.
+  III. A velocidade de uma molécula em meio aquoso aumenta com a temperatura e diminui
+  com a massa.
+  IV. Diminuir a espessura da membrana aumenta o fluxo difusivo apenas em moléculas com
+  alta massa molecular.
+
+                            20
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre a cinética dos transportadores facilitados, é correto afirmar:
+
+  A) O fluxo cresce linearmente com a concentração de soluto em qualquer faixa de concen
+  tração.
+  B) O KM é a concentração de soluto que satura todos os transportadores da membrana.
+  C) O Jmax depende apenas da afinidade do transportador, não da quantidade de proteína
+  presente.
+  D) A curva fluxo × concentração tem formato de hipérbole e atinge um platô em concen
+  trações elevadas.
+  E) Transportadores facilitados gastam ATP para mover solutos a favor do gradiente, garan
+  tindo rapidez.
+
+Questão 04 Consolidação
+
+Sobre canais iônicos, é correto afirmar:
+  A) Canais iônicos gastam ATP em cada ciclo de abertura e fechamento da comporta.
+  B) Canais iônicos transportam íons a favor do gradiente eletroquímico, sem gasto de energia.
+  C) Um canal aberto é tão lento quanto um transportador facilitado, com fluxo de 10² a 10
+  íons por segundo.
+  D) Canais não têm seletividade -- qualquer íon pequeno pode passar quando o canal está
+  aberto.
+  E) Toda comporta de canal abre apenas em resposta a mudanças no potencial de membrana.
+
+                         21
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 05 Consolidação
+
+Sobre a família dos transportadores de glicose (GLUTs), julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O GLUT-1, presente na hemácia e no neurônio, tem KM próximo de 1 mM e opera quase
+  saturado em glicemia normal.
+  II. O GLUT-2, presente no hepatócito e na célula , tem KM elevado ( 17 mM) e funciona como
+  sensor de glicemia.
+  III. O GLUT-4 do músculo é insulina-independente e está sempre presente na membrana
+  plasmática.
+  IV. Todos os GLUTs gastam ATP para captar glicose contra o gradiente de concentração.
+
+Questão 06 Consolidação
+
+Considere quatro moléculas: O2, glicose, Na+ e CO2. Qual ordem reflete corretamente a perme
+abilidade da bicamada lipídica pura (do mais permeável ao menos permeável)?
+
+  A) O2 = CO2 » glicose » Na+.
+  B) Na+ » glicose » O2 = CO2.
+  C) Glicose » O2 » CO2 » Na+.
+  D) Na+ = glicose » O2 = CO2.
+  E) O2 = CO2 » Na+ » glicose.
+
+Questão 07 Consolidação
+
+Sobre o transporte de O2 do alvéolo para o sangue, é correto afirmar:
+  A) Depende de transportadores específicos de O2 na membrana do pneumócito tipo I.
+  B) Ocorre por transporte ativo primário com gasto de ATP no epitélio alveolar.
+  C) Atinge um platô quando a pO2 alveolar ultrapassa um Jmax determinado.
+  D) Independe da espessura da barreira alvéolo-capilar, dependendo apenas da pO2.
+  E) Ocorre por difusão simples, seguindo a lei de Fick, sem proteínas transportadoras
+  envolvidas.
+
+                         22
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 08 Consolidação
+
+Sobre a Na/K-ATPase, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Em cada ciclo, a bomba transporta dois Na+ para fora e três K+ para dentro da célula.
+  II. O ATP é hidrolisado pela bomba antes da ligação dos íons Na+, e o fosfato é transferido
+  para o substrato.
+  III. A bomba é eletrogênica, contribuindo diretamente para a negatividade do interior celular.
+  IV. A Na/K-ATPase pertence à família de ATPases tipo V (vacuolar) e não se autofosforila
+  durante o ciclo.
+
+Questão 09 Consolidação
+
+Sobre os tipos de comporta dos canais iônicos, é correto afirmar:
+  A) Canais dependentes de voltagem só existem em membranas de células musculares.
+  B) O receptor nicotínico de acetilcolina é um canal dependente de voltagem.
+  C) Canais dependentes de ligante abrem quando uma molécula sinalizadora se liga ao
+  receptor.
+  D) Canais dependentes de estiramento abrem em resposta a sinais químicos intracelulares,
+  não a deformação mecânica.
+  E) Um canal típico permanece sempre aberto, sem mecanismo de fechamento.
+
+                         23
+NEBLI                        ETAPA 2 -- OBJETIVAS
+
+Questão 10 Consolidação
+
+Comparando canal iônico e transportador facilitado, é correto afirmar:
+
+  A) Canal transporta soluto contra o gradiente; transportador, a favor do gradiente.
+  B) Canal é mais rápido (10­10 íons/s); transportador é mais lento (10²­10 /s) e seleciona
+  molécula específica.
+  C) Transportador é mais rápido por não mudar de conformação a cada ciclo, ao contrário
+  do canal.
+  D) Canal tem cinética com Jmax e KM bem definidos; transportador tem cinética linear sem
+  teto.
+  E) Os dois mecanismos têm a mesma velocidade -- a diferença é apenas o gasto de ATP
+  do canal.
+
+Questão 11 Integração
+
+Um paciente com insuficiência cardíaca descompensada apresenta edema agudo de pulmão.
+Líquido extravasa para o interstício alvéolo-capilar e parcialmente para a luz do alvéolo. A
+SpO2 cai de 98% para 85% rapidamente. Qual fator descrito pela lei de Fick melhor explica
+essa queda?
+
+  A) Diminuição da área alveolar disponível para troca, por colapso anatômico das vias aéreas.
+  B) Aumento do coeficiente de difusão (D) do O2 em meio líquido em relação ao gasoso.
+  C) Saturação dos transportadores de O2 na membrana do pneumócito tipo I.
+  D) Aumento da distância de difusão ( x) pela camada líquida interposta entre ar alveolar e
+  capilar.
+  E) Queda do gradiente de pCO2 entre o sangue venoso e o ar alveolar.
+
+                         24
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Após uma contração muscular, o músculo esquelético precisa relaxar. O cálcio que tinha
+sido liberado no citoplasma para disparar a contração precisa voltar para o retículo sarcoplas
+mático. Esse retorno é feito pela SERCA, uma ATPase do tipo P. Qual o mecanismo desse
+transporte?
+
+A) Transporte ativo primário com hidrólise de ATP e autofosforilação da bomba, movendo
+Ca2+ contra o gradiente.
+B) Difusão simples do Ca2+ pela membrana do retículo, a favor do gradiente eletroquímico.
+C) Transporte facilitado por canal de Ca2+ dependente de voltagem na membrana do retículo.
+D) Antiporte com Na+, aproveitando o gradiente criado pela Na/K-ATPase plasmática.
+E) Simporte com K+, puxando Ca2+ na mesma direção sem gastar ATP.
+
+Questão 13 Integração
+
+Considere uma célula que precisa absorver glicose da luz intestinal (onde a concentração varia
+ao longo do dia entre 0 e 30 mM) e exportá-la para o sangue (onde a glicemia é cerca de 5 mM).
+Julgue os itens sobre os transportes envolvidos:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A captação luminal de glicose pelo SGLT-1 é um transporte ativo secundário que usa o
+  gradiente de Na+ como força motriz.
+  II. A saída basolateral de glicose para o capilar é feita pelo SGLT-2, que gasta ATP para
+  exportar glicose.
+  III. O gradiente de Na+ que alimenta o SGLT-1 é mantido pela Na/K-ATPase localizada na
+  membrana basolateral do enterócito.
+  IV. Se a Na/K-ATPase do enterócito for inibida, a absorção de glicose pelo SGLT-1 também
+  cessa em poucos minutos.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Considere dois GLUTs: GLUT-1 (KM  1 mM) na hemácia e GLUT-2 (KM  17 mM) na célula 
+pancreática. A glicemia em jejum é 5 mM; após uma refeição rica em carboidratos, sobe para
+10 mM. Qual afirmação descreve corretamente o comportamento dos dois transportadores
+nessas duas situações?
+
+  A) Ambos transportam glicose com a mesma velocidade em qualquer glicemia, pois com
+  partilham o mesmo mecanismo.
+
+  B) Em jejum, o GLUT-2 está mais ativo que o GLUT-1 porque tem KM maior.
+
+  C) GLUT-1 opera perto do Jmax tanto em jejum quanto pós-prandial; GLUT-2 só aumenta
+  atividade após refeição.
+
+  D) O GLUT-2 satura em glicemias acima de 5 mM, então não responde mais ao aumento pós-
+  prandial.
+
+  E) O GLUT-1 só funciona em glicemias acima de 10 mM, ficando inativo no jejum.
+
+Questão 15 Integração
+
+Um paciente é encontrado inconsciente em uma garagem, ao lado de um carro com motor
+ligado. A gasometria mostra pO2 arterial normal e baixa saturação de hemoglobina. Sabendo
+que a troca de O2 entre alvéolo e capilar ocorre por difusão simples, qual o fator alterado nesse
+paciente que explica a hipóxia tecidual apesar da pO2 arterial preservada?
+
+  A) Espessamento da barreira alvéolo-capilar ( x aumentado) por edema intersticial difuso.
+  B) Diminuição da área alveolar funcional por colapso pulmonar atelectásico difuso.
+  C) Inibição direta da Na/K-ATPase dos pneumócitos por hipóxia local prolongada.
+  D) Aumento progressivo da pCO2 alveolar com queda secundária da pO2 inspirada.
+  E) Ligação irreversível do CO ao heme bloqueando o transporte sanguíneo de O2.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Sobre o transporte ativo secundário, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O gradiente de Na+ que alimenta os simportes em mamíferos é criado e mantido pela Na/
+  K-ATPase.
+
+  II. No simporte Na/glicose, os dois solutos atravessam a membrana no mesmo sentido, e a
+  passagem da glicose contra seu gradiente é paga termodinamicamente pela passagem do
+  Na+ a favor do dele.
+
+  III. O antiporte Na/H em mamíferos usa o gradiente de prótons como força motriz para
+  mover Na+.
+
+  IV. A inibição da Na/K-ATPase, ao longo de minutos, reduz a atividade dos transportes ativos
+  secundários que dependem do gradiente de Na+.
+
+Questão 17 Integração
+
+O receptor AMPA do glutamato no SNC é um canal iônico ativado por ligante, permeável a Na+
+e K+. Quando o glutamato se liga, o canal abre e ocorre despolarização local (potencial pós-
+sináptico excitatório). Qual a melhor caracterização desse mecanismo?
+
+  A) Transporte ativo primário, pois a despolarização exige energia.
+  B) Transporte passivo por canal: íons seguem seus gradientes eletroquímicos.
+  C) Transporte ativo secundário, pois acopla a passagem de Na+ e K+.
+  D) Difusão simples através da bicamada, sem participação de proteína.
+  E) Simporte de Na+ e glutamato, com ambos atravessando juntos.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+O omeprazol é um pró-fármaco que, em meio ácido, é convertido em sua forma ativa e inibe
+irreversivelmente uma proteína específica da célula parietal gástrica, reduzindo a secreção de
+ácido pelo estômago. Qual proteína é o alvo molecular dessa droga?
+
+  A) O canal de Cl- da membrana apical da célula parietal.
+  B) A anidrase carbônica do citoplasma da célula parietal.
+  C) O simporte Na/H do túbulo proximal renal.
+  D) A H+/K+-ATPase apical da célula parietal gástrica.
+  E) A Na/K-ATPase basolateral da célula parietal.
+
+Questão 19 Integração
+
+Sobre a relação entre a Na/K-ATPase e o potencial de repouso da membrana, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Toda a magnitude do potencial de repouso ( - 70 mV) é gerada diretamente pela atividade
+  eletrogênica da Na/K-ATPase.
+  II. Se a Na/K-ATPase fosse subitamente desligada, o potencial de repouso despolarizaria
+  imediatamente para zero em milissegundos.
+  III. A maior contribuição para o potencial de repouso vem do gradiente de K+ combinado com
+  a alta permeabilidade da membrana ao K+ em repouso.
+  IV. A Na/K-ATPase contribui indiretamente para o potencial de repouso porque é ela que cria
+  e mantém o gradiente de K+.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+No epitélio intestinal, o SGLT-1 da membrana apical captura glicose da luz e o GLUT-2 da
+membrana basolateral exporta glicose para o capilar. A glicemia no capilar ( 5 mM) costuma
+ser maior que a glicose intracelular do enterócito. Como a glicose sai da célula pela membrana
+basolateral?
+
+A) Por difusão facilitada via GLUT-2, a favor do gradiente intracelular alto.
+B) Por transporte ativo primário com gasto de ATP no GLUT-2, mantendo a glicose contra o
+gradiente.
+C) Por difusão simples através da bicamada lipídica basolateral, sem necessidade de proteína.
+D) Por antiporte glicose/Na+, com a glicose saindo enquanto Na+ entra.
+E) Pela bomba Na/K-ATPase, que carrega a glicose junto com o K+.
+
+Questão 21 Integração
+
+Crianças com diarreia aguda grave por cólera podem perder vários litros de líquido por dia. A
+solução de reidratação oral (SRO) contém glicose e sódio. Qual mecanismo molecular explica
+por que a glicose é essencial nessa solução, e a simples reposição de água e sal é menos eficaz?
+
+  A) A glicose neutraliza a toxina colérica no lúmen intestinal, impedindo sua ligação ao
+  enterócito.
+  B) A glicose fornece energia (ATP) imediata aos enterócitos para que possam reabsorver Na+
+  ativamente.
+  C) A glicose é cotransportada com Na+ pelo SGLT-1; sem ela, Na+ e água não atravessam.
+  D) A glicose abre o canal CFTR, permitindo entrada de Cl- e seguimento da água.
+  E) A glicose acidifica o lúmen e dificulta a ação da toxina colérica.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Sobre a cinética de saturação de um transportador facilitado, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O Jmax aumenta quando o número de transportadores presentes na membrana aumenta.
+  II. Quando a concentração de soluto é muito maior que o KM, o fluxo cresce linearmente com
+  a concentração.
+  III. O KM tem unidade de concentração (por exemplo, mM) e corresponde à concentração de
+  soluto que dá metade do Jmax.
+  IV. Um transportador com KM baixo tem alta afinidade pelo seu soluto e opera eficiente
+  mente mesmo em concentrações relativamente baixas.
+
+Questão 23 Integração
+
+O lisossomo é uma organela com pH interno em torno de 4,5. Esse pH ácido é essencial para
+a atividade das enzimas hidrolíticas que degradam macromoléculas. Qual proteína mantém
+esse gradiente de prótons?
+
+  A) A Na/K-ATPase da membrana lisossomal.
+  B) Um canal de H+ dependente de voltagem que se abre quando o lisossomo recebe carga.
+  C) A H+/K+-ATPase, semelhante à da célula parietal gástrica.
+  D) Antiporte Na/H que joga H+ para dentro do lisossomo às custas do gradiente de Na+.
+  E) A V-ATPase (ATPase vacuolar), que bombeia H+ para dentro do lisossomo com gasto de
+  ATP.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Em um episódio isquêmico agudo (interrupção de aporte sanguíneo), o ATP intracelular cai
+rapidamente. Em poucos minutos, a célula incha e pode chegar a morrer. Qual a sequência
+mecanística mais correta que explica esse inchaço?
+
+A) Hidrólise espontânea de proteínas estruturais  aumento de pressão oncótica intracelu
+lar  entrada de água.
+B) Falência da Na/K-ATPase  acúmulo de Na+ intracelular  entrada de água por osmose
+ edema celular.
+C) Abertura de canais de Cl- sensíveis a hipóxia  saída de Cl-  entrada de água.
+D) Inibição da H+/K+-ATPase  acidificação intracelular  desnaturação proteica  morte
+celular.
+
+E) Bloqueio do simporte Na/glicose  acúmulo de glicose no sangue  desvio osmótico.
+
+Questão 25 Integração
+
+No túbulo proximal renal, cerca de 80% do bicarbonato filtrado é reabsorvido. Esse processo
+depende criticamente do antiporte Na+/H+ (NHE3) na membrana apical da célula tubular. Como
+esse antiporte contribui para a reabsorção de bicarbonato?
+
+  A) O NHE3 reabsorve bicarbonato diretamente em troca de Na+ luminal.
+  B) O Na+ luminal é trocado por bicarbonato intracelular, que segue para o capilar.
+  C) O H+ luminal é trocado por Na+, facilitando a entrada de bicarbonato pela mesma proteína.
+  D) O H+ expulso pelo NHE3 reage com HCO3- filtrado, formando CO2 + H2O reabsorvidos.
+  E) O NHE3 gasta ATP diretamente para reabsorver bicarbonato contra o gradiente.
+
+                       31
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Uma criança de 6 meses chega ao pronto-socorro com diarreia profusa há 8 horas e sinais
+clínicos de desidratação moderada (mucosas secas, turgor diminuído, taquicardia, mas ainda
+alerta e bebendo). A equipe inicia reidratação oral com sachê de SRO padronizado da OMS
+(sódio 75 mmol/L, glicose 75 mmol/L, potássio 20 mmol/L). Após 4 horas, a criança está
+bem hidratada. Qual a justificativa fisiológica para a eficácia dessa solução, especialmente em
+comparação com uma solução contendo apenas sódio e água?
+
+  A) A glicose é cotransportada com Na+ pelo SGLT-1; o influxo de Na+ arrasta água por osmose;
+  sem glicose, o SGLT-1 não opera e a reabsorção cessa.
+
+  B) A glicose serve como fonte energética imediata para a Na/K-ATPase do enterócito, sem a
+  qual a reabsorção de sódio para por falta de ATP.
+
+  C) A glicose neutraliza enterotoxinas no lúmen, restaurando a integridade epitelial e per
+  mitindo reabsorção passiva de água.
+
+  D) A glicose aumenta a pressão oncótica luminal, criando gradiente osmótico que puxa água
+  para o capilar.
+
+  E) O sódio sozinho é incapaz de ser absorvido em qualquer condição clínica; só na presença
+  de glicose ele atravessa a membrana basolateral.
+
+Questão 27 Aplicação
+
+Um paciente de 68 anos com fibrilação atrial e insuficiência cardíaca leve a moderada usa
+digoxina há 2 anos com bom controle clínico. Em retorno ambulatorial, o cardiologista revisa
+o mecanismo da droga com o residente. Julgue os itens sobre o mecanismo da digoxina:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A digoxina inibe parcialmente a Na/K-ATPase do cardiomiócito, levando a aumento da
+  concentração intracelular de Na+.
+
+  II. Com a Na/K-ATPase totalmente inibida, o cardiomiócito teria contratilidade abolida e o
+  paciente entraria em parada cardíaca.
+  III. O acúmulo de Na+ no cardiomiócito aumenta a atividade do trocador Na/Ca, exportando
+  mais Ca2+ para fora da célula e reduzindo a contratilidade.
+  IV. O efeito inotrópico positivo da digoxina depende do aumento de Ca2+ intracelular, que
+  se acumula porque o trocador Na/Ca trabalha menos eficientemente quando o gradiente de
+  Na+ cai.
+
+                      32
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Uma paciente de 72 anos com insuficiência cardíaca descompensada chega ao pronto-socorro
+com dispneia em repouso, ortopneia e SpO2 de 84% em ar ambiente. A radiografia mostra
+infiltrado bilateral compatível com edema agudo de pulmão cardiogênico. Após administração
+de furosemida endovenosa, há diurese intensa e melhora progressiva da SpO2 para 96% em 2
+horas. Qual a explicação fisiológica para a melhora da oxigenação após o diurético?
+
+A) A furosemida age diretamente nos pneumócitos, abrindo canais de O2 na membrana
+alveolar.
+B) A furosemida aumenta a área alveolar disponível para troca, recrutando alvéolos previa
+mente colapsados.
+C) A furosemida acelera a Na/K-ATPase dos pneumócitos, aumentando a captação ativa de O2.
+D) Eliminação do líquido alveolar reduz  x e restaura a difusão de O2.
+E) A furosemida aumenta o gradiente alvéolo-capilar de O2 por estimular a respiração.
+
+Questão 29 Aplicação
+
+Um homem de 55 anos é admitido após ingestão acidental de ouabaína (substância usada
+em pesquisa, que inibe potentemente e irreversivelmente a Na/K-ATPase). Apresenta arrit
+mia cardíaca grave, fraqueza muscular generalizada e confusão mental progressiva. Qual a
+sequência fisiopatológica mais correta que explica esses sintomas?
+
+  A) Inibição da Na/K-ATPase  diminuição da entrada de Na+  hiperpolarização  con
+  tração muscular sustentada.
+
+  B) Inibição da Na/K-ATPase  perda dos gradientes, despolarização e edema celular 
+  falência elétrica generalizada.
+
+  C) Inibição da Na/K-ATPase  aumento da síntese compensatória de ATP  hiperatividade
+  neuronal.
+  D) Inibição da Na/K-ATPase  ativação dos canais de Cl-  hiperpolarização paroxística.
+  E) Inibição da Na/K-ATPase  aumento do gradiente de Ca2+  relaxamento muscular
+  generalizado.
+
+                      33
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Um paciente com infarto agudo do miocárdio extenso apresenta, na área isquêmica, queda
+abrupta do ATP intracelular. Em modelos experimentais, observa-se nas primeiras horas:
+aumento do Na+ intracelular, edema celular, perda do potencial de repouso (despolarização
+parcial sustentada) e, posteriormente, aumento do Ca2+ intracelular com lesão mitocondrial.
+Qual mecanismo molecular primário explica essa cascata?
+
+  A) Abertura súbita de canais de Na+ dependentes de voltagem por hipóxia direta.
+
+  B) Ativação de transportadores de glicose insulina-independentes (GLUT-1) durante a
+  isquemia.
+
+  C) Falência da Na/K-ATPase por queda de ATP, com perda dos gradientes e dos transportes
+  secundários.
+
+  D) Inibição da SERCA, com retenção de Ca2+ no retículo sarcoplasmático.
+
+  E) Bloqueio dos canais de K+ de vazamento por acidose intracelular leve.
+
+                      34
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que o transporte de O2 do alvéolo para o sangue não satura, mesmo em
+hiperóxia (FiO2 de 100%), enquanto o transporte de glicose pelo GLUT-1 da hemácia
+satura em glicemias um pouco acima da fisiológica.
+
+    MODELO DE RESPOSTA
+
+   O O2 atravessa por difusão simples, governada pela lei de Fick: o fluxo é linear no
+   gradiente, sem proteína no caminho, sem teto. Aumentar a pO2 sempre aumenta o fluxo
+   proporcionalmente. Já a glicose atravessa por transportador (GLUT-1), proteína integral
+   em número finito. Cada GLUT tem um ciclo de mudança conformacional, e o conjunto
+   dos transportadores tem capacidade máxima de processamento (Jmax). Acima de
+   algumas vezes o KM ( 1 mM para GLUT-1), todos os sítios estão ocupados o tempo todo:
+   a curva atinge o platô. A diferença reside em ter ou não proteína mediando.
+
+Questão Q2
+
+Explique mecanisticamente por que um canal iônico transporta íons centenas de vezes
+mais rapidamente que um transportador facilitado, mesmo ambos sendo proteínas
+integrais da membrana.
+
+    MODELO DE RESPOSTA
+
+   O canal funciona como um túnel: quando a comporta está aberta, o íon atravessa o poro
+   hidratado seguindo seu gradiente eletroquímico, sem nenhuma interação que exija
+   mudança conformacional. A proteína fica parada; o íon faz o trabalho. Um único canal
+   aberto move 10 a 10 íons por segundo. O transportador funciona como uma porta
+   giratória: a cada molécula transportada, a proteína inteira muda de conformação (sítio
+   acessível pelo lado X, depois fechado, depois acessível pelo lado Y, depois liberado). Esse
+   ciclo é lento (10² a 10 moléculas por segundo). Velocidade vem de não exigir trabalho
+   mecânico da proteína a cada passagem.
+
+                             35
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique por que a Na/K-ATPase, embora seja eletrogênica, é responsável apenas por
+uma pequena fração direta do potencial de repouso da membrana neuronal ( - 70 mV),
+enquanto o gradiente de K+ responde pela maior parte.
+
+MODELO DE RESPOSTA
+
+A bomba é eletrogênica porque move 3 cargas positivas para fora e 2 para dentro a cada
+ciclo -- saldo líquido de uma carga positiva exportada. Mas esse efeito direto é modesto,
+da ordem de 5 a 10 mV. A maior parte do potencial de repouso vem de um mecanismo
+distinto: a membrana em repouso é altamente permeável ao K+ (graças a canais de
+vazamento), e o K+ tende a sair pelo gradiente que a bomba criou. Essa saída deixa o
+interior negativo até atingir o potencial de equilíbrio do K+ ( - 90 mV). A bomba criou
+o gradiente; o gradiente, lido pelos canais de K+, cria a maior parte do potencial.
+
+Questão Q4
+
+Explique como o SGLT-1 do enterócito consegue captar glicose contra seu gradiente de
+concentração sem gastar ATP diretamente.
+
+    MODELO DE RESPOSTA
+
+   O SGLT-1 é um cotransportador que liga simultaneamente Na+ e glicose, e move ambos
+   para dentro da célula. O gradiente de Na+ (alto fora, baixo dentro) é mantido pela Na/K-
+   ATPase basolateral, que gasta ATP. Quando o SGLT-1 acopla a entrada de Na+ a favor do
+   gradiente à entrada de glicose contra o gradiente, a energia liberada pela descida do Na+
+   paga a subida da glicose. O SGLT-1 em si não consome ATP -- ele "vive" do gradiente já
+   criado. O ATP foi pago a montante, pela Na/K-ATPase. É a essência do transporte ativo
+   secundário.
+
+       36
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um aluno escreveu: "A bomba Na/K-ATPase é a responsável direta pelo
+potencial de repouso da membrana. Como ela retira mais cargas positivas do interior
+celular do que coloca, o interior fica negativo. Por isso, se inibirmos a bomba com
+ouabaína, o potencial de repouso vai a zero imediatamente, em milissegundos, e a célula
+despolariza." Aponte o erro central do raciocínio e descreva o que realmente acontece.
+
+MODELO DE RESPOSTA
+
+O aluno comete dois erros encadeados. Primeiro, atribui à bomba o efeito direto
+principal sobre o potencial de repouso. O efeito eletrogênico direto da Na/K-ATPase é
+pequeno (5­10 mV); a maior parte dos - 70 mV vem do gradiente de K+ lido pelos canais
+de vazamento de K+. Segundo, supõe que a inibição da bomba leva à despolarização
+imediata. Na verdade, despolarização imediata seria só os 5­10 mV diretos. O resto vem
+da dissipação progressiva do gradiente de K+ ao longo de minutos a horas (depende da
+membrana continuar vazando K+ e Na+ sem a bomba repor). A despolarização é lenta.
+A bomba é causa indireta do potencial -- ela mantém o gradiente que o causa.
+
+       37
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 A     Q02 CECE      Q03 D     Q04 B     Q05 CCEE
+                        Q08 EECE  Q09 C     Q10 B
+Q06 A     Q07 E
+                        Q13 CEEC  Q14 C     Q15 E
+INTEGRAÇÃO (Q11­Q25)    Q18 D     Q19 EECC  Q20 A
+                        Q23 E     Q24 B     Q25 D
+Q11 D     Q12 A
+                        Q28 D     Q29 B     Q30 C
+Q16 CCEC  Q17 B
+
+Q21 C     Q22 CECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 A     Q27 CEEC
+
+                        44
+

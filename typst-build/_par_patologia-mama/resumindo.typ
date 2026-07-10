@@ -1,0 +1,17 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#resumindo-page((
+  ([Carcinoma ductal invasivo (CDI)], [Padrão histológico mais frequente do câncer de mama; macroscopia revela nódulo único firme, branco-acinzentado, espiculado; microscopia mostra ninhos e cordões em estroma desmoplásico denso após ultrapassar membrana basal.]),
+  ([Painel IHQ obrigatório], [Quatro marcadores definem subtipo e tratamento: RE e RP nucleares (positivo ≥ 1%), HER2 de membrana (0/1+ negativo, 2+ confirmar por ISH, 3+ positivo), Ki-67 como índice proliferativo (baixo \<14%, alto \>20%).]),
+  ([Subtipos moleculares surrogate], [Luminal A (RE+, HER2-, Ki-67 baixo, hormonioterapia); Luminal B (RE+, Ki-67 alto, hormonioterapia + quimioterapia); HER2-enriquecido (alvo trastuzumabe); Triplo-negativo (quimioterapia citotóxica, prognóstico pior).]),
+  ([Graduação Nottingham (SBR)], [Três parâmetros pontuados 1-3: formação tubular, grau nuclear, índice mitótico. Soma 3-5 = grau 1 (bem diferenciado); 6-7 = grau 2; 8-9 = grau 3 (pouco diferenciado, prognóstico pior independentemente do subtipo molecular).]),
+  ([Estadiamento T do tumor primário], [T1 até 2 cm (a/b/c); T2 entre 2 e 5 cm; T3 acima de 5 cm; T4 muda de critério: invasão de parede torácica (T4a), pele (T4b), ambos (T4c) ou carcinoma inflamatório (T4d). Peitoral não conta como parede.]),
+  ([Protocolo de envio e fixação], [Formalina tamponada a 10% em volume cinco a dez vezes superior ao da peça; fixação seis horas a quarenta e oito horas conforme tamanho; secção precoce de peças volumosas evita autólise central simulando necrose.]),
+  ([Pintura e orientação de margens], [Antes do primeiro corte: seis margens (anterior, posterior, superior, inferior, medial, lateral) com cores distintas ou cassetes separados. Orientação cirúrgica por fios: curto cranial, longo lateral, médio medial. Sem orientação, margem positiva vira informação inútil.]),
+  ([Carcinoma lobular invasivo (CLI)], [Crescimento em fila indiana (single-file) entre fibras colágenas; sem massa coesa pela perda de E-caderina. Macroscopia traiçoeira: área apenas mais firme, sem nódulo definido. IHQ E-caderina negativa distingue de CDI.]),
+  ([Carcinoma in situ vs invasivo], [In situ confinado ao ducto com camada mioepitelial e membrana basal preservadas; invasivo ultrapassa membrana basal. IHQ mioepitelial (p63 nuclear, calponina e actina de músculo liso) resolve casos duvidosos.]),
+  ([BI-RADS e biópsia core], [Categorias 0-6: 4 e 5 indicam biópsia (4 suspeita, 5 alta suspeita ≥95% malignidade, 6 já confirmado). Core biopsy guiada por ecografia ou estereotaxia é o exame de confirmação preferido antes da cirurgia.]),
+  ([Mastectomia pós-neoadjuvância], [Leito tumoral fibrosado, identificado por clip metálico ou correlação com mamografia pré-tratamento; amostragem generosa (cassete por centímetro do leito) busca focos residuais. Estadiamento "ypT" mede maior foco invasivo viável, não leito fibrosado.]),
+  ([Índice RCB (Residual Cancer Burden)], [Escore numérico que combina dimensões do leito, celularidade invasiva, in situ e doença nodal. RCB-0 (resposta completa) a RCB-III (extensa). RCB-0 em HER2+ e triplo-negativo associa-se a sobrevida em 10 anos próxima de 95%.]),
+  ([Arquivamento e cadeia de custódia], [Requisição ≥5 anos; laudo ≥20 anos ou indefinido; lâminas ≥5 anos; blocos de parafina ≥10 anos, idealmente indefinidos. Bloco preservado é patrimônio: permite revisão diagnóstica, novos marcadores IHQ e testes moleculares emergentes.]),
+))

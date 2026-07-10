@@ -1,0 +1,1478 @@
+NEBLI · APOSTILA
+
+Cadeia respiratória e
+fosforilação oxidativa
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:   Leia com o slide do prof aberto ao lado; figuras citadas no texto
+               referenciam o slide.
+Onde estudar:  Lehninger, Princípios de Bioquímica (7ª ed.), Cap. 19 (fosforilação
+               oxidativa) · Marks, Bioquímica Médica Básica (4ª ed.), Cap. 24 · Voet,
+               Biochemistry 3e, Cap. 22 (citado no próprio slide para inibidores)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Por que existe uma cadeia de transporte de elétrons
+
+       1.1 A lógica termodinâmica: queda controlada de energia em degraus
+       1.2 Óxido-redução, potencial padrão e G da queda do NADH até o O
+       1.3 Onde acontece: membrana mitocondrial interna e seus componentes
+  PARTE II -- Os quatro complexos e o bombeamento de prótons
+       2.1 Complexo I e Complexo II: as duas portas de entrada
+       2.2 Coenzima Q, ciclo Q no Complexo III e o citocromo c
+       2.3 Complexo IV: o passo final ao oxigênio e a estequiometria de H
+  PARTE III -- ATP sintase, saldo energético e o que quebra o sistema
+       3.1 Teoria quimiosmótica e a ATP sintase FF (sítios O-L-T)
+       3.2 Razão P/O, saldo da glicose e lançadeiras do NADH citosólico
+       3.3 Inibidores, desacopladores e controle respiratório
+
+RESUMINDO (1­2 PÁGINAS)
+
+       10 seções enxutas em duas colunas
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+       10 Consolidação · 15 Integração · 5 Aplicação
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+       Mecanísticas; Q5 identifica erro conceitual
+
+GABARITO CONSOLIDADO DA ETAPA 2
+
+       Última seção
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A cadeia respiratória é onde o metabolismo aeróbio finalmente cobra a fatura. A glicólise rendeu
+    2 ATP1 líquidos, o ciclo de Krebs rendeu mais 2 GTP2, e durante todo o caminho foram arrancados
+    elétrons que ficaram presos em duas moléculas carregadoras -- NADH3 e FADH4. É aqui que esses
+    elétrons são descarregados, mas não num único passo -- passam por quatro complexos proteicos
+    em queda controlada, e a energia liberada bombeia prótons para fora da matriz mitocondrial. O
+    gradiente de prótons assim formado é a verdadeira moeda intermediária da respiração celular
+    -- não é o NADH que faz ATP diretamente, é o H+ do espaço intermembranar voltando pelo canal
+    da ATP sintase5. Esta aula segue o caminho do elétron -- do NADH até o O --, mostra como cada
+    complexo bombeia, fecha a conta de ATP por glicose com a razão P/O moderna, e termina nas
+    drogas que param ou desconectam a máquina (inibidores e desacopladores).
+
+PARTE I -- Por que existe uma cadeia de transporte de
+
+elétrons
+
+1.1 A lógica termodinâmica: queda controlada de energia em degraus
+A pergunta certa para começar não é "como" a cadeia funciona, é por que ela tem quatro complexos em
+vez de um. Se NADH + ½O  NAD6+ + HO libera 220 kJ/mol -- e a síntese de um ATP custa 30 kJ/mol
+--, em tese bastaria um passo único e a célula ganharia 7 ATP de uma vez. O problema é o tamanho do
+salto. Soltar 220 kJ/mol num único passo seria como descer um penhasco de uma vez: a energia viraria
+calor, não trabalho útil. Tudo ou queima ou se perde.
+
+A solução evolutiva foi fracionar a queda em degraus pequenos. Cada degrau libera de 20 a 80 kJ/mol
+-- energia suficiente para empurrar prótons contra um gradiente, sem desperdício térmico. A célula
+transformou um penhasco numa escada com patamares, e em cada patamar há uma bomba que captura
+um pedacinho da energia. É a mesma lógica de uma usina hidrelétrica em cascata: várias quedas
+pequenas geram mais eletricidade aproveitável do que uma queda única gigantesca.
+
+   1ATP ­ adenosina trifosfato -- moeda energética da célula; sua hidrólise libera a energia usada por bombas, motores e
+biossíntese
+
+   2GTP ­ guanosina trifosfato -- análogo do ATP, usado por algumas enzimas como fonte direta de energia
+   3NADH ­ forma reduzida da nicotinamida adenina dinucleotídeo; carrega 2 elétrons + 1 H+ principal coenzima de
+oxidorredução do catabolismo
+   4FADH ­ forma reduzida da flavina adenina dinucleotídeo; carrega 2 elétrons + 2 H+ ligada covalentemente a desidro
+genases como a succinato desidrogenase
+   5ATP sintase ­ enzima rotativa F0F1 que sintetiza ATP a partir de ADP + Pi usando a energia do gradiente de prótons
+   6NAD ­ forma oxidada da nicotinamida adenina dinucleotídeo (NAD+); aceita 2 elétrons + 1 H+ para virar NADH
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Em uma frase: a cadeia respiratória é uma escada termodinâmica. Soltar os 220
+kJ/mol do NADHO num só passo viraria calor. Fracionar em 4 patamares (Complexos I, III, IV -- o II
+não bombeia) permite capturar a energia em forma de gradiente de prótons, em vez de perdê-la como
+calor.
+
+Os elétrons percorrem essa escada do potencial mais negativo (NADH, E°` = -0,32 V) ao potencial
+mais positivo (O/HO, E°' = +0,82 V), e cada componente da cadeia tem potencial intermediário que
+ordena a fila. É um princípio universal de eletroquímica: elétrons fluem espontaneamente de potenciais
+negativos para potenciais positivos, e a diferença de potencial determina a energia liberada -- quanto
+maior o E°`, maior o G° (lembrando que G° = -nFE°').
+
+Organização da cadeia em quatro complexos. Os elétrons entram pelo Complexo I (do NADH) ou pelo Complexo II
+(do FADH2), descem pela coenzima Q até o Complexo III, atravessam o citocromo c até o Complexo IV, e são entregues
+ao O. Em três pontos (I, III, IV) prótons são bombeados da matriz para o espaço intermembranar -- o Complexo II
+não bombeia, e essa é a razão de o FADH2 render menos ATP.
+
+1.2 Óxido-redução, potencial padrão e G da queda do NADH até o O
+Para entender por que os elétrons descem nessa ordem, é preciso fixar a regra de óxido-redução: cada
+par redox tem um potencial padrão (E°`) que mede sua afinidade por elétrons. Quanto mais positivo o
+E°', mais o par "quer" elétrons. NADH/NAD+ tem E°` = -0,32 V (segura mal os elétrons, doa fácil); O/HO
+tem E°' = +0,82 V (afinidade altíssima, aceita avidamente). A diferença é 1,14 V -- equivalente a G° =
+-2 × 96.500 × 1,14 = -220 kJ/mol.
+Os componentes intermediários têm E°` escalonado: FMN7 (-0,30 V), centros Fe-S do Complexo I (-0,25
+a -0,05 V), coenzima Q (+0,045 V), citocromos do Complexo III (+0,08 a +0,22 V), citocromo c (+0,25 V),
+
+   7FMN ­ flavina mononucleotídeo -- grupo prostético do Complexo I; aceita 2 elétrons na transição FMN  FMNH2
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+centros Cu e citocromos do Complexo IV (+0,29 a +0,55 V), e finalmente O/HO (+0,82 V). A fila é absoluta:
+trocar a ordem violaria a termodinâmica.
+
+Cálculo do G° da oxidação completa do NADH pelo O. G°` = -nFE°' = -2 × 96,5 × (0,82 - (-0,32)) = -220 kJ/
+mol. Comparar com o G° da síntese de ATP (+31 kJ/mol) mostra que há energia mais do que suficiente para fabricar
+vários ATP por NADH -- o limite prático fica em 2,5 ATP devido aos custos de transporte.
+
+O FADH2 tem uma história sutilmente diferente. Seu potencial é mais positivo que o do NADH ( 0 V), de
+modo que ele entra já abaixo do Complexo I -- direto na coenzima Q, via Complexo II. Resultado: perde
+a primeira bomba e gera menos ATP por elétron. Não é um detalhe contábil, é uma consequência direta
+de onde ele se encaixa na escada termodinâmica.
+
+   Resumindo até aqui: Se você só lembrar de uma coisa: cada componente da cadeia tem um E°` fixo, e a
+   fila respeita rigidamente a ordem crescente de potencial. NADH (-0,32 V)  Complexo I  CoQ (+0,045
+   V)  Complexo III  cit c (+0,25 V)  Complexo IV  O (+0,82 V). FADH2 entra mais "embaixo" e por
+   isso rende menos.
+
+1.3 Onde acontece: membrana mitocondrial interna e seus componentes
+A cadeia não flutua em qualquer lugar -- ela está cravada na membrana mitocondrial interna. Essa
+localização não é decorativa: é o que torna possível separar o lado "rico em prótons" (espaço intermem
+branar) do lado "pobre em prótons" (matriz). Sem essa barreira impermeável, o gradiente colapsaria e
+a energia viraria calor.
+A mitocôndria tem duas membranas. A externa é porosa: tem porinas8 que deixam passar livremente
+íons, ATP, ADP9, Pi10, NADH -- qualquer coisa menor que 5 kDa. Para fins de gradiente eletroquímico,
+
+   8porinas ­ canais que formam poros inespecíficos na membrana externa; permitem passagem livre de moléculas <
+5 kDa
+
+   9ADP ­ adenosina difosfato -- forma descarregada do ATP; substrato da ATP sintase para gerar nova molécula de ATP
+via fosforilação oxidativa
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+o espaço intermembranar é continuação química do citosol. A membrana interna é o oposto: pratica
+mente impermeável a íons (especialmente H+), com transportadores específicos para cada metabólito
+que precisa entrar ou sair. É essa impermeabilidade que sustenta o gradiente.
+
+A membrana interna não é lisa -- ela se dobra em cristas11, invaginações que multiplicam a área
+disponível por 5 a 10 vezes. Quanto mais cristas, mais cadeia respiratória cabe. Cardiomiócito,
+neurônio, hepatócito têm mitocôndrias com cristas densas; fibroblasto em repouso tem mitocôndrias
+com poucas cristas.
+
+Micrografia eletrônica de uma mitocôndria. As linhas paralelas internas são as cristas. Uma célula humana média
+tem 2.000 mitocôndrias, ocupando cerca de 1/5 do volume celular. Em hepatócito, esse número pode chegar a
+3.000­5.000.
+
+Os componentes da cadeia estão organizados em quatro complexos proteicos (I, II, III, IV) -- todos
+atravessam ou estão ancorados na membrana interna -- mais dois carregadores móveis: a coenzima Q
+(lipossolúvel, difunde dentro da membrana) e o citocromo c (proteína periférica, difunde na face externa
+da membrana interna, no espaço intermembranar). Com exceção da CoQ, todos os componentes da
+cadeia são proteínas, geralmente com grupos prostéticos: FMN e FAD12, centros ferro-enxofre (Fe-S),
+grupos heme nos citocromos, e centros de cobre no Complexo IV.
+
+   Resumindo até aqui: O que ficou de pé: a cadeia está cravada na membrana interna mitocondrial.
+   Membrana externa porosa (espaço intermembranar = citosol quimicamente). Membrana interna im
+   permeável aos prótons -- é o que sustenta o gradiente. Cristas multiplicam a área e a capacidade
+   respiratória. Quatro complexos fixos + dois carregadores móveis (CoQ na membrana, cit c na face
+   externa).
+
+   10Pi ­ fosfato inorgânico (HPO42-) -- co-substrato da ATP sintase; entra na matriz por simporte com H+
+   11cristas ­ invaginações da membrana mitocondrial interna que multiplicam sua área de superfície; em células meta
+bolicamente ativas (cardiomiócito, hepatócito) as cristas são densas e abundantes
+   12FAD ­ flavina adenina dinucleotídeo -- forma oxidada do FADH2 grupo prostético de várias desidrogenases
+
+                                                                                 6
+NEBLI    ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Os quatro complexos e o bombeamento de
+
+prótons
+
+2.1 Complexo I e Complexo II: as duas portas de entrada
+O Complexo I é a porta principal -- e é a maior das máquinas da cadeia. Formado por cerca de 45 cadeias
+polipeptídicas, contém 1 FMN e 6­7 centros Fe-S. Recebe os elétrons do NADH na face matricial e os
+entrega à coenzima Q, do outro lado da membrana. Ao fazer isso, bombeia 4 prótons da matriz para o
+espaço intermembranar. Nome formal: NADH-coenzima Q oxidorredutase.
+
+A química interna é em dois passos. Primeiro, o NADH transfere 2 elétrons ao FMN, que vira FMNH.
+Depois, os elétrons passam por uma cadeia de centros Fe-S até chegarem à CoQ. Os centros Fe-S
+aceitam apenas elétrons -- não prótons. Resultado: na transferência do FMNH aos centros Fe-S, os
+dois prótons que vieram com o elétron são "excluídos" para o espaço intermembranar. É um truque
+elegante -- a química obriga a separação do H+ do e-, e essa separação é direcional (sempre da matriz
+para fora).
+
+Exclusão de prótons no Complexo I. FMN aceita 2 e- + 2 H+ do NADH (vira FMNH2). Os centros Fe-S aceitam só elétrons
+-- os prótons são deslocados para o espaço intermembranar. Mais 2 prótons adicionais são bombeados ativamente
+por mudança conformacional da subunidade transmembrana -- totalizando 4 H+ por NADH oxidado.
+
+O Complexo II é a segunda porta de entrada -- para o FADH. É o mais simples dos quatro complexos:
+contém a succinato desidrogenase (a mesma enzima do ciclo de Krebs -- a única do ciclo que está na
+membrana interna em vez de na matriz), um FAD ligado covalentemente, centros Fe-S e um grupo heme.
+Não bombeia prótons. A reação líquida é: succinato + CoQ  fumarato + CoQ-H. Os elétrons entram
+diretamente na CoQ, pulando o Complexo I.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Essa é a razão estrutural pela qual o FADH rende menos ATP que o NADH: ele entra "abaixo" do
+Complexo I e não causa o bombeamento dos 4 prótons que o NADH causa. Não é fraqueza do FAD -- é
+geografia.
+
+Há ainda outras "portas laterais" para a CoQ -- e isso vai voltar. A acil-CoA desidrogenase da -oxidação
+dos ácidos graxos entrega elétrons via FADH a uma proteína intermediária (ETF) que repassa para a
+CoQ -- guarde esse caminho, é por aqui que a queima de gordura entra na cadeia respiratória, item que
+reaparece em -oxidação. A glicerol-3-fosfato desidrogenase mitocondrial (importante na lançadeira de
+glicerol-3-fosfato13) também entrega à CoQ. Toda a "estepe" de elétrons converge para a CoQ -- ela é
+o hub central das portas de entrada.
+
+Resumindo até aqui: Duas portas para entrar na cadeia, três outras estepes. Complexo I aceita NADH
+e bombeia 4 H+. Complexo II aceita FADH2 do succinato e não bombeia. Acil-CoA desidrogenase (-
+oxidação) e glicerol-3-P desidrogenase também entregam direto na CoQ. Em todos os casos, o destino
+comum é a coenzima Q.
+
+2.2 Coenzima Q, ciclo Q no Complexo III e o citocromo c
+A coenzima Q (ou ubiquinona, ou CoQ10) merece atenção própria. Não é proteína -- é uma benzoquinona
+com cauda isoprênica longa, totalmente lipossolúvel, livre para se difundir lateralmente na membrana
+interna. Ela aceita 2 elétrons (e 2 prótons) e vira ubiquinol (QH). Esse caráter móvel é fundamental: a
+CoQ pode coletar elétrons dos Complexos I, II e das vias paralelas, e levá-los todos para o Complexo III.
+
+Outro detalhe importante é que a CoQ aceita elétrons um por vez ou dois de uma vez. Existe um estado
+intermediário, a semiquinona (QH·), com apenas um elétron. Essa flexibilidade -- uma molécula de Q
+pode estar em três estados redox (Q, QH·, QH) -- é o que torna possível o ciclo Q no Complexo III.
+
+A coenzima Q. Benzoquinona com cauda isoprênica ( 10 unidades em humanos = CoQ10). Estados redox: Q (oxidado),
+QH· (semiquinona, 1 elétron), QH2 (ubiquinol, 2 elétrons). Sua lipossolubilidade permite difusão lateral livre na
+membrana interna -- é o "ônibus" que coleta elétrons de várias fontes.
+
+   13lançadeira de glicerol-3-fosfato ­ sistema de transporte de equivalentes redutores do citosol para a mitocôndria
+usado por músculo esquelético e cérebro; rende FADH2 em vez de NADH na matriz, "perdendo" 0,4 ATP
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+O Complexo III (coenzima Q-citocromo c oxidorredutase ou citocromo bc1) é onde acontece o ciclo Q --
+um dos mecanismos mais elegantes da bioquímica. Ele resolve um problema químico real: a CoQ traz 2
+elétrons + 2 H+, mas o citocromo c, o próximo carregador, aceita só 1 elétron por vez.
+
+Pense no ciclo Q como um double buffer: o complexo processa um elétron de cada vez para o citocromo c
+(que aceita um só), mas ainda recicla metade da memória -- uma molécula de Q que entrou volta a virar
+QH no final. No ciclo Q, duas moléculas de QH se ligam ao Complexo III, mas em sítios diferentes.
+Uma libera seus 2 elétrons num caminho bifurcado: um elétron vai para o citocromo c (via citocromo c1),
+e o outro elétron volta dentro do complexo via citocromo b, sendo usado para reduzir outra molécula de
+Q de volta a QH. No saldo final: 2 QH entram, 1 QH sai (reciclado), 1 Q sai, 2 elétrons foram entregues
+ao citocromo c, e 4 prótons foram bombeados para o espaço intermembranar. É química que parece
+contábil -- mas dobra a eficiência de bombeamento.
+
+Ciclo Q no Complexo III. Bifurcação dos elétrons do QH2: um vai para o cit c (via cit c1), outro recicla outro Q via cit b.
+Resultado líquido: 2 e- entregues ao cit c + 4 H+ bombeados (2 vindos da matriz, 2 do próprio QH2). Esse é o segundo
+ponto de bombeamento da cadeia.
+
+O citocromo c é uma proteína pequena ( 13 kDa), solúvel, periférica à membrana interna (lado externo).
+Ele aceita 1 elétron por vez via seu grupo heme (Fe3+  Fe2+). Difunde-se rapidamente entre o Complexo
+III e o Complexo IV. Detalhe clínico: esse mesmo citocromo c, quando vaza para o citosol via abertura
+do poro de permeabilidade transitória mitocondrial, dispara apoptose -- sua escapada da mitocôndria
+é um sinal de morte celular programada.
+
+   Resumindo até aqui: A CoQ é o hub móvel que coleta elétrons de várias fontes e os entrega ao Complexo
+   III. O ciclo Q dentro do Complexo III bombeia 4 H+ por par de elétrons via bifurcação eletrônica. O
+   citocromo c carrega 1 e- por vez no espaço intermembranar -- e sua saída para o citosol é gatilho de
+   apoptose.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.3 Complexo IV: o passo final ao oxigênio e a estequiometria de H
+O Complexo IV -- citocromo c oxidase -- é o passo final, e é onde a vida aeróbia se justifica. Ele recebe
+4 elétrons do citocromo c (um de cada vez, então faz isso 4 vezes), pega 4 H+ da matriz, e reduz uma
+molécula de O a 2 moléculas de HO. Sem esse complexo (ou sem O), toda a cadeia para -- o citocromo
+c não tem para onde descarregar elétrons, e tudo a montante se acumula reduzido.
+
+A enzima é grande (13 subunidades em humanos), com 2 grupos heme (a e a3) e 2 íons cobre (CuA e CuB).
+A redução do O a HO é feita num sítio binuclear (heme a3 + CuB) que segura o O enquanto os 4 elétrons
+chegam. Esse aprisionamento é crítico: se um O "meio-reduzido" escapasse, geraria espécies reativas
+de oxigênio (ROS14) -- o que é normalmente raro ( 0,1­2% do O consumido), mas em mitocôndrias
+estressadas vira a fonte do dano oxidativo.
+
+Complexo IV (citocromo oxidase). Recebe 4 e- do cit c, pega 4 H+ da matriz, reduz O a 2 HO. Bombeia 2 H+ adicionais
+para o espaço intermembranar (mais os 4 que já saíram da matriz como substrato da HO). Sítio binuclear heme a3
++ CuB segura o O até o término dos 4 e-.
+
+A estequiometria de prótons no Complexo IV merece cuidado. Para cada 2 elétrons que passam (metade
+de um O): 2 H+ são consumidos da matriz para formar HO (mas isso é "química", não "bombeamento"),
+e mais 2 H+ adicionais são ativamente bombeados da matriz para o espaço intermembranar. Resultado
+por par de elétrons: 4 H+ removidos da matriz no total -- mas só 2 deles atravessam a membrana como
+"bomba"; os outros 2 viraram água.
+Somando os três complexos que bombeiam por par de elétrons do NADH: Complexo I (4 H+) + Complexo
+III (4 H+) + Complexo IV (2 H+) = 10 H+ por NADH. Para o FADH2, que pula o Complexo I: Complexo III
+(4) + Complexo IV (2) = 6 H+ por FADH2.
+
+   Resumindo até aqui: Complexo IV é o destino final -- entrega elétrons ao O, formando HO. Sítio
+   binuclear heme a3 + CuB segura o O durante a redução em 4 elétrons. Bombeia 2 H+ adicionais. Total
+   bombeado: 10 H+ por NADH, 6 H+ por FADH2. Esse número manda diretamente na razão P/O.
+
+   14ROS ­ reactive oxygen species -- espécies reativas de oxigênio (O2·-, H2O2, OH·); subprodutos do metabolismo aeróbio,
+neutralizadas por superóxido dismutase, catalase, glutationa peroxidase
+
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- ATP sintase, saldo energético e o que quebra
+
+o sistema
+
+3.1 Teoria quimiosmótica e a ATP sintase FF (sítios O-L-T)
+A teoria quimiosmótica -- proposta por Peter Mitchell em 1961 e premiada com o Nobel em 1978 -- é
+a ideia simples (mas revolucionária) de que a energia da oxidação do NADH não é transferida direta
+mente para o ATP; ela é armazenada como gradiente de prótons. O gradiente tem dois componentes:
+um químico (pH, 1 unidade entre matriz e espaço intermembranar) e um elétrico (, 140 mV, com a
+matriz mais negativa). A soma é a "força próton-motriz" (p), de cerca de 200 mV ou 20 kJ/mol por
+próton transportado.
+
+A ATP sintase converte esse gradiente em ATP -- e é um motor molecular rotativo. A enzima tem dois
+módulos. O F0 (lê-se "F-zero") é o canal transmembrana -- um anel de 8 a 15 subunidades c que gira
+quando os prótons fluem. O F1 é a "cabeça" projetada para a matriz -- onde fica o sítio catalítico que
+sintetiza ATP. Os dois são conectados por uma haste central () que transmite a rotação do F0 ao F1.
+
+ Estrutura da ATP sintase. F0 (anel c, embebido na membrana) gira com o fluxo de prótons. F1 (33) tem três sítios
+ catalíticos. A haste  central transmite a rotação. Oligomicina liga-se ao F0 e bloqueia o canal de prótons -- daí o
+ nome F0 ("o" de oligomicina).
+
+O mecanismo catalítico do F1 é o binding change mechanism (Paul Boyer, Nobel 1997). Os três sítios
+catalíticos da F1 (subunidades ) estão sempre em três conformações diferentes -- Open (O, libera ATP),
+Loose (L, frouxa, liga ADP + Pi), e Tight (T, apertada, ATP já está formado). A cada giro de 120° da , cada
+sítio avança para a próxima conformação: L  T  O  L. Cada volta completa de 360° produz 3 ATP.
+O ATP "não é fabricado pelo gasto energético" -- ele se forma espontaneamente no sítio T (a química
+favorece a desidratação ADP + Pi  ATP quando estão apertados juntos). A energia da rotação é gasta
+para liberar o ATP do sítio T (passando-o a O) e abrir o sítio O para nova ligação de substrato.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Mecanismo O-L-T (binding change). Cada sítio catalítico do F1 cicla por três conformações: Open (libera ATP) 
+Loose (liga ADP + Pi)  Tight (catálise espontânea ADP + Pi  ATP). A energia dos prótons não fabrica ATP -- ela
+muda a conformação do sítio para soltar o ATP já formado.
+Quantos prótons por ATP? Depende do número de subunidades c no anel F0. Em humanos são 8
+subunidades c -- então uma volta completa precisa de 8 H+, gerando 3 ATP. Ou seja: 2,7 H+ por ATP
+sintetizado pelo F0F1. Mas é preciso somar mais 1 H+ para importar Pi (via simporte com H+) e 0,3 H+
+para o custo do antiporte ADP/ATP -- total 3,7 H+ por ATP entregue ao citosol. Esse número é o que
+define a razão P/O moderna.
+
+   Resumindo até aqui: A energia da cadeia é armazenada como gradiente de prótons (força próton-
+   motriz). A ATP sintase F0F1 é um motor rotativo: F0 gira com o fluxo de H+, F1 tem três sítios em ciclo O-L-T.
+   Uma volta de 360° = 3 ATP; em humanos consome 8 H+ por volta. Com transporte ADP/ATP/Pi, o custo
+   total é 3,7 H+ por ATP citosólico.
+
+3.2 Razão P/O, saldo da glicose e lançadeiras do NADH citosólico
+A razão P/O é o número de ATPs formados por cada par de elétrons (= por cada átomo de O reduzido)
+que passa pela cadeia. Para NADH: 10 H+ bombeados ÷ 3,7 H+ por ATP = 2,5 ATP por NADH. Para FADH2:
+6 ÷ 3,7 = 1,5 ATP por FADH2.
+Esses são os valores modernos. Os livros mais antigos (e o próprio slide do prof) ainda trazem o "P/
+O = 3 e P/O = 2", resultando no clássico saldo de 38 ATP por glicose. A discrepância não é erro -- é
+refinamento. O 38 ignorava os custos de transporte de ADP/Pi; o 2,5/1,5 conta esses custos. Em prova,
+prestar atenção ao enunciado -- se pedirem o valor clássico, é 38; se pedirem o moderno, é 30­32.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Razões P/O modernas. NADH = 2,5 ATP; FADH2 = 1,5 ATP. Esses valores levam em conta o consumo de prótons pelo
+transporte de ADP/ATP (antiporte) e Pi (simporte com H+).
+O saldo da glicose pela conta moderna: 2 ATP da glicólise + 2 GTP do Krebs + 8 NADHmit × 2,5 + 2 FADH2
+× 1,5 + 2 NADHcit × (1,5 ou 2,5) = 30 a 32 ATP por glicose, dependendo da lançadeira tecido-específica.
+Aqui entra um detalhe importante: o NADH gerado na glicólise é citosólico, mas a cadeia respiratória
+está dentro da mitocôndria -- e a membrana interna é impermeável ao NADH. Como esses elétrons
+chegam à cadeia? Por lançadeiras, que transferem os equivalentes redutores (não a molécula em si)
+através da membrana.
+Há duas lançadeiras principais. A lançadeira malato-aspartato (em fígado, rim, coração) é "cara mas
+eficiente": converte oxaloacetato citosólico em malato (consumindo NADH), o malato entra na mitocôn
+dria por um transportador, é reoxidado a oxaloacetato regenerando NADH na matriz. Resultado: o
+NADH citosólico vira NADH mitocondrial e rende 2,5 ATP.
+A lançadeira de glicerol-3-fosfato (músculo esquelético, cérebro) é "barata e simples": o di-hidroxiace
+tona-fosfato citosólico aceita os 2 H do NADH, vira glicerol-3-fosfato, atravessa para a face externa
+da membrana interna onde a glicerol-3-fosfato desidrogenase mitocondrial (com FAD) reoxida o
+glicerol-3-P de volta a DHAP, gerando FADH2 na matriz (que entra direto na CoQ, pulando o Complexo
+I). Resultado: o NADH citosólico vira FADH2 e rende só 1,5 ATP.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Lançadeira malato-aspartato (fígado/rim/coração). O NADH citosólico reduz oxaloacetato a malato; o malato entra
+na mitocôndria; lá, é reoxidado a oxaloacetato, gerando NADH mitocondrial. O oxaloacetato volta como aspartato
+(via transaminação), mantendo o ciclo. Rende 2,5 ATP por NADH citosólico -- é a lançadeira "eficiente".
+
+ Lançadeira glicerol-3-fosfato (músculo/cérebro). O DHAP citosólico aceita os elétrons do NADH virando glicerol-3-
+ P; este reduz FAD da glicerol-3-P desidrogenase mitocondrial, gerando FADH2 na matriz. Rende só 1,5 ATP. É a
+ lançadeira "rápida e barata" -- apropriada para músculo em contração rápida.
+Por isso o saldo varia de 30 a 32 ATP por glicose: depende de qual lançadeira o tecido usa. Em fígado:
+32 ATP. Em músculo esquelético em exercício: 30 ATP. A diferença é pequena, mas mostra que o "saldo
+da glicose" não é um número fixo -- é um intervalo tecido-específico.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: P/O moderna: 2,5 ATP por NADH mitocondrial; 1,5 ATP por FADH2 ou NADH
+citosólico via glicerol-3-P. Saldo da glicose: 30 ATP (lançadeira glicerol-3-P, músculo) ou 32 ATP
+(lançadeira malato-aspartato, fígado). O clássico 38 é o número antigo, que ignorava custos de transporte
+de ADP/Pi.
+
+3.3 Inibidores, desacopladores e controle respiratório
+A cadeia respiratória é vulnerável a duas classes de drogas -- inibidores e desacopladores --, e a
+diferença entre as duas é mais importante do que parece à primeira vista.
+
+Inibidores bloqueiam a passagem de elétrons em algum complexo específico. O resultado é sempre o
+mesmo: a cadeia para a montante do bloqueio (acumula tudo reduzido) e fica oxidada a jusante (não
+recebe mais elétrons), o gradiente colapsa, e a síntese de ATP cessa.
+
+Cada complexo tem seu inibidor clássico -- e cada um costuma cair em prova com a mesma pegadinha:
+inverter qual droga pega qual complexo. Vale fixar a tabela. Rotenona (pesticida) e amital (barbitúrico)
+bloqueiam o Complexo I -- impedem a passagem de elétrons do FMNH aos centros Fe-S. Malonato
+compete com o succinato no sítio do Complexo II (mas como esse complexo não bombeia, o efeito é mais
+educacional que clínico). Antimicina A (antibiótico) bloqueia o Complexo III no ciclo Q. Cianeto (CN),
+monóxido de carbono (CO) e azida (N3-) bloqueiam o Complexo IV -- ligam-se ao ferro do citocromo a3
+no sítio de ligação do O, impedindo a redução final.
+
+Sítios de ação dos inibidores clássicos. Rotenona/amital  Complexo I. Malonato  Complexo II. Antimicina 
+Complexo III. Cianeto/CO/azida  Complexo IV. Oligomicina  ATP sintase (não é inibidor de cadeia, é inibidor de
+fosforilação).
+
+O cianeto merece atenção clínica especial. Bloqueia o Complexo IV  cadeia toda para  célula não
+consegue usar o O disponível no sangue  "hipóxia histotóxica" (o oxigênio está lá, mas a célula não
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+pode usá-lo). É a fome energética com sangue vermelho-cereja -- o O não foi consumido. O cérebro e
+o miocárdio (que dependem quase exclusivamente do metabolismo oxidativo) são os primeiros a falhar.
+O antídoto clássico é nitrito de sódio (induz meta-hemoglobina, que sequestra o CN) + tiossulfato (que
+junto com a enzima rodanase converte CN em SCN atóxico, excretado na urina).
+
+Desacopladores são diferentes: não bloqueiam o transporte de elétrons -- desconectam o bombea
+mento da síntese de ATP. Eles abrem um "vazamento" de prótons na membrana, fazendo o gradiente
+colapsar sem passar pela ATP sintase. Resultado: a cadeia continua rodando (na verdade roda mais
+rápido, porque o gradiente desabou e os complexos voltam a bombear sem resistência), o O é
+consumido, o NADH é oxidado, mas pouco ATP é feito -- a energia vai embora como calor.
+
+O exemplo clássico é o 2,4-dinitrofenol (DNP)15. O DNP é um ácido fraco lipossolúvel: pega um H+ no
+espaço intermembranar, atravessa a membrana como ácido neutro, libera o H+ na matriz, e volta para
+pegar outro. É um "atalho" químico através da membrana. Foi usado como emagrecedor (acelera o
+metabolismo basal) até que mortes por hipertermia em massa o tirassem do mercado.
+
+Desacopladores. DNP (2,4-dinitrofenol) atravessa a membrana protonado, libera H+ na matriz, volta desprotonado.
+Resultado: gradiente colapsa, cadeia acelera, mas ATP não é produzido -- toda a energia vira calor.
+
+A termogenina (UCP116) é o desacoplador fisiológico. Está presente no tecido adiposo marrom17 --
+exuberante em recém-nascidos, hibernadores e (descoberta de 2009) também em adultos humanos.
+Ativada por noradrenalina (via receptor 3), abre um canal regulado de prótons na membrana interna
+mitocondrial. Resultado: a célula adiposa marrom queima ácidos graxos só para gerar calor. É a base
+molecular da termogênese sem tremor -- fundamental para manter a temperatura do bebê recém-
+nascido nos primeiros dias.
+
+   152,4-dinitrofenol (DNP) ­ desacoplador histórico, usado como emagrecedor nos anos 1930; tirado do mercado por
+causar mortes por hipertermia -- temperaturas corporais de 42 °C foram registradas
+
+   16UCP1 ­ uncoupling protein 1 -- proteína desacopladora do tecido adiposo marrom; cria um canal regulado de prótons
+que dissipa o gradiente como calor; ativada por noradrenalina via 3-adrenérgico
+
+   17tecido adiposo marrom ­ tecido adiposo rico em mitocôndrias e UCP1; especialista em termogênese sem tremor;
+abundante em recém-nascidos, hibernadores e adultos expostos cronicamente ao frio
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Por último, o controle respiratório. A cadeia não roda em velocidade fixa -- ela acelera quando há de
+manda e desacelera quando há ATP de sobra. O controlador principal é o ADP. Sem ADP livre na matriz,
+a ATP sintase não pode girar (falta substrato), os prótons não voltam, o gradiente cresce, e os complexos
+param de bombear porque o  ficou alto demais. É um sistema de retroinibição puro: quando a célula
+precisa de ATP (gasta ATP  libera ADP), o ADP entra na matriz, ativa a sintase, o gradiente cai, e os
+complexos voltam a bombear. A cadeia respiratória se "auto-regula" pelo consumo de ATP da célula
+-- não há regulação alostérica complicada como na glicólise ou no ciclo de Krebs.
+
+Resumindo até aqui: Inibidores (rotenona/amital  I, malonato  II, antimicina  III, cianeto/CO/
+azida  IV) param o fluxo de elétrons e a síntese de ATP. Desacopladores (DNP, UCP1) abrem vazamento
+de prótons  cadeia acelera, mas só gera calor. Controle respiratório: ADP é o sinal-chave -- sem ADP, a
+sintase não gira, o gradiente cresce, e os complexos param de bombear.
+
+Conclusão integradora
+
+A cadeia respiratória resolve o problema central do metabolismo aeróbio: como pegar a energia
+armazenada nos elétrons do NADH e do FADH2 e convertê-la em ATP sem desperdiçá-la como
+calor. A solução evolutiva é elegante -- fracionar a queda em quatro complexos, capturar a energia
+em forma de gradiente de prótons através da membrana mitocondrial interna impermeável, e
+usar esse gradiente para girar um motor molecular (a ATP sintase). O gradiente é a moeda inter
+mediária verdadeira -- não o NADH em si.
+
+Três conceitos fixam tudo. Primeiro: a fila dos componentes obedece à termodinâmica (E°`
+crescente, de NADH a O); trocar a ordem é violar a química. Segundo: a razão P/O moderna
+(2,5 ATP/NADH; 1,5 ATP/FADH2) substitui o velho 38 ATP por glicose porque a conta moderna
+inclui os custos de transporte de ADP/Pi -- o saldo real é 30­32 ATP, dependendo da lançadeira
+tecido-específica. Terceiro: inibidores e desacopladores não fazem a mesma coisa -- inibidores
+param tudo (cadeia parada, gradiente colapsa, célula morre de fome energética como no cianeto);
+desacopladores deixam a cadeia rodar mas dissociam o bombeamento da síntese (calor sem ATP,
+como no DNP ou na UCP1 do tecido adiposo marrom).
+
+Daqui em diante, qualquer disfunção mitocondrial -- mutação em subunidade de complexo,
+intoxicação por cianeto, febre por desacoplamento, hipertermia maligna, doenças mitocondriais
+hereditárias -- é entendida olhando para esse quadro. A cadeia respiratória é a bioquímica que
+mais facilmente vira fisiologia e que mais cedo vira clínica.
+
+       17
+NEBLI                                                                         ETAPA 1 -- TEXTO DIDÁTICO
+
+                 CADEIA RESPIRATÓRIA
+
+os elétrons descem em degraus do NADH até o O2, bombeando H+ que voltam pela ATP
+
+                                  sintase e giram o motor que produz ATP
+
+                                                                              SÍNTESE · ATP SIN
+
+ENTRADA · I E II                     DESCIDA · III E IV                       TASE   rotativo
+
+Portas para a                        Relé até o ox                            Motor
+
+cadeia                               igênio                                   FF
+
+NADH entra no I (bombeia             III bombeia 4 H+ no ciclo                H+ voltam pela sintase, gi
+4 H+); FADH2 entra no II             Q; cit c leva 1 e- por vez               ram o anel c, sítios O-L-T
+(não bombeia). Ambos ter             ao IV; IV reduz O2 a H2O e               fazem ATP. 2,5 ATP/NADH;
+minam na CoQ.                        bombeia 2 H+                             1,5 ATP/FADH2 30­32 por
+                                                                              glicose.
+
+                                     CONTROLE · DROGAS · CLÍNICA
+
+Quem manda na velocidade             Inibidor vs desacoplador                 Por que precisamos de O
+ADP é o acelerador. Mais ADP, sin    Inibidor para a cadeia (cianeto no IV    Sem O, Complexo IV para; cit c
+tase gira, gradiente cai, complexos   fome energética). Desacoplador          não descarrega; tudo a montante
+voltam a bombear. ATP alto freia     deixa rodar sem ATP (DNP, UCP1           acumula reduzido. É a hipóxia que
+tudo automaticamente.                vira calor).                             mata coração e cérebro em minutos.
+
+                                     18
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Cadeia respiratória: lógica do conjunto                  Razão P/O moderna vs clássica
+Quatro complexos na membrana mitocondrial                Moderna: 2,5 ATP/NADH e 1,5 ATP/FADH2 (conta
+interna passam elétrons do NADH (E°` = -0,32 V) ao       inclui custo de transporte ADP/ATP/Pi). Clássica: 3
+O2 (E°' = +0,82 V) em queda controlada. A energia        e 2, dando 38 ATP/glicose. Real: 30­32 ATP/glicose,
+liberada bombeia H+ para o espaço intermembranar,        dependendo da lançadeira tecidual.
+criando força próton-motriz.
+                                                         Lançadeiras do NADH citosólico
+Complexo I (NADH-CoQ oxidorredutase)                     Glicólise gera NADH no citosol; membrana interna
+Recebe 2 e- do NADH via FMN, passa por centros           é impermeável. Malato-aspartato (fígado, rim,
+Fe-S até a CoQ. Bombeia 4 H+ por par de                  coração) entrega como NADH mitocondrial (2,5
+elétrons. Bloqueado por rotenona e amital. Maior         ATP). Glicerol-3-P (músculo, cérebro) entrega como
+dos complexos: 45 subunidades polipeptídicas.            FADH2 (1,5 ATP).
+
+Complexo II (succinato desidrogenase)                    Inibidores: cadeia parada, ATP zerado
+
+Recebe elétrons do FADH2 gerado na oxidação do           Rotenona/amital  I; malonato  II; antimicina
+succinato. Entrega direto à CoQ. Não bombeia              III; cianeto/CO/azida  IV. Resultado: cadeia
+prótons -- por isso o FADH2 rende menos ATP.             colapsa, NADH se acumula, célula faz fermentação
+Única enzima do Krebs cravada na membrana                lática, hipóxia histotóxica (cianeto). Antídoto:
+interna.                                                 nitrito + tiossulfato.
+
+Coenzima Q e ciclo Q no Complexo III                     Desacopladores: calor sem ATP
+CoQ é benzoquinona lipossolúvel que coleta               DNP (histórico, emagrecedor proibido) e UCP1
+elétrons de I, II e estepes (-oxidação, glicerol-3-      (termogenina do tecido adiposo marrom) abrem
+P). Ciclo Q no Complexo III bifurca os elétrons,         vazamento de H+. Cadeia acelera, mas energia vira
+bombeando 4 H+ por par. Entrega ao citocromo c.          calor. Base molecular da termogênese sem tremor
+                                                         em recém-nascidos e hibernadores.
+Complexo IV (citocromo oxidase)
+Recebe 4 e- do cit c, reduz O2 a 2 H2O num sítio         Controle respiratório: ADP manda
+binuclear heme a3+CuB. Bombeia 2 H+ adicionais.          Sem ADP livre, ATP sintase não gira; gradiente
+Sem O2 aqui, a cadeia toda para. Bloqueado por           cresce; complexos param de bombear. Quando a
+cianeto, CO e azida.                                     célula gasta ATP  libera ADP  sintase volta
+                                                         a girar  gradiente cai  complexos voltam ao
+ATP sintase: motor rotativo                              trabalho. Retroinibição pura.
+F#sub[0]F#sub[1]
+F0 gira com fluxo de H+ F1 tem 3 sítios em ciclo         Por que isso importa na clínica
+Open-Loose-Tight. Cada volta de 360° = 3 ATP. ATP        Cianeto mata em minutos por hipóxia histotóxica.
+forma-se espontaneamente no sítio T; a rotação           UCP1 mantém bebês aquecidos. Mutações
+serve para liberá-lo. Oligomicina bloqueia o F0.         mitocondriais atacam tecidos de alto consumo
+                                                         (coração, cérebro, músculo). Hipertermia maligna =
+                                                         desacoplamento agudo no músculo esquelético.
+
+                                                     19
+NEBLI                       RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a localização e o papel da cadeia respiratória na célula, é correto afirmar:
+
+   A) A cadeia respiratória está na matriz mitocondrial; os complexos flutuam livremente no líquido
+   matricial, sendo essa mobilidade essencial para o fluxo de elétrons entre eles.
+   B) Está cravada na membrana mitocondrial interna; essa localização é o que permite separar o lado
+   rico em prótons (espaço intermembranar) do lado pobre (matriz) -- sem essa barreira, o gradiente
+   colapsaria.
+   C) Localiza-se na membrana externa mitocondrial; suas porinas permitem o trânsito livre dos
+   prótons bombeados, mantendo o equilíbrio com o citosol.
+   D) Está nas cristas mitocondriais, que são porções da matriz com proteínas em suspensão; as cristas
+   funcionam como microcompartimentos isolados onde o gradiente é gerado e consumido localmente.
+   E) Encontra-se no retículo endoplasmático rugoso dos hepatócitos; o aparato mitocondrial existe
+   apenas para gerar NADH, que é entregue ao RE para a oxidação final.
+
+Questão 02 Consolidação
+
+Sobre os carregadores de elétrons NADH e FADH:
+
+   A) Ambos são proteínas grandes ancoradas à membrana mitocondrial interna que transferem seus
+   elétrons diretamente ao oxigênio sem necessidade de intermediários, e por isso são consideradas
+   componentes integrais da cadeia respiratória.
+   B) O NADH tem potencial de redução mais positivo que o FADH; por isso o NADH entra na cadeia em
+   ponto mais "alto" e rende mais ATP, enquanto o FADH termina no Complexo IV diretamente, sem
+   passar pela CoQ.
+   C) O NADH carrega 2 elétrons e tem E°`  -0,32 V; o FADH2 também carrega 2 elétrons e tem E°' próximo
+   de 0 V -- por isso o FADH2 entra direto na coenzima Q, pulando o Complexo I.
+   D) O NADH é gerado apenas na glicólise enquanto o FADH2 é gerado apenas no ciclo de Krebs; ambos
+   sempre se equivalem em rendimento de ATP porque acabam reduzindo a mesma molécula de O2 no
+   Complexo IV.
+   E) O NADH é gerado na face matricial da membrana mitocondrial interna, enquanto o FADH2
+   permanece sempre no citosol; suas localizações distintas explicam a necessidade de lançadeiras
+   separadas para cada um.
+
+                                                                                20
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre o Complexo I (NADH-coenzima Q oxidorredutase):
+
+   A) Recebe os elétrons do FADH2 via FMN e os entrega diretamente ao citocromo c, bombeando 2
+   prótons por par de elétrons; é bloqueado por antimicina A em concentrações terapêuticas baixas,
+   semelhantes às do antibiótico original isolado.
+
+   B) É o menor complexo da cadeia, formado por apenas 4 subunidades; transfere elétrons diretamente
+   da coenzima Q ao citocromo c, sem participar de qualquer etapa de bombeamento de prótons durante
+   o processo de transferência eletrônica.
+
+   C) Recebe os elétrons do NADH via FMN, passa-os por uma série de centros Fe-S até a coenzima Q, e
+   bombeia 4 H+ por par de elétrons para o espaço intermembranar. É bloqueado por rotenona.
+
+   D) Contém os citocromos a e a3 mais íons cobre; é o complexo final que entrega os elétrons ao O2
+   formando H2O, sendo inibido por cianeto e monóxido de carbono.
+
+   E) É a única enzima da cadeia que também participa do ciclo de Krebs; bombeia 4 H+ por par de elétrons
+   e tem o succinato como substrato direto.
+
+Questão 04 Consolidação
+
+Julgue os itens sobre o Complexo II (succinato desidrogenase):
+Cada item deve ser julgado de forma independente.
+
+   I. Faz parte simultaneamente do ciclo de Krebs e da cadeia respiratória -- é a única enzima do ciclo
+   que está cravada na membrana mitocondrial interna.
+   II. Recebe os elétrons do NADH gerado pela oxidação do succinato a fumarato e os transfere à
+   coenzima Q.
+   III. Não bombeia prótons; por isso, os elétrons do FADH2 (que entram pelo Complexo II) rendem menos
+   ATP do que os do NADH.
+   IV. É inibido pelo cianeto, mesmo inibidor que bloqueia o Complexo IV, justificando a sua importância
+   clínica em intoxicações por fumaça.
+
+Questão 05 Consolidação
+Sobre a coenzima Q (ubiquinona):
+
+   A) É uma proteína periférica do espaço intermembranar que carrega 1 elétron por vez entre os
+   Complexos III e IV, semelhante em função ao citocromo c mas com massa molecular maior.
+
+                                                                                21
+NEBLI                                           ETAPA 2 -- 30 OBJETIVAS
+
+B) É uma benzoquinona lipossolúvel com cauda isoprênica longa que se difunde lateralmente na
+membrana mitocondrial interna, recebendo elétrons dos Complexos I, II e de estepes (-oxidação,
+glicerol-3-P) e entregando-os ao Complexo III.
+
+C) É um aminoácido modificado covalentemente que faz parte do Complexo III e não se difunde
+livremente -- sua aparente mobilidade só é observada quando se estuda o ciclo Q em sistemas recon
+stituídos.
+
+D) É hidrossolúvel, fica dissolvida na matriz mitocondrial junto com as enzimas do ciclo de Krebs, e
+seu papel principal é tamponar o pH durante a oxidação do succinato pelo Complexo II.
+
+E) Não é uma molécula real do metabolismo -- é um conceito didático usado para explicar o ciclo Q
+em livros-texto sem a necessidade de invocar um carregador físico móvel na membrana.
+
+Questão 06 Consolidação
+
+Sobre o citocromo c:
+
+   A) É uma proteína integral de membrana com domínios transmembrana que atravessam a membrana
+   interna sete vezes; daí seu nome "c" (de "cruza" a membrana), sendo ancorado por hélices  hidrofóbi
+   cas estáveis e por modificações lipídicas pós-traducionais altamente conservadas evolutivamente
+   entre espécies de mamíferos.
+
+   B) É uma proteína periférica pequena ( 13 kDa) situada na face externa da membrana mitocondrial
+   interna; transporta 1 elétron por vez entre o Complexo III e o Complexo IV via seu grupo heme (Fe3+/
+   Fe2+). Sua saída para o citosol é gatilho de apoptose.
+
+   C) É a forma reduzida da coenzima Q, gerada quando o ciclo Q termina; difunde-se livremente na
+   membrana interna mitocondrial entregando elétrons aos demais carregadores da cadeia respiratória
+   em sequência ordenada, contribuindo diretamente para o bombeamento final de prótons que sustenta
+   o gradiente eletroquímico.
+
+   D) Tem 4 átomos de ferro em centros Fe-S sem grupo heme, e por isso carrega 4 elétrons de uma só
+   vez do Complexo III até o Complexo IV, em uma transferência única e simultânea.
+
+   E) É sintetizado dentro do espaço intermembranar a partir de aminoácidos importados do citosol; sua
+   função primária é atuar como antioxidante neutralizando espécies reativas de oxigênio (ROS) geradas
+   como subproduto inevitável da atividade fisiológica da cadeia respiratória mitocondrial em condições
+   aeróbicas normais nos diversos tecidos humanos.
+
+Questão 07 Consolidação
+Sobre o Complexo IV (citocromo c oxidase):
+
+                                            22
+NEBLI                                                                               ETAPA 2 -- 30 OBJETIVAS
+
+A) Recebe os elétrons do FADH2 que entram pelo Complexo II e os entrega ao citocromo c, bombeando
+4 prótons por par de elétrons sem reduzir oxigênio diretamente.
+
+B) Recebe 4 elétrons do citocromo c (um por vez), pega 4 H+ da matriz, e reduz uma molécula de O2 a
+2 moléculas de H2O. Bombeia ainda 2 H+ adicionais ativamente. É inibido por cianeto, CO e azida.
+
+C) É o complexo onde os elétrons do NADH entram na cadeia através do FMN; reduz parcialmente o
+O2 a H2O2 e bombeia 6 H+ por par de elétrons para o espaço intermembranar.
+
+D) Contém 4 grupos FMN e nenhum grupo heme; usa apenas centros Fe-S para passar os elétrons ao
+O2, sendo o único complexo da cadeia que dispensa cobre como cofator metálico.
+
+E) Não bombeia prótons em humanos; sua única função é catalisar a redução do O2 a H2O, sem
+participar diretamente da geração da força próton-motriz que move a ATP sintase.
+
+Questão 08 Consolidação
+
+Sobre a ATP sintase (F0F1):
+
+   A) É uma bomba de prótons ativa que usa a energia da hidrólise de ATP para empurrar H+ da matriz
+   para o espaço intermembranar -- funciona ao contrário do que o nome sugere, gerando o gradiente
+   em vez de consumi-lo.
+
+   B) É um motor molecular rotativo: o F0 (canal transmembrana) gira com o fluxo de prótons, e essa
+   rotação é transmitida pela haste  ao F1 (cabeça matricial), cujos sítios catalíticos (Open-Loose-Tight)
+   produzem ATP a partir de ADP + Pi. Oligomicina bloqueia o F0.
+
+   C) É um canal passivo que deixa os prótons retornarem à matriz sem aproveitamento da energia; o ATP
+   é gerado por uma enzima separada localizada na matriz mitocondrial, que usa NADH residual como
+   substrato direto e dispensa o gradiente de prótons da membrana interna mitocondrial para funcionar
+   adequadamente.
+
+   D) Possui um único sítio catalítico que sintetiza ATP de forma sequencial, sem rotação ou mudança
+   conformacional; sua atividade depende apenas da concentração de ADP livre presente no espaço
+   intermembranar mitocondrial em equilíbrio com os níveis citosólicos ditados pelo estado energético
+   geral.
+
+   E) Está localizada na membrana externa mitocondrial e responde ao gradiente eletroquímico estab
+   elecido entre o citosol e o espaço intermembranar, e não ao gradiente entre a matriz e o espaço inter
+   membranar como classicamente descrito em livros-texto, sendo essa diferença topológica essencial
+   para entender o acoplamento alternativo do ATP.
+
+Questão 09 Consolidação
+Julgue os itens sobre o saldo energético da oxidação completa da glicose:
+
+                                                                                23
+NEBLI                                                  ETAPA 2 -- 30 OBJETIVAS
+
+Cada item deve ser julgado de forma independente.
+
+I. O valor clássico de 38 ATP por glicose pressupõe razão P/O de 3 para o NADH e 2 para o FADH2, sem
+considerar custos de transporte de ADP/Pi.
+
+II. O valor moderno ( 30­32 ATP por glicose) usa P/O de 2,5 para NADH e 1,5 para FADH2, pois inclui o
+custo dos transportadores (ATP/ADP antiporte e Pi/H+ simporte).
+
+III. O número exato de ATP por glicose depende da lançadeira do NADH citosólico -- 32 com malato-
+aspartato (fígado), 30 com glicerol-3-P (músculo).
+
+IV. A diferença entre 30 e 38 ATP é um erro experimental antigo já corrigido; hoje há consenso de que
+o valor real é exatamente 38 ATP em todos os tecidos.
+
+Questão 10 Consolidação
+
+Sobre as lançadeiras do NADH citosólico:
+
+   A) A membrana interna mitocondrial é livremente permeável ao NADH em mamíferos; lançadeiras
+   são desnecessárias porque o próprio NADH atravessa a membrana sem auxílio de transportadores
+   específicos.
+
+   B) A lançadeira malato-aspartato (fígado, rim, coração) entrega o equivalente redutor como NADH na
+   matriz (rendendo 2,5 ATP); a lançadeira de glicerol-3-fosfato (músculo, cérebro) entrega como FADH2
+   (rendendo 1,5 ATP).
+
+   C) Ambas as lançadeiras rendem exatamente o mesmo número de ATP por NADH citosólico trans
+   ferido, em todos os tecidos; a única diferença entre as duas é a velocidade do transporte através da
+   membrana interna.
+
+   D) O NADH é transportado intacto pela membrana interna via um carrier proteico específico para
+   nucleotídeos de piridina; a "lançadeira" se refere apenas ao mecanismo de retorno do NAD+ oxidado
+   ao citosol.
+
+   E) As lançadeiras existem primariamente para regular o pH da matriz mitocondrial, não para trans
+   ferir equivalentes redutores; o NADH citosólico em excesso é simplesmente degradado quando não
+   pode ser usado de imediato.
+
+Questão 11 Integração
+
+Sobre o ordenamento dos componentes da cadeia respiratória pelo potencial padrão de redução (E°`):
+
+   A) A ordem é arbitrária e determinada apenas pela proximidade espacial dos complexos na mem
+   brana mitocondrial interna -- qualquer reordenamento físico funcionaria desde que mantida a
+   continuidade física entre eles.
+
+                                                   24
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+B) Os elétrons fluem espontaneamente do componente com E°` mais positivo ao com E°' mais
+negativo, porque potenciais positivos repelem elétrons e empurram-nos pela cadeia em direção ao
+oxigênio molecular.
+
+C) Os elétrons fluem do componente com E°` mais negativo (NADH/NAD+, -0,32 V) ao mais positivo
+(O2/H2O, +0,82 V); cada componente intermediário tem E°' escalonado, e a ordem é termodinamica
+mente obrigatória.
+
+D) A ordem é definida pela carga elétrica líquida dos componentes proteicos -- proteínas mais
+positivas estão sempre antes das mais negativas na sequência, e o fluxo de elétrons segue essa lógica
+eletrostática simples.
+
+E) A cadeia funciona em duas direções alternadas conforme a célula precisa: do NADH ao O2 quando
+há ATP em demanda, e do O2 ao NADH quando há ATP em excesso.
+
+Questão 12 Integração
+
+Julgue os itens sobre o ciclo Q no Complexo III:
+Cada item deve ser julgado de forma independente.
+
+   I. O ciclo Q é o mecanismo pelo qual o Complexo III converte uma transferência de 2 elétrons (vindos
+   do QH2) em duas transferências de 1 elétron ao citocromo c.
+   II. Para cada par de elétrons que atravessa o Complexo III via ciclo Q, 4 H+ são bombeados para o espaço
+   intermembranar -- o dobro do que ocorreria sem a bifurcação eletrônica.
+   III. No ciclo Q, uma das ubiquinonas semireduzidas (semiquinona, QH·) tem papel central, sendo
+   o intermediário que permite que um elétron volte ao citocromo b enquanto o outro segue para o
+   citocromo c1.
+
+   IV. O ciclo Q ocorre apenas no Complexo I, e não no Complexo III; é assim que o Complexo I consegue
+   bombear 4 H+ por par de elétrons.
+
+Questão 13 Integração
+
+Um pesquisador adiciona rotenona a uma suspensão de mitocôndrias hepáticas isoladas com piruvato
+e malato como substratos. O consumo de O2 cai a quase zero. Quando, em seguida, ele adiciona succinato
+ao meio, o consumo de O2 retorna. A melhor explicação é:
+
+   A) A rotenona bloqueia o Complexo I; piruvato e malato geram NADH que tenta entrar pelo Complexo
+   I (bloqueado). O succinato gera FADH2 no Complexo II, que entra direto na CoQ -- contornando o
+   bloqueio.
+
+       25
+NEBLI                                                                               ETAPA 2 -- 30 OBJETIVAS
+
+B) A rotenona bloqueia o Complexo IV diretamente, impedindo a redução do O2 o succinato, por ser um
+ácido fraco lipossolúvel, atua como "desbloqueador" químico do Complexo IV por mecanismo ainda
+mal caracterizado.
+
+C) O succinato é um desacoplador da cadeia respiratória que dissipa o gradiente de prótons da
+membrana interna independentemente do estado de bloqueio dos complexos da cadeia.
+
+D) A rotenona inibe diretamente a ATP sintase, e não a cadeia de elétrons; o succinato fornece ATP de
+forma direta por fosforilação a nível de substrato, sem necessidade da cadeia funcionar.
+
+E) Trata-se de um erro experimental -- adicionar succinato após rotenona não deveria restaurar o
+consumo de O2 porque toda a cadeia estaria bloqueada irreversivelmente após o uso do inibidor.
+
+Questão 14 Integração
+
+Sobre a diferença entre a inibição da cadeia e o desacoplamento:
+
+   A) Ambos os tipos de droga resultam exatamente no mesmo padrão fenotípico: cadeia respiratória
+   parada, consumo de O2 zerado e síntese de ATP nula; a única diferença prática entre eles é a duração
+   farmacológica do efeito de cada um sobre a mitocôndria isolada in vitro ou nas células do paciente
+   intoxicado, sendo essa distinção apenas terminológica em farmacologia clínica moderna sem impli
+   cações reais para o desfecho metabólico observado.
+
+   B) O inibidor bloqueia o fluxo de elétrons em um complexo específico -- cadeia para, O2 não é
+   consumido, gradiente colapsa, ATP cessa. O desacoplador deixa a cadeia rodar (na verdade acelera,
+   porque o gradiente baixo desfreia o bombeamento), mas o gradiente vaza para a matriz sem passar
+   pela ATP sintase -- O2 é consumido, NADH é oxidado, mas ATP cai e a energia vira calor.
+
+   C) Inibidores aumentam a síntese de ATP por sobrecarregarem a cadeia respiratória além de sua
+   capacidade nominal; desacopladores diminuem a síntese de ATP por descoordenarem o trabalho
+   conjunto dos quatro complexos da cadeia, resultando em fluxo desordenado de elétrons entre eles e
+   bombeamento ineficiente de prótons na membrana interna mitocondrial, com consequente queda na
+   geração de energia útil para a célula em condições aeróbicas.
+
+   D) Desacopladores bloqueiam a ATP sintase diretamente em seu sítio catalítico; inibidores, ao
+   contrário, agem apenas sobre proteínas auxiliares como o citocromo c, sem afetar diretamente os
+   complexos integrais I, III ou IV da membrana mitocondrial interna, deixando o transporte de elétrons
+   intacto e o consumo de O2 dentro da faixa basal esperada para o tecido.
+
+   E) A diferença é apenas farmacocinética: inibidores ligam-se covalentemente às proteínas-alvo de
+   forma irreversível, enquanto desacopladores ligam-se reversivelmente -- mas o efeito metabólico
+   final sobre a célula intoxicada é idêntico em ambos os casos, com queda paralela da síntese de ATP e do
+   consumo basal de oxigênio molecular nos tecidos afetados pela droga em qualquer dose terapêutica.
+
+Questão 15 Integração
+
+                                                                                26
+NEBLI                                                            ETAPA 2 -- 30 OBJETIVAS
+
+Julgue os itens sobre a teoria quimiosmótica de Peter Mitchell:
+Cada item deve ser julgado de forma independente.
+
+I. A energia da oxidação do NADH não é transferida diretamente para a síntese de ATP -- ela é
+armazenada como gradiente eletroquímico de prótons (força próton-motriz) através da membrana
+mitocondrial interna.
+
+II. A força próton-motriz tem dois componentes: um químico (pH, devido à diferença de concen
+tração de H+) e um elétrico (, devido à separação de cargas).
+
+III. A teoria foi proposta em 1961 e levou décadas para ser aceita; o Nobel foi concedido a Mitchell
+em 1978.
+
+IV. Segundo a teoria quimiosmótica, o ATP é sintetizado por fosforilação direta do ADP pelo NADH no
+Complexo I, sem necessidade de gradiente de prótons.
+
+Questão 16 Integração
+
+Um paciente é levado ao pronto-socorro após exposição a fumaça de incêndio em um galpão químico.
+Apresenta cefaleia intensa, convulsão e hálito de "amêndoas amargas". O sangue venoso é vermelho-
+cereja. A hipótese diagnóstica e o mecanismo são:
+
+   A) Intoxicação isolada por monóxido de carbono apenas; a hemoglobina ligada ao CO impede o trans
+   porte normal de O2 do pulmão aos tecidos, gerando hipóxia hipoxêmica clássica, explicando todos os
+   sintomas neurológicos relatados na anamnese.
+
+   B) Intoxicação por cianeto. O CN- liga-se ao ferro do citocromo a3 no Complexo IV, bloqueando a
+   entrega de elétrons ao O2. A célula não consegue usar o O2 disponível (hipóxia histotóxica); o sangue
+   venoso fica vermelho-cereja porque o O2 não foi consumido.
+
+   C) Acidose lática primária por desidratação aguda relacionada ao calor do incêndio; não há envolvi
+   mento direto da cadeia respiratória mitocondrial ou da fosforilação oxidativa no quadro, e o hálito de
+   amêndoas amargas relatado é apenas coincidência clínica sem valor diagnóstico real para a situação
+   descrita.
+
+   D) Intoxicação aguda por DNP industrial presente no galpão; o desacoplamento da fosforilação oxida
+   tiva causa hipertermia mais os sintomas neurológicos descritos no quadro clínico do paciente, com
+   sangue venoso de coloração rotineiramente normal apesar da disfunção mitocondrial sistêmica em
+   curso nesses casos.
+
+   E) Hipoglicemia severa secundária ao estresse do incêndio; a cefaleia e a convulsão são típicas dessa
+   apresentação, e o hálito adocicado de cetonas confirma a origem metabólica do quadro clínico obser
+   vado no paciente exposto à fumaça, sendo o tratamento padrão glicose endovenosa em bólus seguida
+   de manutenção contínua até melhora do quadro neurológico.
+
+27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 17 Integração
+
+Sobre o mecanismo Open-Loose-Tight (binding change) da ATP sintase, proposto por Paul Boyer:
+
+A) Os três sítios catalíticos do F1 estão sempre na mesma conformação termodinâmica; o que muda
+durante a catálise é apenas a concentração local de ADP e de Pi disponíveis para cada sítio individ
+ualmente, sem qualquer necessidade de rotação ou de mudanças conformacionais nas subunidades
+catalíticas.
+
+B) O ATP é forçosamente sintetizado pela energia do gradiente de prótons que chega ao F1 via o canal
+F0 sem essa energia externa, o ATP simplesmente não se formaria espontaneamente a partir de ADP
++ Pi no sítio catalítico, mesmo em condições ideais.
+
+C) Cada um dos 3 sítios da F1 (subunidades ) cicla por três conformações (Open, Loose, Tight) à
+medida que a haste  gira. ATP forma-se espontaneamente no sítio Tight (a química favorece ADP
++ Pi  ATP quando estão apertados juntos); a energia da rotação é usada para liberar o ATP do sítio
+Tight (passando-o a Open).
+
+D) O ATP é sintetizado apenas no sítio Open quando ADP livre se liga ali; o sítio Tight serve unicamente
+para reter o produto recém-sintetizado até que ADP citosólico esteja disponível para iniciar o próximo
+ciclo de síntese catalítica de uma nova molécula de ATP no mesmo sítio Open.
+
+E) O ciclo O-L-T descreve, na verdade, o caminho dos prótons através do canal F0 da ATP sintase, e
+não dos substratos no F1 é um modelo de transporte protônico, e não de catálise química de formação
+do ATP.
+
+Questão 18 Integração
+
+Julgue os itens sobre o controle respiratório:
+Cada item deve ser julgado de forma independente.
+
+   I. A velocidade da cadeia respiratória é controlada principalmente pela disponibilidade de ADP na
+   matriz -- sem ADP livre, a ATP sintase não pode girar.
+   II. Quando há ATP em excesso e pouco ADP, a ATP sintase reduz sua atividade, o gradiente de prótons
+   cresce, e o alto  retroinibe o bombeamento pelos Complexos I, III e IV.
+   III. Esse mecanismo de auto-regulação dispensa controle alostérico clássico -- a cadeia respiratória
+   responde diretamente ao consumo de ATP da célula.
+   IV. Um aumento da concentração intracelular de citrato é o principal ativador alostérico do Complexo
+   I, acelerando a cadeia em condições de alta demanda energética.
+
+Questão 19 Integração
+
+                       28
+NEBLI                                                   ETAPA 2 -- 30 OBJETIVAS
+
+Sobre a UCP1 (termogenina) e a termogênese sem tremor:
+
+A) A UCP1 é uma forma alternativa de ATP sintase modificada estruturalmente que produz ATP
+em ritmo mais lento que a F0F1 convencional, com liberação substancial de calor como subproduto
+inevitável da reação catalítica em adipócitos marrons em condições normais de funcionamento
+mitocondrial saudável.
+
+B) A UCP1 é uma proteína da membrana mitocondrial externa que catalisa diretamente a oxidação
+completa de ácidos graxos de cadeia longa a CO2 e H2O, sem a participação obrigatória do ciclo de Krebs
+ou da cadeia respiratória clássica.
+
+C) A UCP1 é uma proteína da membrana interna mitocondrial que atua como canal regulado de
+prótons; quando ativada por noradrenalina (via 3-adrenérgico), permite que H+ voltem à matriz sem
+passar pela ATP sintase -- o gradiente é dissipado como calor. É a base molecular da termogênese
+sem tremor em recém-nascidos e hibernadores.
+
+D) A UCP1 está presente apenas no tecido adiposo branco subcutâneo de adultos, e é ativada exclusiva
+mente pela insulina secretada após refeições ricas em carboidratos, sendo esse o principal mecanismo
+bioquímico do gasto energético induzido pela dieta rica em carboidratos no adulto saudável.
+
+E) UCP1 e ATP sintase são essencialmente a mesma proteína em humanos, apenas com nomes difer
+entes em contextos clínicos distintos; o termo "UCP1" é apenas o nome comercial usado em estudos
+farmacológicos de obesidade e síndrome metabólica.
+
+Questão 20 Integração
+
+Sobre a estequiometria de prótons bombeados por par de elétrons:
+
+   A) Complexo I bombeia 10 H+ Complexo II bombeia 4 H+ Complexo III bombeia 4 H+ Complexo IV
+   bombeia 2 H+ -- somando 20 H+ por NADH, valor consistente com 10 ATPs gerados por molécula de
+   NADH oxidada.
+
+   B) Complexo I: 4 H+ Complexo II: 0 H+ Complexo III: 4 H+ Complexo IV: 2 H+. Total: 10 H+ por NADH e
+   6 H+ por FADH2 (que pula o Complexo I).
+
+   C) Todos os quatro complexos bombeiam 2 H+ cada um por par de elétrons que os atravessa --
+   totalizando 8 H+ por par de elétrons, valor que é igual para o NADH e para o FADH2 em qualquer tecido.
+
+   D) O Complexo II bombeia 4 H+ enquanto o Complexo I não bombeia nada por par de elétrons que
+   o atravessa; é exatamente por isso que o FADH2 acaba rendendo mais ATP por mol que o NADH na
+   contabilidade final.
+
+   E) Apenas o Complexo IV bombeia prótons na cadeia respiratória humana; os outros três complexos
+   servem apenas para transferir elétrons de um carregador ao próximo, sem participação direta no
+   estabelecimento do gradiente de prótons.
+
+29
+NEBLI                  ETAPA 2 -- 30 OBJETIVAS
+
+Questão 21 Integração
+
+Sobre a importância de cada elétron passar por uma série de centros redox em vez de transferir energia
+diretamente em um passo único:
+
+A) Em um único passo de oxidação do NADH pelo O2, o G total seria próximo de zero porque a
+entropia compensaria exatamente a entalpia liberada; o fracionamento em complexos seria apenas
+uma herança histórico-evolutiva sem função.
+
+B) O fracionamento permite capturar a energia em pequenos quanta compatíveis com o bombea
+mento de prótons ( 20 kJ/mol por H+); em um passo único, os 220 kJ/mol da queda NADHO2 virariam
+calor, não trabalho útil.
+
+C) O fracionamento serve para reduzir a velocidade da reação a um nível enzimaticamente controlável
+pelos mecanismos celulares; em um passo único, a explosão térmica seria suficiente para destruir
+tanto a membrana mitocondrial quanto a célula inteira.
+
+D) O fracionamento existe porque cada componente da cadeia respiratória tem afinidade específica
+por íons distintos (Mg2+, Ca2+, Na+), o que obriga uma divisão em etapas controlada pela disponibil
+idade de cofatores metálicos no meio.
+
+E) O fracionamento é desnecessário em organismos eficientes; bactérias mais simples fazem todo
+o caminho NADHO2 em uma única enzima multifuncional sem qualquer perda de eficiência
+energética em relação à cadeia eucariótica.
+
+Questão 22 Integração
+
+Julgue os itens sobre o citocromo c e apoptose:
+Cada item deve ser julgado de forma independente.
+
+   I. O citocromo c, normalmente confinado ao espaço intermembranar, pode escapar para o citosol
+   quando ocorre permeabilização da membrana mitocondrial externa.
+   II. No citosol, o citocromo c liga-se à Apaf-1, formando o apoptossomo, que ativa a caspase-9 e dispara
+   a via intrínseca de apoptose.
+   III. Por isso, danos mitocondriais graves (mutações em complexos, ROS excessivos) podem disparar
+   morte celular programada -- uma ligação direta entre cadeia respiratória e apoptose.
+   IV. A liberação do citocromo c é sempre patológica; em condições fisiológicas, o citocromo c
+   permanece preso à membrana interna por uma ligação covalente irreversível.
+
+Questão 23 Integração
+Sobre o número de prótons necessários para sintetizar 1 ATP via F0F1 em humanos:
+
+                                                                                30
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+A) Aproximadamente 1 H+ por ATP -- eficiência máxima teórica do motor molecular rotativo,
+valor que torna a fosforilação oxidativa o processo mais energeticamente conservativo entre todos
+os encontrados em sistemas biológicos conhecidos pela bioquímica clássica, sem qualquer perda
+significativa de energia química útil para o trabalho metabólico celular durante a transferência mito
+condrial.
+
+B) Cerca de 3,7 H+ por ATP citosólico -- 2,7 H+ pela rotação da F0F1 (em humanos, 8 subunidades c por
+volta × 3 ATP/volta) + 1 H+ para o simporte Pi/H+ + 0,3 H+ para o antiporte ADP/ATP. Esse número é o
+que define a razão P/O moderna de 2,5 e 1,5.
+
+C) Aproximadamente 10 H+ por ATP sintetizado -- exatamente o mesmo número que o NADH
+consegue bombear ao atravessar toda a cadeia respiratória, gerando portanto uma estequiometria 1:1
+entre NADH oxidado e ATP gerado pela sintase F0F1, valor frequentemente citado em livros clássicos
+de bioquímica anteriores às medidas modernas com lipossomos reconstituídos.
+
+D) O valor é exatamente 4 H+ por ATP em todas as espécies de mamíferos estudadas até hoje, sendo um
+número fixado pela evolução com base no número rígido de subunidades c do anel F0 em mitocôndrias
+de todos os tecidos.
+
+E) O número varia amplamente de 1 a 100 H+ por ATP, dependendo exclusivamente da concentração
+local de ADP no momento da medição experimental, sem relação direta com o número físico de
+subunidades c presentes no anel F0 da enzima, e portanto sem valor preditivo termodinâmico para o
+cálculo do rendimento real do organismo intacto.
+
+Questão 24 Integração
+
+Em um experimento com mitocôndrias isoladas, adiciona-se oligomicina ao meio. O que se observa?
+
+   A) Oligomicina ativa fortemente a ATP sintase ao ligar-se ao F1 como consequência direta dessa
+   ativação, observa-se aumento simultâneo do consumo de O2 pela mitocôndria e da síntese líquida de
+   ATP -- efeito oposto ao dos inibidores clássicos da cadeia.
+
+   B) Oligomicina bloqueia o canal F0 da ATP sintase -- os prótons não conseguem voltar à matriz pelo
+   F0F1. O gradiente sobe, retroinibe o bombeamento pelos complexos, o consumo de O2 cai (state 4
+   respiration) e a síntese de ATP cessa. Adicionar um desacoplador depois restaura o consumo de O2,
+   mas não a síntese de ATP.
+
+   C) Oligomicina desacopla a cadeia respiratória da síntese de ATP de forma análoga ao DNP -- o
+   consumo de O2 aumenta como esperado em desacoplamento e a síntese de ATP cessa, com geração
+   simultânea de calor pela dissipação do gradiente de prótons.
+
+   D) Oligomicina inibe diretamente o Complexo IV, comportando-se como cianeto no efeito final
+   observado: cadeia parada, sem consumo de O2, sem síntese de ATP, com acúmulo progressivo de
+   NADH na matriz e bloqueio do ciclo de Krebs a jusante por excesso de NADH não reoxidado pela cadeia
+   respiratória inibida pelo antibiótico no meio reacional usado.
+
+                                                                                31
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+E) Oligomicina é totalmente inerte em mitocôndrias isoladas de mamíferos -- atua apenas em bac
+térias e fungos, sendo por isso usada clinicamente como antifúngico de amplo espectro sem efeitos
+colaterais mitocondriais sobre o paciente humano em concentrações terapêuticas habituais usadas
+na prática hospitalar para tratamento de infecções fúngicas sistêmicas graves resistentes.
+
+Questão 25 Integração
+
+Sobre a diferença de rendimento de ATP entre tecidos quanto à oxidação completa da glicose:
+
+   A) Todos os tecidos rendem exatamente 38 ATP por molécula de glicose oxidada -- esse número é
+   independente da lançadeira utilizada e do tecido considerado, sendo um valor universal e fixo para
+   todo o reino animal, da hemácia ao neurônio, do hepatócito ao miócito, sem qualquer variação entre
+   tecidos ou condições fisiológicas comuns observáveis em laboratório.
+
+   B) O fígado e o rim usam principalmente a lançadeira malato-aspartato (NADH citosólico vira NADH
+   mitocondrial, rendendo 2,5 ATP) e atingem 32 ATP por glicose; o músculo esquelético e o cérebro
+   usam principalmente a lançadeira glicerol-3-fosfato (NADH citosólico vira FADH2, rendendo 1,5 ATP)
+   e atingem 30 ATP por glicose.
+
+   C) O cérebro rende substancialmente mais ATP por glicose oxidada que o fígado porque tem muito
+   mais mitocôndrias por célula em média -- o número de mitocôndrias é o principal determinante do
+   rendimento energético por glicose em qualquer tecido humano analisado em laboratório com técnicas
+   modernas de quantificação metabólica.
+
+   D) O músculo esquelético em exercício intenso atinge até 50 ATP por glicose graças à ativação extra
+   da cadeia respiratória pela adrenalina circulante, que aumenta a expressão das proteínas da cadeia e
+   melhora o acoplamento entre transporte de elétrons e síntese de ATP durante o esforço prolongado
+   em altas intensidades.
+
+   E) A diferença de rendimento entre tecidos é sempre menor que 1 ATP por molécula de glicose
+   oxidada e por isso é clinicamente irrelevante em qualquer contexto fisiológico ou patológico humano
+   conhecido, podendo ser ignorada na prática clínica.
+
+Questão 26 Aplicação
+
+Em 1933, o 2,4-dinitrofenol (DNP) foi comercializado como emagrecedor. Pacientes que faziam uso
+desenvolveram hipertermia severa (até 42 °C), sudorese profusa e morte em alguns casos. Com base no
+que vimos, a explicação correta é:
+
+   A) O DNP bloqueia diretamente o Complexo IV da cadeia respiratória; a hipóxia tecidual resultante gera
+   acidose lática difusa, e o calor produzido pela fermentação anaeróbia compensatória eleva progres
+   sivamente a temperatura corporal até níveis letais ao paciente exposto, com sintomas neurológicos
+   secundários à hipóxia celular e à acidose sistêmica, sendo o quadro clinicamente indistinguível de
+   uma intoxicação aguda por cianeto em fase tardia descompensada.
+
+                                                                                32
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+B) O DNP inibe especificamente a ATP sintase F0F1 no canal F0 a célula então recorre à termogênese
+alternativa via tecido adiposo marrom para gerar ATP residual, e a elevação da temperatura corporal
+aparece como consequência metabólica indireta dessa via compensatória, sendo o efeito tóxico do
+DNP explicado por bloqueio direto da síntese de ATP na ATP sintase mitocondrial em altas doses
+farmacológicas e sustentadas no plasma.
+
+C) O DNP é um desacoplador. Como ácido fraco lipossolúvel, ele atravessa a membrana mitocondrial
+interna protonado (do espaço intermembranar) e libera o H+ na matriz -- colapsa o gradiente sem
+passar pela ATP sintase. A cadeia respiratória continua rodando (na verdade acelera), o O2 é consum
+ido, e a energia que normalmente viraria ATP vira calor. Em altas doses, o calor é absurdo e o paciente
+morre por hipertermia.
+
+D) O DNP aumenta a sensibilidade dos receptores -adrenérgicos do tecido adiposo branco e do
+músculo esquelético, e causa hipertermia secundária por estimulação simpática crônica generalizada,
+semelhante ao quadro de feocromocitoma em sua apresentação clínica clássica, com taquicardia,
+sudorese profusa, hipertensão arterial e hipertermia, sendo o bloqueio cardiovascular -adrenérgico
+o tratamento de primeira linha em caso de intoxicação aguda.
+
+E) O DNP atua exclusivamente sobre o tecido adiposo marrom, ativando a UCP1 mesmo em adultos
+sem tecido adiposo marrom funcional residual, e portanto recriando artificialmente a termogênese
+sem tremor do neonato em um adulto saudável exposto à droga em qualquer dose terapêutica, sendo
+esse o motivo da retirada do mercado nos anos 1930 segundo agências regulatórias americanas e
+europeias contemporâneas.
+
+Questão 27 Aplicação
+
+Um recém-nascido apresenta-se em sala de parto com 35 °C de temperatura corporal e necessidade de
+aquecimento ativo. Pediatricamente, sabe-se que neonatos compensam o resfriamento por termogê
+nese sem tremor (não conseguem tremer eficazmente). O mecanismo bioquímico envolvido é:
+
+   A) A glicogenólise hepática vigorosa gera calor diretamente como produto químico da quebra do
+   glicogênio em glicose-1-fosfato, sem necessidade de gerar ATP intermediário no fígado neonatal
+   exposto ao frio ambiente da sala de parto, sendo essa via metabólica direta a principal explicação
+   fisiológica para a manutenção térmica do recém-nascido nas primeiras horas de vida extrauterina.
+
+   B) O tecido adiposo marrom -- abundante em neonatos -- expressa UCP1 (termogenina). Quando a
+   temperatura cai, a noradrenalina (via 3) ativa a lipase do adipócito marrom e abre os canais UCP1 na
+   membrana mitocondrial interna; o gradiente de prótons é dissipado como calor em vez de virar ATP.
+   A cadeia respiratória oxida ácidos graxos só para gerar calor.
+
+   C) A contração isométrica sustentada dos músculos esqueléticos paravertebrais e dos membros do
+   neonato gera ATP em grande quantidade, que é então hidrolisado por isoformas neonatais especiais
+   de miosina cataliticamente inativas presentes apenas no recém-nascido em maturação muscular in
+
+       33
+NEBLI  ETAPA 2 -- 30 OBJETIVAS
+
+completa, liberando calor sem produção de força mecânica contrátil ou movimento corporal aparente
+perceptível em exame físico.
+
+D) O fígado neonatal expressa uma isoforma especial de ATP sintase estruturalmente ineficiente,
+chamada F0F1-neonatal, que perde até 80% da energia química gerada pela cadeia respiratória como
+calor, aquecendo o corpo do bebê nos primeiros dias de vida.
+
+E) O calor da termogênese neonatal vem principalmente da combustão direta da glicose pela hemo
+globina fetal específica do recém-nascido, sem qualquer participação mitocondrial -- mecanismo
+único do neonato que desaparece progressivamente nas primeiras semanas pós-parto à medida que a
+hemoglobina fetal é substituída pela hemoglobina adulta normal no sangue do bebê em desenvolvi
+mento.
+
+Questão 28 Aplicação
+
+Um paciente intoxicado por cianeto chega ao pronto-socorro. Julgue os itens sobre o manejo:
+Cada item deve ser julgado de forma independente.
+
+   I. O sangue venoso vermelho-cereja é sinal característico -- o O2 não foi consumido pelos tecidos
+   porque a cadeia respiratória está bloqueada no Complexo IV.
+   II. O cérebro e o miocárdio são os tecidos mais vulneráveis porque dependem quase exclusivamente
+   do metabolismo oxidativo para ATP.
+   III. O antídoto clássico inclui nitrito de sódio (induz formação de meta-hemoglobina, que sequestra
+   o CN- do tecido) e tiossulfato (substrato da rodanase, enzima que converte CN- em SCN- atóxico).
+   IV. A administração de glicose endovenosa é o tratamento de primeira linha -- fornece substrato à
+   glicólise anaeróbia e bypassa a cadeia bloqueada permanentemente.
+
+Questão 29 Aplicação
+
+Um pesquisador trabalha com mitocôndrias isoladas com NADH como substrato e quer determinar se
+a cadeia respiratória de uma amostra está funcional. Ele mede o consumo de O2 em quatro condições,
+na ordem: (1) só NADH; (2) NADH + ADP; (3) NADH + ADP + oligomicina; (4) NADH + ADP + oligomicina
++ DNP. Os resultados esperados em mitocôndrias funcionais são:
+
+   A) (1) alto consumo de O2 (2) consumo baixo mesmo com ADP presente; (3) volta a alto consumo
+   após oligomicina; (4) consumo cai a zero após o desacoplador DNP atuar sobre o gradiente de prótons
+   da membrana interna mitocondrial e bloquear a respiração celular completamente em mitocôndrias
+   isoladas.
+
+   B) (1) baixo consumo (sem ADP, gradiente alto retroinibe); (2) alto consumo (ADP destrava a sintase,
+   gradiente cai, complexos voltam a bombear); (3) baixo novamente (oligomicina bloqueia o F0F1, gra
+
+                                                                                34
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+diente sobe e freia); (4) alto consumo (DNP desacopla, gradiente cai, cadeia roda em alta velocidade --
+mas sem síntese de ATP).
+
+C) (1) consumo zero; (2) consumo permanece zero mesmo na presença de ADP livre; (3) consumo
+torna-se alto após adição de oligomicina ao meio; (4) consumo retorna a zero após adição final do
+desacoplador DNP em mitocôndrias funcionais isoladas.
+
+D) O consumo de O2 é praticamente constante em todas as quatro condições experimentais testadas
+pelo pesquisador; ele depende exclusivamente da quantidade de NADH adicionada inicialmente ao
+meio, e não da disponibilidade dos demais cofatores ou inibidores adicionados sequencialmente ao
+meio reacional pelo pesquisador.
+
+E) Os resultados esperados são (1) alto; (2) alto; (3) alto consumo igualmente; (4) zero -- porque o
+DNP é o único composto que consegue parar a cadeia respiratória completamente em mitocôndrias
+funcionais, ao contrário do que se observa com a oligomicina.
+
+Questão 30 Aplicação
+
+Sobre a hipertermia maligna (reação adversa rara a anestésicos halogenados em pacientes genetica
+mente predispostos, com mutação no receptor de rianodina): durante a crise, o paciente apresenta
+temperatura > 40 °C, acidose lática, rigidez muscular e aumento dramático do consumo de O2. Bioquimi
+camente, o quadro é melhor explicado por:
+
+   A) Liberação descontrolada de Ca2+ do retículo sarcoplasmático no músculo esquelético; o Ca2+ alto
+   na matriz mitocondrial estimula múltiplas desidrogenases e a cadeia respiratória, mas o consumo
+   elevado de ATP pelas bombas (SERCA, Na/K-ATPase) + o efeito do Ca2+ de aumentar o "vazamento"
+   de prótons na membrana interna fazem o músculo virar uma fornalha -- calor sem ATP útil, com
+   acidose lática associada ao trabalho anaeróbio acessório.
+
+   B) Bloqueio direto do Complexo IV da cadeia respiratória pelos anestésicos halogenados durante a
+   crise; o halotano em particular age como um análogo estrutural do cianeto sobre o citocromo a3,
+   causando hipóxia histotóxica difusa que explica todos os sinais clínicos observados durante a crise
+   aguda, incluindo a hipertermia maligna, a acidose lática severa e a rigidez muscular generalizada do
+   paciente em sala cirúrgica.
+
+   C) Inibição direta e específica da ATP sintase F0F1 pelos anestésicos halogenados ligando-se ao anel
+   c do F0 o efeito é desacoplar o gradiente de prótons da síntese de ATP, gerando calor descontrolado
+   no músculo esquelético do paciente predisposto geneticamente, com elevação rápida da temperatura
+   corporal acima de quarenta graus Celsius nos primeiros minutos da exposição cirúrgica aos anestési
+   cos halogenados utilizados na sala.
+
+   D) Excesso súbito de NADH no músculo durante a anestesia, que reverte o ciclo de Krebs em direção
+   à síntese reversa de citrato e gera calor pela hidrólise descontrolada de ATP por enzimas musculares
+   específicas ativadas pela mutação no receptor de rianodina.
+
+       35
+NEBLI      ETAPA 2 -- 30 OBJETIVAS
+
+E) Hipoglicemia aguda profunda induzida pelos anestésicos halogenados; o calor da crise vem prin
+cipalmente do metabolismo acelerado de aminoácidos ramificados musculares na ausência de glicose
+disponível, e a rigidez muscular sustentada reflete tetania por hipoglicemia profunda, semelhante ao
+quadro clínico observado em casos graves de hiperinsulinemia pós-cirúrgica em pacientes diabéticos
+do tipo 1 mal compensados antes do procedimento.
+
+       36
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique, em termos termodinâmicos, por que a cadeia respiratória precisa de quatro complexos
+em sequência em vez de uma única reação NADH + ½O2  NAD+ + H2O. Inclua na resposta o
+cálculo do G° dessa reação total e a comparação com o G° da síntese de ATP.
+
+    MODELO DE RESPOSTA
+
+   A oxidação completa do NADH pelo O2 libera 220 kJ/mol (G° = -nFE°` = -2 × 96,5
+   × (0,82 - (-0,32))  -220 kJ/mol). A síntese de ATP custa 30 kJ/mol. Em um único
+   passo, os 220 kJ/mol seriam liberados de uma só vez -- energia incompatível com o
+   bombeamento de prótons ( 20 kJ/mol por H+) e que viraria calor, não trabalho útil. A
+   solução evolutiva é fracionar a queda em 10 etapas redox sequenciais (E°' crescente),
+   cada uma liberando 20­80 kJ/mol. Esse fracionamento permite capturar a energia em
+   pequenos quanta -- bombeando prótons em três pontos (Complexos I, III, IV) e gerando
+   o gradiente que move a ATP sintase.
+
+Questão Q2
+
+Descreva o ciclo Q no Complexo III, explicando: (a) por que ele existe (que problema químico ele
+resolve); (b) o saldo de prótons bombeados por par de elétrons; (c) o papel da semiquinona (QH·).
+
+    MODELO DE RESPOSTA
+
+   (a) A CoQH2 traz 2 e-, mas o citocromo c -- próximo carregador -- aceita só 1 e- por vez.
+   O ciclo Q resolve essa incompatibilidade. (b) Resultado líquido: 2 QH2 entram em sítios
+   distintos; 1 elétron de cada vai para cit c (via cit c1); os outros 2 elétrons recirculam pelo
+   cit b reduzindo um Q a QH2. Por par de elétrons entregues ao cit c, 4 H+ são bombeados
+   -- o dobro do que seria sem bifurcação. (c) A semiquinona é o intermediário de 1 elétron
+   que torna possível a bifurcação: estabiliza-se no sítio Qi até receber o segundo elétron
+   via cit b, fechando o ciclo.
+
+                             37
+NEBLI      ETAPA 3 -- DISCURSIVAS (5)
+
+Questão Q3
+
+Compare inibidores e desacopladores da fosforilação oxidativa quanto a: (a) consumo de O2 (b)
+síntese de ATP; (c)  da membrana mitocondrial interna; (d) produção de calor. Cite um exemplo
+clínico de cada.
+
+MODELO DE RESPOSTA
+
+Inibidores (cianeto/CO/azida no IV; rotenona no I; antimicina no III; oligomicina no
+F0F1): (a) consumo de O2 cai a zero -- a cadeia para; (b) ATP cessa; (c)  colapsa
+(sem entrada de e-, complexos param de bombear); (d) calor não aumenta. Exemplo
+clínico: intoxicação por cianeto -- hipóxia histotóxica, sangue venoso vermelho-cereja.
+Desacopladores (DNP, UCP1): (a) consumo de O2 aumenta -- a cadeia acelera porque
+o gradiente baixo desfreia o bombeamento; (b) ATP cai (prótons retornam sem passar
+pela sintase); (c)  cai (gradiente vaza); (d) calor aumenta dramaticamente. Exemplo
+clínico: termogênese sem tremor em neonatos via UCP1 do tecido adiposo marrom.
+
+Questão Q4
+
+Faça o cálculo do saldo de ATP a partir da oxidação completa de uma molécula de glicose (a)
+em um hepatócito e (b) em uma fibra muscular esquelética em exercício, usando os valores P/O
+modernos. Justifique a diferença pelo mecanismo da lançadeira utilizada.
+
+    MODELO DE RESPOSTA
+
+   Etapas comuns: glicólise rende 2 ATP + 2 NADHcit PDH + Krebs rendem 8 NADHmit + 2
+   FADH2 + 2 GTP. Com P/O moderna (2,5 NADH; 1,5 FADH2): 8×2,5 = 20 + 2×1,5 = 3 + 2
+   GTP + 2 ATP = 25 ATP sem contar os 2 NADHcit. (a) Hepatócito usa lançadeira malato-
+   aspartato -- entrega NADHcit como NADHmit (2×2,5 = 5 ATP). Total: 30 ATP (com 2 ATP/
+   ADP de custos de transporte já embutidos = 32 ATP de fato). (b) Músculo esquelético
+   usa lançadeira glicerol-3-P -- entrega como FADH2 (2×1,5 = 3 ATP). Total: 28­30 ATP.
+   A diferença reflete que o músculo "barateia" o transporte ao custo de menos ATP por
+   glicose -- apropriado para contração rápida.
+
+       38
+NEBLI      ETAPA 3 -- DISCURSIVAS (5)
+
+Questão Q5
+
+Um estudante afirma: "A síntese de ATP pela ATP sintase ocorre porque a passagem dos prótons
+pelo F0 gera energia que é usada para forçar a ligação química entre ADP e Pi no sítio T do F1."
+Identifique o erro conceitual nessa afirmação e dê a explicação correta do mecanismo de Boyer.
+
+MODELO DE RESPOSTA
+
+O erro é assumir que a energia dos prótons forma a ligação química ADP + Pi  ATP. Na
+verdade, o ATP forma-se espontaneamente no sítio T (Tight) -- quando ADP e Pi estão
+muito próximos e desidratados nesse microambiente apertado, a química favorece ADP
++ Pi  ATP sem necessidade de energia externa (G  0 no microambiente). O que custa
+energia é liberar o ATP do sítio T para o citosol, pois o ATP ligado no sítio T tem afinidade
+altíssima. A energia da rotação da haste  (gerada pelo fluxo de prótons no F0) é gasta
+em mudar a conformação do sítio T  Open, desligando o ATP do sítio. Em paralelo, o
+sítio L  T comprime ADP + Pi, e o sítio O  L abre para nova ligação de substrato. Em
+síntese: prótons fornecem energia mecânica para liberar ATP, não para sintetizá-lo.
+
+       39
+NEBLI                                       ETAPA 3 -- DISCURSIVAS (5)
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B  Q02 C            Q03 C     Q04 CECE  Q05 B
+Q06 B  Q07 B            Q08 B     Q09 CCCE  Q10 B
+
+INTEGRAÇÃO (Q11­Q25)    Q13 A     Q14 B     Q15 CCCE
+                        Q18 CCCE  Q19 C     Q20 B
+Q11 C  Q12 CCCE         Q23 B     Q24 B     Q25 B
+Q16 B  Q17 C
+                        Q28 CCCE  Q29 B     Q30 A
+Q21 B  Q22 CCCE
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C  Q27 B
+
+                        40
+

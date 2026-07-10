@@ -1,0 +1,2476 @@
+{
+  "PROVA_UC1_biocel_P3-v2_p01.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3-v2_p02.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3-v2_p03.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3-v2_p04.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3-v2_p05.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3_p01.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3_p02.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3_p03.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_biocel_P3_p05.png": {
+    "fonte_inferida": "PROVA_UC1_biocel_P3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_bioquimica_P3-v2_p01.png": {
+    "fonte_inferida": "PROVA_UC1_bioquimica_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_bioquimica_P3-v2_p05.png": {
+    "fonte_inferida": "PROVA_UC1_bioquimica_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_bioquimica_P3-v2_p06.png": {
+    "fonte_inferida": "PROVA_UC1_bioquimica_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_bioquimica_P3-v2_p07.png": {
+    "fonte_inferida": "PROVA_UC1_bioquimica_P3-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_bioquimica_P3_p07.png": {
+    "fonte_inferida": "PROVA_UC1_bioquimica_P3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_compilado_2023_p03.png": {
+    "fonte_inferida": "PROVA_UC1_compilado_2023",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_compilado_2023_p05.png": {
+    "fonte_inferida": "PROVA_UC1_compilado_2023",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_compilado_2023_p07.png": {
+    "fonte_inferida": "PROVA_UC1_compilado_2023",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_compilado_2023_p10.png": {
+    "fonte_inferida": "PROVA_UC1_compilado_2023",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_compilado_2023_p13.png": {
+    "fonte_inferida": "PROVA_UC1_compilado_2023",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_cassola_p01.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_cassola",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_cassola_p06.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_cassola",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_cassola_p08.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_cassola",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_P2_turmas97-102-106_p06.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_P2_turmas97-102-106",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_P2_turmas97-102-106_p07.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_P2_turmas97-102-106",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_fisiologia_P2eP3_p11.png": {
+    "fonte_inferida": "PROVA_UC1_fisiologia_P2eP3",
+    "n_candidatos": 30,
+    "candidatos": [
+      {
+        "qid": "q-0112",
+        "arquivo": "q-0112.md",
+        "conceito": "Oscilação de potencial de membrana com cinéticas diferentes de Na+ e K+ é necessariamente tudo-ou-nada",
+        "tags": [
+          "potencial-acao",
+          "tudo-ou-nada",
+          "periodo-refratario",
+          "canais-na-voltagem",
+          "canais-k-voltagem"
+        ],
+        "armadilha": "Confundir 'tudo-ou-nada' macroscópico com determinismo microscópico. Em nível de canal individual, a abertura é probabil",
+        "formato": "discursiva",
+        "gabarito": "Probabilístico em nível microscópico; fu",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0113",
+        "arquivo": "q-0113.md",
+        "conceito": "Neurônio em circuito neural recebe sinais sinápticos; processos que levam ao disparo de PA e suas consequências",
+        "tags": [
+          "potencial-acao",
+          "sinapse-quimica",
+          "integracao-sinaptica",
+          "somacao-temporal-espacial"
+        ],
+        "armadilha": "Achar que neurônios internos do SNC têm receptores sensoriais próprios, ou que um único input sináptico é suficiente par",
+        "formato": "discursiva",
+        "gabarito": "Neurônio em circuito não tem receptores ",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0114",
+        "arquivo": "q-0114.md",
+        "conceito": "GPCR ativa adenilato ciclase via proteína G, aumentando cAMP",
+        "tags": [
+          "gpcr",
+          "proteina-g",
+          "adenilato-ciclase",
+          "camp",
+          "pka"
+        ],
+        "armadilha": "Confundir GPCR (7 hélices transmembranares) com receptores tirosina quinase. GPCRs não têm atividade enzimática própria ",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "fisio-07-sinalizacao-I"
+      },
+      {
+        "qid": "q-0115",
+        "arquivo": "q-0115.md",
+        "conceito": "Segundo mensageiro modifica proteínas e altera fenótipo; fosfodiesterases interrompem ação",
+        "tags": [
+          "sinalizacao-intracelular",
+          "camp",
+          "fosfodiesterase",
+          "ip3",
+          "fosfatidil-inositol",
+          "ca2-plus"
+        ],
+        "armadilha": "Marcar a alternativa B como correta ('mensageiros modificam estrutura terciária') por parecer biologicamente plausível. ",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-07-sinalizacao-I"
+      },
+      {
+        "qid": "q-0116",
+        "arquivo": "q-0116.md",
+        "conceito": "Toxina pertussis bloqueia proteína Gi, impedindo hidrólise de GTP; efeito em via cAMP",
+        "tags": [
+          "camp",
+          "gpcr",
+          "proteina-g",
+          "adenilato-ciclase",
+          "pka",
+          "toxina-pertussis"
+        ],
+        "armadilha": "Não perceber a dupla negação: toxina bloqueia Gi (o inibidor da adenilato ciclase) → remove o freio → adenilato ciclase ",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "fisio-07-sinalizacao-I"
+      },
+      {
+        "qid": "q-0117",
+        "arquivo": "q-0117.md",
+        "conceito": "Glutamato em sinapse metabotrópica ativa fosfolipase C → IP3 → liberação de Ca2+ do RE",
+        "tags": [
+          "sinapse-quimica",
+          "metabotropica",
+          "glutamato",
+          "fosfolipase-c",
+          "ip3",
+          "calcio-intracelular",
+          "reticulo-endoplasmatico"
+        ],
+        "armadilha": "Selecionar a alternativa C (ácido araquidônico abre canais do RE), confundindo as vias de fosfolipase C (que produz IP3)",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-07-sinalizacao-I"
+      },
+      {
+        "qid": "q-0118",
+        "arquivo": "q-0118.md",
+        "conceito": "Receptor sensorial com canais sensíveis a estiramento gera potencial graduado, não tudo-ou-nada",
+        "tags": [
+          "canais-sensaveis-estiramento",
+          "potencial-receptor",
+          "potencial-graduado",
+          "despolarizacao",
+          "somacao-espacial"
+        ],
+        "armadilha": "Achar que canais sensíveis a estiramento geram potencial de ação diretamente (E), ou que a permeabilidade igual a K⁺ e N",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-03-potencial-repouso"
+      },
+      {
+        "qid": "q-0119",
+        "arquivo": "q-0119.md",
+        "conceito": "Potencial graduado em receptor sensorial: amplitude proporcional ao estímulo, sem atenuação apenas se mielinizado",
+        "tags": [
+          "potencial-receptor",
+          "potencial-graduado",
+          "somacao-espacial",
+          "receptor-sensorial",
+          "propagacao"
+        ],
+        "armadilha": "Pensar que potenciais graduados se propagam bem em axônios não mielinizados (B), ou que receptores sensoriais geram PA d",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0120",
+        "arquivo": "q-0120.md",
+        "conceito": "PA: sem atenuação, depende de Na+ e K+ voltagem-dependentes, período refratário segue transiente",
+        "tags": [
+          "potencial-acao",
+          "periodo-refratario",
+          "canais-na-voltagem",
+          "cinetica-ativacao",
+          "cinetica-inativacao"
+        ],
+        "armadilha": "Confundir 'amplitude constante' (tudo-ou-nada) com 'velocidade constante'. O PA tem amplitude constante independente do ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0121",
+        "arquivo": "q-0121.md",
+        "conceito": "Limiar: ponto onde corrente de Na+ supera a de K+ (e outras), disparando PA",
+        "tags": [
+          "limiar",
+          "potencial-acao",
+          "canais-na-voltagem",
+          "canais-k-voltagem",
+          "potencial-eletroquimico"
+        ],
+        "armadilha": "Focar na cinética de abertura (Na⁺ abre mais rápido) em vez de na força motriz eletroquímica como mecanismo do limiar. N",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0122",
+        "arquivo": "q-0122.md",
+        "conceito": "Inativação mais rápida de Na+ → repolarização e período refratário mais curtos",
+        "tags": [
+          "inativacao-canal",
+          "canais-na-voltagem",
+          "cinética",
+          "periodo-refratario",
+          "duracao-pa"
+        ],
+        "armadilha": "Confundir inativação (fechamento após abertura) com ativação (abertura). Inativação mais rápida significa que o canal fe",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0123",
+        "arquivo": "q-0123.md",
+        "conceito": "Em potencial de repouso diferente, PA é idêntico → populações de canais em mesmos estados de inativação",
+        "tags": [
+          "tudo-ou-nada",
+          "potencial-repouso",
+          "inativacao-canal",
+          "limiar",
+          "canais-na-voltagem"
+        ],
+        "armadilha": "Confundir os estados 'fechado' (resting, pronto para abrir) e 'inativado' (refratário, não responde a estímulo). Em pote",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-03-potencial-repouso"
+      },
+      {
+        "qid": "q-0124",
+        "arquivo": "q-0124.md",
+        "conceito": "Bloqueio parcial de K+ voltagem-dependente → repolarização mais lenta, PA mais longo e maior amplitude",
+        "tags": [
+          "canais-k-voltagem",
+          "canais-na-voltagem",
+          "potencial-acao",
+          "repolarizacao",
+          "amplitude"
+        ],
+        "armadilha": "Pensar que bloqueio parcial de K⁺ leva a despolarização permanente (C). O bloqueio é parcial e a inativação de Na⁺ ainda",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0125",
+        "arquivo": "q-0125.md",
+        "conceito": "PA com platô: despolarização rápida (Na+) seguida por platô (Ca2+), repolarização lenta",
+        "tags": [
+          "plato",
+          "potencial-acao",
+          "canais-ca-voltagem",
+          "canais-na-voltagem",
+          "repolarizacao",
+          "inativacao"
+        ],
+        "armadilha": "Achar que ativação lenta de K⁺ (B) explica o platô, sem perceber que isso apenas retarda a repolarização mas não explica",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0126",
+        "arquivo": "q-0126.md",
+        "conceito": "Propagação eletrônica: depende de resistência axial (menor = mais longe) e capacitância (menor = mais rápido)",
+        "tags": [
+          "propagacao-eletrotonica",
+          "resistencia-membrana",
+          "capacitancia-membrana",
+          "constante-comprimento",
+          "axonio"
+        ],
+        "armadilha": "Inverter a relação da resistência da membrana (Rm): o aluno pensa que menor Rm facilita o fluxo de corrente longitudinal",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "fisio-04-propriedades-passivas"
+      },
+      {
+        "qid": "q-0127",
+        "arquivo": "q-0127.md",
+        "conceito": "Sinapse química ionotrópica: Ca2+ abre em terminal pré, neurotransmissor abaixa limiar pós",
+        "tags": [
+          "sinapse-quimica",
+          "neurotransmissor",
+          "acetilcolina",
+          "peps",
+          "calcio-intracelular",
+          "exocitose"
+        ],
+        "armadilha": "Confundir 'quantal' com 'invariável'. Transmissão quantal significa que o NT é liberado em pacotes discretos (vesículas)",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0128",
+        "arquivo": "q-0128.md",
+        "conceito": "Glutamato ativa NMDA → Ca2+ intracelular; excesso é tóxico → excitotoxicidade",
+        "tags": [
+          "glutamato",
+          "receptores-ionotropicos",
+          "receptores-nmda",
+          "calcio-intracelular",
+          "neurotoxicidade",
+          "excitabilidade"
+        ],
+        "armadilha": "Achar que AMPA é receptor metabotrópico (B), ou que PEPS de glutamato são sempre supraliminares e causam PA diretamente ",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0129",
+        "arquivo": "q-0129.md",
+        "conceito": "Droga bloqueia transmissão neuromuscular; PA preservados. Bloqueio está na sinapse (pré ou pós)",
+        "tags": [
+          "transmissao-neuromuscular",
+          "acetilcolina",
+          "tubocurarina",
+          "acetilcolinesterase",
+          "potencial-acao"
+        ],
+        "armadilha": "Marcar tubocurarina (A) por associação com bloqueio neuromuscular clássico, sem analisar os dados: se ACh aplicada exoge",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0130",
+        "arquivo": "q-0130.md",
+        "conceito": "Sinapse elétrica: retardo < 0.1 ms, via conexinas e junções gap",
+        "tags": [
+          "sinapses-eletricas",
+          "conexinas",
+          "juncoes-gap",
+          "retardo"
+        ],
+        "armadilha": "Não saber diferenciar o retardo de sinapses químicas (≥ 0,5 ms, pela liberação e difusão de NT) de sinapses elétricas (<",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0131",
+        "arquivo": "q-0131.md",
+        "conceito": "Cone de inserção dispara primeiro: limiar mais baixo por somação de sinais sinápticos ou maior densidade de canais Na+",
+        "tags": [
+          "cone-insercao-axonio",
+          "cone-inserção",
+          "limiar",
+          "densidade-canais",
+          "propagacao-eletrotonica"
+        ],
+        "armadilha": "Aceitar a premissa da alternativa 1 como correta — de que todos os limiares do neurônio são iguais e só a somação determ",
+        "formato": "discursiva",
+        "gabarito": "Entre as opções, há múltiplas explicaçõe",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0132",
+        "arquivo": "q-0132.md",
+        "conceito": "Segmento S4 tem resíduos carregados positivamente (K, R); substituição por G → perda de sensibilidade a voltagem",
+        "tags": [
+          "mutagenese",
+          "canais-na-voltagem",
+          "s4-segment",
+          "sensor-voltagem",
+          "seletividade-ionica"
+        ],
+        "armadilha": "Confundir o segmento S4 (sensor de voltagem, com resíduos carregados K e R) com a região P (filtro de seletividade iônic",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-05-potencial-acao"
+      },
+      {
+        "qid": "q-0133",
+        "arquivo": "q-0133.md",
+        "conceito": "Somação espacial é não-linear; sinapses no corpo celular são mais eficientes; atenuação de sinais distantes é maior",
+        "tags": [
+          "somacao-temporal-espacial",
+          "sinapses-excitatoria",
+          "sinapses-inibitoria",
+          "integracao-sinaptica",
+          "atenuacao-eletrotonica"
+        ],
+        "armadilha": "Achar que 'somação espacial' implica que todas as sinapses têm o mesmo peso independente de localização. Na verdade, sin",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "fisio-06-transmissao-sinaptica"
+      },
+      {
+        "qid": "q-0134",
+        "arquivo": "q-0134.md",
+        "conceito": "Pressão osmótica necessária para evitar fluxo de água em solução hipertônica",
+        "tags": [
+          "osmose",
+          "pressao-osmotica",
+          "tonicidade",
+          "equilíbrio-osmótico"
+        ],
+        "armadilha": "Usar i=1 na fórmula de van't Hoff para NaCl, calculando pressão osmótica de 150 mOsmol/L em vez de 300 mOsmol/L. NaCl di",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0135",
+        "arquivo": "q-0135.md",
+        "conceito": "Solução isosmótica pode ser hipertônica se coeficiente de reflexão < 1 (soluto penetra)",
+        "tags": [
+          "osmose",
+          "tonicidade",
+          "isosmotica",
+          "hipertonica",
+          "hipotónica",
+          "coeficiente-reflexao"
+        ],
+        "armadilha": "Equiparar isosmótica com isotônica (A). A tonicidade depende da permeabilidade do soluto: se o soluto penetra na membran",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0136",
+        "arquivo": "q-0136.md",
+        "conceito": "Estresse hipertônico: murchamento inicial, depois recuperação volume por aumento osmóios intracelulares",
+        "tags": [
+          "estresse-osmotico",
+          "murchamento-celular",
+          "regulacao-volume"
+        ],
+        "armadilha": "Achar que a célula murcha e permanece murchada permanentemente (A), desconhecendo os mecanismos de regulação de volume (",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0137",
+        "arquivo": "q-0137.md",
+        "conceito": "Furosemide bloqueia NKCC1 → impossibilita recuperação de volume rápida em estresse hipertônico",
+        "tags": [
+          "estresse-osmotico",
+          "furosemide",
+          "cotransporte-nkcc1",
+          "regulacao-volume"
+        ],
+        "armadilha": "Achar que o bloqueio de NKCC1 pelo furosemide elimina completamente a recuperação de volume (A). Existem mecanismos alte",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0138",
+        "arquivo": "q-0138.md",
+        "conceito": "Após RVI, célula mantém-se em desequilíbrio osmótico com solução extracelular; pressão hidrostática balanceia",
+        "tags": [
+          "osmose",
+          "pressao-osmotica",
+          "pressao-hidrostatica",
+          "equilíbrio-osmótico",
+          "desequilibrio-osmotico"
+        ],
+        "armadilha": "Achar que, após recuperar o volume, a célula voltou à osmolaridade inicial de 290 mOsmol/L (A) ou que está em equilíbrio",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "fisio-09-transporte-agua"
+      },
+      {
+        "qid": "q-0139",
+        "arquivo": "q-0139.md",
+        "conceito": "Plasma é hiperosmótico (macromoléculas); força de Starling governa transferência de água entre plasma e interstício",
+        "tags": [
+          "osmose",
+          "plasma",
+          "intersticio",
+          "macromoleculas",
+          "proteinas",
+          "absorçao-agua",
+          "renal-glomérulo"
+        ],
+        "armadilha": "Aceitar E como totalmente correta ('NaCl não altera volumes celulares porque se distribui no extracelular'). NaCl aument",
+        "formato": "CE",
+        "gabarito": "A-V; B-V; C-V; D-V; E-F",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0140",
+        "arquivo": "q-0140.md",
+        "conceito": "Sensor em retroalimentação negativa: detecta continuamente e controla efetor para manter variável",
+        "tags": [
+          "homeostase",
+          "retroalimentacao-negativa",
+          "feedback-negativo",
+          "regulacao-hormonal",
+          "sensor",
+          "efetor"
+        ],
+        "armadilha": "Confundir sensor com efetor: a alternativa A diz que o sensor 'controla por meio de hormônios um efetor', mas quem liber",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "fisio-01-introducao"
+      },
+      {
+        "qid": "q-0141",
+        "arquivo": "q-0141.md",
+        "conceito": "Homeostase: variável oscila com amplitude determinada pelo ganho; sensor pode ajustar set-point",
+        "tags": [
+          "homeostase",
+          "retroalimentacao-negativa",
+          "oscilacao",
+          "ganho-sistema",
+          "set-point"
+        ],
+        "armadilha": "Achar que homeostase = manutenção constante e invariante da variável (A), sem perceber que: (1) oscilações são inevitáve",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "fisio-01-introducao"
+      }
+    ]
+  },
+  "PROVA_UC1_P1_2005_TB_p02.png": {
+    "fonte_inferida": "PROVA_UC1_P1_2005_TB",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_P1_2005_TB_p03.png": {
+    "fonte_inferida": "PROVA_UC1_P1_2005_TB",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_P2_2008_aline-v3_p01.png": {
+    "fonte_inferida": "PROVA_UC1_P2_2008_aline-v3",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p01.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p02.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p03.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p04.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p06.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p09.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados-v2_p10.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados-v2",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p01.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p02.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p03.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p04.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p06.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_enunciados_p09.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_enunciados",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p01.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p03.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p04.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p06.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p10.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p12.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC1_questoes-P1_respostas_p14.png": {
+    "fonte_inferida": "PROVA_UC1_questoes-P1_respostas",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_anatomia_P2_2023_p02.png": {
+    "fonte_inferida": "PROVA_UC2_anatomia_P2_2023",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0262",
+        "arquivo": "q-0262.md",
+        "conceito": "Nomenclatura e terminologia anatômica para organização do corpo",
+        "tags": [
+          "anatomia-humana",
+          "terminologia-anatomica",
+          "planos-eixos"
+        ],
+        "armadilha": "Usar 'plano frontal' em vez de 'plano coronal' (d), ou 'plano longitudinal' como sinônimo de sagital mediano. A terminol",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "anato-01-intro-planos-eixos"
+      },
+      {
+        "qid": "q-0263",
+        "arquivo": "q-0263.md",
+        "conceito": "Anatomia das cavidades do corpo humano e suas divisões",
+        "tags": [
+          "anatomia-humana",
+          "cavidades-corporais",
+          "diafragma"
+        ],
+        "armadilha": "Não lembrar que a cavidade DORSAL é contínua (cranial + canal medular formam um único espaço revestido por meninges). A ",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-06-circulatorio-linfatico-II"
+      },
+      {
+        "qid": "q-0275",
+        "arquivo": "q-0275.md",
+        "conceito": "Função das células ósseas no processo de formação e reabsorção do osso",
+        "tags": [
+          "histologia-ossea",
+          "osteoblasto",
+          "osteoclasto",
+          "osteocito",
+          "remodelacao-ossea"
+        ],
+        "armadilha": "Não saber que osteoclastos são multinucleados e derivados de precursores HEMATOPOÉTICOS (monócitos/macrófagos), não de f",
+        "formato": "CE",
+        "gabarito": "I-V; II-F; III-V; IV-F",
+        "aula": "histo-07-cartilaginoso-osseo"
+      }
+    ]
+  },
+  "PROVA_UC2_anatomia_P2_2023_p03.png": {
+    "fonte_inferida": "PROVA_UC2_anatomia_P2_2023",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0262",
+        "arquivo": "q-0262.md",
+        "conceito": "Nomenclatura e terminologia anatômica para organização do corpo",
+        "tags": [
+          "anatomia-humana",
+          "terminologia-anatomica",
+          "planos-eixos"
+        ],
+        "armadilha": "Usar 'plano frontal' em vez de 'plano coronal' (d), ou 'plano longitudinal' como sinônimo de sagital mediano. A terminol",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "anato-01-intro-planos-eixos"
+      },
+      {
+        "qid": "q-0263",
+        "arquivo": "q-0263.md",
+        "conceito": "Anatomia das cavidades do corpo humano e suas divisões",
+        "tags": [
+          "anatomia-humana",
+          "cavidades-corporais",
+          "diafragma"
+        ],
+        "armadilha": "Não lembrar que a cavidade DORSAL é contínua (cranial + canal medular formam um único espaço revestido por meninges). A ",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-06-circulatorio-linfatico-II"
+      },
+      {
+        "qid": "q-0275",
+        "arquivo": "q-0275.md",
+        "conceito": "Função das células ósseas no processo de formação e reabsorção do osso",
+        "tags": [
+          "histologia-ossea",
+          "osteoblasto",
+          "osteoclasto",
+          "osteocito",
+          "remodelacao-ossea"
+        ],
+        "armadilha": "Não saber que osteoclastos são multinucleados e derivados de precursores HEMATOPOÉTICOS (monócitos/macrófagos), não de f",
+        "formato": "CE",
+        "gabarito": "I-V; II-F; III-V; IV-F",
+        "aula": "histo-07-cartilaginoso-osseo"
+      }
+    ]
+  },
+  "PROVA_UC2_anatomia_P2_2023_p04.png": {
+    "fonte_inferida": "PROVA_UC2_anatomia_P2_2023",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0262",
+        "arquivo": "q-0262.md",
+        "conceito": "Nomenclatura e terminologia anatômica para organização do corpo",
+        "tags": [
+          "anatomia-humana",
+          "terminologia-anatomica",
+          "planos-eixos"
+        ],
+        "armadilha": "Usar 'plano frontal' em vez de 'plano coronal' (d), ou 'plano longitudinal' como sinônimo de sagital mediano. A terminol",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "anato-01-intro-planos-eixos"
+      },
+      {
+        "qid": "q-0263",
+        "arquivo": "q-0263.md",
+        "conceito": "Anatomia das cavidades do corpo humano e suas divisões",
+        "tags": [
+          "anatomia-humana",
+          "cavidades-corporais",
+          "diafragma"
+        ],
+        "armadilha": "Não lembrar que a cavidade DORSAL é contínua (cranial + canal medular formam um único espaço revestido por meninges). A ",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-06-circulatorio-linfatico-II"
+      },
+      {
+        "qid": "q-0275",
+        "arquivo": "q-0275.md",
+        "conceito": "Função das células ósseas no processo de formação e reabsorção do osso",
+        "tags": [
+          "histologia-ossea",
+          "osteoblasto",
+          "osteoclasto",
+          "osteocito",
+          "remodelacao-ossea"
+        ],
+        "armadilha": "Não saber que osteoclastos são multinucleados e derivados de precursores HEMATOPOÉTICOS (monócitos/macrófagos), não de f",
+        "formato": "CE",
+        "gabarito": "I-V; II-F; III-V; IV-F",
+        "aula": "histo-07-cartilaginoso-osseo"
+      }
+    ]
+  },
+  "PROVA_UC2_bioquimica_P2_2023_p01.png": {
+    "fonte_inferida": "PROVA_UC2_bioquimica_P2_2023",
+    "n_candidatos": 5,
+    "candidatos": [
+      {
+        "qid": "q-0264",
+        "arquivo": "q-0264.md",
+        "conceito": "Metabolismo de lipídios e formação de corpos cetônicos em diferentes condições nutricionais",
+        "tags": [
+          "bioquimica",
+          "cetogenese",
+          "diabetes",
+          "dieta"
+        ],
+        "armadilha": "Marcar D (proteínas pobre em carbo) como igualmente cetogênica que B. Embora proteínas cetogênicas gerem Acetil-CoA, a v",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "bioq-21-lipideos-rotas"
+      },
+      {
+        "qid": "q-0265",
+        "arquivo": "q-0265.md",
+        "conceito": "Etapas enzimáticas da síntese de ácidos graxos",
+        "tags": [
+          "bioquimica",
+          "sintese-acidos-graxos",
+          "enzimas",
+          "ciclo",
+          "beta-oxidacao"
+        ],
+        "armadilha": "Confundir a ordem da síntese com a da β-oxidação (que são processos inversos mas não identicamente reversíveis). Na sínt",
+        "formato": "discursiva",
+        "gabarito": "1-malonil; 2-condensação; 3-redução; 4-h",
+        "aula": "bioq-22-lipideos-regulacao"
+      },
+      {
+        "qid": "q-0266",
+        "arquivo": "q-0266.md",
+        "conceito": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+        "tags": [
+          "bioquimica",
+          "deficiencia-enzimatica",
+          "g6pd",
+          "anemia",
+          "hemacia",
+          "nadph",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Achar que G6PD afeta a glicólise (B) por confundir G6P (intermediário glicolítico) com G6PD (enzima da via das pentoses)",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0267",
+        "arquivo": "q-0267.md",
+        "conceito": "Função do NADPH em diferentes vias metabólicas",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "lipogenese",
+          "glicose"
+        ],
+        "armadilha": "Confundir o papel do NADPH na síntese de ácidos graxos (cofator redutor, 2 NADPH por elongação) com seu papel na degrada",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0268",
+        "arquivo": "q-0268.md",
+        "conceito": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "ribose",
+          "nucleotideos",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Inverter as fases: a fase OXIDATIVA produz NADPH + ribose-5-P; a fase NÃO-OXIDATIVA interconverte pentoses (produzindo F",
+        "formato": "discursiva",
+        "gabarito": "Nenhuma-oxidativa-as duas-as duas-não ox",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      }
+    ]
+  },
+  "PROVA_UC2_bioquimica_P2_2023_p02.png": {
+    "fonte_inferida": "PROVA_UC2_bioquimica_P2_2023",
+    "n_candidatos": 5,
+    "candidatos": [
+      {
+        "qid": "q-0264",
+        "arquivo": "q-0264.md",
+        "conceito": "Metabolismo de lipídios e formação de corpos cetônicos em diferentes condições nutricionais",
+        "tags": [
+          "bioquimica",
+          "cetogenese",
+          "diabetes",
+          "dieta"
+        ],
+        "armadilha": "Marcar D (proteínas pobre em carbo) como igualmente cetogênica que B. Embora proteínas cetogênicas gerem Acetil-CoA, a v",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "bioq-21-lipideos-rotas"
+      },
+      {
+        "qid": "q-0265",
+        "arquivo": "q-0265.md",
+        "conceito": "Etapas enzimáticas da síntese de ácidos graxos",
+        "tags": [
+          "bioquimica",
+          "sintese-acidos-graxos",
+          "enzimas",
+          "ciclo",
+          "beta-oxidacao"
+        ],
+        "armadilha": "Confundir a ordem da síntese com a da β-oxidação (que são processos inversos mas não identicamente reversíveis). Na sínt",
+        "formato": "discursiva",
+        "gabarito": "1-malonil; 2-condensação; 3-redução; 4-h",
+        "aula": "bioq-22-lipideos-regulacao"
+      },
+      {
+        "qid": "q-0266",
+        "arquivo": "q-0266.md",
+        "conceito": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+        "tags": [
+          "bioquimica",
+          "deficiencia-enzimatica",
+          "g6pd",
+          "anemia",
+          "hemacia",
+          "nadph",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Achar que G6PD afeta a glicólise (B) por confundir G6P (intermediário glicolítico) com G6PD (enzima da via das pentoses)",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0267",
+        "arquivo": "q-0267.md",
+        "conceito": "Função do NADPH em diferentes vias metabólicas",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "lipogenese",
+          "glicose"
+        ],
+        "armadilha": "Confundir o papel do NADPH na síntese de ácidos graxos (cofator redutor, 2 NADPH por elongação) com seu papel na degrada",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0268",
+        "arquivo": "q-0268.md",
+        "conceito": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "ribose",
+          "nucleotideos",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Inverter as fases: a fase OXIDATIVA produz NADPH + ribose-5-P; a fase NÃO-OXIDATIVA interconverte pentoses (produzindo F",
+        "formato": "discursiva",
+        "gabarito": "Nenhuma-oxidativa-as duas-as duas-não ox",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      }
+    ]
+  },
+  "PROVA_UC2_bioquimica_P2_2023_p04.png": {
+    "fonte_inferida": "PROVA_UC2_bioquimica_P2_2023",
+    "n_candidatos": 5,
+    "candidatos": [
+      {
+        "qid": "q-0264",
+        "arquivo": "q-0264.md",
+        "conceito": "Metabolismo de lipídios e formação de corpos cetônicos em diferentes condições nutricionais",
+        "tags": [
+          "bioquimica",
+          "cetogenese",
+          "diabetes",
+          "dieta"
+        ],
+        "armadilha": "Marcar D (proteínas pobre em carbo) como igualmente cetogênica que B. Embora proteínas cetogênicas gerem Acetil-CoA, a v",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "bioq-21-lipideos-rotas"
+      },
+      {
+        "qid": "q-0265",
+        "arquivo": "q-0265.md",
+        "conceito": "Etapas enzimáticas da síntese de ácidos graxos",
+        "tags": [
+          "bioquimica",
+          "sintese-acidos-graxos",
+          "enzimas",
+          "ciclo",
+          "beta-oxidacao"
+        ],
+        "armadilha": "Confundir a ordem da síntese com a da β-oxidação (que são processos inversos mas não identicamente reversíveis). Na sínt",
+        "formato": "discursiva",
+        "gabarito": "1-malonil; 2-condensação; 3-redução; 4-h",
+        "aula": "bioq-22-lipideos-regulacao"
+      },
+      {
+        "qid": "q-0266",
+        "arquivo": "q-0266.md",
+        "conceito": "Deficiência de glicose-6-fosfato desidrogenase e mecanismo de anemia hemolítica",
+        "tags": [
+          "bioquimica",
+          "deficiencia-enzimatica",
+          "g6pd",
+          "anemia",
+          "hemacia",
+          "nadph",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Achar que G6PD afeta a glicólise (B) por confundir G6P (intermediário glicolítico) com G6PD (enzima da via das pentoses)",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0267",
+        "arquivo": "q-0267.md",
+        "conceito": "Função do NADPH em diferentes vias metabólicas",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "lipogenese",
+          "glicose"
+        ],
+        "armadilha": "Confundir o papel do NADPH na síntese de ácidos graxos (cofator redutor, 2 NADPH por elongação) com seu papel na degrada",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      },
+      {
+        "qid": "q-0268",
+        "arquivo": "q-0268.md",
+        "conceito": "Ativação de diferentes fases da via das pentoses conforme demanda metabólica",
+        "tags": [
+          "bioquimica",
+          "via-pentoses",
+          "nadph",
+          "ribose",
+          "nucleotideos",
+          "estresse-oxidativo"
+        ],
+        "armadilha": "Inverter as fases: a fase OXIDATIVA produz NADPH + ribose-5-P; a fase NÃO-OXIDATIVA interconverte pentoses (produzindo F",
+        "formato": "discursiva",
+        "gabarito": "Nenhuma-oxidativa-as duas-as duas-não ox",
+        "aula": "bioq-20-pentoses-radicais-livres"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p02.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p03.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p06.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p07.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p08.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p09.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P2_2023_p10.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P2_2023",
+    "n_candidatos": 2,
+    "candidatos": [
+      {
+        "qid": "q-0273",
+        "arquivo": "q-0273.md",
+        "conceito": "Características fundamentais do tecido epitelial: polaridade, membrana basal e junções",
+        "tags": [
+          "histologia-tecido-epitelial",
+          "epitélio",
+          "polaridade-celular",
+          "membrana-basal",
+          "junções-celulares"
+        ],
+        "armadilha": "Marcar E (macrófagos residentes entre células epiteliais) como característica do epitélio. Macrófagos são células do tec",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "histo-03-tecidos-epiteliais"
+      },
+      {
+        "qid": "q-0274",
+        "arquivo": "q-0274.md",
+        "conceito": "Papel do fibroblasto e dos tipos de colágeno na matriz extracelular do tecido conjuntivo",
+        "tags": [
+          "histologia-tecido-conjuntivo",
+          "colageno",
+          "fibroblasto",
+          "matriz-extracelular",
+          "tipos-colageno"
+        ],
+        "armadilha": "Generalizar que 'colágeno = fibras espessas visíveis ao MO' para todos os tipos. Colágeno tipo IV forma uma rede bidimen",
+        "formato": "MC",
+        "gabarito": "E",
+        "aula": "histo-04-tecido-conjuntivo"
+      }
+    ]
+  },
+  "PROVA_UC2_histologia_P4_p02.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p03.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p04.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p06.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p07.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p09.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p10.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p11.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p12.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_histologia_P4_p13.png": {
+    "fonte_inferida": "PROVA_UC2_histologia_P4",
+    "n_candidatos": 0,
+    "candidatos": []
+  },
+  "PROVA_UC2_P2_online_turma108_p01.png": {
+    "fonte_inferida": "PROVA_UC2_P2_online_turma108",
+    "n_candidatos": 1,
+    "candidatos": [
+      {
+        "qid": "q-0276",
+        "arquivo": "q-0276.md",
+        "conceito": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+        "tags": [
+          "enzimas",
+          "km",
+          "vmax",
+          "enzimologia",
+          "inibicao-enzimatica"
+        ],
+        "armadilha": "Marcar A (não competitiva) por associar 'Vmax não muda' com 'inibidor não compete com substrato'. Na inibição NÃO compet",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "bioq-11-enzimas-II-regulacao"
+      }
+    ]
+  },
+  "PROVA_UC2_P2_online_turma108_p02.png": {
+    "fonte_inferida": "PROVA_UC2_P2_online_turma108",
+    "n_candidatos": 1,
+    "candidatos": [
+      {
+        "qid": "q-0276",
+        "arquivo": "q-0276.md",
+        "conceito": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+        "tags": [
+          "enzimas",
+          "km",
+          "vmax",
+          "enzimologia",
+          "inibicao-enzimatica"
+        ],
+        "armadilha": "Marcar A (não competitiva) por associar 'Vmax não muda' com 'inibidor não compete com substrato'. Na inibição NÃO compet",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "bioq-11-enzimas-II-regulacao"
+      }
+    ]
+  },
+  "PROVA_UC2_P2_online_turma108_p03.png": {
+    "fonte_inferida": "PROVA_UC2_P2_online_turma108",
+    "n_candidatos": 1,
+    "candidatos": [
+      {
+        "qid": "q-0276",
+        "arquivo": "q-0276.md",
+        "conceito": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+        "tags": [
+          "enzimas",
+          "km",
+          "vmax",
+          "enzimologia",
+          "inibicao-enzimatica"
+        ],
+        "armadilha": "Marcar A (não competitiva) por associar 'Vmax não muda' com 'inibidor não compete com substrato'. Na inibição NÃO compet",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "bioq-11-enzimas-II-regulacao"
+      }
+    ]
+  },
+  "PROVA_UC2_P2_online_turma108_p04.png": {
+    "fonte_inferida": "PROVA_UC2_P2_online_turma108",
+    "n_candidatos": 1,
+    "candidatos": [
+      {
+        "qid": "q-0276",
+        "arquivo": "q-0276.md",
+        "conceito": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+        "tags": [
+          "enzimas",
+          "km",
+          "vmax",
+          "enzimologia",
+          "inibicao-enzimatica"
+        ],
+        "armadilha": "Marcar A (não competitiva) por associar 'Vmax não muda' com 'inibidor não compete com substrato'. Na inibição NÃO compet",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "bioq-11-enzimas-II-regulacao"
+      }
+    ]
+  },
+  "PROVA_UC2_P2_online_turma108_p05.png": {
+    "fonte_inferida": "PROVA_UC2_P2_online_turma108",
+    "n_candidatos": 1,
+    "candidatos": [
+      {
+        "qid": "q-0276",
+        "arquivo": "q-0276.md",
+        "conceito": "Interpretação da curva de Michaelis-Menten e efeito dos tipos de inibição sobre Km e Vmax",
+        "tags": [
+          "enzimas",
+          "km",
+          "vmax",
+          "enzimologia",
+          "inibicao-enzimatica"
+        ],
+        "armadilha": "Marcar A (não competitiva) por associar 'Vmax não muda' com 'inibidor não compete com substrato'. Na inibição NÃO compet",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "bioq-11-enzimas-II-regulacao"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p01.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p02.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p04.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p05.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p07.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p08.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P3_online_turma108_p12.png": {
+    "fonte_inferida": "PROVA_UC2_P3_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0271",
+        "arquivo": "q-0271.md",
+        "conceito": "Identificação correta dos derivados das três camadas germinativas",
+        "tags": [
+          "embriologia",
+          "derivados-embrionarios",
+          "ectoderme",
+          "mesoderme",
+          "endoderme"
+        ],
+        "armadilha": "Confundir a origem da epiderme (ectoderme) com a de músculo esquelético (mesoderme, miótomos dos somitos). O aluno frequ",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "embrio-02-blastocisto-gastrulacao"
+      },
+      {
+        "qid": "q-0272",
+        "arquivo": "q-0272.md",
+        "conceito": "Características diferenciais dos três tipos de músculo: estriado esquelético, cardíaco e liso",
+        "tags": [
+          "histologia-muscular",
+          "musculo-cardiaco",
+          "musculo-esqueletico",
+          "musculo-liso",
+          "comparacao"
+        ],
+        "armadilha": "Inverter características do músculo cardíaco e esquelético (A): cardíaco é mononucleado (1–2 núcleos centrais) e INVOLUN",
+        "formato": "MC",
+        "gabarito": "B",
+        "aula": "histo-08-tecido-muscular"
+      },
+      {
+        "qid": "q-0278",
+        "arquivo": "q-0278.md",
+        "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+        "tags": [
+          "anatomia",
+          "articulacao",
+          "tipos-articulacao",
+          "sinovial",
+          "cartilagem"
+        ],
+        "armadilha": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (sutur",
+        "formato": "MC",
+        "gabarito": "D",
+        "aula": "anato-03-articulacoes"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p01.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p03.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p04.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p05.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p07.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p08.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p09.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p11.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p12.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  },
+  "PROVA_UC2_P4_online_turma108_p13.png": {
+    "fonte_inferida": "PROVA_UC2_P4_online_turma108",
+    "n_candidatos": 3,
+    "candidatos": [
+      {
+        "qid": "q-0269",
+        "arquivo": "q-0269.md",
+        "conceito": "Diferença estrutural entre artéria elástica e muscular pela composição da túnica média",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "arteria-elastica",
+          "arteria-muscular"
+        ],
+        "armadilha": "Inverter a composição das túnicas: marcar A (elástica tem músculo liso; muscular tem lâminas elásticas). O nome diz a co",
+        "formato": "MC",
+        "gabarito": "C",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0270",
+        "arquivo": "q-0270.md",
+        "conceito": "Comparação estrutural entre veias e artérias — túnicas, espessura, vasa vasorum",
+        "tags": [
+          "histologia-vascular",
+          "tunicas-vasculares",
+          "veia",
+          "arteria",
+          "comparacao"
+        ],
+        "armadilha": "Inverter artéria e veia no item 1: artérias têm túnica muscular muito mais espessa que veias de mesmo calibre, não o con",
+        "formato": "CE",
+        "gabarito": "I-F; II-V; III-F; IV-V",
+        "aula": "histo-09-vasos-sanguineos-linfaticos"
+      },
+      {
+        "qid": "q-0279",
+        "arquivo": "q-0279.md",
+        "conceito": "Etapas regulatórias da glicólise e controle alostérico da fosfofrutoquinase-1",
+        "tags": [
+          "metabolismo",
+          "glicólise",
+          "atp",
+          "enzimas",
+          "regulacao-metabolica"
+        ],
+        "armadilha": "Achar que ATP em alta concentração ATIVA PFK-1 por ser o substrato da reação (B). Em alta [ATP], o sítio alostérico inib",
+        "formato": "MC",
+        "gabarito": "A",
+        "aula": "bioq-15-glicolise"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1577 @@
+NEBLI · APOSTILA
+
+Transmissão sináptica
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:   Leia com o slide do prof aberto ao lado; figuras citadas no texto
+               referenciam o slide.
+Onde estudar:  Purves, Neuroscience (6ª ed.), Cap. 5 (Synaptic Transmission) e Cap. 6
+               (Neurotransmitters and Their Receptors) · Kandel, Principles of Neural
+               Science (5ª ed.), Caps. 11­13 · Boron, Medical Physiology (3ª ed.), Cap. 8
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Duas soluções para um mesmo problema
+
+       1.1 Por que duas células precisam se falar sem se tocar
+       1.2 Sinapse elétrica: rápido, sincronizado, bidirecional
+       1.3 Sinapse química: a JNM como modelo e a sequência em 7 passos
+  PARTE II -- O lado de chegada: receptores e PSPs
+       2.1 Ionotrópico × metabotrópico: a mesma molécula com dois efeitos
+       2.2 PEPS pelo AMPA e PIPS pelo GABA-A: o sinal vira corrente
+       2.3 NMDA, Mg² e LTP: detectar coincidência e gravar memória
+  PARTE III -- Juntando tudo: somação, modulação, decisão
+       3.1 Somação temporal e espacial até o cone de inserção
+       3.2 Modulação pré-sináptica e o encerramento do sinal
+       3.3 Da JNM até a clínica: miastenia, botulismo e excitotoxicidade
+
+RESUMINDO (1 PÁGINA)
+
+       8 seções enxutas, duas colunas
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+       8 Consolidação · 17 Integração · 5 Aplicação (profundidade PROFUNDA)
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+       Mecanísticas; Q5 identifica erro conceitual
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Selecionadas do banco UC01; gabarito inline
+
+GABARITO CONSOLIDADO DA ETAPA 2
+
+       Penúltima seção
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Dois neurônios precisam conversar, mas não podem se tocar. Se ficassem fisicamente colados,
+    qualquer despolarização em um arrastaria o outro junto e o sistema nervoso seria um curto-cir
+    cuito constante, sem hierarquia, sem direção e sem aprendizado. A sinapse é a solução evolutiva
+    que mantém os dois separados por uma fenda diminuta e, ao mesmo tempo, garante que a infor
+    mação atravesse essa fenda com sentido, com modulação e com memória. Esta aula desmonta
+    a sinapse em três níveis. Primeiro, as duas grandes estratégias evolutivas -- sinapse elétrica e
+    sinapse química -- usando a junção neuromuscular como modelo arquetípico da química (PARTE
+    I). Depois, o lado de chegada: como o neurotransmissor é "lido" pela membrana pós-sináptica,
+    gerando potenciais excitatórios -- PEPS1 -- ou inibitórios -- PIPS2 -- e como o receptor NMDA3
+    consegue gravar memória no encéfalo (PARTE II). Por fim, como o neurônio decide: somação
+    espacial e temporal no cone de inserção, modulação pré-sináptica, encerramento do sinal e
+    três síndromes clínicas (miastenia, botulismo, excitotoxicidade) que caem direto do mecanismo
+    (PARTE III). Tudo começa com uma pergunta de evolução, então vamos por ela.
+
+PARTE I -- Duas soluções para um mesmo problema
+
+1.1 -- Por que duas células precisam se falar sem se tocar
+A pergunta fundamental é: por que a evolução não fez simplesmente uma continuidade elétrica direta
+entre os neurônios, como num fio de cobre? A resposta revela os três grandes serviços que a sinapse
+presta. Primeiro, unidirecionalidade: a informação precisa ter um sentido definido para que circuitos
+neurais funcionem -- o estímulo doloroso da pele precisa subir até o córtex, não o contrário. Segundo,
+amplificação e modulação: um único neurônio do córtex recebe milhares de sinais ao mesmo tempo,
+e precisa de um lugar onde esses sinais possam ser pesados, somados, freados, amplificados; numa
+continuidade contínua, não haveria onde essa integração aconteceria. Terceiro, plasticidade: a força de
+uma sinapse pode aumentar ou diminuir ao longo do tempo, e é nisso que se baseia o aprendizado --
+algo essencialmente impossível numa conexão elétrica fixa.
+
+   1PEPS ­ potencial excitatório pós-sináptico -- pequena despolarização local da membrana pós-sináptica gerada por
+entrada de Na.
+
+   2PIPS ­ potencial inibitório pós-sináptico -- pequena hiperpolarização ou estabilização do potencial pós-sináptico,
+gerada por entrada de Cl ou saída de K.
+
+   3NMDA ­ N-metil-D-aspartato -- receptor ionotrópico de glutamato com bloqueio voltagem-dependente por Mg² e
+permeabilidade a Ca².
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Visão geral do problema: um PA4 chega ao terminal pré-sináptico, dispara liberação de neurotransmissor, e na célula
+pós-sináptica o sinal precisa convergir para a zona de disparo (cone de inserção), onde alta densidade de canais de
+Na dependentes de voltagem decide se nasce um novo PA. A fenda no meio é o local onde a informação muda de
+natureza -- elétrica  química  elétrica de novo.
+
+Existem duas grandes famílias de sinapse. A sinapse elétrica é rápida, fixa e bidirecional -- útil em
+circunstâncias específicas como o tronco encefálico, retina e músculo cardíaco. A sinapse química é
+mais lenta (tem um retardo de cerca de 0,5 ms), mas é unidirecional, modulável e plástica -- por isso
+ela domina o sistema nervoso dos mamíferos e ocupará 80% desta aula.
+
+   Resumindo até aqui: Sinapse existe porque o sistema nervoso precisa de unidirecionalidade, modu
+   lação e plasticidade. Continuidade elétrica direta seria mais rápida, mas inviabilizaria circuitos com
+   sentido, integração de milhares de entradas e aprendizado. A fenda é uma vantagem, não um defeito.
+
+1.2 -- Sinapse elétrica: rápido, sincronizado, bidirecional
+A sinapse elétrica é a solução mais "direta" possível: ela conecta o citoplasma de dois neurônios através
+de canais proteicos que atravessam as duas membranas lado a lado, sem fenda significativa no meio.
+Esses canais se chamam conexons, formados por seis conexinas5 em cada membrana, que se alinham
+com os seis conexons da célula vizinha e formam um poro contínuo. Quando alinhados, dois conexons
+formam uma junção gap6. As membranas ficam a apenas 3,5 nm uma da outra -- dez vezes mais perto
+do que na sinapse química.
+
+   4PA ­ potencial de ação -- onda de despolarização autopropagada ao longo do axônio, deflagrada quando o potencial
+de membrana cruza o limiar ( -55 mV).
+
+   5conexinas ­ família de proteínas de membrana que se associam em hexâmeros para formar conexons; mutações em
+conexinas humanas causam surdez genética e doença de Charcot-Marie-Tooth.
+
+   6junção gap ­ especialização de membrana onde conexons de duas células se alinham formando poros contínuos entre
+os citoplasmas. Permitem passagem de íons e moléculas pequenas (<1 kDa).
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Sinapse elétrica (esquerda) × sinapse química (direita). À esquerda, junções gap conectam os citoplasmas e íons
+passam diretamente -- bidirecional. À direita, o terminal pré-sináptico libera neurotransmissor em vesículas para
+a fenda, e o neurônio pós-sináptico responde via receptores -- unidirecional. Note a diferença de distância entre as
+membranas -- a sinapse química tem fenda de 30 nm, a elétrica praticamente cola as duas células.
+
+Por que isso importa? Porque íons passam diretamente de uma célula para a outra. Se o neurônio
+pré-sináptico despolariza, as cargas positivas fluem pelo conexon e despolarizam imediatamente o
+neurônio pós-sináptico. O retardo sináptico é quase zero -- cerca de 0,1 ms, praticamente só o tempo de
+propagação passiva da corrente. E como os conexons não têm direção intrínseca, a corrente pode fluir
+nos dois sentidos: a sinapse elétrica é bidirecional. Esta é a primeira grande diferença para a sinapse
+química.
+Onde isso é útil? Em três grandes situações. Em reflexos de fuga em invertebrados (a lagosta foge em
+milissegundos porque suas sinapses motoras são elétricas). No músculo cardíaco dos mamíferos, onde
+junções gap entre cardiomiócitos garantem que o impulso elétrico se espalhe sincronicamente pelo átrio
+e pelo ventrículo (sem isso, fibrilação). E em circuitos do tronco encefálico que controlam respiração
+ritmada, onde sincronia importa mais que modulação. Onde a velocidade e a sincronia são prioritárias,
+a evolução escolheu a sinapse elétrica.
+
+   Resumindo até aqui: Sinapse elétrica = conexons (6 conexinas)  junção gap (membranas a 3,5 nm) 
+   íons passam direto. Retardo de 0,1 ms, bidirecional, sem modulação. Útil em sincronia (cardiomiócitos),
+   reflexos rápidos e geradores rítmicos. Velocidade vence flexibilidade.
+
+1.3 -- Sinapse química: a JNM como modelo e a sequência em 7 passos
+A sinapse química é mais lenta, mas é onde mora a riqueza do sistema nervoso. Para entendê-la, vamos
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+usar o modelo mais bem caracterizado: a junção neuromuscular (JNM7). Cada axônio de neurônio
+motor se ramifica e termina em uma fibra muscular esquelética, formando uma estrutura especializada
+-- a placa motora. Ali, o terminal pré-sináptico tem vesículas cheias de acetilcolina8, a fenda sináptica
+tem cerca de 30 nm de largura, e a membrana pós-sináptica (sarcolema) é dobrada em dobras juncionais9
+que concentram receptores nicotínicos no topo.
+
+Junção neuromuscular: o axônio motor perde a bainha de mielina perto do alvo e se ramifica em terminais pré-
+sinápticos que ocupam a placa motora. Cada terminal tem vesículas sinápticas concentradas em zonas ativas
+alinhadas com as dobras juncionais da fibra muscular. Os receptores nicotínicos ficam no topo das dobras; canais de
+Na ficam no fundo. Toda a arquitetura é otimizada para confiabilidade -- cada PA do neurônio motor causa, com
+certeza, contração do músculo.
+
+A JNM é o modelo ideal porque é grande, acessível e confiável: na sinapse química do encéfalo, um único
+PA pré-sináptico produz um PEPS pequeno (poucos mV) e talvez nem sequer dispare PA pós-sináptico
+-- é preciso somar centenas deles. Na JNM, cada PA pré-sináptico produz sempre um PA pós-sináptico.
+É como se a evolução tivesse pegado um exemplo "amplificado" para nós estudarmos os princípios.
+
+O que acontece quando o PA chega ao terminal? A sequência sináptica em 7 passos -- uma cadeia que
+vale memorizar pela lógica, não pelo nome de cada etapa.
+
+   7JNM ­ junção neuromuscular -- sinapse química entre o neurônio motor e a fibra muscular esquelética; usa acetil
+colina como neurotransmissor e receptor nicotínico como pós-sináptico.
+
+   8acetilcolina ­ principal neurotransmissor da JNM e do sistema nervoso autônomo parassimpático. Sintetizada no
+terminal a partir de colina + acetil-CoA pela colina acetiltransferase.
+
+   9dobras juncionais ­ invaginações da membrana pós-sináptica da JNM que aumentam a área de contato e concentram
+receptores nicotínicos no topo das dobras e canais de Na no fundo.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A sequência sináptica em 7 passos. (1) O neurotransmissor é sintetizado e armazenado em vesículas. (2) O PA invade
+o terminal pré-sináptico. (3) A despolarização abre canais de Ca² dependentes de voltagem (Cav10). (4) Ca² entra
+(em alta concentração local nas zonas ativas). (5) Ca² dispara a fusão das vesículas com a membrana pré-sináptica
+pelo complexo SNARE11. (6) O neurotransmissor é liberado na fenda por exocitose12 e atravessa a fenda por difusão
+(~30 nm em ~50 µs). (7) O neurotransmissor liga-se aos receptores da membrana pós-sináptica, gerando resposta;
+em seguida é removido da fenda (degradação ou recaptação) para encerrar o sinal.
+
+Vamos amarrar a sequência com a fisiologia. No passo 3, a despolarização não abre só os canais de Na do
+PA -- abre também os zona ativa13 de Ca² dependentes de voltagem (Cav), concentrados na zona ativa,
+exatamente embaixo das vesículas ancoradas. A concentração de Ca² no terminal em repouso é de cerca
+de 100 nM; nas microdomínios da zona ativa, durante o PA, sobe para >100 µM em microssegundos --
+aumento de mil vezes, e só lá, só por um instante. Essa "espacialização" do sinal de Ca² é o que torna
+a sinapse química rápida o suficiente para ser útil.
+
+No passo 5, o Ca² é detectado pela sinaptotagmina14, uma proteína na membrana da vesícula que tem
+afinidade alta por Ca². Quando ela liga Ca², libera o "freio" sobre o complexo SNARE, que aí faz o "zíper"
+entre a vesícula e a membrana plasmática, fundindo as duas e abrindo um poro para a fenda. Tudo isso
+
+   10Cav ­ canal de cálcio dependente de voltagem -- abre quando o terminal despolariza e deixa Ca² entrar; gatilho
+indispensável da exocitose sináptica.
+
+   11SNARE ­ soluble NSF attachment protein receptor -- complexo proteico de fusão de membrana; v-SNAREs da vesícula
+formam grampo com t-SNAREs da membrana plasmática, e a sinaptotagmina é o sensor de Ca² que dispara o zíper.
+
+   12exocitose ­ fusão da membrana da vesícula com a membrana plasmática, expondo o conteúdo da vesícula ao meio
+extracelular. Na sinapse química, é disparada por Ca² via complexo SNARE em <1 ms.
+
+   13zona ativa ­ região da membrana pré-sináptica onde se concentram canais de Ca² dependentes de voltagem e
+vesículas ancoradas pelo complexo SNARE, posicionadas para fusão imediata após entrada de Ca².
+
+   14sinaptotagmina ­ proteína da vesícula sináptica que liga 5 Ca² e é o sensor de Ca² da exocitose rápida; ativa a fusão
+pelo desbloqueio do complexo SNARE.
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+em menos de 1 ms. É a etapa mais regulada e a mais "química" da sinapse -- e é onde drogas e toxinas
+atuam (botulismo bloqueia SNARE; veremos em 3.3).
+
+No passo 7, o neurotransmissor precisa ser removido da fenda, senão o estímulo nunca encerra. Na
+JNM, a acetilcolinesterase (AChE15) hidrolisa a ACh16 em colina + acetato em microssegundos; a colina
+é recaptada pelo terminal e reciclada. No encéfalo, a remoção é tipicamente por recaptação17 via trans
+portadores específicos -- SERT18 para serotonina, DAT19 para dopamina, GAT20 para GABA, EAAT21 para
+glutamato (na glia). Sem remoção, não há nova mensagem possível.
+
+Cálcio entra pelo Cav, não pelo Na
+
+É comum confundir e achar que o "Na que entra no PA" é o gatilho da exocitose. Não é. O Na
+despolariza o terminal, mas o gatilho molecular da fusão é o Ca² que entra pelos canais de Cálcio
+dependentes de voltagem (Cav). Se você bloqueia o Cav (toxinas como -conotoxina) ou remove
+o Ca² do meio extracelular, o PA ainda chega no terminal mas nenhuma vesícula funde. PA é
+necessário, Ca² é necessário, mas só o Ca² é o gatilho direto.
+
+Resumindo até aqui: Sinapse química = 7 passos: síntese  vesícula  PA invade terminal  Ca²
+entra pelo Cav  SNARE funde a vesícula  exocitose libera neurotransmissor  ligação ao receptor
+ resposta e remoção. O Ca² é o gatilho molecular, detectado pela sinaptotagmina. A JNM é o modelo
+arquetípico -- confiável, grande e amplificado, mas os princípios valem para o encéfalo inteiro.
+
+   15AChE ­ acetilcolinesterase -- enzima localizada na lâmina basal da fenda da JNM que hidrolisa ACh em colina +
+acetato em ~1 ms. Inibida por organofosforados.
+
+   16ACh ­ acetilcolina -- principal neurotransmissor da JNM e do sistema parassimpático.
+   17recaptação ­ processo pelo qual transportadores específicos na membrana pré-sináptica (ou glial) bombeiam o
+neurotransmissor de volta para dentro da célula, encerrando o sinal e reciclando o transmissor.
+   18SERT ­ transportador de serotonina -- recaptação da serotonina da fenda; alvo dos antidepressivos ISRS.
+   19DAT ­ transportador de dopamina -- recaptação da dopamina; alvo da cocaína e anfetaminas.
+   20GAT ­ transportador de GABA -- recaptação do GABA da fenda para o terminal ou para a glia.
+   21EAAT ­ transportador de aminoácido excitatório -- recaptação do glutamato, principalmente pela glia; mantém a
+fenda "limpa" e evita excitotoxicidade.
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- O lado de chegada: receptores e PSPs
+
+2.1 -- Ionotrópico × metabotrópico: a mesma molécula com dois efeitos
+O neurotransmissor atravessou a fenda por difusão. Agora ele precisa ser "lido" pela membrana pós-
+sináptica -- e é aqui que a natureza do sinal depende completamente do tipo de receptor encontrado.
+A mesma molécula pode produzir efeitos completamente diferentes em receptores diferentes. O
+glutamato, por exemplo, ativa cinco famílias de receptores distintos; o GABA, duas. Vamos organizar
+primeiro.
+
+Existem duas grandes famílias de receptores pós-sinápticos. Os receptores ionotrópicos são canais
+iônicos que abrem quando o neurotransmissor se liga -- eles são o canal. A resposta é rápida
+(milissegundos) porque não há intermediários: ligação  conformação  canal aberto. Os receptores
+metabotrópicos são acoplados a proteínas G e ativam cascatas intracelulares que, eventualmente,
+modulam canais ou enzimas. A resposta é lenta (centenas de milissegundos a segundos), mas permite
+amplificação (um receptor ativa muitas proteínas G; cada proteína G ativa muitas enzimas; cada enzima
+gera muitos segundos mensageiros) e modulação metabólica.
+
+As duas famílias de receptores pós-sinápticos. À esquerda, receptor ionotrópico: o neurotransmissor liga e o canal
+abre direto -- íons entram, resposta em milissegundos. À direita, receptor metabotrópico: o neurotransmissor liga,
+ativa uma proteína G, que dispara uma cascata intracelular -- resposta em centenas de milissegundos a segundos,
+mas com amplificação.
+A mesma molécula pode ligar nos dois tipos. O glutamato ativa o receptor AMPA (ionotrópico)
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+e o mGluR22 (metabotrópico, 8 subtipos); o GABA ativa o GABA-A (ionotrópico, Cl) e o GABA-B
+(metabotrópico); a acetilcolina ativa o nicotínico (ionotrópico) e o muscarínico (metabotrópico, 5 sub
+tipos). Saber qual receptor está ali importa mais do que saber qual neurotransmissor chegou.
+
+Mecanismo do receptor metabotrópico. O neurotransmissor liga ao receptor, que troca GDP23 por GTP24 na proteína G.
+A proteína G ativada se desliga do receptor e (1) abre/fecha canais iônicos via subunidade   ou (2) ativa enzimas que
+produzem segundos mensageiros -- AMPc, IP, DAG, Ca² intracelular. A GTPase intrínseca da proteína G hidrolisa
+o GTP de volta para GDP, encerrando o sinal.
+
+A cascata clássica via proteína Gs (estimulatória): receptor liga  Gs ativada  ativa a adenilato ciclase
+ produz AMPc25 a partir de ATP  AMPc ativa PKA26  PKA fosforila canais (fechando K, por
+exemplo) e enzimas, modulando a excitabilidade do neurônio. Há também a Gi (inibitória), que inibe a
+adenilato ciclase, e a Gq (fosfolipase), que ativa a PLC27 e gera IP28 + DAG29.
+
+   22mGluR ­ receptor metabotrópico de glutamato -- família de 8 subtipos acoplados a proteína G; modulam excitabil
+idade pré e pós-sináptica.
+
+   23GDP ­ guanosina difosfato -- proteína G ligada a GDP está no estado "inativo".
+   24GTP ­ guanosina trifosfato -- análogo do ATP com guanina; carrega a proteína G no estado "ativo".
+   25AMPc ­ adenosina monofosfato cíclico -- segundo mensageiro intracelular gerado pela adenilato ciclase a partir de
+ATP. Ativa a proteína quinase A.
+   26PKA ­ proteína quinase A -- quinase dependente de AMPc; fosforila proteínas-alvo como canais iônicos e enzimas
+metabólicas.
+   27PLC ­ fosfolipase C -- enzima que cliva PIP em IP + DAG, dois segundos mensageiros.
+   28IP ­ inositol trifosfato -- segundo mensageiro hidrofílico que libera Ca² do retículo endoplasmático.
+   29DAG ­ diacilglicerol -- segundo mensageiro lipofílico que permanece na membrana e ativa a proteína quinase C.
+
+                                                                                10
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cascata Gs/AMPc/PKA. Receptor  Gs-GTP  adenilato ciclase  ATP vira AMPc  PKA é ativada  fosforila
+canais e enzimas. A PKA pode, por exemplo, fechar canais de K na membrana, aumentando a excitabilidade do
+neurônio sem precisar de neurotransmissor adicional. Lenta, amplificada, modulatória.
+
+Cascata Gq/PLC/IP-DAG. Receptor  Gq-GTP  PLC cliva PIP da membrana em IP (solúvel) + DAG (lipídico). IP
+liga em receptores no RE30 e libera Ca² para o citosol; DAG ativa a PKC31 na membrana. Esse Ca² intracelular ativa
+também a CaMKII32, central na plasticidade sináptica.
+
+   30RE ­ retículo endoplasmático -- organela que armazena Ca² em alta concentração; liberado para o citosol pela
+ativação dos receptores de IP.
+
+   31PKC ­ proteína quinase C -- quinase ativada por DAG + Ca² na membrana plasmática; fosforila múltiplos alvos
+intracelulares.
+
+   32CaMKII ­ proteína quinase dependente de Ca²/calmodulina tipo II -- quinase central na potenciação sináptica e na
+memória.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A diferença entre ionotrópico e metabotrópico não é "melhor × pior". É complementar: o ionotrópico
+carrega a mensagem rápida (esse neurônio acabou de disparar, decida agora), o metabotrópico carrega
+a modulação lenta (esse neurônio anda muito ativo, ajuste sua sensibilidade pra cima).
+
+Resumindo até aqui: Mesma molécula, dois tipos de receptor. Ionotrópico = canal + ligante na mesma
+proteína  rápido (ms), direto, mensagem. Metabotrópico = receptor  proteína G  cascata (AMPc/
+PKA, IP/DAG/PKC, CaMKII)  lento (centenas de ms a s), amplificado, modulatório. O ionotrópico
+carrega a notícia; o metabotrópico ajusta o aparelho que recebe a notícia.
+
+2.2 -- PEPS pelo AMPA e PIPS pelo GABA-A: o sinal vira corrente
+Vamos focar agora nos ionotrópicos, que dominam a comunicação rápida do sistema nervoso central.
+Um receptor ionotrópico pode produzir dois tipos de resposta pós-sináptica, dependendo de quais íons
+ele deixa passar. Se abre um canal permeável a Na (e às vezes K), os íons positivos entram -- a célula
+despolariza -- e temos um potencial excitatório pós-sináptico (PEPS). Se abre um canal permeável
+a Cl, o íon negativo entra (ou ancora a célula no potencial de repouso) -- a célula hiperpolariza ou se
+estabiliza no negativo -- e temos um potencial inibitório pós-sináptico (PIPS).
+
+PEPS pelo receptor AMPA. O glutamato liga no AMPA33, o canal abre, Na entra (movimento dominante, força eletro
+química grande) e K sai (movimento menor). Resultado: corrente entrante de cargas positivas  despolarização de
+alguns mV  PEPS. A corrente que se mede no eletrodo (EPSC) é a soma algébrica dos fluxos.
+
+O exemplo canônico é o receptor AMPA do glutamato no SNC34: glutamato liga  canal abre  Na entra
+e K sai em menor grau  despolarização de alguns mV. Por que Na entra mais do que K sai? Porque a
+força eletroquímica sobre Na no potencial de repouso (-70 mV) é gigantesca: o equilíbrio do Na é cerca
+
+   33AMPA ­ -amino-3-hidroxi-5-metil-4-isoxazol propionato -- receptor ionotrópico de glutamato permeável a Na e
+K; principal mediador da transmissão excitatória rápida no SNC.
+
+   34SNC ­ sistema nervoso central -- encéfalo e medula espinhal
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+de +60 mV, então a diferença é 130 mV "puxando" Na para dentro. A do K é só 20 mV "empurrando"
+para fora. O resultado líquido é entrada de cargas positivas.
+
+Registro experimental do PEPS. O eletrodo intracelular registra o potencial de membrana. A cada estímulo pré-
+sináptico, vê-se uma pequena deflexão para cima (despolarização) com decaimento exponencial. PEPS típico no SNC:
+0,5 a 1 mV. Para disparar PA, é preciso somar centenas de PEPS em tempo curto -- daí a importância da somação
+que veremos em 3.1.
+
+    Na JNM o PEPS é gigante; no SNC é minúsculo
+
+    Cuidado com a transposição. Na JNM, um único PA pré-sináptico gera um PEPS tão grande
+    (perto de 70 mV de despolarização, chamado de "potencial de placa") que sempre dispara PA
+    na fibra muscular. No SNC, o PEPS típico de um receptor AMPA mede 0,5­1 mV. A diferença é que
+    a JNM tem milhares de zonas ativas e dezenas de milhares de receptores nicotínicos concen
+    trados; no SNC, cada sinapse é pequena e o sistema aposta na somação de muitos PEPS pequenos.
+    Mesmo mecanismo, ordens de magnitude diferentes.
+
+Se, em vez de Na, o canal deixa passar Cl, a resposta é diferente. O Cl está em concentração muito maior
+fora da célula, e o potencial de equilíbrio do Cl é próximo ou mais negativo que o potencial de repouso
+(cerca de -75 mV no neurônio adulto, mantido baixo pelo cotransportador KCC235 que bombeia Cl para
+fora). Quando o canal abre, Cl entra (ou se a célula estava despolarizada, o canal ancora o potencial em
+torno de -75 mV), e o resultado é uma hiperpolarização -- ou, mais precisamente, uma estabilização
+em valores mais negativos. Isso é um PIPS.
+
+   35KCC2 ­ cotransportador K-Cl tipo 2 -- bombeia Cl para fora do neurônio adulto, mantendo a concentração
+intracelular baixa e o ECl em -75 mV; permite que GABA seja inibitório.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PIPS pelo receptor GABA-A. O GABA36 liga, o canal abre, Cl entra -- hiperpolariza ou estabiliza a membrana em
+valor negativo. Comparado ao traço do glutamato (excitatório, despolariza), o GABA produz uma pequena deflexão
+para baixo ou suaviza qualquer despolarização que estivesse acontecendo. É o freio da rede.
+
+O exemplo clássico é o receptor GABA-A, o principal receptor inibitório do SNC -- é um canal iônico,
+abre com GABA, deixa passar Cl, hiperpolariza. É o alvo de benzodiazepínicos (potencializam a ação
+do GABA), barbitúricos e etanol. Sem a inibição GABAérgica, a rede neuronal entra em descarga
+descontrolada -- é o que acontece nas convulsões.
+
+    Desenvolvimento neuronal -- GABA pode despolarizar
+
+    Curiosidade clinicamente importante. No neurônio imaturo (feto e recém-nascido), o cotrans
+    portador NKCC137 importa Cl para dentro da célula, e o ECl fica mais positivo que o repouso. Aí
+    GABA é excitatório -- abrir GABA-A despolariza. Durante o desenvolvimento pós-natal, KCC2
+    substitui NKCC1 e a célula passa a manter Cl baixo, tornando GABA inibitório. Isso explica por
+    que crises convulsivas neonatais são tratadas com fármacos diferentes dos do adulto -- o
+    lorazepam, que potencializa GABA-A, pode até piorar a crise no recém-nascido.
+
+   Resumindo até aqui: Ionotrópicos abrem canais e o sinal vira corrente. AMPA (glutamato)  Na entra
+    PEPS  despolariza. GABA-A (GABA)  Cl entra  PIPS  hiperpolariza. Magnitude na JNM
+   gigante (sempre dispara PA), magnitude no SNC minúscula (precisa somar). Mesmo mecanismo, ordens
+   de grandeza diferentes.
+
+   36GABA ­ ácido -aminobutírico -- principal neurotransmissor inibitório do SNC; ativa GABA-A (ionotrópico, Cl) e
+GABA-B (metabotrópico, K/Cav).
+
+   37NKCC1 ­ cotransportador Na-K-Cl tipo 1 -- importa Cl para dentro do neurônio imaturo; nesse estágio, GABA pode
+ser despolarizante. KCC2 substitui NKCC1 no desenvolvimento adulto.
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+2.3 -- NMDA, Mg² e LTP: detectar coincidência e gravar memória
+O receptor AMPA é a "infantaria" da excitação rápida. Mas o glutamato tem outro receptor ionotrópico,
+mais sofisticado e fundamental para a memória: o receptor NMDA. Sua peculiaridade é tripla: (1) é
+permeável não só a Na e K, mas também a Ca²; (2) tem um bloqueio voltagem-dependente por Mg²
+na boca do canal; (3) precisa de glicina como coagonista além do glutamato.
+
+AMPA × NMDA. À esquerda, AMPA: glutamato liga, canal abre, Na entra e K sai -- funciona em qualquer voltagem.
+À direita, NMDA: glutamato liga, mas se a célula está no repouso (-70 mV), um íon Mg² fica preso na boca do canal e
+impede o fluxo. Só quando a célula está despolarizada (por outra entrada, por exemplo via AMPA), o Mg² é "expulso"
+pela voltagem, o canal abre de verdade, e Ca² entra junto com Na.
+O que isso significa funcionalmente? O receptor NMDA detecta coincidência. Ele só deixa Ca² entrar
+quando duas condições acontecem ao mesmo tempo: o glutamato está ligado (sinal pré-sináptico) e
+a membrana já está despolarizada (sinal pós-sináptico). É um detector AND molecular. Se só uma das
+condições acontece, nada passa. Se as duas acontecem em coincidência temporal, Ca² entra, e isso
+aciona a maquinaria de plasticidade.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Potenciação de longo prazo (LTP38). Após estimulação pré-sináptica de alta frequência, ocorre liberação intensa e
+prolongada de glutamato. A despolarização pós-sináptica suficiente expulsa o Mg² do NMDA, e Ca² entra abun
+dantemente. Esse Ca² ativa cascatas que aumentam o número e a sensibilidade dos receptores AMPA na membrana
+pós-sináptica. Da próxima vez, a mesma quantidade de glutamato gera um PEPS maior -- a sinapse "lembra".
+A LTP é o correlato celular da memória. Foi descrita em 1973 por Bliss e Lømo no hipocampo, e
+desde então foi mostrada em vários circuitos. Quando uma sinapse é repetidamente ativada em alta
+frequência (como acontece quando aprendemos uma associação), o NMDA deixa Ca² entrar, e esse Ca²
+ativa proteínas que fortalecem permanentemente aquela sinapse específica. É a base molecular do que
+Donald Hebb postulou nos anos 40: "neurônios que disparam juntos, conectam-se mais fortemente".
+
+   38LTP ­ potenciação de longo prazo -- aumento durável (horas a dias ou mais) na força sináptica após estimulação de
+alta frequência. Mecanismo celular central da memória.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Cascata da LTP no neurônio pós-sináptico. O Ca² que entrou pelo NMDA liga-se à calmodulina; o complexo Ca²/
+calmodulina ativa a CaMKII. A CaMKII (1) fosforila receptores AMPA já existentes, aumentando sua condutância, e
+(2) recruta novos AMPAs para a membrana (a partir de pools intracelulares). Em paralelo, a via ERK/MAPK sinaliza
+para o núcleo e induz transcrição de proteínas novas -- é o que torna a LTP duradoura (de horas a anos, em vez de
+minutos).
+
+A LTP tem três propriedades que importam saber. Especificidade: só a sinapse ativada é potencializada,
+não as vizinhas (porque o Ca² entra localmente, naquela espinha dendrítica). Cooperatividade: precisa
+de várias entradas convergentes em alta frequência para ativar o NMDA -- uma única não basta. Asso
+ciatividade: se uma entrada fraca (sozinha não potencializa) chega ao mesmo tempo que uma entrada
+forte (que despolariza a célula), a fraca também é potencializada -- é a base celular do condicionamento
+clássico.
+
+    Excitotoxicidade -- o lado escuro do NMDA
+
+    O NMDA é maravilhoso para aprender, mas é também perigoso quando descontrolado. No AVC
+    isquêmico39, a anóxia faz o neurônio perder o gradiente de Na, despolarizar e liberar quantidades
+    enormes de glutamato na fenda. O glutamato satura os NMDAs nas células vizinhas, que então
+    deixam entrar Ca² em quantidade tóxica. O excesso de Ca² intracelular ativa proteases, fosfoli
+    pases e endonucleases que matam a célula -- é a excitotoxicidade40. A mesma porta que grava
+    memória mata o neurônio quando aberta demais. Por isso bloqueadores do NMDA (memantina)
+    são neuroprotetores em algumas condições -- incluindo Alzheimer leve a moderado.
+
+   39AVC isquêmico ­ acidente vascular cerebral isquêmico -- obstrução de artéria cerebral causa anóxia tecidual;
+neurônios perdem a capacidade de manter gradientes iônicos, despolarizam e liberam grandes quantidades de glutamato.
+
+   40excitotoxicidade ­ morte neuronal causada por excesso de Ca² intracelular vindo da hiperativação de receptores
+NMDA por glutamato extracelular elevado; mecanismo central do dano em AVC, traumatismo cranioencefálico e epilepsia.
+
+                                                                                17
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: NMDA = detector AND molecular. Permeável a Ca² (não só Na/K), bloqueado
+por Mg² na voltagem de repouso, requer glutamato + despolarização simultânea. Quando aberto, Ca²
+ativa CaMKII  fosforila AMPAs e recruta novos  LTP. Memória nasce do mesmo Ca² que mata na
+excitotoxicidade.
+
+       18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Juntando tudo: somação, modulação, de
+
+cisão
+
+3.1 -- Somação temporal e espacial até o cone de inserção
+Um único PEPS no SNC mede menos de 1 mV. O limiar para deflagrar um novo PA está cerca de 15
+mV acima do repouso. Como o neurônio decide disparar? A resposta é a somação. Cada neurônio do
+córtex recebe entradas de milhares de outros neurônios simultaneamente, e a decisão se forma pelo
+somatório espacial e temporal dessas entradas no cone de inserção do axônio (lugar da membrana
+onde a densidade de canais de Na dependentes de voltagem é máxima).
+
+Somação espacial e temporal. À esquerda, somação espacial: dois PEPS chegando simultaneamente por sinapses
+diferentes somam suas amplitudes (1 + 1 = 2 mV). À direita, somação temporal: dois PEPS chegando pela mesma
+sinapse em rápida sucessão (antes do primeiro decair) somam (1 + 1 = quase 2 mV). Triplo, quádruplo: somam mais.
+Singular, nenhum: não somam. A decisão é aritmética.
+
+A somação espacial funciona porque correntes que entram em pontos diferentes da membrana
+convergem no cone de inserção. Mas há um custo: a corrente decai com a distância e com o tempo
+conforme se propaga passivamente pela membrana -- é a chamada condução eletrotônica. Quanto
+mais longe a sinapse está do cone, mais o PEPS chega atenuado. Por isso, sinapses no soma pesam mais
+que sinapses na ponta de um dendrito distante.
+
+                                                                                19
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Condução eletrotônica. A corrente injetada por um PEPS na sinapse decai exponencialmente com a distância. A
+constante de espaço () é a distância em que a voltagem cai para 1/e ( 37%) do valor inicial; depende da resistência da
+membrana (Rm) e da resistência interna (Ri). Membranas isoladas e axoplasmas pouco resistivos =  maior = sinal
+viaja mais. É o motivo da existência da mielina nos axônios -- aumenta Rm, aumenta .
+
+constante de espaço ()41 e constante de tempo ()42 são os dois parâmetros que definem como sinais
+passivos viajam na membrana.  define o alcance espacial da somação (até onde um PEPS distante
+ainda "chega" no cone);  define a janela temporal da somação (quanto tempo um PEPS persiste antes
+de decair).
+A somação temporal funciona quando dois PEPS chegam antes que o primeiro decaia. Como  é tipica
+mente de alguns milissegundos, PEPS que chegam em sucessão rápida (frequência alta) somam; PEPS
+espalhados (frequência baixa) decaem entre si e não somam. Por isso a frequência de disparo pré-
+sináptica importa tanto quanto a amplitude.
+E há também a somação algébrica: PEPS soma com PEPS, mas PIPS subtrai. Se uma sinapse excitatória
+dispara junto com uma sinapse inibitória, o efeito líquido depende da diferença. Por isso a inibição
+GABAérgica não precisa apagar todos os PEPS -- basta cancelar parcialmente, segurando o neurônio
+abaixo do limiar.
+
+   Resumindo até aqui: Somação = aritmética da decisão. Espacial (sinapses diferentes, mesmo tempo) +
+   temporal (mesma sinapse, tempos próximos) + algébrica (PEPS soma, PIPS subtrai). Tudo limitado por 
+   (alcance) e  (janela). Quem decide é o cone de inserção, onde a densidade de canais de Na é máxima e
+   o limiar é cruzado ou não.
+
+   41constante de espaço () ­ distância ao longo da membrana em que a despolarização eletrotônica cai para 1/e ( 37%)
+do valor inicial. Tipicamente 0,1 a 1 mm em neurônios; maior em axônios mielinizados.
+
+   42constante de tempo () ­ tempo em que a despolarização decai para 1/e ( 37%) do valor inicial após o estímulo cessar.
+Tipicamente 5­50 ms em neurônios; determina o tempo disponível para somação temporal.
+
+                                                                                20
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+3.2 -- Modulação pré-sináptica e o encerramento do sinal
+Até agora falamos do lado pós-sináptico da modulação. Mas o sistema também tem ferramentas para
+modular o lado pré-sináptico -- quanto neurotransmissor sai por PA. Esse é o domínio dos autorrecep
+tores e dos receptores pré-sinápticos heterólogos.
+
+Modulação pré-sináptica pelo receptor GABA-B. No controle (esquerda), o PA invade o terminal, abre Cav, Ca² entra
+e o PEPS pós-sináptico é normal. À direita, o GABA-B (metabotrópico, acoplado a Gi/o) é ativado no terminal pré-
+sináptico: fecha canais Cav e abre canais de K. Resultado: menos despolarização, menos Ca² entra, menos vesículas
+fundem, PEPS reduzido. O freio age antes da fenda.
+
+O receptor GABA-B é o exemplo clássico. Quando ativado em um terminal pré-sináptico, ele (1) fecha
+canais de Ca² dependentes de voltagem (Cav) e (2) abre canais de K. As duas ações reduzem a entrada
+de Ca² no terminal e portanto reduzem a quantidade de neurotransmissor liberado. É um freio que
+age antes do neurotransmissor sair. Aplicado clinicamente: o baclofeno é agonista GABA-B usado
+para reduzir espasticidade muscular -- atua reduzindo a liberação de neurotransmissor excitatório no
+neurônio motor.
+Autorreceptores são receptores na membrana pré-sináptica para o próprio neurotransmissor liberado
+pelo terminal. Funcionam como retroalimentação negativa: à medida que o neurotransmissor se
+acumula na fenda, ele ativa autorreceptores que reduzem a liberação subsequente. O exemplo mais
+estudado é o autorreceptor 2-adrenérgico no terminal noradrenérgico: noradrenalina liberada  liga
+em 2 no mesmo terminal  reduz liberação de mais noradrenalina. É como um termostato molecular.
+O outro mecanismo crítico do encerramento é a remoção do neurotransmissor da fenda. Vimos em
+1.3 que isso acontece por degradação enzimática (acetilcolinesterase na JNM) ou por recaptação via
+transportadores específicos (SERT, DAT, GAT, EAAT). Sem remoção, o receptor pós-sináptico fica
+continuamente estimulado, dessensibiliza, e o sinal "morre por exaustão" -- não por silêncio, mas por
+
+                                                                                21
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+excesso. Drogas que bloqueiam recaptação (cocaína no DAT, fluoxetina no SERT) prolongam a presença
+do neurotransmissor na fenda; é assim que produzem seus efeitos psicotrópicos.
+
+Modulação em amplitude × modulação em frequência. À esquerda, modulação em amplitude: a célula pós-sináptica
+recebe PEPS e PIPS de várias entradas; o somatório define a amplitude da despolarização sustentada. À direita,
+modulação em frequência: quando o somatório cruza o limiar, o cone de inserção dispara PAs em série, e a frequência
+desses PAs é proporcional à intensidade do estímulo. A sinapse traduz amplitude analógica de PEPS em frequência
+digital de PAs. É a "conversão A/D" do sistema nervoso.
+
+A modulação em frequência é o ponto final da decisão. Uma vez que o cone de inserção dispara, o axônio
+transmite a informação adiante pela frequência dos PAs, não pela amplitude (PAs são tudo-ou-nada).
+Estímulo forte  muitos PAs por segundo  muitas vesículas no próximo terminal  PEPS maior na
+próxima sinapse. A informação analógica do PEPS vira informação digital do trem de PAs.
+
+   Resumindo até aqui: Modulação pré-sináptica = freios antes da fenda. GABA-B fecha Cav e abre K
+    menos Ca²  menos liberação. Autorreceptores fazem feedback negativo. Recaptação/degradação
+   encerra o sinal. A sinapse traduz amplitude analógica do PEPS em frequência digital do PA -- é o
+   conversor A/D do sistema nervoso.
+
+3.3 -- Da JNM até a clínica: miastenia, botulismo e excitotoxicidade
+A grande beleza do mecanismo sináptico é que cada passo da cadeia é alvo de patologia ou de fármaco.
+Aprender o mecanismo dá o atalho para entender três síndromes clássicas -- e várias drogas comuns.
+Vamos fechar a aula amarrando cada confusão no passo onde ela mora.
+A miastenia gravis é uma doença autoimune em que o paciente produz autoanticorpos contra o
+receptor nicotínico de acetilcolina na JNM. Os anticorpos destroem os receptores (por internalização e
+
+                                                                                22
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+degradação) e bloqueiam o sítio de ligação da ACh. Resultado: o PA pré-sináptico chega normalmente,
+libera ACh normalmente, mas a placa motora não consegue gerar PA na fibra muscular -- porque
+sobram poucos receptores funcionais. Clinicamente: fraqueza muscular que piora ao longo do dia
+(porque os receptores remanescentes vão sendo dessensibilizados e a reserva diminui) e melhora
+com repouso. Diagnóstico: anticorpos anti-AChR positivos. Tratamento sintomático: inibidores da
+acetilcolinesterase (piridostigmina) -- prolongam a presença da ACh na fenda para que ela tenha mais
+tempo de ligar nos poucos receptores que restam. Tratamento causal: imunossupressão.
+
+O botulismo ataca o passo anterior na cadeia. A toxina botulínica (produzida por Clostridium botu
+linum, mas também usada terapeuticamente como Botox) entra no terminal pré-sináptico e cliva
+proteínas SNARE -- especificamente a SNAP-25 ou a sinaptobrevina. Sem SNARE íntegro, as vesículas
+não conseguem fundir, e nenhuma ACh é liberada. O PA chega, o Ca² entra, mas a vesícula nunca abre.
+Clinicamente: paralisia flácida descendente -- começa pelos músculos cranianos (ptose palpebral,
+disartria, disfagia), desce para o tronco e para os membros, e pode matar por paralisia diafragmática.
+Como o mecanismo é destruição de proteína, o efeito dura semanas a meses (até o terminal sintetizar
+SNARE nova) -- daí o uso cosmético: aplica-se em músculos faciais para reduzir rugas por meses.
+
+Curare, organofosforados e a outra ponta da farmacologia da JNM
+
+O curare (e seus derivados sintéticos como o pancurônio usado em anestesia) é um antagonista
+competitivo do receptor nicotínico -- ocupa o sítio sem ativá-lo, e bloqueia a ACh endógena.
+Resultado: paralisia flácida total. Bloqueadores neuromusculares em anestesia: paciente respira
+por máquina porque o diafragma não responde. Reversão: inibidor de AChE (neostigmina) --
+eleva a concentração de ACh na fenda, e ela "ganha" a competição com o curare. Já os organofos
+forados (inseticidas, gases nervosos como sarin) inibem irreversivelmente a AChE. A ACh se
+acumula na fenda, receptores são hiperestimulados e dessensibilizam -- paralisia por excesso
+de estimulação. Clínica: crise colinérgica -- SLUDGE (salivação, lacrimejamento, urinar, defecar,
+GI, êmese), fasciculações, bradicardia, miose, broncoespasmo. Tratamento: atropina + pralidox
+ima (pralidoxima reativa a AChE se aplicada antes do "envelhecimento" do complexo).
+
+A excitotoxicidade fecha a aula no encéfalo. Como vimos em 2.3, quando o neurônio sofre isquemia
+(AVC) ou trauma, perde gradientes iônicos, despolariza, e libera grandes quantidades de glutamato
+na fenda. O glutamato extracelular elevado ativa NMDAs nas células vizinhas, deixa entrar Ca² em
+excesso, e o Ca² intracelular ativa enzimas degradativas que matam a célula. Esse mecanismo ampli
+fica o dano do AVC além da zona inicialmente isquêmica -- é a penumbra isquêmica, e é o alvo de várias
+estratégias de neuroproteção. A memantina, um antagonista NMDA de baixa afinidade e uso-depen
+dente, é usada no Alzheimer leve a moderado exatamente por reduzir a excitotoxicidade glutamatérgica
+crônica que contribui para a neurodegeneração.
+
+Repare que cada doença ataca um passo diferente da sequência sináptica. Botulismo: passo 5 (fusão
+SNARE). Miastenia: passo 7 (receptor pós-sináptico). Organofosforado: passo 8 (remoção). Excitotoxi
+cidade: passo 7 do glutamato (receptor NMDA). Curare: passo 7 (receptor nicotínico). Quem entendeu a
+cadeia entendeu a clínica.
+
+       23
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Cada passo da sinapse tem uma doença e um fármaco. Botulismo cliva SNARE
+(sem liberação). Miastenia destrói receptor AChR (sem resposta). Curare bloqueia AChR. Organofosforado
+inibe AChE (sem remoção). Excitotoxicidade hiperativa NMDA (Ca² tóxico). A clínica é a fisiologia ao
+contrário.
+
+Conclusão integradora
+
+Vamos amarrar as três PARTES. A PARTE I respondeu à pergunta de partida: por que a evolução
+inventou a sinapse. Para ter unidirecionalidade, modulação e plasticidade -- três coisas impos
+síveis numa conexão elétrica direta. A sinapse elétrica (junções gap) existe onde sincronia
+importa (cardiomiócitos, reflexos rápidos), mas a sinapse química domina o sistema nervoso. Seu
+mecanismo arquetípico é a JNM, com a sequência em 7 passos: síntese  vesícula  PA invade
+terminal  Ca² entra  SNARE funde  exocitose  receptor  remoção. O Ca² é o gatilho
+molecular, e a sinaptotagmina é quem o detecta.
+
+A PARTE II mostrou o que acontece do lado de chegada. Receptores ionotrópicos (AMPA,
+GABA-A, nicotínico) são canais que abrem com o ligante -- resposta rápida, direta. Receptores
+metabotrópicos (mGluR, GABA-B, muscarínico) são acoplados a proteína G e disparam cascatas
+(AMPc/PKA via Gs, IP/DAG/PKC via Gq) -- resposta lenta, amplificada, modulatória. O PEPS
+nasce de Na entrando pelo AMPA; o PIPS nasce de Cl entrando pelo GABA-A. O NMDA é o caso
+especial: detecta coincidência entre glutamato e despolarização, deixa entrar Ca², ativa CaMKII,
+e gera LTP -- base celular da memória.
+
+A PARTE III juntou tudo. O neurônio decide por somação -- espacial (sinapses diferentes),
+temporal (mesma sinapse em sucessão) e algébrica (PEPS soma, PIPS subtrai), limitada por 
+(alcance) e  (janela temporal). O cone de inserção converte a amplitude analógica do PEPS em
+frequência digital do PA. A modulação não é só pós: o GABA-B pré-sináptico fecha Cav e abre K,
+reduzindo a liberação no terminal antes mesmo de chegar à fenda. E cada passo da cadeia tem
+patologia ou fármaco: botulismo (SNARE), miastenia (AChR), curare (AChR), organofosforados
+(AChE), excitotoxicidade (NMDA), memantina (NMDA). A clínica vai cair direto se a fisiologia
+estiver clara.
+
+A grande mensagem para guardar: o sistema nervoso usa a fenda sináptica como interface
+programável. A fenda permite que a evolução decida, em cada conexão, qual neurotransmissor,
+qual receptor, qual cascata, qual modulação -- e altere essa configuração ao longo da vida. Sem
+a fenda, não haveria circuito, não haveria aprendizado, não haveria nós.
+
+       24
+NEBLI                                                     RESUMINDO
+
+   Resumindo
+
+Por que existe sinapse? (O problema da                    AMPA + glutamato = PEPS (a excitação
+fenda)                                                    rápida do encéfalo)
+
+Pensa comigo: se neurônios estivessem grudados,           Quando o glutamato encontra um receptor AMPA
+qualquer despolarização vazaria para o vizinho e          (ionotrópico) na membrana pós, o canal abre e
+o cérebro viraria um curto-circuito sem direção,          deixa passar Na e K. Como a força eletroquímica
+sem aprendizado, sem hierarquia. A sinapse é              sobre o Na é gigantesca (puxando para dentro)
+uma fenda de propósito. Ela paga o preço da               e a do K é modesta (empurrando para fora),
+lentidão (uns 0,5 ms de retardo) para ganhar              o saldo é entrada líquida de cargas positivas
+três coisas que nenhuma conexão elétrica direta           -- uma pequena despolarização chamada PEPS.
+entrega: unidirecionalidade (sinal só vai prépós),        Atenção: no encéfalo, um PEPS isolado vale 0,5­
+modulação (cada sinapse pode ser amplificada ou           1 mV; muito longe do limiar. Para disparar um PA,
+freada) e plasticidade (a força muda com o uso --         é preciso somar centenas deles em janela curta. Já
+é assim que se aprende). Sinapse elétrica (junções        na JNM, o "PEPS" (potencial de placa) é gigantesco
+gap, conexons) ainda existe e é muito rápida -- mas       e cada PA pré causa, com certeza, contração do
+onde a evolução precisou de circuito com sentido e        músculo. Mesmo mecanismo, magnitudes opostas
+memória, escolheu a química.                              -- confiabilidade na JNM, integração no encéfalo.
+
+A sequência sináptica: o PA é o                           GABA-A + Cl = PIPS (o freio rápido do
+estímulo, mas o Ca² é o gatilho                           encéfalo)
+
+Decora a cadeia em 7 passos porque ela cai                GABA é o principal inibidor do SNC, e o atalho
+em prova e organiza toda a clínica do tema.               mecânico é: GABA-A é ionotrópico (canal de Cl que
+(1) O neurotransmissor é sintetizado no terminal          abre direto), enquanto GABA-B é metabotrópico (via
+e empacotado em vesículas já ancoradas em                 proteína G). Quando o GABA-A abre, Cl entra e
+zonas ativas, prontas para sair. (2) Um PA chega          hiperpolariza a célula -- ou, se a célula já estava
+ao terminal e despolariza a membrana pré-                 despolarizada, o canal ancora o potencial perto
+sináptica. (3) A despolarização abre canais Cav (Ca²      de -75 mV (efeito "shunt"). Quem mantém o ECl
+voltagem-dependentes) -- e aqui mora a sacada:            negativo no adulto é o cotransportador KCC2, que
+quem dispara a fusão não é a despolarização,              bombeia Cl para fora. Pega esta pegadinha: no
+é o Ca² que entrou por causa dela. (4) O Ca²              recém-nascido, é o NKCC1 que reina -- Cl é ALTO
+liga na sinaptotagmina, que libera o freio sobre          dentro da célula, e GABA fica EXCITATÓRIO. É por
+o complexo SNARE, e a vesícula funde com a                isso que crise convulsiva neonatal não trata com
+membrana. (5) Exocitose: neurotransmissor cai na          benzodiazepínico do mesmo jeito do adulto. Etanol,
+fenda. (6) Atravessa a fenda em microssegundos e          barbitúricos e BZD potencializam GABA-A -- daí a
+liga ao receptor pós-sináptico. (7) É removido (por       sonolência.
+difusão, recaptação ou degradação) -- sem isso, o
+sinal nunca encerra.
+
+                                                      25
+NEBLI                                                      RESUMINDO
+
+NMDA, coincidência e LTP: como o                           Como o neurônio decide: somar, atrasar,
+cérebro "guarda" um aprendizado                            modular
+
+O receptor NMDA é a estrela da PARTE II. Ele               Cada neurônio recebe milhares de sinapses
+tem três propriedades que se combinam para                 simultâneas -- algumas excitatórias, outras
+virar o sensor da memória: precisa de glutamato            inibitórias. A decisão de disparar acontece no cone
+ligado (como o AMPA), mas também precisa de                de inserção, e é uma soma algébrica: PEPS somam
+despolarização prévia da célula pós para expulsar          entre si, PIPS subtraem, e o resultado precisa
+um Mg² que tampona o poro no repouso. Quando               atingir o limiar ( -55 mV). Existem dois tipos de
+os dois acontecem juntos, o canal abre e -- diferente      soma: temporal (vários PEPS da MESMA sinapse
+do AMPA -- deixa passar Ca². Esse Ca² é o sinal            em sucessão rápida -- depende da constante de
+"gravar agora": ativa a CaMKII, que fosforila os           tempo ) e espacial (PEPS de sinapses DIFERENTES
+AMPAs já presentes (aumentando sua condutância)            quase ao mesmo tempo -- depende da constante
+e insere novos AMPAs na membrana pós. A mesma              de espaço ). Quanto mais distal a sinapse, mais o
+sinapse vai responder mais à próxima dose de               PEPS atenua antes de chegar ao cone -- por isso
+glutamato. Isso é LTP -- potenciação de longo              sinapses no soma são as mais influentes. E não
+prazo, a base celular de memória e aprendizado.            acaba aí: existe modulação pré-sináptica (o GABA-
+E é a mesma porta que mata na excitotoxicidade             B no terminal fecha Cav e abre K, reduzindo a
+do AVC: Ca² demais ativa proteases e o neurônio            liberação) e retroalimentação por autorreceptores.
+morre.                                                     A decisão é integrada, ponderada, plástica.
+
+Ionotrópico × metabotrópico: a mesma                       Da fisiologia para a clínica: cada passo
+molécula pode dizer coisas diferentes                      da cadeia tem uma doença
+
+Esse é o conceito mais subestimado e mais                  Esse Resumindo só fecha quando você consegue,
+cobrado. Receptor ionotrópico = canal + sítio              dado um sintoma, apontar o passo da cadeia que
+de ligação na MESMA proteína -- abre direto                falhou. Miastenia gravis: autoanticorpos contra
+pelo neurotransmissor, resposta em milissegundos.          o AChR nicotínico pós-sináptico (passo 6) --
+AMPA, GABA-A e nicotínico são todos ionotrópicos.          fraqueza que piora ao longo do dia, melhora com
+Receptor metabotrópico = receptor  proteína                piridostigmina (que inibe AChE e deixa mais ACh na
+G  cascata intracelular (GsAMPcPKA,                        fenda). Botulismo: a toxina cliva o SNARE (passo 4)
+GqIP+DAGPKC, Gireduz AMPc); resposta em                    -- paralisia flácida descendente, PA pré preservado,
+segundos, lenta, mas amplificada (um receptor              mas vesícula não funde; lactente fica hipotônico,
+ativa muitas G, uma G ativa muitas enzimas, uma            ECG normal. Curare: antagonista competitivo do
+enzima produz muitos segundos mensageiros).                nAChR -- bloqueia o sítio sem ativar; usado em
+A sacada: o mesmo neurotransmissor pode                    anestesia. Organofosforado: inibe a AChE (passo
+ter receptor ionotrópico E metabotrópico --                7) -- ACh acumula, hiperestimulação muscarínica
+glutamato tem AMPA e mGluR, GABA tem GABA-A                (SLUDGE: salivação, lacrimejamento, urinação,
+e GABA-B, ACh tem nicotínico e muscarínico. Saber          defecação, GI, êmese) E nicotínica (fasciculações);
+qual receptor está ali importa mais que saber qual         antídoto: atropina + pralidoxima. Excitotoxicidade
+neurotransmissor chegou.                                   do AVC: glutamato em excesso hiperativa NMDA,
+                                                           influxo tóxico de Ca² ativa proteases -- morte
+                                                           neuronal na penumbra isquêmica. A mesma cadeia
+                                                           que faz memória, mata na isquemia.
+
+                                                       26
+NEBLI                       RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a sinapse elétrica e seu retardo característico, é correto afirmar que:
+   A) O retardo de aproximadamente 0,5 ms reflete o tempo necessário para o complexo SNARE realizar
+   o zíper de fusão entre vesícula e membrana plasmática pré-sináptica.
+   B) A bidirecionalidade da junção gap exige a presença de uma proteína sensora de polaridade (sinap
+   totagmina), que decide o sentido do fluxo iônico a cada estímulo.
+   C) O retardo é menor que 0,1 ms porque os íons passam diretamente de um citoplasma ao outro pelos
+   conexons, dispensando exocitose, difusão e ligação a receptores.
+   D) A passagem direta de íons exige bombeamento ativo de Ca² pelos cardiomiócitos, o que torna o
+   sincício elétrico do miocárdio dependente da Na/K-ATPase pré-sináptica.
+   E) O retardo desaparece porque o glutamato atravessa o conexon como neurotransmissor e ativa
+   receptores AMPA no neurônio vizinho em microssegundos.
+
+Questão 02 Consolidação
+
+Julgue os itens sobre a sequência sináptica química em sete passos:
+Cada item deve ser julgado de forma independente.
+
+   I. O Ca² que dispara a fusão das vesículas entra no terminal pré-sináptico pelos canais Cav, voltagem-
+   dependentes de cálcio concentrados na zona ativa, posicionados diretamente abaixo das vesículas
+   atracadas.
+   II. A sinaptotagmina é a proteína t-SNARE da membrana plasmática pré-sináptica que reconhece a v-
+   SNARE da vesícula e dispara a fusão por meio de uma reação dependente de ATP no terminal.
+   III. A acetilcolina liberada na junção neuromuscular é recaptada intacta pelo terminal pré-sináptico
+   por um transportador específico semelhante ao DAT da dopamina.
+   IV. Na junção neuromuscular, a remoção da acetilcolina da fenda é feita pela acetilcolinesterase,
+   enzima ancorada na lâmina basal que hidrolisa o neurotransmissor em microssegundos.
+
+Questão 03 Consolidação
+
+Em relação aos receptores ionotrópicos e metabotrópicos do sistema nervoso, assinale a alternativa
+INCORRETA:
+
+                                                                                27
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+A) Receptores ionotrópicos são canais iônicos cuja abertura é deflagrada pela própria ligação do
+neurotransmissor, gerando uma resposta na escala de milissegundos.
+
+B) Receptores metabotrópicos estão acoplados a proteínas G heterotriméricas e produzem suas
+respostas por meio de cascatas intracelulares com segundos mensageiros.
+
+C) Uma mesma molécula sinalizadora (como o glutamato, o GABA ou a acetilcolina) pode ativar tanto
+receptores ionotrópicos quanto receptores metabotrópicos distintos.
+
+D) A cascata metabotrópica permite amplificação porque cada receptor ativa múltiplas proteínas G, e
+cada enzima ativada produz muitos segundos mensageiros consecutivos.
+
+E) O receptor metabotrópico tem resposta mais rápida que o ionotrópico, pois a proteína G acoplada
+ao receptor abre diretamente o canal iônico em microssegundos.
+
+Questão 04 Consolidação
+
+Julgue os itens sobre PEPS, PIPS e os receptores AMPA e GABA-A:
+Cada item deve ser julgado de forma independente.
+
+   I. O potencial excitatório pós-sináptico mediado pelo receptor AMPA é gerado exclusivamente pela
+   entrada de Na, sem qualquer fluxo simultâneo de K pelo mesmo canal.
+   II. O PIPS gerado pelo receptor GABA-A depende de proteína G acoplada que abre canais de Cl na
+   membrana pós-sináptica e produz hiperpolarização lenta.
+   III. Um único PEPS gerado por um receptor AMPA no SNC tem amplitude tipicamente próxima a 15
+   mV, suficiente para deflagrar diretamente um potencial de ação no cone de inserção.
+   IV. O potencial de equilíbrio do Cl no neurônio adulto fica próximo de -75 mV graças ao cotransporta
+   dor KCC2, que mantém a concentração intracelular de cloreto baixa.
+
+Questão 05 Consolidação
+
+O receptor NMDA é descrito como "detector de coincidência molecular" porque sua abertura efetiva
+requer:
+
+   A) Apenas a ligação simultânea de duas moléculas de glutamato no sítio agonista, sem qualquer
+   dependência do potencial de membrana pós-sináptico naquele instante.
+
+   B) A despolarização do terminal pré-sináptico até valores próximos a +30 mV, condição que abre o
+   canal e libera o íon Mg² retido na boca do poro.
+
+   C) A ativação prévia do receptor GABA-B pré-sináptico, que ao reduzir a liberação de glutamato deixa
+   o canal NMDA livre para conduzir Ca² na fenda.
+
+       28
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+D) A presença simultânea de glutamato ligado ao receptor e despolarização suficiente da membrana
+pós-sináptica para expulsar o Mg² que bloqueia o poro em repouso.
+
+E) A ligação isolada de glicina como coagonista do receptor, condição suficiente para abrir o poro e
+gerar entrada de Ca² no espinho dendrítico pós-sináptico.
+
+Questão 06 Consolidação
+
+Quanto à somação de potenciais pós-sinápticos no neurônio, assinale a alternativa correta:
+
+   A) A somação espacial só ocorre entre PEPS gerados por uma mesma sinapse, em rápida sucessão,
+   dentro da janela definida pela constante de tempo  da membrana.
+
+   B) A somação temporal exige que dois ou mais PEPS cheguem por sinapses anatomicamente distintas
+   no mesmo instante, somando-se algebricamente no cone de inserção.
+
+   C) Toda somação no neurônio é linear: dez PEPS de 1 mV somam exatamente 10 mV no cone, sem
+   decaimento por distância nem interação com correntes inibitórias.
+
+   D) PEPS somam com PEPS e subtraem com PIPS no cone de inserção, onde a alta densidade de canais
+   de Na dependentes de voltagem decide se o limiar foi atingido.
+
+   E) Sinapses localizadas na extremidade distal dos dendritos somam com a mesma eficiência das
+   sinapses do soma, pois a constante de espaço  não influencia a propagação eletrotônica.
+
+Questão 07 Consolidação
+
+Julgue os itens sobre o complexo SNARE e a exocitose sináptica:
+Cada item deve ser julgado de forma independente.
+
+   I. O complexo SNARE é composto por proteínas da vesícula (v-SNARE, como a sinaptobrevina) e
+   proteínas da membrana plasmática pré-sináptica (t-SNARE, como SNAP-25 e sintaxina).
+   II. A sinaptotagmina, ancorada na vesícula, atua como sensor de Ca² e desbloqueia o zíper SNARE
+   quando a concentração local de Ca² na zona ativa sobe abruptamente.
+   III. A toxina botulínica acelera a fusão das vesículas porque estabiliza o complexo SNARE em sua
+   configuração de pós-fusão, prolongando a liberação de neurotransmissor.
+   IV. A entrada de Ca² que dispara a exocitose ocorre por canais Cav concentrados na zona ativa,
+   posicionados diretamente abaixo das vesículas ancoradas pelo SNARE.
+
+Questão 08 Consolidação
+Sobre os mecanismos de encerramento da transmissão sináptica química, é correto afirmar que:
+
+                                                                                29
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+A) O encerramento da transmissão depende exclusivamente da degradação enzimática do neuro
+transmissor pela acetilcolinesterase, mecanismo comum a praticamente todas as sinapses do SNC.
+
+B) A dessensibilização do receptor pós-sináptico é o único mecanismo de encerramento na maioria
+das sinapses centrais, sendo a remoção do neurotransmissor da fenda irrelevante.
+
+C) A recaptação por transportadores específicos é o único mecanismo de encerramento; difusão pela
+fenda e degradação enzimática não contribuem para o término do sinal.
+
+D) Os receptores pós-sinápticos desligam-se espontaneamente após cerca de 1 ms, independente
+mente da concentração de neurotransmissor presente na fenda sináptica.
+
+E) O encerramento depende da remoção do neurotransmissor da fenda por difusão, recaptação por
+transportadores específicos (SERT, DAT, GAT, EAAT) ou degradação enzimática.
+
+Questão 09 Integração
+
+Durante um experimento de placa motora isolada, um pesquisador troca o meio extracelular por uma
+solução nominalmente livre de Ca². Estimula eletricamente o nervo motor e registra: o potencial de
+ação no axônio chega normalmente ao terminal, mas nenhuma resposta despolarizante é detectada na
+fibra muscular.
+
+   A) O potencial de ação despolariza o terminal e abre os canais Cav, mas sem Ca² extracelular o
+   influxo na zona ativa não acontece, a sinaptotagmina não é ativada e o complexo SNARE não funde
+   as vesículas.
+
+   B) O potencial de ação invade o terminal e abre canais de Na, mas, sem Ca², o Na é incapaz de
+   despolarizar a membrana plasmática o suficiente para acionar diretamente o complexo SNARE de
+   fusão vesicular.
+
+   C) Os canais Cav são canais ligando-dependentes ativados por glutamato; sem Ca² extracelular, o
+   glutamato endógeno não consegue se ligar e a liberação vesicular fica abolida.
+
+   D) A acetilcolina deixa de ser sintetizada porque a colina-acetiltransferase é uma enzima dependente
+   de Ca² extracelular, e sem ACh nas vesículas não há liberação possível.
+
+   E) O encerramento da transmissão pela acetilcolinesterase passa a ser tão rápido que nenhum PEPS
+   é registrado, embora a liberação pré-sináptica esteja preservada.
+
+Questão 10 Integração
+
+Um neurofisiologista injeta um bloqueador irreversível do cotransportador KCC2 no neurônio piramidal
+de um animal adulto. Algumas horas depois, registra os potenciais pós-sinápticos gerados por estim
+ulação GABAérgica.
+
+       30
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+A) A resposta GABAérgica permanece idêntica à do controle, pois o KCC2 atua apenas em neurônios
+imaturos e seu bloqueio não afeta o ECl do neurônio adulto.
+
+B) Os PIPS ficam ainda mais negativos do que no controle, porque o bloqueio do KCC2 aumenta o
+gradiente de Cl e torna a hiperpolarização GABAérgica mais intensa do que a habitual.
+
+C) Os PIPS GABAérgicos perdem o caráter hiperpolarizante: ao bloquear o KCC2, o Cl intracelular
+sobe, o ECl aproxima-se do potencial de repouso ou o ultrapassa, e o GABA passa a ser despolarizante.
+
+D) O bloqueio do KCC2 ativa o cotransportador NKCC1 do neurônio adulto, que passa a bombear Cl
+para fora e mantém o PIPS GABAérgico hiperpolarizante em qualquer faixa etária.
+
+E) O receptor GABA-A passa a recrutar a subunidade 2 e abre canais de K em vez de Cl, produzindo
+hiperpolarização normal apesar do desequilíbrio do gradiente de cloreto.
+
+Questão 11 Integração
+
+Em um circuito hipocampal, uma sinapse glutamatérgica recebe estimulação tetânica de alta frequên
+cia. Um aluno propõe três mecanismos para explicar a LTP que se segue.
+
+   A) O Ca² que entra pelo NMDA ativa diretamente proteases que degradam receptores AMPA pós-
+   sinápticos, reduzindo a condutância da sinapse a longo prazo.
+
+   B) O Ca² que entra pelo NMDA ativa CaMKII, que fosforila receptores AMPA já presentes e recruta
+   novos AMPAs para a membrana pós-sináptica, aumentando a resposta a um mesmo estímulo.
+
+   C) O glutamato ativa o receptor mGluR pré-sináptico, que abre canais de K no terminal e reduz a
+   liberação subsequente de neurotransmissor.
+
+   D) A despolarização sustentada inativa permanentemente os canais Cav pré-sinápticos, reduzindo o
+   influxo de Ca² a cada potencial de ação posterior.
+
+   E) O Mg² ocupa de forma duradoura o poro do AMPA pós-sináptico, deixando apenas os receptores
+   NMDA conduzindo corrente em estímulos futuros.
+
+Questão 12 Integração
+
+Em uma preparação de fatia de cérebro de camundongo, registra-se a corrente sináptica em uma
+espinha dendrítica pós-sináptica enquanto se estimula uma fibra glutamatérgica em alta frequência.
+Julgue os itens sobre o que se espera observar.
+Cada item deve ser julgado de forma independente.
+
+   I. Durante a estimulação tetânica, o aumento súbito de Ca² no espinho dendrítico decorre exclusiva
+   mente da abertura dos canais AMPA pós-sinápticos permeáveis a Ca², sem qualquer participação do
+   receptor NMDA, que permanece bloqueado por Mg² inclusive durante o tétano de alta frequência.
+
+                                                                                31
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+II. Durante a estimulação tetânica, o influxo de Ca² pelo receptor NMDA ativa a CaMKII e dispara a
+fosforilação e inserção de novos receptores AMPA na membrana pós-sináptica, aumentando o PEPS
+a um mesmo estímulo subsequente.
+
+III. A LTP observada nesse circuito é não-específica, ou seja, todas as sinapses vizinhas no mesmo
+dendrito são igualmente potencializadas independentemente de terem recebido a estimulação
+tetânica.
+
+IV. A propriedade de associatividade da LTP implica que entradas fracas sejam potencializadas mesmo
+na ausência simultânea de qualquer entrada forte que despolarize suficientemente a membrana pós-
+sináptica.
+
+Questão 13 Integração
+
+No mesmo experimento descrito acima, observa-se que se o magnésio extracelular for elevado de 1 mM
+para 10 mM antes do tétano, a LTP não acontece.
+
+   A) O magnésio elevado bloqueia diretamente a CaMKII intracelular, impedindo a fosforilação dos
+   receptores AMPA e a inserção de novas cópias na membrana pós-sináptica.
+
+   B) O magnésio elevado interfere na síntese vesicular de glutamato no terminal pré-sináptico,
+   reduzindo a quantidade de neurotransmissor liberado durante o tétano.
+
+   C) O magnésio elevado torna o bloqueio voltagem-dependente do poro do NMDA mais difícil de
+   remover, impedindo a entrada de Ca² e abolindo a cascata pós-sináptica responsável pela LTP.
+
+   D) O magnésio elevado fecha permanentemente os canais Cav pré-sinápticos, eliminando o influxo
+   de Ca² no terminal e a liberação de glutamato necessária para ativar o NMDA.
+
+   E) O magnésio elevado aumenta a recaptação de glutamato pela glia via EAAT, reduzindo a concen
+   tração na fenda abaixo do limiar de ativação do receptor AMPA.
+
+Questão 14 Integração
+
+Em um neurônio piramidal cortical, mede-se a constante de espaço () em 800 µm e a constante de
+tempo () em 20 ms. Duas sinapses excitatórias chegam: uma no soma e outra em um dendrito a 1600
+µm. Ambas geram um PEPS de 1 mV no local da sinapse.
+
+   A) Os dois PEPS chegam ao cone de inserção com amplitude idêntica de 1 mV, pois a somação espacial
+   assume pesos sinápticos iguais independentemente da posição na árvore dendrítica.
+
+   B) O PEPS do dendrito chega muito atenuado ao cone: a 1600 µm (duas constantes de espaço de
+   distância), o sinal cai a cerca de 1/e² ( 14%) do valor original, enquanto o PEPS do soma chega pratica
+   mente intacto.
+
+       32
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) O PEPS dendrítico não sofre atenuação enquanto se mantiver dentro de um intervalo de tempo
+menor que ; somente após 20 ms passa a decair exponencialmente com a distância.
+
+D) A constante de espaço atua apenas na somação temporal de PEPS gerados pela mesma sinapse,
+sem influir na somação espacial entre sinapses diferentes do dendrito e do soma.
+
+E) Quanto maior , maior a atenuação dendrítica; aumentar  por mielinização do dendrito faria os
+PEPS distais chegarem ainda menores ao cone de inserção do axônio.
+
+Questão 15 Integração
+
+Julgue os itens sobre as propriedades passivas da membrana neuronal e seu impacto na somação:
+Cada item deve ser julgado de forma independente.
+
+   I. A constante de espaço  depende exclusivamente da capacitância da membrana neuronal e é total
+   mente independente da resistência interna do axoplasma ou da resistência transmembrana.
+
+   II. A constante de tempo  define a janela temporal disponível para a somação: PEPS que chegam
+   separados por intervalos muito maiores que  decaem entre si e somam muito pouco no cone de
+   inserção.
+
+   III. Sinapses inibitórias localizadas perto do corpo celular do neurônio são pouco eficazes em vetar
+   o disparo do PA, justamente por estarem demasiado próximas do cone de inserção e produzirem
+   inibição menor que a observada em PIPS distais nos dendritos.
+
+   IV. Aumentar a resistência transmembrana (por exemplo, fechando canais de fuga) deveria aumentar
+   a constante de espaço  e ampliar o alcance espacial da somação dendrítica até o cone de inserção.
+
+Questão 16 Integração
+
+Um pesquisador deseja silenciar farmacologicamente o principal sistema inibitório do córtex cerebral,
+sem alterar a liberação pré-sináptica de neurotransmissores excitatórios.
+
+   A) Bloqueador competitivo do receptor AMPA pós-sináptico do glutamato, removendo a base exci
+   tatória da rede e desinibindo a inibição GABAérgica reflexa do circuito cortical.
+
+   B) Inibidor irreversível da acetilcolinesterase na junção neuromuscular, prolongando a ação da acetil
+   colina liberada nas placas motoras dos músculos esqueléticos do paciente.
+
+   C) Antagonista competitivo do receptor GABA-A, que ocupa o sítio de ligação do GABA sem ativar o
+   canal de Cl, abolindo o PIPS dos interneurônios inibitórios sobre o neurônio principal.
+
+   D) Agonista total do receptor GABA-B pré-sináptico, que fecharia os canais Cav e reduziria a liberação
+   de neurotransmissores excitatórios nos terminais glutamatérgicos.
+
+       33
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+E) Inibidor seletivo dos transportadores EAAT da glia, prolongando a permanência de glutamato na
+fenda e potencializando indiretamente a inibição cortical.
+
+Questão 17 Integração
+
+Um neurônio do hipotálamo expressa receptores muscarínicos M1 e responde à acetilcolina com uma
+despolarização lenta que dura vários segundos, sem alteração da resposta rápida a estímulos gluta
+matérgicos.
+
+   A) Os receptores M1 são metabotrópicos acoplados à Gq, que ativa fosfolipase C, gera IP e DAG, libera
+   Ca² do RE e fecha canais de K pela ação da PKC, despolarizando lentamente a célula.
+
+   B) Os receptores M1 são ionotrópicos permeáveis a Na e Ca², e a resposta lenta reflete o tempo gasto
+   pela acetilcolina para atravessar a fenda sináptica até a membrana pós-sináptica.
+
+   C) A resposta muscarínica deve-se à inibição direta da Na/K-ATPase pela acetilcolina, com acúmulo
+   gradual de Na intracelular e despolarização progressiva da membrana.
+
+   D) Os receptores M1 ativam diretamente canais NMDA na membrana pós-sináptica, gerando uma
+   corrente de Ca² lenta que dura segundos e despolariza o neurônio hipotalâmico.
+
+   E) A resposta lenta é gerada pelo fechamento direto do canal nicotínico pela acetilcolina, em uma
+   configuração de "dessensibilização adiantada" que despolariza por minutos.
+
+Questão 18 Integração
+
+Julgue os itens sobre as duas grandes famílias de sinapse (elétrica e química) à luz das suas funções
+fisiológicas:
+
+Cada item deve ser julgado de forma independente.
+
+   I. No miocárdio dos mamíferos, as junções gap entre cardiomiócitos garantem a propagação rápida e
+   sincronizada da despolarização pelo átrio e pelo ventrículo, comportamento mais compatível com a
+   sinapse elétrica do que com a química.
+
+   II. A sinapse química é mais lenta que a elétrica, mas a evolução a preferiu como solução dominante
+   do SNC dos mamíferos porque a química é mais barata energeticamente e dispensa o uso de ATP.
+
+   III. A sinapse elétrica permite plasticidade de longo prazo (LTP) tão eficaz quanto a química, sendo a
+   base celular do aprendizado em circuitos cardíacos e do tronco encefálico de mamíferos.
+
+   IV. Em invertebrados, a sinapse elétrica é frequentemente encontrada em circuitos motores de fuga
+   porque a velocidade da resposta é mais decisiva, nesses contextos, do que a possibilidade de modu
+   lação fina.
+
+       34
+NEBLI                  ETAPA 2 -- OBJETIVAS
+
+Questão 19 Integração
+
+Um camundongo geneticamente modificado é incapaz de expressar a proteína SNAP-25 funcional nos
+neurônios motores. Avaliam-se as junções neuromusculares.
+
+A) Os terminais motores liberam acetilcolina normalmente, mas o receptor nicotínico pós-sináptico
+não responde porque a SNAP-25 é a subunidade central do canal iônico do nAChR muscular.
+
+B) A sinaptotagmina assume a função de SNAP-25 e mantém a fusão vesicular preservada, embora
+com retardo aumentado por um fator de aproximadamente dez em comparação ao animal selvagem.
+
+C) O PA chega ao terminal e abre canais Cav, mas o Ca² entra demais e satura a sinaptotagmina,
+paralisando a fusão por mecanismo de retroalimentação negativa do próprio Ca² intracelular.
+
+D) Como a SNAP-25 é uma proteína t-SNARE da membrana pré-sináptica, mas existem múltiplas
+isoformas redundantes, a transmissão neuromuscular permanece normal mesmo no animal nocaute.
+
+E) O PA chega ao terminal e o Ca² entra pelos canais Cav, mas o complexo SNARE não consegue se
+formar sem SNAP-25 funcional, as vesículas não fundem com a membrana e nenhuma acetilcolina é
+liberada na fenda.
+
+Questão 20 Integração
+
+Considere um neurônio sobre o qual chegam, simultaneamente, dez sinapses excitatórias gerando 1 mV
+cada e três sinapses inibitórias gerando -2 mV cada, todas a uma distância similar do cone de inserção,
+dentro da janela de .
+
+   A) O cone dispara com certeza um potencial de ação, pois o valor absoluto da despolarização exci
+   tatória (10 mV) é maior que o valor absoluto da hiperpolarização inibitória (6 mV).
+
+   B) O cone não dispara porque a inibição GABAérgica do soma sempre vence aritmeticamente a exci
+   tação dendrítica, independentemente do número de sinapses excitatórias envolvidas no estímulo.
+
+   C) O cone dispara porque, na somação algébrica, PEPS e PIPS somam o módulo das amplitudes
+   individuais sem importar o sinal, totalizando 16 mV acima do limiar de disparo do axônio.
+
+   D) O efeito líquido é uma despolarização de aproximadamente 4 mV (10 - 6), tipicamente insuficiente
+   para alcançar o limiar ( 15 mV acima do repouso), de modo que o cone provavelmente não dispara.
+
+   E) PEPS e PIPS não somam algebricamente em nenhuma região da membrana, pois operam por
+   mecanismos iônicos diferentes e suas correntes ocupam compartimentos elétricos isolados entre si.
+
+Questão 21 Integração
+Julgue os itens sobre a modulação pré-sináptica e o encerramento da transmissão:
+
+Cada item deve ser julgado de forma independente.
+                                                                                35
+NEBLI  ETAPA 2 -- OBJETIVAS
+
+I. O agonista GABA-B aplicado ao terminal pré-sináptico aumenta a entrada de Ca² pelos canais Cav
+e amplifica a liberação de neurotransmissor a cada potencial de ação que chega ao terminal.
+
+II. Os autorreceptores pré-sinápticos 2-adrenérgicos amplificam a liberação de noradrenalina como
+retroalimentação positiva, garantindo que estímulos pequenos produzam respostas máximas no
+efetor.
+
+III. A fluoxetina prolonga a ação serotoninérgica sináptica porque inibe a degradação enzimática da
+serotonina na fenda, deixando o neurotransmissor disponível por mais tempo aos receptores pós-
+sinápticos.
+
+IV. A modulação em frequência converte a amplitude analógica da despolarização pós-sináptica em
+frequência de potenciais de ação no axônio, transmitindo a informação adiante de forma digital.
+
+Questão 22 Integração
+
+Em uma preparação experimental, registra-se simultaneamente a corrente pelo receptor AMPA e pelo
+receptor NMDA em uma mesma sinapse glutamatérgica, mantendo o potencial de membrana gram
+peado.
+
+   A) Em qualquer potencial de membrana, AMPA e NMDA conduzem correntes idênticas, pois ambos
+   são receptores ionotrópicos do mesmo neurotransmissor e compartilham a mesma seletividade
+   iônica.
+
+   B) No potencial de repouso ( -70 mV), o AMPA conduz uma corrente entrante normal, enquanto o
+   NMDA conduz pouco ou nada porque seu poro está bloqueado por Mg² extracelular.
+
+   C) No potencial de repouso, o NMDA conduz uma corrente entrante grande e o AMPA permanece
+   fechado, pois o glutamato ativa preferencialmente o NMDA em potenciais hiperpolarizados.
+
+   D) Em potencial despolarizado ( -20 mV), o AMPA inativa rapidamente e o NMDA fecha por bloqueio
+   voltagem-dependente, deixando apenas correntes metabotrópicas residuais na fenda sináptica.
+
+   E) O Mg² bloqueia tanto AMPA quanto NMDA em potenciais negativos, mas só o NMDA tem acesso
+   ao poro a partir do lado intracelular da membrana pós-sináptica.
+
+Questão 23 Integração
+
+Numa cascata metabotrópica clássica via proteína Gs, a ativação do receptor leva à modulação prolon
+gada da excitabilidade do neurônio. A sequência mecanística correta é:
+
+   A) Receptor  Gq  fosfolipase C  IP + DAG  liberação de Ca² do RE  ativação da CaMKII 
+   fosforilação direta dos receptores nicotínicos.
+   B) Receptor  Gi  ativação da adenilato ciclase  aumento de AMPc  ativação da PKA 
+   fechamento de canais de Cl  despolarização sustentada da membrana pós-sináptica.
+
+                                                                                36
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) Receptor  G  abertura direta de canais Cav pós-sinápticos  entrada de Ca²  ativação da
+fosfolipase A2  liberação de ácido araquidônico  modulação da excitabilidade.
+
+D) Receptor  Gs  adenilato ciclase  AMPc  PKA  fosforilação de canais (por exemplo,
+fechamento de canais de K)  aumento da excitabilidade do neurônio na escala de segundos.
+
+E) Receptor  fosfolipase D  fosfatidilcolina hidrolisada  DAG  PKC  abertura de canais NMDA
+na membrana pós-sináptica  entrada de Ca².
+
+Questão 24 Integração
+
+Julgue os itens sobre a integração de excitação e inibição em um neurônio piramidal:
+
+Cada item deve ser julgado de forma independente.
+
+   I. A inibição GABAérgica eficaz exige cancelar individualmente cada PEPS que chega ao soma, antes
+   da somação, para que o neurônio se mantenha silencioso e não dispare nenhum potencial de ação.
+
+   II. Receptores GABA-B pré-sinápticos atuam abrindo canais Cav e fechando canais de K no terminal,
+   aumentando a entrada de Ca² e amplificando a quantidade de neurotransmissor liberado por poten
+   cial de ação.
+
+   III. Mesmo quando o ECl está muito próximo do potencial de repouso, a abertura do GABA-A pode inibir
+   a célula por "shunt", isto é, ancorando o potencial em valores próximos do repouso e dificultando que
+   PEPS o despolarizem.
+
+   IV. Os transportadores GAT recaptam o GABA da fenda sináptica, mas estão restritos exclusivamente
+   ao terminal pré-sináptico, sem qualquer participação da glia perissináptica no encerramento da
+   transmissão GABAérgica.
+
+Questão 25 Integração
+
+Uma droga experimental impede que a sinaptotagmina ligue Ca², mas não afeta o complexo SNARE, os
+canais Cav nem os receptores pós-sinápticos. O que se espera observar na junção neuromuscular?
+
+   A) A acetilcolina passa a ser liberada continuamente, mesmo na ausência de potenciais de ação, pois
+   o desbloqueio do SNARE não depende mais de Ca² na zona ativa pré-sináptica.
+
+   B) A acetilcolina passa a ser liberada apenas em frequências de estímulo muito altas, quando o
+   Ca² intracelular médio sobe o suficiente para ativar diretamente o complexo SNARE, contornando a
+   sinaptotagmina.
+
+   C) Os receptores nicotínicos pós-sinápticos passam a ser ativados pelo próprio Ca² que vaza pelo
+   terminal pré-sináptico, mantendo a contração muscular mesmo sem liberação de acetilcolina.
+
+       37
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) O PA pré-sináptico continua a chegar e o Ca² continua a entrar pelos Cav, mas a fusão rápida das
+vesículas é abolida porque o sensor de Ca² da exocitose perdeu a função, e nenhuma acetilcolina sai
+na fenda.
+
+E) O efeito é nulo: a sinaptotagmina é uma proteína apenas estrutural da vesícula, sem papel mecanís
+tico na fusão, e o sensor real de Ca² é o próprio complexo SNARE em sua subunidade SNAP-25.
+
+Questão 26 Aplicação
+
+Uma mulher de 38 anos relata fraqueza muscular que piora no fim do dia, ptose palpebral progressiva
+e disfagia ao jantar. A força melhora após repouso noturno. Eletromiografia mostra decremento da
+resposta à estimulação repetitiva. O anticorpo anti-receptor nicotínico de acetilcolina é positivo.
+
+   A) A doença decorre da clivagem da SNAP-25 pré-sináptica pela toxina botulínica endógena,
+   impedindo a fusão das vesículas e a liberação de acetilcolina pelo neurônio motor na placa motora.
+
+   B) O potencial de ação não consegue invadir o terminal motor por inibição da bomba Na/K, e isso
+   explica a fadiga progressiva ao longo do dia em todos os músculos afetados pela autoimunidade.
+
+   C) Os canais Cav pré-sinápticos do terminal motor são alvo dos autoanticorpos, e a redução da entrada
+   de Ca² no terminal explica diretamente o decremento eletromiográfico observado na paciente.
+
+   D) A síntese de acetilcolina e sua liberação na fenda permanecem normais, mas autoanticorpos
+   destroem e bloqueiam os receptores nicotínicos pós-sinápticos da placa motora, e a margem de
+   segurança da JNM falha ao longo do dia.
+
+   E) A acetilcolinesterase está hiperativada por mutação autoimune, hidrolisando a acetilcolina antes
+   que ela ative os receptores nicotínicos da placa motora e gere o potencial de placa.
+
+Questão 27 Aplicação
+
+Um lactente de 4 meses, previamente saudável, apresenta hipotonia generalizada de progressão de
+scendente após consumo de mel caseiro. Ptose bilateral, choro fraco e dificuldade respiratória crescente.
+O ECG está normal e a estimulação direta da fibra muscular ainda gera contração.
+
+   A) Trata-se de miastenia gravis congênita: autoanticorpos maternos atravessaram a placenta e
+   destruíram os receptores nicotínicos da placa motora do lactente.
+
+   B) Trata-se de intoxicação por organofosforado oculto no mel: a inibição da acetilcolinesterase causa
+   crise colinérgica com hiperestimulação dos receptores muscarínicos e nicotínicos do lactente.
+
+   C) Trata-se de botulismo infantil: a toxina cliva proteínas SNARE no terminal motor, impede a fusão
+   das vesículas e abole a liberação de acetilcolina apesar de o PA pré-sináptico e a fibra muscular estarem
+   preservados.
+
+       38
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+D) Trata-se de bloqueio competitivo do receptor nicotínico por curare absorvido pelo trato gastrin
+testinal a partir do mel, com PA pré-sináptico preservado e liberação de acetilcolina normal.
+
+E) Trata-se de excitotoxicidade colinérgica neonatal: o excesso de glutamato no mel ativou receptores
+NMDA da placa motora e levou a entrada tóxica de Ca² na fibra muscular descendente.
+
+Questão 28 Aplicação
+
+Durante uma intubação eletiva, o anestesista administra um curarizante não-despolarizante. Após
+alguns minutos, o paciente apresenta paralisia flácida completa do diafragma e da musculatura
+esquelética. A estimulação do nervo motor mostra que o potencial de ação no axônio está preservado
+e que a aplicação direta de acetilcolina exógena na placa motora despolariza a fibra muscular normal
+mente.
+
+   A) O fármaco bloqueia os canais Cav pré-sinápticos do terminal motor e impede a entrada de Ca²,
+   abolindo completamente a liberação de acetilcolina apesar de o PA do axônio motor estar preservado
+   e chegar à placa motora.
+
+   B) O fármaco cliva a sinaptobrevina das vesículas pré-sinápticas do terminal motor de forma análoga
+   à toxina botulínica e impede a fusão vesicular, abolindo a liberação de acetilcolina endógena.
+
+   C) O fármaco inibe irreversivelmente a acetilcolinesterase da fenda da junção neuromuscular, e a
+   hiperestimulação prolongada dessensibiliza os receptores nicotínicos pós-sinápticos do paciente.
+
+   D) O fármaco bloqueia o transportador pré-sináptico de colina e impede a síntese de nova acetilcolina;
+   a reserva pré-formada se esgota rapidamente e a transmissão entra em falência por exaustão do
+   estoque vesicular.
+
+   E) O fármaco ocupa de modo competitivo o sítio de ligação do receptor nicotínico de acetilcolina na
+   placa motora sem ativá-lo, bloqueando a ação da acetilcolina endógena liberada normalmente pelo
+   terminal motor.
+
+Questão 29 Aplicação
+
+Um homem de 68 anos chega ao pronto-socorro com hemiparesia esquerda súbita há 90 minutos, em
+provável AVC isquêmico de artéria cerebral média direita. Em discussão sobre neuroproteção, a equipe
+revisa o mecanismo da morte neuronal na zona de penumbra isquêmica que cerca o core necrótico.
+
+   A) A hipóxia bloqueia diretamente os receptores NMDA da penumbra, reduzindo o influxo de Ca² pós-
+   sináptico, e a morte neuronal decorre desse silenciamento sináptico generalizado da zona afetada.
+
+   B) A perda do gradiente iônico despolariza neurônios e libera grandes quantidades de glutamato;
+   o glutamato hiperativa receptores NMDA das células vizinhas, gera influxo tóxico de Ca² e ativa
+   proteases e endonucleases que matam a célula.
+
+       39
+NEBLI      ETAPA 2 -- OBJETIVAS
+
+C) O GABA liberado em excesso pela glia isquêmica hiperpolariza os neurônios da penumbra a valores
+incompatíveis com a sobrevivência, levando à morte por inibição prolongada do disparo neuronal.
+
+D) A excitotoxicidade do AVC depende da ativação dos receptores AMPA pré-sinápticos da penumbra,
+com entrada de Cl e despolarização sustentada que ultrapassa o limite de tolerância da membrana
+mitocondrial.
+
+E) A acetilcolina liberada em excesso pelos neurônios isquêmicos ativa receptores muscarínicos da
+microglia e dispara fagocitose patológica dos neurônios da penumbra ainda viáveis.
+
+Questão 30 Aplicação
+
+Um trabalhador rural é admitido com salivação intensa, lacrimejamento, urinação espontânea, defe
+cação, fasciculações musculares difusas, bradicardia, miose e broncoespasmo, após exposição a um
+inseticida agrícola. A dosagem de colinesterase plasmática está acentuadamente reduzida.
+
+   A) O quadro decorre de bloqueio competitivo dos receptores nicotínicos da placa motora por curare
+   presente no inseticida, e o tratamento consiste em administrar curare adicional para deslocar o agente
+   endógeno do sítio de ligação.
+
+   B) O agente cliva proteínas SNARE no terminal motor e abole a liberação de acetilcolina; o trata
+   mento consiste em antagonista muscarínico para reverter o quadro colinérgico central observado no
+   paciente.
+
+   C) O agente inibe a acetilcolinesterase da fenda sináptica, a acetilcolina acumula-se e hiperestimula
+   receptores muscarínicos com sinais SLUDGE, bradicardia, broncoespasmo e miose, além de recep
+   tores nicotínicos com fasciculações musculares difusas; o tratamento associa atropina e pralidoxima.
+
+   D) O agente bloqueia os canais Cav pré-sinápticos da junção neuromuscular e reduz a liberação de
+   acetilcolina; o tratamento se faz com infusão intravenosa de cálcio para restaurar diretamente o
+   influxo no terminal pré-sináptico do paciente exposto.
+
+   E) O agente ativa diretamente os receptores GABA-A do tronco encefálico em todo o paciente exposto,
+   e a inibição central explica todos os sinais autonômicos generalizados observados, sendo o flumazenil
+   o antídoto preferencial.
+
+       40
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique por que o sistema nervoso central dos mamíferos é dominado pela sinapse química,
+mesmo ela sendo dez vezes mais lenta que a sinapse elétrica. Cite ao menos três propriedades
+funcionais que a sinapse química oferece e a elétrica não.
+
+    MODELO DE RESPOSTA
+
+   A sinapse química tem retardo de 0,5 ms, contra 0,1 ms da elétrica, mas oferece
+   três propriedades essenciais ao SNC. (1) Unidirecionalidade: o terminal pré libera neu
+   rotransmissor que só o pós lê, garantindo sentido aos circuitos. (2) Modulação: cada
+   passo (síntese, exocitose, receptor, remoção) é alvo de proteínas G, fármacos e segundos
+   mensageiros, permitindo ajuste fino da intensidade do sinal. (3) Plasticidade: a força
+   sináptica pode aumentar (LTP) ou diminuir (LTD) ao longo do tempo, base celular
+   do aprendizado. A elétrica é fixa e bidirecional, útil onde sincronia importa mais que
+   flexibilidade -- miocárdio, reflexos rápidos.
+
+Questão Q2
+
+Descreva a cadeia mecanística que acopla a chegada do potencial de ação ao terminal pré-sináp
+tico à liberação do neurotransmissor na fenda. Identifique qual é o gatilho molecular direto da
+exocitose e justifique.
+
+    MODELO DE RESPOSTA
+
+   O PA invade o terminal e despolariza a membrana pré-sináptica. A despolarização
+   abre canais de Ca² dependentes de voltagem (Cav) concentrados na zona ativa. O Ca²
+   entra em microdomínios, subindo de 100 nM para >100 µM logo abaixo das vesículas
+   ancoradas. A sinaptotagmina, sensor de Ca² da vesícula, liga o íon e libera o freio
+   sobre o complexo SNARE, que faz o zíper entre a vesícula e a membrana plasmática. A
+   vesícula funde e libera neurotransmissor por exocitose. O gatilho direto é o Ca²: sem
+   Ca² extracelular, o PA chega normalmente mas nenhuma vesícula funde.
+
+                             41
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique por que o receptor NMDA é descrito como "detector de coincidência molecular" e qual a
+relevância dessa propriedade para a potenciação de longo prazo (LTP).
+
+MODELO DE RESPOSTA
+
+O receptor NMDA exige duas condições simultâneas para conduzir corrente. Primeiro,
+a ligação do glutamato (sinal pré-sináptico). Segundo, despolarização da membrana
+pós-sináptica suficiente para expulsar o íon Mg² que ocupa o poro em repouso (sinal
+pós-sináptico). Se só uma condição ocorre, o canal permanece bloqueado. Quando as
+duas coincidem, o canal abre e Ca² entra na espinha. Esse Ca² ativa CaMKII, que
+fosforila receptores AMPA já presentes e recruta novos para a membrana pós-sináptica.
+A sinapse fica mais forte para o mesmo estímulo -- é a LTP. O NMDA detecta atividade
+conjunta pré e pós e grava a coincidência.
+
+Questão Q4
+
+Descreva os três principais mecanismos de encerramento da transmissão sináptica química e dê
+um exemplo concreto de cada, mencionando uma droga ou patologia associada.
+
+    MODELO DE RESPOSTA
+
+   O encerramento exige remoção do neurotransmissor da fenda -- sem ela, o receptor
+   pós dessensibiliza e o sinal "morre por exaustão". (1) Degradação enzimática: a acetil
+   colinesterase hidrolisa ACh em microssegundos na JNM; organofosforados inibem a
+   enzima e causam crise colinérgica. (2) Recaptação por transportadores específicos:
+   SERT recapta serotonina (alvo da fluoxetina), DAT recapta dopamina (alvo da cocaína),
+   GAT recapta GABA, EAAT recapta glutamato (na glia, evita excitotoxicidade). (3) Difusão
+   pela fenda: o neurotransmissor se afasta passivamente, complementando os outros
+   mecanismos. Sem remoção, não há nova mensagem.
+
+       42
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um colega de turma afirma que "o botulismo bloqueia diretamente os receptores nicotínicos
+pós-sinápticos da junção neuromuscular, e por isso causa paralisia flácida". Identifique o erro
+conceitual, descreva o mecanismo correto da toxina botulínica e contraste-o com o mecanismo
+de uma doença que de fato ataca o receptor pós-sináptico.
+
+MODELO DE RESPOSTA
+
+O erro está no local da agressão. O botulismo NÃO age no pós-sináptico. A toxina
+botulínica entra no terminal pré-sináptico do neurônio motor e cliva proteínas SNARE
+(SNAP-25 ou sinaptobrevina). Sem SNARE íntegro, as vesículas não fundem e nenhuma
+acetilcolina é liberada na fenda -- o PA pré chega, o Ca² entra, mas a vesícula nunca abre.
+Resultado: paralisia flácida descendente. A doença que ataca o receptor pós-sináptico
+é a miastenia gravis: autoanticorpos anti-AChR nicotínico destroem e bloqueiam os
+receptores na placa motora. Nela, a liberação de ACh é normal, mas o receptor não
+responde -- fraqueza piora ao longo do dia e melhora com inibidores de AChE. Mesma
+clínica final (fraqueza), passos diferentes da cadeia.
+
+       43
+NEBLI                                       ETAPA 4 -- FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 C     Q02 CEEC      Q03 E     Q04 EEEC  Q05 D
+Q06 D     Q07 CCEC      Q08 E
+
+INTEGRAÇÃO (Q09­Q25)    Q11 B
+                        Q16 C
+Q09 A     Q10 C         Q21 EEEC  Q12 ECEE  Q13 C
+Q14 B     Q15 ECEC                Q17 A     Q18 CEEC
+                        Q28 E     Q22 B     Q23 D
+Q19 E     Q20 D
+
+Q24 EECE  Q25 D
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D     Q27 C                   Q29 B     Q30 C
+
+                        50
+

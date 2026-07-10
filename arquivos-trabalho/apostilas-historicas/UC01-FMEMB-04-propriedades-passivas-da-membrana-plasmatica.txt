@@ -1,0 +1,1583 @@
+NEBLI · APOSTILA
+
+Propriedades passivas da
+membrana
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:   Primeira leitura pós-aula; pré-requisito do potencial de ação.
+Onde estudar:  Boron 3ª ed, Cap. 7 (Electrical Excitability and Action Potentials, seção
+               'Passive Membrane Properties'); Kandel 6ª ed, Cap. 9; Costanzo 6ª ed, Cap.
+               1 (seção sobre cabo)
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A membrana é um circuito elétrico
+
+       1.1 Da química para a eletricidade -- gradientes, condutâncias, Em
+       1.2 A bicamada lipídica é um capacitor -- separa cargas, armazena energia
+       1.3 Os canais iônicos são resistências em paralelo -- modelo de Ohm
+  PARTE II -- Excitação: a resposta não é instantânea
+       2.1 Despolarização e hiperpolarização -- V como deslocamento de Em
+       2.2 Corrente capacitiva vs resistiva -- quem carrega quem
+       2.3 Constante de tempo  = RmC -- o relógio da resposta
+  PARTE III -- Propagação eletrotônica: como o sinal viaja
+       3.1 Por que o sinal cai com a distância -- fuga e resistência interna
+       3.2 Constante de espaço  = (Rm/Ri) -- o alcance do sinal
+       3.3 Mielina e diâmetro do axônio -- otimização de  e ; desmielinização
+
+RESUMINDO
+
+       Fechamento panorâmico em 1 página
+
+ETAPA 2 -- 30 OBJETIVAS
+
+       Consolidação (Q01­Q10) · verde
+       Integração (Q11­Q25) · azul
+       Aplicação (Q26­Q30) · violeta
+
+ETAPA 3 -- 5 DISCURSIVAS
+
+       Mecanismo central, modelo 100 palavras (Q5 130)
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+       Cor por formato · gabarito inline com justificativa
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A célula nervosa precisa fazer algo que parece simples -- uma extremidade dela é estimulada e a
+    outra "sabe" disso -- mas a distância entre os dois pontos pode chegar a um metro (motoneurônio
+    lombar até o dedão do pé). Como o sinal viaja? Antes de chegar no potencial de ação, que é a
+    versão ativa e regenerativa da resposta, a membrana já tem um comportamento passivo -- um
+    comportamento que ela exibe só porque é uma bicamada lipídica salpicada de canais, mergul
+    hada em soluções iônicas dos dois lados. Esse comportamento passivo é o assunto desta aula,
+    e entendê lo é pré requisito absoluto: sem saber como a membrana se comporta como circuito
+    elétrico, o potencial de ação vira mágica. Vamos enxergar a membrana como o engenheiro vê --
+    um capacitor (a bicamada) em paralelo com uma resistência (os canais) e uma bateria (os gradi
+    entes iônicos) -- e a partir daí deduzir três coisas que toda fisiologia eletrofisiológica usa: por
+    que a resposta da membrana demora (constante de tempo ), por que o sinal cai com a distância
+    (constante de espaço ), e por que mielina e diâmetro grande do axônio fazem o sinal correr mais
+    longe e mais rápido.
+
+PARTE I -- A membrana é um circuito elétrico
+
+1.1 -- Da química para a eletricidade
+Antes de qualquer coisa, vamos retomar de onde a aula anterior parou. A membrana plasmática separa
+duas soluções com composições iônicas bem diferentes: dentro da célula sobra K+ e faltam Na+ e Cl fora
+é o inverso. A bomba Na+/K+ gasta ATP o tempo todo para manter essas diferenças. Cada íon, portanto,
+tem um gradiente químico querendo puxá lo para o lado mais diluído.
+
+ATP¹ Em² GHK³
+
+Mas o íon que escapa pelo seu gradiente carrega carga elétrica. E carga acumulada de um lado da
+membrana cria diferença de potencial elétrico. É essa a ponte que precisamos atravessar: gradiente
+químico gera, indiretamente, gradiente elétrico. Quando o sistema chega ao equilíbrio dinâmico -- íon
+entrando e saindo na mesma taxa -- o potencial de membrana fica numa voltagem específica, chamada
+potencial de repouso (Em). No neurônio típico, esse Em vale em torno de -70 mV (o interior é 70 milivolts
+mais negativo do que o exterior).
+
+Por que esse valor específico? Porque o Em é uma média ponderada dos potenciais de equilíbrio de cada
+íon, ponderada pela condutância da membrana para cada um. Em repouso, a membrana é muito mais
+permeável a K+ do que aos outros -- a condutância gK é, no exemplo do slide, vinte vezes a condutância
+
+   ¹ATP ­ adenosina trifosfato -- moeda energética celular; aqui é gasto pela bomba Na+/K+ para manter os gradientes que
+sustentam o potencial de repouso.
+
+   ²Em ­ potencial de membrana em repouso -- diferença de potencial elétrico através da membrana quando nenhum
+estímulo está sendo aplicado; tipicamente em torno de -70 mV no neurônio.
+
+   ³GHK ­ equação de Goldman Hodgkin Katz -- calcula o potencial de membrana em função das condutâncias e dos
+gradientes iônicos simultâneos.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+gNa. Por isso o Em fica perto do potencial de equilíbrio do K+ (EK  -80 mV), e não no meio do caminho
+entre os íons. Quem "puxa mais" o Em é o íon de maior g -- e o resto é detalhe que a equação de GHK
+formaliza.
+
+Repare nos números: gK é vinte vezes maior que gNa e quatro vezes maior que gCl. O Em resultante (-71,65 mV) gravita
+perto do EK, não no meio dos três. Quem tem mais condutância manda no potencial de repouso.
+
+condutância4
+
+   Resumindo até aqui: Gradiente químico (íons em concentrações diferentes)  íons tendem a escapar 
+   como têm carga, separam carga  surge gradiente elétrico  Em estabiliza no valor que zera a corrente
+   líquida. Em  EK porque gK domina em repouso.
+
+E aqui chegamos no ponto que muda tudo: se a membrana já tem cargas separadas e canais que deixam
+íons passarem com mais ou menos facilidade, ela não é só uma fronteira química -- ela é, do ponto
+de vista físico, um circuito elétrico. Tem voltagem (Em), tem resistência (os canais oferecem mais ou
+menos passagem), e -- vamos descobrir na próxima seção -- tem também capacitância (a bicamada
+separa cargas como duas placas paralelas). Esses três elementos, juntos, explicam todo o comporta
+mento passivo da membrana.
+
+1.2 -- A bicamada lipídica é um capacitor
+A primeira peça do circuito é a bicamada lipídica. Imagine: duas camadas de fosfolipídios encostadas,
+com as caudas hidrofóbicas no meio. Essa região hidrofóbica é fininha -- uns 3 a 5 nanômetros -- e
+íons não atravessam (íons são carregados e a região é apolar, não há como o íon perder a hidratação
+para entrar ali). De um lado da bicamada acumulam cargas positivas (Na+, K+); do outro, fica o excesso
+
+   4condutância ­ medida de quão facilmente um íon atravessa a membrana -- é o inverso da resistência (g = 1/R).
+Unidade: siemens (S). Quanto mais canais abertos para aquele íon, maior a condutância.
+
+                                                                                 4
+NEBLI         ETAPA 1 -- TEXTO DIDÁTICO
+
+de negativas (ânions intracelulares, A ). Duas placas com cargas opostas, separadas por um isolante
+fino. Isso, na linguagem da física, é a definição de um capacitor.
+
+capacitor5
+
+dielétrico6
+
+A relação fundamental do capacitor é uma equação singela: a carga acumulada nas placas (q) é
+proporcional à diferença de potencial entre elas (V), com a constante de proporcionalidade chamada
+capacitância (C):
+
+       q=C·V
+
+C7
+
+Lê se em português corrido: "para acumular q coulombs de carga em cada placa, é preciso estabelecer
+V volts de diferença de potencial entre elas -- e o quanto exatamente é definido por C, uma propriedade
+fixa daquele capacitor". A capacitância depende de dois fatores geométricos: a área das placas (quanto
+maior, mais carga cabe -- C aumenta proporcional à área) e a distância entre elas (quanto menor a
+distância, maior o C, porque as cargas opostas se "sentem" mais). Como a bicamada é finíssima (3 5
+nm), a capacitância específica da membrana -- capacitância por unidade de área -- é muito alta para
+um sistema biológico: cerca de 1 F por cm² de membrana.
+
+Note como toda a estrutura do capacitor da membrana cabe num esquema simples: cargas separadas pela bicamada,
+equação q = C·V definindo o link entre carga acumulada e voltagem resultante. A bicamada não é só barreira para
+íons -- ela é o que guarda a separação de cargas que constitui o Em.
+
+   5capacitor ­ dispositivo elétrico formado por duas placas condutoras separadas por um isolante (dielétrico); armazena
+cargas opostas nas duas placas e estabelece uma diferença de potencial entre elas proporcional à carga acumulada.
+
+   6dielétrico ­ material isolante que separa as duas placas de um capacitor. Na membrana, o dielétrico é a bicamada
+lipídica -- só 3 5 nm de espessura, o que faz a capacitância ser alta para a área disponível.
+
+   7C ­ capacitância da membrana -- quantos coulombs precisam ser separados pela membrana para gerar 1 volt de
+diferença de potencial. Unidade: farad (F).
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+E por que toda essa parafernália do capacitor é importante para entender excitabilidade? Pelo seguinte:
+não dá para mudar V sem antes mexer em q. Para a membrana ir de -70 mV para -60 mV (despolarizar
+10 mV), é preciso primeiro alterar a quantidade de carga acumulada nas duas placas -- tirar carga
+negativa do lado de dentro, ou colocar carga positiva. Isso leva tempo. Cada elétron movido de um lado
+para o outro, cada Na+ que entra pelo canal, contribui uma fração para esse rearranjo de cargas. Por isso
+a resposta da membrana a um estímulo não é instantânea -- ela tem uma demora intrínseca, ditada
+pelo tempo necessário para mover carga suficiente para mudar a voltagem. Já temos aqui o primeiro
+motivo de a membrana ser "lenta": ela é um capacitor, e capacitor precisa carregar.
+
+Resumindo até aqui: Bicamada = isolante fino entre duas soluções iônicas  separa cargas  com-
+porta-se como capacitor  para mudar V, precisa antes mudar q (q = CV)  mudar q leva tempo 
+membrana responde com atraso.
+
+1.3 -- Os canais iônicos são resistências em paralelo
+A segunda peça do circuito é o conjunto de canais iônicos. Cada canal é um buraco proteico atravessando
+a membrana que deixa passar um íon específico -- canais de K+, canais de Na+, canais de Cl . Os canais
+são o caminho pelo qual a corrente atravessa a membrana. Para o eletricista, isso é uma resistência:
+oferece passagem, com mais ou menos facilidade, à corrente elétrica.
+
+Rm8
+
+A relação entre resistência e condutância é simples: R = 1/g. Se um canal tem alta condutância (deixa
+passar muita corrente), tem baixa resistência; se tem baixa condutância, tem alta resistência. Os dois
+descrevem a mesma coisa pelos lados opostos do espelho.
+
+Agora vem o ponto importante: os canais de K+, Na+ e Cl estão espalhados em paralelo na membrana
+-- cada um é uma rotinha independente atravessando a bicamada. E quando você tem resistências
+em paralelo, somam-se as condutâncias, não as resistências. Pense numa autoestrada com três pistas:
+somam se as larguras das pistas (condutâncias), não o "estreito" de cada uma (resistência). A condutân
+cia total da membrana é, portanto:
+
+                                                     gtotal = gK + gNa + gCl
+
+E a resistência total Rm é apenas o inverso disso (Rm = 1/gtotal). Quantos canais abertos a membrana
+tiver, menor será sua Rm. Quanto menos canais abertos, maior sua Rm.
+
+   8Rm ­ resistência total da membrana -- quanto a membrana inteira se opõe à passagem de corrente iônica. Inverso da
+condutância total. Aumenta quando há poucos canais abertos; diminui quando há muitos.
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Veja a notação: três resistências (RK, RNa, RCl) em paralelo na membrana, somando-se como condutâncias em "1/Rm
+= 1/RK + 1/RNa + 1/RCl". Em repouso, com a corrente líquida zero, cada íon entra e sai na mesma taxa -- mas o circuito
+está montado, esperando estímulo.
+Para simplificar a análise sem perder o essencial, o que se faz é colapsar todos esses canais em uma
+única resistência equivalente Rm, e todos os potenciais de equilíbrio em uma única bateria equivalente
+de valor Em. O circuito mínimo da membrana, então, é: uma bateria de -70 mV em série com uma
+resistência Rm, tudo isso em paralelo com um capacitor C. É esse circuito que vai aparecer em todos
+os slides daqui em diante -- e é dele que vamos extrair ,  e tudo o que precisamos.
+
+ O modelo simplificado: bateria Em (representa todos os gradientes iônicos) + resistência Rm (representa todos os
+ canais somados) + capacitor C (representa a bicamada). Em repouso, V = V - Em = 0, não há corrente resistiva.
+ Estímulo desequilibra esse zero -- e o circuito reage.
+
+                                                                                 7
+NEBLI     ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Canais = resistências em paralelo na membrana  somam-se condutâncias, não
+resistências  Rm = 1/(gK + gNa + gCl)  mais canais abertos = Rm menor. Bateria Em + resistência Rm
++ capacitor C = o circuito básico da membrana.
+
+       8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE II -- Excitação: a resposta não é instantânea
+
+2.1 -- Despolarização e hiperpolarização
+Agora que temos o circuito montado, vamos estimulá-lo. O experimento clássico é injetar uma corrente
+na célula com um eletrodo -- isto é, forçar a passagem de cargas pela membrana. Conforme as cargas se
+acumulam (ou se retiram) da face interna, o potencial de membrana se desloca do seu valor de repouso.
+Esse deslocamento é o V.
+
+V9
+
+Aqui é importante prestar atenção à convenção de sinais. V não é o valor de V em si -- é quanto V se
+afastou do Em. Se Em = -70 mV e V vai para -60 mV, V = -60 - (-70) = +10 mV. Despolarização significa
+que a membrana ficou menos negativa por dentro -- V positivo. Se V vai para -80 mV, V = -80 -
+(-70) = -10 mV. Hiperpolarização significa que a membrana ficou ainda mais negativa por dentro -- V
+negativo.
+
+Despolarização: o pulso de corrente positivo desloca V de -70 mV para -60 mV. V = +10 mV. A membrana ficou mais
+positiva por dentro -- não invertida, mas menos negativa. Esse é o tipo de excitação que aproxima do limiar do
+potencial de ação.
+
+   9V ­ variação do potencial de membrana em relação ao repouso -- V = V - Em. Positivo na despolarização, negativo
+na hiperpolarização.
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Hiperpolarização: o pulso de corrente negativo desloca V de -70 mV para -80 mV. V = -10 mV. A membrana ficou
+ainda mais negativa por dentro -- afasta-se do limiar do potencial de ação. Esse é o tipo de resposta de PIPS
+(potencial inibitório pós-sináptico).
+
+    Despolarização não é inversão
+    Aluno tende a achar que "despolarizar" significa "inverter o sinal" (passar de negativo a positivo).
+    Errado. Despolarizar significa apenas diminuir o módulo da negatividade interna -- ir de -70
+    mV para -60 mV é despolarizar, mesmo continuando negativo. A inversão de sinal só acontece no
+    pico do potencial de ação, quando V chega a +30 mV ou +40 mV. Toda despolarização sub-limiar
+    (que é o tema desta aula) continua na faixa negativa.
+
+   Resumindo até aqui: V = V - Em. Estímulo positivo (injeta corrente)  V sobe (fica menos negativo)
+    V positivo  despolarização. Estímulo negativo (retira corrente)  V desce (fica mais negativo) 
+   V negativo  hiperpolarização. Despolarização não é inversão; é só perda de negatividade.
+
+2.2 -- Corrente capacitiva vs resistiva
+A coisa fica interessante quando observamos o que acontece durante o estímulo, no detalhe. Você injeta
+uma corrente constante na célula, e mede V ao longo do tempo. Esperaria que V subisse instantanea
+mente do valor de repouso para um novo valor -- afinal, a corrente está chegando. Mas não é isso que
+acontece. V sobe gradualmente, com uma curva característica em formato de exponencial. Por que essa
+demora?
+
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare: o pulso de corrente é retangular (liga, fica constante, desliga), mas a resposta V é gradual -- sobe em curva.
+A excitação da membrana não é instantânea. Esse é o ponto de partida do raciocínio de .
+
+Porque a corrente que entra na célula não vai toda mudar V de cara. Ela se divide em duas correntes
+paralelas: uma parte vai carregar o capacitor (a bicamada), e outra parte vai atravessar a resistência
+(passar pelos canais e voltar pelo outro lado). A corrente total da membrana (im) é a soma das duas:
+
+                                                           im = iC + iR
+
+A corrente capacitiva (iC) é a que está rearranjando cargas no capacitor -- ela existe só enquanto V está
+mudando. Quando V para de mudar (chegou no valor final), iC = 0. A corrente resistiva (iR) é a que flui
+pelos canais pela lei de Ohm: iR = V/Rm. Ela existe sempre que V  0 -- quanto mais distante do Em
+estiver V, maior iR.
+
+       11
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+Modelo elétrico completo: a corrente im que chega pelo eletrodo bifurca em iC (carrega o capacitor C) e iR (atravessa
+a resistência Rm). No início, quase toda im vira iC no fim, quase toda im vira iR. É essa transição que dá forma à curva
+exponencial de V(t).
+
+Agora vem a dança temporal. No instante inicial do estímulo (t = 0), V = 0 (a membrana ainda está
+em Em), então iR = 0 (não há "força motriz" para puxar corrente pelos canais). Toda a corrente injetada
+está indo para o capacitor -- iC domina. Conforme o capacitor vai se carregando, V sobe, V cresce,
+e iR começa a aparecer -- corrente passa a vazar pelos canais. Quanto mais V sobe, mais iR cresce,
+e mais iC diminui (porque parte do que estava indo para carregar agora está sendo "desviado" para a
+fuga resistiva). Eventualmente chega se ao estado estacionário: V parou de mudar (estabilizou no novo
+valor), iC = 0, e toda a corrente injetada está saindo como iR. Esse é o momento em que V atinge o seu
+valor final Vfinal = im · Rm + Em.
+
+       12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Veja o instantâneo perto do estacionário: iC já caiu, iR domina, V se aproxima do valor final. A curva azul de V mostra
+a clássica aproximação assintótica do exponencial -- cada vez mais devagar, nunca chega exatamente, mas se
+aproxima.
+
+   Resumindo até aqui: im = iC + iR. No início, iC domina (toda corrente vai carregar o capacitor). Conforme
+   V sobe, iR cresce e iC decai. No fim, iR domina (V estabiliza, corrente toda vai pelos canais). O capacitor
+   "atrasa" a chegada de V ao valor final -- esse atraso é a constante de tempo.
+
+2.3 -- Constante de tempo  = RmC
+A curva temporal de V(t) tem uma fórmula matemática elegante: uma exponencial subindo até o valor
+final:
+
+                                              V(t) = Vfinal · (1 - e-t/)
+
+10
+A grandeza  (tau) -- chamada constante de tempo -- é o parâmetro que governa essa exponencial. E
+ela tem definição bonita:  = Rm · C. Resistência vezes capacitância, em unidades de tempo (segundo).
+Vamos digerir o que isso significa fisicamente.
+Quando t = , o exponencial e-t/ vale e-1  0,37. Então V() = Vfinal · (1 - 0,37) = Vfinal · 0,63. Em uma constante
+de tempo, V chegou a 63% do valor final. Em 2 chega a 86%, em 3 chega a 95%, em 5 chega a 99%
+(praticamente o valor final).
+Por que  depende de Rm e de C? Vamos pensar dimensionalmente. Se C é grande (capacitor grande,
+segura muita carga), precisa de mais carga acumulada para mudar V -- leva mais tempo. Se Rm é grande
+(resistência grande, dificulta passagem pelos canais), a corrente que está chegando demora mais a "sair"
+
+   10 ­ constante de tempo da membrana -- produto da resistência por capacitância ( = RmC). É o tempo necessário para
+V atingir 63% do valor final após o início do estímulo. Unidade: segundos.
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+pelo lado resistivo e fica mais tempo acumulando no capacitor -- também demora mais. Os dois fatores
+se somam multiplicativamente em  = Rm · C.
+
+A exponencial canônica: V(t) = Vfinal · (1 - e-t/). Repare como  marca o joelho da curva -- o tempo em que V atinge
+63% do valor final. Quanto maior , mais lenta a resposta.
+
+Comparação direta: à esquerda, Rm grande e C grande   grande  resposta lenta. À direita, Rm pequeno e C
+pequeno   pequeno  resposta rápida. Mielinização vai exatamente nesse sentido: aumenta a resistência efetiva
+e diminui a capacitância efetiva.
+
+                                                                                14
+NEBLI                 ETAPA 1 -- TEXTO DIDÁTICO
+
+constante de tempo¹¹
+
+Resumindo até aqui:  = Rm · C, em segundos. V(t) = Vfinal · (1 - e-t/). Em t = , V atingiu 63% do final; em
+3, 95%; em 5, 99%. Quanto maior , mais lenta a membrana responde -- má notícia para velocidade
+de propagação, boa notícia para integração temporal de sinais.
+
+   ¹¹constante de tempo ­ parâmetro de uma curva exponencial que governa o quanto demora para o sistema chegar ao
+novo valor após uma perturbação. Em uma constante de tempo, a variável atinge 63% do valor final.
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+PARTE III -- Propagação eletrotônica: como o sinal viaja
+
+3.1 -- Por que o sinal cai com a distância
+Até aqui pensamos no que acontece num ponto da membrana -- o ponto onde o eletrodo injeta corrente.
+Mas o neurônio precisa que essa corrente injetada em um ponto (o dendrito, ou um pedaço do axônio)
+viaje até outro ponto (o corpo celular, ou o terminal sináptico). Como a corrente se propaga ao longo da
+fibra?
+
+Ri¹²
+
+axoplasma¹³
+
+A resposta é: a corrente flui longitudinalmente pelo citoplasma -- pelo axoplasma -- em direção aos
+pontos vizinhos da membrana. Esse axoplasma também é uma resistência (Ri, resistência interna). E,
+à medida que a corrente caminha por dentro, em cada ponto da membrana ela tem duas escolhas:
+continuar viajando pelo citoplasma para o próximo ponto, ou escapar pela membrana lateral (pela
+resistência Rm daquele ponto) e voltar pelo meio extracelular. Cada ponto da membrana é uma fuga.
+
+E aqui está o problema fundamental da propagação passiva: a corrente vai vazando ao longo do
+caminho. No ponto inicial (ponto 1), a voltagem é V1, maior. No ponto vizinho (ponto 2), parte da corrente
+já escapou, e a voltagem V2 é menor. No ponto 3, já escapou ainda mais, e V3 é menor ainda. V1 > V2 > V3:
+o sinal decai à medida que viaja.
+
+ A propagação eletrotônica: corrente injetada no ponto inicial atravessa Ri (axoplasma) para os pontos seguintes,
+ mas em cada ponto vaza por Rm. Veja como V1 > V2 > V3 -- o sinal cai com a distância, exponencialmente.
+
+   ¹²Ri ­ resistência interna do citoplasma (axoplasma) -- resistência longitudinal à passagem de corrente pelo interior
+da fibra. Depende inversamente do diâmetro: quanto mais grosso o axônio, menor Ri.
+
+   ¹³axoplasma ­ citoplasma do axônio. Tem resistência elétrica (Ri) por onde a corrente longitudinal precisa passar
+quando se propaga sub limiarmente. É o "fio" do circuito.
+
+                                                                                16
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: Corrente injetada num ponto  flui longitudinalmente por Ri (axoplasma) 
+em cada ponto vizinho, parte escapa por Rm (membrana lateral)  quanto mais longe do ponto inicial,
+mais corrente já escapou  V cai com a distância. Sem regeneração ativa, o sinal não viaja longe.
+
+3.2 -- Constante de espaço  = (Rm/Ri)
+Igual à constante de tempo dominava a resposta temporal, a propagação espacial também tem sua
+constante característica: a constante de espaço  (lambda). Ela diz quão longe o sinal viaja antes de
+decair significativamente. Matematicamente, a voltagem ao longo da distância x do ponto de estímulo
+é também uma exponencial -- agora decrescente:
+
+                                                  V(x) = Vmax · e-x/
+
+14
+
+A interpretação física é a mesma do , só que no espaço: em uma constante de espaço (x = ), V cai
+para 37% do valor inicial. Em 2, cai para 14%. Em 3, cai para 5%. Por isso fibras com  grande
+conseguem propagar sinal sub limiar por distâncias longas; fibras com  pequeno perdem o sinal em
+poucas centenas de micrômetros.
+
+A definição de  é:
+
+                                                    = (Rm / Ri)
+
+Olhe essa fórmula com atenção, porque ela revela o conflito: Rm está em cima (no numerador), Ri
+está embaixo (no denominador). Para  aumentar, o que precisamos? Aumentar Rm (membrana mais
+isolante, menos fuga lateral) e diminuir Ri (axoplasma mais condutor, menos resistência longitudinal).
+Lembrando que Ri depende inversamente do diâmetro (axônio mais grosso = mais axoplasma em
+paralelo = menor Ri), e Rm depende do isolamento da membrana lateral, aqui está a base evolutiva de
+dois truques anatômicos que vamos discutir a seguir: mielinização e calibre grosso.
+
+   14 ­ constante de espaço -- distância (em mm) ao longo da fibra em que V cai para 37% do valor inicial.  = (Rm/Ri).
+Quanto maior , mais longe o sinal passivo viaja.
+
+                                                                                17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ A exponencial espacial: V(x) = Vmax · e-x/. Em x = , V está em 37% do valor inicial.  é o "alcance" característico do
+ sinal passivo. Sem amplificação ativa, depois de 3 o sinal está praticamente perdido.
+
+Efeito da Rm em : membrana com poucos canais (Rm maior, em cima) faz  grande -- o sinal viaja longe. Membrana
+com muitos canais (Rm menor, embaixo) faz  pequeno -- fuga lateral é grande, sinal cai rápido. Mielinizar a
+membrana é exatamente "diminuir o número de canais expostos por unidade de área", o que aumenta Rm efetivo.
+
+                                                                                18
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Efeito do diâmetro (via Ri) em : dendrito com diâmetro menor (Ri grande, em cima) faz  pequeno. Dendrito com
+diâmetro maior (Ri pequeno, embaixo) faz  grande. Axônio gigante da lula tem 1 mm de diâmetro porque a evolução
+privilegiou velocidade brutal sem mielina -- é o caminho alternativo evolutivo dos invertebrados.
+
+   Resumindo até aqui:  = (Rm/Ri). Em x = , V cai a 37% do inicial. Para aumentar : aumentar Rm
+   (isolar a membrana lateral) ou diminuir Ri (engrossar a fibra). Quanto maior , mais longe o sinal passivo
+   viaja antes de se perder.
+
+3.3 -- Mielina e diâmetro do axônio
+Agora vamos juntar  e  no problema central do neurônio: como fazer o sinal viajar rápido e longe?
+As duas constantes pressionam em direções diferentes que precisam ser otimizadas simultaneamente.
+Velocidade de propagação depende, grosseiramente, de / -- quanto maior  e menor , mais rápida a
+condução. Quanto a evolução tinha de alavanca? Duas: mexer no isolamento lateral da membrana (afeta
+Rm e C) e mexer no calibre da fibra (afeta Ri).
+Mielinização (vertebrados): células gliais (oligodendrócitos no SNC, células de Schwann no SNP)
+enrolam se múltiplas vezes em torno do axônio, criando uma camada espessa de bicamada lipídica
+concêntrica. O efeito elétrico é triplo: (1) Rm efetivo aumenta muito -- a corrente, para escapar lateral
+mente, agora teria que atravessar dezenas de bicamadas isolantes, o que é praticamente proibitivo nos
+segmentos mielinizados; (2) C efetivo diminui muito -- a distância entre as duas "placas" do capacitor
+(interior da fibra × exterior do envelopamento) ficou maior, e como C é inversamente proporcional à
+distância, C cai bruscamente; (3) os canais ficam concentrados nos nodos de Ranvier, gaps entre células
+de mielina, onde a corrente é regenerada por potencial de ação ativo.
+
+                                                                                19
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo até aqui: Mielina aumenta Rm e diminui C   = RmC pode ficar moderado (Rm sobe
+   e C cai, parcialmente cancelando), mas o decisivo é que  = (Rm/Ri) aumenta muito (Rm sobe)  o
+   sinal viaja muito mais longe sem regenerar  entre dois nodos de Ranvier, a propagação é puramente
+   passiva, rapidíssima  no nodo, o potencial de ação reativa o sinal  resultado: condução saltatória,
+   rápida e econômica.
+
+Aumento de calibre (invertebrados, e em vertebrados também em algumas fibras A): engrossar o
+axônio diminui Ri (porque Ri é inversamente proporcional à área de seção transversal: dobre o raio, Ri cai
+por um fator de 4). Com Ri menor,  aumenta. É a estratégia do axônio gigante da lula (1 mm de diâmetro,
+propaga a velocidade dezenas de m/s mesmo sem mielina). O problema é que essa estratégia escala mal:
+para ganhar mais velocidade, você precisa engrossar muito, e o espaço ocupado pelos axônios ficaria
+impraticável num cérebro humano. Mielinização é, para o tamanho que ela ocupa, infinitamente mais
+econômica.
+
+Esclerose múltipla e Guillain-Barré: a mielinização ao contrário
+
+Quando o sistema imune ataca a mielina, o que acontece eletricamente é a reversão exata do que
+a mielinização fez: Rm cai (volta a ter membrana exposta com canais) e C sobe (sumiu a camada
+isolante grossa)   diminui  o sinal não consegue chegar do nodo anterior até o nodo seguinte
+ bloqueio de condução. Clinicamente: fraqueza muscular, parestesias, perda visual súbita (no
+nervo óptico, na neurite óptica da EM). A EM15 ataca a mielina central (oligodendrócitos); a
+Guillain Barré16 ataca a mielina periférica (células de Schwann). Mecanismo de base: o mesmo --
+ desaba, bloqueia condução.
+
+EM17
+E para fechar a história, vale colocar  e  lado a lado:
+
+   15esclerose múltipla -- doença autoimune desmielinizante do SNC; lesões "espalhadas no tempo e no espaço", típicas
+em mulheres jovens.
+
+   16Guillain-Barré -- polineuropatia desmielinizante aguda do SNP, geralmente pós infecciosa (Campylobacter, Zika);
+paralisia ascendente que pode evoluir para insuficiência respiratória.
+
+   17EM ­ esclerose múltipla -- doença autoimune desmielinizante do SNC. Lesões disseminadas afetam  dos axônios
+envolvidos, produzindo sintomas neurológicos focais que aparecem e remitam.
+
+                                                                                20
+NEBLI                                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+Constante          Constante de tempo ()                               Constante de espaço ()
+
+Dimensão           tempo (s, ms)                                       distância (mm)
+
+Fórmula             = Rm · C                                            = (Rm / Ri)
+
+O que governa      quão rápido V chega ao valor final quão longe V viaja antes de decair
+                   num ponto
+
+Aumenta com        Rm maior, C maior                                   Rm maior, Ri menor
+
+Efeito da mielina  Rm sobe (sobe ); C cai (cai ) -- Rm sobe   sobe muito (efeito
+
+                   parcialmente cancela                                dominante)
+
+Efeito de calibre maior pouco efeito (mexe pouco em Ri cai   sobe
+                                      Rm·C)
+
+Significado fisiológico integração temporal de sinais e ve             alcance de propagação eletrotônica
+                                      locidade de resposta a estímulo  antes de precisar regenerar (PA)
+
+Conclusão integradora
+
+A membrana plasmática não é só uma fronteira química -- ela é, do ponto de vista elétrico, um
+capacitor (bicamada lipídica) em paralelo com uma resistência (canais iônicos) e uma bateria
+(gradientes iônicos). Esse circuito tem dois parâmetros característicos que governam todo o
+comportamento passivo:  = Rm · C, a constante de tempo, que diz quanto demora para V chegar
+ao valor final num ponto após um estímulo; e  = (Rm/Ri), a constante de espaço, que diz quão
+longe o sinal viaja antes de decair a 37% do valor inicial. As alavancas evolutivas -- mielinização
+e aumento de calibre -- manipulam exatamente esses dois parâmetros para tornar a condução
+nervosa rápida e econômica. Entender propriedades passivas é entender o substrato físico em
+cima do qual o potencial de ação acontece -- sem isso, a parte ativa da fisiologia neural fica em
+pé sobre o vazio.
+
+                                         21
+NEBLI                                                       RESUMINDO
+
+   Resumindo
+
+A membrana é um circuito elétrico                           V = V - Em (despolarização vs
+                                                            hiperpolarização)
+Bicamada lipídica isola  capacitor (C). Canais
+iônicos deixam corrente passar  resistência (Rm).           Despolarização: V sobe (ficou menos negativo)
+Gradientes iônicos mantidos pela bomba Na+/K+                V positivo (ex: -70  -60 = +10 mV).
+bateria (Em). Todo o comportamento passivo cabe             Hiperpolarização: V desce (ficou mais negativo) 
+nesse circuito mínimo: bateria + Rm em paralelo             V negativo. Despolarizar não é inverter o sinal --
+com C.                                                      é só perder negatividade. A inversão só ocorre no
+                                                            pico do PA.
+
+Bicamada = capacitor (separa carga,                         im = iC + iR -- e o atraso vem do capacitor
+armazena energia)
+                                                            A corrente injetada se divide: parte carrega o
+Bicamada lipídica de 3 5 nm é dielétrico fino entre         capacitor (iC, existe só enquanto V muda), parte
+duas soluções iônicas -- separa cargas opostas dos          atravessa os canais (iR = V/Rm). No início, iC
+dois lados. q = C · V: para mudar o potencial em V,         domina (V ainda não mudou, V = 0); no fim, iR
+é preciso primeiro acumular carga q nas duas faces.         domina (V estabilizou, iC = 0). A transição dá a curva
+Mudar V leva tempo porque mudar q leva tempo.               exponencial.
+
+Canais = resistências em paralelo (R = 1/                   Constante de tempo  = Rm · C
+g)
+                                                            V(t) = Vfinal · (1 - e-t/). Em t = , V atinge 63%
+Cada canal é uma rotinha independente                       do valor final; em 3, 95%; em 5, 99%.  é o
+atravessando a bicamada. Somam-se condutâncias,             "relógio" da resposta de membrana a um estímulo
+não resistências: gtotal = gK + gNa + gCl. Mais canais      num ponto.  maior = membrana mais lenta --
+abertos = Rm menor. Em repouso, gK é 20× gNa --             pior para velocidade, melhor para integrar sinais
+por isso Em fica perto do EK ( -71 mV).                     temporalmente.
+
+Modelo de Ohm da membrana                                   Por que  depende de Rm e de C
+
+Todos os canais colapsam em uma única Rm                    C grande = mais carga necessária para mudar
+(resistência total) em série com uma bateria Em             V  demora mais. Rm grande = corrente não
+(representa todos os potenciais de equilíbrio). Tudo        escapa pelos canais, fica mais tempo carregando
+isso em paralelo com C (a bicamada). Força motriz           o capacitor  demora mais. Os dois efeitos
+= V - Em; corrente resistiva = (V - Em)/Rm. É               multiplicam em  = Rm · C. Por isso mielina (que
+esse circuito mínimo que governa toda a fisiologia          Rm e C) tem efeitos parcialmente cancelantes em
+passiva.                                                     -- mas não em .
+
+                                                        22
+NEBLI                                                                               RESUMINDO
+
+Condução eletrotônica = decaimento
+passivo
+Sub limiar, a corrente flui longitudinalmente pelo
+axoplasma (resistência Ri) e vaza em cada ponto
+pela Rm lateral. Quanto mais longe do ponto
+inicial, mais corrente já escapou  V1 > V2 > V3.
+Sem regeneração ativa, o sinal não viaja longe --
+eletrotônico não é PA.
+
+Constante de espaço  = (Rm/Ri)
+V(x) = Vmax · e-x/. Em x = , V cai a 37% do inicial; em
+2, 14%; em 3, 5%. Para aumentar : Rm (isolar a
+membrana lateral, menos fuga) ou Ri (engrossar a
+fibra, axoplasma mais condutor).  é o "alcance" do
+sinal passivo.
+
+Mielina maximiza  e minimiza C
+Oligodendrócitos (SNC) e células de Schwann (SNP)
+enrolam camadas de bicamada em torno do axônio
+ Rm efetivo sobe muito (corrente quase não
+escapa lateralmente) e C efetivo cai muito (placas
+do capacitor mais distantes).  cresce  condução
+saltatória entre nodos de Ranvier -- rápida e
+econômica.
+
+Desmielinização (EM, Guillain-Barré)
+inverte tudo
+EM (ataque autoimune à mielina do SNC,
+oligodendrócitos) e Guillain-Barré (ataque à
+mielina do SNP, células de Schwann) reduzem Rm e
+aumentam C   desaba  o sinal não consegue
+chegar do nodo anterior ao próximo  bloqueio
+de condução. Clinicamente: fraqueza, parestesia,
+neurite óptica. Mesmo mecanismo de base nas
+duas doenças -- fisiologia explica o sintoma.
+
+                                                                                23
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre o potencial de membrana de repouso (Em) e o que efetivamente o determina, é correto afirmar:
+
+   A) Em corresponde à média aritmética entre os potenciais de equilíbrio do Na+ e do K+ no axônio, sem
+   qualquer ponderação adicional pela permeabilidade relativa de cada íon na membrana plasmática.
+
+   B) Em é uma média ponderada dos potenciais de equilíbrio dos íons permeantes, pesada pelas
+   condutâncias relativas; no repouso, gK é muito maior que gNa, e por isso Em fica próximo de EK e
+   bem afastado de ENa.
+
+   C) Em é gerado diretamente pela bomba Na+/K+ ATPase, que ao trocar 3 Na+ por 2 K+ produz o
+   gradiente elétrico imediato; sem o ATP gasto pela bomba, o potencial de repouso desaparece em
+   milissegundos.
+
+   D) Em coincide numericamente com o potencial de Nernst do K+ porque a condutância de Na+ no
+   repouso é exatamente zero; qualquer entrada de Na+ na célula em repouso violaria a condição de
+   equilíbrio elétrico líquido.
+
+   E) Em é simplesmente a diferença ENa - EK em milivolts, valor que reflete a separação química
+   entre os dois íons; quanto maior essa diferença, mais despolarizado fica o potencial de repouso da
+   membrana.
+
+                            24
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 02 Consolidação
+
+Sobre o papel da bicamada lipídica como capacitor da membrana plasmática, é correto afirmar:
+
+   A) a bicamada armazena íons em seu interior hidrofóbico, e essa estocagem temporária de cargas no
+   meio da membrana é o que define sua capacitância elétrica no modelo de circuito da célula excitável.
+
+   B) a capacitância depende fundamentalmente do número de canais iônicos abertos na membrana, e
+   por isso varia ao longo do potencial de ação à medida que canais voltagem dependentes se abrem
+   e fecham.
+
+   C) a capacitância da membrana é definida pela relação C = V/Q (voltagem por carga), de modo que
+   membranas com voltagem maior acumulam proporcionalmente menos carga elétrica em suas duas
+   faces.
+
+   D) a bicamada separa duas soluções aquosas condutoras, atuando como dielétrico fino entre duas
+   faces de cargas opostas; pela relação C = Q/V, ela armazena carga proporcional à voltagem aplicada.
+
+   E) o papel da bicamada como capacitor é desempenhado integralmente pelas cabeças polares dos
+   fosfolipídios em contato com a água, sem qualquer contribuição mecanística do interior hidrofóbico
+   da membrana.
+
+Questão 03 Consolidação
+
+Sobre os canais iônicos como elementos resistivos do circuito da membrana, é correto afirmar:
+
+   A) cada canal aberto contribui com uma condutância g; quando vários canais abrem em paralelo, as
+   condutâncias somam (gtotal = g1 + g2 + ...), e a resistência total da membrana cai porque R = 1/g.
+
+   B) resistências em paralelo somam diretamente, de modo que Rtotal = R1 + R2 + R3; quanto mais canais
+   abertos, maior a resistência total da membrana e menor a corrente que efetivamente atravessa.
+
+   C) resistência e condutância são sinônimos no circuito da membrana; quando se diz que a condutância
+   g sobe, a resistência R sobe junto, e ambas refletem o mesmo aumento na permeabilidade ao íon
+   permeante.
+
+   D) quando Rm cai, isso significa que menos canais estão abertos, pois resistência baixa indica menos
+   "buracos na parede" para a corrente atravessar a bicamada lipídica entre o meio intra e extracelular.
+
+   E) a resistência de membrana no repouso é dominada pelos canais voltagem dependentes que se
+   abrem em condições basais, sendo os canais de vazamento de K+ uma contribuição desprezível para
+   o valor de Rm.
+
+                         25
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 04 Consolidação
+
+Em um neurônio com Em = -70 mV, uma corrente despolarizante leva o potencial de membrana a V =
+-55 mV. Sobre a variação V e a polaridade do deslocamento, é correto afirmar:
+
+   A) V = -15 mV; trata se de hiperpolarização, pois o módulo do potencial diminuiu em relação ao
+   repouso, e por convenção variação para valores mais positivos é classificada como hiperpolarizante.
+
+   B) V = +125 mV; corresponde a uma despolarização forte, calculada como a soma algébrica entre
+   o valor absoluto de Em e o valor absoluto de V, expressando o afastamento total da membrana do
+   potencial zero.
+
+   C) V = -55 mV; trata se de hiperpolarização, pois adotamos o valor de V como V diretamente,
+   considerando que o repouso pode ser tomado como zero para fins de classificação do tipo de variação.
+
+   D) V = +70 mV; corresponde a despolarização total, pois o cálculo correto subtrai V do valor absoluto
+   de Em (|-70| - |-55| seria errado, e portanto o resultado real é +70 mV nesse cenário).
+
+   E) V = V - Em = -55 - (-70) = +15 mV; trata se de despolarização, pois o potencial se tornou menos
+   negativo e se aproximou de zero, afastando se do potencial de equilíbrio de repouso.
+
+Questão 05 Consolidação
+
+Julgue os itens sobre corrente capacitiva (iC) e corrente resistiva (iR) durante um pulso de corrente
+injetado em uma célula:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a corrente capacitiva está sempre presente durante todo o pulso, mesmo quando V já atingiu o
+   plateau e dV/dt é igual a zero na fase final do estímulo aplicado.
+
+   II. no início do pulso, V mal mudou, a força motriz para os íons atravessarem os canais ainda é
+   pequena, e por isso iR é baixa nesse instante; quase toda a corrente externa vai como iC carregando o
+   capacitor.
+
+   III. a corrente total da membrana é a soma im = iC + iR; esquecer a parcela iC impede entender por
+   que a despolarização da membrana não acompanha instantaneamente o degrau de corrente injetada
+   na célula.
+
+   IV. a corrente capacitiva atravessa fisicamente os canais iônicos abertos junto com a corrente resistiva,
+   e por isso ambas dependem da abertura de canais para circular ao longo do circuito da membrana.
+
+                         26
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 06 Consolidação
+
+Sobre a constante de tempo  = RmC da membrana, é correto afirmar:
+
+   A)  corresponde à constante espacial da propagação eletrotônica e descreve até onde, em milímetros,
+   o potencial passivo consegue se propagar ao longo do axônio antes de cair a 37% do valor inicial.
+
+   B)  depende exclusivamente da resistência de membrana Rm; aumentar a capacitância da célula, sem
+   alterar Rm, não modifica o tempo característico da resposta ao pulso despolarizante aplicado.
+
+   C)  é o produto da resistência de membrana pela capacitância ( = Rm × C); quanto menor , mais
+   rápido o potencial atinge o valor final e mais rápida é a resposta passiva da membrana ao pulso.
+
+   D)  é a soma de Rm com C ( = Rm + C); quando se aumenta Rm sem alterar C, a soma cresce e a
+   resposta da membrana ao pulso despolarizante fica proporcionalmente mais lenta no tempo.
+
+   E)  menor significa resposta mais lenta da membrana, pois  funciona como um atraso característico;
+   uma membrana com  pequeno demora mais para atingir o platô após o início do pulso injetado.
+
+Questão 07 Consolidação
+
+Sobre por que a propagação eletrotônica passiva sofre decaimento ao longo da distância no axônio, é
+correto afirmar:
+
+   A) o sinal cai porque parte da corrente vaza pela membrana (pelos canais que conferem Rm finita) e
+   parte se dissipa contra a resistência interna do citoplasma (Ri); o resultado é decaimento exponencial.
+
+   B) o sinal eletrotônico não decai com a distância porque a membrana funciona como fio elétrico
+   contínuo; só o PA, que é regenerativo, sofre atenuação à medida que se propaga pelo axônio.
+
+   C) a fuga de corrente pela Rm é benéfica e amplifica o sinal ao longo do axônio, e por isso membranas
+   com Rm muito baixa (muito permeáveis) propagam o sinal eletrotônico por distâncias maiores antes
+   do decaimento.
+
+   D) resistência interna alta (Ri grande) é a condição ideal para que o sinal passivo viaje longe, pois a
+   corrente fica concentrada no eixo do axônio sem encontrar resistência no citoplasma viscoso.
+
+   E) a propagação eletrotônica é equivalente à propagação do PA, ambas com amplitude fixa e inde
+   pendência da distância; sinapses graduadas usam o mesmo mecanismo do potencial de ação ao longo
+   do axônio.
+
+                         27
+NEBLI                                                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 08 Consolidação
+
+Sobre a constante de espaço  = (Rm/Ri), julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I.  define a distância ao longo do axônio em que o potencial passivo cai para Vmax/e, ou seja, para
+aproximadamente 37% do valor inicial; aos 3 resta cerca de 5% do sinal.
+
+II.  aumenta com Rm (membrana isolante, pouco vazamento) e diminui com Ri (citoplasma resistivo,
+corrente trava); fórmula:  é a raiz quadrada da razão Rm/Ri.
+
+III.  é a constante de tempo da membrana e descreve quanto tempo leva para o potencial passivo
+atingir o platô após o início do pulso, dimensão em milissegundos.
+
+IV.  é o produto Rm × Ri; ambas as resistências contribuem multiplicativamente, e por isso o alcance
+da propagação cresce sempre que Rm ou Ri aumentam individualmente na membrana.
+
+Questão 09 Consolidação
+
+Sobre o efeito da bainha de mielina sobre a propagação do potencial entre os nodos de Ranvier, é correto
+afirmar:
+
+   A) a mielina aumenta a capacitância porque acrescenta múltiplas camadas extras de bicamada na
+   superfície do axônio, o que retarda a despolarização da membrana e atrasa a chegada do sinal ao nodo
+   seguinte.
+
+   B) a mielina aumenta o número de canais expostos ao meio extracelular na região internodal, multi
+   plicando os pontos de regeneração do PA e acelerando a propagação ao longo do axônio mielinizado
+   periférico.
+
+   C) a mielina não altera as propriedades passivas do axônio entre os nodos; sua função é puramente
+   metabólica, fornecendo precursores lipídicos à membrana axonal sem efeito sobre Rm, Ri ou capac
+   itância local.
+
+   D) a mielina engrossa o "dielétrico efetivo" da membrana axonal entre nodos, reduzindo a capacitân
+   cia local; com C menor, o capacitor carrega mais rápido ( menor) e o sinal alcança o nodo seguinte
+   em menos tempo.
+
+   E) a mielina aumenta a velocidade de propagação por reduzir o diâmetro efetivo do axônio na região
+   internodal, o que faz a corrente concentrar se no eixo e atingir o nodo seguinte com menos perda
+   lateral.
+
+                         28
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 10 Consolidação
+
+Sobre o circuito da bicamada lipídica como capacitor da membrana, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. a capacitância C é numericamente igual a V/Q (voltagem dividida por carga), de modo que uma mem
+brana com mais carga acumulada na mesma voltagem tem necessariamente capacitância menor.
+
+II. a capacitância depende fundamentalmente da área da membrana (mais área = mais C) e da espes
+sura da bicamada (mais fina = mais C); por isso a mielinização, ao engrossar o dielétrico, reduz C local.
+
+III. a corrente capacitiva (iC) atravessa fisicamente os canais iônicos, da mesma forma que a corrente
+resistiva (iR); ambas usam o mesmo caminho proteico para cruzar a membrana plasmática durante
+o pulso.
+
+IV. a relação canônica é C = Q/V; para a mesma variação de voltagem V, membranas com C maior
+precisam acumular mais carga em suas duas faces, e por isso demoram mais para mudar V no tempo.
+
+Questão 11 Integração
+
+Um neurônio é tratado com ouabaína (inibidor seletivo da Na+/K+ ATPase). Logo após a aplicação,
+observa se que o potencial de repouso da membrana permanece praticamente inalterado por vários
+minutos, mas vai despolarizando lentamente ao longo das horas seguintes. Sobre a base mecanística
+dessa observação, é correto afirmar:
+
+   A) a bomba Na+/K+ ATPase é a responsável imediata pela geração do potencial de repouso por meio
+   do bombeamento eletrogênico de íons, e por isso bloqueá la deveria abolir Em em milissegundos, e
+   não em horas como descrito no experimento.
+
+   B) a bomba mantém os gradientes de Na+ e K+ no tempo longo, mas o Em a cada instante é gerado pela
+   difusão passiva pelos canais de vazamento de K+ sem bomba, o Em só desaba quando os gradientes
+   se dissipam ao longo de horas.
+
+   C) a bomba contribui diretamente para Em apenas pelo seu componente eletrogênico (3 Na+ saem,
+   2 K+ entram), que vale isolado dezenas de milivolts e cuja abolição imediata explicaria por si só a
+   despolarização lenta observada nas horas seguintes ao bloqueio farmacológico.
+
+   D) a bomba é dispensável para o estabelecimento de Em em escala de horas porque os canais
+   voltagem dependentes de Na+ e K+ sustentam sozinhos os gradientes iônicos no repouso, com a
+   participação direta do trifosfato de adenosina sobre os canais.
+
+   E) a manutenção do Em depende exclusivamente da equação de Nernst aplicada ao K+, cujo potencial
+   de equilíbrio é fixo e independente da concentração intracelular do íon ao longo do tempo, e por isso
+   a bomba não tem qualquer papel mecanístico na sustentação prolongada do potencial.
+
+                         29
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 12 Integração
+
+Em um experimento, mede se  em dois neurônios A e B; A tem  = 5 ms, B tem  = 25 ms. Sobre o que
+essa diferença permite concluir sobre a resposta passiva das duas células a um pulso despolarizante
+idêntico, é correto afirmar:
+
+   A) A demora cinco vezes mais que B para o potencial atingir o platô;  funciona como um atraso fixo, e
+   quanto maior o valor, mais rápido o capacitor da membrana se carrega ao longo do estímulo aplicado.
+
+   B)  define a constante de espaço da propagação, e portanto B propaga o sinal por uma distância cinco
+   vezes maior que A ao longo do axônio, sem qualquer efeito sobre a velocidade temporal da resposta
+   da membrana ao pulso.
+
+   C)  depende só de Rm; como ambas as células poderiam ter Rm igual, a diferença de  não diz nada
+   sobre integração temporal, e a única conclusão segura é que B precisa ter mais canais de K+ abertos
+   no repouso.
+
+   D) B integra sinais subliminares ao longo de um tempo proporcionalmente menor que A, porque 
+   maior reduz a janela em que potenciais sinápticos sucessivos podem somar se temporalmente sobre
+   a membrana do dendrito da célula B.
+
+   E) B integra sinais por uma janela temporal mais larga que A; com  maior, o potencial decai mais
+   devagar, e PEPS sucessivos chegando dentro dessa janela conseguem somar se temporalmente e
+   atingir o limiar.
+
+                       30
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+Em registro intracelular, aplica se um pulso de corrente despolarizante constante a uma célula.
+Observa se que, no primeiro milissegundo, V mal mudou apesar da corrente externa estar entrando; só
+depois V começa a subir e estabilizar. Sobre a explicação mecanística desse atraso inicial em termos de
+iC e iR, é correto afirmar:
+
+   A) no início, V mal mudou e a força motriz para os íons atravessarem os canais é pequena, então iR é
+   baixa e quase toda a corrente externa vai como iC carregando o capacitor; à medida que V cresce, iR
+   sobe e iC cai.
+
+   B) no início, iR já é máxima porque a força motriz é grande nesse instante e toda a corrente atravessa
+   imediatamente os canais; o atraso visível no registro é apenas artefato instrumental do amplificador
+   usado no experimento e não tem significado biofísico relevante.
+
+   C) o atraso inicial reflete a saturação dos canais voltagem dependentes de Na+ na fase precoce do
+   pulso, que limita iR enquanto a corrente capacitiva flui pelas mesmas proteínas canal no mesmo
+   sentido transmembrana e satura também.
+
+   D) iC e iR atravessam ambas os canais iônicos abertos, e o atraso resulta de competição entre as duas
+   correntes pela mesma via proteica; quando iR ganha espaço, iC perde, e por isso V só sobe após o
+   equilíbrio entre as duas componentes.
+
+   E) no início, iR é alta porque há muitos canais já abertos, e iC é nula porque o capacitor da membrana
+   só começa a carregar depois que V supera o limiar; só após esse limiar a corrente capacitiva aparece e
+   o platô se estabelece.
+
+                       31
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 14 Integração
+
+Em uma célula com Em = -70 mV, aplica se um agonista de receptor GABA A, que abre canais permeáveis
+a Cl-. Sabendo que o potencial de equilíbrio do Cl- (ECl) nessa célula é aproximadamente -75 mV, o efeito
+esperado sobre o potencial de membrana e a classificação do tipo de variação são:
+
+   A) despolarização, pois a abertura de canais sempre aproxima o potencial de membrana de zero; o
+   sinal de ECl não importa, e o que define o tipo de variação é a corrente líquida transmembrana medida
+   em valor absoluto pelo experimentador.
+
+   B) hiperpolarização, pois a entrada de Na+ pelos canais GABA A traz cargas positivas para dentro da
+   célula e torna V mais negativo do que o repouso, e por isso o efeito clássico do GABA A é dito inibitório
+   no SNC do adulto.
+
+   C) hiperpolarização leve, pois Cl- entra na célula seguindo o gradiente eletroquímico que aponta para
+   dentro (já que ECl está mais negativo que Em), e essa entrada de carga negativa torna V mais próximo
+   de ECl -- V abaixo do repouso.
+
+   D) despolarização, pois GABA A é um receptor excitatório no neurônio adulto que abre canais para
+   Na+ e Ca2+ da membrana plasmática, e por isso o potencial sobe acima do repouso aproximando se do
+   limiar de disparo do PA da célula.
+
+   E) não há variação do potencial, pois quando se abrem canais para um íon o potencial necessariamente
+   fica fixo em zero por convenção; o sinal só muda se houver simultaneamente abertura de canais para
+   um cátion na mesma membrana.
+
+                       32
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+Considere a equação V(t) = V_final · (1 - exp(-t/)) que descreve a evolução temporal do potencial após o
+início de um pulso de corrente constante na membrana. Julgue:
+
+Cada item deve ser julgado de forma independente.
+
+   I. em t = , V atinge aproximadamente 63% de V_final; em t = 3, V atinge cerca de 95% do valor final;
+   o platô é assintótico e nunca alcança exatamente V_final em tempo finito.
+
+   II.  é a soma da resistência de membrana com a capacitância ( = Rm + C), de modo que aumentar
+   isoladamente Rm ou C produz o mesmo incremento dimensional no valor numérico final de  na
+   equação.
+
+   III. aumentar a capacitância da célula, mantendo Rm constante, torna a resposta passiva mais lenta
+   porque o capacitor leva mais tempo para acumular a carga necessária à variação de voltagem entre as
+   faces da membrana.
+
+   IV.  define a constante de espaço da propagação ao longo do axônio e indica em quantos milímetros
+   o sinal cai a 37% do valor inicial; é dimensão de distância, não de tempo, na equação do cabo.
+
+                       33
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 16 Integração
+
+Dois neurônios A e B têm a mesma resistência de membrana Rm, mas a célula B tem o dobro da área de
+superfície de A. Sobre o efeito esperado dessa diferença na constante de tempo  e na resposta passiva
+ao pulso despolarizante, é correto afirmar:
+
+   A)  não depende da área, apenas dos valores específicos Rm e C por unidade de área; com Rm igual,
+   A e B teriam exatamente o mesmo , e portanto a resposta passiva ao pulso seria temporalmente
+   indistinguível entre as duas células.
+
+   B) B teria  menor que A porque a maior área de superfície aumenta a quantidade de canais expostos,
+   e essa maior abertura de canais reduz a resistência total da membrana proporcionalmente à área,
+   acelerando a resposta passiva ao pulso.
+
+   C) a área da célula afeta apenas a constante de espaço , não ; com Rm e C iguais em B e A, 
+   permanece idêntico, e a única consequência funcional da diferença de área seria sobre o alcance do
+   sinal eletrotônico ao longo do dendrito.
+
+   D) B teria  maior porque a capacitância total aumenta com a área (mais bicamada = mais capacitor),
+   e como Rm em valor absoluto cai pela metade (mais canais), o produto Rm × C resulta em  maior; B
+   responde ao pulso mais lentamente que A.
+
+   E) B teria  menor porque a maior área permite que a corrente se distribua por uma superfície maior;
+   com a corrente diluída ao longo da membrana, o tempo característico de carga do capacitor cai
+   proporcionalmente à área de A para B.
+
+                       34
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 17 Integração
+
+Considere dois axônios A e B com mesma capacitância de membrana e mesma resistência axial Ri,
+mas A tem Rm cinco vezes maior que B. Sobre o efeito esperado da diferença de Rm sobre o alcance da
+propagação eletrotônica em A versus B, é correto afirmar:
+
+   A) A tem  menor que B porque membrana mais resistente bloqueia a passagem da corrente longitu
+   dinalmente; em A, a corrente trava na membrana e não consegue alcançar regiões distantes do ponto
+   inicial de injeção do pulso despolarizante.
+
+   B) A propaga o sinal por distância maior que B porque  aumenta com Rm: membrana mais resistente
+   vaza menos corrente para fora, e portanto a corrente injetada percorre uma distância maior antes de
+   decair a 37% do valor inicial.
+
+   C) A e B propagam o sinal por distâncias iguais porque  depende somente de Ri e da capacitância da
+   membrana; a resistência Rm afeta apenas a constante de tempo  e a velocidade temporal da resposta,
+   não o alcance espacial.
+
+   D) A tem  maior que B, mas só porque sua capacitância de membrana é proporcionalmente menor; o
+   efeito de Rm sobre o alcance da propagação é mediado integralmente pela alteração da capacitância
+   da bicamada do axônio.
+
+   E) A tem  maior que B pelo mesmo motivo que axônios de invertebrados são maiores: o aumento de
+   Rm reduz Ri e torna o citoplasma "mais transparente" à corrente, permitindo que ela chegue mais
+   longe na própria direção longitudinal.
+
+                       35
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 18 Integração
+
+Sobre o efeito do diâmetro do axônio na resistência axial Ri e no alcance da propagação eletrotônica, é
+correto afirmar:
+
+A) diâmetro maior aumenta Ri porque a corrente encontra mais "obstáculos citoplasmáticos" no
+axoplasma da fibra; e portanto axônios grossos teriam alcance menor e seriam ruins para conduzir
+sinal a longa distância no nervo periférico do animal.
+
+B) o diâmetro só altera Rm, sem qualquer efeito sobre Ri; o aumento do diâmetro acrescenta área
+de membrana proporcionalmente, o que reduz Rm e diminui o alcance  sem mexer na resistência
+interna do citoplasma do axônio analisado.
+
+C) diâmetro maior reduz Rm porque aumenta a área de membrana por unidade de comprimento;
+e portanto axônios grossos teriam  menor e propagariam o sinal por distância proporcionalmente
+mais curta que axônios finos da mesma fibra nervosa estudada.
+
+D) o diâmetro do axônio é irrelevante para a propagação eletrotônica passiva; a estratégia evolutiva de
+axônios gigantes em invertebrados como a lula deve se exclusivamente à maior densidade de canais
+voltagem dependentes na membrana axonal periférica.
+
+E) diâmetro maior reduz Ri porque amplia a área da seção transversal do axônio, dando mais "espaço"
+para a corrente fluir longitudinalmente no citoplasma; com Ri menor,  aumenta -- solução evolutiva
+pré mielina nos axônios gigantes da lula.
+
+                       36
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 19 Integração
+
+Em um axônio, a distância em que o potencial passivo cai a 37% do valor inicial (Vmax) é . Em uma
+fibra cujo  medido é 1,5 mm, a fração do sinal que sobrevive a uma distância de 4,5 mm a partir do ponto
+de injeção é aproximadamente:
+
+   A) 5%, porque 4,5 mm correspondem a 3; o sinal cai exponencialmente a cada  percorrido (a 37%,
+   depois 37% de 37%  14%, depois 37% de 14%  5%), e portanto resta cerca de 5% do valor inicial.
+
+   B) 0%, pois  é a distância em que o sinal cai a zero por definição; qualquer ponto além de uma
+   constante  está em região eletrotonicamente "morta" e não consegue receber nenhuma fração
+   mensurável do sinal injetado.
+
+   C) 37%, pois  define a distância em que o sinal cai a 37% e por simetria essa fração permanece
+   constante ao longo de todo o comprimento do axônio; 4,5 mm é simplesmente "longe", sem cálculo
+   adicional a fazer.
+
+   D) 33%, pois cada  percorrido subtrai um terço linear da amplitude inicial; em 3, a fração restante
+   seria a fração restante após três descontos lineares iguais sobre o valor inicial do potencial despo
+   larizante.
+
+   E) 75%, pois a propagação eletrotônica preserva a maior parte do sinal mesmo a três comprimentos
+   de ; o decaimento é levíssimo, e o axônio funciona praticamente como um fio elétrico perfeito ao
+   longo dessa distância considerada.
+
+                       37
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 20 Integração
+
+Sobre as estratégias evolutivas para aumentar a velocidade de propagação do sinal ao longo do axônio,
+considerando vertebrados mielinizados e invertebrados (como o axônio gigante da lula), é correto
+afirmar:
+
+   A) vertebrados aumentam a velocidade essencialmente pelo aumento do diâmetro axonal nos nervos
+   periféricos; a mielina é um adendo metabólico sem efeito sobre as propriedades passivas da mem
+   brana entre os nodos de Ranvier do axônio.
+
+   B) invertebrados como a lula mielinizam alguns axônios para ganhar velocidade, e os axônios
+   "gigantes" são apenas curiosidade anatômica sem função condutora; o aumento de diâmetro nesses
+   animais não tem relação com velocidade de propagação.
+
+   C) vertebrados resolveram o problema pela mielinização (reduz C e aumenta Rm entre nodos) e
+   invertebrados pela hipertrofia do diâmetro (reduz Ri); ambas as estratégias aumentam a velocidade
+   ao melhorar parâmetros passivos do axônio.
+
+   D) tanto vertebrados quanto invertebrados aumentam a velocidade pela mesma estratégia única:
+   aumentar a densidade de canais voltagem dependentes de Na+ na membrana axonal ao longo de toda
+   a sua extensão, sem alteração das propriedades passivas.
+
+   E) a velocidade de propagação não depende das propriedades passivas do axônio em nenhum dos dois
+   grupos; é definida exclusivamente pela cinética de abertura dos canais voltagem dependentes e pela
+   temperatura do meio em que o nervo está operando.
+
+                       38
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 21 Integração
+
+Em uma fibra desmielinizada por processo inflamatório (como na esclerose múltipla), os trechos antes
+mielinizados expõem canais e perdem o isolamento. Sobre o efeito esperado sobre as propriedades
+passivas locais e sobre a propagação do sinal, é correto afirmar:
+
+   A) a desmielinização aumenta a velocidade de propagação porque expõe mais canais voltagem
+   dependentes ao longo do axônio, multiplicando os pontos onde o PA pode ser regenerado e tornando
+   a condução contínua mais rápida que a saltatória prévia.
+
+   B) a desmielinização reduz C local (porque elimina camadas de membrana extras) e aumenta Rm
+   (porque o axônio fica mais "nu"); o resultado é  menor e  maior, com aceleração paradoxal da
+   condução nos trechos afetados pelo processo.
+
+   C) a desmielinização não altera as propriedades passivas locais; o que se observa clinicamente em
+   esclerose múltipla é apenas inflamação reversível dos nodos de Ranvier, sem efeito sobre Rm, capac
+   itância ou propagação eletrotônica entre nodos vizinhos.
+
+   D) a desmielinização aumenta C local (mais canais expostos, dielétrico mais fino) e reduz Rm (cor
+   rentes vazam pela membrana sem mielina); resultado:  maior,  menor, propagação mais lenta ou
+   bloqueada -- visão turva e fraqueza.
+
+   E) a desmielinização leva a hipertrofia compensatória do diâmetro do axônio ao longo dos meses; essa
+   adaptação reduz Ri e aumenta , fazendo com que o paciente recupere espontaneamente a velocidade
+   de condução prévia ao surto inflamatório.
+
+                       39
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 22 Integração
+
+Sobre os canais iônicos como resistências do circuito da membrana e o cálculo da resistência total a
+partir das condutâncias, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+   I. a relação canônica entre resistência R e condutância g de um canal é R = 1/g; quando muitos canais
+   abrem em paralelo, g sobe e R cai proporcionalmente, o que aumenta a corrente atravessando a
+   membrana para a mesma força motriz.
+
+   II. no repouso, a maior parte de Rm vem dos canais de vazamento de K+, que estão sempre abertos; os
+   canais voltagem dependentes contribuem pouco para Rm de repouso porque a maioria deles está em
+   estado fechado nessa condição.
+
+   III. quando vários canais abrem na mesma região da membrana, suas condutâncias somam direta
+   mente (gtotal = g1 + g2 + g3 + ...), porque o circuito é em paralelo; isso equivale, em termos de
+   resistências, à fórmula 1/Rtotal = 1/R1 + 1/R2 + 1/R3.
+
+   IV. as resistências dos canais somam diretamente em paralelo, com Rtotal = R1 + R2 + R3, e por isso
+   quanto mais canais abertos, maior a resistência total da membrana ao fluxo de íons no circuito da
+   célula.
+
+                       40
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 23 Integração
+
+Uma célula recebe um pulso de corrente despolarizante constante. O pesquisador registra V(t) e identi
+fica três fases: (i) início onde dV/dt é grande, (ii) fase intermediária, (iii) platô onde V estabiliza. Sobre o
+que está acontecendo com iC e iR ao longo dessas três fases do registro experimental, é correto afirmar:
+
+   A) em (i), iC e iR são ambas máximas porque a membrana está respondendo simultaneamente como
+   capacitor e resistor com plena intensidade; em (iii), no platô estável, ambas as componentes se anulam
+   simultaneamente pela ausência do estímulo.
+
+   B) em (i), dV/dt é grande, então iC = C·dV/dt domina (o capacitor está carregando rápido); em (iii), dV/
+   dt = 0, então iC = 0 e toda a corrente de membrana flui como iR pelos canais -- a transição mostra iC
+   caindo e iR crescendo.
+
+   C) em (i), iC é desprezível porque V mal mudou, e iR domina porque a força motriz já está estabilizada;
+   ao longo do pulso, iC vai aumentando gradualmente até atingir seu valor máximo apenas no platô
+   final (iii) registrado pelo experimentador.
+
+   D) iC permanece constante e diferente de zero ao longo de toda a duração do pulso, mesmo no platô
+   final (iii) em que V já estabilizou; iR é que varia ao longo do registro, crescendo progressivamente
+   desde o início (i) até estabilizar na fase (iii).
+
+   E) iC e iR atravessam os mesmos canais e por isso são sempre iguais entre si nas três fases; a única
+   diferença ao longo do registro é a magnitude absoluta de cada uma, que cresce e decresce em paralelo
+   ao longo do pulso aplicado pelo experimentador.
+
+                       41
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 24 Integração
+
+Num neurônio com dendritos longos, o potencial sináptico gerado em uma sinapse distal precisa
+"viajar" passivamente até o cone axônico, onde será integrado para disparar (ou não) o PA. Sobre o papel
+de  e  nesse trajeto e nas chances de o sinal contribuir para o disparo, é correto afirmar:
+
+   A) só  importa para que o sinal alcance o cone, e  é irrelevante para a integração; a chance de disparo
+   depende exclusivamente do alcance espacial da propagação passiva, sem qualquer participação da
+   escala temporal da resposta da membrana.
+
+   B) só  importa para a integração, e  é irrelevante; o sinal sináptico distal chega ao cone axônico com
+   amplitude integral porque os dendritos preservam o sinal eletrotônico sem decaimento ao longo de
+   toda a sua extensão espacial.
+
+   C)  e  atuam em direções opostas:  maior diminui a chance de soma temporal (porque encurta a
+   janela), e  maior diminui a chance de soma espacial (porque atenua mais o sinal); o efeito líquido seria
+   perda de integração no cone axônico.
+
+   D)  e  atuam apenas no axônio, não nos dendritos; a propagação dendrítica obedece a regras
+   diferentes baseadas em difusão química do segundo mensageiro, e por isso as constantes do circuito
+   passivo não se aplicam à árvore dendrítica.
+
+   E)  governa a janela de integração temporal (PEPS chegando próximos no tempo somam se enquanto
+   V ainda não decaiu) e  governa o alcance espacial (PEPS distantes chegam atenuados ao cone);
+   maiores  e  favorecem o disparo.
+
+                       42
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+Em um experimento de patch clamp, mede se a resistência de membrana de uma mesma célula em
+duas condições: (1) repouso e (2) após aplicação de neurotransmissor que abre canais ionotrópicos de
+Na+. Sobre o que se espera observar e a interpretação biofísica do resultado, é correto afirmar:
+
+   A) a Rm cai em (2) porque a abertura dos canais ionotrópicos aumenta a condutância total da
+   membrana; com mais "buracos na parede" (canais abertos em paralelo), a resistência total diminui e
+   a corrente para a mesma V é maior.
+
+   B) a Rm permanece igual em (1) e (2) porque a resistência de membrana é uma propriedade fixa da
+   bicamada lipídica e não depende do número de canais abertos; o que muda na ativação é apenas a
+   corrente capacitiva da célula.
+
+   C) a Rm sobe em (2) porque a abertura dos canais ionotrópicos "consome" energia da membrana,
+   e por isso a resistência efetiva ao fluxo de íons cresce; a célula fica menos responsiva a estímulos
+   despolarizantes adicionais na sequência.
+
+   D) a Rm sobe em (2) porque a entrada de Na+ aumenta a viscosidade do citoplasma na vizinhança
+   imediata da membrana, e isso é o que aparece no patch como aumento da resistência total medida na
+   configuração whole cell.
+
+   E) a Rm cai em (2), mas só porque a entrada de Na+ dilui o gradiente iônico da membrana, reduzindo
+   a força motriz para corrente; a "queda de Rm" é artefato da fórmula R = V/I e não reflete mudança no
+   número de canais abertos.
+
+                       43
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 26 Aplicação
+
+No clássico experimento com axônio gigante de lula, registros mostram que essas fibras invertebradas,
+sem mielina, alcançam velocidades de condução comparáveis às de axônios mielinizados de mamíferos,
+apesar do diâmetro ser cerca de 1000 vezes maior. A explicação biofísica para essa solução evolutiva
+pré mielina é:
+
+   A) os axônios gigantes da lula possuem uma forma rudimentar de mielina formada por células gliais
+   únicas que envolvem o axoplasma; essa mielina invertebrada reduz a capacitância da fibra e gera
+   saltos análogos aos vistos nos nodos de Ranvier dos vertebrados.
+
+   B) a velocidade comparável vem da temperatura tropical em que vivem os animais e do consequente
+   aumento da cinética dos canais voltagem dependentes de Na+ da fibra; o diâmetro grande do axônio
+   não tem efeito sobre Ri nem sobre a propagação passiva do sinal.
+
+   C) o aumento do diâmetro do axônio amplia a área da seção transversal e por isso aumenta Ri propor
+   cionalmente, mas a soma com a maior densidade de canais voltagem dependentes na fibra basta para
+   que a velocidade de condução final alcance a dos axônios mielinizados.
+
+   D) o aumento do diâmetro reduz Ri (mais área de seção transversal = mais "espaço" para a corrente
+   fluir no citoplasma), e Ri menor aumenta  (= (Rm/Ri)); maior  significa que a corrente alcança
+   regiões mais distantes em menos tempo, aumentando a velocidade.
+
+   E) a velocidade comparável é artefato dos métodos de registro usados nos experimentos da primeira
+   metade do século XX; medições modernas mostram que axônios gigantes de invertebrados conduzem
+   várias ordens de grandeza mais lentamente que axônios mielinizados.
+
+                      44
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+Em um experimento, perfusa se a face interna de um axônio com uma solução que aumenta drastica
+mente a viscosidade do axoplasma, sem alterar a composição da membrana. O que se espera observar
+sobre  e sobre o alcance da propagação eletrotônica ao longo da fibra é:
+
+   A)  aumenta porque o axoplasma viscoso "concentra" a corrente no eixo do axônio e reduz a dispersão
+   lateral; e por isso o sinal eletrotônico passa a alcançar regiões mais distantes da fibra do que em
+   condições basais de fluidez citoplasmática.
+
+   B)  diminui porque o aumento da viscosidade aumenta Ri; com Ri maior na fórmula  = (Rm/Ri),
+   a constante de espaço cai, a corrente "trava" no citoplasma e o sinal eletrotônico atinge distâncias
+   menores ao longo do axônio.
+
+   C)  permanece inalterado porque a constante de espaço depende apenas das propriedades de mem
+   brana (Rm e C) e da geometria do axônio; alterações na viscosidade do axoplasma não afetam o alcance
+   da propagação passiva ao longo da fibra perfundida.
+
+   D)  diminui, mas o motivo é a queda concomitante de Rm provocada pela viscosidade do meio interno,
+   que muda o ambiente das proteínas de membrana e abre canais espontaneamente; o aumento de Ri
+   em si é mecanisticamente irrelevante para o alcance.
+
+   E)  aumenta porque o axoplasma viscoso reduz a capacitância da membrana, e capacitância menor
+   implica  maior; o aumento de Ri seria irrelevante porque a constante de espaço depende apenas da
+   razão Rm/C, não da razão Rm/Ri.
+
+                      45
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 28 Aplicação
+
+Em uma cultura de neurônios, um pesquisador adiciona um composto que reduz pela metade a
+resistência de membrana Rm das células sem alterar a capacitância. Sobre o efeito esperado sobre a
+constante de tempo  e sobre a janela de integração temporal das células, é correto afirmar:
+
+   A)  permanece inalterado porque a redução de Rm é compensada espontaneamente pela célula nos
+   minutos seguintes ao tratamento por homeostase elétrica, e por isso a janela de integração temporal
+   das células também volta ao valor basal sem mudança.
+
+   B)  permanece inalterado porque  depende somente da capacitância; reduzir Rm pela metade não
+   tem qualquer efeito sobre o tempo característico da resposta passiva, e a única consequência funcional
+   seria sobre o valor absoluto do potencial de repouso.
+
+   C)  cai à metade porque  = Rm × C; com Rm pela metade e C constante, o produto cai pela metade, e a
+   janela em que PEPS sucessivos podem somar temporalmente fica mais curta -- integração temporal
+   prejudicada nas células tratadas.
+
+   D)  dobra porque a redução de Rm aumenta o "tempo de descarga" do capacitor; com  maior, a janela
+   de integração temporal das células fica mais longa, e PEPS sucessivos têm mais chance de somar e
+   atingir o limiar nas células tratadas.
+
+   E)  cai à metade, mas o efeito é favorável à integração temporal porque uma resposta mais rápida
+   significa que mais sinais sinápticos cabem na mesma unidade de tempo; a janela em que sinais
+   sucessivos somam fica funcionalmente mais ampla nas células tratadas pelo composto.
+
+                      46
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+Mulher, 32 anos, queixa de visão borrada e dor à movimentação do olho direito há cinco dias. Exame:
+acuidade visual reduzida no olho afetado, alteração de cores e defeito pupilar aferente relativo. Potencial
+visual evocado mostra latência prolongada no nervo óptico direito. RM com contraste evidencia placa
+desmielinizante na via óptica retrobulbar do mesmo lado. Sobre o mecanismo biofísico que conecta a
+desmielinização ao atraso medido no potencial visual evocado, é correto afirmar:
+
+   A) a desmielinização local não afeta as propriedades passivas do axônio do nervo óptico em nenhum
+   dos seus segmentos retrobulbares; a latência prolongada se explica por edema inflamatório da bainha
+   externa que comprime mecanicamente o axônio do paciente e por isso retarda a condução do sinal
+   visual nesse trajeto da via óptica.
+
+   B) a desmielinização local acelera a propagação porque expõe mais canais voltagem dependentes na
+   membrana antes coberta pela bainha; a latência prolongada do potencial visual evocado é, neste con
+   texto clínico, um achado paradoxal sem qualquer correlação mecanística direta com a placa observada
+   na ressonância magnética do paciente.
+
+   C) a desmielinização aumenta apenas Rm local (porque o axônio fica menos isolado pela bainha) e
+   reduz a capacitância da membrana axonal; com  menor e  maior, a condução acelera e o atraso
+   registrado seria atribuído a outra fibra independente do trajeto óptico afetado.
+
+   D) a desmielinização leva à hipertrofia compensatória do diâmetro do axônio na placa afetada, re
+   duzindo a resistência axial Ri; com Ri menor, a velocidade de condução aumenta e a latência registrada
+   no potencial visual evocado deveria ser menor que a normal, não maior.
+
+   E) a desmielinização local aumenta a capacitância da membrana (dielétrico mais fino) e reduz Rm
+   (correntes vazam mais facilmente); com  maior, o capacitor demora a se carregar, e com  menor,
+   a corrente alcança regiões mais próximas -- a soma das duas alterações lentifica a propagação e
+   prolonga a latência registrada no nervo óptico.
+
+                      47
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 30 Aplicação
+
+Homem, 38 anos, é admitido com fraqueza muscular ascendente progressiva iniciada nos membros
+inferiores há duas semanas após quadro gastrointestinal. Exame neurológico mostra arreflexia pro
+funda, fraqueza simétrica e parestesias distais. Eletroneuromiografia evidencia redução marcante das
+velocidades de condução nas fibras motoras periféricas, com blocos de condução em vários segmentos.
+Considerando o quadro clínico compatível com Guillain Barré (polirradiculoneurite desmielinizante
+aguda), sobre a base biofísica da redução das velocidades de condução medidas no exame, é correto
+afirmar:
+
+   A) a destruição da mielina pelos autoanticorpos expõe a membrana axonal antes coberta; isso
+   aumenta a capacitância local (dielétrico mais fino) e reduz Rm (correntes vazam pelos canais agora
+   expostos), elevando  e reduzindo  -- combinação que torna a propagação mais lenta ou a interrompe
+   (bloco) quando o sinal não alcança o próximo nodo com amplitude suficiente.
+
+   B) a Guillain Barré afeta principalmente o axoplasma, aumentando a viscosidade interna por infil
+   trado inflamatório; a lentidão de condução decorre integralmente do aumento de Ri citoplasmático,
+   sem qualquer participação da mielina periférica nem alteração da capacitância ou resistência da
+   membrana axonal nas fibras motoras.
+
+   C) a perda de mielina periférica aumenta o diâmetro efetivo do axônio nas raízes afetadas e reduz
+   Ri; o que parece lentidão da condução é, em verdade, artefato instrumental da eletroneuromiografia
+   em fibras com diâmetro alterado, sem correspondência com mudança real nas propriedades passivas
+   locais da membrana.
+
+   D) a Guillain Barré ataca seletivamente os canais voltagem dependentes de Na+ dos nodos de Ranvier,
+   deixando intacta a bainha de mielina dos trechos internodais; a lentidão decorre da cinética alterada
+   de abertura dos canais, sem qualquer participação das propriedades passivas da membrana na propa
+   gação do sinal entre nodos.
+
+   E) a desmielinização periférica reduz a capacitância da membrana axonal pela perda de camadas
+   de lipídio adjacentes ao axoplasma e aumenta Rm; com  menor e  maior, a condução acelera, e os
+   achados eletroneuromiográficos de lentidão e bloco devem ser atribuídos a outra etiologia além da
+   desmielinização aguda observada na biópsia.
+
+                      48
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que, quando se aplica um pulso de corrente quadrado em uma membrana neuronal, o
+potencial registrado não pula instantaneamente para o novo valor, mas sobe de forma gradual
+ao longo de alguns milissegundos? Que componente do circuito da membrana é responsável por
+esse atraso?
+
+    MODELO DE RESPOSTA
+
+   Porque a bicamada lipídica funciona como um capacitor: ela armazena cargas opostas
+   nos dois lados antes de qualquer movimento elétrico mudar o potencial. Quando a
+   corrente externa entra, ela se reparte em duas vias paralelas -- uma fração carrega o
+   capacitor (corrente capacitiva, iC), outra atravessa os canais (corrente resistiva, iR). No
+   instante inicial, V mal mudou e quase toda a corrente vai carregar o capacitor; só quando
+   o capacitor já tem carga acumulada é que V começa a refletir o estímulo. O tempo
+   característico desse processo é  = RmC: quanto maior a capacitância ou a resistência,
+   mais lenta a resposta.
+
+Questão Q2
+
+A constante de espaço de um axônio é dada por  = (Rm/Ri). Explique intuitivamente por que ela
+aumenta com Rm e diminui com Ri -- sem apelar para a derivação matemática, descrevendo o
+que acontece com a corrente em cada cenário.
+
+    MODELO DE RESPOSTA
+
+   Pense na corrente injetada em um ponto do axônio como dois caminhos concorrendo:
+   pode vazar transversalmente pela membrana (limitada por Rm) ou seguir longitudi
+   nalmente pelo citoplasma (limitada por Ri). Se Rm é alta, a membrana é boa isolante
+   e a corrente fica retida dentro do axônio, viajando mais longe antes de se dissipar -- 
+   aumenta. Se Ri é alta, o citoplasma resiste à passagem longitudinal e a corrente perde
+   força rapidamente ao tentar avançar, prefere escapar pela membrana --  cai. A razão
+   entre Rm e Ri define quanto da energia injetada chega longe.
+
+                             49
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Axônios de invertebrados (como o axônio gigante de lula) chegam a 1 mm de diâmetro. Axônios
+mielinizados de vertebrados raramente passam de 20 m. Por que duas estratégias tão diferentes
+resolvem o mesmo problema biológico -- propagar sinais rápido a longas distâncias?
+
+MODELO DE RESPOSTA
+
+Porque as duas atacam a mesma equação por flancos diferentes. Para aumentar a
+velocidade, é preciso aumentar  (alcance) e reduzir  (cinética da resposta). O axônio
+gigante aposta no diâmetro: seção transversal grande significa Ri muito baixa, e 
+= (Rm/Ri) sobe. Mas paga um preço enorme em volume corporal. Os vertebrados
+resolveram o problema com mielina: as camadas concêntricas de membrana de oligo
+dendrócito ou célula de Schwann aumentam Rm (mais isolamento) e diminuem C
+(dielétrico mais espesso). Resultado:  sobe pelo Rm aumentado e  cai pelo C reduzido
+-- tudo em fibras finas. É a otimização que permitiu sistemas nervosos compactos e
+densos.
+
+Questão Q4
+
+Em um paciente com esclerose múltipla, a desmielinização local em um trecho do nervo óptico
+altera as propriedades passivas daquela região. Explique a cadeia: o que muda em Rm, C,  e , e
+como esses efeitos se combinam para lentificar ou bloquear a condução do impulso bioelétrico.
+
+    MODELO DE RESPOSTA
+
+   Sem mielina, a membrana do axônio fica exposta: o número de canais voltagem
+   dependentes e de vazamento expostos por unidade de área cresce -- Rm cai. A perda das
+   camadas de mielina também reduz a espessura do dielétrico efetivo entre axoplasma e
+   extracelular -- C sobe. Os dois efeitos somam se nas constantes:  = RmC pode até ficar
+   ambíguo, mas na prática  aumenta porque o ganho em C supera a queda em Rm; já 
+   = (Rm/Ri) cai inequivocamente, porque Rm está no numerador da raiz. Resultado: o
+   capacitor demora a se carregar (resposta mais lenta) e a corrente vaza antes de alcançar
+   o próximo nodo de Ranvier. Se o sinal chega abaixo do limiar, há bloqueio de condução
+   -- daí a perda visual súbita da neurite óptica.
+
+       50
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Um aluno escreve: "A mielina aumenta a capacitância da membrana axonal porque adiciona
+muitas camadas de bicamada lipídica entre o axoplasma e o extracelular, e assim acelera a con
+dução do impulso ao tornar a despolarização mais rápida." Aponte e corrija os erros mecanísticos
+desse trecho, explicando o que a mielina de fato faz com a capacitância, com a resistência da
+membrana e por que isso acelera a condução.
+
+MODELO DE RESPOSTA
+
+O trecho contém dois erros encadeados. Primeiro: a mielina reduz a capacitância, não
+aumenta. C depende da espessura do dielétrico entre as duas placas do capacitor --
+quanto mais fino, maior C; quanto mais espesso, menor C. As camadas concêntricas
+de mielina engrossam o dielétrico efetivo, então a capacitância da região mielinizada
+cai bastante (várias ordens de grandeza em comparação à membrana nua). Segundo:
+o que acelera a condução não é "despolarização mais rápida" no sentido de C maior
+-- é o contrário, é o C menor que faz o capacitor carregar mais rápido ( = RmC, com
+C pequeno,  é pequeno). Além disso, a mielina aumenta Rm (mais isolamento), o que
+eleva  -- o sinal alcança mais longe antes de cair. A combinação  pequeno +  grande
+permite a condução saltatória: o sinal "pula" de nodo de Ranvier em nodo de Ranvier,
+em vez de despolarizar metro a metro a membrana.
+
+       51
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B  Q02 D            Q03 A     Q04 E  Q05 ECCE
+Q06 C  Q07 A            Q08 CCEC  Q09 D  Q10 ECEC
+
+INTEGRAÇÃO (Q11­Q25)    Q13 A     Q14 C  Q15 CECE
+                        Q18 E     Q19 A  Q20 C
+Q11 B  Q12 E            Q23 B     Q24 E  Q25 A
+Q16 D  Q17 B
+                        Q28 C     Q29 E  Q30 A
+Q21 D  Q22 CCCE
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 D  Q27 B
+
+                        57
+

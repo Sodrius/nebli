@@ -1,0 +1,1257 @@
+NEBLI · APOSTILA
+
+Transporte de água pelo
+epitélio intestinal
+
+Fisiologia
+
+Disciplina:    Fisiologia
+Nota de uso:
+               Estude com o slide aberto ao lado. O slide-fonte se chama 'Transporte
+Onde estudar:  de água', mas, na prática, o professor monta o aparato do transporte
+               epitelial intestinal e amarra a água como caroneira do soluto. Aqui o
+               caminho é o mesmo: entender osmose e aquaporina primeiro, depois
+               ver o enterócito polarizado que gera o gradiente de Na+ e arrasta a água
+               atrás. Não decore nomes de transportadores -- entenda qual gradiente
+               cada um persegue e por que a água segue.
+
+               Berne e Levy, Fisiologia, Cap. 1 (Movimento de íons e água) e Cap. 33
+               (Função absortiva e secretora do trato gastrointestinal). Guyton, Tratado
+               de Fisiologia Médica, Cap. 4 (Transporte de substâncias através das
+               membranas celulares) e Cap. 65 (Função secretora do canal alimentar).
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- A água, o gradiente e o canal
+       1.1 Osmose: a água persegue o soluto
+       1.2 Aquaporinas: o canal de água da membrana
+       1.3 Transcelular ou paracelular: as duas rotas pelo epitélio
+  PARTE II -- O motor: como o intestino bombeia água
+       2.1 Na+ é o eletrólito-mestre: a bomba Na/K cria tudo
+       2.2 SGLT-1 e o cotransporte: glicose pega carona, água atrás
+       2.3 Solvent drag: a consequência osmótica do transporte de soluto
+  PARTE III -- Diversidade epitelial e o que quebra
+       3.1 Epitélios leaky vs tight: a importância das tight junctions
+       3.2 Onde no intestino a água é absorvida (e por quê)
+       3.3 Quando o sistema quebra: diarreia, cólera e a engenharia da SRO
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Antes de mergulhar nas vias e nas bombas, vale fixar uma estranheza do tema: a água não é
+    "transportada" do jeito que glicose ou Na+ são. Não existe uma "bomba de água" que pega uma
+    molécula de H2O e empurra para o outro lado. A água é o líquido em que todo o resto está dissolvido
+    -- ela vai onde o conjunto de solutos a chama. E é exatamente isso que vamos destrinchar: como o
+    epitélio intestinal, manipulando soluto, consegue mover litros de água por dia sem nunca gastar
+    ATP diretamente com ela.
+    Para isso, três peças precisam estar no lugar. Primeiro, um gradiente osmótico -- diferença de
+    concentração de solutos entre dois compartimentos. Segundo, um canal de água na membrana,
+    porque a bicamada lipídica sozinha é uma péssima rota para uma molécula polar. Terceiro, um
+    epitélio polarizado que produz e mantém esse gradiente o tempo todo, gastando ATP no lugar
+    certo. O resumo segue exatamente essa ordem: osmose e aquaporina (PARTE I), o motor que
+    sustenta tudo (PARTE II), e o que muda quando o epitélio varia ou quebra (PARTE III).
+
+PARTE I -- A água, o gradiente e o canal
+
+1.1 -- Osmose: a água persegue o soluto
+Imagine dois copos separados por uma membrana que deixa água passar mas barra um soluto
+qualquer -- açúcar, por exemplo. No copo da esquerda, água pura. No copo da direita, água
+com bastante açúcar dissolvido. O que acontece com o nível dos dois copos depois de algumas
+horas?
+
+   A intuição diz "nada" -- afinal, o açúcar está preso de um lado, então a água "não tem
+motivo" para se mexer. Errado. O nível do copo da direita sobe; o da esquerda baixa. A água
+migrou do lado mais diluído para o lado mais concentrado, mesmo sem nenhum mecanismo
+ativo. Isso é a osmose.
+
+   Por que isso acontece? Pense no ponto de vista de uma molécula de água. No copo da es-
+querda (água pura), praticamente 100% das suas vizinhas são outras moléculas de água -- ela
+tem alta "liberdade" de circular. No copo da direita (água + açúcar), parte das vizinhas é açúcar,
+e a água acaba "presa" em torno das moléculas de soluto formando camadas de hidratação. A
+água da direita está, em termos termodinâmicos, em estado mais ordenado -- menos livre. A
+natureza, dada a chance, equilibra essa diferença de liberdade: água da esquerda atravessa a
+membrana, dilui o lado direito, sobe o nível e diminui a diferença. O processo só para quando
+o aumento de pressão hidrostática no copo direito (a coluna de água mais alta) compensa
+exatamente a "vontade" da água de continuar entrando. Essa pressão de compensação tem
+nome: pressão osmótica.
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   A consequência prática vem daí: a água segue o soluto. Onde houver mais soluto, a água
+tende a ir. Isso é o motor único do transporte de água através de qualquer epitélio do corpo.
+Não há exceção. Se o intestino quer absorver água da luz para o sangue, ele não precisa de uma
+"bomba de água" -- basta criar um gradiente osmótico do lado certo. Toda a engenharia que
+vamos ver na PARTE II é, no fundo, engenharia para gerar e manter esse gradiente.
+
+Resumindo até aqui: A água migra do lado com menos soluto para o lado com mais soluto, buscando
+equilibrar a "liberdade" das moléculas  osmose é o motor único do transporte de água  quem
+manipula o soluto manipula a água.
+
+Repare como o slide ilustra a via paracelular: a água acompanha íons que atravessam pelas brechas entre enterócitos.
+A força motriz é a diferença de concentração -- exatamente o que chamamos de osmose quando aplicada à água.
+
+    A água sempre vai para o lado mais concentrado
+    Estudante de primeiro semestre frequentemente inverte a direção. O reflexo é pensar "concen-
+    tração alta empurra água para fora", mas é o contrário: a água é puxada para onde tem mais soluto,
+    porque é lá que ela está em menor concentração efetiva. Truque mnemônico que ajuda: o soluto
+    "chama" a água. Onde tem mais soluto, a água é mais chamada.
+
+1.2 -- Aquaporinas: o canal de água da membrana
+A osmose explica por que a água se move. Falta entender como ela atravessa a membrana.
+E aqui surge um problema didático que tropeça muito aluno: a água é uma molécula polar, e
+a bicamada lipídica é o interior da membrana -- apolar, hidrofóbica. Em tese, atravessar não
+devia ser fácil.
+
+   Por muito tempo, a fisiologia assumiu que a água simplesmente "espreme" entre os fos-
+folipídios da bicamada por difusão lenta. Isso explica algum trânsito basal de água em qualquer
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+membrana. Mas não explicava como o rim filtra 180 litros por dia e reabsorve 178, ou como o
+intestino move até 9 litros diariamente -- esses volumes exigem um canal dedicado.
+
+   O canal foi descoberto em 1992 por Peter Agre (Nobel de 2003) e batizado de aquaporina¹.
+As aquaporinas são proteínas integrais de membrana com uma estrutura curiosa: formam um
+tetrâmero (quatro subunidades reunidas), mas cada subunidade tem seu próprio poro central
+-- então cada aquaporina é, na prática, quatro canais de água lado a lado. O poro é estreitíssimo
+e tem um formato de ampulheta, com dois resíduos de asparagina-prolina-alanina (motivo
+NPA) ocupando o gargalo no meio.
+
+   E aqui vem a parte elegante: o filtro é seletivo só para água. Como? O gargalo é estreito
+demais para íons hidratados passarem com sua camada de hidratação; tirar a camada de
+hidratação custa muita energia, então íons simplesmente não atravessam. Prótons (H+) tam-
+bém são barrados, apesar de pequenos, porque o motivo NPA orienta as moléculas de água
+dentro do poro de modo a quebrar a cadeia de hopping (o mecanismo de Grotthuss pelo qual
+prótons normalmente se propagam pela água). Ou seja: a aquaporina é uma autoestrada de
+mão única para H2O, com pedágio biológico que rejeita qualquer outro passageiro.
+
+O slide mostra as principais classes de transporte mediado por proteínas. Aquaporinas se encaixam à esquerda, como
+difusão facilitada pura -- não gastam ATP, só fornecem um caminho que a água, sozinha, não tem como abrir na
+bicamada lipídica.
+
+AQP1² AQP2³ AQP44
+
+   ¹aquaporina ­ família de proteínas integrais de membrana que forma canais seletivos para água; estão na membrana
+de praticamente todas as células do corpo
+
+   ²AQP1 ­ aquaporina 1 -- expressa em hemácias, túbulo proximal renal e endotélios; canal constitutivo, sempre ativo
+   ³AQP2 ­ aquaporina 2 -- expressa no ducto coletor renal; regulada por ADH/vasopressina, vai à membrana sob
+demanda
+   4AQP4 ­ aquaporina 4 -- expressa em astrócitos do SNC; envolvida em edema cerebral
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   Existem várias isoformas (AQP1 a AQP12 no humano), distribuídas conforme a necessidade
+do tecido. No enterócito intestinal, a AQP3 e a AQP10 dominam a membrana apical (luminal),
+enquanto a AQP3 também aparece na membrana basolateral. Esse arranjo é importante: a
+água atravessa o enterócito de cima para baixo passando por dois conjuntos de aquaporinas
+em sequência. Esse é o caminho transcelular da água -- atravessar a célula, não passar ao
+lado dela.
+
+1.3 -- Transcelular ou paracelular: as duas rotas pelo epitélio
+A célula intestinal não é uma molécula solta -- ela é parte de uma fileira de células coladas
+umas nas outras, formando um epitélio que reveste a luz do intestino. Esse epitélio é a fronteira
+entre dois compartimentos: a luz intestinal (de um lado, com o que você comeu) e o interstício
+do organismo (do outro, com o sangue e a linfa logo abaixo).
+
+   Para a água -- ou para qualquer molécula -- chegar de um compartimento ao outro, existem
+duas rotas. Pode atravessar pela célula, passando pela membrana apical, percorrendo o cito-
+plasma, e saindo pela membrana basolateral. Essa é a rota transcelular. Ou pode atravessar
+entre as células, passando pelas brechas que existem nas junções entre enterócitos vizinhos.
+Essa é a rota paracelular.
+
+O slide é o desenho-chave do tema. Note a seta vermelha de cima atravessando o enterócito (transcelular) e a seta
+lateral entre duas células (paracelular). As duas rotas existem para qualquer molécula pequena, mas cada uma tem
+suas regras.
+
+A rota transcelular depende de proteínas -- transportadores ou canais -- em cada uma das
+duas membranas. Como vimos em 1.2, no caso da água isso significa aquaporinas na apical e
+na basolateral. A rota é seletiva porque a célula escolhe que proteínas colocar em cada lado: o
+
+                                                                                 6
+NEBLI                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+enterócito decide o que entra pela luz e o que sai para o sangue. Isso vai ser fundamental na
+PARTE II, quando a célula montar o aparato que arrasta glicose, Na+ e água em direção certa.
+
+   A rota paracelular depende das junções entre células. Em particular, das tight junctions
+(junções oclusivas) -- uma faixa de proteínas que circunda cada enterócito no topo, selando
+o espaço entre células vizinhas. As tight junctions não são uma muralha impermeável; são
+mais como peneiras finas, e o tamanho dos furos varia conforme as proteínas que as formam
+(especialmente as claudinas, uma família com mais de 20 isoformas). Em regiões onde a tight
+junction é "frouxa" (epitélio leaky), passa muita coisa pelo caminho paracelular -- íons, água,
+moléculas pequenas. Em regiões onde é "apertada" (epitélio tight), passa quase nada.
+
+   E a água, qual rota usa? Depende do tecido. No duodeno e jejuno, onde as tight junctions são
+bastante leaky, a maior parte da água atravessa pela rota paracelular, arrastada por íons que
+vão pelo mesmo caminho. No cólon, onde as junções são muito mais tight, a rota dominante
+passa a ser transcelular -- exigindo aquaporinas. Voltaremos a esse detalhe na PARTE III, mas
+guarde a ideia: o epitélio escolhe qual rota privilegiar conforme a função do segmento.
+
+Resumindo até aqui: Para qualquer molécula pequena atravessar o epitélio, existem duas rotas: pela
+célula (transcelular, depende de proteína em cada membrana) ou pelas brechas entre células (paracelular,
+depende de quão leaky são as tight junctions). A escolha varia por segmento intestinal.
+
+                         MAPA CONCEITUAL
+
+                                       I
+
+                         Soluto chama, canal abre, rota define
+
+                         
+
+1.1 ­ Osmose                    1.2 ­ Canal                             1.3 ­ Rota
+
+Água segue gradiente de                                           Transcelular pela proteína;
+soluto                           Aquaporina, seletiva só a água
+                                                                         paracelular pela brecha
+
+      Temos a física e a peça molecular. Falta o motor que mantém o gradiente vivo -- PARTE II.
+
+PARTE II -- O motor: como o intestino bombeia água
+
+2.1 -- Na+ é o eletrólito-mestre: a bomba Na/K cria tudo
+Até aqui, a água parece estar "esperando alguém criar gradiente". Esse alguém é a célula do
+epitélio intestinal -- e o gradiente que ela cria é, antes de tudo, um gradiente de sódio.
+
+   Lembre da disposição do enterócito: a membrana apical (ou luminal) está virada para a luz
+intestinal; a basolateral está virada para o interstício, ao lado dos vasos. As duas membranas
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+são distintas -- têm proteínas diferentes, e essa polaridade é justamente o que permite o
+transporte direcional. Na membrana basolateral, em todos os epitélios absortivos do corpo,
+mora uma proteína protagonista: a Na/K-ATPase5.
+
+ O slide mostra a categoria do transporte ativo primário: gasta ATP diretamente, move o íon contra o gradiente. A
+ Na/K-ATPase é o exemplar canônico -- e, no enterócito, ela mora na basolateral, virada para o sangue.
+
+A bomba faz uma coisa simples e ATP-cara: a cada ciclo, ela consome 1 ATP6 e expulsa 3 Na+
+para fora da célula enquanto puxa 2 K+ para dentro. Resultado: a célula fica com pouco Na+
+dentro (cerca de 10­15 mmol/L) e o interstício fica com bastante Na+ fora (cerca de 145 mmol/L).
+Esse gradiente -- alto fora, baixo dentro -- é a moeda que vai pagar todo o resto do transporte
+epitelial.
+
+   Por que isso é tão importante? Porque, criado o gradiente, o Na+ está "ansioso" para entrar
+de volta na célula. Como uma bola no alto de uma rampa: se você der uma rota, ela desce. E ao
+descer, ela libera energia -- energia que pode ser captada para puxar outras moléculas contra
+o gradiente delas. Toda a engenharia da absorção intestinal -- glicose, aminoácidos, água,
+eletrólitos -- usa essa energia armazenada no gradiente de Na+. A Na/K-ATPase, na basolateral,
+é o motor que recarrega a bateria. Os transportadores apicais são os aparelhos que descarregam
+a bateria, e o trabalho útil é a absorção dos nutrientes.
+
+   5Na/K-ATPase ­ bomba de membrana presente em praticamente todas as células animais; consome 1 ATP para expulsar
+3 Na+ e captar 2 K+ a cada ciclo; mantém os gradientes que sustentam o potencial de membrana e o transporte secundário
+
+   6ATP ­ adenosina trifosfato -- moeda energética da célula; sua hidrólise libera energia que alimenta transporte ativo,
+contração muscular e síntese
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A bomba mora na basolateral, não na apical
+
+Confusão clássica: aluno desenha a Na/K-ATPase no topo do enterócito, virada para a luz. Não. Ela
+está na membrana voltada para o sangue. Faz sentido se você pensar no destino do Na+ absorvido:
+ele entra pela apical (descendo o gradiente) e sai pela basolateral (a bomba o joga para o interstício,
+e dali ele vai para o capilar). Se a bomba estivesse na apical, ela jogaria Na+ de volta para a luz --
+exatamente o oposto do que o intestino quer.
+
+2.2 -- SGLT-1 e o cotransporte: glicose pega carona, água atrás
+Criado o gradiente de Na+, como o enterócito o usa para absorver glicose? A resposta é o
+SGLT-17, um cotransportador na membrana apical.
+
+   O SGLT-1 é uma proteína que tem dois sítios de ligação: um para Na+ e outro para glicose.
+Ela só muda de conformação -- só faz o ciclo de transporte -- quando os dois sítios estão
+ocupados ao mesmo tempo. Como o Na+ está em concentração alta na luz e baixa dentro da
+célula, ele sempre quer entrar; e ao entrar pelo SGLT-1, arrasta a glicose junto, mesmo que a
+concentração intracelular de glicose já seja maior que a da luz. O Na+ paga a "passagem" da
+glicose contra o gradiente. Por isso o transporte chama-se ativo secundário: não gasta ATP
+diretamente, mas usa a energia que a Na/K-ATPase já pagou para criar o gradiente de Na+.
+
+O slide ilustra o transporte ativo secundário -- repare nas duas variantes: cotransporte (símporte, mesmo sentido) e
+contratransporte (antiporte, sentidos opostos). O SGLT-1 da glicose é cotransporte: Na+ e glicose entram juntos pela
+apical.
+
+   7SGLT-1 ­ cotransportador sódio-glicose tipo 1; principal transportador apical de glicose no enterócito; depende do
+gradiente de Na+ criado pela Na/K-ATPase
+
+                                                                                 9
+NEBLI                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+Dentro do enterócito, a glicose acumulada precisa sair pela basolateral para chegar ao capilar.
+Para isso, há um segundo transportador: o GLUT-28, que é uma difusão facilitada pura -- deixa
+a glicose sair a favor do gradiente (porque a concentração na célula está alta após a entrada
+pelo SGLT-1, e a do interstício está mais baixa). GLUT-2 não gasta ATP, é só um canal seletivo.
+
+   Pronto, a glicose chegou ao sangue. Mas onde entra a água? Aqui está a sacada. Quando o
+SGLT-1 mete dois Na+ e uma glicose para dentro da célula em cada ciclo, ele aumenta a concen-
+tração de soluto no citoplasma. Imediatamente, o lado de dentro da célula fica osmoticamente
+mais "puxador" que a luz -- e a água, que vimos em 1.1 que segue o soluto, entra atrás. Parte
+dela passa pela rota transcelular (via aquaporinas), parte pela paracelular (puxada pelo Na+
+que está atravessando entre as células). E quando esse pacote de Na+ + glicose + água sai pela
+basolateral, o mesmo efeito se repete no lado de fora -- a água é puxada para o interstício. Toda
+a absorção de água do intestino segue o transporte de Na+.
+
+Resumindo até aqui: Na/K-ATPase basolateral cria gradiente de Na+  SGLT-1 apical usa o gradiente
+para arrastar glicose para dentro  soluto entra, a osmose puxa a água atrás  GLUT-2 basolateral solta
+a glicose no interstício  ciclo se repete sem parar enquanto há substrato e ATP.
+
+2.3 -- Solvent drag: a consequência osmótica do transporte de soluto
+O fenômeno que acabei de descrever -- água sendo puxada por soluto que atravessa o epitélio
+-- tem nome: solvent drag, ou "arraste pelo solvente". É uma forma de pensar que tem mais
+carga didática do que parece: lembra o tempo todo que a água não tem rota independente. Ela
+é a sombra do soluto.
+
+   Para ver isso em escala temporal, pense em uma sequência típica após uma refeição rica em
+carboidratos:
+
+Cinética típica da absorção pós-refeição no jejuno
+
+1 0s     Glicose e Na+ chegam à luz após digestão do amido
+
+2 ms     SGLT-1 apical captura 2 Na+ e 1 glicose; conformação muda
+
+3 ms     Soluto liberado no citoplasma; concentração local sobe
+
+4 0,1 s  Gradiente osmótico forma-se; aquaporinas trazem água
+
+5 1s     GLUT-2 solta glicose pela basolateral; Na/K-ATPase expulsa Na+
+
+6 contínuo Capilar absorve glicose + Na+ + água; volume plasmático se mantém
+
+A magnitude impressiona: em um adulto saudável, cerca de 9 litros de fluido atravessam o
+intestino por dia (2 L de ingestão + 7 L de secreções digestivas -- saliva, suco gástrico, bile,
+suco pancreático, suco intestinal). Desses, 8,5 L são reabsorvidos no intestino delgado e mais
+400 mL no cólon, sobrando 100 mL nas fezes. Toda essa reabsorção segue o mesmo princípio:
+bombear Na+ (e cotransportar nutrientes), e a água acompanha. Nenhuma molécula de água
+
+   8GLUT-2 ­ transportador de glicose tipo 2; canal de difusão facilitada da família GLUT; presente na membrana basolat-
+eral do enterócito
+
+                                                                                10
+NEBLI                                                   ETAPA 1 -- TEXTO DIDÁTICO
+
+é "transportada ativamente" no sentido bioquímico -- toda ela é arrastada por gradientes
+osmóticos que o epitélio gera.
+
+   E aqui vale uma palavra sobre a iso-osmolaridade do fluido absorvido. Como o solvent drag
+é tão eficiente, a água acompanha o soluto quase em tempo real -- o resultado é que o fluido
+que sai do intestino para o sangue tem aproximadamente a mesma osmolaridade do plasma
+( 290 mOsm/L). Diferente do rim, que produz um filtrado e depois o concentra ou dilui, o
+intestino absorve um fluido já equilibrado. Essa é uma das razões pelas quais a desidratação
+por diarreia é tão perigosa: você não perde "água pura", perde água isotônica com o plasma --
+perde volume circulante.
+
+Reidratação oral e a engenharia da SGLT-1
+
+A Solução de Reidratação Oral (SRO) da OMS contém glicose e Na+ em proporção desenhada para
+aproveitar o SGLT-1. Mesmo quando o intestino está doente (como na cólera, em 3.3), o SGLT-1
+normalmente continua funcional -- ele não depende do canal CFTR que a toxina coleriana
+sequestra. Oferecer glicose + Na+ na proporção certa força o cotransporte, que arrasta água atrás,
+e o paciente reabsorve volume mesmo com diarreia ativa. A SRO salva milhões de vidas por ano
+com um mecanismo que cabe em duas linhas de bioquímica. Não é por acaso que o The Lancet a
+chamou de "a maior descoberta médica do século XX".
+
+                              MAPA CONCEITUAL
+
+                                            II
+
+                              Na+ paga, glicose anda, água segue
+
+                              
+
+2.1 ­ Bomba                          2.2 ­ Carona              2.3 ­ Drag
+
+Na/K-ATPase basolateral cria   SGLT-1 cotransporta com   Soluto chama, água segue por
+gradiente
+                                      glicose                   osmose
+
+      Sabemos o mecanismo. Falta entender por que ele varia tanto pelo intestino -- PARTE III.
+
+PARTE III -- Diversidade epitelial e o que quebra
+
+3.1 -- Epitélios leaky vs tight: a importância das tight junctions
+Já mencionei en passant que o intestino não é uniforme -- algumas regiões têm junções
+"frouxas" (leaky), outras "apertadas" (tight). Vale parar e olhar de perto, porque essa diferença
+muda completamente o comportamento absortivo de cada segmento.
+
+                              11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   A tight junction é uma faixa de proteínas que cinge cada enterócito no topo, na fronteira
+entre a membrana apical e a basolateral. As proteínas que a formam -- principalmente as
+claudinas (mais de 20 isoformas no humano) e a ocludina -- selam o espaço entre células
+vizinhas. Mas o selo não é absoluto: o "tamanho do furo" depende de quais claudinas estão
+expressas naquele tecido. Algumas claudinas formam canais seletivos para cátions, outras
+para ânions, outras barram quase tudo.
+
+   Quando a tight junction é leaky (muitas claudinas que abrem canais paracelulares), o epitélio
+se comporta como uma peneira: deixa passar muita água, muitos íons pequenos, mas também
+tem dificuldade em manter gradientes -- qualquer gradiente que a célula gere "vaza" pela
+paracelular. Quando a tight junction é tight (claudinas vedantes), o epitélio segura quase tudo:
+pode gerar gradientes brutais entre luz e interstício, mas absorve menos massa total porque
+tudo precisa passar pela rota transcelular (mais lenta, dependente de proteínas).
+
+O slide mostra o intestino dividido em duodeno  jejuno  íleo  cólon, com epitélio progressivamente mais tight
+da esquerda para a direita. Repare como o gradiente transepitelial (DP transepitelial) aumenta no cólon -- porque
+a rota paracelular é mais selada, a célula consegue manter diferenças maiores.
+
+A consequência funcional aparece bem em uma comparação direta dos segmentos:
+
+                                                                                12
+NEBLI                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+          Segmento             Junção      Rota dominante da     Função principal
+ Duodeno            Muito leaky                         água
+ Jejuno             Leaky
+ Íleo               Intermediário                                Diluir o quimo, ajustar
+ Cólon              Tight
+                                           Paracelular           à osmolaridade plas-
+
+                                                                 mática
+
+                                           Para- + transcelular  Absorção em massa de
+                                                                 nutrientes e água
+
+                                                                               B12 e sais biliares; o que
+                                           Transcelular crescente
+
+                                                                               sobrou de soluto
+
+                                                                               Refinar a água fi-
+                                           Transcelular (aquapor-
+
+                                                                               nal, controle por aldos-
+                                           inas)
+
+                                                                               terona
+
+Repare a lógica: o intestino delgado proximal trabalha com muita massa -- milhares de milil-
+itros, muita comida, muita água. Para dar conta do volume, ele tem epitélio leaky, permitindo
+trânsito rápido pela rota paracelular. Já o cólon trabalha com precisão -- refinando os últimos
+detalhes, controlando hormonalmente o balanço hídrico final. Para isso, precisa de epitélio
+tight, que segure gradientes grandes e responda a sinais. As duas estratégias coexistem dentro
+do mesmo tubo, separadas por alguns metros.
+
+3.2 -- Onde no intestino a água é absorvida (e por quê)
+Aprofundando a tabela acima com os números: o intestino delgado proximal (duodeno +
+jejuno) absorve cerca de 6 litros dos 9 que passam por ele diariamente. O íleo absorve mais 2
+litros. O cólon absorve os 400 mL finais. Tudo somado, 8,5 + 0,4 = 8,9 L absorvidos, 100 mL
+eliminados nas fezes.
+
+Por que a maior parte da absorção acontece tão cedo?
+
+Porque é onde está a maior concentração de soluto
+
+recém-digerido. O quimo que chega ao duodeno está
+
+cheio de glicose, aminoácidos, peptídeos pequenos,
+
+Na+ -- tudo recém-liberado pela digestão pancreática
+
+e intestinal. SGLT-1 e seus parceiros estão lá em alta
+
+densidade, captando soluto a toda velocidade. E como a
+
+junção é leaky, a água acompanha em massa pela rota
+
+paracelular.                                              Distribuição da absorção pelos segmentos.
+
+   Conforme o conteúdo desce, o gradiente vai se
+esgotando -- a glicose foi absorvida no jejuno, os
+aminoácidos também. No íleo, o que sobra é princi-
+palmente Na+ (que precisa ser recuperado), B12 e sais
+biliares (com transportadores próprios). E a tight junc-
+
+                                       13
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+tion começa a ficar mais selada, porque a célula precisa
+de mais controle sobre o que ainda há para absorver.
+
+O cólon recebe um conteúdo bastante diluído (após o íleo, ainda há cerca de 1,5 L/dia de fluido
+residual) e precisa concentrá-lo. Isso é um problema diferente: não há mais nutrientes de alta
+concentração para criar gradiente osmótico naturalmente. O cólon resolve usando um truque
+diferente: ele expressa canais de sódio sensíveis ao amilorida (ENaC) na apical, ativados pelo
+hormônio aldosterona, e bombeia Na+ para dentro mesmo na ausência de cotransporte com
+glicose. Esse Na+ cria o gradiente local, e a água segue (agora pela transcelular, via aquaporinas,
+porque a tight junction está selada). É um mecanismo mais lento, mais "caro" em ATP por
+molécula de água, mas extremamente preciso -- e regulado momento a momento pelo eixo
+renina-angiotensina-aldosterona conforme o estado de hidratação do corpo.
+
+Resumindo até aqui: Delgado proximal absorve massa ( 6 L) via leaky + cotransporte; íleo refina ( 2
+L); cólon ajusta os últimos 400 mL via ENaC + aquaporinas, controlado por aldosterona. Cada segmento
+tem o epitélio que sua função pede.
+
+3.3 -- Quando o sistema quebra: diarreia, cólera e a engenharia da SRO
+O melhor jeito de entender um sistema é ver como ele quebra. E o intestino é particularmente
+rico em modos de falha, cada um revelando uma peça do mecanismo normal.
+
+   A diarreia osmótica aparece quando algum soluto não-absorvível chega ao cólon e segura
+água por osmose. Caso clássico: paciente com deficiência de lactase9 consome leite. A lactose
+não digerida não tem transportador na membrana apical -- fica retida na luz, exerce pressão
+osmótica que segura água, e o resultado é fezes líquidas e abundantes logo após laticínios.
+O mecanismo é puramente osmose ao contrário: como o soluto não pode ser absorvido, ele
+"chama" a água para a luz em vez de para o sangue. Cessa em poucas horas se o paciente para
+de comer lactose.
+
+   A diarreia secretora é mais grave e revela um lado pouco discutido do epitélio: ele também
+secreta. Existem células nas criptas intestinais (em contraste com as células do ápice das
+vilosidades, que absorvem) que possuem na sua apical o canal CFTR10. Em condições normais,
+esse canal abre pouco -- secreção basal de Cl- para manter o muco fluido. Mas quando algo o
+ativa cronicamente, o caos se instala.
+
+   9deficiência de lactase ­ falta da enzima de borda em escova que cliva lactose em glicose e galactose; comum em
+adultos não-caucasianos
+
+   10CFTR ­ cystic fibrosis transmembrane conductance regulator; canal de cloreto regulado por AMP cíclico; mutado na
+fibrose cística; sequestrado pela toxina coleriana
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese dos pontos cruciais do tema. O slide fecha o argumento: nutrientes são absorvidos como íons ou moléculas
+pequenas, por vias e mecanismos diferentes, com a água sempre seguindo o soluto. Quebrar qualquer dessas regras
+quebra a absorção.
+
+A cólera é o exemplo brutal disso. A bactéria Vibrio cholerae produz uma toxina que entra nas
+células das criptas e ativa permanentemente uma proteína G (Gs) que estimula a adenilato
+ciclase. O resultado é AMP cíclico em altíssima concentração intracelular, que fosforila e abre
+o CFTR de forma sustentada. Resultado: a célula despeja Cl- na luz sem parar; o Na+ segue pela
+paracelular para compensar a carga; e a água, pela mesma osmose que estudamos, segue Na+
+e Cl- para a luz. O paciente perde 10­20 litros por dia em fezes líquidas. Pode morrer em horas
+de choque hipovolêmico.
+
+   E aqui entra a Solução de Reidratação Oral -- a engenharia mais elegante da medicina
+pública do século XX. Note o problema: a cólera está secretando ativamente água para a luz, via
+CFTR nas criptas. Mas o SGLT-1, no ápice das vilosidades, continua funcionando -- a toxina
+coleriana não o afeta. Se você der ao paciente uma solução com glicose e Na+ na proporção
+certa (cerca de 75 mEq/L Na, 75 mmol/L glicose), o SGLT-1 vai absorvê-los pela apical, a água vai
+seguir por solvent drag, e a absorção compensa parcialmente a secreção. O paciente reabsorve
+volume enquanto ainda está com diarreia ativa. Custa centavos por sachê. Salvou milhões de
+vidas.
+
+   Resumindo até aqui: Diarreia osmótica = soluto não-absorvível segurando água na luz. Diarreia
+   secretora = secreção anormal de Cl- pelo CFTR arrastando água para a luz. SRO bypassa o problema
+   usando o SGLT-1, que segue funcional, para reabsorver água pelo mecanismo normal de cotransporte.
+
+                                                                                15
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+                            MAPA CONCEITUAL
+
+                                         III
+
+       Junção define rota; cada segmento, seu trabalho
+
+                            
+
+3.1 ­ Junção                       3.2 ­ Mapa                     3.3 ­ Quebra
+
+Claudinas definem leaky vs   Delgado absorve massa; cólon   Doença revela o mecanismo
+tight
+                                    refina                         normal
+
+                    Três níveis -- molécula, célula, órgão -- convergem na conclusão.
+
+Conclusão integradora
+
+O transporte de água pelo epitélio intestinal é um caso clássico de fisiologia integrada em
+três níveis. No nível molecular, temos a aquaporina -- canal seletivo que permite à água
+atravessar a bicamada lipídica em velocidade compatível com o volume diário. No nível
+celular, temos o enterócito polarizado: a Na/K-ATPase basolateral cria o gradiente de Na+,
+o SGLT-1 apical usa esse gradiente para cotransportar glicose, o soluto acumulado puxa
+água por osmose. No nível do órgão, temos a diversidade segmentar -- duodeno leaky
+absorvendo massa, cólon tight refinando sob controle hormonal -- adaptada à demanda
+específica de cada região.
+O pivô conceitual que amarra tudo: a água nunca é transportada diretamente. Ela é
+sempre arrastada por gradientes osmóticos que o epitélio cria, manipulando soluto. Esse
+princípio explica por que o intestino reabsorve 99% dos 9 litros que circulam por ele
+diariamente; explica por que diarreia osmótica e secretora têm mecanismos distintos
+mas sintoma idêntico; explica por que a SRO funciona mesmo na cólera. E explica, em
+última análise, por que a engenharia fisiológica do transporte é tão econômica: criando
+gradiente de um íon, você move qualquer molécula que tenha como "pegar carona" --
+incluindo a mais abundante de todas, a água.
+Quando, mais adiante, você estudar o néfron, vai reconhecer o mesmo esquema com
+peças diferentes. Quando estudar a vesícula, idem. Quando estudar a célula coroide do
+plexo, idem. A natureza inventou o transporte epitelial uma vez, e replicou a ideia em
+toda fronteira do corpo onde precisava mover fluido.
+
+                            16
+NEBLI                                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Osmose: motor único                                      Solvent drag
+
+A água migra do compartimento menos concen- Quando o soluto entra na célula pelo SGLT-1, o
+
+trado em soluto para o mais concentrado, buscando citoplasma fica osmoticamente mais "puxador" que
+
+equilibrar a "liberdade" das moléculas. Toda a engen- a luz. A água acompanha, pelas aquaporinas (tran-
+
+haria do transporte de água do corpo se resume a scelular) e pelas brechas entre células (paracelular).
+
+manipular soluto -- onde a célula coloca o soluto, Resultado: o fluido absorvido sai isotônico ( 290
+
+a água vai atrás. Não há bomba de água ATP-depen- mOsm/L), recompondo volume plasmático em tempo
+
+dente.                                                   real.
+
+Aquaporina: canal seletivo                               Leaky vs tight
+
+Proteína integral de membrana em formato de Tight junction circunda cada enterócito. Sua com-
+
+tetrâmero, cada subunidade um poro estreito em posição em claudinas define se é peneira (leaky) ou
+
+ampulheta. Deixa passar H2O em alta velocidade mas selo (tight). Delgado proximal = leaky, trabalha com
+
+barra íons (custo da desidratação) e prótons (motivo massa. Cólon = tight, trabalha com precisão hor-
+
+NPA quebra cadeia de Grotthuss). AQP1 a AQP12 dis- monal. A escolha por segmento explica por que cada
+
+tribuídas por tecido; sem aquaporina, atravessar a parte do intestino absorve do jeito que absorve.
+
+bicamada lipídica seria lentíssimo.                      Distribuição segmentar
+
+Polaridade do enterócito                                 Dos 9 L que passam pelo intestino por dia (2 L
+
+Membrana apical (luz) e basolateral (sangue) têm ingestão + 7 L secreções digestivas), o jejuno absorve
+
+proteínas diferentes. A polaridade é o que permite 6 L pela rota paracelular leaky, o íleo absorve 2 L com
+
+transporte direcional: SGLT-1 só na apical, Na/K-AT- epitélio intermediário, e o cólon refina os 400 mL
+
+Pase só na basolateral, GLUT-2 só na basolateral. Se finais via ENaC + aquaporina, sob controle da aldos-
+
+a célula perde polaridade (ex: lesão), a absorção dire- terona. Sobram 100 mL nas fezes.
+
+cional para.                                             Diarreia osmótica
+
+Na/K-ATPase basolateral                                  Soluto não-absorvível (lactose em deficiência de
+
+Gasta 1 ATP, expulsa 3 Na+, capta 2 K+. Mantém Na+ lactase, sorbitol em chiclete dietético, MgSO4 em lax-
+
+intracelular baixo ( 12 mM) contra extracelular alto antes) chega ao cólon, segura água por osmose ao
+
+( 145 mM). Esse gradiente é a moeda que paga todo o contrário: água vai para a luz, não para o sangue.
+
+transporte secundário do epitélio. Mora só na baso- Cessa quando o paciente para de comer o soluto-
+
+lateral -- virada para o sangue, nunca para a luz.       ofensor.
+
+SGLT-1 e cotransporte                                    Cólera e CFTR
+
+   Carregador apical com dois sítios. Só transporta         Toxina coleriana ativa cronicamente a adenilato
+quando Na+ e glicose estão ligados ao mesmo              ciclase, AMPc sobe, o canal CFTR das criptas abre
+tempo. O Na+ desce o gradiente e arrasta glicose         permanentemente e despeja Cl- na luz. Na+ segue pela
+junto, mesmo contra o gradiente da glicose. É ativo      paracelular, água segue por osmose. Perda de até 20
+secundário -- não gasta ATP diretamente, mas usa a       L/dia, choque hipovolêmico em horas. Mecanismo é
+energia que a Na/K-ATPase já pagou.                      secretor, não osmótico.
+
+                                                     17
+NEBLI                                                  RESUMINDO
+
+SRO -- bypass do CFTR
+
+   Solução com glicose + Na+ na proporção fisiológica
+explora o fato de que o SGLT-1 continua funcional na
+cólera -- a toxina mexe no CFTR das criptas, não no
+SGLT-1 das vilosidades. O cotransporte arrasta água
+por solvent drag, paciente reabsorve enquanto ainda
+secreta. Salva milhões/ano com bioquímica de duas
+linhas.
+Princípio integrador
+
+   Molécula (aquaporina)  célula (gradiente de Na+)
+ órgão (epitélio leaky vs tight). Em todos os três
+níveis, o tema é o mesmo: a água é arrastada por
+gradientes que o epitélio gera manipulando soluto.
+Replica-se em néfron, vesícula, plexo coroide -- uma
+fronteira, o mesmo design.
+
+18
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Considere dois compartimentos separados por uma membrana semipermeável: o A contém
+solução de NaCl 100 mM e o B contém NaCl 50 mM. Após o sistema atingir o equilíbrio
+osmótico, é correto afirmar que:
+
+  A) a água migrou de A para B até igualar a concentração nos dois lados.
+  B) a água migrou de B para A, deixando o nível do compartimento A mais alto.
+  C) não houve movimento líquido de água por causa da impermeabilidade da membrana.
+  D) o NaCl migrou de A para B, igualando as concentrações dos dois compartimentos.
+  E) o sistema atingiu equilíbrio somente após bombeamento ativo de água.
+
+Questão 02 Consolidação
+
+Sobre osmose e seu papel no transporte de água pelo epitélio, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. a osmose move água do compartimento de menor concentração de soluto para o de maior
+  concentração.
+  II. a célula precisa gastar ATP diretamente sobre a molécula de água para movê-la pela
+  membrana.
+  III. a pressão osmótica corresponde à pressão que pararia o fluxo osmótico em uma mem-
+  brana semipermeável.
+  IV. aquaporinas são imprescindíveis para qualquer trânsito de água, pois a bicamada lipídica
+  é totalmente impermeável.
+
+                            19
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre a estrutura das aquaporinas, é correto afirmar que:
+  A) são proteínas periféricas associadas à face citosólica da membrana plasmática.
+  B) funcionam como bombas de água ATP-dependentes na membrana apical.
+  C) têm um único poro central compartilhado pelas quatro subunidades do tetrâmero.
+  D) permitem passagem tanto de água quanto de pequenos íons como Na+ e K+.
+  E) são tetrâmeros; cada subunidade tem um poro próprio com filtro NPA seletivo.
+
+Questão 04 Consolidação
+A respeito da localização e da função da Na/K-ATPase no enterócito intestinal:
+
+  A) está na membrana apical, expulsando Na+ para a luz intestinal a cada ciclo.
+  B) não tem papel relevante no enterócito; está restrita a neurônios e células musculares.
+  C) fica na basolateral; expulsa 3 Na+ e capta 2 K+ por ciclo, com 1 ATP.
+  D) está em ambas as membranas, gerando gradiente igual em apical e basolateral.
+  E) está na basolateral, mas transporta Na+ e Cl- juntos sem gastar ATP.
+
+Questão 05 Consolidação
+
+Sobre as vias transcelular e paracelular de absorção no epitélio intestinal, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. a via transcelular não depende de proteínas, pois a água atravessa diretamente a bicamada
+  lipídica.
+  II. a via paracelular passa pelo interior do enterócito, atravessando duas membranas em
+  sequência.
+  III. a permeabilidade da via paracelular é determinada pela composição das tight junctions,
+  especialmente pelas claudinas.
+  IV. a via transcelular permite à célula controlar o que entra, porque depende de proteínas
+  específicas em cada membrana.
+
+                         20
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 06 Consolidação
+
+O SGLT-1 da membrana apical do enterócito é classificado como transportador ativo se-
+cundário porque:
+
+A) usa o gradiente de Na+ da Na/K-ATPase para arrastar glicose contra o gradiente.
+B) hidrolisa ATP a cada ciclo de transporte de glicose através da membrana apical.
+C) requer ligação de cálcio intracelular para mudar de conformação durante o ciclo.
+D) funciona como antiporte, trocando glicose intracelular por sódio extracelular.
+E) permite difusão facilitada de glicose sem nenhum cosubstrato necessário.
+
+Questão 07 Consolidação
+
+Sobre o volume de fluido reabsorvido pelo intestino humano em condições normais, é correto
+afirmar que:
+
+  A) todo o fluido absorvido vem da ingestão oral, somando cerca de 2 L por dia.
+  B) o cólon absorve cerca de 7 L por dia, sendo a maior estação de reabsorção.
+  C) as secreções digestivas representam aproximadamente 0,5 L por dia.
+  D) aproximadamente 9 L circulam pelo intestino diariamente e cerca de 100 mL saem nas
+  fezes.
+  E) a maior parte do fluido reabsorvido provém do plasma filtrado pelas vilosidades.
+
+Questão 08 Consolidação
+
+Sobre solvent drag e seu papel na absorção intestinal, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. solvent drag descreve a água sendo puxada por gradiente osmótico criado pela absorção
+  de soluto.
+  II. o termo refere-se ao transporte ativo da água por bomba específica na membrana apical.
+  III. como o solvent drag é eficiente, o fluido absorvido pelo intestino sai aproximadamente
+  isotônico com o plasma.
+  IV. o solvent drag depende exclusivamente da via transcelular, pois a paracelular não conduz
+  água.
+
+                         21
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 09 Consolidação
+
+Sobre os mecanismos de diarreia osmótica e secretora, é correto afirmar que:
+
+  A) ambas são causadas por secreção anormal de Cl- pelo canal CFTR ativado por AMPc.
+  B) a diarreia osmótica cessa apenas com antibioticoterapia, mesmo retirando o agente
+  alimentar.
+  C) a osmótica vem de soluto não-absorvível retendo água; a secretora, de secreção ativa de
+  íons.
+  D) ambas dependem de inibição do SGLT-1 pelo agente causador na membrana apical.
+  E) a secretora é tipicamente mais leve que a osmótica e raramente leva à desidratação.
+
+Questão 10 Consolidação
+Sobre a Solução de Reidratação Oral (SRO) usada no tratamento da cólera, é correto afirmar que:
+
+  A) funciona porque a toxina coleriana é neutralizada quimicamente pela glicose da solução.
+  B) o SGLT-1 segue ativo na cólera; o cotransporte com Na+ arrasta água por solvent drag.
+  C) contém apenas água pura e eletrólitos; a glicose foi removida para evitar piora da diarreia.
+  D) substitui a Na/K-ATPase quimicamente quando esta é bloqueada pela toxina coleriana.
+  E) age fechando o canal CFTR diretamente na membrana apical das células das criptas.
+
+Questão 11 Integração
+
+Considere o enterócito do jejuno proximal absorvendo glicose após uma refeição. A relação
+correta entre Na/K-ATPase, SGLT-1 e movimento de água é:
+
+  A) SGLT-1 hidrolisa ATP para mover glicose; a água segue Cl- que entra pela apical.
+  B) Na/K-ATPase puxa glicose para o interstício; SGLT-1 expulsa água para a luz.
+  C) SGLT-1 e Na/K-ATPase ficam na mesma membrana, equilibrando a polaridade celular.
+  D) a água é transportada ativamente por aquaporinas que gastam ATP em cada passagem.
+  E) Na/K-ATPase basolateral mantém Na+ baixo; SGLT-1 apical cotransporta glicose; água
+  segue por osmose.
+
+                         22
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 12 Integração
+
+Em condições normais, sobre o transporte de água através do epitélio do jejuno proximal,
+julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. a maior parte da água atravessa pela rota transcelular, exclusivamente via aquaporinas
+  apicais e basolaterais.
+
+  II. parte significativa da água segue pela rota paracelular, arrastada por íons que atravessam
+  pelas tight junctions leaky.
+
+  III. o fluido absorvido tem osmolaridade aproximadamente igual à do plasma, em torno de
+  290 mOsm/L.
+
+  IV. a ausência completa de aquaporinas zeraria o transporte de água, mesmo em epitélio
+  leaky.
+
+Questão 13 Integração
+
+Um paciente apresenta mutação que reduz drasticamente a expressão de claudinas vedantes
+na tight junction do cólon. O efeito funcional mais provável é:
+
+  A) perda do gradiente osmótico transepitelial, com vazamento paracelular de água e íons.
+  B) aumento da absorção de água no cólon, por permitir mais trânsito paracelular.
+  C) estímulo da Na/K-ATPase basolateral em compensação ao defeito juncional.
+  D) reorientação do SGLT-1 para a membrana basolateral, mantendo a função.
+  E) secreção aumentada de Cl- pelo canal CFTR ativado pelo defeito.
+
+                       23
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 14 Integração
+
+Em um experimento, a Na/K-ATPase do enterócito é inibida farmacologicamente por ouabaína.
+O resultado funcional mais imediato e mais correto é:
+
+A) o SGLT-1 passa a hidrolisar ATP diretamente para compensar a perda do gradiente.
+B) a aquaporina apical fecha em resposta ao acúmulo de K+ intracelular.
+C) o cólon aumenta a secreção de Cl- para compensar a perda de Na+.
+D) o gradiente de Na+ colapsa; SGLT-1 perde força motriz; absorção de glicose e água
+despenca.
+E) a célula passa a absorver glicose pela rota paracelular para compensar.
+
+Questão 15 Integração
+
+Sobre a relação entre absorção de glicose e absorção de água no enterócito, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. a entrada de glicose pelo SGLT-1 aumenta a osmolaridade do citoplasma, puxando água
+  por aquaporinas apicais.
+  II. a glicose absorvida sai pela basolateral via GLUT-2, transportador independente de ATP.
+  III. a água também pode acompanhar o trajeto pela rota paracelular, puxada pelo Na+ que
+  atravessa as tight junctions.
+  IV. na ausência de glicose na luz intestinal, o transporte de Na+ e a absorção de água tornam-
+  se impossíveis.
+
+                       24
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 16 Integração
+
+Por que o fluido absorvido pelo intestino delgado proximal sai aproximadamente isotônico
+com o plasma, e não diluído ou concentrado em relação a ele?
+
+A) porque o jejuno tem a função de diluir o quimo antes da absorção.
+B) porque o intestino delgado controla ativamente a osmolaridade pelo eixo renina-
+angiotensina-aldosterona.
+C) porque o solvent drag é rápido o suficiente para a água acompanhar o soluto em tempo
+real.
+D) porque a tight junction filtra moléculas conforme o tamanho, ajustando a osmolaridade
+do fluido.
+E) porque a Na/K-ATPase ajusta a relação Na+/K+ do interstício para igualar à do plasma.
+
+Questão 17 Integração
+
+Considere a sequência temporal da absorção de glicose após uma refeição. A ordem mais
+correta dos eventos é:
+
+  A) glicose entra pela basolateral via SGLT-1  atravessa o citoplasma  sai pela apical via
+  GLUT-2.
+  B) SGLT-1 capta Na+ e glicose pela apical; soluto acumula; água segue por osmose; GLUT-2
+  libera glicose.
+  C) Na/K-ATPase puxa glicose pela apical  glicose sai pela basolateral por aquaporina 
+  água segue.
+  D) aquaporinas movem água primeiro  o gradiente puxa glicose passivamente pela
+  paracelular.
+  E) GLUT-2 capta glicose pela luz  SGLT-1 expulsa Na+ pela basolateral  água sai pela
+  paracelular.
+
+                       25
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 18 Integração
+
+Sobre as funções das aquaporinas em diferentes tecidos, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. a AQP2 do ducto coletor renal é constitutiva e está sempre na membrana, independente de
+  hormônio.
+  II. a AQP4 dos astrócitos do SNC tem papel relevante no edema cerebral após lesão.
+  III. todas as aquaporinas têm o mesmo grau de seletividade e diferem apenas no nível de
+  expressão.
+  IV. no enterócito, AQP3 e AQP10 dominam a apical e contribuem para a rota transcelular da
+  água.
+
+Questão 19 Integração
+
+A respeito da progressão do epitélio do duodeno ao cólon, a afirmativa correta é:
+
+  A) duodeno é tight, cólon é leaky; o gradiente transepitelial diminui ao longo do intestino.
+  B) todos os segmentos têm a mesma composição de tight junctions, diferindo apenas no
+  comprimento.
+  C) duodeno e jejuno têm epitélio tight, especializado para gerar grandes gradientes osmóti-
+  cos.
+  D) duodeno e jejuno são leaky para absorção em massa; cólon é tight, refinando sob aldos-
+  terona.
+  E) a progressão é leaky no íleo e tight nos demais segmentos, por causa da absorção de sais
+  biliares.
+
+                       26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 20 Integração
+
+A absorção de água no cólon humano em condições de desidratação depende fundamental-
+mente de:
+
+A) SGLT-1 da membrana apical, captando glicose residual e gerando gradiente osmótico para
+a água.
+B) tight junctions cada vez mais leaky, permitindo trânsito paracelular maciço de água.
+C) aumento da secreção de Cl- pelo CFTR ativado pela aldosterona, gerando gradiente
+osmótico inverso.
+D) difusão simples da água pela bicamada lipídica, sem necessidade de canais protéicos.
+E) canais ENaC apicais ativados pela aldosterona criando gradiente de Na+, com água atrás
+via aquaporinas.
+
+Questão 21 Integração
+
+A polaridade do enterócito (apical vs basolateral com proteínas diferentes em cada lado) é
+necessária para o transporte epitelial direcional porque:
+
+  A) permite SGLT-1 só na apical e Na/K-ATPase só na basolateral, gerando fluxo direcionado.
+  B) aumenta a área de membrana disponível para difusão simples da água através da bica-
+  mada.
+  C) permite que a célula expresse mais aquaporinas que outras células do corpo.
+  D) impede que tight junctions se formem entre células vizinhas, mantendo o epitélio leaky.
+  E) reduz a velocidade dos transportadores, evitando absorção excessiva de soluto.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 22 Integração
+
+Sobre o canal CFTR e seu papel na diarreia secretora da cólera, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+I. o CFTR é um canal de Na+ regulado por proteína G nas membranas basolaterais.
+II. a toxina coleriana inibe o CFTR, reduzindo a secreção de Cl- e causando obstrução
+intestinal.
+III. a toxina coleriana inativa o SGLT-1 apical, eliminando a base do tratamento com SRO.
+IV. a toxina coleriana eleva o AMPc intracelular cronicamente, abrindo o CFTR de forma
+sustentada, com secreção contínua de Cl-.
+
+Questão 23 Integração
+Um lactente com deficiência hereditária de SGLT-1 tem qual quadro mais provável?
+
+  A) hiperabsorção de glicose por aumento compensatório do GLUT-2 apical.
+  B) absorção normal de glicose pela via paracelular, sem repercussões clínicas significativas.
+  C) diarreia osmótica por glicose e galactose não-absorvidas retendo água na luz.
+  D) secreção aumentada de Cl- pelo CFTR como mecanismo compensatório.
+  E) absorção mantida porque o transporte de glicose é fundamentalmente passivo.
+
+Questão 24 Integração
+
+Em paciente com cólera grave, a perda de fluido pelas fezes é descrita classicamente como
+"água de arroz". Sobre esse fluido, é correto afirmar que ele é:
+
+  A) hipertônico em relação ao plasma, contendo proteínas absorvidas em excesso pela
+  mucosa.
+  B) aproximadamente isotônico com o plasma, refletindo perda completa de fluido extracelu-
+  lar.
+  C) hipotônico, contendo apenas água, sem eletrólitos clinicamente relevantes.
+  D) composto principalmente de bile, sem perda de eletrólitos.
+  E) estéril e sem bactérias, porque o ambiente da luz se torna ácido demais para sobrevivência.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+Sobre o porquê de a SRO funcionar bem em diarreias secretoras como a cólera, mas funcionar
+pior em diarreias osmóticas por má-absorção de carboidratos:
+
+A) a SRO contém glicose que piora qualquer diarreia osmótica por adicionar soluto não-
+absorvível.
+B) diarreias osmóticas têm origem viral e dependem de antiviral, não de SRO.
+C) a SRO é um placebo eficaz apenas pelo efeito de hidratação direta da água pela parede
+intestinal.
+D) na cólera, o SGLT-1 segue intacto e absorve glicose+Na+ em má-absorção, o açúcar não é
+seu substrato.
+E) a SRO ativa diretamente o CFTR e por isso piora qualquer condição secretora ativa.
+
+Questão 26 Aplicação
+
+Um homem de 32 anos chega ao pronto-socorro de uma região endêmica de cólera com
+diarreia volumosa "em água de arroz" há 6 horas, perdas estimadas em 8 L. Está taquicárdico,
+hipotenso, mucosas secas. A equipe inicia SRO oral por sonda, com solução padrão da OMS (75
+mEq/L Na+, 75 mmol/L glicose). Qual é o mecanismo fisiológico que justifica essa escolha em
+vez de oferecer apenas água?
+
+  A) a glicose neutraliza quimicamente a toxina coleriana, interrompendo a secreção pelo
+  CFTR.
+
+  B) a água pura seria absorvida muito lentamente pela mucosa colônica em estado de hipo-
+  volemia.
+
+  C) a glicose permite ao SGLT-1 cotransportar Na+ e arrastar água por solvent drag, mesmo
+  com CFTR ativado.
+
+  D) a glicose alimenta as bactérias coleranas, distraindo-as da produção de toxina enquanto
+  a água é reabsorvida.
+
+  E) a glicose ativa a Na/K-ATPase intracelular, aumentando o gradiente de Na+ em até 10×.
+
+                       29
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+Uma mulher de 45 anos com fibrose cística (mutação que produz CFTR defeituoso, com função
+de canal de Cl- muito reduzida) é avaliada por sintomas gastrointestinais. Considere o impacto
+da disfunção do CFTR na função intestinal e responda: qual achado intestinal é mais consis-
+tente com a fisiopatologia?
+
+A) diarreia secretora intensa por hiperativação compensatória do SGLT-1 na membrana
+apical.
+B) absorção zero de glicose, por dependência absoluta do CFTR no cotransporte intestinal.
+C) aumento da permeabilidade paracelular, com perda fecal de proteínas plasmáticas.
+D) hiperabsorção de água pelas aquaporinas, com fezes anormalmente secas mas com
+volume normal.
+E) obstipação e íleo meconial no recém-nascido por secreção deficiente, com muco viscoso
+obstrutivo.
+
+Questão 28 Aplicação
+
+Um idoso de 78 anos é internado com diarreia leve há 5 dias, sem causa infecciosa identificada.
+O exame laboratorial mostra Na+ sérico de 158 mEq/L (referência: 135­145) e o paciente está
+confuso e oligúrico. Sobre o quadro clínico e seu manejo, julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. o paciente apresenta desidratação hipertônica, pela perda de mais água que sódio nas fezes;
+  essa é uma das formas de perda diarreica, especialmente em pacientes com baixa ingesta
+  hídrica.
+
+  II. a reposição com salina hipertônica é a estratégia inicial, para igualar rapidamente o Na+
+  sérico aos valores das fezes.
+
+  III. a confusão mental neste paciente provavelmente reflete redução de volume plasmático
+  e alteração osmótica encefálica, com risco de lesão se a correção do Na+ for muito rápida.
+
+  IV. a absorção da água administrada (oral ou EV) depende, em última análise, dos mesmos
+  princípios osmóticos vistos no transporte epitelial: a água segue o soluto, não o contrário.
+
+                      30
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+Um lactente de 6 meses apresenta diarreia crônica desde o início da alimentação láctea
+materna. Estudos genéticos confirmam mutação em homozigose no gene do SGLT-1. A clínica
+esperada e seu mecanismo são:
+
+A) diarreia osmótica por glicose e galactose retendo água; melhora com frutose, via GLUT-5.
+B) absorção normal de glicose pela via paracelular, sem manifestação clínica relevante na
+infância.
+C) aumento da pressão arterial sistêmica por hiperabsorção compensatória renal de sódio.
+D) obstrução intestinal por hipersecreção de Cl- pelo canal CFTR cronicamente ativado.
+E) hipoglicemia grave por consumo intracelular acelerado da glicose absorvida residual-
+mente.
+
+Questão 30 Aplicação
+
+Em um experimento didático, um pesquisador isola um trecho de duodeno e um trecho de
+cólon humanos e mede a resistência elétrica transepitelial. O duodeno apresenta resistência
+baixa ( 50 ·cm²) e o cólon resistência alta ( 500 ·cm²). Qual conclusão é mais coerente com a
+fisiologia normal?
+
+  A) o duodeno tem epitélio tight com poucas claudinas, gerando alta resistência paracelular.
+  B) o cólon expressa mais aquaporinas, aumentando a condutância paracelular pela água.
+  C) a resistência alta do cólon indica disfunção, sendo achado anormal no humano saudável.
+  D) duodeno é leaky (junções permissivas) e cólon é tight (junções vedantes), ambos fisi-
+  ológicos.
+  E) a resistência transepitelial reflete principalmente a atividade da Na/K-ATPase, sem relação
+  com a tight junction.
+
+                      31
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+Explique por que a água atravessa o epitélio intestinal sem que exista, em nenhum
+momento, uma "bomba de água" gastando ATP diretamente sobre a molécula de H2O.
+
+    MODELO DE RESPOSTA
+
+   A água segue o soluto por osmose: vai sempre do compartimento com menos soluto
+   para o com mais soluto, tentando equilibrar a "liberdade" das moléculas. Como o ATP
+   é gasto pela Na/K-ATPase para criar e manter o gradiente de Na+, o intestino consegue
+   mover soluto contra gradiente, e a água acompanha passivamente atrás. Em outras
+   palavras: o transporte é "ativo" para o soluto e "passivo" para a água, mas o efeito líquido
+   é o mesmo -- fluido atravessa o epitélio na direção desejada, com ATP gasto apenas
+   onde realmente importa, no soluto-mestre.
+
+Questão Q2
+Descreva o papel do SGLT-1 no enterócito do jejuno proximal e explique por que sua
+atividade resulta em absorção simultânea de glicose, sódio e água.
+
+    MODELO DE RESPOSTA
+
+   O SGLT-1 é um cotransportador apical com dois sítios -- Na+ e glicose -- que só muda de
+   conformação quando ambos estão ocupados. O Na+, em baixa concentração intracelular
+   por causa da Na/K-ATPase basolateral, desce o gradiente ao entrar pela apical e arrasta
+   glicose junto, mesmo contra o gradiente. Esse soluto acumulado aumenta a osmolar-
+   idade citoplasmática, e a água segue por aquaporinas (transcelular) e pela paracelular
+   leaky. Na basolateral, GLUT-2 libera glicose e a Na/K-ATPase expulsa Na+ a água segue
+   para o interstício. Resultado: três coisas absorvidas simultaneamente, com um único
+   gasto de ATP.
+
+                             32
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Por que o duodeno e o cólon, separados por poucos metros do mesmo tubo, têm compor-
+tamentos absortivos tão diferentes em termos de volume e composição do fluido?
+
+MODELO DE RESPOSTA
+
+Os dois segmentos diferem na composição das tight junctions. O duodeno expressa
+claudinas leaky, que permitem trânsito paracelular maciço de água e íons -- ideal para
+a função do segmento, que é ajustar a osmolaridade do quimo e absorver volumes
+grandes rapidamente. O cólon expressa claudinas vedantes, junções tight, capazes de
+manter grandes gradientes osmóticos sem vazamento. Isso permite ao cólon trabalhar
+com precisão, usando ENaC apical e aquaporinas, sob controle da aldosterona, para re-
+finar os últimos mL de água conforme a necessidade sistêmica. Massa para o duodeno,
+precisão para o cólon.
+
+Questão Q4
+
+Explique, em termos celulares e moleculares, por que a Solução de Reidratação Oral
+funciona em pacientes com cólera ativa, mesmo enquanto eles continuam secretando
+água para a luz intestinal.
+
+    MODELO DE RESPOSTA
+
+   A toxina coleriana eleva o AMPc intracelular nas células das criptas, abrindo o canal
+   CFTR cronicamente e jogando Cl- na luz. O Na+ segue pela paracelular e a água segue por
+   osmose -- daí a diarreia. Mas a toxina não afeta o SGLT-1 das vilosidades. Oferecendo
+   glicose + Na+ na proporção certa, o cotransporte continua funcional: SGLT-1 captura
+   ambos pela apical, soluto acumula no citoplasma, água segue por solvent drag. A reab-
+   sorção compensa parte da secreção, e o paciente recupera volume. É bypass molecular,
+   não cura -- a diarreia continua até a toxina ser eliminada.
+
+       33
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um colega afirma: "A aquaporina é uma bomba de água que gasta ATP
+para mover H2O contra o gradiente; é por isso que o intestino consegue absorver água
+mesmo quando a luz tem alta osmolaridade -- a célula força ativamente a água a entrar."
+Aponte o que está errado e descreva o mecanismo correto.
+
+MODELO DE RESPOSTA
+
+O colega comete dois erros sobrepostos. Primeiro: aquaporina não é bomba e não gasta
+ATP. É um canal seletivo (difusão facilitada) que apenas oferece uma rota rápida para a
+água atravessar a bicamada lipídica; o sentido do fluxo depende exclusivamente do gra-
+diente osmótico imposto. Segundo: o intestino não "força ativamente a água a entrar"
+-- não existe, em fisiologia humana, transporte ativo direto da água. O que acontece é
+o oposto: a célula gasta ATP na Na/K-ATPase, cria gradiente de Na+, usa esse gradiente
+para cotransportar glicose pela SGLT-1, o soluto acumulado aumenta a osmolaridade
+do citoplasma e a água segue por osmose -- passivamente. ATP é gasto no soluto, água
+anda atrás.
+
+       34
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B  Q02 CEEC         Q03 E     Q04 C  Q05 EECC
+                        Q08 CECE  Q09 C  Q10 B
+Q06 A  Q07 D
+                        Q13 A     Q14 D  Q15 CCEC
+INTEGRAÇÃO (Q11­Q25)    Q18 ECEC  Q19 D  Q20 E
+                        Q23 C     Q24 B  Q25 D
+Q11 E  Q12 ECCE
+                        Q28 CECC  Q29 A  Q30 D
+Q16 C  Q17 B
+
+Q21 A  Q22 EEEC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C  Q27 E
+
+                        42
+

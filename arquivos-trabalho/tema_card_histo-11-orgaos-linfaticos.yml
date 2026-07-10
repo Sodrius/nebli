@@ -1,0 +1,66 @@
+slug: histo-11-orgaos-linfaticos
+titulo: "Tecido e Órgãos Linfoides: das Células à Arquitetura do Timo, Linfonodo e Baço"
+subtitulo: "Histologia"
+meta:
+  - ["Disciplina", "Histologia (UC02)"]
+  - ["Onde estudar", "Slides da aula Tecido Linfóide (UC02, Histologia, Profa. Marilene H. Lopes) · Junqueira & Carneiro, Histologia Básica, cap. Sistema Imunitário e Órgãos Linfáticos · Kierszenbaum, Histologia e Biologia Celular"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — Ninja Nerd (Lymphatic System: histology) · Boards & Beyond (Immunology › Lymph Nodes and Spleen) · Pathoma: não cobre (é patologia geral) · Sketchy: não cobre histologia pura · UWorld: ganchos clínicos (asplenia e encapsulados, DiGeorge, esferocitose)",
+      "*Dessuspender no AnKing v12* (decks sob #AK_Step1_v12::) — ordenados por completude; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #B&B::13_Immunology::01_Basic_Immunology::05_Lymph_Nodes_and_Spleen — 45 cards (linfonodo e baço: estrutura, zonas B/T, função de filtro)",
+      "*Complementa* · #FirstAid::02_Immunology::01_Lymphoid_Structures::04_Spleen — 14 cards (baço: polpa branca/vermelha, PALS, asplenia)",
+      "*Complementa* · #FirstAid::02_Immunology::01_Lymphoid_Structures::05_Thymus — 7 cards (timo: anatomia e histologia, córtex/medula)",
+      "*Mais distante* · o tecido linfoide difuso/MALT, os arranjos frouxo-denso-nodular e o corpúsculo de Hassall aparecem só de raspão nos decks Step 1 — a fonte fina é o slide da Profa. Marilene + Junqueira"]]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — As células e a arquitetura do tecido linfoide"
+        subtopicos:
+          - "Primário vs secundário; as linhagens"
+          - "Células fixas e células livres"
+          - "Frouxo, denso, nodular e o MALT"
+      - titulo: "PARTE II — Órgãos linfoides primários"
+        subtopicos:
+          - "Timo: lóbulos, córtex e medula"
+          - "Estroma epitelial e timócitos"
+          - "Barreira, Hassall e involução"
+      - titulo: "PARTE III — Órgãos linfoides secundários"
+        subtopicos:
+          - "Linfonodo: o filtro da linfa"
+          - "Baço: o filtro do sangue"
+
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "CECC"]
+    - ["04", "A"]
+    - ["05", "C"]
+    - ["06", "E"]
+    - ["07", "ECEE"]
+    - ["08", "A"]
+    - ["09", "CCEC"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "E"]
+    - ["12", "ECCE"]
+    - ["13", "B"]
+    - ["14", "D"]
+    - ["15", "CEEC"]
+    - ["16", "A"]
+    - ["17", "E"]
+    - ["18", "EECE"]
+    - ["19", "C"]
+    - ["20", "CCEE"]
+    - ["21", "B"]
+    - ["22", "ECCC"]
+    - ["23", "D"]
+    - ["24", "A"]
+    - ["25", "CEEC"]
+  aplicacao:
+    - ["26", "E"]
+    - ["27", "C"]
+    - ["28", "CEEC"]
+    - ["29", "B"]
+    - ["30", "D"]

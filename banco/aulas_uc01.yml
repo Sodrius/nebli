@@ -1,0 +1,320 @@
+# Aulas da UC01 — FMUSP, Turma 114, 2026
+# Fonte: calendário oficial recebido de Davi em 2026-05-14.
+# Cada aula vira um resumo NEBLI. O `slug` é a chave canônica usada no campo
+# `aula:` do frontmatter de cada q-XXXX.md em banco/questoes/.
+#
+# Regra do QUESTIONADOR (Etapa 4):
+#   Para temas de UC01, filtrar banco por `aula: <slug>` (filtro exato).
+#   Para temas de outras UCs, continuar com grep amplo até a classificação
+#   chegar nelas (ver CLAUDE.md > "Regras canônicas do QUESTIONADOR" > Etapa 4).
+#
+# Convenção de slug:
+#   [disciplina-abrev]-[numero-da-aula-na-disciplina]-[tema-curto]
+#   disciplinas: bioq | fisio | biocel | biomol
+#   numero: o que está entre parênteses no calendário oficial (ex: "Bioquímica (5)" → 05)
+#   tema-curto: 2–4 palavras kebab-case
+#
+# Aulas com 2 partes (ex: Hemoglobina I/II) ganham sufixo "a"/"b" no número.
+
+uc: UC01
+turma: 114
+ano: 2026
+total_aulas: 41
+
+aulas:
+  # =================================================================
+  # P1 — ESTRUTURA
+  # =================================================================
+  - slug: bioq-01-reacoes-quimicas
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 1
+    titulo: "Reações químicas: espontaneidade e cinética"
+    docente: FG
+
+  - slug: fisio-01-introducao
+    disciplina: Fisiologia
+    prova: P1
+    ordem: 2
+    titulo: "Introdução à Fisiologia: compartimentos e homeostase"
+    docente: RDP
+
+  - slug: biocel-01-membrana-bicamada
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 3
+    titulo: "Estrutura da membrana: bicamada e proteínas"
+    docente: FO/FS/FA
+
+  - slug: bioq-02-ph-tampoes
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 4
+    titulo: "pH e tampões"
+    docente: FG
+
+  - slug: bioq-03-lipideos
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 5
+    titulo: "Estrutura de lipídeos; Integração básico-clínica: Síndrome do desconforto respiratório"
+    docente: FG+LO
+
+  - slug: bioq-04-aminoacidos
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 6
+    titulo: "Química e estrutura de aminoácidos"
+    docente: FG
+
+  - slug: fisio-02-transporte-membrana
+    disciplina: Fisiologia
+    prova: P1
+    ordem: 7
+    titulo: "Sistemas de transporte na membrana"
+    docente: RDP+LO
+
+  - slug: bioq-05-proteinas-estrutura
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 8
+    titulo: "Estrutura de proteínas I: estrutura secundária, terciária e quaternária"
+    docente: FG
+
+  - slug: bioq-06-agregacao-proteinas
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 9
+    titulo: "Integração básico-clínica: Doenças associadas à agregação de proteínas"
+    docente: FG+LO
+
+  - slug: biocel-02-tecnicas-citoesqueleto
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 10
+    titulo: "Introdução às técnicas de Biologia Celular — Construção da célula: citoesqueleto"
+    docente: FS
+
+  - slug: bioq-07-purificacao-proteinas
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 11
+    titulo: "Purificação de proteínas"
+    docente: FG
+
+  - slug: bioq-08a-hemoglobina-I
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 12
+    titulo: "Hemoglobina: relação entre estrutura e função de uma proteína I"
+    docente: FG
+
+  - slug: bioq-08b-hemoglobina-II
+    disciplina: Bioquímica
+    prova: P1
+    ordem: 13
+    titulo: "Hemoglobina: relação entre estrutura e função de uma proteína II"
+    docente: FG
+
+  - slug: biocel-03-compartimentos-I
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 14
+    titulo: "Compartimentos intracelulares I"
+    docente: PColtri
+
+  - slug: fisio-03-potencial-repouso
+    disciplina: Fisiologia
+    prova: P1
+    ordem: 15
+    titulo: "Potencial de repouso da membrana"
+    docente: RDP
+
+  - slug: biocel-04-compartimentos-II
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 16
+    titulo: "Compartimentos intracelulares II"
+    docente: PColtri
+
+  - slug: fisio-04-propriedades-passivas
+    disciplina: Fisiologia
+    prova: P1
+    ordem: 17
+    titulo: "Propriedades passivas da membrana"
+    docente: RDP
+
+  - slug: biocel-05-compartimentos-III
+    disciplina: Biologia Celular
+    prova: P1
+    ordem: 18
+    titulo: "Compartimentos intracelulares III"
+    docente: PColtri
+
+  # =================================================================
+  # P2 — FUNÇÃO 1
+  # =================================================================
+  - slug: fisio-05-potencial-acao
+    disciplina: Fisiologia
+    prova: P2
+    ordem: 19
+    titulo: "Potencial de ação: gênese e propagação"
+    docente: RDP
+
+  - slug: bioq-10-enzimas-I-cinetica
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 20
+    titulo: "Enzimas I: cinética e mecanismo"
+    docente: MHG
+    notas: "Davi marcou no calendário como ÓTIMO RESUMO"
+
+  - slug: bioq-11-enzimas-II-regulacao
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 21
+    titulo: "Enzimas II: inibição e regulação"
+    docente: MHG
+
+  - slug: bioq-12-cinetica-enzimatica-lab
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 22
+    titulo: "Laboratório: cinética enzimática"
+    docente: MHG
+
+  - slug: fisio-06-transmissao-sinaptica
+    disciplina: Fisiologia
+    prova: P2
+    ordem: 23
+    titulo: "Transmissão sináptica"
+    docente: RDP
+
+  - slug: fisio-07-sinalizacao-I
+    disciplina: Fisiologia
+    prova: P2
+    ordem: 24
+    titulo: "Princípios da sinalização celular I"
+    docente: RDP
+
+  - slug: bioq-13-carboidratos
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 25
+    titulo: "Estrutura e função de carboidratos"
+    docente: RDP+LO
+
+  - slug: fisio-08-sinalizacao-II
+    disciplina: Fisiologia
+    prova: P2
+    ordem: 26
+    titulo: "Princípios da sinalização celular II"
+    docente: RDP+LO
+
+  - slug: bioq-14-introducao-metabolismo
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 27
+    titulo: "Introdução ao metabolismo"
+    docente: MHG
+
+  - slug: bioq-15-glicolise
+    disciplina: Bioquímica
+    prova: P2
+    ordem: 28
+    titulo: "Glicólise"
+    docente: MHG
+
+  # =================================================================
+  # P3 — FUNÇÃO 2 / MOLECULAR
+  # =================================================================
+  - slug: bioq-16-gliconeogenese
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 29
+    titulo: "Gliconeogênese; Integração básico-clínica: Deficiência de G6Pase"
+    docente: MHG+LO
+
+  - slug: fisio-09-transporte-agua
+    disciplina: Fisiologia
+    prova: P3
+    ordem: 30
+    titulo: "Transporte de água"
+    docente: FA
+
+  - slug: bioq-17-ciclo-krebs-TE-I
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 31
+    titulo: "Ciclo dos ácidos tricarboxílicos. Transporte de elétrons I"
+    docente: MHG
+
+  - slug: biomol-20-acidos-nucleicos
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 32
+    titulo: "Estrutura dos ácidos nucleicos"
+    docente: PC
+
+  - slug: biomol-21-replicacao-dna
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 33
+    titulo: "Replicação do DNA"
+    docente: PC
+
+  - slug: biomol-22-transcricao
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 34
+    titulo: "Transcrição"
+    docente: PC
+
+  - slug: bioq-19-simulacao-mitocondrial
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 35
+    titulo: "Prática: simulação da função mitocondrial"
+    docente: MHG
+
+  - slug: biomol-23-traducao
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 36
+    titulo: "Tradução e código genético"
+    docente: PC
+
+  - slug: biomol-24-regulacao-expressao
+    disciplina: Biologia Molecular
+    prova: P3
+    ordem: 37
+    titulo: "Regulação da expressão gênica"
+    docente: PC
+
+  - slug: biocel-06-nucleo-interfasico
+    disciplina: Biologia Celular
+    prova: P3
+    ordem: 38
+    titulo: "Núcleo interfásico"
+    docente: FS
+
+  - slug: bioq-18-transporte-eletrons-II
+    disciplina: Bioquímica
+    prova: P3
+    ordem: 39
+    titulo: "Transporte de elétrons II; Integração básico-clínica: Deficiência de coenzima Q10"
+    docente: MHG+LO
+
+  - slug: biocel-07-divisao-celular
+    disciplina: Biologia Celular
+    prova: P3
+    ordem: 40
+    titulo: "Divisão celular, células interfásicas e mitóticas (Cerimônia do Avental)"
+    docente: NC
+
+  - slug: biocel-08-morte-celular
+    disciplina: Biologia Celular
+    prova: P3
+    ordem: 41
+    titulo: "Morte celular"
+    docente: FO

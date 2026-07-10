@@ -1,0 +1,19 @@
+# checklist-alvo bioq-glicogenio — fonte: E1 (typst-build/bioq-glicogenio.pdf)
+# formato: id\tfrase-alvo\ttermos regex (raízes de tag AnKing, específicas p/ evitar ruído)
+1.1	Por que polimerizar: problema osmótico (glicose livre puxa água; glicogênio conta como 1 partícula)	glycogen
+1.2	Árvore ramificada: extremidades redutora vs não-redutoras; ramos = velocidade; ligações alfa-1,4 e alfa-1,6	glycogen|branching_enzyme
+1.3	Fígado (tampão da glicemia, exporta) vs músculo (egoísta, consumo próprio)	glycogen
+2.1	Glicogenólise: fosforilase usa fosfato (fosforólise) e libera glicose-1-fosfato; economiza 1 ATP	phosphorylase|glycogenolysis
+2.2	Enzima desramificadora bifuncional: transferase + alfa-1,6-glicosidase	debranch|glucosidase
+2.3	Glicose-6-fosfatase existe no fígado/rim mas não no músculo — decide o destino da G6P	glucose.?6.?phosphatase|von.?gierke
+2.4	Fosfoglicomutase move fosfato do C1 para o C6 (G1P para G6P)	phosphoglucomutase
+2.5	Glicogênese: glicose ativada como UDP-glicose (via UTP; Leloir)	udp.?glucose
+2.6	Glicogênio sintase alonga por ligação alfa-1,4; precisa de primer	glycogen_synthase
+2.7	Glicogenina: primer que se autoglicosila e dá o núcleo inicial	glycogenin
+2.8	Enzima ramificadora cria as ligações alfa-1,6 (ramos)	branching_enzyme
+2.9	Custo de 2 ATP por glicose incorporada (hidrólise irreversível do pirofosfato)	glycogenesis|glycogen
+3.1	Regulação alostérica: músculo lê AMP (ativa fosforilase), fígado lê glicose; ATP/G6P inibem	allosteric|phosphorylase
+3.2	Cascata do glucagon/epinefrina: GPCR → adenilil-ciclase → cAMP → PKA → fosforilase quinase; amplificação	glucagon|epinephrine|adenylyl
+3.3	Fosforilação recíproca: um fosfato ativa fosforilase e inativa sintase (nunca correm juntas)	phosphorylase|glycogen_synthase
+3.4	Insulina → PP1 desfosforila (inverte); fosfodiesterase degrada cAMP	phosphodiesterase|protein_phosphatase
+3.5	Glicogenoses: von Gierke (I, G6Pase), Pompe (II, maltase ácida), Cori (III, desramificadora), McArdle (V, fosforilase muscular)	von.?gierke|pompe|mcardle|glycogen_storage|storage_disease

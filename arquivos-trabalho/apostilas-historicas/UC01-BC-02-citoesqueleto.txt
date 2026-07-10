@@ -1,0 +1,1287 @@
+NEBLI · APOSTILA
+
+Citoesqueleto
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Estude com o slide aberto. Antes de decorar nomes, entenda o porquê
+               de cada propriedade -- o que cada sistema do citoesqueleto precisa
+Onde estudar:  fazer e como sua arquitetura resolve isso.
+               Alberts -- Molecular Biology of the Cell, 6ª ed, Cap. 16 (Cytoskeleton).
+               Junqueira & Carneiro -- Biologia Celular e Molecular, 9ª ed, Cap. 7.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Filamentos Intermediários: a malha estrutural
+       1.1 Estrutura e propriedade mecânica
+       1.2 Famílias por tecido
+       1.3 Conexão e doença
+  PARTE II -- Microtúbulos: rodovias dinâmicas e polares
+       2.1 Estrutura e nucleação
+       2.2 Instabilidade dinâmica e drogas
+       2.3 Motoras, tráfego e cílios
+  PARTE III -- Actina e movimento celular
+       3.1 Estrutura, polaridade e dinâmica
+       3.2 Córtex, migração e fagocitose
+       3.3 Miosinas e contração
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Você já sabe que a membrana plasmática separa o dentro do fora. Mas, dentro da célula, quem
+    dá forma a tudo isso? Quem decide se a célula vai ser redondinha como um eritrócito, achatada
+    como um fibroblasto ou com longos prolongamentos como um neurônio? A resposta está no
+    citoesqueleto -- uma rede tridimensional de filamentos proteicos que não só sustenta a célula
+    mecanicamente, mas organiza o tráfego interno, viabiliza a divisão celular e gera movimento.
+    O citoesqueleto é composto por três sistemas distintos, com diâmetros, composições e funções
+    diferentes. Os filamentos intermediários (10 nm) são os mais resistentes à tração e formam a
+    malha estrutural dos tecidos. Os microtúbulos (25 nm) são rígidos, polares e funcionam como
+    trilhos para proteínas motoras. Os filamentos de actina (7 nm) são os mais finos e dinâmicos,
+    responsáveis pela forma da borda celular e pela contração muscular. Cada um tem suas regras, e
+    entendê-las separadamente é o primeiro passo para entender como eles trabalham juntos.
+    Prepare-se para encontrar algumas armadilhas clássicas ao longo do caminho -- o tipo de con
+    fusão que cai em prova precisamente porque os três sistemas parecem similares mas obedecem
+    a lógicas diferentes.
+
+PARTE I -- Filamentos Intermediários: a malha estrutural
+
+1.1 -- Estrutura e propriedade mecânica
+Imagine que você precisa projetar um material que suporte tração sem quebrar -- o tipo de
+resistência que um cabo de aço tem, não a rigidez de uma barra de metal. É exatamente esse
+problema que os filamentos intermediários resolvem na célula. Com 10 nm de diâmetro, eles
+ficam no meio entre os microtúbulos (25 nm) e os filamentos de actina (7 nm), e é o seu modo
+de montagem que explica por que eles são tão resistentes.
+
+   A unidade de construção é um monômero fibroso1, não uma proteína globular como no
+caso da actina ou tubulina. Dois monômeros se enrolam um ao redor do outro formando um
+dímero; dois dímeros se alinham em orientação antiparalela formando um tetrâmero; vários
+tetrâmeros se empilham lateralmente e torcem, formando o filamento maduro de 10 nm com
+8 protofilamentos em seção transversal.
+
+   Resumindo até aqui: Monômero fibroso  dímero em espiral  tetrâmero antiparalelo  filamento
+   de 10 nm. A orientação antiparalela dos dímeros é o que torna o filamento não-polarizado -- ao
+   contrário de actina e microtúbulos, não há extremidade "+" ou "-".
+
+   1monômero fibroso ­ proteína alongada com domínio central de alfa-hélice que permite o enrolamento com outros
+monômeros em superespiral
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+A propriedade antiparalela traz uma consequência crucial: os filamentos intermediários não
+têm polaridade. Isso significa que nenhuma proteína motora consegue caminhar sobre eles.
+Eles não são trilhos -- são cabos. Cumprem função puramente mecânica e estrutural.
+
+   Outra característica importante é que eles não hidrolisam ATP2 nem GTP3 para polimerizar.
+A montagem é espontânea, conduzida por interações hidrofóbicas e eletrostáticas entre os
+monômeros. Isso os torna muito mais estáveis e duráveis que os outros dois sistemas --
+resistem a soluções salinas concentradas e detergentes não-iônicos que desmontariam actina
+e microtúbulos em segundos.
+
+Os três filamentos do citoesqueleto em escala comparativa: 7 nm (actina), 10 nm (filamentos intermediários) e 25
+nm (microtúbulos). Repare que o filamento intermediário fica literalmente no meio dos outros dois.
+
+2ATP ­ adenosina trifosfato -- moeda energética universal da célula
+3GTP ­ guanosina trifosfato -- nucleotídeo que controla a dinâmica dos microtúbulos
+
+                                                                              4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Estrutura de montagem dos filamentos intermediários: dímeros em espiral antiparalela formam tetrâmeros que se
+agrupam lateralmente até o filamento final de 10 nm.
+
+    Síntese 1.1 -- Os filamentos intermediários são os mais resistentes mecanicamente, construídos
+    por sobreposição antiparalela de dímeros em espiral. Sem polaridade, sem motor, sem ATP/GTP:
+    são cabos estruturais permanentes.
+
+1.2 -- Famílias por tecido
+Agora que você entende a lógica construtiva dos filamentos intermediários, a próxima per
+gunta é: quais proteínas formam esses filamentos? A resposta não é única -- existem famílias
+diferentes, expressas de forma tecido-específica. O princípio geral é que cada tecido usa a
+família de filamento intermediário mais adequada às suas demandas mecânicas específi
+cas. A composição define as propriedades: queratinas em células epiteliais, que precisam de
+resistência à pressão e atrito; vimentina em células mesenquimais mais móveis; laminas nas
+células do núcleo, que precisam de rigidez para proteger o DNA4.
+
+   4DNA ­ ácido desoxirribonucleico -- portador da informação genética
+                                                                                 5
+NEBLI                                                           ETAPA 1 -- TEXTO DIDÁTICO
+
+Família          Composição principal     Localização tecidual  Função característica
+
+Laminas          Laminas A, B e C         Núcleo -- TODOS os    Sustentação da enve
+                                               tipos celulares  lope nuclear; organi
+                                                                 zação da cromatina
+
+Vimentina        Vimentina                Células de origem Resistência mecânica
+
+                                          mesenquimal (fi em células que mi
+
+                                          broblastos, células   gram
+
+                                          endoteliais)
+
+Desmina          Desmina                  Músculo esquelético, Ancora sarcômeros
+
+                                          cardíaco e liso       ao sarcolema; trans
+
+                                                                mite força
+
+GFAP5            Proteína glial fibrilar  Astrócitos (sistema             Susten
+                            ácida                  nervoso)     tação mecânica dos
+
+                                                                    processos gliais
+
+Neurofilamentos  NF-L, NF-M, NF-H         Axônios de neurônios  Determinam o calibre
+                                                                axonal  velocidade
+
+                                                                      de condução
+
+Queratinas       Pares ácido+básico Células epiteliais, un Resistência ao atrito,
+
+                 (20 tipos)               has, cabelos          pressão e deformação
+
+Um detalhe que vale guardar: as laminas nucleares merecem atenção especial porque estão
+presentes em todas as células nucleadas -- não são tecido-específicas. Elas formam a lâmina
+nuclear, uma rede logo abaixo da membrana interna do envelope nuclear, e servem de âncora
+para cromatina e poros nucleares. Mutações nas laminas causam as laminopatias, grupo de
+doenças que inclui progeria (envelhecimento acelerado) e alguns tipos de distrofia muscular.
+
+1.3 -- Conexão e doença
+Os filamentos intermediários não existem em ilhas isoladas dentro da célula -- eles se
+conectam entre si e com os outros sistemas do citoesqueleto através de proteínas de ligação.
+A mais importante desse grupo é a plectina6, uma proteína gigante (500 kDa) que age como
+uma espécie de nó de uma rede: une a trama de filamentos intermediários aos microtúbulos,
+aos filamentos de actina e às estruturas de junção celular (desmossomos, hemidesmossomos).
+
+   5GFAP ­ proteína glial fibrilar ácida -- marcador de astrócitos
+   6plectina ­ proteína de 500 kDa que atua como hub mecânico, conectando filamentos intermediários a microtúbulos,
+actina e junções celulares
+
+                                                                                 6
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Epidermólise bolhosa simples: ausência funcional de queratinas 5 e 14 faz a camada basal do epitélio se desprender
+ao menor trauma -- a pele literalmente se descola.
+
+Por que isso importa clinicamente? Porque quando a plectina falha, os tecidos que dependem
+de conexão mecânica robusta desintegram. Mutações na plectina causam uma síndrome rara
+mas dramática: epidermólise bolhosa com distrofia muscular e neurodegeneração -- três
+tecidos diferentes (pele, músculo, nervos) afetados simultaneamente, porque todos dependem
+da plectina para manter coerência mecânica.
+
+   Outro modelo de doença mais focado é a epidermólise bolhosa simples, causada por
+mutações nas queratinas 5 e 14 -- as queratinas expressas nas células basais da epiderme.
+Sem filamentos funcionais, as células basais não resistem ao trauma mecânico mais simples:
+caminhar, apertar a mão, usar roupas. A pele forma bolhas ao menor toque, porque a camada
+basal se desprende do restante. É uma doença genética que demonstra diretamente, em nível
+humano, o que acontece quando a resistência mecânica do citoesqueleto está comprometida.
+
+   Resumindo até aqui: Queratinas 5+14  resistência mecânica da camada basal. Mutação  epider
+   mólise bolhosa simples. Plectina  conecta todos os sistemas; mutação  síndrome multiorgânica (pele
+   + músculo + neurônio).
+
+                                                                                 7
+NEBLI                                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+Plectina como hub mecânico: conecta filamentos intermediários a microtúbulos, actina e junções celulares. Mutações
+causam síndrome combinada de epidermólise + distrofia muscular + neurodegeneração.
+
+                                                                        MAPA CONCEITUAL
+
+                                                                     I
+
+                               Cabos mecânicos sem motor
+
+                               
+
+1.1 ­ Estrutura                       1.2 ­ Famílias                         1.3 ­ Conexão
+
+10 nm, antiparalelo, sem ATP/                                          Plectina conecta; mutação =
+GTP                                    6 famílias tecido-específicas
+                                                                              doença
+
+                 Filamentos intermediários sustentam. Microtúbulos organizam -- PARTE II.
+
+PARTE II -- Microtúbulos: rodovias dinâmicas e polares
+
+2.1 -- Estrutura e nucleação
+Se os filamentos intermediários são os cabos de sustentação da célula, os microtúbulos são
+as rodovias. São estruturas tubulares ocas, com 25 nm de diâmetro externo, formadas por
+13 protofilamentos7 dispostos em círculo -- visualize 13 colunas verticais de tijolinhos (os
+dímeros de tubulina) curvadas em cilindro. Cada "tijolinho" é um heterodímero formado
+
+   7protofilamentos ­ cadeias lineares de dímeros -tubulina alinhadas longitudinalmente -- 13 delas formam a parede
+do microtúbulo
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+pela associação de uma subunidade -tubulina com uma subunidade -tubulina, sempre na
+mesma orientação.
+
+   Essa orientação fixa de  e  ao longo do protofilamento é o que dá polaridade intrínseca
+ao microtúbulo. Uma extremidade (chamada de extremidade "+") expõe -tubulina; a outra
+(extremidade "-") expõe -tubulina. As duas extremidades crescem e encolhem a velocidades
+diferentes: a extremidade "+" polimeriza muito mais rápido que a "-". Na prática, a extremidade
+"-" fica ancorada no centro organizador, enquanto a "+" cresce em direção à periferia.
+
+O MTOC8 -- nas células animais, o centrossomo
+-- é onde os microtúbulos nascem. O centrossomo
+contém um par de centríolos rodeados de material
+pericentriolar rico em -tubulina, uma isoforma
+especial da tubulina que serve como molde (tem
+plate) para o início da polimerização. A -tubulina
+forma um anel (-TuRC) que encaixa na extremi
+dade "-" e catalisa a adição dos primeiros dímeros
+.
+
+                                                                                            Polaridade do microtúbulo: extremidade "+" cresce
+                                                                                            mais rápido; "-" fica ancorada no centrossomo. 13
+                                                                                            protofilamentos formam a parede cilíndrica.
+
+Em outras palavras: a célula não deixa os microtúbulos crescerem aleatoriamente. O cen
+trossomo funciona como ponto de partida fixo, e todos os microtúbulos da célula em interfase
+irradiam a partir dele -- extremidade "-" presa ao centro, extremidade "+" explorando a
+periferia. Essa organização radial não é acidente: é o que permite que proteínas motoras usem
+os microtúbulos como trilhos com direção definida.
+
+Síntese 2.1 -- Microtúbulo = 13 protofilamentos de dímeros -tubulina em cilindro oco. Polar
+idade obrigatória: extremidade "+" rápida na periferia, "-" ancorada no centrossomo (MTOC).
+-tubulina nuclea o início.
+
+2.2 -- Instabilidade dinâmica e drogas
+Aqui está um dos conceitos mais elegantes e mais cobrados em prova de todo o citoesqueleto.
+Os microtúbulos não são estruturas estáveis: eles crescem e encolhem de forma contínua, e um
+mesmo microtúbulo pode alternar entre fases de crescimento e colapso súbito. Esse compor
+tamento tem um nome: instabilidade dinâmica9.
+
+   O mecanismo é controlado pelo GTP na subunidade -tubulina. Quando dímeros GTP-
+tubulina são adicionados à extremidade "+", eles formam uma estrutura relativamente estável
+
+   8MTOC ­ centro organizador de microtúbulos -- estrutura que nuclea e ancora a extremidade negativa dos microtúbu
+los
+
+   9instabilidade dinâmica ­ propriedade dos microtúbulos de alternar entre fases de crescimento (resgate) e
+despolimerização rápida (catástrofe), controlada pelo estado do GTP na -tubulina
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+-- esse conjunto de dímeros com GTP intacto na ponta é chamado de GTP-cap. O problema
+começa quando a adição de novos dímeros desacelera: a GTPase intrínseca da -tubulina
+hidrolisa o GTP em GDP10 depois que o dímero já foi incorporado. Se a hidrólise alcança a ponta
+antes de novos dímeros serem adicionados -- ou seja, se o GTP-cap se perde -- os dímeros
+GDP-tubulina ficam expostos. Dímeros GDP são instáveis; os dímeros curvam-se para fora e o
+microtúbulo despolimeriza rapidamente (isso é a catástrofe). Se novos dímeros GTP chegam
+a tempo e reconstituem o cap, o crescimento retoma (resgate).
+
+Instabilidade dinâmica dos microtúbulos: o GTP-cap mantém crescimento estável; sua perda desencadeia catástrofe
+(despolimerização rápida). Resgate ocorre quando novos dímeros GTP chegam à extremidade positiva.
+
+   Resumindo até aqui: GTP-cap intacto  crescimento estável. GTP-cap perdido (hidrólise ultrapassa
+   adição)  catástrofe. Dímeros GTP chegam  resgate. O microtúbulo oscila entre os dois estados
+   continuamente.
+Esse comportamento dinâmico tem propósito fisiológico claro: durante a divisão celular, os
+microtúbulos do fuso mitótico precisam explorar o espaço do núcleo, capturar cinetócoros e
+depois retrair para separar cromátides -- um processo impossível com estruturas estáticas.
+
+   10GDP ­ guanosina difosfato -- forma de GTP após hidrólise do fosfato terminal
+                                                                                10
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+    GTP nos microtúbulos, ATP na actina -- nunca invertir!
+
+    Os microtúbulos usam GTP (na -tubulina) para controlar sua dinâmica. A actina, como veremos
+    na PARTE III, usa ATP. Esta é uma das confusões mais frequentes em prova, especialmente
+    em questões que citam os dois sistemas juntos. Regra prática: tubulina -- G de GTP, como em
+    Guanosina. Actina -- A de ATP, como em Actina/Adenosina.
+
+Duas drogas que atuam exatamente sobre essa dinâmica merecem atenção especial porque
+caem com frequência:
+
+   O taxol (paclitaxel) se encaixa no interior dos microtúbulos e estabiliza os dímeros GDP,
+impedindo a catástrofe. O resultado é que os microtúbulos ficam "congelados" em estado
+polimerizado, incapazes de se desmontar. Em células tumorais, o fuso mitótico trava -- sem
+dinâmica, sem segregação de cromossomos, sem divisão celular. É assim que o taxol combate
+o câncer.
+
+   A colchicina faz o oposto: liga-se a dímeros livres de tubulina e impede que eles sejam
+incorporados. Sem adição de novos dímeros GTP, o GTP-cap se esgota e o microtúbulo colapsa.
+Em pequenas doses clínicas, a colchicina inibe a migração de neutrófilos (que dependem de
+microtúbulos) -- por isso é usada em gota aguda.
+
+    Taxol, colchicina e a dinâmica que salva vidas
+
+    O taxol (paclitaxel) estabiliza microtúbulos -- trava o fuso mitótico, bloqueia divisão de células
+    tumorais. Amplamente usado em cânceres de mama, ovário, pulmão. A colchicina desestabiliza
+    microtúbulos ao sequestrar dímeros livres -- inibe migração de neutrófilos e é o tratamento de
+    primeira linha da gota aguda e pericardite recorrente. Compreender o mecanismo de ação de cada
+    droga evita decorar indicação versus contraindicação: o mecanismo conta tudo.
+
+2.3 -- Motoras, tráfego e cílios
+Um microtúbulo polar só vira rodovia quando há veículos capazes de percorrer essa rodovia
+em uma direção definida. Esses veículos são as proteínas motoras, enzimas que convertem
+energia de ATP em movimento mecânico unidirecional ao longo do microtúbulo.
+
+   As duas famílias principais de motoras de microtúbulo são as cinesinas e as dineínas. O
+ponto central -- e a armadilha clássica de prova -- está na direção de cada uma:
+
+    Direção das motoras: dineína vai para o negativo, cinesina vai para o positivo
+
+    Cinesinas caminham em direção à extremidade positiva (positiva  periferia). Dineínas cito
+    plasmáticas caminham em direção à extremidade negativa (negativa  centro, centrossomo).
+    Uma forma prática de lembrar: Dineína  Direto pro centro (extremidade "-"). Cinesina 
+    Cresce para fora (extremidade "+"). Inverter as direções é um erro clássico em questões de tráfego
+    intracelular.
+
+       11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Essa diferença de direção tem consequências diretas no posicionamento de organelas. O
+retículo endoplasmático se espalha pela célula em arranjo paralelo aos microtúbulos, e são
+cinesinas que transportam vesículas do RE em direção à periferia (extremidade "+"). Já o
+complexo de Golgi se posiciona próximo ao centrossomo porque dineínas puxam vesículas
+do Golgi em direção ao centro (extremidade "-"). Se você inibir a dinâmica dos microtúbulos
+com colchicina, o Golgi se fragmenta e se dispersa -- evidência direta da dependência do
+posicionamento central do Golgi sobre o sistema de microtúbulos + dineínas.
+
+ Posicionamento de organelas pelos microtúbulos: cinesinas carregam vesículas do RE em direção à extremidade
+ positiva (periferia); dineínas mantêm o Golgi próximo ao centrossomo (extremidade negativa).
+
+Além do tráfego intracelular, microtúbulos formam estruturas especializadas para movi
+mento celular: os cílios e os flagelos. A organização interna de ambos é a mesma e tem um
+nome -- axonema11 -- e um padrão universal: 9 pares de microtúbulos duplos na periferia,
+mais 2 microtúbulos centrais simples (padrão "9+2").
+
+   11axonema ­ estrutura interna de cílios e flagelos composta por 9 pares de microtúbulos duplos na periferia + 2
+microtúbulos centrais simples, padrão 9+2
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+ Seção transversal do axonema: 9 dupletos externos (cada um com microtúbulo A e B) + par central. As dineínas
+ axonemais (braços internos e externos) ancoradas no microtúbulo A caminham sobre o microtúbulo B do dupleto
+ vizinho, gerando o deslizamento convertido em batimento.
+
+O motor que move o cílio é uma dineína axonemal, ancorada no microtúbulo A de cada dupleto,
+que "caminha" sobre o microtúbulo B do dupleto vizinho usando energia de ATP. O desliza
+mento relativo entre dupletos adjacentes -- contido pelas proteínas nexina que os unem --
+é convertido em curvatura e batimento do cílio. Pense assim: se você prendesse dois bastões
+flexíveis um ao lado do outro e um deles deslizasse em relação ao outro, eles curvariam. É isso
+que acontece em cada ciclo de batimento ciliar.
+
+   Resumindo até aqui: Cinesina  extremidade "+" (periferia). Dineína  extremidade "-" (centro). No
+   cílio: dineína axonemal desliza dupletos adjacentes  curvatura  batimento. Nexina impede desliza
+   mento ilimitado e converte o deslize em curva.
+
+                                                                                13
+NEBLI                                                                            ETAPA 1 -- TEXTO DIDÁTICO
+
+                          MAPA CONCEITUAL
+
+                                        II
+
+                          Rodovias polares e dinâmicas
+
+                          
+
+2.1 ­ Estrutura                  2.2 ­ Dinâmica                 2.3 ­ Motoras
+
+13 protofilamentos, +/-,   GTP-cap; catástrofe/resgate;   Cinesina+/dineína-; axonema
+centrossomo
+                                  taxol/colchicina               9+2
+
+                     Microtúbulos organizam o espaço. Actina move as bordas -- PARTE III.
+
+PARTE III -- Actina e movimento celular
+
+3.1 -- Estrutura, polaridade e dinâmica
+A actina é, provavelmente, a proteína mais abundante das células eucarióticas -- representa
+ 5% das proteínas de uma célula típica e chega a 20% em células musculares esqueléticas.
+Existe em dois estados: G-actina (monomérica, globular) e F-actina (filamentosa, polimer
+izada). A transição entre os dois estados é o coração da dinâmica do filamento de actina.
+
+   Cada monômero de G-actina carrega um nucleotídeo ligado -- e aqui está um ponto que
+merece atenção cuidadosa. A actina liga ATP, não GTP. Quando o monômero ATP-actina é
+incorporado ao filamento crescente, a actina hidrolisa o ATP em ADP12, mantendo o ADP preso
+dentro da subunidade. Assim, as subunidades mais novas (recém-adicionadas) ainda carregam
+ATP, formando um ATP-cap na extremidade "+", enquanto as mais antigas (mais para dentro)
+carregam ADP.
+
+    Actina usa ATP, não GTP -- armadilha clássica de prova
+
+    Microtúbulos usam GTP na -tubulina. Filamentos de actina usam ATP no monômero. Questões
+    frequentemente confundem os dois em afirmativas do tipo "a polimerização da actina é contro
+    lada pela hidrólise de GTP" -- isso está errado. A hidrólise que controla a dinâmica da actina
+    é sempre ATP  ADP + P. O mecanismo é análogo ao GTP-cap dos microtúbulos, mas com
+    nucleotídeo diferente.
+
+A actina tem polaridade, como os microtúbulos. A extremidade "+" (barbed end) polimeriza
+mais rapidamente; a extremidade "-" (pointed end) polimeriza lentamente. Quando as con
+centrações de G-actina estão em um valor específico (concentração crítica diferente para cada
+
+12ADP ­ adenosina difosfato -- forma de ATP após hidrólise do fosfato terminal
+                                                                             14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+extremidade), ocorre um fenômeno chamado treadmilling13 (ou pistonamento): a extremidade
+"+" polimeriza e a extremidade "-" despolimeriza com a mesma velocidade, de modo que o
+filamento parece se mover sem mudar de comprimento. Subunidades entram de um lado e
+saem do outro, continuamente.
+
+ Arranjos de filamentos de actina: feixes finos paralelos (nos filopódios), rede tridimensional ramificada (no córtex
+ celular) e feixes espessos com miosina (nas fibras de estresse). A organização determina a função mecânica.
+
+Por que isso importa? Porque o treadmilling -- combinado com a ação de proteínas regu
+latórias -- é o motor molecular por trás da migração celular, da fagocitose e da formação de
+protrusões na borda da célula. A célula não precisa "puxar" o filamento: basta controlar onde
+ele polimeriza e onde despolimeriza, e o resultado é movimento.
+
+    Síntese 3.1 -- G-actina + ATP  F-actina. Extremidade "+" rápida (ATP-cap), "-" lenta (ADP).
+    Treadmilling: polimerização na "+" = despolimerização na "-", filamento "anda" sem mudar de
+    tamanho. ATP obrigatório -- nunca GTP.
+
+3.2 -- Córtex, migração e fagocitose
+Agora que você sabe que o filamento de actina pode polimerizar seletivamente em uma ponta,
+a pergunta é: como a célula dirige onde isso acontece? A resposta está em um conjunto de
+proteínas regulatórias que se ativam em resposta a sinais externos e controlam a nucleação e
+ramificação de novos filamentos.
+
+   Sob a membrana plasmática há uma rede densa de actina chamada córtex celular. Ela dá
+rigidez e forma à borda da célula, e é reorganizada continuamente conforme a célula recebe
+sinais de migração, adesão ou fagocitose.
+
+   13treadmilling ­ estado estacionário do filamento de actina no qual a extremidade "+" polimeriza com a mesma
+velocidade que a extremidade "-" despolimeriza, resultando em aparente "movimento" do filamento sem variação de
+comprimento total
+
+                                                                                15
+NEBLI                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+   O complexo Arp2/314 é o nucleador central: quando ativado por proteínas da família WASP
+(que por sua vez respondem a GTPases Rho como Rac e Cdc42), o Arp2/3 inicia novos filamen
+tos a partir da lateral de filamentos preexistentes, em ângulo de 70°. O resultado é uma rede de
+actina ramificada que empurra a membrana para frente -- isso é o lamelipódio15.
+
+Nos filopódios -- protrusões filiformes e longas
+
+-- a organização é diferente: filamentos paralelos
+
+e compactos, nucleados por forminas. As formi
+
+nas são proteínas que ficam presas à extremidade
+
+"+" do filamento e catalisam a adição de novos
+
+monômeros de actina sem a necessidade de ram
+
+ificação. A célula usa lamelipódio (rede, Arp2/3)
+
+para explorar área e filopódio (feixe, formina) para
+
+explorar distância ou aderir a estruturas específi    Migração celular: lamelipódio (actina ramificada,
+
+cas.                                                  Arp2/3) na borda de avanço; filopódio (actina para
+
+                                                      lela, formina) como sensor de distância.
+
+Na fagocitose, o mesmo mecanismo serve a outro propósito. Quando um macrófago reconhece
+uma partícula opsonizada (coberta de anticorpo), receptores de superfície ativam a polimer
+ização local de actina embaixo da membrana, que forma uma "taça" (copo) de actina ao redor
+da partícula. Essa taça se fecha -- processo ativo que exige polimerização contínua de actina
+dirigida pelo Arp2/3 -- e internaliza a partícula como fagossomo.
+
+Resumindo até aqui: Arp2/3 (ativado por Rac/Cdc42 via WASP)  nucleação ramificada  lamelipó
+dio. Forminas  nucleação paralela  filopódio. Mesmo princípio (polimerização dirigida de actina)
+serve à migração e à fagocitose.
+
+3.3 -- Miosinas e contração
+Actina é trilho, e miosinas são os veículos que caminham sobre ela. Mas, ao contrário das
+cinesinas e dineínas nos microtúbulos, as miosinas não são uma família unificada de sentido
+único -- elas existem em muitos subtipos com funções radicalmente diferentes.
+
+   A miosina I é um motor monomérico: uma única cabeça globular que se liga à actina,
+hidrolisa ATP e dá um passo. Não forma filamentos bipolarizados. Sua função principal é
+o transporte de membranas e vesículas ao longo de filamentos de actina -- imagine um
+carregador solitário empurrando uma caixa. A miosina II é diferente: forma dímeros que,
+por sua vez, se agrupam em filamentos bipolares grossos. Essa organização bipolar é o que
+
+   14Arp2/3 ­ complexo de 7 subunidades que nuclea novos filamentos de actina a partir da lateral de filamentos preexis
+tentes, gerando uma rede ramificada em ângulo de 70°
+
+   15lamelipódio ­ protrusão laminar rasa gerada por rede ramificada de actina, localizada na borda de avanço de células
+migrantes
+
+                                                                                16
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+permite contração -- um filamento de miosina II puxando filamentos de actina dos dois lados
+simultaneamente.
+
+Famílias de miosinas: miosina I (monomérica, transporte de vesículas) e miosina II (filamentar bipolar, contração).
+Ambas têm cabeças globulares com atividade ATPase e domínio de ligação à actina.
+
+O ciclo de força da miosina II, em linhas gerais: (1) cabeça de miosina ligada à actina sem ATP
+ estado "travado"; (2) ATP liga  cabeça desliga da actina; (3) ATP é hidrolisado  ADP +
+P ficam na cabeça, que adota conformação de "mola armada"; (4) cabeça se religar à actina
+em nova posição  P é liberado  cabeça faz o golpe de força (power stroke), empurrando
+o filamento de actina; (5) ADP é liberado  cabeça volta ao estado inicial. Um ciclo completo
+anda o filamento 10 nm.
+
+       17
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Contração muscular: filamentos de miosina II bipolares deslizam os filamentos de actina para o centro do sarcômero.
+ATP é hidrolisado a cada ciclo de força; a actina-F é o trilho que não se encurta -- encurta-se o sarcômero, não os
+filamentos.
+
+Na citocinese -- a divisão do citoplasma ao final da mitose --, um anel de actina e miosina II
+se forma na região equatorial da célula. Esse anel contrai progressivamente, como um laço se
+fechando, até cortar a célula ao meio.
+
+    Anel contrátil = actina + miosina II -- nunca só actina
+    Uma pergunta clássica: «o anel contrátil de citocinese é formado por qual componente do
+    citoesqueleto?» A resposta correta é actina + miosina II. Mencionar só actina está incompleto e
+    errado. A miosina II é o motor ativo que gera a força contrátil; sem ela, o anel teria actina mas não
+    se contraía. Da mesma forma, "anel contrátil" não é formado por miosina I -- apenas a miosina
+    II, que forma filamentos bipolares, consegue gerar contração bidirecional.
+
+   Resumindo até aqui: Miosina I  transporte de vesículas (1 cabeça, sem filamento). Miosina II 
+   contração (filamento bipolar, desliza actina). Anel contrátil de citocinese = actina + miosina II. Cada ciclo
+   de força consome 1 ATP.
+
+                                                                                18
+NEBLI                                           ETAPA 1 -- TEXTO DIDÁTICO
+
+                   MAPA CONCEITUAL
+
+                                III
+
+                   Actina: trilho e motor do movimento
+
+3.1 ­ Dinâmica                                         3.3 ­ Contração
+
+G/F-actina; ATP-          3.2 ­ Migração         Miosina I/II; anel contrátil
+cap; treadmilling
+                    Arp2/3 ramifica; formina            actina+miosina II
+
+                           alonga; lamelipódio
+
+                Três sistemas distintos -- juntos dão forma, movimento e vida à célula.
+
+Conclusão integradora
+
+Chegamos ao fim da Etapa 1 com três sistemas no bolso, cada um com lógica própria. Os
+filamentos intermediários são a infraestrutura silenciosa: cabos antiparalelos de 10 nm,
+sem polaridade, sem motor, sem consumo de ATP ou GTP -- são a resistência mecânica
+dos tecidos, e quando falham (queratinas, laminas, plectina), as doenças batem à porta
+com força clínica impressionante. Os microtúbulos são as rodovias polares: 13 protofil
+amentos de -tubulina, com extremidades + e -, dinamicamente instáveis graças ao
+GTP-cap -- essa instabilidade não é defeito, é funcionalidade. As motoras (cinesina 
+periferia, dineína  centro) e o axonema 9+2 dos cílios completam o quadro de como a
+célula organiza o espaço e gera movimento coordenado. Os filamentos de actina são os
+mais finos e os mais versáteis: G-actina com ATP polimeriza em F-actina, treadmilling
+dirige migração, Arp2/3 cria a rede ramificada do lamelipódio, e a miosina II -- nunca só
+a actina -- fecha o anel contrátil da citocinese.
+O fio condutor dos três sistemas é dinâmica regulada a serviço da função. Nenhum
+deles é estático; todos existem em equilíbrio entre polimerização e despolimerização, e
+é o controle desse equilíbrio -- por GTP-cap, por Arp2/3, por miosinas -- que permite à
+célula construir, mover e dividir-se com precisão.
+
+                   19
+NEBLI                                                  ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Os 3 sistemas em uma frase                             Axonema 9+2 e dineína axonemal
+
+Filamentos intermediários sustentam mecanica Cílios e flagelos compartilham a mesma arquite
+
+mente (10 nm, sem motor, sem ATP/GTP); mi tura interna: 9 dupletos de microtúbulos externos
+
+crotúbulos organizam o espaço intracelular como + 2 microtúbulos centrais simples. A dineína axone
+
+rodovias polares (25 nm, GTP-cap); filamentos de mal, ancorada no microtúbulo A, caminha sobre o
+
+actina geram movimento e forma na borda celular (7 microtúbulo B do dupleto vizinho; a nexina converte
+
+nm, ATP-cap, treadmilling).                            o deslizamento em curvatura e batimento.
+
+Instabilidade dinâmica dos microtúbulos                Famílias de filamentos intermediários
+
+O GTP-cap na extremidade "+" mantém o mi Cada tecido expressa a família adequada às suas
+
+crotúbulo crescendo; quando a hidrólise de GTP ul demandas: laminas em todos os núcleos; queratinas
+
+trapassa a adição de novos dímeros, o cap se perde, os em epitélios (resistência ao atrito); vimentina em
+
+dímeros GDP-tubulina curvam-se para fora e o mi células mesenquimais; desmina em músculo; GFAP
+
+crotúbulo colapsa (catástrofe). Novos dímeros GTP em astrócitos; neurofilamentos nos axônios (calibre
+
+reconstituem o cap e reiniciam o crescimento (res  velocidade de condução).
+
+gate).                                                 Drogas sobre o citoesqueleto
+
+Actina-ATP vs Microtúbulo-GTP                          Taxol (paclitaxel): estabiliza microtúbulos im
+
+Actina usa ATP -- a hidrólise de ATP em ADP pedindo catástrofe  fuso mitótico trava  an
+
+após incorporação do monômero cria o ATP-cap e ticâncer. Colchicina: sequestra dímeros livres  im
+
+controla o treadmilling. Microtúbulos usam GTP -- pede adição  colapso dos microtúbulos  inibe mi
+
+na -tubulina, controla o GTP-cap e a instabilidade gração de neutrófilos  usada em gota e pericardite.
+
+dinâmica. Inverter os nucleotídeos é a armadilha Faloidina: estabiliza filamentos de actina impedindo
+
+mais frequente de prova.                               despolimerização  ferramenta de marcação fluo
+
+Motoras de microtúbulo                                 rescente em laboratório.
+
+Cinesinas caminham em direção à extremidade Plectina como hub mecânico
+
+positiva (periferia), carregando vesículas do retículo A plectina (500 kDa) conecta a rede de filamen
+
+endoplasmático. Dineínas citoplasmáticas camin tos intermediários a microtúbulos, actina e junções
+
+ham em direção à extremidade negativa (centro/ celulares. Mutações causam síndrome combinada:
+
+centrossomo), mantendo o Golgi próximo ao núcleo. epidermólise bolhosa + distrofia muscular + neu
+
+Ambas consomem ATP por ciclo.                          rodegeneração -- três tecidos, um hub.
+
+Anel contrátil de citocinese                           Lamelipódio vs filopódio
+
+   O anel que corta a célula ao meio na citocinese é      Lamelipódio: rede ramificada de actina gerada
+composto por actina + miosina II. A miosina II forma   pelo complexo Arp2/3 (ativado por Rac/Cdc42) --
+filamentos bipolares que geram força contrátil ativa;  empurra a membrana lateralmente. Filopódio: feixe
+sem ela, o anel não contrai. Mencionar apenas actina   paralelo de actina nucleado por forminas -- explora
+está incompleto.                                       distância e contatos específicos. A célula usa os dois
+                                                       para migrar de forma coordenada.
+
+                                         20
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 1 Consolidação
+Sobre os filamentos intermediários, qual característica explica que eles sejam NÃO-polariza
+dos?
+
+  A) Possuem 10 nm de diâmetro, intermediário entre actina e microtúbulos.
+  B) Dependem da hidrólise de ATP ou GTP durante a polimerização.
+  C) Originam-se de um centro organizador semelhante ao centrossomo.
+  D) Seus dímeros se agrupam em orientação antiparalela ao formar tetrâmeros.
+  E) Resistem a soluções salinas concentradas e detergentes não-iônicos.
+
+Questão 2 Consolidação
+Sobre a estrutura do microtúbulo, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O microtúbulo é formado por 13 protofilamentos dispostos em cilindro oco.
+  II. As subunidades -tubulina e -tubulina associam-se aleatoriamente ao longo do protofil
+  amento.
+  III. A extremidade que expõe -tubulina é chamada de extremidade negativa.
+  IV. A polaridade do microtúbulo permite que proteínas motoras caminhem em direção
+  definida.
+
+Questão 3 Consolidação
+Qual nucleotídeo é hidrolisado durante a dinâmica de polimerização dos filamentos de actina?
+
+  A) ATP, ligado ao monômero de G-actina antes da incorporação.
+  B) GTP, ligado à subunidade -tubulina nos primeiros dímeros.
+  C) GTP, ligado ao monômero de G-actina antes da incorporação.
+  D) ATP, ligado a uma proteína motora vizinha (miosina) sobre o filamento.
+  E) Cíclico AMP, sinalizando ativação do complexo Arp2/3.
+
+                            21
+NEBLI                                                                      ETAPA 2 -- OBJETIVAS
+
+Questão 4 Consolidação
+
+Quais filamentos intermediários estão presentes em TODAS as células nucleadas?
+  A) Queratinas, expressas em pares ácido-básico.
+  B) Vimentinas, marcadoras de células mesenquimais.
+  C) Desminas, características do tecido muscular.
+  D) Neurofilamentos, organizadores do calibre axonal.
+  E) Laminas, formadoras da lâmina nuclear interna.
+
+Questão 5 Consolidação
+
+Sobre o GTP-cap dos microtúbulos, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O GTP-cap é uma estrutura formada por dímeros -tubulina ligados a GDP.
+  II. Enquanto o GTP-cap está intacto, a extremidade positiva permanece em crescimento.
+  III. A hidrólise do GTP em GDP ocorre antes da incorporação do dímero ao filamento.
+  IV. A perda do GTP-cap desencadeia a despolimerização rápida, fenômeno chamado
+  catástrofe.
+
+Questão 6 Consolidação
+Qual é a direção de movimento das cinesinas sobre os microtúbulos?
+
+  A) Em direção à extremidade negativa, ancorada no centrossomo.
+  B) Em direção à extremidade positiva, voltada para a periferia celular.
+  C) Em ambas as direções, conforme a concentração local de ATP.
+  D) Sobre o microtúbulo central simples do axonema 9+2.
+  E) Apenas sobre filamentos intermediários estabilizados por plectina.
+
+                        22
+NEBLI                       ETAPA 2 -- OBJETIVAS
+
+Questão 7 Consolidação
+
+Qual proteína do citoesqueleto, em conjunto com a actina, forma o anel contrátil da citocinese?
+  A) Dineína citoplasmática, motora de movimento centrípeto.
+  B) Miosina I, motora monomérica de transporte de vesículas.
+  C) Miosina II, motora que forma filamentos bipolares.
+  D) Cinesina convencional, motora de tráfego periférico.
+  E) Plectina, hub mecânico que conecta os três sistemas.
+
+Questão 8 Consolidação
+
+Sobre a dinâmica dos filamentos de actina, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. G-actina é a forma globular monomérica que se incorpora ao filamento.
+  II. O treadmilling ocorre quando a polimerização na extremidade positiva iguala a de
+  spolimerização na negativa.
+  III. A actina hidrolisa GTP em GDP após a incorporação ao filamento.
+  IV. O ATP-cap é uma estrutura mantida pelas subunidades mais antigas no filamento.
+
+Questão 9 Integração
+
+Pacientes com mutações no gene da plectina apresentam síndrome combinada de epider
+mólise bolhosa, distrofia muscular e neurodegeneração -- três tecidos afetados simultanea
+mente. Qual mecanismo molecular explica essa combinação?
+
+  A) A plectina conecta filamentos intermediários a microtúbulos, actina e junções, e sua falha
+  desorganiza a coerência mecânica de qualquer tecido que dependa dessa integração.
+  B) A plectina ativa as queratinas 5 e 14 em epitélios, regula a desmina em músculo e organiza
+  neurofilamentos em axônios.
+  C) A plectina compõe diretamente o axonema 9+2, e sua falha compromete movimentos
+  ciliares em múltiplos tecidos.
+  D) A plectina atua como motora ATP-dependente entre os três sistemas do citoesqueleto.
+  E) A plectina catalisa a hidrólise de GTP em laminas nucleares, afetando a integridade do
+  envelope nuclear.
+
+                        23
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 10 Integração
+
+Em um experimento, células são tratadas com uma droga que sequestra dímeros livres de -
+tubulina, impedindo sua incorporação aos microtúbulos. Após algumas horas, o complexo de
+Golgi se fragmenta e se dispersa pelo citoplasma. Qual mecanismo conecta o tratamento ao
+efeito observado?
+
+  A) Sem dímeros livres, o anel contrátil de citocinese não se forma e a célula entra em
+  apoptose.
+
+  B) O sequestro de dímeros estabiliza microtúbulos em conformação rígida, impedindo o
+  transporte vesicular para o Golgi.
+
+  C) Sem novos dímeros, as cinesinas perdem afinidade pela extremidade positiva e param de
+  carregar vesículas do Golgi.
+
+  D) Sem dímeros, o GTP-cap se esgota, microtúbulos colapsam, e a dineína perde o trilho que
+  mantinha o Golgi posicionado no centro.
+
+  E) O sequestro ativa diretamente a miosina II do anel pericentriolar, desfazendo a estrutura
+  do Golgi.
+
+Questão 11 Integração
+
+Durante a migração celular, uma célula avança formando dois tipos morfologicamente distin
+tos de protrusões na borda anterior: o lamelipódio (laminar, rasa) e os filopódios (filiformes,
+longos). Qual diferença molecular fundamental separa as duas estruturas?
+
+  A) O lamelipódio usa filamentos de miosina II; os filopódios usam dineína axonemal.
+  B) O lamelipódio é nucleado por Arp2/3 gerando rede ramificada; os filopódios são nucleados
+  por forminas gerando feixes paralelos.
+  C) O lamelipódio depende de microtúbulos; os filopódios dependem exclusivamente de fila
+  mentos intermediários.
+  D) O lamelipódio polimeriza actina-GTP; os filopódios polimerizam actina-ATP.
+  E) O lamelipódio é estabilizado por plectina; os filopódios são estabilizados por queratinas.
+
+                       24
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 12 Integração
+
+Sobre as dineínas, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. Tanto a dineína citoplasmática quanto a dineína axonemal movem-se em direção à
+  extremidade positiva do microtúbulo.
+  II. No axonema, a dineína axonemal está ancorada ao microtúbulo central simples e caminha
+  sobre os dupletos externos.
+  III. A nexina é uma proteína estrutural que conecta dupletos vizinhos e converte desliza
+  mento em curvatura.
+  IV. Tanto a dineína citoplasmática quanto a dineína axonemal consomem ATP a cada ciclo
+  motor.
+
+Questão 13 Integração
+
+Filamentos intermediários resistem a soluções salinas concentradas e detergentes não-iôni
+cos que destroem actina e microtúbulos em poucos segundos. Qual conjunto de propriedades
+explica essa estabilidade superior?
+
+  A) Hidrólise contínua de ATP para manter a montagem ativa contra estresse químico.
+  B) Capacidade de regeneração rápida após despolimerização total, mediada por plectina.
+  C) Polimerização espontânea sem ATP/GTP e arranjo antiparalelo com interações hidrofóbi
+  cas estáveis.
+  D) Ancoragem em centros organizadores que estabilizam a extremidade negativa.
+  E) Associação com motoras que reforçam a estrutura sob estresse mecânico.
+
+                       25
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 14 Integração
+
+Durante a contração muscular esquelética, a cabeça da miosina II atravessa um ciclo de cinco
+estados que consome um ATP por ciclo. Em qual etapa exata desse ciclo ocorre o "power
+stroke" (golpe de força que desloca o filamento de actina)?
+
+  A) Quando o ATP se liga à cabeça e ela se desliga da actina.
+  B) Quando o ATP é hidrolisado em ADP + P na cabeça livre.
+  C) Quando a cabeça em conformação de "mola armada" se religa à actina.
+  D) Quando o ADP é liberado da cabeça após o golpe de força.
+  E) Quando o P é liberado, a cabeça executa o golpe de força e desloca a actina.
+
+Questão 15 Integração
+
+A -tubulina, presente no material pericentriolar do centrossomo, forma um anel (-TuRC)
+que ancora a extremidade negativa de microtúbulos nascentes. Qual é a consequência fun
+cional dessa organização para a célula?
+
+  A) Permite que microtúbulos polimerizem em qualquer ponto do citoplasma sem orientação
+  definida.
+  B) Garante que a extremidade positiva fique presa ao centro celular, deixando a negativa
+  explorar a periferia.
+  C) Catalisa a hidrólise de GTP em GDP nos dímeros mais antigos, estabilizando o filamento.
+  D) Centraliza a origem dos microtúbulos e orienta sua extremidade positiva para a periferia,
+  criando rede polar direcional.
+  E) Substitui temporariamente a -tubulina nos primeiros dímeros, mudando a polaridade
+  do filamento.
+
+                       26
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 16 Integração
+
+Sobre as laminas nucleares, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. As laminas formam uma rede abaixo da membrana interna do envelope nuclear, dando
+  suporte estrutural ao núcleo.
+  II. As laminas estão presentes apenas em células de origem mesenquimal, como fibroblastos.
+  III. Mutações em laminas causam laminopatias, incluindo formas de progeria com envel
+  hecimento acelerado.
+  IV. Como demais filamentos intermediários, as laminas se desmontam para permitir a
+  divisão celular.
+
+Questão 17 Integração
+
+O treadmilling dos filamentos de actina ocorre quando a polimerização na extremidade
+positiva iguala a despolimerização na negativa, resultando em filamento de comprimento
+constante mas com subunidades em fluxo contínuo. Qual é a base bioquímica que permite essa
+dinâmica direcional?
+
+  A) A actina-ATP adicionada na extremidade positiva hidrolisa ATP após incorporação, e a
+  actina-ADP fica menos estável e despolimeriza preferencialmente da extremidade negativa.
+  B) A actina-GTP adicionada hidrolisa GTP em GDP, criando assimetria entre as extrem
+  idades.
+  C) Forminas estabilizam a extremidade positiva enquanto Arp2/3 despolimeriza a negativa
+  simultaneamente.
+  D) A miosina II consome ATP nas extremidades para gerar o fluxo aparente do filamento.
+  E) O complexo Arp2/3 transfere subunidades de uma extremidade à outra usando energia
+  de ATP.
+
+                       27
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 18 Integração
+
+Durante a metáfase mitótica, os microtúbulos do fuso explorando o citoplasma capturam
+cinetócoros aleatoriamente, mas a maioria dos contatos não produtivos é desfeita rapidamente
+até que cada cinetócoro esteja ligado a microtúbulos vindos de polos opostos. Qual propriedade
+dos microtúbulos torna essa busca por contato bem-sucedida possível?
+
+  A) A estabilidade absoluta dos microtúbulos, que mantém contato firme com qualquer
+  estrutura tocada.
+
+  B) A instabilidade dinâmica, que permite alternância contínua entre crescimento e catástrofe
+  até encontrar contato estável.
+
+  C) A capacidade de motoras como cinesinas migrarem ao longo do fuso e selecionarem
+  cinetócoros corretos.
+
+  D) A ligação não-covalente das laminas com cinetócoros, que filtra contatos errados.
+
+  E) O treadmilling rápido nas extremidades positivas dos microtúbulos do fuso.
+
+Questão 19 Integração
+
+Um macrófago reconhece uma bactéria opsonizada por anticorpos e a internaliza por fagoc
+itose, formando uma "taça" de membrana que se fecha ao redor da partícula. Qual mecanismo
+do citoesqueleto sustenta esse processo?
+
+  A) Reorganização do anel contrátil de actina + miosina II em torno da partícula.
+  B) Polimerização de microtúbulos a partir de centros organizadores temporários na mem
+  brana.
+  C) Polimerização local e ramificada de actina conduzida pelo complexo Arp2/3, empurrando
+  a membrana ao redor da partícula.
+  D) Estabilização de filamentos intermediários pela plectina, que isolam a partícula da célula.
+  E) Hidrólise de GTP por dineína axonemal, que gera força de fechamento da taça.
+
+                       28
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 20 Integração
+
+Sobre as conexões entre citoesqueleto e patologia, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. A epidermólise bolhosa simples é causada por mutações nas queratinas 5 e 14, expressas
+  nas células basais do epitélio.
+  II. Mutações na plectina afetam apenas o tecido epitelial, sem repercussão em músculo ou
+  neurônios.
+  III. Doenças da desmina comprometem a transmissão de força no tecido muscular es
+  quelético, cardíaco e liso.
+  IV. A miosina II é a única isoforma de miosina expressa em tecidos não-musculares.
+
+Questão 21 Integração
+
+O retículo endoplasmático se distribui pelo citoplasma com seus túbulos paralelos aos mi
+crotúbulos, enquanto o complexo de Golgi permanece compactado próximo ao centrossomo.
+Qual conjunto de motoras explica essa organização?
+
+  A) Apenas cinesinas, responsáveis por toda a movimentação de organelas.
+  B) Apenas dineínas, responsáveis tanto pelo posicionamento do RE quanto do Golgi.
+  C) Cinesinas posicionam o Golgi na periferia; dineínas espalham o RE.
+  D) Cinesinas movem vesículas do RE em direção à extremidade positiva (periferia); dineínas
+  mantêm o Golgi próximo ao centrossomo (extremidade negativa).
+  E) Miosinas II do córtex de actina arrastam ambas as organelas.
+
+                       29
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 22 Integração
+
+Uma afirmação frequente em provas diz que o anel contrátil da citocinese é "formado por
+filamentos de actina". Por que essa afirmação está incompleta e o que precisa ser acrescentado
+para tornar-se correta?
+
+  A) Falta mencionar cinesinas, que fornecem a tração direcional do anel.
+  B) Falta mencionar plectina, que estabiliza o anel contra deformação.
+  C) Falta mencionar dineína axonemal, que controla o ritmo de fechamento.
+  D) Falta mencionar miosina I, que se ancora à membrana e puxa a actina.
+  E) Falta mencionar miosina II, que forma filamentos bipolares e gera a força contrátil ativa
+  do anel.
+
+Questão 23 Integração
+
+Filamentos intermediários e microtúbulos têm estruturas muito diferentes. Qual característica
+dos filamentos intermediários é DIRETAMENTE consequência do arranjo antiparalelo de seus
+dímeros, e DIFERENCIA esse sistema dos microtúbulos?
+
+  A) Possuir diâmetro intermediário (10 nm) entre actina e microtúbulos.
+  B) Não apresentar polaridade, o que impossibilita ligação com proteínas motoras direcionais.
+  C) Resistir a detergentes não-iônicos por estabilidade química superior.
+  D) Ser tecido-específicos, com famílias distintas para cada tipo celular.
+  E) Dispensar centros organizadores como o centrossomo durante a montagem.
+
+                       30
+NEBLI                      ETAPA 2 -- OBJETIVAS
+
+Questão 24 Integração
+
+Sobre drogas que atuam no citoesqueleto, julgue os itens.
+
+Cada item deve ser julgado de forma independente.
+
+  I. O taxol estabiliza microtúbulos ao se ligar ao interior do polímero e impedir a catástrofe,
+  sendo usado como antineoplásico.
+  II. A colchicina sequestra dímeros livres de -tubulina, impedindo sua incorporação à
+  extremidade positiva.
+  III. A faloidina estabiliza filamentos de actina e é usada como sonda fluorescente para visu
+  alização em microscopia.
+  IV. O efeito antimitótico do taxol decorre de seu bloqueio da hidrólise de ATP pela miosina II
+  do fuso.
+
+Questão 25 Integração
+
+Em uma célula tratada com inibidor da hidrólise de ATP na actina, espera-se observar acúmulo
+de actina-ATP nas extremidades positivas dos filamentos. Qual seria a consequência funcional
+direta dessa intervenção?
+
+  A) Os filamentos cresceriam continuamente sem despolimerizar, perdendo o treadmilling e
+  tornando a migração celular ineficaz.
+  B) Os microtúbulos do fuso mitótico se desmontariam, bloqueando a divisão celular.
+  C) O anel contrátil de citocinese funcionaria com força aumentada e divisão acelerada.
+  D) As cinesinas perderiam capacidade de transporte sobre microtúbulos por falta de ATP
+  livre.
+  E) Os filamentos intermediários se desmontariam por dependerem indiretamente da
+  hidrólise de ATP.
+
+                       31
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 26 Aplicação
+
+Um recém-nascido apresenta bolhas dolorosas na pele desde o primeiro dia de vida, surgindo
+a cada manipulação simples (banho, troca de fralda, contato com tecido). A biópsia mostra
+clivagem entre a camada basal e o restante da epiderme. A análise genética identifica mutação
+em uma das proteínas estruturais das células basais. Qual proteína está mutada e qual o
+mecanismo que justifica o quadro?
+
+  A) Plectina -- o paciente teria também distrofia muscular e neurodegeneração.
+
+  B) Desmina -- sem ela, células musculares perdem ancoragem dos sarcômeros.
+
+  C) Queratinas 5 e 14 -- sem filamentos intermediários funcionais nas células basais, a
+  camada se desprende ao trauma mecânico mínimo.
+
+  D) Vimentina -- a proteína está ausente em fibroblastos do tecido conjuntivo subjacente.
+
+  E) GFAP -- sem suporte glial, os nervos cutâneos perdem proteção mecânica.
+
+Questão 27 Aplicação
+
+Um paciente de 55 anos com crise aguda de gota recebe colchicina via oral. Em poucas horas,
+a inflamação articular regride. A colchicina atua sequestrando dímeros livres de -tubulina
+e impedindo a polimerização de novos microtúbulos. Qual é o elo mecânico entre essa ação
+molecular e o alívio da crise inflamatória?
+
+  A) A colchicina inibe diretamente a formação dos cristais de urato monossódico nas artic
+  ulações.
+
+  B) A colchicina bloqueia o anel contrátil da citocinese em sinoviócitos inflamados, parando
+  sua proliferação.
+
+  C) A colchicina desmonta o axonema das células ciliadas do líquido sinovial, reduzindo a
+  turbulência.
+
+  D) A colchicina estabiliza microtúbulos em neutrófilos, aumentando sua adesão à membrana
+  e impedindo a fagocitose dos cristais.
+
+  E) A colchicina impede a migração de neutrófilos para a articulação ao desmontar seus
+  microtúbulos, bloqueando o influxo inflamatório.
+
+                      32
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 28 Aplicação
+
+Um menino de 8 anos tem história de infecções respiratórias recorrentes desde a infância,
+otite média de repetição e situs inversus (órgãos torácicos invertidos lateralmente). A biópsia
+da mucosa nasal por microscopia eletrônica mostra ausência dos braços externos da dineína
+nos cílios. Qual é a explicação mecanística para a tríade clínica?
+
+  A) A dineína axonemal é necessária para curvatura do cílio: sua falha imobiliza cílios respi
+  ratórios (infecções recorrentes), ciliados do ouvido médio (otite) e nodos embrionários (situs
+  inversus por falta de quebra de simetria).
+
+  B) A ausência de dineína citoplasmática impede transporte de organelas em epitélios respi
+  ratórios, acumulando muco infectado.
+
+  C) A falha da cinesina convencional bloqueia a chegada de vesículas secretoras à superfície
+  apical do epitélio.
+
+  D) A ausência de plectina nas células ciliadas desmonta a conexão entre cílios e citoesqueleto
+  subjacente.
+
+  E) O defeito em miosina II compromete a contração das células epiteliais, paralisando o
+  batimento ciliar.
+
+Questão 29 Aplicação
+
+Uma paciente com câncer de mama metastático inicia quimioterapia com paclitaxel (taxol).
+O fármaco atua dentro dos microtúbulos, estabilizando o polímero contra catástrofe. Por que
+essa estabilização -- aparentemente "preservar" microtúbulos -- leva à morte de células
+tumorais em divisão?
+
+  A) Microtúbulos estáveis liberam mais GTP no citoplasma, intoxicando a célula em metab
+  olismo acelerado.
+
+  B) A estabilização força a polimerização contínua de actina em paralelo, desorganizando o
+  córtex celular.
+
+  C) Microtúbulos estabilizados perdem a capacidade de ancorar dineína citoplasmática, dis
+  persando o complexo de Golgi e bloqueando a secreção.
+
+  D) Sem instabilidade dinâmica, o fuso mitótico não consegue executar a busca-e-captura
+  dos cinetócoros nem retrair para segregar cromátides; a mitose trava e a célula entra em
+  apoptose.
+
+  E) O taxol bloqueia a hidrólise de ATP nas miosinas do anel contrátil, impedindo a citocinese.
+
+                      33
+NEBLI                     ETAPA 2 -- OBJETIVAS
+
+Questão 30 Aplicação
+
+Uma criança apresenta envelhecimento prematuro evidente desde os primeiros anos: baixa
+estatura, calvície precoce, pele enrugada, aterosclerose acelerada e morte ainda na adolescên
+cia por complicações cardiovasculares (síndrome de Hutchinson-Gilford, ou progeria). A causa
+é uma mutação que altera a lamina A nuclear. Qual mecanismo conecta o defeito molecular à
+apresentação clínica?
+
+  A) Sem laminas funcionais, microtúbulos do fuso mitótico não conseguem se ancorar,
+  parando a divisão de células-tronco em todos os tecidos.
+
+  B) Laminas mutantes desestabilizam o envelope nuclear e a organização da cromatina,
+  comprometendo expressão gênica e proliferação em múltiplos tecidos, especialmente os de
+  alta renovação.
+
+  C) A lamina mutante ativa diretamente a apoptose em todas as células nucleadas, encurtando
+  a vida útil tecidual.
+
+  D) Sem lamina A, queratinas da pele perdem ancoragem na membrana e a epiderme se
+  desorganiza precocemente.
+
+  E) A falha de laminas impede a importação de tubulina para o núcleo, parando a expressão
+  de proteínas do citoesqueleto.
+
+                      34
+NEBLI                            ETAPA 2 -- OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão 1
+Explique por que os filamentos intermediários NÃO admitem proteínas motoras camin
+hando sobre eles, partindo da geometria da sua unidade construtiva.
+
+    MODELO DE RESPOSTA
+
+   Os dímeros de filamento intermediário se enrolam em superespiral e, ao formar
+   tetrâmeros, alinham-se em orientação antiparalela. Como consequência, o filamento
+   resultante é simétrico em relação ao seu eixo longo -- não há extremidade "+" nem "-".
+   Sem polaridade definida, não existe um "norte e sul" para uma proteína motora avançar
+   passo a passo: o motor não saberia em qual direção caminhar nem teria substrato
+   químico distinguível em cada extremidade. Filamentos intermediários ficam restritos
+   à função estrutural pura -- cabos mecânicos, não trilhos.
+
+Questão 2
+Por que os microtúbulos do fuso mitótico precisam de instabilidade dinâmica para
+capturar cinetócoros e segregar cromátides corretamente? Explique mecanisticamente.
+
+    MODELO DE RESPOSTA
+
+   Cada cromossomo, em metáfase, precisa ser capturado por microtúbulos vindos de
+   polos opostos do fuso. Essa busca-e-encontro só funciona porque os microtúbulos
+   crescem em direções variadas, sofrem catástrofe quando não fazem contato estável
+   e voltam a crescer noutras direções (resgate). Quando um microtúbulo finalmente
+   conecta um cinetócoro de forma bipolar, a tensão estabiliza o contato. Sem instabili
+   dade dinâmica, o fuso ficaria estático em qualquer geometria inicial; sem catástrofe,
+   contatos errados nunca seriam desfeitos. A segregação correta exige justamente essa
+   "experimentação contínua".
+
+                             35
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão 3
+
+Diferencie mecanisticamente o papel do ATP na actina e do GTP nos microtúbulos,
+explicando por que a célula evoluiu para usar nucleotídeos diferentes em sistemas com
+lógicas dinâmicas parecidas.
+
+MODELO DE RESPOSTA
+
+Em ambos os sistemas, o nucleotídeo é hidrolisado depois da incorporação ao fila
+mento, criando assimetria entre extremidades. Na actina, G-actina ligada a ATP é
+incorporada e hidrolisa o ATP em ADP, deixando ADP-actina nas regiões mais antigas
+-- instáveis e propensas a despolimerizar. Nos microtúbulos, dímeros -tubulina
+ligados a GTP formam o GTP-cap na extremidade "+"; a hidrólise do GTP nas regiões
+mais internas torna esses dímeros propensos a catástrofe. A escolha de ATP vs GTP
+é evolutivamente arbitrária e separa as duas dinâmicas -- usar nucleotídeos distintos
+permite regulação independente por enzimas e drogas específicas.
+
+Questão 4
+
+Por que o anel contrátil da citocinese exige obrigatoriamente miosina II (e não miosina
+I)? Explique a partir da arquitetura molecular de cada miosina.
+
+    MODELO DE RESPOSTA
+
+   Miosina I é monomérica: uma única cabeça motora ancorada por uma cauda curta
+   a membranas ou vesículas. Ela "carrega" carga ao longo da actina, mas não exerce
+   força contrátil entre dois filamentos. Miosina II, ao contrário, dimeriza pelas caudas e
+   múltiplos dímeros se associam em filamentos bipolares -- com cabeças motoras em
+   ambas as extremidades, orientadas para fora. Essa bipolaridade é o que permite a um
+   único filamento de miosina II puxar dois filamentos de actina antiparalelos em direção
+   ao centro simultaneamente. O anel contrátil precisa exatamente desse "puxão bidire
+   cional" para se fechar; miosina I não tem geometria para isso.
+
+       36
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão 5
+
+Um colega afirma: "A colchicina inibe a divisão celular ao impedir a hidrólise de GTP
+pelos microtúbulos, estabilizando o fuso mitótico em metáfase." Identifique a falha
+conceitual e corrija o raciocínio.
+
+MODELO DE RESPOSTA
+
+A afirmação inverte o mecanismo da colchicina e a confunde com o do taxol. A colchic
+ina NÃO estabiliza microtúbulos -- ela faz o OPOSTO: liga-se a dímeros livres de -
+tubulina no citoplasma e os sequestra, impedindo que sejam adicionados à extremidade
+"+" dos microtúbulos. Sem entrada de novos dímeros-GTP, o GTP-cap se esgota por
+hidrólise contínua, e os microtúbulos sofrem catástrofe -- DESPOLIMERIZAM. O fuso
+mitótico colapsa por falta de microtúbulos, e a mitose para. O TAXOL é que estabiliza
+microtúbulos (impedindo catástrofe), mas atua dentro do polímero, não sobre dímeros
+livres. Ambas as drogas param a mitose, mas por mecanismos opostos.
+
+       37
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q08)
+
+Q01 D     Q02 CECE      Q03 A     Q04 E     Q05 ECEE
+                        Q08 CCEE
+Q06 B     Q07 C                   Q12 EECE  Q13 C
+                        Q11 B     Q17 A     Q18 B
+INTEGRAÇÃO (Q09­Q25)    Q16 CEEC  Q22 E     Q23 B
+                        Q21 D
+Q09 A     Q10 D                   Q29 D     Q30 B
+                        Q28 A
+Q14 E     Q15 D
+
+Q19 C     Q20 ECCE
+
+Q24 CECC  Q25 A
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 C     Q27 E
+
+                        40
+

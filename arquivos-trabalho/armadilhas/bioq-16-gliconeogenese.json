@@ -1,0 +1,175 @@
+{
+  "slug": "bioq-16-gliconeogenese",
+  "total_armadilhas_unicas": 10,
+  "total_questoes_com_armadilha": 15,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Esquecer que o musculo nao pode exportar glicose (sem glicose-6-fosfatase): gliconeogenese e hepatica/renal",
+      "origens": [
+        "386",
+        "389",
+        "390",
+        "391",
+        "394"
+      ],
+      "nivel": "dificil",
+      "conceito": "Gliconeogenese",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "enzimologia"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 5
+    },
+    {
+      "descricao": "Confundir a via piruvato->OAA->PEP com reacao direta; esquecer do custo de GTP da PEPCK",
+      "origens": [
+        "393",
+        "403"
+      ],
+      "nivel": "medio",
+      "conceito": "Gliconeogenese a partir de piruvato",
+      "tags": [
+        "gliconeogenese",
+        "regulacao-metabolica",
+        "acetil-coa"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 2
+    },
+    {
+      "descricao": "confundir inibição direta das enzimas gliconeogenicas com inibição indireta por falta de substrato — o etanol não inibe PEPCK/FBPase, mas consome NAD+ desviando seus substratos",
+      "origens": [
+        "280"
+      ],
+      "nivel": "dificil",
+      "conceito": "consequencias metabolicas da intoxicacao alcoolica: inibição indireta da gliconeogênese por falta de substrato (NADH alto desvia piruvato→lactato e OAA→malato) e cetoacidose",
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-etanol",
+        "regulacao-alosterica",
+        "acidose-metabolica",
+        "krebs",
+        "buffers"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "ácidos graxos de cadeia par Não geram glicose em mamiferos (falta ciclo do glioxilato); so o glicerol e AG impares (propionil-CoA→succinil-CoA) contribuem minimamente",
+      "origens": [
+        "287"
+      ],
+      "nivel": "dificil",
+      "conceito": "regras de interconversao de macronutrientes: glicose→AG (sim); AG→glicose (não em mamiferos, regra fundamental); proteína→glicose (sim, AA glicogenicos)",
+      "tags": [
+        "metabolismo-integrado",
+        "gliconeogenese",
+        "lipogenese",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "F2,6BP e o regulador mais potente do switch: alto em estado pos-prandial (ativa PFK-1, inibe FBPase-1), baixo em jejum (via glucagon→AMPc→PKA→PFK-2 inativa)",
+      "origens": [
+        "310"
+      ],
+      "nivel": "medio",
+      "conceito": "sequencia completa da gliconeogênese (piruvato→glicose): 4 etapas de bypass (piruvato carboxilase, PEPCK, FBPase-1, G6Pase) e 6 etapas reversiveis da glicolise — custo de 6 ATP + 2 NADH",
+      "tags": [
+        "gliconeogenese",
+        "enzimologia",
+        "regulacao-metabolica",
+        "regulacao-alosterica",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "interpretar '4 glicerois → quantos ATP?' como custo total (4 ATP) vs por glicose (2 ATP) — a questão pergunta ATPs por glicose",
+      "origens": [
+        "313"
+      ],
+      "nivel": "medio",
+      "conceito": "gliconeogênese a partir de glicerol: 1 ATP por glicerol (glicerol-quinase); 2 glicerois = 1 glicose → custo de 2 ATP por glicose (muito menor que a partir de piruvato: 6 ATP)",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "metabolismo-integrado"
+      ],
+      "palavras_proibidas": [
+        "questão"
+      ],
+      "incidencia": 1
+    },
+    {
+      "descricao": "acetato → acetil-CoA → Krebs gera CO2 (2 carbonos são perdidos nas etapas ICDH e alfa-KG-DH) — nenhum carbono do acetil-CoA chega ao OAA em saldo liquido",
+      "origens": [
+        "314"
+      ],
+      "nivel": "medio",
+      "conceito": "substratos gliconeogenicos validos: oxaloacetato, piruvato, glicerol SIM; acetil-CoA e ácidos graxos de cadeia par Não (regra fundamental em mamiferos)",
+      "tags": [
+        "gliconeogenese",
+        "metabolismo-integrado",
+        "beta-oxidacao",
+        "energia-livre"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "o ciclo de Cori e 'neutro' em NADH — o proprio lactato 'traz' o NADH necessário; figado não precisa de NADH adicional, ao contrario da gliconeogênese a partir de aminoácidos",
+      "origens": [
+        "316"
+      ],
+      "nivel": "dificil",
+      "conceito": "na gliconeogênese a partir de lactato, o NADH gerado pela LDH (lactato→piruvato) compensa exatamente o NADH consumido pela GAPDH reversa — saldo de NADH = 0",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "ciclo-cori",
+        "cofatores-enzimaticos"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "confundir saldo com custo — a gliconeogênese 'gasta' 6 ATP; os 2 NADH consumidos pela GAPDH reversa não são contados como ATP mas são um custo adicional",
+      "origens": [
+        "319"
+      ],
+      "nivel": "medio",
+      "conceito": "custo de 6 ATP equivalentes para sintetizar 1 glicose a partir de 2 piruvatos: 2 ATP (piruvato carboxilase) + 2 GTP (PEPCK) + 2 ATP (fosfoglicerato quinase reversa)",
+      "tags": [
+        "gliconeogenese",
+        "energia-livre",
+        "enzimologia"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    },
+    {
+      "descricao": "Esquecer que lactato->piruvato consome NAD+ e que o custo total e 6 ATP por glicose sintetizada",
+      "origens": [
+        "396"
+      ],
+      "nivel": "medio",
+      "conceito": "Gliconeogenese a partir de lactato",
+      "tags": [
+        "gliconeogenese",
+        "ciclo-cori",
+        "regulacao-metabolica"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

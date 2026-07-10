@@ -1,0 +1,196 @@
+{
+  "slug": "bioq-23-aminoacidos-ureia",
+  "tag_ancora": "NEBLI::bioq-23-aminoacidos-ureia",
+  "tags_puras": [],
+  "impuras": [
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
+      "guids_kept": [
+        "xx%5cls,yo"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+      "guids_kept": [
+        "mlwF:$cuE)",
+        "fCt5YO^/i:",
+        "w:cvRa;tb4",
+        "n65MnNuZat",
+        "e&+/z=,+{>"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids",
+      "guids_kept": [
+        "Pd2oHzpWuj",
+        "I2CmA/oKiQ",
+        "ks}6Rqj;IO",
+        "xU].S!4W-r"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+      "guids_kept": [
+        "NF,U5$hZo(",
+        "JKmW;$0N)~",
+        "oVP:_LrGvD",
+        "O|cNc=BXu~",
+        "xBp_+kM(kT",
+        "tvEjrMn<Dz",
+        "p9vyBpTE;.",
+        "FJv}xiJ(])",
+        "b]_`hD&R[Q",
+        "rbjz5NWZw]"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption",
+      "guids_kept": [
+        "IkM:;[8%K9"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome",
+      "guids_kept": [
+        "XjjHv,Sg3",
+        "PxbQ:G[?T`",
+        "z53p~@7_o=",
+        "gKTeo9*L/f",
+        "vx(mEe%V!t"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+      "guids_kept": [
+        "wZ@XuH5;NV",
+        "D_De4kY^cE",
+        "z%C`.Rb*Cv",
+        "u3U/`7SL.q",
+        "QLqL-K$,Mn",
+        "bXYI%a7Swl",
+        "lWBzfrb/0c",
+        "vZQy.xy{kI",
+        "Q4{Hj04Au2",
+        "w}z+SX7MWd"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles",
+      "guids_kept": [
+        "jkH:E[(XCB"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+      "guids_kept": [
+        "HW}[6lqtrv",
+        "sF_!99^xPu",
+        "pcTd9j~;E9"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+      "guids_kept": [
+        "e6NVfyAC97"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+      "guids_kept": [
+        "zb/zN%(S,B",
+        "Dn}eE=Vk0,",
+        "iBragZr`GY",
+        "uWx#,?8}8n",
+        "l_?4W2sTp{",
+        "xJ)rl&xU2<",
+        "Dw3-+2s|l|",
+        "d;Gij(Cz|L",
+        "eH~2TvRo6l",
+        "MUs@wN0G7e",
+        "fNqj{`7]HD",
+        "y9x,U?-0^,",
+        "I,}oNREhR&"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+      "guids_kept": [
+        "Co`G<97skG",
+        "Kx.8LMUgzy",
+        "I7v4Quw[rO"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+      "guids_kept": [
+        "sOPWi##LYJ",
+        "h0TU@xYD^t",
+        "O~HvN,jNh!",
+        "oYn(TIgem&"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+      "guids_kept": [
+        "rg$=p|zphB",
+        "xug|mzq!*8",
+        "NZuP(>[jT7",
+        "PF#PEhqcCi",
+        "vYv&XKo`LG",
+        "O38Xo,QIbt",
+        "E1p#`C}6^w",
+        "Q`CIg#d7Ej",
+        "d[Nk,N1M7|",
+        "Pto;A?fPe("
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+      "guids_kept": [
+        "K>PWO)|/6G",
+        "iKY~M@%[&w",
+        "u>Sl|iq*K6",
+        "I./wW!(V3-",
+        "pR.(GO,83-",
+        "m6uBO)o[gc",
+        "u@6qJ<Y5B["
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+      "guids_kept": [
+        "ORNLiJmZ%c",
+        "O;<+%YnACF",
+        "v+Ts<o6YZ4",
+        "u12i4K[[]u",
+        "Q7v7@HVnOx"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown",
+      "guids_kept": [
+        "H&pKqpZgi$",
+        "cCt~xUu*&W"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+      "guids_kept": [
+        "HM,@Q^ec,t"
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+      "guids_kept": [
+        "s`ige<(r?N",
+        "rc)22IWJY("
+      ]
+    },
+    {
+      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::13_Summary_of_High_Yield_Disorders_of_Amino_Acid_Metabolism",
+      "guids_kept": [
+        "c#:kun9ms?"
+      ]
+    }
+  ]
+}

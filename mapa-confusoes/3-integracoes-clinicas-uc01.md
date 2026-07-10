@@ -1,0 +1,39 @@
+# Mapa de Confusões — 3-integracoes-clinicas-uc01
+
+**Estrutura:** 3 seções independentes (uma por aula UC01), ≥4 confusões por seção. Sem cruzamento entre PARTES (decisão Davi 2026-06-08).
+
+---
+
+## PARTE I — Estrutura de lipídeos via SDR
+
+1. **Surfactante não é muco brônquico.** Aluno acha: tanto faz, são duas "secreções" do pulmão. Mecanismo: surfactante é fosfolipídeo anfipático produzido pelo pneumócito tipo II e age na interface ar-água do alvéolo, quebrando tensão superficial. Muco é glicoproteína produzida por células caliciformes da via condutora, e serve pra capturar partícula inalada. Compartimentos diferentes (alvéolo × via condutora), moléculas diferentes (lipídeo × glicoproteína), funções diferentes (tensoativa × depuração). Origem: armadilha clínica clássica.
+
+2. **LaPlace não é "alvéolo pequeno tem mais pressão, sempre".** Aluno acha: a equação P=2T/R diz que raio menor leva a pressão maior; portanto alvéolo pequeno colapsa. Mecanismo: com surfactante normal, a tensão superficial T também cai junto com o raio (a molécula tensoativa fica mais concentrada na superfície quando o alvéolo encolhe), mantendo P estável. O colapso só acontece quando falta surfactante — aí T fica fixa e alta, e a equação realmente joga a pressão pra cima quando R encolhe. A culpa não é da equação; é da molécula que falta. Origem: armadilha didática do próprio slide.
+
+3. **Surfactante não é proteína.** Aluno acha: "surfactante" soa como nome de proteína; provavelmente é proteína. Mecanismo: surfactante é cerca de 90% lipídeo (fosfolipídeo, dominado por uma classe de fosfatidilcolina) e só 10% proteína. O que dá a propriedade tensoativa é a estrutura anfipática do fosfolipídeo — cabeça polar virada pra água do alvéolo, cauda apolar virada pro ar. Sem essa orientação na interface, a tensão superficial não cai. Proteínas do surfactante existem e têm papéis acessórios, mas o protagonismo molecular é do lipídeo. Origem: confusão lexical recorrente em provas UC01.
+
+4. **Tensão superficial não é resistência da via aérea.** Aluno acha: dois nomes pra mesma coisa, "pulmão duro". Mecanismo: tensão superficial é uma força na interface ar-água do alvéolo (puxa a parede do alvéolo pra dentro, tendendo ao colapso). Resistência da via aérea é uma força no fluxo de ar nas vias condutoras (depende do diâmetro do brônquio/bronquíolo, do regime de fluxo, da viscosidade do gás). Doenças diferentes atacam coisas diferentes: SDR e fibrose mexem com tensão/complacência; asma e DPOC mexem com resistência. Confundir é misturar mecânica respiratória inteira. Origem: armadilha em integração com Fisiologia respiratória.
+
+---
+
+## PARTE II — Estrutura e dobramento de proteínas via Alzheimer
+
+1. **Proteína desnaturada não é proteína agregada.** Aluno acha: desnaturação e agregação são o mesmo evento. Mecanismo: desnaturação é perda do dobramento nativo de uma molécula isolada — ela perde função e pode ser re-dobrada por chaperonas ou degradada por proteassomo. Agregação é o passo seguinte: uma proteína desnaturada encontra outra desnaturada e as duas se interligam por β-folha intermolecular (face hidrofóbica exposta gruda em face hidrofóbica exposta). Agregado é estável, resistente à degradação, e cresce indefinidamente. Desnaturação é reversível; agregação tende ao caminho sem volta. Origem: confusão didática clássica de Bioquímica II.
+
+2. **Agregado intracelular (tau) não é o mesmo agregado extracelular (Aβ).** Aluno acha: "Alzheimer tem placa; placa é placa, intra ou extra dá no mesmo". Mecanismo: Alzheimer tem dois agregados em compartimentos distintos. As placas amiloides (peptídeo beta-amiloide) ficam no espaço extracelular do córtex. Os emaranhados neurofibrilares (proteína tau hiperfosforilada) ficam dentro do neurônio. As consequências são diferentes: placa extracelular interfere na comunicação entre neurônios; emaranhado intracelular sufoca a célula por dentro, atrapalhando transporte axonal. Mesma lógica de agregação, compartimentos diferentes. Origem: simplificação errada do slide.
+
+3. **A proteína em si não é o problema; é o dobramento.** Aluno acha: a proteína precursora de amiloide é "ruim" — quem tem APP tem Alzheimer. Mecanismo: APP existe em todo neurônio saudável e tem função fisiológica. O que vira problema é uma clivagem específica que gera um peptídeo curto (Aβ) com tendência a dobrar errado e expor face hidrofóbica. A sequência primária da molécula é a mesma; o que muda é o estado conformacional. Mesma lógica vale pra tau: tau é proteína fisiológica de microtúbulo; a versão hiperfosforilada e mal-dobrada é que vira semente de agregado. Origem: simplificação do conceito de "doença de proteína".
+
+4. **Agregado não mata o neurônio "diretamente por toxicidade aguda".** Aluno acha: o agregado é um veneno que mata a célula imediatamente por contato. Mecanismo: a relação é multifatorial e indireta. O agregado interfere com tráfego axonal (no caso de tau), estressa o retículo endoplasmático (proteínas mal-dobradas saturam a maquinaria de controle de qualidade), sobrecarrega autofagia (a célula tenta digerir e não dá conta), e ativa neuroinflamação local. O neurônio morre por colapso funcional acumulado, não por uma toxina pontual. Por isso o curso de Alzheimer é lento (anos), não agudo. Origem: simplificação que vem da metáfora "placa é veneno".
+
+---
+
+## PARTE III — Princípios de sinalização via BCR-ABL
+
+1. **BCR-ABL não é mutação pontual de ABL1.** Aluno acha: ABL1 sofreu uma troca de aminoácido e virou hiperativa. Mecanismo: BCR-ABL é fusão gênica por translocação. O cromossomo 9 troca pedaço com o cromossomo 22 (translocação recíproca t(9;22), gera o cromossomo Filadélfia). O pedaço de ABL1 (que codifica a quinase) gruda no gene BCR e o produto da leitura desse gene fundido é uma proteína nova (BCR-ABL1) que não existe normalmente, com o domínio quinase do ABL travado ligado porque perdeu a região reguladora original. Não é uma versão "mutada" — é uma proteína inédita. Origem: confusão genética básica que reaparece todo ano.
+
+2. **Quinase não é fosfatase.** Aluno acha: enzima que mexe com fosfato, tanto faz. Mecanismo: quinase coloca fosfato num substrato (gasta ATP, transfere o fosfato terminal pro grupo hidroxila da serina/treonina/tirosina do alvo). Fosfatase tira fosfato (libera o fosfato do alvo, retorna o aminoácido pra forma sem fosfato). Sinalização normal mantém os dois em equilíbrio dinâmico — quinase liga, fosfatase desliga. BCR-ABL desequilibra pra fosforilação porque a quinase está travada ligada e a fosfatase não dá conta de remover na velocidade que a quinase coloca. Origem: confusão clássica de enzimologia.
+
+3. **Imatinib não "mata leucócito".** Aluno acha: imatinib é citotóxico, como quimioterapia convencional. Mecanismo: imatinib é uma molécula pequena que se encaixa exatamente no sítio onde o ATP entraria na quinase BCR-ABL. Ocupando esse sítio, ele bloqueia a transferência de fosfato — a quinase deixa de fosforilar substratos. O sinal aberrante para de ser emitido. A célula que dependia desse sinal pra continuar proliferando perde o estímulo e entra em vias normais de apoptose. Imatinib não envenena a célula; ele desliga o sinal que mantinha a célula viva fora de hora. Origem: confusão sobre alvo molecular vs ação citotóxica.
+
+4. **Receptor não é cascata.** Aluno acha: tudo na sinalização é "receptor". Mecanismo: receptor é a primeira proteína da via — a que reconhece o sinal externo (ligante) e muda de conformação. Cascata são as proteínas seguintes, que recebem o sinal do receptor e o amplificam por sucessivas fosforilações. Em BCR-ABL, a proteína de fusão tem o papel da quinase intracelular, não do receptor — ela age rio abaixo do que seria o receptor, mas como se já tivesse sido ativada pelo sinal. Por isso o sinal externo é dispensável no quadro patológico. Origem: confusão didática que confunde topologia da via.

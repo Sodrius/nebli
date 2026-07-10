@@ -1,0 +1,31 @@
+# MAPA_CONTEUDO -- histo-09-vasos-sanguineos-linfaticos
+# Slide-fonte: sistema circulatorio - histologia.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: 30/06/26 1 Sistema Circulatório 1 Sistema circulatório 9 Sistema Vascular Sanguíneo 9 Sistema Vascular Linfático Troca de água, solutos, gases e macromoléculas Retorno de fluídos intersticiais para o sangue • artérias /arteríolas • capilares • vênula...
+slide-02: 30/06/26 2 Sistema Vascular Sanguíneo artérias arteríolas capilares vênulas veias coração 3 Vasos sangüíneos e pressão arterial 4
+slide-03: 30/06/26 3 9 Túnica íntima (camada interna) Estrutura geral dos vasos 9 Túnica média (camada média) 9 Túnica adventícia (camada externa) 5 Estrutura geral dos vasos Endotélio Lâmina basal Camada subendotelial Túnica íntima Lâmina elástica interna Tún...
+slide-04: 30/06/26 4 Células Endoteliais 9 Poligonais, longo eixo orientado na direção do fluxo sanguíneo; 9 constituído por um epitélio pavimentoso simples 9 Prendem-se umas as outras através de zônulas de oclusão 9 Permeabilidade variável 7 •Artérias de gran...
+slide-05: 30/06/26 5 Artérias Elásticas 9 Artérias Elásticas Vasa vasorum 10
+slide-06: 30/06/26 6 Artérias Elásticas grande quantidade de placas de material elástico, distribuídas concêntricamente na sua túnica média Fenestradas 11 Artérias Elásticas Lâmina elástica perfurada da camada média 12
+slide-07: 30/06/26 7 Artérias Musculares 13 Artérias Musculares 14
+slide-08: 30/06/26 8 Artérias Musculares 15 Artéria muscular x artéria elástica HE Método de Weigert 16
+slide-09: 30/06/26 9 Pequenas artérias Corte transversal Corte longitudinal - Túnica média desenvolvida e luz mais ampla que arteríolas 17 Arteríola - Diâmetro menor que 0,5 mm: último segmento da ramificação dos vasos arteriais -Túnicas distintas - a túnica í...
+slide-10: 30/06/26 10 Metarteríola 19 Histologia do Sistema Circulatório Geral Glomérulo Fígado e Hipófise Sistema Porta Arterial Disposição Típica Sistema Porta Venoso Sistema Porta: veia ou arteríola fica interposta entre duas redes de capilares Sangue passa...
+slide-11: 30/06/26 11 Capilares 9 Única camada de células endoteliais altamente permeáveis; 9 Porção do sistema circulatório onde ocorrem trocas entre sangue e tecidos; 9 Pericitos Capilar Pericito 21 Capilares 22
+slide-12: 30/06/26 12 Tipos de capilares 9 Ex.: Tecidos muscular, conjuntivos, nervoso e glândulas exócrinas; Capilar contínuo Lâmina basal contínua Endotélio contínuo 23 Capilar contínuo 24
+slide-13: 30/06/26 13 9 Ex.: Rim, intestinos e glândulas endócrinas Tipos de capilares Capilar fenestrado Lâmina basal contínua Endotélio com fenestrações 25 Capilar fenestrado 26
+slide-14: 30/06/26 14 9 Ex.: Fígado e órgãos hemocitopoéticos Tipos de capilares Capilar sinusóide Lâmina basal descontínua Endotélio com fenestrações 27 Capilares Sinusóides 28
+slide-15: 30/06/26 15 Veias 9 Vasos que chegam ao coração (aferentes): •Vênulas Pós-capilares •Veias Veia Cava 29 Características Estruturais das Veias 9 Ausência de lâminas elásticas 9 Túnica média escassa 9 Túnica adventícia espessa, rica em colágeno 9 Luz r...
+slide-16: 30/06/26 16 Artérias x Veias 1- o calibre e espessura dos vasos. 2- a espessura das túnicas Outros: - as artérias : lâmina elástica interna - os vasa vasorum existem em maior quantidade nas veias que nas artérias 31 Artérias x Veias 32
+slide-17: 30/06/26 17 Artéria ? Veia? 1 2 33 Veias e vênulas 34
+slide-18: 30/06/26 18 Arteríola? Vênula? 1 2 35 Válvulas venosas 9 Dobras da túnica íntima em forma de meia lua que se projetam para o lúmen dos vasos; 36
+slide-19: 30/06/26 19 Válvulas venosas musculatura 37 Sistema Vascular Linfático 9 Drenagem do líquido tecidual para o sangue •Capilares Linfáticos •Vasos Linfáticos 9 Encontrado na maioria dos órgãos, exceto SNC, medula óssea, cartilagem, osso e placenta; 9 L...
+slide-20: 30/06/26 20 Vasos Linfáticos 39 Vasos Linfáticos 40
+slide-21: 30/06/26 21 Varizes 41 Vasos Linfáticos 9 Estrutura semelhante a da veia, mas sem separação distinta entre as túnicas; 9 Maior número de válvulas 9 Não possuem junções de oclusão; 42
+slide-22: 30/06/26 22 Vasos Linfáticos de grande calibre Uma veia de médio calibre e um vaso linfático de pequeno calibre. 43 Vasos Linfáticos 44
+slide-23: [VISUAL -- usar adjacente com titulo extraivel]

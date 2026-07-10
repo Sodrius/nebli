@@ -1,0 +1,861 @@
+{
+  "slug": "biomol-26-dna-recombinante-pcr",
+  "gerado_em": "2026-07-05",
+  "tags_consulta": [
+    "Laboratory_Techniques"
+  ],
+  "regex": null,
+  "n_cards": 76,
+  "cards": [
+    {
+      "guid": "hn!PPo(X:|",
+      "deck": "AnKing Step Deck",
+      "front": "Are RNA and protein typically fragmented before analysis ? [No]",
+      "raw0": "<div><div>Are <b>RNA</b> and <b>protein</b> typically <u>fragmented</u> before <b>analysis</b>? </div><br><div>{{c1::No}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots"
+      ]
+    },
+    {
+      "guid": "l.~L&iyfVT",
+      "deck": "AnKing Step Deck",
+      "front": "Is DNA typically fragmented before analysis ? [Yes]",
+      "raw0": "<div><div>Is <b>DNA</b> typically <u>fragmented</u> before <b>analysis</b>?</div></div><br><div>{{c1::Yes}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots"
+      ]
+    },
+    {
+      "guid": "m!^T8BMK,K",
+      "deck": "AnKing Step Deck",
+      "front": "[ DNA ] polymerase must see a(n) [ RNA primer ] to bind, which is complementary and antiparallel to the template strand",
+      "raw0": "<div><div><div>{{c2::<b>DNA</b>}}<b> polymerase</b> <i>must</i> see a(n) {{c1::<b>RNA primer</b>}} to bind, which is <b>complementary</b> and <b>antiparallel</b> to the template strand </div></div></div>",
+      "back": "Technically it doesn't need to be an RNA primer, just any primer with a 3'-OH group (e.g., PCR) [img] Photo credit: pixabay [ Diagram Dna Biology - Free vector graphic on Pixabay ]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "AL>Oun3TJ)",
+      "deck": "AnKing Step Deck",
+      "front": "[microRNAs] are small, noncoding RNA molecules that post-transcriptionally regulate protein expression",
+      "raw0": "<div><div>{{c1::microRNAs}} are small, <i>noncoding</i> <b>RNA</b> <b>molecules</b> that <i>post-transcriptionally</i> regulate <b>protein</b> expression</div></div>",
+      "back": "Introns can contain microRNA (miRNA) genes [img] Photo credit: lumenlearning [ RNA Post-Transcriptional Modification | Biology for Majors I (lumenlearning.com) ]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*MicroRNA"
+      ]
+    },
+    {
+      "guid": "DZcu*Q8j[h",
+      "deck": "AnKing Step Deck",
+      "front": "microRNA often leads to the [silencing/inactivation] of target mRNA , thus causing [ decreased ] translation into protein",
+      "raw0": "<div><b>microRNA</b> often leads to the {{c1::silencing/inactivation}} of <i>target</i> <i>mRNA</i>, thus causing {{c1::<u>decreased</u>}} translation into protein</div>",
+      "back": "- Can have multiple mRNA targets - Typically related to complementary base pairing [img] Photo credit: lumenlearning [ RNA Post-Transcriptional Modification | Biology for Majors I (lumenlearning.com) ]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*MicroRNA"
+      ]
+    },
+    {
+      "guid": "pLfc3o50?=",
+      "deck": "AnKing Step Deck",
+      "front": "Abnormal expression of miRNAs contributes to certain [malignancies] (e.g., by silencing an mRNA from a tumor suppressor gene)",
+      "raw0": "<div>Abnormal expression of <b>miRNAs</b> contributes to certain {{c1::malignancies}} (e.g., by silencing an mRNA from a tumor suppressor gene)</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*MicroRNA"
+      ]
+    },
+    {
+      "guid": "y+,/rIUf9=",
+      "deck": "AnKing Step Deck",
+      "front": "[ Recombinant ] DNA is DNA spliced together from two sources (usually human gene + bacterial vector)",
+      "raw0": "<div>{{c1::<b>Recombinant</b>}} <b>DNA</b> is DNA spliced together from two sources (usually human gene + bacterial vector)</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "uGu4W8_~<d",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ palindrome ] is a DNA sequence which reads the same backwards and forwards on opposite strands of DNA (usually 4 or 6 bp)",
+      "raw0": "<div>A(n) {{c1::<b>palindrome</b>}} is a DNA sequence which reads the same backwards and forwards on opposite strands of DNA (usually 4 or 6 bp)</div>",
+      "back": "Cleaved by a restriction endonuclease (e.g., EcoR1) [img]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "mE^lpMO!eO",
+      "deck": "AnKing Step Deck",
+      "front": "What class of enzymes cleaves nucleotides at the ends of a DNA strand? [Exonucleases]",
+      "raw0": "<div><div>What <i>class</i> of enzymes cleaves nucleotides at the <u>ends</u> of a DNA strand? </div><div><br></div><div>{{c1::Exonucleases}}</div></div>",
+      "back": "Whereas endonucleases cleave nucleotides in the middle of a DNA strand",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "jRZK>AI:.w",
+      "deck": "AnKing Step Deck",
+      "front": "What class of enzymes cleaves nucleotides in the middle of a DNA strand? [Endonucleases]",
+      "raw0": "<div><div><div>What <i>class</i> of enzymes cleaves nucleotides <u>in the middle</u> of a DNA strand? </div><div><br></div><div>{{c1::Endonucleases}}</div></div></div>",
+      "back": "- e.g., restriction endonucleases cleave palindromes - Whereas exonucleases cleave nucleotides at the ends of a DNA strand",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "DTfA<~LN7R",
+      "deck": "AnKing Step Deck",
+      "front": "[Cloning] is the production of a recombinant DNA molecule that is self-perpetuating",
+      "raw0": "<div><div>{{c1::Cloning}} is the production of a <i>recombinant</i> DNA molecule that is self-perpetuating</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "Hqs!p?=L$T",
+      "deck": "AnKing Step Deck",
+      "front": "The first step of cloning is to isolate the eukaryotic [mRNA] of interest",
+      "raw0": "<div><div>The <i>first</i> step of <b>cloning</b> is to isolate the eukaryotic {{c1::mRNA}} of interest</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "v8=fbiCjA-",
+      "deck": "AnKing Step Deck",
+      "front": "Cloning : Isolated mRNA is exposed to reverse transcriptase to produce [ cDNA ] (lacks introns)",
+      "raw0": "<div><div><u>Cloning</u>: Isolated mRNA is exposed to <b><i>reverse transcriptase</i></b> to produce {{c1::<b>cDNA</b>}} (lacks introns)</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "l{;LM^ma0m",
+      "deck": "AnKing Step Deck",
+      "front": "Cloning : After cDNA is produced, cDNA fragments are inserted into [ bacterial plasmids ], which contain [antibiotic resistance] genes",
+      "raw0": "<div><div><u>Cloning</u>: After <b>cDNA</b> is produced, cDNA fragments are inserted into {{c1::<b>bacterial plasmids</b>}}, which contain {{c2::antibiotic resistance}} genes</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "P|r|8)S&il",
+      "deck": "AnKing Step Deck",
+      "front": "Cloning : After the recombinant plasmid has been produced, it is transformed into [bacteria]",
+      "raw0": "<div><div><u>Cloning</u>: After the <i>recombinant plasmid</i> has been produced, it is <b>transformed</b> into {{c1::bacteria}} </div></div>",
+      "back": "Surviving bacteria on antibiotic medium produce cloned cDNA [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning"
+      ]
+    },
+    {
+      "guid": "dQ,i)M];fg",
+      "deck": "AnKing Step Deck",
+      "front": "DNA requires [fragmentation] for analysis , RNA and proteins do not (analyzed directly)",
+      "raw0": "<div><div><b>DNA</b> requires {{c1::fragmentation}} for <u>analysis</u>, <b>RNA</b> and <b>proteins</b> do not (analyzed directly)</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::*Basics"
+      ]
+    },
+    {
+      "guid": "sW&U<EuQNl",
+      "deck": "AnKing Step Deck",
+      "front": "All RNA/DNA is [negatively] charged",
+      "raw0": "<div><div>All <b>RNA/DNA</b> is {{c1::negatively}} charged</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::*Basics"
+      ]
+    },
+    {
+      "guid": "yg7G1*FlM|",
+      "deck": "AnKing Step Deck",
+      "front": "Most proteins are [negatively] charged",
+      "raw0": "Most <b>proteins</b> are {{c1::negatively}} charged",
+      "back": "Histones are a notable exception",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::*Basics"
+      ]
+    },
+    {
+      "guid": "08iUkf;~+",
+      "deck": "AnKing Step Deck",
+      "front": "Gel electrophoresis separates fragments on the basis of [size]",
+      "raw0": "<div><div><b>Gel electrophoresis </b>separates fragments on the basis of {{c1::size}} </div></div>",
+      "back": "All DNA/RNA/protein fragments used are negatively charged [img] Photo credit: Mckenzielower , CC BY-SA 4.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::*Basics"
+      ]
+    },
+    {
+      "guid": "myuA+8$tV8",
+      "deck": "AnKing Step Deck",
+      "front": "When using blotting procedures , the [probe] determines what sequences are detected",
+      "raw0": "<div><div>When using <b>blotting procedures</b>, the {{c1::probe}} determines what sequences are detected </div></div>",
+      "back": "The probe is complementary to the gene sequence of interest [img] Photo credit: libretexts [ 8.7: DNA Analysis- Blotting and Hybridization - Biology LibreTexts ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::*Basics"
+      ]
+    },
+    {
+      "guid": "wE/zWfIL=y",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ Southern ] blot is used to analyze [DNA]",
+      "raw0": "<div>A(n) {{c2::<b>Southern</b>}}<b> blot</b> is used to analyze {{c1::DNA}}</div>",
+      "back": "- Used in genetic testing of diseases, forensics (DNA identification - microsatellite analysis can also be used here) - Can use to observe inheritance of RFLP markers SN o W DR o P : - S outhern = D NA - N orthern = R NA - W estern = P rotein",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::01_Southern_blot"
+      ]
+    },
+    {
+      "guid": "Gaogt!pI1d",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ Northern ] blot is used to analyze [RNA]",
+      "raw0": "<div>A(n) {{c2::<b>Northern</b>}}<b> blot</b> is used to analyze {{c1::RNA}}</div>",
+      "back": "- Measure mRNA levels ( gene expression ) SN o W DR o P : - S outhern = D NA - N orthern = R NA - W estern = P rotein",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::02_Northern_blot"
+      ]
+    },
+    {
+      "guid": "zD2_BLboB+",
+      "deck": "AnKing Step Deck",
+      "front": "Does a Southern blot require gel electrophoresis before analysis? [Yes]",
+      "raw0": "<div><div>Does a <b>Southern blot</b> require <u>gel electrophoresis</u> before analysis? </div><br><div>{{c1::Yes}}</div></div>",
+      "back": "[img] Photo credit: libretexts [ 8.7: DNA Analysis- Blotting and Hybridization - Biology LibreTexts ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::01_Southern_blot"
+      ]
+    },
+    {
+      "guid": "p;?N#^1wyl",
+      "deck": "AnKing Step Deck",
+      "front": "Does a Northern blot require gel electrophoresis before analysis? [Yes]",
+      "raw0": "<div><div><div>Does a <b>Northern blot</b> require <u>gel electrophoresis</u> before analysis? </div><br><div>{{c1::Yes}}</div></div></div>",
+      "back": "[img] Photo credit: libretexts [ 8.7: DNA Analysis- Blotting and Hybridization - Biology LibreTexts ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::02_Northern_blot"
+      ]
+    },
+    {
+      "guid": "z6q~b4p1_!",
+      "deck": "AnKing Step Deck",
+      "front": "A Northern blot is useful for studying gene [expression]",
+      "raw0": "<div><div>A <b>Northern blot</b> is useful for studying gene {{c1::expression}}</div></div>",
+      "back": "[img] Photo credit: libretexts [ 8.7: DNA Analysis- Blotting and Hybridization - Biology LibreTexts ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::02_Northern_blot"
+      ]
+    },
+    {
+      "guid": "xR0zmIW{]L",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ Western ] blot is used to analyze [protein]",
+      "raw0": "<div>A(n) {{c2::<b>Western</b>}}<b> blot</b> is used to analyze {{c1::protein}}</div>",
+      "back": "SN o W DR o P : - S outhern = D NA - N orthern = R NA - W estern = P rotein",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::03_Western_blot"
+      ]
+    },
+    {
+      "guid": "Hram,tJ0bP",
+      "deck": "AnKing Step Deck",
+      "front": "What type of probe is used to bind protein when using a Western blot ? [Labeled antibody]",
+      "raw0": "<div><div>What type of <i>probe</i> is used to bind <u>protein</u> when using a <b>Western blot</b>? </div><br><div>{{c1::Labeled antibody}}</div></div>",
+      "back": "Binds protein that has been separated by gel electrophoresis and transferred to a membrane [img] Photo credit: libretexts [ 8.7: DNA Analysis- Blotting and Hybridization - Biology LibreTexts ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::03_Western_blot"
+      ]
+    },
+    {
+      "guid": "Rhzb#]*d%9",
+      "deck": "AnKing Step Deck",
+      "front": "What type of probe is used to bind DNA/RNA when using a Southern/Northern blot ? [Labeled single-stranded DNA / RNA oligonucleotide]",
+      "raw0": "<div><div><div>What type of <i>probe</i> is used to bind <u>DNA/RNA</u> when using a <b>Southern/Northern blot</b>? </div><br><div>{{c1::Labeled single-stranded DNA / RNA oligonucleotide}}</div></div></div>",
+      "back": "This can be radioactive or fluorescently labeled [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::01_Southern_blot",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::02_Northern_blot"
+      ]
+    },
+    {
+      "guid": "CcLL&<r=J=",
+      "deck": "AnKing Step Deck",
+      "front": "Does a Dot (slot) blot require gel electrophoresis before analysis? [No!]",
+      "raw0": "<div><div>Does a <b>Dot (slot) blot</b> require <u>gel electrophoresis</u> before analysis?</div><br><div>{{c1::No!}}</div></div>",
+      "back": "Useful for analyzing DNA, RNA, or protein but must know the specific mutation being looked for; e.g., Hemochromatosis (person #3 is homozygous mutant for the C282Y mutation)",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::03_Western_blot"
+      ]
+    },
+    {
+      "guid": "pJeOdZ4^tB",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ Southwestern ] blot is used to identify [ DNA-binding ] proteins using labeled oligonucleotide probes",
+      "raw0": "<div>A(n) {{c1::<b>Southwestern</b>}}<b> blot</b> is used to identify {{c2::<b>DNA-binding</b>}}<b> proteins</b> using labeled oligonucleotide probes</div>",
+      "back": "- Useful for identifying transcription factors SN o W DR o P : - S outhern = D NA - N orthern = R NA - W estern = P rotein",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::03_Western_blot::*Southwestern_Blot"
+      ]
+    },
+    {
+      "guid": "t+PWqt|Y_*",
+      "deck": "AnKing Step Deck",
+      "front": "[ RFLP ] analysis analyzes DNA using variations in restriction enzyme sites between homologous DNA strands",
+      "raw0": "<div>{{c1::<b>RFLP</b>}}<b> analysis</b> analyzes DNA using <u>variations</u> in <b>restriction enzyme</b> <b>sites</b> between <i>homologous</i> DNA strands</div>",
+      "back": "RFLP = restriction fragment length polymorphism",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::01_Southern_blot::*RFLP_Analysis"
+      ]
+    },
+    {
+      "guid": "ePqwo7~Y/%",
+      "deck": "AnKing Step Deck",
+      "front": "[ Polymerase chain reaction (PCR)] is a powerful diagnostic tool used to amplify a desired fragment of DNA",
+      "raw0": "<div><div>{{c1::<b>Polymerase chain reaction</b> (PCR)}} is a powerful diagnostic tool used to <u>amplify</u> a desired fragment of DNA<br></div></div>",
+      "back": "vs RT-PCR which is used for the detection and quantification of mRNA [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "Ow)%=S|%Yk",
+      "deck": "AnKing Step Deck",
+      "front": "In the first step of PCR , DNA is [denatured] by using [heat] to separate the strands",
+      "raw0": "<div><div><div>In the <u>first</u> step of <b>PCR</b>, DNA is {{c1::denatured}} by using {{c2::heat}} to separate the strands</div></div></div>",
+      "back": "Temperature is approximately 95 °C (203 °F) [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "q/J/Zbp,V?",
+      "deck": "AnKing Step Deck",
+      "front": "In the second step of PCR , [ DNA primers] [ anneal ] to specific sequences on each DNA strand to be amplified",
+      "raw0": "<div><div><div>In the <u>second</u> step of <b>PCR</b>, {{c2::<u>DNA</u> primers}} {{c1::<b>anneal</b>}} to <i>specific sequences</i> on each DNA strand to be amplified</div></div></div>",
+      "back": "Temperature is approximately 55 ° C (131 °F) [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "LNS|XmcX_k",
+      "deck": "AnKing Step Deck",
+      "front": "In the final step of PCR , heat-stable [Taq DNA polymerase] [ elongates ] the DNA sequence following each primer",
+      "raw0": "<div><div><div>In the <u>final</u> step of <b>PCR</b>, heat-stable {{c2::Taq DNA polymerase}} {{c1::<b>elongates</b>}} the DNA sequence following each primer </div></div></div>",
+      "back": "Temperature is approximately 72 °C (161.6 °F) [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "LWBYl29|Sb",
+      "deck": "AnKing Step Deck",
+      "front": "How many primers are needed for polymerase chain reaction (PCR)? [Two (one for the 3' end of each DNA strand)]",
+      "raw0": "<div><div><div>How <u>many</u> <b>primers</b> are needed for polymerase chain reaction (PCR)? </div><br><div>{{c1::Two (one for the 3' end of <u>each</u> DNA strand)}}</div></div></div>",
+      "back": "[img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "n65[|ou2N?",
+      "deck": "AnKing Step Deck",
+      "front": "What type of primer is used in a polymerase chain reaction (PCR)? [DNA primer]",
+      "raw0": "<div><div><div>What <u>type</u> of <b>primer</b> is used in a polymerase chain reaction (PCR)?</div><br><div>{{c1::DNA primer}}</div></div></div>",
+      "back": "In the body, RNA primers are used; in the test tube, DNA primers are used [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "plZX5,Fd5x",
+      "deck": "AnKing Step Deck",
+      "front": "Which end of the DNA strand does the DNA primer bind to during PCR? [3' end]",
+      "raw0": "<div><div><div>Which end of the DNA strand does the <b>DNA primer</b> bind to during PCR?</div><br><div>{{c1::3' end}}</div></div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "I7hFQbMUe4",
+      "deck": "AnKing Step Deck",
+      "front": "PCR requires the addition of all four [deoxyribonucleotide triphosphates (dNTPs)] for DNA synthesis",
+      "raw0": "<div><div><div><b>PCR</b> requires the addition of all <u>four</u> {{c1::deoxyribonucleotide triphosphates (dNTPs)}} for DNA synthesis</div></div></div>",
+      "back": "- Also requires DNA polymerase and primers - PCR is repeated until DNA sample size is sufficient [img] [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::01_PCR::*Polymerase_Chain_Reaction"
+      ]
+    },
+    {
+      "guid": "Jc61yGH*sL",
+      "deck": "AnKing Step Deck",
+      "front": "[Flow cytometry] is a laboratory technique used to assess size, granularity, and protein expression of individual cells in a sample",
+      "raw0": "<div><div><b>{{c1::Flow cytometry}}</b> is a laboratory technique used to assess size, granularity, and protein expression of <u>individual</u> cells in a sample</div></div>",
+      "back": "Commonly used in the workup of hematologic abnormalities and immunodeficiencies [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::03_Flow_Cytometry",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::04_Flow_cytometry"
+      ]
+    },
+    {
+      "guid": "pDG%-|UfU=",
+      "deck": "AnKing Step Deck",
+      "front": "What laboratory technique is useful in determining CD4 cell count in HIV patients? [Flow cytometry]",
+      "raw0": "<div><div>What <u>laboratory technique</u> is useful in determining <b>CD4 cell count</b> in HIV patients? </div><br><div>{{c1::Flow cytometry}}</div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0 Untreated HIV Infection Time Course Stage 1 (Acute Stage) - Wide disseminations of virus and seeding of lymphoid organs - Presents as flu-like symptoms - CD4 counts decrease with an acute rise in HIV RNA copies Stage 2 (Clinical Latency) - Mild symptoms including mucocutaneous manifestations and recurrent respiratory tract infections - CD4 count drop below 500 Stage 3 (Advanced Symptoms) - Unexplained chronic diarrhea and severe bacterial infections - CD4 count drops below 350 Stage 4 (AIDS) - Oppportunistic diseases - CD4 count drops below 200",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::04_Flow_cytometry"
+      ]
+    },
+    {
+      "guid": "D6(PE_a,7<",
+      "deck": "AnKing Step Deck",
+      "front": "In flow cytometry , cells are tagged with [antibodies] specific to surface or intracellular proteins",
+      "raw0": "<div><div>In <b>flow cytometry</b>, cells are tagged with {{c1::antibodies}} specific to surface or intracellular proteins </div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::03_Flow_Cytometry",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::04_Flow_cytometry"
+      ]
+    },
+    {
+      "guid": "EqHo8=1nY.",
+      "deck": "AnKing Step Deck",
+      "front": "In flow cytometry , antibodies are tagged with a unique [fluorescent dye], which is detected and counted during analysis",
+      "raw0": "<div><div>In <b>flow cytometry</b>, <u>antibodies</u> are tagged with a unique {{c1::fluorescent dye}}, which is detected and counted during analysis </div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::03_Flow_Cytometry",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::04_Flow_cytometry"
+      ]
+    },
+    {
+      "guid": "p<Y61ie`[]",
+      "deck": "AnKing Step Deck",
+      "front": "[ Microarrays ] analyze thousands of nucleic acid sequences arranged in grids on glass or silicon",
+      "raw0": "<div><div><div>{{c1::<b>Microarrays</b>}} analyze <u>thousands</u> of nucleic acid sequences arranged in <i>grids</i> on glass or silicon</div></div></div>",
+      "back": "Useful for genotyping, clinical genetic testing, forensic analysis, cancer mutations, and genetic linkage analysis [img] Photo credit: Larssono , Public domain, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::05_Microarrays"
+      ]
+    },
+    {
+      "guid": "L|x::p.jW4",
+      "deck": "AnKing Step Deck",
+      "front": "[ Microarrays ] are a laboratory technique used to profile gene expression levels of thousands of genes simultaneously to study certain diseases and treatments",
+      "raw0": "<div><div><div><div>{{c1::<b>Microarrays</b>}} are a laboratory technique used to profile <b>gene expression</b> levels of <u>thousands</u> of genes <i>simultaneously</i> to study certain diseases and treatments</div></div></div></div>",
+      "back": "[img] Photo credit: Larssono , Public domain, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::05_Microarrays"
+      ]
+    },
+    {
+      "guid": "I*+&|z07G6",
+      "deck": "AnKing Step Deck",
+      "front": "Microarrays use a(n) [labeled DNA/RNA] probe, which is hybridized to the chip, and a scanner detects the relative amounts of complementary binding",
+      "raw0": "<div><div><div><b>Microarrays</b> use a(n) {{c1::labeled DNA/RNA}} probe, which is hybridized to the chip, and a scanner detects the relative amounts of complementary binding</div><div></div></div></div>",
+      "back": "[img] Photo credit: Larssono , Public domain, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::05_Microarrays"
+      ]
+    },
+    {
+      "guid": "m5^ii,r)80",
+      "deck": "AnKing Step Deck",
+      "front": "What two types of variations in DNA are detected when using microarrays ? (DNA markers) [ - Single nucleotide polymorphisms (SNPs) - Copy number variations (CNVs) ]",
+      "raw0": "<div><div><div>What <u>two</u> types of variations in DNA are detected when using <b>microarrays</b>? (DNA markers)</div><br><div>{{c1::<div> - Single nucleotide polymorphisms (SNPs)</div><div> - Copy number variations (CNVs)</div>}}</div></div></div>",
+      "back": "Disadvantage: cannot detect translocation or inversions, only can detect gain or loss of material",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::05_Microarrays"
+      ]
+    },
+    {
+      "guid": "jtO4Js}=Zy",
+      "deck": "AnKing Step Deck",
+      "front": "[Enzyme-linked immunosorbent assay (ELISA)] is an immunologic test used to detect the presence of either a specific antigen or antibody in a patient's blood sample",
+      "raw0": "<div>{{c1::Enzyme-linked immunosorbent assay (ELISA)::not Coombs}} is an <u>immunologic test</u> used to detect the presence of either a <i>specific</i> <b>antigen</b> or <b>antibody</b> in a patient's blood sample</div>",
+      "back": "Major ELISA variations include direct, sandwich, and competitive; can have high sensitivity and specificity [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::04_ELISA",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::06_Enzyme-linked_immunosorbent_assay"
+      ]
+    },
+    {
+      "guid": "w{GRtC22FV",
+      "deck": "AnKing Step Deck",
+      "front": "When using ELISA , detection involves the use of a(n) [antibody] linked to a(n) [enzyme]",
+      "raw0": "<div>When using <b>ELISA</b>, detection involves the use of a(n) {{c1::antibody}} linked to a(n) {{c2::enzyme}} </div>",
+      "back": "Added substrate then reacts with enzyme, producing a detectable signal (e.g., color change) [img] Photo credit: Allan.richard5093 , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::04_ELISA",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::06_Enzyme-linked_immunosorbent_assay"
+      ]
+    },
+    {
+      "guid": "=Ie38oi4p",
+      "deck": "AnKing Step Deck",
+      "front": "[ Karyotyping ] is a process in which [ metaphase ] chromosomes are stained, ordered, and numbered according to morphology, size, arm-length ratio, and banding pattern",
+      "raw0": "<div>{{c1::<b>Karyotyping</b>}} is a process in which {{c2::<b>metaphase</b>::phase}} <b>chromosomes</b> are stained, ordered, and numbered according to morphology, size, arm-length ratio, and banding pattern</div>",
+      "back": "Can be performed on a sample of blood, bone marrow, amniotic fluid, or placental tissue [img] Photo credit: L. Gabriel Sanchez-Partida, Richard D. W. Kelly, Huseyin Sumer, Camden Y. Lo, Rotem Aharon, Michael K. Holland, Moira K. O'Bryan, Justin C. St. John , CC BY 2.5 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::07_Karyotyping"
+      ]
+    },
+    {
+      "guid": "n$D@NX[=dg",
+      "deck": "AnKing Step Deck",
+      "front": "What laboratory technique is used to diagnose chromosomal imbalances ? [Karyotyping]",
+      "raw0": "<div>What <u>laboratory technique</u> is used to diagnose <b>chromosomal imbalances</b>?</div><br><div>{{c1::Karyotyping}}</div>",
+      "back": "- AKA cytogenetic analysis - e.g., autosomal trisomies, sex chromosome disorders [img] Photo credit: Courtesy: National Human Genome Research Institute , Public domain, via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::07_Karyotyping"
+      ]
+    },
+    {
+      "guid": "F3sN[~O.Oi",
+      "deck": "AnKing Step Deck",
+      "front": "[Fluorescence in situ hybridization (FISH)] uses a fluorescent DNA/RNA probe to bind to a specific gene of interest on chromosomes",
+      "raw0": "<div>{{c1::Fluorescence in situ hybridization (FISH)}} uses a <b>fluorescent DNA/RNA probe</b> to bind to a specific gene of interest on chromosomes</div>",
+      "back": "[img] Photo credit: MrMatze , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization"
+      ]
+    },
+    {
+      "guid": "d7=l53;X!v",
+      "deck": "AnKing Step Deck",
+      "front": "[Fluorescence in situ hybridization (FISH)] is a laboratory technique used for specific localization of genes and direct visualization of chromosomal anomalies",
+      "raw0": "<div>{{c1::Fluorescence in situ hybridization (FISH)}} is a laboratory technique used for specific <u>localization</u> of genes and direct <u>visualization</u> of chromosomal anomalies</div>",
+      "back": "vs. karyotyping it is higher resolution and can be done in interphase [img] Photo credit: MrMatze , CC BY-SA 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization"
+      ]
+    },
+    {
+      "guid": "f#oqAK<Zwg",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [microdeletion] is detected with FISH as no fluorescence on a chromosome compared to fluorescence at the same locus on the second copy of that chromosome",
+      "raw0": "<div>A(n) {{c1::microdeletion}} is detected with <b>FISH</b> as <u>no fluorescence</u> on a chromosome compared to fluorescence at the same locus on the second copy of that chromosome</div>",
+      "back": "[img] [img] Photo credit: hindawi [ A Rare, Recurrent, De Novo 14q32.2q32.31 Microdeletion of 1.1 Mb in a 20-Year-Old Female Patient with a Maternal UPD(14)-Like Phenotype and Intellectual Disability (hindawi.com) ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization"
+      ]
+    },
+    {
+      "guid": "AxqWNY7L?4",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [translocation] is detected with FISH as fluorescence of the target gene outside the original chromosome",
+      "raw0": "A(n) {{c1::translocation}} is detected with <b>FISH</b> as fluorescence of the target gene <u>outside</u> the original chromosome",
+      "back": "[img] Photo credit: hindawi [ Adult Intramedullary Ewing Sarcoma of the Proximal Hip (hindawi.com) ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization"
+      ]
+    },
+    {
+      "guid": "u6So=%<$Qs",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [duplication] is detected with FISH as an extra site of fluorescence on one chromosome relative to its homologous chromosome",
+      "raw0": "<div>A(n) {{c1::duplication}} is detected with <b>FISH</b> as an <u>extra site</u> of fluorescence on one chromosome relative to its homologous chromosome</div>",
+      "back": "Can result in a trisomy or tetrasomy [img] Photo credit: Weehi et al. , CC BY 4.0 , via Hindawi",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization"
+      ]
+    },
+    {
+      "guid": "3N0Q_nlh(",
+      "deck": "AnKing Step Deck",
+      "front": "[Transgenic] strategies in mice involve random insertion or targeted insertion/deletion within a mouse genome",
+      "raw0": "<div>{{c1::Transgenic}} strategies in mice involve <u>random</u> insertion or <u>targeted</u> insertion/deletion within a mouse genome</div>",
+      "back": "Random insertions are constitutive , whereas a targeted insertion is conditional",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::*Transgenic_Strategies"
+      ]
+    },
+    {
+      "guid": "iHyFT.(fkn",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [knock-out] transgenic mouse has had a gene removed",
+      "raw0": "<div>A(n) {{c1::knock-out}} transgenic mouse has had a gene removed</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::*Transgenic_Strategies"
+      ]
+    },
+    {
+      "guid": "z<KPq[*OIW",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [knock-in] transgenic mouse has had a gene inserted",
+      "raw0": "<div>A(n) {{c1::knock-in}} transgenic mouse has had a gene inserted</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::*Transgenic_Strategies"
+      ]
+    },
+    {
+      "guid": "gY(-y@`Qw`",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [Cre-lox] system can inducibly manipulate genes at specific developmental points (e.g., study a gene whose deletion causes embryonic deaths)",
+      "raw0": "<div>A(n) {{c1::Cre-lox}} system can inducibly manipulate genes at <b>specific developmental points</b> (e.g., study a gene whose deletion causes embryonic deaths)</div>",
+      "back": "[img] Photo credit: Matthias Zepper , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::*Transgenic_Strategies"
+      ]
+    },
+    {
+      "guid": "fb0t(~5njm",
+      "deck": "AnKing Step Deck",
+      "front": "RNA [ interference ] uses [ dsRNA ] complementary to an mRNA of interest to \" knock down \" gene expression",
+      "raw0": "<div><b>RNA </b>{{c1::<b>interference</b>}} uses {{c2::<b>dsRNA</b>::specific}} complementary to an mRNA of interest to \"<u>knock down</u>\" gene expression</div>",
+      "back": "- When transfected into human cells, dsRNA is separated (by dicer ) and promotes degradation of target mRNA via RISC (RNA-induced silencing complex) - An exact match generally results in mRNA degradation, but a partial match also causes translational repression by preventing ribosome and transcription factor binding [img] Photo credit: lumenlearning [ RNA Post-Transcriptional Modification | Biology for Majors I (lumenlearning.com) ]",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*Small_Interfering_RNA"
+      ]
+    },
+    {
+      "guid": "AG+$KgclC6",
+      "deck": "AnKing Step Deck",
+      "front": "[ Paroxysmal nocturnal hemoglobinuria (PNH)] may be confirmed via [ flow cytometry ], which detects a lack of CD [ 55 ] and CD [ 59 ]",
+      "raw0": "<div>{{c1::<b>Paroxysmal nocturnal hemoglobinuria</b> (PNH)}} may be confirmed via {{c3::<u>flow cytometry</u>}}, which detects a <u>lack</u> of <b>CD</b>{{c2::<b>55</b>}} and <b>CD</b>{{c2::<b>59</b>}}</div>",
+      "back": "DAF = CD55 MIRL = CD59",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::03_Flow_Cytometry"
+      ]
+    },
+    {
+      "guid": "bI<F1o;$E{",
+      "deck": "AnKing Step Deck",
+      "front": "[PCR] is the gold standard used in the diagnosis of herpes simplex virus (HSV)",
+      "raw0": "{{c1::PCR}} is the <u>gold standard</u> used in the diagnosis of <b>herpes simplex virus </b>(HSV)",
+      "back": "HSV diagnosis: - PCR (early detection of encephalitis) - Multinucleate giant cells on Tzanck smear of skin lesions - Eosinophilic Cowdry intranuclear inclusion bodies",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR::Extra"
+      ]
+    },
+    {
+      "guid": "lU*a2q?sn=",
+      "deck": "AnKing Step Deck",
+      "front": "What is the confirmatory test for HIV ? [HIV-1/2 antibody differentiation immunoassay]",
+      "raw0": "What is the <b>confirmatory </b>test for <u>HIV</u>?<br><br>{{c1::HIV-1/2 antibody differentiation immunoassay}}",
+      "back": "- HIV-1 is more commonly the cause of AIDS worldwide while HIV-2 is endemic to West Africa - Do this if the 4th generation assay returns positive - If the HIV-1/2 antibody differentiation immunoassay test is negative , you have likely just detected p24 , which means seroconversion has yet to happen (really early infection) → check NAAT for viral load confirmation [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA"
+      ]
+    },
+    {
+      "guid": "EiF3MvBPpm",
+      "deck": "AnKing Step Deck",
+      "front": "What test determines the amount of viral RNA in plasma ? [Viral load]",
+      "raw0": "What <u>test</u> determines the <i>amount</i> of <b>viral RNA in plasma</b>?<br><br><div>{{c1::Viral load}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR"
+      ]
+    },
+    {
+      "guid": "GcCvcqbNoW",
+      "deck": "AnKing Step Deck",
+      "front": "What is the next step in management for an adolescent girl with primary amenorrhea with a uterus present on ultrasound and high FSH levels ? [Karyotyping]",
+      "raw0": "What is the <i>next step</i> in management for an adolescent girl with <u>primary amenorrhea</u> with a <b>uterus present</b> on ultrasound and <b>high</b> <b>FSH levels</b>?<br><br><div>{{c1::Karyotyping}}</div>",
+      "back": "High FSH is indicative of a peripheral cause, such as hypergonadotropic amenorrhea (e.g., Turner syndrome ) [img] [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH"
+      ]
+    },
+    {
+      "guid": "tuIP#f6R4{",
+      "deck": "AnKing Step Deck",
+      "front": "Is homologous recombination error prone ? [No]",
+      "raw0": "Is <b>homologous recombination </b><u>error prone</u>?<br><br><div>{{c1::No}}</div>",
+      "back": "- However, this may result in a unique manifestation of loss of heterozygosity - This can occur when the mutation is in the intact strand being used as a template, and the damaged DNA (which was encoding for a normal protein) is fixed using the mutation",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9"
+      ]
+    },
+    {
+      "guid": "nCRgH<5j~0",
+      "deck": "AnKing Step Deck",
+      "front": "Is nonhomologous end joining (NHEJ) error prone ? [Yes]",
+      "raw0": "Is <b>nonhomologous end joining </b>(NHEJ)<b> </b><u>error prone</u>?<br><br><div>{{c1::Yes}}</div>",
+      "back": "HIGHLY error prone; this has no template strand to compare to",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9"
+      ]
+    },
+    {
+      "guid": "st.VCkZ(tA",
+      "deck": "AnKing Step Deck",
+      "front": "[ CRISPR/Cas9 ] is a genome editing tool that is derived from bacteria to knock in / out any DNA sequence",
+      "raw0": "{{c1::<b>CRISPR/Cas9</b>}} is a genome editing tool that is derived from bacteria to <u>knock in / out</u> any DNA sequence",
+      "back": "- This utilizes variants of the Cas9 endonuclease to introduce either a single or double strand break to allow for the insertion of DNA constructs or removal of target DNA sequences - The entire system (Cas9 + gRNA) is typically encoded into a plasmid which is delivered to target cells via electroporation (allows for easy transfection of plasmid into target cell) or viral systems (e.g., adenovirus / lentivirus; used for hard to transfect cells e.g., stem cells) [img] Photo credit: marius walter , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::02_CRISPR/Cas9"
+      ]
+    },
+    {
+      "guid": "EwDdM!<g>u",
+      "deck": "AnKing Step Deck",
+      "front": "At its core, CRISPR/Cas9 utilizes an endonuclease ([Cas9]) and a(n) [ guide ] RNA that binds to a complementary target DNA sequence",
+      "raw0": "At its core, <b>CRISPR/Cas9</b> utilizes an <u>endonuclease</u> ({{c2::Cas9}}) and a(n) {{c1::<b>guide</b>}} <b>RNA</b> that binds to a complementary target DNA sequence",
+      "back": "- Guide RNA ( gRNA ) is contained inside of a \"crRNA\", which along with \"tracrRNA\" forms the active \"sgRNA\" which will target the sequence; multiple crRNA's can be combined (to insert more DNA) - The gRNA can be designed to target ANY DNA sequence, which brings the endonuclease to that site to introduce a gap ; PAM sequences are sites where Cas9 can bind [img] Photo credit: marius walter , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::02_CRISPR/Cas9"
+      ]
+    },
+    {
+      "guid": "{1<?{An6K",
+      "deck": "AnKing Step Deck",
+      "front": "When using CRISPR/Cas9 that introduce a double strand break to knock-out target DNA, [nonhomologous end joining (NHEJ) enzymes] repair the gap introduced by this Cas9 variant",
+      "raw0": "When using <b>CRISPR/Cas9</b> that introduce a <u>double strand break</u> to <b>knock-out </b>target DNA, {{c1::nonhomologous end joining (NHEJ) enzymes}} repair the gap introduced by this Cas9 variant",
+      "back": "However, the use of a Cas9 variant that permits single stranded breaks (when spaced properly) can trigger homology directed repair (less error prone) [img] Photo credit: marius walter , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::02_CRISPR/Cas9"
+      ]
+    },
+    {
+      "guid": "tu2n`4$-iN",
+      "deck": "AnKing Step Deck",
+      "front": "When using CRISPR/Cas9 to knock-in DNA, a(n) [repair template] must be added to guide insertion of a construct",
+      "raw0": "When using CRISPR/Cas9 to <b>knock-in</b> DNA, a(n) {{c1::repair template}} must be added to guide insertion of a construct",
+      "back": "Ideally, you use a Cas9 variant that introduces a single stranded break that would allow Homology Directed Repair to utilize the provided repair template to incorporate the new sequence into the target cells genome [img] Photo credit: marius walter , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::02_CRISPR_Cas9",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::02_CRISPR/Cas9"
+      ]
+    },
+    {
+      "guid": "IfwP.KCbF!",
+      "deck": "AnKing Step Deck",
+      "front": "A direct ELISA tests for a(n) [antigen] An indirect ELISA tests for a(n) [antibody against an antigen]",
+      "raw0": "A <b>direct ELISA</b> tests for a(n) {{c1::antigen}}<br><br>An <b>indirect ELISA</b> tests for a(n) {{c2::antibody against an antigen}}",
+      "back": "The antibodies for an indirect ELISA are easier to acquire",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::04_ELISA::Extra",
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::06_Enzyme-linked_immunosorbent_assay"
+      ]
+    },
+    {
+      "guid": "n?`[N@?U5>",
+      "deck": "AnKing Step Deck",
+      "front": "Herpes simplex virus (HSV) is definitively diagnosed with [PCR] or [viral cultures]",
+      "raw0": "<b>Herpes simplex virus</b> (HSV) is definitively diagnosed with {{c1::PCR::gold standard}} or {{c1::viral cultures}}",
+      "back": "- Tzanck smear is the quickest test, but isn't specific or sensitive - Cultures are low sensitivity; blister is unroofed, and the base is vigorously scraped (virus can be isolated from both primary and recurrent infections) - For genital herpes, PCR samples should be obtained from vesicles (not blood)",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::01_PCR::Extra"
+      ]
+    },
+    {
+      "guid": "Bt/{4J(vAH",
+      "deck": "AnKing Step Deck",
+      "front": "What is the next step in management of a patient with primary amenorrhea who has an intact endocrine axis but no uterus ? [Karyotyping]",
+      "raw0": "What is the<i> next step</i> in management of a patient with<b> primary amenorrhea</b> who has an <u>intact endocrine axis</u> but <u>no uterus</u>?<br><br><div>{{c1::Karyotyping}}</div>",
+      "back": "These two look exactly the same on the outside (secondary sex characteristics, female external genitalia; the only difference is no internal female stuff) 1) XX → Müllerian agenesis (idiopathic loss of Müllerian ducts) 2) XY → androgen insensitivity syndrome (MIF from testes inhibit müllerian ducts, so no uterus) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH"
+      ]
+    },
+    {
+      "guid": "mBeY2]2ph)",
+      "deck": "AnKing Step Deck",
+      "front": "[Sickle cell anemia] [img]",
+      "raw0": "{{c1::Sickle cell anemia::Diagnosis}}<br><br><div><div><img src=\"a0bf17c6c66cb9e761519508245228ac.jpg\" alt=\"File:Sickle Cell Anemia (5610746554).jpg\" width=\"414\" height=\"276\"></div><div></div></div>",
+      "back": "Photo credit: Ed Uthman from Houston, TX, USA , CC BY 2.0 , via Wikimedia Commons [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra"
+      ]
+    }
+  ]
+}

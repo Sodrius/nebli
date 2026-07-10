@@ -1,0 +1,1451 @@
+NEBLI · APOSTILA
+
+Núcleo
+
+Biologia Celular
+
+Disciplina:    Biologia Celular
+Nota de uso:   Estudar com o slide aberto ao lado; figuras citadas referenciam o slide do
+               professor.
+Onde estudar:  Alberts, Biologia Molecular da Célula (6ª ed.), Cap. 4 (estrutura do núcleo)
+               e Cap. 12 (transporte nuclear) · Lehninger, Princípios de Bioquímica (7ª
+               ed.), capítulo de núcleo e cromatina
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- Envelope nuclear
+       1.1 Dupla membrana e continuidade com o retículo
+       1.2 Lâmina nuclear: o esqueleto que segura a forma
+       1.3 Laminopatias: o que acontece quando o esqueleto falha
+  PARTE II -- Tráfego controlado
+       2.1 O complexo do poro nuclear (NPC)
+       2.2 NLS, NES e o reconhecimento do cargo
+       2.3 Volume de tráfego e o que NÃO atravessa
+  PARTE III -- Organização interna
+       3.1 Cromatina: DNA + histonas, eu e heterocromatina
+       3.2 Empacotamento: do nucleossomo ao cromossomo
+       3.3 Nucléolo e territórios cromossômicos
+
+RESUMINDO (1 PÁGINA)
+       Fechamento panorâmico antes das questões
+
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+       10 Consolidação · 15 Integração · 5 Aplicação
+
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+       Mecanísticas; Q5 identifica erro conceitual
+
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+       Selecionadas do banco; gabarito inline
+
+GABARITO CONSOLIDADO DA ETAPA 2
+       Penúltima seção
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    Quando uma célula bacteriana fabrica uma proteína, ela faz tudo no mesmo cômodo. O DNA flutua
+    livre no citoplasma, o ribossomo já está agarrado nele enquanto o mRNA é transcrito, e a proteína
+    sai da máquina ainda antes do mRNA terminar. Tudo conectado, tudo simultâneo, tudo no mesmo
+    espaço. Mas isso só funciona porque a bactéria é simples -- poucos genes, regulação direta, vida
+    curta. Agora multiplique o problema: a célula humana tem cerca de 6 bilhões de pares de bases,
+    distribuídos em 46 cromossomos, com cerca de 20 mil genes -- alguns ligados o tempo todo,
+    outros só em certos tecidos, outros só em certos momentos. Como você regula isso tudo se DNA,
+    RNA e ribossomo estão misturados?
+    A solução evolutiva foi separar. O núcleo é o compartimento que isola a parte "lida" (DNA 
+    RNA) da parte "executada" (RNA  proteína). Essa separação parece um detalhe, mas é o que
+    viabiliza a regulação fina dos eucariontes: dá tempo de processar o RNA antes de traduzir, permite
+    controlar quem entra e sai, e cria espaço para guardar o genoma protegido. Toda a complexidade
+    que distingue uma célula muscular de uma célula nervosa, ou uma jovem de uma idosa, depende
+    desse compartimento.
+    Vamos organizar a discussão em três movimentos. Primeiro, a fronteira: a dupla membrana, a
+    lâmina proteica que a sustenta, e o que acontece quando esse esqueleto falha. Segundo, a porta: o
+    poro nuclear, o sinal que cada cargo precisa carregar para entrar, e o tráfego intenso que atravessa
+    essa estrutura. Terceiro, o conteúdo: como 2 metros de DNA cabem em 10 micrômetros de núcleo,
+    por que cromatina ativa e inativa coexistem no mesmo espaço, e o que é o nucléolo. No fim,
+    costuramos os três anéis num único princípio: compartimentalização cria espaço para regulação.
+
+PARTE I -- Envelope nuclear: a fronteira que não é só uma
+membrana
+
+1.1 -- Dupla membrana e continuidade com o retículo
+
+Olhe uma micrografia eletrônica de um núcleo e a primeira coisa estranha que você nota é que a fronteira
+aparece como duas linhas escuras, não uma. Não é artefato de coloração -- são de fato duas bicamadas
+lipídicas separadas por um espaço de uns 20 a 50 nanômetros, chamado espaço perinuclear. Por que a
+natureza fez assim? A resposta não é "barreira reforçada". A resposta é continuidade evolutiva com o
+retículo endoplasmático.
+
+   A membrana externa do envelope nuclear é literalmente uma extensão da membrana do RE¹. Nas
+imagens você vê isso direto: a membrana sai do envelope, contorna o núcleo, e mergulha no labirinto do
+retículo. O espaço perinuclear, que existe entre as duas folhas do envelope, é o mesmo lúmen do RE --
+a mesma "cavidade" bioquímica. Em consequência, a membrana externa carrega ribossomos aderidos
+(igual ao RE rugoso) e participa de funções de síntese de membrana. Funcionalmente ela é parte do RE,
+só que enrolada ao redor do DNA.
+
+   ¹RE ­ retículo endoplasmático -- sistema de membranas contínuo no citoplasma, sítio de síntese de proteínas e lipídios
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+   A membrana interna é a diferente. Ela carrega proteínas específicas que ancoram a lâmina nuclear
+(que veremos no próximo subtópico) e marca a separação real entre citoplasma e nucleoplasma. Mas,
+sozinha, ela ainda é só uma bicamada lipídica -- não impede passagem por causa de "espessura extra";
+impede pela mesma razão que qualquer membrana lipídica impede: o miolo hidrofóbico não estabiliza
+moléculas polares ou carregadas. Por isso íons, mRNAs, proteínas grandes -- nada disso atravessa a
+bicamada nua. Quem atravessa o envelope precisa passar por uma estrutura proteica especializada, o
+poro nuclear, que estudaremos na PARTE II.
+
+   Repare que a membrana externa do envelope é contínua com o RE -- não há "selo" entre os dois. A membrana
+   interna, em contrapartida, é eletricamente e bioquimicamente isolada, ancorada à lâmina nuclear.
+
+   Resumindo até aqui: Envelope nuclear = duas bicamadas; a externa é extensão do RE, a interna ancora
+   a lâmina. Nenhuma das duas deixa íons ou macromoléculas passarem sem ajuda.
+
+A pergunta natural é: por que separar transcrição (DNA  RNA, no núcleo) de tradução (RNA 
+proteína, no citoplasma) merece todo esse aparato de duas membranas e continuidade com o RE? A
+resposta vem em duas pontas. Primeira, processamento. Em eucariontes, o RNA recém-transcrito não
+está pronto: precisa receber a cauda poli-A, o cap 5, e ter os íntrons retirados pelo spliceossomo. Se
+a tradução começasse no exato momento da transcrição, esses processamentos seriam impossíveis.
+Segunda, regulação. Manter o RNA aprisionado dá tempo de "decidir" se ele será exportado, degradado,
+ou armazenado. A célula procariótica não tem essa janela; a eucariótica fez do tempo um recurso.
+
+    Síntese 1 -- A dupla membrana não está aí "por segurança". Está aí porque a evolução fez do
+    envelope nuclear uma extensão funcional do retículo -- e a membrana interna ganhou uma espe-
+    cialização nova (ancoragem da lâmina, controle do que entra) sem precisar romper a continuidade
+    com o sistema de membranas mais antigo.
+
+1.2 -- Lâmina nuclear: o esqueleto que segura a forma
+
+                                                                                 4
+NEBLI                                                          ETAPA 1 -- TEXTO DIDÁTICO
+
+Uma bicamada lipídica isolada é mole. Se você desenhar um núcleo só com as duas membranas, sem
+nada por dentro segurando, a primeira tração do citoesqueleto puxando por fora ou o primeiro deslo-
+camento da cromatina por dentro deforma a estrutura inteira. O núcleo precisa de esqueleto -- e esse
+esqueleto é a lâmina nuclear.
+
+   A lâmina é uma malha proteica de uns 30 a 100 nanômetros de espessura, encostada na face
+interna da membrana interna do envelope. Não é membrana, é uma rede de proteínas filamentosas. Os
+componentes principais são as laminas² -- chamadas A, B1, B2 e C, com peso molecular entre 60 e 80
+kDa. Pertencem à família dos filamentos intermediários, a mesma família da queratina (na pele) e da
+vimentina (no citoesqueleto mesodérmico). Filamentos intermediários são particularmente bons em
+resistir a forças de tração -- exatamente o que o núcleo precisa.
+
+A lâmina cumpre três papéis simultâneos. Primeiro, suporte
+
+mecânico: ela mantém a forma esférica ou ovalada do núcleo
+
+mesmo quando o citoesqueleto está puxando ou comprim-
+
+indo. Segundo, ancoragem da cromatina: regiões de hetero-
+
+cromatina (cromatina condensada, silenciosa) se prendem
+
+na face nuclear da lâmina, formando aquela orla escura
+
+que se vê em micrografias eletrônicas. Terceiro, comuni-
+
+cação: proteínas integrais da membrana interna conectam a
+
+lâmina ao envelope e, por meio dele, ao próprio citoesqueleto  Trama de laminas vista por imunofluorescên-
+do citoplasma -- é como o núcleo "sente" o que está aconte-    cia. A malha é densa e regular.
+cendo do lado de fora.
+
+A lâmina é dinâmica. Antes da mitose, ela é desmontada -- as laminas são fosforiladas por quinases
+dependentes de ciclina, perdem afinidade umas pelas outras, e o envelope inteiro se rompe para os
+cromossomos poderem ser puxados pelos polos do fuso. Depois da divisão, fosfatases removem os
+fosfatos, as laminas se reagregam, e o envelope se reconstrói ao redor de cada conjunto de cromossomos
+das células-filhas. Esse desmontar e remontar coordenado é uma das peças centrais do controle da
+divisão celular -- mas ele só é possível porque a lâmina é uma estrutura proteica modificável, não uma
+membrana fixa.
+
+Lâmina nuclear não é membrana
+
+O nome confunde. "Lâmina" sugere algo plano e contínuo, como uma folha -- e está perto da
+membrana, o que reforça a confusão. Mas lâmina nuclear é uma malha de proteínas filamentosas;
+ela está do lado de dentro da membrana interna, encostada nela mas distinta. Membrana é bica-
+mada lipídica; lâmina é tela proteica. Em provas, "lâmina nuclear" como sinônimo de "envelope"
+é erro clássico.
+
+Resumindo até aqui: Lâmina = malha de laminas (filamentos intermediários) na face interna do
+envelope. Sustenta forma, ancora cromatina, conecta ao citoesqueleto. Desmonta na mitose e remonta
+no fim.
+
+   ²laminas ­ família de filamentos intermediários nucleares: lamina A, B1, B2 e C; formam a malha que sustenta o
+envelope nuclear e ancora cromatina periférica
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+1.3 -- Laminopatias: o que acontece quando o esqueleto falha
+
+A maioria dos genes nem se torna conhecida pelos médicos enquanto não dá problema. Com a lâmina
+não é diferente. Mutações no gene LMNA (que codifica laminas A e C) e em genes relacionados causam
+um grupo de doenças chamadas laminopatias³, que mostram, na prática, qual o preço de ter um
+esqueleto nuclear defeituoso.
+
+   O caso mais didático é a progéria4 -- síndrome de Hutchinson­Gilford. Crianças nascem aparente-
+mente normais e, por volta de 1 a 2 anos de idade, começam a mostrar sinais de envelhecimento
+extremamente precoce: perda de cabelo, pele fina, articulações endurecidas, aterosclerose. Morrem em
+média aos 13 anos, geralmente de infarto ou acidente vascular cerebral. A causa é uma mutação no
+gene LMNA que faz com que a célula produza uma forma defeituosa da lamina A, chamada progerina.
+A progerina não consegue ser totalmente processada para a forma funcional, e fica permanentemente
+ancorada na membrana interna -- onde estraga a montagem da lâmina e deforma o núcleo. Núcleos
+com progerina aparecem em micrografias com bolhas, dobras, e perdas de cromatina periférica.
+
+Por que o envelhecimento da progéria é generalizado
+
+A pergunta natural é: se a lâmina é um problema do núcleo, por que afeta a pele, os ossos, os vasos
+sanguíneos? Porque todos os tipos celulares têm núcleo, todos têm lâmina -- e os tecidos que mais
+sentem o defeito são os que estão sob estresse mecânico (vasos pulsando, músculo contraindo) ou
+em alta divisão (vasos remodelando, osso renovando). Esses tecidos esgotam células-tronco mais
+rápido quando os núcleos das suas células se rompem com facilidade. O fenótipo da progéria é, em
+essência, um envelhecimento acelerado dos tecidos que mais dependem da integridade nuclear
+sob estresse. Não é coincidência que o coração e os vasos sejam os primeiros a falhar.
+
+À esquerda, distrofia muscular de Emery­Dreifuss: contraturas precoces, fraqueza progressiva, cardiomiopatia. À
+direita, Charcot­Marie­Tooth tipo 2B1: neuropatia periférica. Mesma família de mutações, tecidos-alvo diferentes.
+
+   ³laminopatias ­ conjunto de doenças causadas por mutações nas laminas ou em proteínas associadas; incluem
+progéria, Emery­Dreifuss, Charcot­Marie­Tooth tipo 2B1 e várias miopatias e lipodistrofias
+
+   4progéria ­ síndrome de Hutchinson­Gilford: doença genética rara com mutação na LMNA que causa acúmulo de
+progerina, uma forma defeituosa da lamina A; fenótipo de envelhecimento acelerado a partir dos 1­2 anos de idade
+
+                                                                                 6
+NEBLI                                                         ETAPA 1 -- TEXTO DIDÁTICO
+
+Outras laminopatias ilustram a mesma lógica. A distrofia muscular de Emery­Dreifuss5 combina
+contraturas precoces (cotovelos, tornozelos), fraqueza muscular progressiva e cardiomiopatia -- três
+tecidos mecanicamente exigentes. A doença de Charcot­Marie­Tooth tipo 2B1 (uma das variantes)
+causa neuropatia periférica -- outra estrutura submetida a tração e compressão constante ao longo dos
+nervos longos. A lição que sai desses casos é geral: defeito na lâmina não dá uma doença, dá um espectro
+de doenças, e o tecido que primeiro descompensa depende de quanto estresse mecânico ele suporta.
+
+Síntese 2 -- Quando a lâmina falha, o núcleo perde forma. Quando o núcleo perde forma, a
+cromatina perde ancoragem e a expressão gênica desregula. Quando a expressão gênica desreg-
+ula em tecidos sob estresse, esses tecidos envelhecem ou morrem cedo. Laminopatias não são
+"doenças do núcleo" abstratas -- são o preço biológico da falha estrutural.
+
+                              MAPA CONCEITUAL
+
+                                            I
+
+       Envelope = membrana + esqueleto + funciona-
+                                         mento
+
+                              
+
+1.1 ­ Dupla membrana                 1.2 ­ Lâmina                    1.3 ­ Laminopatias
+
+Externa é RE; interna ancora   Malha proteica que sustenta o   Falha estrutural com fenótipo
+lâmina
+                                      núcleo                          diverso
+
+        A fronteira está montada. Agora precisamos da porta -- sem ela o núcleo ficaria isolado.
+
+PARTE II -- Tráfego controlado: o poro nuclear e o transporte
+seletivo
+
+2.1 -- O complexo do poro nuclear (NPC): a porta com filtro
+
+Se o envelope é uma fronteira impermeável a íons e macromoléculas, e ainda assim o núcleo precisa
+trocar coisas com o citoplasma o tempo todo -- RNAs saindo, proteínas entrando, ribossomos partindo
+em pedaços -- então em algum lugar existe uma estrutura que abre, mas só para o que tem permissão.
+Essa estrutura é o complexo do poro nuclear, ou NPC6.
+
+   Os números do NPC impressionam. Cada poro tem cerca de 120 nm de diâmetro e massa em torno de
+125 MDa -- algo como 30 vezes a massa de um ribossomo. É montado por 60 a 100 cópias de cerca de 30
+proteínas diferentes, chamadas nucleoporinas. A estrutura geral tem simetria óctupla: oito subunidades
+
+   5Emery­Dreifuss ­ distrofia muscular ligada a mutações em LMNA ou em proteínas associadas; combina contraturas
+precoces de cotovelos e tornozelos, fraqueza dos músculos da cintura escapular e pélvica, e cardiomiopatia dilatada
+
+   6NPC ­ nuclear pore complex -- complexo proteico de cerca de 125 MDa que atravessa o envelope nuclear; única via de
+tráfego entre núcleo e citoplasma
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+arranjadas radialmente ao redor de um canal central. Imagine uma rosca: oito spokes ligando o anel
+externo (do lado citoplasmático) ao anel interno (do lado nuclear), com filamentos saindo dos dois anéis
+como tentáculos. O canal central, onde acontece a passagem, mede entre 9 e 40 nanômetros -- pequeno
+quando fechado, grande quando uma carga maior está sendo transportada.
+
+  Simetria óctupla do NPC vista em corte. As oito subunidades formam o anel; o canal central, ao centro, é o único
+  lugar por onde qualquer coisa passa.
+
+Como esse canal central pode ser permeável a algumas coisas e não a outras? A resposta é a parte mais
+elegante da bioquímica do poro. Um terço das nucleoporinas -- chamadas FG-Nups -- tem regiões com
+muitas repetições do dipeptídeo fenilalanina­glicina. Essas regiões são pouco estruturadas, flexíveis,
+e hidrofóbicas. Elas se projetam para dentro do canal e formam uma "geleia" interna: uma malha
+hidrofóbica densa, sem geometria fixa. Moléculas pequenas e hidrofílicas atravessam essa geleia por
+difusão simples -- passam por entre as fibras como passam por dentro de um gel. Mas moléculas
+grandes, ou hidrofílicas demais, esbarram. A "geleia" é o filtro real do poro; o esqueleto proteico ao redor
+é o que sustenta tudo.
+
+   O cutoff funcional é interessante. Moléculas com menos de cerca de 20 a 40 kDa passam livremente
+pelo canal por difusão. Isso inclui íons (que atravessam num piscar de olhos), nucleotídeos livres
+(necessários para transcrição e replicação dentro do núcleo), e proteínas pequenas. Acima desse cutoff,
+o passar livre falha -- e o cargo precisa de um carregador especializado, que veremos no próximo
+subtópico.
+
+   Resumindo até aqui: NPC = porta de 120 nm com canal central preenchido por "geleia" hidrofóbica de
+   nucleoporinas FG. Pequeno e neutro atravessa sozinho; grande ou carregado precisa de carregador.
+
+    Síntese 3 -- O poro nuclear não é um buraco. É uma máquina proteica com geometria definida
+    (simetria óctupla, 60 a 100 componentes) e um filtro químico embutido (geleia de FG-Nups). O
+    que decide passar ou não é a interação química com essa geleia, não o tamanho absoluto do canal.
+
+2.2 -- NLS, NES e o reconhecimento do cargo
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Como o NPC sabe que uma proteína pertence ao núcleo? A resposta é simples: a proteína carrega um
+sinal. Sequências curtas de aminoácidos, embebidas na estrutura da proteína, funcionam como CEPs
+moleculares. Para entrar no núcleo, o sinal é o NLS7 -- sinal de localização nuclear, tipicamente uma
+sequência rica em lisina e arginina (resíduos básicos, com cargas positivas em pH fisiológico). Para sair,
+é o NES8 -- sinal de exportação nuclear, rico em leucina.
+
+   A lógica do reconhecimento usa carregadores chamados importinas (para entrar) e exportinas (para
+sair), coletivamente chamados de carioferinas. Acompanhe a importação passo a passo. Uma proteína
+recém-sintetizada no citoplasma tem o NLS exposto. Uma importina, que circula pelo citoplasma,
+reconhece o NLS e se liga. O complexo importina-cargo se aproxima do NPC e atravessa o canal -- a
+importina tem afinidade pela geleia FG, então ela "se sente em casa" e passa rápido pela barreira
+hidrofóbica. Já dentro do núcleo, uma proteína chamada Ran ligada a GTP encosta na importina, força a
+soltura do cargo, e o cargo é liberado no nucleoplasma. A importina sai do núcleo carregando Ran-GTP,
+que no citoplasma é hidrolisada de volta a Ran-GDP -- e a importina fica livre para outro ciclo.
+
+Importação: importina reconhece o NLS no citoplasma, conduz o cargo pelo NPC, e o solta no núcleo quando Ran-
+GTP encosta. O gradiente Ran-GTP/Ran-GDP entre núcleo e citoplasma dá a direção ao transporte.
+
+A exportação faz a mesma coisa em sentido inverso. Uma exportina, ligada a Ran-GTP no núcleo,
+reconhece o NES de um cargo (uma proteína a ser exportada, ou um mRNP carregando mRNA proces-
+sado). O complexo atravessa o NPC. No citoplasma, Ran-GTP é hidrolisada a Ran-GDP, a exportina perde
+afinidade pelo cargo, e o cargo é liberado. A direção do tráfego -- entrada ou saída -- é dada por onde
+Ran está em sua forma GTP, e Ran-GTP só existe no núcleo (porque a enzima que regenera GTP a partir
+de GDP, chamada de fator trocador de nucleotídeo, está no núcleo). É um gradiente molecular que orienta
+o transporte.
+
+   7NLS ­ nuclear localization signal -- sequência curta de aminoácidos, geralmente rica em lisina e arginina, que marca
+proteínas para serem importadas ao núcleo
+
+   8NES ­ nuclear export signal -- sequência rica em leucina que marca proteínas e mRNPs para exportação ao citoplasma
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+HIV e o transporte nuclear
+
+O HIV tem que entregar seu genoma dentro do núcleo de uma célula infectada -- mas o vírus
+infecta linfócitos T quiescentes (não dividindo). Em células em divisão, o envelope nuclear se
+rompe na mitose e o DNA viral entra por difusão. Em células quiescentes, não -- o envelope está
+intacto. A solução do HIV é carregar suas próprias proteínas com NLS funcionais (Vpr é a mais
+conhecida) que sequestram a maquinaria de importação do hospedeiro e arrastam o genoma viral
+para dentro. Essa capacidade de infectar células não-dividindo é parte do que torna o HIV tão
+devastador: ele alcança linfócitos T que outros vírus não conseguem.
+
+Resumindo até aqui: NLS entra, NES sai. Importina e exportina carregam o cargo pelo NPC. Ran-GTP
+no núcleo, Ran-GDP no citoplasma -- esse gradiente dá direção ao tráfego.
+
+2.3 -- Volume de tráfego e o que NÃO atravessa
+
+O NPC não trabalha em câmara lenta. Em uma célula metabolicamente ativa, cada poro passa de 10 a
+1000 macromoléculas por segundo, em ambas as direções simultaneamente. Multiplique pelos 3.000 a
+5.000 poros que um núcleo típico de mamífero tem, e o tráfego total é da ordem de milhões de moléculas
+por minuto. O NPC é uma estação central, não uma porta de fundo.
+
+   Algumas cargas merecem atenção especial. Os ribossomos. Eles são montados parcialmente no nu-
+cléolo (que veremos na PARTE III), e o produto final são duas subunidades -- 40S e 60S -- que precisam
+sair para o citoplasma. Cada subunidade sai inteira pelo NPC, mas a montagem do ribossomo completo
+(60S sobre o 40S, sobre um mRNA) só acontece no citoplasma. Por que isso? Porque o ribossomo
+completo é grande demais para passar de uma vez pelo NPC, e porque a tradução não pode começar no
+núcleo (lá não há mRNA pronto, e o processamento ainda está acontecendo).
+
+    Ribossomos não saem prontos do núcleo
+
+    Aluno tende a pensar no nucléolo como uma fábrica que entrega ribossomos completos, prontos
+    para traduzir. Não é assim. O nucléolo produz e exporta as duas subunidades separadamente.
+    A montagem final, o emparelhamento sobre o mRNA e o início da tradução acontecem no cito-
+    plasma. O nucléolo é fábrica de subunidades o ribossomo só vira ribossomo lá fora.
+
+Os mRNAs também merecem nota. Não saem como uma fita nua de RNA -- saem como complexos
+ribonucleoproteicos (mRNPs), com proteínas ligadas que estabilizam a fita, marcam o cap 5, a cauda
+poli-A, as junções entre exons. Esse "embrulho" tem informação: ele diz ao citoplasma o quão maduro o
+mRNA é, se foi spliciado corretamente, se carrega marca para tradução imediata ou para armazenagem.
+O simples ato de exportar mRNA já é uma camada de regulação.
+
+   E o que não atravessa? O DNA. Os cromossomos completos. As próprias histonas, depois de incorpo-
+radas em nucleossomos. A maquinaria de transcrição (RNA polimerases, fatores gerais), embora seja
+sintetizada no citoplasma e importada quando feita. Esses componentes ficam confinados ao núcleo
+durante toda a interfase. Só na mitose, quando o envelope se desmonta, é que algumas dessas peças se
+misturam temporariamente com o citoplasma -- e o controle disso é parte do que define a fidelidade da
+divisão celular.
+
+                                                                                10
+NEBLI                                                             ETAPA 1 -- TEXTO DIDÁTICO
+
+Síntese 4 -- O NPC é uma estação central com tráfego intenso (milhões de moléculas por minuto,
+milhares de poros por núcleo). Cargas grandes saem em pedaços (ribossomos como subunidades
+40S e 60S, mRNAs como mRNPs embrulhados). Mas o DNA, as histonas montadas, e a maquinaria
+de transcrição ficam -- o núcleo é uma sala de leitura permanente, não um armazém de saída.
+
+                               MAPA CONCEITUAL
+
+                                             II
+
+                               Tráfego = porta + sinal + direção
+
+                                             
+
+2.1 ­ NPC                      2.2 ­ Sinais                       2.3 ­ Tráfego
+
+Porta de 120 nm com filtro de    NLS entra, NES sai; Ran-GTP é    Ribossomos em pedaços; DNA
+FG-Nups
+                               direção                            não sai
+
+     A fronteira tem porta, a porta tem filtro, o filtro tem direção. Falta entender o que está
+                                                                    dentro.
+
+PARTE III -- Organização interna: cromatina, empacota-
+mento e nucléolo
+
+3.1 -- Cromatina: DNA + histonas, eucromatina e heterocromatina
+
+Comece pelo problema físico. A célula humana tem cerca de 6 bilhões de pares de bases de DNA,
+distribuídos em 46 cromossomos. Esticado em linha reta, tudo isso dá aproximadamente 2 metros de
+DNA. O núcleo da célula mede em torno de 10 micrômetros de diâmetro -- algo como 200.000 vezes
+menor que o comprimento total do DNA. Para caber, o DNA precisa estar dramaticamente empacotado.
+Mas empacotar não pode ser empacotar de qualquer jeito: o DNA precisa estar acessível à maquinaria
+de transcrição e replicação, sob pena de a célula simplesmente não funcionar. Empacotamento e acesso
+são exigências contraditórias, e o núcleo resolve o conflito com uma estrutura dinâmica chamada
+cromatina.
+
+                                             11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+  Cromatina é DNA + proteínas (predominantemente histonas). Eucromatina é a forma descondensada, tran-
+  scricionalmente ativa, com aparência clara em microscopia eletrônica. Heterocromatina é a forma condensada,
+  eletrondensa, geralmente silenciosa.
+
+    Cromatina existe sempre
+
+    Confusão comum: o aluno pensa que "cromatina" só aparece em certas condições, ou que "DNA
+    solto" e "cromatina" são duas coisas. Não é assim. O DNA nunca está nu no núcleo -- ele está
+    sempre associado a histonas e outras proteínas. Cromatina é o nome do conjunto. O que varia é o
+    quanto essa cromatina está condensada e o quanto ela está acessível à transcrição. Eucromatina
+    e heterocromatina não são "tem ou não tem cromatina"; são graus de condensação da mesma
+    cromatina.
+
+Cromatina, em essência, é DNA + proteínas. O componente proteico majoritário são as histonas9 --
+H2A, H2B, H3 e H4 montam o miolo, e a H1 funciona como ligadora entre nucleossomos. Histonas
+são pequenas, ricas em lisina e arginina (positivamente carregadas em pH 7), o que dá a elas grande
+afinidade pelo DNA, que é negativamente carregado por causa dos fosfatos do esqueleto. A interação é
+eletrostática e forte.
+
+   A cromatina existe ao longo do ciclo celular em dois estados extremos. A eucromatina é descon-
+densada, com nucleossomos espaçados, acessível à RNA polimerase, e é onde os genes ativamente
+transcritos vivem. Em microscopia eletrônica, eucromatina aparece como áreas claras, de baixa eletron-
+densidade. A heterocromatina é condensada, com nucleossomos próximos uns dos outros, inacessível à
+transcrição, e aparece como áreas escuras (eletrondensas), tipicamente próximas à lâmina nuclear e ao
+nucléolo. Boa parte do genoma é heterocromática em qualquer momento -- só uma fração dos 20 mil
+genes está sendo expressa numa célula específica.
+
+   A heterocromatina vem em dois sabores. A constitutiva é cromatina permanentemente condensada
+-- centrômeros, telômeros, regiões pericentroméricas. Ela é heterocromática em todas as células do
+
+   9histonas ­ família de proteínas básicas (positivas em pH fisiológico) que se associam ao DNA formando nucleossomos;
+as histonas centrais são H2A, H2B, H3 e H4; a H1 é "ligadora" entre nucleossomos
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+organismo. A facultativa é cromatina que muda de estado conforme a célula. O exemplo canônico é o
+cromossomo X inativo em fêmeas: uma das duas cópias do X é silenciada via heterocromatinização
+(forma um corpúsculo de Barr visível em microscopia), e isso varia por célula. A cromatina facultativa
+é o substrato físico da especialização celular: o que torna uma célula muscular diferente de uma célula
+nervosa, em última instância, é qual fração da cromatina ela mantém eucromática e qual mantém
+heterocromática.
+
+Resumindo até aqui: Cromatina = DNA + histonas, sempre. Eucromatina aberta e ativa; heterocro-
+matina condensada e silenciosa; constitutiva é permanente, facultativa varia entre células.
+
+3.2 -- Empacotamento: do nucleossomo ao cromossomo
+
+Como cabe 2 metros de DNA em 10 micrômetros? Por dobras sucessivas, em níveis hierárquicos. O fator
+total de compactação é de aproximadamente 10.000 vezes -- não é um número casual; é o que sai da
+matemática dos níveis.
+
+   O primeiro nível é o nucleossomo. Um octâmero de histonas -- duas cópias de H2A, H2B, H3 e H4
+-- funciona como um carretel. Em torno dele, o DNA é enrolado por aproximadamente 1,7 voltas, total-
+izando cerca de 147 pares de bases. Entre um nucleossomo e o próximo há um trecho de DNA "ligante"
+de 20 a 80 pares de bases, e a histona H1 prende esse ligante mantendo a organização. Em microscopia,
+esse arranjo lembra um "colar de pérolas": cada nucleossomo é uma pérola, o ligante é o fio. Esse é o
+primeiro grau de compactação -- cerca de 7 vezes mais compacto que o DNA reto.
+
+Da fita de DNA até o cromossomo: nucleossomos formam o colar de pérolas (10 nm), que se enrola em fibra de 30
+nm, que forma loops sobre uma matriz (300 nm), que se condensa no cromossomo mitótico (1400 nm). Cada nível
+adiciona compactação.
+O segundo nível é a fibra de 30 nanômetros. O colar de pérolas se dobra sobre si mesmo, com a H1
+facilitando o empacotamento mais denso. A geometria exata da fibra ainda é debatida (modelo solenoide
+
+                                                                                13
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+versus modelo zigue-zague), mas o efeito é o mesmo: mais 6 a 7 vezes de compactação. O DNA passa de
+10 nm para 30 nm de diâmetro aparente.
+
+   O terceiro nível são os loops. Trechos da fibra de 30 nm formam alças ancoradas em uma matriz de
+proteínas, frequentemente conectada à lâmina nuclear na periferia. Esses loops podem ter dezenas a
+centenas de quilobases de DNA cada, e definem domínios funcionais -- um loop tende a ter genes que
+são co-regulados, e fronteiras entre loops têm sequências isolantes. A geometria dos loops na interfase
+está intimamente ligada à expressão gênica: loops abertos contêm genes ativos, loops dobrados contêm
+genes silenciados.
+
+   O quarto nível é o cromossomo mitótico. Quando a célula entra em divisão, os loops e fibras se
+condensam ainda mais, num processo dependente das condensinas (proteínas que dobram cromatina),
+e o cromossomo metafásico aparece com aquela forma de X clássica. Cada cromossomo metafásico é
+cerca de 10.000 vezes mais curto que o DNA esticado que ele contém.
+
+                     O fator total de compactação é de 10.000×. Não é metáfora -- é o número que cabe.
+
+A pergunta natural é: por que tantos níveis? Não bastaria um nível só, mais denso? A resposta é regu-
+lação. Cada nível pode ser modulado independentemente. Modificações pós-traducionais nas caudas
+das histonas (acetilação, metilação, fosforilação) afetam principalmente o primeiro nível, ajustando
+a afinidade DNA­histona. A H1 ligadora controla o segundo nível. As proteínas da matriz nuclear
+controlam os loops. As condensinas controlam o quarto nível. Cada andar tem maestros próprios, e a
+transcrição depende do conjunto: para um gene ser ativamente expresso, ele precisa estar em eucro-
+matina (nucleossomo afrouxado), num loop aberto, longe da lâmina periférica. Para ser silenciado, o
+caminho inverso.
+
+    Síntese 5 -- Quatro níveis de empacotamento, cada um regulado por proteínas específicas. O fator
+    total é 10.000×, mas a beleza está em como cada nível pode ser ajustado: o DNA não fica fixo numa
+    configuração, ele transita entre estados de compactação conforme a célula precisa.
+
+3.3 -- Nucléolo e territórios cromossômicos: organização funcional
+
+Olhando uma célula viva ao microscópio, dentro do núcleo aparece quase sempre uma ou mais regiões
+
+                                                                                14
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+mais densas, claramente delimitadas, sem membrana ao redor -- o nucléolo10. É a fábrica de ribossomos.
+Cada nucléolo é organizado ao redor de regiões cromossômicas chamadas organizadoras nucleolares
+(NORs), que contêm os genes do rRNA (5S, 5,8S, 18S e 28S). Em humanos, esses genes estão repetidos
+centenas de vezes em cinco cromossomos diferentes -- e os NORs desses cromossomos coalescem
+fisicamente para formar o nucléolo.
+
+    O nucléolo é o sítio de transcrição do rRNA e de montagem das subunidades ribossomais. Tamanho variável
+    conforme a atividade da célula.
+Internamente, o nucléolo tem três zonas concêntricas. O centro fibrilar é onde o DNA dos genes do rRNA
+está localizado. O componente fibrilar denso rodeia o centro fibrilar e é onde acontece a transcrição ativa
+e o processamento inicial do pre-rRNA (cliva-se em 18S, 5,8S e 28S maduros). O componente granular
+forma a camada externa e é onde as subunidades ribossomais (40S contendo o 18S, 60S contendo 5,8S,
+28S e 5S) são parcialmente montadas com as proteínas ribossomais -- que vêm do citoplasma -- antes
+de saírem pelo NPC. Cada zona tem uma função discreta e encadeada, e a coerência espacial do nucléolo
+emerge sem precisar de membrana ao redor: é um exemplo de condensado biomolecular -- uma estrutura
+mantida unida por interações fracas entre seus componentes, líquida como óleo em água.
+   O tamanho do nucléolo é um indicador grosseiro de atividade celular. Hepatócitos, células do pâncreas
+exócrino, linfócitos ativados, células embrionárias -- todos têm nucléolos grandes, porque precisam
+fabricar muita proteína e portanto muitos ribossomos. Eritrócitos maduros não têm núcleo nenhum
+(perdem na maturação). Neurônios adultos têm nucléolo médio. Em câncer, o nucléolo costuma estar
+aumentado -- um sinal histológico clássico de células em proliferação intensa.
+
+   10nucléolo ­ região do núcleo, sem membrana, onde acontece a transcrição e o processamento do rRNA e a montagem
+das subunidades ribossomais; presente em todas as células metabolicamente ativas
+
+                                                                                15
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+    Leucemia promielocítica aguda e os corpúsculos PML
+
+    Existem outras estruturas sem membrana dentro do núcleo além do nucléolo. Os corpúsculos
+    PML¹¹ são um exemplo clínico marcante. Em condições normais, eles funcionam como pontos de
+    reunião para várias respostas celulares (resposta ao estresse, controle de apoptose). Na leucemia
+    promielocítica aguda -- subtipo M3 da LMA -- ocorre a translocação t(15;17), que funde o gene
+    PML ao gene do receptor de ácido retinoico (RARA). A proteína de fusão PML-RARA disrupta
+    os corpúsculos PML, e os promielócitos param de se diferenciar, acumulando-se na medula. O
+    tratamento clássico inclui ácido retinoico em doses farmacológicas, que reativa o RARA, restaura
+    os corpúsculos PML, e induz os promielócitos a se diferenciarem em granulócitos maduros --
+    uma das poucas leucemias para as quais existe terapia tão dirigida.
+
+Os cromossomos no núcleo interfásico também têm geografia. Em vez de ficarem embaralhados, cada
+cromossomo ocupa um espaço definido chamado território cromossômico. Alguns territórios são prefer-
+encialmente periféricos (cromossomos pobres em genes), outros são preferencialmente centrais (ricos
+em genes). Genes que precisam ser co-expressos podem se aproximar fisicamente, formando "fábricas
+de transcrição" -- pontos onde a RNA polimerase está concentrada e várias regiões cromossômicas se
+encontram. A geometria do núcleo, longe de ser caótica, é uma camada adicional de regulação.
+
+   Resumindo até aqui: Nucléolo = fábrica de ribossomos, três zonas concêntricas, sem membrana,
+   tamanho proporcional à atividade. Outros condensados nucleares (PML, Cajal, speckles) cumprem
+   funções específicas. Territórios cromossômicos organizam o espaço para regulação.
+
+Síntese 6 -- O núcleo não é só um saco com DNA dentro. É um espaço estruturado em três anéis
+(envelope, poro, conteúdo) onde o conteúdo, por sua vez, tem subcompartimentos próprios (eu-
+cromatina, heterocromatina, nucléolo, corpúsculos diversos). Cada nível da organização permite
+uma camada de regulação. Tirar qualquer um quebra a fina.
+
+   ¹¹PML ­ corpúsculos nucleares contendo a proteína PML; sua disrupção é central na leucemia promielocítica aguda
+(LMA-M3), causada pela translocação t(15;17) que funde o gene PML ao gene do receptor de ácido retinoico
+
+                                                                                16
+NEBLI                                                      ETAPA 1 -- TEXTO DIDÁTICO
+
+                               MAPA CONCEITUAL
+
+                                            III
+
+       Conteúdo = cromatina + empacotamento + orga-
+                                        nização
+
+                               
+
+3.1 ­ Cromatina                       3.2 ­ Empacotamento         3.3 ­ Nucléolo
+
+Eu vs hetero; constitutiva vs   Quatro níveis até o fator   Fábrica de ribossomos sem
+facultativa
+                                       10.000×                     membrana
+
+                                   Os três anéis estão completos. Vamos fechar.
+
+Conclusão integradora
+
+Olhe o núcleo de longe agora. Três anéis concêntricos: o envelope (PARTE I), o poro (PARTE II) e
+o conteúdo (PARTE III). Cada anel cumpre uma função distinta, mas é a combinação dos três que
+faz a regulação gênica eucariótica funcionar. A fronteira impede que o RNA recém-transcrito vá
+direto para tradução; a porta filtra o que entra (proteínas com NLS) e o que sai (mRNAs maduros,
+subunidades ribossomais); o conteúdo está organizado em cromatina dinâmica (eu/hetero)
+sobre quatro níveis de empacotamento, com subcompartimentos especializados (nucléolo para
+ribossomos, corpúsculos PML/Cajal/speckles para outras funções).
+O princípio unificador é simples: compartimentalização cria espaço para regulação. Bactérias,
+sem núcleo, regulam pouco e rápido; eucariontes, com núcleo, regulam muito e fino. O preço é
+maquinaria adicional (laminas, nucleoporinas, importinas, condensinas, histonas modificáveis),
+e a falha de qualquer peça gera doença -- laminopatias quando o esqueleto fracassa, leucemias
+quando os corpúsculos PML se desmontam, miopatias quando o envelope perde forma. O núcleo
+é, ao mesmo tempo, a estrutura mais complexa e a mais essencial da célula eucariótica.
+Os temas que vêm pela frente herdam esse vocabulário. Compartimentos intracelulares (retículo,
+Golgi, mitocôndria) usam a mesma estratégia -- barreira lipídica, tráfego seletivo, conteúdo
+especializado -- só que aplicada a outras funções. Divisão celular vai mostrar como tudo isso é
+desmontado e remontado em pouco mais de uma hora, e por que esse desmontar-e-remontar
+precisa ser perfeitamente coordenado para a célula-filha receber o conteúdo nuclear correto. O
+núcleo é a primeira lição de compartimentalização -- depois, todo o resto do interior celular faz
+mais sentido.
+
+                               17
+NEBLI                                                                       ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Compartimentalização cria regulação                     NLS entra, NES sai
+
+Bactéria mistura DNA, RNA e ribossomo no mesmo Sinal de localização nuclear (NLS, lisina/arginina)
+
+cômodo. Eucariótica separa transcrição (núcleo) de marca cargo para importação. Importina reconhece
+
+tradução (citoplasma). Essa separação dá tempo para NLS no citoplasma, atravessa o NPC, solta o cargo
+
+processar mRNA, controlar o que sai, e guardar o no núcleo quando Ran-GTP encosta. Exportação es-
+
+genoma protegido -- sem ela, regulação fina é im- pelha a importação com NES (rico em leucina) e
+
+possível.                                               exportina. Direção do tráfego = gradiente Ran-GTP/
+
+Envelope = duas bicamadas + lúmen con- Ran-GDP entre núcleo e citoplasma.
+
+tínuo com RE                                            HIV usa o NPC para infectar linfócitos quies-
+
+Membrana externa do envelope é extensão da centes
+
+membrana do retículo endoplasmático. Espaço per- Outros vírus dependem do envelope nuclear se
+
+inuclear = lúmen do RE. A membrana interna ancora romper na mitose. O HIV não pode esperar -- infecta
+
+a lâmina. Nenhuma das duas deixa íon ou macro- T quiescentes. A solução foi carregar NLS funcional
+
+molécula atravessar sem ajuda -- quem passa, passa (Vpr) que sequestra a maquinaria de importação
+
+pelo poro.                                              do hospedeiro e arrasta o genoma viral pelo NPC.
+
+Lâmina nuclear é proteína, não membrana Por isso o HIV alcança alvos que outros vírus não
+
+   Malha de filamentos intermediários (laminas A, alcançam.
+B1, B2, C) encostada na face interna da membrana Cromatina existe sempre
+
+interna. Sustenta forma, ancora cromatina periférica, DNA nunca está nu no núcleo -- está sempre asso-
+
+comunica com o citoesqueleto. Confusão clássica: ciado a histonas e outras proteínas. Eucromatina (de-
+
+lâmina não é bicamada, é tela proteica.                 scondensada, ativa) e heterocromatina (condensada,
+
+Laminopatias: o esqueleto falha, o tecido en- silenciosa) não são "tem ou não tem cromatina"; são
+
+velhece                                                 graus de condensação da mesma cromatina. Consti-
+
+   Mutação em LMNA  progerina mal-processada            tutiva é permanente; facultativa varia com o tipo
+ núcleo deforma  cromatina perde ancoragem              celular.
+expressão gênica desregula. Progéria (Hutchinson­       Empacotamento em quatro níveis, fator
+Gilford) é o caso radical: fenótipo de envelhecimento   10.000×
+
+aos 1­2 anos, morte por infarto aos 13 anos. Tecidos Nucleossomo (octâmero H2A/H2B/H3/H4 + 147 pb)
+
+sob estresse mecânico falham primeiro.                   fibra de 30 nm (com H1)  loops ancorados
+
+NPC: porta com filtro químico                           (300 nm)  cromossomo mitótico (1400 nm). Cada
+
+   Complexo de 125 MDa, 120 nm, simetria óctupla,       nível é regulado por proteínas próprias (modificações
+60­100 nucleoporinas. As FG-Nups projetam regiões       de histona, H1, matriz nuclear, condensinas), per-
+hidrofóbicas para dentro do canal, formando uma         mitindo regulação fina da expressão.
+
+"geleia" que filtra por interação química, não por
+
+tamanho absoluto. Pequeno e neutro atravessa soz-
+
+inho; grande precisa de carregador.
+
+                                                    18
+NEBLI                                                    RESUMINDO
+
+Nucléolo: fábrica de ribossomos sem mem-
+brana
+
+   Condensado biomolecular formado pelos NORs
+dos cinco cromossomos com genes de rRNA. Três
+zonas: centro fibrilar (DNA do rRNA), componente
+fibrilar denso (transcrição + processamento), com-
+ponente granular (montagem das subunidades 40S e
+60S). Tamanho proporcional à atividade celular.
+Ribossomos não saem prontos do núcleo
+
+   Confusão comum: o nucléolo fabrica e exporta
+subunidades 40S e 60S separadamente; a montagem
+final do ribossomo (sobre o mRNA, no sítio de início
+da tradução) acontece no citoplasma. Ribossomo só
+vira ribossomo lá fora.
+Princípio integrador
+
+   Três anéis concêntricos: fronteira (envelope), porta
+(poro), conteúdo (cromatina + nucléolo). Cada anel
+cumpre uma função; juntos viabilizam a regulação
+gênica eucariótica. Falha em qualquer um gera
+doença -- laminopatia, leucemia, miopatia. Compar-
+timentalização é o que torna a célula eucariótica
+complexa possível.
+
+19
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+
+Sobre a estrutura do envelope nuclear, é correto afirmar:
+   A) O envelope nuclear é constituído por uma única bicamada lipídica reforçada por proteínas integrais
+   que ancoram a cromatina internamente.
+   B) A membrana externa e a membrana interna do envelope são bicamadas funcionalmente idênticas,
+   com a mesma composição proteica em ambas as faces.
+   C) O espaço perinuclear entre as duas membranas do envelope é isolado e quimicamente distinto de
+   qualquer outro compartimento celular intracelular.
+   D) A membrana externa do envelope é contínua com a do RE, e o espaço perinuclear corresponde ao
+   lúmen do RE.
+   E) A membrana interna do envelope é uma extensão direta da membrana plasmática, voltada para o
+   interior celular durante a interfase.
+
+Questão 02 Consolidação
+
+Sobre o empacotamento do DNA no núcleo eucariótico, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. O nucleossomo é DNA enrolado 1,7 voltas em um octâmero de histonas (duas cópias de H2A, H2B,
+   H3, H4).
+   II. A histona H1 faz parte do octâmero central do nucleossomo e estabelece a estrutura básica do "colar
+   de pérolas".
+   III. O fator total de compactação do DNA, do filamento esticado ao cromossomo metafásico, é da ordem
+   de 10.000 vezes.
+   IV. O empacotamento em múltiplos níveis permite regulação diferencial: loops abertos contêm genes
+   ativos, loops dobrados contêm genes silenciados.
+
+                            20
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 03 Consolidação
+
+Sobre a lâmina nuclear, é correto afirmar:
+
+   A) A lâmina nuclear é uma terceira bicamada lipídica localizada entre a membrana interna do envelope
+   e a cromatina nuclear.
+
+   B) A lâmina nuclear é malha de filamentos intermediários (laminas A, B1, B2, C) ancorada na face
+   interna da membrana interna.
+
+   C) As laminas pertencem à mesma família dos microtúbulos do citoesqueleto e participam ativamente
+   do tráfego nuclear pelos poros.
+
+   D) A lâmina nuclear é uma estrutura rígida e fixa que não sofre alterações ao longo do ciclo celular,
+   mantendo o envelope estável durante a mitose.
+
+   E) As laminas são proteínas globulares solúveis no nucleoplasma que se associam à cromatina sem
+   contato direto com a membrana interna.
+
+Questão 04 Consolidação
+
+Sobre a estrutura do complexo do poro nuclear (NPC), é correto afirmar:
+
+   A) O NPC é um simples buraco aquoso na membrana sem proteínas, permitindo passagem livre de
+   macromoléculas grandes por difusão.
+   B) Cada NPC tem simetria triplicada, formada por três subunidades equivalentes que cercam um canal
+   central pequeno.
+   C) O NPC perfura apenas a membrana externa do envelope, deixando a membrana interna como
+   barreira contínua e impermeável.
+   D) O NPC tem massa em torno de 12 kDa e é composto por uma única proteína integral de membrana
+   repetida em torno do canal.
+   E) O NPC tem 120 nm e 125 MDa, com simetria óctupla e canal central que regula a passagem de
+   moléculas.
+
+                         21
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 05 Consolidação
+
+Sobre os sinais de localização nuclear (NLS), é correto afirmar:
+
+   A) O NLS é uma sequência curta, rica em lisina e arginina, que marca proteínas para importação ao
+   núcleo.
+
+   B) O NLS é uma sequência longa de aminoácidos hidrofóbicos que ancora a proteína na membrana
+   interna do envelope nuclear.
+
+   C) O NLS marca proteínas para serem degradadas pelo proteassomo logo após sua síntese citoplas-
+   mática, garantindo turnover proteico.
+
+   D) O NLS é reconhecido pelas exportinas, que conduzem a proteína do núcleo para o citoplasma
+   durante a exportação.
+
+   E) O NLS só existe em proteínas de origem viral; proteínas do hospedeiro entram no núcleo apenas
+   pela ruptura do envelope na mitose.
+
+Questão 06 Consolidação
+
+Sobre cromatina, eucromatina e heterocromatina, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. A heterocromatina é a cromatina condensada e transcricionalmente ativa, predominando em
+   células jovens e em rápida proliferação celular.
+   II. A eucromatina é a cromatina descondensada e transcricionalmente inativa, predominante em
+   células diferenciadas que já pararam de se dividir.
+   III. A heterocromatina constitutiva é permanentemente condensada em todas as células do organ-
+   ismo e está presente em regiões como centrômeros e telômeros.
+   IV. O cromossomo X inativo nas fêmeas (corpúsculo de Barr) é um exemplo clássico de heterocro-
+   matina constitutiva, idêntica em todas as células.
+
+                         22
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 07 Consolidação
+
+Sobre as laminopatias, é correto afirmar:
+
+   A) São doenças causadas por defeitos nas histonas centrais do nucleossomo, levando a falhas no
+   empacotamento do DNA e instabilidade genômica.
+
+   B) São doenças exclusivamente neurológicas, causadas por mutações em nucleoporinas que compro-
+   metem o tráfego do envelope nuclear.
+
+   C) Doenças causadas por mutações no gene LMNA, com laminas defeituosas que comprometem a
+   integridade do envelope.
+
+   D) São doenças do retículo endoplasmático rugoso, com acúmulo de proteínas mal-enoveladas e
+   estresse de RE.
+
+   E) São doenças autoimunes em que anticorpos atacam proteínas do nucléolo, levando à perda de
+   transcrição do rRNA.
+
+Questão 08 Consolidação
+
+Sobre o tráfego pelo poro nuclear, é correto afirmar:
+
+   A) Moléculas pequenas, hidrofílicas, com menos de cerca de 20 a 40 kDa, atravessam o canal central
+   do NPC por difusão simples, sem necessidade de carregador.
+   B) Todas as moléculas, independentemente de tamanho ou carga, precisam de um carregador especí-
+   fico (importina ou exportina) para atravessar o NPC.
+   C) O DNA e cromossomos completos saem do núcleo pelo NPC ao longo da interfase, em pequenos
+   pedaços, para serem replicados no citoplasma.
+   D) Moléculas pequenas e hidrofílicas (menos que 20­40 kDa) atravessam o canal do NPC por difusão;
+   maiores precisam de carregadores que interagem com FG-Nups.
+   E) O NPC fica completamente fechado durante a interfase, sendo aberto apenas na mitose para
+   permitir o tráfego de macromoléculas.
+
+                         23
+NEBLI                        ETAPA 2 -- 30 OBJETIVAS
+
+Questão 09 Consolidação
+
+Sobre o nucleossomo, é correto afirmar:
+
+   A) O nucleossomo é uma estrutura formada por DNA enrolado em torno de filamentos de actina do
+   citoesqueleto.
+
+   B) Unidade básica da cromatina: octâmero de histonas (duas cópias de H2A, H2B, H3 e H4) com 147
+   pb de DNA enrolados por 1,7 voltas.
+
+   C) O nucleossomo é uma proteína única de aproximadamente 200 kDa que se liga ao DNA por inter-
+   ações hidrofóbicas com bases nitrogenadas.
+
+   D) O nucleossomo é uma estrutura presente apenas em procariontes, ausente do empacotamento do
+   DNA em eucariontes.
+
+   E) O nucleossomo é formado por uma cópia de cada histona (H1, H2A, H2B, H3, H4) em torno da qual
+   o DNA se enrola por duas voltas completas.
+
+Questão 10 Consolidação
+
+Sobre a distinção entre heterocromatina constitutiva e facultativa, é correto afirmar:
+
+   A) A constitutiva fica sempre condensada (centrômeros, telômeros); a facultativa muda conforme o
+   tipo celular, como o cromossomo X inativo em fêmeas.
+   B) A heterocromatina constitutiva varia entre tipos celulares de acordo com a expressão gênica,
+   enquanto a facultativa é permanente em todas as células.
+   C) Tanto a constitutiva quanto a facultativa estão sempre condensadas em todas as células, sem
+   diferença funcional entre elas.
+   D) A heterocromatina constitutiva é encontrada apenas no nucléolo, enquanto a facultativa é encon-
+   trada na periferia do núcleo, ancorada à lâmina.
+   E) A distinção entre constitutiva e facultativa não tem relevância biológica e é apenas uma classifi-
+   cação histórica sem correlato molecular.
+
+                         24
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 11 Integração
+
+Um pesquisador injeta uma proteína fluorescente desenhada para se ligar à membrana do retículo
+endoplasmático e acompanha seu trajeto. Após algumas horas, observa fluorescência tanto no retículo
+quanto na membrana externa do envelope nuclear, com sinal contínuo entre os dois compartimentos.
+Qual interpretação melhor explica esse achado?
+
+A) A proteína atravessou o NPC ativamente, marcando o envelope nuclear de dentro para fora por
+difusão lateral lipídica.
+
+B) A proteína foi importada ao núcleo por sinalização NLS e depois exportada para a membrana
+externa, fechando o circuito.
+
+C) A membrana externa do envelope é contínua com a do RE; proteínas integrais migram entre os dois
+por difusão lateral na bicamada.
+
+D) A proteína foi degradada no RE e seus fragmentos se difundiram passivamente através do envelope
+nuclear até a membrana interna.
+
+E) O envelope nuclear é um compartimento bioquímico independente; a fluorescência observada no
+envelope é resultado de síntese local de uma proteína idêntica.
+
+Questão 12 Integração
+
+Sobre as funções das membranas do envelope nuclear, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. A membrana externa do envelope é funcionalmente similar ao RE rugoso e pode carregar ribosso-
+   mos aderidos à sua face citoplasmática.
+   II. O espaço perinuclear se comunica com o lúmen do retículo endoplasmático, formando um com-
+   partimento bioquímico único e contínuo.
+   III. A membrana interna do envelope é morfologicamente idêntica e funcionalmente equivalente à
+   membrana externa, sem proteínas específicas.
+   IV. A membrana interna do envelope carrega proteínas integrais que ancoram a lâmina nuclear na sua
+   face nuclear.
+
+                       25
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 13 Integração
+
+Durante a mitose, o envelope nuclear de células animais se rompe e é reconstruído nas células-filhas.
+Qual mecanismo molecular explica melhor o desmontar coordenado do envelope no início da mitose?
+
+A) Proteases ativadas no início da prófase clivam as laminas em fragmentos pequenos, degradando-
+as completamente para serem ressintetizadas mais tarde.
+
+B) Lipases específicas digerem as bicamadas do envelope, liberando lipídios livres no citoplasma para
+serem reciclados na telófase.
+
+C) As laminas se autofosforilam em resposta a íons cálcio liberados pelo retículo durante a profase,
+sem necessidade de quinases externas.
+
+D) A síntese de novas laminas é interrompida na prófase, e as laminas existentes se desintegram
+passivamente por turnover natural.
+
+E) Quinases dependentes de ciclina fosforilam as laminas, que perdem afinidade e se desmontam,
+rompendo o envelope na mitose.
+
+Questão 14 Integração
+
+Um experimento injeta partículas fluorescentes de diferentes tamanhos no citoplasma de uma célula e
+mede quanto tempo cada uma leva para atingir equilíbrio com o núcleo. Partículas de 5 kDa equilibram
+em segundos, enquanto partículas de 80 kDa não atingem equilíbrio mesmo após uma hora. Qual
+interpretação melhor explica esses resultados?
+
+   A) Partículas pequenas são ativamente transportadas ao núcleo por importinas, enquanto partículas
+   grandes são barradas pela falta de NLS na sua sequência.
+
+   B) Partículas pequenas e hidrofílicas atravessam o NPC por difusão simples; maiores ficam barradas
+   pelas FG-Nups sem carregador específico.
+
+   C) Partículas grandes são degradadas pelo proteassomo antes de atingir o NPC, o que justifica a
+   ausência de sinal no núcleo.
+
+   D) Partículas pequenas se difundem pela bicamada lipídica do envelope, enquanto partículas grandes
+   ficam barradas pela hidrofobicidade da membrana interna.
+
+   E) Partículas grandes só entram no núcleo durante a mitose, quando o envelope se rompe; em inter-
+   fase, elas ficam confinadas ao citoplasma.
+
+                       26
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 15 Integração
+
+Sobre o mecanismo da importação nuclear e o papel da Ran-GTPase, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+I. A importina reconhece o NLS no citoplasma e leva o cargo até o NPC, atravessando-o por interação
+com as FG-Nups.
+
+II. Ran ligada ao GTP é predominantemente citoplasmática, enquanto Ran ligada ao GDP é predomi-
+nantemente nuclear no estado de repouso.
+
+III. Quando a importina-cargo entra no núcleo, Ran-GTP se liga à importina e força a soltura do cargo
+no nucleoplasma.
+
+IV. O gradiente de Ran-GTP/Ran-GDP entre núcleo e citoplasma dá direção ao transporte: importação
+e exportação requerem Ran-GTP nuclear para montar o complexo.
+
+Questão 16 Integração
+
+Sobre a relação entre estado de condensação da cromatina e expressão gênica, é correto afirmar:
+
+   A) A condensação da cromatina é irrelevante para a transcrição: a RNA polimerase consegue acessar
+   qualquer região do genoma com igual facilidade, independentemente do nível de empacotamento.
+   B) Heterocromatina (condensada) favorece a transcrição porque "compacta" as sequências regu-
+   latórias próximas ao gene-alvo, aumentando a afinidade da RNA polimerase.
+   C) A transcrição é favorecida em regiões altamente condensadas porque a proximidade dos nucle-
+   ossomos facilita o recrutamento de fatores de transcrição em série.
+   D) A eucromatina descondensada expõe o DNA à RNA polimerase, enquanto a heterocromatina
+   condensada restringe o acesso e silencia a expressão.
+   E) A transcrição só ocorre em regiões inteiramente livres de histonas; em qualquer cromatina, a
+   presença de nucleossomos bloqueia totalmente a passagem da polimerase.
+
+                       27
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 17 Integração
+
+Sobre o trânsito de ribossomos entre nucléolo e citoplasma, é correto afirmar:
+
+   A) O nucléolo produz e exporta as subunidades 40S e 60S separadamente pelo NPC; a montagem
+   completa sobre o mRNA ocorre só no citoplasma.
+
+   B) O nucléolo monta o ribossomo completo (40S + 60S sobre mRNA) e exporta a partícula pronta pelo
+   NPC, onde inicia a tradução imediatamente no citoplasma.
+
+   C) O nucléolo monta as subunidades 40S e 60S, que se associam dentro do núcleo antes da exportação
+   para garantir tradução imediata.
+
+   D) O ribossomo é montado no citoplasma a partir de proteínas e rRNAs sintetizados independente-
+   mente; o nucléolo só sintetiza tRNAs.
+
+   E) O nucléolo exporta o ribossomo completo já carregado com o primeiro aminoacil-tRNA, pronto
+   para iniciar a tradução assim que toca o citoplasma.
+
+Questão 18 Integração
+
+Sobre os níveis hierárquicos de empacotamento do DNA, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. O primeiro nível é o nucleossomo (10 nm), seguido pela fibra de 30 nm com nucleossomos dobrados
+   uns sobre os outros.
+   II. A histona H1 atua principalmente no segundo nível, facilitando a transição do "colar de pérolas"
+   para a fibra de 30 nm.
+   III. As condensinas são proteínas que regulam o primeiro nível (nucleossomo), modificando as his-
+   tonas centrais diretamente por acetilação química.
+   IV. Os loops de cromatina ancorados na matriz nuclear definem domínios funcionais: loops com genes
+   co-regulados tendem a permanecer juntos.
+
+                       28
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 19 Integração
+
+Uma proteína sintetizada no citoplasma carrega um NES (sinal de exportação nuclear). Considerando o
+mecanismo da exportação nuclear, qual sequência de eventos descreve corretamente seu destino?
+
+A) A proteína atravessa o NPC por difusão simples graças ao NES, sem necessidade de carregador, e
+fica retida no núcleo até a próxima mitose.
+
+B) A importina leva a proteína ao núcleo; lá, Ran-GTP a transfere à exportina, que sai pelo NPC; no
+citoplasma, Ran-GDP libera o cargo.
+
+C) O NES é reconhecido no citoplasma pela exportina, que carrega a proteína diretamente para o NPC
+sem entrar no núcleo.
+
+D) O NES é uma marca de degradação: a proteína é levada ao proteassomo, e seus fragmentos atrav-
+essam o NPC para serem degradados no núcleo.
+
+E) Proteínas com NES não atravessam o NPC; ficam ancoradas à membrana externa do envelope por
+interação direta com FG-Nups.
+
+Questão 20 Integração
+
+Sobre a interação entre histonas e DNA na formação do nucleossomo, é correto afirmar:
+
+   A) Histonas se ligam ao DNA por interações covalentes do tipo ligação peptídica entre suas caudas e
+   as bases nitrogenadas.
+   B) O DNA se liga a histonas exclusivamente pelas bases nitrogenadas; o esqueleto açúcar-fosfato fica
+   voltado para o solvente e não participa do contato.
+   C) As histonas são proteínas básicas (ricas em lisina e arginina, positivas em pH fisiológico) que se
+   ligam aos fosfatos negativos do DNA por interação eletrostática.
+   D) As histonas são proteínas ácidas com cargas negativas que se ligam ao DNA por repulsão elet-
+   rostática, mantendo o filamento parcialmente desenrolado.
+   E) As histonas não têm carga em pH fisiológico; sua ligação ao DNA depende de pontes de hidrogênio
+   entre cadeias laterais hidrofóbicas e o açúcar do nucleotídeo.
+
+                       29
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 21 Integração
+
+Um menino de 7 anos apresenta fáceis envelhecidos, alopecia, pele fina enrugada, articulações
+endurecidas e aterosclerose precoce. Diagnóstico: síndrome de Hutchinson­Gilford (progéria). Qual
+mecanismo molecular explica melhor por que tecidos tão diferentes (pele, vasos, articulações, ossos)
+são todos afetados?
+
+A) A progerina é uma toxina que circula no sangue e ataca diferentes tipos celulares pelo mesmo
+receptor de superfície, gerando o fenótipo generalizado.
+
+B) O gene LMNA mutado expressa-se apenas em fibroblastos da pele e em células endoteliais; outros
+tecidos ficam preservados, e o envelhecimento é cosmético.
+
+C) A progerina interfere apenas com a replicação do DNA, encurtando telômeros aceleradamente em
+todas as células e provocando senescência prematura uniforme.
+
+D) Toda célula nucleada tem lâmina; quando a progerina a deforma, tecidos sob estresse mecânico ou
+alta renovação descompensam primeiro, gerando o fenótipo generalizado.
+
+E) A progéria é uma doença autoimune contra as laminas, em que o sistema imunológico ataca de
+forma seletiva os tecidos mesodérmicos.
+
+Questão 22 Integração
+
+Sobre a organização do nucléolo, julgue os itens:
+Cada item deve ser julgado de forma independente.
+
+   I. O nucléolo é delimitado por uma bicamada lipídica própria, derivada da membrana interna do
+   envelope nuclear que o circunda.
+   II. O nucléolo é um exemplo de condensado biomolecular, sem membrana ao redor, mantido por
+   interações fracas entre seus componentes.
+   III. O componente fibrilar denso do nucléolo abriga a transcrição do pre-rRNA e seu processamento
+   inicial em 18S, 5,8S e 28S.
+   IV. O tamanho do nucléolo é constante em todas as células do organismo, independentemente da
+   atividade celular, refletindo seu papel estrutural fixo.
+
+                       30
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 23 Integração
+
+A heterocromatina periférica de um núcleo interfásico forma uma orla escura encostada na face nuclear
+do envelope, visível em microscopia eletrônica. Qual estrutura é responsável pela ancoragem da cro-
+matina nessa periferia, e qual a consequência funcional?
+
+A) A lâmina nuclear ancora a heterocromatina à periferia, mantendo regiões silenciadas longe da
+maquinaria ativa de transcrição.
+
+B) O retículo endoplasmático rugoso, contínuo com a membrana externa, atrai a heterocromatina por
+afinidade dos ribossomos com o DNA.
+
+C) Os corpúsculos PML organizam a heterocromatina periférica e ativam a sua transcrição assim que
+a célula entra em ciclo.
+
+D) O nucléolo ancora a heterocromatina periférica e a recruta para a transcrição do rRNA quando há
+demanda metabólica.
+
+E) A heterocromatina periférica não é ancorada a nenhuma estrutura; ela se forma por agregação
+espontânea sem direcionamento, sem consequência funcional definida.
+
+Questão 24 Integração
+
+Sobre a simetria estrutural do complexo do poro nuclear (NPC) e suas consequências funcionais, é
+correto afirmar:
+
+   A) O NPC tem simetria triplicada, com três subunidades arranjadas em triângulo equilátero ao redor
+   do canal central, refletindo sua origem evolutiva a partir de três proteínas ancestrais.
+   B) O NPC tem simetria bilateral, com duas faces (citoplasmática e nuclear) idênticas que permitem
+   fluxo bidirecional simétrico sem necessidade de carregador específico.
+   C) O NPC não tem simetria definida; sua estrutura é amorfa e variável entre células, o que explica a
+   heterogeneidade do tráfego nuclear.
+   D) O NPC tem simetria pentamérica, com cinco proteínas idênticas arranjadas radialmente, e o canal
+   central tem dimensões fixas de 9 nm que não variam com a carga.
+   E) O NPC tem simetria óctupla, com oito subunidades ao redor de um canal central que regula a
+   passagem entre 9 e 40 nm conforme a carga.
+
+                       31
+NEBLI                      ETAPA 2 -- 30 OBJETIVAS
+
+Questão 25 Integração
+
+Durante a transição interfase  mitose, a cromatina se condensa progressivamente até atingir a forma
+característica de cromossomos metafásicos. Qual mecanismo molecular explica melhor essa conden-
+sação adicional?
+
+A) As histonas H2A, H2B, H3 e H4 são fosforiladas para se dissociarem do DNA, e a cromatina condensa
+por colapso da fibra exposta sem proteínas.
+
+B) O DNA é metilado massivamente nas citosinas durante a profase, e a metilação por si só dobra
+fisicamente o filamento até a forma metafásica.
+
+C) As condensinas, complexos motores ativados na mitose, dobram a cromatina em loops mais
+compactos, gerando a condensação do cromossomo metafásico.
+
+D) A lâmina nuclear se associa diretamente a cada cromossomo individualmente e o condensa por
+torção mecânica externa, sem participação de proteínas internas.
+
+E) A condensação resulta da perda total de água do nucleoplasma na profase, com colapso osmótico
+da cromatina sem participação de proteínas reguladoras.
+
+Questão 26 Aplicação
+
+Em um experimento, pesquisadores fundem uma proteína citoplasmática a uma sequência de aminoá-
+cidos rica em lisina e arginina e observam que a proteína passa a se acumular no núcleo da célula.
+Quando, em um segundo experimento, mutam dois resíduos básicos críticos dessa sequência, a proteína
+volta a ficar no citoplasma. Qual interpretação melhor explica esses resultados?
+
+   A) A sequência rica em lisina e arginina aumentou a massa molecular da proteína, fazendo-a ser
+   barrada pelo NPC; as mutações restauraram o tamanho original e devolveram a localização citoplas-
+   mática.
+
+   B) A sequência rica em lisina e arginina funciona como NLS, reconhecida por importinas que levam
+   o cargo pelo NPC; mutar resíduos básicos destrói o reconhecimento.
+
+   C) A sequência ácida adicionada ancorou a proteína à face nuclear da lâmina; as mutações desfizeram
+   a ancoragem por hidrolisar pontes de hidrogênio.
+
+   D) A sequência atuou como sinal de exportação (NES); ao mutar, a proteína perdeu a capacidade de
+   sair e se acumulou no citoplasma.
+
+   E) A sequência rica em lisina e arginina funciona como sítio de ligação à RNA polimerase, ativando
+   transcrição e secundariamente a localização nuclear.
+
+                       32
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 27 Aplicação
+
+Um pesquisador isola um mRNA recém-exportado do núcleo de uma célula humana e analisa sua es-
+trutura. Encontra: cap 5 modificado, cauda poli-A, sequências de exons sem íntrons, e várias proteínas
+associadas à fita. Qual interpretação melhor explica essa composição?
+
+A) O mRNA estava no citoplasma desde a transcrição, pois eucariontes não têm processamento; as
+proteínas associadas representam contaminação experimental do isolamento.
+
+B) O mRNA atravessou o NPC ainda contendo íntrons; o splicing aconteceu no citoplasma minutos
+após a exportação, e as proteínas associadas representam ribossomos prestes a iniciar a tradução.
+
+C) O mRNA é uma molécula nua de RNA durante todo o trânsito; as proteínas observadas devem ter
+contaminado a amostra durante o isolamento.
+
+D) O mRNA foi processado no núcleo (splicing, capping, cauda) antes da exportação e sai como mRNP,
+com proteínas que marcam maturidade e destino.
+
+E) O cap 5 e a cauda poli-A são adicionados no citoplasma após a tradução; encontrá-los no mRNA
+recém-exportado indica que a célula está em apoptose.
+
+Questão 28 Aplicação
+
+Um esfregaço bucal de uma mulher saudável é corado e examinado em microscopia óptica. Em vários
+núcleos observa-se um pequeno corpúsculo denso adjacente ao envelope nuclear (corpúsculo de Barr).
+Julgue os itens sobre esse achado:
+Cada item deve ser julgado de forma independente.
+
+   I. O corpúsculo de Barr corresponde a um dos cromossomos X heterocromatinizado (inativo), em um
+   exemplo clássico de heterocromatina facultativa.
+   II. O corpúsculo de Barr também está presente em homens saudáveis sem doença genética, refletindo
+   o cromossomo Y inteiramente heterocromatinizado.
+   III. A heterocromatinização do segundo X em fêmeas é compensação de dose: uma cópia é silenciada
+   em cada célula somática, equalizando expressão.
+   IV. Toda heterocromatina facultativa, como o corpúsculo de Barr, permanece idêntica em todas as
+   células do organismo e estável durante o desenvolvimento.
+
+                      33
+NEBLI                     ETAPA 2 -- 30 OBJETIVAS
+
+Questão 29 Aplicação
+
+Uma criança de 8 anos chega ao consultório com fácies envelhecidos, alopecia, articulações rígidas, pele
+fina e história de aterosclerose com infarto recente. Os pais relatam que ela nasceu aparentemente nor-
+mal, mas que os sinais começaram aos 2 anos. Um exame genético confirma o diagnóstico de progéria
+de Hutchinson­Gilford. Qual mecanismo molecular subjacente melhor explica o quadro clínico?
+
+A) Mutação no LMNA produz a progerina, lamina A defeituosa que se ancora à membrana interna e
+deforma o núcleo, desregulando expressão em tecidos sob estresse mecânico ou alta renovação.
+
+B) Uma deleção no gene que codifica a histona H3 leva à perda do empacotamento do DNA em nucle-
+ossomos, resultando em instabilidade genômica e envelhecimento prematuro em todos os tecidos.
+
+C) Mutações no gene da nucleoporina Nup98 impedem a montagem do NPC, bloqueando o tráfego
+nuclear e levando a falência progressiva das funções celulares com aceleração do envelhecimento.
+
+D) Uma mutação no gene que codifica a importina- impede a importação de fatores de transcrição
+ao núcleo, com consequente falha de expressão gênica e envelhecimento de todos os tecidos.
+
+E) A doença é causada por uma mutação no DNA mitocondrial que reduz a produção de ATP no
+envelope nuclear, causando colapso energético do núcleo e envelhecimento generalizado.
+
+Questão 30 Aplicação
+
+Um paciente recém-diagnosticado com infecção por HIV apresenta queda progressiva de linfócitos T
+CD4+, muitos deles em estado quiescente (não-dividindo). Sabendo que o HIV consegue infectar células
+T quiescentes, o que outros vírus de DNA não conseguem, qual mecanismo molecular melhor explica
+essa capacidade do HIV?
+
+   A) O HIV produz uma enzima que cliva a membrana plasmática e o envelope nuclear em uma única
+   etapa, permitindo entrega direta do genoma viral ao DNA do hospedeiro sem necessidade de trans-
+   porte regulado.
+
+   B) O HIV se integra exclusivamente em células em divisão, em que o envelope nuclear se rompe na
+   mitose; o achado em células quiescentes representa contaminação cruzada do exame.
+
+   C) O HIV se replica apenas no citoplasma, sem nunca entregar o genoma ao núcleo; a queda dos
+   linfócitos CD4 ocorre por mecanismos extranucleares de citotoxicidade direta.
+
+   D) O HIV carrega proteínas com NLS funcionais (como Vpr) que usam a importação do hospedeiro
+   para levar o genoma viral pelo NPC, infectando até células quiescentes.
+
+   E) O HIV usa apenas a difusão simples pelo poro nuclear, e seu pequeno tamanho permite atravessar
+   livremente sem necessidade de sinal de localização ou carregador específico.
+
+                      34
+NEBLI                            ETAPA 2 -- 30 OBJETIVAS
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Explique mecanisticamente por que o "filtro" do poro nuclear é químico (interação com a "geleia"
+de FG-Nups) e não puramente geométrico (tamanho do canal). Use o cutoff funcional de 20­40
+kDa para sustentar o argumento.
+
+    MODELO DE RESPOSTA
+
+   Se o filtro fosse puramente geométrico, qualquer molécula menor que o canal ( 9
+   nm) passaria livremente, independentemente de afinidade química. Mas o canal está
+   preenchido por nucleoporinas FG, cujas regiões hidrofóbicas formam uma malha
+   densa. Moléculas pequenas e hidrofílicas atravessam por difusão; já as médias (20­40
+   kDa) ficam barradas, não porque "não cabem", mas porque não interagem favoravel-
+   mente com a geleia. Carregadores como importinas têm afinidade pela geleia FG, "se
+   sentem em casa" e atravessam rápido com seu cargo. O filtro é químico: o que decide é
+   a interação com FG-Nups.
+
+Questão Q2
+
+Explique como o gradiente Ran-GTP/Ran-GDP dá direção ao tráfego pelo poro nuclear. Por que
+esse gradiente é mantido entre núcleo e citoplasma?
+
+    MODELO DE RESPOSTA
+
+   Ran é uma pequena GTPase em duas formas: Ran-GTP e Ran-GDP. No núcleo, predom-
+   ina Ran-GTP, porque a trocadora de nucleotídeo está lá. No citoplasma, predomina
+   Ran-GDP, porque a Ran-GAP (que hidrolisa GTP) está no citoplasma. Esse gradiente
+   orienta o transporte: na importação, importina-cargo entra no núcleo, encontra Ran-
+   GTP, e este força a soltura do cargo. Na exportação, exportina liga cargo + Ran-GTP no
+   núcleo, atravessa o NPC, e no citoplasma a Ran-GTP é hidrolisada, soltando o cargo. Sem
+   o gradiente, importação e exportação ficariam indistinguíveis.
+
+                             35
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q3
+
+Explique por que a lâmina nuclear precisa ser desmontada antes da mitose e remontada na teló-
+fase. Que consequência haveria se as laminas se mantivessem polimerizadas durante a divisão?
+
+MODELO DE RESPOSTA
+
+Para os cromossomos serem segregados pelos polos do fuso, precisam estar acessíveis
+aos microtúbulos do citoplasma. Mas o envelope, sustentado pela lâmina, separa
+cromossomos do citoplasma. Por isso, na prófase, quinases dependentes de ciclina fos-
+forilam as laminas, que perdem afinidade; a malha desmonta, o envelope se rompe, os
+cromossomos ficam expostos. Sem essa desmontagem, os microtúbulos não capturam
+os cromossomos, e a mitose trava. Na telófase, fosfatases revertem o processo, as
+laminas se reagregam em cada célula-filha, e o envelope se reforma. O ciclo desmontar­
+remontar torna a divisão eucariótica viável.
+
+Questão Q4
+
+Explique por que o nucléolo é considerado um "condensado biomolecular" e quais consequências
+funcionais isso tem em comparação com uma organela delimitada por membrana.
+
+    MODELO DE RESPOSTA
+
+   O nucléolo não tem membrana, mas mantém composição e geometria distintas (três
+   zonas concêntricas). Essa coerência surge de interações fracas entre seus componentes
+   -- proteínas com domínios desordenados, RNAs nascentes, partículas em montagem
+   -- que se condensam em uma fase líquida separada do nucleoplasma, como gotas de
+   óleo em água. Consequências: (1) o nucléolo é dinâmico, pode crescer ou se desfazer
+   rapidamente; (2) componentes entram e saem livremente, sem transportadores. Uma
+   organela com membrana seria estática e exigiria maquinaria de tráfego, tornando a
+   regulação muito mais lenta.
+
+       36
+NEBLI      ETAPA 3 -- DISCURSIVAS
+
+Questão Q5
+
+Identifique o erro. Um aluno escreveu: "Na heterocromatina, o DNA está separado das histonas
+porque a região é condensada e a transcrição é impossível. Em eucromatina, o DNA volta a
+se associar às histonas e a transcrição se torna acessível. A diferença entre heterocromatina e
+eucromatina, portanto, é a presença ou ausência de histonas no DNA." Aponte os erros centrais
+do raciocínio e descreva corretamente a distinção entre os dois estados da cromatina.
+
+MODELO DE RESPOSTA
+
+O aluno comete dois erros encadeados e essencialmente inverte a relação. Primeiro:
+o DNA nunca está separado das histonas no núcleo eucariótico; em todo estado da
+cromatina (eucromatina e heterocromatina, constitutiva e facultativa), o DNA está
+enrolado em nucleossomos. Cromatina existe sempre. Segundo: a distinção entre eu-
+cromatina e heterocromatina não é "tem ou não tem histonas"; é o grau de condensação
+dos nucleossomos. Na eucromatina, os nucleossomos estão espaçados e a fibra está
+descondensada, deixando o DNA acessível à RNA polimerase. Na heterocromatina, os
+nucleossomos estão próximos uns dos outros, frequentemente com histonas modifi-
+cadas, e o DNA fica enclausurado, inacessível à transcrição. Em ambos os casos, há
+histonas; o que muda é como elas se arranjam.
+
+       37
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 D     Q02 CECC      Q03 B     Q04 E  Q05 A
+Q06 EECE  Q07 C         Q08 D     Q09 B  Q10 A
+
+INTEGRAÇÃO (Q11­Q25)    Q13 E     Q14 B  Q15 ECCE
+                        Q18 CCEC  Q19 B  Q20 C
+Q11 C     Q12 CEEC      Q23 A     Q24 E  Q25 C
+
+Q16 D     Q17 A         Q28 CECE  Q29 A  Q30 D
+
+Q21 D     Q22 EECC
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 B     Q27 D
+
+                        42
+

@@ -1,0 +1,183 @@
+slug: histo-09-vasos-sanguineos-linfaticos
+titulo: "Histologia dos Vasos Sanguíneos e Linfáticos"
+subtitulo: "Histologia"
+meta:
+  - ["Disciplina", "Histologia (UC02)"]
+  - ["Onde estudar", "Slides do Prof. ML (histologia do sistema circulatório) · Junqueira & Carneiro, Histologia Básica, cap. 11 · Ross & Pawlina, cap. 13"]
+  - ["Onde aprofundar", [
+      "*Assistir/ler* — NinjaNerd (Histology: Blood Vessels) · Bootcamp (Anatomy/Histology › Vasculatura) · Pathoma cap. 6 (só a patologia: aterosclerose e vasculites) · Sketchy: não cobre histologia básica",
+      "*Dessuspender no AnKing v12* — ordenados por completude no tema; dessuspenda de cima pra baixo:",
+      "*Cobre melhor* · #FirstAid::07_Cardiovascular::02_Anatomy::*Blood_Vessels — 15 cards (as 3 túnicas, artéria × veia, tipos de capilar)",
+      "*Complementa* · #FirstAid::07_Cardiovascular::03_Physiology::20_Capillary_fluid_exchange — 24 cards (troca capilar e edema)",
+      "*Mais distante* · #Bootcamp::Cardiology::23_Stable_Angina_and_Atherosclerosis::02_Atherosclerosis — 30 cards (só o gancho clínico: endotélio → aterosclerose)",
+      "*Mais distante* · #FirstAid::11_Musculoskeletal::*Vasculature::Varicose_Veins — 6 cards (só varizes)"]]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Tema descritivo-histológico, mas
+#   com um eixo mecanístico que amarra tudo: PRESSÃO manda na PAREDE. Alta pressão
+#   perto do coração → parede elástica/muscular espessa; baixa pressão no retorno →
+#   veia de parede fina e luz ampla; troca no ponto de menor pressão → capilar de
+#   uma célula. Integração natural: estrutura×função, tipo de capilar×órgão,
+#   artéria×veia, endotélio×clínica (aterosclerose), linfático×edema.
+# Blueprint (MÉDIO): aprofundar túnicas; endotélio (NO, von Willebrand);
+#   capilar contínuo/fenestrado/sinusoide. Ângulo de Aplicação: aterosclerose
+#   começa no endotélio; gancho clínico BR: aterosclerose, HAS, varizes.
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 12-15 — pedido de Davi: sucinto).
+# Recorte: slide único "sistema circulatorio - histologia.pdf" (23 pág, docente ML).
+#   Cobre vasos sanguíneos + linfáticos; NÃO cobre coração (parede/valvas cardíacas)
+#   nem anatomia macro — fica com os resumos de anatomia (anato-05/06). Foco: a
+#   HISTOLOGIA da parede dos vasos.
+#
+# Prioridades desta corrida (do pedido literal de Davi + Diário de revisões):
+#   P1. SUCINTO, mas completo e fluido. Amplo em cobertura, enxuto em cada ponto.
+#       Nomes de subtópico diretos (item 35).
+#   P2. "Usar tópicos": onde o conteúdo é catálogo de tipos discretos com 1 traço
+#       definidor, virar TABELA (Cat 18 gatilho 1 + caso (a)/(c) do CLAUDE.md):
+#       (i) artéria elástica × muscular; (ii) os 3 tipos de capilar; (iii) artéria ×
+#       veia. Resto = prosa expositiva contínua de monitor.
+#   P3. Tema VISUAL → fotomicrografia é o conteúdo. Usar os slides de fato (parede
+#       rotulada, elástica×muscular no Weigert, capilar fenestrado, válvula venosa,
+#       linfático×veia). Diário biocel-07 (peso alto): não fechar tema espacial sem figura.
+#   P4. Aprofundar o endotélio em 1-2 frases de mecanismo (NO/vWF) e ligar à
+#       aterosclerose SEM vocabulário de prova (blueprint invisível).
+#   P5. E2: ~10 C/E nas 3 categorias + 1-2 "assinale a incorreta"; gabarito sorteado
+#       de verdade + guarda anti-degeneração; paridade banda dupla 0.80-1.25 Q01-Q30.
+#   P6. Sem pergunta-âncora/retórica de abertura (canônico 2026-05-29).
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O plano comum: a parede em três túnicas"
+        subtopicos:
+          - "O circuito e o problema que a parede resolve"
+          - "As três túnicas: íntima, média e adventícia"
+          - "O endotélio não é forro passivo"
+      - titulo: "PARTE II — Da alta pressão à troca: artérias, arteríolas e capilares"
+        subtopicos:
+          - "Artérias elásticas e musculares: amortecer ou distribuir"
+          - "Arteríola e metarteríola: a torneira da pressão"
+          - "Capilares: onde o sangue realmente troca"
+      - titulo: "PARTE III — O retorno de baixa pressão e a drenagem"
+        subtopicos:
+          - "Veias: muita luz, pouca parede"
+          - "Válvulas venosas e o retorno contra a gravidade"
+          - "O sistema linfático: recolher o que vazou"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Esqueleto das 3 PARTES + figuras planejadas
+# ---------------------------------------------------------------------------
+# PARTE I
+#   1.1 O circuito (sanguíneo fechado: artéria→arteríola→capilar→vênula→veia; linfático
+#       aberto/unidirecional que devolve o que vazou; funções: troca + retorno)  [fig slide-01]
+#   1.2 As três túnicas (íntima=endotélio+subendotelial+LEI; média=músculo liso/elastina+LEE;
+#       adventícia=conjuntivo+vasa vasorum+nervos)  [fig slide-03 — parede rotulada, 70%]
+#   1.3 O endotélio ativo (pavimentoso simples, zônulas de oclusão, permeabilidade variável;
+#       NO vasodilata, vWF na hemostasia; gancho aterosclerose)  [fig slide-04 lateral]
+# PARTE II
+#   2.1 Elásticas × musculares (TABELA; efeito Windkessel; lâminas fenestradas na média elástica;
+#       músculo liso na muscular)  [fig slide-08 HE×Weigert, 65%]
+#   2.2 Arteríola/metarteríola (\<0,5mm, 1-3 camadas músculo liso, parede≈luz; resistência periférica;
+#       esfíncter pré-capilar; sistema porta breve)  [fig slide-09 lateral]
+#   2.3 Capilares (endotélio único+lâmina basal+pericito; TABELA 3 tipos: contínuo/fenestrado/sinusoide
+#       com órgão)  [fig slide-13 fenestrado, 60%]
+# PARTE III
+#   3.1 Veias (vênula pós-capilar→veia→cava; sem lâmina elástica, média escassa, adventícia espessa,
+#       luz ampla; TABELA/prosa artéria×veia)  [fig slide-16 esquema artéria×veia, 60%]
+#   3.2 Válvulas venosas (dobra da íntima em meia-lua; bomba muscular; varizes)  [fig slide-19 válvula, 55%]
+#   3.3 Sistema linfático (capilar em fundo cego, sem junção de oclusão, filamentos de ancoragem;
+#       estrutura como veia mas túnicas indistintas + mais válvulas; exceções SNC/medula/cartilagem/osso/
+#       placenta; linfa→linfonodo→ducto torácico)  [fig slide-22 linfático×veia, 55%]
+#
+# Figuras planejadas (≥3 por PARTE, meta heurística): I=3 · II=3 · III=3. Relatório no fechamento.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 enquadramento | 1.2 integração-anterior | 1.3 ponto-de-quebra (o forro que decide o destino do vaso)
+# 2.1 analogia concreta (amortecedor × torneira) | 2.2 integração-posterior (prepara o capilar) | 2.3 ponto-de-quebra (uma célula de espessura)
+# 3.1 integração-anterior (mesma parede, pressão oposta) | 3.2 analogia concreta (comporta/eclusa) | 3.3 integração-posterior (fecha o circuito)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# - epitélio pavimentoso simples: "uma única fileira de células achatadas, finas como ladrilhos, ideais para trocas rápidas"
+# - músculo liso: "células fusiformes involuntárias que se contraem devagar e sustentam tônus, sem estriação"
+# - pressão hidrostática × difusão: "quanto mais longe do coração, menor a pressão; nos capilares ela é tão baixa que a troca vira difusão pura"
+# - lâmina basal: "o tapete de matriz que o epitélio/endotélio secreta e sobre o qual se apoia"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# túnica íntima · túnica média · túnica adventícia · endotélio · lâmina elástica interna
+# vasa vasorum · pericito · fenestração · esfíncter pré-capilar · válvula venosa · linfa
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ---------------------------------------------------------------------------
+# - Quebra: inverter a composição da túnica média entre artéria elástica e muscular.
+#   Correção: o nome diz o componente dominante da MÉDIA — elástica tem lâminas elásticas
+#     concêntricas fenestradas (amortece o pulso); muscular tem músculo liso (regula o calibre). (q-0269)
+# - Quebra: reduzir a diferença artéria×veia só ao calibre.
+#   Correção: a veia tem média escassa, sem lâminas elásticas, adventícia espessa e colágena e luz
+#     ampla — reflexo do regime de baixa pressão do retorno. (q-0270)
+# - Quebra: tratar o endotélio como revestimento inerte.
+#   Correção: é epitélio ativo — libera NO (vasodilata), fator de von Willebrand (hemostasia) e controla
+#     trombose; quando disfunciona, começa a aterosclerose. (blueprint)
+# - Quebra: achar que os 3 tipos de capilar diferem só pelo endotélio.
+#   Correção: o divisor entre fenestrado e sinusoide é a LÂMINA BASAL — contínua no fenestrado,
+#     descontínua no sinusoide (deixa passar células no fígado e medula). (livro-texto)
+# - Quebra: supor que a válvula venosa é feita de músculo.
+#   Correção: é dobra da túnica íntima em meia-lua; o retorno depende da bomba muscular esquelética
+#     que comprime a veia por fora — falha da válvula gera varizes. (slide-18/19)
+# - Quebra: dar ao capilar linfático junções de oclusão como o sanguíneo.
+#   Correção: o linfático começa em fundo cego e NÃO tem junções de oclusão — é isso que permite a
+#     entrada de líquido, proteínas e células que formam a linfa. (slide-21)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo) → "pressão manda na parede" como fio condutor das 3 PARTES.
+# Cat 7 (analogia construtiva, parcimônia) → aorta como amortecedor (Windkessel); arteríola como torneira;
+#   válvula venosa como comporta/eclusa. 1 por subtópico onde a prosa pedir.
+# Cat 16 (catálogo de família) + Cat 18 gatilho 1/caso (a) → 3 TABELAS: elástica×muscular, 3 capilares, artéria×veia.
+# Cat 8 (atencao-box) com parcimônia → 1 box no máx por PARTE; reservar p/ inversão fenestrado×sinusoide (lâmina basal)
+#   e p/ "válvula não é músculo". Resto vira confusao-prevista (gold) ou prosa dialogada.
+# Cat 15 (#figura-lateral) → endotélio (slide-04), arteríola (slide-09): texto curto + figura média.
+# Cat 14 (siglas footnote) → NO, vWF pouca sigla; foco em prosa, evitar rajada (ANTI-EXEMPLAR A4).
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "CECC"]
+    - ["03", "A"]
+    - ["04", "D"]
+    - ["05", "ECCE"]
+    - ["06", "B"]
+    - ["07", "E"]
+    - ["08", "CEEC"]
+    - ["09", "C"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "ECCE"]
+    - ["12", "D"]
+    - ["13", "CECC"]
+    - ["14", "B"]
+    - ["15", "E"]
+    - ["16", "CECC"]
+    - ["17", "A"]
+    - ["18", "C"]
+    - ["19", "EECC"]
+    - ["20", "D"]
+    - ["21", "B"]
+    - ["22", "CCEE"]
+    - ["23", "E"]
+    - ["24", "ECEE"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "E"]
+    - ["28", "CEEC"]
+    - ["29", "B"]
+    - ["30", "D"]

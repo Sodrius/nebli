@@ -1,0 +1,58 @@
+slug: biomol-25-mutacao-reparo-recombinacao
+titulo: "Mutação, reparo e DNA móvel"
+subtitulo: "Biologia Molecular"
+meta:
+  - ["Disciplina", "Biologia Molecular (UC02)"]
+  - ["Onde estudar", "Slides do Prof. PC · Lehninger cap. 25 (reparo do DNA) · Alberts cap. 5 (mecanismos de reparo e recombinação)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Mutação: o que muda e por que aparece"
+        subtopicos:
+          - "1.1 O que é mutação e os três tipos"
+          - "1.2 Mutações espontâneas e a fidelidade da replicação"
+          - "1.3 Mutações induzidas: química e radiação UV"
+      - titulo: "PARTE II — Reparo: desfazer o erro antes que fixe"
+        subtopicos:
+          - "2.1 Reparo direto: fotoliase e MGMT"
+          - "2.2 Reparo por excisão de nucleotídeo"
+          - "2.3 Quando o reparo falha: xeroderma e SOS"
+      - titulo: "PARTE III — DNA móvel e recombinação"
+        subtopicos:
+          - "3.1 Plasmídeos, fator F e conjugação"
+          - "3.2 Transposons: genes que saltam"
+          - "3.3 Vírus, fago lambda e recombinação sítio-específica"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "C"]
+    - ["03", "EECCC"]
+    - ["04", "B"]
+    - ["05", "B"]
+    - ["06", "E"]
+    - ["07", "CEEEE"]
+    - ["08", "C"]
+    - ["09", "B"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "E"]
+    - ["13", "E"]
+    - ["14", "B"]
+    - ["15", "EEECE"]
+    - ["16", "C"]
+    - ["17", "D"]
+    - ["18", "D"]
+    - ["19", "D"]
+    - ["20", "A"]
+    - ["21", "E"]
+    - ["22", "EEECC"]
+    - ["23", "D"]
+    - ["24", "A"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "E"]
+    - ["27", "A"]
+    - ["28", "B"]
+    - ["29", "B"]
+    - ["30", "D"]

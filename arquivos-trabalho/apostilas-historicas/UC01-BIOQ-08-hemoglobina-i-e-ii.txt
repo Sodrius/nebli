@@ -1,0 +1,1040 @@
+NEBLI · APOSTILA
+
+Hemoglobina
+
+Bioquímica
+
+Disciplina:    Bioquímica
+Nota de uso:
+               Estude com o slide aberto ao lado. O slide-fonte une as aulas I e II
+Onde estudar:  -- começa pela estrutura do heme e da globina, passa pela teoria do
+               ligante e da curva de saturação, e termina nas hemoglobinopatias. Aqui
+               o fio é mecanístico: entenda primeiro por que a mesma proteína precisa
+               de duas afinidades, depois veja como TR resolve isso, e só então cole
+               nome em cada modulador. Quem decora 'Bohr é H+, BPG estabiliza
+               T' antes de entender por que isso importa fisiologicamente perde a
+               questão clínica.
+
+               Lehninger, Princípios de Bioquímica, Cap. 5 (Função das proteínas --
+               hemoglobina). Berg/Stryer Cap. 7. Guyton, Tratado de Fisiologia Médica,
+               Cap. 41 (Transporte de oxigênio e dióxido de carbono). Para a clínica das
+               hemoglobinopatias: Robbins, Patologia Básica, Cap. 12.
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado,
+pois o resumo complementa -- não substitui -- a aula.
+
+                                             Davi Sousa -- Turma 114
+               (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+Sumário
+
+ETAPA 1 -- TEXTO DIDÁTICO
+  PARTE I -- As peças e o ligante
+       1.1 Heme e globina: do átomo de ferro ao tetrâmero
+       1.2 Proteína e ligante: Kd e a curva de saturação
+       1.3 Por que o transportador ideal precisa ser sigmoide
+  PARTE II -- Alosteria e cooperatividade
+       2.1 T e R: a ligação que muda a forma da proteína
+       2.2 Bohr, CO2 e NO: moduladores que falam com o tecido
+       2.3 BPG: o ajuste fino da entrega de O2
+  PARTE III -- Clínica e variantes
+       3.1 Tamponamento: a Hb também carrega H+ e CO2
+       3.2 HbA, HbF, HbS: as variantes que importam
+       3.3 CO e metahemoglobina: quando o ferro perde a função
+
+RESUMINDO
+ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+GABARITO CONSOLIDADO DA ETAPA 2
+
+                                                                                 2
+NEBLI                         SUMÁRIO
+
+   Etapa 1 -- Texto didático
+
+    A hemoglobina é o exemplo didático que a bioquímica do 1º ano não pode evitar -- e por boa razão.
+    Ela junta tudo o que importa: estrutura proteica em vários níveis, ligação de pequena molécula,
+    alosteria, cooperatividade, regulação fisiológica e uma das mutações pontuais mais famosas da
+    medicina. Aqui o caminho é mecanístico. Entenda primeiro por que uma proteína que transporta
+    O2 precisa de duas afinidades, depois veja como ela consegue isso com uma transição estrutural,
+    e só então cole nomes em cada modulador. Quem decora "Bohr é H+, BPG estabiliza T" antes de
+    entender o porquê dessas peças perde a questão clínica e a discursiva.
+
+PARTE I -- As peças e o ligante
+
+1.1 -- Heme e globina: do átomo de ferro ao tetrâmero
+
+Comece com a pergunta crua: como uma proteína pega oxigênio? Proteína é um polímero de aminoá
+cidos, e nenhum dos vinte aminoácidos padrão, sozinho, liga O2 com a estabilidade que a fisiologia exige.
+A solução evolutiva foi anexar à proteína um grupo químico especializado, encaixado dentro de um
+bolso proteico que protege o ligante de reações indesejadas. Esse acessório se chama grupo prostético1.
+Uma proteína sem ele é chamada apoproteína; com ele, holoproteína.
+
+   No caso da hemoglobina, o grupo prostético é o heme2. Anatomicamente, é um anel orgânico chamado
+protoporfirina IX, e no centro do anel um átomo de ferro no estado de oxidação Fe2+. É esse ferro que
+prende o O2. O detalhe que aluno sempre pula: o ferro precisa estar como Fe2+ para ligar O2. Se oxida para
+Fe3+ -- a Hb passa a se chamar metahemoglobina3 --, a proteína fica lá, montada, com aspecto normal,
+mas não transporta. A hemácia tem maquinaria enzimática para regenerar Fe3+  Fe2+ justamente
+porque a oxidação espontânea acontece em taxa pequena mas constante.
+
+   1grupo prostético ­ componente não-proteico ligado de forma estável (covalente ou de forte afinidade) a uma proteína,
+indispensável à sua função
+
+   2heme ­ protoporfirina IX com um íon de ferro central, ancorada na bolsa hidrofóbica da globina
+   3metahemoglobina ­ hemoglobina com ferro oxidado a Fe³, incapaz de ligar O
+
+                                                                                 3
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare como o heme é um anel rígido (protoporfirina IX) com o ferro ancorado no centro. A globina segura o heme
+em uma bolsa hidrofóbica que protege o Fe² da oxidação espontânea.
+
+Agora a globina. Note que existem duas proteínas que transportam O2 no corpo: mioglobina e hemo
+globina. A diferença não está no heme -- as duas usam o mesmo anel com Fe2+. O que muda é o número
+de subunidades. Mioglobina é uma cadeia só, monomérica. Hemoglobina é um tetrâmero -- quatro
+cadeias, duas iguais a duas. Na HbA4, a fórmula é 22: duas cadeias  e duas , cada uma carregando seu
+próprio heme. Resultado: 4 sítios de O2 por molécula de hemoglobina.
+
+   Pergunta para fixar antes de seguir: por que a evolução manteve uma proteína monomérica no
+músculo e uma tetramérica no sangue? A resposta vai aparecer no 1.3, quando ficar claro que transportar
+pede tetrâmero, mas armazenar pede monômero.
+
+   Resumindo até aqui: Hb adulta = tetrâmero  com 4 hemes; cada heme = protoporfirina IX + Fe².
+   Mioglobina é monomérica e armazena O no músculo; Hb transporta O no sangue.
+
+    Fe² é obrigatório
+
+    Hb com Fe³ (metahemoglobina) está intacta estruturalmente, mas não pega O. Por isso intoxi
+    cação por nitritos, dapsona, óxido nítrico em excesso e benzocaína tópica em bebês causa hipóxia
+    tecidual com hemoglobina aparentemente presente. Tratamento: azul de metileno, que reduz Fe³
+     Fe².
+
+1.2 -- Proteína e ligante: K e a curva de saturação
+
+Antes de mergulhar no comportamento peculiar da hemoglobina, é preciso entender a regra geral de
+como uma proteína segura um ligante. Imagine uma proteína P e um ligante L em solução. Quando se
+aproximam, eles se associam, formando o complexo PL. Mas a interação não é permanente: PL pode
+dissociar de volta em P + L. É um equilíbrio.
+
+   4HbA ­ hemoglobina adulta -- composição , predominante a partir dos primeiros meses de vida
+
+                                                                                 4
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+                                                     P + L  PL
+
+   A pergunta importante é: nesse equilíbrio, qual é a fração da proteína que está ocupada pelo ligante?
+Isso depende de duas coisas: a concentração de ligante disponível, e a "afinidade" intrínseca da proteína
+por aquele ligante. Captura-se essa afinidade em um único número:
+
+                                                     Kd = ([P] · [L]) / [PL]
+   Essa quantidade, Kd, é a constante de dissociação5. Ela é alta quando a proteína "prefere" soltar
+(baixa afinidade); baixa quando a proteína "prefere" segurar (alta afinidade). Vale memorizar invertido,
+porque o nome induz erro: Kd baixo significa afinidade alta.
+   Se você plotar a fração de sítios ocupados em função da concentração de ligante, sai uma curva carac
+terística: sobe rápido em baixa [L], satura assintoticamente em alta [L]. É uma hiperbólica, e o ponto em
+que metade dos sítios está ocupado corresponde exatamente a [L] = Kd. Olhar a curva é a forma visual
+de ler a afinidade.
+
+Note como a mioglobina satura quase totalmente em pressões parciais baixas de O -- é a curva hiperbólica clássica
+de uma proteína com K_d baixo (alta afinidade).
+
+Aqui entra um insight que parece pequeno e é central: alta afinidade não é automaticamente boa para
+um transportador. A mioglobina tem afinidade alta -- satura quase totalmente em pressões muito
+baixas. Por isso ela funciona como armazenamento no músculo: pega o pouco O2 que sobra entre
+contrações e segura até o esforço cobrar. Mas justamente porque tem afinidade alta, ela não solta o O2
+facilmente. Como transportador entre pulmão e tecido, seria péssima -- carregaria com facilidade mas
+entregaria com sofrimento.
+
+   Resumindo até aqui: K_d baixo = alta afinidade. Mioglobina tem K_d baixo  satura em pO baixo 
+   armazena, não transporta.
+
+   5constante de dissociação ­ concentração de ligante em que metade dos sítios da proteína está ocupada -- proxy de
+afinidade: K_d baixo significa alta afinidade
+
+                                                                                 5
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+1.3 -- Por que o transportador ideal precisa ser sigmoide
+
+Imagine o problema da fisiologia: pulmão tem pO2 alto ( 100 mmHg), tecido em repouso 40 mmHg,
+tecido em exercício 20 mmHg. O transportador ideal deveria saturar no pulmão (pegar o máximo de O2
+ofertado) e descarregar no tecido (soltar o máximo possível). Para isso, precisaria de duas afinidades
+-- alta quando o ambiente tem muito O2, baixa quando tem pouco.
+
+   Uma proteína com curva hiperbólica não consegue. Ela tem uma afinidade só, fixa. Se for alta, como
+a Mb, satura no pulmão mas não solta no tecido. Se for baixa, solta no tecido mas não satura no pulmão.
+Não dá para cumprir as duas missões com afinidade constante.
+
+ Compare as duas curvas: a hiperbólica da mioglobina serve para armazenar; a sigmoide da hemoglobina é o que
+ permite carregar muito no pulmão e descarregar muito no tecido.
+A solução evolutiva foi engenhosa: uma proteína que muda de afinidade conforme as condições. Em
+pO2 alto ela está com afinidade alta -- pega O2. Em pO2 baixo, ela está com afinidade baixa -- solta. A
+consequência visual disso é que a curva fica sigmoide: pé achatado no início, depois inclinada na faixa
+fisiológica (chamada de "descarga útil"), depois platô. A inclinação no meio é onde a Hb varia muito sua
+saturação para variações pequenas de pO2 -- exatamente a janela em que o tecido vive.
+
+   Por que isso só é possível com tetrâmero? Porque a mudança de afinidade depende de comunicação
+entre subunidades -- uma subunidade "avisa" as outras de que pegou O2. Sem múltiplas subunidades,
+não há comunicação, não há cooperatividade, não há sigmoide. O transporte exige cooperatividade, e a
+cooperatividade exige múltiplas subunidades. A mioglobina monomérica não pode cooperar -- e por
+isso não transporta, armazena.
+
+   Resumindo até aqui: Hb tetramérica  cooperatividade  curva sigmoide  carrega 98% no pulmão
+   e libera 25% no tecido em repouso, 75% em exercício.
+
+                                                                                 6
+NEBLI                                                        ETAPA 1 -- TEXTO DIDÁTICO
+
+                         MAPA CONCEITUAL
+
+                                       I
+
+                         Forma manda na função
+
+                         
+
+1.1 ­ Heme + globina            1.2 ­ K_d e curva                   1.3 ­ Sigmoide
+Fe² no anel, tetrâmero 
+                                                              Cooperatividade exige
+                                 Baixo K_d = alta afinidade
+                                                                     tetrâmero
+
+     Da peça química ao princípio funcional. Agora entendemos por que a Hb precisa mudar
+                                              de afinidade -- falta entender como.
+
+PARTE II -- Alosteria e cooperatividade
+
+2.1 -- T e R: a ligação que muda a forma da proteína
+
+A Hb tem duas conformações estáveis. Quando nenhuma das subunidades carrega O2, o tetrâmero tende
+à conformação T6 (tense, baixa afinidade). Quando há O2 ligado, ele tende à conformação R7 (relaxed,
+alta afinidade). A diferença entre as duas é física: alguns aminoácidos da interface entre subunidades
+mudam de posição, algumas pontes salinas se quebram, e o resultado líquido é que o bolso onde o O2 se
+encaixa muda de geometria -- fica mais ou menos acolhedor.
+
+Repare como a ligação de O em uma subunidade desloca o equilíbrio T  R. Na forma R, as outras subunidades têm
+muito mais facilidade de ligar O. É essa transição que gera a cooperatividade.
+
+   6T ­ tense -- estado tenso da Hb, com baixa afinidade por O, predomina quando os sítios estão vazios
+   7R ­ relaxed -- estado relaxado da Hb, com alta afinidade por O, predomina quando os sítios estão ocupados
+
+                                                                                 7
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Agora a parte cooperativa: quando a primeira molécula de O2 se liga, a subunidade que recebeu ela mexe
+na sua forma -- e isso puxa as subunidades vizinhas para a conformação R, que tem maior afinidade.
+Resultado: a segunda molécula de O2 entra mais fácil que a primeira. A terceira, mais fácil ainda. A quarta,
+com folga. Isso se chama cooperatividade positiva8 -- e é exatamente o que gera a curva sigmoide.
+
+   Repare como o vocabulário se separa: cooperatividade é o nome do fenômeno (subunidade afeta
+subunidade). Alosteria é mais amplo -- significa "efeito em outro sítio". Cooperatividade homotrópica
+positiva (mesmo ligante atuando em sítios distintos) é uma forma de alosteria. Quando vier o BPG no
+2.3, você vai ver alosteria heterotrópica: um ligante diferente do O2 se ligando em outro sítio e mudando
+a afinidade pelo O2.
+
+T não é 'sem O'
+
+Aluno decora T = vazia, R = cheia. Errado. T é a forma com baixa afinidade -- predomina vazia,
+mas pode existir cheia se algo a estabilizar. R é a forma com alta afinidade -- predomina cheia,
+mas pode aparecer vazia em condições particulares. A relação é probabilística (equilíbrio), não
+absoluta.
+
+Resumindo até aqui: T = baixa afinidade (predomina vazia); R = alta afinidade (predomina cheia).
+Ligação de O desloca o equilíbrio T  R, facilitando as próximas ligações  cooperatividade 
+sigmoide.
+
+2.2 -- Bohr, CO e NO: moduladores que falam com o tecido
+
+Até aqui o O2 é tanto o ligante principal quanto o único modulador. Mas a Hb "escuta" outras moléculas
+-- e é aqui que está o pulo do gato fisiológico. A afinidade da Hb pelo O2 pode ser ajustada por H+ (próton),
+CO2, NO e BPG. Os três primeiros vamos ver aqui; o BPG fica para o 2.3 porque tem um mecanismo só dele.
+
+   Comece pelo mais famoso: o efeito Bohr9. Tecido que está consumindo O2 rápido (musculatura em
+exercício, por exemplo) gera CO2 pelo metabolismo. CO2 vira H2CO3 na água, e H2CO3 libera H+. Resultado:
+tecido ativo é ácido. E aqui o mecanismo: H+ se liga a resíduos histidina da globina (especialmente
+His146) e estabiliza a conformação T  Hb solta O2. Tradução fisiológica: justo o tecido que mais
+precisa de O2 é o que mais recebe.
+
+   8cooperatividade positiva ­ propriedade pela qual a ligação de um ligante em um sítio facilita ligações em sítios
+adicionais da mesma proteína
+
+   9efeito Bohr ­ redução da afinidade da Hb pelo O em ambiente ácido -- facilita a descarga em tecidos metabolicamente
+ativos
+
+                                                                                 8
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Note que Bohr, CO, BPG e temperatura são todos moduladores alostéricos da Hb -- cada um age por um mecanismo
+distinto e em escala temporal diferente.
+O CO2 tem dois mecanismos. O indireto é via pH (vira H+ e atua pelo Bohr). O direto é formar ligação
+covalente com aminoácidos N-terminais da globina -- chama-se carbamato10. Carbamatos estabilizam
+T  Hb solta O2. Por aqui o sentido fisiológico também bate: tecido ativo gera CO2, CO2 se liga à Hb, Hb
+solta O2 no tecido. De bônus, a Hb agora carrega o CO2 de volta até o pulmão, onde no ambiente alcalino
+vai soltar tanto H+ quanto carbamato.
+
+    CO não liga no Fe
+    CO forma carbamato com a globina (aminoácidos N-terminais). Quem se liga ao Fe² é o O --
+    e o CO (monóxido), com afinidade 210× maior. Não confunda CO e CO. É uma das pegadinhas
+    clássicas da P2 e do Enare.
+
+O NO entra na lista mais por completude do que por relevância prática para o 1º ano. Em condições
+particulares, NO se associa a resíduos de cisteína da -globina, modulando o tônus vascular local quando
+a Hb descarrega no tecido. Para a P2: saber que existe e que é alostérico, sem decorar mecanismo
+molecular.
+
+   Resumindo até aqui: Bohr: pH ácido (alto H) estabiliza T  Hb solta O no tecido ativo. CO: via
+   carbamato e via H, mesmo efeito final. NO: modulador menor, vasodilatação local na descarga.
+
+   10carbamato ­ ligação covalente reversível entre CO e o grupo amino N-terminal de uma proteína, modulando a
+afinidade da Hb
+
+                                                                                 9
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Exercício e exercício extremo
+
+Em exercício intenso o músculo gera CO e lactato em ritmo acelerado. Bohr e carbamato coop
+eram: a Hb chega no músculo, encontra ambiente ácido e CO alto, e libera muito mais O do que
+liberaria em repouso. A curva de dissociação se desloca para a direita durante exercício -- para
+a mesma pO tecidual, a saturação cai mais. Resultado: o O ofertado ao músculo aumenta sem
+precisar aumentar a ventilação proporcionalmente.
+
+2.3 -- BPG: o ajuste fino da entrega de O
+
+O BPG11 (2,3-bisfosfoglicerato) é um pequeno metabólito produzido pela própria hemácia, num desvio
+lateral da glicólise. É o último -- e mais elegante -- modulador da nossa lista. Por que elegante? Porque
+a célula que produz BPG é a mesma que abriga a Hb. A hemácia ajusta a afinidade da sua própria carga
+conforme as condições do organismo.
+
+ BPG encaixa numa cavidade central do tetrâmero, presente apenas na conformação T. Ao se ligar, ele tranca essa
+ forma -- e Hb com T estabilizado libera O com mais facilidade.
+
+O mecanismo: BPG se encaixa numa cavidade central do tetrâmero -- espaço entre as 4 subunidades.
+Essa cavidade existe apenas na forma T. Quando a Hb passa para R (ao ligar O2), a cavidade fecha e
+expulsa o BPG. Conclusão: BPG estabiliza T. Mais BPG  mais Hb na forma T  menor afinidade 
+mais O2 entregue no tecido. Curva desloca para a direita.
+
+   Por que isso importa clinicamente? Porque a hemácia regula o nível de BPG conforme as condições
+do organismo. Em hipóxia crônica -- altitude alta, anemia, doença pulmonar -- a hemácia aumenta a
+síntese de BPG. A Hb fica com afinidade menor. A mesma quantidade de hemoglobina entrega mais O2
+por unidade de pO2 tecidual. É adaptação metabólica, com escala de dias-semanas -- diferente do Bohr,
+que é minuto a minuto, regional.
+
+   11BPG ­ 2,3-bisfosfoglicerato -- intermediário da glicólise da hemácia que modula a afinidade da Hb pelo O
+
+                                                                                10
+NEBLI                                                    ETAPA 1 -- TEXTO DIDÁTICO
+
+HbF e o BPG
+
+A hemoglobina fetal (HbF, ) tem  no lugar de . A cadeia  não tem o resíduo His143 que se
+liga ao BPG  HbF é insensível ao BPG  mantém afinidade alta. Por que isso importa? Porque
+na placenta o feto pega O do sangue materno. Se a HbF tivesse a mesma afinidade da HbA, a troca
+seria difícil -- sangue materno chega à placenta com 75% de saturação, gradiente muito modesto.
+Com HbF de alta afinidade, ela puxa O da HbA materna com sucesso. Após o nascimento, a HbF
+é trocada gradualmente por HbA -- em 6 meses já predomina HbA.
+
+Altitude aumenta o BPG, não diminui
+Reflexo errado comum: "altitude tem pouco O, então a Hb precisa de mais afinidade". Inverso.
+Em altitude a Hb chega no pulmão e satura menos que ao nível do mar -- não há jeito de saturar
+mais. O ganho está na descarga: aumentar BPG  diminuir afinidade  entregar mais O no
+tecido apesar da menor saturação. O organismo abre mão de carregar muito para garantir que
+entregue muito.
+
+Resumindo até aqui: BPG liga só em T  estabiliza T  diminui afinidade  desloca curva para a
+direita  mais O entregue no tecido. Altitude alta = mais BPG. HbF não tem His143 = insensível ao BPG
+= alta afinidade fetal.
+
+                                                                   MAPA CONCEITUAL
+
+                                                                 II
+
+                     Hb muda de afinidade com moduladores
+
+                     
+
+2.1 ­ T  R                  2.2 ­ Bohr e CO                     2.3 ­ BPG
+
+Ligação muda forma                                        Estabiliza T, ajusta entrega no
+cooperatividade              Tecido ácido recebe mais O
+                                                                 tecido
+
+     Entendido o mecanismo, é hora de olhar a clínica: tamponamento, variantes da Hb e intox
+                             icações que mantêm a proteína de pé mas inativam o ferro.
+
+PARTE III -- Clínica e variantes
+
+3.1 -- Tamponamento: a Hb também carrega H e CO
+
+Algo que aparece quase no fim da aula mas é central para a integração com fisiologia: a Hb não só
+transporta O2. Ela é, simultaneamente, o segundo maior tampão do sangue. Cerca de 30% dos H+ gerados
+pelo metabolismo são absorvidos pela Hb -- capacidade tamponante comparável à do bicarbonato.
+
+                                                                                11
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+Repare como o efeito Bohr e o tamponamento são o mesmo mecanismo visto de dois ângulos: quando a Hb solta O
+em ambiente ácido, ela ganha afinidade por H.
+
+E aqui o ponto que confunde aluno: tamponamento e Bohr são o mesmo mecanismo molecular, só
+nomeados de dois ângulos. Quando o tecido produz H+, esses prótons se ligam à Hb (especialmente em
+His146). A ligação estabiliza T  Hb solta O2. Olhando pelo lado do O2, chamamos isso de efeito Bohr
+(modulação da afinidade por pH). Olhando pelo lado do H+, chamamos isso de tamponamento (Hb está
+absorvendo H+ para manter o pH estável). Mesmo fenômeno físico, dois ângulos didáticos.
+
+   Sobre o CO2: o slide enfatiza que 30% do H+ vai pela Hb. Vale completar com Guyton -- o CO2 no
+sangue se distribui em três pools: 70% como bicarbonato no plasma (gerado pela anidrase carbônica
+nas hemácias), 20% como carbamato ligado à Hb, 10% dissolvido. A Hb não é a principal carregadora
+de CO2. Mas é decisiva para o retorno venoso, porque o carbamato se forma onde tem CO2 alto (tecido) e se
+desfaz onde tem CO2 baixo (pulmão), criando um sistema de captura-entrega que respeita o gradiente.
+
+   Resumindo até aqui: Hb absorve 30% dos H metabólicos. Bohr e tamponamento = mesmo mecanismo.
+   CO no sangue: 70% bicarbonato, 20% carbamato Hb, 10% dissolvido.
+
+3.2 -- HbA, HbF, HbS: as variantes que importam
+
+Hemoglobina humana muda de composição ao longo do desenvolvimento. No embrião há cadeias  e 
+(somem nas primeiras semanas). No feto predomina HbF (22). No adulto, HbA (22). Pequenas frações
+de HbA2 (22) e HbF persistem em adultos ( 2-3% de HbA2, traços de HbF). A troca    ocorre nos
+primeiros meses de vida e depende da regulação transcricional dos genes da -globina.
+
+   Já discutimos HbF no 2.3 (insensibilidade ao BPG  alta afinidade  essencial para a troca placen
+tária). Resta a HbS -- a hemoglobina da anemia falciforme.
+
+                                                                                12
+NEBLI  ETAPA 1 -- TEXTO DIDÁTICO
+
+HbS = substituição Glu por Val na posição 6 da cadeia . A troca cria uma "placa hidrofóbica" que faz a Hb desoxi
+genada se agregar em fibras rígidas, deformando a hemácia em foice.
+
+A HbS12 tem uma mutação. Uma única troca de aminoácido: o glutamato na posição 6 da cadeia  vira
+valina (apolar, hidrofóbica). Resultado: cada cadeia  passa a ter uma "placa hidrofóbica" exposta em
+sua superfície. Em si, isso não seria catástrofe. O problema é que essa placa hidrofóbica encaixa em outra
+cavidade hidrofóbica que existe em cada Hb vizinha -- mas só na conformação T (Hb desoxigenada).
+
+   A cadeia de eventos: Hb com HbS está oxigenada no pulmão (em R), tudo bem. Chega no tecido,
+descarrega O2, passa para T. Agora a placa hidrofóbica está exposta e o vizinho está em T (com a cavidade
+pronta). Eles se ligam. O segundo vizinho também está em T. Quarto, quinto. Resultado: fibras longas de
+Hb polimerizada -- chamadas tactoides -- atravessam a hemácia, deformando-a em forma de foice. A
+hemácia em foice é rígida, não passa por capilares estreitos, obstrui microvasculatura. Daí vêm as crises
+vaso-oclusivas: dor óssea, infarto esplênico, AVC, priapismo.
+
+    Por que HbF protege da falciforme
+
+    Pacientes com HbS heterozigotos ou que mantêm HbF residual têm crises mais raras. O motivo
+    é direto: HbF não tem a cadeia  mutada e não contribui para o polímero. Mais que isso, ela
+    interrompe a cadeia de polimerização -- atua como "falha" na malha de fibras. A hidroxiureia,
+    principal medicamento usado em anemia falciforme, age aumentando a expressão de HbF em
+    adultos, justamente para criar esses pontos de interrupção do polímero.
+
+Genética rápida: anemia falciforme é autossômica recessiva. Heterozigotos (HbA + HbS) têm o "traço
+falciforme" -- geralmente assintomáticos em condições normais, podem ter crises em hipóxia extrema
+(altitude grande, mergulho, anestesia mal-monitorada). Curiosidade evolutiva relevante: o traço falci
+forme confere proteção parcial contra malária -- o Plasmodium não se reproduz bem em hemácias com
+
+   12HbS ­ hemoglobina variante da anemia falciforme -- substituição Glu6Val na cadeia 
+
+                                                                                13
+NEBLI      ETAPA 1 -- TEXTO DIDÁTICO
+
+HbS. Por isso a frequência da mutação é maior em populações de regiões historicamente endêmicas
+para malária (África subsaariana, Mediterrâneo, partes da Índia).
+
+Resumindo até aqui: HbS = Glu6Val na cadeia   placa hidrofóbica  Hb desoxigenada polimeriza
+ tactoides  hemácia em foice  vaso-oclusão. HbF protege quebrando o polímero -- base da
+hidroxiureia.
+
+3.3 -- CO e metahemoglobina: quando o ferro perde a função
+
+Para fechar, duas situações em que a Hb está estruturalmente intacta mas funcionalmente compro
+metida -- porque o problema está no ferro ou no que ocupa o sítio do O2.
+
+   Comece pelo monóxido de carbono. CO se liga ao mesmo lugar que O2 -- o Fe2+ do heme. A diferença é
+química: a afinidade do CO pelo Fe2+ é cerca de 210× maior que a do O2. Numa atmosfera com 0,5% de CO
+(concentração que aparece em incêndios e em motores em ambiente fechado), a Hb satura quase total
+mente em CO em poucos minutos. Mas o problema não para aí. Quando uma das subunidades carrega
+CO, ela puxa a Hb para a forma R -- alta afinidade. E aí as outras subunidades, que ainda carregam O2,
+não soltam ele no tecido (porque estão em R). Hipóxia dupla: pouco O2 carregado, e o que está carregado
+não é entregue. A curva desloca para a esquerda.
+
+    SpO não detecta intoxicação por CO
+
+    O oxímetro de pulso mede absorbância em dois comprimentos de onda -- confunde HbO com
+    HbCO (carboxihemoglobina). Resultado: paciente com 50% das Hb's ligadas em CO pode mostrar
+    SpO de 95% no oxímetro, com cianose central e morte iminente. Diagnóstico exige co-oximetria
+    (medição direta da carboxihemoglobina). Tratamento: O a 100% (acelera dissociação do CO) --
+    câmara hiperbárica em casos graves.
+
+Agora a metahemoglobina. Aqui o problema não é o ligante: é o estado de oxidação do ferro. Sob ação de
+certos agentes oxidantes (nitritos em alta concentração, dapsona, benzocaína tópica, óxido nítrico em
+altas doses), o Fe2+ do heme oxida para Fe3+. A Hb fica intacta estruturalmente, mas Fe3+ não liga O2.
+Cada subunidade afetada é uma a menos no transporte.
+
+   Por que isso não acontece o tempo todo? Porque a hemácia tem maquinaria enzimática (NADH-
+citocromo b5 redutase) que regenera Fe3+  Fe2+. Sempre há uma taxa baixa de oxidação espontânea e a
+redutase mantém o sistema funcional. Bebês têm essa enzima imatura -- daí o cuidado clássico de não
+dar benzocaína tópica em crianças pequenas (gel para dor de dente, alguns analgésicos otológicos).
+
+    Tratamento da metahemoglobinemia
+
+    Azul de metileno é o antídoto. Ele entra na hemácia, recebe elétrons da NADPH-redutase e doa
+    esses elétrons ao Fe³ -- regenerando Fe². Cuidado: pacientes com deficiência de G6PD não
+    devem receber azul de metileno (paradoxalmente pode piorar a oxidação, porque a regeneração
+    depende de NADPH que a via das pentoses-fosfato gera). Alternativas: ácido ascórbico em alta
+    dose ou exsanguinotransfusão.
+
+       14
+NEBLI                                                     ETAPA 1 -- TEXTO DIDÁTICO
+
+Resumindo até aqui: CO: liga no Fe² com afinidade 210× maior que O + estabiliza R  hipóxia dupla;
+SpO falsamente normal. Metahemoglobina: Fe² oxida a Fe³  não pega O. Antídoto: azul de metileno
+(cuidado em G6PD).
+
+                     MAPA CONCEITUAL
+
+                                  III
+
+                     Mecanismo da Hb se vê na clínica
+
+                     
+
+3.1 ­ Tamponamento          3.2 ­ Variantes                      3.3 ­ CO e Fe³
+Hb absorve 30% do H
+                                                          
+                             HbF protege, HbS polimeriza          Sítio ou ferro inviabilizado
+
+   Toda a fisiologia da Hb -- estrutura, alosteria, modulação -- aparece à cabeceira do leito.
+
+Conclusão integradora
+
+Hemoglobina é o caso didático perfeito porque junta camadas: química do heme, estrutura
+quaternária, cinética de ligante, alosteria, cooperatividade, regulação fisiológica e variantes clíni
+cas. Se você sair daqui entendendo por que um transportador de O precisa de cooperatividade
+(e não só lembrando que "a Hb é sigmoide"), tudo o resto se monta sozinho. O efeito Bohr vira
+"tecido ácido precisa de mais O e a Hb sabe disso". O BPG vira "a hemácia ajusta sua própria carga
+via metabolismo". A anemia falciforme vira "uma placa hidrofóbica desoxigenada vira chave em
+outra Hb desoxigenada". A intoxicação por CO vira "Fe² confundido + curva travada à esquerda".
+Quando o nome aparecer na prova, o mecanismo já está montado -- e você responde rápido, sem
+chutar.
+
+                     15
+NEBLI                                                                 ETAPA 1 -- TEXTO DIDÁTICO
+
+   Resumindo
+
+Estrutura                                                   HbF (22)
+
+Hemoglobina adulta é tetrâmero 22, com 4 hemes A cadeia  não tem o resíduo His143 que liga BPG
+
+(protoporfirina IX + Fe2+) -- cada um ancorado numa  HbF é insensível ao BPG  afinidade alta  puxa
+
+bolsa hidrofóbica da globina, longe da água.                O2 da HbA materna na placenta. Trocada por HbA nos
+
+Fe2+ obrigatório                                            primeiros meses de vida.
+
+O ferro precisa estar reduzido para ligar O2 oxi HbS (anemia falciforme)
+
+dado a Fe3+ vira metahemoglobina, inerte no trans Mutação Glu6Val na cadeia  cria placa
+
+porte. NADH-redutase regenera Fe2+ continuamente hidrofóbica. Em desoxigenação, encaixa em cavi
+
+na hemácia.                                                 dade hidrofóbica de Hb vizinha (também em T) 
+
+Kd e afinidade                                              polimerização em tactoides  hemácia em foice 
+
+   Kd baixo significa alta afinidade. Mioglobina tem Kd     vaso-oclusão. Hidroxiureia aumenta HbF, que inter
+baixo  satura cedo  armazena. Hb precisa mudar              rompe o polímero.
+de afinidade para transportar -- daí o desenho sig          Intoxicação por CO
+
+moide.                                                      Afinidade 210× maior que a do O2 pelo Fe2+ + esta
+
+Cooperatividade                                             biliza R  hipóxia dupla. SpO2 do oxímetro de pulso
+
+   A ligação do primeiro O2 desloca o equilíbrio T          é falsamente normal -- diagnóstico exige co-oxime
+R no tetrâmero. R tem alta afinidade -- as próximas         tria. Tratamento: O2 a 100%, hiperbárica em casos
+ligações ficam mais fáceis. Sem subunidades múlti           graves.
+plas, não há cooperatividade.                               Metahemoglobinemia
+
+T versus R                                                  Agentes oxidantes (nitritos, dapsona, benzocaína
+
+   T é forma de baixa afinidade (predomina vazia,           tópica em bebês) oxidam Fe2+ a Fe3+ -- Hb intacta mas
+mas pode existir cheia). R é forma de alta afinidade        sem função. Antídoto: azul de metileno (contraindi
+(predomina cheia). A relação é probabilística, não ab       cado em deficiência de G6PD; alternativa: ácido as
+soluta.                                                     córbico).
+
+Efeito Bohr
+
+   Tecido ácido (alto H+ e CO2) estabiliza T  Hb solta
+mais O2 no tecido ativo. O mesmo mecanismo, visto
+pelo lado do H+, é o tamponamento da Hb.
+CO2 na Hb
+
+   Forma carbamato com aminoácidos N-terminais
+da globina (não com o ferro). Estabiliza T  ajuda
+a soltar O2 no tecido. No sangue: 70% bicarbonato,
+20% carbamato Hb, 10% dissolvido.
+BPG
+
+   Liga numa cavidade central que existe apenas na
+forma T. Estabiliza T  baixa afinidade  entrega
+mais O2 no tecido. Em hipóxia crônica (altitude, ane
+mia, doença pulmonar) a hemácia aumenta a síntese
+de BPG.
+
+                                                        16
+NEBLI                           RESUMINDO
+
+   Etapa 2 -- 30 objetivas
+
+Questão 01 Consolidação
+Sobre a estrutura da hemoglobina humana adulta, é correto afirmar:
+
+   A) Cada molécula apresenta um único grupo heme central com íon de ferro em estado oxidado.
+   B) O tetrâmero  carrega quatro grupos heme, cada um com Fe² no centro da protoporfirina IX.
+   C) As cadeias  e  são proteínas distintas associadas por ligações dissulfeto entre cisteínas.
+   D) O heme é uma coenzima derivada do NAD que se associa à apoproteína de forma reversível.
+   E) A hemoglobina é monomérica com um sítio de O por molécula, igual à mioglobina.
+
+Questão 02 Consolidação
+Sobre a comparação entre mioglobina e hemoglobina:
+
+   A) Ambas são proteínas tetraméricas e ligam quatro moléculas de O por molécula proteica.
+   B) Mioglobina exibe curva de saturação sigmoide e cooperatividade entre subunidades no músculo.
+   C) Hemoglobina é proteína monomérica enquanto mioglobina é tetramérica de composição .
+   D) Mioglobina tem afinidade menor pelo O porque seu sítio é menos protegido do solvente.
+   E) Mioglobina é monomérica e armazena O no músculo; Hb é tetramérica e transporta O no sangue.
+
+Questão 03 Consolidação
+Sobre a constante de dissociação (Kd) na interação proteína-ligante:
+
+   A) Quanto menor o Kd, maior a afinidade da proteína pelo ligante.
+   B) Kd alto significa que a proteína segura o ligante com força.
+   C) Kd tem o mesmo valor numérico que a constante de associação (Ka).
+   D) Kd não depende da concentração do ligante, apenas da temperatura.
+   E) Kd corresponde à concentração do complexo PL em equilíbrio.
+
+                            17
+NEBLI                        ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 04 Consolidação
+
+Sobre as curvas de saturação da mioglobina e da hemoglobina:
+   A) Ambas são sigmoides porque ambas têm múltiplos sítios de ligação.
+   B) A curva da mioglobina é sigmoide porque ela armazena O no músculo.
+   C) A curva da hemoglobina é hiperbólica porque ela é tetramérica.
+   D) Mioglobina tem curva hiperbólica (1 sítio); Hb é sigmoide pela cooperatividade entre subunidades.
+   E) A diferença reflete apenas a quantidade de heme por proteína, não a cooperatividade.
+
+Questão 05 Consolidação
+
+Sobre por que a hemoglobina precisa ser sigmoide, julgue C ou E:
+Cada item deve ser julgado de forma independente.
+
+   I. Uma proteína com afinidade constante consegue saturar no pulmão e descarregar bem no tecido se
+   a afinidade for suficientemente alta.
+   II. O comportamento sigmoide permite que a mesma proteína exiba afinidades funcionalmente
+   distintas em alta e baixa pO.
+   III. A cooperatividade entre subunidades é o que torna o transportador eficiente, não a química do
+   heme.
+   IV. A mioglobina poderia transportar O entre pulmão e tecido se sua concentração no sangue fosse
+   suficientemente alta.
+
+Questão 06 Consolidação
+Sobre as conformações T (tense) e R (relaxed) da hemoglobina:
+
+   A) T é a forma exclusiva da Hb desoxigenada; R não pode existir nunca em ausência de O ligado.
+   B) R tem afinidade baixa pelo O; T tem afinidade alta pelo O -- relação inversa à canônica.
+   C) A transição entre T e R não envolve mudança conformacional substantiva da estrutura proteica.
+   D) T tem baixa afinidade por O; R tem alta afinidade; ligação de O desloca o equilíbrio T  R.
+   E) T e R são proteínas estruturalmente diferentes, codificadas por genes distintos no genoma.
+
+                         18
+NEBLI                        ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 07 Consolidação
+
+Sobre o efeito Bohr:
+
+   A) Em ambiente ácido (alto H), a Hb tem menor afinidade por O e libera-o mais facilmente no tecido.
+   B) Em ambiente alcalino, a Hb solta mais O no tecido por causa do efeito Bohr fisiológico.
+   C) O efeito Bohr age principalmente sobre o íon Fe² do heme, e não sobre a globina circundante.
+   D) O efeito Bohr não tem relevância fisiológica porque o pH sanguíneo é mantido aproximadamente
+   constante.
+   E) O efeito Bohr aumenta a afinidade da Hb pelo O em tecidos metabolicamente ativos, como o
+   músculo.
+
+Questão 08 Consolidação
+Sobre o 2,3-bisfosfoglicerato (BPG):
+
+   A) Liga numa cavidade central acessível apenas na forma T, estabilizando-a e reduzindo a afinidade.
+   B) Liga-se ao Fe² do heme, ocupando o sítio antes ocupado pelo O.
+   C) Estabiliza a forma R, aumentando a afinidade da Hb pelo O.
+   D) É produzido no fígado e exportado para a hemácia via transportador específico.
+   E) Inativa permanentemente a hemoglobina ao formar ligação covalente com a globina.
+
+Questão 09 Consolidação
+Sobre a hemoglobina como tampão sanguíneo:
+
+   A) Apenas o bicarbonato tampona o sangue; a hemoglobina não tem papel relevante.
+   B) A capacidade tamponante vem do íon Fe² do heme, que captura H diretamente.
+   C) Cerca de 30% dos H metabólicos é absorvido pela Hb, especialmente em histidinas da globina.
+   D) O tamponamento da Hb é independente do efeito Bohr -- são processos moleculares distintos.
+   E) A hemoglobina captura H apenas na forma R, não na forma T.
+
+                         19
+NEBLI                        ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 10 Consolidação
+
+Sobre HbF (hemoglobina fetal):
+   A) HbF tem composição , igual à HbA, mas com modificações pós-traducionais.
+   B) HbF tem afinidade menor por O que HbA, o que facilita a entrega ao feto.
+   C) Tem composição  e afinidade maior por O que HbA porque é insensível ao BPG.
+   D) HbF é trocada por HbA imediatamente após o nascimento, em horas.
+   E) Tem cadeias  idênticas à HbA, mas com um heme adicional por molécula.
+
+Questão 11 Integração
+
+Uma proteína recombinante derivada da hemoglobina é construída substituindo as quatro subunidades
+por monômeros independentes, cada um com seu heme. Sobre o comportamento esperado:
+
+   A) A curva se manteria sigmoide porque o heme com Fe² basta para gerar cooperatividade.
+   B) A curva se tornaria hiperbólica e a proteína perderia o comportamento cooperativo.
+   C) A proteína perderia totalmente a capacidade de ligar O fora do contexto tetramérico.
+   D) A afinidade por O aumentaria proporcionalmente ao número de monômeros disponíveis.
+   E) A proteína funcionaria como transportador de O melhor que a Hb tetramérica original.
+
+Questão 12 Integração
+
+Duas proteínas têm Kd de 1 mM para o mesmo ligante: uma é monomérica, outra é tetramérica cooper
+ativa positiva. Sobre as curvas de saturação:
+
+   A) Ambas terão curva idêntica em qualquer concentração de ligante, pois o Kd é igual.
+   B) A monomérica saturará mais rapidamente em baixas concentrações de ligante disponível.
+   C) A tetramérica cooperativa terá saturação abrupta em torno de [L] = Kd a monomérica saturará
+   gradativamente.
+   D) A tetramérica nunca saturará completamente; cooperatividade impede ocupação dos 4 sítios.
+   E) Kd é medida inválida para proteínas tetraméricas -- a comparação não pode ser feita.
+
+                         20
+NEBLI                      ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 13 Integração
+
+Sobre cooperatividade, alosteria e a curva sigmoide da hemoglobina:
+   A) Cooperatividade e alosteria são sinônimos: ambos descrevem ligação dependente de subunidades.
+   B) A curva sigmoide é consequência do Bohr e do BPG, não da cooperatividade entre subunidades.
+   C) Cooperatividade heterotrópica é o que gera a curva sigmoide do O na Hb.
+   D) Alosteria homotrópica negativa explica o platô superior da curva de saturação.
+   E) Cooperatividade homotrópica positiva gera a sigmoide; H, CO e BPG produzem alosteria het
+   erotrópica adicional.
+
+Questão 14 Integração
+
+Hemácia em capilar muscular durante exercício intenso (CO alto, pH local baixo). Julgue:
+Cada item deve ser julgado de forma independente.
+
+   I. A diminuição local do pH desloca a curva de dissociação da Hb para a esquerda, aumentando a
+   entrega de O.
+   II. O acúmulo de CO por carbamato estabiliza a forma R da Hb, favorecendo a captura de O.
+   III. Bohr e tamponamento da Hb pelo H são processos moleculares independentes e somativos.
+   IV. O efeito Bohr, em ambiente alcalino, aumenta a entrega de O ao tecido.
+
+Questão 15 Integração
+
+Considere três ambientes: (i) pulmão (pH 7,4, baixa pCO), (ii) tecido em repouso, (iii) músculo em
+exercício (pH 7,2, alta pCO). Onde a afinidade da Hb pelo O é menor?
+
+   A) Pulmão, porque a alta pO desloca a Hb para a forma T.
+   B) Tecido em repouso, porque o O já está parcialmente descarregado.
+   C) A afinidade é constante nos três -- Hb não responde a pH ou CO.
+   D) Músculo em exercício: pH ácido e CO alto estabilizam T por Bohr e carbamato.
+   E) Em todos os três, a afinidade é máxima quando o BPG está em concentração basal.
+
+                       21
+NEBLI                      ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 16 Integração
+
+Sobre por que a HbF tem afinidade maior por O que a HbA:
+   A) HbF tem um heme adicional por subunidade , aumentando a capacidade total de O.
+   B) A cadeia  da HbF não tem o resíduo His143 que liga BPG  HbF fica insensível ao BPG.
+   C) HbF é monomérica enquanto HbA é tetramérica, daí a maior afinidade pelo O na placenta.
+   D) HbF tem Fe¹ no lugar de Fe², o que confere maior afinidade pelo oxigênio.
+   E) HbF apresenta a forma R como conformação exclusiva, sem fazer transição para T.
+
+Questão 17 Integração
+
+Sobre a afirmação "o tamponamento da Hb pelo H e o efeito Bohr são manifestações do mesmo
+mecanismo":
+
+   A) Falsa -- Bohr atua sobre o O e tamponamento sobre o H; mecanismos moleculares distintos.
+   B) Falsa -- Bohr é fisiologia, tamponamento é biofísica; não há sobreposição molecular.
+   C) Verdadeira, mas apenas no pulmão, não no tecido.
+   D) Falsa -- o tamponamento da Hb acontece nos rins, não na hemácia.
+   E) Verdadeira -- H em His146 estabiliza T  Hb solta O; mesmo mecanismo, dois nomes.
+
+Questão 18 Integração
+
+Sobre a anemia falciforme e a estrutura da hemoglobina:
+   A) GluVal na posição 6 da  cria placa hidrofóbica que encaixa em cavidade de Hbs vizinhas na
+   forma T.
+   B) A mutação ocorre na cadeia  da Hb e cria sítio aberrante para o íon Fe² no heme.
+   C) HbS tem Fe³ em vez de Fe² no heme e, por isso, não transporta O adequadamente.
+   D) A polimerização da HbS é independente do estado de oxigenação -- ocorre em T e em R.
+   E) HbS forma polímeros agregados porque tem dois hemes adicionais por molécula de tetrâmero.
+
+                       22
+NEBLI                      ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 19 Integração
+
+Sobre a relação entre estado conformacional da Hb e polimerização da HbS, julgue:
+Cada item deve ser julgado de forma independente.
+
+I. A placa hidrofóbica gerada pela Val6 está exposta em ambas as formas T e R da HbS.
+II. A cavidade hidrofóbica que aceita a placa Val6 só existe na forma T (Hb desoxigenada).
+III. A polimerização de HbS é favorecida quando a hemácia chega oxigenada ao tecido e descarrega O.
+IV. HbF reduz a polimerização porque também forma placas hidrofóbicas, criando heterogeneidade.
+
+Questão 20 Integração
+
+Sobre o transporte de CO pela hemoglobina e sua integração com o tamponamento:
+   A) A maior parte do CO é transportada como carbamato ligado ao Fe² do heme.
+   B) O CO é transportado exclusivamente como bicarbonato; a Hb não participa do transporte.
+   C) 70% bicarbonato, 20% carbamato em N-terminais da globina, 10% dissolvido; carbamato esta
+   biliza T.
+   D) A Hb carrega CO por ligação covalente irreversível, perdendo capacidade de transporte.
+   E) O carbamato se forma onde tem pouco CO (pulmão), por isso captura O nesse local.
+
+Questão 21 Integração
+
+Morador ao nível do mar muda-se para La Paz ( 3.600 m). Após semanas, espera-se observar no trans
+porte de O:
+
+   A) Aumento da afinidade da Hb pelo O por redução da síntese de BPG.
+   B) Mais BPG na hemácia  menor afinidade da Hb  maior fração de O entregue ao tecido.
+   C) Hb passa a ser sintetizada com cadeias  em vez de  para aumentar a afinidade.
+   D) Curva de dissociação se desloca para a esquerda, conservando O na hemácia.
+   E) Não há mudança bioquímica -- o ajuste é exclusivamente respiratório e cardíaco.
+
+                       23
+NEBLI                      ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 22 Integração
+
+Sobre por que o feto consegue retirar O do sangue materno na placenta:
+   A) Sangue materno chega à placenta com saturação 99% e a HbF pega o excesso por difusão simples.
+   B) HbF transporta CO mais eficientemente, criando gradiente reverso de O na placenta.
+   C) CO do feto inibe a anidrase carbônica materna, liberando O da HbA da mãe.
+   D) HbF é insensível ao BPG  afinidade maior que a HbA  feto puxa O da circulação materna.
+   E) O feto sintetiza mioglobina nos tecidos da placenta para extração ativa de O materno.
+
+Questão 23 Integração
+
+Sobre a intoxicação por CO e seu efeito sobre a curva de dissociação da Hb, julgue:
+Cada item deve ser julgado de forma independente.
+
+   I. CO compete com O no mesmo sítio (Fe²), mas com afinidade muito menor que o O.
+   II. Quando uma subunidade liga CO, a Hb tende à forma T, facilitando a descarga das outras O.
+   III. Em intoxicação grave por CO, a curva de dissociação de O se desloca para a direita.
+   IV. A intoxicação por CO produz hipóxia apenas por ocupar o sítio do O; efeito sobre a curva é
+   desprezível.
+
+Questão 24 Integração
+Sobre o estado de oxidação do ferro na hemoglobina:
+
+   A) Tanto Fe² quanto Fe³ ligam O; a diferença está na velocidade de dissociação.
+   B) Fe² liga O; oxidação a Fe³ (metahemoglobina) inativa o transporte; NADH-redutase regenera Fe².
+   C) Fe³ é o estado funcional da Hb; Fe² é a forma inativa, desfeita pela oxidação.
+   D) A oxidação Fe²  Fe³ é irreversível na hemácia humana adulta.
+   E) Fe³ liga O com afinidade maior, mas perde a cooperatividade entre subunidades.
+
+                       24
+NEBLI                      ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 25 Integração
+
+Sobre o sentido fisiológico do efeito Bohr no transporte de O:
+   A) Bohr aumenta a afinidade no pulmão e diminui no tecido, mas apenas em altitude.
+   B) O Bohr não tem relevância clínica em mamíferos, apenas em peixes e mergulhadores.
+   C) O pulmão é mais ácido que o tecido em condições normais; por isso a Hb satura lá.
+   D) O Bohr é exatamente o mesmo mecanismo da cooperatividade homotrópica do O.
+   E) Pulmão alcalino favorece R e satura; tecido ácido desloca para T e a Hb libera mais O.
+
+Questão 26 Aplicação
+Pesquisador em câmara hipobárica simulando altitude de 4.500 m por 3 semanas. Comparado ao basal:
+
+   A) Aumento de 2,3-BPG intra-eritrocitário e deslocamento da curva de dissociação para a direita.
+   B) Diminuição da síntese de BPG para "conservar" o O disponível no sangue.
+   C) Conversão das cadeias  em cadeias , gerando HbF para aumentar a afinidade.
+   D) Substituição do Fe² por Fe³ nas hemácias para aumentar a afinidade pelo O.
+   E) Nenhuma alteração bioquímica -- o ajuste é exclusivamente respiratório e cardíaco.
+
+Questão 27 Aplicação
+
+Lactente de 6 meses recebe gel anestésico com benzocaína em gengiva por erupção dentária. Em 30
+min, cianose central com SpO de 80%. Explicação mais provável?
+
+   A) Anafilaxia à benzocaína com broncoespasmo agudo e hipoxemia secundária.
+   B) Hipoglicemia secundária ao jejum prolongado durante uso do gel anestésico.
+   C) Metahemoglobinemia adquirida -- benzocaína oxida Fe² a Fe³ e a redutase é imatura.
+   D) Intoxicação por monóxido de carbono via excipientes do gel anestésico tópico.
+   E) Crise vaso-oclusiva por anemia falciforme não diagnosticada previamente.
+
+                       25
+NEBLI                     ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+Questão 28 Aplicação
+
+Durante teste ergoespirométrico de esforço máximo, espera-se que a curva de dissociação da Hb
+apresente:
+
+A) Deslocamento para a esquerda, conservando o O dentro das hemácias circulantes.
+B) Achatamento da inclinação central da sigmoide, reduzindo a descarga ao músculo.
+C) Inversão para um padrão hiperbólico monomérico durante o pico do esforço físico.
+D) Deslocamento para a direita por Bohr (acidose lática) e carbamato (CO alto).
+E) Aumento global da afinidade, garantindo saturação prolongada no músculo em exercício.
+
+Questão 29 Aplicação
+
+Menino, 5 anos, diagnóstico prévio de anemia falciforme (HbSS), internado por dor lombar e torácica
+intensa após febre alta e desidratação leve. Mecanismo molecular mais provável da crise:
+
+   A) Aumento da síntese de BPG durante a febre causando hipóxia tecidual difusa.
+   B) HbS desoxigenada polimeriza em tactoides  hemácias rígidas em foice obstruem capilares.
+   C) Oxidação do Fe² a Fe³ por radicais livres da resposta inflamatória sistêmica.
+   D) Conversão automática da HbS em HbF durante o estresse fisiológico da febre.
+   E) Liberação direta do heme em circulação por destruição maciça e brusca de hemácias.
+
+Questão 30 Aplicação
+
+Bombeiro resgatado de incêndio em ambiente fechado: cefaleia, confusão, cianose central. SpO pulso
+95%; gasometria pO 90 mmHg, pH 7,30. Diagnóstico e conduta inicial?
+
+   A) Intoxicação por CO -- oxímetro confunde HbCO com HbO; O a 100% e co-oximetria.
+   B) Edema pulmonar agudo cardiogênico -- iniciar diuréticos endovenosos e suporte ventilatório não
+   invasivo.
+   C) Hipoglicemia profunda secundária a jejum prolongado -- administrar glicose hipertônica intra
+   venosa imediatamente.
+   D) Crise convulsiva subclínica oculta -- administrar benzodiazepínico endovenoso e iniciar moni
+   torização contínua.
+   E) Pneumotórax hipertensivo bilateral -- proceder à drenagem torácica de urgência imediata bilat
+   eral.
+
+                      26
+NEBLI                            ETAPA 2 -- OBJETIVAS (30 QUESTÕES)
+
+   Etapa 3 -- 5 discursivas
+
+Questão Q1
+
+Por que a hemoglobina precisa de duas afinidades para funcionar como transportador, e como a
+estrutura tetramérica resolve esse problema? Articule estrutura  mecanismo  consequência.
+
+    MODELO DE RESPOSTA
+
+   Um transportador eficiente pega O2 no pulmão (pO2 alta) e solta no tecido (pO2 baixa),
+   o que exige afinidade alta lá e baixa aqui. Uma proteína monomérica de afinidade con
+   stante não consegue: alta afinidade satura mas não solta; baixa não satura. A Hb resolve
+   sendo tetramérica: a ligação de O2 em uma subunidade desloca o equilíbrio para a forma
+   R (alta afinidade) por cooperatividade homotrópica positiva. Em pO2 alta, predomina R e
+   a Hb satura; em pO2 baixa, predomina T (baixa afinidade) e a Hb solta. A curva sigmoide
+   tem inclinação central justamente na faixa de pressões fisiológicas.
+
+Questão Q2
+
+Explique mecanisticamente por que o pH baixo no tecido facilita a entrega de O2 pela hemoglobina
+(efeito Bohr) e como esse mesmo mecanismo se manifesta como tamponamento.
+
+    MODELO DE RESPOSTA
+
+   Tecido metabolicamente ativo gera CO2 e libera H+, acidificando o ambiente local. H+ se
+   liga a resíduos histidina da globina (especialmente His146), formando ponte salina que
+   estabiliza a conformação T. T tem baixa afinidade pelo O2  a Hb solta O2 justo onde
+   mais se consome. Pelo lado fisiológico, é regulação local imediata, sem ajuste hormonal
+   ou neural. O mesmo mecanismo, visto pelo lado do H+, é o tamponamento da Hb: ao
+   absorver os H+ do metabolismo, a Hb estabiliza o pH sanguíneo enquanto descarrega
+   O2. Bohr e tamponamento são dois nomes para o mesmo evento molecular.
+
+                             27
+NEBLI      ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+Questão Q3
+
+Explique por que a HbF tem afinidade maior pelo O2 que a HbA e qual a consequência fisiológica
+disso no desenvolvimento.
+
+MODELO DE RESPOSTA
+
+HbF (22) substitui a cadeia  por . A cadeia  não tem o resíduo His143 que se liga ao
+2,3-BPG. Sem BPG estabilizando a forma T, a HbF mantém afinidade alta -- sigmoide
+deslocada para a esquerda em relação à HbA. Consequência: na placenta, o sangue
+materno chega com saturação relativamente modesta ( 75%); a HbF, com afinidade
+maior, consegue puxar O2 da HbA da mãe e saturar o sangue fetal. Após o nascimento,
+a expressão de  é progressivamente silenciada e substituída pela ; em 6 meses, HbA
+já é majoritária e HbF cai para traços residuais.
+
+Questão Q4
+
+Explique mecanisticamente por que a intoxicação por monóxido de carbono produz hipóxia
+dupla e desloca a curva de dissociação para a esquerda.
+
+    MODELO DE RESPOSTA
+
+   CO compete com O2 no Fe2+ do heme, com afinidade cerca de 210× maior. Em poucos
+   minutos numa atmosfera com CO, a Hb satura em HbCO. O primeiro hit é fisicamente
+   ocupar sítios: menos Hb disponível para carregar O2. O segundo hit é alostérico: quando
+   uma subunidade liga CO, ela estabiliza a forma R do tetrâmero. As outras subunidades,
+   ainda com O2 ligado, ficam em R e não soltam esse O2 no tecido. Resultado combinado:
+   pouco O2 carregado e o que está carregado não é entregue. A curva de dissociação se
+   desloca para a esquerda -- exatamente o oposto do que o tecido precisaria.
+
+       28
+NEBLI      ETAPA 3 -- DISCURSIVAS (5 QUESTÕES)
+
+Questão Q5
+
+Identifique o erro. Um estudante afirma: "Em altitude, a hemácia diminui a síntese de BPG para
+`conservar' o O2 disponível; assim a curva de dissociação se desloca para a esquerda e a Hb segura
+firme o pouco O2 que pega no pulmão, garantindo entrega ao cérebro." Identifique o erro central,
+corrija, e explique o mecanismo fisiológico real da adaptação.
+
+MODELO DE RESPOSTA
+
+O estudante inverte tanto o ajuste do BPG quanto o sentido fisiológico da adaptação. Em
+altitude, a hemácia AUMENTA a síntese de BPG (não diminui). Mais BPG  estabiliza
+T  DIMINUI a afinidade da Hb pelo O2  curva desloca para a DIREITA. Por que faz
+sentido: em altitude, a Hb satura menos no pulmão (não há como saturar mais com pO2
+baixa); o ganho útil está na DESCARGA -- entregar mais O2 por unidade de pO2 tecidual.
+O organismo abre mão de carregar muito para garantir que entregue muito. A lógica de
+"conservar" (curva à esquerda) seria deletéria: a Hb chegaria no tecido sem soltar O2,
+piorando a hipóxia tecidual em vez de aliviá-la.
+
+       29
+NEBLI                             ETAPA 4 -- QUESTÕES DE FUNDAMENTOS
+
+Gabarito -- Etapa 2
+
+CONSOLIDAÇÃO (Q01­Q10)
+
+Q01 B  Q02 E            Q03 A     Q04 D     Q05 ECEC
+Q06 D  Q07 A            Q08 A     Q09 C     Q10 C
+
+INTEGRAÇÃO (Q11­Q25)    Q13 E     Q14 EEEE  Q15 D
+                        Q18 A     Q19 CEEC  Q20 C
+Q11 B  Q12 C            Q23 EEEE  Q24 B     Q25 E
+
+Q16 B  Q17 E            Q28 D     Q29 B     Q30 A
+
+Q21 B  Q22 D
+
+APLICAÇÃO (Q26­Q30)
+
+Q26 A  Q27 C
+
+                        33
+

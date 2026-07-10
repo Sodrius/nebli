@@ -1,0 +1,38 @@
+{
+  "slug": "anato-03-articulacoes",
+  "total_armadilhas_unicas": 2,
+  "total_questoes_com_armadilha": 3,
+  "questoes_sem_campo_armadilha": 0,
+  "aviso_invisibilidade": "ARTEFATO INTERNO. Nada deste arquivo aparece no PDF. O ORQUESTRADOR redige a Secao D 'Pontos de quebra do raciocinio' do Tema Card com voz de mecanismo. Palavras proibidas (prova, questao, banca, pegadinha, cai, gabarito etc.) sao MARCADAS, nao reescritas -- a reescrita acontece na redacao da Secao D.",
+  "armadilhas": [
+    {
+      "descricao": "Classificar articulacoes por funcao (anfiartroses) em vez de estrutura (sinoviais), gerando sobreposicao",
+      "origens": [
+        "205",
+        "206"
+      ],
+      "nivel": "facil",
+      "conceito": "Articulacoes",
+      "tags": [],
+      "palavras_proibidas": [],
+      "incidencia": 2
+    },
+    {
+      "descricao": "Marcar A (sinoviais são sinartroses/imóveis) — inversão total dos conceitos. Sinartroses são articulações IMÓVEIS (suturas cranianas). Articulações sinoviais são as mais MÓVEIS do corpo (diartroses), com cápsula articular, membrana sinovial e cartilagem hialina avascular nutrida por difusão do líquido sinovial.",
+      "origens": [
+        "0278"
+      ],
+      "nivel": "medio",
+      "conceito": "Classificação das articulações e características estruturais da articulação sinovial",
+      "tags": [
+        "anatomia",
+        "articulacao",
+        "tipos-articulacao",
+        "sinovial",
+        "cartilagem"
+      ],
+      "palavras_proibidas": [],
+      "incidencia": 1
+    }
+  ]
+}

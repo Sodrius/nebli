@@ -1,0 +1,2658 @@
+{
+  "slug": "bioq-23-aminoacidos-ureia",
+  "gerado_em": "2026-07-05",
+  "tags_consulta": [
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::13_Summary_of_High_Yield_Disorders_of_Amino_Acid_Metabolism",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+    "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+    "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency",
+    "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles",
+    "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)",
+    "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview",
+    "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+    "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+    "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+  ],
+  "regex": null,
+  "n_cards": 236,
+  "cards": [
+    {
+      "guid": "f;/!*tpk$%",
+      "deck": "AnKing Step Deck",
+      "front": "In addition to its use as an osmotic laxative , [ lactulose ] may be used in the treatment of [ hepatic encephalopathy ]",
+      "raw0": "<div><i>In addition</i> to its use as an <u style=\"\">osmotic laxative</u>, {{c2::<b>lactulose</b>}} may be used in the treatment of {{c1::<b>hepatic encephalopathy</b>}}<br></div>",
+      "back": "- Hepatic encephalopathy is a result of excess ammonia following cirrhosis - Lactulose is metabolized into acidic metabolites, which convert NH 3 to NH 4 + (trapped in intestinal lumen and excreted) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "e~]uj8,{*=",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mechanism of action by which lactulose treats hepatic encephalopathy ? [Lactulose is metabolized into acidic metabolites, which convert NH 3 to NH 4 + (trapped in intestinal lumen and excreted)]",
+      "raw0": "<div>What is the mechanism of action by which <b>lactulose</b> treats <b>hepatic encephalopathy</b>?<br></div><br><div>{{c1::Lactulose is metabolized into acidic metabolites, which convert NH<sub>3</sub> to NH<sub>4</sub><sup>+ </sup>(trapped in intestinal lumen and excreted)}} </div>",
+      "back": "Metabolized into lactic acid and acetic acid, which decreases the pH of the intestinal lumen",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia"
+      ]
+    },
+    {
+      "guid": "Abl)G`fSpq",
+      "deck": "AnKing Step Deck",
+      "front": "[ Rifaximin and neomycin ] are poorly absorbed antibiotics that eradicate ammonia-producing intestinal bacteria and thus treat [ hepatic encephalopathy ]",
+      "raw0": "<div>{{c1::<b>Rifaximin </b>and<b> neomycin</b>::2}} are poorly absorbed <i>antibiotics</i> that<b> eradicate ammonia-producing </b>intestinal bacteria and thus treat {{c2::<b>hepatic encephalopathy</b>}}<br></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "sgl#H=p)NB",
+      "deck": "AnKing Step Deck",
+      "front": "Amine hormones are derivatives of the amino acid [tyrosine]",
+      "raw0": "<div><b>Amine</b> <b>hormones</b> are derivatives of the amino acid <b>{{c1::tyrosine}}</b></div>",
+      "back": "e.g., catecholamines , thyroid hormones , etc.",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "wL9Wo_umsM",
+      "deck": "AnKing Step Deck",
+      "front": "Amine hormones include [ thyroid ] hormones and [ catecholamines ] (epinephrine, norepinephrine, and dopamine)",
+      "raw0": "<div><b>Amine</b> hormones include {{c1::<b>thyroid</b>}}<b> hormones </b>and {{c1::<b>catecholamines</b>}} (epinephrine, norepinephrine, and dopamine)</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "qRAl!RmPYu",
+      "deck": "AnKing Step Deck",
+      "front": "Prolactin secretion is [ tonically inhibited] by [ dopamine ]",
+      "raw0": "<div><b>Prolactin</b> secretion is <b>{{c2::<i>tonically</i> inhibited}}</b> by {{c1::<b>dopamine</b>}}</div>",
+      "back": "- Dopamine is also known as prolactin inhibiting factor (PIF) - \"Tonically\" here means that dopamine is continuously suppressing the prolactin at baseline [img] Photo credit: Ahmed Afifi license CC",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "I*:320bqo(",
+      "deck": "AnKing Step Deck",
+      "front": "The glycoprotein thyroglobulin (TG) contains large quantities of the amino acid [tyrosine]",
+      "raw0": "<div>The glycoprotein <b>thyroglobulin</b> (TG) contains large quantities of the <b>amino acid</b> <b>{{c1::tyrosine}}</b></div>",
+      "back": "Used in the synthesis of thyroid hormones [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "hg0:`Qz5))",
+      "deck": "AnKing Step Deck",
+      "front": "[ Pheochromocytoma and neuroblastoma ] are diagnosed by increased serum and urine levels of catecholamines , or their breakdown products [ metanephrines , VMA , and HVA ]",
+      "raw0": "{{c2::<b>Pheochromocytoma</b> and <b>neuroblastoma</b>::2}} are diagnosed by increased <b>serum</b> and <b>urine</b> levels of <b>catecholamines</b>, or their breakdown products {{c1::<b>metanephrines</b>, <b>VMA</b>, and <b>HVA</b>::3}}",
+      "back": "- Metanephrines = metanephrine (epinephrine metabolite) and normetanephrine (norepinephrine metabolite) - VMA = vanillylmandelic acid (breakdown product of metanephrines) - HVA = homovanillic acid (breakdown product of dopamine) - This card used to only say \"pheochromocytoma\" but neuroblastoma was added for completeness, additional clarification was added that HVA is NOT a metanephrine metabolite. The duplicate card (nid:1462818499640) has been marked for deletion (Oct 2025) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "bOza^86(up",
+      "deck": "AnKing Step Deck",
+      "front": "A(n) [ nucleosome (10 nm chromatin)] is negatively charged DNA wrapped around the outside of positively charged proteins called [histones]",
+      "raw0": "<div>A(n) {{c1::<b>nucleosome</b> (10 nm chromatin)}} is <i>negatively</i> charged <u>DNA</u> wrapped around the outside of <i>positively</i> charged proteins called {{c2::histones}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids::Extra"
+      ]
+    },
+    {
+      "guid": "geE;1{[O*c",
+      "deck": "AnKing Step Deck",
+      "front": "Histones are rich in the amino acids [lysine] and [arginine]",
+      "raw0": "<div><div><div><b>Histones</b> are rich in the amino acids {{c1::lysine}} and {{c1::arginine}}</div></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "b]_`hD&R[Q",
+      "deck": "AnKing Step Deck",
+      "front": "One example of a post-translational modification is [trimming], which entails the removal of N- or C-terminal propeptides from a zymogen to generate mature protein",
+      "raw0": "<div>One example of a <i>post-translational modification</i> is {{c1::trimming}}, which entails the removal of N- or C-terminal propeptides from a <u>zymogen</u> to <u>generate mature protein</u> </div>",
+      "back": "e.g., trypsinogen to trypsin",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "XjjHv,Sg3",
+      "deck": "AnKing Step Deck",
+      "front": "When proteins are misfolded , multiple [ubiquitins] are added, which aids in trafficking to the proteasome",
+      "raw0": "<div>When proteins are <b>misfolded</b>, multiple {{c1::ubiquitins}} are added, which aids in trafficking to the <i>proteasome</i></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "PxbQ:G[?T`",
+      "deck": "AnKing Step Deck",
+      "front": "The [proteasome] is a barrel-shaped protein complex that degrades damaged or ubiquitin-tagged proteins",
+      "raw0": "<div>The {{c1::proteasome}} is a barrel-shaped protein complex that degrades damaged or <b>ubiquitin-tagged</b> proteins</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "r`9hu[IyO&",
+      "deck": "AnKing Step Deck",
+      "front": "Defects in the ubiquitin-proteasome system have been implicated in some cases of [Parkinson] disease",
+      "raw0": "<u>Defects</u> in the <b>ubiquitin-proteasome system </b>have been implicated in some cases of {{c1::Parkinson}} disease",
+      "back": "Defects in the Parkin , PINK1 , and DJ-1 genes specifically [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "c]J/wADkf$",
+      "deck": "AnKing Step Deck",
+      "front": "In the [ rough ER ], co-translational [ N-glycosylation ] adds sugars onto the amino acid [ asparagine ]",
+      "raw0": "<div><div>In the {{c3::<b>rough ER</b>}}, <i>co-translational</i> {{c1::<b>N-glycosylation</b>}} adds sugars onto the amino acid {{c2::<b>asparagine</b>}}</div></div>",
+      "back": "\" N -glycosylation occurs in e N doplasmic reticulum\"",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "kEZ<U#rol;",
+      "deck": "AnKing Step Deck",
+      "front": "In the [ Golgi apparatus ], post-translational [ O-glycosylation ] adds sugars onto the amino acids [ serine ] and [ threonine ]",
+      "raw0": "<div><div>In the {{c3::<b>Golgi apparatus</b>}}, <i>post-translational</i> {{c1::<b>O-glycosylation</b>}} adds sugars onto the amino acids {{c2::<b>serine</b>}} and {{c2::<b>threonine</b>}}</div></div>",
+      "back": "\" O -glycosylation occurs in the G O lgi apparatus\"",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "yg7G1*FlM|",
+      "deck": "AnKing Step Deck",
+      "front": "Most proteins are [negatively] charged",
+      "raw0": "Most <b>proteins</b> are {{c1::negatively}} charged",
+      "back": "Histones are a notable exception",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids::Extra"
+      ]
+    },
+    {
+      "guid": "Pd2oHzpWuj",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acids are characterized by branched side chains ? [Isoleucine, leucine, and valine]",
+      "raw0": "<div>Which <b>amino acids</b> are characterized by <b>branched side chains</b>?</div><br><div>{{c1::Isoleucine, leucine, and valine::3}}</div>",
+      "back": "\" I L ove V ermont maple syrup from maple trees (with B1ranches)\"",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "DQd%Psy@JZ",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acids are the precursors to catecholamines and melanin ? [Phenylalanine, tyrosine]",
+      "raw0": "<div>Which <b>amino acids</b> are the <u>precursors</u> to <b>catecholamines </b>and <b>melanin</b>?</div><br><div>{{c1::Phenylalanine, tyrosine::2}}</div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "n65MnNuZat",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acid is the precursor to serotonin and niacin ? [Tryptophan]",
+      "raw0": "<div><div>Which <b>amino acid</b> is the <u>precursor</u> to <b>serotonin</b> and <b>niacin</b>? </div><br><div>{{c1::Tryptophan}}</div></div>",
+      "back": "Importantly, serotonin synthesis requires BH 4 (thus patients with a dihydrobiopterin reductase deficiency will present with low levels of serotonin)",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics"
+      ]
+    },
+    {
+      "guid": "e&+/z=,+{>",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acid is the precursor to histamine ? [Histidine]",
+      "raw0": "<div><div>Which <b>amino acid</b> is the <u>precursor</u> to <b>histamine</b>? </div><br><div>{{c1::Histidine}}</div></div>",
+      "back": "Converted by histidine decarboxylase; enzyme is active at room temperature which is why dark meat fish (which have symbiotic bacteria that produce a lot of this enzyme) that has been left out can result in scombroid poisoning",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics"
+      ]
+    },
+    {
+      "guid": "w/]/3d6D{8",
+      "deck": "AnKing Step Deck",
+      "front": "The amino acids [ aspartate ] and [ glutamate ] are negatively charged at body pH ( acidic )",
+      "raw0": "<div>The amino acids {{c1::<b>aspartate</b>}} and {{c1::<b>glutamate</b>}} are <u>negatively</u> charged at body pH (<i>acidic</i>)</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "Ai`)6q%Y1$",
+      "deck": "AnKing Step Deck",
+      "front": "The amino acids [ lysine ] and [ arginine ] are positively charged at body pH ( basic )",
+      "raw0": "<div>The amino acids {{c1::<b>lysine</b>}} and {{c1::<b>arginine</b>}} are <u>positively</u> charged at body pH (<i>basic</i>) </div>",
+      "back": "Arginine is the most basic amino acid",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "pFvxU&9M{N",
+      "deck": "AnKing Step Deck",
+      "front": "What is the charge of the amino acid histidine at body pH? [No charge]",
+      "raw0": "<div>What is the <i>charge</i> of the amino acid <b>histidine</b> at body pH?</div><br><div>{{c1::No charge}} </div>",
+      "back": "Histidine is still considered a basic amino acid because its side chain can accept a proton",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "f`m8;F)((A",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acids are the target of protein kinase A and protein kinase C ? [Serine and threonine]",
+      "raw0": "<div>Which <b>amino acids</b> are the <i>target</i> of <b>protein kinase A</b> and <b>protein kinase C</b>? </div><br><div>{{c1::Serine and threonine}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics"
+      ]
+    },
+    {
+      "guid": "w:cvRa;tb4",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acids are required during periods of growth ? [Arginine and histidine]",
+      "raw0": "<div>Which <b>amino acids</b> are required during <b>periods of growth</b>? </div><br><div>{{c1::Arginine and histidine::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "xx%5cls,yo",
+      "deck": "AnKing Step Deck",
+      "front": "What are the 9 (10*) essential amino acids ? [Phenylalanine] [Valine] [Threonine] [Tryptophan] [Isoleucine] [Methionine] [Histidine] [Arginine]* during periods of growth [Lysine] [Leucine]",
+      "raw0": "<div>What are the <u>9 (10*)</u> <b>essential amino acids</b>? </div><div><div class=\"mnemonics\"><br><div>{{c1::Phenylalanine}}</div><div>{{c1::Valine}}</div><div>{{c1::Threonine}}</div><br><div>{{c2::Tryptophan}} </div><div>{{c2::Isoleucine}}</div><div>{{c2::Methionine}}</div><br><div>{{c3::Histidine}} </div><div>{{c3::Arginine}}* <i>during periods of growth</i></div><div>{{c3::Lysine}}</div><div>{{c3::Leucine}}</div></div></div>",
+      "back": "Mnemonic: PVT TIM HALL",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "mlwF:$cuE)",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acids are only ketogenic ? [Leucine and lysine]",
+      "raw0": "<div>Which <b>amino acids</b> are <i>only</i> <b>ketogenic</b>? </div><br><div>{{c1::Leucine and lysine::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "jLQd{iNz8N",
+      "deck": "AnKing Step Deck",
+      "front": "Are the essential amino acids methionine , valine , and histidine ketogenic or glucogenic ? [Glucogenic]",
+      "raw0": "<div>Are the <i>essential </i>amino acids <b>methionine</b>, <b>valine</b>, and <b>histidine</b> <u>ketogenic</u> or <u>glucogenic</u>? </div><br><div>{{c1::Glucogenic}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "BImfm8S~Yk",
+      "deck": "AnKing Step Deck",
+      "front": "Are the amino acids phenylalanine , isoleucine , threonine , tryptophan, and tyrosine ketogenic or glucogenic ? [Both :)]",
+      "raw0": "<div>Are the<i> </i>amino acids <b>phenylalanine</b>, <b>isoleucine</b>, <b>threonine</b>, <b>tryptophan, </b>and <b>tyrosine </b><u>ketogenic</u> or <u>glucogenic</u>? </div><br><div>{{c1::Both :)}}</div>",
+      "back": "Note that Tyrosine is not an essential amino acid",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "fCt5YO^/i:",
+      "deck": "AnKing Step Deck",
+      "front": "The amino acid [ arginine ] is essential during periods of [ positive ] nitrogen balance",
+      "raw0": "<div>The amino acid {{c1::<b>arginine</b>}} is essential during periods of {{c2::<u>positive</u>}} <b>nitrogen balance</b> </div>",
+      "back": "e.g., a growing child",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "z=aEROfO=]",
+      "deck": "AnKing Step Deck",
+      "front": "The Henderson-Hasselbalch equation for any buffer states that: [pH] = [\\(pK_a\\space +\\space log \\left(\\frac{[A^-]}{[HA]}\\right)\\)]",
+      "raw0": "<div>The <b>Henderson-Hasselbalch equation</b> for <i>any</i> <u>buffer</u> states that:</div><br><div>{{c2::pH}} = {{c1::\\(pK_a\\space +\\space log \\left(\\frac{[A^-]}{[HA]}\\right)\\)}}</div><br>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "p&@#g(PYUd",
+      "deck": "AnKing Step Deck",
+      "front": "A strong acid (e.g., HCl) has a(n) [ lower ] pK than a weak acid",
+      "raw0": "<div>A <b>strong acid</b> (e.g., HCl) has a(n) {{c1::<u>lower</u>}} <b>pK</b> than a <b>weak acid</b> </div>",
+      "back": "Stronger acid = higher equilibrium constant (K), thus lower pK",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids::Extra"
+      ]
+    },
+    {
+      "guid": "u8;dYQ=e.:",
+      "deck": "AnKing Step Deck",
+      "front": "When the pH of a solution equals the [pK] , the concentrations of the [A - ] and [HA] form of the buffer are equal",
+      "raw0": "<div>When the <b>pH</b> of a solution <u>equals</u> the <b>{{c1::pK}}</b>, the concentrations of the <b>[A<sup>-</sup>]</b> and <b>[HA]</b> form of the buffer are <u>equal</u> </div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "li(7MQ4.uw",
+      "deck": "AnKing Step Deck",
+      "front": "What is the normal serum BUN:creatinine ratio? [~ 15:1]",
+      "raw0": "<div>What is the <i>normal</i> serum <b>BUN:creatinine</b> ratio? </div><br><div>{{c1::~ 15:1}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "x2=q,rdequ",
+      "deck": "AnKing Step Deck",
+      "front": "In prerenal azotemia , the BUN:creatinine ratio is [>] 20:1",
+      "raw0": "<div>In <b>prerenal azotemia</b>, the <u>BUN:creatinine ratio</u> is {{c1::&gt;}} 20:1</div>",
+      "back": "Due to increased reabsorption [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "Ac<snea>PX",
+      "deck": "AnKing Step Deck",
+      "front": "In early postrenal azotemia , the BUN:creatinine ratio is [>] 15",
+      "raw0": "<div><div>In <i>early</i> <b>postrenal azotemia</b>, the <u>BUN:creatinine ratio</u> is {{c1::&gt;}} 15</div></div>",
+      "back": "Increased tubular pressure \"forces\" BUN into blood [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "kL?V4ft`S*",
+      "deck": "AnKing Step Deck",
+      "front": "In long-standing (severe) postrenal azotemia , the BUN:creatinine ratio is [<] 15",
+      "raw0": "<div>In <i>long-standing </i>(severe) <b>postrenal azotemia</b>, the <u>BUN:creatinine ratio</u> is {{c1::&lt;}} 15</div>",
+      "back": "Due to tubular damage (can't reabsorb urea; can't excrete creatinine) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "uD?2kJ0d5%",
+      "deck": "AnKing Step Deck",
+      "front": "In acute tubular necrosis , the BUN:creatinine ratio is [<] 15",
+      "raw0": "<div><div><div>In <b>acute tubular necrosis</b>, the <u>BUN:creatinine ratio</u> is {{c1::&lt;}} 15</div></div></div>",
+      "back": "Due to dysfunctional tubular epithelium [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "fXRQC-5~~+",
+      "deck": "AnKing Step Deck",
+      "front": "Renal failure is associated with an inability to make [urine] and excrete [nitrogenous] wastes",
+      "raw0": "<div><b>Renal failure</b> is associated with an <i>inability</i> to <u>make</u> {{c1::urine}} and <u>excrete</u> {{c2::nitrogenous}} wastes</div>",
+      "back": "- This decline in renal filtration can lead to excess retained nitrogenous waste products (elevated BUN) and electrolyte disturbances - Inability to excrete nitrogenous wastes is known as azotemia [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "zb/zN%(S,B",
+      "deck": "AnKing Step Deck",
+      "front": "Urea has two nitrogen molecules , one from [ NH 3 ] and one from [ aspartate ]",
+      "raw0": "<div><b>Urea</b> has <u>two</u> <b>nitrogen molecules</b>, one from {{c1::<b>NH<sub>3</sub></b>}} and one from {{c2::<b>aspartate</b>}}</div>",
+      "back": "NH 3 comes from glutamine or glutamate [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "QLqL-K$,Mn",
+      "deck": "AnKing Step Deck",
+      "front": "In the muscle , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ketoacids ]",
+      "raw0": "<div>In the <i>muscle</i>, <b>amino acids</b> transfer their NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>α-ketoacids</b>}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "bXYI%a7Swl",
+      "deck": "AnKing Step Deck",
+      "front": "In the muscle , glutamate transfers its NH 3 group to [ pyruvate ], forming [ alanine ] and [ α-ketoglutarate ]",
+      "raw0": "<div>In the <i>muscle</i>, <b>glutamate</b> transfers its NH<sub>3</sub> group to {{c1::<b>pyruvate</b>}}, forming {{c2::<b>alanine</b>}} and {{c3::<b>α-ketoglutarate</b>}}</div>",
+      "back": "This reaction occurs via the enzyme alanine aminotransferase (ALT) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "lWBzfrb/0c",
+      "deck": "AnKing Step Deck",
+      "front": "The NH 3 from amino acid breakdown in muscle is transported into the blood in the form of [ alanine ]",
+      "raw0": "<div>The <b>NH<sub>3</sub></b> from <i>amino acid breakdown</i> in <u>muscle</u> is transported into the blood in the form of {{c1::<b>alanine</b>}}</div>",
+      "back": "e.g., alanine aminotransferase (ALT) or aspartate aminotransferase (AST) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "wZ@XuH5;NV",
+      "deck": "AnKing Step Deck",
+      "front": "What class of enzymes is used in the transfer of NH 3 groups during nitrogen metabolism ? [Aminotransferases]",
+      "raw0": "<div>What <i>class</i> of enzymes is used in the transfer of <b>NH<sub>3</sub> groups</b> during <u>nitrogen metabolism</u>?</div><br><div>{{c1::Aminotransferases}}</div>",
+      "back": "e.g., alanine aminotransferase (ALT), aspartate aminotransferase (AST), etc. [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "jkH:E[(XCB",
+      "deck": "AnKing Step Deck",
+      "front": "What vitamin acts as a cofactor for aminotransferase enzymes? [Vitamin B 6 (Pyridoxal phosphate)]",
+      "raw0": "<div>What <u>vitamin</u> acts as a <i>cofactor</i> for <i style=\"font-weight: bold;\">aminotransferase</i> enzymes? </div><br><div>{{c1::Vitamin B<sub>6 </sub>(Pyridoxal phosphate)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "vZQy.xy{kI",
+      "deck": "AnKing Step Deck",
+      "front": "In the liver , alanine transfers its NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ pyruvate ]",
+      "raw0": "<div>In the <i>liver</i>, <b>alanine</b> transfers its NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>pyruvate</b>}}</div>",
+      "back": "This reaction occurs via the enzyme alanine aminotransferase (ALT) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "u3U/`7SL.q",
+      "deck": "AnKing Step Deck",
+      "front": "In the liver , [ glutamate ] may transfer a molecule of NH 3 to the urea cycle , reforming α-ketoglutarate",
+      "raw0": "<div>In the <i>liver</i>, {{c1::<b>glutamate</b>}} may <u>transfer a molecule of NH<sub>3</sub> to the urea cycle</u>, reforming <b>α-ketoglutarate</b></div>",
+      "back": "This reaction occurs via the enzyme glutamate dehydrogenase [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "yR{zY7^L5v",
+      "deck": "AnKing Step Deck",
+      "front": "In the liver , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ketoacids ]",
+      "raw0": "<div>In the <i>liver</i>, <b>amino acids</b> transfer their NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>α-ketoacids</b>}}<b>    </b></div>",
+      "back": "- This reaction occurs via various aminotransferase enzymes - In the diagram below, the NH 3 group (e.g. alanine) is transferred to α-ketoglutarate forming glutamate and α-ketoacids (pyruvate) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "z%C`.Rb*Cv",
+      "deck": "AnKing Step Deck",
+      "front": "In the liver , glutamate may transfer its NH 3 to [ oxaloacetate ], forming [ aspartate ] and [ α-ketoglutarate ]",
+      "raw0": "<div>In the <i>liver</i>, <b>glutamate</b> may transfer its NH<sub>3</sub> to {{c1::<b>oxaloacetate</b>}}, forming {{c2::<b>aspartate</b>}} and {{c3::<b>α-ketoglutarate</b>}}</div>",
+      "back": "Mediated by the enzyme aspartate transaminase (AST) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle"
+      ]
+    },
+    {
+      "guid": "Fb7&J:|yYg",
+      "deck": "AnKing Step Deck",
+      "front": "In the intestine , NH 3 may be produced by intestinal [ bacteria ]",
+      "raw0": "<div>In the <i>intestine</i>, <b>NH<sub>3</sub> </b>may be produced by <b>intestinal </b>{{c1::<b>bacteria</b>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "f6d8XCnCm9",
+      "deck": "AnKing Step Deck",
+      "front": "The NH 3 in the intestine may be transported to the liver in the form of [ NH 3 ] in the portal blood",
+      "raw0": "<div>The <b>NH<sub>3</sub></b> in the <i>intestine</i> may be transported to the liver in the form of {{c1::<b>NH</b><sub style=\"font-weight: bold;\">3</sub>}} in the <b>portal blood</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "sF_!99^xPu",
+      "deck": "AnKing Step Deck",
+      "front": "What is the major transport form of NH 3 in the blood (from most tissues )? [Glutamine]",
+      "raw0": "<div>What is the <u>major transport</u> form of <b>NH<sub>3</sub></b> in the blood (from <i>most tissues</i>)? </div><br><div>{{c1::Glutamine}}</div>",
+      "back": "Exceptions are the intestines (delivered via portal blood) and muscle (delivered as alanine) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine"
+      ]
+    },
+    {
+      "guid": "e6NVfyAC97",
+      "deck": "AnKing Step Deck",
+      "front": "NH 3 is excreted in the urine primarily in the form of [ urea ] (from the liver) and [ NH 4 + ] (from glutamine breakdown)",
+      "raw0": "<div><b>NH<sub>3</sub></b> is excreted in the <u>urine</u> primarily in the form of {{c1::<b>urea</b>}} (from the liver) and {{c2::<b>NH<sub>4</sub><sup>+</sup></b>}} (from glutamine breakdown)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "pcTd9j~;E9",
+      "deck": "AnKing Step Deck",
+      "front": "Which tissue/organ uses alanine as its major transport form of NH 3 ? [Muscle]",
+      "raw0": "<div>Which tissue/organ uses <b>alanine</b> as its <u>major transport form</u> of <b>NH<sub>3</sub></b>?</div><br><div>{{c1::Muscle}}</div>",
+      "back": "- e.g., alanine aminotransferase (ALT), aspartate aminotransferase (AST) - Most tissues use glutamine - Intestines just use NH 3 [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "tt|Jv3n-+n",
+      "deck": "AnKing Step Deck",
+      "front": "Which tissue/organ uses NH 3 as its major transport form of NH 3 ? [Intestines (via portal blood)]",
+      "raw0": "<div><div>Which tissue/organ uses <b>NH<sub>3</sub></b> as its <u>major transport form</u> of <b>NH<sub>3</sub></b>? </div><br><div>{{c1::Intestines (via portal blood)}}</div></div>",
+      "back": "- Most tissues use glutamine - Muscles uses alanine [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "Dn}eE=Vk0,",
+      "deck": "AnKing Step Deck",
+      "front": "Does the urea cycle occur in the cytoplasm or mitochondria ? [Both :)]",
+      "raw0": "Does the <b>urea cycle</b> occur in the <u>cytoplasm</u> or <u>mitochondria</u>? <br><br><div>{{c1::Both :)}}</div>",
+      "back": "[img] [img] Photo credit: WikiDoc by Yazan Daaboul , CC BY-SA 3.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "iBragZr`GY",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the cell does the urea cycle begin ? [Mitochondria]",
+      "raw0": "<div>Where in the cell does the <b>urea cycle</b> <i>begin</i>? </div><br><div>{{c1::Mitochondria}}</div>",
+      "back": "[img] [img] Photo credit: WikiDoc by Yazan Daaboul , CC BY-SA 3.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "uWx#,?8}8n",
+      "deck": "AnKing Step Deck",
+      "front": "Most excess nitrogen generated by catabolism of amino acids is excreted as [urea], which is made in the liver",
+      "raw0": "<div><i>Most</i> <u>excess</u> <b>nitrogen</b> generated by <b>catabolism of amino acids</b> is excreted as {{c1::urea}}, which is made in the liver </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "l_?4W2sTp{",
+      "deck": "AnKing Step Deck",
+      "front": "The urea cycle begins with [ NH 3 ], [ CO 2 ], and 2 [ ATP ]",
+      "raw0": "<div>The <u>urea cycle</u> begins with {{c1::<b>NH<sub>3</sub></b>}}, {{c2::<b>CO<sub>2</sub></b>}}, and <b>2 </b>{{c3::<b>ATP</b>}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "xJ)rl&xU2<",
+      "deck": "AnKing Step Deck",
+      "front": "In the first step of the urea cycle , CO 2 and NH 3 are combined to form [ carbamoyl phosphate ] via the enzyme [ carbamoyl phosphate synthetase I ] (requires 2 ATP)",
+      "raw0": "<div>In the <i>first</i> step of the <u>urea cycle</u>, <b>CO</b><sub><b>2</b></sub> and <b>NH<sub>3</sub> </b>are combined to form {{c1::<b>carbamoyl phosphate</b>}} via the enzyme {{c2::<i><b>carbamoyl phosphate synthetase I</b></i>}} (requires 2 ATP)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "Dw3-+2s|l|",
+      "deck": "AnKing Step Deck",
+      "front": "What is the rate-limiting enzyme of the urea cycle ? [Carbamoyl phosphate synthetase I]",
+      "raw0": "<div><div>What is the <u>rate-limiting enzyme</u> of the <b>urea cycle</b>? </div><br><div>{{c1::Carbamoyl phosphate synthetase I}}</div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "d;Gij(Cz|L",
+      "deck": "AnKing Step Deck",
+      "front": "[ N-acetylglutamate ] is a(n) [obligate] activator of carbamoyl phosphate synthetase I",
+      "raw0": "<div><div>{{c1::<b>N-acetylglutamate</b>}} is a(n) <u>{{c2::obligate}} activator</u> of <i style=\"font-weight: bold;\">carbamoyl phosphate synthetase I</i></div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "I7v4Quw[rO",
+      "deck": "AnKing Step Deck",
+      "front": "Which metabolic enzymes require an obligate activator ? 1. [ Pyruvate carboxylase (acetyl-CoA)] 2. [ Carbamoyl phosphate synthetase I (N-acetylglutamate)]",
+      "raw0": "<div><div>Which <u>metabolic enzymes</u> require an <i>obligate activator</i>? </div><br><div>1. {{c1::<b><i>Pyruvate carboxylase</i></b> (acetyl-CoA)}}</div><div>2. {{c2::<b><i>Carbamoyl phosphate synthetase I</i></b> (N-acetylglutamate)}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "H6V{E>0.L{",
+      "deck": "AnKing Step Deck",
+      "front": "Which metabolic pathways require an obligate activator ? 1. [ Gluconeogenesis ] 2. [ Urea cycle ]",
+      "raw0": "Which <u>metabolic pathways</u> require an <i>obligate activator</i>? <br><br>1. {{c1::<b>Gluconeogenesis</b>}}<br>2. {{c2::<b>Urea</b> <b>cycle</b>}}",
+      "back": "1. Pyruvate carboxylase requires acetyl-CoA 2. Carbamoyl phosphate synthetase I requires N-acetylglutamate [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "eH~2TvRo6l",
+      "deck": "AnKing Step Deck",
+      "front": "[ Carbamoyl phosphate ] may be combined with [ ornithine ] to form [ citrulline ] via the enzyme [ ornithine transcarbamylase (OTC)]",
+      "raw0": "<div>{{c4::<b>Carbamoyl phosphate</b>}} may be <i>combined</i> with {{c1::<b>ornithine</b>}} to form {{c2::<b>citrulline</b>}} via the enzyme {{c3::<i>ornithine transcarbamylase </i>(OTC)}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "MUs@wN0G7e",
+      "deck": "AnKing Step Deck",
+      "front": "[ Citrulline ] may be combined with [ aspartate ] to form [ argininosuccinate ] via the enzyme argininosuccinate synthetase (requires 1 ATP)",
+      "raw0": "<div>{{c3::<b>Citrulline</b>}} may be <i>combined</i> with {{c1::<b>aspartate</b>}} to form {{c2::<b>argininosuccinate</b>}} via the enzyme <i>argininosuccinate synthetase</i> (requires 1 ATP)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "fNqj{`7]HD",
+      "deck": "AnKing Step Deck",
+      "front": "Argininosuccinate may be broken down into [ arginine ] and [ fumarate ] via the enzyme argininosuccinase",
+      "raw0": "<div><b>Argininosuccinate</b> may be broken down into {{c1::<b>arginine</b>}} and {{c2::<b>fumarate</b>}} via the enzyme <i>argininosuccinase</i></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "y9x,U?-0^,",
+      "deck": "AnKing Step Deck",
+      "front": "Arginine may be broken down into [ ornithine ] and [ urea ] via the enzyme [ arginase ]",
+      "raw0": "<div><b>Arginine</b> may be broken down into<b> </b>{{c1::<b>ornithine</b>}} and {{c1::<b>urea</b>}} via the enzyme {{c3::<i><u>arginase</u></i>}}</div>",
+      "back": "- Ornithine is now ready to accept another carbamoyl phosphate in order to excrete its ammonia - Treatment of arginase deficiency consists of low protein diet without arginine Arginase deficiency manifests as: - Progressive development of spastic diplegia - Abnormal choreoathetoid movements - Growth delay - Elevated arginine levels with mild / no hyperammonemia [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "Kx.8LMUgzy",
+      "deck": "AnKing Step Deck",
+      "front": "What happens to the urea that is formed via the breakdown of arginine ? [Excreted in the urine]",
+      "raw0": "<div>What happens to the <b>urea</b> that is formed via the <u>breakdown of arginine</u>? </div><br><div>{{c1::Excreted in the urine}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "Co`G<97skG",
+      "deck": "AnKing Step Deck",
+      "front": "What happens to the ornithine that is formed via the breakdown of arginine (urea cycle)? [It is recycled]",
+      "raw0": "<div>What happens to the <b>ornithine</b> that is formed via the <u>breakdown of arginine</u> (urea cycle)? </div><br><div>{{c1::It is recycled}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "eb-0|LSJLA",
+      "deck": "AnKing Step Deck",
+      "front": "How do levels of serum blood urea nitrogen (BUN) change with liver dysfunction ? [Decreased]",
+      "raw0": "<div>How do levels of serum <b>blood urea nitrogen (BUN)</b> change with <b>liver dysfunction</b>? </div><br><div>{{c1::Decreased}}</div>",
+      "back": "↓ BUN = liver dysfunction ↑ BUN = kidney dysfunction",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "MBX=ryB7l9",
+      "deck": "AnKing Step Deck",
+      "front": "How do levels of serum blood urea nitrogen (BUN) change with kidney dysfunction ? [Increased]",
+      "raw0": "<div><div>How do levels of serum <b>blood urea nitrogen (BUN)</b> change with <b>kidney dysfunction</b>? </div><br><div>{{c1::Increased}}</div></div>",
+      "back": "↓ BUN = liver dysfunction ↑ BUN = kidney dysfunction",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "rg$=p|zphB",
+      "deck": "AnKing Step Deck",
+      "front": "Disorders of the urea cycle interfere with the body's ability to eliminate [ammonia (NH 3 )]",
+      "raw0": "<div>Disorders of the <b>urea cycle</b> interfere with the body's ability to <u>eliminate</u> {{c1::ammonia (NH<sub>3</sub>)}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "xug|mzq!*8",
+      "deck": "AnKing Step Deck",
+      "front": "Carbamoyl phosphate synthetase I deficiency presents with [ increased ] NH 4 + and [ hyper ] ammonemia",
+      "raw0": "<div><b>Carbamoyl phosphate synthetase I deficiency</b> presents with {{c1::<u>increased</u>}} <b>NH<sub>4</sub><sup>+</sup></b> and {{c1::<b>hyper</b>}}<b>ammonemia</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "F2sagw5/d~",
+      "deck": "AnKing Step Deck",
+      "front": "Carbamoyl phosphate synthetase I deficiency presents with [ increased ] glutamine",
+      "raw0": "<div><b>Carbamoyl phosphate synthetase I deficiency</b> presents with {{c1::<u>increased</u>}} <b>glutamine</b> </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "C-zX9A1q+X",
+      "deck": "AnKing Step Deck",
+      "front": "Carbamoyl phosphate synthetase I deficiency presents with [ decreased ] BUN",
+      "raw0": "<div><b>Carbamoyl phosphate synthetase I deficiency</b> presents with {{c1::<u>decreased</u>}} <b>BUN</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "A{iAN],dtA",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of carbamoyl phosphate synthetase I deficiency ? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b><i>carbamoyl phosphate synthetase I</i> deficiency</b>? </div><br><div>{{c1::Autosomal recessive}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "E1p#`C}6^w",
+      "deck": "AnKing Step Deck",
+      "front": "Does carbamoyl phosphate synthetase I deficiency present with increased urine orotic acid ? [No]",
+      "raw0": "<div>Does <b>carbamoyl phosphate synthetase I deficiency</b> present with <u>increased</u> <b>urine orotic acid</b>? </div><br><div>{{c1::No}}</div>",
+      "back": "Important distinguishing feature from ornithine transcarbamylase deficiency Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "HRq,Gt@Ey{",
+      "deck": "AnKing Step Deck",
+      "front": "What other enzyme deficiency presents identically to carbamoyl phosphate synthetase I deficiency ? [ N-acetylglutamate synthase deficiency]",
+      "raw0": "<div>What <i>other</i> enzyme deficiency presents <u>identically</u> to <b>carbamoyl phosphate synthetase I deficiency</b>? </div><br><div>{{c1::<i>N-acetylglutamate synthase </i>deficiency}}</div>",
+      "back": "N-acetylglutamate is an obligate activator of carbamoyl phosphate synthetase I [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::N-Acetylglutamate_Synthase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "paxXt/+82;",
+      "deck": "AnKing Step Deck",
+      "front": "Carbamoyl phosphate synthetase I deficiency presents in [neonates] as poorly regulated respiration and body temperature , poor feeding , developmental delay, and intellectual disability",
+      "raw0": "<div><b>Carbamoyl phosphate synthetase I deficiency</b> presents in {{c1::neonates::age group}} as <u><i>poorly</i><b> </b>regulated</u><b> respiration</b> and <b>body</b> <b>temperature</b>, <b>poor</b> <b>feeding</b>, developmental delay, and intellectual disability </div>",
+      "back": "N-acetylglutamate synthase deficiency has the same clinical presentation",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Carbamoyl_Phosphate_Synthetase_1_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "NZuP(>[jT7",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common urea cycle disorder ? [Ornithine transcarbamylase (OTC) deficiency]",
+      "raw0": "<div>What is the <u>most common</u> <b>urea cycle disorder</b>? </div><br><div>{{c1::Ornithine transcarbamylase (OTC) deficiency}}</div>",
+      "back": "- Can cause elevated orotic acid in the urine - X linked recessive [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "PF#PEhqcCi",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of ornithine transcarbamylase (OTC) deficiency ? [X-linked recessive]",
+      "raw0": "<div><div>What is the <u>mode of inheritance</u> of <b>ornithine transcarbamylase (OTC) deficiency</b>? </div><br><div>{{c1::X-linked recessive}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "cJIL_G@9li",
+      "deck": "AnKing Step Deck",
+      "front": "Ornithine transcarbamylase (OTC) deficiency often presents within the first few [days] of life but may present later",
+      "raw0": "<div><b>Ornithine transcarbamylase (OTC) deficiency</b> often presents within the first few {{c1::days}} of life but may present later</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "vYv&XKo`LG",
+      "deck": "AnKing Step Deck",
+      "front": "Does ornithine transcarbamylase deficiency present with increased urine orotic acid ? [Yes]",
+      "raw0": "<div><div>Does <b>ornithine transcarbamylase deficiency</b> present with <u>increased</u> <b>urine orotic acid</b>?</div><br><div>{{c1::Yes}}</div></div>",
+      "back": "- Important distinguishing feature from carbamoyl phosphate synthetase I deficiency - Orotic aciduria (UMP synthase deficiency) also presents with increased urine orotic acid, but does not present with hyperammonemia Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "O38Xo,QIbt",
+      "deck": "AnKing Step Deck",
+      "front": "Ornithine transcarbamylase (OTC) deficiency presents with [ increased ] NH 4 + and [ hyper ] ammonemia",
+      "raw0": "<div><div><b>Ornithine transcarbamylase (OTC) deficiency</b> presents with {{c1::<u>increased</u>}} <b>NH<sub>4</sub><sup>+</sup></b> and {{c1::<b>hyper</b>}}<b>ammonemia</b></div></div>",
+      "back": "Important distinguishing feature from orotic aciduria Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "D+rhB41_!3",
+      "deck": "AnKing Step Deck",
+      "front": "Ornithine transcarbamylase (OTC) deficiency presents with [ increased ] serum glutamine",
+      "raw0": "<div><div><b>Ornithine transcarbamylase (OTC) deficiency</b> presents with {{c1::<u>increased</u>}} serum <b>glutamine</b></div></div>",
+      "back": "OTC deficiency → blocked urea cycle → ammonia buildup → conversion of ammonia to glutamine (temporary buffer) → increased serum glutamine Glutamine acts as an ammonia sink but also contributes to neurotoxicity when elevated chronically [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "Nit:9,2DQm",
+      "deck": "AnKing Step Deck",
+      "front": "Ornithine transcarbamylase (OTC) deficiency presents with [ decreased ] BUN",
+      "raw0": "<div><div><b>Ornithine transcarbamylase </b>(OTC)<b> deficiency</b> presents with {{c1::<u>decreased</u>}} <b>BUN</b></div></div>",
+      "back": "Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "MSK:1=4QK%",
+      "deck": "AnKing Step Deck",
+      "front": "Ornithine transcarbamylase (OTC) deficiency presents with increased [ orotic ] acid in the blood and urine",
+      "raw0": "<div><b>Ornithine transcarbamylase </b>(OTC)<b> deficiency</b> presents with <u>increased</u> {{c1::<b>orotic</b>}} <b>acid</b> in the blood and urine </div>",
+      "back": "OTC Deficiency ↑ Carbamoyl phosphate ↑ Pyrimidine pathway Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "d-Gt<EHf>G",
+      "deck": "AnKing Step Deck",
+      "front": "Does ornithine transcarbamylase (OTC) deficiency present with megaloblastic anemia ? [No]",
+      "raw0": "<div>Does <b>ornithine transcarbamylase</b> (OTC)<b> deficiency</b> present with <u>megaloblastic anemia</u>? </div><br><div>{{c1::No}}</div>",
+      "back": "Important distinguishing feature from orotic aciduria Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Ornithine_Transcarbamylase_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "sOPWi##LYJ",
+      "deck": "AnKing Step Deck",
+      "front": "Hyperammonemia results in excess NH 3 , which depletes [ α-ketoglutarate ], leading to inhibition of the TCA cycle",
+      "raw0": "<div><b>Hyperammonemia</b> results in <u>excess</u> <b>NH<sub>3</sub></b>, which <i>depletes</i> {{c1::<b>α-ketoglutarate</b>}}, leading to inhibition of the TCA cycle </div>",
+      "back": "Can be acquired (e.g., liver disease) or hereditary (e.g., urea cycle enzyme deficiencies) [img] Photo credit: Voss CM, Arildsen L, Nissen JD, Waagepetersen HS, Schousboe A, Maechler P, Ott P, Vilstrup H and Walls AB (2021) Glutamate Dehydrogenase Is Important for Ammonia Fixation and Amino Acid Homeostasis in Brain During Hyperammonemia. Front. Neurosci. 15:646291. doi: 10.3389/fnins.2021.646291 , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "h0TU@xYD^t",
+      "deck": "AnKing Step Deck",
+      "front": "Part of the treatment for hyperammonemia is limiting [protein] in the diet",
+      "raw0": "<div>Part of the <u>treatment</u> for <b>hyperammonemia</b> is limiting {{c1::protein}} in the diet</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "OTs_MJW17!",
+      "deck": "AnKing Step Deck",
+      "front": "What treatment for hyperammonemia acts by acidifying the GI tract , thus trapping NH 4 + for excretion? [Lactulose]",
+      "raw0": "<div>What <u>treatment</u> for <b>hyperammonemia</b> acts by <b>acidifying the GI tract</b>, thus trapping NH<sub>4</sub><sup>+</sup> for excretion? </div><br><div>{{c1::Lactulose}}</div>",
+      "back": "Nonabsorbable disaccharides (e.g., lactulose) are catabolized by intestinal bacterial flora to short chain fatty acids → ↓ the colonic pH → ↑ conversion of NH 3 to NH 4 + → NH 4 + not absorbed and excreted",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "F1is!3#Z.6",
+      "deck": "AnKing Step Deck",
+      "front": "What treatments for hyperammonemia act by decreasing colonic ammoniagenic bacteria ? [Rifaximin and neomycin]",
+      "raw0": "<div>What <u>treatments</u> for <b>hyperammonemia</b> act by <i>decreasing</i><b> colonic ammoniagenic bacteria</b>? </div><br><div>{{c1::Rifaximin and neomycin::2}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "O~HvN,jNh!",
+      "deck": "AnKing Step Deck",
+      "front": "Symptoms of hyperammonemia include tremor ([asterixis]), slurred speech, somnolence, vomiting, cerebral edema, and blurry vision",
+      "raw0": "Symptoms of <b>hyperammonemia</b> include tremor ({{c1::asterixis}}), slurred speech, somnolence, vomiting, cerebral edema, and blurry vision",
+      "back": "- CNS effects are due to dysfunction of astrocytes (these remove excess neurotransmitters) - Astrocytes get fed too much NH 3 , and thus they make too much glutamine which causes the astrocytes to swell and become dysfunctional (depleting glutamate stores) - Thus GABA is not metabolized and there is an excess of GABA in the CNS; energy supply to other brain cells is decreased, impairing excitatory neurotransmitter release [img] Video credit: Dr. Robert Laureno , CC BY-SA 4.0 , via Neurosigns.org, used with permission [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "K>PWO)|/6G",
+      "deck": "AnKing Step Deck",
+      "front": "[ Phenylalanine ] may be converted to [ tyrosine ] via the enzyme [ phenylalanine hydroxylase ], with [ BH 4 (tetrahydrobiopterin)] as a cofactor",
+      "raw0": "{{c3::<b>Phenylalanine</b>}} may be converted to {{c1::<b>tyrosine</b>}} via the enzyme {{c2::<i>phenylalanine hydroxylase</i>}},<i> </i>with {{c4::<b>BH<sub>4</sub></b> (tetrahydrobiopterin)}} as a cofactor<div></div>",
+      "back": "Tetrahydrobiopterin is also known as BH 4 [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "iKY~M@%[&w",
+      "deck": "AnKing Step Deck",
+      "front": "Deficiency of the enzyme [ phenylalanine hydroxylase ] causes [phenylketonuria (PKU) ]",
+      "raw0": "<div>Deficiency of the enzyme {{c1::<b><i>phenylalanine hydroxylase</i></b>}} causes <b>{{c2::phenylketonuria</b> (PKU)<b>}}</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "u@6qJ<Y5B[",
+      "deck": "AnKing Step Deck",
+      "front": "In addition to phenylalanine hydroxylase deficiency ( classic PKU ), malignant phenylketonuria is most commonly caused by a(n) [ dihydropteridine reductase ] deficiency",
+      "raw0": "<div>In addition to <u>phenylalanine hydroxylase</u> deficiency (<i>classic PKU</i>), <b><i>malignant</i> phenylketonuria</b> is most commonly caused by a(n) {{c1::<i>dihydropteridine reductase</i>}} <b>deficiency</b> </div>",
+      "back": "- Which causes a tetrahydrobiopterin (BH 4 ) deficiency - Lack of dihydropteridine reductase prevents reduction of BH 2 back to BH 4 using NADH ; patients can also have a deficiency of BH 4 itself - May present with symptoms of decreased neurotransmitter levels (e.g., hyper prolactinemia due to loss of dopamine inhibition ) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "pR.(GO,83-",
+      "deck": "AnKing Step Deck",
+      "front": "What amino acid becomes essential in patients with phenylketonuria ? [Tyrosine]",
+      "raw0": "<div>What <u>amino acid</u> becomes <i>essential</i> in patients with <b>phenylketonuria</b>? </div><br><div>{{c1::Tyrosine}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "m6uBO)o[gc",
+      "deck": "AnKing Step Deck",
+      "front": "Increased phenylalanine (e.g., in PKU) results in excess [phenylketones] in the urine",
+      "raw0": "<div><u>Increased</u> <b>phenylalanine</b> (e.g., in PKU) results in <i>excess</i> {{c1::phenylketones}} in the urine</div>",
+      "back": "Phenyl ketones : - Phenylacetate - Phenyllactate - Phenylpyruvate Phenylketonuria : - Intellectual impairment - Musty odor - Diet low in phe - Avoid aspartame - Diet important during pregnancy - Microcephaly [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "ORNLiJmZ%c",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of phenylketonuria (PKU)? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>phenylketonuria</b> (PKU)? </div><br><div>{{c1::Autosomal recessive}}</div>",
+      "back": "Incidence ~ 1:10,000 [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "O;<+%YnACF",
+      "deck": "AnKing Step Deck",
+      "front": "When are patients screened for phenylketonuria ? [2 - 3 days after birth]",
+      "raw0": "<div>When are patients <u>screened</u> for <b>phenylketonuria</b>?</div><br><div>{{c1::2 - 3 days after birth}}</div>",
+      "back": "Infants with PKU may be normal at birth because of maternal enzyme during fetal life [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria"
+      ]
+    },
+    {
+      "guid": "v+Ts<o6YZ4",
+      "deck": "AnKing Step Deck",
+      "front": "Why is screening for phenylketonuria performed 2-3 days after birth ? [May be normal at birth due to maternal enzymes]",
+      "raw0": "<div>Why is <u>screening</u> for <b>phenylketonuria</b> performed <b>2-3 days <i>after</i> birth</b>? </div><br><div>{{c1::May be normal at birth due to maternal enzymes}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria"
+      ]
+    },
+    {
+      "guid": "u>Sl|iq*K6",
+      "deck": "AnKing Step Deck",
+      "front": "[ Phenylketonuria (PKU)] is a metabolic disorder characterized by a(n) [ musty ] body odor",
+      "raw0": "<div>{{c2::<b>Phenylketonuria </b>(PKU)}} is a <i>metabolic disorder</i> characterized by a(n) {{c1::<b>musty</b>}}<b> body odor</b></div>",
+      "back": "- Screening test : phenylalanine levels - If screening test is positive : oral tetrahydrobiopterin loading test [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "I./wW!(V3-",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with phenylketonuria (PKU) must avoid the artificial sweetener [aspartame], which contains phenylalanine",
+      "raw0": "<div>Patients with <b>phenylketonuria</b> (PKU) must avoid the <u>artificial sweetener</u> {{c1::aspartame}}, which contains phenylalanine</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "u<KDR6C0%~",
+      "deck": "AnKing Step Deck",
+      "front": "Phenylketones include [phenylacetate], [phenyllactate], and [phenylpyruvate]",
+      "raw0": "<div><b>Phenylketones</b> include {{c1::phenylacetate}}, {{c2::phenyllactate}}, and {{c3::phenylpyruvate}} </div>",
+      "back": "May be elevated in urine of a patient with PKU [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "u12i4K[[]u",
+      "deck": "AnKing Step Deck",
+      "front": "Phenylketonuria may present with [ hypopigmented ] skin , eczema, [ intellectual ] disability , growth retardation, and seizures",
+      "raw0": "<div><b>Phenylketonuria</b> may present with {{c1::<b>hypopigmented</b>}} <b>skin</b>, eczema, {{c2::<b>intellectual</b>}} <b>disability</b>, growth retardation, and <b>seizures</b> </div>",
+      "back": "- Excess phenylalanine inhibits tyrosinase, which decreases melanin and causes hypopigmented skin - PKU also presents with the classic musty body odor [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "B$Jro&j38<",
+      "deck": "AnKing Step Deck",
+      "front": "[ Maternal ] phenylketonuria is due to lack of proper dietary therapy during pregnancy",
+      "raw0": "<div>{{c1::<b>Maternal</b>}}<b> phenylketonuria</b> is due to lack of proper dietary therapy during pregnancy</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "r9g3)uR@$C",
+      "deck": "AnKing Step Deck",
+      "front": "Maternal PKU may present with [micro]cephaly, intellectual disability, growth retardation, and congenital [heart] defects in the infant",
+      "raw0": "<div><b>Maternal PKU</b> may present with {{c1::micro}}cephaly, intellectual disability, growth retardation, and congenital {{c2::heart}} defects in the <u>infant</u></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "Q7v7@HVnOx",
+      "deck": "AnKing Step Deck",
+      "front": "Treatment for phenylketonuria includes a diet low in [ phenylalanine ] with supplemental [ tyrosine ] ± [ BH 4 (tetrahydrobiopterin) ]",
+      "raw0": "<div>Treatment for <b>phenylketonuria</b> includes a diet <u>low</u> in {{c1::<b>phenylalanine</b>}} with <i>supplemental</i> {{c2::<b>tyrosine</b>}} ± {{c3::<b>BH<sub>4</sub><span style=\"font-size: 9px;\"><sub>  </sub></span>(tetrahydrobiopterin)</b>}} </div>",
+      "back": "Some phenylalanine is still necessary in the diet [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "hsd;aPwX1;",
+      "deck": "AnKing Step Deck",
+      "front": "[ Homogentisic acid ] (from tyrosine) may be converted to [ maleylacetoacetate ] via the enzyme [ homogentisate oxidase ]",
+      "raw0": "<div>{{c3::<b>Homogentisic acid</b>}} (from tyrosine) may be converted to {{c1::<b>maleylacetoacetate</b>}} via the enzyme {{c2::<i><b>homogentisate oxidase</b></i>}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "sCOCtHVBJP",
+      "deck": "AnKing Step Deck",
+      "front": "Deficiency of the enzyme [ homogentisate oxidase ] causes [ alkaptonuria ]",
+      "raw0": "<div>Deficiency of the enzyme {{c1::<i><b>homogentisate oxidase</b></i>}} causes {{c2::<b>alkaptonuria</b>}}</div>",
+      "back": "AKA homogentisic acid dioxygenase [img] [img] [img] Photo credit: (1) Universidad CES , CC BY 3.0 , via Wikimedia Commons. (2) Image(s) licensed by DermNet and used with permission, CC-BY-NC-ND 3.0 NZ",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "g>i)h}u;?B",
+      "deck": "AnKing Step Deck",
+      "front": "[ Alkaptonuria ] is a metabolic disorder associated with [ black ] -colored urine after prolonged exposure to air",
+      "raw0": "<div>{{c2::<b>Alkaptonuria</b>}} is a <i>metabolic disorder</i> associated with {{c1::<u>black</u>}}<u>-colored</u> urine after <b>prolonged exposure to air</b></div>",
+      "back": "Urine turns black when left standing for a prolonged time or when alkalinized [img] Photo credit: see below , CC BY 2.0 , via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "BaJrMsUYmC",
+      "deck": "AnKing Step Deck",
+      "front": "Alkaptonuria is usually benign but may present with debilitating [ arthralgias ]",
+      "raw0": "<b>Alkaptonuria</b> is usually <i>benign</i> but may present with <b>debilitating</b> {{c1::<b>arthralgias</b>}}",
+      "back": "Homogentisic acid is toxic to cartilage [img] [img] [img] Photo credit: Universidad CES , CC BY 3.0 , via Wikimedia Commons, (1 st image); Wilke et al. , CC BY 2.0 , via BMC Journal of Medical Case Reports, (2 nd image). Image(s) licensed by DermNet and used with permission, CC-BY-NC-ND 3.0 NZ ( 3 rd image) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "Fht^U=msu#",
+      "deck": "AnKing Step Deck",
+      "front": "Maleylacetoacetate , from homogentisic acid , is used to make [ fumarate ], which then enters the Krebs cycle",
+      "raw0": "<div><b>Maleylacetoacetate</b>, from <u>homogentisic acid</u>, is used to make {{c1::<b>fumarate</b>}}, which then enters the Krebs cycle </div>",
+      "back": "Degradative pathway from tyrosine to fumarate [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "H&pKqpZgi$",
+      "deck": "AnKing Step Deck",
+      "front": "[ Leucine ] is eventually broken down into [ acetyl-CoA ] via the enzyme [ branched-chain α-ketoacid dehydrogenase ]",
+      "raw0": "<div>{{c3::<b>Leucine</b>}} is eventually broken down into {{c1::<b>acetyl-CoA</b>}} via the enzyme {{c2::<i><b>branched-chain α-ketoacid dehydrogenase</b></i>}}<b> </b></div>",
+      "back": "Branched-chain α-ketoacid dehydrogenase also requires 5 cofactors (TLCFN enzyme) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "cCt~xUu*&W",
+      "deck": "AnKing Step Deck",
+      "front": "[ Isoleucine ] and [ valine ] are eventually broken down into [ propionyl-CoA ] via the enzyme [ branched-chain α-ketoacid dehydrogenase ]",
+      "raw0": "<div>{{c3::<b>Isoleucine</b>}} and {{c3::<b>valine</b>}} are eventually broken down into {{c1::<b>propionyl-CoA</b>}} via the enzyme {{c2::<i><b>branched-chain α-ketoacid dehydrogenase</b></i>}}<b> </b></div>",
+      "back": "V and I of the \" V OM I T pathway\". Branched-chain α -ketoacid dehydrogenase also requires 5 cofactors \" T ender L oving C are F or N ancy\" enzyme: T hiamine pyrophosphate (B 1 ) L ipoic acid C oenzyme A (B 5 , pantothenic acid) F AD (B 2 , riboflavin) N AD (B 3 , niacin) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "I2CmA/oKiQ",
+      "deck": "AnKing Step Deck",
+      "front": "Deficiency of the enzyme [ branched-chain α-ketoacid dehydrogenase ] causes [ maple syrup urine disease (MSUD)]",
+      "raw0": "Deficiency of the enzyme {{c1::<b><i>branched-chain α-ketoacid dehydrogenase</i></b>}} causes {{c2::<b>maple syrup urine disease</b> (MSUD)}}",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "ks}6Rqj;IO",
+      "deck": "AnKing Step Deck",
+      "front": "Maple syrup urine disease is characterized by blocked degradation of [branched] amino acids",
+      "raw0": "<div><b>Maple syrup urine disease</b> is characterized by <u>blocked degradation</u> of {{c1::branched}} amino acids</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "s/edOG*8f{",
+      "deck": "AnKing Step Deck",
+      "front": "Maple syrup urine disease causes increased [α-ketoacids] in the blood, especially those of [ leucine ]",
+      "raw0": "<div><b>Maple syrup urine disease</b> causes <u>increased</u> <b>{{c1::α-ketoacids}}</b> in the blood, especially those of {{c2::<b>leucine</b>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "pEmt9f49pp",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of maple syrup urine disease ? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>maple syrup urine disease</b>?</div><br><div>{{c1::Autosomal recessive}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "xU].S!4W-r",
+      "deck": "AnKing Step Deck",
+      "front": "[Maple syrup urine (MSUD)] disease presents with vomiting , poor feeding , and urine that smells like burnt sugar",
+      "raw0": "<div>{{c1::Maple syrup urine (MSUD)}}<b> </b>disease presents with <b>vomiting</b>, <b>poor feeding</b>, and <u>urine</u> that smells like <u>burnt sugar</u></div>",
+      "back": "- Urine that smells like maple syrup / burnt sugar - Treatment includes dietary restriction of branched-chain amino acids (e.g., isoleucine, leucine, valine)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "o9F[,T1j1U",
+      "deck": "AnKing Step Deck",
+      "front": "Maple syrup urine disease may cause severe CNS defects, [intellectual] disability, and death",
+      "raw0": "<div><b>Maple syrup urine disease</b> may cause severe CNS defects, {{c1::intellectual}} disability, and death</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "G}Kl8mh&?8",
+      "deck": "AnKing Step Deck",
+      "front": "Dietary ingestion of which amino acids should be restricted in patients with maple syrup urine disease ? [Isoleucine, leucine, and valine]",
+      "raw0": "<div>Dietary ingestion of which <u>amino acids</u> should be <i>restricted</i> in patients with <b>maple syrup urine disease</b>? </div><br><div>{{c1::Isoleucine, leucine, and valine::3}}</div>",
+      "back": "\" I L ove V ermont maple syrup from maple trees (with B1ranches)\" [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "x0XbgH_frw",
+      "deck": "AnKing Step Deck",
+      "front": "Treatment of maple syrup urine disease includes high-dose [thiamine] supplementation",
+      "raw0": "<div>Treatment of <b>maple syrup urine disease</b> includes high-dose {{c1::thiamine}} supplementation </div>",
+      "back": "Vitamin B 1 is a cofactor for branched-chain α-ketoacid dehydrogenase (thus, similar principle to sideroblastic anemia supplementation with vitamin B 6 ) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "b%*6|i!o#m",
+      "deck": "AnKing Step Deck",
+      "front": "[ Propionyl-CoA ] may be generated via the \" VOMIT \" pathway: [ V aline] [ O dd-carbon fatty acids] [ M ethionine] [ I soleucine] [ T hreonine]",
+      "raw0": "<div>{{c1::<b>Propionyl-CoA</b>}} may be generated via the \"<b>VOMIT</b>\" pathway:</div><br><div class=\"mnemonics\"><div>{{c1::<u><b>V</b></u>aline::<b>V</b>}}</div><div>{{c1::<u><b>O</b></u>dd-carbon fatty acids::<b>O</b>}}</div><div>{{c1::<u><b>M</b></u>ethionine::<b>M</b>}}</div><div>{{c1::<u><b>I</b></u>soleucine::<b>I</b>}}</div><div>{{c1::<u><b>T</b></u>hreonine::<b>T</b>}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "c]{pc$W!!s",
+      "deck": "AnKing Step Deck",
+      "front": "Propionyl-CoA may be generated via the [ VOMIT ] pathway",
+      "raw0": "<div><b>Propionyl-CoA</b> may be generated via the {{c1::<b>VOMIT</b>::<b>acronym</b>}} pathway</div>",
+      "back": "V aline O dd-carbon fatty acids M ethionine I soleucine T hreonine [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "FP@MDhY!:B",
+      "deck": "AnKing Step Deck",
+      "front": "Propionyl-CoA is converted to [ methylmalonyl-CoA ] via the enzyme [ propionyl-CoA carboxylase ]",
+      "raw0": "<div><b>Propionyl-CoA</b> is converted to {{c1::<b>methylmalonyl-CoA</b>}} via the enzyme {{c2::<i><b>propionyl-CoA carboxylase</b></i>}}</div>",
+      "back": "Deficiency of propionyl-CoA carboxylase causes propionic acidemia [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "se]85C=Qy~",
+      "deck": "AnKing Step Deck",
+      "front": "Methylmalonyl-CoA may be converted to [ succinyl-CoA ] via the enzyme [ methylmalonyl-CoA mutase ] (with [vitamin B 12 ] as a cofactor)",
+      "raw0": "<div><b>Methylmalonyl-CoA</b> may be converted to {{c1::<b>succinyl-CoA</b>}} via the enzyme {{c2::<i><b>methylmalonyl-CoA mutase</b></i>}}<i> </i>(with {{c3::vitamin B<sub>12</sub>}} as a cofactor)</div>",
+      "back": "Odd chain fatty acid metabolism [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "N,kV%!oB4=",
+      "deck": "AnKing Step Deck",
+      "front": "If methylmalonyl-CoA mutase is dysfunctional , [methylmalonic acid] accumulates in the blood and urine",
+      "raw0": "<div>If <b><i>methylmalonyl-CoA mutase</i></b> is <u>dysfunctional</u>, {{c1::methylmalonic acid}} accumulates in the blood and urine </div>",
+      "back": "e.g., vitamin B 12 deficiency, mutase defect, etc. [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown"
+      ]
+    },
+    {
+      "guid": "s`ige<(r?N",
+      "deck": "AnKing Step Deck",
+      "front": "Methionine is combined with adenosine (using ATP) to form [ S -adenosylmethionine (SAM)]",
+      "raw0": "<div><b>Methionine</b> is combined with <u>adenosine</u> (using ATP) to form {{c1::<b><i>S</i>-adenosylmethionine</b> (SAM)}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "rc)22IWJY(",
+      "deck": "AnKing Step Deck",
+      "front": "S-adenosylmethionine (SAM) is a(n) [methyl] donor",
+      "raw0": "<div><b>S-adenosylmethionine </b>(SAM) is a(n) {{c1::methyl}} donor</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "O2I2%DN-{y",
+      "deck": "AnKing Step Deck",
+      "front": "S-adenosylmethionine (SAM) donates a CH 3 group to anabolic pathways, forming [ S-adenosylhomocysteine ]",
+      "raw0": "<div><b>S-adenosylmethionine </b>(SAM) <i>donates</i> a <u>CH<sub>3</sub> group</u> to anabolic pathways, forming {{c1::<b>S-adenosylhomocysteine</b>}}</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "f/w{sU3yWJ",
+      "deck": "AnKing Step Deck",
+      "front": "S-adenosylhomocysteine breaks down into adenosine and [ homocysteine ]",
+      "raw0": "<div><b>S-adenosylhomocysteine</b> breaks down into <b>adenosine</b> and {{c1::<b>homocysteine</b>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "c#:kun9ms?",
+      "deck": "AnKing Step Deck",
+      "front": "[ Homocystinuria ] is a metabolic disorder that may present with [ marfanoid ] habitus , however with lens dislocation that subluxes [ downward ] and [ inward ]",
+      "raw0": "<div>{{c2::<b>Homocystinuria</b>}} is a <i>metabolic disorder</i> that may present with {{c1::<b>marfanoid</b>}} <b>habitus</b>, however with <u>lens dislocation</u> that subluxes {{c3::<u>downward</u>::direction}} and {{c3::<u>inward</u>::direction}}</div>",
+      "back": "- They also have long limbs, chest deformities, osteoporosis in childhood - However, distinguish from Marfan by the fact that these patients clot more easily , lens subluxation is not up and out, and have mental deficits [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::13_Summary_of_High_Yield_Disorders_of_Amino_Acid_Metabolism"
+      ]
+    },
+    {
+      "guid": "ykAFTsD;zT",
+      "deck": "AnKing Step Deck",
+      "front": "[ Tyrosine ] is converted to [ dihydroxyphenylalanine (DOPA)] via the enzyme [ tyrosine hydroxylase ] (with [ tetrahydrobiopterin (BH 4 )] as a cofactor)",
+      "raw0": "<div>{{c4::<b>Tyrosine</b>}} is converted to {{c1::<b>dihydroxyphenylalanine</b> (DOPA)}} via the enzyme {{c2::<i><b>tyrosine hydroxylase</b></i>}} (with {{c3::<u>tetrahydrobiopterin</u> (BH<sub>4</sub>)}} as a cofactor)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "y5>:6L&%J0",
+      "deck": "AnKing Step Deck",
+      "front": "[ Dihydroxyphenylalanine (DOPA)] may be converted to [ melanin ] via the enzyme [ tyrosinase ]",
+      "raw0": "<div>{{c3::<b>Dihydroxyphenylalanine </b>(DOPA)}} may be converted to {{c1::<b>melanin</b>}} via the enzyme {{c2::<i><b>tyrosinase</b></i>}} </div>",
+      "back": "- Deficiency of tyrosinase causes albinism - In the melanin synthesis pathway , tyrosinase catalyzes the conversion of DOPA to melanin while tyrosine hydroxylase catalyzes the conversion of tyrosine to DOPA [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "b;^M1~[(TG",
+      "deck": "AnKing Step Deck",
+      "front": "Deficiency of the enzyme [ tyrosinase ] causes [ albinism ]",
+      "raw0": "<div>Deficiency of the enzyme {{c1::<i><b>tyrosinase</b></i>}} causes {{c2::<b>albinism</b>}}</div>",
+      "back": "[img] [img] [img] Photo credit: Felipe Fernandes (1st image) and Muntuwandi (2nd image), CC BY-SA 2.0 , via Wikimedia Commons, modified by censoring eyes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "iVSK3d@]1v",
+      "deck": "AnKing Step Deck",
+      "front": "[ Dihydroxyphenylalanine (DOPA)] may be converted to [ dopamine ] via the enzyme [ DOPA decarboxylase ] (with [ vitamin B 6 ] as a cofactor)",
+      "raw0": "<div>{{c4::<b>Dihydroxyphenylalanine</b> (DOPA)}} may be converted to {{c1::<b>dopamine</b>}} via the enzyme {{c2::<b><i>DOPA decarboxylase</i></b>}} (with {{c3::<u>vitamin B<sub>6</sub></u>}} as a cofactor)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "j&a93qXfd@",
+      "deck": "AnKing Step Deck",
+      "front": "[ Dopamine ] may be converted to [ norepinephrine ] via the enzyme [ dopamine β-hydroxylase ] (with [ vitamin C ] as a cofactor)",
+      "raw0": "<div>{{c4::<b>Dopamine</b>}} may be converted to {{c1::<b>norepinephrine</b>}} via the enzyme {{c2::<b><i>dopamine β-hydroxylase</i></b>}} (with {{c3::<u>vitamin C</u>}} as a cofactor)</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "mup&?FL859",
+      "deck": "AnKing Step Deck",
+      "front": "[ Norepinephrine ] may be converted to [ epinephrine ] via the enzyme [ phenylethanolamine-N-methyltransferase (PNMT)] (with [ SAM ] as a cofactor) and stimulated by [ cortisol ]",
+      "raw0": "<div>{{c3::<b>Norepinephrine</b>}} may be converted to {{c1::<b>epinephrine</b>}} via the enzyme {{c5::<b><i>phenylethanolamine-N-methyltransferase</i></b> (PNMT)}} (with {{c2::<u>SAM</u>}} as a cofactor) and stimulated by {{c4::<b>cortisol</b>}}</div>",
+      "back": "Cortisol stimulates this process (permissive action = thus in settings of stress, epinephrine is made for fight or flight) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "cs8ljxV[eK",
+      "deck": "AnKing Step Deck",
+      "front": "What is the initial breakdown product of epinephrine ? [Metanephrine]",
+      "raw0": "<div>What is the <i>initial</i> breakdown product of <b>epinephrine</b>?</div><br><div>{{c1::Metanephrine}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "bj~~rj$L&,",
+      "deck": "AnKing Step Deck",
+      "front": "Norepinephrine may be broken down into [ normetanephrine ] via the enzyme catechol-O-methyl transferase (COMT)",
+      "raw0": "<b>Norepinephrine</b> may be broken down into {{c1::<b>normetanephrine</b>}} via the enzyme <i><b>catechol-O-methyl transferase (COMT)</b></i>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "quYbv1u;x2",
+      "deck": "AnKing Step Deck",
+      "front": "What is the breakdown product of normetanephrine (from NE) and metanephrine (from EPI)? [Vanillylmandelic acid (VMA)]",
+      "raw0": "<div>What is the breakdown product of <b>normetanephrine</b> (from NE) and <b>metanephrine</b> (from EPI)? </div><br><div>{{c1::Vanillylmandelic acid (VMA)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "LO6/BStghF",
+      "deck": "AnKing Step Deck",
+      "front": "What is the breakdown product of dopamine ? [Homovanillic acid (HVA)]",
+      "raw0": "<div>What is the breakdown product of <b>dopamine</b>?</div><br><div>{{c1::Homovanillic acid (HVA)}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "d[Nk,N1M7|",
+      "deck": "AnKing Step Deck",
+      "front": "Carbamoyl phosphate is combined with [ aspartate ] to form [ orotic acid ] (pyrimidine synthesis)",
+      "raw0": "<div><div><b>Carbamoyl phosphate</b> is combined with {{c1::<b>aspartate</b>}} to form {{c2::<b>orotic acid</b>}} (pyrimidine synthesis)</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "h4yk.%ArRU",
+      "deck": "AnKing Step Deck",
+      "front": "[ Orotic aciduria ] occurs due to the inability to convert orotic acid to UMP due to a defect in the enzyme [ UMP synthase ] (pyrimidine synthesis)",
+      "raw0": "<div><div>{{c1::<b>Orotic aciduria</b>}} occurs due to the <u>inability</u> to convert <b>orotic acid</b> to <b>UMP</b> due to a defect in the enzyme {{c2::<i><b>UMP synthase</b></i>}} (pyrimidine synthesis)</div></div>",
+      "back": "Remember \" U \" : - Orotic acid in U rine - U MP synthase problem - U ridine is the treatment",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "rj%wAY*`Ov",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of orotic aciduria ? [Autosomal recessive]",
+      "raw0": "<div><div>What is the <u>mode of inheritance</u> of <b>orotic aciduria</b>? </div><br><div>{{c1::Autosomal recessive}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "uDHjG{s](L",
+      "deck": "AnKing Step Deck",
+      "front": "[ Orotic aciduria ] presents in children as failure to thrive, developmental delay, and [megaloblastic] anemia refractory to folate and vitamin B 12",
+      "raw0": "<div><div>{{c2::<b>Orotic aciduria</b>}} presents in <i>children</i> as failure to thrive, developmental delay, and {{c1::megaloblastic}} anemia <u>refractory</u> to folate and vitamin B<sub>12</sub></div></div>",
+      "back": "Remember \" U \" : - Orotic acid in U rine - U MP synthase problem - U ridine is the treatment",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "Pto;A?fPe(",
+      "deck": "AnKing Step Deck",
+      "front": "Does orotic aciduria present with hyperammonemia ? [No]",
+      "raw0": "<div><div>Does <u>orotic aciduria</u> present with <b>hyperammonemia</b>?</div><br><div>{{c1::No}}</div></div>",
+      "back": "Important distinguishing feature from OTC deficiency Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "B%]W.]*I}A",
+      "deck": "AnKing Step Deck",
+      "front": "Does orotic aciduria present with decreased BUN ? [No]",
+      "raw0": "<div><div>Does <u>orotic aciduria</u> present with <b>decreased BUN</b>? </div><br><div><div>{{c1::No}}</div></div></div>",
+      "back": "Important distinguishing feature from OTC deficiency Orotic Aciduria vs. Ornithine Transcarbamylase Deficiency Orotic aciduria OTC deficiency Serum / urine orotic acid ↑ ↑ BUN Normal ↓ Hyperammonemia No Yes Megaloblastic anemia Yes No",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "OYKo[q(ObR",
+      "deck": "AnKing Step Deck",
+      "front": "Orotic aciduria is treated with UMP or [ uridine triacetate ] to bypass the mutated enzyme",
+      "raw0": "<div><div><b>Orotic aciduria</b> is treated with <u>UMP</u> or {{c1::<b>uridine triacetate</b>}} to bypass the mutated enzyme</div></div>",
+      "back": "Remember \" U \" : - Orotic acid in U rine - U MP synthase problem - U ridine is the treatment Because UMP synthase is deficient, supplementing the product allows you to bypass the enzyme",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle"
+      ]
+    },
+    {
+      "guid": "I,}oNREhR&",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the cell is the carbamoyl phosphate synthetase I enzyme found? [Mitochondria (urea cycle)]",
+      "raw0": "<div><div><div>Where in the cell is the <i><b>carbamoyl phosphate synthetase I</b> </i>enzyme found?</div><br><div>{{c1::Mitochondria (urea cycle)}}</div></div></div>",
+      "back": "- Important distinguishing feature from carbamoyl phosphate synthetase II (found in cytosol) - \"CPS 1 - m 1 tochondria\" - \"CPS 2 - cy TWOsol \" [img] [img] Photo credit: WikiDoc by Yazan Daaboul , CC BY-SA 3.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "Iw%lZyl]sr",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the cell is the carbamoyl phosphate synthetase II enzyme found? [Cytoplasm (pyrimidine synthesis)]",
+      "raw0": "<div><div>Where in the cell is the <b><i>carbamoyl phosphate synthetase II</i></b> enzyme found?</div><br><div>{{c1::Cytoplasm (pyrimidine synthesis)}}</div></div>",
+      "back": "Important distinguishing feature from carbamoyl phosphate synthetase I, which is found in the mitochondria \"CPS 1 - m I tochondria\" \"CPS 2 - cy TWOsol \" [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "M*d3Gh)yoA",
+      "deck": "AnKing Step Deck",
+      "front": "Thiamine pyrophosphate (B 1 ) is a cofactor for the enzyme [ branched-chain α- ketoacid dehydrogenase ] (amino acid metabolism)",
+      "raw0": "<div><b>Thiamine pyrophosphate</b> (B<sub>1</sub>) is a <u>cofactor</u> for the enzyme {{c1::<i>branched-chain α-</i><i>ketoacid dehydrogenase</i>}} (amino acid metabolism)</div>",
+      "back": "- \" T ender L oving C are F or N ancy\" enzyme - T hiamine pyrophosphate (B 1 ) - L ipoic acid - C oenzyme A (B 5 , pantothenic acid) - F AD (B 2 , riboflavin) - N AD (B 3 , niacin)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "e2-Rv0vOH1",
+      "deck": "AnKing Step Deck",
+      "front": "What vitamin is used as a cofactor for synthesis of glutathione , cystathionine , heme , niacin , histamine , and neurotransmitters ? [Vitamin B 6 (pyridoxal phosphate)]",
+      "raw0": "<div>What <u>vitamin</u> is used as a <i>cofactor</i> for <i>synthesis</i> of <b>glutathione</b>,<b> cystathionine</b>, <b>heme</b>,<b> niacin</b>, <b>histamine</b>, and <b>neurotransmitters</b>?</div><br><div>{{c1::Vitamin B<sub>6</sub> (pyridoxal phosphate)}}<br></div>",
+      "back": "Neurotransmitters include serotonin, epinephrine, norepinephrine, dopamine, and GABA",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "qyBws/>FVu",
+      "deck": "AnKing Step Deck",
+      "front": "Vitamin B 9 (folate) is converted to [ tetrahydrofolate (THF)], a coenzyme for [ 1-carbon ] transfer/methylation reactions",
+      "raw0": "<div><div><div><div><b>Vitamin B<sub>9</sub> </b>(folate) is converted to {{c1::<b>tetrahydrofolate</b> (THF)}}, a coenzyme for {{c2::<u>1-carbon</u>::#}} transfer/methylation reactions </div></div></div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "gq3n=d]99k",
+      "deck": "AnKing Step Deck",
+      "front": "What does the carrier molecule S-adenosylmethionine (SAM) carry in its activated form? [CH 3 groups]",
+      "raw0": "<div><div>What does the <u>carrier molecule</u> <b>S-adenosylmethionine</b> (SAM) carry in its activated form? </div><br><div>{{c1::CH<sub>3</sub> groups}}</div></div>",
+      "back": "AKA a methyl group",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "n;?Hl>=@O-",
+      "deck": "AnKing Step Deck",
+      "front": "[ Pyruvate dehydrogenase ] deficiency causes a buildup of pyruvate that gets shunted to [ lactate ] (via LDH) and [ alanine ] (via ALT)",
+      "raw0": "<div>{{c1::<i><b>Pyruvate dehydrogenase</b></i>}}<i><b> </b></i><b>deficiency</b> causes a <u>buildup of pyruvate</u> that gets shunted to {{c2::<b>lactate</b>}} (via LDH) and {{c3::<b>alanine</b>}} (via ALT)</div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "l|]xUNW|:X",
+      "deck": "AnKing Step Deck",
+      "front": "Pyruvate dehydrogenase deficiency is characterized by [ increased ] serum alanine starting at infancy",
+      "raw0": "<div><b>Pyruvate dehydrogenase deficiency</b> is characterized by {{c1::<u>increased</u>}} serum <b>alanine</b> starting at infancy </div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "HM,@Q^ec,t",
+      "deck": "AnKing Step Deck",
+      "front": "Which amino acid is the precursor to creatine ? [Arginine]",
+      "raw0": "<div><div>Which <u>amino acid</u> is the <i>precursor</i> to <b>creatine</b>? </div><br><div>{{c1::Arginine}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "MkV:M0v!RY",
+      "deck": "AnKing Step Deck",
+      "front": "Cystine is made of two [cysteine] amino acids connected by a disulfide bond",
+      "raw0": "<div><b>Cystine</b> is made of <u>two</u> {{c1::cysteine}} amino acids connected by a disulfide bond</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::01_Amino_Acids_Overview"
+      ]
+    },
+    {
+      "guid": "m7JUy(E*@|",
+      "deck": "AnKing Step Deck",
+      "front": "Pyruvate is converted to [lactate] via the enzyme [ lactate dehydrogenase (LDH) ] (Cori cycle)",
+      "raw0": "<div><div><b>Pyruvate</b> is converted to <b>{{c2::lactate}}</b> via the enzyme {{c1::<b><i>lactate dehydrogenase</i> (LDH)</b>}} (Cori cycle)</div></div>",
+      "back": "- Occurs at the end of anaerobic glycolysis (major pathway in RBCs, WBCs, kidney medulla, lens, testes, and cornea) - Occurs in reverse so that lactate can enter gluconeogenesis [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "Ft{{LY@Clb",
+      "deck": "AnKing Step Deck",
+      "front": "Conversion of pyruvate → lactate (Cori cycle) recycles one molecule of [NAD + ]",
+      "raw0": "Conversion of <b>pyruvate</b> → <b>lactate</b> (Cori cycle) recycles one molecule of {{c1::NAD<sup>+</sup>}}",
+      "back": "NAD+ is generally used as an electron carrier in catabolic processes",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "u,aUNj,>,<",
+      "deck": "AnKing Step Deck",
+      "front": "Does the Cori cycle result in regeneration of NAD + ? [Yes]",
+      "raw0": "<div><div>Does the <u>Cori cycle</u> result in <i>regeneration</i> of <b>NAD</b><sup style=\"font-weight: bold;\">+</sup>? </div><br><div>{{c1::Yes}}</div></div>",
+      "back": "In contrast, the Cahill cycle (alanine cycle) does NOT result in the generation of NAD + [img]",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "D_De4kY^cE",
+      "deck": "AnKing Step Deck",
+      "front": "Pyruvate is converted to [alanine] via the enzyme [ alanine aminotransferase (ALT) ] (Cahill cycle)",
+      "raw0": "<div><div><b>Pyruvate</b> is converted to <b>{{c2::alanine}}</b> via the enzyme {{c1::<b><i>alanine aminotransferase</i> (ALT)</b>}} (Cahill cycle)</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here . [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "mP!^0sgo4H",
+      "deck": "AnKing Step Deck",
+      "front": "Does the Cahill cycle result in regeneration of NAD + ? [No]",
+      "raw0": "<div><div><div>Does the <u>Cahill cycle</u> result in <i>regeneration</i> of <b>NAD</b><sup style=\"font-weight: bold;\">+</sup>? </div><br><div>{{c1::No}}</div></div></div>",
+      "back": "Thus, not favorable during exercise In contrast, the Cori cycle (lactic acid cycle) results in regeneration of NAD + [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles"
+      ]
+    },
+    {
+      "guid": "Aiw(hqOQun",
+      "deck": "AnKing Step Deck",
+      "front": "[Metyrosine] is a tyrosine analog that prevents conversion of tyrosine to L-DOPA",
+      "raw0": "<div>{{c1::Metyrosine}} is a<i> tyrosine analog </i>that <u>prevents</u> conversion of <b>tyrosine</b> to <b>L-DOPA</b><br></div>",
+      "back": "Historical drug, used to treat pheochromocytomas [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "J]Iv`Vz`m>",
+      "deck": "AnKing Step Deck",
+      "front": "Wine and aged cheese contain the sympathomimetic [ tyramine ], which is metabolized by the enzyme [ monoamine oxidase A ]",
+      "raw0": "<div><b>Wine</b> and <b>aged</b> <b>cheese</b> contain the <i>sympathomimetic</i> {{c1::<b>tyramine</b>}}, which is metabolized by the enzyme {{c2::<b>monoamine oxidase A</b>}}<br></div>",
+      "back": "Tyramine may cause hypertensive crisis in patients on MAO inhibitors [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "N@&6:@D56y",
+      "deck": "AnKing Step Deck",
+      "front": "Monoamine oxidase inhibitors can prevent the metabolism of tyramine (e.g., from wine or cheese ingestion), causing a(n) [hypertensive] crisis",
+      "raw0": "<b><i>Monoamine oxidase</i></b> <u>inhibitors</u> can prevent the metabolism of <b>tyramine</b> (e.g., from wine or cheese ingestion), causing a(n) <b>{{c1::hypertensive}} crisis</b>",
+      "back": "- e.g., hypertension, blurry vision, diaphoresis - Tyramine is found in aged foods [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "ys[jQ2#2Zv",
+      "deck": "AnKing Step Deck",
+      "front": "Sickle cell anemia occurs due to a point mutation that substitutes [ glutamic acid ] (hydrophilic) with [ valine ] (hydrophobic)",
+      "raw0": "<div><b>Sickle cell anemia</b> occurs due to a <u>point mutation</u> that substitutes {{c1::<b>glutamic acid</b>}} (hydrophilic) with {{c1::<b>valine</b>}} (hydrophobic) </div>",
+      "back": "Glutamic acid (HbA) is negatively charged; valine (HbS) is neutral [img] Photo credit: Ed Uthman , CC BY 2.0 , via Flickr; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids"
+      ]
+    },
+    {
+      "guid": "EwlV**&TzR",
+      "deck": "AnKing Step Deck",
+      "front": "[ Astrocytes ] are glial cells that are capable of removing excess neurotransmitters",
+      "raw0": "<div>{{c1::<b>Astrocytes</b>}} are <u>glial cells</u> that are capable of <i>removing</i> <b>excess neurotransmitters</b></div>",
+      "back": "- Reuptake and metabolize glutamate and GABA - Astrocytes use NH 3 and glutamate to make glutamine (which is then shuttled to neurons who convert it back to glutamate for neurotransmission) - In hyperammonemia , astrocytes get fed too much NH 3 , and thus they make too much glutamine which causes the astrocytes to swell and become dysfunctional ( depleting glutamate stores ) - Thus GABA is not metabolized and there is an excess of GABA in the CNS (energy supply to other brain cells is decreased) - This results in impaired excitatory neurotransmitter release [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "NB-:5x&=h#",
+      "deck": "AnKing Step Deck",
+      "front": "Degeneration of the neurons of the brainstem and [ basal ganglia ] leads to movement disorders (e.g., Parkinson disease, Huntington disease, etc.)",
+      "raw0": "Degeneration of the neurons of the <u>brainstem</u> and {{c1::<u>basal ganglia</u>}} leads to <b>movement disorders</b> (e.g., Parkinson disease, Huntington disease, etc.)",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "lb,=L#W:}y",
+      "deck": "AnKing Step Deck",
+      "front": "Lewy body dementia is characterized by intracellular Lewy bodies primarily in the [cortex]",
+      "raw0": "<div><b>Lewy body dementia</b> is characterized by intracellular <u>Lewy bodies</u> primarily in the {{c1::cortex::location in the brain}}</div>",
+      "back": "- vs. Parkinson disease, where Lewy bodies are found in the subcortical structures - 2nd most common neurodegenerative disorder (after Alzheimer), shortened life expectancy relative to Alzheimer patients Parkinson-Plus Syndromes Type Dementia with Lewy bodies Multiple system atrophy (MSA) Progressive supranuclear palsy Corticobasal degeneration (CBD) Definition Parkinsonism and dementia < 1 year apart Neurodegeneration of the substantia nigra Neurodegeration of the midbrain-diencephalic junction, cerebellum, and cortex (mildly) Neurodegeneration of cortex and basal ganglia Important Clinical Signs Dementia, Parkinsonism, Visual hallucinations Motor abnormalities, Autonomic dysfunction (incontinence, orthostatic hypotension), cerebellar dysfunction Vertical gaze palsy (esp downward gaze), Postural instability (↑ falls) Alien limb phenomenon (can't recognize own limb), asymmetric motor apraxia Pathology/Imaging Lewy bodies in cortex Hot cross bun sign on MRI Hummingbird sign on MRI Asymmetric cortical atrophy + bilateral basal ganglia atrophy [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "NF,U5$hZo(",
+      "deck": "AnKing Step Deck",
+      "front": "Pepsinogen (inactive) is converted into [ pepsin ] (active) in the presence of [ H + ]",
+      "raw0": "<div><b>Pepsinogen</b> (inactive) is converted into {{c1::<b>pepsin</b>}} (active) in the presence of {{c2::<b>H<sup>+</sup></b>}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "rbjz5NWZw]",
+      "deck": "AnKing Step Deck",
+      "front": "Pepsinogen is secreted in response to [ vagal stimulation ] and [ local H + ]",
+      "raw0": "<div><b>Pepsinogen</b> is secreted in response to {{c1::<b>vagal stimulation</b>}} and {{c2::<b>local H<sup>+</sup></b>}} </div>",
+      "back": "Vagus nerve releases acetylcholine here, ensures that pepsinogen is secreted only when gastric pH is low enough to convert it to pepsin [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "JKmW;$0N)~",
+      "deck": "AnKing Step Deck",
+      "front": "Digestion of protein begins in the stomach with the action of [pepsin]",
+      "raw0": "<div>Digestion of <b>protein</b> begins in the <u>stomach</u> with the action of {{c1::pepsin}}</div>",
+      "back": "Activated by low pH (1-3), inactivated by high pH (> 5)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "oVP:_LrGvD",
+      "deck": "AnKing Step Deck",
+      "front": "The first step in intestinal protein digestion involves activation of [ trypsinogen ] (inactive) to [ trypsin ] (active)",
+      "raw0": "<div>The first step in <u>intestinal</u> <b>protein digestion</b> involves activation of {{c1::<b>trypsinogen</b>}} (inactive) to {{c1::<b>trypsin</b>}} (active)</div>",
+      "back": "This is done via enteropeptidase found in the brush border [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "O|cNc=BXu~",
+      "deck": "AnKing Step Deck",
+      "front": "Trypsinogen is converted to trypsin via [ enteropeptidase ( enterokinase ) ], a brush-border enzyme on duodenal and jejunal mucosa",
+      "raw0": "<div><b>Trypsinogen</b> is converted to <b>trypsin</b> via {{c1::<b>enteropeptidase </b><span style=\"font-style: italic;\">(</span><b style=\"font-style: italic;\">enterokinase</b><span style=\"font-style: italic;\">)</span>}}, a brush-border enzyme on duodenal and jejunal mucosa</div>",
+      "back": "Thus, an enteropeptidase deficiency will result in protein and fat malabsorption [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "xBp_+kM(kT",
+      "deck": "AnKing Step Deck",
+      "front": "Which pancreatic protease cleaves all pancreatic proenzymes to their active forms? [Trypsin]",
+      "raw0": "<div>Which <u>pancreatic protease</u> cleaves <b>all pancreatic proenzymes</b> to their active forms? </div><br><div>{{c1::Trypsin}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "tvEjrMn<Dz",
+      "deck": "AnKing Step Deck",
+      "front": "[ Chymotrypsinogen ] (inactive) is activated to chymotrypsin (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Chymotrypsinogen</b>}} (inactive) is activated to <b>chymotrypsin</b> (active) via <i>trypsin</i></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "p9vyBpTE;.",
+      "deck": "AnKing Step Deck",
+      "front": "[ Proelastase ] (inactive) is activated to elastase (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Proelastase</b>}} (inactive) is activated to <b>elastase</b> (active) via <i>trypsin</i></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "FJv}xiJ(])",
+      "deck": "AnKing Step Deck",
+      "front": "[ Procarboxypeptidase ] (inactive) is activated to carboxypeptidase (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Procarboxypeptidase</b>}} (inactive) is activated to <b>carboxypeptidase</b> (active) via <i>trypsin</i> </div>",
+      "back": "Both carboxypeptidase A and B [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "r<#e8$u@m7",
+      "deck": "AnKing Step Deck",
+      "front": "Trypsin results in [ increased ] cleavage of trypsinogen to trypsin",
+      "raw0": "<div><b>Trypsin</b> results in {{c1::<u>increased</u>::increased or decreased}} cleavage of <b>trypsinogen</b> to <b>trypsin</b></div>",
+      "back": "Positive feedback loop [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "IkM:;[8%K9",
+      "deck": "AnKing Step Deck",
+      "front": "L-amino acids are transported from the intestinal lumen into the cells by [ Na + ] -mediated cotransport",
+      "raw0": "<div><b>L-amino acids</b> are transported from the <u>intestinal lumen</u> into the cells by {{c1::<b>Na<sup>+</sup></b>}}<b>-mediated</b> <b>cotransport</b></div>",
+      "back": "[img] Photo credit: Sonabi, CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "KZP^m=7t.4",
+      "deck": "AnKing Step Deck",
+      "front": "What test(s) is/are used to indirectly assess pancreatic function ? [Serum or fecal elastase]",
+      "raw0": "What <u>test(s)</u> is/are used to <i>indirectly</i> assess <b>pancreatic function</b>?<br><br>\n\n{{c1::Serum or fecal elastase}}",
+      "back": "- Serum elastase elevated = acute pancreatitis - Fecal elastase decreased = limitation of exocrine pancreatic function (e.g., cystic fibrosis and chronic pancreatitis) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "xEqIW[RAe$",
+      "deck": "AnKing Step Deck",
+      "front": "Pancreatic insufficiency is associated with [ decreased ] excretion of fecal elastase",
+      "raw0": "<div><b>Pancreatic insufficiency</b> is associated with {{c1::<u>decreased</u>}} excretion of <u>fecal</u><b> elastase</b></div>",
+      "back": "- Serum elastase elevated = acute pancreatitis - Fecal elastase decreased = limitation of exocrine pancreatic function (e.g., cystic fibrosis and chronic pancreatitis) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption"
+      ]
+    },
+    {
+      "guid": "p+D,)K8Gw$",
+      "deck": "AnKing Step Deck",
+      "front": "What neurotransmitters are decreased in Parkinson disease ? [Dopamine] and [serotonin]",
+      "raw0": "<div><div>What <u>neurotransmitters</u> are <i>decreased</i> in <b>Parkinson disease</b>? </div><br><div>{{c1::Dopamine}} and {{c2::serotonin}}</div></div>",
+      "back": "As Parkinson disease progresses, it eventually degrades the raphe nucleus causing a decrease in serotonin levels [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "x.Usy%_(>E",
+      "deck": "AnKing Step Deck",
+      "front": "[MAO inhibitors] are an effective treatment for atypical depression , but not first-line due to their risk profile",
+      "raw0": "<div><b>{{c1::MAO inhibitors}}</b> are an <u>effective</u> treatment for <b>atypical depression</b>, but not first-line due to their risk profile</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "jK2{}+S_S^",
+      "deck": "AnKing Step Deck",
+      "front": "Which neurotransmitter(s) is/are metabolized by monoamine oxidase A (MAO-A)? [Serotonin, norepinephrine, and dopamine]",
+      "raw0": "<div>Which <u>neurotransmitter(s)</u> is/are metabolized by <b>monoamine oxidase A</b> (MAO-A)?<br></div><br><div>{{c1::Serotonin, norepinephrine, and dopamine}}</div>",
+      "back": "MAO- B breaks down dopamine only",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "r!pwVrKTYC",
+      "deck": "AnKing Step Deck",
+      "front": "Which neurotransmitter(s) is/are metabolized by monoamine oxidase B (MAO-B)? [Dopamine]",
+      "raw0": "<div>Which <u>neurotransmitter(s)</u> is/are metabolized by <b>monoamine oxidase B</b> (MAO-B)?<br></div><br><div>{{c1::Dopamine}}</div>",
+      "back": "MAO- A metabolizes serotonin, norepinephrine, and dopamine",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "cY}s$2O)Zd",
+      "deck": "AnKing Step Deck",
+      "front": "[Tyramine] is a substance found in many aged foods (e.g., cheese, meats, alcohol)",
+      "raw0": "<div><b>{{c1::Tyramine}}</b> is a substance found in many <u>aged</u> foods (e.g., cheese, meats, alcohol)<br></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "B9$|~tbAK4",
+      "deck": "AnKing Step Deck",
+      "front": "Tyramine is metabolized by the enzyme [MAO-A] in the GI tract",
+      "raw0": "<div><b>Tyramine</b> is metabolized by the enzyme {{c1::MAO-A::specific}} in the GI tract<br></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "I+LC;Yr0~,",
+      "deck": "AnKing Step Deck",
+      "front": "In the presence of MAO inhibitors , tyramine enters the circulation and acts as a(n) [sympathomimetic] agent",
+      "raw0": "In the presence of <u>MAO inhibitors</u>, <b>tyramine</b> enters the circulation and acts as a(n) <b>{{c1::sympathomimetic}}</b> <b>agent</b>",
+      "back": "Displaces neurotransmitters (e.g., norepinephrine) from neuronal storage vesicles, increasing sympathetic stimulation [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "j_qD?&atW7",
+      "deck": "AnKing Step Deck",
+      "front": "MAO inhibitors may cause CNS [stimulation]",
+      "raw0": "<div><b>MAO inhibitors</b> may cause <u>CNS</u> {{c1::stimulation::stimulation or depression}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "r!c<He?U,*",
+      "deck": "AnKing Step Deck",
+      "front": "[ Levodopa (L-DOPA)] is a precursor of dopamine that does cross the blood-brain barrier",
+      "raw0": "<div>{{c1::<b>Levodopa</b> (L-DOPA)}} is a <u>precursor of dopamine</u> that <i>does</i> cross the <b>blood-brain barrier</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "fxIW!gCyGA",
+      "deck": "AnKing Step Deck",
+      "front": "Once in the CNS, L-DOPA may be converted to [ dopamine ] via the enzyme [ DOPA decarboxylase ]",
+      "raw0": "Once in the CNS, <b>L-DOPA</b> may be converted to {{c2::<b>dopamine</b>}} via the enzyme {{c1::<i><b>DOPA decarboxylase</b></i>}}",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "e;(M2M}c@I",
+      "deck": "AnKing Step Deck",
+      "front": "[ Carbidopa ] is a peripheral [ DOPA decarboxylase ] inhibitor used to increase the bioavailability of levodopa",
+      "raw0": "<div>{{c1::<b>Carbidopa</b>}} is a <u>peripheral</u> {{c2::<i><b>DOPA decarboxylase</b></i>}}<b> inhibitor</b> used to <i>increase </i>the bioavailability of <b>levodopa</b><br></div>",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "}>SsuN@Bm",
+      "deck": "AnKing Step Deck",
+      "front": "Carbidopa [ decreases ] the peripheral side effects of levodopa",
+      "raw0": "<b>Carbidopa</b> {{c1::<i>decreases</i>}} the <u>peripheral side effects</u> of <b>levodopa</b>",
+      "back": "Carbidopa blocks peripheral conversion of levodopa to dopamine by inhibiting DOPA decarboxylase , therefore reducing adverse effects of peripheral levodopa conversion into dopamine (e.g., nausea or vomiting) [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "E<C<-kv%R_",
+      "deck": "AnKing Step Deck",
+      "front": "Carbidopa [ exacerbates ] the neuropsychiatric side effects of levodopa",
+      "raw0": "<div><b>Carbidopa</b> {{c1::<i>exacerbates</i>}} the <u>neuropsychiatric</u> side effects of <b>levodopa</b><br></div>",
+      "back": "- Carbidopa prevents peripheral conversion of L-DOPA into dopamine → ↑ L-DOPA that reaches the CNS → ↑ central conversion to dopamine b/c carbidopa cannot cross the BBB - However, it decreases the peripheral side effects of levodopa [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "xPtkj>111&",
+      "deck": "AnKing Step Deck",
+      "front": "Dopamine in the CNS may be degraded to [ 3-methoxytyramine (3-MT)] via the enzyme [ catechol-O-methyltransferase (COMT)]",
+      "raw0": "<div><b>Dopamine</b> in the <b>CNS</b> may be <u>degraded</u> to {{c2::<b>3-methoxytyramine</b> (3-MT)}} via the enzyme {{c1::<i><b>catechol-O-methyltransferase</b> </i>(COMT)}}<br></div>",
+      "back": "- Note : in the peripheral circulation , COMT converts DOPA to 3-O-methyldopa (3-OMD) - Degradation to 3- MT is done via co MT",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines"
+      ]
+    },
+    {
+      "guid": "BfRJ&[!uVS",
+      "deck": "AnKing Step Deck",
+      "front": "Dopamine in the CNS may be degraded to [ DOPAC ] via the enzyme [ MAO-B ]",
+      "raw0": "<div><b>Dopamine</b> in the CNS may be <u>degraded</u> to {{c2::<b>DOPAC</b>}} via the enzyme {{c1::<b>MAO-B</b>}}<br></div>",
+      "back": "Compared to dopamine being degraded to 3-MT via the enzyme COMT in the CNS",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "BR1yz{>##}",
+      "deck": "AnKing Step Deck",
+      "front": "Cirrhosis may present with neuropsychiatric symptoms due to increased serum [ ammonia (NH 3 ) ]",
+      "raw0": "<div><b>Cirrhosis</b> may present with <u>neuropsychiatric symptoms</u> due to <i>increased</i> serum {{c1::<b>ammonia (NH<sub>3</sub>)</b>}} </div>",
+      "back": "e.g., mental status changes, asterixis, and eventual coma [img] Video credit: Dr. Robert Laureno , CC BY-SA 4.0 , via Neurosigns.org, used with permission [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "HW}[6lqtrv",
+      "deck": "AnKing Step Deck",
+      "front": "[ Alcoholic ] hepatitis is characterized by elevated liver enzymes with ALT [ < ] AST",
+      "raw0": "<div><div>{{c2::<b>Alcoholic</b>}} <b>hepatitis</b> is characterized by <u>elevated</u> <b>liver enzymes</b> with <b>ALT</b> {{c1::<b>&lt;</b>}} <b>AST</b> </div></div>",
+      "back": "- Usually > 2:1 ratio of AST:ALT with moderate transaminitis (usually <300); important distinguishing feature from other causes of liver damage - A toAST with ALcohol [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine"
+      ]
+    },
+    {
+      "guid": "vx(mEe%V!t",
+      "deck": "AnKing Step Deck",
+      "front": "Atrophy via decrease in cell size may occur via [ubiquitin-proteasome] degradation of cytoskeleton",
+      "raw0": "<div><b>Atrophy</b> via <u>decrease</u> in <b>cell <u>size</u></b> may occur via <b>{{c1::ubiquitin-proteasome}} degradation</b> of <b>cytoskeleton</b></div>",
+      "back": "- The proteasome is an intracellular protein complex that allows for degradation of ubiquitin-tagged proteins (those that are misfolded / unwanted / used up / damaged) - Intermediate filaments of the cytoskeleton are \"tagged\" with ubiquitin and destroyed by proteasomes [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "QVw3K7Rxw{",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is characterized by impaired phagolysosome formation ? [Chédiak-Higashi syndrome]",
+      "raw0": "<div>Which <u>immunodeficiency</u> is characterized by <b>impaired phagolysosome formation</b>? </div><br><div>{{c1::Chédiak-Higashi syndrome}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "FIZCDt/EB?",
+      "deck": "AnKing Step Deck",
+      "front": "Chédiak-Higashi syndrome is caused by a defect in the [ lysosomal trafficking regulator (LYST)] gene, resulting in impaired [ phagolysosome ] formation",
+      "raw0": "<div><b>Chédiak-Higashi syndrome</b> is caused by a defect in the {{c2::<b>lysosomal trafficking regulator</b> (LYST)}} gene, resulting in <i>impaired</i> {{c1::<b>phagolysosome</b>}} <b>formation</b> </div>",
+      "back": "LYST defect results in impaired protein trafficking [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "cgS0[+wa~}",
+      "deck": "AnKing Step Deck",
+      "front": "What cytoskeletal component is impaired in Chédiak-Higashi syndrome ? [Microtubules]",
+      "raw0": "<div>What <u>cytoskeletal component</u><i> </i>is <i>impaired</i> in <b>Chédiak-Higashi syndrome</b>? </div><br><div>{{c1::Microtubules}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "eRjq)255J5",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is associated with albinism ? [Chédiak-Higashi syndrome]",
+      "raw0": "<div>Which <u>immunodeficiency</u> is associated with <b>albinism</b>?</div><br><div>{{c1::Chédiak-Higashi syndrome}}</div>",
+      "back": "- Melanocytes unable to distribute melanin to nearby keratinocytes - Also associated with peripheral neuropathy [img] [img] Photo credit: Hindawi https://www.hindawi.com/journals/crim/2010/967535/ [img] [img] Photo credit: Felipe Fernandes (1st image) and Muntuwandi (2nd image), CC BY-SA 2.0 , via Wikimedia Commons, modified by censoring eyes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "G7f:_P)B2h",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is characterized by giant granules in leukocytes and platelets ? [Chédiak-Higashi syndrome]",
+      "raw0": "<div>Which <u>immunodeficiency</u> is characterized by <b>giant granules in leukocytes</b> and <b>platelets</b>? </div><br><div>{{c1::Chédiak-Higashi syndrome}}</div>",
+      "back": "Due to fusion of granules arising from the Golgi apparatus [img] [img] [img] Photo credit: Gopaal et al. , CC BY 4.0 , via Cureus and Hindawi [ https://www.hindawi.com/journals/crim/2010/967535/ ]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "I0I8S//ewL",
+      "deck": "AnKing Step Deck",
+      "front": "Which immunodeficiency is associated with peripheral neuropathy and progressive neurodegeneration ? [Chédiak-Higashi syndrome]",
+      "raw0": "<div>Which <u>immunodeficiency</u> is associated with <b>peripheral neuropathy</b> and <b>progressive neurodegeneration</b>? </div><br><div>{{c1::Chédiak-Higashi syndrome}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "B2PKwuYH{y",
+      "deck": "AnKing Step Deck",
+      "front": "[ Anti-cyclic citrullinated peptide (anti-CCP)] antibody is specific for [ rheumatoid arthritis ]",
+      "raw0": "<div>{{c1::<b>Anti-cyclic citrullinated peptide</b> (anti-CCP)}} <b>antibody</b> is <u>specific</u> for {{c2::<b>rheumatoid</b> <b>arthritis</b>}}</div>",
+      "back": "- Citrulline is an amino acid (urea cycle) that is incorporated into proteins post-translationally especially during inflammation - Rheumatoid factor (RF) is typically elevated in RA, but is nonspecific - When the patient is anti-CCP (+) it is associated with a more aggressive disease - Female, HLA-DR4, smoking, and rheumatoid factor are other predisposing factors - Joints contain abundant citrullinated type 2 collagen [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "Tq0{]M<e2",
+      "deck": "AnKing Step Deck",
+      "front": "Melanocytes synthesize melanin using the amino acid [tyrosine] as a precursor molecule",
+      "raw0": "<div><b>Melanocytes</b> synthesize <u>melanin</u> using the amino acid {{c1::tyrosine}} as a precursor molecule</div>",
+      "back": "Albinism is due to non-functional tyrosinase [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "A*66vj{1BN",
+      "deck": "AnKing Step Deck",
+      "front": "Which skin disorder is characterized by congenital lack of pigmentation ? [Albinism]",
+      "raw0": "<div>Which <u>skin disorder</u> is characterized by <i>congenital</i> <b>lack of pigmentation</b>?</div><br><div>{{c1::Albinism}}</div>",
+      "back": "[img] [img] Photo credit: Felipe Fernandes (1st image) and Muntuwandi (2nd image), CC BY-SA 2.0 , via Wikimedia Commons, modified by censoring eyes [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "ItK=/tJQA>",
+      "deck": "AnKing Step Deck",
+      "front": "Albinism is associated with increased risk of skin [cancer]",
+      "raw0": "<div><b>Albinism</b> is associated with <u>increased</u> risk of <b>skin {{c1::cancer}}</b> </div>",
+      "back": "Due to decreased protection against UV light [img] [img] Photo credit: Felipe Fernandes (1st image) and Muntuwandi (2nd image), CC BY-SA 2.0 , via Wikimedia Commons, modified by censoring eyes [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "oYn(TIgem&",
+      "deck": "AnKing Step Deck",
+      "front": "What are the agents used to lower NH 3 levels in hepatic encephalopathy ? First-line: [Lactulose] Second-line: [Rifaximin]",
+      "raw0": "What are the <u>agents</u> used to <b>lower NH<sub>3</sub> levels</b> in <u>hepatic encephalopathy</u>?<br><br>\n\nFirst-line: {{c1::Lactulose}}<br>\nSecond-line: {{c1::Rifaximin}}",
+      "back": "- Lactulose converts NH 3 to NH 4 + (non-absorbable) - Rifaximin reduces amount of ammonia-producing bacteria - Neomycin may be used to treat HE",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "kBnwY-%S#w",
+      "deck": "AnKing Step Deck",
+      "front": "Proteasome inhibitors ([ -zomibs ]) are antineoplastics that inhibit cell cycle progression at the [ G2-M phase ]",
+      "raw0": "<div><div>Proteasome inhibitors ({{c2::<b>-zomibs</b>::<b>suffix</b>}}) are antineoplastics that inhibit cell cycle progression at the {{c1::<b>G2-M</b> <b>phase</b>}} </div></div>",
+      "back": "- Includes carfilzomib and bortezomib - \"Car filled with zombies and Bart the zombie\" [img] [img] Photo credit: Lumen learning [ https://courses.lumenlearning.com/suny-osbiology2e/chapter/eukaryotic-translational-and-post-translational-gene-regulation/ ]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "z53p~@7_o=",
+      "deck": "AnKing Step Deck",
+      "front": "[ Ubiquitin ] ation of proteins recruits the [ proteasome ] to degrade them",
+      "raw0": "<div>{{c1::<b>Ubiquitin</b>}}<b>ation</b> of proteins recruits the {{c2::<b>proteasome</b>}} to degrade them</div>",
+      "back": "[img] Photo credit: Lumen learning [ https://courses.lumenlearning.com/suny-osbiology2e/chapter/eukaryotic-translational-and-post-translational-gene-regulation/ ]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "vnHb.z,m)b",
+      "deck": "AnKing Step Deck",
+      "front": "Proteasome inhibitors work best in cancers that mark [pro-apoptotic] proteins to be targeted for degradation too quickly",
+      "raw0": "<div><b>Proteasome inhibitors </b>work best in <u>cancers</u> that mark {{c1::pro-apoptotic}} proteins to be targeted for degradation too quickly</div>",
+      "back": "- e.g., multiple myeloma, mantle cell lymphoma - Proapoptotic factors include BAD / BAX, BAK",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "A0_=Uys_(D",
+      "deck": "AnKing Step Deck",
+      "front": "Proteasome inhibitors are used to treat [ multiple myeloma ] and [ mantle cell lymphoma ]",
+      "raw0": "<div><b>Proteasome inhibitors </b>are used to treat {{c1::<b>multiple myeloma</b>}} and {{c2::<b>mantle cell lymphoma</b>}}</div>",
+      "back": "- e.g., bortezomib, carfilzomib - Multiple myeloma is a malignant proliferation of plasma cells in the bone marrow - Mantle cell lymphoma is a malignant proliferation of naive CD5+ B cells",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "gKTeo9*L/f",
+      "deck": "AnKing Step Deck",
+      "front": "The ubiquitin-proteasome system is recruited in response to [ damaged ] proteins as a result of cellular stress",
+      "raw0": "The <b>ubiquitin-proteasome system</b> is recruited in response to {{c1::<b>damaged</b>}}<b> </b>proteins as a result of cellular stress",
+      "back": "- This could also include misfolded / old or \"done\" - Here, \"done\" means that the protein has completed its task (e.g., CDK-Cyclin complexes) - An example of a misfolded protein targeted for the proteasome is the misfolded CFTR protein in cystic fibrosis [img] Photo credit: Антоненко Світлана , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "Q4{Hj04Au2",
+      "deck": "AnKing Step Deck",
+      "front": "What is the major gluconeogenic amino acid in the liver? [Alanine]",
+      "raw0": "What is the major <b>gluconeogenic</b> <b>amino</b> <b>acid</b> in the liver? <br><br><div>{{c1::Alanine}}</div>",
+      "back": "- Alanine is converted to pyruvate by alanine aminotransferase during gluconeogenesis - Alanine, glutamine, lactate, and G3P are the major substrates for gluconeogenesis",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine"
+      ]
+    },
+    {
+      "guid": "w}z+SX7MWd",
+      "deck": "AnKing Step Deck",
+      "front": "Alanine is converted to [pyruvate] by alanine aminotransferase (ALT) during the process of gluconeogenesis",
+      "raw0": "<b>Alanine</b> is converted to {{c1::pyruvate}} by <i>alanine aminotransferase</i> (ALT) during the process of <b>gluconeogenesis</b>",
+      "back": "Alanine, glutamine, lactate, and G3P are the major substrates for gluconeogenesis [img] Image licensed by Physeo and used with permission. Purchase full access here . [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine"
+      ]
+    },
+    {
+      "guid": "kKuEyBfvfn",
+      "deck": "AnKing Step Deck",
+      "front": "What three treatments for hyperammonemia act by reacting with glycine / glutamine , forming products that are renally excreted ? - [Benzoate] - [Phenylacetate] - [Phenylbutyrate]",
+      "raw0": "What three <u>treatments</u> for <b>hyperammonemia</b> act by <i>reacting</i> with <u>glycine</u> / <u>glutamine</u>, forming products that are <b>renally excreted</b>? <br><br>- {{c1::Benzoate}}<br>- {{c1::Phenylacetate}}<br>- {{c1::Phenylbutyrate}}",
+      "back": "In hyperammonemia, astrocytes take up excess ammonia to make glutamine → osmotic induced dysfunction prevents astrocytes from reuptaking neurotransmitters",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::07_Urea_Cycle_Hyperammonemia_Ornithine_Transcarbamylase(OTC)_Deficiency"
+      ]
+    },
+    {
+      "guid": "JF#IbeK*Ve",
+      "deck": "AnKing Step Deck",
+      "front": "The amino acid [ asparagine ] is essential for rapidly dividing tumor cells",
+      "raw0": "The amino acid {{c1::<b>asparagine</b>}} is essential for <u>rapidly dividing tumor cells</u>",
+      "back": "Thus certain chemotherapeutic regimens will include asparaginase",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics"
+      ]
+    },
+    {
+      "guid": "E)Ari&edMe",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with phenylketonuria develop hypopigmentation of what brain nuclei? [Catecholaminergic brain nuclei]",
+      "raw0": "Patients with <b>phenylketonuria</b> develop <u>hypopigmentation</u> of what brain nuclei?<br><br><div>{{c1::Catecholaminergic brain nuclei}}</div>",
+      "back": "The substantia nigra, locus coeruleus, and vagal nucleus dorsalis/dorsal vagal nucleus produce the dark pigment neuromelanin that is absent in phenylketonuria patients",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::29_Phenylketonuria"
+      ]
+    },
+    {
+      "guid": "Q`CIg#d7Ej",
+      "deck": "AnKing Step Deck",
+      "front": "Most disorders of the urea cycle require [arginine] as an essential amino acid, particularly during episodes of hyperammonemia",
+      "raw0": "Most disorders of the <b>urea cycle </b>require {{c1::arginine}} as an essential amino acid, particularly during episodes of <u>hyperammonemia</u>",
+      "back": "When these patients develop hyper ammonemia , arginine is administered for production of downstream water-soluble intermediates (e.g., ornithine, citrulline) that lead to nitrogen disposal and decreased plasma ammonia levels [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle::*Urea_Cycle_Disorders::Basics",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::25_Hyperammonemia"
+      ]
+    },
+    {
+      "guid": "lDt<zHu5**",
+      "deck": "AnKing Step Deck",
+      "front": "What is the work-up for phenylketonuria ? [Check phenylalanine levels (on newborn screen or quantitative amino acid analysis )]",
+      "raw0": "What is the <i>work-up</i> for <b>phenylketonuria</b>?<br><br><div>{{c1::Check phenylalanine levels (on <b>newborn screen</b> or <b>quantitative amino acid analysis</b>)::2}}</div>",
+      "back": "- Shows increased phenylalanine levels since these patients cannot break down phenylalanine - Most patients are diagnosed at birth through newborn screening but others may be diagnosed later via a quantitative amino acid analysis [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "Px>]6BrhpY",
+      "deck": "AnKing Step Deck",
+      "front": "What is the treatment for phenylketonuria (PKU)? [Decrease phenylalanine in diet] and [increase tyrosine content]",
+      "raw0": "What is the <u>treatment</u> for <b>phenylketonuria</b> (PKU)?<br><br>{{c1::Decrease phenylalanine in diet}} and {{c1::increase tyrosine content}}",
+      "back": "- In addition to supplementation of BH 4 in malignant phenylketonuria - Avoid aspartame, an artificial sweetener that contains phenylalanines [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::04_Inborn_Errors_Amino_Acid_Metabolism_Phenylketonuria_(PKU)"
+      ]
+    },
+    {
+      "guid": "K%F^osER0W",
+      "deck": "AnKing Step Deck",
+      "front": "Anti-CCP > anti-RF antibodies is suggestive of [rheumatoid arthritis]",
+      "raw0": "Anti-CCP &gt; anti-RF antibodies is suggestive of {{c1::rheumatoid arthritis::diagnosis}}",
+      "back": "- CCP is better - Anti-CCP = anti-cyclic citrullinated peptide",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra"
+      ]
+    },
+    {
+      "guid": "EoI/+2({bs",
+      "deck": "AnKing Step Deck",
+      "front": "Phenylketonuria screening should be done at what age ? [Newborn screening]",
+      "raw0": "<b>Phenylketonuria screening</b> should be done at what <u>age</u>?<br><br><div>{{c1::Newborn screening}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "p>iX<dwJY9",
+      "deck": "AnKing Step Deck",
+      "front": "Oculocutaneous albinism (OCA) is inherited in a(n) [autosomal recessive] fashion",
+      "raw0": "<b>Oculocutaneous albinism</b> (OCA)<b> </b>is inherited in a(n) {{c1::autosomal recessive}} fashion",
+      "back": "vs. ocular albinism which is X-linked recessive Presents with: - White skin and hair - Translucent iris - Absent/hypoplastic fovea - ↓ optic nerve development Iris transillumination: [img] Photo credit: Power et al. , CC BY 4.0 , via Orphanet Journal of Rare Diseases Foveal hypoplasia: [img] Photo credit: Sajid et al. , CC BY 4.0 , via MDPI Genes",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "hY(<|m@J1t",
+      "deck": "AnKing Step Deck",
+      "front": "Ocular albinism is inherited in a(n) [X-linked recessive] fashion",
+      "raw0": "<b>Ocular albinism</b> is inherited in a(n) {{c1::X-linked recessive}} fashion",
+      "back": "vs. oculocutaneous albinism which is autosomal recesssive [img]",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine::Extra"
+      ]
+    },
+    {
+      "guid": "JU?wB4GD^@",
+      "deck": "AnKing Step Deck",
+      "front": "Dysfunction of the hypothalamus leads to [ increased ] prolactin levels",
+      "raw0": "Dysfunction of the <b>hypothalamus</b> leads to {{c1::<u>increased</u>}} <b>prolactin levels</b>",
+      "back": "Due to decreased dopamine → decreased inhibition of prolactin secretion from anterior pituitary [img] Photo credit: Ahmed Afifi license CC",
+      "tags": [
+        "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine"
+      ]
+    },
+    {
+      "guid": "ckmt!0~B1_",
+      "deck": "AnKing Step Deck",
+      "front": "If parkinsonism predates cognitive impairment by > 1 year, this is suggestive of [ Parkinson disease dementia ]",
+      "raw0": "If <b>parkinsonism </b>predates <b>cognitive impairment</b> by &gt; 1 year, this is suggestive of {{c1::<b>Parkinson disease dementia</b>::Lewy body dementia or Parkinson disease dementia}}",
+      "back": "[img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    },
+    {
+      "guid": "d]bn#!OE?4",
+      "deck": "AnKing Step Deck",
+      "front": "If cognitive impairment predates parkinsonism , this is suggestive of [Lewy body dementia]",
+      "raw0": "If <b>cognitive impairment</b> predates <b>parkinsonism</b>, this is suggestive of {{c1::Lewy body dementia::Lewy body dementia or Parkinson disease dementia}}",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome"
+      ]
+    }
+  ]
+}
