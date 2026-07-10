@@ -193,11 +193,7 @@ Davi lê email antes de revisar os cards
 Cards voltam à fila com mecanismo entendido
 ```
 
-**Resultado no email:** 2 parágrafos por card em voz NEBLI:
-- §1 — o que o card testa e por que é verdade (causa→mecanismo→consequência)
-- §2 — contexto: por que importa, ligação com o bloco `NEBLI::<slug>` da aula
-
----
+(O formato dos 2 parágrafos do email está descrito em § Bandeiras → Vermelha.)
 
 ---
 
