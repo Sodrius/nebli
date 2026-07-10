@@ -32,7 +32,15 @@ $msg = "auto: $ts -- $($nomes -join ', ')$extra"
 git add -A 2>&1 | Out-Null
 git -c user.name='Davi Sousa' -c user.email='dpbdes@gmail.com' commit -m $msg 2>&1 | Out-Null
 
+# Push automatico para o remoto (origin, branch atual). Canonico 2026-07-10.
+# Silencioso: se nao houver rede/credencial/remoto, o commit local ja esta
+# feito e o proximo turno tenta empurrar de novo. Nunca bloqueia o turno.
+$hasRemote = git remote 2>$null
+if ($hasRemote) {
+    git push origin HEAD 2>&1 | Out-Null
+}
+
 # Se quiser ver no terminal que o hook rodou, descomentar:
-# Write-Host "[auto-commit] $msg"
+# Write-Host "[auto-commit push] $msg"
 
 exit 0
