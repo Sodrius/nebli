@@ -137,6 +137,24 @@ Para equilibrar recall e custo de tokens:
 
 ---
 
+## Regras de busca e admissão de cards (canônico 2026-07-11)
+
+Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vivo**. Nasce do diagnóstico de que a curadoria antiga ficou ruim por **lacunas fantasma**: `buscar_tags_lote.py` casava a keyword contra o **caminho da tag** num export estático, então reparo/conjugação/mismatch davam 0 mesmo cobertos pelo AnKing.
+
+**B1 — Buscar por CONTEÚDO, não por caminho de tag.** Camada 1 nova = `descobrir_cards_por_conceito.py <slug>`: para cada conceito da checklist, `findNotes` sobre o **texto real do card** (via AnkiConnect), coleta as tags das notas que casam e devolve as subárvores candidatas ranqueadas. Acha o card **onde ele mora** (mata a lacuna tipo-b: existe no AnKing mas fora da subárvore que o curador lembrou). Filtro IDF descarta tokens comuns (factor/base/mutation) e filtro de meta-tags tira `#Low/HighYield`, `#OME_banner`, IDs AMBOSS/NBME. **Limite conhecido:** busca por keyword sofre de **polissemia** ("repair" casa hérnia/osso) — o relatório é *recall-orientado* (candidatas), a Camada 2 (leitura card-a-card) faz a precisão. Confirmação de lacuna real = probe do **termo distintivo** (`findNotes "photolyase"` = 0 → lacuna de verdade). A busca semântica por embeddings é o conserto definitivo da polissemia (ver `flashcards/PLANO-PESQUISA-CARDS-IA.md`).
+
+**B2 — Gate absoluto (implementa R1 como gate, canônico 2026-07-11).** Nenhum card entra no deck-aula se seu conceito não está na E1. No pipeline canônico o aprofundamento entra **pela E1** (AnKing propõe → Orquestrador injeta 1-3 frases → vira card). **Sem etapa de E1 (deck de PDF pronto): só o que já está na E1.** Ver `CLAUDE.md` § GATE ABSOLUTO DO DECK-AULA.
+
+**B3 — Dosagem de conteúdo periférico (flexibilidade do Orquestrador).** É **responsabilidade do Orquestrador** não lotar o deck (nem a E1) com conceitos periféricos — overload de cards que o Davi não consegue aprender, ou de conteúdo na E1. Um periférico (aprofundamento que o AnKing propõe e a E1 ainda não tem) só vale a injeção-na-E1 → card quando passa nos **dois** testes:
+   1. **Altamente relacionado** — nota **≥ 8 de 0 a 10** de proximidade ao conteúdo da aula. Não é "toca no tema"; é "é o mesmo mecanismo, uma camada abaixo".
+   2. **Baixa carga de pré-requisito** — o Davi entende sem ter que aprender vários conceitos laterais antes. Se para encaixar o card ele precisa de scaffolding próprio (um tópico novo do zero), **não vale** — é FORA.
+
+**B4 — Aprofundamento clínico: poucos e naturais.** Alguns (não muitos) cards de aprofundamento clínico aumentam a base do Davi e valem a pena — mas **só** quando o conteúdo caberia na E1 **de forma muito natural** (mesmo parágrafo, mesmo mecanismo). Clínica que exige seu próprio enredo é FORA. O calibre continua Step 1, nunca Step 2 (R7).
+
+**B5 — Menos é mais, sempre (reafirma R10).** Em conflito entre cobrir a cauda periférica e não inflar, cobre bem o núcleo e para. Deck enxuto 100% ancorado na E1 vence deck grande com periferia. O Orquestrador dosa — o peso do tema (R11) rege quanto cada subtópico ocupa.
+
+---
+
 ## Bandeiras
 
 ### Vermelha (flag:1) — "me explique este card"
