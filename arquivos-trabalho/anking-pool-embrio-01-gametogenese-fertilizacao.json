@@ -1,0 +1,1185 @@
+{
+  "slug": "embrio-01-gametogenese-fertilizacao",
+  "gerado_em": "2026-07-11",
+  "tags_consulta": [
+    "#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+    "#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+    "#FirstAid::15_Repro::03_Physiology::04_Oogenesis",
+    "#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction",
+    "#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis",
+    "#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+  ],
+  "regex": null,
+  "n_cards": 110,
+  "cards": [
+    {
+      "guid": "L/.-MA<S[v",
+      "deck": "AnKing Step Deck",
+      "front": "How does GHRH affect its own secretion from the hypothalamus? [Decreases (ultrashort-loop negative feedback)]",
+      "raw0": "<div>How does <b>GHRH</b> affect its own secretion from the hypothalamus?</div><br><div>{{c1::Decreases (ultrashort-loop <b>negative</b> feedback)}}</div>",
+      "back": "[img] Photo credit: Frontiersin [ Frontiers | Growth Hormone Receptor Regulation in Cancer and Chronic Diseases (frontiersin.org) ]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "w0cUEJx@.f",
+      "deck": "AnKing Step Deck",
+      "front": "The male gonads consist of three cell types: [germ] cells, [Sertoli] cells, and [Leydig] cells",
+      "raw0": "<div>The <b>male gonads</b> consist of <u>three</u> cell types: {{c1::germ}} cells, {{c1::Sertoli}} cells, and {{c1::Leydig}} cells</div>",
+      "back": "- Sertoli cells are non-germ cells , whereas Leydig cells are endocrine cells - Sertoli = epithelium - Leydig = mesenchyme",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "sh-a:`HY)+",
+      "deck": "AnKing Step Deck",
+      "front": "The germ cells of the male gonads produce [spermatogonia]",
+      "raw0": "<div>The <b>germ</b> <b>cells</b> of the <b>male gonads</b> produce {{c1::spermatogonia}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Cau@e<>cZ1",
+      "deck": "AnKing Step Deck",
+      "front": "The [ Sertoli ] cells of the male gonads synthesize a glycoprotein called [ anti-Müllerian hormone ], which prevents the development of female internal genitalia",
+      "raw0": "<div>The {{c2::<b>Sertoli</b>}}<b> cells</b> of the <b>male gonads</b> synthesize a glycoprotein called {{c1::<b>anti-Müllerian hormone</b>}}, which prevents the development of female internal genitalia</div>",
+      "back": "Thus this is critical for the development of male genitalia [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "d#d7s7X$d;",
+      "deck": "AnKing Step Deck",
+      "front": "The [ Leydig ] cells of the male gonads synthesize [ testosterone ]",
+      "raw0": "<div>The {{c2::<b>Leydig</b>}}<b> cells</b> of the <b>male gonads</b> synthesize {{c1::<b>testosterone</b>}} </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "iRUT}fV=Du",
+      "deck": "AnKing Step Deck",
+      "front": "The female gonads consist of three cell types: [germ] cells, [granulosa] cells, and [theca] cells",
+      "raw0": "<div>The <b>female gonads</b> consist of <u>three</u> cell types: {{c1::germ}} cells, {{c1::granulosa}} cells, and {{c1::theca}} cells</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "d+,Y@`RsiI",
+      "deck": "AnKing Step Deck",
+      "front": "The germ cells of the female gonads produce [oogonia]",
+      "raw0": "<div>The <b>germ cells</b> of the <b>female gonads </b>produce {{c1::oogonia}}</div>",
+      "back": "The meiotic oogonia are surrounded by granulosa cells and stroma, where they are referred to as oocytes",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "g%?pqV>1T*",
+      "deck": "AnKing Step Deck",
+      "front": "The theca cells and granulosa cells , together, synthesize [ estradiol (estrogen) ]",
+      "raw0": "<div>The <b>theca cells</b> and <b>granulosa cells</b>, together, synthesize {{c1::<b>estradiol (estrogen)</b>}}</div>",
+      "back": "- LH stimulates theca cells to secrete androstenedione, which enters granulosa cells - Granulosa cells are stimulated by FSH to convert androstenedione to estradiol via aromatase",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "ez3ZtiS<;F",
+      "deck": "AnKing Step Deck",
+      "front": "80% of the adult testis is composed of [ seminiferous tubules ], which produce the sperm",
+      "raw0": "<b>80% </b>of the adult <b>testis</b> is composed of {{c1::<b>seminiferous tubules</b>}}, which produce the <b>sperm</b>",
+      "back": "Patients who have undergone unilateral orchiectomy maintain sexual function due to hyperplasia of testosterone-producing Leydig cells in the remaining testicle, but loss of seminiferous tubules is not compensated and results in significant decrease in sperm counts [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "NxUw]HywFX",
+      "deck": "AnKing Step Deck",
+      "front": "20% of the adult testis is composed of connective tissue interspersed with [ Leydig ] cells , which synthesize and secrete testosterone",
+      "raw0": "<div><div><b>20% </b>of the adult <b>testis</b> is composed of connective tissue interspersed with {{c1::<b>Leydig</b>}}<b> cells</b>, which synthesize and secrete <b>testosterone</b> </div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "cC&zl#a*#u",
+      "deck": "AnKing Step Deck",
+      "front": "[ Germ ] cells (spermatogonia) maintain the germ pool and produce primary spermatocytes",
+      "raw0": "<div><div>{{c1::<b>Germ</b>}}<b> cells</b> (spermatogonia) maintain the germ pool and produce <b>primary spermatocytes </b></div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "BUbtVSaZ0e",
+      "deck": "AnKing Step Deck",
+      "front": "[ Sertoli ] cells (males) secrete [ inhibin B ], which serves to inhibit [ FSH ] secretion",
+      "raw0": "<div><div>{{c3::<b>Sertoli</b>}}<b> cells</b> (males) secrete {{c1::<b>inhibin B</b>::<b>specific</b>}}, which serves to inhibit {{c2::<b>FSH</b>}} secretion</div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "q>)XcWzok8",
+      "deck": "AnKing Step Deck",
+      "front": "[ Sertoli ] cells secrete [ androgen-binding protein ] which serves to maintain local levels of testosterone",
+      "raw0": "<div><div>{{c2::<b>Sertoli</b>}}<b> cells</b> secrete {{c1::<b>androgen-binding protein</b>}} which serves to <b>maintain local levels of testosterone</b></div></div>",
+      "back": "Binds testosterone and DHT, making these hormones less lipophilic and reducing diffusion out of the luminal fluid",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "G*eMf=@bFj",
+      "deck": "AnKing Step Deck",
+      "front": "[ Tight junctions ] between adjacent [ Sertoli ] cells form the [ blood-testis ] barrier , which isolates gametes from autoimmune attack",
+      "raw0": "<div><div>{{c1::<b>Tight junctions</b>}} between adjacent {{c3::<b>Sertoli</b>}}<b> cells</b> form the {{c2::<b>blood-testis</b>}}<b> barrier</b>, which isolates gametes from autoimmune attack</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "NZfG]J]:L+",
+      "deck": "AnKing Step Deck",
+      "front": "[ Sertoli ] cells function to support and nourish developing spermatogonia",
+      "raw0": "<div><div>{{c1::<b>Sertoli</b>}}<b> cells</b> function to <b>support</b> and <b>nourish</b> developing spermatogonia </div></div>",
+      "back": "Secrete androgen-binding protein (ABP) which maintains levels of testosterone in the seminiferous tubules",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "MBY-_/-4PN",
+      "deck": "AnKing Step Deck",
+      "front": "[ Sertoli ] cells are the homolog of female [ granulosa ] cells",
+      "raw0": "<div><div>{{c1::<b>Sertoli</b>}}<b> cells</b> are the homolog of female {{c2::<b>granulosa</b>}}<b> cells</b> </div></div>",
+      "back": "Support/epithelial cells",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "oL0BCBUeq,",
+      "deck": "AnKing Step Deck",
+      "front": "Which cell type of the seminiferous tubule regulates spermatogenesis ? [Sertoli cells]",
+      "raw0": "<div><div>Which cell type of the <b>seminiferous tubule</b> regulates <b>spermatogenesis</b>?</div><br><div>{{c1::Sertoli cells}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "z?4Dj%t4ZB",
+      "deck": "AnKing Step Deck",
+      "front": "Leydig cells secrete [ testosterone ] in the presence of [ LH ]",
+      "raw0": "<div><div><b>Leydig cells</b> secrete {{c1::<b>testosterone</b>}} in the presence of {{c2::<b>LH</b>}} </div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "QIJ176G]%8",
+      "deck": "AnKing Step Deck",
+      "front": "Male [ Leydig ] cells are the homolog of female [ theca ] cells",
+      "raw0": "<div>Male {{c1::<b>Leydig</b>}}<b> cells</b> are the homolog of female {{c2::<b>theca</b>}}<b> cells</b> </div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "e#B_ZD:3^R",
+      "deck": "AnKing Step Deck",
+      "front": "What is the location of germ cells and Sertoli cells in relation to the seminiferous tubules ? [Form the lining ]",
+      "raw0": "<div>What is the location of <b>germ cells</b> and <b>Sertoli cells</b> in relation to the <b>seminiferous tubules</b>? </div><br><div>{{c1::Form the <u>lining</u>}}</div>",
+      "back": "vs Leydig cells in the interstitium",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Mf|@piWaaM",
+      "deck": "AnKing Step Deck",
+      "front": "What is the location of Leydig cells in relation to the seminiferous tubules ? [Present in the interstitium ]",
+      "raw0": "<div>What is the location of <b>Leydig cells</b> in relation to the <b>seminiferous tubules</b>?</div><br><div>{{c1::Present in the <u>interstitium</u>}}</div>",
+      "back": "vs Sertoli cells within the seminiferous tubules",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "k<|HM#qs_S",
+      "deck": "AnKing Step Deck",
+      "front": "The first stage of spermatogenesis is [ DNA replication (interphase) ] of [ spermatogonia ] to generate the [ primary spermatocytes ]",
+      "raw0": "The first stage of <b>spermatogenesis</b> is {{c1::<b>DNA replication</b> <b>(interphase)</b>}} of {{c2::<b>spermatogonia</b>}} to generate the {{c2::<b>primary spermatocytes</b>}}",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Bf5,r3%2Hi",
+      "deck": "AnKing Step Deck",
+      "front": "After the primary spermatocyte has been formed, it undergoes [ meiosis I ] to become a(n) [ secondary spermatocyte ]",
+      "raw0": "<div>After the <b>primary spermatocyte</b> has been formed, it undergoes {{c1::<b>meiosis I</b>}} to become a(n) {{c2::<b>secondary spermatocyte</b>}}</div>",
+      "back": "At this stage, the spermatocyte goes from diploid to haploid [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "wJ{B#0MoH{",
+      "deck": "AnKing Step Deck",
+      "front": "After the secondary spermatocyte has been formed, it undergoes [ meiosis II ] to become a(n) [ spermatid ]",
+      "raw0": "<div>After the <b>secondary spermatocyte</b> has been formed, it undergoes {{c1::<b>meiosis II</b>}} to become a(n) {{c2::<b>spermatid</b>}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "A%)86f+bP]",
+      "deck": "AnKing Step Deck",
+      "front": "After spermatids have been formed from secondary spermatocytes, they undergo [ spermiogenesis ] to form [ spermatozoa ]",
+      "raw0": "<div>After <b>spermatids</b> have been formed from secondary spermatocytes, they undergo {{c1::<b>spermiogenesis</b>}} to form {{c2::<b>spermatozoa</b>}} </div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "DYAFzg+)<.",
+      "deck": "AnKing Step Deck",
+      "front": "What changes occur during the process of spermiogenesis ? - Loss of [cytoplasmic contents] - Gain of a(n) [acrosomal] cap - Development of a(n) [flagellum]",
+      "raw0": "<div>What changes occur during the process of <b>spermiogenesis</b>? </div><br><div> - Loss of {{c1::cytoplasmic contents}}</div><div> - Gain of a(n) {{c1::acrosomal}} cap</div><div> - Development of a(n) {{c1::flagellum}} </div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Lu1|m:&.>-",
+      "deck": "AnKing Step Deck",
+      "front": "After which stage of spermatogenesis does the diploid sperm become haploid ? [Meiosis I (primary spermatocyte to secondary spermatocyte)]",
+      "raw0": "<div>After which stage of <b>spermatogenesis</b> does the <b>diploid</b> sperm become <b>haploid</b>?</div><br><div>{{c1::Meiosis I (primary spermatocyte to secondary spermatocyte)}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "r*HBaQ&UgP",
+      "deck": "AnKing Step Deck",
+      "front": "One full cycle of spermatogenesis takes [64] days",
+      "raw0": "<div>One full cycle of <b>spermatogenesis</b> takes <b>{{c1::64}} days</b></div>",
+      "back": "Cycle mediated by temporal organization via a spermatogenic wave [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "p}[@+3rcio",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the testis does spermatogenesis occur? [Seminiferous tubules]",
+      "raw0": "<div>Where in the testis does <b>spermatogenesis</b> occur?</div><br><div>{{c1::Seminiferous tubules}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "s#jx0|$[*T",
+      "deck": "AnKing Step Deck",
+      "front": "The pathway of sperm during ejaculation may be remembered with the mnemonic [ SEVEN UP ]",
+      "raw0": "The <u>pathway of sperm</u> during <i>ejaculation</i> may be remembered with the mnemonic {{c1::<b>SEVEN UP</b>}}",
+      "back": "S eminiferous tubules E pididymis V as deferens E jaculatory ducts (receives vas deferens and seminal vesicle) ( N othing) U rethra P enis",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "kvM1#WcZ_[",
+      "deck": "AnKing Step Deck",
+      "front": "The pathway of sperm during ejaculation may be remembered with the mnemonic \" SEVEN UP \": [ S eminiferous tubules] [ E pididymis] [ V as deferens] [ E jaculatory ducts (receives vas deferens and seminal vesicle)] ( N othing) [ U rethra] [ P enis]",
+      "raw0": "<div>The <u>pathway of sperm</u> during <i>ejaculation</i> may be remembered with the mnemonic \"<b>SEVEN UP</b>\":</div><br><div><div class=\"mnemonics\"><div>{{c1::<u><b>S</b></u>eminiferous tubules::<b>S</b>}}</div><div><div>{{c1::<u><b>E</b></u>pididymis::<b>E</b>}}</div><div>{{c1::<u><b>V</b></u>as deferens::<b>V</b>}}</div><div>{{c1::<u><b>E</b></u>jaculatory ducts (receives vas deferens and seminal vesicle)::<b>E</b>}}</div><div>(<u><b>N</b></u>othing)</div><br><div>{{c1::<u><b>U</b></u>rethra::<b>U</b>}}</div><div>{{c1::<u><b>P</b></u>enis::<b>P</b>}}</div></div></div></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "uD9w^-IB`>",
+      "deck": "AnKing Step Deck",
+      "front": "The primary location for the maturation and storage of sperm is the [ epididymis ]",
+      "raw0": "<div>The primary location for the <b>maturation</b> and <b>storage</b> of sperm is the {{c1::<b>epididymis</b>}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "A!=%lG#K)~",
+      "deck": "AnKing Step Deck",
+      "front": "The seminal vesicles secrete a fluid rich in [ fructose ], citrate , prostaglandins , and fibrinogen , which are nutritive for the ejaculated sperm",
+      "raw0": "<div>The <b>seminal vesicles</b> secrete a fluid rich in {{c1::<b>fructose</b>}}, <b>citrate</b>, <b>prostaglandins</b>, and <b>fibrinogen</b>, which are <b>nutritive</b> for the ejaculated sperm </div>",
+      "back": "Also alkaline fluid",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "dL0Y^7yGc",
+      "deck": "AnKing Step Deck",
+      "front": "The [ prostate ] gland adds a slightly alkaline secretion to sperm ejaculate, which is rich in citrate , calcium , and enzymes",
+      "raw0": "<div>The {{c1::<b>prostate</b>}}<b> gland</b> adds a slightly <u>alkaline</u> secretion to sperm ejaculate, which is rich in <b>citrate</b>, <b>calcium</b>, and <b>enzymes</b></div>",
+      "back": "Majority of semen's alkaline fluid is secreted by the seminal vesicles",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "fxiXfMf+My",
+      "deck": "AnKing Step Deck",
+      "front": "Hypothalamic control of spermatogenesis and testosterone secretion is regulated via the hormone [GnRH]",
+      "raw0": "<b>Hypothalamic</b> <b>control</b> of <u>spermatogenesis</u> and <u>testosterone secretion</u> is regulated via the hormone {{c1::GnRH}}",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "j{t5b9JumV",
+      "deck": "AnKing Step Deck",
+      "front": "Pulsatile secretion of GnRH stimulates the anterior pituitary to secrete [ FSH ] and [ LH ]",
+      "raw0": "<div><u>Pulsatile</u> secretion of <b>GnRH</b> stimulates the <b>anterior pituitary</b> to secrete {{c1::<b>FSH</b>}} and {{c1::<b>LH</b>}} </div>",
+      "back": "In contrast, continuous GnRH inhibits FSH and LH secretion",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "kfX1>{WZV.",
+      "deck": "AnKing Step Deck",
+      "front": "Anterior pituitary control of spermatogenesis and testosterone secretion is regulated via the hormones [FSH] and [LH], respectively",
+      "raw0": "<div><b>Anterior pituitary control</b> of <u>spermatogenesis</u> and <u>testosterone secretion</u> is regulated via the hormones {{c1::FSH}} and {{c1::LH}}, respectively</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "s)zKjteUa!",
+      "deck": "AnKing Step Deck",
+      "front": "The pituitary hormone [ FSH ] acts on the [ Sertoli ] cells to maintain spermatogenesis",
+      "raw0": "<div>The pituitary hormone {{c1::<b>FSH</b>}} acts on the {{c2::<b>Sertoli</b>}}<b> cells</b> to maintain <b>spermatogenesis</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Rc>i7#A]EE",
+      "deck": "AnKing Step Deck",
+      "front": "The pituitary hormone [ LH ] acts on the [ Leydig ] cells to promote testosterone synthesis",
+      "raw0": "<div>The pituitary hormone {{c1::<b>LH</b>}} acts on the {{c2::<b>Leydig</b>}}<b> cells</b> to promote <b>testosterone synthesis</b> </div>",
+      "back": "Via increased activity of cholesterol desmolase [img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "xFRKLW|0]W",
+      "deck": "AnKing Step Deck",
+      "front": "What is the effect of testosterone on GnRH secretion ? [Decreased]",
+      "raw0": "<div>What is the effect of <b>testosterone</b> on <b>GnRH secretion</b>?</div><br><div>{{c1::Decreased}}  </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "b#_*`!v&Wx",
+      "deck": "AnKing Step Deck",
+      "front": "What is the effect of testosterone on LH secretion ? [Decreased]",
+      "raw0": "<div>What is the effect of <b>testosterone</b> on<b> LH</b> <b>secretion</b>?</div><br><div>{{c1::Decreased}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "k!q7@6uO@m",
+      "deck": "AnKing Step Deck",
+      "front": "Which hormone directly inhibits the secretion of LH in males? [Testosterone]",
+      "raw0": "<div>Which hormone <u>directly</u> inhibits the secretion of <b>LH</b> in males? </div><br><div>{{c1::Testosterone}}</div>",
+      "back": "vs. FSH which is inhibited by inhibin [img]",
+      "tags": [
+        "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::01_Physiology::24_Spermatogenesis"
+      ]
+    },
+    {
+      "guid": "hiG$=h)dpm",
+      "deck": "AnKing Step Deck",
+      "front": "The function of the ovaries are [ oogenesis ] and secretion of the female sex steroid hormones [ estrogen ] and [ progesterone ]",
+      "raw0": "The function of the <b>ovaries</b> are {{c1::<b>oogenesis</b>}} and secretion of the female sex steroid hormones {{c2::<b>estrogen</b>}}<b> </b>and {{c2::<b>progesterone</b>}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis"
+      ]
+    },
+    {
+      "guid": "H3z~(Pdqs;",
+      "deck": "AnKing Step Deck",
+      "front": "The outer , and largest, layer of the ovary is the [ cortex ], which contains all the oocytes enclosed in a follicle",
+      "raw0": "<div>The <u>outer</u>, and largest, layer of the <b>ovary</b> is the {{c1::<b>cortex</b>}}, which contains all the oocytes enclosed in a follicle</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Anatomy"
+      ]
+    },
+    {
+      "guid": "c<D7zwA[T%",
+      "deck": "AnKing Step Deck",
+      "front": "The middle layer of the ovary is the [medulla] , which contains a mixture of cell types",
+      "raw0": "<div>The <u>middle</u> layer of the <b>ovary</b> is the <b>{{c1::medulla}}</b>, which contains a mixture of cell types</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Anatomy"
+      ]
+    },
+    {
+      "guid": "w3R#2`)@I*",
+      "deck": "AnKing Step Deck",
+      "front": "The inner layer of the ovary is the [ hilum ], through which blood vessels and lymphatics pass",
+      "raw0": "<div>The <u>inner</u> layer of the <b>ovary</b> is the {{c1::<b>hilum</b>}}, through which blood vessels and lymphatics pass</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Anatomy"
+      ]
+    },
+    {
+      "guid": "vn&$cP0G~^",
+      "deck": "AnKing Step Deck",
+      "front": "The functional unit of the ovaries is the single [ ovarian follicle ], which comprises one germ cell surrounded by endocrine cells",
+      "raw0": "<div>The <u>functional unit</u> of the <b>ovaries</b> is the <b>single</b> {{c1::<b>ovarian follicle</b>}}, which comprises <u>one</u> germ cell surrounded by endocrine cells</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Anatomy"
+      ]
+    },
+    {
+      "guid": "oXP.sD|kU~",
+      "deck": "AnKing Step Deck",
+      "front": "In the developing ovaries, primordial germ cells produce [ oogonia ] by [ mitotic ] divisions until gestational weeks [20] to [24]",
+      "raw0": "<div>In the <i>developing</i> ovaries, primordial germ cells produce {{c1::<b>oogonia</b>}} by {{c2::<b>mitotic</b>}}<b> divisions</b> until <i>gestational</i> weeks {{c3::20}} to {{c3::24}} </div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "odhdpMzy)v",
+      "deck": "AnKing Step Deck",
+      "front": "[ DNA replication (interphase) ] of oogonia generates the [ primary oocytes ] (arrested in prophase 1 )",
+      "raw0": "<div>{{c1::<b>DNA replication</b> <b>(interphase)</b>::Process}} of <b>oogonia </b>generates the {{c2::<b>primary oocytes</b>}} (arrested in <b>prophase 1</b>)  </div>",
+      "back": "This process ends shortly before birth [img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "Jp&_8|4[%>",
+      "deck": "AnKing Step Deck",
+      "front": "Beginning at ovulation , primary oocytes (diploid) begin to complete [ meiosis I ] to form [ secondary oocytes ] (haploid)",
+      "raw0": "<div>Beginning at <b>ovulation</b>, <b>primary oocytes</b> (diploid) begin to complete {{c1::<b>meiosis I</b>}} to form {{c2::<b>secondary oocytes</b>}} (haploid) </div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "ppzz1M!6{k",
+      "deck": "AnKing Step Deck",
+      "front": "After fertilization , the secondary oocyte completes [ meiosis II ] to form a(n) [ ovum ]",
+      "raw0": "<div>After <b>fertilization</b>, the <b>secondary oocyte</b> completes {{c1::<b>meiosis II</b>}} to form a(n) {{c2::<b>ovum</b>}} </div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "cLs(I_mw=2",
+      "deck": "AnKing Step Deck",
+      "front": "Primary oocytes are arrested in prophase I of meiosis I for years until [ovulation]",
+      "raw0": "<div><b>Primary oocytes</b> are arrested in <b>prophase I</b> of meiosis I for years until {{c1::ovulation}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "k/WR+6g/H1",
+      "deck": "AnKing Step Deck",
+      "front": "Secondary oocytes are arrested in metaphase II of meiosis II until [fertilization]",
+      "raw0": "<div><b>Secondary oocytes</b> are arrested in <b>metaphase II</b> of meiosis II until {{c1::fertilization}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis",
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "l:1==J,S_3",
+      "deck": "AnKing Step Deck",
+      "front": "The first stage (long) of ovarian follicle development involves development of a(n) [ primary ] follicle from a primordial follicle",
+      "raw0": "<div>The <u>first</u> stage (long) of <b>ovarian follicle development</b> involves development of a(n) {{c1::<b>primary</b>}} <b>follicle</b> from a <u>primordial</u> follicle</div>",
+      "back": "Lasts ~13-50 years until ovulation [img] Photo credit: frontiersin [ Frontiers | Premature Ovarian Insufficiency: Past, Present, and Future (frontiersin.org) ] Preantral follicle: [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "P?`KlZzDFY",
+      "deck": "AnKing Step Deck",
+      "front": "The second stage (short) of ovarian follicle development involves the development of a(n) [ Graafian ] follicle from a primary/secondary follicle",
+      "raw0": "<div>The <u>second</u> stage (short) of <b>ovarian follicle development</b> involves the development of a(n) {{c1::<b>Graafian</b>}} <b>follicle</b> from a primary/secondary follicle</div>",
+      "back": "- Lasts 70-85 days - AKA dominant follicle [img] Photo credit: Frontiersin [ Frontiers | Premature Ovarian Insufficiency: Past, Present, and Future (frontiersin.org) ] Mature follicle: [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "Qkr.(xg/fx",
+      "deck": "AnKing Step Deck",
+      "front": "In the third stage (rapid) of ovarian follicle development , a single Graafian follicle achieves dominance and ruptures, releasing its oocyte into the peritoneal cavity via the process of [ ovulation ]",
+      "raw0": "<div>In the <u>third</u> stage (rapid) of <b>ovarian follicle development</b>, a single Graafian follicle achieves <b>dominance</b> and ruptures, releasing its oocyte into the peritoneal cavity via the process of {{c1::<b>ovulation</b>}}</div>",
+      "back": "Lasts ~48 hours [img] [img] Photo credit: Frontiersin [ Frontiers | Premature Ovarian Insufficiency: Past, Present, and Future (frontiersin.org) ] Mature oocyte: [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis"
+      ]
+    },
+    {
+      "guid": "o#gbh`bHWd",
+      "deck": "AnKing Step Deck",
+      "front": "If ovulation occurs , the residual elements of the ruptured ovarian follicle form the [ corpus luteum ], which synthesizes and secretes steroid hormones",
+      "raw0": "<div>If <b>ovulation</b> <u>occurs</u>, the residual elements of the <b>ruptured ovarian follicle</b> form the {{c1::<b>corpus luteum</b>}}, which synthesizes and secretes steroid hormones</div>",
+      "back": "[img] [img] Photo credit: Frontiersin [ Frontiers | Premature Ovarian Insufficiency: Past, Present, and Future (frontiersin.org) ]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "Gsy..;RP<A",
+      "deck": "AnKing Step Deck",
+      "front": "If fertilization does not occur , the residual elements of the ruptured ovarian follicle are replaced by a scar called the [ corpus albicans ]",
+      "raw0": "<div>If <b>fertilization</b> <u>does not occur</u>, the residual elements of the <b>ruptured ovarian follicle</b> are replaced by a scar called the {{c1::<b>corpus albicans</b>}}</div>",
+      "back": "[img] Photo credit: Chon et al. , CC BY 4.0 , via Frontiers in Cell and Developmental Biology",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::04_Oogenesis::*Oogenesis"
+      ]
+    },
+    {
+      "guid": "s7!v+N(}K8",
+      "deck": "AnKing Step Deck",
+      "front": "In the ovaries , cholesterol desmolase activity is stimulated by the hormone [LH]",
+      "raw0": "<div>In the <b>ovaries</b>, <i>cholesterol desmolase</i> activity is stimulated by the hormone <b>{{c1::LH}}</b> </div>",
+      "back": "Parallel to its role in the testes - LH stimulates activity of cholesterol desmolase in theca cells, which converts cholesterol into pregnenolone - Theca cells make pregnenolone into progesterone (via 3β-hydroxysteroid dehydrogenase) which is secreted - Theca cells eventually make pregnenolone into androstenedione (steroid synthesis pathway) which diffuses into nearby granulosa cells - Granulosa cells convert androstenedione → testosterone (via 17β-hydroxysteroid dehydrogenase) → 17β-estradiol (via aromatase) - FSH stimulates aromatase [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "qA3?j[HE/{",
+      "deck": "AnKing Step Deck",
+      "front": "In the [ granulosa ] cells of the ovary , androstenedione is converted to testosterone via the enzyme 17β-hydroxysteroid dehydrogenase",
+      "raw0": "<div>In the {{c2::<b>granulosa</b>}}<b> cells</b> of the <i>ovary</i>, <b>androstenedione</b> is converted to <b>testosterone</b> via the enzyme <b>17β-hydroxysteroid dehydrogenase</b></div><div></div>",
+      "back": "- LH stimulates activity of cholesterol desmolase in theca cells, which converts cholesterol into pregnenolone - Theca cells make pregnenolone into progesterone (via 3β-hydroxysteroid dehydrogenase) which is secreted - Theca cells eventually make pregnenolone into androstenedione (steroid synthesis pathway) which diffuses into nearby granulosa cells - Granulosa cells convert androstenedione → testosterone (via 17β-hydroxysteroid dehydrogenase) → 17β-estradiol (via aromatase) - FSH stimulates aromatase [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "jO(-#R8E2l",
+      "deck": "AnKing Step Deck",
+      "front": "In the [ granulosa ] cells of the ovary, testosterone is converted to [ 17β-estradiol ] via the enzyme [ aromatase ]",
+      "raw0": "<div>In the {{c1::<b>granulosa</b>}}<b> cells</b> of the ovary, <b>testosterone</b> is converted to {{c2::<b>17β-estradiol</b>::specific}} via the enzyme {{c3::<b>aromatase</b>}} </div>",
+      "back": "- LH stimulates activity of cholesterol desmolase in theca cells, which converts cholesterol into pregnenolone - Theca cells make pregnenolone into progesterone (via 3β-hydroxysteroid dehydrogenase) which is secreted - Theca cells eventually make pregnenolone into androstenedione (steroid synthesis pathway) which diffuses into nearby granulosa cells - Granulosa cells convert androstenedione → testosterone (via 17β-hydroxysteroid dehydrogenase) → 17β-estradiol (via aromatase) - FSH stimulates aromatase [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "giXE]L`]7,",
+      "deck": "AnKing Step Deck",
+      "front": "In the ovaries , aromatase activity is stimulated by the hormone [ FSH ]",
+      "raw0": "<div>In the <b>ovaries</b>, <i>aromatase</i> activity is stimulated by the hormone {{c1::<b>FSH</b>}} </div>",
+      "back": "- LH stimulates activity of cholesterol desmolase in theca cells, which converts cholesterol into pregnenolone - Theca cells make pregnenolone into progesterone (via 3β-hydroxysteroid dehydrogenase) which is secreted - Theca cells eventually make pregnenolone into androstenedione (steroid synthesis pathway) which diffuses into nearby granulosa cells - Granulosa cells convert androstenedione → testosterone (via 17β-hydroxysteroid dehydrogenase) → 17β-estradiol (via aromatase) - FSH stimulates aromatase [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "cSAEua;DL.",
+      "deck": "AnKing Step Deck",
+      "front": "What is the effect of estrogen on prolactin secretion ? [Increased]",
+      "raw0": "<div>What is the effect of <b>estrogen</b> on <b>prolactin secretion</b>?</div><br><div>{{c1::Increased}}</div>",
+      "back": "Increased secretion, but estrogen and progesterone inhibit the effect of prolactin on breast tissue (i.e. prevent lactation until after pregnancy)",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "eD6j}3r]D6",
+      "deck": "AnKing Step Deck",
+      "front": "Which female sex steroid is responsible for the maintenance of pregnancy ? [Progesterone]",
+      "raw0": "<div><div>Which <b>female sex steroid </b>is responsible for the <b><i>maintenance</i> of pregnancy</b>?</div><br><div>{{c1::Progesterone}}</div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "nRNUX0S-+_",
+      "deck": "AnKing Step Deck",
+      "front": "Elevated levels of [ progesterone ] in a non-pregnant patient is an indication that [ ovulation ] has occurred",
+      "raw0": "<div><b>Elevated</b> levels of {{c1::<b>progesterone</b>}} in a non-pregnant patient is an indication that {{c2::<b>ovulation</b>}}<b> </b>has occurred</div>",
+      "back": "Of all the hormones influencing the menstrual cycle (LH, FSH, estrogen, progesterone), progesterone increases the most in concentration after ovulation [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "tcu248I:ov",
+      "deck": "AnKing Step Deck",
+      "front": "Variation in menstrual cycle length is attributed to the variability in duration of the [follicular] phase",
+      "raw0": "Variation in <b>menstrual cycle length</b> is attributed to the variability in duration of the <b>{{c1::follicular}} phase</b>",
+      "back": "The l uteal phase is l ocked at 14 days; f ollicular is f lexible (varies) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "L&xaftx^Jd",
+      "deck": "AnKing Step Deck",
+      "front": "Day 0 of the menstrual cycle marks the [onset of menses]",
+      "raw0": "Day 0 of the <b>menstrual cycle</b> marks the {{c1::onset of menses}}",
+      "back": "\"Day 0 is the 0nset of menses\" [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "KYkY^8FI:R",
+      "deck": "AnKing Step Deck",
+      "front": "The first phase of the menstrual cycle is the [ follicular (proliferative) ] phase , which lasts from days 0 to 14",
+      "raw0": "<div>The <u>first</u> phase of the <b>menstrual cycle</b> is the {{c1::<b>follicular (proliferative)</b>}}<b> phase</b>, which lasts from days 0 to 14</div>",
+      "back": "During days 4-7 after onset of menses, straight short endometrial glands and compact stroma are found here with abundant mitotic figures [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "lp4$3X2dtU",
+      "deck": "AnKing Step Deck",
+      "front": "The follicular phase of the menstrual cycle is dominated by the hormone [17β-estradiol (estrogen)] , causing endometrial [proliferation]",
+      "raw0": "<div>The <b>follicular phase</b> of the menstrual cycle is dominated by the hormone <b>{{c1::17β-estradiol (estrogen)}}</b>, causing <b>endometrial</b> {{c2::proliferation}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "it3:Yc]xH?",
+      "deck": "AnKing Step Deck",
+      "front": "During the follicular phase of the menstrual cycle, estradiol [ inhibits ] FSH and LH secretion",
+      "raw0": "<div>During the <b><u>follicular</u> phase </b>of the menstrual cycle, <b>estradiol</b> {{c1::<b>inhibits</b>}} <b>FSH</b> and <b>LH</b> secretion</div>",
+      "back": "Negative feedback [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "O=O}</!pDa",
+      "deck": "AnKing Step Deck",
+      "front": "During the follicular phase of the menstrual cycle, progesterone levels are [low]",
+      "raw0": "<div>During the <b><u>follicular</u> phase</b> of the menstrual cycle, <b>progesterone</b> levels are {{c1::low}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "vbJ|c#iHq2",
+      "deck": "AnKing Step Deck",
+      "front": "In the middle of the menstrual cycle, [ ovulation ] occurs [14] days prior to menses",
+      "raw0": "<div>In the <u>middle</u> of the menstrual cycle, {{c1::<b>ovulation</b>}} occurs {{c2::14}} days prior to menses </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "P;`E!^9Q]v",
+      "deck": "AnKing Step Deck",
+      "front": "In the middle of the menstrual cycle, estradiol [ stimulates ] FSH and LH secretion",
+      "raw0": "<div>In the <u>middle</u> of the menstrual cycle, <b>estradiol</b> {{c1::<b>stimulates</b>}} <b>FSH</b> and <b>LH</b> secretion</div>",
+      "back": "Positive feedback, \"LH surge\" [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "EU5uRw+vSa",
+      "deck": "AnKing Step Deck",
+      "front": "Estradiol levels [ decrease ] just after ovulation , but [ increase ] again during the luteal phase",
+      "raw0": "<div><b>Estradiol</b> levels {{c1::<u>decrease</u>}} just after <b>ovulation</b>, but {{c1::<u>increase</u>}} again during the <b>luteal phase</b> </div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "LGKdKH&.K~",
+      "deck": "AnKing Step Deck",
+      "front": "The second phase of the menstrual cycle is the [ luteal ] phase , which lasts from days 14 to 28, ending with the [onset of menses]",
+      "raw0": "<div>The <u>second</u> phase of the menstrual cycle is the {{c1::<b>luteal</b>}}<b> phase</b>, which lasts from days 14 to 28, ending with the {{c2::onset of menses}} </div>",
+      "back": "L uteal is L ocked at 14 days; F ollicular is F lexible [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "N8,&g=pVV)",
+      "deck": "AnKing Step Deck",
+      "front": "During the luteal phase of the menstrual cycle, the [ corpus luteum ] begins to develop",
+      "raw0": "<div>During the <b>luteal phase</b> of the menstrual cycle, the {{c1::<b>corpus luteum</b>}} begins to develop</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "L!*x1-.Ql<",
+      "deck": "AnKing Step Deck",
+      "front": "The corpus luteum synthesizes [progesterone] and [estrogen]",
+      "raw0": "<div>The <b>corpus luteum</b> synthesizes {{c1::progesterone}} and {{c1::estrogen}} </div>",
+      "back": "Progesterone > estrogen [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "mxu[$B*7,+",
+      "deck": "AnKing Step Deck",
+      "front": "The luteal phase of the menstrual cycle is dominated by the hormone [ progesterone ], causing increased [vascularity] and [secretory] activity of the endometrium",
+      "raw0": "<div><div>The <b>luteal phase</b> of the menstrual cycle is dominated by the hormone {{c1::<b>progesterone</b>}}, causing <u>increased</u> {{c2::vascularity}} and {{c2::secretory}} activity of the <b>endometrium</b></div></div>",
+      "back": "Preparing for receipt of a fertilized egg via maintenance of the endometrium [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "r[w$s?<GW|",
+      "deck": "AnKing Step Deck",
+      "front": "During the luteal phase of the menstrual cycle, basal body temperature [ increases ] due to the effect of progesterone on the hypothalamic temperature set-point",
+      "raw0": "<div>During the <b>luteal phase</b> of the menstrual cycle, <b>basal body temperature</b> {{c1::<u>increases</u>}} due to the effect of <b>progesterone</b> on the hypothalamic temperature set-point</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "z/8I7Qp*]C",
+      "deck": "AnKing Step Deck",
+      "front": "If fertilization does not occur, the corpus luteum regresses and estradiol and progesterone levels [decrease] abruptly",
+      "raw0": "<div>If fertilization does <u>not</u> occur, the <b>corpus luteum regresses</b> and estradiol and progesterone levels {{c1::decrease}} abruptly </div>",
+      "back": "This sharp decrease is what causes menses [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis",
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "kIVkqG<,[.",
+      "deck": "AnKing Step Deck",
+      "front": "After implantation occurs, [ syncytiotrophoblasts ] of the placenta begin secreting [ hCG ] to maintain the corpus luteum",
+      "raw0": "<div>After <u>implantation</u> occurs, {{c2::<b>syncytiotrophoblasts</b>}} of the <u>placenta</u> begin secreting {{c1::<b>hCG</b>}} to maintain the corpus luteum</div>",
+      "back": "Syncytiotrophoblasts are derived from trophoblasts Placental implantation site (clusters of trophoblasts and syncytiotrophoblasts in superficial layers of myometrium) [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "otrTF.Z%ov",
+      "deck": "AnKing Step Deck",
+      "front": "The function of hCG is to maintain the [ corpus luteum ] by acting like LH for the first [8-10] weeks of pregnancy",
+      "raw0": "<div>The function of <b>hCG</b> is to maintain the {{c1::<b>corpus luteum</b>}} by acting like <b>LH</b> for the first {{c2::8-10}} weeks of pregnancy</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "i>~6skp4>;",
+      "deck": "AnKing Step Deck",
+      "front": "Why does lactation not occur during pregnancy, even though prolactin levels are increasing ? [Progesterone and estrogen downregulate prolactin receptors on the breast]",
+      "raw0": "<div>Why does <b>lactation</b> not occur during pregnancy, even though <b>prolactin</b> levels are <u>increasing</u>? </div><br><div>{{c1::Progesterone and estrogen downregulate prolactin receptors on the breast}}</div>",
+      "back": "- After pregnancy and delivery, a sharp decrease in progesterone / estrogen stops prolactin inhibition (milk production occurs) - Note: Per AMBOSS, a sharp decline in mainly progesterone is what drives increased milk production",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "fmtKv{Dk(>",
+      "deck": "AnKing Step Deck",
+      "front": "Anti- Müllerian hormone , from the Sertoli cells, is also referred to as [ Müllerian inhibitory factor ]",
+      "raw0": "<div><div><b>Anti-</b><b>Müllerian</b><b> hormone</b>, from the Sertoli cells, is also referred to as {{c1::<b>Müllerian</b><b> inhibitory factor</b>}} </div></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "{,XC3aQl`",
+      "deck": "AnKing Step Deck",
+      "front": "The [ parasympathetic ] nervous system is responsible for the male erection (tumescence) via the [ pelvic splanchnic (S2-S4) ] nerve",
+      "raw0": "The {{c1::<b>parasympathetic</b>}}<b> nervous system</b> is responsible for the male <b>erection</b> (tumescence) via the {{c2::<b>pelvic splanchnic (S2-S4)</b>::root}}<b> nerve</b>",
+      "back": "- \" P oint and S hoot\" - These nerves contribute to the prostatic plexus on their way to erectile tissues (via the prostatic fascial shell); this plexus is at risk of injury during a prostatectomy - In the flaccid penis, there is high tone in cavernosal arterioles resulting in decreased inflow of blood; prostatic plexus gives off parasympathetic lesser and greater cavernous nerves which relax the cavernosal arterioles in erection",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "rEw`gwp}MZ",
+      "deck": "AnKing Step Deck",
+      "front": "Which substance is generated in response to PNS innervation via the pelvic nerve to mediate an erection ? [Nitric oxide (NO), which causes increased cGMP]",
+      "raw0": "<div>Which <b>substance</b> is generated in response to <b>PNS</b> innervation via the <b>pelvic nerve</b> to <u>mediate</u> an <b>erection</b>?</div><br><div>{{c1::Nitric oxide (NO), which causes increased cGMP}} </div>",
+      "back": "- ACh from the greater and lesser cavernosal nerves stimulates vascular endothelium to increase intracellular Ca 2+ , which activates NO synthase (converts L-arginine to NO) - This causes trabecular smooth muscle in the helicine arterioles to relax, allowing vasodilation (expansion of corpora cavernosa / corpus spongiosum), blood accumulates and compresses venules against tunica albuginea (blocks venous outflow resulting in tumescence ) [img] Photo credit: Mcstrother , CC BY 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Nq=f%6f3R%",
+      "deck": "AnKing Step Deck",
+      "front": "Which substance is released by the SNS to inhibit an erection ( detumescence )? [Norepinephrine]",
+      "raw0": "<div>Which <b>substance</b> is released by the <b>SNS</b> to <u>inhibit</u> an <b>erection </b>(<u>detumescence</u>)?</div><br><div>{{c1::Norepinephrine}}</div>",
+      "back": "- Norepinephrine increases calcium in trabecular smooth muscle, resulting in helicine arterioles vasoconstriction and allowing drainage of excess blood - Norepinephrine = ↑ [Ca 2+ ] → contraction of smooth muscles → VC → anti-erectile [img] Photo credit: Mcstrother , CC BY 3.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Fw79>NmIXN",
+      "deck": "AnKing Step Deck",
+      "front": "The [sympathetic] nervous system is responsible for sperm [ emission (testes to prostatic urethra)] via the [hypogastric (T11-L2)] nerve",
+      "raw0": "<div>The <b>{{c1::sympathetic}} nervous system</b> is responsible for sperm {{c3::<b>emission </b>(testes to prostatic urethra)}} via the <b>{{c2::hypogastric (T11-L2)::root}} nerve</b> </div>",
+      "back": "- \" P oint and S hoot\" - This stimulates the advancement of sperm through the epididymis to the prostatic urethra",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "J]_<d8>g10",
+      "deck": "AnKing Step Deck",
+      "front": "The [ somatic ] nervous system is responsible for sperm [ expulsion ] via the [ pudendal ] nerve",
+      "raw0": "<div>The {{c1::<b>somatic</b>}}<b> nervous system</b> is responsible for sperm {{c3::<b>expulsion</b>}} via the {{c2::<b>pudendal</b>}}<b> nerve</b></div>",
+      "back": "- This causes semen to leave prostatic urethra to external world - This can be damaged in pudendal nerve entrapment (continuous pressure on the saddle area results in pudendal palsy - e.g., cyclist rides a bike seat for 1000s of miles / sacrococcygeal teratoma)",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "Ha%9K=SYzh",
+      "deck": "AnKing Step Deck",
+      "front": "[ PDE-5 ] inhibitors such as [ sildenafil ] cause decreased [cGMP] breakdown, thus maintaining an erection",
+      "raw0": "{{c3::<b>PDE-5</b>}} <b>inhibitors</b> such as {{c1::<b>sildenafil</b>}} cause <u>decreased</u> {{c2::cGMP}} breakdown, thus maintaining an erection",
+      "back": "Vardenafil, tadalafil, and avanafil are also PDE-5 inhibitors, and share the same mechanism [img] Photo credit: frontiersin [ Frontiers | New Approaches in Oncology for Repositioning Drugs: The Case of PDE5 Inhibitor Sildenafil (frontiersin.org) ]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "b54mky1k#%",
+      "deck": "AnKing Step Deck",
+      "front": "Anovulatory cycle is a menstrual cycle that lacks [ovulation]",
+      "raw0": "<div><div><b>Anovulatory cycle</b> is a menstrual cycle that lacks {{c1::ovulation}}</div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "c:Rwl[r9PD",
+      "deck": "AnKing Step Deck",
+      "front": "Anovulatory cycle results in an estrogen-driven proliferative phase, but no [ progesterone ] -driven [ secretory ] phase",
+      "raw0": "<div><div><b>Anovulatory</b> <b>cycle</b> results in an estrogen-driven proliferative phase, but <b>no </b>{{c1::<b>progesterone</b>}}<b>-driven </b>{{c1::<b>secretory</b>}}<b> phase</b></div></div>",
+      "back": "Consecutive cycles leads to endometrial overgrowth, then endometrial sloughing once spiral arteries are outgrown → breakthrough bleeding",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "i!Lv36om:o",
+      "deck": "AnKing Step Deck",
+      "front": "Anovulatory cycles lead to the breakdown and shedding of proliferative glands resulting in abnormal [uterine bleeding]",
+      "raw0": "<b>Anovulatory cycles</b> lead to the breakdown and shedding of <b>proliferative glands</b> resulting in abnormal {{c1::uterine bleeding}}",
+      "back": "- PALM-C O EIN - Most common causes of anovulation: pregnancy, polycystic ovary syndrome, obesity, HPO axis abnormalities/immaturity, premature ovarian failure, hyperprolactinemia, thyroid disorders, eating disorders, competitive athletics, Cushing syndrome, adrenal insufficiency, chromosomal abnormalities (Turner syndrome) - No ovulation means no corpus luteum formation and thus no progesterone is released to modify / maintain the endometrium [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "p&&&d_K#g:",
+      "deck": "AnKing Step Deck",
+      "front": "The glands and stroma of the prostate are maintained by [ androgens ]",
+      "raw0": "<div>The <b>glands</b> and <b>stroma</b> of the <b>prostate</b> are maintained by {{c1::<b>androgens</b>}}</div>",
+      "back": "Thus blocking androgens becomes useful in treating prostatic adenocarcinoma Picture shows prostatic intraepithelial neoplasia [img] Photo credit: Alex brollo , CC BY-SA 4.0 , via Wikimedia Commons",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "K6tpRqI+v-",
+      "deck": "AnKing Step Deck",
+      "front": "The glands of the prostate secrete a(n) [alkaline], milky fluid that is added to sperm and seminal vesicle fluid to make semen",
+      "raw0": "<div>The glands of the <b>prostate</b> secrete a(n) {{c1::alkaline::pH}}, milky fluid that is added to sperm and seminal vesicle fluid to make semen </div>",
+      "back": "Glands are composed of an inner layer of luminal cells and an outer layer of basal cells",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "p`R[gk:pce",
+      "deck": "AnKing Step Deck",
+      "front": "Klinefelter syndrome is associated with testicular [atrophy]",
+      "raw0": "<div><b>Klinefelter syndrome</b> is associated with <b>testicular</b> {{c1::atrophy::size}} </div>",
+      "back": "- Atrophy → azoospermia (infertility, absent sperm count) - Also associated with increased risk for testicular germ cell tumor [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "g|at&e,3zL",
+      "deck": "AnKing Step Deck",
+      "front": "Kartagener syndrome results in [ infertility ] in males and [ decreased fertility ] in females",
+      "raw0": "<div><b>Kartagener syndrome</b> results in {{c1::<b>infertility</b>::decreased fertility or infertility}} in <u>males</u> and {{c1::<i>decreased</i> <b>fertility</b>::<span style=\"color: rgb(255 255 255/var(--tw-text-opacity));\">decreased fertility or infertility}}</span><span style=\"color: rgb(255 255 255/var(--tw-text-opacity));\"> in <u>females</u></span></div>",
+      "back": "Due to immotile sperm and dysfunctional fallopian tube cilia, respectively [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "D)*&[My3wG",
+      "deck": "AnKing Step Deck",
+      "front": "[Linkage disequilibrium] describes the tendency of alleles at two loci on the same chromosome to be inherited together more or less often than expected by chance",
+      "raw0": "<div><div>{{c1::Linkage disequilibrium}} describes the tendency of alleles at <u>two loci</u> <i>on the same chromosome </i>to be <b>inherited together</b> <u>more or less</u> often than expected by chance</div></div>",
+      "back": "- Linkage is the tendency of alleles at two loci to be inherited together (often due to physical proximity of genes on a chromosome, but disequilibrium does not always imply physical linkage) - The further apart loci are, the more likely a break will be introduced during replication and allow for a recombination event to generate a non-parental (recombinant) allele - The closer together loci are, the less likely a recombination event is to occur (as recombination frequency goes from 0.5 to 0, linkage disequilibrium increases)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis"
+      ]
+    },
+    {
+      "guid": "bP&%bzEl$e",
+      "deck": "AnKing Step Deck",
+      "front": "Linkage disequilibrium is measured in a(n) [population], not in a family",
+      "raw0": "<div><b>Linkage disequilibrium</b> is measured in a(n) {{c1::population}}, not in a family</div>",
+      "back": "- Often varies in different populations - The closer two loci are, the less likely there is a recombination event; thus, the amount of people needed to see a recombination event would be unfeasible to do in even the largest families",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis"
+      ]
+    },
+    {
+      "guid": "Oq=dNvIe|a",
+      "deck": "AnKing Step Deck",
+      "front": "If alleles at two loci are inherited equally as expected by chance, the loci are said to be in [linkage equilibrium ]",
+      "raw0": "<div><div>If alleles at two loci are inherited <u>equally</u> as expected by chance, the loci are said to be in {{c1::linkage <u>equilibrium</u>}}</div></div>",
+      "back": "When alleles at two loci are inherited more/less than expected by chance, the haplotype is said to be in linkage disequilibrium",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis"
+      ]
+    },
+    {
+      "guid": "HWq2Dm4Z`P",
+      "deck": "AnKing Step Deck",
+      "front": "Cystic fibrosis may cause [ infertility ] in men due to congenital bilateral absence of the [ vas deferens ]",
+      "raw0": "<div><b>Cystic fibrosis</b> may cause {{c1::<b>infertility</b>}} in <i>men</i> due to congenital <u>bilateral</u> <u>absence</u> of the {{c2::<b>vas deferens</b>}} </div>",
+      "back": "- 95% of males with CF are infertile; CFTR mutations are likely responsible for abnormal development of wolffian structures, resulting in vasal agenesis and defective sperm transport - Spermatogenesis may be unaffected, thus can have children with assisted techniques [img] Photo credit: OpenStax , CC BY 4.0 [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "qj9p::;`1f",
+      "deck": "AnKing Step Deck",
+      "front": "Is spermatogenesis possible in a patient with cystic fibrosis ? [Yes]",
+      "raw0": "<div>Is <u>spermatogenesis</u> possible in a patient with <b>cystic fibrosis</b>?</div><br><div>{{c1::Yes}}</div>",
+      "back": "Infertility in males with cystic fibrosis is due to absence of vas deferens , not lack of spermatogenesis [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "qkj}vE!Sdx",
+      "deck": "AnKing Step Deck",
+      "front": "Do patients with erectile dysfunction due to psychological etiologies have nocturnal penile tumescence ? [Yes]",
+      "raw0": "<div>Do patients with <b>erectile</b> <b>dysfunction</b> due to <u>psychological</u> etiologies have <b>nocturnal penile tumescence</b>?</div><br><div>{{c1::Yes}}</div>",
+      "back": "- e.g., performance anxiety; nothing is wrong with their physiological mechanism - These patients have sudden onset of erectile dysfunction and morning erections",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "C8/UC6Mj2A",
+      "deck": "AnKing Step Deck",
+      "front": "Do patients with erectile dysfunction due to medical etiologies have nocturnal penile tumescence ? [No]",
+      "raw0": "<div><div>Do patients with <b>erectile</b> <b>dysfunction</b> due to <u>medical</u> etiologies have <b>nocturnal penile tumescence</b>?</div><br><div>{{c1::No}}</div></div>",
+      "back": "- e.g., diabetes, vascular or neurologic diseases, endocrine disorders, STIs, or drugs (antipsychotics, SSRIs, ethanol, antihypertensives) - Failure of sexual function first occurs intermittently, and later becomes more persistent",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "NH)o/}mt=z",
+      "deck": "AnKing Step Deck",
+      "front": "Leuprolide , goserelin , triptorelin , and buserelin are GnRH analogues with [ antagonist ] properties when used in a continuous fashion",
+      "raw0": "<b>Leuprolide</b>, <b>goserelin</b>, <b>triptorelin</b>, and <b>buserelin</b> are <u>GnRH analogues</u> with {{c1::<i>antagonist</i>}} properties when used in a <b><u>continuous</u> fashion</b>",
+      "back": "However, this may cause an initial surge in hormones during the first few weeks of therapy, but would then lead to GnRH receptor downregulation leading to a decrease in GnRH, FSH, and estrogen levels [img]",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    },
+    {
+      "guid": "wU5{SA{D!v",
+      "deck": "AnKing Step Deck",
+      "front": "Injury to the [ pudendal ] nerve presents as: - Decreased sensation in the [perineal and genital] area - [Fecal or urinary incontinence]",
+      "raw0": "Injury to the {{c1::<b>pudendal</b>}} <b>nerve</b> presents as:<br><br><div>- Decreased sensation in the {{c2::perineal and genital}} area</div><div>- {{c3::Fecal or urinary incontinence::motor}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "f7WYv%enno",
+      "deck": "AnKing Step Deck",
+      "front": "PDE-5 inhibitors (e.g., sildenafil , tadalafil ) are indicated for [ erectile dysfunction ] by way of increasing blood flow in the [ corpus cavernosum ] of the penis",
+      "raw0": "<div>PDE-5 inhibitors (e.g., <b>sildenafil</b>, <b>tadalafil</b>) are indicated for {{c1::<b>erectile dysfunction</b>}}<b> </b>by way of increasing blood flow in the {{c2::<b>corpus cavernosum</b>}} of the penis<br></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "D,<m1|d;#]",
+      "deck": "AnKing Step Deck",
+      "front": "The [ inferior hypogastric ] plexus innervates internal pelvic viscera",
+      "raw0": "The {{c1::<b>inferior hypogastric</b>}}<b> plexus</b> innervates internal pelvic viscera",
+      "back": "- Has both sympathetic and parasympathetic components - Parasympathetic contribution helps stimulate detrusor of bladder (along with pelvic splanchnic nerves) - Sympathetic contribution helps stimulate internal urethral sphincter",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction"
+      ]
+    },
+    {
+      "guid": "nONzww49YG",
+      "deck": "AnKing Step Deck",
+      "front": "Patients with PCOS may have [infertility] and [irregular menses] due to anovulation from failed [ follicular maturation ]",
+      "raw0": "Patients with <b>PCOS</b> may have {{c1::infertility}} and {{c1::irregular menses}} due to <u>anovulation</u> from <b>failed</b> {{c2::<b>follicular</b> <b>maturation</b>}}",
+      "back": "- ↑ LH:FSH ratio means the follicle can't develop properly - ↓ ovulation = ↓ progesterone from corpus luteum = no menses - Now referred to as polyendocrine metabolic ovarian syndrome (PMOS) as of May 2026 [img] [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis"
+      ]
+    },
+    {
+      "guid": "Ec#C|#dbZc",
+      "deck": "AnKing Step Deck",
+      "front": "Acquired GnRH deficiency (secondary amenorrhea) may be due to severe stress , [excessive exercise], and [anorexia]",
+      "raw0": "<u>Acquired</u><b> GnRH deficiency</b> (secondary amenorrhea) may be due to <i>severe stress</i>, {{c1::excessive exercise}}, and {{c1::anorexia}}",
+      "back": "Severe stress may suppress hypothalamic GnRH secretion (per UWorld)",
+      "tags": [
+        "#AK_Step1_v12::#Physeo::03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis"
+      ]
+    }
+  ]
+}

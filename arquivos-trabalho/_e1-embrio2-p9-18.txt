@@ -1,0 +1,216 @@
+
+===== PG 9 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+PARTE II — Neurulação: erguendo e fechando o tubo 
+neural
+2.1 — Indução neural: a notocorda manda o ectoderma virar nervo
+A neurulação começa com uma ordem. A notocorda, recém-instalada na linha média, sinaliza para a 
+faixa de ectoderma diretamente acima dela, e essa faixa responde mudando de identidade: em vez de 
+virar epiderme, como faria o ectoderma comum, ela se espessa e vira tecido nervoso primordial. Esse 
+espessamento é a placa neural 8, e ela aparece por volta do 18º dia. A partir daqui, aquela porção de 
+ectoderma passa a se chamar neuroectoderma, e todo o sistema nervoso — cérebro, medula, nervos — 
+vai sair dela.
+Repare no encadeamento causal, porque ele é a espinha dorsal do tema: notocorda (mesoderma axial) 
+induz → placa neural (neuroectoderma) → sistema nervoso. É um exemplo limpo de indução embri­
+onária, em que um tecido determina o destino do vizinho por sinalização química. O ectoderma sozinho 
+não sabe que deve virar nervo; é a notocorda por baixo que lhe dá a instrução. Essa dependência explica 
+por que problemas na formação da notocorda ou nos seus sinais repercutem diretamente na formação 
+do sistema nervoso.
+2.2 — Da placa ao tubo: pregas que se erguem e se fecham
+Tendo a placa neural plana, o próximo passo é transformá-la num tubo. O mecanismo é geométrico e 
+vale visualizar em vez de decorar. As bordas laterais da placa neural começam a se elevar, formando duas 
+cristas paralelas — as pregas neurais ( ou dobras neurais ). Entre elas se aprofunda um sulco central, o 
+sulco neural. As pregas continuam subindo, se aproximam uma da outra na linha média, e por fim se 
+encontram e se fundem no topo. Quando se fundem, o que era uma calha aberta vira um cano fechado: 
+o tubo neural.
+Há um detalhe que costuma escapar e que é conceitualmente importante. Ao se fecharem, as pregas 
+neurais também se desconectam do ectoderma de revestimento que ficou nas laterais. Ou seja, o tubo 
+neural mergulha para dentro do embrião e o ectoderma superficial se fecha por cima dele, restabele -
+cendo uma superfície contínua de epiderme. O sistema nervoso, portanto, nasce na superfície e depois 
+se internaliza — ele começa como parte da “pele” e se separa dela ao fechar.
+O fechamento não acontece de uma vez ao longo de todo o comprimento. Ele começa na região do meio (a 
+futura região cervical) e avança como um zíper para as duas pontas — em direção à cabeça e em direção à 
+cauda. Enquanto o zíper não termina, sobram duas aberturas temporárias nas extremidades, chamadas 
+neuroporo9s: o neuroporo rostral (anterior) e o neuroporo caudal (posterior). O rostral se fecha por volta 
+do 25º dia e o caudal por volta do 28º . Guardar que existem essas duas aberturas, e que elas fecham por 
+último, é a chave para entender os defeitos que veremos a seguir. Com o fechamento completo, entre 
+os dias 24 e 26, o tubo neural está pronto para dar origem ao SNC10: a extremidade cranial se dilata em 
+vesículas encefálicas ( o futuro cérebro ) e o resto do tubo vira a medula espinhal.
+2.3 — Quando o zíper falha: ácido fólico e os defeitos do tubo neural
+8placa neural – faixa espessada de ectoderma na linha média, induzida pela notocorda, que origina todo o sistema 
+nervoso
+9neuroporo – abertura temporária em cada extremidade do tubo neural antes do fechamento completo; o rostral fecha 
+ dia 25, o caudal  dia 28
+10SNC – sistema nervoso central — encéfalo e medula espinhal
+9
+===== PG 10 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+A indução neural por volta do 18º dia: a notocorda, na linha média, sinaliza para o ectoderma acima e o converte 
+em placa neural (setas). O ectoderma que recebe o sinal deixa de ser destinado a virar epiderme e passa a ser 
+neuroectoderma — a origem de todo o sistema nervoso.
+Se o fechamento do tubo neural depende de dois neuroporos se fecharem por último, então é justamente 
+ali, nas extremidades, que as coisas dão errado com mais frequência. Quando um neuroporo não se fecha 
+no prazo, o tecido neural permanece exposto e não se desenvolve normalmente — surge um DTN11. O 
+onde a falha ocorre define o que resulta. Se o neuroporo rostral (anterior) não fecha, o encéfalo não 
+se forma adequadamente: é a anencefalia, incompatível com a vida. Se o neuroporo caudal (posterior) 
+não fecha, a falha é na medula e nas vértebras da região lombossacra: é a espinha bífida, de gravidade 
+variável.
+O elo com a clínica é direto e tem um mecanismo bioquímico concreto. As extremidades livres do tubo 
+neural, durante o fechamento, expressam proteínas que se ligam ao ácido fólico (folato, a vitamina B9). 
+O folato é indispensável para a síntese de DNA e, portanto, para a proliferação celular intensa que fecha 
+o tubo. Quando falta folato no período em que o tubo está se fechando — as primeiras quatro semanas 
+— , o fechamento fica comprometido e o risco de DTN aumenta. Como essa janela é tão precoce (muitas 
+vezes antes de a mulher saber que está grávida), a suplementação de folato precisa começar antes da 
+concepção.
+11DTN – defeito do tubo neural — falha no fechamento do tubo neural, como anencefalia e espinha bífida
+10
+===== PG 11 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+Em cima, vista dorsal do embrião em quatro tempos: a placa neural ( alongada), as pregas neurais que se elevam nas 
+bordas, o sulco que se aprofunda, e o tubo que se fecha do meio para as pontas. Embaixo, o corte transversal: a placa 
+neural no centro, a futura crista neural nas bordas das pregas, e a futura epiderme nas laterais — que voltam a se 
+unir por cima do tubo.
+11
+===== PG 12 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+Ácido fólico e a prevenção da espinha bífida
+O tubo neural fecha entre a 3ª e a 4ª semana de gestação — frequentemente antes do diagnóstico 
+da gravidez. As bordas do tubo em fechamento captam folato ativamente, e o folato alimenta 
+a síntese de DNA da proliferação celular que sela os neuroporos. Falta de folato nessa janela → 
+fechamento incompleto → tecido neural exposto → anencefalia (neuroporo rostral) ou espinha 
+bífida (neuroporo caudal). Por isso a recomendação de suplementar ácido fólico no período peri­
+concepcional — começando antes de engravidar e mantendo nas primeiras semanas. É uma das 
+intervenções de saúde pública mais custo-efetivas conhecidas: uma vitamina barata que previne 
+uma malformação grave, atacando exatamente o passo bioquímico limitante do fechamento.
+2.4 — A crista neural: o quarto folheto que sai viajando
+Quando as pregas neurais se elevam e se fundem, sobra na junção entre elas um grupo de células com um 
+comportamento único. Em vez de entrar no tubo neural (virar SNC) ou permanecer na epiderme, essas 
+células — a crista neural 12 — fazem algo diferente: sofrem uma nova transição epitélio-mesênquima, 
+soltam-se e migram por todo o embrião. Sua importância é tão grande e seus derivados tão variados 
+que a crista neural é apelidada de “quarto folheto germinativo” .
+A migração é ordenada. As células partem do dorso ( de onde o tubo se fechou) e viajam em direção 
+ventrolateral, agrupadas em quatro grandes contingentes ao longo do eixo cabeça-cauda: cranial, 
+vagal, tronco e lombossacral. Cada contingente coloniza uma região e origina estruturas diferentes. O 
+contingente cranial é o mais versátil: dele saem os tecidos conjuntivos, cartilagens e ossos da face (via 
+arcos branquiais ), os ossículos da orelha média, melanócitos, alguns tecidos do olho e neurônios. Dos 
+outros contingentes vêm os gânglios do sistema nervoso periférico, a medula da glândula adrenal e os 
+melanócitos do resto do corpo. A lição de fundo é que uma boa parte da face, da pigmentação da pele 
+e do sistema nervoso periférico tem uma origem comum e móvel — não nasce onde acaba, mas migra 
+até lá.
+Vale contrastar as três populações que saem do neuroectoderma para não confundi-las: o tubo neural 
+fica no centro e vira o SNC; a crista neural fica nas bordas e migra para virar o SNP , os melanócitos e a 
+face; e a epiderme fecha por cima. Três destinos, uma origem comum na placa neural.
+12crista neural – população de células na borda das pregas neurais que sofre EMT e migra por todo o embrião, origi -
+nando derivados diversos
+12
+===== PG 13 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+As células da crista neural partem do dorso ( onde o tubo neural se fechou) e migram para a região ventrolateral, em 
+quatro divisões no sentido crânio-caudal ( cranial, vagal, tronco, lombossacral). A mesma população que sobra ao 
+fechar o tubo neural vira melanócitos, gânglios periféricos, medula adrenal e boa parte do esqueleto da face.
+13
+===== PG 14 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+PARTE III — Derivados do mesoderma e o dobramento 
+do corpo
+3.1 — As três faixas do mesoderma e o que cada uma constrói
+Enquanto o tubo neural se fecha no dorso, o mesoderma — a camada do meio formada na gastrulação 
+— se organiza em três faixas longitudinais paralelas, de dentro para fora, cada uma com um destino 
+próprio. Colada à notocorda, na linha média, está a faixa mais espessa: o mesoderma paraxial. Ao seu 
+lado, uma faixa estreita: o mesoderma intermediário. E mais lateralmente, uma faixa ampla que se 
+estende até as bordas do disco: o mesoderma lateral. Saber qual faixa gera qual órgão é, junto com os 
+derivados dos folhetos, o conteúdo mais cobrado do assunto.
+O mesoderma paraxial se segmenta em blocos repetidos ao longo do eixo, os somito 13s. Cada somito 
+é um pequeno bloco que dará origem a uma vértebra e suas costelas, ao músculo esquelético daquele 
+segmento e à derme do dorso. É a segmentação dos somitos que explica por que a coluna, as costelas e os 
+músculos do tronco têm aquele padrão repetido, vértebra após vértebra. (Lembre da Parte I: a notocorda 
+vira só o núcleo pulposo do disco; o corpo ósseo da vértebra vem daqui, do somito.)
+O mesoderma intermediário , a faixa estreita do meio, tem um destino enxuto e fácil de guardar: o 
+sistema urinário (rins ) e o sistema genital (gônadas ). O mesoderma lateral se divide em duas folhas — 
+uma somática (parietal) e outra visceral ( esplâncnica) — e o espaço entre elas vira as cavidades do corpo 
+( o celoma, futuro pleura/pericárdio/peritônio ). Dele saem também o sistema cardiovascular e as células 
+do sangue (sistema hematopoiético ), além de anexos extraembrionários. Uma forma de fixar: paraxial 
+faz o “esqueleto e músculo do eixo” , intermediário faz “xixi e reprodução” , lateral faz “cavidades, coração 
+e sangue” .
+3.2 — Dobramento céfalo-caudal: o disco vira um corpo curvado
+Até agora tudo aconteceu num disco achatado. Um embrião de verdade, porém, é tridimensional, com 
+uma barriga fechada e um intestino por dentro. A transição do disco plano para o corpo em 3D é o 
+dobramento embrionário, e ele ocorre em dois planos ao mesmo tempo, de forma concomitante ao 
+fechamento do tubo neural. O primeiro é o dobramento céfalo-caudal.
+O motor do dobramento é o crescimento desigual das estruturas. O tubo neural e os somitos crescem 
+muito mais rápido do que as bordas do disco, e a cavidade amniótica, que se expande por cima 
+( dorsalmente) do embrião, empurra as extremidades para baixo. O resultado é que as pontas do disco — 
+a cranial e a caudal — se curvam ventralmente, para baixo e para dentro, formando a prega cranial e a 
+prega caudal. O embrião, que era uma folha plana, adquire a forma de um “C” fechando sobre o próprio 
+ventre. Esse encurvamento é o que confere tridimensionalidade na direção cabeça-cauda: a cabeça se 
+projeta para a frente sobre o coração em formação, e a cauda se dobra por baixo.
+3.3 — Dobramento lateral: fechando o ventre e criando o intestino
+O segundo plano de dobramento acontece de lado. As bordas laterais do disco, empurradas pela expan-
+são da cavidade amniótica, também se curvam ventralmente — são as pregas laterais. Elas avançam 
+uma em direção à outra por baixo do embrião até se encontrarem na linha média ventral, fechando a 
+13somito – blocos segmentares de mesoderma paraxial que originam vértebras, costelas, músculo esquelético e derme 
+do dorso
+14
+===== PG 15 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+O leque de derivados do mesoderma, de medial para lateral. Paraxial → somitos → músculo, esqueleto e derme. In-
+termediário → rins e gônadas. Lateral → sistema vascular e hematopoiético, membranas serosas (pleura/peritônio ) 
+e anexos extraembrionários. No centro, a notocorda. Guardar este mapa vale por vários parágrafos de texto.
+parede do corpo como quem fecha um pacote. É o dobramento lateral que sela o ventre e dá ao embrião 
+sua forma cilíndrica fechada.
+O evento mais consequente do dobramento lateral acontece com o endoderma. Enquanto as pregas 
+laterais se fecham, elas arrastam consigo a folha de endoderma, que estava aberta e achatada por baixo. 
+Ao se encontrarem no ventre, elas enrolam esse endoderma num tubo: o tubo intestinal primitivo, 
+futuro tubo digestório. O endoderma, que forra esse tubo por dentro, fica assim aprisionado no interior 
+do embrião, ventral ao mesoderma. Uma parte do endoderma continua conectada à vesícula vitelínica 
+por fora, mas o essencial já é um cano interno, correndo da cabeça à cauda. A extremidade anterior desse 
+tubo será a boca e a posterior será o ânus.
+Há dois pontos, um em cada ponta do tubo, onde o mesoderma nunca se interpôs entre o ectoderma e 
+o endoderma — e é por isso que ali as duas camadas ficam em contato direto, formando membranas 
+finas que depois se rompem para abrir a boca e o ânus. Na frente, a placa precordal origina a membrana 
+15
+===== PG 16 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+Corte sagital do dobramento céfalo-caudal em três tempos. As pregas cranial e caudal se curvam ventralmente ( a 
+cavidade amniótica, dorsal, expande e “abraça” o embrião ). O disco plano vira um corpo em forma de C — a tridi-
+mensionalidade no eixo cabeça-cauda.
+bucofaríngea14: é onde a boca vai se abrir. Atrás, a região cloacal origina a membrana cloacal: é onde o 
+ânus vai se abrir. Nessas duas regiões — e só nelas — não há mesoderma no meio, o que explica por que 
+são pontos frágeis, destinados a se romper e criar as aberturas do tubo digestório para o exterior.
+14membrana bucofaríngea – membrana anterior de ecto + endoderma, sem mesoderma entre elas; rompe-se para 
+formar a abertura da boca
+16
+===== PG 17 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+O dobramento lateral enrola o endoderma num tubo — o tubo digestório primitivo. Ele corre da extremidade 
+anterior (futura boca) à posterior (futuro ânus), com as regiões de intestino anterior, médio e posterior já esboçadas. 
+O endoderma fica ventral ao mesoderma, aprisionado dentro do corpo agora fechado.
+Os dois dobramentos fazem coisas diferentes
+Aluno costuma achar: que o dobramento céfalo-caudal e o lateral são a mesma coisa vista de 
+ângulos diferentes.
+Mecanismo correto: são dois movimentos em planos distintos. O céfalo­caudal curva as pontas 
+cranial e caudal ventralmente (visto em corte sagital) e dá a forma de C. O lateral fecha as paredes 
+do corpo pelos lados (visto em corte transversal) e, ao fazê-lo, enrola o endoderma no tubo 
+digestório. Os dois ocorrem juntos e, somados, transformam o disco plano num corpo cilíndrico 
+fechado com intestino por dentro.
+17
+===== PG 18 =====
+N E B L I E TA PA  1  —  T EXTO  D I DÁT I CO
+Conclusão integradora
+Se há um princípio único que atravessa este capítulo inteiro, é este: o corpo se constrói por 
+movimento, não por aparecimento. Nenhuma das estruturas que vimos surgiu do nada no lugar 
+certo — todas nasceram de células que já existiam e que migraram, atravessaram camadas, se do-
+braram ou mudaram de forma na hora exata. O mecanismo nuclear que amarra tudo é a sequência 
+de indução e migração deflagrada na gastrulação: o epiblasto ingressa pela linha primitiva (via 
+EMT) e gera os três folhetos; do mesoderma axial nasce a notocorda; a notocorda induz a placa 
+neural; a placa se fecha no tubo neural (SNC) e libera a crista neural migratória; o mesoderma 
+se reparte em paraxial, intermediário e lateral, cada um com seus órgãos; e o dobramento em 
+dois planos enrola o disco num corpo 3D com o endoderma aprisionado como tubo digestório. 
+A clínica retomada mostra por que isso importa na prática: como o fechamento do tubo neural 
+depende de proliferação celular ávida por folato numa janela precocíssima, a falta de ácido fólico 
+periconcepcional trava exatamente esse passo e resulta em anencefalia ou espinha bífida — uma 
+malformação grave prevenível com uma vitamina barata. Daqui em diante, cada folheto e cada 
+tubo que formamos vira o ponto de partida da organogênese: os somitos viram coluna e músculo, 
+o tubo neural vira encéfalo e medula, o tubo digestório se especializa em faringe, estômago e 
+intestino. A forma do corpo está pronta; o próximo capítulo é sobre transformá-la em órgãos.
+18

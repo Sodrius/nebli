@@ -1,0 +1,275 @@
+# Camada 2 pre-filtrada — embrio-02-03-gastrulacao-neurulacao
+# 265 cards no pool: 210 provaveis-bons, 55 ruido-provavel (blocklist de patologia).
+# LER A FUNDO os provaveis-bons; PASSAR O OLHO no ruido e resgatar falso-positivo.
+# keep = anote o guid + id de conceito da checklist. Precisao > recall.
+
+## PROVAVEIS-BONS (210) — ler a fundo, keep/drop card-a-card
+
+- [1] `x@|]Ul/7^F` (Reproduction::01_Fetal_Development::02_Germ_Layers) — During which week of gestation does gastrulation occur? [Week 3]
+- [2] `BE3z|1+%XU` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What is the embryonic origin of the spinal cord ? [Neural tube (neuroectoderm)]
+- [3] `EdLen3:c{K` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the alveolar , tracheal , and bronchial epithelium ? [Endoderm]
+- [4] `I~9B(:ciL-` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the anterior pituitary ? [Oral ectoderm, specifically from Rathke pouch]
+- [5] `j6Tn%.5#sT` (Reproduction::01_Fetal_Development::02_Germ_Layers) — The adrenal medulla is composed of [ chromaffin ] cells , which are derived from the [ neural crest ]
+- [6] `CE$`B5.A?Z` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of thyroid tissue? [Endoderm]
+- [7] `KaK%Vb;^1K` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the adrenal cortex ? [Mesoderm]
+- [8] `ebbUcZLf,~` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the adrenal medulla ? [Neural crest]
+- [9] `l37Ze{},HQ` (Reproduction::01_Fetal_Development::02_Germ_Layers) — Neuroblastoma originates from [neural crest] cells and can occur anywhere along the [sympathetic chain]
+- [10] `ezb>#Nwt91` (15_Repro::01_Embryology::02_Embryologic_derivatives) — What embryological structure is the lower (distal) 2/3rd of the vaginal canal derived from? [Urogenital sinus]
+- [11] `Kmi_$s(!{h` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What is the embryonic origin of the posterior pituitary ? [Neuroectoderm]
+- [12] `K4f];PqHCi` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Basics) — During the 3rd week of development , the yolk sac forms the [allantois], which extends into the urogenital sinus
+- [13] `E6xJ(F/5IF` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Basics) — The allantois becomes the [ urachus ], which is a duct between the [ fetal bladder ] and the [ umbilicus ]
+- [14] `Ran/I!vR-e` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — During the [7th] week of development , the obliteration of the vitelline duct (omphalomesenteric duct) occurs
+- [15] `E2[Ibdh@C*` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — If the vitelline duct only closes partially , a(n) [Meckel] diverticulum develops, with the patent portion attached to the ileum
+- [16] `c)oUy$K1VR` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — [Polyhydramnios] is the presence of too much amniotic fluid and may be associated with fetal malformations such as anencephaly and esophageal or duodenal atresia (inability to swallow)
+- [17] `JD_9V2)rx4` (15_Repro::01_Embryology::02_Embryologic_derivatives) — A patent [ urachus ] presents as straw-colored [ urine ] discharge from the umbilicus with [ erythema ] around the area
+- [18] `q|W$=o}&*H` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Urachal_Cyst) — A(n) [ urachal ] cyst presents as a fluid-filled cavity lined with uroepithelium , between the umbilicus and bladder
+- [19] `GVk{X1yr=u` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Vesicourachal_Diverticulum) — A vesicourachal diverticulum presents as outpouching of the [bladder]
+- [20] `B,P9SJ}kB)` (15_Repro::01_Embryology::02_Embryologic_derivatives) — The [ medial umbilical ligaments/folds ] are remnants of the obliterated [ umbilical arteries ]
+- [21] `lpS~z)nO|%` (15_Repro::01_Embryology::02_Embryologic_derivatives) — The [ median umbilical ligament ] is a remnant of the obliterated [ urachus ]
+- [22] `P7,->YqVe|` (15_Repro::01_Embryology::02_Embryologic_derivatives) — The [ligamentum teres hepatis] is a remnant of the obliterated [umbilical vein]
+- [23] `L[[GO5qc:#` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — How do levels of AFP change in a fetus with open neural tube defects ? [Increased]
+- [24] `H/VZR913_a` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of endocardial cushion cells? [Neural crest cells and lateral plate mesoderm]
+- [25] `NJ;[(#YNA7` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The remnant of the umbilical vein is the [ ligamentum teres hepatis ], which is contained in the [ falciform ligament ]
+- [26] `mB1>0g4L]R` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Lung development begins with development of a(n) [lung bud] from the distal end of the respiratory diverticulum
+- [27] `N<y<#TK{3k` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The kidneys lie in the [ retroperitoneal ] cavity of the body
+- [28] `i*u9pD}D84` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Supplemental maternal [ folic acid (vitamin B 9 ) ] in early pregnancy decreases risk of [ neural tube ] defects
+- [29] `smg|^|8F9L` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What is the embryonic origin of CNS neurons ? [Neural tube (neuroectoderm)]
+- [30] `w-k=I?RX!C` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of PNS neurons ? [Neural crest]
+- [31] `F6]Zg_Bwh2` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of chromaffin cells ? [Neural crest]
+- [32] `z=]m_N)^33` (Reproduction::01_Fetal_Development::02_Germ_Layers) — [ Chromaffin ] cells migrate into the adrenal medulla to form [ post ] -ganglionic [ sympathetic ] neurons
+- [33] `fzYZjOeR2j` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — Neurulation begins in the [ third ] week of fetal development
+- [34] `s<WuAD^jFm` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The [ notochord ] induces the overlying ectoderm to form the [ neural plate (neuroectoderm) ]
+- [35] `F^&yJa=M2Y` (01_Embryology::01_Repro::03_Embryologic_Derivatives) — By the end of the third week, neural [ folds ] grow over the midline and fuse to form the [ neural tube ]
+- [36] `s86Pe3^,Fq` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — During closure of neural folds , the [neural crest] cells form from neuroectoderm
+- [37] `A7!1tmwKk|` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The neural tube begins as [three] primary vesicles
+- [38] `sqvUq)PPT,` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The most superior of the 3 primary vesicles (developing brain) is the [forebrain (prosencephalon)]
+- [39] `J9H&5ZxLH{` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The middle of the 3 primary vesicles (developing brain) is the [midbrain (mesencephalon)]
+- [40] `A6o^qK<hrr` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The most inferior of the 3 primary vesicles (developing brain) is the [hindbrain (rhombencephalon)]
+- [41] `Lc?X1F=^BE` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The [ forebrain/prosencephalon ] ( primary vesicle) matures into the [telencephalon] and [diencephalon] ( secondary vesicles)
+- [42] `C}0;uy&N|r` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the wall of the telencephalon ? [Cerebral hemispheres]
+- [43] `oN@^i(sNE0` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the cavity of the telencephalon ? [Lateral ventricles]
+- [44] `A3x7E^okTn` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What are the adult derivatives of the wall of the diencephalon ? [Thalamus] and [hypothalamus] *bonus (2)?
+- [45] `HLXK&b[xRU` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The [ midbrain ] ( primary vesicle) matures into the [mesencephalon] ( secondary vesicle)
+- [46] `JQHf5dhrZj` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the wall of the mesencephalon ? [Midbrain]
+- [47] `rR].$NXAAZ` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the cavity of the mesencephalon ? [Cerebral aqueduct]
+- [48] `k711rlk}:|` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The [ hindbrain ] ( primary vesicle) matures into the [metencephalon] and [myelencephalon] ( secondary vesicles)
+- [49] `exwo?;uUlT` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What are the adult derivatives of the wall of the metencephalon ? [Pons] and [cerebellum]
+- [50] `x<B=PYg4Dh` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the cavity of the metencephalon ? [Upper part of 4th ventricle]
+- [51] `D2G#y$owbB` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the wall of the myelencephalon ? [Medulla]
+- [52] `lFNnRiRK$#` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — What is the adult derivative of the cavity of the myelencephalon ? [Lower part of 4th ventricle]
+- [53] `A^xWt[MT%w` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The embryonic brainstem and spinal cord have a(n) [ dorsally ]-located [alar] plate
+- [54] `q*%+hj5tV/` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The embryonic alar plate gives rise to [ sensory ] derivatives
+- [55] `L/EnRc|ZM0` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The embryonic brainstem and spinal cord have a(n) [ ventrally ]-located [basal] plate
+- [56] `IWqfv{*$Z-` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The embryonic basal plate gives rise to [ motor ] derivatives
+- [57] `lqg3zJ9C3r` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of oligodendrocytes ? [Neural tube (neuroectoderm)]
+- [58] `KAei_2|J,R` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of astrocytes ? [Neural tube (neuroectoderm)]
+- [59] `L+|.rU-?X2` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of Schwann cells ? [Neural crest]
+- [60] `cr/%`xj=%X` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of ependymal cells ? [Neural tube (neuroectoderm)]
+- [61] `qLGU#b=q6U` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of microglia ? [Mesoderm]
+- [62] `GRxfwG^fD6` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — [ Syringomyelia ] is a dilated , fluid-filled , cystic cavity within the central canal of the spinal cord
+- [63] `Q*^$`2qbbf` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Syringomyelia most commonly occurs at spinal cord levels [C2] - [T9]
+- [64] `El4Ml;|u4` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Syringomyelia results in damage to the [ spinothalamic ] tract 2nd-order neurons crossing in the [anterior white commissure]
+- [65] `BH5v*wK%tY` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — [ Syringomyelia ] results in [ bi ] lateral loss of [ pain ] and [ temperature ] sensation in a(n) "[ cape-like ]" distribution
+- [66] `Lf}P<p`6I)` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Syringomyelia typically results in pain/temperature deficits in the [ upper ] extremities
+- [67] `j^d`CiET9#` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Syrinx expansion in syringomyelia may lead to damage to the [lower] motor neurons of the anterior horn
+- [68] `xv{[+[*`I|` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Chiari [I] malformation is characterized by downward displacement of the [cerebellar tonsils] through the foramen magnum
+- [69] `KH}H5jbPap` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Chiari [I] malformation is congenital and is mostly asymptomatic in childhood
+- [70] `c|y2{ZiLzt` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Chiari I malformation may present as paroxysmal occipital [headaches] and cerebellar symptoms
+- [71] `uR1C]hd$mR` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [ Neural tube ] defects are associated with low [ folate ] levels prior to conception and during pregnancy
+- [72] `L,QA|Ot]3c` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Open neural tube defects are detected during prenatal care by [ elevated ] [ alpha-fetoprotein (AFP)] levels in the amniotic fluid and maternal blood
+- [73] `zz?9Xcxv%O` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Elevated [ acetylcholinesterase (AChE) and alpha-fetoprotein (AFP) ] in amniotic fluid are helpful confirmatory tests for suspected neural tube defects when ultrasound findings are inconclusive
+- [74] `I*#t(Wi;22` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [Anencephaly] is the absence of the skull and brain , resulting in an open calvarium with an absent forebrain
+- [75] `D9?3So`}D!` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What pathology is associated with disruption of the cranial end of the neural tube ? [Anencephaly]
+- [76] `itJ&0uq.TX` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [Anencephaly] leads to a(n) "[ frog-like ]" appearance of the fetus due to prominent eyes
+- [77] `b]9d:LYwm9` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Anencephaly is characterized by [ elevated ] levels of AFP in utero
+- [78] `b><o)%4H6N` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Anencephaly may result in [ poly ] hydramnios
+- [79] `cT,WM?lql-` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — The left and right hemispheres usually separate during weeks [3] - [4] of development
+- [80] `bQmByo*m#q` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Holoprosencephaly may be related to mutations in the [Sonic hedgehog] signaling pathway
+- [81] `mHPl>EY&qO` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — The moderate form of holoprosencephaly presents with [cleft lip/palate]
+- [82] `wt1kR;@C^` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — The severe form of holoprosencephaly results in [cyclopia (one eye)] and a primitive nasal structure (proboscis)
+- [83] `D{$vot,r*I` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What pathology is associated with disruption of the caudal end of the neural tube ? [Spina bifida]
+- [84] `K3juD}A7hY` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Spina bifida occulta is usually seen at [lower] vertebral levels
+- [85] `PaeiU#v`z>` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Is the dura intact in spina bifida occulta ? [Yes]
+- [86] `f&m?$q+=/` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Which form of spina bifida is associated with a tuft of hair or skin dimple at the level of the bone defect? [Spina bifida occulta]
+- [87] `yA2+<fGH.M` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Spina bifida occulta is characterized by [ normal ] levels of AFP in utero
+- [88] `nP~20~mkre` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [Dandy-Walker] malformation presents as a massively dilated [4th ventricle] and an absent [cerebellar vermis]
+- [89] `ts0[]P%V!K` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Dandy-Walker malformation (DWM) is associated with [ non-communicating hydrocephalus ] and [ spina bifida ]
+- [90] `Ps9Q)&CR|a` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Chiari [II] malformation is characterized by downward displacement of the cerebellar [vermis] , [tonsils] , and the [medulla] through the foramen magnum
+- [91] `A2^qFpY|&b` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Chiari [II] malformation is often associated with lumbosacral [myelomeningocele]
+- [92] `G8h;j[i.Ph` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — The brainstem is divisible into three continuous parts: the [midbrain], [pons], and [medulla]
+- [93] `k~zohlN[2(` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — The cerebellum consists of a midline [vermis] and two lateral [ hemispheres ] on each side
+- [94] `HQrub$=8Q#` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — [ Non-communicating ( obstructive )] hydrocephalus is caused by structural blockage of CSF within ventricular circulation
+- [95] `NU$|VJ)9</` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Gastroschisis ] is a congenital malformation characterized by extrusion of abdominal contents through the anterior abdominal wall
+- [96] `p^R_g>jq5|` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which congenital abdominal wall defect IS NOT covered by peritoneum ? [Gastroschisis]
+- [97] `p{NtWF/D%R` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which congenital abdominal wall defect IS covered by peritoneum ? [Omphalocele]
+- [98] `iaf*s[Z!QP` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Intestinal atresia presents with abdominal distension and [ bilious ] vomiting
+- [99] `H$$%g.)b`` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — How soon after birth does intestinal atresia typically present? [~ 1 - 2 days]
+- [100] `vif1dy3DhJ` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Duodenal atresia presents with [ poly ] hydramnios in utero
+- [101] `C/&B{d?$NN` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Duodenal atresia ] is characterized by dilation of the stomach and proximal duodenum with a(n) "[ double bubble ]" sign on X-ray
+- [102] `n+jObI&Wf-` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Jejunal and ileal atresia are associated with a(n) " [apple peel] " appearance of the bowel
+- [103] `L/.-OL{C?p` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Meckel ] diverticulum is an outpouching of all three layers of the bowel wall ( true diverticulum )
+- [104] `p<AJevvO5`` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum arises due to persistence of the [vitelline duct]
+- [105] `l@US?Ud$!H` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the most common congenital anomaly of the GI tract ? [Meckel diverticulum]
+- [106] `u@k<.C-RFg` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum is associated with the "rule of [2s]"
+- [107] `xth)9%W^-x` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum is two times more likely to occur in [males]
+- [108] `F.hrVN)J-` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum is typically two [inches] long
+- [109] `qe}!b)6bEm` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Meckel diverticulum is typically located in the small bowel, two [feet] proximal to the ileocecal valve
+- [110] `H(]s=F`GF?` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum typically presents during the first two [years] of life
+- [111] `BGlb%f9:(<` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Meckel diverticulum may contain ectopic acid-secreting [ gastric mucosa ] and/or [ pancreatic ] tissue
+- [112] `qMt}i9`5U3` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Meckel ] diverticulum is diagnosed using a(n) [ 99m Tc-pertechnetate ] study for uptake by heterotopic gastric mucosa
+- [113] `Kq2`o>3Zer` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — What is the most common presentation of Meckel diverticulum ? [Clinically silent (asymptomatic)]
+- [114] `hW#*If+0w?` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — The [vitelline] duct connects the yolk sac to the [midgut] lumen
+- [115] `G{~iJpD1F9` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What week does the vitelline duct normally obliterate ? [Week 7]
+- [116] `E[^E1{jyC[` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What congenital anomaly is caused by only partial closure of the vitelline duct ? [Meckel diverticulum]
+- [117] `gdV_O;Ns2W` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Vitelline_Duct::Vitelline_Cyst) — What congenital anomaly is caused by cystic dilation of the vitelline duct ? [Vitelline cyst (enterocyst)]
+- [118] `p=a<M<[)X-` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Volvulus ] is caused by twisting of a portion of bowel around its mesentery
+- [119] `LO7P2gz1/]` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Are colonic diverticula typically true or false diverticula? [False (only involves mucosa and submucosa)]
+- [120] `xY(et0.zsb` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Which gut wall layers are involved in a false diverticulum (pseudodiverticulum)? [Mucosa and submucosa]
+- [121] `Jh$mZcPLFt` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Which gut wall layers are involved in a true diverticulum ? [All three (mucosa, submucosa, muscularis externa)]
+- [122] `Oor6E!)]>*` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Intestinal [ malrotation ] is a congenital anomaly of [ midgut ] rotation during fetal development
+- [123] `k>vpQ)$%5E` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Intestinal malrotation results in improper positioning of the bowel with improper formation of fibrous "[ Ladd ] bands "
+- [124] `edAM5X1)Jt` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Malrotation can lead to [volvulus] and duodenal obstruction
+- [125] `tNo<=fa@mV` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which embryologic gut region develops into the pancreas ? [Foregut]
+- [126] `FXXq$[oSef` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the embryonic origin of the spleen ? [Meso]derm
+- [127] `K<X-&&No^>` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the embryonic gut region of the blood supply to the spleen ? [ Foregut (celiac trunk gives rise to the splenic artery)]
+- [128] `dlf+0TRA<%` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — The embryonic [ notochord ] becomes the [ nucleus pulposus ] of the intervertebral discs in adults
+- [129] `MxSm]u-{||` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Which form of spina bifida is associated with myelomeningocele ? [Spina bifida cystica]
+- [130] `tmeLm!pm(F` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Holoprosencephaly is characterized by a monoventricle and fusion of the [basal ganglia] on MRI
+- [131] `OPkw=wwL?C` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of dura mater ? [Meso]derm
+- [132] `bX}!FJyI,_` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of arachnoid mater ? [Neural crest]
+- [133] `k0&H&)8Uk0` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of pia mater ? [Neural crest]
+- [134] `wW}`X$?#V=` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What teratogenic effect is associated with valproic acid ? [Neural tube defects]
+- [135] `b[<y6MNlzz` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — Is carbamazepine use associated with teratogenic effects? [Yes]
+- [136] `IfPqn0Q%8u` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which embryologic gut region develops into the liver and gallbladder ? [Foregut]
+- [137] `Jjb4AZL$Y(` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — During the [ 10th ] week of gestation, the midgut returns to the abdominal cavity and rotates [ 270 ] ° counterclockwise around the [ superior mesenteric ] artery
+- [138] `G;LbbmF|m-` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The retroperitoneal structures may be remembered with the mnemonic "[ SAID PUCKER ]"
+- [139] `I;B,3iM.7w` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The [ retroperitoneal structures ] may be remembered with the mnemonic " SAID PUCKER ": [ S uprarenal (adrenal) glands] [ A orta] [ I VC] [ D uodenum (2nd through 4th part)] [ P ancreas (except tail)]…
+- [140] `wdiy6&yS5l` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which GI ligament connects the liver to the anterior abdominal wall ? [Falciform ligament]
+- [141] `Lb;4C6JP/a` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which GI ligament is a derivative of ventral mesentery ? [Falciform ligament]
+- [142] `m*4l`2am9$` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Which GI ligament connects the liver to the lesser curvature of the stomach ? [Gastrohepatic ligament]
+- [143] `r.G%j1kwOG` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The lesser omentum is formed by the [ gastrohepatic ] and [ hepatoduodenal ] ligaments
+- [144] `JDS}Ww!)j-` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — What structures are contained within the gastrocolic ligament ? [Gastroepiploic arteries]
+- [145] `t;ygy*esxk` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which GI ligament connects the greater curvature of the stomach to the spleen ? [Gastrosplenic ligament]
+- [146] `t(]~3|]:<g` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What structures are contained within the gastrosplenic ligament ? [Short gastric arteries] and [left gastroepiploic vessels]
+- [147] `zq_.R9e@_=` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The [gastrosplenic] ligament separates the greater and lesser sacs on the [left]
+- [148] `m.nm:C]<UH` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The greater omentum is formed by the [ gastrocolic ] and [ gastrosplenic ] ligaments
+- [149] `f|pV+unB^`` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Which GI ligament connects the spleen to the posterior abdominal wall ? [Splenorenal ligament]
+- [150] `gA1YFbaI;)` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — The foregut develops into structures from the [ lower esophagus ] to the [ proximal duodenum ]
+- [151] `A7<jv6h:Bb` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — The midgut develops into structures from the [ distal duodenum ] to the [ proximal 2 / 3 of the transverse colon ]
+- [152] `N=])KEdTA)` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — The hindgut develops into structures from the [ distal 1/3rd of the transverse colon ] to the [ anal canal above the pectinate line ]
+- [153] `sQFi+X3;yf` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The [ splenic ] artery gives rise to the [ left gastroepiploic ] and [ short gastric ] arteries
+- [154] `x-35gtzG?D` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — The greater curvature of the stomach is supplied by the [ gastroepiploic ] arteries
+- [155] `LWoOHHG[oC` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of lymphocytes in the thymus ? [Mesoderm]
+- [156] `NvR)r-r@Zs` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of melanocytes ? [Neural crest]
+- [157] `J+Rgh7~D0M` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Within which week of embryogenesis does the trilaminar disc (endoderm, mesoderm, ectoderm) form? [Week 3 (3 layers)]
+- [158] `s,jhW<B9Jx` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Within which week of embryogenesis does the neural tube close ? [Week 4]
+- [159] `i-CeS/;EpX` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What is the embryonic origin of the lens of the eye ? [Surface ectoderm]
+- [160] `dv/7;C58mf` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the sweat and mammary glands ? [Surface ectoderm]
+- [161] `upnY:JmzA`` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the sensory organs of the ear ? [Surface ectoderm]
+- [162] `B9[/z9L5o,` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — What is the embryonic origin of the retina ? [Neural tube (neuroectoderm)]
+- [163] `tjI:LHmr:6` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the odontoblasts and bones of the skull ? [Neural crest]
+- [164] `m@1AlVWJe(` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the myenteric ( Auerbach ) plexus ? [Neural crest]
+- [165] `efSV8_1k@4` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the muscle , bone , and connective tissue ? [Meso]derm
+- [166] `G8_eCTX61p` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the ovaries / testis ? [Meso]derm
+- [167] `v_XHg56iW]` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the blood and lymphatics ? [Meso]derm
+- [168] `LV`xy5[4Os` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — What is the embryonic origin of the peritoneum (serous lining of cavities)? [Meso]derm
+- [169] `w(`XSD)~|c` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the kidneys ? [Meso]derm
+- [170] `qIFs-TmnMT` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the embryonic origin of the gut tube epithelium and most major organs (e.g., lungs, liver, gallbladder, pancreas)? [Endo]derm
+- [171] `eL8+b+QBcA` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the parathyroid gland and parafollicular C cells ? [Endo]derm
+- [172] `wnUE/@lA+` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the thymus ? [Endo]derm
+- [173] `k6Qo=*`MB8` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by absent organ due to absent primordial tissue ? [Agenesis]
+- [174] `Hth;e19J+j` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by absent organ despite the presence of primordial tissue ? [Aplasia]
+- [175] `GK%hQJera9` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by incomplete organ development (primordial tissue present)? [Hypoplasia]
+- [176] `NsR-9*ZFtX` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by secondary breakdown of previously normal tissue ? [Disruption]
+- [177] `z)G87+&.LJ` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by extrinsic mechanical distortion that occurs during the fetal period? [Deformation]
+- [178] `PPhd`prj6:` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by intrinsic disruption (during embryonic period)? [Malformation]
+- [179] `E[Sjr:b*].` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — What imaging modality is used for the definitive diagnosis of syringomyelia ? [MRI]
+- [180] `AKHJoal;jt` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What does bilious vomiting indicate? [Obstruction distal to ampulla of Vater]
+- [181] `u(,yU{yJL]` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What does "double-bubble" sign on a pediatric abdominal X-ray indicate? [Duodenal atresia, annular pancreas, or malrotation]
+- [182] `JuN_2@JHn~` (15_Repro::01_Embryology::02_Embryologic_derivatives::02_Mesoderm::*Mesenchyme) — [ Mesenchyme ] is the embryonic connective tissue
+- [183] `dG<)%5Q.0l` (15_Repro::01_Embryology::02_Embryologic_derivatives::02_Mesoderm::*Mesenchyme) — The mesenchyme gives rise to most [ connective tissue ]
+- [184] `ISHGn<2/9=` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which abdominal wall defect , omphalocele or gastroschisis , is associated with other major malformations ? [Omphalocele]
+- [185] `F0}k7DlDIJ` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Causes of α-fetoprotein (AFP) elevation may be remembered with the mnemonic "[ HE - MAN is the Alpha M ale]"
+- [186] `m}c<4x%[Du` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — α-fetoprotein (AFP) is a protein that is normally made by the [fetus]
+- [187] `b+]ujJ8ZYZ` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Is gastroschisis associated with chromosomal abnormalities? [No]
+- [188] `dj?!u7A>&^` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Is omphalocele associated with chromosomal abnormalities? [Yes]
+- [189] `b6wk9/L$+Z` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Which ventral wall defect is associated with cardiac, genitourinary, or neural tube-based structural abnormalities? [Omphalocele]
+- [190] `i@.F-(74/Y` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — [ Lissencephaly (agyria) ] is a congenital absence of gyri that is typically accompanied by severe intellectual disability and seizures
+- [191] `cnb=xu}g>k` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — What rare neural tube defect is characterized by protrusion of the brain and meninges through an abnormal opening in the skull ? [Encephalocele]
+- [192] `c@>K,NxNJT` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Esophageal atresia with TEF typically presents with excessive [ secretions ] at the mouth (drooling, choking), coughing spells/vomiting, and vomiting with the first feeding
+- [193] `Pf4BcL~.$M` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Double bubble sign and normal distal gas pattern = [malrotation]
+- [194] `ImO5NjjYAo` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Double-bubble sign and multiple air-fluid levels is suggestive of [intestinal atresia]
+- [195] `h1>oOf%|^h` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Following X-ray , how do you diagnose malrotation ? [Upper GI series (barium swallow)]
+- [196] `e7d(O[GE@T` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is a complication of malrotation ? [Volvulus]
+- [197] `IECac+L#lZ` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the difference between malrotation and volvulus ? Malrotation: [developmental anatomic defect] Volvulus: [torsion of the intestines because of the malrotation ]
+- [198] `FNrUt@oj6Q` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Neonate with polyhydramnios in utero, now bilious emesis ; distended stomach and proximal duodenum with no distal air on X-ray. What is on the ddx? [Duodenal atresia, a nnular pancreas]
+- [199] `e}Q`FgB23~` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Neonate with extra-abdominal intestines; to the right of the umbilicus and not contained in a membrane? [Gastroschisis]
+- [200] `Q!0Oz]`b/?` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the most common symptomatic presentation of Meckel diverticulum in a toddler? [Painless hematochezia]
+- [201] `rzM@7zpZGi` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [Gastroschisis] is a right of midline defect without a membrane and is more susceptible to twisting and infection
+- [202] `G3N(#!d)m` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [ Elevated ] maternal serum alpha-fetoprotein (AFP) is associated with [ open neural tube ] defects , [ abdominal wall ] defects , and [ multiple gestation ]
+- [203] `B;0H:R^Sz[` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Drooling , choking , and vomiting with the first feeding is suggestive of [esophageal atresia with TEF]
+- [204] `Q[qCV9Ur:a` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — A pregnant patient presenting with elevated AFP should be followed up with [ fetal ultrasound ]
+- [205] `b4`PaY*y@4` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Can patients with duodenal atresia present with yellow, seedy stools ? [No]
+- [206] `y[UPU#hU;p` (Reproduction::01_Fetal_Development::02_Germ_Layers) — What is the embryonic origin of the tracheal cartilage ? [Meso]derm
+- [207] `sQXc]`r*}=` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Fetal ultrasound showing a dilated fluid-filled stomach is suggestive of [duodenal atresia]
+- [208] `t!>;Py=s+n` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Chiari malformations ( I and II ) may compress the corticospinal motor tracts and lead to [ upper ] motor neuron dysfunction
+- [209] `9.tDiPWvNz` (15_Repro::01_Embryology::04_Types_of_errors_in_morphogenesis) — Which error in morphogenesis is characterized by a cascade of abnormalities resulting from a single primary embryologic event ? [Sequence]
+- [210] `zuuA<n-dBM` (15_Repro::01_Embryology::02_Embryologic_derivatives) — What is the embryonic origin of the uveal tract (iris, ciliary body, choroid)? [Neural crest]
+
+## RUIDO-PROVAVEL (55) — passar o olho, resgatar bom cortado
+
+- `i~fwKwq6_V` (15_Repro::01_Embryology::02_Embryologic_derivatives) — Craniopharyngioma is a benign tumor that arises from a remnant of [ Rathke pouch ] that is…  ⟨corte: tumor⟩
+- `h8W*@5x)b<` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — If the vitelline duct COMPLETELY fails to close , a vitelline [fistula (persistent vitelli…  ⟨corte: fistula⟩
+- `yYne%>DfI~` (15_Repro::01_Embryology::02_Embryologic_derivatives) — A(n) [ patent urachus ] occurs due to total failure of the urachus to obliterate  ⟨corte: failure⟩
+- `GlO86~e0fe` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Urachal_Cyst) — A(n) [ urachal cyst ] is due to partial failure of the urachus to obliterate, resulting in…  ⟨corte: failure⟩
+- `l>&[I.!=+` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Vesicourachal_Diverticulum) — A(n) [ vesicourachal diverticulum ] is a diverticulum due to a slight failure of the urach…  ⟨corte: failure⟩
+- `lG<R:CUBR,` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Errors at what stage of lung development can lead to the formation of a tracheoesophageal…  ⟨corte: fistula⟩
+- `%k~P/fF8K` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Urachus::Basics) — [ Urachal adenocarcinoma ] is a cancer of the bladder that usually arises from a(n) [ urac…  ⟨corte: carcinoma⟩
+- `l:swCwuv#.` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Syrinx expansion in syringomyelia (late stage) may cause [Horner] syndrome  ⟨corte: syndrome⟩
+- `NL]8/$o@<_` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — [Syringomyelia] is a spinal cord lesion that arises with [ trauma ] and tumors or in assoc…  ⟨corte: tumor⟩
+- `t_G#D+Z*gG` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — What disease is associated with this spinal cord lesion ? [Syringomyelia] [img]  ⟨corte: disease⟩
+- `F&9P|,5xiV` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [ Neural tube ] defects arise due to failure of the neuropores to fuse by the [4th] week o…  ⟨corte: failure⟩
+- `Px(7A4K@hc` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [ Anencephaly ] and spina bifida are neural tube defects associated with folate deficiency…  ⟨corte: deficiency⟩
+- `yD>|FJD+]-` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — [Holoprosencephaly] is due to failure of the forebrain to divide into 2 cerebral hemispher…  ⟨corte: failure⟩
+- `fl@8edK|O@` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology::Extra) — Holoprosencephaly is seen in [ Patau ] syndrome and [ fetal alcohol ] syndrome  ⟨corte: syndrome⟩
+- `cW|bE2okE6` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Spina bifida is due to failure of the [posterior] vertebral arch to close  ⟨corte: failure⟩
+- `cK[W6tp=#:` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Which form of spina bifida is associated with failure of the bony spinal canal to close bu…  ⟨corte: failure⟩
+- `p>[&i.QH;3` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Which form of spina bifida is associated with herniation of meninges (but no neural tissue…  ⟨corte: hernia⟩
+- `8ENG1+XP%` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Which form of spina bifida is associated with herniation of meninges and neural tissue thr…  ⟨corte: hernia⟩
+- `t#-tHj77dk` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — [Dandy-Walker] malformation is caused by failure of the 4th ventricle to close, which lead…  ⟨corte: failure⟩
+- `NVkZMu=goo` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Chiari [ II ] malformation commonly results in aqueductal stenosis , which causes [ hydroc…  ⟨corte: stenosis⟩
+- `Eb?Jk7b{dA` (16_Neuro::05_Other_Neurology_Topics::06_Neuroembryology) — Tonsillar herniation involves displacement of the cerebellar tonsils into the [ foramen ma…  ⟨corte: hernia⟩
+- `eEb8e5%zr|` (Reproduction::01_Fetal_Development::02_Germ_Layers) — Medulloblastoma is a form of primitive [neuroectodermal] tumor  ⟨corte: tumor⟩
+- `xlF/4%.vhY` (15_Repro::01_Embryology::02_Embryologic_derivatives::01_Ectoderm::*Surface_Ectoderm::Craniopharyngioma) — [ Craniopharyngioma ] is a CNS tumor that arises from epithelial remnants of the [ Rathke…  ⟨corte: tumor⟩
+- `FT9D~[<#9C` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the most common type of tracheoesophageal anomaly (85%)? [Esophageal atresia with…  ⟨corte: fistula⟩
+- `D;#l01wq)Y` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Esophageal atresia with distal tracheoesophageal fistula (TEF) presents with [ polyhydramn…  ⟨corte: fistula⟩
+- `LD%V?|W{,D` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Esophageal atresia with distal tracheoesophageal fistula ( TEF) presents as drooling , cho…  ⟨corte: fistula⟩
+- `L7MqIK!mbn` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Esophageal atresia with distal tracheoesophageal fistula ( TEF) may present with abdominal…  ⟨corte: fistula⟩
+- `gncnsk?CT7` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Omphalocele is a persistent [ herniation ] of bowel into the umbilical cord  ⟨corte: hernia⟩
+- `iM*~;1Kl(J` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Omphalocele ] is caused by failure of the herniated intestines to return to the body cav…  ⟨corte: failure⟩
+- `fy7!5#ac@y` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Gastroschisis ] and [ omphalocele ] occur due to failure of [ lateral ] fold closure of…  ⟨corte: failure⟩
+- `ux+2/F5yoC` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Pyloric stenosis ] is a congenital hypertrophy of the pyloric smooth muscle  ⟨corte: stenosis⟩
+- `Def^mj*q[h` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the most common cause of gastric outlet obstruction (GOO) in infants ? [Pyloric st…  ⟨corte: stenosis⟩
+- `A1y<Y9:[e2` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — How soon after birth does pyloric stenosis typically present? [~ 2 - 6 weeks]  ⟨corte: stenosis⟩
+- `F_3G;[#Ae~` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Pyloric stenosis typically presents with [ nonbilious ], projectile vomiting  ⟨corte: stenosis⟩
+- `Ik(]zuUpb*` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Pyloric stenosis ] often presents with a palpable "[ olive ] -like " mass in the epigast…  ⟨corte: stenosis⟩
+- `oL?3m$tyTn` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Pyloric stenosis may present with visible [ peristalsis ]  ⟨corte: stenosis⟩
+- `L:v|h),m.R` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Duodenal [atresia] is a congenital failure of the duodenum to recanalize  ⟨corte: failure⟩
+- `kGDXhH^e~C` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [ Duodenal ] atresia is associated with [ Down ] syndrome  ⟨corte: syndrome⟩
+- `f67fYvBiK?` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — Jejunal and ileal atresia occur due to disruption of [mesenteric] vessels during developme…  ⟨corte: ischemic⟩
+- `L#TI}?gwix` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Vitelline_Duct::Vitelline_Fistula) — What congenital anomaly is caused by complete failure of the vitelline duct to close ? [Vi…  ⟨corte: failure⟩
+- `r9t_uGge4N` (15_Repro::01_Embryology::02_Embryologic_derivatives::*Vitelline_Duct::Vitelline_Fistula) — What congenital anomaly presents with meconium discharge from the umbilicus ? [Vitelline f…  ⟨corte: fistula⟩
+- `w+$Sh(wcgC` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Volvulus can lead to [ obstruction ] and [ infarction ] of the affected bowel region  ⟨corte: infarct⟩
+- `i>g8`2+izr` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Colorectal carcinoma may be visualized as a(n) "[apple core]" lesion seen on barium enema…  ⟨corte: carcinoma⟩
+- `mJFO&jp|W?` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — During the [ 6th ] week of gestation, the [ midgut ] herniates through the umbilical ring  ⟨corte: hernia⟩
+- `i+1oF0=$pi` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology::Extra) — Congenital [umbilical hernia] is a failure of umbilical ring to close after physiologic he…  ⟨corte: hernia⟩
+- `C=3ER>`N:U` (15_Repro::01_Embryology::02_Embryologic_derivatives) — VACTERL association is due to [mesodermal] defects in the following anatomic locations : […  ⟨corte: fistula⟩
+- `DnCQqv5JG(` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — In its most severe form, fetal alcohol syndrome may cause [ heart-lung ] fistulas and holo…  ⟨corte: syndrome⟩
+- `HaqAc!=!sq` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the likely diagnosis in an infant who presents with projectile , non -bilious emes…  ⟨corte: stenosis⟩
+- `P:(Rrf7ZUV` (15_Repro::01_Embryology::02_Embryologic_derivatives::02_Mesoderm::*Mesenchyme) — A malignant mesenchymal tumor is a(n) [sarcoma]  ⟨corte: malignan⟩
+- `mY@;wvZA{,` (01_Embryology::07_Neuro::01_Neurological_Development_&_Neural_Tube_Defects) — Which form of spina bifida is associated with herniation of only neural tissue through the…  ⟨corte: hernia⟩
+- `keE0/;+/fa` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — [Hypertrophic pyloric stenosis] shows up at ~3 weeks with non-bilious projectile vomiting…  ⟨corte: stenosis⟩
+- `jH_Oo}^KSG` (13_Neuro::04_Congenital_&_Neurocutaneous::01_Neural_Tube_Defects,_Holoprosencephaly,_Chiari_Malformation_&_Syringomyelia) — Causes of [ α-fetoprotein (AFP)] elevation may be remembered with the mnemonic " HE-MAN is…  ⟨corte: carcinoma⟩
+- `Oh68no}RDl` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — - Duodenal atresia - Annular pancreas - Malrotation/volvulus - Intestinal atresia → [Bilio…  ⟨corte: stenosis⟩
+- `cb4=U1<CF&` (10_GI::01_Anatomy::01_Gastrointestinal_Embryology) — What is the likely diagnosis in a neonate with an NG tube coiling in the esophagus? [Esoph…  ⟨corte: fistula⟩
+- `nEduu6=rUZ` (15_Repro::01_Embryology::02_Embryologic_derivatives) — [ Tracheoesophageal ] fistula is associated with other congenital mesodermal defects , suc…  ⟨corte: fistula⟩

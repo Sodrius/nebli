@@ -1,0 +1,120 @@
+# Camada 2 pre-filtrada — embrio-01-gametogenese-fertilizacao
+# 110 cards no pool: 102 provaveis-bons, 8 ruido-provavel (blocklist de patologia).
+# LER A FUNDO os provaveis-bons; PASSAR O OLHO no ruido e resgatar falso-positivo.
+# keep = anote o guid + id de conceito da checklist. Precisao > recall.
+
+## PROVAVEIS-BONS (102) — ler a fundo, keep/drop card-a-card
+
+- [1] `L/.-MA<S[v` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — How does GHRH affect its own secretion from the hypothalamus? [Decreases (ultrashort-loop negative feedback)]
+- [2] `w0cUEJx@.f` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — The male gonads consist of three cell types: [germ] cells, [Sertoli] cells, and [Leydig] cells
+- [3] `sh-a:`HY)+` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — The germ cells of the male gonads produce [spermatogonia]
+- [4] `Cau@e<>cZ1` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [ Sertoli ] cells of the male gonads synthesize a glycoprotein called [ anti-Müllerian hormone ], which prevents the development of female internal genitalia
+- [5] `d#d7s7X$d;` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — The [ Leydig ] cells of the male gonads synthesize [ testosterone ]
+- [6] `iRUT}fV=Du` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The female gonads consist of three cell types: [germ] cells, [granulosa] cells, and [theca] cells
+- [7] `d+,Y@`RsiI` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — The germ cells of the female gonads produce [oogonia]
+- [8] `g%?pqV>1T*` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The theca cells and granulosa cells , together, synthesize [ estradiol (estrogen) ]
+- [9] `ez3ZtiS<;F` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — 80% of the adult testis is composed of [ seminiferous tubules ], which produce the sperm
+- [10] `NxUw]HywFX` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — 20% of the adult testis is composed of connective tissue interspersed with [ Leydig ] cells , which synthesize and secrete testosterone
+- [11] `cC&zl#a*#u` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — [ Germ ] cells (spermatogonia) maintain the germ pool and produce primary spermatocytes
+- [12] `BUbtVSaZ0e` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — [ Sertoli ] cells (males) secrete [ inhibin B ], which serves to inhibit [ FSH ] secretion
+- [13] `q>)XcWzok8` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — [ Sertoli ] cells secrete [ androgen-binding protein ] which serves to maintain local levels of testosterone
+- [14] `G*eMf=@bFj` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — [ Tight junctions ] between adjacent [ Sertoli ] cells form the [ blood-testis ] barrier , which isolates gametes from autoimmune attack
+- [15] `NZfG]J]:L+` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — [ Sertoli ] cells function to support and nourish developing spermatogonia
+- [16] `MBY-_/-4PN` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — [ Sertoli ] cells are the homolog of female [ granulosa ] cells
+- [17] `oL0BCBUeq,` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Which cell type of the seminiferous tubule regulates spermatogenesis ? [Sertoli cells]
+- [18] `z?4Dj%t4ZB` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Leydig cells secrete [ testosterone ] in the presence of [ LH ]
+- [19] `QIJ176G]%8` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Male [ Leydig ] cells are the homolog of female [ theca ] cells
+- [20] `e#B_ZD:3^R` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — What is the location of germ cells and Sertoli cells in relation to the seminiferous tubules ? [Form the lining ]
+- [21] `Mf|@piWaaM` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — What is the location of Leydig cells in relation to the seminiferous tubules ? [Present in the interstitium ]
+- [22] `k<|HM#qs_S` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — The first stage of spermatogenesis is [ DNA replication (interphase) ] of [ spermatogonia ] to generate the [ primary spermatocytes ]
+- [23] `Bf5,r3%2Hi` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — After the primary spermatocyte has been formed, it undergoes [ meiosis I ] to become a(n) [ secondary spermatocyte ]
+- [24] `wJ{B#0MoH{` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — After the secondary spermatocyte has been formed, it undergoes [ meiosis II ] to become a(n) [ spermatid ]
+- [25] `A%)86f+bP]` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — After spermatids have been formed from secondary spermatocytes, they undergo [ spermiogenesis ] to form [ spermatozoa ]
+- [26] `DYAFzg+)<.` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — What changes occur during the process of spermiogenesis ? - Loss of [cytoplasmic contents] - Gain of a(n) [acrosomal] cap - Development of a(n) [flagellum]
+- [27] `Lu1|m:&.>-` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — After which stage of spermatogenesis does the diploid sperm become haploid ? [Meiosis I (primary spermatocyte to secondary spermatocyte)]
+- [28] `r*HBaQ&UgP` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — One full cycle of spermatogenesis takes [64] days
+- [29] `p}[@+3rcio` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Where in the testis does spermatogenesis occur? [Seminiferous tubules]
+- [30] `s#jx0|$[*T` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The pathway of sperm during ejaculation may be remembered with the mnemonic [ SEVEN UP ]
+- [31] `kvM1#WcZ_[` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The pathway of sperm during ejaculation may be remembered with the mnemonic " SEVEN UP ": [ S eminiferous tubules] [ E pididymis] [ V as deferens] [ E jaculatory ducts (receives vas deferens and semin…
+- [32] `uD9w^-IB`>` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The primary location for the maturation and storage of sperm is the [ epididymis ]
+- [33] `A!=%lG#K)~` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The seminal vesicles secrete a fluid rich in [ fructose ], citrate , prostaglandins , and fibrinogen , which are nutritive for the ejaculated sperm
+- [34] `dL0Y^7yGc` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [ prostate ] gland adds a slightly alkaline secretion to sperm ejaculate, which is rich in citrate , calcium , and enzymes
+- [35] `fxiXfMf+My` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Hypothalamic control of spermatogenesis and testosterone secretion is regulated via the hormone [GnRH]
+- [36] `j{t5b9JumV` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Pulsatile secretion of GnRH stimulates the anterior pituitary to secrete [ FSH ] and [ LH ]
+- [37] `kfX1>{WZV.` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Anterior pituitary control of spermatogenesis and testosterone secretion is regulated via the hormones [FSH] and [LH], respectively
+- [38] `s)zKjteUa!` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — The pituitary hormone [ FSH ] acts on the [ Sertoli ] cells to maintain spermatogenesis
+- [39] `Rc>i7#A]EE` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — The pituitary hormone [ LH ] acts on the [ Leydig ] cells to promote testosterone synthesis
+- [40] `xFRKLW|0]W` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — What is the effect of testosterone on GnRH secretion ? [Decreased]
+- [41] `b#_*`!v&Wx` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — What is the effect of testosterone on LH secretion ? [Decreased]
+- [42] `k!q7@6uO@m` (07_Endocrinology::01_Physiology::24_Spermatogenesis) — Which hormone directly inhibits the secretion of LH in males? [Testosterone]
+- [43] `hiG$=h)dpm` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The function of the ovaries are [ oogenesis ] and secretion of the female sex steroid hormones [ estrogen ] and [ progesterone ]
+- [44] `H3z~(Pdqs;` (15_Repro::03_Physiology::04_Oogenesis::*Anatomy) — The outer , and largest, layer of the ovary is the [ cortex ], which contains all the oocytes enclosed in a follicle
+- [45] `c<D7zwA[T%` (15_Repro::03_Physiology::04_Oogenesis::*Anatomy) — The middle layer of the ovary is the [medulla] , which contains a mixture of cell types
+- [46] `w3R#2`)@I*` (15_Repro::03_Physiology::04_Oogenesis::*Anatomy) — The inner layer of the ovary is the [ hilum ], through which blood vessels and lymphatics pass
+- [47] `vn&$cP0G~^` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The functional unit of the ovaries is the single [ ovarian follicle ], which comprises one germ cell surrounded by endocrine cells
+- [48] `oXP.sD|kU~` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — In the developing ovaries, primordial germ cells produce [ oogonia ] by [ mitotic ] divisions until gestational weeks [20] to [24]
+- [49] `odhdpMzy)v` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — [ DNA replication (interphase) ] of oogonia generates the [ primary oocytes ] (arrested in prophase 1 )
+- [50] `Jp&_8|4[%>` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — Beginning at ovulation , primary oocytes (diploid) begin to complete [ meiosis I ] to form [ secondary oocytes ] (haploid)
+- [51] `ppzz1M!6{k` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — After fertilization , the secondary oocyte completes [ meiosis II ] to form a(n) [ ovum ]
+- [52] `cLs(I_mw=2` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — Primary oocytes are arrested in prophase I of meiosis I for years until [ovulation]
+- [53] `k/WR+6g/H1` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — Secondary oocytes are arrested in metaphase II of meiosis II until [fertilization]
+- [54] `l:1==J,S_3` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The first stage (long) of ovarian follicle development involves development of a(n) [ primary ] follicle from a primordial follicle
+- [55] `P?`KlZzDFY` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The second stage (short) of ovarian follicle development involves the development of a(n) [ Graafian ] follicle from a primary/secondary follicle
+- [56] `s7!v+N(}K8` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the ovaries , cholesterol desmolase activity is stimulated by the hormone [LH]
+- [57] `qA3?j[HE/{` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the [ granulosa ] cells of the ovary , androstenedione is converted to testosterone via the enzyme 17β-hydroxysteroid dehydrogenase
+- [58] `jO(-#R8E2l` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the [ granulosa ] cells of the ovary, testosterone is converted to [ 17β-estradiol ] via the enzyme [ aromatase ]
+- [59] `giXE]L`]7,` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the ovaries , aromatase activity is stimulated by the hormone [ FSH ]
+- [60] `cSAEua;DL.` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — What is the effect of estrogen on prolactin secretion ? [Increased]
+- [61] `eD6j}3r]D6` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Which female sex steroid is responsible for the maintenance of pregnancy ? [Progesterone]
+- [62] `nRNUX0S-+_` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Elevated levels of [ progesterone ] in a non-pregnant patient is an indication that [ ovulation ] has occurred
+- [63] `tcu248I:ov` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Variation in menstrual cycle length is attributed to the variability in duration of the [follicular] phase
+- [64] `L&xaftx^Jd` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Day 0 of the menstrual cycle marks the [onset of menses]
+- [65] `KYkY^8FI:R` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The first phase of the menstrual cycle is the [ follicular (proliferative) ] phase , which lasts from days 0 to 14
+- [66] `lp4$3X2dtU` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The follicular phase of the menstrual cycle is dominated by the hormone [17β-estradiol (estrogen)] , causing endometrial [proliferation]
+- [67] `it3:Yc]xH?` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — During the follicular phase of the menstrual cycle, estradiol [ inhibits ] FSH and LH secretion
+- [68] `O=O}</!pDa` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — During the follicular phase of the menstrual cycle, progesterone levels are [low]
+- [69] `vbJ|c#iHq2` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the middle of the menstrual cycle, [ ovulation ] occurs [14] days prior to menses
+- [70] `P;`E!^9Q]v` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — In the middle of the menstrual cycle, estradiol [ stimulates ] FSH and LH secretion
+- [71] `EU5uRw+vSa` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Estradiol levels [ decrease ] just after ovulation , but [ increase ] again during the luteal phase
+- [72] `LGKdKH&.K~` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The second phase of the menstrual cycle is the [ luteal ] phase , which lasts from days 14 to 28, ending with the [onset of menses]
+- [73] `N8,&g=pVV)` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — During the luteal phase of the menstrual cycle, the [ corpus luteum ] begins to develop
+- [74] `L!*x1-.Ql<` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The corpus luteum synthesizes [progesterone] and [estrogen]
+- [75] `mxu[$B*7,+` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — The luteal phase of the menstrual cycle is dominated by the hormone [ progesterone ], causing increased [vascularity] and [secretory] activity of the endometrium
+- [76] `r[w$s?<GW|` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — During the luteal phase of the menstrual cycle, basal body temperature [ increases ] due to the effect of progesterone on the hypothalamic temperature set-point
+- [77] `z/8I7Qp*]C` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — If fertilization does not occur, the corpus luteum regresses and estradiol and progesterone levels [decrease] abruptly
+- [78] `kIVkqG<,[.` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — After implantation occurs, [ syncytiotrophoblasts ] of the placenta begin secreting [ hCG ] to maintain the corpus luteum
+- [79] `otrTF.Z%ov` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — The function of hCG is to maintain the [ corpus luteum ] by acting like LH for the first [8-10] weeks of pregnancy
+- [80] `i>~6skp4>;` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Why does lactation not occur during pregnancy, even though prolactin levels are increasing ? [Progesterone and estrogen downregulate prolactin receptors on the breast]
+- [81] `fmtKv{Dk(>` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Anti- Müllerian hormone , from the Sertoli cells, is also referred to as [ Müllerian inhibitory factor ]
+- [82] `{,XC3aQl`` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [ parasympathetic ] nervous system is responsible for the male erection (tumescence) via the [ pelvic splanchnic (S2-S4) ] nerve
+- [83] `rEw`gwp}MZ` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Which substance is generated in response to PNS innervation via the pelvic nerve to mediate an erection ? [Nitric oxide (NO), which causes increased cGMP]
+- [84] `Nq=f%6f3R%` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Which substance is released by the SNS to inhibit an erection ( detumescence )? [Norepinephrine]
+- [85] `Fw79>NmIXN` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [sympathetic] nervous system is responsible for sperm [ emission (testes to prostatic urethra)] via the [hypogastric (T11-L2)] nerve
+- [86] `J]_<d8>g10` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [ somatic ] nervous system is responsible for sperm [ expulsion ] via the [ pudendal ] nerve
+- [87] `Ha%9K=SYzh` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — [ PDE-5 ] inhibitors such as [ sildenafil ] cause decreased [cGMP] breakdown, thus maintaining an erection
+- [88] `b54mky1k#%` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Anovulatory cycle is a menstrual cycle that lacks [ovulation]
+- [89] `c:Rwl[r9PD` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Anovulatory cycle results in an estrogen-driven proliferative phase, but no [ progesterone ] -driven [ secretory ] phase
+- [90] `i!Lv36om:o` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Anovulatory cycles lead to the breakdown and shedding of proliferative glands resulting in abnormal [uterine bleeding]
+- [91] `p&&&d_K#g:` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The glands and stroma of the prostate are maintained by [ androgens ]
+- [92] `K6tpRqI+v-` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The glands of the prostate secrete a(n) [alkaline], milky fluid that is added to sperm and seminal vesicle fluid to make semen
+- [93] `D)*&[My3wG` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — [Linkage disequilibrium] describes the tendency of alleles at two loci on the same chromosome to be inherited together more or less often than expected by chance
+- [94] `bP&%bzEl$e` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — Linkage disequilibrium is measured in a(n) [population], not in a family
+- [95] `Oq=dNvIe|a` (Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::02_Meiosis) — If alleles at two loci are inherited equally as expected by chance, the loci are said to be in [linkage equilibrium ]
+- [96] `qkj}vE!Sdx` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Do patients with erectile dysfunction due to psychological etiologies have nocturnal penile tumescence ? [Yes]
+- [97] `C8/UC6Mj2A` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Do patients with erectile dysfunction due to medical etiologies have nocturnal penile tumescence ? [No]
+- [98] `NH)o/}mt=z` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Leuprolide , goserelin , triptorelin , and buserelin are GnRH analogues with [ antagonist ] properties when used in a continuous fashion
+- [99] `wU5{SA{D!v` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — Injury to the [ pudendal ] nerve presents as: - Decreased sensation in the [perineal and genital] area - [Fecal or urinary incontinence]
+- [100] `f7WYv%enno` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — PDE-5 inhibitors (e.g., sildenafil , tadalafil ) are indicated for [ erectile dysfunction ] by way of increasing blood flow in the [ corpus cavernosum ] of the penis
+- [101] `D,<m1|d;#]` (03_Physiology::07_Repro::01_Spermatogenesis_&_Erectile_Dysfunction) — The [ inferior hypogastric ] plexus innervates internal pelvic viscera
+- [102] `nONzww49YG` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Patients with PCOS may have [infertility] and [irregular menses] due to anovulation from failed [ follicular maturation ]
+
+## RUIDO-PROVAVEL (8) — passar o olho, resgatar bom cortado
+
+- `Qkr.(xg/fx` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — In the third stage (rapid) of ovarian follicle development , a single Graafian follicle ac…  ⟨corte: rupture⟩
+- `o#gbh`bHWd` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — If ovulation occurs , the residual elements of the ruptured ovarian follicle form the [ co…  ⟨corte: rupture⟩
+- `Gsy..;RP<A` (15_Repro::03_Physiology::04_Oogenesis::*Oogenesis) — If fertilization does not occur , the residual elements of the ruptured ovarian follicle a…  ⟨corte: rupture⟩
+- `p`R[gk:pce` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Klinefelter syndrome is associated with testicular [atrophy]  ⟨corte: syndrome⟩
+- `g|at&e,3zL` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Kartagener syndrome results in [ infertility ] in males and [ decreased fertility ] in fem…  ⟨corte: syndrome⟩
+- `HWq2Dm4Z`P` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Cystic fibrosis may cause [ infertility ] in men due to congenital bilateral absence of th…  ⟨corte: fibrosis⟩
+- `qj9p::;`1f` (Reproduction::02_Pregnancy_and_Menstruation::01_Gametogenesis) — Is spermatogenesis possible in a patient with cystic fibrosis ? [Yes]  ⟨corte: fibrosis⟩
+- `Ec#C|#dbZc` (03_Physiology::07_Repro::03_Menstrual_Cycle_&_Oogenesis) — Acquired GnRH deficiency (secondary amenorrhea) may be due to severe stress , [excessive e…  ⟨corte: deficiency⟩

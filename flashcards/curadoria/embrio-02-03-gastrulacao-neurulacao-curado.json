@@ -1,0 +1,118 @@
+{
+  "slug": "embrio-02-03-gastrulacao-neurulacao",
+  "tag_ancora": "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+  "target_deck": "UC02::Embriologia::Embrio II-III - gastrulação e neurulação",
+  "origem": "curadoria AnKing v12 card-a-card 2026-07-11; PDF pronto (sem etapa E1); gate B2",
+  "kept": [
+    {
+      "guid": "x@|]Ul/7^F",
+      "conceito": "1.1",
+      "raw0": "During <u>which week</u> of <b>gestation </b>does <i>gastrulation</i> occur?<br><br><div>{{c1::Week 3}}</div>"
+    },
+    {
+      "guid": "BE3z|1+%XU",
+      "conceito": "2.2",
+      "raw0": "<div><div>What is the <u>embryonic origin</u> of the <b>spinal cord</b>? </div><br><div>{{c1::Neural tube (neuroectoderm)}}</div></div>"
+    },
+    {
+      "guid": "EdLen3:c{K",
+      "conceito": "1.3d",
+      "raw0": "<div><div>What is the <u>embryonic origin</u> of the <b>alveolar</b>,<b> tracheal</b>,<b> </b>and<b> bronchial epithelium</b>? </div><br><div>{{c1::Endoderm}}</div></div>"
+    },
+    {
+      "guid": "ebbUcZLf,~",
+      "conceito": "2.4",
+      "raw0": "What is the <b>embryonic origin</b> of the <b>adrenal <u>medulla</u></b>?<br><br>{{c1::Neural crest}}"
+    },
+    {
+      "guid": "i*u9pD}D84",
+      "conceito": "2.3",
+      "raw0": "<div><div><div><div>Supplemental maternal {{c2::<b>folic acid (vitamin B<sub>9</sub>)</b>}} in early pregnancy <u>decreases</u> risk of {{c1::<b>neural tube</b>}}<b> defects</b> </div></div></div></div>"
+    },
+    {
+      "guid": "w-k=I?RX!C",
+      "conceito": "2.4",
+      "raw0": "<div><div>What is the <u>embryonic origin</u> of <b>PNS neurons</b>? </div><br><div>{{c1::Neural crest}}</div></div>"
+    },
+    {
+      "guid": "fzYZjOeR2j",
+      "conceito": "2.2",
+      "raw0": "<div><b>Neurulation</b> begins in the {{c1::<u>third</u>}} week of fetal development</div>"
+    },
+    {
+      "guid": "s<WuAD^jFm",
+      "conceito": "2.1",
+      "raw0": "<div>The {{c2::<b>notochord</b>}} induces the <u>overlying ectoderm</u> to form the {{c1::<b>neural plate (neuroectoderm)</b>}}</div>"
+    },
+    {
+      "guid": "F^&yJa=M2Y",
+      "conceito": "2.2",
+      "raw0": "<div>By the end of the <u>third</u> week, <b>neural </b>{{c2::<b>folds</b>}} grow over the midline and <i>fuse</i> to form the {{c1::<b>neural tube</b>}}</div>"
+    },
+    {
+      "guid": "s86Pe3^,Fq",
+      "conceito": "2.4",
+      "raw0": "<div>During <u>closure</u> of <b>neural</b> <b>folds</b>, the {{c1::neural crest}} cells form from <b>neuroectoderm</b></div>"
+    },
+    {
+      "guid": "smg|^|8F9L",
+      "conceito": "2.2",
+      "raw0": "<div><div>What is the <u>embryonic origin</u> of <b>CNS neurons</b>? </div><br><div>{{c1::Neural tube (neuroectoderm)}}</div></div>"
+    },
+    {
+      "guid": "dlf+0TRA<%",
+      "conceito": "1.4",
+      "raw0": "The embryonic {{c1::<b>notochord</b>}} becomes the {{c2::<b>nucleus pulposus</b>}} of the <u>intervertebral discs</u> in <b>adults</b>"
+    },
+    {
+      "guid": "NvR)r-r@Zs",
+      "conceito": "2.4",
+      "raw0": "<div><div>What is the <u>embryonic origin</u> of <b>melanocytes</b>?</div><br><div>{{c1::Neural crest}}</div></div>"
+    },
+    {
+      "guid": "s,jhW<B9Jx",
+      "conceito": "2.2",
+      "raw0": "<div><div>Within which <u>week of embryogenesis</u> does the <b>neural tube close</b>? </div><br><div>{{c1::Week 4}}</div></div>"
+    },
+    {
+      "guid": "tjI:LHmr:6",
+      "conceito": "2.4",
+      "raw0": "<div><div><div><div>What is the <u>embryonic origin</u> of the <b>odontoblasts</b> and <b>bones of the skull</b>? </div><br><div>{{c1::Neural crest}}</div></div></div></div>"
+    },
+    {
+      "guid": "efSV8_1k@4",
+      "conceito": "1.3d",
+      "raw0": "<div>What is the <u>embryonic origin</u> of the <b>muscle</b>, <b>bone</b>, and <b>connective tissue</b>? </div><br><div>{{c1::Meso::Endo/Meso/Ecto}}derm<br></div>"
+    },
+    {
+      "guid": "v_XHg56iW]",
+      "conceito": "1.3d",
+      "raw0": "<div>What is the <u>embryonic origin</u> of the <b>blood</b> and <b>lymphatics</b>? </div><br><div>{{c1::Meso::Endo/Meso/Ecto}}derm<br></div>"
+    },
+    {
+      "guid": "w(`XSD)~|c",
+      "conceito": "3.1b",
+      "raw0": "<div>What is the <u>embryonic origin</u> of the <b>kidneys</b>? </div><br><div>{{c1::Meso::Endo/Meso/Ecto}}derm<br></div>"
+    },
+    {
+      "guid": "G8_eCTX61p",
+      "conceito": "3.1b",
+      "raw0": "<div>What is the <u>embryonic origin</u> of the <b>ovaries</b>/<b>testis</b>? </div><br><div>{{c1::Meso::Endo/Meso/Ecto}}derm<br></div>"
+    },
+    {
+      "guid": "D9?3So`}D!",
+      "conceito": "2.3",
+      "raw0": "<div>What <u>pathology</u> is associated with disruption of the <b>cranial end</b> of the <b>neural tube</b>? </div><br><div>{{c1::Anencephaly}}</div>"
+    },
+    {
+      "guid": "D{$vot,r*I",
+      "conceito": "2.3",
+      "raw0": "<div><div>What <u>pathology</u> is associated with disruption of the <b>caudal end</b> of the <b>neural tube</b>? </div><br><div>{{c1::Spina bifida}}</div></div>"
+    },
+    {
+      "guid": "qIFs-TmnMT",
+      "conceito": "1.3d",
+      "raw0": "<div>What is the <u>embryonic origin</u> of the <b>gut tube epithelium</b> and <i>most</i> major <b>organs</b> (e.g., lungs, liver, gallbladder, pancreas)? </div><br><div>{{c1::Endo::Endo/Meso/Ecto}}derm<br></div>"
+    }
+  ]
+}

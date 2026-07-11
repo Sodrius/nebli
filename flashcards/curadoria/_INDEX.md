@@ -24,8 +24,12 @@ No **Browse** do Anki, digite a tag-âncora da aula:
 | biomol-25-mutacao-reparo-recombinacao | UC02/Bio. Molecular | copiado p/ deck-aula | 37/42 | 2026-07-11 | 11/18 COBERTO (1 parc, 6 lac) | 1.5 proofreading · 1.6 5-BrU · 2.1 fotoliase · 2.2 MGMT · 2.6 SOS · 3.5 lambda attB → slide/E1 | `NEBLI::biomol-25-mutacao-reparo-recombinacao` |
 | bioq-23-aminoacidos-ureia | UC02/Bioquímica | copiado p/ deck-aula | 74/114 | 2026-07-11 | 13/17 COBERTO (2 parc, 2 lac) | 1.1 turnover · 1.2 balanço N₂ → slide/E1; biciclo Krebs parcial | `NEBLI::bioq-23-aminoacidos-ureia` |
 | bioq-21-lipideos-rotas | UC02/Bioquímica | copiado p/ deck-aula | 60/83 | 2026-07-11 | 9/13 COBERTO (1 parc, 1 lac) | 2.1 conta ATP palmitato (peças) · 2.2 gordura vs glicose → slide/E1 | `NEBLI::bioq-21-lipideos-rotas` |
+| embrio-01-gametogenese-fertilizacao | UC02/Embriologia | export-add p/ deck-aula (PDF pronto) | 14 AnKing + 17 NEBLIgerado = 31 notes/40 cards | 2026-07-11 | 8/19 por AnKing; toda a PARTE III (fertilização) é NEBLIcard | AFP/rastreio · não-disjunção clínica (fora do escopo da E1) | `NEBLI::embrio-01-gametogenese-fertilizacao` |
+| embrio-02-03-gastrulacao-neurulacao | UC02/Embriologia | export-add p/ deck-aula (PDF pronto) | 22 AnKing + 15 NEBLIgerado = 37 notes/41 cards | 2026-07-11 | derivados via AnKing; processo (EMT, neuroporo, somito, dobramentos) é NEBLIcard | AFP em DTN aberto → falta na E1 | `NEBLI::embrio-02-03-gastrulacao-neurulacao` |
 
-**Total: 3 aulas ativas (deck de teste UC02:: — 171 notes / 239 cards).**
+**Total: 5 aulas ativas (deck de teste UC02:: — 3 copiadas + 2 embrio export-add = 279 notes / 320 cards).**
+
+> **Nota técnica (2026-07-11):** os 2 decks de embrio foram feitos a partir de **PDF pronto** (sem etapa de E1 sendo redigida) → gate B2 estrito: só entrou conceito já na E1; nada de aprofundamento novo. O `copiar_curadoria_para_deck.py` (match ao vivo) casou só 5/22 no deck 2 porque o **export ⊋ coleção viva** do Davi (cards atualizados/ausentes); usei `aplicar_deck_export.py` (novo) que adiciona os notes a partir do conteúdo do export — determinístico, independe do subset vivo. AnKing embrio cobre **derivados** (high-yield Step 1), quase não cobre a **coreografia** (fertilização, EMT, neuroporos, somito, dobramentos) → daí o volume de NEBLIcards.
 
 ## Notas
 - Entradas novas (método card-a-card) trazem `#cards` reais, `%cobertura` e `lacunas→fonte` preenchidos pelo manifesto da aula.
