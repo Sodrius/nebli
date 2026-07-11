@@ -1,196 +1,458 @@
 {
   "slug": "bioq-23-aminoacidos-ureia",
   "tag_ancora": "NEBLI::bioq-23-aminoacidos-ureia",
-  "tags_puras": [],
-  "impuras": [
+  "target_deck": "UC02::Bioquímica::Metabolismo dos aminoácidos",
+  "n_kept": 75,
+  "kept": [
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::01_Introduction_to_Proteins",
-      "guids_kept": [
-        "xx%5cls,yo"
-      ]
+      "guid": "XjjHv,Sg3",
+      "conceito": "1.6",
+      "front": "When proteins are misfolded , multiple [ubiquitins] are added, which aids in trafficking to the proteasome",
+      "raw0": "<div>When proteins are <b>misfolded</b>, multiple {{c1::ubiquitins}} are added, which aids in trafficking to the <i>proteasome</i></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Basics",
-      "guids_kept": [
-        "mlwF:$cuE)",
-        "fCt5YO^/i:",
-        "w:cvRa;tb4",
-        "n65MnNuZat",
-        "e&+/z=,+{>"
-      ]
+      "guid": "PxbQ:G[?T`",
+      "conceito": "1.6",
+      "front": "The [proteasome] is a barrel-shaped protein complex that degrades damaged or ubiquitin-tagged proteins",
+      "raw0": "<div>The {{c1::proteasome}} is a barrel-shaped protein complex that degrades damaged or <b>ubiquitin-tagged</b> proteins</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::12_Branched_Chain_Amino_Acids",
-      "guids_kept": [
-        "Pd2oHzpWuj",
-        "I2CmA/oKiQ",
-        "ks}6Rqj;IO",
-        "xU].S!4W-r"
-      ]
+      "guid": "z53p~@7_o=",
+      "conceito": "1.6",
+      "front": "[ Ubiquitin ] ation of proteins recruits the [ proteasome ] to degrade them",
+      "raw0": "<div>{{c1::<b>Ubiquitin</b>}}<b>ation</b> of proteins recruits the {{c2::<b>proteasome</b>}} to degrade them</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::02_Protein_Digestion_and_Absorption:_Stomach_Digestion_and_Endopeptidases",
-      "guids_kept": [
-        "NF,U5$hZo(",
-        "JKmW;$0N)~",
-        "oVP:_LrGvD",
-        "O|cNc=BXu~",
-        "xBp_+kM(kT",
-        "tvEjrMn<Dz",
-        "p9vyBpTE;.",
-        "FJv}xiJ(])",
-        "b]_`hD&R[Q",
-        "rbjz5NWZw]"
-      ]
+      "guid": "gKTeo9*L/f",
+      "conceito": "1.6",
+      "front": "The ubiquitin-proteasome system is recruited in response to [ damaged ] proteins as a result of cellular stres",
+      "raw0": "The <b>ubiquitin-proteasome system</b> is recruited in response to {{c1::<b>damaged</b>}}<b> </b>proteins as a result of cellular stress"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption",
-      "guids_kept": [
-        "IkM:;[8%K9"
-      ]
+      "guid": "JlOxE0~=|p",
+      "conceito": "2.3",
+      "front": "What is the coenzyme (active) form of vitamin B 6 ? [Pyridoxal phosphate (PLP)]",
+      "raw0": "<div><div>What is the <i>coenzyme</i> (active) form of <b>vitamin B<sub>6</sub></b>? </div><br><div>{{c1::Pyridoxal phosphate (PLP)}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::05_Ubiquitin_-Proteasome",
-      "guids_kept": [
-        "XjjHv,Sg3",
-        "PxbQ:G[?T`",
-        "z53p~@7_o=",
-        "gKTeo9*L/f",
-        "vx(mEe%V!t"
-      ]
+      "guid": "lj#Okhcf0r",
+      "conceito": "2.3",
+      "front": "What vitamin is used as a cofactor for transamination , decarboxylation reactions , and glycogen phosphorylase",
+      "raw0": "<div>What <u>vitamin</u> is used as a <i>cofactor</i> for <b>transamination</b>, <b>decarboxylation reactions</b>, and <b>glycogen phosphorylase</b>?</div><br><div>{{c1::B<sub>6</sub> (pyridoxal phosphate)}}<br></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::14_Ammonia_Transport_Cahill_(Alanine)_Cycle",
-      "guids_kept": [
-        "wZ@XuH5;NV",
-        "D_De4kY^cE",
-        "z%C`.Rb*Cv",
-        "u3U/`7SL.q",
-        "QLqL-K$,Mn",
-        "bXYI%a7Swl",
-        "lWBzfrb/0c",
-        "vZQy.xy{kI",
-        "Q4{Hj04Au2",
-        "w}z+SX7MWd"
-      ]
+      "guid": "t[Gl}I6S+o",
+      "conceito": "1.4",
+      "front": "[ Kwashiorkor ] is a malnutrition disorder that results from a(n) [ protein ] -deficient diet",
+      "raw0": "<div>{{c1::<b>Kwashiorkor</b>}} is a <i>malnutrition</i> disorder that results from a(n) {{c2::<b>protein</b>}}<b>-deficient diet</b></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::02_Amino_Acids_&_Proteins::08_Cahill_Cori_Cycles",
-      "guids_kept": [
-        "jkH:E[(XCB"
-      ]
+      "guid": "z`iFYf_4^m",
+      "conceito": "1.4",
+      "front": "The symptoms of [Kwashiorkor] may be remembered with the mnemonic \" MEALS \": [ M alnutrition] [ E dema] [ A ne",
+      "raw0": "<div>The symptoms of <b>{{c1::Kwashiorkor}}</b> may be remembered with the mnemonic \"<b>MEALS</b>\":</div><br><div><div class=\"mnemonics\"><div>{{c1::<u>M</u>alnutrition::<b>M</b>}}</div><div>{{c1::<u>E</u>dema::<b>E</b>}}</div><div>{{c1::<u>A</u>nemia::<b>A</b>}}</div><div>{{c1::<u>L</u>iver (fatty)::<b>L</b>}}</div><div>{{c1::<u>S</u>kin lesions (dyspigmentation, hyperkeratosis, etc.)::<b>S</b>}}</div></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::15_Ammonia_Transport_Cori_(Lactic_Acid)_Cycle_Glutamine",
-      "guids_kept": [
-        "HW}[6lqtrv",
-        "sF_!99^xPu",
-        "pcTd9j~;E9"
-      ]
+      "guid": "v2W+vm(G1D",
+      "conceito": "1.4",
+      "front": "Kwashiorkor may present with edema (due to decreased plasma [oncotic] pressure) and skin lesions",
+      "raw0": "<div><div><b>Kwashiorkor</b> may present with <b>edema</b> (due to <u>decreased</u> plasma {{c1::oncotic}} pressure) and <b>skin lesions</b></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::04_Ammonia::Extra",
-      "guids_kept": [
-        "e6NVfyAC97"
-      ]
+      "guid": "NIu)2Tj/#w",
+      "conceito": "1.4",
+      "front": "Kwashiorkor may present as liver malfunction with fatty change due to decreased [apolipoprotein] synthesis",
+      "raw0": "<div><div><b>Kwashiorkor</b> may present as <b>liver malfunction </b>with <b>fatty change</b> due to <u>decreased</u> {{c1::apolipoprotein}} synthesis</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::16_Urea_Cycle_Pathway",
-      "guids_kept": [
-        "zb/zN%(S,B",
-        "Dn}eE=Vk0,",
-        "iBragZr`GY",
-        "uWx#,?8}8n",
-        "l_?4W2sTp{",
-        "xJ)rl&xU2<",
-        "Dw3-+2s|l|",
-        "d;Gij(Cz|L",
-        "eH~2TvRo6l",
-        "MUs@wN0G7e",
-        "fNqj{`7]HD",
-        "y9x,U?-0^,",
-        "I,}oNREhR&"
-      ]
+      "guid": "B,VgZ`}_$N",
+      "conceito": "1.4",
+      "front": "[ Marasmus ] is a malnutrition disorder that results from a(n) [ calorie ] -deficient diet",
+      "raw0": "<div>{{c1::<b>Marasmus</b>}} is a <i>malnutrition</i> disorder that results from a(n) {{c2::<b>calorie</b>}}<b>-deficient diet</b></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::23_Urea_cycle",
-      "guids_kept": [
-        "Co`G<97skG",
-        "Kx.8LMUgzy",
-        "I7v4Quw[rO"
-      ]
+      "guid": "K#Ok!2_(dc",
+      "conceito": "1.4",
+      "front": "[ Marasmus ] is a malnutrition disorder characterized by emaciation with tissue and muscle wasting and loss of",
+      "raw0": "<div><div>{{c1::<b>Marasmus</b>}} is a <i>malnutrition</i> disorder characterized by <u>emaciation</u> with <b>tissue</b> and <b>muscle wasting</b> and loss of subcutaneous fat without edema</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::17_Urea_Cycle_Clinical_Implications",
-      "guids_kept": [
-        "sOPWi##LYJ",
-        "h0TU@xYD^t",
-        "O~HvN,jNh!",
-        "oYn(TIgem&"
-      ]
+      "guid": "mlwF:$cuE)",
+      "conceito": "1.7",
+      "front": "Which amino acids are only ketogenic ? [Leucine and lysine]",
+      "raw0": "<div>Which <b>amino acids</b> are <i>only</i> <b>ketogenic</b>? </div><br><div>{{c1::Leucine and lysine::2}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::18_Disorders_Of_The_Urea_Cycle",
-      "guids_kept": [
-        "rg$=p|zphB",
-        "xug|mzq!*8",
-        "NZuP(>[jT7",
-        "PF#PEhqcCi",
-        "vYv&XKo`LG",
-        "O38Xo,QIbt",
-        "E1p#`C}6^w",
-        "Q`CIg#d7Ej",
-        "d[Nk,N1M7|",
-        "Pto;A?fPe("
-      ]
+      "guid": "fCt5YO^/i:",
+      "conceito": "1.3",
+      "front": "The amino acid [ arginine ] is essential during periods of [ positive ] nitrogen balance",
+      "raw0": "<div>The amino acid {{c1::<b>arginine</b>}} is essential during periods of {{c2::<u>positive</u>}} <b>nitrogen balance</b> </div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::04_Phenylalanine_Tyrosine_and_Catecholamines",
-      "guids_kept": [
-        "K>PWO)|/6G",
-        "iKY~M@%[&w",
-        "u>Sl|iq*K6",
-        "I./wW!(V3-",
-        "pR.(GO,83-",
-        "m6uBO)o[gc",
-        "u@6qJ<Y5B["
-      ]
+      "guid": "Kx.8LMUgzy",
+      "conceito": "3.1",
+      "front": "What happens to the urea that is formed via the breakdown of arginine ? [Excreted in the urine]",
+      "raw0": "<div>What happens to the <b>urea</b> that is formed via the <u>breakdown of arginine</u>? </div><br><div>{{c1::Excreted in the urine}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::05_Clinical_Implications_of_Phenylalanine_Metabolism:_Phenylketonuria",
-      "guids_kept": [
-        "ORNLiJmZ%c",
-        "O;<+%YnACF",
-        "v+Ts<o6YZ4",
-        "u12i4K[[]u",
-        "Q7v7@HVnOx"
-      ]
+      "guid": "Co`G<97skG",
+      "conceito": "3.1",
+      "front": "What happens to the ornithine that is formed via the breakdown of arginine (urea cycle)? [It is recycled]",
+      "raw0": "<div>What happens to the <b>ornithine</b> that is formed via the <u>breakdown of arginine</u> (urea cycle)? </div><br><div>{{c1::It is recycled}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::22_Amino_acids::*Amino_Acid_Breakdown",
-      "guids_kept": [
-        "H&pKqpZgi$",
-        "cCt~xUu*&W"
-      ]
+      "guid": "jkH:E[(XCB",
+      "conceito": "2.3",
+      "front": "What vitamin acts as a cofactor for aminotransferase enzymes? [Vitamin B 6 (Pyridoxal phosphate)]",
+      "raw0": "<div>What <u>vitamin</u> acts as a <i>cofactor</i> for <i style=\"font-weight: bold;\">aminotransferase</i> enzymes? </div><br><div>{{c1::Vitamin B<sub>6 </sub>(Pyridoxal phosphate)}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::01_Amino_Acids",
-      "guids_kept": [
-        "HM,@Q^ec,t"
-      ]
+      "guid": "ONcfoErCzU",
+      "conceito": "2.5",
+      "front": "In the kidney , glutamine may be broken down into [ NH 4 + ] and [ glutamate ] via the enzyme glutaminase",
+      "raw0": "<div>In the <i>kidney</i>, <b>glutamine</b> may be broken down into {{c1::<b>NH<sub>4</sub><sup>+</sup></b>}} and {{c2::<b>glutamate</b>}} via the enzyme <i>glutaminase</i></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::03_Amino_Acids::02_Phenylalanine_and_Tyrosine",
-      "guids_kept": [
-        "s`ige<(r?N",
-        "rc)22IWJY("
-      ]
+      "guid": "OTs_MJW17!",
+      "conceito": "3.4",
+      "front": "What treatment for hyperammonemia acts by acidifying the GI tract , thus trapping NH 4 + for excretion? [Lactu",
+      "raw0": "<div>What <u>treatment</u> for <b>hyperammonemia</b> acts by <b>acidifying the GI tract</b>, thus trapping NH<sub>4</sub><sup>+</sup> for excretion? </div><br><div>{{c1::Lactulose}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::13_Summary_of_High_Yield_Disorders_of_Amino_Acid_Metabolism",
-      "guids_kept": [
-        "c#:kun9ms?"
-      ]
+      "guid": "kKuEyBfvfn",
+      "conceito": "3.4",
+      "front": "What three treatments for hyperammonemia act by reacting with glycine / glutamine , forming products that are ",
+      "raw0": "What three <u>treatments</u> for <b>hyperammonemia</b> act by <i>reacting</i> with <u>glycine</u> / <u>glutamine</u>, forming products that are <b>renally excreted</b>? <br><br>- {{c1::Benzoate}}<br>- {{c1::Phenylacetate}}<br>- {{c1::Phenylbutyrate}}"
+    },
+    {
+      "guid": "M?sDt.^F$4",
+      "conceito": "1.5",
+      "front": "Are pancreatic proteases secreted in an active or inactive form? [Inactive (proenzymes/zymogens)]",
+      "raw0": "<div>Are <b>pancreatic proteases</b> secreted in an <u>active</u> or <u>inactive</u> form? </div><br><div>{{c1::Inactive (proenzymes/zymogens)}}</div>"
+    },
+    {
+      "guid": "xx%5cls,yo",
+      "conceito": "1.3",
+      "front": "What are the 9 (10*) essential amino acids ? [Phenylalanine] [Valine] [Threonine] [Tryptophan] [Isoleucine] [M",
+      "raw0": "<div>What are the <u>9 (10*)</u> <b>essential amino acids</b>? </div><div><div class=\"mnemonics\"><br><div>{{c1::Phenylalanine}}</div><div>{{c1::Valine}}</div><div>{{c1::Threonine}}</div><br><div>{{c2::Tryptophan}} </div><div>{{c2::Isoleucine}}</div><div>{{c2::Methionine}}</div><br><div>{{c3::Histidine}} </div><div>{{c3::Arginine}}* <i>during periods of growth</i></div><div>{{c3::Lysine}}</div><div>{{c3::Leucine}}</div></div></div>"
+    },
+    {
+      "guid": "jLQd{iNz8N",
+      "conceito": "1.7",
+      "front": "Are the essential amino acids methionine , valine , and histidine ketogenic or glucogenic ? [Glucogenic]",
+      "raw0": "<div>Are the <i>essential </i>amino acids <b>methionine</b>, <b>valine</b>, and <b>histidine</b> <u>ketogenic</u> or <u>glucogenic</u>? </div><br><div>{{c1::Glucogenic}}</div>"
+    },
+    {
+      "guid": "BImfm8S~Yk",
+      "conceito": "1.7",
+      "front": "Are the amino acids phenylalanine , isoleucine , threonine , tryptophan, and tyrosine ketogenic or glucogenic ",
+      "raw0": "<div>Are the<i> </i>amino acids <b>phenylalanine</b>, <b>isoleucine</b>, <b>threonine</b>, <b>tryptophan, </b>and <b>tyrosine </b><u>ketogenic</u> or <u>glucogenic</u>? </div><br><div>{{c1::Both :)}}</div>"
+    },
+    {
+      "guid": "NF,U5$hZo(",
+      "conceito": "1.5",
+      "front": "Pepsinogen (inactive) is converted into [ pepsin ] (active) in the presence of [ H + ]",
+      "raw0": "<div><b>Pepsinogen</b> (inactive) is converted into {{c1::<b>pepsin</b>}} (active) in the presence of {{c2::<b>H<sup>+</sup></b>}}</div>"
+    },
+    {
+      "guid": "JKmW;$0N)~",
+      "conceito": "1.5",
+      "front": "Digestion of protein begins in the stomach with the action of [pepsin]",
+      "raw0": "<div>Digestion of <b>protein</b> begins in the <u>stomach</u> with the action of {{c1::pepsin}}</div>"
+    },
+    {
+      "guid": "oVP:_LrGvD",
+      "conceito": "1.5",
+      "front": "The first step in intestinal protein digestion involves activation of [ trypsinogen ] (inactive) to [ trypsin ",
+      "raw0": "<div>The first step in <u>intestinal</u> <b>protein digestion</b> involves activation of {{c1::<b>trypsinogen</b>}} (inactive) to {{c1::<b>trypsin</b>}} (active)</div>"
+    },
+    {
+      "guid": "O|cNc=BXu~",
+      "conceito": "1.5",
+      "front": "Trypsinogen is converted to trypsin via [ enteropeptidase ( enterokinase ) ], a brush-border enzyme on duodena",
+      "raw0": "<div><b>Trypsinogen</b> is converted to <b>trypsin</b> via {{c1::<b>enteropeptidase </b><span style=\"font-style: italic;\">(</span><b style=\"font-style: italic;\">enterokinase</b><span style=\"font-style: italic;\">)</span>}}, a brush-border enzyme on duodenal and jejunal mucosa</div>"
+    },
+    {
+      "guid": "xBp_+kM(kT",
+      "conceito": "1.5",
+      "front": "Which pancreatic protease cleaves all pancreatic proenzymes to their active forms? [Trypsin]",
+      "raw0": "<div>Which <u>pancreatic protease</u> cleaves <b>all pancreatic proenzymes</b> to their active forms? </div><br><div>{{c1::Trypsin}}</div>"
+    },
+    {
+      "guid": "tvEjrMn<Dz",
+      "conceito": "1.5",
+      "front": "[ Chymotrypsinogen ] (inactive) is activated to chymotrypsin (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Chymotrypsinogen</b>}} (inactive) is activated to <b>chymotrypsin</b> (active) via <i>trypsin</i></div>"
+    },
+    {
+      "guid": "p9vyBpTE;.",
+      "conceito": "1.5",
+      "front": "[ Proelastase ] (inactive) is activated to elastase (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Proelastase</b>}} (inactive) is activated to <b>elastase</b> (active) via <i>trypsin</i></div>"
+    },
+    {
+      "guid": "FJv}xiJ(])",
+      "conceito": "1.5",
+      "front": "[ Procarboxypeptidase ] (inactive) is activated to carboxypeptidase (active) via trypsin",
+      "raw0": "<div>{{c1::<b>Procarboxypeptidase</b>}} (inactive) is activated to <b>carboxypeptidase</b> (active) via <i>trypsin</i> </div>"
+    },
+    {
+      "guid": "K>PWO)|/6G",
+      "conceito": "3.5",
+      "front": "[ Phenylalanine ] may be converted to [ tyrosine ] via the enzyme [ phenylalanine hydroxylase ], with [ BH 4 (",
+      "raw0": "{{c3::<b>Phenylalanine</b>}} may be converted to {{c1::<b>tyrosine</b>}} via the enzyme {{c2::<i>phenylalanine hydroxylase</i>}},<i> </i>with {{c4::<b>BH<sub>4</sub></b> (tetrahydrobiopterin)}} as a cofactor<div></div>"
+    },
+    {
+      "guid": "iKY~M@%[&w",
+      "conceito": "3.5",
+      "front": "Deficiency of the enzyme [ phenylalanine hydroxylase ] causes [phenylketonuria (PKU) ]",
+      "raw0": "<div>Deficiency of the enzyme {{c1::<b><i>phenylalanine hydroxylase</i></b>}} causes <b>{{c2::phenylketonuria</b> (PKU)<b>}}</b></div>"
+    },
+    {
+      "guid": "m6uBO)o[gc",
+      "conceito": "3.5",
+      "front": "Increased phenylalanine (e.g., in PKU) results in excess [phenylketones] in the urine",
+      "raw0": "<div><u>Increased</u> <b>phenylalanine</b> (e.g., in PKU) results in <i>excess</i> {{c1::phenylketones}} in the urine</div>"
+    },
+    {
+      "guid": "u>Sl|iq*K6",
+      "conceito": "3.5",
+      "front": "[ Phenylketonuria (PKU)] is a metabolic disorder characterized by a(n) [ musty ] body odor",
+      "raw0": "<div>{{c2::<b>Phenylketonuria </b>(PKU)}} is a <i>metabolic disorder</i> characterized by a(n) {{c1::<b>musty</b>}}<b> body odor</b></div>"
+    },
+    {
+      "guid": "I./wW!(V3-",
+      "conceito": "3.5",
+      "front": "Patients with phenylketonuria (PKU) must avoid the artificial sweetener [aspartame], which contains phenylalan",
+      "raw0": "<div>Patients with <b>phenylketonuria</b> (PKU) must avoid the <u>artificial sweetener</u> {{c1::aspartame}}, which contains phenylalanine</div>"
+    },
+    {
+      "guid": "ORNLiJmZ%c",
+      "conceito": "3.5",
+      "front": "What is the mode of inheritance of phenylketonuria (PKU)? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>phenylketonuria</b> (PKU)? </div><br><div>{{c1::Autosomal recessive}}</div>"
+    },
+    {
+      "guid": "u12i4K[[]u",
+      "conceito": "3.5",
+      "front": "Phenylketonuria may present with [ hypopigmented ] skin , eczema, [ intellectual ] disability , growth retarda",
+      "raw0": "<div><b>Phenylketonuria</b> may present with {{c1::<b>hypopigmented</b>}} <b>skin</b>, eczema, {{c2::<b>intellectual</b>}} <b>disability</b>, growth retardation, and <b>seizures</b> </div>"
+    },
+    {
+      "guid": "Q7v7@HVnOx",
+      "conceito": "3.5",
+      "front": "Treatment for phenylketonuria includes a diet low in [ phenylalanine ] with supplemental [ tyrosine ] ± [ BH 4",
+      "raw0": "<div>Treatment for <b>phenylketonuria</b> includes a diet <u>low</u> in {{c1::<b>phenylalanine</b>}} with <i>supplemental</i> {{c2::<b>tyrosine</b>}} ± {{c3::<b>BH<sub>4</sub><span style=\"font-size: 9px;\"><sub>  </sub></span>(tetrahydrobiopterin)</b>}} </div>"
+    },
+    {
+      "guid": "zb/zN%(S,B",
+      "conceito": "3.1",
+      "front": "Urea has two nitrogen molecules , one from [ NH 3 ] and one from [ aspartate ]",
+      "raw0": "<div><b>Urea</b> has <u>two</u> <b>nitrogen molecules</b>, one from {{c1::<b>NH<sub>3</sub></b>}} and one from {{c2::<b>aspartate</b>}}</div>"
+    },
+    {
+      "guid": "QLqL-K$,Mn",
+      "conceito": "2.2",
+      "front": "In the muscle , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ke",
+      "raw0": "<div>In the <i>muscle</i>, <b>amino acids</b> transfer their NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>α-ketoacids</b>}}</div>"
+    },
+    {
+      "guid": "bXYI%a7Swl",
+      "conceito": "2.5",
+      "front": "In the muscle , glutamate transfers its NH 3 group to [ pyruvate ], forming [ alanine ] and [ α-ketoglutarate ",
+      "raw0": "<div>In the <i>muscle</i>, <b>glutamate</b> transfers its NH<sub>3</sub> group to {{c1::<b>pyruvate</b>}}, forming {{c2::<b>alanine</b>}} and {{c3::<b>α-ketoglutarate</b>}}</div>"
+    },
+    {
+      "guid": "vZQy.xy{kI",
+      "conceito": "2.5",
+      "front": "In the liver , alanine transfers its NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ pyruvate ]",
+      "raw0": "<div>In the <i>liver</i>, <b>alanine</b> transfers its NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>pyruvate</b>}}</div>"
+    },
+    {
+      "guid": "u3U/`7SL.q",
+      "conceito": "2.4",
+      "front": "In the liver , [ glutamate ] may transfer a molecule of NH 3 to the urea cycle , reforming α-ketoglutarate",
+      "raw0": "<div>In the <i>liver</i>, {{c1::<b>glutamate</b>}} may <u>transfer a molecule of NH<sub>3</sub> to the urea cycle</u>, reforming <b>α-ketoglutarate</b></div>"
+    },
+    {
+      "guid": "yR{zY7^L5v",
+      "conceito": "2.2",
+      "front": "In the liver , amino acids transfer their NH 3 group to [ α-ketoglutarate ], forming [ glutamate ] and [ α-ket",
+      "raw0": "<div>In the <i>liver</i>, <b>amino acids</b> transfer their NH<sub>3</sub> group to {{c1::<b>α-ketoglutarate</b>}}, forming {{c2::<b>glutamate</b>}} and {{c3::<b>α-ketoacids</b>}}<b>    </b></div>"
+    },
+    {
+      "guid": "z%C`.Rb*Cv",
+      "conceito": "2.3",
+      "front": "In the liver , glutamate may transfer its NH 3 to [ oxaloacetate ], forming [ aspartate ] and [ α-ketoglutarat",
+      "raw0": "<div>In the <i>liver</i>, <b>glutamate</b> may transfer its NH<sub>3</sub> to {{c1::<b>oxaloacetate</b>}}, forming {{c2::<b>aspartate</b>}} and {{c3::<b>α-ketoglutarate</b>}}</div>"
+    },
+    {
+      "guid": "d;Gij(Cz|L",
+      "conceito": "3.2",
+      "front": "[ N-acetylglutamate ] is a(n) [obligate] activator of carbamoyl phosphate synthetase I",
+      "raw0": "<div><div>{{c1::<b>N-acetylglutamate</b>}} is a(n) <u>{{c2::obligate}} activator</u> of <i style=\"font-weight: bold;\">carbamoyl phosphate synthetase I</i></div></div>"
+    },
+    {
+      "guid": "fNqj{`7]HD",
+      "conceito": "3.2",
+      "front": "Argininosuccinate may be broken down into [ arginine ] and [ fumarate ] via the enzyme argininosuccinase",
+      "raw0": "<div><b>Argininosuccinate</b> may be broken down into {{c1::<b>arginine</b>}} and {{c2::<b>fumarate</b>}} via the enzyme <i>argininosuccinase</i></div>"
+    },
+    {
+      "guid": "y9x,U?-0^,",
+      "conceito": "3.2",
+      "front": "Arginine may be broken down into [ ornithine ] and [ urea ] via the enzyme [ arginase ]",
+      "raw0": "<div><b>Arginine</b> may be broken down into<b> </b>{{c1::<b>ornithine</b>}} and {{c1::<b>urea</b>}} via the enzyme {{c3::<i><u>arginase</u></i>}}</div>"
+    },
+    {
+      "guid": "sOPWi##LYJ",
+      "conceito": "2.4",
+      "front": "Hyperammonemia results in excess NH 3 , which depletes [ α-ketoglutarate ], leading to inhibition of the TCA c",
+      "raw0": "<div><b>Hyperammonemia</b> results in <u>excess</u> <b>NH<sub>3</sub></b>, which <i>depletes</i> {{c1::<b>α-ketoglutarate</b>}}, leading to inhibition of the TCA cycle </div>"
+    },
+    {
+      "guid": "O~HvN,jNh!",
+      "conceito": "3.4",
+      "front": "Symptoms of hyperammonemia include tremor ([asterixis]), slurred speech, somnolence, vomiting, cerebral edema,",
+      "raw0": "Symptoms of <b>hyperammonemia</b> include tremor ({{c1::asterixis}}), slurred speech, somnolence, vomiting, cerebral edema, and blurry vision"
+    },
+    {
+      "guid": "lWBzfrb/0c",
+      "conceito": "2.5",
+      "front": "The NH 3 from amino acid breakdown in muscle is transported into the blood in the form of [ alanine ]",
+      "raw0": "<div>The <b>NH<sub>3</sub></b> from <i>amino acid breakdown</i> in <u>muscle</u> is transported into the blood in the form of {{c1::<b>alanine</b>}}</div>"
+    },
+    {
+      "guid": "wZ@XuH5;NV",
+      "conceito": "2.2",
+      "front": "What class of enzymes is used in the transfer of NH 3 groups during nitrogen metabolism ? [Aminotransferases]",
+      "raw0": "<div>What <i>class</i> of enzymes is used in the transfer of <b>NH<sub>3</sub> groups</b> during <u>nitrogen metabolism</u>?</div><br><div>{{c1::Aminotransferases}}</div>"
+    },
+    {
+      "guid": "D_De4kY^cE",
+      "conceito": "2.3",
+      "front": "Pyruvate is converted to [alanine] via the enzyme [ alanine aminotransferase (ALT) ] (Cahill cycle)",
+      "raw0": "<div><div><b>Pyruvate</b> is converted to <b>{{c2::alanine}}</b> via the enzyme {{c1::<b><i>alanine aminotransferase</i> (ALT)</b>}} (Cahill cycle)</div></div>"
+    },
+    {
+      "guid": "Q4{Hj04Au2",
+      "conceito": "2.5",
+      "front": "What is the major gluconeogenic amino acid in the liver? [Alanine]",
+      "raw0": "What is the major <b>gluconeogenic</b> <b>amino</b> <b>acid</b> in the liver? <br><br><div>{{c1::Alanine}}</div>"
+    },
+    {
+      "guid": "w}z+SX7MWd",
+      "conceito": "2.5",
+      "front": "Alanine is converted to [pyruvate] by alanine aminotransferase (ALT) during the process of gluconeogenesis",
+      "raw0": "<b>Alanine</b> is converted to {{c1::pyruvate}} by <i>alanine aminotransferase</i> (ALT) during the process of <b>gluconeogenesis</b>"
+    },
+    {
+      "guid": "sF_!99^xPu",
+      "conceito": "2.5",
+      "front": "What is the major transport form of NH 3 in the blood (from most tissues )? [Glutamine]",
+      "raw0": "<div>What is the <u>major transport</u> form of <b>NH<sub>3</sub></b> in the blood (from <i>most tissues</i>)? </div><br><div>{{c1::Glutamine}}</div>"
+    },
+    {
+      "guid": "pcTd9j~;E9",
+      "conceito": "2.5",
+      "front": "Which tissue/organ uses alanine as its major transport form of NH 3 ? [Muscle]",
+      "raw0": "<div>Which tissue/organ uses <b>alanine</b> as its <u>major transport form</u> of <b>NH<sub>3</sub></b>?</div><br><div>{{c1::Muscle}}</div>"
+    },
+    {
+      "guid": "HW}[6lqtrv",
+      "conceito": "2.3",
+      "front": "[ Alcoholic ] hepatitis is characterized by elevated liver enzymes with ALT [ < ] AST",
+      "raw0": "<div><div>{{c2::<b>Alcoholic</b>}} <b>hepatitis</b> is characterized by <u>elevated</u> <b>liver enzymes</b> with <b>ALT</b> {{c1::<b>&lt;</b>}} <b>AST</b> </div></div>"
+    },
+    {
+      "guid": "Dn}eE=Vk0,",
+      "conceito": "3.1",
+      "front": "Does the urea cycle occur in the cytoplasm or mitochondria ? [Both :)]",
+      "raw0": "Does the <b>urea cycle</b> occur in the <u>cytoplasm</u> or <u>mitochondria</u>? <br><br><div>{{c1::Both :)}}</div>"
+    },
+    {
+      "guid": "iBragZr`GY",
+      "conceito": "3.1",
+      "front": "Where in the cell does the urea cycle begin ? [Mitochondria]",
+      "raw0": "<div>Where in the cell does the <b>urea cycle</b> <i>begin</i>? </div><br><div>{{c1::Mitochondria}}</div>"
+    },
+    {
+      "guid": "uWx#,?8}8n",
+      "conceito": "3.1",
+      "front": "Most excess nitrogen generated by catabolism of amino acids is excreted as [urea], which is made in the liver",
+      "raw0": "<div><i>Most</i> <u>excess</u> <b>nitrogen</b> generated by <b>catabolism of amino acids</b> is excreted as {{c1::urea}}, which is made in the liver </div>"
+    },
+    {
+      "guid": "l_?4W2sTp{",
+      "conceito": "3.2",
+      "front": "The urea cycle begins with [ NH 3 ], [ CO 2 ], and 2 [ ATP ]",
+      "raw0": "<div>The <u>urea cycle</u> begins with {{c1::<b>NH<sub>3</sub></b>}}, {{c2::<b>CO<sub>2</sub></b>}}, and <b>2 </b>{{c3::<b>ATP</b>}}</div>"
+    },
+    {
+      "guid": "xJ)rl&xU2<",
+      "conceito": "3.2",
+      "front": "In the first step of the urea cycle , CO 2 and NH 3 are combined to form [ carbamoyl phosphate ] via the enzym",
+      "raw0": "<div>In the <i>first</i> step of the <u>urea cycle</u>, <b>CO</b><sub><b>2</b></sub> and <b>NH<sub>3</sub> </b>are combined to form {{c1::<b>carbamoyl phosphate</b>}} via the enzyme {{c2::<i><b>carbamoyl phosphate synthetase I</b></i>}} (requires 2 ATP)</div>"
+    },
+    {
+      "guid": "Dw3-+2s|l|",
+      "conceito": "3.2",
+      "front": "What is the rate-limiting enzyme of the urea cycle ? [Carbamoyl phosphate synthetase I]",
+      "raw0": "<div><div>What is the <u>rate-limiting enzyme</u> of the <b>urea cycle</b>? </div><br><div>{{c1::Carbamoyl phosphate synthetase I}}</div></div>"
+    },
+    {
+      "guid": "eH~2TvRo6l",
+      "conceito": "3.2",
+      "front": "[ Carbamoyl phosphate ] may be combined with [ ornithine ] to form [ citrulline ] via the enzyme [ ornithine t",
+      "raw0": "<div>{{c4::<b>Carbamoyl phosphate</b>}} may be <i>combined</i> with {{c1::<b>ornithine</b>}} to form {{c2::<b>citrulline</b>}} via the enzyme {{c3::<i>ornithine transcarbamylase </i>(OTC)}}</div>"
+    },
+    {
+      "guid": "MUs@wN0G7e",
+      "conceito": "3.2",
+      "front": "[ Citrulline ] may be combined with [ aspartate ] to form [ argininosuccinate ] via the enzyme argininosuccina",
+      "raw0": "<div>{{c3::<b>Citrulline</b>}} may be <i>combined</i> with {{c1::<b>aspartate</b>}} to form {{c2::<b>argininosuccinate</b>}} via the enzyme <i>argininosuccinate synthetase</i> (requires 1 ATP)</div>"
+    },
+    {
+      "guid": "I,}oNREhR&",
+      "conceito": "3.2",
+      "front": "Where in the cell is the carbamoyl phosphate synthetase I enzyme found? [Mitochondria (urea cycle)]",
+      "raw0": "<div><div><div>Where in the cell is the <i><b>carbamoyl phosphate synthetase I</b> </i>enzyme found?</div><br><div>{{c1::Mitochondria (urea cycle)}}</div></div></div>"
+    },
+    {
+      "guid": "h0TU@xYD^t",
+      "conceito": "3.4",
+      "front": "Part of the treatment for hyperammonemia is limiting [protein] in the diet",
+      "raw0": "<div>Part of the <u>treatment</u> for <b>hyperammonemia</b> is limiting {{c1::protein}} in the diet</div>"
+    },
+    {
+      "guid": "rg$=p|zphB",
+      "conceito": "3.4",
+      "front": "Disorders of the urea cycle interfere with the body's ability to eliminate [ammonia (NH 3 )]",
+      "raw0": "<div>Disorders of the <b>urea cycle</b> interfere with the body's ability to <u>eliminate</u> {{c1::ammonia (NH<sub>3</sub>)}}</div>"
+    },
+    {
+      "guid": "xug|mzq!*8",
+      "conceito": "3.4",
+      "front": "Carbamoyl phosphate synthetase I deficiency presents with [ increased ] NH 4 + and [ hyper ] ammonemia",
+      "raw0": "<div><b>Carbamoyl phosphate synthetase I deficiency</b> presents with {{c1::<u>increased</u>}} <b>NH<sub>4</sub><sup>+</sup></b> and {{c1::<b>hyper</b>}}<b>ammonemia</b></div>"
+    },
+    {
+      "guid": "A{iAN],dtA",
+      "conceito": "3.4",
+      "front": "What is the mode of inheritance of carbamoyl phosphate synthetase I deficiency ? [Autosomal recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b><i>carbamoyl phosphate synthetase I</i> deficiency</b>? </div><br><div>{{c1::Autosomal recessive}}</div>"
+    },
+    {
+      "guid": "NZuP(>[jT7",
+      "conceito": "3.4",
+      "front": "What is the most common urea cycle disorder ? [Ornithine transcarbamylase (OTC) deficiency]",
+      "raw0": "<div>What is the <u>most common</u> <b>urea cycle disorder</b>? </div><br><div>{{c1::Ornithine transcarbamylase (OTC) deficiency}}</div>"
+    },
+    {
+      "guid": "PF#PEhqcCi",
+      "conceito": "3.4",
+      "front": "What is the mode of inheritance of ornithine transcarbamylase (OTC) deficiency ? [X-linked recessive]",
+      "raw0": "<div><div>What is the <u>mode of inheritance</u> of <b>ornithine transcarbamylase (OTC) deficiency</b>? </div><br><div>{{c1::X-linked recessive}}</div></div>"
     }
   ]
 }

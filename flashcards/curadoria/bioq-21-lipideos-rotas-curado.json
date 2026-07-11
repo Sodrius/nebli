@@ -1,173 +1,368 @@
 {
   "slug": "bioq-21-lipideos-rotas",
   "tag_ancora": "NEBLI::bioq-21-lipideos-rotas",
-  "tags_puras": [],
-  "impuras": [
+  "target_deck": "UC02::Bioquímica::Metabolismo dos lipídeos",
+  "n_kept": 60,
+  "kept": [
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::05_Introduction_to_Lipid_Transport_Proteins_and_Enzymes:_Enzymes_and_Apolipoproteins",
-      "guids_kept": [
-        "zO;eo}i&6y",
-        "HhFsEqme2e"
-      ]
+      "guid": "s]x_>!v_w[",
+      "conceito": "1.1",
+      "front": "Are fatty acids polar or non-polar? [Non-polar]",
+      "raw0": "<div><div>Are <b>fatty acids</b> polar or non-polar?</div><br><div>{{c1::Non-polar}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::11_Adipocytes_and_Lipolysis",
-      "guids_kept": [
-        "Ls2g-oLNva",
-        "NKE^S(plx2",
-        "PkKv<Ny;SA",
-        "xpARU)u<r2",
-        "oCA{%%o&/0",
-        "gl.@,@)VP^",
-        "E26>dVWz|~",
-        "lj~/k$%(ZI",
-        "NYiv.KBRlK"
-      ]
+      "guid": "CCgzzTD1RL",
+      "conceito": "1.1",
+      "front": "Are triglycerides polar or non-polar? [Non-polar]",
+      "raw0": "<div><div>Are <u>triglycerides</u> polar or non-polar?</div><br><div>{{c1::Non-polar}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::01_Introduction_to_Lipids",
-      "guids_kept": [
-        "wu!536*ysX",
-        "w&uhyIZ3v;",
-        "oC#a86~-(L"
-      ]
+      "guid": "oijw@nbc_B",
+      "conceito": "2.3",
+      "front": "Ketone bodies are primarily used for energy in the [ brain ] (starvation state), [ muscle ], and kidney",
+      "raw0": "<div><div><b>Ketone bodies</b> are primarily used for energy in the {{c2::<b>brain</b>}} (starvation state), {{c1::<b>muscle</b>}}, and <b>kidney</b></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::12_Fatty_Acid_Degradation:_Carnitine_Shuttle",
-      "guids_kept": [
-        "IMW%ASW*.w",
-        "tf&[aM?,9?",
-        "se8y43gfIe",
-        "I_?i*b[)Wr",
-        "evQ?N]cCh_",
-        "Ja2$)IOJU(",
-        "C`zKzo}I!;",
-        "HuSD-TyDEW",
-        "o,O]2o`N~:"
-      ]
+      "guid": "lj~/k$%(ZI",
+      "conceito": "1.2",
+      "front": "In adipose tissue, insulin stimulates [fat deposition (increased triglyceride synthesis)] and inhibits [lipoly",
+      "raw0": "<div>In <b>adipose</b> tissue, <b>insulin</b> <i>stimulates</i> {{c1::fat deposition (increased triglyceride synthesis)}} and <i>inhibits</i> {{c1::lipolysis}} </div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::13_Fatty_Acid_Degradation:_β-Oxidation",
-      "guids_kept": [
-        "m8A{UZ9;>+",
-        "iz+(b*k_4d",
-        "FP@MDhY!:B",
-        "C%azB;mfy+",
-        "boQAggxq7j",
-        "EehWy>iqbJ",
-        "xF6vJC<tQ!",
-        "y&OfOC+DC!"
-      ]
+      "guid": "HhW8?aDOIS",
+      "conceito": "1.2",
+      "front": "Glucagon acts on the [ liver ] (primarily) and [ adipose ] tissue",
+      "raw0": "<div><b>Glucagon</b> acts on the {{c1::<b>liver</b>}} (primarily) and {{c1::<b>adipose</b>}} tissue</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::14_Disorders_of_Fatty_Acid_Metabolism",
-      "guids_kept": [
-        "Jd+xUP*pe8",
-        "d8@2hu>O&/",
-        "ff(2qB=#f?"
-      ]
+      "guid": "E26>dVWz|~",
+      "conceito": "1.2",
+      "front": "Glucagon causes [decreased] fatty acid synthesis and [increased] lipolysis , which shunts substrates towards g",
+      "raw0": "<div><b>Glucagon</b> causes {{c1::decreased}} <b>fatty</b> <b>acid</b> <b>synthesis</b> and {{c1::increased}} <b>lipolysis</b>, which shunts substrates towards gluconeogenesis</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::10_Fatty_Acids",
-      "guids_kept": [
-        "b%*6|i!o#m",
-        "se]85C=Qy~"
-      ]
+      "guid": "bh(o`.f^@k",
+      "conceito": "1.2",
+      "front": "What is the effect of glucagon on blood fatty acid and ketoacid concentration ? [Increased, due to increased l",
+      "raw0": "<div>What is the effect of <b>glucagon</b> on <i>blood</i> <b>fatty acid</b> and <b>ketoacid concentration</b>?</div><br><div>{{c1::Increased, due to increased lipolysis}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::02_Lipid_Digestion_and_Absorption",
-      "guids_kept": [
-        "QpI|ys+ElB"
-      ]
+      "guid": "jF}^l!?kbB",
+      "conceito": "1.1",
+      "front": "Is glycerol polar or non-polar? [Polar]",
+      "raw0": "<div><div>Is <b>glycerol</b> polar or non-polar? </div><br><div>{{c1::Polar}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::18_Fed_vs._Fasting_State",
-      "guids_kept": [
-        "i@Yp^yRn24",
-        "k8xf5`xzXm",
-        "oijw@nbc_B",
-        "zv5/h>Z+b-",
-        "t:).4I7syU",
-        "d-u:!go}Or"
-      ]
+      "guid": "w&uhyIZ3v;",
+      "conceito": "1.1",
+      "front": "What type of bond exists between fatty acids and glycerol (e.g., triglycerides)? [Ester bonds]",
+      "raw0": "<div><div>What <i>type</i> of <u>bond</u> exists between <b>fatty acids</b> and <b>glycerol</b> (e.g., triglycerides)? </div><br><div>{{c1::Ester bonds}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::16_Ketones:_Ketone_Synthesis",
-      "guids_kept": [
-        "zNKP>#)43-",
-        "o+D41fWGhp",
-        "FN`J;4O3|~",
-        "L~Zvy_1>yY",
-        "qNV_9ftG@F",
-        "j[r&z8E9CX",
-        "x#&^$^[=>/",
-        "zuEl:/z4@_",
-        "LE1Eq:]k~X",
-        "uRn{umsp]j",
-        "O4dNshEYop",
-        "D)Hc0@c+d!",
-        "s|NBM`iWfU"
-      ]
+      "guid": "HhFsEqme2e",
+      "conceito": "1.2",
+      "front": "Which lipid transport enzyme is responsible for the degradation of triglycerides stored in adipocytes ? [Hormo",
+      "raw0": "<div><div><div>Which <i>lipid transport enzyme</i> is responsible for the degradation of <u>triglycerides</u> stored in<b> adipocytes</b>? </div><br><div>{{c1::Hormone-sensitive lipase}}</div></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::17_Ketones:_Ketoacidosis_Review_and_Ketogenolysis",
-      "guids_kept": [
-        "DU@2*h#cJ|",
-        "oPGxT?t&p?"
-      ]
+      "guid": "zO;eo}i&6y",
+      "conceito": "1.2",
+      "front": "In adipose tissue, triglycerides are broken down into glycerol and fatty acids by the enzyme [ hormone-sensiti",
+      "raw0": "<div><div>In <i>adipose</i> tissue, <b>triglycerides</b> are broken down into <u>glycerol</u> and <u>fatty acids</u> by the enzyme {{c1::<b><i>hormone-sensitive lipase</i></b>}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::40_Ketone_bodies",
-      "guids_kept": [
-        "v#J$2,_hv9"
-      ]
+      "guid": "Ls2g-oLNva",
+      "conceito": "1.2",
+      "front": "Hormone sensitive lipase is induced by [ epinephrine ], [ glucagon ], and [ cortisol ]",
+      "raw0": "<div><div><b>Hormone sensitive lipase</b> is <u>induced</u> by {{c1::<b>epinephrine</b>}}, {{c2::<b>glucagon</b>}}, and {{c3::<b>cortisol</b>}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::11_Ketone_Bodies::Extra",
-      "guids_kept": [
-        "hs;ln9)k5+"
-      ]
+      "guid": "NKE^S(plx2",
+      "conceito": "1.2",
+      "front": "Hormone sensitive lipase is regulated via negative feedback by [ insulin ]",
+      "raw0": "<div><div><b>Hormone sensitive lipase</b> is regulated via <u>negative feedback</u> by {{c1::<b>insulin</b>}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::11_Ketone_Bodies",
-      "guids_kept": [
-        "hm31YuQZoi"
-      ]
+      "guid": "PkKv<Ny;SA",
+      "conceito": "1.2",
+      "front": "Glycerol , from triglyceride breakdown , travels to the liver and is converted to glucose via the process of [",
+      "raw0": "<div><div><b>Glycerol</b>, from <u>triglyceride breakdown</u>, travels to the liver and is converted to glucose via the process of {{c1::gluconeogenesis}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Endocrinology::07_Pancreas::06_Diabetic_Ketoacidosis",
-      "guids_kept": [
-        "v3gnV-t68E"
-      ]
+      "guid": "wu!536*ysX",
+      "conceito": "1.2",
+      "front": "Fatty acids , from triglyceride breakdown , are broken down into acetyl-CoA via the process of [ β-oxidation ]",
+      "raw0": "<div><div><b>Fatty acids</b>, from <u>triglyceride breakdown</u>, are broken down into <b>acetyl-CoA</b> via the process of {{c1::<b>β-oxidation</b>}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Biochemistry::09_Lipid_Metabolism::15_Fatty_Acid_Synthesis",
-      "guids_kept": [
-        "E{S{p/R;(&",
-        "LI/@xCD9-/",
-        "wfH+)zC0kj",
-        "o2g_@x[*##",
-        "oSQI`!|9cH",
-        "j~V9}wo3Y#",
-        "q0u$jKaxq/",
-        "I`=(v&7I!Q",
-        "o%6#ThhAp[",
-        "LzmOcN`8WN",
-        "uUec:<aJpz",
-        "Ndc=AMqtBg"
-      ]
+      "guid": "NYiv.KBRlK",
+      "conceito": "1.2",
+      "front": "In preparation for β-oxidation, fatty acids in the cytosol are converted to [ fatty acyl-CoA ] via the enzyme ",
+      "raw0": "In preparation for β-oxidation, <b>fatty acids</b> in the <u>cytosol</u> are converted to {{c1::<b>fatty acyl-CoA</b>}} via the enzyme {{c2::<i><b>fatty acyl-CoA synthetase</b></i>}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Pixorize::01_Biochemistry::01_Vitamins::09_Vitamin_B7_(Biotin)",
-      "guids_kept": [
-        "JUQMmHh=d,"
-      ]
+      "guid": "IMW%ASW*.w",
+      "conceito": "1.3",
+      "front": "In the intermembrane space , fatty acyl-CoA is converted to [ fatty acyl-carnitine ] via the enzyme [ carnitin",
+      "raw0": "<div><div><div>In the <u>intermembrane space</u>, <b>fatty acyl-CoA</b> is converted to {{c1::<b>fatty acyl-carnitine</b>}} via the enzyme {{c2::<i style=\"font-weight: bold;\">carnitine palmitoyltransferase 1 </i>(CPT1)}}</div></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#DirtyMedicine::01_Biochemistry_&_Genetics::08_Fatty_Acid_Synthesis",
-      "guids_kept": [
-        "ou*l>Qy/;o"
-      ]
+      "guid": "tf&[aM?,9?",
+      "conceito": "1.3",
+      "front": "What is the rate-limiting enzyme of fatty acid β-oxidation ? [Carnitine palmitoyl transferase-1 (CPT-1)]",
+      "raw0": "<div><div><div>What is the <u>rate-limiting enzyme</u> of <b>fatty acid β-oxidation</b>? </div><br><div>{{c1::Carnitine palmitoyl transferase-1 (CPT-1)}}</div></div></div>"
+    },
+    {
+      "guid": "se8y43gfIe",
+      "conceito": "1.3",
+      "front": "Where in the cell does β-oxidation occur? [Mitochondria]",
+      "raw0": "<div><div><div>Where in the cell does <b>β-oxidation </b>occur?</div><br><div>{{c1::Mitochondria}}</div></div></div>"
+    },
+    {
+      "guid": "I_?i*b[)Wr",
+      "conceito": "1.3",
+      "front": "Carnitine acyltransferase-1 (CAT1) is regulated via negative feedback by [ malonyl-CoA ]",
+      "raw0": "<div><div><div><b><i>Carnitine acyltransferase-1</i></b> (CAT1) is regulated via <u>negative feedback</u> by {{c1::<b>malonyl-CoA</b>}}</div></div></div>"
+    },
+    {
+      "guid": "evQ?N]cCh_",
+      "conceito": "1.3",
+      "front": "Fatty acyl-carnitine is transported from the intermembrane space into the mitochondrial matrix via the [ carni",
+      "raw0": "<div><div><div><b>Fatty acyl-carnitine</b> is transported from the <u>intermembrane space</u> into the <u>mitochondrial matrix</u> via the {{c1::<b>carnitine</b>}}<b> transporter</b> </div></div></div>"
+    },
+    {
+      "guid": "Ja2$)IOJU(",
+      "conceito": "1.3",
+      "front": "Fatty acyl-carnitine is converted into [ fatty acyl-CoA ] via the enzyme [ carnitine palmitoyl transferase 2 (",
+      "raw0": "<b>Fatty acyl-carnitine</b> is converted into {{c1::<b>fatty acyl-CoA</b>}} via the enzyme {{c2::<b><i>carnitine palmitoyl transferase 2</i></b> (CPT2)}}"
+    },
+    {
+      "guid": "C`zKzo}I!;",
+      "conceito": "1.4",
+      "front": "Fatty acyl-CoA is broken down into molecules of [ acetyl-CoA ] via the enzyme [ fatty acyl-CoA dehydrogenase ]",
+      "raw0": "<div><div><div><b>Fatty acyl-CoA</b> is broken down into molecules of {{c1::<b>acetyl-CoA</b>}} via the enzyme {{c2::<b>fatty acyl-CoA dehydrogenase</b>}} (β-oxidation) </div></div></div>"
+    },
+    {
+      "guid": "HuSD-TyDEW",
+      "conceito": "1.4",
+      "front": "The acetyl-CoA generated through β-oxidation is used for [ ketogenesis ] (liver) or the [ TCA cycle ]",
+      "raw0": "<div><div><div>The <b>acetyl-CoA</b> generated through <u>β-oxidation</u> is used for {{c1::<b>ketogenesis</b>}} (liver) or the {{c2::<b>TCA cycle</b>}}</div></div></div>"
+    },
+    {
+      "guid": "t%aP)}PyLT",
+      "conceito": "2.1",
+      "front": "In total, the TCA cycle produces [1] FADH 2 per acetyl-CoA",
+      "raw0": "<div>In total, the <b>TCA cycle</b> produces {{c1::1}} <b>FADH<sub>2</sub></b> per acetyl-CoA </div>"
+    },
+    {
+      "guid": "gqu>%iL*@U",
+      "conceito": "2.1",
+      "front": "In total, the TCA cycle produces [1] GTP per acetyl-CoA",
+      "raw0": "<div>In total, the <b>TCA cycle</b> produces {{c1::1}} <b>GTP</b> per acetyl-CoA </div>"
+    },
+    {
+      "guid": "EehWy>iqbJ",
+      "conceito": "3.2",
+      "front": "Acetyl-CoA carboxylase is inhibited by [ glucagon ] and [ palmitoyl-CoA ]",
+      "raw0": "<div><div><b>Acetyl-CoA carboxylase</b> is inhibited by {{c1::<b>glucagon</b>}} and {{c2::<b>palmitoyl-CoA</b>}}</div></div>"
+    },
+    {
+      "guid": "xF6vJC<tQ!",
+      "conceito": "3.2",
+      "front": "Acetyl-CoA carboxylase is regulated via positive feedback by [ insulin ] and [ citrate ]",
+      "raw0": "<div><div><b>Acetyl-CoA carboxylase</b> is regulated via <u>positive feedback</u> by {{c1::<b>insulin</b>}} and {{c2::<b>citrate</b>}}</div></div>"
+    },
+    {
+      "guid": "y&OfOC+DC!",
+      "conceito": "3.2",
+      "front": "Acetyl-CoA carboxylase requires [ATP], [biotin], and [CO 2 ]",
+      "raw0": "<div><div><b>Acetyl-CoA carboxylase</b> requires {{c1::ATP}}, {{c1::biotin}}, and {{c1::CO<sub>2</sub>}} </div></div>"
+    },
+    {
+      "guid": "m8A{UZ9;>+",
+      "conceito": "1.4",
+      "front": "Each cycle of β-oxidation produces [ one ] molecule(s) of FADH 2 and [ one ] molecule(s) of NADH",
+      "raw0": "<div>Each <i>cycle</i> of <b>β-oxidation</b> produces {{c1::<u>one</u>}} molecule(s) of <b>FADH<sub>2</sub> </b>and {{c1::<u>one</u>}} molecule(s) of <b>NADH</b></div>"
+    },
+    {
+      "guid": "C%azB;mfy+",
+      "conceito": "1.4",
+      "front": "[ Propionyl ] -CoA is the only fatty acid carbon that may be used to make glucose (via gluconeogenesis)",
+      "raw0": "<div>{{c1::<b>Propionyl</b>}}<b>-CoA</b> is the only <u>fatty acid carbon</u> that may be used to make <b>glucose</b> (via gluconeogenesis) </div>"
+    },
+    {
+      "guid": "q0u$jKaxq/",
+      "conceito": "3.2",
+      "front": "What is the rate-limiting enzyme of fatty acid synthesis ? [Acetyl-CoA carboxylase]",
+      "raw0": "<div><div>What is the <u>rate-limiting enzyme</u> of <b>fatty acid synthesis</b>? </div><br><div>{{c1::Acetyl-CoA carboxylase}}</div></div>"
+    },
+    {
+      "guid": "E{S{p/R;(&",
+      "conceito": "3.1",
+      "front": "Where in the cell does fatty acid synthesis occur? [Cytoplasm]",
+      "raw0": "<div><div>Where in the cell does <b>fatty acid synthesis</b> occur?</div><br><div>{{c1::Cytoplasm}}</div></div>"
+    },
+    {
+      "guid": "xPE~:zK#N*",
+      "conceito": "3.1",
+      "front": "Fatty acid synthesis requires [ NADPH ], which is provided by the [ HMP shunt ] and [ malic ] enzyme",
+      "raw0": "<div><div><b>Fatty acid synthesis</b> requires {{c1::<u>NADPH</u>}}, which is provided by the {{c2::<b>HMP shunt</b>}} and {{c3::<b>malic</b>}}<b> enzyme</b></div></div>"
+    },
+    {
+      "guid": "oSQI`!|9cH",
+      "conceito": "3.2",
+      "front": "In the cytosol, malate may be converted to pyruvate via the enzyme [ malic enzyme ] (fatty acid synthesis)",
+      "raw0": "<div><div>In the cytosol, <b>malate</b> may be converted to <b>pyruvate</b> via the enzyme {{c1::<i><b>malic enzyme</b></i>}}<b> </b>(fatty acid synthesis)</div></div>"
+    },
+    {
+      "guid": "j~V9}wo3Y#",
+      "conceito": "3.2",
+      "front": "Conversion of malate to pyruvate via malic enzyme produces a molecule of [NADPH] (fatty acid synthesis)",
+      "raw0": "<div><div>Conversion of <b>malate</b> to <b>pyruvate</b> via <i>malic enzyme</i> produces a molecule of {{c1::NADPH}} (fatty acid synthesis)</div></div>"
+    },
+    {
+      "guid": "LI/@xCD9-/",
+      "conceito": "3.1",
+      "front": "Fatty acid synthesis predominantly occurs in the [liver], [lactating mammary] glands (women), and [adipose] ti",
+      "raw0": "<div><div><b>Fatty acid synthesis</b> predominantly occurs in the {{c1::liver}}, {{c2::lactating mammary}} glands (women), and {{c3::adipose}} tissue</div></div>"
+    },
+    {
+      "guid": "wfH+)zC0kj",
+      "conceito": "3.2",
+      "front": "The first step of fatty acid synthesis is transport of [citrate] from the mitochondria to the cytosol through ",
+      "raw0": "<div><div>The <i>first step</i> of <b>fatty acid synthesis</b> is transport of {{c1::citrate}} from the <u>mitochondria</u> to the <u>cytosol</u> through its shuttle</div></div>"
+    },
+    {
+      "guid": "o2g_@x[*##",
+      "conceito": "3.2",
+      "front": "In the cytosol , [citrate] is metabolized into [acetyl-CoA] and [oxaloacetate] via [ ATP citrate lyase ] as pa",
+      "raw0": "<div>In the <i>cytosol</i>, <b>{{c3::citrate}}</b> is metabolized into <b>{{c1::acetyl-CoA}}</b> and <b>{{c1::oxaloacetate}}</b> via <b>{{c2::<i>ATP citrate lyase</i>::enzyme}}</b> as part of fatty acid synthesis</div>"
+    },
+    {
+      "guid": "I`=(v&7I!Q",
+      "conceito": "3.2",
+      "front": "Acetyl-CoA is converted to [ malonyl-CoA ] via the enzyme [ acetyl-CoA carboxylase ] (fatty acid synthesis)",
+      "raw0": "<div><div><b>Acetyl-CoA</b> is converted to {{c1::<b>malonyl-CoA</b>}} via the enzyme {{c2::<i><b>acetyl-CoA carboxylase</b></i>}} (fatty acid synthesis)</div></div>"
+    },
+    {
+      "guid": "LzmOcN`8WN",
+      "conceito": "3.3",
+      "front": "Malonyl-CoA may be converted to [ palmitate ] via the enzyme [ fatty acid synthase ]",
+      "raw0": "<div><div><b>Malonyl-CoA</b> may be converted to {{c1::<b>palmitate</b>}} via the enzyme {{c2::<i><b>fatty acid synthase</b></i>}} </div></div>"
+    },
+    {
+      "guid": "uUec:<aJpz",
+      "conceito": "3.3",
+      "front": "Which enzyme of the fatty acid synthesis pathway utilizes NADPH ? [Fatty acid synthase]",
+      "raw0": "<div><div>Which <i>enzyme</i> of the <b>fatty acid synthesis</b> pathway utilizes <u>NADPH</u>?</div><br><div>{{c1::Fatty acid synthase}}</div></div>"
+    },
+    {
+      "guid": "Ndc=AMqtBg",
+      "conceito": "3.3",
+      "front": "Palmitate is a(n) [16]-carbon fatty acid",
+      "raw0": "<div><div><b>Palmitate</b> is a(n) {{c1::16::#}}-carbon fatty acid </div></div>"
+    },
+    {
+      "guid": "o%6#ThhAp[",
+      "conceito": "3.2",
+      "front": "Vitamin B 7 (biotin) is a cofactor for the enzyme [ acetyl-CoA carboxylase ] (fatty acid synthesis)",
+      "raw0": "<div><div><div><div><b>Vitamin B<sub>7</sub></b> (biotin) is a cofactor for the enzyme {{c1::<i>acetyl-CoA carboxylase</i>}} (fatty acid synthesis)</div></div></div></div>"
+    },
+    {
+      "guid": "i%-Bph=qn>",
+      "conceito": "3.1",
+      "front": "NADPH is generally used as an electron carrier in [ anabolic ] processes",
+      "raw0": "<div><b>NADPH</b> is generally used as an <i>electron carrier</i> in {{c1::<b>anabolic</b>::anabolic/catabolic}} processes</div>"
+    },
+    {
+      "guid": "s|NBM`iWfU",
+      "conceito": "2.3",
+      "front": "What is the cause of metabolic acidosis in a patient with diabetes mellitus ? [Increased production of ketoaci",
+      "raw0": "<div>What is the cause of <b>metabolic acidosis</b> in a patient with <b>diabetes mellitus</b>?</div><br><div>{{c1::Increased production of ketoacids}}</div>"
+    },
+    {
+      "guid": "OBb:wslm-H",
+      "conceito": "2.3",
+      "front": "One of the most feared complications of type 1 diabetes is [ diabetic ketoacidosis (DKA)]",
+      "raw0": "<div>One of the most feared complications of <b>type 1 diabetes</b> is {{c1::<b>diabetic ketoacidosis</b> (DKA)}}</div>"
+    },
+    {
+      "guid": "_K$vX1ah;",
+      "conceito": "2.3",
+      "front": "What are the two major ketone bodies produced in T1DM ? [β-hydroxybutyrate and acetoacetate]",
+      "raw0": "<div>What are the <u>two major</u> <b>ketone bodies</b> produced in <b>T1DM</b>?</div><br><div>{{c1::β-hydroxybutyrate and acetoacetate}}</div>"
+    },
+    {
+      "guid": "C&t8Zy;v>X",
+      "conceito": "2.3",
+      "front": "Diabetic ketoacidosis is associated with a(n) [ fruity ] breath odor due to exhaled [ acetone ]",
+      "raw0": "<div><b>Diabetic ketoacidosis</b> is associated with a(n) {{c1::<b>fruity</b>}} breath odor due to exhaled {{c2::<b>acetone</b>}}</div>"
+    },
+    {
+      "guid": "zNKP>#)43-",
+      "conceito": "2.3",
+      "front": "Where in the cell does ketogenesis occur? [Mitochondria]",
+      "raw0": "<div>Where in the cell does <b>ketogenesis</b> occur?</div><br><div>{{c1::Mitochondria}}</div>"
+    },
+    {
+      "guid": "o+D41fWGhp",
+      "conceito": "2.3",
+      "front": "In which organ does ketogenesis occur? [Liver]",
+      "raw0": "<div>In which <u>organ</u> does <b>ketogenesis</b> occur?</div><br><div>{{c1::Liver}}</div>"
+    },
+    {
+      "guid": "FN`J;4O3|~",
+      "conceito": "2.3",
+      "front": "What is the rate-limiting enzyme of ketogenesis ? [HMG-CoA synthase]",
+      "raw0": "<div>What is the <u>rate-limiting enzyme</u> of <b>ketogenesis</b>?  </div><br><div>{{c1::HMG-CoA synthase}}</div>"
+    },
+    {
+      "guid": "L~Zvy_1>yY",
+      "conceito": "2.3",
+      "front": "What are the three ketone bodies ? [ Acetoacetate ] [ β-hydroxybutyrate ] [ Acetone ]",
+      "raw0": "<div>What are the <u>three</u> <b>ketone bodies</b>?</div><br><div>{{c1::<b>Acetoacetate</b>}}</div><div>{{c2::<b>β-hydroxybutyrate</b>}}</div><div>{{c3::<b>Acetone</b>}}</div>"
+    },
+    {
+      "guid": "qNV_9ftG@F",
+      "conceito": "2.3",
+      "front": "Acetoacetyl-CoA is converted to [ HMG-CoA ] via the enzyme [ HMG-CoA synthase ] (ketogenesis)",
+      "raw0": "<div><b>Acetoacetyl-CoA</b> is converted to {{c1::<b>HMG-CoA</b>}} via the enzyme {{c2::<i><b>HMG-CoA synthase</b></i>}}<b> </b>(ketogenesis) </div>"
+    },
+    {
+      "guid": "j[r&z8E9CX",
+      "conceito": "2.3",
+      "front": "HMG-CoA may be converted to [ acetoacetate ] via the enzyme HMG-CoA lyase (ketogenesis)",
+      "raw0": "<div><b>HMG-CoA</b> may be converted to {{c1::<b>acetoacetate</b>}} via the enzyme <i>HMG-CoA lyase</i> (ketogenesis)</div>"
+    },
+    {
+      "guid": "x#&^$^[=>/",
+      "conceito": "2.3",
+      "front": "Acetoacetate may spontaneously be converted to [ acetone ], which is expired in the lungs",
+      "raw0": "<div><b>Acetoacetate</b> may <i>spontaneously</i> be converted to {{c1::<b>acetone</b>}}, which is expired in the lungs</div>"
+    },
+    {
+      "guid": "zuEl:/z4@_",
+      "conceito": "2.3",
+      "front": "In the liver , acetoacetate may be converted to [ β-hydroxybutyrate ], which then travels to extrahepatic tiss",
+      "raw0": "<div>In the <u>liver</u>, <b>acetoacetate</b> may be converted to {{c1::<b>β-hydroxybutyrate</b>}}, which then travels to <i>extrahepatic</i> tissues (ketone body metabolism) </div>"
+    },
+    {
+      "guid": "uRn{umsp]j",
+      "conceito": "2.3",
+      "front": "Ketogenesis occurs in both prolonged starvation and ketoacidosis due to depletion of [ oxaloacetate ], thus pr",
+      "raw0": "<div><div><b>Ketogenesis</b> occurs in both <u>prolonged starvation</u> and <u>ketoacidosis</u> due to <i>depletion</i> of {{c1::<b>oxaloacetate</b>}}, thus <b>preventing</b> <b>gluconeogenesis</b> </div></div>"
+    },
+    {
+      "guid": "O4dNshEYop",
+      "conceito": "2.3",
+      "front": "Can red blood cells use ketones for energy? Why? [No, they lack mitochondria]",
+      "raw0": "<div>Can <u>red blood cells</u> use <b>ketones</b> for energy? Why?</div><br><div>{{c1::No, they lack mitochondria}}</div>"
+    },
+    {
+      "guid": "oPGxT?t&p?",
+      "conceito": "2.3",
+      "front": "In extrahepatic tissues, acetoacetate is activated to [ acetoacetyl-CoA ] via the enzyme [ thiophorase ] (keto",
+      "raw0": "<div>In <i>extrahepatic </i>tissues, <b>acetoacetate</b> is activated to {{c1::<b>acetoacetyl-CoA</b>}}<b> </b>via the enzyme {{c2::<i><b>thiophorase</b></i>}} (ketone body metabolism)</div>"
     }
   ]
 }

@@ -1,191 +1,236 @@
 {
   "slug": "biomol-25-mutacao-reparo-recombinacao",
   "tag_ancora": "NEBLI::biomol-25-mutacao-reparo-recombinacao",
-  "tags_puras": [],
-  "impuras": [
+  "target_deck": "UC02::Biologia Molecular::DNA - mutação, lesão e reparo",
+  "n_kept": 38,
+  "kept": [
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
-      "guids_kept": ["eC6.axc5D%"]
+      "guid": "r&`FW|Y2Y#",
+      "conceito": "1.7",
+      "front": "Non-ionizing radiation causes carcinogenesis by generating [pyrimidine dimers]",
+      "raw0": "<b>Non-ionizing radiation</b> causes carcinogenesis by generating {{c1::pyrimidine dimers}}"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
-      "guids_kept": ["pXB9u{]WQp"]
+      "guid": "#jjn?4~/K",
+      "conceito": "2.5",
+      "front": "Xeroderma pigmentosum is inherited in a(n) [ autosomal recessive ] fashion",
+      "raw0": "<b>Xeroderma pigmentosum</b> is inherited in a(n) {{c1::<b>autosomal</b> <b>recessive</b>}} fashion"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
-      "guids_kept": ["h@*st8m~,p"]
+      "guid": "L:P;6~uq#.",
+      "conceito": "2.5",
+      "front": "Patients with xeroderma pigmentosum often present with freckled and dry skin, extreme [ sunlight ] sensitivity, and [ co",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> often present with <u>freckled and dry</u> skin, <u>extreme</u> {{c1::<b>sunlight</b>}}<b> sensitivity, </b>and {{c1::<b>corneal</b>}} <b>ulcers</b>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
-      "guids_kept": ["PE:l}h-apM"]
+      "guid": "Jb9Gw7bgyo",
+      "conceito": "2.5",
+      "front": "Patients with xeroderma pigmentosum are at risk for which type(s) of skin cancer? [All :)]",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> are at risk for which type(s) of skin cancer?<br><br><div>{{c1::All :)}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Basics",
-      "guids_kept": ["ic5$^ZX*`8"]
+      "guid": "qB$u`?AY5k",
+      "conceito": "2.5",
+      "front": "Patients with xeroderma pigmentosum cannot repair [pyrimidine dimers] formed as a result of UV-B exposure",
+      "raw0": "Patients with <b>xeroderma pigmentosum</b> cannot repair {{c1::pyrimidine dimers}} formed as a result of <u>UV-B</u> exposure"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Silent",
-      "guids_kept": ["r]JU>+9q^n"]
+      "guid": "Bi84|O=k+u",
+      "conceito": "1.4",
+      "front": "[Deamination (e.g., cytosine to uracil)] is a mutation that may occur spontaneously or due to heat or nitrates",
+      "raw0": "<div><div>{{c1::Deamination (e.g., cytosine to uracil)}} is a mutation that may occur <u>spontaneously</u> or due to <u>heat</u> or <u>nitrates</u> </div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::01_Single_nucleotide_substitutions::*Missense",
-      "guids_kept": ["I>8b76*:kp"]
+      "guid": "r`u]y>!z0z",
+      "conceito": "2.4",
+      "front": "DNA replication errors lead to [mismatch base] mutations",
+      "raw0": "<div><div><b>DNA replication</b> <b>errors</b> lead to {{c1::mismatch base}} mutations</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Nonsense",
-      "guids_kept": ["mr<L}a>Lp9"]
+      "guid": "j5%ty!0_;K",
+      "conceito": "2.4",
+      "front": "What form of DNA repair fixes mutations due to DNA replication errors? [Mismatch repair]",
+      "raw0": "<div><div><div>What form of <b>DNA repair</b> fixes mutations due to DNA replication errors?</div><br><div>{{c1::Mismatch repair}}</div></div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::02_Other_mutations::*Frameshift",
-      "guids_kept": ["lEse#5m=+g"]
+      "guid": "vR?Jy5`A.u",
+      "conceito": "2.4",
+      "front": "Recognition and facilitation of excision of [mismatched nucleotides] occur via enzymes found on two genes: [ MSH2 ( MutS",
+      "raw0": "<div><div><u>Recognition</u> and <u>facilitation of excision</u> of <b>{{c2::mismatched nucleotides}}</b> occur via enzymes found on <b>two</b> genes: {{c1::<b>MSH2 </b>(<b>MutS</b>)}} or {{c1::<b>MLH1 </b>(<b>MutL</b>)}} </div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Base_Excision_Repair",
-      "guids_kept": ["Bi84|O=k+u"]
+      "guid": "qnq8(jlSSs",
+      "conceito": "2.4",
+      "front": "What pathology is characterized by a deficiency of the enzymes used in mismatch base repair ? [Lynch syndrome]",
+      "raw0": "<div><div>What pathology is characterized by a deficiency of the <u>enzymes</u> used in <b>mismatch base repair</b>? </div><br><div>{{c1::Lynch syndrome}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage",
-      "guids_kept": ["kjkdApy8u%"]
+      "guid": "D+aa%tW(nr",
+      "conceito": "2.3",
+      "front": "What form of DNA repair fixes mutations induced by UV radiation ? [Nucleotide excision repair]",
+      "raw0": "<div><div>What form of <b>DNA repair</b> fixes mutations induced by <u>UV radiation</u>?</div><br><div>{{c1::Nucleotide excision repair}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA::*Slippage",
-      "guids_kept": ["sDyd6qUVj)"]
+      "guid": "lW[I?/0%c~",
+      "conceito": "2.3",
+      "front": "The enzyme that recognizes and excises pyrimidine dimer mutations is [excision endonuclease]",
+      "raw0": "<div><div>The enzyme that <u>recognizes</u> and <u>excises</u> <b>pyrimidine dimer</b> mutations is {{c1::excision endonuclease}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["r&`FW|Y2Y#"]
+      "guid": "Q.s;;D]DTJ",
+      "conceito": "2.3",
+      "front": "The enzymes that repair pyrimidine dimer mutations are [DNA polymerase] and [DNA ligase]",
+      "raw0": "<div><div>The enzymes that <u>repair</u> <b>pyrimidine dimer</b> mutations are {{c1::DNA polymerase}} and {{c1::DNA ligase}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["D+aa%tW(nr"]
+      "guid": "c@k7sMQ=X4",
+      "conceito": "2.5",
+      "front": "Xeroderma pigmentosum is an inherited pathology due to a defective [nucleotide excision repair] pathway",
+      "raw0": "<b>Xeroderma pigmentosum</b> is an inherited pathology due to a defective {{c1::nucleotide excision repair}} pathway"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["lW[I?/0%c~"]
+      "guid": "I>8b76*:kp",
+      "conceito": "1.1",
+      "front": "A(n) [ missense ] mutation occurs when a nucleotide substitution codes for a different amino acid",
+      "raw0": "<div>A(n) {{c1::<b>missense</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for a <u>different</u> amino acid</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["Q.s;;D]DTJ"]
+      "guid": "lEse#5m=+g",
+      "conceito": "1.1",
+      "front": "A(n) [ frameshift ] mutation occurs when there is a deletion or insertion of a number of nucleotides not divisible by [ ",
+      "raw0": "<div>A(n) {{c1::<b>frameshift</b>}}<b> mutation</b> occurs when there is a <u>deletion</u> or <u>insertion</u> of a number of nucleotides <b>not divisible by </b>{{c2::<b>3</b>}}, resulting in misreading of all nucleotides downstream</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["IC[-?&IFM7"]
+      "guid": "eC6.axc5D%",
+      "conceito": "1.1",
+      "front": "Which type of DNA mutation causes the least severe damage? [Silent mutations]",
+      "raw0": "<div>Which type of <b>DNA</b> <b>mutation</b> causes the <u>least</u> severe damage? </div><br><div>{{c1::Silent mutations}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
-      "guids_kept": ["c@k7sMQ=X4"]
+      "guid": "pXB9u{]WQp",
+      "conceito": "1.1",
+      "front": "Which type of DNA mutation causes the most severe damage? [Frameshift mutations]",
+      "raw0": "<div><div>Which type of <b>DNA</b> <b>mutation</b> causes the <u>most</u> severe damage? </div><br><div>{{c1::Frameshift mutations}}</div></div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
-      "guids_kept": ["#jjn?4~/K"]
+      "guid": "h@*st8m~,p",
+      "conceito": "1.2",
+      "front": "A(n) [transition] is a type of DNA mutation in which a purine is mutated to another purine (or pyrimidine to pyrimidine)",
+      "raw0": "<div>A(n) {{c1::transition}} is a type of <b>DNA mutation</b> in which a <u>purine</u> is mutated to another <u>purine</u> (or pyrimidine to pyrimidine)</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
-      "guids_kept": ["L:P;6~uq#."]
+      "guid": "PE:l}h-apM",
+      "conceito": "1.2",
+      "front": "A(n) [transversion] is a type of DNA mutation in which a purine is mutated into a pyrimidine , and vice versa",
+      "raw0": "<div>A(n) {{c1::transversion}} is a type of <b>DNA mutation</b> in which a <u>purine</u> is mutated into a <u>pyrimidine</u>, and vice versa</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
-      "guids_kept": ["Jb9Gw7bgyo"]
+      "guid": "ic5$^ZX*`8",
+      "conceito": "1.1",
+      "front": "What class of DNA mutations are characterized by a single nucleotide change? [Point mutations]",
+      "raw0": "<div>What <u>class</u> of <b>DNA mutations</b> are characterized by a <i>single</i> nucleotide change? </div><br><div>{{c1::Point mutations}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum",
-      "guids_kept": ["qB$u`?AY5k"]
+      "guid": "mr<L}a>Lp9",
+      "conceito": "1.1",
+      "front": "A(n) [ nonsense ] mutation occurs when a nucleotide substitution codes for a stop codon",
+      "raw0": "<div>A(n) {{c1::<b>nonsense</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for a <b>stop</b> codon</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
-      "guids_kept": ["e.EMV?Q=L="]
+      "guid": "r]JU>+9q^n",
+      "conceito": "1.1",
+      "front": "A(n) [ silent ] mutation occurs when a nucleotide substitution codes for the same amino acid",
+      "raw0": "<div>A(n) {{c1::<b>silent</b>}}<b> mutation</b> occurs when a nucleotide substitution codes for the <u>same</u> amino acid</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
-      "guids_kept": ["k`c7C8XTK)"]
+      "guid": "mG/B]LuN4x",
+      "conceito": "2.4",
+      "front": "Lynch syndrome was previously known as [hereditary nonpolyposis colorectal cancer (HNPCC)]",
+      "raw0": "<div><b>Lynch syndrome</b> was previously known as {{c1::hereditary nonpolyposis colorectal cancer (HNPCC)}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
-      "guids_kept": ["zz:SZGvcAK"]
+      "guid": "zCtg!Bjb*Q",
+      "conceito": "2.4",
+      "front": "What is the mode of inheritance of Lynch syndrome (HNPCC)? [Autosomal dominant]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>Lynch syndrome</b> (HNPCC)? </div><br><div>{{c1::Autosomal dominant}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
-      "guids_kept": ["d>157HCw+z"]
+      "guid": "e.EMV?Q=L=",
+      "conceito": "3.1",
+      "front": "Small DNA within the cells of bacteria that replicate independently are known as [plasmids]",
+      "raw0": "<b>Small DNA</b> <i>within</i> the <u>cells of bacteria</u> that <b>replicate independently</b> are known as {{c1::plasmids}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
-      "guids_kept": ["LY!}:t.}<^"]
+      "guid": "O,cjH!MqgS",
+      "conceito": "3.4",
+      "front": "A(n) [bacteriophage] is a virus that infects bacteria",
+      "raw0": "A(n) {{c1::bacteriophage}} is a <u>virus</u> that <i>infects</i> <b>bacteria</b>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
-      "guids_kept": ["E-pqB(_lO?"]
+      "guid": "k`c7C8XTK)",
+      "conceito": "3.1",
+      "front": "[Conjugation] involves bacteria extending a sex pilus , allowing exchange of DNA between two different strains",
+      "raw0": "{{c1::Conjugation}} involves bacteria extending a <b>sex pilus</b>, allowing <u>exchange of DNA</u> between two different strains"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
-      "guids_kept": ["k@rSelUHzZ"]
+      "guid": "d>157HCw+z",
+      "conceito": "3.1",
+      "front": "When high frequency strains of bacteria undergo [ conjugation ], they transfer their [bacterial] genome with the plasmid",
+      "raw0": "When <b>high frequency strains</b> of bacteria undergo {{c1::<u>conjugation</u>}}, they transfer their <b>{{c2::bacterial}} genome</b> <i>with the plasmid</i> to the recipient"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
-      "guids_kept": ["7kfGkn!LF"]
+      "guid": "LY!}:t.}<^",
+      "conceito": "3.1",
+      "front": "In normal conjugation , is there transfer of bacterial chromosomal DNA? [No - normal conjugation involves transfer of pl",
+      "raw0": "In <b>normal conjugation</b>, is there transfer of bacterial <u>chromosomal</u> DNA?<br><br><div>{{c1::No - normal conjugation involves transfer of <b><u>plasmids only</u></b>}}</div>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
-      "guids_kept": ["qy-^#X]Gk4"]
+      "guid": "L<t.E_=<%7",
+      "conceito": "3.4",
+      "front": "The [lytic] cycle is when a phage injects nuclear material into preexisting bacterial DNA, multiplies, and then lyses th",
+      "raw0": "The {{c1::lytic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA, </i><b>multiplies,</b> and then <u>lyses the cell</u>, releasing the new viruses"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
-      "guids_kept": ["vHd]4o<t0#"]
+      "guid": "fkEX<Ki}J,",
+      "conceito": "3.4",
+      "front": "The [lysogenic] cycle is when a phage injects nuclear material into preexisting bacterial DNA and it is incorporated int",
+      "raw0": "The {{c1::lysogenic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA </i>and it is <b>incorporated into the host DNA</b>"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
-      "guids_kept": ["O,cjH!MqgS"]
+      "guid": "sJjey-*@a.",
+      "conceito": "3.4",
+      "front": "Phages that only replicate via the lytic cycle are known as [virulent]",
+      "raw0": "<u>Phages</u> that only replicate via the <b>lytic cycle</b> are known as {{c1::virulent}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["KsEZ(/%&6C"]
+      "guid": "r<Z6gLLWl?",
+      "conceito": "3.4",
+      "front": "Phages that replicate via both the lytic and lysogenic cycle are known as [temperate]",
+      "raw0": "<u>Phages</u> that replicate via both the <b>lytic and lysogenic cycle</b> are known as {{c1::temperate}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["hu+Z.L7gM1"]
+      "guid": "k@rSelUHzZ",
+      "conceito": "3.2",
+      "front": "[ Transposition ] describes a(n) [ transposon ] of bacterial DNA that can \" jump \" from one location to another (e.g., b",
+      "raw0": "{{c1::<u>Transposition</u>}} describes a(n) {{c2::<b>transposon</b>}} of <b>bacterial DNA</b> that can \"<i>jump</i>\" from one location to another (e.g., <u>bacterial DNA or even a plasmid</u>)"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["xOTGW!/!Vb"]
+      "guid": "7kfGkn!LF",
+      "conceito": "3.2",
+      "front": "In transposition of bacterial DNA , a(n) [ transposon ] can move to a(n) [ plasmid ], allowing transfer to another bacte",
+      "raw0": "In <u>transposition of bacterial DNA</u>, a(n) {{c1::<b>transposon</b>}} can move to a(n) {{c2::<b>plasmid</b>}}, allowing <i>transfer to another bacterium</i> via {{c3::<u>conjugation</u>}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["bl@4$z8hs_"]
+      "guid": "qy-^#X]Gk4",
+      "conceito": "3.3",
+      "front": "Transposition of bacterial DNA allows for transfer of bacterial DNA amongst different strains, such as resistance to [an",
+      "raw0": "<b>Transposition of bacterial DNA</b> allows for <u>transfer of bacterial DNA</u> amongst different strains, such as <i>resistance</i> to {{c1::antibiotics}}"
     },
     {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["M6bO9o}ogN"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["Dyn=#zdaj,"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["L<t.E_=<%7"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["fkEX<Ki}J,"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["sJjey-*@a."]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["r<Z6gLLWl?"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["i*o2F3tm?-"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["hgn9CST,,1"]
-    },
-    {
-      "tag": "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
-      "guids_kept": ["w:{^BM&@rf"]
+      "guid": "vHd]4o<t0#",
+      "conceito": "3.2",
+      "front": "Vancomycin-resistant bacteria typically spread resistance to other bacteria via [transposition]",
+      "raw0": "<u>Vancomycin-resistant bacteria</u> typically spread resistance to other bacteria via {{c1::transposition::mechanism}}"
     }
   ]
 }

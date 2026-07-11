@@ -1,36 +1,16 @@
 {
   "slug": "biomol-25-mutacao-reparo-recombinacao",
-  "gerado_em": "2026-07-05",
+  "gerado_em": "2026-07-11",
   "tags_consulta": [
-    "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
-    "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
-    "#AK_Step1_v12::#Pixorize::01_Biochemistry::10_DNA_Repair",
-    "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics",
-    "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
+    "FirstAid::01_Biochem::01_Molecular::08_Mutations_in_DNA",
+    "FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
+    "Pixorize::01_Biochemistry::10_DNA_Repair",
+    "Bootcamp::Microbiology::02_Bacterial_Genetics",
+    "FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
   ],
   "regex": null,
-  "n_cards": 156,
+  "n_cards": 105,
   "cards": [
-    {
-      "guid": "L)E/<&C=pK",
-      "deck": "AnKing Step Deck",
-      "front": "[ SIADH ] may be caused by drugs, which may be remembered with the mnemonic \" Ca n't C oncentrate S erum N a + \" [ Ca rbamazepine] [ C yclophosphamide] [ S SRIs] [ N SAIDs]",
-      "raw0": "<div>{{c1::<b>SIADH</b>}} may be caused by drugs, which may be remembered with the mnemonic \"<b>Ca</b>n't <b>C</b>oncentrate <b>S</b>erum <b>N</b>a<sup>+</sup>\"</div><br><div><div class=\"mnemonics\"><div>{{c1::<u>Ca</u>rbamazepine::<b>Ca</b>}}</div><div>{{c1::<u>C</u>yclophosphamide::<b>C</b>}}</div><div>{{c1::<u>S</u>SRIs::<b>S</b>}}</div><div>{{c1::<u>N</u>SAIDs::<b>N</b>}}</div></div></div>",
-      "back": "Also commonly seen with valproic acid",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "KY6^n>u4h_",
-      "deck": "AnKing Step Deck",
-      "front": "SIADH may be caused by drugs, which may be remembered with the mnemonic \"[ Ca n't C oncentrate S erum N a + ]\"",
-      "raw0": "<div><b>SIADH </b>may be caused by drugs, which may be remembered with the mnemonic \"{{c1::<b>Ca</b>n't <b>C</b>oncentrate <b>S</b>erum <b>N</b>a<sup>+</sup>}}\"</div>",
-      "back": "Ca rbamazepine C yclophosphamide S SRIs N SAIDs Also commonly seen with valproic acid",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
     {
       "guid": "eC6.axc5D%",
       "deck": "AnKing Step Deck",
@@ -347,27 +327,6 @@
       ]
     },
     {
-      "guid": "E4eVPZjde_",
-      "deck": "AnKing Step Deck",
-      "front": "What anti-neoplastic agents may cause interstitial restrictive lung disease ? [Bleomycin], [busulfan], [methotrexate], and procarbazine",
-      "raw0": "<div>What <u>anti-neoplastic agents</u> may cause <i>interstitial </i><b>restrictive lung disease</b>? </div><br><div>{{c1::Bleomycin}}, {{c2::busulfan}}, {{c3::methotrexate}}, and procarbazine</div>",
-      "back": "Mnemonic: B reathing B ecomes M ore P roblematic ( B leomycin, B usulfan, M ethotrexate, and P rocarbazine)",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "E8)-)MR*|Z",
-      "deck": "AnKing Step Deck",
-      "front": "What drugs are risk factors for urothelial carcinoma ? [Cyclophosphamide, phenacetin]",
-      "raw0": "<div>What <i>drugs</i> are <u>risk factors</u> for <b>urothelial carcinoma</b>? </div><br><div>{{c1::Cyclophosphamide, phenacetin::2}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
       "guid": "z7cS(>Q]~*",
       "deck": "AnKing Step Deck",
       "front": "Lynch syndrome and some sporadic colorectal carcinomas arise via the [microsatellite] instability pathway",
@@ -549,128 +508,6 @@
       ]
     },
     {
-      "guid": "cpzgMI)Zic",
-      "deck": "AnKing Step Deck",
-      "front": "\"Busulfan lung\" is the term for the [ fibrotic ] pattern of lung damage which can be caused by busulfan",
-      "raw0": "<div><div><div><b>\"Busulfan lung\" </b>is the term for the {{c1::<b>fibrotic</b>}} pattern of lung damage which can be caused by <b>busulfan</b></div></div></div>",
-      "back": "[img] Photo credit: James Heilman, MD, CC BY-SA 3.0 , via Wikimedia Commons",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "uXVM?pZdn%",
-      "deck": "AnKing Step Deck",
-      "front": "Busulfan chemotherapy is associated with a(n) [ hyperpigmentation ] reaction",
-      "raw0": "<div><div><div><b>Busulfan</b> chemotherapy is associated with a(n) {{c1::<b>hyperpigmentation</b>::skin}}<b> </b>reaction</div></div></div>",
-      "back": "This is known as a \"busulfan tan\" [img] Photo credit: Onetwo1, CC BY-SA 3.0 , via Wikimedia Commons",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "c!p%)c,BF_",
-      "deck": "AnKing Step Deck",
-      "front": "Busulfan is used to treat [ chronic myeloid ] leukemia",
-      "raw0": "<div><div><div><div><div><div><b>Busulfan</b> is used to treat {{c1::<b>chronic myeloid</b>}} <b>leukemia</b></div></div></div></div></div></div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "LdIs|8+$E9",
-      "deck": "AnKing Step Deck",
-      "front": "Nitrosoureas require bioactivation by [ cytochrome p450 ] enzymes to be effective",
-      "raw0": "<div><div><div><b>Nitrosoureas</b> require bioactivation by {{c1::<b>cytochrome p450</b>}} enzymes to be effective</div></div></div>",
-      "back": "[img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "xS:A.z>D<-",
-      "deck": "AnKing Step Deck",
-      "front": "Nitrosoureas are able to penetrate the [ blood-brain barrier ], making them especially useful for tumors of the [ central nervous system ]",
-      "raw0": "<div><div><b>Nitrosoureas</b> are able to penetrate the {{c1::<b>blood-brain barrier</b>}}, making them especially useful for tumors of the {{c2::<b>central nervous system</b>}}</div></div>",
-      "back": "- Including glioblastoma multiforme - Because they can penetrate the blood-brain barrier, worry about CNS side effects (convulsions, dizziness, ataxia)",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "Cfz68=1I%n",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide is selective for cells that express low / no levels of [aldehyde dehydrogenase]",
-      "raw0": "<div><b style=\"font-weight: bold;\">Cyclophosphamide</b> is selective for cells that express <u>low / no levels</u> of <b>{{c1::aldehyde dehydrogenase::enzyme}}</b></div>",
-      "back": "Thus is selective for cells like lymphocytes [img] Photo credit: ClinMed International Library [ http://clinmedjournals.org/articles/ijdrt/journal-of-dermatology-research-and-therapy-ijdrt-2-019.php?jid=ijdrt ]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "E.zM*glZ*i",
-      "deck": "AnKing Step Deck",
-      "front": "Bioactivation of -phosphamides creates a highly cytotoxic side product known as [ acrolein ], which can cause [ hemorrhagic cystitis ]",
-      "raw0": "<div>Bioactivation of<b> -phosphamides</b> creates a highly cytotoxic side product known as {{c1::<b>acrolein</b>}}, which can cause {{c2::<b>hemorrhagic cystitis</b>}}</div>",
-      "back": "- Acrolein causes bladder toxicity → bleeding - Cyclophosphamide and ifosfamide metabolites accumulate in the bladder - Mesna prevents hemorrhagic cystitis by binding acrolein. It protects the bladder urothelium and is given before and after chemotherapy [img] Photo credit: ClinMed International Library [ http://clinmedjournals.org/articles/ijdrt/journal-of-dermatology-research-and-therapy-ijdrt-2-019.php?jid=ijdrt ] [img] Photo credit: Internet Archive Book Images, No restrictions, via Wikimedia Commons",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "wnXuwc2:!i",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide is especially suited for neoplasias of [ immune ] cells, while cyclophosphamide and ifosfamide can both be used for [ solid ] malignancies",
-      "raw0": "<div><b>Cyclophosphamide</b> is especially suited for neoplasias of {{c2::<u>immune</u>}} cells, while <b>cyclophosphamide </b>and <b>ifosfamide </b>can <u>both</u> be used for {{c1::<b>solid</b>}} malignancies</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "G?py&go2O@",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide can be used as an immunosuppressant for the treatment of [ lupus ] nephritis , as well as for systemic [ vasculitides ]",
-      "raw0": "<div><div><b>Cyclophosphamide</b> can be used as an immunosuppressant for the treatment of {{c1::<b>lupus</b>}} <b>nephritis</b>, as well as for <b>systemic</b> {{c2::<b>vasculitides</b>}} </div></div>",
-      "back": "- e.g., eosinophilic granulomatosis with polyangiitis (EGPA), microscopic polyangiitis, IgA vasculitis (Henoch-Schönlein purpura), granulomatosis with polyangiitis (GPA), polyarteritis nodosa - When given for vasculitides, often given with corticosteroids [img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "g4xD2+frf9",
-      "deck": "AnKing Step Deck",
-      "front": "[ Cyclophosphamide ] can cause a congenital syndrome which may be remembered with the mnemonic \"con GEAL \": [ G rowth restriction] [ E ar and facial abnormalities] [ A bsence of digits] [ L imb hypoplasia]",
-      "raw0": "<div>{{c1::<b>Cyclophosphamide</b>}}<b> </b>can cause a congenital syndrome which may be remembered with the mnemonic \"con<b>GEAL</b>\":</div><div><div class=\"mnemonics\"><br><div>{{c1::<u>G</u>rowth restriction::<b>G</b>}}</div><div>{{c1::<u>E</u>ar and facial abnormalities::<b>E</b>}}</div><div>{{c1::<u>A</u>bsence of digits::<b>A</b>}}</div><div>{{c1::<u>L</u>imb hypoplasia::<b>L</b>}}</div></div></div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "I~iv6FOOXC",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide can cause a congenital syndrome which may be remembered with the mnemonic [con GEAL ]",
-      "raw0": "<div><b>Cyclophosphamide</b><b> </b>can cause a congenital syndrome which may be remembered with the mnemonic {{c1::con<b>GEAL</b>}}</div>",
-      "back": "G rowth restriction E ar and facial abnormalities A bsence of digits L imb hypoplasia",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "m%eL;Kz=CC",
-      "deck": "AnKing Step Deck",
-      "front": "Ifosfamide can cause a generalized reabsorptive defect in the [ proximal convoluted ] tubule",
-      "raw0": "<div><div><b>Ifosfamide </b>can cause a generalized reabsorptive defect in the {{c1::<b>proximal convoluted</b>}}<b> tubule</b></div></div>",
-      "back": "This defect is also known as Fanconi syndrome",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
       "guid": "r&`FW|Y2Y#",
       "deck": "AnKing Step Deck",
       "front": "Non-ionizing radiation causes carcinogenesis by generating [pyrimidine dimers]",
@@ -695,13 +532,74 @@
       ]
     },
     {
+      "guid": "w^(:w!tuK~",
+      "deck": "AnKing Step Deck",
+      "front": "The 3 phases of the bacterial growth curve are: [Lag] phase [Growth/log] phase [Stationary] phase",
+      "raw0": "The <u>3 phases</u> of the <b>bacterial growth curve </b>are:<br><br>{{c1::Lag}} phase<br>{{c1::Growth/log}} phase<br>{{c1::Stationary}} phase",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "uS0C19rEH{",
+      "deck": "AnKing Step Deck",
+      "front": "During the [lag] phase of bacterial growth , there is no increase in the number of cells since adding them to the culture",
+      "raw0": "During the {{c1::lag}} phase of <b>bacterial growth</b>, there is <b>no</b> <i>increase</i> in the <u>number of cells</u> since adding them to the culture",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "r@yUV{&P*{",
+      "deck": "AnKing Step Deck",
+      "front": "The [growth] phase of bacterial growth is dependent on the generation/doubling time",
+      "raw0": "The <b>{{c1::growth}} phase</b> of <b>bacterial growth </b>is dependent on the <u>generation/doubling time</u>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "eBln~e;=[i",
+      "deck": "AnKing Step Deck",
+      "front": "The [generation/doubling] time is the time it takes for the number of bacterial cells to double",
+      "raw0": "The <u>{{c2::generation/doubling}} time</u> is the <i>time</i> it takes for the number of <u>bacterial cells</u> to <b>double</b>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "zL6$}k&WG/",
+      "deck": "AnKing Step Deck",
+      "front": "During the [stationary] phase of bacterial growth bacteria are continuing to grow but also starting to die",
+      "raw0": "<div>During the <u>{{c1::stationary}} phase</u> of <b>bacterial growth </b>bacteria are <i>continuing to grow</i> but <u>also starting to die</u></div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "IX}#nZpry4",
+      "deck": "AnKing Step Deck",
+      "front": "In which phase of bacterial growth do antibiotics have their greatest effect? [Growth]",
+      "raw0": "In which <i>phase</i> of <b>bacterial growth</b> do <u>antibiotics</u> have their <u>greatest</u> effect?<br><br><div>{{c1::Growth}}</div>",
+      "back": "[img] Photo credit: OpenStax , CC BY 4.0",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
       "guid": "DmRfS)Hb1-",
       "deck": "AnKing Step Deck",
       "front": "[Transformation] is a way that bacteria uptake DNA from their surrounding environment",
       "raw0": "{{c1::Transformation}} is a way that bacteria <u>uptake DNA</u> from their <b>surrounding environment</b>",
       "back": "Naked DNA which is genetic material not associated with lipids or proteins [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -711,7 +609,8 @@
       "raw0": "Addition of {{c1::DNAse}} will <i>degrade</i> any <b>naked DNA</b> present in a culture medium, <i>inhibiting</i> any <u>bacterial transformation</u>",
       "back": "Recall that transformation is incorporation of naked DNA from environment into bacteria [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -721,7 +620,8 @@
       "raw0": "{{c1::Conjugation}} involves bacteria extending a <b>sex pilus</b>, allowing <u>exchange of DNA</u> between two different strains",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -731,7 +631,8 @@
       "raw0": "<u>{{c1::High frequency}} strains of bacteria</u> will take <b>{{c2::plasmids}}</b> and <i>incorporate</i> them <u>into</u> <b>their cellular DNA</b>",
       "back": "AKA high-frequency recombination cell (Hfr) [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -741,7 +642,8 @@
       "raw0": "When <b>high frequency strains</b> of bacteria undergo {{c1::<u>conjugation</u>}}, they transfer their <b>{{c2::bacterial}} genome</b> <i>with the plasmid</i> to the recipient",
       "back": "Known as Hfr * F- conjugation [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -751,7 +653,8 @@
       "raw0": "In <b>normal conjugation</b>, is there transfer of bacterial <u>chromosomal</u> DNA?<br><br><div>{{c1::No - normal conjugation involves transfer of <b><u>plasmids only</u></b>}}</div>",
       "back": "Hfr will transfer chromosomal DNA w/ plasmid [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -761,7 +664,8 @@
       "raw0": "{{c1::Transformation::Which bacterial genetics phenomenon}} is used to <b>amplify DNA</b>",
       "back": "Place any DNA into the environment, the bacteria will take it up and continue to replicate with it [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::02_Transformation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -771,7 +675,8 @@
       "raw0": "{{c1::Conjugation}} of <b>high-frequency</b> bacterial strains allows us to perform <b><u>genetic mapping</u></b>",
       "back": "Hfr will transfer chromosomal DNA w/ plasmid - we see where the plasmid incorporates into the bacterial DNA [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::03_Conjugation",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -781,7 +686,8 @@
       "raw0": "A(n) {{c1::bacteriophage}} is a <u>virus</u> that <i>infects</i> <b>bacteria</b>",
       "back": "AKA a \" phage \"",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::01_DNA_Structures_and_Genetic_Material_Exchange",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -791,7 +697,8 @@
       "raw0": "{{c1::Transduction}} describes the <i>transfer of DNA</i> <u>from one bacteria to another</u> via a <b>bacteriophage</b>",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -801,7 +708,8 @@
       "raw0": "What are the two types of <b>bacterial</b> <u>transduction</u>?<br><br><div>{{c1::Generalized and specialized}}</div>",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -811,7 +719,8 @@
       "raw0": "{{c1::<b>Generalized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when a(n) {{c2::<b>lytic</b>::lytic or lysogenic}} phage infects the bacterium",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -821,7 +730,8 @@
       "raw0": "{{c1::<b>Specialized</b>::Generalized or specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when a(n) {{c2::<b>lysogenic</b>::lytic or lysogenic}} phage infects the bacterium",
       "back": "Incorporates into bacterial DNA, when the DNA is lysed, the bacterial DNA is lysed with it [img] [img] Photo credit: OpenStax , CC BY 4.0",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -831,7 +741,8 @@
       "raw0": "{{c1::<b>Generalized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> occurs when <u>bacterial chromosomal DNA</u> is <i>packaged in the phage</i>, resulting in <b>transfer of bacterial DNA</b> with lysis of the bacteria",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -841,7 +752,8 @@
       "raw0": "{{c1::<b>Specialized</b>::Generalized or Specialized}} bacterial DNA <u style=\"font-weight: bold;\">transduction</u> stems from incorporation of viral DNA into bacterial DNA; <i>excision of viral DNA</i> <u>results in excision of bacterial DNA as well</u>",
       "back": "[img] [img] Photo credit: OpenStax , CC BY 4.0",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -851,7 +763,8 @@
       "raw0": "The {{c1::lytic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA, </i><b>multiplies,</b> and then <u>lyses the cell</u>, releasing the new viruses",
       "back": "During generalized transduction , the new viruses may be carrying bacterial DNA [img] [img] Photo credit: OpenStax , CC BY 4.0",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -861,7 +774,8 @@
       "raw0": "The {{c1::lysogenic::lytic or lysogenic}} cycle is when a <b>phage injects</b> <u>nuclear material</u> <i>into preexisting bacterial DNA </i>and it is <b>incorporated into the host DNA</b>",
       "back": "May later become excised and enter the lytic phase - certain triggers such as UV light can causes lysis and release the phages [img] Photo credit: OpenStax , CC BY 4.0 [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -871,7 +785,8 @@
       "raw0": "<u>Phages</u> that only replicate via the <b>lytic cycle</b> are known as {{c1::virulent}}",
       "back": "[img] Photo credit: OpenStax , CC BY 4.0 [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -881,7 +796,8 @@
       "raw0": "<u>Phages</u> that replicate via both the <b>lytic and lysogenic cycle</b> are known as {{c1::temperate}}",
       "back": "[img] Photo credit: OpenStax , CC BY 4.0 [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -891,7 +807,28 @@
       "raw0": "{{c1::Lysogeny}} allows for <b>non-toxic strains of DNA</b> to <u>obtain bacterial toxins</u>",
       "back": "Viral DNA is incorporated into host DNA, encoding for bacterial toxins [img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "gZzi-3{Jez",
+      "deck": "AnKing Step Deck",
+      "front": "The 5 bacterial toxins that depend on lysogeny in order to be secreted by their corresponding bacteria can be remembered by \" ABCD'S \": [Group A strep Erythrogenic toxin (causes scarlet fever)] [ B otulinum toxin] [ C holera toxin] [ D iphtheria toxin] [ S higa toxin]",
+      "raw0": "The <u>5 bacterial toxins</u> that depend on <b><u>lysogeny</u></b> in order to be<i> secreted by their corresponding bacteria </i>can be remembered by \"<b>ABCD'S</b>\":<br><br><div>{{c1::Group <u>A</u> strep Erythrogenic toxin (causes scarlet fever)::<b>A</b>}}</div><div>{{c1::<u>B</u>otulinum toxin::<b>B</b>}}</div><div>{{c1::<u>C</u>holera toxin::<b>C</b>}}</div><div>{{c1::<u>D</u>iphtheria toxin::<b>D</b>}}</div><div>{{c1::<u>S</u>higa toxin::<b>S</b>}}</div>",
+      "back": "These toxins are not normally found in their host's genome - are instead incorporated via lysogeny",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
+      ]
+    },
+    {
+      "guid": "f++^4,Qi6P",
+      "deck": "AnKing Step Deck",
+      "front": "The 5 bacterial toxins that depend on lysogeny in order to be secreted by their corresponding bacteria can be remembered by [ ABCD'S ]",
+      "raw0": "The <u>5 bacterial toxins</u> that depend on <b><u>lysogeny</u></b> in order to be<i> secreted by their corresponding bacteria </i>can be remembered by {{c1::<b>ABCD'S</b>}}",
+      "back": "- Group A strep Erythrogenic toxin (causes scarlet fever) - B otulinum toxin - C holera toxin - D iphtheria toxin - S higa toxin These toxins are not normally found in their host's genome - they are instead incorporated via lysogeny",
+      "tags": [
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -901,7 +838,8 @@
       "raw0": "{{c1::<u>Transposition</u>}} describes a(n) {{c2::<b>transposon</b>}} of <b>bacterial DNA</b> that can \"<i>jump</i>\" from one location to another (e.g., <u>bacterial DNA or even a plasmid</u>)",
       "back": "- Bacterial resistance can be conferred this way - a bacterium that is resistant to a certain antibiotic can encode for this resistance via a transposon - The transposon can jump to a plasmid and this plasmid can be transferred to another bacterium via conjugation - This transposon can then jump back from the plasmid to the new bacterial DNA, conferring antibiotic resistance in the new bacterium",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -911,7 +849,8 @@
       "raw0": "In <u>transposition of bacterial DNA</u>, a(n) {{c1::<b>transposon</b>}} can move to a(n) {{c2::<b>plasmid</b>}}, allowing <i>transfer to another bacterium</i> via {{c3::<u>conjugation</u>}}",
       "back": "",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -921,7 +860,8 @@
       "raw0": "<b>Transposition of bacterial DNA</b> allows for <u>transfer of bacterial DNA</u> amongst different strains, such as <i>resistance</i> to {{c1::antibiotics}}",
       "back": "",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::05_Transposition",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -934,386 +874,6 @@
         "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
         "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair",
         "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Xeroderma_Pigmentosum"
-      ]
-    },
-    {
-      "guid": "eW)KW=fVoZ",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does cyclophosphamide belong to? [Alkylating agents (cytotoxic chemo)]",
-      "raw0": "What <u>class</u> of drugs does <b>cyclophosphamide</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "k;NA`1>xj;",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does ifosfamide belong to? [Alkylating agents (cytotoxic chemo)]",
-      "raw0": "What <u>class</u> of drugs does <b>ifosfamide</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "BKO^rP2<{7",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does busulfan belong to? [Alkylating agents (cytotoxic chemo)]",
-      "raw0": "What <u>class</u> of drugs does <b>busulfan</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "F8E3FMP5Di",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs do nitrosoureas belong to? [Alkylating agents (cytotoxic chemo)]",
-      "raw0": "What <u>class</u> of drugs do <b>nitrosoureas</b> belong to?<br><br><div>{{c1::Alkylating agents (cytotoxic chemo)}}</div>",
-      "back": "Include carmustine, lomustine, and streptozocin",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "Hae+4(xjho",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does carmustine belong to? [Nitrosoureas (alkylating agent)]",
-      "raw0": "What <u>class</u> of drugs does <b>carmustine</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "gz:n!T+^c;",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does lomustine belong to? [Nitrosoureas (alkylating agent)]",
-      "raw0": "What <u>class</u> of drugs does <b>lomustine</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "o|vg!<R4n?",
-      "deck": "AnKing Step Deck",
-      "front": "What class of drugs does streptozocin belong to? [Nitrosoureas (alkylating agent)]",
-      "raw0": "What <u>class</u> of drugs does <b>streptozocin</b> belong to?<br><br><div>{{c1::Nitrosoureas (alkylating agent)}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "bvu_I&7!~1",
-      "deck": "AnKing Step Deck",
-      "front": "Alkylating agents donate a(n) [alkyl] group that [cross-links] [ DNA ], resulting in cell apoptosis",
-      "raw0": "<b>Alkylating agents</b> donate a(n) <b>{{c1::alkyl}}</b> group that <u>{{c1::cross-links}}</u> {{c2::<b>DNA</b>}}, resulting in cell apoptosis",
-      "back": "Cell cycle non-specific; cell division is brought to a halt and the cell undergoes apoptosis",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "tSDNCo[1g3",
-      "deck": "AnKing Step Deck",
-      "front": "At which phase of the cell cycle do alkylating agents act? [Act throughout the cell cycle]",
-      "raw0": "At which phase of the <u>cell cycle</u> do <b>alkylating agents</b> act?<br><br><div>{{c1::Act <u>throughout</u> the cell cycle}}</div>",
-      "back": "Cross-link DNA → cell division is brought to a halt and the cell undergoes apoptosis [img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "z!xA#_D4VZ",
-      "deck": "AnKing Step Deck",
-      "front": "Which chemotherapeutic drugs cross-link DNA at the guanine N-7 ? [Cyclophosphamide, ifosfamide]",
-      "raw0": "Which <u>chemotherapeutic</u> drugs <b>cross-link DNA</b> at the <b>guanine N-7</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide::2}}</div>",
-      "back": "Attaches an alkyl group to the seventh nitrogen of guanine",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "Am5tZy:2)I",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide attaches an alkyl group to the [seventh nitrogen (N-7)] of [ guanine ]",
-      "raw0": "<b>Cyclophosphamide</b> attaches an <u>alkyl group</u> to the {{c1::seventh nitrogen (N-7)}} of {{c2::<b>guanine</b>}}",
-      "back": "Thereby cross-linking DNA",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "i6BZp<2>m2",
-      "deck": "AnKing Step Deck",
-      "front": "Ifosfamide attaches an alkyl group to the [seventh nitrogen (N-7)] of [ guanine ]",
-      "raw0": "<b>Ifosfamide</b> attaches an <u>alkyl group</u> to the {{c1::seventh nitrogen (N-7)}} of {{c2::<b>guanine</b>}}",
-      "back": "Thereby cross-linking DNA",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "Iwz/B9LmUo",
-      "deck": "AnKing Step Deck",
-      "front": "Which two groups of alkylating agents must be activated by CYP450 in the liver ? [Nitrogen mustards, nitrosoureas]",
-      "raw0": "Which <u>two groups</u> of alkylating agents must be <i>activated</i> by <b>CYP450</b> in the <b>liver</b>?<br><br><div>{{c1::Nitrogen mustards, nitrosoureas}}</div>",
-      "back": "- Nitrogen mustards : cyclophosphamide, ifosfamide - Nitrosoureas : carmustine, lomustine, streptozocin [img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "kWF,pZ&Kt,",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide is [activated] by CYP450 in the liver",
-      "raw0": "<b>Cyclophosphamide</b> is <u>{{c1::activated}}</u> by <b>CYP450</b> in the liver",
-      "back": "[img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "EhjM`uZyEz",
-      "deck": "AnKing Step Deck",
-      "front": "Ifosfamide is [ activated ] by CYP450 in the liver",
-      "raw0": "<b>Ifosfamide</b> is {{c1::<u>activated</u>}} by <b>CYP450</b> in the liver",
-      "back": "[img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "M%|MsI%ZP7",
-      "deck": "AnKing Step Deck",
-      "front": "Which alkylating agent is used to treat both hematologic malignancies (leukemia, lymphoma) and solid tumors ? [Cyclophosphamide]",
-      "raw0": "Which <u>alkylating agent</u> is used to treat both <b>hematologic malignancies</b> (leukemia, lymphoma) and <b>solid tumors</b>?<br><br><div>{{c1::Cyclophosphamide}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "JrT#Q_Xqf!",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide has a potent [immunosuppressive] effect; hence it can be used for a variety of autoimmune conditions",
-      "raw0": "<b>Cyclophosphamide</b> has a <u>potent</u> {{c1::immunosuppressive}} effect; hence it can be used for a variety of <b>autoimmune conditions</b>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "q/m/#e5zzx",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide can result in [myelo]suppression with resultant -cytopenias",
-      "raw0": "<b>Cyclophosphamide</b> can result in {{c1::myelo}}suppression with resultant -cytopenias",
-      "back": "Make sure you continually check the patient's CBCs!",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "zx/Kx_[P<I",
-      "deck": "AnKing Step Deck",
-      "front": "Which chemotherapeutic drugs are associated with hemorrhagic cystitis with acrolein in urine? [Cyclophosphamide and ifosfamide]",
-      "raw0": "Which <u>chemotherapeutic</u> drugs are associated with <b>hemorrhagic cystitis</b> <i>with</i> <b>acrolein</b> in urine?<br><br><div>{{c1::Cyclophosphamide and ifosfamide}}</div>",
-      "back": "Bleeding is from the bladder in hemorrhagic cystitis",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "nw4%1mVtxR",
-      "deck": "AnKing Step Deck",
-      "front": "What drug can bind acrolein and prevent hemorrhagic cystitis in cyclophosphamide or ifosfamide use? [ MESNA (2-mercaptoethanesulfonate)]",
-      "raw0": "What drug can <u>bind acrolein</u> and <i>prevent</i> <b>hemorrhagic cystitis</b> in cyclophosphamide or ifosfamide use?<br><br><div>{{c1::<u>MESNA</u> (2-mercaptoethanesulfonate)}}</div>",
-      "back": "Recall that acrolein is a toxic metabolite of -phosphamides",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "zi1KnCcLt7",
-      "deck": "AnKing Step Deck",
-      "front": "The [sulfhydryl] group of MESNA binds acrolein , preventing hemorrhagic cystitis due to cyclophosphamide, ifosfamide use",
-      "raw0": "The {{c1::sulfhydryl}} group of <b>MESNA</b> <u>binds acrolein</u>, preventing hemorrhagic cystitis due to cyclophosphamide, ifosfamide use",
-      "back": "FA 2019 changed thiol to sulfhydryl (different names for the same functional group -SH)",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "kv&GI73>Y,",
-      "deck": "AnKing Step Deck",
-      "front": "Besides MESNA , [N-acetylcysteine] can also be used to prevent hemorrhagic cystitis from cyclophosphamide, ifosfamide use",
-      "raw0": "Besides <b>MESNA</b>, {{c1::N-acetylcysteine}} can also be used to <i>prevent</i> <u>hemorrhagic cystitis</u> from cyclophosphamide, ifosfamide use",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "ob3jeclMq@",
-      "deck": "AnKing Step Deck",
-      "front": "Which chemotherapeutic drugs are known to cause bladder cancer ? [Cyclophosphamide, ifosfamide]",
-      "raw0": "Which <u>chemotherapeutic</u> drugs are known to <i>cause</i> <b>bladder cancer</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "g6|pvJL*(G",
-      "deck": "AnKing Step Deck",
-      "front": "Which type of bladder cancer is cyclophosphamide known to cause? [Urothelial carcinoma of the bladder]",
-      "raw0": "Which <u>type</u> of <i>bladder</i> cancer is <b>cyclophosphamide</b> known to cause?<br><br><div>{{c1::Urothelial carcinoma of the bladder}}</div>",
-      "back": "AKA transitional cell carcinoma",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "Ok+r,Kflsx",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide can result in [ SIADH ], with resultant [hypo]natremia",
-      "raw0": "<b>Cyclophosphamide</b> can result in {{c1::<b>SIADH</b>}}, with resultant <u>{{c2::hypo}}natremia</u>",
-      "back": "Excess free water reabsorption due to excess ADH \"Can't C oncentrate Serum Na + \"",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "I6tb)dwb9&",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide is known to cause [infertility] in men",
-      "raw0": "<b>Cyclophosphamide</b> is known to cause {{c1::infertility}} in <u>men</u>",
-      "back": "Decreased sperm count or even azoospermia if severe",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "g%_a&`iK)0",
-      "deck": "AnKing Step Deck",
-      "front": "Cyclophosphamide is known to cause [premature menopause] in females",
-      "raw0": "<b>Cyclophosphamide</b> is known to cause {{c1::premature menopause}} in <u>females</u>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "bEs]t]Fh=7",
-      "deck": "AnKing Step Deck",
-      "front": "Which chemotherapeutic drug is used in bone marrow ablation prior to marrow transplant ? [Busulfan]",
-      "raw0": "Which <u>chemotherapeutic</u> drug is used in <b>bone marrow ablation</b> prior to <b>marrow transplant</b>?<br><br><div>{{c1::Busulfan}}</div>",
-      "back": "Depletes bone marrow",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "qvi`Ig$*DU",
-      "deck": "AnKing Step Deck",
-      "front": "Busulfan is associated with [lung] toxicity",
-      "raw0": "<b>Busulfan</b> is associated with {{c1::lung::organ}} toxicity",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "$<=-X?$E;",
-      "deck": "AnKing Step Deck",
-      "front": "Which alkylating agent can result in hyperpigmentation ? [Busulfan]",
-      "raw0": "Which <u>alkylating agent</u> can result in <b>hyperpigmentation</b>?<br><br><div>{{c1::Busulfan}}<br></div>",
-      "back": "\" Busulfan tan \"",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "F#CbCU4v~O",
-      "deck": "AnKing Step Deck",
-      "front": "Busulfan can result in [myelo]suppression with resultant -cytopenias",
-      "raw0": "<b>Busulfan</b> can result in {{c1::myelo}}suppression with resultant -cytopenias",
-      "back": "Actually useful in prepping a patient's bone marrow before bone marrow transplant",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "l7lq:#EtA,",
-      "deck": "AnKing Step Deck",
-      "front": "Which of the alkylating agents are nitrogen mustards ? [Cyclophosphamide, ifosfamide]",
-      "raw0": "Which of the <u>alkylating agents</u> are <b>nitrogen mustards</b>?<br><br><div>{{c1::Cyclophosphamide, ifosfamide::2}}</div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "Cc7D-WMEjQ",
-      "deck": "AnKing Step Deck",
-      "front": "Busulfan can result in pulmonary fibrosis and ultimately [ restrictive lung] disease",
-      "raw0": "<b>Busulfan</b> can result in pulmonary fibrosis and ultimately {{c1::<u>restrictive</u> lung}} disease",
-      "back": "- Methotrexate, bleomycin, busulfan, and amiodarone - Recall that late-stage fibrosis will present with honeycomb lung on CT",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "xt94W{q%fK",
-      "deck": "AnKing Step Deck",
-      "front": "What class of alkylating agents require bioactivation via non-enzymatic hydroxylation in the liver ? [Nitrosoureas (-ustine, streptozocin)]",
-      "raw0": "What class of alkylating agents require <u>bioactivation</u> via <b>non-enzymatic hydroxylation</b> in the <b>liver</b>?<br><br><div>{{c1::Nitrosoureas (-ustine, streptozocin)}} </div>",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "wD$(gr)LXl",
-      "deck": "AnKing Step Deck",
-      "front": "Which of the alkylating agents can cross the blood-brain barrier ? [Nitrosoureas]",
-      "raw0": "Which of the <u>alkylating agents</u> can cross the <b>blood-brain barrier</b>?<br><br><div>{{c1::Nitrosoureas}}</div>",
-      "back": "Lomustine, carmustine, streptozocin",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "f(i[/aWJp-",
-      "deck": "AnKing Step Deck",
-      "front": "Which of the alkylating agents can be used to treat glioblastoma multiforme ? [Nitrosoureas]",
-      "raw0": "Which of the <u>alkylating agents</u> can be used to treat <b>glioblastoma multiforme</b>?<br><br><div>{{c1::Nitrosoureas}}</div>",
-      "back": "Carmustine, lomustine, streptozocin",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "K]|-b@~LvN",
-      "deck": "AnKing Step Deck",
-      "front": "Nitrosoureas cross the blood-brain barrier and can thus treat brain tumors (e.g., [glioblastoma multiforme])",
-      "raw0": "<b>Nitrosoureas</b> cross the <u>blood-brain</u> barrier and can thus treat <b>brain</b> tumors (e.g., {{c1::glioblastoma multiforme}})",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
-      ]
-    },
-    {
-      "guid": "E+<W)5)~qI",
-      "deck": "AnKing Step Deck",
-      "front": "Which of the alkylating agents can cause neurotoxicity (convulsions, dizziness, ataxia) ? [Nitrosoureas]",
-      "raw0": "Which of the <u>alkylating agents</u> can cause <b>neurotoxicity </b><i>(convulsions, dizziness, ataxia)</i>?<br><br><div>{{c1::Nitrosoureas}}</div>",
-      "back": "Can cross the blood-brain barrier!",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
       ]
     },
     {
@@ -1464,37 +1024,6 @@
       ]
     },
     {
-      "guid": "BE3orG}ZS[",
-      "deck": "AnKing Step Deck",
-      "front": "Ifosfamide can cause neurotoxicity due to buildup of its metabolite [ chloroacetaldehyde (CAA)], which can be treated with [ methylene blue ]",
-      "raw0": "<b>Ifosfamide</b> can cause neurotoxicity due to buildup of its metabolite {{c1::<b>chloroacetaldehyde</b> (CAA)}}, which can be treated with {{c2::<u>methylene blue</u>}}",
-      "back": "Alkylating agent",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "FgC&>>DpN{",
-      "deck": "AnKing Step Deck",
-      "front": "Procarbazine is a chemotherapeutic [alkylating] agent used to treat Hodgkin lymphoma and brain tumors",
-      "raw0": "<b>Procarbazine</b> is a chemotherapeutic {{c1::alkylating}} agent used to treat Hodgkin lymphoma and brain tumors",
-      "back": "",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "BHKYxMx65l",
-      "deck": "AnKing Step Deck",
-      "front": "Procarbazine has notable side effects; including [pulmonary] toxicity and [leuk]emia *bonus: patients should not eat what food?",
-      "raw0": "<b>Procarbazine</b> has notable side effects; including {{c2::pulmonary}} toxicity and {{c1::leuk}}emia<br><br><div><i>*bonus: patients should not eat what food?</i></div>",
-      "back": "- Thus check PFTs in patients who are on this drug - FA2019: adds \"disulfiram-like reaction\" - Any drug messing up DNA has the potential to cause more cancer - *Patients should not eat tyramine-containing food; procarbazine inhibits MAO therefore too much tyramine can lead to a hypertensive crisis [img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents",
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
       "guid": "i|&xW%pmMs",
       "deck": "AnKing Step Deck",
       "front": "The [BLM helicase] is involved in regulating homologous recombination , and when mutated causes Bloom syndrome",
@@ -1531,7 +1060,8 @@
       "raw0": "{{c1::Generalized transduction}} is the <u>transfer of <b><i>random</i></b> DNA</u> between bacteria using <b>bacteriophages</b>",
       "back": "[img]",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -1541,7 +1071,8 @@
       "raw0": "{{c1::Specialized transduction}} is the <u>transfer of <b><i>specific</i></b> DNA</u> between bacteria using <b>bacteriophages</b>",
       "back": "[img] [img] Photo credit: OpenStax , CC BY 4.0",
       "tags": [
-        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction"
+        "#AK_Step1_v12::#Bootcamp::Microbiology::02_Bacterial_Genetics::04_Transduction",
+        "#AK_Step1_v12::#FirstAid::03_Microbiology::01_Basic_Bacteriology::14_Bacterial_genetics"
       ]
     },
     {
@@ -1593,26 +1124,6 @@
       "tags": [
         "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair",
         "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::07_DNA_repair::02_Single_strand::*Nucleotide_Excision_Repair"
-      ]
-    },
-    {
-      "guid": "p;X>IkT.^R",
-      "deck": "AnKing Step Deck",
-      "front": "[Procarbazine] is an alkylating agent that also acts as a weak MAO inhibitor",
-      "raw0": "{{c1::Procarbazine}} is an <b>alkylating agent </b>that also acts as a weak <u>MAO inhibitor</u>",
-      "back": "Thus it is important to avoid tyramine-containing foods [img]",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents::zanki_extra"
-      ]
-    },
-    {
-      "guid": "b/zIJBxa1D",
-      "deck": "AnKing Step Deck",
-      "front": "Does cyclophosphamide cause peripheral neuropathy ? [No]",
-      "raw0": "Does <b>cyclophosphamide</b> cause <i>peripheral neuropathy</i>?<br><br><div>{{c1::No}}</div>",
-      "back": "However, vincristine, paclitaxel, or cisplatin can",
-      "tags": [
-        "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::02_DNA_&_Cellular_Division::01_Alkylating_Agents"
       ]
     }
   ]

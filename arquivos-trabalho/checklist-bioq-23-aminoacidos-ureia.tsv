@@ -1,20 +1,20 @@
-1.1	Turnover proteico: síntese e degradação simultâneas; ~400g/dia; sem reserva dedicada de aminoácidos (músculo é o único "pulmão")	protein_turnover|protein_degradation|amino_acid_pool|protein_synthesis
-1.2	Balanço de nitrogênio: positivo/negativo/zero; ureia urinária = 90% do N excretado; excesso de proteína vira gordura não proteína	nitrogen_balance|nitrogen_excretion|urea_nitrogen|protein_excess
-1.3	Aminoácidos essenciais (9: Phe Val Thr Trp Ile Met His Leu Lys) vs não-essenciais; Arg condicionalmente essencial; efeito complementar; kwashiorkor vs marasmo	essential_amino_acids|nonessential_amino_acids|kwashiorkor|marasmus|complementary_protein|protein_deficiency
-1.4	Digestão: endopeptidases (pepsina/tripsina/quimotripsina/elastase) cortam internamente; exopeptidases (carboxipeptidase/aminopeptidase) aparam pontas; zimogênios evitam autodigestão	protease|zymogen|endopeptidase|exopeptidase|chymotrypsin|trypsin|pepsinogen|carboxypeptidase
-1.4b	Degradação endógena: catepsinas (lisossomo, inespecífico) vs ubiquitina-proteassomo (citosol, seletivo, ATP-dependente); meia-vida variável por proteína	ubiquitin|proteasome|cathepsin|lysosome|protein_degradation_pathway
-1.5	Esqueleto de carbono: glicogênicos (piruvato/intermediários Krebs → gliconeogênese) vs cetogênicos (acetil-CoA/acetoacetato → NÃO glicose); Leu e Lys exclusivamente cetogênicos	glucogenic|ketogenic|amino_acid_carbon_skeleton|leucine|lysine|gluconeogenesis
-2.1	As duas metades: grupo α-amino (nitrogênio → amônia → ureia) e α-cetoácido (carbono → energia/glicose/corpos cetônicos); 20 aa convergem para poucas rotas	alpha_keto_acid|amino_group|ammonia|two_fates_amino_acid
-2.2	Transaminação: TRANSFERE N (não remove); aminoácido + α-cetoglutarato ⇌ α-cetoácido + glutamato; glutamato como coletor central; reversível	transamination|aminotransferase|glutamate|alpha_ketoglutarate|nitrogen_transfer
-2.3	Transaminases: coenzima PLP (piridoxal-fosfato, derivada de B6); AST (aspartato+α-cetoglutarato↔glutamato+oxaloacetato) e ALT como marcadores de lesão hepática	AST|ALT|pyridoxal_phosphate|PLP|aminotransferase|vitamin_B6|transaminase
-2.4	Desaminação oxidativa: glutamato desidrogenase mitocondrial libera NH4+ do glutamato, regenera α-cetoglutarato; usa NAD(P)+; é AQUI que o N deixa o esqueleto	glutamate_dehydrogenase|oxidative_deamination|ammonium|NAD|NADP
-2.5	Amônia neurotóxica: transporte atóxico como glutamina (glutamina sintetase/glutaminase) e alanina (ciclo glicose-alanina); astrócitos fixam amônia → edema osmótico	glutamine|glutamine_synthetase|glutaminase|glucose_alanine_cycle|ammonia_transport|astrocyte
-3.1	Por que ciclo da ureia: amônia tóxica → ureia atóxica, hidrossolúvel; só fígado tem via completa; 2 N por ureia (1ª amônia via CPS-I; 2º aspartato via argininossuccinato)	urea_cycle|urea|ornithine|ammonia_detoxification
-3.2	CPS-I: NH4+ + HCO3- + 2 ATP → carbamoil-fosfato (mitocôndria); ativada por N-acetilglutamato (regulador alostérico); enzima reguladora	CPS1|carbamoyl_phosphate_synthetase|N_acetylglutamate|carbamoyl_phosphate|CPS_I
-3.2b	OTC: carbamoil-fosfato + ornitina → citrulina (mitocôndria); citrulina sai para citosol	OTC|ornithine_transcarbamylase|citrulline|ornithine
-3.2c	Argininossuccinato sintetase: citrulina + aspartato + ATP→AMP+PPi → argininossuccinato (2º N entra; equivale a 2 ATP gastos)	argininosuccinate_synthetase|argininosuccinate|aspartate|citrulline
-3.2d	Argininossuccinato liase: argininossuccinato → arginina + fumarato (fumarato entra no Krebs — chave do biciclo)	argininosuccinate_lyase|fumarate|arginine
-3.2e	Arginase: arginina → ureia + ornitina (ornitina reciclada para mitocôndria; ureia vai para urina)	arginase|urea|ornithine|urea_synthesis
-3.3	Custo de 4 ligações de alta energia (2 ATP CPS-I + ATP→AMP+PPi step3); biciclo ureia-Krebs: fumarato→malato→oxaloacetato gera NADH, recupera ~3 ATP	urea_cycle_ATP|fumarate|urea_cycle_energy|krebs_cycle_integration
-3.4	Hiperamonemia: bloqueio em qualquer ponto acumula amônia; CPS-I e OTC mais comuns; OTC LIGADA AO X (exceção ao padrão recessivo autossômico); encefalopatia: edema astrocitário	hyperammonemia|OTC_deficiency|urea_cycle_disorders|hepatic_encephalopathy|ammonia_toxicity|X_linked
-3.5	Fenilcetonúria (PKU): deficiência de fenilalanina hidroxilase; Phe não vira Tyr; acúmulo → fenilpiruvato; cruza BHE → retardo mental; AR; triagem neonatal; dieta pobre em Phe	phenylketonuria|PKU|phenylalanine_hydroxylase|phenylalanine|phenylpyruvate|neonatal_screening
+# checklist-alvo (refinada da E1) — bioq-23-aminoacidos-ureia
+1.1	Turnover proteico; sem reserva dedicada de aminoácidos	turnover proteico|protein turnover degradation
+1.2	Balanço de nitrogênio (positivo/negativo/zero)	balanço de nitrogênio|nitrogen balance
+1.3	Aminoácidos essenciais vs não-essenciais; arginina condicional	aminoácidos essenciais|essential amino acids
+1.4	Kwashiorkor vs Marasmo	kwashiorkor marasmo|kwashiorkor marasmus
+1.5	Digestão de proteínas: endo/exopeptidases; zimogênios	proteases digestivas zimogênio|pepsin trypsin chymotrypsin zymogen
+1.6	Degradação endógena: ubiquitina-proteassomo e catepsinas	ubiquitina proteassomo|ubiquitin proteasome
+1.7	Esqueleto de carbono: glicogênico vs cetogênico (Leu/Lys)	glicogênico cetogênico|glucogenic ketogenic amino acids
+# PARTE II
+2.1	Duas metades do aminoácido (nitrogênio vs α-cetoácido)	grupo amino cetoácido|amino group carbon skeleton
+2.2	Transaminação: glutamato como coletor central	transaminação glutamato|transamination glutamate
+2.3	Transaminases, PLP/vitamina B6, AST e ALT	transaminase B6 AST ALT|aminotransferase pyridoxal phosphate AST ALT
+2.4	Desaminação: glutamato desidrogenase libera NH4	desaminação glutamato desidrogenase|oxidative deamination glutamate dehydrogenase
+2.5	Amônia tóxica: glutamina (sintetase/glutaminase) e alanina; edema astrocitário	glutamina alanina amônia|glutamine synthetase glutaminase glucose alanine cycle ammonia
+# PARTE III
+3.1	Por que ciclo da ureia (2 nitrogênios, só fígado)	ciclo da ureia visão geral|urea cycle nitrogen
+3.2	As cinco reações (CPS-I, OTC, ASS, ASL, arginase)	cinco reações ciclo ureia|carbamoyl phosphate synthetase ornithine transcarbamylase argininosuccinate arginase citrulline
+3.3	Custo de ATP e biciclo com o ciclo de Krebs (fumarato)	custo ATP biciclo|urea cycle fumarate krebs aspartate
+3.4	Hiperamonemia: OTC ligada ao X; encefalopatia hepática	hiperamonemia OTC|hyperammonemia ornithine transcarbamylase deficiency ammonia encephalopathy
+3.5	Fenilcetonúria (PKU): fenilalanina hidroxilase	fenilcetonúria PKU|phenylketonuria phenylalanine hydroxylase
