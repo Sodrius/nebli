@@ -155,6 +155,32 @@ Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vi
 
 ---
 
+## NEBLIcards — cards autorais para lacunas (canônico 2026-07-11)
+
+> Pesquisa completa (500 cards do AnKing dissecados + SuperMemo/Matuschak/Nielsen + repos de IA) em `flashcards/PESQUISA-BOM-CARD.md`. Esta seção é o essencial operacional.
+
+**⚠ LAST RESOURCE — NÃO é o padrão.** O padrão do deck-aula é **card AnKing curado** (validado por milhões, com imagem/Extra/formato maduro). Gerar NEBLIcard é a **resposta do pipeline canônico às LACUNAS tipo-a** — conceito da E1 que o AnKing **genuinamente não tem** (confirmado por probe do termo distintivo = 0, ex.: fotoliase, resposta SOS, tautômero). Ordem sempre: **(1) card AnKing curado → (2) subtópico coberto? pronto → (3) só se resta lacuna real, gerar NEBLIcard.** Nunca gerar para o que o AnKing já cobre.
+
+**O que a dissecação de 500 cards ensinou (destilado):**
+- 100% cloze · **86% single-cloze** (atomicidade é a norma) · frente mediana **17 palavras** · **83% com Extra** (mediana 20 palavras) · 47% com imagem.
+- O cloze apaga o **token de maior valor** (diagnóstico, enzima, número, direção ↑/↓), nunca enchimento.
+- O **Extra carrega o PORQUÊ**: mecanismo, ou discriminador da confusão clássica, ou mnemônico.
+- Contexto rico na frente (nunca definição nua) — a frase dá a pista de recuperação.
+
+**Formato do NEBLIcard (reafirma e detalha R9):**
+- Cloze, **1 por card** (`{{c1::…}}`); multi-cloze só para partes de UM fato.
+- **Frente:** frase declarativa NEBLI (ou pergunta focada), ≤ ~20 palavras, com o token-chave clozado; a frase sozinha contextualiza.
+- **Extra obrigatório:** 1–2 frases em **voz de monitor** (causa→mecanismo→consequência) OU discriminador. ≤ ~35 palavras. Sem Extra = card nota ≤1.
+- **Imagem** do slide (`figuras/<slug>/`) quando o fato é visual.
+- **Tags:** `NEBLI::<slug>` + `NEBLI::gerado` (distingue autoral de AnKing curado; auditável/reversível).
+- **GATE:** o conceito TEM de estar na E1 (senão nem gerar).
+
+**Rubrica (0–3, entra só ≥2):** 0 ambíguo/enchimento · 1 fato nu sem contexto/sem Extra · 2 frente contextualizada + cloze no token-chave + 1 frase de mecanismo no Extra · 3 idem + Extra reconstrói o mecanismo/discrimina a confusão (+ imagem se visual).
+
+**Anti-padrões (rejeitar):** enumeração empilhada num card; definição nua; multi-fact cloze com brancos independentes; Extra que repete a frente; cloze ambíguo; conceito fora da E1; escopo Step 2.
+
+**Quando gerar no pipeline:** Fase dedicada, NÃO no `/resumo` automático. Só após a curadoria AnKing fechar e restarem lacunas tipo-a com fonte apontada. Grava em `flashcards/cards-nebli/<slug>.json`. Ver `PESQUISA-BOM-CARD.md` Parte 4 (spec) e a fila `PENDENTE-GERADO`.
+
 ## Bandeiras
 
 ### Vermelha (flag:1) — "me explique este card"

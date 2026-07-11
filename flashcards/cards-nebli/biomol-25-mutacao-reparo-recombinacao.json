@@ -1,0 +1,13 @@
+{
+  "slug": "biomol-25-mutacao-reparo-recombinacao",
+  "origem": "gerado da E1 (lacunas tipo-a: AnKing não cobre — probe do termo distintivo = 0)",
+  "tags": ["NEBLI::biomol-25-mutacao-reparo-recombinacao", "NEBLI::gerado"],
+  "cards": [
+    {"conceito": "2.1", "front": "No reparo por fotorreativação, a enzima {{c1::fotoliase}} usa a energia da luz visível para quebrar o dímero de pirimidina e devolver as duas timinas separadas.", "extra": "Reparo direto — desfaz a lesão no lugar, sem cortar a fita. Ironia elegante: o UV cria o dímero, outra faixa de luz o desfaz. Humanos não têm fotoliase funcional e dependem do NER.", "img": "/figuras/biomol-25-mutacao-reparo-recombinacao/slide-28.png", "nota": 3},
+    {"conceito": "2.2", "front": "A enzima de reparo direto {{c1::MGMT}} remove o grupo metil da O6-metilguanina transferindo-o para uma cisteína de si mesma — e se inativa de vez no processo.", "extra": "Enzima 'suicida' de uso único: gasta uma proteína inteira por lesão. A O6-metilguanina é cancerígena porque pareia erradamente com timina e semeia transições.", "img": null, "nota": 3},
+    {"conceito": "1.4", "front": "Quando um próton se desloca dentro da base, ela assume um {{c1::tautômero}} — forma rara e fugaz que pareia com a base errada.", "extra": "Se a replicação flagra a base exatamente nesse instante, encaixa o parceiro incorreto e o erro fica. É fonte espontânea de mutação, sem nenhum agente externo.", "img": null, "nota": 3},
+    {"conceito": "1.6", "front": "O mutágeno {{c1::5-bromouracil}} é um análogo da timina cujo átomo de bromo desloca os elétrons e faz a molécula reconhecer guanina em vez de adenina.", "extra": "A polimerase o incorpora no lugar da timina (pareando com A); na rodada seguinte, na forma alterada, puxa uma G — resultando numa troca A→G poucas divisões depois.", "img": "/figuras/biomol-25-mutacao-reparo-recombinacao/slide-12.png", "nota": 3},
+    {"conceito": "2.6", "front": "Na resposta SOS bacteriana, o DNA de fita simples exposto pelo dano ativa a {{c1::RecA}}, que estimula a autoclivagem do repressor LexA.", "extra": "Sem o repressor LexA, dezenas de genes de reparo de emergência são transcritos de uma vez. É um interruptor que só liga quando o estrago é grande o bastante para justificar.", "img": null, "nota": 3},
+    {"conceito": "3.5", "front": "A integração do fago lambda no cromossomo bacteriano ocorre num sítio-alvo preciso (attB) — o exemplo mais limpo de {{c1::recombinação sítio-específica}}.", "extra": "Diferente da recombinação homóloga, que depende de longas regiões de similaridade, ela reconhece uma sequência curta e definida. É o rearranjo controlado de DNA que fecha o tema.", "img": null, "nota": 3}
+  ]
+}
