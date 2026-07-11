@@ -175,7 +175,9 @@ Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vi
 - **Tags:** `NEBLI::<slug>` + `NEBLI::gerado` (distingue autoral de AnKing curado; auditável/reversível).
 - **GATE:** o conceito TEM de estar na E1 (senão nem gerar).
 
-**Rubrica (0–3, entra só ≥2):** 0 ambíguo/enchimento · 1 fato nu sem contexto/sem Extra · 2 frente contextualizada + cloze no token-chave + 1 frase de mecanismo no Extra · 3 idem + Extra reconstrói o mecanismo/discrimina a confusão (+ imagem se visual).
+**Princípio anti-reconhecimento (feedback Davi 2026-07-11):** o cloze apaga a informação que **exige saber** (mecanismo, consequência, valor, discriminador), NÃO o rótulo óbvio que a própria frase já entrega — senão o card testa reconhecimento, não conhecimento. Teste: *"dá pra adivinhar o branco só relendo a frase?"* Se sim, mova o branco. Cada card puxa **mais conteúdo**.
+
+**Rubrica (0–3, entra só ≥2):** 0 ambíguo/enchimento · 1 fato nu sem contexto/sem Extra · 2 frente contextualizada + cloze no token-chave, **mas adivinhável** · 3 o cloze apaga mecanismo/consequência/discriminador (baixa adivinhabilidade) + Extra reconstrói o porquê (+ imagem se visual).
 
 **Anti-padrões (rejeitar):** enumeração empilhada num card; definição nua; multi-fact cloze com brancos independentes; Extra que repete a frente; cloze ambíguo; conceito fora da E1; escopo Step 2.
 

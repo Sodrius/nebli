@@ -84,10 +84,13 @@ Repos a estudar/reusar (confirmar licença antes de usar código):
 |---|---|
 | 0 | ambíguo (mais de uma resposta), ou apaga palavra de enchimento |
 | 1 | fato nu, sem contexto na frente e/ou sem Extra explicando o porquê |
-| 2 | frente contextualizada + cloze no token-chave + Extra com 1 frase de mecanismo |
-| 3 | 2 + Extra que reconstrói o mecanismo ou discrimina a confusão clássica (+ imagem se visual) |
+| 2 | frente contextualizada + cloze no token-chave + Extra com 1 frase de mecanismo — **mas o branco ainda é adivinhável pela frase** |
+| 3 | 2 + o cloze apaga **mecanismo/consequência/discriminador** (não o rótulo óbvio) → baixa adivinhabilidade + Extra reconstrói o porquê (+ imagem se visual) |
+
+**Princípio anti-reconhecimento (canônico 2026-07-11, feedback do Davi).** O cloze deve apagar a informação que **exige saber**, não a que se **infere do resto da frase**. Erro clássico: clozar o *rótulo* (o nome da enzima) enquanto a frase já escreve o *mecanismo* inteiro ao lado — aí o Davi acerta por reconhecimento/eliminação, sem conhecer o conteúdo. Preferir apagar o **mecanismo, a consequência, o valor ou o discriminador**, deixando o rótulo/cenário como pista de recuperação. Cada card assim **puxa mais conteúdo** — acertar passa a significar realmente saber. Equilíbrio (não cair no oposto): a frente ainda dá contexto — não vira definição nua nem cloze ambíguo (nota 0). Teste rápido antes de fechar: *"dá pra adivinhar o branco só relendo a frase?"* Se sim, cloze a informação errada — mova o branco para o que precisa ser memorizado.
 
 **Anti-padrões (rejeitar):**
+- **Cloze de reconhecimento** — apagar o rótulo óbvio quando o mecanismo já está na frase (adivinhável sem saber). Mova o branco para o mecanismo/consequência.
 - **Enumeração empilhada** ("as 5 causas são…") como um card → quebrar ou dar mnemônico-andaime (SuperMemo R9/R10).
 - **Definição nua** sem pista de contexto (falha de retrieval cue).
 - **Multi-fact cloze** com brancos independentes (força repetir o card inteiro por um sub-item difícil — SuperMemo R4).
