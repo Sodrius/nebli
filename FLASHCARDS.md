@@ -175,7 +175,7 @@ Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vi
 - **Tags:** `NEBLI::<slug>` + `NEBLI::gerado` (distingue autoral de AnKing curado; auditável/reversível).
 - **GATE:** o conceito TEM de estar na E1 (senão nem gerar).
 
-**Princípio anti-reconhecimento (feedback Davi 2026-07-11):** o cloze apaga a informação que **exige saber** (mecanismo, consequência, valor, discriminador), NÃO o rótulo óbvio que a própria frase já entrega — senão o card testa reconhecimento, não conhecimento. Teste: *"dá pra adivinhar o branco só relendo a frase?"* Se sim, mova o branco. Cada card puxa **mais conteúdo**.
+**Princípio anti-reconhecimento (feedback Davi 2026-07-11):** o cloze apaga a informação que **exige saber** (mecanismo, consequência, valor, discriminador), NÃO o rótulo óbvio que a frase já entrega. Teste: *"dá pra adivinhar o branco só relendo a frase?"* Se sim, mova o branco. **Mas o cloze é CURTO e único** — 1 token ou frase-curta (mediana AnKing ~1–3 palavras); direção difícil = mover o branco para o token certo, **não** apagar a oração inteira (isso perde a unicidade). Ex.: apagar `guanina`/`C→T`/`autoclivagem`, não "parear com guanina fixando A→G".
 
 **Rubrica (0–3, entra só ≥2):** 0 ambíguo/enchimento · 1 fato nu sem contexto/sem Extra · 2 frente contextualizada + cloze no token-chave, **mas adivinhável** · 3 o cloze apaga mecanismo/consequência/discriminador (baixa adivinhabilidade) + Extra reconstrói o porquê (+ imagem se visual).
 
