@@ -350,6 +350,23 @@ Remediação sempre por **reposicionamento da correta** entre alternativas equiv
 
 ---
 
+## § Revisor-completude (Sonnet — NOVO 2026-07-12)
+
+Sessão de revisão final **antes de compilar**, pedida por Davi. Audita a **complementação MÚTUA E1↔cards** e a profundidade, e devolve correções acionáveis. Stub em `.claude/agents/revisor-completude.md` (Sonnet 4.6 — julgamento por rubrica, econômico). Roda depois da E3 e da curadoria de cards, antes do `precompile-check.py`. Materializa o § Aprofundamento do `CLAUDE.md` (bloco 2026-07-12, item 5).
+
+**Entrada:** `etapa1.typ` (fonte-verdade dos subtópicos) + os cards do deck-aula (`flashcards/curadoria/<slug>-curado.json` + NEBLIcards) + `arquivos-trabalho/cobertura-<slug>.json` se existir.
+
+**Três eixos (nota 0-10 cada):**
+1. **Cards → E1 (não-orfandade).** Todo card tem seu conceito explicado na E1? Lista cada card órfão (conceito ausente na E1) com veredito: **injetar 1-3 frases na E1** (se é aprofundamento legítimo do tema) OU **dropar o card** (se é FORA/próxima-aula). Honra o gate B2.
+2. **E1 → cards (cobertura).** Todo subtópico da E1 tem card à altura? Lista subtópico RASO/LACUNA + sugere card AnKing a curar OU NEBLIcard a gerar. Reusa a rubrica R6 (0-3 por subtópico).
+3. **Profundidade.** A E1 vai um degrau além do slide (novo padrão elevado)? Marca subtópicos rasos demais para o dial `profundidade` daquele resumo (`padrao`/`fundo`).
+
+**Curadoria de card = duas camadas de julgamento** (na avaliação de cada card sugerido): (1) bate com o que a **FMUSP cobra**? (camada mais importante); (2) cobre bem a E1 e **aprofunda pra base do Step 1**?
+
+**Saída:** `arquivos-trabalho/completude-<slug>.md` — 3 notas + lista de patches (frases pra E1) + lista de cards (add/drop) + 1 linha de justificativa cada. A **sessão principal aplica** os patches na E1 e os add/drop nos cards antes de compilar (não é gate hard automático — é revisão acionável, como os demais relatórios auditáveis). Integra o Índice de completude (3 notas E1×slide, E2×E1, cards×E1) já existente no fechamento — o revisor-completude é quem produz as notas E2×E1 e cards×E1 com rigor.
+
+---
+
 ## § Compilador
 
 Recebe etapas prontas, monta `main.typ`, compila Typst, audita, move PDF. **Roda localmente, NUNCA delegado pra outra sessão.**

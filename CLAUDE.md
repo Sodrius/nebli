@@ -98,6 +98,7 @@ Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline
 | CADERNISTA | Task subagent (Sonnet) | Cadernos de questões (`pipeline_caderno.py`). Pipeline determinístico, mantido. Stub em `.claude/agents/cadernista.md` aponta pra `ROLES.md` § Cadernista. |
 | Revisores Tier 2/3 (didático + profundo, internos + PDF-aware) | Task subagent | Rodam após COMPILADOR antes de mover PDF. `ROLES.md` §§ Revisor-*. |
 | REVISOR-GABARITO (Haiku) | Task subagent | Passada final de conferência do gabarito da E2 (impresso==real, sem corrida, distribuição sã). `ROLES.md` § Revisor-gabarito. Novo 2026-06-24. |
+| REVISOR-COMPLETUDE (Sonnet) | Task subagent | Antes de compilar: completude MÚTUA E1↔cards + profundidade (3 notas 0-10 + patches de E1 e add/drop de cards). `ROLES.md` § Revisor-completude. Novo 2026-07-12. |
 
 `ROLES.md` §§ Redator-E1 / Questionador permanecem como **referências prescritivas** — a sessão principal lê e segue, mas não delega via Task.
 
