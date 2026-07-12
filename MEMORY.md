@@ -51,6 +51,11 @@
 
 Backlog vivo (absorveu `pendências de melhora.md` em 2026-05-29; itens já executados foram podados ou movidos pra § Histórico). Revisitar antes de cada sessão.
 
+### Canonizados 2026-07-12 (sancionados a construir)
+- **`paridade_fix.py`** — aid pré-compilação: sugere alongar a correta OU as distratoras pra cair na banda 0.80-1.25 **antes** do relatório de ratio da E2. É o único bug do backlog técnico com ganho real (paridade é o gate que mais falha). Sancionado por Davi.
+- **Helper `#roxo-box`** no template (via `frontend-design` na 1ª apostila que usar) — a 4ª caixa: roxo = "algo a mais que agrega, fora do que a aula deu" (legenda vermelho=confusão prova · azul=clínica · amarelo=Mapa de Confusões · roxo=aprofundamento). Regra já em `CLAUDE.md` § Profundidade item 4.
+- **`.apkg` por deck-aula → Drive automático + upload de resumo/slide pro Drive** — pedido de Davi. **Viável e não difícil, MAS gated em auth Google Drive uma vez (rclone).** Fluxo: `exportPackage` (AnkiConnect) por deck → `rclone copy` pra pasta da UC; e `rclone copy` do PDF+slide com naming "<aula curta> + Etapas 1 a 3 + <sigla prof>". Setup: `rclone config` (OAuth Google, ~5 min, Davi clica autorizar — dá pra fazer do celular com token). **Montar deck-aula de TODAS as aulas passadas** = plano grande, viável incremental (cada aula = curadoria + gate + apply), casar com o .apkg→Drive.
+
 ### Chuva de ideias 2026-07-07 (triada — norte: reter medicina a longo prazo, NEBLI como monitor)
 
 **Contexto:** Davi despejou ~45 ideias numa sessão. Escopo executado nessa mesma sessão: consertos de matching de card (`buscar_tags_lote`), ancoragem da checklist nos subtópicos (`gerar_checklist`), remoção do "Onde aprofundar", bandeiras redefinidas, RemNote aposentado, bug termo-nota → ERROS #20, pycache limpo. O que ficou de pendência, por prioridade:
