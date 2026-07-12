@@ -62,6 +62,12 @@ Detalhe operacional destas regras e a decisão deck-AnKing vs deck-NEBLI estrutu
 
 ---
 
+## Estrutura do deck de estudo + regra do AnKing intocado (canônico 2026-07-12)
+
+**Árvore única de estudo:** `NEBLI :: UC :: Prova :: Componente :: Aula` (ex.: `NEBLI::UC02::P4::Bioquímica::Metabolismo dos aminoácidos`). O topo `NEBLI` recebe outras UCs no futuro. Prova vem **antes** de componente — então nunca existe um "Bioquímica P1–P4" agregado (o Davi não estudaria isso; cai em provas diferentes). Uso: estudar `NEBLI` inteiro = retenção longa (FSRS, **15 novos/dia**, ~25 min/dia); abrir `NEBLI::UC02::P4` = cravar antes daquela prova. Como é subdeck aninhado, **um card mora numa aula só** e estudar qualquer pai o inclui — o mesmo card serve retenção longa E cram de prova, com um agendamento FSRS único (Custom Study aumenta novos no deck-prova sem mexer no ritmo do geral).
+
+**Regra do AnKing intocado (canônico 2026-07-12, pedido do Davi):** o deck AnKing fica na coleção como **referência, 100% suspenso, nunca modificado**. O card de estudo é sempre uma **CÓPIA duplicada para a árvore NEBLI, com tudo — campos, imagem, crédito e TAGS**. Nunca taguear/mover/editar o card AnKing original (o erro antigo era pôr a tag `NEBLI::` no original, criando duplicata ativa). Prova por cronograma vem do PDF em `cronogramas/` (UC02 v1-jul: Bioquímica+Biologia Molecular = **P4/13-jul**; Histo/Anato/Embrio/Imuno = **P3/16-jul**). Organizador: `flashcards/scripts/organizar_anki_nebli.py` (move cópias curadas p/ a árvore, suspende AnKing + duplicatas + restos; reversível). **Reorganização de 2026-07-12:** só o NEBLI:: fica ativo; aminoácidos/lipídeos/biomol-25 → P4, embrio → P3. Pentoses/glicogênio/biomol-26 ficaram fora (não calibrados — "várzea"); Davi vai pedir p/ regerar o deck-prova P3 e apagar o P4 depois.
+
 ## Pipeline por aula (visão geral)
 
 **Reordenação canônica 2026-07-10 (pedido de Davi):** o ideal é a seleção de cards + o passe de aprofundamento da E1 rodarem **ANTES da E2**, para que a E2 já cobre o conteúdo extra (a E2 sobe de teto junto com a E1). Os cards do AnKing **induzem** boa parte dos aprofundamentos — e esses bons cards vão para o deck-aula. Ver `CLAUDE.md` § Aprofundamento da E1 + `ROLES.md` § Redator diretriz 17.
