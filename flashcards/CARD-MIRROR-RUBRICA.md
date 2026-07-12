@@ -24,6 +24,22 @@ Tells estruturais fatais corrigidos:
 - **Resíduo aceito (inerente ao conteúdo):** o verso de contagem de ATP (#10) lista números que o AnKing não carda — não há como escondê-lo sem perder o fato FMUSP. Fica.
 - **Resíduo menor não perseguido:** o par de aminoácidos divide a mesma imagem Sketchy (o discriminador leu como "par autoral"), mas cards AnKing também compartilham imagem — over-fitting ao discriminador não valeria a pena.
 
+### Treino de GERAÇÃO — glicogênio, 50 cards (2026-07-12) — convergiu em 3 rodadas
+Prova de que dá pra *gerar* do zero, não só consertar. Curva: 15/9 distinguível → confuso (3 falsos-positivos, pegou 1/12) → **0/12 pegos, 46% de acurácia (abaixo do acaso), discriminador confessou indistinguibilidade.**
+- **[CRÉDITO — a string EXATA] Reusar imagem AnKing = herdar o crédito literal e completo dela.** Não basta "Photo credit: Physeo"; a assinatura nativa é `Image licensed by Physeo and used with permission. Purchase full access here.` — inclusive o CTA comercial. Meia-string foi o tell que sobreviveu à rodada 2. (Em produção, ver ressalva ética abaixo.)
+- **[IMAGEM POR SUBTÓPICO] Uma imagem-mãe por SUBTÓPICO, não por tema.** Glicogênio tem 2 pools nativos: doenças de depósito → `8412e62f…`, fisiologia → `efa5f694…`. Usar a errada denuncia.
+- **[VOCABULÁRIO NATIVO] Adotar o "menu" de formatos do AnKing, não inventar.** Card de doença: `"X disease is also known as glycogen storage disease type {{c1::…}}"`; pergunta embutida: `"Which…? {{c1::…}}"`; mnemônico com capitalização interna (`PomPe/PumP`, `One Gierke`, `ABCD`); hint de cloze `{{c1::x::opção1 ou opção2}}`. Usar esse vocabulário faz o card sumir na multidão.
+- **[VERSO] Confirmado que a glosa telegráfica de 1-4 palavras + crédito é 100% nativa** ("Reversible.", "Uses Pi, not water.", "Signals low energy.", "By phosphoglucomutase.").
+
+## Meta — a hierarquia de tells (o "como fazer", aprendido no loop)
+Os tells vazam em 3 camadas, da mais barulhenta à mais sutil. Conserta-se de cima pra baixo:
+1. **Estrutural/mecânico** (imagem: fonte + tamanho + **string de crédito exata**; note type AnKingOverhaul; idioma inglês). É o que o discriminador pega primeiro e com mais confiança. Resolvido → a acurácia dele despenca.
+2. **Vocabulário de formato** (comprimento do cloze, sintaxe de hint `::`, formato de mnemônico, pergunta-vs-afirmação, imagem por subtópico). Não inventar: copiar o menu nativo.
+3. **Voz** (Extra = anotação telegráfica, NUNCA prosa de monitor; sem travessão/aspas curvas/referência a banca). É a camada mais sutil e a que os meus reflexos de E1 mais vazam — **card ≠ E1**.
+O movimento vencedor de imagem: **reusar a imagem exata do card irmão + a string de crédito exata dele.** O movimento vencedor de voz: **fragmento, não frase.** Quando as 3 camadas batem, o discriminador não só erra — ele fica *confiante* de que o card é AnKing (viés do carimbo), e passa a marcar AnKing real como suspeito. Esse é o estado-alvo.
+
+> **Ressalva ética (produção):** copiar o CTA comercial "Purchase full access here." faz sentido no TREINO (medir indistinguibilidade) e quando o card reusa a imagem Physeo real. Em cards de produção, manter o crédito honesto da imagem que de fato foi usada; não inventar atribuição para imagem que não é daquela fonte.
+
 ## Checklist de conformidade (estado atual)
 Um NEBLIcard passa se:
 - [ ] Imagem = card AnKing irmão (ou limpa EN ~1080px); nunca slide PT; peso leve.

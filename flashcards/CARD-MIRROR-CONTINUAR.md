@@ -17,8 +17,9 @@ artefatos:
   cards_treino: flashcards/treino/glicogenio-treino.json   # 50 cards (sandbox)
   script_lote_cego: flashcards/scripts/card_mirror_blind.py
 estado:
-  rodadas_feitas: 1
-  ultimo_veredito: "distinguível (15 ANKING / 9 NEBLI)"
+  glicogenio: "CONVERGIU em 3 rodadas (2026-07-12): 0/12 pegos, 46% de acuracia, indistinguivel. NAO refazer."
+  proximo_passo: "(a) construir flashcards/scripts/lint_neblicard.py da rubrica; OU (b) treinar tema NOVO (gerar <tema>-treino.json ja aplicando a hierarquia de tells da rubrica; deve convergir em menos rodadas)."
+  rodadas_feitas: 3
   correcoes_pendentes_rodada_2:
     - "adicionar o crédito exato 'Image licensed by Physeo and used with permission.' aos cards que reusam imagem Physeo (a ausência foi o tell #1)"
     - "cards de doença de depósito (GSD) usam a imagem-mãe de GSD 8412e62f35b76d85fa69d4b05169138d.webp, não a geral efa5f694...webp — mapear imagem por SUBTÓPICO"

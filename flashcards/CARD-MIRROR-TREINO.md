@@ -28,12 +28,7 @@ Discriminador ≤ ~55–60% de acurácia **e** ≥1 falso-positivo (confunde AnK
 ## Log de treinos
 | Data | Tema | N | Rodadas | Acurácia final | Tells novos → rubrica |
 |---|---|---|---|---|---|
-| 2026-07-12 | glicogênio | 50 | 1 (em curso) | distinguível (15/9) | crédito Physeo ausente; imagem por subtópico; formato GSD |
+| 2026-07-12 | glicogênio | 50 | 3 | **46% (abaixo do acaso); 0/12 pegos; discriminador confessou indistinguível** | crédito Physeo (string exata); imagem por subtópico; vocabulário de formato AnKing |
 
-### Estado do treino glicogênio (após rodada 1) — o que corrigir na rodada 2
-Discriminador: **distinguível**, tell dominante = **ausência do crédito de imagem** nos meus cards. Aplicar em lote no `flashcards/treino/glicogenio-treino.json`:
-1. **[CRÉDITO] Card que reusa imagem Physeo herda o crédito exato:** `Image licensed by Physeo and used with permission.` (é o que os irmãos AnKing carregam; a ausência foi o tell #1).
-2. **[IMAGEM POR SUBTÓPICO] Cards de doença de depósito (GSD) usam a imagem-mãe de GSD** `8412e62f35b76d85fa69d4b05169138d.webp`, não a geral `efa5f694…`. Mapear imagem por subtópico, não uma só pro tema todo.
-3. **[FORMATO GSD] Imitar o formato AnKing de GSD:** "X disease is also known as glycogen storage disease type {{c1::…}}" com multi-cloze + mnemônico embutido ("One Gierke", "ABCD: Andersen→Branching, Cori→Debranching").
-4. **[VERSO] Manter glosa telegráfica** (Reversible. / Uses Pi, not water.) — passou bem; verso vazio também blendou. Não virar prosa.
-Depois: re-rodar `card_mirror_blind.py glicogenio` → discriminar → repetir até o critério de parada.
+### Treino glicogênio — CONVERGIU (3 rodadas)
+Curva: **R1** 15/9 distinguível (tell = crédito ausente + imagem errada por subtópico) → **R2** discriminador confuso, 3 falsos-positivos, pegou 1/12 (tell residual = a string de crédito estava pela metade) → **R3** completado o boilerplate Physeo exato (`… used with permission. Purchase full access here.`): **0/12 pegos, 46% de acurácia, falso-positivo num AnKing real, e confissão de indistinguibilidade.** Tells destilados na `CARD-MIRROR-RUBRICA.md` (§ Treino glicogênio + § Meta — hierarquia de tells). Cards finais: `flashcards/treino/glicogenio-treino.json` v2. **Padrão de geração considerado APRENDIDO** → próximo passo natural: `lint_neblicard.py` (guarda determinística).
