@@ -2,20 +2,8 @@
   "slug": "bioq-21-lipideos-rotas",
   "tag_ancora": "NEBLI::bioq-21-lipideos-rotas",
   "target_deck": "UC02::Bioquímica::Metabolismo dos lipídeos",
-  "n_kept": 60,
+  "n_kept": 48,
   "kept": [
-    {
-      "guid": "s]x_>!v_w[",
-      "conceito": "1.1",
-      "front": "Are fatty acids polar or non-polar? [Non-polar]",
-      "raw0": "<div><div>Are <b>fatty acids</b> polar or non-polar?</div><br><div>{{c1::Non-polar}}</div></div>"
-    },
-    {
-      "guid": "CCgzzTD1RL",
-      "conceito": "1.1",
-      "front": "Are triglycerides polar or non-polar? [Non-polar]",
-      "raw0": "<div><div>Are <u>triglycerides</u> polar or non-polar?</div><br><div>{{c1::Non-polar}}</div></div>"
-    },
     {
       "guid": "oijw@nbc_B",
       "conceito": "2.3",
@@ -41,18 +29,6 @@
       "raw0": "<div><b>Glucagon</b> causes {{c1::decreased}} <b>fatty</b> <b>acid</b> <b>synthesis</b> and {{c1::increased}} <b>lipolysis</b>, which shunts substrates towards gluconeogenesis</div>"
     },
     {
-      "guid": "bh(o`.f^@k",
-      "conceito": "1.2",
-      "front": "What is the effect of glucagon on blood fatty acid and ketoacid concentration ? [Increased, due to increased l",
-      "raw0": "<div>What is the effect of <b>glucagon</b> on <i>blood</i> <b>fatty acid</b> and <b>ketoacid concentration</b>?</div><br><div>{{c1::Increased, due to increased lipolysis}}</div>"
-    },
-    {
-      "guid": "jF}^l!?kbB",
-      "conceito": "1.1",
-      "front": "Is glycerol polar or non-polar? [Polar]",
-      "raw0": "<div><div>Is <b>glycerol</b> polar or non-polar? </div><br><div>{{c1::Polar}}</div></div>"
-    },
-    {
       "guid": "w&uhyIZ3v;",
       "conceito": "1.1",
       "front": "What type of bond exists between fatty acids and glycerol (e.g., triglycerides)? [Ester bonds]",
@@ -63,12 +39,6 @@
       "conceito": "1.2",
       "front": "Which lipid transport enzyme is responsible for the degradation of triglycerides stored in adipocytes ? [Hormo",
       "raw0": "<div><div><div>Which <i>lipid transport enzyme</i> is responsible for the degradation of <u>triglycerides</u> stored in<b> adipocytes</b>? </div><br><div>{{c1::Hormone-sensitive lipase}}</div></div></div>"
-    },
-    {
-      "guid": "zO;eo}i&6y",
-      "conceito": "1.2",
-      "front": "In adipose tissue, triglycerides are broken down into glycerol and fatty acids by the enzyme [ hormone-sensiti",
-      "raw0": "<div><div>In <i>adipose</i> tissue, <b>triglycerides</b> are broken down into <u>glycerol</u> and <u>fatty acids</u> by the enzyme {{c1::<b><i>hormone-sensitive lipase</i></b>}}</div></div>"
     },
     {
       "guid": "Ls2g-oLNva",
@@ -123,12 +93,6 @@
       "conceito": "1.3",
       "front": "Carnitine acyltransferase-1 (CAT1) is regulated via negative feedback by [ malonyl-CoA ]",
       "raw0": "<div><div><div><b><i>Carnitine acyltransferase-1</i></b> (CAT1) is regulated via <u>negative feedback</u> by {{c1::<b>malonyl-CoA</b>}}</div></div></div>"
-    },
-    {
-      "guid": "evQ?N]cCh_",
-      "conceito": "1.3",
-      "front": "Fatty acyl-carnitine is transported from the intermembrane space into the mitochondrial matrix via the [ carni",
-      "raw0": "<div><div><div><b>Fatty acyl-carnitine</b> is transported from the <u>intermembrane space</u> into the <u>mitochondrial matrix</u> via the {{c1::<b>carnitine</b>}}<b> transporter</b> </div></div></div>"
     },
     {
       "guid": "Ja2$)IOJU(",
@@ -215,12 +179,6 @@
       "raw0": "<div><div>In the cytosol, <b>malate</b> may be converted to <b>pyruvate</b> via the enzyme {{c1::<i><b>malic enzyme</b></i>}}<b> </b>(fatty acid synthesis)</div></div>"
     },
     {
-      "guid": "j~V9}wo3Y#",
-      "conceito": "3.2",
-      "front": "Conversion of malate to pyruvate via malic enzyme produces a molecule of [NADPH] (fatty acid synthesis)",
-      "raw0": "<div><div>Conversion of <b>malate</b> to <b>pyruvate</b> via <i>malic enzyme</i> produces a molecule of {{c1::NADPH}} (fatty acid synthesis)</div></div>"
-    },
-    {
       "guid": "LI/@xCD9-/",
       "conceito": "3.1",
       "front": "Fatty acid synthesis predominantly occurs in the [liver], [lactating mammary] glands (women), and [adipose] ti",
@@ -263,40 +221,10 @@
       "raw0": "<div><div><b>Palmitate</b> is a(n) {{c1::16::#}}-carbon fatty acid </div></div>"
     },
     {
-      "guid": "o%6#ThhAp[",
-      "conceito": "3.2",
-      "front": "Vitamin B 7 (biotin) is a cofactor for the enzyme [ acetyl-CoA carboxylase ] (fatty acid synthesis)",
-      "raw0": "<div><div><div><div><b>Vitamin B<sub>7</sub></b> (biotin) is a cofactor for the enzyme {{c1::<i>acetyl-CoA carboxylase</i>}} (fatty acid synthesis)</div></div></div></div>"
-    },
-    {
-      "guid": "i%-Bph=qn>",
-      "conceito": "3.1",
-      "front": "NADPH is generally used as an electron carrier in [ anabolic ] processes",
-      "raw0": "<div><b>NADPH</b> is generally used as an <i>electron carrier</i> in {{c1::<b>anabolic</b>::anabolic/catabolic}} processes</div>"
-    },
-    {
       "guid": "s|NBM`iWfU",
       "conceito": "2.3",
       "front": "What is the cause of metabolic acidosis in a patient with diabetes mellitus ? [Increased production of ketoaci",
       "raw0": "<div>What is the cause of <b>metabolic acidosis</b> in a patient with <b>diabetes mellitus</b>?</div><br><div>{{c1::Increased production of ketoacids}}</div>"
-    },
-    {
-      "guid": "OBb:wslm-H",
-      "conceito": "2.3",
-      "front": "One of the most feared complications of type 1 diabetes is [ diabetic ketoacidosis (DKA)]",
-      "raw0": "<div>One of the most feared complications of <b>type 1 diabetes</b> is {{c1::<b>diabetic ketoacidosis</b> (DKA)}}</div>"
-    },
-    {
-      "guid": "_K$vX1ah;",
-      "conceito": "2.3",
-      "front": "What are the two major ketone bodies produced in T1DM ? [β-hydroxybutyrate and acetoacetate]",
-      "raw0": "<div>What are the <u>two major</u> <b>ketone bodies</b> produced in <b>T1DM</b>?</div><br><div>{{c1::β-hydroxybutyrate and acetoacetate}}</div>"
-    },
-    {
-      "guid": "C&t8Zy;v>X",
-      "conceito": "2.3",
-      "front": "Diabetic ketoacidosis is associated with a(n) [ fruity ] breath odor due to exhaled [ acetone ]",
-      "raw0": "<div><b>Diabetic ketoacidosis</b> is associated with a(n) {{c1::<b>fruity</b>}} breath odor due to exhaled {{c2::<b>acetone</b>}}</div>"
     },
     {
       "guid": "zNKP>#)43-",
@@ -364,5 +292,6 @@
       "front": "In extrahepatic tissues, acetoacetate is activated to [ acetoacetyl-CoA ] via the enzyme [ thiophorase ] (keto",
       "raw0": "<div>In <i>extrahepatic </i>tissues, <b>acetoacetate</b> is activated to {{c1::<b>acetoacetyl-CoA</b>}}<b> </b>via the enzyme {{c2::<i><b>thiophorase</b></i>}} (ketone body metabolism)</div>"
     }
-  ]
+  ],
+  "recuradoria": "2026-07-12: enxugado (dedup + poda Step-1); regua = manter passo enzimatico"
 }

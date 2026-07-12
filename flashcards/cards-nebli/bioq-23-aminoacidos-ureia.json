@@ -1,0 +1,15 @@
+{
+  "slug": "bioq-23-aminoacidos-ureia",
+  "gerados": [
+    {
+      "Texto": "O balanço de nitrogênio (N ingerido − N excretado) fica {{c1::negativo}} no jejum, trauma e infecção — perda líquida de proteína.",
+      "Extra": "Cerca de 90% do N excretado sai como ureia na urina. O adulto saudável fica em balanço zero; positivo (crescimento, gravidez) não é “bom” nem negativo “ruim” — descrevem só a direção do fluxo de nitrogênio.",
+      "Topico": "1.2 balanço de nitrogênio"
+    },
+    {
+      "Texto": "A desaminação libera o nitrogênio como amônia livre: a {{c1::glutamato desidrogenase}} retira o grupo amino do glutamato e regenera α-cetoglutarato.",
+      "Extra": "É o passo que de fato TIRA o N do esqueleto — a transaminação só o havia transferido para o glutamato. Enzima mitocondrial hepática; usa NAD⁺/NADP⁺. Distingue “transferir” de “eliminar”.",
+      "Topico": "2.4 desaminação oxidativa"
+    }
+  ]
+}
