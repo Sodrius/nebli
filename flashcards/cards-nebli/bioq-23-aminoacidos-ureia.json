@@ -1,15 +1,19 @@
 {
   "slug": "bioq-23-aminoacidos-ureia",
+  "modelo": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+  "idioma": "en",
   "gerados": [
     {
-      "Texto": "O balanço de nitrogênio (N ingerido − N excretado) fica {{c1::negativo}} no jejum, trauma e infecção — perda líquida de proteína.",
-      "Extra": "Cerca de 90% do N excretado sai como ureia na urina. O adulto saudável fica em balanço zero; positivo (crescimento, gravidez) não é “bom” nem negativo “ruim” — descrevem só a direção do fluxo de nitrogênio.",
-      "Topico": "1.2 balanço de nitrogênio"
+      "slide": "slide-07.png",
+      "Text": "A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance — neither positive nor negative.",
+      "Extra": "Balance = N ingested − N excreted (~90% as urinary urea). Positive = net retention (growth, pregnancy, healing); negative = net loss (fasting, trauma, infection). Positive isn’t “good” nor negative “bad” — they only describe the direction of nitrogen flux.",
+      "Topico": "1.2 nitrogen balance"
     },
     {
-      "Texto": "A desaminação libera o nitrogênio como amônia livre: a {{c1::glutamato desidrogenase}} retira o grupo amino do glutamato e regenera α-cetoglutarato.",
-      "Extra": "É o passo que de fato TIRA o N do esqueleto — a transaminação só o havia transferido para o glutamato. Enzima mitocondrial hepática; usa NAD⁺/NADP⁺. Distingue “transferir” de “eliminar”.",
-      "Topico": "2.4 desaminação oxidativa"
+      "slide": "slide-39.png",
+      "Text": "Deamination releases nitrogen as free ammonia: {{c1::glutamate dehydrogenase}} strips the amino group from glutamate, regenerating α-ketoglutarate.",
+      "Extra": "This is the step that actually REMOVES nitrogen from the carbon skeleton — transamination had only transferred it onto glutamate. Mitochondrial, hepatic; uses NAD⁺/NADP⁺. It is what separates “transfer” from “eliminate”.",
+      "Topico": "2.4 oxidative deamination"
     }
   ]
 }

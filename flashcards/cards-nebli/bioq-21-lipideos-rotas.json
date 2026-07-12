@@ -1,20 +1,25 @@
 {
   "slug": "bioq-21-lipideos-rotas",
+  "modelo": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+  "idioma": "en",
   "gerados": [
     {
-      "Texto": "A síntese de ácidos graxos repete um ciclo de quatro reações na ordem {{c1::condensação → redução → desidratação → redução}} — o espelho invertido da β-oxidação.",
-      "Extra": "Inverso da β-oxidação (desidrogenação → hidratação → oxidação → tiólise), mas usa NADPH como doador de elétrons nas duas reduções; cada volta adiciona 2 carbonos vindos do malonil-CoA. Caiu na P2/2023 (numerar a ordem do ciclo).",
-      "Topico": "3.3 síntese de AG — ciclo da FAS (q-0265)"
+      "slide": "slide-49.png",
+      "Text": "In fatty acid synthesis, after the new unit is added (condensation), the three reactions that complete each round occur, in order: {{c1::reduction → dehydration → reduction}}.",
+      "Extra": "The mirror image of β-oxidation run in reverse, but using NADPH as the electron donor in both reductions. Each round adds 2 carbons from malonyl-CoA. (FMUSP P2/2023 asked to number this cycle.)",
+      "Topico": "3.3 FA synthesis — FAS cycle (q-0265)"
     },
     {
-      "Texto": "A oxidação completa de um palmitato (16 C) rende {{c1::129}} ATP líquidos (131 brutos − 2 da ativação), pelos valores clássicos do material.",
-      "Extra": "São 7 voltas da β-oxidação (não 8) → 8 acetil-CoA; somam 31 NADH, 15 FADH₂ e 8 GTP. Desconta-se 2 porque a ativação quebra ATP até AMP + PPi.",
-      "Topico": "2.1 conta de ATP do palmitato"
+      "slide": "slide-21.png",
+      "Text": "Complete oxidation of one palmitate (16 C) yields {{c1::129}} net ATP, using the classic yields taught in the course.",
+      "Extra": "131 gross − 2 for activation. It takes 7 β-oxidation rounds (not 8) → 8 acetyl-CoA, totaling 31 NADH + 15 FADH₂ + 8 GTP. The −2 comes from activation cleaving ATP to AMP + PPi.",
+      "Topico": "2.1 palmitate ATP count"
     },
     {
-      "Texto": "Ativar um ácido graxo (acil-CoA sintetase) custa o equivalente a {{c1::2}} ATP, porque o ATP é clivado a AMP + PPi e o pirofosfato ainda é hidrolisado.",
-      "Extra": "Não é ATP → ADP + Pi (1 ligação), e sim ATP → AMP + PPi (2 ligações de alta energia). Esse “−2” é o desconto do saldo final do palmitato.",
-      "Topico": "1.3 ativação do ácido graxo"
+      "slide": "slide-13.png",
+      "Text": "Activating a fatty acid costs the equivalent of 2 ATP because the ATP is cleaved all the way to {{c1::AMP + PPi}} (not ADP + Pi), and the pyrophosphate is then hydrolyzed.",
+      "Extra": "Cleaving to AMP + PPi plus splitting the PPi = two high-energy bonds spent — hence the “−2” in the palmitate balance. Catalyzed by fatty acyl-CoA synthetase.",
+      "Topico": "1.3 fatty-acid activation"
     }
   ]
 }
