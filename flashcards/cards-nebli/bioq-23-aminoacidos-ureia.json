@@ -4,15 +4,13 @@
   "idioma": "en",
   "gerados": [
     {
-      "slide": "slide-07.png",
-      "Text": "A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance — neither positive nor negative.",
-      "Extra": "Balance = N ingested − N excreted (~90% as urinary urea). Positive = net retention (growth, pregnancy, healing); negative = net loss (fasting, trauma, infection). Positive isn’t “good” nor negative “bad” — they only describe the direction of nitrogen flux.",
+      "Text": "A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance.",
+      "Extra": "N in − N out; ~90% urinary urea. Positive: growth, pregnancy, healing. Negative: fasting, trauma, infection.",
       "Topico": "1.2 nitrogen balance"
     },
     {
-      "slide": "slide-39.png",
-      "Text": "Deamination releases nitrogen as free ammonia: {{c1::glutamate dehydrogenase}} strips the amino group from glutamate, regenerating α-ketoglutarate.",
-      "Extra": "This is the step that actually REMOVES nitrogen from the carbon skeleton — transamination had only transferred it onto glutamate. Mitochondrial, hepatic; uses NAD⁺/NADP⁺. It is what separates “transfer” from “eliminate”.",
+      "Text": "Free ammonia is released from glutamate by {{c1::glutamate dehydrogenase}}, regenerating α-ketoglutarate.",
+      "Extra": "Truly removes N (transamination only transferred it to glutamate). Mitochondrial, hepatic. NAD+/NADP+.",
       "Topico": "2.4 oxidative deamination"
     }
   ]

@@ -21,33 +21,36 @@ DECKS = {
   "bioq-23-aminoacidos-ureia": "UC02::Bioquímica::Metabolismo dos aminoácidos",
   "bioq-21-lipideos-rotas": "UC02::Bioquímica::Metabolismo dos lipídeos",
 }
-IMG = lambda fn: '<br><img src="%s" style="max-width: 100%%;">' % fn
+IMG = lambda fn: '<br><img src="%s">' % fn   # sem style inline: idêntico aos AnKing
 # selo discreto de NEBLIcard (aparece no verso, canto direito, gold NEBLI mudo)
 SELO = '<div style="text-align:right; font-size:10px; letter-spacing:.4px; color:#b8973f; margin-top:10px; font-family:sans-serif; opacity:.85;">&#10022; NEBLIcard</div>'
+# imagem-mãe AnKing reusada de cards irmãos (nativa, leve, já no dispositivo = sem lag).
+# Preferência declarada por Davi: outros cards do AnKing > internet > slide.
+IMG_MAE = {
+  "bioq-21-lipideos-rotas": "ad2729aecb1958f43aa4f15be8b16774.jpg",   # figura textbook: β-ox + síntese (22 cards irmãos)
+  "bioq-23-aminoacidos-ureia": "Screen Shot 2021-01-07 at 15.17.18.jpg",  # Sketchy ureia/nitrogênio (18 cards irmãos)
+}
 
+# v3 (pós card-mirror rodada 1): sem travessão/aspas curvas, sem referência a banca,
+# verso telegráfico estilo AnKing, cloze curto, crédito Physeo nos de lipídeo (a imagem é Physeo).
 CARDS = {
  "bioq-21-lipideos-rotas": [
-   {"slide":"slide-49.png",
-    "Text":"In fatty acid synthesis, after the new unit is added (condensation), the three reactions that complete each round occur, in order: {{c1::reduction → dehydration → reduction}}.",
-    "Extra":"The mirror image of β-oxidation run in reverse, but using NADPH as the electron donor in both reductions. Each round adds 2 carbons from malonyl-CoA. (FMUSP P2/2023 asked to number this cycle.)",
-    "Topico":"3.3 FA synthesis — FAS cycle (q-0265)"},
-   {"slide":"slide-21.png",
-    "Text":"Complete oxidation of one palmitate (16 C) yields {{c1::129}} net ATP, using the classic yields taught in the course.",
-    "Extra":"131 gross − 2 for activation. It takes 7 β-oxidation rounds (not 8) → 8 acetyl-CoA, totaling 31 NADH + 15 FADH₂ + 8 GTP. The −2 comes from activation cleaving ATP to AMP + PPi.",
+   {"Text":"In fatty acid synthesis, the step right after condensation is a {{c1::reduction}} (NADPH), then dehydration, then reduction.",
+    "Extra":"NADPH-dependent; mirror of β-oxidation. +2 C per round from malonyl-CoA. Photo credit: Image licensed by Physeo and used with permission.",
+    "Topico":"3.3 FA synthesis, FAS cycle"},
+   {"Text":"Complete oxidation of one palmitate (16 C) yields {{c1::129}} net ATP.",
+    "Extra":"131 gross − 2 (activation). 7 rounds → 8 acetyl-CoA; 31 NADH, 15 FADH2, 8 GTP. Photo credit: Image licensed by Physeo and used with permission.",
     "Topico":"2.1 palmitate ATP count"},
-   {"slide":"slide-13.png",
-    "Text":"Activating a fatty acid costs the equivalent of 2 ATP because the ATP is cleaved all the way to {{c1::AMP + PPi}} (not ADP + Pi), and the pyrophosphate is then hydrolyzed.",
-    "Extra":"Cleaving to AMP + PPi plus splitting the PPi = two high-energy bonds spent — hence the “−2” in the palmitate balance. Catalyzed by fatty acyl-CoA synthetase.",
+   {"Text":"Fatty acid activation cleaves ATP to {{c1::AMP + PPi}}, not ADP + Pi (costs ~2 ATP).",
+    "Extra":"PPi also split → 2 high-energy bonds (−2 in balance). Enzyme: fatty acyl-CoA synthetase. Photo credit: Image licensed by Physeo and used with permission.",
     "Topico":"1.3 fatty-acid activation"},
  ],
  "bioq-23-aminoacidos-ureia": [
-   {"slide":"slide-07.png",
-    "Text":"A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance — neither positive nor negative.",
-    "Extra":"Balance = N ingested − N excreted (~90% as urinary urea). Positive = net retention (growth, pregnancy, healing); negative = net loss (fasting, trauma, infection). Positive isn’t “good” nor negative “bad” — they only describe the direction of nitrogen flux.",
+   {"Text":"A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance.",
+    "Extra":"N in − N out; ~90% urinary urea. Positive: growth, pregnancy, healing. Negative: fasting, trauma, infection.",
     "Topico":"1.2 nitrogen balance"},
-   {"slide":"slide-39.png",
-    "Text":"Deamination releases nitrogen as free ammonia: {{c1::glutamate dehydrogenase}} strips the amino group from glutamate, regenerating α-ketoglutarate.",
-    "Extra":"This is the step that actually REMOVES nitrogen from the carbon skeleton — transamination had only transferred it onto glutamate. Mitochondrial, hepatic; uses NAD⁺/NADP⁺. It is what separates “transfer” from “eliminate”.",
+   {"Text":"Free ammonia is released from glutamate by {{c1::glutamate dehydrogenase}}, regenerating α-ketoglutarate.",
+    "Extra":"Truly removes N (transamination only transferred it to glutamate). Mitochondrial, hepatic. NAD+/NADP+.",
     "Topico":"2.4 oxidative deamination"},
  ],
 }
@@ -63,10 +66,8 @@ def main():
             continue
         if old:
             call("deleteNotes", notes=old)
+        media = IMG_MAE[slug]   # imagem AnKing nativa, já presente na coleção (sem lag)
         for c in CARDS[slug]:
-            src = os.path.join(ROOT, "figuras", slug, c["slide"])
-            media = "nebli-%s-%s" % (slug, c["slide"])
-            call("storeMediaFile", filename=media, path=src)
             note = {"deckName": deck, "modelName": MODEL,
                     "fields": {"Text": c["Text"], "Extra": c["Extra"] + IMG(media) + SELO},
                     "tags": ["NEBLI::"+slug, "NEBLI::gerado"]}

@@ -1,0 +1,74 @@
+#1
+FRENTE: Trypsinogen is converted to trypsin via {{c1::enteropeptidase (enterokinase)}}, a brush-border enzyme on duodenal and jejunal mucosa
+VERSO: Thus, an enteropeptidase deficiency will result in protein and fat malabsorption
+[imagem: 572302ac92e9226fee3d992f84c72478.webp]
+
+#2
+FRENTE: Fatty acyl-carnitine is converted into {{c1::fatty acyl-CoA}} via the enzyme {{c2::carnitine palmitoyl transferase 2 (CPT2)}}
+VERSO: Carnitine acyltransferase-2 (CAT2) Photo credit: Image licensed by Physeo and used with permission. Purchase full access here.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#3
+FRENTE: Pepsinogen (inactive) is converted into {{c1::pepsin}} (active) in the presence of {{c2::H+}}
+VERSO: (vazio)
+[sem imagem]
+
+#4
+FRENTE: The NH3 from amino acid breakdown in muscle is transported into the blood in the form of {{c1::alanine}}
+VERSO: e.g., alanine aminotransferase (ALT) or aspartate aminotransferase (AST)
+[imagem: 115291b7559767dad1b510d9b420364d.webp]
+
+#5
+FRENTE: In preparation for β-oxidation, fatty acids in the cytosol are converted to {{c1::fatty acyl-CoA}} via the enzyme {{c2::fatty acyl-CoA synthetase}}
+VERSO: Photo credit: Image licensed by Physeo and used with permission. Purchase full access here.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#6
+FRENTE: Carnitine acyltransferase-1 (CAT1) is regulated via negative feedback by {{c1::malonyl-CoA}}
+VERSO: Malonyl-CoA is produced during fatty acid synthesis from acetyl-CoA Photo credit: Image licensed by Physeo and used with permission. Purchase full access here.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#7
+FRENTE: Where in the cell does the urea cycle begin? {{c1::Mitochondria}}
+VERSO: Photo credit: WikiDoc by Yazan Daaboul, CC BY-SA 3.0
+[imagem: 90c36d4a82c3c9e712a85a6cf310cc6b.webp]
+
+#8
+FRENTE: In fatty acid synthesis, the step right after condensation is a {{c1::reduction}} (NADPH), then dehydration, then reduction.
+VERSO: NADPH-dependent; mirror of β-oxidation. +2 C per round from malonyl-CoA. Photo credit: Image licensed by Physeo and used with permission.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#9
+FRENTE: In the kidney, glutamine may be broken down into {{c1::NH4+}} and {{c2::glutamate}} via the enzyme glutaminase
+VERSO: (vazio)
+[imagem: 2fa39418270463e08f7a166ed3085358.png]
+
+#10
+FRENTE: Complete oxidation of one palmitate (16 C) yields {{c1::129}} net ATP.
+VERSO: 131 gross − 2 (activation). 7 rounds → 8 acetyl-CoA; 31 NADH, 15 FADH2, 8 GTP. Photo credit: Image licensed by Physeo and used with permission.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#11
+FRENTE: Fatty acid activation cleaves ATP to {{c1::AMP + PPi}}, not ADP + Pi (costs ~2 ATP).
+VERSO: PPi also split → 2 high-energy bonds (−2 in balance). Enzyme: fatty acyl-CoA synthetase. Photo credit: Image licensed by Physeo and used with permission.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#12
+FRENTE: Malonyl-CoA may be converted to {{c1::palmitate}} via the enzyme {{c2::fatty acid synthase}}
+VERSO: - May also be referred to as palmitate synthase - This is the only fatty acid made de novo in humans Photo credit: Image licensed by Physeo and used with permission. Purchase full access here.
+[imagem: ad2729aecb1958f43aa4f15be8b16774.jpg]
+
+#13
+FRENTE: A healthy, well-fed adult sits at {{c1::zero}} nitrogen balance.
+VERSO: N in − N out; ~90% urinary urea. Positive: growth, pregnancy, healing. Negative: fasting, trauma, infection.
+[imagem: Screen Shot 2021-01-07 at 15.17.18.jpg]
+
+#14
+FRENTE: Free ammonia is released from glutamate by {{c1::glutamate dehydrogenase}}, regenerating α-ketoglutarate.
+VERSO: Truly removes N (transamination only transferred it to glutamate). Mitochondrial, hepatic. NAD+/NADP+.
+[imagem: Screen Shot 2021-01-07 at 15.17.18.jpg]
+
+#15
+FRENTE: What is the rate-limiting enzyme of ketogenesis? {{c1::HMG-CoA synthase}}
+VERSO: Photo credit: Chu et al., CC BY 4.0, via Frontiers in Aging
+[imagem: 69198febe9e563f42730eb3271b41ded.jpg]
