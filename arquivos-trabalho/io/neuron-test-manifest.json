@@ -1,0 +1,113 @@
+{
+  "slug": "neuron-test",
+  "header": "<b>Multipolar</b> neuron structure",
+  "image_size": [
+    1280,
+    825
+  ],
+  "n_boxes": 11,
+  "labels": [
+    {
+      "text": "Cell body",
+      "box": [
+        177,
+        49,
+        127,
+        29
+      ]
+    },
+    {
+      "text": "Telodendria",
+      "box": [
+        801,
+        83,
+        157,
+        30
+      ]
+    },
+    {
+      "text": "Axon",
+      "box": [
+        540,
+        84,
+        68,
+        34
+      ]
+    },
+    {
+      "text": "Nucleus",
+      "box": [
+        27,
+        249,
+        108,
+        23
+      ]
+    },
+    {
+      "text": "Synaptic terminals",
+      "box": [
+        915,
+        354,
+        249,
+        33
+      ]
+    },
+    {
+      "text": "Axon hillock",
+      "box": [
+        431,
+        360,
+        163,
+        23
+      ]
+    },
+    {
+      "text": "Golgi apparatus",
+      "box": [
+        424,
+        505,
+        214,
+        29
+      ]
+    },
+    {
+      "text": "Endoplasmic reticulum",
+      "box": [
+        44,
+        542,
+        173,
+        57
+      ]
+    },
+    {
+      "text": "Mitochondrion",
+      "box": [
+        72,
+        653,
+        189,
+        31
+      ]
+    },
+    {
+      "text": "Dendrite",
+      "box": [
+        422,
+        655,
+        113,
+        23
+      ]
+    },
+    {
+      "text": "Dendritic branches",
+      "box": [
+        417,
+        748,
+        253,
+        23
+      ]
+    }
+  ],
+  "I0": "[#!occlusions [[rect0::174,46,133,35]]<br>[[rect0::798,80,163,36]]<br>[[rect0::537,81,74,40]]<br>[[rect0::24,246,114,29]]<br>[[rect0::912,351,255,39]]<br>[[rect0::428,357,169,29]]<br>[[rect0::421,502,220,35]]<br>[[rect0::41,539,179,63]]<br>[[rect0::69,650,195,37]]<br>[[rect0::419,652,119,29]]<br>[[rect0::414,745,259,29]] #]<br>active",
+  "crop_png": "arquivos-trabalho/io\\neuron-test-crop.png",
+  "preview_png": "arquivos-trabalho/io\\neuron-test-preview.png"
+}

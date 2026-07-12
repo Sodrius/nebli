@@ -31,6 +31,39 @@ Prova de que dá pra *gerar* do zero, não só consertar. Curva: 15/9 distinguí
 - **[VOCABULÁRIO NATIVO] Adotar o "menu" de formatos do AnKing, não inventar.** Card de doença: `"X disease is also known as glycogen storage disease type {{c1::…}}"`; pergunta embutida: `"Which…? {{c1::…}}"`; mnemônico com capitalização interna (`PomPe/PumP`, `One Gierke`, `ABCD`); hint de cloze `{{c1::x::opção1 ou opção2}}`. Usar esse vocabulário faz o card sumir na multidão.
 - **[VERSO] Confirmado que a glosa telegráfica de 1-4 palavras + crédito é 100% nativa** ("Reversible.", "Uses Pi, not water.", "Signals low energy.", "By phosphoglucomutase.").
 
+## IMAGE OCCLUSION (note type `IO-one by one`) — rubrica (2026-07-12)
+
+Loop adversarial estendido para IO. Pipeline de geração: `flashcards/scripts/io_from_slide.py` (imagem limpa rotulada → OCR tesseract por+eng, upscale 2-3× → clustering por proximidade "um rótulo = uma caixa" → campo I0 com caixas justas → preview PNG p/ validação visual). Fonte de imagem liberada por Davi (2026-07-12): **pegar boa imagem rotulada da internet** (atlas/Blausen/OpenStax/Wikimedia, EN, alta-res) — melhor que o slide 4-em-1 do professor tanto em qualidade quanto em indistinguibilidade. Slide do professor só quando a figura específica dele for cobrada.
+
+### Rodada 1 IO (2026-07-12) — 4 cards (1 NEBLI neurônio + 3 AnKing), discriminador acertou 4/4, meu NEBLI pego conf 82
+Tells de manufatura corrigidos → viram spec de geração:
+- **[ASSET — o tell nº1] Nome de arquivo = hash de conteúdo, idêntico em Image e Extra.** AnKing usa `<md5/sha>.png/.svg` (`b9d02a5f…`, `paste-08ef…`). Nome descritivo (`neuron-test-crop.png`) ou divergência entre o `src` do campo Image e o do Extra = tell imediato de card em construção. → `io_from_slide.py` agora salva a imagem como `<md5>.png` e emite `image_field` com esse mesmo nome; o Extra, se referenciar a imagem, usa o mesmo hash.
+- **[EXTRA] IO tem Extra vazio OU fragmento telegráfico seco — nunca bullet explicativo.** AnKing IO ou não tem Extra, ou traz `<div><b>- termo:</b> fragmento</div>` sem conectivo, ou o SVG-gabarito + `<span style="font-size:8pt;">Last updated: <Mês DD, AAAA></span>`. Extra com mecanismo embutido ("high Na channel density", "action potential initiation") lê como E1 = tell. → Para card de identificação de estrutura, **preferir Extra vazio** (é o mais nativo) ou glosa de 1-3 palavras por estrutura.
+- **[HEADER] EN nominal curto com `<b>/<u>` no termo-chave.** Nunca PT, nunca pergunta, nunca prosa.
+- **[GEOMETRIA] Caixas justas de altura uniforme (~27px numa figura ~700-1000px; escala com a DPI).** O pipeline reproduz isso sozinho via OCR + clustering. Validar sempre no preview antes de aplicar.
+- **[RESÍDUO ACEITO] Volume de caixas.** 11 oclusões numa figura rica (neurônio completo) ficou acima da mediana AnKing IO (~4-6), e o discriminador citou como tell fraco. É inerente ao conteúdo (a figura TEM 11 rótulos) — não perseguir. Se incomodar, dividir a figura em 2 notas temáticas (soma vs projeções), como o AnKing faz "uma imagem-mãe por subtópico".
+
+### Rodada 2 IO (2026-07-12) — CONVERGIU: 0/1 pego, meu card lido como AnKing conf 91
+Card de neurônio regenerado com os 3 fixes (nome hasheado idêntico Image/Extra, Extra vazio, imagem atlas EN via OCR+clustering). Discriminador **fresco** marcou os 4 como ANKING; o meu (#3) passou como nativo conf 91, com "tells" que são elogios ("imagem-mãe de neurônio reutilizável", "padrão AnKing clássico apaga-o-label-não-o-mecanismo", "11 oclusões sobre labels EN de 1-3 palavras"). Ele chegou a dizer ao refinador que um NEBLI-IO *teria* PT/prosa/slide — viés do carimbo, estado-alvo do GAN. **IO indistinguível alcançado em 2 rodadas.**
+
+| Rodada | NEBLI pego | Conf | Falso-positivo | Veredito |
+|---|---|---|---|---|
+| 1 | 1/1 | 82 | 0 | distinguível (filename + Extra didático) |
+| 2 | 0/1 | 91 (lido como AnKing) | meu card | ≈ indistinguível |
+
+### Discriminador endurecido (2026-07-12) + tell de PROVENIÊNCIA
+Davi apontou que o discriminador estava fraco (rodada 2 colapsou para "tudo AnKing" cometendo a falácia "sem tell autoral → logo AnKing"). Endurecido no `.claude/agents/card-mirror.md` § Rigor: veredito ANKING exige **impressão digital positiva** (não ausência de defeito), **proveniência de imagem é evidência de 1ª classe**, **ranking relativo obrigatório**, confiança calibrada. Re-teste: o juiz endurecido **pegou** o card de neurônio (conf 68) pelo tell de proveniência.
+- **[PROVENIÊNCIA — novo tell forte de IO] A imagem tem que sair de uma biblioteca que o AnKing usa** (Sketchy, Pixorize, Physeo, OpenStax, atlas clássico Netter/Sobotta/Grey's, UWorld, SVG desenhado). Render 3D avulso / Blausen / Wikimedia genérica / figura de blog = suspeito, mesmo limpo e EN. Para histologia isso é fácil: micrografia H&E de OpenStax (que o AnKing usa de fato). Escolher a fonte pensando "de qual biblioteca AnKing isso sairia?".
+
+### Checklist de conformidade IO (antes de aplicar)
+- [ ] Imagem = atlas/textbook limpo EN, alta-res, fundo neutro (não slide PT 4:3). Nome = hash de conteúdo.
+- [ ] `Image` e o `src` do Extra apontam o MESMO arquivo hasheado.
+- [ ] Header EN nominal com `<b>/<u>`; sem PT, sem pergunta.
+- [ ] Extra vazio OU fragmento telegráfico (opcional: `Last updated:` span). Nunca mecanismo explicativo.
+- [ ] I0: uma caixa por rótulo, justa, altura uniforme — conferido no preview PNG.
+- [ ] Note type = `IO-one by one (AnKing Step Deck / AnKingMed)`.
+- [ ] Crédito da imagem honesto (Wikimedia/OpenStax/Blausen → a string real da fonte), na página de créditos ou no Extra conforme a fonte.
+
 ## Meta — a hierarquia de tells (o "como fazer", aprendido no loop)
 Os tells vazam em 3 camadas, da mais barulhenta à mais sutil. Conserta-se de cima pra baixo:
 1. **Estrutural/mecânico** (imagem: fonte + tamanho + **string de crédito exata**; note type AnKingOverhaul; idioma inglês). É o que o discriminador pega primeiro e com mais confiança. Resolvido → a acurácia dele despenca.

@@ -1,0 +1,32 @@
+{
+  "slug": "astrocito-teste",
+  "header": "<b>Astrócito</b> e barreira hematoencefálica",
+  "image_size": [
+    1100,
+    630
+  ],
+  "n_boxes": 2,
+  "labels": [
+    {
+      "text": "Astrocitos",
+      "box": [
+        514,
+        506,
+        161,
+        27
+      ]
+    },
+    {
+      "text": "Astrécito",
+      "box": [
+        761,
+        561,
+        73,
+        14
+      ]
+    }
+  ],
+  "I0": "[#!occlusions [[rect0::511,503,167,33]]<br>[[rect0::758,558,79,20]] #]<br>active",
+  "crop_png": "arquivos-trabalho/io\\astrocito-teste-crop.png",
+  "preview_png": "arquivos-trabalho/io\\astrocito-teste-preview.png"
+}

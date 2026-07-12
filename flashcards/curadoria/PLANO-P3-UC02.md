@@ -48,6 +48,17 @@ Probe do AnKing pra Tecido nervoso (histologia): tipos de neurônio=0, transport
 - **Foco: um deck BOM** — cobrir o necessário, com qualidade. Não é volume; é o Davi conseguir estudar e passar na prova (prática + teórica) + base pro Step 1.
 - Já feito nesta sessão: checklist de **Tecido nervoso** (`arquivos-trabalho/checklist-histo-10-tecido-nervoso.tsv`, 28 conceitos) + recon de cobertura AnKing (fraca no ângulo histológico).
 
+## PROGRESSO (2026-07-12, sessão de IO) — máquina de image occlusion PRONTA
+- **card-mirror endurecido para IO** (`.claude/agents/card-mirror.md` Parte B): geometria das caixas, fonte da imagem, Header, Extra, higiene de asset, protocolo de abrir a imagem.
+- **Pipeline IO:** `flashcards/scripts/io_from_slide.py` (imagem limpa rotulada → OCR tesseract por+eng, upscale, clustering "um rótulo=uma caixa" → campo I0 + preview) e `io_apply.py` (storeMediaFile + addNote). Note type `IO-one by one` = **1 card revela as N oclusões uma a uma** (não N cards).
+- **Loop adversarial IO convergiu em 2 rodadas** (rubrica em `flashcards/CARD-MIRROR-RUBRICA.md` § IMAGE OCCLUSION): fixes = imagem atlas EN da web + caixas OCR justas + **nome de arquivo hasheado idêntico em Image/Extra** + **Extra vazio**. Card de neurônio passou como AnKing nativo (conf 91).
+- **Fonte de imagem (decisão Davi 2026-07-12):** IO usa **imagem limpa rotulada da web** (atlas/Blausen/OpenStax/Wikimedia) como DEFAULT — melhor que o slide 4-em-1 do professor. Slide só quando a figura específica dele for cobrada.
+- **Dependências instaladas:** tesseract (UB-Mannheim) + `por.traineddata` em `~/tessdata` (via `TESSDATA_PREFIX`), `pytesseract`.
+- **Infra observada:** o que serve `localhost:8765` nesta máquina é o **Anki DESKTOP** (não há container `anki-nebli`). Rodar `anki.exe` para subir a porta. Docker daemon separado.
+- **Recon AnKing feita (contagem por área):** Embrio ~610 (curar) · histo nervoso 26-48 / vasos 32 / linfoide 15 (NEBLIcard+IO) · anato circ/linf 125 clínico Step-1 (IO dos slides/atlas).
+- **1 card IO real** aplicado em `NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso` (tag `NEBLI::io-calibracao`, nota 1783893211477).
+- **FALTA:** curar as 8 aulas (recon feita; falta pool→keep/drop→gate B2→gerar→revisor-completude→apply→apkg→Drive). Meta-avaliação de modelos/processo em `arquivos-trabalho/META-AVALIACAO-P3-IO-2026-07-12.md`.
+
 ## Regras que já valem (não reabrir)
 - Drive headless via rclone `nebli-drive` (refresh_token; `DRIVE-ESTRUTURA.md`).
 - Profundidade elevada + dial `profundidade` + blocos clínicos maiores + bloco roxo (`CLAUDE.md` § Profundidade).
