@@ -73,6 +73,20 @@ Três mudanças canônicas pedidas por Davi, que passam a fechar **todo resumo N
 
 Convite, não engessamento (F7): as metas orientam, a justificativa de 1 linha é o que importa. Índice detalhado em `ROLES.md` § Índice de completude.
 
+## Profundidade elevada + dial + blocos clínicos maiores + revisor de completude mútua (CANON 2026-07-12)
+
+Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline canônico.
+
+1. **Novo padrão de profundidade = atual + um degrau.** A E1 vai deliberadamente mais fundo que hoje. O piso "≈1 injeção mecanística por subtópico" continua, mas cada injeção carrega **mais mecanismo/porquê** e a régua sobe: `profundidade = max(AnKing, slide/banco/bibliografia)`, tendendo ao teto do AnKing para o mesmo mecanismo. Foco no slide continua (escopo); o que muda é aprofundar mais **dentro** desse escopo. **Qualidade obrigatória:** como é provável que o Davi não tenha visto o extra em aula, o aprofundamento tem que estar correto e bem explicado — nunca termo solto.
+
+2. **Dial por resumo — `profundidade:` na Seção A do Tema Card.** Valores: `padrao` (o novo default já elevado) | `fundo` (um degrau acima: mais injeções por subtópico, limiar de admissão B3 afrouxado para ~7/10, blocos clínicos e roxos maiores). Davi diz "resumo X vai fundo" → Seção A grava `profundidade: fundo`. O dial escala a mão, não engessa (sem cota rígida).
+
+3. **Blocos clínicos maiores, no nível que o card do AnKing cobra.** O `#clinica-box` (azul) passa a **(a)** tornar explícito o **gancho doença↔assunto** (por que essa doença ilustra esse mecanismo) e **(b)** explicar a doença na profundidade **fisiopatológica que os cards daquela aula vão cobrar** — para o Davi ter base fisiológica E fisiopatológica antes do card (honra o gate B2: nada de card órfão) e construir base pro ciclo clínico/Step 1. Continua "poucos e naturais" (B4), vocabulário Step 1 banido; cresce a **profundidade do gancho**, não o número de blocos. Se o slide já menciona a noção clínica, é natural que cards e E1 a cubram (poucos cards por doença, nunca 15).
+
+4. **Bloco ROXO — aprofundamento que agrega mas não foi dado em aula.** Nova caixa (cor roxa) para o conteúdo "um pouquinho além do slide" que agrega à formação mas não foi mencionado direto. Legenda de caixas fecha assim: **vermelho** = confusão de prova · **azul** = clínica · **amarelo** = confusão elaborada (Mapa de Confusões) · **roxo** = algo a mais que agrega, fora do que a aula deu. (Helper `#roxo-box` a criar no template via `frontend-design` na 1ª apostila que usar.)
+
+5. **Sessão de revisão final pré-compilação — revisor de completude MÚTUA E1↔cards (Sonnet).** Antes de compilar, roda um revisor que audita os dois sentidos: **(a)** todo card do deck-aula está explicado na E1? **(b)** todo subtópico da E1 tem card à altura? Dá nota 0-10 a cada eixo, aponta onde a E1 precisa de 1-3 frases novas e onde faltam cards (ou cards melhores), e corrige — injeta frase na E1 / adiciona card, sempre no nível de profundidade elevado. Integra o Índice de completude existente (E1×slide, E2×E1, cards×E1) + o loop Card→E1. Papel em `ROLES.md` § Revisor-completude (a detalhar). Curadoria de card em **duas camadas de julgamento**: (1) isso bate com o que a FMUSP cobra? (mais importante) (2) isso cobre bem a E1 e aprofunda pra base do Step 1?
+
 ## Routing Map (canônico revisto 2026-05-26)
 
 **Decisão canônica 2026-05-26 — Davi suspendeu uso de subagentes REDATOR-E1 e QUESTIONADOR.** Causa: bug #3 do `ERROS.md` reincidiu (Task spawn parou sem disparar Read, simulou tool calls inline — confirmado novamente em piloto de 2026-05-28, ver `ERROS.md` F9). A **sessão principal (Claude Code, modelo Opus) atua como ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos**.
