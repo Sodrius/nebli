@@ -87,6 +87,19 @@ Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline
 
 5. **Sessão de revisão final pré-compilação — revisor de completude MÚTUA E1↔cards (Sonnet).** Antes de compilar, roda um revisor que audita os dois sentidos: **(a)** todo card do deck-aula está explicado na E1? **(b)** todo subtópico da E1 tem card à altura? Dá nota 0-10 a cada eixo, aponta onde a E1 precisa de 1-3 frases novas e onde faltam cards (ou cards melhores), e corrige — injeta frase na E1 / adiciona card, sempre no nível de profundidade elevado. Integra o Índice de completude existente (E1×slide, E2×E1, cards×E1) + o loop Card→E1. Papel em `ROLES.md` § Revisor-completude (a detalhar). Curadoria de card em **duas camadas de julgamento**: (1) isso bate com o que a FMUSP cobra? (mais importante) (2) isso cobre bem a E1 e aprofunda pra base do Step 1?
 
+## Nomenclatura única + upload automático pro Drive (CANON 2026-07-12)
+
+**Um nome só, que bate em tudo.** Cada aula tem um **nome curto e simples** (ex.: `Embriologia II`) que é, ao mesmo tempo: o **nome da pasta** no Drive, o nome-base do **.apkg** do deck-aula, e o nome-base do **PDF** do resumo. A pasta da aula no Drive contém **slide + resumo (PDF) + .apkg**.
+- **Naming do PDF:** `<aula curta> - Etapas 1 a 3 - <sigla do prof>` (ex.: `Embriologia II - Etapas 1 a 3 - CYIY.pdf`). Sigla do docente vem do cronograma da UC.
+- **Naming do deck:** `<aula curta>.apkg` (ex.: `Embriologia II.apkg`).
+- O nome-curto da aula também é a folha da árvore Anki `NEBLI::UC::Prova::Componente::Aula` — Drive e Anki espelham a mesma organização.
+
+**Upload automático (Davi só manda o slide; NEBLI organiza o resto):** quando um resumo fecha, subir **PDF + slide** pra pasta da aula (criando-a no padrão do Davi se não existir); quando um deck-aula é montado, `exportPackage` (AnkiConnect) gera o `.apkg` e sobe pra mesma pasta. Via **rclone** (instalado 2026-07-12; remote a autorizar 1×). Helper: `flashcards/scripts/subir_drive.py` (a criar; recebe slug + aula-curta + prova/componente + prof).
+
+**Espelhar a organização do Davi para futuras UCs (obrigatório antes de qualquer upload):** estudar a fundo a estrutura atual do Drive (via `rclone tree`/`lsd`) e replicá-la **exatamente** — a árvore dele (UC › componente/prova › aula) é o template. A cada UC nova, ficar atento ao **cronograma** que o Davi mandar pra encaixar aula→prova→componente do jeito dele. Nunca impor estrutura própria; seguir a que já existe.
+
+**Geração de deck-aula em massa (PLANEJADO — não executar ainda):** montar decks de todas as aulas passadas é plano grande, incremental (cada aula = curadoria + Revisor-completude + gate + apply), casado com o .apkg→Drive: cada aula fechada aterrissa no Drive pronta. Começar por prova quando Davi liberar.
+
 ## Routing Map (canônico revisto 2026-05-26)
 
 **Decisão canônica 2026-05-26 — Davi suspendeu uso de subagentes REDATOR-E1 e QUESTIONADOR.** Causa: bug #3 do `ERROS.md` reincidiu (Task spawn parou sem disparar Read, simulou tool calls inline — confirmado novamente em piloto de 2026-05-28, ver `ERROS.md` F9). A **sessão principal (Claude Code, modelo Opus) atua como ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos**.
