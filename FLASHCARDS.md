@@ -200,9 +200,24 @@ Davi marca durante o estudo quando quer entender um card mais fundo. Claude redi
 
 **Modo auxiliar:** `python flashcards/scripts/monitor_email_anking.py --suspender-vermelhos` suspende os cards vermelhos na hora, sem enviar email. Útil quando o Davi marca durante o estudo e quer parquear imediatamente sem esperar a sessão com Claude.
 
-### Laranja (flag:2) — EQUIVALENTE À VERMELHA (canônico 2026-07-10)
+### As 3 bandeiras = o loop de estudo → curadoria (canônico 2026-07-12, reformulado)
 
-`Ctrl+1` parou de funcionar no Anki do Davi, então ele volta a usar bandeira laranja e trata **laranja = vermelha**: ambas significam "me explique este card + suspende". O `--bandeira` coleta flag:1 **e** flag:2 no mesmo fluxo (explica os 2 parágrafos, envia email, dessuspende, remove a flag).
+Com o `Ctrl+1` consertado (add-on `nebli_flag_suspender` reescrito), cada bandeira volta a ter **sentido próprio** — e as 3 são exatamente os 3 sinais que o sistema precisa pra se auto-corrigir. É a mesma máquina do **Revisor-completude** (E1↔cards), alimentada pela ponta do estudo real: um card marcado é uma falha de completude que escapou da geração.
+
+- **🔴 Vermelha (flag:1) — "me explica esse card".** `Ctrl+1` = flag + suspende na hora. `--bandeira` gera 2 parágrafos voz-NEBLI (mecanismo + contexto), envia, dessuspende, remove a flag. **Sinal de curadoria:** card vermelho ⇒ a E1 daquela aula explicou mal esse conceito → registrar como **gap de E1** pra próxima passada do Revisor-completude.
+- **🟠 Laranja (flag:2) — "esse card faz sentido aqui?"** (canônico 2026-07-12 — substitui o "laranja=vermelha" de 2026-07-10). Davi duvida que o card pertença ao conteúdo. Claude **re-julga contra a E1**: **ANCORADO** (fica) ou **FORA** (dropa do deck + vira **anti-exemplar** em `flashcards/ANTI-EXEMPLARES-CARDS.md`, pra aprender o padrão de card-várzea). Fecha a pergunta "esse card era pra estar aqui?".
+- **🟢 Verde (flag:3) — "card bom".** Vira **exemplar** em `flashcards/EXEMPLARES-CARDS.md` (forma + gesto) — os NEBLIcards futuros aprendem com o que Davi aprovou.
+
+**Regra:** um card marcado (vermelho/laranja) é, no geral, um card **mal ancorado na E1**. Ao processar as bandeiras, Claude reporta quantos dos marcados não têm âncora — muitos = a E1 daquela aula precisa subir OU o deck precisa podar (violação de R1). Esse relatório volta pro Revisor-completude.
+
+### Carga viável de cards por aula (canônico 2026-07-12)
+
+Davi quer uma quantidade que **puxe pra cima** — sempre aprofundar um pouco mais que o professor cobra — mas **sustentável** (nunca um deck de 120 cards insustentável). Não é cota fixa; é um **alvo** que a curadoria e o Revisor-completude usam. Classificar a aula em dois eixos e derivar a banda:
+
+- **Peso** (quantos subtópicos/mecanismos a E1 tem): pequena (~5-6) · média (~8-10) · grande (~12+, ex.: Krebs, ciclo da ureia).
+- **Rendimento** (high-yield pra FMUSP + Step 1): baixo · médio · alto.
+
+**Densidade-alvo por subtópico nuclear:** ~3-5 cards (rendimento baixo) → ~6-8 cards (rendimento alto); periféricos ganham 1-2. Bandas práticas resultantes: **pequena 25-40 · média 40-65 · grande 65-90** cards por aula. O viés "puxa pra cima" = mirar o **terço superior** da banda que ainda cabe em 15/dia (uma aula de 50 cards = ~3-4 dias de novos — sustentável). Acima de ~90 numa aula só, parar e podar redundância (R10: dois cards com info redundante = oportunidade de 1 card novo com info nova). O número entra no Tema Card (Seção A) como `carga_alvo: <n>` e o Revisor-completude sinaliza se o deck ficou abaixo (lacuna) ou muito acima (inflado).
 
 **Sinal importante:** no geral, um card marcado (laranja/vermelha) é um card **que não foi explicado na E1**. Por isso, ao processar as bandeiras, Claude também reporta *quantos* dos marcados não têm âncora na E1 — muitos marcados = sinal de que aquela aula tem card demais sem explicação (violação de R1), e a E1 daquela aula precisa subir ou o deck precisa podar.
 
