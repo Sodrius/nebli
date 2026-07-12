@@ -50,7 +50,8 @@ Um NEBLIcard passa se:
 - [ ] Extra = **fragmento telegráfico** (nomes, →, ponto-e-vírgula), NÃO prosa de monitor com conectivos. Card ≠ E1.
 - [ ] Sem travessão "—", aspas curvas "" ou reticências … (assinatura de prosa autoral).
 - [ ] Sem referência a banca/curso no corpo ("FMUSP", "taught in the course"); proveniência só na tag/curado.json.
-- [ ] Se reusa imagem de card irmão, herda o crédito dela ("Photo credit: …") para não virar híbrido.
+- [ ] Se reusa imagem de card irmão, herda a **string de crédito EXATA da FONTE daquela imagem** — Physeo → "Image licensed by Physeo and used with permission. Purchase full access here."; OpenStax → "Photo credit: OpenStax, CC BY 4.0"; foto/Wikimedia/Flickr → "Photo credit: <autor>, <licença>, via <site>". Crédito trocado entre fontes = tell.
+- [ ] (Robustez extra, opcional) variar o formato de alguns cloze: multi-cloze c1/c2/c3, hint `::`, mnemônico-acrônimo, pergunta "What/Which?". Cards autorais 100% single-cloze simples podem, num lote muito rico, destoar por *excesso de simplicidade* (tell fraco, ainda não pegou).
 - [ ] Só o selo `❖ NEBLIcard` distingue; tag `NEBLI::gerado` para auditoria.
 
 ## Métrica de convergência (loop 2026-07-12, aminoácidos+lipídeos)
