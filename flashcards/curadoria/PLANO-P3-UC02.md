@@ -72,3 +72,6 @@ Probe do AnKing pra Tecido nervoso (histologia): tipos de neurônio=0, transport
 - **Sync AnkiWeb feito** (82 cards P3 no celular). Embrio I (40) + Embrio II-III (41) já aplicados de antes (TESTE — re-curar sério pendente).
 - **FALTA (próxima sessão):** modo gerador micrografia-com-seta (sem OCR) → curar as 3 histo (vasos, nervoso, linfoide) na sessão principal; anato via line-art web; instalar poppler p/ ler P1/P2/P4 e extrair lista de estruturas cobradas; apkg + Drive por aula.
 - **Provas** em `slides/UC02/P1-P4/` (scans) e **livro Junqueira** em `slides/`.
+
+## FECHADO (2026-07-13) — deck-prova P3 completo e entregue
+As 8 aulas fechadas numa sessão. **338 cards de estudo** em `NEBLI::UC02::P3::*`, sincronizado no celular, **9 .apkg no Drive** (por aula + `P3 - UC02 completo.apkg`). Histo/anato = 156 notas NEBLIcard PT autorais → 256 cards (atomização c1/c2/c3 após QA do card-mirror). Embrio = AnKing curado. IO visual (embrião+Junqueira) fica como próximo passo (precisa imagem limpa + gerador seta-manual + poppler). Detalhe: `arquivos-trabalho/META-AVALIACAO-P3-DECK-COMPLETO-2026-07-13.md` e memória [[retomada-anking]].

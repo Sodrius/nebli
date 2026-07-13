@@ -1,0 +1,142 @@
+{
+  "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+  "slug": "histo-10-tecido-nervoso",
+  "cards": [
+    {
+      "text": "Os neurônios e a maior parte da glia derivam do {{c1::<b>neuroectoderma</b>}} (parede do tubo neural).",
+      "extra": "Quem vem de onde prevê o que a célula faz."
+    },
+    {
+      "text": "No sistema nervoso periférico (neurônios dos gânglios e células de Schwann), a origem é a {{c1::<b>crista neural</b>}}.",
+      "extra": "A crista neural também origina melanócitos e medula da adrenal."
+    },
+    {
+      "text": "A <b>microglia</b> é a exceção da glia: sua origem é o {{c1::<b>mesoderma</b>}}, a mesma linhagem dos monócitos.",
+      "extra": "Por isso ela é o macrófago residente do SNC."
+    },
+    {
+      "text": "O neurônio <b>multipolar</b> tem {{c1::vários dendritos e um único axônio}} e é o tipo mais {{c2::comum}} (motores, interneurônios, Purkinje).",
+      "extra": ""
+    },
+    {
+      "text": "O neurônio <b>bipolar</b> tem {{c1::um dendrito e um axônio}} em polos opostos, restrito a {{c2::retina, mucosa olfatória e gânglios da audição e do equilíbrio}}.",
+      "extra": ""
+    },
+    {
+      "text": "O neurônio <b>pseudounipolar</b> tem um tronco único que se bifurca em {{c1::T}}; é o neurônio {{c2::sensitivo}} do gânglio da raiz dorsal.",
+      "extra": "Nasce bipolar e os prolongamentos se fundem — daí o \"pseudo\". Unipolar de verdade não existe em humanos."
+    },
+    {
+      "text": "Pela função, o neurônio é <b>aferente/sensitivo</b> (traz da periferia), <b>eferente/motor</b> (leva ao efetuador) ou {{c1::<b>interneurônio</b>}} (ponte interna, a maioria).",
+      "extra": ""
+    },
+    {
+      "text": "O corpo celular (pericário) é o centro {{c1::trófico}}: seu núcleo é {{c2::grande, esférico e claro (eucromático)}}, com nucléolo evidente.",
+      "extra": "O retrato de uma célula de altíssima síntese proteica."
+    },
+    {
+      "text": "Os <b>corpúsculos de Nissl</b> são {{c1::retículo endoplasmático rugoso + polirribossomos}}; coram-se de basófilo por serem ricos em {{c2::RNA}}.",
+      "extra": "Marca visível da vocação do neurônio para fabricar proteína."
+    },
+    {
+      "text": "O corpúsculo de Nissl está presente no pericário e nos {{c1::dendritos}}, mas ausente no {{c2::cone de implantação e no axônio}}.",
+      "extra": "É o critério prático para distinguir dendrito de axônio na lâmina."
+    },
+    {
+      "text": "A {{c1::<b>lipofuscina</b>}} é um pigmento marrom que se acumula no neurônio {{c2::velho}} (resto de digestão lisossomal), sinal de idade e não de doença.",
+      "extra": ""
+    },
+    {
+      "text": "O <b>dendrito</b> é a via de {{c1::entrada}}: afila e ramifica, contém Nissl e tem <b>espinhas</b>, substrato físico da {{c2::plasticidade}}.",
+      "extra": ""
+    },
+    {
+      "text": "O <b>axônio</b> parte do {{c1::cone de implantação (hillock)}}, a zona de {{c2::gatilho}} onde nasce o potencial de ação; tem calibre uniforme e não tem Nissl.",
+      "extra": ""
+    },
+    {
+      "text": "Como o axônio não sintetiza proteína, ele depende do {{c1::transporte axonal}} ativo, que corre sobre {{c2::microtúbulos}} gastando ATP.",
+      "extra": "A difusão simples levaria anos num axônio de um metro."
+    },
+    {
+      "text": "No transporte axonal, o sentido <b>anterógrado</b> (corpo → terminal) usa a {{c1::cinesina}}; o <b>retrógrado</b> (terminal → corpo) usa a {{c2::dineína}}.",
+      "extra": "Cinesina vai para a ponta; dineína traz de volta."
+    },
+    {
+      "text": "O vírus da <b>raiva</b> e a toxina do <b>tétano</b> sobem até o SNC pela via {{c1::retrógrada}}, sequestrando a {{c2::dineína}}.",
+      "extra": "São neurotrópicos por usar o transporte axonal, não por circular no sangue."
+    },
+    {
+      "text": "Na sinapse química, o potencial de ação abre canais de {{c1::cálcio (Ca²⁺)}} no botão, e o Ca²⁺ dispara a {{c2::fusão das vesículas}} com a membrana.",
+      "extra": "Vesículas despejam o neurotransmissor na fenda, que ativa receptores pós-sinápticos."
+    },
+    {
+      "text": "A sinapse <b>elétrica</b>, mais rara, une as células por {{c1::junções comunicantes (gap)}}: os íons passam direto, num sinal {{c2::bidirecional}} e quase instantâneo.",
+      "extra": ""
+    },
+    {
+      "text": "O <b>astrócito</b> tampona o {{c1::potássio (K⁺)}} extracelular, recicla neurotransmissor e nutre o neurônio com {{c2::glicose}} captada do sangue.",
+      "extra": ""
+    },
+    {
+      "text": "A <b>barreira hematoencefálica</b> é feita pelas {{c1::junções oclusivas do endotélio}}; quem induz o endotélio a formá-las é o {{c2::pé perivascular do astrócito}}.",
+      "extra": "O oligodendrócito faz mielina; a microglia é o fagócito — só o astrócito toca o vaso."
+    },
+    {
+      "text": "O astrócito {{c1::protoplasmático}} (prolongamentos curtos) habita a substância cinzenta; o {{c2::fibroso}} (prolongamentos longos) habita a substância branca.",
+      "extra": "A cicatriz do tecido nervoso lesado, formada por astrócitos, chama-se gliose."
+    },
+    {
+      "text": "A <b>mielina</b> é construída no SNC pelo {{c1::oligodendrócito}} (que mieliniza vários axônios de uma vez) e no SNP pela {{c2::célula de Schwann}} (um internódulo de um único axônio).",
+      "extra": "Oligodendrócito é generoso (serve muitos); Schwann é dedicada (serve um só)."
+    },
+    {
+      "text": "O {{c1::<b>nó de Ranvier</b>}} é o intervalo sem mielina, rico em canais de {{c2::sódio}}, onde o potencial de ação se regenera — o que permite a condução {{c3::saltatória}}.",
+      "extra": "A mielina não conduz melhor; ela isola e força o sinal a saltar de nó em nó."
+    },
+    {
+      "text": "No SNP, um axônio <b>amielínico</b> ainda é embrulhado pela célula de Schwann, mas {{c1::sem enrolamento em espiral}} (vários axônios em sulcos da célula).",
+      "extra": "Ter Schwann ao redor não é o mesmo que ter mielina."
+    },
+    {
+      "text": "A <b>microglia</b> é o {{c1::macrófago residente}} do SNC: fagocita restos e microrganismos e dispara a inflamação diante de lesão.",
+      "extra": ""
+    },
+    {
+      "text": "As <b>células ependimárias</b> revestem os {{c1::ventrículos e o canal central}}; onde se especializam sobre capilares formam o {{c2::plexo coroide}}, que produz o liquor.",
+      "extra": "A ependimária comum reveste; o plexo coroide (ependimária modificada) fabrica o líquido."
+    },
+    {
+      "text": "As <b>células satélites</b> envolvem o {{c1::corpo dos neurônios dentro dos gânglios}} (SNP), isolando-os do microambiente.",
+      "extra": "Homônima da célula satélite do músculo, mas sem relação (aquela é célula-tronco)."
+    },
+    {
+      "text": "A substância <b>cinzenta</b> concentra {{c1::corpos celulares, dendritos e sinapses (neurópilo)}} — o processamento; a <b>branca</b> é feita de {{c2::axônios mielinizados}}, cuja mielina lhe dá a cor.",
+      "extra": ""
+    },
+    {
+      "text": "No <b>córtex cerebral</b> a substância cinzenta fica por {{c1::fora}}, organizada em {{c2::seis camadas}} — a citoarquitetura que baseia o mapa de Brodmann.",
+      "extra": ""
+    },
+    {
+      "text": "O córtex do <b>cerebelo</b> tem três camadas: molecular, {{c1::de Purkinje}} (fileira única de células gigantes, a única via de saída) e granular (densa).",
+      "extra": ""
+    },
+    {
+      "text": "Na <b>medula espinal</b> a substância cinzenta fica por {{c1::dentro}}, em forma de {{c2::H (ou borboleta)}}, envolvida pela branca.",
+      "extra": "Regra geral não existe: no córtex a cinzenta é externa, na medula é interna."
+    },
+    {
+      "text": "As três bainhas do nervo periférico são {{c1::endoneuro}} (cada fibra), {{c2::perineuro}} (cada fascículo) e {{c3::epineuro}} (o nervo inteiro, com os vasos).",
+      "extra": "O perineuro, além de embrulhar, é barreira: suas células têm junções oclusivas."
+    },
+    {
+      "text": "O <b>gânglio sensitivo</b> (raiz dorsal) tem neurônios pseudounipolares e {{c1::não faz sinapse}}; o <b>gânglio autônomo</b> tem neurônios multipolares e {{c2::é estação de sinapse}}.",
+      "extra": ""
+    },
+    {
+      "text": "As meninges, de fora para dentro, são {{c1::dura-máter, aracnoide e pia-máter}}; o liquor circula no espaço {{c2::subaracnóideo}}.",
+      "extra": "Liquor é produzido no plexo coroide e amortece o SNC."
+    }
+  ]
+}

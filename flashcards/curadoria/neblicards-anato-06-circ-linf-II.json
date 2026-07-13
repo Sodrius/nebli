@@ -1,0 +1,90 @@
+{
+  "deck": "NEBLI::UC02::P3::Anatomia::Circulatório e linfático II",
+  "slug": "anato-06-circulatorio-linfatico-II",
+  "cards": [
+    {
+      "text": "As duas bombas do coração alimentam dois circuitos em {{c1::série}} (não em paralelo): todo o sangue que sai de um passa pelo outro antes de completar a volta.",
+      "extra": ""
+    },
+    {
+      "text": "O sangue venoso chega ao átrio direito por três portas de entrada: a {{c1::veia cava superior}}, a {{c2::veia cava inferior}} e o {{c3::seio coronário}}.",
+      "extra": "O seio coronário traz o sangue do próprio músculo cardíaco."
+    },
+    {
+      "text": "As artérias coronárias nascem da {{c1::raiz da aorta}}, logo acima da valva aórtica — o coração é o primeiro território que a aorta irriga.",
+      "extra": ""
+    },
+    {
+      "text": "Os três atalhos da circulação fetal são: o {{c1::ducto venoso}} (placenta → VCI, pulando o fígado), o {{c2::forame oval}} (AD → AE, pulando o pulmão) e o {{c3::ducto arterioso}} (tronco pulmonar → aorta).",
+      "extra": "No feto quem oxigena o sangue é a placenta, não o pulmão."
+    },
+    {
+      "text": "Na primeira respiração, a pressão no circuito pulmonar despenca, o sangue flui aos pulmões e os três atalhos fetais se fecham, virando {{c1::cicatrizes fibrosas}}.",
+      "extra": ""
+    },
+    {
+      "text": "A aorta ascendente dá apenas dois ramos, as {{c1::coronárias}}; depois vêm o arco, a aorta descendente torácica, a abdominal e a bifurcação nas {{c2::artérias ilíacas comuns}}.",
+      "extra": ""
+    },
+    {
+      "text": "O princípio que organiza a árvore arterial: cada artéria é nomeada pelo {{c1::território que serve}} (renal → rim, hepática → fígado, esplênica → baço).",
+      "extra": "Não é decoreba de nomes: é um mapa de territórios."
+    },
+    {
+      "text": "Do arco da aorta saem três ramos: o {{c1::tronco braquiocefálico}} (que se divide em carótida comum e subclávia direitas), a carótida comum esquerda e a subclávia esquerda.",
+      "extra": "À direita, um tronco que se parte em dois; à esquerda, os vasos saem separados direto do arco."
+    },
+    {
+      "text": "A artéria subclávia, ao seguir para o membro superior, torna-se {{c1::axilar}}, depois {{c2::braquial}}, e por fim {{c3::radial e ulnar}} no antebraço.",
+      "extra": ""
+    },
+    {
+      "text": "O encéfalo é irrigado por duas fontes — as {{c1::carótidas internas}} (à frente) e as {{c2::artérias vertebrais}} (atrás) — que se unem no {{c3::polígono de Willis}}.",
+      "extra": "O anel é uma anastomose: se uma fonte obstrui, o sangue chega pela outra."
+    },
+    {
+      "text": "Os ramos da aorta se dividem em {{c1::viscerais}} (para órgãos: bronquiais, esofágicas, pericárdicas) e {{c2::parietais}} (para a parede: intercostais posteriores, frênicas superiores).",
+      "extra": "A mesma chave víscera-vs-parede vale no tórax e no abdome."
+    },
+    {
+      "text": "Os três ramos ímpares viscerais da aorta abdominal nutrem o tubo digestivo: {{c1::tronco celíaco}} (fígado, estômago, baço), {{c2::mesentérica superior}} (delgado e cólon direito) e {{c3::mesentérica inferior}} (cólon esquerdo e reto).",
+      "extra": "É o sangue desse território que, na volta, faz o desvio pelo fígado."
+    },
+    {
+      "text": "Os ramos <b>pares</b> da aorta abdominal, que saem lateralmente para órgãos bilaterais, são as artérias {{c1::suprarrenais, renais e gonadais}}.",
+      "extra": ""
+    },
+    {
+      "text": "A aorta bifurca-se nas ilíacas comuns; cada uma se divide em ilíaca {{c1::externa}} (→ artéria femoral, membro inferior) e ilíaca {{c2::interna}} (órgãos da pelve).",
+      "extra": ""
+    },
+    {
+      "text": "As veias dos membros têm três camadas: {{c1::profundas}} (acompanham as artérias), {{c2::superficiais}} (safena magna e parva) e {{c3::perfurantes}} (furam a fáscia, ligando superficial ao profundo).",
+      "extra": "As perfurantes têm válvulas que fazem o sangue correr do superficial para o profundo."
+    },
+    {
+      "text": "Quando as válvulas das veias perfurantes falham, o sangue reflui e se acumula nas veias superficiais, que incham e se tornam tortuosas — as {{c1::varizes}}.",
+      "extra": ""
+    },
+    {
+      "text": "No <b>sistema porta hepática</b>, as veias mesentéricas e a esplênica formam a {{c1::veia porta}}, que entra no fígado antes de o sangue seguir pelas veias hepáticas à VCI.",
+      "extra": "O sangue do tubo digestivo é inspecionado pelo fígado antes de circular pelo corpo."
+    },
+    {
+      "text": "O que torna o sistema porta especial é que o sangue atravessa {{c1::dois leitos capilares em série}}: o do intestino e depois o do fígado.",
+      "extra": "Nenhum outro território faz isso."
+    },
+    {
+      "text": "O <b>sistema ázigo</b>, que sobe pela coluna e desemboca na VCS, funciona como {{c1::ponte colateral entre as duas cavas}}.",
+      "extra": "Mesma ideia da anastomose do polígono de Willis, agora no lado venoso — via de salvamento quando uma cava obstrui."
+    },
+    {
+      "text": "A obstrução da veia cava superior (ex.: tumor no mediastino) causa a <b>síndrome da veia cava superior</b>: {{c1::face e pescoço congestos e veias colaterais dilatadas no tórax}}.",
+      "extra": "As veias dilatadas visíveis são o próprio mecanismo de salvamento (sistema ázigo) em ação."
+    },
+    {
+      "text": "A junção da veia subclávia com a jugular interna, onde os ductos linfáticos devolvem a linfa ao sangue, é o {{c1::ângulo de Pirogoff}} (ângulo venoso).",
+      "extra": "Ducto torácico à esquerda, ducto linfático direito à direita."
+    }
+  ]
+}

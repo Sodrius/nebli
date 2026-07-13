@@ -1,0 +1,106 @@
+{
+  "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+  "slug": "histo-09-vasos-sanguineos-linfaticos",
+  "cards": [
+    {
+      "text": "O sangue percorre um gradiente de pressão {{c1::decrescente}}: artéria → arteríola → capilar → vênula → veia.",
+      "extra": "Começa com muita pressão e muita parede; termina com pouca pressão e quase nenhuma."
+    },
+    {
+      "text": "Diferente do circuito sanguíneo (fechado), o sistema <b>linfático</b> é {{c1::aberto e unidirecional}}: começa em fundo cego e devolve ao sangue o líquido que vazou nos capilares.",
+      "extra": "O líquido captado passa a se chamar linfa."
+    },
+    {
+      "text": "As três túnicas do vaso são, de dentro para fora: {{c1::íntima}} (endotélio), {{c2::média}} (músculo liso/elastina) e {{c3::adventícia}} (conjuntivo).",
+      "extra": "O plano é o mesmo em todo vaso; o que muda é a espessura de cada camada, esculpida pela pressão local."
+    },
+    {
+      "text": "A <b>túnica íntima</b> das artérias termina numa folha de elastina ondulada, a {{c1::lâmina elástica interna}}, que a separa da média.",
+      "extra": ""
+    },
+    {
+      "text": "Os <b>vasa vasorum</b> (vasos dos vasos) nutrem a parede dos vasos calibrosos e são mais numerosos nas {{c1::veias}}.",
+      "extra": "A parede da veia se nutre pior pela luz (sangue pobre em O₂, baixa pressão)."
+    },
+    {
+      "text": "O <b>endotélio</b> é um epitélio {{c1::pavimentoso simples}} alinhado ao fluxo e selado por zônulas de oclusão.",
+      "extra": ""
+    },
+    {
+      "text": "O endotélio libera {{c1::óxido nítrico (NO)}}, que relaxa o músculo liso da média e {{c2::dilata}} o vaso.",
+      "extra": ""
+    },
+    {
+      "text": "O endotélio produz o {{c1::fator de von Willebrand}}, que ajuda as plaquetas a aderirem quando o vaso se rompe.",
+      "extra": ""
+    },
+    {
+      "text": "A placa de <b>aterosclerose</b> começa no {{c1::endotélio lesado}} (por hipertensão, tabagismo, colesterol).",
+      "extra": "A doença mais comum das artérias nasce na célula mais fina do vaso."
+    },
+    {
+      "text": "A <b>artéria elástica</b> (aorta, carótida) tem a média dominada por {{c1::lâminas de elastina fenestradas}} e amortece o pulso (efeito {{c2::Windkessel}}).",
+      "extra": "Estica na sístole e recua na diástole, transformando fluxo pulsátil em contínuo."
+    },
+    {
+      "text": "A <b>artéria muscular</b> (radial, tibial, esplênica) tem a média dominada por {{c1::músculo liso}} e {{c2::regula o calibre}}, distribuindo o sangue.",
+      "extra": "O componente que dá nome à artéria é sempre o da túnica média."
+    },
+    {
+      "text": "O método de coloração que revela a elastina (distinguindo artéria elástica da muscular) é o de {{c1::Weigert}}.",
+      "extra": "As lâminas saltam à vista como linhas escuras empilhadas."
+    },
+    {
+      "text": "A <b>arteríola</b> (< 0,5 mm) é a torneira da pressão: seu músculo liso ajusta a {{c1::resistência periférica}} e, com ela, a pressão arterial.",
+      "extra": "Marca visual: parede quase tão espessa quanto a luz é larga."
+    },
+    {
+      "text": "Na entrada do leito capilar, o {{c1::esfíncter pré-capilar}} abre e fecha o fluxo, banhando os capilares em ondas conforme a necessidade local.",
+      "extra": "Vaso curto de músculo liso esparso na transição = metarteríola."
+    },
+    {
+      "text": "No <b>sistema porta</b> o sangue atravessa {{c1::dois leitos capilares em série}}: é venoso no fígado (veia porta) e arterial no {{c2::glomérulo do rim}}.",
+      "extra": ""
+    },
+    {
+      "text": "O <b>capilar</b> é o vaso reduzido ao mínimo: só {{c1::endotélio + lâmina basal}}, sem média nem adventícia — a parede mais fina possível para a troca.",
+      "extra": "Por fora, os pericitos dão sustentação e participam do reparo."
+    },
+    {
+      "text": "O <b>capilar contínuo</b> tem endotélio sem poros e lâmina basal contínua; predomina no {{c1::músculo, tecido nervoso e conjuntivo}}.",
+      "extra": "O padrão hermético."
+    },
+    {
+      "text": "O <b>capilar fenestrado</b> tem endotélio com {{c1::poros (fenestrações)}} mas lâmina basal {{c2::contínua}}; predomina no rim, intestino e glândulas endócrinas.",
+      "extra": "Filtra/absorve depressa sem deixar escapar células."
+    },
+    {
+      "text": "O <b>capilar sinusoide</b> tem endotélio fenestrado E lâmina basal {{c1::descontínua}}, deixando passar até {{c2::células inteiras}}; está no fígado e órgãos hemocitopoéticos.",
+      "extra": ""
+    },
+    {
+      "text": "O que separa o capilar fenestrado do sinusoide é a {{c1::lâmina basal}}: contínua no fenestrado, descontínua no sinusoide.",
+      "extra": "Ambos têm endotélio fenestrado — olhar só o endotélio confunde."
+    },
+    {
+      "text": "A <b>veia</b> é a parede de três túnicas sob baixa pressão: {{c1::sem lâmina elástica}}, média escassa, adventícia espessa e luz ampla.",
+      "extra": "O oposto da artéria de mesmo calibre (parede grossa, luz pequena e redonda)."
+    },
+    {
+      "text": "As <b>válvulas venosas</b> são dobras da {{c1::túnica íntima}} em meia-lua; impedem o refluxo, mas quem impulsiona o sangue é a {{c2::bomba muscular}} esquelética.",
+      "extra": "Válvula incompetente → refluxo → varizes."
+    },
+    {
+      "text": "O <b>capilar linfático</b> começa em fundo cego e é permeável justamente por {{c1::não ter junções de oclusão}} (abas sobrepostas + filamentos de ancoragem).",
+      "extra": "Deixa entrar líquido, proteínas grandes e células — o que o capilar sanguíneo, selado, não permite."
+    },
+    {
+      "text": "O <b>vaso linfático</b> lembra uma veia, mas com túnicas mal delimitadas e um número {{c1::maior de válvulas}}, pois a linfa flui sem coração para empurrá-la.",
+      "extra": "A linfa é filtrada nos linfonodos e devolvida ao sangue pelo ducto torácico."
+    },
+    {
+      "text": "O sistema linfático está ausente em cinco locais: {{c1::SNC, medula óssea, cartilagem, osso e placenta}}.",
+      "extra": "Onde não há linfático, o excesso de líquido é drenado de outro jeito."
+    }
+  ]
+}

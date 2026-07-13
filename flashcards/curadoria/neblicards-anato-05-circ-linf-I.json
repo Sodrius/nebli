@@ -1,0 +1,118 @@
+{
+  "deck": "NEBLI::UC02::P3::Anatomia::Circulatório e linfático I",
+  "slug": "anato-05-circulatorio-linfatico-I",
+  "cards": [
+    {
+      "text": "O lado <b>direito</b> do coração bombeia o sangue para a circulação {{c1::pulmonar}} (pequena); o lado <b>esquerdo</b>, para a {{c2::sistêmica}} (grande).",
+      "extra": "O esquerdo trabalha sob pressão muito maior — por isso sua parede é mais espessa."
+    },
+    {
+      "text": "A <b>artéria pulmonar</b> carrega sangue {{c1::desoxigenado}} e as <b>veias pulmonares</b> carregam sangue {{c2::oxigenado}} — a direção do fluxo define o nome do vaso, não o oxigênio.",
+      "extra": "Artéria sai do coração; veia volta a ele."
+    },
+    {
+      "text": "O coração ocupa o mediastino {{c1::médio}}, envolto pelo saco pericárdico.",
+      "extra": "O mediastino divide-se pelo ângulo esternal em superior e inferior (este em anterior, médio e posterior)."
+    },
+    {
+      "text": "O coração não é centrado: cerca de {{c1::um terço}} fica à direita da linha média e {{c2::dois terços}} à esquerda.",
+      "extra": "Por isso sentimos o coração \"do lado esquerdo\"."
+    },
+    {
+      "text": "A <b>base</b> do coração (superior e posterior) é formada pelos {{c1::átrios}} e é de onde emergem os grandes vasos; o <b>ápice</b> (inferior e à esquerda) é a ponta do {{c2::ventrículo esquerdo}}.",
+      "extra": ""
+    },
+    {
+      "text": "A face <b>esternocostal</b> (anterior) do coração é formada sobretudo pelo {{c1::ventrículo direito}}; já a margem pulmonar direita é formada pelo {{c2::átrio direito}}.",
+      "extra": "Trocar átrio por ventrículo aqui é erro clássico de identificação rápida."
+    },
+    {
+      "text": "O <b>sulco coronário</b> (atrioventricular) separa os {{c1::átrios dos ventrículos}}; os sulcos interventriculares marcam o septo. Dentro deles correm as {{c2::artérias coronárias}}.",
+      "extra": ""
+    },
+    {
+      "text": "O pericárdio tem uma camada <b>fibrosa</b> externa (inelástica) e uma <b>serosa</b>, dobrada em lâmina parietal e lâmina visceral; esta última, colada ao coração, chama-se {{c1::epicárdio}}.",
+      "extra": "Entre as lâminas fica a cavidade pericárdica com líquido lubrificante."
+    },
+    {
+      "text": "Como o pericárdio fibroso não estica, um acúmulo rápido de líquido na cavidade comprime o coração — o {{c1::tamponamento cardíaco}}.",
+      "extra": "A mesma inelasticidade que ancora o coração o torna vulnerável quando o espaço é invadido."
+    },
+    {
+      "text": "As câmaras superiores ({{c1::átrios}}) são receptoras; as inferiores ({{c2::ventrículos}}) são de bombeamento.",
+      "extra": "Receber em cima, bombear embaixo."
+    },
+    {
+      "text": "A parede do <b>ventrículo esquerdo</b> é muito mais espessa que a do direito porque ele bombeia contra a {{c1::circulação sistêmica}} (alta pressão).",
+      "extra": "A espessura é o registro anatômico da carga de pressão."
+    },
+    {
+      "text": "As três camadas da parede cardíaca, de dentro para fora, são {{c1::endocárdio}}, {{c2::miocárdio}} (≈95% da espessura) e {{c3::epicárdio}}.",
+      "extra": ""
+    },
+    {
+      "text": "No interior do ventrículo, as trabéculas cárneas e os músculos papilares são de {{c1::miocárdio}}, mas as cordas tendíneas são de {{c2::tecido conjuntivo}}.",
+      "extra": "Distinção que importa para entender como a valva não vira do avesso."
+    },
+    {
+      "text": "A valva atrioventricular direita tem três cúspides ({{c1::tricúspide}}, AD→VD); a esquerda tem duas ({{c2::bicúspide ou mitral}}, AE→VE).",
+      "extra": "Duas do lado esquerdo, três do direito."
+    },
+    {
+      "text": "Na sístole, os músculos papilares se contraem e tracionam as {{c1::cordas tendíneas}}, segurando as cúspides da valva AV para que não desabem no átrio.",
+      "extra": "Se uma corda se rompe, a cúspide vira e surge o sopro da insuficiência valvar."
+    },
+    {
+      "text": "As <b>valvas semilunares</b> (aórtica e pulmonar) não têm {{c1::cordas tendíneas nem músculos papilares}}: seu formato em ninho sela a passagem passivamente.",
+      "extra": "Dar cordas às semilunares é erro comum — só as atrioventriculares têm esse aparelho."
+    },
+    {
+      "text": "Os óstios das artérias coronárias abrem-se atrás das cúspides da valva {{c1::aórtica}}; por isso o coração se irriga sobretudo na {{c2::diástole}}, quando o refluxo enche as coronárias.",
+      "extra": "O coração se alimenta quando descansa, não quando se contrai."
+    },
+    {
+      "text": "O <b>esqueleto fibroso</b> do coração fixa as valvas, evita a dilatação das aberturas e {{c1::isola eletricamente os átrios dos ventrículos}}.",
+      "extra": "É conjuntivo denso, não osso; obriga o impulso a passar por um único ponto de condução."
+    },
+    {
+      "text": "A primeira bulha cardíaca (\"tum\") vem do fechamento das valvas {{c1::atrioventriculares}}; a segunda (\"tá\"), do fechamento das {{c2::semilunares}}.",
+      "extra": ""
+    },
+    {
+      "text": "O sangue venoso do coração é recolhido pelo {{c1::seio coronário}}, grande coletor no sulco coronário posterior que desemboca direto no {{c2::átrio direito}}.",
+      "extra": ""
+    },
+    {
+      "text": "Do arco da aorta, à <b>direita</b> sai o {{c1::tronco braquiocefálico}} (que se divide em carótida comum e subclávia direitas); à <b>esquerda</b>, a carótida comum e a subclávia saem {{c2::diretamente}} do arco.",
+      "extra": "O tronco braquiocefálico existe só do lado direito."
+    },
+    {
+      "text": "As veias cavas superior e inferior devolvem o sangue sistêmico ao {{c1::átrio direito}}; as quatro veias pulmonares trazem o sangue oxigenado ao {{c2::átrio esquerdo}}.",
+      "extra": ""
+    },
+    {
+      "text": "As <b>anastomoses arteriovenosas</b>, ligações diretas entre arteríola e vênula que saltam o capilar, servem sobretudo à regulação da {{c1::temperatura}}.",
+      "extra": "Abundantes na pele das extremidades e mucosas."
+    },
+    {
+      "text": "A maior parte do volume sanguíneo (≈{{c1::64%}}) está a qualquer momento no sistema {{c2::venoso}}.",
+      "extra": "A veia é ao mesmo tempo caminho de volta e grande reservatório."
+    },
+    {
+      "text": "O <b>ducto torácico</b>, maior vaso linfático do corpo, nasce na {{c1::cisterna do quilo}} e drena quase todo o corpo, exceto o {{c2::quadrante superior direito}}.",
+      "extra": ""
+    },
+    {
+      "text": "O quadrante superior direito do corpo é drenado pelo {{c1::ducto linfático direito}}; ambos os ductos devolvem a linfa ao sangue no ângulo entre as veias {{c2::subclávia e jugular interna}}.",
+      "extra": ""
+    },
+    {
+      "text": "Os vasos linfáticos intestinais (<b>vasos lácteos</b>) transportam os lipídios e as vitaminas lipossolúveis ({{c1::A, D, E e K}}), dando à linfa um aspecto leitoso chamado {{c2::quilo}}.",
+      "extra": ""
+    },
+    {
+      "text": "Não têm vasos linfáticos (são avasculares para a linfa): {{c1::cartilagem, epiderme, córnea e a polpa do bulbo ocular}}.",
+      "extra": ""
+    }
+  ]
+}
