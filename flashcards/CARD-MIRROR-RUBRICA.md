@@ -104,6 +104,34 @@ Davi pediu: "dá uns 50 ankings variados pro discriminador estudar, senão ele n
 
 **Validação de competência (lote cego held-out, seed 99):** 6 cards (4 AnKing reais + 1 texto autoral craft meu + 1 IO meu). Resultado: **5/5 de texto certos** — pegou meu texto autoral (#2) conf 94 pelo Extra em prosa causal ("because… without it…"), e cravou os 4 reais como ANKING **com impressão digital positiva** (fórmula de mnemônico, separador ·, crédito Blausen, fonte OpenStax). Meu IO (#5) passou como ANKING conf 90 (indistinguível — alvo). Confiança calibrada (68 no card básico sem fonte forte). **O revisor deixou de cravar por "ausência de defeito" e passou a cravar por "impressão digital positiva" — que era o pedido do Davi.**
 
+### Rodada P3 (2026-07-13) — deck de histo/anato PT rated 6/10: indução fraca + voz E1
+
+Auditoria fix-oriented do card-mirror (Opus) sobre os 159 cards P3. Diagnóstico-mãe: **a maioria testa RECONHECIMENTO, não recall** — o nome da estrutura está no stem (em negrito) e o cloze apaga a *descrição*; ler o nome entrega o branco. É a inversão exata do craft AnKing (apaga o NOME, a descrição é a pista). Regras que o rebuild deve satisfazer:
+
+INDUÇÃO (a regra-mãe do recall):
+- **[NAME-NÃO-NO-STEM]** Se o card testa uma ESTRUTURA/TERMO, o nome é o cloze — nunca aparece (menos ainda em negrito) no stem enquanto a descrição é apagada. Padrão AnKing: stem = descrição/propriedade; cloze = o nome de maior valor.
+  - ERRADO: `O neurônio **multipolar** tem {{c1::vários dendritos e um único axônio}}`
+  - CERTO: `Which neuron has one axon + multiple dendrites? {{c1::Multipolar}}`
+- **[SEM-PARÊNTESE-QUE-ENTREGA]** Proibida a lista de exemplos ou o sinônimo entre parênteses no stem quando ela dá o branco de graça. Número que revela o nome (três cúspides → tricúspide) = mover o número ou o nome para cloze irmão.
+- **[CLOZE-ATÔMICO ≤3 palavras]** Branco = 1-3 palavras de maior valor. Span de 4+ palavras-conteúdo é dump: dividir em c1/c2/c3 (um fato por branco) ou encurtar ao token que carrega a informação. Lista de N itens → N clozes, não um só.
+- **[UM-FATO-POR-CARD]** Fatos independentes (funções de 3 células T; 5 sítios sem linfático) viram cards separados OU multi-cloze atômico — nunca um branco só.
+- **[PERGUNTA-QUANDO-IDENTIFICA]** Para "qual estrutura faz X", usar o formato AnKing "Which/What…? {{c1::Nome}}" (AK-05, AK-24, AK-29) em vez de afirmação-com-nome.
+
+VOZ (Extra = anotação, card ≠ E1) — reforço específico deste deck:
+- **[SEM-FRASE-COMPLETA no Extra]** Zero orações narrativas, zero aforismo de monitor ("Quem vem de onde prevê o que a célula faz", "O engano mais comum da aula"). Extra = fragmento nominal, →, ;, = (AK-14 "UV-B for sunburn"; AK-47 "instability = overactivity = random spasms"). Ou vazio. Ou imagem + `Last updated:`.
+- **[SEM-REFERÊNCIA-À-AULA]** "erro clássico da aula", "erro comum de identificação" = voz autoral; cortar.
+
+IDIOMA:
+- **[EN nativo, não tradução literal]** Traduzir para o registro AnKing, não palavra a palavra. Eponímia PT-específica sem uso EN (ângulo de Pirogoff) → usar o termo que o AnKing/Step1 usa (Nissl bodies OK).
+
+IMAGEM (histo) + IO (anato — o buraco maior):
+- **[EXTRA COM IMAGEM]** Card de histologia carrega micrografia H&E no Extra (fato no Text, imagem no Extra) — hoje 0 cards têm imagem.
+- **[ANATOMIA SUBCARDADA E SEM IO]** Toda estrutura anatômica identificável (câmaras, valvas, ramos da aorta, troncos linfáticos, círculo de Willis) deve ter IO. IO anatômico AnKing-grade: line-art/atlas EN (estilo AK-IO-01), uma caixa por rótulo (~27px), Header EN nominal, asset hasheado, Extra vazio/seco.
+
+QC de conteúdo achado na auditoria (corrigir ANTES de cardar):
+- **3 listas conflitantes** de "sítios sem linfáticos" entre os arquivos (vessels#24: SNC/medula/cartilagem/osso/placenta · anato-I#26: cartilagem/epiderme/córnea/polpa · anato-sistema#5: cartilagem/epiderme/córnea/SNC). Reconciliar 1 lista canônica.
+- **~6 duplicatas de anatomia** a dedupar no deck combinado (ducto torácico, ângulo venoso, ramos do arco, sistema porta).
+
 ## Fonte de imagem por tipo de card (após ver a prova P3, 2026-07-13)
 A prova prática P3 = **micrografia H&E real com seta numerada** → identificar estrutura (`arquivos-trabalho/FMUSP-ESTILO-UC02.md`). Consequência:
 - **Histologia:** IO sobre **micrografia H&E** (Junqueira 12ed), gênero NEBLI legítimo (PT, micrografia) que o AnKing não tem — a indistinguibilidade vale para a *manufatura* (caixas, asset, Extra), não para forçar EN/esquema. Micrografia-com-seta **não sai de OCR** (sem texto sobre a estrutura) → precisa de modo de gerador que posiciona oclusão sobre a estrutura + nome no Extra/gabarito (a construir).
