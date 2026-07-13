@@ -1,0 +1,25 @@
+1 | O sangue percorre um gradiente de pressão {{c1::decrescente}}: artéria → arteríola → capilar → vênula → veia. ||E: Começa com muita pressão e muita parede; termina com pouca pressão e quase nenhuma.
+2 | Diferente do circuito sanguíneo (fechado), o sistema <b>linfático</b> é {{c1::aberto e unidirecional}}: começa em fundo cego e devolve ao sangue o líquido que vazou nos capilares. ||E: O líquido captado passa a se chamar linfa.
+3 | As três túnicas do vaso são, de dentro para fora: {{c1::íntima}} (endotélio), {{c2::média}} (músculo liso/elastina) e {{c3::adventícia}} (conjuntivo). ||E: O plano é o mesmo em todo vaso; o que muda é a espessura de cada camada, esculpida pela pressão local.
+4 | A <b>túnica íntima</b> das artérias termina numa folha de elastina ondulada, a {{c1::lâmina elástica interna}}, que a separa da média. ||E: 
+5 | Os <b>vasa vasorum</b> (vasos dos vasos) nutrem a parede dos vasos calibrosos e são mais numerosos nas {{c1::veias}}. ||E: A parede da veia se nutre pior pela luz (sangue pobre em O₂, baixa pressão).
+6 | O <b>endotélio</b> é um epitélio {{c1::pavimentoso simples}} alinhado ao fluxo e selado por zônulas de oclusão. ||E: 
+7 | O endotélio libera {{c1::óxido nítrico (NO)}}, que relaxa o músculo liso da média e {{c2::dilata}} o vaso. ||E: 
+8 | O endotélio produz o {{c1::fator de von Willebrand}}, que ajuda as plaquetas a aderirem quando o vaso se rompe. ||E: 
+9 | A placa de <b>aterosclerose</b> começa no {{c1::endotélio lesado}} (por hipertensão, tabagismo, colesterol). ||E: A doença mais comum das artérias nasce na célula mais fina do vaso.
+10 | A <b>artéria elástica</b> (aorta, carótida) tem a média dominada por {{c1::lâminas de elastina fenestradas}} e amortece o pulso (efeito {{c2::Windkessel}}). ||E: Estica na sístole e recua na diástole, transformando fluxo pulsátil em contínuo.
+11 | A <b>artéria muscular</b> (radial, tibial, esplênica) tem a média dominada por {{c1::músculo liso}} e {{c2::regula o calibre}}, distribuindo o sangue. ||E: O componente que dá nome à artéria é sempre o da túnica média.
+12 | O método de coloração que revela a elastina (distinguindo artéria elástica da muscular) é o de {{c1::Weigert}}. ||E: As lâminas saltam à vista como linhas escuras empilhadas.
+13 | A <b>arteríola</b> (< 0,5 mm) é a torneira da pressão: seu músculo liso ajusta a {{c1::resistência periférica}} e, com ela, a pressão arterial. ||E: Marca visual: parede quase tão espessa quanto a luz é larga.
+14 | Na entrada do leito capilar, o {{c1::esfíncter pré-capilar}} abre e fecha o fluxo, banhando os capilares em ondas conforme a necessidade local. ||E: Vaso curto de músculo liso esparso na transição = metarteríola.
+15 | No <b>sistema porta</b> o sangue atravessa {{c1::dois leitos capilares em série}}: é venoso no fígado (veia porta) e arterial no {{c2::glomérulo do rim}}. ||E: 
+16 | O <b>capilar</b> é o vaso reduzido ao mínimo: só {{c1::endotélio + lâmina basal}}, sem média nem adventícia — a parede mais fina possível para a troca. ||E: Por fora, os pericitos dão sustentação e participam do reparo.
+17 | O <b>capilar contínuo</b> tem endotélio sem poros e lâmina basal contínua; predomina no {{c1::músculo, tecido nervoso e conjuntivo}}. ||E: O padrão hermético.
+18 | O <b>capilar fenestrado</b> tem endotélio com {{c1::poros (fenestrações)}} mas lâmina basal {{c2::contínua}}; predomina no rim, intestino e glândulas endócrinas. ||E: Filtra/absorve depressa sem deixar escapar células.
+19 | O <b>capilar sinusoide</b> tem endotélio fenestrado E lâmina basal {{c1::descontínua}}, deixando passar até {{c2::células inteiras}}; está no fígado e órgãos hemocitopoéticos. ||E: 
+20 | O que separa o capilar fenestrado do sinusoide é a {{c1::lâmina basal}}: contínua no fenestrado, descontínua no sinusoide. ||E: Ambos têm endotélio fenestrado — olhar só o endotélio confunde.
+21 | A <b>veia</b> é a parede de três túnicas sob baixa pressão: {{c1::sem lâmina elástica}}, média escassa, adventícia espessa e luz ampla. ||E: O oposto da artéria de mesmo calibre (parede grossa, luz pequena e redonda).
+22 | As <b>válvulas venosas</b> são dobras da {{c1::túnica íntima}} em meia-lua; impedem o refluxo, mas quem impulsiona o sangue é a {{c2::bomba muscular}} esquelética. ||E: Válvula incompetente → refluxo → varizes.
+23 | O <b>capilar linfático</b> começa em fundo cego e é permeável justamente por {{c1::não ter junções de oclusão}} (abas sobrepostas + filamentos de ancoragem). ||E: Deixa entrar líquido, proteínas grandes e células — o que o capilar sanguíneo, selado, não permite.
+24 | O <b>vaso linfático</b> lembra uma veia, mas com túnicas mal delimitadas e um número {{c1::maior de válvulas}}, pois a linfa flui sem coração para empurrá-la. ||E: A linfa é filtrada nos linfonodos e devolvida ao sangue pelo ducto torácico.
+25 | O sistema linfático está ausente em cinco locais: {{c1::SNC, medula óssea, cartilagem, osso e placenta}}. ||E: Onde não há linfático, o excesso de líquido é drenado de outro jeito.
