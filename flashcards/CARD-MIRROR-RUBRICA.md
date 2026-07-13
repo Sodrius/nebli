@@ -93,3 +93,19 @@ Um NEBLIcard passa se:
 | 1 | 5/5 | ~85% | 0 | distinguível (tells estruturais) |
 | 2 | 5/5 | ~80% | 0 | distinguível (só o verso) |
 | 3 | 5/5 (chute) | ~65% | 2 | ≈ indistinguível (resíduo inerente ao conteúdo) |
+
+## Set de calibração de 50 AnKings + validação de competência (2026-07-13)
+Davi pediu: "dá uns 50 ankings variados pro discriminador estudar, senão ele não sabe o que é AnKing". Feito:
+- **`flashcards/ANKING-DOSSIE-TEXTO.md`** — 50 cards AnKing reais, estratificados por 17 buckets (FirstAid, UWorld, B&B, Physeo, Pixorize, AMBOSS, Sketchy, OME, Bootcamp, Step1+Step2). Gerado por `flashcards/scripts/extrair_dossie_anking.py` (seed 42).
+- **`flashcards/ANKING-DOSSIE-IO.md`** — 5 IO reais + imagens exportadas em `arquivos-trabalho/io/anking/`. AK-IO-01 é anatômico (ramos da a. maxilar, line-art EN) — prova que IO de anatomia AnKing é vetorial, não foto.
+- card-mirror § PASSO 0 agora **obriga ler os dois dossiês antes de julgar** (julgar de memória = inválido).
+
+**Correção de rubrica forçada pelos exemplares:** a regra "Wikimedia/Blausen = suspeito de autoral" estava ERRADA. O AnKing USA Wikimedia/OpenStax/Blausen — o tell é a **linha de crédito formatada** (`Photo credit: <autor>, CC BY-…, via Wikimedia Commons`), não a fonte. Card com imagem de banco público SEM linha de crédito = autoral. (Confirmado por HELDOUT-1 e HELDOUT-3, ambos AnKing com Blausen/Wikimedia + crédito.)
+
+**Validação de competência (lote cego held-out, seed 99):** 6 cards (4 AnKing reais + 1 texto autoral craft meu + 1 IO meu). Resultado: **5/5 de texto certos** — pegou meu texto autoral (#2) conf 94 pelo Extra em prosa causal ("because… without it…"), e cravou os 4 reais como ANKING **com impressão digital positiva** (fórmula de mnemônico, separador ·, crédito Blausen, fonte OpenStax). Meu IO (#5) passou como ANKING conf 90 (indistinguível — alvo). Confiança calibrada (68 no card básico sem fonte forte). **O revisor deixou de cravar por "ausência de defeito" e passou a cravar por "impressão digital positiva" — que era o pedido do Davi.**
+
+## Fonte de imagem por tipo de card (após ver a prova P3, 2026-07-13)
+A prova prática P3 = **micrografia H&E real com seta numerada** → identificar estrutura (`arquivos-trabalho/FMUSP-ESTILO-UC02.md`). Consequência:
+- **Histologia:** IO sobre **micrografia H&E** (Junqueira 12ed), gênero NEBLI legítimo (PT, micrografia) que o AnKing não tem — a indistinguibilidade vale para a *manufatura* (caixas, asset, Extra), não para forçar EN/esquema. Micrografia-com-seta **não sai de OCR** (sem texto sobre a estrutura) → precisa de modo de gerador que posiciona oclusão sobre a estrutura + nome no Extra/gabarito (a construir).
+- **Anatomia:** line-art/atlas EN (estilo AK-IO-01) — OCR funciona.
+- **Embriologia:** cloze de texto (AnKing cobre) + IO de corte transversal para fases esquemáticas.

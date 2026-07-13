@@ -64,3 +64,11 @@ Probe do AnKing pra Tecido nervoso (histologia): tipos de neurônio=0, transport
 - Profundidade elevada + dial `profundidade` + blocos clínicos maiores + bloco roxo (`CLAUDE.md` § Profundidade).
 - Estrutura Anki `NEBLI::UC::Prova::Componente::Aula`; AnKing 100% suspenso como referência.
 - Bandeiras (vermelha explica+suspende / laranja re-julga / verde exemplar); Ctrl+1 consertado.
+
+## PROGRESSO (2026-07-13) — discriminador competente + calibração pela prova
+- **Discriminador endurecido e VALIDADO** (era o pedido "o revisor está fraco"). PASSO 0 obriga estudar 50 AnKings reais (`flashcards/ANKING-DOSSIE-TEXTO.md`) + 5 IO com imagem (`ANKING-DOSSIE-IO.md`) antes de julgar. Gerador: `flashcards/scripts/extrair_dossie_anking.py`. Validação held-out: pegou autoral de texto (conf 94), passou IO indistinguível (conf 90), cravou reais por impressão digital positiva.
+- **Regra de proveniência CORRIGIDA:** AnKing usa Wikimedia/Blausen/OpenStax; o tell é a **linha de crédito**, não a fonte.
+- **Prova P3 lida (visão):** micrografia H&E + seta numerada = identificar estrutura. → IO de histologia = **micrografia do Junqueira** (`slides/Cópia de Junqueira Histologia 12ed.pdf`), não esquema. Calibração em `arquivos-trabalho/FMUSP-ESTILO-UC02.md`.
+- **Sync AnkiWeb feito** (82 cards P3 no celular). Embrio I (40) + Embrio II-III (41) já aplicados de antes (TESTE — re-curar sério pendente).
+- **FALTA (próxima sessão):** modo gerador micrografia-com-seta (sem OCR) → curar as 3 histo (vasos, nervoso, linfoide) na sessão principal; anato via line-art web; instalar poppler p/ ler P1/P2/P4 e extrair lista de estruturas cobradas; apkg + Drive por aula.
+- **Provas** em `slides/UC02/P1-P4/` (scans) e **livro Junqueira** em `slides/`.

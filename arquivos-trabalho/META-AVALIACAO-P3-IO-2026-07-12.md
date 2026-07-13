@@ -41,3 +41,28 @@ Fable 5 é o motor de **throughput com spec fechada**. Onde ele muda o jogo aqui
 
 ## 4. Próximo passo recomendado (8 aulas)
 Ordem do plano: Embrio I → Embrio II-III (curadoria AnKing, firmam template) → histo (nervoso/vasos/linfoide, IO+NEBLIcard) → anato (I-p1/I-p2/II). Com a máquina pronta, cada aula = recon (feito) → curar/gerar → gate B2 → revisor-completude → apply → apkg → Drive. Melhor rodar **1 aula por subagente-executor** para não estourar contexto.
+
+---
+# Sessão 2026-07-13 — discriminador competente + calibração pela prova
+
+## O que foi entregue de real
+1. **Discriminador de fato competente** (o pedido central do Davi: "o revisor deve estar fraco"). Antes cravava AnKing por *ausência de defeito*; agora, munido de 50 exemplares reais estratificados (`ANKING-DOSSIE-TEXTO.md`) + 5 IO com imagem (`ANKING-DOSSIE-IO.md`), crava por **impressão digital positiva** e calibra confiança. Validado em lote cego held-out: 5/5 de texto, pegou o autoral craft (conf 94), passou o IO indistinguível (conf 90).
+2. **Correção de rubrica que só apareceu com dados reais:** "Wikimedia/Blausen = autoral" estava errado; o tell é a **linha de crédito**, não a fonte. Teria feito o discriminador errar cards AnKing legítimos.
+3. **Calibração pela prova:** P3 = micrografia H&E + seta numerada → fonte do IO de histologia é **micrografia (Junqueira)**, não esquema. Muda a estratégia de imagem.
+4. **Sync AnkiWeb** feito (82 cards P3 no celular).
+
+## Avaliação REAL de modelo por etapa (revisada com o que aconteceu)
+| Etapa | Modelo certo | Evidência desta sessão |
+|---|---|---|
+| Endurecer rubrica + PASSO 0 + achar a correção da regra de proveniência | **Opus** | Exigiu ver que "ausência de defeito ≠ AnKing" e inferir a regra da linha-de-crédito a partir de exemplares — raciocínio, não checklist. |
+| Discriminar lote cego (card-mirror) | **Sonnet** | O subagente Sonnet leu 50+5 exemplares, deu tells precisos, calibrou confiança e rankeou o mais suspeito. Perfeito para julgamento por exemplar. |
+| Extrair dossiê / OCR / extrair figura de PDF / sync | **sem LLM** | Scripts determinísticos (`extrair_dossie_anking.py`, pypdf, AnkiConnect). |
+| Gerar 25-35 NEBLIcards/aula depois da rubrica travada | **Fable 5** | Spec fechada + volume + repetição — o caso de uso do Fable. NÃO usar Fable no julgamento sutil nem no gate B2. |
+| Ler prova escaneada (visão) | **Sonnet/Opus com visão** | Uma imagem bastou para recalibrar a fonte de imagem inteira. Alto valor por token. |
+
+## Como melhorar o processo (achados reais)
+1. **O dossiê de 50 é reutilizável e barato** — deveria ser pré-requisito PERMANENTE do card-mirror (já está no PASSO 0). Regenerar quando o AnKing v12 atualizar.
+2. **Provas são scans → precisam de poppler/OCR** para leitura em massa. Instalar poppler destrava estudar P1/P2/P4 e extrair a lista histórica de estruturas cobradas (vira o checklist de prioridade dos IO).
+3. **Micrografia-com-seta é um modo de gerador novo** (sem OCR): posiciona oclusão sobre a estrutura + nome no Extra. É o formato que mais transfere para a prova FMUSP. Construir antes de curar as 3 aulas de histologia.
+4. **Divisão de trabalho honesta:** subagente cura AnKing (keep/drop) bem; **NEBLIcard/IO exige o loop card-mirror da sessão principal** (subagente não spawna subagente). Logo histo/anato (AnKing-pobres, NEBLIcard-heavy) são trabalho da sessão principal, uma aula por vez; só Embrio é delegável.
+5. **Escopo honesto:** "curar 8 aulas + IO + apkg + Drive + provas + avaliação" é multi-sessão. Melhor entregar 1 aula completa + infra sólida do que 8 pela metade.
