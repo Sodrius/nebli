@@ -62,9 +62,19 @@ Nem todo deck importado é craft AnKing. Descoberto ao inspecionar via AnkiConne
 - [x] Drive limpo dos .apkg P3 (melhorar antes de voltar).
 - [x] Lição de indução gravada em `regras-neblicard-anking-nivel` + `CARD-MIRROR-RUBRICA` § Rodada P3.
 - [x] 5 decks de referência confirmados vivos via AnkiConnect + tierados.
-- [~] Curar **Histologia dos vasos** (piloto do fluxo curar-real):
-  - [x] **6 cards LLU (ouro)** tagueados `NEBLI::histo-09-vasos` + `NEBLI::from-LLU`: elastic artery (gross+mag), muscular artery (gross+mag), vein (gross+mag) — micrografia real, cloze apaga o nome. Backbone visual da aula.
-  - [ ] **Resíduo a preencher** (conceitos da E1 que LLU não cobre): túnicas íntima/média/adventícia (camadas + lâmina elástica interna/externa), tipos de capilar (contínuo/fenestrado/sinusoide), vasa vasorum, efeito Windkessel, válvulas venosas/bomba muscular, pericito. Fonte: ploirodon filtrado pelo gate de indução OU autoral corrigido (apagar o nome, atomizar).
-  - Nota: cards LLU extras vistos e roteados pra outras aulas — umbilical cord → circ fetal (anato-II); AV-valve vs semilunar → coração (anato-I).
-- [ ] Escalar às outras 7 aulas.
-- [ ] IO anatomia (OpenStax) + embrio IO.
+- [x] **Helper de assembly `flashcards/scripts/montar_deck_aula.py`** — copia cards reais tagueados NEBLI::<slug> para o deck-aula (deixa fonte intacta) + exportPackage. **Candidato 12: virar passo canônico do pipeline de deck-aula.**
+- [x] **8 deck-aulas P3 REBUILDADOS e exportados** (`flashcards/decks-apkg/`), fluxo curar-real > autorar:
+  | Aula | Cards | Reais curados | Autorais EN |
+  |---|---|---|---|
+  | Tecido nervoso | 36 | 1 IO neurônio | 35 |
+  | Histologia dos vasos | 30 | 6 LLU micrografia | 24 |
+  | Histologia órgãos linfáticos | 37 | 8 LLU micrografia | 29 |
+  | Circulatório e linfático I (coração) | 35 | 7 Dope Netter IO | 28 |
+  | Sistema linfático (pt2) | 16 | 0 | 16 |
+  | Circulatório e linfático II | 23 | 3 Dope Netter IO | 20 |
+  | Embriologia I | 31 | 31 AnKing (já EN/bar) | 0 |
+  | Embriologia II e III | 37 | 37 AnKing (já EN/bar) | 0 |
+  - Todos EN; indução invertida (apaga o nome); clozes atomizados; Extra telegráfico; lista "sem linfáticos" reconciliada (CNS/medula/cartilagem/osso/epitélios) e dedupada via Anki (cross-deck duplicate barrado).
+- [ ] **Gate final card-mirror** (validação cega dos autorais EN) ANTES de voltar ao Drive — pedido original do Davi "passe todos pelo crivo". Não re-subir ao Drive até passar.
+- [ ] **Embrio IO** (única lacuna visual): construir de OpenStax Fig 28.9 (gastrulação) + Fig 5.5 (neurulação) via `io_from_slide.py`. Cards de texto embrio já estão no bar.
+- [ ] **Sistema linfático IO**: OpenStax Fig 21.4 (ducto torácico + cisterna do quilo) — enhancement.

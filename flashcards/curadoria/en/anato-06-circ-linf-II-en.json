@@ -1,0 +1,26 @@
+{
+  "deck": "NEBLI::UC02::P3::Anatomia::Circulatório e linfático II",
+  "slug": "anato-06-circ-linf-II",
+  "cards": [
+    {"text": "The heart's two pumps feed two circuits in {{c1::series}}, not in parallel: all blood leaving one passes through the other before completing the loop.", "extra": ""},
+    {"text": "Venous blood reaches the right atrium through three doors: the {{c1::superior vena cava}}, the {{c2::inferior vena cava}}, and the {{c3::coronary sinus}}.", "extra": "Coronary sinus brings the heart muscle's own blood."},
+    {"text": "The coronary arteries arise from the {{c1::aortic root}}, just above the aortic valve, so the heart is the first territory the aorta supplies.", "extra": ""},
+    {"text": "The three fetal shunts are the {{c1::ductus venosus}} (placenta → IVC, bypassing liver), the {{c2::foramen ovale}} (RA → LA, bypassing lung), and the {{c3::ductus arteriosus}} (pulmonary trunk → aorta).", "extra": "In the fetus the placenta oxygenates the blood, not the lung."},
+    {"text": "After birth the ductus venosus becomes the {{c1::ligamentum venosum}}, the foramen ovale becomes the {{c2::fossa ovalis}}, and the ductus arteriosus becomes the {{c3::ligamentum arteriosum}}.", "extra": "First breath drops pulmonary pressure; the shunts close into fibrous scars."},
+    {"text": "The ascending aorta gives only two branches, the {{c1::coronaries}}; then come the arch, thoracic and abdominal aorta, and the bifurcation into the {{c2::common iliac}} arteries.", "extra": ""},
+    {"text": "Organizing principle of the arterial tree: each artery is named by the {{c1::territory it serves}} (renal → kidney, hepatic → liver, splenic → spleen).", "extra": "A map of territories, not rote names."},
+    {"text": "The aortic arch gives three branches: the {{c1::brachiocephalic trunk}} (splitting into right common carotid + right subclavian), the left common carotid, and the left subclavian.", "extra": "Right = one trunk that splits; left = vessels arise separately."},
+    {"text": "On the way to the upper limb, the subclavian artery becomes the {{c1::axillary}}, then {{c2::brachial}}, then {{c3::radial and ulnar}} in the forearm.", "extra": ""},
+    {"text": "The brain is supplied by two sources, the {{c1::internal carotids}} (front) and the {{c2::vertebral}} arteries (back), which unite in the {{c3::circle of Willis}}.", "extra": "The ring is an anastomosis: if one source occludes, blood arrives via the other."},
+    {"text": "Aortic branches split into {{c1::visceral}} (to organs: bronchial, esophageal, pericardial) and {{c2::parietal}} (to the wall: posterior intercostal, superior phrenic).", "extra": "Same viscera-vs-wall key in thorax and abdomen."},
+    {"text": "The three unpaired visceral branches of the abdominal aorta feed the gut: {{c1::celiac trunk}} (liver, stomach, spleen), {{c2::superior mesenteric}} (small bowel + right colon), and {{c3::inferior mesenteric}} (left colon + rectum).", "extra": "This territory's returning blood is what detours through the liver."},
+    {"text": "The paired branches of the abdominal aorta, arising laterally to bilateral organs, are the {{c1::suprarenal, renal, and gonadal}} arteries.", "extra": ""},
+    {"text": "The aorta bifurcates into common iliacs; each splits into the {{c1::external}} iliac (→ femoral, lower limb) and the {{c2::internal}} iliac (pelvic organs).", "extra": ""},
+    {"text": "Limb veins have three layers: {{c1::deep}} (with the arteries), {{c2::superficial}} (great and small saphenous), and {{c3::perforating}} (pierce the fascia, linking superficial to deep).", "extra": "Perforator valves drive blood from superficial to deep."},
+    {"text": "When perforating-vein valves fail, blood refluxes and pools in the superficial veins, which swell and become tortuous: {{c1::varicose veins}}.", "extra": ""},
+    {"text": "In the hepatic portal system the mesenteric and splenic veins form the {{c1::portal vein}}, which enters the liver before blood goes on via the hepatic veins to the IVC.", "extra": "Gut blood is inspected by the liver before general circulation."},
+    {"text": "What makes the portal system special is that blood crosses {{c1::two capillary beds in series}}: the gut, then the liver.", "extra": "No other territory does this."},
+    {"text": "The {{c1::azygos}} system, ascending along the spine into the SVC, acts as a collateral bridge between the two {{c2::venae cavae}}.", "extra": "Venous version of the circle-of-Willis idea; rescue route when a cava occludes."},
+    {"text": "Obstruction of the superior vena cava (e.g., mediastinal tumor) causes {{c1::SVC syndrome}}: congested face and neck with dilated collateral chest veins.", "extra": "The visible dilated veins are the azygos rescue in action."}
+  ]
+}

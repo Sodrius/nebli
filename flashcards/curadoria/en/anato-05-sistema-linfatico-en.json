@@ -1,0 +1,22 @@
+{
+  "deck": "NEBLI::UC02::P3::Anatomia::Sistema linfático",
+  "slug": "anato-05-sistema-linfatico",
+  "cards": [
+    {"text": "The three jobs of the lymphatic system are to {{c1::drain}} excess interstitial fluid, {{c2::transport}} dietary fat (chyle), and provide immune {{c3::defense}}.", "extra": "Both the sewer and the surveillance of the body."},
+    {"text": "Failed lymph drainage (node removed, vessel blocked) pools fluid and swells the limb: {{c1::lymphedema}}.", "extra": ""},
+    {"text": "The lymphatic capillary takes up fluid because its endothelial cells {{c1::overlap like tiles}} (mini-valves) and its basal membrane is {{c2::absent}}; it starts blind-ended.", "extra": ""},
+    {"text": "When the interstitium swells, the {{c1::anchoring filaments}} pull the lymphatic capillary wall open; once inside, pressure shuts the tiles, a one-way door.", "extra": "The swelling itself opens the drain; wall geometry blocks reflux."},
+    {"text": "Superficial lymphatic networks drain the {{c1::skin}}; deep networks follow the vessels and drain {{c2::muscle and viscera}} — both converge on the same trunks.", "extra": ""},
+    {"text": "The node throttles flow with many {{c1::afferent}} vessels in but a single {{c2::efferent}} out at the hilum; the slowdown lets macrophages filter.", "extra": "The pinched shape is the filter, by design."},
+    {"text": "The main superficial node chains sit in the neck, epitrochlear (elbow), {{c1::axilla}}, near the clavicle, the {{c2::inguinal}} region, and popliteal.", "extra": "Hand infection → epitrochlear + axillary; foot lesion → inguinal."},
+    {"text": "The breast drains mainly to the {{c1::axillary}} nodes, the route breast cancer tends to spread along first.", "extra": "Axillary assessment is part of staging."},
+    {"text": "Waldeyer's ring, guarding the pharyngeal inlet, is formed by the {{c1::pharyngeal, palatine, tubal, and lingual}} tonsils.", "extra": ""},
+    {"text": "The aggregated lymphoid nodules of the ileum and appendix that monitor gut contents are the {{c1::Peyer's patches}}.", "extra": "Part of MALT."},
+    {"text": "The trunk draining the abdominal viscera (stomach, intestines, pancreas, spleen, liver) is the {{c1::intestinal}} trunk; the one draining lower limbs, abdominal wall, and pelvis is the {{c2::lumbar}} trunk.", "extra": "Bronchomediastinal → thorax/lungs/heart; jugular → head/neck; subclavian → upper limbs."},
+    {"text": "The sac-like dilation at the base of the thoracic duct is the {{c1::cisterna chyli}}, receiving the {{c2::lumbar and intestinal}} trunks.", "extra": "Ascends in front of the spine from L2."},
+    {"text": "The smaller {{c1::right lymphatic duct}} drains only the {{c2::right upper quadrant}} (right head/neck, right upper limb, right hemithorax).", "extra": ""},
+    {"text": "Each lymphatic duct returns lymph to the blood at the {{c1::venous angle}}, the junction of the {{c2::subclavian and internal jugular}} veins.", "extra": "Thoracic duct on the left, right duct on the right."},
+    {"text": "Injury to the thoracic duct (e.g., thoracic surgery) leaks milky chyle into the pleura: {{c1::chylothorax}}.", "extra": "Milky because it carries dietary fat."},
+    {"text": "With no heart to pump it, lymph rises by three forces: contraction of the wall {{c1::smooth muscle}}, the skeletal {{c2::muscle}} pump, and the {{c3::respiratory}} pump.", "extra": "Valves, even more numerous than in veins, turn each squeeze into a step upward."}
+  ]
+}
