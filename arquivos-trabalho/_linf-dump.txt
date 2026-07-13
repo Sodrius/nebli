@@ -1,0 +1,30 @@
+1 | Os órgãos linfoides <b>primários</b> ({{c1::medula óssea e timo}}) produzem e educam os linfócitos; os <b>secundários</b> ({{c2::linfonodo, baço e MALT}}) são onde a resposta acontece. ||E: 
+2 | Qualquer molécula reconhecida como estranha e capaz de disparar a resposta imune é um {{c1::antígeno}}. ||E: A função de fundo do sistema é distinguir o próprio do não-próprio.
+3 | O <b>linfócito B</b> (resposta humoral) não secreta anticorpo diretamente: ativado, ele vira {{c1::plasmócito}}, e é o plasmócito que secreta o anticorpo. ||E: O B em repouso carrega IgM/IgD de superfície como antena para o antígeno.
+4 | O <b>linfócito T</b> age por contato célula a célula (resposta celular); seu marcador de superfície é o {{c1::TCR (receptor de célula T)}}. ||E: 
+5 | Entre os linfócitos T: o {{c1::citotóxico}} mata a célula infectada/tumoral com perforina; o {{c2::helper}} coordena secretando interleucinas; o {{c3::regulador (Treg)}} freia a resposta e previne autoimunidade. ||E: 
+6 | O <b>linfócito NK</b> pertence à imunidade {{c1::inata}}: mata células anormais sem sensibilização prévia, sem TCR e sem gerar memória. ||E: 
+7 | O <b>macrófago</b> não só fagocita: ele quebra o antígeno e o {{c1::apresenta}} na própria superfície para o linfócito T reconhecer. ||E: É a ponte entre engolir o invasor e disparar a resposta específica.
+8 | No tecido linfoide, a {{c1::célula reticular}} (fixa) produz a {{c2::fibra reticular}} (colágeno tipo III) que forma o arcabouço. ||E: A célula é quem produz; a fibra é o produto — não são a mesma coisa. Macrófago fixo = histiócito.
+9 | Regra que se repete em todo órgão linfoide: as células {{c1::fixas}} fazem a estrutura e o filtro; as células {{c2::livres}} (linfócitos, plasmócitos) fazem a resposta. ||E: 
+10 | Os três arranjos da malha reticular: {{c1::frouxo}} (fixas predominam, forma os seios), {{c2::denso}} (livres predominam, forma os cordões) e {{c3::nodular}} (denso em bola = nódulo). ||E: 
+11 | O <b>nódulo linfático</b> é uma estrutura {{c1::temporária e sem cápsula}}, que depende de estímulo antigênico; seu {{c2::centro germinativo}} é sítio de proliferação de linfócitos B. ||E: Nódulo com centro germinativo visível = tecido reagindo, não anatomia fixa. Não se produz linfócito T ali.
+12 | O tecido linfoide associado às mucosas dos sistemas digestório, respiratório e urogenital chama-se {{c1::MALT}}; no intestino forma as {{c2::placas de Peyer}}. ||E: 
+13 | O linfócito {{c1::B}} completa seu amadurecimento na <b>medula óssea</b> (bone marrow), enquanto o linfócito {{c2::T}} é educado no <b>timo</b>. ||E: 
+14 | O timo é dividido por septos em <b>lóbulos incompletos</b>: o {{c1::córtex}} é externo, escuro e denso em timócitos imaturos; a {{c2::medula}} é interna e mais clara. ||E: Como os lóbulos são incompletos, a medula de lóbulos vizinhos se comunica.
+15 | O estroma do timo NÃO é feito de células reticulares comuns, e sim de {{c1::células reticulares epiteliais}} — origem epitelial, unidas por desmossomos e produtoras de hormônios (timosinas). ||E: No timo o arcabouço são células, não fibras de colágeno. Andaime que ensina.
+16 | Os linfócitos T em maturação dentro do timo são os {{c1::timócitos}}; eles são o parênquima do órgão (a rede epitelial é o estroma). ||E: 
+17 | A <b>barreira hematotímica</b>, que isola os timócitos imaturos dos antígenos do sangue, existe exclusivamente no {{c1::córtex}} do timo. ||E: A medula não é isolada — nela o T já maduro aguarda para cair na circulação.
+18 | A assinatura histológica do timo, na medula, é o {{c1::corpúsculo de Hassall}}: células reticulares epiteliais degeneradas em camadas concêntricas acidófilas. ||E: Sem linfócitos B nem centro germinativo — não confundir com nódulo. Ver Hassall = é um timo.
+19 | Ao longo da vida o timo não cresce, ele {{c1::involui}}: auge perto da puberdade, depois é substituído por tecido adiposo. ||E: 
+20 | O <b>linfonodo</b> filtra a {{c1::linfa}} (não o sangue); quem filtra sangue é o baço. ||E: O engano mais comum da aula é trocar os dois filtros.
+21 | No linfonodo, a linfa entra por {{c1::vários vasos aferentes}} na convexidade e sai por {{c2::um único vaso eferente}} no hilo. ||E: Muitos entram, um sai, concentrando a linfa já filtrada.
+22 | No córtex do linfonodo estão os nódulos de linfócitos {{c1::B}}; na região paracortical (área timo-dependente) estão os linfócitos {{c2::T}}. ||E: Na medula, os cordões medulares são ricos em plasmócitos.
+23 | Os linfócitos entram no linfonodo a partir do {{c1::sangue}}, atravessando as {{c2::vênulas de endotélio alto}} do paracórtex — não pela linfa aferente. ||E: 
+24 | A assinatura histológica do linfonodo é o {{c1::seio subcapsular}}: o espaço claro logo abaixo da cápsula, que o baço não tem. ||E: 
+25 | O <b>baço</b> filtra o {{c1::sangue}}, e por isso não tem vasos {{c2::linfáticos aferentes}}: o sangue entra pela artéria esplênica, que vira artéria central. ||E: 
+26 | A <b>polpa branca</b> do baço é o tecido linfoide em volta da artéria central: a {{c1::PALS}} (manguito de linfócitos T) e os {{c2::nódulos}} de linfócitos B. ||E: Mesmo paralelo do linfonodo: T em volta do vaso, B em nódulo.
+27 | A <b>polpa vermelha</b> do baço é o compartimento do sangue: {{c1::cordões de Billroth}} (malha com macrófagos) e capilares {{c2::sinusóides}}, onde hemácias velhas são removidas. ||E: 
+28 | Na circulação {{c1::aberta}} do baço, o sangue é lançado no cordão e precisa se espremer de volta ao sinusóide; a hemácia velha e rígida fica presa e é {{c2::fagocitada}}. ||E: A estrutura É o mecanismo do controle de qualidade das hemácias.
+29 | A assinatura histológica do baço é o {{c1::nódulo com artéria central}} atravessando-o — nenhum outro órgão tem artéria correndo dentro do tecido linfoide. ||E: Tríade de leitura: Hassall = timo · seio subcapsular = linfonodo · artéria central = baço.
+30 | Após a <b>esplenectomia</b>, o paciente fica perigosamente vulnerável a {{c1::bactérias encapsuladas}}, podendo evoluir para sepse fulminante. ||E: Sem o filtro esplênico e os macrófagos da polpa vermelha para capturá-las.

@@ -1,0 +1,30 @@
+{
+  "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+  "slug": "histo-09-vasos",
+  "cards": [
+    {"text": "Blood flows down a {{c1::decreasing}} pressure gradient: artery → arteriole → capillary → venule → vein.", "extra": "High pressure + thick wall → low pressure + thin wall."},
+    {"text": "From inside out, the three vessel tunics are the {{c1::intima}} (endothelium), {{c2::media}} (smooth muscle/elastin), and {{c3::adventitia}} (connective tissue).", "extra": "Same plan in every vessel; local pressure sculpts each layer's thickness."},
+    {"text": "The wavy elastin sheet separating the arterial intima from the media is the {{c1::internal elastic lamina}}.", "extra": "External elastic lamina bounds media from adventitia."},
+    {"text": "Vasa vasorum (vessels of the vessel wall) are more numerous in {{c1::veins}}.", "extra": "Venous luminal blood is O2-poor, low-pressure → wall fed worse from the lumen."},
+    {"text": "All vessels are lined by a {{c1::simple squamous}} epithelium sealed by tight junctions: the endothelium.", "extra": "Aligned to flow."},
+    {"text": "Endothelial {{c1::nitric oxide}} relaxes medial smooth muscle → {{c2::vasodilation}}.", "extra": ""},
+    {"text": "Endothelium secretes {{c1::von Willebrand factor}} → platelet adhesion at vessel injury.", "extra": ""},
+    {"text": "Atherosclerotic plaque begins at the {{c1::injured endothelium}} (hypertension, smoking, cholesterol).", "extra": "Intima; the thinnest cell of the wall."},
+    {"text": "Which artery type (aorta, carotid) has a media of {{c1::fenestrated elastic laminae}} and buffers the pulse via the {{c2::Windkessel}} effect? {{c3::Elastic artery}}", "extra": "Stretch in systole, recoil in diastole → pulsatile flow becomes continuous."},
+    {"text": "Which artery type (radial, tibial, splenic) has a media dominated by {{c1::smooth muscle}} and regulates {{c2::caliber}} to distribute blood? {{c3::Muscular artery}}", "extra": "The media component names the artery."},
+    {"text": "The stain that reveals elastin, separating elastic from muscular artery, is {{c1::Weigert}}.", "extra": "Elastic laminae as stacked dark lines."},
+    {"text": "Which vessel (< 0.5 mm) sets peripheral {{c1::resistance}}, the main control of arterial pressure? {{c2::Arteriole}}", "extra": "Wall nearly as thick as the lumen is wide."},
+    {"text": "At the capillary bed entry, the {{c1::precapillary sphincter}} gates flow in waves by local demand.", "extra": "Short sparse-muscle vessel at the transition = metarteriole."},
+    {"text": "A {{c1::portal}} system passes blood through {{c2::two}} capillary beds in series (hepatic portal vein; renal glomerulus).", "extra": ""},
+    {"text": "The capillary wall is reduced to just {{c1::endothelium + basal lamina}}: no media, no adventitia.", "extra": "Pericytes outside give support and repair."},
+    {"text": "Which capillary has no pores and a continuous basal lamina (muscle, nerve, connective tissue)? {{c1::Continuous}}", "extra": "The sealed pattern."},
+    {"text": "Which capillary has endothelial {{c1::pores (fenestrations)}} but a {{c2::continuous}} basal lamina (kidney, gut, endocrine glands)? {{c3::Fenestrated}}", "extra": "Fast filtration/absorption without losing cells."},
+    {"text": "Which capillary has fenestrated endothelium AND a {{c1::discontinuous}} basal lamina, letting whole {{c2::cells}} pass (liver, hemopoietic organs)? {{c3::Sinusoid}}", "extra": ""},
+    {"text": "Fenestrated vs sinusoid capillary: the discriminator is the {{c1::basal lamina}} (continuous vs discontinuous).", "extra": "Both have fenestrated endothelium; the endothelium alone confuses them."},
+    {"text": "Which vessel has three tunics under low pressure: no elastic laminae, scant media, thick adventitia, wide lumen? {{c1::Vein}}", "extra": "Opposite of the same-caliber artery (thick wall, small round lumen)."},
+    {"text": "Venous valves are semilunar folds of the {{c1::tunica intima}}; the {{c2::skeletal muscle pump}} drives venous return.", "extra": "Incompetent valve → reflux → varices."},
+    {"text": "The lymphatic capillary is blind-ended and highly permeable because it {{c1::lacks tight junctions}} (overlapping flaps + anchoring filaments).", "extra": "Admits fluid, large proteins, and cells that the sealed blood capillary excludes."},
+    {"text": "Lymphatic vessels resemble veins but have many more {{c1::valves}}, since lymph flows with no heart to push it.", "extra": "Lymph is filtered in nodes, returned via the thoracic duct."},
+    {"text": "The lymphatic system is absent in the {{c1::CNS}}, {{c2::bone marrow}}, {{c3::cartilage}}, {{c4::bone}}, and {{c5::epithelia}} (epidermis, cornea).", "extra": "Avascular-for-lymph tissues; excess fluid drains otherwise."}
+  ]
+}
