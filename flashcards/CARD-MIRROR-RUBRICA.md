@@ -132,6 +132,17 @@ QC de conteúdo achado na auditoria (corrigir ANTES de cardar):
 - **3 listas conflitantes** de "sítios sem linfáticos" entre os arquivos (vessels#24: SNC/medula/cartilagem/osso/placenta · anato-I#26: cartilagem/epiderme/córnea/polpa · anato-sistema#5: cartilagem/epiderme/córnea/SNC). Reconciliar 1 lista canônica.
 - **~6 duplicatas de anatomia** a dedupar no deck combinado (ducto torácico, ângulo venoso, ramos do arco, sistema porta).
 
+### Rodada cega P3-rebuild EN (2026-07-13) — 13/16; meus 8/8 pegos, 3 AnKing reais errados
+Lote cego: 8 cards EN meus (rebuild P3) + 8 AnKing reais. Discriminador (exemplar, sem rulebook) pegou **todos os 8 meus** (conf 55-85) e **errou 3 AnKing reais** (chamou de NEBLI). Aprendizado que fica:
+
+- **TELL REAL nº1 (consertar sempre): mecanismo dentro do STEM da frente.** "sealing passively by their nest shape", "since lymph flows with no heart to push it" DENTRO da pergunta. Nenhum dos 50 exemplares faz isso — front AnKing pede o fato, o mecanismo vai pro Extra ou some. É o separador mais confiável. Consertado nos 4 cards pegos.
+- **TELL REAL nº2: cloze de frase-mecanismo (5+ palavras)** ("electrically insulates atria from ventricles") em vez de token. Reestruturar pra apagar 1 token.
+- **TELL REAL nº3: cloze que se autoentrega** (apagar sigla com a expansão visível na mesma frase: "Mucosa-associated lymphoid tissue is {{c1::MALT}}").
+- **TELLS-RUÍDO (NÃO são discriminadores — AnKing real também faz):** Extra abrindo com "Thus", crédito com citação/DOI longa, Extra que reafirma a frente. O juiz errou 3 AnKing reais (#4/#13/#15) justamente por superpesar esses. Não perseguir.
+- **FEATURE DELIBERADA (não é defeito): Extra explicativo.** Davi já decidiu (meta-aval P3): Extra que explica o porquê é **recurso desejado** nos cards dele. Ser "pego" por isso é OK — não achatar todo Extra pra fragmento. Consertar só os 3 tells reais acima; manter a voz explicativa quando ela ensina.
+
+Estado-alvo honesto: meus cards são bons mas ainda distinguíveis pelo tell nº1. Uma passada removendo mecanismo do stem fecha a maior parte do gap sem sacrificar a didática do Extra.
+
 ## Fonte de imagem por tipo de card (após ver a prova P3, 2026-07-13)
 A prova prática P3 = **micrografia H&E real com seta numerada** → identificar estrutura (`arquivos-trabalho/FMUSP-ESTILO-UC02.md`). Consequência:
 - **Histologia:** IO sobre **micrografia H&E** (Junqueira 12ed), gênero NEBLI legítimo (PT, micrografia) que o AnKing não tem — a indistinguibilidade vale para a *manufatura* (caixas, asset, Extra), não para forçar EN/esquema. Micrografia-com-seta **não sai de OCR** (sem texto sobre a estrutura) → precisa de modo de gerador que posiciona oclusão sobre a estrutura + nome no Extra/gabarito (a construir).

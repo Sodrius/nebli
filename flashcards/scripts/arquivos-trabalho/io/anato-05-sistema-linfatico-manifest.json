@@ -1,0 +1,106 @@
+{
+  "slug": "anato-05-sistema-linfatico",
+  "header": "<b>Lymphatic system</b> (organs and vessels)",
+  "image_size": [
+    1150,
+    3250
+  ],
+  "n_boxes": 10,
+  "labels": [
+    {
+      "text": "Adenoids",
+      "box": [
+        219,
+        875,
+        166,
+        30
+      ]
+    },
+    {
+      "text": "Tonsils",
+      "box": [
+        268,
+        926,
+        121,
+        30
+      ]
+    },
+    {
+      "text": "Cervical nodes",
+      "box": [
+        204,
+        1023,
+        141,
+        78
+      ]
+    },
+    {
+      "text": "Thymus",
+      "box": [
+        149,
+        1232,
+        141,
+        39
+      ]
+    },
+    {
+      "text": "Thoracic duct",
+      "box": [
+        116,
+        1471,
+        153,
+        70
+      ]
+    },
+    {
+      "text": "Cisterna chyli",
+      "box": [
+        117,
+        1590,
+        146,
+        78
+      ]
+    },
+    {
+      "text": "Peyer's patch",
+      "box": [
+        118,
+        1749,
+        131,
+        86
+      ]
+    },
+    {
+      "text": "Inguinal nodes",
+      "box": [
+        118,
+        1901,
+        136,
+        69
+      ]
+    },
+    {
+      "text": "Bone marrow",
+      "box": [
+        116,
+        2287,
+        235,
+        30
+      ]
+    },
+    {
+      "text": "Popliteal nodes",
+      "box": [
+        248,
+        2528,
+        148,
+        70
+      ]
+    }
+  ],
+  "I0": "[#!occlusions [[rect0::216,872,172,36]]<br>[[rect0::265,923,127,36]]<br>[[rect0::201,1020,147,84]]<br>[[rect0::146,1229,147,45]]<br>[[rect0::113,1468,159,76]]<br>[[rect0::114,1587,152,84]]<br>[[rect0::115,1746,137,92]]<br>[[rect0::115,1898,142,75]]<br>[[rect0::113,2284,241,36]]<br>[[rect0::245,2525,154,76]] #]<br>active",
+  "media_name": "e494a7b1b47d6e5d8aeeb044779e6517.png",
+  "image_field": "<img src=\"e494a7b1b47d6e5d8aeeb044779e6517.png\">",
+  "crop_png": "arquivos-trabalho/io\\e494a7b1b47d6e5d8aeeb044779e6517.png",
+  "preview_png": "arquivos-trabalho/io\\anato-05-sistema-linfatico-preview.png"
+}
