@@ -1,23 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""configurar_ritmo_anking.py -- fixa o ritmo do deck AnKing (novos/dia, revisoes/dia).
+"""configurar_ritmo_anking.py -- fixa o ritmo do deck NEBLI (novos/dia, revisoes/dia).
 
 O ritmo NAO e alavanca de curadoria: nao importa quantos cards cada aula
 dessuspende, quem controla quantos AFLORAM por dia e o deck config do Anki.
 Dessuspender 40 cards/aula sem isso inunda a fila de novos. Este script seta,
-via AnkiConnect, o grupo de opcoes do deck AnKing para:
+via AnkiConnect, o grupo de opcoes do deck NEBLI para:
 
-    new.perDay = 25    (introducao: 25 cards novos por dia -- alvo do Davi)
-    rev.perDay = 150   (teto de revisao: permite chegar a 150 revisoes/dia)
-
-Nota: os 25 sao INTRODUCAO; as 150 revisoes se preenchem conforme os blocos
-NEBLI:: se acumulam ao longo dos dias (backlog de cards maturando). No dia 1 o
-deck ainda nao tem 150 pra revisar -- o teto so libera o topo.
+    new.perDay = 15    (introducao sustentavel de longo prazo)
+    rev.perDay = 9999  (teto alto: nao esconde revisoes devidas do FSRS)
 
 Uso:
     python flashcards/scripts/configurar_ritmo_anking.py --dry-run
     python flashcards/scripts/configurar_ritmo_anking.py
-    python flashcards/scripts/configurar_ritmo_anking.py --deck "AnKing Step Deck" --new 25 --rev 150
+    python flashcards/scripts/configurar_ritmo_anking.py --deck "NEBLI::UC02::P3" --new 150 --rev 300
 """
 import argparse
 import json
@@ -52,34 +48,35 @@ def _anki_vivo():
 
 
 def achar_deck(preferido=None):
-    """Nome do deck AnKing na colecao. Usa o preferido se existir, senao o
-    primeiro que contenha 'anking' (case-insensitive)."""
+    """Nome do deck NEBLI na colecao. Usa o preferido se existir, senao NEBLI."""
     nomes = _invoke("deckNames")
     if preferido and preferido in nomes:
         return preferido
+    if "NEBLI" in nomes:
+        return "NEBLI"
     for n in nomes:
-        if "anking" in n.lower():
+        if n.startswith("NEBLI::"):
             return n
     return None
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Fixa novos/dia e revisoes/dia do deck AnKing.")
-    ap.add_argument("--deck", help="nome do deck (default: auto-detecta 'AnKing')")
-    ap.add_argument("--new", type=int, default=25, help="cards novos por dia (default 25)")
-    ap.add_argument("--rev", type=int, default=150, help="teto de revisoes por dia (default 150)")
+    ap = argparse.ArgumentParser(description="Fixa novos/dia e revisoes/dia do deck NEBLI.")
+    ap.add_argument("--deck", help='nome do deck (default: "NEBLI")')
+    ap.add_argument("--new", type=int, default=15, help="cards novos por dia (default 15)")
+    ap.add_argument("--rev", type=int, default=9999, help="teto de revisoes por dia (default 9999)")
     ap.add_argument("--dry-run", action="store_true", help="mostra atual e proposto, nao grava")
     args = ap.parse_args()
 
     if not _anki_vivo():
         print("AnkiConnect fora do ar (Anki fechado ou add-on 2055492159 ausente).")
-        print(f"Config manual: no deck AnKing, engrenagem > Options > "
+        print(f"Config manual: no deck NEBLI, engrenagem > Options > "
               f"New cards/day = {args.new}, Maximum reviews/day = {args.rev}.")
         return 3
 
     deck = achar_deck(args.deck)
     if not deck:
-        print("ERRO: nao achei um deck com 'AnKing' no nome. Passe --deck \"<nome>\".", file=sys.stderr)
+        print('ERRO: nao achei o deck "NEBLI". Passe --deck "<nome>".', file=sys.stderr)
         print("  decks:", ", ".join(_invoke("deckNames")), file=sys.stderr)
         return 2
 
@@ -103,7 +100,7 @@ def main():
     _invoke("saveDeckConfig", config=cfg)
     print(f"\nOK: ritmo do grupo '{cfg.get('name','?')}' fixado em {args.new} novos/dia, "
           f"{args.rev} revisoes/dia.")
-    print("  (os 25 sao introducao; as 150 revisoes enchem conforme os blocos NEBLI:: maturam.)")
+    print("  (os novos sao introducao; as revisoes enchem conforme os blocos NEBLI:: maturam.)")
     return 0
 
 

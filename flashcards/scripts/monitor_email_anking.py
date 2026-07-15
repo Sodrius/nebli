@@ -204,7 +204,9 @@ def coletar(modo):
     elif modo == "bandeira":
         # bandeira vermelha = flag:1; o Davi marca o que quer entender a fundo
         query = "tag:NEBLI::* -tag:NEBLI::zerado::* flag:1"
-        teto = 14
+        # Nao cortar silenciosamente o feedback do Davi. 50 ainda protege o
+        # tamanho do email, mas cobre com folga uma rodada normal de bandeiras.
+        teto = 50
     else:
         query = "tag:NEBLI::* -tag:NEBLI::zerado::* (tag:leech OR prop:lapses>=3)"
         teto = 10
@@ -804,7 +806,21 @@ def main():
                     help="quem redige a explicação: claude (assinatura Claude Code, sem API, padrão) "
                          "| colar (bloco pronto pro Gemini) | api (paga) | nenhum (cards crus)")
     ap.add_argument("--dry-run", action="store_true", help="imprime o email, não envia")
+    ap.add_argument("--send", action="store_true", help="confirma envio SMTP e mutações pós-entrega")
+    ap.add_argument("--apply", action="store_true", help="confirma mutação sem email (suspender-vermelhos)")
+    ap.add_argument("--sync", action="store_true", help="sincroniza explicitamente antes da coleta")
+    ap.add_argument("--read-only", action="store_true",
+                    help="força cerebro=nenhum, sem sync, SMTP, mutação ou escrita de preview")
     args = ap.parse_args()
+
+    if args.read_only:
+        args.dry_run = True
+        args.send = False
+        args.apply = False
+        args.sync = False
+        args.cerebro = "nenhum"
+    if not args.send:
+        args.dry_run = True
 
     if not _anki_vivo():
         print("AnkiConnect fora do ar — abra o Anki/Docker com o add-on 2055492159.")
@@ -812,7 +828,11 @@ def main():
 
     # Modo especial: suspender cards vermelhos sem enviar email
     if args.modo == "suspender-vermelhos":
-        sincronizar()
+        if not args.apply:
+            print("[PREVIEW] suspender-vermelhos não alterou nada. Use --apply para confirmar.")
+            return
+        if args.sync:
+            sincronizar()
         flagged = _invoke("findCards", query="tag:NEBLI::* -tag:NEBLI::zerado::* flag:1")
         if not flagged:
             print("Nenhum card com bandeira vermelha para suspender.")
@@ -822,15 +842,22 @@ def main():
         print("Rode --bandeira quando quiser receber a explicação — eles voltam à fila após o email.")
         return
 
-    if not args.dry_run:
-        sincronizar()   # puxa erros do celular antes de ler
+    if args.sync:
+        sincronizar()   # puxa erros do celular somente quando solicitado
 
     cards = coletar(args.modo)
 
-    # Bandeira: suspende os cards da fila imediatamente (ficam parados até email chegar)
-    if args.modo == "bandeira" and not args.dry_run and cards:
+    # Bandeira: suspende apenas cards ativos. O snapshot impede que cards já
+    # suspensos por outro motivo sejam dessuspensos cegamente no final.
+    ids_suspensos_pelo_fluxo = []
+    if args.modo == "bandeira" and args.send and cards:
         ids_flag = [c["cardId"] for c in cards if c.get("cardId")]
-        n_susp = suspender_cards(ids_flag, suspender=True)
+        try:
+            estados = _invoke("areSuspended", cards=ids_flag)
+            ids_suspensos_pelo_fluxo = [cid for cid, susp in zip(ids_flag, estados) if susp is False]
+        except (urllib.error.URLError, OSError, RuntimeError):
+            ids_suspensos_pelo_fluxo = []
+        n_susp = suspender_cards(ids_suspensos_pelo_fluxo, suspender=True)
         if n_susp:
             print(f"{n_susp} card(s) suspensos da fila enquanto preparo a explicação...")
     if not cards:
@@ -865,8 +892,11 @@ def main():
                 stats = None
             corpo = montar_texto(grupos, dicas, args.modo, stats, padroes)
             html_corpo = montar_html(grupos, dicas, args.modo, stats, padroes)
-        else:   # JSON/LLM falhou — degrada pro bloco colável (plain), email ainda sai
+        else:   # JSON/LLM falhou — degrada pro bloco colável apenas em preview
             print("(cérebro indisponível ou JSON inválido — caindo pro bloco colável)\n")
+            if args.send:
+                print("Envio cancelado: o email estruturado não ficou pronto; bandeiras preservadas.")
+                return 5
             _, crus = redigir(cards, args.modo, "colar")
             _, corpo = montar_email(cards, bloco_colavel(args.modo, crus), args.modo, auto=False)
     else:   # colar / nenhum — caminho simples de texto, inalterado
@@ -901,11 +931,16 @@ def main():
 
     if args.modo == "bandeira":
         # email é best-effort; o HTML local já garante a entrega
+        delivered = False
         try:
             enviar(assunto, corpo, html_corpo)
+            delivered = True
             print(f"Email da bandeira enviado para {DESTINO} ({len(cards)} cards).")
-        except (RuntimeError, OSError, ssl.SSLError) as e:
-            print(f"(email não enviado: {e} — o registro HTML local vale como entrega)")
+        except (RuntimeError, OSError, ssl.SSLError, smtplib.SMTPException) as e:
+            print(f"Email não enviado: {e}. Bandeiras e suspensão foram preservadas.")
+        if not delivered:
+            suspender_cards(ids_suspensos_pelo_fluxo, suspender=False)
+            return 4
         # reset do ciclo: tira a bandeira dos cards já explicados
         ids = [c["cardId"] for c in cards if c.get("cardId")]
         metodo, n = remover_bandeira(ids)
@@ -913,7 +948,7 @@ def main():
               + (" — amanhã re-marque o que ainda não fixou." if metodo != "falhou" else
                  " (FALHOU — tire a bandeira na mão no Anki)."))
         # Devolve os cards à fila — email foi enviado, hora de revisar com o contexto
-        n_dess = suspender_cards(ids, suspender=False)
+        n_dess = suspender_cards(ids_suspensos_pelo_fluxo, suspender=False)
         if n_dess:
             print(f"{n_dess} card(s) devolvidos à fila — leia o email antes de revisá-los.")
         return
@@ -923,4 +958,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main() or 0)

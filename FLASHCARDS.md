@@ -6,7 +6,7 @@
 
 ## Filosofia
 
-**Guia duplo de conteúdo:** aulas FMUSP + Step 1 USMLE.
+**Guia triplo de conteúdo:** aulas FMUSP + Step 1 USMLE + base longitudinal para residência HC.
 
 O deck Anki não serve para aprender — o resumo NEBLI faz isso. O deck serve para **reter na memória a longo prazo** o que já foi aprendido: tanto o conteúdo da faculdade (E1, E2, E3 de cada aula) quanto o que o Step 1 exige do mesmo sistema/mecanismo. Davi pretende fazer o Step 1 daqui a alguns anos e quer acumular base ao longo da faculdade, não estudar do zero na véspera.
 
@@ -56,7 +56,42 @@ Match "forte" da aula só quando a maioria dos subtópicos está em 2–3 **e** 
 
 **R11 — Representação proporcional dos subtópicos (canônico 2026-07-10).** Subtópicos maiores/mais pesados da aula devem, de forma **natural**, aparecer proporcionalmente mais — tanto em profundidade da E1 quanto em número de cards. Não é cota rígida: é deixar o peso do tema reger o espaço que ele ocupa (o passe de aprofundamento e a seleção de cards seguem o peso do subtópico, não distribuem por igual).
 
-**R12 — Norte de profundidade + menos atrito (feedback 2026-07-10).** Davi sente que **E1, E2, E3 e os cards ainda estão rasos**. O objetivo declarado é: material **mais aprofundado e com menos atrito**, para ele reter a informação aprofundada no tempo que tem até a prova **e** para o Step 1. Toda geração daqui pra frente puxa a profundidade pra cima (dentro de R2/R10 — fundo, mas não maluco) e reduz atrito (prosa fluida, card atômico com explicação e imagem). Ver [[feedback-cards-e-resumos-mais-fundos]].
+**R12 — Norte de profundidade + menos atrito (feedback 2026-07-10/14).** Davi sente que **E1, E2, E3 e os cards ainda estão rasos**. O objetivo declarado é: material **mais aprofundado e com menos atrito**, para ele reter a informação aprofundada no tempo que tem até a prova **e** para o Step 1. Toda geração daqui pra frente puxa a profundidade pra cima (dentro de R2/R10 — fundo, mas não maluco) e reduz atrito (prosa fluida, card atômico com explicação e imagem). Feedback de 2026-07-14: quando a E1 não pôde ser reescrita, os cards ficaram rasos; portanto, nas próximas aulas o aprofundamento precisa acontecer **antes** de fechar cards, via loop Card→E1, não tentando compensar com card solto. Ver [[feedback-cards-e-resumos-mais-fundos]].
+
+**R13 — Card autoral só entra se for AnKing-grade (canon 2026-07-14).** Feedback do Davi: os NEBLIcards prontos ainda parecem "cards criados pelo NEBLI", não AnKing. Correção: NEBLIcard autoral novo precisa seguir `flashcards/AUDITORIA-NEBLICARDS-ANKING-2026-07-14.md`: inglês por padrão, note type AnKingOverhaul, frente curta, cloze de 1–3 palavras no token de maior valor, mecanismo fora do stem, Extra curto em registro de nota de card, imagem quando visual, sem voz de apostila. Antes de aplicar: `lint_neblicard.py` + card-mirror quando o lote muda padrão. O aplicador preferido é `build_card.py`; `aplicar_neblicards.py` fica como compatibilidade legada sem mídia.
+
+**R14 — Anatomia macro exige eixo peça real (canon 2026-07-14).** Deck de anatomia não fecha só com cloze/ilustração. Quando houver fonte disponível, cada aula de anatomia macro deve combinar: (1) esquema limpo para relações espaciais (Dope/Netter-style/AnKing) + (2) **foto cadavérica real em Image Occlusion** para reconhecimento de peça. Fonte primária já mapeada: `Referências Externas::University of Michigan BlueLink Atlas`, buscada por tag (`BlueLink::<Região>`, keyword não funciona). Cópias para `NEBLI::` usam `flashcards/scripts/copiar_externos_para_deck.py`, preservando original, mídia e note type. Ver `referencias-externas/DECKS-EXTERNOS-MAPA.md`.
+
+**R15 — Referências Externas antes de autoria (canon 2026-07-14).** Quando o AnKing não cobrir um conceito que precisa de card, a próxima fonte não é automaticamente NEBLIcard autoral. Buscar primeiro nos decks externos importados, conforme `referencias-externas/GUIA-CARDS-EXTERNOS-PARA-DECK-AULA.md`: BlueLink para cadáver/IO, Dope Anatomy para atlas e relações, Histology/LLU para cortes histológicos e micrografias, Dorian/100 Concepts para correlato clínico anatômico. Card externo aprovado entra como `NEBLI::externo`, não como autoral; original externo fica intocado.
+
+**R16 — Imagem no Extra é o default (canon 2026-07-14).** A maioria dos cards deve ter imagem na explicação, como no AnKing. Para card autoral novo, `build_card.py --require-images` vira o padrão salvo exceções explícitas (fato puramente verbal). Fonte de imagem, em ordem: imagem irmã do AnKing/external card, deck externo, internet limpa licenciada, slide do professor, Junqueira/atlas quando permitido no contexto pessoal. Os 187 autorais já existentes no Anki foram marcados `NEBLI::needs_image`; nenhum tinha imagem no Extra na auditoria de 2026-07-14.
+
+**R16b — Imagem como intervenção cognitiva (canon 2026-07-14).** Regra refinada em `flashcards/GUIA-IMAGENS-CARDS-NEBLI.md`: não medir "tem imagem"; medir se a **necessidade visual** do card foi satisfeita. Todo card novo deve decidir `visual_need` (`required|recommended|optional|none`) e `image_role` (`recognition|localization|mechanism|comparison|schema|context|none`). A pertinência é card-específica: imagem por tema/aula/slide não conta como resolvida se não treina o alvo exato do card. Trocar "imagem por tema" por "imagem por intenção" (identificar, localizar, comparar, demonstrar mecanismo, reconhecer padrão ou fixar relação espacial). Internet pode ser usada, mas com fonte, URL, licença/uso, crédito e data; material privado entra marcado como privado, não como redistribuível. Imagem decorativa, genérica, ilegível, errada ou que entrega o cloze é bloqueio, não melhoria.
+
+**R17 — Histologia exige par visual + conceito (canon 2026-07-14).** Para estrutura histológica, deck completo tem dois cards quando cabível: (a) identificação visual em corte/micrografia, preferencialmente IO; (b) função/origem/relação em cloze normal com imagem no Extra. Se Histology/LLU não trouxerem a estrutura, criar IO próprio sobre micrografia com `io_manual_from_image.py` (ex.: corpúsculo de Hassall no timo) e um cloze conceitual ancorado na E1. Saber a estrutura no corte é parte do conteúdo, não ilustração opcional.
+
+**R18 — Construção longitudinal Step 1 + residência HC desde o ciclo básico (canon 2026-07-14, pedido do Davi).** Cada deck-aula passa a construir três camadas sem virar três currículos nem duplicar cards: **(1) Faculdade define O QUE entra** — conteúdo da aula/E1 e da prova local; **(2) Step 1 define a profundidade do MESMO mecanismo** — causa, fisiopatologia, predição, gráfico/lab, genética, mecanismo de ação e reconhecimento visual; **(3) residência HC fornece uma ponte clínica pequena e estável** — estrutura/alteração → mecanismo → achado discriminante. No ciclo básico entram mecanismo, localização, sinal/lab esperado e morfologia funcional; ficam FORA conduta, dose, guideline, rastreamento, staging, técnica operatória e qualquer conteúdo que dependa do internato/Step 2.
+
+**Gate E1 absoluto também para Step 1/HC.** Nada desta camada pode aparecer primeiro no deck. O fluxo é sempre: card/blueprint/prova sugere → Orquestrador julga se é o mesmo mecanismo e se vale a carga → **injeta e explica na E1 antes** → só então cria/seleciona o card → E2/E3 cobra com pista nova. A injeção na E1 não é termo solto: precisa explicar em prosa causal **base → mecanismo → achado**, geralmente em 2–5 frases no mesmo parágrafo ou em `#clinica-box` natural. Se exige abrir um tópico clínico próprio ou vários pré-requisitos laterais, é FORA. Uma bridge sem `e1_anchor` é bloqueada.
+
+**Unidade de qualidade = cluster cognitivo seletivo.** Para apenas os mecanismos realmente nucleares, montar um `cluster_id` com em geral **2–4 cards no total, contando os bons já existentes** — nunca 2–4 cards novos obrigatórios: (a) fundamento/pré-requisito; (b) mecanismo; (c) consequência ou predição; (d) opcionalmente discriminador ou visual autêntico. Remover/substituir redundância antes de adicionar. Cada card testa um alvo inequívoco; relações com mais de um elemento só valem quando formam uma única unidade causal/estrutural coerente.
+
+**Clinical bridge = questão de transferência com cue novo.** Cada cluster nuclear pode receber **uma** ponte de aplicação que muda a pista: o card pergunta a peça; a ponte pergunta o que acontece quando ela falha, qual estrutura explica o déficit, qual direção o lab assume ou qual imagem representa o mecanismo. A bridge não repete a frase do card e não vira vinheta longa. No piloto: 1–2 clusters por aula, 1 bridge por cluster e **máximo de 3 bridges/aula**, sem quota. Inicialmente a bridge é candidata offline; testar se rende melhor na E2/banco ou no Anki longitudinal antes de canonizar seu destino.
+
+**Padrão linguístico pedido pelo Davi.** A frente, o cloze e a terminologia principal dos cards ficam **em inglês médico natural**, inclusive nos autorais. O `Extra` traz explicação curta em **português**, com causa → mecanismo → consequência, e traduz/desambigua os termos médicos específicos que possam gerar atrito (ex.: `compliance = complacência/distensibilidade vascular`, explicando o conceito, não só dando tradução). Não duplicar um card em PT e EN. Não usar tradução literal estranha: conferir nomenclatura em fonte médica; preservar epônimos, siglas e termos que a prática brasileira também usa. Termo óbvio ou idêntico nas duas línguas não precisa de glossário artificial.
+
+**Rubrica de admissão da camada longitudinal — todos os gates precisam passar:**
+
+1. **Âncora:** está explicado na E1 ou recebeu patch antes do deck?
+2. **Escopo:** é o mesmo mecanismo da aula, não uma doença vizinha?
+3. **Durabilidade:** continuará correto daqui a anos, sem depender de guideline?
+4. **Transferência:** ajuda a prever/localizar/discriminar um achado, em vez de acrescentar trivia?
+5. **Baixo custo:** é entendível com poucos pré-requisitos e não infla/redunda o cluster?
+6. **Teto clínico:** termina em mecanismo → achado; não avança para manejo de Step 2/internato?
+
+**Tipos de adição de alto valor:** mecanismo nuclear; perturbação → direção de variável; achado → estrutura/mecanismo; discriminador entre confundíveis; gráfico/laboratório com predição; pedigree/regra genética; mecanismo de ação quando a E1 abriu o alvo; micrografia/peça/imagem quando o objeto visual é o próprio cue. **Não entram:** definição nua, lista empilhada, card para cada alternativa errada, imagem decorativa, doença mencionada só porque caiu em prova, vinheta completa, conduta/dose ou duplicata FMUSP×Step1×HC do mesmo fato.
+
+**QA obrigatório por cluster:** registrar `cluster_id`, `concept_id`, `e1_anchor`, papel (`core_atomic|application_bridge`), objetivo (`fmusp|step1|hc_base`), `cue_type`, idioma e fonte. O fechamento reporta cards reaproveitados × novos, redundâncias removidas, nº de bridges e incremento líquido. A bridge precisa de feedback que reconstrua o mecanismo, diga qual cue discriminava e por que o erro tentador falha. Flags/comentários reais pesam mais que card-mirror: vermelho diagnostica E1/card/imagem; verde vira controle positivo. Escalar só após 2–3 semanas medindo tempo, backlog, Again, retenção, flags e acerto em questões com cue novo.
 
 Detalhe operacional destas regras e a decisão deck-AnKing vs deck-NEBLI estruturado: `flashcards/estrutura-deck-mestre.md`. **Estamos em evolução ativa do processo de cards — muitas destas regras vão mudar conforme Davi pede curadoria a cada resumo novo.**
 
@@ -67,6 +102,8 @@ Detalhe operacional destas regras e a decisão deck-AnKing vs deck-NEBLI estrutu
 **Árvore única de estudo:** `NEBLI :: UC :: Prova :: Componente :: Aula` (ex.: `NEBLI::UC02::P4::Bioquímica::Metabolismo dos aminoácidos`). O topo `NEBLI` recebe outras UCs no futuro. Prova vem **antes** de componente — então nunca existe um "Bioquímica P1–P4" agregado (o Davi não estudaria isso; cai em provas diferentes). Uso: estudar `NEBLI` inteiro = retenção longa (FSRS, **15 novos/dia**, ~25 min/dia); abrir `NEBLI::UC02::P4` = cravar antes daquela prova. Como é subdeck aninhado, **um card mora numa aula só** e estudar qualquer pai o inclui — o mesmo card serve retenção longa E cram de prova, com um agendamento FSRS único (Custom Study aumenta novos no deck-prova sem mexer no ritmo do geral).
 
 **Regra do AnKing intocado (canônico 2026-07-12, pedido do Davi):** o deck AnKing fica na coleção como **referência, 100% suspenso, nunca modificado**. O card de estudo é sempre uma **CÓPIA duplicada para a árvore NEBLI, com tudo — campos, imagem, crédito e TAGS**. Nunca taguear/mover/editar o card AnKing original (o erro antigo era pôr a tag `NEBLI::` no original, criando duplicata ativa). Prova por cronograma vem do PDF em `cronogramas/` (UC02 v1-jul: Bioquímica+Biologia Molecular = **P4/13-jul**; Histo/Anato/Embrio/Imuno = **P3/16-jul**). Organizador: `flashcards/scripts/organizar_anki_nebli.py` (move cópias curadas p/ a árvore, suspende AnKing + duplicatas + restos; reversível). **Reorganização de 2026-07-12:** só o NEBLI:: fica ativo; aminoácidos/lipídeos/biomol-25 → P4, embrio → P3. Pentoses/glicogênio/biomol-26 ficaram fora (não calibrados — "várzea"); Davi vai pedir p/ regerar o deck-prova P3 e apagar o P4 depois.
+
+**Ritmo e cram por prova (canônico 2026-07-14, recalibrado por FSRS).** O topo `NEBLI` fica em **até 15 novos/dia** para retenção longa; revisões vencidas vêm primeiro e o teto de revisões fica alto (`9999`) para não esconder devidos. Cram não vira currículo: devidos/erros da prova entram em filtered deck com rescheduling ligado; novos vistos só por urgência entram em preview com rescheduling desligado. Gerador seguro: `flashcards/scripts/planejar_modo_prova.py`. Os scripts P3/150 são legado, agora preview por padrão e exigem `--apply` explícito. Guia: `flashcards/GUIA-RITMO-E-MODOS.md`.
 
 ## Pipeline por aula (visão geral)
 
@@ -183,11 +220,19 @@ Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vi
 
 **Princípio anti-reconhecimento (feedback Davi 2026-07-11):** o cloze apaga a informação que **exige saber** (mecanismo, consequência, valor, discriminador), NÃO o rótulo óbvio que a frase já entrega. Teste: *"dá pra adivinhar o branco só relendo a frase?"* Se sim, mova o branco. **Mas o cloze é CURTO e único** — 1 token ou frase-curta (mediana AnKing ~1–3 palavras); direção difícil = mover o branco para o token certo, **não** apagar a oração inteira (isso perde a unicidade). Ex.: apagar `guanina`/`C→T`/`autoclivagem`, não "parear com guanina fixando A→G".
 
+**Gate anti-indução (canônico operacional 2026-07-14).** Todo lote autoral passa por `python flashcards/scripts/lint_neblicard.py <json>` antes do card-mirror. `REJECT` volta para reescrita; `MIRROR` vai para o card-mirror; `PASS` pode seguir. O linter barra os vazamentos determinísticos: nome/rótulo no stem com descrição apagada, sigla auto-entregue, parêntese que entrega, negrito que denuncia e cloze longo/mecanismo no stem como zona cinza.
+
 **Rubrica (0–3, entra só ≥2):** 0 ambíguo/enchimento · 1 fato nu sem contexto/sem Extra · 2 frente contextualizada + cloze no token-chave, **mas adivinhável** · 3 o cloze apaga mecanismo/consequência/discriminador (baixa adivinhabilidade) + Extra reconstrói o porquê (+ imagem se visual).
 
 **Anti-padrões (rejeitar):** enumeração empilhada num card; definição nua; multi-fact cloze com brancos independentes; Extra que repete a frente; cloze ambíguo; conceito fora da E1; escopo Step 2.
 
 **Quando gerar no pipeline:** Fase dedicada, NÃO no `/resumo` automático. Só após a curadoria AnKing fechar e restarem lacunas tipo-a com fonte apontada. Grava em `flashcards/cards-nebli/<slug>.json`. Ver `PESQUISA-BOM-CARD.md` Parte 4 (spec) e a fila `PENDENTE-GERADO`.
+
+**Auditoria 2026-07-14 — rebuild obrigatório dos autorais prontos.** Os 43 autorais existentes foram auditados em `flashcards/AUDITORIA-NEBLICARDS-ANKING-2026-07-14.md`. Decisão: embrio-01, embrio-02-03 e biomol-25 precisam rebuild completo; bioq-21 e bioq-23 precisam normalização e imagem/card-mirror. Não aplicar lote antigo sem passar pelo rebuild.
+
+**Manutenção Anki 2026-07-14.** Rodado `python flashcards/scripts/manutencao_neblicards_anki.py --apply`: removeu `Source/Fonte` visível dos NEBLIcards autorais/gerados. Depois do enriquecimento visual P3, a manutenção reconhece imagem em campos visuais (`Extra`, `Image`, `Imagem`, etc.) e deixou **187/187 autorais/gerados com `NEBLI::image_extra` e 0 com `NEBLI::needs_image`**. Atenção: 186 estão `NEBLI::image_context_needs_specific_review`, pois receberam imagem de contexto por tema; próximo passe deve trocar por imagem específica quando o card pedir reconhecimento visual fino.
+
+**Normalização de note type legado 2026-07-14.** Rodado `python flashcards/scripts/normalizar_modelos_nebli_anking.py --apply`: o modelo legado `Cloze Medicina - Mecanismo Único` foi normalizado em 32 notas NEBLI com CSS/template AnKing-like (fonte 28px, cloze azul em negrito, Extra enxuto e imagem sem card decorativo). O padrão novo continua sendo `AnKingOverhaul`; modelo legado só é compatibilidade.
 
 ## Bandeiras
 
@@ -204,7 +249,7 @@ Davi marca durante o estudo quando quer entender um card mais fundo. Claude redi
 
 Com o `Ctrl+1` consertado (add-on `nebli_flag_suspender` reescrito), cada bandeira volta a ter **sentido próprio** — e as 3 são exatamente os 3 sinais que o sistema precisa pra se auto-corrigir. É a mesma máquina do **Revisor-completude** (E1↔cards), alimentada pela ponta do estudo real: um card marcado é uma falha de completude que escapou da geração.
 
-- **🔴 Vermelha (flag:1) — "me explica esse card".** `Ctrl+1` = flag + suspende na hora. `--bandeira` gera 2 parágrafos voz-NEBLI (mecanismo + contexto), envia, dessuspende, remove a flag. **Sinal de curadoria:** card vermelho ⇒ a E1 daquela aula explicou mal esse conceito → registrar como **gap de E1** pra próxima passada do Revisor-completude.
+- **🔴 Vermelha (flag:1) — "me explica/revisa esse card".** `Ctrl+1` = flag + suspende na hora. `--bandeira` gera 2 parágrafos voz-NEBLI (mecanismo + contexto), envia, dessuspende, remove a flag. Feedback 2026-07-14: vermelho também é pedido de revisão de qualidade do card; provavelmente o card está ruim, mal ancorado, raso, redundante, com cloze frouxo ou imagem inadequada. **Sinal de curadoria:** card vermelho ⇒ revisar E1 + card + imagem, não só explicar.
 - **🟠 Laranja (flag:2) — "esse card faz sentido aqui?"** (canônico 2026-07-12 — substitui o "laranja=vermelha" de 2026-07-10). Davi duvida que o card pertença ao conteúdo. Claude **re-julga contra a E1**: **ANCORADO** (fica) ou **FORA** (dropa do deck + vira **anti-exemplar** em `flashcards/ANTI-EXEMPLARES-CARDS.md`, pra aprender o padrão de card-várzea). Fecha a pergunta "esse card era pra estar aqui?".
 - **🟢 Verde (flag:3) — "card bom".** Vira **exemplar** em `flashcards/EXEMPLARES-CARDS.md` (forma + gesto) — os NEBLIcards futuros aprendem com o que Davi aprovou.
 
@@ -228,6 +273,12 @@ Davi marca verde quando um card é bom. Quando ele pedir "analisa as bandeiras q
 ### Ao analisar os laranjas/vermelhos — checar pertinência (canônico 2026-07-10)
 
 Quando Claude for ver os cards marcados, além de explicar, **julga se cada um merecia estar ali**: era conteúdo daquela aula (ANCORADO/ANCORÁVEL) ou era card que nem deveria ter sido escolhido (FORA — próxima-aula/ruído)? Card FORA marcado vira drop + nota no anti-exemplar. Isso fecha o loop de qualidade do deck.
+
+### Comentários diretos no card (add-on 2026-07-14)
+
+Add-on criado e instalado localmente: `flashcards/anki-addons/nebli_card_comments/` → `%APPDATA%\Anki2\addons21\nebli_card_comments`. No reviewer, `Ctrl+Shift+C` abre uma janela para comentar o card atual. O comentário é anexado ao campo `NEBLI_Comentario`, classificado por tipo (`problema`, `qualidade`, `imagem`, `explicacao`, `escopo`, `formatacao`, `outro`) e marcado com `NEBLI_comentario::pendente`. O Claude lê depois com `python flashcards/scripts/ler_comentarios.py --sync`. Esse canal passa a ser o feedback fino de qualidade/defeito card-a-card.
+
+**Limite AnkiDroid:** add-ons desktop não rodam no AnkiDroid. No tablet, o caminho compatível é usar flags/tags ou editar o campo sincronizado `NEBLI_Comentario`; o desktop lê isso depois via AnkiConnect quando a coleção sincronizar.
 
 ---
 
@@ -324,6 +375,14 @@ Docker com Anki + AnkiConnect deve estar rodando.
 ## Pendências de cards
 
 - **Sprint P4 (próximo):** curar as 6 aulas de bioquímica do P4 — `gerar_checklist.py` precisa ler E1+E2 (atualização pendente do script)
+- **Rebuild NEBLIcards autorais existentes:** seguir `flashcards/AUDITORIA-NEBLICARDS-ANKING-2026-07-14.md`; prioridade: normalizar bioq-21/bioq-23, depois biomol-25, depois embrio.
+- **Anatomia com cadáver:** usar `referencias-externas/DECKS-EXTERNOS-MAPA.md` + `copiar_externos_para_deck.py` para puxar BlueLink por tag (`BlueLink::Heart`, `BlueLink::SuperiorMediastinum`, etc.) para cópias no deck NEBLI; nunca depender só de cloze textual em anato macro.
+- **Guia de externos obrigatório:** usar `referencias-externas/GUIA-CARDS-EXTERNOS-PARA-DECK-AULA.md` antes de autorar lacuna: AnKing → externos → autoral.
+- **Imagens nos autorais já existentes:** 187/187 autorais/gerados no Anki estão com imagem reconhecida (`NEBLI::image_extra`); 186 ainda são imagem de contexto e precisam troca fina por imagem específica quando visualmente relevante.
+- **Refino de imagens P3:** 187/187 autorais/gerados ja receberam imagem, mas 186 ainda precisam revisão fina (`NEBLI::image_context_needs_specific_review`) para trocar imagem de contexto por imagem específica do conceito.
+- **Email de bandeira:** auditoria read-only de 2026-07-14 achou 26 vermelhos, 2 verdes e 0 comentários pendentes. O corte silencioso de 14 foi corrigido; envio agora é opt-in e falha de LLM/SMTP preserva bandeiras. Ainda falta smoke test SMTP/add-ons antes de produção. Ver `flashcards/PLANO-FEEDBACK-E-EMAIL.md`.
+- **Add-ons NEBLI quebrados:** Davi relatou que os add-ons instalados não estão funcionando. Investigar perfil correto, restart do Anki, conflitos de atalho e compatibilidade dos hooks.
+- **Reviewer reescondendo card antes da nota:** Davi relatou que, ao ficar lendo a explicação, o card parece voltar a esconder/revirar antes de dar nota 1-4. Auditar add-ons de auto-advance/speed focus/timer/reviewer e configurações do Anki.
 - **ANATO-06 — 3 LACUNAs abertas:** anatomia venosa periférica, sistema ázigo, drenagem linfática torácica → buscar em deck Netter ou Anatomy in Clinical Context; documentar no manifesto
 - **Loop card→E1 — primeiro piloto:** testar na próxima aula curada; documentar o que funcionou
 - **`gerar_checklist.py` — adicionar leitura da E2:** extrair conceitos testados nas 30 questões e adicionar ao `.tsv` com origem `E2` *(já lê do Tema Card via `ler_subtopicos_card()` — pendente só a leitura de `etapa2.typ`)*

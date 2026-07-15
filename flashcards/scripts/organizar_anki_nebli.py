@@ -63,9 +63,9 @@ def main():
         try:
             cfg = call("getDeckConfig", deck="NEBLI")
             cfg["new"]["perDay"] = 15
-            cfg["rev"]["perDay"] = 200
+            cfg["rev"]["perDay"] = 9999
             call("saveDeckConfig", config=cfg)
-            print("novos/dia=15, revisões/dia=200 salvos no preset '%s' (usado pelo deck NEBLI)." % cfg.get("name","?"))
+            print("novos/dia=15, revisões/dia=9999 salvos no preset '%s' (usado pelo deck NEBLI)." % cfg.get("name","?"))
         except Exception as e:
             print("!! configurar 15 novos/dia falhou (%s) — setar manual em Opções do deck NEBLI." % e)
         call("sync")
