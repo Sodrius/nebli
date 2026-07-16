@@ -9,8 +9,17 @@
 
 ## LEMBRETE ATIVO — conserto do estoque de cards ruins (Davi pediu p/ ser lembrado, 2026-07-16)
 
-- **Passada de conserto em TODO o deck NEBLI vivo.** Davi vai parar de comentar card-a-card; a partir de agora o Claude acha e conserta os defeitos com autonomia, inclusive em cards sem comentário. Alvos (ver `flashcards/ANTI-EXEMPLARES-CARDS.md` A12-A21): cards em português → traduzir; enumerações fatiadas em cards redundantes → fundir; resposta-no-card / clozes que se entregam → reescrever com 2 clozes; imagem que não bate → trocar ou `img::substituir`; card sem Extra → preencher; tag-bloat → podar; erro factual/render quebrado → corrigir. **Ainda há muitos cards ruins** — Davi sinalizou explicitamente.
-- **Gate-hard de imagem×card (a implementar).** Só passa se a imagem fizer sentido com o card. Ideia do Davi: **um subtópico por imagem** — rotular cada imagem com subtópico e exigir match com o subtópico do card no precompile/apply. Desenhar e implementar; enquanto isso, checagem manual pelo checklist pré-ship (A12).
+**Passada 1 EXECUTADA em 2026-07-16** (deck vivo, 284→256 notas ativas; snapshot em `backups/tecnicos/tags-snapshot-2026-07-16.json`; scripts `flashcards/scripts/_*_2026_07_16.py`):
+- ✅ **Tags podadas** — enxoval mínimo `NEBLI::<slug>` + originais AnKing; 2338 tags de andaime/TODO removidas; 7 órfãos re-ancorados; `seed`/`UC02::P3` preservados.
+- ✅ **22 cards PT→EN traduzidos** (embriologia), preservando cloze/imagem/crédito. Regra: todos em inglês, exceto etimologia.
+- ✅ **36 Extras vazios preenchidos** (1-2 frases do porquê/o-que-é).
+- ✅ **27 duplicatas EXATAS** (re-import) suspensas+marcadas `NEBLI::dup-removido-2026-07-16` (reversível) — manteve a cópia com histórico de revisão.
+- ✅ **Give-away/Q&A reescritos**: astrócitos proto/fibroso (A18), NK e astrócito-função (A6→afirmação); par de capilares consolidado em 1 card dos 3 tipos (`NEBLI::merged-2026-07-16`).
+
+**Ainda pendente:**
+- **Gate-hard de imagem×card (a implementar).** Só passa se a imagem fizer sentido com o card. Ideia do Davi: **um subtópico por imagem** — rotular cada imagem com subtópico e exigir match com o do card no precompile/apply. Enquanto não existe, checagem manual pelo checklist pré-ship (A12). **191 cards com imagem ainda não têm o match imagem×conceito verificado 1-a-1.**
+- **Deletar de vez** as 27 dup suspensas (hoje reversíveis) quando Davi confirmar.
+- **Enxugamento LEVE dos docs canônicos** (CLAUDE/MEMORY/ERROS/FLASHCARDS/EXEMPLARES/PENDENCIAS): dedup óbvio + fonte única de regra, mantendo estrutura e rastros datados. Escolha do Davi: leve, em paralelo. Fazer em passe focado por arquivo.
 
 ## A PLANEJAR MELHOR (Davi quer desenhar antes)
 

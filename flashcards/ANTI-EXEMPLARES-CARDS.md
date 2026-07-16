@@ -73,6 +73,8 @@ Por que é ruim: dois cards quase iguais competem por revisões e não aumentam 
 
 Regra: antes de aplicar lote autoral, rodar uma passada de duplicidade por slug. Se dois cards têm o mesmo alvo e a mesma explicação, fundir, apagar um ou transformar um deles em card visual/IO.
 
+**Duplicata EXATA por re-importação (achado 2026-07-16).** Pior caso de A9: a MESMA nota (texto idêntico sem cloze + mesma imagem, mesmo slug) existe duas vezes porque um re-import/re-add da curadoria recriou o card. No estoque isso apareceu em massa (cards de imagem histológica e de anatomia, cada um em duas cópias). São lixo puro — a cópia não agrega nada. **Conserto:** passada de dedup por assinatura `(slug, texto-sem-cloze normalizado, conjunto de src de imagem)`; manter a nota com histórico de revisão (mais reps), suspender+marcar a cópia (`NEBLI::dup-removido-<data>`, reversível) antes de deletar. **Prevenção:** o apply de curadoria deve casar por texto-bruto do campo 1 e NÃO re-adicionar nota que já existe no slug.
+
 ## A10 — A mesma imagem aparece duas vezes na mesma face
 
 Por que é ruim: duplica espaço, distrai e denuncia que o pipeline anexou mídia sem verificar o HTML já existente. A comparação deve ser feita por `src` normalizado e SHA-256 do arquivo; o template renderizado também precisa ser testado para não contar campos ocultos como duplicata visível.
