@@ -17,8 +17,8 @@
 - ✅ **Give-away/Q&A reescritos**: astrócitos proto/fibroso (A18), NK e astrócito-função (A6→afirmação); par de capilares consolidado em 1 card dos 3 tipos (`NEBLI::merged-2026-07-16`).
 
 **Ainda pendente:**
-- **Gate-hard de imagem×card (a implementar).** Só passa se a imagem fizer sentido com o card. Ideia do Davi: **um subtópico por imagem** — rotular cada imagem com subtópico e exigir match com o do card no precompile/apply. Enquanto não existe, checagem manual pelo checklist pré-ship (A12). **191 cards com imagem ainda não têm o match imagem×conceito verificado 1-a-1.**
-- **Deletar de vez** as 27 dup suspensas (hoje reversíveis) quando Davi confirmar.
+- ✅ **27 duplicatas DELETADAS** de vez em 2026-07-16 (deck 257 notas).
+- ◑ **Gate imagem×card — CONSTRUÍDO 2026-07-16** (`flashcards/scripts/verificar_imagem_card.py`). Por que a ideia "1 subtópico por imagem" não bastava: os cards ruins JÁ estão no subtópico certo (aula linfática) e mesmo assim a imagem é errada — o problema é semântico, não de rótulo. Solução em 3 camadas: **L0** detector de reuso determinístico (achou 43 imagens reusadas em cards de alvo diferente); **L1** juiz multimodal (Claude Haiku vision) que vê imagem+texto e devolve MATCH/WEAK/MISMATCH + pega print-de-texto; **L2** ação — MISMATCH remove a `<img>` + marca `img::substituir`/`NEBLI::img_gate::fail`, MATCH marca `img_gate::ok`. Provado 5/5 à mão nos cards que o Davi reprovou. **Falta:** (1) rodar com `ANTHROPIC_API_KEY` nos 186 cards com imagem (`--all --apply`); (2) **wiring** — chamar `--nid <novo card>` dentro de `aplicar_curadoria_anking.py`/pré-ship pra rodar SEMPRE que um card novo com imagem for criado (é o "sempre funciona" pedido).
 - **Enxugamento LEVE dos docs canônicos** (CLAUDE/MEMORY/ERROS/FLASHCARDS/EXEMPLARES/PENDENCIAS): dedup óbvio + fonte única de regra, mantendo estrutura e rastros datados. Escolha do Davi: leve, em paralelo. Fazer em passe focado por arquivo.
 
 ## A PLANEJAR MELHOR (Davi quer desenhar antes)
