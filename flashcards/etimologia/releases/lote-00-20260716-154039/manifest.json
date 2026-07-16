@@ -1,0 +1,482 @@
+{
+  "etim-fnd-001-morfema": {
+    "noteId": 1784227241424,
+    "cardIds": [
+      1784227241425
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-002-prefixo": {
+    "noteId": 1784227247709,
+    "cardIds": [
+      1784227247709
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-003-raiz": {
+    "noteId": 1784227253996,
+    "cardIds": [
+      1784227253996
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-004-sufixo": {
+    "noteId": 1784227260252,
+    "cardIds": [
+      1784227260253
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-005-sem-prefixo": {
+    "noteId": 1784227266568,
+    "cardIds": [
+      1784227266569
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-006-ordem-analise": {
+    "noteId": 1784227272837,
+    "cardIds": [
+      1784227272837
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::01_Prefixo_raiz_sufixo"
+  },
+  "etim-fnd-007-vogal-ligacao": {
+    "noteId": 1784227279110,
+    "cardIds": [
+      1784227279110
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-fnd-008-forma-combinante": {
+    "noteId": 1784227285351,
+    "cardIds": [
+      1784227285351
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-fnd-009-raiz-raiz": {
+    "noteId": 1784227291597,
+    "cardIds": [
+      1784227291597
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-fnd-010-queda-vogal": {
+    "noteId": 1784227297788,
+    "cardIds": [
+      1784227297788
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-fnd-011-falso-o": {
+    "noteId": 1784227304008,
+    "cardIds": [
+      1784227304008
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-fnd-012-fontes-classicas": {
+    "noteId": 1784227310225,
+    "cardIds": [
+      1784227310225
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-fnd-013-raizes-paralelas": {
+    "noteId": 1784227316464,
+    "cardIds": [
+      1784227316465
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-fnd-014-hibridos": {
+    "noteId": 1784227322786,
+    "cardIds": [
+      1784227322786
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-fnd-015-literal-clinico": {
+    "noteId": 1784227329080,
+    "cardIds": [
+      1784227329080
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-fnd-016-opacos": {
+    "noteId": 1784227335357,
+    "cardIds": [
+      1784227335358
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-fnd-017-alomorfe": {
+    "noteId": 1784227341602,
+    "cardIds": [
+      1784227341602
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::04_Alomorfes_assimilacao_e_transliteracao"
+  },
+  "etim-fnd-018-assimilacao": {
+    "noteId": 1784227347912,
+    "cardIds": [
+      1784227347912
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::04_Alomorfes_assimilacao_e_transliteracao"
+  },
+  "etim-fnd-019-transliteracao": {
+    "noteId": 1784227354163,
+    "cardIds": [
+      1784227354164
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::04_Alomorfes_assimilacao_e_transliteracao"
+  },
+  "etim-fnd-020-plurais": {
+    "noteId": 1784227360467,
+    "cardIds": [
+      1784227360468
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::05_Plurais_medicos"
+  },
+  "etim-pfx-001-peri": {
+    "noteId": 1784227366753,
+    "cardIds": [
+      1784227366754
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::01_Posicao_e_direcao"
+  },
+  "etim-pfx-002-endo": {
+    "noteId": 1784227373057,
+    "cardIds": [
+      1784227373057
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::01_Posicao_e_direcao"
+  },
+  "etim-pfx-003-epi": {
+    "noteId": 1784227379353,
+    "cardIds": [
+      1784227379354
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::01_Posicao_e_direcao"
+  },
+  "etim-pfx-004-intra": {
+    "noteId": 1784227385654,
+    "cardIds": [
+      1784227385654
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::01_Posicao_e_direcao"
+  },
+  "etim-pfx-005-inter": {
+    "noteId": 1784227391949,
+    "cardIds": [
+      1784227391949
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::01_Posicao_e_direcao"
+  },
+  "etim-pfx-006-hyper": {
+    "noteId": 1784227398232,
+    "cardIds": [
+      1784227398232
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::02_Quantidade_e_tamanho"
+  },
+  "etim-pfx-007-hypo": {
+    "noteId": 1784227404537,
+    "cardIds": [
+      1784227404538
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::02_Quantidade_e_tamanho"
+  },
+  "etim-pfx-008-tachy": {
+    "noteId": 1784227410837,
+    "cardIds": [
+      1784227410838
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::03_Tempo_velocidade_e_frequencia"
+  },
+  "etim-pfx-009-brady": {
+    "noteId": 1784227417104,
+    "cardIds": [
+      1784227417105
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::03_Tempo_velocidade_e_frequencia"
+  },
+  "etim-pfx-010-dys": {
+    "noteId": 1784227423419,
+    "cardIds": [
+      1784227423419
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::02_Prefixos::04_Negacao_ausencia_e_normalidade"
+  },
+  "etim-sfx-001-itis": {
+    "noteId": 1784227429858,
+    "cardIds": [
+      1784227429859
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::02_Inflamacao_doenca_e_tumor"
+  },
+  "etim-sfx-002-osis": {
+    "noteId": 1784227436151,
+    "cardIds": [
+      1784227436151
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::02_Inflamacao_doenca_e_tumor"
+  },
+  "etim-sfx-003-oma": {
+    "noteId": 1784227442481,
+    "cardIds": [
+      1784227442481
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::02_Inflamacao_doenca_e_tumor"
+  },
+  "etim-sfx-004-emia": {
+    "noteId": 1784227448734,
+    "cardIds": [
+      1784227448735
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::03_Sinais_sintomas_e_substancias"
+  },
+  "etim-sfx-005-uria": {
+    "noteId": 1784227454996,
+    "cardIds": [
+      1784227454996
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::03_Sinais_sintomas_e_substancias"
+  },
+  "etim-sfx-006-megaly": {
+    "noteId": 1784227461342,
+    "cardIds": [
+      1784227461343
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::03_Sinais_sintomas_e_substancias"
+  },
+  "etim-sfx-007-pathy": {
+    "noteId": 1784227467664,
+    "cardIds": [
+      1784227467664
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::01_Condicoes_e_processos"
+  },
+  "etim-sfx-008-ectomy": {
+    "noteId": 1784227473988,
+    "cardIds": [
+      1784227473988
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::05_Procedimentos_cirurgicos"
+  },
+  "etim-sfx-009-otomy": {
+    "noteId": 1784227480322,
+    "cardIds": [
+      1784227480322
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::05_Procedimentos_cirurgicos"
+  },
+  "etim-sfx-010-ostomy": {
+    "noteId": 1784227486563,
+    "cardIds": [
+      1784227486563
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::03_Sufixos::05_Procedimentos_cirurgicos"
+  },
+  "etim-app-001-mesoderm": {
+    "noteId": 1784227492825,
+    "cardIds": [
+      1784227492825
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-002-ectoderm": {
+    "noteId": 1784227499113,
+    "cardIds": [
+      1784227499113
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-003-endoderm": {
+    "noteId": 1784227505322,
+    "cardIds": [
+      1784227505322
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-004-gametogenesis": {
+    "noteId": 1784227511631,
+    "cardIds": [
+      1784227511632
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-005-spermatogenesis": {
+    "noteId": 1784227517958,
+    "cardIds": [
+      1784227517958
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-006-oogenesis": {
+    "noteId": 1784227524269,
+    "cardIds": [
+      1784227524269
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::01_Celula_tecidos_e_embriologia"
+  },
+  "etim-app-007-neurulation": {
+    "noteId": 1784227530591,
+    "cardIds": [
+      1784227530591
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::06_Nervoso_e_sentidos"
+  },
+  "etim-app-008-epithelium": {
+    "noteId": 1784227536856,
+    "cardIds": [
+      1784227536856
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::07_Excecoes_e_armadilhas::03_Sentido_literal_vs_clinico"
+  },
+  "etim-app-009-endothelium": {
+    "noteId": 1784227543173,
+    "cardIds": [
+      1784227543174
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::07_Excecoes_e_armadilhas::03_Sentido_literal_vs_clinico"
+  },
+  "etim-app-010-pericardium": {
+    "noteId": 1784227549494,
+    "cardIds": [
+      1784227549494
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-011-myocardium": {
+    "noteId": 1784227555744,
+    "cardIds": [
+      1784227555744
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-012-endocardium": {
+    "noteId": 1784227562055,
+    "cardIds": [
+      1784227562055
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-013-angiogenesis": {
+    "noteId": 1784227568308,
+    "cardIds": [
+      1784227568309
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-014-hematopoiesis": {
+    "noteId": 1784227574562,
+    "cardIds": [
+      1784227574562
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-015-erythrocyte": {
+    "noteId": 1784227580793,
+    "cardIds": [
+      1784227580793
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-016-leukocyte": {
+    "noteId": 1784227587041,
+    "cardIds": [
+      1784227587041
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-017-thrombocyte": {
+    "noteId": 1784227593330,
+    "cardIds": [
+      1784227593330
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::02_Cardiovascular_e_hematologico"
+  },
+  "etim-app-018-lymphadenopathy": {
+    "noteId": 1784227599681,
+    "cardIds": [
+      1784227599682
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::10_Pele_imune_e_linfatico"
+  },
+  "etim-app-019-glycogenesis": {
+    "noteId": 1784227606244,
+    "cardIds": [
+      1784227606244
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::08_Endocrino_e_metabolico"
+  },
+  "etim-app-020-lipolysis": {
+    "noteId": 1784227612685,
+    "cardIds": [
+      1784227612685
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::08_Endocrino_e_metabolico"
+  }
+}
