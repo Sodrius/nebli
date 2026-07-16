@@ -223,13 +223,17 @@ Depois: suspender o deck principal, manter snapshot e fazer `09_Avaliacoes::06_R
 - [ ] árvore criada e validada no Anki;
 - [ ] preset próprio — aplicar junto do primeiro lote.
 
-### Lote zero
+### Lote zero — REDIGIDO e aplicado suspenso 2026-07-16 (ver STATUS-2026-07-16.md)
 
-- 20 cards de Fundamentos;
-- 20 cards de prefixos/sufixos nucleares;
-- 20 aplicações curriculares;
-- 15 questões inéditas fora do Anki;
-- card-mirror e revisão antes de liberar.
+- [x] 20 cards de Fundamentos;
+- [x] 20 cards de prefixos/sufixos nucleares;
+- [x] 20 aplicações curriculares;
+- [x] 15 questões inéditas fora do Anki (`assessments/lote-00-retido.json`);
+- [x] lint (`validate_etymology.py`, 0 erros) + apply suspenso (`release_etymology.py`, 60/60);
+- [ ] card-mirror + revisão linguística/médica independentes antes de liberar;
+- [ ] piloto de 7 dias antes de congelar o template.
+
+> Decisão de idioma (Davi 2026-07-16): **tudo em PT-BR** (frente e verso), substituindo "frente em inglês médico".
 
 ### Produção
 

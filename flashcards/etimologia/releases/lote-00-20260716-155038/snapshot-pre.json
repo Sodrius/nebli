@@ -1,0 +1,671 @@
+[
+  {
+    "uid": "etim-fnd-001-morfema",
+    "noteId": 1784227241424,
+    "Text": "A menor unidade que carrega significado dentro de uma palavra medica chama-se {{c1::morfema}}.",
+    "Extra": "Partes: prefixo, raiz e sufixo sao todos morfemas.<br>Literal: forma minima com sentido proprio.<br>Clinico: decompor um termo comeca por separar seus morfemas.<br>Limite: nem toda silaba e um morfema; a divisao segue o sentido, nao o som.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-001-morfema"
+    ]
+  },
+  {
+    "uid": "etim-fnd-002-prefixo",
+    "noteId": 1784227247709,
+    "Text": "O elemento que vem antes da raiz e ajusta o sentido (lugar, tempo, numero ou negacao) e o {{c1::prefixo}}.",
+    "Extra": "Partes: prefixo + raiz (+ sufixo).<br>Literal: 'fixado antes'.<br>Clinico: em endo-cardio, endo- e o prefixo que situa a estrutura.<br>Limite: nem todo termo tem prefixo (ex.: gastrite).<br>Familia: peri-, endo-, hiper-, a-.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-002-prefixo"
+    ]
+  },
+  {
+    "uid": "etim-fnd-003-raiz",
+    "noteId": 1784227253996,
+    "Text": "O nucleo que carrega o significado central do termo, em geral o orgao ou a estrutura, e a {{c1::raiz}}.",
+    "Extra": "Partes: (prefixo +) raiz (+ sufixo).<br>Literal: base do sentido.<br>Clinico: em cardi-o-logia, cardi- (coracao) e a raiz.<br>Limite: um termo pode ter duas raizes (gastr-o-enterite).<br>Familia: cardi-, nefr-, neur-, hepat-.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-003-raiz"
+    ]
+  },
+  {
+    "uid": "etim-fnd-004-sufixo",
+    "noteId": 1784227260252,
+    "Text": "O elemento final que indica condicao, processo, exame ou cirurgia e o {{c1::sufixo}}.",
+    "Extra": "Partes: (prefixo +) raiz + sufixo.<br>Literal: 'fixado abaixo/depois'.<br>Clinico: em nefr-ite, -ite (inflamacao) e o sufixo que da o desfecho do termo.<br>Limite: o sufixo pode exigir queda ou vogal de ligacao.<br>Familia: -ite, -ose, -patia, -ectomia.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-004-sufixo"
+    ]
+  },
+  {
+    "uid": "etim-fnd-005-sem-prefixo",
+    "noteId": 1784227266568,
+    "Text": "Em 'gastrite' ha apenas raiz + sufixo, o que mostra que nem todo termo medico tem {{c1::prefixo}}.",
+    "Extra": "Partes: gastr- (estomago) + -ite (inflamacao).<br>Literal: inflamacao do estomago.<br>Clinico: gastrite.<br>Limite: procurar prefixo onde nao ha leva a falsa segmentacao; comece pelo sufixo e pela raiz.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-005-sem-prefixo"
+    ]
+  },
+  {
+    "uid": "etim-fnd-006-ordem-analise",
+    "noteId": 1784227272837,
+    "Text": "Para interpretar um termo medico, le-se primeiro o {{c1::sufixo}} e so depois o comeco da palavra.",
+    "Extra": "Metodo: sufixo -> prefixo -> raiz.<br>Clinico: em 'gastroenterologia', comece por -logia (estudo), depois gastr- e enter-.<br>Limite: e um metodo de leitura, nao a ordem em que os morfemas aparecem escritos.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-006-ordem-analise"
+    ]
+  },
+  {
+    "uid": "etim-fnd-007-vogal-ligacao",
+    "noteId": 1784227279110,
+    "Text": "A vogal que une a raiz a outro elemento, quase sempre um {{c1::o}}, chama-se vogal de ligacao.",
+    "Extra": "Literal: liga morfemas e facilita a pronuncia.<br>Clinico: cardi-O-logia, gastr-O-enterite.<br>Limite: cai antes de sufixo iniciado por vogal (gastr-ite, nao gastro-ite).<br>Familia: raro 'i' no latim (ex.: fibr-i-nogenio).",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-007-vogal-ligacao"
+    ]
+  },
+  {
+    "uid": "etim-fnd-008-forma-combinante",
+    "noteId": 1784227285351,
+    "Text": "A raiz somada a vogal de ligacao, como em cardi/o, forma a chamada {{c1::forma combinante}}.",
+    "Extra": "Partes: raiz + vogal de ligacao (cardi + o).<br>Literal: forma pronta para combinar.<br>Clinico: cardi/o, nefr/o, hepat/o.<br>Limite: a forma combinante e o par raiz+o; a raiz sozinha e cardi-.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-008-forma-combinante"
+    ]
+  },
+  {
+    "uid": "etim-fnd-009-raiz-raiz",
+    "noteId": 1784227291597,
+    "Text": "Ao unir duas raizes, como em gastr/o + enter/o, a vogal de ligacao e {{c1::mantida}}, pois o segundo elemento comeca por consoante.",
+    "Extra": "Clinico: gastr-o-enterite (estomago + intestino + inflamacao).<br>Regra: mantem-se o 'o' entre raiz e raiz.<br>Limite: a mesma vogal cairia diante de sufixo iniciado por vogal.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-009-raiz-raiz"
+    ]
+  },
+  {
+    "uid": "etim-fnd-010-queda-vogal",
+    "noteId": 1784227297788,
+    "Text": "Diante de um sufixo iniciado por vogal, como -ite, a vogal de ligacao costuma {{c1::cair}}.",
+    "Extra": "Regra: gastr/o + -ite -> gastrite (nao gastroite).<br>Clinico: nefr/o + -ite -> nefrite.<br>Limite: a vogal se mantem antes de sufixo iniciado por consoante (nefr-o-logia).",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-010-queda-vogal"
+    ]
+  },
+  {
+    "uid": "etim-fnd-011-falso-o",
+    "noteId": 1784227304008,
+    "Text": "Nem todo 'o' no meio de um termo e vogal de ligacao; as vezes ele pertence a propria {{c1::raiz}}.",
+    "Extra": "Exemplo: em 'trombose', o 'o' faz parte de tromb/o e do sufixo, nao e apenas ligacao neutra.<br>Limite: separar morfemas pelo sentido, nao contando letras; um 'o' interno nao prova que ha vogal de ligacao ali.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-011-falso-o"
+    ]
+  },
+  {
+    "uid": "etim-fnd-012-fontes-classicas",
+    "noteId": 1784227310225,
+    "Text": "A maior parte dos morfemas medicos vem do {{c1::grego}} e do latim, sem exigir que se dominem essas linguas.",
+    "Extra": "Ideia: aprender o morfema produtivo basta; a lingua classica completa nao e o alvo.<br>Clinico: grego em cardi-, nefr-; latim em ren-, cut-.<br>Limite: historia so entra quando ajuda a lembrar ou discriminar.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-012-fontes-classicas"
+    ]
+  },
+  {
+    "uid": "etim-fnd-013-raizes-paralelas",
+    "noteId": 1784227316464,
+    "Text": "Para 'rim' existem a forma grega nefr/o e a latina ren/o; sao raizes {{c1::paralelas}} de mesmo sentido.",
+    "Extra": "Grego nefr/o: nefrite, nefrologia.<br>Latim ren/o: renal, suprarrenal.<br>Regra pratica: o grego costuma nomear doencas e o latim, adjetivos anatomicos.<br>Limite: o sentido e o mesmo; muda a origem, nao o orgao.<br>Familia: derm-/cut-, flebo-/veno-.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-013-raizes-paralelas"
+    ]
+  },
+  {
+    "uid": "etim-fnd-014-hibridos",
+    "noteId": 1784227322786,
+    "Text": "A palavra 'hipertensao' junta o grego hiper- ao latim tensio; termos que misturam as duas linguas sao {{c1::hibridos}}, e isso nao os torna errados.",
+    "Extra": "Literal: hiper- (grego, excesso) + tensio (latim, tensao).<br>Clinico: hibridos sao comuns e legitimos na medicina.<br>Limite: ser hibrido nao muda o significado; nao ha 'pureza' exigida.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-014-hibridos"
+    ]
+  },
+  {
+    "uid": "etim-fnd-015-literal-clinico",
+    "noteId": 1784227329080,
+    "Text": "A glosa literal de um termo e apenas uma pista; o sentido {{c1::clinico}} atual pode divergir da origem.",
+    "Extra": "Ideia central do bootcamp: literal != clinico.<br>Exemplo: 'epitelio' significa literalmente 'sobre o mamilo', mas hoje nomeia qualquer tecido de revestimento.<br>Limite: use a decomposicao para lembrar e prever, mas confirme o significado medico vigente antes de afirmar.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-015-literal-clinico"
+    ]
+  },
+  {
+    "uid": "etim-fnd-016-opacos",
+    "noteId": 1784227335357,
+    "Text": "Eponimos (doenca de Parkinson) e siglas nao se decodificam por morfemas; sao termos {{c1::opacos}}.",
+    "Extra": "Literal: opaco = nao transparente a decomposicao.<br>Clinico: eponimo vem de nome proprio; sigla e abreviacao.<br>Regra: nao invente morfemas onde nao ha; reconheca o termo como um todo.<br>Limite: tentar segmentar um eponimo gera falsa etimologia.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-016-opacos"
+    ]
+  },
+  {
+    "uid": "etim-fnd-017-alomorfe",
+    "noteId": 1784227341602,
+    "Text": "As formas hem-, hemat- e hemo- sao variantes de um mesmo morfema e recebem o nome de {{c1::alomorfes}}.",
+    "Extra": "Literal: alo- (outro) + morfe (forma).<br>Clinico: hem-, hemat-, hemo- todos remetem a sangue.<br>Regra: reconhecer o mesmo morfema sob varias faces.<br>Familia: nefr-/nefro-, derm-/dermat-.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-017-alomorfe"
+    ]
+  },
+  {
+    "uid": "etim-fnd-018-assimilacao",
+    "noteId": 1784227347912,
+    "Text": "No prefixo in-, a consoante muda para combinar com a seguinte (im-, il-, ir-); esse fenomeno e a {{c1::assimilacao}}.",
+    "Extra": "Exemplos: in- + potente -> impotente; in- + regular -> irregular.<br>Regra: a assimilacao facilita a pronuncia sem trocar o sentido (negacao/dentro).<br>Limite: in- pode significar 'nao' ou 'para dentro' conforme o termo.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-018-assimilacao"
+    ]
+  },
+  {
+    "uid": "etim-fnd-019-transliteracao",
+    "noteId": 1784227354163,
+    "Text": "Passar o grego 'haima' para hem-/hemat- (e 'haem-' no ingles britanico) e um exemplo de {{c1::transliteracao}}.",
+    "Extra": "Literal: reescrever sons de um alfabeto em outro.<br>Clinico: PT usa hem-/hemat-; ingles americano hem-, britanico haem-.<br>Regra: a mesma raiz aparece grafada de modos diferentes entre linguas.<br>Limite: nao confundir variante grafica com morfema diferente.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-019-transliteracao"
+    ]
+  },
+  {
+    "uid": "etim-fnd-020-plurais",
+    "noteId": 1784227360467,
+    "Text": "Nos plurais classicos, 'diagnosis' vira 'diagnoses' e 'vertebra' vira 'vertebrae': o principio e herdar o plural da lingua de {{c1::origem}}.",
+    "Extra": "Padroes uteis: -is -> -es; -a (latim) -> -ae; -um -> -a; -us -> -i; -oma -> -omata.<br>Regra: reconhecer o padrao, sem decorar catalogo.<br>Limite: muitos termos ja aceitam plural aportuguesado no uso corrente.",
+    "tags": [
+      "etim::fundamentos",
+      "etim::lote-00",
+      "etim_uid::etim-fnd-020-plurais"
+    ]
+  },
+  {
+    "uid": "etim-pfx-001-peri",
+    "noteId": 1784227366753,
+    "Text": "No periosteo, a membrana que envolve o osso, o prefixo peri- significa {{c1::ao redor}}.",
+    "Extra": "Partes: peri- (ao redor) + oste/o (osso).<br>Clinico: periosteo, pericardio, periodonto.<br>Contraste: endo- (dentro) x epi- (sobre) x peri- (ao redor).<br>Limite: peri- marca posicao, nao doenca.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-001-peri"
+    ]
+  },
+  {
+    "uid": "etim-pfx-002-endo",
+    "noteId": 1784227373057,
+    "Text": "Na endoscopia, exame que olha por dentro, o prefixo endo- significa {{c1::dentro/interno}}.",
+    "Extra": "Partes: endo- (dentro) + -scopia (visualizar).<br>Clinico: endoscopia, endometrio, endocardio.<br>Contraste: endo- (dentro) x epi- (sobre) x peri- (ao redor).<br>Limite: endo- indica localizacao interna, nao a estrutura em si.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-002-endo"
+    ]
+  },
+  {
+    "uid": "etim-pfx-003-epi",
+    "noteId": 1784227379353,
+    "Text": "Na epiderme, a camada mais externa da pele, o prefixo epi- significa {{c1::sobre/por cima}}.",
+    "Extra": "Partes: epi- (sobre) + derme (pele).<br>Clinico: epiderme, epigastrio, epicardio.<br>Contraste: epi- (sobre) x endo- (dentro) x peri- (ao redor).<br>Limite: epi- situa acima de outra estrutura de referencia.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-003-epi"
+    ]
+  },
+  {
+    "uid": "etim-pfx-004-intra",
+    "noteId": 1784227385654,
+    "Text": "Em 'intramuscular', o prefixo intra- significa {{c1::dentro de}}.",
+    "Extra": "Partes: intra- (dentro de) + muscular.<br>Clinico: intramuscular, intravenoso, intracelular.<br>Contraste: intra- (dentro de) x inter- (entre).<br>Limite: intra- e localizacao interna a uma estrutura, nao entre estruturas.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-004-intra"
+    ]
+  },
+  {
+    "uid": "etim-pfx-005-inter",
+    "noteId": 1784227391949,
+    "Text": "Em 'intercostal', o prefixo inter- significa {{c1::entre}}.",
+    "Extra": "Partes: inter- (entre) + costa (costela).<br>Clinico: intercostal, intervertebral, intercelular.<br>Contraste: inter- (entre) x intra- (dentro de).<br>Limite: inter- situa algo no espaco que separa duas estruturas.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-005-inter"
+    ]
+  },
+  {
+    "uid": "etim-pfx-006-hyper",
+    "noteId": 1784227398232,
+    "Text": "Na hipertensao, o prefixo hiper- significa {{c1::acima/excesso}}.",
+    "Extra": "Partes: hiper- (excesso) + tensao.<br>Clinico: hipertensao, hipertireoidismo, hipertrofia.<br>Contraste: hiper- (acima) x hipo- (abaixo).<br>Limite: hiper- indica quantidade acima do normal, sem dizer a causa.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-006-hyper"
+    ]
+  },
+  {
+    "uid": "etim-pfx-007-hypo",
+    "noteId": 1784227404537,
+    "Text": "Na hipotermia, o prefixo hipo- significa {{c1::abaixo/deficiencia}}.",
+    "Extra": "Partes: hipo- (abaixo) + termia (temperatura).<br>Clinico: hipotermia, hipotireoidismo, hipoxia.<br>Contraste: hipo- (abaixo) x hiper- (acima).<br>Limite: em anatomia hipo- tambem pode indicar 'por baixo' (hipoglosso).",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-007-hypo"
+    ]
+  },
+  {
+    "uid": "etim-pfx-008-tachy",
+    "noteId": 1784227410837,
+    "Text": "Na taquipneia, o prefixo taqui- significa {{c1::rapido}}.",
+    "Extra": "Partes: taqui- (rapido) + -pneia (respiracao).<br>Clinico: taquipneia (respiracao rapida).<br>Contraste: taqui- (rapido) x bradi- (lento).<br>Limite: indica velocidade aumentada, nao a causa.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-008-tachy"
+    ]
+  },
+  {
+    "uid": "etim-pfx-009-brady",
+    "noteId": 1784227417104,
+    "Text": "Na bradipneia, o prefixo bradi- significa {{c1::lento}}.",
+    "Extra": "Partes: bradi- (lento) + -pneia (respiracao).<br>Clinico: bradipneia (respiracao lenta).<br>Contraste: bradi- (lento) x taqui- (rapido).<br>Limite: indica velocidade reduzida, nao a causa.",
+    "tags": [
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-009-brady"
+    ]
+  },
+  {
+    "uid": "etim-pfx-010-dys",
+    "noteId": 1784227423419,
+    "Text": "Na dispneia, o prefixo dis- indica algo {{c1::dificil/anormal}}, conforme o termo.",
+    "Extra": "Partes: dis- (dificil/anormal) + -pneia (respiracao) = respiracao dificil.<br>Polissemia: dis- pode ser 'dificil' (dispneia), 'doloroso' ou 'anormal' (displasia).<br>Limite: o sentido exato depende do termo; nao fixe uma unica traducao.",
+    "tags": [
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim::prefixos",
+      "etim_uid::etim-pfx-010-dys"
+    ]
+  },
+  {
+    "uid": "etim-sfx-001-itis",
+    "noteId": 1784227429858,
+    "Text": "Na apendicite, o sufixo -ite significa {{c1::inflamacao}}.",
+    "Extra": "Partes: apendic- (apendice) + -ite (inflamacao).<br>Clinico: apendicite, gastrite, artrite.<br>Limite: -ite denota inflamacao, nao infeccao necessariamente.<br>Familia: -ose (condicao) x -ite (inflamacao).",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-001-itis"
+    ]
+  },
+  {
+    "uid": "etim-sfx-002-osis",
+    "noteId": 1784227436151,
+    "Text": "Na cianose, o sufixo -ose indica uma {{c1::condicao/estado}} anormal, sem ser inflamacao.",
+    "Extra": "Partes: cian- (azul) + -ose (condicao).<br>Clinico: cianose, fibrose, necrose.<br>Contraste: -ose (condicao/estado) x -ite (inflamacao).<br>Limite: -ose e generico; o sentido exato vem da raiz.",
+    "tags": [
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-002-osis"
+    ]
+  },
+  {
+    "uid": "etim-sfx-003-oma",
+    "noteId": 1784227442481,
+    "Text": "No lipoma, o sufixo -oma indica {{c1::massa/tumor}}, mas com excecoes importantes.",
+    "Extra": "Partes: lip- (gordura) + -oma (massa/tumor).<br>Clinico: lipoma, adenoma, mioma.<br>Limite: -oma nem sempre e neoplasia (ex.: 'granuloma' e reacao inflamatoria; 'glaucoma' nao e tumor).<br>Use -oma como pista, nunca como prova de tumor.",
+    "tags": [
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-003-oma"
+    ]
+  },
+  {
+    "uid": "etim-sfx-004-emia",
+    "noteId": 1784227448734,
+    "Text": "Na anemia, o sufixo -emia indica uma condicao do {{c1::sangue}}.",
+    "Extra": "Partes: an- (ausencia/falta) + -emia (sangue).<br>Clinico: anemia (deficit de hemoglobina/hemacias), uremia.<br>Limite: -emia aponta 'no sangue', mas o sentido completo vem da raiz.<br>Familia: alomorfe do grego haima.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-004-emia"
+    ]
+  },
+  {
+    "uid": "etim-sfx-005-uria",
+    "noteId": 1784227454996,
+    "Text": "Na poliuria, o sufixo -uria indica uma condicao da {{c1::urina}}.",
+    "Extra": "Partes: poli- (muito) + -uria (urina).<br>Clinico: poliuria (volume urinario aumentado), proteinuria.<br>Limite: -uria refere-se a urina/urinar; a raiz diz o que ha na urina ou como e o volume.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-005-uria"
+    ]
+  },
+  {
+    "uid": "etim-sfx-006-megaly",
+    "noteId": 1784227461342,
+    "Text": "Na esplenomegalia, o sufixo -megalia indica {{c1::aumento}} de um orgao.",
+    "Extra": "Partes: espleno- (baco) + -megalia (aumento).<br>Clinico: esplenomegalia e o aumento do baco; o mesmo -megalia aparece em hepatomegalia (figado) e acromegalia (extremidades).<br>Limite: -megalia descreve o aumento do orgao, nunca a sua causa.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-006-megaly"
+    ]
+  },
+  {
+    "uid": "etim-sfx-007-pathy",
+    "noteId": 1784227467664,
+    "Text": "Na neuropatia, o sufixo -patia indica {{c1::doenca/afeccao}}.",
+    "Extra": "Partes: neuro- (nervo) + -patia (doenca).<br>Clinico: neuropatia, cardiopatia, nefropatia.<br>Limite: -patia e generico ('doenca de'); a raiz define o orgao acometido.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-007-pathy"
+    ]
+  },
+  {
+    "uid": "etim-sfx-008-ectomy",
+    "noteId": 1784227473988,
+    "Text": "Na apendicectomia, o sufixo -ectomia indica {{c1::remocao cirurgica}}.",
+    "Extra": "Partes: apendic- (apendice) + -ectomia (retirada).<br>Clinico: apendicectomia, tireoidectomia.<br>Contraste: -ectomia (retirar) x -tomia (cortar) x -stomia (criar abertura).<br>Limite: -ectomia implica retirar a estrutura, nao apenas abrir.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-008-ectomy"
+    ]
+  },
+  {
+    "uid": "etim-sfx-009-otomy",
+    "noteId": 1784227480322,
+    "Text": "Na traqueotomia, o sufixo -tomia indica {{c1::incisao/corte}}.",
+    "Extra": "Partes: traqueo- (traqueia) + -tomia (corte).<br>Clinico: traqueotomia (incisao na traqueia).<br>Contraste: -tomia (cortar/abrir) x -ectomia (retirar) x -stomia (criar abertura permanente).<br>Limite: cortar nao e o mesmo que remover.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-009-otomy"
+    ]
+  },
+  {
+    "uid": "etim-sfx-010-ostomy",
+    "noteId": 1784227486563,
+    "Text": "Na colostomia, o sufixo -stomia indica a criacao de uma {{c1::abertura}}.",
+    "Extra": "Partes: colo- (colon) + -stomia (boca/abertura).<br>Clinico: colostomia (abertura do colon na parede abdominal).<br>Contraste: -stomia (criar abertura) x -ectomia (retirar) x -tomia (incisar).<br>Limite: -stomia cria comunicacao, geralmente permanente.",
+    "tags": [
+      "etim::lote-00",
+      "etim::sufixos",
+      "etim_uid::etim-sfx-010-ostomy"
+    ]
+  },
+  {
+    "uid": "etim-app-001-mesoderm",
+    "noteId": 1784227492825,
+    "Text": "O folheto embrionario do meio, meso- + derma, e o {{c1::mesoderma}}.",
+    "Extra": "Partes: meso- (meio) + derm/a (camada/pele).<br>Clinico: origina musculo, osso, sangue e rim.<br>Familia: ectoderma (externo), endoderma (interno).<br>Limite: aqui 'derma' significa folheto/camada, nao a pele adulta.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-001-mesoderm"
+    ]
+  },
+  {
+    "uid": "etim-app-002-ectoderm",
+    "noteId": 1784227499113,
+    "Text": "O folheto embrionario externo, ecto- + derma, e o {{c1::ectoderma}}.",
+    "Extra": "Partes: ecto- (externo) + derm/a (camada).<br>Clinico: origina epiderme e sistema nervoso.<br>Familia: mesoderma (meio), endoderma (interno).<br>Contraste: ecto- (fora) x endo- (dentro).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-002-ectoderm"
+    ]
+  },
+  {
+    "uid": "etim-app-003-endoderm",
+    "noteId": 1784227505322,
+    "Text": "O folheto embrionario interno, endo- + derma, e o {{c1::endoderma}}.",
+    "Extra": "Partes: endo- (interno) + derm/a (camada).<br>Clinico: origina o revestimento do tubo digestivo e respiratorio.<br>Familia: ectoderma (externo), mesoderma (meio).<br>Limite: 'derma' aqui e folheto embrionario.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-003-endoderm"
+    ]
+  },
+  {
+    "uid": "etim-app-004-gametogenesis",
+    "noteId": 1784227511631,
+    "Text": "A formacao dos gametas e a {{c1::gametogenese}} (gameta + -genese, formacao/origem).",
+    "Extra": "Partes: gameto- (celula reprodutiva) + -genese (formacao).<br>Clinico: engloba a producao de espermatozoides e ovulos.<br>Familia: -genese aparece em angiogenese, espermatogenese.<br>Limite: -genese = formar/originar, nao 'quebrar'.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-004-gametogenesis"
+    ]
+  },
+  {
+    "uid": "etim-app-005-spermatogenesis",
+    "noteId": 1784227517958,
+    "Text": "A formacao dos espermatozoides e a {{c1::espermatogenese}} (espermato- + -genese).",
+    "Extra": "Partes: espermato- (semente/espermatozoide) + -genese (formacao).<br>Clinico: ocorre nos tubulos seminiferos do testiculo.<br>Familia: ovogenese, gametogenese.<br>Limite: nomeia a producao, nao a funcao do gameta.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-005-spermatogenesis"
+    ]
+  },
+  {
+    "uid": "etim-app-006-oogenesis",
+    "noteId": 1784227524269,
+    "Text": "A formacao do oocito e a {{c1::ovogenese}} (oo-, ovo + -genese).",
+    "Extra": "Partes: oo- (ovo) + -genese (formacao).<br>Clinico: ocorre no ovario; comeca ainda na vida fetal.<br>Familia: espermatogenese, gametogenese.<br>Limite: PT usa 'ovogenese'; o 'oo-' grego significa ovo.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-006-oogenesis"
+    ]
+  },
+  {
+    "uid": "etim-app-007-neurulation",
+    "noteId": 1784227530591,
+    "Text": "A formacao do tubo neural no embriao chama-se {{c1::neurulacao}} (raiz neur-, nervo).",
+    "Extra": "Partes: neur- (nervo/neural) dentro do processo embrionario.<br>Clinico: da origem ao sistema nervoso central.<br>Familia: neur- em neuronio, neuropatia.<br>Limite: nomeia o processo, nao o defeito (ex.: defeitos do fechamento sao a excecao).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-007-neurulation"
+    ]
+  },
+  {
+    "uid": "etim-app-008-epithelium",
+    "noteId": 1784227536856,
+    "Text": "Epi- + thele (mamilo) deu 'epitelio', mas hoje o termo designa qualquer tecido de {{c1::revestimento}}, nao so o do mamilo.",
+    "Extra": "Literal: 'sobre o mamilo' (a origem historica descrevia a pele sobre o mamilo).<br>Clinico: epitelio e o tecido que reveste superficies e cavidades.<br>Limite: caso classico de literal != clinico; a glosa historica nao define o tecido atual.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-app-008-epithelium"
+    ]
+  },
+  {
+    "uid": "etim-app-009-endothelium",
+    "noteId": 1784227543173,
+    "Text": "Endo- + thele originou 'endotelio', hoje definido como o revestimento interno de vasos e do {{c1::coracao}}.",
+    "Extra": "Literal: derivado do mesmo thel- do epitelio, com o prefixo endo-.<br>Clinico: endotelio e o epitelio simples pavimentoso que forra o interior dos vasos e das camaras cardiacas.<br>Limite: a glosa literal nao entrega a localizacao; ela vem da definicao atual.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-app-009-endothelium"
+    ]
+  },
+  {
+    "uid": "etim-app-010-pericardium",
+    "noteId": 1784227549494,
+    "Text": "A membrana que envolve o coracao, peri- + cardi-, e o {{c1::pericardio}}.",
+    "Extra": "Partes: peri- (ao redor) + cardi- (coracao) + -io.<br>Clinico: saco fibrosseroso que protege o coracao.<br>Familia: miocardio (musculo), endocardio (revestimento interno).<br>Contraste espacial: peri- (ao redor) x mio- (musculo) x endo- (interno).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-010-pericardium"
+    ]
+  },
+  {
+    "uid": "etim-app-011-myocardium",
+    "noteId": 1784227555744,
+    "Text": "A camada muscular do coracao, mio- + cardi-, e o {{c1::miocardio}}.",
+    "Extra": "Partes: mio- (musculo) + cardi- (coracao) + -io.<br>Clinico: musculo cardiaco responsavel pela contracao.<br>Familia: pericardio (ao redor), endocardio (interno).<br>Contraste: mio- (musculo) x peri- (ao redor) x endo- (interno).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-011-myocardium"
+    ]
+  },
+  {
+    "uid": "etim-app-012-endocardium",
+    "noteId": 1784227562055,
+    "Text": "O revestimento interno das camaras cardiacas, endo- + cardi-, e o {{c1::endocardio}}.",
+    "Extra": "Partes: endo- (interno) + cardi- (coracao) + -io.<br>Clinico: endotelio e tecido conjuntivo que forra as camaras e valvas.<br>Familia: pericardio (ao redor), miocardio (musculo).<br>Contraste: endo- (interno) x peri- (ao redor) x mio- (musculo).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-012-endocardium"
+    ]
+  },
+  {
+    "uid": "etim-app-013-angiogenesis",
+    "noteId": 1784227568308,
+    "Text": "A formacao de novos vasos, angio- + -genese, e a {{c1::angiogenese}}.",
+    "Extra": "Partes: angio- (vaso) + -genese (formacao).<br>Clinico: crescimento de novos vasos a partir de vasos existentes.<br>Familia: -genese em gametogenese, angiologia usa a mesma raiz angio-.<br>Limite: -genese = formar; nao confundir com -lise (quebrar).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-013-angiogenesis"
+    ]
+  },
+  {
+    "uid": "etim-app-014-hematopoiesis",
+    "noteId": 1784227574562,
+    "Text": "A producao das celulas do sangue, hemato- + -poese, e a {{c1::hematopoese}}.",
+    "Extra": "Partes: hemato- (sangue) + -poese (producao/fabricacao).<br>Clinico: ocorre na medula ossea.<br>Contraste: -poese (produzir) x -genese (formar/originar); -poese enfatiza a fabricacao continua.<br>Familia: eritropoese, leucopoese.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-014-hematopoiesis"
+    ]
+  },
+  {
+    "uid": "etim-app-015-erythrocyte",
+    "noteId": 1784227580793,
+    "Text": "A celula vermelha do sangue, eritro- + -cito, e o {{c1::eritrocito}}.",
+    "Extra": "Partes: eritro- (vermelho) + -cito (celula).<br>Clinico: hemacia; transporta oxigenio via hemoglobina.<br>Familia: leucocito (branco), trombocito (plaqueta).<br>Contraste de cor: eritro- (vermelho) x leuco- (branco).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-015-erythrocyte"
+    ]
+  },
+  {
+    "uid": "etim-app-016-leukocyte",
+    "noteId": 1784227587041,
+    "Text": "A celula branca de defesa, leuco- + -cito, e o {{c1::leucocito}}.",
+    "Extra": "Partes: leuco- (branco) + -cito (celula).<br>Clinico: celulas do sistema imune (neutrofilos, linfocitos etc.).<br>Familia: eritrocito (vermelho), trombocito (plaqueta).<br>Contraste de cor: leuco- (branco) x eritro- (vermelho).",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-016-leukocyte"
+    ]
+  },
+  {
+    "uid": "etim-app-017-thrombocyte",
+    "noteId": 1784227593330,
+    "Text": "Literalmente 'celula do coagulo', o {{c1::trombocito}} (plaqueta) e na verdade um fragmento celular, nao uma celula inteira.",
+    "Extra": "Partes: trombo- (coagulo) + -cito (celula).<br>Literal: 'celula de coagulo'.<br>Clinico: plaquetas sao fragmentos de megacariocitos, sem nucleo.<br>Limite: o -cito sugere celula completa, mas a plaqueta nao e; literal != realidade histologica.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-app-017-thrombocyte"
+    ]
+  },
+  {
+    "uid": "etim-app-018-lymphadenopathy",
+    "noteId": 1784227599681,
+    "Text": "A doenca dos linfonodos, linfo- + adeno- (glandula/no) + -patia, e a {{c1::linfadenopatia}}.",
+    "Extra": "Partes: linfo- (linfa) + adeno- (glandula/no) + -patia (doenca).<br>Clinico: aumento ou alteracao dos linfonodos.<br>Limite: adeno- significa glandula/no; aqui refere-se ao linfonodo, nao a uma glandula endocrina.<br>Familia: linfangite, adenopatia.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-018-lymphadenopathy"
+    ]
+  },
+  {
+    "uid": "etim-app-019-glycogenesis",
+    "noteId": 1784227606244,
+    "Text": "A sintese de glicogenio a partir de glicose, glico- + -genese, e a {{c1::glicogenese}}.",
+    "Extra": "Partes: glico- (acucar/glicose) + -genese (formacao).<br>Clinico: armazenamento de glicose como glicogenio no figado e musculo.<br>Limite: nao e 'formar acucar em geral'; e especificamente formar glicogenio. Contraste com gliconeogenese e glicogenolise.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::high_risk",
+      "etim::lote-00",
+      "etim_uid::etim-app-019-glycogenesis"
+    ]
+  },
+  {
+    "uid": "etim-app-020-lipolysis",
+    "noteId": 1784227612685,
+    "Text": "A quebra de gordura, lipo- + -lise, e a {{c1::lipolise}}.",
+    "Extra": "Partes: lipo- (gordura) + -lise (quebra/dissolucao).<br>Clinico: hidrolise de triglicerideos em acidos graxos e glicerol.<br>Contraste: -lise (quebrar) x -genese (formar); lipolise x lipogenese.<br>Familia: hemolise, glicolise.",
+    "tags": [
+      "etim::aplicacoes",
+      "etim::lote-00",
+      "etim_uid::etim-app-020-lipolysis"
+    ]
+  }
+]
