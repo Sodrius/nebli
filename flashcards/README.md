@@ -1,46 +1,50 @@
-# flashcards/ — lar do trabalho de cards NEBLI
+# Flashcards NEBLI — operação canônica
 
-> Hub único de tudo que é relacionado aos cards Anki. Criado 2026-07-10 a pedido de Davi; a migração física dos scripts e dados foi executada na mesma data. O **porquê e as regras** vivem em `FLASHCARDS.md` (raiz — carregado no canônico); esta pasta guarda **conhecimento, dados, scripts e planejamento** dos cards.
+Este diretório contém os dados, scripts e especificações permanentes dos decks. Planos fechados, handoffs e relatórios pontuais não ficam aqui: a decisão durável é incorporada neste arquivo ou no cânone correspondente, e auditorias são regeneradas pelos scripts.
 
-## Estrutura
+## Mapa de autoridade
 
-```
-flashcards/
-├── README.md                 este hub
-├── FLASHCARDS.md → (raiz)     filosofia + Regras gerais de curadoria R1-R8 (fica na raiz, canônico)
-├── CURADORIA-ANKING.md        método técnico + comandos
-├── EXEMPLARES-CARDS.md        few-shot de bons cards (forma + gesto)
-├── ANTI-EXEMPLARES-CARDS.md   cards ruins / matches falsos a evitar
-├── estrutura-deck-mestre.md   deck NEBLI espelhando FMUSP (UC › componente › aula)
-├── anking-v12-export.txt →     mora em scripts/ (o EXPORT dos scripts aponta pra lá)
-├── scripts/                   os 13 .py do pipeline de curadoria/monitor + o export bruto
-├── anki-addons/               add-on Ctrl+1 (nebli_flag_suspender)
-├── curadoria/                 curadoria por aula (dados): _INDEX, _TEMPLATE, <slug>.md + <slug>-curado.json
-├── deck-cards/                contratos/padrão de deck por aula
-└── cards-nebli/               cards autorais NEBLI por aula (fonte versionada)
-```
+- `../FLASHCARDS.md`: filosofia, regras gerais e backlog canônico.
+- `CURADORIA-ANKING.md`: método técnico de curadoria e comandos.
+- `PESQUISA-BOM-CARD.md`, `CARD-MIRROR-RUBRICA.md`, `EXEMPLARES-CARDS.md` e `ANTI-EXEMPLARES-CARDS.md`: especificação de fabricação e exemplos.
+- `GUIA-IMAGENS-CARDS-NEBLI.md`: política visual, fontes e créditos.
+- `GUIA-RITMO-E-MODOS.md`: modos de estudo e carga diária.
+- `estrutura-deck-mestre.md`: árvore longitudinal do NEBLI.
+- `etimologia/`: bootcamp finito de linguagem médica; plano, manifesto, schema e lote zero ativos.
+- `curadoria/`, `cards-nebli/` e `deck-cards/`: fontes versionadas por aula.
+- `scripts/`: automação, testes e o corpus local `anking-v12-export.txt`.
+- `decks-apkg/`: entregáveis; manter pacote completo e pacotes por aula apenas enquanto ambos forem necessários.
 
-## O que ficou FORA de flashcards/ (de propósito)
+## Pipeline atual
 
-| Fica em | Por quê |
-|---|---|
-| `arquivos-trabalho/anking-pool-<slug>.json`, `checklist-<slug>.tsv`, `cobertura-<slug>.json` | intermediários transitórios por corrida; a pasta é compartilhada com o pipeline do resumo |
-| `referencias-externas/onde-aprofundar.md` | material de **capa** (bloco "Onde aprofundar"), não do deck |
-| `referencias-externas/blueprint-step1.md` | calibração de capa/redação, não do deck |
-| `referencias-externas/INFRA-REMOTO.md` | infra geral (Docker/remote/scheduler), card-adjacente mas não só de card |
+1. Extrair da E1 uma checklist de conceitos.
+2. Buscar por conteúdo real do card, não apenas pelo caminho de tags.
+3. Ler candidato por candidato e decidir `keep/drop`; a categoria PURA foi abolida.
+4. Preferir AnKing e fontes externas adequadas antes de criar card autoral.
+5. Aplicar o gate absoluto E1↔card: nenhum conceito órfão entra no deck-aula.
+6. Produzir card autoral com `build_card.py`, validar com `lint_neblicard.py` e usar card-mirror quando o lote muda de padrão.
+7. Auditar cobertura, redundância, relevância visual e crédito; relatórios são saídas regeneráveis.
+8. Aplicar de forma idempotente, preferencialmente via staging e com rollback; o AnKing original permanece intocado.
 
-## Como os scripts resolvem paths (para quem for editar)
-- Scripts em `flashcards/scripts/x.py`. Raiz do repo = `dirname(dirname(dirname(__file__)))` (três níveis acima).
-- `EXPORT` = `dirname(__file__)/anking-v12-export.txt` (o export mora junto dos scripts).
-- Dados de curadoria: `RAIZ/flashcards/curadoria/<slug>...`. Intermediários: `RAIZ/arquivos-trabalho/...`.
-- Invocação (a partir da raiz do repo): `python flashcards/scripts/<script>.py ...`.
+## Regras duráveis de qualidade
 
-## Ordem de leitura numa sessão de cards
-1. `FLASHCARDS.md` (raiz) — filosofia + Regras gerais de curadoria (R1–R8).
-2. `flashcards/CURADORIA-ANKING.md` — método técnico + comandos.
-3. `flashcards/EXEMPLARES-CARDS.md` + `ANTI-EXEMPLARES-CARDS.md` — antes de gerar card autoral.
-4. `flashcards/estrutura-deck-mestre.md` — onde o card vai morar no Anki.
+- Inglês médico natural por padrão; uma operação de recuperação por card.
+- Cloze curto no token de maior valor e Extra telegráfico, sem voz de apostila.
+- Imagem específica somente quando melhora reconhecimento ou compreensão; contexto genérico não conta como fechamento visual.
+- Image Occlusion usa fonte apropriada, caixas precisas e crédito real.
+- Anatomia macroscópica combina esquema espacial e peça real quando houver fonte licenciada disponível.
+- O loop card-mirror convergiu em glicogênio em três rodadas e transferiu para pentoses na primeira; a rubrica e o linter são os produtos permanentes desse treino.
 
-## Verificação da migração (2026-07-10)
-- 13 scripts compilam; `RAIZ`/`PROJ_ROOT` resolvem para a raiz do repo; scripts offline acham os dados nos paths novos. Confirmado.
-- Referências atualizadas em `CLAUDE.md`, `ROLES.md`, `FLASHCARDS.md`, `.claude/commands/resumo.md`, `INFRA-REMOTO.md`, `onde-aprofundar.md` e nos docstrings dos scripts.
+## Estado operacional
+
+- O deck P3/UC02 foi reconstruído, exportado e entregue; seu plano de execução foi encerrado.
+- Feedback e email permanecem `preview/read-only` por padrão. Mutações exigem flags explícitas; falha de LLM ou SMTP deve preservar comentários e bandeiras.
+- Ainda faltam o smoke test real do fluxo de feedback, a validação dos add-ons/hooks e a janela segura baseada no reviewer/revlog.
+- Etimologia é o trabalho ativo: produzir o lote zero, validar por sete dias e só então expandir.
+- A distribuição dos APKGs ainda precisa escolher entre pacote completo, pacotes individuais ou ambos fora do Git.
+
+## Política de retenção
+
+Manter aqui somente especificações canônicas, fontes, schemas, dados autorais, testes e scripts reutilizáveis. Remover após o fechamento: planos datados, arquivos `CONTINUAR`, logs de rodada, relatórios regeneráveis, backups intermediários e fixtures `_tmp_test`. Caches Python e saídas de build nunca são documentação.
+
+Intermediários de corrida pertencem a `../arquivos-trabalho/`; entregáveis finais pertencem a `decks-apkg/` ou ao armazenamento externo definido para distribuição.

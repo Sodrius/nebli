@@ -1,0 +1,1470 @@
+N E B L I            ·    A P O S T I L A
+
+
+
+
+Gastrulação e Neurulação
+Embriologia
+
+
+
+
+Disciplina:                         Embriologia (UC02)
+Onde estudar:                       Moore — Embriologia Básica (7ª ed.) + Langman/Sadler, Embriologia Médica
+
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa — não substitui — a aula.
+
+
+
+
+                                                    Davi Sousa — Turma 114
+
+                           (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+
+Sumário
+
+ETAPA 1 — TEXTO DIDÁTICO
+ PARTE I — Gastrulação: do disco de duas camadas ao de três
+   1.1 Os três folhetos vêm do epiblasto
+   1.2 Linha primitiva, nó e ingressão (EMT)
+   1.3 Notocorda: eixo e indutor
+ PARTE II — Neurulação: erguendo e fechando o tubo neural
+   2.1 Indução neural e o tubo neural
+   2.2 Defeitos do tubo neural e ácido fólico
+   2.3 Crista neural: o quarto folheto
+ PARTE III — Derivados do mesoderma e dobramento do corpo
+   3.1 As três faixas do mesoderma
+   3.2 Dobramento céfalo-caudal
+   3.3 Dobramento lateral e tubo digestório
+
+
+
+
+                                                2
+NEBLI                                                                                                 SUMÁRIO
+
+
+
+
+      Etapa 1 — Texto didático
+
+
+     Até agora o embrião era um disco parado de duas camadas de células empilhadas — uma folha
+     por cima (o epiblasto) e uma folha por baixo (o hipoblasto). Não havia frente nem trás, nem
+     esquerda nem direita, nem nada que lembrasse um corpo. Nas próximas três semanas, esse disco
+     vira um animal com cabeça, cauda, tubo nervoso, coluna e um intestino por dentro. E nada disso
+     acontece porque células novas “aparecem” no lugar certo: acontece porque células que já existem
+     se movem, atravessam camadas, se dobram e mudam de forma numa coreografia rigorosamente
+     cronometrada. Esse capítulo é sobre esses movimentos. Primeiro a gastrulação1, que transforma
+     o disco de duas camadas em três e estabelece os eixos do corpo. Depois a neurulação, que ergue a
+     placa nervosa e a fecha num tubo. Por fim o dobramento, que pega o disco achatado e o enrola num
+     corpo tridimensional com um intestino dentro. Como escreveu o embriologista Lewis Wolpert,
+     “não é o nascimento, o casamento ou a morte — é a gastrulação o momento mais importante da
+     sua vida”. Vamos entender por quê.
+
+
+PARTE I — Gastrulação: do disco de duas camadas ao de
+três
+
+1.1 — O problema que a gastrulação resolve
+O corpo humano inteiro — pele, cérebro, coração, ossos, rins, intestino — deriva de apenas três folhetos
+de células, formados todos numa mesma janela de poucos dias na terceira semana. Antes disso, o
+embrião é um disco bilaminar2: duas folhas de células epiteliais, o epiblasto voltado para a cavidade
+amniótica e o hipoblasto voltado para o saco vitelino. Duas camadas não bastam para construir um
+animal. Falta a camada do meio, e falta, acima de tudo, uma organização espacial — uma definição de
+onde é a cabeça, onde é a cauda, o que fica no dorso e o que fica no ventre.
+A gastrulação é o processo que resolve esses dois problemas ao mesmo tempo. Ela é, antes de tudo, um
+evento de morfogênese3 — literalmente, a “geração da forma”. As células do epiblasto adquirem novas
+posições, migram para dentro do disco e passam a ocupar três níveis distintos, estabelecendo o plano
+corporal do embrião. Junto com o movimento vem a sinalização: as células que se movem trocam sinais
+químicos que dizem umas às outras quem vira o quê. É por isso que a gastrulação marca o início da
+morfogênese — a partir daqui o embrião deixa de ser uma pilha de camadas e começa a ter forma de
+corpo.
+Vale fixar quem é o protagonista. Todos os três folhetos germinativos nascem do epiblasto — a folha
+de cima. O hipoblasto, apesar de estar ali embaixo, não vira nenhuma das três camadas do corpo: ele é
+empurrado para as laterais e contribui para tecidos extraembrionários, como o revestimento da vesícula
+
+
+
+
+ 1
+   gastrulação – reorganização da blástula que gera as três camadas germinativas e define o plano corporal
+ 2
+    disco bilaminar – disco embrionário de duas camadas: epiblasto dorsal e hipoblasto ventral, presente antes da
+gastrulação
+  3
+    morfogênese – geração da forma do corpo a partir de movimentos e rearranjos celulares coordenados
+
+                                                       3
+NEBLI                                                                               E TA PA 1 — T E XT O D I D ÁT I CO
+
+vitelínica. Guardar isso desde já evita a confusão mais comum do tema, que veremos adiante: hipoblasto
+não é sinônimo de endoderma.
+
+   Resumindo até aqui: A gastrulação transforma o disco bilaminar (epiblasto + hipoblasto) em trilaminar
+   (ecto + meso + endoderma) por movimento celular, e ao fazê-lo estabelece os eixos do corpo. Todos os
+   três folhetos vêm do epiblasto.
+
+
+1.2 — A linha primitiva: a costura que organiza o embrião
+Para que as células do epiblasto migrem para dentro, elas precisam de uma porta de entrada — e essa
+porta tem um endereço fixo. No dia 15, aproximadamente, surge no epiblasto um sulco alongado na linha
+média, correndo no sentido do que será o eixo cabeça-cauda: a linha primitiva4. Pense nela como uma
+costura aberta no meio do disco, por onde o tecido de cima vai se enfiando para baixo.
+A linha primitiva não é apenas uma passagem: ela é o primeiro sinal de organização do corpo. No
+instante em que ela aparece, o embrião ganha uma linha média — e com ela um lado direito e um lado
+esquerdo (simetria bilateral), uma extremidade cranial e uma caudal. Antes da linha primitiva, o disco
+era simétrico como um prato; depois dela, tem eixos definidos.
+Na extremidade mais anterior da linha primitiva existe um espessamento especial, o nó primitivo5. O nó
+é o centro de comando da gastrulação — é dele que sairão as células que formam a notocorda, a estrutura
+que, mais adiante, vai induzir todo o sistema nervoso. Uma imagem ajuda a fixar a geografia: o nó fica
+na ponta cranial da costura, e a linha se estende dele em direção à futura cauda.
+
+1.3 — A ingressão: a célula que atravessa e escolhe seu destino
+O momento decisivo da gastrulação é o instante em que uma célula do epiblasto para de ser parte de uma
+folha e mergulha para dentro do embrião. Enquanto está no epiblasto, a célula é epitelial: firmemente
+aderida às vizinhas, polarizada, imóvel. Para migrar, ela precisa desfazer essas amarras — dissolver as
+junções que a prendem, perder a polaridade e ganhar a capacidade de rastejar. Essa conversão de célula-
+de-folha em célula-viajante tem nome: EMT6. A EMT é o motor de todo o processo — sem ela, nenhuma
+célula sairia do lugar.
+O destino de cada célula depende de onde ela para depois de atravessar a linha primitiva. As primeiras
+células que ingressam empurram o hipoblasto e ocupam o seu lugar, formando a camada mais profunda:
+o endoderma. As células que vêm em seguida não descem tão fundo — estacionam no espaço entre o
+epiblasto e o endoderma recém-formado, e constituem a camada do meio: o mesoderma. E as células do
+epiblasto que não migram, que permanecem na folha de cima, tornam-se por definição o ectoderma.
+Assim, das mesmas células de partida saem os três folhetos, distinguidos apenas pela posição final:
+quem foi mais fundo é endoderma, quem ficou no meio é mesoderma, quem ficou em cima é ectoderma.
+Fixada a origem, o folheto define a família de órgãos que virá dele — e essa correspondência é um
+dos pontos mais cobrados de toda a embriologia. O ectoderma dá o revestimento externo (epiderme)
+e, surpreendentemente, todo o sistema nervoso. O endoderma forra os tubos internos: o revestimento
+do tubo digestório, do sistema respiratório e das glândulas associadas (fígado, pâncreas). O mesoderma
+
+
+  4
+    linha primitiva – sulco no epiblasto por onde as células migram para dentro na gastrulação; define o eixo crânio-
+caudal e a simetria bilateral
+  5
+    nó primitivo – organizador na extremidade cranial da linha primitiva; fonte da notocorda e centro sinalizador do
+embrião
+  6
+    EMT – transição epitélio-mesenquimal — célula epitelial aderida perde junções e vira célula mesenquimal migratória
+
+                                                         4
+NEBLI                                                                             E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+Em cima: o disco embrionário em corte, com a linha primitiva e o nó primitivo (na extremidade anterior). As
+setas mostram células do epiblasto convergindo para o sulco e mergulhando para dentro. Embaixo: o detalhe do
+movimento — a célula epitelial do epiblasto vira uma “célula em garrafa” (bottle cell), solta-se da folha e assume
+forma de mesênquima migratório. É a transição epitélio-mesênquima em ação.
+
+preenche o meio e vira quase tudo que é “estrutura de sustentação e movimento”: músculos, ossos,
+sangue, rins, gônadas. Nas próximas partes veremos cada um desses destinos de perto.
+
+
+
+
+                                                        5
+NEBLI                                                                             E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+O mesmo evento visto de outro ângulo. Células do epiblasto migram: as que vão para o espaço do meio formam o
+mesoderma; as que se inserem na camada profunda (deslocando o hipoblasto) formam o endoderma. O hipoblasto,
+empurrado lateralmente, contribui para a vesícula vitelínica — tecido extraembrionário, não um dos três folhetos.
+
+
+   Hipoblasto não é o endoderma
+
+   Aluno costuma achar: que o endoderma é simplesmente o hipoblasto, já que ambos são a camada
+   “de baixo”.
+
+   Mecanismo correto: o endoderma se forma quando células do epiblasto migram para baixo e
+   substituem o hipoblasto. O hipoblasto original é deslocado para a periferia e vira tecido extraem­
+   brionário (vesícula vitelínica). Os três folhetos do corpo são todos derivados do epiblasto — o
+   hipoblasto não entra em nenhum deles.
+
+
+
+1.4 — A notocorda: o bastão que vai comandar a próxima etapa
+Entre as células mesodérmicas que ingressam pelo nó primitivo, um grupo tem um destino singular
+e central. Elas migram para a linha média, exatamente sob o futuro sistema nervoso, e se organizam
+
+
+
+
+                                                        6
+NEBLI                                                                              E TA PA 1 — T E XT O D I D ÁT I CO
+
+num cordão maciço que corre no eixo do embrião: a notocorda7. Ela é feita de mesoderma axial — o
+mesoderma da linha do eixo. O processo começa como um tubo (o processo notocordal), que por volta
+do 20º dia atinge sua extensão máxima e por volta do 24º dia se consolida num bastão sólido.
+A notocorda tem três funções que vale separar. A primeira é estrutural: ela age como um eixo rígido,
+um esqueleto provisório que dá firmeza ao embrião antes que exista qualquer osso. A segunda é ser
+precursora da coluna vertebral — mas de um jeito muito específico. A notocorda não vira os corpos das
+vértebras; ela vira apenas o núcleo pulposo, o miolo gelatinoso no centro de cada disco intervertebral.
+Os ossos das vértebras virão de outro tecido (o mesoderma paraxial), que veremos na Parte III. A terceira
+função é a mais importante para o que vem a seguir: a notocorda é indutora. Ela emite sinais químicos
+para o ectoderma que está logo acima dela e o instrui a mudar de destino — a virar tecido nervoso. Sem
+esse sinal, não há sistema nervoso.
+É essa última função que costura a Parte I na Parte II. A gastrulação terminou seu trabalho essencial:
+temos três folhetos e temos eixos. Mas o último ato da gastrulação — colocar a notocorda no lugar — é,
+
+
+
+
+A notocorda formando-se na linha média (cortes transversais do processo notocordal, dias 16–22). É um bastão de
+mesoderma axial logo abaixo do ectoderma. Guardar as três funções: eixo rígido de apoio, futuro núcleo pulposo dos
+discos, e indutor da placa neural — o gatilho da neurulação.
+  7
+    notocorda – bastão de mesoderma axial na linha média; induz a placa neural e origina o núcleo pulposo dos discos
+intervertebrais
+
+                                                         7
+NEBLI                                                                   E TA PA 1 — T E XT O D I D ÁT I CO
+
+ao mesmo tempo, o primeiro ato da neurulação. A notocorda, mal se forma, já começa a conversar com
+o ectoderma acima dela. O que essa conversa produz é o assunto da próxima parte.
+
+
+
+
+                                                 8
+NEBLI                                                                              E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+PARTE II — Neurulação: erguendo e fechando o tubo
+neural
+
+2.1 — Indução neural: a notocorda manda o ectoderma virar nervo
+A neurulação começa com uma ordem. A notocorda, recém-instalada na linha média, sinaliza para a
+faixa de ectoderma diretamente acima dela, e essa faixa responde mudando de identidade: em vez de
+virar epiderme, como faria o ectoderma comum, ela se espessa e vira tecido nervoso primordial. Esse
+espessamento é a placa neural8, e ela aparece por volta do 18º dia. A partir daqui, aquela porção de
+ectoderma passa a se chamar neuroectoderma, e todo o sistema nervoso — cérebro, medula, nervos —
+vai sair dela.
+Repare no encadeamento causal, porque ele é a espinha dorsal do tema: notocorda (mesoderma axial)
+induz → placa neural (neuroectoderma) → sistema nervoso. É um exemplo limpo de indução embri­
+onária, em que um tecido determina o destino do vizinho por sinalização química. O ectoderma sozinho
+não sabe que deve virar nervo; é a notocorda por baixo que lhe dá a instrução. Essa dependência explica
+por que problemas na formação da notocorda ou nos seus sinais repercutem diretamente na formação
+do sistema nervoso.
+
+2.2 — Da placa ao tubo: pregas que se erguem e se fecham
+Tendo a placa neural plana, o próximo passo é transformá-la num tubo. O mecanismo é geométrico e
+vale visualizar em vez de decorar. As bordas laterais da placa neural começam a se elevar, formando duas
+cristas paralelas — as pregas neurais (ou dobras neurais). Entre elas se aprofunda um sulco central, o
+sulco neural. As pregas continuam subindo, se aproximam uma da outra na linha média, e por fim se
+encontram e se fundem no topo. Quando se fundem, o que era uma calha aberta vira um cano fechado:
+o tubo neural.
+Há um detalhe que costuma escapar e que é conceitualmente importante. Ao se fecharem, as pregas
+neurais também se desconectam do ectoderma de revestimento que ficou nas laterais. Ou seja, o tubo
+neural mergulha para dentro do embrião e o ectoderma superficial se fecha por cima dele, restabele­
+cendo uma superfície contínua de epiderme. O sistema nervoso, portanto, nasce na superfície e depois
+se internaliza — ele começa como parte da “pele” e se separa dela ao fechar.
+O fechamento não acontece de uma vez ao longo de todo o comprimento. Ele começa na região do meio (a
+futura região cervical) e avança como um zíper para as duas pontas — em direção à cabeça e em direção à
+cauda. Enquanto o zíper não termina, sobram duas aberturas temporárias nas extremidades, chamadas
+neuroporo9s: o neuroporo rostral (anterior) e o neuroporo caudal (posterior). O rostral se fecha por volta
+do 25º dia e o caudal por volta do 28º. Guardar que existem essas duas aberturas, e que elas fecham por
+último, é a chave para entender os defeitos que veremos a seguir. Com o fechamento completo, entre
+os dias 24 e 26, o tubo neural está pronto para dar origem ao SNC10: a extremidade cranial se dilata em
+vesículas encefálicas (o futuro cérebro) e o resto do tubo vira a medula espinhal.
+
+2.3 — Quando o zíper falha: ácido fólico e os defeitos do tubo neural
+  8
+    placa neural – faixa espessada de ectoderma na linha média, induzida pela notocorda, que origina todo o sistema
+nervoso
+  9
+    neuroporo – abertura temporária em cada extremidade do tubo neural antes do fechamento completo; o rostral fecha
+dia 25, o caudal dia 28
+  10
+     SNC – sistema nervoso central — encéfalo e medula espinhal
+
+                                                         9
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+ A indução neural por volta do 18º dia: a notocorda, na linha média, sinaliza para o ectoderma acima e o converte
+ em placa neural (setas). O ectoderma que recebe o sinal deixa de ser destinado a virar epiderme e passa a ser
+ neuroectoderma — a origem de todo o sistema nervoso.
+
+Se o fechamento do tubo neural depende de dois neuroporos se fecharem por último, então é justamente
+ali, nas extremidades, que as coisas dão errado com mais frequência. Quando um neuroporo não se fecha
+no prazo, o tecido neural permanece exposto e não se desenvolve normalmente — surge um DTN11. O
+onde a falha ocorre define o que resulta. Se o neuroporo rostral (anterior) não fecha, o encéfalo não
+se forma adequadamente: é a anencefalia, incompatível com a vida. Se o neuroporo caudal (posterior)
+não fecha, a falha é na medula e nas vértebras da região lombossacra: é a espinha bífida, de gravidade
+variável.
+O elo com a clínica é direto e tem um mecanismo bioquímico concreto. As extremidades livres do tubo
+neural, durante o fechamento, expressam proteínas que se ligam ao ácido fólico (folato, a vitamina B9).
+O folato é indispensável para a síntese de DNA e, portanto, para a proliferação celular intensa que fecha
+o tubo. Quando falta folato no período em que o tubo está se fechando — as primeiras quatro semanas
+—, o fechamento fica comprometido e o risco de DTN aumenta. Como essa janela é tão precoce (muitas
+vezes antes de a mulher saber que está grávida), a suplementação de folato precisa começar antes da
+concepção.
+
+
+
+ 11
+      DTN – defeito do tubo neural — falha no fechamento do tubo neural, como anencefalia e espinha bífida
+
+                                                           10
+NEBLI                                                                               E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+Em cima, vista dorsal do embrião em quatro tempos: a placa neural (alongada), as pregas neurais que se elevam nas
+bordas, o sulco que se aprofunda, e o tubo que se fecha do meio para as pontas. Embaixo, o corte transversal: a placa
+neural no centro, a futura crista neural nas bordas das pregas, e a futura epiderme nas laterais — que voltam a se
+unir por cima do tubo.
+
+
+
+
+                                                         11
+NEBLI                                                                               E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+   Ácido fólico e a prevenção da espinha bífida
+
+   O tubo neural fecha entre a 3ª e a 4ª semana de gestação — frequentemente antes do diagnóstico
+   da gravidez. As bordas do tubo em fechamento captam folato ativamente, e o folato alimenta
+   a síntese de DNA da proliferação celular que sela os neuroporos. Falta de folato nessa janela →
+   fechamento incompleto → tecido neural exposto → anencefalia (neuroporo rostral) ou espinha
+   bífida (neuroporo caudal). Por isso a recomendação de suplementar ácido fólico no período peri­
+   concepcional — começando antes de engravidar e mantendo nas primeiras semanas. É uma das
+   intervenções de saúde pública mais custo-efetivas conhecidas: uma vitamina barata que previne
+   uma malformação grave, atacando exatamente o passo bioquímico limitante do fechamento.
+
+
+
+2.4 — A crista neural: o quarto folheto que sai viajando
+Quando as pregas neurais se elevam e se fundem, sobra na junção entre elas um grupo de células com um
+comportamento único. Em vez de entrar no tubo neural (virar SNC) ou permanecer na epiderme, essas
+células — a crista neural12 — fazem algo diferente: sofrem uma nova transição epitélio-mesênquima,
+soltam-se e migram por todo o embrião. Sua importância é tão grande e seus derivados tão variados
+que a crista neural é apelidada de “quarto folheto germinativo”.
+A migração é ordenada. As células partem do dorso (de onde o tubo se fechou) e viajam em direção
+ventrolateral, agrupadas em quatro grandes contingentes ao longo do eixo cabeça-cauda: cranial,
+vagal, tronco e lombossacral. Cada contingente coloniza uma região e origina estruturas diferentes. O
+contingente cranial é o mais versátil: dele saem os tecidos conjuntivos, cartilagens e ossos da face (via
+arcos branquiais), os ossículos da orelha média, melanócitos, alguns tecidos do olho e neurônios. Dos
+outros contingentes vêm os gânglios do sistema nervoso periférico, a medula da glândula adrenal e os
+melanócitos do resto do corpo. A lição de fundo é que uma boa parte da face, da pigmentação da pele
+e do sistema nervoso periférico tem uma origem comum e móvel — não nasce onde acaba, mas migra
+até lá.
+Vale contrastar as três populações que saem do neuroectoderma para não confundi-las: o tubo neural
+fica no centro e vira o SNC; a crista neural fica nas bordas e migra para virar o SNP, os melanócitos e a
+face; e a epiderme fecha por cima. Três destinos, uma origem comum na placa neural.
+
+
+
+
+  12
+     crista neural – população de células na borda das pregas neurais que sofre EMT e migra por todo o embrião, origi­
+nando derivados diversos
+
+                                                         12
+NEBLI                                                                              E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+As células da crista neural partem do dorso (onde o tubo neural se fechou) e migram para a região ventrolateral, em
+quatro divisões no sentido crânio-caudal (cranial, vagal, tronco, lombossacral). A mesma população que sobra ao
+fechar o tubo neural vira melanócitos, gânglios periféricos, medula adrenal e boa parte do esqueleto da face.
+
+
+
+
+                                                         13
+NEBLI                                                                              E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+PARTE III — Derivados do mesoderma e o dobramento
+do corpo
+
+3.1 — As três faixas do mesoderma e o que cada uma constrói
+Enquanto o tubo neural se fecha no dorso, o mesoderma — a camada do meio formada na gastrulação
+— se organiza em três faixas longitudinais paralelas, de dentro para fora, cada uma com um destino
+próprio. Colada à notocorda, na linha média, está a faixa mais espessa: o mesoderma paraxial. Ao seu
+lado, uma faixa estreita: o mesoderma intermediário. E mais lateralmente, uma faixa ampla que se
+estende até as bordas do disco: o mesoderma lateral. Saber qual faixa gera qual órgão é, junto com os
+derivados dos folhetos, o conteúdo mais cobrado do assunto.
+O mesoderma paraxial se segmenta em blocos repetidos ao longo do eixo, os somito13s. Cada somito
+é um pequeno bloco que dará origem a uma vértebra e suas costelas, ao músculo esquelético daquele
+segmento e à derme do dorso. É a segmentação dos somitos que explica por que a coluna, as costelas e os
+músculos do tronco têm aquele padrão repetido, vértebra após vértebra. (Lembre da Parte I: a notocorda
+vira só o núcleo pulposo do disco; o corpo ósseo da vértebra vem daqui, do somito.)
+O mesoderma intermediário, a faixa estreita do meio, tem um destino enxuto e fácil de guardar: o
+sistema urinário (rins) e o sistema genital (gônadas). O mesoderma lateral se divide em duas folhas —
+uma somática (parietal) e outra visceral (esplâncnica) — e o espaço entre elas vira as cavidades do corpo
+(o celoma, futuro pleura/pericárdio/peritônio). Dele saem também o sistema cardiovascular e as células
+do sangue (sistema hematopoiético), além de anexos extraembrionários. Uma forma de fixar: paraxial
+faz o “esqueleto e músculo do eixo”, intermediário faz “xixi e reprodução”, lateral faz “cavidades, coração
+e sangue”.
+
+3.2 — Dobramento céfalo-caudal: o disco vira um corpo curvado
+Até agora tudo aconteceu num disco achatado. Um embrião de verdade, porém, é tridimensional, com
+uma barriga fechada e um intestino por dentro. A transição do disco plano para o corpo em 3D é o
+dobramento embrionário, e ele ocorre em dois planos ao mesmo tempo, de forma concomitante ao
+fechamento do tubo neural. O primeiro é o dobramento céfalo-caudal.
+O motor do dobramento é o crescimento desigual das estruturas. O tubo neural e os somitos crescem
+muito mais rápido do que as bordas do disco, e a cavidade amniótica, que se expande por cima
+(dorsalmente) do embrião, empurra as extremidades para baixo. O resultado é que as pontas do disco —
+a cranial e a caudal — se curvam ventralmente, para baixo e para dentro, formando a prega cranial e a
+prega caudal. O embrião, que era uma folha plana, adquire a forma de um “C” fechando sobre o próprio
+ventre. Esse encurvamento é o que confere tridimensionalidade na direção cabeça-cauda: a cabeça se
+projeta para a frente sobre o coração em formação, e a cauda se dobra por baixo.
+
+3.3 — Dobramento lateral: fechando o ventre e criando o intestino
+O segundo plano de dobramento acontece de lado. As bordas laterais do disco, empurradas pela expan­
+são da cavidade amniótica, também se curvam ventralmente — são as pregas laterais. Elas avançam
+uma em direção à outra por baixo do embrião até se encontrarem na linha média ventral, fechando a
+
+
+  13
+     somito – blocos segmentares de mesoderma paraxial que originam vértebras, costelas, músculo esquelético e derme
+do dorso
+
+                                                        14
+NEBLI                                                                             E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+O leque de derivados do mesoderma, de medial para lateral. Paraxial → somitos → músculo, esqueleto e derme. In­
+termediário → rins e gônadas. Lateral → sistema vascular e hematopoiético, membranas serosas (pleura/peritônio)
+e anexos extraembrionários. No centro, a notocorda. Guardar este mapa vale por vários parágrafos de texto.
+
+parede do corpo como quem fecha um pacote. É o dobramento lateral que sela o ventre e dá ao embrião
+sua forma cilíndrica fechada.
+O evento mais consequente do dobramento lateral acontece com o endoderma. Enquanto as pregas
+laterais se fecham, elas arrastam consigo a folha de endoderma, que estava aberta e achatada por baixo.
+Ao se encontrarem no ventre, elas enrolam esse endoderma num tubo: o tubo intestinal primitivo,
+futuro tubo digestório. O endoderma, que forra esse tubo por dentro, fica assim aprisionado no interior
+do embrião, ventral ao mesoderma. Uma parte do endoderma continua conectada à vesícula vitelínica
+por fora, mas o essencial já é um cano interno, correndo da cabeça à cauda. A extremidade anterior desse
+tubo será a boca e a posterior será o ânus.
+Há dois pontos, um em cada ponta do tubo, onde o mesoderma nunca se interpôs entre o ectoderma e
+o endoderma — e é por isso que ali as duas camadas ficam em contato direto, formando membranas
+finas que depois se rompem para abrir a boca e o ânus. Na frente, a placa precordal origina a membrana
+
+
+
+                                                       15
+NEBLI                                                                           E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+Corte sagital do dobramento céfalo-caudal em três tempos. As pregas cranial e caudal se curvam ventralmente (a
+cavidade amniótica, dorsal, expande e “abraça” o embrião). O disco plano vira um corpo em forma de C — a tridi­
+mensionalidade no eixo cabeça-cauda.
+
+bucofaríngea14: é onde a boca vai se abrir. Atrás, a região cloacal origina a membrana cloacal: é onde o
+ânus vai se abrir. Nessas duas regiões — e só nelas — não há mesoderma no meio, o que explica por que
+são pontos frágeis, destinados a se romper e criar as aberturas do tubo digestório para o exterior.
+
+
+
+
+  14
+     membrana bucofaríngea – membrana anterior de ecto + endoderma, sem mesoderma entre elas; rompe-se para
+formar a abertura da boca
+
+                                                      16
+NEBLI                                                                                E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+O dobramento lateral enrola o endoderma num tubo — o tubo digestório primitivo. Ele corre da extremidade
+anterior (futura boca) à posterior (futuro ânus), com as regiões de intestino anterior, médio e posterior já esboçadas.
+O endoderma fica ventral ao mesoderma, aprisionado dentro do corpo agora fechado.
+
+
+   Os dois dobramentos fazem coisas diferentes
+
+   Aluno costuma achar: que o dobramento céfalo-caudal e o lateral são a mesma coisa vista de
+   ângulos diferentes.
+
+   Mecanismo correto: são dois movimentos em planos distintos. O céfalo-caudal curva as pontas
+   cranial e caudal ventralmente (visto em corte sagital) e dá a forma de C. O lateral fecha as paredes
+   do corpo pelos lados (visto em corte transversal) e, ao fazê-lo, enrola o endoderma no tubo
+   digestório. Os dois ocorrem juntos e, somados, transformam o disco plano num corpo cilíndrico
+   fechado com intestino por dentro.
+
+
+
+
+                                                          17
+NEBLI                                                                     E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+  Conclusão integradora
+
+  Se há um princípio único que atravessa este capítulo inteiro, é este: o corpo se constrói por
+  movimento, não por aparecimento. Nenhuma das estruturas que vimos surgiu do nada no lugar
+  certo — todas nasceram de células que já existiam e que migraram, atravessaram camadas, se do­
+  braram ou mudaram de forma na hora exata. O mecanismo nuclear que amarra tudo é a sequência
+  de indução e migração deflagrada na gastrulação: o epiblasto ingressa pela linha primitiva (via
+  EMT) e gera os três folhetos; do mesoderma axial nasce a notocorda; a notocorda induz a placa
+  neural; a placa se fecha no tubo neural (SNC) e libera a crista neural migratória; o mesoderma
+  se reparte em paraxial, intermediário e lateral, cada um com seus órgãos; e o dobramento em
+  dois planos enrola o disco num corpo 3D com o endoderma aprisionado como tubo digestório.
+  A clínica retomada mostra por que isso importa na prática: como o fechamento do tubo neural
+  depende de proliferação celular ávida por folato numa janela precocíssima, a falta de ácido fólico
+  periconcepcional trava exatamente esse passo e resulta em anencefalia ou espinha bífida — uma
+  malformação grave prevenível com uma vitamina barata. Daqui em diante, cada folheto e cada
+  tubo que formamos vira o ponto de partida da organogênese: os somitos viram coluna e músculo,
+  o tubo neural vira encéfalo e medula, o tubo digestório se especializa em faringe, estômago e
+  intestino. A forma do corpo está pronta; o próximo capítulo é sobre transformá-la em órgãos.
+
+
+
+
+                                                  18
+NEBLI                                                                               E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+    Resumindo
+
+
+Gastrulação = movimento                                     DTN e ácido fólico
+O disco bilaminar (epiblasto + hipoblasto)                  Se um neuroporo não fecha: neuroporo rostral
+vira trilaminar por migração celular, não por               → anencefalia; caudal → espinha bífida. As
+surgimento de células novas. Ao mover as células            bordas do tubo captam folato para a síntese
+para três níveis, a gastrulação também estabelece           de DNA do fechamento — daí a suplementação
+os eixos do corpo — é o início da morfogênese.              periconcepcional de ácido fólico.
+
+
+Tudo vem do epiblasto                                       Crista neural viajante
+Os três folhetos (ecto, meso, endoderma) derivam            As células da borda das pregas sofrem EMT
+todos do epiblasto. O hipoblasto é deslocado e forma        e migram (cranial, vagal, tronco, lombossacral).
+tecido extraembrionário (vesícula vitelínica) — não         Originam melanócitos, gânglios do SNP, medula
+é o endoderma.                                              adrenal e boa parte da face — o “quarto folheto”.
+
+
+Linha e nó primitivos                                       Derivados do mesoderma
+A linha primitiva é o sulco por onde o epiblasto            Paraxial → somitos → vértebras, costelas, músculo
+ingressa; ao surgir, define eixo crânio-caudal e            e derme. Intermediário → rins e gônadas.
+simetria bilateral. O nó, na ponta anterior, é o            Lateral → cavidades serosas, sistema vascular e
+organizador que gera a notocorda.                           hematopoiético, anexos extraembrionários.
+
+
+Destino pela posição final                                  Dobramento em dois planos
+Quem migra mais fundo (desloca o hipoblasto) vira           Céfalo-caudal curva as pontas ventralmente (forma
+endoderma; quem para no meio vira mesoderma;                de C); lateral fecha o ventre. Juntos, dão
+quem fica na folha de cima vira ectoderma. A                tridimensionalidade e enrolam o endoderma no
+conversão célula-de-folha → célula-viajante é a             tubo digestório — boca na frente (membrana
+EMT.                                                        bucofaríngea), ânus atrás.
+
+
+Notocorda: eixo e indutor
+Bastão de mesoderma axial na linha média. Faz três
+coisas: eixo rígido de apoio, vira o núcleo pulposo
+dos discos (não a vértebra), e induz o ectoderma a
+formar a placa neural.
+
+
+Placa → tubo neural
+A notocorda induz a placa neural (dia 18). As pregas
+neurais se elevam, se fundem e formam o tubo
+neural, que se desconecta da epiderme. Fechamento
+em zíper, dos neuroporos rostral ( dia 25) e caudal
+( dia 28).
+
+
+
+
+                                                       19
+NEBLI                                                                                         RESUMINDO
+
+
+
+
+    Etapa 2 — 30 objetivas
+
+Questão 01        Consolidação
+
+
+Sobre a origem dos folhetos germinativos durante a gastrulação, é correto afirmar:
+
+  A) O ectoderma deriva do hipoblasto, enquanto mesoderma e endoderma surgem do epiblasto que
+  migra através da linha primitiva para as camadas mais profundas do disco.
+
+  B) Os três folhetos formam-se independentemente, cada um a partir de uma população celular
+  distinta já presente no disco bilaminar antes do início da gastrulação.
+
+  C) Os três folhetos derivam todos do epiblasto: as células que migram para o fundo formam o endo­
+  derma, as que param no meio formam o mesoderma e as que ficam formam o ectoderma.
+
+  D) O hipoblasto origina o endoderma diretamente, sem necessidade de migração celular, enquanto o
+  epiblasto se limita a formar o ectoderma de revestimento do embrião.
+
+  E) O mesoderma é o primeiro folheto a se formar e serve de molde para que o epiblasto e o hipoblasto
+  se diferenciem depois nos outros dois folhetos restantes.
+
+
+
+Questão 02        Consolidação
+
+
+A linha primitiva e o nó primitivo têm papéis distintos na gastrulação. Sobre eles, é correto afirmar:
+
+  A) A linha primitiva surge na extremidade caudal e migra em direção cranial, ao passo que o nó
+  primitivo permanece fixo na porção lateral direita do disco embrionário.
+
+  B) O nó primitivo situa-se na extremidade cranial da linha primitiva e funciona como organizador,
+  sendo a fonte das células que formam a notocorda no eixo do embrião.
+
+  C) A linha primitiva é uma estrutura permanente que se transforma na coluna vertebral, enquanto o
+  nó primitivo dá origem ao tubo neural na região posterior do embrião.
+
+  D) O nó primitivo fica na extremidade caudal e origina o endoderma, enquanto a linha primitiva,
+  cranial, é responsável por induzir a formação da placa neural.
+
+  E) Tanto a linha quanto o nó primitivo desaparecem antes da ingressão celular, servindo apenas para
+  marcar o plano de simetria do disco embrionário bilaminar.
+
+
+
+Questão 03        Consolidação
+
+
+Julgue os itens sobre a ingressão celular (transição epitélio-mesenquimal, EMT) e o destino das células
+na gastrulação:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Para migrar pela linha primitiva, a célula do epiblasto perde as junções e a polaridade epiteliais e
+  assume forma mesenquimal migratória.
+
+
+                                                    20
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+  II. O destino independe da posição final: toda célula que ingressa já está determinada a virar meso­
+  derma antes mesmo de começar a migrar.
+
+  III. As células que permanecem no epiblasto, sem migrar, constituem por definição o ectoderma do
+  embrião.
+
+  IV. A camada mais profunda, formada pelas primeiras células a ingressar, que deslocam o hipoblasto,
+  corresponde ao endoderma.
+
+
+
+Questão 04       Consolidação
+
+
+A notocorda é uma estrutura central da terceira semana. Assinale a alternativa que descreve correta­
+mente suas funções:
+
+  A) É formada por ectoderma axial e, além de sustentar o embrião, origina diretamente os corpos das
+  vértebras e o revestimento interno do tubo digestório.
+
+  B) Serve apenas como eixo rígido transitório, sem qualquer papel de sinalização, sendo integralmente
+  reabsorvida sem deixar nenhum derivado no organismo adulto.
+
+  C) Origina o tubo neural por dobramento direto de suas próprias células, dispensando qualquer
+  indução sobre o ectoderma sobrejacente do disco embrionário.
+
+  D) É um bastão de mesoderma axial que age como eixo rígido de apoio, induz o ectoderma a formar a
+  placa neural e origina o núcleo pulposo dos discos intervertebrais.
+
+  E) É uma condensação de endoderma que induz o mesoderma a se segmentar em somitos e depois se
+  transforma nos discos intervertebrais completos, ossos inclusos.
+
+
+
+Questão 05       Consolidação
+
+
+A neurulação começa com um evento de indução. Sobre a formação da placa neural, é correto afirmar:
+
+  A) A notocorda sinaliza para o ectoderma sobrejacente e o induz a espessar-se em placa neural
+  (neuroectoderma), por volta do 18º dia, dando origem ao sistema nervoso.
+
+  B) A placa neural forma-se espontaneamente no ectoderma, sem necessidade de sinal indutor, a partir
+  de células que já estavam comprometidas com o destino nervoso.
+
+  C) É o mesoderma paraxial, e não a notocorda, que induz a placa neural, sinalizando lateralmente para
+  o ectoderma que recobre os somitos em formação.
+
+  D) A placa neural surge do endoderma da linha média, sendo posteriormente recoberta pelo ecto­
+  derma que migra das bordas laterais do disco embrionário.
+
+  E) A indução ocorre no sentido inverso: é a placa neural que induz a notocorda a se formar abaixo dela,
+  estabelecendo então o eixo dorsoventral do corpo.
+
+
+
+Questão 06       Consolidação
+
+
+Julgue os itens sobre a formação e o fechamento do tubo neural:
+
+                                                   21
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+Cada item deve ser julgado de forma independente.
+
+  I. A placa neural fecha-se em tubo sem que suas bordas se elevem, por simples afundamento uniforme
+  de toda a superfície ectodérmica.
+
+  II. Ao se fechar, o tubo neural se desconecta do ectoderma de revestimento, que volta a formar uma
+  superfície contínua de epiderme por cima dele.
+
+  III. O fechamento avança como um zíper, a partir de uma região média em direção às duas extremi­
+  dades, cranial e caudal.
+
+  IV. O tubo neural fecha-se simultaneamente em toda a sua extensão, de modo que não existem
+  aberturas temporárias em suas extremidades.
+
+
+
+Questão 07        Consolidação
+
+
+As células da crista neural originam uma grande variedade de derivados. Assinale a alternativa incor­
+reta:
+
+  A) Contribuem para os melanócitos da pele, distribuídos após a migração das células desde o dorso
+  até regiões distantes do embrião.
+
+  B) Originam gânglios do sistema nervoso periférico, formados por neurônios cujos corpos celulares
+  se agrupam fora do sistema nervoso central.
+
+  C) Dão origem à medula da glândula adrenal, cujas células secretoras derivam da mesma população
+  migratória da crista neural.
+
+  D) Formam tecidos da face, como cartilagens e ossos, a partir do contingente cranial que povoa os
+  arcos branquiais em desenvolvimento.
+
+  E) Constituem o revestimento interno do tubo digestório e dos pulmões, formando o epitélio de
+  origem endodérmica desses órgãos internos.
+
+
+
+Questão 08        Consolidação
+
+
+O mesoderma se organiza em três faixas com destinos distintos. Assinale a correspondência correta:
+
+  A) Mesoderma paraxial origina rins e gônadas; o intermediário origina os somitos; e o lateral origina
+  o núcleo pulposo dos discos intervertebrais do embrião.
+
+  B) Mesoderma intermediário origina o sistema vascular e o sangue; o lateral origina as vértebras e
+  costelas; e o paraxial origina o sistema urinário completo.
+
+  C) Mesoderma paraxial origina somitos (vértebras, costelas, músculo e derme); o intermediário
+  origina rins e gônadas; e o lateral origina cavidades serosas, vasos e sangue.
+
+  D) Mesoderma lateral origina somitos e músculo esquelético; o paraxial origina as gônadas; e o inter­
+  mediário forma as membranas serosas e os anexos extraembrionários.
+
+  E) Todas as três faixas do mesoderma dão origem exclusivamente ao sistema musculoesquelético,
+  diferindo apenas na região do corpo que cada uma delas vem a ocupar.
+
+
+                                                    22
+NEBLI                                                                        E TA PA 2 — 3 0 O B J E T I VA S
+
+
+
+Questão 09        Consolidação
+
+
+Julgue os itens sobre o dobramento do corpo do embrião:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O dobramento céfalo-caudal curva as extremidades cranial e caudal ventralmente, conferindo ao
+  embrião a forma de um C em corte sagital.
+
+  II. O dobramento lateral fecha a parede ventral do corpo e, ao fazê-lo, enrola o endoderma num tubo
+  — o futuro tubo digestório.
+
+  III. Os dois dobramentos ocorrem em sequência bem separada: primeiro o embrião se achata por
+  completo e só muito depois se encurva, sempre num único plano.
+
+  IV. A expansão da cavidade amniótica, dorsal ao embrião, contribui para empurrar as bordas do disco
+  ventralmente durante o dobramento.
+
+
+
+Questão 10       Consolidação
+
+
+Sobre o tubo digestório primitivo e suas membranas terminais, é correto afirmar:
+
+  A) O tubo digestório é revestido por mesoderma lateral, que se enrola durante o dobramento; suas
+  duas aberturas surgem onde o ectoderma é mais espesso.
+
+  B) O revestimento do tubo digestório é endodérmico; suas extremidades — membrana bucofaríngea
+  (anterior) e cloacal (posterior) — carecem de mesoderma e se rompem para abrir boca e ânus.
+
+  C) A membrana bucofaríngea situa-se na extremidade caudal e origina o ânus, enquanto a membrana
+  cloacal, cranial, dá origem à abertura da boca do embrião.
+
+  D) O tubo digestório abre-se para o exterior justamente nas regiões onde há maior acúmulo de
+  mesoderma, que se rompe por pressão das células endodérmicas.
+
+  E) O tubo digestório origina-se do dobramento do tubo neural, que ao se fechar aprisiona parte do
+  ectoderma e o converte no epitélio do intestino primitivo.
+
+
+
+Questão 11      Integração
+
+
+Num experimento hipotético, remove-se cirurgicamente a notocorda de um embrião logo após sua
+formação, antes do 18º dia. O resultado esperado seria:
+
+  A) Formação normal da placa neural, já que o ectoderma dorsal possui informação intrínseca sufi­
+  ciente para se diferenciar em tecido nervoso sem qualquer sinal externo.
+
+  B) Ausência de somitos, pois a notocorda é a estrutura que se segmenta em blocos de mesoderma
+  paraxial ao longo do eixo crânio-caudal do embrião.
+
+  C) Duplicação da placa neural, uma vez que sem a notocorda o ectoderma perde a inibição que
+  normalmente restringe o tecido nervoso à linha média dorsal.
+
+
+
+                                                    23
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  D) Perda do núcleo pulposo apenas, sem qualquer efeito sobre o sistema nervoso, já que a notocorda
+  tem função exclusivamente estrutural no embrião.
+
+  E) Falha na formação da placa neural, pois a indução do neuroectoderma depende do sinal emitido
+  pela notocorda ao ectoderma sobrejacente à linha média.
+
+
+
+Questão 12         Integração
+
+
+A transição epitélio-mesenquimal (EMT) reaparece em momentos distintos do desenvolvimento inicial.
+Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. Na gastrulação, as células do epiblasto migram pela linha primitiva mantendo-se firmemente
+  ancoradas como epitélio, sem sofrer qualquer transição.
+
+  II. Na neurulação, as células da crista neural sofrem uma EMT para se soltar das pregas neurais e
+  migrar pelo embrião.
+
+  III. Em ambos os casos, o mecanismo comum é a perda de adesão e de polaridade epiteliais, com ganho
+  de capacidade migratória.
+
+  IV. A EMT é um mecanismo reutilizado pelo embrião em etapas diferentes, e não um evento exclusivo
+  de um único momento.
+
+
+
+Questão 13         Integração
+
+
+A prevenção dos defeitos do tubo neural com ácido fólico tem uma base bioquímica concreta. O mecan­
+ismo que melhor explica essa relação é:
+
+  A) O folato liga-se diretamente às pregas neurais e as cola mecanicamente na linha média, funcio­
+  nando como uma espécie de adesivo que força o fechamento do tubo.
+
+  B) O folato neutraliza radicais livres que, em excesso, destruiriam o ectoderma de revestimento e
+  impediriam a reconexão da epiderme sobre o tubo neural já fechado.
+
+  C) O folato ativa a notocorda a produzir mais sinal indutor, aumentando o tamanho da placa neural e
+  compensando eventuais falhas na elevação das pregas neurais.
+
+  D) O folato inibe a apoptose das células do nó primitivo, prolongando a existência da linha primitiva
+  até que o tubo neural termine de se fechar completamente.
+
+  E) O folato é cofator da síntese de nucleotídeos e, portanto, da replicação do DNA; sua falta limita a
+  proliferação celular intensa que sela os neuroporos na janela do fechamento.
+
+
+
+Questão 14         Integração
+
+
+Sobre a divisão de tarefas entre a notocorda e o somito na formação da coluna vertebral, assinale a
+alternativa incorreta:
+
+
+
+                                                    24
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  A) O somito, derivado do mesoderma paraxial, origina o corpo ósseo das vértebras e as costelas
+  correspondentes ao seu segmento do eixo.
+
+  B) A notocorda origina o núcleo pulposo, o miolo gelatinoso no centro de cada disco intervertebral,
+  sendo em grande parte substituída por ele.
+
+  C) A notocorda origina o corpo ósseo de cada vértebra, ao passo que o somito contribui apenas com a
+  derme sobrejacente e o músculo esquelético do dorso.
+
+  D) A segmentação dos somitos explica o padrão repetido de vértebras, costelas e músculos ao longo
+  do tronco do embrião.
+
+  E) Notocorda e somito são ambos de origem mesodérmica, mas o primeiro é mesoderma axial e o
+  segundo é mesoderma paraxial segmentado.
+
+
+
+Questão 15         Integração
+
+
+Tubo neural e crista neural derivam ambos da placa neural, mas seguem destinos opostos. A diferença
+essencial entre eles é que:
+
+  A) O tubo neural migra por todo o embrião formando gânglios periféricos, enquanto a crista neural
+  permanece na linha média e origina o encéfalo e a medula.
+
+  B) Ambos permanecem na linha média dorsal, mas o tubo neural forma a substância cinzenta e a
+  crista neural forma a substância branca do sistema nervoso central.
+
+  C) O tubo neural origina apenas os nervos periféricos, ao passo que a crista neural, por não migrar,
+  forma a totalidade do sistema nervoso central do embrião.
+
+  D) O tubo neural permanece central e origina o sistema nervoso central; a crista neural sofre EMT,
+  migra e origina o sistema nervoso periférico, melanócitos e parte da face.
+
+  E) A crista neural forma o tubo digestório após migrar ventralmente, enquanto o tubo neural, dorsal,
+  dá origem ao revestimento epidérmico do embrião em desenvolvimento.
+
+
+
+Questão 16         Integração
+
+
+O tubo digestório primitivo é uma consequência direta do dobramento do corpo. A relação correta entre
+esses eventos é:
+
+  A) O dobramento lateral fecha a parede ventral e, ao aproximar as bordas do disco, enrola a folha de
+  endoderma num tubo interno — o futuro tubo digestório.
+
+  B) O tubo digestório forma-se antes de qualquer dobramento, por escavação de uma cavidade dentro
+  do mesoderma lateral que depois se conecta à vesícula vitelínica.
+
+  C) O dobramento céfalo-caudal, sozinho, empurra o ectoderma para dentro do embrião e o converte
+  num tubo, cujo revestimento origina o epitélio digestório.
+
+  D) O tubo digestório é o próprio tubo neural que, após se fechar dorsalmente, desce até a face ventral
+  do embrião e se especializa em epitélio absortivo intestinal.
+
+
+                                                   25
+NEBLI                                                                        E TA PA 2 — 3 0 O B J E T I VA S
+
+  E) O dobramento não participa da formação do tubo digestório, que resulta apenas da proliferação
+  autônoma do endoderma na região central do disco embrionário.
+
+
+
+Questão 17       Integração
+
+
+O ectoderma é um único folheto, mas origina derivados aparentemente muito diferentes entre si. Julgue
+os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O ectoderma origina tanto a epiderme (revestimento externo) quanto todo o sistema nervoso, via
+  neuroectoderma da placa neural.
+
+  II. A crista neural, por migrar para longe da linha média, é considerada um derivado do mesoderma,
+  e não do ectoderma.
+
+  III. O sistema nervoso forma-se diretamente no interior do embrião, sem jamais ter feito parte da
+  superfície ectodérmica.
+
+  IV. A epiderme e o neuroectoderma, apesar de destinos distintos, compartilham a mesma origem no
+  folheto ectodérmico.
+
+
+
+Questão 18       Integração
+
+
+Durante o desenvolvimento, o sangue e os vasos surgem cedo, ainda na terceira e quarta semanas. A
+origem embrionária desses tecidos é:
+
+  A) O mesoderma paraxial, cuja segmentação em somitos gera, além de vértebras e músculos, também
+  as primeiras ilhotas sanguíneas e os vasos do embrião.
+
+  B) O mesoderma intermediário, que além de originar os rins e as gônadas, fornece as células precur­
+  soras do sistema cardiovascular e das células do sangue.
+
+  C) O endoderma, que ao formar o tubo digestório destaca células que migram para o mesoderma e ali
+  se diferenciam em vasos e em células hematopoiéticas.
+
+  D) O mesoderma lateral, do qual derivam o sistema cardiovascular e o sistema hematopoiético, além
+  das cavidades serosas e dos anexos extraembrionários.
+
+  E) A crista neural, cujo contingente do tronco migra ventralmente e se diferencia nas células
+  endoteliais dos vasos e nas células-tronco do sangue.
+
+
+
+Questão 19       Integração
+
+
+Dois recém-nascidos apresentam defeitos do tubo neural em posições diferentes. A relação entre o
+neuroporo que falhou e a malformação resultante é:
+
+  A) Falha do neuroporo caudal leva à anencefalia, pois a extremidade caudal do tubo corresponde à
+  região que formaria o encéfalo do embrião.
+
+
+
+                                                    26
+NEBLI                                                                            E TA PA 2 — 3 0 O B J E T I VA S
+
+  B) Ambas as malformações resultam da falha do mesmo neuroporo rostral, diferindo apenas na
+  intensidade do dano ao tecido nervoso já formado.
+
+  C) Falha do neuroporo rostral não causa malformação visível, pois a região cranial do tubo é a primeira
+  a fechar e não depende do folato para isso.
+
+  D) Falha do neuroporo rostral (anterior) leva à anencefalia, por não fechar a região que formaria o
+  encéfalo; falha do neuroporo caudal (posterior) leva à espinha bífida, na região lombossacra.
+
+  E) A espinha bífida decorre da falha do neuroporo rostral, e a anencefalia, da falha do caudal, pois o
+  tubo neural fecha no sentido caudal para cranial.
+
+
+
+Questão 20         Integração
+
+
+Julgue os itens sobre o papel organizador da linha primitiva e do nó primitivo na definição do plano
+corporal:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O surgimento da linha primitiva estabelece o eixo crânio-caudal e a simetria bilateral do embrião,
+  que antes era radialmente simétrico.
+
+  II. O nó primitivo, na extremidade cranial da linha, atua como centro organizador e é a fonte das
+  células da notocorda.
+
+  III. A linha primitiva também define qual lado do disco será o direito e qual será o esquerdo, ao instituir
+  a linha média.
+
+  IV. O nó primitivo situa-se na extremidade caudal da linha e origina o endoderma do intestino
+  posterior do embrião.
+
+
+
+Questão 21       Integração
+
+
+As membranas bucofaríngea e cloacal são pontos especiais do embrião. O que explica sua existência e
+sua função é:
+
+  A) São regiões onde o mesoderma se acumula em excesso entre ecto e endoderma, tornando-se tão
+  espesso que acaba por se romper e abrir a boca e o ânus.
+
+  B) São locais onde não há interposição de mesoderma entre ecto e endoderma; por isso as camadas
+  ficam em contato direto, formando membranas que se rompem para abrir boca e ânus.
+
+  C) São condensações de notocorda nas extremidades do embrião que, ao se degenerarem, deixam
+  orifícios por onde o tubo digestório se comunica com o meio externo.
+
+  D) São derivadas da crista neural que migrou para as extremidades do tubo digestório e ali formou
+  esfíncteres musculares controlando a boca e o ânus.
+
+  E) São regiões de ectoderma espessado idênticas à placa neural, que em vez de formar tubo nervoso
+  formam as aberturas anterior e posterior do intestino primitivo.
+
+
+
+
+                                                     27
+NEBLI                                                                       E TA PA 2 — 3 0 O B J E T I VA S
+
+Questão 22       Integração
+
+
+Gastrulação, neurulação e dobramento não são eventos isolados, mas uma cadeia causal encadeada. A
+sequência que reflete corretamente essa dependência é:
+
+  A) O dobramento ocorre primeiro e cria o espaço tridimensional onde depois a gastrulação forma os
+  folhetos e a neurulação ergue o tubo neural do embrião.
+
+  B) Neurulação e gastrulação são simultâneas e independentes: a placa neural forma-se sem relação
+  com a notocorda, que surge só após o dobramento do corpo.
+
+  C) A neurulação precede a gastrulação: o tubo neural forma-se primeiro e serve de molde para que o
+  epiblasto se organize depois nos três folhetos germinativos.
+
+  D) O dobramento lateral induz a gastrulação ao empurrar o epiblasto para dentro, e só então, com os
+  folhetos prontos, a notocorda ergue a placa neural.
+
+  E) A gastrulação gera os folhetos e a notocorda; a notocorda induz a neurulação; o dobramento ocorre
+  concomitante ao fechamento do tubo neural, tornando o embrião tridimensional.
+
+
+
+Questão 23       Integração
+
+
+Julgue os itens sobre o mesoderma paraxial, sua segmentação e seus derivados:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O mesoderma paraxial segmenta-se em blocos repetidos, os somitos, dispostos aos pares ao longo
+  do eixo crânio-caudal.
+
+  II. Cada somito contribui para uma vértebra, as costelas do segmento, o músculo esquelético e a derme
+  do dorso.
+
+  III. A segmentação em somitos não deixa marca no adulto: vértebras e músculos do tronco formam-
+  se sem qualquer padrão repetido.
+
+  IV. Os somitos originam os rins e as gônadas, estruturas que também exibem organização segmentar
+  ao longo do eixo do embrião.
+
+
+
+Questão 24        Integração
+
+
+A formação da placa neural é o exemplo canônico de indução embrionária. O conceito de indução que
+esse evento ilustra é:
+
+  A) O processo pelo qual um tecido determina o destino de um tecido vizinho por meio de sinais
+  químicos, como a notocorda faz ao converter o ectoderma em placa neural.
+
+  B) O processo pelo qual uma célula herda de sua célula-mãe, por divisão, o destino já determinado,
+  sem qualquer influência das células vizinhas ao seu redor.
+
+  C) O processo pelo qual um tecido se dobra sobre si mesmo por forças mecânicas, sem troca de sinais,
+  formando novas estruturas apenas por rearranjo geométrico.
+
+
+
+                                                    28
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  D) O processo pelo qual as células migram coletivamente seguindo um gradiente de nutrientes,
+  agrupando-se ao final na região de maior concentração de energia.
+
+  E) O processo pelo qual dois tecidos idênticos competem por espaço, e o vencedor impõe ao perdedor
+  a sua própria identidade por contato físico direto e prolongado.
+
+
+
+Questão 25       Integração
+
+
+As células da crista neural migram em quatro contingentes crânio-caudais, cada um com derivados
+regionais. Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O contingente cranial contribui para cartilagens e ossos da face, via arcos branquiais, além dos
+  ossículos da orelha média.
+
+  II. As células da crista neural não migram: permanecem no dorso, no ponto onde o tubo neural se
+  fechou, e ali se diferenciam localmente.
+
+  III. Os melanócitos e os gânglios do sistema nervoso periférico estão entre os derivados da crista
+  neural.
+
+  IV. Os quatro contingentes — cranial, vagal, tronco e lombossacral — distribuem-se ao longo do eixo
+  crânio-caudal do embrião.
+
+
+
+Questão 26       Aplicação
+
+
+Uma mulher planeja engravidar. O médico recomenda iniciar ácido fólico já antes da concepção, e não
+apenas após o diagnóstico da gravidez. A justificativa correta é:
+
+  A) O tubo neural fecha entre a 3ª e a 4ª semana, muitas vezes antes de a gravidez ser percebida; o folato
+  precisa estar disponível já nessa janela para o fechamento ocorrer.
+
+  B) O ácido fólico só age no terceiro trimestre, mas leva vários meses para atingir níveis eficazes, de
+  modo que iniciá-lo antes garante a concentração necessária a tempo.
+
+  C) A suplementação precoce previne a não-disjunção cromossômica dos gametas, reduzindo o risco
+  de trissomias como a síndrome de Down no futuro concepto do casal.
+
+  D) O folato é necessário apenas para a formação da placenta, que se organiza antes da concepção e
+  depende dessa vitamina para se fixar corretamente no útero materno.
+
+  E) A recomendação é apenas de precaução genérica, sem relação com um período específico do
+  desenvolvimento, já que o folato atua de modo uniforme por toda a gestação.
+
+
+
+Questão 27       Aplicação
+
+
+Um recém-nascido apresenta uma lesão aberta na região lombossacra, com exposição de tecido nervoso
+e falha no arco vertebral posterior. Esse quadro corresponde a:
+
+
+
+                                                    29
+NEBLI                                                                             E TA PA 2 — 3 0 O B J E T I VA S
+
+     A) Anencefalia, decorrente da falha de fechamento do neuroporo rostral, que impediu a formação do
+     encéfalo na extremidade cranial do tubo neural.
+
+     B) Um defeito de migração da crista neural, que deixou de povoar a região dorsal e resultou na ausência
+     dos melanócitos e gânglios daquele segmento.
+
+     C) Uma falha do dobramento lateral, que não fechou a parede ventral do corpo e deixou o tubo
+     digestório exposto na superfície do recém-nascido.
+
+     D) Espinha bífida, decorrente da falha de fechamento do neuroporo caudal (posterior), que deixou o
+     tubo neural aberto na região lombossacra.
+
+     E) Uma falha da indução notocordal, que impediu a formação da placa neural em toda a extensão do
+     embrião, incompatível com a sobrevivência ao nascimento.
+
+
+
+Questão 28          Aplicação
+
+
+Considere um programa de saúde pública que fortifica a farinha com ácido fólico e orienta suplemen­
+tação periconcepcional. Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+     I. A medida reduz a incidência de defeitos do tubo neural, como anencefalia e espinha bífida, na
+     população.
+
+     II. O benefício depende de o folato estar disponível já no início da gestação, quando o tubo neural
+     se fecha.
+
+     III. A fortificação da farinha é desnecessária, pois toda gestante inicia a suplementação de folato antes
+     mesmo de planejar a gravidez.
+
+     IV. O momento crítico é o início da gestação, coincidindo com a janela de fechamento do tubo neural.
+
+
+
+Questão 29          Aplicação
+
+
+Uma criança nasce com malformações da face e do crânio, envolvendo cartilagens, ossos faciais e os­
+sículos da orelha média. A população embrionária cuja migração anormal melhor explica esse conjunto
+é:
+
+     A) O mesoderma paraxial da região da cabeça, cujos somitos occipitais deveriam ter formado toda a
+     face e o crânio a partir do tecido segmentado.
+
+     B) O endoderma da faringe, que ao não se dobrar corretamente deixou de originar as cartilagens e os
+     ossos que compõem o esqueleto da face do embrião.
+
+     C) O contingente cranial da crista neural, que povoa os arcos branquiais e origina cartilagens, ossos
+     da face e ossículos da orelha média.
+
+     D) As células do tubo neural cranial, que ao migrarem para fora do encéfalo deveriam ter constituído
+     o esqueleto facial e os ossículos auditivos.
+
+
+
+
+                                                       30
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+  E) O mesoderma lateral da cabeça, do qual normalmente derivam os ossos faciais junto com o sistema
+  cardiovascular e as cavidades serosas da região.
+
+
+
+Questão 30       Aplicação
+
+
+Um feto é diagnosticado com agenesia renal unilateral (ausência de um rim) associada a alteração de
+gônada do mesmo lado. A faixa de mesoderma cuja formação foi comprometida é:
+
+  A) O mesoderma paraxial, que ao falhar em se segmentar em somitos deixou de originar os rins e as
+  gônadas do lado afetado do embrião em desenvolvimento.
+
+  B) O mesoderma intermediário, faixa da qual derivam tanto o sistema urinário (rins) quanto o sistema
+  genital (gônadas), o que explica o defeito conjunto do mesmo lado.
+
+  C) O mesoderma lateral, cujas folhas somática e visceral originam normalmente os rins e as gônadas
+  ao delimitarem a cavidade celômica do embrião.
+
+  D) A notocorda, que ao regredir de forma assimétrica deixou de induzir a formação do rim e da gônada
+  em apenas um dos lados do corpo do feto.
+
+  E) A crista neural vagal, cujo contingente migratório deveria ter colonizado o retroperitônio e ali
+  formado tanto o rim quanto a gônada correspondente.
+
+
+
+
+                                                     31
+NEBLI                                                                     E TA PA 2 — 3 0 O B J E T I VA S
+
+
+
+
+   Etapa 3 — 5 discursivas
+
+
+  Questão Q1
+
+  Durante a gastrulação, o disco bilaminar tem duas camadas — epiblasto e hipoblasto —, mas os
+  três folhetos germinativos derivam de uma só delas. Explique de qual camada eles vêm e qual o
+  destino da outra.
+
+
+    M O D E LO D E R E S P O S TA
+
+    Os três folhetos derivam todos do epiblasto. Suas células sofrem transição epitélio-
+    mesenquimal, soltam-se da folha e migram pela linha primitiva: as que vão mais
+    fundo (deslocando o hipoblasto) formam o endoderma, as que param no meio formam
+    o mesoderma, e as que permanecem no epiblasto formam o ectoderma. O destino é
+    definido pela posição final da célula, não por uma origem distinta. O hipoblasto não
+    entra em nenhum folheto do corpo: é empurrado para a periferia e contribui para
+    tecidos extraembrionários, como o revestimento da vesícula vitelínica.
+
+
+
+
+  Questão Q2
+
+  A notocorda é descrita como o “gatilho” da neurulação. Explique o mecanismo pelo qual ela
+  deflagra a formação do sistema nervoso e indique o que resta dela no organismo adulto.
+
+
+    M O D E LO D E R E S P O S TA
+
+    A notocorda é um bastão de mesoderma axial na linha média, logo abaixo do ectoderma.
+    Ela atua por indução embrionária: emite sinais químicos para o ectoderma sobreja­
+    cente e o instrui a mudar de destino — em vez de virar epiderme, ele se espessa em placa
+    neural (neuroectoderma), por volta do 18º dia. Dessa placa sai todo o sistema nervoso.
+    Sem o sinal da notocorda, não há placa neural. No adulto, a notocorda não persiste como
+    bastão: ela é substituída, restando apenas como o núcleo pulposo, o miolo gelatinoso
+    no centro de cada disco intervertebral.
+
+
+
+
+                                                32
+NEBLI                                                                       E TA PA 3 — 5 D I S C U R S I VA S
+
+
+
+  Questão Q3
+
+  A recomendação de ácido fólico para gestantes insiste no início antes da concepção. Explique a
+  base mecanística que torna o momento tão crítico.
+
+
+    M O D E LO D E R E S P O S TA
+
+    O tubo neural se fecha muito cedo, entre a 3ª e a 4ª semana — frequentemente antes de
+    a mulher saber que está grávida. O fechamento é selado por proliferação celular intensa
+    nas bordas dos neuroporos, e o folato é indispensável à síntese de nucleotídeos e, por­
+    tanto, à replicação do DNA dessa proliferação. Se falta folato exatamente nessa janela, o
+    fechamento falha e surge um defeito do tubo neural (anencefalia, se o neuroporo rostral;
+    espinha bífida, se o caudal). Por isso a suplementação deve ser periconcepcional: o
+    folato precisa já estar disponível quando o tubo se fecha, não depois.
+
+
+
+
+  Questão Q4
+
+  A crista neural é apelidada de “quarto folheto germinativo”, embora não seja um dos três folhetos
+  da gastrulação. Justifique o apelido e explique a lógica por trás da diversidade de seus derivados.
+
+
+    M O D E LO D E R E S P O S TA
+
+    O apelido vem da diversidade e do alcance de seus derivados, comparáveis aos de
+    um folheto próprio, embora ela derive do neuroectoderma (ectoderma). Ao se fechar
+    o tubo neural, as células da borda das pregas sofrem transição epitélio-mesenquimal
+    e migram por todo o embrião, em quatro contingentes crânio-caudais (cranial, vagal,
+    tronco, lombossacral). É a migração que explica a diversidade: uma mesma população
+    chega a regiões distantes e origina melanócitos, gânglios do sistema nervoso periférico,
+    medula adrenal e, no contingente cranial, cartilagens e ossos da face. Não nascem onde
+    acabam — migram até lá.
+
+
+
+
+                                                  33
+NEBLI                                                                E TA PA 3 — 5 D I S C U R S I VA S
+
+
+
+  Questão Q5
+
+  O embrião, ao fim da neurulação, ainda é um disco relativamente achatado. Descreva como os
+  dois dobramentos do corpo o convertem num organismo tridimensional e como, nesse processo,
+  surge o tubo digestório.
+
+
+    M O D E LO D E R E S P O S TA
+
+    O dobramento ocorre em dois planos concomitantes, impulsionado pelo crescimento
+    do tubo neural e dos somitos e pela expansão da cavidade amniótica dorsal. O dobra­
+    mento céfalo-caudal curva as extremidades cranial e caudal ventralmente (visto em
+    corte sagital), dando ao embrião a forma de um C. O dobramento lateral fecha a parede
+    ventral do corpo pelos lados (visto em corte transversal). É nesse segundo movimento
+    que nasce o tubo digestório: ao aproximarem-se na linha média ventral, as pregas lat­
+    erais enrolam a folha de endoderma num tubo interno, que fica ventral ao mesoderma.
+    Suas extremidades — membrana bucofaríngea (boca) e cloacal (ânus) — carecem de
+    mesoderma e depois se rompem, abrindo o tubo para o exterior.
+
+
+
+
+                                             34
+NEBLI                                           E TA PA 3 — 5 D I S C U R S I VA S
+
+
+Gabarito — Etapa 2
+
+CONSOLIDAÇÃO (Q01–Q10)
+Q01 C         Q02 B       Q03 CECC   Q04 D                Q05 A
+Q06 ECCE      Q07 E       Q08 C      Q09 CCEC             Q10 B
+
+
+INTEGRAÇÃO (Q11–Q25)
+Q11 E          Q12 ECCC   Q13 E      Q14 C                Q15 D
+Q16 A          Q17 CEEC   Q18 D      Q19 D                Q20 CCCE
+Q21 B          Q22 E      Q23 CCEE   Q24 A                Q25 CECC
+
+
+APLICAÇÃO (Q26–Q30)
+Q26 A         Q27 D       Q28 CCEC   Q29 C                Q30 B
+
+
+
+
+                                35
+

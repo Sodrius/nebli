@@ -1,0 +1,338 @@
+{
+  "summary": {
+    "PASS": 33,
+    "NOT_APPLICABLE": 3
+  },
+  "rows": [
+    {
+      "note_id": 1784107770823,
+      "source_note_id": "1783811939209",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Meiosis I of a primary male germ cell produces two secondary spermatocytes.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107775081,
+      "source_note_id": "1783811939250",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Primordial germ cells in the fetal ovary proliferate by mitosis to form oogonia.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107779373,
+      "source_note_id": "1783811939259",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Oogonia that enter meiosis become primary oocytes arrested in prophase I.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107783587,
+      "source_note_id": "1783811939266",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "The preovulatory LH surge drives completion of meiosis I, producing a secondary oocyte.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107787893,
+      "source_note_id": "1783811939294",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "The developmental fate of primordial germ cells is determined primarily by the gonadal environment.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107792150,
+      "source_note_id": "1783811939313",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "Advanced maternal age increases the risk of meiotic nondisjunction.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107796416,
+      "source_note_id": "1783811939329",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "Acrosomal exocytosis exposes the inner acrosomal membrane at the sperm head.",
+      "status": "PASS",
+      "score": 2,
+      "flags": [
+        "name_in_stem:acrosom"
+      ]
+    },
+    {
+      "note_id": 1784107800715,
+      "source_note_id": "1783811939341",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "Binding to zona pellucida glycoproteins triggers sperm acrosomal exocytosis.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107804979,
+      "source_note_id": "1783811939361",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "Embryonic cleavage increases cell number without increasing overall embryonic size.",
+      "status": "PASS",
+      "score": 2,
+      "flags": [
+        "name_in_stem:embryon"
+      ]
+    },
+    {
+      "note_id": 1784107809268,
+      "source_note_id": "1783811944451",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "Neural tube closure normally proceeds bidirectionally from the cervical region.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107813528,
+      "source_note_id": "1783811944466",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "The urinary and genital systems derive primarily from intermediate mesoderm.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107817834,
+      "source_note_id": "1783811944471",
+      "model": "Cloze Medicina - Mecanismo Único",
+      "front": "The space between somatic and splanchnic lateral plate mesoderm becomes the intraembryonic coelom.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107822206,
+      "source_note_id": "1783893211477",
+      "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+      "front": "Multipolar neuron structure",
+      "status": "NOT_APPLICABLE",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107826480,
+      "source_note_id": "1783971560388",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "From inside out, the three vessel tunics are the intima (endothelium), media (smooth muscle/elastin), and adventitia (connective tissue).",
+      "status": "NOT_APPLICABLE",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107830759,
+      "source_note_id": "1783971575038",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Elastic recoil of large arteries maintains forward flow during diastole.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107832818,
+      "source_note_id": "1783971575038",
+      "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+      "front": "This is a gross image of elastic artery",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107834922,
+      "source_note_id": "1783971575038",
+      "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+      "front": "This is a magnified image of elastic artery",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107839206,
+      "source_note_id": "1783971579208",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Elastic lamellae in an arterial wall are highlighted by the Weigert stain.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107843487,
+      "source_note_id": "1783971587557",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "The capillary wall is reduced to just endothelium + basal lamina: no media, no adventitia.",
+      "status": "NOT_APPLICABLE",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107847805,
+      "source_note_id": "1783971602229",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Initial lymphatic capillaries admit interstitial fluid through discontinuous button junctions.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107852033,
+      "source_note_id": "1783971746365",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Unlike other CNS glia, microglia derive from the mesodermal monocyte lineage.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107856403,
+      "source_note_id": "1783971760947",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "In neurons, basophilic cytoplasmic aggregates of rough ER are called Nissl bodies.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107860659,
+      "source_note_id": "1783971773414",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Which molecular motor protein is used for anterograde transport along the microtubule? Kinesin",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107862724,
+      "source_note_id": "1783971773414",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Which molecular motor protein is used for retrograde transport along the microtubule? Dynein",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107866998,
+      "source_note_id": "1783971779679",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Direct bidirectional ion flow through gap junctions characterizes electrical synapses.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107871223,
+      "source_note_id": "1783971788011",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "A single oligodendrocyte can myelinate segments of multiple CNS axons.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107873315,
+      "source_note_id": "1783971788011",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Each Schwann cell can myelinate one axon(s)",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107877641,
+      "source_note_id": "1783971790084",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Action potentials regenerate at myelin-free gaps called nodes of Ranvier.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107881948,
+      "source_note_id": "1783971792201",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Nonmyelinating Schwann cells ensheath small PNS axons without forming myelin.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107886228,
+      "source_note_id": "1783971812959",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "From superficial to deep, the meninges are dura mater, arachnoid mater, and pia mater.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107888320,
+      "source_note_id": "1783971812959",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "Cerebrospinal fluid surrounding the CNS circulates in the subarachnoid space.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107892590,
+      "source_note_id": "1783971957137",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "On antigen-presenting cells, MHC molecules present peptide antigens to T-cell receptors (TCRs).",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107896859,
+      "source_note_id": "1783971961342",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "The T-cell subset that coordinates immune responses through cytokine secretion is the helper T cell.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107901137,
+      "source_note_id": "1783971990964",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "The organ that filters lymph and receives many afferent but one efferent lymphatic vessel is the lymph node.",
+      "status": "PASS",
+      "score": 2,
+      "flags": [
+        "name_in_stem:lymph"
+      ]
+    },
+    {
+      "note_id": 1784107905402,
+      "source_note_id": "1783971993033",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "B-cell follicles occupy the cortex of a lymph node.",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    },
+    {
+      "note_id": 1784107907454,
+      "source_note_id": "1783971993033",
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "front": "The paracortex is the region of a lymph node between follicles and medulla",
+      "status": "PASS",
+      "score": 0,
+      "flags": []
+    }
+  ]
+}

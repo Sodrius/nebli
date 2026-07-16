@@ -1,0 +1,222 @@
+# Inventário do mutirão — fechamento-feedback-2026-07-15
+
+- Gerado em: `2026-07-15T12:52:18.367683-03:00`
+- SHA-256 do conteúdo: `2716aa2594865e6601de4a7ddb02bf26f49eeb2ca6435658f7c48226788cd89c`
+- Notes: **259**
+- Cards: **480**
+
+## Filas
+
+- `learning`: 158
+- `new`: 187
+- `review`: 37
+- `suspended`: 98
+
+## Fontes
+
+- `anking_copy`: 37
+- `nebli_authorial`: 190
+- `unclassified`: 32
+
+## Ações sugeridas
+
+- `imagem_pendente`: 168
+- `manter`: 82
+- `reescrever`: 9
+
+## Estado visual
+
+- `approved`: 21
+- `missing`: 71
+- `needs_specific_review`: 167
+
+## Decks
+
+- `NEBLI::UC02::P3::Anatomia::Circulatório e linfático I`: 113 cards
+- `NEBLI::UC02::P3::Anatomia::Circulatório e linfático II`: 67 cards
+- `NEBLI::UC02::P3::Anatomia::Sistema linfático`: 33 cards
+- `NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos`: 51 cards
+- `NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos`: 59 cards
+- `NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso`: 75 cards
+- `NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização`: 40 cards
+- `NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação`: 42 cards
+
+## Fila prioritária
+
+- note `1783972210119` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972212172` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972214254` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · imagem_contextual_ou_generica
+- note `1783972216320` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972218375` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972220475` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972222569` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972224642` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972226741` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · imagem_contextual_ou_generica
+- note `1783972228806` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972230890` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · imagem_contextual_ou_generica
+- note `1783972232944` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972235041` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972237131` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972239221` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972241283` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · imagem_contextual_ou_generica
+- note `1783972243362` · `reescrever` · `NEBLI::anato-05-circ-linf-I` · cloze_longo, imagem_contextual_ou_generica
+- note `1783972245432` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972247525` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · imagem_contextual_ou_generica
+- note `1783972249632` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972251738` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972253803` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972255910` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972257995` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972260087` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972262190` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972264287` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972266375` · `imagem_pendente` · `NEBLI::anato-05-circ-linf-I` · multi_cloze_revisar_atomicidade, visual_required_nao_aprovado
+- note `1783972435648` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972439784` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972441844` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · visual_required_nao_aprovado
+- note `1783972443927` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972445971` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, visual_required_nao_aprovado
+- note `1783972448080` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972450167` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · imagem_contextual_ou_generica
+- note `1783972452225` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972454329` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · imagem_contextual_ou_generica
+- note `1783972456403` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972458495` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972462658` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972466806` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783990968777` · `imagem_pendente` · `NEBLI::anato-05-sistema-linfatico` · visual_required_nao_aprovado
+- note `1783972540608` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972542676` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972544761` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972546861` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972548939` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972551033` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972553122` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972555177` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972557286` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972559365` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972561439` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972563519` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972565591` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972567652` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972569743` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972571811` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972573909` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972575990` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · imagem_contextual_ou_generica
+- note `1783972578051` · `imagem_pendente` · `NEBLI::anato-06-circ-linf-II` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939188` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939200` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939217` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939223` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939228` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939235` · `reescrever` · `NEBLI::embrio-01-gametogenese-fertilizacao` · cloze_longo, imagem_contextual_ou_generica
+- note `1783811939243` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939274` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811939282` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939291` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939317` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939337` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939351` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939355` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811939366` · `imagem_pendente` · `NEBLI::embrio-01-gametogenese-fertilizacao` · imagem_contextual_ou_generica
+- note `1783811944250` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944258` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944285` · `reescrever` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · cloze_longo, multi_cloze_revisar_atomicidade
+- note `1783811944295` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944305` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944313` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811944320` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783811944328` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944335` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944402` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944409` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944420` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944426` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944431` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944442` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944446` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944456` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944460` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944463` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944474` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944479` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783811944482` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · imagem_contextual_ou_generica
+- note `1783990816257` · `imagem_pendente` · `NEBLI::embrio-02-03-gastrulacao-neurulacao` · visual_required_nao_aprovado
+- note `1783971562502` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971564569` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971570862` · `reescrever` · `NEBLI::histo-09-vasos` · cloze_longo
+- note `1783971579208` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971581319` · `imagem_pendente` · `NEBLI::histo-09-vasos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971583409` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971585480` · `imagem_pendente` · `NEBLI::histo-09-vasos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971587557` · `reescrever` · `NEBLI::histo-09-vasos` · cloze_longo
+- note `1783971589660` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971591764` · `imagem_pendente` · `NEBLI::histo-09-vasos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971593875` · `imagem_pendente` · `NEBLI::histo-09-vasos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971595936` · `imagem_pendente` · `NEBLI::histo-09-vasos` · visual_required_nao_aprovado
+- note `1783971598032` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971606378` · `imagem_pendente` · `NEBLI::histo-09-vasos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971621432` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971623511` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971625610` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971627724` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971629789` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971631888` · `imagem_pendente` · `NEBLI::histo-09-vasos` · imagem_contextual_ou_generica
+- note `1783971742238` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971744290` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971748451` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971750550` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · visual_required_nao_aprovado
+- note `1783971752654` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971754729` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971756819` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971758893` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971763045` · `reescrever` · `NEBLI::histo-10-tecido-nervoso` · cloze_longo, multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971765121` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · visual_required_nao_aprovado
+- note `1783971767196` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971769274` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971771328` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971777575` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971781756` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971783865` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971785935` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971794308` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971796361` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971798446` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · imagem_contextual_ou_generica
+- note `1783971800508` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971802590` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971804666` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · visual_required_nao_aprovado
+- note `1783971806747` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971808813` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971810876` · `imagem_pendente` · `NEBLI::histo-10-tecido-nervoso` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971952930` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971955053` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971957137` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971959230` · `reescrever` · `NEBLI::histo-11-orgaos-linfaticos` · cloze_longo, multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971963425` · `reescrever` · `NEBLI::histo-11-orgaos-linfaticos` · cloze_longo, imagem_contextual_ou_generica
+- note `1783971965861` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971967955` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971970041` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971972149` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971974210` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971976284` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971980435` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971982513` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971984635` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971990964` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783971995130` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783971999343` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972005618` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · multi_cloze_revisar_atomicidade, imagem_contextual_ou_generica
+- note `1783972007705` · `reescrever` · `NEBLI::histo-11-orgaos-linfaticos` · cloze_longo, imagem_contextual_ou_generica
+- note `1783972024857` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972026933` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972029012` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972031098` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972033193` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972035293` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972037352` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1783972039421` · `imagem_pendente` · `NEBLI::histo-11-orgaos-linfaticos` · imagem_contextual_ou_generica
+- note `1784109147623` · `imagem_pendente` · `sem_slug` · imagem_contextual_ou_generica
+- note `1784109162279` · `imagem_pendente` · `sem_slug` · imagem_contextual_ou_generica
+- note `1784109166481` · `imagem_pendente` · `sem_slug` · imagem_contextual_ou_generica
+- note `1784109199934` · `imagem_pendente` · `sem_slug` · imagem_contextual_ou_generica
+- note `1784109260623` · `imagem_pendente` · `sem_slug` · imagem_contextual_ou_generica

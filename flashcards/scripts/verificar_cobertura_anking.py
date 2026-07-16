@@ -97,8 +97,42 @@ def parse_gap_analysis(texto):
         cid = m.group(1) if m else conceito.split()[0] if conceito.split() else "?"
         ncards = cel[2] if len(cel) > 2 else ""
         fonte = cel[3] if len(cel) > 3 else ""
-        linhas.append((cid, conceito, status, ncards, fonte))
+        score_raw = cel[4].strip() if len(cel) > 4 else ""
+        score = int(score_raw) if score_raw in {"0", "1", "2", "3"} else None
+        importancia = cel[5].strip().lower() if len(cel) > 5 else "unclassified"
+        e1_status = cel[6].strip().lower() if len(cel) > 6 else ""
+        e1_justificativa = cel[7].strip() if len(cel) > 7 else ""
+        linhas.append((cid, conceito, status, ncards, fonte, score, importancia,
+                       e1_status, e1_justificativa))
     return linhas
+
+
+def _numero_cards(row):
+    m = re.search(r"\d+", row[3] or "")
+    return int(m.group()) if m else 0
+
+
+def validar_gates_novos(gap, formato_e1):
+    """Gates opt-in do manifesto novo; aulas legadas permanecem compativeis."""
+    if not formato_e1:
+        return []
+    erros = []
+    validos = {"sim", "nao", "não", "dispensado"}
+    for row in gap:
+        cid, conceito, status = row[0], row[1], row[2]
+        importancia, e1_status, justificativa = row[6], row[7], row[8]
+        if e1_status not in validos:
+            erros.append(f"Fontes→E1 {cid} ({conceito}) sem decisão SIM/NAO/DISPENSADO")
+        elif e1_status in {"nao", "não"}:
+            erros.append(f"Fontes→E1 {cid} ({conceito}) ausente da E1; aplicar patch antes de fechar")
+        elif e1_status == "dispensado":
+            if importancia == "nuclear":
+                erros.append(f"Fontes→E1 {cid} ({conceito}) nuclear não pode ser DISPENSADO")
+            if justificativa.strip().lower() in VAZIO:
+                erros.append(f"Fontes→E1 {cid} ({conceito}) DISPENSADO sem justificativa")
+        if importancia == "nuclear" and (status != "COBERTO" or _numero_cards(row) < 1):
+            erros.append(f"E1→Cards {cid} ({conceito}) nuclear sem card aprovado; questão/fila não substitui card")
+    return erros
 
 
 def verificar(slug):
@@ -122,13 +156,31 @@ def verificar(slug):
     lacunas = [g for g in gap if g[2] == "LACUNA"]
     pendentes = [g for g in gap if g[2] == "PENDENTE-GERADO"]
     x = len(cobertos)
+    scored = [g for g in gap if g[5] is not None]
+    avg_r6 = (sum(g[5] for g in scored) / len(scored)) if scored else None
+    cards_e1 = (avg_r6 / 3 * 10) if avg_r6 is not None else None
+    formato_e1 = any(
+        linha.startswith("|") and "na e1?" in linha.lower()
+        for linha in texto.splitlines()
+    )
+    e1_sim = [g for g in gap if g[7] == "sim"]
+    e1_nao = [g for g in gap if g[7] in {"nao", "não"}]
+    e1_dispensado = [g for g in gap if g[7] == "dispensado"]
+    obrigatorios = [g for g in gap if g[6] == "nuclear"]
+    obrigatorios_cobertos = [g for g in obrigatorios if g[2] == "COBERTO" and _numero_cards(g) >= 1]
 
     print(f"# Cobertura AnKing — {slug}\n")
     print(f"**Cobertura AnKing: {x}/{y} conceitos COBERTOS** "
           f"({len(parciais)} parcial, {len(lacunas)} lacuna, "
           f"{len(pendentes)} pendente-gerado)\n")
+    if cards_e1 is not None:
+        print(f"**Cards×E1 (R6): {cards_e1:.1f}/10** — média {avg_r6:.2f}/3 em {len(scored)}/{y} subtópicos\n")
+    if formato_e1:
+        print(f"**Fontes→E1: {len(e1_sim)}/{len(e1_sim) + len(e1_nao)} conceitos relevantes incorporados** "
+              f"({len(e1_dispensado)} dispensado(s) com justificativa)\n")
+    print(f"**E1→Cards: {len(obrigatorios_cobertos)}/{len(obrigatorios)} conceitos nucleares COBERTOS**\n")
 
-    erros = []
+    erros = validar_gates_novos(gap, formato_e1)
 
     # regra 1: conceito da checklist ausente do gap-analysis
     if checklist_ids:
@@ -141,12 +193,19 @@ def verificar(slug):
     sem_fonte = [g for g in (parciais + lacunas + pendentes)
                  if g[4].strip().lower() in VAZIO]
     if sem_fonte:
-        for cid, conceito, status, _n, _f in sem_fonte:
+        for cid, conceito, status, _n, _f, _score, _imp, _e1, _just in sem_fonte:
             erros.append(f"{status} {cid} ({conceito}) sem fonte externa apontada")
+
+    sem_nota = [g for g in gap if g[5] is None]
+    for cid, conceito, _status, _n, _f, _score, _imp, _e1, _just in sem_nota:
+        erros.append(f"R6 {cid} ({conceito}) sem nota qualitativa 0-3")
+    nuclear_raso = [g for g in gap if g[6] == "nuclear" and (g[5] is None or g[5] < 2)]
+    for cid, conceito, _status, _n, _f, score, _imp, _e1, _just in nuclear_raso:
+        erros.append(f"subtópico nuclear {cid} ({conceito}) com R6={score}; exige 2-3")
 
     if lacunas or parciais or pendentes:
         print("## Lacunas / parciais / pendentes → onde completar")
-        for cid, conceito, status, _n, fonte in parciais + lacunas + pendentes:
+        for cid, conceito, status, _n, fonte, score, importancia, _e1, _just in parciais + lacunas + pendentes:
             marca = "" if fonte.strip().lower() not in VAZIO else "  ⚠ SEM FONTE"
             print(f"- **{status} {cid}** {conceito} → {fonte or '(vazio)'}{marca}")
         print()
@@ -155,7 +214,7 @@ def verificar(slug):
         print("## Fila pendente-gerado (sessao futura de calibracao)")
         print("Conceitos sem card real bom no AnKing, enfileirados pra card NEBLI gerado")
         print("APOS calibrar o padrao (ver calibrar-antes-de-gerar-cards). NAO gerar agora.")
-        for cid, conceito, _s, _n, fonte in pendentes:
+        for cid, conceito, _s, _n, fonte, _score, _imp, _e1, _just in pendentes:
             print(f"- {cid} {conceito} → {fonte}")
         print()
 
@@ -170,6 +229,16 @@ def verificar(slug):
         "pendente_gerado": [g[0] for g in pendentes],
         "fonte_por_id": {g[0]: g[4] for g in gap if g[4].strip().lower() not in VAZIO},
         "conceito_por_id": {g[0]: g[1] for g in gap},
+        "nota_r6_por_id": {g[0]: g[5] for g in gap},
+        "importancia_por_id": {g[0]: g[6] for g in gap},
+        "na_e1_por_id": {g[0]: g[7] for g in gap} if formato_e1 else {},
+        "justificativa_e1_por_id": {g[0]: g[8] for g in gap if g[8]} if formato_e1 else {},
+        "fontes_x_e1_incorporados": len(e1_sim) if formato_e1 else None,
+        "fontes_x_e1_relevantes": (len(e1_sim) + len(e1_nao)) if formato_e1 else None,
+        "e1_x_cards_cobertos": len(obrigatorios_cobertos),
+        "e1_x_cards_total": len(obrigatorios),
+        "media_r6_0_3": avg_r6,
+        "cards_x_e1_0_10": cards_e1,
     }
     destino = os.path.join(RAIZ, "arquivos-trabalho", f"cobertura-{slug}.json")
     os.makedirs(os.path.dirname(destino), exist_ok=True)

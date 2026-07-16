@@ -1,6 +1,6 @@
 # CARD-MIRROR — rubrica viva (o que faz um NEBLIcard parecer AnKing-nativo)
 
-> Depósito do aprendizado do loop adversarial (`CARD-MIRROR-PLANO.md`). Cada linha nasceu de um **tell** que o discriminador `card-mirror` pegou e o refinador corrigiu. Isto é a spec de geração: NEBLIcard novo deve satisfazer tudo aqui **antes** de entrar. Alvo do linter futuro (`lint_neblicard.py`).
+> Depósito permanente do aprendizado do loop adversarial. Cada linha nasceu de um **tell** que o discriminador `card-mirror` pegou e o refinador corrigiu. Esta é a spec de geração: NEBLIcard novo deve satisfazer tudo aqui **antes** de entrar e passar por `lint_neblicard.py`.
 
 ## Regras aprendidas (por rodada)
 

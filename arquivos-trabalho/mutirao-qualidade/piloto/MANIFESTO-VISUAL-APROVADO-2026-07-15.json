@@ -1,0 +1,115 @@
+{
+  "cards": [
+    {
+      "note_id": 1784107822206,
+      "visual_need": "required",
+      "image_role": "recognition",
+      "visual_task": "identificar as partes nucleares de um neurônio multipolar sem rótulo visível",
+      "card_mode": "image_occlusion",
+      "image_status": "approved",
+      "image_score": 2,
+      "answer_leakage": false,
+      "preview_path": "../../io/neuron-v2-preview.png",
+      "target_count": 11,
+      "all_duplicate_labels_masked": true,
+      "asset": {
+        "file": "1fe1d39f6b540339dec1042af9348c8b.png",
+        "source_type": "web",
+        "source_locator": "https://commons.wikimedia.org/wiki/File:Blausen_0657_MultipolarNeuron.png",
+        "credit": "BruceBlaus, Blausen 0657 MultipolarNeuron, CC BY 3.0, via Wikimedia Commons",
+        "license_status": "open_ok",
+        "retrieved_at": "2026-07-15",
+        "modifications": "labels used as IO masks; content hash filename",
+        "hash": "2aa5d20a3c071ee77918711bc31e9d0cb3ebdd4fb1403cc2948892c3d8997131"
+      }
+    },
+    {
+      "note_id": 1784107832818,
+      "visual_need": "required",
+      "image_role": "recognition",
+      "visual_task": "reconhecer uma artéria elástica em visão panorâmica",
+      "card_mode": "image_prompt",
+      "placement": "front",
+      "image_status": "approved",
+      "image_score": 2,
+      "answer_leakage": false,
+      "preview_path": "midias-staging/paste-f112050ef0cf0f3c7aa064b34bf043ca70125c73.png",
+      "asset": {
+        "file": "paste-f112050ef0cf0f3c7aa064b34bf043ca70125c73.png",
+        "source_type": "external_deck",
+        "source_locator": "LLU Histology note 1661651431347",
+        "credit": "LLU Histology imported deck; original citation not preserved in the note",
+        "license_status": "private_only",
+        "retrieved_at": "2026-07-15",
+        "modifications": "none",
+        "hash": "d6cf259afd38a19fec03ed23881b1a506412e312438310d28eb9ea21d3fa8077"
+      }
+    },
+    {
+      "note_id": 1784107834922,
+      "visual_need": "required",
+      "image_role": "recognition",
+      "visual_task": "reconhecer lâminas elásticas na túnica média em maior aumento",
+      "card_mode": "image_prompt",
+      "placement": "front",
+      "image_status": "approved",
+      "image_score": 2,
+      "answer_leakage": false,
+      "preview_path": "midias-staging/paste-065224c731df26128c670de194d94627984c751e.png",
+      "asset": {
+        "file": "paste-065224c731df26128c670de194d94627984c751e.png",
+        "source_type": "external_deck",
+        "source_locator": "LLU Histology note 1661651452430",
+        "credit": "LLU Histology imported deck; original citation not preserved in the note",
+        "license_status": "private_only",
+        "retrieved_at": "2026-07-15",
+        "modifications": "none",
+        "hash": "a5abd8d5673528d42f03fcd2a6fd353e7b1cc71562c90a04206a25f090d07069"
+      }
+    },
+    {
+      "note_id": 1784107886228,
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "visual_task": "localizar dura, aracnoide, pia e o espaço subaracnoideo em corte transversal",
+      "card_mode": "explanatory_image",
+      "placement": "extra",
+      "image_status": "approved",
+      "image_score": 2,
+      "answer_leakage": false,
+      "preview_path": "assets/Gray770-en-1280.png",
+      "asset": {
+        "file": "Gray770-en-1280.png",
+        "source_type": "web",
+        "source_locator": "https://commons.wikimedia.org/wiki/File:Gray770-en.svg",
+        "credit": "Mysid, based on Gray's Anatomy plate 770; public domain, via Wikimedia Commons",
+        "license_status": "open_ok",
+        "retrieved_at": "2026-07-15",
+        "modifications": "PNG render at 1280 px",
+        "hash": "234ad4351fc96888cb2333ff803529e82646ff2aa55ebbc5e001f3c5e1962312"
+      }
+    },
+    {
+      "note_id": 1784107888320,
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "visual_task": "localizar o espaço subaracnoideo entre aracnoide e pia",
+      "card_mode": "explanatory_image",
+      "placement": "extra",
+      "image_status": "approved",
+      "image_score": 2,
+      "answer_leakage": false,
+      "preview_path": "assets/Gray770-en-1280.png",
+      "asset": {
+        "file": "Gray770-en-1280.png",
+        "source_type": "web",
+        "source_locator": "https://commons.wikimedia.org/wiki/File:Gray770-en.svg",
+        "credit": "Mysid, based on Gray's Anatomy plate 770; public domain, via Wikimedia Commons",
+        "license_status": "open_ok",
+        "retrieved_at": "2026-07-15",
+        "modifications": "PNG render at 1280 px",
+        "hash": "234ad4351fc96888cb2333ff803529e82646ff2aa55ebbc5e001f3c5e1962312"
+      }
+    }
+  ]
+}

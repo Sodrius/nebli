@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-15",
+  "status": "complete",
+  "flags": [],
+  "comments": [],
+  "staging_notes": [],
+  "staging_decks": [],
+  "required_pending_active": [],
+  "image_occlusion": [
+    {
+      "note_id": 1784129456199,
+      "header": "Thymus histology - identify the darker outer region",
+      "image": "<img src=\"92dcee03643766d902c6fa224bcfb21a.png\">",
+      "I0": "[#!occlusions [[rect0::3,14,26,22]] #]<br>active",
+      "cards": [
+        1784129456199
+      ]
+    },
+    {
+      "note_id": 1784130856872,
+      "header": "Thymus histology - identify the paler central region",
+      "image": "<img src=\"92dcee03643766d902c6fa224bcfb21a.png\">",
+      "I0": "[#!occlusions [[rect0::90,14,20,22]] #]<br>active",
+      "cards": [
+        1784130856872
+      ]
+    }
+  ],
+  "promotion_destinations_verified": "39/39",
+  "dedupe_intrafield_final": {
+    "notes_changed": 0,
+    "occurrences": 0
+  },
+  "inventory": {
+    "notes": 260,
+    "cards": 481,
+    "suspended": 98
+  }
+}

@@ -1,6 +1,7 @@
 # PENDENCIAS.md — ideias a planejar/executar (cards + aprofundamento + deck-mestre)
 
 > Criado 2026-07-10. Backlog focado das ideias que o Davi despejou sobre aprofundamento da E1/E2, cards e o deck-mestre. Complementa `MEMORY.md § Pendências abertas` (que tem o backlog geral). Meta-norte declarada por Davi: **aprender e lembrar a longo prazo.**
+> Suprassumo filtrado em 2026-07-14: ver `PENDENCIAS-NEBLI-SUPRASUMO-2026-07-14.md` para a ordem pratica de ataque.
 
 ## Já EM EXECUÇÃO (canonizado 2026-07-10)
 
@@ -15,6 +16,8 @@
 ## PRECISA DE ANKI VIVO (fazer quando o container subir)
 
 - **Provisionar o container Anki** (INFRA-REMOTO.md) com o perfil do Davi + login AnkiWeb. Hoje não existe container/imagem/coleção nesta máquina — bloqueia todo apply/sync. Ação do Davi (creds/perfil).
+- **Add-ons NEBLI quebrados no Anki desktop.** Investigar `nebli_flag_suspender` e `nebli_card_comments`: Davi relatou que os add-ons instalados nao estao funcionando. Verificar se estao no perfil correto, se o Anki foi reiniciado, se ha conflito de atalho e se os hooks seguem compativeis com a versao instalada.
+- **Reviewer reescondendo/revirando card antes da nota — causa identificada em 2026-07-15.** Uma sequência de mutações via AnkiConnect estava atualizando notas enquanto o Reviewer estava aberto; cada atualização recarregava a frente. Regra permanente: detectar `guiCurrentCard`, nunca mutar durante revisão, preparar fora do Anki e aplicar em lote curto quando o Reviewer estiver inativo.
 - **Add-on de dicionário médico** (tipo AMBOSS, grátis) como add-on do Anki, que ensina os termos médicos nos cards.
 - **Image occlusion (cloze de imagem).** Gerar oclusões de imagem a partir de (a) atlas de anatomia, (b) imagens do slide do professor quando faltar. Foco em anatomia — AnKing é fraco em anatomia macro, e Davi tem provas práticas.
 - **Decks de anatomia da internet pra filtrar.** Puxar decks de anatomia médica, filtrar pelo método de curadoria, ter conteúdo pro deck de anatomia (onde o AnKing não cobre bem).

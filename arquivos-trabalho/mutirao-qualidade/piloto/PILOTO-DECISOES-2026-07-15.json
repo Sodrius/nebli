@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "governing_rule": "PLANO-MUTIRAO-QUALIDADE-DECKS-ANKI.md",
+  "target_deck": "NEBLI::STAGING::Mutirao qualidade::Piloto 2026-07-15",
+  "notes": [
+    {
+      "source_note_id": 1783811939209,
+      "action": "rewrite",
+      "new_text": "Meiosis I of a primary male germ cell produces two {{c1::secondary spermatocytes}}.",
+      "new_extra": "Meiose I: 2n, 4C → n, 2C; depois, meiose II → espermátides.",
+      "e1_anchor": "embrio-01-e1-e3.txt:276-279",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811939250,
+      "action": "rewrite",
+      "new_text": "Primordial germ cells in the fetal ovary proliferate by mitosis to form {{c1::oogonia}}.",
+      "new_extra": "A janela gestacional exata fica como contexto, não como alvo de repetição.",
+      "e1_anchor": "embrio-01-e1-e3.txt:126-141",
+      "importance": "nuclear",
+      "cognitive_role": "foundation"
+    },
+    {
+      "source_note_id": 1783811939259,
+      "action": "rewrite",
+      "new_text": "Oogonia that enter meiosis become {{c1::primary oocytes}} arrested in prophase I.",
+      "new_extra": "A entrada em meiose, não a simples replicação do DNA, define a transição para ovócito primário.",
+      "e1_anchor": "embrio-01-e1-e3.txt:126-141",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811939266,
+      "action": "rewrite",
+      "new_text": "The preovulatory LH surge drives completion of meiosis I, producing a {{c1::secondary oocyte}}.",
+      "new_extra": "A meiose I termina antes da ovulação; o ovócito secundário é ovulado em metáfase II.",
+      "e1_anchor": "embrio-01-e1-e3.txt:187-197",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811939294,
+      "action": "rewrite",
+      "new_text": "The developmental fate of primordial germ cells is determined primarily by the {{c1::gonadal environment}}.",
+      "new_extra": "A mesma célula germinativa primordial pode seguir oogênese ou espermatogênese conforme os sinais da gônada.",
+      "e1_anchor": "embrio-01-e1-e3.txt:76-90",
+      "importance": "nuclear",
+      "cognitive_role": "foundation"
+    },
+    {
+      "source_note_id": 1783811939313,
+      "action": "rewrite",
+      "new_text": "Advanced maternal age increases the risk of meiotic {{c1::nondisjunction}}.",
+      "new_extra": "Ovócitos permanecem décadas em prófase I; o envelhecimento enfraquece coesão cromossômica e controle do fuso, favorecendo aneuploidia.",
+      "e1_anchor": "embrio-01-e1-e3.txt:126-142,587-611",
+      "importance": "bridge_longitudinal",
+      "cognitive_role": "prediction",
+      "confidence": "high"
+    },
+    {
+      "source_note_id": 1783811939329,
+      "action": "rewrite",
+      "new_text": "Acrosomal exocytosis exposes the {{c1::inner acrosomal membrane}} at the sperm head.",
+      "new_extra": "A membrana plasmática do espermatozoide se funde com a membrana acrossômica externa e libera as enzimas.",
+      "e1_anchor": "embrio-01-e1-e3.txt:330-336,420-443",
+      "importance": "important",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811939341,
+      "action": "rewrite",
+      "new_text": "Binding to zona pellucida glycoproteins triggers sperm {{c1::acrosomal exocytosis}}.",
+      "new_extra": "Em humanos, ZP1, ZP3 e ZP4 podem participar da indução; tratar ZP3 isolada como o único gatilho é simplificação do modelo clássico.",
+      "e1_anchor": "embrio-01-e1-e3.txt:415-443",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism",
+      "confidence": "medium",
+      "e1_patch_required": true
+    },
+    {
+      "source_note_id": 1783811939361,
+      "action": "rewrite",
+      "new_text": "Embryonic cleavage increases cell number without increasing {{c1::overall embryonic size}}.",
+      "new_extra": "A zona pelúcida não se expande; o mesmo volume é repartido em blastômeros progressivamente menores.",
+      "e1_anchor": "embrio-01-e1-e3.txt:525-531",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811944451,
+      "action": "rewrite",
+      "new_text": "Neural tube closure normally proceeds {{c1::bidirectionally}} from the cervical region.",
+      "new_extra": "O fechamento avança nos sentidos cranial e caudal, deixando os neuroporos como aberturas temporárias.",
+      "e1_anchor": "embrio-02-03-e1-e3.txt:260-305",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783811944466,
+      "action": "rewrite",
+      "new_text": "The urinary and genital systems derive primarily from {{c1::intermediate mesoderm}}.",
+      "new_extra": "O mesoderma intermediário forma a crista urogenital, origem dos sistemas urinário e genital.",
+      "e1_anchor": "embrio-02-03-e1-e3.txt:397-414",
+      "importance": "nuclear",
+      "cognitive_role": "derivative"
+    },
+    {
+      "source_note_id": 1783811944471,
+      "action": "rewrite",
+      "new_text": "The space between somatic and splanchnic lateral plate mesoderm becomes the {{c1::intraembryonic coelom}}.",
+      "new_extra": "O celoma intraembrionário origina as cavidades pericárdica, pleurais e peritoneal.",
+      "e1_anchor": "embrio-02-03-e1-e3.txt:403-416",
+      "importance": "nuclear",
+      "cognitive_role": "derivative"
+    },
+    {
+      "source_note_id": 1783893211477,
+      "action": "keep_with_credit_fix",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:19-25",
+      "importance": "nuclear",
+      "cognitive_role": "visual_recognition",
+      "visual_manifest_ref": "visual-note-1783893211477"
+    },
+    {
+      "source_note_id": 1783971560388,
+      "action": "keep_control",
+      "e1_anchor": "histo-09-vasos-sanguineos-linfaticos/etapa1.typ:21-31",
+      "importance": "nuclear",
+      "cognitive_role": "structural_relation"
+    },
+    {
+      "source_note_id": 1783971575038,
+      "action": "replace_and_rewrite",
+      "replacement_note_ids": [1661651431347, 1661651452430],
+      "new_text": "Elastic recoil of large arteries maintains forward flow during {{c1::diastole}}.",
+      "new_extra": "Efeito Windkessel: elastina armazena energia na sístole e a devolve na diástole.",
+      "e1_anchor": "histo-09-vasos-sanguineos-linfaticos/etapa1.typ:47-78",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783971579208,
+      "action": "rewrite",
+      "new_text": "Elastic lamellae in an arterial wall are highlighted by the {{c1::Weigert}} stain.",
+      "new_extra": "A coloração torna as lâminas elásticas escuras e facilita distinguir artéria elástica de muscular.",
+      "e1_anchor": "histo-09-vasos-sanguineos-linfaticos/etapa1.typ:59-63",
+      "importance": "contextual_visual",
+      "cognitive_role": "visual_discriminator"
+    },
+    {
+      "source_note_id": 1783971587557,
+      "action": "keep_control",
+      "e1_anchor": "histo-09-vasos-sanguineos-linfaticos/etapa1.typ:98-104",
+      "importance": "nuclear",
+      "cognitive_role": "structural_relation"
+    },
+    {
+      "source_note_id": 1783971602229,
+      "action": "rewrite",
+      "new_text": "Initial lymphatic capillaries admit interstitial fluid through discontinuous {{c1::button junctions}}.",
+      "new_extra": "Abas endoteliais sobrepostas funcionam como microválvulas; filamentos de ancoragem favorecem a abertura com aumento da pressão intersticial.",
+      "e1_anchor": "histo-09-vasos-sanguineos-linfaticos/etapa1.typ:172-185",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism",
+      "e1_patch_required": true
+    },
+    {
+      "source_note_id": 1783971746365,
+      "action": "rewrite",
+      "new_text": "Unlike other CNS glia, microglia derive from the {{c1::mesodermal monocyte lineage}}.",
+      "new_extra": "A origem mesodérmica explica sua função como macrófago residente do sistema nervoso central.",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:81-91",
+      "importance": "nuclear",
+      "cognitive_role": "origin"
+    },
+    {
+      "source_note_id": 1783971760947,
+      "action": "replace",
+      "replacement_note_ids": [1468101772387],
+      "replacement_overrides": {
+        "1468101772387": {
+          "Text": "In neurons, basophilic cytoplasmic aggregates of rough ER are called {{c1::Nissl bodies}}.",
+          "Extra_append": "<br><br><b>NEBLI:</b> Nissl substance corresponds to rough ER and free ribosomes; it is absent from the axon hillock."
+        }
+      },
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:34-48",
+      "importance": "nuclear",
+      "cognitive_role": "structure_function"
+    },
+    {
+      "source_note_id": 1783971773414,
+      "action": "replace",
+      "replacement_note_ids": [1468250081218, 1468250073774],
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:51-59",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783971779679,
+      "action": "rewrite",
+      "new_text": "Direct bidirectional ion flow through gap junctions characterizes {{c1::electrical synapses}}.",
+      "new_extra": "A transmissão é muito rápida e dispensa liberação de neurotransmissor na fenda.",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:64-71",
+      "importance": "important",
+      "cognitive_role": "discriminator"
+    },
+    {
+      "source_note_id": 1783971788011,
+      "action": "replace_and_rewrite",
+      "replacement_note_ids": [1479430500748],
+      "new_text": "A single oligodendrocyte can myelinate segments of {{c1::multiple CNS axons}}.",
+      "new_extra": "No SNP, cada célula de Schwann forma um internódio de um único axônio.",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:99-107",
+      "importance": "nuclear",
+      "cognitive_role": "comparison"
+    },
+    {
+      "source_note_id": 1783971790084,
+      "action": "rewrite",
+      "new_text": "Action potentials regenerate at myelin-free gaps called {{c1::nodes of Ranvier}}.",
+      "new_extra": "A alta densidade de canais de Na+ voltagem-dependentes permite condução saltatória entre os nós.",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:108-114",
+      "importance": "nuclear",
+      "cognitive_role": "mechanism"
+    },
+    {
+      "source_note_id": 1783971792201,
+      "action": "rewrite",
+      "new_text": "Nonmyelinating Schwann cells ensheath small PNS axons without forming {{c1::myelin}}.",
+      "new_extra": "A célula envolve vários axônios em sulcos, mas não produz a espiral concêntrica da bainha.",
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:115-117",
+      "importance": "important",
+      "cognitive_role": "discriminator"
+    },
+    {
+      "source_note_id": 1783971812959,
+      "action": "split",
+      "new_cards": [
+        {
+          "text": "From superficial to deep, the meninges are {{c1::dura mater}}, {{c1::arachnoid mater}}, and {{c1::pia mater}}.",
+          "extra": "A dura é externa e resistente; a pia acompanha diretamente a superfície do SNC."
+        },
+        {
+          "text": "Cerebrospinal fluid surrounding the CNS circulates in the {{c1::subarachnoid space}}.",
+          "extra": "O espaço fica entre aracnoide e pia-máter."
+        }
+      ],
+      "e1_anchor": "histo-10-tecido-nervoso/etapa1.typ:164-169",
+      "importance": "nuclear",
+      "cognitive_role": "localization",
+      "visual_asset": "assets/Gray770-en-1280.png"
+    },
+    {
+      "source_note_id": 1783971957137,
+      "action": "replace",
+      "replacement_note_ids": [1486952617561],
+      "replacement_overrides": {
+        "1486952617561": {
+          "Text": "On antigen-presenting cells, MHC molecules present peptide antigens to {{c1::T-cell receptors (TCRs)}}.",
+          "Extra_append": "<br><br><b>NEBLI:</b> The TCR recognizes the peptide-MHC complex rather than free antigen."
+        }
+      },
+      "e1_anchor": "histo-11-orgaos-linfaticos/etapa1.typ:25-29,48",
+      "importance": "important",
+      "cognitive_role": "receptor_function"
+    },
+    {
+      "source_note_id": 1783971961342,
+      "action": "rewrite",
+      "new_text": "The T-cell subset that coordinates immune responses through cytokine secretion is the {{c1::helper T cell}}.",
+      "new_extra": "Células T helper (CD4+) organizam outras células por citocinas; não são as únicas células capazes de secretar interleucinas.",
+      "e1_anchor": "histo-11-orgaos-linfaticos/etapa1.typ:27,41-44",
+      "importance": "important",
+      "cognitive_role": "cell_function"
+    },
+    {
+      "source_note_id": 1783971990964,
+      "action": "rewrite",
+      "new_text": "The organ that filters lymph and receives many afferent but one efferent lymphatic vessel is the {{c1::lymph node}}.",
+      "new_extra": "A linfa entra pela convexidade, percorre os seios e sai pelo hilo; o baço, em contraste, filtra sangue.",
+      "e1_anchor": "histo-11-orgaos-linfaticos/etapa1.typ:134-149",
+      "importance": "nuclear",
+      "cognitive_role": "organ_identification"
+    },
+    {
+      "source_note_id": 1783971993033,
+      "action": "replace_and_rewrite",
+      "replacement_note_ids": [1486945168998],
+      "new_text": "B-cell follicles occupy the {{c1::cortex}} of a lymph node.",
+      "new_extra": "A zona paracortical, dependente do timo, é predominantemente T; os folículos corticais são B.",
+      "e1_anchor": "histo-11-orgaos-linfaticos/etapa1.typ:138-149",
+      "importance": "nuclear",
+      "cognitive_role": "localization"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-07-15T06:56:51.640138-03:00",
+  "manifest": "arquivos-trabalho\\mutirao-qualidade\\piloto\\PILOTO-DECISOES-2026-07-15.json",
+  "before_snapshot": "arquivos-trabalho\\mutirao-qualidade\\piloto\\ROLLBACK-PILOTO-BEFORE-2026-07-15.json",
+  "created_note_ids": [
+    1784109083059,
+    1784109087334,
+    1784109147623,
+    1784109162279,
+    1784109166481,
+    1784109199934,
+    1784109245923,
+    1784109260623,
+    1784109308569
+  ],
+  "actions": [
+    {
+      "source_note_id": 1783811939209,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939250,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939259,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939266,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939294,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939313,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939329,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939341,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939361,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944451,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944466,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944471,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783893211477,
+      "action": "keep_with_credit_fix",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971560388,
+      "action": "keep_control",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971575038,
+      "action": "replace_and_rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+      "created_note_ids": [
+        1784109083059,
+        1784109087334
+      ],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971579208,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971587557,
+      "action": "keep_control",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971602229,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971746365,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971760947,
+      "action": "replace",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [
+        1784109147623
+      ],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971773414,
+      "action": "replace",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [
+        1784109162279,
+        1784109166481
+      ],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971779679,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971788011,
+      "action": "replace_and_rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [
+        1784109199934
+      ],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971790084,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971792201,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [],
+      "suspended_card_ids": [],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971812959,
+      "action": "split",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+      "created_note_ids": [
+        1784109245923
+      ],
+      "suspended_card_ids": [
+        1783971812959,
+        1783971812960,
+        1783971812962
+      ]
+    },
+    {
+      "source_note_id": 1783971957137,
+      "action": "replace",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+      "created_note_ids": [
+        1784109260623
+      ],
+      "suspended_card_ids": [
+        1783971957137
+      ]
+    },
+    {
+      "source_note_id": 1783971961342,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+      "created_note_ids": [],
+      "suspended_card_ids": [
+        1783971961342
+      ]
+    },
+    {
+      "source_note_id": 1783971990964,
+      "action": "rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+      "created_note_ids": [],
+      "suspended_card_ids": [
+        1783971990964
+      ]
+    },
+    {
+      "source_note_id": 1783971993033,
+      "action": "replace_and_rewrite",
+      "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+      "created_note_ids": [
+        1784109308569
+      ],
+      "suspended_card_ids": [
+        1783971993034
+      ]
+    }
+  ]
+}

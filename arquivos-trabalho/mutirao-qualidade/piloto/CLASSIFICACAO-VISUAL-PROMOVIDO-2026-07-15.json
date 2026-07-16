@@ -1,0 +1,275 @@
+[
+  {
+    "note_id": 1783811939209,
+    "source_note_id": 1783811939209,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939250,
+    "source_note_id": 1783811939250,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939259,
+    "source_note_id": 1783811939259,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939266,
+    "source_note_id": 1783811939266,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939294,
+    "source_note_id": 1783811939294,
+    "visual_need": "none",
+    "image_role": "none",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939313,
+    "source_note_id": 1783811939313,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939329,
+    "source_note_id": 1783811939329,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939341,
+    "source_note_id": 1783811939341,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811939361,
+    "source_note_id": 1783811939361,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811944451,
+    "source_note_id": 1783811944451,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811944466,
+    "source_note_id": 1783811944466,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783811944471,
+    "source_note_id": 1783811944471,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783893211477,
+    "source_note_id": 1783893211477,
+    "visual_need": "required",
+    "image_role": "recognition",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971560388,
+    "source_note_id": 1783971560388,
+    "visual_need": "recommended",
+    "image_role": "comparison",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971575038,
+    "source_note_id": 1783971575038,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971579208,
+    "source_note_id": 1783971579208,
+    "visual_need": "recommended",
+    "image_role": "comparison",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971587557,
+    "source_note_id": 1783971587557,
+    "visual_need": "recommended",
+    "image_role": "comparison",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971602229,
+    "source_note_id": 1783971602229,
+    "visual_need": "recommended",
+    "image_role": "schema",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971746365,
+    "source_note_id": 1783971746365,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971760947,
+    "source_note_id": 1783971760947,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971773414,
+    "source_note_id": 1783971773414,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971779679,
+    "source_note_id": 1783971779679,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971788011,
+    "source_note_id": 1783971788011,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971790084,
+    "source_note_id": 1783971790084,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971792201,
+    "source_note_id": 1783971792201,
+    "visual_need": "optional",
+    "image_role": "context",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971812959,
+    "source_note_id": 1783971812959,
+    "visual_need": "recommended",
+    "image_role": "localization",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1783971957137,
+    "source_note_id": 1783971957137,
+    "visual_need": "none",
+    "image_role": "none",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971961342,
+    "source_note_id": 1783971961342,
+    "visual_need": "none",
+    "image_role": "none",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1783971990964,
+    "source_note_id": 1783971990964,
+    "visual_need": "recommended",
+    "image_role": "localization",
+    "image_status": "pending_review"
+  },
+  {
+    "note_id": 1783971993033,
+    "source_note_id": 1783971993033,
+    "visual_need": "recommended",
+    "image_role": "localization",
+    "image_status": "pending_review"
+  },
+  {
+    "note_id": 1784109083059,
+    "source_note_id": 1783971575038,
+    "visual_need": "required",
+    "image_role": "recognition",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109087334,
+    "source_note_id": 1783971575038,
+    "visual_need": "required",
+    "image_role": "recognition",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109147623,
+    "source_note_id": 1783971760947,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109162279,
+    "source_note_id": 1783971773414,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109166481,
+    "source_note_id": 1783971773414,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109199934,
+    "source_note_id": 1783971788011,
+    "visual_need": "recommended",
+    "image_role": "mechanism",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109245923,
+    "source_note_id": 1783971812959,
+    "visual_need": "recommended",
+    "image_role": "localization",
+    "image_status": "approved"
+  },
+  {
+    "note_id": 1784109260623,
+    "source_note_id": 1783971957137,
+    "visual_need": "none",
+    "image_role": "none",
+    "image_status": "missing"
+  },
+  {
+    "note_id": 1784109308569,
+    "source_note_id": 1783971993033,
+    "visual_need": "recommended",
+    "image_role": "localization",
+    "image_status": "pending_review"
+  }
+]

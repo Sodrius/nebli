@@ -19,7 +19,7 @@ LIMITE conhecido: busca por keyword sofre de POLISSEMIA ("repair" casa hernia/os
 Logo o relatorio e RECALL-orientado -- as tags sao candidatas, a Camada 2
 (leitura card-a-card) faz a precisao. Lacuna real se confirma pelo termo
 distintivo (findNotes "photolyase" = 0). Conserto definitivo = busca semantica
-por embeddings (ver flashcards/PLANO-PESQUISA-CARDS-IA.md, Corrente 4).
+por embeddings (ver flashcards/PESQUISA-BOM-CARD.md, Parte 3).
 
 Uso:
     python flashcards/scripts/descobrir_cards_por_conceito.py <slug>

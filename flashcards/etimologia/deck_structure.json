@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "root": "NEBLI::Etimologia",
+  "purpose": "Bootcamp finito de alfabetizacao morfologica da linguagem medica",
+  "decks": [
+    {"name": "01_Fundamentos", "children": ["01_Prefixo_raiz_sufixo", "02_Forma_combinante_e_vogal_de_ligacao", "03_Grego_latim_e_hibridos", "04_Alomorfes_assimilacao_e_transliteracao", "05_Plurais_medicos"]},
+    {"name": "02_Prefixos", "children": ["01_Posicao_e_direcao", "02_Quantidade_e_tamanho", "03_Tempo_velocidade_e_frequencia", "04_Negacao_ausencia_e_normalidade", "05_Intensidade_relacao_e_semelhanca"]},
+    {"name": "03_Sufixos", "children": ["01_Condicoes_e_processos", "02_Inflamacao_doenca_e_tumor", "03_Sinais_sintomas_e_substancias", "04_Exames_medidas_e_registros", "05_Procedimentos_cirurgicos", "06_Especialidades_e_profissionais"]},
+    {"name": "04_Raizes_por_sistema", "children": ["01_Celula_tecidos_e_embriologia", "02_Cardiovascular_e_hematologico", "03_Respiratorio", "04_Gastrointestinal_e_hepatobiliar", "05_Renal_e_urinario", "06_Nervoso_e_sentidos", "07_Musculoesqueletico", "08_Endocrino_e_metabolico", "09_Reprodutor_e_obstetricia", "10_Pele_imune_e_linfatico"]},
+    {"name": "05_Processos_medicos", "children": ["01_Patologia_geral", "02_Microbiologia_e_imunologia", "03_Farmacologia", "04_Laboratorio_e_imagem", "05_Clinica_e_exame_fisico"]},
+    {"name": "06_Familias_e_contrastes", "children": ["01_Pares_grego_latim", "02_Procedimentos_confundiveis", "03_Processos_confundiveis", "04_Formas_variantes_e_alomorfes", "05_Portugues_ingles_e_latim_anatomico"]},
+    {"name": "07_Excecoes_e_armadilhas", "children": ["01_Polissemia", "02_Falsa_segmentacao", "03_Sentido_literal_vs_clinico", "04_Eponimos_e_acronimos", "05_Termos_hibridos_e_historicos"]},
+    {"name": "08_Transferencia", "children": ["01_Decodificar_termo_novo", "02_Compor_termo", "03_Termo_em_contexto_clinico", "04_Mistura_cumulativa"]},
+    {"name": "09_Avaliacoes", "children": ["01_Diagnostico_inicial", "02_Checkpoint_fundamentos", "03_Checkpoint_sistemas", "04_Prova_final_A", "05_Prova_final_B", "06_Retencao_30_dias"]},
+    {"name": "10_Resgate", "children": ["01_Erros_recorrentes", "02_Familias_fracas", "03_Armadilhas_de_alta_confianca"]}
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-07-15T07:08:26.308703-03:00",
+  "query": "deck:NEBLI::* -deck:NEBLI::STAGING::* tag:NEBLI::visual_need::required -tag:NEBLI::image_status::approved",
+  "blocked_note_ids": [
+    1783971595936,
+    1783971750550,
+    1783971765121,
+    1783971804666,
+    1783972266375,
+    1783972441844,
+    1783972445971,
+    1783990816257,
+    1783990968777
+  ],
+  "newly_suspended_card_ids": [
+    1783971595936,
+    1783971750550,
+    1783971765121,
+    1783971804667,
+    1783972266375,
+    1783972266376,
+    1783972441844,
+    1783972445971,
+    1783972445972,
+    1783990816257,
+    1783990968777
+  ],
+  "rows": [
+    {
+      "note_id": 1783971595936,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783971595936,
+          "queue_before": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971750550,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783971750550,
+          "queue_before": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971765121,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783971765121,
+          "queue_before": 2
+        }
+      ]
+    },
+    {
+      "note_id": 1783971804666,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783971804667,
+          "queue_before": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783972266375,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783972266375,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972266376,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972441844,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783972441844,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972445971,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783972445971,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972445972,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783990816257,
+      "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783990816257,
+          "queue_before": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783990968777,
+      "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+      "cards": [
+        {
+          "card_id": 1783990968777,
+          "queue_before": 0
+        }
+      ]
+    }
+  ]
+}

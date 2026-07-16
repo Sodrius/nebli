@@ -1,0 +1,3370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-15T06:58:56.347372-03:00",
+  "label": "promovido-piloto-2026-07-15",
+  "query": "tag:NEBLI::mutirao_promoted::2026-07-15",
+  "counts": {
+    "notes": 39,
+    "cards": 62,
+    "decks": 5,
+    "queues": {
+      "learning": 24,
+      "suspended": 26,
+      "review": 2,
+      "new": 10
+    },
+    "flags": {
+      "1": 25,
+      "3": 2
+    },
+    "sources": {
+      "anking_copy": 5,
+      "nebli_authorial": 27,
+      "unclassified": 7
+    },
+    "actions": {
+      "revisao_manual": 27,
+      "manter": 10,
+      "imagem_pendente": 2
+    },
+    "visual_need": {
+      "optional": 10,
+      "none": 4,
+      "recommended": 22,
+      "required": 3
+    },
+    "image_status": {
+      "missing": 24,
+      "approved": 10,
+      "needs_specific_review": 3,
+      "pending_review": 2
+    }
+  },
+  "deck_counts": {
+    "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos": 11,
+    "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos": 9,
+    "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso": 25,
+    "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização": 14,
+    "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação": 3
+  },
+  "notes": [
+    {
+      "note_id": 1783811939209,
+      "card_ids": [
+        1783811939209,
+        1783811939210
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "anking_copy",
+      "front": "Meiosis I of a primary male germ cell produces two secondary spermatocytes.",
+      "fields": {
+        "Text": "Meiosis I of a primary male germ cell produces two {{c1::secondary spermatocytes}}.",
+        "Extra": "Meiose I: 2n, 4C → n, 2C; depois, meiose II → espermátides.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "NEBLI::anking-curado",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939209",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939209,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038664,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783811939210,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": -1,
+          "type": 1,
+          "due": 1784038880,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939250,
+      "card_ids": [
+        1783811939250,
+        1783811939251,
+        1783811939252
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "anking_copy",
+      "front": "Primordial germ cells in the fetal ovary proliferate by mitosis to form oogonia.",
+      "fields": {
+        "Text": "Primordial germ cells in the fetal ovary proliferate by mitosis to form {{c1::oogonia}}.",
+        "Extra": "A janela gestacional exata fica como contexto, não como alvo de repetição.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "NEBLI::anking-curado",
+        "NEBLI::cognitive_role::foundation",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939250",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939250,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": -1,
+          "type": 1,
+          "due": 1784038999,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783811939251,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038504,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783811939252,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": -1,
+          "type": 0,
+          "due": 28889,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939259,
+      "card_ids": [
+        1783811939259,
+        1783811939260
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "anking_copy",
+      "front": "Oogonia that enter meiosis become primary oocytes arrested in prophase I.",
+      "fields": {
+        "Text": "Oogonia that enter meiosis become {{c1::primary oocytes}} arrested in prophase I.",
+        "Extra": "A entrada em meiose, não a simples replicação do DNA, define a transição para ovócito primário.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "NEBLI::anking-curado",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939259",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939259,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": -1,
+          "type": 1,
+          "due": 1784039192,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783811939260,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038524,
+          "interval": 0,
+          "reps": 3,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939266,
+      "card_ids": [
+        1783811939267,
+        1783811939268
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "anking_copy",
+      "front": "The preovulatory LH surge drives completion of meiosis I, producing a secondary oocyte.",
+      "fields": {
+        "Text": "The preovulatory LH surge drives completion of meiosis I, producing a {{c1::secondary oocyte}}.",
+        "Extra": "A meiose I termina antes da ovulação; o ovócito secundário é ovulado em metáfase II.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "NEBLI::anking-curado",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939266",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939267,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038838,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783811939268,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": -1,
+          "type": 1,
+          "due": 1784039156,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939294,
+      "card_ids": [
+        1783811939294
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "nebli_authorial",
+      "front": "The developmental fate of primordial germ cells is determined primarily by the gonadal environment.",
+      "fields": {
+        "Text": "The developmental fate of primordial germ cells is determined primarily by the {{c1::gonadal environment}}.",
+        "Extra": "A mesma célula germinativa primordial pode seguir oogênese ou espermatogênese conforme os sinais da gônada.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::removida",
+        "img::revisar",
+        "NEBLI::cognitive_role::foundation",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::none",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939294",
+        "NEBLI::visual_need::none"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "none",
+      "image_role": "none",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939294,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038648,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939313,
+      "card_ids": [
+        1783811939313
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "nebli_authorial",
+      "front": "Advanced maternal age increases the risk of meiotic nondisjunction.",
+      "fields": {
+        "Text": "Advanced maternal age increases the risk of meiotic {{c1::nondisjunction}}.",
+        "Extra": "Ovócitos permanecem décadas em prófase I; o envelhecimento enfraquece coesão cromossômica e controle do fuso, favorecendo aneuploidia.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::removida",
+        "img::revisar",
+        "NEBLI::cognitive_role::prediction",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::bridge_longitudinal",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939313",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939313,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784039052,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939329,
+      "card_ids": [
+        1783811939329
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "nebli_authorial",
+      "front": "Acrosomal exocytosis exposes the inner acrosomal membrane at the sperm head.",
+      "fields": {
+        "Text": "Acrosomal exocytosis exposes the {{c1::inner acrosomal membrane}} at the sperm head.",
+        "Extra": "A membrana plasmática do espermatozoide se funde com a membrana acrossômica externa e libera as enzimas.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::ausente",
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::important",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939329",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939329,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038995,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939341,
+      "card_ids": [
+        1783811939342
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "nebli_authorial",
+      "front": "Binding to zona pellucida glycoproteins triggers sperm acrosomal exocytosis.",
+      "fields": {
+        "Text": "Binding to zona pellucida glycoproteins triggers sperm {{c1::acrosomal exocytosis}}.",
+        "Extra": "Em humanos, ZP1, ZP3 e ZP4 podem participar da indução; tratar ZP3 isolada como o único gatilho é simplificação do modelo clássico.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::ausente",
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939341",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939342,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038778,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811939361,
+      "card_ids": [
+        1783811939361
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "source": "nebli_authorial",
+      "front": "Embryonic cleavage increases cell number without increasing overall embryonic size.",
+      "fields": {
+        "Text": "Embryonic cleavage increases cell number without increasing {{c1::overall embryonic size}}.",
+        "Extra": "A zona pelúcida não se expande; o mesmo volume é repartido em blastômeros progressivamente menores.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-01-gametogenese-fertilizacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::internet_image::openstax",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811939361",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811939361,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio I - gametogênese e fertilização",
+          "queue": 1,
+          "type": 1,
+          "due": 1784038876,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811944451,
+      "card_ids": [
+        1783811944451
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+      "source": "nebli_authorial",
+      "front": "Neural tube closure normally proceeds bidirectionally from the cervical region.",
+      "fields": {
+        "Text": "Neural tube closure normally proceeds {{c1::bidirectionally}} from the cervical region.",
+        "Extra": "O fechamento avança nos sentidos cranial e caudal, deixando os neuroporos como aberturas temporárias.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::internet_image::openstax",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811944451",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811944451,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+          "queue": 2,
+          "type": 2,
+          "due": 38,
+          "interval": 10,
+          "reps": 4,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811944466,
+      "card_ids": [
+        1783811944466
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+      "source": "nebli_authorial",
+      "front": "The urinary and genital systems derive primarily from intermediate mesoderm.",
+      "fields": {
+        "Text": "The urinary and genital systems derive primarily from {{c1::intermediate mesoderm}}.",
+        "Extra": "O mesoderma intermediário forma a crista urogenital, origem dos sistemas urinário e genital.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::derivative",
+        "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::internet_image::openstax",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811944466",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811944466,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+          "queue": 1,
+          "type": 1,
+          "due": 1784043668,
+          "interval": 0,
+          "reps": 4,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783811944471,
+      "card_ids": [
+        1783811944471
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação"
+      ],
+      "model": "Cloze Medicina - Mecanismo Único",
+      "slug": "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+      "source": "nebli_authorial",
+      "front": "The space between somatic and splanchnic lateral plate mesoderm becomes the intraembryonic coelom.",
+      "fields": {
+        "Text": "The space between somatic and splanchnic lateral plate mesoderm becomes the {{c1::intraembryonic coelom}}.",
+        "Extra": "O celoma intraembrionário origina as cavidades pericárdica, pleurais e peritoneal.",
+        "Image": "",
+        "Source": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::derivative",
+        "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+        "NEBLI::gerado",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::internet_image::openstax",
+        "NEBLI::legacy_model_anking_like",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783811944471",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783811944471,
+          "deck": "NEBLI::UC02::P3::Embriologia::Embrio II-III - gastrulação e neurulação",
+          "queue": 1,
+          "type": 1,
+          "due": 1784043942,
+          "interval": 0,
+          "reps": 5,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783893211477,
+      "card_ids": [
+        1783893211482
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "nebli_authorial",
+      "front": "Multipolar neuron structure",
+      "fields": {
+        "Image": "<img src=\"1fe1d39f6b540339dec1042af9348c8b.png\">",
+        "Header": "<b>Multipolar</b> neuron structure",
+        "Extra": "<br><br>Photo credit: BruceBlaus, \"Blausen 0657 MultipolarNeuron\", CC BY 3.0, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Blausen_0657_MultipolarNeuron.png",
+        "Personal Notes": "",
+        "Missed Questions": "",
+        "I0": "[#!occlusions [[rect0::174,46,133,35]]<br>[[rect0::798,80,163,36]]<br>[[rect0::537,81,74,40]]<br>[[rect0::24,246,114,29]]<br>[[rect0::912,351,255,39]]<br>[[rect0::428,357,169,29]]<br>[[rect0::421,502,220,35]]<br>[[rect0::41,539,179,63]]<br>[[rect0::69,650,195,37]]<br>[[rect0::419,652,119,29]]<br>[[rect0::414,745,259,29]] #]<br>active",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::visual_recognition",
+        "NEBLI::gerado",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::io-calibracao",
+        "NEBLI::mutirao_action::keep_with_credit_fix",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::source_note::1783893211477",
+        "NEBLI::UC02::P3::tecido-nervoso",
+        "NEBLI::visual_need::required"
+      ],
+      "images": [
+        "1fe1d39f6b540339dec1042af9348c8b.png"
+      ],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "required",
+      "image_role": "recognition",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783893211482,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 28979,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971560388,
+      "card_ids": [
+        1783971560389,
+        1783971560390,
+        1783971560391
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "nebli_authorial",
+      "front": "From inside out, the three vessel tunics are the intima (endothelium), media (smooth muscle/elastin), and adventitia (connective tissue).",
+      "fields": {
+        "Text": "From inside out, the three vessel tunics are the {{c1::intima}} (endothelium), {{c2::media}} (smooth muscle/elastin), and {{c3::adventitia}} (connective tissue).",
+        "Extra": "Same plan in every vessel; local pressure sculpts each layer's thickness.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"d1a7cbf0eed989cad5dba919e64a9778.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::structural_relation",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::comparison",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::keep_control",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971560388",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "6210d979da5c250a4624ed6f230b744b.webp",
+        "d1a7cbf0eed989cad5dba919e64a9778.webp"
+      ],
+      "flags": [
+        3
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "comparison",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario",
+        "multi_cloze_revisar_atomicidade"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971560389,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784060718,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971560390,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784061063,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971560391,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 2,
+          "type": 2,
+          "due": 30,
+          "interval": 2,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 3
+        }
+      ]
+    },
+    {
+      "note_id": 1783971575038,
+      "card_ids": [
+        1783971575038,
+        1783971575039,
+        1783971575040
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "nebli_authorial",
+      "front": "Elastic recoil of large arteries maintains forward flow during diastole.",
+      "fields": {
+        "Text": "Elastic recoil of large arteries maintains forward flow during {{c1::diastole}}.",
+        "Extra": "Efeito Windkessel: elastina armazena energia na sístole e a devolve na diástole.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971575038",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971575038,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784061004,
+          "interval": 0,
+          "reps": 3,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783971575039,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784060907,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971575040,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784061041,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971579208,
+      "card_ids": [
+        1783971579208
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "nebli_authorial",
+      "front": "Elastic lamellae in an arterial wall are highlighted by the Weigert stain.",
+      "fields": {
+        "Text": "Elastic lamellae in an arterial wall are highlighted by the {{c1::Weigert}} stain.",
+        "Extra": "A coloração torna as lâminas elásticas escuras e facilita distinguir artéria elástica de muscular.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::visual_discriminator",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::comparison",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::contextual_visual",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971579208",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "comparison",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971579208,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784059927,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971587557,
+      "card_ids": [
+        1783971587557
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "nebli_authorial",
+      "front": "The capillary wall is reduced to just endothelium + basal lamina: no media, no adventitia.",
+      "fields": {
+        "Text": "The capillary wall is reduced to just {{c1::endothelium + basal lamina}}: no media, no adventitia.",
+        "Extra": "Pericytes outside give support and repair.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"d1a7cbf0eed989cad5dba919e64a9778.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::structural_relation",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::comparison",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::keep_control",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971587557",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "6210d979da5c250a4624ed6f230b744b.webp",
+        "d1a7cbf0eed989cad5dba919e64a9778.webp"
+      ],
+      "flags": [
+        3
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "comparison",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario",
+        "cloze_longo"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971587557,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784060598,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 3
+        }
+      ]
+    },
+    {
+      "note_id": 1783971602229,
+      "card_ids": [
+        1783971602229
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "nebli_authorial",
+      "front": "Initial lymphatic capillaries admit interstitial fluid through discontinuous button junctions.",
+      "fields": {
+        "Text": "Initial lymphatic capillaries admit interstitial fluid through discontinuous {{c1::button junctions}}.",
+        "Extra": "Abas endoteliais sobrepostas funcionam como microválvulas; filamentos de ancoragem favorecem a abertura com aumento da pressão intersticial.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "indução ruim + imagem ruim, vou suspender. conserta e dessuspende",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::schema",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971602229",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "schema",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971602229,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784060070,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971746365,
+      "card_ids": [
+        1783971746365,
+        1783971746366
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Unlike other CNS glia, microglia derive from the mesodermal monocyte lineage.",
+      "fields": {
+        "Text": "Unlike other CNS glia, microglia derive from the {{c1::mesodermal monocyte lineage}}.",
+        "Extra": "A origem mesodérmica explica sua função como macrófago residente do sistema nervoso central.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "achei esse tipo de card, com pergunta e resposta + cloze ruim. poderia ser uma afirmação com 2 clozes",
+        "NEBLI_Resposta": "Corrigido: transformei pergunta+resposta em afirma??o AnKing-like com dois clozes reais (origem e fun??o), sem resposta solta fora do cloze.",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::origin",
+        "NEBLI::curadoria_usuario_aplicada",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971746365",
+        "NEBLI::visual_need::optional",
+        "NEBLI_comentario::respondido"
+      ],
+      "images": [],
+      "flags": [],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1783971746365,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784051991,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971746366,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31193,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971760947,
+      "card_ids": [
+        1783971760947,
+        1783971760948
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Which basophilic bodies are rough ER + polyribosomes, staining dark for their RNA? Nissl bodies",
+      "fields": {
+        "Text": "Which basophilic bodies are rough ER + polyribosomes, staining dark for their {{c1::RNA}}? {{c2::Nissl bodies}}",
+        "Extra": "<br><br><img src=\"a4216d1b853628b9c0a0d8593543069a.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::structure_function",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::mutirao_replaced::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971760947",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "a4216d1b853628b9c0a0d8593543069a.webp"
+      ],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario",
+        "multi_cloze_revisar_atomicidade"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971760947,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31200,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971760948,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 1,
+          "due": 1784052054,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971773414,
+      "card_ids": [
+        1783971773414,
+        1783971773415
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Axonal transport from soma to terminal uses kinesin; transport from terminal back to soma uses dynein.",
+      "fields": {
+        "Text": "Axonal transport from soma to terminal uses {{c1::kinesin}}; transport from terminal back to soma uses {{c2::dynein}}.",
+        "Extra": "Kinesin walks toward the microtubule plus end at the axon terminal; dynein walks back toward the minus end at the soma.<br><br><img src=\"e34a95d29c5735fdc8c87ee55460e412.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology deck; needs card-specific review.</i>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "esse tipo de card contém a resposta nele próprio, o que é um problema",
+        "NEBLI_Resposta": "Corrigido: tirei o formato que deixava a resposta embutida na pr?pria frase e deixei s? dire??o ? motor como alvo de recall.",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::curadoria_usuario_aplicada",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::mutirao_replaced::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971773414",
+        "NEBLI::visual_need::recommended",
+        "NEBLI_comentario::respondido"
+      ],
+      "images": [
+        "e34a95d29c5735fdc8c87ee55460e412.webp"
+      ],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "needs_specific_review",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario",
+        "multi_cloze_revisar_atomicidade",
+        "imagem_contextual_ou_generica"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971773414,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 1,
+          "due": 1784051998,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783971773415,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31206,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971779679,
+      "card_ids": [
+        1783971779679,
+        1783971779680,
+        1783971779681
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Direct bidirectional ion flow through gap junctions characterizes electrical synapses.",
+      "fields": {
+        "Text": "Direct bidirectional ion flow through gap junctions characterizes {{c1::electrical synapses}}.",
+        "Extra": "A transmissão é muito rápida e dispensa liberação de neurotransmissor na fenda.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::discriminator",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::important",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971779679",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971779679,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31209,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971779680,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784051815,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783971779681,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31209,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971788011,
+      "card_ids": [
+        1783971788011,
+        1783971788012
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "A single oligodendrocyte can myelinate segments of multiple CNS axons.",
+      "fields": {
+        "Text": "A single oligodendrocyte can myelinate segments of {{c1::multiple CNS axons}}.",
+        "Extra": "No SNP, cada célula de Schwann forma um internódio de um único axônio.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::comparison",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971788011",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971788011,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784052156,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783971788012,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31213,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971790084,
+      "card_ids": [
+        1783971790084,
+        1783971790085,
+        1783971790086
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Action potentials regenerate at myelin-free gaps called nodes of Ranvier.",
+      "fields": {
+        "Text": "Action potentials regenerate at myelin-free gaps called {{c1::nodes of Ranvier}}.",
+        "Extra": "A alta densidade de canais de Na+ voltagem-dependentes permite condução saltatória entre os nós.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "a partir de agora, os cards que marcar de vermelho são também cards que quero que você reveja, porque provavelmente estão ruin",
+        "NEBLI_Resposta": "Registrado: a partir de agora, card com bandeira vermelha tamb?m ? sinal de revis?o de qualidade/ancoragem, n?o s? pedido de explica??o.",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::curadoria_usuario_aplicada",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971790084",
+        "NEBLI::visual_need::recommended",
+        "NEBLI_comentario::respondido"
+      ],
+      "images": [],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1783971790084,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784052152,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971790085,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31214,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971790086,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31214,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971792201,
+      "card_ids": [
+        1783971792201
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Nonmyelinating Schwann cells ensheath small PNS axons without forming myelin.",
+      "fields": {
+        "Text": "Nonmyelinating Schwann cells ensheath small PNS axons without forming {{c1::myelin}}.",
+        "Extra": "A célula envolve vários axônios em sulcos, mas não produz a espiral concêntrica da bainha.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::discriminator",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::context",
+        "NEBLI::image_status::missing",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::important",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971792201",
+        "NEBLI::visual_need::optional"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "optional",
+      "image_role": "context",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971792201,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784052216,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971812959,
+      "card_ids": [
+        1783971812959,
+        1783971812960,
+        1783971812961,
+        1783971812962
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "From superficial to deep, the meninges are dura mater, arachnoid mater, and pia mater.",
+      "fields": {
+        "Text": "From superficial to deep, the meninges are {{c1::dura mater}}, {{c1::arachnoid mater}}, and {{c1::pia mater}}.",
+        "Extra": "A dura é externa e resistente; a pia acompanha diretamente a superfície do SNC.<br><img src=\"234ad4351fc96888cb2333ff803529e8.png\"><br>Image: Mysid, based on Gray's Anatomy plate 770; public domain, via Wikimedia Commons.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "esse tipo de card dá a resposta, o cloze poderia estar nas 3 ao mesmo tempo, gerando 2 cards. também é o tipo de card que precisa muito de imagem<br>",
+        "NEBLI_Resposta": "Corrigido: a sequ?ncia inteira virou um cloze ?nico, e o espa?o do LCR virou outro. Tamb?m marquei que precisa imagem espec?fica de meninges.",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::localization",
+        "NEBLI::curadoria_usuario_aplicada",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::localization",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::split",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971812959",
+        "NEBLI::split_part::1",
+        "NEBLI::visual_need::recommended",
+        "NEBLI_comentario::respondido"
+      ],
+      "images": [
+        "234ad4351fc96888cb2333ff803529e8.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "image_status": "needs_specific_review",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "imagem_pendente",
+      "action_reasons": [
+        "multi_cloze_revisar_atomicidade",
+        "imagem_contextual_ou_generica"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971812959,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31225,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971812960,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31225,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971812961,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 1,
+          "type": 1,
+          "due": 1784052328,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971812962,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": -1,
+          "type": 0,
+          "due": 31225,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783971957137,
+      "card_ids": [
+        1783971957137
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-11-orgaos-linfaticos",
+      "source": "nebli_authorial",
+      "front": "The surface marker of the T lymphocyte (cell-mediated response, cell-to-cell contact) is the TCR.",
+      "fields": {
+        "Text": "The surface marker of the T lymphocyte (cell-mediated response, cell-to-cell contact) is the {{c1::TCR}}.",
+        "Extra": "<br><br><img src=\"65b0d8073d493e476fb26b2aa8974d59.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"65b0d8073d493e476fb26b2aa8974d59.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "faltou uma explicação do que é tcr e melhorar as imagens, que não cabem aí",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::receptor_function",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::none",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::important",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::mutirao_replaced::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971957137",
+        "NEBLI::visual_need::none"
+      ],
+      "images": [
+        "65b0d8073d493e476fb26b2aa8974d59.webp"
+      ],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "none",
+      "image_role": "none",
+      "image_status": "pending_review",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971957137,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784064113,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971961342,
+      "card_ids": [
+        1783971961342,
+        1783971961343
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-11-orgaos-linfaticos",
+      "source": "nebli_authorial",
+      "front": "The T-cell subset that coordinates immune responses through cytokine secretion is the helper T cell.",
+      "fields": {
+        "Text": "The T-cell subset that coordinates immune responses through cytokine secretion is the {{c1::helper T cell}}.",
+        "Extra": "Células T helper (CD4+) organizam outras células por citocinas; não são as únicas células capazes de secretar interleucinas.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "todo card tem que ter imagem + breve comentário, ou pelo menos a grande maioria",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::generica",
+        "img::revisar",
+        "img::substituir",
+        "NEBLI::cognitive_role::cell_function",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::none",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::important",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971961342",
+        "NEBLI::visual_need::none"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "none",
+      "image_role": "none",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971961342,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784064536,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971961343,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784064194,
+          "interval": 0,
+          "reps": 2,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971990964,
+      "card_ids": [
+        1783971990964,
+        1783971990965
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-11-orgaos-linfaticos",
+      "source": "nebli_authorial",
+      "front": "The organ that filters lymph and receives many afferent but one efferent lymphatic vessel is the lymph node.",
+      "fields": {
+        "Text": "The organ that filters lymph and receives many afferent but one efferent lymphatic vessel is the {{c1::lymph node}}.",
+        "Extra": "A linfa entra pela convexidade, percorre os seios e sai pelo hilo; o baço, em contraste, filtra sangue.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::organ_identification",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::localization",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971990964",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971990964,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784064720,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        },
+        {
+          "card_id": 1783971990965,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784064330,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "note_id": 1783971993033,
+      "card_ids": [
+        1783971993033,
+        1783971993034
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-11-orgaos-linfaticos",
+      "source": "nebli_authorial",
+      "front": "B-cell follicles occupy the cortex of a lymph node.",
+      "fields": {
+        "Text": "B-cell follicles occupy the {{c1::cortex}} of a lymph node.",
+        "Extra": "A zona paracortical, dependente do timo, é predominantemente T; os folículos corticais são B.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::localization",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::localization",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971993033",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [
+        1
+      ],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "revisao_manual",
+      "action_reasons": [
+        "feedback_usuario"
+      ],
+      "cards": [
+        {
+          "card_id": 1783971993033,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": 1,
+          "type": 1,
+          "due": 1784064377,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 1
+        },
+        {
+          "card_id": 1783971993034,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": -1,
+          "type": 1,
+          "due": 1784064712,
+          "interval": 0,
+          "reps": 1,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109083059,
+      "card_ids": [
+        1784109083059
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "unclassified",
+      "front": "This is a gross image of elastic artery",
+      "fields": {
+        "Text": "This is a <b>gross image</b> of {{c1::elastic artery}}<br><br><img src=\"paste-f112050ef0cf0f3c7aa064b34bf043ca70125c73.png\">",
+        "Extra": "~ Wall is circular and well-defined\n<br>~ Tunica Intima: Thin\n<br>~ Tunica Media: Thick, alternating concentric layers of elastic laminae and smooth smooth muscle <br>~ Tunica Adventitia: Thin",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "ankihub_id": "1d558dbe-0c57-4062-9526-e8cd2e327800"
+      },
+      "tags": [
+        "#FDN1_Block::Histology_Practical",
+        "@Medical_School::Histology::Exam_1",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::from-LLU",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971575038",
+        "NEBLI::source_real::1661651431347",
+        "NEBLI::visual_need::required"
+      ],
+      "images": [
+        "paste-f112050ef0cf0f3c7aa064b34bf043ca70125c73.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "required",
+      "image_role": "recognition",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109083059,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 0,
+          "type": 0,
+          "due": 31376,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109087334,
+      "card_ids": [
+        1784109087334
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos"
+      ],
+      "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+      "slug": "NEBLI::histo-09-vasos",
+      "source": "unclassified",
+      "front": "This is a magnified image of elastic artery",
+      "fields": {
+        "Text": "This is a <b>magnified image</b> of {{c1::elastic artery}}<br><br><img src=\"paste-065224c731df26128c670de194d94627984c751e.png\">",
+        "Extra": "~ Wall is circular and well-defined\n<br>~ Tunica Intima: Thin\n<br>~ Tunica Media: Thick, alternating concentric layers of elastic laminae and smooth smooth muscle <br>~ Tunica Adventitia: Thin",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "ankihub_id": "31abddc9-fb9b-4825-b011-039104769d57"
+      },
+      "tags": [
+        "#FDN1_Block::Histology_Practical",
+        "@Medical_School::Histology::Exam_1",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::from-LLU",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971575038",
+        "NEBLI::source_real::1661651452430",
+        "NEBLI::visual_need::required"
+      ],
+      "images": [
+        "paste-065224c731df26128c670de194d94627984c751e.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "required",
+      "image_role": "recognition",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109087334,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos",
+          "queue": 0,
+          "type": 0,
+          "due": 31377,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109147623,
+      "card_ids": [
+        1784109147623
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "unclassified",
+      "front": "In neurons, basophilic cytoplasmic aggregates of rough ER are called Nissl bodies.",
+      "fields": {
+        "Text": "In neurons, basophilic cytoplasmic aggregates of rough ER are called {{c1::Nissl bodies}}.",
+        "Extra": "<div><img alt=\"File:Nissl bodies in neurons of the spinal cord.jpg\" src=\"522018847383a44d04774e3df8474c6f.jpg\"><br></div><div><i style=\"font-size: 10pt; text-align: center;\">Photo credit: <a href=\"https://commons.wikimedia.org/wiki/File:Nissl_bodies_in_neurons_of_the_spinal_cord.jpg\">Tulemo</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons</i></div><i><span style=\"font-size: 10pt;\"><div></div></span></i><br><br><b>NEBLI:</b> Nissl substance corresponds to rough ER and free ribosomes; it is absent from the axon hillock.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/neurology/videos/cellular-function?index=4\">Watch associated Bootcamp video - Neuronal Mechanics</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "54c7ca3a-fe98-4603-87a8-ca8b4518a358"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+        "#AK_Other::Only_Step_1",
+        "#AK_Step1_v12::#AMBOSS::s2atQP",
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::03_Cellular_Biology::02_Cell_Structure",
+        "#AK_Step1_v12::#Bootcamp::Neurology::02_Cellular_Function::02_Neuronal_Mechanics",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::02_Cellular::02_Rough_endoplasmic_reticulum",
+        "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+        "#AK_Step1_v12::#OME_banner",
+        "#AK_Step1_v12::#Physeo::05_Biochem::02_Cellular_Biology::02_Cell_Structure",
+        "#AK_Step1_v12::#UWorld::COMLEX::23605",
+        "#AK_Step1_v12::#UWorld::Step::492",
+        "#AK_Step1_v12::^Systems::Biochem::Molecular",
+        "NEBLI::cognitive_role::structure_function",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::lint_pass",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_adapted",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971760947",
+        "NEBLI::source_real::1468101772387",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "522018847383a44d04774e3df8474c6f.jpg"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109147623,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 31378,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109162279,
+      "card_ids": [
+        1784109162279
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "unclassified",
+      "front": "Which molecular motor protein is used for anterograde transport along the microtubule? Kinesin",
+      "fields": {
+        "Text": "<div><div>Which <u>molecular motor protein</u> is used for <b>anterograde</b> transport along the microtubule?</div><br><div>{{c1::Kinesin}} </div></div>",
+        "Extra": "<div>(-) to (+) → i.e., from cell body to axon terminal in neurons</div><br><b><u>K</u></b>inesin \"<b><u>k</u></b>icks out\" (anterograde) and <b><u>d</u></b>ynein \"<u><b>d</b></u>rags in\" (retrograde)<br><br>Requires ATP, transports neurotransmitter secretory vesicles to nerve terminals<br><br><div><img src=\"f9d26205da217af68078740330540492.png\" alt=\"File:Microtúbulos motores.png\"></div><div><i><span style=\"font-size: 10pt;\">Photo credit: <a href=\"https://commons.wikimedia.org/wiki/File:Microt%C3%BAbulos_motores.png\">Duncan J.E., Goldstein L.S.B.</a>, <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a>, via Wikimedia Commons</span></i></div>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/neurology/videos/cellular-function?index=4\">Watch associated Bootcamp video - Neuronal Mechanics</a><br><br><a href=\"https://app.bootcamp.com/med-school/biochemistry/videos/cell-biology?index=12\">Watch associated Bootcamp video - Cell Biology: Cytoskeleton</a>\n<br><br><a href=\"https://app.bootcamp.com/med-school/microbiology/videos/dna-viruses?index=16\">Watch associated Bootcamp video - DNA Viruses: Herpes Simplex Virus: Clinical Manifestations</a>\n\n<br><br><a href=\"https://app.bootcamp.com/med-school/neurology/videos/invasive-spinal-cord-disease?index=2\">Watch associated Bootcamp video - Invasive Spinal Cord Disease: Tetanus</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "15401551-a7c4-4651-bc21-18a837b25c27"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+        "#AK_Other::Only_Step_1",
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::03_Cellular_Biology::03_Cytoskeleton",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::06_Cytoskeleton",
+        "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::08_Herpes_Simplex_Virus_Clinical_Manifestations",
+        "#AK_Step1_v12::#Bootcamp::Neurology::02_Cellular_Function::02_Neuronal_Mechanics",
+        "#AK_Step1_v12::#Bootcamp::Neurology::09_Invasive_Spinal_Cord_Disease::01_Tetanus",
+        "#AK_Step1_v12::#Bootcamp::Neurology::09_Invasive_Spinal_Cord_Disease::02_Rabies",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::02_Cellular::08_Microtubule::*Basics",
+        "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+        "#AK_Step1_v12::#OME::PreClinical::General_Physiology::Cytoskeleton_Organelles",
+        "#AK_Step1_v12::#UWorld::COMLEX::25031",
+        "#AK_Step1_v12::#UWorld::COMLEX::25045",
+        "#AK_Step1_v12::#UWorld::Step::1922",
+        "#AK_Step1_v12::#UWorld::Step::1936",
+        "#AK_Step1_v12::^Systems::Biochem::CellBio",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971773414",
+        "NEBLI::source_real::1468250081218",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "f9d26205da217af68078740330540492.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109162279,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 31379,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109166481,
+      "card_ids": [
+        1784109166481
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "unclassified",
+      "front": "Which molecular motor protein is used for retrograde transport along the microtubule? Dynein",
+      "fields": {
+        "Text": "<div>Which <u>molecular motor protein</u> is used for <b>retrograde</b> transport along the microtubule?</div><br><div>{{c1::Dynein}} </div>",
+        "Extra": "- i.e. from axon terminal to cell body, (+) to (-)<br><br>- <u><b>K</b></u>inesin \"<b><u>k</u></b>icks out\" (anterograde) and <b><u>d</u></b>ynein \"<b><u>d</u></b>rags in\" (retrograde)<br>- used by <i>Clostridium tetani</i> toxin, poliovirus, rabies virus, HSV<br><br><img src=\"f9d26205da217af68078740330540492.png\" alt=\"File:Microtúbulos motores.png\"><div><i><span style=\"font-size: 10pt;\">Photo credit: <a href=\"https://commons.wikimedia.org/wiki/File:Microt%C3%BAbulos_motores.png\">Duncan J.E., Goldstein L.S.B.</a>, <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a>, via Wikimedia Commons</span></i></div>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/neurology/videos/cellular-function?index=4\">Watch associated Bootcamp video - Neuronal Mechanics</a><br><br><a href=\"https://app.bootcamp.com/med-school/biochemistry/videos/cell-biology?index=12\">Watch associated Bootcamp video - Cell Biology: Cytoskeleton</a>\n\n<br><br><a href=\"https://app.bootcamp.com/med-school/microbiology/videos/dna-viruses?index=16\">Watch associated Bootcamp video - DNA Viruses: Herpes Simplex Virus: Clinical Manifestations</a>\n\n<br><br><a href=\"https://app.bootcamp.com/med-school/neurology/videos/invasive-spinal-cord-disease?index=2\">Watch associated Bootcamp video - Invasive Spinal Cord Disease: Tetanus</a>\n\n<br><br><a href=\"https://app.bootcamp.com/med-school/genetics/videos/mitosis-meiosis-and-the-cell-cycle?index=2\">Watch associated Bootcamp video - Mitosis, Meiosis, and the Cell Cycle: Mitosis</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "f3ceb68c-af6f-4ea8-977a-bd68afe64daf"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Neurology::Kaplan_Neuroscience",
+        "#AK_Other::Only_Step_1",
+        "#AK_Step1_v12::#AMBOSS::IcaYdj",
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::03_Cellular_Biology::03_Cytoskeleton",
+        "#AK_Step1_v12::#B&B::07_Cell_Bio::03_Cellular_Biology::03_Cytoskeleton::Extra",
+        "#AK_Step1_v12::#B&B::20_Pulm::02_Obstructive_and_Restrictive_Diseases::03_Asthma_and_Bronchiectasis_::Extra",
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::01_Cell_Biology::06_Cytoskeleton",
+        "#AK_Step1_v12::#Bootcamp::Genetics::04_Mitosis,_Meiosis,_and_the_Cell_Cycle::01_Mitosis",
+        "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::12_Rabies",
+        "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::08_Herpes_Simplex_Virus_Clinical_Manifestations",
+        "#AK_Step1_v12::#Bootcamp::Neurology::02_Cellular_Function::02_Neuronal_Mechanics",
+        "#AK_Step1_v12::#Bootcamp::Neurology::09_Invasive_Spinal_Cord_Disease::01_Tetanus",
+        "#AK_Step1_v12::#Bootcamp::Neurology::09_Invasive_Spinal_Cord_Disease::02_Rabies",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::02_Cellular::08_Microtubule::*Basics",
+        "#AK_Step1_v12::#FirstAid::12_Neurology_and_Special_Senses::02_Anatomy_and_Physiology::01_Cells_of_the_nervous_system::*Neurons",
+        "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+        "#AK_Step1_v12::#OME::Clinical::Neurology",
+        "#AK_Step1_v12::#OME::PreClinical::General_Physiology::Cytoskeleton_Organelles",
+        "#AK_Step1_v12::#UWorld::COMLEX::25031",
+        "#AK_Step1_v12::#UWorld::Step::1922",
+        "#AK_Step1_v12::^Systems::Biochem::CellBio",
+        "#AK_Step1_v12::^Systems::Neuro::KaplanNeurology::02-Histology",
+        "#AK_Step1_v12::^Systems::Neuro::neurohistology",
+        "#AK_Step1_v12::^Systems::Neuro::neurology",
+        "#AK_Step2_v12::!Shelf::Neuro::no_dupes",
+        "#AK_Step2_v12::#Resources_by_rotation::Neuro::step1_neuro::basic_neuro_zanki",
+        "#AK_Step2_v12::Original_decks::Zanki_Step_2::Neuro::Basic_Neuro",
+        "NEBLI::cognitive_role::mechanism",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971773414",
+        "NEBLI::source_real::1468250073774",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "f9d26205da217af68078740330540492.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109166481,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 31380,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109199934,
+      "card_ids": [
+        1784109199934
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "anking_copy",
+      "front": "Each Schwann cell can myelinate one axon(s)",
+      "fields": {
+        "Text": "<div><div>Each <b>Schwann cell</b> can <u>myelinate</u> {{c1::one}} axon(s) </div></div>",
+        "Extra": "<div>- One cell myelinates one internodal segment of a single axon</div><div>- Schwa<b>ONE</b></div>",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "<img src=\"90b2b5882fa40ec187cb06f6be5841b7.webp\"><br><img src=\"Screen Shot 2022-07-15 at 11.35.58 PM.jpg\"><br><img src=\"Screen Shot 2022-07-15 at 11.36.09 PM.jpg\"><br><a href=\"https://dashboard.sketchy.com/study/medical/courses/medical-physiology/units/medical-physiology-neurophysiology/videos/medical-physiology-neurophysiology-cells-of-the-nervous-system\">Watch Cells of the Nervous System</a>",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/neurology/videos/cellular-function?index=2\">Watch associated Bootcamp video - Cell Types</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "01711f77-2b78-4316-a383-824b2c163539"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Neurology::Kaplan_Neuroscience",
+        "#AK_Other::Only_Step_1&2_Overlap",
+        "#AK_Step1_v12::#B&B::16_Neuro::01_Introduction_to_Neurology::01_Cells_of_the_Nervous_System",
+        "#AK_Step1_v12::#Bootcamp::Neurology::02_Cellular_Function::01_Cell_Types",
+        "#AK_Step1_v12::#FirstAid::12_Neurology_and_Special_Senses::02_Anatomy_and_Physiology::01_Cells_of_the_nervous_system::*Schwann_Cells",
+        "#AK_Step1_v12::#Low/HighYield::4-LowerYield",
+        "#AK_Step1_v12::#OME::04_Organ_Systems::08_Neuroscience::01_Cortex::02_The_Normal_CNS_Cells_Fascicles_and_Meninges",
+        "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::08_Neuroscience::01_Cortex::02_The_Normal_CNS_Cells_Fascicles_and_Meninges",
+        "#AK_Step1_v12::#SketchyPhysiology::09_Neurophysiology::02_Organization_of_Nervous_System::02_Cells_of_the_Nervous_System",
+        "#AK_Step1_v12::^Systems::Neuro::KaplanNeurology::02-Histology",
+        "#AK_Step1_v12::^Systems::Neuro::neurohistology",
+        "#AK_Step1_v12::^Systems::Neuro::neurology",
+        "#AK_Step2_v12::!Shelf::#Cards_AnKing_Skipped",
+        "#AK_Step2_v12::!Shelf::Neuro::no_dupes",
+        "#AK_Step2_v12::#Resources_by_rotation::Neuro::step1_neuro::basic_neuro_zanki",
+        "#AK_Step2_v12::Original_decks::Zanki_Step_2::Neuro::Basic_Neuro",
+        "NEBLI::cognitive_role::comparison",
+        "NEBLI::image_role::mechanism",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971788011",
+        "NEBLI::source_real::1479430500748",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [
+        "90b2b5882fa40ec187cb06f6be5841b7.webp",
+        "Screen Shot 2022-07-15 at 11.35.58 PM.jpg",
+        "Screen Shot 2022-07-15 at 11.36.09 PM.jpg"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "mechanism",
+      "image_status": "approved",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109199934,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 31381,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109245923,
+      "card_ids": [
+        1784109245924
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "NEBLI::histo-10-tecido-nervoso",
+      "source": "nebli_authorial",
+      "front": "Cerebrospinal fluid surrounding the CNS circulates in the subarachnoid space.",
+      "fields": {
+        "Text": "Cerebrospinal fluid surrounding the CNS circulates in the {{c1::subarachnoid space}}.",
+        "Extra": "O espaço fica entre aracnoide e pia-máter.<br><img src=\"234ad4351fc96888cb2333ff803529e8.png\"><br>Image: Mysid, based on Gray's Anatomy plate 770; public domain, via Wikimedia Commons.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "esse tipo de card dá a resposta, o cloze poderia estar nas 3 ao mesmo tempo, gerando 2 cards. também é o tipo de card que precisa muito de imagem<br>",
+        "NEBLI_Resposta": "Corrigido: a sequ?ncia inteira virou um cloze ?nico, e o espa?o do LCR virou outro. Tamb?m marquei que precisa imagem espec?fica de meninges.",
+        "ankihub_id": ""
+      },
+      "tags": [
+        "img::revisar",
+        "NEBLI::cognitive_role::localization",
+        "NEBLI::curadoria_usuario_aplicada",
+        "NEBLI::en",
+        "NEBLI::histo-10-tecido-nervoso",
+        "NEBLI::image_context_needs_specific_review",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::localization",
+        "NEBLI::image_status::approved",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::split",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971812959",
+        "NEBLI::split_part::2",
+        "NEBLI::visual_need::recommended",
+        "NEBLI_comentario::respondido"
+      ],
+      "images": [
+        "234ad4351fc96888cb2333ff803529e8.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "image_status": "needs_specific_review",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "imagem_pendente",
+      "action_reasons": [
+        "imagem_contextual_ou_generica"
+      ],
+      "cards": [
+        {
+          "card_id": 1784109245924,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Tecido nervoso",
+          "queue": 0,
+          "type": 0,
+          "due": 31382,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109260623,
+      "card_ids": [
+        1784109260623
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "unclassified",
+      "front": "On antigen-presenting cells, MHC molecules present peptide antigens to T-cell receptors (TCRs).",
+      "fields": {
+        "Text": "On antigen-presenting cells, MHC molecules present peptide antigens to {{c1::T-cell receptors (TCRs)}}.",
+        "Extra": "<br><br><b>NEBLI:</b> The TCR recognizes the peptide-MHC complex rather than free antigen.",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "<img src=\"e919845f48af71102abd55d7241bf67c.jpg\"><br><img src=\"2d1d493bb49f3622acd5f22521789ed0.jpg\">\n<br><img src=\"081a6327a76c965092d44da9ced47dfc.webp\"><img src=\"2f2fcadf3697a9799a33dc1729f60860.webp\"><br><a href=\"https://dashboard.sketchy.com/study/medical/courses/medical-immunology/units/medical-immunology-the-adaptive-immune-system/review-cards/medical-immunology-the-adaptive-immune-system-cell-mediated-immunity-t-cells-antigen-processing-and-presentation-to-t-cells\">Watch Antigen Processing &amp; Presentation to T-Cells</a>",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "<img src=\"tmp0ag651er_1606536512074.png\" class=\"resizer\"><br><img src=\"tmpv9zewioh_1606536512074.png\" class=\"resizer\"><br><span style=\"text-decoration-line: underline;\"><a href=\"https://pixorize.com/view/5444?utm_source=anki&amp;utm_medium=anking&amp;utm_campaign=Immunology&amp;utm_term=B_Cells_and_T_Cells&amp;utm_content=MHC_I\">Review MHC I</a></span><br><img src=\"tmpop5_8jk4_1606536512074.png\" class=\"resizer\"><br><span style=\"text-decoration-line: underline;\"><a href=\"https://pixorize.com/view/5501?utm_source=anki&amp;utm_medium=anking&amp;utm_campaign=Immunology&amp;utm_term=B_Cells_and_T_Cells&amp;utm_content=T_Cells-Activation\">Review T Cells-Activation</a></span>",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/immunology/videos/t-cells?index=4\">Watch associated Bootcamp video - Major Histocompatibility Complex</a>\n\n<br><br><a href=\"https://app.bootcamp.com/med-school/immunology/videos/cytokines?index=2\">Watch associated Bootcamp video - Cytokines: Proinflammatory Cytokines</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "e660d3ab-7c40-4efe-8c7c-ff8bcec9eb20"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Immunology_+_General_Pathology::Immunology",
+        "#AK_Other::Only_Step_1",
+        "#AK_Step1_v12::#B&B::13_Immunology::01_Basic_Immunology::02_T-cells",
+        "#AK_Step1_v12::#Bootcamp::Immunology::04_Cytokines::01_Proinflammatory_Cytokines",
+        "#AK_Step1_v12::#Bootcamp::Immunology::05_T-cells::02_Major_Histocompatibility_Complex",
+        "#AK_Step1_v12::#FirstAid::02_Immunology::02_Cellular_Components::03_Major_histocompatibility_complex_I_and_II::*Basics",
+        "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+        "#AK_Step1_v12::#NinjaNerd::02_Immunology::01_Physiology::06_Immune_System:_Overview",
+        "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+        "#AK_Step1_v12::#OME::03_Immune::01_Immunology::05_APCs_and_MHCs",
+        "#AK_Step1_v12::#OME::PreClinical::03_Immune::01_Immunology::05_APCs_and_MHCs",
+        "#AK_Step1_v12::#Physeo::08_Immunology::01_Immunology::07_Major_Histocompatibility_Complexes",
+        "#AK_Step1_v12::#Pixorize::02_Immunology::04_B_Cells_&_T_Cells::01_MHC_I",
+        "#AK_Step1_v12::#Pixorize::02_Immunology::04_B_Cells_&_T_Cells::08_T_Cells-Activation",
+        "#AK_Step1_v12::#SketchyImmunology::03_The_Adaptive_Immune_System::02_Cell_Mediated_Immunity_(T-Cells)::02_Antigen_Processing_&_Presentation_to_T-Cells",
+        "#AK_Step1_v12::#UWorld::#UWSA2",
+        "#AK_Step1_v12::#UWorld::Step::6788",
+        "#AK_Step1_v12::^Systems::Immunology::MHC",
+        "NEBLI::cognitive_role::receptor_function",
+        "NEBLI::image_role::none",
+        "NEBLI::image_status::missing",
+        "NEBLI::importance::important",
+        "NEBLI::lint_pass",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_adapted",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971957137",
+        "NEBLI::source_real::1486952617561",
+        "NEBLI::visual_need::none"
+      ],
+      "images": [
+        "081a6327a76c965092d44da9ced47dfc.webp",
+        "2d1d493bb49f3622acd5f22521789ed0.jpg",
+        "2f2fcadf3697a9799a33dc1729f60860.webp",
+        "e919845f48af71102abd55d7241bf67c.jpg",
+        "tmp0ag651er_1606536512074.png",
+        "tmpop5_8jk4_1606536512074.png",
+        "tmpv9zewioh_1606536512074.png"
+      ],
+      "flags": [],
+      "comments": [],
+      "visual_need": "none",
+      "image_role": "none",
+      "image_status": "pending_review",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109260623,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": 0,
+          "type": 0,
+          "due": 31383,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1784109308569,
+      "card_ids": [
+        1784109308569
+      ],
+      "deck_names": [
+        "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos"
+      ],
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "slug": "sem_slug",
+      "source": "unclassified",
+      "front": "The paracortex is the region of a lymph node between follicles and medulla",
+      "fields": {
+        "Text": "<div>The {{c1::paracortex}} is the region of a <u>lymph node</u> between <b>follicles</b> and <b>medulla</b></div>",
+        "Extra": "",
+        "Lecture Notes": "",
+        "Missed Questions": "",
+        "Pathoma": "",
+        "Boards and Beyond": "",
+        "First Aid": "",
+        "Sketchy": "",
+        "Sketchy 2": "",
+        "Sketchy Extra": "",
+        "Picmonic": "",
+        "Pixorize": "",
+        "Physeo": "",
+        "Bootcamp": "<a href=\"https://app.bootcamp.com/med-school/immunology/videos/lymphoid-tissue?index=6\">Watch associated Bootcamp video - Lymphoid Tissue: Lymph Nodes</a>",
+        "OME": "",
+        "Additional Resources": "",
+        "One by one": "",
+        "NEBLI_Comentario": "",
+        "NEBLI_Resposta": "",
+        "ankihub_id": "666993e7-f561-4f5e-a8fb-c7afe95638f5"
+      },
+      "tags": [
+        "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Immunology_+_General_Pathology::Immunology",
+        "#AK_Other::Only_Step_1",
+        "#AK_Step1_v12::#B&B::13_Immunology::01_Basic_Immunology::05_Lymph_Nodes_and_Spleen",
+        "#AK_Step1_v12::#Bootcamp::Immunology::01_Lymphoid_Tissue::03_Lymph_Nodes",
+        "#AK_Step1_v12::#FirstAid::02_Immunology::01_Lymphoid_Structures::02_Lymph_node",
+        "#AK_Step1_v12::#FirstAid::02_Immunology::01_Lymphoid_Structures::02_Lymph_node::03_Paracortex",
+        "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+        "#AK_Step1_v12::#NinjaNerd::02_Immunology::01_Physiology::08_T-Cell_Development",
+        "#AK_Step1_v12::#OME::03_Immune::01_Immunology::03_Taxonomy_of_Lymphoid_Organs",
+        "#AK_Step1_v12::#OME::PreClinical::03_Immune::01_Immunology::03_Taxonomy_of_Lymphoid_Organs",
+        "#AK_Step1_v12::#Physeo::08_Immunology::01_Immunology::01_Lymphoid_Structures",
+        "#AK_Step1_v12::^Systems::Immunology::LymphNodes",
+        "NEBLI::cognitive_role::localization",
+        "NEBLI::image_role::localization",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::replace_and_rewrite",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::reference_copy",
+        "NEBLI::source_note::1783971993033",
+        "NEBLI::source_real::1486945168998",
+        "NEBLI::visual_need::recommended"
+      ],
+      "images": [],
+      "flags": [],
+      "comments": [],
+      "visual_need": "recommended",
+      "image_role": "localization",
+      "image_status": "missing",
+      "importance": "unclassified",
+      "cognitive_role": "unclassified",
+      "e1_anchor": null,
+      "suggested_action": "manter",
+      "action_reasons": [],
+      "cards": [
+        {
+          "card_id": 1784109308569,
+          "deck": "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos órgãos linfáticos",
+          "queue": 0,
+          "type": 0,
+          "due": 31384,
+          "interval": 0,
+          "reps": 0,
+          "lapses": 0,
+          "flags": 0
+        }
+      ]
+    }
+  ],
+  "snapshot_sha256": "55eaadaa1d0b6e759f07dfefd39edbce0c2834bde46d8b120050b85f14ebc904"
+}

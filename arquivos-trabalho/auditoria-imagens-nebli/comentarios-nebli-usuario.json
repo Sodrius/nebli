@@ -1,0 +1,58 @@
+[
+  {
+    "note_id": 1783971746365,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "comment": "achei esse tipo de card, com pergunta e resposta + cloze ruim. poderia ser uma afirmação com 2 clozes",
+    "front": "Which glial cell is the exception, arising from mesoderm (monocyte lineage)? Microglia",
+    "extra": "Hence the resident macrophage of the CNS. [img] Image from imported Histology deck.",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-10-tecido-nervoso",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ]
+  },
+  {
+    "note_id": 1783971773414,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "comment": "esse tipo de card contém a resposta nele próprio, o que é um problema",
+    "front": "Anterograde axonal transport (body → terminal) uses kinesin; retrograde (terminal → body) uses dynein.",
+    "extra": "[img] Image from imported Histology deck.",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-10-tecido-nervoso",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ]
+  },
+  {
+    "note_id": 1783971790084,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "comment": "a partir de agora, os cards que marcar de vermelho são também cards que quero que você reveja, porque provavelmente estão ruin",
+    "front": "The myelin-free gap rich in sodium channels where the action potential regenerates, allowing saltatory conduction, is the node of Ranvier.",
+    "extra": "Myelin insulates and forces the signal to jump node to node. [img] Image from imported Histology deck.",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-10-tecido-nervoso",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ]
+  },
+  {
+    "note_id": 1783971812959,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "comment": "esse tipo de card dá a resposta, o cloze poderia estar nas 3 ao mesmo tempo, gerando 2 cards. também é o tipo de card que precisa muito de imagem",
+    "front": "The meninges, outside in, are dura mater, arachnoid, and pia mater; CSF circulates in the subarachnoid space.",
+    "extra": "CSF is made in the choroid plexus and cushions the CNS. [img] Image from imported Histology deck.",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-10-tecido-nervoso",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ]
+  }
+]

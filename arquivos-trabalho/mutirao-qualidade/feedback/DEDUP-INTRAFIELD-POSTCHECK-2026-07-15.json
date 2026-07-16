@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-15T12:51:37.884490-03:00",
+  "query": "deck:NEBLI::* -deck:NEBLI::STAGING::*",
+  "mode": "dry-run",
+  "notes_changed": 0,
+  "image_occurrences_removed": 0,
+  "changes": []
+}

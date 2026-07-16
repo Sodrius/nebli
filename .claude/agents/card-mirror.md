@@ -1,6 +1,6 @@
 ---
 name: card-mirror
-description: Discriminador adversarial de flashcards. Recebe um lote CEGO (cards NEBLI autorais + cards AnKing embaralhados, sem tag/selo) e, para cada um, decide "AnKing-nativo" ou "NEBLI-autoral", com confiança 0-100 e o TELL exato que o entregou. Julga cards de TEXTO/cloze (Parte A) E de IMAGE OCCLUSION (Parte B). Não edita nada — é puro julgamento (evita o bug F9 de subagente). A sessão principal orquestra o loop (cega, roda, coleta tells, refina, reaplica). Modelo Sonnet (barato p/ muitas rodadas; usar Opus em rodada de aprofundamento). Plano em flashcards/CARD-MIRROR-PLANO.md; aprendizado em flashcards/CARD-MIRROR-RUBRICA.md.
+description: Discriminador adversarial de flashcards. Recebe um lote CEGO (cards NEBLI autorais + cards AnKing embaralhados, sem tag/selo) e, para cada um, decide "AnKing-nativo" ou "NEBLI-autoral", com confiança 0-100 e o TELL exato que o entregou. Julga cards de TEXTO/cloze (Parte A) E de IMAGE OCCLUSION (Parte B). Não edita nada — é puro julgamento (evita o bug F9 de subagente). A sessão principal orquestra o loop (cega, roda, coleta tells, refina, reaplica). Modelo Sonnet (barato p/ muitas rodadas; usar Opus em rodada de aprofundamento). Operação em flashcards/README.md; aprendizado em flashcards/CARD-MIRROR-RUBRICA.md.
 tools: Read
 model: sonnet
 ---

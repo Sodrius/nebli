@@ -173,16 +173,16 @@ Quando as válvulas se tornam incompetentes e não vedam mais, o sangue reflui e
 
 Fecha o circuito o sistema que quase sempre é lembrado por último e cuja lógica é a mais elegante. Nos capilares, um pouco de líquido sempre escapa para o interstício e não é totalmente reabsorvido pelo lado venoso. Se ninguém recolhesse esse excedente, o tecido incharia. Quem faz esse resgate é o sistema linfático.
 
-Ele começa nos *capilares linfáticos*, tubos que terminam em *fundo cego* dentro dos tecidos — não vêm de lugar nenhum, apenas se abrem para captar líquido. Duas particularidades os tornam eficientes nisso. Primeiro, seu endotélio *não tem junções de oclusão* vedando as células vizinhas; as bordas se sobrepõem como abas que se abrem para dentro, deixando entrar líquido, proteínas grandes e até células — algo que o capilar sanguíneo, selado, não permite. Segundo, filamentos de ancoragem prendem o capilar linfático ao tecido ao redor, de modo que, quando o interstício incha, eles puxam e abrem ainda mais as abas. O líquido captado passa a se chamar linfa.
+Ele começa nos *capilares linfáticos*, tubos que terminam em *fundo cego* dentro dos tecidos — não vêm de lugar nenhum, apenas se abrem para captar líquido. Duas particularidades os tornam eficientes nisso. Primeiro, as células endoteliais se sobrepõem e são unidas por #termo-nota[junções em botão][junções descontínuas que deixam trechos livres entre células endoteliais sobrepostas], em vez de formar uma faixa contínua de vedação. As bordas funcionam como microválvulas: abrem para dentro quando a pressão intersticial aumenta e deixam entrar líquido, proteínas grandes e células. Segundo, filamentos de ancoragem prendem o capilar linfático ao tecido ao redor, de modo que, quando o interstício incha, eles puxam e favorecem a abertura das abas. O líquido captado passa a se chamar linfa.
 
 Dos capilares a linfa segue por *vasos linfáticos* maiores, cuja estrutura lembra a de uma veia — mas com duas diferenças: as três túnicas não têm limites nítidos entre si, e há um número ainda *maior de válvulas*, porque a linfa, sem coração para empurrá-la, depende inteiramente de válvulas e da compressão dos músculos vizinhos para andar numa direção só. A linfa é filtrada nos linfonodos ao longo do caminho e por fim devolvida ao sangue nas grandes veias da base do pescoço, principalmente pelo ducto torácico.
 
 Um detalhe de cobertura vale a memória porque explica exceções clínicas: o sistema linfático está presente na maioria dos órgãos, mas *falta* no sistema nervoso central, na medula óssea, na cartilagem, no osso e na placenta. Onde não há linfático, a drenagem do excesso de líquido tem que ser resolvida de outro jeito.
 
 #confusao-prevista(
-  titulo: "O capilar linfático é aberto justamente por não ter junção de oclusão",
+  titulo: "No capilar linfático, a vedação é descontínua: junções em botão",
   aluno_acha: [que o capilar linfático é vedado como o sanguíneo, só que carregando linfa],
-  mecanismo: [o capilar sanguíneo é selado por zônulas de oclusão para conter o sangue sob pressão; o linfático *não tem* essas junções e começa em fundo cego — é essa "frouxidão" proposital, com abas sobrepostas e filamentos de ancoragem, que permite líquido, proteína e células entrarem e virarem linfa.],
+  mecanismo: [as junções em botão aparecem em pontos descontínuos das bordas endoteliais sobrepostas, deixando segmentos livres que funcionam como microválvulas. Essa organização, junto aos filamentos de ancoragem, permite a entrada de líquido, proteínas e células sem afirmar incorretamente que não existe nenhuma junção.],
 )
 
 #figura-nebli("/figuras/histo-09-vasos-sanguineos-linfaticos/slide-22.png",

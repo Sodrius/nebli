@@ -1,0 +1,252 @@
+{
+  "generated_at": "2026-07-15T06:32:58.506916-03:00",
+  "deck": "NEBLI::STAGING::Mutirao qualidade::Piloto 2026-07-15",
+  "created": [
+    {
+      "source_note_id": 1783811939209,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107770823
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939250,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107775081
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939259,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107779373
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939266,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107783587
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939294,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107787893
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939313,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107792150
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939329,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107796416
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939341,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107800715
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811939361,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107804979
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944451,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107809268
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944466,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107813528
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783811944471,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107817834
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783893211477,
+      "action": "keep_with_credit_fix",
+      "staging_note_ids": [
+        1784107822206
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971560388,
+      "action": "keep_control",
+      "staging_note_ids": [
+        1784107826480
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971575038,
+      "action": "replace_and_rewrite",
+      "staging_note_ids": [
+        1784107830759,
+        1784107832818,
+        1784107834922
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971579208,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107839206
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971587557,
+      "action": "keep_control",
+      "staging_note_ids": [
+        1784107843487
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971602229,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107847805
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971746365,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107852033
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971760947,
+      "action": "replace",
+      "staging_note_ids": [
+        1784107856403
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971773414,
+      "action": "replace",
+      "staging_note_ids": [
+        1784107860659,
+        1784107862724
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971779679,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107866998
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971788011,
+      "action": "replace_and_rewrite",
+      "staging_note_ids": [
+        1784107871223,
+        1784107873315
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971790084,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107877641
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971792201,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107881948
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971812959,
+      "action": "split",
+      "staging_note_ids": [
+        1784107886228,
+        1784107888320
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971957137,
+      "action": "replace",
+      "staging_note_ids": [
+        1784107892590
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971961342,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107896859
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971990964,
+      "action": "rewrite",
+      "staging_note_ids": [
+        1784107901137
+      ],
+      "status": "existing"
+    },
+    {
+      "source_note_id": 1783971993033,
+      "action": "replace_and_rewrite",
+      "staging_note_ids": [
+        1784107905402,
+        1784107907454
+      ],
+      "status": "existing"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # PESQUISA — O que é um bom card (empírico + teórico) → como o NEBLI gera NEBLIcards
 
-> **Criado 2026-07-11.** Base de referência que a sessão usa para **gerar NEBLIcards** (cards autorais para lacunas que o AnKing não cobre). Junta três fontes: (1) dissecação de **500 cards reais do AnKing v12**, (2) princípios canônicos de formulação de conhecimento (SuperMemo, Matuschak, Nielsen), (3) estado-da-arte de IA gerando cards. Termina numa **spec de geração + rubrica + anti-padrões**. Método irmão: `PLANO-PESQUISA-CARDS-IA.md` (o plano); este é o **achado**.
+> **Criado 2026-07-11.** Base de referência que a sessão usa para **gerar NEBLIcards** (cards autorais para lacunas que o AnKing não cobre). Junta três fontes: (1) dissecação de **500 cards reais do AnKing v12**, (2) princípios canônicos de formulação de conhecimento (SuperMemo, Matuschak, Nielsen), (3) estado-da-arte de IA gerando cards. Este é o resultado permanente da pesquisa; o plano de execução foi encerrado.
 
 ---
 

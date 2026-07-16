@@ -1,0 +1,564 @@
+{
+  "generated_at": "2026-07-15T12:15:13.920951-03:00",
+  "query": "deck:NEBLI::* -deck:NEBLI::STAGING::*",
+  "mode": "apply",
+  "notes_changed": 18,
+  "image_occurrences_removed": 18,
+  "changes": [
+    {
+      "note_id": 1783971560388,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Same plan in every vessel; local pressure sculpts each layer's thickness.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"d1a7cbf0eed989cad5dba919e64a9778.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Same plan in every vessel; local pressure sculpts each layer's thickness.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "NEBLI::cognitive_role::structural_relation",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::keep_control",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971560388",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "d1a7cbf0eed989cad5dba919e64a9778.webp",
+          "normalized_src": "d1a7cbf0eed989cad5dba919e64a9778.webp",
+          "sha256": "d67e64d8a39e971698a1e2aa89ef9b6d44f374ab658b20e6abc75319c50cdd18",
+          "reason": "same_sha256"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971566659,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Aligned to flow.<br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Aligned to flow.<br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "bf71116c31eda2643dadc67e83dc7e0d.webp",
+          "normalized_src": "bf71116c31eda2643dadc67e83dc7e0d.webp",
+          "sha256": "584d8b1213c2a86f601cfc99a4ff213d22597ae35002ecc1094cf9a36bf372dc",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971568750,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "<br><br><img src=\"589038d8af0138bdb4fb8c1186c6db88.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"589038d8af0138bdb4fb8c1186c6db88.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "<br><br><img src=\"589038d8af0138bdb4fb8c1186c6db88.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "589038d8af0138bdb4fb8c1186c6db88.webp",
+          "normalized_src": "589038d8af0138bdb4fb8c1186c6db88.webp",
+          "sha256": "5f7210df03ab2369280e1e74d7c7a8a652902bcf941d75dd94b433722fe746d6",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971577114,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "The media component names the artery.<br><br><img src=\"paste-8101e4c86eed13ed92e1da446324f4f9c51a4fac.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"paste-8101e4c86eed13ed92e1da446324f4f9c51a4fac.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "The media component names the artery.<br><br><img src=\"paste-8101e4c86eed13ed92e1da446324f4f9c51a4fac.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-8101e4c86eed13ed92e1da446324f4f9c51a4fac.png",
+          "normalized_src": "paste-8101e4c86eed13ed92e1da446324f4f9c51a4fac.png",
+          "sha256": "864466c51981b30b93a81ffca975fc4aee2c77e891d8be691a79ad399a6a0112",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971587557,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Pericytes outside give support and repair.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"d1a7cbf0eed989cad5dba919e64a9778.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Pericytes outside give support and repair.<br><br><img src=\"6210d979da5c250a4624ed6f230b744b.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "NEBLI::cognitive_role::structural_relation",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::approved",
+        "NEBLI::image_variety_pass",
+        "NEBLI::importance::nuclear",
+        "NEBLI::mutirao_action::keep_control",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971587557",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "d1a7cbf0eed989cad5dba919e64a9778.webp",
+          "normalized_src": "d1a7cbf0eed989cad5dba919e64a9778.webp",
+          "sha256": "d67e64d8a39e971698a1e2aa89ef9b6d44f374ab658b20e6abc75319c50cdd18",
+          "reason": "same_sha256"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971598032,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Opposite of the same-caliber artery (thick wall, small round lumen).<br><br><img src=\"paste-065224c731df26128c670de194d94627984c751e.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"paste-065224c731df26128c670de194d94627984c751e.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Opposite of the same-caliber artery (thick wall, small round lumen).<br><br><img src=\"paste-065224c731df26128c670de194d94627984c751e.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-065224c731df26128c670de194d94627984c751e.png",
+          "normalized_src": "paste-065224c731df26128c670de194d94627984c751e.png",
+          "sha256": "a5abd8d5673528d42f03fcd2a6fd353e7b1cc71562c90a04206a25f090d07069",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971600144,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Incompetent valve → reflux → varices.<br><br><img src=\"paste-20107768c71a16fd49279c4d7b1a27ea21a2bbfb.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"paste-20107768c71a16fd49279c4d7b1a27ea21a2bbfb.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Incompetent valve → reflux → varices.<br><br><img src=\"paste-20107768c71a16fd49279c4d7b1a27ea21a2bbfb.png\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-20107768c71a16fd49279c4d7b1a27ea21a2bbfb.png",
+          "normalized_src": "paste-20107768c71a16fd49279c4d7b1a27ea21a2bbfb.png",
+          "sha256": "461c7f11f314f8c7966013ff09baa11084504bcbae6f66f2530d12eb5555ad2e",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971604310,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "No heart to push lymph; each squeeze becomes a step forward.<br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "No heart to push lymph; each squeeze becomes a step forward.<br><br><img src=\"bf71116c31eda2643dadc67e83dc7e0d.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-09-vasos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "bf71116c31eda2643dadc67e83dc7e0d.webp",
+          "normalized_src": "bf71116c31eda2643dadc67e83dc7e0d.webp",
+          "sha256": "584d8b1213c2a86f601cfc99a4ff213d22597ae35002ecc1094cf9a36bf372dc",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971950832,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "normalized_src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "sha256": "d9d7686d33dbc89520ae74249566448b06fc043ebfdf41f90c5da5b3849bac9e",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971957137,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "<br><br><img src=\"65b0d8073d493e476fb26b2aa8974d59.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"65b0d8073d493e476fb26b2aa8974d59.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "<br><br><img src=\"65b0d8073d493e476fb26b2aa8974d59.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::cognitive_role::receptor_function",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::importance::important",
+        "NEBLI::mutirao_action::replace",
+        "NEBLI::mutirao_promoted::2026-07-15",
+        "NEBLI::mutirao_replaced::2026-07-15",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::source_note::1783971957137",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "65b0d8073d493e476fb26b2aa8974d59.webp",
+          "normalized_src": "65b0d8073d493e476fb26b2aa8974d59.webp",
+          "sha256": "3d83e52cc2d05cf92ca57d56b63b1f393cd312cf2561a6c1a3dab8903e68e728",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971984635,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Medulla is not isolated; mature T waits there to enter circulation.<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Medulla is not isolated; mature T waits there to enter circulation.<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "normalized_src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "sha256": "3f0e263848d47b37fdf04961720aee906b1e0cae29a21d2ef1477c9b1247e12b",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971995130,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "normalized_src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "sha256": "3f0e263848d47b37fdf04961720aee906b1e0cae29a21d2ef1477c9b1247e12b",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783971999343,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Blood enters via splenic artery → central artery.<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Blood enters via splenic artery → central artery.<br><br><img src=\"09e9b6a99b83dbf4f8f09b8eee8b3539.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "normalized_src": "09e9b6a99b83dbf4f8f09b8eee8b3539.webp",
+          "sha256": "3f0e263848d47b37fdf04961720aee906b1e0cae29a21d2ef1477c9b1247e12b",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783972005618,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "The structure IS the RBC quality-control mechanism.<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "The structure IS the RBC quality-control mechanism.<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "normalized_src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "sha256": "d9d7686d33dbc89520ae74249566448b06fc043ebfdf41f90c5da5b3849bac9e",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783972007705,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Reading triad: Hassall = thymus; subcapsular sinus = node; central artery = spleen.<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Reading triad: Hassall = thymus; subcapsular sinus = node; central artery = spleen.<br><br><img src=\"a0570fa33063c3c2818804d219860c6c.webp\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::en",
+        "NEBLI::histo-11-orgaos-linfaticos",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "normalized_src": "a0570fa33063c3c2818804d219860c6c.webp",
+          "sha256": "d9d7686d33dbc89520ae74249566448b06fc043ebfdf41f90c5da5b3849bac9e",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783972450167,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Axillary assessment is part of staging.<br><br><img src=\"paste-675830283894785.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Anki reference deck.</i><br><br><img src=\"paste-675830283894785.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Anki reference deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Axillary assessment is part of staging.<br><br><img src=\"paste-675830283894785.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Anki reference deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Anki reference deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::anato-05-sistema-linfatico",
+        "NEBLI::en",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-675830283894785.jpg",
+          "normalized_src": "paste-675830283894785.jpg",
+          "sha256": "5f8df7bdd8908fde82625a0bf2d3e78f22d4008b860a2c127bd8ceab9c752eb4",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783972462658,
+      "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "Thoracic duct on the left, right duct on the right.<br><br><img src=\"paste-6a03d336d44fe1a0b63082f5fb42b0c551f89816.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"paste-6a03d336d44fe1a0b63082f5fb42b0c551f89816.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "Thoracic duct on the left, right duct on the right.<br><br><img src=\"paste-6a03d336d44fe1a0b63082f5fb42b0c551f89816.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::anato-05-sistema-linfatico",
+        "NEBLI::en",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::neblicard-autoral",
+        "NEBLI::visual_need::recommended"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-6a03d336d44fe1a0b63082f5fb42b0c551f89816.jpg",
+          "normalized_src": "paste-6a03d336d44fe1a0b63082f5fb42b0c551f89816.jpg",
+          "sha256": "25cba48c70088504a66f7878ed8ee28449e01b6ddf5ef9b9639ce858b5784b06",
+          "reason": "same_src"
+        }
+      ]
+    },
+    {
+      "note_id": 1783990968777,
+      "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+      "before_fields": {
+        "Extra": "<i style=\"font-size:10pt;\">Image credit: OpenStax / Wikimedia Commons, CC BY 4.0</i><br><br><img src=\"paste-11f457005def45d1fabfc80d9d2e20622376938e.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><img src=\"paste-11f457005def45d1fabfc80d9d2e20622376938e.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "after_fields": {
+        "Extra": "<i style=\"font-size:10pt;\">Image credit: OpenStax / Wikimedia Commons, CC BY 4.0</i><br><br><img src=\"paste-11f457005def45d1fabfc80d9d2e20622376938e.jpg\"><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i><br><br><i style=\"font-size:10pt;\">Image from imported Histology/LLU deck.</i>"
+      },
+      "tags_before": [
+        "img::revisar",
+        "NEBLI::anato-05-sistema-linfatico",
+        "NEBLI::blocked::visual_required_pending",
+        "NEBLI::gerado",
+        "NEBLI::image_extra",
+        "NEBLI::image_role::recognition",
+        "NEBLI::image_status::needs_specific_review",
+        "NEBLI::image_status::pending_review",
+        "NEBLI::seed",
+        "NEBLI::visual_need::required"
+      ],
+      "removed": [
+        {
+          "field": "Extra",
+          "src": "paste-11f457005def45d1fabfc80d9d2e20622376938e.jpg",
+          "normalized_src": "paste-11f457005def45d1fabfc80d9d2e20622376938e.jpg",
+          "sha256": "15844075b0d82f88ffd45b1c91d355480743a20ccae22a1c48edc4b58af8ec3b",
+          "reason": "same_src"
+        }
+      ]
+    }
+  ]
+}

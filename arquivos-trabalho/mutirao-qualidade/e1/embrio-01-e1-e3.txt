@@ -1,0 +1,1504 @@
+N E B L I            ·    A P O S T I L A
+
+
+
+
+Gametogênese e Fertilização
+Embriologia
+
+
+
+
+Disciplina:                         Embriologia (UC02)
+Onde estudar:                       Slides da aula Gametogênese e Fertilização (UC02, Embriologia, Profa. Marilene H.
+                                    Lopes, ICB-USP) · Moore & Persaud, Embriologia Clínica, cap. Primeira Semana do
+                                    Desenvolvimento · Langman, Embriologia Médica, cap. Gametogênese · Junqueira &
+                                    Carneiro, Histologia Básica (aparelho reprodutor, para revisão)
+
+
+Material elaborado a partir dos slides da disciplina. Recomenda-se estudar com o material original aberto ao lado, pois o resumo
+complementa — não substitui — a aula.
+
+
+
+
+                                                    Davi Sousa — Turma 114
+
+                           (61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com
+NEBLI
+
+
+Sumário
+
+ETAPA 1 — TEXTO DIDÁTICO
+ PARTE I — De onde vêm os gametas e a meiose
+   Origem e migração das PGCs
+   Meiose: reduzir e diversificar
+   Ovogênese, paradas e envoltórios
+ PARTE II — Espermatogênese e capacitação
+   Espermatogênese contínua
+   Espermiogênese: a remodelação
+   Arquitetura e capacitação
+ PARTE III — Fertilização e início do desenvolvimento
+   Encontro e reação acrossômica
+   Fusão e bloqueio à polispermia
+   Singamia, clivagem e blastocisto
+
+
+
+
+                                           2
+NEBLI                                                                                                   SUMÁRIO
+
+
+
+
+       Etapa 1 — Texto didático
+
+
+      Todo ser humano começa como uma única célula, o zigoto, e essa célula é o encontro de dois
+      gametas que passaram a vida inteira se preparando para um único instante. Antes de entender
+      como o espermatozoide e o ovócito se fundem, vale ver como cada um foi fabricado — porque a
+      fabricação explica quase tudo o que vem depois. A mulher já nasce com todos os seus ovócitos
+      represados no meio de uma divisão celular, e só solta um por mês, décadas mais tarde. O homem
+      produz espermatozoides às centenas de milhões, mas cada um é uma célula esvaziada e recon­
+      struída, reduzida ao essencial para uma corrida só de ida. E o momento da fertilização, longe de
+      ser um encontro passivo, é uma sequência encadeada de chaves e travas moleculares que garante
+      um resultado exato: um ovócito, um espermatozoide, um genoma novo e completo. Este resumo
+      segue a linha do tempo da vida — primeiro a origem e a maturação dos gametas, depois a fertil­
+      ização, e por fim os primeiros dias do embrião.
+
+
+PARTE I — De onde vêm os gametas e a meiose
+
+1.1 — A origem migrante dos gametas
+Os gametas não nascem dentro da gônada. Essa é a primeira surpresa da embriologia reprodutiva: as
+células que darão origem a todos os óvulos e espermatozoides de uma pessoa surgem fora do futuro
+ovário ou testículo e precisam viajar até lá. Essas células fundadoras são as células germinativas
+primordiais1, ou PGC2, e aparecem já na terceira semana do desenvolvimento numa região extragonadal,
+perto do saco vitelino. A partir daí, entre a quarta e a sétima semana, elas realizam uma migração ativa,
+arrastando-se em movimento amebóide ao longo do intestino primitivo até chegar à crista genital3, o
+esboço da gônada.
+O detalhe que importa é que a PGC chega à gônada como uma célula ainda indefinida. Não é o
+cromossomo sexual da própria célula que decide seu destino imediato, mas o ambiente que ela encontra:
+numa gônada que se organiza como ovário, as PGC entram na via da ovogênese; numa gônada que vira
+testículo, entram na espermatogênese. A chegada não significa maturidade — apenas dispara o pro­
+grama. No embrião feminino, esse programa começará cedo e depois congelará por anos; no masculino,
+ficará em espera até a puberdade.
+
+      Resumindo até aqui: Os gametas vêm de uma linhagem que se separa cedo do corpo (as PGC), migra
+      ativamente até a crista genital, e só ali entra no programa de virar óvulo ou espermatozoide.
+
+
+1.2 — A meiose: a divisão que reduz e embaralha de propósito
+A meiose é uma divisão celular que erra por vontade própria — e é justamente esse “erro” que a torna
+indispensável. Uma célula comum se divide por mitose e gera duas cópias idênticas, cada uma com o
+número completo de cromossomos. Se dois gametas produzidos assim se fundissem, o embrião teria o
+  1
+   células germinativas primordiais – do inglês PGC — a linhagem que dará origem a todos os gametas; separa-se cedo
+do restante do corpo
+  2
+    PGC – primordial germ cells — células germinativas primordiais, a linhagem fundadora dos gametas
+  3
+    crista genital – espessamento na parede posterior do embrião que se tornará o ovário ou o testículo
+
+                                                         3
+NEBLI                                                                           E TA PA 1 — T E XT O D I D ÁT I CO
+
+dobro do material genético da espécie, e o dobro de novo a cada geração. A meiose resolve isso cortando
+o número de cromossomos pela metade: uma célula diploide4, que chamamos 2N, produz gametas
+haploides5, N, de modo que a fusão de dois deles reconstrói o número normal.
+O ponto que mais gera confusão é onde essa redução acontece. A meiose são duas divisões seguidas, I e II,
+com uma única replicação do DNA6 antes das duas. É a meiose I que faz a redução de verdade: ela separa
+os cromossomos homólogos — o materno vai para uma célula, o paterno para outra —, e é por isso
+chamada de divisão reducional. A meiose II apenas separa as cromátides-irmãs de cada cromossomo,
+exatamente como faria uma mitose, e por isso é a divisão equacional; ela não muda a ploidia, que já caiu
+na primeira etapa.
+Antes de separar os homólogos, porém, a meiose faz algo que a mitose nunca faz: pareia cada cromos­
+somo com seu homólogo e troca pedaços entre eles. Essa troca é o crossing-over7, e ocorre num estágio
+específico da longa prófase da meiose I chamado paquíteno. É daí que vem a diversidade genética: cada
+gameto sai com uma mistura única de trechos maternos e paternos. Somada à distribuição aleatória de
+qual homólogo vai para qual célula, a recombinação garante que nenhum gameto seja igual a outro. A
+prófase I é dividida em cinco fases sucessivas — leptóteno, zigóteno, paquíteno, diplóteno e diacinese
+—, mas o que importa reter é a lógica: os homólogos se aproximam, pareiam, trocam material e depois
+se preparam para separar.
+
+1.3 — A ovogênese e suas duas paradas: a linha de montagem congelada
+A ovogênese funciona como uma linha de montagem que congela no meio do trabalho e só descongela
+sob demanda, uma peça de cada vez, ao longo de décadas. Ainda na vida fetal, as PGC do ovário se
+multiplicam e entram na meiose I — mas não a completam. Por volta do quinto mês de gestação, os
+ovócitos param no diplóteno8, travados no meio da primeira divisão. É a primeira parada meiótica, e ela
+pode durar quarenta ou cinquenta anos.
+Nesse mesmo período fetal, o número de ovócitos atinge seu pico e nunca mais aumenta. A menina
+chega a ter cerca de sete milhões de ovócitos por volta da metade da gestação, mas a maioria degenera
+antes mesmo do nascimento, num processo contínuo de atresia9. Ao nascer restam cerca de um a dois
+milhões; na puberdade, algo em torno de quatrocentos mil; e desses, apenas umas quatrocentas células
+chegarão a ser ovuladas na vida inteira. O estoque é finito e definido antes do nascimento — não há
+reposição.
+A partir da puberdade, mês a mês, um punhado de ovócitos represados é recrutado, e em geral apenas
+um amadurece por completo. Esse ovócito retoma a meiose I e a termina, mas com uma divisão de
+citoplasma marcadamente assimétrica: quase todo o conteúdo celular fica com uma só célula-filha
+— o ovócito secundário —, enquanto a outra, minúscula, é descartada como corpúsculo polar10. Essa
+economia faz sentido: o ovócito precisa guardar reservas para nutrir o embrião nos primeiros dias, então
+
+
+
+ 4
+    diploide – com dois jogos de cromossomos, um materno e um paterno — representado por 2N
+ 5
+    haploides – com um único jogo de cromossomos — representado por N
+  6
+    DNA – ácido desoxirribonucleico — material genético
+  7
+    crossing-over – recombinação: troca física de segmentos entre cromossomos homólogos pareados, gerando combi­
+nações novas
+  8
+    diplóteno – estágio avançado da prófase I, no qual os homólogos já trocaram material e começam a se afastar
+  9
+    atresia – degeneração programada dos folículos ovarianos, que ocorre ao longo de toda a vida reprodutiva
+  10
+     corpúsculo polar – célula-filha pequena da meiose do ovócito que recebe cromossomos mas quase nenhum cito­
+plasma, e degenera
+
+                                                       4
+NEBLI                                                                           E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+À esquerda, a sequência da meiose: a replicação do DNA, o pareamento dos homólogos, a separação dos homólogos
+na meiose I e a separação das cromátides na meiose II, terminando em gametas haploides. À direita, a divergência
+entre os sexos a partir da mesma célula fundadora (PGC): no embrião masculino o programa espera a puberdade; no
+feminino, os ovócitos já entram e ficam represados no diplóteno. Repare que a redução do número de cromossomos
+acontece na meiose I, não na II.
+
+concentra o citoplasma numa célula só. Em seguida o ovócito secundário inicia a meiose II — e para de
+novo, agora em metáfase II. Essa segunda parada só será rompida se houver fecundação.
+
+
+
+
+                                                       5
+NEBLI                                                                            E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+A partir da puberdade, um folículo primordial que estava quiescente desde a vida pré-natal é ativado a cada mês e
+cresce até virar um folículo maduro (cerca de 2,5 cm). Só então o ovócito retoma a meiose, começando pela conden­
+sação dos cromossomos travados desde o diplóteno.
+
+
+   O que se ovula não é um óvulo pronto
+
+   O termo popular “óvulo” sugere uma célula que terminou de amadurecer, mas o que a ovulação
+   libera é um ovócito secundário parado em metáfase II — no meio da segunda divisão meiótica.
+   A meiose só se completa se um espermatozoide fecundar essa célula; sem fecundação, o ovócito
+   degenera com a meiose inacabada. Tratar o ovócito ovulado como um gameto “pronto” leva ao
+   erro de imaginar que a fecundação apenas soma DNA, quando na verdade ela também dispara o
+   término da meiose e a liberação do último corpúsculo polar.
+
+
+
+1.4 — Os envoltórios do ovócito: as peças que só disparam na fertilização
+O ovócito ovulado não sai sozinho — vem embrulhado em camadas que só farão sentido quando o
+espermatozoide chegar, na PARTE III. Vale conhecê-las agora porque cada uma tem um papel mecânico
+preciso na fertilização. De fora para dentro, o ovócito é cercado pela corona radiata11, uma coroa de células
+foliculares herdada do folículo; por baixo dela está a zona pelúcida12, uma casca glicoproteica translúcida;
+  11
+     corona radiata – coroa de células foliculares que envolve o ovócito ovulado, unidas por matriz rica em ácido
+hialurônico
+  12
+     zona pelúcida – envoltório glicoproteico acelular ao redor do ovócito, formado por ZP1, ZP2 e ZP3
+
+                                                       6
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+e entre a zona e a membrana do ovócito há uma fresta, o espaço perivitelino, onde os corpúsculos polares
+ficam alojados.
+A zona pelúcida é a peça-chave. Não é uma barreira só física: é uma trama de glicoproteínas — ZP1, ZP2
+e ZP3 — que também reconhece o espermatozoide da espécie certa. A ZP3 funciona como o receptor
+que o espermatozoide precisa encontrar e que dispara sua reação de penetração; a ZP2 guia a passagem
+depois; a ZP1 costura a rede. Guardar esses nomes agora facilita entender, adiante, por que modificar a
+ZP2 e a ZP3 após a fecundação tranca a porta para qualquer outro espermatozoide.
+Logo abaixo da membrana do ovócito, num anel periférico, estão os grânulos corticais13. São vesículas
+cheias de enzimas prontas para serem despejadas para fora no instante exato em que o primeiro esper­
+matozoide se fundir com o ovócito — a munição do bloqueio à entrada de um segundo. Por ora, basta
+fixar que eles pertencem ao ovócito e estão carregados, esperando o gatilho.
+
+A imagem mostra o ovócito ovulado em corte, com
+suas camadas nomeadas: a corona radiata externa de
+células foliculares, a zona pelúcida logo abaixo, o espaço
+perivitelino como fresta interna e, no córtex do próprio
+ovócito, os grânulos corticais alinhados. O ovócito rep­
+resentado avança na meiose II e para em metáfase II — o
+estado em que será fecundado. Cada estrutura aqui será
+um ator na PARTE III.
+
+
+
+
+                                                                   Envoltórios do ovócito ovulado.
+
+
+
+
+  13
+     grânulos corticais – vesículas no córtex do ovócito cujo conteúdo, liberado por exocitose após a fusão, modifica a
+zona pelúcida e bloqueia a polispermia
+
+                                                          7
+NEBLI                                                                            E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+A zona pelúcida como barreira física e molecular: uma trama das glicoproteínas ZP1, ZP2 e ZP3. A ZP3 é o ponto de
+reconhecimento e o gatilho da reação acrossômica; a ZP2 guia a passagem do espermatozoide pela zona.
+
+
+
+
+                                                       8
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+PARTE II — Espermatogênese e a remodelação do esper­
+matozoide
+
+2.1 — A fábrica contínua: o contraste com a ovogênese
+Depois de ver a ovogênese represada e pulsátil, a espermatogênese é o oposto quase em tudo. Enquanto
+a mulher já nasceu com todo o seu estoque de ovócitos parados no meio da meiose, o homem não produz
+um único espermatozoide até a puberdade — e, a partir dela, produz sem parar, às dezenas de milhões
+por dia, pelo resto da vida. Não há parada meiótica, não há estoque finito montado antes do nascimento:
+há uma linha de produção contínua nos testículos, alimentada por células-tronco que se dividem por
+mitose e repõem constantemente o ponto de partida.
+O caminho é direto: a espermatogônia (a célula-tronco diploide) se divide e uma das filhas cresce, vi­
+rando espermatócito primário; este entra na meiose I e gera dois espermatócitos secundários; a meiose
+II gera, ao todo, quatro espermátides haploides a partir de cada espermatócito primário. Diferente da
+ovogênese, a divisão de citoplasma aqui é simétrica — as quatro células recebem parcelas semelhantes,
+porque nenhuma delas precisa estocar reservas para um embrião. Só que a espermátide ainda é uma
+célula redonda e comum. Falta a ela a transformação mais radical de toda a gametogênese, que é o
+assunto do próximo trecho.
+
+2.2 — A espermiogênese: uma célula que se desmonta para caber numa função
+A espermátide vira espermatozoide passando por uma reengenharia que, em vez de acrescentar, tira.
+Esse acabamento é a espermiogênese14, e seu resultado é uma das células mais especializadas do corpo,
+reduzida ao mínimo necessário para entregar um pacote de DNA a um destino distante.
+No núcleo, a célula expulsa água, elimina o RNA15 que não vai mais usar, e troca as proteínas que
+empacotam o DNA por proteínas menores e mais compactas, as protaminas. O resultado é um núcleo
+alongado e densamente condensado — DNA espremido no menor volume possível, transcricionalmente
+silencioso, protegido para a viagem. No citoplasma, três coisas acontecem em paralelo. O complexo de
+Golgi se funde numa vesícula única e gigante que se assenta como um capuz sobre a ponta do núcleo:
+é o acrossoma16, carregado das enzimas que abrirão caminho pela zona pelúcida. As mitocôndrias se
+concentram numa região logo atrás da cabeça, a peça intermediária, formando o motor de energia. E
+cresce o flagelo, o único propulsor da célula. Todo o excesso de citoplasma é descartado.
+
+   Resumindo até aqui: A espermiogênese não engorda a célula para nadar — ela a enxuga: condensa o
+   núcleo, monta o acrossoma a partir do Golgi, empacota as mitocôndrias atrás da cabeça e forma o flagelo,
+   jogando fora o resto.
+
+
+2.3 — A arquitetura do espermatozoide: cada parte, uma função
+O espermatozoide pronto tem a forma de suas tarefas, e a analogia que a própria professora usa — a de
+um míssil teleguiado — organiza bem as peças, desde que se leve cada parte a sério como mecanismo.
+A ogiva é o núcleo condensado, que carrega a única coisa que importa entregar: os 23 cromossomos
+
+  14
+     espermiogênese – transformação da espermátide redonda em espermatozoide: condensação do núcleo, formação
+do acrossoma e do flagelo, e perda de citoplasma
+  15
+     RNA – ácido ribonucleico
+  16
+     acrossoma – vesícula derivada do Golgi, cheia de enzimas hidrolíticas, que recobre a cabeça do espermatozoide e se
+rompe na fertilização
+
+                                                          9
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+As duas frentes da espermiogênese. No núcleo: remoção de água, eliminação de RNAs, alongamento e condensação.
+No citoplasma: fusão do Golgi formando o acrossoma, concentração das mitocôndrias perto do flagelo e formação
+do flagelo. A célula redonda vira uma célula-projétil.
+
+paternos. Diretamente à frente do núcleo, como uma carga que precisa detonar antes do impacto, está
+o acrossoma, com as enzimas que dissolvem os envoltórios do ovócito. O combustível são as mitocôn­
+drias da peça intermediária, que geram o ATP17 do batimento flagelar. E o motor é o flagelo, que converte
+esse ATP em propulsão.
+Um detalhe da cabeça é decisivo para a fertilização. A ponta do espermatozoide tem três bicamadas
+lipídicas empilhadas: a membrana plasmática mais externa, e logo abaixo as duas membranas do
+acrossoma — a externa e a interna, com o conteúdo enzimático entre elas. É essa arquitetura em
+camadas que permite a reação acrossômica funcionar como uma detonação controlada, que veremos na
+PARTE III: a membrana plasmática se funde com a membrana externa do acrossoma, o conteúdo escapa,
+e a membrana interna fica exposta na frente. A cabeça também carrega, na sua superfície, os receptores
+que reconhecem as proteínas ZP3 e ZP2 da zona pelúcida — as fechaduras que encaixam nas chaves do
+ovócito.
+
+2.4 — A capacitação: por que o espermatozoide do ejaculado ainda não fecunda
+
+
+
+  17
+       ATP – adenosina trifosfato — a molécula que fornece energia para o movimento
+
+                                                           10
+NEBLI                                                                           E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+Em cima, a analogia do míssil: mitocôndria como combustível, flagelo como motor, núcleo e acrossoma na ponta.
+Embaixo, o detalhe crítico da cabeça: três bicamadas lipídicas — membrana plasmática, membrana externa do
+acrossomo e membrana interna do acrossomo — com o conteúdo enzimático entre as duas do acrossoma.
+
+Um espermatozoide recém-ejaculado, com flagelo batendo e nadando bem, ainda não é capaz de fecun­
+dar. Essa é a última e talvez mais contraintuitiva etapa da preparação masculina, e ela acontece já dentro
+do corpo da mulher. A maturação masculina se dá em dois locais separados. Primeiro, no epidídimo18,
+os espermatozoides que saem do testículo ganham a capacidade de se mover. Mas nadar não basta.
+A segunda etapa é a capacitação19, que só ocorre depois, ao longo de sete a doze horas de trânsito pelo
+trato reprodutor feminino. Durante a capacitação, a membrana da cabeça do espermatozoide perde
+colesterol e fatores que estavam adsorvidos na sua superfície desde o ejaculado. Retirar colesterol
+torna a membrana mais fluida e instável — e é justamente essa instabilidade controlada que deixará a
+membrana pronta para fundir com a do acrossoma quando chegar a hora. Somam-se alterações iônicas
+e metabólicas que hiperativam o batimento flagelar. Só o espermatozoide capacitado consegue disparar
+a reação acrossômica no contato com a zona pelúcida.
+
+
+ 18
+     epidídimo – ducto enovelado sobre o testículo onde os espermatozoides adquirem motilidade e terminam de
+amadurecer antes da ejaculação
+  19
+     capacitação – conjunto de mudanças na membrana do espermatozoide, no trato feminino, que o tornam capaz de
+reação acrossômica
+
+                                                      11
+NEBLI                                                                           E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+A capacitação ocorre ao longo de sete a doze horas no trato reprodutor feminino: mudanças metabólicas e iônicas
+na membrana, com aumento da fluidez pela remoção de colesterol. É a maturação molecular final que habilita o
+espermatozoide — só depois dela ele pode reagir à zona pelúcida.
+
+
+  Capacitação não é reação acrossômica, e motilidade não é capacitação
+
+  Aluno costuma achar: aluno tende a fundir os três eventos num só, ou achar que um espermato­
+  zoide que nada já pode fecundar
+
+  Mecanismo correto: são três marcos distintos, em locais e momentos diferentes. A motilidade é
+  adquirida no epidídimo (a célula passa a nadar). A capacitação ocorre depois, no trato feminino,
+  ao longo de horas, removendo colesterol e deixando a membrana pronta. A reação acrossômica
+  é o disparo pontual e final, no contato com a zona pelúcida. A capacitação habilita; a reação
+  acrossômica executa. É por isso que, na fertilização in vitro, os espermatozoides precisam ser
+  capacitados artificialmente em laboratório antes de encontrarem o ovócito.
+
+
+
+
+                                                      12
+NEBLI                                                                             E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+PARTE III — A fertilização e o disparo do desenvolvimento
+
+3.1 — O encontro: atravessar a corona e chegar à zona pelúcida
+Com os dois gametas maduros, a fertilização começa por uma barreira mecânica: a corona radiata.
+O espermatozoide capacitado, chegando ao ovócito nas tubas uterinas, encontra primeiro a coroa de
+células foliculares. Para passar entre elas, libera de sua superfície a enzima hialuronidase, que digere o
+ácido hialurônico que cola as células foliculares umas às outras, afrouxando a corona o suficiente para
+o espermatozoide atravessar. É importante notar que, nesse ponto, o acrossoma ainda está intacto — a
+corona é vencida por fora, sem detonar a carga principal.
+Ao passar a corona, o espermatozoide toca a zona pelúcida pela primeira vez. Aqui o encontro deixa de
+ser mecânico e vira molecular: os receptores da cabeça do espermatozoide encaixam na glicoproteína
+ZP3 da zona. Esse encaixe não é apenas adesão — é um gatilho. A ligação à ZP3 é o sinal que dispara a
+reação acrossômica, o evento central da penetração.
+
+3.2 — A reação acrossômica: a carga que detona na hora certa
+A reação acrossômica é a detonação controlada que a arquitetura em três camadas da cabeça tornou
+possível. Disparada pela ligação à ZP3, ela começa com um influxo de cálcio para dentro do espermato­
+
+
+
+
+O espermatozoide penetra a corona radiata liberando hialuronidase, que afrouxa as junções entre as células folicu­
+lares. Nesse momento o acrossoma ainda está intacto; só ao tocar a zona pelúcida, ligando-se à ZP3, é que a reação
+acrossômica será disparada.
+
+                                                        13
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+zoide. Esse aumento de cálcio faz a membrana plasmática da cabeça fundir-se, em vários pontos, com a
+membrana externa do acrossoma. Onde as duas membranas se fundem, abrem-se poros, e o conteúdo
+enzimático do acrossoma escapa para fora — entre essas enzimas está a acrosina20, uma protease.
+O que a acrosina e as demais hidrolases fazem não é dissolver a zona inteira, e sim abrir um canal
+pontual, uma fresta local por onde só aquele espermatozoide avança. Ao mesmo tempo, a exocitose
+expõe na frente da cabeça a membrana interna do acrossoma, que passa a exibir moléculas capazes
+de interagir com a ZP2 da zona. Essa interação ZP2–receptor guia o espermatozoide através do túnel
+recém-aberto, mantendo-o preso e alinhado enquanto atravessa a zona pelúcida rumo ao espaço periv­
+itelino. Em resumo, a mesma reação faz três coisas encadeadas: libera as enzimas que hidrolisam a zona,
+expõe a membrana interna que fará contato guiado com a ZP2, e prepara a superfície do espermatozoide
+para a fusão iminente com a membrana do ovócito.
+
+3.3 — A fusão e o bloqueio à polispermia: a porta que se tranca por dentro
+Atravessada a zona, o espermatozoide alcança a membrana do ovócito, e as duas se fundem. Basta a
+fusão de um único espermatozoide para reprogramar todo o ovócito. A fusão dispara, no interior do
+ovócito, uma onda de cálcio que percorre a célula e ativa duas respostas quase simultâneas. A primeira
+é a ativação do ovócito propriamente dita — a retomada da meiose II, travada em metáfase desde a
+ovulação. A segunda é o bloqueio à entrada de qualquer outro espermatozoide, e é aqui que os grânulos
+corticais guardados na PARTE I finalmente disparam.
+A onda de cálcio faz o córtex do ovócito despejar os grânulos corticais para fora, no espaço perivitelino,
+por exocitose. Esse evento é a reação cortical21. As enzimas liberadas modificam quimicamente a zona
+pelúcida por baixo: clivam a ZP2 e alteram a ZP3. Como ZP3 era a fechadura de acoplamento e ZP2 guiava
+a passagem, alterá-las inutiliza os pontos de ligação — nenhum espermatozoide novo consegue mais
+se prender ou penetrar. A zona endurece, e some rapidamente uma segunda linha de defesa: a fusão do
+primeiro espermatozoide muda o potencial elétrico da membrana do ovócito, um bloqueio rápido que
+impede novas fusões nos instantes iniciais, antes mesmo de a reação cortical terminar.
+
+   Resumindo até aqui: Um espermatozoide funde, o cálcio sobe, os grânulos corticais são despejados, ZP2
+   e ZP3 são modificadas e a zona se tranca — garantindo que só um genoma paterno entre.
+
+
+       O bloqueio à polispermia é obra do ovócito, não do espermatozoide
+
+       É tentador imaginar que o espermatozoide vencedor “sela a porta atrás de si”, mas quem executa
+       o bloqueio é o ovócito. São os grânulos corticais do ovócito que sofrem exocitose, é a zona pelúcida
+       do ovócito que é modificada, e é a membrana do ovócito que muda de potencial. Mais ainda: vários
+       espermatozoides podem atravessar a zona pelúcida; o que garante a monospermia não é impedir
+       a travessia, e sim que apenas um funda com a membrana e dispare a reação cortical que barra os
+       demais. Se esse bloqueio falha e dois espermatozoides fecundam, o resultado é um zigoto triploide
+       (69 cromossomos), inviável.
+
+
+
+
+  20
+     acrosina – protease do acrossoma que digere pontualmente a zona pelúcida, abrindo o canal por onde o espermato­
+zoide avança
+  21
+     reação cortical – exocitose dos grânulos corticais do ovócito após a fusão, que modifica a zona pelúcida e impede a
+entrada de outros espermatozoides
+
+                                                          14
+NEBLI                                                                                 E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+A reação acrossômica em sequência. O influxo de cálcio funde a membrana plasmática com a membrana externa do
+acrossoma, liberando o conteúdo enzimático (com acrosina) e expondo a membrana interna. A acrosina promove
+hidrólise pontual da zona pelúcida, enquanto a interação da ZP2 com seu receptor guia a passagem do esperma­
+tozoide.
+
+3.4 — A singamia: dois núcleos que se preparam antes de se misturar
+Ativado, o ovócito termina enfim a meiose que estava suspensa desde a ovulação. Ele completa a meiose
+II e expulsa o segundo corpúsculo polar para o espaço perivitelino — o último resíduo da divisão
+assimétrica. Só agora o gameto feminino é, de fato, um óvulo maduro com um único jogo de 23 cromos­
+somos. Dentro dessa mesma célula estão, então, dois conjuntos genéticos separados: o material da mãe
+e o material do pai que o espermatozoide trouxe.
+Cada conjunto se organiza num pró-núcleo22, envolto por sua própria membrana — o pró-núcleo
+feminino e o pró-núcleo masculino, cada um com N igual a 23 cromossomos. Aqui está uma sutileza
+que costuma passar batida: os dois pró-núcleos não se fundem imediatamente num núcleo único. Antes
+disso, cada um replica seu DNA, e os dois se aproximam no centro da célula, encostando as membranas.
+
+  22
+       pró-núcleo – núcleo haploide, materno ou paterno, dentro do zigoto, antes de os dois genomas se combinarem
+
+                                                           15
+NEBLI                                                                             E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+
+Após a fusão, o ovócito completa a meiose II e libera o segundo corpúsculo polar. Formam-se o pró-núcleo feminino
+e o masculino, cada um com 23 cromossomos, que replicam o DNA e se aproximam. Os genomas só se combinam de
+fato na primeira divisão do zigoto.
+
+A verdadeira mistura dos cromossomos maternos e paternos — a singamia23 — só se consuma na
+primeira divisão mitótica do zigoto, quando as membranas dos pró-núcleos se desfazem e todos os 46
+cromossomos, já duplicados, se alinham juntos no fuso pela primeira vez. É nesse instante que existe,
+pela primeira vez, uma célula com o genoma completo e novo do indivíduo.
+
+3.5 — Da clivagem ao blastocisto: os primeiros dias do embrião
+Formado o zigoto, o desenvolvimento parte não por crescimento, mas por divisão. As primeiras divisões
+do embrião são as clivagens, e elas têm uma característica peculiar: dividem sem crescer. Como tudo
+ocorre ainda dentro da zona pelúcida, que não se expande, cada divisão apenas reparte o mesmo volume
+total em células cada vez menores, os blastômeros. De uma célula grande passa-se a duas, quatro, oito
+células menores, sem que o conjunto aumente de tamanho. Por volta de setenta e duas horas após a
+fecundação, o embrião é uma bolinha compacta de células — a mórula.
+A mórula então passa por dois eventos que a transformam em blastocisto. Primeiro, a compactação24,
+em que as células externas se unem por junções reforçadas e se achatam, vedando o interior. Vedado o
+embrião, as células passam a bombear fluido para dentro, e forma-se uma cavidade cheia de líquido, a
+
+
+  23
+     singamia – união dos genomas materno e paterno; na espécie humana, os cromossomos só se misturam na primeira
+divisão do zigoto
+  24
+     compactação – reforço das junções entre os blastômeros externos, que se achatam e vedam o interior do embrião
+
+                                                       16
+NEBLI                                                                                  E TA PA 1 — T E XT O D I D ÁT I CO
+
+blastocele25 — é a cavitação. O resultado, por volta do quarto ao quinto dia, é o blastocisto26, no qual, pela
+primeira vez, duas populações de células se distinguem, embora tenham exatamente o mesmo genoma.
+Uma é a massa celular interna, um aglomerado preso a um dos polos, que dará origem ao embrião
+propriamente dito. A outra é a trofoectoderme27, a camada externa que forrará a cavidade e dará origem
+à parte embrionária da placenta.
+Essa é a primeira decisão de destino da vida: dentro versus fora, embrião versus anexos, decidida pela
+posição da célula e não por seu DNA. Por fim, para poder implantar, o blastocisto precisa se livrar da
+casca que o protegeu até aqui. Ele rompe e sai da zona pelúcida num processo chamado eclosão — só
+então, livre da zona, o blastocisto pode aderir ao endométrio e iniciar a implantação, por volta do sexto
+dia, tema da próxima etapa do desenvolvimento.
+
+
+
+
+Em cima, a eclosão: o blastocisto rompe e sai da zona pelúcida para poder implantar no endométrio. Embaixo, as
+duas populações do blastocisto, com o mesmo genoma: a massa celular interna (futuro embrião) e a trofoectoderme
+(futura porção embrionária da placenta), separadas pela blastocele preenchida de fluido.
+  25
+     blastocele – cavidade preenchida de fluido dentro do blastocisto, formada pela secreção de líquido pelas células
+externas
+  26
+     blastocisto – estágio embrionário com blastocele, massa celular interna e trofoectoderme, que se implantará no útero
+  27
+     trofoectoderme – camada externa de células do blastocisto que originará a porção embrionária da placenta
+
+                                                           17
+NEBLI                                                                    E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+  Conclusão integradora
+
+  O fio que costura toda esta aula é um só: a fertilização não é um acaso, e sim o encaixe de peças
+  que os dois gametas passaram a vida fabricando com antecedência. O princípio unificador é a
+  preparação — cada estrutura montada na gametogênese existe para um papel exato no encontro.
+  O mecanismo nuclear que se repete é o do gatilho de cálcio operando sobre estruturas pré-
+  carregadas: a ligação à ZP3 dispara a reação acrossômica que abre a zona, e a fusão dos gametas
+  dispara a onda de cálcio que, de uma vez, retoma a meiose parada e detona os grânulos corticais
+  que trancam a porta. A meiose, com suas duas paradas no lado feminino e seu fluxo contínuo
+  no masculino, garante que cada gameto entre com metade do genoma e diversidade nova; a
+  espermiogênese enxuga o espermatozoide para a entrega; os envoltórios do ovócito servem de
+  fechadura e de munição. A clínica fecha o raciocínio: quando a meiose erra ao separar os homól­
+  ogos — a não-disjunção, mais frequente em ovócitos que ficaram represados por décadas —,
+  um gameto entra com um cromossomo a mais, e o embrião nasce com uma trissomia, como a
+  do cromossomo 21; quando o bloqueio à polispermia falha, dois genomas paternos entram e o
+  zigoto triploide não vinga. Daqui em diante, o mesmo genoma que acabou de se formar começará
+  a tomar decisões de posição — dentro e fora, massa celular interna e trofoectoderme —, e é essa
+  lógica de destino por posição que abre a próxima aula, a da implantação e da gastrulação.
+
+
+
+
+                                                 18
+NEBLI                                                                                E TA PA 1 — T E XT O D I D ÁT I CO
+
+
+
+    Resumindo
+
+
+Não-disjunção gera aneuploidia                                A reação acrossômica abre a zona
+Quando a meiose falha ao separar homólogos                    pelúcida
+(meiose I) ou cromátides (meiose II), um gameto               Ligar-se à ZP3 dispara influxo de cálcio, funde a
+entra com um cromossomo a mais ou a menos.                    membrana plasmática com a externa do acrossoma
+A trissomia do 21 é o exemplo clássico, e o risco             e libera acrosina, que hidrolisa um canal pontual na
+cresce com a idade materna — reflexo dos ovócitos             zona. A membrana interna exposta interage com a
+represados por décadas.                                       ZP2 e guia a passagem.
+
+
+As duas paradas meióticas do ovócito                          O espermatozoide é enxugado, não
+O ovócito para duas vezes: no diplóteno da prófase            engordado
+I, do 5º mês fetal até a puberdade, e na metáfase             A espermiogênese remove água, RNA e citoplasma
+II, da ovulação até a fecundação. O que se ovula é            da espermátide, condensa o núcleo com
+um ovócito II parado em metáfase II, não um óvulo             protaminas, monta o acrossoma a partir do Golgi
+pronto.                                                       e concentra as mitocôndrias na peça intermediária.
+                                                              Uma célula reduzida ao essencial para entregar
+Meiose I reduz, meiose II iguala                              DNA.
+A redução de 2N para N acontece na meiose I, que
+separa os cromossomos homólogos. A meiose II só               Os gametas vêm de fora da gônada
+separa as cromátides-irmãs, como uma mitose, e                As células germinativas primordiais surgem numa
+não muda a ploidia. O crossing-over ocorre antes,             região extragonadal e migram ativamente até a
+no paquíteno da prófase I.                                    crista genital entre a 4ª e a 7ª semana. É o ambiente
+                                                              da gônada, não o cromossomo da célula, que define
+O bloqueio à polispermia é do ovócito                         ovogênese ou espermatogênese.
+A fusão de um espermatozoide dispara uma onda de
+cálcio no ovócito, que despeja os grânulos corticais          Singamia só na primeira mitose
+(reação cortical): a ZP2 é clivada e a ZP3 modificada,        Os pró-núcleos masculino e feminino (N=23 cada)
+trancando a zona. Se falhar, um zigoto triploide              não se fundem de imediato: replicam o DNA e se
+inviável se forma.                                            apõem. Os cromossomos maternos e paternos só se
+                                                              misturam na primeira divisão do zigoto, quando os
+Capacitação não é reação acrossômica                          46 se alinham juntos no fuso.
+A capacitação é a maturação do espermatozoide
+no trato feminino (7–12 h), que remove colesterol             Do zigoto ao blastocisto
+e deixa a membrana fluida e pronta. A reação                  As clivagens dividem sem crescer dentro da zona
+acrossômica é o disparo pontual, depois, no contato           pelúcida. A mórula compacta e cavita, formando
+com a ZP3. Uma habilita; a outra executa.                     o blastocisto com massa celular interna (embrião)
+                                                              e trofoectoderme (placenta) — mesmo genoma,
+                                                              destinos diferentes. Ele eclode da zona antes de
+                                                              implantar.
+
+
+
+
+                                                         19
+NEBLI                                                                                      RESUMINDO
+
+
+
+
+    Etapa 2 — 30 objetivas
+
+Questão 01       Consolidação
+
+
+Sobre onde ocorre a redução do número de cromossomos ao longo da meiose, é correto afirmar:
+
+  A) A redução da ploidia ocorre na meiose II, quando as cromátides-irmãs de cada cromossomo são
+  puxadas para polos opostos, deixando cada célula-filha com metade do conteúdo original.
+
+  B) A redução acontece na interfase que precede a meiose I, quando o DNA se replica pela metade e
+  distribui um único jogo de cromátides para cada futura célula haploide.
+
+  C) A redução ocorre na meiose I, que separa os cromossomos homólogos — o de origem materna vai
+  para uma célula e o paterno para outra —, sendo por isso a divisão reducional.
+
+  D) A redução depende do crossing-over do paquíteno, pois é a troca de segmentos entre homólogos
+  que descarta metade do material genético de cada gameto que se forma.
+
+  E) A redução se completa apenas após a fecundação, quando o término da meiose II do ovócito elimina
+  o segundo corpúsculo polar e ajusta o número final de cromossomos.
+
+
+
+Questão 02        Consolidação
+
+
+Sobre a origem das células germinativas primordiais (PGC), é correto afirmar:
+
+  A) Elas surgem numa região extragonadal, próxima ao saco vitelino, e migram ativamente até a crista
+  genital entre a quarta e a sétima semana, colonizando a gônada em formação.
+
+  B) Elas se formam dentro do ovário ou do testículo já diferenciados, a partir de células somáticas da
+  gônada que se especializam localmente em linhagem germinativa.
+
+  C) Elas chegam à crista genital já comprometidas como óvulo ou espermatozoide, pois o cromossomo
+  sexual da própria PGC determina seu destino antes mesmo da migração.
+
+  D) Elas são transportadas passivamente pela expansão do embrião, sem motilidade própria, sendo
+  depositadas na gônada conforme os folhetos embrionários se dobram na quarta semana.
+
+  E) Elas surgem na crista neural e migram ventralmente, do mesmo modo que as células que originam
+  melanócitos e gânglios, até alcançar a gônada em desenvolvimento.
+
+
+
+Questão 03        Consolidação
+
+
+Julgue os itens sobre a meiose e a formação dos gametas:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A meiose compreende duas divisões sucessivas precedidas por uma única replicação do DNA, o que
+  explica a passagem de uma célula diploide a quatro células haploides.
+
+
+
+
+                                                    20
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  II. O crossing-over ocorre na prófase da meiose I, quando os cromossomos homólogos pareados
+  trocam segmentos, gerando combinações genéticas novas em cada gameto.
+
+  III. A meiose II é a divisão reducional, pois é nela que os cromossomos homólogos se separam e o
+  número de cromossomos cai pela metade.
+
+  IV. Ao final da meiose, as quatro células resultantes são geneticamente distintas entre si, por causa da
+  recombinação e da segregação independente dos homólogos.
+
+
+
+Questão 04       Consolidação
+
+
+Sobre os envoltórios do ovócito ovulado, é correto afirmar:
+
+  A) A corona radiata é a camada glicoproteica acelular mais interna, composta por ZP1, ZP2 e ZP3,
+  responsável pelo reconhecimento do espermatozoide da espécie.
+
+  B) A zona pelúcida é formada por células foliculares justapostas que nutrem o ovócito e se soltam pela
+  ação da hialuronidase liberada pelo espermatozoide.
+
+  C) Os grânulos corticais pertencem ao espermatozoide e são despejados sobre a superfície do ovócito
+  para digerir a zona pelúcida antes da fusão das membranas.
+
+  D) A zona pelúcida é uma trama glicoproteica (ZP1, ZP2, ZP3) que funciona como barreira física e
+  molecular, reconhecendo o espermatozoide e disparando, pela ZP3, a reação acrossômica.
+
+  E) O espaço perivitelino é preenchido pela corona radiata compactada, e é nele que os grânulos
+  corticais ficam armazenados até o momento da ovulação mensal.
+
+
+
+Questão 05       Consolidação
+
+
+Sobre a ovogênese, assinale a alternativa incorreta:
+
+  A) O estoque de ovócitos é finito e definido antes do nascimento, atingindo um pico de milhões na
+  vida fetal e reduzindo-se continuamente por atresia ao longo da vida.
+
+  B) A cada ciclo, o ovócito recrutado completa integralmente as duas divisões meióticas antes da
+  ovulação, sendo liberado como um óvulo maduro e haploide, pronto para a fusão.
+
+  C) A divisão do citoplasma na ovogênese é assimétrica, concentrando reservas num único ovócito
+  grande e descartando corpúsculos polares minúsculos que quase não recebem citoplasma.
+
+  D) O ovócito para no diplóteno da prófase I desde a vida fetal até a puberdade, retomando a meiose
+  apenas quando é recrutado, décadas depois do início dessa pausa.
+
+  E) O que se ovula é um ovócito secundário parado em metáfase II, cuja segunda divisão meiótica só
+  se completa se de fato ocorrer a fecundação.
+
+
+
+Questão 06       Consolidação
+
+
+Sobre a formação e a maturação do espermatozoide, é correto afirmar:
+
+
+                                                    21
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+  A) A espermiogênese aumenta o volume citoplasmático da espermátide e acumula RNA e água,
+  preparando a célula com reservas abundantes para a longa viagem até o ovócito.
+
+  B) A espermatogênese é pulsátil, liberando um único espermatozoide maduro por mês, em paralelo à
+  liberação mensal de um ovócito, mantendo simetria entre os dois sexos.
+
+  C) O acrossoma deriva das mitocôndrias que se agrupam na cabeça, formando um capuz de enzimas
+  oxidativas responsável por gerar energia durante a penetração da zona.
+
+  D) A espermiogênese remodela a espermátide removendo água, RNA e citoplasma, condensando o
+  núcleo com protaminas, formando o acrossoma a partir do Golgi e montando o flagelo.
+
+  E) As mitocôndrias distribuem-se por todo o comprimento do flagelo para impulsioná-lo de ponta a
+  ponta, enquanto o acrossoma se aloja na peça intermediária como reserva.
+
+
+
+Questão 07        Consolidação
+
+
+Julgue os itens sobre a arquitetura do espermatozoide maduro:
+
+Cada item deve ser julgado de forma independente.
+
+  I. As mitocôndrias que fornecem energia ao flagelo concentram-se no interior do acrossoma, na ponta
+  da cabeça, junto às enzimas hidrolíticas.
+
+  II. A cabeça apresenta três bicamadas lipídicas empilhadas: a membrana plasmática e as membranas
+  externa e interna do acrossoma.
+
+  III. O núcleo é densamente condensado e transcricionalmente silencioso, carregando os 23 cromos­
+  somos paternos empacotados por protaminas.
+
+  IV. O acrossoma armazena o ATP que alimenta o batimento flagelar, funcionando como a principal
+  fonte de energia da célula.
+
+
+
+Questão 08        Consolidação
+
+
+Sobre a capacitação do espermatozoide, é correto afirmar:
+
+  A) A capacitação ocorre no epidídimo, antes da ejaculação, e é o processo pelo qual o espermatozoide
+  adquire pela primeira vez a capacidade de se mover pelo flagelo.
+
+  B) A capacitação consiste na adição de colesterol à membrana da cabeça, tornando-a mais rígida e
+  estável para resistir ao ambiente do trato reprodutor feminino.
+
+  C) A capacitação é o mesmo evento que a reação acrossômica, ou seja, a liberação das enzimas do
+  acrossoma no momento do contato com a glicoproteína ZP3.
+
+  D) A capacitação torna-se dispensável na fertilização in vitro, pois o espermatozoide ejaculado já está
+  plenamente apto a fundir com o ovócito assim que o encontra.
+
+  E) A capacitação ocorre ao longo de horas no trato feminino e remove colesterol da membrana,
+  aumentando sua fluidez e habilitando o espermatozoide à reação acrossômica.
+
+
+
+
+                                                    22
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+Questão 09        Consolidação
+
+
+Julgue os itens sobre a penetração do espermatozoide nos envoltórios do ovócito:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A hialuronidase liberada pelo espermatozoide afrouxa a corona radiata ao digerir o ácido hialurônico
+  que une as células foliculares.
+
+  II. A reação acrossômica ocorre antes de qualquer contato com a zona pelúcida, ainda durante a
+  travessia da corona radiata, com o acrossoma já rompido.
+
+  III. A acrosina dissolve integralmente a zona pelúcida ao redor do ovócito, removendo por completo
+  o envoltório glicoproteico antes da fusão.
+
+  IV. A ligação do espermatozoide à glicoproteína ZP3 é o gatilho que dispara a reação acrossômica.
+
+
+
+Questão 10       Consolidação
+
+
+Sobre os primeiros dias do desenvolvimento após a fecundação, é correto afirmar:
+
+  A) Durante a clivagem, cada divisão é acompanhada de crescimento celular, de modo que o embrião
+  aumenta progressivamente de tamanho dentro da zona pelúcida.
+
+  B) As clivagens dividem o zigoto sem crescimento do conjunto, repartindo o mesmo volume em
+  blastômeros cada vez menores dentro da zona pelúcida, que não se expande.
+
+  C) A massa celular interna e a trofoectoderme surgem de linhagens com genomas distintos, o que
+  explica por que uma origina o embrião e a outra a placenta.
+
+  D) O blastocisto implanta-se no endométrio ainda envolvido pela zona pelúcida, que serve de âncora
+  para a fixação inicial das células trofoblásticas na parede uterina.
+
+  E) A blastocele é uma massa sólida de células que preenche o centro do embrião e mais tarde se
+  diferencia na massa celular interna do disco embrionário.
+
+
+
+Questão 11      Integração
+
+
+A não-disjunção meiótica pode gerar um gameto com um cromossomo extra. Considerando o mecan­
+ismo, é correto afirmar:
+
+  A) Se homólogos deixam de se separar na meiose I, ou cromátides na meiose II, um gameto recebe
+  dois exemplares de um cromossomo; sua fusão com um gameto normal gera trissomia.
+
+  B) A não-disjunção só afeta a meiose II masculina, pois a espermatogênese contínua acumula erros
+  que a ovogênese, por ser represada, consegue reparar antes da ovulação.
+
+  C) A não-disjunção ocorre no crossing-over do paquíteno, quando a troca desigual de segmentos entre
+  homólogos duplica um cromossomo inteiro num dos gametas formados.
+
+  D) Um gameto com cromossomo extra sempre origina um embrião inviável, de modo que nenhuma
+  trissomia é compatível com o nascimento de um indivíduo vivo.
+
+
+                                                    23
+NEBLI                                                                        E TA PA 2 — 3 0 O B J E T I VA S
+
+  E) A trissomia resulta da fecundação de um ovócito por dois espermatozoides, cada um trazendo um
+  jogo cromossômico completo, o que triplica um único cromossomo.
+
+
+
+Questão 12       Integração
+
+
+Julgue os itens sobre a relação entre as paradas meióticas do ovócito e a fecundação:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O ovócito liberado na ovulação já concluiu as duas divisões meióticas, e a fecundação apenas acres­
+  centa o genoma paterno a um óvulo maduro.
+
+  II. A primeira parada meiótica, no diplóteno, é rompida pela fecundação, momento em que o ovócito
+  enfim inicia a meiose I.
+
+  III. A fusão do espermatozoide dispara a onda de cálcio que rompe a segunda parada, permitindo ao
+  ovócito completar a meiose II e liberar o segundo corpúsculo polar.
+
+  IV. Sem fecundação, o ovócito completa espontaneamente a meiose II poucas horas após a ovulação
+  e permanece viável por vários dias na tuba uterina.
+
+
+
+Questão 13       Integração
+
+
+A relação entre a zona pelúcida e a reação acrossômica pode ser descrita como:
+
+  A) A zona pelúcida atrai o espermatozoide por quimiotaxia e, ao contato, funde-se diretamente com
+  a membrana do núcleo, dispensando a liberação de enzimas acrossômicas.
+
+  B) A ZP2 é o receptor que dispara a reação acrossômica, enquanto a ZP3 modifica-se depois para
+  permitir a passagem do espermatozoide pelo canal aberto na zona.
+
+  C) A ligação do espermatozoide à ZP3 dispara a reação acrossômica; a acrosina liberada hidrolisa um
+  canal pontual, e a membrana interna exposta interage com a ZP2, guiando a passagem.
+
+  D) A reação acrossômica ocorre independentemente da zona pelúcida, sendo desencadeada pelo
+  simples contato do espermatozoide capacitado com as células da corona radiata.
+
+  E) A zona pelúcida impede fisicamente qualquer espermatozoide de atravessá-la, e a fecundação
+  depende de uma abertura pré-existente por onde um único gameto passa intacto.
+
+
+
+Questão 14       Integração
+
+
+Sobre o papel dos grânulos corticais no bloqueio à polispermia, é correto afirmar:
+
+  A) Os grânulos corticais são liberados pelo espermatozoide vencedor, que os deposita sobre a zona
+  pelúcida para impedir que competidores se liguem às glicoproteínas restantes.
+
+  B) Os grânulos corticais dissolvem inteiramente a zona pelúcida após a fusão, expondo a membrana
+  do ovócito e criando uma barreira elétrica permanente contra novas fusões.
+
+
+
+
+                                                    24
+NEBLI                                                                         E TA PA 2 — 3 0 O B J E T I VA S
+
+  C) Os grânulos corticais são exocitados antes da fusão, ainda durante a capacitação do espermato­
+  zoide, preparando a zona para receber o primeiro gameto que chegar até ela.
+
+  D) Os grânulos corticais atuam apenas na corona radiata, endurecendo as células foliculares para que
+  nenhum espermatozoide adicional consiga atravessá-la depois da primeira fusão.
+
+  E) A onda de cálcio pós-fusão faz o ovócito exocitar os grânulos corticais no espaço perivitelino; suas
+  enzimas clivam a ZP2 e modificam a ZP3, trancando a zona a novos espermatozoides.
+
+
+
+Questão 15       Integração
+
+
+Julgue os itens que relacionam a estrutura do espermatozoide à sua função na fertilização:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O acrossoma, derivado do complexo de Golgi, contém as hidrolases (incluindo a acrosina) que abrem
+  um canal na zona pelúcida durante a reação acrossômica.
+
+  II. O núcleo mantém a cromatina descondensada e ativa em transcrição para produzir, durante a
+  viagem, as proteínas de fusão com a membrana do ovócito.
+
+  III. A concentração de mitocôndrias na peça intermediária fornece o ATP que alimenta o batimento
+  do flagelo, a única fonte de propulsão da célula.
+
+  IV. A perda de água e citoplasma na espermiogênese reduz a célula ao essencial, favorecendo a motil­
+  idade necessária para alcançar o ovócito.
+
+
+
+Questão 16       Integração
+
+
+A capacitação e a reação acrossômica são eventos distintos e sequenciais. A relação correta entre eles é:
+
+  A) A reação acrossômica precede a capacitação: o acrossoma rompe-se no epidídimo e, só depois, a
+  membrana perde colesterol ao entrar em contato com o muco cervical.
+
+  B) A capacitação ocorre antes, no trato feminino, removendo colesterol e deixando a membrana fluida;
+  só então, ao ligar-se à ZP3, o espermatozoide dispara a reação acrossômica.
+
+  C) Os dois eventos são simultâneos e ocorrem no mesmo local, de modo que remover colesterol da
+  membrana é exatamente o mesmo que liberar as enzimas do acrossoma.
+
+  D) A capacitação depende da reação acrossômica prévia, pois só o acrossoma aberto libera os sinais
+  que induzem a remoção de colesterol e a hiperativação do flagelo.
+
+  E) Ambos ocorrem no epidídimo antes da ejaculação, tornando o espermatozoide plenamente apto a
+  fecundar assim que é depositado no trato reprodutor feminino.
+
+
+
+Questão 17       Integração
+
+
+Sobre as barreiras que o espermatozoide atravessa até o ovócito, assinale a alternativa incorreta:
+
+
+
+
+                                                      25
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  A) A hialuronidase liberada pelo espermatozoide digere a zona pelúcida, enquanto a acrosina dissolve
+  as junções entre as células foliculares da corona radiata.
+
+  B) A corona radiata é vencida por fora, com o acrossoma ainda intacto, pela ação da hialuronidase
+  sobre o ácido hialurônico que une as células foliculares.
+
+  C) A zona pelúcida é atravessada por um canal pontual aberto pela acrosina, e não por uma dissolução
+  completa de todo o envoltório glicoproteico.
+
+  D) A ligação à ZP3 dispara a reação acrossômica somente após a travessia da corona radiata e o contato
+  direto do espermatozoide com a zona pelúcida.
+
+  E) A membrana interna do acrossoma, exposta após a reação, interage com a ZP2 e guia o esperma­
+  tozoide pelo túnel aberto na zona pelúcida.
+
+
+
+Questão 18       Integração
+
+
+Julgue os itens sobre a divisão assimétrica do ovócito e os corpúsculos polares:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A divisão do citoplasma na ovogênese é simétrica, gerando quatro ovócitos funcionais equivalentes
+  a partir de cada ovócito primário.
+
+  II. O primeiro corpúsculo polar é expulso apenas após a fecundação, junto com o segundo, quando o
+  ovócito completa de uma só vez as duas divisões meióticas.
+
+  III. A assimetria concentra citoplasma e reservas num único ovócito grande, o que é vantajoso para
+  nutrir o embrião nos primeiros dias.
+
+  IV. O segundo corpúsculo polar é liberado no espaço perivitelino quando a fecundação dispara o
+  término da meiose II.
+
+
+
+Questão 19       Integração
+
+
+A reação cortical modifica quimicamente a zona pelúcida. O mecanismo correto é:
+
+  A) A reação cortical adiciona novas moléculas de ZP3 à zona, reforçando os sítios de ligação para que
+  o espermatozoide vencedor permaneça firmemente ancorado durante a fusão.
+
+  B) A reação cortical ocorre antes da fusão dos gametas, sendo disparada pela ligação do espermato­
+  zoide à ZP3 e independente de qualquer variação de cálcio intracelular.
+
+  C) A reação cortical dissolve completamente a zona pelúcida, de modo que o embrião prossegue a
+  clivagem já sem envoltório, livre para se expandir na tuba uterina.
+
+  D) A onda de cálcio pós-fusão dispara a exocitose dos grânulos corticais, cujas enzimas clivam a ZP2
+  e modificam a ZP3, inutilizando os sítios de ligação e endurecendo a zona.
+
+  E) A reação cortical muda apenas o potencial elétrico da membrana do ovócito, sem alterar quimica­
+  mente a zona pelúcida, que permanece idêntica após a entrada do espermatozoide.
+
+
+
+
+                                                    26
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+Questão 20        Integração
+
+
+Durante a clivagem, o embrião divide-se sem aumentar de tamanho. A explicação mecanística é:
+
+  A) A zona pelúcida secreta fatores que inibem a síntese de DNA entre as divisões, impedindo que os
+  blastômeros dupliquem seu conteúdo e, assim, cresçam entre as clivagens.
+
+  B) O embrião perde células a cada divisão por apoptose seletiva, de modo que o número de blastômeros
+  permanece constante enquanto cada um deles aumenta de volume.
+
+  C) As divisões repartem o mesmo volume citoplasmático do zigoto em blastômeros cada vez menores,
+  tudo dentro da zona pelúcida, que não se expande e mantém o tamanho total constante.
+
+  D) Cada blastômero migra para fora da zona pelúcida logo após se formar, de modo que o conjunto
+  interno nunca acumula massa suficiente para crescer de forma visível.
+
+  E) A ausência de mitose verdadeira nas primeiras divisões, substituída por simples fragmentação
+  nuclear, impede que as células recuperem tamanho entre uma clivagem e outra.
+
+
+
+Questão 21       Integração
+
+
+Julgue os itens sobre as duas primeiras populações celulares do blastocisto:
+
+Cada item deve ser julgado de forma independente.
+
+  I. A massa celular interna e a trofoectoderme possuem o mesmo genoma, e sua diferença de destino
+  decorre da posição que ocupam, não de diferenças no DNA.
+
+  II. A massa celular interna dará origem ao embrião propriamente dito, enquanto a trofoectoderme
+  originará a porção embrionária da placenta.
+
+  III. A separação entre as duas populações ocorre por uma divisão meiótica que distribui genes difer­
+  entes a cada grupo, comprometendo-os com destinos distintos.
+
+  IV. A trofoectoderme forma-se no interior do embrião e a massa celular interna reveste a cavidade,
+  em contato direto com a zona pelúcida.
+
+
+
+Questão 22       Integração
+
+
+Sobre a formação do genoma do zigoto após a fusão dos gametas, é correto afirmar:
+
+  A) Os pró-núcleos masculino e feminino fundem-se imediatamente após a fusão das membranas,
+  formando de pronto um único núcleo diploide já pronto para a primeira mitose.
+
+  B) O pró-núcleo masculino traz 46 cromossomos e o feminino nenhum, pois o ovócito contribui
+  apenas com citoplasma e organelas para o novo indivíduo em formação.
+
+  C) A mistura dos cromossomos maternos e paternos ocorre ainda na interfase, antes da replicação do
+  DNA, quando os dois pró-núcleos trocam cromossomos entre si.
+
+  D) Cada pró-núcleo replica o DNA e em seguida sofre uma divisão meiótica adicional, o que reduz o
+  número de cromossomos do zigoto antes da primeira clivagem.
+
+
+                                                    27
+NEBLI                                                                          E TA PA 2 — 3 0 O B J E T I VA S
+
+  E) Cada pró-núcleo haploide (N=23) replica seu DNA e se apõe ao outro; os cromossomos maternos e
+  paternos só se combinam na primeira mitose do zigoto, quando os 46 se alinham juntos.
+
+
+
+Questão 23       Integração
+
+
+Comparando a ovogênese e a espermatogênese, a diferença mecanística correta é:
+
+  A) Ambas produzem quatro gametas funcionais por célula precursora, mas a ovogênese os libera de
+  uma vez na ovulação e a espermatogênese um por vez ao longo do mês.
+
+  B) A ovogênese é represada, com estoque finito pré-natal e duas paradas meióticas, enquanto a
+  espermatogênese é contínua desde a puberdade, sem paradas e com produção maciça.
+
+  C) A ovogênese é contínua e a espermatogênese pulsátil, de modo que a mulher renova seu estoque
+  de ovócitos mensalmente e o homem produz espermatozoides apenas em surtos.
+
+  D) Ambas apresentam divisão citoplasmática assimétrica, descartando corpúsculos polares, mas só a
+  espermatogênese conserva reservas de citoplasma para a célula-filha final.
+
+  E) A ovogênese termina a meiose antes do nascimento e a espermatogênese antes da puberdade, de
+  modo que ambos os gametas ficam prontos e apenas aguardam a ativação.
+
+
+
+Questão 24        Integração
+
+
+Julgue os itens sobre a origem das células germinativas e a determinação do seu destino:
+
+Cada item deve ser julgado de forma independente.
+
+  I. As células germinativas primordiais originam-se dentro da própria gônada já diferenciada, sem
+  necessidade de migração de outras regiões do embrião.
+
+  II. É o ambiente da gônada, e não o cromossomo sexual da própria PGC, que direciona a célula para a
+  ovogênese ou a espermatogênese.
+
+  III. A migração das PGC até a crista genital é passiva, resultado apenas do dobramento do embrião,
+  sem qualquer motilidade própria da célula.
+
+  IV. Ao chegar à crista genital, a PGC já é um gameto maduro, restando apenas ser liberada quando o
+  organismo atingir a maturidade sexual.
+
+
+
+Questão 25       Integração
+
+
+A onda de cálcio disparada pela fusão dos gametas desencadeia respostas simultâneas no ovócito. A
+descrição correta é:
+
+  A) O cálcio ativa o ovócito, que retoma e conclui a meiose II liberando o segundo corpúsculo polar, e
+  ao mesmo tempo dispara a reação cortical que tranca a zona à polispermia.
+
+  B) O cálcio atua apenas sobre o flagelo do espermatozoide, hiperativando seu movimento para
+  garantir que ele alcance o núcleo do ovócito antes de qualquer competidor.
+
+
+                                                    28
+NEBLI                                                                        E TA PA 2 — 3 0 O B J E T I VA S
+
+  C) O cálcio inibe a meiose do ovócito, mantendo-o parado em metáfase II até que os pró-núcleos se
+  formem e se apliquem no centro da célula para a mitose.
+
+  D) O cálcio provém dos grânulos corticais rompidos e serve unicamente para modificar a ZP3, sem
+  qualquer efeito sobre o ciclo meiótico do ovócito fecundado.
+
+  E) O cálcio dispara apenas a reação cortical; a retomada da meiose II depende de um sinal separado,
+  liberado horas depois pelo pró-núcleo masculino já formado.
+
+
+
+Questão 26       Aplicação
+
+
+Um casal recebe a informação de que o risco de trissomia do 21 no bebê aumenta com a idade materna.
+O mecanismo que melhor explica esse aumento é:
+
+  A) Espermatozoides de homens mais velhos acumulam mutações que triplicam o cromossomo 21 no
+  momento da fecundação, sendo a idade paterna a causa principal da síndrome.
+
+  B) Óvulos mais velhos sofrem mais crossing-over, e o excesso de trocas entre homólogos duplica o
+  cromossomo 21 antes da ovulação nas mulheres de idade avançada.
+
+  C) A idade materna aumenta a chance de dois espermatozoides fecundarem o mesmo ovócito, o que
+  acrescenta um cromossomo 21 extra ao embrião que se forma.
+
+  D) Os ovócitos ficam represados na meiose por décadas; quanto mais longa essa pausa, maior a chance
+  de falha na separação dos homólogos, gerando um gameto com o 21 em duplicata.
+
+  E) Com a idade, o bloqueio à polispermia enfraquece, permitindo a entrada de material genético extra
+  que se manifesta como um cromossomo 21 adicional no zigoto.
+
+
+
+Questão 27       Aplicação
+
+
+Num laboratório de fertilização in vitro, os espermatozoides são tratados antes de serem colocados com
+os ovócitos. Julgue os itens:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O tratamento reproduz a capacitação que normalmente ocorreria no trato feminino, sem a qual o
+  espermatozoide não conseguiria realizar a reação acrossômica.
+
+  II. O tratamento consiste em induzir a reação acrossômica de todos os espermatozoides antes do
+  contato com o ovócito, para que cheguem com o acrossoma já esvaziado.
+
+  III. Como a fecundação é in vitro, o bloqueio à polispermia não é necessário, e vários espermatozoides
+  podem fundir com o ovócito sem prejuízo ao embrião.
+
+  IV. O ovócito usado permanece parado em metáfase II, e só concluirá a meiose se um espermatozoide
+  efetivamente o fecundar.
+
+
+
+Questão 28       Aplicação
+
+
+
+
+                                                    29
+NEBLI                                                                        E TA PA 2 — 3 0 O B J E T I VA S
+
+Em uma gestação, verifica-se um concepto com 69 cromossomos (triploide), inviável. Uma causa com­
+patível com esse achado é:
+
+  A) A não-disjunção de todos os cromossomos na meiose II do ovócito, que reteve um jogo
+  cromossômico completo a mais antes de ser fecundado normalmente.
+
+  B) A duplicação espontânea do genoma do zigoto após a primeira clivagem, quando os blastômeros
+  se fundem novamente num único núcleo com o triplo do DNA.
+
+  C) A falha do bloqueio à polispermia, permitindo que dois espermatozoides fundam com o mesmo
+  ovócito; os dois genomas paternos somados ao materno resultam em três jogos cromossômicos.
+
+  D) A fecundação de dois ovócitos por um único espermatozoide, que dividiu seu núcleo entre as duas
+  células e assim triplicou a carga genética do concepto.
+
+  E) A ausência de eclosão do blastocisto, que reteve a zona pelúcida e, com ela, um conjunto extra de
+  cromossomos maternos herdados das células foliculares.
+
+
+
+Questão 29       Aplicação
+
+
+Um blastocisto chega ao útero por volta do quinto dia, mas só consegue implantar após um evento
+específico. Esse evento é:
+
+  A) A eclosão, em que o blastocisto rompe e sai da zona pelúcida; livre do envoltório, a trofoectoderme
+  pode enfim aderir diretamente ao endométrio e iniciar a implantação.
+
+  B) A recompactação da mórula, que precisa reverter a cavitação e voltar a ser uma massa sólida para
+  conseguir se fixar com firmeza na parede do útero.
+
+  C) A conclusão da meiose II da massa celular interna, cujo término libera sinais que autorizam a
+  trofoectoderme a invadir o endométrio materno.
+
+  D) A fusão da massa celular interna com a trofoectoderme, unindo os dois genomas distintos num
+  único tecido capaz de estabelecer contato com o útero.
+
+  E) A reconstituição da zona pelúcida ao redor do embrião, que funciona como âncora adesiva indis­
+  pensável para a fixação do blastocisto no endométrio.
+
+
+
+Questão 30        Aplicação
+
+
+Uma paciente pergunta por que, mesmo com relação no período fértil, a fecundação só é possível numa
+janela curta. Julgue os itens sobre os gametas envolvidos:
+
+Cada item deve ser julgado de forma independente.
+
+  I. O ovócito, uma vez ovulado, permanece viável e fecundável por vários dias, pois já completou a
+  meiose e não depende de nenhum outro evento.
+
+  II. O espermatozoide precisa de horas de capacitação no trato feminino antes de tornar-se apto a
+  fecundar, o que impõe um atraso entre a relação e a fecundação.
+
+
+
+
+                                                    30
+NEBLI                                                                      E TA PA 2 — 3 0 O B J E T I VA S
+
+ III. O ovócito é liberado parado em metáfase II e degenera em cerca de um dia se não for fecundado, o
+ que limita a janela fértil.
+
+ IV. A fecundação pode ocorrer em qualquer ponto do trato feminino, inclusive no útero após a
+ implantação, o que amplia muito o período possível.
+
+
+
+
+                                                 31
+NEBLI                                                                       E TA PA 2 — 3 0 O B J E T I VA S
+
+
+
+
+   Etapa 3 — 5 discursivas
+
+
+  Questão Q1
+
+  Explique por que a redução do número de cromossomos acontece na meiose I, e não na meiose II.
+
+
+    M O D E LO D E R E S P O S TA
+
+    A meiose I é reducional porque separa os cromossomos homólogos: o exemplar de
+    origem materna vai para uma célula-filha e o paterno para outra. Antes disso houve
+    uma única replicação do DNA, de modo que cada célula que sai da meiose I já é
+    haploide, embora cada cromossomo ainda tenha duas cromátides unidas. A meiose II
+    apenas separa essas cromátides-irmãs, exatamente como faria uma mitose, sem alterar
+    o número de cromossomos. Por isso a ploidia cai na primeira divisão, e a segunda é dita
+    equacional.
+
+
+
+
+  Questão Q2
+
+  O que se libera na ovulação não é um óvulo pronto. Explique em que ponto da meiose está o ovócito
+  ovulado e o que rompe essa parada.
+
+
+    M O D E LO D E R E S P O S TA
+
+    O ovócito é ovulado como ovócito secundário parado em metáfase II — no meio da
+    segunda divisão meiótica. Ele já retomara e concluíra a meiose I ao ser recrutado
+    (liberando o primeiro corpúsculo polar), mas volta a travar antes de terminar a meiose
+    II. Essa segunda parada só é rompida pela fecundação: a fusão do espermatozoide
+    dispara uma onda de cálcio que ativa o ovócito, permitindo-lhe concluir a meiose II
+    e expulsar o segundo corpúsculo polar. Sem fecundação, o ovócito degenera com a
+    meiose inacabada.
+
+
+
+
+                                                 32
+NEBLI                                                                   E TA PA 3 — 5 D I S C U R S I VA S
+
+
+
+  Questão Q3
+
+  Diferencie capacitação e reação acrossômica quanto a local, momento e função.
+
+
+    M O D E LO D E R E S P O S TA
+
+    A capacitação ocorre no trato reprodutor feminino, ao longo de sete a doze horas antes
+    do encontro com o ovócito. Ela remove colesterol da membrana da cabeça, aumentando
+    sua fluidez, e promove alterações iônicas — habilitando o espermatozoide, sem ainda
+    liberar enzima alguma. A reação acrossômica ocorre depois, no contato com a zona
+    pelúcida, disparada pela ligação à ZP3: o influxo de cálcio funde a membrana plasmática
+    com a externa do acrossoma e libera a acrosina, que abre um canal na zona. Em resumo,
+    a capacitação prepara; a reação acrossômica executa a penetração.
+
+
+
+
+  Questão Q4
+
+  Explique o mecanismo do bloqueio à polispermia e por que ele é uma resposta do ovócito, não do
+  espermatozoide.
+
+
+    M O D E LO D E R E S P O S TA
+
+    Vários espermatozoides podem atravessar a zona pelúcida, mas apenas um funde com
+    a membrana do ovócito — e é essa fusão que dispara o bloqueio. A fusão gera uma onda
+    de cálcio no ovócito, que exocita os grânulos corticais no espaço perivitelino (reação
+    cortical). As enzimas liberadas clivam a ZP2 e modificam a ZP3, inutilizando os sítios de
+    ligação e endurecendo a zona. Soma-se uma mudança rápida no potencial de membrana
+    do ovócito. Todos esses eventos — grânulos, zona, membrana — pertencem ao ovócito;
+    por isso o bloqueio é obra dele.
+
+
+
+
+                                               33
+NEBLI                                                                  E TA PA 3 — 5 D I S C U R S I VA S
+
+
+
+  Não-disjunção e idade materna
+
+  Explique como uma não-disjunção meiótica leva a uma trissomia e por que o risco de trissomia
+  do 21 aumenta com a idade materna.
+
+
+    M O D E LO D E R E S P O S TA
+
+    Na meiose normal, os homólogos se separam na meiose I e as cromátides na meiose II.
+    Uma não-disjunção é a falha nessa separação: um par de homólogos (ou de cromátides)
+    vai inteiro para a mesma célula. O gameto resultante carrega dois exemplares daquele
+    cromossomo em vez de um; fecundado por um gameto normal, o embrião fica com três
+    cópias — uma trissomia, como a do cromossomo 21. O risco cresce com a idade materna
+    porque os ovócitos ficam represados na meiose desde a vida fetal: quanto mais longa a
+    pausa, mais o aparato que segura e separa os homólogos se deteriora, tornando a não-
+    disjunção mais provável nos ovócitos mais velhos.
+
+
+
+
+                                              34
+NEBLI                                             E TA PA 3 — 5 D I S C U R S I VA S
+
+
+Gabarito — Etapa 2
+
+CONSOLIDAÇÃO (Q01–Q10)
+Q01 C         Q02 A       Q03 CCEC     Q04 D                Q05 B
+Q06 D         Q07 ECCE    Q08 E        Q09 CEEC             Q10 B
+
+
+INTEGRAÇÃO (Q11–Q25)
+Q11 A          Q12 EECE   Q13 C        Q14 E                Q15 CECC
+Q16 B          Q17 A      Q18 EECC     Q19 D                Q20 C
+Q21 CCEE       Q22 E      Q23 B        Q24 ECEE             Q25 A
+
+
+APLICAÇÃO (Q26–Q30)
+Q26 D         Q27 CEEC    Q28 C        Q29 A                Q30 ECCE
+
+
+
+
+                                  35
+

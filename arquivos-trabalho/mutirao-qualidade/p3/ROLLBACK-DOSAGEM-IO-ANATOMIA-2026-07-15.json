@@ -1,0 +1,784 @@
+{
+  "generated_at": "2026-07-15T07:02:11.120568-03:00",
+  "rule": "semantic manual selection; 3 targets per plate, 4 for fetal circulation",
+  "suspended_card_ids": [
+    1783972283470,
+    1783972283471,
+    1783972283473,
+    1783972283474,
+    1783972283476,
+    1783972283477,
+    1783972283478,
+    1783972285541,
+    1783972285542,
+    1783972285545,
+    1783972285546,
+    1783972285548,
+    1783972287626,
+    1783972287627,
+    1783972287628,
+    1783972287630,
+    1783972287632,
+    1783972287633,
+    1783972287635,
+    1783972287636,
+    1783972289694,
+    1783972289697,
+    1783972289699,
+    1783972291784,
+    1783972291787,
+    1783972291788,
+    1783972291789,
+    1783972291790,
+    1783972291791,
+    1783972293856,
+    1783972293857,
+    1783972293859,
+    1783972293860,
+    1783972293861,
+    1783972295935,
+    1783972295938,
+    1783972295939,
+    1783972295940,
+    1783972295942,
+    1783972595204,
+    1783972595205,
+    1783972595206,
+    1783972595207,
+    1783972595208,
+    1783972595212,
+    1783972595213,
+    1783972595214,
+    1783972597290,
+    1783972597293,
+    1783972597294,
+    1783972597295,
+    1783972597296,
+    1783972597297,
+    1783972597299,
+    1783972597300,
+    1783972599373
+  ],
+  "notes": [
+    {
+      "note_id": 1783972283469,
+      "title": "Coronary Arteries and Cardiac Veins",
+      "kept_fields": [
+        1,
+        4,
+        7
+      ],
+      "cards": [
+        {
+          "card_id": 1783972283469,
+          "field_no": 1,
+          "label": "Right coronary artery",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283470,
+          "field_no": 2,
+          "label": "Small cardiac vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283471,
+          "field_no": 3,
+          "label": "Circumflex branch of left coronary artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283472,
+          "field_no": 4,
+          "label": "Coronary sinus",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283473,
+          "field_no": 5,
+          "label": "Middle cardiac (posterior interventricular) vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283474,
+          "field_no": 6,
+          "label": "Posterior interventricular branch (posterior descending) of right coronary artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283475,
+          "field_no": 7,
+          "label": "Anterior interventricular branch (left anterior descending) of left coronary artery",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283476,
+          "field_no": 8,
+          "label": "Great cardiac (anterior interventricular) vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283477,
+          "field_no": 9,
+          "label": "Circumflex branch of left coronary artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972283478,
+          "field_no": 10,
+          "label": "Left coronary artery",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972285540,
+      "title": "Heart In Situ",
+      "kept_fields": [
+        3,
+        4,
+        7
+      ],
+      "cards": [
+        {
+          "card_id": 1783972285541,
+          "field_no": 1,
+          "label": "Thymus gland",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285542,
+          "field_no": 2,
+          "label": "Brachiocephalic trunk",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285543,
+          "field_no": 3,
+          "label": "Superior vena cava",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285544,
+          "field_no": 4,
+          "label": "Pericardium",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285545,
+          "field_no": 5,
+          "label": "Phrenic nerve and pericardiophrenic artery and vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285546,
+          "field_no": 6,
+          "label": "Recurrent laryngeal nerve",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285547,
+          "field_no": 7,
+          "label": "Arch of aorta",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972285548,
+          "field_no": 8,
+          "label": "Left brachiocephalic vein",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972287626,
+      "title": "Heart: Anterior Exposure",
+      "kept_fields": [
+        4,
+        6,
+        9
+      ],
+      "cards": [
+        {
+          "card_id": 1783972287626,
+          "field_no": 1,
+          "label": "Right internal jugular vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287627,
+          "field_no": 2,
+          "label": "Right brachiocephalic vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287628,
+          "field_no": 3,
+          "label": "Subclavian artery and vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287629,
+          "field_no": 4,
+          "label": "Superior vena cava",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287630,
+          "field_no": 5,
+          "label": "Left pulmonary artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287631,
+          "field_no": 6,
+          "label": "Pulmonary trunk",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287632,
+          "field_no": 7,
+          "label": "Left internal jugular vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287633,
+          "field_no": 8,
+          "label": "Left common carotid artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287634,
+          "field_no": 9,
+          "label": "Arch of aorta",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287635,
+          "field_no": 10,
+          "label": "Left brachiocephalic vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972287636,
+          "field_no": 11,
+          "label": "Brachiocephalic trunk",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972289693,
+      "title": "Left Atrium and Ventricle: Section with Mitral Valve Cut Away",
+      "kept_fields": [
+        2,
+        3,
+        5
+      ],
+      "cards": [
+        {
+          "card_id": 1783972289694,
+          "field_no": 1,
+          "label": "Left auricle",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972289695,
+          "field_no": 2,
+          "label": "Aortic valve (Left, Right, and Posterior semilunar cusps)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972289696,
+          "field_no": 3,
+          "label": "Muscular part of interventricular septum",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972289697,
+          "field_no": 4,
+          "label": "Left atrium",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972289698,
+          "field_no": 5,
+          "label": "Fossa Ovalis",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972289699,
+          "field_no": 6,
+          "label": "Left pulmonary artery",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972291783,
+      "title": "Right Atrium",
+      "kept_fields": [
+        1,
+        3,
+        4
+      ],
+      "cards": [
+        {
+          "card_id": 1783972291783,
+          "field_no": 1,
+          "label": "Superior vena cava",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291784,
+          "field_no": 2,
+          "label": "Interatrial septum",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291785,
+          "field_no": 3,
+          "label": "Fossa ovalis",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291786,
+          "field_no": 4,
+          "label": "Inferior vena cava",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291787,
+          "field_no": 5,
+          "label": "Opening of coronary sinus",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291788,
+          "field_no": 6,
+          "label": "Pectinate muscles",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291789,
+          "field_no": 7,
+          "label": "Septal cusp of tricuspid valve",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291790,
+          "field_no": 8,
+          "label": "Crista terminalis",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972291791,
+          "field_no": 9,
+          "label": "Right auricle",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972293854,
+      "title": "Right Ventricle",
+      "kept_fields": [
+        1,
+        2,
+        5
+      ],
+      "cards": [
+        {
+          "card_id": 1783972293854,
+          "field_no": 1,
+          "label": "Tricuspid valve (Anterior, Septal, and Posterior cusps)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293855,
+          "field_no": 2,
+          "label": "Chordae tendineae",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293856,
+          "field_no": 3,
+          "label": "Anterior papillary muscle",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293857,
+          "field_no": 4,
+          "label": "Trabeculae carneae",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293858,
+          "field_no": 5,
+          "label": "Septomarginal trabecula (Septal limb and Moderator band)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293859,
+          "field_no": 6,
+          "label": "Interventricular septum (muscular part)",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293860,
+          "field_no": 7,
+          "label": "Conus arteriosus",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972293861,
+          "field_no": 8,
+          "label": "Pulmonary valve (Anterior, Right, and Left semilunar cusps)",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972295935,
+      "title": "Valves and Fibrous Skeleton of Heart",
+      "kept_fields": [
+        2,
+        3,
+        7
+      ],
+      "cards": [
+        {
+          "card_id": 1783972295935,
+          "field_no": 1,
+          "label": "Pulmonary valve (Anterior, Right, and Left semilunar cusps)",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295936,
+          "field_no": 2,
+          "label": "Aortic valve (Right, Left, and Posterior semilunar cusps)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295937,
+          "field_no": 3,
+          "label": "Mitral valve (Anterior and Posterior cusps)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295938,
+          "field_no": 4,
+          "label": "Left fibrous ring (of mitral valve)",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295939,
+          "field_no": 5,
+          "label": "Right fibrous trigone",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295940,
+          "field_no": 6,
+          "label": "Left fibrous trigone",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295941,
+          "field_no": 7,
+          "label": "Tricuspid valve (Anterior, Septal, and Posterior cusps)",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972295942,
+          "field_no": 8,
+          "label": "Membranous septum (Interventricular and Atrioventricular parts)",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972595204,
+      "title": "Arteries of Thoracic Aorta",
+      "kept_fields": [
+        6,
+        7,
+        8
+      ],
+      "cards": [
+        {
+          "card_id": 1783972595204,
+          "field_no": 1,
+          "label": "Subclavian artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595205,
+          "field_no": 2,
+          "label": "Inferior phrenic arteries",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595206,
+          "field_no": 3,
+          "label": "Coeliac trunk",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595207,
+          "field_no": 4,
+          "label": "Oesophageal branch of left gastric artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595208,
+          "field_no": 5,
+          "label": "Oesophageal branches of thoracic aorta",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595209,
+          "field_no": 6,
+          "label": "Thoracic (descending) aorta",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595210,
+          "field_no": 7,
+          "label": "Right bronchial artery",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595211,
+          "field_no": 8,
+          "label": "Arch of aorta",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595212,
+          "field_no": 9,
+          "label": "Brachiocephalic trunk",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595213,
+          "field_no": 10,
+          "label": "Subclavian artery",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972595214,
+          "field_no": 11,
+          "label": "Thyrocervical trunk",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972597290,
+      "title": "Azygos Venous System",
+      "kept_fields": [
+        2,
+        3,
+        9
+      ],
+      "cards": [
+        {
+          "card_id": 1783972597290,
+          "field_no": 1,
+          "label": "Right brachiocephalic vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597291,
+          "field_no": 2,
+          "label": "Superior vena cava",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597292,
+          "field_no": 3,
+          "label": "Azygos vein",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597293,
+          "field_no": 4,
+          "label": "Inferior vena cava (cut)",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597294,
+          "field_no": 5,
+          "label": "Left gastric vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597295,
+          "field_no": 6,
+          "label": "Oesophageal branches of left gastric vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597296,
+          "field_no": 7,
+          "label": "Superior mesenteric vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597297,
+          "field_no": 8,
+          "label": "Splenic vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597298,
+          "field_no": 9,
+          "label": "Hemiazygos vein",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597299,
+          "field_no": 10,
+          "label": "Accessory hemiazygos vein",
+          "keep": false,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972597300,
+          "field_no": 11,
+          "label": "Left brachiocephalic vein",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    },
+    {
+      "note_id": 1783972599369,
+      "title": "Fetal Circulation",
+      "kept_fields": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cards": [
+        {
+          "card_id": 1783972599369,
+          "field_no": 1,
+          "label": "Ductus arteriosus;<div>Ductus arteriosus</div>",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972599370,
+          "field_no": 2,
+          "label": "Foramen ovale;<div>Foramen ovale</div>",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972599371,
+          "field_no": 3,
+          "label": "Ductus venosus;<div>Ductus venosus</div>",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972599372,
+          "field_no": 4,
+          "label": "Umbilical vein;<div>Vena umbilicalis</div>",
+          "keep": true,
+          "queue_before": 0
+        },
+        {
+          "card_id": 1783972599373,
+          "field_no": 5,
+          "label": "Umbilical artery;<div>Arteria umbilicalis</div>",
+          "keep": false,
+          "queue_before": 0
+        }
+      ]
+    }
+  ]
+}

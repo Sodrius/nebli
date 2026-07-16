@@ -1,0 +1,10 @@
+﻿{
+  "name": "NEBLI - Comentarios nos Cards",
+  "package": "nebli_card_comments",
+  "mod": 0,
+  "min_point_version": 50,
+  "max_point_version": -1,
+  "branch_index": 0,
+  "homepage": "",
+  "conflicts": []
+}

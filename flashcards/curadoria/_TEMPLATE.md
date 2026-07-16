@@ -11,7 +11,7 @@
 
 ## Checklist-alvo (da E1) — fonte-verdade
 Subtópicos da `etapa1.typ` + Seção B do Tema Card, um id estável por conceito.
-Também gravada em `arquivos-trabalho/checklist-<slug>.tsv` (`<id>\t<frase>\t<termos>`) para `buscar_tags_lote.py`.
+Também gravada em `arquivos-trabalho/checklist-<slug>.tsv` (`<id>\t<frase>\t<termos>`) para `buscar_tags_lote.py`. Antes de fechar, registrar o passe leve Fontes→E1 e incorporar toda ausência relevante dentro do recorte.
 
 | id | Frase-alvo (o que um card teria que testar) | Termos de busca (pt/en, sinônimos) |
 |---|---|---|
@@ -40,15 +40,19 @@ Lida do pool `arquivos-trabalho/anking-pool-<slug>.json`. Keep/drop com motivo d
 | c3d4… | "Aortic dissection Stanford A…" | — | ❌ | patologia, não é a aula |
 
 ## Cobertura por PARTE da E1 (gap-analysis)
-Para cada conceito-alvo: COBERTO / PARCIAL / LACUNA / **PENDENTE-GERADO**. Em qualquer status ≠ COBERTO, **apontar a fonte**.
+Para cada conceito-alvo: COBERTO / PARCIAL / LACUNA / **PENDENTE-GERADO**. Em qualquer status ≠ COBERTO, **apontar a fonte**. Conceito **nuclear** só fecha em **COBERTO** por card real; questão não conta.
 - **PENDENTE-GERADO** = conceito-chave da E1 sem card real bom no AnKing, **enfileirado** para card NEBLI cloze gerado numa sessão futura de calibração (NÃO gerar agora — ver `calibrar-antes-de-gerar-cards`). Espelha o gate de cobertura da E2: todo subtópico fecha COBERTO ou entra na fila com fonte.
 
 ### PARTE I — <título>
-| Conceito-alvo | Cobertura | #cards | Fonte da lacuna (se ≠ COBERTO) |
-|---|---|---|---|
-| 1.1 <conceito> | COBERTO | 4 | — |
-| 1.4 circulação fetal | LACUNA | 0 | AnKing Step1 quase não cobre → deck de embriologia dedicado / slide + Moore |
-| 1.5 <conceito-chave sem card bom> | PENDENTE-GERADO | 0 | fila de geração NEBLI (sessão de calibração) + slide |
+| Conceito-alvo | Cobertura | #cards | Fonte da lacuna (se ≠ COBERTO) | Nota R6 (0–3) | Importância | Na E1? | Justificativa E1 |
+|---|---|---|---|---:|---|---|---|
+| 1.1 <conceito> | COBERTO | 4 | — | 3 | nuclear | SIM | — |
+| 1.4 circulação fetal | LACUNA | 0 | AnKing Step1 quase não cobre → deck de embriologia dedicado / slide + Moore | 0 | nuclear | NAO | aplicar patch na E1 |
+| 1.5 <conceito acessório sem card bom> | PENDENTE-GERADO | 0 | fila de geração NEBLI + slide | 0 | acessório | DISPENSADO | fora do recorte obrigatório |
+
+**Fontes → E1:** <X/Y conceitos relevantes incorporados>  ·  **E1 → cards:** <X/Y conceitos nucleares COBERTOS>
+
+A nota R6 é qualitativa: `0` ausente; `1` só nome/fragmento; `2` mecanismo central coberto; `3` mecanismo + discriminador/aplicação. Nenhum subtópico `nuclear` pode fechar em 0–1.
 
 ### PARTE II — <título>
 …

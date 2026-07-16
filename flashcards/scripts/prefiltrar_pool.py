@@ -75,7 +75,10 @@ def particionar(cards, blocklist):
     rx = re.compile(r"(?:%s)" % "|".join(re.escape(t) for t in blocklist), re.IGNORECASE)
     bons, ruido = [], []
     for c in cards:
-        termo = _hit(c, rx)
+        tags = c.get("tags") or []
+        step2 = any("step2" in t.lower() or "step_2" in t.lower() for t in tags)
+        step1 = any("step1" in t.lower() or "step_1" in t.lower() or "only_step_1" in t.lower() for t in tags)
+        termo = "Step2-only" if step2 and not step1 else _hit(c, rx)
         if termo:
             ruido.append((c, termo))
         else:

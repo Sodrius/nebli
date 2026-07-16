@@ -1,0 +1,3773 @@
+[
+  {
+    "source": "AnKing",
+    "note_id": 1485127393577,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::D3a1k4",
+      "#AK_Step1_v12::#AMBOSS::IMaYJO",
+      "#AK_Step1_v12::#AMBOSS::LmawTO",
+      "#AK_Step1_v12::#B&B::16_Neuro::05_Other_Neurology_Topics::04_Anticonvulsants_I",
+      "#AK_Step1_v12::#Bootcamp::Dermatology::03_Inflammatory_Diseases_of_the_Skin::02_Reactive_Disease",
+      "#AK_Step1_v12::#Bootcamp::Neurology::28_Seizures::06_Antiepileptic_Medications",
+      "#AK_Step1_v12::#DirtyMedicine::10_MSK/Derm::05_Dermatology_on_USMLE/COMLEX",
+      "#AK_Step1_v12::#FirstAid::05_Pharm::03_Toxicities_and_Adverse_Effects::08_Drug_reactions-musculoskeletal/skin/connective_tissue",
+      "#AK_Step1_v12::#FirstAid::12_Neurology_and_Special_Senses::06_Pharm::01_Anticonvulsants::*Epilepsy_Therapy::Phenytoin",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::02_Musculoskeletal::03_Dermatology::05_Skin_and_Soft_Tissue_Infections",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::08_Neuroscience::03_Clincial_Cortex::04_Seizure_Pharmacology",
+      "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::02_Musculoskeletal::03_Dermatology::05_Skin_and_Soft_Tissue_Infections",
+      "#AK_Step1_v12::#Physeo::09_Pharm::14_Neuro::03_Epilepsy_Carbamazepine,_Phenytoin,_Gabapentin,_Tiagabine",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#SketchyPharm::06_Neuro_&_Psych::03_Mood_Stabilizers_&_Antiepileptic_Drugs::04_Carbamazepine,_Phenytoin,_Gabapentin,_Tiagabine,_Vigabatrin",
+      "#AK_Step1_v12::#SketchyPharm::06_Neuro_&_Psych::10_Retired_Lessons::03_Carbamazepine,_phenytoin,_gabapentin,_tiagabine,_vigabatrin_[Retired_Video]",
+      "#AK_Step1_v12::^Systems::Neuro::Pharmacology"
+    ],
+    "image_count": 8,
+    "image_srcs": [
+      "paste-534822212600279.jpg",
+      "8aebbf00557b48a70f4f1fc3444800c2.webp",
+      "ad3ef699ac991d0a5617bf5b28333178.webp",
+      "386e24ecd81f52cc5e843fbab76c2d65.webp",
+      "ac4935fbf15b6bb032d5fff51b558149.webp"
+    ],
+    "text": "What dermatologic complication is associated with phenytoin use? Stevens-Johnson syndrome | [img] [img] [img] | [img] [img] Watch Medical Management of Seizure | [img] [img] [img] Watch Carbamazepine, Oxcarbazepine, Phenytoin, Tiagabine, Vigabatrin | Watch associated Bootcamp video - Inflammatory Diseases of the Skin: Reactive Disease Watch associated Bootcamp video - Seizures: Antiepileptic Medications | 5f30e662-02cf-4d6a-9da4-b085712bbf91"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1488680018088,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Dermatology",
+      "#AK_Other::AnKing_Image::!Subjects::Dermatology::Bullous_Pemphigoid_vs_Pemphigus_Vulgaris",
+      "#AK_Other::AnKing_Image::!Subjects::Orthopedics_&_Rheumatology::Autoimmune_blistering_diseases",
+      "#AK_Other::AnKing_Image::AhmedK::Bullous_Pemphigoid_vs_Pemphigus_Vulgaris",
+      "#AK_Other::AnKing_Image::Mujeeb::Autoimmune_blistering_diseases",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Other::SkinOfColor::NeedsImage",
+      "#AK_Step1_v12::#AMBOSS::Yy0ndi",
+      "#AK_Step1_v12::#B&B::08_Derm::01_General::08_Blistering_Disorders",
+      "#AK_Step1_v12::#Bootcamp::Dermatology::03_Inflammatory_Diseases_of_the_Skin::01_Autoimmune_Blistering_Conditions",
+      "#AK_Step1_v12::#FirstAid::11_Musculoskeletal_Skin_and_Connective_Tissue::03_Derm::12_Autoimmune_blistering_skin_disorders::*Bullous_Pemphigoid",
+      "#AK_Step1_v12::#NBME::16",
+      "#AK_Step1_v12::#NBME::21",
+      "#AK_Step1_v12::#NBME::Free120",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::02_Musculoskeletal::03_Dermatology::04_Blistering_Diseases",
+      "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::02_Musculoskeletal::03_Dermatology::04_Blistering_Diseases",
+      "#AK_Step1_v12::#Pathoma::19_Derm::02_Blistering_Dermatoses",
+      "#AK_Step1_v12::#Physeo::11_Pathology::04_Musculoskeletal_Pathology::11_Blistering_Skin_Disorders",
+      "#AK_Step1_v12::^Systems::Dermatology",
+      "#AK_Step2_v12::!Shelf::IM::no_dupes"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "9daeeb7c30a1553e68e662a531439e66.webp",
+      "587bad7cac51f6fbacc1d9ed5f1d1e3f.jpg",
+      "f7330ec8ce62712ca3111a5aa82235eb.jpg",
+      "365f8715812e3f67f93e5d25dade6c7e.webp"
+    ],
+    "text": "Which blistering skin disorder is characterized by a linear pattern on immunofluorescence? Bullous pemphigoid | [img] Photo credit: Tham et al. , CC BY 4.0 , via BMC Veterinary Research (1st image); Si et al. , CC BY 2.0 , via BMC Diagnostic Pathology, modified by brightening, cropping, and removing letter \"A\"; the supplementary image with overlays of the relevant areas was adapted from the image mentioned previously (© AnkiHub, LLC) [img] Photo credit: Image(s) licensed by DermNet and used with"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1468549239653,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+      "#AK_Other::^EXPN::BGedit",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting",
+      "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::03_Blotting_procedures::01_Southern_blot",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#Physeo::05_Biochem::03_Lab_Techniques::02_Blotting_Procedures",
+      "#AK_Step1_v12::#SketchyBiochem::03_Molecular_Biology::04_Recombinant_DNA_&_Biotechnology::02_Blotting",
+      "#AK_Step1_v12::#UWorld::COMLEX::25143",
+      "#AK_Step1_v12::#UWorld::Step::2034",
+      "#AK_Step1_v12::^Systems::Biochem::Labs"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "Blotting.png",
+      "Screen Shot 2022-01-30 at 10.03.38 AM.png"
+    ],
+    "text": "A(n) Southern blot is used to analyze DNA | - Used in genetic testing of diseases, forensics (DNA identification - microsatellite analysis can also be used here) - Can use to observe inheritance of RFLP markers SN o W DR o P : - S outhern = D NA - N orthern = R NA - W estern = P rotein | [img] [img] Watch Blotting | Watch associated Bootcamp video - Laboratory Techniques : Southern, Western, and Northern Blots | 0dc2c3ee-ce3e-44d9-b74b-26011e784852"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1700580019481,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::AnKing_Image::!Subjects::Hematology_&_Oncology",
+      "#AK_Other::AnKing_Image::!Subjects::Hematology_&_Oncology::Heme_Synthesis",
+      "#AK_Other::AnKing_Image::!Subjects::Hematology_&_Oncology::Porphyria_Cutanea_Tarda",
+      "#AK_Other::AnKing_Image::AhmedA::Porphyria_Cutanea_Tarda",
+      "#AK_Other::AnKing_Image::Mujeeb::Heme_Synthesis",
+      "#AK_Other::New_Cards::2023",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::5fai5P",
+      "#AK_Step1_v12::#AMBOSS::oA00ki",
+      "#AK_Step1_v12::#AMBOSS::yA0dmi",
+      "#AK_Step1_v12::#B&B::12_Hematology::05_Other::01_Porphyrias",
+      "#AK_Step1_v12::#Bootcamp::Biochemistry::11_Porphyrias::05_Porphyria_Cutanea_Tarda",
+      "#AK_Step1_v12::#FirstAid::10_Hematology_and_Oncology::04_Pathology::14_Heme_synthesis_porphyrias_and_lead_poisoning::*Porphyria_Cutanea_Tarda",
+      "#AK_Step1_v12::#NBME::33",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::05_Hematology_Oncology::02_Anemia::02_Disorders_of_Heme_synthesis",
+      "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::05_Hematology_Oncology::02_Anemia::02_Disorders_of_Heme_synthesis",
+      "#AK_Step1_v12::#Pixorize::01_Biochemistry::16_Heme_&_Porphyrias::01_Heme_Synthesis",
+      "#AK_Step1_v12::#Pixorize::01_Biochemistry::16_Heme_&_Porphyrias::03_Porphyria_Cutanea_Tarda_(PCT)",
+      "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::05_Heme_&_Porphyrias::01_Heme_Synthesis",
+      "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::05_Heme_&_Porphyrias::02_Porphyrias"
+    ],
+    "image_count": 14,
+    "image_srcs": [
+      "36251001c38bf501757bda3cbc86ef9d.webp",
+      "9058f27249b43b5548c3d143e3ffb1e5.webp",
+      "e7ac967fd62eaa619bed0c82c1046547.webp",
+      "Heme Synthesis.png",
+      "Screen Shot 2022-01-30 at 4.01.32 AM.png"
+    ],
+    "text": "Which tests are used to confirm the diagnosis of porphyria cutanea tarda in a patient with characteristic blistering photosensitivity? Total urine/serum porphyrin levels | Confirm with uroporphyrinogen decarboxylase (UROD) enzyme activity analysis and genetic testing [img] [img] | [img] [img] [img] Watch Heme Synthesis [img] [img] [img] Watch Porphyrias | [img] [img] [img] [img] [img] Review Heme Synthesis [img] Review Porphyria Cutanea Tarda (PCT) | 206dafd9-6a50-4779-acc1-0f53fc7f62cd"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1474340549347,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Hematology_&_Oncology::Pathoma_Hematology",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::07_Coagulation_and_Fibrinolysis::01_Coagulation_Cascade",
+      "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::07_Coagulation_and_Fibrinolysis::04_Fibrinolysis_and_Inhibitors_of_Hemostasis",
+      "#AK_Step1_v12::#FirstAid::10_Hematology_and_Oncology::03_Physiology::04_Thrombogenesis",
+      "#AK_Step1_v12::#FirstAid::10_Hematology_and_Oncology::03_Physiology::05_Coagulation_and_kinin_pathways::*Prevention_of_Thrombosis",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#NinjaNerd::04_Pharmacology::01_Basics::03_Antiplatelet,_Anticoagulant,_Thrombolytic_Agents",
+      "#AK_Step1_v12::#NinjaNerd::09_Hematology::01_Physiology::07_Hemostasis:_Coagulation_Cascade",
+      "#AK_Step1_v12::#NinjaNerd::09_Hematology::02_Pathology::17_Hypercoagulable_States",
+      "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Hematology-Oncology::Approach_To_Bleeding",
+      "#AK_Step1_v12::#Pathoma::04_Hemostasis::04_Thrombosis",
+      "#AK_Step1_v12::^Systems::HemeOnc::Hematology",
+      "#AK_Step1_v12::^Systems::Respiratory::Pathology",
+      "#AK_Step2_v12::#B&B::07_Hematology_and_Oncology::02_Coagulation::02_Coagulopathy"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "Endothelial cells prevent thrombosis by blocking exposure to subendothelial collagen and tissue factor | Endothelial cells prevent thrombosis through: - Thrombomodulin : redirects thrombin to activate protein C, inhibiting factors Va and VIIIa - tPA : converts plasminogen to plasmin, promoting fibrinolysis - Prostacyclin (PGI 2 ) : inhibits platelet aggregation and causes vasodilation - Nitric oxide (NO) : inhibits platelet adhesion and promotes vasodilation - Heparan sulfate : enhances antithro"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1547242132849,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::Cheesy_Dorian_(M3)",
+      "#AK_Other::AnKing_Image::!Subjects::Reproductive::Antepartum_hemorrhage",
+      "#AK_Other::AnKing_Image::Mujeeb::Antepartum_hemorrhage",
+      "#AK_Other::Only_Step_2",
+      "#AK_Step1_v12::#B&B::22_Repro::02_Pregnancy::07_Placental_Complications",
+      "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::03_Gestational_Disorders::02_Gestational_Disorders",
+      "#AK_Step2_v12::!FLAG_THESE_CARDS::Potential_duplicates",
+      "#AK_Step2_v12::!Shelf::#Cards_AnKing_Did::2obgyn",
+      "#AK_Step2_v12::#B&B::11_Obstetrics_and_Gynecology::01_Obstetrics::11_Placental_Pathology",
+      "#AK_Step2_v12::#COMBANK::50838",
+      "#AK_Step2_v12::#NBME::Form16::Section_1",
+      "#AK_Step2_v12::#OME::05_Obstetrics_and_Gynecology::02_Obstetrics::03_Late_Pregnancy::03_Third_Trimester_Vaginal_Bleeding",
+      "#AK_Step2_v12::#OME::Clinical::05_Obstetrics_and_Gynecology::02_Obstetrics::03_Late_Pregnancy::03_Third_Trimester_Vaginal_Bleeding",
+      "#AK_Step2_v12::#Resources_by_rotation::FM::ome::ob::3rd_trimester_bleeding",
+      "#AK_Step2_v12::#Resources_by_rotation::ObGyn::ome::ob::3rd_trimester_bleeding",
+      "#AK_Step2_v12::#Resources_by_rotation::ObGyn::uw::dorian",
+      "#AK_Step2_v12::#SketchyOBGYN::03_Labor_&_Delivery::01_Intro_to_L&D::03_Third_Trimester_Bleeding_DDx",
+      "#AK_Step2_v12::#Subjects::Obstetrics_&_Gynecology::02_Obstetrics_REDO::02_Delivery::Mother::Uterine_Bleeding::Placental_Abruption",
+      "#AK_Step2_v12::#Subjects::Obstetrics_&_Gynecology::02_Obstetrics_REDO::02_Delivery::Mother::Uterine_Bleeding::Placental_Abruption::Pathophysiology",
+      "#AK_Step2_v12::#UWorld::COMLEX::104291"
+    ],
+    "image_count": 8,
+    "image_srcs": [
+      "a86d5f19f8735e9483bae45c18a14bae.webp",
+      "28. Placental Abruption Vaginal Bleeding Painful.jpg",
+      "32. Placental Abruption Painful Prolonged Uterine Contractions.jpg",
+      "0edcac29df1a0356760cfe076601f4ee.webp",
+      "3d90a4127571f11bb45539cbc1b011cf.webp"
+    ],
+    "text": "Where is pain located in placental abruption ? Abdomen OR back | - Placental abruption typically presents with abdominal and/or back pain and vaginal bleeding, which can range from severe to absent, as bleeding may be concealed behind the placenta - Blood may have a uterotonic effect , causing a firm uterus and unusually low-amplitude but frequent contractions - The extent of the placental detachment also can vary; smaller separations can be tolerated by the fetus, whereas larger separations can"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1482276174562,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_GI::GI_Pathology",
+      "#AK_Other::AnKing_Image::!Subjects::Gastroenterology::Gastric_Cancer",
+      "#AK_Other::AnKing_Image::Marcos::Gastric_cancer",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::jda_pj",
+      "#AK_Step1_v12::#AMBOSS::SRaym4",
+      "#AK_Step1_v12::#Bootcamp::Gastroenterology::04_Stomach::19_Gastric_Malignancy_Overview",
+      "#AK_Step1_v12::#FirstAid::09_Gastrointestinal::04_Pathology::08_Gastric_cancer::*Adenocarcinoma::Basics",
+      "#AK_Step1_v12::#Low/HighYield::4-LowerYield",
+      "#AK_Step1_v12::#NBME::Free120::2024",
+      "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::16_GI_Bleed",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::03_Gastrointestinal::01_Digestion_&_Absorption::06_Gastric_Pathology",
+      "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::03_Gastrointestinal::01_Digestion_&_Absorption::06_Gastric_Pathology",
+      "#AK_Step1_v12::#Pathoma::10_GI::04_Stomach",
+      "#AK_Step1_v12::#Physeo::11_Pathology::06_Gastrointestinal_Pathology::04_Stomach",
+      "#AK_Step1_v12::#SketchyPath::05_GI::01_Esophageal_&_Gastric_Disorders::04_Gastric_Dysmotility_&_Cancer",
+      "#AK_Step1_v12::^Systems::GI::pathology",
+      "#AK_Step2_v12::#AMBOSS::3DaSV5",
+      "#AK_Step2_v12::#B&B::06_GI::01_Esophagus_and_Stomach::04_Gastric_Cancer",
+      "#AK_Step2_v12::#OME::01_Medicine::03_Gastroenterology::06_Misc_Gastric"
+    ],
+    "image_count": 23,
+    "image_srcs": [
+      "9076ab4269c91518c9fc3b2490c36e68.webp",
+      "8cc7b3dd832a9810c4fddf26238974f8.webp",
+      "b3fc5b94af028656d73bc3046a99dab1.webp",
+      "8b2a2ea23e4349d2216a9ebd9f25ac36.webp",
+      "8390b55dd0a16a7b94ee9c2c0dc68c52.webp"
+    ],
+    "text": "Gastric carcinoma typically presents late with weight loss , early satiety , abdominal pain, and anemia | [img] | [img] [img] [img] [img] Watch Gastric Dysmotility & Cancer | [img] [img] [img] Watch Gastric Cancer [img] [img] [img] [img] [img] [img] [img] Watch Upper Abdominal Pain DDx [img] [img] [img] [img] [img] [img] [img] [img] Watch Approach to Abdominal Pain | Watch associated Bootcamp video - Stomach : Gastric Malignancy Overview | 7a4a611e-b641-4ecd-b77e-3af4fb7c7e06"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1583177614030,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::MedicalArk",
+      "#AK_Other::AnKing_Image::!Subjects::Neurology::Febrile_seizures_vs_meningitis",
+      "#AK_Other::AnKing_Image::Mujeeb::Febrile_seizures_vs_meningitis",
+      "#AK_Other::Only_Step_2",
+      "#AK_Step1_v12::#Bootcamp::Neurology::28_Seizures::04_Febrile_Seizure",
+      "#AK_Step2_v12::!Shelf::#Cards_AnKing_Skipped",
+      "#AK_Step2_v12::#AMBOSS::oS000f",
+      "#AK_Step2_v12::#AMBOSS::pDaL25",
+      "#AK_Step2_v12::#B&B::10_Neuro::02_Seizures::01_Seizures",
+      "#AK_Step2_v12::#Bootcamp::Pediatrics::02_General_Pediatrics::02_Pediatric_Emergencies::07_Acute_Pediatric_Events",
+      "#AK_Step2_v12::#CMS::EM::Form_02",
+      "#AK_Step2_v12::#NBME::Form11::Section_4",
+      "#AK_Step2_v12::#NinjaNerd::12_Neurology::03_Pathology::10_Febrile_Seizures_(Etiology,_Pathophysiology,_Clinical_Features,_Treatment)",
+      "#AK_Step2_v12::#OME::03_Pediatrics::18_Seizures",
+      "#AK_Step2_v12::#OME::Clinical::03_Pediatrics::18_Seizures",
+      "#AK_Step2_v12::#Resources_by_rotation::Peds::uworld::#medicalark",
+      "#AK_Step2_v12::#Resources_by_rotation::Peds::uworld::neuro::neuro_zanki",
+      "#AK_Step2_v12::#SketchyPeds::11_Neurology::02_Seizures::01_Pediatric_Seizure_DDx",
+      "#AK_Step2_v12::#SketchyPeds::11_Neurology::02_Seizures::02_Febrile_Seizures",
+      "#AK_Step2_v12::#Subjects::Neurology::09_Seizure::Other::Simple_Febrile_Seizure"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "7c99bf2c6cca84da6b30bddc05b47d9d.webp",
+      "251f617b800b8d12ee7fe3ce148462c2.webp",
+      "1ef93396889f66cd8f348fda75ef34f5.webp",
+      "bbbaed76df154ee231bf3b898cc60438.webp"
+    ],
+    "text": "What is the next step in management of a child after a febrile seizure with no neurologic abnormalities ? Supportive care and reassurance | [img] | [img] [img] [img] Watch Pediatric Seizure DDx | Watch associated Bootcamp video - Seizures: Febrile Seizure | 30c66e58-a071-4238-8a8d-43439c7976bb"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1510104155293,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::14_Infectious_Disease::02_Bacteria::04_Gram_Negative_Rods::Extra",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::11_Non_-Lactose_Fermenting_Gram_Negative_Bacilli::02_Non_-typhoidal_Salmonella",
+      "#AK_Step1_v12::#DirtyMedicine::03_Microbiology::31_Salmonella",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::02_Clinical_Bacteriology::30_Salmonella_vs_Shigella::*Salmonella",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::06_Systems::03_Bugs_causing_diarrhea",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME::03_Immune::01_Microbiology::01_Bacteria::09_Gram_Negative_Rods_Diarrhea",
+      "#AK_Step1_v12::#OME::PreClinical::03_Immune::01_Microbiology::01_Bacteria::09_Gram_Negative_Rods_Diarrhea",
+      "#AK_Step1_v12::#Physeo::06_Micro::02_Bacteria::27_Salmonella_Species",
+      "#AK_Step1_v12::#Pixorize::04_Microbiology::05_Bacteria-Gram_Negative::12_Salmonella_enteritidis",
+      "#AK_Step1_v12::#SketchyMicro::01_Bacteria::05_Gram_(-)_Bacilli_-_Enteric_Tract::02_Salmonella_Part_1_Introduction_to_Salmonella_&_NTS",
+      "#AK_Step1_v12::#SketchyMicro::01_Bacteria::11_Retired_Lessons::06_Salmonella_enteritidis_&_typhi_[Retired_Video]",
+      "#AK_Step2_v12::#CMS::Pediatrics::Form_08",
+      "#AK_Step2_v12::#COMBANK::49088",
+      "#PANCE::EOR::EM",
+      "#PANCE::GI::diarrhea"
+    ],
+    "image_count": 8,
+    "image_srcs": [
+      "paste-95258079658471.jpg",
+      "712187819166e2ae4b73accb5e8a8a1b.webp",
+      "aaf9847d7763342bc800fef8f1533c10.webp",
+      "1cffc21797c4fed9ef48e2c047dc96af.webp",
+      "406861b7458afb304355ad8a9100a395.webp"
+    ],
+    "text": "Salmonella enteritidis causes inflammatory diarrhea | - Characterized by leukocytes in stool - vs. Salmonella typhi which causes constipation then classically \" pea-soup \" diarrhea | [img] [img] [img] Watch Salmonella enteritidis & typhi [Old Version] | [img] [img] [img] Watch Salmonella: Intro to Salmonella & NTS | [img] [img] | Watch associated Bootcamp video - Non-Lactose Fermenting Gram Negative Bacilli: Non-typhoidal Salmonella | f4629dc1-de4a-4c89-ab5c-509dea131cbe"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1475874402725,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Renal::Renal_Pathology",
+      "#AK_Other::AnKing_Image::!Subjects::Nephrology_&_Urology::Nephrolithiasis",
+      "#AK_Other::AnKing_Image::Mujeeb::Nephrolithiasis",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#Bootcamp::Nephrology::10_Nephrolithiasis::04_Cystine_Stones",
+      "#AK_Step1_v12::#COMBANK::Assessment_2",
+      "#AK_Step1_v12::#FirstAid::14_Renal::04_Pathology::06_Kidney_stones::*Cystine_Stones",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Nephrology::Nephrolithiasis_(Kidney_Stones)",
+      "#AK_Step1_v12::#Pathoma::12_Renal::06_Nephrolithiasis",
+      "#AK_Step1_v12::#Physeo::11_Pathology::08_Renal_Pathology::06_Neprholithiasis",
+      "#AK_Step1_v12::#SketchyPath::04_Renal::04_Urinary_Tract_Obstruction::03_Magnesium_Ammonium_Phosphate_(MAP)_Stones,_Uric_Acid_Stones,_&_Cystine_Stones",
+      "#AK_Step1_v12::^Systems::Renal::Pathology",
+      "#AK_Step2_v12::#AMBOSS::Vp0GoS",
+      "#AK_Step2_v12::#B&B::15_Renal_and_Genitourinary::05_Other::01_Nephrolithiasis",
+      "#AK_Step2_v12::#FirstAid::15_Renal/Genitourinary::08_Nephrolithiasis::01_Nephrolithiasis::Extra",
+      "#PANCE::GU::nephrolithiasis_urolithiasis"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "e6e39912a43b000c9c4ff916bf51291d.jpg",
+      "70777eb089a91eba9f545edadcf66f78.webp",
+      "64805e2bb33c03218cfbc6560e0f63f8.webp",
+      "41baaf71c667770a4c58c9f5f35e0c40.webp",
+      "Screen Shot 2019-11-04 at 4.33.31 PM_1566160514431.png"
+    ],
+    "text": "Which type of kidney stone is associated with staghorn calculi in children ? Cystine kidney stones | - Cystine stones typically present as recurrent kidney stones starting in childhood and possibly staghorn calculi - (+) cyanide nitroprusside test - Hexagonal crystals [img] Photo credit: © Nevit Dilmen , CC BY-SA 3.0 , via Wikimedia Commons [img] [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission) [img] | [img] [img] [img] Watch Magnesium Ammonium Pho"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1579119026220,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Public_Health_Sciences::Epidemiology_&_Biostats",
+      "#AK_Other::AnKing_Image::!Subjects::Epidemiology_&_Social_Sciences::Screening/diagnostic_tests_evaluation",
+      "#AK_Other::AnKing_Image::Mujeeb::Screening/diagnostic_tests_evaluation",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::7Ba4XM",
+      "#AK_Step1_v12::#AMBOSS::RCal75",
+      "#AK_Step1_v12::#B&B::05_Biostats/Epi::02_Epidemiology::05_Diagnostic_Tests",
+      "#AK_Step1_v12::#Bootcamp::Biostatistics::04_Diagnostic_Tests::05_Likelihood_Ratio",
+      "#AK_Step1_v12::#FirstAid::06_Public_Health::01_Epidemiology_and_Biostatistics::07_Likelihood_ratio::*Positive",
+      "#AK_Step1_v12::#Low/HighYield::5-LowYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#OME_banner::Clinical::18_Epidemiology_and_Stats::04_Diagnostic_Tests",
+      "#AK_Step1_v12::#Physeo::04_Biostatistics::01_Biostatistics::08_Incidence,_Prevalence_&_Likelihood_Ratios",
+      "#AK_Step1_v12::#SketchyBiostats/Epidemiology::01_Biostatistics::01_Biostatistics_&_Data::11_Sensitivity_&_Specificity",
+      "#AK_Step1_v12::^Systems::Biostats",
+      "#AK_Step1_v12::^Systems::Biostats::AKadds",
+      "#AK_Step2_v12::#AMBOSS::7Ba4XM",
+      "#AK_Step2_v12::#AMBOSS::RCal75",
+      "#AK_Step2_v12::#B&B::05_Epidemiology::01_General::09_Diagnostic_Tests",
+      "#AK_Step2_v12::#B&B::05_Epidemiology::01_General::10_Bias"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "8386b8bf8daa10aa366bbc5f43aae01f.webp",
+      "812c880decfe7d884c659525492f5d26.webp",
+      "a29fffaf7fcb3b23c89db57117b2abef.webp",
+      "f224aab60f2ad8edc74faf789ee888ef.webp"
+    ],
+    "text": "A positive likelihood ratio > 10 indicates a highly specific test | - The probability that a patient with a condition will have a positive test result compared to the probability of a patient without the condition having a positive test - Positive likelihood ratio = TP rate / FP rate = sensitivity / (1 - specificity) - LR+ is useful for comparing two tests that have similar specificity but different sensitivity [img] | [img] [img] [img] Watch Sensitivity & Specificity | Watch associated Bootcamp"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1475115290102,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::10_GI::01_Anatomy::06_Salivary_Glands::Extra",
+      "#AK_Step1_v12::#B&B::16_Neuro::04_Autonomic_Nervous_System::06_Cholinergic_Drugs",
+      "#AK_Step1_v12::#B&B::20_Pulm::03_Other_Pulmonary_Topics::06_Cystic_Fibrosis::Extra",
+      "#AK_Step1_v12::#Bootcamp::Musculoskeletal::03_Rheumatologic_Disease::03_Sjögren_Syndrome",
+      "#AK_Step1_v12::#Bootcamp::Pharmacology::03_Autonomic_System::06_Cholinomimetics_-_Direct_Agonists",
+      "#AK_Step1_v12::#FirstAid::05_Pharm::02_Autonomic_Drugs::07_Cholinomimetic_agents::*Direct_Agonists::Pilocarpine",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#Physeo::09_Pharm::16_Autonomic_Pharm::08_Muscarinic_Acetylcholine_Receptors",
+      "#AK_Step1_v12::#Physeo::09_Pharm::16_Autonomic_Pharm::09_Direct_Cholinergic_Agonists",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::03_Pharmacology::02_Cholinomimetics::04_Pilocarpine",
+      "#AK_Step1_v12::#SketchyPharm::01_Autonomic_Drugs::01_Parasympathetic::01_Cholinomimetics",
+      "#AK_Step1_v12::#UWorld::COMLEX::24473",
+      "#AK_Step1_v12::#UWorld::Step::1362",
+      "#AK_Step2_v12::#B&B::09_MSK::01_General::05_Scleroderma_and_Sjogren's",
+      "#AK_Step2_v12::#COMBANK::65985",
+      "#AK_Step2_v12::#NBME::Form14::Section_2"
+    ],
+    "image_count": 6,
+    "image_srcs": [
+      "ab1e31b1f530d5ed6dbf7be1e321ecde.webp",
+      "80f0fc447a580de1e0dc46e238b73cd2.webp",
+      "e3a3d6f80020206c3982190eb4f428a9.webp",
+      "tmpe9f_8tce.png",
+      "tmpy45bv2qp.png"
+    ],
+    "text": "Pilocarpine is a potent stimulator of tears , sweat , and salivary secretion | - Useful in the treatment of xerostomia (dry mouth) in Sjögren syndrome - M 3 receptors are found on glands | [img] [img] [img] Watch Cholinomimetics | [img] [img] [img] | Watch associated Bootcamp video - Autonomic System : Cholinomimetics - Direct Agonists Watch associated Bootcamp video - Rheumatologic Diseases: Sjogren Syndrome | 1a55a791-1c51-47b3-bcf5-5c719ed5539d"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1482115532737,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_GI::GI_Physiology_+_Embryo,_Anatomy",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#Bootcamp::Biochemistry::10_Protein_Metabolism::03_Protein_Digestion_and_Absorption:_Exopeptidases_and_Absorption",
+      "#AK_Step1_v12::#Costanzo::GI::04_Secretion",
+      "#AK_Step1_v12::#Costanzo::GI::05_Digestion_End",
+      "#AK_Step1_v12::#FirstAid::09_Gastrointestinal::03_Physiology::*Protein_Absorption",
+      "#AK_Step1_v12::#Low/HighYield::5-LowYield",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::03_Gastrointestinal::01_Digestion_&_Absorption::08_Physiology_of_Digestion_and_Absorption",
+      "#AK_Step1_v12::#OME::Clinical::04_Organ_Systems::03_Gastrointestinal::01_Digestion_&_Absorption::08_Physiology_of_Digestion_and_Absorption",
+      "#AK_Step1_v12::#Physeo::03_Physiology::05_GI::02_Exocrine_Pancreas_&_Metabolism",
+      "#AK_Step1_v12::^Systems::GI::physiology"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "45f16d9564aea6115b8388d67ad89f40.jpg"
+    ],
+    "text": "L-amino acids are transported from the intestinal lumen into the cells by Na + -mediated cotransport | [img] Photo credit: Sonabi, CC BY-SA 4.0 , via Wikimedia Commons | Watch associated Bootcamp video - Protein Metabolism : Protein Digestion and Absorption: Exopeptidases and Absorption | 570b4c0b-b207-46cd-981f-374ab06d4b69"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1537563823931,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::Cheesy_Dorian_(M3)",
+      "#AK_Other::Only_Step_2",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::11_Non_-Lactose_Fermenting_Gram_Negative_Bacilli::07_Pseudomonas_Aeruginosa",
+      "#AK_Step1_v12::#FirstAid::12_Neurology_and_Special_Senses::04_Otology::02_Otitis_externa",
+      "#AK_Step2_v12::!Shelf::#Cards_AnKing_Did::3peds",
+      "#AK_Step2_v12::!Shelf::FM::no_dupes::only_step2",
+      "#AK_Step2_v12::!Shelf::IM::no_dupes::only_step2",
+      "#AK_Step2_v12::!Shelf::Peds::no_dupes::only_step2",
+      "#AK_Step2_v12::#AMBOSS::3N0Sag",
+      "#AK_Step2_v12::#B&B::12_Pediatrics::02_General_Pediatrics::05_Ear_Infections_and_Fevers::Extra",
+      "#AK_Step2_v12::#Bootcamp::Pediatrics::03_Infectious_Disease::01_Otologic_Infections::01_Ear_Infections",
+      "#AK_Step2_v12::#FirstAid::09_Neuro::18_Otology::02_Otitis_Externa",
+      "#AK_Step2_v12::#OME::01_Medicine::06_Infectious_Disease::10_Ear_Nose_Throat",
+      "#AK_Step2_v12::#OME::03_Pediatrics::01_General_Pediatrics::07_Pediatric_Ear_Nose_Throat",
+      "#AK_Step2_v12::#OME::03_Pediatrics::15_Ear_Nose_Throat",
+      "#AK_Step2_v12::#OME::Clinical::01_Medicine::06_Infectious_Disease::10_Ear_Nose_Throat",
+      "#AK_Step2_v12::#Resources_by_rotation::FM::ome::infection::ent",
+      "#AK_Step2_v12::#Resources_by_rotation::FM::ome::peds::ent",
+      "#AK_Step2_v12::#Resources_by_rotation::IM::ome::infection::ent",
+      "#AK_Step2_v12::#Resources_by_rotation::Peds::ome::ent"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-114722871443926.jpg",
+      "4e1f9c4d40ac48a19fd6fb7b8325fa07.webp",
+      "c8f19619ab026d1eddd3dae649e0fb9f.webp"
+    ],
+    "text": "Etiology of otitis externa - Water/swimming → Pseudomonas aeruginosa - Trauma → Staphylococcus aureus | - Acute otitis externa (\"swimmer's ear\") presents with pain, erythema, and purulent discharge from the ear - Often occurs after disruption of the skin barrier and when conditions cause moisture retention in the external auditory canal - Pseudomonas aeruginosa is the most common pathogen - Trauma may be caused by items such as cotton swabs, fingers, toys, etc. | [img] [img] [img] Watch Pseudomo"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1496767683204,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Musculoskeletal::Musculoskeletal_Anatomy/Physio_(Nutricionado)",
+      "#AK_Other::^EXPN",
+      "#AK_Other::^EXPN::Uworld",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::15_MSK::01_Anatomy_and_Orthopedics::06_Lumbosacral_Plexus",
+      "#AK_Step1_v12::#B&B::15_MSK::01_Anatomy_and_Orthopedics::06_Lumbosacral_Plexus::Extra",
+      "#AK_Step1_v12::#Bootcamp::Musculoskeletal::11_Lower_Extremity_Nerves::02_Obturator_&_Pudendal_Nerve",
+      "#AK_Step1_v12::#Bootcamp::Nephrology::11_Urinary_Incontinence::01_Micturition_Overview",
+      "#AK_Step1_v12::#FirstAid::11_Musculoskeletal_Skin_and_Connective_Tissue::01_Anatomy_and_Physiology::10_Lower_extremity_nerves::*Nerves::Pudendal_Nerve",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#Physeo::02_Anatomy::08_MSK::06_Lumbosacral_Plexus",
+      "#AK_Step1_v12::#SketchyAnatomy::07_Lower_Extremity::02_Innervation_of_Lower_Extremity::01_Lumbosacral_Nerves",
+      "#AK_Step1_v12::#UWorld::COMLEX::25785",
+      "#AK_Step1_v12::#UWorld::Step::11952",
+      "#AK_Step1_v12::^Systems::Musculoskeletal::Anatomy"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "The pudendal nerve can be injured due to: - Stretching during childbirth - Saddle injury seen in cyclists | - Cyclists apply long term pressure on saddle area, which can lead to pudendal nerve entrapment syndrome - Can also be caused by sacrococcygeal teratoma | Watch associated Bootcamp video - Urinary Incontinence: Micturition Overview Watch associated Bootcamp video - Lower Extremity Nerves: Obturator and Pudendal Nerve | e94b6545-558b-4d89-aa10-2d2c63fd8265"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1547242124791,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::Cheesy_Dorian_(M3)",
+      "#AK_Other::Algorithm::Precocious_Puberty",
+      "#AK_Other::AnKing_Image::!Subjects::Endocrinology::Precocious_Puberty_Flowchart",
+      "#AK_Other::AnKing_Image::!Subjects::Reproductive::Ovarian_Tumors_Table",
+      "#AK_Other::AnKing_Image::Ian::Ovarian_Tumors_Table",
+      "#AK_Other::AnKing_Image::Ian::Precocious_Puberty",
+      "#AK_Other::Only_Step_2",
+      "#AK_Other::step2PotentialDupes::ausername::ObGyn::01",
+      "#AK_Step1_v12::#AMBOSS::hMacoO",
+      "#AK_Step1_v12::#AMBOSS::tZaXWQ",
+      "#AK_Step1_v12::#B&B::22_Repro::04_Ovary::03_Ovarian_Stromal_Tumors",
+      "#AK_Step1_v12::#FirstAid::15_Repro::03_Physiology::18_Precocious_puberty::*Precocious_puberty",
+      "#AK_Step1_v12::#OME::PreClinical::Biochemistry",
+      "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::02_Repro_Hormones_&_Ovarian_Disorders::04_Ovarian_Neoplasms_(Germ_Cell_&_Sex_Chord-Stromal_Tumors)",
+      "#AK_Step2_v12::!FLAG_THESE_CARDS::Potential_duplicates",
+      "#AK_Step2_v12::!Shelf::ObGyn",
+      "#AK_Step2_v12::#AMBOSS::hMacoO",
+      "#AK_Step2_v12::#AMBOSS::jJ0_FS",
+      "#AK_Step2_v12::#B&B::11_Obstetrics_and_Gynecology::02_Gynecology::12_Ovarian_Neoplasia",
+      "#AK_Step2_v12::#FirstAid::11_Gynecology::03_Abnormalities_of_the_Menstrual_Cycle::01_Precocious_Puberty"
+    ],
+    "image_count": 10,
+    "image_srcs": [
+      "77b46a44584300019d20f794ae05ca9f.webp",
+      "4815bbf6303b11058e2f9aa710404299.webp",
+      "22. Granulosa-Theca Tumors Precocious Puberty.jpg",
+      "21. Granulosa-Theca Tumors.jpg",
+      "b748a72c0fff5541e48b33625fd046fd.webp"
+    ],
+    "text": "Which etiology of peripheral precocious puberty is an estrogen-producing tumor ? Granulosa cell tumor | Recall granulosa cells convert T → E via aromatase [img] [img] | [img] [img] [img] [img] Watch Ovarian Neoplasms (Germ Cell & Sex Cord Stromal Tumors) | [img] [img] [img] [img] Watch Germ Cell & Sex-Cord Stromal Tumors | 34beabe7-6e9b-4c57-86ad-e3932031d58d"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1572928171553,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::Cheesy_Dorian_(M3)",
+      "#AK_Other::Only_Step_2",
+      "#AK_Other::step2PotentialDupes::ausername::333more",
+      "#AK_Step1_v12::#B&B::19_Psych::02_Pathology::10_Mood_Disorders",
+      "#AK_Step2_v12::!FLAG_THESE_CARDS::Potential_duplicates",
+      "#AK_Step2_v12::#B&B::13_Psych::02_Psychiatric_Disorders::01_Depression::Extra",
+      "#AK_Step2_v12::#CMS::Psychiatry::Form_05",
+      "#AK_Step2_v12::#OME_banner",
+      "#AK_Step2_v12::#Resources_by_rotation::Psych::uworld::dorian",
+      "#AK_Step2_v12::#Subjects::Psychiatry::05_Mood_Disorders::Atypical_Depression",
+      "#AK_Step2_v12::#UWorld::Step::15925",
+      "#AK_Step2_v12::Original_decks::Dorian::psych::uw",
+      "#PANCE::BEHAVIORAL::depression",
+      "#PANCE::EOR::PSYCH"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "A core feature of atypical depression is mood reactivity | e.g., positive responsiveness to pleasant events | 9c10ad4d-2b28-4b6e-8708-a0adea4ce0f2"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1484792565295,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Psychiatry_/_Psychology",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::tYaXIQ",
+      "#AK_Step1_v12::#B&B::19_Psych::02_Pathology::10_Mood_Disorders",
+      "#AK_Step1_v12::#Bootcamp::Psychiatry::06_Psychotic_and_Mood_Disorders::03_Mania",
+      "#AK_Step1_v12::#FirstAid::13_Psych::02_Pathology::12_Hypomanic_episode",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::Clinical::Psychiatry::Mostly_Mood::Major_Depression_and_Bipolar_Disorder",
+      "#AK_Step1_v12::#Physeo::07_Psychiatry::02_Psychiatry::05_Mania",
+      "#AK_Step1_v12::#UWorld::COMLEX::25559",
+      "#AK_Step1_v12::#UWorld::Step::11587",
+      "#AK_Step1_v12::^Systems::Psychiatry",
+      "#AK_Step2_v12::!Shelf::Psych",
+      "#AK_Step2_v12::#B&B::13_Psych::02_Psychiatric_Disorders::02_Mania",
+      "#AK_Step2_v12::#FirstAid::13_Psych::08_Mood_Disorders::05_Bipolar_and_Related_Disorders",
+      "#AK_Step2_v12::#SketchyPsych::01_Mood_Disorders::02_Bipolar_Disorders::02_Bipolar_II_&_Cyclothymic_Disorders",
+      "#AK_Step2_v12::#UWorld::COMLEX::102780",
+      "#AK_Step2_v12::#UWorld::Step::15073"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "Does a hypomanic episode present with psychotic features ? No | Helpful distinguishing feature from a manic episode | Watch associated Bootcamp video - Psychotic and Mood Disorders : Mania | 705c904f-2533-4086-a18a-600a645e81c3"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1463442589618,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Reproductive::Reproductive_Pathology",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#B&B::22_Repro::05_Breast::03_Breast_Carcinoma",
+      "#AK_Step1_v12::#Bootcamp::Reproduction::04_Female_Pathology::15_Invasive_Breast_Carcinoma",
+      "#AK_Step1_v12::#FirstAid::15_Repro::04_Pathology::32_Breast_cancer::*Invasive_Ductal_Carcinoma::Basics",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME::Clinical::Surgery::General_Surgery::Breast_Cancer",
+      "#AK_Step1_v12::#Pathoma::16_Breast::04_Breast_Cancer",
+      "#AK_Step1_v12::#Physeo::11_Pathology::09_Reproductive_Pathology::07_Breast_Cancer",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::04_Breast::02_Breast_Cancer",
+      "#AK_Step1_v12::^Systems::Reproductive::Pathology",
+      "#AK_Step2_v12::!Shelf::ObGyn",
+      "#AK_Step2_v12::#B&B::11_Obstetrics_and_Gynecology::03_Breast::02_Breast_cancer",
+      "#AK_Step2_v12::#CMS::Surgery::Form_08",
+      "#AK_Step2_v12::#UWorld::COMLEX::104305",
+      "#AK_Step2_v12::#UWorld::Step::19469",
+      "#PANCE::EOR::Family_med",
+      "#PANCE::REPRODUCTIVE::neoplasms"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "30. Invasive Ductal Carcinoma.png",
+      "eec8dc3d51556501e2db642d8f1167c6.webp",
+      "6155eea9cf7e3f54301f3c2f781fd98d.webp"
+    ],
+    "text": "What is the most common type of breast cancer ? Invasive ductal carcinoma | ~75% of all breast cancers | [img] [img] [img] Watch Breast Cancer | Watch associated Bootcamp video - Female Pathology: Invasive Breast Carcinomas | 2e8b2ea7-0e11-4f67-b6ba-ff6004499eba"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1580073297072,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_2::Cheesy_Dorian_(M3)",
+      "#AK_Other::Card_Features::^One_By_One",
+      "#AK_Other::Only_Step_2",
+      "#AK_Step1_v12::#B&B::06_Cardio::01_Anatomy_and_Physiology::05_Regulation_of_Blood_Pressure::Extra",
+      "#AK_Step1_v12::#B&B::16_Neuro::02_Nervous_System_Structures::07_Cranial_Nerves_II::Extra",
+      "#AK_Step1_v12::#NBME::31",
+      "#AK_Step1_v12::#UWorld::COMLEX::27538",
+      "#AK_Step1_v12::#UWorld::Step::21156",
+      "#AK_Step1_v12::#UWorld::Step::6651",
+      "#AK_Step2_v12::!FLAG_THESE_CARDS::Potential_duplicates",
+      "#AK_Step2_v12::!Shelf::#Cards_AnKing_Skipped",
+      "#AK_Step2_v12::#AMBOSS::8M0Oqg",
+      "#AK_Step2_v12::#AMBOSS::ko0mXS",
+      "#AK_Step2_v12::#AMBOSS::yM0drg",
+      "#AK_Step2_v12::#B&B::10_Neuro::05_OtherTopics::10_Syncope",
+      "#AK_Step2_v12::#FirstAid::01_Cardiovascular::15_Syncope::01_Syncope::Extra",
+      "#AK_Step2_v12::#NinjaNerd::06_Cardiovascular::03_Pathology::16_Syncope",
+      "#AK_Step2_v12::#OME::01_Medicine::01_Cardiology::07_Syncope",
+      "#AK_Step2_v12::#OME::Clinical::01_Medicine::01_Cardiology::07_Syncope",
+      "#AK_Step2_v12::#Resources_by_rotation::IM::ome::cardio::syncope"
+    ],
+    "image_count": 12,
+    "image_srcs": [
+      "aa3f9047b2dfd2d0dbcec5a839d4c4d9.webp",
+      "61c036d65a8dc271cd3531e009572927.webp",
+      "d9de3d30145a268c551bd0432bc46d80.webp",
+      "b762ad0efd65bcb17e540953a7ff38e6.webp",
+      "f2e70f48bd9c055ae509e7891edba0b3.webp"
+    ],
+    "text": "In situational syncope , parasympathetic hyperactivity triggers peripheral vascular dilation and bradycardia , resulting in a(n) decrease in blood pressure and cerebral perfusion | - Triggers include cough, swallowing, or micturition - Tx: Reassure and educate on counter-pressure maneuvers | [img] [img] [img] [img] Watch Family Medicine Syncope DDx Watch Internal Medicine Syncope DDx [img] [img] [img] Watch Bradycardia DDx Watch Bradycardia Workup & Management [img] [img] [img] [img] [img] | y |"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1526178267252,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Respiratory::Respiratory_Physiology",
+      "#AK_Other::^EXPN::BGadd",
+      "#AK_Other::^EXPN::BGnonessentials",
+      "#AK_Other::^EXPN::Uworld",
+      "#AK_Other::AnKing_Image::AhmedA::Retropharyngeal_Abscess",
+      "#AK_Other::Only_Step_2",
+      "#AK_Step1_v12::#Bootcamp::Gastroenterology::02_Oral_Cavity::09_Oropharyngeal_Pathology",
+      "#AK_Step1_v12::#FirstAid::16_Respiratory::04_Pathology::*Laryngeal_Pathology::Retropharyngeal_Abscess",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::^Systems::Respiratory::BGadds",
+      "#AK_Step2_v12::!Shelf::Peds",
+      "#AK_Step2_v12::#AMBOSS::MDaMU5",
+      "#AK_Step2_v12::#Bootcamp::Pediatrics::03_Infectious_Disease::02_Airway_and_Respiratory_Infections::08_Deep_Space_Neck_Infections",
+      "#AK_Step2_v12::#SketchyPeds::05_Respiratory_&_Pulmonology::01_Upper_Airway_Disease::01_Stridor_DDx",
+      "#AK_Step2_v12::#SketchyPeds::09_Infectious_Diseases::03_Ear,_Nose,_Throat,_&_Respiratory_Infections::04_Peritonsillar_and_Retropharyngeal_Abscess",
+      "#AK_Step2_v12::#SketchyPeds::09_Infectious_Diseases::05_Retired_Lessons::03_Ear,_Nose,_Throat,_&_Respiratory_Infections::04_Epiglottitis_Peritonsillar_and_Retropharyngeal_Abscess_SOAP_[OLD_VERSION]",
+      "#AK_Step2_v12::#UWorld::COMLEX::101669",
+      "#AK_Step2_v12::#UWorld::COMLEX::28657",
+      "#AK_Step2_v12::#UWorld::Step::4891"
+    ],
+    "image_count": 14,
+    "image_srcs": [
+      "a3866b9d0f01f844428344b9870b1957.webp",
+      "853b3c8ba4eebb5133e9966153fed490.JPG",
+      "c54cde9de5ea78aab8c78e87c6d903ef.jpg",
+      "9f7caa23fec8aa53de8610248818bd8b.webp",
+      "ea6035d2cd485c0e39dd7afdff5d70bd.webp"
+    ],
+    "text": "Retropharyngeal abscesses most commonly affect children | - Due to presence of the retropharyngeal lymph nodes to around 4-5 years of age; most commonly seen 6 months to 6 years - URIs can result in suppuritive adenitis of these lymph nodes, leading to abscess formation [img] [img] Photo credit: James Heilman, MD , CC BY-SA 3.0 , via Wikimedia Commons | [img] [img] [img] Watch Peritonsillar and Retropharyngeal Abscess [img] [img] [img] [img] [img] [img] [img] [img] [img] Watch Stridor DDx | Watc"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1496870175137,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::^EXPN",
+      "#AK_Other::AnKing_Image::!Subjects::Nephrology_&_Urology::Gout_Drugs",
+      "#AK_Other::AnKing_Image::Aiman::Gout_Drugs",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#AMBOSS::V3aGh4",
+      "#AK_Step1_v12::#B&B::04_Biochem::01_Molecular::02_Purine_Metabolism",
+      "#AK_Step1_v12::#B&B::12_Hematology::04_Cancer_Drugs::01_Antimetabolites::Extra",
+      "#AK_Step1_v12::#B&B::13_Immunology::05_Inflammatory_Disorders::01_Gout",
+      "#AK_Step1_v12::#Bootcamp::Genetics::01_DNA_Structure::02_Purine_Synthesis_and_Salvage",
+      "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::10_Plasma_Cell_Dyscrasias_&_Myeloproliferative_Disease::05_Tumor_Lysis_Syndrome",
+      "#AK_Step1_v12::#FirstAid::11_Musculoskeletal_Skin_and_Connective_Tissue::04_Pharm::09_Gout_drugs::*Basics::Uric_Acid_Metabolism",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#NBME::Free120",
+      "#AK_Step1_v12::#NBME::Free120::2024",
+      "#AK_Step1_v12::#OME::PreClinical::Biochemistry",
+      "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::18_Purines_&_Pyrimidines",
+      "#AK_Step1_v12::#Physeo::09_Pharm::09_Musculoskeletal::08_Acute_and_Chronic_Gout_Treatment",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::08_Purine_Excretion"
+    ],
+    "image_count": 13,
+    "image_srcs": [
+      "3e74c6799a2ea9cc493882e06ceee4a1.webp",
+      "79e28bcc54fc0a7e81e9053653cecf7d.webp",
+      "0ac4a6aca8a2e974d9b807610d42a69d.webp",
+      "1c8774abd155757fad55c2b72a146192.webp",
+      "96e2ff8fe82926685a2a3b670d65c568.webp"
+    ],
+    "text": "In physiological homeostasis, purines are metabolized into uric acid and excreted | [img] | [img] [img] [img] Watch Gout Drugs [img] [img] [img] Watch Purine Salvage Pathway | [img] [img] [img] [img] Watch Gout & Pseudogout SOAP | [img] [img] Review Purine Excretion | Watch associated Bootcamp video - DNA Structure: Purine Synthesis and Salvage Watch associated Bootcamp video - Plasma Cell Dyscrasias and Myeloproliferative Disease: Tumor Lysis Syndrome | bcd2f941-78f2-4d91-b87e-031fd2cc013e"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1462228661599,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Endocrine::Endocrine_Pathology",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::UXabxQ",
+      "#AK_Step1_v12::#B&B::09_Endocrinology::01_Thyroid::05_Thyroid_Cancer",
+      "#AK_Step1_v12::#Bootcamp::Endocrinology::04_Thyroid::09_Thyroid_Malignancies",
+      "#AK_Step1_v12::#FirstAid::08_Endocrine::04_Pathology::09_Thyroid_cancer::01_Papillary_carcinoma",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::06_Endocrine::03_Thyroid::03_The_Unhealthy_Thyroid_Structural_Disorders",
+      "#AK_Step1_v12::#OME::PreClinical::04_Organ_Systems::06_Endocrine::03_Thyroid::03_The_Unhealthy_Thyroid_Structural_Disorders",
+      "#AK_Step1_v12::#Pathoma::15_Endocrine::03_04_05_06_07_Thyroid_Gland",
+      "#AK_Step1_v12::#Physeo::11_Pathology::02_Endocrine_Pathology::04_Thyroid_Neoplasia",
+      "#AK_Step1_v12::#SketchyPath::07_Endocrine::04_Thyroid_&_Parathyroid::04_Thyroid_Nodules_&_Cancer",
+      "#AK_Step1_v12::^Systems::Endocrine::Pathology",
+      "#AK_Step2_v12::#AMBOSS::wT0hG2",
+      "#AK_Step2_v12::#AMBOSS::xT0EG2",
+      "#AK_Step2_v12::#B&B::04_Endocrinology::01_Thyroid_Gland::04_Thyroid_Nodules",
+      "#AK_Step2_v12::#Bootcamp::Medicine::05_Endocrinology::02_Thyroid_Disorders::09_Benign_&_Malignant_Thyroid_Nodules",
+      "#AK_Step2_v12::#Resources_by_rotation::IM::ome::endo::thyroid_nodules",
+      "#AK_Step2_v12::Original_decks::Dorian::im::ome::endo::thyroid_nodules",
+      "#PANCE::ENDO::thyroid_disorders"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "820bba77fc60584ce1018d93b4cfd7c2.webp",
+      "0a122a1b910cf7d5c0eff786686ed419.webp",
+      "49552a7a1f8629f2c1d9c09b72f921c4.webp",
+      "88436a93081afa7a3f019d8877732336.webp",
+      "6a273cfa494cc3c57b03c7460c9941e3.webp"
+    ],
+    "text": "What is the most common type of thyroid cancer ? Papillary thyroid carcinoma (80%) | Whereas the most common type of thyroid adenoma is follicular adenoma Papillary thyroid carcinoma: [img] [img] Photo credit: © Dr. Jian-Hua Qiao , all rights reserved, via Flickr (used with permission) | [img] [img] [img] Watch Thyroid Nodules & Cancer | Watch associated Bootcamp video - Thyroid : Thyroid Malignancies | 503bf10e-ba12-4312-9d93-2871c859c000"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1495635796867,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::^EXPN",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#AMBOSS::_da5sj",
+      "#AK_Step1_v12::#B&B::04_Biochem::04_Vitamins::03_Other_Vitamins",
+      "#AK_Step1_v12::#Bootcamp::Biochemistry::12_Vitamins::02_Vitamin_A",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::05_Nutrition::05_Vitamin_A",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::05_Nutrition::05_Vitamin_A::01_Function",
+      "#AK_Step1_v12::#FirstAid::10_Hematology_and_Oncology::04_Pathology::28_Leukemias::*Leukemia::Acute_Leukemia::Acute_Myelogenous_Leukemia::Acute_Promyelocytic_Leukemia",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#SketchyPharm::08_Antineoplastics::Retinoids_BCG",
+      "#AK_Step1_v12::#UWorld::#UWSA2",
+      "#AK_Step1_v12::#UWorld::Step::6745",
+      "#AK_Step2_v12::#B&B::12_Pediatrics::02_General_Pediatrics::06_Pediatric_Rashes",
+      "#AK_Step2_v12::#SketchyPeds::10_Dermatology::02_Adolescent_Dermatology::01_Acne_Vulgaris",
+      "#AK_Step3_v12::#UWorld::5912",
+      "#PANCE::DERM::acneiform_eruptions"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "Retinoids (e.g., isotretinoin, all- trans -retinoic acid) are derivatives of vitamin A | Watch associated Bootcamp video - Vitamins: Vitamin A | a7c60c92-76a9-4ac6-8818-d75048b05d50"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1506783521685,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Drugs",
+      "#AK_Other::AnKing_Image::!Subjects::Microbiology::HIV_Life_Cycle",
+      "#AK_Other::AnKing_Image::AhmedA::HIV_Life_Cycle",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::07_HIV_Drugs",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::06_Antiretroviral_Nucleoside_Reverse_Transcriptase_Inhibitors",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::07_Antimicrobials::50_HIV_therapy",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#NBME::28",
+      "#AK_Step1_v12::#NBME::30",
+      "#AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment)",
+      "#AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::Antiviral_Medications",
+      "#AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::05_NRTIs",
+      "#AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::06_NRTIs",
+      "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::08_Human_Immunodeficiency_Virus_(Retroviridae)_[Retired_Video]",
+      "#AK_Step1_v12::#SketchyPharm::07_Antimicrobials::06_HIV_Antivirals::01_NRTIs",
+      "#AK_Step1_v12::#SketchyPharm::07_Antimicrobials::08_Retired_Lessons::03_NRTIs_[Retired_Video]",
+      "#AK_Step1_v12::#UWorld::COMLEX::25128",
+      "#AK_Step1_v12::#UWorld::Step::2019",
+      "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::02_HIV_Drugs"
+    ],
+    "image_count": 11,
+    "image_srcs": [
+      "3689cb1f06f28b3972651aabff448e06.webp",
+      "2d7ec7fa20c74336b35e28f972bfb3d7.webp",
+      "241774581ff096c82ced620f85429a7b.webp",
+      "7b8566865e6c6a5e07d87ff944ddad48.webp",
+      "ccb6316ded946ae043c80597af33e786.webp"
+    ],
+    "text": "Which type of HAART drug is zidovudine ( ZDV , formerly AZT )? NRTI | [img] [img] | [img] [img] [img] | [img] [img] [img] Watch NRTIs | [img] [img] [img] | Watch associated Bootcamp video - Antivirals: Antiretroviral Nucleoside Reverse Transcriptase Inhibitors | 29461a79-dccb-41ae-bffc-8e1b3016c945"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1503261568708,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::14_Infectious_Disease::02_Bacteria::08_Mycobacteria",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::08_Mycobacteria::06_Mycobacterium_Leprae",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::02_Clinical_Bacteriology::19_Mycobacteria::*Mycobacterium_Leprae",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::02_Clinical_Bacteriology::21_Leprosy",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+      "#AK_Step1_v12::#Physeo::06_Micro::02_Bacteria::42_Mycobacterium_Leprae",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::04_Microbiology::06_Bacteria-Gram_Indeterminate::05_Mycobacterium_leprae",
+      "#AK_Step1_v12::#SketchyMicro::01_Bacteria::08_Mycobacteria::02_Mycobacterium_Leprae",
+      "#AK_Step1_v12::#UWorld::COMLEX::24425",
+      "#AK_Step1_v12::#UWorld::Step::1314"
+    ],
+    "image_count": 6,
+    "image_srcs": [
+      "19dd42c5e8f3f5b3ebdc0d31fd996933.jpg",
+      "33e51918b47da05e073d0372c9960876.webp",
+      "6f69c2d80b547fa799d1d45c90716906.webp",
+      "f0ec2fb861de2500ec626ac813b96937.webp",
+      "05130eac1ba43d0844cf89cb0c7dd023.webp"
+    ],
+    "text": "Mycobacterium leprae thrives in cool temperatures , explaining its predilection for extremities of the body | [img] Photo credit: B.jehle , CC BY-SA 3.0 , via Wikimedia Commons | [img] [img] [img] Watch Mycobacterium leprae | [img] [img] Review Mycobacterium leprae | Watch associated Bootcamp video - Mycobacteria: Mycobacterium Leprae | 3d820da6-9150-4e6d-8b05-8ca4f94954bb"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1403140930710,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::6aajlQ",
+      "#AK_Step1_v12::#AMBOSS::jaa_4Q",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::02_Mechanisms_of_Viral_Infectivity",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::07_Herpesvirus_Family_Overview",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::12_Epstein-Barr_Virus_Clinical_Manifestations",
+      "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::13_Epstein-Barr_Virus_Diagnostics_and_Management",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*Epstein-Barr_Virus",
+      "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::06_Herpesviruses::*Epstein-Barr_Virus",
+      "#AK_Step1_v12::#FirstAid::04_Pathology::03_Neoplasia::12_Oncogenic_microbes::*EBV",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#NBME::29",
+      "#AK_Step1_v12::#NBME::Free120::2024",
+      "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+      "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::03_Epstein-Barr_Virus_(EBV)",
+      "#AK_Step1_v12::#Physeo::11_Pathology::07_General_Pathology::09_Carcinogenesis",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::05_Epstein-Barr_Virus_(HHV4)",
+      "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::02_Epstein-Barr_virus_(Herpesviridae)"
+    ],
+    "image_count": 14,
+    "image_srcs": [
+      "paste-11510512353634.jpg",
+      "8673941f3ba73f6ff911b2ccc1004411.webp",
+      "7e1cfa6cb6f6c5cbe8139664520b4155.webp",
+      "eb4a7c9712866c13482a54c5b005896c.jpg",
+      "12135f3416127436e1e5f1babbaa4ee9.webp"
+    ],
+    "text": "Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4) | Especially in East Asian populations | [img] [img] [img] Watch Epstein-Barr Virus (Herpesviridae) | [img] [img] [img] Watch Infectious Mononucleosis [img] [img] [img] | [img] [img] [img] Watch Epstein-Barr Virus (Herpesviridae) | [img] [img] | Watch associated Bootcamp video - DNA Viruses: Herpesvirus Family Overview Watch associated Bootcamp video - DNA Viruses: Epstein-Barr Virus: Clinical Manifestations | 93c1aeb5-f"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1470945649872,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Cardiovascular::Cardio_Physiology_+_Embryo,_Anatomy",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::06_Cardio::01_Anatomy_and_Physiology::01_Cardiac_Anatomy",
+      "#AK_Step1_v12::#Bootcamp::Cardiology::02_Anatomy::05_Cardiac_Conduction_Anatomy",
+      "#AK_Step1_v12::#Bootcamp::Cardiology::12_Cardiac_Conductive_Physiology::01_Cardiac_Conduction_System",
+      "#AK_Step1_v12::#Costanzo::Cardio::2-Electrophysiology",
+      "#AK_Step1_v12::#FirstAid::07_Cardiovascular::03_Physiology::14_Electrocardiogram::*Conduction_Pathway",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#NBME::31",
+      "#AK_Step1_v12::#NinjaNerd::06_Cardiovascular::02_Physiology::02_Intrinsic_Cardiac_Conduction_System",
+      "#AK_Step1_v12::#NinjaNerd::06_Cardiovascular::02_Physiology::04_EKG_Basics_(How_to_Read_&_Interpret_EKGs_Updated_Lecture)",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#Physeo::03_Physiology::02_Cardio::05_Electrophysiology_-_Part_2",
+      "#AK_Step1_v12::#SketchyAnatomy::02_Thorax::02_Heart::01_Chambers_of_Heart_&_Pulmonary_Circulation",
+      "#AK_Step1_v12::#UWorld::COMLEX::25787",
+      "#AK_Step1_v12::#UWorld::Step::11956",
+      "#AK_Step1_v12::#UWorld::Step::15197",
+      "#AK_Step1_v12::#UWorld::Step::6426",
+      "#AK_Step1_v12::^Systems::Cardio::Physiology"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "f37fd646de18e8b8f724ffdfd1498139.jpg",
+      "7293d1b661aee80b6a3d0127e0ade147.webp",
+      "395063670737b31ad81afa209875e01c.webp",
+      "55e5a5c657bc7cc0be12407a6f1a3c60.webp",
+      "2.1 table-364d244b9e3562327263cc6c18e83d915807a73a.jpg"
+    ],
+    "text": "The AV node is located in the posteroinferior part of the interatrial septum | [img] Photo credit: biologists [ The formation and function of the cardiac conduction system | Development | The Company of Biologists ] | [img] [img] [img] [img] Watch Chambers of the Heart & Pulmonary Circulation | Watch associated Bootcamp video - Anatomy: Cardiac Conductive Physiology : Cardiac Conduction System | 053ff047-f852-4447-accb-2d88e22345ac"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1485382311895,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::AnKing_Image::!Subjects::Neurology::Huntington_Disease",
+      "#AK_Other::AnKing_Image::AhmedA::Huntington_Disease",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::16_Neuro::05_Other_Neurology_Topics::15_Movement_Disorders::Extra",
+      "#AK_Step1_v12::#Bootcamp::Psychiatry::09_Pharmacology::13_Typical_Antipsychotics",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::04_Genetics::14_Trinucleotide_repeat_expansion_diseases::*Huntingon",
+      "#AK_Step1_v12::#FirstAid::12_Neurology_and_Special_Senses::06_Pharm::08_Neurodegenerative_disease_therapy::*Huntington::Haloperidol",
+      "#AK_Step1_v12::#FirstAid::13_Psych::03_Pharm::03_Antipsychotics::*Typical_Antipsychotics",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::PreClinical::Biochemistry",
+      "#AK_Step1_v12::#Physeo::09_Pharm::13_Psychiatric::15_Typical_Antipsychotics",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#SketchyPharm::06_Neuro_&_Psych::FA-Neuro",
+      "#AK_Step1_v12::^Systems::Neuro::Pharmacology",
+      "#AK_Step2_v12::#SketchyNeurology::04_Movement_&_Neurodegenerative_Disorders::02_Disorders_of_Basal_Ganglia::02_Huntington_Disease"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "68589e2076280fa4a12029a1969c074b.webp",
+      "4391fbbd389ecbe8176a835f8abef1ac.webp",
+      "97ea10660221f3870ff9d9c719d673d4.webp"
+    ],
+    "text": "What D 2 receptor antagonists are used to treat Huntington disease ? Atypical antipsychotics | - e.g., risperidone, aripiprazole, clozapine, etc. - Atypical antipsychotics are administered in cases of concurrent psychosis - This card used to say \"haloperidol,\" but AMBOSS and UWorld both confirm that atypical antipsychotics are the preferred treatment (Aug 2025) [img] | [img] [img] Review Atypical Antipsychotics | Watch associated Bootcamp video - Pharmacology: Typical Antipsychotics | 9a39b9ff-8"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1462849149554,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#B&B::09_Endocrinology::03_Pancreas::03_Type_I_Diabetes::Extra",
+      "#AK_Step1_v12::#B&B::21_Renal::03_Electrolytes::03_Potassium_Disorders",
+      "#AK_Step1_v12::#Bootcamp::Endocrinology::07_Pancreas::08_Diabetes_Type_I_Management",
+      "#AK_Step1_v12::#Bootcamp::Nephrology::05_Electrolytes::02_Potassium",
+      "#AK_Step1_v12::#FirstAid::08_Endocrine::05_Pharm::01_Diabetes_mellitus_therapy::*Insulin_Preparations::Short_Acting",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#OME::PreClinical::Endocrine::Endocrine_5:_Pancreas::The_Endocrine_Pancreas",
+      "#AK_Step1_v12::#Physeo::09_Pharm::07_Endocrine::01_Insulin_Preparations",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::03_Pharmacology::07_Diabetes_Drugs_(New)::04_Insulin_Preparations",
+      "#AK_Step1_v12::#SketchyPharm::05_GI_&_Endocrine::02_Diabetes::01_Insulin,_Sulfonylureas,_Meglitinides,_GLP-1_Agonists,_DPP-4_Inhibitors",
+      "#AK_Step1_v12::^Systems::Endocrine::Pharmacology",
+      "#AK_Step2_v12::#AMBOSS::VO0GrT",
+      "#AK_Step2_v12::#B&B::04_Endocrinology::03_Diabetes::04_Insulin",
+      "#AK_Step2_v12::#B&B::15_Renal_and_Genitourinary::02_Fluids_and_Electrolytes::04_Potassium_Disorders",
+      "#AK_Step2_v12::#Bootcamp::Medicine::04_Nephrology::02_Electrolyte_Disorders::07_Hyperkalemia",
+      "#AK_Step2_v12::#Bootcamp::Medicine::05_Endocrinology::01_Disorders_of_Glucose_Metabolism::05_Diabetes_Pharmacotherapy",
+      "#AK_Step2_v12::#FirstAid::03_Endocrinology::01_Disorders_of_Glucose_Metabolism::03_Diabetic_Ketoacidosis_and_Hyperglycemic_Hyperosmolar_Syndrome::Extra"
+    ],
+    "image_count": 13,
+    "image_srcs": [
+      "6ad9391bea3f632a863a170763033ada.png",
+      "71f4c995aac4dadd488a78f8bc2ce201.webp",
+      "63b5c0bfa519e6fe11c747bb1d260ee2.webp",
+      "029429e0a26cd4bed74c445e5382619d.webp",
+      "5056544371f00ce7f02a2e02169d7d42.jpg"
+    ],
+    "text": "IV regular insulin is useful in the management of hyper kalemia | Note : must be administered with glucose to prevent hypoglycemia [img] | [img] [img] [img] Watch Insulin, Sulfonylureas, Meglitinides, GLP-1 Agonists, DPP-4 Inhibitors | [img] [img] [img] Watch Hyperkalemia: Management [img] [img] [img] [img] | [img] [img] Review Insulin Preparations | Watch associated Bootcamp video - Pancreas : Diabetes Type I Management Watch associated Bootcamp video - Electrolytes : Potassium | 4be51cf9-844a-"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1462223933107,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Endocrine::Endocrine_Pathology",
+      "#AK_Other::AnKing_Image::Michael",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#AMBOSS::3y0SUi",
+      "#AK_Step1_v12::#B&B::09_Endocrinology::01_Thyroid::04_Hypothyroidism_and_Thyroiditis",
+      "#AK_Step1_v12::#Bootcamp::Endocrinology::04_Thyroid::07_Hyper/_Hypothyroidism:_De_Quervain_and_Riedel_Thyroiditis",
+      "#AK_Step1_v12::#DirtyMedicine::08_Endocrinology::03_Thyroid_Disease_(Hyperthyroidism_vs._Hypothyroidism)",
+      "#AK_Step1_v12::#FirstAid::08_Endocrine::04_Pathology::06_Hypothyroidism::02_Subacute_granulomatous_thyroiditis",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#NinjaNerd::07_Endocrinology::02_Pathology::02_Hyperthryoidism",
+      "#AK_Step1_v12::#OME::04_Organ_Systems::06_Endocrine::03_Thyroid::02_The_Unhealthy_Thyroid_Functional_Disorders",
+      "#AK_Step1_v12::#OME::PreClinical::04_Organ_Systems::06_Endocrine::03_Thyroid::02_The_Unhealthy_Thyroid_Functional_Disorders",
+      "#AK_Step1_v12::#Pathoma::15_Endocrine::03_04_05_06_07_Thyroid_Gland",
+      "#AK_Step1_v12::#Physeo::11_Pathology::02_Endocrine_Pathology::05_Thyroiditis",
+      "#AK_Step1_v12::#SketchyPath::07_Endocrine::04_Thyroid_&_Parathyroid::02_Hypothyroidism:_Other_Causes",
+      "#AK_Step1_v12::#UWorld::COMLEX::23880",
+      "#AK_Step1_v12::#UWorld::COMLEX::27368",
+      "#AK_Step1_v12::#UWorld::Step::20375",
+      "#AK_Step1_v12::#UWorld::Step::768",
+      "#AK_Step1_v12::^Systems::Endocrine::Pathology"
+    ],
+    "image_count": 10,
+    "image_srcs": [
+      "e31d2781ae7f226804926a1bcfb92f6c.webp",
+      "1216fc719ee622fa6f452db4389c23f9.webp",
+      "191824c28591b63041a5fc4fa0747f13.webp",
+      "33a2a4d6ea91c2174519abfebb9d9d61.webp",
+      "29f230a60c2f274bda2a599d8c31227c.webp"
+    ],
+    "text": "Subacute granulomatous thyroiditis (de Quervain) is a self-limited disease often following viral infection | - Most common in middle-aged women - Thought to involve HLA-B35 polymorphisms [img] | [img] [img] [img] [img] Watch Hypothyroidism Other Causes | [img] [img] [img] [img] [img] Watch Hypothyroidism SOAP | Watch associated Bootcamp video -Thyroid : Hyper/Hypothyroidism: De Quervain and Riedel Thyroiditis | af8950df-013c-4c31-bca4-b894e020f42a"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1467927184068,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::07_Cell_Bio::01_Molecular::04_Transcription",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*MicroRNA",
+      "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+      "#AK_Step1_v12::#OME_banner",
+      "#AK_Step1_v12::#UWorld::COMLEX::25565",
+      "#AK_Step1_v12::#UWorld::Step::11595",
+      "#AK_Step1_v12::^Systems::Biochem::Molecular"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "0cdfbe7e74604e36ffbdb68bbb03b1b7.jpg"
+    ],
+    "text": "microRNA often leads to the silencing/inactivation of target mRNA , thus causing decreased translation into protein | - Can have multiple mRNA targets - Typically related to complementary base pairing [img] Photo credit: lumenlearning [ RNA Post-Transcriptional Modification | Biology for Majors I (lumenlearning.com) ] | 414177da-33b2-47df-b3a6-da3c5f200737"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1485313501616,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Psychiatry_/_Psychology",
+      "#AK_Other::^EXPN::BGedit",
+      "#AK_Other::AnKing_Image::!Subjects::Psychiatry::Alcohol_Withdrawal_Syndrome",
+      "#AK_Other::AnKing_Image::!Subjects::Psychiatry::Substance_intoxication",
+      "#AK_Other::AnKing_Image::Mujeeb::Alcohol_Withdrawal_Syndrome",
+      "#AK_Other::AnKing_Image::Mujeeb::Substance_intoxication",
+      "#AK_Other::Only_Step_1&2_Overlap",
+      "#AK_Step1_v12::#Bootcamp::Psychiatry::08_Substance_Misuse::02_Alcohol_Withdrawal",
+      "#AK_Step1_v12::#FirstAid::13_Psych::02_Pathology::40_Psychiatric_emergencies::*Delirium_Tremens::Symptoms",
+      "#AK_Step1_v12::#FirstAid::13_Psych::02_Pathology::41_Psychoactive_drug_intoxication_and_withdrawal::*Depressants::Alcohol",
+      "#AK_Step1_v12::#FirstAid::13_Psych::02_Pathology::42_Alcohol_use_disorder::*Alcohol_Abuse",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::Clinical::Psychiatry::Mostly_Mood::Eating_Disorders",
+      "#AK_Step1_v12::#Physeo::07_Psychiatry::02_Psychiatry::07_Cognition,_Delirium,_&_Amnesia",
+      "#AK_Step1_v12::#Physeo::09_Pharm::13_Psychiatric::05_Alcohol",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::^Systems::Psychiatry",
+      "#AK_Step2_v12::!Shelf::FM::no_dupes",
+      "#AK_Step2_v12::!Shelf::Psych::no_dupes",
+      "#AK_Step2_v12::#Resources_by_rotation::FM::ome::psych::eating_disorders"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "3abe114953c4cd8da78b9e8ebfa46f89.webp",
+      "d92e3a97412dd60e960ff5e4090424a1.webp"
+    ],
+    "text": "Delirium tremens is characterized by electrolyte disturbances and respiratory alkalosis | Hyperventilation causes increased loss of P a CO 2 [img] [img] | Watch associated Bootcamp video - Substance Misuse: Alcohol Withdrawal | 198744da-c68b-4a5f-9fdd-22bde403dd40"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1470793813508,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+      "#AK_Other::AnKing_Image::!Subjects::Biochemistry::Fragile_X_Syndrome",
+      "#AK_Other::AnKing_Image::!Subjects::Biochemistry::Trinucleotide_repeat_expansion_disorders",
+      "#AK_Other::AnKing_Image::AhmedA::Fragile_X_Syndrome",
+      "#AK_Other::AnKing_Image::Mujeeb::Trinucleotide_repeat",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#AMBOSS::bWaHPj",
+      "#AK_Step1_v12::#AMBOSS::WYaPLQ",
+      "#AK_Step1_v12::#B&B::11_Genetics::01_Genetic_Concepts::05_Pedigrees",
+      "#AK_Step1_v12::#Bootcamp::Genetics::06_Basics_of_Clinical_Genetics::03_Pedigrees_and_Modes_of_Inheritance",
+      "#AK_Step1_v12::#Bootcamp::Genetics::07_High_yield_genetic_disorders::04_Trinucleotide_Repeat_Expansion_Diseases",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::04_Genetics::13_Fragile_X_syndrome",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::04_Genetics::14_Trinucleotide_repeat_expansion_diseases::*Fragile_X",
+      "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+      "#AK_Step1_v12::#NBME::16",
+      "#AK_Step1_v12::#OME::PreClinical::Biochemistry",
+      "#AK_Step1_v12::#Physeo::05_Biochem::04_Genetics::12_Trinucleotide_Repeat_Disorders",
+      "#AK_Step1_v12::#Physeo::05_Biochem::04_Genetics::15_Trinucleotide_Repeat_Disorders_-_Fragile_X_Syndrome",
+      "#AK_Step1_v12::#Physeo::^physeo_image_update",
+      "#AK_Step1_v12::#Pixorize::01_Biochemistry::22_Misc::14_Fragile_X_Syndrome"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "ff45e2bdd748a41205d7bf04109e06ec.webp",
+      "b9c41ed420805cfe1d800bd2c9b3a686.webp",
+      "e6353c194e296a58fb4ec3615ab8e3c2.jpg",
+      "Screen Shot 2021-02-01 at 09.28.42.jpg",
+      "Screen Shot 2021-02-01 at 09.28.53.jpg"
+    ],
+    "text": "What is the mode of inheritance of Fragile X syndrome ? X-linked dominant | [img] [img] | [img] [img] [img] Watch Fragile X Syndrome | [img] [img] Review Fragile X Syndrome | Watch associated Bootcamp video - High Yield Genetic Disorders: Trinucleotide Repeat Expansion Diseases Watch associated Bootcamp video - Basics of Clinical Genetics: Pedigrees and Modes of Inheritance | 28312a81-93f9-4d52-8b26-c701d94a0643"
+  },
+  {
+    "source": "AnKing",
+    "note_id": 1487462195051,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+      "#AK_Other::Only_Step_1",
+      "#AK_Step1_v12::#B&B::04_Biochem::02_Metabolism::09_Electron_Transport_Chain",
+      "#AK_Step1_v12::#Bootcamp::Biochemistry::04_Energy_Production::09_Electron_Transport_Chain",
+      "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::14_Electron_transport_chain_and_oxidative_phosphorylation::*Basics",
+      "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+      "#AK_Step1_v12::#OME::PreClinical::Biochemistry::Biochemistry_2:_Metabolism::Electron_Transport_Chain",
+      "#AK_Step1_v12::#Pathoma::01_Growth_Adaptations::02_Cellular_Injury",
+      "#AK_Step1_v12::#Physeo::05_Biochem::05_Metabolism::05_ETC",
+      "#AK_Step1_v12::#Pixorize::01_Biochemistry::02_Biochemical_Pathways::03_Electron_Transport_Chain_(ETC)",
+      "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::12_Electron_Transport_Chain_&_Oxidative_Phosphorylation",
+      "#AK_Step1_v12::^Systems::Biochem::CellBio"
+    ],
+    "image_count": 6,
+    "image_srcs": [
+      "103e59a818cbb86f6dd62aaa3a367edf.png",
+      "723ae3ccd494b916669c0dbb8418ab2b.webp",
+      "Screen Shot 2021-01-07 at 15.06.41.jpg",
+      "Screen Shot 2021-01-07 at 15.06.50.jpg",
+      "03_Electron_Transport_Chain_(ETC)1.jpg"
+    ],
+    "text": "Which mitochondrial membrane contains the electron transport chain ? Inner mitochondrial membrane | [img] Image licensed by Physeo and used with permission. Purchase full access here . | [img] [img] [img] Watch Electron Transport Chain (ETC)/Oxidative Phosphorylation | [img] [img] Review Electron Transport Chain (ETC) | Watch associated Bootcamp video - Energy Production: Electron Transport Chain | b1ebe890-9ce7-40bd-b70b-84ae67a0d965"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586819666342,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::UpperLimb"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp7lt9gmzb.png",
+      "7b5b932b5a134dcabaa390139b84c06f-ao-3-Q.svg",
+      "7b5b932b5a134dcabaa390139b84c06f-ao-3-A.svg",
+      "7b5b932b5a134dcabaa390139b84c06f-ao-O.svg"
+    ],
+    "text": "7b5b932b5a134dcabaa390139b84c06f-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586738809782,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::SuperiorMediastinum+RootOfNeck"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpqaz6kzl2.png",
+      "f21671255982419ca726480d80893dca-ao-4-Q.svg",
+      "f21671255982419ca726480d80893dca-ao-4-A.svg",
+      "f21671255982419ca726480d80893dca-ao-O.svg"
+    ],
+    "text": "f21671255982419ca726480d80893dca-ao-4 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586745432833,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::AbdominalWall+Peritoneum+Intestines"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp61t1k_8r.png",
+      "3666b34e06bc469c9c1e57a7aeb361e5-ao-3-Q.svg",
+      "3666b34e06bc469c9c1e57a7aeb361e5-ao-3-A.svg",
+      "3666b34e06bc469c9c1e57a7aeb361e5-ao-O.svg"
+    ],
+    "text": "3666b34e06bc469c9c1e57a7aeb361e5-ao-3 https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-abdominal-wall-peritoneum-and-intestines-images?authuser=0 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586747706546,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::AbdominalWall+Peritoneum+Intestines"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpikdkxl22.png",
+      "a0a0f441b2f14d1d9bb5ecf0274f5ca5-ao-1-Q.svg",
+      "a0a0f441b2f14d1d9bb5ecf0274f5ca5-ao-1-A.svg",
+      "a0a0f441b2f14d1d9bb5ecf0274f5ca5-ao-O.svg"
+    ],
+    "text": "a0a0f441b2f14d1d9bb5ecf0274f5ca5-ao-1 https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-abdominal-wall-peritoneum-and-intestines-images?authuser=0 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586745004203,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Kidneys+UrinarySystem"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpvw9qv_o3.png",
+      "dcf200f5c6494bd5b7c51985ce565151-ao-3-Q.svg",
+      "dcf200f5c6494bd5b7c51985ce565151-ao-3-A.svg",
+      "dcf200f5c6494bd5b7c51985ce565151-ao-O.svg"
+    ],
+    "text": "dcf200f5c6494bd5b7c51985ce565151-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586747875949,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::AbdominalWall+Peritoneum+Intestines"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpncxve0ut.png",
+      "06d56b62bc744c24949491730a6b20b9-ao-3-Q.svg",
+      "06d56b62bc744c24949491730a6b20b9-ao-3-A.svg",
+      "06d56b62bc744c24949491730a6b20b9-ao-O.svg"
+    ],
+    "text": "06d56b62bc744c24949491730a6b20b9-ao-3 https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-abdominal-wall-peritoneum-and-intestines-images?authuser=0 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587335636180,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Orbit+CavernousSinus"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpcjhwij3u.png",
+      "5f5d7b94ff2845808d8dee9cff987acb-ao-7-Q.svg",
+      "5f5d7b94ff2845808d8dee9cff987acb-ao-7-A.svg",
+      "5f5d7b94ff2845808d8dee9cff987acb-ao-O.svg"
+    ],
+    "text": "5f5d7b94ff2845808d8dee9cff987acb-ao-7 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586732904063,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PectoralRegion+SuperficialBack"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp_vktfoez.png",
+      "6e7dd63157f54cef8c794e138d2f2037-ao-1-Q.svg",
+      "6e7dd63157f54cef8c794e138d2f2037-ao-1-A.svg",
+      "6e7dd63157f54cef8c794e138d2f2037-ao-O.svg"
+    ],
+    "text": "6e7dd63157f54cef8c794e138d2f2037-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586732354716,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PectoralRegion+SuperficialBack"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp8wpah64m.png",
+      "f4013f79fa7d4ed2a838e43d393e3753-ao-4-Q.svg",
+      "f4013f79fa7d4ed2a838e43d393e3753-ao-4-A.svg",
+      "f4013f79fa7d4ed2a838e43d393e3753-ao-O.svg"
+    ],
+    "text": "f4013f79fa7d4ed2a838e43d393e3753-ao-4 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587330749935,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::OralCavity"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp8yrdp4rr.png",
+      "c4192ea07fe6432ea222557124e93883-ao-1-Q.svg",
+      "c4192ea07fe6432ea222557124e93883-ao-1-A.svg",
+      "c4192ea07fe6432ea222557124e93883-ao-O.svg"
+    ],
+    "text": "c4192ea07fe6432ea222557124e93883-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587313845528,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Wrist+Hand+Foot"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpzd9qioa5.png",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-5-Q.svg",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-5-A.svg",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-O.svg"
+    ],
+    "text": "223b0f35d6e84bc89fd503f0afe3b35b-ao-5 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586746580747,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::AbdominalWall+Peritoneum+Intestines"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpkb2yr1pa.png",
+      "71e18b4c7aae48d3ba8985ddc7be630b-ao-3-Q.svg",
+      "71e18b4c7aae48d3ba8985ddc7be630b-ao-3-A.svg",
+      "71e18b4c7aae48d3ba8985ddc7be630b-ao-O.svg"
+    ],
+    "text": "71e18b4c7aae48d3ba8985ddc7be630b-ao-3 https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-abdominal-wall-peritoneum-and-intestines-images?authuser=0 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586742075667,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Heart"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpbkyhzfl8.png",
+      "5ee5337845884c77b17327bdc8d52497-ao-3-Q.svg",
+      "5ee5337845884c77b17327bdc8d52497-ao-3-A.svg",
+      "5ee5337845884c77b17327bdc8d52497-ao-O.svg"
+    ],
+    "text": "5ee5337845884c77b17327bdc8d52497-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586742426800,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Lungs+VentilationPathway"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp8e4px28x.png",
+      "77db9ce7cb384a018ade31df1feba7f7-ao-4-Q.svg",
+      "77db9ce7cb384a018ade31df1feba7f7-ao-4-A.svg",
+      "77db9ce7cb384a018ade31df1feba7f7-ao-O.svg"
+    ],
+    "text": "77db9ce7cb384a018ade31df1feba7f7-ao-4 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587326109787,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::ParotidGland+SubmandibularTriangle"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpyffz745z.png",
+      "27971b4721364bf5bde68c096e9711f4-ao-1-Q.svg",
+      "27971b4721364bf5bde68c096e9711f4-ao-1-A.svg",
+      "27971b4721364bf5bde68c096e9711f4-ao-O.svg"
+    ],
+    "text": "27971b4721364bf5bde68c096e9711f4-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586802697901,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Perinium"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp5wdr6rpl.png",
+      "9335cf2f4685462092b7523a7cc6e040-ao-7-Q.svg",
+      "9335cf2f4685462092b7523a7cc6e040-ao-7-A.svg",
+      "9335cf2f4685462092b7523a7cc6e040-ao-O.svg"
+    ],
+    "text": "9335cf2f4685462092b7523a7cc6e040-ao-7 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587319753467,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PosteriorNeck"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpu11l10oy.png",
+      "9a8e560fe82344deba0ea790c5d4136f-ao-1-Q.svg",
+      "9a8e560fe82344deba0ea790c5d4136f-ao-1-A.svg",
+      "9a8e560fe82344deba0ea790c5d4136f-ao-O.svg"
+    ],
+    "text": "9a8e560fe82344deba0ea790c5d4136f-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587325933016,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::ParotidGland+SubmandibularTriangle"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpkrwooihm.png",
+      "fb519be740a04ca0aaf407a5cd6fa501-ao-3-Q.svg",
+      "fb519be740a04ca0aaf407a5cd6fa501-ao-3-A.svg",
+      "fb519be740a04ca0aaf407a5cd6fa501-ao-O.svg"
+    ],
+    "text": "fb519be740a04ca0aaf407a5cd6fa501-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587334742778,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Orbit+CavernousSinus"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp6uxelk3m.png",
+      "5594036c76f741d8bdd51f6dd8a09b25-ao-2-Q.svg",
+      "5594036c76f741d8bdd51f6dd8a09b25-ao-2-A.svg",
+      "5594036c76f741d8bdd51f6dd8a09b25-ao-O.svg"
+    ],
+    "text": "5594036c76f741d8bdd51f6dd8a09b25-ao-2 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586799910409,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PelvicCavity"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmphx66hp2b.png",
+      "8c9c6dafba884e70838e2fe4749de337-ao-3-Q.svg",
+      "8c9c6dafba884e70838e2fe4749de337-ao-3-A.svg",
+      "8c9c6dafba884e70838e2fe4749de337-ao-O.svg"
+    ],
+    "text": "8c9c6dafba884e70838e2fe4749de337-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586798078317,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PelvicCavity"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpgb8g_u04.png",
+      "b7bf9d1934df48d0ac69aaedada8e467-ao-1-Q.svg",
+      "b7bf9d1934df48d0ac69aaedada8e467-ao-1-A.svg",
+      "b7bf9d1934df48d0ac69aaedada8e467-ao-O.svg"
+    ],
+    "text": "b7bf9d1934df48d0ac69aaedada8e467-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586741337824,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Heart"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpfpv_i3gl.png",
+      "771d79534138417c846e2caad206b9c3-ao-3-Q.svg",
+      "771d79534138417c846e2caad206b9c3-ao-3-A.svg",
+      "771d79534138417c846e2caad206b9c3-ao-O.svg"
+    ],
+    "text": "771d79534138417c846e2caad206b9c3-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586812121283,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::BrachialPlexus"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp2k662lp4.png",
+      "061d389e97bd48dea42e23f933a15ec0-ao-2-Q.svg",
+      "061d389e97bd48dea42e23f933a15ec0-ao-2-A.svg",
+      "061d389e97bd48dea42e23f933a15ec0-ao-O.svg"
+    ],
+    "text": "061d389e97bd48dea42e23f933a15ec0-ao-2 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587323070746,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::CranialCavity+VenousSinuses+Brain"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmptogmrqmj.png",
+      "b0b9e99c97c34811a237fc4ac63f1081-ao-3-Q.svg",
+      "b0b9e99c97c34811a237fc4ac63f1081-ao-3-A.svg",
+      "b0b9e99c97c34811a237fc4ac63f1081-ao-O.svg"
+    ],
+    "text": "b0b9e99c97c34811a237fc4ac63f1081-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586741703484,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Heart"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp3x502rvf.png",
+      "0e4c2e43500b49e9803977a240374989-ao-1-Q.svg",
+      "0e4c2e43500b49e9803977a240374989-ao-1-A.svg",
+      "0e4c2e43500b49e9803977a240374989-ao-O.svg"
+    ],
+    "text": "0e4c2e43500b49e9803977a240374989-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586744316453,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PosteriorMediastinum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp5g0jg4gc.png",
+      "637f0ea3c9854b43877e933dba8966b6-ao-2-Q.svg",
+      "637f0ea3c9854b43877e933dba8966b6-ao-2-A.svg",
+      "637f0ea3c9854b43877e933dba8966b6-ao-O.svg"
+    ],
+    "text": "637f0ea3c9854b43877e933dba8966b6-ao-2 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586814771214,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Bones+Joints+Movement"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpd7wscran.png",
+      "f0c18dea88934bebb07d3ecc573717c6-ao-1-Q.svg",
+      "f0c18dea88934bebb07d3ecc573717c6-ao-1-A.svg",
+      "f0c18dea88934bebb07d3ecc573717c6-ao-O.svg"
+    ],
+    "text": "f0c18dea88934bebb07d3ecc573717c6-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587321001500,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Pharynx+Larynx"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmp0o925nzd.png",
+      "09531042c6bd4191b0a38a7e9e4ff249-ao-3-Q.svg",
+      "09531042c6bd4191b0a38a7e9e4ff249-ao-3-A.svg",
+      "09531042c6bd4191b0a38a7e9e4ff249-ao-O.svg"
+    ],
+    "text": "09531042c6bd4191b0a38a7e9e4ff249-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586742286162,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Lungs+VentilationPathway"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmplnlyalhl.png",
+      "eb478e2737bc40528cb7b824fcc3c3df-ao-2-Q.svg",
+      "eb478e2737bc40528cb7b824fcc3c3df-ao-2-A.svg",
+      "eb478e2737bc40528cb7b824fcc3c3df-ao-O.svg"
+    ],
+    "text": "eb478e2737bc40528cb7b824fcc3c3df-ao-2 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587323323471,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::CranialCavity+VenousSinuses+Brain"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpnariru05.png",
+      "c6dec1174f6f4408a413c947c2ed7738-ao-5-Q.svg",
+      "c6dec1174f6f4408a413c947c2ed7738-ao-5-A.svg",
+      "c6dec1174f6f4408a413c947c2ed7738-ao-O.svg"
+    ],
+    "text": "c6dec1174f6f4408a413c947c2ed7738-ao-5 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586742211574,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Lungs+VentilationPathway"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpo3md2eh7.png",
+      "e399599a19ff467781a3c0ec1066c986-ao-1-Q.svg",
+      "e399599a19ff467781a3c0ec1066c986-ao-1-A.svg",
+      "e399599a19ff467781a3c0ec1066c986-ao-O.svg"
+    ],
+    "text": "e399599a19ff467781a3c0ec1066c986-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587313845438,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Wrist+Hand+Foot"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpzd9qioa5.png",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-3-Q.svg",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-3-A.svg",
+      "223b0f35d6e84bc89fd503f0afe3b35b-ao-O.svg"
+    ],
+    "text": "223b0f35d6e84bc89fd503f0afe3b35b-ao-3 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1587332746890,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Mastication"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpw9dgsxpm.png",
+      "1e4046f244f54f948f9075b0086073e7-ao-2-Q.svg",
+      "1e4046f244f54f948f9075b0086073e7-ao-2-A.svg",
+      "1e4046f244f54f948f9075b0086073e7-ao-O.svg"
+    ],
+    "text": "1e4046f244f54f948f9075b0086073e7-ao-2 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586798161626,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::PelvicCavity"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpapxwfzgr.png",
+      "e6cde715e85842c2ba20951f9c33fb38-ao-1-Q.svg",
+      "e6cde715e85842c2ba20951f9c33fb38-ao-1-A.svg",
+      "e6cde715e85842c2ba20951f9c33fb38-ao-O.svg"
+    ],
+    "text": "e6cde715e85842c2ba20951f9c33fb38-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "BlueLink",
+    "note_id": 1586740562103,
+    "model": "Image Occlusion Enhanced+",
+    "tags": [
+      "BlueLink::Heart"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "tmpdnyixd8d.png",
+      "47b59d2c6234435e9f6ddc3485859845-ao-1-Q.svg",
+      "47b59d2c6234435e9f6ddc3485859845-ao-1-A.svg",
+      "47b59d2c6234435e9f6ddc3485859845-ao-O.svg"
+    ],
+    "text": "47b59d2c6234435e9f6ddc3485859845-ao-1 | [img] | [img] | Picture © Copyright 2014-2018 B. Kathleen Alsup & Glenn M. Fox. All rights reserved. https://sites.google.com/a/umich.edu/bluelink/resources/bluelink?authuser=0 | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1783972289693,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Thorax",
+      "NEBLI::anato-05-circ-linf-I",
+      "NEBLI::from-Dope"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Left_Atrium_and_Ventricle-Section_with_Mitral_Valve_Cut_Away24.jpg"
+    ],
+    "text": "Left Atrium and Ventricle: Section with Mitral Valve Cut Away | [img] | Clinical: Valvular heart disease can arise from a variety of conditions (stenosis, rupture of papillary muscles or chordae tendineae, malformed valve leaflets) and most often involves either the mitral or the aortic valves. The major blood supply to the interventricular septum is via the left anterior descending branch of the left coronary artery. Ischaemia of the interventricular septum may compromise the Purkinje conductio"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1468575809308,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "25384ec10e59d3c6e3dbf4da1ae67492a060200a_Q 2.svg",
+      "25384ec10e59d3c6e3dbf4da1ae67492a060200a_A 2.svg",
+      "25384ec10e59d3c6e3dbf4da1ae67492a060200a_source_svg.svg",
+      "25384ec10e59d3c6e3dbf4da1ae67492a060200a_tmpNrAOTr.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Extra-Hepatic Biliary System: Anterior View of the Gallbladder and Duodenum ; Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466834370291,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "10ca36f7d483729257b88e35d7359da10ca2a304_Q 2.svg",
+      "10ca36f7d483729257b88e35d7359da10ca2a304_A 2.svg",
+      "10ca36f7d483729257b88e35d7359da10ca2a304_source_svg.svg",
+      "10ca36f7d483729257b88e35d7359da10ca2a304_tmp_g7wpm.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Arterial Supply of the GIT : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462423157874,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "4d753b8d94bcd9088fa55c2102e08223e7eb840a_Q 1.svg",
+      "4d753b8d94bcd9088fa55c2102e08223e7eb840a_A 1.svg",
+      "4d753b8d94bcd9088fa55c2102e08223e7eb840a_source_svg.svg",
+      "4d753b8d94bcd9088fa55c2102e08223e7eb840a_tmps3UZJe.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Diaphragm and Upper Posterior Abdominal Wall: Anterior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466648050422,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "ffe203489c746662f64c0766638d279740586824_Q 4.svg",
+      "ffe203489c746662f64c0766638d279740586824_A 4.svg",
+      "ffe203489c746662f64c0766638d279740586824_source_svg.svg",
+      "ffe203489c746662f64c0766638d279740586824_tmp8ntgjK.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Kidney: External Features; Posterior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462432246501,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "72386b4d8b54d2b46891025638edc4acb2d92642_Q 2.svg",
+      "72386b4d8b54d2b46891025638edc4acb2d92642_A 2.svg",
+      "72386b4d8b54d2b46891025638edc4acb2d92642_source_svg.svg",
+      "72386b4d8b54d2b46891025638edc4acb2d92642_tmpWY8fly.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Abdomen: Anterior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466648440723,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "9d747b2fba98f5de6d7ce2cc4b7fabd5fc740a26_Q 6.svg",
+      "9d747b2fba98f5de6d7ce2cc4b7fabd5fc740a26_A 6.svg",
+      "9d747b2fba98f5de6d7ce2cc4b7fabd5fc740a26_source_svg.svg",
+      "9d747b2fba98f5de6d7ce2cc4b7fabd5fc740a26_tmpf99MEf.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Kidney: Internal Features; Posterior view, midlongitudinal section : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1467011257167,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "38f6d7875e3195bdaee448d2cb6917f3ae4994af_Q 3 (9).svg",
+      "38f6d7875e3195bdaee448d2cb6917f3ae4994af_A 3 (5).svg",
+      "38f6d7875e3195bdaee448d2cb6917f3ae4994af_source_svg (5).svg",
+      "38f6d7875e3195bdaee448d2cb6917f3ae4994af_tmp3xwk3m.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1463661948088,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "985fb0263dff43309fe9fc176b054e3638105d53_Q 3.svg",
+      "985fb0263dff43309fe9fc176b054e3638105d53_A 3.svg",
+      "985fb0263dff43309fe9fc176b054e3638105d53_source_svg.svg",
+      "985fb0263dff43309fe9fc176b054e3638105d53_tmpvC_IGJ.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Inguino-Femoral Region: Medial View of Sagittal Section ; Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462414262352,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_Q 10.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_A 10.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_source_svg.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_tmpjqOlqK.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Diaphragm: Inferior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466647877744,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "e5f83efae0bbbfaa7373f02f72d41812fd085433_Q 6.svg",
+      "e5f83efae0bbbfaa7373f02f72d41812fd085433_A 6.svg",
+      "e5f83efae0bbbfaa7373f02f72d41812fd085433_source_svg.svg",
+      "e5f83efae0bbbfaa7373f02f72d41812fd085433_tmpqZcmra.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Kidney: External Features; Anterior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1461962581720,
+    "model": "Cloze deletion",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Thorax"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "The inferior pancreaticoduodenal artery arises from the SMA."
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462412668776,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "1695b2caf89e2607ae5f87ae2257b356a12254c9_Q 9.svg",
+      "1695b2caf89e2607ae5f87ae2257b356a12254c9_A 9.svg",
+      "1695b2caf89e2607ae5f87ae2257b356a12254c9_source_svg.svg",
+      "1695b2caf89e2607ae5f87ae2257b356a12254c9_tmpVpn1vx.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Muscles of the abdominal wall: External oblique and pectoralis major removed : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462422913501,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "af81bff106e9dbe9f9b2659776bec72f5c9d3b74_Q 3.svg",
+      "af81bff106e9dbe9f9b2659776bec72f5c9d3b74_A 3.svg",
+      "af81bff106e9dbe9f9b2659776bec72f5c9d3b74_source_svg.svg",
+      "af81bff106e9dbe9f9b2659776bec72f5c9d3b74_tmpEm5_2a.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Diaphragm: Inferior View : Name the occluded structures and Contents of the hiatuses:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462423320703,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "206915e7b0fa9b53a2bc9715a8cdb5bfa8c223ee_Q 3.svg",
+      "206915e7b0fa9b53a2bc9715a8cdb5bfa8c223ee_A 3.svg",
+      "206915e7b0fa9b53a2bc9715a8cdb5bfa8c223ee_source_svg.svg",
+      "206915e7b0fa9b53a2bc9715a8cdb5bfa8c223ee_tmp8Gkp0x.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Nerves of the Abdomen: Anterior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1469067773632,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "f2458fa1dc12acfc187c1b5ce8f111b94ba14d10_Q 5.svg",
+      "f2458fa1dc12acfc187c1b5ce8f111b94ba14d10_A 5.svg",
+      "f2458fa1dc12acfc187c1b5ce8f111b94ba14d10_source_svg.svg",
+      "f2458fa1dc12acfc187c1b5ce8f111b94ba14d10_tmpaonsra.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1467011713910,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "d540e2fd69249d6baf2aefbe3fa4f8f86f18734e_Q 2.svg",
+      "d540e2fd69249d6baf2aefbe3fa4f8f86f18734e_A 2.svg",
+      "d540e2fd69249d6baf2aefbe3fa4f8f86f18734e_source_svg.svg",
+      "d540e2fd69249d6baf2aefbe3fa4f8f86f18734e_tmp4rmzpd.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466335964351,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "ae331d4c3fd24d4effaa288284ed4d76fce84068_Q 7.svg",
+      "ae331d4c3fd24d4effaa288284ed4d76fce84068_A 7.svg",
+      "ae331d4c3fd24d4effaa288284ed4d76fce84068_source_svg.svg",
+      "ae331d4c3fd24d4effaa288284ed4d76fce84068_tmp7ou2k8.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488376,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Abdomen"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Arteries_of_Stomach_Liver_and_Spleen14.jpg"
+    ],
+    "text": "Arteries of Stomach, Liver, and Spleen | [img] | Clinical: This epigastric region of the abdominal cavity is clinically important because pain secondary to pathophysiologic processes is common in this area. Vital structures, such as the stomach, duodenum, spleen, pancreas, liver, and gallbladder, all reside in this general region or refer pain to this region and to dermatomes related to the T5-9 or T10 spinal levels. Because so many structures and vessels are in this epigastric region, physician"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488454,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Upper_Limb"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Individual_Muscles_of_Forearm_531.jpg"
+    ],
+    "text": "Individual Muscles of Forearm 5 | [img] | Clinical: This muscle is tested clinically by having the patient flex their distal interphalangeal (DIP) joint against resistance, where the physician places his/her thumb and index finger on the proximal interphalangeal joint of the tested finger to keep it in extension and then holds the tip of the finger to provide resistance to flexion of the DIP joint. | Origin (proximal): Arises from the proximal three fourths of the medial and anterior aspects of "
+  },
+  {
+    "source": "Dope",
+    "note_id": 1469067846891,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "4fe3f2a68967e6b53331f5970835ddc8a7789d23_Q 4.svg",
+      "4fe3f2a68967e6b53331f5970835ddc8a7789d23_A 4.svg",
+      "4fe3f2a68967e6b53331f5970835ddc8a7789d23_source_svg.svg",
+      "4fe3f2a68967e6b53331f5970835ddc8a7789d23_tmpjnfkyi.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1467008273431,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "b3a6d112f9ea7c5fe412e1d6b0a935e594c31deb_Q 19.svg",
+      "b3a6d112f9ea7c5fe412e1d6b0a935e594c31deb_A 19.svg",
+      "b3a6d112f9ea7c5fe412e1d6b0a935e594c31deb_source_svg.svg",
+      "b3a6d112f9ea7c5fe412e1d6b0a935e594c31deb_tmpirocsm.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488669,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Head_and_Neck"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Superficial_Veins_and_Arteries_of_Neck67.jpg"
+    ],
+    "text": "Superficial Veins and Arteries of Neck | [img] | Clinical: Physicians use the internal jugular vein on the right side to assess the jugular venous pulse, which provides an indication of the venous pressure in the right atrium of the heart. If the wave-form pattern of the pulse is abnormal it may indicate some pathology associated with right-sided congestive heart failure, a tricuspid valve problem, or some other abnormality. | Comment: Superficial veins of the neck include the external jugular v"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1461961671048,
+    "model": "Cloze deletion",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Thorax"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "The lower third of the oesophagus is drained by the left gastric vein. | Oesophageal vein > left gastric v > hepatic portal vein"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1462414262364,
+    "model": "Image Q/A - 2.0.2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_Q 16.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_A 16.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_source_svg.svg",
+      "565c3372f41d94342efaf7e3e94cde826e03ae2b_tmpjqOlqK.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Diaphragm: Inferior View : Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488689,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Thorax"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Veins_of_Posterior_Abdominal_Wall18.jpg"
+    ],
+    "text": "Veins of Posterior Abdominal Wall | [img] | Clinical: Veins are quite variable in number and arrangement, and possess numerous connections with veins lying superficial or deep, as well as with veins of specialized systems such as the portal system draining the GI tract. These veins do not have valves and blood flow may occur in either direction depending upon the pressure gradient propelling the blood. | Comment: The inferior vena cava pierces the diaphragm at the level of the T8 vertebra and en"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1466341312599,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "66921da2e8a5f6152f6669048e49488e8db743b0_Q 3.svg",
+      "66921da2e8a5f6152f6669048e49488e8db743b0_A 3.svg",
+      "66921da2e8a5f6152f6669048e49488e8db743b0_source_svg.svg",
+      "66921da2e8a5f6152f6669048e49488e8db743b0_tmpoartwu.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1480921932589,
+    "model": "Image Occlusion Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Pelvis_and_Perineum"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "5a1f2302b5a04cd8b541fe3ed770ae39_IMG_2412.JPG",
+      "5a1f2302b5a04cd8b541fe3ed770ae39-ao-21-Q.svg",
+      "5a1f2302b5a04cd8b541fe3ed770ae39-ao-21-A.svg",
+      "5a1f2302b5a04cd8b541fe3ed770ae39-ao-O.svg"
+    ],
+    "text": "5a1f2302b5a04cd8b541fe3ed770ae39-ao-21 | Inguinal region anatomy | [img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1468574794899,
+    "model": "Image Q/A - 2.0 Enhanced-7c883",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "a935a4d2d95701120219aa402f4662b58645d7f3_Q 19.svg",
+      "a935a4d2d95701120219aa402f4662b58645d7f3_A 19.svg",
+      "a935a4d2d95701120219aa402f4662b58645d7f3_source_svg.svg",
+      "a935a4d2d95701120219aa402f4662b58645d7f3_tmpJpiDD3.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | Liver: Posterior View ; Name the occluded:"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1461961826450,
+    "model": "Cloze deletion",
+    "tags": [
+      "Dope::Anatomy::Mixed_Bag",
+      "Dope::Anatomy::Thorax"
+    ],
+    "image_count": 0,
+    "image_srcs": [],
+    "text": "The middle oesophagus is drained by the superior and posterior mediastinal nodes"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488489,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Lower_Limb"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Lumbar_Plexus61.jpg"
+    ],
+    "text": "Lumbar Plexus | [img] | Comment: Nerves of the lumbar plexus arise from the ventral rami of L1-4. These nerves, along with the subcostal nerve (T12), innervate the muscles of the lower trunk and send branches to muscles of the anterior and medial compartments of the thigh (femoral and obturator nerves). The femoral nerve arises from L2, L3, and L4 and innervates the extensors of the knee. Likewise, the obturator nerve arises from L2, L3, and L4. In the thigh, it innervates the medial compartment"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1469068541316,
+    "model": "Image Q/A - 2.0 Enhanced 2",
+    "tags": [
+      "Dope::Anatomy::Abdomen",
+      "Dope::Anatomy::Mixed_Bag"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "858026de5f0a23e95d4f930ceea6f1e9fbe50831_Q 6.svg",
+      "858026de5f0a23e95d4f930ceea6f1e9fbe50831_A 6.svg",
+      "858026de5f0a23e95d4f930ceea6f1e9fbe50831_source_svg.svg",
+      "858026de5f0a23e95d4f930ceea6f1e9fbe50831_tmpqiavqe.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1783972597290,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Thorax",
+      "NEBLI::anato-06-circ-linf-II",
+      "NEBLI::from-Dope"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Azygos_Venous_System15.jpg"
+    ],
+    "text": "Azygos Venous System | [img] | Clinical: The azygos venous system forms an important venous conduit between the inferior vena cava and the superior vena cava. These veins do not contain valves, so blood flow may occur in different directions depending on where the pressure is highest. Via its connections with the left gastric vein in the abdomen, the azygos system is an important component of the portocaval anastomosis in conditions like portal hypertension. | Comment: The azygos venous system l"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488470,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Upper_Limb"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Intrinsic_Muscles_of_Hand_754.jpg"
+    ],
+    "text": "Intrinsic Muscles of Hand 7 | [img] | Clinical: The palmar interossei are tested clinically by placing a sheet of paper between two adjacent fingers and, with the patient holding the paper between their adducted fingers, the physician tries to pull the paper away. With weakened adduction, the patient will have difficulty holding the sheet of paper between their fingers. | Comment: The 3 unipennate palmar interossei are smaller than the 4 dorsal interossei. | Origin (proximal): The 3 palmar inter"
+  },
+  {
+    "source": "Dope",
+    "note_id": 1349477488439,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Abdomen"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Greater_Omentum_and_Abdominal_Viscera20.jpg"
+    ],
+    "text": "Greater Omentum and Abdominal Viscera | [img] | Clinical: If a portion of the peritoneal cavity or its contents becomes inflamed, the greater omentum can migrate to the site of inflammation and wall off the site by forming an adhesion, potentially protecting the remainder of the cavity. Because of its ability to wall off an infection site, the greater omentum is sometimes referred to as the abdomen's policeman. Also, the greater omentum often is a site for the metastatic spread of cancer from mu"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701472047589,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Blood"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "51e806da988202b5c087d3889a33ad80.webp"
+    ],
+    "text": "Blood as a Transport System Primary Functions : Blood serves as a key distributing vehicle for various substances throughout the body. Transported Substances Oxygen (O2) : Mainly bound to hemoglobin in erythrocytes (red blood cells). Higher concentration in arterial blood than in venous blood. Carbon Dioxide (CO2) : Carried in solution mainly as bicarbonate (HCO3–) and also as dissolved CO2. Can also be bound to hemoglobin. Nutrients : Distributed from synthesis sites or absorption areas in the "
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703596335185,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Respiratory"
+    ],
+    "image_count": 19,
+    "image_srcs": [
+      "72304df5eabce0a6f9fcfb509dfdfd40.webp",
+      "b3cf7a150d2d3e747d99b8fe54b9d54a.webp",
+      "073a1471bd42f31cdd86ec2e2ba5f192.webp",
+      "e91efb9ae0bf18eee3ebfe7677684b96.webp",
+      "df95aef8724f6b61f9d382eb52b92480.webp"
+    ],
+    "text": "Surfactant Layer in Alveoli: Composition and Functions Surfactant in Fetal Development In fetuses, surfactant production begins in the last weeks of gestation as type II cells differentiate . Lack of adequate surfactant is a major factor in respiratory distress in premature neonates. | Alveoli : Small air sacs in the lungs where gas exchange occurs. Cholesterol : A lipid molecule that is part of the cell membrane and can be involved in surfactant composition. Dipalmitoylphosphatidylcholine (DPPC"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701899030737,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::CirculatorySystem"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "3070aa3e1facf1431f1c8bcfa8b44a9b.webp"
+    ],
+    "text": "Capillary Structure and Function Capillaries are the smallest blood vessels and operate in networks called capillary beds . The size and shape of capillary beds conform to the structure they supply. Capillary bed density is directly related to the metabolic activity of the tissues. Tissues with high metabolic rates (e.g., kidney, liver, cardiac and skeletal muscle) have abundant capillaries . Tissues with low metabolic rates (e.g., smooth muscle, dense connective tissue) have fewer capillaries ."
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701810821751,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::NervousSystem"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "93852e2af019bf5208acb5af57134014.webp",
+      "fb2c2bf6325bdec9791a0a906150a8ad.webp",
+      "85e21a9df1d11bf1f9f88aae892df216.webp"
+    ],
+    "text": "Astrocytes in the CNS Overview Astrocytes are a distinct type of glial cell in the CNS, named for their star-like shape. Astrocytes are unique to the CNS, like oligodendrocytes. Structure Long Radiating Processes : Astrocytes have numerous branching processes. Proximal regions of Astrocyte processes contain bundles of intermediate filaments composed of glial fibrillary acid protein (GFAP) , a specific marker for astrocytes. The distal parts of Astrocyte processes lack GFAP, form a vast network ,"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701441092731,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Bone"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "22b8bfc802f5979a3c06ed2084777fc4.webp",
+      "48a778090b5b9bfcc40455c69b91e8fb.webp",
+      "219083ffeb792c3bcb741b75b1d27232.webp",
+      "018ddcf51510e9ad19474c58556ab448.webp"
+    ],
+    "text": "Epiphyseal Growth Plate Zones (Enchondral ossification) The epiphyseal growth plate is divided into distinct zones, each with specific cellular activities and characteristics: Zone of Reserve (Resting) Cartilage : Composed of typical hyaline cartilage . Farthest from the primary ossification center in the diaphysis . Proliferative Zone : Cartilage cells divide repeatedly. Cells enlarge and secrete more type II collagen and proteoglycans . Cells become organized into columns parallel to the bone'"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702327996141,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTractAssociatedOrgans"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "6c52ac27193a9c805861d813e5713fbd.webp",
+      "c605308abb0dc36ddff69431110b97fa.webp",
+      "3eadde13c79d9db8e6389c0f4c45be14.webp",
+      "506d173723a40b7b13d5fdabe1929067.webp",
+      "44838ab29748d5313a0d9325218d12ee.webp"
+    ],
+    "text": "Hepatocyte Functional Domains and Bile Secretion Sinusoidal (Basolateral) Domains Functions : Process nutrients and other blood components. Secrete plasma proteins. Apical Surfaces and Bile Canaliculi Role in Exocrine Secretion : The apical surfaces form bile canaliculi, crucial for bile secretion . Hepatocyte Adherence : Hepatocytes adhere firmly with desmosomes and junctional complexes . Canaliculus Formation : Apical surfaces of two adherent hepatocytes form a grooved canaliculus, sealed by t"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701437736338,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Bone"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "c8b1c74c7130246b23663874f91ab60a.webp",
+      "38fb2d1cd4a89153b8f5c1d8f2a36268.webp",
+      "774380ee0222905470ce770131f3a9ff.webp",
+      "f29c64150c51fdafd32ef00ce66facc7.webp"
+    ],
+    "text": "Osteon Structure and Orientation Osteons are long, sometimes bifurcated cylinders. Aligned parallel to the long axis of the diaphysis . Each osteon contains 5-20 concentric lamellae around a central canal . The central canal connects with the marrow cavity and the periosteum . | Central Canal : A channel in the center of an osteon, containing blood vessels and nerves. Circumferential Lamellae : Lamellae that run around the outer and inner surfaces of a bone. Diaphysis : The shaft of a long bone."
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701956648510,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ImmuneSystem"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "d7eb563513a263ca2d713569b2684ea4.webp",
+      "0c0b6a67436f28319de12d1a857e3163.webp"
+    ],
+    "text": "Lymphocyte Function and Development in Adaptive Immunity Mobility and Distribution Lymphocytes are highly mobile , continuously circulating through connective tissues, blood, and lymph . The location and distribution of lymphocytes and APCs in lymphoid organs vary daily. However, the relative percentages of T and B lymphocytes remain relatively const ant in these compartments: (table) Spleen: slightly more B Lymph nodes:: slightly more T Blood: much more T B one marrow: B ( very few T) T hymus: "
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701368604309,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::AdiposeTissue"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "5c4d8499c106f59a391e24894f1d716d.webp",
+      "8395d03635a990574d71327fa0311075.webp"
+    ],
+    "text": "White fat is subdivided into incom plete lobules by connective tissue partitions containing vascular beds and nerve networks . Fibroblasts, macrophages, and other cells make up about half the total cell number in white adipose tissue. Reticular fibers form a network supporting individual fat cells and binding them together. The microvasculature between adipocytes may not be apparent in tissue sections. | Cytoplasmic Organelles : Structures within a cell, each having specific functions, like mito"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702853861599,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Eye"
+    ],
+    "image_count": 14,
+    "image_srcs": [
+      "467e4624c93f3aa96979e23a7b8ab876.webp",
+      "afb5ab2d6e92d7d6eef95ae1aa53ef63.webp",
+      "31b844bbaf7b137d95b8291563286abb.webp",
+      "4914eb8a7afd4e81c2135f05c48c9f2c.webp",
+      "72f50f994f2c1ea605cbcde2d207c02b.webp"
+    ],
+    "text": "Path of Light Through the Retina Light traverses through all layers of the neural retina before reaching the photoreceptor layer (rods and cones). | Astrocytes : Glial cells in the CNS that provide support and maintain the blood-brain barrier, also found in the retina. Central Retinal Artery and Vein : Blood vessels supplying the retina, critical for its oxygenation and nutrient needs. Ganglionic Layer (GL) : A layer in the retina containing the cell bodies of ganglion cells. Light Microscopy : "
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701988119016,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ImmuneSystem"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "73267ef06534276a9e2b5f05929f05a5.webp",
+      "c323058a747ab6fa8dffb3fc5810cb69.webp"
+    ],
+    "text": "Parenchyma and White Pulp Structure The arterioles branching from trabecular arteries at the hilum are enveloped by periarteriolar lymphoid sheaths (PALS) . PALS predominantly contain T cells , along with some macrophages , dendritic cells (DCs) , and plasma cells . This structure is part of the spleen's white pulp . The vessels within the PALS are termed central arterioles . | Microvasculature : The smallest blood vessels in the body, including arterioles, capillaries, and venules. Trabecular a"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702033910136,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::EndocrineGlands"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "3c5c2eabd6420f2168af5bde0302c6e4.webp"
+    ],
+    "text": "Modes of Hormone Action in Endocrine System Hormones are distributed by the circulation system to act on distant target cells that possess specific receptors. Some endocrine cells produce hormones that act on nearby target cells , involving either paracrine or juxtacrine secretion. Paracrine secretion involves hormone dispersal in interstitial fluid or short blood vessel loops, like gastrin affecting fundic glands . In juxtacrine secretion , signaling molecules remain on the cell’s surface or ad"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703073148301,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Urinary"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "bdbcfa2f5f788faee1501b0e83c27ff0.webp"
+    ],
+    "text": "Kidney Function: Gluconeogenesis during Starvation Conducts gluconeogenesis during periods of starvation or prolonged fasting . Makes glucose from amino acids , supplementing this process in the liver . | Acid-base balance : Regulation of the pH level in body fluids. Angiotensinogen : A precursor protein in blood pressure regulation. Electrolytes : Charged minerals essential for various bodily functions. Erythropoietin : A glycoprotein growth factor that stimulates the production of red blood ce"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702329176155,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTractAssociatedOrgans"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "d2e6886ea9fde69809ad52b7aabc13ec.webp",
+      "44838ab29748d5313a0d9325218d12ee.webp",
+      "6c52ac27193a9c805861d813e5713fbd.webp",
+      "506d173723a40b7b13d5fdabe1929067.webp"
+    ],
+    "text": "Hepatic Bile Secretion and Composition Bile Secretion by Hepatocytes Continuous Secretion : Hepatocytes continuously secrete bile into the canaliculi . Composition : Bile is composed of bile acids, bile salts, electrolytes, fatty acids, phospholipids, cholesterol, and bilirubin. Synthesis and Uptake : Some components are synthesized in the smooth endoplasmic reticulum (SER) of hepatocytes, while most are taken up from the perisinusoidal space. | Albumin : A protein in blood plasma that transport"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701971884045,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ImmuneSystem"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "353da0f194a8bb5457669b86539ea540.webp"
+    ],
+    "text": "Positive Selection of Thymocytes Positive selection examines thymocytes: A cell's survival depends on its TCRs' ability to recognize and bind anti gens on MHC molecules. Failure in this test, often due to faulty gene recombination of α and β chains, leads to non-functional cells. Approximately 80% of cells may fail this test. | Apoptosis : Programmed cell death, a process by which cells self-destruct when they are no longer needed or are damaged. Cytoreticulum : The network of epithelial cells i"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702220517802,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTract"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "78676d4170092859b9a61d03c992e378.webp",
+      "a66ad2c7955fb8ca4c079ca9af584855.webp",
+      "c043ebef6e86df181f0cdf044b1329a2.webp"
+    ],
+    "text": "Enteroendocrine Cells: Function and Classification Tubular Glands in the Stomach Location : Cardia and pylorus regions. Structure : Long pits branching into coiled secretory portions. Types : Cardiac Glands : Secrete mucus in the cardia region. Pyloric Glands : Secrete mucus in the pylorus region. Composition : Lack parietal and chief cells, primarily mucus-secreting. | Cardiac Glands : Tubular glands in the cardia region of the stomach, primarily secreting mucus. Chemoreceptors : Sensory recept"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701872728612,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::NervousSystem"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "c3c9b305727053b7203d4b460909f8e9.webp"
+    ],
+    "text": "Process of Axonal Regeneration Chromatolysis : The cell body (perikaryon) swells. Nissl substance (rough endoplasmic reticulum) diminishes. The nucleus moves to a peripheral position within the cell body. Degeneration and Regrowth : The proximal axon segment near the injury site degenerates slightly but then starts to regrow. New Nissl substance forms as debris is removed. Guidance by Schwann Cells : Newly formed Schwann cells align to guide regrowing axons. These cells produce factors that enco"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701788537959,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::NervousSystem"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "9ea354ca45287d9ea2dfd1fd794ea4cb.webp"
+    ],
+    "text": "Neuron Types and Classification Size and Shape Variation Neuron sizes vary significantly. Large Neurons : Can measure up to 150 μm in diameter. Small Neurons : Such as those in the cerebellar granular layer, are among the smallest cells in the body. | Multipolar Neurons: Neurons with multiple extensions (one axon and multiple dendrites). Bipolar Neurons: Neurons with two extensions (one axon and one dendrite), typically sensory neurons. Unipolar/Pseudounipolar Neurons: Sensory neurons with a sin"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701537833267,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Hemopoiesis"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "a0570fa33063c3c2818804d219860c6c.webp"
+    ],
+    "text": "Hemopoiesis: Overview and Developmental Stages Definition and Early Development Hemopoiesis (Hematopoiesis) : The process of forming new blood cells. In the early embryo , blood cells originate in the yolk sac mesoderm. | Hemopoiesis (Hematopoiesis): The process of forming new blood cells in the body. Yolk Sac Mesoderm: An early embryonic structure where the first blood cells are formed. Erythrocytes: Red blood cells, responsible for carrying oxygen. Granulocytes: A type of white blood cell invo"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701534943402,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Blood"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "9ff6b84b7620ab869fe0783139366bf0.webp",
+      "36216b2757d86da140c07fb58ab8f439.webp"
+    ],
+    "text": "Platelet Appearance in Blood Smears In stained blood smears, platelets often appear in clumps . An individual platelet has a discoid shape with a lightly stained peripheral zone (hyalomere) and a darker -staining central zone (granulomere) rich in granules. A sparse glycocalyx surrounds the platelet plasmalemma , playing a role in adhesion and activation during blood coagulation . | Blood Platelets/Thrombocytes: Small, non-nucleated fragments in the blood, playing a key role in clotting and woun"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703415917902,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::FemaleReproductive"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "b4ec5e006468555ed14e69b93629a758.webp"
+    ],
+    "text": "Overview of the Female Reproductive System Hormonal Control and Menstrual Cycle Menarche : The onset of menstruation , marking the beginning of reproductive capability . The reproductive system experiences monthly structural and functional changes , regulated by neurohormonal mechanisms. Menopause : The period when menstrual cycles become irregular and eventually cease , leading to the end of reproductive capability . Postmenopausal Period : A phase of gradual involution (shrinkage) of reproduct"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701986866519,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ImmuneSystem"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "84bd310d0b884ff66eaf15c49bc0a166.webp",
+      "4fec3b7870196676ce8e6557f443ef44.webp",
+      "4b872b7aa63280e3436fa872f780bd26.webp",
+      "4dfd5f592031e47ef0d922f48d172b81.webp",
+      "d0ececaa46fe7e4bba9124b18591ccfd.webp"
+    ],
+    "text": "Lymph Arrival at Lymph Nodes Contents of Lymph : Antigens free in solution or bound to antibodies or complement . Antigens still on micro organisms or transported by APCs (Antigen-Presenting Cells) . In cases of infection or inflammation , lymph may also contain microorganisms and cytokines . | Antigen-Presenting Cells (APCs) : Cells that process and present antigens on their surface for recognition by T cells. Common APCs include dendritic cells, macrophages, and B cells. They are essential for"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702222533504,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTract"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "323bf3a3c00aaf4146d11e3f1aad48b5.webp",
+      "61c046678c4269035ed102ab7c9bca75.webp"
+    ],
+    "text": "Small Intestine: Structure and Function Mucosa Plicae Circulares : Permanent circular or semilunar folds of mucosa and submucosa. Best developed in the jejunum. Villi : Description : Short (0.5-1.5 mm) mucosal outgrowths projecting into the lumen . Coverage : Dense covering over the entire mucosa of the small intestine. Structure : Finger- or leaflike projections. Epithelial Lining : Type : Simple columnar epithelium. Cells : Absorptive cells (enterocytes) with interspersed goblet cells. Villus "
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702295470039,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTractAssociatedOrgans"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "bbbae7e7c346a65646d42a2919742ce3.webp",
+      "09b1a4ed4f6059189a53ef4cad0f4753.webp",
+      "f212993eaf20f33cb7de226a6ff11b6d.webp",
+      "64488be5c84f06ac3036fdb6d536e599.webp"
+    ],
+    "text": "Salivary Glands: Intralobular Duct System IgA Secretion and Function Plasma cells in the connective tissue around the intralobular ducts release IgA . IgA forms a complex with the secretory component synthesized by epithelial cells of serous acini and intralobular ducts. The IgA complex transferred into saliva provides defense against pathogens in the oral cavity. | Acini : The secretory units in salivary glands, responsible for producing initial saliva. Basolateral Membrane : The part of the ce"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703346155647,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::MaleReproductive"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "d877bd937a118c610f6b37c6a815129f.webp",
+      "4ca763823ff460bb8c79767597a17c03.webp",
+      "d0a8d02026c9e2eebae1f22a8cf732df.webp",
+      "e370fbb953062e889b58bd581aa92d56.webp",
+      "d30e07853fa4c304921b190820e51d48.webp"
+    ],
+    "text": "Type B Spermatogonia to Primary Spermatocytes Each Type B spermatogonium undergoes a final mitotic division , resulting in two larger cells known as primary spermatocytes . Primary spermatocytes are spherical cells with euchromatic nuclei , indicating active gene expression . These cells replicate their DNA, so each chromosome has duplicate chromatids, preparing for meiosis. | Chromatid : One of two identical halves of a replicated chromosome. Diploid Number (2N) : The total number of chromosome"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701362256917,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ConnectiveTissue"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "f3ba62665340a1f73284bcc1cf3dd294.webp",
+      "309a9e9bca63a7a510d59ebb99fd8e55.webp"
+    ],
+    "text": "Dense Regular Connective Tissue Dense regular connective tissue primarily consists of parallel -aligned type I collagen bundles and fibroblasts. It is designed for resistance to prolonged or repeated stresses from the same direction . | Dense Regular Connective Tissue : A type of dense connective tissue with collagen fibers aligned in parallel, providing strength in one direction. Repeated Stress : Continuous or frequently occurring forces or pressures applied in the same direction. [img] [img] "
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701206476741,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::ConnectiveTissue"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-ae3278cf39f3d7d62f4f7c9deb6883ff4da42e27.jpg"
+    ],
+    "text": "Macrophages are found in the connective tissue of most organs and are sometimes called “histiocytes” by pathologists. Under a transmission electron microscope (TEM), macrophages display an irregular surface with pleats and protrusions , indicating their active pinocytotic and phagocytic activities . Macrophages usually have well-developed Golgi complexes and many lysosomes . | Phagocytic Ability : The capability of a cell to engulf and digest particles, such as dead cells, bacteria, and other fo"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703446624344,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::FemaleReproductive"
+    ],
+    "image_count": 20,
+    "image_srcs": [
+      "5dc3894d14593a8b9ab5b4bba3f85974.webp",
+      "f4ae423a39864d28c8185013c2ef466b.webp",
+      "1f5df85ad09d5db8b16385db241c5cbb.webp",
+      "677d4bd1b22fddd5e1dc34e3c978b143.webp",
+      "28c6d1a280a3c4a7f1970636844f0a7d.webp"
+    ],
+    "text": "Implantation (Nidation) of the Blastocyst Process of Implantation Implantation or nidation is the process where the blastocyst attaches to and penetrates the surface epithelial cells of the endometrium. This process, lasting about 3 days , involves the proteolytic penetration of the blastocyst through the epithelium into the stroma. | Amnion : An extraembryonic membrane that forms the amniotic sac, enclosing and protecting the developing embryo. Bilaminar Embryonic Disc : A two-layered structure"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701422397619,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Cartilage"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "9a905b246b69e40452fa2835bae69677.webp"
+    ],
+    "text": "Mechanical Properties and Applications of Cartilage The ECM of cartilage has a firm consistency, enabling the tissue to withstand mechanical stresses without permanent distortion . In the respiratory tract, ears, and nose , cartilage provides essential framework support for softer tissues. Due to its resiliency and smooth, lubricated surface , cartilage serves as a cushion and facilitates smooth movements within skeletal joints. Cartilage plays a crucial role in guiding the development and growt"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702297317063,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTractAssociatedOrgans"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "7d3a3164eee001e9e0c292b6b3708683.webp",
+      "3f0287d1fa53f817c35b7b3bac2abcbc.webp",
+      "f19be4b01b0f44ddac1e9ce3f682b462.webp"
+    ],
+    "text": "Pancreatic Acinar Cells and Duct System Pancreatic Acini Structure : Consists of serous cells surrounding a small lumen , lacking myoepithelial cells. Cell Characteristics : Polarized with round basal nuclei and numerous apical zymogen granules , typical for protein-secreting cells. | Acinar Cells : Cells in the pancreas that produce digestive enzymes. Bicarbonate Ions (HCO3−) : Ions that help neutralize stomach acid and regulate pH in the small intestine. Centroacinar Cells : Unique cells in th"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1701810626215,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::NervousSystem"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "fb2c2bf6325bdec9791a0a906150a8ad.webp",
+      "85e21a9df1d11bf1f9f88aae892df216.webp",
+      "7cb3fa6a05c1399c9b8aa711327d3d2c.webp"
+    ],
+    "text": "Glial Cells: Oligodendrocytes in the CNS Visibility Oligodendrocytes are typically seen as small cells with rounded, condensed nuclei and unstained cytoplasm . (Under light microscope) Processes and Sheaths : Not usually visible under routine light microscope staining. | Myelin Sheath : A layer of fatty tissue surrounding the axon of a neuron, providing insulation and increasing the speed of impulse transmission. CNS (Central Nervous System) : Comprises the brain and spinal cord. Oligodendrocyte"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703443025439,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::FemaleReproductive"
+    ],
+    "image_count": 17,
+    "image_srcs": [
+      "677d4bd1b22fddd5e1dc34e3c978b143.webp",
+      "28c6d1a280a3c4a7f1970636844f0a7d.webp",
+      "f944ee8c59b7394fc60122ec9c3bb271.webp",
+      "e860d8ff10cda8a0d9db9d962c650753.webp",
+      "c961165e669faa17dd3a4f53996c22d5.webp"
+    ],
+    "text": "Blood Supply of the Endometrium and Menstrual Cycle Menstrual Cycle Dynamics Estrogens and Progesterone from the ovaries play a vital role in regulating the menstrual cycle. They control the growth and differentiation of epithelial cells and connective tissue in the female reproductive system. | Arcuate Arteries : Arteries located in the myometrium, branching into the endometrium. Arterioles : Small branches of arteries leading to capillaries. Capillary Bed : A network of capillaries in a tissue"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1702209975140,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::DigestiveTract"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "1b3fc87ec26531c1902e37a90ab4ff4e.webp",
+      "6e1e3b85249102df0664479f1efb5aeb.webp"
+    ],
+    "text": "Structure of Enamel Enamel Rods (Prisms) : Uniform, interlocking columns, each about 5 μm in diameter. Surrounding Layer : Each rod is surrounded by a thinner layer of enamel. Thickness : Rods extend through the entire enamel layer, averaging 2 mm in thickness. Arrangement : Precise, interlocked arrangement contributes to hardness and pressure resistance . | Ameloblast : A cell responsible for enamel formation in developing teeth. Amelogenin : A protein involved in the development of enamel in t"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703589058625,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::Respiratory"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "df77784e6f4c93a63ad89c967efe7bf5.webp",
+      "44aec8bec54c89c9b72fe5f071c63afe.webp",
+      "0707cd3bed7e75964623105bd2caa19f.webp",
+      "d55dfb7d110ba6881df09f36bcff7f8a.webp",
+      "b28259f2a38e12252c661f1dccf855b5.webp"
+    ],
+    "text": "Trachea: Structure and Function Tracheal Support Structure The tracheal wall is reinforced with about a dozen C-shaped rings of hyaline cartilage . These cartilage rings are located between the submucosa and adventitia . They keep the tracheal lumen open . The open ends of the cartilage rings are on the posterior surface , adjacent to the esophagus. These ends are bridged by the trachealis muscle and a sheet of fibroelastic tissue attached to the perichondrium. | Adventitia : The outermost layer"
+  },
+  {
+    "source": "Histology",
+    "note_id": 1703371461027,
+    "model": "Cloze-AnKingMaster-v3 (Histology / ploirodon)",
+    "tags": [
+      "H::MaleReproductive"
+    ],
+    "image_count": 17,
+    "image_srcs": [
+      "5474cc2a88f7f435e758e0ec97e0a5e5.webp",
+      "16723a395dc885e054b76e91c2449955.webp",
+      "8ab10f1f04a83f647c620c8daec4f08c.webp",
+      "45c1e725307373f84e082bc3106fd474.webp",
+      "58144224a2176c41d5cb8c86bdb0e154.webp"
+    ],
+    "text": "Bulbourethral Glands (Cowper Glands) Composition Each gland consists of several lobules , each containing tubuloacinar secretory units . These units are surrounded by smooth muscle cells . The glands are lined with mucus-secreting simple columnar epithelium , which is also influenced by testosterone levels. | Bulbourethral Glands (Cowper Glands) : Small glands in the male reproductive system that produce a mucus-like secretion for urethral lubrication. Mucus-Secreting Simple Columnar Epithelium "
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527703970491,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Head_&_Neck"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "paste-210887189200899.jpg",
+      "Thyroglossal-Cyst.jpg",
+      "paste-396026049462273.jpg",
+      "paste-28664611734100.jpg"
+    ],
+    "text": "[img] [img] Diagnoses? Cervical sinus cyst (along SCM, immobile ) vs. Thyroglossal duct cyst ( m idline, m oves) | [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527612275594,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Lower_Limb"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "paste-17382733374291969.jpg",
+      "paste-43787191582723_1490401575641.jpg",
+      "paste-17351654990938113.jpg",
+      "paste-15279496479375361.jpg",
+      "paste-568567770644481.jpg"
+    ],
+    "text": "safest place to inject to prevent superior gluteal nerve injury? superior lateral /anterior lateral region (von Hochstetter triangle ) | avoid superior medial : risks hitting the superior gluteal nerve → trendelenberg sign (weak gluteus medius / abduction) [img] [img] [img] [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527696859059,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Pelvis"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "paste-151706834829313.jpg",
+      "paste-151925878161409.jpg",
+      "paste-151625230450689.jpg",
+      "paste-151651000254465 (1).jpg"
+    ],
+    "text": "suspensory ligament contains ovarian vessels cardinal ligament contains uterine vessels | Imagine a cardinal sitting on top of the bridge (uterine vessels; water under the bridge) [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527705666113,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Head_&_Neck"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "paste-518969488310273.jpg",
+      "paste-1816947259867139.jpg",
+      "paste-1816912900128771.jpg",
+      "paste-518789099683841.jpg"
+    ],
+    "text": "Subclavian steal syndrome occurs when the subclavian artery is occluded, leading to retrograde flow from the vertebral artery | retrograde flow occurs from the contralateral vertebral to the proximal vertebral artery [img] (6) [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527703585676,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Head_&_Neck"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-1779623994064897.jpg",
+      "paste-1779641173934081.jpg",
+      "slide_20.jpg"
+    ],
+    "text": "Thyroid Surgery Issues: 1) Superior thyroid artery → damage External Laryngeal → cricothyroid 2) Inferior thyroid artery → damage Recurrent laryngeal n. | Superior -> External Inferior -> Recurrent, lower down. [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527683495117,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-1527230240915457.jpg",
+      "paste-1524099209756673.jpg"
+    ],
+    "text": "Annular pancreas = abnormal rotation of ventral pancreatic bud | [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527615096451,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Breast"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-675594060693505.jpg"
+    ],
+    "text": "Hematogenous Spread of Breast Cancer: The mammary gland is drained by the internal thoracic, axillary, and intercostal veins . | [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527695168888,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Pelvis"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-52862457479169.jpg",
+      "paste-51140175593473.jpg",
+      "bladder-schematic.png"
+    ],
+    "text": "Opening of two ejaculatory ducts? Prostatic urethra | vs. trigone, where ureters enter. [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527678026326,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "paste-1341799322877953.jpg",
+      "paste-3817362637717505.jpg",
+      "paste-1344045590773761.jpg",
+      "paste-1341782143008769 (1).jpg"
+    ],
+    "text": "Sliding hiatal hernias are characterized by an \" hourglass \" stomach appearance on imaging due to herniation of the cardia of the stomach through the esophageal hiatus, which can damage the vagal trunks | \" I (IVC) ate (8) ten (10) eggs ( esophagus + vagus ) at (aorta) twelve (12)\" → hyposecretion of HCl from parietal cells [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527699562904,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Head_&_Neck"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "Side-view-of-a-female-head-showing-the-parotid-gland-and-facial-nerve-next-to-the-ear-and-over-the-j_12380.jpg",
+      "paste-251281356619777.jpg",
+      "paste-248489627877377.jpg"
+    ],
+    "text": "Malignant salivary gland tumors present with signs of facial nerve damage | also seen with compression during forceps delivery of infant [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527683814281,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-1540669193584641.jpg",
+      "paste-1540699258355713.jpg"
+    ],
+    "text": "The spleen is located in the LUQ of the abdomen, behind the 9th - 11th ribs | left upper quadrant ( LUQ ) [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527611693057,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Lower_Limb"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "paste-568434626658305.jpg",
+      "paste-568567770644481.jpg",
+      "paste-571569952784385.jpg",
+      "paste-568640785088513.jpg",
+      "paste-562705140285441.jpg"
+    ],
+    "text": "[img] superior gluteal nerve injury is ipsilateral to the side that the patient stands on superior gluteal nerve injury is contralateral to the side of the dropped hip | the left side for the man (compensated) [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527683250340,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-1505536361103361.jpg"
+    ],
+    "text": "The body of the pancreas courses anterior to the aorta and left kidney | [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527624584742,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-1016142017593345.jpg",
+      "paste-1016154902495233.jpg",
+      "main-qimg-607c5519829a32ac60cdb60feb4fb178.jpg"
+    ],
+    "text": "Referred Abdominal Pain: Foregut : Epigastrium region Midgut : Umbilical region Hindgut : Hypogastric region | Foregut: higher Midgut: think appendicitis Hindgut: below , hypo [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527598379598,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-382191959801857.jpg",
+      "paste-382084585619457.jpg"
+    ],
+    "text": "Which muscles function in ABduction the arm at each of the following angles (degrees)? 0-15: Supra spinatus ( supra scapular) 15-100: Deltoid (ax) >90: Trapezius (11) >100: Serratus Anterior (long thoracic ) | [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527766907295,
+    "model": "Image Q/A - 2.0 Enhanced-fe88c",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Misc"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "6ab0678ca33dd5c1778e3fc670952c0006ca3d39_Q 0.svg",
+      "6ab0678ca33dd5c1778e3fc670952c0006ca3d39_A 0.svg",
+      "6ab0678ca33dd5c1778e3fc670952c0006ca3d39_source_svg.svg",
+      "6ab0678ca33dd5c1778e3fc670952c0006ca3d39_tmpltqltn.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527605599072,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-411419212251137.jpg",
+      "paste-407970353512449.jpg",
+      "paste-408004713250817.jpg"
+    ],
+    "text": "Repair of carpal tunnel involves cutting of the flexor retinaculum (transverse carpal ligament) | [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527608937499,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Lower_Limb"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "paste-59317793325489.jpg",
+      "paste-507901357588481.jpg",
+      "paste-509030933987329.jpg",
+      "paste-504602822705153.jpg"
+    ],
+    "text": "A varus deformitity of the knee indicates a tear of the lateral collateral ligament (LCL ) A valgus (knock-knee) deformity of the knee indicates a tear of the medial collateral ligament (MCL) [img] | No support on lateral side → varus → tenderness on lateral knee No support on medial side → valgus → tenderness on medial knee varus/valgus refer to LOWER leg direction (toward the VALL) [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527606930567,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 6,
+    "image_srcs": [
+      "paste-13052405612715.jpg",
+      "paste-434027920097281.jpg",
+      "paste-429690003128321.jpg",
+      "paste-425485230145537.jpg",
+      "paste-427035713339393.jpg"
+    ],
+    "text": "Klumpke Palsy - occurs during tree grabbing / delivering newborn x C8 - T1 nerve roots x ulnar and median nerves, x intrinsic hand (lumbricals) muscles → total claw hand . [img] [img] [img] | 1) \"Klumpke Klaw\" 2) Klaw the Octopus (C8) 3) extension at MCP, flexion at PIP/DIP due to loss of lumbricals [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527678288095,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-1344655476129793.jpg",
+      "paste-2756789183447041.jpg",
+      "paste-1344668361031681.jpg"
+    ],
+    "text": "Meckel diverticulum is two times more likely to occur in males (gender) Meckel diverticulum occurs in 2 % of patients Meckel diverticulum is 2 feet before ileocecal junction Meckel diverticulum is 2 inches long | [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527766567631,
+    "model": "Image Q/A - 2.0 Enhanced-fe88c",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Misc"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "84c136d4db5c6e1613607e4c93bb3dffd7897920_Q 3.svg",
+      "84c136d4db5c6e1613607e4c93bb3dffd7897920_A 0 (6).svg",
+      "84c136d4db5c6e1613607e4c93bb3dffd7897920_source_svg (6).svg",
+      "84c136d4db5c6e1613607e4c93bb3dffd7897920_tmp6fkd5z.png"
+    ],
+    "text": "[img] | [img] | [img] | [img] | note \"ARM\" starting at surgical neck of humerus ax the neck"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527675548724,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "paste-3550731067981825.jpg",
+      "paste-1227042091696129.jpg",
+      "paste-3548587879301121.jpg",
+      "paste-0235d731214af8e3d72c40d854852842f0d19fee.png",
+      "1200px-Pringle_manoeuvre_EN.svg.png"
+    ],
+    "text": "What structure is contained within the hepatoduodenal ligament ? What does the Pringle Maneuver do? Portal triad (proper hepatic artery, portal vein, common bile duct); clamp ligament to control bleeding | If bleeding persists , then IVC or hepatic veins are injured (not in the triad) \"proper portal\" [img] [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527675789281,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-1249539130392577.jpg"
+    ],
+    "text": "Two ligaments that make up the lesser omentum? Hepato gastric and Hepato duodenal | both from the liver [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527685886290,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Pelvis"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "paste-241853903405057.jpg",
+      "Anorectal venous drainage.png",
+      "paste-1611007872991233.jpg",
+      "paste-1832516516315137.jpg",
+      "paste-191259188658179 (1).jpg"
+    ],
+    "text": "Internal Hemorrhoids = drains via superior rectal vein into the inferior mesenteric vein (IMV) → splenic vein → portal vein (pectinate/dentate line) -------------------------- External Hemorrhoids = drains via inferior rectal vein into the internal pudenda l → internal iliac [img] | [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527623503992,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-1673534006886401.jpg"
+    ],
+    "text": "pt with a stab wound on his back, right side, beneath the 11th rib, what organ is most at risk? right kidney | give the kid some roses [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527682473445,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "paste-462598042550560.jpg",
+      "paste-462430538825892.jpg",
+      "paste-3950979070296065.jpg",
+      "paste-1611368650244097.jpg",
+      "paste-1472465112924161.jpg"
+    ],
+    "text": "Caput medusae results from portosystemic shunting between the paraumbical veins (portal) and small epigastric veins of the abdominal wall (systemic) [img] | umbilicus epi = on the outside [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527682823473,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 5,
+    "image_srcs": [
+      "paste-1499690910613505.jpg",
+      "paste-1499630781071361.jpg",
+      "paste-1497332973568001.jpg",
+      "paste-1499596421332993.jpg",
+      "Parts-of-the-Pancreas.jpg"
+    ],
+    "text": "The head of the pancreas is supplied by the superior and inferior pancreaticoduodenal arteries (from gastroduodenal/celiac trunk and SMA) | Neck, body, tail are supplied by branches of the splenic artery. [img] [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527620490310,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Thorax"
+    ],
+    "image_count": 7,
+    "image_srcs": [
+      "paste-885295838920705.jpg",
+      "paste-879922834833409.jpg",
+      "paste-888770467463169.jpg",
+      "paste-879957194571777.jpg",
+      "paste-25456271163393.jpg"
+    ],
+    "text": "A pancoast tumor occurs at the apex of the lung and causes compression of local structures, causing: [img] | stellate ganglion = sympathetic chain Horny PAM [img] [img] [img] [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527703260239,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Head_&_Neck"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "paste-365922623684609.jpg"
+    ],
+    "text": "Rupture of tympanic membrane may affect the chorda tympani (7) , causing loss of anterior 2/3 taste and reduced salivation from sublingual and submandibular glands | [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527612442489,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Lower_Limb"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-15279496479375361.jpg",
+      "paste-588951685431297.jpg"
+    ],
+    "text": "Which gluteal muscles are innervated by the Superior Gluteal Nerve (L4-S1)? Gluteus medius; Gluteus minimus | inferior gluteal → maximus (paradoxical) [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527605300609,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-405341833527297.jpg",
+      "paste-404508609871873.jpg",
+      "paste-405324653658113.jpg"
+    ],
+    "text": "Blood is usually drawn from the median cubital vein in the arm | Just below is the bicipital aponeurosis, which protects deeper structures ( b icipital tendon, brachial a rtery, and median n erve BAN) [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527623378527,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-1673534006886401.jpg",
+      "paste-925939114442753.jpg"
+    ],
+    "text": "The left kidney lies immediately behind the 11th - 12th rib The right kidney lies immediately behind the 12th rib | Right kidney pushed down by liver give the kid some roses [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527678903182,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Abdomen"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-1371069525000193.jpg",
+      "paste-1371099589771265.jpg",
+      "1920px--Volvulus.webm.jpg"
+    ],
+    "text": "Where does volvulus most commonly occur? Midgut (infants) Sigmoid (elderly Mr Siegman) | [img] [img] [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527608662972,
+    "model": "Image Q/A - 2.0 Enhanced-fe88c",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 4,
+    "image_srcs": [
+      "cabc5eb7b7900f86b22b886e7f9d637200b0604c_Q 0.svg",
+      "cabc5eb7b7900f86b22b886e7f9d637200b0604c_A 0.svg",
+      "cabc5eb7b7900f86b22b886e7f9d637200b0604c_source_svg.svg",
+      "cabc5eb7b7900f86b22b886e7f9d637200b0604c_tmptzkkl5.png"
+    ],
+    "text": "[img] | [img] | [img] | [img]"
+  },
+  {
+    "source": "Dorian100",
+    "note_id": 1527761441000,
+    "model": "Cloze-b12d6",
+    "tags": [
+      "*Anatomy_Clinical_Correlates::Dorian_Original::Upper_Limb"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-34428457844737.jpg",
+      "paste-403091270664193.jpg",
+      "paste-36485747179521.jpg"
+    ],
+    "text": "[img] B | Suprascapular ↔ Circumflex [img] [img]"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811944426,
+    "model": "Cloze Medicina - Mecanismo Único",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+      "NEBLI::gerado",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::schema",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::legacy_model_anking_like",
+      "NEBLI::visual_need::recommended"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "58a3ae86054aa85cc14534f4488c4214.png"
+    ],
+    "text": "Ao surgir no epiblasto (~dia 15), a linha primitiva dá ao embrião uma linha média e, com ela, o eixo crânio-caudal e a simetria bilateral. | Antes dela, o disco era simétrico como um prato. Ela é também a porta por onde as células do epiblasto ingressam para dentro. [img] Fonte visual: slide da aula."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971585480,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::en",
+      "NEBLI::histo-09-vasos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::neblicard-autoral",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "7c0b71b29decd6451a624486a89a8b6c.webp"
+    ],
+    "text": "A portal system passes blood through two capillary beds in series (hepatic portal vein; renal glomerulus). | [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972555177,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anato-06-circ-linf-II",
+      "NEBLI::en",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "tmpiskj50h8.png"
+    ],
+    "text": "The aortic arch gives three branches: the brachiocephalic trunk (splitting into right common carotid + right subclavian), the left common carotid, and the left subclavian. | Right = one trunk that splits; left = vessels arise separately. [img] Image from BlueLink Atlas, University of Michigan."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972037352,
+    "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+    "tags": [
+      "@Medical_School::Histology::Exam_2",
+      "NEBLI::from-LLU",
+      "NEBLI::histo-11-orgaos-linfaticos"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-02171bf650872a91e9b990ab5f35fbba980ace71.png",
+      "paste-2993b696c33dac62de5ace4410489304c6619b30.png"
+    ],
+    "text": "This is a gross image of thymus [img] [img] | Hassall's corpuscles"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972220475,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anato-05-circ-linf-I",
+      "NEBLI::en",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "tmppnv7d8n9.png"
+    ],
+    "text": "The sternocostal (anterior) surface of the heart is mostly the right ventricle; the right border is the right atrium. | [img] Image from BlueLink Atlas, University of Michigan."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811939243,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anking-curado",
+      "NEBLI::embrio-01-gametogenese-fertilizacao"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "464c0408c96487ce10cd2d93599d15bb.webp"
+    ],
+    "text": "The primary location for the maturation and storage of sperm is the epididymis | [img] Photo credit: OpenStax , CC BY 4.0"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783893211477,
+    "model": "IO-one by one (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::revisar",
+      "NEBLI::gerado",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::image_status::pending_review",
+      "NEBLI::io-calibracao",
+      "NEBLI::UC02::P3::tecido-nervoso",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "1fe1d39f6b540339dec1042af9348c8b.png"
+    ],
+    "text": "[img] | Multipolar neuron structure | [#!occlusions [[rect0::174,46,133,35]] [[rect0::798,80,163,36]] [[rect0::537,81,74,40]] [[rect0::24,246,114,29]] [[rect0::912,351,255,39]] [[rect0::428,357,169,29]] [[rect0::421,502,220,35]] [[rect0::41,539,179,63]] [[rect0::69,650,195,37]] [[rect0::419,652,119,29]] [[rect0::414,745,259,29]] #] active"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971593875,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::en",
+      "NEBLI::histo-09-vasos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::neblicard-autoral",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "7c0b71b29decd6451a624486a89a8b6c.webp"
+    ],
+    "text": "Which capillary has fenestrated endothelium AND a discontinuous basal lamina, letting whole cells pass (liver, hemopoietic organs)? Sinusoid | [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971984635,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-11-orgaos-linfaticos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "a0570fa33063c3c2818804d219860c6c.webp"
+    ],
+    "text": "The blood-thymus barrier, isolating immature thymocytes from blood antigens, exists only in the thymic cortex. | Medulla is not isolated; mature T waits there to enter circulation. [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811939299,
+    "model": "Cloze Medicina - Mecanismo Único",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "NEBLI::gerado",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::schema",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::legacy_model_anking_like",
+      "NEBLI::visual_need::recommended"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "db04e978acb0ca715b8b9f4461c9b6d5.png"
+    ],
+    "text": "A redução de 2N para N acontece na meiose I, que separa os cromossomos homólogos; a meiose II só separa as cromátides-irmãs e não muda a ploidia. | Por isso a meiose I é reducional e a meiose II é equacional (uma 'mitose' de célula já haploide). Erro clássico: achar que a ploidia cai na segunda divisão. [img] Fonte visual: slide da aula."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972255910,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anato-05-circ-linf-I",
+      "NEBLI::en",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "tmppnv7d8n9.png"
+    ],
+    "text": "The superior and inferior venae cavae return systemic blood to the right atrium; the four pulmonary veins bring oxygenated blood to the left atrium. | [img] Image from BlueLink Atlas, University of Michigan."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972226741,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anato-05-circ-linf-I",
+      "NEBLI::en",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "tmppnv7d8n9.png"
+    ],
+    "text": "Because the fibrous pericardium cannot stretch, rapid fluid buildup compresses the heart: cardiac tamponade. | [img] Image from BlueLink Atlas, University of Michigan."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811944250,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anking-curado",
+      "NEBLI::embrio-02-03-gastrulacao-neurulacao"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "53420ac0629286f0ba891e8acc406551.jpg"
+    ],
+    "text": "During which week of gestation does gastrulation occur? Week 3 | gas TRI lation [img] Pho to credit: OpenStax College , CC BY 3.0 , via Wikimedia Commons"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971579208,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::en",
+      "NEBLI::histo-09-vasos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::neblicard-autoral",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "7c0b71b29decd6451a624486a89a8b6c.webp"
+    ],
+    "text": "The stain that reveals elastin, separating elastic from muscular artery, is Weigert. | Elastic laminae as stacked dark lines. [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972580135,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anato-06-circ-linf-II",
+      "NEBLI::en",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "tmpiskj50h8.png"
+    ],
+    "text": "Obstruction of the superior vena cava (e.g., mediastinal tumor) causes SVC syndrome: congested face and neck with dilated collateral chest veins. | The visible dilated veins are the azygos rescue in action. [img] Image from BlueLink Atlas, University of Michigan."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971785935,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::en",
+      "NEBLI::histo-10-tecido-nervoso",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::neblicard-autoral"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "e34a95d29c5735fdc8c87ee55460e412.webp"
+    ],
+    "text": "The protoplasmic astrocyte (short processes) lives in gray matter; the fibrous astrocyte (long processes) lives in white matter. | Astrocyte scar after injury = gliosis. [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971625610,
+    "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+    "tags": [
+      "#FDN1_Block::Histology_Practical",
+      "@Medical_School::Histology::Exam_1",
+      "NEBLI::from-LLU",
+      "NEBLI::histo-09-vasos"
+    ],
+    "image_count": 3,
+    "image_srcs": [
+      "paste-56bdd98e022c1ec52084bba9078675a8c8e457ed.png",
+      "paste-7d8e7f5b0a8e126077e62af41dfe9b7b82420f49.png",
+      "paste-29f387a9339e6109578ec9a6197a993bf871ac31.png"
+    ],
+    "text": "This is a gross image of muscular artery [img] | ~ Wall is circular and well-defined ~ Tunica Intima: Thin (thick in coronary arteries) ~ Int elastic lamina: very distinct ~ Tunica Media: Thick, circular smooth muscle, lack concentric laminae ~ Tunica Adventitia: Thick | Lab Slide left - vein; right - artery [img] [img]"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811944474,
+    "model": "Cloze Medicina - Mecanismo Único",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::embrio-02-03-gastrulacao-neurulacao",
+      "NEBLI::gerado",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::schema",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::legacy_model_anking_like",
+      "NEBLI::visual_need::recommended"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "58a3ae86054aa85cc14534f4488c4214.png"
+    ],
+    "text": "No dobramento céfalo-caudal, as pregas cranial e caudal se curvam ventralmente, dando ao embrião a forma de um 'C' que fecha sobre o próprio ventre. | O motor é o crescimento desigual: tubo neural e somitos crescem mais que as bordas, e a cavidade amniótica dorsal empurra as pontas para baixo. É a tridimensionalidade no eixo cabeça-cauda. [img] Fonte visual: slide da aula."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971570862,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::en",
+      "NEBLI::histo-09-vasos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::neblicard-autoral",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "7c0b71b29decd6451a624486a89a8b6c.webp"
+    ],
+    "text": "Endothelium secretes von Willebrand factor → platelet adhesion at vessel injury. | [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811939294,
+    "model": "Cloze Medicina - Mecanismo Único",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::embrio-01-gametogenese-fertilizacao",
+      "NEBLI::gerado",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::schema",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::legacy_model_anking_like",
+      "NEBLI::visual_need::recommended"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "db04e978acb0ca715b8b9f4461c9b6d5.png"
+    ],
+    "text": "As células germinativas primordiais chegam à gônada ainda indefinidas: é o ambiente da gônada, e não o próprio cromossomo sexual da célula, que decide se elas entram na ovogênese ou na espermatogênese. | As PGC surgem numa região extragonadal (perto do saco vitelino) e migram em movimento ameboide até a crista genital entre a 4ª e a 7ª semana. Chegar dispara o programa — não significa maturidade. [img] Fonte visual: slide da aula."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783972295935,
+    "model": "Anatomy",
+    "tags": [
+      "Dope::Anatomy::Thorax",
+      "NEBLI::anato-05-circ-linf-I",
+      "NEBLI::from-Dope"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "MSA-Valves_and_Fibrous_Skeleton_of_Heart25.jpg"
+    ],
+    "text": "Valves and Fibrous Skeleton of Heart | [img] | Clinical: Valvular heart disease can arise from a variety of conditions (stenosis, rupture of papillary muscles or chordae tendineae, malformed valve leaflets) and most often involves either the mitral or the aortic valves. The major blood supply to the interventricular septum is via the left anterior descending branch of the left coronary artery. Ischaemia of the interventricular septum may compromise the Purkinje conduction system innervating the "
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971583409,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "img::generica",
+      "img::revisar",
+      "img::substituir",
+      "NEBLI::en",
+      "NEBLI::histo-09-vasos",
+      "NEBLI::image_context_needs_specific_review",
+      "NEBLI::image_extra",
+      "NEBLI::image_role::recognition",
+      "NEBLI::image_status::context_needs_specific_review",
+      "NEBLI::image_status::needs_specific_review",
+      "NEBLI::neblicard-autoral",
+      "NEBLI::visual_need::required"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "7c0b71b29decd6451a624486a89a8b6c.webp"
+    ],
+    "text": "At the capillary bed entry, the precapillary sphincter gates flow in waves by local demand. | Short sparse-muscle vessel at the transition = metarteriole. [img] Image from imported Histology deck."
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811939282,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anking-curado",
+      "NEBLI::embrio-01-gametogenese-fertilizacao"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "6456fe4c5091adf4a8b14fc210770b16.webp"
+    ],
+    "text": "Primary oocytes are arrested in prophase I of meiosis I for years until ovulation | [img] Photo credit: OpenStax , CC BY 4.0"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783811939274,
+    "model": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+    "tags": [
+      "NEBLI::anking-curado",
+      "NEBLI::embrio-01-gametogenese-fertilizacao"
+    ],
+    "image_count": 1,
+    "image_srcs": [
+      "6456fe4c5091adf4a8b14fc210770b16.webp"
+    ],
+    "text": "After fertilization , the secondary oocyte completes meiosis II to form a(n) ovum | [img] Photo credit: OpenStax , CC BY 4.0"
+  },
+  {
+    "source": "NEBLI",
+    "note_id": 1783971629789,
+    "model": "AnKingOverhaul (LLU Histology / SLin_LLUSOM)",
+    "tags": [
+      "#FDN1_Block::Histology_Practical",
+      "@Medical_School::Histology::Exam_1",
+      "NEBLI::from-LLU",
+      "NEBLI::histo-09-vasos"
+    ],
+    "image_count": 2,
+    "image_srcs": [
+      "paste-084f10b58d4ca7dbe2938e32923537cbbf773413.png",
+      "paste-d9a65fac17d249e0456848685b4dbf7e1a219871.png"
+    ],
+    "text": "This is a gross image of vein [img] | ~ Wall is loosely arranged ~ Layers harder to distinguish ~ Tunica Intima: Thin ~ Tunica Media: Thin ~ Tunica Adventitia: Thick, loose or moderately dense FECT, longitudinal smooth muscle, collagen/elastic fibers | Large vessel with a valve also indicates vein [img]"
+  }
+]
