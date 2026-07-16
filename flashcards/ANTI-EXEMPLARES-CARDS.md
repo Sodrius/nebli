@@ -118,6 +118,24 @@ Davi, sobre o card córtex/medula do timo: "típico card onde IO ficaria ótimo,
 Por que texto puro falha aqui: "outer/dark" vs "inner/pale" é relação **espacial** — decorar em texto não transfere pra prova/lâmina. IO treina o reconhecimento visual real.
 **Conserto:** quando o alvo é *onde* uma estrutura fica numa imagem, preferir Image Occlusion (modelo IO do deck) a cloze de texto. Recortar a figura do deck de histologia/anatomia importado.
 
+## A17 — Card em português (ou PT+EN misturado)
+Feedback 2026-07-16, o mais repetido do lote: "card em português + inglês, deveria ser só inglês"; "todos os erros aqui devem ser checados em todos os cards". Contradiz [[regras-neblicard-anking-nivel]] (card é EN). Frente e cloze em inglês; Extra pode ter a explicação em PT-BR curta, mas o *card testável* é inglês, como AnKing. **Conserto:** traduzir a frente/cloze pro inglês; passada de auditoria em TODO o deck NEBLI caçando `[À-ÿ]` na frente. Cards elogiados só por estarem em PT ("gostei, só faltou inglês") = traduzir e manter.
+
+## A18 — Enumeração fatiada em cards redundantes (refina A8)
+Feedback 2026-07-16: túnicas do vaso, camadas das meninges, B vs T, capilar fenestrado/sinusoide, astrócito proto/fibroso — "pode ser 1 card só", "diminuir redundância". Um conjunto paralelo (3 camadas, 2 tipos irmãos) vira **um card que cobra o conjunto**, não N cards quase iguais competindo por revisão. Duas mecânicas válidas: mesmo número em cada item (`{{c1::dura}} {{c1::arachnoid}} {{c1::pia}}` → 1 card, lembra os três juntos) OU `c1/c2/c3` quando faz sentido testar cada slot — mas **nunca** um card separado por membro do conjunto. O inimigo é a redundância, não o nº de clozes. Par contrastante (B matura na medula / T no timo) = 1 card com 2 clozes, não 2 cards.
+
+## A19 — Tag usada como TODO ("resolver depois")
+Feedback 2026-07-16: "esse monte de tag é ruim, tem que focar em resolver o problema, não ficar colocando tag pra resolver depois". Refina A15: tag não é lembrete de defeito pendente. Se o card tem problema, conserta agora; não empurra com `NEBLI::visual_need::` etc. como marcador. Enxoval mínimo de tag = só âncora da aula + o que o pipeline realmente usa.
+
+## A20 — Formatação padrão-NEBLI em vez de AnKing-like
+Feedback 2026-07-16: "formatação ainda está no padrão NEBLI, todos têm que ficar tipo AnKing". O card não é prosa NEBLI reduzida — é afirmação curta e seca no estilo do deck AnKing (frente enxuta, cloze no alvo, Extra com o porquê). Ver EXEMPLARES-CARDS.md.
+
+## A21 — Erro factual ou card que não renderiza
+Feedback 2026-07-16: "esse card faz sentido? não seria mitose?" (conteúdo incorreto) e "esse card deu problema e não apareceu" (cloze quebrado). **Conserto:** todo card passa por checagem de veracidade (bate com a E1/bibliografia?) e de render (o cloze fecha, aparece no estudo). Card factualmente duvidoso volta pra prancheta antes de dessuspender.
+
+## Gate-hard de imagem por subtópico (pedido do Davi 2026-07-16 — a implementar)
+Davi: "ver uma forma de adicionar um gate-hard que só passa se a imagem fizer sentido com o conteúdo do card — poderia ser dando um subtópico por imagem". Ideia: cada imagem recebe um rótulo de subtópico; o card só passa se o subtópico da imagem == subtópico do card. Enquanto o gate não existe, a conferência é manual pelo checklist (A12). Registrado em `PENDENCIAS.md`. **Autonomia (Davi 2026-07-16):** ele vai parar de comentar card-a-card; a partir de agora eu identifico e conserto os defeitos proativamente, inclusive em cards sem comentário.
+
 ## Checklist pré-ship — rodar em TODO card antes de aplicar / dessuspender
 Este é o gate operacional. Nenhum card autoral entra no deck (nem card AnKing é dessuspendido) sem passar por aqui. Cada "não" para o card.
 
@@ -128,7 +146,11 @@ Este é o gate operacional. Nenhum card autoral entra no deck (nem card AnKing �
 - [ ] Cobra mecanismo, não só rótulo/timing? (R6 — sobe o nível)
 
 **Forma do card**
+- [ ] Frente e cloze em **inglês**? Sem PT ou PT+EN misturado (A17)
+- [ ] Estilo AnKing (afirmação seca), não prosa NEBLI (A20)
 - [ ] Um fato atômico? Se são 2 fatos independentes, viram 2 cards (A5) — "informação desnecessária de vir juntos"
+- [ ] Conjunto/enumeração = 1 card que cobra o conjunto, sem cards-irmãos redundantes (A18)
+- [ ] Conteúdo factualmente correto e o cloze renderiza no estudo? (A21)
 - [ ] É afirmação com cloze, não pergunta+resposta+cloze? (A6)
 - [ ] A frase **não** entrega a resposta fora do cloze (leitura passiva)? (A7); enumeração curta = cloze único, não 3 clozes redundantes (A8)
 - [ ] Cloze tem `::dica de tipo` quando o tipo não é óbvio? (A14)

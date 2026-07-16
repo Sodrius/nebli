@@ -7,6 +7,11 @@
 
 - **Loop card→E1→E2 (aprofundamento por subtópico).** Depois de curar os cards (ou, sem Anki, do mapa de cobertura offline), voltar na E1 e injetar **1 conteúdo extra mecanístico por subtópico** (~9-12 por resumo), pequeno, colado a um mecanismo que o slide já abriu. A E2 é escrita DEPOIS, já cobrando esse extra. **Regra-mestra:** o *slide regula O QUE entra*; o *AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE*. Se não há onde encaixar, não encaixa. Piloto: embrio-gastrulacao-neurulacao (esta sessão).
 
+## LEMBRETE ATIVO — conserto do estoque de cards ruins (Davi pediu p/ ser lembrado, 2026-07-16)
+
+- **Passada de conserto em TODO o deck NEBLI vivo.** Davi vai parar de comentar card-a-card; a partir de agora o Claude acha e conserta os defeitos com autonomia, inclusive em cards sem comentário. Alvos (ver `flashcards/ANTI-EXEMPLARES-CARDS.md` A12-A21): cards em português → traduzir; enumerações fatiadas em cards redundantes → fundir; resposta-no-card / clozes que se entregam → reescrever com 2 clozes; imagem que não bate → trocar ou `img::substituir`; card sem Extra → preencher; tag-bloat → podar; erro factual/render quebrado → corrigir. **Ainda há muitos cards ruins** — Davi sinalizou explicitamente.
+- **Gate-hard de imagem×card (a implementar).** Só passa se a imagem fizer sentido com o card. Ideia do Davi: **um subtópico por imagem** — rotular cada imagem com subtópico e exigir match com o subtópico do card no precompile/apply. Desenhar e implementar; enquanto isso, checagem manual pelo checklist pré-ship (A12).
+
 ## A PLANEJAR MELHOR (Davi quer desenhar antes)
 
 - **Estudo do corpus AnKing pra aprender "o bom card".** Antes de gerar card autoral, destilar de centenas de cards reais (offline, do export de 92 MB) o padrão de um bom cloze: o que esconder, o que deixar de dica, tamanho, formato, um-mecanismo-por-card. Vira referência + alimenta [[calibrar-antes-de-gerar-cards]]. **Offline, não precisa de Anki vivo.**
