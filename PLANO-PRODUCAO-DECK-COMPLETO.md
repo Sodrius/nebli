@@ -1,447 +1,278 @@
-# NEBLI Etimologia — plano de produção do deck completo
+# NEBLI Etimologia — plano de produção do deck completo (v2)
 
-> Plano canônico de qualidade para produzir, validar, publicar e encerrar o bootcamp. Complementa `PLANO-IMPLEMENTACAO.md` e substitui qualquer estratégia de geração em massa sem gates.
+> Reescrito em 2026-07-16 para corrigir um desvio de rota. A v1 virou, na prática, um **deck de terminologia médica organizado por sistema** (260/540 cards eram "raízes por sistema", com linha `Clinical:` como alvo, módulo de farmacologia, etc.). Isso faz decorar o *significado médico* das palavras — exatamente o que **não** queremos. A v2 recentra tudo no objetivo real do Davi.
 
-## 1. Definição de qualidade
+---
 
-Um card de etimologia só merece entrar quando compra pelo menos uma destas capacidades:
+## 0. MISSÃO (a régua que decide tudo)
 
-1. **produtividade:** ajuda a compreender várias palavras;
-2. **transferência:** permite decodificar uma combinação ainda não estudada;
-3. **discriminação:** separa formas facilmente confundidas;
-4. **segurança:** ensina quando a inferência morfológica não é confiável;
-5. **naturalidade:** aproxima inglês médico, PT-BR e nomenclatura oficial sem tradução artificial.
+**O deck ensina ETIMOLOGIA, não conteúdo médico.** O objetivo é dar ao Davi conhecimento de **latim, grego e formação de palavras** — a competência de *decompor e decodificar* qualquer termo novo — para ele aguentar a enxurrada de palavras diferentes ao longo do curso. O termo médico é **exemplo** da regra etimológica, nunca o alvo de memorização.
 
-Não basta estar correto. O card precisa ser recuperável, inequívoco, curricularmente útil, licenciado, auditável e melhor que simplesmente consultar um dicionário.
+**O erro canônico a evitar (Davi, 2026-07-16):** colocar no deck cards para decorar o significado de palavras do léxico da saúde. "O que é hepatomegalia?" é vocabulário médico → **fora**. "O radical `hepat/o` vem do grego ἧπαρ (fígado)" é etimologia → **dentro**.
 
-Três camadas nunca podem ser confundidas:
+**Teste de admissão de UMA linha (aplicar a todo card, sem exceção):**
+> *Se o Davi já soubesse o significado clínico desta palavra, este card ainda ensinaria algo sobre latim/grego/formação de palavras?*
+> **Não → o card é vocabulário médico disfarçado → corta.** Sim → é etimologia legítima.
 
-- **Morphology:** segmentação sincrônica útil da palavra atual;
-- **History:** origem e evolução histórica;
-- **Clinical:** significado médico vigente.
+Corolário: o **alvo do cloze** (`{{c1::...}}`) tem que ser sempre um **morfema, uma origem (étimo grego/latino), ou uma regra de formação** — nunca um fato clínico, nunca "o que a doença é/faz".
 
-A glosa literal é uma pista, não uma definição clínica automática.
+Fundamentação (pesquisa 2026-07-16): o ensino por raízes decodifica termos novos "de primeira" e reduz a carga de decorar milhares de palavras uma a uma; aprende-se o morfema como item de vocabulário e a etimologia como âncora de memória; a estratégia de leitura é **direita→esquerda** (sufixo → radical → prefixo). Ver `## Fontes`.
 
-## 2. Escopo fechado
+---
 
-Versão 1 canônica: **540 cards**. Reserva de 0–30 cards nasce apenas de erros reais. Teto operacional 570; 600 é limite absoluto, não objetivo.
+## 1. O QUE É UM BOM CARD (contrato detalhado — a parte mais importante)
 
-| Módulo | Alvo |
-|---|---:|
-| 01_Fundamentos | 24 |
-| 02_Prefixos | 48 |
-| 03_Sufixos | 58 |
-| 04_Raizes_por_sistema | 260 |
-| 05_Processos_medicos | 55 |
-| 06_Familias_e_contrastes | 42 |
-| 07_Excecoes_e_armadilhas | 31 |
-| 08_Transferencia | 22 |
-| **Total** | **540** |
+Todo card pertence a **um** dos seis tipos abaixo. Cada tipo tem um alvo de aprendizagem etimológico explícito. **Deck e explicação: TUDO em português.** (Exceção à regra global "card em inglês" — este é o único deck em PT, por ser sobre a língua.)
 
-`09_Avaliacoes` não contém aprendizagem antes do teste. `10_Resgate` começa vazio.
+### Tipo A — Morfema (o átomo)
+Ensina UM morfema: forma, sentido operacional, e **origem (grego ou latim, com o étimo)**.
+```
+Frente:  O radical {{c1::nefr/o}} designa o rim; vem do grego νεφρός (nephrós).
+Extra:   Origem: grego. Étimo: νεφρός. Domina em contexto de doença/patologia
+         (nefrite, nefropatia). Dupla latina: ren/o (ver card de contraste).
+```
+Alvo: recuperar o morfema a partir do sentido+origem. NÃO testa nenhum termo clínico.
 
-## 3. Matriz curricular
+### Tipo B — Regra de formação (a gramática)
+Ensina uma regra de como as peças se juntam. É o que dá **transferência** de verdade.
+```
+Frente:  Regra da vogal de ligação: o "o" cai quando o sufixo já começa por vogal —
+         gastr/o + -ite = {{c1::gastrite}} (não "gastroite").
+Extra:   Vogal de ligação (quase sempre "o") só entra para juntar radical+radical ou
+         radical+sufixo que começa por consoante. Antes de vogal, cai.
+```
+Outros: leitura direita→esquerda; radical vs forma combinante; quando NÃO se decompõe.
 
-### 3.1 Fundamentos — 24
-
-- prefixo, raiz, sufixo e ordem de análise: 6;
-- forma combinante e vogal de ligação: 5;
-- grego, latim, pares paralelos, híbridos e opacidade: 5;
-- alomorfes, assimilação e transliteração EN/PT: 5;
-- plurais clássicos produtivos e limites: 3.
-
-Os conceitos `literal != clínico` e `nem todo termo é decomponível` entram na primeira semana.
-
-### 3.2 Prefixos — 48
-
-- posição e direção: 15;
-- quantidade e tamanho: 10;
-- tempo, velocidade e frequência: 7;
-- negação, ausência e normalidade: 8;
-- intensidade, relação e semelhança: 8.
-
-Famílias nucleares: `endo-/intra-`, `ecto-/exo-`, `epi-`, `peri-/circum-`, `inter-`, `sub-/infra-`, `supra-`, `trans-/dia-`, `retro-`, `para-`, `ab-/ad-`, `pre-/post-`, `mono-/uni-`, `bi-/di-`, `hemi-/semi-`, `oligo-/poly-`, `micro-/macro-`, `hyper-/hypo-`, `brady-/tachy-`, `a-/an-`, `in-/im-/il-/ir-`, `dys-/eu-`, `pseudo-`, `auto-/allo-`, `homo-/homeo-`, `hetero-`, `iso-`, `syn-/sym-`.
-
-### 3.3 Sufixos — 58
-
-- condições e processos: 10;
-- inflamação, doença e tumor: 11;
-- sinais, sintomas e substâncias: 12;
-- exames, medidas e registros: 10;
-- procedimentos cirúrgicos: 10;
-- especialidades e profissionais: 5.
-
-Famílias nucleares: `-ia`, `-iasis`, `-ism`, `-osis`, `-pathy`, `-plasia`, `-trophy`, `-genesis`, `-lysis`, `-poiesis`, `-itis`, `-oma`, `-malacia`, `-sclerosis`, `-stenosis`, `-necrosis`, `-ptosis`, `-cele`, `-algia/-dynia`, `-emia`, `-uria`, `-penia`, `-cytosis`, `-megaly`, `-rrhea`, `-rrhage/-rrhagia`, `-spasm`, `-pnea`, `-phagia`, `-gram/-graph/-graphy`, `-meter/-metry`, `-scope/-scopy`, `-opsy`, `-ectomy/-otomy/-ostomy`, `-plasty`, `-pexy`, `-desis`, `-rrhaphy`, `-centesis`, `-tripsy`.
-
-### 3.4 Raízes e aplicações por sistema — 260
-
-| Sistema | Cards | Famílias prioritárias |
-|---|---:|---|
-| Célula, tecidos e embriologia | 30 | `cyt/o`, `hist/o`, `kary/o`, `nucle/o`, `somat/o`, `morph/o`, `blast/o`, `embry/o`, `fet/o`, `derm(at)/o`, `troph/o`, `gen-` |
-| Cardiovascular e hematológico | 32 | `cardi/o`, `angi/o`, `vas/o`, `arteri/o`, `phleb/o/ven/o`, `hem(at)/o`, `erythr/o`, `leuk/o`, `thromb/o`, `lymph/o`, `splen/o`, `myel/o` |
-| Respiratório | 20 | `pneum(on)/o`, `pulmon/o`, `bronch/o`, `trache/o`, `laryng/o`, `pharyng/o`, `pleur/o`, `thorac/o`, `ox/o`, `capn/o` |
-| Gastrointestinal e hepatobiliar | 28 | `stomat/o`, `gloss/o/lingu/o`, `odont/o/dent/o`, `esophag/o`, `gastr/o`, `enter/o`, `ile/o`, `col/o`, `hepat/o`, `chol(e)/o`, `cholecyst/o`, `pancreat/o` |
-| Renal e urinário | 21 | `nephr/o/ren/o`, `glomerul/o`, `pyel/o`, `cyst/o`, `ureter/o`, `urethr/o`, `ur/o`, `lith/o` |
-| Nervoso e sentidos | 35 | `neur/o`, `encephal/o`, `cerebr/o`, `cerebell/o`, `myel/o`, `mening/o`, `psych/o`, `esthesi/o`, `algesi/o`, `ophthalm/o/ocul/o`, `ot/o/aur/o`, `rhin/o`, `retin/o` |
-| Musculoesquelético | 27 | `oste/o`, `arthr/o`, `chondr/o`, `my/o`, `ten/o/tendin/o`, `desm/o`, `fasci/o`, `burs/o`, `crani/o`, `spondyl/o/vertebr/o`, `pod/o`, `chir/o` |
-| Endócrino e metabólico | 23 | `aden/o`, `glyc/o/gluc/o`, `lip/o/adip/o`, `ket/o`, `thyroid/o`, `parathyroid/o`, `adren/o`, `hypophys/o`, `home/o` |
-| Reprodutor e obstetrícia | 25 | `gynec/o`, `andr/o`, `hyster/o/metr/o/uter/o`, `oophor/o/ovari/o`, `salping/o`, `colp/o/vagin/o`, `mamm/o/mast/o`, `orch/o/test/o`, `prostat/o`, `spermat/o`, `ov/o`, `gravid/o`, `par/o`, `toc/o` |
-| Pele, imune e linfático | 19 | `derm(at)/o/cut/o`, `kerat/o`, `melan/o`, `hidr/o`, `onych/o`, `trich/o/pil/o`, `immun/o`, `thym/o`, `lymph/o`, `aden/o` |
-
-Cada sistema segue: âncora frequente → segunda aplicação → variante/paralelo → contraste/limite → mistura com afixos anteriores.
-
-### 3.5 Processos médicos — 55
-
-- patologia geral: 13;
-- microbiologia e imunologia: 12;
-- farmacologia: 10;
-- laboratório e imagem: 11;
-- clínica e exame físico: 9.
-
-Stems de fármacos só entram quando oficiais e produtivos; são pistas de família, nunca prova de mecanismo, indicação ou segurança.
-
-### 3.6 Famílias e contrastes — 42
-
-- pares grego–latim: 9;
-- procedimentos confundíveis: 9;
-- processos confundíveis: 8;
-- variantes e alomorfes: 8;
-- PT-BR, inglês e latim anatômico: 8.
-
-Contrastes obrigatórios incluem: `nephr-/ren-`, `derm-/cut-`, `phleb-/ven-`, `ophthalm-/ocul-`, `odont-/dent-`, `-ectomy/-otomy/-ostomy`, `-graph/-graphy/-gram`, `-scope/-scopy`, hipertrofia/hiperplasia, stenosis/sclerosis, genesis/poiesis, paresis/plegia e penia/cytosis.
-
-### 3.7 Exceções e armadilhas — 31
-
-- polissemia: 7;
-- falsa segmentação: 6;
-- literal versus clínico: 7;
-- epônimos e acrônimos: 6;
-- híbridos e históricos: 5.
-
-O alvo é evitar erro plausível e confiante, não colecionar curiosidades.
-
-### 3.8 Transferência guiada — 22
-
-- decodificar termo novo: 6;
-- compor termo inequívoco: 5;
-- termo em contexto clínico: 5;
-- mistura cumulativa: 6.
-
-Os termos das avaliações são diferentes dos treinos guiados.
-
-## 4. Dependências pedagógicas
-
-```text
-Fundamentos
-  -> afixos nucleares
-    -> raiz em termo frequente
-      -> termo com 2 partes
-        -> termo com 3 partes
-          -> contraste
-            -> exceção
-              -> transferência
+### Tipo C — Origem grega/latina (a língua em si)
+Ensina o étimo antigo e o que ele espalha por várias palavras. Aqui mora o "aprender latim e grego".
+```
+Frente:  O grego {{c1::dys-}} (δυσ-) significa "mau/difícil/perturbado" e aparece em
+         disfunção, dispneia, distrofia.
+Extra:   Antônimo grego: eu- (bem). Não confundir com o latim "dis-" (separação:
+         dissecar). Produtividade altíssima — vale por dezenas de palavras.
 ```
 
-Regras:
+### Tipo D — Contraste / dupla grego–latim (o sistema)
+Ensina pares que designam a mesma coisa por línguas diferentes, e a divisão de trabalho entre eles.
+```
+Frente:  Mesmo órgão, duas línguas: grego {{c1::nefr/o}} e latim {{c2::ren/o}} = rim.
+Extra:   Regra prática: o grego costuma reger a patologia (nefrite), o latim a anatomia
+         (artéria renal). Outros pares: derm/o–cut/o, flebo–ven/o, oftalmo–oculo.
+```
 
-- nenhum termo testa três morfemas desconhecidos;
-- antes de transferência, cada componente aparece em ao menos dois contextos;
-- contraste só após apresentação dos dois membros;
-- exceção entra imediatamente após a regra que limita;
-- produção reversa somente após reconhecimento/decomposição estáveis;
-- nenhum morfema novo na semana final.
+### Tipo E — Armadilha / falso amigo / etimologia popular (a segurança)
+Ensina onde a decomposição ingênua falha. Evita o erro plausível e confiante.
+```
+Frente:  Falso amigo: {{c1::angina}} NÃO vem de "raiva"; vem do latim angere (apertar) —
+         a ideia é constrição/aperto.
+Extra:   Literal ≠ clínico. "Angina" descreve a sensação de aperto, não uma emoção.
+         Regra geral: a glosa literal é pista, não definição.
+```
 
-## 5. Seleção e poda
+### Tipo F — Decodificação guiada (o exercício da habilidade)
+O Davi decompõe um termo **usando morfemas já vistos**. O alvo é o processo, não o termo.
+```
+Frente:  Leia direita→esquerda: hepat/o + -megalia. O sufixo {{c1::-megalia}} significa
+         "aumento", então o termo descreve aumento do fígado.
+Extra:   Passo 1: sufixo (-megalia = aumento). Passo 2: radical (hepat/o = fígado).
+         Passo 3: prefixo (nenhum). Este card treina o MÉTODO, não a palavra.
+```
+Regra dura do tipo F: **nenhum termo de decodificação pode testar um morfema ainda não ensinado**; e o alvo do cloze é sempre o *morfema/regra*, nunca "a doença".
 
-### Gates obrigatórios
+### Anti-exemplos (o que NUNCA entra)
+```
+RUIM: "Hepatomegalia é o aumento do {{c1::fígado}}."      → testa fato médico, não etimologia
+RUIM: "A hepatite é uma inflamação causada por {{c1::vírus}}." → conteúdo clínico puro
+RUIM: "O tratamento da {{c1::pancreatite}} inclui jejum."   → medicina, zero etimologia
+RUIM: card de farmacologia/indicação/conduta                → fora de escopo por definição
+```
+Todo card reprovado no **teste de admissão de uma linha** vira anti-exemplo em `flashcards/ANTI-EXEMPLARES-CARDS.md` com o porquê.
 
-O item precisa:
+### Regras transversais de forma (todos os tipos)
+- **Cloze**: exatamente um `c1` (raros `c1+c2` em contraste tipo D); alvo de 1–3 palavras; resposta inequívoca; sem vazamento (a frente não entrega a resposta).
+- **Extra**: PT-BR, 30–70 palavras, teto 90; usa só as linhas necessárias do contrato `Origem / Étimo / Regra / Contraste / Limite / Exemplos`. **`Limit` (literal ≠ clínico) é obrigatório em todo card de tipo E e sempre que houver risco de inferência insegura.**
+- **Sem imagem por padrão** (`visual_need=none`). Imagem só resolve tarefa explícita (mapa de família de morfemas, assimilação sonora, uma relação espacial). Proibida imagem decorativa — herda o gate `verificar_imagem_card.py`.
+- **Atomicidade**: um morfema/regra por card. Enumeração paralela (um par de dupla) pode ser 1 card com 2 clozes; nunca N cards-irmãos redundantes (ver A18).
+- **Áudio**: opcional e seletivo (30–50 étimos gregos/latinos de alto atrito), só no verso. Ensina pronúncia médica contemporânea, não reconstrução do grego antigo.
 
-- ocorrer no primeiro ano ou ter alta produtividade futura;
-- possuir segmentação defensável;
-- ter significado clínico verificável;
-- acrescentar habilidade não coberta;
-- ser formulável como alvo inequívoco;
-- possuir fonte linguística e médica independentes.
+---
 
-### Pontuação
+## 2. ESCOPO E MATRIZ (540 cards, reorganizados por ETIMOLOGIA)
+
+A v1 organizava 260 cards "por sistema do corpo" — o vetor do desvio. A v2 organiza pelo **eixo etimológico**: o que se aprende é a língua e a formação, e os sistemas do corpo só fornecem os *exemplos* dos morfemas.
+
+| Módulo | Alvo | O que ensina (alvo de aprendizagem) |
+|---|---:|---|
+| 01_Fundamentos_de_formação | 40 | prefixo/radical/sufixo/forma combinante; vogal de ligação; leitura direita→esquerda; quando NÃO se decompõe; literal ≠ clínico |
+| 02_Grego_vs_Latim | 50 | as duas línguas-fonte; étimos-chave; por que a medicina mistura as duas; registros (patologia grega / anatomia latina) |
+| 03_Prefixos | 70 | posição, direção, quantidade, tempo, negação, intensidade — **como unidades de sentido produtivas**, com o étimo |
+| 04_Sufixos | 80 | condição, processo, inflamação/tumor, exame, cirurgia — o sufixo como "o que a palavra faz", com o étimo |
+| 05_Radicais_de_alto_rendimento | 150 | os radicais que **explicam mais palavras** (não "por sistema": por produtividade), sempre com origem grega/latina |
+| 06_Duplas_e_contrastes | 60 | pares grego–latim; alomorfes; variantes EN/PT/latim anatômico; formas confundíveis |
+| 07_Armadilhas_e_falsos_amigos | 50 | falsa segmentação, polissemia, etimologia popular, epônimos/acrônimos, híbridos |
+| 08_Decodificação_guiada | 40 | o exercício do método em termos compostos, cumulativo, só com morfemas já vistos |
+| **Total** | **540** | |
+
+Reserva 0–30 só de erros reais; teto operacional 570; 600 absoluto. `09_Avaliações` (segregado) e `10_Resgate` (vazio) não contam.
+
+**Sequência dentro de cada módulo:** morfema (tipo A) → origem (tipo C) → regra que o rege (tipo B) → contraste/dupla (tipo D) → armadilha (tipo E) → decodificação que o usa (tipo F). Nenhum termo de decodificação testa morfema não ensinado; antes de decodificação, cada morfema apareceu em ≥2 contextos.
+
+**Corpus de exemplos:** os radicais de alto rendimento saem do vocabulário que o Davi encontra no 1º ano (embriologia, histologia, anatomia, fisiologia — as aulas que o NEBLI já cobre), mas o **card testa o morfema/regra**, não o conteúdo daquela aula.
+
+---
+
+## 2.1 INVENTÁRIO-SEMENTE — os morfemas de maior frequência no curso (pesquisa 2026-07-16)
+
+Lista priorizada dos morfemas que **mais aparecem e mais decodificam** ao longo do 1º ano e além. É a fonte de onde cada módulo puxa seus cards-âncora (tipo A) + origem (tipo C). Origem marcada: **(G)** grego · **(L)** latim · **(H)** híbrido/uso misto. Cada item vira ≥1 card; os de altíssima produtividade (⭐) entram primeiro. **O card testa o morfema/origem — nunca o termo-exemplo.**
+
+### Prefixos de alta frequência (~35)
+- **Posição/direção:** endo-(G)⭐ / intra-(L) · ecto-(G) / exo-(G) · epi-(G)⭐ · peri-(G)⭐ / circum-(L) · inter-(L) · sub-(L) / infra-(L) · supra-(L) / super-(L) · trans-(L) / dia-(G) · retro-(L) · para-(G)⭐ · ante-(L) / pre-(L) / post-(L)⭐ · meso-(G) · meta-(G) · ab-(L) / ad-(L)
+- **Quantidade/tamanho:** mono-(G) / uni-(L) · bi-(L) / di-(G) · tri- · hemi-(G) / semi-(L) · oligo-(G) / poly-(G)⭐ · micro-(G) / macro-(G) · mega-(G) / megalo-(G) · pan-(G)
+- **Tempo/velocidade:** brady-(G) / tachy-(G)⭐ · neo-(G)⭐
+- **Negação/normalidade:** a-/an-(G)⭐ · in-/im-/il-/ir-(L) · dys-(G)⭐ / eu-(G) · mal-(L)
+- **Intensidade/relação/semelhança:** hyper-(G)⭐ / hypo-(G)⭐ · auto-(G) / allo-(G) · homo-/homeo-(G) · hetero-(G) · iso-(G) · syn-/sym-(G)⭐ · pseudo-(G) · anti-(G)⭐ / contra-(L)
+
+### Sufixos de alta frequência (~55) — o eixo de maior rendimento
+- **Condição/processo:** -ia · -iasis(G) · -ism · -osis(G)⭐ · -y
+- **Doença/inflamação/tumor:** -itis(G)⭐ · -oma(G)⭐ · -pathy(G)⭐ · -malacia(G) · -sclerosis(G) · -stenosis(G) · -necrosis(G) · -ptosis(G) · -cele(G) · -megaly(G)⭐ · -plasia(G) · -trophy(G) · -genesis(G)⭐ · -lysis(G)⭐ · -poiesis(G)
+- **Sinais/sintomas:** -algia/-dynia(G)⭐ · -emia(G)⭐ · -uria(G) · -penia(G) · -cytosis(G) · -rrhea(G) · -rrhage/-rrhagia(G) · -spasm(G) · -pnea(G) · -phagia(G) · -phasia(G) · -plegia(G) · -paresis(G) · -phobia(G) · -philia(G)
+- **Exames/medidas/registros:** -gram/-graph/-graphy(G)⭐ · -meter/-metry(G) · -scope/-scopy(G)⭐ · -opsy(G) · -logy(G)⭐ / -logist(G)
+- **Cirurgia:** -ectomy(G)⭐ · -otomy(G) · -ostomy(G) · -plasty(G) · -pexy(G) · -desis(G) · -rrhaphy(G) · -centesis(G) · -tripsy(G)
+- **Agente/especialidade/adjetivos:** -ist / -iatry(G) / -iatrics(G) · -oid(G, "semelhante a")⭐ · -ic/-ac/-al/-ar/-ous (adjetivais)
+
+### Radicais de altíssimo rendimento (~90) — priorizados por quantas palavras explicam
+- **Célula/geral:** cyt/o(G)⭐ · hist/o(G) · kary/o(G) · nucle/o(L) · somat/o(G) · morph/o(G) · blast/o(G) · gen-(G, produzir/origem)⭐ · phag-(G, comer) · troph-(G, nutrir) · plas-(G, formar) · stas-(G, parar) · lys-(G, quebrar) · scler-(G, endurecer) · malac-(G, amolecer)
+- **Sangue/vasos:** cardi/o(G)⭐ · angi/o(G) / vas/o(L) · arteri/o(G) · phleb/o(G) / ven/o(L) · hem/o-hemat/o(G)⭐ · erythr/o(G) · leuk/o(G) · thromb/o(G) · lymph/o(L) · splen/o(G)
+- **Respiratório:** pneum/o-pneumon/o(G) / pulmon/o(L) · bronch/o(G) · trache/o(G) · laryng/o(G) · pharyng/o(G) · pleur/o(G) · thorac/o(G) · spir-(L, respirar)
+- **Digestório:** stomat/o(G) · gloss/o(G) / lingu/o(L) · odont/o(G) / dent/o(L) · gastr/o(G)⭐ · enter/o(G)⭐ · hepat/o(G)⭐ · col/o(G) · chol/e(G, bile) · pancreat/o(G)
+- **Renal:** nephr/o(G)⭐ / ren/o(L) · cyst/o(G) · ur/o(G) · lith/o(G, pedra)
+- **Nervoso/sentidos:** neur/o(G)⭐ · encephal/o(G) · cerebr/o(L) · mening/o(G) · myel/o(G, medula) · psych/o(G) · esthesi/o(G, sensação) · ophthalm/o(G) / ocul/o(L) · ot/o(G) / aur/o(L) · rhin/o(G) · opt/o(G)
+- **Musculoesquelético:** oste/o(G)⭐ · arthr/o(G)⭐ · chondr/o(G) · my/o(G)⭐ · ten/o(G) / tendin/o(L) · crani/o(G) · spondyl/o(G) / vertebr/o(L)
+- **Endócrino/metabólico:** aden/o(G) · glyc/o-gluc/o(G)⭐ · lip/o(G) / adip/o(L) · thyr/o(G) · adren/o(L)
+- **Tegumentar:** derm/o-dermat/o(G)⭐ / cut/o(L) · kerat/o(G) · melan/o(G) · trich/o(G) / pil/o(L)
+- **Cores (transversais, muito produtivas):** erythr/o(G, vermelho) · leuk/o(G, branco) · melan/o(G, preto) · cyan/o(G, azul) · xanth/o(G, amarelo) · chlor/o(G, verde) · poli/o(G, cinza)
+
+Fontes do inventário: [Wikipedia — List of medical roots and affixes](https://en.wikipedia.org/wiki/List_of_medical_roots_and_affixes), [OpenMD word parts](https://openmd.com/dictionary/medical-word-parts), [SDR Foundation](https://sdrfoundation.org/medical-terminology-suffix-prefix-combining-forms). Cada morfema aqui recebe, no dossiê, seu **étimo grego/latino real** validado em LSJ / Lewis & Short antes de virar card.
+
+---
+
+## 3. PONTUAÇÃO E PODA (recalibrada para etimologia)
+
+Gate de admissão — o item precisa: (a) ser um morfema/regra/étimo **produtivo** (explica várias palavras) OU uma armadilha de risco real; (b) ter segmentação/origem defensável por fonte linguística; (c) passar no **teste de admissão de uma linha** (§0); (d) acrescentar habilidade não coberta; (e) ser formulável como alvo inequívoco.
 
 | Critério | Pontos |
 |---|---:|
-| Frequência no corpus real da faculdade | 0–4 |
-| Explica várias palavras | 0–3 |
-| Aparece em mais de um sistema | 0–2 |
-| Reduz confusão frequente | 0–2 |
-| Cria ponte PT-BR/EN | 0–2 |
-| Ajuda a interpretar termo novo | 0–2 |
-| Custo cognitivo desproporcional | −2 |
-| Interesse apenas histórico | −2 |
-| Favorece inferência insegura | −3 |
+| Produtividade (quantas palavras o morfema/regra decodifica) | 0–4 |
+| Valor de transferência (ajuda a ler termo novo) | 0–3 |
+| Aparece em mais de um sistema/domínio | 0–2 |
+| Reduz confusão frequente (contraste/armadilha) | 0–2 |
+| Ensina a língua (étimo grego/latino explícito) | 0–2 |
+| **É conteúdo médico disfarçado (falha o teste de uma linha)** | **−5 (corte automático)** |
+| Interesse só histórico/curiosidade | −2 |
+| Favorece inferência insegura sem marcar o limite | −3 |
 
-Limiares: afixo/raiz ≥7; aplicação ≥6; armadilha ≥5 e risco plausível. Abaixo disso, vira exemplo no Extra ou é cortado.
+Limiares: morfema/regra ≥7; contraste ≥6; armadilha ≥5 com risco plausível. Abaixo, vira exemplo no Extra ou corta.
 
-## 6. Unidade de produção: dossiê de família
+---
 
-Antes de escrever cards, criar um dossiê com:
+## 4. O MEGA-DEBATE MULTI-AGENTE (como gerar os 540 com máxima eficácia)
 
-- `family_id` e `canonical_morpheme_id`;
-- formas superficiais, alomorfes e variantes US/UK/PT/latim;
-- sentidos operacionais separados por `sense_id`;
-- análise sincrônica e história;
-- produtividade e frequência no corpus local;
-- 3–8 termos candidatos;
-- termos escolhidos, exemplos de Extra e itens reservados para avaliação;
-- contraste, armadilha e limite;
-- fontes por claim e licenças;
-- pré-requisitos e objetivo de aprendizagem.
+O norte de eficácia: **cada agente com uma lente única e afiada; críticos baratos em paralelo; síntese cara só no fim; a sessão principal orquestra e é a única que escreve.** Isso contorna o bug F9 (subagente que simula tool call / não dispara Read): **nenhum subagente edita nada — todos só devolvem JULGAMENTO em texto**, no mesmo molde do `card-mirror` que já funciona.
 
-Um dossiê normalmente gera 1 card-âncora, 1–2 aplicações e, apenas quando necessário, 1 contraste/armadilha.
+### Unidade de trabalho: o dossiê de família
+Antes de qualquer card, a sessão principal monta um **dossiê** de uma família de morfemas (ex.: a família `nefr/o–ren/o` "rim"): formas e alomorfes, sentidos por `sense_id`, **origem grega/latina com étimo**, produtividade, 3–8 termos-exemplo (só como ilustração), contraste, armadilha, e o objetivo de aprendizagem. Um dossiê gera tipicamente 1 morfema + 1 origem + 1 regra aplicável + 1 contraste + (se preciso) 1 armadilha.
 
-## 7. Perfil do card
+### As rodadas do debate (por lote de dossiês)
+1. **Proponente** (sessão principal, Opus): rascunha os cards candidatos do dossiê, cada um já marcado com seu **tipo A–F** e alvo de aprendizagem.
+2. **Painel adversarial** (subagentes em PARALELO, uma mensagem, modelos baratos, cada um com veto na sua lente):
+   - **Etimólogo** (Sonnet): a segmentação e a origem estão corretas? grego vs latim certo? não é etimologia popular?
+   - **Guardião anti-vocabulário-médico** (Sonnet) — *o crítico-chave*: este card testa ETIMOLOGIA ou contrabandeia um fato clínico? Aplica o teste de uma linha (§0). **Veto duro.**
+   - **Crítico de decodificação** (Sonnet): o card constrói habilidade transferível de decompor, ou é só um par para decorar?
+   - **Card-mirror / retenção** (agente `card-mirror` existente): atomicidade, cloze, vazamento, PT natural, indistinguível de bom card real.
+   - **Crítico bilíngue/PT** (Haiku): PT-BR natural, nomenclatura oficial, sem tradução artificial.
+3. **Síntese/juiz** (sessão principal, Opus): lê os vereditos, **resolve os conflitos** (é aqui que o "debate" acontece — divergências entre etimólogo e guardião viram decisão), reescreve ou mata o card, e aplica a rubrica. Card com qualquer veto aberto não passa.
+4. **Registro**: aprovado → lote JSON; reprovado por vocabulário-médico → anti-exemplo com o porquê (alimenta a calibração dos próximos lotes).
 
-Perfil próprio: `etymology_bilingual`.
+### Por que é eficaz (as alavancas)
+- **Paralelismo**: os 5 críticos rodam numa tacada só; latência ≈ 1 crítico.
+- **Modelos por papel**: críticos em Sonnet/Haiku (baratos, muitos cards), só a síntese em Opus.
+- **Lente única por crítico**: julgamento afiado, sem diluição.
+- **Veto do guardião**: o erro que queremos extinguir (vocabulário médico) tem um agente dedicado com poder de corte.
+- **Reuso**: `card-mirror` e o gate `verificar_imagem_card.py` já existem e entram como estações do painel.
+- **Lote por família**: contexto compartilhado, custo amortizado; pesquisa do lote N+1 em paralelo à autoria de N.
 
-- note type: `AnKingOverhaul`;
-- Text: inglês médico natural, 10–24 palavras;
-- exatamente um `c1`, geralmente 1–3 palavras;
-- um alvo e resposta inequívoca;
-- Extra: PT-BR estruturado, idealmente 35–70 palavras, teto 90;
-- produção reversa <10% do deck;
-- exemplos adicionais no verso, sem gerar irmãos automáticos.
+Tamanho de lote: 40–60 cards por rodada de debate. Holdout de avaliação separado desde o início.
 
-Contrato do Extra:
+---
 
-```text
-Parts: ...
-Literal: ...
-Clinical: ...
-PT-BR: ...
-Limit: ...
-Family/contrast: ...
-```
+## 5. PIPELINE POR LOTE (gates herdados, com o foco novo)
 
-Usar somente as linhas necessárias, mas `Literal`, `Clinical` e `Limit` não podem ser fundidos em cards de risco.
+- **G0 blueprint**: objetivos, morfemas, dependências, holdout congelados.
+- **G1 dossiês + fontes**: cada claim mapeado a uma fonte **linguística** e (quando houver termo-exemplo) uma médica.
+- **G2 draft**: cards escritos do dossiê (nunca de uma lista/site direto), marcados por tipo A–F.
+- **G3 lint/schema**: `validate_etymology.py` — exatamente um `c1`, cloze não vazado, limites de tamanho, **checagem do teste de uma linha por heurística** (flag de termos que parecem alvo clínico), dedup por morfema/família.
+- **G4 mega-debate**: painel adversarial + síntese (§4); rubrica aprovada; zero veto aberto.
+- **G5 staging + mirror**: render desktop/AnkiDroid, `card-mirror`, dedup, cobertura, zero leakage.
+- **G6 auditoria sênior**: amostra cega + 100% dos high-risk (armadilhas, híbridos, disputas de origem).
+- **G7 piloto**: liberação gradual + telemetria + teste inédito de decodificação.
+- **G8 promoção**: `release_etymology.py` idempotente, suspenso→ativo, rollback testado; nunca toca card alheio.
+- **G9 pós-uso**: flags/comentários/leeches viram tickets; erro de origem revalida a família inteira.
 
-## 8. Schema v2 e artefatos
+Hard gates de lote: 100% fontes, 100% painel, rubrica média ≥19/21, 0 veto de vocabulário-médico, 0 leakage, 0 duplicata injustificada, 100% mirror.
 
-### Identidade
+---
 
-`schema_version`, `uid`, `revision`, `content_hash`, `deck`, `module`, `sequence`, `kind`, `learning_objective`, `status`, timestamps.
-
-### Conteúdo
-
-Text/answer/accepted answers; termos EN/PT; morfemas estruturados com `canonical_id`, papel e `sense_id`; glosas literais; significados clínicos; `inference_class`; variantes; famílias, contrastes, traps e pré-requisitos.
-
-### Fontes
-
-Fontes como objetos por claim: tipo, obra/organização, autor, URL/identificador, página/verbete, data de acesso, licença, URL da licença e notas. Exigir uma fonte linguística e uma médica; duas para híbridos, disputas e desvio semântico.
-
-### Revisão
-
-Objetos separados: `linguistic_review`, `medical_review`, `bilingual_review`, `learning_design_review`, com revisor, data, decisão e achados.
-
-### Artefatos canônicos
-
-- `curriculum_matrix.csv`;
-- `morpheme_catalog.json`;
-- `sources/source_ledger.csv`;
-- `cards/lote-XX.json`;
-- `qa/lote-XX-*.json`;
-- `assessments/` segregado;
-- `releases/vX.Y.Z/manifest.json` + snapshots + relatório;
-- `feedback/telemetry.csv`;
-- `CHANGELOG.md`.
-
-## 9. Fontes e direitos
-
-Camadas preferenciais:
-
-- estrutura: OpenRN *Medical Terminology 2e* + outro OER;
-- nomenclatura: FIPAT e termos individuais oficiais;
-- medicina: OpenStax, NCBI Bookshelf e fontes oficiais;
-- PT-BR: DeCS/BVS como validação sob sua licença, uso médico institucional e nomenclatura oficial;
-- história: LSJ e Lewis & Short; duas fontes em casos difíceis;
-- fármacos: WHO INN e USAN;
-- inglês controlado: NLM MeSH.
-
-Texto pedagógico é autoral. Decks Anki e livros comerciais são benchmark, não corpus. Toda mídia exige fonte original, licença, atribuição e hash.
-
-## 10. Imagem e áudio
-
-Este deck é predominantemente verbal: `visual_need=none` por padrão.
-
-Imagem somente quando resolve tarefa explícita: mapa de família, assimilação, relação espacial ou estrutura anatômica. Proibida imagem decorativa ou genérica.
-
-Áudio seletivo para 30–50 termos EN de alto atrito; verso apenas, sem autoplay frontal. Registrar locale, voz/TTS, licença, data e hash; revisão humana auditiva. Ensinar pronúncia médica contemporânea, não reconstrução do grego/latim antigo.
-
-## 11. QA automático
-
-Criar `validate_etymology.py`, integrando schema, manifesto e regras:
-
-- UID/deck/status válidos e únicos;
-- exatamente um `c1`, nenhum `c2+`;
-- cloze curto e não vazado por tradução, variante, flexão ou campo visível;
-- frente e Extra dentro dos limites;
-- accepted answers cobrem sinônimos válidos;
-- léxico canônico consistente por `canonical_id+sense_id`;
-- reconstrução da forma superficial ou regra ortográfica declarada;
-- fonte adequada para cada claim;
-- high-risk exige trap e limite;
-- licença/atribuição/mídia resolvidas;
-- deduplicação por UID, texto, resposta, família e similaridade;
-- ausência de termos do banco retido em Text, Extra, exemplos, mídia, alt-text ou áudio.
-
-Cada regra recebe fixtures positivas e negativas; todo bug real vira teste de regressão.
-
-## 12. Revisões humanas
-
-1. **Curricular:** utilidade, escopo e redundância.
-2. **Linguística:** segmentação, forma combinante, alomorfia, origem e incerteza.
-3. **Médica:** significado vigente, nomenclatura e segurança.
-4. **Bilíngue:** inglês natural e PT-BR realmente usado.
-5. **Pedagógica/card-mirror:** atomicidade, cloze, recuperação e Extra.
-
-Autor não aprova o próprio card nas dimensões críticas. Todos recebem revisão linguística e médica. High-risk recebe dupla revisão. Auditor sênior revisa 10–15% aleatório + 100% high-risk; erro factual grave reabre o lote.
-
-## 13. Rubrica por card — 0 a 3
-
-- correção linguística;
-- correção médica;
-- valor de transferência;
-- recuperação/atomicidade;
-- naturalidade EN/PT-BR;
-- Extra e limite;
+## 6. RUBRICA POR CARD — 0 a 3 (recentrada)
+- correção **linguística** (segmentação/origem) — obrigatório 3;
+- **foco etimológico** (passa o teste de uma linha; não é vocabulário médico) — obrigatório 3;
+- valor de transferência/decodificação;
+- recuperação/atomicidade/cloze;
+- naturalidade PT-BR;
+- Extra e limite (literal ≠ clínico onde há risco);
 - fontes/direitos.
 
-Gate: ≥18/21, nenhum zero; correção linguística, médica e fontes obrigatoriamente 3. `Blocker`: erro factual, falsa etimologia, ambiguidade clínica, licença desconhecida ou vazamento de avaliação. `Major`: resposta induzida, tradução artificial ou redundância. Nenhum blocker/major pode permanecer aberto.
+Gate: ≥18/21, nenhum zero; linguística e foco-etimológico obrigatoriamente 3. **`Blocker`**: fato médico como alvo, falsa etimologia, ambiguidade, licença desconhecida, vazamento de avaliação. **`Major`**: resposta induzida, tradução artificial, redundância, par decorado sem valor de transferência.
 
-## 14. Pipeline por lote
+---
 
-### G0 — blueprint
+## 7. PERFIL DO CARD E SCHEMA
+- note type `AnKingOverhaul`; perfil `etymology_pt`.
+- **Text: PT-BR** (10–24 palavras), um `c1` (1–3 palavras).
+- **Extra: PT-BR** estruturado (`Origem / Étimo / Regra / Contraste / Limite / Exemplos`), 30–70 palavras.
+- Campo estruturado por card: `tipo` (A–F), `morfema_id` + `sense_id`, `origem` (grego/latim/híbrido), `étimo`, `produtividade`, `inference_class`, `pré-requisitos`, `learning_objective`.
+- Produção reversa <10% do deck.
+- Fontes como objeto por claim (tipo, obra, URL, verbete, licença, hash). Uma linguística sempre; duas para híbridos/disputas.
 
-Objetivos, morfemas, dependências, orçamento e itens holdout congelados.
+---
 
-### G1 — source pack
+## 8. FONTES E DIREITOS
+Camadas preferenciais, **priorizando as linguísticas** (mudança da v1, que priorizava as médicas):
+- **Estrutura de formação**: OER de *Medical Terminology* (OpenRN / Nicolet) como andaime pedagógico.
+- **Grego/latim (étimos)**: LSJ (Liddell–Scott–Jones) e Lewis & Short; Wiktionary como ponte com verbete rastreável; duas fontes em casos difíceis.
+- **Nomenclatura**: FIPAT / Terminologia Anatomica para as formas oficiais.
+- **PT-BR**: DeCS/BVS e nomenclatura oficial para validar a forma usada no Brasil.
+- **Termos-exemplo (só ilustração)**: OpenStax/NCBI Bookshelf.
+Texto pedagógico é autoral. Decks e livros comerciais são benchmark, não corpus. Toda mídia com fonte, licença, atribuição e hash.
 
-Claims mapeados a fontes, localizadores e licenças.
+Fundamentação pedagógica e boas práticas pesquisadas em 2026-07-16:
+- decodificação por raízes > memorização; aprender o morfema como vocabulário com a etimologia de âncora ([RSIS/IJRISS](https://rsisinternational.org/journals/ijriss/articles/addressing-students-lack-of-latin-knowledge-in-medical-terminology/), [TalentMed](https://talentmed.edu.au/medical-terminology/greek-and-latin-roots-in-medical-terminology/));
+- leitura direita→esquerda (sufixo→radical→prefixo) e vogal de ligação ([SDR Foundation](https://sdrfoundation.org/medical-terminology-suffix-prefix-combining-forms), [Sciencefix](https://sciencefix.blog/combining-vowels-secret-medical-terminology-fast));
+- duplas grego–latim, híbridos e falsos amigos ([Transcend](https://www.transcendwithwords.com/post/medical-terminology-greek-and-latin-origins-and-word-formation-guidelines), [Wikipedia — medical roots/affixes](https://en.wikipedia.org/wiki/List_of_medical_roots,_suffixes_and_prefixes)).
 
-### G2 — draft
+---
 
-Cards redigidos do dossiê, não diretamente de lista/webpage.
+## 9. QA AUTOMÁTICO — `validate_etymology.py`
+UID/status únicos; exatamente um `c1`; cloze não vazado por tradução/variante/campo visível; frente e Extra nos limites; **heurística anti-vocabulário-médico** (marca cards cujo alvo é um substantivo clínico sem morfema no cloze); léxico canônico consistente por `morfema_id+sense_id`; reconstrução da forma superficial (regra da vogal de ligação declarada); fonte por claim; high-risk exige armadilha+limite; dedup por morfema/família/similaridade; ausência de termos do holdout em qualquer campo. Cada regra com fixtures ±; todo bug vira teste de regressão.
 
-### G3 — lint/schema
+---
 
-Zero REJECT e nenhuma pendência estrutural.
+## 10. AVALIAÇÃO, RITMO E ENCERRAMENTO
+- **Avaliação segregada** mede **decodificação**, não vocabulário: dado um termo inédito decomponível, o Davi segmenta, dá a glosa literal, aponta origem e marca o limite. "Não sei / não é seguro inferir" é resposta legítima.
+- **Ritmo**: 7–10 novos/dia, 6 dias/semana; estudar pelo deck-pai; pausa automática de novos se houver vencidos, retenção <80% ou carga >25 min/dia por 3 dias.
+- **Gates de eficácia** (o lote-zero só expande se): ≥85% nos treinados; ≥75% em **termos inéditos decomponíveis** (a métrica que importa — transferência); ≤10% de erro confiante em armadilhas; mediana ≤10 s.
+- **Pronto** quando 540 (ou menos) cobrem a matriz etimológica sem enchimento, 100% passam schema/lint + revisão linguística, 0 blocker/major/vazamento, staging idempotente e provas de decodificação prontas.
 
-### G4 — revisões humanas
+---
 
-Curricular, linguística, médica, bilíngue e pedagógica concluídas; rubrica aprovada.
-
-### G5 — staging e mirror
-
-Render desktop/AnkiDroid, card-mirror, dedup, cobertura e leakage: zero erro.
-
-### G6 — auditoria sênior
-
-Amostra cega + todos os high-risk.
-
-### G7 — piloto/checkpoint
-
-Liberação gradual, telemetria e teste inédito.
-
-### G8 — promoção
-
-Snapshot, release manifest, changelog, apply idempotente e rollback.
-
-### G9 — pós-uso
-
-Flags, comentários e leeches viram tickets; correção factual revalida a família inteira.
-
-## 15. Produção e releases
-
-O lote zero já planejado tem 60 cards + 15 itens retidos. Executá-lo por 7–10 dias antes de congelar o template.
-
-Após aprovação, produzir lotes de 40–60. Pesquisa dos lotes N+1/N+2 pode ocorrer em paralelo à autoria de N+1 e revisão de N; publicação é sempre sequencial. Um coverage report recalcula os totais da matriz após cada release.
-
-Versionamento:
-
-- `v0.1`: lote zero;
-- `v0.2`: template/schema congelados;
-- minors seguintes: lotes curriculares;
-- `v1.0`: deck completo e provas prontas;
-- patch: correção sem mudança de escopo;
-- major: quebra de schema/template.
-
-Hard gates de lote: 100% fontes, 100% revisões, média de rubrica ≥19/21, 0 blocker/major, 0 leakage, 0 duplicata não justificada, 100% mirror humano e cobertura dentro do orçamento ±10%.
-
-## 16. Aplicação segura no Anki
-
-O aplicador genérico atual não é suficiente para 540 cards. Criar `release_etymology.py` com dry-run padrão:
-
-- só aceita cards `approved` em release fechado;
-- valida que deck existe e Reviewer não está aberto;
-- snapshot prévio de campos, deck, tags e suspensão;
-- identifica por tag UID imutável;
-- cria/atualiza idempotentemente;
-- publica inicialmente suspenso;
-- relê e compara hash, UID, contagens e deck;
-- promove apenas após pós-condições;
-- manifesta `UID -> noteId/cardId/hash`;
-- rollback restaura cards antigos e suspende/tagueia novos, sem apagar automaticamente.
-
-Nunca mover ou modificar cards alheios.
-
-## 17. Avaliação segregada
-
-Manter conteúdo sob custódia separada da autoria. Formas paralelas equilibradas por número de morfemas, produtividade, transparência, variante e risco:
-
-- diagnóstico: 20–30 itens;
-- checkpoint fundamentos: 20;
-- checkpoint sistemas: 24;
-- marcos intermediários após afixos, metade dos sistemas e processos;
-- finais A e B: 32–40 cada, separados por 7 dias;
-- retenção D+30: 24–32 inéditos equivalentes.
-
-Cada item mede segmentação, glosa, significado clínico, limite, confiança e latência. A resposta `não sei / não é seguro inferir` é legítima.
-
-## 18. Gates de eficácia
-
-Lote zero só expande se houver:
-
-- ≥85% nos treinados;
-- ≥75% nos inéditos decomponíveis;
-- ≤10% de erros de alta confiança em armadilhas;
-- mediana ≤10 s nos cards maduros;
-- ≤10% de cards ambíguos/flagados;
-- carga ≤20–25 min/dia;
-- ganho em transferência, não apenas memorização dos 60.
-
-Falha gera correção e micro-piloto de 15–20 cards, não expansão.
-
-Formatura exige estabilidade nas provas A/B: ≥85% treinados, ≥75–80% transferência, ≤10% erro confiante, cobertura mínima por domínio e ausência de prejuízo curricular.
-
-## 19. Ritmo de estudo e adaptação
-
-- 7–10 novos/dia, 6 dias/semana;
-- estudar pelo deck pai; filhos organizam e controlam liberação;
-- 60–70% do sistema atual, 20–30% de aplicações anteriores, 10% contrastes/limites;
-- pausa automática de novos quando houver vencidos, retenção <80% ou carga >25 min por 3 dias;
-- leech após 3 lapses sai da fila regular e vira diagnóstico/resgate;
-- nenhum card novo na semana final.
-
-## 20. Encerramento e definição de pronto
-
-O deck completo só está pronto quando:
-
-- 540 cards ou menos cobrem a matriz sem enchimento;
-- 100% passam schema/lint, revisão linguística e médica;
-- 100% dos direitos estão resolvidos;
-- 100% dos high-risk têm dupla revisão;
-- não há blocker, major, vazamento ou duplicata não justificada;
-- staging é idempotente, render aprovado e rollback testado;
-- provas paralelas e D+30 estão prontas antes do último módulo;
-- eficácia e carga passam nos gates.
-
-Na formatura: congelar `v1.0`, exportar snapshot e relatório por domínio, suspender o deck principal e aplicar teste frio D+30. Apenas famílias falhas entram em `10_Resgate` por 1–2 semanas. O curso termina; não vira uma dívida permanente de Anki.
-
-DECK E EXPLICAÇÃO TUDO EM PORTUGUÊS
+**DECK E EXPLICAÇÃO: TUDO EM PORTUGUÊS.**
+**REGRA-MÃE, acima de qualquer outra: se o card não ensina latim/grego/formação de palavras, ele não entra — por mais "médico" e útil que pareça.**
