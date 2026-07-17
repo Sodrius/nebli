@@ -88,8 +88,16 @@ RUIM: card de farmacologia/indicação/conduta                → fora de escopo
 ```
 Todo card reprovado no **teste de admissão de uma linha** vira anti-exemplo em `flashcards/ANTI-EXEMPLARES-CARDS.md` com o porquê.
 
+### Regras de calibração APRENDIDAS no piloto (nefr/o–ren/o, mega-debate 2026-07-16) — não reincidir
+Cada regra abaixo nasceu de um erro real que o painel adversarial pegou no 1º lote; o `validate_etymology.py` já barra as verificáveis. Valem para TODO lote daqui pra frente:
+1. **Exemplos, decomposições e glosas que soletram a resposta vão para o Extra — NUNCA na face ao lado do cloze.** (vício sistemático pego pelo card-mirror: "nefr grego + -ite grego" ao lado do cloze soletrava `nefrite`.)
+2. **Nunca inventar nome de lei linguística nem glosa de morfema não atestada; tendência é tendência, não lei.** (o etimólogo vetou "Regra de Grimm morfológica" — Grimm é mutação consonantal germânica — e a glosa falsa "-on marca unidade": -on é desinência de neutro.)
+3. **Sempre um único `c1`; o schema PROÍBE `c2`.** Card de contraste cloza a **regra / divisão de trabalho** (ex.: "o grego rege a {{c1::patologia}}"), não os dois morfemas.
+4. **Respostas de cloze distintas entre os cards do mesmo lote** — dois cards com o mesmo alvo é redundância; diferencie o que cada um cobra.
+5. **A resposta não pode aparecer como substring na face** (ex.: `ren` dentro de `adrenal`; `grego` dentro de "radical grego"). Reescreva a face ou o alvo.
+
 ### Regras transversais de forma (todos os tipos)
-- **Cloze**: exatamente um `c1` (raros `c1+c2` em contraste tipo D); alvo de 1–3 palavras; resposta inequívoca; sem vazamento (a frente não entrega a resposta).
+- **Cloze**: sempre um único `c1` (o schema proíbe `c2` — ver regra 3 acima); alvo de 1–3 palavras; resposta inequívoca; sem vazamento (a frente não entrega a resposta, nem por exemplo/decomposição, nem por substring).
 - **Extra**: PT-BR, 30–70 palavras, teto 90; usa só as linhas necessárias do contrato `Origem / Étimo / Regra / Contraste / Limite / Exemplos`. **`Limit` (literal ≠ clínico) é obrigatório em todo card de tipo E e sempre que houver risco de inferência insegura.**
 - **Sem imagem por padrão** (`visual_need=none`). Imagem só resolve tarefa explícita (mapa de família de morfemas, assimilação sonora, uma relação espacial). Proibida imagem decorativa — herda o gate `verificar_imagem_card.py`.
 - **Atomicidade**: um morfema/regra por card. Enumeração paralela (um par de dupla) pode ser 1 card com 2 clozes; nunca N cards-irmãos redundantes (ver A18).
