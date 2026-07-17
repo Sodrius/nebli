@@ -1,0 +1,74 @@
+{
+  "etim-nefro-01-morfema-grego": {
+    "noteId": 1784288516345,
+    "cardIds": [
+      1784288516350
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::05_Renal_e_urinario"
+  },
+  "etim-nefro-02-morfema-latim": {
+    "noteId": 1784288522564,
+    "cardIds": [
+      1784288522564
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::04_Raizes_por_sistema::05_Renal_e_urinario"
+  },
+  "etim-nefro-03-contraste-dupla": {
+    "noteId": 1784288528859,
+    "cardIds": [
+      1784288528859
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::06_Familias_e_contrastes::01_Pares_grego_latim"
+  },
+  "etim-nefro-04-regra-vogal-ligacao": {
+    "noteId": 1784288535053,
+    "cardIds": [
+      1784288535053
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::02_Forma_combinante_e_vogal_de_ligacao"
+  },
+  "etim-nefro-05-pareamento-lingua": {
+    "noteId": 1784288541240,
+    "cardIds": [
+      1784288541240
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-nefro-06-decodificacao-logia": {
+    "noteId": 1784288547436,
+    "cardIds": [
+      1784288547436
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::08_Transferencia::01_Decodificar_termo_novo"
+  },
+  "etim-nefro-07-transfer-adrenal": {
+    "noteId": 1784288553848,
+    "cardIds": [
+      1784288553848
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::08_Transferencia::02_Compor_termo"
+  },
+  "etim-nefro-08-desinencia-on": {
+    "noteId": 1784288560133,
+    "cardIds": [
+      1784288560133
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::01_Fundamentos::03_Grego_latim_e_hibridos"
+  },
+  "etim-nefro-09-limite-patia": {
+    "noteId": 1784288566321,
+    "cardIds": [
+      1784288566321
+    ],
+    "action": "create",
+    "deck": "NEBLI::Etimologia::07_Excecoes_e_armadilhas::03_Sentido_literal_vs_clinico"
+  }
+}

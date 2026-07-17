@@ -20,12 +20,23 @@
       "origin_language": "Greek",
       "literal_gloss": "rim",
       "inference_limit": "",
-      "variants": ["nephr-", "nephr/o"],
-      "source_etymology": ["LSJ, s.v. νεφρός (Liddell-Scott-Jones, Greek-English Lexicon)"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "variants": [
+        "nephr-",
+        "nephr/o"
+      ],
+      "source_etymology": [
+        "LSJ, s.v. νεφρός (Liddell-Scott-Jones, Greek-English Lexicon)"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-01-morfema-grego", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-01-morfema-grego",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-02-morfema-latim",
@@ -37,12 +48,23 @@
       "origin_language": "Latin",
       "literal_gloss": "rim",
       "inference_limit": "",
-      "variants": ["ren-", "ren/o"],
-      "source_etymology": ["Lewis & Short, s.v. ren (A Latin Dictionary)"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "variants": [
+        "ren-",
+        "ren/o"
+      ],
+      "source_etymology": [
+        "Lewis & Short, s.v. ren (A Latin Dictionary)"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-02-morfema-latim", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-02-morfema-latim",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-03-contraste-dupla",
@@ -55,11 +77,20 @@
       "literal_gloss": "rim",
       "inference_limit": "A divisão grego-patologia / latim-anatomia é tendência forte, não lei absoluta.",
       "variants": [],
-      "source_etymology": ["LSJ, s.v. νεφρός", "Lewis & Short, s.v. ren"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "source_etymology": [
+        "LSJ, s.v. νεφρός",
+        "Lewis & Short, s.v. ren"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-03-contraste-dupla", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-03-contraste-dupla",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-04-regra-vogal-ligacao",
@@ -72,11 +103,19 @@
       "literal_gloss": "inflamação do rim",
       "inference_limit": "",
       "variants": [],
-      "source_etymology": ["LSJ, s.v. νεφρός; -ῖτις (-itis)"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "source_etymology": [
+        "LSJ, s.v. νεφρός; -ῖτις (-itis)"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-04-regra-vogal-ligacao", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-04-regra-vogal-ligacao",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-05-pareamento-lingua",
@@ -89,11 +128,19 @@
       "literal_gloss": "inflamação do rim",
       "inference_limit": "Tendência, não lei: híbridos grego-latim existem.",
       "variants": [],
-      "source_etymology": ["Wikipedia, List of medical roots and affixes (combining-form pairing)"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "source_etymology": [
+        "Wikipedia, List of medical roots and affixes (combining-form pairing)"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-05-pareamento-lingua", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-05-pareamento-lingua",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-06-decodificacao-logia",
@@ -106,11 +153,19 @@
       "literal_gloss": "estudo do rim",
       "inference_limit": "",
       "variants": [],
-      "source_etymology": ["LSJ, s.v. λόγος; νεφρός"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "source_etymology": [
+        "LSJ, s.v. λόγος; νεφρός"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-06-decodificacao-logia", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-06-decodificacao-logia",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-07-transfer-adrenal",
@@ -122,12 +177,22 @@
       "origin_language": "Latin",
       "literal_gloss": "relativo ao que está junto ao rim",
       "inference_limit": "O nome vem da posição, não da função da glândula.",
-      "variants": ["suprarrenal"],
-      "source_etymology": ["Lewis & Short, s.v. ren; ad"],
-      "source_medical": ["Terminologia Anatomica (FIPAT); DeCS/BVS s.v. glândulas suprarrenais"],
+      "variants": [
+        "suprarrenal"
+      ],
+      "source_etymology": [
+        "Lewis & Short, s.v. ren; ad"
+      ],
+      "source_medical": [
+        "Terminologia Anatomica (FIPAT); DeCS/BVS s.v. glândulas suprarrenais"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-07-transfer-adrenal", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-07-transfer-adrenal",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-08-desinencia-on",
@@ -140,11 +205,19 @@
       "literal_gloss": "-on: desinência de neutro (grego)",
       "inference_limit": "-on não carrega o sentido \"unidade\"; néfron é cunhagem moderna, não termo grego antigo.",
       "variants": [],
-      "source_etymology": ["LSJ, morfologia do neutro grego em -ον; s.v. ἰών (íon)"],
-      "source_medical": ["OpenStax Anatomy & Physiology 2e (CC BY), s.v. nephron"],
+      "source_etymology": [
+        "LSJ, morfologia do neutro grego em -ον; s.v. ἰών (íon)"
+      ],
+      "source_medical": [
+        "OpenStax Anatomy & Physiology 2e (CC BY), s.v. nephron"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-08-desinencia-on", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-08-desinencia-on",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     },
     {
       "uid": "etim-nefro-09-limite-patia",
@@ -157,11 +230,19 @@
       "literal_gloss": "sofrimento/doença do rim",
       "inference_limit": "A glosa literal dá a categoria (doença renal), nunca o diagnóstico específico.",
       "variants": [],
-      "source_etymology": ["LSJ, s.v. πάθος"],
-      "source_medical": ["OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"],
+      "source_etymology": [
+        "LSJ, s.v. πάθος"
+      ],
+      "source_medical": [
+        "OpenRN Medical Terminology 2e (CC BY 4.0), NCBI Bookshelf NBK607454"
+      ],
       "license": "CC BY 4.0",
-      "tags": ["etim_uid::etim-nefro-09-limite-patia", "etim::lote-pilot", "etim::familia::nefr-ren"],
-      "status": "draft"
+      "tags": [
+        "etim_uid::etim-nefro-09-limite-patia",
+        "etim::lote-pilot",
+        "etim::familia::nefr-ren"
+      ],
+      "status": "approved"
     }
   ]
 }
