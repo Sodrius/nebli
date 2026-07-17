@@ -98,7 +98,7 @@ Cada regra abaixo nasceu de um erro real que o painel adversarial pegou no 1º l
 
 ### Regras transversais de forma (todos os tipos)
 - **Cloze**: sempre um único `c1` (o schema proíbe `c2` — ver regra 3 acima); alvo de 1–3 palavras; resposta inequívoca; sem vazamento (a frente não entrega a resposta, nem por exemplo/decomposição, nem por substring).
-- **Extra**: PT-BR, 30–70 palavras, teto 90; usa só as linhas necessárias do contrato `Origem / Étimo / Regra / Contraste / Limite / Exemplos`. **`Limit` (literal ≠ clínico) é obrigatório em todo card de tipo E e sempre que houver risco de inferência insegura.**
+- **Extra**: PT-BR, **curto e ENCADEADO como no AnKing** — 1 a 3 frases que fluem numa cadeia causal ("X vem de Y, por isso Z"), NÃO uma lista de rótulos `Origem:/Regra:/Limite:`. Regra de calibração 6 (feedback Davi 2026-07-17): o Extra é prosa efetiva, não formulário. ~25–55 palavras. O limite (literal ≠ clínico) entra encadeado na frase, obrigatório em tipo E e onde houver risco de inferência insegura. Exemplos e a forma PT-BR (quando diverge) entram aqui, nunca na face.
 - **Sem imagem por padrão** (`visual_need=none`). Imagem só resolve tarefa explícita (mapa de família de morfemas, assimilação sonora, uma relação espacial). Proibida imagem decorativa — herda o gate `verificar_imagem_card.py`.
 - **Atomicidade**: um morfema/regra por card. Enumeração paralela (um par de dupla) pode ser 1 card com 2 clozes; nunca N cards-irmãos redundantes (ver A18).
 - **Áudio**: opcional e seletivo (30–50 étimos gregos/latinos de alto atrito), só no verso. Ensina pronúncia médica contemporânea, não reconstrução do grego antigo.
@@ -161,6 +161,17 @@ Lista priorizada dos morfemas que **mais aparecem e mais decodificam** ao longo 
 - **Cores (transversais, muito produtivas):** erythr/o(G, vermelho) · leuk/o(G, branco) · melan/o(G, preto) · cyan/o(G, azul) · xanth/o(G, amarelo) · chlor/o(G, verde) · poli/o(G, cinza)
 
 Fontes do inventário: [Wikipedia — List of medical roots and affixes](https://en.wikipedia.org/wiki/List_of_medical_roots_and_affixes), [OpenMD word parts](https://openmd.com/dictionary/medical-word-parts), [SDR Foundation](https://sdrfoundation.org/medical-terminology-suffix-prefix-combining-forms). Cada morfema aqui recebe, no dossiê, seu **étimo grego/latino real** validado em LSJ / Lewis & Short antes de virar card.
+
+---
+
+## 2.2 O QUE FALTAVA para o deck ensinar medicina de verdade (completude, 2026-07-17)
+
+Revisão de completude pedida pelo Davi. Quatro adições que fecham o vão entre "saber morfema" e "ler medicina melhor":
+
+1. **Ponte ortográfica PT-BR ⇄ grego/latim (NOVO — alta prioridade).** O aluno estuda em PT-BR mas lê termo em inglês/latim. As regras de adaptação — **ph→f, th→t, rh→r, y→i, ch→c/qu, ae/oe→e**, consoante dupla que simplifica (hemorrhagia→hemorragia) — deixam o Davi reconhecer que *nephropathy* = *nefropatia*. Vira um thread próprio dentro de `01_Fundamentos` + aparece como dica nos cards de morfema quando a forma PT diverge da grega/latina. Sem isso, o deck ensina a decodificar o inglês, mas não faz a ponte com o português que ele usa na prova.
+2. **Frequência primeiro (ordem de produção).** Os **sufixos** são o eixo de maior alavancagem (dizem o *tipo* de palavra/condição) — produzir antes de mais radicais. Ordem sugerida dos lotes: sufixos de alto rendimento → prefixos de alto rendimento → ponte ortográfica → radicais por produtividade → contrastes/armadilhas → decodificação cumulativa.
+3. **Plurais clássicos** (-us→-i, -a→-ae, -um→-a, -is→-es, -oma→-omata, -x→-ces): confundidos o tempo todo na literatura; um thread curto em `01_Fundamentos`.
+4. **Dose real de decodificação (tipo F).** A habilidade transferível é montar/desmontar, não memorizar morfema isolado. Meta: **≥20% do deck** em cards de decodificação/composição (tipo F), crescendo em dificuldade (2 morfemas → 3 → mistura cumulativa), sempre só com morfemas já ensinados.
 
 ---
 
