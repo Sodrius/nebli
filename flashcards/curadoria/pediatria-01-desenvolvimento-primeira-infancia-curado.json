@@ -1,0 +1,104 @@
+{
+  "slug": "pediatria-01-desenvolvimento-primeira-infancia",
+  "tag_ancora": "NEBLI::pediatria-01-desenvolvimento-primeira-infancia",
+  "target_deck": "NEBLI::Ciclo da Vida I::Pediatria::Crescimento e desenvolvimento na primeira infância",
+  "n_kept": 16,
+  "kept": [
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "By what age can an infant lift their head prone ? {{c1::2 months}}",
+      "raw0": "By <u>what age</u> can an infant <b>lift their head prone</b>?<br><br><div>{{c1::2 months}}</div>"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What language developmental milestones are expected in a 4 month old ? - {{c1::Turns to voice}} - Coos (vowel sounds)",
+      "raw0": "What <u>language</u> <i>developmental milestones</i> are expected in a <b>4 month old</b>?<br><br>- {{c1::Turns to voice}}<br>- Coos (vowel sounds)"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What fine motor developmental milestones are expected in a 6 month old ? {{c1::Reaches for toys}} Puts objects in mouth",
+      "raw0": "What <u>fine motor</u> <i>developmental milestones</i> are expected in a <b>6 month old</b>?<br><br>{{c1::Reaches for toys}}<br><b>Puts objects in mouth</b>"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What language developmental milestone(s) are expected in a 6 month old ? {{c1::Vocalizes}}",
+      "raw0": "<div>What <u>language</u> <i>developmental milestone(s)</i> are expected in a<b> 6 month old</b>?</div><div><br><div>{{c1::Vocalizes}}</div></div>"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What fine motor developmental milestones are expected in a 9 month old ? - {{c1::Raking grasp}} - Holds bottle or cup",
+      "raw0": "What <u>fine motor</u> <i>developmental milestones</i> are expected in a <b>9 month old</b>?<br><br>- {{c1::Raking grasp}}<br>- Holds bottle or cup"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "At what age will a child be able to: Sit Switch (transfer object from hand-to-hand) Shmooze (babble) Stranger anxiety {{",
+      "raw0": "At what age will a child be able to:<br><br><div>Sit</div><div>Switch (transfer object from hand-to-hand)</div><div>Shmooze (babble)</div><div>Stranger anxiety</div><br><div>{{c1::<b>9 months</b>}}</div>"
+    },
+    {
+      "guid": "",
+      "conceito": "1.2",
+      "front": "At what age will a child have: T wo-legs (walking) T racking (object permanence) T wo-words (papa/mama) T wo-of-us (sepa",
+      "raw0": "At what age will a child have:<br><br><div><b>T</b>wo-legs (walking)</div><div><div><b>T</b>racking (object permanence)</div></div><div><b>T</b>wo-words (papa/mama)</div><div><b>T</b>wo-of-us (separation anxiety)</div><br><div>{{c1::12 months}}</div>"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What language developmental milestones are expected in an 18 month old ? - Says {{c1::≥ 3}} words plus \"mama\" and \"dada\"",
+      "raw0": "What <u>language</u> <i>developmental milestones</i> are expected in an <b>18 month old</b>?<br><br>- Says {{c1::≥ 3}} words plus \"mama\" and \"dada\"<br>- Identifies ≥ 1 body parts"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "What fine motor developmental milestones are expected in an 18 month old ? - Feeds with {{c1::fingers}} - Scribbles",
+      "raw0": "What <u>fine motor</u> <i>developmental milestones</i> are expected in an <b>18 month old</b>?<br><br>- Feeds with {{c1::fingers}}<br>- Scribbles"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "At what age will a child be able to: 2 steps (climb stairs) 2 word phrases 6 blocks {{c1::2 years old}}",
+      "raw0": "At what age will a child be able to:<br><br><div><b>2</b> steps (climb stairs)</div><div><b>2</b> word <u>phrases</u></div><div>6 blocks<br></div><br><div>{{c1::2 years old}}</div>"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "By what age range does a toddler engage in parallel play ? {{c1::24 - 36 months}}",
+      "raw0": "By <u>what </u><u>age range</u> does a toddler engage in <b>parallel play</b>?<br><br>{{c1::24 - 36 months}}"
+    },
+    {
+      "guid": "",
+      "conceito": "2.3",
+      "front": "At what age will a child be able to: 3- wheeled tricycle 3 word sentences Draw circle Use fork {{c1::3 years old}}",
+      "raw0": "At what age will a child be able to:<br><br><div><b>3-</b>wheeled tricycle</div><div><b>3 </b>word sentences</div><div>Draw circle</div><div>Use fork</div><br><div>{{c1::3 years old}}</div>"
+    },
+    {
+      "guid": "",
+      "conceito": "1.2",
+      "front": "Separation anxiety is normal in children age {{c1::9}} - {{c1::18}} months and again during times of transition (e.g., b",
+      "raw0": "<b>Separation anxiety </b>is <i>normal</i> in children age {{c1::9}} - {{c1::18}} months and again during times of <u>transition</u> (e.g., beginning preschool)"
+    },
+    {
+      "guid": "",
+      "conceito": "3.3",
+      "front": "Health professionals may provide parents with {{c1::anticipatory}} guidance to address significant changes to expect dur",
+      "raw0": "Health professionals may provide parents with {{c1::anticipatory}} <b>guidance</b> to address significant changes to expect during their child's development"
+    },
+    {
+      "guid": "",
+      "conceito": "3.4",
+      "front": "Screening for autism occurs at {{c1::18}} months and {{c1::2}} years",
+      "raw0": "Screening for <b>autism</b> occurs at {{c1::18}} months and {{c1::2}} years"
+    },
+    {
+      "guid": "",
+      "conceito": "1.2",
+      "front": "At what age do children realize death is permanent ? {{c1::7}} years of age",
+      "raw0": "At what <i>age</i> do children realize <b>death</b> is <b>permanent</b>?<br><br>{{c1::7}} years of age"
+    }
+  ]
+}

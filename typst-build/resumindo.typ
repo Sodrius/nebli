@@ -1,14 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Gastrulação = movimento", [O disco bilaminar (epiblasto + hipoblasto) vira trilaminar por *migração celular*, não por surgimento de células novas. Ao mover as células para três níveis, a gastrulação também estabelece os eixos do corpo — é o início da morfogênese.]),
-  ("Tudo vem do epiblasto", [Os três folhetos (ecto, meso, endoderma) derivam todos do epiblasto. O hipoblasto é deslocado e forma tecido extraembrionário (vesícula vitelínica) — não é o endoderma.]),
-  ("Linha e nó primitivos", [A linha primitiva é o sulco por onde o epiblasto ingressa; ao surgir, define eixo crânio-caudal e simetria bilateral. O nó, na ponta anterior, é o organizador que gera a notocorda.]),
-  ("Destino pela posição final", [Quem migra mais fundo (desloca o hipoblasto) vira endoderma; quem para no meio vira mesoderma; quem fica na folha de cima vira ectoderma. A conversão célula-de-folha → célula-viajante é a EMT.]),
-  ("Notocorda: eixo e indutor", [Bastão de mesoderma axial na linha média. Faz três coisas: eixo rígido de apoio, vira o núcleo pulposo dos discos (não a vértebra), e *induz* o ectoderma a formar a placa neural.]),
-  ("Placa → tubo neural", [A notocorda induz a placa neural (dia 18). As pregas neurais se elevam, se fundem e formam o tubo neural, que se desconecta da epiderme. Fechamento em zíper, dos neuroporos rostral (~dia 25) e caudal (~dia 28).]),
-  ("DTN e ácido fólico", [Se um neuroporo não fecha: neuroporo rostral → anencefalia; caudal → espinha bífida. As bordas do tubo captam folato para a síntese de DNA do fechamento — daí a suplementação periconcepcional de ácido fólico.]),
-  ("Crista neural viajante", [As células da borda das pregas sofrem EMT e migram (cranial, vagal, tronco, lombossacral). Originam melanócitos, gânglios do SNP, medula adrenal e boa parte da face — o "quarto folheto".]),
-  ("Derivados do mesoderma", [Paraxial → somitos → vértebras, costelas, músculo e derme. Intermediário → rins e gônadas. Lateral → cavidades serosas, sistema vascular e hematopoiético, anexos extraembrionários.]),
-  ("Dobramento em dois planos", [Céfalo-caudal curva as pontas ventralmente (forma de C); lateral fecha o ventre. Juntos, dão tridimensionalidade e enrolam o endoderma no tubo digestório — boca na frente (membrana bucofaríngea), ânus atrás.]),
+  ("Plasticidade e a janela",
+   [O cérebro produz sinapses em excesso logo após o nascimento e atinge ~80% da capacidade aos 2 anos. As conexões usadas se fortalecem; as ociosas são podadas. Essa é a janela de máxima plasticidade — não fecha de vez, mas o custo de entrar atrasado sobe rápido.]),
+
+  ("Experiência esculpe conexões, não neurônios",
+   [O que a vivência mais muda são as sinapses (fortalece as usadas, poda as ociosas) e a mielinização, não a contagem de neurônios. Por isso estímulo e privação se inscrevem tão fundo: editam o cabeamento do cérebro.]),
+
+  ("Estresse tóxico = ausência de amortecimento",
+   [Toda ameaça ativa o eixo HPA e libera cortisol. Estresse positivo e tolerável, com adulto responsivo amortecendo, promovem desenvolvimento. Tóxico é o que ocorre SEM esse tampão: cortisol cronicamente alto remodela a arquitetura cerebral e deixa déficit duradouro.]),
+
+  ("Sequência universal, ritmo elástico",
+   [A ordem das aquisições (senta → anda; balbucia → fala) é quase igual entre as crianças; a velocidade varia muito, e varia dentro do normal. Confundir variação de ritmo com atraso — ou o contrário — é o erro clínico clássico.]),
+
+  ("Gene × ambiente × experiência",
+   [O gene dá o plano da arquitetura; o ambiente modula quanto ele se expressa; a experiência esculpe os circuitos. A epigenética — marcas que ligam/desligam genes sem trocar o DNA — é o mecanismo que liga o ambiente ao genoma.]),
+
+  ("Fatores de risco na primeira infância",
+   [Má nutrição, infecções de repetição, abuso, negligência, falta de estimulação, depressão materna e pobreza comprometem a construção cerebral subtraindo estímulo e afeto. O atraso de vocabulário por baixa estimulação já é medível aos 18 meses.]),
+
+  ("A trajetória é mudável",
+   [A mesma plasticidade que torna o cérebro vulnerável permite recuperá-lo. Programas de parentalidade, creche de qualidade e estimulação precoce (visitas domiciliares) alteram a trajetória — mais efetivos quanto mais cedo, ainda dentro da janela.]),
+
+  ("Vigilância × triagem",
+   [Vigilância é contínua, feita em toda consulta, para eleger quem merece olhar fino. Triagem é pontual, com instrumento padronizado, para identificar risco — e a triagem positiva encaminha para diagnóstico. Detectar cedo é intervir enquanto a janela está aberta.]),
+
+  ("Os domínios do desenvolvimento (OMS)",
+   [Avaliar o desenvolvimento é olhar todas as frentes: motor (fino e grosso), linguagem, cognição, funções executivas, temperamento, socioemocional e adaptativo. Uma criança pode ir bem numa e mal em outra — o mapa dos domínios evita que um atraso passe.]),
+
+  ("As quatro lentes teóricas",
+   [Piaget: a criança constrói o conhecimento em estágios. Erikson: cada fase resolve uma crise psicossocial, e o vínculo gera a confiança básica. Bronfenbrenner: o desenvolvimento mora em sistemas encaixados. Vygotsky: aprende-se na interação, na zona de desenvolvimento proximal.]),
 ))

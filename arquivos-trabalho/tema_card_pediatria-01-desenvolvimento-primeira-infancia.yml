@@ -1,0 +1,58 @@
+slug: pediatria-01-desenvolvimento-primeira-infancia
+titulo: "Crescimento e Desenvolvimento na Primeira Infância"
+subtitulo: "Pediatria — Ciclo da Vida I"
+meta:
+  - ["Disciplina", "Pediatria — Ciclo da Vida I (UC-16)"]
+  - ["Onde estudar", "SBP · Tratado de Pediatria (6ª ed.) · Grisi · Desenvolvimento da Criança (Atheneu) · Escobar · A Promoção da Saúde na Infância (Manole)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O que é desenvolvimento e as lentes para enxergá-lo"
+        subtopicos:
+          - "1.1 Do adulto em miniatura à maturação"
+          - "1.2 As quatro lentes teóricas"
+          - "1.3 Definição e domínios do desenvolvimento"
+      - titulo: "PARTE II — O motor biológico: cérebro plástico e a janela"
+        subtopicos:
+          - "2.1 Habilidades em camadas"
+          - "2.2 Plasticidade e a janela"
+          - "2.3 Gene, ambiente e experiência"
+      - titulo: "PARTE III — Risco, estresse tóxico e o papel do pediatra"
+        subtopicos:
+          - "3.1 Fatores de risco"
+          - "3.2 Estresse tóxico e o eixo HPA"
+          - "3.3 Vigilância, triagem e o novo papel"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CCEE"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "E"]
+    - ["07", "CEEC"]
+    - ["08", "B"]
+    - ["09", "ECCE"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "D"]
+    - ["13", "CECE"]
+    - ["14", "B"]
+    - ["15", "CEEC"]
+    - ["16", "E"]
+    - ["17", "C"]
+    - ["18", "A"]
+    - ["19", "EECC"]
+    - ["20", "D"]
+    - ["21", "CCEE"]
+    - ["22", "B"]
+    - ["23", "CEEC"]
+    - ["24", "A"]
+    - ["25", "ECCE"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "E"]
+    - ["28", "CECE"]
+    - ["29", "B"]
+    - ["30", "D"]

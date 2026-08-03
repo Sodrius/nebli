@@ -1,0 +1,25 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py (EN completado p/ AnKing)
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# PARTE I — O que é desenvolvimento e as lentes para enxergá-lo
+1.1	marco do desenvolvimento	marco do desenvolvimento|developmental milestone
+1.2	teoria de Piaget / cognição	cognição|Piaget
+1.3	permanência do objeto	permanência do objeto|object permanence
+1.4	zona de desenvolvimento proximal / Vygotsky	zona de desenvolvimento proximal|Vygotsky
+1.5	estágios psicossociais de Erikson	Erikson|Erikson trust versus mistrust
+1.6	domínios / linguagem e cognição	domínios do desenvolvimento|language development
+# PARTE II — O motor biológico: cérebro plástico e a janela dos primeiros anos
+2.1	sinapse	sinapse|synapse
+2.2	sinaptogênese	sinaptogênese|synaptogenesis
+2.3	poda sináptica	poda sináptica|synaptic pruning
+2.4	mielinização	mielinização|myelination
+2.5	plasticidade neural	plasticidade|neuroplasticity
+2.6	período crítico	período crítico|critical period
+2.7	período sensível	período sensível|sensitive period
+2.8	epigenética	epigenética|epigenetics
+2.9	metilação do DNA	metilação|DNA methylation
+# PARTE III — Quando o ambiente esculpe: risco, estresse tóxico e o papel do pediatra
+3.1	eixo HPA	HPA|hypothalamic pituitary adrenal
+3.2	cortisol	cortisol|cortisol
+3.3	estresse tóxico / adversidade precoce	estresse tóxico|toxic stress
+3.4	depressão materna / pós-parto	depressão materna|postpartum depression
+3.5	apego / vínculo cuidador	apego|attachment

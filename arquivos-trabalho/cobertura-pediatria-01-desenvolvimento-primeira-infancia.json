@@ -1,0 +1,88 @@
+{
+  "slug": "pediatria-01-desenvolvimento-primeira-infancia",
+  "x_cobertos": 1,
+  "y_total": 12,
+  "coberto": [
+    "2.3"
+  ],
+  "parcial": [
+    "1.2",
+    "3.4"
+  ],
+  "lacuna": [
+    "1.1",
+    "1.3",
+    "2.1",
+    "2.2",
+    "2.4",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.5"
+  ],
+  "pendente_gerado": [],
+  "fonte_por_id": {
+    "1.1": "NEBLIcard da E1",
+    "1.2": "AnKing (permanência do objeto, ansiedade de separação, permanência da morte); Erikson/Bronfenbrenner/Vygotsky → NEBLIcard",
+    "1.3": "NEBLIcard da E1",
+    "2.1": "NEBLIcard da E1",
+    "2.2": "NEBLIcard da E1 (NUCLEAR)",
+    "2.3": "AnKing developmental milestones",
+    "2.4": "NEBLIcard da E1",
+    "3.1": "NEBLIcard da E1",
+    "3.2": "NEBLIcard da E1 (NUCLEAR)",
+    "3.3": "NEBLIcard da E1",
+    "3.4": "AnKing (triagem de autismo, orientação antecipatória); conceito vigilância×triagem → NEBLIcard",
+    "3.5": "NEBLIcard da E1"
+  },
+  "conceito_por_id": {
+    "1.1": "1.1 histórico e organicismo",
+    "1.2": "1.2 teorias + permanência do objeto",
+    "1.3": "1.3 domínios do desenvolvimento (OMS)",
+    "2.1": "2.1 habilidades em camadas",
+    "2.2": "2.2 plasticidade, poda, mielinização, período crítico",
+    "2.3": "2.3 marcos e sequência do desenvolvimento",
+    "2.4": "2.4 gene × ambiente + epigenética",
+    "3.1": "3.1 fatores de risco",
+    "3.2": "3.2 estresse tóxico e eixo HPA",
+    "3.3": "3.3 trajetória mudável e negligência",
+    "3.4": "3.4 vigilância e triagem",
+    "3.5": "3.5 ecobiodesenvolvimento e novo papel"
+  },
+  "nota_r6_por_id": {
+    "1.1": 0,
+    "1.2": 2,
+    "1.3": 0,
+    "2.1": 0,
+    "2.2": 0,
+    "2.3": 3,
+    "2.4": 0,
+    "3.1": 0,
+    "3.2": 0,
+    "3.3": 0,
+    "3.4": 2,
+    "3.5": 0
+  },
+  "importancia_por_id": {
+    "1.1": "unclassified",
+    "1.2": "unclassified",
+    "1.3": "unclassified",
+    "2.1": "unclassified",
+    "2.2": "unclassified",
+    "2.3": "unclassified",
+    "2.4": "unclassified",
+    "3.1": "unclassified",
+    "3.2": "unclassified",
+    "3.3": "unclassified",
+    "3.4": "unclassified",
+    "3.5": "unclassified"
+  },
+  "na_e1_por_id": {},
+  "justificativa_e1_por_id": {},
+  "fontes_x_e1_incorporados": null,
+  "fontes_x_e1_relevantes": null,
+  "e1_x_cards_cobertos": 0,
+  "e1_x_cards_total": 0,
+  "media_r6_0_3": 0.5833333333333334,
+  "cards_x_e1_0_10": 1.9444444444444444
+}
