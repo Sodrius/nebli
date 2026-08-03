@@ -4,6 +4,11 @@
 
 ## Regras aprendidas (por rodada)
 
+### Rodada (2026-08-03) — pediatria-01-desenvolvimento — 10/10 pegos, veredito distinguível (ACEITO)
+- **[IDIOMA — RECONCILIAÇÃO] O tell nº1 "Extra em PT com voz de monitor" é DIVERGÊNCIA INTENCIONAL, não defeito.** O canon posterior (R "Padrão linguístico pedido pelo Davi") **substitui** o `[IDIOMA] corpo todo em inglês` da Rodada 0: NEBLIcard agora é **bilíngue por design** — frente/cloze/terminologia em **EN**, Extra em **PT** (causa→mecanismo→consequência), porque a explicação PT é o valor de "monitor" que o Davi quer. Consequência: o card-mirror **sempre** vai pegar o PT-Extra; isso é esperado e aceito. O valor do discriminador migra para os tells de **forma** (frente literária, cloze frouxo, mecanismo no stem), não para o idioma do Extra.
+- **[FRENTE] Evitar frente literária/metafórica.** Tell real desta rodada: `"What turns tolerable adversity toxic is…"` e `"Skills stack like a house, so…"` soaram a "monitor explicando conceito abstrato". AnKing usa afirmação factual + cloze ou pergunta direta. Corrigido para declarativo (`"Stress becomes toxic rather than tolerable when…"`, `"Development builds in layers like a house; …"`). Metáfora só quando ELA É o conceito testado (casa = andaime de habilidades) e ainda assim em registro factual.
+- **[FORMA — CONFIRMADO AnKing-grade]** cloze único em negrito ≤3 palavras, frente contextual sem a resposta, Extra com mecanismo: passou como forma nativa. O lote não teve tell de forma além dos 2 acima.
+
 ### Rodada 0 — baseline (2026-07-12)
 - **[IMAGEM] Nunca usar slide de PowerPoint como imagem.** Slide colorido, 4:3, 3000×2250, com título em português = tell gritante. → Reusar a **imagem-mãe de um card AnKing irmão** do mesmo tema (nativa, inglês, ~1080px, leve, já no dispositivo). Fonte na ordem: outro card AnKing > internet limpa > recorte de slide (último recurso, resize p/ ~1080px). *Também conserta o lag: imagem já cacheada não baixa.*
 - **[IDIOMA] Corpo do card em inglês.** AnKing é inglês; português no Text/Extra denuncia na hora.

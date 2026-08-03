@@ -17,22 +17,24 @@ Portanto: os 16 marcos entram como a espinha dorsal factível e durável; o rest
 
 ## Gap-analysis (conceito × cobertura)
 
-| Conceito | Status | nº cards | Fonte / destino | R6 |
-|---|---|---|---|---|
-| 1.1 histórico e organicismo | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 1.2 teorias + permanência do objeto | PARCIAL | 3 | AnKing (permanência do objeto, ansiedade de separação, permanência da morte); Erikson/Bronfenbrenner/Vygotsky → NEBLIcard | 2 |
-| 1.3 domínios do desenvolvimento (OMS) | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 2.1 habilidades em camadas | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 2.2 plasticidade, poda, mielinização, período crítico | LACUNA | 0 | NEBLIcard da E1 (NUCLEAR) | 0 |
-| 2.3 marcos e sequência do desenvolvimento | COBERTO | 13 | AnKing developmental milestones | 3 |
-| 2.4 gene × ambiente + epigenética | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 3.1 fatores de risco | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 3.2 estresse tóxico e eixo HPA | LACUNA | 0 | NEBLIcard da E1 (NUCLEAR) | 0 |
-| 3.3 trajetória mudável e negligência | LACUNA | 0 | NEBLIcard da E1 | 0 |
-| 3.4 vigilância e triagem | PARCIAL | 2 | AnKing (triagem de autismo, orientação antecipatória); conceito vigilância×triagem → NEBLIcard | 2 |
-| 3.5 ecobiodesenvolvimento e novo papel | LACUNA | 0 | NEBLIcard da E1 | 0 |
+> **ATUALIZADO 2026-08-03 (CANON deck completo):** as 9 lacunas viraram NEBLIcards autorais NESTA corrida (21 cards, lint PASS + card-mirror). Deck = 16 AnKing + 21 autoral = 37.
 
-**Cobertura AnKing: 1/12 COBERTO, 2/12 PARCIAL, 9/12 LACUNA.**
+| Conceito | Status | nº cards | Fonte | R6 |
+|---|---|---|---|---|
+| 1.1 histórico e organicismo | LACUNA | 0 | (não-nuclear; framing histórico, sem card) | 0 |
+| 1.2 teorias (Piaget/Erikson/Vygotsky/Bronfenbrenner) | COBERTO | 6 | AnKing (permanência do objeto, separação, morte) + autoral (Erikson-hope, ZPD, exossistema) | 3 |
+| 1.3 domínios do desenvolvimento (OMS) | COBERTO | 1 | autoral (executive function) | 2 |
+| 2.1 habilidades em camadas | COBERTO | 1 | autoral (foundations/house) | 2 |
+| 2.2 plasticidade, poda, mielinização, período crítico | COBERTO | 5 | autoral (pruning, neurons-not, 80%, prefrontal, critical period) — NUCLEAR | 3 |
+| 2.3 marcos e sequência do desenvolvimento | COBERTO | 13 | AnKing developmental milestones | 3 |
+| 2.4 gene × ambiente + epigenética | COBERTO | 2 | autoral (methylation, silences) | 3 |
+| 3.1 fatores de risco | COBERTO | 1 | autoral (maternal depression → responsive) | 2 |
+| 3.2 estresse tóxico e eixo HPA | COBERTO | 4 | autoral (HPA/adrenal, adult-buffer, amygdala, positive stress) — NUCLEAR | 3 |
+| 3.3 trajetória mudável e negligência | COBERTO | 2 | autoral (neglect-smaller, reversible) | 3 |
+| 3.4 vigilância e triagem | COBERTO | 3 | AnKing (triagem autismo, orientação antecipatória) + autoral (surveillance) | 3 |
+| 3.5 ecobiodesenvolvimento e novo papel | COBERTO | 1 | autoral (early childhood) | 2 |
+
+**Cobertura: 11/12 COBERTO (ambos NUCLEARES cobertos), 1/12 LACUNA não-nuclear (1.1 histórico).**
 
 ## Fila PENDENTE-GERADO (NEBLIcards autorais da E1 — sessão futura)
 

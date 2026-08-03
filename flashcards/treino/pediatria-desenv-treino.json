@@ -1,0 +1,111 @@
+{
+ "topico": "pediatria-desenv",
+ "img_mae": "",
+ "cards": [
+  {
+   "Text": "<b>Neurodevelopment.</b> The connections a child uses are strengthened, while the unused ones are eliminated through <b>{{c1::synaptic pruning}}</b>.",
+   "Extra": "O cérebro produz sinapses em excesso e deixa a experiência decidir quais ficam: as usadas se fortalecem, as ociosas são eliminadas. É a poda que especializa o circuito no ambiente real.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Experience shapes the brain mainly by editing its connections, not by adding more <b>{{c1::neurons}}</b>.",
+   "Extra": "A contagem de neurônios muda pouco após o nascimento; o que floresce ou murcha com a vivência é a rede de sinapses. Por isso estímulo e privação se inscrevem tão fundo.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> By age two, the brain has already reached roughly <b>{{c1::80%}}</b> of its eventual capacity.",
+   "Extra": "O crescimento cerebral é explosivo nos primeiros anos — por volta dos 2 anos o cérebro já atingiu cerca de 80% da capacidade adulta. Daí o peso da primeira infância.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Myelination advances region by region and finishes last in the <b>{{c1::prefrontal cortex}}</b>.",
+   "Extra": "A mielina acelera a condução e é depositada região a região; o córtex pré-frontal (planejamento e autocontrole) é o último a amadurecer — por isso o autocontrole vem tarde.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> A window in which missing the expected input causes lasting deficit is a <b>{{c1::critical period}}</b>.",
+   "Extra": "Em certas funções (ex.: visão), se o estímulo esperado não chega na janela, o circuito se forma mal e recuperar depois é muito mais custoso. O período sensível é a versão mais frouxa.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> A threat drives the hypothalamus and pituitary, ending in cortisol release by the <b>{{c1::adrenal gland}}</b>.",
+   "Extra": "Diante de ameaça, hipotálamo → hipófise → suprarrenal liberam cortisol, que mobiliza o corpo para reagir. Em picos breves é saudável; o problema é a ativação crônica.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> What turns tolerable adversity toxic is the lack of a responsive, protective <b>{{c1::adult}}</b>.",
+   "Extra": "Estresse positivo e tolerável, amortecidos por um adulto responsivo, promovem desenvolvimento. Sem esse tampão a resposta vira tóxica — o divisor é o vínculo, não a gravidade do evento.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Chronically high cortisol shrinks the hippocampus and prefrontal cortex but leaves the <b>{{c1::amygdala}}</b> overactive.",
+   "Extra": "O cortisol cronicamente alto atrofia hipocampo (memória) e pré-frontal (autocontrole) e hiperativa a amígdala (medo): o cérebro se recalibra para viver em ameaça constante.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Brief, mild adversity buffered by a caring adult is termed <b>{{c1::positive stress}}</b>.",
+   "Extra": "Vacina, primeiro dia de escola, um susto: com um adulto por perto, o eixo do estresse sobe e volta rápido, e a criança treina respostas saudáveis à adversidade.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> In Erikson's first stage, reliable care resolves trust versus mistrust and yields the virtue of <b>{{c1::hope}}</b>.",
+   "Extra": "No primeiro ano e meio, cuidado previsível e responsivo resolve confiança × desconfiança e deixa a esperança. O vínculo é o material da confiança básica.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> The gap between what a child manages alone and with skilled help is the zone of <b>{{c1::proximal development}}</b>.",
+   "Extra": "É a faixa onde o aprendizado acontece: nem o que a criança já domina sozinha, nem o que está longe demais, mas o que ela alcança com mediação — sobretudo pela linguagem (Vygotsky).",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> In Bronfenbrenner's model, settings that affect a child only indirectly, like a parent's job, form the <b>{{c1::exosystem}}</b>.",
+   "Extra": "A criança não participa desses ambientes, mas eles a afetam (o emprego dos pais, por exemplo). Sistemas encaixados: micro → meso → exo → macro → crono.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Working memory, focus, self-regulation and mental flexibility make up the domain called <b>{{c1::executive function}}</b>.",
+   "Extra": "Amadurecem tarde porque dependem do córtex pré-frontal, o último a mielinizar — daí a impulsividade da criança pequena e do adolescente.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> The environment tunes which genes are read, without altering the DNA sequence, largely via DNA <b>{{c1::methylation}}</b>.",
+   "Extra": "O ambiente não reescreve o DNA; regula quais genes são lidos. A metilação é a marca mais estudada dessa ponte entre ambiente e genoma.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Adding methyl groups to a gene usually <b>{{c1::silences}}</b> it.",
+   "Extra": "Em modelos animais, o cuidado materno regula por metilação o gene do 'freio' da resposta ao estresse: filhotes bem cuidados reagem melhor à adversidade a vida toda.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Children raised under extreme neglect can show a physically <b>{{c1::smaller}}</b> brain with enlarged ventricles.",
+   "Extra": "Sem o estímulo e o afeto que a experiência deveria fornecer, a sinaptogênese e a poda não esculpem circuitos ricos — a plasticidade opera contra a criança.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> The ongoing, every-visit process that flags which children need specific screening is developmental <b>{{c1::surveillance}}</b>.",
+   "Extra": "Vigilância é contínua (toda consulta) e elege quem passa por triagem; a triagem é pontual, com instrumento, e a positiva encaminha ao diagnóstico.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> The ecobiodevelopmental view locates the roots of many adult diseases in <b>{{c1::early childhood}}</b>.",
+   "Extra": "As raízes de muitas doenças do adulto estão na primeira infância; prevenir cedo, com medidas protetoras, muda o desfecho tardio. Atenção especial ao prematuro.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Maternal depression makes the parent's interactions less sensitive and less <b>{{c1::responsive}}</b>.",
+   "Extra": "É justamente a interação responsiva que protege o cérebro do estresse; a mãe deprimida tende a interações menos sensíveis e mais negativas, subtraindo esse amortecimento.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> The same plasticity that makes the young brain vulnerable also keeps early adversity potentially <b>{{c1::reversible}}</b>.",
+   "Extra": "Programas de parentalidade e creche de qualidade mudam a trajetória, mais efetivos quanto mais cedo — ainda dentro da janela de plasticidade.",
+   "img": ""
+  },
+  {
+   "Text": "<b>Neurodevelopment.</b> Skills stack like a house, so weak early <b>{{c1::foundations}}</b> limit everything built on top.",
+   "Extra": "Habilidades iniciais são a base das mais complexas; base frágil não derruba um andar, encolhe todos os que viriam acima. Daí investir cedo.",
+   "img": ""
+  }
+ ]
+}
