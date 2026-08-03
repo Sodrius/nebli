@@ -1,0 +1,2736 @@
+{
+  "version": "pilot-pt2-2026-07-17",
+  "approval_gate": "pilot_pt2_pending_user_review",
+  "policy": {
+    "text_words": 25,
+    "extra_words_preferred": 25,
+    "extra_words": 40,
+    "cloze_answer_words": 3,
+    "same_c1_for_contrasts": true,
+    "neutral_theme_label": "Etimologia",
+    "obvious_roots_without_transfer_gain": "rejected"
+  },
+  "stats": {
+    "notes": 82,
+    "anki_cards": 82,
+    "max_text_words": 17,
+    "max_extra_words": 21,
+    "max_answer_words": 3,
+    "one_word_answer_pct": 64.7,
+    "kinds": {
+      "foundation": 8,
+      "contrast": 26,
+      "morpheme_in_context": 20,
+      "transfer": 20,
+      "exception": 8
+    }
+  },
+  "cards": [
+    {
+      "uid": "etim-pt2-morfema",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "morfema",
+      "canonical_form": "morfema",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hipo- + glic- + -emia",
+      "literal_gloss": "unidade mínima significativa",
+      "clinical_meaning": "unidade morfológica",
+      "inference_limit": "Morfema não é sinônimo de sílaba.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A menor unidade estrutural de uma palavra com significado ou função gramatical chama-se <b>{{c1::morfema}}</b>.",
+      "extra": "Hipoglicemia contém hipo-, glic- e -emia; cada parte restringe o sentido.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-morfema",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-prefixo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "prefixo",
+      "canonical_form": "prefixo",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "sub- + cutâne/o",
+      "literal_gloss": "afixo anterior",
+      "clinical_meaning": "modifica a base",
+      "inference_limit": "Nem todo termo contém prefixo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em subcutâneo, sub- funciona morfologicamente como <b>{{c1::prefixo}}</b>.",
+      "extra": "Prefixos antecedem a base: peri- em pericárdio situa, mas não nomeia, a estrutura.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-prefixo",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-raiz",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "raiz",
+      "canonical_form": "raiz",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "colang- + -ite",
+      "literal_gloss": "núcleo lexical",
+      "clinical_meaning": "referente principal",
+      "inference_limit": "Uma palavra pode conter mais de uma raiz.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em colangite, colang- funciona morfologicamente como <b>{{c1::raiz}}</b>.",
+      "extra": "A raiz concentra o referente; aqui, colang- remete aos ductos biliares.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-raiz",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-sufixo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "sufixo",
+      "canonical_form": "sufixo",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "gastr- + -ite",
+      "literal_gloss": "afixo final",
+      "clinical_meaning": "classifica o processo",
+      "inference_limit": "Nem toda terminação aparente é sufixo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em gastrite, -ite age morfologicamente como <b>{{c1::sufixo}}</b>.",
+      "extra": "O sufixo fecha a palavra e frequentemente indica processo, condição ou procedimento.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-sufixo",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-forma-combinatoria-vogal",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "forma combinatória",
+      "canonical_form": "forma combinatória",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "cardi + o",
+      "literal_gloss": "raiz preparada para combinar",
+      "clinical_meaning": "unidade de composição",
+      "inference_limit": "A vogal facilita a junção; não acrescenta sentido.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Cardi/o é <b>{{c1::forma combinatória}}</b>; nela, o é a <b>{{c1::vogal de ligação}}</b>.",
+      "extra": "A forma reúne raiz e vogal; cardi/o + -logia mantém o, mas cardi/o + -ite o perde.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-forma-combinatoria-vogal",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-decomposicao-composicao",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "decomposição e composição",
+      "canonical_form": "decomposição e composição",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "pan- + cit/o + -penia",
+      "literal_gloss": "separar e reunir",
+      "clinical_meaning": "processos inversos",
+      "inference_limit": "A composição literal não garante definição clínica.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Separar pancitopenia em pan- + cit/o + -penia é <b>{{c1::decomposição}}</b>; reuni-los é <b>{{c1::composição}}</b>.",
+      "extra": "Decompor extrai pistas; compor propõe uma glosa que ainda precisa de confirmação clínica.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-decomposicao-composicao",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-glosa-definicao",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "glosa literal e definição clínica",
+      "canonical_form": "glosa literal e definição clínica",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hemat- + -oma",
+      "literal_gloss": "massa de sangue",
+      "clinical_meaning": "coleção de sangue extravasado",
+      "inference_limit": "O literal é hipótese de leitura, não diagnóstico.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A tradução dos morfemas fornece a <b>{{c1::glosa literal}}</b>; o uso médico vigente fornece a <b>{{c1::definição clínica}}</b>.",
+      "extra": "Em hematoma, “massa sanguínea” orienta; não autoriza concluir neoplasia.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-glosa-definicao",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-pontes-ortograficas",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "foundation",
+      "term_en": "",
+      "term_ptbr": "pontes ortográficas",
+      "canonical_form": "pontes ortográficas",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "ph→f; th→t; y→i",
+      "literal_gloss": "adaptações gráficas",
+      "clinical_meaning": "reconhecimento entre línguas",
+      "inference_limit": "São tendências, não regras fonológicas universais.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em português médico, ph costuma virar <b>{{c1::f}}</b>, th vira <b>{{c1::t}}</b> e y vira <b>{{c1::i}}</b>.",
+      "extra": "Assim, phleb-, thorac- e glyc- aparecem como fleb-, torac- e glic-.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-pontes-ortograficas",
+        "terminologia::card::foundation",
+        "terminologia::familia::fundamentos",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-tomia-ectomia-stomia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-tomia × -ectomia × -stomia",
+      "canonical_form": "-tomia × -ectomia × -stomia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-tomia × -ectomia × -stomia",
+      "literal_gloss": "-tomia × -ectomia × -stomia",
+      "clinical_meaning": "-tomia × -ectomia × -stomia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -tomia indica <b>{{c1::incisão}}</b>; -ectomia, <b>{{c1::remoção}}</b>; -stomia, <b>{{c1::abertura criada}}</b>.",
+      "extra": "Laparotomia abre; gastrectomia retira; gastrostomia cria comunicação com o estômago.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-tomia-ectomia-stomia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-plastia-pexia-rafia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-plastia × -pexia × -rafia",
+      "canonical_form": "-plastia × -pexia × -rafia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-plastia × -pexia × -rafia",
+      "literal_gloss": "-plastia × -pexia × -rafia",
+      "clinical_meaning": "-plastia × -pexia × -rafia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -plastia indica <b>{{c1::reconstrução}}</b>; -pexia, <b>{{c1::fixação}}</b>; -rafia, <b>{{c1::sutura}}</b>.",
+      "extra": "Rinoplastia remodela; gastropexia fixa; herniorrafia sutura.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-plastia-pexia-rafia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-grafia-grama-grafo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-grafia × -grama × -grafo",
+      "canonical_form": "-grafia × -grama × -grafo",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-grafia × -grama × -grafo",
+      "literal_gloss": "-grafia × -grama × -grafo",
+      "clinical_meaning": "-grafia × -grama × -grafo",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -grafia nomeia o <b>{{c1::processo de registro}}</b>; -grama, o <b>{{c1::resultado}}</b>; -grafo, o <b>{{c1::instrumento}}</b>.",
+      "extra": "Eletrocardiografia produz eletrocardiograma; o eletrocardiógrafo registra.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-grafia-grama-grafo",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-metria-metro",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-metria × -metro",
+      "canonical_form": "-metria × -metro",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-metria × -metro",
+      "literal_gloss": "-metria × -metro",
+      "clinical_meaning": "-metria × -metro",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -metria nomeia a <b>{{c1::medição}}</b>; -metro, o <b>{{c1::instrumento}}</b>.",
+      "extra": "Espirometria é o procedimento; espirômetro é o aparelho.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-metria-metro",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-scopia-scopio",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-scopia × -scópio",
+      "canonical_form": "-scopia × -scópio",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-scopia × -scópio",
+      "literal_gloss": "-scopia × -scópio",
+      "clinical_meaning": "-scopia × -scópio",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -scopia nomeia a <b>{{c1::visualização}}</b>; -scópio, o <b>{{c1::instrumento}}</b>.",
+      "extra": "Endoscopia é o exame; endoscópio é o instrumento.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-scopia-scopio",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-centese-biopsia-aspiracao",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-centese × biópsia × aspiração",
+      "canonical_form": "-centese × biópsia × aspiração",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-centese × biópsia × aspiração",
+      "literal_gloss": "-centese × biópsia × aspiração",
+      "clinical_meaning": "-centese × biópsia × aspiração",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -centese indica <b>{{c1::punção}}</b>; biópsia obtém <b>{{c1::tecido}}</b>; aspiração remove <b>{{c1::conteúdo}}</b>.",
+      "extra": "Amniocentese punciona; biópsia amostra tecido; aspiração retira líquido ou gás.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-centese-biopsia-aspiracao",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-algia-odinia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-algia × -odinia",
+      "canonical_form": "-algia × -odinia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-algia × -odinia",
+      "literal_gloss": "-algia × -odinia",
+      "clinical_meaning": "-algia × -odinia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -algia indica <b>{{c1::dor}}</b>; -odinia também indica <b>{{c1::dor}}</b>, geralmente em termos mais específicos.",
+      "extra": "Disfagia é dificuldade; odinofagia é dor ao engolir.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-algia-odinia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-penia-citose",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-penia × -citose",
+      "canonical_form": "-penia × -citose",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-penia × -citose",
+      "literal_gloss": "-penia × -citose",
+      "clinical_meaning": "-penia × -citose",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -penia indica <b>{{c1::redução numérica}}</b>; -citose, <b>{{c1::aumento celular}}</b>.",
+      "extra": "Leucopenia reduz leucócitos; leucocitose os aumenta.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-penia-citose",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-ectasia-estenose",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-ectasia × -estenose",
+      "canonical_form": "-ectasia × -estenose",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-ectasia × -estenose",
+      "literal_gloss": "-ectasia × -estenose",
+      "clinical_meaning": "-ectasia × -estenose",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -ectasia indica <b>{{c1::dilatação}}</b>; -estenose, <b>{{c1::estreitamento}}</b>.",
+      "extra": "Bronquiectasia dilata brônquios; broncoestenose estreita sua luz.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-ectasia-estenose",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-rreia-rragia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-rreia × -rragia",
+      "canonical_form": "-rreia × -rragia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-rreia × -rragia",
+      "literal_gloss": "-rreia × -rragia",
+      "clinical_meaning": "-rreia × -rragia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -rreia indica <b>{{c1::fluxo}}</b>; -rragia, <b>{{c1::sangramento intenso}}</b>.",
+      "extra": "Diarreia descreve fluxo; metrorragia, sangramento uterino.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-rreia-rragia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-paresia-plegia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-paresia × -plegia",
+      "canonical_form": "-paresia × -plegia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-paresia × -plegia",
+      "literal_gloss": "-paresia × -plegia",
+      "clinical_meaning": "-paresia × -plegia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -paresia indica <b>{{c1::fraqueza}}</b>; -plegia, <b>{{c1::paralisia}}</b>.",
+      "extra": "Hemiparesia preserva movimento parcial; hemiplegia implica paralisia do hemicorpo.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-paresia-plegia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-emia-uria",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-emia × -úria",
+      "canonical_form": "-emia × -úria",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-emia × -úria",
+      "literal_gloss": "-emia × -úria",
+      "clinical_meaning": "-emia × -úria",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -emia situa algo no <b>{{c1::sangue}}</b>; -úria, na <b>{{c1::urina}}</b>.",
+      "extra": "Glicemia mede glicose sanguínea; glicosúria indica glicose urinária.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-emia-uria",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-pneia-capnia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-pneia × -capnia",
+      "canonical_form": "-pneia × -capnia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-pneia × -capnia",
+      "literal_gloss": "-pneia × -capnia",
+      "clinical_meaning": "-pneia × -capnia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -pneia refere-se à <b>{{c1::respiração}}</b>; -capnia, ao <b>{{c1::dióxido de carbono}}</b>.",
+      "extra": "Taquipneia altera frequência respiratória; hipercapnia eleva CO₂.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-pneia-capnia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-plasia-trofia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "hiperplasia × hipertrofia",
+      "canonical_form": "hiperplasia × hipertrofia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hiperplasia × hipertrofia",
+      "literal_gloss": "hiperplasia × hipertrofia",
+      "clinical_meaning": "hiperplasia × hipertrofia",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Hiperplasia aumenta o <b>{{c1::número celular}}</b>; hipertrofia aumenta o <b>{{c1::tamanho celular}}</b>.",
+      "extra": "-plasia alude à formação; -trofia, ao crescimento. O contraste clínico aqui é número versus tamanho.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-plasia-trofia",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-genese-poiese",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "-gênese × -poiese",
+      "canonical_form": "-gênese × -poiese",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "-gênese × -poiese",
+      "literal_gloss": "-gênese × -poiese",
+      "clinical_meaning": "-gênese × -poiese",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> -gênese indica <b>{{c1::formação}}</b> ampla; -poiese enfatiza <b>{{c1::produção}}</b>.",
+      "extra": "Angiogênese forma vasos; hematopoiese produz células sanguíneas.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-genese-poiese",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-ab-ad",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "ab- × ad-",
+      "canonical_form": "ab- × ad-",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "ab- × ad-",
+      "literal_gloss": "ab- × ad-",
+      "clinical_meaning": "ab- × ad-",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> ab- indica <b>{{c1::afastamento}}</b>; ad-, <b>{{c1::aproximação}}</b>.",
+      "extra": "Abdução afasta da linha média; adução aproxima.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-ab-ad",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-ecto-exo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "ecto- × exo-",
+      "canonical_form": "ecto- × exo-",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "ecto- × exo-",
+      "literal_gloss": "ecto- × exo-",
+      "clinical_meaning": "ecto- × exo-",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> ecto- descreve posição <b>{{c1::externa}}</b>; exo- marca movimento ou origem <b>{{c1::para fora}}</b>.",
+      "extra": "Ectoderma é camada externa; exocitose transporta conteúdo para fora.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-ecto-exo",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-epi-peri-para",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "epi- × peri- × para-",
+      "canonical_form": "epi- × peri- × para-",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "epi- × peri- × para-",
+      "literal_gloss": "epi- × peri- × para-",
+      "clinical_meaning": "epi- × peri- × para-",
+      "inference_limit": "O contexto do termo pode especializar o valor do morfema.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> epi- indica <b>{{c1::sobre}}</b>; peri-, <b>{{c1::ao redor}}</b>; para-, <b>{{c1::ao lado}}</b>.",
+      "extra": "Epicárdio reveste a superfície; pericárdio circunda; paratireoide fica junto à tireoide.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-epi-peri-para",
+        "terminologia::card::contrast",
+        "terminologia::familia::contrastes",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-sial-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "sial/o",
+      "canonical_form": "sial/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "sial/o",
+      "literal_gloss": "saliva",
+      "clinical_meaning": "saliva",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória sial/o refere-se à <b>{{c1::saliva}}</b>.",
+      "extra": "Sialolitíase é cálculo no sistema salivar: sial/o + lit/o + -íase.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-sial-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-dacri-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "dacri/o",
+      "canonical_form": "dacri/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "dacri/o",
+      "literal_gloss": "lágrima",
+      "clinical_meaning": "lágrima",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória dacri/o refere-se às <b>{{c1::lágrimas}}</b>.",
+      "extra": "Dacriocistite inflama o saco lacrimal: dacri/o + cist/o + -ite.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-dacri-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-blefar-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "blefar/o",
+      "canonical_form": "blefar/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "blefar/o",
+      "literal_gloss": "pálpebra",
+      "clinical_meaning": "pálpebra",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória blefar/o refere-se à <b>{{c1::pálpebra}}</b>.",
+      "extra": "Blefaroptose é queda palpebral: blefar/o + -ptose.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-blefar-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-piel-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "piel/o",
+      "canonical_form": "piel/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "piel/o",
+      "literal_gloss": "pelve renal",
+      "clinical_meaning": "pelve renal",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> No sistema urinário, piel/o refere-se à <b>{{c1::pelve renal}}</b>.",
+      "extra": "Pielonefrite combina pelve renal, rim e inflamação.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-piel-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-pi-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "pi/o",
+      "canonical_form": "pi/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "pi/o",
+      "literal_gloss": "pus",
+      "clinical_meaning": "pus",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória pi/o refere-se a <b>{{c1::pus}}</b>.",
+      "extra": "Piotórax é presença de pus na cavidade torácica.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-pi-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-calic-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "calic/o",
+      "canonical_form": "calic/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "calic/o",
+      "literal_gloss": "cálice renal",
+      "clinical_meaning": "cálice renal",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória calic/o refere-se ao <b>{{c1::cálice renal}}</b>.",
+      "extra": "Calicectasia é dilatação dos cálices renais.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-calic-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-colangi-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "colangi/o",
+      "canonical_form": "colangi/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "colangi/o",
+      "literal_gloss": "ducto biliar",
+      "clinical_meaning": "ducto biliar",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória colangi/o refere-se aos <b>{{c1::ductos biliares}}</b>.",
+      "extra": "Colangite inflama ductos biliares; não a vesícula.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-colangi-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-colecist-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "colecist/o",
+      "canonical_form": "colecist/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "colecist/o",
+      "literal_gloss": "vesícula biliar",
+      "clinical_meaning": "vesícula biliar",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória colecist/o refere-se à <b>{{c1::vesícula biliar}}</b>.",
+      "extra": "Colecistectomia remove a vesícula; colangite envolve os ductos.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-colecist-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-miring-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "miring/o",
+      "canonical_form": "miring/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "miring/o",
+      "literal_gloss": "membrana timpânica",
+      "clinical_meaning": "membrana timpânica",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória miring/o refere-se à <b>{{c1::membrana timpânica}}</b>.",
+      "extra": "Miringotomia é incisão da membrana timpânica.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-miring-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-estaped-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "estaped/o",
+      "canonical_form": "estaped/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "estaped/o",
+      "literal_gloss": "estribo",
+      "clinical_meaning": "estribo",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória estaped/o refere-se ao <b>{{c1::estribo}}</b>.",
+      "extra": "Estapedectomia remove parcial ou totalmente esse ossículo.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-estaped-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-esfigm-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "esfigm/o",
+      "canonical_form": "esfigm/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "esfigm/o",
+      "literal_gloss": "pulso",
+      "clinical_meaning": "pulso",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória esfigm/o refere-se ao <b>{{c1::pulso}}</b>.",
+      "extra": "Esfigmomanômetro contém esfigm/o, embora meça pressão arterial.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-esfigm-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-onic-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "onic/o",
+      "canonical_form": "onic/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "onic/o",
+      "literal_gloss": "unha",
+      "clinical_meaning": "unha",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória onic/o refere-se à <b>{{c1::unha}}</b>.",
+      "extra": "Onicomicose é micose ungueal: onic/o + mic/o + -ose.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-onic-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-xant-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "xant/o",
+      "canonical_form": "xant/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "xant/o",
+      "literal_gloss": "amarelo",
+      "clinical_meaning": "amarelo",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória xant/o refere-se à cor <b>{{c1::amarela}}</b>.",
+      "extra": "Xantocromia descreve coloração amarelada, como no líquor.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-xant-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-hial-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "hial/o",
+      "canonical_form": "hial/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hial/o",
+      "literal_gloss": "vidro",
+      "clinical_meaning": "vidro",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória hial/o indica aspecto <b>{{c1::vítreo}}</b>.",
+      "extra": "Hialino descreve aparência translúcida; não uma composição química única.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-hial-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-acin-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "acin/o",
+      "canonical_form": "acin/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "acin/o",
+      "literal_gloss": "bago",
+      "clinical_meaning": "bago",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória acin/o indica estrutura em <b>{{c1::bago}}</b>.",
+      "extra": "Ácinos são unidades secretoras arredondadas, semelhantes a pequenos cachos.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-acin-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-trabecul-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "trabecul/o",
+      "canonical_form": "trabecul/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "trabecul/o",
+      "literal_gloss": "pequena viga",
+      "clinical_meaning": "pequena viga",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória trabecul/o refere-se a uma <b>{{c1::pequena viga}}</b>.",
+      "extra": "Trabéculas são suportes em rede, como no osso esponjoso.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-trabecul-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-glomerul-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "glomerul/o",
+      "canonical_form": "glomerul/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "glomerul/o",
+      "literal_gloss": "pequeno novelo",
+      "clinical_meaning": "pequeno novelo",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória glomerul/o refere-se a um <b>{{c1::pequeno novelo}}</b>.",
+      "extra": "Glomérulo nomeia a rede capilar renal por sua forma enovelada.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-glomerul-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-hil-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "hil/o",
+      "canonical_form": "hil/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hil/o",
+      "literal_gloss": "hilo",
+      "clinical_meaning": "hilo",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória hil/o refere-se ao <b>{{c1::hilo}}</b>.",
+      "extra": "No pulmão, hilo é a região medial por onde passam brônquios, vasos, linfáticos e nervos; hilar significa relativo a essa região.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-hil-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-foramin-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "foramin/o",
+      "canonical_form": "foramin/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "foramin/o",
+      "literal_gloss": "abertura",
+      "clinical_meaning": "abertura",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma foramin/o refere-se a uma <b>{{c1::abertura}}</b>.",
+      "extra": "Forame é uma abertura anatômica para nervos ou vasos. Na estenose foraminal, esse espaço estreita e pode comprimir a raiz nervosa.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-foramin-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-diverticul-o",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "morpheme_in_context",
+      "term_en": "",
+      "term_ptbr": "diverticul/o",
+      "canonical_form": "diverticul/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "diverticul/o",
+      "literal_gloss": "desvio ou bolsa",
+      "clinical_meaning": "desvio ou bolsa",
+      "inference_limit": "A raiz orienta a estrutura; não determina doença ou mecanismo.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma combinatória diverticul/o refere-se a uma <b>{{c1::evaginação sacular}}</b>.",
+      "extra": "Diverticulite é inflamação de divertículo; diverticulose indica sua presença.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-diverticul-o",
+        "terminologia::card::morpheme_in_context",
+        "terminologia::familia::raizes-raras",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-sialolitiase",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "sialolitíase",
+      "canonical_form": "sialolitíase",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "sial/o (saliva) + lit/o (cálculo) + -íase (condição)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, sialolitíase sugere <b>{{c1::cálculo salivar}}</b>.",
+      "extra": "sial/o (saliva) + lit/o (cálculo) + -íase (condição) = cálculo no sistema salivar.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-sialolitiase",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-dacriocistite",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "dacriocistite",
+      "canonical_form": "dacriocistite",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "dacri/o (lágrima) + cist/o (saco) + -ite (inflamação)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, dacriocistite sugere inflamação do <b>{{c1::saco lacrimal}}</b>.",
+      "extra": "dacri/o (lágrima) + cist/o (saco) + -ite (inflamação) = inflamação do saco lacrimal.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-dacriocistite",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-blefaroptose",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "blefaroptose",
+      "canonical_form": "blefaroptose",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "blefar/o (pálpebra) + -ptose (queda)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, blefaroptose sugere <b>{{c1::queda palpebral}}</b>.",
+      "extra": "blefar/o (pálpebra) + -ptose (queda) = descenso da pálpebra.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-blefaroptose",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-piotorax",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "piotórax",
+      "canonical_form": "piotórax",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "pi/o (pus) + torac/o (tórax)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, piotórax sugere <b>{{c1::pus torácico}}</b>.",
+      "extra": "pi/o (pus) + torac/o (tórax) = pus na cavidade torácica; equivale a empiema pleural.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-piotorax",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-calicectasia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "calicectasia",
+      "canonical_form": "calicectasia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "calic/o (cálice renal) + -ectasia (dilatação)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, calicectasia sugere <b>{{c1::dilatação calicial}}</b>.",
+      "extra": "calic/o (cálice renal) + -ectasia (dilatação) = dilatação dos cálices renais.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-calicectasia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-coledocolitiase",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "coledocolitíase",
+      "canonical_form": "coledocolitíase",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "coledoc/o (colédoco) + lit/o (cálculo) + -íase",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, coledocolitíase sugere cálculo no <b>{{c1::colédoco}}</b>.",
+      "extra": "coledoc/o (colédoco) + lit/o (cálculo) + -íase = cálculo no ducto biliar comum.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-coledocolitiase",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-colecistectomia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "colecistectomia",
+      "canonical_form": "colecistectomia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "colecist/o (vesícula biliar) + -ectomia (remoção)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, colecistectomia indica <b>{{c1::remoção vesicular}}</b>.",
+      "extra": "colecist/o (vesícula biliar) + -ectomia (remoção) = retirada cirúrgica da vesícula.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-colecistectomia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-miringotomia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "miringotomia",
+      "canonical_form": "miringotomia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "miring/o (tímpano) + -tomia (incisão)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, miringotomia indica <b>{{c1::incisão timpânica}}</b>.",
+      "extra": "miring/o (tímpano) + -tomia (incisão) = abertura cirúrgica da membrana timpânica.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-miringotomia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-estapedectomia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "estapedectomia",
+      "canonical_form": "estapedectomia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "estaped/o (estribo) + -ectomia (remoção)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, estapedectomia indica remoção do <b>{{c1::estribo}}</b>.",
+      "extra": "estaped/o (estribo) + -ectomia (remoção) = retirada parcial ou total do ossículo.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-estapedectomia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-esfigmomanometro",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "esfigmomanômetro",
+      "canonical_form": "esfigmomanômetro",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "esfigm/o (pulso) + man/o (pressão) + -metro",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A raiz esfigm/o em esfigmomanômetro alude ao <b>{{c1::pulso}}</b>.",
+      "extra": "esfigm/o (pulso) + man/o (pressão) + -metro = instrumento de pressão; hoje mede pressão arterial.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-esfigmomanometro",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-onicomicose",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "onicomicose",
+      "canonical_form": "onicomicose",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "onic/o (unha) + mic/o (fungo) + -ose",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, onicomicose sugere <b>{{c1::micose ungueal}}</b>.",
+      "extra": "onic/o (unha) + mic/o (fungo) + -ose = infecção fúngica da unha.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-onicomicose",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-xantocromia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "xantocromia",
+      "canonical_form": "xantocromia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "xant/o (amarelo) + -cromia (cor)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, xantocromia indica coloração <b>{{c1::amarelada}}</b>.",
+      "extra": "xant/o (amarelo) + -cromia (cor) = aspecto amarelado; a etiologia depende do contexto.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-xantocromia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-hialinose",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "hialinose",
+      "canonical_form": "hialinose",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hial/o (vítreo) + -ose (condição)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, hialinose sugere depósito de aspecto <b>{{c1::vítreo}}</b>.",
+      "extra": "hial/o (vítreo) + -ose (condição) = material hialino; o termo não define composição única.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-hialinose",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-acinar",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "acinar",
+      "canonical_form": "acinar",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "acin/o (bago) + -ar (relativo a)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Morfologicamente, acinar significa semelhante a <b>{{c1::bago}}</b>.",
+      "extra": "acin/o (bago) + -ar (relativo a) = organização em pequenas unidades secretoras arredondadas.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-acinar",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-trabecular",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "trabecular",
+      "canonical_form": "trabecular",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "trabecul/o (pequena viga) + -ar",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Morfologicamente, trabecular significa organizado em <b>{{c1::pequenas vigas}}</b>.",
+      "extra": "trabecul/o (pequena viga) + -ar = arquitetura em barras ou lâminas de sustentação.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-trabecular",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-glomerulopatia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "glomerulopatia",
+      "canonical_form": "glomerulopatia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "glomerul/o (glomérulo) + -patia (doença)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, glomerulopatia indica doença do <b>{{c1::glomérulo}}</b>.",
+      "extra": "glomerul/o (glomérulo) + -patia (doença) = categoria ampla; não especifica o mecanismo.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-glomerulopatia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-hilar",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "hilar",
+      "canonical_form": "hilar",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hil/o (hilo) + -ar (relativo a)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Morfologicamente, hilar significa relativo ao <b>{{c1::hilo}}</b>.",
+      "extra": "hil/o (hilo) + -ar (relativo a) = região de trânsito de vasos, nervos ou ductos.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-hilar",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-foraminal",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "foraminal",
+      "canonical_form": "foraminal",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "foramin/o (forame) + -al (relativo a)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Morfologicamente, foraminal significa relativo a uma <b>{{c1::abertura}}</b>.",
+      "extra": "foramin/o (forame) + -al (relativo a) = relacionado a um forame anatômico.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-foraminal",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-diverticulite",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "diverticulite",
+      "canonical_form": "diverticulite",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "diverticul/o (divertículo) + -ite (inflamação)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, diverticulite sugere <b>{{c1::inflamação diverticular}}</b>.",
+      "extra": "diverticul/o (divertículo) + -ite (inflamação) = divertículo inflamado; não apenas sua presença.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-diverticulite",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-broncorreia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "transfer",
+      "term_en": "",
+      "term_ptbr": "broncorreia",
+      "canonical_form": "broncorreia",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "bronc/o (brônquio) + -rreia (fluxo)",
+      "literal_gloss": "inferência morfológica",
+      "clinical_meaning": "ver Texto",
+      "inference_limit": "A decomposição prevê uma classe de sentido, não etiologia ou gravidade.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Pelos componentes, broncorreia sugere <b>{{c1::fluxo brônquico}}</b>.",
+      "extra": "bronc/o (brônquio) + -rreia (fluxo) = secreção brônquica excessiva; não significa hemorragia.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-broncorreia",
+        "terminologia::card::transfer",
+        "terminologia::familia::transferencia",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-hematoma",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "hematoma",
+      "canonical_form": "hematoma",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "hematoma",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "coleção sanguínea",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Apesar de -oma, hematoma não implica <b>{{c1::neoplasia}}</b>.",
+      "extra": "hemat- (sangue) + -oma (massa) = coleção localizada de sangue extravasado.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI MedGen C0018944 — https://www.ncbi.nlm.nih.gov/medgen/5484"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-hematoma",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-glaucoma",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "glaucoma",
+      "canonical_form": "glaucoma",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "glaucoma",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "neuropatia óptica",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em glaucoma, a terminação -oma não significa <b>{{c1::tumor}}</b>.",
+      "extra": "Glaucoma nomeia neuropatia óptica; segmentá-lo como neoplasia produz falsa etimologia.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "MedlinePlus Glaucoma — https://medlineplus.gov/glaucoma.html"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-glaucoma",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-pseudocisto",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "pseudocisto",
+      "canonical_form": "pseudocisto",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "pseudocisto",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "coleção sem epitélio",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Um pseudocisto, apesar do nome, não possui <b>{{c1::revestimento epitelial}}</b>.",
+      "extra": "pseudo- (falso) + cist/o (cisto) = coleção encapsulada sem epitélio verdadeiro.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI StatPearls NBK557594 — https://www.ncbi.nlm.nih.gov/books/NBK557594/"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-pseudocisto",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-carcinoma-in-situ",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "carcinoma-in-situ",
+      "canonical_form": "carcinoma-in-situ",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "carcinoma-in-situ",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "neoplasia não invasiva",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Carcinoma in situ permanece sem <b>{{c1::invasão estromal}}</b>.",
+      "extra": "in situ significa “no lugar”: células malignas ainda não atravessaram a membrana basal.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCI carcinoma in situ — https://www.cancer.gov/publications/dictionaries/cancer-terms/def/carcinoma-in-situ"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-carcinoma-in-situ",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-ileo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "ileo",
+      "canonical_form": "ileo",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "ileo",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "obstrução funcional",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> O termo íleo não significa doença restrita ao <b>{{c1::íleo intestinal}}</b>.",
+      "extra": "Íleo é parada funcional do trânsito; a semelhança gráfica com o segmento intestinal engana.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI StatPearls NBK558937 — https://www.ncbi.nlm.nih.gov/books/NBK558937/"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-ileo",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-angina-pectoris",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "angina-pectoris",
+      "canonical_form": "angina-pectoris",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "angina-pectoris",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "desconforto isquêmico",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Em angina pectoris, angina não designa inflamação da <b>{{c1::garganta}}</b>.",
+      "extra": "Angina alude a aperto; pectoris situa no peito. O termo vigente descreve desconforto isquêmico.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI MedGen C0002962 — https://www.ncbi.nlm.nih.gov/medgen/1929"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-angina-pectoris",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-diabetes-mellitus-insipidus",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "diabetes-mellitus-insipidus",
+      "canonical_form": "diabetes-mellitus-insipidus",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "diabetes-mellitus-insipidus",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "qualificadores históricos",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Mellitus significa <b>{{c1::doce}}</b>; insipidus, <b>{{c1::sem sabor}}</b>.",
+      "extra": "Os qualificadores vêm da urina historicamente provada; não explicam os mecanismos atuais.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Bookshelf NBK310272 — diabetes mellitus e insipidus"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-diabetes-mellitus-insipidus",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-lupus",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "exception",
+      "term_en": "",
+      "term_ptbr": "lupus",
+      "canonical_form": "lupus",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "lupus",
+      "literal_gloss": "origem ou aparência histórica",
+      "clinical_meaning": "termo histórico",
+      "inference_limit": "O uso médico vigente prevalece sobre uma segmentação literal.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A origem “lobo” de lúpus não fornece sua <b>{{c1::definição clínica}}</b>.",
+      "extra": "A imagem histórica pode ajudar a lembrar o nome, mas não permite inferir autoimunidade.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "PubMed PMID 32380218 — história do termo lupus"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-lupus",
+        "terminologia::card::exception",
+        "terminologia::familia::armadilhas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-mielo-polissemia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "miel/o",
+      "canonical_form": "miel/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "miel/o",
+      "literal_gloss": "medula",
+      "clinical_meaning": "medula",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma miel/o pode indicar <b>{{c1::medula óssea}}</b> ou <b>{{c1::medula espinal}}</b>.",
+      "extra": "Mielograma hematológico examina medula óssea; mielopatia neurológica envolve medula espinal.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-mielo-polissemia",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-cisto-polissemia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "cist/o",
+      "canonical_form": "cist/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "cist/o",
+      "literal_gloss": "bexiga ou cisto",
+      "clinical_meaning": "bexiga ou cisto",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> A forma cist/o pode indicar <b>{{c1::bexiga}}</b> ou <b>{{c1::cisto}}</b>.",
+      "extra": "Cistoscopia examina a bexiga; pseudocisto nomeia uma coleção semelhante a cisto.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-cisto-polissemia",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-metro-polissemia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "metr/o × -metro",
+      "canonical_form": "metr/o × -metro",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "metr/o × -metro",
+      "literal_gloss": "útero ou medidor",
+      "clinical_meaning": "útero ou medidor",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Metr/o pode indicar <b>{{c1::útero}}</b>; -metro indica <b>{{c1::instrumento medidor}}</b>.",
+      "extra": "Endométrio contém metr/o uterino; termômetro termina em -metro instrumental.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-metro-polissemia",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-vaso-polissemia",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "vas/o",
+      "canonical_form": "vas/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "vas/o",
+      "literal_gloss": "vaso ou ducto",
+      "clinical_meaning": "vaso ou ducto",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Vas/o pode indicar <b>{{c1::vaso}}</b> sanguíneo ou <b>{{c1::ducto}}</b>.",
+      "extra": "Vasodilatação envolve vasos; vasectomia secciona o ducto deferente.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-vaso-polissemia",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-nefro-reno",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "nefr/o × ren/o",
+      "canonical_form": "nefr/o × ren/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "nefr/o × ren/o",
+      "literal_gloss": "rim",
+      "clinical_meaning": "rim",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Nefr/o é a forma <b>{{c1::grega}}</b> para rim; ren/o, a <b>{{c1::latina}}</b>.",
+      "extra": "Nefropatia e renal compartilham referente, mas seguem tradições lexicais diferentes.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-nefro-reno",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-oftalmo-oculo",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "oftalm/o × ocul/o",
+      "canonical_form": "oftalm/o × ocul/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "oftalm/o × ocul/o",
+      "literal_gloss": "olho",
+      "clinical_meaning": "olho",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Oftalm/o é a forma <b>{{c1::grega}}</b> para olho; ocul/o, a <b>{{c1::latina}}</b>.",
+      "extra": "Oftalmologia usa a forma grega; oculomotor conserva a latina.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-oftalmo-oculo",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-flebo-veno",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "fleb/o × ven/o",
+      "canonical_form": "fleb/o × ven/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "fleb/o × ven/o",
+      "literal_gloss": "veia",
+      "clinical_meaning": "veia",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Fleb/o é a forma <b>{{c1::grega}}</b> para veia; ven/o, a <b>{{c1::latina}}</b>.",
+      "extra": "Flebite usa a forma grega; venoso e intravenoso, a latina.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-flebo-veno",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    },
+    {
+      "uid": "etim-pt2-odonto-dento",
+      "deck": "NEBLI::Etimologia::Piloto pt2",
+      "kind": "contrast",
+      "term_en": "",
+      "term_ptbr": "odont/o × dent/o",
+      "canonical_form": "odont/o × dent/o",
+      "origin_language": "Not_applicable",
+      "morpheme_breakdown": "odont/o × dent/o",
+      "literal_gloss": "dente",
+      "clinical_meaning": "dente",
+      "inference_limit": "A forma ativa depende do termo e da tradição lexical.",
+      "variants": [],
+      "text": "<b>Etimologia.</b> Odont/o é a forma <b>{{c1::grega}}</b> para dente; dent/o, a <b>{{c1::latina}}</b>.",
+      "extra": "Odontologia usa a forma grega; dental e dentição, a latina.",
+      "source_etymology": [
+        "NCBI Medical Terminology, cap. 1 (2024), NBK607453"
+      ],
+      "source_medical": [
+        "NCBI Medical Terminology, 2a ed. (2024), NBK607454"
+      ],
+      "license": "CC BY 4.0 (NCBI/Open RN); definições NCI são domínio público",
+      "confidence": "high",
+      "number_of_cards": 1,
+      "tags": [
+        "etim_pilot_pt2",
+        "etim_uid::etim-pt2-odonto-dento",
+        "terminologia::card::contrast",
+        "terminologia::familia::polissemia-duplas",
+        "terminologia::status::piloto_pt2"
+      ],
+      "status": "pilot_review"
+    }
+  ]
+}

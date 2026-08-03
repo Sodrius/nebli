@@ -1,0 +1,37 @@
+{
+  "visual_plan_version": "v1",
+  "slug": "<slug>",
+  "concepts": [
+    {
+      "concept_id": "1.1",
+      "importance": "nuclear",
+      "learning_goal": "Reconhecer a estrutura e localizá-la na peça/corte.",
+      "strategy": "io_required",
+      "image_role": "localization",
+      "visual_task": "Localizar a estrutura sem rótulos concorrentes ou vazamento.",
+      "rationale": "O objetivo avaliável é reconhecimento espacial, não apenas definição verbal.",
+      "needs_editorial_confirmation": false,
+      "io": {"board_id": "<prancha-id>", "targets": [{"label": "<estrutura>"}]}
+    },
+    {
+      "concept_id": "1.2",
+      "importance": "nuclear",
+      "learning_goal": "Explicar o mecanismo causal.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Reconstruir o fluxo após responder ao cloze.",
+      "rationale": "O recall é textual; o esquema serve para organizar a relação, não entregar a resposta.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "1.3",
+      "importance": "support",
+      "learning_goal": "Distinguir um termo verbal de outro.",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "A figura não acrescentaria uma relação recuperável.",
+      "rationale": "Forçar imagem seria decoração.",
+      "needs_editorial_confirmation": false
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "embrio-01-gametogenese-fertilizacao-teste-step1",
+  "tag_ancora": "NEBLI::embrio-01-gametogenese-fertilizacao-teste-step1",
+  "target_deck": "NEBLI::TESTE_APAGAR::Embriologia I — Gametogênese e fertilização",
+  "origem": "Curadoria AnKing ampliada, revisada por conceito antes da E1/E2.",
+  "kept": [
+    {
+      "guid": "cC&zl#a*#u",
+      "conceito": "2.1",
+      "raw0": "<div><div>{{c1::<b>Germ</b>}}<b> cells</b> (spermatogonia) maintain the germ pool and produce <b>primary spermatocytes </b></div></div>"
+    },
+    {
+      "guid": "k<|HM#qs_S",
+      "conceito": "2.1",
+      "raw0": "The first stage of <b>spermatogenesis</b> is {{c1::<b>DNA replication</b> <b>(interphase)</b>}} of {{c2::<b>spermatogonia</b>}} to generate the {{c2::<b>primary spermatocytes</b>}}"
+    },
+    {
+      "guid": "Bf5,r3%2Hi",
+      "conceito": "1.2",
+      "raw0": "<div>After the <b>primary spermatocyte</b> has been formed, it undergoes {{c1::<b>meiosis I</b>}} to become a(n) {{c2::<b>secondary spermatocyte</b>}}</div>"
+    },
+    {
+      "guid": "wJ{B#0MoH{",
+      "conceito": "1.2",
+      "raw0": "<div>After the <b>secondary spermatocyte</b> has been formed, it undergoes {{c1::<b>meiosis II</b>}} to become a(n) {{c2::<b>spermatid</b>}}</div>"
+    },
+    {
+      "guid": "A%)86f+bP]",
+      "conceito": "2.2",
+      "raw0": "<div>After <b>spermatids</b> have been formed from secondary spermatocytes, they undergo {{c1::<b>spermiogenesis</b>}} to form {{c2::<b>spermatozoa</b>}} </div>"
+    },
+    {
+      "guid": "DYAFzg+)<.",
+      "conceito": "2.2",
+      "raw0": "<div>What changes occur during the process of <b>spermiogenesis</b>? </div><br><div> - Loss of {{c1::cytoplasmic contents}}</div><div> - Gain of a(n) {{c1::acrosomal}} cap</div><div> - Development of a(n) {{c1::flagellum}} </div>"
+    },
+    {
+      "guid": "Lu1|m:&.>-",
+      "conceito": "1.2",
+      "raw0": "<div>After which stage of <b>spermatogenesis</b> does the <b>diploid</b> sperm become <b>haploid</b>?</div><br><div>{{c1::Meiosis I (primary spermatocyte to secondary spermatocyte)}}</div>"
+    },
+    {
+      "guid": "uD9w^-IB`>",
+      "conceito": "2.4",
+      "raw0": "<div>The primary location for the <b>maturation</b> and <b>storage</b> of sperm is the {{c1::<b>epididymis</b>}}</div>"
+    },
+    {
+      "guid": "oXP.sD|kU~",
+      "conceito": "1.1",
+      "raw0": "<div>In the <i>developing</i> ovaries, primordial germ cells produce {{c1::<b>oogonia</b>}} by {{c2::<b>mitotic</b>}}<b> divisions</b> until <i>gestational</i> weeks {{c3::20}} to {{c3::24}} </div>"
+    },
+    {
+      "guid": "odhdpMzy)v",
+      "conceito": "1.3",
+      "raw0": "<div>{{c1::<b>DNA replication</b> <b>(interphase)</b>::Process}} of <b>oogonia </b>generates the {{c2::<b>primary oocytes</b>}} (arrested in <b>prophase 1</b>)  </div>"
+    },
+    {
+      "guid": "Jp&_8|4[%>",
+      "conceito": "1.3",
+      "raw0": "<div>Beginning at <b>ovulation</b>, <b>primary oocytes</b> (diploid) begin to complete {{c1::<b>meiosis I</b>}} to form {{c2::<b>secondary oocytes</b>}} (haploid) </div>"
+    },
+    {
+      "guid": "ppzz1M!6{k",
+      "conceito": "3.4",
+      "raw0": "<div>After <b>fertilization</b>, the <b>secondary oocyte</b> completes {{c1::<b>meiosis II</b>}} to form a(n) {{c2::<b>ovum</b>}} </div>"
+    },
+    {
+      "guid": "cLs(I_mw=2",
+      "conceito": "1.3",
+      "raw0": "<div><b>Primary oocytes</b> are arrested in <b>prophase I</b> of meiosis I for years until {{c1::ovulation}}</div>"
+    },
+    {
+      "guid": "k/WR+6g/H1",
+      "conceito": "1.3",
+      "raw0": "<div><b>Secondary oocytes</b> are arrested in <b>metaphase II</b> of meiosis II until {{c1::fertilization}}</div>"
+    },
+    {
+      "guid": "w0cUEJx@.f",
+      "conceito": "step1_sertoli_leydig",
+      "raw0": "<div>The <b>male gonads</b> consist of <u>three</u> cell types: {{c1::germ}} cells, {{c1::Sertoli}} cells, and {{c1::Leydig}} cells</div>"
+    },
+    {
+      "guid": "d#d7s7X$d;",
+      "conceito": "step1_leydig_testosterone",
+      "raw0": "<div>The {{c2::<b>Leydig</b>}}<b> cells</b> of the <b>male gonads</b> synthesize {{c1::<b>testosterone</b>}} </div>"
+    },
+    {
+      "guid": "BUbtVSaZ0e",
+      "conceito": "step1_sertoli_inhibin",
+      "raw0": "<div><div>{{c3::<b>Sertoli</b>}}<b> cells</b> (males) secrete {{c1::<b>inhibin B</b>::<b>specific</b>}}, which serves to inhibit {{c2::<b>FSH</b>}} secretion</div></div>"
+    },
+    {
+      "guid": "q>)XcWzok8",
+      "conceito": "step1_abp",
+      "raw0": "<div><div>{{c2::<b>Sertoli</b>}}<b> cells</b> secrete {{c1::<b>androgen-binding protein</b>}} which serves to <b>maintain local levels of testosterone</b></div></div>"
+    },
+    {
+      "guid": "G*eMf=@bFj",
+      "conceito": "step1_blood_testis",
+      "raw0": "<div><div>{{c1::<b>Tight junctions</b>}} between adjacent {{c3::<b>Sertoli</b>}}<b> cells</b> form the {{c2::<b>blood-testis</b>}}<b> barrier</b>, which isolates gametes from autoimmune attack</div></div>"
+    },
+    {
+      "guid": "NZfG]J]:L+",
+      "conceito": "step1_sertoli_support",
+      "raw0": "<div><div>{{c1::<b>Sertoli</b>}}<b> cells</b> function to <b>support</b> and <b>nourish</b> developing spermatogonia </div></div>"
+    },
+    {
+      "guid": "z?4Dj%t4ZB",
+      "conceito": "step1_leydig_lh",
+      "raw0": "<div><div><b>Leydig cells</b> secrete {{c1::<b>testosterone</b>}} in the presence of {{c2::<b>LH</b>}} </div></div>"
+    },
+    {
+      "guid": "s)zKjteUa!",
+      "conceito": "step1_fsh_sertoli",
+      "raw0": "<div>The pituitary hormone {{c1::<b>FSH</b>}} acts on the {{c2::<b>Sertoli</b>}}<b> cells</b> to maintain <b>spermatogenesis</b></div>"
+    },
+    {
+      "guid": "Rc>i7#A]EE",
+      "conceito": "step1_lh_leydig",
+      "raw0": "<div>The pituitary hormone {{c1::<b>LH</b>}} acts on the {{c2::<b>Leydig</b>}}<b> cells</b> to promote <b>testosterone synthesis</b> </div>"
+    },
+    {
+      "guid": "vn&$cP0G~^",
+      "conceito": "step1_follicle_unit",
+      "raw0": "<div>The <u>functional unit</u> of the <b>ovaries</b> is the <b>single</b> {{c1::<b>ovarian follicle</b>}}, which comprises <u>one</u> germ cell surrounded by endocrine cells</div>"
+    },
+    {
+      "guid": "l:1==J,S_3",
+      "conceito": "step1_follicle_primary",
+      "raw0": "<div>The <u>first</u> stage (long) of <b>ovarian follicle development</b> involves development of a(n) {{c1::<b>primary</b>}} <b>follicle</b> from a <u>primordial</u> follicle</div>"
+    },
+    {
+      "guid": "P?`KlZzDFY",
+      "conceito": "step1_graafian",
+      "raw0": "<div>The <u>second</u> stage (short) of <b>ovarian follicle development</b> involves the development of a(n) {{c1::<b>Graafian</b>}} <b>follicle</b> from a primary/secondary follicle</div>"
+    },
+    {
+      "guid": "jO(-#R8E2l",
+      "conceito": "step1_aromatase",
+      "raw0": "<div>In the {{c1::<b>granulosa</b>}}<b> cells</b> of the ovary, <b>testosterone</b> is converted to {{c2::<b>17β-estradiol</b>::specific}} via the enzyme {{c3::<b>aromatase</b>}} </div>"
+    },
+    {
+      "guid": "giXE]L`]7,",
+      "conceito": "step1_fsh_aromatase",
+      "raw0": "<div>In the <b>ovaries</b>, <i>aromatase</i> activity is stimulated by the hormone {{c1::<b>FSH</b>}} </div>"
+    },
+    {
+      "guid": "vbJ|c#iHq2",
+      "conceito": "step1_ovulation_timing",
+      "raw0": "<div>In the <u>middle</u> of the menstrual cycle, {{c1::<b>ovulation</b>}} occurs {{c2::14}} days prior to menses </div>"
+    },
+    {
+      "guid": "P;`E!^9Q]v",
+      "conceito": "step1_estradiol_surge",
+      "raw0": "<div>In the <u>middle</u> of the menstrual cycle, <b>estradiol</b> {{c1::<b>stimulates</b>}} <b>FSH</b> and <b>LH</b> secretion</div>"
+    },
+    {
+      "guid": "N8,&g=pVV)",
+      "conceito": "step1_corpus_luteum",
+      "raw0": "<div>During the <b>luteal phase</b> of the menstrual cycle, the {{c1::<b>corpus luteum</b>}} begins to develop</div>"
+    },
+    {
+      "guid": "mxu[$B*7,+",
+      "conceito": "step1_luteal_progesterone",
+      "raw0": "<div><div>The <b>luteal phase</b> of the menstrual cycle is dominated by the hormone {{c1::<b>progesterone</b>}}, causing <u>increased</u> {{c2::vascularity}} and {{c2::secretory}} activity of the <b>endometrium</b></div></div>"
+    },
+    {
+      "guid": "kIVkqG<,[.",
+      "conceito": "step1_hcg_source",
+      "raw0": "<div>After <u>implantation</u> occurs, {{c2::<b>syncytiotrophoblasts</b>}} of the <u>placenta</u> begin secreting {{c1::<b>hCG</b>}} to maintain the corpus luteum</div>"
+    },
+    {
+      "guid": "otrTF.Z%ov",
+      "conceito": "step1_hcg_luteum",
+      "raw0": "<div>The function of <b>hCG</b> is to maintain the {{c1::<b>corpus luteum</b>}} by acting like <b>LH</b> for the first {{c2::8-10}} weeks of pregnancy</div>"
+    },
+    {
+      "guid": "b54mky1k#%",
+      "conceito": "step1_anovulation",
+      "raw0": "<div><div><b>Anovulatory cycle</b> is a menstrual cycle that lacks {{c1::ovulation}}</div></div>"
+    },
+    {
+      "guid": "c:Rwl[r9PD",
+      "conceito": "step1_anovulation_endometrium",
+      "raw0": "<div><div><b>Anovulatory</b> <b>cycle</b> results in an estrogen-driven proliferative phase, but <b>no </b>{{c1::<b>progesterone</b>}}<b>-driven </b>{{c1::<b>secretory</b>}}<b> phase</b></div></div>"
+    },
+    {
+      "guid": "nONzww49YG",
+      "conceito": "step1_pcos",
+      "raw0": "Patients with <b>PCOS</b> may have {{c1::infertility}} and {{c1::irregular menses}} due to <u>anovulation</u> from <b>failed</b> {{c2::<b>follicular</b> <b>maturation</b>}}"
+    }
+  ]
+}

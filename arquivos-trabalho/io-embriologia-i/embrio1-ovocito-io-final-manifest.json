@@ -1,0 +1,44 @@
+{
+  "slug": "embrio1-ovocito-io-final",
+  "header": "Embriologia. Identify the highlighted oocyte structure.",
+  "image_size": [
+    1000,
+    800
+  ],
+  "n_boxes": 3,
+  "labels": [
+    {
+      "text": "Zona pelúcida",
+      "box": [
+        238,
+        345,
+        130,
+        28
+      ]
+    },
+    {
+      "text": "Grânulos corticais",
+      "box": [
+        245,
+        415,
+        120,
+        54
+      ]
+    },
+    {
+      "text": "Corona radiata",
+      "box": [
+        378,
+        575,
+        150,
+        30
+      ]
+    }
+  ],
+  "I0": "[#!occlusions [[rect0::238,345,130,28]]<br>[[rect0::245,415,120,54]]<br>[[rect0::378,575,150,30]] #]<br>active",
+  "media_name": "fac6dea5596647997ddf2e80ad1cf29b.png",
+  "image_field": "<img src=\"fac6dea5596647997ddf2e80ad1cf29b.png\">",
+  "crop_png": "..\\..\\arquivos-trabalho\\io-embriologia-i\\fac6dea5596647997ddf2e80ad1cf29b.png",
+  "preview_png": "..\\..\\arquivos-trabalho\\io-embriologia-i\\embrio1-ovocito-io-final-preview.png",
+  "mode": "manual_histology"
+}

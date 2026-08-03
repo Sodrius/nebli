@@ -254,6 +254,44 @@ referencia para recriar esquema proprio ou procurar alternativa aberta.
 - OpenStax Anatomy & Physiology: esquemas de A&P com licenca aberta/NC conforme
   versao, exigindo atribuicao.
 
+## Plano visual da aula — antes dos cards (canon 2026-07-17)
+
+A decisão visual nasce no mesmo momento da matriz de profundidade, não quando
+o card já está pronto. Para cada `concept_id` da checklist, criar
+`flashcards/curadoria/plano-visual-<slug>.json` com:
+
+- `learning_goal`: o que o aluno precisa fazer;
+- `strategy`: `io_required`, `extra_recommended`, `optional` ou `none`;
+- `visual_task`: a operação cognitiva, não o tema da imagem;
+- `rationale`: por que a figura acrescenta — ou não acrescenta — aprendizagem;
+- para IO, `board_id` e 1–4 alvos nucleares.
+
+Fluxo:
+
+1. gerar a checklist E1+E2;
+2. semear o plano com `planejar_visual_aula.py`;
+3. revisar as sugestões heurísticas marcadas como `needs_editorial_confirmation`;
+4. só então escrever cards e procurar/criar imagens;
+5. validar o plano e o manifesto de ativos antes do apply.
+
+O plano não diz “Anatomia sempre tem IO”. Ele decide, por objetivo: reconhecer
+um ramo em peça exige IO; explicar seu território pode pedir esquema no Extra;
+memorizar uma distinção verbal pode justificadamente não ter imagem. O contrato
+E1→card→E2 exige `visual_plan_id` e impede que a decisão do card contradiga a
+estratégia já aprovada para o conceito.
+
+`needs_editorial_confirmation: true` bloqueia a importação canônica de card
+ligado ao conceito. A heurística é um lembrete de revisão, nunca autorização
+automática para criar IO ou buscar uma imagem.
+
+Exemplo:
+
+```powershell
+python flashcards/scripts/planejar_visual_aula.py arquivos-trabalho/checklist-<slug>.tsv --slug <slug>
+```
+
+Template: `flashcards/curadoria/_PLANO-VISUAL-AULA-TEMPLATE.json`.
+
 ## Pipeline operacional por aula (refinado no mutirao de 2026-07-15)
 
 O processo visual tem dois trilhos. Eles nao sao intercambiaveis.

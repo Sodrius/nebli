@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "note_id": "embrio1-io-ovocito",
+      "visual_need": "required",
+      "image_role": "localization",
+      "visual_task": "Localizar zona pelúcida, grânulos corticais e corona radiata no ovócito secundário.",
+      "image_status": "approved",
+      "card_mode": "image_occlusion",
+      "placement": "front",
+      "target_count": 3,
+      "all_duplicate_labels_masked": true,
+      "image_score": 3,
+      "answer_leakage": false,
+      "preview_path": "embrio1-ovocito-io-final-preview.png",
+      "asset": {
+        "file": "fac6dea5596647997ddf2e80ad1cf29b.png",
+        "source_type": "slide",
+        "source_locator": "slides/Embriologia I - slides - ML.pdf, página PDF 11 (lâmina 23)",
+        "credit": "Profa. Marilene Lopes; uso privado de estudo.",
+        "license_status": "internal",
+        "retrieved_at": "2026-07-17",
+        "hash": "78D9FACBEFB901976A4E91173CBF62F3C4ED7802ED9A914DF2DA31D12A086E52",
+        "modifications": "Recorte da prancha; máscaras manuais cobrindo os rótulos completos."
+      }
+    }
+  ]
+}

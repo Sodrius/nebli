@@ -38,6 +38,22 @@ def norm(s):  # texto bruto do campo, sem html, colapsado
 def first_field_val(fields):
     return next(iter(fields.values()), {}).get("value", "") if fields else ""
 
+
+
+THEME_BY_SLUG = {
+    "anato": "Anatomy", "biocel": "Cell Biology", "biomol": "Molecular Biology",
+    "bioq": "Biochemistry", "embrio": "Embryology", "fisio": "Physiology",
+    "histo": "Histology", "etim": "Etymology",
+}
+
+def _theme_label(slug):
+    return THEME_BY_SLUG.get((slug or "").split("-", 1)[0], "Medicine")
+
+def _with_english_theme(value, slug):
+    if not value or value.lstrip().startswith("<b>"):
+        return value
+    return f"<b>{_theme_label(slug)}.</b> " + value
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
@@ -65,6 +81,8 @@ def main():
             skipped += 1; continue
         fields = {k: v["value"] for k, v in n["fields"].items()
                   if k not in ("ankihub_id",)}
+        if "Text" in fields:
+            fields["Text"] = _with_english_theme(fields["Text"], a.slug)
         tags = list(dict.fromkeys(n["tags"] + [f"NEBLI::{a.slug}"]))
         note = {"deckName": a.deck, "modelName": n["modelName"],
                 "fields": fields, "tags": tags,

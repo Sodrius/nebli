@@ -1,0 +1,59 @@
+slug: embrio-01-gametogenese-fertilizacao-teste
+titulo: "Embriologia I — Gametogênese e fertilização"
+subtitulo: "Embriologia"
+meta:
+  - ["Disciplina", "Embriologia"]
+  - ["Fonte de escopo", "Embriologia I - slides - ML.pdf"]
+  - ["Profundidade", "padrão elevado — mecanismos da fecundação e primeira semana"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Produzir gametas competentes"
+        subtopicos:
+          - "1.1 Células germinativas chegam à gônada antes de formar gametas"
+          - "1.2 Oócito inicia meiose antes do nascimento e só a termina se for fecundado"
+          - "1.3 Espermatozoide amadurece para entregar genoma e movimento"
+      - titulo: "PARTE II — Fecundar sem deixar entrar mais de um"
+        subtopicos:
+          - "2.1 O ovócito apresenta camadas com funções diferentes"
+          - "2.2 Capacitação permite reação acrossômica e travessia da zona"
+          - "2.3 Fusão ativa o ovócito e bloqueia polispermia"
+      - titulo: "PARTE III — Do zigoto ao blastocisto"
+        subtopicos:
+          - "3.1 Pró-núcleos unem dois genomas antes da primeira clivagem"
+          - "3.2 Clivagem aumenta o número de células, não o volume total"
+          - "3.3 Cavitação separa massa celular interna e trofoectoderma"
+gabarito:
+  consolidacao:
+    - ["01", "A"]
+    - ["02", "C"]
+    - ["03", "CEEC"]
+    - ["04", "A"]
+    - ["05", "B"]
+    - ["06", "ECCC"]
+    - ["07", "B"]
+    - ["08", "C"]
+    - ["09", "ECCE"]
+    - ["10", "B"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "CECE"]
+    - ["13", "A"]
+    - ["14", "B"]
+    - ["15", "CCEC"]
+    - ["16", "A"]
+    - ["17", "C"]
+    - ["18", "CCEC"]
+    - ["19", "A"]
+    - ["20", "B"]
+    - ["21", "CCEE"]
+    - ["22", "A"]
+    - ["23", "C"]
+    - ["24", "CCEC"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "CECE"]
+    - ["28", "B"]
+    - ["29", "CECC"]
+    - ["30", "B"]

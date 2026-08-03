@@ -53,6 +53,7 @@ NUM_PREFIX = {
 CLOZE_RE = re.compile(r"\{\{c(\d+)::([^}:]+?)(?:::([^}]*))?\}\}")
 TAG_RE = re.compile(r"<[^>]+>")
 BOLD_RE = re.compile(r"(<b>|<strong>|\*\*)(.*?)(</b>|</strong>|\*\*)", re.I | re.S)
+THEME_RE = re.compile(r"^<b>([^<.]+)\.</b>\s+")
 
 
 def strip_html(s):
@@ -149,12 +150,18 @@ def lint_text(text):
     flags = []
     hard = []
     score = 0
+    theme = THEME_RE.match(text)
+    if not theme or not 1 <= len(theme.group(1).split()) <= 2:
+        hard.append("missing_or_invalid_theme_label")
     distinct_indexes = sorted({c["idx"] for c in cs})
     if distinct_indexes != ["1"]:
         hard.append("multiple_cloze_indexes:" + ",".join(distinct_indexes))
     if len(cs) > 3:
         flags.append(f"many_same_card_targets:{len(cs)}")
         score += 3
+    bolded_clozes = re.findall(r"<(?:b|strong)>\s*\{\{c\d+::.*?\}\}\s*</(?:b|strong)>", text, re.I | re.S)
+    if len(bolded_clozes) != len(cs):
+        hard.append("cloze_not_bold")
     ccount = causal_count(stem)
     visible_bold_spans = bold_spans_in_stem(text)
     for c in cs:
@@ -168,13 +175,10 @@ def lint_text(text):
             else:
                 flags.append(f"name_in_stem:{','.join(sorted(overlap))}")
                 score += 2
+        raw_cw = len(re.findall(r"\S+", strip_html(c["answer"])))
         cw = len(ans_words)
-        if cw >= 7:
-            flags.append(f"cloze_dump:{cw}_content_words")
-            score += 3
-        elif cw >= 4:
-            flags.append(f"long_cloze:{cw}_content_words")
-            score += 1
+        if raw_cw > 3:
+            hard.append(f"cloze_over_3_words:{raw_cw}")
         if sigla_self_give(stem, c["answer"]):
             hard.append("acronym_expansion_visible")
         if numeric_parenthetical_give(stem, c["answer"]):
@@ -191,6 +195,11 @@ def lint_text(text):
         elif ccount == 1:
             flags.append("possible_mechanism_in_stem")
             score += 1
+    if theme:
+        theme_roots = {stem_word(w) for w in content_words(theme.group(1))}
+        answer_roots = {stem_word(w) for c in cs for w in content_words(c["answer"])}
+        if theme_roots & answer_roots:
+            hard.append("theme_label_hints_answer")
     if hard:
         return {"status": "REJECT", "score": 99, "flags": sorted(set(hard + flags)), "text": text}
     if score >= 5:

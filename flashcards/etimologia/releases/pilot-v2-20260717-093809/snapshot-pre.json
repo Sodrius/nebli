@@ -1,0 +1,1370 @@
+[
+  {
+    "noteId": 1784291821324,
+    "uid": "etim-v2-fnd-morfema",
+    "Text": "Palavras como nefrite dividem-se em unidades significativas chamadas {{c1::morfemas}}.",
+    "Extra": "Cada morfema contribui uma pista de sentido.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-morfema",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821332,
+    "uid": "etim-v2-fnd-prefixo",
+    "Text": "Em subcutâneo, <b>sub-</b> ocupa o início e funciona como {{c1::prefixo}}.",
+    "Extra": "Ele modifica o sentido da raiz cutane-.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-prefixo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821337,
+    "uid": "etim-v2-fnd-raiz",
+    "Text": "Em hepatite, <b>hepat-</b> carrega o referente anatômico como {{c1::raiz}}.",
+    "Extra": "A raiz concentra o núcleo semântico.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-raiz",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821342,
+    "uid": "etim-v2-fnd-sufixo",
+    "Text": "Em gastrite, <b>-ite</b> encerra e classifica o termo como {{c1::sufixo}}.",
+    "Extra": "O sufixo costuma indicar processo, condição ou procedimento.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-sufixo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821348,
+    "uid": "etim-v2-fnd-forma-combinatoria",
+    "Text": "Em cardiologia, <b>cardi/o</b> é raiz mais vogal: uma {{c1::forma combinatória}}.",
+    "Extra": "A barra separa raiz e vogal de ligação.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-forma-combinatoria",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821353,
+    "uid": "etim-v2-fnd-vogal-de-ligacao",
+    "Text": "Em cardiologia, o <b>o</b> une cardi- a -logia como {{c1::vogal de ligação}}.",
+    "Extra": "Ela facilita a pronúncia; não acrescenta sentido.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-vogal-de-ligacao",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821359,
+    "uid": "etim-v2-fnd-decomposicao",
+    "Text": "Separar pancitopenia em pan- + cit/o + -penia é {{c1::decomposição}}.",
+    "Extra": "A separação torna as pistas morfológicas visíveis.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-decomposicao",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821365,
+    "uid": "etim-v2-fnd-composicao",
+    "Text": "Unir nefr/o a -logia para formar nefrologia é {{c1::composição}}.",
+    "Extra": "A palavra resulta da união de elementos.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-composicao",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821371,
+    "uid": "etim-v2-fnd-derivacao",
+    "Text": "Acrescentar hiper- a tensão forma hipertensão por {{c1::derivação}}.",
+    "Extra": "Aqui, a derivação ocorre por prefixação.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-derivacao",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821378,
+    "uid": "etim-v2-fnd-cognato",
+    "Text": "Renal e ren/o descendem da mesma forma latina; são {{c1::cognatos}}.",
+    "Extra": "Cognatos compartilham origem, não necessariamente uso idêntico.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-cognato",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821384,
+    "uid": "etim-v2-fnd-transliteracao",
+    "Text": "Escrever νεφρός como nephrós em alfabeto latino é {{c1::transliteração}}.",
+    "Extra": "Transliteração troca escrita, não traduz o significado.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-transliteracao",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821392,
+    "uid": "etim-v2-fnd-eponimo",
+    "Text": "Parkinson nomeia uma doença a partir de pessoa; é {{c1::epônimo}}.",
+    "Extra": "Epônimos não se decompõem em morfemas médicos.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-eponimo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821400,
+    "uid": "etim-v2-fnd-acronimo",
+    "Text": "A sigla pronunciável <b>laser</b> funciona como {{c1::acrônimo}}.",
+    "Extra": "Acrônimos exigem conhecer a expansão histórica.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-acronimo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821407,
+    "uid": "etim-v2-fnd-polissemia",
+    "Text": "<b>miel/o</b> pode indicar medula óssea ou espinal; isso é {{c1::polissemia}}.",
+    "Extra": "O contexto decide qual sentido está ativo.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-polissemia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821414,
+    "uid": "etim-v2-fnd-glosa-literal",
+    "Text": "Somar os sentidos de nefr/o e -patia produz a {{c1::glosa literal}}.",
+    "Extra": "A glosa orienta; não determina o diagnóstico.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-glosa-literal",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821421,
+    "uid": "etim-v2-fnd-definicao-clinica",
+    "Text": "O uso médico vigente, não só os morfemas, determina a {{c1::definição clínica}}.",
+    "Extra": "Termos históricos podem desviar do sentido literal.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-definicao-clinica",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821427,
+    "uid": "etim-v2-fnd-ponte-ph-f",
+    "Text": "Em português, <b>phleb/o</b> corresponde a {{c1::fleb/o}}.",
+    "Extra": "Assim, phlebitis corresponde a flebite.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-ponte-ph-f",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821433,
+    "uid": "etim-v2-fnd-ponte-th-t",
+    "Text": "Em português, <b>thorac/o</b> corresponde a {{c1::torac/o}}.",
+    "Extra": "Assim, thoracotomy corresponde a toracotomia.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-ponte-th-t",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821438,
+    "uid": "etim-v2-fnd-ponte-y-i",
+    "Text": "Em português, <b>glyc/o</b> corresponde a {{c1::glic/o}}.",
+    "Extra": "Assim, glycemia corresponde a glicemia.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-ponte-y-i",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821445,
+    "uid": "etim-v2-fnd-ponte-rh-r",
+    "Text": "Em português, <b>rhino-</b> corresponde a {{c1::rino-}}.",
+    "Extra": "Assim, rhinitis corresponde a rinite.",
+    "tags": [
+      "etim_uid::etim-v2-fnd-ponte-rh-r",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::fundamento"
+    ]
+  },
+  {
+    "noteId": 1784291821449,
+    "uid": "etim-v2-pre-a-an",
+    "Text": "O prefixo <b>a-/an-</b> indica {{c1::ausência ou negação}}.",
+    "Extra": "Ex.: anóxia; referente a ausência ou negação.",
+    "tags": [
+      "etim_uid::etim-v2-pre-a-an",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821456,
+    "uid": "etim-v2-pre-endo",
+    "Text": "O prefixo <b>endo-</b> indica {{c1::interno}}.",
+    "Extra": "Ex.: endocárdio; referente a interno.",
+    "tags": [
+      "etim_uid::etim-v2-pre-endo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821462,
+    "uid": "etim-v2-pre-epi",
+    "Text": "O prefixo <b>epi-</b> indica {{c1::sobre}}.",
+    "Extra": "Ex.: epiderme; referente a sobre.",
+    "tags": [
+      "etim_uid::etim-v2-pre-epi",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821466,
+    "uid": "etim-v2-pre-exo",
+    "Text": "O prefixo <b>exo-</b> indica {{c1::externo}}.",
+    "Extra": "Ex.: exocitose; referente a externo.",
+    "tags": [
+      "etim_uid::etim-v2-pre-exo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821474,
+    "uid": "etim-v2-pre-inter",
+    "Text": "O prefixo <b>inter-</b> indica {{c1::entre}}.",
+    "Extra": "Ex.: intercostal; referente a entre.",
+    "tags": [
+      "etim_uid::etim-v2-pre-inter",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821481,
+    "uid": "etim-v2-pre-intra",
+    "Text": "O prefixo <b>intra-</b> indica {{c1::dentro}}.",
+    "Extra": "Ex.: intracelular; referente a dentro.",
+    "tags": [
+      "etim_uid::etim-v2-pre-intra",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821487,
+    "uid": "etim-v2-pre-peri",
+    "Text": "O prefixo <b>peri-</b> indica {{c1::ao redor}}.",
+    "Extra": "Ex.: pericárdio; referente a ao redor.",
+    "tags": [
+      "etim_uid::etim-v2-pre-peri",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821493,
+    "uid": "etim-v2-pre-sub",
+    "Text": "O prefixo <b>sub-</b> indica {{c1::abaixo}}.",
+    "Extra": "Ex.: subcutâneo; referente a abaixo.",
+    "tags": [
+      "etim_uid::etim-v2-pre-sub",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821498,
+    "uid": "etim-v2-pre-trans",
+    "Text": "O prefixo <b>trans-</b> indica {{c1::através}}.",
+    "Extra": "Ex.: transdérmico; referente a através.",
+    "tags": [
+      "etim_uid::etim-v2-pre-trans",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821502,
+    "uid": "etim-v2-pre-poli",
+    "Text": "O prefixo <b>poli-</b> indica {{c1::muitos}}.",
+    "Extra": "Ex.: poliúria; referente a muitos.",
+    "tags": [
+      "etim_uid::etim-v2-pre-poli",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821508,
+    "uid": "etim-v2-pre-oligo",
+    "Text": "O prefixo <b>oligo-</b> indica {{c1::poucos}}.",
+    "Extra": "Ex.: oligúria; referente a poucos.",
+    "tags": [
+      "etim_uid::etim-v2-pre-oligo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821514,
+    "uid": "etim-v2-pre-pan",
+    "Text": "O prefixo <b>pan-</b> indica {{c1::todo}}.",
+    "Extra": "Ex.: pancitopenia; referente a todo.",
+    "tags": [
+      "etim_uid::etim-v2-pre-pan",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821521,
+    "uid": "etim-v2-pre-hiper",
+    "Text": "O prefixo <b>hiper-</b> indica {{c1::excesso ou acima}}.",
+    "Extra": "Ex.: hiperglicemia; referente a excesso ou acima.",
+    "tags": [
+      "etim_uid::etim-v2-pre-hiper",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821527,
+    "uid": "etim-v2-pre-hipo",
+    "Text": "O prefixo <b>hipo-</b> indica {{c1::deficiência ou abaixo}}.",
+    "Extra": "Ex.: hipoglicemia; referente a deficiência ou abaixo.",
+    "tags": [
+      "etim_uid::etim-v2-pre-hipo",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821532,
+    "uid": "etim-v2-pre-bradi",
+    "Text": "O prefixo <b>bradi-</b> indica {{c1::lento}}.",
+    "Extra": "Ex.: bradicardia; referente a lento.",
+    "tags": [
+      "etim_uid::etim-v2-pre-bradi",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821538,
+    "uid": "etim-v2-pre-taqui",
+    "Text": "O prefixo <b>taqui-</b> indica {{c1::rápido}}.",
+    "Extra": "Ex.: taquipneia; referente a rápido.",
+    "tags": [
+      "etim_uid::etim-v2-pre-taqui",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::prefixo"
+    ]
+  },
+  {
+    "noteId": 1784291821544,
+    "uid": "etim-v2-suf-ite",
+    "Text": "O sufixo <b>-ite</b> indica {{c1::inflamação}}.",
+    "Extra": "Ex.: gastrite; referente a inflamação.",
+    "tags": [
+      "etim_uid::etim-v2-suf-ite",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821549,
+    "uid": "etim-v2-suf-penia",
+    "Text": "O sufixo <b>-penia</b> indica {{c1::redução numérica}}.",
+    "Extra": "Ex.: leucopenia; referente a redução numérica.",
+    "tags": [
+      "etim_uid::etim-v2-suf-penia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821556,
+    "uid": "etim-v2-suf-megalia",
+    "Text": "O sufixo <b>-megalia</b> indica {{c1::aumento}}.",
+    "Extra": "Ex.: hepatomegalia; referente a aumento.",
+    "tags": [
+      "etim_uid::etim-v2-suf-megalia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821562,
+    "uid": "etim-v2-suf-plasia",
+    "Text": "O sufixo <b>-plasia</b> indica {{c1::formação ou crescimento}}.",
+    "Extra": "Ex.: hiperplasia; referente a formação ou crescimento.",
+    "tags": [
+      "etim_uid::etim-v2-suf-plasia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821567,
+    "uid": "etim-v2-suf-trofia",
+    "Text": "O sufixo <b>-trofia</b> indica {{c1::nutrição ou tamanho}}.",
+    "Extra": "Ex.: hipertrofia; referente a nutrição ou tamanho.",
+    "tags": [
+      "etim_uid::etim-v2-suf-trofia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821573,
+    "uid": "etim-v2-suf-dipsia",
+    "Text": "O sufixo <b>-dipsia</b> indica {{c1::sede}}.",
+    "Extra": "Ex.: polidipsia; referente a sede.",
+    "tags": [
+      "etim_uid::etim-v2-suf-dipsia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821579,
+    "uid": "etim-v2-suf-pneia",
+    "Text": "O sufixo <b>-pneia</b> indica {{c1::respiração}}.",
+    "Extra": "Ex.: taquipneia; referente a respiração.",
+    "tags": [
+      "etim_uid::etim-v2-suf-pneia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821585,
+    "uid": "etim-v2-suf-rreia",
+    "Text": "O sufixo <b>-rreia</b> indica {{c1::fluxo ou secreção}}.",
+    "Extra": "Ex.: diarreia; referente a fluxo ou secreção.",
+    "tags": [
+      "etim_uid::etim-v2-suf-rreia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821591,
+    "uid": "etim-v2-suf-capnia",
+    "Text": "O sufixo <b>-capnia</b> indica {{c1::dióxido de carbono}}.",
+    "Extra": "Ex.: hipercapnia; referente a dióxido de carbono.",
+    "tags": [
+      "etim_uid::etim-v2-suf-capnia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821596,
+    "uid": "etim-v2-suf-iase",
+    "Text": "O sufixo <b>-íase</b> indica {{c1::condição ou formação}}.",
+    "Extra": "Ex.: litíase; referente a condição ou formação.",
+    "tags": [
+      "etim_uid::etim-v2-suf-iase",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821603,
+    "uid": "etim-v2-suf-ectomia",
+    "Text": "O sufixo <b>-ectomia</b> indica {{c1::remoção cirúrgica}}.",
+    "Extra": "Ex.: gastrectomia; referente a remoção cirúrgica.",
+    "tags": [
+      "etim_uid::etim-v2-suf-ectomia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821608,
+    "uid": "etim-v2-suf-tomia",
+    "Text": "O sufixo <b>-tomia</b> indica {{c1::incisão}}.",
+    "Extra": "Ex.: laparotomia; referente a incisão.",
+    "tags": [
+      "etim_uid::etim-v2-suf-tomia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821614,
+    "uid": "etim-v2-suf-stomia",
+    "Text": "O sufixo <b>-stomia</b> indica {{c1::criação de abertura}}.",
+    "Extra": "Ex.: colostomia; referente a criação de abertura.",
+    "tags": [
+      "etim_uid::etim-v2-suf-stomia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821618,
+    "uid": "etim-v2-suf-grafia",
+    "Text": "O sufixo <b>-grafia</b> indica {{c1::processo de registro}}.",
+    "Extra": "Ex.: angiografia; referente a processo de registro.",
+    "tags": [
+      "etim_uid::etim-v2-suf-grafia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821623,
+    "uid": "etim-v2-suf-grama",
+    "Text": "O sufixo <b>-grama</b> indica {{c1::registro produzido}}.",
+    "Extra": "Ex.: eletrocardiograma; referente a registro produzido.",
+    "tags": [
+      "etim_uid::etim-v2-suf-grama",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821630,
+    "uid": "etim-v2-suf-metria",
+    "Text": "O sufixo <b>-metria</b> indica {{c1::processo de medição}}.",
+    "Extra": "Ex.: espirometria; referente a processo de medição.",
+    "tags": [
+      "etim_uid::etim-v2-suf-metria",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821636,
+    "uid": "etim-v2-suf-scopia",
+    "Text": "O sufixo <b>-scopia</b> indica {{c1::exame visual}}.",
+    "Extra": "Ex.: endoscopia; referente a exame visual.",
+    "tags": [
+      "etim_uid::etim-v2-suf-scopia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821641,
+    "uid": "etim-v2-suf-genese",
+    "Text": "O sufixo <b>-gênese</b> indica {{c1::formação ou origem}}.",
+    "Extra": "Ex.: angiogênese; referente a formação ou origem.",
+    "tags": [
+      "etim_uid::etim-v2-suf-genese",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821647,
+    "uid": "etim-v2-suf-poiese",
+    "Text": "O sufixo <b>-poiese</b> indica {{c1::produção ou formação}}.",
+    "Extra": "Ex.: hematopoiese; referente a produção ou formação.",
+    "tags": [
+      "etim_uid::etim-v2-suf-poiese",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821654,
+    "uid": "etim-v2-suf-lise",
+    "Text": "O sufixo <b>-lise</b> indica {{c1::quebra ou dissolução}}.",
+    "Extra": "Ex.: hemólise; referente a quebra ou dissolução.",
+    "tags": [
+      "etim_uid::etim-v2-suf-lise",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::sufixo"
+    ]
+  },
+  {
+    "noteId": 1784291821660,
+    "uid": "etim-v2-rai-cit-o",
+    "Text": "A forma <b>cit/o</b> refere-se a {{c1::célula}}.",
+    "Extra": "Ex.: citologia; referente a célula.",
+    "tags": [
+      "etim_uid::etim-v2-rai-cit-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821666,
+    "uid": "etim-v2-rai-hist-o",
+    "Text": "A forma <b>hist/o</b> refere-se a {{c1::tecido}}.",
+    "Extra": "Ex.: histologia; referente a tecido.",
+    "tags": [
+      "etim_uid::etim-v2-rai-hist-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821672,
+    "uid": "etim-v2-rai-blast-o",
+    "Text": "A forma <b>blast/o</b> refere-se a {{c1::broto ou precursor}}.",
+    "Extra": "Ex.: blastocisto; referente a broto ou precursor.",
+    "tags": [
+      "etim_uid::etim-v2-rai-blast-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821678,
+    "uid": "etim-v2-rai-cardi-o",
+    "Text": "A forma <b>cardi/o</b> refere-se a {{c1::coração}}.",
+    "Extra": "Ex.: cardiologia; referente a coração.",
+    "tags": [
+      "etim_uid::etim-v2-rai-cardi-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821683,
+    "uid": "etim-v2-rai-angi-o",
+    "Text": "A forma <b>angi/o</b> refere-se a {{c1::vaso}}.",
+    "Extra": "Ex.: angiografia; referente a vaso.",
+    "tags": [
+      "etim_uid::etim-v2-rai-angi-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821688,
+    "uid": "etim-v2-rai-hemat-o",
+    "Text": "A forma <b>hemat/o</b> refere-se a {{c1::sangue}}.",
+    "Extra": "Ex.: hematologia; referente a sangue.",
+    "tags": [
+      "etim_uid::etim-v2-rai-hemat-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821694,
+    "uid": "etim-v2-rai-leuk-o",
+    "Text": "A forma <b>leuk/o</b> refere-se a {{c1::branco}}.",
+    "Extra": "Ex.: leucócito; referente a branco.",
+    "tags": [
+      "etim_uid::etim-v2-rai-leuk-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821701,
+    "uid": "etim-v2-rai-tromb-o",
+    "Text": "A forma <b>tromb/o</b> refere-se a {{c1::coágulo}}.",
+    "Extra": "Inglês: thromb/o; ex.: trombose.",
+    "tags": [
+      "etim_uid::etim-v2-rai-tromb-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821709,
+    "uid": "etim-v2-rai-rin-o",
+    "Text": "A forma <b>rin/o</b> refere-se a {{c1::nariz}}.",
+    "Extra": "Inglês: rhin/o; ex.: rinite.",
+    "tags": [
+      "etim_uid::etim-v2-rai-rin-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821715,
+    "uid": "etim-v2-rai-bronc-o",
+    "Text": "A forma <b>bronc/o</b> refere-se a {{c1::brônquio}}.",
+    "Extra": "Inglês: bronch/o; ex.: broncoscopia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-bronc-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821720,
+    "uid": "etim-v2-rai-pneum-o",
+    "Text": "A forma <b>pneum/o</b> refere-se a {{c1::ar ou pulmão}}.",
+    "Extra": "Ex.: pneumotórax; referente a ar ou pulmão.",
+    "tags": [
+      "etim_uid::etim-v2-rai-pneum-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821725,
+    "uid": "etim-v2-rai-gastr-o",
+    "Text": "A forma <b>gastr/o</b> refere-se a {{c1::estômago}}.",
+    "Extra": "Ex.: gastrite; referente a estômago.",
+    "tags": [
+      "etim_uid::etim-v2-rai-gastr-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821730,
+    "uid": "etim-v2-rai-hepat-o",
+    "Text": "A forma <b>hepat/o</b> refere-se a {{c1::fígado}}.",
+    "Extra": "Ex.: hepatite; referente a fígado.",
+    "tags": [
+      "etim_uid::etim-v2-rai-hepat-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821735,
+    "uid": "etim-v2-rai-nefr-o",
+    "Text": "A forma <b>nefr/o</b> refere-se a {{c1::rim}}.",
+    "Extra": "Inglês: nephr/o; ex.: nefrite.",
+    "tags": [
+      "etim_uid::etim-v2-rai-nefr-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821741,
+    "uid": "etim-v2-rai-pyel-o",
+    "Text": "A forma <b>pyel/o</b> refere-se a {{c1::pelve renal}}.",
+    "Extra": "Ex.: pielonefrite; referente a pelve renal.",
+    "tags": [
+      "etim_uid::etim-v2-rai-pyel-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821748,
+    "uid": "etim-v2-rai-lith-o",
+    "Text": "A forma <b>lith/o</b> refere-se a {{c1::cálculo}}.",
+    "Extra": "Ex.: litotripsia; referente a cálculo.",
+    "tags": [
+      "etim_uid::etim-v2-rai-lith-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821753,
+    "uid": "etim-v2-rai-neur-o",
+    "Text": "A forma <b>neur/o</b> refere-se a {{c1::nervo}}.",
+    "Extra": "Ex.: neurologia; referente a nervo.",
+    "tags": [
+      "etim_uid::etim-v2-rai-neur-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821758,
+    "uid": "etim-v2-rai-miel-o",
+    "Text": "A forma <b>miel/o</b> refere-se a {{c1::medula óssea ou espinal}}.",
+    "Extra": "Inglês: myel/o; ex.: mielopatia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-miel-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821765,
+    "uid": "etim-v2-rai-oftalm-o",
+    "Text": "A forma <b>oftalm/o</b> refere-se a {{c1::olho}}.",
+    "Extra": "Inglês: ophthalm/o; ex.: oftalmologia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-oftalm-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821769,
+    "uid": "etim-v2-rai-oste-o",
+    "Text": "A forma <b>oste/o</b> refere-se a {{c1::osso}}.",
+    "Extra": "Ex.: osteologia; referente a osso.",
+    "tags": [
+      "etim_uid::etim-v2-rai-oste-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821774,
+    "uid": "etim-v2-rai-artr-o",
+    "Text": "A forma <b>artr/o</b> refere-se a {{c1::articulação}}.",
+    "Extra": "Inglês: arthr/o; ex.: artrite.",
+    "tags": [
+      "etim_uid::etim-v2-rai-artr-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821780,
+    "uid": "etim-v2-rai-mi-o",
+    "Text": "A forma <b>mi/o</b> refere-se a {{c1::músculo}}.",
+    "Extra": "Inglês: my/o; ex.: miopatia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-mi-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821788,
+    "uid": "etim-v2-rai-tireoid-o",
+    "Text": "A forma <b>tireoid/o</b> refere-se a {{c1::tireoide}}.",
+    "Extra": "Inglês: thyroid/o; ex.: tireoidite.",
+    "tags": [
+      "etim_uid::etim-v2-rai-tireoid-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821793,
+    "uid": "etim-v2-rai-torac-o",
+    "Text": "A forma <b>torac/o</b> refere-se a {{c1::tórax}}.",
+    "Extra": "Inglês: thorac/o; ex.: toracotomia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-torac-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821799,
+    "uid": "etim-v2-rai-menstru-o",
+    "Text": "A forma <b>menstru/o</b> refere-se a {{c1::menstruação}}.",
+    "Extra": "Ex.: menstrual; referente a menstruação.",
+    "tags": [
+      "etim_uid::etim-v2-rai-menstru-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821804,
+    "uid": "etim-v2-rai-derm-o",
+    "Text": "A forma <b>derm/o</b> refere-se a {{c1::pele}}.",
+    "Extra": "Ex.: dermatologia; referente a pele.",
+    "tags": [
+      "etim_uid::etim-v2-rai-derm-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821831,
+    "uid": "etim-v2-rai-imun-o",
+    "Text": "A forma <b>imun/o</b> refere-se a {{c1::imunidade}}.",
+    "Extra": "Inglês: immun/o; ex.: imunologia.",
+    "tags": [
+      "etim_uid::etim-v2-rai-imun-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821836,
+    "uid": "etim-v2-rai-lip-o",
+    "Text": "A forma <b>lip/o</b> refere-se a {{c1::gordura}}.",
+    "Extra": "Ex.: lipólise; referente a gordura.",
+    "tags": [
+      "etim_uid::etim-v2-rai-lip-o",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::raiz"
+    ]
+  },
+  {
+    "noteId": 1784291821846,
+    "uid": "etim-v2-con-001-hiperplasia-hipertrofia",
+    "Text": "<b>hiperplasia</b> aponta para {{c1::número celular}}; <b>hipertrofia</b>, para {{c2::tamanho celular}}.",
+    "Extra": "Hiperplasia conta células; hipertrofia aumenta cada célula.",
+    "tags": [
+      "etim_uid::etim-v2-con-001-hiperplasia-hipertrofia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821854,
+    "uid": "etim-v2-con-002-tomia-ectomia",
+    "Text": "<b>-tomia</b> aponta para {{c1::incisão}}; <b>-ectomia</b>, para {{c2::remoção cirúrgica}}.",
+    "Extra": "-tomia corta; -ectomia retira parte ou toda estrutura.",
+    "tags": [
+      "etim_uid::etim-v2-con-002-tomia-ectomia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821862,
+    "uid": "etim-v2-con-003-stomia-tomia",
+    "Text": "<b>-stomia</b> aponta para {{c1::abertura cirúrgica}}; <b>-tomia</b>, para {{c2::incisão}}.",
+    "Extra": "-stomia cria comunicação; -tomia apenas incisa.",
+    "tags": [
+      "etim_uid::etim-v2-con-003-stomia-tomia",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821868,
+    "uid": "etim-v2-con-004-grafia-grama",
+    "Text": "<b>-grafia</b> aponta para {{c1::processo de registro}}; <b>-grama</b>, para {{c2::registro produzido}}.",
+    "Extra": "-grafia é o exame; -grama, seu produto.",
+    "tags": [
+      "etim_uid::etim-v2-con-004-grafia-grama",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821875,
+    "uid": "etim-v2-con-005-metro-metria",
+    "Text": "<b>-metro</b> aponta para {{c1::instrumento}}; <b>-metria</b>, para {{c2::medição}}.",
+    "Extra": "-metro mede; -metria é o ato ou resultado.",
+    "tags": [
+      "etim_uid::etim-v2-con-005-metro-metria",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821880,
+    "uid": "etim-v2-con-006-aferente-eferente",
+    "Text": "<b>aferente</b> aponta para {{c1::em direção ao SNC}}; <b>eferente</b>, para {{c2::para fora do SNC}}.",
+    "Extra": "A referência aqui é o sistema nervoso central.",
+    "tags": [
+      "etim_uid::etim-v2-con-006-aferente-eferente",
+      "etim_v2",
+      "terminologia::nivel::nucleo",
+      "terminologia::tipo::contraste"
+    ]
+  },
+  {
+    "noteId": 1784291821888,
+    "uid": "etim-v2-tra-001-pancitopenia",
+    "Text": "Pela forma, <b>pancitopenia</b> sugere {{c1::redução das linhagens sanguíneas}}.",
+    "Extra": "Clinicamente, envolve eritrócitos, leucócitos e plaquetas.",
+    "tags": [
+      "etim_uid::etim-v2-tra-001-pancitopenia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821895,
+    "uid": "etim-v2-tra-002-oligodipsia",
+    "Text": "Pela forma, <b>oligodipsia</b> sugere {{c1::redução da sede}}.",
+    "Extra": "Partes: oligo- + -dipsia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-002-oligodipsia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821902,
+    "uid": "etim-v2-tra-003-bradipneia",
+    "Text": "Pela forma, <b>bradipneia</b> sugere {{c1::respiração lenta}}.",
+    "Extra": "Partes: bradi- + -pneia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-003-bradipneia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821910,
+    "uid": "etim-v2-tra-004-taquipneia",
+    "Text": "Pela forma, <b>taquipneia</b> sugere {{c1::respiração rápida}}.",
+    "Extra": "Partes: taqui- + -pneia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-004-taquipneia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821917,
+    "uid": "etim-v2-tra-005-polidipsia",
+    "Text": "Pela forma, <b>polidipsia</b> sugere {{c1::sede aumentada}}.",
+    "Extra": "Partes: poli- + -dipsia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-005-polidipsia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821923,
+    "uid": "etim-v2-tra-008-amenorreia",
+    "Text": "Pela forma, <b>amenorreia</b> sugere {{c1::ausência de menstruação}}.",
+    "Extra": "Partes: a- + men/o + -rreia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-008-amenorreia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821929,
+    "uid": "etim-v2-tra-009-leucopenia",
+    "Text": "Pela forma, <b>leucopenia</b> sugere {{c1::redução de leucócitos}}.",
+    "Extra": "Partes: leuc/o + -penia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-009-leucopenia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821935,
+    "uid": "etim-v2-tra-012-trombocitopenia",
+    "Text": "Pela forma, <b>trombocitopenia</b> sugere {{c1::redução de plaquetas}}.",
+    "Extra": "Partes: tromb/o + cit/o + -penia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-012-trombocitopenia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821941,
+    "uid": "etim-v2-tra-014-hipercapnia",
+    "Text": "Pela forma, <b>hipercapnia</b> sugere {{c1::CO2 sanguíneo aumentado}}.",
+    "Extra": "Partes: hiper- + -capnia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-014-hipercapnia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821948,
+    "uid": "etim-v2-tra-016-pneumotorax",
+    "Text": "Pela forma, <b>pneumotórax</b> sugere {{c1::ar no tórax}}.",
+    "Extra": "Clinicamente, o ar ocupa a cavidade pleural.",
+    "tags": [
+      "etim_uid::etim-v2-tra-016-pneumotorax",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821954,
+    "uid": "etim-v2-tra-019-nefrolitiase",
+    "Text": "Pela forma, <b>nefrolitíase</b> sugere {{c1::cálculos renais}}.",
+    "Extra": "Partes: nefr/o + lit/o + -íase.",
+    "tags": [
+      "etim_uid::etim-v2-tra-019-nefrolitiase",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821965,
+    "uid": "etim-v2-tra-021-pielonefrite",
+    "Text": "Pela forma, <b>pielonefrite</b> sugere {{c1::inflamação da pelve e rim}}.",
+    "Extra": "Pelve renal e parênquima participam da infecção.",
+    "tags": [
+      "etim_uid::etim-v2-tra-021-pielonefrite",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821969,
+    "uid": "etim-v2-tra-025-gastrectomia",
+    "Text": "Pela forma, <b>gastrectomia</b> sugere {{c1::remoção do estômago}}.",
+    "Extra": "Partes: gastr/o + -ectomia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-025-gastrectomia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821974,
+    "uid": "etim-v2-tra-026-gastrostomia",
+    "Text": "Pela forma, <b>gastrostomia</b> sugere {{c1::abertura no estômago}}.",
+    "Extra": "Partes: gastr/o + -stomia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-026-gastrostomia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821979,
+    "uid": "etim-v2-tra-027-gastrotomia",
+    "Text": "Pela forma, <b>gastrotomia</b> sugere {{c1::incisão no estômago}}.",
+    "Extra": "Partes: gastr/o + -tomia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-027-gastrotomia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821985,
+    "uid": "etim-v2-tra-032-hepatomegalia",
+    "Text": "Pela forma, <b>hepatomegalia</b> sugere {{c1::aumento do fígado}}.",
+    "Extra": "Partes: hepat/o + -megalia.",
+    "tags": [
+      "etim_uid::etim-v2-tra-032-hepatomegalia",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821990,
+    "uid": "etim-v2-tra-034-angiogenese",
+    "Text": "Pela forma, <b>angiogênese</b> sugere {{c1::formação de vasos}}.",
+    "Extra": "Partes: angi/o + -gênese.",
+    "tags": [
+      "etim_uid::etim-v2-tra-034-angiogenese",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291821996,
+    "uid": "etim-v2-tra-035-hematopoiese",
+    "Text": "Pela forma, <b>hematopoiese</b> sugere {{c1::produção de células sanguíneas}}.",
+    "Extra": "Poiese enfatiza produção de células sanguíneas.",
+    "tags": [
+      "etim_uid::etim-v2-tra-035-hematopoiese",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822003,
+    "uid": "etim-v2-tra-038-osteogenese",
+    "Text": "Pela forma, <b>osteogênese</b> sugere {{c1::formação óssea}}.",
+    "Extra": "Partes: oste/o + -gênese.",
+    "tags": [
+      "etim_uid::etim-v2-tra-038-osteogenese",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822009,
+    "uid": "etim-v2-tra-041-neurogenese",
+    "Text": "Pela forma, <b>neurogênese</b> sugere {{c1::formação de neurônios}}.",
+    "Extra": "Partes: neur/o + -gênese.",
+    "tags": [
+      "etim_uid::etim-v2-tra-041-neurogenese",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822014,
+    "uid": "etim-v2-tra-042-lipolise",
+    "Text": "Pela forma, <b>lipólise</b> sugere {{c1::quebra de lipídios}}.",
+    "Extra": "Partes: lip/o + -lise.",
+    "tags": [
+      "etim_uid::etim-v2-tra-042-lipolise",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822019,
+    "uid": "etim-v2-tra-056-intracelular",
+    "Text": "Pela forma, <b>intracelular</b> sugere {{c1::dentro da célula}}.",
+    "Extra": "Partes: intra- + celular.",
+    "tags": [
+      "etim_uid::etim-v2-tra-056-intracelular",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822026,
+    "uid": "etim-v2-tra-051-endocardio",
+    "Text": "Pela forma, <b>endocárdio</b> sugere {{c1::camada interna cardíaca}}.",
+    "Extra": "Clinicamente, reveste internamente câmaras e válvulas.",
+    "tags": [
+      "etim_uid::etim-v2-tra-051-endocardio",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  },
+  {
+    "noteId": 1784291822032,
+    "uid": "etim-v2-tra-064-transdermico",
+    "Text": "Pela forma, <b>transdérmico</b> sugere {{c1::através da pele}}.",
+    "Extra": "Partes: trans- + derm/o.",
+    "tags": [
+      "etim_uid::etim-v2-tra-064-transdermico",
+      "etim_v2",
+      "terminologia::nivel::extensao",
+      "terminologia::tipo::transferencia"
+    ]
+  }
+]

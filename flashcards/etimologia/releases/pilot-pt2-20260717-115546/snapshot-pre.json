@@ -1,0 +1,1068 @@
+[
+  {
+    "noteId": 1784300090828,
+    "uid": "etim-pt2-morfema",
+    "Text": "<b>Etimologia.</b> A menor unidade estrutural de uma palavra com significado ou função gramatical chama-se <b>{{c1::morfema}}</b>.",
+    "Extra": "Hipoglicemia contém hipo-, glic- e -emia; cada parte restringe o sentido.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-morfema",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090838,
+    "uid": "etim-pt2-prefixo",
+    "Text": "<b>Etimologia.</b> Em subcutâneo, sub- funciona morfologicamente como <b>{{c1::prefixo}}</b>.",
+    "Extra": "Prefixos antecedem a base: peri- em pericárdio situa, mas não nomeia, a estrutura.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-prefixo",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090848,
+    "uid": "etim-pt2-raiz",
+    "Text": "<b>Etimologia.</b> Em colangite, colang- funciona morfologicamente como <b>{{c1::raiz}}</b>.",
+    "Extra": "A raiz concentra o referente; aqui, colang- remete aos ductos biliares.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-raiz",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090856,
+    "uid": "etim-pt2-sufixo",
+    "Text": "<b>Etimologia.</b> Em gastrite, -ite age morfologicamente como <b>{{c1::sufixo}}</b>.",
+    "Extra": "O sufixo fecha a palavra e frequentemente indica processo, condição ou procedimento.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-sufixo",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090864,
+    "uid": "etim-pt2-forma-combinatoria-vogal",
+    "Text": "<b>Etimologia.</b> Cardi/o é <b>{{c1::forma combinatória}}</b>; nela, o é a <b>{{c1::vogal de ligação}}</b>.",
+    "Extra": "A forma reúne raiz e vogal; cardi/o + -logia mantém o, mas cardi/o + -ite o perde.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-forma-combinatoria-vogal",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090872,
+    "uid": "etim-pt2-decomposicao-composicao",
+    "Text": "<b>Etimologia.</b> Separar pancitopenia em pan- + cit/o + -penia é <b>{{c1::decomposição}}</b>; reuni-los é <b>{{c1::composição}}</b>.",
+    "Extra": "Decompor extrai pistas; compor propõe uma glosa que ainda precisa de confirmação clínica.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-decomposicao-composicao",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090879,
+    "uid": "etim-pt2-glosa-definicao",
+    "Text": "<b>Etimologia.</b> A tradução dos morfemas fornece a <b>{{c1::glosa literal}}</b>; o uso médico vigente fornece a <b>{{c1::definição clínica}}</b>.",
+    "Extra": "Em hematoma, “massa sanguínea” orienta; não autoriza concluir neoplasia.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-glosa-definicao",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090887,
+    "uid": "etim-pt2-pontes-ortograficas",
+    "Text": "<b>Etimologia.</b> Em português médico, ph costuma virar <b>{{c1::f}}</b>, th vira <b>{{c1::t}}</b> e y vira <b>{{c1::i}}</b>.",
+    "Extra": "Assim, phleb-, thorac- e glyc- aparecem como fleb-, torac- e glic-.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-pontes-ortograficas",
+      "terminologia::card::foundation",
+      "terminologia::familia::fundamentos",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090895,
+    "uid": "etim-pt2-tomia-ectomia-stomia",
+    "Text": "<b>Etimologia.</b> -tomia indica <b>{{c1::incisão}}</b>; -ectomia, <b>{{c1::remoção}}</b>; -stomia, <b>{{c1::abertura criada}}</b>.",
+    "Extra": "Laparotomia abre; gastrectomia retira; gastrostomia cria comunicação com o estômago.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-tomia-ectomia-stomia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090903,
+    "uid": "etim-pt2-plastia-pexia-rafia",
+    "Text": "<b>Etimologia.</b> -plastia indica <b>{{c1::reconstrução}}</b>; -pexia, <b>{{c1::fixação}}</b>; -rafia, <b>{{c1::sutura}}</b>.",
+    "Extra": "Rinoplastia remodela; gastropexia fixa; herniorrafia sutura.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-plastia-pexia-rafia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090910,
+    "uid": "etim-pt2-grafia-grama-grafo",
+    "Text": "<b>Etimologia.</b> -grafia nomeia o <b>{{c1::processo de registro}}</b>; -grama, o <b>{{c1::resultado}}</b>; -grafo, o <b>{{c1::instrumento}}</b>.",
+    "Extra": "Eletrocardiografia produz eletrocardiograma; o eletrocardiógrafo registra.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-grafia-grama-grafo",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090918,
+    "uid": "etim-pt2-metria-metro",
+    "Text": "<b>Etimologia.</b> -metria nomeia a <b>{{c1::medição}}</b>; -metro, o <b>{{c1::instrumento}}</b>.",
+    "Extra": "Espirometria é o procedimento; espirômetro é o aparelho.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-metria-metro",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090926,
+    "uid": "etim-pt2-scopia-scopio",
+    "Text": "<b>Etimologia.</b> -scopia nomeia a <b>{{c1::visualização}}</b>; -scópio, o <b>{{c1::instrumento}}</b>.",
+    "Extra": "Endoscopia é o exame; endoscópio é o instrumento.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-scopia-scopio",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090935,
+    "uid": "etim-pt2-centese-biopsia-aspiracao",
+    "Text": "<b>Etimologia.</b> -centese indica <b>{{c1::punção}}</b>; biópsia obtém <b>{{c1::tecido}}</b>; aspiração remove <b>{{c1::conteúdo}}</b>.",
+    "Extra": "Amniocentese punciona; biópsia amostra tecido; aspiração retira líquido ou gás.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-centese-biopsia-aspiracao",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090944,
+    "uid": "etim-pt2-algia-odinia",
+    "Text": "<b>Etimologia.</b> -algia indica <b>{{c1::dor}}</b>; -odinia também indica <b>{{c1::dor}}</b>, geralmente em termos mais específicos.",
+    "Extra": "Disfagia é dificuldade; odinofagia é dor ao engolir.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-algia-odinia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090952,
+    "uid": "etim-pt2-penia-citose",
+    "Text": "<b>Etimologia.</b> -penia indica <b>{{c1::redução numérica}}</b>; -citose, <b>{{c1::aumento celular}}</b>.",
+    "Extra": "Leucopenia reduz leucócitos; leucocitose os aumenta.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-penia-citose",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090958,
+    "uid": "etim-pt2-ectasia-estenose",
+    "Text": "<b>Etimologia.</b> -ectasia indica <b>{{c1::dilatação}}</b>; -estenose, <b>{{c1::estreitamento}}</b>.",
+    "Extra": "Bronquiectasia dilata brônquios; broncoestenose estreita sua luz.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-ectasia-estenose",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090964,
+    "uid": "etim-pt2-rreia-rragia",
+    "Text": "<b>Etimologia.</b> -rreia indica <b>{{c1::fluxo}}</b>; -rragia, <b>{{c1::sangramento intenso}}</b>.",
+    "Extra": "Diarreia descreve fluxo; metrorragia, sangramento uterino.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-rreia-rragia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090972,
+    "uid": "etim-pt2-paresia-plegia",
+    "Text": "<b>Etimologia.</b> -paresia indica <b>{{c1::fraqueza}}</b>; -plegia, <b>{{c1::paralisia}}</b>.",
+    "Extra": "Hemiparesia preserva movimento parcial; hemiplegia implica paralisia do hemicorpo.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-paresia-plegia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090979,
+    "uid": "etim-pt2-emia-uria",
+    "Text": "<b>Etimologia.</b> -emia situa algo no <b>{{c1::sangue}}</b>; -úria, na <b>{{c1::urina}}</b>.",
+    "Extra": "Glicemia mede glicose sanguínea; glicosúria indica glicose urinária.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-emia-uria",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090986,
+    "uid": "etim-pt2-pneia-capnia",
+    "Text": "<b>Etimologia.</b> -pneia refere-se à <b>{{c1::respiração}}</b>; -capnia, ao <b>{{c1::dióxido de carbono}}</b>.",
+    "Extra": "Taquipneia altera frequência respiratória; hipercapnia eleva CO₂.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-pneia-capnia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300090994,
+    "uid": "etim-pt2-plasia-trofia",
+    "Text": "<b>Etimologia.</b> Hiperplasia aumenta o <b>{{c1::número celular}}</b>; hipertrofia aumenta o <b>{{c1::tamanho celular}}</b>.",
+    "Extra": "-plasia alude à formação; -trofia, ao crescimento. O contraste clínico aqui é número versus tamanho.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-plasia-trofia",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091000,
+    "uid": "etim-pt2-genese-poiese",
+    "Text": "<b>Etimologia.</b> -gênese indica <b>{{c1::formação}}</b> ampla; -poiese enfatiza <b>{{c1::produção}}</b>.",
+    "Extra": "Angiogênese forma vasos; hematopoiese produz células sanguíneas.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-genese-poiese",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091007,
+    "uid": "etim-pt2-ab-ad",
+    "Text": "<b>Etimologia.</b> ab- indica <b>{{c1::afastamento}}</b>; ad-, <b>{{c1::aproximação}}</b>.",
+    "Extra": "Abdução afasta da linha média; adução aproxima.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-ab-ad",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091013,
+    "uid": "etim-pt2-ecto-exo",
+    "Text": "<b>Etimologia.</b> ecto- descreve posição <b>{{c1::externa}}</b>; exo- marca movimento ou origem <b>{{c1::para fora}}</b>.",
+    "Extra": "Ectoderma é camada externa; exocitose transporta conteúdo para fora.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-ecto-exo",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091021,
+    "uid": "etim-pt2-epi-peri-para",
+    "Text": "<b>Etimologia.</b> epi- indica <b>{{c1::sobre}}</b>; peri-, <b>{{c1::ao redor}}</b>; para-, <b>{{c1::ao lado}}</b>.",
+    "Extra": "Epicárdio reveste a superfície; pericárdio circunda; paratireoide fica junto à tireoide.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-epi-peri-para",
+      "terminologia::card::contrast",
+      "terminologia::familia::contrastes",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091028,
+    "uid": "etim-pt2-sial-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória sial/o refere-se à <b>{{c1::saliva}}</b>.",
+    "Extra": "Sialolitíase é cálculo no sistema salivar: sial/o + lit/o + -íase.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-sial-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091037,
+    "uid": "etim-pt2-dacri-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória dacri/o refere-se às <b>{{c1::lágrimas}}</b>.",
+    "Extra": "Dacriocistite inflama o saco lacrimal: dacri/o + cist/o + -ite.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-dacri-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091044,
+    "uid": "etim-pt2-blefar-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória blefar/o refere-se à <b>{{c1::pálpebra}}</b>.",
+    "Extra": "Blefaroptose é queda palpebral: blefar/o + -ptose.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-blefar-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091052,
+    "uid": "etim-pt2-piel-o",
+    "Text": "<b>Etimologia.</b> No sistema urinário, piel/o refere-se à <b>{{c1::pelve renal}}</b>.",
+    "Extra": "Pielonefrite combina pelve renal, rim e inflamação.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-piel-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091060,
+    "uid": "etim-pt2-pi-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória pi/o refere-se a <b>{{c1::pus}}</b>.",
+    "Extra": "Piotórax é presença de pus na cavidade torácica.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-pi-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091069,
+    "uid": "etim-pt2-calic-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória calic/o refere-se ao <b>{{c1::cálice renal}}</b>.",
+    "Extra": "Calicectasia é dilatação dos cálices renais.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-calic-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091077,
+    "uid": "etim-pt2-colangi-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória colangi/o refere-se aos <b>{{c1::ductos biliares}}</b>.",
+    "Extra": "Colangite inflama ductos biliares; não a vesícula.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-colangi-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091086,
+    "uid": "etim-pt2-colecist-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória colecist/o refere-se à <b>{{c1::vesícula biliar}}</b>.",
+    "Extra": "Colecistectomia remove a vesícula; colangite envolve os ductos.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-colecist-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091092,
+    "uid": "etim-pt2-miring-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória miring/o refere-se à <b>{{c1::membrana timpânica}}</b>.",
+    "Extra": "Miringotomia é incisão da membrana timpânica.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-miring-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091100,
+    "uid": "etim-pt2-estaped-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória estaped/o refere-se ao <b>{{c1::estribo}}</b>.",
+    "Extra": "Estapedectomia remove parcial ou totalmente esse ossículo.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-estaped-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091106,
+    "uid": "etim-pt2-esfigm-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória esfigm/o refere-se ao <b>{{c1::pulso}}</b>.",
+    "Extra": "Esfigmomanômetro contém esfigm/o, embora meça pressão arterial.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-esfigm-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091114,
+    "uid": "etim-pt2-onic-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória onic/o refere-se à <b>{{c1::unha}}</b>.",
+    "Extra": "Onicomicose é micose ungueal: onic/o + mic/o + -ose.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-onic-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091123,
+    "uid": "etim-pt2-xant-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória xant/o refere-se à cor <b>{{c1::amarela}}</b>.",
+    "Extra": "Xantocromia descreve coloração amarelada, como no líquor.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-xant-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091132,
+    "uid": "etim-pt2-hial-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória hial/o indica aspecto <b>{{c1::vítreo}}</b>.",
+    "Extra": "Hialino descreve aparência translúcida; não uma composição química única.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-hial-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091141,
+    "uid": "etim-pt2-acin-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória acin/o indica estrutura em <b>{{c1::bago}}</b>.",
+    "Extra": "Ácinos são unidades secretoras arredondadas, semelhantes a pequenos cachos.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-acin-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091150,
+    "uid": "etim-pt2-trabecul-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória trabecul/o refere-se a uma <b>{{c1::pequena viga}}</b>.",
+    "Extra": "Trabéculas são suportes em rede, como no osso esponjoso.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-trabecul-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091157,
+    "uid": "etim-pt2-glomerul-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória glomerul/o refere-se a um <b>{{c1::pequeno novelo}}</b>.",
+    "Extra": "Glomérulo nomeia a rede capilar renal por sua forma enovelada.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-glomerul-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091163,
+    "uid": "etim-pt2-hil-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória hil/o refere-se ao <b>{{c1::hilo}}</b>.",
+    "Extra": "O hilo é a região de entrada e saída de vasos e ductos.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-hil-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091171,
+    "uid": "etim-pt2-foramin-o",
+    "Text": "<b>Etimologia.</b> A forma foramin/o refere-se a uma <b>{{c1::abertura}}</b>.",
+    "Extra": "Estenose foraminal estreita a abertura por onde emerge uma raiz nervosa.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-foramin-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091178,
+    "uid": "etim-pt2-diverticul-o",
+    "Text": "<b>Etimologia.</b> A forma combinatória diverticul/o refere-se a uma <b>{{c1::evaginação sacular}}</b>.",
+    "Extra": "Diverticulite é inflamação de divertículo; diverticulose indica sua presença.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-diverticul-o",
+      "terminologia::card::morpheme_in_context",
+      "terminologia::familia::raizes-raras",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091186,
+    "uid": "etim-pt2-sialolitiase",
+    "Text": "<b>Etimologia.</b> Pelos componentes, sialolitíase sugere <b>{{c1::cálculo salivar}}</b>.",
+    "Extra": "sial/o (saliva) + lit/o (cálculo) + -íase (condição) = cálculo no sistema salivar.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-sialolitiase",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091193,
+    "uid": "etim-pt2-dacriocistite",
+    "Text": "<b>Etimologia.</b> Pelos componentes, dacriocistite sugere inflamação do <b>{{c1::saco lacrimal}}</b>.",
+    "Extra": "dacri/o (lágrima) + cist/o (saco) + -ite (inflamação) = inflamação do saco lacrimal.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-dacriocistite",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091200,
+    "uid": "etim-pt2-blefaroptose",
+    "Text": "<b>Etimologia.</b> Pelos componentes, blefaroptose sugere <b>{{c1::queda palpebral}}</b>.",
+    "Extra": "blefar/o (pálpebra) + -ptose (queda) = descenso da pálpebra.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-blefaroptose",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091207,
+    "uid": "etim-pt2-piotorax",
+    "Text": "<b>Etimologia.</b> Pelos componentes, piotórax sugere <b>{{c1::pus torácico}}</b>.",
+    "Extra": "pi/o (pus) + torac/o (tórax) = pus na cavidade torácica; equivale a empiema pleural.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-piotorax",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091214,
+    "uid": "etim-pt2-calicectasia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, calicectasia sugere <b>{{c1::dilatação calicial}}</b>.",
+    "Extra": "calic/o (cálice renal) + -ectasia (dilatação) = dilatação dos cálices renais.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-calicectasia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091224,
+    "uid": "etim-pt2-coledocolitiase",
+    "Text": "<b>Etimologia.</b> Pelos componentes, coledocolitíase sugere cálculo no <b>{{c1::colédoco}}</b>.",
+    "Extra": "coledoc/o (colédoco) + lit/o (cálculo) + -íase = cálculo no ducto biliar comum.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-coledocolitiase",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091231,
+    "uid": "etim-pt2-colecistectomia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, colecistectomia indica <b>{{c1::remoção vesicular}}</b>.",
+    "Extra": "colecist/o (vesícula biliar) + -ectomia (remoção) = retirada cirúrgica da vesícula.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-colecistectomia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091238,
+    "uid": "etim-pt2-miringotomia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, miringotomia indica <b>{{c1::incisão timpânica}}</b>.",
+    "Extra": "miring/o (tímpano) + -tomia (incisão) = abertura cirúrgica da membrana timpânica.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-miringotomia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091245,
+    "uid": "etim-pt2-estapedectomia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, estapedectomia indica remoção do <b>{{c1::estribo}}</b>.",
+    "Extra": "estaped/o (estribo) + -ectomia (remoção) = retirada parcial ou total do ossículo.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-estapedectomia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091253,
+    "uid": "etim-pt2-esfigmomanometro",
+    "Text": "<b>Etimologia.</b> A raiz esfigm/o em esfigmomanômetro alude ao <b>{{c1::pulso}}</b>.",
+    "Extra": "esfigm/o (pulso) + man/o (pressão) + -metro = instrumento de pressão; hoje mede pressão arterial.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-esfigmomanometro",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091260,
+    "uid": "etim-pt2-onicomicose",
+    "Text": "<b>Etimologia.</b> Pelos componentes, onicomicose sugere <b>{{c1::micose ungueal}}</b>.",
+    "Extra": "onic/o (unha) + mic/o (fungo) + -ose = infecção fúngica da unha.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-onicomicose",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091268,
+    "uid": "etim-pt2-xantocromia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, xantocromia indica coloração <b>{{c1::amarelada}}</b>.",
+    "Extra": "xant/o (amarelo) + -cromia (cor) = aspecto amarelado; a etiologia depende do contexto.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-xantocromia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091275,
+    "uid": "etim-pt2-hialinose",
+    "Text": "<b>Etimologia.</b> Pelos componentes, hialinose sugere depósito de aspecto <b>{{c1::vítreo}}</b>.",
+    "Extra": "hial/o (vítreo) + -ose (condição) = material hialino; o termo não define composição única.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-hialinose",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091283,
+    "uid": "etim-pt2-acinar",
+    "Text": "<b>Etimologia.</b> Morfologicamente, acinar significa semelhante a <b>{{c1::bago}}</b>.",
+    "Extra": "acin/o (bago) + -ar (relativo a) = organização em pequenas unidades secretoras arredondadas.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-acinar",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091289,
+    "uid": "etim-pt2-trabecular",
+    "Text": "<b>Etimologia.</b> Morfologicamente, trabecular significa organizado em <b>{{c1::pequenas vigas}}</b>.",
+    "Extra": "trabecul/o (pequena viga) + -ar = arquitetura em barras ou lâminas de sustentação.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-trabecular",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091296,
+    "uid": "etim-pt2-glomerulopatia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, glomerulopatia indica doença do <b>{{c1::glomérulo}}</b>.",
+    "Extra": "glomerul/o (glomérulo) + -patia (doença) = categoria ampla; não especifica o mecanismo.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-glomerulopatia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091303,
+    "uid": "etim-pt2-hilar",
+    "Text": "<b>Etimologia.</b> Morfologicamente, hilar significa relativo ao <b>{{c1::hilo}}</b>.",
+    "Extra": "hil/o (hilo) + -ar (relativo a) = região de trânsito de vasos, nervos ou ductos.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-hilar",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091310,
+    "uid": "etim-pt2-foraminal",
+    "Text": "<b>Etimologia.</b> Morfologicamente, foraminal significa relativo a uma <b>{{c1::abertura}}</b>.",
+    "Extra": "foramin/o (forame) + -al (relativo a) = relacionado a um forame anatômico.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-foraminal",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091316,
+    "uid": "etim-pt2-diverticulite",
+    "Text": "<b>Etimologia.</b> Pelos componentes, diverticulite sugere <b>{{c1::inflamação diverticular}}</b>.",
+    "Extra": "diverticul/o (divertículo) + -ite (inflamação) = divertículo inflamado; não apenas sua presença.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-diverticulite",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091323,
+    "uid": "etim-pt2-broncorreia",
+    "Text": "<b>Etimologia.</b> Pelos componentes, broncorreia sugere <b>{{c1::fluxo brônquico}}</b>.",
+    "Extra": "bronc/o (brônquio) + -rreia (fluxo) = secreção brônquica excessiva; não significa hemorragia.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-broncorreia",
+      "terminologia::card::transfer",
+      "terminologia::familia::transferencia",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091329,
+    "uid": "etim-pt2-hematoma",
+    "Text": "<b>Etimologia.</b> Apesar de -oma, hematoma não implica <b>{{c1::neoplasia}}</b>.",
+    "Extra": "hemat- (sangue) + -oma (massa) = coleção localizada de sangue extravasado.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-hematoma",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091337,
+    "uid": "etim-pt2-glaucoma",
+    "Text": "<b>Etimologia.</b> Em glaucoma, a terminação -oma não significa <b>{{c1::tumor}}</b>.",
+    "Extra": "Glaucoma nomeia neuropatia óptica; segmentá-lo como neoplasia produz falsa etimologia.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-glaucoma",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091344,
+    "uid": "etim-pt2-pseudocisto",
+    "Text": "<b>Etimologia.</b> Um pseudocisto, apesar do nome, não possui <b>{{c1::revestimento epitelial}}</b>.",
+    "Extra": "pseudo- (falso) + cist/o (cisto) = coleção encapsulada sem epitélio verdadeiro.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-pseudocisto",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091351,
+    "uid": "etim-pt2-carcinoma-in-situ",
+    "Text": "<b>Etimologia.</b> Carcinoma in situ permanece sem <b>{{c1::invasão estromal}}</b>.",
+    "Extra": "in situ significa “no lugar”: células malignas ainda não atravessaram a membrana basal.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-carcinoma-in-situ",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091358,
+    "uid": "etim-pt2-ileo",
+    "Text": "<b>Etimologia.</b> O termo íleo não significa doença restrita ao <b>{{c1::íleo intestinal}}</b>.",
+    "Extra": "Íleo é parada funcional do trânsito; a semelhança gráfica com o segmento intestinal engana.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-ileo",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091364,
+    "uid": "etim-pt2-angina-pectoris",
+    "Text": "<b>Etimologia.</b> Em angina pectoris, angina não designa inflamação da <b>{{c1::garganta}}</b>.",
+    "Extra": "Angina alude a aperto; pectoris situa no peito. O termo vigente descreve desconforto isquêmico.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-angina-pectoris",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091372,
+    "uid": "etim-pt2-diabetes-mellitus-insipidus",
+    "Text": "<b>Etimologia.</b> Mellitus significa <b>{{c1::doce}}</b>; insipidus, <b>{{c1::sem sabor}}</b>.",
+    "Extra": "Os qualificadores vêm da urina historicamente provada; não explicam os mecanismos atuais.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-diabetes-mellitus-insipidus",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091379,
+    "uid": "etim-pt2-lupus",
+    "Text": "<b>Etimologia.</b> A origem “lobo” de lúpus não fornece sua <b>{{c1::definição clínica}}</b>.",
+    "Extra": "A imagem histórica pode ajudar a lembrar o nome, mas não permite inferir autoimunidade.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-lupus",
+      "terminologia::card::exception",
+      "terminologia::familia::armadilhas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091385,
+    "uid": "etim-pt2-mielo-polissemia",
+    "Text": "<b>Etimologia.</b> A forma miel/o pode indicar <b>{{c1::medula óssea}}</b> ou <b>{{c1::medula espinal}}</b>.",
+    "Extra": "Mielograma hematológico examina medula óssea; mielopatia neurológica envolve medula espinal.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-mielo-polissemia",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091390,
+    "uid": "etim-pt2-cisto-polissemia",
+    "Text": "<b>Etimologia.</b> A forma cist/o pode indicar <b>{{c1::bexiga}}</b> ou <b>{{c1::cisto}}</b>.",
+    "Extra": "Cistoscopia examina a bexiga; pseudocisto nomeia uma coleção semelhante a cisto.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-cisto-polissemia",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091396,
+    "uid": "etim-pt2-metro-polissemia",
+    "Text": "<b>Etimologia.</b> Metr/o pode indicar <b>{{c1::útero}}</b>; -metro indica <b>{{c1::instrumento medidor}}</b>.",
+    "Extra": "Endométrio contém metr/o uterino; termômetro termina em -metro instrumental.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-metro-polissemia",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091415,
+    "uid": "etim-pt2-vaso-polissemia",
+    "Text": "<b>Etimologia.</b> Vas/o pode indicar <b>{{c1::vaso}}</b> sanguíneo ou <b>{{c1::ducto}}</b>.",
+    "Extra": "Vasodilatação envolve vasos; vasectomia secciona o ducto deferente.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-vaso-polissemia",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091425,
+    "uid": "etim-pt2-nefro-reno",
+    "Text": "<b>Etimologia.</b> Nefr/o é a forma <b>{{c1::grega}}</b> para rim; ren/o, a <b>{{c1::latina}}</b>.",
+    "Extra": "Nefropatia e renal compartilham referente, mas seguem tradições lexicais diferentes.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-nefro-reno",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091432,
+    "uid": "etim-pt2-oftalmo-oculo",
+    "Text": "<b>Etimologia.</b> Oftalm/o é a forma <b>{{c1::grega}}</b> para olho; ocul/o, a <b>{{c1::latina}}</b>.",
+    "Extra": "Oftalmologia usa a forma grega; oculomotor conserva a latina.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-oftalmo-oculo",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091437,
+    "uid": "etim-pt2-flebo-veno",
+    "Text": "<b>Etimologia.</b> Fleb/o é a forma <b>{{c1::grega}}</b> para veia; ven/o, a <b>{{c1::latina}}</b>.",
+    "Extra": "Flebite usa a forma grega; venoso e intravenoso, a latina.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-flebo-veno",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  },
+  {
+    "noteId": 1784300091443,
+    "uid": "etim-pt2-odonto-dento",
+    "Text": "<b>Etimologia.</b> Odont/o é a forma <b>{{c1::grega}}</b> para dente; dent/o, a <b>{{c1::latina}}</b>.",
+    "Extra": "Odontologia usa a forma grega; dental e dentição, a latina.",
+    "tags": [
+      "etim_pilot_pt2",
+      "etim_uid::etim-pt2-odonto-dento",
+      "terminologia::card::contrast",
+      "terminologia::familia::polissemia-duplas",
+      "terminologia::status::piloto_pt2"
+    ]
+  }
+]

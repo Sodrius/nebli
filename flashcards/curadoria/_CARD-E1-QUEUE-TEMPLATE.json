@@ -1,0 +1,14 @@
+{
+  "slug": "<slug>",
+  "e1_file": "typst-build/_par_<slug>/etapa1.typ",
+  "candidates": [
+    {
+      "candidate_id": "<id>", "concept_id": "<id da checklist>",
+      "decision": "anchorable", "rationale": "fato nuclear avaliado na E2, ausente da E1",
+      "e1_patch": {
+        "insert_after": "trecho literal que define o lugar didático",
+        "text": "texto proposto para a E1", "source_refs": ["fonte primária/atlas"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pipeline_contract": "e1-e2-v1",
+  "slug": "<slug>",
+  "deck": "NEBLI::<UC>::<aula>",
+  "visual_plan": "_PLANO-VISUAL-AULA-TEMPLATE.json",
+  "e1": {"path": "../../typst-build/_par_<slug>/etapa1.typ", "sha256": "<gerar depois da revisão>"},
+  "e2": {"path": "../../typst-build/_par_<slug>/etapa2.typ", "sha256": "<gerar depois da revisão>"},
+  "e2_coverage": [
+    {"e2_item": "<alvo extraído da E2>", "concept_id": "1.1", "status": "covered", "rationale": "recuperado pelo card do conceito"}
+  ],
+  "cards": [
+    {
+      "nebli_id": "<id-estável>",
+      "concept_id": "1.1",
+      "visual_plan_id": "1.1",
+      "visual_plan_link": "primary",
+      "text": "<b>Disciplina.</b> ... <b>{{c1::resposta curta}}</b> ...",
+      "extra": "Explicação curta, útil e não necessária para acertar.",
+      "e1_anchor": {"quote": "trecho literal da E1"},
+      "generation": {
+        "mode": "authorial",
+        "source_refs": ["E1", "fonte médica primária ou atlas"],
+        "external_probe": {"queries": ["consulta externa usada para evitar cópia"], "decision": "redação independente; nenhum card externo foi copiado"}
+      },
+      "semantic_review": {"atomicity": "pass", "induction": "pass", "medical": "pass", "reviewer": "self_audit_v1"},
+      "visual": {
+        "visual_need": "none", "image_role": "none", "image_status": "missing",
+        "card_mode": "explanatory_image", "placement": "extra", "visual_task": "não acrescentaria relação visual recuperável"
+      }
+    }
+  ]
+}

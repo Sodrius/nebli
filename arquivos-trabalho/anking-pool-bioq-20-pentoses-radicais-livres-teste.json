@@ -1,0 +1,706 @@
+{
+  "slug": "bioq-20-pentoses-radicais-livres-teste",
+  "gerado_em": "2026-07-17",
+  "tags_consulta": [
+    "SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency",
+    "FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency",
+    "Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+    "Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+  ],
+  "regex": null,
+  "n_cards": 61,
+  "cards": [
+    {
+      "guid": "De1m5OEf4j",
+      "deck": "AnKing Step Deck",
+      "front": "Where in the cell does hexosemonophosphate (HMP) shunt activity occur? [Cytoplasm]",
+      "raw0": "<div><div>Where in the <u>cell</u> does <b>hexosemonophosphate </b>(HMP)<b> shunt</b> activity occur? </div><br><div>{{c1::Cytoplasm}}</div></div>",
+      "back": "AKA the pentose-5-pathway or the 6-phosphogluconate pathway",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "RaEDQ5]]10",
+      "deck": "AnKing Step Deck",
+      "front": "What is the rate-limiting enzyme of the HMP shunt ? [Glucose-6-phosphate dehydrogenase (G6PD)]",
+      "raw0": "<div><div>What is the <u>rate-limiting enzyme</u> of the <b>HMP shunt</b>? </div><br><div>{{c1::Glucose-6-phosphate dehydrogenase (G6PD)}}</div></div>",
+      "back": "Hexose monophosphate (HMP) shunt AKA Pentose phosphate pathway (PPP) [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "kD4h(2?{>4",
+      "deck": "AnKing Step Deck",
+      "front": "One function of the [ HMP ] shunt is to provide a source of [ NADPH ], which is required for [ reductive ] reactions",
+      "raw0": "<div><div>One function of the {{c3::<b>HMP</b>}}<b> shunt</b> is to provide a source of {{c1::<b>NADPH</b>}}, which is required for {{c2::<u>reductive</u>}}<u> reactions</u> </div></div>",
+      "back": "e.g., glutathione reduction inside RBCs, fatty acid, and cholesterol biosynthesis [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "dxAS[ISwR7",
+      "deck": "AnKing Step Deck",
+      "front": "One function of the HMP shunt is to provide a source of [ ribose-5-phosphate ], which is used for [ nucleotide ] synthesis and glycolytic intermediates",
+      "raw0": "<div><div>One function of the <b>HMP shunt</b> is to provide a source of {{c1::<b>ribose-5-phosphate</b>}}, which is used for {{c2::<u>nucleotide</u>}}<u> synthesis</u> and glycolytic intermediates</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "HPd&LdGTSj",
+      "deck": "AnKing Step Deck",
+      "front": "The HMP shunt may be referred to as the [pentose phosphate] pathway",
+      "raw0": "<div>The <b>HMP shunt</b> may be referred to as the <b>{{c1::pentose phosphate}} pathway</b></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "DkO](+hW%-",
+      "deck": "AnKing Step Deck",
+      "front": "Does activity of the HMP shunt use ATP ? [No]",
+      "raw0": "<div><div>Does activity of the <u>HMP shunt</u> <b>use ATP</b>? </div><br><div>{{c1::No}} </div></div>",
+      "back": "No ATP is used or produced in the HMP shunt pathway [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "u,5Q354y(0",
+      "deck": "AnKing Step Deck",
+      "front": "Does activity of the HMP shunt produce ATP ? [No]",
+      "raw0": "<div><div><div>Does activity of the <u>HMP shunt</u> <b>produce ATP</b>? </div><br><div>{{c1::No}} </div></div></div>",
+      "back": "No ATP is used or produced in the HMP shunt pathway [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "o8,26,Y&]~",
+      "deck": "AnKing Step Deck",
+      "front": "HMP shunt activity is primarily found in the [ adrenal ] glands , [ liver ], [ lactating mammary ] glands (females), and [ RBCs ]",
+      "raw0": "<div><div><b>HMP shunt activity</b> is primarily found in the {{c1::<b>adrenal</b>}} <b>glands</b>, {{c2::<b>liver</b>}}, {{c3::<b>lactating mammary</b>}} <b>glands</b> (females), and {{c4::<b>RBCs</b>}} </div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "e,lljGR7?S",
+      "deck": "AnKing Step Deck",
+      "front": "[ Glucose-6-phosphate ] is ultimately converted to [ ribulose ] -5-phosphate via the enzyme [ glucose-6-phosphate dehydrogenase ( G6PD ) ]",
+      "raw0": "<div><div>{{c3::<b>Glucose-6-phosphate</b>}} is <i>ultimately</i> converted to {{c1::<b>ribulose</b>}}<b>-5-phosphate</b> via the enzyme {{c2::<b><i>glucose-6-phosphate dehydrogenase</i> (<i>G6PD</i>)</b>}} </div></div>",
+      "back": "6-phosphogluconate is an intermediate in this reaction [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "sVq]8w|)=y",
+      "deck": "AnKing Step Deck",
+      "front": "Conversion of glucose-6-P into ribulose-5-P (HMP shunt) produces one molecule of CO 2 and two molecules of [ NADPH ]",
+      "raw0": "<div><div>Conversion of <b>glucose-6-P</b> into <b>ribulose-5-P</b> (HMP shunt) produces <u>one</u> molecule of <b>CO<sub>2</sub></b> and <u>two</u> molecules of {{c1::<b>NADPH</b>}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "PRUpVM*i5+",
+      "deck": "AnKing Step Deck",
+      "front": "Is the conversion of glucose-6-P into ribulose-5-P (HMP shunt) a reversible or irreversible reaction? [Irreversible]",
+      "raw0": "<div><div>Is the conversion of <b>glucose-6-P</b> into <b>ribulose-5-P</b> (HMP shunt) a <u>reversible</u> or <u>irreversible</u> reaction? </div><br><div>{{c1::Irreversible}}</div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "ih8HIyFIk-",
+      "deck": "AnKing Step Deck",
+      "front": "Ribulose-5-phosphate may be converted to [ribose]-5-phosphate via the enzyme phosphopentose isomerase (HMP shunt)",
+      "raw0": "<div><div><b>Ribulose-5-phosphate</b> may be converted to <b>{{c1::ribose}}-5-phosphate</b> via the enzyme <i>phosphopentose isomerase </i>(HMP shunt)</div></div>",
+      "back": "- This reaction also may produce glyceraldehyde-3-phosphate and fructose-6-phosphate This is reversible and thus is governed by the cellular demand for ribose-5-phosphate : - If in excess : Shunted to make G3P and F6P for ATP generation - If in demand : Enzymes act in reverse to take G3P and F6P to make ribose-5-phosphate for nucleotide synthesis [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "j2-=]9rJb.",
+      "deck": "AnKing Step Deck",
+      "front": "Is the conversion of ribulose-5-P into ribose-5-P (HMP shunt) a reversible or irreversible reaction? [Reversible]",
+      "raw0": "<div><div><div>Is the conversion of <b>ribulose-5-P</b> into <b>ribose-5-P</b> (HMP shunt) a <u>reversible</u> or <u>irreversible</u> reaction? </div><br><div>{{c1::Reversible}}</div></div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Iyy]|!MP+X",
+      "deck": "AnKing Step Deck",
+      "front": "In the [liver], the HMP shunt provides a source of NADPH for biosynthesis of fatty acids , cholesterol , and steroids",
+      "raw0": "<div><div>In the {{c1::liver::organ}}, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <u>biosynthesis</u> of <b>fatty</b> <b>acids</b>, <b>cholesterol</b>, and <b>steroids</b></div></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "yWqtbkb`0^",
+      "deck": "AnKing Step Deck",
+      "front": "In [neutrophils], the HMP shunt provides a source of NADPH for NADPH oxidase activity, which is used for respiratory burst",
+      "raw0": "<div><div>In {{c1::neutrophils}}, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <i>NADPH oxidase</i> activity, which is used for <b><u>respiratory burst</u></b> </div></div>",
+      "back": "[img] Image licensed by Physeo and used with permission. Purchase full access here . [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "rKBHTacy;)",
+      "deck": "AnKing Step Deck",
+      "front": "In the RBCs , the HMP shunt provides a source of NADPH for reduction of [H 2 O 2 ] (via reduced glutathione)",
+      "raw0": "<div><div>In the <u>RBCs</u>, the <b>HMP shunt</b> provides a source of <b>NADPH</b> for <u>reduction</u> of {{c1::H<sub>2</sub>O<sub>2</sub>}} (via reduced glutathione)</div></div>",
+      "back": "[img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM (2015) NADPH-generating systems in bacteria and archaea. Front. Microbiol. 6:742. doi: 10.3389/fmicb.2015.00742 , CC BY 3.0",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "kg.u)A]t,2",
+      "deck": "AnKing Step Deck",
+      "front": "[ Oxidized ] glutathione may be converted to [ reduced ] glutathione via the enzyme [ glutathione reductase ]",
+      "raw0": "<div><div>{{c1::<b>Oxidized</b>}}<b> glutathione</b> may be converted to {{c1::<b>reduced</b>}}<b> glutathione</b> via the enzyme {{c2::<i>glutathione reductase</i>}}</div></div>",
+      "back": "Glutathione reductase uses NADPH and FAD as cofactors for this reaction [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "mE}6gDA!&i",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme glutathione [ reductase ] requires a molecule of [ NADPH ], which is provided by the activity of the enzyme G6PD",
+      "raw0": "<div><div>The enzyme <b><i>glutathione</i></b> {{c2::<b><i>reductase</i></b>}} requires a molecule of {{c1::<b>NADPH</b>}}, which is provided by the activity of the enzyme <i><b>G6PD</b></i></div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "jUF4v|84_]",
+      "deck": "AnKing Step Deck",
+      "front": "Conversion of glucose-6-phosphate to 6-phosphogluconate , via G6PD , produces a molecule of [ NADPH ]",
+      "raw0": "<div><div><div>Conversion of <b>glucose-6-phosphate</b> to <b>6-phosphogluconate</b>, via <i>G6PD</i>, produces a molecule of {{c1::<b>NADPH</b>}}</div></div></div>",
+      "back": "This NADPH is then utilized by the enzyme glutathione reductase [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "0*#qZdz=w",
+      "deck": "AnKing Step Deck",
+      "front": "[ Reduced ] glutathione may be converted to [ oxidized ] glutathione via the enzyme [ glutathione peroxidase ]",
+      "raw0": "<div><div>{{c1::<b>Reduced</b>}}<b> glutathione</b> may be converted to {{c1::<b>oxidized</b>}}<b> glutathione</b> via the enzyme {{c2::<b><i>glutathione peroxidase</i></b>}} </div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "L)B@LYazn3",
+      "deck": "AnKing Step Deck",
+      "front": "What is the chemical name for oxidized glutathione ? [Glutathione-sulfur-sulfur-Glutathione (GSSG)]",
+      "raw0": "<div><div>What is the <u>chemical name</u> for <b>oxidized glutathione</b>? </div><br><div>{{c1::Glutathione-sulfur-sulfur-Glutathione (GSSG)}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics"
+      ]
+    },
+    {
+      "guid": "I`&74Y+a=4",
+      "deck": "AnKing Step Deck",
+      "front": "What is the chemical name for reduced glutathione ? [2x Glutathione-sulfhydryl (GSH)]",
+      "raw0": "<div><div>What is the <u>chemical name</u> for <b>reduced glutathione</b>? </div><br><div>{{c1::2x Glutathione-sulfhydryl (GSH)}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics"
+      ]
+    },
+    {
+      "guid": "CP:0.`KnC.",
+      "deck": "AnKing Step Deck",
+      "front": "[ H 2 O 2 ] may be converted to [ H 2 O ] via the enzyme glutathione [ peroxidase ]",
+      "raw0": "<div><div>{{c1::<b>H<sub>2</sub>O<sub>2</sub></b>}}<b> </b>may be converted to {{c2::<b>H<sub>2</sub>O</b>}} via the enzyme <i><b>glutathione </b></i>{{c3::<i><b>peroxidase</b></i>}}</div></div>",
+      "back": "[img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "d25y;/wGZz",
+      "deck": "AnKing Step Deck",
+      "front": "The enzyme glutathione peroxidase requires a reducing agent , which is provided in the form of [ reduced glutathione (GSH) ]",
+      "raw0": "<div><div>The enzyme <b>glutathione peroxidase</b> requires a <u>reducing agent</u>, which is provided in the form of {{c1::<b>reduced glutathione (GSH)</b>}} </div></div>",
+      "back": "- A reducing agent is a substance that causes reduction by being oxidized - GSH is an electron donor [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics"
+      ]
+    },
+    {
+      "guid": "pwbs?YbRFb",
+      "deck": "AnKing Step Deck",
+      "front": "What inclusion body may be seen inside the RBCs of patients with G6PD deficiency ? [Heinz bodies]",
+      "raw0": "What <u>inclusion body</u> may be seen inside the RBCs of patients with <b>G6PD deficiency</b>?<br><br>{{c1::Heinz bodies}}",
+      "back": "Blood smear shows bite cells (left) and Heinz bodies (right) [img] [img] Photo credit (left): Author: N. J. Wheeler, Jr, USC DCP; (right): “Heinz Body” by Timothy F. Herman; Muhammad U. Javaid., StatPearls [Internet]. is licensed under CC BY 4.0 [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "BL/E.K+A{j",
+      "deck": "AnKing Step Deck",
+      "front": "Heinz bodies form due to precipitation of denatured [hemoglobin] within RBCs",
+      "raw0": "<div><div><b>Heinz bodies</b> form due to precipitation of <i>denatured</i> {{c1::hemoglobin}} within RBCs</div></div>",
+      "back": "- Hb sulfhydryl groups donate an electron to hydrogen peroxide, forming hemoglobin crosslinks - Classically associated with G6PD deficiency [img] Photo credit: Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*Basics"
+      ]
+    },
+    {
+      "guid": "xPE~:zK#N*",
+      "deck": "AnKing Step Deck",
+      "front": "Fatty acid synthesis requires [ NADPH ], which is provided by the [ HMP shunt ] and [ malic ] enzyme",
+      "raw0": "<div><div><b>Fatty acid synthesis</b> requires {{c1::<u>NADPH</u>}}, which is provided by the {{c2::<b>HMP shunt</b>}} and {{c3::<b>malic</b>}}<b> enzyme</b></div></div>",
+      "back": "[img] [img] Photo credit: Spaans SK, Weusthuis RA, van der Oost J and Kengen SWM (2015) NADPH-generating systems in bacteria and archaea. Front. Microbiol. 6:742. doi: 10.3389/fmicb.2015.00742 , CC BY 3.0",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "uUec:<aJpz",
+      "deck": "AnKing Step Deck",
+      "front": "Which enzyme of the fatty acid synthesis pathway utilizes NADPH ? [Fatty acid synthase]",
+      "raw0": "<div><div>Which <i>enzyme</i> of the <b>fatty acid synthesis</b> pathway utilizes <u>NADPH</u>?</div><br><div>{{c1::Fatty acid synthase}}</div></div>",
+      "back": "May also be referred to as palmitate synthase [img] Photo credit: Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "y<S*dg#:?{",
+      "deck": "AnKing Step Deck",
+      "front": "Thiamine pyrophosphate (vitamin B 1 ) is a cofactor for the enzyme [ transketolase ] (HMP shunt)",
+      "raw0": "<div><div><div><div><b>Thiamine pyrophosphate</b> (vitamin B<sub>1</sub>) is a <u>cofactor</u> for the enzyme {{c1::<i>transketolase</i>}} (HMP shunt)</div></div></div></div>",
+      "back": "- Transketolase is an enzyme of the pentose phosphate pathway that uses vitamin B 1 as a cofactor to shuttle 2-carbon fragments between sugar molecules - Abnormal variants of transketolase may predispose to Wernicke-Korsakoff syndrome [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "i%-Bph=qn>",
+      "deck": "AnKing Step Deck",
+      "front": "NADPH is generally used as an electron carrier in [ anabolic ] processes",
+      "raw0": "<div><b>NADPH</b> is generally used as an <i>electron carrier</i> in {{c1::<b>anabolic</b>::anabolic/catabolic}} processes</div>",
+      "back": "- e.g., steroid and fatty acid synthesis; supplies reducing equivalents - vs. NAD+ which is generally used as an electron carrier in catabolic processes",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "Ijy~FbUun[",
+      "deck": "AnKing Step Deck",
+      "front": "Which universal electron carrier is used in the cytochrome P-450 system of the liver? [NADPH]",
+      "raw0": "<div>Which <u>universal electron carrier</u> is used in the <b>cytochrome P-450 system</b> of the liver?</div><br><div>{{c1::NADPH}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications"
+      ]
+    },
+    {
+      "guid": "O9HT%FH3,t",
+      "deck": "AnKing Step Deck",
+      "front": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency is a disorder resulting in reduced [half-life] of G6PD",
+      "raw0": "<div><b>Glucose-6-phosphate dehydrogenase (G6PD) deficiency</b> is a disorder resulting in <u>reduced</u> {{c1::half-life}} of G6PD</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "k8$^{ST^)3",
+      "deck": "AnKing Step Deck",
+      "front": "What is the mode of inheritance of G6PD deficiency ? [X-linked recessive]",
+      "raw0": "<div>What is the <u>mode of inheritance</u> of <b>G6PD deficiency</b>? </div><br><div>{{c1::X-linked recessive}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "i+FczPGWU9",
+      "deck": "AnKing Step Deck",
+      "front": "RBCs are normally exposed to oxidative stress , especially by [ hydrogen peroxide (H 2 O 2 )]",
+      "raw0": "<div><b>RBCs</b> are normally exposed to <u>oxidative stress</u>, especially by {{c1::<b>hydrogen peroxide</b> (H<sub>2</sub>O<sub>2</sub>)::chemical}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Jk/cgK.iLY",
+      "deck": "AnKing Step Deck",
+      "front": "H 2 O 2 may be neutralized by [reduced] glutathione (an antioxidant)",
+      "raw0": "<div><b>H<sub>2</sub>O<sub>2</sub></b> may be <u>neutralized</u> by <b>{{c1::reduced}}</b><b> </b><b>glutathione</b> (an antioxidant) </div>",
+      "back": "Reduced glutathione is oxidized in the process (thus forming oxidized glutathione) [img] [img] Image licensed by Physeo and used with permission. Purchase full access here .",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "bK!25KI#Qc",
+      "deck": "AnKing Step Deck",
+      "front": "[ NADPH ], a by-product of G6PD , is needed to regenerate [ reduced ] glutathione",
+      "raw0": "<div>{{c2::<b>NADPH</b>}}, a by-product of <i>G6PD</i>, is needed to <u>regenerate</u> {{c1::<b>reduced</b>::oxidized/reduced}} <b>glutathione</b> </div>",
+      "back": "Thus, G6PD deficiency results in decreased ability to regenerate reduced glutathione [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "M_4=n14ge$",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency renders RBCs susceptible to [oxidative] stress",
+      "raw0": "<div><b>G6PD deficiency</b> renders RBCs susceptible to {{c1::oxidative}} stress </div>",
+      "back": "Due to decreased NADPH and thus decreased reduced glutathione regeneration [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "gv<uj;I[mK",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency is a cause of [normocytic] anemia",
+      "raw0": "<div><b>G6PD deficiency</b> is a cause of {{c1::normocytic::MCV}} <b>anemia</b></div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "j:tjmHM?7A",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency is characterized primarily by [intravascular] hemolysis",
+      "raw0": "<b>G6PD deficiency</b> is characterized <i>primarily</i> by {{c1::intravascular::intravascular/extravascular}} <b>hemolysis</b>",
+      "back": "- Intravascular hemolysis due to increased oxidative stress - However, extravascular hemolysis occurs as well (due to consumption by macrophages because red cells become rigid)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "G?+5x}O+((",
+      "deck": "AnKing Step Deck",
+      "front": "The [ African ] variant of G6PD deficiency results in [ mildly ] reduced half-life of G6PD",
+      "raw0": "<div>The {{c1::<b>African</b>}} variant of <u>G6PD deficiency</u> results in {{c2::<i>mildly</i>}} reduced half-life of G6PD </div>",
+      "back": "- Whereas the Mediterranean variant results in markedly reduced half-life - Thus leading to mild intravascular hemolysis with oxidative stress",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "hEF`Q_d1`@",
+      "deck": "AnKing Step Deck",
+      "front": "The [ Mediterranean* ] variant of G6PD deficiency results in [ markedly ] reduced half-life of G6PD",
+      "raw0": "<div>The {{c1::<b>Mediterranean*</b>}} variant of <u>G6PD deficiency</u> results in {{c2::<i>markedly</i>}} reduced half-life of G6PD </div>",
+      "back": "Thus leading to marked intravascular hemolysis with oxidative stress *Greek and Italian (some French, Spanish, Turkish)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "z;/L<+/|1.",
+      "deck": "AnKing Step Deck",
+      "front": "High carrier frequency of the mutant G6PD allele is likely due to its protective role against [ Plasmodium falciparum ] malaria",
+      "raw0": "<div><b>High carrier frequency</b> of the <u>mutant G6PD allele</u> is likely due to its <i>protective</i> role against {{c1::<i>Plasmodium falciparum</i>}} malaria</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "end43ObgsH",
+      "deck": "AnKing Step Deck",
+      "front": "In [ G6PD ] deficiency , oxidative stress precipitates denatured [hemoglobin] as [ Heinz bodies ]",
+      "raw0": "<div>In {{c3::<b>G6PD</b>}}<b> deficiency</b>, <u>oxidative stress</u> precipitates denatured {{c2::hemoglobin}} as {{c1::<b>Heinz bodies</b>}}</div>",
+      "back": "Blood smear shows bite cells (1st) and Heinz bodies (2nd): [img] [img] Photo credit: N. J. Wheeler, Jr, USC DCP; Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "C&eiUD{o|x",
+      "deck": "AnKing Step Deck",
+      "front": "In G6PD deficiency, Heinz bodies are removed from RBCs by splenic macrophages , resulting in formation of [bite] cells",
+      "raw0": "In G6PD deficiency, <b>Heinz bodies</b> are removed from RBCs by <u>splenic macrophages</u>, resulting in formation of {{c1::bite}} <b>cells</b>",
+      "back": "AKA degmacytes Blood smear shows bite cells (1st) and Heinz bodies (2nd): [img] [img] Photo credit: Author: N. J. Wheeler, Jr, USC DCP (left image); Ailuromancy , Public domain, via Wikimedia Commons (right image) [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "kwHf?e79/H",
+      "deck": "AnKing Step Deck",
+      "front": "G6PD deficiency presents with [ hemoglobin ] uria and [ back ] pain days after exposure to oxidative stress",
+      "raw0": "<div><b>G6PD deficiency</b> presents with {{c1::<u>hemoglobin</u>}}<u>uria</u> and {{c2::<u>back</u>}}<u> pain</u> days after exposure to oxidative stress</div>",
+      "back": "- Back pain due to nephrotoxicity of hemoglobin - This card used to say presents hours after exposure, but AMBOSS & UWorld confirm this occurs 2-4 days after exposure (May 2025)",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "b0#~aAYzGn",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common cause of oxidative stress in patients with G6PD deficiency ? [Infection]",
+      "raw0": "<div>What is the <i>most common</i> cause of <u>oxidative stress</u> in patients with <b>G6PD deficiency</b>?</div><br><div>{{c1::Infection}} </div>",
+      "back": "Inflammatory response produces free radicals that diffuse into RBCs, causing oxidative damage",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "w+]0}+^93D",
+      "deck": "AnKing Step Deck",
+      "front": "What mediterranean food may be a source of oxidative stress in patients with G6PD deficiency ? [Fava beans]",
+      "raw0": "<div>What <u>mediterranean food</u> may be a source of <i>oxidative stress</i> in patients with <b>G6PD deficiency</b>? </div><br><div>{{c1::Fava beans}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Qrk`G!A`I}",
+      "deck": "AnKing Step Deck",
+      "front": "What class of drugs is contraindicated in patients with G6PD deficiency ? [Sulfa drugs]",
+      "raw0": "<div>What <i>class</i> of drugs is <u>contraindicated</u> in patients with <b>G6PD deficiency</b>? </div><br><div>{{c1::Sulfa drugs::Besides anti-malarials or NSAIDs}}</div>",
+      "back": "Other drugs contraindicated in patients with G6PD include anti-malarials (e.g., primaquine), NSAIDs , isoniazid , etc. Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "n5fCjT7B|r",
+      "deck": "AnKing Step Deck",
+      "front": "Anti- [ malarial ] drugs , such as primaquine , may induce oxidative stress and are thus contraindicated in patients with G6PD deficiency",
+      "raw0": "<div><b>Anti-</b>{{c1::<b>malarial</b>}}<b> drugs</b>, such as <b>primaquine</b>, may induce <u>oxidative stress</u> and are thus <i>contraindicated</i> in patients with <b>G6PD deficiency</b></div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "EnC,Gb7,ny",
+      "deck": "AnKing Step Deck",
+      "front": "Anti- [ tuberculosis ] drugs , such as isoniazid , may induce oxidative stress and are thus contraindicated in patients with G6PD deficiency",
+      "raw0": "<div><b>Anti-</b>{{c1::<b>tuberculosis</b>}}<b> drugs</b>, such as <b>isoniazid</b>, may induce <u>oxidative stress</u> and are thus <i>contraindicated</i> in patients with <b>G6PD deficiency</b> </div>",
+      "back": "Other antibacterials that do this include nitrofurantoin , dapsone Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "p<O[WXYXLS",
+      "deck": "AnKing Step Deck",
+      "front": "What is the most common enzymatic disorder of RBCs ? [G6PD deficiency]",
+      "raw0": "<div>What is the <i>most common</i> <u>enzymatic disorder</u> of <b>RBCs</b>? </div><br><div>{{c1::G6PD deficiency}}</div>",
+      "back": "[img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "Hive5?CWOu",
+      "deck": "AnKing Step Deck",
+      "front": "What test is performed to screen for G6PD deficiency ? [Heinz preparation]",
+      "raw0": "<div>What test is performed to <u>screen</u> for <b>G6PD deficiency</b>?</div><br><div>{{c1::Heinz preparation}}</div>",
+      "back": "Uses a crystal violet stain to visualize precipitated Hb [img] Photo credit: Ailuromancy , Public domain, via Wikimedia Commons [img]",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "dJg8Tr>x4G",
+      "deck": "AnKing Step Deck",
+      "front": "The diagnosis of G6PD deficiency is confirmed via [ enzyme ] studies , which are performed [ weeks ] after a hemolytic episode resolves",
+      "raw0": "<div>The diagnosis of <b>G6PD deficiency</b> is <u>confirmed</u> via {{c1::<b>enzyme</b>}} <b>studies</b>, which are performed {{c2::<i>weeks</i>}} after a hemolytic episode resolves </div>",
+      "back": "Enzymatic studies at the time of hemolysis would be normal → cells that lack the G6PD enzyme lysed during the hemolytic episode",
+      "tags": [
+        "#AK_Step1_v12::#Bootcamp::Biochemistry::07_Oxidative_Stress::02_Pentose_Phosphate_Pathway:_Uses_of_NADPH_and_Clinical_Implications",
+        "#AK_Step1_v12::#FirstAid::01_Biochem::06_Metabolism::17_Glucose-6-phosphate_dehydrogenase_deficiency::*G6PD_Deficiency",
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "c|npnpt*v`",
+      "deck": "AnKing Step Deck",
+      "front": "[ Nitrofurantoin ] is a urinary antiseptic that can trigger hemolysis in patients with [ G6PD deficiency ]",
+      "raw0": "{{c1::<b>Nitrofurantoin</b>}} is a <u>urinary antiseptic</u> that can trigger <b>hemolysis</b> in patients with {{c2::<b>G6PD deficiency</b>}}",
+      "back": "2 things to know: - Used for UTIs in pregnancy - Can trigger hemolysis in G6PD deficiency - TMP-SMX and quinolones are contraindicated in pregnancy",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "ywR*Mjv@Yb",
+      "deck": "AnKing Step Deck",
+      "front": "Sulfasalazine can cause a hemolytic anemia in patients with [ G6PD ] deficiency",
+      "raw0": "<b>Sulfasalazine</b> can cause a <b>hemolytic anemia </b>in patients with {{c1::<b>G6PD</b>}} <b>deficiency</b>",
+      "back": "Sulfa salazine is a sulfa drug",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "gt2LEc#gdd",
+      "deck": "AnKing Step Deck",
+      "front": "Side effects of dapsone include methemoglobinemia , [ agranulocytosis ], and [ hemolytic anemia in G6PD deficiency ]",
+      "raw0": "Side effects of <u>dapsone</u> include <b>methemoglobinemia</b>, {{c1::<b>agranulocytosis</b>}}, and {{c2::<b>hemolytic anemia in G6PD deficiency</b>}}",
+      "back": "Hemolysis IS D PAIN : - I soniazid - S ulfonamides - D apsone - P rimaquine - A spirin - I buprofen - N itrofurantoin",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "kqDolMUKPK",
+      "deck": "AnKing Step Deck",
+      "front": "Pegloticase can result in what hematologic pathology? [Hemolytic anemia in G6PD deficiency]",
+      "raw0": "<b>Pegloticase</b> can result in what <u>hematologic</u> pathology?<br><br><div>{{c1::Hemolytic anemia in G6PD deficiency}}</div>",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "MZm_~NS]j(",
+      "deck": "AnKing Step Deck",
+      "front": "Which chronic gout drug must be administered IV ? [Pegloticase]",
+      "raw0": "Which <i>chronic </i>gout drug <u>must</u> be <b>administered IV</b>?<br><br><div>{{c1::Pegloticase}}</div>",
+      "back": "Risk of hemolysis in G6PD deficiency and anaphylaxis requires pegloticase to be given IV while closely monitored inpatient",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "P_Mp9Vp{]i",
+      "deck": "AnKing Step Deck",
+      "front": "Sulfa drugs are contraindicated in [ G6PD deficiency ], as they can precipitate [ hemolytic anemia ]",
+      "raw0": "<b>Sulfa drugs</b> are contraindicated in {{c1::<u>G6PD deficiency</u>}}, as they can precipitate {{c2::<b>hemolytic anemia</b>}}",
+      "back": "",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency",
+        "#AK_Step1_v12::#SketchyBiochem::01_Metabolism::01_Carbohydrates::13_Pentose_Phosphate_Pathway_&_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "qV2-V:xXvx",
+      "deck": "AnKing Step Deck",
+      "front": "The antimalarials that can cause hemolysis in G6PD deficiency may be remembered with the mnemonic \"[Queen DAP]\"",
+      "raw0": "The <u>antimalarials</u> that can cause <b>hemolysis</b> in <b>G6PD deficiency</b> may be remembered with the mnemonic \"{{c1::Queen DAP}}\"",
+      "back": "Q uinidine D apsone A rtesunate P rimaquine G6PD deficiency should be ruled out prior to initiating antimalarial therapy",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    },
+    {
+      "guid": "xxpqh|Fpci",
+      "deck": "AnKing Step Deck",
+      "front": "The antimalarials that can cause [ hemolysis in G6PD deficiency ] may be remembered with the mnemonic \" Queen DAP \": [ Q uinidine] [ D apsone] [ A rtesunate] [ P rimaquine]",
+      "raw0": "The <u>antimalarials</u> that can cause {{c1::<b>hemolysis</b> in <b>G6PD deficiency</b>}} may be remembered with the mnemonic \"<b>Queen DAP</b>\":<br><br><div class=\"mnemonics\">{{c1::<u>Q</u>uinidine::<b>Queen</b>}}<br>{{c1::<u>D</u>apsone::<b>D</b>}}<br>{{c1::<u>A</u>rtesunate::<b>A</b>}}<br>{{c1::<u>P</u>rimaquine::<b>P</b>}}</div>",
+      "back": "G6PD deficiency should be ruled out prior to initiating antimalarial therapy",
+      "tags": [
+        "#AK_Step1_v12::#Pixorize::01_Biochemistry::03_Metabolic_Disorders::04_G6PD_Deficiency"
+      ]
+    }
+  ]
+}

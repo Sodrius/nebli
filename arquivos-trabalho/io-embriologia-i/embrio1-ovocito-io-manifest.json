@@ -1,0 +1,43 @@
+{
+  "slug": "embrio1-ovocito-io",
+  "header": "Embriologia. Estruturas do ovócito secundário",
+  "image_size": [
+    1000,
+    800
+  ],
+  "n_boxes": 3,
+  "labels": [
+    {
+      "text": "Zona",
+      "box": [
+        240,
+        350,
+        41,
+        14
+      ]
+    },
+    {
+      "text": "grânulos",
+      "box": [
+        251,
+        421,
+        71,
+        17
+      ]
+    },
+    {
+      "text": "Corona",
+      "box": [
+        383,
+        581,
+        60,
+        14
+      ]
+    }
+  ],
+  "I0": "[#!occlusions [[rect0::237,347,47,20]]<br>[[rect0::248,418,77,23]]<br>[[rect0::380,578,66,20]] #]<br>active",
+  "media_name": "fac6dea5596647997ddf2e80ad1cf29b.png",
+  "image_field": "<img src=\"fac6dea5596647997ddf2e80ad1cf29b.png\">",
+  "crop_png": "..\\..\\arquivos-trabalho\\io-embriologia-i\\fac6dea5596647997ddf2e80ad1cf29b.png",
+  "preview_png": "..\\..\\arquivos-trabalho\\io-embriologia-i\\embrio1-ovocito-io-preview.png"
+}

@@ -1,0 +1,64 @@
+# MAPA_CONTEUDO -- bioq-20-pentoses-radicais-livres-teste
+# Slide-fonte: Via das pentoses - slides.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: VIA DAS PENTOSES-FOSFATO Prof. Ms. Paulo Cuevas Iolanda Midea Cuccovia P
+slide-02: Via das Pentoses e Radicais Livres DOI:10.1159/000471912 http://www.lookfeelbettertoday.com/free-radicals-enemies-within-formed/
+slide-03: 3 QUAIS OS DESTINOS DA GLICOSE NA CÉLULA? Formar Glicogênio (Glicogênese) Ser convertida a unidades de 3 carbonos (Glicólise) Ser oxidada a Ribose 5-fosfato (Via das Pentoses fosfato) P
+slide-04: - Síntese de ribose-5P → DNA, RNA - Metabolismo de açúcares com 7, 5 e 4 carbonos - Redução de NADP+ a NADPH - doador de elétrons para biossíntese - doa elétrons para defesa contra radicais livres
+slide-05: COMO A GLICOSE ENTRA NAS CÉLULAS? 5 Proteínas Transportadoras: • SLGT -Sodium-Glucose Linked Transporters ou Co-transportadores de Sódio-Glicose) são uma família de proteínas de membrana essenciais para a absorção e reabsorção de glicose no organismo...
+slide-06: Oxidação da glicose 6-fosfato geração de ribose-5P (nucleotídeos, coenzimas) redução de NADP+ →NADPH Quando acontece? Disponibilidade de glicose Glicólise inibida (ATP; NADH/NAD+) Onde acontece? Fígado, tecido adiposo, glândulas mamárias, e...
+slide-07: Ocorre no citosol de todas as células (20% da glicose). Apresenta duas fases: oxidativa e não-oxidativa, que podem ter velocidades diferentes na célula. VIA DAS PENTOSES-FOSFATO CARACTERÍSTICAS GERAIS Ribulose- 5-fosfato Gliceraldeído 3-fosfato Fru...
+slide-08: VIA DAS PENTOSES-FOSFATO CARACTERÍSTICAS GERAIS Ribose 5-Fosfato (5C) Glicose (6C) 2 NADPH 2 NADP+ CO2 Via que converte glicose 6-fosfato em pentoses (ribose 5-fosfato) e gera NADPH Gliceraldeído 3- Fosfato Frutose 6-fosfato
+slide-09: NADPH H NADPH NADH
+slide-10: NADPH O NADPH é uma coenzima relacionada a reações de óxido-redução que, ao contrário do NADH, participa em reações de biossíntese de macromoléculas.
+slide-11: NADPH NO METABOLISMO DOS ERITRÓCITOS O NADPH também está envolvido no mecanismo antioxidante realizado pela Glutationa (Glu-Cys-Gly), regenerando a forma reduzida da molécula para que ela continua a exercer suas funções.
+slide-12: Ribose-5-Fosfato A Ribose 5-fosfato é um monossacarídeo fosforilado que pode originar nucleotídeos. Estes monômeros podem ser utilizados para gerar molécula trifosfatadas, coenzimas, ácido nucleicos.
+slide-13: vários intermediários Via das pentoses fosfato tem duas fases Poder redutor para síntese e detoxificação
+slide-14: VIA DAS PENTOSES-FOSFATO ANALISANDO A VIA
+slide-15: VIA DAS PENTOSES-FOSFATO CONEXÃO COM A GLICÓLISE Glicose 6-fosfato Xilulose 5-fosfato Sedoeptulose 7-fosfato Gliceraldeído 3-fosfato Frutose 6-fosfato Eritrose 4-fosfato Xilulose 5-fosfato Gliceraldeído 3-fosfato Frutose 6-fosfato Glicose 6-fosfato d...
+slide-16: Glicose Glicose 6-fosfato Glicono δ-lactona 6-fosfato 6-Fosfogliconato Ribulose 5-fosfato Gliceraldeído 3-fosfato CO2 Gliceraldeído 3-fosfato Ribose 5-fosfato NADP+ Glicose 6 fosfato desidrogenase NADP+ NADPH 6 Fosfogliconato desidrogenase Lactonase ...
+slide-17: Produtos 2 NADPH Ribose 5-P CO2 • Pontos de controle Enzimas desidrogenases inibidas por NADPH inibição competitiva Necessidade de ribose 5P Estresse oxidativo Fase oxidativa 5C 6C 1C
+slide-18: Enzimas isomerases, transcetolases e transaldolases Fase não oxidativa 5C 5C 7C 3C 6C 4C 5C 3C 6C 6C CO2 Todas as reações são reversíveis (setas azuis)
+slide-19: NADPH O NADPH é uma coenzima relacionada a reações de óxido-redução que, ao contrário do NADH, participa em reações de biossíntese de macromoléculas.
+slide-20: Quando a necessidade por NADPH e por ribose 5-fosfato são iguais. Predomínio da fase oxidativa da via
+slide-21: Necessidade maior de ribose-5P do que NADPH ➔Células em divisão Apenas a fase não oxidativa da via é ativada (ribose 5 P será gerada a partir de intermediários da glicólise)
+slide-22: Necessidade por NADPH é maior que a de ribose-5P ➔produção de ácidos graxos Fases oxidativa e não oxidativa são ativadas
+slide-23: Quando a célula precisa de NADPH e ATP. Fases oxidativa e não oxidativa são ativadas, mas o gliceraldeído 3-P é direcionado à glicólise
+slide-24: Regulação Glicose-6-fosfato desidrogenase é o passo controlador da velocidade da enzima nesta via. A Glicose-6-fosfato desidrogenase é estimulada alostericamente por NADP+ e fortemente inibida por NADPH. A razão NADPH:NADP+ é o mecanismo primário da ...
+slide-25: Via das Pentoses e Radicais Livres DOI:10.1159/000471912 http://www.lookfeelbettertoday.com/free-radicals-enemies-within-formed/
+slide-26: NADPH tem função importante na proteção contra espécies reativas de oxigênio Glutationa (GSH) protege do estresse oxidativo Mutações tornam indivíduos mais sensíveis ao estresse oxidativo (doença hemolítica induzida por drogas)
+slide-27: NADPH NO METABOLISMO DOS ERITRÓCITOS O NADPH também está envolvido no mecanismo antioxidante realizado pela Glutationa (Glu-Cys-Gly), regenerando a forma reduzida da molécula para que ela continua a exercer suas funções. A Glutationa protege a célula...
+slide-28: Ribose 5-P coenzimas (NAD+, FAD, CoA, ATP) ácidos nucleicos Glicose 6-P, frutose 6-P e gliceraldeído-3P “reciclagem” na via glicolítica Destinos dos compostos da fase não oxidativa
+slide-29: ✓A via inicia-se com a glicose 6-P ✓Produz NADPH (poder redutor utilizado nas vias anabólicas) ✓Nenhum ATP é produzido ✓Produz Ribose-5P ➔Biossíntese de ácidos nucleicos (DNA, RNA) Vários cofatores (CoA, FAD, NAD+/NADP+) ✓Os produtos finais podem ser...
+slide-30: C6H12O6 + 6 H2O + 12 NADP+ →6 CO2 + 12 NADPH + 12 H+ Via das Pentoses Glicólise + Krebs + Fosforilação Oxidativa C6H12O6 + 6 O2 + n ADP + n Pi →6 CO2 + 6 H2O + n ATP n ~ 38 (NADH como intermediário)
+slide-31: NADH: participa da conversão de energia liberada pela oxidação de metabólitos em ATP (fosforilação oxidativa) NADPH: transfere elétrons da oxidação de processos de biossíntese redutora Em condições fisiológicas: razão NAD+/NADH = 1000 razão NADP+/NAD...
+slide-32: Ribose-5-Fosfato A Ribose 5-fosfato é um monossacarídeo fosforilado que pode originar nucleotídeos. Estes monômeros podem ser utilizados para gerar molécula trifosfatadas, coenzimas, ácido nucleicos.
+slide-33: 2-Desoxyribose and Ribose
+slide-34: VIA DAS PENTOSES-FOSFATO CONEXÃO COM A GLICÓLISE Glicose 6-fosfato Xilulose 5-fosfato Sedoeptulose 7-fosfato Gliceraldeído 3-fosfato Frutose 6-fosfato Eritrose 4-fosfato Xilulose 4-fosfato Gliceraldeído 3-fosfato Frutose 6-fosfato Glicose 6-fosfato d...
+slide-35: Glicose Glicose 6-fosfato Glicono δ-lactona 6-fosfato 6-Fosfogliconato Ribulose 5-fosfato Gliceraldeído 3-fosfato CO2 Gliceraldeído 3-fosfato Ribose 5-fosfato NADP+ Glicose 6 fosfato desidrogenase NADP+ NADPH 6 -Fosfogliconato desidrogenase Lactonase...
+slide-36: [VISUAL -- usar adjacente com titulo extraivel]
+slide-37: https://www.bdc.ib.unicamp.br/bdc/visualizarMaterial.php?idMaterial=76&#.Y pYL8mjMI2w Radicais Livres
+slide-38: NADPH e Remoção de Radicais Livres - Radicais livres: Átomos ou moléculas com elétrons desemparelhados - Podem ser altamente reativos - Podem gerar outras espécies reativas (oxidantes)
+slide-39: O2 + 4H+ + 4e- 2 H2O
+slide-40: [VISUAL -- usar adjacente com titulo extraivel]
+slide-41: NADPH e Remoção de Radicais Livres
+slide-42: • Primaquina estimula a formação de peróxidos células deficientes não conseguem suprir NADPH. • Certos glicosídeos presentes em feijões de fava causam o mesmo efeito. • Estima-se que 400 milhões de pessoas possuam esta síndrome, representando a defic...
+slide-43: Erythrocytes Several deficiencies in the level of activity (not function) of glucose-6-phosphate dehydrogenase have been observed to be associated with resistance to the malarial parasite Plasmodium falciparum among individuals of Mediterranean and A...
+slide-44: Atividade da Glutationa como Agente Redutor
+slide-45: VIA DAS PENTOSES-FOSFATO ANÁLISE DA VIA – FASE OXIDATIVA 1) Glicose 6- P + NADP+ →Glicono δ-lactona 6-P + NADPH 2) Glicono δ-lactona 6-P + H2O →6-Fosfogliconato + H+ 3) 6-Fosfogliconato + NADP+ →Ribulose 5-P + NADPH + CO2 4) Ribulose 5-P →Ribose 5...
+slide-46: Combate a patógenos
+slide-47: Via das Pentoses Fosfato: Fase Oxidativa Glicose 6 P + 2 NADP+ + H2O Ribose 5 P + CO2 + 2 NADPH + 2H+ Nucleotídeos Coenzimas DNA RNA
+slide-48: Via das Pentoses glicose 6 P + 2 NADP+ + H2O ribose 5 P + CO2 + 2 NADPH + 2 H+ 6 glicose 6 P + 12 NADP+ + 6 H2O 6 ribose 5 P + 6 CO2 + 12 NADPH + 12 H+ 5 glicoses 6 P C6H12O6 + 12 NADP+ + 6 H2O →6 CO2 + 12 NADPH + 12 H+
+slide-49: Via das Pentoses – Fase Não-Oxidativa Transcetolase: Transfere 2C de uma cetose para uma aldose Transaldolase: Transfere 3C de uma cetose para uma aldose Isomerase Epimerase
+slide-50: VIA DAS PENTOSES-FOSFATO FASE NÃO OXIDATIVA Regeneração da Pentose fosforilada em intermediários , ou em intermediários da via glicolítica. Transdolases e Transcetolases são as enzimas que catalisam estes processos.
+slide-51: REGULAÇÃO DA VIA DAS PENTOSES Glicono δ-lactona 6-fosfato 6-Fosfogliconato Ribulose 5-fosfato CO2 Gliceraldeído 3-fosfato Ribose 5-fosfato NADP+ Glicose 6 fosfato desidrogenase NADP+ NADPH Glicose Glicose 6-fosfato Gliceraldeído 3-fosfato Frutose 1,6...
+slide-52: Glicose Glicose 6-fosfato Glicono δ-lactona 6-fosfato 6-Fosfogliconato Ribulose 5-fosfato Gliceraldeído 3-fosfato CO2 Gliceraldeído 3-fosfato Ribose 5-fosfato NADPH NADP+ Glicose 6 fosfato desidrogenase NADP+ NADPH 6 Fosfogliconato desidrogenase Lact...
+slide-53: REGULAÇÃO DA VIA DAS PENTOSES Qual o destino da glicose 6-fosfato (glicólise ou via das pentoses) quando a razão: a) NADPH/NADP+ estiver alta. b) ATP/ADP estiver baixa. c) ATP/ADP estiver alta.
+slide-54: Regulação Glicose-6-fosfato desidrogenase é o passo controlador da velocidade da enzima nesta via. A Glicose-6-fosfato desidrogenase é estimulada alostericamente por NADP+ e fortemente inibida por NADPH. A razão NADPH:NADP+ é o mecanismo primário da ...
+slide-55: https://lume-re-demonstracao.ufrgs.br/estudo-pentoses/index.html
+slide-56: https://eaulas.usp.br/portal/video.action?idItem=20900 https://eaulas.usp.br/portal/video.action?idItem=21329 https://eaulas.usp.br/portal/video.action?idItem=21660

@@ -72,6 +72,12 @@ Match "forte" da aula só quando a maioria dos subtópicos está em 2–3 **e** 
 
 **R16c — Dois pipelines visuais, ambos com gate (canon 2026-07-15).** Escrever `visual_task` antes de procurar a figura e escolher explicitamente: **Image Occlusion** quando a própria imagem é a pergunta de reconhecimento/localização; **imagem explicativa no Extra** quando ela reconstrói mecanismo, comparação ou relação depois do recall textual. IO inicial fica em geral com 2–4 alvos nucleares por prancha; nunca mascarar todos os rótulos só porque existem. Antes de liberar: conferir preview, vazamento da resposta, crop/legibilidade, duplicatas de rótulo e registrar arquivo, fonte, crédito/licença, modificações e hash. `visual_need=required` sem ativo aprovado fica suspenso. Evidência: mutirão de 2026-07-15 encontrou 87 perguntas em 10 pranchas de anatomia e imagens genéricas repetidas; seleção semântica reduziu as pranchas a 31 alvos ativos e o manifesto visual automatizado passou a bloquear ausência de preview/proveniência. Procedimento completo em `flashcards/GUIA-IMAGENS-CARDS-NEBLI.md`.
 
+**R16d — Contrato visual por card (canon 2026-07-17).** Em lote novo, a decisão visual deixa de ser comentário manual: cada card declara `visual_need`, `image_role`, `visual_task`, `image_status`, `card_mode` e `placement`. O gate bloqueia imagem decorativa, figura sem proveniência/preview e `required` não aprovado. Para **identificar ou localizar uma estrutura**, a figura é a frente e o modo é `image_occlusion` (com alvo, rótulos duplicados mascarados e preview); para **explicar mecanismo, comparação ou relação**, a figura fica no `Extra` depois do recall textual. A pergunta visual só é permitida se o reconhecimento estiver ancorado na E1.
+
+**R16e — E1→card→E2 verificável (canon 2026-07-17).** Todo JSON novo com `pipeline_contract: e1-e2-v1` é bloqueado por `scripts/e1_e2_contract.py` se faltar: (1) citação literal `e1_anchor.quote`, (2) trilha da redação e consulta externa anti-cópia, (3) atestado de atomicidade/indução/precisão, (4) decisão visual, ou (5) destino de cada alvo extraído da E2. Candidato ANCORÁVEL entra em `scripts/e1_card_loop.py`, que escreve patch editorial revisável; não se altera a E1 silenciosamente. `build_card.py --canonical` aplica o gate antes de tocar no Anki.
+
+**R16f — Plano visual por objetivo da aula (canon 2026-07-17).** A decisão visual não pode nascer depois de escrever o card. Entre checklist E1+E2 e geração, cada `concept_id` recebe em `plano-visual-<slug>.json` uma estratégia: `io_required`, `extra_recommended`, `optional` ou `none`, com objetivo visual e justificativa. Reconhecimento/localização pede IO; mecanismo, fluxo e comparação podem pedir esquema no Extra; conceito estritamente verbal pode ficar sem figura por decisão explícita. O contrato canônico liga cada card a `visual_plan_id` e bloqueia contradições: não se usa figura decorativa onde o plano diz `none`, nem cloze comum como substituto do IO que o objetivo exige.
+
 **R17 — Histologia exige par visual + conceito (canon 2026-07-14).** Para estrutura histológica, deck completo tem dois cards quando cabível: (a) identificação visual em corte/micrografia, preferencialmente IO; (b) função/origem/relação em cloze normal com imagem no Extra. Se Histology/LLU não trouxerem a estrutura, criar IO próprio sobre micrografia com `io_manual_from_image.py` (ex.: corpúsculo de Hassall no timo) e um cloze conceitual ancorado na E1. Saber a estrutura no corte é parte do conteúdo, não ilustração opcional.
 
 **R18 — Construção longitudinal Step 1 + residência HC desde o ciclo básico (canon 2026-07-14, pedido do Davi).** Cada deck-aula passa a construir três camadas sem virar três currículos nem duplicar cards: **(1) Faculdade define O QUE entra** — conteúdo da aula/E1 e da prova local; **(2) Step 1 define a profundidade do MESMO mecanismo** — causa, fisiopatologia, predição, gráfico/lab, genética, mecanismo de ação e reconhecimento visual; **(3) residência HC fornece uma ponte clínica pequena e estável** — estrutura/alteração → mecanismo → achado discriminante. No ciclo básico entram mecanismo, localização, sinal/lab esperado e morfologia funcional; ficam FORA conduta, dose, guideline, rastreamento, staging, técnica operatória e qualquer conteúdo que dependa do internato/Step 2.
@@ -203,6 +209,21 @@ Substitui a "busca keyword-first" como Camada 1 padrão quando o **Anki está vi
 ---
 
 ## NEBLIcards — cards autorais para lacunas (canônico 2026-07-11)
+
+### Rótulo temático neutro — gate hard (canônico 2026-07-17)
+
+Todo card novo, de qualquer disciplina, começa com um rótulo em negrito de uma ou duas palavras, seguido de ponto: `<b>Bioquímica.</b>`, `<b>Anatomia.</b>`, `<b>Sistema digestório.</b>`, `<b>Etimologia.</b>`. O rótulo situa o card no universo médico quando o estoque crescer, mas **não pode conter a resposta, um sinônimo dela nem uma pista do cloze**. `build_card.py` injeta/valida o rótulo e `lint_neblicard.py` bloqueia ausência, excesso de palavras ou sobreposição com a resposta.
+
+### Recuperação conjunta seletiva (canônico 2026-07-17)
+
+Quando duas ou três lacunas constituem um único contraste ou conjunto inseparável, elas usam o **mesmo índice `c1`**, produzindo um único card que exige recuperar o conjunto inteiro. Ex.: `-tomia`, `-ectomia` e `-stomia`. Usar `c1/c2` nesse caso cria cartões em que a resposta visível entrega a irmã. Fatos independentes continuam separados; a fusão só vale quando reduz redundância sem perder uma unidade conceitual.
+
+### Limites de redação (canônico 2026-07-17)
+
+- Cloze: uma palavra como padrão, duas quando necessário, três somente em exceção real; mais de três é rejeição automática.
+- Extra: geralmente até 25 palavras; pode chegar a 40 para definir termo novo, dar exemplo, decompor a palavra ou fixar o limite clínico.
+- Todo cloze, inclusive antes de ser revelado, fica envolto em negrito (`<b>{{c1::...}}</b>`). É regra canônica: `build_card.py` e `lint_neblicard.py` bloqueiam qualquer card novo que a viole.
+- Raiz transparente não merece card só por existir. Entra apenas se for produtiva, confundível ou se o Extra conectar uma composição menos óbvia.
 
 > Pesquisa completa (500 cards do AnKing dissecados + SuperMemo/Matuschak/Nielsen + repos de IA) em `flashcards/PESQUISA-BOM-CARD.md`. Esta seção é o essencial operacional.
 

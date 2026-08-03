@@ -1,0 +1,63 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# AJUSTAR: complete os <EN?>, funda/remova conceitos redundantes,
+# e acrescente subtopico que a E1 ensina mas nao marcou como termo-nota.
+# PARTE I — O que a via entrega e por que ela existe
+1.1	ribose-5-fosfato	ribose-5-fosfato|<EN?>
+1.2	biossíntese redutora	biossíntese redutora|<EN?>
+1.3	G6P — glicose-6-fosfato	G6P|<EN?>
+1.4	ATP — adenosina trifosfato	ATP|adenosina trifosfato
+1.5	NADPH — nicotinamida adenina dinucleotídeo fosfato reduzido	NADPH|<EN?>
+1.6	DNA — ácido desoxirribonucleico	DNA|<EN?>
+1.7	RNA — ácido ribonucleico	RNA|<EN?>
+1.8	NAD — nicotinamida adenina dinucleotídeo	NAD|<EN?>
+1.9	FAD — flavina adenina dinucleotídeo	FAD|<EN?>
+1.10	CoA — coenzima A	CoA|coenzima A
+1.11	NADH — nicotinamida adenina dinucleotídeo reduzido	NADH|<EN?>
+1.12	NADP — nicotinamida adenina dinucleotídeo fosfato oxidado	NADP|<EN?>
+# PARTE II — Como a via funciona por dentro
+2.1	transcetolase	transcetolase|<EN?>
+2.2	transaldolase	transaldolase|<EN?>
+2.3	inibição por produto	inibição por produto|<EN?>
+2.4	G6PD — glicose-6-fosfato desidrogenase	G6PD|<EN?>
+2.5	CO2 — dióxido de carbono	CO2|<EN?>
+2.6	F6P — frutose-6-fosfato	F6P|<EN?>
+2.7	G3P — gliceraldeído-3-fosfato	G3P|<EN?>
+# PARTE III — NADPH contra os radicais livres
+3.1	superóxido	superóxido|<EN?>
+3.2	corpos de Heinz	corpos de Heinz|<EN?>
+3.3	deficiência de G6PD	deficiência de G6PD|<EN?>
+3.4	ERO — espécies reativas de oxigênio	ERO|<EN?>
+3.5	GSH — glutationa reduzida	GSH|glutationa reduzida
+3.6	GSSG — glutationa oxidada	GSSG|glutationa oxidada
+# E2 — alvos avaliados; cada um exige card, escopo justificado ou retorno à E1
+E2.1	Sobre a função da via das pentoses-fosfato no metabolismo celular, é correto afirmar:	Sobre função pentoses|<EN?>
+E2.2	Os dois produtos característicos da via das pentoses-fosfato são:	dois produtos característicos|<EN?>
+E2.3	Julgue os itens sobre as características gerais da via das pentoses-fosfato:	Julgue itens sobre|<EN?>
+E2.4	A diferença funcional entre NADPH e NADH no metabolismo é que:	diferença funcional entre|<EN?>
+E2.5	O saldo direto da fase oxidativa da via, para cada glicose-6-fosfato que entra, é:	saldo direto fase|<EN?>
+E2.6	Julgue os itens sobre as duas fases da via das pentoses-fosfato:	Julgue itens sobre|<EN?>
+E2.7	Sobre a fase oxidativa da via, assinale a alternativa incorreta:	Sobre fase oxidativa|<EN?>
+E2.8	O principal mecanismo de regulação da velocidade da via das pentoses-fosfato é:	principal mecanismo regulação|<EN?>
+E2.9	Julgue os itens sobre o NADPH e o controle da via:	Julgue itens sobre|<EN?>
+E2.10	A via das pentoses-fosfato é particularmente ativa em:	pentoses fosfato particularmente|<EN?>
+E2.11	A fase não-oxidativa conecta a via das pentoses à glicólise porque:	fase oxidativa conecta|<EN?>
+E2.12	Uma célula em divisão intensa precisa de ribose, mas não de NADPH extra. Julgue:	célula divisão intensa|<EN?>
+E2.13	Um hepatócito no estado alimentado, sintetizando ácidos graxos ativamente, tende a:	hepatócito estado alimentado|<EN?>
+E2.14	O único CO#sub[2] liberado pela via das pentoses-fosfato provém da:	único liberado pela|<EN?>
+E2.15	Uma hemácia sob estresse oxidativo intenso consome NADPH rapidamente. Julgue:	hemácia estresse oxidativo|<EN?>
+E2.16	A ligação entre a via das pentoses e a defesa antioxidante se dá porque:	ligação entre pentoses|<EN?>
+E2.17	A hemácia é a célula mais vulnerável à falta de NADPH porque:	hemácia célula mais|<EN?>
+E2.18	Julgue os itens sobre as espécies reativas de oxigênio e sua origem:	Julgue itens sobre|<EN?>
+E2.19	Comparando as duas fases da via, assinale a afirmação incorreta:	Comparando duas fases|<EN?>
+E2.20	A ribose-5-fosfato produzida pela via é indispensável porque:	ribose fosfato produzida|<EN?>
+E2.21	Julgue os itens sobre a deficiência de G6PD:	Julgue itens sobre|<EN?>
+E2.22	Quando o NADPH falta na hemácia, a hemoglobina:	Quando NADPH falta|<EN?>
+E2.23	A alta frequência da deficiência de G6PD em regiões de malária endêmica explica-se porque:	alta frequência deficiência|<EN?>
+E2.24	Julgue os itens sobre NADPH e NADH:	Julgue itens sobre|<EN?>
+E2.25	Sobre a G6PD como passo controlador da via, assinale a afirmação incorreta:	Sobre como passo|<EN?>
+E2.26	Um menino de 6 anos, previamente hígido, apresenta urina escura e palidez dois dias após comer favas. O mecanismo mais provável é:	menino anos previamente|<EN?>
+E2.27	Um paciente com deficiência de G6PD inicia primaquina para tratar malária. Julgue:	paciente deficiência inicia|<EN?>
+E2.28	Em um adipócito ativamente sintetizando triglicerídeos após uma refeição rica em carboidratos, espera-se:	adipócito ativamente sintetizando|<EN?>
+E2.29	Uma paciente desenvolve anemia hemolítica após um quadro infeccioso tratado com sulfa. O esfregaço mostra corpos de Heinz nas hemácias, e a investigação aponta baixa atividade de uma enzima eritrocitária. Sobre o mecanismo:	paciente desenvolve anemia|<EN?>
+E2.30	Ainda sobre a paciente com deficiência de G6PD e corpos de Heinz, julgue:	Ainda sobre paciente|<EN?>

@@ -1,0 +1,25 @@
+{
+  "lexicon_entries": 618,
+  "notes_candidates": 618,
+  "anki_cards_candidates": 658,
+  "pilot_notes": 114,
+  "pilot_anki_cards": 120,
+  "by_type": {
+    "prefixo": 80,
+    "sufixo": 76,
+    "raiz": 320,
+    "fundamento": 20,
+    "contraste": 40,
+    "transferencia": 82
+  },
+  "by_level": {
+    "nucleo": 536,
+    "extensao": 82
+  },
+  "by_destination": {
+    "card_proprio": 578,
+    "cloze_irmao": 40
+  },
+  "important_without_destination": [],
+  "source_sha256": "5d098f25d8754899c7f6f5092e64095aab4805464239490e594f2cd3cdf91d8d"
+}

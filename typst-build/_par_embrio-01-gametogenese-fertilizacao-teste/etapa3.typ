@@ -1,0 +1,11 @@
+#import "../../typst-template/nebli_v2_apostila.typ": *
+
+#discursiva("Q1", [Explique por que o ovócito liberado na ovulação não é o produto final da meiose feminina.], [O ovócito primário completa a meiose I pouco antes da ovulação e gera, de modo assimétrico, um ovócito secundário e o primeiro corpúsculo polar. O ovócito secundário inicia a meiose II, mas fica parado em metáfase II. A entrada do espermatozoide e a elevação de cálcio permitem concluir essa divisão e eliminar o segundo corpúsculo polar.])
+
+#discursiva("Q2", [Conecte capacitação, reação acrossômica e fusão dos gametas em uma sequência causal.], [Capacitação modifica membrana, íons e metabolismo do espermatozoide no trato feminino, tornando-o competente para responder à zona pelúcida. O contato adequado com a zona desencadeia reação acrossômica, que reorganiza membranas e libera conteúdo que ajuda na travessia localizada da matriz. Depois de cruzar a zona, o espermatozoide pode fundir sua membrana à do ovócito.])
+
+#discursiva("Q3", [Explique como a reação cortical evita polispermia e por que isso é necessário.], [A fusão do primeiro espermatozoide eleva Ca²⁺ no ovócito e desencadeia exocitose dos grânulos corticais. Seu conteúdo modifica a zona pelúcida, reduzindo ligação e penetração de espermatozoides adicionais. Isso preserva um único conjunto haploide materno e um paterno; múltiplas entradas desorganizariam fusos e segregação cromossômica.])
+
+#discursiva("Q4", [Explique por que clivagem pode aumentar o número de células sem aumentar muito o tamanho do embrião.], [Nas clivagens iniciais, o citoplasma e as organelas do zigoto são repartidos repetidamente em blastômeros menores, sem fase de crescimento proporcional entre as mitoses. A zona pelúcida ainda envolve o conjunto, de modo que muitas células passam a ocupar volume semelhante ao do zigoto original.])
+
+#discursiva("Q5", [Descreva como compactação e cavitação produzem as principais populações do blastocisto.], [Na compactação, blastômeros aumentam adesão e as células externas tornam-se polarizadas, enquanto células internas perdem contato direto com o exterior. As externas transportam íons e água, criando a blastocele. A população interna forma a massa celular interna, ligada ao embrião propriamente dito; a externa forma o trofoectoderma, ligado à implantação e à porção fetal da placenta.])

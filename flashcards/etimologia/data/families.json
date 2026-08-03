@@ -1,0 +1,242 @@
+[
+  {
+    "id": "etim-v2-con-001-hiperplasia-hipertrofia",
+    "familia": "hiperplasia × hipertrofia",
+    "contraste": "número celular × tamanho celular",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-002-tomia-ectomia",
+    "familia": "-tomia × -ectomia",
+    "contraste": "incisão × remoção cirúrgica",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-003-stomia-tomia",
+    "familia": "-stomia × -tomia",
+    "contraste": "abertura cirúrgica × incisão",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-004-grafia-grama",
+    "familia": "-grafia × -grama",
+    "contraste": "processo de registro × registro produzido",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-005-metro-metria",
+    "familia": "-metro × -metria",
+    "contraste": "instrumento × medição",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-006-aferente-eferente",
+    "familia": "aferente × eferente",
+    "contraste": "em direção ao SNC × para fora do SNC",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-007-hipoxia-hipoxemia",
+    "familia": "hipóxia × hipoxemia",
+    "contraste": "tecido × sangue",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-008-trombo-embolo",
+    "familia": "trombo × êmbolo",
+    "contraste": "local × migrante",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-009-isquemia-infarto",
+    "familia": "isquemia × infarto",
+    "contraste": "fluxo reduzido × necrose",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-010-paresia-plegia",
+    "familia": "paresia × plegia",
+    "contraste": "fraqueza × paralisia",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-011-analgesia-anestesia",
+    "familia": "analgesia × anestesia",
+    "contraste": "dor × sensibilidade",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-012-disfagia-odinofagia",
+    "familia": "disfagia × odinofagia",
+    "contraste": "deglutição difícil × deglutição dolorosa",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-013-hematemese-hemoptise",
+    "familia": "hematêmese × hemoptise",
+    "contraste": "vômito × tosse",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-014-melena-hematoquezia",
+    "familia": "melena × hematoquezia",
+    "contraste": "fezes negras × sangue vivo",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-015-oliguria-anuria",
+    "familia": "oligúria × anúria",
+    "contraste": "pouca urina × urina ausente",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-016-proteinuria-albuminuria",
+    "familia": "proteinúria × albuminúria",
+    "contraste": "proteína × albumina",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-017-nefr-o-ren-o",
+    "familia": "nefr/o × ren/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-018-odont-o-dent-o",
+    "familia": "odont/o × dent/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-019-gloss-o-lingu-o",
+    "familia": "gloss/o × lingu/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-020-derm-o-cutane-o",
+    "familia": "derm/o × cutane/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-021-ophthalm-o-ocul-o",
+    "familia": "ophthalm/o × ocul/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-022-phleb-o-ven-o",
+    "familia": "phleb/o × ven/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-023-hyster-o-uter-o",
+    "familia": "hyster/o × uter/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-024-oophor-o-ovari-o",
+    "familia": "oophor/o × ovari/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-025-orch-o-testicul-o",
+    "familia": "orch/o × testicul/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-026-mast-o-mamm-o",
+    "familia": "mast/o × mamm/o",
+    "contraste": "grego × latim",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-027-absorcao-adsorcao",
+    "familia": "absorção × adsorção",
+    "contraste": "entrada × superfície",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-028-secrecao-excrecao",
+    "familia": "secreção × excreção",
+    "contraste": "liberação × eliminação",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-029-endocitose-exocitose",
+    "familia": "endocitose × exocitose",
+    "contraste": "entrada vesicular × saída vesicular",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-030-apoptose-necrose",
+    "familia": "apoptose × necrose",
+    "contraste": "programada × lesiva",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-031-potencia-eficacia",
+    "familia": "potência × eficácia",
+    "contraste": "dose × efeito máximo",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-032-farmacocinetica-farmacodinamica",
+    "familia": "farmacocinética × farmacodinâmica",
+    "contraste": "corpo no fármaco × fármaco no corpo",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-033-mosaico-quimera",
+    "familia": "mosaico × quimera",
+    "contraste": "um zigoto × zigotos distintos",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-034-penetrancia-expressividade",
+    "familia": "penetrância × expressividade",
+    "contraste": "presença fenotípica × intensidade fenotípica",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-035-sinal-sintoma",
+    "familia": "sinal × sintoma",
+    "contraste": "observável × relatado",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-036-ortopneia-platipneia",
+    "familia": "ortopneia × platipneia",
+    "contraste": "deitado × em pé",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-037-parestesia-disestesia",
+    "familia": "parestesia × disestesia",
+    "contraste": "sensação anormal × sensação desagradável",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-038-infeccao-colonizacao",
+    "familia": "infecção × colonização",
+    "contraste": "invasão × presença",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-039-bacteremia-sepse",
+    "familia": "bacteremia × sepse",
+    "contraste": "bactérias no sangue × disfunção orgânica",
+    "destino": "cloze_irmao"
+  },
+  {
+    "id": "etim-v2-con-040-estenose-atresia",
+    "familia": "estenose × atresia",
+    "contraste": "estreitamento × oclusão congênita",
+    "destino": "cloze_irmao"
+  }
+]

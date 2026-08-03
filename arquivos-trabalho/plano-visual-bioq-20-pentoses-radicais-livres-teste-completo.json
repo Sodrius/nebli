@@ -1,0 +1,216 @@
+{
+  "visual_plan_version": "v1",
+  "slug": "bioq-20-pentoses-radicais-livres-teste-completo",
+  "concepts": [
+    {
+      "concept_id": "g6p_fates",
+      "importance": "nuclear",
+      "learning_goal": "Relacionar a saída da G6P à finalidade metabólica.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Relacionar a saída da G6P à finalidade metabólica.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "ppp_products",
+      "importance": "nuclear",
+      "learning_goal": "Recuperar os dois produtos que justificam a via.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Recuperar os dois produtos que justificam a via.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "nadph_role",
+      "importance": "nuclear",
+      "learning_goal": "Separar os pools redutores de construção e de energia.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Separar os pools redutores de construção e de energia.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "ribose_role",
+      "importance": "nuclear",
+      "learning_goal": "Vincular ribose-5-P à síntese de nucleotídeos.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Vincular ribose-5-P à síntese de nucleotídeos.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "rbc_dependency",
+      "importance": "nuclear",
+      "learning_goal": "Explicar a dependência eritrocitária de NADPH.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Explicar a dependência eritrocitária de NADPH.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "oxidative_phase",
+      "importance": "nuclear",
+      "learning_goal": "Distinguir as duas fases pelo produto e reversibilidade.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Distinguir as duas fases pelo produto e reversibilidade.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "g6pd_control",
+      "importance": "nuclear",
+      "learning_goal": "Identificar a enzima que abre e controla a via.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Identificar a enzima que abre e controla a via.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "oxidative_yield",
+      "importance": "nuclear",
+      "learning_goal": "Fixar o saldo da fase oxidativa.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Fixar o saldo da fase oxidativa.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "co2_source",
+      "importance": "nuclear",
+      "learning_goal": "Localizar a descarboxilação da via.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Localizar a descarboxilação da via.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "nonoxidative_enzymes",
+      "importance": "nuclear",
+      "learning_goal": "Distinguir as enzimas que rearranjam carbonos.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Distinguir as enzimas que rearranjam carbonos.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "transketolase_units",
+      "importance": "nuclear",
+      "learning_goal": "Diferenciar blocos transferidos pelas duas enzimas.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Diferenciar blocos transferidos pelas duas enzimas.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "glycolytic_link",
+      "importance": "nuclear",
+      "learning_goal": "Conectar a fase não oxidativa à glicólise.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Conectar a fase não oxidativa à glicólise.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "ribose_only",
+      "importance": "nuclear",
+      "learning_goal": "Selecionar o ramo para demanda isolada de ribose.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Selecionar o ramo para demanda isolada de ribose.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "nadph_max",
+      "importance": "nuclear",
+      "learning_goal": "Selecionar o fluxo quando a demanda de NADPH predomina.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Selecionar o fluxo quando a demanda de NADPH predomina.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "nadph_atp",
+      "importance": "nuclear",
+      "learning_goal": "Prever o destino do carbono quando NADPH e ATP são pedidos.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Prever o destino do carbono quando NADPH e ATP são pedidos.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "g6pd_regulation",
+      "importance": "nuclear",
+      "learning_goal": "Usar a razão redox para prever o fluxo da via.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Usar a razão redox para prever o fluxo da via.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "gsh_regeneration",
+      "importance": "nuclear",
+      "learning_goal": "Ligar NADPH à recarga da defesa antioxidante.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Ligar NADPH à recarga da defesa antioxidante.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "gpx_function",
+      "importance": "nuclear",
+      "learning_goal": "Ligar glutationa reduzida à neutralização de peróxido.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Ligar glutationa reduzida à neutralização de peróxido.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "heinz_bodies",
+      "importance": "nuclear",
+      "learning_goal": "Reconhecer a consequência molecular da falha antioxidante.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Reconhecer a consequência molecular da falha antioxidante.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "g6pd_triggers",
+      "importance": "nuclear",
+      "learning_goal": "Reconhecer o padrão de crise hemolítica desencadeada.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Reconhecer o padrão de crise hemolítica desencadeada.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    },
+    {
+      "concept_id": "g6pd_malaria",
+      "importance": "nuclear",
+      "learning_goal": "Conectar herança e vantagem seletiva da deficiência.",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "Conectar herança e vantagem seletiva da deficiência.",
+      "rationale": "O esquema do slide organiza o mecanismo após o recall textual.",
+      "needs_editorial_confirmation": false
+    }
+  ]
+}

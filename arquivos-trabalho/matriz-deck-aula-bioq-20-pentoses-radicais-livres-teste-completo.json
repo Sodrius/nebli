@@ -1,0 +1,559 @@
+{
+  "lesson_pipeline": "deck-aula-v1",
+  "deck": "NEBLI::TESTE_APAGAR::Bioquímica::Via das pentoses — completo",
+  "e1": {
+    "path": "../typst-build/_par_bioq-20-pentoses-radicais-livres-teste/etapa1.typ"
+  },
+  "e1_inventory": [
+    {
+      "id": "g6p_fates"
+    },
+    {
+      "id": "ppp_products"
+    },
+    {
+      "id": "nadph_role"
+    },
+    {
+      "id": "ribose_role"
+    },
+    {
+      "id": "rbc_dependency"
+    },
+    {
+      "id": "oxidative_phase"
+    },
+    {
+      "id": "g6pd_control"
+    },
+    {
+      "id": "oxidative_yield"
+    },
+    {
+      "id": "co2_source"
+    },
+    {
+      "id": "nonoxidative_enzymes"
+    },
+    {
+      "id": "transketolase_units"
+    },
+    {
+      "id": "glycolytic_link"
+    },
+    {
+      "id": "ribose_only"
+    },
+    {
+      "id": "nadph_max"
+    },
+    {
+      "id": "nadph_atp"
+    },
+    {
+      "id": "g6pd_regulation"
+    },
+    {
+      "id": "gsh_regeneration"
+    },
+    {
+      "id": "gpx_function"
+    },
+    {
+      "id": "heinz_bodies"
+    },
+    {
+      "id": "g6pd_triggers"
+    },
+    {
+      "id": "g6pd_malaria"
+    }
+  ],
+  "facts": [
+    {
+      "id": "g6p_fates",
+      "e1_anchor": "Há três caminhos possíveis",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "G6P can be used for storage, glycolysis, or the {{c1::pentose phosphate pathway}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "ppp_products",
+      "e1_anchor": "dois produtos que ela coloca na mesa",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "This metabolic route supplies NADPH and {{c1::ribose-5-phosphate}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "nadph_role",
+      "e1_anchor": "doa elétrons para as reações de construção",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "NADH supports ATP production; {{c1::NADPH}} supplies reductive biosynthesis and antioxidant defense."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "ribose_role",
+      "e1_anchor": "forma o esqueleto dos nucleotídeos",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Ribose-5-phosphate provides the sugar scaffold for {{c1::nucleotides}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "rbc_dependency",
+      "e1_anchor": "única fonte de poder redutor",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "In red blood cells, the only source of NADPH is the {{c1::pentose phosphate pathway}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "oxidative_phase",
+      "e1_anchor": "fase oxidativa",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "The {{c1::oxidative}} phase is irreversible and yields NADPH, CO2, and pentose."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "g6pd_control",
+      "e1_anchor": "a enzima que abre a via das pentoses e controla sua velocidade",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "The rate-limiting first enzyme of the pentose phosphate pathway is {{c1::G6PD}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "oxidative_yield",
+      "e1_anchor": "2 NADPH",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Each glucose-6-phosphate entering oxidative PPP yields {{c1::2 NADPH}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "co2_source",
+      "e1_anchor": "na descarboxilação da terceira reação",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "PPP CO2 is released by {{c1::6-phosphogluconate dehydrogenase}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "nonoxidative_enzymes",
+      "e1_anchor": "transcetolase",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Non-oxidative PPP rearrangement uses {{c1::transketolase and transaldolase}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "transketolase_units",
+      "e1_anchor": "transfere blocos de dois carbonos",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Transketolase transfers {{c1::two-carbon}} units between sugars."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "glycolytic_link",
+      "e1_anchor": "intermediários da glicólise",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "The reversible non-oxidative phase links PPP to glycolysis via {{c1::F6P and G3P}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "ribose_only",
+      "e1_anchor": "precisa só de ribose",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "A dividing cell needing ribose but little NADPH runs the {{c1::non-oxidative phase}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "nadph_max",
+      "e1_anchor": "muito NADPH e pouca ribose",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Lipogenic tissue recycles excess pentoses through the {{c1::non-oxidative phase}} to maximize NADPH output."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "nadph_atp",
+      "e1_anchor": "precisa de NADPH e de ATP",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "When NADPH and ATP are both required, resulting G3P enters {{c1::glycolysis}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "g6pd_regulation",
+      "e1_anchor": "é ativada pelo NADP+ e inibida pelo NADPH",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "A high NADPH/NADP+ ratio {{c1::inhibits G6PD}}."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "gsh_regeneration",
+      "e1_anchor": "glutationa",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Glutathione reductase uses NADPH to regenerate {{c1::GSH}} from GSSG."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "gpx_function",
+      "e1_anchor": "peróxido",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Glutathione peroxidase neutralizes H2O2 by oxidizing {{c1::GSH}} to GSSG."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "heinz_bodies",
+      "e1_anchor": "corpos de Heinz",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Oxidative stress in G6PD deficiency can form {{c1::Heinz bodies}} after hemoglobin denatures."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "g6pd_triggers",
+      "e1_anchor": "A crise exige um oxidante",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Primaquine, sulfonamides, infection, and fava beans can trigger {{c1::hemolysis}} in G6PD deficiency."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "g6pd_malaria",
+      "e1_anchor": "malária",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "G6PD deficiency is {{c1::X-linked}} and offers partial protection against falciparum malaria."
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    }
+  ],
+  "e1_enrichments": [
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "Há três caminhos possíveis"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "dois produtos que ela coloca na mesa"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "doa elétrons para as reações de construção"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "forma o esqueleto dos nucleotídeos"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "única fonte de poder redutor"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "fase oxidativa"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "a enzima que abre a via das pentoses e controla sua velocidade"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "2 NADPH"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "na descarboxilação da terceira reação"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "transcetolase"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "transfere blocos de dois carbonos"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "intermediários da glicólise"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "precisa só de ribose"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "muito NADPH e pouca ribose"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "precisa de NADPH e de ATP"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "é ativada pelo NADP+ e inibida pelo NADPH"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "glutationa"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "peróxido"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "corpos de Heinz"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "A crise exige um oxidante"
+    },
+    {
+      "source_ref": "slides da aula",
+      "importance": "nuclear",
+      "decision": "incorporated",
+      "e1_anchor": "malária"
+    }
+  ]
+}

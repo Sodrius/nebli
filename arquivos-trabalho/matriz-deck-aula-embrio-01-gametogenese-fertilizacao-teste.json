@@ -1,0 +1,439 @@
+{
+  "lesson_pipeline": "deck-aula-v1",
+  "deck": "NEBLI::TESTE_APAGAR::Embriologia I — Gametogênese e fertilização",
+  "e1": {
+    "path": "../typst-build/_par_embrio-01-gametogenese-fertilizacao-teste/etapa1.typ"
+  },
+  "e1_inventory": [
+    {
+      "id": "pgc"
+    },
+    {
+      "id": "oocyte_arrest"
+    },
+    {
+      "id": "spermiogenesis"
+    },
+    {
+      "id": "capacitation"
+    },
+    {
+      "id": "zona"
+    },
+    {
+      "id": "acrosome"
+    },
+    {
+      "id": "cortical"
+    },
+    {
+      "id": "polyspermy"
+    },
+    {
+      "id": "pronuclei"
+    },
+    {
+      "id": "cleavage"
+    },
+    {
+      "id": "compaction"
+    },
+    {
+      "id": "blastocyst"
+    },
+    {
+      "id": "hatching"
+    },
+    {
+      "id": "sertoli_leydig"
+    },
+    {
+      "id": "blood_testis"
+    },
+    {
+      "id": "axis"
+    },
+    {
+      "id": "follicle"
+    },
+    {
+      "id": "aromatase"
+    },
+    {
+      "id": "ovulation"
+    },
+    {
+      "id": "corpus_luteum"
+    },
+    {
+      "id": "hcg"
+    },
+    {
+      "id": "anovulation"
+    },
+    {
+      "id": "pcos"
+    }
+  ],
+  "facts": [
+    {
+      "id": "pgc",
+      "e1_anchor": "células germinativas primordiais",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "Primordial germ cells migrate"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "oocyte_arrest",
+      "e1_anchor": "ovócito secundário",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "secondary oocyte arrested"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "spermiogenesis",
+      "e1_anchor": "espermiogênese",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "undergo spermiogenesis"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "capacitation",
+      "e1_anchor": "capacitação",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Capacitation makes sperm"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "zona",
+      "e1_anchor": "zona pelúcida",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "zona pellucida is the glycoprotein"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "acrosome",
+      "e1_anchor": "reação acrossômica",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "acrosome reaction exposes"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "cortical",
+      "e1_anchor": "grânulos corticais",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Cortical granules lie"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "polyspermy",
+      "e1_anchor": "polispermia",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Cortical granule exocytosis"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "pronuclei",
+      "e1_anchor": "pró-núcleo feminino",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Each human pronucleus"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "cleavage",
+      "e1_anchor": "clivagem",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Cleavage produces smaller"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "compaction",
+      "e1_anchor": "compactação",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Compaction creates"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "blastocyst",
+      "e1_anchor": "blastocele",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "fluid-filled cavity"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "hatching",
+      "e1_anchor": "eclosão",
+      "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": [
+          "Blastocyst hatching"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada",
+        "prior_search": {
+          "anking": "insufficient",
+          "other_decks": "insufficient"
+        }
+      }
+    },
+    {
+      "id": "sertoli_leydig",
+      "e1_anchor": "células de Sertoli",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "male gonads consist"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "blood_testis",
+      "e1_anchor": "barreira hematotesticular",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "Tight junctions"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "axis",
+      "e1_anchor": "GnRH pulsátil",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "pituitary hormone"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "follicle",
+      "e1_anchor": "folículo ovariano",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "functional unit of the ovaries"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "aromatase",
+      "e1_anchor": "aromatase",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "aromatase activity"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "ovulation",
+      "e1_anchor": "14 dias antes",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "days prior to menses"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "corpus_luteum",
+      "e1_anchor": "corpo lúteo",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "luteal phase"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "hcg",
+      "e1_anchor": "sinciciotrofoblasto",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "syncytiotrophoblasts"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "anovulation",
+      "e1_anchor": "ciclo anovulatório",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "Anovulatory cycle results"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    },
+    {
+      "id": "pcos",
+      "e1_anchor": "síndrome dos ovários policísticos",
+      "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": [
+          "Patients with PCOS"
+        ],
+        "coverage_quality": 2,
+        "coverage_rationale": "recupera o mecanismo ou a relação central da E1 ampliada"
+      }
+    }
+  ],
+  "e1_enrichments": [
+    {
+      "source_ref": "AnKing Step 1 curadoria ampliada",
+      "decision": "incorporated",
+      "importance": "nuclear",
+      "e1_anchor": "O testículo integra células germinativas"
+    },
+    {
+      "source_ref": "AnKing Step 1 curadoria ampliada",
+      "decision": "incorporated",
+      "importance": "nuclear",
+      "e1_anchor": "O folículo e o ciclo preparam"
+    },
+    {
+      "source_ref": "AnKing Step 1 curadoria ampliada",
+      "decision": "incorporated",
+      "importance": "nuclear",
+      "e1_anchor": "Implantação muda o controle hormonal"
+    }
+  ]
+}

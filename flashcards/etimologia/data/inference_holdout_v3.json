@@ -1,0 +1,3732 @@
+[
+  {
+    "id": "holdout-v3-001",
+    "term": "cardiomyopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "cardi"
+    ],
+    "estimated_surface_coverage": 0.714,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-002",
+    "term": "cardiomyocyte",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cardi",
+      "cyt"
+    ],
+    "estimated_surface_coverage": 0.615,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-003",
+    "term": "cardiothoracic",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "cardi"
+    ],
+    "estimated_surface_coverage": 0.357,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-004",
+    "term": "cardiogenic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cardi",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.727,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-005",
+    "term": "cardiomegaly",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "megaly",
+      "cardi"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-006",
+    "term": "carditis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "cardi"
+    ],
+    "estimated_surface_coverage": 0.625,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-007",
+    "term": "pancarditis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cardi",
+      "pan"
+    ],
+    "estimated_surface_coverage": 0.727,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-008",
+    "term": "myocarditis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "myocardi"
+    ],
+    "estimated_surface_coverage": 0.727,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-009",
+    "term": "endocarditis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "endocardi"
+    ],
+    "estimated_surface_coverage": 0.75,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-010",
+    "term": "pericarditis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pericardi"
+    ],
+    "estimated_surface_coverage": 0.75,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-011",
+    "term": "pericardiocentesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pericardio"
+    ],
+    "estimated_surface_coverage": 0.556,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-012",
+    "term": "valvulopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "valvul",
+      "pathy"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-013",
+    "term": "valvuloplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "valvul"
+    ],
+    "estimated_surface_coverage": 0.923,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-014",
+    "term": "aortography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "graphy",
+      "aort"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-015",
+    "term": "aortitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "aort",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-016",
+    "term": "arteriopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "arteri",
+      "pathy"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-017",
+    "term": "arteriography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "arteri",
+      "graphy"
+    ],
+    "estimated_surface_coverage": 0.923,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-018",
+    "term": "arteriotomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "arteri",
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-019",
+    "term": "arteriosclerosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "arteri",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.625,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-020",
+    "term": "atherogenesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.231,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-021",
+    "term": "atheroma",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "oma"
+    ],
+    "estimated_surface_coverage": 0.375,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-022",
+    "term": "angiopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "angi"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-023",
+    "term": "angiogenesis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "angi",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.583,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-024",
+    "term": "angioedema",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "angi"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-025",
+    "term": "angioplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "angi"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-026",
+    "term": "venography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "graphy",
+      "ven"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-027",
+    "term": "venipuncture",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "ven"
+    ],
+    "estimated_surface_coverage": 0.25,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-028",
+    "term": "phlebitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "phleb",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-029",
+    "term": "phlebectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "phleb"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-030",
+    "term": "thrombectomy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-031",
+    "term": "thrombogenesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.214,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-032",
+    "term": "thromboembolism",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "embol"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-033",
+    "term": "embolization",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "embol"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-034",
+    "term": "ischemic",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hemi"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-035",
+    "term": "vasculitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "itis",
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.7,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-036",
+    "term": "vasculopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-037",
+    "term": "vasodilation",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.25,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-038",
+    "term": "vasoconstriction",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "tric",
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.438,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-039",
+    "term": "vasospasm",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-040",
+    "term": "sphygmography",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "graphy"
+    ],
+    "estimated_surface_coverage": 0.462,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-041",
+    "term": "extravascular",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "extra",
+      "vas"
+    ],
+    "estimated_surface_coverage": 0.615,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-042",
+    "term": "rhinorrhea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "rhin"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-043",
+    "term": "rhinoplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "rhin"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-044",
+    "term": "rhinoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "scopy",
+      "rhin"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-045",
+    "term": "sinusitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "sinus",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-046",
+    "term": "pansinusitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "sinus",
+      "itis",
+      "pan"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-047",
+    "term": "nasopharyngeal",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pharyng",
+      "nas"
+    ],
+    "estimated_surface_coverage": 0.714,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-048",
+    "term": "oropharyngeal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pharyng"
+    ],
+    "estimated_surface_coverage": 0.538,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-049",
+    "term": "laryngoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "laryng",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-050",
+    "term": "laryngectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "laryng",
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-051",
+    "term": "laryngomalacia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "malacia",
+      "laryng"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-052",
+    "term": "tracheostomy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "stomy"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-053",
+    "term": "tracheotomy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.364,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-054",
+    "term": "tracheomalacia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "malacia"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-055",
+    "term": "tracheobronchial",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "bronc",
+      "hial"
+    ],
+    "estimated_surface_coverage": 0.562,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-056",
+    "term": "bronchiectasis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "bronc"
+    ],
+    "estimated_surface_coverage": 0.357,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-057",
+    "term": "bronchogenic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "bronc",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-058",
+    "term": "bronchoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "bronc",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-059",
+    "term": "bronchospasm",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "bronc"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-060",
+    "term": "bronchiolitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "bronchiol",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-061",
+    "term": "pneumonitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pneumon",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-062",
+    "term": "pneumonectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pneumon",
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-063",
+    "term": "pneumothorax",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pneum"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-064",
+    "term": "hemothorax",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hem"
+    ],
+    "estimated_surface_coverage": 0.3,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-065",
+    "term": "pleurodynia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pleur"
+    ],
+    "estimated_surface_coverage": 0.455,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-066",
+    "term": "pleuritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pleur",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-067",
+    "term": "pleurocentesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pleur"
+    ],
+    "estimated_surface_coverage": 0.357,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-068",
+    "term": "thoracotomy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.364,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-069",
+    "term": "thoracoscopy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-070",
+    "term": "mediastinitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "mediastin",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-071",
+    "term": "mediastinoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "mediastin",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.933,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-072",
+    "term": "alveolitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "alveol",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-073",
+    "term": "hypoxemia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "emia"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-074",
+    "term": "hypercapnia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "capnia"
+    ],
+    "estimated_surface_coverage": 0.545,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-075",
+    "term": "hypocapnia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "capnia"
+    ],
+    "estimated_surface_coverage": 0.6,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-076",
+    "term": "tachypnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-077",
+    "term": "bradypnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-078",
+    "term": "apnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.8,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-079",
+    "term": "dyspnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.571,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-080",
+    "term": "orthopnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-081",
+    "term": "platypnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-082",
+    "term": "trepopnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-083",
+    "term": "eupnea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pnea"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-084",
+    "term": "spirometry",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "metry",
+      "spir"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-085",
+    "term": "pneumoconiosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pneum",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.643,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-086",
+    "term": "endotracheal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "endo"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-087",
+    "term": "intrapulmonary",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pulmon",
+      "intra"
+    ],
+    "estimated_surface_coverage": 0.786,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-088",
+    "term": "extrapulmonary",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pulmon",
+      "extra"
+    ],
+    "estimated_surface_coverage": 0.786,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-089",
+    "term": "stomatitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "stomat",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-090",
+    "term": "stomatology",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "stomat"
+    ],
+    "estimated_surface_coverage": 0.545,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-091",
+    "term": "glossitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "gloss",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-092",
+    "term": "glossodynia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gloss"
+    ],
+    "estimated_surface_coverage": 0.455,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-093",
+    "term": "macroglossia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "gloss",
+      "macro"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-094",
+    "term": "ankyloglossia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gloss"
+    ],
+    "estimated_surface_coverage": 0.385,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-095",
+    "term": "sialadenitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "sial",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-096",
+    "term": "sialolithiasis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "sial",
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.571,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-097",
+    "term": "sialorrhea",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "sial"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-098",
+    "term": "odontogenic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "odont",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.727,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-099",
+    "term": "periodontitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "odont",
+      "peri",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-100",
+    "term": "endodontic",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "odont"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-101",
+    "term": "dentinogenesis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "dent",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-102",
+    "term": "dysphagia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "phagia"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-103",
+    "term": "odynophagia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "phagia"
+    ],
+    "estimated_surface_coverage": 0.545,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-104",
+    "term": "esophagitis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.364,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-105",
+    "term": "esophagoscopy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.385,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-106",
+    "term": "esophagectomy",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 0.462,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-107",
+    "term": "gastroenteritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "enter",
+      "gastr",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.933,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-108",
+    "term": "gastroparesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gastr"
+    ],
+    "estimated_surface_coverage": 0.385,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-109",
+    "term": "gastroduodenal",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "duoden",
+      "gastr"
+    ],
+    "estimated_surface_coverage": 0.786,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-110",
+    "term": "gastroscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "gastr",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-111",
+    "term": "gastrectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "gastr"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-112",
+    "term": "gastrostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "stomy",
+      "gastr"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-113",
+    "term": "gastroplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "gastr"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-114",
+    "term": "gastrorrhagia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "gastr"
+    ],
+    "estimated_surface_coverage": 0.385,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-115",
+    "term": "enteropathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "enter"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-116",
+    "term": "enterocolitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "enter",
+      "itis",
+      "col"
+    ],
+    "estimated_surface_coverage": 0.923,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-117",
+    "term": "duodenitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "duoden",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-118",
+    "term": "jejunitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "jejun",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-119",
+    "term": "ileitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "itis",
+      "ile"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-120",
+    "term": "ileostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "stomy",
+      "ileo"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-121",
+    "term": "appendicitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "appendic",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-122",
+    "term": "appendectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "pen"
+    ],
+    "estimated_surface_coverage": 0.75,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-123",
+    "term": "typhlitis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-124",
+    "term": "colitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "itis",
+      "col"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-125",
+    "term": "pancolitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "itis",
+      "col",
+      "pan"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-126",
+    "term": "colonoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "colon",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-127",
+    "term": "colectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "col"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-128",
+    "term": "colostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "stomy",
+      "col"
+    ],
+    "estimated_surface_coverage": 0.889,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-129",
+    "term": "proctitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "proct",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-130",
+    "term": "proctoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "proct",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-131",
+    "term": "rectocele",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cele",
+      "rect"
+    ],
+    "estimated_surface_coverage": 0.889,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-132",
+    "term": "anorectal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "rect"
+    ],
+    "estimated_surface_coverage": 0.444,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-133",
+    "term": "sigmoidectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "sigmoid",
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-134",
+    "term": "diverticulosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "diverticul",
+      "osis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-135",
+    "term": "diverticulitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "diverticul",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-136",
+    "term": "hepatomegaly",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "megaly",
+      "hepat"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-137",
+    "term": "hepatitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "hepat",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-138",
+    "term": "hepatopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "hepat"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-139",
+    "term": "hepatotoxicity",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "toxic",
+      "hepat"
+    ],
+    "estimated_surface_coverage": 0.714,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-140",
+    "term": "intrahepatic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "intra",
+      "hepat"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-141",
+    "term": "extrahepatic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "hepat",
+      "extra"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-142",
+    "term": "cholestasis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "chole"
+    ],
+    "estimated_surface_coverage": 0.455,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-143",
+    "term": "cholelithiasis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "chole",
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.643,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-144",
+    "term": "cholecystitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "chole",
+      "itis",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-145",
+    "term": "cholecystectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "chole",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-146",
+    "term": "cholangitis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "angi"
+    ],
+    "estimated_surface_coverage": 0.364,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-147",
+    "term": "cholangiography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "graphy",
+      "angi"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-148",
+    "term": "choledocholithiasis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "chole",
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.474,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-149",
+    "term": "pancreatitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pancreat",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-150",
+    "term": "pancreatectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pancreat",
+      "ectomy"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-151",
+    "term": "pancreatography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pancreat",
+      "graphy"
+    ],
+    "estimated_surface_coverage": 0.933,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-152",
+    "term": "peritonitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "peri",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.727,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-153",
+    "term": "omentectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "oment"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-154",
+    "term": "laparoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "lapar",
+      "scopy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-155",
+    "term": "laparotomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "lapar",
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-156",
+    "term": "abdominoplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "abdomin",
+      "plasty"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-157",
+    "term": "coprolalia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "copr"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-158",
+    "term": "hematemesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hemat"
+    ],
+    "estimated_surface_coverage": 0.455,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-159",
+    "term": "hematochezia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hemat"
+    ],
+    "estimated_surface_coverage": 0.417,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-160",
+    "term": "achlorhydria",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hydr"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-161",
+    "term": "hyperchlorhydria",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hydr"
+    ],
+    "estimated_surface_coverage": 0.25,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-162",
+    "term": "hyporexia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "orexia"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-163",
+    "term": "hyperorexia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "orexia"
+    ],
+    "estimated_surface_coverage": 0.545,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-164",
+    "term": "polyphagia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "phagia"
+    ],
+    "estimated_surface_coverage": 0.6,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-165",
+    "term": "nephritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-166",
+    "term": "nephrosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "osis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-167",
+    "term": "nephropathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "nephr"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-168",
+    "term": "nephrectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "nephr"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-169",
+    "term": "nephrotomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-170",
+    "term": "nephrostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "stomy"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-171",
+    "term": "nephrolithiasis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.6,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-172",
+    "term": "nephrocalcinosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "calc",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.812,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-173",
+    "term": "nephrotoxicity",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "toxic",
+      "nephr"
+    ],
+    "estimated_surface_coverage": 0.714,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-174",
+    "term": "glomerulitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "glomerul",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-175",
+    "term": "glomerulopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "glomerul",
+      "pathy"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-176",
+    "term": "glomerulosclerosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "glomerul",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-177",
+    "term": "pyelitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pyel",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-178",
+    "term": "pyelonephritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "pyel",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-179",
+    "term": "pyelography",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "graphy",
+      "pyel"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-180",
+    "term": "hydronephrosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "nephr",
+      "hydr",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-181",
+    "term": "hydroureter",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ureter",
+      "hydr"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-182",
+    "term": "ureteritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ureter",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-183",
+    "term": "ureterolithiasis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ureter",
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.625,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-184",
+    "term": "ureterostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ureter",
+      "stomy"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-185",
+    "term": "cystitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "itis",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-186",
+    "term": "cystoscopy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "scopy",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-187",
+    "term": "cystectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-188",
+    "term": "cystostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "stomy",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-189",
+    "term": "cystocele",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cele",
+      "cyst"
+    ],
+    "estimated_surface_coverage": 0.889,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-190",
+    "term": "vesicoureteral",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ureter",
+      "vesic"
+    ],
+    "estimated_surface_coverage": 0.786,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-191",
+    "term": "urethritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "urethr",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-192",
+    "term": "urethroplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "urethr"
+    ],
+    "estimated_surface_coverage": 0.923,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-193",
+    "term": "urethrostenosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "urethr",
+      "oste",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.933,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-194",
+    "term": "urolithiasis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "lith"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-195",
+    "term": "hemoglobinuria",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "uria",
+      "lob",
+      "hem"
+    ],
+    "estimated_surface_coverage": 0.714,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-196",
+    "term": "glycosuria",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "glyc",
+      "uria"
+    ],
+    "estimated_surface_coverage": 0.8,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-197",
+    "term": "ketonuria",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "keton",
+      "uria"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-198",
+    "term": "pyuria",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "uria"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-199",
+    "term": "bacteriuria",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "bacter",
+      "uria"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-200",
+    "term": "polyuria",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "uria"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-201",
+    "term": "dysuria",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "uria"
+    ],
+    "estimated_surface_coverage": 0.571,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-202",
+    "term": "natriuresis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "natri"
+    ],
+    "estimated_surface_coverage": 0.455,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-203",
+    "term": "antidiuresis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "anti"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-204",
+    "term": "intrarenal",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "intra",
+      "ren"
+    ],
+    "estimated_surface_coverage": 0.8,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-205",
+    "term": "prerenal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "ren"
+    ],
+    "estimated_surface_coverage": 0.375,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-206",
+    "term": "postrenal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "ren"
+    ],
+    "estimated_surface_coverage": 0.333,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-207",
+    "term": "suprarenal",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "supraren"
+    ],
+    "estimated_surface_coverage": 0.8,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-208",
+    "term": "medullary",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "medull"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-209",
+    "term": "neuropathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "neur"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-210",
+    "term": "polyneuropathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "neur"
+    ],
+    "estimated_surface_coverage": 0.643,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-211",
+    "term": "mononeuropathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "neur",
+      "mono"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-212",
+    "term": "neuritis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "neur",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-213",
+    "term": "neuralgia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "algia",
+      "neur"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-214",
+    "term": "neurolysis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "neur"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-215",
+    "term": "neurotomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "neur",
+      "tomy"
+    ],
+    "estimated_surface_coverage": 0.889,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-216",
+    "term": "neuroplasty",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plasty",
+      "neur"
+    ],
+    "estimated_surface_coverage": 0.909,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-217",
+    "term": "neurogenic",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "neur",
+      "gen"
+    ],
+    "estimated_surface_coverage": 0.7,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-218",
+    "term": "encephalitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "encephal",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-219",
+    "term": "encephalopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "encephal",
+      "pathy"
+    ],
+    "estimated_surface_coverage": 0.929,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-220",
+    "term": "encephalomalacia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "encephal",
+      "malacia"
+    ],
+    "estimated_surface_coverage": 0.938,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-221",
+    "term": "encephalomyelitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "encephal",
+      "myel",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.941,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-222",
+    "term": "meningoencephalitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "encephal",
+      "mening",
+      "itis"
+    ],
+    "estimated_surface_coverage": 0.947,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-223",
+    "term": "meningitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "mening",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-224",
+    "term": "meningomyelocele",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "mening",
+      "cele",
+      "myel"
+    ],
+    "estimated_surface_coverage": 0.875,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-225",
+    "term": "myelitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "myel",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-226",
+    "term": "myelopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pathy",
+      "myel"
+    ],
+    "estimated_surface_coverage": 0.9,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-227",
+    "term": "myelomalacia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "malacia",
+      "myel"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-228",
+    "term": "radiculopathy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "radicul",
+      "pathy"
+    ],
+    "estimated_surface_coverage": 0.923,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-229",
+    "term": "radiculitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "radicul",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-230",
+    "term": "ganglionectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "gangli"
+    ],
+    "estimated_surface_coverage": 0.857,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-231",
+    "term": "gliosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "osis",
+      "gli"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-232",
+    "term": "astrocytoma",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cyt",
+      "oma"
+    ],
+    "estimated_surface_coverage": 0.545,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-233",
+    "term": "oligodendroglioma",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "dendr",
+      "oligo",
+      "gli",
+      "oma"
+    ],
+    "estimated_surface_coverage": 0.941,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-234",
+    "term": "ependymoma",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "pen",
+      "oma"
+    ],
+    "estimated_surface_coverage": 0.6,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-235",
+    "term": "hydrocephalus",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cephal",
+      "hydr"
+    ],
+    "estimated_surface_coverage": 0.769,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-236",
+    "term": "ventriculomegaly",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ventricul",
+      "megaly"
+    ],
+    "estimated_surface_coverage": 0.938,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-237",
+    "term": "ventriculostomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ventricul",
+      "stomy"
+    ],
+    "estimated_surface_coverage": 0.933,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-238",
+    "term": "craniotomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cranio",
+      "tomy"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-239",
+    "term": "craniectomy",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "ectomy",
+      "crani"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-240",
+    "term": "craniosynostosis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cranio",
+      "osis"
+    ],
+    "estimated_surface_coverage": 0.625,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-241",
+    "term": "cephalalgia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cephal",
+      "algia"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-242",
+    "term": "microcephaly",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cephal",
+      "micro"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-243",
+    "term": "macrocephaly",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cephal",
+      "macro"
+    ],
+    "estimated_surface_coverage": 0.917,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-244",
+    "term": "cerebellitis",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cerebell",
+      "itis"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-245",
+    "term": "cerebritis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "cerebri"
+    ],
+    "estimated_surface_coverage": 0.7,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-246",
+    "term": "corticospinal",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "cortic",
+      "ina"
+    ],
+    "estimated_surface_coverage": 0.692,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-247",
+    "term": "thalamocortical",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "cortic"
+    ],
+    "estimated_surface_coverage": 0.4,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-248",
+    "term": "hypothalamic",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "mic"
+    ],
+    "estimated_surface_coverage": 0.25,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-249",
+    "term": "pontine",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "pont"
+    ],
+    "estimated_surface_coverage": 0.571,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-250",
+    "term": "subarachnoid",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "sub"
+    ],
+    "estimated_surface_coverage": 0.25,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-251",
+    "term": "epidural",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "epi",
+      "dur"
+    ],
+    "estimated_surface_coverage": 0.75,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-252",
+    "term": "intracranial",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "intra",
+      "crani"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-253",
+    "term": "extracranial",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "crani",
+      "extra"
+    ],
+    "estimated_surface_coverage": 0.833,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-254",
+    "term": "hemiparesis",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "hemi"
+    ],
+    "estimated_surface_coverage": 0.364,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-255",
+    "term": "paraplegia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plegia",
+      "para"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-256",
+    "term": "quadriplegia",
+    "classification": "fully_decomposable",
+    "matched_morphemes": [
+      "plegia",
+      "quadri"
+    ],
+    "estimated_surface_coverage": 1.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-257",
+    "term": "dyskinesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "kinesia"
+    ],
+    "estimated_surface_coverage": 0.7,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-258",
+    "term": "bradykinesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "kinesia"
+    ],
+    "estimated_surface_coverage": 0.583,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-259",
+    "term": "hyperkinesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "kinesia"
+    ],
+    "estimated_surface_coverage": 0.583,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-260",
+    "term": "akinesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "kinesia"
+    ],
+    "estimated_surface_coverage": 0.875,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-261",
+    "term": "paresthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.636,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-262",
+    "term": "dysesthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.636,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-263",
+    "term": "hypoesthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.583,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-264",
+    "term": "hyperesthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.538,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-265",
+    "term": "anesthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.7,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-266",
+    "term": "hyperalgesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "algesi"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-267",
+    "term": "synesthesia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "esthesi"
+    ],
+    "estimated_surface_coverage": 0.636,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-268",
+    "term": "hyposmia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "osmia"
+    ],
+    "estimated_surface_coverage": 0.625,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-269",
+    "term": "hyperosmia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "osmia"
+    ],
+    "estimated_surface_coverage": 0.5,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-270",
+    "term": "dysgeusia",
+    "classification": "partially_decomposable",
+    "matched_morphemes": [
+      "geusia"
+    ],
+    "estimated_surface_coverage": 0.667,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-271",
+    "term": "thrombolysis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-272",
+    "term": "bradyarrhythmia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-273",
+    "term": "tachyarrhythmia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-274",
+    "term": "dysrhythmia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-275",
+    "term": "pyothorax",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-276",
+    "term": "chylothorax",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-277",
+    "term": "thoracentesis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-278",
+    "term": "mucociliary",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-279",
+    "term": "steatorrhea",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-280",
+    "term": "dyspepsia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-281",
+    "term": "hyperemesis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-282",
+    "term": "caliectasis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-283",
+    "term": "diuresis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-284",
+    "term": "hippocampal",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-285",
+    "term": "ataxia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-286",
+    "term": "apraxia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-287",
+    "term": "aphasia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-288",
+    "term": "dysphasia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-289",
+    "term": "dysarthria",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-290",
+    "term": "allodynia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-291",
+    "term": "photophobia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-292",
+    "term": "phonophobia",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-293",
+    "term": "arthrodesis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-294",
+    "term": "arthrocentesis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-295",
+    "term": "rhabdomyolysis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-296",
+    "term": "spondylolisthesis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-297",
+    "term": "anabolism",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-298",
+    "term": "catabolism",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-299",
+    "term": "allostasis",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  },
+  {
+    "id": "holdout-v3-300",
+    "term": "amenorrhea",
+    "classification": "not_decomposable_by_taught_inventory",
+    "matched_morphemes": [],
+    "estimated_surface_coverage": 0.0,
+    "seen_in_cards": false,
+    "language": "medical_english",
+    "source": "Open RN Medical Terminology, NCBI Bookshelf NBK607454"
+  }
+]

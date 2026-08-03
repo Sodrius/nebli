@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "pt-BR",
+  "note_type": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+  "limits": {
+    "text_words": 25,
+    "clozes_per_note": 3,
+    "preferred_clozes": 1,
+    "cloze_answer_words": 3,
+    "extra_words_preferred": 25,
+    "extra_words": 40,
+    "tags_per_note": 4
+  },
+  "policy": {
+    "anti_exemplares_precede_prompt": true,
+    "neutral_theme_label_required": true,
+    "theme_label_words": "1-2",
+    "revealed_cloze_bold": true,
+    "contrast_clozes_share_c1": true,
+    "obvious_root_requires_advanced_value": true,
+    "literal_is_not_clinical_definition": true,
+    "reverse_direction_selective": true,
+    "transparent_terms_are_transfer_samples": true,
+    "pilot_requires_user_review": true,
+    "full_generation_before_pilot_review": false,
+    "anki_import_suspended": true,
+    "anki_import_idempotent": true
+  }
+}

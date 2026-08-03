@@ -47,7 +47,9 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 STATUS = ("COBERTO", "PARCIAL", "LACUNA", "PENDENTE-GERADO")
 # escrever "PENDENTE-GERADO" ou "PENDENTE GERADO" -- normaliza pra forma canonica
 _PEND = re.compile(r"PENDENTE[ -]?GERAD[OA]")
-_ID = re.compile(r"^\s*(\d+(?:\.\d+)+)\b")
+# ``E2.n`` entra na mesma prova de cobertura: o que a avaliação cobra não pode
+# desaparecer só porque não nasceu como subtópico numerado da E1.
+_ID = re.compile(r"^\s*((?:\d+(?:\.\d+)+)|(?:E2\.\d+))\b", re.I)
 VAZIO = {"", "-", "—", "–", "n/a", "na"}
 
 

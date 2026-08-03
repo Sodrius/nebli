@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""gerar_checklist.py -- semeia a checklist-alvo da curadoria a partir da E1.
+"""gerar_checklist.py -- semeia a checklist-alvo da curadoria a partir da E1 e E2.
 
 Passo 1 do metodo de curadoria (CURADORIA-ANKING.md), automatizado. Antes, a
 checklist-<slug>.tsv era digitada de memoria -- e por ai vazava recall: conceito
@@ -20,6 +20,7 @@ metodo. Saida colavel/edit em arquivos-trabalho/checklist-<slug>.tsv.
 Uso:
     python flashcards/scripts/gerar_checklist.py <slug>
     python flashcards/scripts/gerar_checklist.py <slug> --print   # so imprime
+    python flashcards/scripts/gerar_checklist.py <slug> --no-e2   # compatibilidade
 """
 import argparse
 import collections
@@ -46,17 +47,25 @@ _LATIM = re.compile(r"_([A-Z][a-z]+ [a-z]+)_")
 _FMT = re.compile(r"[*_`]")
 
 
-def localizar_etapa1(slug):
-    """Mesma cascata do metodo: _par_ -> etapas-anteriores -> serial."""
+def localizar_etapa(slug, etapa):
+    """Mesma cascata do método: _par_ -> etapas-anteriores -> serial."""
     candidatos = [
-        os.path.join(RAIZ, "typst-build", f"_par_{slug}", "etapa1.typ"),
-        os.path.join(RAIZ, "arquivos-trabalho", "etapas-anteriores", slug, "etapa1.typ"),
-        os.path.join(RAIZ, "typst-build", "etapa1.typ"),
+        os.path.join(RAIZ, "typst-build", f"_par_{slug}", f"etapa{etapa}.typ"),
+        os.path.join(RAIZ, "arquivos-trabalho", "etapas-anteriores", slug, f"etapa{etapa}.typ"),
+        os.path.join(RAIZ, "typst-build", f"etapa{etapa}.typ"),
     ]
     for c in candidatos:
         if os.path.exists(c):
             return c
     return None
+
+
+def localizar_etapa1(slug):
+    return localizar_etapa(slug, 1)
+
+
+def localizar_etapa2(slug):
+    return localizar_etapa(slug, 2)
 
 
 def _ler_bracket(texto, i):
@@ -242,7 +251,36 @@ def montar_linhas(partes, card_subs):
     return linhas
 
 
-def render_tsv(linhas):
+def extrair_alvos_e2(texto):
+    """Semeia alvos auditáveis da E2: termos/siglas e enunciados de questão.
+
+    A E2 não define automaticamente novos fatos para card; ela torna visível o
+    que a aula avalia para que cada alvo receba card, justificativa de escopo ou
+    seja devolvido à E1. IDs ``E2.n`` evitam parecer que são subtópicos da E1.
+    """
+    candidatos = []
+    for _titulo, corpo in segmentar_partes(texto):
+        candidatos.extend(frase for frase, _pt, _en in extrair_conceitos(corpo))
+        matches = list(re.finditer(r"#(?:quest[aã]o|pergunta|question)(?:-[\w]+)?\s*\(", corpo, re.I))
+        for pos, m in enumerate(matches):
+            end = matches[pos + 1].start() if pos + 1 < len(matches) else len(corpo)
+            start = corpo.find("[", m.end(), end)
+            if start < 0:
+                continue
+            enunciado, _ = _ler_bracket(corpo, start)
+            enunciado = _FMT.sub("", enunciado).strip()
+            if enunciado:
+                candidatos.append(enunciado)
+    vistos, linhas = set(), []
+    for frase in candidatos:
+        chave = re.sub(r"\s+", " ", frase).casefold().strip()
+        if chave and chave not in vistos:
+            vistos.add(chave)
+            linhas.append((f"E2.{len(linhas) + 1}", frase, _termos_subtopico(frase)))
+    return linhas
+
+
+def render_tsv(linhas, alvos_e2=None):
     out = []
     out.append("# checklist-alvo semeada da E1 por gerar_checklist.py")
     out.append("# formato: <id>\\t<frase-alvo>\\t<termo_pt|termo_en>")
@@ -254,6 +292,10 @@ def render_tsv(linhas):
         else:
             cid, frase, termos = item
             out.append(f"{cid}\t{frase}\t{termos}")
+    if alvos_e2:
+        out.append("# E2 — alvos avaliados; cada um exige card, escopo justificado ou retorno à E1")
+        for cid, frase, termos in alvos_e2:
+            out.append(f"{cid}\t{frase}\t{termos}")
     return "\n".join(out) + "\n"
 
 
@@ -262,6 +304,7 @@ def main():
     ap.add_argument("slug", help="slug da aula")
     ap.add_argument("--print", dest="imprimir", action="store_true",
                     help="imprime no terminal em vez de gravar")
+    ap.add_argument("--no-e2", action="store_true", help="não acrescenta os alvos avaliados da E2")
     args = ap.parse_args()
 
     etapa1 = localizar_etapa1(args.slug)
@@ -278,7 +321,9 @@ def main():
     linhas = montar_linhas(partes, card_subs)
     conceitos = [l for l in linhas if l[0] != "#"]
     en_faltando = sum(1 for l in conceitos if l[2].endswith("<EN?>"))
-    tsv = render_tsv(linhas)
+    etapa2 = None if args.no_e2 else localizar_etapa2(args.slug)
+    alvos_e2 = extrair_alvos_e2(open(etapa2, encoding="utf-8").read()) if etapa2 else []
+    tsv = render_tsv(linhas, alvos_e2)
 
     if args.imprimir:
         print(tsv)
@@ -291,7 +336,8 @@ def main():
     fonte_subs = f"{n_subs} do Tema Card" if n_subs else "0 do Tema Card (nao achado -- so termo-notas)"
     print(f"  PARTES: {len(partes)} | conceitos semeados: {len(conceitos)} "
           f"({fonte_subs}) | faltando termo EN: {en_faltando}")
-    print("  -> revise o .tsv, complete os <EN?> e rode buscar_tags_lote.py.")
+    print(f"  E2: {len(alvos_e2)} alvos" + ("" if etapa2 else " (etapa2.typ não encontrada)"))
+    print("  -> revise o .tsv, complete os <EN?>, dê destino aos E2.n e rode buscar_tags_lote.py.")
     return 0
 
 

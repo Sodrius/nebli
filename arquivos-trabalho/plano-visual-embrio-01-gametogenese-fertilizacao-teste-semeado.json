@@ -1,0 +1,582 @@
+{
+  "visual_plan_version": "v1",
+  "slug": "embrio-01-gametogenese-fertilizacao-teste",
+  "concepts": [
+    {
+      "concept_id": "1.1",
+      "importance": "support",
+      "learning_goal": "Células germinativas chegam à gônada antes de formar gametas",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.2",
+      "importance": "support",
+      "learning_goal": "Oócito inicia meiose antes do nascimento e só a termina se for fecundado",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.3",
+      "importance": "support",
+      "learning_goal": "Espermatozoide amadurece para entregar genoma e movimento",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.4",
+      "importance": "support",
+      "learning_goal": "células germinativas primordiais",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.5",
+      "importance": "support",
+      "learning_goal": "ovócitos primários",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.6",
+      "importance": "support",
+      "learning_goal": "ovócito secundário",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.7",
+      "importance": "support",
+      "learning_goal": "espermiogênese",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "1.8",
+      "importance": "support",
+      "learning_goal": "capacitação",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.1",
+      "importance": "support",
+      "learning_goal": "O ovócito apresenta camadas com funções diferentes",
+      "strategy": "io_required",
+      "image_role": "recognition",
+      "visual_task": "confirmar se o aluno precisa reconhecer/localizar esta estrutura",
+      "rationale": "semeado por vocabulário estrutural; confirmar antes da produção",
+      "needs_editorial_confirmation": true,
+      "io": {
+        "board_id": "2.1-board",
+        "targets": [
+          {
+            "label": "O ovócito apresenta camadas com funções diferentes"
+          }
+        ]
+      }
+    },
+    {
+      "concept_id": "2.2",
+      "importance": "support",
+      "learning_goal": "Capacitação permite reação acrossômica e travessia da zona",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.3",
+      "importance": "support",
+      "learning_goal": "Fusão ativa o ovócito e bloqueia polispermia",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.4",
+      "importance": "support",
+      "learning_goal": "corona radiata",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.5",
+      "importance": "support",
+      "learning_goal": "zona pelúcida",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.6",
+      "importance": "support",
+      "learning_goal": "reação acrossômica",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.7",
+      "importance": "support",
+      "learning_goal": "grânulos corticais",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "2.8",
+      "importance": "support",
+      "learning_goal": "polispermia",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.1",
+      "importance": "support",
+      "learning_goal": "Pró-núcleos unem dois genomas antes da primeira clivagem",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.2",
+      "importance": "support",
+      "learning_goal": "Clivagem aumenta o número de células, não o volume total",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.3",
+      "importance": "support",
+      "learning_goal": "Cavitação separa massa celular interna e trofoectoderma",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.4",
+      "importance": "support",
+      "learning_goal": "zigoto",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.5",
+      "importance": "support",
+      "learning_goal": "clivagem",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.6",
+      "importance": "support",
+      "learning_goal": "compactação",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.7",
+      "importance": "support",
+      "learning_goal": "blastocele",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.8",
+      "importance": "support",
+      "learning_goal": "massa celular interna",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.9",
+      "importance": "support",
+      "learning_goal": "trofoectoderma",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "3.10",
+      "importance": "support",
+      "learning_goal": "eclosão",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.1",
+      "importance": "support",
+      "learning_goal": "Qual evento caracteriza a origem dos gametas antes da diferenciação sexual da gônada?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.2",
+      "importance": "support",
+      "learning_goal": "Em qual estado meiótico o ovócito liberado na ovulação normalmente se encontra?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.3",
+      "importance": "support",
+      "learning_goal": "Por que a meiose feminina preserva quase todo o citoplasma em um único gameta funcional?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.4",
+      "importance": "support",
+      "learning_goal": "Qual mudança define capacitação, sem ainda constituir reação acrossômica?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.5",
+      "importance": "support",
+      "learning_goal": "Qual estrutura corresponde a uma matriz extracelular glicoproteica ao redor do ovócito?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.6",
+      "importance": "support",
+      "learning_goal": "O que ocorre na reação acrossômica?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.7",
+      "importance": "support",
+      "learning_goal": "O aumento de Ca²⁺ no ovócito após fusão gamética desencadeia diretamente qual combinação?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.8",
+      "importance": "support",
+      "learning_goal": "Por que polispermia prejudica o desenvolvimento?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.9",
+      "importance": "support",
+      "learning_goal": "Qual é a definição de clivagem?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.10",
+      "importance": "support",
+      "learning_goal": "Qual transformação é produzida pela compactação da mórula?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.11",
+      "importance": "support",
+      "learning_goal": "Uma alteração impede que o ovócito libere grânulos corticais após a entrada do primeiro espermatozoide. Qual consequência é mais direta?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.12",
+      "importance": "support",
+      "learning_goal": "Um espermatozoide sofre reação acrossômica muito cedo, antes de alcançar a zona pelúcida. Qual problema é mais provável?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.13",
+      "importance": "support",
+      "learning_goal": "Uma paciente ovula normalmente, mas a elevação de Ca²⁺ no ovócito não pode ocorrer após a fusão. Qual sequência ficará prejudicada?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.14",
+      "importance": "support",
+      "learning_goal": "Por que o embrião pode passar de zigoto a mórula sem aumentar muito de diâmetro?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.15",
+      "importance": "support",
+      "learning_goal": "A função epitelial das células externas da mórula é necessária principalmente para qual evento posterior?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.16",
+      "importance": "support",
+      "learning_goal": "Uma mutação reduz fortemente a adesão entre blastômeros no estágio de 8–16 células. Qual organização tende a falhar primeiro?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.17",
+      "importance": "support",
+      "learning_goal": "Em um blastocisto, qual relação correta liga localização celular e destino?",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "explicar a relação ou mecanismo depois do recall",
+      "rationale": "semeado por vocabulário de processo; confirmar a figura mínima útil",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.18",
+      "importance": "support",
+      "learning_goal": "Por que a eclosão do blastocisto é necessária antes da implantação?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.19",
+      "importance": "support",
+      "learning_goal": "A mesma mulher tem ovócitos que permanecem anos em diplóteno, mas um ovócito ovulado está em metáfase II. Qual transição ocorreu entre esses estados?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.20",
+      "importance": "support",
+      "learning_goal": "Qual comparação entre capacitação e reação cortical está correta?",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "explicar a relação ou mecanismo depois do recall",
+      "rationale": "semeado por vocabulário de processo; confirmar a figura mínima útil",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.21",
+      "importance": "support",
+      "learning_goal": "Se a zona pelúcida fosse removida muito cedo durante clivagem, qual risco aumentaria?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.22",
+      "importance": "support",
+      "learning_goal": "Por que a reação cortical é uma resposta mais útil que bloquear apenas a membrana plasmática do ovócito?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.23",
+      "importance": "support",
+      "learning_goal": "Um embrião possui o mesmo genoma em células que seguirão destinos distintos no blastocisto. Qual processo físico iniciou essa separação?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.24",
+      "importance": "support",
+      "learning_goal": "Qual sequência está em ordem correta?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.25",
+      "importance": "support",
+      "learning_goal": "Um defeito seletivo impede o transporte de íons pelas células externas da mórula. Qual estrutura provavelmente não se formará?",
+      "strategy": "extra_recommended",
+      "image_role": "mechanism",
+      "visual_task": "explicar a relação ou mecanismo depois do recall",
+      "rationale": "semeado por vocabulário de processo; confirmar a figura mínima útil",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.26",
+      "importance": "support",
+      "learning_goal": "Após fertilização in vitro, um oócito completa meiose II, mas vários espermatozoides são encontrados em seu citoplasma. Qual falha explica melhor o achado?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.27",
+      "importance": "support",
+      "learning_goal": "Um laboratório observa espermatozoides móveis que alcançam a zona pelúcida, mas não liberam conteúdo acrossômico. Qual etapa fica diretamente comprometida?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.28",
+      "importance": "support",
+      "learning_goal": "Um embrião de 16 células apresenta blastômeros pouco aderidos, sem população externa polarizada. Qual etapa posterior será mais ameaçada?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    },
+    {
+      "concept_id": "E2.29",
+      "importance": "support",
+      "learning_goal": "Uma lâmina mostra blastocisto com uma cavidade cheia de fluido, um aglomerado celular em um polo e uma camada externa contínua. Qual estrutura dará origem ao embrião propriamente dito?",
+      "strategy": "io_required",
+      "image_role": "recognition",
+      "visual_task": "confirmar se o aluno precisa reconhecer/localizar esta estrutura",
+      "rationale": "semeado por vocabulário estrutural; confirmar antes da produção",
+      "needs_editorial_confirmation": true,
+      "io": {
+        "board_id": "E2.29-board",
+        "targets": [
+          {
+            "label": "Uma lâmina mostra blastocisto com uma cavidade cheia de fluido, um aglomerado celular em um polo e uma camada externa contínua. Qual estrutura dará origem ao embrião propriamente dito?"
+          }
+        ]
+      }
+    },
+    {
+      "concept_id": "E2.30",
+      "importance": "support",
+      "learning_goal": "Um blastocisto expandido permanece inteiramente envolto pela zona pelúcida. Qual consequência imediata é mais provável?",
+      "strategy": "none",
+      "image_role": "none",
+      "visual_task": "não há relação visual recuperável neste objetivo",
+      "rationale": "semeado como conceito predominantemente verbal; revisar se a aula exigir reconhecimento",
+      "needs_editorial_confirmation": true
+    }
+  ]
+}

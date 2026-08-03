@@ -35,10 +35,52 @@ from anki import call
 from PIL import Image
 
 MODEL = "AnKingOverhaul (AnKing Step Deck / AnKingMed)"
+THEME_BY_SLUG = {
+    "anato": "Anatomy", "biocel": "Cell Biology", "biomol": "Molecular Biology",
+    "bioq": "Biochemistry", "embrio": "Embryology", "fisio": "Physiology",
+    "histo": "Histology", "etim": "Etymology",
+}
+THEME_RE = re.compile(r"^<b>([^<.]+)\.</b>\s+")
+CLOZE_RE = re.compile(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}")
+BOLDED_CLOZE_RE = re.compile(r"<(?:b|strong)>\s*\{\{c\d+::.*?\}\}\s*</(?:b|strong)>", re.I)
 
 
 def norm(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
+
+
+def infer_theme(slug, explicit=None):
+    if explicit:
+        label = explicit.strip().rstrip(".")
+    else:
+        label = THEME_BY_SLUG.get((slug or "").split("-", 1)[0], "")
+    if not label or len(label.split()) > 2:
+        raise ValueError("theme_label obrigatório, neutro e com 1–2 palavras")
+    return label
+
+
+def themed_text(text, label):
+    if THEME_RE.match(text or ""):
+        return text
+    return f"<b>{label}.</b> {text.strip()}"
+
+
+def validate_text_gate(text, label):
+    match = THEME_RE.match(text or "")
+    if not match or match.group(1) != label:
+        raise ValueError("Text sem rótulo temático canônico")
+    answers = CLOZE_RE.findall(text or "")
+    if not answers:
+        raise ValueError("Text sem cloze")
+    if len(BOLDED_CLOZE_RE.findall(text or "")) != len(answers):
+        raise ValueError("todo cloze deve estar em negrito")
+    label_words = {x.lower() for x in re.findall(r"\w+", label)}
+    answer_words = {x.lower() for a in answers for x in re.findall(r"\w+", norm(a))}
+    if label_words & answer_words:
+        raise ValueError("rótulo temático dá pista da resposta")
+    for answer in answers:
+        if len(re.findall(r"\S+", norm(answer))) > 3:
+            raise ValueError("cloze com mais de 3 palavras")
 
 
 def fetch_bytes(spec):
@@ -85,9 +127,20 @@ def build_extra(extra_text, imginfo):
     return "<br><br>".join(parts)
 
 
-def main(path, dry=False, require_images=False):
-    spec = json.load(open(path, encoding="utf-8-sig"))
+def main(path, dry=False, require_images=False, canonical=False):
+    with open(path, encoding="utf-8-sig") as source:
+        spec = json.load(source)
+    # Specs novas tornam o contrato impossível de esquecer. A opção --canonical
+    # também permite auditar deliberadamente um lote antes da primeira importação.
+    if canonical or spec.get("pipeline_contract") == "e1-e2-v1":
+        from e1_e2_contract import validate_spec
+        result = validate_spec(spec, os.path.dirname(os.path.abspath(path)))
+        if result["errors"]:
+            raise SystemExit("Contrato E1->card->E2 reprovado:\n- " + "\n- ".join(result["errors"]))
+        for warning in result["warnings"]:
+            print("AVISO contrato:", warning)
     deck, slug, cards = spec["deck"], spec["slug"], spec["cards"]
+    theme = infer_theme(slug, spec.get("theme_label"))
     if require_images:
         missing = [i + 1 for i, c in enumerate(cards) if not c.get("image")]
         if missing:
@@ -105,7 +158,8 @@ def main(path, dry=False, require_images=False):
     added = skipped = 0
     errs = []
     for c in cards:
-        text = c["text"]
+        text = themed_text(c["text"], theme)
+        validate_text_gate(text, theme)
         if norm(text) in existing:
             skipped += 1
             continue
@@ -118,7 +172,7 @@ def main(path, dry=False, require_images=False):
             "modelName": MODEL,
             "fields": {"Text": text, "Extra": extra},
             "tags": tags,
-            "options": {"allowDuplicate": False},
+            "options": {"allowDuplicate": True},
         }
         if dry:
             added += 1
@@ -140,5 +194,6 @@ if __name__ == "__main__":
     ap.add_argument("json")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--require-images", action="store_true", help="fail if any card lacks image")
+    ap.add_argument("--canonical", action="store_true", help="exige contrato E1->card->E2 e decisão visual")
     a = ap.parse_args()
-    main(a.json, a.dry, a.require_images)
+    main(a.json, a.dry, a.require_images, a.canonical)

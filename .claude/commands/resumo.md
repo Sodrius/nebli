@@ -59,3 +59,6 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
     Reportar no fim: #cards dessuspensos + **cobertura X/Y** + **fila pendente-gerado** + lacunas→fonte. (A geração/injeção de cards cloze NEBLI fica FORA deste pipeline até a sessão de calibração.)
 
 Se em qualquer etapa algo falhar, pare e reporte — não improvise.
+
+### Gate deck-aula completo (obrigatório)
+Antes de escrever a E2 e antes de mover o PDF, o deck-aula precisa fechar no contrato `deck-aula-v2`: E1 atomizada por âncora literal; busca AnKing card-a-card por fato; cards AnKing/external primeiro; autoria apenas com rejeição documentada; e enriquecimentos Step 1 já incorporados na E1. Rode `python flashcards/scripts/gate_deck_aula_completo.py arquivos-trabalho/matriz-deck-aula-<slug>.json --verify-anki`. Exit diferente de zero bloqueia E2, PDF e exportação. `PENDENTE-GERADO` não é estado de ship: a lacuna deve virar card e entrar no deck antes de fechar.

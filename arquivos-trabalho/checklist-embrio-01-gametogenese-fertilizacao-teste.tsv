@@ -1,0 +1,64 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# AJUSTAR: complete os <EN?>, funda/remova conceitos redundantes,
+# e acrescente subtopico que a E1 ensina mas nao marcou como termo-nota.
+# PARTE I — Produzir gametas competentes
+1.1	Células germinativas chegam à gônada antes de formar gametas	Células germinativas chegam|<EN?>
+1.2	Oócito inicia meiose antes do nascimento e só a termina se for fecundado	Oócito inicia meiose|<EN?>
+1.3	Espermatozoide amadurece para entregar genoma e movimento	Espermatozoide amadurece para|<EN?>
+1.4	células germinativas primordiais	células germinativas primordiais|<EN?>
+1.5	ovócitos primários	ovócitos primários|<EN?>
+1.6	ovócito secundário	ovócito secundário|<EN?>
+1.7	espermiogênese	espermiogênese|<EN?>
+1.8	capacitação	capacitação|<EN?>
+# PARTE II — Fecundar sem deixar entrar mais de um
+2.1	O ovócito apresenta camadas com funções diferentes	ovócito apresenta camadas|<EN?>
+2.2	Capacitação permite reação acrossômica e travessia da zona	Capacitação permite reação|<EN?>
+2.3	Fusão ativa o ovócito e bloqueia polispermia	Fusão ativa ovócito|<EN?>
+2.4	corona radiata	corona radiata|<EN?>
+2.5	zona pelúcida	zona pelúcida|<EN?>
+2.6	reação acrossômica	reação acrossômica|<EN?>
+2.7	grânulos corticais	grânulos corticais|<EN?>
+2.8	polispermia	polispermia|<EN?>
+# PARTE III — Do zigoto ao blastocisto
+3.1	Pró-núcleos unem dois genomas antes da primeira clivagem	núcleos unem dois|<EN?>
+3.2	Clivagem aumenta o número de células, não o volume total	Clivagem aumenta número|<EN?>
+3.3	Cavitação separa massa celular interna e trofoectoderma	Cavitação separa massa|<EN?>
+3.4	zigoto	zigoto|<EN?>
+3.5	clivagem	clivagem|<EN?>
+3.6	compactação	compactação|<EN?>
+3.7	blastocele	blastocele|<EN?>
+3.8	massa celular interna	massa celular interna|<EN?>
+3.9	trofoectoderma	trofoectoderma|<EN?>
+3.10	eclosão	eclosão|<EN?>
+# E2 — alvos avaliados; cada um exige card, escopo justificado ou retorno à E1
+E2.1	Qual evento caracteriza a origem dos gametas antes da diferenciação sexual da gônada?	Qual evento caracteriza|<EN?>
+E2.2	Em qual estado meiótico o ovócito liberado na ovulação normalmente se encontra?	qual estado meiótico|<EN?>
+E2.3	Por que a meiose feminina preserva quase todo o citoplasma em um único gameta funcional?	meiose feminina preserva|<EN?>
+E2.4	Qual mudança define capacitação, sem ainda constituir reação acrossômica?	Qual mudança define|<EN?>
+E2.5	Qual estrutura corresponde a uma matriz extracelular glicoproteica ao redor do ovócito?	Qual estrutura corresponde|<EN?>
+E2.6	O que ocorre na reação acrossômica?	ocorre reação acrossômica|<EN?>
+E2.7	O aumento de Ca²⁺ no ovócito após fusão gamética desencadeia diretamente qual combinação?	aumento ovócito após|<EN?>
+E2.8	Por que polispermia prejudica o desenvolvimento?	polispermia prejudica desenvolvimento|<EN?>
+E2.9	Qual é a definição de clivagem?	Qual definição clivagem|<EN?>
+E2.10	Qual transformação é produzida pela compactação da mórula?	Qual transformação produzida|<EN?>
+E2.11	Uma alteração impede que o ovócito libere grânulos corticais após a entrada do primeiro espermatozoide. Qual consequência é mais direta?	alteração impede ovócito|<EN?>
+E2.12	Um espermatozoide sofre reação acrossômica muito cedo, antes de alcançar a zona pelúcida. Qual problema é mais provável?	espermatozoide sofre reação|<EN?>
+E2.13	Uma paciente ovula normalmente, mas a elevação de Ca²⁺ no ovócito não pode ocorrer após a fusão. Qual sequência ficará prejudicada?	paciente ovula normalmente|<EN?>
+E2.14	Por que o embrião pode passar de zigoto a mórula sem aumentar muito de diâmetro?	embrião pode passar|<EN?>
+E2.15	A função epitelial das células externas da mórula é necessária principalmente para qual evento posterior?	função epitelial células|<EN?>
+E2.16	Uma mutação reduz fortemente a adesão entre blastômeros no estágio de 8–16 células. Qual organização tende a falhar primeiro?	mutação reduz fortemente|<EN?>
+E2.17	Em um blastocisto, qual relação correta liga localização celular e destino?	blastocisto qual relação|<EN?>
+E2.18	Por que a eclosão do blastocisto é necessária antes da implantação?	eclosão blastocisto necessária|<EN?>
+E2.19	A mesma mulher tem ovócitos que permanecem anos em diplóteno, mas um ovócito ovulado está em metáfase II. Qual transição ocorreu entre esses estados?	mesma mulher ovócitos|<EN?>
+E2.20	Qual comparação entre capacitação e reação cortical está correta?	Qual comparação entre|<EN?>
+E2.21	Se a zona pelúcida fosse removida muito cedo durante clivagem, qual risco aumentaria?	zona pelúcida fosse|<EN?>
+E2.22	Por que a reação cortical é uma resposta mais útil que bloquear apenas a membrana plasmática do ovócito?	reação cortical resposta|<EN?>
+E2.23	Um embrião possui o mesmo genoma em células que seguirão destinos distintos no blastocisto. Qual processo físico iniciou essa separação?	embrião possui mesmo|<EN?>
+E2.24	Qual sequência está em ordem correta?	Qual sequência está|<EN?>
+E2.25	Um defeito seletivo impede o transporte de íons pelas células externas da mórula. Qual estrutura provavelmente não se formará?	defeito seletivo impede|<EN?>
+E2.26	Após fertilização in vitro, um oócito completa meiose II, mas vários espermatozoides são encontrados em seu citoplasma. Qual falha explica melhor o achado?	Após fertilização vitro|<EN?>
+E2.27	Um laboratório observa espermatozoides móveis que alcançam a zona pelúcida, mas não liberam conteúdo acrossômico. Qual etapa fica diretamente comprometida?	laboratório observa espermatozoides|<EN?>
+E2.28	Um embrião de 16 células apresenta blastômeros pouco aderidos, sem população externa polarizada. Qual etapa posterior será mais ameaçada?	embrião células apresenta|<EN?>
+E2.29	Uma lâmina mostra blastocisto com uma cavidade cheia de fluido, um aglomerado celular em um polo e uma camada externa contínua. Qual estrutura dará origem ao embrião propriamente dito?	lâmina mostra blastocisto|<EN?>
+E2.30	Um blastocisto expandido permanece inteiramente envolto pela zona pelúcida. Qual consequência imediata é mais provável?	blastocisto expandido permanece|<EN?>

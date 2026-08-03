@@ -1,0 +1,1015 @@
+{
+  "pipeline_contract": "e1-e2-v1",
+  "slug": "bioq-20-pentoses-radicais-livres-teste-completo",
+  "deck": "NEBLI::TESTE_APAGAR::Bioquímica::Via das pentoses — completo",
+  "theme_label": "Bioquímica",
+  "visual_plan": "plano-visual-bioq-20-pentoses-radicais-livres-teste-completo.json",
+  "e1": {
+    "path": "../typst-build/_par_bioq-20-pentoses-radicais-livres-teste/etapa1.typ"
+  },
+  "e2": {
+    "path": "../typst-build/_par_bioq-20-pentoses-radicais-livres-teste/etapa2.typ",
+    "catalog": [
+      "Relacionar a saída da G6P à finalidade metabólica.",
+      "Recuperar os dois produtos que justificam a via.",
+      "Separar os pools redutores de construção e de energia.",
+      "Vincular ribose-5-P à síntese de nucleotídeos.",
+      "Explicar a dependência eritrocitária de NADPH.",
+      "Distinguir as duas fases pelo produto e reversibilidade.",
+      "Identificar a enzima que abre e controla a via.",
+      "Fixar o saldo da fase oxidativa.",
+      "Localizar a descarboxilação da via.",
+      "Distinguir as enzimas que rearranjam carbonos.",
+      "Diferenciar blocos transferidos pelas duas enzimas.",
+      "Conectar a fase não oxidativa à glicólise.",
+      "Selecionar o ramo para demanda isolada de ribose.",
+      "Selecionar o fluxo quando a demanda de NADPH predomina.",
+      "Prever o destino do carbono quando NADPH e ATP são pedidos.",
+      "Usar a razão redox para prever o fluxo da via.",
+      "Ligar NADPH à recarga da defesa antioxidante.",
+      "Ligar glutationa reduzida à neutralização de peróxido.",
+      "Reconhecer a consequência molecular da falha antioxidante.",
+      "Reconhecer o padrão de crise hemolítica desencadeada.",
+      "Conectar herança e vantagem seletiva da deficiência."
+    ]
+  },
+  "e2_coverage": [
+    {
+      "e2_item": "Relacionar a saída da G6P à finalidade metabólica.",
+      "concept_id": "g6p_fates",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Recuperar os dois produtos que justificam a via.",
+      "concept_id": "ppp_products",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Separar os pools redutores de construção e de energia.",
+      "concept_id": "nadph_role",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Vincular ribose-5-P à síntese de nucleotídeos.",
+      "concept_id": "ribose_role",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Explicar a dependência eritrocitária de NADPH.",
+      "concept_id": "rbc_dependency",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Distinguir as duas fases pelo produto e reversibilidade.",
+      "concept_id": "oxidative_phase",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Identificar a enzima que abre e controla a via.",
+      "concept_id": "g6pd_control",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Fixar o saldo da fase oxidativa.",
+      "concept_id": "oxidative_yield",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Localizar a descarboxilação da via.",
+      "concept_id": "co2_source",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Distinguir as enzimas que rearranjam carbonos.",
+      "concept_id": "nonoxidative_enzymes",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Diferenciar blocos transferidos pelas duas enzimas.",
+      "concept_id": "transketolase_units",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Conectar a fase não oxidativa à glicólise.",
+      "concept_id": "glycolytic_link",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Selecionar o ramo para demanda isolada de ribose.",
+      "concept_id": "ribose_only",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Selecionar o fluxo quando a demanda de NADPH predomina.",
+      "concept_id": "nadph_max",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Prever o destino do carbono quando NADPH e ATP são pedidos.",
+      "concept_id": "nadph_atp",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Usar a razão redox para prever o fluxo da via.",
+      "concept_id": "g6pd_regulation",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Ligar NADPH à recarga da defesa antioxidante.",
+      "concept_id": "gsh_regeneration",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Ligar glutationa reduzida à neutralização de peróxido.",
+      "concept_id": "gpx_function",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Reconhecer a consequência molecular da falha antioxidante.",
+      "concept_id": "heinz_bodies",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Reconhecer o padrão de crise hemolítica desencadeada.",
+      "concept_id": "g6pd_triggers",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    },
+    {
+      "e2_item": "Conectar herança e vantagem seletiva da deficiência.",
+      "concept_id": "g6pd_malaria",
+      "status": "covered",
+      "rationale": "O card do conceito testa o mecanismo cobrado nas objetivas."
+    }
+  ],
+  "images": {
+    "overview": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-08.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "redox": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-09.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "oxidative": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-16.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "nonoxidative": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-49.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "regulation": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-54.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "glutathione": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-44.png",
+      "credit": "Source: lecture slide; private course material."
+    },
+    "clinical": {
+      "file": "figuras/bioq-20-pentoses-radicais-livres-teste/slide-42.png",
+      "credit": "Source: lecture slide; private course material."
+    }
+  },
+  "cards": [
+    {
+      "nebli_id": "pentoses-teste-g6p_fates",
+      "concept_id": "g6p_fates",
+      "visual_plan_id": "g6p_fates",
+      "visual_plan_link": "primary",
+      "text": "G6P can be used for storage, glycolysis, or the <b>{{c1::pentose phosphate pathway}}</b>.",
+      "extra": "The construction exit: NADPH + ribose-5-phosphate; no ATP production.",
+      "image": "overview",
+      "e1_anchor": {
+        "quote": "Há três caminhos possíveis"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway g6p_fates"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Relacionar a saída da G6P à finalidade metabólica."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-ppp_products",
+      "concept_id": "ppp_products",
+      "visual_plan_id": "ppp_products",
+      "visual_plan_link": "primary",
+      "text": "This metabolic route supplies NADPH and <b>{{c1::ribose-5-phosphate}}</b>.",
+      "extra": "Reductive power + nucleotide sugar scaffold; not an ATP-producing pathway.",
+      "image": "overview",
+      "e1_anchor": {
+        "quote": "dois produtos que ela coloca na mesa"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway ppp_products"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Recuperar os dois produtos que justificam a via."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-nadph_role",
+      "concept_id": "nadph_role",
+      "visual_plan_id": "nadph_role",
+      "visual_plan_link": "primary",
+      "text": "NADH supports ATP production; <b>{{c1::NADPH}}</b> supplies reductive biosynthesis and antioxidant defense.",
+      "extra": "Same redox chemistry; enzyme recognition keeps the pools functionally separate.",
+      "image": "redox",
+      "e1_anchor": {
+        "quote": "doa elétrons para as reações de construção"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway nadph_role"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Separar os pools redutores de construção e de energia."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-ribose_role",
+      "concept_id": "ribose_role",
+      "visual_plan_id": "ribose_role",
+      "visual_plan_link": "primary",
+      "text": "Ribose-5-phosphate provides the sugar scaffold for <b>{{c1::nucleotides}}</b>.",
+      "extra": "DNA, RNA, ATP, NAD+, FAD, and CoA all require nucleotide precursors.",
+      "image": "overview",
+      "e1_anchor": {
+        "quote": "forma o esqueleto dos nucleotídeos"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway ribose_role"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Vincular ribose-5-P à síntese de nucleotídeos."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-rbc_dependency",
+      "concept_id": "rbc_dependency",
+      "visual_plan_id": "rbc_dependency",
+      "visual_plan_link": "primary",
+      "text": "In red blood cells, the only source of NADPH is the <b>{{c1::pentose phosphate pathway}}</b>.",
+      "extra": "No mitochondria; antioxidant capacity depends on oxidative PPP flux.",
+      "image": "glutathione",
+      "e1_anchor": {
+        "quote": "única fonte de poder redutor"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway rbc_dependency"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Explicar a dependência eritrocitária de NADPH."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-oxidative_phase",
+      "concept_id": "oxidative_phase",
+      "visual_plan_id": "oxidative_phase",
+      "visual_plan_link": "primary",
+      "text": "The <b>{{c1::oxidative}}</b> phase is irreversible and yields NADPH, CO2, and pentose.",
+      "extra": "The non-oxidative phase is reversible and reshuffles carbons without NADPH production.",
+      "image": "oxidative",
+      "e1_anchor": {
+        "quote": "fase oxidativa"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway oxidative_phase"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Distinguir as duas fases pelo produto e reversibilidade."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-g6pd_control",
+      "concept_id": "g6pd_control",
+      "visual_plan_id": "g6pd_control",
+      "visual_plan_link": "primary",
+      "text": "The rate-limiting first enzyme of the pentose phosphate pathway is <b>{{c1::G6PD}}</b>.",
+      "extra": "Glucose-6-phosphate dehydrogenase initiates oxidative PPP flux.",
+      "image": "oxidative",
+      "e1_anchor": {
+        "quote": "a enzima que abre a via das pentoses e controla sua velocidade"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway g6pd_control"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Identificar a enzima que abre e controla a via."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-oxidative_yield",
+      "concept_id": "oxidative_yield",
+      "visual_plan_id": "oxidative_yield",
+      "visual_plan_link": "primary",
+      "text": "Each glucose-6-phosphate entering oxidative PPP yields <b>{{c1::2 NADPH}}</b>.",
+      "extra": "Also yields one CO2 and one pentose; no ATP is made in this phase.",
+      "image": "oxidative",
+      "e1_anchor": {
+        "quote": "2 NADPH"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway oxidative_yield"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Fixar o saldo da fase oxidativa."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-co2_source",
+      "concept_id": "co2_source",
+      "visual_plan_id": "co2_source",
+      "visual_plan_link": "primary",
+      "text": "PPP CO2 is released by <b>{{c1::6-phosphogluconate dehydrogenase}}</b>.",
+      "extra": "This oxidative decarboxylation also produces the second NADPH.",
+      "image": "oxidative",
+      "e1_anchor": {
+        "quote": "na descarboxilação da terceira reação"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway co2_source"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Localizar a descarboxilação da via."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-nonoxidative_enzymes",
+      "concept_id": "nonoxidative_enzymes",
+      "visual_plan_id": "nonoxidative_enzymes",
+      "visual_plan_link": "primary",
+      "text": "Non-oxidative PPP rearrangement uses <b>{{c1::transketolase and transaldolase}}</b>.",
+      "extra": "Transketolase transfers 2C; transaldolase transfers 3C; neither makes NADPH.",
+      "image": "nonoxidative",
+      "e1_anchor": {
+        "quote": "transcetolase"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway nonoxidative_enzymes"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Distinguir as enzimas que rearranjam carbonos."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-transketolase_units",
+      "concept_id": "transketolase_units",
+      "visual_plan_id": "transketolase_units",
+      "visual_plan_link": "primary",
+      "text": "Transketolase transfers <b>{{c1::two-carbon}}</b> units between sugars.",
+      "extra": "Transaldolase is the complementary 3-carbon transfer enzyme.",
+      "image": "nonoxidative",
+      "e1_anchor": {
+        "quote": "transfere blocos de dois carbonos"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway transketolase_units"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Diferenciar blocos transferidos pelas duas enzimas."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-glycolytic_link",
+      "concept_id": "glycolytic_link",
+      "visual_plan_id": "glycolytic_link",
+      "visual_plan_link": "primary",
+      "text": "The reversible non-oxidative phase links PPP to glycolysis via <b>{{c1::F6P and G3P}}</b>.",
+      "extra": "Carbon can move in either direction between pentoses and glycolytic intermediates.",
+      "image": "nonoxidative",
+      "e1_anchor": {
+        "quote": "intermediários da glicólise"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway glycolytic_link"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Conectar a fase não oxidativa à glicólise."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-ribose_only",
+      "concept_id": "ribose_only",
+      "visual_plan_id": "ribose_only",
+      "visual_plan_link": "primary",
+      "text": "A dividing cell needing ribose but little NADPH runs the <b>{{c1::non-oxidative phase}}</b>.",
+      "extra": "Ribose is assembled from F6P/G3P; G6PD need not be engaged.",
+      "image": "nonoxidative",
+      "e1_anchor": {
+        "quote": "precisa só de ribose"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway ribose_only"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Selecionar o ramo para demanda isolada de ribose."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-nadph_max",
+      "concept_id": "nadph_max",
+      "visual_plan_id": "nadph_max",
+      "visual_plan_link": "primary",
+      "text": "Lipogenic tissue recycles excess pentoses through the <b>{{c1::non-oxidative phase}}</b> to maximize NADPH output.",
+      "extra": "Oxidative PPP makes NADPH; recycling returns carbon for another oxidative pass.",
+      "image": "nonoxidative",
+      "e1_anchor": {
+        "quote": "muito NADPH e pouca ribose"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway nadph_max"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Selecionar o fluxo quando a demanda de NADPH predomina."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-nadph_atp",
+      "concept_id": "nadph_atp",
+      "visual_plan_id": "nadph_atp",
+      "visual_plan_link": "primary",
+      "text": "When NADPH and ATP are both required, resulting G3P enters <b>{{c1::glycolysis}}</b>.",
+      "extra": "Both PPP phases run; glycolysis supplies the ATP branch.",
+      "image": "overview",
+      "e1_anchor": {
+        "quote": "precisa de NADPH e de ATP"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway nadph_atp"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Prever o destino do carbono quando NADPH e ATP são pedidos."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-g6pd_regulation",
+      "concept_id": "g6pd_regulation",
+      "visual_plan_id": "g6pd_regulation",
+      "visual_plan_link": "primary",
+      "text": "A high NADPH/NADP+ ratio <b>{{c1::inhibits G6PD}}</b>.",
+      "extra": "NADP+ activates G6PD; consumption of NADPH therefore increases oxidative PPP flux.",
+      "image": "regulation",
+      "e1_anchor": {
+        "quote": "é ativada pelo NADP+ e inibida pelo NADPH"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway g6pd_regulation"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Usar a razão redox para prever o fluxo da via."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-gsh_regeneration",
+      "concept_id": "gsh_regeneration",
+      "visual_plan_id": "gsh_regeneration",
+      "visual_plan_link": "primary",
+      "text": "Glutathione reductase uses NADPH to regenerate <b>{{c1::GSH}}</b> from GSSG.",
+      "extra": "Reduced glutathione is the electron donor used to clear peroxides.",
+      "image": "glutathione",
+      "e1_anchor": {
+        "quote": "glutationa"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway gsh_regeneration"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Ligar NADPH à recarga da defesa antioxidante."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-gpx_function",
+      "concept_id": "gpx_function",
+      "visual_plan_id": "gpx_function",
+      "visual_plan_link": "primary",
+      "text": "Glutathione peroxidase neutralizes H2O2 by oxidizing <b>{{c1::GSH}}</b> to GSSG.",
+      "extra": "G6PD → NADPH → glutathione reductase → GSH → peroxide clearance.",
+      "image": "glutathione",
+      "e1_anchor": {
+        "quote": "peróxido"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway gpx_function"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Ligar glutationa reduzida à neutralização de peróxido."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-heinz_bodies",
+      "concept_id": "heinz_bodies",
+      "visual_plan_id": "heinz_bodies",
+      "visual_plan_link": "primary",
+      "text": "Oxidative stress in G6PD deficiency can form <b>{{c1::Heinz bodies}}</b> after hemoglobin denatures.",
+      "extra": "Oxidized hemoglobin precipitates, damages the membrane, and promotes hemolysis.",
+      "image": "clinical",
+      "e1_anchor": {
+        "quote": "corpos de Heinz"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway heinz_bodies"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Reconhecer a consequência molecular da falha antioxidante."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-g6pd_triggers",
+      "concept_id": "g6pd_triggers",
+      "visual_plan_id": "g6pd_triggers",
+      "visual_plan_link": "primary",
+      "text": "Primaquine, sulfonamides, infection, and fava beans can trigger <b>{{c1::hemolysis}}</b> in G6PD deficiency.",
+      "extra": "A crisis needs an oxidant load; asymptomatic baseline does not exclude the deficiency.",
+      "image": "clinical",
+      "e1_anchor": {
+        "quote": "A crise exige um oxidante"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway g6pd_triggers"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Reconhecer o padrão de crise hemolítica desencadeada."
+      }
+    },
+    {
+      "nebli_id": "pentoses-teste-g6pd_malaria",
+      "concept_id": "g6pd_malaria",
+      "visual_plan_id": "g6pd_malaria",
+      "visual_plan_link": "primary",
+      "text": "G6PD deficiency is <b>{{c1::X-linked}}</b> and offers partial protection against falciparum malaria.",
+      "extra": "Fragile erythrocytes impair the parasite cycle; protection is partial, not complete.",
+      "image": "clinical",
+      "e1_anchor": {
+        "quote": "malária"
+      },
+      "generation": {
+        "mode": "authorial",
+        "source_refs": [
+          "slides da aula",
+          "E1 ampliada"
+        ],
+        "external_probe": {
+          "queries": [
+            "pentose phosphate pathway g6pd_malaria"
+          ],
+          "decision": "redação independente; nenhum card externo adequado estava marcado no Anki local"
+        }
+      },
+      "semantic_review": {
+        "atomicity": "pass",
+        "induction": "pass",
+        "medical": "pass",
+        "reviewer": "self_audit_pentoses_v1"
+      },
+      "visual": {
+        "visual_need": "recommended",
+        "image_role": "mechanism",
+        "image_status": "pending_review",
+        "card_mode": "explanatory_image",
+        "placement": "extra",
+        "visual_task": "Conectar herança e vantagem seletiva da deficiência."
+      }
+    }
+  ]
+}

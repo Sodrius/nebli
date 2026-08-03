@@ -135,6 +135,26 @@ Feedback 2026-07-16: "formatação ainda está no padrão NEBLI, todos têm que 
 ## A21 — Erro factual ou card que não renderiza
 Feedback 2026-07-16: "esse card faz sentido? não seria mitose?" (conteúdo incorreto) e "esse card deu problema e não apareceu" (cloze quebrado). **Conserto:** todo card passa por checagem de veracidade (bate com a E1/bibliografia?) e de render (o cloze fecha, aparece no estudo). Card factualmente duvidoso volta pra prancheta antes de dessuspender.
 
+## A22 — Card sem rótulo temático neutro
+
+Todo card novo começa com uma ou duas palavras em negrito que o situam: `<b>Bioquímica.</b>`, `<b>Etimologia.</b>`, `<b>Sistema digestório.</b>`. O rótulo nunca contém a resposta, sinônimo ou pista. “Sistema renal” antes de pedir “rim” é indução excessiva; “Etimologia” antes de pedir “prefixo” é neutro.
+
+## A23 — Raiz óbvia sem ganho adicional
+
+`derm/o → pele`, `oste/o → osso` ou `mi/o → músculo` isolados costumam ter baixo ganho: o estudante já encontra essas formas com frequência. Só criar card se a raiz for realmente incerta/produtiva ou se o Extra introduzir composição útil e menos transparente, como `dermatomicose` ou `osteoclasia`. Exemplo banal no Extra (“dermatologia”) não justifica o card.
+
+## A24 — Extra que repete a frente ou apenas lista partes
+
+`Ex.: osteologia; referente a osso` e `Partes: oligo- + -dipsia` não reensinam nem expandem. O Extra, em até 25 palavras, deve cumprir uma função: definir termo novo, decompor **e interpretar**, comparar exemplos, ou marcar limite clínico. Ex.: `oligo- = pouco; -dipsia = sede → oligodipsia = sede reduzida.`
+
+## A25 — Contraste dividido em c1/c2 que se autoajuda
+
+Se duas ou três lacunas pertencem ao mesmo contraste inseparável, `c1/c2` gera cartões irmãos: ao ver uma resposta, o estudante resolve a outra por oposição. Usar o mesmo `c1` nas ocorrências e recuperar o conjunto inteiro em um único card. Não aplicar a fatos independentes.
+
+## A26 — Cloze longo em card de transferência
+
+“redução das linhagens sanguíneas” tem quatro palavras e permite respostas parcialmente corretas. Reescrever para o token discriminante: `pancitopenia reduz {{c1::três}} linhagens sanguíneas` ou pedir `{{c1::pancitopenia}}` a partir da decomposição. Máximo absoluto: três palavras; uma é o padrão.
+
 ## Gate-hard de imagem×card — CONSTRUÍDO 2026-07-16 (`flashcards/scripts/verificar_imagem_card.py`)
 Davi pediu "um gate-hard que só passa se a imagem fizer sentido com o card". A ideia inicial de "1 subtópico por imagem" **não basta**: os cards ruins já estão no subtópico certo e a imagem continua errada — o defeito é semântico. O gate tem 3 camadas: **L0** reuso determinístico (mesma imagem em alvos diferentes = suspeita; achou 43 no estoque); **L1** juiz multimodal Claude vision (MATCH/WEAK/MISMATCH + detecta print-de-texto); **L2** ação (MISMATCH → tira `<img>` + `img::substituir`; MATCH → `NEBLI::img_gate::ok`). **Sempre que um card novo com imagem for criado, rodar `verificar_imagem_card.py --nid <id>` antes de dessuspender** (hook do apply/pré-ship). Três assinaturas de falha catalogadas: figura de visão-geral de capítulo em card específico; print de texto virando imagem; mesma imagem reusada em cards não relacionados. **Autonomia (Davi 2026-07-16):** ele para de comentar card-a-card; eu identifico e conserto defeitos proativamente, inclusive sem comentário.
 

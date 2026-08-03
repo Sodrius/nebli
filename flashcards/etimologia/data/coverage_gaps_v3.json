@@ -1,0 +1,256 @@
+{
+  "lexicon_entries": 800,
+  "domains": {
+    "procedimentos_confundiveis": {
+      "target": 16,
+      "covered": 16,
+      "coverage_pct": 100.0,
+      "present": [
+        "-centese",
+        "-clasia",
+        "-dese",
+        "-ectomia",
+        "-pexia",
+        "-plastia",
+        "-rafia",
+        "-scopia",
+        "-stomia",
+        "-tomia",
+        "-tripsia",
+        "ablação",
+        "excisão",
+        "ressecção",
+        "anastomose",
+        "derivação"
+      ],
+      "missing": []
+    },
+    "sufixos_menos_expostos": {
+      "target": 17,
+      "covered": 17,
+      "coverage_pct": 100.0,
+      "present": [
+        "-atresia",
+        "-cele",
+        "-ectasia",
+        "-malácia",
+        "-ptose",
+        "-rrexis",
+        "-rragia",
+        "-rreia",
+        "-cinesia",
+        "-estesia",
+        "-acusia",
+        "-opsia",
+        "-osmia",
+        "-geusia",
+        "-dipsia",
+        "-orexia",
+        "-emese"
+      ],
+      "missing": []
+    },
+    "forma_estrutura_anatomica": {
+      "target": 17,
+      "covered": 17,
+      "coverage_pct": 100.0,
+      "present": [
+        "braqui-",
+        "dolico-",
+        "plati-",
+        "lepto-",
+        "paqui-",
+        "acin/o",
+        "trabecul/o",
+        "papil/o",
+        "vil/o",
+        "fascicul/o",
+        "lobul/o",
+        "foramin/o",
+        "fissur/o",
+        "sulc/o",
+        "antr/o",
+        "lumen",
+        "diverticul/o"
+      ],
+      "missing": []
+    },
+    "cor_aparencia": {
+      "target": 13,
+      "covered": 13,
+      "coverage_pct": 100.0,
+      "present": [
+        "alb/o",
+        "clor/o",
+        "cian/o",
+        "eritr/o",
+        "rubr/o",
+        "nigr/o",
+        "poli/o",
+        "xant/o",
+        "lute/o",
+        "glauc/o",
+        "purpur/o",
+        "hial/o",
+        "escler/o"
+      ],
+      "missing": []
+    },
+    "curso_temporal": {
+      "target": 15,
+      "covered": 15,
+      "coverage_pct": 100.0,
+      "present": [
+        "agudo",
+        "subagudo",
+        "crônico",
+        "recorrente",
+        "intermitente",
+        "paroxístico",
+        "persistente",
+        "transitório",
+        "congênito",
+        "adquirido",
+        "neonatal",
+        "perinatal",
+        "remitente",
+        "recidivante",
+        "fulminante"
+      ],
+      "missing": []
+    },
+    "patologia_discriminadores": {
+      "target": 10,
+      "covered": 10,
+      "coverage_pct": 100.0,
+      "present": [
+        "inflamação × infecção",
+        "infecção × colonização",
+        "exsudato × transudato",
+        "trombo × êmbolo",
+        "isquemia × infarto",
+        "obstrução × oclusão",
+        "estenose × atresia",
+        "erosão × úlcera",
+        "abscesso × fístula",
+        "neoplasia × hiperplasia"
+      ],
+      "missing": []
+    },
+    "semiologia_discriminadores": {
+      "target": 11,
+      "covered": 11,
+      "coverage_pct": 100.0,
+      "present": [
+        "disfagia × odinofagia",
+        "disfasia × disartria",
+        "parestesia × disestesia",
+        "náusea × vômito × regurgitação",
+        "dispneia × ortopneia",
+        "ortopneia × platipneia",
+        "trepopneia",
+        "anosmia × hiposmia × hiperosmia",
+        "anorexia × hiporexia × hiperorexia",
+        "hematêmese × hemoptise",
+        "melena × hematoquezia"
+      ],
+      "missing": []
+    },
+    "polissemia_falsa_segmentacao": {
+      "target": 10,
+      "covered": 10,
+      "coverage_pct": 100.0,
+      "present": [
+        "miel/o",
+        "cist/o",
+        "metr/o",
+        "vas/o",
+        "cerat/o",
+        "hematoma",
+        "íleo",
+        "metástase",
+        "diabetes-mellitus-insipidus",
+        "carcinoma-in-situ"
+      ],
+      "missing": []
+    },
+    "duplas_greco_latinas": {
+      "target": 12,
+      "covered": 12,
+      "coverage_pct": 100.0,
+      "present": [
+        "nefr/o × ren/o",
+        "oftalm/o × ocul/o",
+        "ot/o × aur/o",
+        "odont/o × dent/o",
+        "gloss/o × lingu/o",
+        "derm/o × cutane/o",
+        "fleb/o × ven/o",
+        "pneum/o × pulmon/o",
+        "hister/o × uter/o",
+        "orqu/o × testicul/o",
+        "mast/o × mam/o",
+        "encefal/o × cerebr/o"
+      ],
+      "missing": []
+    },
+    "farmacologia_linguagem": {
+      "target": 7,
+      "covered": 7,
+      "coverage_pct": 100.0,
+      "present": [
+        "farmacocinética × farmacodinâmica",
+        "potência × eficácia",
+        "agonista total × parcial × inverso",
+        "antagonista competitivo × não competitivo",
+        "tolerância × taquifilaxia",
+        "dependência × abstinência",
+        "efeito adverso × toxicidade × contraindicação"
+      ],
+      "missing": []
+    },
+    "nomenclatura_anatomica_latina": {
+      "target": 12,
+      "covered": 12,
+      "coverage_pct": 100.0,
+      "present": [
+        "musculus",
+        "nervus",
+        "arteria",
+        "vena",
+        "ligamentum",
+        "foramen",
+        "sulcus",
+        "fossa",
+        "facies",
+        "ramus",
+        "caput",
+        "corpus"
+      ],
+      "missing": []
+    }
+  },
+  "reserved_inference_terms": 300,
+  "reserved_target": 300,
+  "selection_policy_v3": {
+    "formula": "Q = 3T + 3C + 2E + 2R + F - 2O",
+    "T": "transferência (0–2)",
+    "C": "risco de confusão (0–2)",
+    "E": "déficit de exposição (0–2)",
+    "R": "reutilização (0–3)",
+    "F": "frequência curricular (0–3)",
+    "O": "obviedade para o estudante (0–2)",
+    "rule": "Frequência não vence sozinha; baixa exposição e confusão elevam prioridade, obviedade reduz cards isolados."
+  },
+  "required_next_blocks": [
+    "procedimentos e sufixos raros",
+    "forma e microarquitetura anatômica",
+    "semiologia discriminativa",
+    "patologia discriminativa",
+    "polissemias e falsas segmentações",
+    "duplas greco-latinas",
+    "linguagem farmacológica",
+    "nomenclatura anatômica latina",
+    "300 termos inéditos realmente reservados"
+  ]
+}
