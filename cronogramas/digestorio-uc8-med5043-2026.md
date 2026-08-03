@@ -2,6 +2,7 @@
 
 > Fontes: `cronograma Digestorio (UC-8 Med5043) 2026.pdf` (multidisciplinar) + `cronograma Anatomia Digestorio (UC-8) 2026.pdf` (detalhe de Anatomia). Digest assimilado 2026-08-03.
 > UC do sistema digestório, **multidisciplinar**: Anatomia · Biologia Tecidual II (Histologia) · Fisiologia · Biocel/Embriologia. **Duas provas** (P1, P2).
+> **Davi = Turma B** → as datas do Davi são a coluna **Turma B**. **P1 = 05/10** · **P2 = 30/11**. A Turma B começa 03/08 (14h-18h).
 
 ## Responsáveis (Anatomia)
 - **Coordenadora:** Profa. Dra. Patrícia Castelucci. Colaboradora: Nathalia Senger/Singer. 90 alunos, Turmas A e B.

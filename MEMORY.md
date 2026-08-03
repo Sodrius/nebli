@@ -8,6 +8,7 @@
 
 ## § Active Projects
 
+- **2º semestre 2026 ativo (virada 2026-08-03):** Davi passou para o **2º semestre**, cursando duas UCs em paralelo — **Ciclo da Vida I (UC-16, MSP 3161)** [Pediatria + Geriatria, prova final única 28-29/09] e **Digestório (UC-8, Med5043)** [Anatomia/Histologia/Fisiologia/Embrio, P1 05-08/out · P2 26-30/nov]. Davi é da **Turma B** (usar a coluna Turma B dos cronogramas). Cronogramas assimilados em `cronogramas/` (fontes PDF + digests `ciclo-da-vida-i-uc16-2026.md`, `digestorio-uc8-med5043-2026.md`, `README.md`). Ainda **sem** `banco/aulas_uc16.yml`/`aulas_uc8.yml` (novas UCs não têm banco de questões; resumos usam slide + bibliografia + AnKing). 1º resumo do 2º sem gerado: **Ciclo da Vida I Aula 1 — Crescimento e Desenvolvimento na Primeira Infância** (`pediatria-01-desenvolvimento-primeira-infancia`, Profa. Brentani) — 16 marcos AnKing curados + fila de NEBLIcards para o núcleo conceitual (AnKing é Step 1, não cobre pediatria conceitual BR).
 - **Subagentes REDATOR/QUESTIONADOR aposentados (2026-05-26):** sessão principal Claude Code (Opus) acumula ORQUESTRADOR + REDATOR + QUESTIONADOR no mesmo thread. CADERNISTA (Sonnet, pipeline determinístico) e COMPILADOR (local, bash) mantidos. Tentativa de reabilitar REDATOR-E1 em Opus 4.7 falhou em 2 spawns em 2026-05-28 — ver `ERROS.md` F9.
 - **Pipeline de cadernos automatizado (2026-05-25):** `typst-build/pipeline_caderno.py` orquestra gerar+render+audit+verify. Agente CADERNISTA em `ROLES.md` § Cadernista. Davi pede "faça a prova X da matéria Y" → `resumos-gerados/CADERNO-UC<N>-<P>.pdf`.
 - **Geração 20 (UC01 — 1º semestre):** ✅ ENCERRADA. 30/30 resumos entre 2026-05-14 e 2026-05-21.
@@ -265,7 +266,7 @@ Auditoria detalhada em `backups/pre-faxina-2026-05-29/raiz/CHANGELOG_CLAUDE.md` 
 
 ### Identidade do autor
 
-- **Davi Sousa** — aluno FMUSP turma 114, 1º ano (2026), UC01 ativa.
+- **Davi Sousa** — aluno FMUSP turma 114, 1º ano (2026). **2º semestre ativo (desde ago/2026): Ciclo da Vida I (UC-16) + Digestório (UC-8), Turma B.** (1º sem foi UC01/UC02.)
 - **Contato (rodapé da capa):** "Davi Sousa — Turma 114" / "(61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com".
 - **Conhecimento inicial:** ensino médio + meses de medicina, **com dificuldade real** no tema. Mecanismo antes de nome; jargão como etiqueta para conceito já entendido; pré-requisitos sempre retomados em 1-2 frases.
 

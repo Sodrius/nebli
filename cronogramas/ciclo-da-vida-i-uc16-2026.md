@@ -2,6 +2,7 @@
 
 > Fonte: `cronograma Ciclo da Vida I (UC-16) 2026.pdf` (Programa Geral oficial). Digest assimilado 2026-08-03.
 > UC compartilhada **Pediatria + Geriatria**. **Uma única prova final** cobre os dois componentes.
+> **Davi = Turma B** → as datas do Davi são a coluna **Turma B**. Aula 1 = **03/08**; prova final = **28/09/26**.
 
 ## Responsáveis
 - **Professores responsáveis:** Profa. Dra. Ana Maria de Ulhoa Escobar (Pediatria) · Prof. Dr. Eduardo Ferriolli (Geriatria).
