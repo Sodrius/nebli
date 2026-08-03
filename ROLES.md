@@ -21,6 +21,8 @@
 
 REDATOR-E1 e QUESTIONADOR como Task subagent foram suspensos em 2026-05-26 (ver `ERROS.md` § Erro 3 e F9). Permanecem aqui como **referência prescritiva** que a sessão principal lê e segue.
 
+**Deck-aula completo no `/resumo` (CANON 2026-08-03):** toda corrida fecha o deck-aula completo e já no Anki, das 3 fontes (AnKing curado → decks externos → NEBLIcards autorais para lacuna tipo-a), com `card-mirror` rodando sempre (por ora) e gate hard de completude nuclear. Papel operacional em `.claude/commands/resumo.md` passo 11; o **Revisor-completude** (§ abaixo) audita a completude mútua E1↔cards que esse fechamento exige.
+
 ---
 
 ## § Orquestrador

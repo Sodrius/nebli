@@ -130,13 +130,20 @@ E1 rascunho
    ↓
 E2 → E3  (já cobrando o conteúdo aprofundado)
    ↓
-   6. Re-check leve: conceito só-da-E2 sem card vira LACUNA; prova de cobertura X/Y COBERTOS
+   6. Re-check leve: conceito só-da-E2 sem card vira LACUNA; matriz por conceito
    7. Compilar PDF
-   8. Índice de completude no fechamento (E1×slide, E2×E1, Cards×E1 — 0 a 10)
-   9. Apply no deck via AnkiConnect + sync (quando Anki vivo)
+   ↓
+   MONTAGEM DO DECK-AULA COMPLETO (CANON 2026-08-03 — dentro do /resumo):
+   8. Externos: LACUNA tipo-b (visual/anato/histo) ← BlueLink/Dope/Histo/LLU/Dorian
+   9. Autorais: LACUNA tipo-a ← build_card.py --canonical → lint → card-mirror (sempre por ora) → e1_e2_contract
+   10. montar_deck_aula.py → copia AnKing+externos+autorais na árvore NEBLI (fontes intocadas), dessuspende, sync
+   11. gate_deck_aula_completo.py --verify-anki (HARD: todo nuclear COBERTO por card real; senão bloqueia)
+   12. Índice de completude no fechamento (E1×slide, E2×E1, Cards×E1 — 0 a 10)
 ```
 
-**Sem Anki vivo:** os passos 2-4 rodam do export (`anking-v12-export.txt`) como seleção offline; o aprofundamento nasce do mapa de cobertura + blueprint + bibliografia; o apply (passo 9) fica pendente até o Anki subir (a seleção fica pronta em `flashcards/curadoria/<slug>.md`). Foi assim no piloto embrio-gastrulacao-neurulacao (2026-07-10).
+**Ordem de prioridade das 3 fontes (sempre):** (1) AnKing curado → (2) deck externo de referência → (3) NEBLIcard autoral. Autoral é o último recurso, só para a lacuna tipo-a que as duas primeiras genuinamente não cobrem (probe do termo distintivo = 0). O deck fecha **completo e já no Anki** a cada `/resumo`; `PENDENTE-GERADO` deixou de ser estado de ship (a lacuna vira card autoral NESTA corrida — CANON 2026-08-03).
+
+**Sem Anki vivo:** os passos 2-4 rodam do export offline; montagem/apply (10-11) ficam pendentes até o Anki subir (a seleção + os autorais gerados ficam prontos em `flashcards/curadoria/<slug>.md` + `flashcards/cards-nebli/<slug>.json`). Com Anki vivo (default agora), o `/resumo` fecha o deck inteiro sozinho.
 
 **Índice de completude Cards×E1 (0-10):** o X/Y COBERTOS da prova de cobertura vira uma das 3 notas do relatório de fechamento (ver `ROLES.md` § Índice de completude). Meta ≥7; lacuna aponta fonte.
 
@@ -251,7 +258,7 @@ Quando duas ou três lacunas constituem um único contraste ou conjunto insepar�
 
 **Anti-padrões (rejeitar):** enumeração empilhada num card; definição nua; multi-fact cloze com brancos independentes; Extra que repete a frente; cloze ambíguo; conceito fora da E1; escopo Step 2.
 
-**Quando gerar no pipeline:** Fase dedicada, NÃO no `/resumo` automático. Só após a curadoria AnKing fechar e restarem lacunas tipo-a com fonte apontada. Grava em `flashcards/cards-nebli/<slug>.json`. Ver `PESQUISA-BOM-CARD.md` Parte 4 (spec) e a fila `PENDENTE-GERADO`.
+**Quando gerar no pipeline (CANON 2026-08-03 — REVERTE "fase dedicada separada"):** DENTRO do `/resumo`, na montagem do deck-aula completo (passo 11.3 / `resumo.md`). Após a curadoria AnKing + os decks externos fecharem, toda lacuna **tipo-a** restante (AnKing e externo = 0 no probe do termo distintivo) vira NEBLIcard autoral **nesta mesma corrida**, via `build_card.py --canonical`. Gates em série que **bloqueiam**: `lint_neblicard.py` → **`card-mirror` (roda SEMPRE por ora — período de aprendizado do gerador; relaxar quando não render mais benefício)** → `e1_e2_contract.py`. Entra **auto-dessuspenso** no deck (aparece no estudo já); QA fina é pós-hoc pelas bandeiras. Grava em `flashcards/cards-nebli/<slug>.json`. Ver `PESQUISA-BOM-CARD.md` Parte 4 (spec). Continua sendo o **último recurso** na ordem de prioridade (AnKing → externo → autoral), nunca o padrão — mas agora fecha no `/resumo`, não é diferido.
 
 **Auditoria 2026-07-14 — rebuild obrigatório dos autorais prontos.** Decisão incorporada ao pipeline: embrio-01, embrio-02-03 e biomol-25 precisam rebuild completo; bioq-21 e bioq-23 precisam normalização e imagem/card-mirror. Não aplicar lote antigo sem passar pela rubrica e pelo linter.
 
@@ -411,7 +418,7 @@ Docker com Anki + AnkiConnect deve estar rodando.
 - **ANATO-06 — 3 LACUNAs abertas:** anatomia venosa periférica, sistema ázigo, drenagem linfática torácica → buscar em deck Netter ou Anatomy in Clinical Context; documentar no manifesto
 - **Loop card→E1 — primeiro piloto:** testar na próxima aula curada; documentar o que funcionou
 - **`gerar_checklist.py` — adicionar leitura da E2:** extrair conceitos testados nas 30 questões e adicionar ao `.tsv` com origem `E2` *(já lê do Tema Card via `ler_subtopicos_card()` — pendente só a leitura de `etapa2.typ`)*
-- **Cards NEBLI autorais (PENDENTE-GERADO):** só após calibrar padrão com cards reais do AnKing; não gerar ainda
+- **Cards NEBLI autorais:** ~~só após calibrar; não gerar ainda~~ → **SUPERSEDED (CANON 2026-08-03):** geram-se DENTRO do `/resumo` para lacuna tipo-a, com `card-mirror` rodando SEMPRE como o próprio período de calibração/aprendizado (relaxar quando não render mais). Ver § Histórico 2026-08-03.
 - **Ctrl+1 quebrado no Anki do Davi:** o add-on `flashcards/anki-addons/nebli_flag_suspender/` não está funcionando. Contorno atual: Davi usa laranja+vermelha como equivalentes (ver § Bandeiras). Investigar por que o atalho não pega (versão do Anki? conflito de add-on? hook mudou?)
 - **Add-on de tirar dúvida dentro do Anki:** pesquisar/avaliar um add-on que permita perguntar direto no Anki (LLM no card) — para o Davi resolver dúvida sem sair do estudo
 - **Add-on dicionário de termos médicos (tipo AMBOSS, grátis):** pesquisar um add-on com dicionário/hover de termos médicos gratuito, para reduzir atrito no estudo
