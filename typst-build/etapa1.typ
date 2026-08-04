@@ -1,188 +1,145 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-  Nos primeiros anos de vida, o cérebro de uma criança faz algo que nenhum órgão adulto repete: constrói-se a si mesmo em resposta ao que vive. Não é um adulto pequeno esperando crescer — é um sistema em obra, montando a própria arquitetura a partir da experiência. Este resumo persegue uma única ideia, por três caminhos. Primeiro, o que os estudiosos entenderam por *desenvolvimento* e as lentes que criaram para enxergá-lo. Depois, o motor biológico por baixo de tudo: o cérebro plástico e a janela estreita em que ele mais se deixa moldar. Por fim, o que acontece quando o ambiente ajuda — ou machuca — essa construção, e como o pediatra vigia, mede e protege esse processo. A pergunta de fundo é sempre a mesma: por que os primeiros anos decidem tanto do que vem depois.
+  Toda imagem médica é uma sombra — o registro de uma única interação física entre um sinal e o corpo. Um aparelho de ultrassom escuta ecos; um tomógrafo mede o quanto um feixe de raios-X foi freado; uma ressonância ouve o sinal que os prótons de água devolvem dentro de um ímã. Cada método enxerga por uma física diferente, e é essa física — não um capricho — que decide o que ele mostra com nitidez, o que ele é simplesmente cego para ver, e quando vale a pena pedi-lo. Este resumo persegue essa ideia por três caminhos. Primeiro, as três físicas que separam os quatro grandes métodos e por que a pergunta clínica vem sempre antes do exame. Depois, cada método visto pelo seu par inseparável de talento e cegueira. Por fim, os recursos que refinam a leitura — o contraste, as fases, as janelas — e como tudo isso reaparece na decisão à beira do leito. A régua de fundo é uma só: entender a física é entender por que aquele exame, e não outro.
 ]
 
-#parte-title("PARTE I — O que é desenvolvimento e as lentes para enxergá-lo", primeira: true)
+#parte-title("PARTE I — A pergunta clínica e as três físicas da imagem", primeira: true)
 
-#subtopico("1.1 — Do \"adulto em miniatura\" ao desenvolvimento por maturação")
+#subtopico("1.1 — A pergunta vem antes do aparelho")
 
-Por muito tempo a infância simplesmente não existia como categoria. Até o século XVII, passada a primeira infância, a criança era tratada como um indivíduo comum em tamanho reduzido — um adulto em miniatura, com as mesmas roupas, os mesmos deveres e nenhuma expectativa de que pensasse ou sentisse de modo próprio. A virada veio com o Iluminismo. Rousseau propôs que a criança nasce com um plano interno que se realiza por etapas até a vida adulta — a ideia, ainda tosca, de que existe um percurso próprio da infância.
+Antes de qualquer máquina existe uma decisão que é clínica, não técnica: qual pergunta eu preciso responder nesta criança, neste trauma, nesta dor abdominal. O exame escolhido no impulso não apenas deixa de responder — ele gasta tempo, dinheiro e, em metade dos métodos, expõe o paciente à radiação sem retorno. Para disciplinar essa escolha existem diretrizes que pontuam, para cada cenário clínico, o quanto cada exame é adequado. O #termo-nota[ACR Appropriateness Criteria][diretrizes do Colégio Americano de Radiologia que pontuam, por cenário clínico, qual exame de imagem é mais adequado] usa uma escala simples de 1 a 9: de 1 a 3 o exame é considerado não apropriado para aquela situação, de 4 a 6 pode ser apropriado, e de 7 a 9 é apropriado. O que a escala materializa é o raciocínio que sustenta toda esta aula — o método certo é o que mostra melhor o que se procura, descontado o risco que ele impõe e a facilidade de obtê-lo.
 
-Esse germe amadureceu, entre o fim do século XVIII e o início do XX, na chamada *teoria organicista*: a criança se desenvolve à medida que seus órgãos amadurecem, e cada órgão mais maduro permite funções cada vez mais complexas. É daqui que nasce a noção de #termo-nota[marco do desenvolvimento][habilidade esperada para uma idade — sentar, andar, falar — que sinaliza a maturação de um sistema] — sustentar a cabeça, sentar, andar, falar. O ponto que fica desta primeira lente é mecânico e vale para tudo o que vem a seguir: *desenvolver é ganhar função porque uma estrutura amadureceu*. A habilidade nova não aparece por acaso; ela é o sinal externo de que algo, por dentro, ficou pronto.
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-03.png",
+  largura: 54%,
+  legenda: [Os critérios de adequação do ACR pontuam cada exame de 1 a 9 para um dado cenário clínico: 1–3 não apropriado, 4–6 pode ser, 7–9 apropriado. A pergunta clínica escolhe o exame, não o contrário.])
 
-#subtopico("1.2 — Quatro lentes teóricas complementares")
+#subtopico("1.2 — Três físicas, quatro métodos")
 
-Se a maturação dos órgãos explica o *quando*, ela não explica sozinha o *como* a criança constrói uma mente. Ao longo do século XX, quatro grandes teóricos ofereceram lentes diferentes — e complementares, não concorrentes — para esse mesmo processo. Vale conhecê-las porque cada uma ilumina um pedaço que as outras deixam na sombra.
+Há basicamente três maneiras de arrancar uma imagem do interior do corpo, e conhecê-las de saída organiza todo o resto. A primeira usa _som_: um pulso de ultrassom de alta frequência entra pela pele e o aparelho fica à escuta dos ecos que voltam cada vez que o som cruza a fronteira entre dois tecidos diferentes — é a #termo-nota[ultrassonografia][método que forma imagem a partir dos ecos de um pulso de ultrassom refletido nas interfaces entre tecidos] (#sigla("US", [ultrassonografia])). A segunda usa _raios-X_: um feixe atravessa o corpo e é freado — atenuado — em graus diferentes por osso, água, gordura e ar; o que escapa sensibiliza um detector do outro lado. Quando o feixe registra uma única projeção, temos a #termo-nota[radiografia][imagem de uma única projeção de raios-X, em que todas as estruturas no caminho do feixe se somam numa sombra plana] (#sigla("RX", [radiografia convencional])); quando o tubo gira em torno do paciente e um computador reconstrói cortes finos, temos a #sigla("TC", [tomografia computadorizada]). A terceira usa _campo magnético_: os prótons de hidrogênio, abundantíssimos na água e na gordura do corpo, alinham-se dentro de um ímã potente, são cutucados por ondas de rádio e devolvem um sinal enquanto relaxam de volta — é a #sigla("RM", [ressonância magnética]). A síntese que fica para toda a aula é que a imagem é a _sombra_ de uma dessas interações. Troque a física, e muda o que aparece.
 
-Jean Piaget olhou para a #termo-nota[cognição][o conjunto dos processos de conhecer: perceber, raciocinar, lembrar, resolver problemas]. Para ele, a criança não recebe conhecimento passivamente: ela o *constrói ativamente* interagindo com o mundo, e passa por estágios com formas de pensar qualitativamente distintas. No estágio sensório-motor (0–2 anos), o bebê conhece pelo corpo — toca, leva à boca, sacode — e conquista a #termo-nota[permanência do objeto][entender que uma coisa continua existindo mesmo quando sai de vista; firma-se por volta dos 8–9 meses], a descoberta de que o objeto que sumiu de vista continua existindo — conquista que se firma por volta dos 8 a 9 meses e que, não por acaso, coincide com o surgimento da ansiedade diante de estranhos: o bebê agora guarda a imagem do cuidador e percebe quem *não* é ele. No pré-operacional (2–7 anos), surgem símbolos, linguagem e imaginação, mas o pensamento ainda é egocêntrico — a criança custa a sair do próprio ponto de vista. No operatório concreto (7–11 anos), o raciocínio lógico se firma sobre coisas concretas; e só no operatório formal (12 anos em diante) o pensamento abstrato e hipotético se abre por completo.
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-05.png",
+  largura: 58%,
+  legenda: [Os quatro métodos de base — RX, US, TC e RM — e, ao redor, as variações que derivam deles. Toda a família se organiza pelas três físicas: som, raios-X e campo magnético.])
 
-Erik Erikson mudou a lente do cognitivo para o afetivo e social. O desenvolvimento, para ele, avança pela resolução de uma sequência de crises psicossociais — cada fase da vida coloca um conflito, e resolvê-lo bem deixa como saldo uma virtude. No primeiro ano e meio, a criança vive *confiança versus desconfiança*: se o cuidado é previsível e responsivo, ela sai com a virtude da esperança. Vêm depois *autonomia versus vergonha* (a virtude da vontade), *iniciativa versus culpa* (o propósito), *indústria versus inferioridade* (a competência) e, na adolescência, *identidade versus confusão de papéis* (a lealdade). A leitura que fica é que o vínculo com o cuidador não é pano de fundo — é o material com que a criança constrói a confiança básica em si e no mundo.
+#subtopico("1.3 — O eixo que atravessa tudo: radiação ionizante ou não")
 
-As duas últimas lentes puxam o foco para fora da criança. Urie Bronfenbrenner desenhou um *modelo ecológico*: o desenvolvimento acontece dentro de sistemas encaixados como bonecas russas. O microssistema é o contato direto (família, escola); o mesossistema são as interações entre esses contatos; o exossistema são ambientes que afetam a criança sem que ela participe (o trabalho dos pais, por exemplo); o macrossistema são os valores e políticas da cultura; e o cronossistema é o próprio tempo histórico. Lev Vygotsky, por sua vez, colocou a interação social no centro do desenvolvimento cognitivo. Seu conceito mais útil na clínica é a #termo-nota[zona de desenvolvimento proximal][a distância entre o que a criança faz sozinha e o que consegue com ajuda de alguém mais capaz] (ZDP)#h(0pt) — a distância entre o que a criança já faz sozinha e o que ela consegue fazer com a ajuda de um adulto ou de um colega mais capaz. É nessa faixa, com mediação pela linguagem, que o aprendizado efetivamente ocorre.
+Uma única propriedade divide os quatro métodos em dois campos e reaparece em cada decisão adiante: se o método usa ou não radiação ionizante. Raios-X são #termo-nota[radiação ionizante][radiação com energia suficiente para arrancar elétrons de átomos, podendo danificar o DNA e, a longo prazo, aumentar risco de câncer] — carregam energia bastante para arrancar elétrons das moléculas e, com isso, lesar o DNA. Por isso RX e TC têm um custo biológico que se acumula com a dose, e esse custo pesa muito mais na criança, cujas células em divisão são mais radiossensíveis e que tem a vida inteira pela frente para expressar um dano tardio, e na gestante, pelo feto. O ultrassom (som) e a ressonância (campo magnético e ondas de rádio) não empregam radiação ionizante — são, nesse eixo, seguros para repetir e para populações vulneráveis. Guardar de qual campo cada método vem é o primeiro filtro de segurança que o clínico aplica antes mesmo de pensar em qual mostra melhor.
+
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-06.png",
+  largura: 60%,
+  legenda: [Os quatro métodos lado a lado. Cada um resolve bem uma faixa de densidades e é limitado justamente onde outro método brilha — a razão pela qual eles se complementam em vez de competir.])
+
+#mini-resumo[A pergunta clínica precede o exame (ACR, escala 1–9). Três físicas geram os quatro métodos: som (US), raios-X (RX e TC) e campo magnético (RM). RX e TC usam radiação ionizante — custo que pesa em criança e gestante; US e RM, não.]
+
+#parte-title("PARTE II — Os quatro métodos, cada um pelo seu talento e sua cegueira")
+
+#subtopico("2.1 — Ultrassonografia: a imagem feita de ecos")
+
+O transdutor do ultrassom faz duas coisas em rápida alternância: emite um pulso curtíssimo de som e, no intervalo, escuta o que volta. Cada vez que o pulso cruza a fronteira entre dois tecidos de densidades diferentes, parte dele é refletida de volta como eco. O tempo que o eco leva para retornar diz ao aparelho a _profundidade_ daquela interface; a intensidade do eco diz o quanto aquela estrutura reflete — sua #termo-nota[ecogenicidade][o quanto uma estrutura reflete o ultrassom; o que reflete muito aparece claro (hiperecoico), o líquido puro não reflete e aparece preto (anecoico)]. Estruturas que refletem muito aparecem claras (hiperecoicas); um líquido puro, como o conteúdo de um cisto ou a urina na bexiga, quase não reflete e aparece preto (anecoico). Daí saem os talentos do método. Como a imagem se forma em tempo real, o US é _dinâmico_ — vê o coração batendo, a alça peristaltando, e, pelo #termo-nota[Doppler][técnica de ultrassom que detecta a mudança de frequência do eco causada pelo movimento do sangue, mapeando fluxo e vasos], o sangue fluindo, porque o movimento do sangue muda a frequência do eco. É portátil e vai até o leito, não usa radiação e é imbatível para caracterizar líquidos e partes moles superficiais.
+
+A mesma física que dá os talentos impõe a cegueira. Quando a diferença de densidade na interface é enorme — tecido contra _ar_, ou tecido contra _osso_ —, praticamente todo o som é refletido de uma vez, e nada chega ao que está atrás: forma-se uma #termo-nota[sombra acústica][zona escura atrás de uma estrutura que reflete ou absorve quase todo o som, como osso, cálculo ou gás intestinal] posterior. É por isso que gás em alça intestinal, pulmão cheio de ar e osso são barreiras para o ultrassom, e por que uma camada espessa de gordura, que atenua o som no caminho, degrada a imagem de pacientes obesos. A cegueira do US não é fraqueza do aparelho — é a impedância acústica das interfaces fazendo exatamente o que a física manda.
+
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-11.png",
+  largura: 64%,
+  legenda: [US de abdome: fígado, pâncreas e veia cava inferior distinguidos pela ecogenicidade. Estruturas sólidas dão ecos organizados; vasos e líquidos aparecem escuros.])
+
+#figura-lateral("/figuras/radiologia-01-ferramentas-diagnostico/slide-13.png",
+  lado: "right",
+  largura-figura: 40%,
+  texto: [O osso barra o som — mas no recém-nascido a fontanela ainda é uma janela membranosa, sem osso fechado. Por ela o ultrassom alcança o cérebro sem radiação nem sedação, e por isso a ultrassonografia transfontanela é o primeiro exame do encéfalo do neonato.],
+  legenda: [US transfontanela: a fontanela aberta como janela acústica.])
+
+#subtopico("2.2 — Tomografia computadorizada: densidade virada tom de cinza")
+
+Na tomografia, o tubo de raios-X gira em volta do paciente disparando feixes de vários ângulos, e detectores medem quanto de cada feixe sobrou depois de atravessar o corpo. Um computador cruza essas medidas e reconstrói cortes finos, atribuindo a cada pontinho da imagem um número que traduz o quanto aquele tecido _freou_ o feixe — a atenuação, medida em #termo-nota[unidades Hounsfield][escala de atenuação da TC: a água vale 0, o ar cerca de −1000, a gordura é negativa e o osso, muito positivo; cada valor vira um tom de cinza]. Por convenção, a água vale zero, o ar fica perto de −1000, a gordura é negativa e o osso, fortemente positivo. Cada número desses é então convertido num tom de cinza. Como o olho não distingue mil tons de uma vez, o radiologista escolhe uma #termo-nota[janela][faixa de valores de atenuação exibida como a escala de cinzas; a janela de parênquima realça partes moles, a janela óssea realça o osso]: a janela de parênquima espalha os cinzas na faixa das partes moles, a janela óssea os espalha na faixa do osso — a mesma aquisição, lida de dois jeitos.
+
+Os talentos vêm dessa engenharia. A TC é rápida — uma varredura leva segundos, o que a torna o exame do trauma e da urgência, em que o paciente não coopera muito tempo. Tem altíssima resolução espacial, resolve detalhes finos e, por reconstruir volume, permite ver o mesmo corte nos planos axial, coronal e sagital. O custo é duplo e coerente com a física: por usar raios-X, entrega radiação ionizante — a TC é hoje a maior fonte de exposição médica —, e boa parte de suas aplicações depende de injetar contraste, que traz seus próprios riscos, como veremos.
+
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-21.png",
+  largura: 72%,
+  legenda: [A mesma TC de crânio em duas janelas. À esquerda, a janela de parênquima realça o tecido cerebral; à direita, a janela óssea realça a calota. Trocar a janela é reler os mesmos números de atenuação.])
+
+#subtopico("2.3 — Ressonância magnética: o sinal dos prótons de água")
+
+A ressonância não usa raios nenhum. Ela aproveita que o corpo é feito majoritariamente de água e gordura, ambas ricas em prótons de hidrogênio, e que cada próton se comporta como uma minúscula bússola. Dentro do ímã potente do aparelho, essas bússolas se alinham; um pulso de ondas de rádio as inclina para fora do alinhamento; e, quando o pulso cessa, elas relaxam de volta devolvendo um sinal de rádio que a máquina capta. O detalhe decisivo é que a _velocidade_ desse relaxamento difere entre os tecidos, e é dessa diferença que nasce o contraste da imagem. Duas constantes descrevem o relaxamento e dão nome às duas sequências básicas. A regra prática vale mais que a física fina no primeiro contato: nas imagens ponderadas em #termo-nota[T1][sequência de RM em que a gordura aparece clara e a água/líquido aparece escuro; boa para detalhe anatômico], a gordura aparece clara e a água escura — excelente para anatomia; nas ponderadas em #termo-nota[T2][sequência de RM em que a água/líquido aparece claro; boa para detectar edema e lesões, que retêm água], a água aparece clara — e como quase toda lesão inflama e retém água, a T2 é a sequência que faz a doença brilhar. Quando a gordura clara da T1 atrapalha, aplica-se a supressão de gordura (#termo-nota[fat sat][supressão do sinal da gordura na RM, para que uma lesão não fique escondida pelo brilho do tecido gorduroso]), que apaga o sinal do tecido gorduroso e revela o que ele escondia.
+
+O talento da RM é sua resolução de _contraste_ entre partes moles, insuperável — ela distingue substância branca de cinzenta no cérebro, enxerga a medula, a cartilagem, os detalhes do fígado —, e faz isso sem radiação ionizante. Os custos, de novo, saem da física. O exame é demorado, de vários minutos parado e sensível a movimento, o que obriga a sedar crianças pequenas e pacientes claustrofóbicos. E o campo magnético é intenso o bastante para _deslocar ou aquecer_ estruturas ferromagnéticas: um marca-passo, certos clipes e implantes metálicos são contraindicações que precisam ser rastreadas antes de o paciente entrar na sala. O contraste próprio da RM, o gadolínio, será visto adiante.
+
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-24.png",
+  largura: 74%,
+  legenda: [O mesmo abdome superior em várias sequências de RM. Repare como a água (bile, líquor, urina) inverte de escura em T1 para clara em T2, e como o fat sat apaga o brilho da gordura — cada sequência conta uma parte da história.])
+
+#subtopico("2.4 — Radiografia convencional: a sombra que se soma")
+
+A radiografia é o método mais antigo e mais simples, e entendê-lo como _projeção única_ explica tudo. O feixe atravessa o corpo numa direção só e sensibiliza o detector do outro lado; todas as estruturas que estiverem no caminho — pele, músculo, osso, órgão — somam suas sombras numa imagem plana. Daí vêm os talentos: é rápida, barata, disponível à beira-leito, e resolve muito bem os extremos de densidade — o osso, que freia muito o feixe e aparece branco, e o _ar_, que quase não o freia e aparece preto. Por isso o RX brilha no tórax, na detecção de gás livre na cavidade (o #termo-nota[pneumoperitônio][ar livre na cavidade peritoneal, sinal de perfuração de víscera oca; no RX em ortostase aparece como crescente de ar sob o diafragma]) e nos níveis hidroaéreos das alças. O limite é o reverso da mesma moeda: como as sombras se somam, uma lesão pode ficar _escondida_ atrás de outra estrutura — é a sobreposição —, a resolução de contraste entre partes moles é pobre, e não há cortes; tudo é um plano só. É exatamente essa sobreposição que a TC resolve, ao seccionar o corpo em fatias.
+
+Reunindo os quatro, o quadro abaixo condensa o par talento–limitante de cada método — o cruzamento de dimensões que justifica sair da prosa para uma tabela.
 
 #table(
-  columns: (10em, 1fr),
+  columns: (7em, 1fr, 1fr, 6em),
   inset: 7pt,
   align: left + horizon,
   stroke: 0.5pt + gray-border,
   fill: (_, row) => if row == 0 { navy } else { white },
   table.header(
-    text(fill: white, weight: "bold", font: titulo-fam)[Teoria (autor)],
-    text(fill: white, weight: "bold", font: titulo-fam)[O que a lente enxerga],
+    text(fill: white, weight: "bold", font: titulo-fam)[Método],
+    text(fill: white, weight: "bold", font: titulo-fam)[Talento],
+    text(fill: white, weight: "bold", font: titulo-fam)[Limitante],
+    text(fill: white, weight: "bold", font: titulo-fam)[Radiação],
   ),
-  [*Cognitiva* — Piaget], [A criança constrói o conhecimento em estágios; o pensamento muda de forma, não só de tamanho.],
-  [*Psicossocial* — Erikson], [Cada fase resolve uma crise; o vínculo com o cuidador gera a confiança básica.],
-  [*Ecológica* — Bronfenbrenner], [O desenvolvimento mora em sistemas encaixados: da família à cultura ao tempo histórico.],
-  [*Sociocultural* — Vygotsky], [Aprende-se na interação social, dentro da zona de desenvolvimento proximal, mediado pela linguagem.],
+  [*US*], [Tempo real, dinâmico, leito, sem radiação; líquidos e partes moles], [Gás, gordura e osso barram o som (sombra acústica)], [Não],
+  [*TC*], [Rápida, alta resolução espacial, cortes em qualquer plano], [Radiação; depende de contraste iodado (risco renal)], [Sim],
+  [*RM*], [Resolução de contraste de partes moles insuperável], [Demorada; sedação; contraindicação ferromagnética], [Não],
+  [*RX*], [Rápida, barata, leito; osso e ar], [Sobreposição; baixa resolução de moles; sem cortes], [Sim],
 )
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-03.png",
-  largura: 62%,
-  legenda: [Piaget descreve *como* a criança pensa em cada idade; Erikson, *qual conflito emocional* ela resolve. As duas lentes correm em paralelo na mesma criança.])
-
-#subtopico("1.3 — O que é desenvolvimento, afinal — e em quantas frentes ele corre")
-
-Reunindo as lentes, chega-se à definição operacional que a #sigla("SBP", [Sociedade Brasileira de Pediatria]) adota e que orienta a prática: desenvolvimento é um processo que começa na concepção e envolve a maturação em várias frentes — neurológica, comportamental, cognitiva, social e afetiva —, tendo como produto tornar a criança *competente* para responder às próprias necessidades e às do meio, considerando o contexto em que vive. Duas coisas nessa frase merecem peso. Começar "na concepção" já avisa que o período intrauterino conta. E terminar em "competência considerando o contexto" avisa que não existe desenvolvimento no vácuo — ele é sempre desenvolvimento *para* um ambiente.
-
-Justamente por correr em várias frentes ao mesmo tempo, a #sigla("OMS", [Organização Mundial da Saúde]) organiza o desenvolvimento em domínios, e conhecê-los é o que permite ao pediatra não olhar só para "a criança anda?". São eles o motor (grosso, dos grandes músculos, e fino, da pinça e do traço), a linguagem (compreender e se expressar), a cognição (adquirir conhecimento, memória, resolver problemas), as funções executivas (memória de trabalho, foco, autorregulação, flexibilidade mental), o temperamento (como a criança sente e expressa emoções), o socioemocional (regular as respostas emocionais na interação) e as habilidades adaptativas (dar conta das tarefas do dia a dia). O aluno leva daqui uma disposição de olhar: uma criança pode ir bem no motor e mal na linguagem — e é o mapa dos domínios que impede que um atraso passe despercebido só porque outra frente vai bem.
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-06.png",
-  largura: 66%,
-  legenda: [Os domínios do desenvolvimento (OMS). Avaliar "o desenvolvimento" é avaliar todas essas frentes — não apenas a motora, que é a mais visível.])
-
-#mini-resumo[Desenvolver é ganhar função porque uma estrutura amadureceu. Quatro lentes complementares (Piaget/cognição, Erikson/vínculo, Bronfenbrenner/contexto, Vygotsky/interação) descrevem esse ganho, que a OMS organiza em domínios — motor, linguagem, cognição, funções executivas, temperamento, socioemocional e adaptativo.]
-
-#parte-title("PARTE II — O motor biológico: cérebro plástico e a janela dos primeiros anos")
-
-#subtopico("2.1 — Habilidades se constroem em camadas")
-
-O Center on the Developing Child, de Harvard, resumiu numa imagem o que há de mais importante nesta parte: a criança adquire habilidades como se constrói uma casa. As habilidades iniciais são as fundações; sobre elas se assentam habilidades mais complexas, andar por andar, em ordem crescente de sofisticação. A consequência é direta e severa: fundações sólidas permitem o desenvolvimento pleno, enquanto fundações frágeis limitam tudo o que se tentar construir por cima. Um atraso de linguagem aos dois anos não fica confinado à linguagem — ele empobrece o tijolo sobre o qual viriam a leitura, o raciocínio verbal e a vida escolar. É por isso que os primeiros anos pesam tanto: não porque o que se aprende neles seja "mais importante" em si, mas porque é *base* de todo o resto.
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-07.png",
-  largura: 56%,
-  legenda: [A habilidade nova se apoia nas anteriores. Fundação frágil não derruba só um andar — encolhe todos os que viriam acima.])
-
-#subtopico("2.2 — Plasticidade: como o cérebro se esculpe pela experiência")
-
-Sob a metáfora da casa há biologia concreta, e ela é o coração deste resumo. O #termo-nota[neurônio][a célula do sistema nervoso que conduz e transmite sinais] passa sinais a outros neurônios pelas #termo-nota[sinapses][pontos de contato onde um neurônio transmite sinal a outro], os pontos de contato entre células. Nos primeiros anos, o cérebro faz essas conexões numa velocidade que nunca mais repetirá: o número de sinapses aumenta de forma explosiva logo após o nascimento — é a #termo-nota[sinaptogênese][formação de novas sinapses, intensíssima nos primeiros anos de vida]. O bebê produz sinapses em enorme excesso, muito além do que usará. Aos dois anos, o cérebro já desenvolveu cerca de 80% da capacidade que terá.
-
-O detalhe decisivo é o que acontece com esse excesso. As conexões que são usadas — porque a experiência as ativa repetidamente — se fortalecem e permanecem; as que ficam ociosas são eliminadas, num processo de #termo-nota[poda sináptica][eliminação das sinapses pouco usadas, refinando os circuitos conforme a experiência]. É a experiência, portanto, que decide quais circuitos ficam de pé. Em paralelo, os axônios vão sendo revestidos de #termo-nota[mielina][bainha lipídica que envolve o axônio e acelera muito a condução do sinal], a bainha que acelera a transmissão — a #termo-nota[mielinização][revestimento progressivo dos axônios por mielina, que continua por anos e amadurece por último no córtex pré-frontal] avança por regiões, terminando por último no córtex pré-frontal, sede do planejamento e do autocontrole. O resultado dessa tríade — produzir em excesso, podar pelo uso, mielinizar — é um cérebro que se especializa no ambiente concreto em que vive.
-
-Esses períodos de altíssima #termo-nota[plasticidade][a capacidade do cérebro de mudar sua estrutura e função em resposta à experiência] são as chamadas *janelas de oportunidade*, ou #termo-nota[período crítico][fase em que um circuito precisa de um certo estímulo para se formar bem; fora dela, o ganho fica muito mais difícil]. Em certas funções, se o estímulo esperado não chega dentro da janela, o circuito se forma mal e recuperar depois é muito mais custoso — o exemplo clássico é o da visão: um olho privado de imagem nítida nos primeiros anos perde permanentemente parte da acuidade, ainda que o olho em si seja perfeito, porque o córtex visual não recebeu o estímulo na hora de se organizar. Em outras funções, a janela é mais frouxa (um *período sensível*), em que o aprendizado é mais fácil dentro dela mas ainda possível depois. Fica a distinção que sustenta metade da clínica do desenvolvimento: *a janela não fecha a porta para sempre, mas o preço de entrar atrasado sobe rápido*.
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-10.png",
-  largura: 72%,
-  legenda: [A densidade de conexões dispara do recém-nascido aos 2 anos e depois é refinada pela poda. Não é o número de neurônios que a experiência mais muda — é a floresta de sinapses entre eles.])
 
 #confusao-prevista(
-  titulo: "A experiência não faz mais neurônios — faz (e desfaz) conexões",
-  aluno_acha: [o aluno tende a achar que estimular a criança "cria mais neurônios", como se o ganho fosse de células],
-  mecanismo: [o que a experiência mais esculpe são as *sinapses*: fortalece as usadas e poda as ociosas. O número de neurônios muda pouco; o que floresce ou murcha é a rede de conexões entre eles. Por isso privação e estímulo se inscrevem tão fundo — eles editam o cabeamento, não a contagem de peças.],
+  titulo: "O ultrassom não é barrado por osso e gás por ser fraco",
+  aluno_acha: [o aluno tende a achar que o US falha em osso e gás porque o aparelho é pouco potente, e que bastaria aumentar a força],
+  mecanismo: [a barreira é a diferença brutal de densidade na interface tecido–ar ou tecido–osso, que reflete quase todo o som de volta de uma vez. Nada sobra para alcançar o que está atrás, e forma-se a sombra acústica. É física da reflexão, não potência — por isso o remédio é mudar de método (TC, RM), não turbinar o ultrassom.],
 )
 
-#subtopico("2.3 — O espectro da normalidade: mesma ordem, ritmos diferentes")
+#mini-resumo[US: imagem por ecos, ótima para líquidos e tempo real, cega para gás/gordura/osso. TC: atenuação em unidades Hounsfield virada cinza, rápida e detalhada, mas com radiação. RM: sinal dos prótons de água, contraste de moles imbatível e sem radiação, porém lenta e com risco ferromagnético. RX: projeção somada, ótima para osso e ar, limitada pela sobreposição.]
 
-Reunindo a maturação da PARTE I com a plasticidade que acabamos de ver, chega-se a um fato que confunde muita gente na prática: a *sequência* de aquisição das habilidades é notavelmente ordenada e parecida entre as crianças — em regra, senta antes de andar, balbucia antes de falar, rabisca antes de escrever —, mas a *velocidade* com que cada uma percorre essa sequência varia muito, e varia dentro da normalidade. Duas crianças saudáveis podem andar com meses de diferença. O que explica essa variação é a interação entre gene e ambiente: o mesmo programa de fundo, rodando em contextos diferentes, produz ritmos diferentes. Separar essas duas dimensões — a ordem, que é conservada, e o ritmo, que é elástico — é o que impede o pediatra de confundir uma variação normal de ritmo com um atraso verdadeiro, e vice-versa.
+#parte-title("PARTE III — Contraste, fases e a leitura na prática")
 
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-13.png",
-  largura: 60%,
-  legenda: [A trajetória se lê em janelas (nascimento, 6, 12, 36, 72 meses). A sequência das aquisições é a mesma; onde cada criança está dentro da janela é que varia.])
+#subtopico("3.1 — Meios de contraste: por que uma estrutura passa a acender")
 
-Vale tornar essa sequência concreta, porque é dela que sai a régua prática do pediatra. Os marcos abaixo são os pontos de referência mais usados — não para decorar idade exata, mas para reconhecer a *ordem* e perceber quando uma criança se distancia demais da janela esperada. Repare como cada linha reúne as quatro frentes (motor grosso, motor fino, linguagem e social) amadurecendo em paralelo.
+Contraste é qualquer substância introduzida no corpo que muda localmente a física do exame, destacando uma estrutura que, sem ela, se confundiria com a vizinhança. Na TC, o contraste é iodado e injetado na veia: o iodo é muito denso aos raios-X, então atenua fortemente o feixe e faz os vasos e os órgãos bem vascularizados _acenderem_ em branco. Esse mesmo iodo, porém, é eliminado pelos rins e pode precipitar uma #termo-nota[nefropatia por contraste][queda aguda da função renal desencadeada pelo contraste iodado, mais provável em quem já tem rim comprometido — motivo de checar a função renal antes] em quem já tem função renal comprometida, além de reações alérgicas — por isso a função renal é checada antes de injetá-lo. Na RM, o contraste é o gadolínio, também endovenoso, que age por outra via: ele encurta o T1 dos tecidos onde se acumula, fazendo-os brilhar nas imagens ponderadas em T1. Há ainda os contrastes que opacificam a _luz_ do tubo digestivo — o contraste via oral, que preenche e delimita as alças, e o via retal —, úteis para separar uma alça intestinal de uma coleção ou de um órgão adjacente.
 
-#table(
-  columns: (5em, 1fr, 1fr, 1fr),
-  inset: 6pt,
-  align: left + horizon,
-  stroke: 0.5pt + gray-border,
-  fill: (_, row) => if row == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", font: titulo-fam)[Idade],
-    text(fill: white, weight: "bold", font: titulo-fam)[Motor],
-    text(fill: white, weight: "bold", font: titulo-fam)[Linguagem],
-    text(fill: white, weight: "bold", font: titulo-fam)[Social / cognitivo],
-  ),
-  [*2 meses*], [Sustenta a cabeça em prono], [Emite sons (arrulha)], [Sorriso social],
-  [*6 meses*], [Senta com apoio; transfere objeto de mão em mão], [Balbucia], [Leva objetos à boca; explora],
-  [*9 meses*], [Senta sem apoio; preensão em pinça grosseira], [Duplica sílabas ("dadada")], [Permanência do objeto; estranha desconhecidos],
-  [*12 meses*], [Primeiros passos; pinça fina], ["mamã/papá" com sentido], [Aponta; brinca junto do adulto],
-  [*18 meses*], [Anda com firmeza; rabisca], [~10 palavras; aponta partes do corpo], [Come sozinho com os dedos],
-  [*2 anos*], [Corre; sobe escada; torre de 6 cubos], [Frases de 2 palavras], [Brincar paralelo (ao lado, não com)],
-  [*3 anos*], [Triciclo; copia um círculo], [Frases de 3 palavras; ~75% inteligível], [Usa garfo; brincadeira de faz de conta],
-)
-
-Duas leituras clínicas saltam da tabela. A permanência do objeto, aos 9 meses, é o marco de Piaget virando comportamento observável — e vem junto do estranhamento, porque guardar a imagem do cuidador implica reconhecer quem não é ele. E o *brincar paralelo* dos 2 anos (brincar ao lado de outra criança, não ainda com ela) é o lembrete de que o social também tem sequência: a cooperação genuína vem só depois. Um sinal de alerta não é "chegar atrasado a um marco", e sim *estagnar* ou *regredir* — perder uma habilidade já conquistada é o que mais preocupa.
-
-#subtopico("2.4 — A tríade gene × ambiente × experiência")
-
-O ponto de quebra desta parte é entender que "genético" e "ambiental" não são times rivais disputando a criança — são camadas que operam juntas, cada uma no seu papel. Harvard organiza essa cooperação em três termos. A *genética* fornece o *plano* da arquitetura cerebral: a planta baixa, as regras gerais de como o cérebro se monta. O *ambiente* — a nutrição, os estímulos, o afeto, mas também as toxinas e as privações — *modula o quanto e como* esse plano genético consegue se expressar, e tem influência profunda sobre a arquitetura inicial. E as *experiências* concretas, repetidas, *moldam os circuitos* de modo a adaptar a criança ao ambiente específico em que ela vive.
-
-A ponte molecular entre o ambiente e o gene tem nome: #termo-nota[epigenética][marcas químicas que ligam e desligam genes sem alterar a sequência do DNA; é por elas que o ambiente regula o genoma]. São marcas químicas depositadas sobre o DNA — sem trocar uma única letra da sequência — que ligam e desligam genes, ajustando o quanto cada um é lido. É por esse mecanismo que uma experiência precoce, boa ou má, consegue deixar uma marca duradoura na forma como o genoma funciona: o ambiente não reescreve o DNA, mas regula que partes dele serão usadas. A marca química mais estudada é a #termo-nota[metilação do DNA][adição de grupos metil ao DNA que, em geral, silencia o gene marcado — uma das principais assinaturas epigenéticas]: grupos metil depositados sobre um gene tendem a silenciá-lo. Em modelos animais, o próprio cuidado materno regula, por metilação, o gene do receptor que desliga a resposta ao estresse — filhotes bem cuidados ficam com esse "freio" mais ativo e reagem melhor à adversidade a vida toda. Cuidado responsivo e adversidade crônica, ambos, deixam assinaturas epigenéticas — e é aí que a biografia começa a virar biologia.
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-12.png",
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-16.png",
   largura: 62%,
-  legenda: [Três camadas cooperando: o gene dá o plano, o ambiente modula a expressão, a experiência esculpe o circuito. A epigenética é o mecanismo que costura o ambiente ao genoma.])
+  legenda: [As formas de contraste na TC: sem contraste, com iodado endovenoso (que ainda se divide por fases) e com contraste na luz intestinal (oral ou retal). Cada opção responde a uma pergunta diferente.])
 
-#mini-resumo[O cérebro produz sinapses em excesso, poda pelo uso e mieliniza — por isso a experiência, não a contagem de neurônios, esculpe a arquitetura, dentro de janelas de plasticidade. A sequência das aquisições é universal; o ritmo é elástico. Gene (plano), ambiente (modulação) e experiência (esculpe) cooperam, com a epigenética ligando ambiente a genoma.]
+#subtopico("3.2 — Fases: o contraste é lido no tempo")
 
-#parte-title("PARTE III — Quando o ambiente esculpe: risco, estresse tóxico e o papel do pediatra")
+Depois de injetado na veia, o contraste iodado não ilumina tudo de uma vez — ele percorre a circulação, e o tomógrafo pode capturar a imagem em momentos distintos dessa viagem. Cada momento é uma _fase_, e escolher a fase é escolher o que se quer flagrar. Na fase arterial, adquirida logo após a injeção, o contraste ainda está nas artérias, e lesões muito vascularizadas se destacam. Na fase portal ou venosa, o contraste já banhou o parênquima — é a fase em que o fígado aparece mais homogêneo e a maioria das lesões hepáticas é avaliada. Na fase de equilíbrio, contraste e tecido se igualam; e na fase excretora, mais tardia, o contraste já foi filtrado e aparece dentro do sistema urinário. A ideia a fixar é simples: a fase não é um botão mágico, é apenas o _instante_ da aquisição depois da injeção, e cada instante conta uma parte diferente da circulação daquele contraste.
 
-#subtopico("3.1 — Fatores de risco: quando o ambiente empobrece a construção")
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-19.png",
+  largura: 70%,
+  legenda: [As fases após o contraste iodado endovenoso — arterial, portal, excretora e tardia. É o mesmo paciente e o mesmo contraste, capturados em momentos diferentes da circulação.])
 
-Se a arquitetura cerebral se ergue sobre a experiência, então adversidades no ambiente são, literalmente, adversidades na construção. Chamam-se *fatores de risco* as situações que podem comprometer o desenvolvimento saudável e empurrar a criança para uma situação de vulnerabilidade futura. Na primeira infância, os principais são a má nutrição, as doenças infecciosas de repetição, o abuso físico e verbal, a violência na comunidade, a negligência, a falta de estimulação, a #termo-nota[depressão materna][quadro que reduz a disponibilidade emocional da mãe, tornando as interações com o bebê menos sensíveis e mais negativas] e a pobreza. A depressão materna merece destaque mecânico: uma mãe deprimida tende a ser menos sensível e menos envolvida, com interações mais negativas — e como veremos, é justamente a interação responsiva que protege o cérebro do estresse. O risco, aqui, não é um azar abstrato: ele age subtraindo os estímulos e o afeto de que a construção cerebral depende.
+#subtopico("3.3 — Sequências que resolvem problemas específicos na RM")
 
-O caso do vocabulário torna isso concreto. Um estudo clássico mostrou que diferenças no vocabulário das crianças já aparecem por volta dos 18 meses; aos 3 anos, filhos de pais com maior escolaridade apresentavam um vocabulário duas a três vezes mais variado do que os de menor escolaridade — e chegavam à escola com atraso de linguagem se não fossem inseridos num ambiente rico em estímulo verbal. A mensagem não é sobre "genética da inteligência": é sobre quantas palavras, quantas trocas, quantas interações banharam aquele cérebro na janela em que ele mais precisava delas.
+A lógica das sequências da RM, vista na PARTE II, ganha aplicações elegantes quando combinada com o comportamento da água. A imagem em fase e fora de fase explora o fato de água e gordura, dentro de um mesmo ponto, ora somarem ora subtraírem seus sinais — o que denuncia gordura microscópica dentro de um tecido, como na esteatose hepática. E a #termo-nota[colangiorressonância][sequência de RM fortemente ponderada em T2 que mostra o líquido parado das vias biliares e pancreáticas como estradas claras, sem precisar injetar contraste] leva a ponderação em T2 ao extremo: como a bile é líquido praticamente parado, ela brilha intensamente, e as vias biliares e o ducto pancreático desenham-se como estradas claras sobre um fundo escuro — um mapa das vias sem uma gota de contraste e sem radiação. Cada uma dessas sequências é a mesma física de sempre, ajustada para fazer uma pergunta clínica precisa.
 
-#figura-lateral("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-17.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O ambiente linguístico pobre não "espera" para cobrar: a diferença de vocabulário já é medível aos 18 meses e se amplia até a escola. É a plasticidade funcionando contra a criança — o circuito da linguagem se especializa no pouco que recebeu.],
-  legenda: [Vocabulário aos 3 anos por escolaridade dos pais (Hart & Risley).])
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-26.png",
+  largura: 52%,
+  legenda: [Colangiorressonância: a T2 pesada faz a bile parada brilhar, revelando as vias biliares como um mapa claro — sem contraste, sem radiação.])
 
-#subtopico("3.2 — A taxonomia do estresse e o eixo hormonal por trás dela")
+#subtopico("3.4 — Como a física reaparece na decisão clínica")
 
-Nem todo estresse faz mal — e entender por quê é o mecanismo mais importante desta parte. Diante de uma ameaça, o cérebro dispara uma cascata hormonal: o hipotálamo aciona a hipófise, que aciona a suprarrenal, que libera #termo-nota[cortisol][o principal hormônio do estresse, liberado pela suprarrenal; útil em picos breves, danoso quando cronicamente elevado] — o eixo #sigla("HPA", [hipotálamo-hipófise-adrenal — a cascata hormonal que termina na liberação de cortisol pela suprarrenal]). O cortisol mobiliza o corpo para reagir. Em picos breves, isso é saudável e até necessário. O que decide se a resposta constrói ou destrói é a *duração* da ativação e, sobretudo, a presença de um adulto que a amorteça. O Child Development National Scientific Council descreveu três tipos de resposta ao estresse exatamente nesse eixo.
+Tudo o que foi visto se recolhe em algumas escolhas típicas, e é aí que a aula mostra sua utilidade. Diante de uma suspeita de obstrução intestinal, a radiografia simples de abdome em ortostase basta para muito: as alças distendidas e cheias de gás formam #termo-nota[níveis hidroaéreos][interfaces horizontais entre líquido e ar dentro de alças intestinais distendidas, vistas no RX em ortostase e típicas de obstrução], as interfaces horizontais entre líquido e ar que denunciam a parada do trânsito — exatamente porque o RX é imbatível para ar e é rápido. Diante de um paciente com déficit neurológico súbito, o exame de urgência é a TC de crânio sem contraste, porque é veloz e porque sangue agudo é espontaneamente hiperdenso, aparecendo branco sem precisar de contraste — decisivo para separar um AVC hemorrágico de um isquêmico. E para investigar as vias biliares sem invasão nem radiação, a colangiorressonância entrega o mapa. Em cada caso, a escolha não foi decorada: ela caiu por gravidade a partir da física do método e da pergunta que se precisava responder.
 
-O *estresse positivo* é uma resposta breve e de intensidade leve a moderada — a ansiedade de tomar uma vacina, de se integrar na escola, de se recuperar de um susto. Com um adulto atencioso por perto, o eixo HPA sobe e volta rápido ao normal, e a criança pratica respostas saudáveis à adversidade: é elemento *promotor* do desenvolvimento. O *estresse tolerável* vem de eventos mais pesados — a morte de um familiar, um acidente grave, uma crise séria. A magnitude é maior, mas, de novo, a proteção de adultos responsivos impede que a ativação se torne excessiva e produza dano; o componente essencial continua sendo o relacionamento protetor que facilita o enfrentamento e traz o sistema de volta ao estado inicial.
-
-O *estresse tóxico* é o que ocorre quando a ativação é forte, frequente ou prolongada *e falta o adulto que a amorteça*. Sem esse tampão, o cortisol permanece cronicamente elevado — e níveis persistentemente altos do hormônio do estresse interferem na própria construção da arquitetura cerebral. Além de efeitos de curto prazo, o estresse tóxico precoce pode produzir mudanças mais permanentes na estrutura e na função do cérebro, precursoras de deficiências posteriores de aprendizagem e de comportamento. As regiões mais atingidas são justamente as que o cortisol crônico desgasta: o hipocampo (memória) e o córtex pré-frontal (planejamento e autocontrole) tendem a encolher, enquanto a amígdala, centro do medo, fica hiperativa — o cérebro se recalibra para viver em ameaça constante. Repare no elo causal completo: adversidade sem amortecimento → HPA cronicamente ativado → cortisol alto sustentado → remodelamento do hipocampo, do pré-frontal e da amígdala → déficit de aprendizagem e de autorregulação que se arrasta pela vida.
-
-#atencao-box("O que define o estresse tóxico é a AUSÊNCIA de amortecimento", [
-  O erro é classificar o estresse pela gravidade do evento. Não é isso. A morte de um familiar pode ser estresse *tolerável* se houver um adulto responsivo amortecendo; e uma adversidade menor pode virar *tóxica* se a criança a enfrenta sozinha, sem esse tampão. O divisor não é o tamanho do baque — é a presença ou ausência de um relacionamento protetor que devolva o eixo HPA ao repouso. É por isso que o vínculo, e não a eliminação de todo estresse, é o alvo da proteção.
+#clinica-box("Obstrução intestinal na radiografia de abdome", [
+  Numa obstrução intestinal, o conteúdo para de progredir e se acumula antes do ponto obstruído; gás e líquido se separam por gravidade dentro das alças distendidas. Na radiografia feita com o paciente de pé (ortostase), essa separação aparece como níveis hidroaéreos — traços horizontais em degraus — e alças dilatadas. A imagem funciona justamente porque o RX resolve bem o ar e é obtido em segundos à beira do leito, sem preparo. É o método simples entregando um diagnóstico de urgência antes que qualquer exame mais sofisticado seja cogitado — e o exemplo mais direto de como conhecer a física guia a escolha certa.
 ])
 
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-18.png",
-  largura: 54%,
-  legenda: [Três respostas ao estresse ao longo do mesmo eixo HPA. O que muda entre elas é a duração da ativação e a presença do adulto que amortece — não apenas a gravidade do evento.])
-
-#subtopico("3.3 — A trajetória é mudável — a plasticidade também salva")
-
-O ponto de quebra otimista vem justamente da biologia que assustou no subtópico anterior. A mesma plasticidade que torna o cérebro vulnerável à adversidade é a que permite recuperá-lo: o cérebro tem a capacidade de crescer e mudar, e a primeira infância é o período de maior transformação — logo, a maior oportunidade de intervir. Duas evidências sustentam a esperança. Primeiro, o cérebro é plástico. Segundo, programas e estratégias — programas de parentalidade, ambientes acolhedores alternativos como creche e escola de qualidade — podem alterar a trajetória do desenvolvimento e ajudar a criança a construir e fortalecer habilidades, minimizando o impacto das adversidades externas. A negligência extrema mostra o outro lado desse mesmo espelho: privado do estímulo e do afeto na janela crítica, o cérebro se desenvolve menos — a arquitetura que dependia da experiência simplesmente não foi construída.
-
-#clinica-box("O cérebro da negligência extrema", [
-  Imagens de crianças submetidas a negligência extrema nos primeiros anos revelam cérebros menores, com menos substância e ventrículos alargados, comparados aos de crianças criadas em ambientes responsivos. Não é um dano genético: é a plasticidade operando na direção contrária. Sem os estímulos que a experiência deveria fornecer, a sinaptogênese e a poda não tiveram a matéria-prima da vivência para esculpir circuitos ricos, e a arquitetura ficou empobrecida. É a demonstração mais crua de que a experiência precoce não *influencia* o cérebro de fora — ela o *constrói* por dentro. E é também por isso que intervir cedo, ainda dentro da janela, muda o desfecho.
-])
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-15.png",
-  largura: 56%,
-  legenda: [Cérebro de criança em desenvolvimento típico (esquerda) e sob negligência extrema (direita). A diferença de tamanho e de substância é a plasticidade privada de experiência — a construção que não aconteceu.])
-
-#subtopico("3.4 — Medir para intervir: vigilância e triagem")
-
-Se a intervenção precoce muda o desfecho, então detectar cedo é parte do tratamento — e a pediatria separa esse cuidado em duas ações que costumam ser confundidas. A *vigilância* (ou monitoramento) é um processo de avaliação *contínuo e permanente*, feito em toda consulta, cuja função é eleger quais crianças merecem um olhar mais fino. A *triagem* (ou screening) é pontual: usa um instrumento padronizado, em consultas específicas, para identificar as crianças em risco de atraso — e essas, sim, devem ser encaminhadas para diagnóstico. A ordem é uma engrenagem: vigia-se sempre, tria-se quando algo chama atenção, encaminha-se para diagnóstico quem a triagem sinaliza. Avaliar durante esse período crítico não é burocracia — é o que permite propor intervenção enquanto a janela de plasticidade ainda está aberta, quando o ganho por unidade de esforço é máximo.
-
-#figura-nebli("/figuras/pediatria-01-desenvolvimento-primeira-infancia/slide-25.png",
-  largura: 64%,
-  legenda: [Vigilância é contínua (toda consulta); triagem é pontual, com instrumento. Uma alimenta a outra, e a triagem positiva leva ao diagnóstico.])
-
-#subtopico("3.5 — A nova abordagem: ecobiodesenvolvimento e o papel do pediatra")
-
-Juntando as três partes, chega-se ao modelo que reorganiza a pediatria do desenvolvimento — a matriz do #termo-nota[ecobiodesenvolvimento][abordagem que integra ecologia, biologia e desenvolvimento: o ambiente precoce se inscreve na biologia e repercute na saúde adulta]. Ela parte de três teses. As experiências adversas precoces são críticas, porque podem afetar o desenvolvimento saudável; as raízes de muitos problemas de saúde e de desenvolvimento estão na primeira infância; e prevenir as consequências de longo prazo da adversidade é possível, com medidas protetoras nesse período. Aqui o "crescimento" do título reencontra o "desenvolvimento": restrições intrauterinas comprometem o crescimento e o desenvolvimento e produzem consequências tardias na saúde do adulto — por isso a atenção especial ao prematuro e ao pequeno para a idade gestacional, cujas janelas começaram em desvantagem.
-
-Desse modelo decorre um novo papel para o profissional de saúde, formalizado pela #sigla("AAP", [American Academy of Pediatrics — Academia Americana de Pediatria]): entender a origem precoce das doenças e o impacto do estresse tóxico; saber identificar as crianças em maior risco e oferecer suporte; diagnosticar problemas de desenvolvimento com um arsenal de instrumentos; e colaborar na busca de intervenções eficazes que minimizem os efeitos da adversidade precoce. A otimização dos ganhos acontece sobretudo nos dois primeiros anos, e programas de estimulação precoce — como visitas domiciliares — são efetivos, principalmente antes da entrada na creche. O pediatra deixa de ser apenas quem mede peso e altura: passa a ser o vigia de uma janela biológica que não volta a se abrir da mesma forma.
+#figura-nebli("/figuras/radiologia-01-ferramentas-diagnostico/slide-29.png",
+  largura: 60%,
+  legenda: [Radiografia de abdome em decúbito e em ortostase numa obstrução intestinal alta. Em pé, o ar e o líquido se separam nas alças distendidas e formam os níveis hidroaéreos.])
 
 #conclusao-box[
-  Um único princípio costura este resumo: *na primeira infância, a experiência não influencia o cérebro de fora — ela o constrói por dentro, dentro de uma janela de plasticidade que não se repete*. O mecanismo nuclear é a tríade sinaptogênese → poda experiência-dependente → mielinização: o cérebro produz conexões em excesso e deixa a vivência decidir quais permanecem, esculpindo a arquitetura no ambiente concreto em que vive. É a mesma plasticidade que, sem o amortecimento de um adulto responsivo, deixa o cortisol do eixo HPA remodelar em prejuízo as regiões que aprendem e se autorregulam — o estresse tóxico — e que, com estímulo e afeto, permite recuperar a trajetória. Na clínica, isso reaparece no cérebro empobrecido da negligência, no prematuro que começou a janela em desvantagem, e na engrenagem vigilância → triagem → diagnóstico que existe para intervir enquanto a janela ainda está aberta. A próxima aula parte exatamente daqui: destrinchar os *determinantes* biológicos, psicológicos e socioculturais que decidem, criança a criança, se essa janela será uma oportunidade ou um risco.
+  Um só princípio costura toda esta aula: _cada método de imagem enxerga o corpo por uma física distinta, e é essa física que decide, de uma vez, o que ele mostra, o que ele não pode ver e quando pedi-lo_. O ultrassom escuta ecos e por isso é dinâmico e sem radiação, mas cego para gás e osso; a tomografia mede a atenuação de raios-X e por isso é rápida e detalhada, ao preço da radiação; a ressonância ouve o sinal dos prótons de água e por isso distingue partes moles como nenhum outro, ao preço do tempo e do campo magnético; a radiografia soma sombras num plano e por isso é imediata para ar e osso, mas trai a sobreposição. Sobre essa base assentam os refinamentos — o contraste que faz uma estrutura acender, as fases que leem esse contraste no tempo, as janelas e sequências que reinterpretam os mesmos dados —, e é dela que descem as decisões da urgência: o RX na obstrução, a TC sem contraste no déficit neurológico agudo, a colangiorressonância nas vias biliares. Aprender radiologia começa, portanto, não por decorar aparelhos, mas por entender a interação física que cada imagem representa — porque é ela que, no fim, escolhe o exame.
 ]

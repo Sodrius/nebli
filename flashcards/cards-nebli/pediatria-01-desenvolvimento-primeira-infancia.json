@@ -5,88 +5,295 @@
   "origem": "NEBLIcard autoral — lacunas tipo-a da E1 (AnKing/externo = 0). CANON 2026-08-03.",
   "images": {},
   "cards": [
-    {"nebli_id": "dev-pruning", "concept_id": "2.2", "e1_anchor": {"quote": "poda sináptica"},
-     "text": "The connections a child uses are strengthened, while the unused ones are eliminated through <b>{{c1::synaptic pruning}}</b>.",
-     "extra": "O cérebro produz sinapses em excesso e deixa a experiência decidir quais ficam: as usadas se fortalecem, as ociosas são eliminadas. É a poda que especializa o circuito no ambiente real.", "image": null},
-
-    {"nebli_id": "dev-not-neurons", "concept_id": "2.2", "e1_anchor": {"quote": "não a contagem de neurônios"},
-     "text": "Experience shapes the brain mainly by editing its connections, not by adding more <b>{{c1::neurons}}</b>.",
-     "extra": "A contagem de neurônios muda pouco após o nascimento; o que floresce ou murcha com a vivência é a rede de sinapses. Por isso estímulo e privação se inscrevem tão fundo.", "image": null},
-
-    {"nebli_id": "dev-80pct", "concept_id": "2.2", "e1_anchor": {"quote": "80% da capacidade"},
-     "text": "By age two, the brain has already reached roughly <b>{{c1::80%}}</b> of its eventual capacity.",
-     "extra": "O crescimento cerebral é explosivo nos primeiros anos — por volta dos 2 anos o cérebro já atingiu cerca de 80% da capacidade adulta. Daí o peso da primeira infância.", "image": null},
-
-    {"nebli_id": "dev-myelin-pfc", "concept_id": "2.2", "e1_anchor": {"quote": "terminando por último no córtex pré-frontal"},
-     "text": "Myelination advances region by region and finishes last in the <b>{{c1::prefrontal cortex}}</b>.",
-     "extra": "A mielina acelera a condução e é depositada região a região; o córtex pré-frontal (planejamento e autocontrole) é o último a amadurecer — por isso o autocontrole vem tarde.", "image": null},
-
-    {"nebli_id": "dev-critical-period", "concept_id": "2.2", "e1_anchor": {"quote": "período crítico"},
-     "text": "A window in which missing the expected input causes lasting deficit is a <b>{{c1::critical period}}</b>.",
-     "extra": "Em certas funções (ex.: visão), se o estímulo esperado não chega na janela, o circuito se forma mal e recuperar depois é muito mais custoso. O período sensível é a versão mais frouxa.", "image": null},
-
-    {"nebli_id": "dev-hpa-adrenal", "concept_id": "3.2", "e1_anchor": {"quote": "eixo hipotálamo-hipófise-adrenal"},
-     "text": "A threat drives the hypothalamus and pituitary, ending in cortisol release by the <b>{{c1::adrenal gland}}</b>.",
-     "extra": "Diante de ameaça, hipotálamo → hipófise → suprarrenal liberam cortisol, que mobiliza o corpo para reagir. Em picos breves é saudável; o problema é a ativação crônica.", "image": null},
-
-    {"nebli_id": "dev-toxic-buffer", "concept_id": "3.2", "e1_anchor": {"quote": "ausência de amortecimento"},
-     "text": "Stress becomes toxic rather than tolerable when a child faces it without a responsive, protective <b>{{c1::adult}}</b>.",
-     "extra": "Estresse positivo e tolerável, amortecidos por um adulto responsivo, promovem desenvolvimento. Sem esse tampão a resposta vira tóxica — o divisor é o vínculo, não a gravidade do evento.", "image": null},
-
-    {"nebli_id": "dev-amygdala", "concept_id": "3.2", "e1_anchor": {"quote": "amígdala, centro do medo, fica hiperativa"},
-     "text": "Chronically high cortisol shrinks the hippocampus and prefrontal cortex but leaves the <b>{{c1::amygdala}}</b> overactive.",
-     "extra": "O cortisol cronicamente alto atrofia hipocampo (memória) e pré-frontal (autocontrole) e hiperativa a amígdala (medo): o cérebro se recalibra para viver em ameaça constante.", "image": null},
-
-    {"nebli_id": "dev-positive-stress", "concept_id": "3.2", "e1_anchor": {"quote": "estresse positivo"},
-     "text": "Brief, mild adversity buffered by a caring adult is termed <b>{{c1::positive stress}}</b>.",
-     "extra": "Vacina, primeiro dia de escola, um susto: com um adulto por perto, o eixo do estresse sobe e volta rápido, e a criança treina respostas saudáveis à adversidade.", "image": null},
-
-    {"nebli_id": "dev-erikson-hope", "concept_id": "1.2", "e1_anchor": {"quote": "virtude da esperança"},
-     "text": "In Erikson's first stage, reliable care resolves trust versus mistrust and yields the virtue of <b>{{c1::hope}}</b>.",
-     "extra": "No primeiro ano e meio, cuidado previsível e responsivo resolve confiança × desconfiança e deixa a esperança. O vínculo é o material da confiança básica.", "image": null},
-
-    {"nebli_id": "dev-zpd", "concept_id": "1.2", "e1_anchor": {"quote": "zona de desenvolvimento proximal"},
-     "text": "The gap between what a child manages alone and with skilled help is the zone of <b>{{c1::proximal development}}</b>.",
-     "extra": "É a faixa onde o aprendizado acontece: nem o que a criança já domina sozinha, nem o que está longe demais, mas o que ela alcança com mediação — sobretudo pela linguagem (Vygotsky).", "image": null},
-
-    {"nebli_id": "dev-exosystem", "concept_id": "1.2", "e1_anchor": {"quote": "exossistema são ambientes que afetam a criança sem que ela participe"},
-     "text": "In Bronfenbrenner's model, settings that affect a child only indirectly, like a parent's job, form the <b>{{c1::exosystem}}</b>.",
-     "extra": "A criança não participa desses ambientes, mas eles a afetam (o emprego dos pais, por exemplo). Sistemas encaixados: micro → meso → exo → macro → crono.", "image": null},
-
-    {"nebli_id": "dev-executive-fn", "concept_id": "1.3", "e1_anchor": {"quote": "funções executivas"},
-     "text": "Working memory, focus, self-regulation and mental flexibility make up the domain called <b>{{c1::executive function}}</b>.",
-     "extra": "Amadurecem tarde porque dependem do córtex pré-frontal, o último a mielinizar — daí a impulsividade da criança pequena e do adolescente.", "image": null},
-
-    {"nebli_id": "dev-methylation", "concept_id": "2.4", "e1_anchor": {"quote": "metilação do DNA"},
-     "text": "The environment tunes which genes are read, without altering the DNA sequence, largely via DNA <b>{{c1::methylation}}</b>.",
-     "extra": "O ambiente não reescreve o DNA; regula quais genes são lidos. A metilação é a marca mais estudada dessa ponte entre ambiente e genoma.", "image": null},
-
-    {"nebli_id": "dev-methyl-silences", "concept_id": "2.4", "e1_anchor": {"quote": "tendem a silenciá-lo"},
-     "text": "Adding methyl groups to a gene usually <b>{{c1::silences}}</b> it.",
-     "extra": "Em modelos animais, o cuidado materno regula por metilação o gene do 'freio' da resposta ao estresse: filhotes bem cuidados reagem melhor à adversidade a vida toda.", "image": null},
-
-    {"nebli_id": "dev-neglect-smaller", "concept_id": "3.3", "e1_anchor": {"quote": "cérebros menores, com menos substância e ventrículos alargados"},
-     "text": "Children raised under extreme neglect can show a physically <b>{{c1::smaller}}</b> brain with enlarged ventricles.",
-     "extra": "Sem o estímulo e o afeto que a experiência deveria fornecer, a sinaptogênese e a poda não esculpem circuitos ricos — a plasticidade opera contra a criança.", "image": null},
-
-    {"nebli_id": "dev-surveillance", "concept_id": "3.4", "e1_anchor": {"quote": "vigilância"},
-     "text": "The ongoing, every-visit process that flags which children need specific screening is developmental <b>{{c1::surveillance}}</b>.",
-     "extra": "Vigilância é contínua (toda consulta) e elege quem passa por triagem; a triagem é pontual, com instrumento, e a positiva encaminha ao diagnóstico.", "image": null},
-
-    {"nebli_id": "dev-ecobio", "concept_id": "3.5", "e1_anchor": {"quote": "as raízes de muitos problemas de saúde e de desenvolvimento estão na primeira infância"},
-     "text": "The ecobiodevelopmental view locates the roots of many adult diseases in <b>{{c1::early childhood}}</b>.",
-     "extra": "As raízes de muitas doenças do adulto estão na primeira infância; prevenir cedo, com medidas protetoras, muda o desfecho tardio. Atenção especial ao prematuro.", "image": null},
-
-    {"nebli_id": "dev-maternal-dep", "concept_id": "3.1", "e1_anchor": {"quote": "menos sensível e menos envolvida"},
-     "text": "Maternal depression makes the parent's interactions less sensitive and less <b>{{c1::responsive}}</b>.",
-     "extra": "É justamente a interação responsiva que protege o cérebro do estresse; a mãe deprimida tende a interações menos sensíveis e mais negativas, subtraindo esse amortecimento.", "image": null},
-
-    {"nebli_id": "dev-reversible", "concept_id": "3.3", "e1_anchor": {"quote": "a mesma plasticidade que torna o cérebro vulnerável"},
-     "text": "The same plasticity that makes the young brain vulnerable also keeps early adversity potentially <b>{{c1::reversible}}</b>.",
-     "extra": "Programas de parentalidade e creche de qualidade mudam a trajetória, mais efetivos quanto mais cedo — ainda dentro da janela de plasticidade.", "image": null},
-
-    {"nebli_id": "dev-foundations", "concept_id": "2.1", "e1_anchor": {"quote": "fundações sólidas permitem o desenvolvimento pleno"},
-     "text": "Development builds in layers like a house; weak early <b>{{c1::foundations}}</b> cap every later skill.",
-     "extra": "Habilidades iniciais são a base das mais complexas; base frágil não derruba um andar, encolhe todos os que viriam acima. Daí investir cedo.", "image": null}
+    {
+      "nebli_id": "dev-pruning",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "poda sináptica"
+      },
+      "text": "The connections a child uses are strengthened, while the unused ones are eliminated through <b>{{c1::synaptic pruning}}</b>.",
+      "extra": "O cérebro produz sinapses em excesso e deixa a experiência decidir quais ficam: as usadas se fortalecem, as ociosas são eliminadas. É a poda que especializa o circuito no ambiente real.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-not-neurons",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "não a contagem de neurônios"
+      },
+      "text": "Experience shapes the brain mainly by editing its connections, not by adding more <b>{{c1::neurons}}</b>.",
+      "extra": "A contagem de neurônios muda pouco após o nascimento; o que floresce ou murcha com a vivência é a rede de sinapses. Por isso estímulo e privação se inscrevem tão fundo.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-80pct",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "80% da capacidade"
+      },
+      "text": "By age two, the brain has already reached roughly <b>{{c1::80%}}</b> of its eventual capacity.",
+      "extra": "O crescimento cerebral é explosivo nos primeiros anos — por volta dos 2 anos o cérebro já atingiu cerca de 80% da capacidade adulta. Daí o peso da primeira infância.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-myelin-pfc",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "terminando por último no córtex pré-frontal"
+      },
+      "text": "Myelination advances region by region and finishes last in the <b>{{c1::prefrontal cortex}}</b>.",
+      "extra": "A mielina acelera a condução e é depositada região a região; o córtex pré-frontal (planejamento e autocontrole) é o último a amadurecer — por isso o autocontrole vem tarde.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-critical-period",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "período crítico"
+      },
+      "text": "A window in which missing the expected input causes lasting deficit is a <b>{{c1::critical period}}</b>.",
+      "extra": "Em certas funções (ex.: visão), se o estímulo esperado não chega na janela, o circuito se forma mal e recuperar depois é muito mais custoso. O período sensível é a versão mais frouxa.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-hpa-adrenal",
+      "concept_id": "3.2",
+      "e1_anchor": {
+        "quote": "eixo hipotálamo-hipófise-adrenal"
+      },
+      "text": "A threat drives the hypothalamus and pituitary, ending in cortisol release by the <b>{{c1::adrenal gland}}</b>.",
+      "extra": "Diante de ameaça, hipotálamo → hipófise → suprarrenal liberam cortisol, que mobiliza o corpo para reagir. Em picos breves é saudável; o problema é a ativação crônica.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-toxic-buffer",
+      "concept_id": "3.2",
+      "e1_anchor": {
+        "quote": "ausência de amortecimento"
+      },
+      "text": "Stress becomes toxic rather than tolerable when a child faces it without a responsive, protective <b>{{c1::adult}}</b>.",
+      "extra": "Estresse positivo e tolerável, amortecidos por um adulto responsivo, promovem desenvolvimento. Sem esse tampão a resposta vira tóxica — o divisor é o vínculo, não a gravidade do evento.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-amygdala",
+      "concept_id": "3.2",
+      "e1_anchor": {
+        "quote": "amígdala, centro do medo, fica hiperativa"
+      },
+      "text": "Chronically high cortisol shrinks the hippocampus and prefrontal cortex but leaves the <b>{{c1::amygdala}}</b> overactive.",
+      "extra": "O cortisol cronicamente alto atrofia hipocampo (memória) e pré-frontal (autocontrole) e hiperativa a amígdala (medo): o cérebro se recalibra para viver em ameaça constante.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-positive-stress",
+      "concept_id": "3.2",
+      "e1_anchor": {
+        "quote": "estresse positivo"
+      },
+      "text": "Brief, mild adversity buffered by a caring adult is termed <b>{{c1::positive stress}}</b>.",
+      "extra": "Vacina, primeiro dia de escola, um susto: com um adulto por perto, o eixo do estresse sobe e volta rápido, e a criança treina respostas saudáveis à adversidade.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-erikson-hope",
+      "concept_id": "1.2",
+      "e1_anchor": {
+        "quote": "virtude da esperança"
+      },
+      "text": "In Erikson's first stage, reliable care resolves trust versus mistrust and yields the virtue of <b>{{c1::hope}}</b>.",
+      "extra": "No primeiro ano e meio, cuidado previsível e responsivo resolve confiança × desconfiança e deixa a esperança. O vínculo é o material da confiança básica.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-zpd",
+      "concept_id": "1.2",
+      "e1_anchor": {
+        "quote": "zona de desenvolvimento proximal"
+      },
+      "text": "The gap between what a child manages alone and with skilled help is the zone of <b>{{c1::proximal development}}</b>.",
+      "extra": "É a faixa onde o aprendizado acontece: nem o que a criança já domina sozinha, nem o que está longe demais, mas o que ela alcança com mediação — sobretudo pela linguagem (Vygotsky).",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-exosystem",
+      "concept_id": "1.2",
+      "e1_anchor": {
+        "quote": "exossistema são ambientes que afetam a criança sem que ela participe"
+      },
+      "text": "In Bronfenbrenner's model, settings that affect a child only indirectly, like a parent's job, form the <b>{{c1::exosystem}}</b>.",
+      "extra": "A criança não participa desses ambientes, mas eles a afetam (o emprego dos pais, por exemplo). Sistemas encaixados: micro → meso → exo → macro → crono.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-executive-fn",
+      "concept_id": "1.3",
+      "e1_anchor": {
+        "quote": "funções executivas"
+      },
+      "text": "Working memory, focus, self-regulation and mental flexibility make up the domain called <b>{{c1::executive function}}</b>.",
+      "extra": "Amadurecem tarde porque dependem do córtex pré-frontal, o último a mielinizar — daí a impulsividade da criança pequena e do adolescente.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-methylation",
+      "concept_id": "2.4",
+      "e1_anchor": {
+        "quote": "metilação do DNA"
+      },
+      "text": "The environment tunes which genes are read, without altering the DNA sequence, largely via DNA <b>{{c1::methylation}}</b>.",
+      "extra": "O ambiente não reescreve o DNA; regula quais genes são lidos. A metilação é a marca mais estudada dessa ponte entre ambiente e genoma.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-methyl-silences",
+      "concept_id": "2.4",
+      "e1_anchor": {
+        "quote": "tendem a silenciá-lo"
+      },
+      "text": "Adding methyl groups to a gene usually <b>{{c1::silences}}</b> it.",
+      "extra": "Em modelos animais, o cuidado materno regula por metilação o gene do 'freio' da resposta ao estresse: filhotes bem cuidados reagem melhor à adversidade a vida toda.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-neglect-smaller",
+      "concept_id": "3.3",
+      "e1_anchor": {
+        "quote": "cérebros menores, com menos substância e ventrículos alargados"
+      },
+      "text": "Children raised under extreme neglect can show a physically <b>{{c1::smaller}}</b> brain with enlarged ventricles.",
+      "extra": "Sem o estímulo e o afeto que a experiência deveria fornecer, a sinaptogênese e a poda não esculpem circuitos ricos — a plasticidade opera contra a criança.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-surveillance",
+      "concept_id": "3.4",
+      "e1_anchor": {
+        "quote": "vigilância"
+      },
+      "text": "The ongoing, every-visit process that flags which children need specific screening is developmental <b>{{c1::surveillance}}</b>.",
+      "extra": "Vigilância é contínua (toda consulta) e elege quem passa por triagem; a triagem é pontual, com instrumento, e a positiva encaminha ao diagnóstico.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-ecobio",
+      "concept_id": "3.5",
+      "e1_anchor": {
+        "quote": "as raízes de muitos problemas de saúde e de desenvolvimento estão na primeira infância"
+      },
+      "text": "The ecobiodevelopmental view locates the roots of many adult diseases in <b>{{c1::early childhood}}</b>.",
+      "extra": "As raízes de muitas doenças do adulto estão na primeira infância; prevenir cedo, com medidas protetoras, muda o desfecho tardio. Atenção especial ao prematuro.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-maternal-dep",
+      "concept_id": "3.1",
+      "e1_anchor": {
+        "quote": "menos sensível e menos envolvida"
+      },
+      "text": "Maternal depression makes the parent's interactions less sensitive and less <b>{{c1::responsive}}</b>.",
+      "extra": "É justamente a interação responsiva que protege o cérebro do estresse; a mãe deprimida tende a interações menos sensíveis e mais negativas, subtraindo esse amortecimento.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-reversible",
+      "concept_id": "3.3",
+      "e1_anchor": {
+        "quote": "a mesma plasticidade que torna o cérebro vulnerável"
+      },
+      "text": "The same plasticity that makes the young brain vulnerable also keeps early adversity potentially <b>{{c1::reversible}}</b>.",
+      "extra": "Programas de parentalidade e creche de qualidade mudam a trajetória, mais efetivos quanto mais cedo — ainda dentro da janela de plasticidade.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-foundations",
+      "concept_id": "2.1",
+      "e1_anchor": {
+        "quote": "fundações sólidas permitem o desenvolvimento pleno"
+      },
+      "text": "Development builds in layers like a house; weak early <b>{{c1::foundations}}</b> cap every later skill.",
+      "extra": "Habilidades iniciais são a base das mais complexas; base frágil não derruba um andar, encolhe todos os que viriam acima. Daí investir cedo.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-piaget-preop",
+      "concept_id": "1.2",
+      "e1_anchor": {
+        "quote": "pré-operacional"
+      },
+      "text": "<b>Neurodevelopment.</b> In Piaget's preoperational stage (2–7y), thinking turns symbolic but is still bound by <b>{{c1::egocentrism}}</b> — the child struggles to take another's point of view.",
+      "extra": "No pré-operacional a criança já usa símbolos, linguagem e faz de conta, mas custa a sair do próprio ponto de vista. Só no operatório concreto (7–11a) a lógica se firma sobre o concreto.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-tolerable-stress",
+      "concept_id": "3.2",
+      "e1_anchor": {
+        "quote": "estresse tolerável"
+      },
+      "text": "<b>Neurodevelopment.</b> A serious adversity — a death, a grave accident — is <b>{{c1::tolerable}}</b> rather than toxic stress when a responsive adult buffers it and the HPA axis returns to baseline.",
+      "extra": "O que separa tolerável de tóxico não é a gravidade do evento, e sim a presença do adulto que amortece. Com amparo responsível, até um baque pesado sobe e volta ao repouso, sem dano.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-sensitive-period",
+      "concept_id": "2.2",
+      "e1_anchor": {
+        "quote": "período sensível"
+      },
+      "text": "<b>Neurodevelopment.</b> A window in which a skill is learned more easily but stays possible afterward is a <b>{{c1::sensitive}}</b> period — looser than a critical period, whose miss leaves a lasting deficit.",
+      "extra": "Período crítico: perder a janela deixa déficit duradóuro (ex.: visão). Período sensível: a porta não fecha, mas o preço de entrar atrasado sobe rápido.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-sequence-conserved",
+      "concept_id": "2.3",
+      "e1_anchor": {
+        "quote": "sequência"
+      },
+      "text": "<b>Neurodevelopment.</b> Across healthy children the <b>{{c1::sequence}}</b> of milestones is strongly conserved (sit before walk, babble before speak), while the pace of progress varies widely and still counts as normal.",
+      "extra": "Separar ordem conservada × ritmo elástico é o que impede confundir variação normal de velocidade com atraso verdadeiro. Duas crianças saudáveis podem andar com meses de diferença.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-regression-flag",
+      "concept_id": "2.3",
+      "e1_anchor": {
+        "quote": "estagnar"
+      },
+      "text": "<b>Neurodevelopment.</b> The developmental red flag that worries most is not lateness to a milestone but <b>{{c1::loss}}</b> of a skill the child had already acquired.",
+      "extra": "Chegar um pouco atrasado a um marco costuma caber na variação normal de ritmo. Perder algo já conquistado — estagnar ou regredir — é o sinal que exige investigação.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-gene-blueprint",
+      "concept_id": "2.4",
+      "e1_anchor": {
+        "quote": "genética fornece o plano"
+      },
+      "text": "<b>Neurodevelopment.</b> In Harvard's three-part model of brain building, genes supply the <b>{{c1::blueprint}}</b>, the environment modulates how far that plan is expressed, and experience sculpts the actual circuits.",
+      "extra": "Genético e ambiental não são rivais: o gene dá a planta baixa, o ambiente regula o quanto se expressa, a experiência molda os circuitos ao contexto. A epigenética é a costura molecular entre ambiente e gene.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-multidomain",
+      "concept_id": "1.3",
+      "e1_anchor": {
+        "quote": "domínios"
+      },
+      "text": "<b>Neurodevelopment.</b> Because development runs on several fronts at once, a child can be typical in motor skills yet delayed in <b>{{c1::language}}</b> — why the WHO tracks development across separate domains.",
+      "extra": "Avaliar 'o desenvolvimento' não é só 'a criança anda?'. O mapa de domínios (motor, linguagem, cognição, funções executivas, temperamento, socioemocional, adaptativo) impede que um atraso passe despercebido porque outra frente vai bem.",
+      "image": null
+    },
+    {
+      "nebli_id": "dev-word-gap",
+      "concept_id": "3.1",
+      "e1_anchor": {
+        "quote": "vocabulário duas a três vezes"
+      },
+      "text": "<b>Neurodevelopment.</b> By age three, children of more-educated parents show a vocabulary roughly <b>{{c1::2–3 times}}</b> larger than peers from less-educated homes — the early 'word gap'.",
+      "extra": "A diferença já é medi­vel aos 18 meses e amplia até a escola. Não é 'genética da inteligência': é quantas palavras e trocas banharam aquele cérebro na janela em que ele mais precisava.",
+      "image": null
+    }
   ]
 }

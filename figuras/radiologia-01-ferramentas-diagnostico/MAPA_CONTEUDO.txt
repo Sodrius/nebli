@@ -1,0 +1,40 @@
+# MAPA_CONTEUDO -- radiologia-01-ferramentas-diagnostico
+# Slide-fonte: 26c29ab6-C__Apresenta__o_em_PDF_da_V_deo_Aula__02__RD__Ferramentas_do_Diagn_stico_Radiol_gico.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Prof. Dra. Cláudia Leite Prof. Dr. Luiz Fernando Ferraz Da Silva André Leopoldino Bordini Radiologia - Preceptoria 2020 FERRAMENTAS DO DIAGNÓSTICO RADIOLÓGICO
+slide-02: O QUE QUEREMOS? ▪Discutir sobre os principais métodos diagnósticos por imagem e algumas de suas aplicações clínicas
+slide-03: Quais métodos de imagem devemos utilizar? ▪Diretrizes para direcionar solicitação de exames ▪ACR Appropriateness Criteria® ▪Classificação: ▪1,2,3: Não apropriado ▪4,5,6: Pode ser apropriado ▪7,8,9: Apropriado www.acr.org https://www.acr.org/Clinical-...
+slide-04: Quais métodos de imagem devemos utilizar? www.acr.org https://www.acr.org/Clinical-Resources/ACR-Appropriateness-Criteria
+slide-05: EXAMES RADIOLÓGICOS RX USG CT RM Dual energy PET/CT PET/RM Primovist Ecoendoscopia Elastografia RX USG TC RM
+slide-06: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA USG TOMOGRAFIA COMPUTADORIZADA RESSONÂNCIA MAGNÉTICA RADIOGRAFIA CONVENCIONAL - Rápido - Dinâmico - Leito - Sem radiação - Líquidos LIMITANTES - Gás - Gordura - Osso
+slide-07: Imagens Imagens ULTRASSONOGRAFIA
+slide-08: Imagens Imagens ULTRASSONOGRAFIA DE ABDOME
+slide-09: Imagens ULTRASSONOGRAFIA DE ABDOME
+slide-10: Imagens Imagens ULTRASSONOGRAFIA DE ABDOME RIM DIREITO RIM ESQUERDO
+slide-11: Imagens Imagens ULTRASSONOGRAFIA DE ABDOME PÂNCREAS FÍGADO VCI
+slide-12: Imagens Imagens ULTRASSONOGRAFIA DE ABDOME
+slide-13: Imagens Imagens ULTRASSONOGRAFIA TRANSFONTANELA
+slide-14: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA USG TOMOGRAFIA COMPUTADORIZADA RESSONÂNCIA MAGNÉTICA RADIOGRAFIA CONVENCIONAL - Rápido - Dinâmico - Leito - Sem radiação - Líquidos LIMITANTES - Gás - Gordura - Osso - Rápido - Resolução espacial - Radia...
+slide-15: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA
+slide-16: TOMOGRAFIA COMPUTADORIZADA SEM CONTRASTE COM CONTRASTE IV (CONTRASTE IODADO) ARTERIAL VENOSA EQUILÍBRIO EXCRETORA COM CONTRASTE VO COM CONTRASTE VR
+slide-17: Imagens Imagens TC ABDOME SEM CONTRASTE
+slide-18: Imagens Imagens TC ABDOME COM CONTRASTE EV PLANO SAGITAL PLANO AXIAL PLANO CORONAL
+slide-19: Imagens Imagens FASE ARTERIAL FASE PORTAL FASE EXCRETORA FASE TARDIA
+slide-20: FASE PORTAL SEM CONTRASTE VO FASE PORTAL COM CONTRASTE VO FASE PORTAL COM CONTRASTE VOP
+slide-21: Janela de parênquima Janela óssea TC CRÂNIO SEM CONTRASTE EV
+slide-22: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA USG TOMOGRAFIA COMPUTADORIZADA RESSONÂNCIA MAGNÉTICA RADIOGRAFIA CONVENCIONAL - Rápido - Dinâmico - Leito - Sem radiação - Líquidos LIMITANTES - Gás - Gordura - Osso - Rápido - Resolução espacial - Radia...
+slide-23: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA SEM CONTRASTE COM CONTRASTE IV (CONTRASTE IODADO) ARTERIAL VENOSA EQUILÍBRIO EXCRETORA USG COM CONTRASTE VO COM CONTRASTE VR RESSONÂNCIA MAGNÉTICA SEM CONTRASTE IV COM CONTRASTE IV (GADOLÍNIO) T1 COM FAT...
+slide-24: Imagens Imagens RM ABDOME SUPERIOR T2 sem fat sat T2 coronal sem fat sat T2 com fat sat T1 com fat sat T1 sem fat sat em fase T1 sem fat sat fora fase
+slide-25: RM ABDOME T1 COM FATSAT SEM CONTRASTE COM CONTRASTE (ARTERIAL) COM CONTRASTE (VENOSA) COM CONTRASTE (EQUILÍBRIO)
+slide-26: [VISUAL -- usar adjacente com titulo extraivel]
+slide-27: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA USG TOMOGRAFIA COMPUTADORIZADA RESSONÂNCIA MAGNÉTICA RADIOGRAFIA CONVENCIONAL - Rápido - Dinâmico - Leito - Sem radiação - Líquidos LIMITANTES - Gás - Gordura - Osso - Rápido - Resolução espacial - Radia...
+slide-28: RADIOGRAFIA DE ABDOME
+slide-29: RADIOGRAFIA DE ABDOME Decúbito dorsal Ortostase OBSTRUÇÃO INTESTINAL ALTA
+slide-30: RADIOGRAFIA DE TÓRAX PA Perfil
+slide-31: EXAMES RADIOLÓGICOS TOMOGRAFIA COMPUTADORIZADA USG TOMOGRAFIA COMPUTADORIZADA RESSONÂNCIA MAGNÉTICA RADIOGRAFIA CONVENCIONAL - Rápido - Dinâmico - Leito - Sem radiação - Líquidos LIMITANTES - Gás - Gordura - Osso - Rápido - Resolução espacial - Radia...
+slide-32: DÚVIDAS? OBRIGADO! André Bordini Preceptoria 2020 - Radiologia andre.bordini@fm.usp.br

@@ -1,237 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
-// ===================== CONSOLIDAÇÃO (Q01–Q10) =====================
-
 #questao-mc("01", badge-consolidacao,
-  [A teoria organicista, formulada entre os séculos XVIII e XX, sustenta que o desenvolvimento infantil acontece porque:],
-  (("A", [a criança nasce como um adulto em miniatura e apenas aumenta de tamanho até a vida adulta, sem qualquer mudança qualitativa de função.]),
-   ("B", [o conhecimento é transmitido passivamente pela cultura, e a criança reproduz o que o meio lhe impõe sem construção ativa própria.]),
-   ("C", [os órgãos amadurecem progressivamente, e cada órgão mais maduro possibilita funções cada vez mais complexas, que se manifestam como marcos.]),
-   ("D", [as experiências adversas precoces fixam, desde a concepção, um plano imutável que a criança apenas executa ao longo de toda a infância.]),
-   ("E", [o desenvolvimento depende só da carga genética herdada, sendo o ambiente incapaz de alterar a expressão do plano de fundo da criança.])))
+  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
+  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
+   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
+   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
+   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
+   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
 
 #questao-mc("02", badge-consolidacao,
-  [Segundo Piaget, no estágio sensório-motor (0–2 anos), a principal conquista cognitiva é:],
-  (("A", [a permanência do objeto — entender que algo continua existindo mesmo fora do campo de visão —, que se firma por volta dos 8 a 9 meses.]),
-   ("B", [o pensamento abstrato e hipotético, que permite à criança raciocinar sobre situações que ela nunca vivenciou diretamente no mundo concreto.]),
-   ("C", [o uso de símbolos e da linguagem com pensamento ainda egocêntrico, típico de quem custa a sair do próprio ponto de vista.]),
-   ("D", [o raciocínio lógico aplicado a objetos concretos, com domínio da conservação de quantidade e da reversibilidade das operações mentais.]),
-   ("E", [a resolução da crise entre confiança e desconfiança, que deixa como saldo a virtude da esperança na relação com o cuidador.])))
+  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
+  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
+   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
+   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
+   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
+   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre o desenvolvimento cerebral na primeira infância:],
-  (("I",   [O número de sinapses aumenta de forma explosiva logo após o nascimento, muito além do que será efetivamente usado.]),
-   ("II",  [Aos 2 anos, o cérebro já desenvolveu cerca de 80% da capacidade que terá.]),
-   ("III", [A poda sináptica elimina conexões de forma aleatória, sem qualquer relação com o uso ou a experiência da criança.]),
-   ("IV",  [A mielinização termina primeiro no córtex pré-frontal, sede do planejamento e do autocontrole.])))
+  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
+  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
+   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
+   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
+   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
 
 #questao-mc("04", badge-consolidacao,
-  [As funções executivas, um dos domínios do desenvolvimento definidos pela OMS, correspondem a:],
-  (("A", [a regulação das respostas emocionais durante a interação social, permitindo à criança lidar com a frustração e cooperar com os pares.]),
-   ("B", [o conjunto das habilidades motoras finas e grossas, do controle da cabeça em prono até a pinça e o traço do lápis.]),
-   ("C", [a aquisição de conhecimento, a memória de longo prazo e a resolução de problemas concretos do cotidiano da criança.]),
-   ("D", [a memória de trabalho, o foco atencional, a autorregulação e a flexibilidade mental que organizam o comportamento dirigido a metas.]),
-   ("E", [a experiência e a expressão das emoções, o traço de temperamento que torna cada criança mais ou menos reativa ao ambiente.])))
+  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
+  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
+   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
+   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
+   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
+   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
 
 #questao-mc("05", badge-consolidacao,
-  [Sobre as quatro lentes teóricas do desenvolvimento, assinale a alternativa *incorreta*:],
-  (("A", [para Piaget, a criança constrói ativamente o conhecimento ao interagir com o mundo, passando por estágios qualitativamente distintos.]),
-   ("B", [para Erikson, o desenvolvimento independe do vínculo com o cuidador, resultando apenas da maturação isolada dos órgãos internos.]),
-   ("C", [para Bronfenbrenner, o desenvolvimento ocorre dentro de sistemas encaixados, do microssistema familiar ao macrossistema cultural.]),
-   ("D", [para Vygotsky, a interação social e a mediação pela linguagem são centrais, operando na zona de desenvolvimento proximal.]),
-   ("E", [as quatro lentes são complementares, cada uma iluminando um aspecto — cognitivo, afetivo, contextual ou social — do mesmo processo.])))
+  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
+  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
+   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
+   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
+   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
+   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
 
-#questao-mc("06", badge-consolidacao,
-  [No modelo de Harvard (gene × ambiente × experiência), o papel da genética é:],
-  (("A", [esculpir diretamente cada circuito conforme a experiência vivida, de modo que o ambiente apenas repete o que os genes já determinaram.]),
-   ("B", [modular quanto os estímulos externos afetam a criança, funcionando como um filtro que decide quais experiências chegam ao cérebro.]),
-   ("C", [depositar marcas químicas sobre o DNA que ligam e desligam genes, sendo esse o mecanismo direto da influência ambiental precoce.]),
-   ("D", [garantir que a sequência das aquisições seja idêntica entre todas as crianças, sem qualquer variação de ritmo entre elas.]),
-   ("E", [fornecer o plano da arquitetura cerebral — a planta baixa —, enquanto o ambiente modula sua expressão e a experiência molda os circuitos.])))
+#questao-ce("06", badge-consolidacao,
+  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
+  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
+   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
+   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
+   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens sobre fatores de risco na primeira infância:],
-  (("I",   [A depressão materna é fator de risco porque reduz a sensibilidade e o envolvimento da mãe, tornando as interações menos responsivas.]),
-   ("II",  [Os fatores de risco só atuam depois dos 3 anos; o período intrauterino não tem impacto sobre o desenvolvimento.]),
-   ("III", [A pobreza tende a proteger o desenvolvimento, por estimular precocemente a resiliência da criança.]),
-   ("IV",  [Má nutrição, doenças infecciosas de repetição e negligência figuram entre os principais fatores de risco do período.])))
+#questao-mc("07", badge-consolidacao,
+  [Constitui contraindicação clássica à realização de ressonância magnética:],
+  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
+   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
+   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
+   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
+   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A diferença entre vigilância (monitoramento) e triagem (screening) do desenvolvimento é que:],
-  (("A", [a triagem é contínua e feita em toda consulta, enquanto a vigilância é pontual e usa instrumentos padronizados em consultas específicas.]),
-   ("B", [a vigilância é contínua, feita em toda consulta para eleger quem merece olhar fino; a triagem é pontual, com instrumento, e encaminha ao diagnóstico.]),
-   ("C", [ambas são idênticas na prática, diferindo apenas no nome adotado por cada serviço de saúde ou por cada protocolo institucional.]),
-   ("D", [a vigilância já fecha o diagnóstico de atraso, dispensando qualquer etapa posterior de avaliação especializada da criança.]),
-   ("E", [a triagem substitui a consulta de rotina, sendo aplicada uma única vez ao nascimento para todas as crianças da unidade.])))
+  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
+  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
+   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
+   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
+   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
+   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
 
 #questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre os marcos do desenvolvimento:],
-  (("I",   [Perder uma habilidade já adquirida (regressão) é apenas variação normal do ritmo, sem valor de sinal de alerta.]),
-   ("II",  [Por volta dos 9 meses, espera-se que o bebê sente sem apoio e apresente a permanência do objeto.]),
-   ("III", [O brincar paralelo — ao lado de outra criança, ainda não com ela — é típico dos 2 anos.]),
-   ("IV",  [A sequência dos marcos varia muito entre as crianças, enquanto a velocidade de aquisição é praticamente constante.])))
+  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
+  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
+   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
+   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
+   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
 
 #questao-mc("10", badge-consolidacao,
-  [A metáfora da "construção da casa" (Harvard) para a aquisição de habilidades ensina que:],
-  (("A", [as habilidades iniciais são a fundação das mais complexas, de modo que bases frágeis limitam tudo o que se construir por cima.]),
-   ("B", [todas as habilidades surgem ao mesmo tempo e de forma independente, sem que umas dependam das outras para se estabelecer no cérebro.]),
-   ("C", [apenas a habilidade motora importa como base, sendo a linguagem e a cognição andares dispensáveis dessa construção do desenvolvimento.]),
-   ("D", [a construção só começa depois dos 6 anos, quando a criança entra na escola e passa a receber instrução formal sistemática.]),
-   ("E", [fundações frágeis podem ser ignoradas, pois o cérebro adulto refaz por completo qualquer base mal construída na primeira infância.])))
-
-// ===================== INTEGRAÇÃO (Q11–Q25) =====================
+  [Os ACR Appropriateness Criteria servem para:],
+  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
+   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
+   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
+   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
+   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
 
 #questao-mc("11", badge-integracao,
-  [A mesma plasticidade que permite ganhos na primeira infância também explica por que a adversidade marca tanto o cérebro. Isso ocorre porque:],
-  (("A", [a plasticidade só opera na direção positiva, de modo que experiências negativas não conseguem se inscrever na arquitetura cerebral.]),
-   ("B", [o cortisol elevado aumenta o número de neurônios nas áreas do medo, compensando qualquer perda causada pela adversidade vivida.]),
-   ("C", [as conexões se formam e se podam segundo a experiência — então privação e estresse, como estímulo e afeto, também esculpem os circuitos.]),
-   ("D", [a arquitetura cerebral é fixada pelos genes já ao nascimento, e a experiência apenas revela aquilo que estava predeterminado.]),
-   ("E", [as janelas de plasticidade se fecham por completo aos 2 anos, tornando o cérebro imune a qualquer adversidade a partir de então.])))
+  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
+  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
+   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
+   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
+   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
+   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
 
-#questao-mc("12", badge-integracao,
-  [A epigenética explica como o cuidado precoce deixa marca duradoura no genoma da criança porque:],
-  (("A", [altera a própria sequência de bases do DNA da criança, reescrevendo de forma permanente os genes que ela herdou de seus pais.]),
-   ("B", [elimina fisicamente os genes ligados à resposta ao estresse, de modo que a criança bem cuidada simplesmente deixa de possuí-los.]),
-   ("C", [transfere genes do cuidador para a criança durante a interação afetiva, somando à sua carga genética uma proteção extra herdada.]),
-   ("D", [deposita marcas químicas, como a metilação, que ligam e desligam genes sem trocar a letra do DNA, regulando quanto cada gene é lido.]),
-   ("E", [impede toda expressão gênica no cérebro em desenvolvimento, deixando o comportamento sob controle exclusivo do ambiente externo.])))
+#questao-ce("12", badge-integracao,
+  [Julgue os itens que contrastam tomografia e ressonância magnética:],
+  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
+   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
+   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
+   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
 
-#questao-ce("13", badge-integracao,
-  [Julgue os itens sobre períodos críticos e privação sensorial:],
-  (("I",   [Um olho privado de imagem nítida nos primeiros anos pode perder acuidade de forma permanente, ainda que o olho em si seja normal.]),
-   ("II",  [Uma vez fechada a janela, a plasticidade zera e nenhuma recuperação é possível em qualquer função.]),
-   ("III", [O prejuízo ocorre porque o córtex visual não recebeu o estímulo esperado na janela em que se organizava.]),
-   ("IV",  [Período crítico e período sensível são sinônimos exatos, sem diferença na rigidez da janela.])))
+#questao-mc("13", badge-integracao,
+  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
+  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
+   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
+   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
+   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
+   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
 
 #questao-mc("14", badge-integracao,
-  [A permanência do objeto, marco cognitivo descrito por Piaget, manifesta-se por volta dos 9 meses e costuma coincidir com:],
-  (("A", [o brincar cooperativo com outras crianças, já que a criança passa a compartilhar regras e objetivos comuns durante as brincadeiras.]),
-   ("B", [a ansiedade diante de estranhos, pois guardar a imagem do cuidador implica reconhecer quem não é ele.]),
-   ("C", [o pensamento abstrato e hipotético, que só se completa muito mais tarde, no estágio operatório formal da adolescência plena.]),
-   ("D", [a aquisição das primeiras frases de três palavras, marco de linguagem esperado apenas por volta dos três anos de idade.]),
-   ("E", [o controle esfincteriano completo, habilidade adaptativa que costuma se firmar entre os quatro e os cinco anos de vida.])))
+  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
+  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
+   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
+   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
+   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
+   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
 
 #questao-ce("15", badge-integracao,
-  [Julgue os itens sobre a avaliação do desenvolvimento:],
-  (("I",   [Avaliar o desenvolvimento exige olhar várias frentes — motor, linguagem, cognição, social —, não apenas a motora, que é a mais visível.]),
-   ("II",  [Uma criança que vai bem no domínio motor não pode, por definição, ter atraso em nenhum outro domínio.]),
-   ("III", [A vigilância é pontual, feita apenas em consultas específicas e sempre com um instrumento padronizado.]),
-   ("IV",  [A triagem positiva encaminha a criança para diagnóstico, e não fecha o diagnóstico por si mesma.])))
+  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
+  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
+   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
+   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
+   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
 
 #questao-mc("16", badge-integracao,
-  [O que distingue o estresse tóxico do positivo e do tolerável não é a gravidade do evento, mas sim:],
-  (("A", [a idade exata da criança no momento do evento, sendo tóxico apenas o estresse que ocorre depois dos dois anos de vida.]),
-   ("B", [o número de eventos adversos somados ao longo do ano, independentemente de haver ou não o apoio de um adulto responsivo.]),
-   ("C", [a presença de doença física associada, que transforma qualquer estresse emocional leve em uma resposta tóxica para o organismo.]),
-   ("D", [a carga genética herdada, que determina de antemão quais crianças terão resposta tóxica e quais terão resposta saudável.]),
-   ("E", [a ausência de um adulto responsivo que amorteça a resposta, deixando o eixo do estresse cronicamente ativado sem retorno ao repouso.])))
+  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
+  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
+   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
+   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
+   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
+   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
 
-#questao-mc("17", badge-integracao,
-  [Sobre o eixo hipotálamo-hipófise-adrenal (HPA) e o estresse tóxico, assinale a alternativa *incorreta*:],
-  (("A", [diante de uma ameaça, o hipotálamo aciona a hipófise, que aciona a suprarrenal, resultando na liberação de cortisol.]),
-   ("B", [em picos breves, a ativação do eixo e o cortisol são saudáveis e ajudam o corpo a reagir à situação.]),
-   ("C", [o cortisol cronicamente elevado fortalece o hipocampo e o córtex pré-frontal, melhorando a memória e o autocontrole.]),
-   ("D", [a ativação prolongada e sem amortecimento pode remodelar a arquitetura cerebral de forma duradoura.]),
-   ("E", [a amígdala, centro do medo, tende a ficar hiperativa sob estresse tóxico persistente.])))
+#questao-ce("17", badge-integracao,
+  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
+  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
+   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
+   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
+   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
 
 #questao-mc("18", badge-integracao,
-  [O estudo do vocabulário (Hart & Risley) mostra que a diferença de linguagem entre crianças de diferentes níveis de escolaridade parental:],
-  (("A", [já aparece por volta dos 18 meses e reflete quanto estímulo verbal banhou o cérebro na janela sensível da linguagem.]),
-   ("B", [surge apenas na adolescência, quando as demandas escolares finalmente revelam diferenças de vocabulário que antes não existiam entre as crianças.]),
-   ("C", [decorre exclusivamente da herança genética da inteligência, sendo totalmente impermeável a qualquer enriquecimento posterior do ambiente linguístico.]),
-   ("D", [desaparece de forma espontânea na entrada da escola, sem que seja preciso um ambiente rico em estímulo verbal para corrigi-la.]),
-   ("E", [independe do número de palavras e de interações, dependendo apenas da qualidade do material didático formal oferecido à criança.])))
+  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
+  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
+   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
+   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
+   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
+   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
 
-#questao-ce("19", badge-integracao,
-  [Julgue os itens sobre o espectro da normalidade:],
-  (("I",   [Qualquer diferença de ritmo entre crianças indica, por si só, um atraso do desenvolvimento a ser tratado.]),
-   ("II",  [A sequência das aquisições varia muito entre crianças, enquanto o ritmo é praticamente universal.]),
-   ("III", [Duas crianças saudáveis podem andar com meses de diferença, ambas dentro da normalidade.]),
-   ("IV",  [A variação de ritmo resulta da interação entre o programa genético e o ambiente de cada criança.])))
+#questao-mc("19", badge-integracao,
+  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
+  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
+   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
+   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
+   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
+   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
 
-#questao-mc("20", badge-integracao,
-  [A matriz ecobiodesenvolvimentista e a atenção especial ao prematuro e ao pequeno para a idade gestacional se justificam porque:],
-  (("A", [o desenvolvimento só começa após o nascimento, de modo que as condições intrauterinas não têm efeito sobre a saúde futura da criança.]),
-   ("B", [restrições intrauterinas afetam apenas o peso ao nascer, sem qualquer repercussão sobre o desenvolvimento ou sobre a saúde do adulto.]),
-   ("C", [a prematuridade garante, por si só, um cérebro mais plástico e, portanto, uma vantagem no desenvolvimento posterior das habilidades.]),
-   ("D", [restrições intrauterinas comprometem crescimento e desenvolvimento e geram consequências tardias na saúde adulta, começando a janela em desvantagem.]),
-   ("E", [as raízes dos problemas de saúde estão apenas na vida adulta, sendo a primeira infância um período sem consequências duradouras.])))
+#questao-ce("20", badge-integracao,
+  [Julgue os itens sobre planos e reconstrução na tomografia:],
+  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
+   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
+   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
+   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
 
-#questao-ce("21", badge-integracao,
-  [Julgue os itens sobre a mudança da trajetória de desenvolvimento:],
-  (("I",   [O cérebro é plástico — tem capacidade de crescer e mudar —, e a primeira infância é a maior janela para intervir.]),
-   ("II",  [Programas de parentalidade e ambientes acolhedores, como creche de qualidade, podem alterar a trajetória do desenvolvimento.]),
-   ("III", [Uma vez instalada a adversidade, nenhuma intervenção é capaz de modificar o rumo do desenvolvimento da criança.]),
-   ("IV",  [A estimulação precoce é mais efetiva quanto mais tarde começar, de preferência só após a entrada na escola.])))
+#questao-mc("21", badge-integracao,
+  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
+  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
+   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
+   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
+   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
+   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
 
 #questao-mc("22", badge-integracao,
-  [A zona de desenvolvimento proximal, de Vygotsky, é útil na clínica porque descreve:],
-  (("A", [o intervalo de idade em que todos os marcos motores devem obrigatoriamente estar presentes, sob pena de se caracterizar um atraso do desenvolvimento.]),
-   ("B", [a distância entre o que a criança faz sozinha e o que consegue com ajuda de alguém mais capaz — a faixa onde o aprendizado ocorre.]),
-   ("C", [a fase em que a criança resolve a crise entre autonomia e vergonha, adquirindo como saldo a virtude da vontade própria descrita por Erikson.]),
-   ("D", [o conjunto de sistemas ecológicos encaixados que vão do microssistema familiar até a cultura e o tempo histórico em que a criança vive.]),
-   ("E", [a sequência fixa de estágios cognitivos pela qual toda criança passa até alcançar o pensamento abstrato e hipotético do adulto.])))
+  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
+  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
+   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
+   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
+   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
+   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
 
-#questao-ce("23", badge-integracao,
-  [Julgue os itens sobre o modelo ecológico de Bronfenbrenner:],
-  (("I",   [O microssistema é o contato direto da criança, como a família e a escola.]),
-   ("II",  [O exossistema é o contato direto e diário da criança com os pais e cuidadores.]),
-   ("III", [O cronossistema se refere aos valores culturais e às políticas vigentes na sociedade.]),
-   ("IV",  [O modelo ajuda a entender por que fatores como pobreza e violência na comunidade afetam o desenvolvimento.])))
+#questao-mc("23", badge-integracao,
+  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
+  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
+   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
+   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
+   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
+   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
 
 #questao-mc("24", badge-integracao,
-  [O fato de a mielinização do córtex pré-frontal terminar por último ajuda a explicar por que:],
-  (("A", [o planejamento, o foco e o autocontrole — funções executivas dessa região — amadurecem tardiamente ao longo da infância e da adolescência.]),
-   ("B", [a criança já nasce com pleno controle dos impulsos, perdendo-o de forma gradual à medida que o córtex vai amadurecendo.]),
-   ("C", [as habilidades motoras grossas são as últimas a aparecer, completando-se apenas depois do pleno desenvolvimento da linguagem.]),
-   ("D", [a permanência do objeto só é alcançada na adolescência, quando o córtex pré-frontal finalmente conclui a sua mielinização.]),
-   ("E", [a mielina desacelera a condução nervosa, tornando o pensamento do adolescente mais lento do que o da criança pequena.])))
+  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
+  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
+   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
+   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
+   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
+   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
 
 #questao-ce("25", badge-integracao,
-  [Julgue os itens sobre como a experiência molda o cérebro:],
-  (("I",   [Estimular a criança aumenta principalmente o número de neurônios que ela possui no cérebro.]),
-   ("II",  [A experiência fortalece as sinapses que são usadas e leva à poda das que ficam ociosas.]),
-   ("III", [É sobretudo a rede de conexões, não a contagem de neurônios, que floresce ou murcha com a vivência.]),
-   ("IV",  [Privação e estímulo têm pouco efeito, porque o cabeamento cerebral é fixado inteiramente pelos genes.])))
-
-// ===================== APLICAÇÃO (Q26–Q30) =====================
+  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
+  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
+   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
+   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
+   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Em consulta de rotina, o pediatra nota que um menino de 24 meses ainda não junta duas palavras e não sobe escada, embora ande sozinho. A conduta que melhor traduz a lógica vigilância → triagem → diagnóstico é:],
-  (("A", [tranquilizar a família e reavaliar apenas aos 6 anos, na entrada escolar, quando eventuais atrasos ficarão evidentes por si sós.]),
-   ("B", [fechar de imediato o diagnóstico de deficiência intelectual e iniciar tratamento, sem necessidade de instrumentos ou de avaliação especializada.]),
-   ("C", [aplicar um instrumento de triagem e, se confirmar risco, encaminhar para avaliação diagnóstica, aproveitando a janela de plasticidade ainda aberta.]),
-   ("D", [suspender novas consultas até que a criança complete três anos, idade em que a fala costuma se normalizar por conta própria.]),
-   ("E", [atribuir o quadro à variação normal de ritmo e não registrar o achado, já que a criança consegue andar sem apoio.])))
+  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
+  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
+   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
+   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
+   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
+   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Uma criança de 3 anos vive exposta à violência doméstica crônica, sem um adulto que a proteja e a acolha. Do ponto de vista do desenvolvimento, o maior risco é que:],
-  (("A", [a ausência de estresse na rotina a deixe despreparada para lidar com pequenas frustrações do cotidiano no futuro.]),
-   ("B", [o evento, por ser grave, configure necessariamente estresse tolerável, sem repercussão sobre a arquitetura cerebral em formação.]),
-   ("C", [a plasticidade cerebral, já encerrada nessa idade, impeça qualquer efeito da adversidade sobre o cérebro dela.]),
-   ("D", [o cortisol cronicamente baixo comprometa a memória, reduzindo o tamanho da amígdala e do hipocampo.]),
-   ("E", [a ativação crônica do eixo do estresse, sem amortecimento, remodele hipocampo, pré-frontal e amígdala, com déficit duradouro.])))
+  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
+  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
+   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
+   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
+   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
+   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Uma criança institucionalizada sob negligência extrema nos primeiros anos apresenta atraso global do desenvolvimento. Julgue os itens:],
-  (("I",   [A privação de estímulo e de afeto pode empobrecer a arquitetura cerebral, com cérebro menor e ventrículos alargados.]),
-   ("II",  [Trata-se de dano genético, sem relação com a falta de experiência precoce.]),
-   ("III", [É a plasticidade operando contra a criança: faltou a matéria-prima da vivência para esculpir circuitos ricos.]),
-   ("IV",  [Por ser dano estrutural, nenhuma intervenção ou ambiente acolhedor alternativo teria qualquer efeito.])))
+  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
+  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
+   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
+   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
+   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
 
-#questao-mc("29", badge-aplicacao,
-  [Um menino de 18 meses tem excelente desenvolvimento motor — anda, corre, sobe em móveis — mas não aponta, não fala nenhuma palavra e não busca contato visual. A leitura correta é:],
-  (("A", [como o desenvolvimento motor vai bem, o desenvolvimento global está garantido e nenhum outro domínio precisa ser investigado.]),
-   ("B", [o bom motor não exclui atraso em outras frentes; linguagem e social precisam ser avaliados, pois um atraso pode passar despercebido.]),
-   ("C", [a ausência de fala aos 18 meses é sempre normal, bastando aguardar a entrada na escola para que a linguagem surja.]),
-   ("D", [o quadro reflete apenas timidez de temperamento, sem qualquer relação com os domínios de linguagem e de interação social.]),
-   ("E", [o desenvolvimento motor avançado atrasa de propósito a linguagem, que aparecerá assim que a marcha se estabilizar por completo.])))
+#questao-ce("29", badge-aplicacao,
+  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
+  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
+   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
+   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
+   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um serviço de saúde quer reduzir o impacto da pobreza sobre o desenvolvimento infantil em uma comunidade vulnerável. Com base na evidência apresentada, a estratégia mais alinhada é:],
-  (("A", [concentrar todos os recursos no ensino médio, quando os déficits de aprendizagem já estão plenamente instalados e bem visíveis.]),
-   ("B", [aguardar a idade adulta para tratar as doenças resultantes, já que suas raízes não estão na primeira infância da população.]),
-   ("C", [oferecer apenas suplementação nutricional isolada, ignorando estímulo, vínculo e apoio à parentalidade das famílias atendidas.]),
-   ("D", [investir em estimulação precoce e apoio à parentalidade nos primeiros anos, quando a plasticidade e o retorno da intervenção são máximos.]),
-   ("E", [substituir o acompanhamento pediátrico de rotina por uma única avaliação ao nascimento, encerrando o monitoramento logo em seguida.])))
+  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
+  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
+   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
+   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
+   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
+   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))

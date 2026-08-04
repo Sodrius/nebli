@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- pediatria-01-desenvolvimento-primeira-infancia | Gerado por gerar_main.py
+// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,31 +8,33 @@
 
 // ======= CAPA =======
 #capa(
-  "Crescimento e Desenvolvimento na Primeira Infância",
-  "Pediatria — Ciclo da Vida I",
+  "Ferramentas do Diagnóstico Radiológico",
+  "Radiologia — Métodos de Imagem",
   (
-    ("Disciplina", "Pediatria — Ciclo da Vida I (UC-16)"),
-    ("Onde estudar", "SBP · Tratado de Pediatria (6ª ed.) · Grisi · Desenvolvimento da Criança (Atheneu) · Escobar · A Promoção da Saúde na Infância (Manole)"),
+    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
+    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O que é desenvolvimento e as lentes para enxergá-lo", (
-      "1.1 Do adulto em miniatura à maturação",
-      "1.2 As quatro lentes teóricas",
-      "1.3 Definição e domínios do desenvolvimento",
+    ("PARTE I — A pergunta clínica e as três físicas", (
+      "1.1 A pergunta antes do exame",
+      "1.2 Três físicas, quatro métodos",
+      "1.3 Radiação ionizante ou não",
     )),
-    ("PARTE II — O motor biológico: cérebro plástico e a janela", (
-      "2.1 Habilidades em camadas",
-      "2.2 Plasticidade e a janela",
-      "2.3 Gene, ambiente e experiência",
+    ("PARTE II — Cada método por talento e cegueira", (
+      "2.1 Ultrassom: imagem de ecos",
+      "2.2 Tomografia: densidade em cinza",
+      "2.3 Ressonância: sinal dos prótons",
+      "2.4 Radiografia: sombra somada",
     )),
-    ("PARTE III — Risco, estresse tóxico e o papel do pediatra", (
-      "3.1 Fatores de risco",
-      "3.2 Estresse tóxico e o eixo HPA",
-      "3.3 Vigilância, triagem e o novo papel",
+    ("PARTE III — Contraste, fases e prática", (
+      "3.1 Meios de contraste",
+      "3.2 Fases lidas no tempo",
+      "3.3 Sequências que resolvem",
+      "3.4 A física na decisão clínica",
     )),
   )),
 ))
@@ -55,39 +57,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "C"),
-    ("02", "A"),
-    ("03", "CCEE"),
+    ("01", "A"),
+    ("02", "B"),
+    ("03", "ECCC"),
     ("04", "D"),
     ("05", "B"),
-    ("06", "E"),
-    ("07", "CEEC"),
-    ("08", "B"),
-    ("09", "ECCE"),
-    ("10", "A"),
+    ("06", "CECC"),
+    ("07", "E"),
+    ("08", "C"),
+    ("09", "CCEC"),
+    ("10", "D"),
   )),
   ("Integração (Q11–Q25)", (
     ("11", "C"),
-    ("12", "D"),
-    ("13", "CECE"),
-    ("14", "B"),
-    ("15", "CEEC"),
-    ("16", "E"),
-    ("17", "C"),
-    ("18", "A"),
-    ("19", "EECC"),
-    ("20", "D"),
-    ("21", "CCEE"),
-    ("22", "B"),
-    ("23", "CEEC"),
-    ("24", "A"),
-    ("25", "ECCE"),
+    ("12", "CCCE"),
+    ("13", "A"),
+    ("14", "C"),
+    ("15", "CCEC"),
+    ("16", "B"),
+    ("17", "CECC"),
+    ("18", "D"),
+    ("19", "E"),
+    ("20", "CCEE"),
+    ("21", "E"),
+    ("22", "D"),
+    ("23", "B"),
+    ("24", "E"),
+    ("25", "ECCC"),
   )),
   ("Aplicação (Q26–Q30)", (
     ("26", "C"),
-    ("27", "E"),
-    ("28", "CECE"),
-    ("29", "B"),
+    ("27", "A"),
+    ("28", "CCEC"),
+    ("29", "CCEC"),
     ("30", "D"),
   )),
 ))

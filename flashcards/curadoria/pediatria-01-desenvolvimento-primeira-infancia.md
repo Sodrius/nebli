@@ -2,7 +2,9 @@
 
 **Slug:** pediatria-01-desenvolvimento-primeira-infancia · **Aula 1**, Ciclo da Vida I (UC-16), Pediatria (Profa. Alexandra Brentani).
 **Tag-âncora:** `NEBLI::pediatria-01-desenvolvimento-primeira-infancia` · **Deck:** `NEBLI::Ciclo da Vida I::Pediatria::Crescimento e desenvolvimento na primeira infância`
-**Estado:** 16 cópias AnKing aplicadas (AnKing original intocado) + dessuspensas + sync AnkiWeb.
+**Estado:** 16 cópias AnKing + 29 NEBLIcards autorais = **45 cards** no deck, dessuspensos + sync AnkiWeb.
+
+> **PASSE DE COBERTURA-CONCEITO 2026-08-04:** o gate canônico media no nível de *subtópico* (11/12), mas conceitos high-yield **dentro** dos subtópicos estavam sem card. Adicionados 8 autorais (lint PASS, prefixo de tema `Neurodevelopment`): Piaget pré-operacional/egocentrismo (1.2), estresse *tolerável* (3.2), período sensível×crítico (2.2), sequência conservada×ritmo elástico (2.3), red-flag = perda/regressão (2.3), tríade gene-plano/ambiente-modula/experiência-esculpe (2.4), desenvolvimento multi-domínio OMS (1.3), word-gap Hart & Risley (3.1). **PENDENTE:** card-mirror dos 8 novos + imagens (fase 2, junto do retrofit de theme-label se necessário nos originais). Nota operacional: `aplicar_neblicards.py` não casou os originais por diferença de prefixo e criou 21 duplicatas — removidas na hora; `forgetCards` resetou o schedule (~1 dia) dos 21 originais, impacto mínimo em deck nascente.
 
 ## Achado central da curadoria
 
