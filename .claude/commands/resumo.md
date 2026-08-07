@@ -3,24 +3,25 @@ description: Inicia geração de um resumo NEBLI completo (Tema Card → E1 → 
 argument-hint: <slug> <slide.pdf> [UC1|UC2]
 ---
 
-Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05-26 — subagentes REDATOR-E1 e QUESTIONADOR estão suspensos por bug de loop; thread principal faz redação direta lendo `ROLES.md` §§ Orquestrador/Redator-E1/Questionador como referência prescritiva).
+Você é o **ORQUESTRADOR + REDATOR-E1** (canônico 2026-08-07 — QUESTIONADOR volta como subagent Sonnet, ver passo 7). Lê `ROLES.md` §§ Orquestrador/Redator-E1 como referência prescritiva própria.
 
 **Argumentos recebidos:** $ARGUMENTS
 
 **Tarefa:**
 
-1. **Validar entrada.** Parse os argumentos: `<slug>` (ex.: `bioq-17-ciclo-krebs`), `<slide.pdf>` (caminho absoluto ou relativo), `<UC>` (opcional, infere de `banco/aulas_uc01.yml` ou `banco/aulas_uc02.yml` pelo slug). Se algo faltar ou for ambíguo, pergunte com opções numeradas antes de prosseguir.
+1. **Validar entrada.** Parse os argumentos: `<slug>` (ex.: `uc03-02-ferramentas-diagnostico-radiologico`), `<UC>` (opcional — infere de `banco/aulas_uc<NN>.yml` se existir, ou do prefixo do slug; UCs do 2º sem sem banco pegam do `cronogramas/<uc>-*.md`). **Materiais heterogêneos vivem em `slides/<slug>/`** (canon 2026-08-07): qualquer combinação de slide + `perguntas-orientadoras.txt` + `leitura-*.pdf` + `README.md`. Se a pasta não existir ou faltar material, pergunte com opções numeradas antes de prosseguir.
 
-2. **Leitura canônica obrigatória** (em paralelo):
-   - `C:\AI use\nebli\CLAUDE.md` — núcleo prescritivo
-   - `C:\AI use\nebli\MEMORY.md` — estado vivo + **§ Diário de revisões** (obrigatório antes de gerar Tema Card)
-   - `C:\AI use\nebli\ERROS.md` — § Erros recorrentes (18 itens) + § Feedbacks de processo
-   - `C:\AI use\nebli\ROLES.md` — §§ Orquestrador, Redator-E1, Questionador como referência prescritiva
-   - `banco/aulas_uc<N>.yml` — confirmar slug existe
+2. **Leitura canônica obrigatória** (em paralelo, caminhos relativos à raiz do repo):
+   - `CLAUDE.md` — núcleo prescritivo
+   - `MEMORY.md` — estado vivo + **§ Diário de revisões** (obrigatório antes de gerar Tema Card)
+   - `ERROS.md` — § Erros recorrentes (18 itens) + § Feedbacks de processo
+   - `ROLES.md` — §§ Orquestrador, Redator-E1, Questionador (esta última é a spec do subagent do passo 7)
+   - `sobre_mim.md` — contexto do Davi (semestre, estrutura de decks, objetivos Step 1+FMUSP)
+   - `banco/aulas_uc<N>.yml` (se UC01/UC02) OU `cronogramas/<uc>-*.md` (UC do 2º sem) — confirmar aula existe
 
 3. **Limpar workspace.** `rm typst-build/etapa1.typ typst-build/etapa2.typ typst-build/etapa3.typ typst-build/resumindo.typ typst-build/main.typ` (evita contaminação do resumo anterior — `ERROS.md` erro 3).
 
-4. **Extrair slides.** Rodar `python typst-build/extrair_slides.py <slide.pdf> <slug>` — gera `figuras/<slug>/slide-XX.png` + `MAPA_CONTEUDO.txt`.
+4. **Preparar materiais.** Rodar `python typst-build/preparar_materiais.py <slug>` (canon 2026-08-07 — substitui a chamada direta ao `extrair_slides.py`). O script cataloga todo material em `slides/<slug>/`, delega slide ao `extrair_slides.py` (PNGs + `MAPA_CONTEUDO.txt`), extrai texto de PDFs de leitura, copia perguntas orientadoras e emite `arquivos-trabalho/materiais/<slug>/INDICE.md` com o **papel editorial** de cada peça. Ler o INDICE.md antes de montar o Tema Card.
 
 5. **Gerar Tema Card** em `arquivos-trabalho/tema-card-<slug>.md` — Seções A (escopo), B (baseline aluno), C (profundidade + distribuição E2), D (Mapa de Confusões inicial), **Seção E (exemplares-âncora)**. Validar com Davi se houver ambiguidade (recorte slide × tema).
 
@@ -32,13 +33,13 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
 
 6b. **Seleção de cards + passe de aprofundamento da E1 (CANON 2026-07-10, ANTES da E2).** Rodar a seleção de cards (passo 11a-c abaixo, com Anki vivo OU seleção offline do export) para descobrir o que o campo trata como núcleo. Depois, fazer o **passe de aprofundamento**: voltar na E1 e injetar **≈1 conteúdo extra mecanístico por subtópico** (~9-12 no total), colado a um mecanismo já aberto — o **slide regula O QUE entra, o AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**; se não há onde encaixar, não encaixa. Muitos aprofundamentos são induzidos por bons cards do AnKing (que vão pro deck-aula). Detalhe em `CLAUDE.md` § Aprofundamento da E1 + `ROLES.md` § Redator diretriz 17 + `FLASHCARDS.md` § Loop Card→E1. **Só depois de aprofundar a E1, seguir para a E2** (assim a E2 já cobra o extra). Sem Anki vivo: o aprofundamento nasce do mapa de cobertura offline + blueprint + bibliografia.
 
-7. **Redigir E2/E3** seguindo `ROLES.md` § Questionador. Para **Q01-Q30** reportar quadro completo de ratio de paridade (gate hard banda dupla 0.80-1.25 — canônico 2026-05-29).
+7. **Delegar E2/E3 ao subagent QUESTIONADOR-SONNET** (canon 2026-08-07 — reverte a fusão de 2026-05-26 pra E2/E3). Chamar `Agent(subagent_type: "questionador-sonnet", ...)` com prompt curto passando: (a) `<slug>`, (b) caminho do Tema Card e da E1 já compiladas, (c) meta explícita "E2 30 obj + E3 5 discursivas, todos os gates hard do stub". O subagent (Sonnet 4.6) grava `typst-build/etapa2.typ` + `typst-build/etapa3.typ` e devolve o quadro completo de ratio Q01-Q30 (banda dupla 0.80-1.25) + tabela subtópico→questões + filtro de integração + gabarito sorteado. **Contingência F9:** se o subagent parar sem disparar tools ou "simular inline", reassumir na sessão principal (Opus) e redigir E2/E3 diretamente seguindo `ROLES.md` § Questionador.
 
 8. **Compilar** via `python typst-build/gerar_main.py <slug>` → `python typst-build/precompile-check.py` → `cd typst-build && typst compile --root .. --font-path ../fonts main.typ <SLUG>.pdf` → `python typst-build/auditar_pdf.py <SLUG>.pdf`.
 
 9. **Mover + compactar (CANÔNICO 2026-07-03, reforçado 2026-07-07).** Mover para `resumos-gerados/<SLUG>.pdf` APENAS se ambos auditores passarem. **Logo em seguida, SEMPRE gerar a cópia leve** (não é opcional): `cd typst-build && python comprimir_pdf.py "../resumos-gerados/<SLUG>.pdf" "../resumos-gerados/leves/<SLUG>.pdf"`. Política sidecar: o master fica full-res; a cópia leve (~2-3 MB) é a que se abre no celular / sobe pro Drive. Reportar os dois tamanhos no relatório final e, quando o Davi estiver via remote-control, enviar a cópia leve pelo chat (`SendUserFile`).
 
-10. **Relatório final** ao Davi: erros recorrentes checados (`ERROS.md` § Erros recorrentes, 18 itens), figuras descartadas pelo filtro (regra 15), **paridade Q01-Q30 em banda dupla 0.80-1.25** com direção quando FAIL, densidade por PARTE, tabela auditável de figuras (Figura | PARTE | Origem | Mecanismo | Largura), tabela subtópico→questões, e o **Índice de completude (CANON 2026-07-10) — 3 notas de 0 a 10 com 1 linha de justificativa cada: E1×slide (meta 8-9, a E1 vai um tiquinho além do slide), E2×E1 (meta ≥8), Cards×E1 (meta ≥7)** (ver `ROLES.md` § Índice de completude). Incluir literalmente: **Fontes → E1: X/Y conceitos relevantes incorporados** e **E1 → cards: X/Y conceitos nucleares COBERTOS**.
+10. **Relatório final** ao Davi: erros recorrentes checados (`ERROS.md` § Erros recorrentes, 18 itens), figuras descartadas pelo filtro (regra 15), **paridade Q01-Q30 em banda dupla 0.80-1.25** com direção quando FAIL, densidade por PARTE, tabela auditável de figuras (Figura | PARTE | Origem | Mecanismo | Largura), tabela subtópico→questões, tabela **perguntas orientadoras → cobertura em E1/E2/E3** (canon 2026-08-07 — se houver `perguntas-orientadoras.txt` em `slides/<slug>/`), e o **Índice de completude — 3 notas de 0 a 10 com 1 linha de justificativa cada: E1×slide (meta 8-9), E2×E1 (meta ≥8), Cards×E1 (meta ≥8, canon 2026-08-07; piso ≥3 cards por subtópico nuclear)** (ver `ROLES.md` § Índice de completude). Incluir literalmente: **Fontes → E1: X/Y conceitos relevantes incorporados** e **E1 → cards: X/Y conceitos nucleares COBERTOS**.
 
 11. **Curadoria AnKing (adicionar cards ao deck).** Depois de mover o PDF, rodar o fluxo de `flashcards/CURADORIA-ANKING.md` (dirigido por conceito) para este `<slug>`:
 

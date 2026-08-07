@@ -1,6 +1,8 @@
 # estrutura-deck-mestre.md — como o deck NEBLI espelha a FMUSP
 
-> Plano de organização do deck Anki para (a) refletir a estrutura FMUSP (UC › componente › aula) que o Davi já usa no Drive com as apostilas, (b) permitir "revisar só a aula X" e (c) manter o fluxo "deck geralzão, 15 novos/dia". Criado 2026-07-10; a decisão A vs B abaixo estava marcada "a pensar" pelo Davi.
+> Plano de organização do deck Anki para (a) refletir a estrutura FMUSP (UC › prova › matéria › aula) que o Davi já usa no Drive com as apostilas, (b) permitir "revisar só a aula X" e (c) manter o fluxo "deck geralzão, 15 novos/dia".
+>
+> **Estado (2026-08-07):** canonizado como **Modelo B** desde 2026-07-12. A regra da **primeira prova** (aula cobrada em >1 prova mora só na primeira) foi explicitada em 2026-08-07 a pedido do Davi. Este documento é o **plano operacional detalhado** que o `FLASHCARDS.md` § Estrutura resume; em conflito de detalhe, este vence.
 
 ## Decisão: deck-AnKing puro vs deck-NEBLI estruturado
 
@@ -14,19 +16,37 @@
 
 **Recomendação:** Modelo B. O ganho de ter o deck na tua estrutura e poder revisar aula-a-aula supera o custo, e a reversibilidade via `card_origem` cobre o risco de update. A tag `NEBLI::<slug>` continua em todas as notas (é ela que o monitor e a cobertura usam) — o deck é a *casa*, a tag é o *rótulo de aula*.
 
-## Árvore de decks proposta
+## Árvore de decks canônica (2026-08-07)
 
 ```
-NEBLI                                   ← "deck geralzão": 15 novos/dia vêm daqui
-└── UC02
-    └── 03_Embriologia                  ← componente
-        ├── P3-05_gametogenese-fertilizacao
-        └── P3-06_gastrulacao-neurulacao ← deck-aula: revisar só isto quando quiser
+NEBLI                                          ← "deck geralzão": 15 novos/dia vêm daqui
+└── UC03                                       ← UC
+    └── P1                                     ← PROVA (P1, P2, P3, P4)
+        ├── Radiologia                         ← MATÉRIA/componente
+        │   └── Ferramentas do diagn. radiológico  ← AULA (deck-aula, folha)
+        ├── Imunologia
+        │   ├── Organização do sistema imune
+        │   └── MHC, processamento e apresentação de antígenos
+        └── Patologia
+            ├── Necrose e apoptose
+            └── Acúmulos e adaptação celular
 ```
 
-- **Prefixo numérico** (`P3-06_`) força a ordem cronológica (Anki ordena subdecks alfabeticamente). O índice sai do cronograma da UC (`banco/aulas_uc02.yml`) — mesmo princípio da memória [[ordem-cards-cronograma-uc2]], agora aplicado à hierarquia de deck, não só à new-queue.
-- **Componente** numerado (`03_Embriologia`) idem, na ordem em que o Davi cursa.
-- Estudar o **topo `NEBLI`** = mistura tudo, 15 novos/dia na ordem do cronograma. Estudar um **subdeck** = só aquela aula.
+Ordem canônica dos níveis: **UC → Prova → Matéria → Aula.**
+
+**Regra da PRIMEIRA prova (canon 2026-08-07):** quando uma aula cai em mais de uma prova (ex.: "Ferramentas do diagn. radiológico" está marcada `P1;P2;P3;P4` na planilha), o deck-aula vive **APENAS** em `NEBLI::UC03::P1::Radiologia::Ferramentas...`. Estudar `NEBLI::UC03::` (topo da UC) inclui essa aula em qualquer momento do semestre por aninhamento. Sem duplicata, sem espalhamento.
+
+**Naming:**
+- **Aula** = nome curto e simples, mesmo que a pasta do Drive e o PDF (`<Aula curta> - Etapas 1 a 3 - <sigla prof>.pdf`) e o `.apkg` (`<Aula curta>.apkg`).
+- **Matéria/componente** = nome legível (`Bioquímica`, `Anatomia`, `Imunologia`), sem prefixo numérico. Ordem alfabética dentro da prova é aceitável — dentro de uma prova são poucas matérias e o Davi lê pelo nome.
+- **Prova** = `P1`, `P2`, `P3`, `P4` (ordem alfabética coincide com a cronológica).
+- **UC** = `UC01`, `UC02`, `UC03`, `UC-16` (usando o rótulo oficial). Zero-padding quando ajudar a ordenação (UC01, não UC1) — mas UCs de 2 dígitos (UC-16) já ordenam sozinhas.
+
+**Uso resultante:**
+- **Estudar o topo `NEBLI`** = mistura tudo, 15 novos/dia na ordem do cronograma. Retenção longa contínua.
+- **Estudar `NEBLI::UC03::P1`** = tudo que cai na P1 da UC03 (todas as matérias). Cram pré-prova.
+- **Estudar `NEBLI::UC03::P1::Imunologia`** = só imuno cobrada em P1. Cram matéria-a-matéria.
+- **Estudar deck-aula folha** = revisar aquela aula específica.
 
 ## Ordem dos cards DENTRO de um deck-aula
 
