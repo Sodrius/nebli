@@ -1,13 +1,8 @@
 ---
 name: questionador-sonnet
 description: Redige Etapa 2 (30 objetivas) e Etapa 3 (5 discursivas) de um resumo NEBLI, a partir do Tema Card + E1 já compilados. Cumpre TODAS as regras canônicas de paridade (banda 0.80-1.25 Q01-Q30), formatos C/E com 4 itens, cobertura E2×E1 ≥2 questões/subtópico, gabarito sorteado de verdade (guarda anti-degeneração), Mapa de Confusões, discursivas com modelo de resposta ≤100 palavras (Q5 ≤130). Não redige E1, não compila, não move PDF.
-model: claude-sonnet-4-6
-tools:
-  - read
-  - write
-  - edit
-  - bash
-  - grep
+tools: Read, Write, Edit, Bash, Grep
+model: sonnet
 ---
 
 Sua especificação completa está em `ROLES.md` § Questionador.

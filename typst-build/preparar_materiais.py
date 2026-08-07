@@ -52,9 +52,10 @@ def classificar(nome: str) -> str:
     low = nome.lower()
     if re.match(r"^(slide|apresentacao|apresentação)", low) and low.endswith((".pdf", ".png", ".jpg", ".jpeg")):
         return "slide"
-    if re.match(r"^(perguntas?|orient|guia)", low) and low.endswith((".txt", ".md")):
+    if re.match(r"^(perguntas?|orient|guia|questoes|questões)", low):
+        # aceita .txt, .md, .pdf -- PDF de pergunta orientadora vira texto extraído
         return "pergunta-orientadora"
-    if re.match(r"^(leitura|texto|referencia|referência|artigo|capitulo|capítulo)", low):
+    if re.match(r"^(leitura|texto|referencia|referência|artigo|capitulo|capítulo|roteiro)", low):
         return "leitura"
     if low == "readme.md":
         return "nota-professor"
@@ -135,6 +136,11 @@ def preparar(slug: str):
         if papel == "slide" and arq.suffix.lower() == ".pdf":
             print(f"  [slide] {arq.name} -> extrair_slides.py")
             rodar_extrair_slides(arq, slug)
+        elif papel == "pergunta-orientadora" and arq.suffix.lower() == ".pdf":
+            saida_txt = saida_materiais / (arq.stem + ".txt")
+            print(f"  [pergunta-orientadora] {arq.name} -> {saida_txt.relative_to(ROOT)}")
+            extrair_pdf_texto(arq, saida_txt)
+            extraido = saida_txt
         elif papel in ("leitura",) and arq.suffix.lower() == ".pdf":
             saida_txt = saida_materiais / (arq.stem + ".txt")
             print(f"  [leitura] {arq.name} -> {saida_txt.relative_to(ROOT)}")
