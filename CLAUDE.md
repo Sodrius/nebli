@@ -71,7 +71,7 @@ Três mudanças canônicas pedidas por Davi, que passam a fechar **todo resumo N
 **3. Índice de completude (0-10, 3 eixos) — no relatório de fechamento.** Junto do ratio Q01-Q30, da tabela de figuras e da tabela subtópico→questões, a sessão principal entrega **3 notas de 0 a 10 com 1 linha de justificativa cada** (auditável, não gate hard — convite, como os demais relatórios):
    - **E1 × slide** — cobre tudo do slide E vai um tiquinho além? Régua: 0-4 falta conteúdo do slide · 5-7 cobre o slide fielmente · 8-9 cobre tudo + aprofundamentos bem integrados · 10 raro. **Meta 8-9.** Nota <8 por falta de cobertura do slide → volta pra prancheta antes de fechar.
    - **E2 × E1** — cada subtópico da E1 (incl. aprofundamentos) é cobrado? Resume num número a tabela subtópico→questões. **Meta ≥8.**
-   - **Cards × E1** — os cards selecionados/curados cobrem os subtópicos da E1? Resume o X/Y COBERTOS num 0-10. **Meta ≥7** (lacunas apontam fonte). 
+   - **Cards × E1** — os cards selecionados/curados cobrem os subtópicos da E1? Resume o X/Y COBERTOS num 0-10. **Meta ≥8 (canon 2026-08-07, subiu de ≥7 a pedido de Davi: "ampla cobertura nos cards").** Piso operacional: **≥3 cards por subtópico nuclear** (era ≥1 proporcional); subtópicos periféricos ≥1. Lacunas apontam fonte (AnKing → externo → autoral). Bandas de carga total por aula continuam calibradas pela experiência (pequena/média/grande), mas o teto sobe junto com a profundidade `fundo`. 
 
 Convite, não engessamento (F7): as metas orientam, a justificativa de 1 linha é o que importa. Índice detalhado em `ROLES.md` § Índice de completude.
 
@@ -81,7 +81,7 @@ Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline
 
 1. **Novo padrão de profundidade = atual + um degrau.** A E1 vai deliberadamente mais fundo que hoje. O piso "≈1 injeção mecanística por subtópico" continua, mas cada injeção carrega **mais mecanismo/porquê** e a régua sobe: `profundidade = max(AnKing, slide/banco/bibliografia)`, tendendo ao teto do AnKing para o mesmo mecanismo. Foco no slide continua (escopo); o que muda é aprofundar mais **dentro** desse escopo. **Qualidade obrigatória:** como é provável que o Davi não tenha visto o extra em aula, o aprofundamento tem que estar correto e bem explicado — nunca termo solto.
 
-2. **Dial por resumo — `profundidade:` na Seção A do Tema Card.** Valores: `padrao` (o novo default já elevado) | `fundo` (um degrau acima: mais injeções por subtópico, limiar de admissão B3 afrouxado para ~7/10, blocos clínicos e roxos maiores). Davi diz "resumo X vai fundo" → Seção A grava `profundidade: fundo`. O dial escala a mão, não engessa (sem cota rígida).
+2. **Dial por resumo — `profundidade:` na Seção A do Tema Card. Default `fundo` a partir de 2026-08-07 (pedido de Davi).** Valores: `padrao` (piso: o "atual + um degrau" de 2026-07-12) | `fundo` (**novo default**: mais injeções por subtópico, limiar de admissão B3 afrouxado para ~7/10, blocos clínicos e roxos maiores, aprofundamento explícito no operon-mecanismo-consequência). Davi só grava `padrao` quando a aula é razão pra recuar (leitura corrida, subtópico com pouca base). O dial escala a mão, não engessa (sem cota rígida).
 
 3. **Blocos clínicos maiores, no nível que o card do AnKing cobra.** O `#clinica-box` (azul) passa a **(a)** tornar explícito o **gancho doença↔assunto** (por que essa doença ilustra esse mecanismo) e **(b)** explicar a doença na profundidade **fisiopatológica que os cards daquela aula vão cobrar** — para o Davi ter base fisiológica E fisiopatológica antes do card (honra o gate B2: nada de card órfão) e construir base pro ciclo clínico/Step 1. Continua "poucos e naturais" (B4), vocabulário Step 1 banido; cresce a **profundidade do gancho**, não o número de blocos. Se o slide já menciona a noção clínica, é natural que cards e E1 a cubram (poucos cards por doença, nunca 15).
 
@@ -104,18 +104,21 @@ Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline
 
 ## Routing Map (canônico revisto 2026-05-26)
 
-**Decisão canônica 2026-05-26 — Davi suspendeu uso de subagentes REDATOR-E1 e QUESTIONADOR.** Causa: bug #3 do `ERROS.md` reincidiu (Task spawn parou sem disparar Read, simulou tool calls inline — confirmado novamente em piloto de 2026-05-28, ver `ERROS.md` F9). A **sessão principal (Claude Code, modelo Opus) atua como ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos**.
+**Decisão canônica 2026-05-26 — Davi suspendeu uso de subagentes REDATOR-E1 e QUESTIONADOR.** Causa: bug #3 do `ERROS.md` reincidiu (Task spawn parou sem disparar Read, simulou tool calls inline — confirmado novamente em piloto de 2026-05-28, ver `ERROS.md` F9). A **sessão principal (Claude Code, modelo Opus) atua como ORQUESTRADOR + REDATOR** fundidos.
+
+**Reversão parcial 2026-08-07 — QUESTIONADOR volta como subagent Sonnet.** Davi pediu deslocar E2+E3 pra fora do thread principal por 2 razões: (a) libera Opus pra ficar 100% no Tema Card + E1 (onde a decisão editorial é mais densa); (b) Sonnet 4.6 é econômico o suficiente pra rodar E2+E3 numa passada só, e é possível que o bug F9 fosse específico do Opus. Stub em `.claude/agents/questionador-sonnet.md` aponta pra `ROLES.md` § Questionador. **Contingência F9:** se o subagent parar sem disparar tools ou "simular inline", devolve controle explicitando onde travou; a sessão principal (Opus) reassume redação de E2+E3 e a próxima corrida reavalia (o REDATOR-E1 continua fundido na principal por essa mesma razão).
 
 | Papel | Quem executa | Função |
 |---|---|---|
-| ORQUESTRADOR + REDATOR + QUESTIONADOR | Sessão principal (Opus) | Tema Card, E1, Resumindo, E2 (30 questões), E3 (5 discursivas). Lê `ROLES.md` §§ Orquestrador/Redator-E1/Questionador como guia prescritivo próprio. |
+| ORQUESTRADOR + REDATOR-E1 | Sessão principal (Opus) | Tema Card, E1, Resumindo. Lê `ROLES.md` §§ Orquestrador/Redator-E1 como guia prescritivo próprio. |
+| QUESTIONADOR-SONNET (canon 2026-08-07) | Task subagent (Sonnet 4.6) | E2 (30 questões) + E3 (5 discursivas). Stub em `.claude/agents/questionador-sonnet.md` → `ROLES.md` § Questionador. Gates hard auto-verificados: paridade Q01-Q30 (0.80-1.25), C/E com 4 itens, cobertura ≥2 questões/subtópico, filtro de integração, gabarito sorteado. |
 | COMPILADOR | Local (Bash) | `gerar_main.py` → `auto_fix_etapas.py` → `precompile-check.py` → `typst compile` → `auditar_pdf.py` → mover PDF → `comprimir_pdf.py` (cópia leve pra `resumos-gerados/leves/`). Detalhes em `ROLES.md` § Compilador. |
 | CADERNISTA | Task subagent (Sonnet) | Cadernos de questões (`pipeline_caderno.py`). Pipeline determinístico, mantido. Stub em `.claude/agents/cadernista.md` aponta pra `ROLES.md` § Cadernista. |
 | Revisores Tier 2/3 (didático + profundo, internos + PDF-aware) | Task subagent | Rodam após COMPILADOR antes de mover PDF. `ROLES.md` §§ Revisor-*. |
 | REVISOR-GABARITO (Haiku) | Task subagent | Passada final de conferência do gabarito da E2 (impresso==real, sem corrida, distribuição sã). `ROLES.md` § Revisor-gabarito. Novo 2026-06-24. |
 | REVISOR-COMPLETUDE (Sonnet) | Task subagent | Antes de compilar: completude MÚTUA E1↔cards + profundidade (3 notas 0-10 + patches de E1 e add/drop de cards). `ROLES.md` § Revisor-completude. Novo 2026-07-12. |
 
-`ROLES.md` §§ Redator-E1 / Questionador permanecem como **referências prescritivas** — a sessão principal lê e segue, mas não delega via Task.
+`ROLES.md` § Redator-E1 permanece como **referência prescritiva** — a sessão principal lê e segue, mas não delega via Task. `ROLES.md` § Questionador vira **spec do subagent** a partir de 2026-08-07.
 
 COMPILADOR roda localmente, NUNCA delegado a outra sessão.
 
@@ -219,15 +222,23 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
 
 ## Fluxo Cowork
 
-**Input:** "Tema [UC/Disciplina], slides: [anexo]". Confirmar se ambíguo.
+**Input canônico (canon 2026-08-07):** materiais heterogêneos, não só slide. O Davi anexa em `slides/<slug>/` **qualquer combinação** de:
+
+- **Slide do professor** (`slide.pdf` ou fotos): escopo + figuras. Continua sendo a fonte primária quando existe.
+- **Pergunta orientadora** (`perguntas-orientadoras.txt` ou `.md`): âncora editorial. Toda pergunta orientadora **vira subtópico ou é cobrada explicitamente em E2/E3** (declarada na Seção B do Tema Card). Sem cobertura = lacuna que trava o fechamento.
+- **Leitura obrigatória / texto de referência** (`leitura-*.pdf`, `texto-*.pdf`, `.md`): fonte de aprofundamento **validado pelo professor**. Sobe o teto de profundidade da E1 sem depender do AnKing/Step 1. Ranking: leitura do prof > AnKing > conhecimento base.
+- **Nota do professor** (`README.md`): meta-info (recorte, ênfase, bibliografia).
+- **Figuras avulsas** (`.png`/`.jpg`): fotos de peça, esquema do prof — complementam o slide.
+
+Nome canônico da pasta de entrada continua `slides/<slug>/` (por retrocompatibilidade), mas o conteúdo dela é agora **heterogêneo**. Se não houver slide (só leituras + perguntas), marcar no Tema Card Seção A `slide: ausente` e declarar recorte pelos outros materiais.
 
 **Processamento:**
 1. Ler `guia_editorial_UC1.csv` → profundidade esperada.
 2. Ler `banco/indice/banco_slim.json` filtrado por `aula: <slug>` → **calibração** do nível esperado, jargão recorrente, armadilhas históricas. Banco NÃO é material de inclusão no PDF.
-3. ORQUESTRADOR roda `extrair_slides.py [slide.pdf] [slug]` → PNGs + `figuras/[tema]/MAPA_CONTEUDO.txt`.
-4. ORQUESTRADOR gera Tema Card (Seção A + B + C). Validar antes de redigir.
-5. REDATOR-E1 gera `etapa1.typ` + `resumindo.typ`. Cita slides baseado no `MAPA_CONTEUDO`.
-6. QUESTIONADOR gera `etapa2.typ` + `etapa3.typ`. Usa banco filtrado por aula como calibração (não como anexo).
+3. ORQUESTRADOR roda `preparar_materiais.py <slug>` (canon 2026-08-07 — substitui a chamada direta ao `extrair_slides.py`). O script cataloga todo material em `slides/<slug>/`, delega o slide ao `extrair_slides.py` (PNGs + `MAPA_CONTEUDO.txt`), extrai texto de PDFs de leitura, copia perguntas orientadoras e emite `arquivos-trabalho/materiais/<slug>/INDICE.md` com o **papel editorial** de cada peça. `extrair_slides.py` continua funcionando standalone (sem quebra).
+4. ORQUESTRADOR gera Tema Card (Seção A + B + C). **Seção B expandida (canon 2026-08-07):** lista cada material recebido via INDICE.md, com bloco explícito **"Perguntas orientadoras → cobertura"** (cada pergunta mapeia para 1+ subtópico da E1 e 1+ questão da E2/E3). Validar antes de redigir.
+5. REDATOR-E1 gera `etapa1.typ` + `resumindo.typ`. Cita slides baseado no `MAPA_CONTEUDO`; **puxa mecanismo/nuance das leituras extraídas em `arquivos-trabalho/materiais/<slug>/*.txt`** quando o slide sozinho não sustenta a profundidade elevada.
+6. QUESTIONADOR-SONNET (canon 2026-08-07 — Task subagent, ver Routing Map) gera `etapa2.typ` + `etapa3.typ`. Usa banco filtrado por aula como calibração (não como anexo); cobre obrigatoriamente as perguntas orientadoras declaradas na Seção B.
 6.5 **ORQUESTRADOR — Revisão de cards + loop Card→E1 (pós-E3, pré-compile).** Ver `FLASHCARDS.md` § Pipeline. Resumo: `gerar_checklist.py` (E1+E2 como fonte) → `buscar_tags_lote.py` → pool+pré-filtro → matriz conceito×card com coluna "In E1?" → patch da E1 para cards qualificados (critérios em `FLASHCARDS.md` § Loop Card→E1) → `verificar_cobertura_anking.py` (X/Y COBERTOS) → `aplicar_curadoria_anking.py`. **Só depois de aplicar os cards a sessão passa para o COMPILADOR.**
 7. COMPILADOR roda `gerar_main.py` → compila Typst → audita → move PDF para `resumos-gerados/[SLUG-MAIUSCULO].pdf` apenas se a auditoria passar.
 
