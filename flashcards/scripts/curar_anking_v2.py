@@ -2,27 +2,29 @@
 # -*- coding: utf-8 -*-
 """
 NEBLI -- curar_anking_v2.py
-Curadoria dirigida-por-subtópico + rubrica de qualidade + classificação de
-ancoragem + parking Step 1 + relatório de cobertura. Consome a E1 compilada
-(etapa1.typ) e o AnKing v11 clonado, produz um deck-aula 100% ancorado.
+Localizador de CANDIDATOS AnKing dirigido por conceitos já classificados.
+Consome a checklist revisada + E1 e produz uma shortlist para julgamento
+semântico. Não aprova cards e não monta deck-aula.
 
 Diferença da v1:
 - v1: 1 keyword blob → top-N global. Sem verificação de cobertura, sem
   distinguir on-aula de on-disciplina.
-- v2: subtópicos extraídos da E1 → busca dirigida por subtópico com quota
-  local; classifica cada candidato em ANCORADO/ANCORÁVEL/BASE-STEP1/FORA;
-  rubrica automática 0-3; deck-aula final só admite ANCORADO+ANCORÁVEL com
-  score ≥ 2; BASE-STEP1 vai pro parking pra aula futura; relatório de
-  cobertura por subtópico (nota 0-10 via rubrica R6).
+- v2 atual: checklist classificada → busca dirigida por retrieval concept;
+  heurísticas apenas ORDENAM a leitura. Aprovação final é humana/LLM card a card.
 
 Uso:
-    python3 flashcards/scripts/curar_anking_v2.py <slug> --e1 typst-build/etapa1.typ [--limit-per-subtopic 5] [--sections "Step 1/Zanki Step Decks/Zanki GI"] [--uc UC-8 --prova P1 --materia Anatomia --aula "Esôfago, estômago e delgado"]
+    python3 flashcards/scripts/curar_anking_v2.py <slug> --e1 typst-build/etapa1.typ \
+      --checklist arquivos-trabalho/checklist-<slug>.tsv \
+      [--max-candidates-per-concept 8] [--sections "Step 1/Zanki Step Decks/Zanki GI"] \
+      [--emit-parking]
 
 Saídas:
-    flashcards/curadoria/<slug>-anking-v11-ancorados.json     (deck-aula: só ANCORADO+ANCORÁVEL score>=2)
-    flashcards/curadoria/<slug>-anking-step1-parking.json     (BASE-STEP1: aula futura)
+    flashcards/curadoria/<slug>-anking-v11-candidatos.json   (shortlist; PENDING_REVIEW)
     arquivos-trabalho/curadoria-anking-<slug>.md              (relatório de cobertura + sugestões de patch E1)
     figuras/<slug>_anking/*                                   (imagens do AnKing)
+
+`--emit-parking` é opt-in para investigações específicas. A corrida normal não
+materializa centenas de cards off-aula só porque pertencem ao mesmo sistema.
 """
 
 from __future__ import annotations
@@ -97,6 +99,40 @@ def parse_e1(e1_path: Path) -> dict:
         })
         all_keywords |= conceitos
 
+    return {"aula_keywords": all_keywords, "subtopicos": subtopicos}
+
+
+def parse_checklist(path: Path) -> dict:
+    """Lê checklist já classificada e devolve somente nuclear/supporting.
+
+    REVIEW/AUDIT_ONLY bloqueiam: o extrator nunca decide sozinho o que merece card.
+    Cada linha vira sua própria unidade de busca, evitando quotas por subtópico.
+    """
+    subtopicos = []
+    all_keywords = set()
+    pending = []
+    for raw in path.read_text(encoding="utf-8-sig").splitlines():
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        cols = raw.split("\t")
+        if len(cols) < 4:
+            raise ValueError("checklist canônica exige 4 colunas, incluindo card_decision")
+        cid, frase, termos, decision = (c.strip() for c in cols[:4])
+        decision = decision.lower()
+        if decision == "no_card":
+            continue
+        if decision not in {"nuclear", "supporting"}:
+            pending.append(f"{cid}:{cols[3].strip()}")
+            continue
+        keywords = {t.strip().lower() for t in termos.split("|")
+                    if t.strip() and t.strip() != "<EN?>"}
+        if not keywords:
+            raise ValueError(f"{cid}: conceito selecionado sem termo de busca")
+        subtopicos.append({"id": cid, "titulo": frase, "conceitos": keywords,
+                           "card_decision": decision})
+        all_keywords |= keywords
+    if pending:
+        raise ValueError("classifique antes de buscar: " + ", ".join(pending[:12]))
     return {"aula_keywords": all_keywords, "subtopicos": subtopicos}
 
 
@@ -307,11 +343,11 @@ def classificar_ancoragem(card: dict, subtopico: dict, aula_keywords: set) -> tu
 
 
 def rubrica_qualidade(card: dict) -> int:
-    """Score 0-3 baseado em heurística automática:
+    """Score 0-3 de FORMA, usado somente para ordenar candidatos:
     - Cloze único (apenas c1) = +1
     - Extra >= 15 palavras = +1
     - Tem imagem em algum field = +1
-    Máximo 3.
+    Máximo 3. Não mede adequação semântica e nunca aprova um card.
     """
     score = 0
     text = card["fields"].get("Text", "")
@@ -340,14 +376,17 @@ def guid_from_nid(nid: str) -> str:
     return hashlib.sha256(f"anking-v11-{nid}".encode()).hexdigest()[:16]
 
 
-def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
+def curar(slug: str, e1_path: Path, checklist_path: Path, sections: list, max_candidates: int,
           meta_uc: str, meta_prova: str, meta_materia: str, meta_aula: str,
-          score_min: int = 2):
+          score_min: int = 0, emit_parking: bool = False):
 
     # 1. Parse E1
     print(f"-> parseando E1: {e1_path.relative_to(ROOT)}")
-    e1_map = parse_e1(e1_path)
-    print(f"   {len(e1_map['subtopicos'])} subtópicos, {len(e1_map['aula_keywords'])} conceitos nucleares únicos")
+    # O parser da E1 continua útil como fallback técnico, mas a lista do que merece
+    # spaced repetition vem exclusivamente da checklist revisada.
+    parse_e1(e1_path)
+    e1_map = parse_checklist(checklist_path)
+    print(f"   {len(e1_map['subtopicos'])} conceitos selecionados (nuclear/supporting)")
 
     # 2. Carrega todos os cards das seções
     print(f"-> carregando cards do AnKing v11 (sections={sections})")
@@ -363,7 +402,8 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
                 all_cards.append(card)
     print(f"   {len(all_cards)} cards carregados")
 
-    # 3. Pra cada subtópico, classifica + rankeia + seleciona top N
+    # 3. Para cada conceito, rankeia uma SHORTLIST para leitura. O cap controla
+    #    custo de inspeção, não quantidade de cards no deck final.
     fig_dir = ROOT / f"figuras/{slug}_anking"
     fig_dir.mkdir(parents=True, exist_ok=True)
 
@@ -374,9 +414,6 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
     for sub in e1_map["subtopicos"]:
         candidatos = []
         for card in all_cards:
-            nid = card["meta"].get("nid")
-            if nid in ja_selecionados_nids:
-                continue
             categoria, hits, anc_id = classificar_ancoragem(card, sub, e1_map["aula_keywords"])
             if categoria in ("ANCORADO", "ANCORAVEL"):
                 score = rubrica_qualidade(card)
@@ -386,28 +423,26 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
         # Rank: (categoria ANCORADO > ANCORAVEL), (score desc), (# hits desc)
         cat_order = {"ANCORADO": 0, "ANCORAVEL": 1}
         candidatos.sort(key=lambda x: (cat_order[x[3]], -x[2], -len(x[1])))
-        top = candidatos[:limit_per_subtopic]
+        top = candidatos[:max_candidates]
         for card, hits, score, categoria in top:
             ja_selecionados_nids.add(card["meta"]["nid"])
             ancorados_por_subtop[sub["id"]].append((card, hits, score, categoria))
 
-    # 4. Cards que não foram ancorados a nenhum subtópico mas casam a aula toda → parking
-    for card in all_cards:
-        nid = card["meta"].get("nid")
-        if nid in ja_selecionados_nids:
-            continue
-        # Classifica contra qualquer subtópico
-        best_cat = "FORA"
-        for sub in e1_map["subtopicos"]:
-            cat, _, _ = classificar_ancoragem(card, sub, e1_map["aula_keywords"])
-            if cat == "BASE-STEP1":
-                best_cat = "BASE-STEP1"
-                break
-        if best_cat == "BASE-STEP1":
-            parking_step1.append(card)
+    # 4. Parking off-aula é opt-in: útil em investigação, ruído na corrida normal.
+    if emit_parking:
+        for card in all_cards:
+            nid = card["meta"].get("nid")
+            if nid in ja_selecionados_nids:
+                continue
+            for sub in e1_map["subtopicos"]:
+                cat, _, _ = classificar_ancoragem(card, sub, e1_map["aula_keywords"])
+                if cat == "BASE-STEP1":
+                    parking_step1.append(card)
+                    break
 
-    print(f"-> {sum(len(v) for v in ancorados_por_subtop.values())} cards ANCORADOS/ANCORÁVEIS (score >= {score_min})")
-    print(f"-> {len(parking_step1)} cards BASE-STEP1 pra parking (aula futura)")
+    print(f"-> {sum(len(v) for v in ancorados_por_subtop.values())} candidatos para revisão semântica")
+    if emit_parking:
+        print(f"-> {len(parking_step1)} cards BASE-STEP1 pra parking (opt-in)")
 
     # 5. Copia imagens
     def coleta_imagem(card):
@@ -435,8 +470,7 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
             extra_clean = re.sub(r'<img\s+[^>]*/?>', '', card["fields"].get("Extra", "") or card["fields"].get("First Aid", "")).strip()
 
             tags = [t for t in card["meta"].get("tags", "").split(", ") if t.strip()]
-            tags.append(f"NEBLI::{slug}")
-            tags.append("NEBLI::anking-v11-curado")
+            tags.append("NEBLI::anking-v11-candidato")
             tags.append(f"NEBLI::anking-ancoragem::{categoria}")
             tags.append(f"NEBLI::anking-subtopico::{sub['id'].replace('.', '_')}")
 
@@ -452,17 +486,20 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
                 "_subtopico_titulo": sub["titulo"],
                 "_score": score,
                 "_hits": hits[:5],
+                "_decision": "PENDING_REVIEW",
+                "_card_decision": sub.get("card_decision"),
             })
 
-    ancorados_json = ROOT / f"flashcards/curadoria/{slug}-anking-v11-ancorados.json"
+    ancorados_json = ROOT / f"flashcards/curadoria/{slug}-anking-v11-candidatos.json"
     ancorados_json.parent.mkdir(parents=True, exist_ok=True)
     ancorados_json.write_text(json.dumps({
         "meta": {
             "uc": meta_uc, "prova": meta_prova, "materia": meta_materia,
             "aula_curta": meta_aula, "slug": f"{slug}-anking",
-            "fonte": "curar_anking_v2 (langfield/anking-v11)",
-            "score_min": score_min,
-            "limit_per_subtopic": limit_per_subtopic,
+            "fonte": "curar_anking_v2 candidate finder (langfield/anking-v11)",
+            "score_min_form_only": score_min,
+            "max_candidates_per_concept": max_candidates,
+            "warning": "CANDIDATOS; nenhum card deste arquivo está aprovado automaticamente",
         },
         "cards": cards_out,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -478,11 +515,13 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
             "path": card["path"],
         })
 
-    parking_json = ROOT / f"flashcards/curadoria/{slug}-anking-step1-parking.json"
-    parking_json.write_text(json.dumps({
-        "meta": {"origem_slug": slug, "descricao": "Cards on-disciplina mas off-aula. Puxar quando aula específica for redigida."},
-        "cards": parking_out,
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    parking_json = None
+    if emit_parking:
+        parking_json = ROOT / f"flashcards/curadoria/{slug}-anking-step1-parking.json"
+        parking_json.write_text(json.dumps({
+            "meta": {"origem_slug": slug, "descricao": "Cards on-disciplina mas off-aula. Puxar quando aula específica for redigida."},
+            "cards": parking_out,
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # 8. Relatório de cobertura
     rel_path = ROOT / f"arquivos-trabalho/curadoria-anking-{slug}.md"
@@ -491,37 +530,33 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
         f"# Curadoria AnKing v11 — {slug}",
         f"",
         f"**Fonte:** `langfield/anking-v11` (24k+ cards, Step 1)",
-        f"**Config:** score_min={score_min}, limit_per_subtopic={limit_per_subtopic}, sections={sections}",
+        f"**Config:** score_min_form_only={score_min}, max_candidates_per_concept={max_candidates}, sections={sections}",
         f"",
-        f"## Cobertura por subtópico (rubrica R6, meta ≥3 nucleares)",
+        f"## Shortlist por conceito — cobertura só existe após keep/drop semântico",
         f"",
         f"| Subtópico | Cards | ANCORADO | ANCORÁVEL | Score médio | Veredito |",
         f"|---|---|---|---|---|---|",
     ]
     total_cards = 0
-    nucleares_ok = 0
     for sub in e1_map["subtopicos"]:
         cards = ancorados_por_subtop.get(sub["id"], [])
         n = len(cards)
         anc = sum(1 for c in cards if c[3] == "ANCORADO")
         acv = sum(1 for c in cards if c[3] == "ANCORAVEL")
         avg = sum(c[2] for c in cards) / n if n else 0
-        veredito = "COBERTO" if n >= 3 else ("RASO" if n >= 1 else "LACUNA")
-        if n >= 3: nucleares_ok += 1
+        veredito = "REVISAR" if n else "SEM CANDIDATO"
         linhas.append(f"| **{sub['id']}** {sub['titulo'][:35]} | {n} | {anc} | {acv} | {avg:.1f} | {veredito} |")
         total_cards += n
 
-    nota_cobertura = round(10 * nucleares_ok / len(e1_map["subtopicos"]), 1)
     linhas += [
         f"",
-        f"**Total ancorados:** {total_cards} cards em {len(e1_map['subtopicos'])} subtópicos",
-        f"**Subtópicos COBERTOS (≥3 cards):** {nucleares_ok}/{len(e1_map['subtopicos'])}",
-        f"**Nota Cards×E1 (rubrica R6):** {nota_cobertura}/10",
-        f"**Parking Step 1 (aula futura):** {len(parking_step1)} cards",
+        f"**Total na shortlist:** {total_cards} candidatos em {len(e1_map['subtopicos'])} conceitos",
+        f"**Conceitos com ao menos um candidato:** {sum(1 for v in ancorados_por_subtop.values() if v)}/{len(e1_map['subtopicos'])}",
+        f"**Nota Cards×E1:** pendente de curadoria semântica",
         f"",
-        f"## Sugestões de patch da E1 (opcional — R16e: não altera silenciosamente)",
+        f"## Candidatos ANCORÁVEIS",
         f"",
-        f"Cards ANCORÁVEIS podem virar ANCORADOS se a E1 receber 1-2 frases explicando o conceito. Sugestões abaixo pra Davi aplicar ou ignorar:",
+        f"ANCORÁVEL aqui significa apenas hit no Extra/First Aid. Inspecionar a frente; não usar o hit para expandir a E1 automaticamente.",
         f"",
     ]
 
@@ -532,40 +567,44 @@ def curar(slug: str, e1_path: Path, sections: list, limit_per_subtopic: int,
             continue
         linhas.append(f"### {sub['id']} {sub['titulo']}")
         for card, hits, score, _ in acvs[:3]:
-            text_short = strip_html(card["fields"]["Text"])[:150]
+            text_short = " ".join(strip_html(card["fields"]["Text"]).split())[:150]
             linhas.append(f"- `anking-v11-{card['meta']['nid']}` (score {score}, hits: {', '.join(hits[:3])}): {text_short}...")
         linhas.append("")
 
     rel_path.write_text("\n".join(linhas), encoding="utf-8")
 
     print(f"\n=== Relatório ===")
-    print(f"Total cards ancorados: {total_cards}")
-    print(f"Subtópicos COBERTOS (≥3): {nucleares_ok}/{len(e1_map['subtopicos'])}")
-    print(f"Nota Cards×E1 (R6): {nota_cobertura}/10")
-    print(f"Parking Step 1: {len(parking_step1)}")
+    print(f"Total de candidatos na shortlist: {total_cards}")
+    print(f"Conceitos com candidato: {sum(1 for v in ancorados_por_subtop.values() if v)}/{len(e1_map['subtopicos'])}")
+    print("Nota Cards×E1: pendente de curadoria semântica")
     print(f"→ {ancorados_json.relative_to(ROOT)}")
-    print(f"→ {parking_json.relative_to(ROOT)}")
+    if parking_json:
+        print(f"→ {parking_json.relative_to(ROOT)}")
     print(f"→ {rel_path.relative_to(ROOT)}")
 
     return {
-        "ancorados_total": total_cards,
-        "cobertos": nucleares_ok,
-        "total_subtopicos": len(e1_map["subtopicos"]),
-        "nota_cards_e1": nota_cobertura,
-        "parking_size": len(parking_step1),
-        "ancorados_json": str(ancorados_json.relative_to(ROOT)),
-        "parking_json": str(parking_json.relative_to(ROOT)),
+        "candidatos_total": total_cards,
+        "total_conceitos": len(e1_map["subtopicos"]),
+        "nota_cards_e1": None,
+        "parking_size": len(parking_step1) if emit_parking else None,
+        "candidatos_json": str(ancorados_json.relative_to(ROOT)),
+        "parking_json": str(parking_json.relative_to(ROOT)) if parking_json else None,
         "relatorio": str(rel_path.relative_to(ROOT)),
     }
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Cura AnKing v11 por subtópico com rubrica + cobertura.")
+    ap = argparse.ArgumentParser(description="Localiza candidatos AnKing por conceito classificado.")
     ap.add_argument("slug")
     ap.add_argument("--e1", default="typst-build/etapa1.typ")
+    ap.add_argument("--checklist", required=True)
     ap.add_argument("--sections", default="Step 1/Zanki Step Decks/Zanki GI")
-    ap.add_argument("--limit-per-subtopic", type=int, default=5)
-    ap.add_argument("--score-min", type=int, default=2)
+    ap.add_argument("--max-candidates-per-concept", type=int, default=8,
+                    help="cap de leitura por conceito; NÃO é quota de cards")
+    ap.add_argument("--score-min", type=int, default=0,
+                    help="filtro heurístico de forma; 0 recomendado para não perder bons cards")
+    ap.add_argument("--emit-parking", action="store_true",
+                    help="materializa cards off-aula; desligado por padrão")
     ap.add_argument("--uc", default="UC-8")
     ap.add_argument("--prova", default="P1")
     ap.add_argument("--materia", default="Anatomia")
@@ -579,8 +618,12 @@ def main():
     sections = [s.strip() for s in args.sections.split(";") if s.strip()]
     aula = args.aula or args.slug
 
-    curar(args.slug, e1_path, sections, args.limit_per_subtopic,
-          args.uc, args.prova, args.materia, aula, args.score_min)
+    checklist_path = ROOT / args.checklist
+    if not checklist_path.exists():
+        raise SystemExit(f"x checklist não encontrada: {checklist_path}")
+
+    curar(args.slug, e1_path, checklist_path, sections, args.max_candidates_per_concept,
+          args.uc, args.prova, args.materia, aula, args.score_min, args.emit_parking)
 
 
 if __name__ == "__main__":

@@ -3,11 +3,11 @@
 """liberar_p3_hoje.py -- boost temporario para estudar P3 hoje.
 
 Regime canonico:
-  - NEBLI (topo) fica em 15 novos/dia para retencao longa.
+  - NEBLI (topo) fica em 25 novos/dia para retencao longa.
   - NEBLI::UC02::P3 ganha 150 novos/dia hoje para cram da prova.
 
 O script nao mexe no AnKing original. Ele cria um preset separado para P3,
-porque o topo NEBLI fica em 15 novos/dia. Se P3 compartilhar o mesmo preset do
+porque o topo NEBLI fica em 25 novos/dia. Se P3 compartilhar o mesmo preset do
 topo, aumentar P3 tambem aumenta o geral, ou restaurar o geral derruba P3.
 """
 import argparse
@@ -96,9 +96,9 @@ def main():
 
     ensure_separate_p3_config()
     set_limits(P3_DECK, 150, 9999)
-    set_limits(BASE_DECK, 15, 9999)
+    set_limits(BASE_DECK, 25, 9999)
     inv("sync")
-    print("OK: P3 liberado para 150 novos hoje; NEBLI mantido em 15 novos/dia. Sync disparado.")
+    print("OK: P3 liberado temporariamente; NEBLI mantido em 25 novos/dia. Sync disparado.")
     return 0
 
 

@@ -8,9 +8,7 @@
 
 Revisão espaçada de longo prazo: cada aula do NEBLI vira um bloco de cards muito bem curados do AnKing v12, marcados com a tag-âncora `NEBLI::<slug>`. Este documento é o painel de controle — mostra o que já está no deck e onde ajustar.
 
-> **RESET 2026-07-11 — começar fresh (2º semestre).** Todos os manifestos, curado.json, checklists, pools, cobertura e mapa-confusoes anteriores foram apagados (recuperáveis via git). A curadoria recomeça do zero pelo método atual. A grande faxina da coleção AnKing (suspender 100% + apagar decks não-AnKing) é feita pelo Davi na volta das férias.
-
-**Fila pendente-gerado:** conceito-chave da E1 sem card real bom no AnKing entra como `PENDENTE-GERADO` no manifesto + `arquivos-trabalho/cobertura-<slug>.json` — enfileirado para card NEBLI cloze gerado numa **sessão futura de calibração** (não gerar antes de destilar/validar o padrão de bom card; ver `calibrar-antes-de-gerar-cards`).
+> As linhas abaixo registram decks já aplicados e podem refletir regras históricas. Para aula nova, a política canônica é `FLASHCARDS.md`: classificar `nuclear | supporting | no_card`, buscar AnKing → outros decks → autoral e fechar na mesma corrida. `PENDENTE-GERADO` antigo não é estado de entrega.
 
 ## Como ajustar um bloco no Anki
 No **Browse** do Anki, digite a tag-âncora da aula:

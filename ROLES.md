@@ -52,13 +52,13 @@ Coordena a geração de um resumo NEBLI ponta a ponta. Hoje fundido com Redator-
 2. `python3 typst-build/extrair_slides.py [slide.pdf] [slug]` → PNGs + `MAPA_CONTEUDO.txt`.
 3. `python3 banco/extrair_armadilhas.py <slug>` → `arquivos-trabalho/armadilhas/<slug>.json`. Alimenta Seção D.
 4. Ler `guia_editorial_UC1.csv` → profundidade (SUPERFICIAL/PADRÃO/PROFUNDO).
-5. **Aplicar Diário de revisões.** Antes de gerar Tema Card, ler `MEMORY.md` § Diário de revisões. Entradas com peso alto e ainda no prazo de decaimento viram **lista de prioridades pra esta corrida**, declarada explicitamente no Tema Card.
+5. **Aplicar estado vivo.** Antes de gerar Tema Card, ler `MEMORY.md` apenas para preferências/regras atuais. Não existe Diário de resumos antigos a carregar para a aula nova.
 6. Gerar Tema Card (Seções A, B, B.bis, B.ter, C, D, E). Validar com Davi antes de redigir.
 7. Após aprovação: redigir E1 + Resumindo (papel Redator-E1) → E2 + E3 (papel Questionador) → COMPILADOR.
 
 ### Tema Card — estrutura obrigatória
 
-- **Seção A** — Tema · Slug · Disciplina · Onde estudar · **Onde aprofundar (plataformas)** · Alvo de páginas E1 (piso 2, **teto 22**) · Recorte slide×tema · **Prioridades desta corrida** (do Diário de revisões).
+- **Seção A** — Tema · Slug · Disciplina · Onde estudar · **Onde aprofundar (plataformas)** · Alvo de páginas E1 (piso 2, **teto 22**) · Recorte slide×tema · prioridades específicas da aula, se existirem.
   - **Onde aprofundar (plataformas)** (canônico 2026-06-30): bloco da capa em **2 grupos**, cada item um bullet navy. (1) **Assistir/ler** — 1 bullet com fontes de vídeo/leitura (B&B/Bootcamp, NinjaNerd, Sketchy, UWorld, Pathoma); recurso que não cobre → "não cobre" (honestidade > referência falsa). (2) **Dessuspender no AnKing v12** — 1 bullet de cabeçalho + **1 bullet por deck**, mostrando o **caminho de tag pra usar no `Browse`** (não o nome amigável) + contagem de cards, com **variedade de decks** (o conteúdo está taggeado em paralelo por vários recursos). Preencher rodando `python flashcards/scripts/buscar_tags_anking.py <termo>`; consultar/gravar em `referencias-externas/onde-aprofundar.md`. Vai pro `meta` da capa como **valor em lista** (o `gerar_main.py` renderiza bullets navy via `_esc_typst_content`, que escapa `#`/`_` das tags e preserva `*` do negrito). Exceção escopada à regra de banimento Step 1: nomes de plataforma/deck só neste bloco.
 - **Seção B** — Esqueleto das 3 PARTES com subtópicos. 3 figuras planejadas por PARTE com fonte (slide-XX ou SVG novo). Cadeia multi-passo ≥5 reações = figura obrigatória.
 - **Seção B.bis** — Registro de abertura por subtópico. Os 5 registros: (1) enquadramento, (2) integração-anterior, (3) integração-posterior, (4) analogia concreta, (5) ponto-de-quebra. Nenhum par vizinho compartilha registro. **Pergunta âncora/retórica banida** (canônico 2026-05-29) — substituída pelos 5 registros acima.
@@ -151,7 +151,7 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 
 **16. Calibração externa invisível — `blueprint-step1.md` (convite, 2026-06-30).** Antes de redigir a E1 de um slug, olhe a linha dele em `referencias-externas/blueprint-step1.md`. Se a coluna "Aprofundar na E1" tiver conteúdo E o slide já abriu aquele assunto, acrescente **1-2 frases sucintas de mecanismo** no ponto indicado — diluídas na prosa, não um bloco novo. Se a coluna marca **BAIXO** (ou está vazia), não force nada: mantém foco puro no slide. A fonte é invisível como o banco — a frase entra como mecanismo/cenário clínico puro, jamais citando "Step 1/residência/USMLE" (vocabulário banido, regra 10 detalhada). Convite, não cota: aprofundar só onde flui.
 
-**17. Passe de aprofundamento por subtópico (loop card→E1→E2, CANON 2026-07-10).** Antes das injeções, fazer um passe leve **Fontes→E1**: comparar Tema Card/slide, banco FMUSP já filtrado e blueprint já consultado com a E1; listar ausências relevantes e incorporar somente as que pertencem ao recorte. Não criar ledger novo. Depois do rascunho da E1 e da seleção de cards (ver `FLASHCARDS.md` § Loop Card→E1), fazer um passe voltando na E1 e injetando **≈1 conteúdo extra mecanístico por subtópico** — pequeno (1-3 frases), colado a um mecanismo que o subtópico já abriu. Dá ~9-12 por resumo; a soma faz a E1 ir **um tiquinho além do slide** (o norte do Davi: aprofundar bem a base durável). Fontes do que injetar, em ordem: (a) **bons cards do AnKing** que cobrem o conceito com mais profundidade — muitos aprofundamentos são *induzidos* por esses cards, que vão para o deck-aula; (b) mapa de cobertura offline do export quando o Anki está fora; (c) `blueprint-step1.md`; (d) bibliografia do curso em `_material/` (leitura dirigida das páginas do ponto). **Regra-mestra:** o **slide regula O QUE entra** (escopo — nada fora do tema da aula), o **AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**. Se um subtópico não tem onde encaixar, não injeta. Cada injeção é prosa/mecanismo puro (vocabulário Step 1 banido no PDF). **Efeito colateral desejado:** o aprofundamento sobe também o teto da E2 — por isso o ideal é rodar este passe ANTES de redigir a E2 (E2 já cobra o extra); se a E2 já estiver escrita, atualizá-la nos pontos aprofundados revalidando paridade/gabarito. Exemplos concretos no piloto embrio-gastrulacao-neurulacao (SHH, EMT→metástase, cílios do nó→lateralidade, crista→Hirschsprung, somito→esclerótomo/miótomo/dermátomo, dobramento→frênico).
+**17. Passe de aprofundamento seletivo (loop card→E1→E2).** Depois do rascunho da E1 e da leitura dos candidatos de card, incorporar apenas conteúdos que aprofundem **o mesmo mecanismo/estrutura** com baixo custo de pré-requisito e ganho longitudinal real. Não existe piso por subtópico. Fontes: leitura do professor → bons cards AnKing/decks externos → blueprint/bibliografia. Se exige outra aula, é FORA. A E1 recebe o aprofundamento antes do card e antes da E2.
 
 ### Índice de completude (CANON 2026-07-10) — 3 notas no relatório de fechamento
 
@@ -159,7 +159,7 @@ Junto do ratio Q01-Q30, da tabela de figuras e da tabela subtópico→questões,
 
 1. **E1 × slide** — a E1 cobre tudo o que o slide traz E vai um tiquinho além (aprofundamentos colados)? Régua: 0-4 falta conteúdo do slide · 5-7 cobre o slide fielmente · 8-9 cobre tudo + aprofundamentos bem integrados · 10 raro (aprofundamento exemplar sem perder foco). **Meta 8-9.** Nota <8 por falta de cobertura do slide → volta pra prancheta.
 2. **E2 × E1** — cada subtópico da E1 (incl. aprofundamentos) é cobrado? Resume num número a tabela subtópico→questões. **Meta ≥8.**
-3. **Cards × E1** — os cards selecionados/curados cobrem os subtópicos da E1? Resume o X/Y COBERTOS num 0-10. **Meta ≥7** (lacunas apontam fonte). Além das notas, fechar com: **Fontes → E1: X/Y conceitos relevantes incorporados** e **E1 → cards: X/Y conceitos nucleares COBERTOS**.
+3. **Cards × E1** — 100% dos conceitos classificados `nuclear` estão cobertos por cards bons? `supporting` pode ser dispensado; `no_card` não entra. Além das notas, fechar com **nucleares X/Y cobertos** e cards por fonte.
 
 O objetivo do eixo 1 é explícito: recompensar a E1 que **passa um pouco do slide**, sem virar toca de coelho. As notas orientam; a justificativa de 1 linha por eixo é o que carrega valor.
 
@@ -360,7 +360,7 @@ Sessão de revisão final **antes de compilar**, pedida por Davi. Audita a **com
 
 **Três eixos (nota 0-10 cada):**
 1. **Cards → E1 (não-orfandade).** Todo card tem seu conceito explicado na E1? Lista cada card órfão (conceito ausente na E1) com veredito: **injetar 1-3 frases na E1** (se é aprofundamento legítimo do tema) OU **dropar o card** (se é FORA/próxima-aula). Honra o gate B2.
-2. **E1 → cards (cobertura).** Todo subtópico da E1 tem card à altura? Lista subtópico RASO/LACUNA + sugere card AnKing a curar OU NEBLIcard a gerar. Reusa a rubrica R6 (0-3 por subtópico). Conceito **nuclear** só fecha em **COBERTO** por card real (AnKing, externo ou NEBLIcard); questão da E2 não conta. PARCIAL/LACUNA/PENDENTE-GERADO são estados intermediários para nuclear.
+2. **E1 → cards (cobertura seletiva).** Primeiro audita a decisão `nuclear | supporting | no_card`. Todo `nuclear` precisa de card à altura; `supporting` só entra com retrieval target distinto e útil; `no_card` fica apenas na E1. Sugestão de fonte obedece AnKing → externo → autoral. Questão da E2 não conta como cobertura de card.
 3. **Profundidade.** A E1 vai um degrau além do slide (novo padrão elevado)? Marca subtópicos rasos demais para o dial `profundidade` daquele resumo (`padrao`/`fundo`).
 
 **Curadoria de card = duas camadas de julgamento** (na avaliação de cada card sugerido): (1) bate com o que a **FMUSP cobra**? (camada mais importante); (2) cobre bem a E1 e **aprofunda pra base do Step 1**?
@@ -485,35 +485,16 @@ Exit codes: 0 verde · 2 entrada inválida · 3 cronograma vazio · 10–19 gera
 
 ## § Flashcards
 
-Gera 8 cards clínicos por resumo em formato `.md` colável no RemNote. Sob demanda via `/flashcards <slug>`, fora do pipeline canônico. Sessão principal executa (alinhado à decisão 2026-05-26).
+O papel Flashcards fecha o deck-aula Anki usando `FLASHCARDS.md` + `flashcards/DECK-AULA-PIPELINE.md`.
 
-### Pipeline interno
+1. Inventaria a E1 e classifica `nuclear | supporting | no_card`.
+2. Cura por conceito na ordem AnKing → outros decks → autoral.
+3. Mantém somente retrieval targets distintos, atômicos e ancorados na E1.
+4. Frente/cloze autoral em inglês; Extra em português; visual real/IO quando a competência exigir.
+5. Fecha o manifesto, monta somente `card_refs` aprovados e roda o hard gate.
+6. Mantém 25 novos/dia no topo `NEBLI`; cram usa temporariamente o subdeck da prova.
 
-1. `python typst-build/extrair_clinica.py <slug>` → `arquivos-trabalho/clinica-bruta-<slug>.json`. Parser balanceado, tolera modo serial e `_par_<slug>/`. Slug do mapa-confusões resolvido com variantes.
-2. Sessão principal lê JSON + `flashcards/_REGRAS.md` + `flashcards/_INDEX.md` (cross-check de duplicatas).
-3. Redige 8 cards seguindo as 7 regras (ver abaixo + `ERROS.md` F8).
-4. Auto-verificação hard gate: 6c+2qa, resposta Q→A ≤30 palavras, teste do underscore, ≥2 cards do Mapa de Confusões quando existe.
-5. Se `flashcards/<slug>.md` já existe, mover para `flashcards/_backup/<slug>-<timestamp>.md` antes de sobrescrever.
-6. Gravar `flashcards/<slug>.md` + atualizar `flashcards/_INDEX.md` entre marcadores `<!-- BEGIN-INDEX -->`/`<!-- END-INDEX -->`.
-7. Reportar: path, 8 cards renderizados, flag "pronto para colar no RemNote".
-
-### 7 regras inegociáveis
-
-1. Direção clínico → molecular (cenário pergunta, mecanismo responde).
-2. Um card = uma cadeia causal mínima (Regra 3 vence se brigar com tamanho).
-3. **Formato fixo `**Tema.**` + frase ≤12 palavras; resposta Q→A ≤12 palavras; 1 `{{}}` por frase.** Card de ~15s.
-4. ≥2 dos 8 cards vêm do Mapa de Confusões (quando existe).
-5. Cloze só esconde termo cuja ausência inviabiliza inferência por contexto (teste do underscore).
-6. Voz NEBLI (verbo ativo, mecanismo antes de nome). Banidas: "é definido como", "consiste em", "caracteriza-se por".
-7. Card auto-contido — prefixo `**Tema.**` resolve 99%; corpo precisa nomear agente/condição no 1% restante.
-
-### Aritmética RemNote
-
-Cada `{{}}` = 1 card. Para 8 reais: **6 frases com 1 `{{}}` cada + 2 Q→A**. Empilhar `{{}}` proibido. Ver `ERROS.md` F8.
-
-### Não toca o PDF
-
-Helpers Typst `#neblicard`/`#cloze` permanecem no-op no template (compat). Etapa 4 é artefato `.md` lateral.
+Não existe quota fixa de cards por aula/subtópico e o antigo lote RemNote não é pipeline canônico.
 
 ---
 

@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""verificar_cobertura_anking.py -- prova de cobertura da curadoria por aula.
+"""verificar_cobertura_anking.py -- compatibilidade com manifestos markdown legados.
+
+O gate canônico novo é gate_deck_aula_completo.py sobre a matriz JSON. Este
+script ainda entende PENDENTE-GERADO para auditar aulas antigas; esse status
+não é válido para fechar uma aula nova.
 
 Análogo, para a curadoria AnKing, do relatório de ratio Q01-Q30 do questionador:
 torna a cobertura da aula um ARTEFATO EXPLÍCITO em vez de vibe. Lê o manifesto

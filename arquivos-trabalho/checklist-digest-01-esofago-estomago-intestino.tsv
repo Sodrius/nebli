@@ -1,0 +1,23 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>\t<card_decision>
+# AJUSTAR: complete <EN?>, funda/remova redundancias e troque REVIEW por
+# nuclear | supporting | no_card. So nuclear/supporting seguem para busca.
+# PARTE I — Esôfago e estômago
+1.1	Trajeto, porções e parede do esôfago	esophagus|esophageal anatomy	nuclear
+1.2	Constrições e transição esofagogástrica	constrições esofágicas|esophageal constrictions gastroesophageal junction	nuclear
+1.3	Regiões, curvaturas e marcos do estômago	estômago|stomach anatomy curvatures pylorus	nuclear
+1.4	Faces e relações do estômago	leito gástrico|gastric bed stomach relations	nuclear
+1.5	peristalse	peristalse esofágica|esophageal peristalsis	supporting
+1.6	ligamento frênico-esofágico	ligamento frênico-esofágico|phrenoesophageal ligament	no_card
+1.7	incisura angular	incisura angular|incisura angularis	no_card
+# PARTE II — Duodeno e papila maior
+2.1	Quatro porções e relações do duodeno	duodeno|duodenum parts relations	nuclear
+2.2	Papila maior e encontro das vias biliar e pancreática	papila duodenal maior|major duodenal papilla ampulla of Vater	nuclear
+2.3	Flexura duodenojejunal e ligamento de Treitz	ligamento de Treitz|ligament of Treitz duodenojejunal flexure	nuclear
+2.4	ampola hepatopancreática	ampola hepatopancreática|hepatopancreatic ampulla	no_card
+# PARTE III — Jejuno e íleo
+3.1	Continuidade, posição e mesentério	jejuno íleo|jejunum ileum mesentery	nuclear
+3.2	Parede, pregas e aspecto macroscópico	pregas circulares|plicae circulares jejunum ileum	nuclear
+3.3	Arcadas e vasos retos distinguem jejuno de íleo	arcadas vasos retos|arterial arcades vasa recta jejunum ileum	nuclear
+3.4	Junção ileocecal e fechamento do trajeto	junção ileocecal|ileocecal junction valve	nuclear
+3.5	mesentério	mesentério|mesentery	no_card

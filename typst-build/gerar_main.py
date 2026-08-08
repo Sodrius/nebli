@@ -178,10 +178,14 @@ HEADER = '''// ================================================================
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#set-etapa("Etapa 2 — 30 objetivas")
+#pagebreak()
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
+#pagebreak()
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 

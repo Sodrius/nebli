@@ -3,11 +3,11 @@
 """set_novos_dia.py -- ajusta novos/dia de um deck via AnkiConnect e sincroniza.
 
 Uso:
-    python flashcards/scripts/set_novos_dia.py 15
-    python flashcards/scripts/set_novos_dia.py 15 --apply
-    python flashcards/scripts/set_novos_dia.py 15 --no-sync
+    python flashcards/scripts/set_novos_dia.py 25
+    python flashcards/scripts/set_novos_dia.py 25 --apply
+    python flashcards/scripts/set_novos_dia.py 25 --no-sync
 
-Serve pro regime do Davi: NEBLI = 15 novos/dia permanente. Para cram, preferir
+Serve pro regime do Davi: NEBLI = 25 novos/dia na rotina. Para cram, preferir
 `planejar_modo_prova.py`. Sem --apply este script e somente leitura.
 """
 import argparse

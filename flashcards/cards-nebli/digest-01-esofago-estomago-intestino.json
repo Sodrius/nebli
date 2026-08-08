@@ -4,155 +4,224 @@
     "prova": "P1",
     "materia": "Anatomia",
     "aula_curta": "Esôfago, estômago e intestino delgado",
-    "slug": "digest-01-esofago-estomago-intestino",
-    "docente": "Profa. Patrícia Castelucci",
-    "data_geracao": "2026-08-07",
-    "modo": "tablet-sem-PC (100% autoral via genanki)"
+    "slug": "digest-01-esofago-estomago-intestino"
   },
   "cards": [
-
-    {"id":"digest-01-c001","type":"cloze","front":"<b>Anatomia.</b> O esôfago mede cerca de <b>{{c1::23-25 cm}}</b> de comprimento e 2 cm de diâmetro.","extra":"Tubo de conexão entre laringofaringe e cárdia gástrica. Só transporta — não digere nem absorve.","image":"figuras/digest-01-esofago-estomago-intestino/slide-03.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago"]},
-
-    {"id":"digest-01-c002","type":"cloze","front":"<b>Anatomia.</b> A mucosa do esôfago é epitélio <b>{{c1::estratificado pavimentoso não queratinizado}}</b>.","extra":"Igual à orofaringe: projetada pra tolerar atrito do bolo alimentar, não pH ácido. Metaplasia de Barrett = troca por epitélio colunar quando refluxo crônico banha a mucosa.","image":"figuras/digest-01-esofago-estomago-intestino/slide-03.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago"]},
-
-    {"id":"digest-01-c003","type":"cloze","front":"<b>Anatomia.</b> O esfíncter esofágico superior é formado pela parte <b>{{c1::cricofaríngea}}</b> do músculo constritor inferior da faringe.","extra":"Zona de alta pressão tônica em repouso, relaxa reflexamente na deglutição. É a primeira das três constrições esofágicas e ponto comum de impactação de corpo estranho em crianças.","image":"figuras/digest-01-esofago-estomago-intestino/slide-04.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago"]},
-
-    {"id":"digest-01-c004","type":"cloze","front":"<b>Anatomia.</b> Identifique a porção mais superior do esôfago (após laringofaringe): porção <b>{{c1::cervical}}</b>.","extra":"Vai da cartilagem cricoide (C6) até a entrada do tórax; ~5 cm de comprimento; atrás da traqueia e à esquerda da linha média. Acesso cirúrgico: cervicotomia esquerda.","image":"figuras/digest-01-esofago-estomago-intestino/slide-05.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c005","type":"cloze","front":"<b>Anatomia.</b> A porção mais longa do esôfago (~18 cm) é a <b>{{c1::torácica}}</b>.","extra":"Ocupa o mediastino posterior. Passa atrás do arco aórtico e do brônquio principal esquerdo (que a comprime = 2ª constrição).","image":"figuras/digest-01-esofago-estomago-intestino/slide-05.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c006","type":"cloze","front":"<b>Anatomia.</b> A porção mais curta do esôfago (~1,25 cm) é a <b>{{c1::abdominal}}</b>.","extra":"Vai do hiato esofágico (T10) até a cárdia gástrica. É a porção onde a doença de Chagas destrói neurônios entéricos primeiro e onde nasce o megaesôfago.","image":"figuras/digest-01-esofago-estomago-intestino/slide-06.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c007","type":"cloze","front":"<b>Anatomia.</b> A 1ª constrição esofágica está aos ~<b>{{c1::15 cm}}</b> da arcada dentária.","extra":"Esfíncter esofágico superior (cricofaríngeo), na porção cervical. Perfuração aqui vai pra mediastino superior + pescoço (mediastinite grave, fasceíte necrotizante).","image":"figuras/digest-01-esofago-estomago-intestino/slide-05.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::constricoes"]},
-
-    {"id":"digest-01-c008","type":"cloze","front":"<b>Anatomia.</b> A 2ª constrição esofágica (~25 cm da arcada) é a compressão <b>{{c1::broncoaórtica}}</b>.","extra":"Arco aórtico + brônquio principal esquerdo cruzam o esôfago pela frente e à esquerda. É compressão externa, não músculo próprio. Perfuração → mediastino médio.","image":"figuras/digest-01-esofago-estomago-intestino/slide-05.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::constricoes"]},
-
-    {"id":"digest-01-c009","type":"cloze","front":"<b>Anatomia.</b> A 3ª constrição esofágica (~40 cm da arcada) é o esfíncter esofágico <b>{{c1::inferior}}</b>.","extra":"Zona de alta pressão dos últimos 3-4 cm do esôfago, na junção esofagogástrica. Perfuração → mediastino inferior + cavidade abdominal (pneumoperitônio).","image":"figuras/digest-01-esofago-estomago-intestino/slide-05.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::constricoes"]},
-
-    {"id":"digest-01-c010","type":"cloze","front":"<b>Anatomia.</b> O esôfago atravessa o diafragma pelo hiato esofágico, no nível vertebral <b>{{c1::T10}}</b>.","extra":"Ordem craniocaudal das aberturas diafragmáticas: forâmen VCI (T8) → hiato esofágico (T10) → hiato aórtico (T12). Mnemônico: 8-10-12, VCI-esôfago-aorta.","image":"figuras/digest-01-esofago-estomago-intestino/slide-06.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::diafragma"]},
-
-    {"id":"digest-01-c011","type":"cloze","front":"<b>Anatomia.</b> O forâmen da veia cava inferior atravessa o diafragma em <b>{{c1::T8}}</b>.","extra":"Na parte tendínea do diafragma, à direita. Redondo (não fenda) porque a VCI é tracionada e não pode colapsar. Mnemônico 8-10-12.","image":"figuras/digest-01-esofago-estomago-intestino/slide-06.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::diafragma"]},
-
-    {"id":"digest-01-c012","type":"cloze","front":"<b>Anatomia.</b> A aorta atravessa o diafragma pelo hiato aórtico em <b>{{c1::T12}}</b>.","extra":"Túnel ósseo-muscular posterior, entre os pilares. Rígido porque a aorta não pode ser comprimida a cada contração diafragmática.","image":"figuras/digest-01-esofago-estomago-intestino/slide-06.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::diafragma"]},
-
-    {"id":"digest-01-c013","type":"cloze","front":"<b>Anatomia.</b> O esôfago é fixado ao hiato diafragmático pelo ligamento <b>{{c1::frênico-esofágico}}</b>.","extra":"Condensação da fáscia endotorácica + endoabdominal. Quando afrouxa com a idade, a cárdia sobe pro tórax = hérnia hiatal por deslizamento (mecanismo mais comum de refluxo gastroesofágico do adulto).","image":"figuras/digest-01-esofago-estomago-intestino/slide-07.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::clinica"]},
-
-    {"id":"digest-01-c014","type":"cloze","front":"<b>Anatomia.</b> O ângulo agudo entre esôfago abdominal e fundo gástrico é o ângulo de <b>{{c1::His}}</b>.","extra":"Mecanismo antirrefluxo passivo: quanto mais agudo, mais o fundo distendido pressiona contra o EEI. Apaga-se na hérnia hiatal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-06.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago"]},
-
-    {"id":"digest-01-c015","type":"cloze","front":"<b>Anatomia.</b> A junção da mucosa esofágica (pavimentosa) com a mucosa gástrica (colunar) é chamada de linha <b>{{c1::Z}}</b>.","extra":"Marco endoscópico visível como transição abrupta de cor (branco-perolado do esôfago para vermelho-alaranjado do estômago). Deslocamento proximal = metaplasia de Barrett.","image":"figuras/digest-01-esofago-estomago-intestino/slide-07.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago"]},
-
-    {"id":"digest-01-c016","type":"cloze","front":"<b>Fisiopatologia.</b> Na doença de Chagas, o megaesôfago acontece por destruição dos neurônios do plexo <b>{{c1::mientérico}}</b> pelo T. cruzi.","extra":"Sem coordenação, o EEI não relaxa na deglutição e o esôfago não empurra o bolo — dilata progressivamente. Segmentos mais afetados: esôfago distal e cólon distal (maior densidade de neurônios).","image":"figuras/digest-01-esofago-estomago-intestino/slide-07.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::clinica"]},
-
-    {"id":"digest-01-c017","type":"cloze","front":"<b>Clínica.</b> A disfagia que progride de <b>{{c1::sólidos para líquidos}}</b> é a apresentação clássica do câncer de esôfago.","extra":"Tumor cresce concêntrico → estreita a luz → primeiro trava alimento firme, depois pastoso, depois líquido. Chagas dá disfagia com regurgitação, não a progressão sólido→líquido.","image":"figuras/digest-01-esofago-estomago-intestino/slide-09.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::esofago","NEBLI::clinica"]},
-
-
-    {"id":"digest-01-c018","type":"cloze","front":"<b>Anatomia.</b> Identifique a região anelar do estômago que envolve o óstio esofágico: <b>{{c1::cárdia}}</b>.","extra":"Primeira porção do estômago logo após o EEI. Recebe o bolo alimentar e delimita a transição esofagogástrica.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c019","type":"cloze","front":"<b>Anatomia.</b> Identifique a cúpula gástrica que fica acima e à esquerda da cárdia, sob o diafragma: <b>{{c1::fundo}}</b>.","extra":"Habitualmente ocupada por gás (bolha gástrica visível na radiografia). Face lateral esquerda, imediatamente inferior ao diafragma.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c020","type":"cloze","front":"<b>Anatomia.</b> Identifique a região gástrica central, entre fundo e antro: <b>{{c1::corpo}}</b>.","extra":"Segmento longo e retangular onde ocorre a maior parte da mistura mecânica e da secreção ácida pelas células parietais.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c021","type":"cloze","front":"<b>Anatomia.</b> Identifique a região gástrica em funil entre corpo e piloro: antro <b>{{c1::pilórico}}</b>.","extra":"Região distal onde o quimo é jogado repetidamente contra o piloro fechado, reforçando a mistura antes de pequenas frações passarem ao duodeno.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c022","type":"cloze","front":"<b>Anatomia.</b> A saída do estômago para o duodeno é o esfíncter <b>{{c1::pilórico}}</b>.","extra":"Espessamento da camada muscular circular. Regula a passagem do quimo — só deixa passar partículas menores que ~2 mm.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c023","type":"cloze","front":"<b>Anatomia.</b> Identifique a borda direita e superior do estômago, curta e côncava: curvatura <b>{{c1::menor}}</b>.","extra":"~12 cm de comprimento. Recebe a artéria gástrica esquerda (direto do tronco celíaco) e a gástrica direita. Ao longo dela corre o canal gástrico.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c024","type":"cloze","front":"<b>Anatomia.</b> Identifique a borda esquerda e inferior do estômago, longa e convexa: curvatura <b>{{c1::maior}}</b>.","extra":"~40 cm (3-4× maior que a menor). Recebe artérias gastroepiploicas direita e esquerda e vasos gástricos curtos. A assimetria vem da rotação embrionária de 90° do estômago.","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c025","type":"cloze","front":"<b>Anatomia.</b> Identifique as dobras longitudinais da mucosa gástrica visíveis no estômago vazio: pregas <b>{{c1::gástricas}}</b>.","extra":"Também chamadas rugas ou plicae. Apagam quando o estômago se distende com alimento. Formam padrão radial ao redor da cárdia.","image":"figuras/digest-01-esofago-estomago-intestino/slide-11.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c026","type":"cloze","front":"<b>Anatomia.</b> O sulco preservado ao longo da curvatura menor, entre cárdia e piloro, é o canal <b>{{c1::gástrico}}</b>.","extra":"Também 'trilha de Waldeyer'. Água ingerida escorre por ele direto ao piloro sem misturar com o conteúdo do fundo — explica a rapidez com que um gole atravessa o estômago vazio.","image":"figuras/digest-01-esofago-estomago-intestino/slide-11.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c027","type":"cloze","front":"<b>Anatomia.</b> A incisura na curvatura menor que marca a transição corpo→antro é a incisura <b>{{c1::angular}}</b>.","extra":"Referência endoscópica que divide o estômago em 'meia superior' (fundo + corpo) e 'meia inferior' (antro + piloro) no laudo. Não confundir com incisura cárdica (ângulo de His, entre esôfago e fundo).","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago"]},
-
-    {"id":"digest-01-c028","type":"cloze","front":"<b>Embriologia.</b> A assimetria das curvaturas gástricas vem da rotação embrionária de <b>{{c1::90°}}</b> no sentido horário (visto de cima).","extra":"O estômago primitivo é um tubo simétrico; a rotação traz a face esquerda pra frente, a direita pra trás, e alonga a borda ventral (futura curvatura maior).","image":"figuras/digest-01-esofago-estomago-intestino/slide-10.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago"]},
-
-    {"id":"digest-01-c029","type":"cloze","front":"<b>Anatomia.</b> A face anterior do estômago se relaciona principalmente com o lobo <b>{{c1::esquerdo do fígado}}</b> e com a parede abdominal anterior.","extra":"Úlcera anterior perfura pra cavidade peritoneal livre → pneumoperitônio + abdome em tábua + Blumberg positivo. O fígado esquerdo é o primeiro obstáculo antes do peritônio livre.","image":"figuras/digest-01-esofago-estomago-intestino/slide-13.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago"]},
-
-    {"id":"digest-01-c030","type":"cloze","front":"<b>Anatomia.</b> A face posterior do estômago se relaciona com pâncreas, baço, rim esquerdo, adrenal esquerda, cólon transverso — através da bolsa <b>{{c1::omental}}</b>.","extra":"Bolsa omental = fenda peritoneal entre estômago e pâncreas (também chamada saco menor). Úlcera posterior perfura primeiro pra ela e depois erode pâncreas ou artéria gastroduodenal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-13.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::clinica"]},
-
-    {"id":"digest-01-c031","type":"cloze","front":"<b>Clínica.</b> Úlcera gástrica posterior pode erodir a artéria <b>{{c1::gastroduodenal}}</b> e causar hemorragia digestiva alta maciça.","extra":"A gastroduodenal passa por trás do bulbo duodenal (parede posterior). Hematêmese em jato + choque hipovolêmico rápido é o padrão. Origem: artéria hepática comum (ramo do tronco celíaco).","image":"figuras/digest-01-esofago-estomago-intestino/slide-13.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::clinica"]},
-
-    {"id":"digest-01-c032","type":"cloze","front":"<b>Anatomia.</b> A camada muscular gástrica exclusiva do estômago (não existe no resto do tubo digestivo) é a camada <b>{{c1::oblíqua}}</b>.","extra":"Terceira camada, mais interna, presente sobretudo em fundo e corpo. Contrai transversalmente às circulares — produz o amassamento que reduz partículas a <2 mm (tamanho que o piloro deixa passar).","image":"figuras/digest-01-esofago-estomago-intestino/slide-12.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago"]},
-
-    {"id":"digest-01-c033","type":"cloze","front":"<b>Fisiologia.</b> O produto semilíquido da mistura do bolo alimentar com secreções gástricas é chamado <b>{{c1::quimo}}</b>.","extra":"Parcialmente digerido. Passa em porções pequenas pelo piloro pro duodeno, onde recebe enzimas pancreáticas e bile pra digestão completa.","image":"figuras/digest-01-esofago-estomago-intestino/slide-12.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago"]},
-
-
-    {"id":"digest-01-c034","type":"cloze","front":"<b>Anatomia.</b> O intestino delgado mede aproximadamente <b>{{c1::7 metros}}</b> no vivo (varia entre 5 e 9 m).","extra":"Duodeno (~25 cm) + jejuno + íleo (juntos ~6-7 m). Fixo apenas no duodeno (retroperitoneal) e nas duas extremidades do trecho jejuno-ileal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-14.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::intestino"]},
-
-    {"id":"digest-01-c035","type":"cloze","front":"<b>Anatomia.</b> O duodeno é <b>{{c1::retroperitoneal}}</b> em sua maior parte.","extra":"Exceções: 1ª porção (bulbo, intraperitoneal, móvel) e o início da 4ª (parcial). Consequência: pancreatite grave pode envolver o duodeno diretamente.","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno"]},
-
-    {"id":"digest-01-c036","type":"cloze","front":"<b>Anatomia.</b> Identifique a 1ª porção do duodeno (nível L1, intraperitoneal): porção <b>{{c1::superior}}</b>.","extra":"Também chamada 'bulbo duodenal'. Único trecho intraperitoneal do duodeno. Local mais frequente de úlcera duodenal (>90% das úlceras duodenais).","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c037","type":"cloze","front":"<b>Anatomia.</b> Identifique a 2ª porção do duodeno (vertical, L1-L3): porção <b>{{c1::descendente}}</b>.","extra":"Recebe as desembocaduras do colédoco e do ducto pancreático principal na papila duodenal maior. É a porção onde a CPRE cateteriza os ductos.","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c038","type":"cloze","front":"<b>Anatomia.</b> Identifique a 3ª porção do duodeno (horizontal, L3): porção <b>{{c1::inferior}}</b>.","extra":"Atravessa a linha média por baixo dos vasos mesentéricos superiores (AMS e VMS). Pode ser comprimida entre a AMS e a aorta na síndrome de Wilkie.","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c039","type":"cloze","front":"<b>Anatomia.</b> Identifique a 4ª porção do duodeno (L3-L2, sobe): porção <b>{{c1::ascendente}}</b>.","extra":"Sobe até a flexura duodenojejunal, onde o Treitz a fixa. A partir daí começa o jejuno (intraperitoneal, móvel).","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c040","type":"cloze","front":"<b>Anatomia.</b> Identifique a elevação da parede medial da 2ª porção do duodeno onde desembocam colédoco e ducto pancreático principal: papila duodenal <b>{{c1::maior}}</b>.","extra":"Também chamada papila de Vater. Alvo do cateter na CPRE. Cálculo enclavado nela causa pancreatite biliar aguda por refluxo do suco pancreático represado.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c041","type":"cloze","front":"<b>Anatomia.</b> Identifique o ducto biliar comum que desemboca na papila duodenal maior: <b>{{c1::colédoco}}</b>.","extra":"Ducto biliar comum, une o ducto hepático comum ao ducto cístico da vesícula. Ao chegar no duodeno, encontra o ducto pancreático principal e ambos se abrem juntos.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c042","type":"cloze","front":"<b>Anatomia.</b> Identifique o ducto que sai do pâncreas e desemboca com o colédoco na papila maior: ducto <b>{{c1::pancreático}}</b>.","extra":"Também chamado ducto de Wirsung. A confluência dos dois ductos antes da abertura forma a ampola hepatopancreática, cercada pelo esfíncter de Oddi.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c043","type":"cloze","front":"<b>Anatomia.</b> A parte central do pâncreas, envolvida pela C do duodeno, é o <b>{{c1::corpo do pâncreas}}</b>.","extra":"Ordem cabeça → colo → corpo → cauda. A cabeça é abraçada pela C duodenal; o corpo cruza a linha média sobre a aorta; a cauda toca o baço.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c044","type":"cloze","front":"<b>Anatomia.</b> A dilatação da confluência colédoco + ducto pancreático dentro da papila é a ampola <b>{{c1::hepatopancreática}}</b>.","extra":"Também chamada ampola de Vater. Cercada pelo esfíncter de Oddi, que regula a liberação de bile + suco pancreático no duodeno.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno"]},
-
-    {"id":"digest-01-c045","type":"cloze","front":"<b>Anatomia.</b> A banda fibromuscular que fixa a flexura duodenojejunal ao pilar direito do diafragma é o ligamento <b>{{c1::suspensor do duodeno}}</b>.","extra":"Também chamado ligamento de Treitz. Descrito em 1853. Fixa o final da 4ª porção do duodeno; contém fibras musculares lisas.","image":"figuras/digest-01-esofago-estomago-intestino/slide-16.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c046","type":"cloze","front":"<b>Clínica.</b> O ligamento de <b>{{c1::Treitz}}</b> é a referência que separa 'hemorragia digestiva alta' de 'baixa' no laudo endoscópico.","extra":"Alta = proximal ao Treitz (melena, hematêmese). Baixa = distal ao Treitz (enterorragia). Endoscopista descreve todo sangramento em relação a essa referência.","image":"figuras/digest-01-esofago-estomago-intestino/slide-16.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno","NEBLI::clinica"]},
-
-
-    {"id":"digest-01-c047","type":"cloze","front":"<b>Anatomia.</b> Identifique a porção proximal do intestino delgado móvel, imediatamente após o Treitz: <b>{{c1::jejuno}}</b>.","extra":"Ocupa os primeiros 2/5 do delgado pós-duodenal. Concentra-se preferencialmente no quadrante superior esquerdo. Nome do latim 'jejunus' (vazio) porque à necropsia geralmente está vazio.","image":"figuras/digest-01-esofago-estomago-intestino/slide-19.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c048","type":"cloze","front":"<b>Anatomia.</b> Identifique a porção distal do intestino delgado móvel, que termina na valva íleo-cecal: <b>{{c1::íleo}}</b>.","extra":"Ocupa os 3/5 distais do delgado pós-duodenal. Concentra-se preferencialmente no quadrante inferior direito. Nome do latim 'ileos' (torcido, enrolado).","image":"figuras/digest-01-esofago-estomago-intestino/slide-19.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c049","type":"cloze","front":"<b>Anatomia.</b> A prega dupla de peritônio que ancora jejuno + íleo à parede abdominal posterior é o <b>{{c1::mesentério}}</b>.","extra":"Forma de leque: raiz curta (~15 cm) da flexura duodenojejunal até a junção íleocecal; borda livre longa (6-7 m). A desproporção permite dobrar as alças mas também expõe ao volvo.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::mesenterio","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c050","type":"cloze","front":"<b>Anatomia.</b> Identifique a passagem do íleo pro ceco (cólon direito): junção <b>{{c1::íleo-cecocólica}}</b>.","extra":"Também chamada valva ileocecal. Marca o fim do intestino delgado. Referência anatômica pra localizar apêndice (2-3 cm distais dela no ceco).","image":"figuras/digest-01-esofago-estomago-intestino/slide-18.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c051","type":"cloze","front":"<b>Anatomia.</b> Identifique a artéria principal do intestino delgado móvel e do cólon direito: artéria mesentérica <b>{{c1::superior}}</b>.","extra":"Sai da aorta na altura de L1. Irriga: 4ª porção do duodeno até a flexura hepática do cólon (jejuno + íleo + ceco + apêndice + cólon ascendente + 2/3 direitos do cólon transverso).","image":"figuras/digest-01-esofago-estomago-intestino/slide-20.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::vasos"]},
-
-    {"id":"digest-01-c052","type":"cloze","front":"<b>Anatomia.</b> Identifique os vasos característicos do jejuno: vasos retos <b>{{c1::longos}}</b>.","extra":"Trajeto reto pelo mesentério gordo, do arco arterial periférico até a parede intestinal. 'Longos' porque no jejuno os arcos ficam LONGE da parede — o vaso reto tem trajeto extenso.","image":"figuras/digest-01-esofago-estomago-intestino/slide-20.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno","NEBLI::vasos","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c053","type":"cloze","front":"<b>Anatomia.</b> Identifique os vasos característicos do íleo: vasos retos <b>{{c1::curtos}}</b>.","extra":"'Curtos' porque no íleo os arcos ficam PERTO da parede — o vaso reto tem trajeto pequeno. Nome não se refere ao intestino, se refere ao próprio vaso.","image":"figuras/digest-01-esofago-estomago-intestino/slide-21.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::vasos","NEBLI::identificacao"]},
-
-    {"id":"digest-01-c054","type":"cloze","front":"<b>Anatomia.</b> Os arcos arteriais mesentéricos no jejuno são <b>{{c1::poucos e amplos}}</b>.","extra":"Uma única fileira de arcos primários, cada um cobrindo distância grande. Consequência: menos redundância — oclusão de vaso reto pode isquemiar toda a alça correspondente.","image":"figuras/digest-01-esofago-estomago-intestino/slide-20.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno","NEBLI::vasos"]},
-
-    {"id":"digest-01-c055","type":"cloze","front":"<b>Anatomia.</b> Os arcos arteriais mesentéricos no íleo são <b>{{c1::numerosos e curtos}}</b>.","extra":"Duas, três ou quatro fileiras superpostas de arcos menores. Mais redundância anastomótica — o íleo tolera melhor uma oclusão distal do que o jejuno.","image":"figuras/digest-01-esofago-estomago-intestino/slide-21.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::vasos"]},
-
-    {"id":"digest-01-c056","type":"cloze","front":"<b>Anatomia.</b> A cor característica do jejuno na inspeção cirúrgica é <b>{{c1::vermelho-vivo}}</b>.","extra":"Sinal de maior vascularização. Íleo é rosa mais pálido. Junto com calibre (jejuno 2-4 cm, íleo 2-3 cm) e espessura de parede (jejuno mais espessa), permite distinguir os dois na abertura abdominal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-21.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno"]},
-
-    {"id":"digest-01-c057","type":"cloze","front":"<b>Anatomia.</b> As dobras mucosas altas e numerosas do jejuno são as pregas <b>{{c1::circulares}}</b>.","extra":"Também chamadas plicae circulares ou válvulas de Kerckring. Aumentam superfície de absorção. Escassas ou ausentes no íleo distal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-21.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno"]},
-
-    {"id":"digest-01-c058","type":"cloze","front":"<b>Anatomia.</b> Os agregados linfoides visíveis a olho nu no íleo (borda antimesentérica) são as placas de <b>{{c1::Peyer}}</b>.","extra":"Aparecem como manchas ovaladas. Site de amostragem antigênica intestinal (células M sobre folículos linfoides). Ponto de invasão inicial de Salmonella typhi e local de úlcera na febre tifoide.","image":"figuras/digest-01-esofago-estomago-intestino/slide-21.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo"]},
-
-    {"id":"digest-01-c059","type":"cloze","front":"<b>Clínica.</b> Na isquemia mesentérica aguda por oclusão proximal da AMS, o infarto acomete o intestino delgado <b>{{c1::inteiro}}</b> + cólon direito até flexura hepática.","extra":"Sobrevivem apenas segmentos com irrigação colateral: parte alta do duodeno (arcadas pancreatoduodenais do tronco celíaco) e cólon esquerdo (arcada de Drummond via AMI). Evolução: necrose transmural em 6-12h → peritonite → choque séptico.","image":"figuras/digest-01-esofago-estomago-intestino/slide-23.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::vasos","NEBLI::clinica"]},
-
-    {"id":"digest-01-c060","type":"cloze","front":"<b>Clínica.</b> Na isquemia mesentérica distal, o segmento que tolera melhor a oclusão é o <b>{{c1::íleo}}</b>.","extra":"Motivo anatômico: arcos numerosos e curtos = mais redundância anastomótica. Oclusão distal no jejuno (arcos poucos e amplos) frequentemente isquemia toda a alça correspondente.","image":"figuras/digest-01-esofago-estomago-intestino/slide-23.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::vasos","NEBLI::clinica"]},
-
-    {"id":"digest-01-c061","type":"cloze","front":"<b>Clínica.</b> A tríade clássica da isquemia mesentérica aguda é dor abdominal súbita <b>{{c1::desproporcional ao exame físico}}</b>, ausência de sinais peritoneais na fase inicial e antecedente embólico ou aterosclerótico.","extra":"Dor intensa mas exame 'inocente' nas primeiras horas é o sinal enganoso. Angiotomografia é o exame de escolha (mostra vaso ocluído + viabilidade da parede).","image":"figuras/digest-01-esofago-estomago-intestino/slide-23.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::clinica"]},
-
-    {"id":"digest-01-c062","type":"cloze","front":"<b>Embriologia.</b> O remanescente do ducto onfalomesentérico embrionário na borda antimesentérica do íleo é o divertículo de <b>{{c1::Meckel}}</b>.","extra":"Regra dos '2': 2% da população, 2 polegadas de comprimento, a 2 pés da valva ileocecal, 2 tipos de mucosa ectópica (gástrica, pancreática), sintomático em 2% dos portadores.","image":"figuras/digest-01-esofago-estomago-intestino/slide-22.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::clinica"]},
-
-    {"id":"digest-01-c063","type":"cloze","front":"<b>Clínica.</b> A apresentação típica do divertículo de Meckel na criança pequena é sangramento intestinal <b>{{c1::indolor}}</b>.","extra":"Mucosa gástrica ectópica no divertículo secreta ácido → úlcera peptica na mucosa ileal adjacente → sangramento. Enterorragia sem dor em criança <5 anos = pensar em Meckel. Cintilografia com pertecnetato-99m marca a mucosa gástrica ectópica.","image":"figuras/digest-01-esofago-estomago-intestino/slide-22.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo","NEBLI::clinica"]},
-
-    {"id":"digest-01-c064","type":"cloze","front":"<b>Anatomia.</b> Uma alça no quadrante superior esquerdo do abdome, encontrada em uma laparotomia, é provavelmente <b>{{c1::jejuno}}</b>.","extra":"Padrão topográfico preferencial. Junto com cor vermelho-viva, parede espessa e pregas altas visíveis ao toque, permite ao cirurgião distinguir de íleo sem outros marcos.","image":"figuras/digest-01-esofago-estomago-intestino/slide-19.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::jejuno"]},
-
-    {"id":"digest-01-c065","type":"cloze","front":"<b>Anatomia.</b> Uma alça no quadrante inferior direito do abdome, encontrada em uma laparotomia, é provavelmente <b>{{c1::íleo}}</b>.","extra":"Ocupa preferencialmente a fossa ilíaca direita e termina na valva íleocecal. Rosa pálido, parede fina, placas de Peyer visíveis distalmente.","image":"figuras/digest-01-esofago-estomago-intestino/slide-19.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::ileo"]},
-
-    {"id":"digest-01-c066","type":"cloze","front":"<b>Anatomia.</b> O esfíncter que envolve a ampola hepatopancreática e controla a liberação de bile e suco pancreático é o esfíncter de <b>{{c1::Oddi}}</b>.","extra":"Fica na papila duodenal maior. Relaxa em resposta à colecistocinina (CCK) liberada pelas células I do duodeno quando gordura chega. Contração espasmódica é uma causa de dor tipo cólica biliar.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno"]},
-
-    {"id":"digest-01-c067","type":"cloze","front":"<b>Clínica.</b> O caso de úlcera gástrica perfurada por uso prolongado de AINE se apresenta como dor <b>{{c1::epigástrica}}</b> súbita e intensa.","extra":"Mecanismo: AINE inibe COX → menos prostaglandinas protetoras da mucosa gástrica. Perfuração anterior → pneumoperitônio + abdome em tábua; posterior → dor irradiada pro dorso + amilase/lipase elevadas + risco de hemorragia por gastroduodenal.","image":"figuras/digest-01-esofago-estomago-intestino/slide-13.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::estomago","NEBLI::clinica"]},
-
-    {"id":"digest-01-c068","type":"cloze","front":"<b>Anatomia.</b> A porção da veia mesentérica superior + veia esplênica que forma a veia porta encontra-se atrás da <b>{{c1::cabeça do pâncreas}}</b>.","extra":"Confluência da VMS + veia esplênica forma a porta ao nível do colo do pâncreas. Cabeça pancreática cirurgicamente delicada por essa vizinhança venosa. Tumor de cabeça de pâncreas pode obstruir a porta → hipertensão porta pré-hepática.","image":"figuras/digest-01-esofago-estomago-intestino/slide-15.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::duodeno"]},
-
-    {"id":"digest-01-c069","type":"cloze","front":"<b>Anatomia.</b> A raiz do mesentério do intestino delgado tem cerca de <b>{{c1::15 cm}}</b> de comprimento.","extra":"Vai da flexura duodenojejunal (superior esquerda) à junção íleocecal (inferior direita), cruzando a 3ª porção do duodeno, a aorta e a VCI. Borda livre longa (6-7 m) presa a essa raiz curta = risco de volvo.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::mesenterio"]},
-
-    {"id":"digest-01-c070","type":"cloze","front":"<b>Clínica.</b> O <b>{{c1::volvo}}</b> do intestino delgado é a torção do bloco de alças em torno da raiz mesentérica.","extra":"Interrompe simultaneamente irrigação venosa e arterial de todo o segmento envolvido. Mais comum em más rotações intestinais congênitas; apresenta-se com dor abdominal aguda, distensão e vômito bilioso; urgência cirúrgica.","image":"figuras/digest-01-esofago-estomago-intestino/slide-17.png","tags":["NEBLI::digest-01","NEBLI::gerado","NEBLI::mesenterio","NEBLI::clinica"]}
-
+    {
+      "id": "digest-01-c001",
+      "type": "cloze",
+      "front": "From proximal to distal, the esophagus has {{c1::cervical, thoracic, and abdominal}} portions.",
+      "extra": "São trechos topográficos contínuos do mesmo tubo. A curta porção abdominal começa após o hiato e termina na cárdia.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-05.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c002",
+      "type": "cloze",
+      "front": "Esophageal muscle transitions from {{c1::striated → mixed → smooth}} from the upper to lower thirds.",
+      "extra": "Esse gradiente acompanha a passagem da deglutição para a propulsão visceral involuntária mais distal.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c003",
+      "type": "cloze",
+      "front": "The cervical esophageal constriction occurs at the {{c1::cricopharyngeal region}}.",
+      "extra": "É o estreitamento mais proximal, na entrada do esôfago.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-05.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c004",
+      "type": "cloze",
+      "front": "The bronchoaortic esophageal constriction is produced by the {{c1::aortic arch and left main bronchus}}.",
+      "extra": "É uma constrição por relações externas dentro da porção torácica, não uma nova porção do esôfago.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c005",
+      "type": "cloze",
+      "front": "The diaphragmatic esophageal constriction occurs at the esophageal hiatus, approximately at {{c1::T10}}.",
+      "extra": "Depois do hiato surge a curta porção abdominal; o ligamento frênico-esofágico ajuda a estabilizar a transição.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c006",
+      "type": "cloze",
+      "front": "Chagas megaesophagus results from loss of enteric neurons, impairing {{c1::esophageal motility}}.",
+      "extra": "A clínica reforça o mecanismo anatômico: manter o lúmen aberto não basta; a propulsão depende de coordenação neuromuscular.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c007",
+      "type": "cloze",
+      "front": "The four useful gross regions of the stomach are the {{c1::cardia, fundus, body, and pyloric part}}.",
+      "extra": "A parte pilórica inclui antro e canal pilóricos antes do piloro.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-10.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c008",
+      "type": "cloze",
+      "front": "The {{c1::incisura angularis}} on the lesser curvature marks the transition from the gastric body toward the pyloric part.",
+      "extra": "É um marco externo útil para orientar a peça. A curvatura menor é côncava; a maior é convexa e mais longa.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c009",
+      "type": "cloze",
+      "front": "The posterior stomach is separated from much of the gastric bed by the {{c1::lesser sac (omental bursa)}}.",
+      "extra": "O leito gástrico inclui diafragma, baço, pâncreas, rim/suprarrenal esquerdos e região do mesocólon/cólon transverso.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c010",
+      "type": "cloze",
+      "front": "Anteriorly, the stomach relates chiefly to the {{c1::diaphragm, left lobe of liver, and anterior abdominal wall}}.",
+      "extra": "Use esse trio como contraponto espacial ao leito gástrico posterior.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c011",
+      "type": "cloze",
+      "front": "From the pylorus to the jejunum, the duodenum runs through {{c1::superior → descending → horizontal → ascending}} parts.",
+      "extra": "As quatro porções formam um C ao redor da cabeça do pâncreas; a maior parte do duodeno é relativamente fixa.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-15.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c012",
+      "type": "cloze",
+      "front": "The third duodenal part lies {{c1::anterior to the aorta/IVC and posterior to the superior mesenteric vessels}}.",
+      "extra": "Mapa espacial: grandes vasos posteriores → 3ª porção do duodeno → vasos mesentéricos superiores anteriores.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c013",
+      "type": "cloze",
+      "front": "The major duodenal papilla is located on the medial wall of the {{c1::second (descending) part of the duodenum}}.",
+      "extra": "É a saliência mucosa por onde chegam secreções biliar e pancreática.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-17.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c014",
+      "type": "cloze",
+      "front": "The common bile duct and main pancreatic duct commonly unite as the {{c1::hepatopancreatic ampulla (ampulla of Vater)}} before the major papilla.",
+      "extra": "A união terminal é frequente e explica por que a papila maior integra anatomia biliar e pancreática.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c015",
+      "type": "cloze",
+      "front": "In the duodenum, the embryologic foregut-to-midgut transition occurs approximately at the {{c1::major duodenal papilla}}.",
+      "extra": "Isso ajuda a integrar embriologia e vascularização: proximalmente predomina território celíaco; distalmente, mesentérico superior.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::step1-adjacente"]
+    },
+    {
+      "id": "digest-01-c016",
+      "type": "cloze",
+      "front": "The ligament of Treitz suspends the {{c1::duodenojejunal flexure}}.",
+      "extra": "Na prática, ele marca a passagem do duodeno relativamente fixo para o jejuno preso ao mesentério.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-15.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c017",
+      "type": "cloze",
+      "front": "The ligament of Treitz is the conventional boundary between {{c1::upper and lower GI bleeding}}.",
+      "extra": "É uma convenção clínica construída sobre um marco anatômico recorrente em endoscopia, cirurgia e radiologia.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::step1-adjacente"]
+    },
+    {
+      "id": "digest-01-c018",
+      "type": "cloze",
+      "front": "Jejunum and ileum make up approximately the proximal {{c1::2/5 and distal 3/5}}, respectively, of the mobile small bowel.",
+      "extra": "As alças jejunais predominam no quadrante superior esquerdo; as ileais, no inferior direito. É uma tendência, não uma fronteira rígida.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-19.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c019",
+      "type": "cloze",
+      "front": "What histologic feature distinguishes the jejunum from other parts of the small intestine? {{c1::Plicae circulares}}",
+      "extra": "AnKing v11: valves of Kerckring; também podem aparecer no duodeno distal e íleo proximal. Na aula, elas são mais altas e numerosas no jejuno.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::anking", "source::anking-v11", "anking-v11-1486608782562"]
+    },
+    {
+      "id": "digest-01-c020",
+      "type": "cloze",
+      "front": "Compared with ileum, jejunum tends to have a {{c1::thicker wall, larger caliber, and more prominent plicae circulares}}.",
+      "extra": "No íleo distal, a parede é mais fina e as pregas diminuem. Nenhuma pista isolada é perfeita: reconheça o conjunto.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-21.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c021",
+      "type": "cloze",
+      "front": "Mesenteric fat usually reaches closer to the bowel wall in the {{c1::ileum}} than in the jejunum.",
+      "extra": "No jejuno, a gordura deixa áreas mais translúcidas próximas à alça; é mais uma pista do gradiente jejuno→íleo.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c022",
+      "type": "cloze",
+      "front": "The mesentery suspends jejunum and ileum while carrying their {{c1::vessels, lymphatics, and nerves}}.",
+      "extra": "Ele permite mobilidade das alças sem perder a conexão neurovascular com a parede posterior.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c023",
+      "type": "cloze",
+      "front": "Jejunum is characterized by {{c1::fewer arterial arcades and longer vasa recta}}.",
+      "extra": "É o padrão mais fácil de reconhecer na peça: poucas arcadas, caminho reto mais longo até a alça.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-20.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c024",
+      "type": "cloze",
+      "front": "Ileum is characterized by {{c1::more arterial arcades and shorter vasa recta}}.",
+      "extra": "Relação inversa útil: mais níveis de arcadas deixam um trajeto reto terminal menor.",
+      "image": "figuras/digest-01-esofago-estomago-intestino/slide-21.png",
+      "image_side": "answer",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c025",
+      "type": "cloze",
+      "front": "During surgery, the combination of long vasa recta with few arcades favors identifying a loop as {{c1::jejunum}}.",
+      "extra": "É uma aplicação robusta quando isquemia altera cor e calibre da alça: o desenho mesentérico ainda ajuda na orientação.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    },
+    {
+      "id": "digest-01-c026",
+      "type": "cloze",
+      "front": "Where in the GI tract does intussusception most commonly occur? {{c1::Ileocecal junction}}",
+      "extra": "Card AnKing v11 escolhido por reforçar o limite distal da aula com uma associação clínica transversal.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::anking", "source::anking-v11", "anking-v11-1482289634672"]
+    },
+    {
+      "id": "digest-01-c027",
+      "type": "cloze",
+      "front": "Meckel diverticulum is typically located in the small bowel, two {{c1::feet}} from the ileocecal valve.",
+      "extra": "Card AnKing v11. O vínculo anatômico da aula é o íleo distal; o divertículo surge na borda antimesentérica como remanescente do ducto vitelino.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::anking", "source::anking-v11", "anking-v11-1482289520748"]
+    },
+    {
+      "id": "digest-01-c028",
+      "type": "cloze",
+      "front": "The terminal ileum enters the cecum at the {{c1::ileocecal junction}}.",
+      "extra": "É o limite distal explícito da aula e a transição do intestino delgado para o grosso.",
+      "tags": ["NEBLI::digest-01-esofago-estomago-intestino", "NEBLI::autoral", "source::aula"]
+    }
   ]
 }
