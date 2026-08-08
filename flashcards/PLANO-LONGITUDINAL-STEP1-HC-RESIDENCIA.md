@@ -169,6 +169,6 @@ Escolher **2 aulas contrastantes**: uma de anatomia/histo visual e uma de fisiol
 2. Aprovar piloto de 1–3 bridges por aula, sem quota e sem conduta.
 3. Aprovar manifesto de ligação, sem reclassificação em massa.
 4. Aprovar estudo-piloto de duas aulas antes da varredura/codificação integral.
-5. Manter cram separado por filtered deck e o longitudinal em 15 novos/dia como teto adaptativo.
+5. Manter o mesmo acervo para os dois modos: longitudinal em 25 novos/dia; antes da prova, acelerar temporariamente o subdeck da prova e depois voltar ao ritmo normal, sem duplicar cards.
 
 Se aprovado, a próxima execução deve ser o piloto controlado; não uma expansão automática de todos os decks.

@@ -1,0 +1,262 @@
+{
+  "lesson_pipeline": "deck-aula-v1",
+  "deck_aula_gate": "v2",
+  "deck": "NEBLI::UC-8::P1::Anatomia::Esôfago, estômago e intestino delgado",
+  "e1": {
+    "path": "../typst-build/etapa1.typ"
+  },
+  "e1_inventory": [
+    {"id": "1.1", "e1_anchor": "Trajeto, porções e parede do esôfago", "card_decision": "nuclear"},
+    {"id": "1.2", "e1_anchor": "Constrições e transição esofagogástrica", "card_decision": "nuclear"},
+    {"id": "1.3", "e1_anchor": "Regiões, curvaturas e marcos do estômago", "card_decision": "nuclear"},
+    {"id": "1.4", "e1_anchor": "Faces e relações do estômago", "card_decision": "nuclear"},
+    {"id": "1.5", "e1_anchor": "peristalse", "card_decision": "supporting"},
+    {"id": "1.6", "e1_anchor": "ligamento frênico-esofágico", "card_decision": "no_card", "decision_reason": "detalhe já recuperado como contexto da constrição hiatal; card isolado criaria redundância"},
+    {"id": "1.7", "e1_anchor": "incisura angular", "card_decision": "no_card", "decision_reason": "já faz parte do alvo nuclear 1.3 e não precisa de uma segunda rota"},
+    {"id": "2.1", "e1_anchor": "Quatro porções e relações do duodeno", "card_decision": "nuclear"},
+    {"id": "2.2", "e1_anchor": "Papila maior e encontro das vias biliar e pancreática", "card_decision": "nuclear"},
+    {"id": "2.3", "e1_anchor": "Flexura duodenojejunal e ligamento de Treitz", "card_decision": "nuclear"},
+    {"id": "2.4", "e1_anchor": "ampola hepatopancreática", "card_decision": "no_card", "decision_reason": "é recuperada dentro do alvo nuclear 2.2"},
+    {"id": "3.1", "e1_anchor": "Continuidade, posição e mesentério", "card_decision": "nuclear"},
+    {"id": "3.2a", "e1_anchor": "Suas pregas circulares são altas e numerosas", "card_decision": "nuclear"},
+    {"id": "3.2b", "e1_anchor": "ela costuma chegar mais perto da borda intestinal no íleo", "card_decision": "nuclear"},
+    {"id": "3.3", "e1_anchor": "Arcadas e vasos retos distinguem jejuno de íleo", "card_decision": "nuclear"},
+    {"id": "3.4a", "e1_anchor": "O íleo termina na *junção ileocecal*", "card_decision": "nuclear"},
+    {"id": "3.4b", "e1_anchor": "local mais comum de intussuscepção", "card_decision": "supporting"},
+    {"id": "3.4c", "e1_anchor": "cerca de *dois pés* proximalmente à válvula ileocecal", "card_decision": "supporting"},
+    {"id": "3.5", "e1_anchor": "mesentério", "card_decision": "no_card", "decision_reason": "a função do mesentério já é recuperada no alvo 3.1"}
+  ],
+  "facts": [
+    {
+      "id": "1.1", "e1_anchor": "Trajeto, porções e parede do esôfago", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["From proximal to distal, the esophagus has", "Esophageal muscle transitions from"],
+        "coverage_quality": 3,
+        "coverage_rationale": "duas recuperações independentes: topografia e gradiente muscular",
+        "retrieval_target": "porções topográficas e composição muscular do esôfago",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-05.png", "placement": "answer"}
+    },
+    {
+      "id": "1.2", "e1_anchor": "Constrições e transição esofagogástrica", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The cervical esophageal constriction occurs", "The bronchoaortic esophageal constriction", "The diaphragmatic esophageal constriction"],
+        "coverage_quality": 3,
+        "coverage_rationale": "cada estreitamento é recuperado pela estrutura que o produz, sem exigir uma lista única",
+        "retrieval_target": "três constrições esofágicas e suas relações causais",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-05.png", "placement": "answer"}
+    },
+    {
+      "id": "1.3", "e1_anchor": "Regiões, curvaturas e marcos do estômago", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The four useful gross regions of the stomach", "The {{c1::incisura angularis}}"],
+        "coverage_quality": 3,
+        "coverage_rationale": "recupera regiões e o marco externo que orienta corpo/parte pilórica",
+        "retrieval_target": "regiões do estômago e incisura angular",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-10.png", "placement": "answer"}
+    },
+    {
+      "id": "1.4", "e1_anchor": "Faces e relações do estômago", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The posterior stomach is separated", "Anteriorly, the stomach relates chiefly"],
+        "coverage_quality": 3,
+        "coverage_rationale": "recupera relações anterior e posterior como mapa tridimensional",
+        "retrieval_target": "relações anterior e posterior do estômago",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "optional", "status": "approved"}
+    },
+    {
+      "id": "1.5", "e1_anchor": "peristalse", "importance": "supporting",
+      "route": {
+        "source": "own",
+        "card_refs": ["Chagas megaesophagus results from loss of enteric neurons"],
+        "coverage_quality": 2,
+        "coverage_rationale": "associação clínica curta reforça que a propulsão esofágica depende de controle entérico",
+        "retrieval_target": "perda de motilidade esofágica no Chagas",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "optional", "status": "approved"}
+    },
+    {
+      "id": "2.1", "e1_anchor": "Quatro porções e relações do duodeno", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["From the pylorus to the jejunum, the duodenum runs", "The third duodenal part lies"],
+        "coverage_quality": 3,
+        "coverage_rationale": "ordem das porções e relação vascular da terceira porção são recuperadas separadamente",
+        "retrieval_target": "quatro porções do duodeno e relação vascular da terceira",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-15.png", "placement": "answer"}
+    },
+    {
+      "id": "2.2", "e1_anchor": "Papila maior e encontro das vias biliar e pancreática", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The major duodenal papilla is located", "The common bile duct and main pancreatic duct", "the embryologic foregut-to-midgut transition"],
+        "coverage_quality": 3,
+        "coverage_rationale": "localização, confluência ductal e integração embrio-vascular cabem em alvos separados",
+        "retrieval_target": "papila maior: localização, ductos e fronteira foregut-midgut",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-17.png", "placement": "answer"}
+    },
+    {
+      "id": "2.3", "e1_anchor": "Flexura duodenojejunal e ligamento de Treitz", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The ligament of Treitz suspends", "The ligament of Treitz is the conventional boundary"],
+        "coverage_quality": 3,
+        "coverage_rationale": "recupera o marco anatômico e sua convenção clínica sem misturá-los",
+        "retrieval_target": "Treitz como suspensor da flexura e limite clínico de sangramento",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-15.png", "placement": "answer"}
+    },
+    {
+      "id": "3.1", "e1_anchor": "Continuidade, posição e mesentério", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["Jejunum and ileum make up approximately", "The mesentery suspends jejunum and ileum"],
+        "coverage_quality": 3,
+        "coverage_rationale": "proporção/topografia e função do mesentério são recuperadas sem decorar uma lista extensa",
+        "retrieval_target": "proporção, posição e papel do mesentério em jejuno e íleo",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-19.png", "placement": "answer"}
+    },
+    {
+      "id": "3.2a", "e1_anchor": "Suas pregas circulares são altas e numerosas", "importance": "nuclear",
+      "route": {
+        "source": "anking",
+        "card_refs": ["What histologic feature distinguishes the jejunum"],
+        "coverage_quality": 2,
+        "coverage_rationale": "o card AnKing recupera diretamente plicae circulares como pista de jejuno",
+        "retrieval_target": "plicae circulares como pista de jejuno"
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-21.png", "placement": "answer"}
+    },
+    {
+      "id": "3.2b", "e1_anchor": "ela costuma chegar mais perto da borda intestinal no íleo", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["Compared with ileum, jejunum tends to have", "Mesenteric fat usually reaches closer"],
+        "coverage_quality": 3,
+        "coverage_rationale": "completa as pistas macroscópicas da aula que o candidato AnKing de plicae não cobre",
+        "retrieval_target": "parede, calibre, pregas e gordura como contraste jejuno-íleo",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-21.png", "placement": "answer"}
+    },
+    {
+      "id": "3.3", "e1_anchor": "Arcadas e vasos retos distinguem jejuno de íleo", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["Jejunum is characterized by", "Ileum is characterized by", "During surgery, the combination of long vasa recta"],
+        "coverage_quality": 3,
+        "coverage_rationale": "o contraste vascular é recuperado nos dois sentidos e aplicado a uma situação de reconhecimento",
+        "retrieval_target": "arcadas e vasos retos para distinguir jejuno de íleo",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "required", "status": "approved", "asset": "slide-20.png e slide-21.png", "placement": "answer"}
+    },
+    {
+      "id": "3.4a", "e1_anchor": "O íleo termina na *junção ileocecal*", "importance": "nuclear",
+      "route": {
+        "source": "own",
+        "card_refs": ["The terminal ileum enters the cecum"],
+        "coverage_quality": 2,
+        "coverage_rationale": "o card recupera diretamente a relação anatômica íleo terminal → ceco; os candidatos AnKing encontrados eram associações clínicas, não esse alvo",
+        "retrieval_target": "íleo terminal desemboca no ceco pela junção ileocecal",
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}
+      },
+      "visual": {"need": "optional", "status": "approved"}
+    },
+    {
+      "id": "3.4b", "e1_anchor": "local mais comum de intussuscepção", "importance": "supporting",
+      "route": {
+        "source": "anking",
+        "card_refs": ["Where in the GI tract does intussusception most commonly occur"],
+        "coverage_quality": 2,
+        "coverage_rationale": "card AnKing direto e curto reutiliza a junção ileocecal em clínica transversal",
+        "retrieval_target": "local mais comum de intussuscepção"
+      },
+      "visual": {"need": "optional", "status": "approved"}
+    },
+    {
+      "id": "3.4c", "e1_anchor": "cerca de *dois pés* proximalmente à válvula ileocecal", "importance": "supporting",
+      "route": {
+        "source": "anking",
+        "card_refs": ["Meckel diverticulum is typically located"],
+        "coverage_quality": 2,
+        "coverage_rationale": "card AnKing direto preserva a regra topográfica clássica do divertículo de Meckel",
+        "retrieval_target": "distância clássica do divertículo de Meckel à válvula ileocecal"
+      },
+      "visual": {"need": "optional", "status": "approved"}
+    }
+  ],
+  "source_audit": {
+    "pool_path": "flashcards/curadoria/digest-01-esofago-estomago-intestino-anking-v11-candidatos.json",
+    "anking_repository": "langfield/anking-v11, sparse checkout Zanki GI, fresh run",
+    "other_decks": {
+      "status": "insufficient",
+      "reason": "o catálogo registra Dope/BlueLink no Anki, mas os decks-fonte não existem no checkout e AnkiConnect foi explicitamente excluído deste run; nenhum card externo pôde ser materializado offline"
+    },
+    "candidates_by_fact": {
+      "1.1": {"searched_tags": ["esophagus", "esophageal anatomy"], "candidate_count": 8, "rejection_rationale": "shortlist era patologia/motilidade e não recuperava porções ou composição muscular"},
+      "1.2": {"searched_tags": ["esophageal constrictions", "gastroesophageal junction"], "candidate_count": 0, "rejection_rationale": "nenhum candidato na seção GI"},
+      "1.3": {"searched_tags": ["stomach anatomy", "curvatures", "pylorus"], "candidate_count": 8, "rejection_rationale": "candidatos eram doenças gástricas e não anatomia regional"},
+      "1.4": {"searched_tags": ["gastric bed", "stomach relations"], "candidate_count": 8, "rejection_rationale": "candidatos eram doenças/vascularização clínica e não relações anatômicas anterior-posterior"},
+      "1.5": {"searched_tags": ["esophageal peristalsis"], "candidate_count": 0, "rejection_rationale": "nenhum candidato direto para o mecanismo de Chagas apresentado na aula"},
+      "2.1": {"searched_tags": ["duodenum parts", "duodenum relations"], "candidate_count": 8, "rejection_rationale": "shortlist tratava úlcera/atresia e não ordem das quatro porções ou relação com vasos mesentéricos"},
+      "2.2": {"searched_tags": ["major duodenal papilla", "ampulla of Vater"], "candidate_count": 8, "rejection_rationale": "shortlist não recuperava localização da papila nem confluência anatômica dos ductos"},
+      "2.3": {"searched_tags": ["ligament of Treitz", "duodenojejunal flexure"], "candidate_count": 8, "rejection_rationale": "shortlist retornou cards genéricos de duodeno sem Treitz na frente"},
+      "3.1": {"searched_tags": ["jejunum", "ileum", "mesentery"], "candidate_count": 8, "rejection_rationale": "candidatos úteis eram patologia/absorção e não proporção-topografia-mesentério"},
+      "3.2a": {"searched_tags": ["plicae circulares", "jejunum ileum"], "candidate_count": 1},
+      "3.2b": {"searched_tags": ["mesenteric fat", "jejun* fat", "ile* fat"], "candidate_count": 5, "rejection_rationale": "os cinco hits brutos tratavam digestão/absorção de gordura ou patologia e não parede/calibre/gordura mesentérica de jejuno versus íleo"},
+      "3.3": {"searched_tags": ["arterial arcades", "vasa recta", "jejunum ileum"], "candidate_count": 8, "rejection_rationale": "candidatos não comparavam o padrão de arcadas e vasa recta exigido pela aula"},
+      "3.4a": {"searched_tags": ["ileocecal junction", "ileocecal valve"], "candidate_count": 4, "rejection_rationale": "os candidatos eram associações clínicas e não recuperavam diretamente a continuidade íleo terminal → ceco"},
+      "3.4b": {"searched_tags": ["ileocecal junction", "intussusception"], "candidate_count": 4},
+      "3.4c": {"searched_tags": ["ileocecal valve", "Meckel diverticulum"], "candidate_count": 4}
+    }
+  },
+  "e1_enrichments": [
+    {
+      "source_ref": "integração anatômica clássica Step 1: major papilla como fronteira foregut/midgut",
+      "decision": "incorporated",
+      "importance": "supporting",
+      "e1_anchor": "o duodeno proximal à papila está ligado ao território embrionário do intestino anterior",
+      "selection_reason": "liga anatomia da aula a embriologia e vascularização sem abrir um novo bloco de conteúdo"
+    },
+    {
+      "source_ref": "AnKing v11 1482289634672",
+      "decision": "incorporated",
+      "importance": "supporting",
+      "e1_anchor": "local mais comum de intussuscepção",
+      "selection_reason": "associação clínica curta reutiliza um marco anatômico nuclear e transfere para pediatria/cirurgia sem exigir novo mecanismo"
+    },
+    {
+      "source_ref": "AnKing v11 1482289520748",
+      "decision": "incorporated",
+      "importance": "supporting",
+      "e1_anchor": "cerca de *dois pés* proximalmente à válvula ileocecal",
+      "selection_reason": "regra topográfica curta de Meckel conecta a anatomia do íleo à embriologia sem expandir diagnóstico ou tratamento"
+    }
+  ],
+  "load_profile": {
+    "lecture_size": "medium",
+    "estimated_cards": 28,
+    "selection_basis": "12 alvos nucleares + 3 supporting; volume emergiu dos retrieval targets, não de quota por subtópico",
+    "redundancy_reviewed": true
+  }
+}

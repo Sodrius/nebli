@@ -8,12 +8,16 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sqlite3
 import sys
+import tempfile
 import urllib.request
+import zipfile
 from pathlib import Path
 
 
 SOURCES = {"anking", "other_deck", "own"}
+DECISIONS = {"nuclear", "supporting", "no_card"}
 
 
 def normalise(value: str) -> str:
@@ -39,11 +43,27 @@ def validate(spec: dict, base: Path) -> dict:
         errors.append("e1_inventory deve declarar todos os fatos-chave extraídos da E1")
         inventory = []
     facts = spec.get("facts")
-    if not isinstance(facts, list) or not facts:
-        errors.append("facts deve conter os fatos-chave da E1")
+    if not isinstance(facts, list):
+        errors.append("facts deve ser uma lista dos conceitos que realmente receberão card")
         facts = []
     seen: set[str] = set()
-    inventory_ids = {str(row.get("id", "")).strip() for row in inventory}
+    inventory_ids: set[str] = set()
+    inventory_decisions: dict[str, str] = {}
+    for row in inventory:
+        iid = str(row.get("id", "")).strip()
+        decision = str(row.get("card_decision") or row.get("importance") or "").lower().strip()
+        anchor = str(row.get("e1_anchor", "")).strip()
+        if not iid or iid in inventory_ids:
+            errors.append(f"id de inventário ausente/duplicado: {iid or '?'}")
+            continue
+        inventory_ids.add(iid)
+        inventory_decisions[iid] = decision
+        if decision not in DECISIONS:
+            errors.append(f"{iid}: card_decision deve ser nuclear|supporting|no_card")
+        if not anchor or normalise(anchor) not in e1:
+            errors.append(f"{iid}: e1_inventory exige âncora literal existente na E1")
+        if decision == "no_card" and not str(row.get("decision_reason", "")).strip():
+            warnings.append(f"{iid}: no_card sem decision_reason; recomendável registrar por que não merece revisão")
     nuclear = covered = own = 0
     for row in facts:
         fid = str(row.get("id", "")).strip()
@@ -53,13 +73,17 @@ def validate(spec: dict, base: Path) -> dict:
         anchor = str(row.get("e1_anchor", "")).strip()
         if not anchor or normalise(anchor) not in e1:
             errors.append(f"{fid}: âncora ausente da E1 ampliada")
-        importance = str(row.get("importance", "")).lower()
+        importance = str(row.get("importance") or inventory_decisions.get(fid, "")).lower()
         if importance not in {"nuclear", "supporting"}:
             errors.append(f"{fid}: importance deve ser nuclear|supporting")
         if importance == "nuclear":
             nuclear += 1
         if fid not in inventory_ids:
             errors.append(f"{fid}: fato não existe no e1_inventory")
+        elif inventory_decisions.get(fid) == "no_card":
+            errors.append(f"{fid}: conceito no_card não pode ter rota de card")
+        elif inventory_decisions.get(fid) in {"nuclear", "supporting"} and importance != inventory_decisions[fid]:
+            errors.append(f"{fid}: importance diverge do card_decision do inventário")
         route = row.get("route") or {}
         source = str(route.get("source", "")).lower()
         refs = route.get("card_refs")
@@ -93,12 +117,15 @@ def validate(spec: dict, base: Path) -> dict:
         if row.get("decision") == "incorporated" and (not quote or normalise(quote) not in e1):
             errors.append("enriquecimento incorporado sem âncora na E1")
     fact_ids = {str(row.get("id", "")).strip() for row in facts}
-    omitted = sorted(inventory_ids - fact_ids)
-    if omitted:
-        errors.append("fatos do e1_inventory sem rota no deck-aula: " + ", ".join(omitted))
+    missing_nuclear = sorted(i for i, d in inventory_decisions.items() if d == "nuclear" and i not in fact_ids)
+    if missing_nuclear:
+        errors.append("conceitos nucleares sem rota no deck-aula: " + ", ".join(missing_nuclear))
     return {"passed": not errors, "errors": errors, "warnings": warnings,
             "facts": len(facts), "inventory": len(inventory_ids), "nuclear": nuclear,
-            "covered": covered, "own": own}
+            "covered": covered, "own": own,
+            "supporting_skipped": sum(1 for i, d in inventory_decisions.items()
+                                      if d == "supporting" and i not in fact_ids),
+            "no_card": sum(1 for d in inventory_decisions.values() if d == "no_card")}
 
 
 def verify_anki(spec: dict) -> list[str]:
@@ -130,6 +157,46 @@ def verify_anki(spec: dict) -> list[str]:
             if normalise(str(ref)) not in corpus:
                 errors.append(f"{row.get('id')}: card_ref não encontrado no deck: {ref}")
     return errors
+
+
+def verify_apkg(spec: dict, apkg: Path) -> tuple[list[str], int]:
+    """Confere card_refs e contagem real dentro de um .apkg, sem AnkiConnect."""
+    if not apkg.exists():
+        return [f".apkg inexistente: {apkg}"], 0
+    try:
+        with zipfile.ZipFile(apkg) as zf:
+            names = zf.namelist()
+            collection = next((n for n in ("collection.anki21", "collection.anki2") if n in names), None)
+            if not collection:
+                return [".apkg sem collection.anki21/collection.anki2"], 0
+            with tempfile.TemporaryDirectory() as td:
+                db = Path(td) / Path(collection).name
+                db.write_bytes(zf.read(collection))
+                con = sqlite3.connect(db)
+                try:
+                    note_rows = con.execute("select flds from notes").fetchall()
+                    card_count = con.execute("select count(*) from cards").fetchone()[0]
+                finally:
+                    con.close()
+    except Exception as exc:
+        return [f"falha ao auditar .apkg: {exc}"], 0
+    normalised_notes = [normalise(str(row[0]).replace("\x1f", " ")) for row in note_rows]
+    corpus = "\n".join(normalised_notes)
+    errors = []
+    approved_refs: list[str] = []
+    for row in spec.get("facts", []):
+        for ref in (row.get("route") or {}).get("card_refs", []):
+            ref_norm = normalise(str(ref))
+            approved_refs.append(ref_norm)
+            if ref_norm not in corpus:
+                errors.append(f"{row.get('id')}: card_ref não encontrado no .apkg: {ref}")
+    for idx, note in enumerate(normalised_notes, 1):
+        if approved_refs and not any(ref and ref in note for ref in approved_refs):
+            errors.append(f"nota {idx} do .apkg não consta no manifesto de admissão")
+    expected = (spec.get("load_profile") or {}).get("estimated_cards")
+    if isinstance(expected, int) and card_count != expected:
+        errors.append(f"contagem .apkg diverge do manifesto: {card_count} real != {expected} estimado")
+    return errors, int(card_count)
 
 
 def main() -> int:

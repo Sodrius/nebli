@@ -50,7 +50,7 @@ Do 1º semestre restam **UC01** e **UC02** (ciências básicas, com banco de que
 Árvore única, aninhada, um card mora numa aula só:
 
 ```
-NEBLI                        ← deck-mestre "geralzão" (retenção longa; 15 novos/dia)
+NEBLI                        ← deck-mestre "geralzão" (retenção longa; 25 novos/dia)
 └── UC<NN>                   ← ex.: UC03, UC02
     └── P<N>                 ← prova (P1, P2, P3, P4) — PRIMEIRA prova em que a aula cai
         └── <Matéria>        ← componente (Bioquímica, Anatomia, Imunologia, Patologia...)

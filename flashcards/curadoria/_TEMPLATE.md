@@ -1,82 +1,53 @@
-<!-- Manifesto de curadoria de UMA aula. Copie para flashcards/curadoria/<slug>.md e preencha.
-     Gêmeo de máquina: flashcards/curadoria/<slug>-curado.json (consumido pelo apply).
-     Método: flashcards/CURADORIA-ANKING.md — alvo 30–50 cards MUITO bem curados. -->
+# Curadoria de deck-aula — <slug>
 
-# Curadoria AnKing — <slug>
+**Aula:** <título>
 
-**Título da aula:** <título>
-**UC/Prova:** <UC0X / P?>   ·   **Gerado em:** <AAAA-MM-DD>
-**Total curado (kept):** <N>   ·   **Alvo:** 30–50   ·   **Cobertura AnKing:** <X/Y conceitos COBERTOS>
-**Tag-âncora no deck:** `NEBLI::<slug>`
+**UC/Prova:** <UC / P?>
 
-## Checklist-alvo (da E1) — fonte-verdade
-Subtópicos da `etapa1.typ` + Seção B do Tema Card, um id estável por conceito.
-Também gravada em `arquivos-trabalho/checklist-<slug>.tsv` (`<id>\t<frase>\t<termos>`) para `buscar_tags_lote.py`. Antes de fechar, registrar o passe leve Fontes→E1 e incorporar toda ausência relevante dentro do recorte.
+**Tag de rastreio:** `NEBLI::<slug>`
 
-| id | Frase-alvo (o que um card teria que testar) | Termos de busca (pt/en, sinônimos) |
-|---|---|---|
-| 1.1 | <conceito da PARTE I> | chamber\|atrium\|ventricle |
-| 2.3 | Retorno venoso nomeado (sistema ázigo) | venous_return\|vena_cava\|azygos |
+## Conceitos selecionados
 
-## Camada 1 — tags candidatas (grossa)
-Colar a saída de `buscar_tags_lote.py arquivos-trabalho/checklist-<slug>.tsv --md`
-(cada tag já vem ligada ao(s) conceito(s) da checklist que a motivou).
+Fonte: `checklist-<slug>.tsv`, já revisada. Não transformar toda linha da E1 em card.
 
-| Leaf-tag (recurso::caminho) | #cards | Conceitos | Classe | Decisão |
+| id | conceito | decisão | motivo | termos de busca |
 |---|---|---|---|---|
-| SketchyAnatomy::…::Superior_Vena_Cava | 16 | 2.3 | CANDIDATA | vai p/ Camada 2 |
-| FirstAid::…::02_Anatomy | 30 | 2.2 | CANDIDATA | vai p/ Camada 2 |
-| Bootcamp::…::Aortic_Stenosis | 44 | — | RUÍDO | rejeita (patologia, fora do escopo da aula) |
+| 1.1 | <alvo> | nuclear | <por que precisa retenção> | <pt/en> |
+| 1.2 | <alvo> | supporting | <valor adicional> | <pt/en> |
+| 1.3 | <detalhe> | no_card | explicado na E1, baixo valor de recuperação | — |
 
-> **Sem classe PURA** (canônico 2026-07-04): toda tag CANDIDATA passa pela Camada 2 — nenhum card entra sem ser lido e casado contra um id da checklist.
+## AnKing — candidatos e keep/drop
 
-## Camada 2 — curadoria card-a-card (fina, TODAS as candidatas)
-Lida do pool `arquivos-trabalho/anking-pool-<slug>.json`. Keep/drop com motivo de 1 linha.
-**Coluna "Conceito-alvo" obrigatória** e amarrada aos ids da Checklist-alvo: card kept sem id de conceito = drop (precisão).
-
-| GUID (curto) | Frente (resumo) | Conceito-alvo | Keep? | Motivo |
+| id | card ref/GUID | retrieval target real | keep? | motivo |
 |---|---|---|---|---|
-| a1b2… | "Ramos do arco aórtico…" | 2.2 | ✅ | anatomia macro on-topic |
-| c3d4… | "Aortic dissection Stanford A…" | — | ❌ | patologia, não é a aula |
+| 1.1 | <ref> | <o que o cloze realmente cobra> | KEEP | match exato, atômico |
+| 1.1 | <ref> | <alvo vizinho> | DROP | palavra em comum, mas pergunta outra coisa |
 
-## Cobertura por PARTE da E1 (gap-analysis)
-Para cada conceito-alvo: COBERTO / PARCIAL / LACUNA / **PENDENTE-GERADO**. Em qualquer status ≠ COBERTO, **apontar a fonte**. Conceito **nuclear** só fecha em **COBERTO** por card real; questão não conta.
-- **PENDENTE-GERADO** = conceito-chave da E1 sem card real bom no AnKing, **enfileirado** para card NEBLI cloze gerado numa sessão futura de calibração (NÃO gerar agora — ver `calibrar-antes-de-gerar-cards`). Espelha o gate de cobertura da E2: todo subtópico fecha COBERTO ou entra na fila com fonte.
+## Outros decks
 
-### PARTE I — <título>
-| Conceito-alvo | Cobertura | #cards | Fonte da lacuna (se ≠ COBERTO) | Nota R6 (0–3) | Importância | Na E1? | Justificativa E1 |
-|---|---|---|---|---:|---|---|---|
-| 1.1 <conceito> | COBERTO | 4 | — | 3 | nuclear | SIM | — |
-| 1.4 circulação fetal | LACUNA | 0 | AnKing Step1 quase não cobre → deck de embriologia dedicado / slide + Moore | 0 | nuclear | NAO | aplicar patch na E1 |
-| 1.5 <conceito acessório sem card bom> | PENDENTE-GERADO | 0 | fila de geração NEBLI + slide | 0 | acessório | DISPENSADO | fora do recorte obrigatório |
+Só para lacunas após AnKing.
 
-**Fontes → E1:** <X/Y conceitos relevantes incorporados>  ·  **E1 → cards:** <X/Y conceitos nucleares COBERTOS>
+| id | deck | card ref | keep? | motivo |
+|---|---|---|---|---|
+| <id> | <BlueLink/Dope/Histology/...> | <ref> | KEEP/DROP | <motivo> |
 
-A nota R6 é qualitativa: `0` ausente; `1` só nome/fragmento; `2` mecanismo central coberto; `3` mecanismo + discriminador/aplicação. Nenhum subtópico `nuclear` pode fechar em 0–1.
+## Autorais — último recurso
 
-### PARTE II — <título>
-…
+| id | AnKing | outros decks | card autoral | motivo |
+|---|---|---|---|---|
+| <id> | insufficient: <por quê> | insufficient: <por quê> | <ref> | lacuna específica |
 
-### PARTE III — <título>
-…
+Frente/cloze EN; Extra PT; lint + card-mirror + E1 anchor; visual conforme plano.
 
-## Resumo de lacunas → onde completar
-- **<conceito>** — não coberto pelo AnKing. Pegar em: <deck dedicado nomeado / Netter / slide do professor>.
+## Fechamento
 
-## Kept final (para o JSON)
-Espelhado em `<slug>-curado.json` (consumido por `aplicar_curadoria_anking.py`).
-**tags_puras** = incluídas inteiras (marca todos os notes da subárvore). **impuras** = só os GUIDs curados. `guids_kept` aceita string simples OU objeto auditável `{"guid","conceito","motivo"}` (o apply usa só o guid; conceito/motivo documentam a escolha):
-```json
-{
-  "slug": "<slug>",
-  "tag_ancora": "NEBLI::<slug>",
-  "tags_puras": ["#AK_Step1_v12::#SketchyAnatomy::02_Thorax::03_Vasculature::02_Superior_Vena_Cava"],
-  "impuras": [
-    { "tag": "#AK_Step1_v12::#FirstAid::07_Cardiovascular::02_Anatomy",
-      "guids_kept": [
-        {"guid": "a1b2…", "conceito": "2.2", "motivo": "ramos do arco aórtico, anatomia macro on-topic"},
-        "c3d4…"
-      ] }
-  ]
-}
-```
+- Nucleares cobertos: <X/Y>
+- Cards por fonte: AnKing <n> · outros <n> · autorais <n>
+- Cards reais estimados: <n>
+- Porte: <small|medium|large>
+- Revisão de redundância necessária? <sim/não + motivo>
+- `no_card` indevido no deck: <0>
+- Retrieval targets duplicados: <0>
+- Visuais required pendentes: <0>
+
+Faixas ~15–25 / ~25–40 / ~35–55 são guardrails, não metas. Acima de 60: revisão explícita obrigatória antes do gate.

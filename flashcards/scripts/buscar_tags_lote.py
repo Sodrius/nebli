@@ -10,10 +10,10 @@ busca para a UNIÃO de todos os termos DE UMA VEZ, anotando, para cada tag
 achada, QUAIS conceitos a motivaram. Assim os termos saem da aula, não da
 memória do curador -- ver flashcards/CURADORIA-ANKING.md passo 1-2.
 
-Formato do arquivo de checklist (um conceito por linha):
-    <id>\t<frase-alvo>\t<termo1|termo2|termo3>
-    1.1\tCâmaras cardíacas e circulação pulmonar\tchamber|atrium|ventricle|pulmonary circulation
-    2.3\tRetorno venoso nomeado (sistema ázigo)\tvenous return|vena cava|azygos
+Formato canônico do arquivo de checklist:
+    <id>\t<frase-alvo>\t<termo1|termo2|...>\t<nuclear|supporting|no_card>
+Linhas no_card são ignoradas. REVIEW/AUDIT_ONLY bloqueiam a busca para impedir
+que o extrator decida silenciosamente o que merece spaced repetition.
 Linhas em branco e começadas por # são ignoradas. Aceita também o formato
 mínimo "<id>\t<termos>" (sem frase) ou só "<termos>" (id vira o nº da linha).
 
@@ -40,13 +40,22 @@ except (AttributeError, ValueError):
 def ler_checklist(path):
     """Devolve [(id, frase, termos_str)] a partir do .tsv da checklist."""
     itens = []
+    pendentes = []
     with open(path, encoding="utf-8") as f:
         for n, linha in enumerate(f, 1):
             linha = linha.rstrip("\n")
             if not linha.strip() or linha.lstrip().startswith("#"):
                 continue
             partes = linha.split("\t")
-            if len(partes) >= 3:
+            if len(partes) >= 4:
+                cid, frase, termos = partes[0].strip(), partes[1].strip(), partes[2].strip()
+                decisao = partes[3].strip().lower()
+                if decisao == "no_card":
+                    continue
+                if decisao not in {"nuclear", "supporting"}:
+                    pendentes.append(f"{cid}:{partes[3].strip() or 'REVIEW'}")
+                    continue
+            elif len(partes) >= 3:
                 cid, frase, termos = partes[0].strip(), partes[1].strip(), partes[2].strip()
             elif len(partes) == 2:
                 cid, frase, termos = partes[0].strip(), "", partes[1].strip()
@@ -54,6 +63,8 @@ def ler_checklist(path):
                 cid, frase, termos = str(n), "", partes[0].strip()
             if termos:
                 itens.append((cid, frase, termos))
+    if pendentes:
+        raise ValueError("classifique a checklist antes da busca: " + ", ".join(pendentes[:12]))
     return itens
 
 

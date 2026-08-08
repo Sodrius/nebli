@@ -202,7 +202,17 @@ def montar_deck(json_path: Path) -> tuple[genanki.Deck, list[Path]]:
                 media_names_seen.add(img_name)
                 if img_path not in media_files:
                     media_files.append(img_path)
-                img_field = f'<img src="{img_name}">'
+                img_html = f'<img src="{img_name}">'
+                image_side = str(c.get("image_side", "both")).lower()
+                if image_side == "answer":
+                    extra = f"{extra}<div>{img_html}</div>".strip()
+                elif image_side == "both":
+                    img_field = img_html
+                else:
+                    raise SystemExit(
+                        f"x image_side invalido no card {c.get('id','?')}: {image_side} "
+                        "(use both|answer)"
+                    )
 
         tags = c.get("tags", [f"NEBLI::{slug}", "NEBLI::gerado"])
         guid = c.get("id") and guid_from_card_id(c["id"])

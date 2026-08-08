@@ -7,7 +7,7 @@ dessuspende, quem controla quantos AFLORAM por dia e o deck config do Anki.
 Dessuspender 40 cards/aula sem isso inunda a fila de novos. Este script seta,
 via AnkiConnect, o grupo de opcoes do deck NEBLI para:
 
-    new.perDay = 15    (introducao sustentavel de longo prazo)
+    new.perDay = 25    (introducao sustentavel de longo prazo)
     rev.perDay = 9999  (teto alto: nao esconde revisoes devidas do FSRS)
 
 Uso:
@@ -63,7 +63,7 @@ def achar_deck(preferido=None):
 def main():
     ap = argparse.ArgumentParser(description="Fixa novos/dia e revisoes/dia do deck NEBLI.")
     ap.add_argument("--deck", help='nome do deck (default: "NEBLI")')
-    ap.add_argument("--new", type=int, default=15, help="cards novos por dia (default 15)")
+    ap.add_argument("--new", type=int, default=25, help="cards novos por dia (default 25)")
     ap.add_argument("--rev", type=int, default=9999, help="teto de revisoes por dia (default 9999)")
     ap.add_argument("--dry-run", action="store_true", help="mostra atual e proposto, nao grava")
     args = ap.parse_args()

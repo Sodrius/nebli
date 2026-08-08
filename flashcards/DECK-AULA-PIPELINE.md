@@ -1,32 +1,80 @@
 # Pipeline canônico de deck-aula
 
-## Ordem obrigatória
+Este é o caminho operacional. A política editorial está em `FLASHCARDS.md`.
 
-1. Extrair dos slides o escopo inicial e redigir a E1-base.
-2. Quebrar a E1 em fatos-chave recuperáveis e criar a matriz `E1 -> fonte -> card`.
-3. Buscar cada fato no AnKing do tema; selecionar card a card os que realmente carregam o mecanismo.
-4. Buscar os fatos ainda descobertos nos outros decks de referência disponíveis.
-5. Incorporar na E1, **antes da E2**, o aprofundamento diretamente útil encontrado nas fontes: mecanismo, contraste, exceção e correlação clínica que explica o assunto da aula.
-6. Regerar a matriz a partir da E1 ampliada. Para cada fato nuclear, escolher nesta ordem: `anking`, `outro_deck`, `autoral`.
-7. Só criar card autoral quando as duas buscas anteriores documentarem ausência ou cobertura insuficiente. O card autoral fecha uma lacuna específica; não duplica um card curado bom.
-8. Montar o deck-aula com cópias dos cards curados e os autorais de lacuna. A E2 só é escrita depois de a matriz fechar; a E2 mede a E1 ampliada e o deck, não o slide isolado.
+## 1. E1 primeiro
 
-## Gates
+Redigir a E1-base a partir do material da aula. O deck nunca ensina conteúdo pela primeira vez.
 
-- A E1 é primeiro atomizada em fatos-chave; a matriz é a fonte de verdade da completude. Não se aceita uma lista de “tópicos” ampla que esconda detalhes recuperáveis.
-- Todo fato nuclear da E1 possui ao menos um card de referência ou autoral aprovado, com qualidade de cobertura `2` ou `3` em `0–3`: `0` ausente, `1` menciona mas não permite recuperar, `2` recupera o mecanismo/fato, `3` recupera e conecta mecanismo, contraste ou aplicação diretamente útil.
-- Todo fato de apoio tem cobertura `>=1`; se for necessário para compreender um fato nuclear, também exige `>=2`.
-- Todo card possui fato-chave e âncora na E1; não há card solto.
-- Todo autoral registra as buscas negativas/insuficientes no AnKing e nos outros decks.
-- Todo aprofundamento vindo dos decks tem decisão `incorporado` ou `dispensado` na E1, com justificativa; conteúdo nuclear não pode ser dispensado.
-- A E2 é bloqueada até `validate_lesson_coverage.py` aprovar a matriz.
-- Após a importação, o mesmo validador confirma que cada `card_ref` está realmente no deck-aula. Só então o deck recebe o status `revisável`.
+## 2. Inventário e decisão de card
 
-O slide define o escopo. A E1 ampliada organiza a compreensão. Os cards curados são a fonte preferencial de recuperação; autoria é a camada de precisão para as lacunas reais.
+Rodar `gerar_checklist.py <slug>` **antes da E2**. O script semeia candidatos a conceito, mas não decide o que merece card.
 
-## Orçamento de aprofundamento
+Revisar cada linha e trocar `review` por:
 
-Conteúdo de Step 1 não entra para inflar a aula. Cada acréscimo precisa marcar ao menos uma justificativa: `mecanismo_central`, `contraste_de_alto_erro`, `ponte_clinica_direta` ou `pré-requisito_imediato`. Se não puder responder “qual frase da E1 ele torna mais compreensível?”, fica fora ou vai para outra aula. A referência prática é: poucos acréscimos densos por parte, integrados à cadeia causal da aula, nunca uma segunda aula lateral sobre o mesmo sistema.
+- `nuclear`: precisa ser lembrado ativamente; card obrigatório;
+- `supporting`: card apenas se houver retrieval target distinto e útil;
+- `no_card`: fica na E1, sem custo de Anki.
 
-## Gate hard v2 — fechamento bloqueado
-Uma aula nova não fecha com cobertura parcial. O manifesto deve declarar `deck_aula_gate: v2`, inventário atomizado com âncora literal de cada fato E1, pool AnKing consultado por fato e razão de keep/drop. Pelo menos 60% dos fatos nucleares devem entrar como cópia de card real AnKing/deck externo quando há candidatos; um card autoral só é permitido com a rejeição documentada do pool. Todo aprofundamento Step 1 selecionado deve estar na E1 antes da E2, com âncora literal. `gate_deck_aula_completo.py --verify-anki` é bloqueante para E2, PDF e .apkg; `PENDENTE-GERADO` é fila de trabalho, nunca estado de entrega.
+Fundir linhas redundantes. Negrito, `#termo-nota`, sigla e tamanho do subtópico são pistas de extração, não prova de card-worthiness.
+
+## 3. Curar pela ordem de fontes
+
+Para cada `nuclear` e `supporting` selecionado:
+
+1. buscar AnKing;
+2. ler os candidatos e aprovar só os semanticamente exatos;
+3. se faltar, buscar os decks externos adequados;
+4. só então criar NEBLIcard autoral para a lacuna restante.
+
+`curar_anking_v2.py` gera **candidatos**, não uma seleção final automática. O curador registra keep/drop e o conceito exato. Um score de forma nunca substitui esse julgamento.
+
+Se um bom card revelar um aprofundamento pequeno e imediatamente adjacente, incorporar e explicar esse conteúdo na E1 antes de aprovar o card. Se exigir outra aula/pré-requisitos laterais, drop/defer. A corrida normal não materializa parking off-aula; `--emit-parking` existe só para investigação deliberada.
+
+## 4. Fechar a matriz
+
+O manifesto `matriz-deck-aula-<slug>.json` é a lista de admissão:
+
+- `e1_inventory`: todos os conceitos inventariados, com `card_decision`;
+- `facts`: somente conceitos que realmente receberão card;
+- cada rota: `anking | other_deck | own`, `card_refs`, `retrieval_target`, qualidade e justificativa;
+- autoral: `prior_search.anking=insufficient` e `prior_search.other_decks=insufficient` + rejeição dos candidatos;
+- `load_profile`: porte da aula e estimativa real de cards;
+- visual obrigatório: plano/ativo aprovado.
+
+`validate_lesson_coverage.py` exige cobertura de todos os `nuclear`, mas permite que `supporting` seja dispensado e que `no_card` permaneça apenas na E1.
+
+## 5. Montar somente o que foi aprovado
+
+Rodar:
+
+`python flashcards/scripts/montar_deck_aula.py --slug <slug> --deck "NEBLI::<UC>::<Prova>::<Matéria>::<Aula>" --manifest arquivos-trabalho/matriz-deck-aula-<slug>.json`
+
+O script copia das fontes apenas cards cujas referências constam do manifesto. A presença de uma tag antiga `NEBLI::<slug>` não basta.
+
+**Sem AnkiConnect:** materializar o mesmo conjunto aprovado em `flashcards/cards-nebli/<slug>.json` (preservando `source`/tags de proveniência), rodar `empacotar_apkg.py <slug>` e usar o `.apkg` como artefato final. Não rebaixar a curadoria só porque a montagem é offline.
+
+## 6. Hard gate
+
+Antes de E2/PDF/.apkg final:
+
+Com AnkiConnect: `python flashcards/scripts/gate_deck_aula_completo.py ... --verify-anki`.
+
+Offline: `python flashcards/scripts/gate_deck_aula_completo.py ... --verify-apkg "resumos-gerados/<Aula>.apkg"`.
+
+Bloqueia quando:
+
+- algum `nuclear` está sem card;
+- um `no_card` aparece roteado;
+- existe card sem âncora E1;
+- autoral pulou AnKing/outros decks;
+- retrieval target está duplicado;
+- visual `required` não está aprovado;
+- volume >60 não passou revisão explícita de redundância;
+- o deck real não contém os `card_refs` aprovados ou o `.apkg` traz note que não consta do manifesto.
+
+Faixas ~15–25 / ~25–40 / ~35–55 para pequena/média/grande são **guardrails**, não quotas. Ultrapassar a faixa gera revisão, não criação de cards para “preencher” uma meta.
+
+## 7. Uso
+
+Normal: topo `NEBLI`, 25 novos/dia + FSRS. Cram: abrir o subdeck da prova e acelerar temporariamente o restante daquela prova; depois voltar ao preset normal. O agendamento e o histórico são os mesmos.

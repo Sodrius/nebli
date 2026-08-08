@@ -17,18 +17,18 @@ Este diretório contém os dados, scripts e especificações permanentes dos dec
 
 ## Pipeline atual
 
-1. Extrair da E1 uma checklist de conceitos.
-2. Buscar por conteúdo real do card, não apenas pelo caminho de tags.
-3. Ler candidato por candidato e decidir `keep/drop`; a categoria PURA foi abolida.
-4. Preferir AnKing e fontes externas adequadas antes de criar card autoral.
+1. Extrair da E1 uma checklist e classificar `nuclear | supporting | no_card`; extração não decide card-worthiness.
+2. Buscar AnKing apenas para conceitos selecionados, por conteúdo real do card, não apenas pelo caminho de tags.
+3. Ler candidato por candidato e decidir `keep/drop`; `curar_anking_v2.py` só rankeia candidatos.
+4. Para lacunas: procurar decks externos adequados e só então criar card autoral.
 5. Aplicar o gate absoluto E1↔card: nenhum conceito órfão entra no deck-aula.
 6. Produzir card autoral com `build_card.py`, validar com `lint_neblicard.py` e usar card-mirror quando o lote muda de padrão.
 7. Auditar cobertura, redundância, relevância visual e crédito; relatórios são saídas regeneráveis.
-8. Aplicar de forma idempotente, preferencialmente via staging e com rollback; o AnKing original permanece intocado.
+8. Montar somente `card_refs` do manifesto final; o AnKing/decks externos originais permanecem intocados.
 
 ## Regras duráveis de qualidade
 
-- Inglês médico natural por padrão; uma operação de recuperação por card.
+- Frente/cloze autoral em inglês médico natural, Extra em português; uma operação de recuperação por card.
 - Cloze curto no token de maior valor e Extra telegráfico, sem voz de apostila.
 - Imagem específica somente quando melhora reconhecimento ou compreensão; contexto genérico não conta como fechamento visual.
 - Image Occlusion usa fonte apropriada, caixas precisas e crédito real.
