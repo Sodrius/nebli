@@ -64,7 +64,7 @@ NEBLI                        ← deck-mestre "geralzão" (retenção longa; 15 n
 - **Dentro da prova, separação por matéria/componente.** Fica fácil abrir `NEBLI::UC03::P1::Imunologia::` pra cravar só imuno na véspera.
 - **Nome canônico da aula = mesmo nome curto e simples do Drive e do PDF** (ex.: `Ferramentas do diagnóstico radiológico`). Bate em três lugares: pasta no Drive, `.apkg` (`<Aula curta>.apkg`), PDF (`<Aula curta> - Etapas 1 a 3 - <sigla prof>.pdf`).
 - **AnKing intocado.** Fica 100% suspenso como referência; o card de estudo é sempre uma cópia com tudo (campos, imagem, crédito, tags) para a árvore `NEBLI::`.
-- **Ritmo:** 15 novos/dia no topo `NEBLI` (FSRS). Cram por prova via filtered deck (`planejar_modo_prova.py`) — devidos/erros da prova rescheduling ligado; novos por urgência preview, rescheduling desligado.
+- **Ritmo (canon 2026-08-08):** **25 novos/dia no topo `NEBLI`** (era 15; Davi subiu no início do 2º sem porque quer atacar mais volume) + **1 novo/dia no subdeck `NEBLI::Etimologia`** (deck dedicado a raízes/afixos médicos — construção longitudinal separada, ritmo lento e constante). Total efetivo: 26 novos/dia. Cram por prova via filtered deck (`planejar_modo_prova.py`) — devidos/erros da prova rescheduling ligado; novos por urgência preview, rescheduling desligado.
 - **Bandeiras (loop estudo → curadoria):** vermelha (Ctrl+1) = suspende + email dessuspende com 2 parágrafos NEBLI; laranja = "esse card pertence?" → julga ancorado/fora; verde = exemplar (vira `flashcards/EXEMPLARES-CARDS.md`).
 
 **Uso resultante:**

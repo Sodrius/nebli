@@ -13,6 +13,20 @@ nebli-drive:RESUMOS - Davi Sousa/B - Primeiro ano/UC<NN>/<Componente>/<NN - Nome
 - `Biologia Celular, tecidual e imunologia`  (histologia + embriologia + imunologia)
 - `Bioquímica e biologia molecular`  (bioquímica + biologia molecular)
 
+## Componentes (UC-8 Digestório, canon 2026-08-08 — 2º sem 2026)
+- `Anatomia` — id `1UJsKopZu4_ksjJsn69NdTIWahFukPO2q`
+- `Fisiologia` — id `1h3q2XFGY25zMzqGgVLqcwhWCbI2-R7v7`
+- `Biologia Tecidual` — id `1SX2rxGmUMTvgvCOruTmwvPrPN-0mZDx0`
+- `Biologia Celular` — id `1qSt3vsu2vPQzgsRDowmwJdw4tiWTO-0r`
+
+Pastas de aula (Anatomia UC-8, já criadas pelo Davi):
+- `01 - Esôfago, estômago e delgado` — id `1sg4WMtpGzA3LhdZg9M8sXXM0MJkP0llG` (P1)
+- `02 - Intestino grosso e canal anal` — id `1GATNLKY4BG7oR-iCUBtWpuKXjkRA03Pi` (P1)
+- `07 - Vascularização das vísceras` — id `1anr09zp44SG100cQsQ-4jMVk6b0rcM2W` (P1)
+- `11 - Fígado, pâncreas e vias biliares` — id `1g2MAvaZlq8SuvTr1DPSDYtxlM5BVz2bp` (P2)
+- `13 - Cavidade abdominal e peritônio` — id `1OWV6s-dry8hV4a_HoRYNyKWA0Y9eYh84` (P2)
+- `14 - Inervação do digestório` — id `1YLZmqgZVGJmXNNe58tSt2oLSK0VJhH72` (P2)
+
 > Nota: o Drive NÃO tem nível de prova. O Anki (`NEBLI::UC::Prova::Componente::Aula`) é por prova (pra estudo dirigido); o Drive é por componente (arquivo). Os dois **compartilham o nome da aula** — é isso que casa os dois. Não forçar prova no Drive nem componente-separado (bioq/biomol ficam juntos no Drive).
 
 ## Pasta da aula: `NN - <Nome da aula>` (NN = ordem de ensino no componente)
@@ -21,6 +35,11 @@ Conteúdo por aula:
 - **Slide:** `<Nome da aula> - slides - <prof>`
 - **Deck (novo, NEBLI):** `<Nome da aula>.apkg`
 - Extras existentes (não mexer): `RP - Aula N.pdf`, `RT - Aula N.pdf`, `Material Complementar`, `Mapa mental - ...`
+
+## Mapa slug → pasta Drive (UC-8 Digestório, canon 2026-08-08)
+| slug NEBLI | Componente | Pasta da aula |
+|---|---|---|
+| digest-01-esofago-estomago-intestino | Anatomia | `01 - Esôfago, estômago e delgado` |
 
 ## Mapa slug → pasta Drive (UC02, pastas já existentes)
 | slug NEBLI | Componente | Pasta da aula |
