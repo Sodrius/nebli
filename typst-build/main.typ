@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- bioq-10-acao-hormonal | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,37 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Ação hormonal",
+  "Bioquímica e Biologia Molecular",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Bioquímica e Biologia Molecular"),
+    ("Onde estudar", "Lehninger — Princípios de Bioquímica, cap. 12 (sinalização) e cap. 23 (regulação hormonal do metabolismo)"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Do sinal ao segundo mensageiro", (
+      "1.1 Três velocidades de regulação",
+      "1.2 O que define um hormônio",
+      "1.3 Sete pontos de regulação",
+      "1.4 Solubilidade e endereço do receptor",
+      "1.5 A cascata do AMPc",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Insulina e glucagon: o interruptor recíproco", (
+      "2.1 Processamento da pré-pró-insulina",
+      "2.2 A célula beta como sensor de glicemia",
+      "2.3 Farmacologia do canal de potássio",
+      "2.4 Glucagon, o hormônio da escassez",
+      "2.5 Fosforilase e sintase em espelho",
+      "2.6 Desligar também é ativo",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Catecolaminas, tireoidianos e esteroides", (
+      "3.1 Catecolaminas e o mesmo sinal em dois tecidos",
+      "3.2 Hormônios tireoidianos e o gasto basal",
+      "3.3 Esteroides: receptor nuclear e resposta lenta",
+      "3.4 Quando o eixo quebra",
     )),
   )),
 ))
@@ -57,39 +61,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "E"),
+    ("02", "EECE"),
+    ("03", "A"),
+    ("04", "C"),
+    ("05", "ECCE"),
+    ("06", "E"),
+    ("07", "B"),
+    ("08", "A"),
+    ("09", "EEEC"),
+    ("10", "B"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("11", "D"),
+    ("12", "EEEC"),
+    ("13", "B"),
+    ("14", "E"),
+    ("15", "A"),
+    ("16", "CCEE"),
+    ("17", "D"),
+    ("18", "B"),
+    ("19", "CCCE"),
+    ("20", "E"),
+    ("21", "A"),
+    ("22", "ECCC"),
+    ("23", "D"),
+    ("24", "C"),
+    ("25", "EECC"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "A"),
+    ("27", "CECC"),
+    ("28", "D"),
+    ("29", "D"),
+    ("30", "CECC"),
   )),
 ))

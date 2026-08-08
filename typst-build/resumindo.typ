@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("A especificidade está no receptor",
+   [O hormônio circula por todo o corpo e só produz efeito onde existe a proteína capaz de reconhecê-lo em concentração nanomolar. Nenhum hormônio escolhe seu órgão-alvo: quem seleciona é o tecido, ao expressar ou não o receptor.]),
+
+  ("A velocidade está no tipo de alvo",
+   [Hidrossolúvel fica fora, gera segundo mensageiro e muda o estado de enzimas que já existem — resposta em segundos. Lipossolúvel entra, age em receptor nuclear e altera a transcrição — resposta em horas, porque proteína nova precisa ser fabricada.]),
+
+  ("A cascata do AMPc amplifica porque cada degrau é catalítico",
+   [Receptor ocupado ativa várias proteínas G; cada adenilato ciclase produz muitos AMPc; cada PKA fosforila muitos alvos. Como os fatores se multiplicam em vez de somar, poucas moléculas de hormônio mobilizam gramas de glicogênio.]),
+
+  ("Fosforilar é mudar de estado, não ativar",
+   [O sentido da mudança pertence à enzima, não ao fosfato. A mesma PKA ativa a glicogênio fosforilase e inativa a glicogênio sintase — e é essa oposição que impede a célula de construir e destruir a mesma reserva ao mesmo tempo.]),
+
+  ("A célula beta usa a própria glicólise como medidor",
+   [GLUT2 e glicoquinase têm baixa afinidade e não saturam, então a velocidade da glicólise acompanha a glicemia. O ATP resultante fecha o canal de potássio, a membrana despolariza, entra cálcio e os grânulos de insulina são exocitados.]),
+
+  ("Insulina desfosforila; glucagon e adrenalina fosforilam",
+   [A insulina ativa a proteína fosfatase 1, que num só gesto inativa a fosforilase e ativa a sintase. Glucagon e adrenalina elevam o AMPc e fazem o inverso. Desligar o sinal é trabalho ativo de fosfodiesterase e fosfatase.]),
+
+  ("Só o fígado devolve glicose ao sangue",
+   [O músculo não tem glicose-6-fosfatase: a glicose-6-fosfato tirada do seu glicogênio fica presa e é queimada localmente. A glicogenólise muscular sustenta a contração; apenas a hepática sustenta a glicemia.]),
+
+  ("O canal de potássio é alvo farmacológico nos dois sentidos",
+   [Sulfonilureia fecha o canal e força secreção de insulina mesmo sem glicose alta — daí o risco de hipoglicemia. No insulinoma, um agonista mantém o canal aberto, impede a despolarização e contém a secreção até a cirurgia.]),
+
+  ("O peptídeo C separa insulina própria de insulina injetada",
+   [Ele é retirado da pró-insulina e secretado junto com a insulina em quantidade equivalente. Numa hipoglicemia com insulina alta, peptídeo C alto aponta produção endógena; baixo aponta hormônio administrado de fora.]),
+
+  ("Addison e Cushing são o mesmo eixo lido em dois sentidos",
+   [Faltando cortisol, o freio sobre a hipófise some, o ACTH sobe e escurece a pele porque seu início equivale ao hormônio estimulante de melanócitos. Sobrando glicocorticoide, aparecem hiperglicemia, catabolismo muscular e gordura central.]),
 ))

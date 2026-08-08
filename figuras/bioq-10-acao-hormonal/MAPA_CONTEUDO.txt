@@ -1,0 +1,64 @@
+# MAPA_CONTEUDO -- bioq-10-acao-hormonal
+# Slide-fonte: bioq-10-acao-hormonal.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Controle Hormonal deborah@iq.usp.br
+slide-02: • Regulação metabólica • Interferência direta ou indireta nas reações químicas que compõe o organismo. • Aumentando ou diminuindo a velocidade das reações (aumento de substratos ou de metabólitos). • Efeito propagado por todas as vias metabólicas.
+slide-03: Regulação Metabólica Modulação de atividade enzimática Modificação covalente Expressão
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: Integração Metabólica • -Respostas do organismo diante da abundância e escassez de nutrientes. • -Adaptações às oscilações diárias das concentrações de nutrientes. • -Adaptações às necessidades fisiológicas. • Integração a nível celular e do organism...
+slide-06: O que são hormônios? • https://youtu.be/-SPRPkLoKp8
+slide-07: Hormônios - Biomoléculas produzidas em uma parte do corpo que regula funções a distância - Agem em baixas quantidades - Essenciais para organismos multicelulares - Agem por meio de receptores na célula- alvo
+slide-08: Pontos de Regulação Biossíntese → Estocagem → Secreção →Transporte → Reconhecimento → Resposta →Degradação
+slide-09: Eicosanoides Catecolaminas Esteróides Peptídicos Hormônios podem ser classificados de acordo com sua estrutura química
+slide-10: Hormônios podem ser classificados pela maneira na qual são transportados de uma célula para outra
+slide-11: Hormônios Neurotransmissores
+slide-12: Dosagem de hormônios por RIA (Radioimunoensaio)
+slide-13: Tipos de transdutores de sinal
+slide-14: Tipos de transdutores de sinal
+slide-15: Todos os hormônios agem através de receptores de alta afinidade
+slide-16: Amplificação do sinal através de segundos mensageiros como o AMPc - Amplificação do sinal inicial -regulação da atividade intracelular
+slide-17: Classes de hormônios
+slide-18: Eicosanoides Catecolaminas Esteróides Peptídicos Classes de hormônios
+slide-19: Hormônios Peptídicos Insulina Glucagon
+slide-20: Insulina e Glucagon
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: Hormônios peptídicos/proteicos sofrem processamento pós-traducional
+slide-23: Efeito da Insulina no fígado e no músculo
+slide-24: • Transporte de Glicose (para os tecidos)
+slide-25: Glicoquinase e Hexoquinase
+slide-26: Regulação da Secreção da Insulina -Células β possuem GLUT2 -Células β possuem glicoquinase -↑ glicemia = ↑ATP -ATP inibe canais para K+ -Despolarização -Ativação da entrada de Ca2+ -Secreção de insulina -Síntese de insulina https://www.youtube.com/wa...
+slide-27: Sulfoniluréias no Tratamento da DM II -Inibem canais para K+ sensíveis aATP -Aumentam secreção de insulina -Eficazes em resistência periférica a insulina
+slide-28: Agonistas de KATPs na Hiperinsulinemia -Insulinomas levam a hiperinsulinemia e hipoglicemia -Tratamento definitivo = remoção cirúrgica -Tratamento medicamentoso = ativadores de KATPs Hipertensão
+slide-29: Vias de síntese e degradação de glicogênio
+slide-30: Regulação do metabolismo do glicogênio
+slide-31: Regulação da glicogênio fosforilase (degradação do glicogênio)
+slide-32: Glicogênio sintase Glicogênio fosforilase Fosfatase ativa Síntese de glicogênio Regulação do metabolismo do glicogênio
+slide-33: Regulação do metabolismo pela Insulina
+slide-34: Insulina e Glucagon
+slide-35: - Peptídeo com 29 resíduos de aminoácidos - Produzido nas células a das ilhotas de Langerhans - Secreção estimulada por hipoglicemia, epinefrina, aumento de aminoácidos séricos - Secreção inibida por insulina, corpos cetônicos e uréia - Usado cliniam...
+slide-36: Darleen A. Sandoval, David A. D'Alessio Physiological Reviews Published 1 April 2015 Vol. 95 no. 2, 513-548 DOI: 10.1152/physrev.00013.2014 Regulação Pós-tradução
+slide-37: Sinalização do Glucagon
+slide-38: Regulação do metabolismo pelo Glucagon
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: Adrenalina e Noradrenalina sintetizados pela supra-renal funcionam como neurotransmissores (sinápse no cérebro e no músculo) e como como hormônios que regulam o metabolismo no (fígado e no músculo). Tirosina Dopa Dopamina Noradrenalina Adrenalina
+slide-41: By Roland Mattern - Roland1952, Public Domain, https://commons.wikimedia.org/w/index.php?cur id=5902493 Sinalização de epinefrina: resposta a um estresse ambiental/metabólico - Usado clinicamente em parada cardíaca, choque, anafilaxia
+slide-42: Hormônios Tireoidianos •thyroxine (also known as T4 or L-3,5,3',5'- tetraiodothyronine) •triiodothyronine (T3 or L-3,5,3'-triiodothyronine)
+slide-43: Hormônios Tireoidianos
+slide-44: Hormônios Tireoidianos
+slide-45: Hormônios Tireoidianos
+slide-46: [VISUAL -- usar adjacente com titulo extraivel]
+slide-47: Hormônios Esteroides
+slide-48: Hormônios lipossolúveis
+slide-49: Receptores de Hormônios Esteróides
+slide-50: [VISUAL -- usar adjacente com titulo extraivel]
+slide-51: [VISUAL -- usar adjacente com titulo extraivel]
+slide-52: [VISUAL -- usar adjacente com titulo extraivel]
+slide-53: [VISUAL -- usar adjacente com titulo extraivel]
+slide-54: Doença de Addison’s autoimunidade contra o cortex adrenal Doença de Cushing’s hipersecreção de glicocorticóide Glicocorticóides
+slide-55: Disruptores endócrinos
+slide-56: [VISUAL -- usar adjacente com titulo extraivel]

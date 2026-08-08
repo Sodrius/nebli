@@ -1,0 +1,2189 @@
+{
+  "slug": "bioq-10-acao-hormonal",
+  "aula": "Ação hormonal",
+  "uc": "UC03",
+  "componente": "Bioquímica e biologia molecular",
+  "modelo": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+  "idioma": "en",
+  "pipeline_contract": "e1-e2-v1",
+  "fonte": "autoral — AnKing e decks externos inacessíveis neste ambiente (sem AnkiConnect e sem anking-v12-export.txt)",
+  "cards": [
+    {
+      "id": "bioq-10-acao-hormonal-001",
+      "concept_id": "1.1",
+      "topico": "1.1 Tres alavancas de regulacao",
+      "text": "<b>Bioquímica.</b> Allosteric enzymes follow a <b>{{c1::sigmoid}}</b> velocity curve instead of a hyperbolic one.",
+      "extra": "A curva em S torna a enzima um interruptor: dentro de uma faixa estreita de substrato ela sai de quase parada para quase máxima.",
+      "e1_anchor": {
+        "quote": "Enzimas que respondem assim costumam ter curva de velocidade em S, e não a hipérbole clássica de Michaelis-Menten",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-002",
+      "concept_id": "1.1",
+      "topico": "1.1 Tres alavancas de regulacao",
+      "text": "<b>Bioquímica.</b> The enzyme class that reverses kinase action is the <b>{{c1::phosphatases}}</b>.",
+      "extra": "Quinase pendura fosfato usando ATP; fosfatase o devolve à água. O par é o que torna a modificação covalente reversível, e não um carimbo definitivo.",
+      "e1_anchor": {
+        "quote": "Quem pendura é uma quinase, usando ATP como frasco de fosfato; quem retira é uma fosfatase",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-003",
+      "concept_id": "1.1",
+      "topico": "1.1 Tres alavancas de regulacao",
+      "text": "<b>Metabolismo.</b> The regulatory lever that takes hours to act works by changing <b>{{c1::gene expression}}</b>.",
+      "extra": "Alostérico responde no tempo de uma colisão; fosforilação, em segundos; fabricar proteína nova, em horas. A escala de tempo separa as classes de hormônio adiante.",
+      "e1_anchor": {
+        "quote": "Modular alostericamente uma enzima que já existe leva o tempo de uma colisão molecular. Fosforilar uma cascata inteira leva segundos. Fabricar proteína nova leva horas.",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-004",
+      "concept_id": "1.2",
+      "topico": "1.2 Definicao de hormonio",
+      "text": "<b>Endocrinologia.</b> A mediator acting on the very cell that released it is called <b>{{c1::autocrine}}</b>.",
+      "extra": "O mecanismo intracelular é idêntico nos três modos; o que muda é o alcance da entrega — corrente sanguínea, vizinhança ou a própria célula.",
+      "e1_anchor": {
+        "quote": "quando a célula secreta uma molécula que age sobre ela mesma, é autócrina",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-005",
+      "concept_id": "1.2",
+      "topico": "1.2 Definicao de hormonio",
+      "text": "<b>Endocrinologia.</b> A mediator that diffuses only to neighbouring cells acts in a <b>{{c1::paracrine}}</b> fashion.",
+      "extra": "Parácrino não entra na circulação: age onde foi produzido. É o modo típico dos eicosanoides, como as prostaglandinas.",
+      "e1_anchor": {
+        "quote": "Quando ela apenas se difunde para as células vizinhas, sem entrar na circulação, a sinalização é parácrina",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-006",
+      "concept_id": "1.2",
+      "topico": "1.2 Definicao de hormonio",
+      "text": "<b>Endocrinologia.</b> Epinephrine reaching a distant target through blood is a hormone; released at a synapse it is a <b>{{c1::neurotransmitter}}</b>.",
+      "extra": "Mesma molécula, mesmo tipo de receptor — muda apenas a rota de entrega. Mostra que a categoria está no modo de operar, não na estrutura química.",
+      "e1_anchor": {
+        "quote": "a adrenalina é hormônio quando a medula adrenal a lança no sangue e neurotransmissor quando um neurônio a libera numa fenda sináptica",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-007",
+      "concept_id": "1.3",
+      "topico": "1.3 Sete pontos de regulacao",
+      "text": "<b>Endocrinologia.</b> Only the fraction of hormone not bound to carrier protein is <b>{{c1::biologically active}}</b>.",
+      "extra": "A fração ligada funciona como reserva: protege da degradação e vai repondo a fração livre aos poucos. Por isso hormônio muito carreado tem meia-vida longa.",
+      "e1_anchor": {
+        "quote": "só a fração livre é ativa e ela vai sendo reposta aos poucos pela fração ligada",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-008",
+      "concept_id": "1.3",
+      "topico": "1.3 Sete pontos de regulacao",
+      "text": "<b>Endocrinologia.</b> In type 2 diabetes the defect sits mainly at the step of hormone <b>{{c1::recognition}}</b>.",
+      "extra": "O pâncreas fabrica e secreta; quem falha é a célula-alvo. Por isso a sulfonilureia, que age na secreção, ainda ajuda — aumenta a oferta para vencer a resistência.",
+      "e1_anchor": {
+        "quote": "cujas células-alvo respondem mal, falha no reconhecimento, e é exatamente esse o problema central da resistência à insulina",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-009",
+      "concept_id": "1.4",
+      "topico": "1.4 Solubilidade e receptor",
+      "text": "<b>Bioquímica.</b> Steroid hormones cross the membrane unaided since they are <b>{{c1::lipid soluble}}</b>.",
+      "extra": "A membrana é um muro de gordura. Quem se dissolve em gordura passa e encontra o receptor dentro; quem se dissolve em água fica na portaria.",
+      "e1_anchor": {
+        "quote": "Do lado lipossolúvel estão os hormônios esteroides, derivados do colesterol, como o cortisol. Eles atravessam a membrana",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-010",
+      "concept_id": "1.4",
+      "topico": "1.4 Solubilidade e receptor",
+      "text": "<b>Endocrinologia.</b> Despite deriving from tyrosine, thyroid hormones bind a receptor sitting in the <b>{{c1::nucleus}}</b>.",
+      "extra": "É a exceção que testa a regra: o que decide o endereço do receptor não é a origem da molécula, e sim se ela atravessa a membrana. Iodada e apolar, ela atravessa.",
+      "e1_anchor": {
+        "quote": "Origem em aminoácido, mecanismo de esteroide.",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-011",
+      "concept_id": "1.4",
+      "topico": "1.4 Solubilidade e receptor",
+      "text": "<b>Bioquímica.</b> Water-soluble hormones change activity of preexisting enzymes; lipid-soluble ones change the <b>{{c1::amount of protein}}</b>.",
+      "extra": "É a raiz da diferença de velocidade: mudar o estado do que já existe leva segundos; fabricar do zero exige transcrever, traduzir e dobrar.",
+      "e1_anchor": {
+        "quote": "altera a atividade de enzima preexistente",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-012",
+      "concept_id": "1.4",
+      "topico": "1.4 Solubilidade e receptor",
+      "text": "<b>Bioquímica.</b> Prostaglandins are local mediators built from twenty-carbon <b>{{c1::fatty acids}}</b>.",
+      "extra": "Origem lipídica e ação predominantemente parácrina: agem perto de onde nascem, em vez de viajar pelo sangue como a insulina.",
+      "e1_anchor": {
+        "quote": "Os eicosanoides completam o quadro pelo lado lipídico, com atuação predominantemente local",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-013",
+      "concept_id": "1.4",
+      "topico": "1.4 Solubilidade e receptor",
+      "text": "<b>Endocrinologia.</b> A response that requires new protein synthesis starts only after <b>{{c1::hours}}</b>.",
+      "extra": "A lentidão não é defeito: é o custo de transcrever e traduzir. Em troca, o efeito sobrevive à queda do hormônio no sangue.",
+      "e1_anchor": {
+        "quote": "Como o efeito só aparece quando a proteína nova estiver pronta, a resposta demora horas",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-014",
+      "concept_id": "1.5",
+      "topico": "1.5 Cascata do AMPc",
+      "text": "<b>Bioquímica.</b> The G protein stays switched on for as long as it holds <b>{{c1::GTP}}</b>.",
+      "extra": "É um interruptor com temporizador embutido: a própria proteína hidrolisa o GTP em GDP e se desliga sozinha, limitando a duração do sinal.",
+      "e1_anchor": {
+        "quote": "um interruptor que fica ligado enquanto segura GTP e se desliga sozinho quando corta esse GTP em GDP",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-015",
+      "concept_id": "1.5",
+      "topico": "1.5 Cascata do AMPc",
+      "text": "<b>Bioquímica.</b> Adenylyl cyclase turns ATP into the second messenger <b>{{c1::cAMP}}</b>.",
+      "extra": "A enzima fecha o ATP num anel. O segundo mensageiro difunde pelo citoplasma e leva adiante a ordem que o hormônio deixou do lado de fora.",
+      "e1_anchor": {
+        "quote": "uma enzima de membrana que pega ATP e o fecha num anel, produzindo AMPc",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-016",
+      "concept_id": "1.5",
+      "topico": "1.5 Cascata do AMPc",
+      "text": "<b>Bioquímica.</b> Binding of cAMP releases the catalytic subunits of <b>{{c1::PKA}}</b>.",
+      "extra": "Liberada, ela fosforila os alvos do tecido. O repertório de alvos é o que faz o mesmo mensageiro produzir efeitos diferentes em fígado e músculo.",
+      "e1_anchor": {
+        "quote": "ele se difunde pelo citoplasma e ativa a PKA",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-017",
+      "concept_id": "1.5",
+      "topico": "1.5 Cascata do AMPc",
+      "text": "<b>Bioquímica.</b> Cascade amplification multiplies rather than adds since every tier acts <b>{{c1::catalytically}}</b>.",
+      "extra": "Um receptor ocupado ativa várias proteínas G, cada ciclase faz muitos AMPc, cada PKA fosforila muitos alvos. O produto dos degraus é a explosão do efeito.",
+      "e1_anchor": {
+        "quote": "Como cada nível multiplica o anterior em vez de somar, o efeito final é o produto de quatro fatores de amplificação",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-018",
+      "concept_id": "1.5",
+      "topico": "1.5 Cascata do AMPc",
+      "text": "<b>Endocrinologia.</b> Hormone receptors must show high affinity to detect ligand at <b>{{c1::nanomolar concentrations}}</b>.",
+      "extra": "Detectar tão pouco resolve metade do problema; a outra metade é a amplificação em cascata, que transforma poucos eventos de ligação em muito efeito.",
+      "e1_anchor": {
+        "quote": "afinidade alta significa que o receptor consegue capturar seu hormônio mesmo quando ele está presente em concentração nanomolar ou menor",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-019",
+      "concept_id": "2.1",
+      "topico": "2.1 Processamento da insulina",
+      "text": "<b>Bioquímica.</b> The signal peptide of preproinsulin is clipped on entry into the <b>{{c1::endoplasmic reticulum}}</b>.",
+      "extra": "O prefixo pré é apenas um endereço: leva a cadeia recém-sintetizada ao compartimento certo e é cortado assim que ela chega.",
+      "e1_anchor": {
+        "quote": "O prefixo \"pré\" corresponde a um peptídeo-sinal, o endereço que leva a cadeia recém-sintetizada para dentro do retículo endoplasmático",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-020",
+      "concept_id": "2.1",
+      "topico": "2.1 Processamento da insulina",
+      "text": "<b>Bioquímica.</b> Mature insulin holds its two chains together through <b>{{c1::disulfide bonds}}</b>.",
+      "extra": "As pontes se formam ainda na pró-insulina dobrada. Por isso as cadeias A e B continuam unidas depois que o trecho central é removido.",
+      "e1_anchor": {
+        "quote": "mantidas juntas pelas pontes dissulfeto que já haviam se formado",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-021",
+      "concept_id": "2.1",
+      "topico": "2.1 Processamento da insulina",
+      "text": "<b>Bioquímica.</b> Cleavage of proinsulin in the granule yields insulin plus <b>{{c1::C peptide}}</b>.",
+      "extra": "Os dois saem do mesmo precursor e são secretados em quantidade equivalente — o que transforma um subproduto em marcador de produção própria.",
+      "e1_anchor": {
+        "quote": "liberando duas moléculas: a insulina madura ... e o trecho central que foi removido, o peptídeo C",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-022",
+      "concept_id": "2.1",
+      "topico": "2.1 Processamento da insulina",
+      "text": "<b>Endocrinologia.</b> Hypoglycaemia with high insulin and an absent C peptide points to <b>{{c1::injection}}</b>.",
+      "extra": "Insulina aplicada não vem acompanhada de peptídeo C. Peptídeo C alto no mesmo quadro aponta produção endógena, como num tumor de células beta.",
+      "e1_anchor": {
+        "quote": "Insulina aplicada por injeção não vem acompanhada de peptídeo C",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-023",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Beta cells take up sugar through the transporter <b>{{c1::GLUT2}}</b>.",
+      "extra": "Baixa afinidade e sem saturação na faixa fisiológica: quanto mais glicose fora, mais entra. A entrada acompanha a glicemia em vez de travar num teto.",
+      "e1_anchor": {
+        "quote": "A glicose entra na célula beta pelo transportador GLUT2, que tem baixa afinidade e não satura na faixa de glicemia fisiológica",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-024",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> The low-affinity beta-cell enzyme that phosphorylates sugar is <b>{{c1::glucokinase}}</b>.",
+      "extra": "Ela não está ali para gerar energia, e sim para não saturar: com folga para acelerar, sua velocidade vira uma leitura fiel da glicemia.",
+      "e1_anchor": {
+        "quote": "A glicoquinase não está ali para gerar energia; ela está ali justamente para não saturar",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-025",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Glucokinase keeps responding at high sugar because it never reaches <b>{{c1::saturation}}</b>.",
+      "extra": "Uma enzima de alta afinidade já estaria no máximo em glicemia normal e não distinguiria 90 de 180 — as duas dariam a mesma resposta.",
+      "e1_anchor": {
+        "quote": "Uma enzima de alta afinidade, como a hexoquinase dos outros tecidos, já estaria trabalhando na velocidade máxima em glicemia normal",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-026",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Unlike glucokinase, hexokinase is shut down by its own product, <b>{{c1::glucose 6-phosphate}}</b>.",
+      "extra": "A inibição pelo produto é o que impede a hexoquinase de servir como medidor: ela satura cedo e se autolimita.",
+      "e1_anchor": {
+        "quote": "A mesma lógica explica por que o fígado usa glicoquinase",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-027",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Rising ATP inside the beta cell shuts the channel carrying <b>{{c1::potassium}}</b>.",
+      "extra": "É o passo que converte química em elétrica: sem o vazamento do íon, a face interna da membrana deixa de ser mantida negativa.",
+      "e1_anchor": {
+        "quote": "é o ATP que fecha um canal de potássio específico da membrana",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-028",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Closing the potassium channel makes the beta-cell membrane <b>{{c1::depolarise}}</b>.",
+      "extra": "Com o canal fechado o potássio para de sair, a carga interna sobe e a membrana perde o repouso — o gatilho elétrico da secreção.",
+      "e1_anchor": {
+        "quote": "o potássio deixa de vazar para fora, a face interna da membrana fica menos negativa e a célula despolariza",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-029",
+      "concept_id": "2.2",
+      "topico": "2.2 Celula beta como sensor",
+      "text": "<b>Bioquímica.</b> Depolarisation opens voltage-gated channels that admit <b>{{c1::calcium}}</b>.",
+      "extra": "O íon que entra é o gatilho final: dispara a fusão dos grânulos com a membrana e a saída da insulina por exocitose.",
+      "e1_anchor": {
+        "quote": "A despolarização abre canais de cálcio dependentes de voltagem, o cálcio entra, e é o cálcio que dispara a fusão dos grânulos",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-030",
+      "concept_id": "2.3",
+      "topico": "2.3 Farmacologia do canal",
+      "text": "<b>Farmacologia.</b> Sulfonylureas shut the ATP-sensitive potassium channel and raise <b>{{c1::insulin secretion}}</b>.",
+      "extra": "A droga substitui o sensor em vez de obedecê-lo: fecha o canal por conta própria, sem esperar o ATP subir.",
+      "e1_anchor": {
+        "quote": "As sulfonilureias fecham o canal por conta própria, sem esperar que o ATP suba",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-031",
+      "concept_id": "2.3",
+      "topico": "2.3 Farmacologia do canal",
+      "text": "<b>Farmacologia.</b> The characteristic adverse effect of sulfonylureas is <b>{{c1::hypoglycaemia}}</b>.",
+      "extra": "Consequência direta do mecanismo: como a secreção é forçada mesmo com glicemia baixa, o freio fisiológico deixa de existir.",
+      "e1_anchor": {
+        "quote": "o efeito adverso característico é a hipoglicemia: a droga força secreção mesmo quando a glicemia já está baixa",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-032",
+      "concept_id": "2.3",
+      "topico": "2.3 Farmacologia do canal",
+      "text": "<b>Farmacologia.</b> Sulfonylureas only work while there is residual functioning <b>{{c1::beta cells}}</b>.",
+      "extra": "A droga estimula quem ainda existe; não repõe hormônio. Por isso serve no diabetes tipo 2, em que a periferia responde mal mas a ilhota ainda produz.",
+      "e1_anchor": {
+        "quote": "desde que ainda haja célula beta funcionante para ser estimulada",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-033",
+      "concept_id": "2.3",
+      "topico": "2.3 Farmacologia do canal",
+      "text": "<b>Endocrinologia.</b> In a beta-cell tumour, hypoglycaemia coexists with inappropriately high <b>{{c1::insulin}}</b>.",
+      "extra": "Secreção autônoma ignora a glicemia. O tratamento definitivo é cirúrgico; enquanto isso, abrir o canal de potássio contém a secreção.",
+      "e1_anchor": {
+        "quote": "um tumor de células beta que secreta insulina de forma autônoma e produz hipoglicemia com insulina inapropriadamente alta",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-034",
+      "concept_id": "2.3",
+      "topico": "2.3 Farmacologia do canal",
+      "text": "<b>Farmacologia.</b> Holding the ATP-sensitive potassium channel open stops the membrane from <b>{{c1::depolarising}}</b>.",
+      "extra": "É a imagem espelhada da sulfonilureia: mesmo canal, sentido contrário. Sem despolarização não entra cálcio, e a secreção é contida.",
+      "e1_anchor": {
+        "quote": "um agonista do canal de potássio, que o mantém aberto ... a membrana não despolariza, o cálcio não entra e a secreção é contida",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-035",
+      "concept_id": "2.4",
+      "topico": "2.4 Glucagon",
+      "text": "<b>Endocrinologia.</b> Glucagon is made by the islet cells named <b>{{c1::alpha}}</b>.",
+      "extra": "Os dois sinais opostos nascem lado a lado, no mesmo microambiente da ilhota — o que facilita a coordenação entre eles.",
+      "e1_anchor": {
+        "quote": "produzido pelas células alfa das mesmas ilhotas de Langerhans que abrigam as células beta",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-036",
+      "concept_id": "2.4",
+      "topico": "2.4 Glucagon",
+      "text": "<b>Endocrinologia.</b> A protein-rich, carbohydrate-poor meal raises glucagon, guarding against <b>{{c1::low blood sugar}}</b>.",
+      "extra": "A refeição proteica sobe a insulina, que jogaria a glicemia para baixo. A subida simultânea de glucagon é o contrapeso — por isso bife puro não derruba o açúcar.",
+      "e1_anchor": {
+        "quote": "a subida simultânea de glucagon protege contra essa hipoglicemia. É a razão pela qual comer bife puro não derruba o açúcar",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-037",
+      "concept_id": "2.4",
+      "topico": "2.4 Glucagon",
+      "text": "<b>Endocrinologia.</b> Ketone bodies and urea suppress glucagon <b>{{c1::secretion}}</b>.",
+      "extra": "São sinais de que combustível alternativo já está disponível ou de que a quebra de proteína foi longe demais — não faz sentido mobilizar mais.",
+      "e1_anchor": {
+        "quote": "a secreção é inibida pela própria insulina, por corpos cetônicos e pela ureia",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-038",
+      "concept_id": "2.4",
+      "topico": "2.4 Glucagon",
+      "text": "<b>Farmacologia.</b> Injected glucagon rescues severe hypoglycaemia when the oral route is <b>{{c1::unavailable}}</b>.",
+      "extra": "O hormônio mobiliza reserva hepática e eleva a glicemia em minutos, sem depender de o paciente conseguir engolir.",
+      "e1_anchor": {
+        "quote": "faz do glucagon injetável o socorro para uma hipoglicemia grave em que não se consegue dar açúcar por via oral",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-039",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Phosphorylation turns glycogen phosphorylase into its <b>{{c1::active}}</b> form.",
+      "extra": "Mesmo fosfato, sentidos opostos nas duas enzimas do glicogênio — é essa oposição que impede síntese e degradação simultâneas.",
+      "e1_anchor": {
+        "quote": "Fosforilar a fosforilase a ativa; fosforilar a sintase a inativa",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-040",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Phosphorylation of glycogen synthase leaves the enzyme <b>{{c1::inactive}}</b>.",
+      "extra": "O sentido da mudança é propriedade da enzima, não do fosfato. Quem guarda \"fosforilou, ligou\" conclui errado que glucagon estimula síntese de glicogênio.",
+      "e1_anchor": {
+        "quote": "A mesma PKA, na mesma célula, no mesmo instante, ativa a glicogênio fosforilase e inativa a glicogênio sintase",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-041",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Coordinated control of glycogen spares the cell a wasteful <b>{{c1::futile cycle}}</b>.",
+      "extra": "Construir e destruir o mesmo polímero ao mesmo tempo só gastaria ATP. A reciprocidade garante que apenas um sentido esteja ligado por vez.",
+      "e1_anchor": {
+        "quote": "Essa reciprocidade é o que impede o desperdício de um ciclo fútil",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-042",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> In muscle, phosphorylase is allosterically switched on by rising <b>{{c1::AMP}}</b>.",
+      "extra": "AMP alto denuncia consumo de ATP. Assim o músculo quebra glicogênio no início do esforço, antes mesmo de qualquer hormônio chegar.",
+      "e1_anchor": {
+        "quote": "o AMP faz o contrário, empurrando a enzima para a forma relaxada e ativa, porque AMP alto significa que o ATP está sendo consumido",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-043",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> ATP and glucose 6-phosphate push muscle phosphorylase towards the <b>{{c1::T state}}</b>.",
+      "extra": "São os sinais de fartura energética local: com energia sobrando, não há motivo para abrir a reserva.",
+      "e1_anchor": {
+        "quote": "ATP e glicose-6-fosfato favorecem a forma tensa, menos ativa, sinalizando que há energia de sobra",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-044",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> In liver, the allosteric signal that switches phosphorylase off is free <b>{{c1::glucose}}</b>.",
+      "extra": "O fígado quebra glicogênio para servir ao sangue; basta a glicemia estar reposta para ele parar. O músculo, que serve a si, usa outro sensor.",
+      "e1_anchor": {
+        "quote": "no fígado o sensor é outro ... quem regula é a glicose livre, que se liga à forma ativa da enzima e a empurra de volta ao estado inativo",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-045",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Muscle keeps its sugar inside since it lacks <b>{{c1::glucose 6-phosphatase}}</b>.",
+      "extra": "A carga do fosfato impede a saída pela membrana. Por isso a glicogenólise muscular sustenta a contração e só a hepática sustenta a glicemia.",
+      "e1_anchor": {
+        "quote": "O músculo não possui glicose-6-fosfatase. A glicose-6-fosfato que ele obtém do próprio glicogênio fica presa dentro da célula",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-046",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Insulin switches glycogen synthase on by promoting its <b>{{c1::dephosphorylation}}</b>.",
+      "extra": "A insulina não precisa de via separada para cada enzima: remove os fosfatos, e a reciprocidade já existente entre fosforilase e sintase faz o resto.",
+      "e1_anchor": {
+        "quote": "ela promove a remoção dos fosfatos, e a reciprocidade que já existia entre as duas enzimas faz o resto",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-047",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Insulin increases muscle and fat sugar uptake by recruiting the transporter <b>{{c1::GLUT4}}</b>.",
+      "extra": "É o transportador dependente de insulina: sem o hormônio ele fica guardado em vesículas. Explica por que músculo e adiposo captam pouco no jejum.",
+      "e1_anchor": {
+        "quote": "aumenta a captação de glicose pelo transportador GLUT4 no músculo e no tecido adiposo",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-048",
+      "concept_id": "2.5",
+      "topico": "2.5 Fosforilase e sintase",
+      "text": "<b>Bioquímica.</b> Insulin lowers plasma triacylglycerol by inducing the endothelial enzyme <b>{{c1::lipoprotein lipase}}</b>.",
+      "extra": "A enzima quebra o triacilglicerol das lipoproteínas na parede do vaso, liberando ácidos graxos para o tecido estocar.",
+      "e1_anchor": {
+        "quote": "Repare que o hormônio não faz uma coisa só",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-049",
+      "concept_id": "2.6",
+      "topico": "2.6 Desligar o sinal",
+      "text": "<b>Bioquímica.</b> The enzyme that ends the cAMP signal by opening its ring is a <b>{{c1::phosphodiesterase}}</b>.",
+      "extra": "Sem segundo mensageiro, a quinase volta ao estado inibido e a cascata para de escrever novos fosfatos — mas os já pendurados continuam lá.",
+      "e1_anchor": {
+        "quote": "A primeira é a fosfodiesterase, que abre o anel do AMPc e o converte em AMP comum",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-050",
+      "concept_id": "2.6",
+      "topico": "2.6 Desligar o sinal",
+      "text": "<b>Bioquímica.</b> Stripping phosphate groups off the glycogen enzymes is the job of <b>{{c1::PP1}}</b>.",
+      "extra": "São necessárias duas apagadoras em momentos diferentes: uma corta o mensageiro, a outra desfaz a mensagem que já tinha sido escrita.",
+      "e1_anchor": {
+        "quote": "a PP1, que remove os fosfatos já pendurados",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-051",
+      "concept_id": "2.6",
+      "topico": "2.6 Desligar o sinal",
+      "text": "<b>Bioquímica.</b> Activating PP1 shuts down breakdown and at the same time turns on <b>{{c1::synthesis}}</b>.",
+      "extra": "Um só gesto, dois efeitos opostos — porque desfosforilar inativa a fosforilase e ativa a sintase. É como a insulina fecha o circuito.",
+      "e1_anchor": {
+        "quote": "Quebra desligada e síntese ligada, com um único movimento",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-052",
+      "concept_id": "3.1",
+      "topico": "3.1 Catecolaminas",
+      "text": "<b>Bioquímica.</b> The precursor amino acid for catecholamine synthesis is <b>{{c1::tyrosine}}</b>.",
+      "extra": "Via curta e bem definida, com quatro conversões até a adrenalina. A origem em aminoácido não impede o hormônio de agir por receptor de superfície.",
+      "e1_anchor": {
+        "quote": "Ela pertence às catecolaminas, sintetizadas a partir da tirosina numa via curta e bem definida",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-053",
+      "concept_id": "3.1",
+      "topico": "3.1 Catecolaminas",
+      "text": "<b>Bioquímica.</b> The rate-limiting step of catecholamine synthesis is run by tyrosine <b>{{c1::hydroxylase}}</b>.",
+      "extra": "O primeiro passo determina o quanto de catecolamina o tecido consegue produzir — é ali que a produção é regulada.",
+      "e1_anchor": {
+        "quote": "o passo inicial, catalisado pela tirosina hidroxilase, é o passo limitante da velocidade",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-054",
+      "concept_id": "3.1",
+      "topico": "3.1 Catecolaminas",
+      "text": "<b>Bioquímica.</b> Dopamine appears when DOPA undergoes <b>{{c1::decarboxylation}}</b>.",
+      "extra": "Tirosina vira dopa por hidroxilação, dopa vira dopamina por perda do grupo carboxila, e dopamina segue para noradrenalina.",
+      "e1_anchor": {
+        "quote": "a dopa é descarboxilada e vira dopamina",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-055",
+      "concept_id": "3.1",
+      "topico": "3.1 Catecolaminas",
+      "text": "<b>Endocrinologia.</b> The final methylation step happens almost only in the <b>{{c1::adrenal medulla}}</b>.",
+      "extra": "Por isso ela é a fonte da adrenalina circulante, enquanto os neurônios liberam sobretudo noradrenalina.",
+      "e1_anchor": {
+        "quote": "a última conversão, de noradrenalina em adrenalina, ocorre essencialmente na medula da glândula adrenal",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-056",
+      "concept_id": "3.1",
+      "topico": "3.1 Catecolaminas",
+      "text": "<b>Farmacologia.</b> Epinephrine is used clinically in cardiac arrest, shock and <b>{{c1::anaphylaxis}}</b>.",
+      "extra": "Nos três cenários buscam-se os mesmos efeitos — coração acelerado, via aérea dilatada, fluxo redistribuído — obtidos em segundos pela cascata do AMPc.",
+      "e1_anchor": {
+        "quote": "faz da adrenalina uma droga de emergência, usada em parada cardíaca, choque e anafilaxia",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-057",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> The thyroid hormone form that actually acts inside target tissues is <b>{{c1::T3}}</b>.",
+      "extra": "A tireoide secreta sobretudo T4; o hormônio ativo é gerado no próprio tecido, o que dá a cada órgão controle local sobre a dose que recebe.",
+      "e1_anchor": {
+        "quote": "a molécula que efetivamente age nos tecidos é a tri-iodotironina, o T3",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-058",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Bioquímica.</b> The enzymes converting T4 into its active form are the <b>{{c1::deiodinases}}</b>.",
+      "extra": "Elas retiram um átomo de iodo dentro do tecido-alvo. É uma camada de controle que escapa ao comando da glândula.",
+      "e1_anchor": {
+        "quote": "Enzimas chamadas desiodases retiram um iodo do T4 já dentro do tecido-alvo",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-059",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> Because T4 circulates abundantly with a long half-life, it behaves as a <b>{{c1::reservoir}}</b>.",
+      "extra": "O estoque circulante amortece oscilações: cada tecido saca dele a quantidade de hormônio ativo que quiser, quando quiser.",
+      "e1_anchor": {
+        "quote": "o T4 funciona como um reservatório circulante de meia-vida longa",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-060",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> On DNA the thyroid hormone receptor pairs up with <b>{{c1::RXR}}</b>.",
+      "extra": "O par se instala sobre a região reguladora do gene e altera a transcrição — mecanismo de esteroide, apesar da origem em aminoácido.",
+      "e1_anchor": {
+        "quote": "liga-se ao seu receptor, que se associa a um parceiro sobre a região reguladora do gene, e altera a transcrição",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-061",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> Cold intolerance, weight gain and constipation mark a thyroid state that is <b>{{c1::underactive}}</b>.",
+      "extra": "Não é lista para decorar: com o gasto basal derrubado, tudo desacelera junto — trânsito, batimento, raciocínio, depuração de colesterol.",
+      "e1_anchor": {
+        "quote": "No hipotireoidismo, com pouco hormônio, o gasto cai e o corpo desacelera em várias frentes ao mesmo tempo",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-062",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> Heat intolerance, weight loss and tremor mark a thyroid state that is <b>{{c1::overactive}}</b>.",
+      "extra": "O mesmo eixo lido no sentido oposto: com a taxa metabólica alta, o paciente perde peso apesar de comer mais.",
+      "e1_anchor": {
+        "quote": "No hipertireoidismo, tudo acelera: perda de peso apesar do apetite aumentado",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-063",
+      "concept_id": "3.2",
+      "topico": "3.2 Hormonios tireoidianos",
+      "text": "<b>Endocrinologia.</b> Thyroid hormone sets the resting <b>{{c1::metabolic rate}}</b>.",
+      "extra": "Ele age como termostato: mexe no nível em que a máquina inteira funciona, e por isso a doença tireoidiana produz sintomas espalhados.",
+      "e1_anchor": {
+        "quote": "os hormônios tireoidianos são o ajuste fino do termostato — mexem no nível em que a máquina inteira funciona",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-064",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Bioquímica.</b> Every steroid hormone is built from <b>{{c1::cholesterol}}</b>.",
+      "extra": "A origem lipídica é o que permite atravessar a membrana sem transportador e encontrar o receptor já dentro da célula.",
+      "e1_anchor": {
+        "quote": "o representante dos hormônios esteroides, todos derivados do colesterol",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-065",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Bioquímica.</b> Before ligand arrives, the steroid receptor is held inactive by a <b>{{c1::chaperone}}</b>.",
+      "extra": "A chegada do esteroide desfaz essa associação e muda o formato do receptor — o primeiro passo da sequência que termina em transcrição.",
+      "e1_anchor": {
+        "quote": "esse receptor fica preso a proteínas acompanhantes que o mantêm inativo; a chegada do esteroide desfaz essa associação",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-066",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Bioquímica.</b> Two hormone-receptor complexes join on DNA as a <b>{{c1::dimer}}</b>.",
+      "extra": "É o par, não a unidade solta, que reconhece a sequência reguladora do gene-alvo.",
+      "e1_anchor": {
+        "quote": "Dois complexos hormônio-receptor se juntam formando um dímero",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-067",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Bioquímica.</b> The short DNA stretch read by the hormone-receptor complex is the <b>{{c1::response element}}</b>.",
+      "extra": "É o endereço que define quais genes aquele hormônio controla — a especificidade da resposta lenta mora aqui.",
+      "e1_anchor": {
+        "quote": "o elemento de resposta",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-068",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Bioquímica.</b> Full switching on of transcription needs recruitment of <b>{{c1::coactivators}}</b>.",
+      "extra": "Ligar no DNA não basta: o complexo precisa chamar as proteínas que efetivamente acionam a maquinaria de transcrição.",
+      "e1_anchor": {
+        "quote": "ele recruta proteínas coativadoras, e o conjunto liga a transcrição daquele gene",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-069",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Endocrinologia.</b> The pituitary hormone driving cortisol output is <b>{{c1::ACTH}}</b>.",
+      "extra": "O hipotálamo estimula a hipófise, a hipófise estimula o córtex adrenal, e o cortisol produzido volta inibindo os dois andares acima.",
+      "e1_anchor": {
+        "quote": "que libera ACTH para o córtex da adrenal; e o cortisol produzido volta inibindo os dois andares acima",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-070",
+      "concept_id": "3.3",
+      "topico": "3.3 Cortisol e receptor nuclear",
+      "text": "<b>Endocrinologia.</b> Cortisol supplies gluconeogenic substrate by breaking down <b>{{c1::muscle protein}}</b>.",
+      "extra": "O fio condutor é mobilizar substrato para um período de demanda: aminoácidos saem do músculo e viram glicose no fígado.",
+      "e1_anchor": {
+        "quote": "favorece a quebra de proteína no músculo para fornecer aminoácidos à produção hepática de glicose",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-071",
+      "concept_id": "3.4",
+      "topico": "3.4 Quando o eixo quebra",
+      "text": "<b>Endocrinologia.</b> Autoimmune destruction of the adrenal cortex defines <b>{{c1::Addison disease}}</b>.",
+      "extra": "Sem cortisol, o freio sobre os andares de cima desaparece e o comando hipofisário dispara.",
+      "e1_anchor": {
+        "quote": "Na doença de Addison, o córtex adrenal é destruído — classicamente por um ataque autoimune contra o próprio tecido",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-072",
+      "concept_id": "3.4",
+      "topico": "3.4 Quando o eixo quebra",
+      "text": "<b>Endocrinologia.</b> Skin darkening in primary adrenal failure follows the shared sequence between ACTH and <b>{{c1::MSH}}</b>.",
+      "extra": "Os primeiros aminoácidos do ACTH correspondem ao hormônio estimulante de melanócitos. O achado é o excesso do hormônio de cima ficando visível na pele.",
+      "e1_anchor": {
+        "quote": "Os primeiros aminoácidos da molécula de ACTH correspondem ao hormônio estimulante de melanócitos",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-073",
+      "concept_id": "3.4",
+      "topico": "3.4 Quando o eixo quebra",
+      "text": "<b>Endocrinologia.</b> Central obesity, muscle wasting and hyperglycaemia describe an excess of <b>{{c1::glucocorticoid}}</b>.",
+      "extra": "Nada disso precisa ser decorado: são as funções normais do hormônio levadas ao exagero e mantidas no tempo.",
+      "e1_anchor": {
+        "quote": "Os achados são o efeito fisiológico do cortisol levado ao exagero e mantido no tempo",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-074",
+      "concept_id": "3.4",
+      "topico": "3.4 Quando o eixo quebra",
+      "text": "<b>Farmacologia.</b> Long-term steroid therapy suppresses the axis, so withdrawal has to be <b>{{c1::gradual}}</b>.",
+      "extra": "Com hormônio vindo do comprimido, o córtex adrenal atrofia. Parar de repente deixa o paciente agudamente sem cortisol, como num Addison.",
+      "e1_anchor": {
+        "quote": "Por isso a retirada é feita em degraus, dando tempo para o eixo religar",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    },
+    {
+      "id": "bioq-10-acao-hormonal-075",
+      "concept_id": "3.4",
+      "topico": "3.4 Quando o eixo quebra",
+      "text": "<b>Endocrinologia.</b> An environmental molecule that occupies a hormone receptor without switching it on acts as a <b>{{c1::blocker}}</b>.",
+      "extra": "A precisão do sistema é também sua fragilidade: um receptor que reconhece nanomolar é, por construção, sensível a impostores.",
+      "e1_anchor": {
+        "quote": "outros ocupam o receptor sem ativá-lo e impedem o hormônio verdadeiro de trabalhar",
+        "arquivo": "typst-build/etapa1.typ"
+      },
+      "papel": "core_atomic",
+      "objetivo": "fmusp+step1",
+      "idioma": "en",
+      "visual_need": "none",
+      "image_role": "none",
+      "visual_task": "conceito verbal — sem alvo de reconhecimento visual",
+      "image_status": "not_required",
+      "card_mode": "cloze",
+      "placement": "text",
+      "tags": [
+        "NEBLI::bioq-10-acao-hormonal",
+        "NEBLI::gerado"
+      ]
+    }
+  ],
+  "gerados": [
+    {
+      "Text": "<b>Bioquímica.</b> Allosteric enzymes follow a <b>{{c1::sigmoid}}</b> velocity curve instead of a hyperbolic one.",
+      "Extra": "A curva em S torna a enzima um interruptor: dentro de uma faixa estreita de substrato ela sai de quase parada para quase máxima.",
+      "Topico": "1.1 Tres alavancas de regulacao"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The enzyme class that reverses kinase action is the <b>{{c1::phosphatases}}</b>.",
+      "Extra": "Quinase pendura fosfato usando ATP; fosfatase o devolve à água. O par é o que torna a modificação covalente reversível, e não um carimbo definitivo.",
+      "Topico": "1.1 Tres alavancas de regulacao"
+    },
+    {
+      "Text": "<b>Metabolismo.</b> The regulatory lever that takes hours to act works by changing <b>{{c1::gene expression}}</b>.",
+      "Extra": "Alostérico responde no tempo de uma colisão; fosforilação, em segundos; fabricar proteína nova, em horas. A escala de tempo separa as classes de hormônio adiante.",
+      "Topico": "1.1 Tres alavancas de regulacao"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> A mediator acting on the very cell that released it is called <b>{{c1::autocrine}}</b>.",
+      "Extra": "O mecanismo intracelular é idêntico nos três modos; o que muda é o alcance da entrega — corrente sanguínea, vizinhança ou a própria célula.",
+      "Topico": "1.2 Definicao de hormonio"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> A mediator that diffuses only to neighbouring cells acts in a <b>{{c1::paracrine}}</b> fashion.",
+      "Extra": "Parácrino não entra na circulação: age onde foi produzido. É o modo típico dos eicosanoides, como as prostaglandinas.",
+      "Topico": "1.2 Definicao de hormonio"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Epinephrine reaching a distant target through blood is a hormone; released at a synapse it is a <b>{{c1::neurotransmitter}}</b>.",
+      "Extra": "Mesma molécula, mesmo tipo de receptor — muda apenas a rota de entrega. Mostra que a categoria está no modo de operar, não na estrutura química.",
+      "Topico": "1.2 Definicao de hormonio"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Only the fraction of hormone not bound to carrier protein is <b>{{c1::biologically active}}</b>.",
+      "Extra": "A fração ligada funciona como reserva: protege da degradação e vai repondo a fração livre aos poucos. Por isso hormônio muito carreado tem meia-vida longa.",
+      "Topico": "1.3 Sete pontos de regulacao"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> In type 2 diabetes the defect sits mainly at the step of hormone <b>{{c1::recognition}}</b>.",
+      "Extra": "O pâncreas fabrica e secreta; quem falha é a célula-alvo. Por isso a sulfonilureia, que age na secreção, ainda ajuda — aumenta a oferta para vencer a resistência.",
+      "Topico": "1.3 Sete pontos de regulacao"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Steroid hormones cross the membrane unaided since they are <b>{{c1::lipid soluble}}</b>.",
+      "Extra": "A membrana é um muro de gordura. Quem se dissolve em gordura passa e encontra o receptor dentro; quem se dissolve em água fica na portaria.",
+      "Topico": "1.4 Solubilidade e receptor"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Despite deriving from tyrosine, thyroid hormones bind a receptor sitting in the <b>{{c1::nucleus}}</b>.",
+      "Extra": "É a exceção que testa a regra: o que decide o endereço do receptor não é a origem da molécula, e sim se ela atravessa a membrana. Iodada e apolar, ela atravessa.",
+      "Topico": "1.4 Solubilidade e receptor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Water-soluble hormones change activity of preexisting enzymes; lipid-soluble ones change the <b>{{c1::amount of protein}}</b>.",
+      "Extra": "É a raiz da diferença de velocidade: mudar o estado do que já existe leva segundos; fabricar do zero exige transcrever, traduzir e dobrar.",
+      "Topico": "1.4 Solubilidade e receptor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Prostaglandins are local mediators built from twenty-carbon <b>{{c1::fatty acids}}</b>.",
+      "Extra": "Origem lipídica e ação predominantemente parácrina: agem perto de onde nascem, em vez de viajar pelo sangue como a insulina.",
+      "Topico": "1.4 Solubilidade e receptor"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> A response that requires new protein synthesis starts only after <b>{{c1::hours}}</b>.",
+      "Extra": "A lentidão não é defeito: é o custo de transcrever e traduzir. Em troca, o efeito sobrevive à queda do hormônio no sangue.",
+      "Topico": "1.4 Solubilidade e receptor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The G protein stays switched on for as long as it holds <b>{{c1::GTP}}</b>.",
+      "Extra": "É um interruptor com temporizador embutido: a própria proteína hidrolisa o GTP em GDP e se desliga sozinha, limitando a duração do sinal.",
+      "Topico": "1.5 Cascata do AMPc"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Adenylyl cyclase turns ATP into the second messenger <b>{{c1::cAMP}}</b>.",
+      "Extra": "A enzima fecha o ATP num anel. O segundo mensageiro difunde pelo citoplasma e leva adiante a ordem que o hormônio deixou do lado de fora.",
+      "Topico": "1.5 Cascata do AMPc"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Binding of cAMP releases the catalytic subunits of <b>{{c1::PKA}}</b>.",
+      "Extra": "Liberada, ela fosforila os alvos do tecido. O repertório de alvos é o que faz o mesmo mensageiro produzir efeitos diferentes em fígado e músculo.",
+      "Topico": "1.5 Cascata do AMPc"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Cascade amplification multiplies rather than adds since every tier acts <b>{{c1::catalytically}}</b>.",
+      "Extra": "Um receptor ocupado ativa várias proteínas G, cada ciclase faz muitos AMPc, cada PKA fosforila muitos alvos. O produto dos degraus é a explosão do efeito.",
+      "Topico": "1.5 Cascata do AMPc"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Hormone receptors must show high affinity to detect ligand at <b>{{c1::nanomolar concentrations}}</b>.",
+      "Extra": "Detectar tão pouco resolve metade do problema; a outra metade é a amplificação em cascata, que transforma poucos eventos de ligação em muito efeito.",
+      "Topico": "1.5 Cascata do AMPc"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The signal peptide of preproinsulin is clipped on entry into the <b>{{c1::endoplasmic reticulum}}</b>.",
+      "Extra": "O prefixo pré é apenas um endereço: leva a cadeia recém-sintetizada ao compartimento certo e é cortado assim que ela chega.",
+      "Topico": "2.1 Processamento da insulina"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Mature insulin holds its two chains together through <b>{{c1::disulfide bonds}}</b>.",
+      "Extra": "As pontes se formam ainda na pró-insulina dobrada. Por isso as cadeias A e B continuam unidas depois que o trecho central é removido.",
+      "Topico": "2.1 Processamento da insulina"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Cleavage of proinsulin in the granule yields insulin plus <b>{{c1::C peptide}}</b>.",
+      "Extra": "Os dois saem do mesmo precursor e são secretados em quantidade equivalente — o que transforma um subproduto em marcador de produção própria.",
+      "Topico": "2.1 Processamento da insulina"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Hypoglycaemia with high insulin and an absent C peptide points to <b>{{c1::injection}}</b>.",
+      "Extra": "Insulina aplicada não vem acompanhada de peptídeo C. Peptídeo C alto no mesmo quadro aponta produção endógena, como num tumor de células beta.",
+      "Topico": "2.1 Processamento da insulina"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Beta cells take up sugar through the transporter <b>{{c1::GLUT2}}</b>.",
+      "Extra": "Baixa afinidade e sem saturação na faixa fisiológica: quanto mais glicose fora, mais entra. A entrada acompanha a glicemia em vez de travar num teto.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The low-affinity beta-cell enzyme that phosphorylates sugar is <b>{{c1::glucokinase}}</b>.",
+      "Extra": "Ela não está ali para gerar energia, e sim para não saturar: com folga para acelerar, sua velocidade vira uma leitura fiel da glicemia.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Glucokinase keeps responding at high sugar because it never reaches <b>{{c1::saturation}}</b>.",
+      "Extra": "Uma enzima de alta afinidade já estaria no máximo em glicemia normal e não distinguiria 90 de 180 — as duas dariam a mesma resposta.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Unlike glucokinase, hexokinase is shut down by its own product, <b>{{c1::glucose 6-phosphate}}</b>.",
+      "Extra": "A inibição pelo produto é o que impede a hexoquinase de servir como medidor: ela satura cedo e se autolimita.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Rising ATP inside the beta cell shuts the channel carrying <b>{{c1::potassium}}</b>.",
+      "Extra": "É o passo que converte química em elétrica: sem o vazamento do íon, a face interna da membrana deixa de ser mantida negativa.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Closing the potassium channel makes the beta-cell membrane <b>{{c1::depolarise}}</b>.",
+      "Extra": "Com o canal fechado o potássio para de sair, a carga interna sobe e a membrana perde o repouso — o gatilho elétrico da secreção.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Depolarisation opens voltage-gated channels that admit <b>{{c1::calcium}}</b>.",
+      "Extra": "O íon que entra é o gatilho final: dispara a fusão dos grânulos com a membrana e a saída da insulina por exocitose.",
+      "Topico": "2.2 Celula beta como sensor"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Sulfonylureas shut the ATP-sensitive potassium channel and raise <b>{{c1::insulin secretion}}</b>.",
+      "Extra": "A droga substitui o sensor em vez de obedecê-lo: fecha o canal por conta própria, sem esperar o ATP subir.",
+      "Topico": "2.3 Farmacologia do canal"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> The characteristic adverse effect of sulfonylureas is <b>{{c1::hypoglycaemia}}</b>.",
+      "Extra": "Consequência direta do mecanismo: como a secreção é forçada mesmo com glicemia baixa, o freio fisiológico deixa de existir.",
+      "Topico": "2.3 Farmacologia do canal"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Sulfonylureas only work while there is residual functioning <b>{{c1::beta cells}}</b>.",
+      "Extra": "A droga estimula quem ainda existe; não repõe hormônio. Por isso serve no diabetes tipo 2, em que a periferia responde mal mas a ilhota ainda produz.",
+      "Topico": "2.3 Farmacologia do canal"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> In a beta-cell tumour, hypoglycaemia coexists with inappropriately high <b>{{c1::insulin}}</b>.",
+      "Extra": "Secreção autônoma ignora a glicemia. O tratamento definitivo é cirúrgico; enquanto isso, abrir o canal de potássio contém a secreção.",
+      "Topico": "2.3 Farmacologia do canal"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Holding the ATP-sensitive potassium channel open stops the membrane from <b>{{c1::depolarising}}</b>.",
+      "Extra": "É a imagem espelhada da sulfonilureia: mesmo canal, sentido contrário. Sem despolarização não entra cálcio, e a secreção é contida.",
+      "Topico": "2.3 Farmacologia do canal"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Glucagon is made by the islet cells named <b>{{c1::alpha}}</b>.",
+      "Extra": "Os dois sinais opostos nascem lado a lado, no mesmo microambiente da ilhota — o que facilita a coordenação entre eles.",
+      "Topico": "2.4 Glucagon"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> A protein-rich, carbohydrate-poor meal raises glucagon, guarding against <b>{{c1::low blood sugar}}</b>.",
+      "Extra": "A refeição proteica sobe a insulina, que jogaria a glicemia para baixo. A subida simultânea de glucagon é o contrapeso — por isso bife puro não derruba o açúcar.",
+      "Topico": "2.4 Glucagon"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Ketone bodies and urea suppress glucagon <b>{{c1::secretion}}</b>.",
+      "Extra": "São sinais de que combustível alternativo já está disponível ou de que a quebra de proteína foi longe demais — não faz sentido mobilizar mais.",
+      "Topico": "2.4 Glucagon"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Injected glucagon rescues severe hypoglycaemia when the oral route is <b>{{c1::unavailable}}</b>.",
+      "Extra": "O hormônio mobiliza reserva hepática e eleva a glicemia em minutos, sem depender de o paciente conseguir engolir.",
+      "Topico": "2.4 Glucagon"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Phosphorylation turns glycogen phosphorylase into its <b>{{c1::active}}</b> form.",
+      "Extra": "Mesmo fosfato, sentidos opostos nas duas enzimas do glicogênio — é essa oposição que impede síntese e degradação simultâneas.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Phosphorylation of glycogen synthase leaves the enzyme <b>{{c1::inactive}}</b>.",
+      "Extra": "O sentido da mudança é propriedade da enzima, não do fosfato. Quem guarda \"fosforilou, ligou\" conclui errado que glucagon estimula síntese de glicogênio.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Coordinated control of glycogen spares the cell a wasteful <b>{{c1::futile cycle}}</b>.",
+      "Extra": "Construir e destruir o mesmo polímero ao mesmo tempo só gastaria ATP. A reciprocidade garante que apenas um sentido esteja ligado por vez.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> In muscle, phosphorylase is allosterically switched on by rising <b>{{c1::AMP}}</b>.",
+      "Extra": "AMP alto denuncia consumo de ATP. Assim o músculo quebra glicogênio no início do esforço, antes mesmo de qualquer hormônio chegar.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> ATP and glucose 6-phosphate push muscle phosphorylase towards the <b>{{c1::T state}}</b>.",
+      "Extra": "São os sinais de fartura energética local: com energia sobrando, não há motivo para abrir a reserva.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> In liver, the allosteric signal that switches phosphorylase off is free <b>{{c1::glucose}}</b>.",
+      "Extra": "O fígado quebra glicogênio para servir ao sangue; basta a glicemia estar reposta para ele parar. O músculo, que serve a si, usa outro sensor.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Muscle keeps its sugar inside since it lacks <b>{{c1::glucose 6-phosphatase}}</b>.",
+      "Extra": "A carga do fosfato impede a saída pela membrana. Por isso a glicogenólise muscular sustenta a contração e só a hepática sustenta a glicemia.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Insulin switches glycogen synthase on by promoting its <b>{{c1::dephosphorylation}}</b>.",
+      "Extra": "A insulina não precisa de via separada para cada enzima: remove os fosfatos, e a reciprocidade já existente entre fosforilase e sintase faz o resto.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Insulin increases muscle and fat sugar uptake by recruiting the transporter <b>{{c1::GLUT4}}</b>.",
+      "Extra": "É o transportador dependente de insulina: sem o hormônio ele fica guardado em vesículas. Explica por que músculo e adiposo captam pouco no jejum.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Insulin lowers plasma triacylglycerol by inducing the endothelial enzyme <b>{{c1::lipoprotein lipase}}</b>.",
+      "Extra": "A enzima quebra o triacilglicerol das lipoproteínas na parede do vaso, liberando ácidos graxos para o tecido estocar.",
+      "Topico": "2.5 Fosforilase e sintase"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The enzyme that ends the cAMP signal by opening its ring is a <b>{{c1::phosphodiesterase}}</b>.",
+      "Extra": "Sem segundo mensageiro, a quinase volta ao estado inibido e a cascata para de escrever novos fosfatos — mas os já pendurados continuam lá.",
+      "Topico": "2.6 Desligar o sinal"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Stripping phosphate groups off the glycogen enzymes is the job of <b>{{c1::PP1}}</b>.",
+      "Extra": "São necessárias duas apagadoras em momentos diferentes: uma corta o mensageiro, a outra desfaz a mensagem que já tinha sido escrita.",
+      "Topico": "2.6 Desligar o sinal"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Activating PP1 shuts down breakdown and at the same time turns on <b>{{c1::synthesis}}</b>.",
+      "Extra": "Um só gesto, dois efeitos opostos — porque desfosforilar inativa a fosforilase e ativa a sintase. É como a insulina fecha o circuito.",
+      "Topico": "2.6 Desligar o sinal"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The precursor amino acid for catecholamine synthesis is <b>{{c1::tyrosine}}</b>.",
+      "Extra": "Via curta e bem definida, com quatro conversões até a adrenalina. A origem em aminoácido não impede o hormônio de agir por receptor de superfície.",
+      "Topico": "3.1 Catecolaminas"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The rate-limiting step of catecholamine synthesis is run by tyrosine <b>{{c1::hydroxylase}}</b>.",
+      "Extra": "O primeiro passo determina o quanto de catecolamina o tecido consegue produzir — é ali que a produção é regulada.",
+      "Topico": "3.1 Catecolaminas"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Dopamine appears when DOPA undergoes <b>{{c1::decarboxylation}}</b>.",
+      "Extra": "Tirosina vira dopa por hidroxilação, dopa vira dopamina por perda do grupo carboxila, e dopamina segue para noradrenalina.",
+      "Topico": "3.1 Catecolaminas"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> The final methylation step happens almost only in the <b>{{c1::adrenal medulla}}</b>.",
+      "Extra": "Por isso ela é a fonte da adrenalina circulante, enquanto os neurônios liberam sobretudo noradrenalina.",
+      "Topico": "3.1 Catecolaminas"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Epinephrine is used clinically in cardiac arrest, shock and <b>{{c1::anaphylaxis}}</b>.",
+      "Extra": "Nos três cenários buscam-se os mesmos efeitos — coração acelerado, via aérea dilatada, fluxo redistribuído — obtidos em segundos pela cascata do AMPc.",
+      "Topico": "3.1 Catecolaminas"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> The thyroid hormone form that actually acts inside target tissues is <b>{{c1::T3}}</b>.",
+      "Extra": "A tireoide secreta sobretudo T4; o hormônio ativo é gerado no próprio tecido, o que dá a cada órgão controle local sobre a dose que recebe.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The enzymes converting T4 into its active form are the <b>{{c1::deiodinases}}</b>.",
+      "Extra": "Elas retiram um átomo de iodo dentro do tecido-alvo. É uma camada de controle que escapa ao comando da glândula.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Because T4 circulates abundantly with a long half-life, it behaves as a <b>{{c1::reservoir}}</b>.",
+      "Extra": "O estoque circulante amortece oscilações: cada tecido saca dele a quantidade de hormônio ativo que quiser, quando quiser.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> On DNA the thyroid hormone receptor pairs up with <b>{{c1::RXR}}</b>.",
+      "Extra": "O par se instala sobre a região reguladora do gene e altera a transcrição — mecanismo de esteroide, apesar da origem em aminoácido.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Cold intolerance, weight gain and constipation mark a thyroid state that is <b>{{c1::underactive}}</b>.",
+      "Extra": "Não é lista para decorar: com o gasto basal derrubado, tudo desacelera junto — trânsito, batimento, raciocínio, depuração de colesterol.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Heat intolerance, weight loss and tremor mark a thyroid state that is <b>{{c1::overactive}}</b>.",
+      "Extra": "O mesmo eixo lido no sentido oposto: com a taxa metabólica alta, o paciente perde peso apesar de comer mais.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Thyroid hormone sets the resting <b>{{c1::metabolic rate}}</b>.",
+      "Extra": "Ele age como termostato: mexe no nível em que a máquina inteira funciona, e por isso a doença tireoidiana produz sintomas espalhados.",
+      "Topico": "3.2 Hormonios tireoidianos"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Every steroid hormone is built from <b>{{c1::cholesterol}}</b>.",
+      "Extra": "A origem lipídica é o que permite atravessar a membrana sem transportador e encontrar o receptor já dentro da célula.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Before ligand arrives, the steroid receptor is held inactive by a <b>{{c1::chaperone}}</b>.",
+      "Extra": "A chegada do esteroide desfaz essa associação e muda o formato do receptor — o primeiro passo da sequência que termina em transcrição.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Two hormone-receptor complexes join on DNA as a <b>{{c1::dimer}}</b>.",
+      "Extra": "É o par, não a unidade solta, que reconhece a sequência reguladora do gene-alvo.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> The short DNA stretch read by the hormone-receptor complex is the <b>{{c1::response element}}</b>.",
+      "Extra": "É o endereço que define quais genes aquele hormônio controla — a especificidade da resposta lenta mora aqui.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Bioquímica.</b> Full switching on of transcription needs recruitment of <b>{{c1::coactivators}}</b>.",
+      "Extra": "Ligar no DNA não basta: o complexo precisa chamar as proteínas que efetivamente acionam a maquinaria de transcrição.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> The pituitary hormone driving cortisol output is <b>{{c1::ACTH}}</b>.",
+      "Extra": "O hipotálamo estimula a hipófise, a hipófise estimula o córtex adrenal, e o cortisol produzido volta inibindo os dois andares acima.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Cortisol supplies gluconeogenic substrate by breaking down <b>{{c1::muscle protein}}</b>.",
+      "Extra": "O fio condutor é mobilizar substrato para um período de demanda: aminoácidos saem do músculo e viram glicose no fígado.",
+      "Topico": "3.3 Cortisol e receptor nuclear"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Autoimmune destruction of the adrenal cortex defines <b>{{c1::Addison disease}}</b>.",
+      "Extra": "Sem cortisol, o freio sobre os andares de cima desaparece e o comando hipofisário dispara.",
+      "Topico": "3.4 Quando o eixo quebra"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Skin darkening in primary adrenal failure follows the shared sequence between ACTH and <b>{{c1::MSH}}</b>.",
+      "Extra": "Os primeiros aminoácidos do ACTH correspondem ao hormônio estimulante de melanócitos. O achado é o excesso do hormônio de cima ficando visível na pele.",
+      "Topico": "3.4 Quando o eixo quebra"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> Central obesity, muscle wasting and hyperglycaemia describe an excess of <b>{{c1::glucocorticoid}}</b>.",
+      "Extra": "Nada disso precisa ser decorado: são as funções normais do hormônio levadas ao exagero e mantidas no tempo.",
+      "Topico": "3.4 Quando o eixo quebra"
+    },
+    {
+      "Text": "<b>Farmacologia.</b> Long-term steroid therapy suppresses the axis, so withdrawal has to be <b>{{c1::gradual}}</b>.",
+      "Extra": "Com hormônio vindo do comprimido, o córtex adrenal atrofia. Parar de repente deixa o paciente agudamente sem cortisol, como num Addison.",
+      "Topico": "3.4 Quando o eixo quebra"
+    },
+    {
+      "Text": "<b>Endocrinologia.</b> An environmental molecule that occupies a hormone receptor without switching it on acts as a <b>{{c1::blocker}}</b>.",
+      "Extra": "A precisão do sistema é também sua fragilidade: um receptor que reconhece nanomolar é, por construção, sensível a impostores.",
+      "Topico": "3.4 Quando o eixo quebra"
+    }
+  ]
+}
