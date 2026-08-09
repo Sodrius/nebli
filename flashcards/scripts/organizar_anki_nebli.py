@@ -59,15 +59,15 @@ def main():
             call("suspend", cards=ids)
     print("  total a suspender: %d\n" % total_susp)
     if APPLY:
-        # ritmo: 15 novos/dia no topo NEBLI
+        # ritmo: 25 novos/dia no topo NEBLI
         try:
             cfg = call("getDeckConfig", deck="NEBLI")
-            cfg["new"]["perDay"] = 15
+            cfg["new"]["perDay"] = 25
             cfg["rev"]["perDay"] = 9999
             call("saveDeckConfig", config=cfg)
-            print("novos/dia=15, revisões/dia=9999 salvos no preset '%s' (usado pelo deck NEBLI)." % cfg.get("name","?"))
+            print("novos/dia=25, revisões/dia=9999 salvos no preset '%s' (usado pelo deck NEBLI)." % cfg.get("name","?"))
         except Exception as e:
-            print("!! configurar 15 novos/dia falhou (%s) — setar manual em Opções do deck NEBLI." % e)
+            print("!! configurar 25 novos/dia falhou (%s) — setar manual em Opções do deck NEBLI." % e)
         call("sync")
         print("sync disparado.")
     else:

@@ -1,0 +1,15 @@
+{
+  "pipeline_version": "e1-deck-v3",
+  "generate_e1": true,
+  "generate_resumindo": true,
+  "generate_e2": false,
+  "generate_e3": false,
+  "generate_remnote": false,
+  "require_offline_apkg": true,
+  "require_apkg_audit": true,
+  "require_e1_anchor_for_every_card": true,
+  "source_priority": ["anking", "external_deck", "authored"],
+  "new_cards_per_day": 25,
+  "maximum_reviews_per_day": 9999,
+  "optional_cards_separate": true
+}

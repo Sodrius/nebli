@@ -1,0 +1,55 @@
+{
+  "pipeline_version": "e1-deck-v3",
+  "slug": "histo-01-exemplo",
+  "title": "Aula exemplo",
+  "deck": "NEBLI::UC8::P1::Histologia::Aula exemplo",
+  "optional_deck": "NEBLI::UC8::P1::Histologia::Aula exemplo::Optional",
+  "status": "draft",
+  "e1": {
+    "path": "../../../typst-build/etapa1.typ",
+    "sha256": ""
+  },
+  "private_sources": {
+    "anking_index": {"status": "pending", "path": "", "sha256": ""},
+    "external_indexes": []
+  },
+  "concepts": [
+    {
+      "id": "1.1",
+      "name_pt": "conceito nuclear",
+      "name_en": "nuclear concept",
+      "subtopic": "Subtópico",
+      "origins": ["slide"],
+      "importance": "nuclear",
+      "e1_anchor": "Trecho literal existente na E1.",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "anking",
+        "coverage_quality": 3,
+        "coverage_rationale": "O card reconstrói fato e mecanismo.",
+        "card_refs": ["source-guid-or-stable-ref"],
+        "source_guid": "source-guid-or-stable-ref",
+        "candidate_search": {
+          "anking_count": 1,
+          "external_count": 0,
+          "queries": ["nuclear concept"],
+          "rejection_rationale": ""
+        }
+      },
+      "tags": ["nucleo"]
+    }
+  ]
+}

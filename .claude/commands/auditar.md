@@ -1,23 +1,23 @@
 ---
-description: Roda auditoria textual + visual em um PDF do resumos-gerados/
-argument-hint: <SLUG ou caminho.pdf>
+description: Audita uma entrega E1 + deck-aula já produzida
+argument-hint: <contrato.json> <deck.apkg>
 ---
 
-Argumento recebido: $ARGUMENTS
+# /auditar — gate final E1 + deck
 
-Resolva o PDF:
-- Se o argumento contém `.pdf`, use literal.
-- Senão, assuma `resumos-gerados/<SLUG MAIÚSCULO>.pdf` — converta o slug para maiúsculas e troque `-` por `-` (manter), ex.: `ciclo-krebs` → `resumos-gerados/CICLO-KREBS.pdf`.
+Argumentos: $ARGUMENTS
 
-Localize o `etapa2.typ` correspondente em `typst-build/etapa2.typ` (atual) ou em `arquivos-trabalho/etapas-anteriores/<slug>/etapa2.typ` (histórico).
+Leia o contrato v3, a E1 congelada e os documentos canônicos. Não produza nem
+corrija artefatos durante a revisão. Execute:
 
-Rode em sequência (paralelo onde possível):
+```bash
+python flashcards/scripts/gate_deck_aula_completo.py \
+  <contrato.json> --apkg <deck.apkg>
+```
 
-1. `python typst-build/auditar_pdf.py <pdf>` — auditoria textual (acentos ≥1,5%, paths /figuras/ existem, siglas sem duplicata, Merriweather embarcado).
-2. `python typst-build/auditar_pdf_visual.py <pdf> --etapa2 <etapa2.typ>` — auditoria visual (Resumindo 1-2 pgs, sumário 1 pg, páginas em branco, header sincronizado, cores E2).
-3. Se PDF tiver "CADERNO" no nome: rode também `python typst-build/auditar_caderno_pdf.py <pdf>` e `python typst-build/verificar_gabarito_ordem.py --apenas <pdf>`.
-
-Reporte ao Davi em ≤200 palavras:
-- ✅ PASS / ❌ ERROR / ⚠ WARN para cada auditor
-- Lista enxuta de problemas encontrados (não output bruto)
-- Sugestão de próximo passo (recompilar? aceitar com warnings? bloqueia distribuição?)
+Depois renderize todos os cards autorais e de Image Occlusion, toda mídia
+alterada e uma amostra estratificada das cópias reais. Classifique achados em
+`BLOCK`, `FIX`, `NOTE` ou `FALSE_POSITIVE`. Verifique especialmente: cobertura
+nuclear, âncoras E1, limite do Step 1, origem/GUID, mídia, máscaras, vazamento,
+subdeck Optional, modelos e importabilidade. A auditoria não edita; a sessão
+principal aplica correções e roda o gate novamente.

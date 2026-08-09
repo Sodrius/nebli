@@ -67,6 +67,13 @@ arquivos-trabalho/**/*.jpg
 arquivos-trabalho/**/*.jpeg
 arquivos-trabalho/**/*.pdf
 
+# ---- Fontes privadas e índices locais (AnKing/decks externos) ----
+private-sources/
+flashcards/private-cache/
+*.private.sqlite
+*.private.sqlite-shm
+*.private.sqlite-wal
+
 # ---- Backups (vivem em outro lugar; git ja eh backup) ----
 backups/tecnicos/
 backups/operacoes-fechadas/
