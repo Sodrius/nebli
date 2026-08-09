@@ -10,7 +10,7 @@
 
 #questao-ce("02", badge-consolidacao,
   [A propriedade físico-química da molécula determina o mecanismo de ação hormonal. Julgue os itens:],
-  (("I",   [hormônios peptídicos viajam dissolvidos no plasma e precisam de receptor de superfície na célula-alvo]),
+  (("I",   [o sinal parácrino age na célula vizinha sem entrar na circulação, enquanto o endócrino depende do sangue]),
    ("II",  [hormônios esteroides circulam livres no plasma e por isso têm meia-vida curta, da ordem de minutos]),
    ("III", [a lipossolubilidade do hormônio tireoidiano decorre do aminoácido precursor, e não da iodação do anel]),
    ("IV",  [proteínas carreadoras protegem o hormônio lipossolúvel da degradação e da filtração renal])))
@@ -36,7 +36,7 @@
   (("I",   [eicosanoides como prostaglandinas e tromboxanos derivam do colesterol da membrana plasmática]),
    ("II",  [todos os hormônios esteroides partem do colesterol e compartilham o esqueleto de quatro anéis]),
    ("III", [adrenalina e hormônio tireoidiano têm a tirosina como precursor comum]),
-   ("IV",  [a insulina é sintetizada no ribossomo como precursor maior e sofre processamento pós-traducional])))
+   ("IV",  [a adrenalina é classificada como hormônio ou neurotransmissor pela sua estrutura química, não pelo modo de entrega])))
 
 #questao-mc("06", badge-consolidacao,
   [O peptídeo C tem utilidade clínica que decorre diretamente do modo como a insulina é fabricada. Essa utilidade existe porque:],
@@ -74,7 +74,7 @@
   (("I",   [o cortisol aumenta a captação muscular de glicose e favorece a síntese proteica no músculo esquelético]),
    ("II",  [o passo limitante da síntese de esteroides é a conversão de progesterona em cortisol pela desmolase]),
    ("III", [o cortisol inibe tanto a secreção hipotalâmica de CRH quanto a secreção hipofisária de ACTH]),
-   ("IV",  [antes de ligar o hormônio, o receptor de glicocorticoide permanece no citoplasma preso à HSP90])))
+   ("IV",  [antes de ligar o hormônio, o receptor de glicocorticoide já se encontra ancorado ao DNA aguardando o ligante])))
 
 #questao-mc("11", badge-integracao,
   [Uma sulfonilureia é prescrita a um paciente com diabetes tipo 2 e a glicemia cai. A relação entre o alvo molecular do fármaco e o mecanismo fisiológico da secreção é:],
@@ -134,7 +134,7 @@
   [Um sistema que amplifica o sinal em ordens de grandeza precisa de freios igualmente eficientes. Julgue os itens:],
   (("I",   [a proteína G permanece ativa até que uma fosfatase específica remova o fosfato de sua subunidade alfa]),
    ("II",  [a fosfodiesterase encerra o sinal convertendo o AMP cíclico em 5'-AMP]),
-   ("III", [uma única molécula de hormônio pode resultar em cerca de um milhão de moléculas de produto]),
+   ("III", [a amplificação ocorre porque cada molécula de hormônio é convertida em várias cópias de si mesma]),
    ("IV",  [o estado de uma enzima regulada por fosforilação resulta do equilíbrio entre cinase e fosfatase])))
 
 #questao-mc("19", badge-integracao,
