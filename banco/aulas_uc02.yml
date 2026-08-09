@@ -245,3 +245,10 @@ aulas:
     ordem: 30
     titulo: "Identificação de bactérias patogênicas (aula multimídia)"
     docente: PC
+
+  - slug: bioq-26-controle-hormonal
+    disciplina: Bioquímica
+    prova: P4
+    ordem: 31
+    titulo: "Controle hormonal do metabolismo: mecanismos de ação hormonal"
+    docente: DS

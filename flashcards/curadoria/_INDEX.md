@@ -33,3 +33,4 @@ No **Browse** do Anki, digite a tag-âncora da aula:
 
 ## Notas
 - Entradas novas (método card-a-card) trazem `#cards` reais, `%cobertura` e `lacunas→fonte` preenchidos pelo manifesto da aula.
+| bioq-26-controle-hormonal | ✅ .apkg gerado (sem Anki vivo) | 88 autorais | 14/14 subtópicos rubrica 3 | card-mirror 10/12, 8 reescritas | AnKing/externos não rodaram (ambiente sem coleção) |

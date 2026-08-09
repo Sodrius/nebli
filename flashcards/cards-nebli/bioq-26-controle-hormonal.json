@@ -1,0 +1,635 @@
+{
+ "slug": "bioq-26-controle-hormonal",
+ "deck": "NEBLI::UC02::P4::Bioquímica::Controle Hormonal",
+ "modelo": "AnKingOverhaul (AnKing Step Deck / AnKingMed)",
+ "idioma": "frente EN / Extra PT (canon Davi 2026-07-14)",
+ "origem": "gerado da E1 desta corrida. AnKing indisponível nesta máquina (sem coleção, sem AnkiConnect) -> 100% autoral, calibrado por CARD-MIRROR-RUBRICA.md + lint_neblicard.py. Todo card tem âncora literal na E1 (gate B2).",
+ "tags_padrao": [
+  "NEBLI::bioq-26-controle-hormonal",
+  "NEBLI::gerado"
+ ],
+ "cards": [
+  {
+   "conceito": "1.1",
+   "text": "<b>Biochemistry.</b> The fastest way to change the rate of an enzyme is <b>{{c1::allosteric}}</b> modulation, which acts in the same second the small effector appears.",
+   "extra": "Um efetor pequeno se liga fora do sítio ativo e muda a forma da enzima. Reversível na hora, sem gastar ATP e sem precisar de proteína nova.",
+   "image": "slide-03",
+   "e1_anchor": "1.1 — a regulação alostérica é instantânea e reversível"
+  },
+  {
+   "conceito": "1.1",
+   "text": "<b>Biochemistry.</b> Covalent regulation adds a phosphate group to a serine, a threonine or a <b>{{c1::tyrosine}}</b> residue.",
+   "extra": "A carga negativa do fosfato reorganiza a proteína inteira. Cinase põe, fosfatase tira: o estado da enzima é um empate dinâmico entre as duas.",
+   "image": null,
+   "e1_anchor": "1.1 — uma cinase pendura um grupo fosfato num resíduo de serina, treonina ou tirosina"
+  },
+  {
+   "conceito": "1.1",
+   "text": "<b>Biochemistry.</b> Changing how many copies of an enzyme exist takes <b>{{c1::hours}}</b>, the slowest of the three regulatory levers.",
+   "extra": "Exige transcrição e tradução. É a alavanca dos hormônios nucleares (esteroide, tireoidiano), que demoram mas duram.",
+   "image": null,
+   "e1_anchor": "1.1 — o controle da expressão leva horas"
+  },
+  {
+   "conceito": "1.1",
+   "text": "<b>Biochemistry.</b> Hormone action can fail at seven successive steps, from biosynthesis all the way to <b>{{c1::degradation}}</b>.",
+   "extra": "Biossíntese, estocagem, secreção, transporte, reconhecimento, resposta e degradação. Doença endócrina pode nascer em qualquer um dos sete.",
+   "image": null,
+   "e1_anchor": "1.1 — sete pontos de controle independentes"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Peptide and catecholamine hormones cannot cross the plasma membrane, so they bind receptors on the cell <b>{{c1::surface}}</b>.",
+   "extra": "São hidrossolúveis: viajam livres no plasma e esbarram na bicamada lipídica. Precisam de alguém que leve o recado para dentro.",
+   "image": null,
+   "e1_anchor": "1.2 — precisam de um receptor na superfície"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Steroid and thyroid hormones travel in plasma bound to <b>{{c1::carrier proteins}}</b>, which shields them from renal filtration.",
+   "extra": "Lipossolúvel não dissolve bem em plasma aquoso. Ligado ao carreador, o hormônio fica protegido da degradação, e a meia-vida sobe para horas.",
+   "image": null,
+   "e1_anchor": "1.2 — precisam de proteínas carreadoras no sangue"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Every steroid hormone is built from <b>{{c1::cholesterol}}</b> and keeps the same four-ring skeleton.",
+   "extra": "Cortisol, aldosterona, testosterona, estradiol e progesterona diferem só nos grupos pendurados nos quatro anéis.",
+   "image": "slide-47",
+   "e1_anchor": "1.2 — vêm todos do colesterol"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Catecholamines and thyroid hormones are both built from the amino acid <b>{{c1::tyrosine}}</b>.",
+   "extra": "O que separa as duas famílias é o iodo: tireoidiano é tirosina iodada; catecolamina é tirosina hidroxilada e descarboxilada.",
+   "image": null,
+   "e1_anchor": "1.2 — vêm da tirosina, como as catecolaminas, mas com iodo"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Prostaglandins, thromboxanes and leukotrienes are all made from <b>{{c1::arachidonic acid}}</b>.",
+   "extra": "Ácido graxo de 20 carbonos arrancado da própria membrana. Por nascer ali, o eicosanoide age perto de onde foi produzido.",
+   "image": null,
+   "e1_anchor": "1.2 — vêm do ácido araquidônico"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> Carrier-bound cortisol has a plasma half-life of <b>{{c1::hours}}</b>.",
+   "extra": "Epinefrina livre: minutos. Cortisol ligado a carreador: horas. A proteína carreadora protege da degradação e da filtração renal.",
+   "image": null,
+   "e1_anchor": "1.2 — o lipossolúvel dura horas no plasma"
+  },
+  {
+   "conceito": "1.2",
+   "text": "<b>Biochemistry.</b> A messenger that circulates at nanomolar levels can only work through a receptor of very high <b>{{c1::affinity}}</b>.",
+   "extra": "O substrato de uma enzima comum está em milimolar. O receptor precisa ser cerca de um milhão de vezes mais ávido para capturar algo.",
+   "image": null,
+   "e1_anchor": "1.4 — alta afinidade significa ligação em concentração baixíssima"
+  },
+  {
+   "conceito": "1.3",
+   "text": "<b>Biochemistry.</b> Signaling that reaches only the neighboring cell, without entering the bloodstream, is <b>{{c1::paracrine}}</b>.",
+   "extra": "Percorre micrômetros e chega concentrado, então costuma ser rápido e local. O endócrino é diluído em cinco litros de sangue.",
+   "image": "slide-10",
+   "e1_anchor": "1.3 — age na célula vizinha, sem entrar na circulação"
+  },
+  {
+   "conceito": "1.3",
+   "text": "<b>Biochemistry.</b> When a cell secretes a messenger that binds back onto itself, the signaling is <b>{{c1::autocrine}}</b>.",
+   "extra": "É o bilhete que a célula escreve para si mesma. Mesma química do sinal endócrino, distância zero.",
+   "image": null,
+   "e1_anchor": "1.3 — volta a se ligar em receptores da própria célula"
+  },
+  {
+   "conceito": "1.3",
+   "text": "<b>Biochemistry.</b> Epinephrine in the bloodstream is a hormone; the same molecule released into a synaptic cleft acts as a <b>{{c1::neurotransmitter}}</b>.",
+   "extra": "Não é a molécula que define a categoria, é o modo de entrega. A sinapse entrega concentrado em 20 nm e age em milissegundos.",
+   "image": "slide-11",
+   "e1_anchor": "1.3 — mesma família química, o que muda é o modo de entrega"
+  },
+  {
+   "conceito": "1.3",
+   "text": "<b>Biochemistry.</b> Inside the pancreatic islet, somatostatin is secreted by the <b>{{c1::delta cells}}</b>.",
+   "extra": "Freia as células beta e alfa que estão ao lado, sem entrar na circulação. Exemplo canônico de sinal parácrino.",
+   "image": null,
+   "e1_anchor": "1.3 — a somatostatina, produzida pelas células delta da ilhota"
+  },
+  {
+   "conceito": "1.4",
+   "text": "<b>Biochemistry.</b> A receptor that crosses the membrane seven times and switches on an intracellular GTP-binding protein is the <b>{{c1::G protein-coupled}}</b> receptor.",
+   "extra": "Também chamado 7TM. Não tem atividade enzimática própria: seu trabalho é ativar a proteína G, que liga a enzima geradora do segundo mensageiro.",
+   "image": "slide-13",
+   "e1_anchor": "1.4 — o receptor acoplado à proteína G, também chamado de 7TM"
+  },
+  {
+   "conceito": "1.4",
+   "text": "<b>Biochemistry.</b> The insulin receptor is itself an enzyme: ligand binding triggers <b>{{c1::autophosphorylation}}</b> on tyrosine residues.",
+   "extra": "Duas moléculas do receptor se aproximam e se fosforilam mutuamente. Os fosfatos criados viram pontos de ancoragem para as proteínas seguintes.",
+   "image": null,
+   "e1_anchor": "1.4 — duas moléculas do receptor se aproximam e se fosforilam mutuamente"
+  },
+  {
+   "conceito": "1.4",
+   "text": "<b>Biochemistry.</b> Ligand-gated ion channels change the membrane potential within <b>{{c1::milliseconds}}</b>.",
+   "extra": "O efeito é o próprio íon atravessando o poro, sem enzima intermediária. É a resposta mais rápida da lista de transdutores.",
+   "image": null,
+   "e1_anchor": "1.4 — canal iônico responde em milissegundos"
+  },
+  {
+   "conceito": "1.4",
+   "text": "<b>Biochemistry.</b> Response time belongs to the receptor, not to the messenger: acetylcholine acts in milliseconds at the nicotinic receptor and in <b>{{c1::seconds}}</b> at the muscarinic one.",
+   "extra": "No nicotínico ela abre um canal; no muscarínico, ativa uma proteína G que precisa gerar segundo mensageiro. Mesmo mensageiro, dois tempos.",
+   "image": "slide-14",
+   "e1_anchor": "1.4 — o tempo de resposta é do receptor, não do mensageiro"
+  },
+  {
+   "conceito": "1.4",
+   "text": "<b>Biochemistry.</b> Which hormone receptor class is intracellular rather than membrane-bound? <b>{{c1::Nuclear}}</b>",
+   "extra": "Espera o hormônio dentro da célula e o leva até o DNA. Por terminar em transcrição, responde em horas.",
+   "image": null,
+   "e1_anchor": "1.4 — o receptor nuclear é o único que não fica na membrana"
+  },
+  {
+   "conceito": "1.5",
+   "text": "<b>Biochemistry.</b> One occupied receptor activates dozens of G proteins, and each adenylyl cyclase then makes thousands of <b>{{c1::cAMP}}</b> molecules.",
+   "extra": "Cada degrau é uma enzima, e enzima faz muitas cópias antes de parar. A amplificação está no número de eventos catalíticos.",
+   "image": "slide-16",
+   "e1_anchor": "1.5 — cada adenilil-ciclase produz milhares de moléculas de AMPc"
+  },
+  {
+   "conceito": "1.5",
+   "text": "<b>Biochemistry.</b> A single hormone molecule at the cell surface can end in roughly <b>{{c1::one million}}</b> glucose units released from glycogen.",
+   "extra": "Razão de 10^6 entre sinal e efeito. É isso que torna possível governar um tecido inteiro com uma pitada de molécula.",
+   "image": null,
+   "e1_anchor": "1.5 — cerca de um milhão de moléculas de glicose liberadas do glicogênio"
+  },
+  {
+   "conceito": "1.5",
+   "text": "<b>Biochemistry.</b> The G protein shuts itself down when its alpha subunit hydrolyzes the bound <b>{{c1::GTP}}</b>.",
+   "extra": "Freio embutido: a proteína G é ela própria uma GTPase. Sistema que amplifica um milhão de vezes precisa de desligamento rápido.",
+   "image": null,
+   "e1_anchor": "1.5 — a própria proteína G hidrolisa seu GTP e se desliga sozinha"
+  },
+  {
+   "conceito": "1.5",
+   "text": "<b>Biochemistry.</b> Cyclic AMP is destroyed by <b>{{c1::phosphodiesterase}}</b>, and the signal ends when the hormone leaves.",
+   "extra": "Quebra o AMPc em 5'-AMP. A cafeína inibe fracamente essa enzima, e é por isso que prolonga o efeito das catecolaminas.",
+   "image": null,
+   "e1_anchor": "1.5 — a fosfodiesterase destrói o AMPc continuamente"
+  },
+  {
+   "conceito": "1.5",
+   "text": "<b>Biochemistry.</b> Hormone levels in plasma are measured by <b>{{c1::immunoassay}}</b>, since no ordinary chemical method detects nanograms per milliliter.",
+   "extra": "Usa a afinidade do anticorpo como lupa. No formato competitivo, quanto mais hormônio do paciente, menos marcado sobra ligado: sinal inversamente proporcional.",
+   "image": null,
+   "e1_anchor": "1.5 — box do radioimunoensaio"
+  },
+  {
+   "conceito": "2.1",
+   "text": "<b>Biochemistry.</b> The signal sequence of preproinsulin is clipped off as the growing chain enters the <b>{{c1::endoplasmic reticulum}}</b>.",
+   "extra": "A sequência-sinal é o endereço: leva o ribossomo a acoplar no retículo e o peptídeo nascente a entrar no lúmen.",
+   "image": "slide-22",
+   "e1_anchor": "2.1 — removida assim que a cadeia entra no retículo"
+  },
+  {
+   "conceito": "2.1",
+   "text": "<b>Biochemistry.</b> The three disulfide bonds of insulin close while the molecule is still one continuous chain, at the <b>{{c1::proinsulin}}</b> stage.",
+   "extra": "A continuidade da cadeia é o que aproxima as cisteínas certas. Se o corte viesse antes, as pontes não se formariam no lugar certo.",
+   "image": null,
+   "e1_anchor": "2.1 — as pontes se formam enquanto a molécula ainda é contínua"
+  },
+  {
+   "conceito": "2.1",
+   "text": "<b>Biochemistry.</b> Golgi proteases excise the middle segment of the precursor, which is released into blood as the <b>{{c1::C peptide}}</b>.",
+   "extra": "Sai na proporção de 1:1 com a insulina madura. Não é lixo: é marcador de secreção endógena.",
+   "image": null,
+   "e1_anchor": "2.1 — proteases do Golgi cortam o segmento do meio"
+  },
+  {
+   "conceito": "2.1",
+   "text": "<b>Biochemistry.</b> Mature insulin is two chains, A and B, held together by <b>{{c1::disulfide bonds}}</b>.",
+   "extra": "Separadas na sequência, amarradas quimicamente. Só é possível porque as pontes fecharam antes do corte.",
+   "image": null,
+   "e1_anchor": "2.1 — duas cadeias, A e B, amarradas pelas pontes dissulfeto"
+  },
+  {
+   "conceito": "2.1",
+   "text": "<b>Biochemistry.</b> High measured insulin with a low C peptide points to an <b>{{c1::exogenous source}}</b> rather than a beta-cell tumor.",
+   "extra": "A insulina farmacêutica vem pronta, sem peptídeo C. O insulinoma secreta pela via normal, então mantém os dois altos.",
+   "image": null,
+   "e1_anchor": "2.1 — box do peptídeo C"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> The high-capacity, low-affinity glucose transporter of the beta cell and the hepatocyte is <b>{{c1::GLUT2}}</b>.",
+   "extra": "Só satura em concentrações altas, então a entrada acompanha a glicemia em toda a faixa fisiológica em vez de empacar.",
+   "image": "slide-24",
+   "e1_anchor": "2.2 — o GLUT2, transportador da célula beta e do hepatócito"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Glucokinase has a Km near <b>{{c1::10 mM}}</b>, well above the fasting blood sugar level.",
+   "extra": "Km alto = enzima que só acelera quando o substrato sobra. É o que a mantém na parte inclinada da curva na faixa fisiológica.",
+   "image": "slide-25",
+   "e1_anchor": "2.2 — a glicoquinase tem Km alto, em torno de 10 mM"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Unlike the other hexokinases, glucokinase is not inhibited by its own product, <b>{{c1::glucose 6-phosphate}}</b>.",
+   "extra": "Sem inibição pelo produto, a velocidade continua proporcional ao substrato. Enzima inibida pelo produto não serve de sensor.",
+   "image": null,
+   "e1_anchor": "2.2 — não é inibida pela glicose-6-fosfato"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> A sensor enzyme has to work on the steep part of its curve; at 5 mM the ordinary hexokinase is already <b>{{c1::saturated}}</b>.",
+   "extra": "Enzima saturada trabalha na velocidade máxima independentemente da glicemia, e portanto não informa nada.",
+   "image": null,
+   "e1_anchor": "2.2 — uma enzima saturada trabalha na velocidade máxima e não informa nada"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Rising ATP inside the beta cell <b>{{c1::closes}}</b> the potassium channel.",
+   "extra": "Erro clássico é inverter aqui. O canal fica aberto no repouso; é o fechamento dele que retém o potássio e despolariza a membrana.",
+   "image": "slide-26",
+   "e1_anchor": "2.2 — o ATP se liga ao canal de potássio e o fecha"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Shutting the potassium channel depolarizes the beta cell and opens voltage-gated <b>{{c1::calcium}}</b> channels.",
+   "extra": "O cálcio é o gatilho universal de exocitose: as vesículas de insulina se fundem à membrana e despejam o conteúdo.",
+   "image": null,
+   "e1_anchor": "2.2 — a despolarização abre canais de cálcio dependentes de voltagem"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Besides triggering release, a high sugar load also raises <b>{{c1::transcription}}</b> of the insulin gene.",
+   "extra": "Repõe o estoque que acabou de sair. A mesma glicose dispara a secreção (segundos) e a síntese (horas).",
+   "image": null,
+   "e1_anchor": "2.2 — a glicemia alta também aumenta a transcrição do gene da insulina"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Sulfonylureas force insulin release in type 2 diabetes by shutting the ATP-sensitive <b>{{c1::potassium channel}}</b>.",
+   "extra": "Despolariza sem depender da glicose. Funciona no tipo 2 porque a célula beta ainda responde; o problema ali é resistência periférica.",
+   "image": null,
+   "e1_anchor": "2.2 — as sulfonilureias fecham o canal K+-ATP diretamente"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> In insulinoma, diazoxide controls the hypoglycemia by holding the potassium channel <b>{{c1::open}}</b>.",
+   "extra": "Impede a despolarização e trava a secreção. É o espelho farmacológico da sulfonilureia, e prova que o gatilho é mesmo esse canal.",
+   "image": null,
+   "e1_anchor": "2.2 — ativadores do canal K+-ATP, como o diazóxido"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> The only insulin-dependent sugar transporter, stored inside vesicles in muscle and fat, is <b>{{c1::GLUT4}}</b>.",
+   "extra": "Sem insulina ele fica guardado no citoplasma. Por isso músculo e adiposo ficam de fora do banquete no diabetes descompensado.",
+   "image": null,
+   "e1_anchor": "2.2 — GLUT4 é o único dependente de insulina"
+  },
+  {
+   "conceito": "2.2",
+   "text": "<b>Biochemistry.</b> Neurons keep taking up sugar in untreated diabetes: their transporters, GLUT1 and <b>{{c1::GLUT3}}</b>, are insulin-independent.",
+   "extra": "GLUT3 tem afinidade altíssima, o que garante captação neuronal mesmo na hipoglicemia. O cérebro não negocia com a insulina.",
+   "image": null,
+   "e1_anchor": "2.2 — GLUT1 e GLUT3 não precisam de insulina"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> Which kinase is central to insulin signaling downstream of receptor autophosphorylation? <b>{{c1::Akt}}</b>",
+   "extra": "Também chamada PKB. Ativa a fosfatase PP1 e inativa a GSK-3, invertendo o sinal daí para baixo.",
+   "image": null,
+   "e1_anchor": "2.3 — disparam a via da PKB"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> The biochemical signature of the fed state is <b>{{c1::dephosphorylation}}</b> of the enzymes of fuel metabolism.",
+   "extra": "Regra de leitura: se a enzima é ativada por fosforilação, a insulina a desliga. Jejum e estresse fazem o oposto.",
+   "image": "slide-32",
+   "e1_anchor": "2.3 — a assinatura bioquímica do estado alimentado é a desfosforilação"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> Akt switches on protein phosphatase 1 and switches off the kinase <b>{{c1::GSK-3}}</b>.",
+   "extra": "Uma cinase no topo produzindo desfosforilação embaixo não é contradição: é o que acontece quando a cinase do topo ativa uma fosfatase.",
+   "image": null,
+   "e1_anchor": "2.3 — a PKB ativa a fosfoproteína fosfatase 1 e inativa cinases como a GSK-3"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> Insulin does not build new transporters; it relocates vesicles that were already <b>{{c1::inside the cell}}</b>.",
+   "extra": "O GLUT4 já existia, guardado. Dizer que a insulina abre canais de glicose troca o mecanismo de translocação por um mecanismo de poro.",
+   "image": null,
+   "e1_anchor": "2.3 — a insulina leva o GLUT4 das vesículas até a membrana"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> In the liver, insulin raises the expression of <b>{{c1::glucokinase}}</b>, steering the incoming sugar into glycogen and glycolysis.",
+   "extra": "No hepatócito a insulina não mexe em transportador (o GLUT2 é permanente); ela muda o destino do carbono que entrou.",
+   "image": "slide-33",
+   "e1_anchor": "2.3 — aumenta a expressão de glicoquinase"
+  },
+  {
+   "conceito": "2.3",
+   "text": "<b>Biochemistry.</b> In adipose tissue, insulin activates <b>{{c1::lipoprotein lipase}}</b>.",
+   "extra": "A LPL solta ácidos graxos das lipoproteínas circulantes para serem estocados. Ao mesmo tempo a insulina inibe a lipase intracelular, travando a saída de gordura.",
+   "image": null,
+   "e1_anchor": "2.3 — ativa a lipoproteína-lipase e inibe a lipase intracelular"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> The glycogen-degrading enzyme is active in its <b>{{c1::phosphorylated}}</b> form, the exact opposite of the synthase.",
+   "extra": "Sintase: ativa desfosforilada. Fosforilase: ativa fosforilada. Esse espelho é o que impede as duas vias de rodarem juntas.",
+   "image": "slide-31",
+   "e1_anchor": "2.4 — a glicogênio-fosforilase é o oposto exato"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> The two glycogen enzymes never run at the same time: they read one phosphate with <b>{{c1::opposite signs}}</b>.",
+   "extra": "Uma única cinase (PKA) para a síntese e dispara a quebra; uma única fosfatase (PP1) faz o inverso. Ciclo fútil evitado por desenho.",
+   "image": null,
+   "e1_anchor": "2.4 — as duas enzimas leem o mesmo interruptor com sinais invertidos"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> The phosphatase that dephosphorylates both glycogen enzymes and is turned on by insulin is <b>{{c1::PP1}}</b>.",
+   "extra": "Ativa a sintase e inativa a fosforilase no mesmo movimento. É o braço executor do estado alimentado.",
+   "image": "slide-30",
+   "e1_anchor": "2.4 — uma única fosfatase, a PP1"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> In skeletal muscle, glycogen phosphorylase b is allosterically activated by <b>{{c1::AMP}}</b>.",
+   "extra": "Sem hormônio nenhum: a fibra que gasta ATP libera sua própria glicose na hora. Controle local sobreposto ao covalente.",
+   "image": null,
+   "e1_anchor": "2.4 — o AMP acumulado num exercício intenso ativa a fosforilase mesmo sem hormônio"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> In the hepatocyte, free <b>{{c1::glucose}}</b> binds phosphorylase a and inactivates it.",
+   "extra": "O fígado para de quebrar glicogênio assim que a glicemia normaliza. O estoque hepático existe para os outros órgãos, não para ele.",
+   "image": null,
+   "e1_anchor": "2.4 — a glicose livre se liga à fosforilase a e a inativa"
+  },
+  {
+   "conceito": "2.4",
+   "text": "<b>Biochemistry.</b> Muscle keeps its glycogen for itself: the tissue lacks <b>{{c1::glucose 6-phosphatase}}</b>.",
+   "extra": "Sem essa enzima, o açúcar fosforilado é carregado e não atravessa a membrana. Só o fígado exporta glicose para o sangue.",
+   "image": null,
+   "e1_anchor": "2.4 — o músculo não tem glicose-6-fosfatase"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Glucagon is a 29-residue peptide secreted by the pancreatic <b>{{c1::alpha cells}}</b>.",
+   "extra": "Nasce do pró-glucagon por processamento pós-traducional. No intestino o mesmo precursor é cortado em outros pontos e gera outros peptídeos.",
+   "image": null,
+   "e1_anchor": "2.5 — produzido pelas células alfa da ilhota"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Glucagon release is stimulated by hypoglycemia, by epinephrine and by a rise in serum <b>{{c1::amino acids}}</b>.",
+   "extra": "Essa lista descreve o estado que o glucagon serve: pouco açúcar circulando, mas matéria-prima disponível para fabricar mais.",
+   "image": null,
+   "e1_anchor": "2.5 — estimulada pela hipoglicemia, pela adrenalina e pelo aumento de aminoácidos"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Insulin, ketone bodies and urea all <b>{{c1::inhibit}}</b> glucagon secretion.",
+   "extra": "Todos sinalizam que já há combustível ou que a proteólise foi longe demais. O freio evita mobilizar o que não falta.",
+   "image": null,
+   "e1_anchor": "2.5 — inibida pela insulina, pelos corpos cetônicos e pela ureia"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> The enzyme that turns ATP into cyclic AMP once the G protein is switched on is <b>{{c1::adenylyl cyclase}}</b>.",
+   "extra": "É o ponto onde o sinal externo vira mensageiro interno. Uma ciclase ativa produz milhares de AMPc enquanto está ligada.",
+   "image": "slide-37",
+   "e1_anchor": "2.5 — a subunidade alfa ativa a adenilil-ciclase"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Cyclic AMP frees the catalytic subunits of <b>{{c1::protein kinase A}}</b>.",
+   "extra": "O AMPc se liga às subunidades regulatórias e as solta das catalíticas. A PKA é a executora final da via do glucagon e da adrenalina.",
+   "image": null,
+   "e1_anchor": "2.5 — o AMPc se liga às subunidades regulatórias da PKA"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Under glucagon the cascade runs receptor, G protein, cyclase, PKA and then <b>{{c1::phosphorylase kinase}}</b>.",
+   "extra": "Cinco degraus, cada um uma enzima agindo sobre muitas cópias do degrau seguinte. É aqui que a amplificação acontece de fato.",
+   "image": null,
+   "e1_anchor": "2.5 — a PKA fosforila a fosforilase-cinase"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> When fasting drags on, the liver supplies the brain with an alternative fuel, the <b>{{c1::ketone bodies}}</b>.",
+   "extra": "Vêm da oxidação dos ácidos graxos mobilizados. Poupam glicose quando o glicogênio hepático já foi consumido.",
+   "image": "slide-38",
+   "e1_anchor": "2.5 — produção de corpos cetônicos, combustível alternativo para o cérebro"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Epinephrine is made from tyrosine through DOPA, dopamine and <b>{{c1::norepinephrine}}</b>.",
+   "extra": "Quatro passos de modificação do anel e da cadeia lateral. A medula da suprarrenal completa a sequência até o final.",
+   "image": null,
+   "e1_anchor": "2.5 — pela sequência tirosina, DOPA, dopamina, noradrenalina, adrenalina"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> Epinephrine reinforces its own metabolic effect: it stimulates glucagon release and <b>{{c1::inhibits insulin}}</b>.",
+   "extra": "Age por via direta nos tecidos e, ao mesmo tempo, ajusta a razão hormonal que governa esses mesmos tecidos.",
+   "image": null,
+   "e1_anchor": "2.5 — inibe a secreção de insulina e estimula a de glucagon"
+  },
+  {
+   "conceito": "2.5",
+   "text": "<b>Biochemistry.</b> In anaphylaxis, epinephrine raises the blood pressure, opens the airways and sustains the <b>{{c1::cardiac output}}</b>.",
+   "extra": "Cada efeito combate um braço da reação: vasoconstrição contra a vasodilatação, broncodilatação contra o broncoespasmo, inotropismo contra o colapso.",
+   "image": "slide-41",
+   "e1_anchor": "2.5 — box da adrenalina na anafilaxia"
+  },
+  {
+   "conceito": "3.1",
+   "text": "<b>Biochemistry.</b> A lipid-soluble hormone meets its receptor inside the cell, and the complex itself works as a <b>{{c1::transcription factor}}</b>.",
+   "extra": "Sem segundo mensageiro e sem cascata de cinases. O hormônio e seu receptor são a última peça antes do DNA.",
+   "image": "slide-15",
+   "e1_anchor": "3.1 — o complexo hormônio-receptor é ele próprio um fator de transcrição"
+  },
+  {
+   "conceito": "3.1",
+   "text": "<b>Biochemistry.</b> Which DNA sequence does the activated nuclear receptor dimer bind? <b>{{c1::Response element}}</b>",
+   "extra": "Fica na região reguladora dos genes-alvo. É o endereço que define quais genes aquele hormônio consegue mexer.",
+   "image": null,
+   "e1_anchor": "3.1 — se prende a uma sequência específica de DNA chamada elemento responsivo"
+  },
+  {
+   "conceito": "3.1",
+   "text": "<b>Biochemistry.</b> Once on the DNA, the hormone-receptor complex recruits <b>{{c1::coactivators}}</b> that loosen the chromatin.",
+   "extra": "O ligante não coloca o receptor no DNA: ele muda a superfície do receptor, e é essa superfície nova que atrai o coativador.",
+   "image": "slide-49",
+   "e1_anchor": "3.1 — ele recruta coativadores, proteínas que afrouxam a cromatina"
+  },
+  {
+   "conceito": "3.1",
+   "text": "<b>Biochemistry.</b> Nuclear receptor hormones need <b>{{c1::hours}}</b> to act, and their effect then lasts for days.",
+   "extra": "Transcrever, traduzir e acumular proteína leva tempo; a proteína feita permanece. Serve para configurar a célula, não para reagir ao susto.",
+   "image": null,
+   "e1_anchor": "3.1 — transcrever, traduzir e acumular proteína leva horas"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> The thyroid puts out about twenty times more T4 than T3, and yet T4 behaves as a <b>{{c1::prohormone}}</b>.",
+   "extra": "T4 tem afinidade baixa pelo receptor nuclear. É reserva circulante de meia-vida longa, não o executor.",
+   "image": "slide-42",
+   "e1_anchor": "3.2 — o T4 funciona como pró-hormônio"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> Outer-ring deiodination of T4 produces <b>{{c1::T3}}</b>.",
+   "extra": "Anel externo gera o hormônio ativo, o de alta afinidade pelo receptor nuclear. A escolha do anel decide ligar ou não o metabolismo daquele tecido.",
+   "image": null,
+   "e1_anchor": "3.2 — retirando um iodo do anel externo, obtém-se T3"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> Taking one iodine off the inner ring of T4 yields <b>{{c1::reverse T3}}</b>, which has no activity.",
+   "extra": "Mesmos três iodos do T3, posição diferente. Em doença grave e jejum a conversão pende para esse lado e o gasto metabólico cai.",
+   "image": null,
+   "e1_anchor": "3.2 — retirando um iodo do anel interno, obtém-se T3 reverso"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> The enzymes that decide locally whether T4 becomes active or inert are the <b>{{c1::deiodinases}}</b>.",
+   "extra": "Agem nos tecidos periféricos, não na glândula. O mesmo T4 vira ativo no coração e inerte no músculo, conforme a necessidade local.",
+   "image": "slide-45",
+   "e1_anchor": "3.2 — por enzimas chamadas desiodases"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> On the DNA, the thyroid hormone receptor works as a heterodimer with <b>{{c1::RXR}}</b>.",
+   "extra": "O par ocupa o elemento responsivo (TRE) e regula a transcrição. Vários receptores nucleares usam esse mesmo parceiro.",
+   "image": null,
+   "e1_anchor": "3.2 — forma um par com o receptor de retinoide X"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> Thyroid hormone raises the basal metabolic rate and increases the number of cardiac <b>{{c1::adrenergic receptors}}</b>.",
+   "extra": "Explica por que a taquicardia e o tremor do hipertireoidismo imitam excesso de adrenalina sem que ela esteja aumentada.",
+   "image": null,
+   "e1_anchor": "3.2 — mais receptores adrenérgicos no coração"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> Untreated thyroid deficiency in the newborn leaves irreversible <b>{{c1::cognitive impairment}}</b>.",
+   "extra": "O hormônio é indispensável à maturação neuronal. É por isso que existe rastreamento neonatal.",
+   "image": null,
+   "e1_anchor": "3.2 — sua falta no início da vida produz dano cognitivo irreversível"
+  },
+  {
+   "conceito": "3.2",
+   "text": "<b>Biochemistry.</b> The high cholesterol of hypothyroidism reflects reduced hepatic <b>{{c1::clearance}}</b>.",
+   "extra": "O hormônio tireoidiano estimula a depuração hepática do colesterol; sem ele, a depuração cai e o nível sobe.",
+   "image": "slide-46",
+   "e1_anchor": "3.2 — box de hipo e hipertireoidismo"
+  },
+  {
+   "conceito": "3.3",
+   "text": "<b>Biochemistry.</b> The rate-limiting step of every steroid pathway is the conversion of cholesterol into <b>{{c1::pregnenolone}}</b>.",
+   "extra": "Feita pela desmolase, que corta a cadeia lateral. É o ponto onde o ACTH entra para acelerar a produção.",
+   "image": "slide-51",
+   "e1_anchor": "3.3 — a enzima desmolase corta a cadeia lateral e produz pregnenolona"
+  },
+  {
+   "conceito": "3.3",
+   "text": "<b>Biochemistry.</b> Aldosterone, cortisol and androgens are made in different <b>{{c1::zones}}</b> of the adrenal cortex.",
+   "extra": "O conjunto de enzimas presente em cada zona decide qual produto final sai, embora todas partam da mesma pregnenolona.",
+   "image": null,
+   "e1_anchor": "3.3 — aldosterona na zona mais externa, cortisol na intermediária, androgênios na mais interna"
+  },
+  {
+   "conceito": "3.3",
+   "text": "<b>Biochemistry.</b> Cortisol feeds back to inhibit the pituitary and also the <b>{{c1::hypothalamus}}</b>.",
+   "extra": "Duas alças negativas no mesmo eixo. Quando o cortisol sobe, o estímulo cai; quando cai, o estímulo sobe.",
+   "image": "slide-50",
+   "e1_anchor": "3.3 — inibe tanto o hipotálamo quanto a hipófise"
+  },
+  {
+   "conceito": "3.3",
+   "text": "<b>Biochemistry.</b> Before its ligand arrives, the glucocorticoid receptor is held in the cytoplasm by <b>{{c1::HSP90}}</b>.",
+   "extra": "A chaperona mantém o receptor inativo e fora do núcleo. Ligando o hormônio, ela se solta e o caminho abre.",
+   "image": "slide-52",
+   "e1_anchor": "3.3 — preso a proteínas de choque térmico, entre elas a HSP90"
+  },
+  {
+   "conceito": "3.3",
+   "text": "<b>Biochemistry.</b> When the chaperone lets go, the receptor exposes its nuclear <b>{{c1::localization signal}}</b> and moves in.",
+   "extra": "Dentro do núcleo ele dimeriza e se prende ao elemento responsivo a glicocorticoide, ligando ou reprimindo centenas de genes.",
+   "image": null,
+   "e1_anchor": "3.3 — o receptor expõe o sinal de localização nuclear"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> In the liver, cortisol drives <b>{{c1::gluconeogenesis}}</b> and builds up the glycogen store.",
+   "extra": "O objetivo é um só: manter a glicemia num estresse prolongado. O fígado é quem fabrica o açúcar que os outros tecidos deixaram de usar.",
+   "image": "slide-53",
+   "e1_anchor": "3.4 — no fígado, aumenta a gliconeogênese e o estoque de glicogênio"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> In skeletal muscle, cortisol lowers glucose uptake and speeds up <b>{{c1::protein breakdown}}</b>.",
+   "extra": "Os aminoácidos liberados viram matéria-prima da gliconeogênese hepática. É literalmente o inverso do que a insulina faria.",
+   "image": null,
+   "e1_anchor": "3.4 — reduz a captação de glicose e degrada proteína"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> Cortisol also acts on the pancreatic islet, holding down insulin and pushing up <b>{{c1::glucagon}}</b>.",
+   "extra": "Fecha o circuito: menos captação periférica, mais produção hepática, e a razão hormonal ajustada para sustentar a glicemia.",
+   "image": null,
+   "e1_anchor": "3.4 — inibe a secreção de insulina e estimula a de glucagon"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> Glucocorticoids blunt inflammation mainly by repressing transcription of <b>{{c1::cytokine genes}}</b>.",
+   "extra": "Agem na transcrição de centenas de genes. É a mesma amplitude que explica a potência e os efeitos adversos.",
+   "image": null,
+   "e1_anchor": "3.4 — reprime a transcrição de genes de citocinas inflamatórias"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> The skin darkening of Addison disease comes from the <b>{{c1::high ACTH}}</b>, not from the missing steroid itself.",
+   "extra": "Sem cortisol, o freio da retroalimentação some. O ACTH nasce do mesmo precursor do MSH e compartilha com ele os primeiros aminoácidos.",
+   "image": "slide-54",
+   "e1_anchor": "3.4 — a hiperpigmentação de Addison é consequência da falta de cortisol"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> Cushing syndrome moves fat to the trunk and the face while <b>{{c1::wasting}}</b> the limb muscles.",
+   "extra": "Lipólise na gordura periférica somada a diferenciação de adipócitos no depósito central. A proteólise muscular vem do mesmo excesso.",
+   "image": null,
+   "e1_anchor": "3.4 — perda de massa muscular nos membros, redistribuição de gordura"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> An endocrine disruptor that occupies a receptor without switching it on acts as a <b>{{c1::blocker}}</b>.",
+   "extra": "Impede o hormônio verdadeiro de se ligar. O mimético faz o oposto: ativa o receptor sem que exista hormônio.",
+   "image": "slide-55",
+   "e1_anchor": "3.4 — como bloqueadores, ocupam o receptor sem ativá-lo"
+  },
+  {
+   "conceito": "3.4",
+   "text": "<b>Biochemistry.</b> A pollutant shaped like a hormone that switches the receptor on behaves as a <b>{{c1::mimic}}</b>.",
+   "extra": "Atinge sobretudo vias de receptor nuclear, cujos ligantes são pequenos e lipossolúveis, como os poluentes que se acumulam na gordura.",
+   "image": null,
+   "e1_anchor": "3.4 — como miméticos, ligam-se ao receptor e o ativam"
+  }
+ ],
+ "card_mirror": {
+  "rodada": "2026-08-09",
+  "lote": "24 cegos (12 meus + 12 AnKing reais do apkg P3)",
+  "resultado": "10/12 pegos, 2 passaram como AnKing, 0 falso-positivo",
+  "acao": "8 frentes reescritas (mecanismo-no-stem, fato-nao-clozado, cauda editorial, negacao dupla) + credito de imagem adicionado"
+ }
+}

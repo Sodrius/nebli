@@ -1,0 +1,17 @@
+# Filtro de admissão — Integração (Q11–Q25) · bioq-26-controle-hormonal
+
+Q11 conecta [farmacologia da sulfonilureia] + [mecanismo do canal K+-ATP na célula beta]
+Q12 conecta [sinalização da insulina por tirosina-cinase] + [controle recíproco do glicogênio]
+Q13 conecta [ação do glucagon] + [diferença enzimática fígado × músculo (G6Pase)]
+Q14 conecta [cascata da adrenalina] + [razão insulina/glucagon]
+Q15 conecta [receptor nuclear] + [escala de tempo dos transdutores]
+Q16 conecta [ação nuclear do T3] + [sinalização adrenérgica de membrana]
+Q17 conecta [efeitos do cortisol] + [ação da insulina nos mesmos tecidos]
+Q18 conecta [amplificação em cascata] + [mecanismos de desligamento do sinal]
+Q19 conecta [famílias de GLUT] + [dependência de insulina nos tecidos]
+Q20 conecta [disruptor endócrino] + [mecanismo do receptor nuclear]
+Q21 conecta [insulinoma e diazóxido] + [processamento pós-traducional / peptídeo C]
+Q22 conecta [desiodases periféricas] + [adaptação metabólica ao jejum e à doença grave]
+Q23 conecta [via do AMPc] + [regulação enzimática por modificação covalente]
+Q24 conecta [doença de Addison] + [retroalimentação negativa do eixo]
+Q25 conecta [síntese de esteroides a partir do colesterol] + [controle hipofisário por ACTH]

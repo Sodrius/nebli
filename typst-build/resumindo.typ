@@ -1,28 +1,35 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
-#resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
-))
+#let secoes-resumindo = (
+  ("A solubilidade decide o mecanismo",
+   [Peptídeos e catecolaminas são hidrossolúveis: viajam livres no plasma, param na membrana e precisam de receptor de superfície. Esteroides e tireoidianos são lipossolúveis: precisam de carreador no sangue, mas atravessam a membrana e encontram o receptor dentro da célula.]),
+
+  ("Membrana muda atividade; núcleo muda quantidade",
+   [O hormônio de membrana altera a atividade de proteínas que já existem, por fosforilação — responde em segundos e termina em segundos. O hormônio nuclear altera quantas proteínas serão fabricadas, por transcrição — responde em horas e dura dias.]),
+
+  ("Amplificação em cascata",
+   [Uma molécula ocupa um receptor, que ativa dezenas de proteínas G, cada uma ativando uma ciclase que produz milhares de AMPc. Uma única molécula de hormônio se traduz em cerca de um milhão de moléculas de produto — por isso concentração nanomolar basta.]),
+
+  ("A célula beta mede glicemia pela própria glicólise",
+   [GLUT2 e glicoquinase deixam a entrada e a fosforilação de glicose proporcionais à glicemia. Mais glicose gera mais ATP, o ATP fecha o canal de potássio, a membrana despolariza, o cálcio entra e a vesícula de insulina é liberada.]),
+
+  ("Insulina desfosforila; glucagon e adrenalina fosforilam",
+   [A insulina age por tirosina-cinase e termina ativando a fosfatase PP1, que desfosforila as enzimas do combustível. Glucagon e adrenalina agem por AMPc e PKA, que fosforilam as mesmas enzimas — mesmo alvo, sinal invertido.]),
+
+  ("Controle recíproco do glicogênio",
+   [A glicogênio-sintase é ativa desfosforilada e a fosforilase é ativa fosforilada. Uma cinase só desliga a síntese e liga a quebra ao mesmo tempo; uma fosfatase só faz o inverso. Nunca as duas vias abertas juntas.]),
+
+  ("Peptídeo C, sulfonilureia e diazóxido",
+   [O peptídeo C sai um a um com a insulina e por isso distingue insulina própria de insulina injetada. A sulfonilureia fecha o canal de potássio e força secreção; o diazóxido o mantém aberto e freia a hipersecreção do insulinoma.]),
+
+  ("T4 é reserva; T3 é o ativo",
+   [A tireoide secreta muito mais T4 do que T3, mas o T4 tem baixa afinidade pelo receptor. As desiodases dos tecidos periféricos decidem, localmente, se retiram o iodo do anel externo, gerando T3 ativo, ou do interno, gerando T3 reverso inativo.]),
+
+  ("Cortisol converte tecido em glicose",
+   [O cortisol aumenta gliconeogênese no fígado, degrada proteína no músculo, mobiliza gordura no adiposo e freia a insulina no pâncreas. Tudo aponta para manter a glicemia num estresse prolongado, às custas de músculo e gordura.]),
+
+  ("Retroalimentação negativa e seus extremos",
+   [O cortisol inibe hipotálamo e hipófise, estabilizando a própria concentração. Em Addison falta cortisol, o freio some e o ACTH alto escurece a pele; em Cushing o cortisol sobra, com hiperglicemia, perda muscular e gordura redistribuída para tronco e face.]),
+)
+
+#resumindo-page(secoes-resumindo)

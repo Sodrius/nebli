@@ -1,0 +1,60 @@
+slug: bioq-26-controle-hormonal
+titulo: "Controle Hormonal do Metabolismo: do Sinal na Membrana ao Gene no Núcleo"
+subtitulo: "Bioquímica"
+meta:
+  - ["Disciplina", "Bioquímica (UC02)"]
+  - ["Onde estudar", "Slides da aula Controle Hormonal (UC02, Bioquímica, Profa. Deborah Schechtman) · Lehninger, Princípios de Bioquímica, cap. 23 (Regulação Hormonal e Integração do Metabolismo) · Berg/Stryer, cap. 14 (Vias de Transdução de Sinal)"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O sinal: o que é um hormônio e como ele chega"
+        subtopicos:
+          - "Integração metabólica e o problema da distância"
+          - "Classes químicas e solubilidade"
+          - "Receptores e tipos de transdutor"
+      - titulo: "PARTE II — Hormônios que ficam na membrana"
+        subtopicos:
+          - "Insulina: da pré-pró-insulina ao grânulo"
+          - "A célula beta como sensor de glicose"
+          - "Glicogênio e a cascata do AMPc"
+      - titulo: "PARTE III — Hormônios que entram na célula"
+        subtopicos:
+          - "Receptor nuclear e latência de horas"
+          - "Tireoidianos: T4 como pró-hormônio"
+          - "Cortisol, eixo HPA e disruptores"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "CEEC"]
+    - ["03", "A"]
+    - ["04", "E"]
+    - ["05", "ECCE"]
+    - ["06", "B"]
+    - ["07", "D"]
+    - ["08", "CECC"]
+    - ["09", "A"]
+    - ["10", "EECE"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "EECC"]
+    - ["13", "D"]
+    - ["14", "A"]
+    - ["15", "CCEE"]
+    - ["16", "C"]
+    - ["17", "E"]
+    - ["18", "ECEC"]
+    - ["19", "B"]
+    - ["20", "D"]
+    - ["21", "CEEE"]
+    - ["22", "A"]
+    - ["23", "C"]
+    - ["24", "ECCC"]
+    - ["25", "E"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "CCEC"]
+    - ["28", "B"]
+    - ["29", "E"]
+    - ["30", "C"]

@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- bioq-26-controle-hormonal | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,88 +8,91 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Controle Hormonal do Metabolismo: do Sinal na Membrana ao Gene no Núcleo",
+  "Bioquímica",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Bioquímica (UC02)"),
+    ("Onde estudar", "Slides da aula Controle Hormonal (UC02, Bioquímica, Profa. Deborah Schechtman) · Lehninger, Princípios de Bioquímica, cap. 23 (Regulação Hormonal e Integração do Metabolismo) · Berg/Stryer, cap. 14 (Vias de Transdução de Sinal)"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O sinal: o que é um hormônio e como ele chega", (
+      "Integração metabólica e o problema da distância",
+      "Classes químicas e solubilidade",
+      "Receptores e tipos de transdutor",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Hormônios que ficam na membrana", (
+      "Insulina: da pré-pró-insulina ao grânulo",
+      "A célula beta como sensor de glicose",
+      "Glicogênio e a cascata do AMPc",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Hormônios que entram na célula", (
+      "Receptor nuclear e latência de horas",
+      "Tireoidianos: T4 como pró-hormônio",
+      "Cortisol, eixo HPA e disruptores",
     )),
   )),
 ))
 
 // ======= ETAPA 1 =======
+#set-etapa("Etapa 1 — Texto didático")
 #etapa-header("Etapa 1 — Texto didático")
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#set-etapa("Gabarito — Etapa 2")
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "C"),
+    ("02", "CEEC"),
+    ("03", "A"),
+    ("04", "E"),
+    ("05", "ECCE"),
+    ("06", "B"),
+    ("07", "D"),
+    ("08", "CECC"),
+    ("09", "A"),
+    ("10", "EECE"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("11", "B"),
+    ("12", "EECC"),
+    ("13", "D"),
+    ("14", "A"),
+    ("15", "CCEE"),
+    ("16", "C"),
+    ("17", "E"),
+    ("18", "ECEC"),
+    ("19", "B"),
+    ("20", "D"),
+    ("21", "CEEE"),
+    ("22", "A"),
+    ("23", "C"),
+    ("24", "ECCC"),
+    ("25", "E"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "D"),
+    ("27", "CCEC"),
+    ("28", "B"),
+    ("29", "E"),
+    ("30", "C"),
   )),
 ))
