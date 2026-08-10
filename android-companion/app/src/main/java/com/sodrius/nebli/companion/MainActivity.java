@@ -8,9 +8,11 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -25,8 +27,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -37,10 +41,13 @@ public class MainActivity extends Activity {
     private static final Uri NOTES = Uri.parse("content://com.ichi2.anki.flashcards/notes");
     private static final Uri DECKS = Uri.parse("content://com.ichi2.anki.flashcards/decks");
     private static final Uri SCHEDULE = Uri.parse("content://com.ichi2.anki.flashcards/schedule");
+
     private TextView status;
+    private EditText searchInput;
     private JSONObject pendingManifest;
     private boolean pendingConnectionTest = false;
     private boolean pendingCopyTest = false;
+    private boolean pendingSearch = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +68,7 @@ public class MainActivity extends Activity {
         box.addView(title);
 
         TextView desc = new TextView(this);
-        desc.setText("Conecta o Nebli ao AnkiDroid. Decks fonte são somente leitura.");
+        desc.setText("Busca e copia cards diretamente da coleção local. Decks fonte são somente leitura.");
         desc.setPadding(0, 16, 0, 24);
         box.addView(desc);
 
@@ -75,6 +82,23 @@ public class MainActivity extends Activity {
         copyTest.setOnClickListener(v -> requestOrRunCopyTest());
         box.addView(copyTest);
 
+        TextView searchLabel = new TextView(this);
+        searchLabel.setText("Busca local (aceita palavras ou a sintaxe de busca do Anki):");
+        searchLabel.setPadding(0, 28, 0, 8);
+        box.addView(searchLabel);
+
+        searchInput = new EditText(this);
+        searchInput.setHint("ex.: portal vein hepatic artery");
+        searchInput.setSingleLine(true);
+        searchInput.setInputType(InputType.TYPE_CLASS_TEXT);
+        box.addView(searchInput, new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+
+        Button search = new Button(this);
+        search.setText("Buscar no Anki local");
+        search.setOnClickListener(v -> requestOrSearch());
+        box.addView(search);
+
         Button open = new Button(this);
         open.setText("Selecionar manifesto .json");
         open.setOnClickListener(v -> {
@@ -86,7 +110,7 @@ public class MainActivity extends Activity {
         box.addView(open);
 
         status = new TextView(this);
-        status.setText("Pronto. Teste a conexão e depois a cópia de 1 card.");
+        status.setText("Pronto.");
         status.setTextIsSelectable(true);
         status.setPadding(0, 24, 0, 0);
         box.addView(status);
@@ -94,6 +118,10 @@ public class MainActivity extends Activity {
         ScrollView scroll = new ScrollView(this);
         scroll.addView(box);
         return scroll;
+    }
+
+    private boolean hasAnkiPermission() {
+        return checkSelfPermission(ANKI_PERMISSION) == PackageManager.PERMISSION_GRANTED;
     }
 
     private void requestOrTestConnection() {
@@ -114,8 +142,13 @@ public class MainActivity extends Activity {
         copySelfTestAsync();
     }
 
-    private boolean hasAnkiPermission() {
-        return checkSelfPermission(ANKI_PERMISSION) == PackageManager.PERMISSION_GRANTED;
+    private void requestOrSearch() {
+        if (!hasAnkiPermission()) {
+            pendingSearch = true;
+            requestPermissions(new String[]{ANKI_PERMISSION}, REQ_ANKI);
+            return;
+        }
+        searchLocalAsync(searchInput.getText().toString());
     }
 
     private void testConnectionAsync() {
@@ -143,16 +176,82 @@ public class MainActivity extends Activity {
         }).start();
     }
 
+    private void searchLocalAsync(String query) {
+        String q = query == null ? "" : query.trim();
+        if (q.isEmpty()) {
+            status.setText("Digite um conceito para pesquisar.");
+            return;
+        }
+        status.setText("Pesquisando diretamente na coleção do AnkiDroid…");
+        new Thread(() -> {
+            String message;
+            try {
+                List<SearchHit> hits = searchLocal(q, 20);
+                StringBuilder sb = new StringBuilder();
+                sb.append("Busca local OK — ").append(hits.size()).append(" candidato(s) exibidos.\n\n");
+                int i = 1;
+                for (SearchHit h : hits) {
+                    sb.append(i++).append(". nid=").append(h.nid)
+                      .append(" | mid=").append(h.mid).append("\n")
+                      .append(h.snippet).append("\n\n");
+                }
+                if (hits.isEmpty()) sb.append("Nenhum resultado. Tente termos em inglês ou uma query do Anki.");
+                message = sb.toString();
+            } catch (Exception e) {
+                message = "Falha na busca local: " + e.getClass().getSimpleName() + ": " + e.getMessage();
+            }
+            String finalMessage = message;
+            runOnUiThread(() -> status.setText(finalMessage));
+        }).start();
+    }
+
+    private static class SearchHit {
+        final long nid;
+        final long mid;
+        final String snippet;
+        SearchHit(long nid, long mid, String snippet) {
+            this.nid = nid; this.mid = mid; this.snippet = snippet;
+        }
+    }
+
+    private List<SearchHit> searchLocal(String query, int limit) {
+        ContentResolver cr = getContentResolver();
+        List<SearchHit> out = new ArrayList<>();
+        try (Cursor c = cr.query(NOTES, new String[]{"_id", "mid", "tags", "flds"}, query, null, null)) {
+            if (c == null) throw new IllegalStateException("AnkiDroid não respondeu à busca");
+            int idCol = c.getColumnIndexOrThrow("_id");
+            int midCol = c.getColumnIndexOrThrow("mid");
+            int tagsCol = c.getColumnIndexOrThrow("tags");
+            int fieldsCol = c.getColumnIndexOrThrow("flds");
+            while (c.moveToNext() && out.size() < limit) {
+                String tags = c.getString(tagsCol);
+                if (tags != null && tags.contains("NEBLI::source::copy")) continue;
+                long nid = c.getLong(idCol);
+                long mid = c.getLong(midCol);
+                String flds = c.getString(fieldsCol);
+                out.add(new SearchHit(nid, mid, makeSnippet(flds)));
+            }
+        }
+        return out;
+    }
+
+    private String makeSnippet(String flds) {
+        if (flds == null) return "";
+        String s = flds.replace('\u001f', ' ')
+                .replaceAll("<[^>]+>", " ")
+                .replace("&nbsp;", " ")
+                .replaceAll("\\s+", " ")
+                .trim();
+        if (s.length() > 320) s = s.substring(0, 320) + "…";
+        return s;
+    }
+
     private void copySelfTestAsync() {
         status.setText("Executando teste de cópia segura…");
         new Thread(() -> {
             String message;
-            try {
-                JSONObject r = runCopySelfTest();
-                message = r.toString(2);
-            } catch (Exception e) {
-                message = "TESTE FALHOU: " + e.getClass().getSimpleName() + ": " + e.getMessage();
-            }
+            try { message = runCopySelfTest().toString(2); }
+            catch (Exception e) { message = "TESTE FALHOU: " + e.getClass().getSimpleName() + ": " + e.getMessage(); }
             String finalMessage = message;
             runOnUiThread(() -> status.setText(finalMessage));
         }).start();
@@ -164,11 +263,8 @@ public class MainActivity extends Activity {
         final String slug = "teste-companion";
         long targetDid = ensureDeck(cr, targetDeck);
 
-        long sourceNid = -1L;
-        long sourceMid = -1L;
-        String sourceFields = null;
-        String sourceTags = null;
-
+        long sourceNid = -1L, sourceMid = -1L;
+        String sourceFields = null, sourceTags = null;
         try (Cursor c = cr.query(NOTES, new String[]{"_id", "mid", "tags", "flds"}, null, null, null)) {
             if (c == null) throw new IllegalStateException("AnkiDroid não retornou notas");
             int idCol = c.getColumnIndexOrThrow("_id");
@@ -210,10 +306,9 @@ public class MainActivity extends Activity {
         boolean exactFields = safeEquals(sourceAfter.fields, copy.fields);
         boolean sourceIntact = sourceAfter.mid == sourceMid && safeEquals(sourceAfter.fields, sourceFields) && safeEquals(sourceAfter.tags, sourceTags);
         int copies = countByTagInDeck(cr, provenance, targetDeck);
-        boolean idempotent = copies == 1;
 
         JSONObject out = new JSONObject();
-        out.put("ok", exactMid && exactFields && sourceIntact && idempotent);
+        out.put("ok", exactMid && exactFields && sourceIntact && copies == 1);
         out.put("target_deck", targetDeck);
         out.put("source_note_id", sourceNid);
         out.put("copy_note_id", copyNid);
@@ -222,15 +317,12 @@ public class MainActivity extends Activity {
         out.put("same_fields", exactFields);
         out.put("source_unchanged", sourceIntact);
         out.put("copies_with_same_provenance", copies);
-        out.put("idempotent", idempotent);
-        out.put("instruction", "Abra NEBLI::TESTE no AnkiDroid e confira visualmente o card.");
+        out.put("idempotent", copies == 1);
         return out;
     }
 
     private static class NoteSnapshot {
-        long mid;
-        String fields;
-        String tags;
+        long mid; String fields; String tags;
         NoteSnapshot(long mid, String fields, String tags) { this.mid = mid; this.fields = fields; this.tags = tags; }
     }
 
@@ -257,25 +349,15 @@ public class MainActivity extends Activity {
         boolean granted = grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
         if (!granted) {
             pendingManifest = null;
-            pendingConnectionTest = false;
-            pendingCopyTest = false;
+            pendingConnectionTest = pendingCopyTest = pendingSearch = false;
             status.setText("Permissão do AnkiDroid negada.");
             return;
         }
-        if (pendingConnectionTest) {
-            pendingConnectionTest = false;
-            testConnectionAsync();
-            return;
-        }
-        if (pendingCopyTest) {
-            pendingCopyTest = false;
-            copySelfTestAsync();
-            return;
-        }
+        if (pendingConnectionTest) { pendingConnectionTest = false; testConnectionAsync(); return; }
+        if (pendingCopyTest) { pendingCopyTest = false; copySelfTestAsync(); return; }
+        if (pendingSearch) { pendingSearch = false; searchLocalAsync(searchInput.getText().toString()); return; }
         if (pendingManifest != null) {
-            JSONObject m = pendingManifest;
-            pendingManifest = null;
-            installAsync(m);
+            JSONObject m = pendingManifest; pendingManifest = null; installAsync(m);
         }
     }
 
@@ -353,7 +435,6 @@ public class MainActivity extends Activity {
         receipt.put("schema", manifest.getString("schema"));
         receipt.put("lesson_slug", slug);
         receipt.put("target_deck", targetDeck);
-        receipt.put("manifest_sha256", manifest.optString("manifest_sha256", ""));
         receipt.put("source_notes_found", found);
         receipt.put("notes_created", created);
         receipt.put("notes_skipped_idempotent", skipped);
@@ -395,8 +476,7 @@ public class MainActivity extends Activity {
                 while (c.moveToNext()) if (name.equals(c.getString(nameCol))) return c.getLong(idCol);
             }
         }
-        ContentValues cv = new ContentValues();
-        cv.put("deck_name", name);
+        ContentValues cv = new ContentValues(); cv.put("deck_name", name);
         Uri created = cr.insert(DECKS, cv);
         if (created == null || created.getLastPathSegment() == null) throw new IllegalStateException("Não foi possível criar o deck " + name);
         return Long.parseLong(created.getLastPathSegment());
@@ -438,7 +518,9 @@ public class MainActivity extends Activity {
         return String.join(" ", tags);
     }
 
-    private String provenanceTag(String slug, long nid) { return "NEBLI::copy::" + slug.replaceAll("[^A-Za-z0-9_-]", "_") + "::nid_" + nid; }
+    private String provenanceTag(String slug, long nid) {
+        return "NEBLI::copy::" + slug.replaceAll("[^A-Za-z0-9_-]", "_") + "::nid_" + nid;
+    }
 
     private void validateManifest(JSONObject m) throws Exception {
         if (!"nebli-ankidroid-v1".equals(m.optString("schema"))) throw new IllegalArgumentException("schema incompatível");
@@ -454,8 +536,7 @@ public class MainActivity extends Activity {
         try (InputStream in = getContentResolver().openInputStream(uri)) {
             if (in == null) throw new IllegalArgumentException("arquivo inacessível");
             try (BufferedReader br = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
-                StringBuilder sb = new StringBuilder();
-                String line;
+                StringBuilder sb = new StringBuilder(); String line;
                 while ((line = br.readLine()) != null) sb.append(line).append('\n');
                 return sb.toString();
             }
@@ -464,11 +545,12 @@ public class MainActivity extends Activity {
 
     private void writeReceipt(JSONObject receipt) {
         try {
-            File dir = new File(getFilesDir(), "receipts");
-            if (!dir.exists()) dir.mkdirs();
+            File dir = new File(getFilesDir(), "receipts"); if (!dir.exists()) dir.mkdirs();
             String slug = receipt.optString("lesson_slug", "unknown").replaceAll("[^A-Za-z0-9_-]", "_");
             File f = new File(dir, slug + "-latest.json");
-            try (FileOutputStream out = new FileOutputStream(f)) { out.write((receipt.toString(2) + "\n").getBytes(StandardCharsets.UTF_8)); }
+            try (FileOutputStream out = new FileOutputStream(f)) {
+                out.write((receipt.toString(2) + "\n").getBytes(StandardCharsets.UTF_8));
+            }
         } catch (Exception ignored) {}
     }
 }
