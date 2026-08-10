@@ -1,0 +1,2278 @@
+{
+  "pipeline_version": "e1-deck-v3",
+  "slug": "bioq-24-controle-hormonal",
+  "title": "Controle Hormonal — mecanismos de ação hormonal",
+  "deck": "NEBLI::UC02::P4::Bioquímica::Controle hormonal",
+  "optional_deck": "NEBLI::UC02::P4::Bioquímica::Controle hormonal::Optional",
+  "status": "draft",
+  "blocked_by": [
+    "anking_index_unavailable: índice privado não hidratado neste container; curadoria, autoria em massa e fechamento do deck bloqueados por docs/canon/ANKING-PRIVADO.md e ERROS.md#5"
+  ],
+  "source_material": {
+    "slides": "FPDF202410BMMecAcaoHormonal.pdf",
+    "slide_count": 56,
+    "figures_extracted": "figuras/bioq-24-controle-hormonal/slide-01..56.png",
+    "objetivos": "não fornecidos; escopo derivado integralmente dos slides"
+  },
+  "card_budget": {
+    "lesson_size": "large",
+    "hard_max": 46,
+    "expected_total_cards": 43,
+    "rationale": "56 slides, 3 blocos (lógica do sinal / hidrossolúveis / lipossolúveis). A atomização ingênua rendeu ~54 cards; o teto foi cortado para 46 antes da busca, movendo para opcional o que é lista sem mecanismo (classes químicas, efeitos detalhados de T3) e excluindo do escopo o que pertence a outra aula (quadro clínico de hipo/hipertireoidismo) ou é histórico/metodológico (descoberta da insulina, RIA). Distribuição por peso: PARTE I 12, PARTE II 20, PARTE III 10.",
+    "manual_scope_review": "not_required",
+    "review_rationale": "46 está dentro de sanity_ranges.large [35,55] e abaixo de manual_review_above (60).",
+    "subtopic_allocation": {
+      "I. Logica do sinal hormonal": 10,
+      "II. Hidrossoluveis e glicemia": 23,
+      "III. Lipossoluveis e transcricao": 10
+    },
+    "optional_cards": 2,
+    "io_generated_cards": 12,
+    "counting_note": "planned_cards conta CARDS ANKI REAIS, nao notas (ERROS.md#11). Uma nota de Image Occlusion com N mascaras gera N cards e entra no teto com peso N — foi esse o erro que quase estourou o orcamento: 7 IO planejados a ~5 mascaras somariam ~35 cards sozinhos. IO ficou restrito aos 3 conceitos em que a habilidade cobrada e mesmo identificar/localizar."
+  },
+  "e1": {
+    "path": "../../typst-build/_par_bioq-24-controle-hormonal/etapa1.typ",
+    "sha256": "",
+    "compiled": false,
+    "compile_note": "typst não instalado neste container; E1 não foi renderizada nem revisada em PDF"
+  },
+  "private_sources": {
+    "anking_index": {
+      "status": "pending",
+      "path": "",
+      "sha256": "",
+      "note": "Mestre disponível no Drive (AnKing Step Deck-20260809073811.apkg, 5.9 GB, sha bbcc646c…). Índice v2 já construído e particionado (anking-index-v2.private.sqlite, 564797440 bytes, sha d7ad02e0…). Não hidratado aqui: a troca da chave de serviço por token foi recusada pelo classificador de permissões."
+    },
+    "external_indexes": []
+  },
+  "concepts": [
+    {
+      "id": "1.1",
+      "name_pt": "Três alavancas de regulação e suas escalas de tempo",
+      "name_en": "Three levels of metabolic regulation and their time scales",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "A primeira é a modulação alostérica... A segunda é a modificação covalente... A terceira é o controle da expressão gênica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Contrastar as três alavancas.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-03.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "regulação alostérica",
+              "modificação covalente enzima",
+              "regulação da expressão gênica"
+            ],
+            "en": [
+              "allosteric regulation",
+              "covalent modification",
+              "enzyme regulation time scale"
+            ],
+            "synonyms": [
+              "phosphorylation dephosphorylation"
+            ],
+            "mechanism_or_structure": [
+              "kinase phosphatase cycle"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Enzymes"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.2",
+      "name_pt": "O receptor, não o hormônio, define a célula-alvo",
+      "name_en": "Receptor expression defines the target cell",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o hormônio banha indistintamente todas as células do corpo, mas só produz efeito naquelas que possuem o receptor",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Célula com e sem receptor sob a mesma concentração.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-07.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "célula-alvo receptor hormonal"
+            ],
+            "en": [
+              "target cell receptor specificity",
+              "hormone target tissue"
+            ],
+            "synonyms": [
+              "receptor expression determines response"
+            ],
+            "mechanism_or_structure": [
+              "high affinity receptor"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.3",
+      "name_pt": "Endócrino, parácrino e autócrino",
+      "name_en": "Endocrine, paracrine, autocrine signaling",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Na sinalização endócrina, a molécula cai na corrente sanguínea e age longe",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Distinguir os três alcances.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-10.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "parácrino autócrino endócrino"
+            ],
+            "en": [
+              "paracrine autocrine endocrine signaling"
+            ],
+            "synonyms": [
+              "juxtacrine"
+            ],
+            "mechanism_or_structure": [
+              "signaling distance"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.4",
+      "name_pt": "Regra mestra: solubilidade decide localização do receptor e velocidade da resposta",
+      "name_en": "Solubility determines receptor location and response kinetics",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Hormônio hidrossolúvel (peptídico, catecolamina) não atravessa a membrana → receptor na superfície",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": "Eixo organizador da aula inteira."
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Os dois mecanismos gerais lado a lado.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-15.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "hormônio lipossolúvel receptor intracelular",
+              "hormônio hidrossolúvel receptor de membrana"
+            ],
+            "en": [
+              "lipophilic hormone intracellular receptor",
+              "water soluble hormone surface receptor",
+              "steroid vs peptide hormone mechanism"
+            ],
+            "synonyms": [
+              "hydrophilic hydrophobic hormone"
+            ],
+            "mechanism_or_structure": [
+              "second messenger vs gene transcription"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Hormone_signaling"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.5",
+      "name_pt": "Tireoidiano deriva de tirosina mas age em receptor nuclear",
+      "name_en": "Thyroid hormone is amino-acid derived yet acts on a nuclear receptor",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "a origem biossintética é a mesma (tirosina), mas o que decide o mecanismo é a solubilidade do produto final",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito verbal (contraste conceitual).",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "hormônio tireoidiano receptor nuclear"
+            ],
+            "en": [
+              "thyroid hormone nuclear receptor",
+              "catecholamine vs thyroid hormone receptor"
+            ],
+            "synonyms": [
+              "tyrosine derived hormones"
+            ],
+            "mechanism_or_structure": [
+              "iodination lipophilicity"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Thyroid"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.6",
+      "name_pt": "Tipos de transdutor de sinal",
+      "name_en": "Classes of signal transducers",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Receptor acoplado à proteína G... Receptor tirosina-quinase... Guanilil-ciclase... Canal iônico com portão... Receptor de adesão... Receptor nuclear",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Identificar cada tipo de transdutor no esquema. Máscara deve cobrir o rótulo-nome, não o desenho do receptor.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-13.png",
+        "io_demoted_reason": "Classificar tipos de transdutor e uma tarefa de categoria, nao de localizacao: cloze verbal recupera melhor que mascara."
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "receptor acoplado proteína G",
+              "receptor tirosina quinase"
+            ],
+            "en": [
+              "GPCR",
+              "receptor tyrosine kinase",
+              "guanylyl cyclase receptor",
+              "ligand gated ion channel"
+            ],
+            "synonyms": [
+              "7TM receptor",
+              "metabotropic ionotropic"
+            ],
+            "mechanism_or_structure": [
+              "signal transduction classes"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Cell_signaling"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.7",
+      "name_pt": "Escala de tempo por classe de receptor",
+      "name_en": "Response time scale by receptor class",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Canal iônico controlado por ligante: milissegundos... Receptor acoplado à proteína G: segundos... Receptor nuclear: horas",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Tabela comparativa de escalas.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-14.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "velocidade resposta receptor"
+            ],
+            "en": [
+              "receptor response time scale",
+              "nicotinic vs muscarinic time course"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "ionotropic milliseconds metabotropic seconds"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Pharmacology::Receptors"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.8",
+      "name_pt": "Amplificação em cascata é catalítica",
+      "name_en": "Signal amplification is catalytic, not receptor number",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Cada etapa da cascata é catalítica: uma molécula ativada na etapa anterior ativa muitas na seguinte",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Pirâmide de amplificação.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-16.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "amplificação do sinal segundo mensageiro"
+            ],
+            "en": [
+              "signal amplification cascade",
+              "second messenger amplification"
+            ],
+            "synonyms": [
+              "cAMP amplification"
+            ],
+            "mechanism_or_structure": [
+              "catalytic cascade gain"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Cell_signaling"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.9",
+      "name_pt": "Alta afinidade dos receptores hormonais",
+      "name_en": "High-affinity hormone receptors",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "os receptores hormonais ligam seu ligante com constantes de dissociação na faixa nanomolar ou menor",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "afinidade receptor hormonal"
+            ],
+            "en": [
+              "receptor affinity Kd hormone"
+            ],
+            "synonyms": [
+              "dissociation constant"
+            ],
+            "mechanism_or_structure": [
+              "nanomolar affinity"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Pharmacology::Receptors"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.10",
+      "name_pt": "Pontos de regulação do eixo hormonal",
+      "name_en": "Regulatory points from biosynthesis to degradation",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Biossíntese → Estocagem → Secreção → Transporte → Reconhecimento → Resposta → Degradação",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Sequência verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "pontos de regulação hormonal"
+            ],
+            "en": [
+              "hormone synthesis storage secretion transport degradation"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "hormone life cycle"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "1.11",
+      "name_pt": "Classes químicas de hormônios",
+      "name_en": "Chemical classes of hormones",
+      "subtopic": "I. Lógica do sinal",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "peptídicos (insulina, glucagon), catecolaminas... eicosanoides... esteroides... tireoidianos",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Reconhecer as famílias químicas.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-09.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "classes de hormônios"
+            ],
+            "en": [
+              "hormone classes peptide steroid eicosanoid"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "synthetic path from cholesterol tyrosine arachidonate"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "opcional"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.1",
+      "name_pt": "Processamento pós-traducional da insulina e papel do peptídeo C",
+      "name_en": "Insulin post-translational processing and C-peptide",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "as pontes dissulfeto se formam enquanto a cadeia ainda é contínua (proinsulina) — é o peptídeo C que mantém as cadeias A e B alinhadas",
+      "step1": {
+        "decision": "admitted",
+        "same_theme": true,
+        "source_ref": "peptídeo C como marcador de produção endógena",
+        "rationale": "Mesmo mecanismo (processamento), aprofundamento direto do conteúdo do slide."
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Identificar pré-pró-insulina, proinsulina, peptídeo C, cadeias A e B. Máscara sobre o rótulo, não sobre a estrutura.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-22.png",
+        "io_demoted_reason": "A sequencia pre-pro -> pro -> madura e ordinal, nao topografica; cloze encadeado testa a ordem sem depender da figura."
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "proinsulina peptídeo C"
+            ],
+            "en": [
+              "preproinsulin proinsulin C-peptide",
+              "insulin processing"
+            ],
+            "synonyms": [
+              "connecting peptide"
+            ],
+            "mechanism_or_structure": [
+              "disulfide bond formation insulin"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Endocrine::Insulin"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.2",
+      "name_pt": "Cadeia de secreção de insulina na célula β",
+      "name_en": "Glucose-stimulated insulin secretion in the beta cell",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "GLUT2 → glicólise e oxidação → ↑ATP → fechamento do canal KATP → despolarização → abertura do canal de Ca2+ voltagem-dependente → exocitose da insulina",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "image_occlusion",
+        "task": "Identificar GLUT2, canal KATP, canal de Ca2+ voltagem-dependente e vesicula secretora. Mascara sobre cada rotulo, nunca sobre a organela.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-26.png",
+        "io_mode": "hide_all_guess_all",
+        "mask_count": 4,
+        "counts_as_cards": 4
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "secreção de insulina célula beta canal de potássio"
+            ],
+            "en": [
+              "glucose stimulated insulin secretion",
+              "KATP channel beta cell depolarization"
+            ],
+            "synonyms": [
+              "ATP sensitive potassium channel"
+            ],
+            "mechanism_or_structure": [
+              "GLUT2 glucokinase ATP depolarization calcium exocytosis"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Pancreas"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 4
+    },
+    {
+      "id": "2.3",
+      "name_pt": "ATP fecha o canal KATP",
+      "name_en": "ATP closes the KATP channel",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o nome do canal é \"sensível a ATP\", e o efeito do ATP é fechá-lo",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Correção conceitual verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "canal de potássio sensível a ATP fecha"
+            ],
+            "en": [
+              "ATP closes KATP channel",
+              "KATP channel inhibition depolarization"
+            ],
+            "synonyms": [
+              "SUR1 Kir6.2"
+            ],
+            "mechanism_or_structure": [
+              "potassium efflux membrane potential"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Pancreas"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.4",
+      "name_pt": "Glicoquinase vs hexoquinase: Km e função",
+      "name_en": "Glucokinase vs hexokinase: Km and physiological role",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "A glicoquinase (fígado e célula β) tem Km alto — baixa afinidade — e por isso sua velocidade continua subindo conforme a glicemia sobe",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Curva v0/Vmax vs glicose com a glicemia basal marcada; sem a curva o contraste de Km não se sustenta.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-25.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "glicoquinase hexoquinase Km"
+            ],
+            "en": [
+              "glucokinase hexokinase Km affinity",
+              "hexokinase IV liver"
+            ],
+            "synonyms": [
+              "glucose sensor enzyme"
+            ],
+            "mechanism_or_structure": [
+              "product inhibition glucose 6 phosphate"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Glycolysis"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.5",
+      "name_pt": "Família GLUT e dependência de insulina",
+      "name_en": "GLUT transporter family and insulin dependence",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "GLUT4 (músculo esquelético, adiposo, coração) é o dependente de insulina",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Identificar tecido e dependência de insulina por transportador. Máscara sobre a coluna de tecido/propriedade.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-24.png",
+        "io_demoted_reason": "Tabela de texto: IO sobre celula de tabela vira leitura, nao reconhecimento morfologico."
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "GLUT4 dependente de insulina"
+            ],
+            "en": [
+              "GLUT1 GLUT2 GLUT3 GLUT4 tissue distribution",
+              "insulin dependent glucose transporter"
+            ],
+            "synonyms": [
+              "glucose transporter family"
+            ],
+            "mechanism_or_structure": [
+              "GLUT4 translocation"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Glycolysis"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.6",
+      "name_pt": "Sulfonilureias fecham o KATP",
+      "name_en": "Sulfonylureas inhibit the KATP channel",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "As sulfonilureias (glibenclamida) inibem o canal KATP, imitando o efeito do ATP",
+      "step1": {
+        "decision": "admitted",
+        "same_theme": true,
+        "source_ref": "slide 27 (DM II)",
+        "rationale": "Fármaco explicitamente no slide, agindo no mesmo canal já explicado."
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Ponto de ação no esquema da célula β.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-27.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "sulfonilureia mecanismo"
+            ],
+            "en": [
+              "sulfonylurea KATP channel mechanism",
+              "glyburide glibenclamide"
+            ],
+            "synonyms": [
+              "SUR1 receptor"
+            ],
+            "mechanism_or_structure": [
+              "insulin secretagogue"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Pharmacology::Endocrine::Diabetes"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.7",
+      "name_pt": "Diazóxido abre o KATP; insulinoma",
+      "name_en": "Diazoxide opens KATP; insulinoma",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o diazóxido é um ativador do canal KATP: mantém o canal aberto, impede a despolarização e reduz a secreção de insulina",
+      "step1": {
+        "decision": "admitted",
+        "same_theme": true,
+        "source_ref": "slide 28",
+        "rationale": "Direção oposta no mesmo canal; consolida o mecanismo."
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "diazóxido insulinoma"
+            ],
+            "en": [
+              "diazoxide KATP opener",
+              "insulinoma hypoglycemia treatment"
+            ],
+            "synonyms": [
+              "potassium channel agonist"
+            ],
+            "mechanism_or_structure": [
+              "hyperpolarization inhibits insulin secretion"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Pharmacology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.8",
+      "name_pt": "Efeitos metabólicos da insulina e enzimas-alvo",
+      "name_en": "Metabolic effects of insulin and target enzymes",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "A insulina é o hormônio do estado alimentado, e todos os seus efeitos podem ser derivados de uma única frase: guardar o excesso de nutriente",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Tabela efeito → enzima-alvo.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-33.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "efeitos da insulina fígado músculo"
+            ],
+            "en": [
+              "insulin metabolic effects target enzymes",
+              "insulin anabolic effects"
+            ],
+            "synonyms": [
+              "fed state hormone"
+            ],
+            "mechanism_or_structure": [
+              "glycogen synthase acetyl-CoA carboxylase PFK-2"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Metabolism::Insulin"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.9",
+      "name_pt": "Glicogênio fosforilase: formas b/a e moduladores alostéricos",
+      "name_en": "Glycogen phosphorylase b/a and allosteric modulators",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "fosforilase b, menos ativa, e fosforilase a, fosforilada pela fosforilase quinase e mais ativa",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Quadro de quatro estados com os dois eixos independentes.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-31.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "glicogênio fosforilase a b AMP"
+            ],
+            "en": [
+              "glycogen phosphorylase a b AMP ATP glucose 6 phosphate",
+              "phosphorylase kinase"
+            ],
+            "synonyms": [
+              "T form R form"
+            ],
+            "mechanism_or_structure": [
+              "allosteric and covalent regulation"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Glycogen"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.10",
+      "name_pt": "Sintase e fosforilase reguladas em espelho pela fosforilação",
+      "name_en": "Reciprocal regulation of glycogen synthase and phosphorylase",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o mesmo evento — adicionar fosfato — ativa a fosforilase e inativa a sintase",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Ciclo sintase b/a com GSK3 e PP1.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-30.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "glicogênio sintase fosforilação inativa"
+            ],
+            "en": [
+              "glycogen synthase phosphorylation inactivates",
+              "reciprocal regulation glycogen"
+            ],
+            "synonyms": [
+              "synthase a b GSK3"
+            ],
+            "mechanism_or_structure": [
+              "PP1 dephosphorylation"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Glycogen"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.11",
+      "name_pt": "Insulina via PKB: PP1, GSK3 e fosfodiesterase",
+      "name_en": "Insulin signaling via PKB on PP1, GSK3 and PDE",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "pela PKB, ela ativa a PP1..., inativa a GSK3... e ativa a fosfodiesterase, que degrada o AMPc",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Cascata de quatro ramos convergentes.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-32.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "insulina PKB PP1 GSK3"
+            ],
+            "en": [
+              "insulin Akt PKB glycogen synthase kinase 3",
+              "phosphodiesterase cAMP degradation"
+            ],
+            "synonyms": [
+              "protein kinase B"
+            ],
+            "mechanism_or_structure": [
+              "insulin counteracts PKA"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Cell_signaling"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.12",
+      "name_pt": "Glucagon: origem, estímulos e inibidores",
+      "name_en": "Glucagon: alpha cells, stimuli and inhibitors",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Sua secreção é estimulada por hipoglicemia, epinefrina e aumento de aminoácidos séricos, e inibida por insulina, corpos cetônicos e ureia",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Ilhota com α/β/δ.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-36.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "glucagon células alfa ilhotas"
+            ],
+            "en": [
+              "glucagon alpha cells islets of Langerhans",
+              "glucagon secretion stimuli"
+            ],
+            "synonyms": [
+              "29 amino acid peptide"
+            ],
+            "mechanism_or_structure": [
+              "islet cell types somatostatin delta"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Pancreas"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.13",
+      "name_pt": "Proglucagon: processamento tecido-específico gera glucagon ou GLP-1",
+      "name_en": "Tissue-specific proglucagon processing yields glucagon or GLP-1",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Na célula α pancreática, a PCSK2 predomina e o produto é o glucagon; no intestino e no cérebro, a PCSK1/3 predomina e o produto é o GLP-1",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Clivagem dupla do proglucagon.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-37.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "proglucagon GLP-1"
+            ],
+            "en": [
+              "proglucagon processing GLP-1 PCSK1 PCSK2",
+              "tissue specific prohormone processing"
+            ],
+            "synonyms": [
+              "prohormone convertase"
+            ],
+            "mechanism_or_structure": [
+              "same gene different products"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Pancreas"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.14",
+      "name_pt": "Cascata do AMPc: do receptor 7TM à fosforilase a",
+      "name_en": "cAMP cascade from 7TM receptor to phosphorylase a",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o hormônio liga-se ao receptor de sete domínios transmembrana (7TM), que ativa a proteína G trimérica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Identificar cada nível da cascata. Máscara sobre os rótulos das proteínas.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-38.png",
+        "io_demoted_reason": "Cascata e sequencia nominal; cloze verbal preserva a ordem e evita 6+ mascaras para um unico mecanismo."
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "cascata AMPc PKA fosforilase"
+            ],
+            "en": [
+              "cAMP PKA phosphorylase kinase cascade",
+              "adenylate cyclase G protein GTP"
+            ],
+            "synonyms": [
+              "7TM GPCR glucagon receptor"
+            ],
+            "mechanism_or_structure": [
+              "Gs alpha subunit adenylyl cyclase"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Cell_signaling"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.15",
+      "name_pt": "Efeitos hepáticos do glucagon",
+      "name_en": "Hepatic effects of glucagon",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "aumenta a degradação de glicogênio, reduz a síntese de glicogênio, freia a glicólise, estimula a gliconeogênese",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Tabela efeito → enzima-alvo.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-39.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "efeitos do glucagon fígado"
+            ],
+            "en": [
+              "glucagon effects gluconeogenesis ketogenesis",
+              "glucagon target enzymes"
+            ],
+            "synonyms": [
+              "fasting hormone"
+            ],
+            "mechanism_or_structure": [
+              "FBPase-2 PFK-1 pyruvate kinase"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Metabolism"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "2.16",
+      "name_pt": "Biossíntese das catecolaminas e etapa limitante",
+      "name_en": "Catecholamine biosynthesis and rate-limiting step",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "A tirosina hidroxilase é a etapa limitante da velocidade",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "image_occlusion",
+        "task": "Identificar as quatro enzimas da via (tirosina hidroxilase, DOPA descarboxilase, dopamina beta-hidroxilase, PNMT). Mascara sobre o rotulo da enzima; os intermediarios ficam visiveis.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-41.png",
+        "io_mode": "hide_all_guess_all",
+        "mask_count": 4,
+        "counts_as_cards": 4
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "biossíntese catecolaminas tirosina hidroxilase"
+            ],
+            "en": [
+              "catecholamine synthesis tyrosine hydroxylase rate limiting",
+              "DOPA decarboxylase dopamine beta hydroxylase PNMT"
+            ],
+            "synonyms": [
+              "norepinephrine epinephrine synthesis"
+            ],
+            "mechanism_or_structure": [
+              "phenylalanine hydroxylase tyrosine"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Amino_acid_derivatives"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 4
+    },
+    {
+      "id": "2.17",
+      "name_pt": "Efeitos fisiológicos e metabólicos da epinefrina",
+      "name_en": "Physiological and metabolic effects of epinephrine",
+      "subtopic": "II. Hidrossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Os fisiológicos — aumento da frequência cardíaca, da pressão arterial e dilatação das vias respiratórias — servem a entregar mais oxigênio",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Tabela efeitos imediatos vs globais.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-42.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "efeitos da epinefrina metabolismo"
+            ],
+            "en": [
+              "epinephrine metabolic effects fight or flight",
+              "epinephrine glycogenolysis lipolysis"
+            ],
+            "synonyms": [
+              "adrenaline stress response"
+            ],
+            "mechanism_or_structure": [
+              "increases glucagon decreases insulin"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Adrenal"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.1",
+      "name_pt": "T4 como pró-hormônio; deiodinases e rT3",
+      "name_en": "T4 as prohormone; deiodinases and reverse T3",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "A conversão de T4 em T3 acontece nos tecidos periféricos, pelas deiodinases (DIO1/DIO2), removendo um iodo do anel externo",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "recognition",
+        "mode": "extra_image",
+        "task": "Estruturas T4/T3/rT3 e posição do iodo.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-43.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "T4 T3 deiodinase T3 reverso"
+            ],
+            "en": [
+              "T4 prohormone deiodinase reverse T3",
+              "outer ring inner ring deiodination"
+            ],
+            "synonyms": [
+              "thyroxine triiodothyronine"
+            ],
+            "mechanism_or_structure": [
+              "peripheral conversion DIO1 DIO2 DIO3"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Thyroid"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.2",
+      "name_pt": "Eixo TRH-TSH e feedback negativo",
+      "name_en": "TRH-TSH axis and negative feedback",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o hipotálamo libera TRH, que faz a hipófise liberar TSH, que faz a tireoide produzir T4 e T3",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Eixo com alças de feedback.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-44.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "eixo hipotálamo hipófise tireoide"
+            ],
+            "en": [
+              "TRH TSH thyroid axis negative feedback"
+            ],
+            "synonyms": [
+              "HPT axis"
+            ],
+            "mechanism_or_structure": [
+              "feedback inhibition pituitary"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Thyroid"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.3",
+      "name_pt": "Síntese dos esteroides adrenais a partir do colesterol",
+      "name_en": "Adrenal steroid synthesis from cholesterol",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Todos os hormônios esteroides derivam do colesterol. No córtex adrenal, a via se ramifica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "recognition",
+        "mode": "image_occlusion",
+        "task": "Identificar as hidroxilases que definem cada ramo (desmolase, 17-alfa, 21-alfa, 11-beta). Mascara sobre o rotulo da enzima.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-52.png",
+        "io_mode": "hide_all_guess_all",
+        "mask_count": 4,
+        "counts_as_cards": 4
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "síntese esteroides adrenal colesterol"
+            ],
+            "en": [
+              "adrenal steroidogenesis cholesterol pregnenolone",
+              "21 hydroxylase 17 hydroxylase 11 beta hydroxylase"
+            ],
+            "synonyms": [
+              "desmolase side chain cleavage"
+            ],
+            "mechanism_or_structure": [
+              "zona glomerulosa fasciculata reticularis"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Adrenal"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 4
+    },
+    {
+      "id": "3.4",
+      "name_pt": "Mecanismo do receptor nuclear: HSP90, dimerização, elemento responsivo, coativador",
+      "name_en": "Nuclear receptor mechanism: HSP90, dimerization, response element, coactivator",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "o receptor de glicocorticoide está no citoplasma preso a chaperonas, notadamente a HSP90, que o mantêm inativo",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Percurso membrana → HSP90 → núcleo → elemento responsivo.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-53.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "receptor nuclear HSP90 elemento responsivo"
+            ],
+            "en": [
+              "nuclear receptor HSP90 glucocorticoid response element",
+              "steroid receptor dimerization coactivator"
+            ],
+            "synonyms": [
+              "ligand activated transcription factor"
+            ],
+            "mechanism_or_structure": [
+              "GRE TRE hormone response element"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Biochemistry::Gene_expression"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.5",
+      "name_pt": "Eixo HPA e ACTH/MSH na hiperpigmentação de Addison",
+      "name_en": "HPA axis; ACTH/MSH overlap and Addison hyperpigmentation",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "os primeiros 13 aminoácidos do ACTH correspondem ao MSH... por isso o excesso de ACTH escurece a pele",
+      "step1": {
+        "decision": "admitted",
+        "same_theme": true,
+        "source_ref": "slide 51",
+        "rationale": "Consequência direta do eixo desenhado no slide; explica sinal clínico pelo mecanismo, sem virar aula de endocrinologia."
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Eixo HPA com feedback e nota ACTH/MSH.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-51.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "Addison hiperpigmentação ACTH"
+            ],
+            "en": [
+              "Addison disease hyperpigmentation ACTH MSH",
+              "POMC melanocyte stimulating hormone"
+            ],
+            "synonyms": [
+              "primary adrenal insufficiency"
+            ],
+            "mechanism_or_structure": [
+              "CRH ACTH cortisol feedback"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Adrenal"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.6",
+      "name_pt": "Efeitos do cortisol por tecido",
+      "name_en": "Tissue-specific effects of cortisol",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "no fígado, promove gliconeogênese...; no músculo esquelético, inibe a captação de glicose e aumenta a degradação proteica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Efeitos organizados por tecido.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-54.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "efeitos do cortisol gliconeogênese"
+            ],
+            "en": [
+              "cortisol metabolic effects gluconeogenesis proteolysis",
+              "glucocorticoid insulin resistance"
+            ],
+            "synonyms": [
+              "stress hormone catabolic"
+            ],
+            "mechanism_or_structure": [
+              "cortisol liver muscle adipose pancreas"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Adrenal"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.7",
+      "name_pt": "Disruptores endócrinos: mimético vs bloqueador",
+      "name_en": "Endocrine disruptors: mimic vs blocker",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "nuclear",
+      "e1_anchor": "Como miméticos, ligam-se ao receptor e o ativam... Como bloqueadores, ligam-se ao receptor sem ativá-lo",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Três painéis: normal, mimético, bloqueador.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-55.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "disruptores endócrinos"
+            ],
+            "en": [
+              "endocrine disruptor receptor agonist antagonist",
+              "xenoestrogen"
+            ],
+            "synonyms": [
+              "hormone mimic hormone blocker"
+            ],
+            "mechanism_or_structure": [
+              "receptor occupancy without activation"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "nucleo"
+      ],
+      "planned_cards": 1
+    },
+    {
+      "id": "3.8",
+      "name_pt": "Efeitos do T3 por órgão",
+      "name_en": "Organ-level effects of T3",
+      "subtopic": "III. Lipossolúveis",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "no coração, frequência e hipertrofia; no osso, crescimento e maturação; no cérebro, crescimento neuronal",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "mechanism",
+        "mode": "extra_image",
+        "task": "Efeitos por órgão-alvo.",
+        "status": "planned",
+        "asset": "figuras/bioq-24-controle-hormonal/slide-46.png"
+      },
+      "route": {
+        "source": "pending",
+        "coverage_quality": null,
+        "coverage_rationale": "",
+        "card_refs": [],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "not_started",
+          "anking_count": null,
+          "external_count": null,
+          "query_families": {
+            "pt": [
+              "efeitos hormônio tireoidiano"
+            ],
+            "en": [
+              "thyroid hormone effects heart bone brain"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "T3 target organs"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Physiology::Endocrine::Thyroid"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": ""
+        }
+      },
+      "tags": [
+        "opcional"
+      ],
+      "planned_cards": 1
+    }
+  ],
+  "excluded_from_scope": [
+    {
+      "item": "Descoberta da insulina (Banting/Best, 1921-1923)",
+      "reason": "histórico; não é mecanismo nem alvo de retenção"
+    },
+    {
+      "item": "RIA / radioimunoensaio",
+      "reason": "método de dosagem; fora do eixo mecanístico da aula"
+    },
+    {
+      "item": "Quadro clínico de hipo/hipertireoidismo (slide 47)",
+      "reason": "ERROS.md#3 — lista de sinais/sintomas exige outra aula; a aula é de mecanismo bioquímico"
+    },
+    {
+      "item": "Doença de Cushing além da definição",
+      "reason": "conduta e diagnóstico pertencem a endocrinologia clínica"
+    },
+    {
+      "item": "Minoxidil / hipertensão (nota lateral do slide 28)",
+      "reason": "vizinho high-yield fora do tema"
+    }
+  ],
+  "cards": [],
+  "cards_note": "Vazio por bloqueio: source_priority exige AnKing → externos → autoral (config/pipeline.json). Sem o índice hidratado não é possível buscar candidatos nem documentar rejeição real, e ERROS.md#5 proíbe autorar antes da busca. Os 42 cards previstos estão alocados por conceito em planned_cards."
+}
