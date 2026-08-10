@@ -125,23 +125,60 @@ def derivar_cloze_nebli(base: dict) -> dict:
                 '<div class="meta">{{Tema}}</div>',
                 template[chave],
             )
+    modelo["css"] = CLOZE_CSS
     return modelo
 
 
+CLOZE_CSS = """
+.card { font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+        font-size: 20px; line-height: 1.55; text-align: left;
+        color: #1F2E3D;
+        padding: 24px clamp(16px, 4vw, 40px) 40px; }
+@media (min-width: 900px) { .card { font-size: 22px; } }
+
+/* Uma coluna só. O cabeçalho fora do contêiner era o que desalinhava o card:
+   `.meta` colava na borda e o texto ficava centralizado num miolo estreito. */
+.meta, .prompt, .extra, .media, .source, hr#answer {
+  max-width: 44rem; margin-left: auto; margin-right: auto; }
+
+.meta { font-size: .62em; letter-spacing: .1em; text-transform: uppercase;
+        font-weight: 700; color: #0E6B7A; margin-bottom: 1.1em; }
+.prompt { text-wrap: pretty; }
+.cloze { font-weight: 700; color: #0B5F6B;
+         background: rgba(14, 107, 122, .12);
+         padding: .05em .3em; border-radius: .25em; }
+hr#answer { border: 0; border-top: 1px solid #D8D2C5; margin: 1.6em auto 1.2em; }
+.extra { font-size: .84em; color: #3E4C5A; }
+.media { margin-top: 1.1em; text-align: center; }
+.media img { max-width: 100%; max-height: 62vh; height: auto;
+             object-fit: contain; background: #fff; border-radius: 8px;
+             box-shadow: 0 1px 4px rgba(0,0,0,.14); }
+.source { margin-top: 1.4em; font-size: .55em; color: #8A94A0; }
+
+/* AnkiDroid antigo usa .nightMode; as versões novas usam .night_mode. */
+.night_mode .card, .nightMode .card, .card.night_mode { color: #E6EAF0; }
+.night_mode .meta, .nightMode .meta { color: #56C4D4; }
+.night_mode .cloze, .nightMode .cloze {
+  color: #7FDCEA; background: rgba(86, 196, 212, .16); }
+.night_mode .extra, .nightMode .extra { color: #C3CEDA; }
+.night_mode .source, .nightMode .source { color: #7C8794; }
+.night_mode hr#answer, .nightMode hr#answer { border-top-color: #3A424C; }
+"""
+
 IO_CSS = """
 .card { font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
-        font-size: 19px; text-align: center; color: #1F2E3D; background: #fff; }
-.night_mode .card, .card.night_mode { color: #E6EAF0; background: #1B1F24; }
+        font-size: 19px; text-align: center; color: #1F2E3D; }
+.night_mode .card, .nightMode .card, .card.night_mode { color: #E6EAF0; }
 .io-header { font-size: 17px; font-weight: 600; color: #0E6B7A;
              margin: 0 auto 14px; max-width: 46em; line-height: 1.45; }
-.night_mode .io-header { color: #56C4D4; }
+.night_mode .io-header, .nightMode .io-header { color: #56C4D4; }
 .io-img img { max-width: 100%; height: auto; border-radius: 6px;
               box-shadow: 0 1px 4px rgba(0,0,0,.18); }
 hr#answer { border: none; border-top: 1px solid #D8D2C5; margin: 18px auto; max-width: 40em; }
-.night_mode hr#answer { border-top-color: #3A424C; }
+.night_mode hr#answer, .nightMode hr#answer { border-top-color: #3A424C; }
 .io-extra { font-size: 16px; margin: 10px auto; max-width: 44em; }
 .io-labels { font-size: 15px; color: #475569; margin: 8px auto; max-width: 44em; line-height: 1.6; }
-.night_mode .io-labels { color: #9FB0C2; }
+.night_mode .io-labels, .nightMode .io-labels { color: #9FB0C2; }
 .io-src { font-size: 12px; color: #8A94A0; margin-top: 14px; }
 """
 

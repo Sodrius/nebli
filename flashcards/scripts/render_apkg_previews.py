@@ -32,13 +32,16 @@ CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::(.*?))?\}\}", re.S)
 COND_RE = re.compile(r"\{\{#([^}]+)\}\}(.*?)\{\{/\1\}\}", re.S)
 NEG_RE = re.compile(r"\{\{\^([^}]+)\}\}(.*?)\{\{/\1\}\}", re.S)
 
+# O Anki envolve o card em <div class="card"> e não impõe contêiner nenhum além
+# disso. A primeira versão deste harness acrescentava um `#qa { max-width }`
+# próprio — e com isso escondeu um CSS que desalinhava o cabeçalho no aparelho
+# real. Preview que não reproduz o DOM de verdade não serve de gate.
 PAGINA = """<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {{ margin:0; padding:18px; background:#fff; font-family: system-ui, sans-serif; }}
-#qa {{ max-width: 1100px; margin: 0 auto; }}
-img {{ max-width: 100%; height: auto; }}
+html, body {{ margin: 0; padding: 0; background: {fundo}; }}
 {css}
-</style></head><body><div id="qa">{corpo}</div></body></html>"""
+</style></head><body class="{corpo_classe}"><div class="card {corpo_classe}">{corpo}</div></body></html>"""
 
 
 def render_cloze(texto: str, ordinal: int, resposta: bool) -> str:
@@ -82,7 +85,9 @@ def main() -> int:
     ap.add_argument("apkg")
     ap.add_argument("--out-dir", required=True)
     ap.add_argument("--only", action="append", default=[])
-    ap.add_argument("--width", type=int, default=1120)
+    ap.add_argument("--width", type=int, default=1120,
+                    help="largura do viewport; use ~1500 para simular tablet em paisagem")
+    ap.add_argument("--night", action="store_true", help="renderiza em modo noturno")
     ap.add_argument("--chromium", default="/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
                     help="binário do Chromium já presente no ambiente")
     args = ap.parse_args()
@@ -132,7 +137,11 @@ def main() -> int:
             faces = {}
             for face, corpo in (("pergunta", frente_html), ("resposta", verso_html)):
                 arquivo = trabalho / f"{chave}-{face}.html"
-                arquivo.write_text(PAGINA.format(css=modelo["css"], corpo=corpo), encoding="utf-8")
+                arquivo.write_text(
+                    PAGINA.format(css=modelo["css"], corpo=corpo,
+                                  corpo_classe="night_mode nightMode" if args.night else "",
+                                  fundo="#2c2c2c" if args.night else "#ffffff"),
+                    encoding="utf-8")
                 pagina.goto(arquivo.as_uri())
                 pagina.wait_for_timeout(450)
                 destino = saida / f"{chave}-{face}.png"

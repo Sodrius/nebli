@@ -235,6 +235,30 @@ A sugestão enganosa foi corrigida no próprio cronograma.
 
 ---
 
+## 13. O harness de preview estava mentindo
+
+O item 6 comemorou cedo demais. O renderizador embrulhava o card num contêiner próprio
+(`#qa { max-width: 1100px; margin: 0 auto }`), coisa que o Anki não faz — ele põe o card
+dentro de um único `<div class="card">` e deixa o CSS do note type mandar. Esse contêiner
+extra **centralizava e limitava tudo**, e com isso escondeu um defeito real do CSS herdado:
+`.meta` não tinha `max-width`/`margin: auto` e colava na borda esquerda, enquanto o texto
+ficava numa tira centralizada de 760 px. No tablet o card parecia partido ao meio.
+
+Também faltava simular o fundo: em modo noturno o Anki pinta escuro, o harness não pintava,
+e um preview de texto claro sobre branco não diz nada sobre contraste.
+
+**Feito.** O harness passou a reproduzir o DOM do Anki (`<div class="card">`, sem contêiner
+extra), a aceitar `--width` para simular tablet em paisagem e `--night` para modo noturno com
+o fundo certo. O CSS do cloze foi reescrito: uma coluna só para cabeçalho, enunciado, Extra,
+imagem e fonte; medidas relativas; realce de cloze; e `.night_mode` **e** `.nightMode`, porque
+AnkiDroid antigo usa o segundo. O fundo do card ficou por conta do Anki — pintar só a `div`
+cobre a altura do conteúdo e deixa o resto da tela na cor padrão.
+
+**Combinado.** Preview que não reproduz o ambiente real não é gate, é enfeite. Toda aula
+renderiza em largura de tablet e em modo noturno, e o preview é olhado nos dois.
+
+---
+
 ## Mudanças de canon — aplicadas nesta corrida
 
 1. `docs/canon/VISUAL-E-IO.md` — regra da máscara (item 3), varredura de rótulos

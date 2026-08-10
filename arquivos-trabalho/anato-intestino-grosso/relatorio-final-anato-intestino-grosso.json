@@ -14,8 +14,8 @@
     "e1_fonte": "typst-build/anato-intestino-grosso/etapa1.typ",
     "e1_sha256": "20d4ceb6c83f74e8e86be7329b342afe2cef0112ca97bd9327da68add3fad64f",
     "apkg": "Intestino grosso, reto e canal anal.apkg",
-    "apkg_sha256": "50f868368591a0c1fc3601a844e26fd77629243c23ed03c8b866e905449a7d73",
-    "apkg_bytes": 12597842,
+    "apkg_sha256": "b2a147c349226f1a4f128ee244b24fda623fe8605231746cff32105fc882f121",
+    "apkg_bytes": 12590793,
     "previews": "previews/ (pergunta e resposta de cada card)"
   },
   "cobertura": {

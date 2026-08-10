@@ -28,7 +28,7 @@ A renderização é em **navegador de verdade**, por
 `flashcards/scripts/render_apkg_previews.py`: ele aplica o template do note type às notas do
 pacote e fotografa pergunta e resposta de cada card. Relatório JSON não vê tela — foi assim
 que passou despercebido um note type de IO cuja frente não exibia imagem nenhuma. Os PNGs
-precisam ser olhados, não apenas gerados.
+precisam ser olhados, não apenas gerados. O renderizador reproduz o DOM do Anki (`<div class="card">`, sem contêiner extra); rodar em largura de tablet (`--width 1500`) e em modo noturno (`--night`) faz parte do gate, porque é onde aparecem desalinhamento de coluna e contraste ruim.
 
 O AnKing completo, índices e shards de mídia ficam em armazenamento privado.
 O GitHub contém apenas código, schemas e manifestos sem conteúdo protegido.
