@@ -39,6 +39,7 @@ public class MainActivity extends Activity {
     private static final Uri SCHEDULE = Uri.parse("content://com.ichi2.anki.flashcards/schedule");
     private TextView status;
     private JSONObject pendingManifest;
+    private boolean pendingConnectionTest = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +62,14 @@ public class MainActivity extends Activity {
         box.addView(title);
 
         TextView desc = new TextView(this);
-        desc.setText("Instala manifests NEBLI diretamente no AnkiDroid. Decks fonte são somente leitura.");
+        desc.setText("Conecta o Nebli ao AnkiDroid. Decks fonte são somente leitura.");
         desc.setPadding(0, 16, 0, 24);
         box.addView(desc);
+
+        Button test = new Button(this);
+        test.setText("Testar conexão com AnkiDroid");
+        test.setOnClickListener(v -> requestOrTestConnection());
+        box.addView(test);
 
         Button open = new Button(this);
         open.setText("Selecionar manifesto .json");
@@ -76,7 +82,7 @@ public class MainActivity extends Activity {
         box.addView(open);
 
         status = new TextView(this);
-        status.setText("Pronto.");
+        status.setText("Pronto. Primeiro teste a conexão com o AnkiDroid.");
         status.setTextIsSelectable(true);
         status.setPadding(0, 24, 0, 0);
         box.addView(status);
@@ -84,6 +90,43 @@ public class MainActivity extends Activity {
         ScrollView scroll = new ScrollView(this);
         scroll.addView(box);
         return scroll;
+    }
+
+    private void requestOrTestConnection() {
+        if (checkSelfPermission(ANKI_PERMISSION) != PackageManager.PERMISSION_GRANTED) {
+            pendingConnectionTest = true;
+            status.setText("Solicitando permissão do AnkiDroid…");
+            requestPermissions(new String[]{ANKI_PERMISSION}, REQ_ANKI);
+            return;
+        }
+        testConnectionAsync();
+    }
+
+    private void testConnectionAsync() {
+        status.setText("Testando acesso à coleção…");
+        new Thread(() -> {
+            String message;
+            try {
+                ContentResolver cr = getContentResolver();
+                int notesCount = 0;
+                try (Cursor c = cr.query(NOTES, new String[]{"_id"}, null, null, null)) {
+                    if (c == null) throw new IllegalStateException("AnkiDroid não respondeu ao Content Provider");
+                    notesCount = c.getCount();
+                }
+                int decksCount = 0;
+                try (Cursor c = cr.query(DECKS, new String[]{"deck_id"}, null, null, null)) {
+                    if (c == null) throw new IllegalStateException("AnkiDroid não retornou os decks");
+                    decksCount = c.getCount();
+                }
+                message = "Conexão OK. Nebli consegue ler o AnkiDroid. Notas visíveis: " + notesCount + " | decks: " + decksCount + ".";
+            } catch (SecurityException e) {
+                message = "Sem permissão para acessar o AnkiDroid. Verifique se a API está habilitada no AnkiDroid e conceda a permissão ao Nebli Companion.";
+            } catch (Exception e) {
+                message = "Falha na conexão: " + e.getClass().getSimpleName() + ": " + e.getMessage();
+            }
+            String finalMessage = message;
+            runOnUiThread(() -> status.setText(finalMessage));
+        }).start();
     }
 
     @Override
@@ -97,14 +140,23 @@ public class MainActivity extends Activity {
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == REQ_ANKI && pendingManifest != null) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                JSONObject m = pendingManifest;
-                pendingManifest = null;
-                installAsync(m);
-            } else {
-                status.setText("Permissão do AnkiDroid negada. Ative a API do AnkiDroid e conceda acesso.");
-            }
+        if (requestCode != REQ_ANKI) return;
+        boolean granted = grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
+        if (!granted) {
+            pendingManifest = null;
+            pendingConnectionTest = false;
+            status.setText("Permissão do AnkiDroid negada. Ative a API do AnkiDroid e conceda acesso ao Nebli Companion.");
+            return;
+        }
+        if (pendingConnectionTest) {
+            pendingConnectionTest = false;
+            testConnectionAsync();
+            return;
+        }
+        if (pendingManifest != null) {
+            JSONObject m = pendingManifest;
+            pendingManifest = null;
+            installAsync(m);
         }
     }
 
@@ -119,7 +171,7 @@ public class MainActivity extends Activity {
             }
             installAsync(manifest);
         } catch (Exception e) {
-            status.setText("Falha ao abrir manifesto: " + e.getMessage());
+            status.setText("Manifesto inválido: " + e.getMessage() + ". Use um manifesto gerado pelo pipeline Nebli; para testar a API, use o botão acima.");
         }
     }
 
