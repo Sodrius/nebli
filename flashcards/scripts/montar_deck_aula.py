@@ -1,106 +1,144 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""montar_deck_aula.py -- monta e exporta um deck-aula P3.
+"""Monta o destino do deck-aula.
 
-Fluxo do deck-prova novo (curar real > autorar):
-  1. Cards REAIS curados vivem nos decks de Referencia (LLU/BlueLink/Dope/Histology)
-     e no AnKing, marcados com a tag NEBLI::<slug>. Este script os COPIA para o
-     deck-aula alvo (addNote, allowDuplicate) preservando modelo+campos+tags,
-     deixando os decks-fonte intactos. Idempotente: nao recopia o que ja esta la
-     (casa pelo texto bruto do 1o campo).
-  2. Cards AUTORAIS (EN, craft corrigido) ja foram add direto no deck-aula por
-     build_card.py -- este script nao mexe neles.
-  3. Opcional: exportPackage do deck-aula para .apkg.
+Backends:
+  ankidroid (padrão): gera manifesto para o Nebli Companion no tablet. Não exige
+    AnkiConnect, Drive, Colab ou APKG.
+  desktop: fallback legado via AnkiConnect; copia notas para o deck-alvo e pode
+    exportar APKG.
 
-Uso:
-  python flashcards/scripts/montar_deck_aula.py --slug histo-09-vasos \
-      --deck "NEBLI::UC02::P3::Bio celular e tecidual::Histologia dos vasos" \
-      [--export "flashcards/decks-apkg/Histologia dos vasos.apkg"] [--dry]
+A cópia AnKing é fiel: nenhum campo é prefixado/rewrite. Proveniência entra apenas
+como tag/metadata do lote.
 """
-import argparse, json, os, re, sys, urllib.request
-try: sys.stdout.reconfigure(encoding="utf-8")
-except Exception: pass
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.request
+from pathlib import Path
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 AC = "http://localhost:8765"
-_WS = re.compile(r"\s+"); _TAG = re.compile(r"<[^>]+>")
+_WS = re.compile(r"\s+")
+_TAG = re.compile(r"<[^>]+>")
+
 
 def call(action, **params):
-    req = urllib.request.Request(AC, json.dumps(
-        {"action": action, "version": 6, "params": params}).encode("utf-8"),
-        {"Content-Type": "application/json"})
-    r = json.load(urllib.request.urlopen(req, timeout=90))
-    if r.get("error"): raise RuntimeError(f"{action}: {r['error']}")
-    return r["result"]
+    req = urllib.request.Request(
+        AC,
+        json.dumps({"action": action, "version": 6, "params": params}).encode("utf-8"),
+        {"Content-Type": "application/json"},
+    )
+    response = json.load(urllib.request.urlopen(req, timeout=90))
+    if response.get("error"):
+        raise RuntimeError(f"{action}: {response['error']}")
+    return response["result"]
 
-def norm(s):  # texto bruto do campo, sem html, colapsado
-    return _WS.sub(" ", _TAG.sub("", s or "").replace("​", "")).strip()
+
+def norm(value: str) -> str:
+    return _WS.sub(" ", _TAG.sub("", value or "").replace("​", "")).strip()
+
 
 def first_field_val(fields):
     return next(iter(fields.values()), {}).get("value", "") if fields else ""
 
 
+def build_ankidroid_manifest(args) -> int:
+    script = Path(__file__).with_name("gerar_manifesto_ankidroid.py")
+    cmd = [
+        sys.executable,
+        str(script),
+        "--slug",
+        args.slug,
+        "--deck",
+        args.deck,
+    ]
+    if args.curado:
+        cmd += ["--curado", args.curado]
+    if args.manifest:
+        cmd += ["--out", args.manifest]
+    if args.source_query:
+        cmd += ["--source-query", args.source_query]
+    print("[ankidroid] gerando manifesto local; nenhuma coleção fonte será modificada")
+    return subprocess.call(cmd)
 
-THEME_BY_SLUG = {
-    "anato": "Anatomy", "biocel": "Cell Biology", "biomol": "Molecular Biology",
-    "bioq": "Biochemistry", "embrio": "Embryology", "fisio": "Physiology",
-    "histo": "Histology", "etim": "Etymology",
-}
 
-def _theme_label(slug):
-    return THEME_BY_SLUG.get((slug or "").split("-", 1)[0], "Medicine")
+def build_desktop(args) -> int:
+    call("createDeck", deck=args.deck)
+    existing = set()
+    target_ids = call("findNotes", query=f'deck:"{args.deck}"')
+    if target_ids:
+        for note in call("notesInfo", notes=target_ids):
+            existing.add(norm(first_field_val(note["fields"])))
 
-def _with_english_theme(value, slug):
-    if not value or value.lstrip().startswith("<b>"):
-        return value
-    return f"<b>{_theme_label(slug)}.</b> " + value
+    source_query = args.source_query or f'tag:NEBLI::{args.slug} -deck:"{args.deck}"'
+    source_ids = call("findNotes", query=source_query)
+    copied = skipped = 0
 
-def main():
+    for note in call("notesInfo", notes=source_ids) if source_ids else []:
+        key = norm(first_field_val(note["fields"]))
+        if key in existing:
+            skipped += 1
+            continue
+        fields = {name: data["value"] for name, data in note["fields"].items()}
+        # Fidelidade literal: não alterar Text/Extra nem remover campos da fonte.
+        tags = list(dict.fromkeys(note["tags"] + [f"NEBLI::{args.slug}", "NEBLI::source::copy"]))
+        new_note = {
+            "deckName": args.deck,
+            "modelName": note["modelName"],
+            "fields": fields,
+            "tags": tags,
+            "options": {"allowDuplicate": True},
+        }
+        if args.dry:
+            copied += 1
+            continue
+        try:
+            call("addNote", note=new_note)
+            copied += 1
+            existing.add(key)
+        except Exception as exc:
+            print("  ERRO copy:", key[:50], "::", str(exc)[:120])
+
+    total = len(call("findNotes", query=f'deck:"{args.deck}"'))
+    print(f"[{args.slug}] copiados {copied}, pulados {skipped} | deck-aula total: {total}")
+
+    if args.export and not args.dry:
+        out = os.path.abspath(args.export)
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        ok = call("exportPackage", deck=args.deck, path=out, includeSched=False)
+        print(f"  export {'OK' if ok else 'FALHOU'} -> {out}")
+    return 0
+
+
+def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
     ap.add_argument("--deck", required=True)
-    ap.add_argument("--export")
+    ap.add_argument("--backend", choices=("ankidroid", "desktop"), default="ankidroid")
+    ap.add_argument("--curado", help="JSON de curadoria a embutir no manifesto quando houver IDs locais")
+    ap.add_argument("--manifest", help="caminho do manifesto AnkiDroid")
+    ap.add_argument("--source-query", help="query local da fonte; padrão tag NEBLI::<slug>")
+    ap.add_argument("--export", help="somente backend desktop")
     ap.add_argument("--dry", action="store_true")
-    a = ap.parse_args()
+    args = ap.parse_args()
 
-    call("createDeck", deck=a.deck)
-    # o que ja existe no deck-aula (por texto do 1o campo) -> nao duplicar
-    existing = set()
-    for nid in call("findNotes", query=f'deck:"{a.deck}"'):
-        pass
-    tgt_ids = call("findNotes", query=f'deck:"{a.deck}"')
-    if tgt_ids:
-        for n in call("notesInfo", notes=tgt_ids):
-            existing.add(norm(first_field_val(n["fields"])))
+    if not args.deck.startswith("NEBLI::"):
+        raise SystemExit("ERRO: deck-aula gravável deve começar por NEBLI::")
 
-    # cards reais curados p/ esta aula, que ainda NAO estao no deck-aula
-    src_ids = call("findNotes", query=f'tag:NEBLI::{a.slug} -deck:"{a.deck}"')
-    copied = skipped = 0
-    for n in call("notesInfo", notes=src_ids) if src_ids else []:
-        key = norm(first_field_val(n["fields"]))
-        if key in existing:
-            skipped += 1; continue
-        fields = {k: v["value"] for k, v in n["fields"].items()
-                  if k not in ("ankihub_id",)}
-        if "Text" in fields:
-            fields["Text"] = _with_english_theme(fields["Text"], a.slug)
-        tags = list(dict.fromkeys(n["tags"] + [f"NEBLI::{a.slug}"]))
-        note = {"deckName": a.deck, "modelName": n["modelName"],
-                "fields": fields, "tags": tags,
-                "options": {"allowDuplicate": True}}
-        if a.dry: copied += 1; continue
-        try:
-            call("addNote", note=note); copied += 1; existing.add(key)
-        except Exception as e:
-            print("  ERRO copy:", key[:50], "::", str(e)[:80])
+    if args.backend == "ankidroid":
+        return build_ankidroid_manifest(args)
+    return build_desktop(args)
 
-    total = len(call("findNotes", query=f'deck:"{a.deck}"'))
-    print(f"[{a.slug}] copiados {copied} reais, {skipped} ja presentes | deck-aula total: {total}")
-
-    if a.export and not a.dry:
-        os.makedirs(os.path.dirname(a.export), exist_ok=True)
-        ok = call("exportPackage", deck=a.deck, path=os.path.abspath(a.export),
-                  includeSched=False)
-        print(f"  export {'OK' if ok else 'FALHOU'} -> {a.export}")
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
