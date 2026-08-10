@@ -1,6 +1,5 @@
 package com.sodrius.nebli.companion;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -9,7 +8,6 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.OpenableColumns;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -26,12 +24,9 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -143,7 +138,7 @@ public class MainActivity extends Activity {
                 } catch (Exception ignored) {}
             }
             JSONObject finalReceipt = receipt;
-            runOnUiThread(() -> status.setText(finalReceipt.toString(2)));
+            runOnUiThread(() -> status.setText(finalReceipt.toString()));
             writeReceipt(finalReceipt);
         }).start();
     }
@@ -155,13 +150,14 @@ public class MainActivity extends Activity {
         String targetDeck = manifest.getString("target_deck");
         String sourceQuery = manifest.getString("source_query");
         long targetDid = ensureDeck(cr, targetDeck);
-        Map<Long, Set<Integer>> selection = selectedOrdinals(manifest.optJSONArray("items"));
-        boolean restrictToItems = manifest.optJSONArray("items") != null && manifest.optJSONArray("items").length() > 0;
+        JSONArray manifestItems = manifest.optJSONArray("items");
+        Map<Long, Set<Integer>> selection = selectedOrdinals(manifestItems);
+        boolean restrictToItems = manifestItems != null && manifestItems.length() > 0;
 
         int found = 0, created = 0, skipped = 0, suspended = 0;
         JSONArray errors = new JSONArray();
-
         String[] projection = new String[]{"_id", "guid", "mid", "tags", "flds"};
+
         try (Cursor c = cr.query(NOTES, projection, sourceQuery, null, null)) {
             if (c == null) throw new IllegalStateException("AnkiDroid não respondeu à query de notas");
             int idCol = c.getColumnIndexOrThrow("_id");
@@ -178,17 +174,12 @@ public class MainActivity extends Activity {
                     continue;
                 }
 
-                long mid = c.getLong(midCol);
-                String tags = c.getString(tagsCol);
-                String flds = c.getString(fldsCol);
-                String mergedTags = mergeTags(tags, provenanceTag, "NEBLI::source::copy", "NEBLI::" + slug);
-
                 ContentValues nv = new ContentValues();
-                nv.put("mid", mid);
-                nv.put("flds", flds);
-                nv.put("tags", mergedTags);
+                nv.put("mid", c.getLong(midCol));
+                nv.put("flds", c.getString(fldsCol));
+                nv.put("tags", mergeTags(c.getString(tagsCol), provenanceTag, "NEBLI::source::copy", "NEBLI::" + slug));
                 Uri newNote = cr.insert(NOTES, nv);
-                if (newNote == null) {
+                if (newNote == null || newNote.getLastPathSegment() == null) {
                     errors.put("Falha ao inserir cópia de nid=" + sourceNid);
                     continue;
                 }
@@ -244,15 +235,13 @@ public class MainActivity extends Activity {
             if (c != null) {
                 int idCol = c.getColumnIndexOrThrow("deck_id");
                 int nameCol = c.getColumnIndexOrThrow("deck_name");
-                while (c.moveToNext()) {
-                    if (name.equals(c.getString(nameCol))) return c.getLong(idCol);
-                }
+                while (c.moveToNext()) if (name.equals(c.getString(nameCol))) return c.getLong(idCol);
             }
         }
         ContentValues cv = new ContentValues();
         cv.put("deck_name", name);
         Uri created = cr.insert(DECKS, cv);
-        if (created == null) throw new IllegalStateException("Não foi possível criar o deck " + name);
+        if (created == null || created.getLastPathSegment() == null) throw new IllegalStateException("Não foi possível criar o deck " + name);
         return Long.parseLong(created.getLastPathSegment());
     }
 
@@ -280,9 +269,7 @@ public class MainActivity extends Activity {
 
     private String mergeTags(String source, String... extra) {
         Set<String> tags = new HashSet<>();
-        if (source != null) {
-            for (String t : source.trim().split("\\s+")) if (!t.isBlank()) tags.add(t);
-        }
+        if (source != null) for (String t : source.trim().split("\\s+")) if (!t.isBlank()) tags.add(t);
         for (String t : extra) if (t != null && !t.isBlank()) tags.add(t);
         return String.join(" ", tags);
     }
@@ -302,12 +289,14 @@ public class MainActivity extends Activity {
     }
 
     private String readAll(Uri uri) throws Exception {
-        try (InputStream in = getContentResolver().openInputStream(uri);
-             BufferedReader br = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
-            StringBuilder sb = new StringBuilder();
-            String line;
-            while ((line = br.readLine()) != null) sb.append(line).append('\n');
-            return sb.toString();
+        try (InputStream in = getContentResolver().openInputStream(uri)) {
+            if (in == null) throw new IllegalArgumentException("arquivo inacessível");
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
+                StringBuilder sb = new StringBuilder();
+                String line;
+                while ((line = br.readLine()) != null) sb.append(line).append('\n');
+                return sb.toString();
+            }
         }
     }
 
