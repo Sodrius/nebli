@@ -30,5 +30,13 @@ pacote e fotografa pergunta e resposta de cada card. Relatório JSON não vê te
 que passou despercebido um note type de IO cuja frente não exibia imagem nenhuma. Os PNGs
 precisam ser olhados, não apenas gerados. O renderizador reproduz o DOM do Anki (`<div class="card">`, sem contêiner extra); rodar em largura de tablet (`--width 1500`) e em modo noturno (`--night`) faz parte do gate, porque é onde aparecem desalinhamento de coluna e contraste ruim.
 
+## Identidade visual dos note types
+
+Os cards NEBLI seguem a identidade do AnKing, porque é nela que o Davi estuda: texto
+centralizado, fundo `#D1CFCE`, cloze azul em negrito, Extra em itálico; no modo noturno,
+fundo `#272828`, cloze `#4297F9` e Extra magenta. Os valores saem do note type
+`AnKingOverhaul (AnKing Step Deck / AnKingMed)` da própria coleção. O que não se copia dele
+é a dependência: nada de JS de add-on nem de mídia do AnKing dentro do pacote.
+
 O AnKing completo, índices e shards de mídia ficam em armazenamento privado.
 O GitHub contém apenas código, schemas e manifestos sem conteúdo protegido.

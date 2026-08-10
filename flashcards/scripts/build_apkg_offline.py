@@ -130,56 +130,62 @@ def derivar_cloze_nebli(base: dict) -> dict:
 
 
 CLOZE_CSS = """
-.card { font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
-        font-size: 20px; line-height: 1.55; text-align: left;
-        color: #1F2E3D;
-        padding: 24px clamp(16px, 4vw, 40px) 40px; }
-@media (min-width: 900px) { .card { font-size: 22px; } }
-
-/* Uma coluna só. O cabeçalho fora do contêiner era o que desalinhava o card:
-   `.meta` colava na borda e o texto ficava centralizado num miolo estreito. */
+/* Identidade AnKing: texto centralizado, fundo cinza quente, cloze azul em
+   negrito, Extra em itálico — os valores vêm do note type
+   `AnKingOverhaul (AnKing Step Deck / AnKingMed)` que já vive na coleção.
+   O que muda em relação a ele: nada de JS de add-on, nada de mídia externa,
+   e uma largura máxima de leitura para o texto não atravessar um tablet inteiro. */
+.card { font-family: Arial, Helvetica, sans-serif;
+        text-align: center; font-size: 22px; line-height: 1.5;
+        color: #000000; background-color: #D1CFCE;
+        min-height: 100vh; box-sizing: border-box;
+        padding: 22px 15px 60px; }
 .meta, .prompt, .extra, .media, .source, hr#answer {
-  max-width: 44rem; margin-left: auto; margin-right: auto; }
+  max-width: 52rem; margin-left: auto; margin-right: auto; }
 
-.meta { font-size: .62em; letter-spacing: .1em; text-transform: uppercase;
-        font-weight: 700; color: #0E6B7A; margin-bottom: 1.1em; }
+.meta { font-size: .55em; letter-spacing: .1em; text-transform: uppercase;
+        font-weight: 700; color: #5A5A5A; margin-bottom: 1.2em; }
 .prompt { text-wrap: pretty; }
-.cloze { font-weight: 700; color: #0B5F6B;
-         background: rgba(14, 107, 122, .12);
-         padding: .05em .3em; border-radius: .25em; }
-hr#answer { border: 0; border-top: 1px solid #D8D2C5; margin: 1.6em auto 1.2em; }
-.extra { font-size: .84em; color: #3E4C5A; }
-.media { margin-top: 1.1em; text-align: center; }
-.media img { max-width: 100%; max-height: 62vh; height: auto;
-             object-fit: contain; background: #fff; border-radius: 8px;
-             box-shadow: 0 1px 4px rgba(0,0,0,.14); }
-.source { margin-top: 1.4em; font-size: .55em; color: #8A94A0; }
+.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: #0000FF; }
+hr#answer { border: 0; border-top: 1px solid #A9A7A6; margin: 1.5em auto 1.1em; }
+.extra { font-style: italic; font-size: .86em; color: #1A1A1A; }
+.media { margin-top: 1.1em; }
+.media img { max-width: 100%; max-height: 62vh; height: auto; object-fit: contain; }
+.source { margin-top: 1.6em; font-size: .5em; font-style: normal; color: #6B6B6B; }
 
 /* AnkiDroid antigo usa .nightMode; as versões novas usam .night_mode. */
-.night_mode .card, .nightMode .card, .card.night_mode { color: #E6EAF0; }
-.night_mode .meta, .nightMode .meta { color: #56C4D4; }
-.night_mode .cloze, .nightMode .cloze {
-  color: #7FDCEA; background: rgba(86, 196, 212, .16); }
-.night_mode .extra, .nightMode .extra { color: #C3CEDA; }
-.night_mode .source, .nightMode .source { color: #7C8794; }
-.night_mode hr#answer, .nightMode hr#answer { border-top-color: #3A424C; }
+.nightMode.card, .night_mode .card, .card.night_mode {
+  color: #FFFAFA !important; background-color: #272828 !important; }
+.nightMode .meta, .night_mode .meta { color: #9A9A9A; }
+.nightMode .cloze, .nightMode .cloze b, .nightMode .cloze u, .nightMode .cloze i,
+.night_mode .cloze, .night_mode .cloze b, .night_mode .cloze u, .night_mode .cloze i {
+  color: #4297F9 !important; }
+.nightMode .extra, .nightMode .extra i,
+.night_mode .extra, .night_mode .extra i { color: magenta; }
+.nightMode .source, .night_mode .source { color: #8A8A8A; }
+.nightMode hr#answer, .night_mode hr#answer { border-top-color: #4A4A4A; }
 """
 
 IO_CSS = """
-.card { font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
-        font-size: 19px; text-align: center; color: #1F2E3D; }
-.night_mode .card, .nightMode .card, .card.night_mode { color: #E6EAF0; }
-.io-header { font-size: 17px; font-weight: 600; color: #0E6B7A;
-             margin: 0 auto 14px; max-width: 46em; line-height: 1.45; }
-.night_mode .io-header, .nightMode .io-header { color: #56C4D4; }
-.io-img img { max-width: 100%; height: auto; border-radius: 6px;
-              box-shadow: 0 1px 4px rgba(0,0,0,.18); }
-hr#answer { border: none; border-top: 1px solid #D8D2C5; margin: 18px auto; max-width: 40em; }
-.night_mode hr#answer, .nightMode hr#answer { border-top-color: #3A424C; }
-.io-extra { font-size: 16px; margin: 10px auto; max-width: 44em; }
-.io-labels { font-size: 15px; color: #475569; margin: 8px auto; max-width: 44em; line-height: 1.6; }
-.night_mode .io-labels, .nightMode .io-labels { color: #9FB0C2; }
-.io-src { font-size: 12px; color: #8A94A0; margin-top: 14px; }
+/* Mesma identidade AnKing do cloze, para o deck não parecer dois decks. */
+.card { font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px; text-align: center;
+        color: #000000; background-color: #D1CFCE;
+        min-height: 100vh; box-sizing: border-box; padding: 18px 12px 50px; }
+.nightMode.card, .night_mode .card, .card.night_mode {
+  color: #FFFAFA !important; background-color: #272828 !important; }
+.io-header { font-size: .82em; font-weight: 700; color: #14425C;
+             margin: 0 auto 14px; max-width: 52rem; line-height: 1.45; }
+.nightMode .io-header, .night_mode .io-header { color: #4297F9; }
+.io-img img { max-width: 100%; height: auto; border-radius: 4px; }
+hr#answer { border: 0; border-top: 1px solid #A9A7A6; margin: 18px auto; max-width: 52rem; }
+.nightMode hr#answer, .night_mode hr#answer { border-top-color: #4A4A4A; }
+.io-extra { font-style: italic; font-size: .8em; margin: 10px auto; max-width: 52rem; }
+.nightMode .io-extra, .night_mode .io-extra { color: magenta; }
+.io-labels { font-size: .72em; color: #3A3A3A; margin: 8px auto; max-width: 52rem; line-height: 1.6; }
+.nightMode .io-labels, .night_mode .io-labels { color: #B9C4CE; }
+.io-src { font-size: .55em; color: #6B6B6B; margin-top: 14px; }
+.nightMode .io-src, .night_mode .io-src { color: #8A8A8A; }
 """
 
 IO_QFMT = """<div class="io-header">{{Header}}</div>

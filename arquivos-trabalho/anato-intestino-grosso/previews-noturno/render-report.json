@@ -1,6 +1,6 @@
 {
   "apkg": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/Intestino grosso, reto e canal anal.apkg",
-  "rendered_cards": 1,
+  "rendered_cards": 2,
   "broken_media_cards": [],
   "cards": [
     {
@@ -15,6 +15,22 @@
       "previews": {
         "pergunta": "00-The-most-frequent-position-of-the-vermiform-appendix-is-c1-r-pergunta.png",
         "resposta": "00-The-most-frequent-position-of-the-vermiform-appendix-is-c1-r-resposta.png"
+      }
+    },
+    {
+      "key": "01--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-09-canal-anal-pergunta.png",
+        "anato-intestino-grosso-io-09-canal-anal-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-09-canal-anal-pergunta.png",
+        "anato-intestino-grosso-io-09-canal-anal-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "01--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c-pergunta.png",
+        "resposta": "01--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c-resposta.png"
       }
     }
   ]
