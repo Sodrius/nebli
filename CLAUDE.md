@@ -35,6 +35,11 @@ menos que Davi peça explicitamente uma recuperação histórica.
 - AnKing e decks externos são fontes privadas, somente leitura e nunca entram no
   GitHub. Cópias NEBLI recebem GUID novo e preservam conteúdo, mídia e crédito.
 
+## Entrega
+
+Ao fim de toda aula, mande **no chat** o PDF da E1 e o `.apkg` como arquivos anexados,
+sempre — não basta dizer onde eles estão no repositório.
+
 ## Gates de fechamento
 
 Uma aula não fecha se houver conceito nuclear sem card adequado, card sem âncora

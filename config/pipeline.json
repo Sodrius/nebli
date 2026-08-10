@@ -8,13 +8,26 @@
   "require_offline_apkg": true,
   "require_apkg_audit": true,
   "require_e1_anchor_for_every_card": true,
-  "source_priority": ["anking", "external_deck", "authored"],
+  "source_priority": [
+    "anking",
+    "external_deck",
+    "authored"
+  ],
   "card_budget": {
     "enforce_contract_hard_max": true,
     "sanity_ranges": {
-      "small": [15, 25],
-      "medium": [25, 40],
-      "large": [35, 55]
+      "small": [
+        15,
+        25
+      ],
+      "medium": [
+        25,
+        40
+      ],
+      "large": [
+        35,
+        55
+      ]
     },
     "manual_review_above": 60
   },
@@ -31,5 +44,19 @@
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,
-  "optional_cards_separate": true
+  "optional_cards_separate": true,
+  "private_index": {
+    "fetcher": "flashcards/scripts/fetch_private_index.py",
+    "cache_path": "flashcards/private-cache/anking-index-v2.private.sqlite",
+    "drive_folder": "AnKing-index-v2",
+    "credential_env": [
+      "NEBLI_DRIVE_SA_JSON",
+      "NEBLI_DRIVE_CLIENT_ID",
+      "NEBLI_DRIVE_CLIENT_SECRET",
+      "NEBLI_DRIVE_REFRESH_TOKEN"
+    ],
+    "setup_doc": "docs/SETUP-ANKING-DRIVE.md",
+    "block_deck_when_unreachable": false,
+    "mark_cards_for_recuration_when_unreachable": true
+  }
 }

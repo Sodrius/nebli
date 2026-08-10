@@ -33,6 +33,17 @@ contrato exige busca `complete`, famílias PT e EN, ao menos uma terceira famíl
 e revisão de irmãos. Guarda consultas, contagens, GUIDs e motivos de rejeição,
 mas não versiona o texto protegido dos candidatos.
 
+## Como o índice chega até a sessão
+
+`flashcards/scripts/fetch_private_index.py` fala direto com a API do Drive por HTTPS,
+autenticando por conta de serviço (`NEBLI_DRIVE_SA_JSON`) ou por refresh token, baixa as
+partes do pacote, confere os SHA-256 do manifesto e extrai o índice em
+`flashcards/private-cache/`. O arquivo vai para o disco e nunca passa pelo contexto do
+modelo — que é justamente o que impede usar o conector do Drive para isso.
+
+Passo a passo da credencial: `docs/SETUP-ANKING-DRIVE.md`. Sem ela, o script responde
+`no_credential` e a corrida segue com o bloqueio registrado, nunca silenciosamente.
+
 ## Quando o índice não está no mesmo ambiente da aula
 
 Nem sempre a sessão que produz a aula alcança os 564 MB do índice. O que precisa atravessar

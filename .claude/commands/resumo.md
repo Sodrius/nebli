@@ -52,8 +52,11 @@ quando carregam estrutura, mecanismo ou comparação. Não gere `etapa2.typ`,
 ## 4. E1 atomizada + busca privada
 
 Converta a E1 em conceitos recuperáveis e acrescente âncoras literais ao
-contrato. Consulte o índice privado do AnKing com buscas independentes PT, EN,
-sinônimos, mecanismo/estrutura, tags e cards irmãos. Use a união deduplicada;
+contrato. Traga o índice privado com
+`python flashcards/scripts/fetch_private_index.py` e busque nele com
+`search_private_index.py`, em consultas independentes PT, EN,
+sinônimos, mecanismo/estrutura, tags e cards irmãos. Se o fetch responder
+`no_credential`, aponte `docs/SETUP-ANKING-DRIVE.md` no relatório final. Use a união deduplicada;
 busca única sem resultado não prova lacuna. Para gaps, consulte decks externos. Se o índice privado
 não estiver disponível, **pare o deck**: não compense com autoria em massa.
 
