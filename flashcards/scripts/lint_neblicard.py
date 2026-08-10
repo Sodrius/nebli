@@ -156,9 +156,8 @@ def lint_text(text):
     distinct_indexes = sorted({c["idx"] for c in cs})
     if distinct_indexes != ["1"]:
         hard.append("multiple_cloze_indexes:" + ",".join(distinct_indexes))
-    if len(cs) > 3:
-        flags.append(f"many_same_card_targets:{len(cs)}")
-        score += 3
+    if len(cs) != 1:
+        hard.append(f"multiple_cloze_occurrences:{len(cs)}")
     bolded_clozes = re.findall(r"<(?:b|strong)>\s*\{\{c\d+::.*?\}\}\s*</(?:b|strong)>", text, re.I | re.S)
     if len(bolded_clozes) != len(cs):
         hard.append("cloze_not_bold")
@@ -179,6 +178,11 @@ def lint_text(text):
         cw = len(ans_words)
         if raw_cw > 3:
             hard.append(f"cloze_over_3_words:{raw_cw}")
+        elif raw_cw == 3:
+            flags.append("three_word_cloze_requires_exception")
+            score += 3
+        elif raw_cw == 2:
+            flags.append("two_word_cloze")
         if sigla_self_give(stem, c["answer"]):
             hard.append("acronym_expansion_visible")
         if numeric_parenthetical_give(stem, c["answer"]):
@@ -250,6 +254,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
 
 

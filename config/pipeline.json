@@ -1,0 +1,35 @@
+{
+  "pipeline_version": "e1-deck-v3",
+  "generate_e1": true,
+  "generate_resumindo": true,
+  "generate_e2": false,
+  "generate_e3": false,
+  "generate_remnote": false,
+  "require_offline_apkg": true,
+  "require_apkg_audit": true,
+  "require_e1_anchor_for_every_card": true,
+  "source_priority": ["anking", "external_deck", "authored"],
+  "card_budget": {
+    "enforce_contract_hard_max": true,
+    "sanity_ranges": {
+      "small": [15, 25],
+      "medium": [25, 40],
+      "large": [35, 55]
+    },
+    "manual_review_above": 60
+  },
+  "cloze_answer_words": {
+    "preferred": 1,
+    "allowed": 2,
+    "exceptional": 3,
+    "hard_max": 3
+  },
+  "image_occlusion": {
+    "multi_label_mode": "hide_all_guess_all",
+    "mask_answer_label_not_visual_target": true,
+    "require_question_and_answer_previews": true
+  },
+  "new_cards_per_day": 25,
+  "maximum_reviews_per_day": 9999,
+  "optional_cards_separate": true
+}
