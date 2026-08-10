@@ -75,14 +75,64 @@ def _post_form(url: str, campos: dict) -> dict:
         ) from None
 
 
+def ler_credencial(bruto: str) -> dict:
+    """Aceita o JSON como veio, entre aspas, em base64 ou como caminho de arquivo.
+
+    A variável é preenchida à mão colando o conteúdo de um arquivo, então vale
+    absorver as formas em que ele costuma chegar em vez de exigir uma só.
+    """
+    bruto = (bruto or "").strip()
+    if not bruto:
+        raise Falha("credencial vazia")
+
+    if bruto.lower().startswith("aiza"):
+        raise Falha(
+            "isso é uma API key do Google, não uma conta de serviço. API key só abre "
+            "arquivo público; o índice é privado. Gere a chave em Contas de serviço → "
+            "Chaves → Adicionar chave → JSON (ver docs/SETUP-ANKING-DRIVE.md)."
+        )
+
+    caminho = Path(bruto)
+    try:
+        if len(bruto) < 4096 and caminho.exists():
+            bruto = caminho.read_text(encoding="utf-8").strip()
+    except OSError:
+        pass
+
+    if len(bruto) >= 2 and bruto[0] == bruto[-1] and bruto[0] in "\"'":
+        bruto = bruto[1:-1].strip()
+
+    if not bruto.startswith("{"):
+        try:
+            bruto = base64.b64decode(bruto, validate=True).decode("utf-8").strip()
+        except Exception:
+            pass
+
+    try:
+        credencial = json.loads(bruto)
+    except json.JSONDecodeError as erro:
+        raise Falha(
+            f"não consegui ler a credencial como JSON ({erro}). Cole o conteúdo do "
+            "arquivo .json da conta de serviço, entre aspas simples se ele ocupar "
+            "várias linhas."
+        ) from None
+
+    faltando = [c for c in ("client_email", "private_key") if not credencial.get(c)]
+    if faltando:
+        raise Falha(
+            f"o JSON não tem {', '.join(faltando)} — isso não parece uma chave de conta "
+            "de serviço. O arquivo certo tem \"type\": \"service_account\"."
+        )
+    return credencial
+
+
 def token_conta_de_servico(bruto: str) -> str:
     try:
         import rsa
     except ImportError as erro:
         raise Falha("conta de serviço exige o pacote `rsa` (pip install rsa)") from erro
 
-    caminho = Path(bruto)
-    credencial = json.loads(caminho.read_text(encoding="utf-8") if caminho.exists() else bruto)
+    credencial = ler_credencial(bruto)
     agora = int(time.time())
     cabecalho = _b64url(json.dumps({"alg": "RS256", "typ": "JWT"}).encode())
     reivindicacao = _b64url(json.dumps({

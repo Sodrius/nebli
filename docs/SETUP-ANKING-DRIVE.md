@@ -40,10 +40,49 @@ tanto, e enxerga só a pasta que você compartilhar — nada do resto do seu Dri
 5. Copie o `client_email` de dentro desse JSON (algo como
    `nebli-leitor@seu-projeto.iam.gserviceaccount.com`).
 6. No Drive, na pasta **`Anking`**: Compartilhar → cole esse e-mail → permissão **Leitor**.
-7. No ambiente do Claude Code (Configurações do ambiente → variáveis/segredos), crie
-   **`NEBLI_DRIVE_SA_JSON`** com o **conteúdo inteiro do JSON** colado como valor.
+7. No Claude Code, guarde o JSON na variável `NEBLI_DRIVE_SA_JSON` do ambiente — o caminho
+   exato está na seção seguinte, porque não é óbvio.
 
 Pronto. Nada mais.
+
+## Onde ficam as variáveis de ambiente
+
+Não existe página de configurações nem URL direta para isso — é a razão pela qual ninguém
+acha de primeira. O seletor de ambiente fica **dentro** da tela de sessões:
+
+1. Abra <https://claude.ai/code>.
+2. Na linha **acima da caixa de mensagem**, clique no ícone de nuvem que mostra o nome do
+   ambiente atual (normalmente `Default`).
+3. Passe o mouse sobre o ambiente na lista e clique na **engrenagem** que aparece à direita.
+   (Ou **Add cloud environment**, para criar um novo.)
+4. O diálogo tem quatro campos: nome, nível de acesso de rede, **Environment variables** e
+   setup script.
+5. Em Environment variables, formato `.env`, uma linha por variável. O JSON da conta de
+   serviço ocupa várias linhas, então envolva em **aspas simples**:
+
+   ```
+   NEBLI_DRIVE_SA_JSON='{ ...conteúdo inteiro do arquivo .json... }'
+   ```
+
+   O leitor também aceita o JSON numa linha só, em base64, ou o caminho de um arquivo — o
+   que for mais fácil de colar.
+
+**As variáveis são copiadas no início da sessão.** Sessão que já está rodando não relê a
+configuração: depois de salvar, é preciso **abrir uma sessão nova** para a credencial existir.
+
+### O aviso que a documentação faz, e por que seguimos assim
+
+A documentação diz que o ambiente **não tem cofre de segredos** e que quem usa o ambiente
+consegue ler os valores — por isso recomenda não pôr credenciais ali, e completa: "se uma
+sessão precisar de uma credencial mesmo assim, adicione com essa visibilidade em mente."
+
+No nosso caso a conta é aceitável, e é por isso:
+
+- o ambiente é **pessoal**, não compartilhado com organização — "quem usa o ambiente" é o Davi;
+- a credencial é **somente leitura** e enxerga **uma pasta só** do Drive, nada mais;
+- é revogável em um clique: apagar a chave em Contas de serviço → Chaves invalida na hora.
+
+O que **não** se deve fazer é usar a chave pessoal do Google ou um token de escopo amplo.
 
 ### Alternativa, se preferir não criar conta de serviço
 
