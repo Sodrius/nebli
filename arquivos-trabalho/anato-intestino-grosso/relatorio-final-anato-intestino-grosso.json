@@ -2,7 +2,7 @@
   "slug": "anato-intestino-grosso",
   "title": "Intestino grosso, reto e canal anal",
   "pipeline_version": "e1-deck-v3",
-  "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+  "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
   "sources": {
     "slides": "Alunos_ Intestino grosso_reto_canal anal_FINAL_2026.pdf (27 p.)",
     "roteiro_pratico": "ROTEIRO_ intestino grosso_Final_2026.pdf",
@@ -14,8 +14,8 @@
     "e1_fonte": "typst-build/anato-intestino-grosso/etapa1.typ",
     "e1_sha256": "20d4ceb6c83f74e8e86be7329b342afe2cef0112ca97bd9327da68add3fad64f",
     "apkg": "Intestino grosso, reto e canal anal.apkg",
-    "apkg_sha256": "fbdcf49f7b2aba18890219f470b3303b0879fc9496e425b4bf3154ac97911801",
-    "apkg_bytes": 12597886,
+    "apkg_sha256": "50f868368591a0c1fc3601a844e26fd77629243c23ed03c8b866e905449a7d73",
+    "apkg_bytes": 12597842,
     "previews": "previews/ (pergunta e resposta de cada card)"
   },
   "cobertura": {
@@ -266,12 +266,13 @@
     "onde_configurar": "O dconf já vem no pacote; conferir em Opções do deck após importar."
   },
   "buscas_para_cram": {
-    "aula_inteira": "deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal\"",
-    "so_nucleo": "deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:nucleo",
-    "so_identificacao_visual": "deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:IO",
-    "linha_pectinada": "deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:subtopico::Linha_pectinada",
-    "sem_opcionais": "deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal\" -deck:\"NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional\"",
-    "prova_1_anatomia": "deck:\"NEBLI::Digestório::P1::Anatomia\""
+    "aula_inteira": "deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal\"",
+    "so_nucleo": "deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:nucleo",
+    "so_identificacao_visual": "deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:IO",
+    "linha_pectinada": "deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal\" tag:subtopico::Linha_pectinada",
+    "sem_opcionais": "deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal\" -deck:\"NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional\"",
+    "componente_inteiro": "deck:\"NEBLI::UC08::P1::Anatomia\"",
+    "prova_inteira": "deck:\"NEBLI::UC08::P1\""
   },
   "pendencias_reais": [
     {

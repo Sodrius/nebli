@@ -200,6 +200,42 @@ def construir_io_nebli(agora: int) -> dict:
     }
 
 
+UC_RE = re.compile(r"^UC\d{2}$")
+PROVA_RE = re.compile(r"^P\d$")
+
+
+def validar_arvore(deck: str, opcional: str) -> None:
+    """A árvore é NEBLI::<UC>::<Prova>::<Componente>::<Aula>, com Optional pendurado nela.
+
+    Existe como gate porque já saiu deck fora do padrão: o cronograma da UC sugeria
+    `NEBLI::Digestório::P1::…` e a coleção real usa o código da UC (`NEBLI::UC02::P3::…`).
+    Um galho de topo diferente não dá erro em lugar nenhum — só espalha a coleção.
+    """
+    partes = deck.split("::")
+    problemas = []
+    if len(partes) != 5:
+        problemas.append(
+            f"a árvore precisa de 5 níveis (NEBLI::UC::Prova::Componente::Aula), veio {len(partes)}"
+        )
+    else:
+        raiz, uc, prova, componente, aula = partes
+        if raiz != "NEBLI":
+            problemas.append(f"o primeiro nível é 'NEBLI', veio {raiz!r}")
+        if not UC_RE.match(uc):
+            problemas.append(
+                f"a UC entra como código de dois dígitos (UC02, UC08), veio {uc!r} — "
+                "nome por extenso cria um galho separado na coleção"
+            )
+        if not PROVA_RE.match(prova):
+            problemas.append(f"a prova é P1, P2, P3…, veio {prova!r}")
+        if not componente.strip() or not aula.strip():
+            problemas.append("componente e aula não podem ser vazios")
+    if opcional != f"{deck}::Optional":
+        problemas.append(f"o subdeck opcional é '{deck}::Optional', veio {opcional!r}")
+    if problemas:
+        raise SystemExit("árvore de decks fora do padrão:\n  - " + "\n  - ".join(problemas))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("contrato")
@@ -214,6 +250,7 @@ def main() -> int:
     slug = contrato["slug"]
     deck_principal = contrato["deck"]
     deck_opcional = contrato["optional_deck"]
+    validar_arvore(deck_principal, deck_opcional)
 
     disponiveis = carregar_notetypes(RAIZ / args.notetype_source)
     if "Cloze Medicina - Mecanismo Único" not in disponiveis:

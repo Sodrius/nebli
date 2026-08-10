@@ -35,6 +35,12 @@ menos que Davi peça explicitamente uma recuperação histórica.
 - AnKing e decks externos são fontes privadas, somente leitura e nunca entram no
   GitHub. Cópias NEBLI recebem GUID novo e preservam conteúdo, mídia e crédito.
 
+## Organização dos decks
+
+Toda aula entra em `NEBLI::<UC>::<Prova>::<Componente>::<Aula>`, com o opcional em
+`::Optional` pendurado na aula. A UC é o **código** (`UC02`, `UC08`), a prova é `P1`/`P2`/`P3`.
+Se um cronograma sugerir outro rótulo, a convenção da coleção prevalece.
+
 ## Entrega
 
 Ao fim de toda aula, mande **no chat** o PDF da E1 e o `.apkg` como arquivos anexados,

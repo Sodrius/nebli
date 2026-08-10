@@ -12,6 +12,11 @@ O PDF termina após E1/Resumindo. E2, E3 e RemNote estão suspensos.
 ## Deck
 
 - Árvore: `NEBLI::<UC>::<Prova>::<Componente>::<Aula>` e subdeck `Optional`.
+  A **UC entra como código de dois dígitos** — `UC02`, `UC08` —, nunca pelo nome por
+  extenso. Nome por extenso cria um galho de topo separado e espalha a coleção; nada
+  acusa erro, o deck só aparece fora do lugar. A prova é `P1`, `P2`, `P3`. Cronogramas
+  às vezes sugerem outro rótulo: a convenção da coleção manda. Validado por
+  `build_apkg_offline.py`, que se recusa a montar fora do padrão.
 - Núcleo e apoio ficam no deck principal; aprofundamento dispensável fica
   separado e nunca recebe simultaneamente a tag `nucleo`.
 - Volume proporcional ao peso da aula e limitado por `card_budget.hard_max` no

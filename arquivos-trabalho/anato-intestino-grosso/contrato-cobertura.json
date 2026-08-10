@@ -2,8 +2,8 @@
   "pipeline_version": "e1-deck-v3",
   "slug": "anato-intestino-grosso",
   "title": "Intestino grosso, reto e canal anal",
-  "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
-  "optional_deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+  "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
+  "optional_deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
   "status": "frozen",
   "lesson_sources": {
     "slides": "Alunos_ Intestino grosso_reto_canal anal_FINAL_2026.pdf (27 p.)",

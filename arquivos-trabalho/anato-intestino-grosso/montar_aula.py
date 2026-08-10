@@ -21,7 +21,9 @@ RAIZ = Path(__file__).resolve().parents[2]
 LESSON = Path(__file__).resolve().parent
 E1 = RAIZ / "typst-build/anato-intestino-grosso/etapa1.typ"
 SLUG = "anato-intestino-grosso"
-DECK = "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal"
+# Árvore canônica: NEBLI::<UC>::<Prova>::<Componente>::<Aula> — a UC entra como
+# código (UC02, UC08), que é o que a coleção real usa. Ver docs/canon/PRODUTO-DECK-AULA.md.
+DECK = "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal"
 TEMA = "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL"
 FIG = "/figuras/anato-intestino-grosso"
 

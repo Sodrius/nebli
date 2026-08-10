@@ -43,4 +43,7 @@
 
 ## Estado NEBLI
 - Nenhum resumo gerado ainda.
-- **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.
+- **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::UC08::<P1|P2>::<Anatomia|Bio Tecidual II|Fisiologia|Biocel>::<aula>`.
+> **Corrigido 2026-08-10:** a sugestão anterior era `NEBLI::Digestório::…`, com o nome da UC por
+> extenso. A coleção usa o **código** da UC (`UC02`, `UC08`); nome por extenso cria um galho de
+> topo separado. Ver `docs/canon/PRODUTO-DECK-AULA.md`.

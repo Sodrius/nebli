@@ -121,7 +121,8 @@ def main() -> int:
             "so_identificacao_visual": f'deck:"{contrato["deck"]}" tag:IO',
             "linha_pectinada": f'deck:"{contrato["deck"]}" tag:subtopico::Linha_pectinada',
             "sem_opcionais": f'deck:"{contrato["deck"]}" -deck:"{contrato["optional_deck"]}"',
-            "prova_1_anatomia": 'deck:"NEBLI::Digestório::P1::Anatomia"',
+            "componente_inteiro": 'deck:"{}"'.format("::".join(contrato["deck"].split("::")[:4])),
+            "prova_inteira": 'deck:"{}"'.format("::".join(contrato["deck"].split("::")[:3])),
         },
         "pendencias_reais": [
             {

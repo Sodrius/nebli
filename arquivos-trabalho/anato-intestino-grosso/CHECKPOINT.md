@@ -2,7 +2,7 @@
 
 **Aula:** Intestino grosso, reto e canal anal · Anatomia · Profa. Dra. Patrícia Castelucci (ICB/USP)
 **Contexto:** UC-8 Digestório (Med5043), Prova 1, Turma B — aula em 10/08.
-**Deck:** `NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal` (+ `::Optional`)
+**Deck:** `NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal` (+ `::Optional`)
 **Fase atual:** 11 — entrega.
 
 ## Fontes

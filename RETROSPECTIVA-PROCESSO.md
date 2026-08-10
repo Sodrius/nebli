@@ -216,6 +216,25 @@ se aquilo não é um mapa**. Mapa coerente é um card; lista de nomes é dez car
 
 ---
 
+## 12. Segui o doc em vez do dado, e o deck saiu fora da coleção
+
+O cronograma da UC sugeria a árvore `NEBLI::Digestório::<P1|P2>::<Componente>::<aula>`. Segui
+essa linha. A coleção real, porém, usa o **código** da UC — `NEBLI::UC02::P3::Componente::Aula`
+—, e `referencias-externas/DRIVE-ESTRUTURA.md` já dizia `NEBLI::UC::Prova::Componente::Aula`.
+
+Resultado: o deck da aula caía num galho de topo `NEBLI::Digestório`, separado de todo o
+resto. Nada acusava erro — auditoria passava, o Anki importava sem reclamar — e só aparece
+quando alguém olha a árvore no aplicativo.
+
+Duas lições. A primeira: **quando um documento e o artefato real discordam, o artefato real
+manda.** Os decks existentes eram consultáveis o tempo todo dentro do próprio repositório.
+A segunda: convenção que não é validada não é convenção, é intenção. Virou gate em
+`build_apkg_offline.py`, que se recusa a montar árvore fora de
+`NEBLI::<UC de 2 dígitos>::<P\d>::<Componente>::<Aula>` com `::Optional` pendurado nela.
+A sugestão enganosa foi corrigida no próprio cronograma.
+
+---
+
 ## Mudanças de canon — aplicadas nesta corrida
 
 1. `docs/canon/VISUAL-E-IO.md` — regra da máscara (item 3), varredura de rótulos

@@ -1,18 +1,18 @@
 {
   "apkg": "arquivos-trabalho/anato-intestino-grosso/Intestino grosso, reto e canal anal.apkg",
-  "sha256": "fbdcf49f7b2aba18890219f470b3303b0879fc9496e425b4bf3154ac97911801",
-  "bytes": 12597886,
+  "sha256": "50f868368591a0c1fc3601a844e26fd77629243c23ed03c8b866e905449a7d73",
+  "bytes": 12597842,
   "notes": 47,
   "cards": 47,
   "expected_cards": 47,
   "hard_max": 50,
   "decks": [
     "NEBLI",
-    "NEBLI::Digestório",
-    "NEBLI::Digestório::P1",
-    "NEBLI::Digestório::P1::Anatomia",
-    "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
-    "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional"
+    "NEBLI::UC08",
+    "NEBLI::UC08::P1",
+    "NEBLI::UC08::P1::Anatomia",
+    "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
+    "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional"
   ],
   "notetypes": [
     "Cloze NEBLI - Aula",
@@ -28,329 +28,329 @@
   "cards_detail": [
     {
       "id": "c01",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c02",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c03",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c04",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c05",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c06",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c07",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c08",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c09",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c10",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c11",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c12",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c13",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c14",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c15",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c16",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c17",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c18",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c19",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c20",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c21",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c22",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c23",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c24",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c25",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c26",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c27",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c28",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c29",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "c30",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "c31",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "Cloze NEBLI - Aula",
       "importance": "apoio",
       "cards": 1
     },
     {
       "id": "o01",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
       "model": "Cloze NEBLI - Aula",
       "importance": "opcional",
       "cards": 1
     },
     {
       "id": "o02",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
       "model": "Cloze NEBLI - Aula",
       "importance": "opcional",
       "cards": 1
     },
     {
       "id": "o03",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
       "model": "Cloze NEBLI - Aula",
       "importance": "opcional",
       "cards": 1
     },
     {
       "id": "o04",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
       "model": "Cloze NEBLI - Aula",
       "importance": "opcional",
       "cards": 1
     },
     {
       "id": "o05",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
       "model": "Cloze NEBLI - Aula",
       "importance": "opcional",
       "cards": 1
     },
     {
       "id": "io-01-partes",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-02-superficie",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-03-tenias",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-04-ceco-interno",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-05-peca-ileocecal",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-06-reto",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-07-peca-reto",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-08-pelve-fem",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-09-canal-anal",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-10-peca-canal",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1
     },
     {
       "id": "io-11-esfincteres",
-      "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+      "deck": "NEBLI::UC08::P1::Anatomia::Intestino grosso, reto e canal anal",
       "model": "IO NEBLI - Image Occlusion (mapa coerente)",
       "importance": "nucleo",
       "cards": 1

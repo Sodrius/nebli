@@ -58,5 +58,12 @@
     "setup_doc": "docs/SETUP-ANKING-DRIVE.md",
     "block_deck_when_unreachable": false,
     "mark_cards_for_recuration_when_unreachable": true
+  },
+  "deck_tree": {
+    "pattern": "NEBLI::<UC>::<Prova>::<Componente>::<Aula>",
+    "optional_subdeck": "<deck>::Optional",
+    "uc_format": "código de dois dígitos (UC02, UC08) — nunca o nome por extenso",
+    "prova_format": "P1, P2, P3",
+    "enforced_by": "flashcards/scripts/build_apkg_offline.py"
   }
 }
