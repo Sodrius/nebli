@@ -1,0 +1,78 @@
+{
+  "name": "io-05-peca-ileocecal",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 16,
+  "crop_pt": [
+    88.0,
+    365.0,
+    445.0,
+    642.0
+  ],
+  "dpi": 200,
+  "image": "io-05-peca-ileocecal.png",
+  "image_sha256": "5343fcd954a9abf9ed51b1c07de0747d9fef59a034f3bd784510c14a081d60e2",
+  "image_size": [
+    993,
+    771
+  ],
+  "header": "<b>Anatomy · Cadaveric specimen</b> — identify the ileocecal region on the real specimen",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Íleo distal",
+      "source_lines": [
+        "Íleo distal"
+      ],
+      "box": [
+        854,
+        544,
+        112,
+        34
+      ]
+    },
+    {
+      "text": "Tênia livre",
+      "source_lines": [
+        "Tênia livre"
+      ],
+      "box": [
+        64,
+        614,
+        121,
+        34
+      ]
+    },
+    {
+      "text": "Ceco",
+      "source_lines": [
+        "ceco"
+      ],
+      "box": [
+        422,
+        652,
+        59,
+        34
+      ]
+    },
+    {
+      "text": "Apêndice vermiforme",
+      "source_lines": [
+        "Apêndice vermiforme"
+      ],
+      "box": [
+        722,
+        723,
+        242,
+        34
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-05-peca-ileocecal-pergunta.png",
+    "answer": "io-05-peca-ileocecal-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::854,544,112,34]]<br>[[rect1::64,614,121,34]]<br>[[rect2::422,652,59,34]]<br>[[rect3::722,723,242,34]] #]<br>active"
+}

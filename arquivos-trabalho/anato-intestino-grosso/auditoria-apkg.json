@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "package": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/Intestino grosso, reto e canal anal.apkg",
+  "collection_member": "collection.anki2",
+  "notes": 47,
+  "cards": 47,
+  "decks": 6,
+  "models": 2,
+  "image_occlusion_notes": 11,
+  "non_atomic_cloze_notes": 0,
+  "cloze_answers_over_limit": 0,
+  "exceptional_three_word_clozes": 0,
+  "nuclear_notes": 32,
+  "optional_notes": 5,
+  "referenced_media": 29,
+  "packaged_media": 29,
+  "errors": [],
+  "warnings": [],
+  "samples": {
+    "missing_media": [],
+    "duplicate_guids": []
+  }
+}

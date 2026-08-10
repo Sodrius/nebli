@@ -17,7 +17,8 @@
 13. Criar autorais apenas para lacunas comprovadas.
 14. Montar APKG offline, deduplicar mídia e separar opcionais.
 15. Rodar revisores somente leitura; sessão principal aplica correções.
-16. Auditar o APKG real e renderizar todos os IO/autorais mais amostra das cópias.
+16. Auditar o APKG real e renderizar **em navegador** todos os IO/autorais mais amostra das
+   cópias; olhar os previews de pergunta e resposta.
 17. Entregar E1 primeiro, depois APKG e relatório. Atualizar checkpoint e `MEMORY.md`.
 
 Falha em cobertura nuclear, visual obrigatório, origem ou APKG bloqueia a

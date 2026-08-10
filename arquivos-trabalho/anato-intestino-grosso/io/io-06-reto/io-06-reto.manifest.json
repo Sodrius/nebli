@@ -1,0 +1,120 @@
+{
+  "name": "io-06-reto",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 21,
+  "crop_pt": [
+    100.0,
+    135.0,
+    450.0,
+    322.0
+  ],
+  "dpi": 200,
+  "image": "io-06-reto.png",
+  "image_sha256": "ea07f83a3e4352f982eaab3d0de68390e5b66a143f754780e9560ded4d4049a4",
+  "image_size": [
+    973,
+    520
+  ],
+  "header": "<b>Anatomy · Rectum</b> — identify the lateral flexures, the transverse folds and the ampulla",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Flexura superior",
+      "source_lines": [
+        "Flexura Superior"
+      ],
+      "box": [
+        622,
+        29,
+        170,
+        31
+      ]
+    },
+    {
+      "text": "Prega transversa média",
+      "source_lines": [
+        "Prega",
+        "transversa",
+        "Média"
+      ],
+      "box": [
+        141,
+        46,
+        116,
+        84
+      ]
+    },
+    {
+      "text": "Prega transversa superior",
+      "source_lines": [
+        "Prega",
+        "transversa",
+        "superior"
+      ],
+      "box": [
+        622,
+        93,
+        116,
+        84
+      ]
+    },
+    {
+      "text": "Ampola retal",
+      "source_lines": [
+        "Ampola retal"
+      ],
+      "box": [
+        729,
+        136,
+        131,
+        31
+      ]
+    },
+    {
+      "text": "Flexura intermediária",
+      "source_lines": [
+        "Flexura",
+        "intermediária"
+      ],
+      "box": [
+        161,
+        160,
+        135,
+        58
+      ]
+    },
+    {
+      "text": "Flexura inferior",
+      "source_lines": [
+        "Flexura  inferior"
+      ],
+      "box": [
+        629,
+        277,
+        160,
+        31
+      ]
+    },
+    {
+      "text": "Prega transversa inferior",
+      "source_lines": [
+        "Prega transversa",
+        "inferior"
+      ],
+      "box": [
+        585,
+        348,
+        188,
+        58
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-06-reto-pergunta.png",
+    "answer": "io-06-reto-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::622,29,170,31]]<br>[[rect1::141,46,116,84]]<br>[[rect2::622,93,116,84]]<br>[[rect3::729,136,131,31]]<br>[[rect4::161,160,135,58]]<br>[[rect5::629,277,160,31]]<br>[[rect6::585,348,188,58]] #]<br>active"
+}

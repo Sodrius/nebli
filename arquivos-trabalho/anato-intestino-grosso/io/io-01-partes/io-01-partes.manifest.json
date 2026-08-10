@@ -1,0 +1,104 @@
+{
+  "name": "io-01-partes",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 2,
+  "crop_pt": [
+    100.0,
+    395.0,
+    470.0,
+    625.0
+  ],
+  "dpi": 200,
+  "image": "io-01-partes.png",
+  "image_sha256": "1a0c23c3e2201e2627cfa9bf5bb0ff895af0ffb30474ba868533878759e07afb",
+  "image_size": [
+    1029,
+    640
+  ],
+  "header": "<b>Anatomy · Large intestine</b> — name each numbered part and say whether it is fixed or mobile",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "1. Ceco e 2. Apêndice vermiforme",
+      "source_lines": [
+        "1. Ceco e 2. Apêndice vermiforme"
+      ],
+      "box": [
+        23,
+        48,
+        348,
+        31
+      ]
+    },
+    {
+      "text": "3. Colo ascendente (fixo) e 4. flexura cólica direita",
+      "source_lines": [
+        "3. Colo ascendente (Fixo) e 4. flexura cólica",
+        "direita"
+      ],
+      "box": [
+        23,
+        133,
+        446,
+        59
+      ]
+    },
+    {
+      "text": "5. Colo transverso (móvel) e 6. flexura cólica esquerda",
+      "source_lines": [
+        "5. Colo transverso  (móvel) e 6. flexura cólica",
+        "esquerda"
+      ],
+      "box": [
+        23,
+        233,
+        462,
+        59
+      ]
+    },
+    {
+      "text": "7. Colo descendente (fixo)",
+      "source_lines": [
+        "7. Colo descendente (fixo)"
+      ],
+      "box": [
+        23,
+        346,
+        270,
+        31
+      ]
+    },
+    {
+      "text": "8. Colo sigmóide (móvel)",
+      "source_lines": [
+        "8. Colo sigmóide (móvel)"
+      ],
+      "box": [
+        23,
+        445,
+        256,
+        31
+      ]
+    },
+    {
+      "text": "9. Reto e 10. Canal anal",
+      "source_lines": [
+        "9. Reto e 10. Canal anal"
+      ],
+      "box": [
+        23,
+        544,
+        243,
+        31
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-01-partes-pergunta.png",
+    "answer": "io-01-partes-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::23,48,348,31]]<br>[[rect1::23,133,446,59]]<br>[[rect2::23,233,462,59]]<br>[[rect3::23,346,270,31]]<br>[[rect4::23,445,256,31]]<br>[[rect5::23,544,243,31]] #]<br>active"
+}

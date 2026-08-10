@@ -1,0 +1,4942 @@
+{
+  "pipeline_version": "e1-deck-v3",
+  "slug": "anato-intestino-grosso",
+  "title": "Intestino grosso, reto e canal anal",
+  "deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal",
+  "optional_deck": "NEBLI::Digestório::P1::Anatomia::Intestino grosso, reto e canal anal::Optional",
+  "status": "frozen",
+  "lesson_sources": {
+    "slides": "Alunos_ Intestino grosso_reto_canal anal_FINAL_2026.pdf (27 p.)",
+    "roteiro_pratico": "ROTEIRO_ intestino grosso_Final_2026.pdf",
+    "perguntas_orientadoras": "Perguntas orientadoras Intestino Grosso.pdf",
+    "cronograma": "cronogramas/digestorio-uc8-med5043-2026.md (UC-8, P1, Anatomia, Turma B 10/08)"
+  },
+  "card_budget": {
+    "lesson_size": "large",
+    "hard_max": 50,
+    "expected_total_cards": 47,
+    "rationale": "Aula grande: o roteiro prático lista 22 alvos de identificação e as perguntas orientadoras cobrem sete blocos conceituais. Teto congelado em 50 antes da busca; faixa de sanidade para aula grande é 35–55.",
+    "manual_scope_review": "not_required",
+    "review_rationale": "Total abaixo de 60; nenhuma revisão manual de escopo exigida."
+  },
+  "e1": {
+    "path": "typst-build/anato-intestino-grosso/etapa1.typ",
+    "sha256": "20d4ceb6c83f74e8e86be7329b342afe2cef0112ca97bd9327da68add3fad64f",
+    "pdf": "Intestino grosso, reto e canal anal - E1.pdf"
+  },
+  "private_sources": {
+    "anking_index": {
+      "status": "unreachable_in_execution_environment",
+      "path": "Google Drive · Anking/AnKing-index-v2/anking-index-v2.private.sqlite.zip",
+      "sha256": "4d9d147b647357a0f5b8240e4af9b4bb571bca80c1f48ffb7afb900413b71557",
+      "note": "Índice de 564 MB (103 MB comprimido, 2 partes) e pacote-fonte de 5,9 GB. O canal MCP do Drive devolve conteúdo em base64 pelo contexto do modelo, o que inviabiliza trazer o índice. Ver RETROSPECTIVA-PROCESSO.md para a correção proposta."
+    },
+    "external_indexes": [
+      {
+        "name": "flashcards/decks-apkg/P3 - UC02 completo.apkg",
+        "status": "searched",
+        "notes": 247,
+        "hits": 4,
+        "result": "Nenhum candidato para os conceitos desta aula."
+      }
+    ]
+  },
+  "step1_decisions": [
+    {
+      "candidate": "Doença de Hirschsprung como contraste do megacólon chagásico",
+      "source": "mesmo mecanismo (plexo mioentérico), sugerido pela correlação do slide 18",
+      "decision": "rejected",
+      "rationale": "Não está nos slides nem nos objetivos; exigiria abrir aganglionose congênita, migração de crista neural e diagnóstico por biópsia — árvore de pré-requisitos própria. Vizinho high-yield, não aprofundamento do mesmo conteúdo."
+    },
+    {
+      "candidate": "Ponto de Griffiths / área de transição vascular na flexura esplênica",
+      "source": "anatomia vascular do colo",
+      "decision": "rejected",
+      "rationale": "Vascularização das vísceras é aula própria no cronograma (11/09). Fora do escopo desta aula."
+    },
+    {
+      "candidate": "Estadiamento e conduta do câncer colorretal",
+      "source": "correlação clínica frequente do tema",
+      "decision": "rejected",
+      "rationale": "Estadiamento e conduta estão explicitamente excluídos por docs/canon/COBERTURA-E-STEP1.md."
+    },
+    {
+      "candidate": "Nove regiões abdominais (slides 7–8) como card de identificação",
+      "source": "slide da própria aula",
+      "decision": "rejected",
+      "rationale": "Presente no slide, mas ausente do roteiro prático e das perguntas orientadoras; a prancha tem rótulos rasterizados duplicados que tornariam o IO ambíguo. Registrado como fora do deck, não como lacuna."
+    },
+    {
+      "candidate": "Convergência das três tênias na base do apêndice",
+      "source": "Moore, Anatomia orientada para a clínica — referência de mesmo tema",
+      "decision": "accepted",
+      "rationale": "Aprofunda a mesma estrutura já ensinada (tênias + apêndice), encaixa na seção 2.2, é durável e não abre pré-requisito novo. Explicado na E1 antes do card (card c07)."
+    },
+    {
+      "candidate": "Anastomose portocava do canal anal",
+      "source": "slide 23 da própria aula (veias acima → sistema porta; abaixo → sistema cava)",
+      "decision": "accepted",
+      "rationale": "Está desenhado no slide da aula; aprofunda o mesmo mecanismo da linha pectinada. Explicado na E1 em 4.2 (cards c22 e c23)."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "name_pt": "Mobilidade do sigmoide e vólvulo",
+      "name_en": "Sigmoid mobility and volvulus",
+      "subtopic": "Partes e mobilidade",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "O colo transverso e o colo sigmoide fazem o contrário: mantêm um",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c01"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Mobilidade do sigmoide e vólvulo"
+            ],
+            "en": [
+              "Sigmoid mobility and volvulus"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Partes e mobilidade"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c02",
+      "name_pt": "Segmentos fixos do colo",
+      "name_en": "Fixed segments of the colon",
+      "subtopic": "Partes e mobilidade",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "passam a ser secundariamente retroperitoneais",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c02"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Segmentos fixos do colo"
+            ],
+            "en": [
+              "Fixed segments of the colon"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Partes e mobilidade"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c03",
+      "name_pt": "Origem mecânica dos haustros",
+      "name_en": "Mechanical origin of haustra",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "as tênias são mais curtas que o comprimento do colo",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c03"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Origem mecânica dos haustros"
+            ],
+            "en": [
+              "Mechanical origin of haustra"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c04",
+      "name_pt": "Natureza das tênias",
+      "name_en": "Nature of the taeniae coli",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "As tênias são condensações da camada muscular",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c04"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Natureza das tênias"
+            ],
+            "en": [
+              "Nature of the taeniae coli"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c05",
+      "name_pt": "Apêndices omentais",
+      "name_en": "Omental appendices",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "projeções peritoneais cheias de gordura",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c05"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Apêndices omentais"
+            ],
+            "en": [
+              "Omental appendices"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c06",
+      "name_pt": "Extensão das tênias",
+      "name_en": "Extent of the taeniae coli",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "As três correm desde o ceco e terminam na",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c06"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Extensão das tênias"
+            ],
+            "en": [
+              "Extent of the taeniae coli"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c07",
+      "name_pt": "Convergência das tênias na base do apêndice",
+      "name_en": "Taeniae converge at the appendix base",
+      "subtopic": "Apêndice vermiforme",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "três tênias convergem na base do apêndice",
+      "step1": {
+        "decision": "accepted",
+        "same_theme": true,
+        "source_ref": "Moore, Anatomia orientada para a clínica",
+        "rationale": "Aprofunda a mesma estrutura da aula e já está explicado na E1."
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c07"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Convergência das tênias na base do apêndice"
+            ],
+            "en": [
+              "Taeniae converge at the appendix base"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Apêndice vermiforme"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c08",
+      "name_pt": "Tecido do apêndice",
+      "name_en": "Tissue of the appendix",
+      "subtopic": "Apêndice vermiforme",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "cuja parede é notavelmente rica em",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c08"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Tecido do apêndice"
+            ],
+            "en": [
+              "Tissue of the appendix"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Apêndice vermiforme"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c09",
+      "name_pt": "Comprimento do apêndice",
+      "name_en": "Length of the appendix",
+      "subtopic": "Apêndice vermiforme",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "O apêndice vermiforme é um tubo cego de",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c09"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Comprimento do apêndice"
+            ],
+            "en": [
+              "Length of the appendix"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Apêndice vermiforme"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c10",
+      "name_pt": "Posição mais frequente do apêndice",
+      "name_en": "Most frequent appendix position",
+      "subtopic": "Apêndice vermiforme",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "retrocecal em cerca de 64% dos casos",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-05-apendice-posicoes.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c10"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Posição mais frequente do apêndice"
+            ],
+            "en": [
+              "Most frequent appendix position"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Apêndice vermiforme"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c11",
+      "name_pt": "Ponto de McBurney",
+      "name_en": "McBurney's point",
+      "subtopic": "Apêndice vermiforme",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "a projeção do apêndice na parede abdominal",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-06-mcburney.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c11"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Ponto de McBurney"
+            ],
+            "en": [
+              "McBurney's point"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Apêndice vermiforme"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c12",
+      "name_pt": "Extensão do reto",
+      "name_en": "Length of the rectum",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "O reto vai do colo sigmoide ao canal anal e mede cerca de 15 cm",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c12"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Extensão do reto"
+            ],
+            "en": [
+              "Length of the rectum"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c13",
+      "name_pt": "Origem da flexura anorretal",
+      "name_en": "Origin of the anorectal flexure",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "De todas as curvas, a que tem função é a",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-08-puborretal.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c13"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Origem da flexura anorretal"
+            ],
+            "en": [
+              "Origin of the anorectal flexure"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c14",
+      "name_pt": "Puborretal na defecação",
+      "name_en": "Puborectalis during defecation",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "afrouxa a alça, o ângulo se abre e a junção anorretal se",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c14"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Puborretal na defecação"
+            ],
+            "en": [
+              "Puborectalis during defecation"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c15",
+      "name_pt": "Conteúdo das colunas anais",
+      "name_en": "Content of the anal columns",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "cada uma contendo ramos dos",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c15"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Conteúdo das colunas anais"
+            ],
+            "en": [
+              "Content of the anal columns"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c16",
+      "name_pt": "Função dos seios anais",
+      "name_en": "Function of the anal sinuses",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "os seios anais liberam muco que lubrifica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c16"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Função dos seios anais"
+            ],
+            "en": [
+              "Function of the anal sinuses"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c17",
+      "name_pt": "Origem embrionária acima da linha pectinada",
+      "name_en": "Embryonic origin above the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "o revestimento deriva do",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c17"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Origem embrionária acima da linha pectinada"
+            ],
+            "en": [
+              "Embryonic origin above the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c18",
+      "name_pt": "Drenagem linfática acima da linha pectinada",
+      "name_en": "Lymphatic drainage above the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "acima da linha o fluxo vai para os",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-10-linha-pectinada.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c18"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Drenagem linfática acima da linha pectinada"
+            ],
+            "en": [
+              "Lymphatic drainage above the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c19",
+      "name_pt": "Drenagem linfática abaixo da linha pectinada",
+      "name_en": "Lymphatic drainage below the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "abaixo, para os",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c19"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Drenagem linfática abaixo da linha pectinada"
+            ],
+            "en": [
+              "Lymphatic drainage below the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c20",
+      "name_pt": "Inervação acima da linha pectinada",
+      "name_en": "Innervation above the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "acima da linha o território é",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c20"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Inervação acima da linha pectinada"
+            ],
+            "en": [
+              "Innervation above the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c21",
+      "name_pt": "Inervação abaixo da linha pectinada",
+      "name_en": "Innervation below the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "Abaixo, a inervação é",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c21"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Inervação abaixo da linha pectinada"
+            ],
+            "en": [
+              "Innervation below the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c22",
+      "name_pt": "Drenagem venosa acima da linha pectinada",
+      "name_en": "Venous drainage above the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "acima da linha o sangue segue pela veia retal superior para o sistema",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c22"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Drenagem venosa acima da linha pectinada"
+            ],
+            "en": [
+              "Venous drainage above the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c23",
+      "name_pt": "Drenagem venosa abaixo da linha pectinada",
+      "name_en": "Venous drainage below the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "abaixo, pelas veias retais média e inferior para o sistema",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c23"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Drenagem venosa abaixo da linha pectinada"
+            ],
+            "en": [
+              "Venous drainage below the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c24",
+      "name_pt": "Hemorroida interna",
+      "name_en": "Internal hemorrhoid",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "em território de inervação visceral: sangram",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-12-hemorroidas.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c24"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Hemorroida interna"
+            ],
+            "en": [
+              "Internal hemorrhoid"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c25",
+      "name_pt": "Definição da junção anorretal",
+      "name_en": "Definition of the anorectal junction",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "A extremidade superior das colunas define a",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c25"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Definição da junção anorretal"
+            ],
+            "en": [
+              "Definition of the anorectal junction"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c26",
+      "name_pt": "Esfíncter anal interno",
+      "name_en": "Internal anal sphincter",
+      "subtopic": "Esfíncteres",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "é um espessamento da camada",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c26"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Esfíncter anal interno"
+            ],
+            "en": [
+              "Internal anal sphincter"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Esfíncteres"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c27",
+      "name_pt": "Esfíncter anal externo",
+      "name_en": "External anal sphincter",
+      "subtopic": "Esfíncteres",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "é músculo estriado esquelético, voluntário",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c27"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Esfíncter anal externo"
+            ],
+            "en": [
+              "External anal sphincter"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Esfíncteres"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c28",
+      "name_pt": "Megacólon chagásico",
+      "name_en": "Chagasic megacolon",
+      "subtopic": "Correlações",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "destruição de neurônios do",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-13-megacolon-chagas.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c28"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Megacólon chagásico"
+            ],
+            "en": [
+              "Chagasic megacolon"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Correlações"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c29",
+      "name_pt": "Relação do ureter com o mesocolo sigmoide",
+      "name_en": "Ureter and the sigmoid mesocolon",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "passa muito próximo à raiz do mesocolo sigmoide",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "supporting",
+        "role": "explain_mechanism",
+        "mode": "image_in_extra",
+        "task": "Imagem no Extra sustenta o mecanismo; a recuperação é verbal.",
+        "status": "approved",
+        "asset": "/figuras/anato-intestino-grosso/fig-14-sigmoide-ureter.png"
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c29"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Relação do ureter com o mesocolo sigmoide"
+            ],
+            "en": [
+              "Ureter and the sigmoid mesocolon"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "c30",
+      "name_pt": "Escavação retovesical",
+      "name_en": "Rectovesical pouch",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "No homem existe uma única reflexão entre reto e bexiga",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Card reconstrói o fato e o mecanismo explicado na E1.",
+        "card_refs": [
+          "c30"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Escavação retovesical"
+            ],
+            "en": [
+              "Rectovesical pouch"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "c31",
+      "name_pt": "Válvulas anais",
+      "name_en": "Anal valves",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "apoio",
+      "e1_anchor": "são as válvulas anais",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "c31"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Válvulas anais"
+            ],
+            "en": [
+              "Anal valves"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "apoio"
+      ]
+    },
+    {
+      "id": "o01",
+      "name_pt": "Doença de Crohn — extensão",
+      "name_en": "Crohn disease extent",
+      "subtopic": "Correlações",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "pode acometer todo o trato digestório, do esôfago ao reto",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "o01"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Doença de Crohn — extensão"
+            ],
+            "en": [
+              "Crohn disease extent"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Correlações"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "opcional"
+      ]
+    },
+    {
+      "id": "o02",
+      "name_pt": "Retocolite ulcerativa — padrão",
+      "name_en": "Ulcerative colitis pattern",
+      "subtopic": "Correlações",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "o acomete de forma homogênea e contínua",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "o02"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Retocolite ulcerativa — padrão"
+            ],
+            "en": [
+              "Ulcerative colitis pattern"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Correlações"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "opcional"
+      ]
+    },
+    {
+      "id": "o03",
+      "name_pt": "Fístula anal",
+      "name_en": "Anal fistula",
+      "subtopic": "Correlações",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "trajeto anormal que comunica o canal anal com a pele perianal",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "o03"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Fístula anal"
+            ],
+            "en": [
+              "Anal fistula"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Correlações"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "opcional"
+      ]
+    },
+    {
+      "id": "o04",
+      "name_pt": "Artéria acima da linha pectinada",
+      "name_en": "Artery above the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "o território acima vem da artéria mesentérica inferior",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "o04"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Artéria acima da linha pectinada"
+            ],
+            "en": [
+              "Artery above the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "opcional"
+      ]
+    },
+    {
+      "id": "o05",
+      "name_pt": "Artéria abaixo da linha pectinada",
+      "name_en": "Artery below the pectinate line",
+      "subtopic": "Linha pectinada",
+      "origins": [
+        "slide"
+      ],
+      "importance": "opcional",
+      "e1_anchor": "o de baixo, da artéria ilíaca interna",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "none",
+        "role": "none",
+        "mode": "none",
+        "task": "Conceito estritamente verbal.",
+        "status": "not_needed",
+        "asset": null
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 2,
+        "coverage_rationale": "Card fixa o fato central.",
+        "card_refs": [
+          "o05"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Artéria abaixo da linha pectinada"
+            ],
+            "en": [
+              "Artery below the pectinate line"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Linha pectinada"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI",
+              "large intestine"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "O índice privado do AnKing existe no Drive (anking-index-v2, 564 MB; arquivo-fonte 5,9 GB) mas não é transferível para este ambiente de execução. Busca real executada no único corpus AnKing-derivado local (flashcards/decks-apkg/P3 - UC02 completo.apkg, 247 notas): 4 acertos de texto, todos de outras aulas (Peyer's patches, ramos da aorta) e nenhum candidato para este conceito. Autoria registrada como pendente de recuradoria."
+        }
+      },
+      "tags": [
+        "opcional"
+      ]
+    },
+    {
+      "id": "io-01-partes",
+      "name_pt": "Partes do intestino grosso e mobilidade",
+      "name_en": "Parts of the large intestine and mobility",
+      "subtopic": "Partes e mobilidade",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "o percurso passa por dez estruturas nomeadas, nesta ordem",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Nomear, na ordem, as dez partes do intestino grosso e dizer quais são fixas e quais são móveis.",
+        "status": "approved",
+        "asset": "io/io-01-partes/io-01-partes.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "1. Ceco e 2. Apêndice vermiforme",
+            "3. Colo ascendente (fixo) e 4. flexura cólica direita",
+            "5. Colo transverso (móvel) e 6. flexura cólica esquerda",
+            "7. Colo descendente (fixo)",
+            "8. Colo sigmóide (móvel)",
+            "9. Reto e 10. Canal anal"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-01-partes-pergunta.png",
+            "answer": "io-01-partes-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 2 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "1a0c23c3e2201e2627cfa9bf5bb0ff895af0ffb30474ba868533878759e07afb",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-01-partes"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Partes do intestino grosso e mobilidade"
+            ],
+            "en": [
+              "Parts of the large intestine and mobility"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Partes e mobilidade"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-02-superficie",
+      "name_pt": "Marcas de superfície e flexuras do colo",
+      "name_en": "Surface features and flexures of the colon",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "três marcas identificam o colo de imediato",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Reconhecer tênias, haustros, apêndices omentais e as duas flexuras cólicas na prancha do colo.",
+        "status": "approved",
+        "asset": "io/io-02-superficie/io-02-superficie.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Flexura cólica esquerda",
+            "Flexura cólica direita",
+            "Haustros ou saculações",
+            "Corpos adiposos ou apêndices epiploicos",
+            "Tênias",
+            "Colo sigmóide",
+            "Apêndice vermiforme",
+            "Reto",
+            "Colo transverso",
+            "Tênia omental",
+            "Pregas semilunares"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-02-superficie-pergunta.png",
+            "answer": "io-02-superficie-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 3 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "3b79e0c7db1f51a417f7faf8b95154263953548866949a90b69d7aefcda137af",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-02-superficie"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Marcas de superfície e flexuras do colo"
+            ],
+            "en": [
+              "Surface features and flexures of the colon"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-03-tenias",
+      "name_pt": "As três tênias do colo",
+      "name_en": "The three taeniae coli",
+      "subtopic": "Marcas de superfície",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "a tênia mesocólica",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Localizar tênia livre, omental e mesocólica no ceco e reconhecer o apêndice e o íleo.",
+        "status": "approved",
+        "asset": "io/io-03-tenias/io-03-tenias.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Tênia livre",
+            "Apêndice vermiforme",
+            "Tênia mesocólica",
+            "Tênia omental",
+            "Ceco",
+            "Íleo"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-03-tenias-pergunta.png",
+            "answer": "io-03-tenias-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 15 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "9b3b5389d2245d1e2e10a597bdf776bdfbeaa87f21ab3f0def3320f07f4813eb",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-03-tenias"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "As três tênias do colo"
+            ],
+            "en": [
+              "The three taeniae coli"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Marcas de superfície"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-04-ceco-interno",
+      "name_pt": "Interior do ceco e válvula ileocecal",
+      "name_en": "Interior of the cecum and ileocecal valve",
+      "subtopic": "Junção ileocecal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "o conjunto dessas duas pregas que recebe o nome de",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Identificar papila ileal, óstio ileal, lábios ileocólico e ileocecal, válvula ileocecal e óstio do apêndice.",
+        "status": "approved",
+        "asset": "io/io-04-ceco-interno/io-04-ceco-interno.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Papila ileal (projeção do íleo no ceco)",
+            "Válvula íleocecal",
+            "Lábio íleocólico",
+            "Óstio ileal",
+            "Lábio íleocecal",
+            "Óstio do apêndice",
+            "Apêndice vermiforme"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-04-ceco-interno-pergunta.png",
+            "answer": "io-04-ceco-interno-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 11 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "33a0156753403d4567eeaa41db46997ff8d7b52b0acb3bb19b512ccee62cdfcf",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-04-ceco-interno"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Interior do ceco e válvula ileocecal"
+            ],
+            "en": [
+              "Interior of the cecum and ileocecal valve"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Junção ileocecal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-05-peca-ileocecal",
+      "name_pt": "Região ileocecal em peça anatômica",
+      "name_en": "Ileocecal region on a real specimen",
+      "subtopic": "Junção ileocecal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "É essa imagem — e não o desenho — que a prática cobra.",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Reconhecer ceco, apêndice, íleo distal e tênia livre em peça real, sem as cores do atlas.",
+        "status": "approved",
+        "asset": "io/io-05-peca-ileocecal/io-05-peca-ileocecal.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Íleo distal",
+            "Tênia livre",
+            "Ceco",
+            "Apêndice vermiforme"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-05-peca-ileocecal-pergunta.png",
+            "answer": "io-05-peca-ileocecal-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 16 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "5343fcd954a9abf9ed51b1c07de0747d9fef59a034f3bd784510c14a081d60e2",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-05-peca-ileocecal"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Região ileocecal em peça anatômica"
+            ],
+            "en": [
+              "Ileocecal region on a real specimen"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Junção ileocecal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-06-reto",
+      "name_pt": "Flexuras laterais e pregas transversas do reto",
+      "name_en": "Lateral flexures and transverse folds of the rectum",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "as pregas transversas do reto",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Identificar as três flexuras laterais, as três pregas transversas e a ampola retal.",
+        "status": "approved",
+        "asset": "io/io-06-reto/io-06-reto.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Flexura superior",
+            "Prega transversa média",
+            "Prega transversa superior",
+            "Ampola retal",
+            "Flexura intermediária",
+            "Flexura inferior",
+            "Prega transversa inferior"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-06-reto-pergunta.png",
+            "answer": "io-06-reto-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 21 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "ea07f83a3e4352f982eaab3d0de68390e5b66a143f754780e9560ded4d4049a4",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-06-reto"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Flexuras laterais e pregas transversas do reto"
+            ],
+            "en": [
+              "Lateral flexures and transverse folds of the rectum"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-07-peca-reto",
+      "name_pt": "Reto em peça anatômica",
+      "name_en": "Rectum on a real specimen",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "a flexura sacral",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Reconhecer flexura sacral, flexura anorretal, ampola retal e prega transversa em corte sagital de peça real.",
+        "status": "approved",
+        "asset": "io/io-07-peca-reto/io-07-peca-reto.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Prega transversa",
+            "Flexura sacral",
+            "Ampola retal",
+            "Flexura anorretal"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-07-peca-reto-pergunta.png",
+            "answer": "io-07-peca-reto-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 21 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "df2b4a020d4e814795f299e7a468f6e0896c818a7ff199eda4daccd648e26847",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-07-peca-reto"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Reto em peça anatômica"
+            ],
+            "en": [
+              "Rectum on a real specimen"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-08-pelve-fem",
+      "name_pt": "Escavações peritoneais na pelve feminina",
+      "name_en": "Peritoneal pouches in the female pelvis",
+      "subtopic": "Reto",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "a escavação retouterina",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Localizar as escavações retouterina e vesicouterina e as referências retais na pelve feminina.",
+        "status": "approved",
+        "asset": "io/io-08-pelve-fem/io-08-pelve-fem.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Escavação retouterina",
+            "Prega transversa",
+            "Escavação vesicouterina",
+            "Ampola retal",
+            "Flexura anorretal"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-08-pelve-fem-pergunta.png",
+            "answer": "io-08-pelve-fem-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 20 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "7176c9a9890b987de8023df7ec6d3c5e67c0044e4f4cead5c060ed97353a601d",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-08-pelve-fem"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Escavações peritoneais na pelve feminina"
+            ],
+            "en": [
+              "Peritoneal pouches in the female pelvis"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Reto"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-09-canal-anal",
+      "name_pt": "Relevo interno do canal anal",
+      "name_en": "Internal relief of the anal canal",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "as colunas anais",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Identificar colunas anais, seios anais, linha pectinada, linha branca, plexos venosos e junção anorretal.",
+        "status": "approved",
+        "asset": "io/io-09-canal-anal/io-09-canal-anal.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Canal anal cirúrgico",
+            "Junção anorretal",
+            "Coluna anal",
+            "Plexo venoso interno",
+            "Seio anal",
+            "Linha branca (anocutânea)",
+            "Plexo venoso externo",
+            "Linha pectinada"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-09-canal-anal-pergunta.png",
+            "answer": "io-09-canal-anal-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 22 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "a920600d17abf9ffc47a6e9bf34f852c9cc6637926b721152f693c2e34d7e275",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-09-canal-anal"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Relevo interno do canal anal"
+            ],
+            "en": [
+              "Internal relief of the anal canal"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-10-peca-canal",
+      "name_pt": "Canal anal em peça anatômica",
+      "name_en": "Anal canal on a real specimen",
+      "subtopic": "Canal anal",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "o seio anal",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Reconhecer coluna anal, seio anal, ampola retal e flexura anorretal em peça real.",
+        "status": "approved",
+        "asset": "io/io-10-peca-canal/io-10-peca-canal.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Ampola retal",
+            "Flexura anorretal",
+            "Seio anal",
+            "Coluna anal"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [],
+          "previews": {
+            "question": "io-10-peca-canal-pergunta.png",
+            "answer": "io-10-peca-canal-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 22 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "424e1e6f3fdf3ced9509f9ce2e04584d21a3d9592ac666b674efdbae820b9940",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-10-peca-canal"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Canal anal em peça anatômica"
+            ],
+            "en": [
+              "Anal canal on a real specimen"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Canal anal"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    },
+    {
+      "id": "io-11-esfincteres",
+      "name_pt": "Esfíncteres do ânus e puborretal",
+      "name_en": "Anal sphincters and puborectalis",
+      "subtopic": "Esfíncteres",
+      "origins": [
+        "slide",
+        "roteiro"
+      ],
+      "importance": "nucleo",
+      "e1_anchor": "dois esfíncteres sobrepostos",
+      "step1": {
+        "decision": "not_applicable",
+        "same_theme": true,
+        "source_ref": "",
+        "rationale": ""
+      },
+      "visual": {
+        "need": "required",
+        "role": "identify_or_locate",
+        "mode": "image_occlusion",
+        "task": "Nomear esfíncter interno, esfíncter externo, puborretal/levantador do ânus e as camadas circular e longitudinal.",
+        "status": "approved",
+        "asset": "io/io-11-esfincteres/io-11-esfincteres.png",
+        "io": {
+          "behavior": "hide_all_guess_all",
+          "coherent_visual_map": true,
+          "labels": [
+            "Esfíncter anal externo",
+            "Esfíncter anal interno",
+            "M. circular",
+            "M. puborretal / m. levantador do ânus",
+            "M. longitudinal",
+            "Esfíncter externo do ânus"
+          ],
+          "mask_covers_answer_label": true,
+          "blanked_regions": [
+            [
+              652,
+              410,
+              340,
+              290
+            ]
+          ],
+          "previews": {
+            "question": "io-11-esfincteres-pergunta.png",
+            "answer": "io-11-esfincteres-resposta.png"
+          },
+          "previews_reviewed": true,
+          "source": "Slides da aula, p. 25 (95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf) — crédito preservado no recorte",
+          "sha256": "7a6b20ebd2a853fc1d49f28527b4bc22b45a4557625654bfe20b317ecc06f8ae",
+          "leakage_check": "Rótulos duplicados rasterizados na figura também mascarados; textos explicativos entre parênteses mantidos visíveis por não nomearem a estrutura."
+        }
+      },
+      "route": {
+        "source": "authored",
+        "coverage_quality": 3,
+        "coverage_rationale": "Mapa coerente cobre a lista de identificação do roteiro prático.",
+        "card_refs": [
+          "io-11-esfincteres"
+        ],
+        "source_guid": "",
+        "candidate_search": {
+          "status": "blocked_private_index_unreachable",
+          "anking_count": 0,
+          "external_count": 0,
+          "query_families": {
+            "pt": [
+              "Esfíncteres do ânus e puborretal"
+            ],
+            "en": [
+              "Anal sphincters and puborectalis"
+            ],
+            "synonyms": [],
+            "mechanism_or_structure": [
+              "Esfíncteres"
+            ],
+            "tags_or_siblings": [
+              "#AK_Step1::Anatomy::GI"
+            ]
+          },
+          "siblings_reviewed": false,
+          "rejection_rationale": "Índice AnKing privado inacessível neste ambiente; além disso a identificação é cobrada em nomenclatura portuguesa sobre as pranchas e peças da própria aula, que o AnKing não fornece."
+        }
+      },
+      "tags": [
+        "nucleo"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "c01",
+      "concept_ids": [
+        "c01"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Sigmoid mobility and volvulus",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Sigmoid volvulus is possible because the sigmoid colon hangs on a {{c1::mesocolon}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Sigmoid volvulus is possible because the sigmoid colon hangs on a {{c1::mesocolon}}.",
+          "Extra": "O sigmoide conserva mesocolo → é móvel → pode torcer sobre o próprio eixo vascular, fechando a luz (obstrução) e estrangulando os vasos (isquemia).",
+          "Image": "",
+          "Source": "E1 §Partes e mobilidade — “O colo transverso e o colo sigmoide fazem o contrário: mantêm um”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Partes_e_mobilidade"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c02",
+      "concept_ids": [
+        "c02"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Fixed segments of the colon",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The ascending and descending colon are fixed because they are secondarily {{c1::retroperitoneal}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The ascending and descending colon are fixed because they are secondarily {{c1::retroperitoneal}}.",
+          "Extra": "Eram móveis no embrião; o mesocolo fundiu-se ao peritônio parietal posterior → perderam mesentério → não torcem.",
+          "Image": "",
+          "Source": "E1 §Partes e mobilidade — “passam a ser secundariamente retroperitoneais”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Partes_e_mobilidade"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c03",
+      "concept_ids": [
+        "c03"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Mechanical origin of haustra",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Haustra appear because the taeniae coli are {{c1::shorter}} than the colonic wall.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Haustra appear because the taeniae coli are {{c1::shorter}} than the colonic wall.",
+          "Extra": "Faixa muscular mais curta que o tubo → franze a parede → saculações por fora e pregas semilunares por dentro.",
+          "Image": "",
+          "Source": "E1 §Marcas de superfície — “as tênias são mais curtas que o comprimento do colo”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Marcas_de_superfície"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c04",
+      "concept_ids": [
+        "c04"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Nature of the taeniae coli",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The taeniae coli are condensations of the {{c1::longitudinal}} muscle layer.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The taeniae coli are condensations of the {{c1::longitudinal}} muscle layer.",
+          "Extra": "A muscular longitudinal do colo não é contínua: condensa-se em três faixas visíveis a olho nu.",
+          "Image": "",
+          "Source": "E1 §Marcas de superfície — “As tênias são condensações da camada muscular”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Marcas_de_superfície"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c05",
+      "concept_ids": [
+        "c05"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Omental appendices",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The fat-filled peritoneal projections on the surface of the colon are the omental {{c1::appendices}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The fat-filled peritoneal projections on the surface of the colon are the omental {{c1::appendices}}.",
+          "Extra": "Também chamados corpos adiposos ou apêndices epiploicos. São marca do colo: não existem no delgado nem no reto.",
+          "Image": "",
+          "Source": "E1 §Marcas de superfície — “projeções peritoneais cheias de gordura”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Marcas_de_superfície"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c06",
+      "concept_ids": [
+        "c06"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Extent of the taeniae coli",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The taeniae coli run from the cecum and fan out at the {{c1::rectosigmoid}} junction.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The taeniae coli run from the cecum and fan out at the {{c1::rectosigmoid}} junction.",
+          "Extra": "Ali voltam a formar camada longitudinal contínua → o reto não tem tênias, nem haustros, nem apêndices omentais.",
+          "Image": "",
+          "Source": "E1 §Marcas de superfície — “As três correm desde o ceco e terminam na”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Marcas_de_superfície"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c07",
+      "concept_ids": [
+        "c07"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Taeniae converge at the appendix base",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The three taeniae coli converge at the base of the {{c1::appendix}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The three taeniae coli converge at the base of the {{c1::appendix}}.",
+          "Extra": "Seguir a tênia livre do ceco até onde ela desaparece é o modo clássico de achar um apêndice em posição atípica.",
+          "Image": "",
+          "Source": "E1 §Apêndice vermiforme — “três tênias convergem na base do apêndice”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Apêndice_vermiforme"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c08",
+      "concept_ids": [
+        "c08"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Tissue of the appendix",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The wall of the vermiform appendix is rich in {{c1::lymphoid}} tissue.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The wall of the vermiform appendix is rich in {{c1::lymphoid}} tissue.",
+          "Extra": "É por isso que o apêndice é descrito como órgão linfoide do trato digestório.",
+          "Image": "",
+          "Source": "E1 §Apêndice vermiforme — “cuja parede é notavelmente rica em”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Apêndice_vermiforme"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c09",
+      "concept_ids": [
+        "c09"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Length of the appendix",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The vermiform appendix is a blind tube about {{c1::6–10}} cm long.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The vermiform appendix is a blind tube about {{c1::6–10}} cm long.",
+          "Extra": "Medida cobrada quando a prova pede para caracterizar o apêndice vermiforme.",
+          "Image": "",
+          "Source": "E1 §Apêndice vermiforme — “O apêndice vermiforme é um tubo cego de”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Apêndice_vermiforme"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c10",
+      "concept_ids": [
+        "c10"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Most frequent appendix position",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The most frequent position of the vermiform appendix is {{c1::retrocecal}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The most frequent position of the vermiform appendix is {{c1::retrocecal}}.",
+          "Extra": "Retrocecal 64% > pélvica 34% > pré-ileal 1–2% > pós-ileal 0,5%. A posição retrocecal explica a apendicite com dor anterior discreta.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-05-apendice-posicoes.png\">",
+          "Source": "E1 §Apêndice vermiforme — “retrocecal em cerca de 64% dos casos”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Apêndice_vermiforme"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c11",
+      "concept_ids": [
+        "c11"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "McBurney's point",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "McBurney's point lies on the line from the anterior superior iliac spine to the {{c1::umbilicus}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "McBurney's point lies on the line from the anterior superior iliac spine to the {{c1::umbilicus}}.",
+          "Extra": "Fica na junção do terço lateral com o terço médio dessa linha; é a projeção do apêndice na parede abdominal.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-06-mcburney.png\">",
+          "Source": "E1 §Apêndice vermiforme — “a projeção do apêndice na parede abdominal”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Apêndice_vermiforme"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c12",
+      "concept_ids": [
+        "c12"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Length of the rectum",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The rectum runs from the sigmoid colon to the anal canal and is about {{c1::15}} cm long.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The rectum runs from the sigmoid colon to the anal canal and is about {{c1::15}} cm long.",
+          "Extra": "Sem tênias, sem haustros e sem apêndices omentais — as três marcas se dispersam na junção retossigmoide.",
+          "Image": "",
+          "Source": "E1 §Reto — “O reto vai do colo sigmoide ao canal anal e mede cerca de 15 cm”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Reto"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c13",
+      "concept_ids": [
+        "c13"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Origin of the anorectal flexure",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The anorectal flexure is produced by the {{c1::puborectalis}} muscle.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The anorectal flexure is produced by the {{c1::puborectalis}} muscle.",
+          "Extra": "A alça passa por trás da junção anorretal e se fixa ao púbis pelas duas pontas; contraída, fecha o ângulo e mantém a continência em repouso.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-08-puborretal.png\">",
+          "Source": "E1 §Reto — “De todas as curvas, a que tem função é a”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c14",
+      "concept_ids": [
+        "c14"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Puborectalis during defecation",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "During defecation, relaxation of the puborectalis {{c1::straightens}} the anorectal junction.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "During defecation, relaxation of the puborectalis {{c1::straightens}} the anorectal junction.",
+          "Extra": "A alça afrouxa → o ângulo se abre → reto e canal anal se alinham e o conteúdo desce. Continência e evacuação são a mesma alça em dois estados.",
+          "Image": "",
+          "Source": "E1 §Reto — “afrouxa a alça, o ângulo se abre e a junção anorretal se”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c15",
+      "concept_ids": [
+        "c15"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Content of the anal columns",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The anal columns contain branches of the {{c1::superior rectal}} vessels.",
+      "cloze_answer_words": 2,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The anal columns contain branches of the {{c1::superior rectal}} vessels.",
+          "Extra": "São 8 a 10 pregas longitudinais na metade superior do canal anal, abrigando o plexo arteriovenoso submucoso.",
+          "Image": "",
+          "Source": "E1 §Canal anal — “cada uma contendo ramos dos”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Canal_anal"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c16",
+      "concept_ids": [
+        "c16"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Function of the anal sinuses",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The anal sinuses, between the bases of adjacent anal columns, release {{c1::mucus}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The anal sinuses, between the bases of adjacent anal columns, release {{c1::mucus}}.",
+          "Extra": "O muco lubrifica a passagem do bolo fecal. É de uma glândula que se abre num seio anal que costuma partir a fístula anal.",
+          "Image": "",
+          "Source": "E1 §Canal anal — “os seios anais liberam muco que lubrifica”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Canal_anal"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c17",
+      "concept_ids": [
+        "c17"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Embryonic origin above the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Above the pectinate line the lining is derived from {{c1::endoderm}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Above the pectinate line the lining is derived from {{c1::endoderm}}.",
+          "Extra": "Abaixo, deriva do ectoderma do proctodeu. Duas origens trazem dois conjuntos completos de artéria, veia, linfático e nervo.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “o revestimento deriva do”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c18",
+      "concept_ids": [
+        "c18"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Lymphatic drainage above the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Above the pectinate line, lymph drains to the internal {{c1::iliac}} nodes.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Above the pectinate line, lymph drains to the internal {{c1::iliac}} nodes.",
+          "Extra": "Abaixo da linha o fluxo vai para os linfonodos inguinais superficiais — por isso uma lesão baixa dá adenopatia na virilha.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-10-linha-pectinada.png\">",
+          "Source": "E1 §Linha pectinada — “acima da linha o fluxo vai para os”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c19",
+      "concept_ids": [
+        "c19"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Lymphatic drainage below the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Below the pectinate line, lymph drains to the superficial {{c1::inguinal}} nodes.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Below the pectinate line, lymph drains to the superficial {{c1::inguinal}} nodes.",
+          "Extra": "Território ectodérmico. Adenopatia inguinal em lesão do canal anal baixo.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “abaixo, para os”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c20",
+      "concept_ids": [
+        "c20"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Innervation above the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Above the pectinate line the innervation is {{c1::visceral}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Above the pectinate line the innervation is {{c1::visceral}}.",
+          "Extra": "Não há sensibilidade dolorosa fina — percebe-se distensão. É por isso que a hemorroida interna não dói.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “acima da linha o território é”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c21",
+      "concept_ids": [
+        "c21"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Innervation below the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Below the pectinate line the innervation is {{c1::somatic}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Below the pectinate line the innervation is {{c1::somatic}}.",
+          "Extra": "Chamada parietal nos slides, pelo nervo retal inferior. A mucosa é sensível a dor, toque e temperatura.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “Abaixo, a inervação é”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c22",
+      "concept_ids": [
+        "c22"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Venous drainage above the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Above the pectinate line the venous blood drains into the {{c1::portal}} system.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Above the pectinate line the venous blood drains into the {{c1::portal}} system.",
+          "Extra": "Pela veia retal superior. Como abaixo o sangue vai para o sistema cava, o canal anal é sítio de anastomose portocava.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “acima da linha o sangue segue pela veia retal superior para o sistema”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c23",
+      "concept_ids": [
+        "c23"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Venous drainage below the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Below the pectinate line the venous blood drains into the {{c1::caval}} system.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Below the pectinate line the venous blood drains into the {{c1::caval}} system.",
+          "Extra": "Pelas veias retais média e inferior. O encontro dos dois territórios faz do canal anal uma anastomose portocava.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “abaixo, pelas veias retais média e inferior para o sistema”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c24",
+      "concept_ids": [
+        "c24"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Internal hemorrhoid",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "A patient reports painless bright-red bleeding with prolapsing anal masses; these hemorrhoids are {{c1::internal}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "A patient reports painless bright-red bleeding with prolapsing anal masses; these hemorrhoids are {{c1::internal}}.",
+          "Extra": "Dilatação do plexo venoso retal interno, acima da linha pectinada, em território visceral → sangra e prolapsa, mas não dói. A externa, abaixo da linha, é dolorosa.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-12-hemorroidas.png\">",
+          "Source": "E1 §Linha pectinada — “em território de inervação visceral: sangram”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c25",
+      "concept_ids": [
+        "c25"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Definition of the anorectal junction",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The anorectal junction is marked by the upper ends of the anal {{c1::columns}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The anorectal junction is marked by the upper ends of the anal {{c1::columns}}.",
+          "Extra": "É a 'linha anorretal' da pergunta orientadora e o ponto onde começa o canal anal cirúrgico.",
+          "Image": "",
+          "Source": "E1 §Canal anal — “A extremidade superior das colunas define a”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Canal_anal"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c26",
+      "concept_ids": [
+        "c26"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Internal anal sphincter",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The internal anal sphincter is composed of {{c1::smooth}} muscle.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The internal anal sphincter is composed of {{c1::smooth}} muscle.",
+          "Extra": "Espessamento da camada muscular circular; involuntário, mantido em contração tônica pelo autônomo — responde pelo tônus de repouso.",
+          "Image": "",
+          "Source": "E1 §Esfíncteres — “é um espessamento da camada”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Esfíncteres"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c27",
+      "concept_ids": [
+        "c27"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "External anal sphincter",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The external anal sphincter is composed of {{c1::skeletal}} muscle.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The external anal sphincter is composed of {{c1::skeletal}} muscle.",
+          "Extra": "Voluntário, inervado pelo nervo retal inferior; é o que se contrai deliberadamente para adiar a evacuação.",
+          "Image": "",
+          "Source": "E1 §Esfíncteres — “é músculo estriado esquelético, voluntário”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Esfíncteres"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c28",
+      "concept_ids": [
+        "c28"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Chagasic megacolon",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "In Chagas disease, megacolon follows destruction of neurons of the {{c1::myenteric}} plexus.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "In Chagas disease, megacolon follows destruction of neurons of the {{c1::myenteric}} plexus.",
+          "Extra": "Sem o comando entérico, a motilidade cai → o conteúdo se acumula → o segmento se dilata cronicamente (colomegalia).",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-13-megacolon-chagas.png\">",
+          "Source": "E1 §Correlações — “destruição de neurônios do”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Correlações"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c29",
+      "concept_ids": [
+        "c29"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Ureter and the sigmoid mesocolon",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The structure at risk at the root of the sigmoid mesocolon is the left {{c1::ureter}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The structure at risk at the root of the sigmoid mesocolon is the left {{c1::ureter}}.",
+          "Extra": "Ele desce para a pelve junto dos vasos do sigmoide — reconhecê-lo antes de ligar os vasos é parte do tempo cirúrgico.",
+          "Image": "<img src=\"/figuras/anato-intestino-grosso/fig-14-sigmoide-ureter.png\">",
+          "Source": "E1 §Reto — “passa muito próximo à raiz do mesocolo sigmoide”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Reto"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "c30",
+      "concept_ids": [
+        "c30"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Rectovesical pouch",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "In the male, the peritoneum between the rectum and the bladder forms the {{c1::rectovesical}} pouch.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "In the male, the peritoneum between the rectum and the bladder forms the {{c1::rectovesical}} pouch.",
+          "Extra": "Na mulher há duas reflexões: a retouterina (fundo de saco de Douglas) e a vesicouterina. São o ponto mais baixo da cavidade peritoneal.",
+          "Image": "",
+          "Source": "E1 §Reto — “No homem existe uma única reflexão entre reto e bexiga”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "c31",
+      "concept_ids": [
+        "c31"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Anal valves",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The transverse folds joining the bases of adjacent anal columns are the anal {{c1::valves}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The transverse folds joining the bases of adjacent anal columns are the anal {{c1::valves}}.",
+          "Extra": "Elas fecham os seios anais por baixo; a linha em que se alinham é a própria linha pectinada.",
+          "Image": "",
+          "Source": "E1 §Canal anal — “são as válvulas anais”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "apoio",
+          "subtopico::Canal_anal"
+        ]
+      },
+      "importance": "apoio"
+    },
+    {
+      "id": "o01",
+      "concept_ids": [
+        "o01"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Crohn disease extent",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "The inflammatory bowel disease that may involve the whole gut from esophagus to rectum is {{c1::Crohn}} disease.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "The inflammatory bowel disease that may involve the whole gut from esophagus to rectum is {{c1::Crohn}} disease.",
+          "Extra": "A retocolite ulcerativa, em contraste, acomete o colo de forma homogênea e contínua.",
+          "Image": "",
+          "Source": "E1 §Correlações — “pode acometer todo o trato digestório, do esôfago ao reto”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "opcional",
+          "subtopico::Correlações"
+        ]
+      },
+      "importance": "opcional"
+    },
+    {
+      "id": "o02",
+      "concept_ids": [
+        "o02"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Ulcerative colitis pattern",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Ulcerative colitis involves the colonic mucosa in a {{c1::continuous}} pattern.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Ulcerative colitis involves the colonic mucosa in a {{c1::continuous}} pattern.",
+          "Extra": "Descrita nos slides como acometimento homogêneo, por oposição ao padrão salteado da doença de Crohn.",
+          "Image": "",
+          "Source": "E1 §Correlações — “o acomete de forma homogênea e contínua”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "opcional",
+          "subtopico::Correlações"
+        ]
+      },
+      "importance": "opcional"
+    },
+    {
+      "id": "o03",
+      "concept_ids": [
+        "o03"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Anal fistula",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "An anal fistula is an abnormal tunnel connecting the anal canal to the perianal {{c1::skin}}.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "An anal fistula is an abnormal tunnel connecting the anal canal to the perianal {{c1::skin}}.",
+          "Extra": "Costuma partir da infecção de uma glândula que se abre num seio anal; o pus disseca entre os esfíncteres até a pele.",
+          "Image": "",
+          "Source": "E1 §Correlações — “trajeto anormal que comunica o canal anal com a pele perianal”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "opcional",
+          "subtopico::Correlações"
+        ]
+      },
+      "importance": "opcional"
+    },
+    {
+      "id": "o04",
+      "concept_ids": [
+        "o04"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Artery above the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Above the pectinate line the arterial supply comes from the inferior {{c1::mesenteric}} artery.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Above the pectinate line the arterial supply comes from the inferior {{c1::mesenteric}} artery.",
+          "Extra": "Pela artéria retal superior. Detalhe vascular retomado na aula de vascularização das vísceras.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “o território acima vem da artéria mesentérica inferior”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "opcional",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "opcional"
+    },
+    {
+      "id": "o05",
+      "concept_ids": [
+        "o05"
+      ],
+      "source": "authored",
+      "format": "cloze",
+      "retrieval_target": "Artery below the pectinate line",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Um único c1, uma única ocorrência, uma recuperação independente."
+      },
+      "text": "Below the pectinate line the arterial supply comes from the internal {{c1::iliac}} artery.",
+      "cloze_answer_words": 1,
+      "cloze_exception_reason": "",
+      "note": {
+        "model": "Cloze NEBLI - Aula",
+        "fields": {
+          "Text": "Below the pectinate line the arterial supply comes from the internal {{c1::iliac}} artery.",
+          "Extra": "Pelas artérias retais média e inferior. Detalhe vascular retomado na aula de vascularização das vísceras.",
+          "Image": "",
+          "Source": "E1 §Linha pectinada — “o de baixo, da artéria ilíaca interna”",
+          "Tema": "ANATOMIA · INTESTINO GROSSO, RETO E CANAL ANAL",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "opcional",
+          "subtopico::Linha_pectinada"
+        ]
+      },
+      "importance": "opcional"
+    },
+    {
+      "id": "io-01-partes",
+      "concept_ids": [
+        "io-01-partes"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Nomear, na ordem, as dez partes do intestino grosso e dizer quais são fixas e quais são móveis.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Nomear, na ordem, as dez partes do intestino grosso e dizer quais são fixas e quais são móveis.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Large intestine</b> — name each numbered part and say whether it is fixed or mobile",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-01-partes-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-01-partes-resposta.png\">",
+          "Extra": "Partes do intestino grosso e mobilidade",
+          "Rotulos": "1. Ceco e 2. Apêndice vermiforme · 3. Colo ascendente (fixo) e 4. flexura cólica direita · 5. Colo transverso (móvel) e 6. flexura cólica esquerda · 7. Colo descendente (fixo) · 8. Colo sigmóide (móvel) · 9. Reto e 10. Canal anal",
+          "I0": "[#!occlusions [[rect0::23,48,348,31]]<br>[[rect1::23,133,446,59]]<br>[[rect2::23,233,462,59]]<br>[[rect3::23,346,270,31]]<br>[[rect4::23,445,256,31]]<br>[[rect5::23,544,243,31]] #]<br>active",
+          "Fonte": "Slides da aula, p. 2 — Partes e mobilidade · E1 “o percurso passa por dez estruturas nomeadas, nesta ordem”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-01-partes-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-01-partes/io-01-partes-pergunta.png",
+          "anato-intestino-grosso-io-01-partes-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-01-partes/io-01-partes-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Partes_e_mobilidade",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-02-superficie",
+      "concept_ids": [
+        "io-02-superficie"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Reconhecer tênias, haustros, apêndices omentais e as duas flexuras cólicas na prancha do colo.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Reconhecer tênias, haustros, apêndices omentais e as duas flexuras cólicas na prancha do colo.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Large intestine</b> — identify the surface features and flexures of the colon",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-02-superficie-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-02-superficie-resposta.png\">",
+          "Extra": "Marcas de superfície e flexuras do colo",
+          "Rotulos": "Flexura cólica esquerda · Flexura cólica direita · Haustros ou saculações · Corpos adiposos ou apêndices epiploicos · Tênias · Colo sigmóide · Apêndice vermiforme · Reto · Colo transverso · Tênia omental · Pregas semilunares",
+          "I0": "[#!occlusions [[rect0::838,26,150,58]]<br>[[rect1::56,51,210,31]]<br>[[rect2::862,307,132,58]]<br>[[rect3::53,329,173,111]]<br>[[rect4::854,444,66,31]]<br>[[rect5::720,575,147,31]]<br>[[rect6::233,593,118,58]]<br>[[rect7::617,594,44,31]]<br>[[rect8::330,40,100,24]]<br>[[rect9::432,62,50,40]]<br>[[rect10::519,42,82,38]] #]<br>active",
+          "Fonte": "Slides da aula, p. 3 — Marcas de superfície · E1 “três marcas identificam o colo de imediato”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-02-superficie-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-02-superficie/io-02-superficie-pergunta.png",
+          "anato-intestino-grosso-io-02-superficie-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-02-superficie/io-02-superficie-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Marcas_de_superfície",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-03-tenias",
+      "concept_ids": [
+        "io-03-tenias"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Localizar tênia livre, omental e mesocólica no ceco e reconhecer o apêndice e o íleo.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Localizar tênia livre, omental e mesocólica no ceco e reconhecer o apêndice e o íleo.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Large intestine</b> — identify the three taeniae coli and the structures at the cecum",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-03-tenias-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-03-tenias-resposta.png\">",
+          "Extra": "As três tênias do colo",
+          "Rotulos": "Tênia livre · Apêndice vermiforme · Tênia mesocólica · Tênia omental · Ceco · Íleo",
+          "I0": "[#!occlusions [[rect0::554,32,108,31]]<br>[[rect1::758,140,123,61]]<br>[[rect2::687,333,176,31]]<br>[[rect3::32,358,89,61]]<br>[[rect4::462,546,52,31]]<br>[[rect5::825,598,54,39]] #]<br>active",
+          "Fonte": "Slides da aula, p. 15 — Marcas de superfície · E1 “a tênia mesocólica”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-03-tenias-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-03-tenias/io-03-tenias-pergunta.png",
+          "anato-intestino-grosso-io-03-tenias-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-03-tenias/io-03-tenias-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Marcas_de_superfície",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-04-ceco-interno",
+      "concept_ids": [
+        "io-04-ceco-interno"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Identificar papila ileal, óstio ileal, lábios ileocólico e ileocecal, válvula ileocecal e óstio do apêndice.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Identificar papila ileal, óstio ileal, lábios ileocólico e ileocecal, válvula ileocecal e óstio do apêndice.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Cecum</b> — identify the components of the ileocecal region seen from inside the cecum",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-04-ceco-interno-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-04-ceco-interno-resposta.png\">",
+          "Extra": "Interior do ceco e válvula ileocecal",
+          "Rotulos": "Papila ileal (projeção do íleo no ceco) · Válvula íleocecal · Lábio íleocólico · Óstio ileal · Lábio íleocecal · Óstio do apêndice · Apêndice vermiforme",
+          "I0": "[#!occlusions [[rect0::298,25,423,34]]<br>[[rect1::775,101,173,58]]<br>[[rect2::48,232,159,31]]<br>[[rect3::822,296,104,31]]<br>[[rect4::27,451,154,31]]<br>[[rect5::198,656,185,31]]<br>[[rect6::460,689,229,58]] #]<br>active",
+          "Fonte": "Slides da aula, p. 11 — Junção ileocecal · E1 “o conjunto dessas duas pregas que recebe o nome de”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-04-ceco-interno-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-04-ceco-interno/io-04-ceco-interno-pergunta.png",
+          "anato-intestino-grosso-io-04-ceco-interno-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-04-ceco-interno/io-04-ceco-interno-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Junção_ileocecal",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-05-peca-ileocecal",
+      "concept_ids": [
+        "io-05-peca-ileocecal"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Reconhecer ceco, apêndice, íleo distal e tênia livre em peça real, sem as cores do atlas.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Reconhecer ceco, apêndice, íleo distal e tênia livre em peça real, sem as cores do atlas.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Cadaveric specimen</b> — identify the ileocecal region on the real specimen",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-05-peca-ileocecal-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-05-peca-ileocecal-resposta.png\">",
+          "Extra": "Região ileocecal em peça anatômica",
+          "Rotulos": "Íleo distal · Tênia livre · Ceco · Apêndice vermiforme",
+          "I0": "[#!occlusions [[rect0::854,544,112,34]]<br>[[rect1::64,614,121,34]]<br>[[rect2::422,652,59,34]]<br>[[rect3::722,723,242,34]] #]<br>active",
+          "Fonte": "Slides da aula, p. 16 — Junção ileocecal · E1 “É essa imagem — e não o desenho — que a prática cobra.”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-05-peca-ileocecal-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-05-peca-ileocecal/io-05-peca-ileocecal-pergunta.png",
+          "anato-intestino-grosso-io-05-peca-ileocecal-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-05-peca-ileocecal/io-05-peca-ileocecal-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Junção_ileocecal",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-06-reto",
+      "concept_ids": [
+        "io-06-reto"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Identificar as três flexuras laterais, as três pregas transversas e a ampola retal.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Identificar as três flexuras laterais, as três pregas transversas e a ampola retal.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Rectum</b> — identify the lateral flexures, the transverse folds and the ampulla",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-06-reto-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-06-reto-resposta.png\">",
+          "Extra": "Flexuras laterais e pregas transversas do reto",
+          "Rotulos": "Flexura superior · Prega transversa média · Prega transversa superior · Ampola retal · Flexura intermediária · Flexura inferior · Prega transversa inferior",
+          "I0": "[#!occlusions [[rect0::622,29,170,31]]<br>[[rect1::141,46,116,84]]<br>[[rect2::622,93,116,84]]<br>[[rect3::729,136,131,31]]<br>[[rect4::161,160,135,58]]<br>[[rect5::629,277,160,31]]<br>[[rect6::585,348,188,58]] #]<br>active",
+          "Fonte": "Slides da aula, p. 21 — Reto · E1 “as pregas transversas do reto”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-06-reto-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-06-reto/io-06-reto-pergunta.png",
+          "anato-intestino-grosso-io-06-reto-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-06-reto/io-06-reto-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-07-peca-reto",
+      "concept_ids": [
+        "io-07-peca-reto"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Reconhecer flexura sacral, flexura anorretal, ampola retal e prega transversa em corte sagital de peça real.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Reconhecer flexura sacral, flexura anorretal, ampola retal e prega transversa em corte sagital de peça real.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Cadaveric specimen</b> — identify the rectum on the sagittal section of the real specimen",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-07-peca-reto-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-07-peca-reto-resposta.png\">",
+          "Extra": "Reto em peça anatômica",
+          "Rotulos": "Prega transversa · Flexura sacral · Ampola retal · Flexura anorretal",
+          "I0": "[#!occlusions [[rect0::77,157,175,31]]<br>[[rect1::823,194,146,31]]<br>[[rect2::101,350,131,31]]<br>[[rect3::816,466,174,31]] #]<br>active",
+          "Fonte": "Slides da aula, p. 21 — Reto · E1 “a flexura sacral”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-07-peca-reto-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-07-peca-reto/io-07-peca-reto-pergunta.png",
+          "anato-intestino-grosso-io-07-peca-reto-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-07-peca-reto/io-07-peca-reto-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-08-pelve-fem",
+      "concept_ids": [
+        "io-08-pelve-fem"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Localizar as escavações retouterina e vesicouterina e as referências retais na pelve feminina.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Localizar as escavações retouterina e vesicouterina e as referências retais na pelve feminina.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Female pelvis</b> — identify the peritoneal pouches and the rectal landmarks",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-08-pelve-fem-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-08-pelve-fem-resposta.png\">",
+          "Extra": "Escavações peritoneais na pelve feminina",
+          "Rotulos": "Escavação retouterina · Prega transversa · Escavação vesicouterina · Ampola retal · Flexura anorretal",
+          "I0": "[#!occlusions [[rect0::802,135,139,51]]<br>[[rect1::827,308,96,51]]<br>[[rect2::50,382,120,51]]<br>[[rect3::838,427,115,28]]<br>[[rect4::615,666,174,31]] #]<br>active",
+          "Fonte": "Slides da aula, p. 20 — Reto · E1 “a escavação retouterina”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-08-pelve-fem-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-08-pelve-fem/io-08-pelve-fem-pergunta.png",
+          "anato-intestino-grosso-io-08-pelve-fem-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-08-pelve-fem/io-08-pelve-fem-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Reto",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-09-canal-anal",
+      "concept_ids": [
+        "io-09-canal-anal"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Identificar colunas anais, seios anais, linha pectinada, linha branca, plexos venosos e junção anorretal.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Identificar colunas anais, seios anais, linha pectinada, linha branca, plexos venosos e junção anorretal.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Anal canal</b> — identify each landmark of the anal canal",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-09-canal-anal-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-09-canal-anal-resposta.png\">",
+          "Extra": "Relevo interno do canal anal",
+          "Rotulos": "Canal anal cirúrgico · Junção anorretal · Coluna anal · Plexo venoso interno · Seio anal · Linha branca (anocutânea) · Plexo venoso externo · Linha pectinada",
+          "I0": "[#!occlusions [[rect0::10,19,229,101]]<br>[[rect1::814,60,189,104]]<br>[[rect2::29,155,192,101]]<br>[[rect3::693,189,162,25]]<br>[[rect4::38,325,155,101]]<br>[[rect5::825,335,153,54]]<br>[[rect6::688,421,166,25]]<br>[[rect7::326,449,458,84]] #]<br>active",
+          "Fonte": "Slides da aula, p. 22 — Canal anal · E1 “as colunas anais”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-09-canal-anal-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-09-canal-anal/io-09-canal-anal-pergunta.png",
+          "anato-intestino-grosso-io-09-canal-anal-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-09-canal-anal/io-09-canal-anal-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Canal_anal",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-10-peca-canal",
+      "concept_ids": [
+        "io-10-peca-canal"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Reconhecer coluna anal, seio anal, ampola retal e flexura anorretal em peça real.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Reconhecer coluna anal, seio anal, ampola retal e flexura anorretal em peça real.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Cadaveric specimen</b> — identify the anal canal landmarks on the real specimen",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-10-peca-canal-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-10-peca-canal-resposta.png\">",
+          "Extra": "Canal anal em peça anatômica",
+          "Rotulos": "Ampola retal · Flexura anorretal · Seio anal · Coluna anal",
+          "I0": "[#!occlusions [[rect0::403,236,88,58]]<br>[[rect1::523,391,174,31]]<br>[[rect2::51,505,110,34]]<br>[[rect3::867,543,139,34]] #]<br>active",
+          "Fonte": "Slides da aula, p. 22 — Canal anal · E1 “o seio anal”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-10-peca-canal-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-10-peca-canal/io-10-peca-canal-pergunta.png",
+          "anato-intestino-grosso-io-10-peca-canal-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-10-peca-canal/io-10-peca-canal-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Canal_anal",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    },
+    {
+      "id": "io-11-esfincteres",
+      "concept_ids": [
+        "io-11-esfincteres"
+      ],
+      "source": "authored",
+      "format": "image_occlusion",
+      "retrieval_target": "Nomear esfíncter interno, esfíncter externo, puborretal/levantador do ânus e as camadas circular e longitudinal.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "coherent_visual_map",
+        "rationale": "Exceção multi-alvo prevista em docs/canon/VISUAL-E-IO.md: mapa coerente recuperado como unidade em hide_all_guess_all."
+      },
+      "text": "Nomear esfíncter interno, esfíncter externo, puborretal/levantador do ânus e as camadas circular e longitudinal.",
+      "note": {
+        "model": "IO NEBLI - Image Occlusion (mapa coerente)",
+        "fields": {
+          "Header": "<b>Anatomy · Anal sphincters</b> — name each masked muscle of the anal sphincter complex",
+          "ImagemPergunta": "<img src=\"anato-intestino-grosso-io-11-esfincteres-pergunta.png\">",
+          "ImagemResposta": "<img src=\"anato-intestino-grosso-io-11-esfincteres-resposta.png\">",
+          "Extra": "Esfíncteres do ânus e puborretal",
+          "Rotulos": "Esfíncter anal externo · Esfíncter anal interno · M. circular · M. puborretal / m. levantador do ânus · M. longitudinal · Esfíncter externo do ânus",
+          "I0": "[#!occlusions [[rect0::36,19,319,37]]<br>[[rect1::653,24,302,37]]<br>[[rect2::730,204,158,37]]<br>[[rect3::21,225,205,104]]<br>[[rect4::698,238,212,37]]<br>[[rect5::23,536,145,104]] #]<br>active",
+          "Fonte": "Slides da aula, p. 25 — Esfíncteres · E1 “dois esfíncteres sobrepostos”",
+          "NEBLI_Comentario": "",
+          "NEBLI_Resposta": ""
+        },
+        "media": {
+          "anato-intestino-grosso-io-11-esfincteres-pergunta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-11-esfincteres/io-11-esfincteres-pergunta.png",
+          "anato-intestino-grosso-io-11-esfincteres-resposta.png": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/io/io-11-esfincteres/io-11-esfincteres-resposta.png"
+        },
+        "tags": [
+          "NEBLI::anato-intestino-grosso",
+          "nucleo",
+          "subtopico::Esfíncteres",
+          "IO"
+        ]
+      },
+      "importance": "nucleo"
+    }
+  ],
+  "gates": {
+    "every_card_has_e1_anchor": true,
+    "cloze_policy_1_2_3_words": true,
+    "io_multi_label_mode": "hide_all_guess_all",
+    "optional_separated": true,
+    "blocking_issues": []
+  }
+}

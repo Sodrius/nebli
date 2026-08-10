@@ -98,3 +98,7 @@ Thumbs.db
 # ---- Logs e caches de Typst ----
 *.log
 .typst-cache/
+
+# ---- Corrida de aula: material-fonte extraído e fontes tipográficas locais ----
+arquivos-trabalho/**/fontes/
+typst-build/**/.fonts/

@@ -1,0 +1,571 @@
+{
+  "apkg": "/home/user/nebli/arquivos-trabalho/anato-intestino-grosso/Intestino grosso, reto e canal anal.apkg",
+  "rendered_cards": 47,
+  "broken_media_cards": [],
+  "cards": [
+    {
+      "key": "00-Sigmoid-volvulus-is-possible-because-the-sigmoid-colon-hangs",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "00-Sigmoid-volvulus-is-possible-because-the-sigmoid-colon-hangs-pergunta.png",
+        "resposta": "00-Sigmoid-volvulus-is-possible-because-the-sigmoid-colon-hangs-resposta.png"
+      }
+    },
+    {
+      "key": "01-The-ascending-and-descending-colon-are-fixed-because-they-ar",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "01-The-ascending-and-descending-colon-are-fixed-because-they-ar-pergunta.png",
+        "resposta": "01-The-ascending-and-descending-colon-are-fixed-because-they-ar-resposta.png"
+      }
+    },
+    {
+      "key": "02-Haustra-appear-because-the-taeniae-coli-are-c1-shorter-than-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "02-Haustra-appear-because-the-taeniae-coli-are-c1-shorter-than--pergunta.png",
+        "resposta": "02-Haustra-appear-because-the-taeniae-coli-are-c1-shorter-than--resposta.png"
+      }
+    },
+    {
+      "key": "03-The-taeniae-coli-are-condensations-of-the-c1-longitudinal-mu",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "03-The-taeniae-coli-are-condensations-of-the-c1-longitudinal-mu-pergunta.png",
+        "resposta": "03-The-taeniae-coli-are-condensations-of-the-c1-longitudinal-mu-resposta.png"
+      }
+    },
+    {
+      "key": "04-The-fat-filled-peritoneal-projections-on-the-surface-of-the-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "04-The-fat-filled-peritoneal-projections-on-the-surface-of-the--pergunta.png",
+        "resposta": "04-The-fat-filled-peritoneal-projections-on-the-surface-of-the--resposta.png"
+      }
+    },
+    {
+      "key": "05-The-taeniae-coli-run-from-the-cecum-and-fan-out-at-the-c1-re",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "05-The-taeniae-coli-run-from-the-cecum-and-fan-out-at-the-c1-re-pergunta.png",
+        "resposta": "05-The-taeniae-coli-run-from-the-cecum-and-fan-out-at-the-c1-re-resposta.png"
+      }
+    },
+    {
+      "key": "06-The-three-taeniae-coli-converge-at-the-base-of-the-c1-append",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "06-The-three-taeniae-coli-converge-at-the-base-of-the-c1-append-pergunta.png",
+        "resposta": "06-The-three-taeniae-coli-converge-at-the-base-of-the-c1-append-resposta.png"
+      }
+    },
+    {
+      "key": "07-The-wall-of-the-vermiform-appendix-is-rich-in-c1-lymphoid-ti",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "07-The-wall-of-the-vermiform-appendix-is-rich-in-c1-lymphoid-ti-pergunta.png",
+        "resposta": "07-The-wall-of-the-vermiform-appendix-is-rich-in-c1-lymphoid-ti-resposta.png"
+      }
+    },
+    {
+      "key": "08-The-vermiform-appendix-is-a-blind-tube-about-c1-6-10-cm-long",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "08-The-vermiform-appendix-is-a-blind-tube-about-c1-6-10-cm-long-pergunta.png",
+        "resposta": "08-The-vermiform-appendix-is-a-blind-tube-about-c1-6-10-cm-long-resposta.png"
+      }
+    },
+    {
+      "key": "09-The-most-frequent-position-of-the-vermiform-appendix-is-c1-r",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-05-apendice-posicoes.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-05-apendice-posicoes.png"
+      ],
+      "previews": {
+        "pergunta": "09-The-most-frequent-position-of-the-vermiform-appendix-is-c1-r-pergunta.png",
+        "resposta": "09-The-most-frequent-position-of-the-vermiform-appendix-is-c1-r-resposta.png"
+      }
+    },
+    {
+      "key": "10-McBurney-s-point-lies-on-the-line-from-the-anterior-superior",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-06-mcburney.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-06-mcburney.png"
+      ],
+      "previews": {
+        "pergunta": "10-McBurney-s-point-lies-on-the-line-from-the-anterior-superior-pergunta.png",
+        "resposta": "10-McBurney-s-point-lies-on-the-line-from-the-anterior-superior-resposta.png"
+      }
+    },
+    {
+      "key": "11-The-rectum-runs-from-the-sigmoid-colon-to-the-anal-canal-and",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "11-The-rectum-runs-from-the-sigmoid-colon-to-the-anal-canal-and-pergunta.png",
+        "resposta": "11-The-rectum-runs-from-the-sigmoid-colon-to-the-anal-canal-and-resposta.png"
+      }
+    },
+    {
+      "key": "12-The-anorectal-flexure-is-produced-by-the-c1-puborectalis-mus",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-08-puborretal.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-08-puborretal.png"
+      ],
+      "previews": {
+        "pergunta": "12-The-anorectal-flexure-is-produced-by-the-c1-puborectalis-mus-pergunta.png",
+        "resposta": "12-The-anorectal-flexure-is-produced-by-the-c1-puborectalis-mus-resposta.png"
+      }
+    },
+    {
+      "key": "13-During-defecation-relaxation-of-the-puborectalis-c1-straight",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "13-During-defecation-relaxation-of-the-puborectalis-c1-straight-pergunta.png",
+        "resposta": "13-During-defecation-relaxation-of-the-puborectalis-c1-straight-resposta.png"
+      }
+    },
+    {
+      "key": "14-The-anal-columns-contain-branches-of-the-c1-superior-rectal-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "14-The-anal-columns-contain-branches-of-the-c1-superior-rectal--pergunta.png",
+        "resposta": "14-The-anal-columns-contain-branches-of-the-c1-superior-rectal--resposta.png"
+      }
+    },
+    {
+      "key": "15-The-anal-sinuses-between-the-bases-of-adjacent-anal-columns-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "15-The-anal-sinuses-between-the-bases-of-adjacent-anal-columns--pergunta.png",
+        "resposta": "15-The-anal-sinuses-between-the-bases-of-adjacent-anal-columns--resposta.png"
+      }
+    },
+    {
+      "key": "16-Above-the-pectinate-line-the-lining-is-derived-from-c1-endod",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "16-Above-the-pectinate-line-the-lining-is-derived-from-c1-endod-pergunta.png",
+        "resposta": "16-Above-the-pectinate-line-the-lining-is-derived-from-c1-endod-resposta.png"
+      }
+    },
+    {
+      "key": "17-Above-the-pectinate-line-lymph-drains-to-the-internal-c1-ili",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-10-linha-pectinada.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-10-linha-pectinada.png"
+      ],
+      "previews": {
+        "pergunta": "17-Above-the-pectinate-line-lymph-drains-to-the-internal-c1-ili-pergunta.png",
+        "resposta": "17-Above-the-pectinate-line-lymph-drains-to-the-internal-c1-ili-resposta.png"
+      }
+    },
+    {
+      "key": "18-Below-the-pectinate-line-lymph-drains-to-the-superficial-c1-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "18-Below-the-pectinate-line-lymph-drains-to-the-superficial-c1--pergunta.png",
+        "resposta": "18-Below-the-pectinate-line-lymph-drains-to-the-superficial-c1--resposta.png"
+      }
+    },
+    {
+      "key": "19-Above-the-pectinate-line-the-innervation-is-c1-visceral-.",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "19-Above-the-pectinate-line-the-innervation-is-c1-visceral-.-pergunta.png",
+        "resposta": "19-Above-the-pectinate-line-the-innervation-is-c1-visceral-.-resposta.png"
+      }
+    },
+    {
+      "key": "20-Below-the-pectinate-line-the-innervation-is-c1-somatic-.",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "20-Below-the-pectinate-line-the-innervation-is-c1-somatic-.-pergunta.png",
+        "resposta": "20-Below-the-pectinate-line-the-innervation-is-c1-somatic-.-resposta.png"
+      }
+    },
+    {
+      "key": "21-Above-the-pectinate-line-the-venous-blood-drains-into-the-c1",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "21-Above-the-pectinate-line-the-venous-blood-drains-into-the-c1-pergunta.png",
+        "resposta": "21-Above-the-pectinate-line-the-venous-blood-drains-into-the-c1-resposta.png"
+      }
+    },
+    {
+      "key": "22-Below-the-pectinate-line-the-venous-blood-drains-into-the-c1",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "22-Below-the-pectinate-line-the-venous-blood-drains-into-the-c1-pergunta.png",
+        "resposta": "22-Below-the-pectinate-line-the-venous-blood-drains-into-the-c1-resposta.png"
+      }
+    },
+    {
+      "key": "23-A-patient-reports-painless-bright-red-bleeding-with-prolapsi",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-12-hemorroidas.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-12-hemorroidas.png"
+      ],
+      "previews": {
+        "pergunta": "23-A-patient-reports-painless-bright-red-bleeding-with-prolapsi-pergunta.png",
+        "resposta": "23-A-patient-reports-painless-bright-red-bleeding-with-prolapsi-resposta.png"
+      }
+    },
+    {
+      "key": "24-The-anorectal-junction-is-marked-by-the-upper-ends-of-the-an",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "24-The-anorectal-junction-is-marked-by-the-upper-ends-of-the-an-pergunta.png",
+        "resposta": "24-The-anorectal-junction-is-marked-by-the-upper-ends-of-the-an-resposta.png"
+      }
+    },
+    {
+      "key": "25-The-internal-anal-sphincter-is-composed-of-c1-smooth-muscle.",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "25-The-internal-anal-sphincter-is-composed-of-c1-smooth-muscle.-pergunta.png",
+        "resposta": "25-The-internal-anal-sphincter-is-composed-of-c1-smooth-muscle.-resposta.png"
+      }
+    },
+    {
+      "key": "26-The-external-anal-sphincter-is-composed-of-c1-skeletal-muscl",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "26-The-external-anal-sphincter-is-composed-of-c1-skeletal-muscl-pergunta.png",
+        "resposta": "26-The-external-anal-sphincter-is-composed-of-c1-skeletal-muscl-resposta.png"
+      }
+    },
+    {
+      "key": "27-In-Chagas-disease-megacolon-follows-destruction-of-neurons-o",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-13-megacolon-chagas.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-13-megacolon-chagas.png"
+      ],
+      "previews": {
+        "pergunta": "27-In-Chagas-disease-megacolon-follows-destruction-of-neurons-o-pergunta.png",
+        "resposta": "27-In-Chagas-disease-megacolon-follows-destruction-of-neurons-o-resposta.png"
+      }
+    },
+    {
+      "key": "28-The-structure-at-risk-at-the-root-of-the-sigmoid-mesocolon-i",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [
+        "anato-intestino-grosso-fig-14-sigmoide-ureter.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-fig-14-sigmoide-ureter.png"
+      ],
+      "previews": {
+        "pergunta": "28-The-structure-at-risk-at-the-root-of-the-sigmoid-mesocolon-i-pergunta.png",
+        "resposta": "28-The-structure-at-risk-at-the-root-of-the-sigmoid-mesocolon-i-resposta.png"
+      }
+    },
+    {
+      "key": "29-In-the-male-the-peritoneum-between-the-rectum-and-the-bladde",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "29-In-the-male-the-peritoneum-between-the-rectum-and-the-bladde-pergunta.png",
+        "resposta": "29-In-the-male-the-peritoneum-between-the-rectum-and-the-bladde-resposta.png"
+      }
+    },
+    {
+      "key": "30-The-transverse-folds-joining-the-bases-of-adjacent-anal-colu",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "30-The-transverse-folds-joining-the-bases-of-adjacent-anal-colu-pergunta.png",
+        "resposta": "30-The-transverse-folds-joining-the-bases-of-adjacent-anal-colu-resposta.png"
+      }
+    },
+    {
+      "key": "31-The-inflammatory-bowel-disease-that-may-involve-the-whole-gu",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "31-The-inflammatory-bowel-disease-that-may-involve-the-whole-gu-pergunta.png",
+        "resposta": "31-The-inflammatory-bowel-disease-that-may-involve-the-whole-gu-resposta.png"
+      }
+    },
+    {
+      "key": "32-Ulcerative-colitis-involves-the-colonic-mucosa-in-a-c1-conti",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "32-Ulcerative-colitis-involves-the-colonic-mucosa-in-a-c1-conti-pergunta.png",
+        "resposta": "32-Ulcerative-colitis-involves-the-colonic-mucosa-in-a-c1-conti-resposta.png"
+      }
+    },
+    {
+      "key": "33-An-anal-fistula-is-an-abnormal-tunnel-connecting-the-anal-ca",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "33-An-anal-fistula-is-an-abnormal-tunnel-connecting-the-anal-ca-pergunta.png",
+        "resposta": "33-An-anal-fistula-is-an-abnormal-tunnel-connecting-the-anal-ca-resposta.png"
+      }
+    },
+    {
+      "key": "34-Above-the-pectinate-line-the-arterial-supply-comes-from-the-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "34-Above-the-pectinate-line-the-arterial-supply-comes-from-the--pergunta.png",
+        "resposta": "34-Above-the-pectinate-line-the-arterial-supply-comes-from-the--resposta.png"
+      }
+    },
+    {
+      "key": "35-Below-the-pectinate-line-the-arterial-supply-comes-from-the-",
+      "note_type": "Cloze NEBLI - Aula",
+      "images_referenced": [],
+      "images_present": [],
+      "previews": {
+        "pergunta": "35-Below-the-pectinate-line-the-arterial-supply-comes-from-the--pergunta.png",
+        "resposta": "35-Below-the-pectinate-line-the-arterial-supply-comes-from-the--resposta.png"
+      }
+    },
+    {
+      "key": "36--b-Anatomy-Large-intestine-b-name-each-numbered-part-and-say",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-01-partes-pergunta.png",
+        "anato-intestino-grosso-io-01-partes-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-01-partes-pergunta.png",
+        "anato-intestino-grosso-io-01-partes-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "36--b-Anatomy-Large-intestine-b-name-each-numbered-part-and-say-pergunta.png",
+        "resposta": "36--b-Anatomy-Large-intestine-b-name-each-numbered-part-and-say-resposta.png"
+      }
+    },
+    {
+      "key": "37--b-Anatomy-Large-intestine-b-identify-the-surface-features-a",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-02-superficie-pergunta.png",
+        "anato-intestino-grosso-io-02-superficie-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-02-superficie-pergunta.png",
+        "anato-intestino-grosso-io-02-superficie-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "37--b-Anatomy-Large-intestine-b-identify-the-surface-features-a-pergunta.png",
+        "resposta": "37--b-Anatomy-Large-intestine-b-identify-the-surface-features-a-resposta.png"
+      }
+    },
+    {
+      "key": "38--b-Anatomy-Large-intestine-b-identify-the-three-taeniae-coli",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-03-tenias-pergunta.png",
+        "anato-intestino-grosso-io-03-tenias-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-03-tenias-pergunta.png",
+        "anato-intestino-grosso-io-03-tenias-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "38--b-Anatomy-Large-intestine-b-identify-the-three-taeniae-coli-pergunta.png",
+        "resposta": "38--b-Anatomy-Large-intestine-b-identify-the-three-taeniae-coli-resposta.png"
+      }
+    },
+    {
+      "key": "39--b-Anatomy-Cecum-b-identify-the-components-of-the-ileocecal-",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-04-ceco-interno-pergunta.png",
+        "anato-intestino-grosso-io-04-ceco-interno-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-04-ceco-interno-pergunta.png",
+        "anato-intestino-grosso-io-04-ceco-interno-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "39--b-Anatomy-Cecum-b-identify-the-components-of-the-ileocecal--pergunta.png",
+        "resposta": "39--b-Anatomy-Cecum-b-identify-the-components-of-the-ileocecal--resposta.png"
+      }
+    },
+    {
+      "key": "40--b-Anatomy-Cadaveric-specimen-b-identify-the-ileocecal-regio",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-05-peca-ileocecal-pergunta.png",
+        "anato-intestino-grosso-io-05-peca-ileocecal-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-05-peca-ileocecal-pergunta.png",
+        "anato-intestino-grosso-io-05-peca-ileocecal-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "40--b-Anatomy-Cadaveric-specimen-b-identify-the-ileocecal-regio-pergunta.png",
+        "resposta": "40--b-Anatomy-Cadaveric-specimen-b-identify-the-ileocecal-regio-resposta.png"
+      }
+    },
+    {
+      "key": "41--b-Anatomy-Rectum-b-identify-the-lateral-flexures-the-transv",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-06-reto-pergunta.png",
+        "anato-intestino-grosso-io-06-reto-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-06-reto-pergunta.png",
+        "anato-intestino-grosso-io-06-reto-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "41--b-Anatomy-Rectum-b-identify-the-lateral-flexures-the-transv-pergunta.png",
+        "resposta": "41--b-Anatomy-Rectum-b-identify-the-lateral-flexures-the-transv-resposta.png"
+      }
+    },
+    {
+      "key": "42--b-Anatomy-Cadaveric-specimen-b-identify-the-rectum-on-the-s",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-07-peca-reto-pergunta.png",
+        "anato-intestino-grosso-io-07-peca-reto-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-07-peca-reto-pergunta.png",
+        "anato-intestino-grosso-io-07-peca-reto-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "42--b-Anatomy-Cadaveric-specimen-b-identify-the-rectum-on-the-s-pergunta.png",
+        "resposta": "42--b-Anatomy-Cadaveric-specimen-b-identify-the-rectum-on-the-s-resposta.png"
+      }
+    },
+    {
+      "key": "43--b-Anatomy-Female-pelvis-b-identify-the-peritoneal-pouches-a",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-08-pelve-fem-pergunta.png",
+        "anato-intestino-grosso-io-08-pelve-fem-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-08-pelve-fem-pergunta.png",
+        "anato-intestino-grosso-io-08-pelve-fem-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "43--b-Anatomy-Female-pelvis-b-identify-the-peritoneal-pouches-a-pergunta.png",
+        "resposta": "43--b-Anatomy-Female-pelvis-b-identify-the-peritoneal-pouches-a-resposta.png"
+      }
+    },
+    {
+      "key": "44--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-09-canal-anal-pergunta.png",
+        "anato-intestino-grosso-io-09-canal-anal-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-09-canal-anal-pergunta.png",
+        "anato-intestino-grosso-io-09-canal-anal-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "44--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c-pergunta.png",
+        "resposta": "44--b-Anatomy-Anal-canal-b-identify-each-landmark-of-the-anal-c-resposta.png"
+      }
+    },
+    {
+      "key": "45--b-Anatomy-Cadaveric-specimen-b-identify-the-anal-canal-land",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-10-peca-canal-pergunta.png",
+        "anato-intestino-grosso-io-10-peca-canal-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-10-peca-canal-pergunta.png",
+        "anato-intestino-grosso-io-10-peca-canal-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "45--b-Anatomy-Cadaveric-specimen-b-identify-the-anal-canal-land-pergunta.png",
+        "resposta": "45--b-Anatomy-Cadaveric-specimen-b-identify-the-anal-canal-land-resposta.png"
+      }
+    },
+    {
+      "key": "46--b-Anatomy-Anal-sphincters-b-name-each-masked-muscle-of-the-",
+      "note_type": "IO NEBLI - Image Occlusion (mapa coerente)",
+      "images_referenced": [
+        "anato-intestino-grosso-io-11-esfincteres-pergunta.png",
+        "anato-intestino-grosso-io-11-esfincteres-resposta.png"
+      ],
+      "images_present": [
+        "anato-intestino-grosso-io-11-esfincteres-pergunta.png",
+        "anato-intestino-grosso-io-11-esfincteres-resposta.png"
+      ],
+      "previews": {
+        "pergunta": "46--b-Anatomy-Anal-sphincters-b-name-each-masked-muscle-of-the--pergunta.png",
+        "resposta": "46--b-Anatomy-Anal-sphincters-b-name-each-masked-muscle-of-the--resposta.png"
+      }
+    }
+  ]
+}

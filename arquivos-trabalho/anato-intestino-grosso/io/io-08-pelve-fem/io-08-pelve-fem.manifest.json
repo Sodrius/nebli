@@ -1,0 +1,93 @@
+{
+  "name": "io-08-pelve-fem",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 20,
+  "crop_pt": [
+    90.0,
+    368.0,
+    450.0,
+    642.0
+  ],
+  "dpi": 200,
+  "image": "io-08-pelve-fem.png",
+  "image_sha256": "7176c9a9890b987de8023df7ec6d3c5e67c0044e4f4cead5c060ed97353a601d",
+  "image_size": [
+    1000,
+    762
+  ],
+  "header": "<b>Anatomy · Female pelvis</b> — identify the peritoneal pouches and the rectal landmarks",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Escavação retouterina",
+      "source_lines": [
+        "Escavação reto",
+        "uterina"
+      ],
+      "box": [
+        802,
+        135,
+        139,
+        51
+      ]
+    },
+    {
+      "text": "Prega transversa",
+      "source_lines": [
+        "Prega",
+        "transversa"
+      ],
+      "box": [
+        827,
+        308,
+        96,
+        51
+      ]
+    },
+    {
+      "text": "Escavação vesicouterina",
+      "source_lines": [
+        "Escavação",
+        "vesicouterina"
+      ],
+      "box": [
+        50,
+        382,
+        120,
+        51
+      ]
+    },
+    {
+      "text": "Ampola retal",
+      "source_lines": [
+        "Ampola retal"
+      ],
+      "box": [
+        838,
+        427,
+        115,
+        28
+      ]
+    },
+    {
+      "text": "Flexura anorretal",
+      "source_lines": [
+        "Flexura anorretal"
+      ],
+      "box": [
+        615,
+        666,
+        174,
+        31
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-08-pelve-fem-pergunta.png",
+    "answer": "io-08-pelve-fem-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::802,135,139,51]]<br>[[rect1::827,308,96,51]]<br>[[rect2::50,382,120,51]]<br>[[rect3::838,427,115,28]]<br>[[rect4::615,666,174,31]] #]<br>active"
+}

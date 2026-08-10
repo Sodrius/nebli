@@ -1,0 +1,141 @@
+{
+  "name": "io-09-canal-anal",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 22,
+  "crop_pt": [
+    90.0,
+    136.0,
+    455.0,
+    332.0
+  ],
+  "dpi": 200,
+  "image": "io-09-canal-anal.png",
+  "image_sha256": "a920600d17abf9ffc47a6e9bf34f852c9cc6637926b721152f693c2e34d7e275",
+  "image_size": [
+    1014,
+    546
+  ],
+  "header": "<b>Anatomy · Anal canal</b> — identify each landmark of the anal canal",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Canal anal cirúrgico",
+      "source_lines": [
+        "Canal anal cirúrgico",
+        "(pelo estreitamento",
+        "do esfíncter anal externo,",
+        "m. levantador do anus)"
+      ],
+      "box": [
+        10,
+        19,
+        229,
+        101
+      ]
+    },
+    {
+      "text": "Junção anorretal",
+      "source_lines": [
+        "junção",
+        "anorretal",
+        "(porção superior das",
+        "colunas)"
+      ],
+      "box": [
+        814,
+        60,
+        189,
+        104
+      ]
+    },
+    {
+      "text": "Coluna anal",
+      "source_lines": [
+        "Coluna anal",
+        "(ramos a. v. retais",
+        "superiores",
+        "Plexo arterial/venoso)"
+      ],
+      "box": [
+        29,
+        155,
+        192,
+        101
+      ]
+    },
+    {
+      "text": "Plexo venoso interno",
+      "source_lines": [
+        "Plexo venoso interno"
+      ],
+      "box": [
+        693,
+        189,
+        162,
+        25
+      ]
+    },
+    {
+      "text": "Seio anal",
+      "source_lines": [
+        "Seio anal",
+        "(liberam muco)",
+        "(espaço entre as",
+        "colunas)"
+      ],
+      "box": [
+        38,
+        325,
+        155,
+        101
+      ]
+    },
+    {
+      "text": "Linha branca (anocutânea)",
+      "source_lines": [
+        "Linha Branca",
+        "(anocutânea)"
+      ],
+      "box": [
+        825,
+        335,
+        153,
+        54
+      ]
+    },
+    {
+      "text": "Plexo venoso externo",
+      "source_lines": [
+        "Plexo venoso externo"
+      ],
+      "box": [
+        688,
+        421,
+        166,
+        25
+      ]
+    },
+    {
+      "text": "Linha pectinada",
+      "source_lines": [
+        "Linha pectinada divide:",
+        "(acima revestimento endodérmico do inferior",
+        "revestimento ectodérmico)"
+      ],
+      "box": [
+        326,
+        449,
+        458,
+        84
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-09-canal-anal-pergunta.png",
+    "answer": "io-09-canal-anal-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::10,19,229,101]]<br>[[rect1::814,60,189,104]]<br>[[rect2::29,155,192,101]]<br>[[rect3::693,189,162,25]]<br>[[rect4::38,325,155,101]]<br>[[rect5::825,335,153,54]]<br>[[rect6::688,421,166,25]]<br>[[rect7::326,449,458,84]] #]<br>active"
+}

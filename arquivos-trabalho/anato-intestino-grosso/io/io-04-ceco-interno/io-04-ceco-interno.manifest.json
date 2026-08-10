@@ -1,0 +1,116 @@
+{
+  "name": "io-04-ceco-interno",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 11,
+  "crop_pt": [
+    90.0,
+    60.0,
+    475.0,
+    333.0
+  ],
+  "dpi": 200,
+  "image": "io-04-ceco-interno.png",
+  "image_sha256": "33a0156753403d4567eeaa41db46997ff8d7b52b0acb3bb19b512ccee62cdfcf",
+  "image_size": [
+    1070,
+    759
+  ],
+  "header": "<b>Anatomy · Cecum</b> — identify the components of the ileocecal region seen from inside the cecum",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Papila ileal (projeção do íleo no ceco)",
+      "source_lines": [
+        "Papila ileal (projeção do íleo no ceco)"
+      ],
+      "box": [
+        298,
+        25,
+        423,
+        34
+      ]
+    },
+    {
+      "text": "Válvula íleocecal",
+      "source_lines": [
+        "Válvula íleocecal",
+        "(conjunto)"
+      ],
+      "box": [
+        775,
+        101,
+        173,
+        58
+      ]
+    },
+    {
+      "text": "Lábio íleocólico",
+      "source_lines": [
+        "Lábio íleocólico"
+      ],
+      "box": [
+        48,
+        232,
+        159,
+        31
+      ]
+    },
+    {
+      "text": "Óstio ileal",
+      "source_lines": [
+        "Óstio ileal"
+      ],
+      "box": [
+        822,
+        296,
+        104,
+        31
+      ]
+    },
+    {
+      "text": "Lábio íleocecal",
+      "source_lines": [
+        "Lábio íleocecal"
+      ],
+      "box": [
+        27,
+        451,
+        154,
+        31
+      ]
+    },
+    {
+      "text": "Óstio do apêndice",
+      "source_lines": [
+        "Óstio do apêndice"
+      ],
+      "box": [
+        198,
+        656,
+        185,
+        31
+      ]
+    },
+    {
+      "text": "Apêndice vermiforme",
+      "source_lines": [
+        "Apêndice vermiforme",
+        "6-10cm, tecido linfóide"
+      ],
+      "box": [
+        460,
+        689,
+        229,
+        58
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-04-ceco-interno-pergunta.png",
+    "answer": "io-04-ceco-interno-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::298,25,423,34]]<br>[[rect1::775,101,173,58]]<br>[[rect2::48,232,159,31]]<br>[[rect3::822,296,104,31]]<br>[[rect4::27,451,154,31]]<br>[[rect5::198,656,185,31]]<br>[[rect6::460,689,229,58]] #]<br>active"
+}

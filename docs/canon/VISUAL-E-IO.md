@@ -31,6 +31,23 @@ precisa declarar `coherent_visual_map` e justificar por que o mapa é uma unidad
 Anatomia macro combina, quando possível, esquema e peça real. Histologia combina
 identificação visual e card conceitual quando ambos são objetivos da aula.
 
+## Construção da máscara
+
+Em prancha rotulada, a máscara cobre o **nome da estrutura e todo texto que a define ou a
+localiza** — inclusive as legendas entre parênteses. "Espaço entre as colunas", "porção
+superior das colunas" e "6-10 cm, tecido linfoide" não citam o nome, mas entregam a
+identidade: deixá-las à vista troca reconhecimento visual por leitura de definição e ainda
+repete o que um cloze já cobra. Só fica visível o que não nomeia nem define — crédito da
+fonte, título de orientação da prancha, qualificador neutro.
+
+Antes de aprovar, varrer a figura atrás de **rótulo rasterizado**: atlas costumam trazer
+nomes impressos dentro da própria imagem, sem texto no PDF. Rótulo rasterizado que repete um
+nome já mascarado precisa virar máscara também, ou ser apagado do recorte junto com a
+figura secundária que o exibe. O preview de pergunta é onde isso se confere.
+
+O note type de IO precisa mostrar a **imagem mascarada na frente**. Note type de revelação
+incremental não serve a `hide_all_guess_all`, em que o mapa inteiro é uma recuperação só.
+
 ## Gate
 
 Todo visual declara necessidade, papel, tarefa, modo, fonte, crédito, hash,

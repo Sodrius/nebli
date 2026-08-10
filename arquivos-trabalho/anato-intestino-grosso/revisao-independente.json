@@ -1,0 +1,127 @@
+{
+  "rodada": "2026-08-10",
+  "regime": "Revisores somente leitura; a sessão principal decidiu e aplicou cada correção (docs/canon/REVISAO.md).",
+  "revisores": [
+    {
+      "agente": "revisor-cobertura",
+      "veredito": "sem BLOCK",
+      "achados": [
+        {
+          "classe": "FIX",
+          "id": "roteiro-valvulas-anais",
+          "achado": "O item 10 do roteiro prático lista 'Válvulas anais' como alvo de identificação, e nenhum card ou rótulo de IO as nomeava. A E1 já explicava a estrutura.",
+          "decisao": "ACEITO",
+          "acao": "Criado o card c31 ('The transverse folds joining the bases of adjacent anal columns are the anal {{c1::valves}}'), apoio, subtópico Canal anal. Não havia rótulo 'válvula anal' na prancha do canal anal, então a cobertura entrou como cloze e não como máscara de IO. Total do deck passou de 46 para 47 cards, dentro do teto de 50."
+        },
+        {
+          "classe": "NOTE",
+          "id": "regioes-abdominais",
+          "achado": "Pediu confirmação de que excluir as nove regiões abdominais foi intencional.",
+          "decisao": "CONFIRMADO",
+          "acao": "Exclusão mantida. Ausente do roteiro e das perguntas orientadoras; a prancha traz rótulos rasterizados duplicados que tornariam o IO ambíguo. Registrado em step1_decisions como fora do deck, não como lacuna."
+        },
+        {
+          "classe": "NOTE",
+          "id": "o04-o05-optional",
+          "achado": "Artérias acima/abaixo da linha pectinada citam a aula futura de vascularização, como o Ponto de Griffiths que foi rejeitado, mas foram mantidas.",
+          "decisao": "CONFIRMADO",
+          "acao": "Diferença é de origem, não de assunto: o Griffiths é candidato externo; as duas artérias estão desenhadas no slide 23 desta aula. Ficam no subdeck Optional porque o detalhe vascular será cobrado na aula de 11/09 — disponíveis sem inflar a fila de P1."
+        },
+        {
+          "classe": "NOTE",
+          "id": "previews-autodeclarados",
+          "achado": "O revisor de cobertura não teve acesso às imagens e pediu confirmação visual dos previews.",
+          "decisao": "ATENDIDO",
+          "acao": "Os 11 previews de pergunta e de resposta foram abertos e olhados pela sessão principal, e o revisor-cards-visual abriu os 94 PNGs renderizados."
+        },
+        {
+          "classe": "FALSE_POSITIVE",
+          "id": "linha-anorretal-e-funcao-das-tenias",
+          "achado": "Suspeita de lacuna em 'linha anorretal' (pergunta 2.2) e em 'função das tênias' (pergunta 3.3).",
+          "decisao": "CONCORDO COM O PRÓPRIO REVISOR",
+          "acao": "Cobertos por c25 (junção anorretal, com o confusao-prevista da E1) e c03 (tênias mais curtas → haustros). Nenhuma ação."
+        }
+      ]
+    },
+    {
+      "agente": "revisor-cards-visual",
+      "veredito": "sem BLOCK",
+      "achados": [
+        {
+          "classe": "FIX",
+          "id": "io-09-legendas-entregavam-a-resposta",
+          "achado": "No IO do canal anal, as legendas deixadas visíveis definiam a estrutura: '(espaço entre as colunas)' sob Seio anal, '(porção superior das colunas)' sob Junção anorretal, '(ramos a. v. retais superiores)' sob Coluna anal e '(acima revestimento endodérmico...)' sob Linha pectinada. Identificação virava leitura de definição e repetia c15, c16, c17 e c25.",
+          "decisao": "ACEITO",
+          "acao": "As legendas passaram a ser mascaradas junto com o nome. A regra do canon foi corrigida: mascara-se o nome e todo texto que defina ou localize a estrutura; fica visível só o que não nomeia nem define (crédito, título de orientação). docs/canon/VISUAL-E-IO.md atualizado."
+        },
+        {
+          "classe": "FIX",
+          "id": "io-04-legendas-entregavam-a-resposta",
+          "achado": "'6-10cm, tecido linfóide' visível sob a máscara de Apêndice vermiforme entregava c08 e c09; '(conjunto)' sob Válvula ileocecal, o mesmo em menor grau.",
+          "decisao": "ACEITO",
+          "acao": "Ambas incorporadas às respectivas máscaras."
+        },
+        {
+          "classe": "FIX",
+          "id": "io-11-enunciado-inconsistente",
+          "achado": "O enunciado dizia '(the tissue type is left visible)' e o revisor leu as caixas de tecido como mascaradas.",
+          "decisao": "PARCIAL — o comportamento estava certo, o enunciado não ajudava",
+          "acao": "Os textos 'Músculo estriado esquelético' e 'Músculo liso' estão de fato visíveis no preview; o que está mascarado ao lado deles é 'm. Circular' e 'm. Longitudinal'. Mesmo assim o enunciado confundia, e passou a ser 'name each masked muscle of the anal sphincter complex'."
+        },
+        {
+          "classe": "FIX",
+          "id": "extras-com-paineis-nao-usados",
+          "achado": "Recortes de slide no Extra traziam painéis adjacentes irrelevantes, sobretudo fig-05 (miniaturas de apendicite e carcinoide).",
+          "decisao": "ACEITO",
+          "acao": "fig-05-apendice-posicoes recortada para os rótulos de frequência, o esquema de posições e o crédito."
+        },
+        {
+          "classe": "FALSE_POSITIVE",
+          "id": "typo-innnervation",
+          "achado": "Relatou 'innnervation' com três n no card c21, em pergunta e resposta.",
+          "decisao": "REJEITADO COM EVIDÊNCIA",
+          "acao": "O contrato traz 'innervation' escrito corretamente nas quatro ocorrências (c20 e c21, texto e busca). Nenhuma ocorrência de 'innn' no contrato nem na fonte. Erro de leitura do preview, não do card."
+        },
+        {
+          "classe": "NOTE",
+          "id": "bloco-linha-pectinada",
+          "achado": "São 10 cards no bloco da linha pectinada, não 6, mas cada um mira um fato atômico distinto.",
+          "decisao": "ACEITO COMO NOTE",
+          "acao": "Nenhuma. A concentração é proporcional: as perguntas orientadoras 2.1 e 2.2 são sobre esse bloco, e o slide 23 dedica uma prancha inteira ao contraste acima/abaixo."
+        },
+        {
+          "classe": "NOTE",
+          "id": "io-02-legibilidade",
+          "achado": "As máscaras dos rótulos rasterizados de io-02 renderizam sobre fundo branco, com aparência diferente das demais.",
+          "decisao": "ACEITO COMO NOTE",
+          "acao": "Nenhuma. Sem vazamento; a diferença é só o fundo da prancha."
+        }
+      ]
+    },
+    {
+      "agente": "auditor-apkg",
+      "veredito": "sem BLOCK, sem FIX",
+      "achados": [
+        {
+          "classe": "NOTE",
+          "id": "sem-copias-de-fonte",
+          "achado": "Todos os cards são authored, então a exigência de source_guid preservado não se aplica nesta aula.",
+          "decisao": "REGISTRADO",
+          "acao": "É consequência direta da pendência do índice AnKing; ver pendencias_reais no relatório final."
+        },
+        {
+          "classe": "NOTE",
+          "id": "req-legado",
+          "achado": "O campo req dos note types é legado e o Anki moderno o recalcula na importação.",
+          "decisao": "REGISTRADO",
+          "acao": "Nenhuma."
+        }
+      ]
+    }
+  ],
+  "reexecucao_apos_correcoes": {
+    "contrato": "47 cards (32 núcleo · 10 apoio · 5 opcionais), teto 50, sem bloqueios",
+    "apkg": "47 notas / 47 cards / 29 mídias, auditoria passed sem erros nem avisos",
+    "renderizacao": "47 cards renderizados em Chromium, 0 com mídia quebrada"
+  }
+}

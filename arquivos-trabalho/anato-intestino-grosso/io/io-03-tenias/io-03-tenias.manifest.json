@@ -1,0 +1,104 @@
+{
+  "name": "io-03-tenias",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 15,
+  "crop_pt": [
+    95.0,
+    395.0,
+    450.0,
+    640.0
+  ],
+  "dpi": 200,
+  "image": "io-03-tenias.png",
+  "image_sha256": "9b3b5389d2245d1e2e10a597bdf776bdfbeaa87f21ab3f0def3320f07f4813eb",
+  "image_size": [
+    987,
+    681
+  ],
+  "header": "<b>Anatomy · Large intestine</b> — identify the three taeniae coli and the structures at the cecum",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Tênia livre",
+      "source_lines": [
+        "Tênia livre"
+      ],
+      "box": [
+        554,
+        32,
+        108,
+        31
+      ]
+    },
+    {
+      "text": "Apêndice vermiforme",
+      "source_lines": [
+        "Apêndice",
+        "vermiforme"
+      ],
+      "box": [
+        758,
+        140,
+        123,
+        61
+      ]
+    },
+    {
+      "text": "Tênia mesocólica",
+      "source_lines": [
+        "Tênia mesocólica"
+      ],
+      "box": [
+        687,
+        333,
+        176,
+        31
+      ]
+    },
+    {
+      "text": "Tênia omental",
+      "source_lines": [
+        "Tênia",
+        "omental"
+      ],
+      "box": [
+        32,
+        358,
+        89,
+        61
+      ]
+    },
+    {
+      "text": "Ceco",
+      "source_lines": [
+        "ceco"
+      ],
+      "box": [
+        462,
+        546,
+        52,
+        31
+      ]
+    },
+    {
+      "text": "Íleo",
+      "source_lines": [
+        "íleo"
+      ],
+      "box": [
+        825,
+        598,
+        54,
+        39
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-03-tenias-pergunta.png",
+    "answer": "io-03-tenias-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::554,32,108,31]]<br>[[rect1::758,140,123,61]]<br>[[rect2::687,333,176,31]]<br>[[rect3::32,358,89,61]]<br>[[rect4::462,546,52,31]]<br>[[rect5::825,598,54,39]] #]<br>active"
+}

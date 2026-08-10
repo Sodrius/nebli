@@ -33,6 +33,17 @@ contrato exige busca `complete`, famílias PT e EN, ao menos uma terceira famíl
 e revisão de irmãos. Guarda consultas, contagens, GUIDs e motivos de rejeição,
 mas não versiona o texto protegido dos candidatos.
 
+## Quando o índice não está no mesmo ambiente da aula
+
+Nem sempre a sessão que produz a aula alcança os 564 MB do índice. O que precisa atravessar
+não é o pacote, é a **decisão**: para cada candidato, GUID, note type, tags, primeiro campo
+truncado e nomes de mídia. Isso cabe em um `anking-dossie-<slug>.json` de dezenas de KB.
+
+O extrator roda onde o índice mora e deposita o dossiê na pasta privada; a sessão cura sobre
+ele e só então puxa a mídia dos GUIDs escolhidos. O dossiê não versiona texto protegido —
+ele serve para escolher e para registrar rejeição, e é descartado depois da curadoria.
+
 Se o arquivo estiver ainda subindo, corrompido, incompleto ou sem índice, a E1
 pode avançar como rascunho, mas curadoria, autoria em massa e fechamento do deck
-ficam bloqueados.
+ficam bloqueados. Aula fechada sem consulta ao índice sai com todos os cards marcados
+`candidate_search.status = blocked_private_index_unreachable` e entra na fila de recuradoria.

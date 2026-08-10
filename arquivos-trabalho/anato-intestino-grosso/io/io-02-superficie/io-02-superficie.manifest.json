@@ -1,0 +1,168 @@
+{
+  "name": "io-02-superficie",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 3,
+  "crop_pt": [
+    88.0,
+    60.0,
+    470.0,
+    318.0
+  ],
+  "dpi": 200,
+  "image": "io-02-superficie.png",
+  "image_sha256": "3b79e0c7db1f51a417f7faf8b95154263953548866949a90b69d7aefcda137af",
+  "image_size": [
+    1062,
+    718
+  ],
+  "header": "<b>Anatomy · Large intestine</b> — identify the surface features and flexures of the colon",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Flexura cólica esquerda",
+      "source_lines": [
+        "Flexura cólica",
+        "esquerda"
+      ],
+      "box": [
+        838,
+        26,
+        150,
+        58
+      ]
+    },
+    {
+      "text": "Flexura cólica direita",
+      "source_lines": [
+        "Flexura cólica direita"
+      ],
+      "box": [
+        56,
+        51,
+        210,
+        31
+      ]
+    },
+    {
+      "text": "Haustros ou saculações",
+      "source_lines": [
+        "Haustros ou",
+        "saculações"
+      ],
+      "box": [
+        862,
+        307,
+        132,
+        58
+      ]
+    },
+    {
+      "text": "Corpos adiposos ou apêndices epiploicos",
+      "source_lines": [
+        "Corpos adiposos",
+        "ou",
+        "apêndices",
+        "epiplóicos"
+      ],
+      "box": [
+        53,
+        329,
+        173,
+        111
+      ]
+    },
+    {
+      "text": "Tênias",
+      "source_lines": [
+        "tênias"
+      ],
+      "box": [
+        854,
+        444,
+        66,
+        31
+      ]
+    },
+    {
+      "text": "Colo sigmóide",
+      "source_lines": [
+        "Colo sigmóide"
+      ],
+      "box": [
+        720,
+        575,
+        147,
+        31
+      ]
+    },
+    {
+      "text": "Apêndice vermiforme",
+      "source_lines": [
+        "Apêndice",
+        "vermiforme"
+      ],
+      "box": [
+        233,
+        593,
+        118,
+        58
+      ]
+    },
+    {
+      "text": "Reto",
+      "source_lines": [
+        "reto"
+      ],
+      "box": [
+        617,
+        594,
+        44,
+        31
+      ]
+    },
+    {
+      "text": "Colo transverso",
+      "source_lines": [
+        "<rótulo rasterizado na figura>"
+      ],
+      "box": [
+        330,
+        40,
+        100,
+        24
+      ]
+    },
+    {
+      "text": "Tênia omental",
+      "source_lines": [
+        "<rótulo rasterizado na figura>"
+      ],
+      "box": [
+        432,
+        62,
+        50,
+        40
+      ]
+    },
+    {
+      "text": "Pregas semilunares",
+      "source_lines": [
+        "<rótulo rasterizado na figura>"
+      ],
+      "box": [
+        519,
+        42,
+        82,
+        38
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-02-superficie-pergunta.png",
+    "answer": "io-02-superficie-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::838,26,150,58]]<br>[[rect1::56,51,210,31]]<br>[[rect2::862,307,132,58]]<br>[[rect3::53,329,173,111]]<br>[[rect4::854,444,66,31]]<br>[[rect5::720,575,147,31]]<br>[[rect6::233,593,118,58]]<br>[[rect7::617,594,44,31]]<br>[[rect8::330,40,100,24]]<br>[[rect9::432,62,50,40]]<br>[[rect10::519,42,82,38]] #]<br>active"
+}

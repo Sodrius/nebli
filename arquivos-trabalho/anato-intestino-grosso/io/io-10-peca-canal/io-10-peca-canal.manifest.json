@@ -1,0 +1,79 @@
+{
+  "name": "io-10-peca-canal",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 22,
+  "crop_pt": [
+    88.0,
+    368.0,
+    470.0,
+    648.0
+  ],
+  "dpi": 200,
+  "image": "io-10-peca-canal.png",
+  "image_sha256": "424e1e6f3fdf3ced9509f9ce2e04584d21a3d9592ac666b674efdbae820b9940",
+  "image_size": [
+    1062,
+    778
+  ],
+  "header": "<b>Anatomy · Cadaveric specimen</b> — identify the anal canal landmarks on the real specimen",
+  "blanked_regions": [],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Ampola retal",
+      "source_lines": [
+        "Ampola",
+        "retal"
+      ],
+      "box": [
+        403,
+        236,
+        88,
+        58
+      ]
+    },
+    {
+      "text": "Flexura anorretal",
+      "source_lines": [
+        "Flexura anorretal"
+      ],
+      "box": [
+        523,
+        391,
+        174,
+        31
+      ]
+    },
+    {
+      "text": "Seio anal",
+      "source_lines": [
+        "Seio anal"
+      ],
+      "box": [
+        51,
+        505,
+        110,
+        34
+      ]
+    },
+    {
+      "text": "Coluna anal",
+      "source_lines": [
+        "Coluna anal"
+      ],
+      "box": [
+        867,
+        543,
+        139,
+        34
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-10-peca-canal-pergunta.png",
+    "answer": "io-10-peca-canal-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::403,236,88,58]]<br>[[rect1::523,391,174,31]]<br>[[rect2::51,505,110,34]]<br>[[rect3::867,543,139,34]] #]<br>active"
+}

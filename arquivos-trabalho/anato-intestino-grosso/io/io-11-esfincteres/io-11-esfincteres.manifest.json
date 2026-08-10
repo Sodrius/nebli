@@ -1,0 +1,113 @@
+{
+  "name": "io-11-esfincteres",
+  "source_pdf": "95f851b6-Alunos__Intestino_grosso_reto_canal_anal_FINAL_2026.pdf",
+  "page": 25,
+  "crop_pt": [
+    95.0,
+    65.0,
+    450.0,
+    330.0
+  ],
+  "dpi": 200,
+  "image": "io-11-esfincteres.png",
+  "image_sha256": "7a6b20ebd2a853fc1d49f28527b4bc22b45a4557625654bfe20b317ecc06f8ae",
+  "image_size": [
+    987,
+    737
+  ],
+  "header": "<b>Anatomy · Anal sphincters</b> — name each masked muscle of the anal sphincter complex",
+  "blanked_regions": [
+    [
+      652,
+      410,
+      340,
+      290
+    ]
+  ],
+  "behavior": "hide_all_guess_all",
+  "coherent_visual_map": true,
+  "masks": [
+    {
+      "text": "Esfíncter anal externo",
+      "source_lines": [
+        "Esfincter Anal Externo:"
+      ],
+      "box": [
+        36,
+        19,
+        319,
+        37
+      ]
+    },
+    {
+      "text": "Esfíncter anal interno",
+      "source_lines": [
+        "Esfíncter Anal interno:"
+      ],
+      "box": [
+        653,
+        24,
+        302,
+        37
+      ]
+    },
+    {
+      "text": "M. circular",
+      "source_lines": [
+        "m. Circular"
+      ],
+      "box": [
+        730,
+        204,
+        158,
+        37
+      ]
+    },
+    {
+      "text": "M. puborretal / m. levantador do ânus",
+      "source_lines": [
+        "m. Puborretal",
+        "- m. levantador",
+        "do anus"
+      ],
+      "box": [
+        21,
+        225,
+        205,
+        104
+      ]
+    },
+    {
+      "text": "M. longitudinal",
+      "source_lines": [
+        "m. Longitudinal"
+      ],
+      "box": [
+        698,
+        238,
+        212,
+        37
+      ]
+    },
+    {
+      "text": "Esfíncter externo do ânus",
+      "source_lines": [
+        "Esfíncter",
+        "externo do",
+        "anus"
+      ],
+      "box": [
+        23,
+        536,
+        145,
+        104
+      ]
+    }
+  ],
+  "mask_covers_answer_label": true,
+  "previews": {
+    "question": "io-11-esfincteres-pergunta.png",
+    "answer": "io-11-esfincteres-resposta.png"
+  },
+  "i0_field": "[#!occlusions [[rect0::36,19,319,37]]<br>[[rect1::653,24,302,37]]<br>[[rect2::730,204,158,37]]<br>[[rect3::21,225,205,104]]<br>[[rect4::698,238,212,37]]<br>[[rect5::23,536,145,104]] #]<br>active"
+}
