@@ -21,6 +21,8 @@ todos os demais arquivos de `docs/canon/` listados no `CLAUDE.md`. Leia
 - E2, E3 e RemNote desligados;
 - 25 novos/dia;
 - APKG offline e auditoria obrigatórios.
+- teto de cards por contrato, cloze 1/2/3 palavras e IO multi-rótulo em
+  `hide_all_guess_all`.
 
 Nunca leia `docs/legacy/` durante uma corrida normal.
 
@@ -37,7 +39,8 @@ Extraia slides e objetivos. Crie
 `arquivos-trabalho/<slug>/contrato-cobertura.json` a partir de
 `flashcards/schemas/lesson-contract-v3.example.json`. Registre cada conceito com
 nome PT/EN, subtópico, origem, importância e possível necessidade visual.
-Slides/objetivos definem o escopo; não acrescente conteúdo adjacente.
+Classifique o porte, proponha `card_budget.hard_max` e congele esse teto antes da
+busca. Slides/objetivos definem o escopo; não acrescente conteúdo adjacente.
 
 ## 3. E1 rascunho
 
@@ -49,8 +52,9 @@ quando carregam estrutura, mecanismo ou comparação. Não gere `etapa2.typ`,
 ## 4. E1 atomizada + busca privada
 
 Converta a E1 em conceitos recuperáveis e acrescente âncoras literais ao
-contrato. Consulte o índice privado do AnKing por conteúdo, sinônimos, tags,
-cards irmãos e mídia. Para lacunas, consulte decks externos. Se o índice privado
+contrato. Consulte o índice privado do AnKing com buscas independentes PT, EN,
+sinônimos, mecanismo/estrutura, tags e cards irmãos. Use a união deduplicada;
+busca única sem resultado não prova lacuna. Para gaps, consulte decks externos. Se o índice privado
 não estiver disponível, **pare o deck**: não compense com autoria em massa.
 
 ## 5. Passe Step 1 → E1
@@ -62,9 +66,11 @@ E1 antes de qualquer card. Revalide todas as âncoras e congele o contrato.
 
 ## 6. Curadoria e autoria
 
-Roteie cada conceito na ordem AnKing → externo → autoral. Preserve os originais;
+Roteie cada conceito na ordem AnKing → externo → autoral. Preencha `cards[]` e
+conte `generated_card_count`; nunca exceda `card_budget.hard_max`. Preserve os originais;
 cópias recebem GUID novo, `source_guid` e todos os campos/mídia/créditos. Autoral
-só para lacuna comprovada, em inglês médico, um cloze, Extra curto em português.
+só para lacuna comprovada, em inglês médico, uma recuperação e uma ocorrência
+`c1`. Cloze: 1 palavra por padrão, 2 quando necessário e 3 raramente, com motivo.
 Separe `opcional` em subdeck; nunca misture com `nucleo`.
 
 ## 7. Plano visual e IO
@@ -72,9 +78,11 @@ Separe `opcional` em subdeck; nunca misture com `nucleo`.
 Preencha uma decisão visual por conceito antes de fechar cards. Priorize imagem
 do AnKing, card irmão e deck externo; slide é último caso. Use Image Occlusion ou
 prompt visual para reconhecer/localizar; imagem no Extra para mecanismo. Em
-imagem não rotulada, adicione seta/contorno + rótulo e oculte o rótulo, não a
-pista morfológica. Gere preview e valide fonte, hash, crédito, crop, legibilidade,
-vazamento e máscaras.
+diagrama rotulado, a máscara cobre o rótulo-resposta, nunca a estrutura. Mapas
+coerentes com várias partes usam `hide_all_guess_all`. Em imagem não rotulada,
+adicione seta/contorno + rótulo ou use prompt visual; não apague a pista
+morfológica. Gere previews de pergunta e resposta e valide fonte, hash, crédito,
+crop, legibilidade, vazamento e todas as máscaras.
 
 ## 8. Montagem offline
 
@@ -93,12 +101,14 @@ os relatórios, decide e aplica cada correção, registrando o destino no checkp
 Rode o validador do contrato, o validador visual e `audit_apkg.py`. Abra o APKG
 real. Renderize todos os autorais, IO, mídia alterada e uma amostra das cópias.
 Bloqueie se houver lacuna nuclear, card órfão, Step 1 fora do tema, autoral sem
-rejeição de fonte, mídia quebrada, GUID colidindo, visual obrigatório pendente ou
-APKG não auditável.
+rejeição de fonte, card não atômico, cloze longo, teto excedido, IO mascarando a
+pista, mídia quebrada, GUID colidindo, visual obrigatório pendente ou APKG não
+auditável. O total real do APKG deve ser igual ao previsto no contrato.
 
 ## 11. Entrega
 
-Entregue PDF E1, APKG e `relatorio-final-<slug>.json` com conceitos por
+Entregue e aponte explicitamente primeiro o PDF E1 e seu fonte
+`typst-build/<slug>/etapa1.typ`; depois APKG e `relatorio-final-<slug>.json` com conceitos por
 importância/cobertura, cards por fonte, Step 1 aceito/rejeitado, decisões
 visuais/IO, auditoria e pendências reais. Configure/instrua 25 novos/dia e 9999
 revisões/dia. Inclua buscas prontas para cram. Nunca marque como concluído só

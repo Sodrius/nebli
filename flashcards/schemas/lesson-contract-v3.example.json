@@ -5,6 +5,14 @@
   "deck": "NEBLI::UC8::P1::Histologia::Aula exemplo",
   "optional_deck": "NEBLI::UC8::P1::Histologia::Aula exemplo::Optional",
   "status": "draft",
+  "card_budget": {
+    "lesson_size": "small",
+    "hard_max": 25,
+    "expected_total_cards": 1,
+    "rationale": "Aula pequena; teto congelado antes da busca.",
+    "manual_scope_review": "not_required",
+    "review_rationale": ""
+  },
   "e1": {
     "path": "../../../typst-build/etapa1.typ",
     "sha256": ""
@@ -40,16 +48,41 @@
         "source": "anking",
         "coverage_quality": 3,
         "coverage_rationale": "O card reconstrói fato e mecanismo.",
-        "card_refs": ["source-guid-or-stable-ref"],
+        "card_refs": ["card-1"],
         "source_guid": "source-guid-or-stable-ref",
         "candidate_search": {
+          "status": "complete",
           "anking_count": 1,
           "external_count": 0,
-          "queries": ["nuclear concept"],
+          "query_families": {
+            "pt": ["conceito nuclear"],
+            "en": ["nuclear concept"],
+            "synonyms": [],
+            "mechanism_or_structure": ["cell nucleus"],
+            "tags_or_siblings": ["cell biology"]
+          },
+          "siblings_reviewed": true,
           "rejection_rationale": ""
         }
       },
       "tags": ["nucleo"]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-1",
+      "concept_ids": ["1.1"],
+      "source": "anking",
+      "format": "cloze",
+      "retrieval_target": "Identificar o termo nuclear.",
+      "generated_card_count": 1,
+      "atomicity": {
+        "decision": "approved",
+        "exception": "",
+        "rationale": "Uma recuperação independente."
+      },
+      "text": "The structure is {{c1::nucleus}}.",
+      "cloze_exception_reason": ""
     }
   ]
 }

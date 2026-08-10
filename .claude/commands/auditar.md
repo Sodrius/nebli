@@ -19,5 +19,8 @@ Depois renderize todos os cards autorais e de Image Occlusion, toda mídia
 alterada e uma amostra estratificada das cópias reais. Classifique achados em
 `BLOCK`, `FIX`, `NOTE` ou `FALSE_POSITIVE`. Verifique especialmente: cobertura
 nuclear, âncoras E1, limite do Step 1, origem/GUID, mídia, máscaras, vazamento,
-subdeck Optional, modelos e importabilidade. A auditoria não edita; a sessão
+subdeck Optional, modelos, total real versus teto, atomicidade, clozes de 1/2/3
+palavras e importabilidade. Para IO, confira que a pergunta cobre os
+rótulos-resposta, mantém as estruturas visíveis e que mapas multi-rótulo usam
+`hide_all_guess_all`. A auditoria não edita; a sessão
 principal aplica correções e roda o gate novamente.

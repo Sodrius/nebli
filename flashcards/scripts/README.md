@@ -3,9 +3,11 @@
 ## Caminho canônico v3
 
 - `index_private_apkg.py`: cria índice local do AnKing/decks privados;
-- `search_private_index.py`: recupera candidatos reais por conceito;
+- `search_private_index.py`: recupera a união de consultas PT/EN/sinônimos por
+  FTS, sem reler o APKG;
 - `validate_lesson_contract.py`: gate de cobertura E1/Step 1/cards/visual;
-- `io_manual_from_image.py`: manifesto e preview de IO sem AnkiConnect;
+- `io_manual_from_image.py`: manifesto e previews pergunta/resposta de IO
+  rotulado, com máscara sobre o rótulo;
 - `audit_apkg.py`: abre e audita o pacote exportado real;
 - `gate_deck_aula_completo.py`: combina contrato congelado e APKG auditado.
 

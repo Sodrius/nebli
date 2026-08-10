@@ -2,17 +2,19 @@
 # -*- coding: utf-8 -*-
 """Gera manifesto visual v3 para IO manual, sem depender do AnkiConnect.
 
-Serve para histologia/micrografia real, onde nao ha rotulos para OCR.
+Serve para diagramas rotulados. A caixa deve cobrir o texto da resposta, nunca
+a estrutura anatômica ou a pista morfológica que o aluno precisa reconhecer.
 
 Uso:
   python flashcards/scripts/io_manual_from_image.py micro.png \
-    --slug histo-11-hassall \
-    --header "<b>Thymus</b> - identify the highlighted structure" \
-    --box "Hassall corpuscle:420,310,80,65" \
-    --box "Medulla:250,220,180,140"
+    --slug anato-exemplo-partes \
+    --header "<b>Anatomy</b> - identify the labeled parts" \
+    --label-box "Cervical part:420,310,80,20" \
+    --label-box "Thoracic part:250,220,100,20" \
+    --behavior hide_all_guess_all
 
-O preview é apenas para auditoria. A imagem limpa e as máscaras semânticas são
-consumidas pelo montador offline do deck.
+O gerador cria preview de pergunta (rótulos cobertos) e de resposta. Ambos
+precisam de revisão humana antes de o contrato marcar o IO como aprovado.
 """
 import argparse
 import hashlib
@@ -36,13 +38,22 @@ def emit_i0(labels):
     return "[#!occlusions " + "<br>".join(rects) + " #]<br>active"
 
 
-def draw_preview(img, labels, out):
+def draw_question_preview(img, labels, out):
     im = img.convert("RGB")
-    d = ImageDraw.Draw(im, "RGBA")
+    d = ImageDraw.Draw(im)
     for lab in labels:
         x, y, w, h = lab["box"]
-        d.rectangle([x, y, x + w, y + h], fill=(255, 90, 90, 100), outline=(210, 0, 0, 255), width=2)
-        d.text((x, max(0, y - 14)), lab["text"], fill=(210, 0, 0, 255))
+        d.rectangle([x, y, x + w, y + h], fill=(92, 101, 112), outline=(30, 35, 40), width=2)
+    im.save(out)
+
+
+def draw_answer_preview(img, labels, out):
+    im = img.convert("RGB")
+    d = ImageDraw.Draw(im)
+    for index, lab in enumerate(labels, start=1):
+        x, y, w, h = lab["box"]
+        d.rectangle([x, y, x + w, y + h], outline=(0, 150, 80), width=3)
+        d.text((x, max(0, y - 14)), str(index), fill=(0, 110, 55))
     im.save(out)
 
 
@@ -51,22 +62,24 @@ def main():
     ap.add_argument("image")
     ap.add_argument("--slug", required=True)
     ap.add_argument("--header", required=True)
-    ap.add_argument("--box", action="append", required=True, help='"Label:x,y,w,h"')
+    ap.add_argument("--label-box", action="append", required=True,
+                    help='caixa do texto-resposta: "Label:x,y,w,h"')
     ap.add_argument("--outdir", default="arquivos-trabalho/io")
     ap.add_argument("--source-type", required=True,
                     choices=["anking", "external_deck", "institutional", "slide"])
     ap.add_argument("--source-locator", required=True)
     ap.add_argument("--credit", required=True)
-    ap.add_argument("--license-status", default="private-study-use")
-    ap.add_argument("--mode", default="image_occlusion",
-                    choices=["image_occlusion", "image_prompt"])
+    ap.add_argument("--license-status", default="private_only",
+                    choices=["open_ok", "noncommercial_ok", "private_only", "internal"])
+    ap.add_argument("--behavior", default="hide_all_guess_all",
+                    choices=["hide_all_guess_all", "hide_one_guess_one"])
     ap.add_argument("--image-role", default="recognition",
                     choices=["recognition", "localization"])
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
     img = Image.open(args.image).convert("RGB")
-    labels = [parse_box(b) for b in args.box]
+    labels = [parse_box(b) for b in args.label_box]
     width, height = img.size
     for label in labels:
         x, y, w, h = label["box"]
@@ -80,10 +93,12 @@ def main():
     image_hash = hashlib.sha256(buf.getvalue()).hexdigest()
     media_name = image_hash[:32] + ".png"
     crop_png = os.path.join(args.outdir, media_name)
-    preview = os.path.join(args.outdir, args.slug + "-preview.png")
+    question_preview = os.path.join(args.outdir, args.slug + "-question.png")
+    answer_preview = os.path.join(args.outdir, args.slug + "-answer.png")
     manifest_path = os.path.join(args.outdir, args.slug + "-manifest.json")
     img.save(crop_png)
-    draw_preview(img, labels, preview)
+    draw_question_preview(img, labels, question_preview)
+    draw_answer_preview(img, labels, answer_preview)
 
     masks = []
     for index, label in enumerate(labels, start=1):
@@ -92,6 +107,7 @@ def main():
             "id": f"mask-{index}",
             "label": label["text"],
             "box_px": [x, y, w, h],
+            "covers": "answer_label",
             "box_normalized": [round(x / width, 6), round(y / height, 6),
                                round(w / width, 6), round(h / height, 6)],
         })
@@ -106,13 +122,17 @@ def main():
         "media_name": media_name,
         "image_field": f'<img src="{media_name}">',
         "crop_png": crop_png,
-        "preview_png": preview,
-        "mode": args.mode,
+        "question_preview": question_preview,
+        "answer_preview": answer_preview,
+        "mode": "image_occlusion",
+        "behavior": args.behavior,
+        "target_kind": "answer_labels",
+        "mask_policy": "cover_answer_label_not_visual_target",
         "role": args.image_role,
         "masks": masks,
         "asset": {
             "file": crop_png,
-            "preview": preview,
+            "preview": question_preview,
             "source_type": args.source_type,
             "source_locator": args.source_locator,
             "credit": args.credit,
@@ -121,16 +141,20 @@ def main():
             "answer_leakage": False,
         },
         "qa": {
-            "target_visible_without_label": None,
-            "mask_matches_label": None,
-            "crop_has_context": None,
+            "masks_cover_answer_labels": None,
+            "visual_clues_remain_visible": None,
+            "all_answers_hidden": None,
+            "all_duplicate_labels_masked": None,
+            "question_preview_reviewed": None,
+            "answer_preview_reviewed": None,
             "review_status": "pending",
         },
     }
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
     print(f"manifest -> {manifest_path}")
-    print(f"preview -> {preview}")
+    print(f"question preview -> {question_preview}")
+    print(f"answer preview -> {answer_preview}")
     print(f"boxes -> {len(labels)}")
 
 

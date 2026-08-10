@@ -14,10 +14,11 @@ Leia, nesta ordem, antes de produzir qualquer aula:
 4. `docs/canon/COBERTURA-E-STEP1.md`;
 5. `docs/canon/PIPELINE-E1-DECK.md`;
 6. `docs/canon/CARDS.md`;
-7. `docs/canon/VISUAL-E-IO.md`;
-8. `docs/canon/APKG.md`;
-9. `docs/canon/ANKING-PRIVADO.md`;
-10. `docs/canon/REVISAO.md`.
+7. `docs/canon/EXEMPLOS-CARDS.md`;
+8. `docs/canon/VISUAL-E-IO.md`;
+9. `docs/canon/APKG.md`;
+10. `docs/canon/ANKING-PRIVADO.md`;
+11. `docs/canon/REVISAO.md`.
 
 Os documentos em `docs/legacy/` são históricos. Não os carregue nem aplique, a
 menos que Davi peça explicitamente uma recuperação histórica.
@@ -39,8 +40,10 @@ menos que Davi peça explicitamente uma recuperação histórica.
 Uma aula não fecha se houver conceito nuclear sem card adequado, card sem âncora
 literal na E1, aprofundamento que escapou do tema, necessidade visual obrigatória
 não atendida, autoral sem rejeição documentada das fontes reais, mídia quebrada
-ou APKG não auditado. Relatórios declaratórios não substituem a inspeção do
-arquivo `.apkg` entregue.
+ou APKG não auditado. Também bloqueiam: exceder o teto de cards congelado no
+contrato, card com mais de uma recuperação independente, cloze acima de três
+palavras e IO cuja máscara não cubra o rótulo-resposta. Relatórios declaratórios
+não substituem a inspeção do arquivo `.apkg` entregue.
 
 ## Configuração ativa
 

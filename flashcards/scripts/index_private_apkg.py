@@ -34,6 +34,10 @@ CREATE INDEX notes_guid ON notes(guid);
 CREATE INDEX notes_model ON notes(model_name);
 CREATE INDEX cards_note ON cards(nid);
 CREATE INDEX cards_deck ON cards(deck_name);
+CREATE VIRTUAL TABLE notes_fts USING fts5(
+  searchable_text,
+  tokenize='unicode61 remove_diacritics 2'
+);
 """
 
 
@@ -67,6 +71,11 @@ def build_index(apkg: Path, output: Path) -> dict:
                      row["tags"] or "", json.dumps(fields, ensure_ascii=False),
                      " \n".join(fields), json.dumps(refs, ensure_ascii=False)),
                 )
+                target.execute(
+                    "INSERT INTO notes_fts(rowid, searchable_text) VALUES (?, ?)",
+                    (row["id"], " \n".join(fields) + " \n" + (row["tags"] or "") +
+                     " \n" + model_names.get(row["mid"], str(row["mid"]))),
+                )
                 note_count += 1
             card_count = 0
             for row in source.execute("SELECT id, nid, did, ord, queue, type FROM cards"):
@@ -77,7 +86,7 @@ def build_index(apkg: Path, output: Path) -> dict:
                 )
                 card_count += 1
             metadata = {
-                "format": "nebli-private-anki-index-v1",
+                "format": "nebli-private-anki-index-v2-fts5",
                 "source_file": apkg.name,
                 "source_sha256": sha256(apkg),
                 "collection_member": member,

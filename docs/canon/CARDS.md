@@ -18,8 +18,12 @@ tags, mídia e crédito, recebe GUID novo e registra o GUID fonte. Colisão de m
 ## Autoral
 
 - inglês médico natural na frente;
-- um alvo inequívoco e um cloze por card;
-- cloze geralmente de 1–3 palavras;
+- uma recuperação independente por card; se a frente admite duas respostas que
+  podem ser lembradas separadamente, dividir;
+- um único cloze `c1` e uma única ocorrência por card;
+- resposta de cloze com **1 palavra por padrão**, 2 quando formam uma unidade
+  semântica natural e 3 apenas excepcionalmente, com justificativa registrada;
+- quatro ou mais palavras no cloze bloqueiam o card;
 - Extra curto em português: causa → mecanismo → consequência;
 - fonte e âncora E1 em metadados;
 - imagem somente com função cognitiva;
@@ -29,3 +33,14 @@ tags, mídia e crédito, recebe GUID novo e registra o GUID fonte. Colisão de m
 
 `nucleo`, `apoio` e `opcional` são mutuamente exclusivos. O deck principal
 recebe núcleo/apoio; opcionais ficam no subdeck `Optional`.
+
+## Contrato por card e volume
+
+O contrato contém `cards[]`, não apenas referências soltas. Cada entrada declara
+`id`, conceito, origem, formato, alvo de recuperação, decisão de atomicidade e
+quantos cards Anki produzirá. `route.card_refs` aponta somente para esses IDs.
+
+O contrato também congela `card_budget.hard_max`. Somar
+`generated_card_count` de `cards[]` precisa coincidir com o total do APKG e não
+pode exceder o teto. O teto limita seleção e autoria; não autoriza deixar conceito
+nuclear descoberto — nesse caso é o escopo que precisa ser revisto.

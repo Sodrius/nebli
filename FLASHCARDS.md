@@ -5,6 +5,7 @@ As regras canônicas dos decks estão em:
 - `docs/canon/PRODUTO-DECK-AULA.md`
 - `docs/canon/COBERTURA-E-STEP1.md`
 - `docs/canon/CARDS.md`
+- `docs/canon/EXEMPLOS-CARDS.md`
 - `docs/canon/VISUAL-E-IO.md`
 - `docs/canon/APKG.md`
 

@@ -2,7 +2,8 @@
 
 Cada `/resumo` entrega:
 
-1. `<Aula> - E1.pdf` — material para aprender;
+1. `<Aula> - E1.pdf` — material para aprender, sempre entregue e apontado no
+   relatório junto ao fonte `typst-build/<slug>/etapa1.typ`;
 2. `<Aula>.apkg` — material para reter;
 3. `relatorio-final-<slug>.json` — cobertura, fontes, visual e auditoria.
 
@@ -13,8 +14,12 @@ O PDF termina após E1/Resumindo. E2, E3 e RemNote estão suspensos.
 - Árvore: `NEBLI::<UC>::<Prova>::<Componente>::<Aula>` e subdeck `Optional`.
 - Núcleo e apoio ficam no deck principal; aprofundamento dispensável fica
   separado e nunca recebe simultaneamente a tag `nucleo`.
-- Volume proporcional ao peso da aula; cobertura generosa controlada, sem
-  vizinhos aleatórios.
+- Volume proporcional ao peso da aula e limitado por `card_budget.hard_max` no
+  contrato congelado. O total conta os cards Anki efetivamente gerados, inclusive
+  opcionais; o montador não pode ultrapassar o teto silenciosamente.
+- Faixas de sanidade, não quotas: 15–25 cards para aula pequena, 25–40 para
+  média e 35–55 para grande. Mais de 60 exige revisão explícita do escopo e novo
+  teto antes da montagem.
 - Ritmo longitudinal: 25 novos/dia e 9999 revisões/dia.
 - Cram usa busca/deck filtrado por UC, prova, componente, aula e importância.
 
@@ -26,3 +31,4 @@ O PDF termina após E1/Resumindo. E2, E3 e RemNote estão suspensos.
 - necessidades visuais satisfeitas;
 - originais privados intocados;
 - APKG offline aberto, inspecionado e renderizado.
+- total real do APKG igual ao total previsto e dentro do teto congelado.

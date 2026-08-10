@@ -12,7 +12,40 @@ from pathlib import Path
 from apkg_utils import decks_map, media_references, models_map, note_fields, open_collection
 
 
-CLOZE_RE = re.compile(r"\{\{c(\d+)::", re.I)
+CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.I)
+
+
+def _word_count(value: str) -> int:
+    clean = re.sub(r"<[^>]+>", " ", value or "")
+    return len(re.findall(r"[^\W_]+(?:[-'][^\W_]+)*", clean, flags=re.UNICODE))
+
+
+def _cloze_source_fields(model: dict, fields: list[str]) -> list[str]:
+    """Inspect only fields rendered through Anki's cloze filter.
+
+    AnKing note types contain many auxiliary fields; cloze-like text in an Extra
+    field must not be counted as a second retrieval target.
+    """
+    field_defs = model.get("flds") or []
+    names = [str(field.get("name", "")) for field in field_defs]
+    templates = " ".join(
+        str(template.get(key, ""))
+        for template in (model.get("tmpls") or [])
+        for key in ("qfmt", "afmt")
+    )
+    referenced = {
+        match.strip().casefold()
+        for match in re.findall(r"\{\{cloze:([^}]+)\}\}", templates, flags=re.I)
+    }
+    indexes = [index for index, name in enumerate(names) if name.casefold() in referenced]
+    if not indexes:
+        indexes = [
+            index for index, name in enumerate(names)
+            if name.strip().casefold() in {"text", "front"}
+        ]
+    if not indexes:
+        indexes = [0] if fields else []
+    return [fields[index] for index in indexes if index < len(fields)]
 
 
 def audit(apkg: Path) -> dict:
@@ -43,6 +76,9 @@ def audit(apkg: Path) -> dict:
         referenced_media: set[str] = set()
         empty_notes = 0
         cloze_notes_without_cloze = 0
+        non_atomic_cloze_notes = 0
+        cloze_answers_over_limit = 0
+        exceptional_three_word_clozes = 0
         io_notes = 0
         nuclear = optional = mixed = 0
         for row in notes:
@@ -52,8 +88,18 @@ def audit(apkg: Path) -> dict:
                 empty_notes += 1
             model = models.get(int(row["mid"]), {})
             model_name = str(model.get("name", ""))
-            if "cloze" in model_name.casefold() and not any(CLOZE_RE.search(field) for field in fields):
-                cloze_notes_without_cloze += 1
+            if "cloze" in model_name.casefold():
+                cloze_fields = _cloze_source_fields(model, fields)
+                clozes = [match for field in cloze_fields for match in CLOZE_RE.findall(field)]
+                if not clozes:
+                    cloze_notes_without_cloze += 1
+                else:
+                    if len(clozes) != 1 or {index for index, _answer in clozes} != {"1"}:
+                        non_atomic_cloze_notes += 1
+                    for _index, answer in clozes:
+                        words = _word_count(answer)
+                        cloze_answers_over_limit += int(words > 3)
+                        exceptional_three_word_clozes += int(words == 3)
             if "image occlusion" in model_name.casefold() or any("occlusion" in field.casefold() for field in fields):
                 io_notes += 1
             tags = set((row["tags"] or "").split())
@@ -69,7 +115,15 @@ def audit(apkg: Path) -> dict:
         if empty_notes:
             errors.append(f"{empty_notes} notas sem conteúdo visível")
         if cloze_notes_without_cloze:
-            warnings.append(f"{cloze_notes_without_cloze} notas de modelo Cloze não contêm cloze")
+            errors.append(f"{cloze_notes_without_cloze} notas de modelo Cloze não contêm cloze")
+        if non_atomic_cloze_notes:
+            errors.append(f"{non_atomic_cloze_notes} notas Cloze têm múltiplas recuperações/índices")
+        if cloze_answers_over_limit:
+            errors.append(f"{cloze_answers_over_limit} respostas de cloze excedem 3 palavras")
+        if exceptional_three_word_clozes:
+            warnings.append(
+                f"{exceptional_three_word_clozes} clozes de 3 palavras exigem justificativa no contrato"
+            )
         if mixed:
             errors.append(f"{mixed} notas misturam tags nucleo e opcional")
         unused_media = filenames - referenced_media
@@ -87,6 +141,9 @@ def audit(apkg: Path) -> dict:
             "decks": len(decks),
             "models": len(models),
             "image_occlusion_notes": io_notes,
+            "non_atomic_cloze_notes": non_atomic_cloze_notes,
+            "cloze_answers_over_limit": cloze_answers_over_limit,
+            "exceptional_three_word_clozes": exceptional_three_word_clozes,
             "nuclear_notes": nuclear,
             "optional_notes": optional,
             "referenced_media": len(referenced_media),

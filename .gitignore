@@ -70,6 +70,14 @@ arquivos-trabalho/**/*.pdf
 # ---- Fontes privadas e índices locais (AnKing/decks externos) ----
 private-sources/
 flashcards/private-cache/
+*.apkg
+*.colpkg
+*.anki2
+*.anki21
+*.anki21b
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 *.private.sqlite
 *.private.sqlite-shm
 *.private.sqlite-wal

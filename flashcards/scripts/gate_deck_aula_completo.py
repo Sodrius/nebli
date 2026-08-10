@@ -15,6 +15,24 @@ from audit_apkg import audit
 from validate_lesson_contract import validate
 
 
+def enforce_card_count(package: dict, contract: dict) -> dict:
+    package.setdefault("errors", [])
+    package.setdefault("warnings", [])
+    expected = contract.get("expected_total_cards", 0)
+    hard_max = contract.get("card_hard_max", 0)
+    actual = package.get("cards", 0)
+    if actual != expected:
+        package["errors"].append(
+            f"APKG contém {actual} cards; contrato congelou {expected}"
+        )
+    if hard_max and actual > hard_max:
+        package["errors"].append(
+            f"APKG contém {actual} cards e excede hard_max={hard_max}"
+        )
+    package["passed"] = bool(package.get("passed") and not package["errors"])
+    return package
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("manifest", type=Path)
@@ -29,6 +47,7 @@ def main() -> int:
         package = audit(args.apkg.resolve())
     except Exception as exc:
         package = {"passed": False, "errors": [str(exc)], "warnings": []}
+    package = enforce_card_count(package, contract)
     result = {
         "passed": bool(contract["passed"] and package["passed"]),
         "contract": contract,

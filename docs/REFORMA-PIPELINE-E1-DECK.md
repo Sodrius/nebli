@@ -17,6 +17,13 @@ produto vivem em `docs/canon/`.
 - [x] criar hard gate do contrato v3 + APKG;
 - [x] fixar 25 novos/dia e opcionais em subdeck;
 - [x] preservar regras antigas em `docs/legacy/`.
+- [x] congelar e auditar teto de cards por aula;
+- [x] tornar atomicidade e cloze 1/2/3 palavras gates mecânicos;
+- [x] substituir busca estreita por união FTS de consultas PT/EN/sinônimos;
+- [x] corrigir IO para mascarar rótulo-resposta e usar
+  `hide_all_guess_all` em mapas coerentes;
+- [x] exigir previews separados de pergunta/resposta;
+- [x] tornar a localização da E1 explícita na entrega.
 
 ## Dependências ainda externas
 
@@ -34,11 +41,11 @@ produto vivem em `docs/canon/`.
 |---|---|---|
 | upload incompleto/corrompido | tamanho, SHA-256, ZIP e SQLite | bloquear índice e deck |
 | formato Anki moderno | membro `anki21b`/zstd | descompactação e schema moderno suportados |
-| busca literal perde card bom | pouca cobertura e sinônimos | consultas PT/EN, mecanismo, tags e cards irmãos |
+| busca literal perde card bom | pouca cobertura e sinônimos | união FTS de consultas PT/EN, mecanismo, tags e cards irmãos |
 | Step 1 abre assunto vizinho | nova árvore de pré-requisitos | rejeitar ou criar aula separada |
 | autoria encobre busca ruim | ausência de candidatos/rejeição | hard gate de contagens e justificativa |
 | imagem bonita mas inútil | tarefa visual não demonstrada | reprovar no contrato/preview |
-| IO esconde a própria pista | target ilegível sem rótulo | usar marcador/prompt visual, sobretudo em histologia |
+| IO esconde a própria pista | target ilegível sem rótulo | mascarar o rótulo; usar marcador/prompt visual em imagem sem rótulo |
 | mídia colide ou quebra | hash, mapa ZIP e referência HTML | deduplicar/renomear e auditar APKG |
 | JSON diz “ok”, pacote não | divergência do arquivo exportado | gate abre o APKG real |
 | scripts antigos voltam ao fluxo | comando/configuração canônica | `/resumo` chama apenas v3; legado não aprova release |

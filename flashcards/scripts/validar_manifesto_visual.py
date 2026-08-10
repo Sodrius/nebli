@@ -57,7 +57,7 @@ def validate(row: dict, base: Path) -> list[str]:
             errors.append(prefix + "asset.license_status inválido")
         if asset.get("source_type") in {"web", "atlas", "external_deck", "slide"} and not asset.get("source_locator"):
             errors.append(prefix + "asset.source_locator ausente")
-        preview = row.get("preview_path")
+        preview = row.get("preview_path") or row.get("question_preview")
         if not preview:
             errors.append(prefix + "preview_path ausente")
         elif not (base / preview).exists() and not Path(preview).exists():
@@ -69,10 +69,33 @@ def validate(row: dict, base: Path) -> list[str]:
     if row.get("card_mode") == "image_occlusion":
         if role not in {"recognition", "localization", "comparison"}:
             errors.append(prefix + "IO exige role recognition/localization/comparison")
-        if not isinstance(row.get("target_count"), int) or row.get("target_count", 0) < 1:
-            errors.append(prefix + "IO exige target_count>=1")
-        if row.get("all_duplicate_labels_masked") is not True:
-            errors.append(prefix + "IO exige all_duplicate_labels_masked=true")
+        masks = row.get("masks") or []
+        if not isinstance(masks, list) or not masks:
+            errors.append(prefix + "IO exige masks[]")
+            masks = []
+        for index, mask in enumerate(masks, start=1):
+            if mask.get("covers") != "answer_label":
+                errors.append(prefix + f"máscara {index} deve cobrir answer_label")
+        behavior = row.get("behavior")
+        if behavior not in {"hide_all_guess_all", "hide_one_guess_one"}:
+            errors.append(prefix + "IO exige behavior válido")
+        if len(masks) > 1 and behavior != "hide_all_guess_all":
+            errors.append(prefix + "IO multi-rótulo exige hide_all_guess_all")
+        if row.get("mask_policy") != "cover_answer_label_not_visual_target":
+            errors.append(prefix + "IO deve mascarar rótulo, não pista visual")
+        if status == "approved":
+            qa = row.get("qa") or {}
+            for key in ("masks_cover_answer_labels", "visual_clues_remain_visible",
+                        "all_answers_hidden", "all_duplicate_labels_masked",
+                        "question_preview_reviewed", "answer_preview_reviewed"):
+                if qa.get(key) is not True:
+                    errors.append(prefix + f"qa.{key} deve ser true")
+            for key in ("question_preview", "answer_preview"):
+                preview = row.get(key)
+                if not preview:
+                    errors.append(prefix + f"{key} ausente")
+                elif not (base / preview).exists() and not Path(preview).exists():
+                    errors.append(prefix + f"{key} inexistente: {preview}")
     elif row.get("card_mode") == "explanatory_image":
         if row.get("placement") != "extra":
             errors.append(prefix + "imagem explicativa deve ficar no Extra")
