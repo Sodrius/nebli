@@ -30,8 +30,27 @@ def anking_card(i: int) -> dict:
         "media_ok": True,
         "sibling_policy_ok": True,
         "fallback_validated": True,
+        "anking_marker_ok": True,
         "score": 0.94,
         "second_score": 0.63,
+        "exact_phrase": True,
+        "requires_visual": False,
+    }
+
+
+def external_card(i: int) -> dict:
+    return {
+        **base(i, "external_deck"),
+        "source_safe": True,
+        "same_note_type": True,
+        "same_fields": True,
+        "media_ok": True,
+        "sibling_policy_ok": True,
+        "fallback_validated": True,
+        "source_filter_required": True,
+        "source_filter_ok": True,
+        "score": 0.91,
+        "second_score": 0.62,
         "exact_phrase": True,
         "requires_visual": False,
     }
@@ -49,6 +68,7 @@ def authored_card(i: int) -> dict:
         "front_characters": 92,
         "multi_retrieval": False,
         "requires_visual": False,
+        "has_extra_media": False,
     }
 
 
@@ -64,6 +84,7 @@ def io_card(i: int) -> dict:
         "answer_preview_validated": True,
         "visual_ok": True,
         "real_source": True,
+        "source_credit_ok": True,
         "answer_leak": False,
         "mask_geometry_ok": True,
         "media_ok": True,
@@ -72,7 +93,8 @@ def io_card(i: int) -> dict:
 
 def realistic_40_card_report() -> dict:
     cards = []
-    cards.extend(anking_card(i) for i in range(1, 31))
+    cards.extend(anking_card(i) for i in range(1, 29))
+    cards.extend(external_card(i) for i in range(29, 31))
     cards.extend(authored_card(i) for i in range(31, 37))
     cards.extend(io_card(i) for i in range(37, 41))
     return {"expected_card_count": 40, "card_budget_hard_max": 45, "cards": cards}
@@ -136,6 +158,20 @@ def test_three_word_authored_cloze_requires_reason():
     assert gate.validate_report(report, 0.82, 0.06)["ok"] is True
 
 
+def test_authored_extra_media_requires_source_and_cognitive_purpose():
+    report = realistic_40_card_report()
+    card = report["cards"][31]
+    card["has_extra_media"] = True
+    card["media_ok"] = True
+    card["media_source_credit_ok"] = False
+    card["media_cognitive_purpose_ok"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    failures = result["cards"][31]["failures"]
+    assert "media_source_credit_ok" in failures
+    assert "media_cognitive_purpose_ok" in failures
+
+
 def test_bad_io_blocks_card_even_if_visual_ok_is_true():
     report = realistic_40_card_report()
     card = report["cards"][38]
@@ -148,12 +184,42 @@ def test_bad_io_blocks_card_even_if_visual_ok_is_true():
     assert "masks_labels_not_structures" in failures
 
 
+def test_io_without_source_credit_blocks():
+    report = realistic_40_card_report()
+    report["cards"][38]["source_credit_ok"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "source_credit_ok" in result["cards"][38]["failures"]
+
+
 def test_anking_without_validated_fallback_blocks():
     report = realistic_40_card_report()
     report["cards"][3]["fallback_validated"] = False
     result = gate.validate_report(report, 0.82, 0.06)
     assert result["ok"] is False
     assert "fallback_validated" in result["cards"][3]["failures"]
+
+
+def test_anking_without_marker_blocks():
+    report = realistic_40_card_report()
+    report["cards"][3]["anking_marker_ok"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "anking_marker_ok" in result["cards"][3]["failures"]
+
+
+def test_external_deck_uses_same_rank_and_fallback_gates():
+    report = realistic_40_card_report()
+    card = report["cards"][28]
+    card["score"] = 0.55
+    card["fallback_validated"] = False
+    card["source_filter_ok"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    failures = result["cards"][28]["failures"]
+    assert "local_deck_rank" in failures
+    assert "fallback_validated" in failures
+    assert "source_filter_ok" in failures
 
 
 def test_card_budget_is_hard_gate():
