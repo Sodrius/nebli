@@ -131,14 +131,19 @@ OCR.
 
 ## Hierarquia de fontes
 
-1. Imagens locais ja curadas em `figuras/<slug>/`.
-2. Slides da aula, quando uso for pessoal/local.
-3. Decks externos importados e ja mapeados: BlueLink, Dope, Histology, LLU,
+1. Imagem pertinente do card AnKing selecionado ou de card irmão AnKing local.
+2. Decks externos importados e ja mapeados: BlueLink, Dope, Histology, LLU,
    Dorian/100 Concepts.
-4. Acervo local/livros/atlas para uso privado, com `private_only`.
-5. Fontes abertas na internet com licenca verificavel.
+3. Acervo local/livros/atlas para uso privado, com `private_only`.
+4. Fontes médicas institucionais ou abertas com licença verificável.
+5. Slide da aula, quando for a melhor representação do mecanismo específico.
 6. Fallback: `NEBLI::needs_image` ou `image_status=missing`; nao preencher com
    imagem generica.
+
+Essa ordem vale também para cards autorais. Slide ou fonte externa exige busca
+visual AnKing concluída e motivo concreto de rejeição. Toda imagem precisa
+declarar qual recuperação/erro ela melhora e passar revisão explícita de valor
+didático.
 
 Para web, abrir a pagina original da imagem. Google Images nao e fonte.
 
@@ -264,7 +269,7 @@ o card já está pronto. Para cada `concept_id` da checklist, criar
 - `strategy`: `io_required`, `extra_recommended`, `optional` ou `none`;
 - `visual_task`: a operação cognitiva, não o tema da imagem;
 - `rationale`: por que a figura acrescenta — ou não acrescenta — aprendizagem;
-- para IO, `board_id` e 1–4 alvos nucleares.
+- para IO, `board_id` e 1–2 alvos nucleares.
 
 Fluxo:
 
@@ -311,9 +316,9 @@ ou comparar uma estrutura. Fluxo obrigatorio:
 8. registrar fonte, credito, licenca, hash e modificacoes;
 9. aprovar somente com `image_score >= 2` e `answer_leakage=false`.
 
-IO com muitos rotulos nao e automaticamente melhor. Comecar com 2–4 alvos
-nucleares por placa; acima disso, justificar papeis distintos ou dividir por
-subtopico. Um rotulo repetido que permanece visivel reprova a nota inteira.
+IO usa `hide_two_guess_two`: preferir dois rótulos nucleares que formem um par
+coerente, aceitando um quando não houver par natural. Mais de dois é bloqueado e
+deve ser dividido. Um rótulo repetido que permanece visível reprova o card.
 
 ### Trilho B — imagem explicativa no Extra
 
@@ -342,8 +347,9 @@ python flashcards/scripts/validar_manifesto_visual.py caminho/do/manifesto.json
 
 Campos minimos: `note_id`, `visual_need`, `image_role`, `visual_task`,
 `card_mode`, `image_status`, `image_score`, `answer_leakage`, `preview_path` e
-`asset` com arquivo, localizador da fonte, credito, licenca, data, hash e
-modificacoes. IO acrescenta `target_count` e `all_duplicate_labels_masked`.
+`didactic_value_reviewed`, e `asset` com arquivo, localizador da fonte, crédito,
+licença, data, hash e modificações. IO acrescenta `target_count` (máximo 2),
+`pair_rationale` quando houver duas respostas e `all_duplicate_labels_masked`.
 
 O validador falha fechado quando um `required` nao esta aprovado, quando falta
 preview/credito/licenca, quando ha vazamento ou quando `context` tenta resolver

@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v8",
+  "pipeline_version": "e1-deck-v9",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -18,6 +18,7 @@
     "external_deck_direct_copy": true,
     "authored_direct_install": true,
     "authored_extra_media_direct_install": true,
+    "authored_anking_media_reuse": true,
     "image_occlusion_direct_install": true,
     "self_contained_new_media": true,
     "new_media_require_source_credit": true,
@@ -54,7 +55,9 @@
       "require_installed_equals_validated": true,
       "block_on_any_failure": true,
       "validator": "flashcards/scripts/validar_deck_card_a_card.py",
-      "ci_reference_deck_size": 40
+      "ci_reference_deck_size": 40,
+      "require_rendered_media_roundtrip": true,
+      "require_real_ankidroid_e2e": true
     },
     "release_gate": {
       "schema": "nebli-e1-deck-release-v1",
@@ -99,7 +102,10 @@
     "max_front_characters": 360,
     "max_extra_words": 100,
     "extra_images_require_cognitive_purpose": true,
-    "extra_images_require_source_credit": true
+    "extra_images_require_source_credit": true,
+    "preferred_visual_source": "anking_local",
+    "slide_or_external_requires_anking_visual_rejection": true,
+    "all_images_require_didactic_value_review": true
   },
   "cloze_answer_words": {
     "preferred": 1,
@@ -109,13 +115,19 @@
     "require_reason_for_three": true
   },
   "image_occlusion": {
-    "multi_label_mode": "hide_all_guess_all",
+    "multi_label_mode": "hide_two_guess_two",
+    "target_masks_per_card": 2,
+    "minimum_masks_per_card": 1,
+    "maximum_masks_per_card": 2,
+    "require_pair_rationale_for_two_masks": true,
     "mask_answer_label_not_visual_target": true,
     "require_coherent_set_for_multiple_masks": true,
     "require_question_and_answer_previews": true,
     "require_real_source": true,
     "require_source_credit": true,
-    "block_answer_leak": true
+    "block_answer_leak": true,
+    "require_cognitive_purpose": true,
+    "require_didactic_value_review": true
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,

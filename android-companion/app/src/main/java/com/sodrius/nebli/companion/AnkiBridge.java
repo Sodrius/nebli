@@ -176,7 +176,7 @@ public final class AnkiBridge {
                 String low = n == null ? "" : n.toLowerCase(Locale.ROOT);
                 if (low.contains("anking")) score += 10;
                 if (low.contains("overhaul")) score += 4;
-                if (containsField(f, "Extra")) score += 2;
+                if (supportFieldIndex(splitFields(f)) >= 0) score += 2;
                 if (score > bestScore) { bestScore = score; bestId = c.getLong(id); }
             }
         }
@@ -267,7 +267,7 @@ public final class AnkiBridge {
         int textIdx = indexOfField(names, "Text");
         if (textIdx < 0) textIdx = 0;
         values[textIdx] = text == null ? "" : text;
-        int extraIdx = indexOfField(names, "Extra");
+        int extraIdx = supportFieldIndex(names);
         if (extraIdx >= 0) values[extraIdx] = extra == null ? "" : extra;
         return values;
     }
@@ -280,6 +280,16 @@ public final class AnkiBridge {
 
     private static int indexOfField(String[] fields, String wanted) {
         for (int i = 0; i < fields.length; i++) if (wanted.equalsIgnoreCase(fields[i])) return i;
+        return -1;
+    }
+
+    private static int supportFieldIndex(String[] fields) {
+        for (String preferred : new String[]{
+                "Extra", "Back Extra", "Lecture Notes", "Missed Questions", "Pathoma"
+        }) {
+            int index = indexOfField(fields, preferred);
+            if (index >= 0) return index;
+        }
         return -1;
     }
 

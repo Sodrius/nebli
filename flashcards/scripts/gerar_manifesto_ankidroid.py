@@ -184,16 +184,24 @@ def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
                 raise ValueError(f"{where}: anking_rejections[{index}] incompleta")
 
 
-def _validate_masks(card: dict[str, Any], where: str) -> None:
+def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -> None:
     if card.get("source") != "io":
         raise ValueError(f"{where}: IO deve ter source=io")
-    if card.get("mode") != "hide_all_guess_all":
-        raise ValueError(f"{where}: IO deve usar hide_all_guess_all")
+    expected_mode = "hide_two_guess_two" if strict else "hide_all_guess_all"
+    if card.get("mode") != expected_mode:
+        raise ValueError(f"{where}: IO deve usar {expected_mode}")
     masks = card.get("masks")
     if not isinstance(masks, list) or not masks:
         raise ValueError(f"{where}: IO sem máscaras")
+    if strict and len(masks) > 2:
+        raise ValueError(f"{where}: hide_two_guess_two permite no máximo 2 máscaras")
     if len(masks) > 1 and card.get("coherent_set") is not True:
         raise ValueError(f"{where}: IO multi-rótulo exige conjunto coerente")
+    if strict and len(masks) == 2 and not str(card.get("pair_rationale") or "").strip():
+        raise ValueError(f"{where}: par IO exige pair_rationale")
+    answers = card.get("answers")
+    if not isinstance(answers, list) or len(answers) != len(masks):
+        raise ValueError(f"{where}: answers deve corresponder exatamente às máscaras")
     hard_true = (
         "masks_labels_not_structures",
         "question_preview_validated",
@@ -208,6 +216,11 @@ def _validate_masks(card: dict[str, Any], where: str) -> None:
         raise ValueError(f"{where}: IO com vazamento de resposta")
     if not str(card.get("source_credit") or "").strip():
         raise ValueError(f"{where}: IO exige source_credit")
+    if strict:
+        if len(str(card.get("cognitive_purpose") or "").strip()) < 10:
+            raise ValueError(f"{where}: IO exige cognitive_purpose concreto")
+        if card.get("didactic_value_reviewed") is not True:
+            raise ValueError(f"{where}: IO exige didactic_value_reviewed=true")
     for i, b in enumerate(masks):
         if not isinstance(b, dict):
             raise ValueError(f"{where}: máscara {i} inválida")
@@ -261,7 +274,8 @@ def _embed_io_media(card: dict[str, Any], base_dir: Path, media: dict[str, dict[
 
 
 def _embed_authored_extra_images(
-    card: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str
+    card: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str,
+    *, strict: bool = False,
 ) -> None:
     images = card.get("extra_images") or []
     if isinstance(images, (str, Path)):
@@ -274,6 +288,7 @@ def _embed_authored_extra_images(
 
     keys: list[str] = []
     blocks: list[str] = []
+    evidence: list[dict[str, Any]] = []
     for i, item in enumerate(images):
         if isinstance(item, str):
             raise ValueError(f"{where}: extra_images[{i}] deve registrar path + source_credit")
@@ -286,8 +301,28 @@ def _embed_authored_extra_images(
             raise ValueError(f"{where}: extra_images[{i}] sem path")
         if not credit:
             raise ValueError(f"{where}: extra_images[{i}] exige source_credit")
+        if strict:
+            if not str(item.get("cognitive_purpose") or "").strip():
+                raise ValueError(f"{where}: extra_images[{i}] exige cognitive_purpose")
+            if item.get("didactic_value_reviewed") is not True:
+                raise ValueError(f"{where}: extra_images[{i}] exige didactic_value_reviewed=true")
+            if item.get("anking_visual_search_complete") is not True:
+                raise ValueError(f"{where}: imagem externa exige busca visual AnKing completa")
+            if len(str(item.get("anking_visual_rejection_reason") or "").strip()) < 20:
+                raise ValueError(f"{where}: imagem externa exige rejeição visual AnKing concreta")
         key = _embed_media_file(raw_path, base_dir, media, f"{where}.extra_images[{i}]", credit)
         keys.append(key)
+        evidence.append({
+            "key": key,
+            "origin": "slide_or_external",
+            "source_credit": credit,
+            "cognitive_purpose": str(item.get("cognitive_purpose") or "").strip(),
+            "didactic_value_reviewed": item.get("didactic_value_reviewed") is True,
+            "anking_visual_search_complete": item.get("anking_visual_search_complete") is True,
+            "anking_visual_rejection_reason": str(
+                item.get("anking_visual_rejection_reason") or ""
+            ).strip(),
+        })
         blocks.append(
             '<div class="nebli-extra-image"><img src="nebli-media://'
             + key
@@ -298,8 +333,71 @@ def _embed_authored_extra_images(
             + "</div>"
         )
     card["media_keys"] = keys
+    card["visual_evidence"] = evidence
     card["extra"] = (str(card.get("extra") or "") + "\n" + "\n".join(blocks)).strip()
     card.pop("extra_images", None)
+
+
+def _prepare_authored_anking_images(card: dict[str, Any], where: str, *, strict: bool = False) -> None:
+    images = card.get("anking_images") or []
+    if not isinstance(images, list):
+        raise ValueError(f"{where}: anking_images deve ser lista")
+    if not images:
+        card.pop("anking_images", None)
+        return
+    refs: list[dict[str, Any]] = []
+    blocks: list[str] = []
+    keys: list[str] = []
+    for i, raw in enumerate(images):
+        if not isinstance(raw, dict):
+            raise ValueError(f"{where}: anking_images[{i}] inválida")
+        item = deepcopy(raw)
+        key = str(item.get("key") or f"anking_image_{i+1}").strip()
+        if not key or key in keys:
+            raise ValueError(f"{where}: anking_images[{i}].key ausente/duplicada")
+        query = str(item.get("query") or "").strip()
+        queries = item.get("search_queries") or []
+        if isinstance(queries, str):
+            queries = [queries]
+        queries = [str(value).strip() for value in queries if str(value).strip()]
+        if query and query not in queries:
+            queries.insert(0, query)
+        if not query or len({value.casefold() for value in queries}) < 2:
+            raise ValueError(f"{where}: anking_images[{i}] exige query + 2 buscas independentes")
+        expected_answers = item.get("expected_answers") or []
+        if isinstance(expected_answers, str):
+            expected_answers = [expected_answers]
+        expected_answers = [str(value).strip() for value in expected_answers if str(value).strip()]
+        if not expected_answers:
+            raise ValueError(f"{where}: anking_images[{i}] exige expected_answers")
+        if not isinstance(item.get("media_index", 0), int) or int(item.get("media_index", 0)) < 0:
+            raise ValueError(f"{where}: anking_images[{i}].media_index inválido")
+        if strict:
+            if not str(item.get("cognitive_purpose") or "").strip():
+                raise ValueError(f"{where}: anking_images[{i}] exige cognitive_purpose")
+            if item.get("didactic_value_reviewed") is not True:
+                raise ValueError(f"{where}: anking_images[{i}] exige didactic_value_reviewed=true")
+        item["key"] = key
+        item["query"] = query
+        item["search_queries"] = queries
+        item["expected_answers"] = expected_answers
+        item["requires_visual"] = True
+        refs.append(item)
+        keys.append(key)
+        blocks.append(
+            '<div class="nebli-extra-image"><img src="nebli-anking-media://'
+            + html.escape(key, quote=True)
+            + '" alt="'
+            + html.escape(str(item.get("alt") or "AnKing supporting image"), quote=True)
+            + '"></div><div class="nebli-source">'
+            + html.escape(str(item.get("source_credit") or "AnKing local"))
+            + "</div>"
+        )
+    card["anking_media_refs"] = refs
+    card["anking_media_keys"] = keys
+    extra = str(card.get("extra") or "")
+    card["extra"] = extra + ("<br>" if extra else "") + "".join(blocks)
+    card.pop("anking_images", None)
 
 
 def _prepare_fallback(
@@ -311,9 +409,10 @@ def _prepare_fallback(
     f["source"] = source
     if source == "authored":
         _validate_authored(f, where, strict=strict)
-        _embed_authored_extra_images(f, base_dir, media, where)
+        _embed_authored_extra_images(f, base_dir, media, where, strict=strict)
+        _prepare_authored_anking_images(f, where, strict=strict)
     elif source == "io":
-        _validate_masks(f, where)
+        _validate_masks(f, where, strict=strict)
         _embed_io_media(f, base_dir, media, where)
     else:
         raise ValueError(f"{where}: fallback deve ser authored ou io")
@@ -393,11 +492,12 @@ def _prepare_v3_card(
         elif not str(card.get("anking_rejection_reason") or "").strip():
             raise ValueError(f"{key}: autoral direto exige anking_rejection_reason")
         _validate_authored(card, key, strict=strict)
-        _embed_authored_extra_images(card, base_dir, media, key)
+        _embed_authored_extra_images(card, base_dir, media, key, strict=strict)
+        _prepare_authored_anking_images(card, key, strict=strict)
     elif source == "io":
         if strict:
             _validate_anking_search_evidence(card, key)
-        _validate_masks(card, key)
+        _validate_masks(card, key, strict=strict)
         _embed_io_media(card, base_dir, media, key)
     else:
         raise ValueError(f"{key}: source não suportado: {source}")

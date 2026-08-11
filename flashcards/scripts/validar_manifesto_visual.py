@@ -35,6 +35,8 @@ def validate(row: dict, base: Path) -> list[str]:
         errors.append(prefix + "image_status inválido/ausente")
     if need != "none" and not str(row.get("visual_task", "")).strip():
         errors.append(prefix + "visual_task ausente")
+    if need != "none" and row.get("didactic_value_reviewed") is not True:
+        errors.append(prefix + "didactic_value_reviewed deve ser true")
     if role == "context" and need == "required":
         errors.append(prefix + "context nunca resolve visual_need=required")
 
@@ -77,10 +79,12 @@ def validate(row: dict, base: Path) -> list[str]:
             if mask.get("covers") != "answer_label":
                 errors.append(prefix + f"máscara {index} deve cobrir answer_label")
         behavior = row.get("behavior")
-        if behavior not in {"hide_all_guess_all", "hide_one_guess_one"}:
+        if behavior != "hide_two_guess_two":
             errors.append(prefix + "IO exige behavior válido")
-        if len(masks) > 1 and behavior != "hide_all_guess_all":
-            errors.append(prefix + "IO multi-rótulo exige hide_all_guess_all")
+        if len(masks) > 2:
+            errors.append(prefix + "IO permite no máximo duas máscaras")
+        if len(masks) == 2 and not str(row.get("pair_rationale", "")).strip():
+            errors.append(prefix + "IO com duas respostas exige pair_rationale")
         if row.get("mask_policy") != "cover_answer_label_not_visual_target":
             errors.append(prefix + "IO deve mascarar rótulo, não pista visual")
         if status == "approved":

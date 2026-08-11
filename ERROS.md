@@ -40,7 +40,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 17. Identificação/localização pede IO ou prompt visual; mecanismo pede imagem no
     Extra. Não esconder a pista morfológica que deveria ser reconhecida.
 18. Em IO rotulado, mascarar o rótulo-resposta. Mapa coerente com várias partes
-    usa `hide_all_guess_all`; revisar previews de pergunta e resposta.
+    usa `hide_two_guess_two`, no máximo duas máscaras e justificativa do par; revisar previews de pergunta e resposta.
 19. Anatomia macro e histologia não fecham apenas com cards verbais quando a
     aula exige reconhecimento.
 20. Bloquear imagem ilegível, genérica, decorativa, sem proveniência, quebrada ou

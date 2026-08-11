@@ -145,7 +145,7 @@ class LessonContractTests(unittest.TestCase):
             result = validate(spec, manifest)
             self.assertTrue(any("famílias PT e EN" in error for error in result["errors"]))
 
-    def test_multi_label_io_requires_hide_all_guess_all_and_label_masks(self):
+    def test_two_label_io_requires_hide_two_guess_two_and_label_masks(self):
         with tempfile.TemporaryDirectory() as raw:
             root = Path(raw)
             spec, manifest = self.valid_spec(root)
@@ -157,7 +157,8 @@ class LessonContractTests(unittest.TestCase):
                 atomicity={"decision": "exception", "exception": "coherent_visual_map",
                            "rationale": "partes do mesmo mapa anatômico"},
                 io={
-                    "behavior": "hide_all_guess_all",
+                    "behavior": "hide_two_guess_two",
+                    "pair_rationale": "as duas partes formam uma unidade anatômica",
                     "question_preview": "question.png",
                     "answer_preview": "answer.png",
                     "masks": [
@@ -182,7 +183,7 @@ class LessonContractTests(unittest.TestCase):
             card["io"]["masks"][0]["covers"] = "answer_label"
             card["io"]["behavior"] = "hide_one_guess_one"
             result = validate(spec, manifest)
-            self.assertTrue(any("multi-rótulo exige hide_all_guess_all" in error
+            self.assertTrue(any("duas respostas exige hide_two_guess_two" in error
                                 for error in result["errors"]))
 
 

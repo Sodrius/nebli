@@ -5,9 +5,12 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.util.Base64;
 
+import androidx.core.content.FileProvider;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -16,6 +19,8 @@ import org.json.JSONObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -46,16 +51,18 @@ public class AnkiDroidIntegrationTest {
     }
 
     @Test
-    public void installsAnkingCopyAndAuthoredCardThroughRealAnkiDroid() throws Exception {
+    public void installsAllVisualRoutesThroughRealAnkiDroid() throws Exception {
         Context context = ApplicationProvider.getApplicationContext();
         assertNotNull(context.getPackageManager().getPackageInfo(AnkiBridge.ANKI_PACKAGE, 0));
         assertEquals(PackageManager.PERMISSION_GRANTED, context.checkSelfPermission(PERMISSION));
 
         AnkiBridge anki = new AnkiBridge(context);
+        String sourceImage = addSourceImage(context, anki);
         String sourceDeck = "NEBLI::CI::AnKingSource";
         long sourceDid = anki.ensureDeck(sourceDeck);
         long basicMid = anki.ensureBasicModel(sourceDid);
-        String sourceFront = "Bacterial lipopolysaccharide is sensed at the plasma membrane by TLR4";
+        String sourceFront = "Bacterial lipopolysaccharide is sensed at the plasma membrane by TLR4 "
+                + "<img src=\"" + sourceImage + "\">";
         long sourceNid = anki.insertNote(
                 basicMid,
                 new String[]{sourceFront, "Bacterial LPS is the ligand.", ""},
@@ -68,15 +75,18 @@ public class AnkiDroidIntegrationTest {
         try {
             receipt = new FullDeckInstaller(context).install(manifest);
             assertTrue(receipt.toString(2), receipt.getBoolean("ok"));
-            assertEquals(2, receipt.getInt("installed_card_count"));
-            assertEquals(2, receipt.getInt("expected_card_count"));
+            assertEquals(4, receipt.getInt("installed_card_count"));
+            assertEquals(4, receipt.getInt("expected_card_count"));
             assertEquals(1, receipt.getInt("anking_cards"));
-            assertEquals(1, receipt.getInt("authored_cards"));
+            assertEquals(2, receipt.getInt("authored_cards"));
+            assertEquals(1, receipt.getInt("io_cards"));
             assertEquals(sourceFront, anki.readNote(sourceNid).fields.split("\\u001f", -1)[0]);
 
             JSONArray cards = receipt.getJSONArray("cards");
             for (int i = 0; i < cards.length(); i++) {
-                long nid = cards.getJSONObject(i).getLong("note_id");
+                JSONObject card = cards.getJSONObject(i);
+                assertTrue(card.toString(2), card.getBoolean("media_ok"));
+                long nid = card.getLong("note_id");
                 assertEquals(1, anki.cards(nid).size());
                 anki.deleteOwnNote(nid);
             }
@@ -110,28 +120,87 @@ public class AnkiDroidIntegrationTest {
                 .put("relevant", true)
                 .put("tier", "nucleo")
                 .put("anking_required", true)
+                .put("requires_visual", true)
                 .put("fallback", fallback);
 
-        JSONObject authored = new JSONObject()
-                .put("card_key", "ci-authored")
+        JSONObject authoredAnkingVisual = withAnkingSearchAudit(new JSONObject()
+                .put("card_key", "ci-authored-anking-visual")
                 .put("concept_id", "ci-prr")
                 .put("source", "authored")
                 .put("text", "Innate immune sensing uses {{c1::PRRs}}.")
-                .put("extra", "PRRs reconhecem padrões moleculares conservados.")
+                .put("extra", "PRRs reconhecem padrões moleculares conservados. "
+                        + "<img src=\"nebli-anking-media://tlr4_visual\">")
                 .put("front_language", "en")
                 .put("extra_language", "pt-BR")
-                .put("anking_search_complete", true)
-                .put("anking_search_queries", new JSONArray()
-                        .put("pattern recognition receptor innate immunity")
-                        .put("PRR innate immune sensing")
-                        .put("innate immunity conserved molecular patterns"))
-                .put("anking_search_scope_expanded", true)
-                .put("anking_siblings_reviewed", true)
-                .put("anking_candidates_reviewed", 0)
-                .put("anking_rejection_reason", "CI authored control has no exact source card")
+                .put("anking_media_refs", new JSONArray().put(new JSONObject()
+                        .put("key", "tlr4_visual")
+                        .put("query", "TLR4 lipopolysaccharide plasma membrane")
+                        .put("search_queries", new JSONArray()
+                                .put("TLR4 lipopolysaccharide plasma membrane")
+                                .put("TLR4 lipopolysaccharide"))
+                        .put("expected_answers", new JSONArray().put("TLR4"))
+                        .put("source_filter", "deck:\"AnKing Step Deck\"")
+                        .put("media_index", 0)
+                        .put("cognitive_purpose", "Relacionar o PRR à localização e ao ligante bacteriano.")
+                        .put("didactic_value_reviewed", true)))
                 .put("atomic", true)
                 .put("relevant", true)
-                .put("tier", "nucleo");
+                .put("tier", "nucleo"));
+
+        JSONObject authoredSlideVisual = withAnkingSearchAudit(new JSONObject()
+                .put("card_key", "ci-authored-slide-visual")
+                .put("concept_id", "ci-pamp")
+                .put("source", "authored")
+                .put("text", "Conserved microbial motifs are called {{c1::PAMPs}}.")
+                .put("extra", "A imagem de aula ancora visualmente o padrão reconhecido. "
+                        + "<img src=\"nebli-media://slide_visual\">")
+                .put("front_language", "en")
+                .put("extra_language", "pt-BR")
+                .put("media_keys", new JSONArray().put("slide_visual"))
+                .put("visual_evidence", new JSONArray().put(new JSONObject()
+                        .put("key", "slide_visual")
+                        .put("origin", "slide_or_external")
+                        .put("source_credit", "Slide da aula — teste de integração")
+                        .put("anking_visual_search_complete", true)
+                        .put("anking_visual_rejection_reason", "Nenhuma imagem AnKing encontrada representava este esquema específico da aula.")
+                        .put("cognitive_purpose", "Distinguir o padrão microbiano do receptor que o reconhece.")
+                        .put("didactic_value_reviewed", true)))
+                .put("atomic", true)
+                .put("relevant", true)
+                .put("tier", "nucleo"));
+
+        JSONObject io = withAnkingSearchAudit(new JSONObject()
+                .put("card_key", "ci-io-two-labels")
+                .put("concept_id", "ci-io-prr-pamp")
+                .put("source", "io")
+                .put("mode", "hide_two_guess_two")
+                .put("media_key", "slide_visual")
+                .put("prompt", "Identify both masked labels.")
+                .put("answers", new JSONArray().put("PRR").put("PAMP"))
+                .put("pair_rationale", "Os dois rótulos formam o par receptor-ligante recuperado em conjunto.")
+                .put("masks", new JSONArray()
+                        .put(box(0.08, 0.12, 0.22, 0.18))
+                        .put(box(0.62, 0.58, 0.24, 0.18)))
+                .put("masks_labels_not_structures", true)
+                .put("question_preview_validated", true)
+                .put("answer_preview_validated", true)
+                .put("visual_ok", true)
+                .put("real_source", true)
+                .put("answer_leak", false)
+                .put("coherent_set", true)
+                .put("source_credit", "Slide da aula — teste de integração")
+                .put("cognitive_purpose", "Recuperar em conjunto o receptor e seu padrão microbiano correspondente.")
+                .put("didactic_value_reviewed", true)
+                .put("atomic", true)
+                .put("relevant", true)
+                .put("tier", "nucleo"));
+
+        JSONObject slideMedia = new JSONObject()
+                .put("key", "slide_visual")
+                .put("filename", "ci_slide_visual.png")
+                .put("source_credit", "Slide da aula — teste de integração")
+                .put("sha256", "d126d616641d42ac8b0a07ec302c9fa1ec049f86200931a0a60c8f3080284b77")
+                .put("data_base64", PNG_BASE64);
 
         return new JSONObject()
                 .put("schema", FullDeckInstaller.SCHEMA)
@@ -145,19 +214,60 @@ public class AnkiDroidIntegrationTest {
                 .put("release_gate", new JSONObject()
                         .put("schema", "nebli-e1-deck-release-v1")
                         .put("passed", true)
-                        .put("nuclear_concept_count", 2)
-                        .put("covered_nuclear_count", 2)
+                        .put("nuclear_concept_count", 4)
+                        .put("covered_nuclear_count", 4)
                         .put("e1_source_sha256", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                         .put("e1_pdf_sha256", "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"))
                 .put("mutate_source", false)
                 .put("open_ankidroid_after_install", false)
-                .put("expected_card_count", 2)
+                .put("expected_card_count", 4)
                 .put("search", new JSONObject()
                         .put("min_score", 0.82)
                         .put("min_margin", 0.06)
                         .put("max_candidates", 20)
                         .put("source_filter_is_hint", true)
                         .put("require_anking_marker", true))
-                .put("cards", new JSONArray().put(anking).put(authored));
+                .put("media", new JSONArray().put(slideMedia))
+                .put("cards", new JSONArray()
+                        .put(anking)
+                        .put(authoredAnkingVisual)
+                        .put(authoredSlideVisual)
+                        .put(io));
     }
+
+    private static JSONObject withAnkingSearchAudit(JSONObject card) throws Exception {
+        return card
+                .put("anking_search_complete", true)
+                .put("anking_search_queries", new JSONArray()
+                        .put("pattern recognition receptor innate immunity")
+                        .put("PRR innate immune sensing")
+                        .put("innate immunity conserved molecular patterns"))
+                .put("anking_search_scope_expanded", true)
+                .put("anking_siblings_reviewed", true)
+                .put("anking_candidates_reviewed", 0)
+                .put("anking_rejection_reason", "Busca AnKing ampla concluída; nenhum card cobria exatamente esta recuperação.");
+    }
+
+    private static JSONObject box(double x, double y, double w, double h) throws Exception {
+        return new JSONObject().put("x", x).put("y", y).put("w", w).put("h", h);
+    }
+
+    private static String addSourceImage(Context context, AnkiBridge anki) throws Exception {
+        File dir = new File(context.getCacheDir(), "nebli-media");
+        assertTrue(dir.exists() || dir.mkdirs());
+        File file = new File(dir, "ci_anking_visual.png");
+        try (FileOutputStream out = new FileOutputStream(file)) {
+            out.write(Base64.decode(PNG_BASE64, Base64.DEFAULT));
+        }
+        Uri uri = FileProvider.getUriForFile(context, context.getPackageName() + ".files", file);
+        context.grantUriPermission(AnkiBridge.ANKI_PACKAGE, uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        try {
+            return anki.addMedia(uri, "ci_anking_visual");
+        } finally {
+            context.revokeUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        }
+    }
+
+    private static final String PNG_BASE64 =
+            "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Y9Zl1sAAAAASUVORK5CYII=";
 }

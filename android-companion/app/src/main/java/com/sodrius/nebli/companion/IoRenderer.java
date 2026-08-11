@@ -2,7 +2,7 @@ package com.sodrius.nebli.companion;
 
 import java.util.List;
 
-/** Builds deterministic HTML overlays for Nebli Hide-All/Guess-All cards. */
+/** Builds deterministic HTML overlays for Nebli Hide-Two/Guess-Two cards. */
 public final class IoRenderer {
     private IoRenderer() {}
 

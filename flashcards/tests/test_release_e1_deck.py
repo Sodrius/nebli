@@ -117,6 +117,27 @@ def run_canonical(tmp_path: Path, data: dict):
     return proc, out
 
 
+def direct_authored_card() -> dict:
+    return {
+        "card_key": "tlr4-lps",
+        "concept_id": "c-tlr4",
+        "tier": "nucleo",
+        "atomic": True,
+        "relevant": True,
+        **authored_fallback(),
+        "anking_search_complete": True,
+        "anking_search_queries": [
+            "TLR4 lipopolysaccharide recognition",
+            "TLR4 LPS innate immunity",
+            "bacterial LPS pattern recognition receptor",
+        ],
+        "anking_search_scope_expanded": True,
+        "anking_siblings_reviewed": True,
+        "anking_candidates_reviewed": 0,
+        "anking_rejection_reason": "No exact AnKing retrieval remained after expanded sibling review.",
+    }
+
+
 def test_canonical_release_binds_reviewed_e1_core_and_anking(tmp_path):
     proc, out = run_canonical(tmp_path, canonical_data(tmp_path))
     assert proc.returncode == 0, proc.stderr
@@ -174,6 +195,122 @@ def test_direct_authorship_requires_broad_documented_anking_search(tmp_path):
     proc, _ = run_canonical(tmp_path, data)
     assert proc.returncode != 0
     assert "3 buscas AnKing" in (proc.stdout + proc.stderr)
+
+
+def test_authored_card_can_reuse_didactic_anking_image_without_embedding_bytes(tmp_path):
+    data = canonical_data(tmp_path)
+    card = direct_authored_card()
+    card["anking_images"] = [{
+        "key": "tlr4_visual",
+        "query": "TLR4 lipopolysaccharide plasma membrane",
+        "search_queries": [
+            "TLR4 lipopolysaccharide plasma membrane",
+            "TLR4 LPS membrane receptor",
+        ],
+        "expected_answers": ["TLR4"],
+        "media_index": 0,
+        "cognitive_purpose": "Relacionar o receptor ao ligante e à localização de membrana.",
+        "didactic_value_reviewed": True,
+    }]
+    data["cards"] = [card]
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode == 0, proc.stderr
+    manifest = json.loads(out.read_text(encoding="utf-8"))
+    generated = manifest["cards"][0]
+    assert generated["anking_media_refs"][0]["key"] == "tlr4_visual"
+    assert "nebli-anking-media://tlr4_visual" in generated["extra"]
+    assert manifest["media"] == []
+
+
+def test_slide_image_is_blocked_without_prior_anking_visual_rejection(tmp_path):
+    image = tmp_path / "slide.png"
+    image.write_bytes(b"real-slide-image")
+    data = canonical_data(tmp_path)
+    card = direct_authored_card()
+    card["extra_images"] = [{
+        "path": image.name,
+        "source_credit": "Slide 12 da aula",
+        "cognitive_purpose": "Distinguir receptor, ligante e localização no esquema.",
+        "didactic_value_reviewed": True,
+    }]
+    data["cards"] = [card]
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert not out.exists()
+    assert "busca visual AnKing completa" in (proc.stdout + proc.stderr)
+
+
+def test_slide_image_with_didactic_evidence_is_embedded_and_auditable(tmp_path):
+    image = tmp_path / "slide.png"
+    image.write_bytes(b"real-slide-image")
+    data = canonical_data(tmp_path)
+    card = direct_authored_card()
+    card["extra_images"] = [{
+        "path": image.name,
+        "source_credit": "Slide 12 da aula",
+        "cognitive_purpose": "Distinguir receptor, ligante e localização no esquema.",
+        "didactic_value_reviewed": True,
+        "anking_visual_search_complete": True,
+        "anking_visual_rejection_reason": (
+            "No AnKing image represented the lesson-specific scheme without distracting labels."
+        ),
+    }]
+    data["cards"] = [card]
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode == 0, proc.stderr
+    manifest = json.loads(out.read_text(encoding="utf-8"))
+    generated = manifest["cards"][0]
+    assert generated["visual_evidence"][0]["didactic_value_reviewed"] is True
+    assert generated["visual_evidence"][0]["origin"] == "slide_or_external"
+    assert len(manifest["media"]) == 1
+
+
+def test_io_canonical_contract_is_hide_two_guess_two(tmp_path):
+    image = tmp_path / "io.png"
+    image.write_bytes(b"real-io-image")
+    data = canonical_data(tmp_path)
+    io = {
+        "card_key": "tlr4-lps",
+        "concept_id": "c-tlr4",
+        "source": "io",
+        "tier": "nucleo",
+        "atomic": True,
+        "relevant": True,
+        "mode": "hide_two_guess_two",
+        "image_path": image.name,
+        "answers": ["TLR4", "LPS"],
+        "pair_rationale": "Receptor and ligand form a single coherent recognition pair.",
+        "masks": [
+            {"x": 0.1, "y": 0.1, "w": 0.2, "h": 0.1},
+            {"x": 0.6, "y": 0.6, "w": 0.2, "h": 0.1},
+        ],
+        "coherent_set": True,
+        "masks_labels_not_structures": True,
+        "question_preview_validated": True,
+        "answer_preview_validated": True,
+        "visual_ok": True,
+        "real_source": True,
+        "answer_leak": False,
+        "source_credit": "Slide 12 da aula",
+        "cognitive_purpose": "Recuperar conjuntamente o receptor e o ligante do mecanismo.",
+        "didactic_value_reviewed": True,
+        "anking_search_complete": True,
+        "anking_search_queries": ["TLR4 LPS", "TLR4 receptor", "LPS innate immunity"],
+        "anking_search_scope_expanded": True,
+        "anking_siblings_reviewed": True,
+        "anking_candidates_reviewed": 0,
+        "anking_rejection_reason": "No exact AnKing retrieval replaced this label-localization task.",
+    }
+    data["cards"] = [io]
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode == 0, proc.stderr
+    assert json.loads(out.read_text(encoding="utf-8"))["cards"][0]["mode"] == "hide_two_guess_two"
+
+    io["masks"].append({"x": 0.3, "y": 0.3, "w": 0.1, "h": 0.1})
+    io["answers"].append("MyD88")
+    proc, _ = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert "no máximo 2 máscaras" in (proc.stdout + proc.stderr)
 
 
 def test_finalizer_materializes_only_user_visible_e1_and_manifest(tmp_path):

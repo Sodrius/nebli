@@ -14,6 +14,9 @@ Aplicativo Android mínimo para instalar um deck-aula diretamente na coleção j
 - move os cards gerados para o deck-aula;
 - suspende siblings não selecionados quando o manifesto fixa ordinais;
 - resolve a nota AnKing pelo contexto e o sibling pela resposta esperada;
+- preserva e compara a mídia renderizada das cópias AnKing;
+- reutiliza mídia AnKing em cards autorais e instala slide/IO com hash e crédito;
+- valida no AnkiDroid o render real de toda mídia e o IO de até duas máscaras;
 - trata o nome local do deck AnKing como dica, exigindo marcador de origem;
 - grava recibo local idempotente com fonte real, consultas e candidatos.
 
@@ -46,6 +49,6 @@ python flashcards/scripts/gerar_manifesto_ankidroid.py \
 ## Busca AnKing
 
 O manifesto fornece várias `search_queries`, `expected_answers` e restrições de
-contexto. No pipeline v8, todo card AnKing curado usa `anking_required=true`,
+contexto. No pipeline v9, todo card AnKing curado usa `anking_required=true`,
 bloqueando fallback silencioso. O protocolo completo está em
 `docs/canon/ANKIDROID-COMPANION.md`.

@@ -81,7 +81,7 @@ Para cada card com `source=anking`:
 9. se for ambíguo, ausente ou visualmente insuficiente, usar o `fallback`
    validado do próprio manifesto — nunca escolher à força.
 
-No v8, todo `source=anking` já representa card curado e usa
+No v9, todo `source=anking` já representa card curado e usa
 `anking_required=true`. Falhar em resolvê-lo bloqueia o lote, sem fallback
 silencioso. O recibo registra
 consultas tentadas, candidatos, motivo da decisão e fonte realmente instalada.
@@ -132,15 +132,22 @@ IO não depende de note type nativo de Image Occlusion. O Companion usa
 
 Hard gates:
 
-- `hide_all_guess_all` para mapas coerentes;
+- `hide_two_guess_two`, com uma ou duas máscaras e alvo de duas por card;
 - máscara cobre o rótulo-resposta, não a estrutura visual;
-- múltiplas máscaras exigem conjunto coerente;
+- duas máscaras exigem conjunto coerente e `pair_rationale`;
 - geometria dentro da imagem;
 - fonte real;
 - previews de pergunta e resposta validados;
 - sem vazamento de resposta;
 - runtime deve renderizar máscara + imagem na pergunta e imagem/solução na
   resposta.
+
+Cards autorais podem declarar `anking_images`: o Companion resolve o card
+AnKing, seleciona a referência local indicada por `media_index` e a reutiliza no
+Extra. Imagens de slide/externas só são aceitas com evidência por arquivo de
+busca visual AnKing, rejeição concreta, crédito, propósito cognitivo e revisão
+didática. O gate compara as referências esperadas às renderizadas, inclusive em
+instalações idempotentes.
 
 ## Mídia nova
 

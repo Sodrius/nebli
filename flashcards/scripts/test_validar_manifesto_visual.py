@@ -29,7 +29,9 @@ class ManifestoVisualTests(unittest.TestCase):
             row = {
                 "note_id": 4, "visual_need": "required", "image_role": "localization",
                 "image_status": "approved", "visual_task": "identificar partes",
-                "card_mode": "image_occlusion", "behavior": "hide_all_guess_all",
+                "didactic_value_reviewed": True,
+                "card_mode": "image_occlusion", "behavior": "hide_two_guess_two",
+                "pair_rationale": "as duas partes formam uma unidade anatômica",
                 "mask_policy": "cover_answer_label_not_visual_target",
                 "masks": [
                     {"label": "part A", "covers": "answer_label"},

@@ -1,4 +1,4 @@
-# Pipeline canônico de deck-aula v8
+# Pipeline canônico de deck-aula v9
 
 O contrato autoritativo está em `docs/canon/PIPELINE-E1-DECK.md`. Este resumo
 existe para impedir que comandos antigos reintroduzam E2, APKG ou cobertura por
@@ -20,7 +20,7 @@ amostragem.
 
 ## Gates
 
-- `pipeline_version=e1-deck-v8`;
+- `pipeline_version=e1-deck-v9`;
 - `release_gate.schema=nebli-e1-deck-release-v1`;
 - E1 fonte/PDF congeladas por SHA-256;
 - revisão independente da formulação, core, mecanismos e informação visual;
