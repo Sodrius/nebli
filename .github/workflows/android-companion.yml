@@ -28,8 +28,44 @@ jobs:
           gradle-version: "8.10.2"
       - name: Unit tests including realistic 40-card batch
         run: gradle :app:testDebugUnitTest --stacktrace
-      - name: Build debug APK
-        run: gradle :app:assembleDebug --stacktrace
+      - name: Build debug APK and Android integration test
+        run: gradle :app:assembleDebug :app:assembleDebugAndroidTest --stacktrace
+      - name: Download pinned official AnkiDroid
+        run: |
+          curl --fail --location --silent --show-error \
+            https://github.com/ankidroid/Anki-Android/releases/download/v2.24.0/AnkiDroid-2.24.0-full-universal.apk \
+            --output AnkiDroid-2.24.0.apk
+          echo "5a124cb5cdee3fa269545b96702867b5ab3fa2fa7003eee52dea1914c9724e25  AnkiDroid-2.24.0.apk" | sha256sum --check
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' \
+            | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Real Android + AnkiDroid round trip
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          target: google_apis
+          profile: pixel_2
+          disable-animations: true
+          working-directory: android-companion
+          script: |
+            adb install -r AnkiDroid-2.24.0.apk
+            adb root
+            adb wait-for-device
+            ANKI_DATA=/data/user/0/com.ichi2.anki
+            ANKI_UID=$(adb shell stat -c %u "$ANKI_DATA" | tr -d '\r')
+            adb shell mkdir -p "$ANKI_DATA/shared_prefs" "$ANKI_DATA/files/AnkiDroid"
+            printf '%s\n' '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>' '<map>' '  <string name="deckPath">/data/user/0/com.ichi2.anki/files/AnkiDroid</string>' '</map>' \
+              | adb shell "cat > $ANKI_DATA/shared_prefs/com.ichi2.anki_preferences.xml"
+            adb shell chown -R "$ANKI_UID:$ANKI_UID" "$ANKI_DATA"
+            adb shell restorecon -R "$ANKI_DATA"
+            adb install -r app/build/outputs/apk/debug/app-debug.apk
+            adb install -r app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+            adb shell pm grant com.sodrius.nebli.companion com.ichi2.anki.permission.READ_WRITE_DATABASE
+            adb shell am instrument -w -r com.sodrius.nebli.companion.test/androidx.test.runner.AndroidJUnitRunner
       - uses: actions/upload-artifact@v4
         with:
           name: nebli-ankidroid-companion-debug
