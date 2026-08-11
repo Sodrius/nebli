@@ -80,3 +80,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 34. Ao corrigir incompatibilidade de regex Android/JVM, auditar todas as
     ocorrências de `Pattern.compile`, `replaceAll`, `split` e `matches` no app;
     não encerrar a correção após encontrar somente o primeiro padrão inválido.
+35. Teste JVM e compilação do APK não bastam para liberar o Companion. O gate
+    precisa executar no runtime Android com AnkiDroid oficial instalado, criar
+    fonte local, resolver/copy AnKing, instalar autoral e confirmar a contagem
+    real de cards pelo Content Provider antes de publicar o artefato.
