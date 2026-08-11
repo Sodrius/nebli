@@ -56,6 +56,11 @@ figuras/**/*.svg
 # ---- Figuras do banco (PNGs de questoes, ~107 MB) ----
 banco/figuras/
 
+# ---- Entregas geradas (E1/PDF + manifesto com midia dos slides embutida) ----
+# Regeneraveis por finalizar_entrega_canonica.py a partir do deck-data versionado.
+# Mesma razao de figuras/**/*.png e typst-build/*.pdf: material do professor.
+entregas/
+
 # ---- Transientes do orquestrador ----
 arquivos-trabalho/tema-cards/
 arquivos-trabalho/relatorios/

@@ -52,6 +52,20 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Um único card inválido bloqueia o lote.
 - O recibo do Companion precisa confirmar `installed_card_count == expected_card_count`.
 
+## Primeira corrida real do v9 — imuno-01
+
+`imuno-01-organizacao-sistema-imune` (UC03 · P1 · Imunologia) foi a primeira aula
+real fechada no pipeline v9: E1 de 24 páginas, 44 conceitos, teto congelado em 52
+e **50 cards** (26 AnKing com fallback validado, 22 autorais, 2 IO), gate card a
+card 100% e release gate aprovado. Checkpoint em
+`arquivos-trabalho/imuno-01-organizacao-sistema-imune/CHECKPOINT.md`.
+
+Limitação registrada: a sessão que roda o pipeline pode não ter acesso à coleção
+AnkiDroid (ela vive no tablet). Nesse caso os cards AnKing viajam curados no
+manifesto e o `score` da validação é o mínimo contratual, marcado com
+`score_basis="plan_contract_minimum"`; a resolução real acontece no Companion e
+`anking_required=true` bloqueia o lote se a nota não existir.
+
 ## Próxima corrida real
 
 A próxima sessão deve receber os PDFs/arquivos da aula, ler `NEXT-SESSION.md` e rodar `/resumo` até o fim. Não pedir curadoria manual de cards. Entregar E1/PDF e **um único manifesto `.ankidroid.json`**; o usuário apenas abre esse arquivo no Companion para instalar o deck completo.
