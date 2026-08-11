@@ -1,0 +1,30 @@
+name: AnkiDroid Manifest
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "flashcards/scripts/gerar_manifesto_ankidroid.py"
+      - "flashcards/scripts/validar_deck_card_a_card.py"
+      - "flashcards/tests/test_manifesto_ankidroid.py"
+      - "flashcards/tests/test_validar_deck_card_a_card.py"
+      - ".github/workflows/ankidroid-manifest.yml"
+  pull_request:
+    paths:
+      - "flashcards/scripts/gerar_manifesto_ankidroid.py"
+      - "flashcards/scripts/validar_deck_card_a_card.py"
+      - "flashcards/tests/test_manifesto_ankidroid.py"
+      - "flashcards/tests/test_validar_deck_card_a_card.py"
+      - ".github/workflows/ankidroid-manifest.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Manifest and card-by-card gates
+        run: pytest -q flashcards/tests/test_manifesto_ankidroid.py flashcards/tests/test_validar_deck_card_a_card.py

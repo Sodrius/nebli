@@ -13,18 +13,19 @@ existirem artefatos completos, em modo revisor e somente leitura.
 
 ## 0. Carregar o canônico
 
-Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/PIPELINE-E1-DECK.md` e
-todos os demais arquivos de `docs/canon/` listados no `CLAUDE.md`. Leia
+Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/PIPELINE-E1-DECK.md`,
+`docs/canon/ANKIDROID-COMPANION.md` e os demais arquivos canônicos. Leia
 `config/pipeline.json` e confirme:
 
-- `pipeline_version=e1-deck-v3`;
+- `pipeline_version=e1-deck-v5`;
+- backend preferido `ankidroid`;
+- manifest `nebli-ankidroid-lesson-v2`;
+- validação final `mode=every_card` e aprovação obrigatória de 100%;
 - E2, E3 e RemNote desligados;
 - 25 novos/dia;
-- APKG offline e auditoria obrigatórios.
-- teto de cards por contrato, cloze 1/2/3 palavras e IO multi-rótulo em
-  `hide_all_guess_all`.
+- teto de cards, cloze 1/2/3 palavras e IO multi-rótulo `hide_all_guess_all`.
 
-Nunca leia `docs/legacy/` durante uma corrida normal.
+Nunca leia `docs/legacy/` durante corrida normal.
 
 ## 1. Entrada e checkpoint
 
@@ -36,80 +37,138 @@ próximo passo literal. Atualize após cada fase.
 ## 2. Fontes e contrato inicial
 
 Extraia slides e objetivos. Crie
-`arquivos-trabalho/<slug>/contrato-cobertura.json` a partir de
-`flashcards/schemas/lesson-contract-v3.example.json`. Registre cada conceito com
-nome PT/EN, subtópico, origem, importância e possível necessidade visual.
-Classifique o porte, proponha `card_budget.hard_max` e congele esse teto antes da
-busca. Slides/objetivos definem o escopo; não acrescente conteúdo adjacente.
+`arquivos-trabalho/<slug>/contrato-cobertura.json` a partir do schema canônico.
+Registre cada conceito com nome PT/EN, subtópico, origem, importância, aliases e
+necessidade visual. Classifique o porte, proponha `card_budget.hard_max` e congele
+o teto antes da seleção. Slides/objetivos definem o escopo.
 
 ## 3. E1 rascunho
 
 Escreva `typst-build/etapa1.typ` e `resumindo.typ` no estilo didático NEBLI.
 Mecanismo antes de nomenclatura; aluno com conhecimento inicial baixo; figuras
-quando carregam estrutura, mecanismo ou comparação. Não gere `etapa2.typ`,
-`etapa3.typ`, gabarito ou RemNote.
+quando carregam estrutura, mecanismo ou comparação. Não gere E2/E3/RemNote.
 
-## 4. E1 atomizada + busca privada
+## 4. Atomização para busca local
 
-Converta a E1 em conceitos recuperáveis e acrescente âncoras literais ao
-contrato. Consulte o índice privado do AnKing com buscas independentes PT, EN,
-sinônimos, mecanismo/estrutura, tags e cards irmãos. Use a união deduplicada;
-busca única sem resultado não prova lacuna. Para gaps, consulte decks externos. Se o índice privado
-não estiver disponível, **pare o deck**: não compense com autoria em massa.
+Converta a E1 em conceitos recuperáveis e atômicos. Cada conceito deve ter:
+
+- `id` estável;
+- `query` preferencialmente em inglês médico;
+- `aliases` quando houver sinônimos úteis;
+- `required=true` para núcleo da aula;
+- âncora literal na E1.
+
+Grave `arquivos-trabalho/<slug>/conceitos-anking.json`. Não selecione cards por
+memória, não dependa de Drive/Colab e não exija IDs do Anki nesta etapa.
 
 ## 5. Passe Step 1 → E1
 
-Para cada candidato Step 1, aplique `docs/canon/COBERTURA-E-STEP1.md`. Aceite
-somente aprofundamento do mesmo mecanismo/estrutura que encaixe naturalmente na
-E1. Registre fonte, decisão e motivo. Incorpore e explique o conteúdo aceito na
-E1 antes de qualquer card. Revalide todas as âncoras e congele o contrato.
+Para cada conceito que aprofunda o mesmo mecanismo/estrutura da aula, aplique
+`docs/canon/COBERTURA-E-STEP1.md`. Conteúdo aceito entra na E1 antes do card.
+Conteúdo de próxima aula/Step 2 fica fora. Revalide as âncoras e congele o
+contrato.
 
-## 6. Curadoria e autoria
+## 6. Gerar manifesto AnkiDroid v2
 
-Roteie cada conceito na ordem AnKing → externo → autoral. Preencha `cards[]` e
-conte `generated_card_count`; nunca exceda `card_budget.hard_max`. Preserve os originais;
-cópias recebem GUID novo, `source_guid` e todos os campos/mídia/créditos. Autoral
-só para lacuna comprovada, em inglês médico, uma recuperação e uma ocorrência
-`c1`. Cloze: 1 palavra por padrão, 2 quando necessário e 3 raramente, com motivo.
-Separe `opcional` em subdeck; nunca misture com `nucleo`.
+Execute:
 
-## 7. Plano visual e IO
+```bash
+python flashcards/scripts/gerar_manifesto_ankidroid.py \
+  --slug <slug> \
+  --deck "NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>" \
+  --conceitos arquivos-trabalho/<slug>/conceitos-anking.json
+```
 
-Preencha uma decisão visual por conceito antes de fechar cards. Priorize imagem
-do AnKing, card irmão e deck externo; slide é último caso. Use Image Occlusion ou
-prompt visual para reconhecer/localizar; imagem no Extra para mecanismo. Em
-diagrama rotulado, a máscara cobre o rótulo-resposta, nunca a estrutura. Mapas
-coerentes com várias partes usam `hide_all_guess_all`. Em imagem não rotulada,
-adicione seta/contorno + rótulo ou use prompt visual; não apague a pista
-morfológica. Gere previews de pergunta e resposta e valide fonte, hash, crédito,
-crop, legibilidade, vazamento e todas as máscaras.
+O manifesto não contém os 6 GB do AnKing. Ele leva conceitos/aliases ao Companion,
+que pesquisa diretamente a coleção local do tablet.
 
-## 8. Montagem offline
+## 7. Resolução local no Companion
 
-Monte `<Nome curto>.apkg` sem AnkiConnect, incluindo note types, templates,
-cards, tags, mídia e subdeck `Optional`. Deduplicate por hash e trate colisões de
-nome. Gere `<Nome curto> - E1.pdf` e a versão leve.
+O Companion deve, por conceito:
 
-## 9. Revisão independente
+1. buscar na coleção do AnkiDroid;
+2. remover cópias NEBLI do pool;
+3. preferir marcadores AnKing quando existirem;
+4. ranquear candidatos;
+5. exigir score e margem mínimos;
+6. inferir o sibling cloze correto quando houver vários;
+7. copiar literalmente `mid + flds + tags` para `NEBLI::*`;
+8. suspender siblings não selecionados;
+9. reler a fonte e comprovar que permaneceu intacta;
+10. deixar resultado ambíguo como `unresolved`, nunca escolher à força.
 
-Com os artefatos completos, podem rodar `revisor-cobertura`,
-`revisor-cards-visual` e `auditor-apkg`. Eles não editam. A sessão principal lê
-os relatórios, decide e aplica cada correção, registrando o destino no checkpoint.
+## 8. Lacunas reais, autoria e visual
 
-## 10. Gates finais
+O recibo do Companion separa `resolved[]` e `unresolved[]`. Só `unresolved`
+comprovado pode virar autoral/IO. Para cada lacuna:
 
-Rode o validador do contrato, o validador visual e `audit_apkg.py`. Abra o APKG
-real. Renderize todos os autorais, IO, mídia alterada e uma amostra das cópias.
-Bloqueie se houver lacuna nuclear, card órfão, Step 1 fora do tema, autoral sem
-rejeição de fonte, card não atômico, cloze longo, teto excedido, IO mascarando a
-pista, mídia quebrada, GUID colidindo, visual obrigatório pendente ou APKG não
-auditável. O total real do APKG deve ser igual ao previsto no contrato.
+- refaça buscas com aliases antes de autorar;
+- use externo real quando superior;
+- autoral em inglês médico, atômico, uma recuperação;
+- cloze 1 palavra por padrão, 2 quando necessário, 3 raramente;
+- IO apenas quando a tarefa espacial agrega valor;
+- IO multi-rótulo coerente usa `hide_all_guess_all`;
+- imagem deve ter função cognitiva e passar QA visual.
 
-## 11. Entrega
+## 9. Validação obrigatória card a card
 
-Entregue e aponte explicitamente primeiro o PDF E1 e seu fonte
-`typst-build/<slug>/etapa1.typ`; depois APKG e `relatorio-final-<slug>.json` com conceitos por
-importância/cobertura, cards por fonte, Step 1 aceito/rejeitado, decisões
-visuais/IO, auditoria e pendências reais. Configure/instrua 25 novos/dia e 9999
-revisões/dia. Inclua buscas prontas para cram. Nunca marque como concluído só
+Depois de resolver AnKing e fechar autorais/IO, gere
+`arquivos-trabalho/<slug>/validacao-cards.json` contendo **um registro para cada
+card real do deck final**. `expected_card_count` deve ser exatamente o total final
+do contrato; não use amostra.
+
+Para cada card registre, conforme a fonte: `card_key`, `concept_id`, `source`,
+`selected`, `atomic`, `relevant`, `source_safe`, score/margem da seleção AnKing,
+`same_note_type`, `same_fields`, `media_ok`, `sibling_policy_ok`, `cloze_words`,
+`requires_visual` e `visual_ok`.
+
+Execute obrigatoriamente:
+
+```bash
+python flashcards/scripts/validar_deck_card_a_card.py \
+  arquivos-trabalho/<slug>/validacao-cards.json \
+  --out arquivos-trabalho/<slug>/validacao-cards.result.json
+```
+
+O gate passa somente se `validated_card_count == expected_card_count`,
+`failed_card_count == 0` e `passed_card_count == expected_card_count`. Um único
+card com falha bloqueia a instalação/entrega até ser corrigido. O CI usa 40 cards
+como regressão de porte médio, mas numa corrida real o número validado é o número
+real do deck, qualquer que seja ele.
+
+## 10. Revisão independente
+
+Com E1, manifesto, recibo, autorais/IO e validação card a card completos, podem
+rodar `revisor-cobertura`, `revisor-cards-visual` e os auditores aplicáveis. Eles
+não editam. A sessão principal lê os relatórios e aplica correções; depois roda o
+gate card a card novamente sobre o lote corrigido.
+
+## 11. Gates finais
+
+Bloqueie se houver:
+
+- qualquer card sem registro de validação;
+- qualquer registro `ok=false` no gate card a card;
+- conceito nuclear sem card real ou lacuna explicitamente tratada;
+- seleção AnKing de baixa confiança;
+- fonte modificada;
+- card não atômico;
+- cloze longo;
+- teto excedido;
+- IO com máscara/pista errada;
+- mídia quebrada;
+- card órfão da E1;
+- `unresolved` ignorado;
+- total instalado diferente do total validado.
+
+A instalação só é considerada concluída quando o recibo do Companion confirma o
+mesmo número de cards que passou no gate card a card.
+
+## 12. Entrega
+
+Entregue primeiro E1/PDF, depois o manifesto AnkiDroid v2 e o relatório final com
+conceitos resolvidos/pendentes, cards por fonte, decisões visuais, autorais/IO,
+`validacao-cards.result.json` e recibo de instalação. O fluxo preferido no tablet
+é abrir o manifesto no Nebli Companion e deixar a resolução/cópia AnKing ocorrer
+localmente. Configure 25 novos/dia e 9999 revisões/dia. Nunca marque concluído só
 porque comandos foram executados.

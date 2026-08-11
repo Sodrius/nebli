@@ -7,8 +7,9 @@
         android:label="Nebli Companion"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".LessonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,5 +23,9 @@
                 <data android:mimeType="text/json" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 </manifest>

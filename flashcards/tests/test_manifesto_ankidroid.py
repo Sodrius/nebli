@@ -1,4 +1,3 @@
-import importlib.util
 import json
 import subprocess
 import sys
@@ -8,9 +7,11 @@ SCRIPT = Path(__file__).parents[1] / "scripts" / "gerar_manifesto_ankidroid.py"
 
 
 def test_manifest_requires_nebli_target(tmp_path):
+    concepts = tmp_path / "concepts.json"
+    concepts.write_text('["portal vein"]', encoding="utf-8")
     out = tmp_path / "bad.json"
     proc = subprocess.run(
-        [sys.executable, str(SCRIPT), "--slug", "x", "--deck", "AnKing", "--out", str(out)],
+        [sys.executable, str(SCRIPT), "--slug", "x", "--deck", "AnKing", "--conceitos", str(concepts), "--out", str(out)],
         capture_output=True,
         text=True,
     )
@@ -18,7 +19,19 @@ def test_manifest_requires_nebli_target(tmp_path):
     assert not out.exists()
 
 
-def test_manifest_defaults_are_source_safe(tmp_path):
+def test_v2_manifest_is_concept_driven_and_source_safe(tmp_path):
+    concepts = tmp_path / "concepts.json"
+    concepts.write_text(
+        json.dumps(
+            {
+                "concepts": [
+                    {"id": "c1", "query": "portal vein", "aliases": ["hepatic portal vein"]},
+                    {"conceito": "marginal artery of Drummond", "nuclear": True},
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
     out = tmp_path / "manifest.json"
     proc = subprocess.run(
         [
@@ -28,6 +41,8 @@ def test_manifest_defaults_are_source_safe(tmp_path):
             "anato-10-intestino-grosso",
             "--deck",
             "NEBLI::UC02::P3::Anatomia::Intestino grosso",
+            "--conceitos",
+            str(concepts),
             "--out",
             str(out),
         ],
@@ -36,15 +51,32 @@ def test_manifest_defaults_are_source_safe(tmp_path):
     )
     assert proc.returncode == 0, proc.stderr
     data = json.loads(out.read_text(encoding="utf-8"))
-    assert data["schema"] == "nebli-ankidroid-v1"
+    assert data["schema"] == "nebli-ankidroid-lesson-v2"
     assert data["copy_mode"] == "exact_fields"
     assert data["mutate_source"] is False
     assert data["preserve_note_type"] is True
     assert data["preserve_media_refs"] is True
-    assert data["reset_scheduling"] is True
     assert data["selected_sibling_policy"] == "suspend_unselected"
-    assert data["source_query"].startswith("tag:NEBLI::anato-10-intestino-grosso")
+    assert data["search"]["min_score"] == 0.82
+    assert data["search"]["prefer_anking"] is True
+    assert data["concepts"][0]["query"] == "portal vein"
+    assert data["concepts"][0]["aliases"] == ["hepatic portal vein"]
+    assert data["concepts"][1]["query"] == "marginal artery of Drummond"
     assert len(data["manifest_sha256"]) == 64
+
+
+def test_v2_accepts_simple_string_list(tmp_path):
+    concepts = tmp_path / "concepts.json"
+    concepts.write_text('["portal vein", "duodenum"]', encoding="utf-8")
+    out = tmp_path / "manifest.json"
+    proc = subprocess.run(
+        [sys.executable, str(SCRIPT), "--slug", "x", "--deck", "NEBLI::Aula", "--conceitos", str(concepts), "--out", str(out)],
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert [c["query"] for c in data["concepts"]] == ["portal vein", "duodenum"]
 
 
 def test_curated_ids_are_carried_without_card_content_rewrite(tmp_path):
@@ -84,10 +116,23 @@ def test_curated_ids_are_carried_without_card_content_rewrite(tmp_path):
         text=True,
     )
     assert proc.returncode == 0, proc.stderr
-    item = json.loads(out.read_text(encoding="utf-8"))["items"][0]
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["schema"] == "nebli-ankidroid-v1"
+    item = data["items"][0]
     assert item["source_note_id"] == 123
     assert item["source_card_id"] == 456
     assert item["selected_ordinals"] == [2]
     assert item["source_guid"] == "source-guid"
     assert "Original" not in json.dumps(item)
     assert len(item["first_field_fingerprint"]) == 64
+
+
+def test_manifest_requires_concepts_or_curated_input(tmp_path):
+    out = tmp_path / "manifest.json"
+    proc = subprocess.run(
+        [sys.executable, str(SCRIPT), "--slug", "x", "--deck", "NEBLI::Aula", "--out", str(out)],
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode != 0
+    assert not out.exists()
