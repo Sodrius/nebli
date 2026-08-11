@@ -18,7 +18,7 @@ Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
 `docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
 canônicos. Confirme em `config/pipeline.json`:
 
-- `pipeline_version=e1-deck-v6`;
+- `pipeline_version=e1-deck-v7`;
 - backend `ankidroid`;
 - schema `nebli-ankidroid-deck-v3`;
 - instalação direta de AnKing + autorais + IO;
@@ -94,18 +94,23 @@ Para cada recuperação elegível:
 5. aceite AnKing somente se testar a mesma recuperação, não apenas tema vizinho;
 6. quando houver siblings, planeje o sibling específico;
 7. para recuperação visual, só aceite AnKing visualmente adequado.
+8. incorpore na E1 o aprofundamento do candidato aceito quando ele pertencer ao
+   mesmo mecanismo; só então congele a E1.
 
 No `deck-data.json`, um card preferencialmente AnKing deve ter:
 
 - `source: "anking"`;
-- `query` + `aliases`;
+- `search_queries` independentes para encontrar a nota;
+- `expected_answers` para escolher o cloze/sibling;
+- `must_contain`/`must_not_contain` quando houver vizinhos perigosos;
+- `anking_required=true` quando a curadoria já comprovou o card adequado;
 - `atomic: true`, `relevant: true`;
 - `requires_visual` quando aplicável;
 - **fallback validado** autoral ou IO.
 
-O fallback existe para que o deck final nunca dependa de a coleção local ter
-exatamente o candidato esperado. No tablet, o Companion usa AnKing se houver
-match confiável; caso contrário usa o fallback, sem pedir decisão manual.
+O fallback cobre lacuna ou ambiguidade real. Se `anking_required=true`, falha
+técnica de busca bloqueia o lote: não converter silenciosamente um AnKing já
+validado em autoral.
 
 ## 6. Autorais — contrato rígido
 
@@ -122,6 +127,8 @@ Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
 - sem enumerações, mini-resumos ou múltiplas decisões;
 - pista inequívoca sem entregar a resposta;
 - `atomic=true`, `relevant=true`.
+- autoral direto registra `anking_search_complete=true` e
+  `anking_rejection_reason` concreto.
 
 A existência de um fallback não permite autoria preguiçosa: ele precisa ser um
 bom card por si só.

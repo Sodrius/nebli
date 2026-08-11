@@ -1,4 +1,4 @@
-# Pipeline canônico E1 + Deck-Aula — v6
+# Pipeline canônico E1 + Deck-Aula — v7
 
 ## Definição de pronto
 
@@ -16,11 +16,12 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
 6. Para cada conceito, definir a **recuperação específica** que justificaria um
    card e sua âncora literal na E1.
 7. Planejar fonte na ordem AnKing → deck externo → autoral.
-8. Para cards preferencialmente AnKing, gerar query médica em inglês, aliases e
-   um fallback validado. O fallback garante o deck completo se a coleção local
-   não contiver um match confiável.
-9. Julgar Step 1 pelo teste de mesmo tema; conteúdo aceito entra na E1 antes do
-   card.
+8. Para cada recuperação, concluir a busca AnKing antes de autorar. Registrar
+   consultas independentes, resposta esperada, contexto obrigatório/proibido,
+   candidatos aceitos/rejeitados e um fallback validado.
+9. Julgar Step 1 pelo teste de mesmo tema. O AnKing regula a profundidade, não o
+   escopo: conteúdo aceito entra na E1 antes do card e somente então a E1 é
+   congelada.
 10. Definir plano visual antes de fechar cada card:
     - reconhecimento/localização → IO/prompt visual;
     - mecanismo → imagem no Extra quando agrega;
@@ -38,7 +39,9 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
     `python flashcards/scripts/gerar_manifesto_ankidroid.py --slug <slug> --deck-data arquivos-trabalho/<slug>/deck-data.json`
 
 16. O gerador:
-    - deriva `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
+    - exige os quatro metadados e deriva exclusivamente
+      `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
+    - rejeita `target_deck` manual divergente;
     - valida novamente autorais/IO;
     - exige fallback para cada seleção AnKing;
     - embute mídia nova por SHA-256/base64;
@@ -46,7 +49,10 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
     - fixa `expected_card_count` no número real do deck.
 17. No tablet, abrir o manifesto no Nebli Companion.
 18. O Companion:
-    - busca/rankeia AnKing localmente;
+    - busca a nota AnKing pelo contexto e escolhe o sibling pela resposta
+      esperada, sem misturar os dois scores;
+    - trata o nome local do deck AnKing como dica e rebusca por marcador quando
+      necessário;
     - copia literal quando confiável;
     - usa fallback validado quando a busca é ausente/ambígua;
     - instala autorais e IO diretamente;
@@ -71,6 +77,8 @@ Bloqueiam a conclusão:
 - card não atômico ou irrelevante;
 - teto excedido;
 - AnKing escolhido apenas por tema semelhante;
+- autoral direto sem busca AnKing completa e motivo real de rejeição;
+- AnKing previamente validado que caiu silenciosamente em fallback;
 - AnKing sem fallback no plano final;
 - autoral com mais de uma recuperação/cloze ou cloze longo;
 - IO incorreto ou visual obrigatório ausente;

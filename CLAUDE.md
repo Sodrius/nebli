@@ -32,6 +32,9 @@ Leia, nesta ordem:
 - Slides, objetivos e perguntas orientadoras definem o escopo. Step 1 aprofunda apenas o mesmo tema/mecanismo.
 - Todo conteúdo cobrado por um card precisa estar ensinado e ancorado na E1.
 - Ordem de fonte: **AnKing adequado → deck externo real adequado → autoral**.
+- A busca da nota usa contexto; a escolha do sibling usa `expected_answers`.
+  Autoral direto exige busca AnKing completa e motivo de rejeição. AnKing já
+  validado usa `anking_required=true` e nunca cai silenciosamente em fallback.
 - Fonte privada é somente leitura. Nunca versionar AnKing, índices privados ou mídia protegida.
 
 ## Cards — hard gates
@@ -66,4 +69,4 @@ A aula só fecha quando:
 
 ## Configuração ativa
 
-`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v6`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.
+`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v7`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.

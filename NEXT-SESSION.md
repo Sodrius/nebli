@@ -6,7 +6,7 @@ Este é o ponto de entrada operacional para uma nova sessão.
 
 A infraestrutura do Deck-Aula está pronta no `main`:
 
-- pipeline `e1-deck-v6`;
+- pipeline `e1-deck-v7`;
 - Companion AnkiDroid final instalado no tablet;
 - conexão real com AnkiDroid testada;
 - cópia segura real testada;
@@ -28,7 +28,7 @@ Isso deve ser suficiente.
 
 1. Leia `CLAUDE.md`, este arquivo, `MEMORY.md`, `ERROS.md` e `config/pipeline.json`.
 2. Leia `docs/canon/CARD-QUALITY.md`, `docs/canon/ANKIDROID-COMPANION.md`, `docs/canon/LOCAL-DECKS-AND-MEDIA.md`, `docs/canon/PIPELINE-E1-DECK.md` e `.claude/commands/resumo.md`.
-3. Confirme mecanicamente `pipeline_version=e1-deck-v6` e schema `nebli-ankidroid-deck-v3`.
+3. Confirme mecanicamente `pipeline_version=e1-deck-v7` e schema `nebli-ankidroid-deck-v3`.
 4. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
 5. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
 
@@ -56,6 +56,8 @@ Resumo dos hard gates:
 - congelar e respeitar `card_budget.hard_max`;
 - ordem de fonte: AnKing adequado → deck externo adequado → autoral;
 - AnKing/deck externo deve testar exatamente a recuperação desejada, não um tema vizinho;
+- nota AnKing é buscada pelo contexto e sibling é escolhido pela resposta esperada;
+- autoral direto exige busca AnKing completa e motivo concreto de rejeição;
 - cópia de fonte real é literal e a fonte é somente leitura;
 - autoral: inglês médico natural, Extra curto em português, exatamente um `c1`;
 - cloze: 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ proibido;
@@ -70,14 +72,15 @@ Resumo dos hard gates:
 
 Para uma recuperação planejada como AnKing/deck externo:
 
-1. gerar query médica e aliases;
+1. gerar `search_queries`, `expected_answers` e restrições contextuais;
 2. buscar localmente no AnkiDroid;
-3. ranquear conservadoramente;
+3. ranquear a nota pelo contexto;
 4. selecionar automaticamente apenas com confiança suficiente;
-5. inferir o sibling correto;
+5. inferir o sibling pela resposta esperada;
 6. copiar literal e suspender siblings não escolhidos;
 7. reler a fonte e provar que não mudou;
-8. se ausente/ambíguo, usar o fallback validado já incluído no plano — não perguntar ao usuário.
+8. se ausente/ambíguo, usar o fallback validado; se `anking_required=true`,
+   bloquear em vez de cair silenciosamente no autoral.
 
 ## Autorais e IO
 

@@ -84,7 +84,6 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     precisa executar no runtime Android com AnkiDroid oficial instalado, criar
     fonte local, resolver/copy AnKing, instalar autoral e confirmar a contagem
     real de cards pelo Content Provider antes de publicar o artefato.
-
 ## Qualidade funcional da recuperação
 
 36. Passar nos gates formais não significa ser um bom card. A revisão final
@@ -126,3 +125,17 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     card. Não criar IO quando não há tarefa visual de reconhecimento, mas também
     não aceitar um deck inteiramente verbal quando a E1 exige interpretar uma
     estrutura, lâmina, mapa ou relação espacial.
+
+## Resolução AnKing e identidade do deck
+
+48. `prefer_anking=true` sem efeito mecânico não é prioridade. A nota deve ser
+    buscada por contexto e o sibling pela resposta esperada; usar a consulta
+    longa para pontuar um cloze curto produz falso `unresolved` e fallback.
+49. O nome local `AnKing Step Deck` não é identidade confiável. Para AnKing,
+    `source_filter` é dica; se falhar, rebuscar sem escopo e exigir marcador.
+50. Fallback autoral não pode ocultar falha técnica quando um AnKing adequado já
+    foi validado. `anking_required=true` bloqueia o lote e o recibo registra o
+    motivo, consultas tentadas e contagem de candidatos.
+51. O nome do deck não é campo livre. Gerador e Companion derivam e conferem
+    `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>` a partir dos quatro
+    metadados; override divergente ou segmento ausente bloqueia a instalação.

@@ -30,10 +30,12 @@ Schema: `nebli-ankidroid-deck-v3`.
 Ele contém:
 
 - `lesson_slug`;
+- `deck_identity` com UC, prova, componente e nome curto;
 - `target_deck` canônico;
 - `expected_card_count` real;
 - plano de **todos os cards**;
-- query/aliases e fallback validado dos cards preferencialmente AnKing;
+- consultas de contexto, respostas esperadas, restrições e fallback validado dos
+  cards preferencialmente AnKing;
 - cards autorais completos;
 - IO completos, incluindo máscaras e QA;
 - mídia nova necessária embutida por hash/base64;
@@ -44,7 +46,7 @@ mantém as referências originais da coleção local.
 
 ## Nome e localização
 
-O nome padrão é derivado dos metadados:
+O nome é derivado exclusivamente de `deck_identity`:
 
 `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`
 
@@ -55,22 +57,31 @@ Cards `optional` vão para:
 No fim de uma instalação bem-sucedida, o Companion seleciona o deck raiz e abre
 o AnkiDroid.
 
+Gerador e Companion rejeitam segmentos ausentes, UC/prova inválidas e qualquer
+`target_deck` divergente dos quatro metadados.
+
 ## AnKing local
 
 Para cada card com `source=anking`:
 
-1. pesquisar `query` e aliases na coleção local;
+1. pesquisar `search_queries` independentes na coleção local;
    a busca AnKing é limitada por padrão a `deck:\"AnKing Step Deck\"` e lê
    primeiro apenas IDs, hidratando no máximo o pool de candidatos necessário;
-2. excluir cópias NEBLI do pool;
-3. exigir marcador AnKing no fluxo canônico;
-4. ranquear por cobertura/frase e margem;
-5. inferir o sibling/ordinal específico;
-6. quando o conceito é visual, exigir que o candidato realmente tenha visual na
+2. tratar esse filtro como dica; se o nome local for diferente, repetir a busca
+   sem escopo e exigir marcador AnKing;
+3. excluir cópias NEBLI do pool;
+4. aplicar `must_contain` e `must_not_contain`;
+5. ranquear a nota pelo contexto/frase e margem;
+6. inferir o sibling/ordinal por `expected_answers`, separadamente do contexto;
+7. quando o conceito é visual, exigir que o candidato realmente tenha visual na
    pergunta;
-7. se o resultado for confiável, copiar literalmente a nota;
-8. se for ambíguo, ausente ou visualmente insuficiente, usar o `fallback`
+8. se o resultado for confiável, copiar literalmente a nota;
+9. se for ambíguo, ausente ou visualmente insuficiente, usar o `fallback`
    validado do próprio manifesto — nunca escolher à força.
+
+`anking_required=true` significa que a curadoria já confirmou um card adequado.
+Falhar em resolvê-lo bloqueia o lote, sem fallback silencioso. O recibo registra
+consultas tentadas, candidatos, motivo da decisão e fonte realmente instalada.
 
 Parâmetros canônicos:
 

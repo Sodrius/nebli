@@ -131,15 +131,22 @@ public final class FullDeckInstaller {
             if ("anking".equals(source) || "external_deck".equals(source)) {
                 boolean requireMarker = "anking".equals(source)
                         && (search == null || search.optBoolean("require_anking_marker", true));
-                p = resolveLocalCopy(card, search, requireMarker, source);
+                Resolution resolution = resolveLocalCopy(card, search, requireMarker, source);
+                p = resolution.plan;
                 if (p == null) {
+                    if ("anking".equals(source) && card.optBoolean("anking_required", false)) {
+                        throw new IllegalStateException("AnKing validado não resolvido: "
+                                + card.optString("card_key") + " (" + resolution.reason + ")");
+                    }
                     JSONObject fallback = card.optJSONObject("fallback");
                     if (fallback == null) {
                         throw new IllegalStateException(source + " unresolved sem fallback: " + card.optString("card_key"));
                     }
                     fallback = inheritIdentity(card, fallback);
                     p = planLocal(fallback);
-                    p.resolutionStatus = "fallback_after_" + source + "_unresolved";
+                    p.resolutionStatus = "fallback_after_" + source + "_" + resolution.reason;
+                    p.candidateCount = resolution.candidateCount;
+                    p.attemptedQueries.addAll(resolution.attemptedQueries);
                 }
             } else {
                 p = planLocal(card);
@@ -186,7 +193,7 @@ public final class FullDeckInstaller {
         return p;
     }
 
-    private Plan resolveLocalCopy(
+    private Resolution resolveLocalCopy(
             JSONObject card,
             JSONObject searchCfg,
             boolean requireMarker,
@@ -194,45 +201,64 @@ public final class FullDeckInstaller {
     ) throws Exception {
         String query = card.getString("query").trim();
         String sourceFilter = card.optString("source_filter", "").trim();
-        JSONArray aliasesArr = card.optJSONArray("aliases");
-        List<String> queries = new ArrayList<>();
-        queries.add(query);
-        if (aliasesArr != null) for (int i = 0; i < aliasesArr.length(); i++) {
-            String a = aliasesArr.optString(i).trim();
-            if (!a.isEmpty()) queries.add(a);
+        List<String> queries = stringList(card.optJSONArray("search_queries"));
+        if (queries.isEmpty()) {
+            queries.add(query);
+            for (String alias : stringList(card.optJSONArray("aliases"))) if (!queries.contains(alias)) queries.add(alias);
         }
+        List<String> expectedAnswers = stringList(card.optJSONArray("expected_answers"));
+        List<String> mustContain = stringList(card.optJSONArray("must_contain"));
+        List<String> mustNotContain = stringList(card.optJSONArray("must_not_contain"));
 
         double minScore = searchCfg == null ? 0.82 : searchCfg.optDouble("min_score", 0.82);
         double minMargin = searchCfg == null ? 0.06 : searchCfg.optDouble("min_margin", 0.06);
         int maxCandidates = searchCfg == null ? 80 : searchCfg.optInt("max_candidates", 80);
+        boolean sourceFilterIsHint = "anking".equals(sourceName)
+                && (searchCfg == null || searchCfg.optBoolean("source_filter_is_hint", true));
 
         Map<Long, Candidate> candidates = new LinkedHashMap<>();
-        for (String q : queries) {
-            String ankiQuery = SearchQueryPolicy.compose(sourceFilter, q);
-            // One query can be unsupported by a specific AnkiDroid/provider
-            // version. Treat it as unresolved so the validated fallback is
-            // used instead of aborting the entire lesson.
-            List<AnkiBridge.NoteSnapshot> found = ProviderSearchPolicy.unresolvedOnProviderFailure(
-                    () -> anki.searchNotes(ankiQuery, maxCandidates, true));
-            for (AnkiBridge.NoteSnapshot n : found) {
-                boolean ankingLike = Ranker.looksAnKing(n.tags);
-                if (requireMarker && !ankingLike) continue;
-                Candidate c = candidates.computeIfAbsent(n.nid, ignored -> new Candidate(n));
-                double s = Ranker.score(q, n.fields, n.tags, ankingLike);
-                boolean exact = !Ranker.normalize(q).isEmpty() && Ranker.normalize(n.fields).contains(Ranker.normalize(q));
-                if (s > c.score) { c.score = s; c.exact = exact; c.matchedQuery = q; }
+        List<String> discoveryQueries = new ArrayList<>(queries);
+        for (String answer : expectedAnswers) if (!discoveryQueries.contains(answer)) discoveryQueries.add(answer);
+        List<String> attemptedQueries = new ArrayList<>();
+        for (String q : discoveryQueries) {
+            collectCandidates(candidates, SearchQueryPolicy.compose(sourceFilter, q), attemptedQueries,
+                    maxCandidates, requireMarker, mustContain, mustNotContain);
+        }
+        // The configured AnKing deck name is only a fast path. Retry without
+        // it only when the scoped pass found nothing, still requiring the
+        // positive AnKing marker before a note can enter the pool.
+        if (sourceFilterIsHint && !sourceFilter.isEmpty() && candidates.isEmpty()) {
+            for (String q : discoveryQueries) {
+                collectCandidates(candidates, q, attemptedQueries,
+                        maxCandidates, requireMarker, mustContain, mustNotContain);
             }
         }
-        if (candidates.isEmpty()) return null;
+        if (candidates.isEmpty()) return Resolution.unresolved("no_candidates_after_filters", 0, attemptedQueries);
+        for (Candidate c : candidates.values()) {
+            boolean ankingLike = Ranker.looksAnKing(c.note.tags);
+            c.score = Ranker.candidateScore(queries, expectedAnswers, c.note.fields, c.note.tags, ankingLike);
+            String normalizedFields = Ranker.normalize(c.note.fields);
+            for (String q : queries) {
+                if (!Ranker.normalize(q).isEmpty() && normalizedFields.contains(Ranker.normalize(q))) {
+                    c.exact = true;
+                    c.matchedQuery = q;
+                    break;
+                }
+            }
+        }
         List<Candidate> ranked = new ArrayList<>(candidates.values());
         ranked.sort(Comparator.comparingDouble((Candidate c) -> c.score).reversed());
         Candidate best = ranked.get(0);
         double second = ranked.size() > 1 ? ranked.get(1).score : 0.0;
-        if (!Ranker.confident(best.score, second, best.exact, minScore, minMargin)) return null;
+        if (!Ranker.confident(best.score, second, best.exact, minScore, minMargin)) {
+            return Resolution.unresolved("ambiguous_or_low_note_score", candidates.size(), attemptedQueries);
+        }
 
-        Integer ord = inferOrdinal(best.note, queries, minScore, minMargin);
-        if (ord == null) return null;
-        if (card.optBoolean("requires_visual", false) && !cardQuestionHasImage(best.note.nid, ord)) return null;
+        Integer ord = inferOrdinal(best.note, queries, expectedAnswers, minScore, minMargin);
+        if (ord == null) return Resolution.unresolved("sibling_unresolved", candidates.size(), attemptedQueries);
+        if (card.optBoolean("requires_visual", false) && !cardQuestionHasImage(best.note.nid, ord)) {
+            return Resolution.unresolved("required_visual_missing", candidates.size(), attemptedQueries);
+        }
 
         Plan p = new Plan(card);
         p.actualSource = sourceName;
@@ -242,10 +268,41 @@ public final class FullDeckInstaller {
         p.secondScore = second;
         p.exactPhrase = best.exact;
         p.resolutionStatus = sourceName + "_resolved";
-        return p;
+        p.candidateCount = candidates.size();
+        p.attemptedQueries.addAll(attemptedQueries);
+        return Resolution.resolved(p, candidates.size(), attemptedQueries);
     }
 
-    private Integer inferOrdinal(AnkiBridge.NoteSnapshot note, List<String> queries, double minScore, double minMargin) {
+    private void collectCandidates(
+            Map<Long, Candidate> candidates,
+            String ankiQuery,
+            List<String> attemptedQueries,
+            int maxCandidates,
+            boolean requireMarker,
+            List<String> mustContain,
+            List<String> mustNotContain
+    ) {
+        if (!attemptedQueries.contains(ankiQuery)) attemptedQueries.add(ankiQuery);
+        // One query can be unsupported by a provider version. Treat it as
+        // unresolved so another query or the validated fallback can proceed.
+        List<AnkiBridge.NoteSnapshot> found = ProviderSearchPolicy.unresolvedOnProviderFailure(
+                () -> anki.searchNotes(ankiQuery, maxCandidates, true));
+        for (AnkiBridge.NoteSnapshot n : found) {
+            boolean ankingLike = Ranker.looksAnKing(n.tags);
+            if (requireMarker && !ankingLike) continue;
+            if (!Ranker.passesConstraints(n.fields, mustContain, mustNotContain)) continue;
+            if (!candidates.containsKey(n.nid) && candidates.size() >= maxCandidates) continue;
+            candidates.computeIfAbsent(n.nid, ignored -> new Candidate(n));
+        }
+    }
+
+    private Integer inferOrdinal(
+            AnkiBridge.NoteSnapshot note,
+            List<String> contextQueries,
+            List<String> expectedAnswers,
+            double minScore,
+            double minMargin
+    ) {
         List<OrdinalScore> fromCloze = new ArrayList<>();
         Matcher m = CLOZE_TARGET.matcher(note.fields == null ? "" : note.fields);
         while (m.find()) {
@@ -253,13 +310,18 @@ public final class FullDeckInstaller {
             String answer = m.group(2);
             double best = 0.0;
             boolean exact = false;
-            for (String q : queries) {
-                best = Math.max(best, Ranker.score(q, answer, "", false));
-                exact |= !Ranker.normalize(q).isEmpty() && Ranker.normalize(answer).contains(Ranker.normalize(q));
+            List<String> targets = expectedAnswers.isEmpty() ? contextQueries : expectedAnswers;
+            for (String target : targets) {
+                double value = expectedAnswers.isEmpty()
+                        ? Ranker.score(target, answer, "", false)
+                        : Ranker.answerScore(target, answer);
+                best = Math.max(best, value);
+                exact |= Ranker.normalize(target).equals(Ranker.normalize(answer));
             }
             fromCloze.add(new OrdinalScore(ord, best, exact));
         }
-        Integer clozeOrd = chooseOrdinal(fromCloze, Math.min(minScore, 0.78), minMargin);
+        double ordinalMinScore = expectedAnswers.isEmpty() ? Math.min(minScore, 0.78) : 0.90;
+        Integer clozeOrd = chooseOrdinal(fromCloze, ordinalMinScore, minMargin);
         if (clozeOrd != null) return clozeOrd;
 
         List<AnkiBridge.CardRow> rows = anki.cards(note.nid);
@@ -269,7 +331,7 @@ public final class FullDeckInstaller {
             String render = row.question + " " + row.answer;
             double best = 0.0;
             boolean exact = false;
-            for (String q : queries) {
+            for (String q : contextQueries) {
                 best = Math.max(best, Ranker.score(q, render, "", false));
                 exact |= !Ranker.normalize(q).isEmpty() && Ranker.normalize(render).contains(Ranker.normalize(q));
             }
@@ -446,7 +508,10 @@ public final class FullDeckInstaller {
     private void validateManifest(JSONObject m) throws Exception {
         if (!SCHEMA.equals(m.optString("schema"))) throw new IllegalArgumentException("schema incompatível: " + m.optString("schema"));
         String deck = m.getString("target_deck");
-        if (!deck.startsWith("NEBLI::")) throw new SecurityException("target_deck deve começar por NEBLI::");
+        String canonicalDeck = canonicalDeckName(m.getJSONObject("deck_identity"));
+        if (!canonicalDeck.equals(deck)) {
+            throw new SecurityException("target_deck não canônico; esperado " + canonicalDeck);
+        }
         if (m.optBoolean("mutate_source", true)) throw new SecurityException("manifesto tenta mutar fonte");
         JSONArray cards = m.getJSONArray("cards");
         int expected = m.getInt("expected_card_count");
@@ -464,7 +529,33 @@ public final class FullDeckInstaller {
                     && !"authored".equals(source) && !"io".equals(source)) {
                 throw new IllegalArgumentException("source v3 inválido: " + source);
             }
+            if (("anking".equals(source) || "external_deck".equals(source))
+                    && (c.optJSONArray("search_queries") == null || c.optJSONArray("search_queries").length() == 0)) {
+                throw new IllegalArgumentException("card de fonte local sem search_queries: " + key);
+            }
+            if (("anking".equals(source) || "external_deck".equals(source))
+                    && (c.optJSONArray("expected_answers") == null || c.optJSONArray("expected_answers").length() == 0)) {
+                throw new IllegalArgumentException("card de fonte local sem expected_answers: " + key);
+            }
+            if ("authored".equals(source)
+                    && (!c.optBoolean("anking_search_complete", false)
+                    || c.optString("anking_rejection_reason").isBlank())) {
+                throw new IllegalArgumentException("autoral direto sem prova de busca AnKing: " + key);
+            }
         }
+    }
+
+    static String canonicalDeckName(JSONObject identity) throws Exception {
+        String uc = identity.optString("uc").trim();
+        String prova = identity.optString("prova").trim();
+        String componente = identity.optString("componente").trim();
+        String aula = identity.optString("nome_curto").trim();
+        if (!uc.matches("UC\\d{2,}") || !prova.matches("P\\d+")
+                || componente.isBlank() || aula.isBlank()
+                || componente.contains("::") || aula.contains("::")) {
+            throw new IllegalArgumentException("deck_identity inválida");
+        }
+        return "NEBLI::" + uc + "::" + prova + "::" + componente + "::" + aula;
     }
 
     public boolean shouldOpenAnki(JSONObject manifest, JSONObject receipt) {
@@ -489,6 +580,8 @@ public final class FullDeckInstaller {
         r.put("planned_source", p.card.optString("source"));
         r.put("actual_source", p.actualSource);
         r.put("resolution_status", p.resolutionStatus);
+        r.put("candidate_count", p.candidateCount);
+        r.put("attempted_queries", new JSONArray(p.attemptedQueries));
         r.put("atomic", p.card.optBoolean("atomic", false));
         r.put("relevant", p.card.optBoolean("relevant", false));
         if (nid >= 0) r.put("note_id", nid);
@@ -577,6 +670,28 @@ public final class FullDeckInstaller {
         Candidate(AnkiBridge.NoteSnapshot note) { this.note = note; }
     }
 
+    private static final class Resolution {
+        final Plan plan;
+        final String reason;
+        final int candidateCount;
+        final List<String> attemptedQueries;
+
+        private Resolution(Plan plan, String reason, int candidateCount, List<String> attemptedQueries) {
+            this.plan = plan;
+            this.reason = reason;
+            this.candidateCount = candidateCount;
+            this.attemptedQueries = new ArrayList<>(attemptedQueries);
+        }
+
+        static Resolution resolved(Plan plan, int candidateCount, List<String> attemptedQueries) {
+            return new Resolution(plan, "resolved", candidateCount, attemptedQueries);
+        }
+
+        static Resolution unresolved(String reason, int candidateCount, List<String> attemptedQueries) {
+            return new Resolution(null, reason, candidateCount, attemptedQueries);
+        }
+    }
+
     private static final class OrdinalScore {
         final int ord; final double score; final boolean exact;
         OrdinalScore(int ord, double score, boolean exact) { this.ord = ord; this.score = score; this.exact = exact; }
@@ -592,7 +707,9 @@ public final class FullDeckInstaller {
         AnkiBridge.NoteSnapshot sourceNote;
         int selectedOrd = -1;
         double score = 0.0, secondScore = 0.0;
+        int candidateCount = 0;
         boolean exactPhrase = false;
+        final List<String> attemptedQueries = new ArrayList<>();
         Plan(JSONObject card) throws Exception { this.card = card; this.cardKey = card.getString("card_key"); }
     }
 

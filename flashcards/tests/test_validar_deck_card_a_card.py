@@ -30,6 +30,8 @@ def anking_card(i: int) -> dict:
         "media_ok": True,
         "sibling_policy_ok": True,
         "fallback_validated": True,
+        "search_queries_ok": True,
+        "expected_answers_ok": True,
         "anking_marker_ok": True,
         "score": 0.94,
         "second_score": 0.63,
@@ -47,6 +49,8 @@ def external_card(i: int) -> dict:
         "media_ok": True,
         "sibling_policy_ok": True,
         "fallback_validated": True,
+        "search_queries_ok": True,
+        "expected_answers_ok": True,
         "source_filter_required": True,
         "source_filter_ok": True,
         "score": 0.91,
@@ -69,6 +73,8 @@ def authored_card(i: int) -> dict:
         "multi_retrieval": False,
         "requires_visual": False,
         "has_extra_media": False,
+        "anking_search_complete": True,
+        "anking_rejection_reason": "No exact AnKing retrieval remained after review.",
     }
 
 
@@ -206,6 +212,26 @@ def test_anking_without_marker_blocks():
     result = gate.validate_report(report, 0.82, 0.06)
     assert result["ok"] is False
     assert "anking_marker_ok" in result["cards"][3]["failures"]
+
+
+def test_required_anking_cannot_silently_fallback():
+    report = realistic_40_card_report()
+    report["cards"][3]["anking_required"] = True
+    report["cards"][3]["resolved_without_fallback"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "required_anking_unresolved" in result["cards"][3]["failures"]
+
+
+def test_direct_authored_requires_anking_search_evidence():
+    report = realistic_40_card_report()
+    card = report["cards"][31]
+    card["anking_search_complete"] = False
+    card["anking_rejection_reason"] = ""
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "anking_search_incomplete" in result["cards"][31]["failures"]
+    assert "anking_rejection_reason_missing" in result["cards"][31]["failures"]
 
 
 def test_external_deck_uses_same_rank_and_fallback_gates():

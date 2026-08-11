@@ -89,6 +89,8 @@ def authored(text="The hepatic portal vein drains into the {{c1::liver}}."):
         "extra": "A veia porta leva sangue do tubo digestório ao fígado.",
         "front_language": "en",
         "extra_language": "pt-BR",
+        "anking_search_complete": True,
+        "anking_rejection_reason": "No exact AnKing retrieval remained after candidate review.",
     }
 
 
@@ -141,12 +143,19 @@ def test_v3_builds_complete_self_contained_deck_and_canonical_name(tmp_path):
     manifest = json.loads(out.read_text(encoding="utf-8"))
     assert manifest["schema"] == "nebli-ankidroid-deck-v3"
     assert manifest["target_deck"] == "NEBLI::UC02::P3::Anatomia::Intestino grosso"
+    assert manifest["deck_identity"] == {
+        "uc": "UC02", "prova": "P3", "componente": "Anatomia", "nome_curto": "Intestino grosso"
+    }
     assert manifest["optional_subdeck"].endswith("::Optional")
     assert manifest["expected_card_count"] == 3
     assert manifest["search"]["require_anking_marker"] is True
     assert manifest["search"]["ambiguous_policy"] == "use_validated_fallback"
     assert manifest["cards"][0]["fallback"]["source"] == "authored"
     assert manifest["cards"][0]["source_filter"] == 'deck:"AnKing Step Deck"'
+    assert manifest["cards"][0]["expected_answers"] == ["colon"]
+    assert manifest["cards"][0]["search_queries"] == [
+        "marginal artery of Drummond", "marginal artery"
+    ]
     assert len(manifest["media"]) == 1
     assert manifest["cards"][2]["media_key"] == manifest["media"][0]["key"]
     assert "image_path" not in manifest["cards"][2]
@@ -156,7 +165,7 @@ def test_v3_builds_complete_self_contained_deck_and_canonical_name(tmp_path):
 
 def test_v3_visual_anking_requires_io_fallback(tmp_path):
     data = {
-        "metadata": {"uc": "UC", "nome_curto": "Aula"},
+        "metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"},
         "cards": [{
             "card_key": "visual", "concept_id": "v", "source": "anking", "query": "hepatic flexure",
             "atomic": True, "relevant": True, "requires_visual": True,
@@ -176,7 +185,7 @@ def test_v3_rejects_long_or_multiple_authored_cloze(tmp_path):
         "The answer is {{c2::portal vein}}.",
     ]:
         data = {
-            "metadata": {"uc": "UC", "nome_curto": "Aula"},
+            "metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"},
             "cards": [{"card_key": "bad", "concept_id": "b", "atomic": True, "relevant": True, **authored(bad_text)}],
         }
         spec = tmp_path / "deck.json"; spec.write_text(json.dumps(data), encoding="utf-8")
@@ -188,7 +197,32 @@ def test_v3_rejects_duplicate_card_keys(tmp_path):
     a = {"card_key": "same", "concept_id": "a", "atomic": True, "relevant": True, **authored()}
     b = {"card_key": "same", "concept_id": "b", "atomic": True, "relevant": True, **authored("The colon contains {{c1::haustra}}.")}
     spec = tmp_path / "deck.json"
-    spec.write_text(json.dumps({"metadata": {"uc": "UC", "nome_curto": "Aula"}, "cards": [a, b]}), encoding="utf-8")
+    spec.write_text(json.dumps({"metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"}, "cards": [a, b]}), encoding="utf-8")
     proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))
     assert proc.returncode != 0
     assert "duplicado" in (proc.stderr + proc.stdout)
+
+
+def test_v3_rejects_target_deck_override_that_differs_from_metadata(tmp_path):
+    spec = tmp_path / "deck.json"
+    spec.write_text(json.dumps({
+        "metadata": {"uc": "uc3", "prova": "p01", "componente": "Imunologia", "nome_curto": "Reconhecimento inato"},
+        "target_deck": "NEBLI::nome::errado",
+        "cards": [{"card_key": "a", "concept_id": "a", "atomic": True, "relevant": True, **authored()}],
+    }), encoding="utf-8")
+    proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))
+    assert proc.returncode != 0
+    assert "divergente" in (proc.stderr + proc.stdout)
+
+
+def test_v3_direct_authored_requires_completed_anking_search(tmp_path):
+    card = {"card_key": "a", "concept_id": "a", "atomic": True, "relevant": True, **authored()}
+    card.pop("anking_search_complete")
+    spec = tmp_path / "deck.json"
+    spec.write_text(json.dumps({
+        "metadata": {"uc": "UC03", "prova": "P1", "componente": "Imunologia", "nome_curto": "Reconhecimento inato"},
+        "cards": [card],
+    }), encoding="utf-8")
+    proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))
+    assert proc.returncode != 0
+    assert "anking_search_complete" in (proc.stderr + proc.stdout)

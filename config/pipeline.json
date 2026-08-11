@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v6",
+  "pipeline_version": "e1-deck-v7",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -41,6 +41,9 @@
       "max_candidates": 80,
       "prefer_anking": true,
       "require_anking_marker_for_anking_source": true,
+      "source_filter_is_hint": true,
+      "separate_note_context_from_expected_answer": true,
+      "direct_authored_requires_completed_anking_search": true,
       "external_deck_may_use_source_filter": true,
       "ambiguous_policy": "use_validated_fallback"
     },
