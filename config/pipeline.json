@@ -1,36 +1,48 @@
 {
-  "pipeline_version": "e1-deck-v5",
+  "pipeline_version": "e1-deck-v6",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
   "generate_e3": false,
   "generate_remnote": false,
   "anki_backend": "ankidroid",
-  "anki_backend_fallback": "desktop",
+  "normal_flow_desktop_fallback": false,
+  "emergency_desktop_fallback_only_if_explicitly_requested": true,
   "ankidroid": {
-    "manifest_schema": "nebli-ankidroid-lesson-v2",
-    "legacy_manifest_schema": "nebli-ankidroid-v1",
-    "resolution_mode": "concepts_local",
+    "manifest_schema": "nebli-ankidroid-deck-v3",
+    "legacy_manifest_schemas": ["nebli-ankidroid-lesson-v2", "nebli-ankidroid-v1"],
+    "full_deck_direct_install": true,
+    "resolution_mode": "local_anking_with_validated_fallbacks",
+    "authored_direct_install": true,
+    "image_occlusion_direct_install": true,
+    "self_contained_new_media": true,
+    "open_ankidroid_after_install": true,
+    "select_target_deck_after_install": true,
     "write_prefix": "NEBLI::",
-    "copy_mode": "exact_fields",
-    "preserve_note_type": true,
+    "optional_subdeck_suffix": "::Optional",
+    "preserve_source_note_type": true,
+    "preserve_source_fields": true,
+    "preserve_source_tags": true,
     "preserve_media_refs": true,
     "reset_scheduling": true,
     "selected_sibling_policy": "suspend_unselected",
     "mutate_source": false,
+    "rollback_new_notes_on_partial_failure": true,
     "require_install_receipt": true,
+    "require_installed_equals_expected": true,
     "ranking": {
       "min_score": 0.82,
       "min_margin": 0.06,
       "max_candidates": 80,
       "prefer_anking": true,
-      "require_anking_marker": false,
-      "ambiguous_policy": "leave_unresolved"
+      "require_anking_marker": true,
+      "ambiguous_policy": "use_validated_fallback"
     },
     "final_validation": {
       "mode": "every_card",
       "required_pass_fraction": 1.0,
       "require_expected_equals_validated": true,
+      "require_installed_equals_validated": true,
       "block_on_any_failure": true,
       "validator": "flashcards/scripts/validar_deck_card_a_card.py",
       "ci_reference_deck_size": 40
@@ -38,10 +50,9 @@
   },
   "require_offline_apkg": false,
   "require_apkg_audit": false,
-  "desktop_fallback_require_offline_apkg": true,
-  "desktop_fallback_require_apkg_audit": true,
   "require_e1_anchor_for_every_card": true,
   "source_priority": ["anking", "external_deck", "authored"],
+  "card_quality_contract": "docs/canon/CARD-QUALITY.md",
   "card_budget": {
     "enforce_contract_hard_max": true,
     "sanity_ranges": {
@@ -51,16 +62,29 @@
     },
     "manual_review_above": 60
   },
+  "authored_cards": {
+    "front_language": "en",
+    "extra_language": "pt-BR",
+    "retrievals_per_card": 1,
+    "cloze_occurrences_per_card": 1,
+    "cloze_index": 1,
+    "max_front_characters": 360,
+    "max_extra_words": 100
+  },
   "cloze_answer_words": {
     "preferred": 1,
     "allowed": 2,
     "exceptional": 3,
-    "hard_max": 3
+    "hard_max": 3,
+    "require_reason_for_three": true
   },
   "image_occlusion": {
     "multi_label_mode": "hide_all_guess_all",
     "mask_answer_label_not_visual_target": true,
-    "require_question_and_answer_previews": true
+    "require_coherent_set_for_multiple_masks": true,
+    "require_question_and_answer_previews": true,
+    "require_real_source": true,
+    "block_answer_leak": true
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,

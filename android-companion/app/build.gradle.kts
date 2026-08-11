@@ -10,8 +10,8 @@ android {
         applicationId = "com.sodrius.nebli.companion"
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
     }
 
     buildTypes {
@@ -27,5 +27,6 @@ android {
 }
 
 dependencies {
+    implementation("androidx.core:core:1.15.0")
     testImplementation("junit:junit:4.13.2")
 }

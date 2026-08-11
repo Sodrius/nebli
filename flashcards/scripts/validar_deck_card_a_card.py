@@ -1,43 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Gate final card-a-card para decks NEBLI/AnkiDroid.
+"""Hard gate card-a-card para o Deck-Aula NEBLI.
 
-Valida o lote REAL produzido pela aula. Não trabalha por amostragem: todo card
-previsto deve ter um registro em ``cards`` e todo registro precisa passar seus
-gates. O processo retorna código != 0 se houver qualquer falha.
-
-Formato mínimo do relatório:
-{
-  "expected_card_count": 40,
-  "cards": [
-    {
-      "card_key": "concept-01:nid-123:ord-0",
-      "concept_id": "concept-01",
-      "source": "anking",
-      "selected": true,
-      "atomic": true,
-      "relevant": true,
-      "source_safe": true,
-      "same_note_type": true,
-      "same_fields": true,
-      "media_ok": true,
-      "sibling_policy_ok": true,
-      "visual_ok": true,
-      "score": 0.94,
-      "second_score": 0.71,
-      "exact_phrase": true
-    }
-  ]
-}
-
-Para cards autorais/IO, campos específicos de cópia AnKing podem ser omitidos,
-mas os gates de atomicidade, relevância e visual continuam obrigatórios.
+Nunca usa amostragem. Cada card real do plano final precisa ter um registro e
+passar as regras aplicáveis à sua fonte. Retorna código != 0 em qualquer falha.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import sys
 from pathlib import Path
 from typing import Any
 
@@ -47,9 +18,7 @@ DEFAULT_MIN_MARGIN = 0.06
 
 def _bool(card: dict[str, Any], key: str, *, default: bool | None = None) -> bool:
     if key not in card:
-        if default is None:
-            return False
-        return default
+        return False if default is None else default
     return card.get(key) is True
 
 
@@ -68,6 +37,54 @@ def _anking_rank_ok(card: dict[str, Any], min_score: float, min_margin: float) -
     return score - second >= min_margin
 
 
+def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
+    if str(card.get("front_language", "")).lower() != "en":
+        failures.append("front_language_not_en")
+    if str(card.get("extra_language", "")).lower() not in {"pt", "pt-br"}:
+        failures.append("extra_language_not_pt")
+    if int(card.get("cloze_count", 0)) != 1:
+        failures.append("cloze_count_must_be_1")
+    if int(card.get("cloze_index", 0)) != 1:
+        failures.append("cloze_index_must_be_c1")
+    words = int(card.get("cloze_words", 0))
+    if words < 1:
+        failures.append("cloze_words<1")
+    if words > 3:
+        failures.append("cloze_words>3")
+    if words == 3 and not str(card.get("three_word_cloze_reason", "")).strip():
+        failures.append("three_word_cloze_without_reason")
+    if int(card.get("extra_words", 0)) > 100:
+        failures.append("extra_words>100")
+    if int(card.get("front_characters", 0)) > 360:
+        failures.append("front_characters>360")
+    if _bool(card, "multi_retrieval", default=False):
+        failures.append("multi_retrieval")
+
+
+def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
+    if card.get("mode") != "hide_all_guess_all":
+        failures.append("io_mode")
+    mask_count = int(card.get("mask_count", 0))
+    if mask_count < 1:
+        failures.append("mask_count<1")
+    if mask_count > 1 and not _bool(card, "coherent_set"):
+        failures.append("multi_mask_not_coherent")
+    for key in (
+        "masks_labels_not_structures",
+        "question_preview_validated",
+        "answer_preview_validated",
+        "visual_ok",
+        "real_source",
+        "media_ok",
+    ):
+        if not _bool(card, key):
+            failures.append(key)
+    if _bool(card, "answer_leak", default=True):
+        failures.append("answer_leak")
+    if not _bool(card, "mask_geometry_ok"):
+        failures.append("mask_geometry_ok")
+
+
 def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> list[str]:
     failures: list[str] = []
     source = str(card.get("source", "")).lower()
@@ -76,27 +93,41 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
         if not card.get(key):
             failures.append(f"missing:{key}")
 
-    for key in ("selected", "atomic", "relevant", "source_safe"):
+    for key in ("selected", "atomic", "relevant", "e1_anchor_ok"):
         if not _bool(card, key):
             failures.append(key)
 
-    if not _anking_rank_ok(card, min_score, min_margin):
-        failures.append("anking_rank")
+    if str(card.get("tier", "")) not in {"nucleo", "optional"}:
+        failures.append("invalid_tier")
 
-    if source in {"anking", "external_deck"}:
-        for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok"):
+    if source == "anking":
+        if not _bool(card, "source_safe"):
+            failures.append("source_safe")
+        if not _anking_rank_ok(card, min_score, min_margin):
+            failures.append("anking_rank")
+        for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok", "fallback_validated"):
             if not _bool(card, key):
                 failures.append(key)
-
-    # visual_ok é obrigatório quando o card declara necessidade visual/IO.
-    if card.get("requires_visual") or source == "io":
-        if not _bool(card, "visual_ok"):
+        if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 
-    # Cloze autoral: máximo canônico de 3 palavras por lacuna.
-    if source == "authored" and card.get("cloze_words") is not None:
-        if int(card["cloze_words"]) > 3:
-            failures.append("cloze_words>3")
+    elif source == "external_deck":
+        for key in ("source_safe", "same_note_type", "same_fields", "media_ok", "sibling_policy_ok"):
+            if not _bool(card, key):
+                failures.append(key)
+        if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
+            failures.append("visual_ok")
+
+    elif source == "authored":
+        _validate_authored(card, failures)
+        if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
+            failures.append("visual_ok")
+
+    elif source == "io":
+        _validate_io(card, failures)
+
+    else:
+        failures.append("unsupported_source")
 
     return failures
 
@@ -107,12 +138,15 @@ def validate_report(data: dict[str, Any], min_score: float, min_margin: float) -
         raise ValueError("relatório sem lista cards")
 
     expected = int(data.get("expected_card_count", len(cards)))
+    hard_max = int(data.get("card_budget_hard_max", expected))
     result: dict[str, Any] = {
         "expected_card_count": expected,
+        "card_budget_hard_max": hard_max,
         "validated_card_count": len(cards),
         "passed_card_count": 0,
         "failed_card_count": 0,
         "all_cards_validated": expected == len(cards),
+        "within_card_budget": expected <= hard_max,
         "cards": [],
     }
 
@@ -133,7 +167,9 @@ def validate_report(data: dict[str, Any], min_score: float, min_margin: float) -
         result["failed_card_count"] += int(not ok)
 
     result["ok"] = (
-        result["all_cards_validated"]
+        expected > 0
+        and result["all_cards_validated"]
+        and result["within_card_budget"]
         and result["failed_card_count"] == 0
         and result["passed_card_count"] == expected
     )
