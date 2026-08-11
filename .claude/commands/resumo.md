@@ -20,6 +20,7 @@ Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/PIPELINE-E1-DECK.md`,
 - `pipeline_version=e1-deck-v5`;
 - backend preferido `ankidroid`;
 - manifest `nebli-ankidroid-lesson-v2`;
+- validação final `mode=every_card` e aprovação obrigatória de 100%;
 - E2, E3 e RemNote desligados;
 - 25 novos/dia;
 - teto de cards, cloze 1/2/3 palavras e IO multi-rótulo `hide_all_guess_all`.
@@ -113,16 +114,45 @@ Até o Companion suportar note types autorais/IO nativamente, esses itens usam o
 backend desktop/APKG como fallback **somente para as lacunas**, sem recolocar o
 AnKing inteiro no fluxo antigo.
 
-## 9. Revisão independente
+## 9. Validação obrigatória card a card
 
-Com E1, manifesto, recibo e eventuais autorais/IO completos, podem rodar
-`revisor-cobertura`, `revisor-cards-visual` e os auditores aplicáveis. Eles não
-editam. A sessão principal lê os relatórios e aplica correções.
+Depois de resolver AnKing e fechar autorais/IO, gere
+`arquivos-trabalho/<slug>/validacao-cards.json` contendo **um registro para cada
+card real do deck final**. `expected_card_count` deve ser exatamente o total final
+do contrato; não use amostra.
 
-## 10. Gates finais
+Para cada card registre, conforme a fonte: `card_key`, `concept_id`, `source`,
+`selected`, `atomic`, `relevant`, `source_safe`, score/margem da seleção AnKing,
+`same_note_type`, `same_fields`, `media_ok`, `sibling_policy_ok`, `cloze_words`,
+`requires_visual` e `visual_ok`.
+
+Execute obrigatoriamente:
+
+```bash
+python flashcards/scripts/validar_deck_card_a_card.py \
+  arquivos-trabalho/<slug>/validacao-cards.json \
+  --out arquivos-trabalho/<slug>/validacao-cards.result.json
+```
+
+O gate passa somente se `validated_card_count == expected_card_count`,
+`failed_card_count == 0` e `passed_card_count == expected_card_count`. Um único
+card com falha bloqueia a instalação/entrega até ser corrigido. O CI usa 40 cards
+como regressão de porte médio, mas numa corrida real o número validado é o número
+real do deck, qualquer que seja ele.
+
+## 10. Revisão independente
+
+Com E1, manifesto, recibo, autorais/IO e validação card a card completos, podem
+rodar `revisor-cobertura`, `revisor-cards-visual` e os auditores aplicáveis. Eles
+não editam. A sessão principal lê os relatórios e aplica correções; depois roda o
+gate card a card novamente sobre o lote corrigido.
+
+## 11. Gates finais
 
 Bloqueie se houver:
 
+- qualquer card sem registro de validação;
+- qualquer registro `ok=false` no gate card a card;
 - conceito nuclear sem card real ou lacuna explicitamente tratada;
 - seleção AnKing de baixa confiança;
 - fonte modificada;
@@ -132,14 +162,17 @@ Bloqueie se houver:
 - IO com máscara/pista errada;
 - mídia quebrada;
 - card órfão da E1;
-- `unresolved` ignorado.
+- `unresolved` ignorado;
+- total instalado diferente do total validado.
 
-O número final de cards não pode exceder o contrato.
+A instalação só é considerada concluída quando o recibo do Companion confirma o
+mesmo número de cards que passou no gate card a card.
 
-## 11. Entrega
+## 12. Entrega
 
 Entregue primeiro E1/PDF, depois o manifesto AnkiDroid v2 e o relatório final com
-conceitos resolvidos/pendentes, cards por fonte, decisões visuais, autorais/IO e
-auditoria. O fluxo preferido no tablet é abrir o manifesto no Nebli Companion e
-deixar a resolução/cópia AnKing ocorrer localmente. Configure 25 novos/dia e
-9999 revisões/dia. Nunca marque concluído só porque comandos foram executados.
+conceitos resolvidos/pendentes, cards por fonte, decisões visuais, autorais/IO,
+`validacao-cards.result.json` e recibo de instalação. O fluxo preferido no tablet
+é abrir o manifesto no Nebli Companion e deixar a resolução/cópia AnKing ocorrer
+localmente. Configure 25 novos/dia e 9999 revisões/dia. Nunca marque concluído só
+porque comandos foram executados.
