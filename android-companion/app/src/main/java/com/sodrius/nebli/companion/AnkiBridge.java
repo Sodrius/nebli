@@ -68,16 +68,19 @@ public final class AnkiBridge {
 
     public List<NoteSnapshot> searchNotes(String query, int limit, boolean excludeNebliCopies) {
         List<NoteSnapshot> out = new ArrayList<>();
-        try (Cursor c = cr.query(NOTES, new String[]{"_id", "mid", "flds", "tags"}, query, null, null)) {
-            if (c == null) throw new IllegalStateException("AnkiDroid não respondeu à busca");
+        // Query only IDs first. Asking the provider for every AnKing field in the
+        // initial cursor can exhaust the Companion process on multi-gigabyte
+        // collections before our logical candidate limit is applied.
+        try (Cursor c = cr.query(NOTES, new String[]{"_id"}, query, null, null)) {
+            if (c == null) return out;
             int id = c.getColumnIndexOrThrow("_id");
-            int mid = c.getColumnIndexOrThrow("mid");
-            int flds = c.getColumnIndexOrThrow("flds");
-            int tags = c.getColumnIndexOrThrow("tags");
-            while (c.moveToNext() && out.size() < limit) {
-                String t = c.getString(tags);
-                if (excludeNebliCopies && t != null && t.contains("NEBLI::")) continue;
-                out.add(new NoteSnapshot(c.getLong(id), c.getLong(mid), c.getString(flds), t));
+            int scanned = 0;
+            int scanLimit = SearchQueryPolicy.scanLimit(limit);
+            while (c.moveToNext() && out.size() < limit && scanned++ < scanLimit) {
+                NoteSnapshot note = readNote(c.getLong(id));
+                if (note == null) continue;
+                if (excludeNebliCopies && note.tags != null && note.tags.contains("NEBLI::")) continue;
+                out.add(note);
             }
         }
         return out;

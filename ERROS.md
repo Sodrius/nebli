@@ -70,3 +70,6 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     abortar a aula inteira: a busca vira `unresolved` e usa o fallback validado
     daquele card. O planejamento é somente leitura e precisa terminar antes da
     criação do deck, para nenhuma falha deixar deck vazio.
+32. Nunca consultar campos completos da coleção inteira para buscar AnKing. A
+    busca deve incluir o deck-fonte, obter IDs primeiro e hidratar somente o
+    pool limitado; coleções de vários GB podem derrubar o processo Android.

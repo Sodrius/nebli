@@ -99,9 +99,9 @@ public class LessonActivity extends Activity {
                 return;
             }
             runManifestAsync(m);
-        } catch (Exception e) {
+        } catch (Throwable e) {
             pendingManifest = null;
-            status.setText("Deck-Aula inválido: " + e.getMessage());
+            status.setText("Deck-Aula inválido: " + errorText(e));
         }
     }
 
@@ -111,15 +111,17 @@ public class LessonActivity extends Activity {
         new Thread(() -> {
             JSONObject receipt;
             try {
-                FullDeckInstaller installer = new FullDeckInstaller(this);
+                FullDeckInstaller installer = new FullDeckInstaller(this, stage ->
+                        runOnUiThread(() -> status.setText(stage)));
                 receipt = installer.install(manifest);
-            } catch (Exception e) {
+            } catch (Throwable e) {
+                if (e instanceof OutOfMemoryError) System.gc();
                 receipt = new JSONObject();
                 try {
                     receipt.put("ok", false);
-                    receipt.put("fatal_error", e.toString());
+                    receipt.put("fatal_error", errorText(e));
                     receipt.put("lesson_slug", manifest.optString("lesson_slug", "unknown"));
-                } catch (Exception ignored) {}
+                } catch (Throwable ignored) {}
             }
             writeReceipt(receipt);
             JSONObject finalReceipt = receipt;
@@ -197,6 +199,12 @@ public class LessonActivity extends Activity {
             try (FileOutputStream out = new FileOutputStream(f)) {
                 out.write((receipt.toString(2) + "\n").getBytes(StandardCharsets.UTF_8));
             }
-        } catch (Exception ignored) {}
+        } catch (Throwable ignored) {}
+    }
+
+    private static String errorText(Throwable e) {
+        String name = e == null ? "Erro desconhecido" : e.getClass().getSimpleName();
+        String message = e == null ? "" : e.getMessage();
+        return message == null || message.isBlank() ? name : name + ": " + message;
     }
 }

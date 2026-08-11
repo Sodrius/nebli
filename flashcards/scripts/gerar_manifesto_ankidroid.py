@@ -272,7 +272,8 @@ def _prepare_fallback(
 
 
 def _prepare_v3_card(
-    raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]]
+    raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]],
+    anking_source_filter: str,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
@@ -298,6 +299,8 @@ def _prepare_v3_card(
         if isinstance(aliases, str):
             aliases = [aliases]
         card["aliases"] = [str(x).strip() for x in aliases if str(x).strip()]
+        if source == "anking" and not str(card.get("source_filter") or "").strip():
+            card["source_filter"] = anking_source_filter
         fallback = card.get("fallback")
         if not isinstance(fallback, dict):
             raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
@@ -346,8 +349,11 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         raise ValueError("target deck deve começar por NEBLI::")
 
     media: dict[str, dict[str, Any]] = {}
+    anking_source_filter = str(
+        data.get("anking_source_filter") or 'deck:"AnKing Step Deck"'
+    ).strip()
     cards = [
-        _prepare_v3_card(x, i, source_path.parent, media)
+        _prepare_v3_card(x, i, source_path.parent, media, anking_source_filter)
         for i, x in enumerate(raw_cards)
         if isinstance(x, dict)
     ]
