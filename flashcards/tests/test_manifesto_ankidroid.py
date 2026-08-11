@@ -146,6 +146,7 @@ def test_v3_builds_complete_self_contained_deck_and_canonical_name(tmp_path):
     assert manifest["search"]["require_anking_marker"] is True
     assert manifest["search"]["ambiguous_policy"] == "use_validated_fallback"
     assert manifest["cards"][0]["fallback"]["source"] == "authored"
+    assert manifest["cards"][0]["source_filter"] == 'deck:"AnKing Step Deck"'
     assert len(manifest["media"]) == 1
     assert manifest["cards"][2]["media_key"] == manifest["media"][0]["key"]
     assert "image_path" not in manifest["cards"][2]
