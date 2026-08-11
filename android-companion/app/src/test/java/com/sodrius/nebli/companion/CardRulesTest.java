@@ -80,13 +80,13 @@ public class CardRulesTest {
     public void goodIoPassesAndBadGeometryFails() {
         double[][] good = new double[][]{{0.1, 0.2, 0.2, 0.08}, {0.6, 0.4, 0.15, 0.06}};
         List<String> ok = CardRules.validateIo(
-                "hide_all_guess_all", 2, true, true, true, true, true, false, true, good
+                "hide_two_guess_two", 2, true, true, true, true, true, false, true, good
         );
         assertTrue(ok.toString(), ok.isEmpty());
 
         double[][] bad = new double[][]{{0.9, 0.2, 0.2, 0.08}};
         List<String> failures = CardRules.validateIo(
-                "hide_all_guess_all", 1, true, true, true, true, true, false, true, bad
+                "hide_two_guess_two", 1, true, true, true, true, true, false, true, bad
         );
         assertTrue(failures.contains("mask_out_of_bounds:0"));
     }
@@ -95,9 +95,18 @@ public class CardRulesTest {
     public void ioAnswerLeakAndWrongMaskPolicyFail() {
         double[][] box = new double[][]{{0.1, 0.1, 0.2, 0.1}};
         List<String> failures = CardRules.validateIo(
-                "hide_all_guess_all", 1, false, true, true, true, true, true, true, box
+                "hide_two_guess_two", 1, false, true, true, true, true, true, true, box
         );
         assertTrue(failures.contains("io_must_mask_answer_label_not_visual_target"));
         assertTrue(failures.contains("answer_leak"));
+    }
+
+    @Test
+    public void hideTwoRejectsMoreThanTwoMasks() {
+        double[][] boxes = new double[][]{
+                {0.1, 0.1, 0.1, 0.1}, {0.3, 0.1, 0.1, 0.1}, {0.5, 0.1, 0.1, 0.1}};
+        List<String> failures = CardRules.validateIo(
+                "hide_two_guess_two", 3, true, true, true, true, true, false, true, boxes);
+        assertTrue(failures.contains("hide_two_guess_two_max_two_masks"));
     }
 }

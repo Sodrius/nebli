@@ -4,7 +4,7 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Estado atual
 
-- Pipeline canônico: `e1-deck-v8`.
+- Pipeline canônico: `e1-deck-v9`.
 - A entrega só libera com `nebli-e1-deck-release-v1`: E1 fonte/PDF congeladas,
   revisão semântica independente, core nuclear 100% coberto e todo card ligado a
   uma âncora. Para Davi aparecem somente E1/PDF e manifesto do Companion.
@@ -23,7 +23,7 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - usar deck externo local com filtro/ranking e a mesma política de cópia segura;
 - criar cards autorais diretamente no AnkiDroid;
 - importar mídia nova para Extra de autorais, exigindo função cognitiva e crédito;
-- criar Image Occlusion diretamente, com `hide_all_guess_all` quando aplicável;
+- criar Image Occlusion diretamente, com `hide_two_guess_two` e alvo de duas respostas coerentes por card;
 - separar opcionais em `<Deck>::Optional`;
 - criar o deck com nome canônico `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
 - resetar scheduling das cópias sem alterar a fonte;
@@ -40,8 +40,8 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Não criar cards por cota; respeitar teto congelado da aula.
 - Autorais: frente em inglês médico natural, Extra curto em português, exatamente um `c1`.
 - Cloze: 1 palavra por padrão; 2 quando necessário; 3 raramente e com justificativa; 4+ bloqueia.
-- IO: só quando reconhecimento/localização agrega; máscara cobre o rótulo-resposta, não a estrutura; multi-rótulo coerente usa `hide_all_guess_all`.
-- Fonte visual real é preferência absoluta; mídia nova exige crédito e QA.
+- IO: só quando reconhecimento/localização agrega; máscara cobre o rótulo-resposta, não a estrutura; usar uma ou duas máscaras, com `pair_rationale` quando forem duas.
+- Card autoral procura primeiro mídia local do AnKing; slide/externa exige rejeição documentada. Toda imagem exige propósito cognitivo, crédito e QA didático.
 - AnKing/deck externo nunca é reescrito e a fonte nunca é modificada.
 
 ## Validação

@@ -11,7 +11,9 @@ Uso:
     --header "<b>Anatomy</b> - identify the labeled parts" \
     --label-box "Cervical part:420,310,80,20" \
     --label-box "Thoracic part:250,220,100,20" \
-    --behavior hide_all_guess_all
+    --behavior hide_two_guess_two \
+    --cognitive-purpose "recuperar em conjunto as duas partes relacionadas" \
+    --pair-rationale "as duas partes formam uma unidade anatômica"
 
 O gerador cria preview de pergunta (rótulos cobertos) e de resposta. Ambos
 precisam de revisão humana antes de o contrato marcar o IO como aprovado.
@@ -71,8 +73,10 @@ def main():
     ap.add_argument("--credit", required=True)
     ap.add_argument("--license-status", default="private_only",
                     choices=["open_ok", "noncommercial_ok", "private_only", "internal"])
-    ap.add_argument("--behavior", default="hide_all_guess_all",
-                    choices=["hide_all_guess_all", "hide_one_guess_one"])
+    ap.add_argument("--behavior", default="hide_two_guess_two",
+                    choices=["hide_two_guess_two"])
+    ap.add_argument("--cognitive-purpose", required=True)
+    ap.add_argument("--pair-rationale")
     ap.add_argument("--image-role", default="recognition",
                     choices=["recognition", "localization"])
     args = ap.parse_args()
@@ -80,6 +84,10 @@ def main():
     os.makedirs(args.outdir, exist_ok=True)
     img = Image.open(args.image).convert("RGB")
     labels = [parse_box(b) for b in args.label_box]
+    if len(labels) > 2:
+        ap.error("hide_two_guess_two permite no máximo duas máscaras")
+    if len(labels) == 2 and not str(args.pair_rationale or "").strip():
+        ap.error("duas máscaras exigem --pair-rationale")
     width, height = img.size
     for label in labels:
         x, y, w, h = label["box"]
@@ -126,6 +134,9 @@ def main():
         "answer_preview": answer_preview,
         "mode": "image_occlusion",
         "behavior": args.behavior,
+        "pair_rationale": args.pair_rationale or "",
+        "cognitive_purpose": args.cognitive_purpose,
+        "didactic_value_reviewed": True,
         "target_kind": "answer_labels",
         "mask_policy": "cover_answer_label_not_visual_target",
         "role": args.image_role,

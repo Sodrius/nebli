@@ -22,7 +22,7 @@ LESSON_SIZES = {"small", "medium", "large"}
 CARD_FORMATS = {"cloze", "basic", "image_occlusion"}
 ATOMICITY_DECISIONS = {"approved", "exception"}
 ATOMICITY_EXCEPTIONS = {"coherent_visual_map"}
-IO_BEHAVIORS = {"hide_all_guess_all", "hide_one_guess_one"}
+IO_BEHAVIORS = {"hide_two_guess_two"}
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.I)
 
 
@@ -150,6 +150,8 @@ def _card_errors(card: dict, known_concepts: set[str], base: Path) -> tuple[list
         if not isinstance(masks, list) or not masks:
             errors.append(prefix + "IO exige masks[]")
             masks = []
+        if len(masks) > 2:
+            errors.append(prefix + "IO hide_two_guess_two permite no máximo duas máscaras")
         for index, mask in enumerate(masks, start=1):
             label = str(mask.get("label", "")).strip()
             if not label:
@@ -160,10 +162,12 @@ def _card_errors(card: dict, known_concepts: set[str], base: Path) -> tuple[list
             if mask.get("covers") != "answer_label":
                 errors.append(prefix + f"máscara {index} deve cobrir answer_label")
         if len(masks) > 1:
-            if behavior != "hide_all_guess_all":
-                errors.append(prefix + "IO multi-rótulo exige hide_all_guess_all")
+            if behavior != "hide_two_guess_two":
+                errors.append(prefix + "IO com duas respostas exige hide_two_guess_two")
             if decision != "exception" or atomicity.get("exception") != "coherent_visual_map":
                 errors.append(prefix + "IO multi-rótulo exige exceção coherent_visual_map")
+            if not str(io.get("pair_rationale", "")).strip():
+                errors.append(prefix + "IO com duas respostas exige pair_rationale")
         qa = io.get("qa") or {}
         for key in ("masks_cover_answer_labels", "visual_clues_remain_visible",
                     "all_answers_hidden", "all_duplicate_labels_masked",

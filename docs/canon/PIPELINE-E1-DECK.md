@@ -1,4 +1,4 @@
-# Pipeline canônico E1 + Deck-Aula — v8
+# Pipeline canônico E1 + Deck-Aula — v9
 
 ## Definição de pronto
 
@@ -27,13 +27,17 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
    escopo: conteúdo aceito entra na E1 antes do card e somente então a E1 é
    congelada.
 11. Definir plano visual antes de fechar cada card:
+    - card autoral procura primeiro mídia AnKing local;
     - reconhecimento/localização → IO/prompt visual;
     - mecanismo → imagem no Extra quando agrega;
     - verbal → `none`.
+    Slide/fonte externa só entra após busca visual AnKing documentada; toda
+    imagem precisa de propósito cognitivo e revisão didática.
 12. Autorais só para lacunas reais. Seguir integralmente
     `docs/canon/CARD-QUALITY.md`.
-13. IO precisa de fonte real, máscara correta, geometria, preview de pergunta e
-    resposta, ausência de vazamento e QA visual.
+13. IO usa `hide_two_guess_two`, com alvo de duas respostas coerentes (uma é
+    permitida, mais de duas não), fonte real, máscara correta, geometria,
+    `pair_rationale`, preview de pergunta/resposta, ausência de vazamento e QA.
 14. Produzir `arquivos-trabalho/<slug>/deck-data.json` com **todos os cards
     finais**. Cada card tem `card_key`, `concept_id`, `source`, `tier`,
     `atomic=true`, `relevant=true` e os campos específicos da fonte.
@@ -66,9 +70,11 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
       necessário;
     - copia literal quando confiável;
     - usa fallback validado quando a busca é ausente/ambígua;
-    - instala autorais e IO diretamente;
+    - instala autorais e IO diretamente, reutilizando mídia AnKing quando
+      selecionada;
     - separa `::Optional`;
-    - verifica fonte, siblings, render e contagem;
+    - compara referências de mídia esperadas com o render real, além de fonte,
+      siblings e contagem;
     - faz rollback das notas novas se houver falha parcial;
     - seleciona o deck correto e abre o AnkiDroid.
 21. O recibo final precisa provar:
@@ -98,7 +104,7 @@ Bloqueiam a conclusão:
 - AnKing sem fallback no plano final;
 - autoral com mais de uma recuperação/cloze ou cloze longo;
 - IO incorreto ou visual obrigatório ausente;
-- mídia quebrada;
+- mídia quebrada, não renderizada, decorativa ou sem valor didático;
 - total validado diferente do esperado;
 - total instalado diferente do esperado;
 - fonte AnKing modificada;

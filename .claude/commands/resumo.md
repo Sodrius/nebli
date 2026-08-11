@@ -3,7 +3,7 @@ description: Gera E1 + Deck-Aula completo e diretamente instalável no AnkiDroid
 argument-hint: <slug> <slide.pdf> [UC] [Prova] [Componente] [Nome curto]
 ---
 
-# /resumo — pipeline E1 + Deck-Aula v8
+# /resumo — pipeline E1 + Deck-Aula v9
 
 Argumentos: $ARGUMENTS
 
@@ -18,7 +18,7 @@ Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
 `docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
 canônicos. Confirme em `config/pipeline.json`:
 
-- `pipeline_version=e1-deck-v8`;
+- `pipeline_version=e1-deck-v9`;
 - backend `ankidroid`;
 - schema `nebli-ankidroid-deck-v3`;
 - instalação direta de AnKing + autorais + IO;
@@ -118,7 +118,7 @@ O fallback cobre lacuna ou ambiguidade real. Se `anking_required=true`, falha
 técnica de busca bloqueia o lote: não converter silenciosamente um AnKing já
 validado em autoral.
 
-No fluxo v8, todo card planejado como `source="anking"` já é curado e portanto
+No fluxo v9, todo card planejado como `source="anking"` já é curado e portanto
 usa obrigatoriamente `anking_required=true`.
 
 ## 6. Autorais — contrato rígido
@@ -150,15 +150,17 @@ bom card por si só.
 
 Defina decisão visual para cada recuperação antes de fechar o card.
 
-Prioridade: mídia AnKing adequada → fonte externa/real adequada → slide quando é
-a fonte útil da própria aula. Imagem decorativa não entra.
+Prioridade: mídia AnKing adequada — inclusive reutilizada em card autoral — →
+fonte externa/real adequada → slide quando é a fonte útil da própria aula.
+Slide/externa exige busca visual AnKing e rejeição concreta. Toda imagem declara
+propósito cognitivo e revisão de valor didático. Imagem decorativa não entra.
 
 Para IO:
 
 - usar apenas quando reconhecimento/localização agrega;
-- `mode=hide_all_guess_all` para mapa coerente;
+- `mode=hide_two_guess_two`, em geral duas respostas coerentes e nunca mais de duas;
 - máscara cobre o **rótulo-resposta**, não a estrutura;
-- múltiplas máscaras somente se formarem conjunto coerente;
+- duas máscaras somente se formarem conjunto coerente e tiverem `pair_rationale`;
 - coordenadas normalizadas dentro de `[0,1]`;
 - `question_preview_validated=true`;
 - `answer_preview_validated=true`;
@@ -196,7 +198,7 @@ Inclua `release_gate=nebli-e1-deck-release-v1` com E1 fonte/PDF e hashes,
 `card_budget_hard_max`, revisão semântica e `concepts[]`. Cada conceito registra
 importância, âncora literal, qualidade 0–3, `card_keys` e decisão Step 1. O
 gerador recusa qualquer deck sem esse bloco aprovado. Use
-`flashcards/schemas/deck-data-v8.example.json` como forma canônica.
+`flashcards/schemas/deck-data-v9.example.json` como forma canônica.
 
 Conte cards reais e confirme que o total está ≤ `card_budget.hard_max`.
 

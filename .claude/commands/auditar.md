@@ -22,5 +22,5 @@ nuclear, âncoras E1, limite do Step 1, origem/GUID, mídia, máscaras, vazament
 subdeck Optional, modelos, total real versus teto, atomicidade, clozes de 1/2/3
 palavras e importabilidade. Para IO, confira que a pergunta cobre os
 rótulos-resposta, mantém as estruturas visíveis e que mapas multi-rótulo usam
-`hide_all_guess_all`. A auditoria não edita; a sessão
+`hide_two_guess_two`, no máximo duas respostas e `pair_rationale` quando houver duas. A auditoria não edita; a sessão
 principal aplica correções e roda o gate novamente.

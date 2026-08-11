@@ -143,20 +143,20 @@ public final class FullDeckInstaller {
                         throw new IllegalStateException(source + " unresolved sem fallback: " + card.optString("card_key"));
                     }
                     fallback = inheritIdentity(card, fallback);
-                    p = planLocal(fallback);
+                    p = planLocal(fallback, search);
                     p.resolutionStatus = "fallback_after_" + source + "_" + resolution.reason;
                     p.candidateCount = resolution.candidateCount;
                     p.attemptedQueries.addAll(resolution.attemptedQueries);
                 }
             } else {
-                p = planLocal(card);
+                p = planLocal(card, search);
             }
             out.add(p);
         }
         return out;
     }
 
-    private Plan planLocal(JSONObject card) throws Exception {
+    private Plan planLocal(JSONObject card, JSONObject search) throws Exception {
         String source = card.getString("source").toLowerCase(Locale.ROOT);
         Plan p = new Plan(card);
         p.actualSource = source;
@@ -169,6 +169,7 @@ public final class FullDeckInstaller {
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " authored gate: " + failures);
             p.mediaKeys.addAll(stringList(card.optJSONArray("media_keys")));
+            resolveAnkingMediaRefs(p, search);
             p.resolutionStatus = "authored";
         } else if ("io".equals(source)) {
             double[][] boxes = boxes(card.getJSONArray("masks"));
@@ -191,6 +192,31 @@ public final class FullDeckInstaller {
             throw new IllegalArgumentException("source v3 não suportado: " + source);
         }
         return p;
+    }
+
+    private void resolveAnkingMediaRefs(Plan target, JSONObject search) throws Exception {
+        JSONArray refs = target.card.optJSONArray("anking_media_refs");
+        if (refs == null) return;
+        for (int i = 0; i < refs.length(); i++) {
+            JSONObject ref = new JSONObject(refs.getJSONObject(i).toString());
+            String key = ref.getString("key");
+            ref.put("card_key", target.cardKey + "::media::" + key);
+            ref.put("concept_id", target.card.optString("concept_id"));
+            ref.put("source", "anking");
+            ref.put("requires_visual", true);
+            Resolution resolution = resolveLocalCopy(ref, search, true, "anking");
+            if (resolution.plan == null) {
+                throw new IllegalStateException("imagem AnKing não resolvida: " + key + " (" + resolution.reason + ")");
+            }
+            AnkiBridge.CardRow row = cardRow(resolution.plan.sourceNote.nid, resolution.plan.selectedOrd);
+            List<String> images = new ArrayList<>(MediaRefs.images(row));
+            int index = ref.optInt("media_index", 0);
+            if (index < 0 || index >= images.size()) {
+                throw new IllegalStateException("media_index ambíguo/ausente para " + key + ": " + images.size());
+            }
+            target.localMediaNames.put(key, images.get(index));
+            target.attemptedQueries.addAll(resolution.attemptedQueries);
+        }
     }
 
     private Resolution resolveLocalCopy(
@@ -256,7 +282,7 @@ public final class FullDeckInstaller {
 
         Integer ord = inferOrdinal(best.note, queries, expectedAnswers, minScore, minMargin);
         if (ord == null) return Resolution.unresolved("sibling_unresolved", candidates.size(), attemptedQueries);
-        if (card.optBoolean("requires_visual", false) && !cardQuestionHasImage(best.note.nid, ord)) {
+        if (card.optBoolean("requires_visual", false) && !cardHasImage(best.note.nid, ord)) {
             return Resolution.unresolved("required_visual_missing", candidates.size(), attemptedQueries);
         }
 
@@ -348,11 +374,12 @@ public final class FullDeckInstaller {
         return Ranker.confident(best.score, second, best.exact, minScore, minMargin) ? best.ord : null;
     }
 
-    private boolean cardQuestionHasImage(long nid, int ord) {
+    private boolean cardHasImage(long nid, int ord) {
         for (AnkiBridge.CardRow r : anki.cards(nid)) {
             if (r.ord == ord) {
-                String q = r.question == null ? "" : r.question.toLowerCase(Locale.ROOT);
-                return q.contains("<img") || q.contains("<svg") || q.contains("image-occlusion");
+                return !MediaRefs.images(r).isEmpty()
+                        || (r.question != null && r.question.toLowerCase(Locale.ROOT).contains("<svg"))
+                        || (r.answer != null && r.answer.toLowerCase(Locale.ROOT).contains("<svg"));
             }
         }
         return false;
@@ -372,10 +399,12 @@ public final class FullDeckInstaller {
             if (ex != null && ex.tags != null && ex.tags.contains(hashTag)) {
                 anki.moveCards(existing, targetDid);
                 JSONObject rr = receiptBase(p, existing);
-                rr.put("ok", true);
-                rr.put("idempotent_skip", true);
-                rr.put("failures", new JSONArray());
-                return new CardInstallResult(true, true, p.actualSource, rr);
+                boolean mediaOk = existingMediaOk(p, existing, mediaNames);
+                rr.put("media_ok", mediaOk);
+                rr.put("ok", mediaOk);
+                rr.put("idempotent_skip", mediaOk);
+                rr.put("failures", mediaOk ? new JSONArray() : new JSONArray().put("existing_media_not_rendered"));
+                if (mediaOk) return new CardInstallResult(true, true, p.actualSource, rr);
             }
             anki.deleteOwnNote(existing);
         }
@@ -402,10 +431,15 @@ public final class FullDeckInstaller {
             boolean sameType = copy != null && copy.mid == before.mid;
             boolean sameFields = copy != null && eq(copy.fields, before.fields);
             boolean siblingOk = expectedSuspended == 0 || suspended >= expectedSuspended;
+            Set<String> sourceMedia = MediaRefs.images(cardRow(before.nid, p.selectedOrd));
+            Set<String> copiedMedia = MediaRefs.images(cardRow(nid, p.selectedOrd));
+            boolean mediaOk = sourceMedia.equals(copiedMedia)
+                    && (!card.optBoolean("requires_visual", false) || !sourceMedia.isEmpty());
             if (!sourceSafe) failures.put("source_safe");
             if (!sameType) failures.put("same_note_type");
             if (!sameFields) failures.put("same_fields");
             if (!siblingOk) failures.put("sibling_policy");
+            if (!mediaOk) failures.put("media_refs_mismatch");
             rr.put("source_note_id", before.nid);
             rr.put("selected_ordinal", p.selectedOrd);
             rr.put("score", p.score);
@@ -414,12 +448,14 @@ public final class FullDeckInstaller {
             rr.put("source_safe", sourceSafe);
             rr.put("same_note_type", sameType);
             rr.put("same_fields", sameFields);
-            rr.put("media_ok", true);
+            rr.put("source_media", new JSONArray(sourceMedia));
+            rr.put("copied_media", new JSONArray(copiedMedia));
+            rr.put("media_ok", mediaOk);
             rr.put("sibling_policy_ok", siblingOk);
         } else if ("authored".equals(p.actualSource)) {
-            String text = replaceMedia(card.optString("text"), mediaNames);
-            String extra = replaceMedia(card.optString("extra"), mediaNames);
-            if (text.contains("nebli-media://") || extra.contains("nebli-media://")) {
+            String text = replaceMedia(card.optString("text"), mediaNames, p.localMediaNames);
+            String extra = replaceMedia(card.optString("extra"), mediaNames, p.localMediaNames);
+            if (hasMediaPlaceholder(text) || hasMediaPlaceholder(extra)) {
                 failures.put("authored_media_placeholder_unresolved");
             }
             long clozeMid = anki.findClozeModel();
@@ -437,10 +473,23 @@ public final class FullDeckInstaller {
                 rr.put("authored_note_mode", "basic_cloze_fallback");
             }
             createdThisRun.add(nid);
-            if (anki.cards(nid).size() != 1) failures.put("authored_generated_card_count_not_1");
+            List<AnkiBridge.CardRow> authoredRows = anki.cards(nid);
+            if (authoredRows.size() != 1) failures.put("authored_generated_card_count_not_1");
+            Set<String> renderedMedia = authoredRows.isEmpty()
+                    ? new HashSet<>() : MediaRefs.images(authoredRows.get(0));
+            Set<String> expectedMedia = new HashSet<>(p.localMediaNames.values());
+            for (String mediaKey : p.mediaKeys) {
+                String name = mediaNames.get(mediaKey);
+                if (name != null) expectedMedia.add(name);
+            }
+            boolean authoredMediaOk = renderedMedia.containsAll(expectedMedia)
+                    && !failures.toString().contains("authored_media_placeholder_unresolved");
+            if (!authoredMediaOk) failures.put("authored_media_not_rendered");
             rr.put("cloze_words", CardRules.clozeWordCount(text));
             rr.put("media_count", p.mediaKeys.size());
-            rr.put("media_ok", !failures.toString().contains("authored_media_placeholder_unresolved"));
+            rr.put("expected_media", new JSONArray(expectedMedia));
+            rr.put("rendered_media", new JSONArray(renderedMedia));
+            rr.put("media_ok", authoredMediaOk);
         } else if ("io".equals(p.actualSource)) {
             String image = mediaNames.get(p.mediaKey);
             if (image == null) throw new IllegalStateException("mídia IO não instalada: " + p.mediaKey);
@@ -455,10 +504,11 @@ public final class FullDeckInstaller {
             createdThisRun.add(nid);
             List<AnkiBridge.CardRow> rows = anki.cards(nid);
             boolean renderOk = rows.size() == 1 && rows.get(0).question.contains("nebli-io-mask")
-                    && rows.get(0).question.contains(image) && rows.get(0).answer.contains(image);
+                    && MediaRefs.images(rows.get(0)).contains(image)
+                    && rows.get(0).answer.contains(image);
             if (!renderOk) failures.put("io_runtime_render");
             rr.put("visual_ok", renderOk);
-            rr.put("media_ok", true);
+            rr.put("media_ok", renderOk);
             rr.put("mask_count", boxList.size());
         } else {
             throw new IllegalStateException("actual source desconhecida: " + p.actualSource);
@@ -562,6 +612,112 @@ public final class FullDeckInstaller {
                     && (!c.optBoolean("anking_search_complete", false)
                     || c.optString("anking_rejection_reason").isBlank())) {
                 throw new IllegalArgumentException("autoral direto sem prova de busca AnKing: " + key);
+            }
+            if ("authored".equals(source)) validateAuthoredVisualContract(c, key);
+            if ("io".equals(source)) validateIoContract(c, key);
+        }
+        validateMediaCatalog(m, cards);
+    }
+
+    private void validateAuthoredVisualContract(JSONObject card, String key) throws Exception {
+        JSONArray embedded = card.optJSONArray("media_keys");
+        JSONArray local = card.optJSONArray("anking_media_refs");
+        int embeddedCount = embedded == null ? 0 : embedded.length();
+        int localCount = local == null ? 0 : local.length();
+        String html = card.optString("text") + " " + card.optString("extra");
+        if (html.toLowerCase(Locale.ROOT).contains("<img") && embeddedCount + localCount == 0) {
+            throw new IllegalArgumentException("imagem autoral sem origem declarada: " + key);
+        }
+        if (embeddedCount > 0) {
+            JSONArray evidence = card.optJSONArray("visual_evidence");
+            if (evidence == null || evidence.length() != embeddedCount) {
+                throw new IllegalArgumentException("imagem autoral sem evidência visual por arquivo: " + key);
+            }
+            Map<String, JSONObject> byKey = new HashMap<>();
+            for (int i = 0; i < evidence.length(); i++) {
+                JSONObject item = evidence.getJSONObject(i);
+                byKey.put(item.optString("key"), item);
+            }
+            for (String mediaKey : stringList(embedded)) {
+                JSONObject item = byKey.get(mediaKey);
+                if (item == null
+                        || !"slide_or_external".equals(item.optString("origin"))
+                        || !item.optBoolean("anking_visual_search_complete", false)
+                        || item.optString("anking_visual_rejection_reason").trim().length() < 20) {
+                    throw new IllegalArgumentException("imagem externa/slide sem rejeição visual AnKing documentada: " + key);
+                }
+                if (!item.optBoolean("didactic_value_reviewed", false)
+                        || item.optString("cognitive_purpose").trim().length() < 10
+                        || item.optString("source_credit").isBlank()) {
+                    throw new IllegalArgumentException("imagem autoral sem valor didático/crédito documentado: " + key);
+                }
+            }
+        }
+        Set<String> localKeys = new HashSet<>();
+        for (int i = 0; i < localCount; i++) {
+            JSONObject ref = local.getJSONObject(i);
+            String refKey = ref.optString("key").trim();
+            JSONArray queries = ref.optJSONArray("search_queries");
+            JSONArray answers = ref.optJSONArray("expected_answers");
+            if (refKey.isBlank() || !localKeys.add(refKey)
+                    || queries == null || queries.length() < 2
+                    || answers == null || answers.length() == 0
+                    || ref.optInt("media_index", -1) < 0
+                    || !ref.optBoolean("didactic_value_reviewed", false)
+                    || ref.optString("cognitive_purpose").trim().length() < 10) {
+                throw new IllegalArgumentException("referência visual AnKing incompleta: " + key + "[" + i + "]");
+            }
+            if (!html.contains("nebli-anking-media://" + refKey)) {
+                throw new IllegalArgumentException("imagem AnKing declarada mas não usada: " + key + "[" + refKey + "]");
+            }
+        }
+        for (String embeddedKey : stringList(embedded)) {
+            if (!html.contains("nebli-media://" + embeddedKey)) {
+                throw new IllegalArgumentException("imagem embutida declarada mas não usada: " + key + "[" + embeddedKey + "]");
+            }
+        }
+    }
+
+    private void validateIoContract(JSONObject card, String key) throws Exception {
+        JSONArray masks = card.optJSONArray("masks");
+        JSONArray answers = card.optJSONArray("answers");
+        int count = masks == null ? 0 : masks.length();
+        if (answers == null || answers.length() != count) {
+            throw new IllegalArgumentException("IO answers deve corresponder às máscaras: " + key);
+        }
+        if (count == 2 && card.optString("pair_rationale").trim().length() < 10) {
+            throw new IllegalArgumentException("IO com duas oclusões sem justificativa do par: " + key);
+        }
+        if (card.optString("source_credit").isBlank()) {
+            throw new IllegalArgumentException("IO sem crédito de origem: " + key);
+        }
+        if (!card.optBoolean("didactic_value_reviewed", false)
+                || card.optString("cognitive_purpose").trim().length() < 10) {
+            throw new IllegalArgumentException("IO sem valor didático documentado: " + key);
+        }
+    }
+
+    private void validateMediaCatalog(JSONObject manifest, JSONArray cards) throws Exception {
+        JSONArray media = manifest.optJSONArray("media");
+        Map<String, JSONObject> catalog = new HashMap<>();
+        if (media != null) for (int i = 0; i < media.length(); i++) {
+            JSONObject item = media.getJSONObject(i);
+            String key = item.optString("key").trim();
+            if (key.isBlank() || catalog.put(key, item) != null) {
+                throw new IllegalArgumentException("media[] com key ausente/duplicada: " + key);
+            }
+            if (item.optString("data_base64").isBlank() || item.optString("source_credit").isBlank()) {
+                throw new IllegalArgumentException("mídia embutida sem bytes/crédito: " + key);
+            }
+        }
+        for (int i = 0; i < cards.length(); i++) {
+            JSONObject card = cards.getJSONObject(i);
+            List<String> needed = stringList(card.optJSONArray("media_keys"));
+            if ("io".equals(card.optString("source"))) needed.add(card.optString("media_key"));
+            for (String key : needed) {
+                if (!catalog.containsKey(key)) {
+                    throw new IllegalArgumentException("card referencia mídia ausente: " + card.optString("card_key") + "[" + key + "]");
+                }
             }
         }
     }
@@ -678,10 +834,52 @@ public final class FullDeckInstaller {
         return out;
     }
 
-    private static String replaceMedia(String s, Map<String, String> names) {
+    private static String replaceMedia(
+            String s, Map<String, String> names, Map<String, String> localNames
+    ) {
         String out = s == null ? "" : s;
         for (Map.Entry<String, String> e : names.entrySet()) out = out.replace("nebli-media://" + e.getKey(), e.getValue());
+        for (Map.Entry<String, String> e : localNames.entrySet()) {
+            out = out.replace("nebli-anking-media://" + e.getKey(), e.getValue());
+        }
         return out;
+    }
+
+    private static boolean hasMediaPlaceholder(String value) {
+        return value.contains("nebli-media://") || value.contains("nebli-anking-media://");
+    }
+
+    private boolean existingMediaOk(Plan p, long nid, Map<String, String> mediaNames) {
+        AnkiBridge.CardRow row = cardRow(nid, p.selectedOrd);
+        if (row == null) {
+            List<AnkiBridge.CardRow> rows = anki.cards(nid);
+            row = rows.size() == 1 ? rows.get(0) : null;
+        }
+        if (row == null) return false;
+        Set<String> rendered = MediaRefs.images(row);
+        if ("anking".equals(p.actualSource) || "external_deck".equals(p.actualSource)) {
+            Set<String> source = MediaRefs.images(cardRow(p.sourceNote.nid, p.selectedOrd));
+            return rendered.equals(source)
+                    && (!p.card.optBoolean("requires_visual", false) || !source.isEmpty());
+        }
+        if ("authored".equals(p.actualSource)) {
+            Set<String> expected = new HashSet<>(p.localMediaNames.values());
+            for (String key : p.mediaKeys) {
+                String name = mediaNames.get(key);
+                if (name != null) expected.add(name);
+            }
+            return rendered.containsAll(expected);
+        }
+        if ("io".equals(p.actualSource)) {
+            String image = mediaNames.get(p.mediaKey);
+            return image != null && rendered.contains(image) && row.question.contains("nebli-io-mask");
+        }
+        return false;
+    }
+
+    private AnkiBridge.CardRow cardRow(long nid, int ord) {
+        for (AnkiBridge.CardRow row : anki.cards(nid)) if (row.ord == ord) return row;
+        return null;
     }
 
     private static String safe(String s) { return s.replaceAll("[^A-Za-z0-9_-]", "_"); }
@@ -743,6 +941,7 @@ public final class FullDeckInstaller {
         String resolutionStatus;
         String mediaKey;
         final List<String> mediaKeys = new ArrayList<>();
+        final Map<String, String> localMediaNames = new LinkedHashMap<>();
         AnkiBridge.NoteSnapshot sourceNote;
         int selectedOrd = -1;
         double score = 0.0, secondScore = 0.0;

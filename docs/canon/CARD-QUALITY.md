@@ -104,13 +104,17 @@ critério suficiente.
 - mecanismo → imagem pode ficar no Extra;
 - conceito puramente verbal → imagem pode ser `none`;
 - fonte real é preferência absoluta; visual genérico/decorativo bloqueia.
+- em card autoral, procurar primeiro mídia local do AnKing; slide/fonte externa
+  exige rejeição visual AnKing documentada;
+- toda imagem exige crédito, propósito cognitivo e revisão explícita de valor
+  didático.
 
 Para IO:
 
-- usar `hide_all_guess_all` para conjuntos coerentes;
+- usar `hide_two_guess_two`, normalmente com duas respostas coerentes;
 - a máscara cobre o **rótulo-resposta**, não a estrutura que o aluno deve
   reconhecer;
-- várias máscaras só quando pertencem ao mesmo mapa/tarefa coerente;
+- no máximo duas máscaras; duas exigem `pair_rationale` e tarefa coerente;
 - coordenadas devem estar dentro da imagem;
 - pergunta e resposta precisam ter preview validado;
 - bloquear vazamento da resposta;

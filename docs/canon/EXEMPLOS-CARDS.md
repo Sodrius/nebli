@@ -32,7 +32,7 @@ o motivo em `cloze_exception_reason`.
 
 Para identificar partes de um órgão em um único esquema, recortar com contexto,
 manter as estruturas visíveis e cobrir exatamente todos os rótulos-resposta. Usar
-`hide_all_guess_all`, marcar `coherent_visual_map` e revisar dois previews:
+`hide_two_guess_two`, ocultar no máximo dois rótulos coerentes, justificar o par e revisar dois previews:
 pergunta (todos os rótulos ocultos) e resposta (rótulos revelados).
 
 **IO reprovado**

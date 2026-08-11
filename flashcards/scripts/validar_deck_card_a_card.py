@@ -64,6 +64,13 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
             failures.append("media_source_credit_ok")
         if not _bool(card, "media_cognitive_purpose_ok"):
             failures.append("media_cognitive_purpose_ok")
+        if not _bool(card, "didactic_value_reviewed"):
+            failures.append("didactic_value_reviewed")
+        if not _bool(card, "anking_visual_preference_checked"):
+            failures.append("anking_visual_preference_checked")
+        if not _bool(card, "anking_visual_used") \
+                and len(str(card.get("anking_visual_rejection_reason", "")).strip()) < 20:
+            failures.append("anking_visual_preference_unresolved")
 
 
 def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> None:
@@ -79,13 +86,17 @@ def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> 
 
 
 def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
-    if card.get("mode") != "hide_all_guess_all":
+    if card.get("mode") != "hide_two_guess_two":
         failures.append("io_mode")
     mask_count = int(card.get("mask_count", 0))
     if mask_count < 1:
         failures.append("mask_count<1")
+    if mask_count > 2:
+        failures.append("mask_count>2")
     if mask_count > 1 and not _bool(card, "coherent_set"):
         failures.append("multi_mask_not_coherent")
+    if mask_count == 2 and not str(card.get("pair_rationale", "")).strip():
+        failures.append("pair_rationale_missing")
     for key in (
         "masks_labels_not_structures",
         "question_preview_validated",
@@ -94,6 +105,8 @@ def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
         "real_source",
         "source_credit_ok",
         "media_ok",
+        "media_cognitive_purpose_ok",
+        "didactic_value_reviewed",
     ):
         if not _bool(card, key):
             failures.append(key)

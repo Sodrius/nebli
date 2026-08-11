@@ -21,7 +21,9 @@ produto vivem em `docs/canon/`.
 - [x] tornar atomicidade e cloze 1/2/3 palavras gates mecânicos;
 - [x] substituir busca estreita por união FTS de consultas PT/EN/sinônimos;
 - [x] corrigir IO para mascarar rótulo-resposta e usar
-  `hide_all_guess_all` em mapas coerentes;
+  `hide_two_guess_two`, com no máximo duas respostas coerentes;
+- [x] priorizar mídia AnKing também nos autorais e validar o round-trip visual
+  real no AnkiDroid;
 - [x] exigir previews separados de pergunta/resposta;
 - [x] tornar a localização da E1 explícita na entrega.
 

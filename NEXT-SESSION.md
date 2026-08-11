@@ -6,7 +6,7 @@ Este é o ponto de entrada operacional para uma nova sessão.
 
 A infraestrutura do Deck-Aula está pronta no `main`:
 
-- pipeline `e1-deck-v8`;
+- pipeline `e1-deck-v9`;
 - Companion AnkiDroid final instalado no tablet;
 - conexão real com AnkiDroid testada;
 - cópia segura real testada;
@@ -28,7 +28,7 @@ Isso deve ser suficiente.
 
 1. Leia `CLAUDE.md`, este arquivo, `MEMORY.md`, `ERROS.md` e `config/pipeline.json`.
 2. Leia `docs/canon/CARD-QUALITY.md`, `docs/canon/ANKIDROID-COMPANION.md`, `docs/canon/LOCAL-DECKS-AND-MEDIA.md`, `docs/canon/PIPELINE-E1-DECK.md` e `.claude/commands/resumo.md`.
-3. Confirme mecanicamente `pipeline_version=e1-deck-v8`, release gate
+3. Confirme mecanicamente `pipeline_version=e1-deck-v9`, release gate
    `nebli-e1-deck-release-v1` e schema `nebli-ankidroid-deck-v3`.
 4. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
 5. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
@@ -64,9 +64,9 @@ Resumo dos hard gates:
 - cloze: 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ proibido;
 - evitar enumerações, mini-resumos, múltiplas respostas e redundância funcional;
 - visual só quando agrega uma tarefa cognitiva;
-- IO de conjunto coerente: `hide_all_guess_all`;
+- IO: `hide_two_guess_two`, preferencialmente duas respostas coerentes e no máximo duas;
 - máscara cobre o rótulo-resposta, nunca a pista morfológica/estrutura a reconhecer;
-- imagem nova exige fonte real adequada, crédito, legibilidade, preview pergunta/resposta e ausência de vazamento;
+- card autoral procura primeiro imagem AnKing local; imagem nova exige rejeição visual AnKing documentada, fonte real, valor didático, crédito, legibilidade, preview pergunta/resposta e ausência de vazamento;
 - anatomia/histologia com objetivo de reconhecimento não pode fechar só com cards verbais.
 
 ## Resolução local do Anki

@@ -48,7 +48,7 @@ Regras nucleares:
 - contar cards Anki reais e respeitar `card_budget.hard_max`;
 - autoral em inglês médico, Extra curto em português;
 - autoral com exatamente um `c1`; cloze de 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ bloqueia;
-- IO somente quando a tarefa visual agrega; em conjunto coerente usar `hide_all_guess_all`;
+- IO somente quando a tarefa visual agrega; usar `hide_two_guess_two`, em geral com duas respostas coerentes e nunca mais de duas;
 - máscara cobre o rótulo-resposta, não a estrutura que deve ser reconhecida;
 - fonte visual real, crédito, previews pergunta/resposta e ausência de vazamento são obrigatórios;
 - AnKing/deck externo é copiado literalmente, preservando note type, campos, HTML, clozes, tags e mídia; sibling não selecionado fica suspenso;
@@ -69,4 +69,4 @@ A aula só fecha quando:
 
 ## Configuração ativa
 
-`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v8`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, release gate `nebli-e1-deck-release-v1`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.
+`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v9`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, release gate `nebli-e1-deck-release-v1`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.

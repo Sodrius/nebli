@@ -86,15 +86,18 @@ def io_card(i: int) -> dict:
     return {
         **base(i, "io"),
         "requires_visual": True,
-        "mode": "hide_all_guess_all",
+        "mode": "hide_two_guess_two",
         "mask_count": 2,
         "coherent_set": True,
+        "pair_rationale": "Two adjacent labels form one coherent localization task.",
         "masks_labels_not_structures": True,
         "question_preview_validated": True,
         "answer_preview_validated": True,
         "visual_ok": True,
         "real_source": True,
         "source_credit_ok": True,
+        "media_cognitive_purpose_ok": True,
+        "didactic_value_reviewed": True,
         "answer_leak": False,
         "mask_geometry_ok": True,
         "media_ok": True,
@@ -191,6 +194,36 @@ def test_authored_extra_media_requires_source_and_cognitive_purpose():
     failures = result["cards"][31]["failures"]
     assert "media_source_credit_ok" in failures
     assert "media_cognitive_purpose_ok" in failures
+
+
+def test_authored_visual_prefers_anking_or_documents_rejection():
+    report = realistic_40_card_report()
+    card = report["cards"][31]
+    card.update({
+        "has_extra_media": True,
+        "media_ok": True,
+        "media_source_credit_ok": True,
+        "media_cognitive_purpose_ok": True,
+        "didactic_value_reviewed": True,
+        "anking_visual_preference_checked": True,
+        "anking_visual_used": False,
+        "anking_visual_rejection_reason": "",
+    })
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "anking_visual_preference_unresolved" in result["cards"][31]["failures"]
+    card["anking_visual_rejection_reason"] = (
+        "No AnKing image represented the lesson-specific mechanism without irrelevant labels."
+    )
+    assert gate.validate_report(report, 0.82, 0.06)["ok"] is True
+
+
+def test_io_requires_didactic_visual_review():
+    report = realistic_40_card_report()
+    report["cards"][38]["didactic_value_reviewed"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "didactic_value_reviewed" in result["cards"][38]["failures"]
 
 
 def test_bad_io_blocks_card_even_if_visual_ok_is_true():

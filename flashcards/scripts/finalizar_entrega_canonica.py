@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fecha o pipeline v8 e materializa somente E1/PDF + manifesto do Companion."""
+"""Fecha o pipeline v9 e materializa somente E1/PDF + manifesto do Companion."""
 from __future__ import annotations
 
 import argparse

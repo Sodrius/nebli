@@ -24,13 +24,16 @@ class PipelineConfigurationTests(unittest.TestCase):
         self.assertEqual(config["cloze_answer_words"]["preferred"], 1)
         self.assertEqual(config["cloze_answer_words"]["hard_max"], 3)
         self.assertEqual(config["image_occlusion"]["multi_label_mode"],
-                         "hide_all_guess_all")
+                         "hide_two_guess_two")
+        self.assertEqual(config["image_occlusion"]["maximum_masks_per_card"], 2)
+        self.assertEqual(config["authored_cards"]["preferred_visual_source"],
+                         "anking_local")
 
     def test_resumo_is_the_active_entrypoint(self):
         command = (ROOT / ".claude/commands/resumo.md").read_text(encoding="utf-8")
         self.assertIn("PIPELINE-E1-DECK.md", command)
         self.assertIn("validar_deck_card_a_card.py", command)
-        self.assertIn("gerar_manifesto_ankidroid.py", command)
+        self.assertIn("finalizar_entrega_canonica.py", command)
         self.assertIn("Companion", command)
         self.assertIn("sessão principal", command.casefold())
 
