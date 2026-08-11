@@ -7,7 +7,6 @@ import android.database.Cursor;
 import android.net.Uri;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -176,7 +175,7 @@ public final class AnkiBridge {
                 String low = n == null ? "" : n.toLowerCase(Locale.ROOT);
                 if (low.contains("anking")) score += 10;
                 if (low.contains("overhaul")) score += 4;
-                if (supportFieldIndex(splitFields(f)) >= 0) score += 2;
+                if (ModelFields.supportFieldIndex(splitFields(f)) >= 0) score += 2;
                 if (score > bestScore) { bestScore = score; bestId = c.getLong(id); }
             }
         }
@@ -262,35 +261,13 @@ public final class AnkiBridge {
     }
 
     public static String[] fieldsForModel(String[] names, String text, String extra) {
-        String[] values = new String[names.length];
-        Arrays.fill(values, "");
-        int textIdx = indexOfField(names, "Text");
-        if (textIdx < 0) textIdx = 0;
-        values[textIdx] = text == null ? "" : text;
-        int extraIdx = supportFieldIndex(names);
-        if (extraIdx >= 0) values[extraIdx] = extra == null ? "" : extra;
-        return values;
+        return ModelFields.authoredValues(names, text, extra);
     }
 
     public static Set<String> tags(String... tags) {
         Set<String> out = new HashSet<>();
         for (String t : tags) if (t != null && !t.isBlank()) out.add(t.replace(' ', '_'));
         return out;
-    }
-
-    private static int indexOfField(String[] fields, String wanted) {
-        for (int i = 0; i < fields.length; i++) if (wanted.equalsIgnoreCase(fields[i])) return i;
-        return -1;
-    }
-
-    private static int supportFieldIndex(String[] fields) {
-        for (String preferred : new String[]{
-                "Extra", "Back Extra", "Lecture Notes", "Missed Questions", "Pathoma"
-        }) {
-            int index = indexOfField(fields, preferred);
-            if (index >= 0) return index;
-        }
-        return -1;
     }
 
     private static boolean containsField(String joined, String wanted) {
