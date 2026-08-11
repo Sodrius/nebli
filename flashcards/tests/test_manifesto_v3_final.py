@@ -17,6 +17,8 @@ def authored(text="The colon contains {{c1::haustra}}."):
         "extra": "As haustrações resultam da organização da parede do cólon.",
         "front_language": "en",
         "extra_language": "pt-BR",
+        "anking_search_complete": True,
+        "anking_rejection_reason": "No exact AnKing retrieval remained after candidate review.",
     }
 
 
@@ -69,7 +71,7 @@ def test_authored_extra_image_requires_real_source_credit(tmp_path):
         "extra_images": [{"path": "mechanism.png"}],
     }
     spec = tmp_path / "deck.json"
-    spec.write_text(json.dumps({"metadata": {"uc": "UC", "nome_curto": "Aula"}, "cards": [card]}), encoding="utf-8")
+    spec.write_text(json.dumps({"metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"}, "cards": [card]}), encoding="utf-8")
     proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))
     assert proc.returncode != 0
     assert "source_credit" in (proc.stderr + proc.stdout)
@@ -125,7 +127,7 @@ def test_io_requires_source_credit(tmp_path):
         "coherent_set": True,
     }
     spec = tmp_path / "deck.json"
-    spec.write_text(json.dumps({"metadata": {"uc": "UC", "nome_curto": "Aula"}, "cards": [card]}), encoding="utf-8")
+    spec.write_text(json.dumps({"metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"}, "cards": [card]}), encoding="utf-8")
     proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))
     assert proc.returncode != 0
     assert "source_credit" in (proc.stderr + proc.stdout)

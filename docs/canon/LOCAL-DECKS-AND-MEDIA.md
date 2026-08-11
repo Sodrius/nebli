@@ -1,4 +1,4 @@
-# Decks locais e mídia nova — complemento canônico v6
+# Decks locais e mídia nova — complemento canônico v7
 
 Este arquivo complementa `CARD-QUALITY.md` e `ANKIDROID-COMPANION.md`.
 
@@ -11,14 +11,15 @@ Este arquivo complementa `CARD-QUALITY.md` e `ANKIDROID-COMPANION.md`.
 - nunca modificar a fonte;
 - inferir/ativar somente o sibling relevante;
 - exigir `query` + aliases úteis;
-- usar `source_filter` quando o deck/note type/tags de origem forem conhecidos,
-  para reduzir falsos positivos;
+- usar `source_filter` quando o deck/note type/tags de origem forem conhecidos;
+  para AnKing ele é dica de desempenho, não identidade canônica;
 - exigir fallback autoral ou IO já validado no plano final;
 - se busca/ranking/sibling forem ambíguos, usar o fallback em vez de escolher à
   força.
 
 O marcador AnKing é obrigatório apenas para `source=anking`; um deck externo usa
-seu próprio `source_filter` quando disponível.
+seu próprio `source_filter` restritivo. Somente o perfil AnKing admite rebusca
+sem escopo, sempre exigindo marcador AnKing.
 
 ## Imagem nova no Extra de autoral
 
@@ -53,6 +54,6 @@ ela for empacotada como mídia nova.
 
 ## Definição de completo
 
-O Deck-Aula v6 não tem exceção escondida para mídia ou deck externo. AnKing,
+O Deck-Aula v7 não tem exceção escondida para mídia ou deck externo. AnKing,
 deck externo, autorais com ou sem imagem e IO devem chegar ao mesmo
 `NEBLI::<...>` no AnkiDroid, respeitando os gates card a card e a contagem final.

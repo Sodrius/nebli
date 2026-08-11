@@ -34,6 +34,18 @@ public class AnkiDroidIntegrationTest {
     }
 
     @Test
+    public void canonicalDeckIdentityIsExact() throws Exception {
+        JSONObject identity = new JSONObject()
+                .put("uc", "UC03")
+                .put("prova", "P1")
+                .put("componente", "Imunologia")
+                .put("nome_curto", "Reconhecimento inato");
+        assertEquals(
+                "NEBLI::UC03::P1::Imunologia::Reconhecimento inato",
+                FullDeckInstaller.canonicalDeckName(identity));
+    }
+
+    @Test
     public void installsAnkingCopyAndAuthoredCardThroughRealAnkiDroid() throws Exception {
         Context context = ApplicationProvider.getApplicationContext();
         assertNotNull(context.getPackageManager().getPackageInfo(AnkiBridge.ANKI_PACKAGE, 0));
@@ -43,7 +55,7 @@ public class AnkiDroidIntegrationTest {
         String sourceDeck = "NEBLI::CI::AnKingSource";
         long sourceDid = anki.ensureDeck(sourceDeck);
         long basicMid = anki.ensureBasicModel(sourceDid);
-        String sourceFront = "TLR4 recognizes lipopolysaccharide";
+        String sourceFront = "Bacterial lipopolysaccharide is sensed at the plasma membrane by TLR4";
         long sourceNid = anki.insertNote(
                 basicMid,
                 new String[]{sourceFront, "Bacterial LPS is the ligand.", ""},
@@ -51,7 +63,7 @@ public class AnkiDroidIntegrationTest {
                 sourceDid
         );
 
-        JSONObject manifest = manifest(sourceDeck);
+        JSONObject manifest = manifest();
         JSONObject receipt;
         try {
             receipt = new FullDeckInstaller(context).install(manifest);
@@ -74,7 +86,7 @@ public class AnkiDroidIntegrationTest {
         }
     }
 
-    private static JSONObject manifest(String sourceDeck) throws Exception {
+    private static JSONObject manifest() throws Exception {
         JSONObject fallback = new JSONObject()
                 .put("source", "authored")
                 .put("text", "TLR4 recognizes {{c1::LPS}}.")
@@ -86,8 +98,14 @@ public class AnkiDroidIntegrationTest {
                 .put("card_key", "ci-anking")
                 .put("concept_id", "ci-tlr4")
                 .put("source", "anking")
-                .put("query", "TLR4 recognizes lipopolysaccharide")
-                .put("source_filter", "deck:\"" + sourceDeck + "\"")
+                .put("query", "TLR4 lipopolysaccharide plasma membrane")
+                .put("search_queries", new JSONArray()
+                        .put("TLR4 lipopolysaccharide plasma membrane")
+                        .put("TLR4 lipopolysaccharide"))
+                .put("expected_answers", new JSONArray().put("TLR4"))
+                // Deliberately wrong deck name: for AnKing this is a hint,
+                // and the marker-backed unscoped pass must still find it.
+                .put("source_filter", "deck:\"AnKing Step Deck\"")
                 .put("atomic", true)
                 .put("relevant", true)
                 .put("tier", "nucleo")
@@ -101,6 +119,8 @@ public class AnkiDroidIntegrationTest {
                 .put("extra", "PRRs reconhecem padrões moleculares conservados.")
                 .put("front_language", "en")
                 .put("extra_language", "pt-BR")
+                .put("anking_search_complete", true)
+                .put("anking_rejection_reason", "CI authored control has no exact source card")
                 .put("atomic", true)
                 .put("relevant", true)
                 .put("tier", "nucleo");
@@ -108,7 +128,12 @@ public class AnkiDroidIntegrationTest {
         return new JSONObject()
                 .put("schema", FullDeckInstaller.SCHEMA)
                 .put("lesson_slug", "ci-ankidroid-roundtrip")
-                .put("target_deck", "NEBLI::CI::P1::Integration::Smoke")
+                .put("deck_identity", new JSONObject()
+                        .put("uc", "UC99")
+                        .put("prova", "P1")
+                        .put("componente", "Integration")
+                        .put("nome_curto", "Smoke"))
+                .put("target_deck", "NEBLI::UC99::P1::Integration::Smoke")
                 .put("mutate_source", false)
                 .put("open_ankidroid_after_install", false)
                 .put("expected_card_count", 2)
@@ -116,6 +141,7 @@ public class AnkiDroidIntegrationTest {
                         .put("min_score", 0.82)
                         .put("min_margin", 0.06)
                         .put("max_candidates", 20)
+                        .put("source_filter_is_hint", true)
                         .put("require_anking_marker", true))
                 .put("cards", new JSONArray().put(anking).put(authored));
     }

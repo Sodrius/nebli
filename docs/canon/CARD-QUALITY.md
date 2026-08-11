@@ -45,6 +45,12 @@ Uma busca sem resultado não comprova lacuna. Usar query em inglês médico,
 sinônimos/aliases e siblings relevantes. Um candidato só entra se cobrir
 **exatamente a recuperação da aula**, não apenas um tema vizinho.
 
+Nota e sibling são decisões distintas: a nota é encontrada pelo contexto; o
+sibling/cloze é escolhido pela resposta esperada. Todo autoral direto registra
+`anking_search_complete=true` e o motivo concreto de rejeição dos candidatos.
+Se um AnKing adequado já foi validado, ele usa `anking_required=true` e uma
+falha técnica bloqueia o lote em vez de instalar autoral.
+
 Cópias AnKing/deck externo:
 
 - conteúdo didático é literal, sem reescrita;

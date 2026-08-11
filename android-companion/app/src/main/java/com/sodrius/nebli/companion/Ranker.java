@@ -4,6 +4,7 @@ import java.text.Normalizer;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Locale;
+import java.util.List;
 import java.util.Set;
 
 public final class Ranker {
@@ -58,10 +59,59 @@ public final class Ranker {
         return s;
     }
 
+    /** Scores note context without conflating it with the short cloze answer. */
+    public static double candidateScore(
+            List<String> contextQueries,
+            List<String> expectedAnswers,
+            String fields,
+            String tags,
+            boolean ankingLike
+    ) {
+        double context = 0.0;
+        for (String query : contextQueries) {
+            context = Math.max(context, score(query, fields, tags, ankingLike));
+        }
+        double answer = 0.0;
+        for (String expected : expectedAnswers) {
+            answer = Math.max(answer, answerScore(expected, fields));
+        }
+        double combined = context + 0.08 * answer;
+        return Math.min(1.0, combined);
+    }
+
+    /** Scores the requested retrieval against one cloze/sibling answer. */
+    public static double answerScore(String expected, String actual) {
+        String ne = normalize(expected);
+        String na = normalize(actual);
+        if (ne.isEmpty() || na.isEmpty()) return 0.0;
+        if (ne.equals(na)) return 1.0;
+        if (na.contains(ne) || ne.contains(na)) return 0.95;
+        Set<String> e = tokens(expected);
+        Set<String> a = tokens(actual);
+        if (e.isEmpty() || a.isEmpty()) return 0.0;
+        int hit = 0;
+        for (String token : e) if (a.contains(token)) hit++;
+        if (hit == 0) return 0.0;
+        double precision = (double) hit / (double) a.size();
+        double recall = (double) hit / (double) e.size();
+        return 2.0 * precision * recall / (precision + recall);
+    }
+
+    public static boolean passesConstraints(String fields, List<String> mustContain, List<String> mustNotContain) {
+        String normalized = normalize(fields);
+        for (String required : mustContain) {
+            if (!normalized.contains(normalize(required))) return false;
+        }
+        for (String forbidden : mustNotContain) {
+            String value = normalize(forbidden);
+            if (!value.isEmpty() && normalized.contains(value)) return false;
+        }
+        return true;
+    }
+
     public static boolean confident(double best, double second, boolean exactPhrase, double minScore, double minMargin) {
         if (best < minScore) return false;
-        if (best >= 0.96) return true;
-        if (exactPhrase && best >= Math.max(0.88, minScore)) return true;
+        if (second <= 0.0) return true;
         return best - second >= minMargin;
     }
 

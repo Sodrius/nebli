@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class RankerTest {
     @Test
     public void exactPhraseRanksHigh() {
@@ -42,8 +44,9 @@ public class RankerTest {
     }
 
     @Test
-    public void strongExactResultCanAutoSelect() {
-        assertTrue(Ranker.confident(0.94, 0.90, true, 0.82, 0.06));
+    public void exactPhraseDoesNotBypassAmbiguityMargin() {
+        assertFalse(Ranker.confident(0.94, 0.90, true, 0.82, 0.06));
+        assertTrue(Ranker.confident(0.94, 0.80, true, 0.82, 0.06));
     }
 
     @Test
@@ -51,6 +54,27 @@ public class RankerTest {
         assertTrue(Ranker.looksAnKing("#AK_Step1_v12::Anatomy"));
         assertTrue(Ranker.looksAnKing("AnKingOverhaul something"));
         assertFalse(Ranker.looksAnKing("NEBLI::source::copy"));
+    }
+
+    @Test
+    public void separatesLongNoteContextFromShortClozeAnswer() {
+        String fields = "Bacterial lipopolysaccharide is sensed at the plasma membrane by {{c1::TLR4}}.";
+        double noteScore = Ranker.candidateScore(
+                Arrays.asList("TLR4 lipopolysaccharide plasma membrane", "TLR4 LPS"),
+                Arrays.asList("TLR4"), fields, "#AK_Step1_v12", true);
+        assertTrue(noteScore >= 0.90);
+        assertEquals(1.0, Ranker.answerScore("TLR4", "TLR4"), 0.0001);
+        assertTrue(Ranker.answerScore("TLR4", "TRIF") < 0.20);
+    }
+
+    @Test
+    public void requiredAndForbiddenContextFiltersAdjacentCards() {
+        String correct = "NLRP3 recruits ASC and procaspase-1 in the inflammasome.";
+        String adjacent = "NLRP3 variants are associated with familial cold autoinflammatory syndrome.";
+        assertTrue(Ranker.passesConstraints(correct,
+                Arrays.asList("ASC", "procaspase-1"), Arrays.asList("familial cold")));
+        assertFalse(Ranker.passesConstraints(adjacent,
+                Arrays.asList("ASC"), Arrays.asList("familial cold")));
     }
 
     @Test

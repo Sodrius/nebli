@@ -4,7 +4,7 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Estado atual
 
-- Pipeline canônico: `e1-deck-v6`.
+- Pipeline canônico: `e1-deck-v7`.
 - Produto padrão: **E1 + Deck-Aula completo no AnkiDroid**.
 - Backend normal: AnkiDroid via Nebli Companion.
 - Schema final: `nebli-ankidroid-deck-v3`.

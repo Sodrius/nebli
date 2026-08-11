@@ -30,9 +30,7 @@ def _local_rank_ok(card: dict[str, Any], min_score: float, min_margin: float) ->
     exact = bool(card.get("exact_phrase", False))
     if score < min_score:
         return False
-    if score >= 0.96:
-        return True
-    if exact and score >= max(0.88, min_score):
+    if second <= 0.0:
         return True
     return score - second >= min_margin
 
@@ -116,8 +114,13 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
         for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok", "fallback_validated"):
             if not _bool(card, key):
                 failures.append(key)
+        for key in ("search_queries_ok", "expected_answers_ok"):
+            if not _bool(card, key):
+                failures.append(key)
         if source == "anking" and not _bool(card, "anking_marker_ok"):
             failures.append("anking_marker_ok")
+        if source == "anking" and _bool(card, "anking_required") and not _bool(card, "resolved_without_fallback"):
+            failures.append("required_anking_unresolved")
         if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
             failures.append("source_filter_ok")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
@@ -125,6 +128,10 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
 
     elif source == "authored":
         _validate_authored(card, failures)
+        if not _bool(card, "anking_search_complete"):
+            failures.append("anking_search_incomplete")
+        if not str(card.get("anking_rejection_reason", "")).strip():
+            failures.append("anking_rejection_reason_missing")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 

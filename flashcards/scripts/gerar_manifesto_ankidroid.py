@@ -299,15 +299,42 @@ def _prepare_v3_card(
         if isinstance(aliases, str):
             aliases = [aliases]
         card["aliases"] = [str(x).strip() for x in aliases if str(x).strip()]
+        search_queries = card.get("search_queries") or []
+        if isinstance(search_queries, str):
+            search_queries = [search_queries]
+        search_queries = [str(x).strip() for x in search_queries if str(x).strip()]
+        for value in [str(card["query"]).strip(), *card["aliases"]]:
+            if value and value not in search_queries:
+                search_queries.append(value)
+        card["search_queries"] = search_queries
         if source == "anking" and not str(card.get("source_filter") or "").strip():
             card["source_filter"] = anking_source_filter
         fallback = card.get("fallback")
         if not isinstance(fallback, dict):
             raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
         card["fallback"] = _prepare_fallback(fallback, base_dir, media, f"{key}.fallback")
+        expected_answers = card.get("expected_answers") or []
+        if isinstance(expected_answers, str):
+            expected_answers = [expected_answers]
+        expected_answers = [str(x).strip() for x in expected_answers if str(x).strip()]
+        if not expected_answers and card["fallback"]["source"] == "authored":
+            expected_answers = [m.group(2).strip() for m in CLOZE_RE.finditer(card["fallback"]["text"])]
+        if not expected_answers:
+            raise ValueError(f"{key}: fonte local exige expected_answers ou fallback cloze")
+        card["expected_answers"] = expected_answers
+        for field in ("must_contain", "must_not_contain"):
+            values = card.get(field) or []
+            if isinstance(values, str):
+                values = [values]
+            card[field] = [str(x).strip() for x in values if str(x).strip()]
+        card["anking_required"] = bool(card.get("anking_required", False))
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
     elif source == "authored":
+        if card.get("anking_search_complete") is not True:
+            raise ValueError(f"{key}: autoral direto exige anking_search_complete=true")
+        if not str(card.get("anking_rejection_reason") or "").strip():
+            raise ValueError(f"{key}: autoral direto exige anking_rejection_reason")
         _validate_authored(card, key)
         _embed_authored_extra_images(card, base_dir, media, key)
     elif source == "io":
@@ -322,18 +349,32 @@ def _prepare_v3_card(
     return card
 
 
-def _canonical_deck_name(data: dict[str, Any]) -> str:
+def _canonical_deck_identity(data: dict[str, Any]) -> dict[str, str]:
     meta = data.get("metadata") if isinstance(data.get("metadata"), dict) else {}
-    parts = [
-        meta.get("uc") or data.get("uc"),
-        meta.get("prova") or data.get("prova"),
-        meta.get("componente") or data.get("componente"),
-        meta.get("nome_curto") or data.get("nome_curto") or data.get("lesson_name"),
-    ]
-    cleaned = [str(x).strip().replace("::", "-") for x in parts if x is not None and str(x).strip()]
-    if len(cleaned) < 2:
+    raw = {
+        "uc": meta.get("uc") or data.get("uc"),
+        "prova": meta.get("prova") or data.get("prova"),
+        "componente": meta.get("componente") or data.get("componente"),
+        "nome_curto": meta.get("nome_curto") or data.get("nome_curto") or data.get("lesson_name"),
+    }
+    if any(value is None or not str(value).strip() for value in raw.values()):
         raise ValueError("deck-data sem metadados suficientes para nome canônico (UC/prova/componente/nome_curto)")
-    return "NEBLI::" + "::".join(cleaned)
+    identity = {key: re.sub(r"\s+", " ", str(value).strip().replace("::", "-")) for key, value in raw.items()}
+    uc_match = re.fullmatch(r"(?i)UC\s*0*(\d+)", identity["uc"])
+    prova_match = re.fullmatch(r"(?i)P\s*0*(\d+)", identity["prova"])
+    if not uc_match:
+        raise ValueError("metadata.uc deve seguir UCNN, por exemplo UC03")
+    if not prova_match:
+        raise ValueError("metadata.prova deve seguir PN, por exemplo P1")
+    identity["uc"] = f"UC{int(uc_match.group(1)):02d}"
+    identity["prova"] = f"P{int(prova_match.group(1))}"
+    return identity
+
+
+def _canonical_deck_name(identity: dict[str, str]) -> str:
+    return "NEBLI::" + "::".join(
+        identity[key] for key in ("uc", "prova", "componente", "nome_curto")
+    )
 
 
 def build_v3(args: argparse.Namespace) -> dict[str, Any]:
@@ -344,9 +385,11 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     raw_cards = data.get("cards")
     if not isinstance(raw_cards, list) or not raw_cards:
         raise ValueError("deck-data sem cards")
-    target_deck = args.deck or data.get("target_deck") or _canonical_deck_name(data)
-    if not str(target_deck).startswith("NEBLI::"):
-        raise ValueError("target deck deve começar por NEBLI::")
+    deck_identity = _canonical_deck_identity(data)
+    target_deck = _canonical_deck_name(deck_identity)
+    supplied_target = args.deck or data.get("target_deck")
+    if supplied_target and str(supplied_target).strip() != target_deck:
+        raise ValueError(f"target_deck divergente do nome canônico: esperado {target_deck}")
 
     media: dict[str, dict[str, Any]] = {}
     anking_source_filter = str(
@@ -367,6 +410,7 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "schema": SCHEMA_V3,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "lesson_slug": args.slug,
+        "deck_identity": deck_identity,
         "target_deck": str(target_deck),
         "optional_subdeck": str(target_deck) + "::Optional",
         "expected_card_count": len(cards),
@@ -380,6 +424,7 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
             "max_candidates": args.max_candidates,
             "prefer_anking": True,
             "require_anking_marker": True,
+            "source_filter_is_hint": True,
             "ambiguous_policy": "use_validated_fallback",
         },
         "cards": cards,

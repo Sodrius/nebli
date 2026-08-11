@@ -12,7 +12,9 @@ Aplicativo Android mínimo para instalar um deck-aula diretamente na coleção j
 - acrescenta somente tags de proveniência NEBLI;
 - move os cards gerados para o deck-aula;
 - suspende siblings não selecionados quando o manifesto fixa ordinais;
-- grava recibo local idempotente.
+- resolve a nota AnKing pelo contexto e o sibling pela resposta esperada;
+- trata o nome local do deck AnKing como dica, exigindo marcador de origem;
+- grava recibo local idempotente com fonte real, consultas e candidatos.
 
 O aplicativo não edita, move, suspende nem apaga a nota fonte.
 
@@ -42,6 +44,9 @@ python flashcards/scripts/montar_deck_aula.py \
 4. Abra o `.ankidroid.json` no Nebli Companion.
 5. O recibo exibido deve terminar com `"ok": true`.
 
-## Limite do MVP
+## Busca AnKing
 
-Este primeiro Companion instala/copia diretamente no AnkiDroid. O índice FTS local para busca semântica de todo o AnKing é a próxima camada; o protocolo já foi desenhado para ela em `docs/canon/ANKIDROID-COMPANION.md`.
+O manifesto fornece várias `search_queries`, `expected_answers` e restrições de
+contexto. `anking_required=true` bloqueia fallback silencioso quando a curadoria
+já confirmou um card adequado. O protocolo completo está em
+`docs/canon/ANKIDROID-COMPANION.md`.
