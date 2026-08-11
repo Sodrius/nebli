@@ -110,10 +110,6 @@ comprovado pode virar autoral/IO. Para cada lacuna:
 - IO multi-rótulo coerente usa `hide_all_guess_all`;
 - imagem deve ter função cognitiva e passar QA visual.
 
-Até o Companion suportar note types autorais/IO nativamente, esses itens usam o
-backend desktop/APKG como fallback **somente para as lacunas**, sem recolocar o
-AnKing inteiro no fluxo antigo.
-
 ## 9. Validação obrigatória card a card
 
 Depois de resolver AnKing e fechar autorais/IO, gere
