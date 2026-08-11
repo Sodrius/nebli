@@ -24,6 +24,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -34,10 +35,16 @@ public final class FullDeckInstaller {
 
     private final Context context;
     private final AnkiBridge anki;
+    private final Consumer<String> progress;
 
     public FullDeckInstaller(Context context) {
+        this(context, ignored -> {});
+    }
+
+    public FullDeckInstaller(Context context, Consumer<String> progress) {
         this.context = context;
         this.anki = new AnkiBridge(context);
+        this.progress = progress == null ? ignored -> {} : progress;
     }
 
     public JSONObject install(JSONObject manifest) throws Exception {
@@ -81,16 +88,17 @@ public final class FullDeckInstaller {
                 else if ("io".equals(r.actualSource)) io++;
                 else authored++;
             }
-        } catch (Exception e) {
+        } catch (Throwable e) {
+            if (e instanceof OutOfMemoryError) System.gc();
             for (int i = createdThisRun.size() - 1; i >= 0; i--) {
-                try { anki.deleteOwnNote(createdThisRun.get(i)); } catch (Exception ignored) {}
+                try { anki.deleteOwnNote(createdThisRun.get(i)); } catch (Throwable ignored) {}
             }
             JSONObject receipt = baseReceipt(manifest, rootDeck);
             receipt.put("ok", false);
             receipt.put("rolled_back_new_notes", createdThisRun.size());
             receipt.put("cards", cardReceipts);
             receipt.put("errors", errors);
-            receipt.put("fatal_error", e.toString());
+            receipt.put("fatal_error", e.getClass().getSimpleName() + ": " + e.getMessage());
             return receipt;
         }
 
@@ -116,6 +124,8 @@ public final class FullDeckInstaller {
         JSONObject search = manifest.optJSONObject("search");
         for (int i = 0; i < cards.length(); i++) {
             JSONObject card = cards.getJSONObject(i);
+            report("Buscando card " + (i + 1) + "/" + cards.length() + ": "
+                    + card.optString("concept_id", card.optString("card_key")));
             String source = card.getString("source").toLowerCase(Locale.ROOT);
             Plan p;
             if ("anking".equals(source) || "external_deck".equals(source)) {
@@ -198,7 +208,7 @@ public final class FullDeckInstaller {
 
         Map<Long, Candidate> candidates = new LinkedHashMap<>();
         for (String q : queries) {
-            String ankiQuery = sourceFilter.isEmpty() ? q : sourceFilter + " " + q;
+            String ankiQuery = SearchQueryPolicy.compose(sourceFilter, q);
             // One query can be unsupported by a specific AnkiDroid/provider
             // version. Treat it as unresolved so the validated fallback is
             // used instead of aborting the entire lesson.
@@ -290,6 +300,7 @@ public final class FullDeckInstaller {
             String slug, Plan p, long targetDid, Map<String, String> mediaNames, List<Long> createdThisRun
     ) throws Exception {
         JSONObject card = p.card;
+        report("Instalando " + p.card.optString("concept_id", p.cardKey));
         String stableTag = "NEBLI::card::" + safe(slug) + "::" + safe(p.cardKey);
         String hash = card.optString("card_sha256", sha256(card.toString().getBytes(StandardCharsets.UTF_8)));
         String hashTag = "NEBLI::hash::" + hash.substring(0, Math.min(16, hash.length()));
@@ -545,6 +556,10 @@ public final class FullDeckInstaller {
     private static String safeFilename(String s) { return s.replaceAll("[^A-Za-z0-9._-]", "_"); }
     private static String stripExtension(String s) { int i = s.lastIndexOf('.'); return i > 0 ? s.substring(0, i) : s; }
     private static boolean eq(String a, String b) { return a == null ? b == null : a.equals(b); }
+
+    private void report(String message) {
+        try { progress.accept(message); } catch (RuntimeException ignored) {}
+    }
 
     private static String sha256(byte[] bytes) throws Exception {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
