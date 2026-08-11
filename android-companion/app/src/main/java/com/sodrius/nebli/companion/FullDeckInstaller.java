@@ -27,7 +27,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/** Installs a complete Nebli lesson: AnKing copies + authored cards + IO. */
+/** Installs a complete Nebli lesson: local deck copies + authored cards + IO. */
 public final class FullDeckInstaller {
     public static final String SCHEMA = "nebli-ankidroid-deck-v3";
     private static final Pattern CLOZE_TARGET = Pattern.compile("\\{\\{c(\\d+)::([^}:]+)", Pattern.CASE_INSENSITIVE);
@@ -54,13 +54,13 @@ public final class FullDeckInstaller {
         }
 
         Set<String> neededMedia = new HashSet<>();
-        for (Plan p : plans) if (p.mediaKey != null) neededMedia.add(p.mediaKey);
+        for (Plan p : plans) neededMedia.addAll(p.mediaKeys);
         Map<String, String> mediaNames = uploadMedia(manifest.optJSONArray("media"), neededMedia);
 
         JSONArray cardReceipts = new JSONArray();
         JSONArray errors = new JSONArray();
         List<Long> createdThisRun = new ArrayList<>();
-        int installed = 0, skipped = 0, authored = 0, io = 0, copied = 0;
+        int installed = 0, skipped = 0, authored = 0, io = 0, anking = 0, external = 0;
 
         try {
             for (Plan p : plans) {
@@ -73,7 +73,8 @@ public final class FullDeckInstaller {
                 }
                 installed++;
                 skipped += r.skipped ? 1 : 0;
-                if ("anking".equals(r.actualSource)) copied++;
+                if ("anking".equals(r.actualSource)) anking++;
+                else if ("external_deck".equals(r.actualSource)) external++;
                 else if ("io".equals(r.actualSource)) io++;
                 else authored++;
             }
@@ -96,7 +97,8 @@ public final class FullDeckInstaller {
         receipt.put("expected_card_count", manifest.getInt("expected_card_count"));
         receipt.put("installed_card_count", installed);
         receipt.put("idempotent_skips", skipped);
-        receipt.put("anking_cards", copied);
+        receipt.put("anking_cards", anking);
+        receipt.put("external_deck_cards", external);
         receipt.put("authored_cards", authored);
         receipt.put("io_cards", io);
         receipt.put("cards", cardReceipts);
@@ -113,14 +115,18 @@ public final class FullDeckInstaller {
             JSONObject card = cards.getJSONObject(i);
             String source = card.getString("source").toLowerCase(Locale.ROOT);
             Plan p;
-            if ("anking".equals(source)) {
-                p = resolveAnking(card, search);
+            if ("anking".equals(source) || "external_deck".equals(source)) {
+                boolean requireMarker = "anking".equals(source)
+                        && (search == null || search.optBoolean("require_anking_marker", true));
+                p = resolveLocalCopy(card, search, requireMarker, source);
                 if (p == null) {
                     JSONObject fallback = card.optJSONObject("fallback");
-                    if (fallback == null) throw new IllegalStateException("AnKing unresolved sem fallback: " + card.optString("card_key"));
+                    if (fallback == null) {
+                        throw new IllegalStateException(source + " unresolved sem fallback: " + card.optString("card_key"));
+                    }
                     fallback = inheritIdentity(card, fallback);
                     p = planLocal(fallback);
-                    p.resolutionStatus = "fallback_after_anking_unresolved";
+                    p.resolutionStatus = "fallback_after_" + source + "_unresolved";
                 }
             } else {
                 p = planLocal(card);
@@ -142,6 +148,7 @@ public final class FullDeckInstaller {
                     card.optString("three_word_cloze_reason", "")
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " authored gate: " + failures);
+            p.mediaKeys.addAll(stringList(card.optJSONArray("media_keys")));
             p.resolutionStatus = "authored";
         } else if ("io".equals(source)) {
             double[][] boxes = boxes(card.getJSONArray("masks"));
@@ -158,6 +165,7 @@ public final class FullDeckInstaller {
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " IO gate: " + failures);
             p.mediaKey = card.getString("media_key");
+            p.mediaKeys.add(p.mediaKey);
             p.resolutionStatus = "io";
         } else {
             throw new IllegalArgumentException("source v3 não suportado: " + source);
@@ -165,8 +173,14 @@ public final class FullDeckInstaller {
         return p;
     }
 
-    private Plan resolveAnking(JSONObject card, JSONObject searchCfg) throws Exception {
+    private Plan resolveLocalCopy(
+            JSONObject card,
+            JSONObject searchCfg,
+            boolean requireMarker,
+            String sourceName
+    ) throws Exception {
         String query = card.getString("query").trim();
+        String sourceFilter = card.optString("source_filter", "").trim();
         JSONArray aliasesArr = card.optJSONArray("aliases");
         List<String> queries = new ArrayList<>();
         queries.add(query);
@@ -178,11 +192,11 @@ public final class FullDeckInstaller {
         double minScore = searchCfg == null ? 0.82 : searchCfg.optDouble("min_score", 0.82);
         double minMargin = searchCfg == null ? 0.06 : searchCfg.optDouble("min_margin", 0.06);
         int maxCandidates = searchCfg == null ? 80 : searchCfg.optInt("max_candidates", 80);
-        boolean requireMarker = searchCfg == null || searchCfg.optBoolean("require_anking_marker", true);
 
         Map<Long, Candidate> candidates = new LinkedHashMap<>();
         for (String q : queries) {
-            for (AnkiBridge.NoteSnapshot n : anki.searchNotes(q, maxCandidates, true)) {
+            String ankiQuery = sourceFilter.isEmpty() ? q : sourceFilter + " " + q;
+            for (AnkiBridge.NoteSnapshot n : anki.searchNotes(ankiQuery, maxCandidates, true)) {
                 boolean ankingLike = Ranker.looksAnKing(n.tags);
                 if (requireMarker && !ankingLike) continue;
                 Candidate c = candidates.computeIfAbsent(n.nid, ignored -> new Candidate(n));
@@ -203,13 +217,13 @@ public final class FullDeckInstaller {
         if (card.optBoolean("requires_visual", false) && !cardQuestionHasImage(best.note.nid, ord)) return null;
 
         Plan p = new Plan(card);
-        p.actualSource = "anking";
+        p.actualSource = sourceName;
         p.sourceNote = best.note;
         p.selectedOrd = ord;
         p.score = best.score;
         p.secondScore = second;
         p.exactPhrase = best.exact;
-        p.resolutionStatus = "anking_resolved";
+        p.resolutionStatus = sourceName + "_resolved";
         return p;
     }
 
@@ -289,10 +303,11 @@ public final class FullDeckInstaller {
         JSONObject rr = receiptBase(p, -1L);
         JSONArray failures = new JSONArray();
 
-        if ("anking".equals(p.actualSource)) {
+        if ("anking".equals(p.actualSource) || "external_deck".equals(p.actualSource)) {
             AnkiBridge.NoteSnapshot before = anki.readNote(p.sourceNote.nid);
             if (before == null) throw new IllegalStateException("source note desapareceu: " + p.sourceNote.nid);
-            Set<String> tags = mergeSourceTags(before.tags, stableTag, hashTag, "NEBLI::source::anking", "NEBLI::" + safe(slug));
+            Set<String> tags = mergeSourceTags(
+                    before.tags, stableTag, hashTag, "NEBLI::source::" + p.actualSource, "NEBLI::" + safe(slug));
             String[] fields = before.fields == null ? new String[]{""} : before.fields.split("\u001f", -1);
             nid = anki.insertNote(before.mid, fields, tags, targetDid);
             createdThisRun.add(nid);
@@ -323,6 +338,9 @@ public final class FullDeckInstaller {
         } else if ("authored".equals(p.actualSource)) {
             String text = replaceMedia(card.optString("text"), mediaNames);
             String extra = replaceMedia(card.optString("extra"), mediaNames);
+            if (text.contains("nebli-media://") || extra.contains("nebli-media://")) {
+                failures.put("authored_media_placeholder_unresolved");
+            }
             long clozeMid = anki.findClozeModel();
             if (clozeMid >= 0) {
                 String[] names = anki.modelFields(clozeMid);
@@ -340,7 +358,8 @@ public final class FullDeckInstaller {
             createdThisRun.add(nid);
             if (anki.cards(nid).size() != 1) failures.put("authored_generated_card_count_not_1");
             rr.put("cloze_words", CardRules.clozeWordCount(text));
-            rr.put("media_ok", true);
+            rr.put("media_count", p.mediaKeys.size());
+            rr.put("media_ok", !failures.toString().contains("authored_media_placeholder_unresolved"));
         } else if ("io".equals(p.actualSource)) {
             String image = mediaNames.get(p.mediaKey);
             if (image == null) throw new IllegalStateException("mídia IO não instalada: " + p.mediaKey);
@@ -421,6 +440,11 @@ public final class FullDeckInstaller {
             if (c.optString("concept_id").isBlank()) throw new IllegalArgumentException("concept_id ausente: " + key);
             if (!c.optBoolean("atomic", false)) throw new IllegalArgumentException("card não atômico: " + key);
             if (!c.optBoolean("relevant", false)) throw new IllegalArgumentException("card irrelevante: " + key);
+            String source = c.optString("source");
+            if (!"anking".equals(source) && !"external_deck".equals(source)
+                    && !"authored".equals(source) && !"io".equals(source)) {
+                throw new IllegalArgumentException("source v3 inválido: " + source);
+            }
         }
     }
 
@@ -464,7 +488,10 @@ public final class FullDeckInstaller {
     }
 
     private static boolean hasOptional(JSONArray cards) {
-        for (int i = 0; i < cards.length(); i++) if ("optional".equalsIgnoreCase(cards.optJSONObject(i).optString("tier"))) return true;
+        for (int i = 0; i < cards.length(); i++) {
+            JSONObject card = cards.optJSONObject(i);
+            if (card != null && "optional".equalsIgnoreCase(card.optString("tier"))) return true;
+        }
         return false;
     }
 
@@ -486,7 +513,10 @@ public final class FullDeckInstaller {
 
     private static List<String> stringList(JSONArray a) {
         List<String> out = new ArrayList<>();
-        if (a != null) for (int i = 0; i < a.length(); i++) out.add(a.optString(i));
+        if (a != null) for (int i = 0; i < a.length(); i++) {
+            String s = a.optString(i, "").trim();
+            if (!s.isEmpty()) out.add(s);
+        }
         return out;
     }
 
@@ -535,6 +565,7 @@ public final class FullDeckInstaller {
         String actualSource;
         String resolutionStatus;
         String mediaKey;
+        final List<String> mediaKeys = new ArrayList<>();
         AnkiBridge.NoteSnapshot sourceNote;
         int selectedOrd = -1;
         double score = 0.0, secondScore = 0.0;

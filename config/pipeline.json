@@ -12,10 +12,14 @@
     "manifest_schema": "nebli-ankidroid-deck-v3",
     "legacy_manifest_schemas": ["nebli-ankidroid-lesson-v2", "nebli-ankidroid-v1"],
     "full_deck_direct_install": true,
-    "resolution_mode": "local_anking_with_validated_fallbacks",
+    "resolution_mode": "local_decks_with_validated_fallbacks",
+    "anking_direct_copy": true,
+    "external_deck_direct_copy": true,
     "authored_direct_install": true,
+    "authored_extra_media_direct_install": true,
     "image_occlusion_direct_install": true,
     "self_contained_new_media": true,
+    "new_media_require_source_credit": true,
     "open_ankidroid_after_install": true,
     "select_target_deck_after_install": true,
     "write_prefix": "NEBLI::",
@@ -35,7 +39,8 @@
       "min_margin": 0.06,
       "max_candidates": 80,
       "prefer_anking": true,
-      "require_anking_marker": true,
+      "require_anking_marker_for_anking_source": true,
+      "external_deck_may_use_source_filter": true,
       "ambiguous_policy": "use_validated_fallback"
     },
     "final_validation": {
@@ -69,7 +74,9 @@
     "cloze_occurrences_per_card": 1,
     "cloze_index": 1,
     "max_front_characters": 360,
-    "max_extra_words": 100
+    "max_extra_words": 100,
+    "extra_images_require_cognitive_purpose": true,
+    "extra_images_require_source_credit": true
   },
   "cloze_answer_words": {
     "preferred": 1,
@@ -84,6 +91,7 @@
     "require_coherent_set_for_multiple_masks": true,
     "require_question_and_answer_previews": true,
     "require_real_source": true,
+    "require_source_credit": true,
     "block_answer_leak": true
   },
   "new_cards_per_day": 25,

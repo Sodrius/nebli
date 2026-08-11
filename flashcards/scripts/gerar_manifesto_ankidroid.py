@@ -5,8 +5,8 @@
 Preferred mode (v3) is a COMPLETE lesson deck. The pipeline supplies the final
 card plan and this script embeds any new media, validates hard card-quality
 rules, computes the canonical deck name, and emits one self-contained JSON file.
-The Companion then resolves AnKing locally and installs fallbacks only when the
-local AnKing match is not trustworthy.
+The Companion then resolves AnKing/external local decks and installs validated
+fallbacks whenever the local match is not trustworthy.
 
 V2/V1 modes remain only for compatibility/tests.
 """
@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import base64
 import hashlib
+import html
 import json
 import mimetypes
 import re
@@ -157,6 +158,8 @@ def _validate_masks(card: dict[str, Any], where: str) -> None:
             raise ValueError(f"{where}: {key}=true é obrigatório")
     if card.get("answer_leak", True):
         raise ValueError(f"{where}: IO com vazamento de resposta")
+    if not str(card.get("source_credit") or "").strip():
+        raise ValueError(f"{where}: IO exige source_credit")
     for i, b in enumerate(masks):
         if not isinstance(b, dict):
             raise ValueError(f"{where}: máscara {i} inválida")
@@ -165,17 +168,23 @@ def _validate_masks(card: dict[str, Any], where: str) -> None:
             raise ValueError(f"{where}: máscara {i} fora dos limites")
 
 
-def _embed_io_media(card: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str) -> None:
-    raw = card.get("image_path")
-    if not raw and card.get("media_key"):
-        return
-    if not raw:
-        raise ValueError(f"{where}: IO precisa image_path ou media_key")
+def _resolve_media_path(raw: Any, base_dir: Path, where: str) -> Path:
     path = Path(str(raw))
     if not path.is_absolute():
         path = (base_dir / path).resolve()
     if not path.is_file():
-        raise ValueError(f"{where}: imagem inexistente: {path}")
+        raise ValueError(f"{where}: mídia inexistente: {path}")
+    return path
+
+
+def _embed_media_file(
+    raw_path: Any,
+    base_dir: Path,
+    media: dict[str, dict[str, Any]],
+    where: str,
+    source_credit: str,
+) -> str:
+    path = _resolve_media_path(raw_path, base_dir, where)
     blob = path.read_bytes()
     digest = hashlib.sha256(blob).hexdigest()
     key = f"m_{digest[:20]}"
@@ -186,10 +195,63 @@ def _embed_io_media(card: dict[str, Any], base_dir: Path, media: dict[str, dict[
         "mime_type": mime,
         "sha256": digest,
         "data_base64": base64.b64encode(blob).decode("ascii"),
-        "source_credit": str(card.get("source_credit") or ""),
+        "source_credit": source_credit,
     })
+    return key
+
+
+def _embed_io_media(card: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str) -> None:
+    raw = card.get("image_path")
+    if not raw and card.get("media_key"):
+        return
+    if not raw:
+        raise ValueError(f"{where}: IO precisa image_path ou media_key")
+    credit = str(card.get("source_credit") or "").strip()
+    key = _embed_media_file(raw, base_dir, media, where, credit)
     card["media_key"] = key
     card.pop("image_path", None)
+
+
+def _embed_authored_extra_images(
+    card: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str
+) -> None:
+    images = card.get("extra_images") or []
+    if isinstance(images, (str, Path)):
+        images = [images]
+    if not isinstance(images, list):
+        raise ValueError(f"{where}: extra_images deve ser lista")
+    if not images:
+        card.pop("extra_images", None)
+        return
+
+    keys: list[str] = []
+    blocks: list[str] = []
+    for i, item in enumerate(images):
+        if isinstance(item, str):
+            raise ValueError(f"{where}: extra_images[{i}] deve registrar path + source_credit")
+        if not isinstance(item, dict):
+            raise ValueError(f"{where}: extra_images[{i}] inválido")
+        raw_path = item.get("path") or item.get("image_path")
+        credit = str(item.get("source_credit") or "").strip()
+        alt = str(item.get("alt") or "supporting image").strip()
+        if not raw_path:
+            raise ValueError(f"{where}: extra_images[{i}] sem path")
+        if not credit:
+            raise ValueError(f"{where}: extra_images[{i}] exige source_credit")
+        key = _embed_media_file(raw_path, base_dir, media, f"{where}.extra_images[{i}]", credit)
+        keys.append(key)
+        blocks.append(
+            '<div class="nebli-extra-image"><img src="nebli-media://'
+            + key
+            + '" alt="'
+            + html.escape(alt, quote=True)
+            + '"></div><div class="nebli-source">'
+            + html.escape(credit)
+            + "</div>"
+        )
+    card["media_keys"] = keys
+    card["extra"] = (str(card.get("extra") or "") + "\n" + "\n".join(blocks)).strip()
+    card.pop("extra_images", None)
 
 
 def _prepare_fallback(
@@ -200,6 +262,7 @@ def _prepare_fallback(
     f["source"] = source
     if source == "authored":
         _validate_authored(f, where)
+        _embed_authored_extra_images(f, base_dir, media, where)
     elif source == "io":
         _validate_masks(f, where)
         _embed_io_media(f, base_dir, media, where)
@@ -228,21 +291,22 @@ def _prepare_v3_card(
 
     source = str(card.get("source") or "").lower()
     card["source"] = source
-    if source == "anking":
+    if source in {"anking", "external_deck"}:
         if not str(card.get("query") or "").strip():
-            raise ValueError(f"{key}: card AnKing sem query")
+            raise ValueError(f"{key}: card de deck local sem query")
         aliases = card.get("aliases") or []
         if isinstance(aliases, str):
             aliases = [aliases]
         card["aliases"] = [str(x).strip() for x in aliases if str(x).strip()]
         fallback = card.get("fallback")
         if not isinstance(fallback, dict):
-            raise ValueError(f"{key}: AnKing precisa fallback para garantir deck completo")
+            raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
         card["fallback"] = _prepare_fallback(fallback, base_dir, media, f"{key}.fallback")
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
     elif source == "authored":
         _validate_authored(card, key)
+        _embed_authored_extra_images(card, base_dir, media, key)
     elif source == "io":
         _validate_masks(card, key)
         _embed_io_media(card, base_dir, media, key)
