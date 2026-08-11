@@ -60,6 +60,8 @@ o AnkiDroid.
 Para cada card com `source=anking`:
 
 1. pesquisar `query` e aliases na coleção local;
+   a busca AnKing é limitada por padrão a `deck:\"AnKing Step Deck\"` e lê
+   primeiro apenas IDs, hidratando no máximo o pool de candidatos necessário;
 2. excluir cópias NEBLI do pool;
 3. exigir marcador AnKing no fluxo canônico;
 4. ranquear por cobertura/frase e margem;
