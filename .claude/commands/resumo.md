@@ -3,7 +3,7 @@ description: Gera E1 + Deck-Aula completo e diretamente instalável no AnkiDroid
 argument-hint: <slug> <slide.pdf> [UC] [Prova] [Componente] [Nome curto]
 ---
 
-# /resumo — pipeline E1 + Deck-Aula v6
+# /resumo — pipeline E1 + Deck-Aula v8
 
 Argumentos: $ARGUMENTS
 
@@ -18,7 +18,7 @@ Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
 `docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
 canônicos. Confirme em `config/pipeline.json`:
 
-- `pipeline_version=e1-deck-v7`;
+- `pipeline_version=e1-deck-v8`;
 - backend `ankidroid`;
 - schema `nebli-ankidroid-deck-v3`;
 - instalação direta de AnKing + autorais + IO;
@@ -71,6 +71,12 @@ E2/E3/RemNote.
 Nenhum card pode introduzir aprofundamento ausente da E1. Conteúdo Step 1 aceito
 entra primeiro na E1 e recebe nova âncora.
 
+Antes de congelar, faça revisão independente slide a slide e registre no
+`release_gate.e1_review`: inventário e objetivos completos, mecanismos
+explícitos, informação visual interpretada, notas cobertas ou indisponíveis,
+core estudável sem reabrir slides, aprofundamento Step 1 revisado, cards
+ancorados e nenhuma omissão/ambiguidade nuclear pendente.
+
 ## 4. Atomizar recuperações, não apenas tópicos
 
 Para cada conceito, decida se merece card. Hard gate:
@@ -112,6 +118,9 @@ O fallback cobre lacuna ou ambiguidade real. Se `anking_required=true`, falha
 técnica de busca bloqueia o lote: não converter silenciosamente um AnKing já
 validado em autoral.
 
+No fluxo v8, todo card planejado como `source="anking"` já é curado e portanto
+usa obrigatoriamente `anking_required=true`.
+
 ## 6. Autorais — contrato rígido
 
 Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
@@ -128,7 +137,11 @@ Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
 - pista inequívoca sem entregar a resposta;
 - `atomic=true`, `relevant=true`.
 - autoral direto registra `anking_search_complete=true` e
-  `anking_rejection_reason` concreto.
+  `anking_rejection_reason` concreto;
+- registra ao menos três `anking_search_queries`, expansão de escopo, revisão de
+  siblings, número de candidatos revisados e rejeição individual dos candidatos;
+- registra `retrieval_target` e `authored_quality` com revisão de recuperação
+  única, pista inequívoca, ausência de duplicata, Extra de apoio e inglês médico.
 
 A existência de um fallback não permite autoria preguiçosa: ele precisa ser um
 bom card por si só.
@@ -179,6 +192,12 @@ Estrutura mínima:
 Todo card tem `card_key` única, `concept_id`, `source`, `tier`, `atomic=true` e
 `relevant=true`.
 
+Inclua `release_gate=nebli-e1-deck-release-v1` com E1 fonte/PDF e hashes,
+`card_budget_hard_max`, revisão semântica e `concepts[]`. Cada conceito registra
+importância, âncora literal, qualidade 0–3, `card_keys` e decisão Step 1. O
+gerador recusa qualquer deck sem esse bloco aprovado. Use
+`flashcards/schemas/deck-data-v8.example.json` como forma canônica.
+
 Conte cards reais e confirme que o total está ≤ `card_budget.hard_max`.
 
 ## 9. Validação card a card antes de empacotar
@@ -200,16 +219,21 @@ Obrigatório:
 
 Uma falha bloqueia; corrija o card e rode novamente. Não use amostragem.
 
-## 10. Gerar o pacote único do AnkiDroid
+## 10. Fechar a entrega canônica
 
-Somente após o gate 100%:
+Somente após o gate 100%, execute o fechador único:
 
 ```bash
-python flashcards/scripts/gerar_manifesto_ankidroid.py \
+python flashcards/scripts/finalizar_entrega_canonica.py \
   --slug <slug> \
   --deck-data arquivos-trabalho/<slug>/deck-data.json \
-  --out flashcards/manifests/<slug>.ankidroid.json
+  --validation-report arquivos-trabalho/<slug>/validacao-cards.json \
+  --out-dir entregas/<slug>
 ```
+
+Ele reconfirma o gate card a card, exige correspondência exata com o deck-data,
+roda o release gate, gera o manifesto e materializa somente os dois arquivos
+visíveis da entrega. Não monte esses dois arquivos por caminhos paralelos.
 
 O gerador v3 deve:
 
@@ -267,8 +291,9 @@ Bloqueie se houver:
 
 ## 13. Entrega
 
-Entregue E1/PDF, `deck-data.json`, `validacao-cards.result.json`, manifesto v3 e
-relatório final. Quando houver recibo do Companion, exigir contagem final exata.
+Entregue ao usuário somente E1/PDF e manifesto v3. Preserve `deck-data.json`,
+validações e relatório como artefatos internos. Quando houver recibo do
+Companion, exigir contagem final exata.
 
 Definição operacional final: o usuário abre **um arquivo** no Companion e recebe
 o deck completo com o nome correto, no AnkiDroid, sem Colab/Drive/APKG e sem

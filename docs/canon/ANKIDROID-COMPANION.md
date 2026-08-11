@@ -33,6 +33,8 @@ Ele contém:
 - `deck_identity` com UC, prova, componente e nome curto;
 - `target_deck` canônico;
 - `expected_card_count` real;
+- resumo do `release_gate=nebli-e1-deck-release-v1`, provando que a E1 revisada,
+  o core e a matriz de cobertura foram aprovados antes do empacotamento;
 - plano de **todos os cards**;
 - consultas de contexto, respostas esperadas, restrições e fallback validado dos
   cards preferencialmente AnKing;
@@ -79,8 +81,9 @@ Para cada card com `source=anking`:
 9. se for ambíguo, ausente ou visualmente insuficiente, usar o `fallback`
    validado do próprio manifesto — nunca escolher à força.
 
-`anking_required=true` significa que a curadoria já confirmou um card adequado.
-Falhar em resolvê-lo bloqueia o lote, sem fallback silencioso. O recibo registra
+No v8, todo `source=anking` já representa card curado e usa
+`anking_required=true`. Falhar em resolvê-lo bloqueia o lote, sem fallback
+silencioso. O recibo registra
 consultas tentadas, candidatos, motivo da decisão e fonte realmente instalada.
 
 Parâmetros canônicos:

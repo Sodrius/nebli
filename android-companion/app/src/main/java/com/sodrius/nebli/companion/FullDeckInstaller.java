@@ -507,6 +507,21 @@ public final class FullDeckInstaller {
 
     private void validateManifest(JSONObject m) throws Exception {
         if (!SCHEMA.equals(m.optString("schema"))) throw new IllegalArgumentException("schema incompatível: " + m.optString("schema"));
+        JSONObject release = m.optJSONObject("release_gate");
+        if (release == null
+                || !"nebli-e1-deck-release-v1".equals(release.optString("schema"))
+                || !release.optBoolean("passed", false)) {
+            throw new IllegalArgumentException("manifesto sem release gate E1/deck aprovado");
+        }
+        int nuclear = release.optInt("nuclear_concept_count", 0);
+        int coveredNuclear = release.optInt("covered_nuclear_count", -1);
+        if (nuclear <= 0 || coveredNuclear != nuclear) {
+            throw new IllegalArgumentException("cobertura nuclear incompleta no release gate");
+        }
+        if (release.optString("e1_source_sha256").length() != 64
+                || release.optString("e1_pdf_sha256").length() != 64) {
+            throw new IllegalArgumentException("release gate sem hashes válidos da E1");
+        }
         String deck = m.getString("target_deck");
         String canonicalDeck = canonicalDeckName(m.getJSONObject("deck_identity"));
         if (!canonicalDeck.equals(deck)) {
@@ -537,10 +552,34 @@ public final class FullDeckInstaller {
                     && (c.optJSONArray("expected_answers") == null || c.optJSONArray("expected_answers").length() == 0)) {
                 throw new IllegalArgumentException("card de fonte local sem expected_answers: " + key);
             }
+            if ("anking".equals(source) && !c.optBoolean("anking_required", false)) {
+                throw new IllegalArgumentException("AnKing curado sem anking_required=true: " + key);
+            }
+            if ("external_deck".equals(source) || "authored".equals(source) || "io".equals(source)) {
+                validateAnkingSearchAudit(c, key);
+            }
             if ("authored".equals(source)
                     && (!c.optBoolean("anking_search_complete", false)
                     || c.optString("anking_rejection_reason").isBlank())) {
                 throw new IllegalArgumentException("autoral direto sem prova de busca AnKing: " + key);
+            }
+        }
+    }
+
+    private void validateAnkingSearchAudit(JSONObject card, String key) throws Exception {
+        JSONArray queries = card.optJSONArray("anking_search_queries");
+        if (!card.optBoolean("anking_search_complete", false)
+                || queries == null || queries.length() < 3
+                || !card.optBoolean("anking_search_scope_expanded", false)
+                || !card.optBoolean("anking_siblings_reviewed", false)
+                || card.optInt("anking_candidates_reviewed", -1) < 0
+                || card.optString("anking_rejection_reason").trim().length() < 20) {
+            throw new IllegalArgumentException("rota não-AnKing sem busca ampla documentada: " + key);
+        }
+        if (card.optInt("anking_candidates_reviewed", 0) > 0) {
+            JSONArray rejected = card.optJSONArray("anking_rejections");
+            if (rejected == null || rejected.length() == 0) {
+                throw new IllegalArgumentException("rota não-AnKing sem rejeições dos candidatos: " + key);
             }
         }
     }

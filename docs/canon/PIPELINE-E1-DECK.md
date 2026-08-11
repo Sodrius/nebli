@@ -1,4 +1,4 @@
-# Pipeline canônico E1 + Deck-Aula — v7
+# Pipeline canônico E1 + Deck-Aula — v8
 
 ## Definição de pronto
 
@@ -11,34 +11,45 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
 1. Validar slug, nome curto, UC/prova/componente e fontes.
 2. Criar checkpoint e contrato inicial a partir de slides/objetivos.
 3. Escrever E1 rascunho; não gerar E2/E3.
-4. Atomizar a E1 em conceitos nucleares, de apoio e opcionais.
-5. Definir porte e congelar `card_budget.hard_max` antes da seleção.
-6. Para cada conceito, definir a **recuperação específica** que justificaria um
+4. Revisar semanticamente a E1 contra o inventário dos slides. O gate exige
+   objetivos, conteúdo visível, mecanismos, relações, informação visual e notas
+   do professor cobertos ou explicitamente indisponíveis. A E1 precisa permitir
+   estudar o core sem reabrir os slides na maior parte dos casos.
+5. Atomizar a E1 em conceitos nucleares, de apoio e opcionais.
+6. Definir porte e congelar `card_budget.hard_max` antes da seleção.
+7. Para cada conceito, definir a **recuperação específica** que justificaria um
    card e sua âncora literal na E1.
-7. Planejar fonte na ordem AnKing → deck externo → autoral.
-8. Para cada recuperação, concluir a busca AnKing antes de autorar. Registrar
+8. Planejar fonte na ordem AnKing → deck externo → autoral.
+9. Para cada recuperação, concluir a busca AnKing antes de autorar. Registrar
    consultas independentes, resposta esperada, contexto obrigatório/proibido,
    candidatos aceitos/rejeitados e um fallback validado.
-9. Julgar Step 1 pelo teste de mesmo tema. O AnKing regula a profundidade, não o
+10. Julgar Step 1 pelo teste de mesmo tema. O AnKing regula a profundidade, não o
    escopo: conteúdo aceito entra na E1 antes do card e somente então a E1 é
    congelada.
-10. Definir plano visual antes de fechar cada card:
+11. Definir plano visual antes de fechar cada card:
     - reconhecimento/localização → IO/prompt visual;
     - mecanismo → imagem no Extra quando agrega;
     - verbal → `none`.
-11. Autorais só para lacunas reais. Seguir integralmente
+12. Autorais só para lacunas reais. Seguir integralmente
     `docs/canon/CARD-QUALITY.md`.
-12. IO precisa de fonte real, máscara correta, geometria, preview de pergunta e
+13. IO precisa de fonte real, máscara correta, geometria, preview de pergunta e
     resposta, ausência de vazamento e QA visual.
-13. Produzir `arquivos-trabalho/<slug>/deck-data.json` com **todos os cards
+14. Produzir `arquivos-trabalho/<slug>/deck-data.json` com **todos os cards
     finais**. Cada card tem `card_key`, `concept_id`, `source`, `tier`,
     `atomic=true`, `relevant=true` e os campos específicos da fonte.
-14. Rodar o gate card a card no total real. Uma falha impede empacotamento.
-15. Gerar o manifesto completo:
+15. Registrar `release_gate=nebli-e1-deck-release-v1` no `deck-data.json`, com
+    hashes da E1 fonte/PDF, revisão semântica, teto e matriz conceito → âncora →
+    qualidade → cards. Todo nuclear exige cobertura 2–3 e toda omissão ou
+    ambiguidade nuclear precisa estar resolvida.
+16. Rodar o gate card a card no total real. Uma falha impede empacotamento.
+17. Fechar a entrega pelo comando único:
 
-    `python flashcards/scripts/gerar_manifesto_ankidroid.py --slug <slug> --deck-data arquivos-trabalho/<slug>/deck-data.json`
+    `python flashcards/scripts/finalizar_entrega_canonica.py --slug <slug> --deck-data arquivos-trabalho/<slug>/deck-data.json --validation-report arquivos-trabalho/<slug>/validacao-cards.json --out-dir entregas/<slug>`
 
-16. O gerador:
+18. O gerador:
+    - recusa `deck-data.json` sem `release_gate` aprovado;
+    - prova por SHA-256 que E1 fonte e PDF são os artefatos revisados;
+    - prova que todo nuclear está coberto e todo card tem conceito/âncora;
     - exige os quatro metadados e deriva exclusivamente
       `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
     - rejeita `target_deck` manual divergente;
@@ -47,8 +58,8 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
     - embute mídia nova por SHA-256/base64;
     - rejeita identidades duplicadas;
     - fixa `expected_card_count` no número real do deck.
-17. No tablet, abrir o manifesto no Nebli Companion.
-18. O Companion:
+19. No tablet, tocar no manifesto; o Android abre o Nebli Companion.
+20. O Companion inicia a instalação automaticamente:
     - busca a nota AnKing pelo contexto e escolhe o sibling pela resposta
       esperada, sem misturar os dois scores;
     - trata o nome local do deck AnKing como dica e rebusca por marcador quando
@@ -60,24 +71,29 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
     - verifica fonte, siblings, render e contagem;
     - faz rollback das notas novas se houver falha parcial;
     - seleciona o deck correto e abre o AnkiDroid.
-19. O recibo final precisa provar:
+21. O recibo final precisa provar:
     - `installed_card_count == expected_card_count`;
     - nenhuma falha;
     - nenhuma fonte alterada;
     - deck correto selecionado.
-20. Entregar E1, manifesto completo e relatório/recibo. Atualizar checkpoint e
-    memória canônica do projeto.
+22. Entregar ao usuário somente E1/PDF e manifesto. `deck-data`, validações e
+    relatórios continuam como artefatos internos. Atualizar checkpoint e memória
+    canônica do projeto.
 
 ## Bloqueios
 
 Bloqueiam a conclusão:
 
 - lacuna nuclear ignorada;
+- E1 sem revisão independente ou que ainda dependa dos slides para o core;
+- objetivo, mecanismo ou informação visual da aula sem decisão de cobertura;
 - card sem âncora E1;
 - card não atômico ou irrelevante;
 - teto excedido;
 - AnKing escolhido apenas por tema semelhante;
 - autoral direto sem busca AnKing completa e motivo real de rejeição;
+- card não-AnKing sem três buscas independentes, expansão de escopo, revisão de
+  siblings e registro dos candidatos/rejeições;
 - AnKing previamente validado que caiu silenciosamente em fallback;
 - AnKing sem fallback no plano final;
 - autoral com mais de uma recuperação/cloze ou cloze longo;

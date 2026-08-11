@@ -69,4 +69,4 @@ A aula só fecha quando:
 
 ## Configuração ativa
 
-`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v7`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.
+`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v8`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, release gate `nebli-e1-deck-release-v1`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.

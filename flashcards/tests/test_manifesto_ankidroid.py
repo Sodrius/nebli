@@ -7,7 +7,10 @@ SCRIPT = Path(__file__).parents[1] / "scripts" / "gerar_manifesto_ankidroid.py"
 
 
 def run(*args):
-    return subprocess.run([sys.executable, str(SCRIPT), *args], capture_output=True, text=True)
+    argv = list(args)
+    if "--deck-data" in argv and "--legacy-unreviewed-v3" not in argv:
+        argv.append("--legacy-unreviewed-v3")
+    return subprocess.run([sys.executable, str(SCRIPT), *argv], capture_output=True, text=True)
 
 
 def test_manifest_requires_nebli_target(tmp_path):

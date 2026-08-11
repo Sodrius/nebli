@@ -5,6 +5,7 @@ Aplicativo Android mínimo para instalar um deck-aula diretamente na coleção j
 ## O que ele faz
 
 - abre `*.ankidroid.json` gerado pelo `nebli-core`;
+- exige o release gate que liga o deck à E1 revisada e à cobertura nuclear;
 - pede a permissão oficial `com.ichi2.anki.permission.READ_WRITE_DATABASE`;
 - consulta notas com o Content Provider oficial do AnkiDroid;
 - cria `NEBLI::*` quando necessário;
@@ -29,24 +30,22 @@ gradle :app:assembleDebug
 
 ## Uso no tablet
 
-1. No AnkiDroid, habilite a API/integração com outros apps e conceda a permissão quando solicitado.
-2. Instale o APK do Nebli Companion.
-3. Gere o manifesto com:
+1. No primeiro uso, conceda ao Companion a permissão oficial do AnkiDroid.
+2. O pipeline gera o manifesto canônico com:
 
 ```bash
-python flashcards/scripts/montar_deck_aula.py \
-  --backend ankidroid \
+python flashcards/scripts/gerar_manifesto_ankidroid.py \
   --slug <slug> \
-  --deck "NEBLI::<UC>::<Prova>::<Componente>::<Aula>" \
-  --curado flashcards/curadoria/<slug>-curado.json
+  --deck-data arquivos-trabalho/<slug>/deck-data.json \
+  --out flashcards/manifests/<slug>.ankidroid.json
 ```
 
-4. Abra o `.ankidroid.json` no Nebli Companion.
-5. O recibo exibido deve terminar com `"ok": true`.
+3. Toque no `.ankidroid.json`. A instalação começa sozinha e, com o recibo
+   aprovado, o AnkiDroid abre já no deck correto.
 
 ## Busca AnKing
 
 O manifesto fornece várias `search_queries`, `expected_answers` e restrições de
-contexto. `anking_required=true` bloqueia fallback silencioso quando a curadoria
-já confirmou um card adequado. O protocolo completo está em
+contexto. No pipeline v8, todo card AnKing curado usa `anking_required=true`,
+bloqueando fallback silencioso. O protocolo completo está em
 `docs/canon/ANKIDROID-COMPANION.md`.

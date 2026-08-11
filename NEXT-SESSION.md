@@ -6,7 +6,7 @@ Este é o ponto de entrada operacional para uma nova sessão.
 
 A infraestrutura do Deck-Aula está pronta no `main`:
 
-- pipeline `e1-deck-v7`;
+- pipeline `e1-deck-v8`;
 - Companion AnkiDroid final instalado no tablet;
 - conexão real com AnkiDroid testada;
 - cópia segura real testada;
@@ -28,7 +28,8 @@ Isso deve ser suficiente.
 
 1. Leia `CLAUDE.md`, este arquivo, `MEMORY.md`, `ERROS.md` e `config/pipeline.json`.
 2. Leia `docs/canon/CARD-QUALITY.md`, `docs/canon/ANKIDROID-COMPANION.md`, `docs/canon/LOCAL-DECKS-AND-MEDIA.md`, `docs/canon/PIPELINE-E1-DECK.md` e `.claude/commands/resumo.md`.
-3. Confirme mecanicamente `pipeline_version=e1-deck-v7` e schema `nebli-ankidroid-deck-v3`.
+3. Confirme mecanicamente `pipeline_version=e1-deck-v8`, release gate
+   `nebli-e1-deck-release-v1` e schema `nebli-ankidroid-deck-v3`.
 4. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
 5. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
 

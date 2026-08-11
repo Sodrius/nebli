@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Componente",
+    "nome_curto": "Nome da aula"
+  },
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "etapa1.typ",
+    "e1_source_sha256": "SHA256_DO_FONTE_REVISADO",
+    "e1_pdf": "Nome da aula - E1.pdf",
+    "e1_pdf_sha256": "SHA256_DO_PDF_REVISADO",
+    "card_budget_hard_max": 40,
+    "e1_review": {
+      "slide_inventory_complete": true,
+      "objectives_covered": true,
+      "core_coverage_complete": true,
+      "mechanisms_explicit": true,
+      "visual_information_explained": true,
+      "core_study_without_slides": true,
+      "step1_depth_reviewed": true,
+      "card_content_anchored": true,
+      "independent_review_passed": true,
+      "notes_review_status": "unavailable",
+      "unresolved_core_omissions": [],
+      "unresolved_ambiguities": [],
+      "summary": "Revisão independente concluída contra slides, objetivos e matriz de cobertura."
+    },
+    "concepts": [
+      {
+        "concept_id": "c001",
+        "importance": "nuclear",
+        "e1_anchor": "Trecho literal da E1 que ensina o conceito.",
+        "coverage_quality": 3,
+        "card_keys": ["c001-anking"],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "AnKing note/tag ou bibliografia",
+          "rationale": "Aprofunda o mecanismo do mesmo conceito sem abrir um tópico lateral."
+        }
+      }
+    ]
+  },
+  "cards": [
+    {
+      "card_key": "c001-anking",
+      "concept_id": "c001",
+      "source": "anking",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "query": "medical English note context",
+      "aliases": ["independent medical alias"],
+      "search_queries": ["medical English note context", "independent medical alias"],
+      "expected_answers": ["short answer"],
+      "must_contain": [],
+      "must_not_contain": [],
+      "anking_required": true,
+      "fallback": {
+        "source": "authored",
+        "text": "Unambiguous medical context identifies {{c1::answer}}.",
+        "extra": "Explicação curta em português que apoia a recuperação.",
+        "front_language": "en",
+        "extra_language": "pt-BR",
+        "retrieval_target": "Uma recuperação específica.",
+        "authored_quality": {
+          "single_retrieval": true,
+          "unambiguous_prompt": true,
+          "no_functional_duplicate": true,
+          "extra_only_supports_answer": true,
+          "medical_english_reviewed": true
+        }
+      }
+    }
+  ]
+}

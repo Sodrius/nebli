@@ -4,10 +4,12 @@ Cada `/resumo` entrega:
 
 1. `<Aula> - E1.pdf` — material para aprender, sempre entregue e apontado no
    relatório junto ao fonte `typst-build/<slug>/etapa1.typ`;
-2. `<Aula>.apkg` — material para reter;
-3. `relatorio-final-<slug>.json` — cobertura, fontes, visual e auditoria.
+2. `<Aula>.ankidroid.json` — pacote único que instala o deck completo pelo Nebli
+   Companion e termina abrindo o AnkiDroid no deck correto.
 
-O PDF termina após E1/Resumindo. E2, E3 e RemNote estão suspensos.
+O PDF termina após E1/Resumindo. E2, E3, RemNote e APKG estão fora do fluxo
+normal. Contratos, relatórios e validações são mantidos internamente, sem poluir
+a entrega ao usuário.
 
 ## Deck
 
@@ -30,5 +32,6 @@ O PDF termina após E1/Resumindo. E2, E3 e RemNote estão suspensos.
 - AnKing/decks externos consultados antes de autorar;
 - necessidades visuais satisfeitas;
 - originais privados intocados;
-- APKG offline aberto, inspecionado e renderizado.
-- total real do APKG igual ao total previsto e dentro do teto congelado.
+- manifesto v3 aprovado pelo `release_gate=nebli-e1-deck-release-v1`;
+- total instalado no AnkiDroid igual ao previsto e dentro do teto congelado;
+- E1 fonte/PDF congeladas por hash e revisão semântica independente aprovada.

@@ -24,6 +24,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from validar_release_e1_deck import SCHEMA as RELEASE_SCHEMA, validate_release
+
 SCHEMA_V1 = "nebli-ankidroid-v1"
 SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
 SCHEMA_V3 = "nebli-ankidroid-deck-v3"
@@ -113,7 +115,7 @@ def _word_count(s: str) -> int:
     return len([x for x in re.split(r"\s+", s.strip()) if x])
 
 
-def _validate_authored(card: dict[str, Any], where: str) -> None:
+def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False) -> None:
     if card.get("source") != "authored":
         raise ValueError(f"{where}: fallback/autoral deve ter source=authored")
     text = str(card.get("text") or "")
@@ -134,6 +136,52 @@ def _validate_authored(card: dict[str, Any], where: str) -> None:
         raise ValueError(f"{where}: cloze de 3 palavras exige justificativa")
     if _word_count(extra) > 100:
         raise ValueError(f"{where}: Extra longo demais")
+    if len(re.sub(r"<[^>]+>", "", text)) > 360:
+        raise ValueError(f"{where}: frente excede 360 caracteres")
+    if strict:
+        if not str(card.get("retrieval_target") or "").strip():
+            raise ValueError(f"{where}: retrieval_target obrigatório")
+        quality = card.get("authored_quality")
+        if not isinstance(quality, dict):
+            raise ValueError(f"{where}: authored_quality obrigatório")
+        for key in (
+            "single_retrieval",
+            "unambiguous_prompt",
+            "no_functional_duplicate",
+            "extra_only_supports_answer",
+            "medical_english_reviewed",
+        ):
+            if quality.get(key) is not True:
+                raise ValueError(f"{where}: authored_quality.{key}=true é obrigatório")
+
+
+def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
+    if card.get("anking_search_complete") is not True:
+        raise ValueError(f"{where}: exige anking_search_complete=true")
+    queries = card.get("anking_search_queries")
+    if not isinstance(queries, list):
+        queries = []
+    distinct = {str(value).strip().casefold() for value in queries if str(value).strip()}
+    if len(distinct) < 3:
+        raise ValueError(f"{where}: exige ao menos 3 buscas AnKing independentes")
+    if card.get("anking_search_scope_expanded") is not True:
+        raise ValueError(f"{where}: exige anking_search_scope_expanded=true")
+    if card.get("anking_siblings_reviewed") is not True:
+        raise ValueError(f"{where}: exige anking_siblings_reviewed=true")
+    candidates = card.get("anking_candidates_reviewed")
+    if not isinstance(candidates, int) or isinstance(candidates, bool) or candidates < 0:
+        raise ValueError(f"{where}: anking_candidates_reviewed deve ser inteiro >=0")
+    reason = str(card.get("anking_rejection_reason") or "").strip()
+    if len(reason) < 20:
+        raise ValueError(f"{where}: anking_rejection_reason precisa ser concreto")
+    rejections = card.get("anking_rejections") or []
+    if candidates > 0:
+        if not isinstance(rejections, list) or not rejections:
+            raise ValueError(f"{where}: candidatos AnKing exigem anking_rejections[]")
+        for index, rejection in enumerate(rejections):
+            if not isinstance(rejection, dict) or not str(rejection.get("candidate") or "").strip() \
+                    or len(str(rejection.get("reason") or "").strip()) < 10:
+                raise ValueError(f"{where}: anking_rejections[{index}] incompleta")
 
 
 def _validate_masks(card: dict[str, Any], where: str) -> None:
@@ -255,13 +303,14 @@ def _embed_authored_extra_images(
 
 
 def _prepare_fallback(
-    fallback: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str
+    fallback: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str,
+    *, strict: bool = False,
 ) -> dict[str, Any]:
     f = deepcopy(fallback)
     source = str(f.get("source") or "").lower()
     f["source"] = source
     if source == "authored":
-        _validate_authored(f, where)
+        _validate_authored(f, where, strict=strict)
         _embed_authored_extra_images(f, base_dir, media, where)
     elif source == "io":
         _validate_masks(f, where)
@@ -273,7 +322,7 @@ def _prepare_fallback(
 
 def _prepare_v3_card(
     raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]],
-    anking_source_filter: str,
+    anking_source_filter: str, *, strict: bool = False,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
@@ -312,7 +361,9 @@ def _prepare_v3_card(
         fallback = card.get("fallback")
         if not isinstance(fallback, dict):
             raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
-        card["fallback"] = _prepare_fallback(fallback, base_dir, media, f"{key}.fallback")
+        card["fallback"] = _prepare_fallback(
+            fallback, base_dir, media, f"{key}.fallback", strict=strict
+        )
         expected_answers = card.get("expected_answers") or []
         if isinstance(expected_answers, str):
             expected_answers = [expected_answers]
@@ -328,16 +379,24 @@ def _prepare_v3_card(
                 values = [values]
             card[field] = [str(x).strip() for x in values if str(x).strip()]
         card["anking_required"] = bool(card.get("anking_required", False))
+        if strict and source == "anking" and not card["anking_required"]:
+            raise ValueError(f"{key}: AnKing curado exige anking_required=true")
+        if strict and source == "external_deck":
+            _validate_anking_search_evidence(card, key)
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
     elif source == "authored":
-        if card.get("anking_search_complete") is not True:
+        if strict:
+            _validate_anking_search_evidence(card, key)
+        elif card.get("anking_search_complete") is not True:
             raise ValueError(f"{key}: autoral direto exige anking_search_complete=true")
-        if not str(card.get("anking_rejection_reason") or "").strip():
+        elif not str(card.get("anking_rejection_reason") or "").strip():
             raise ValueError(f"{key}: autoral direto exige anking_rejection_reason")
-        _validate_authored(card, key)
+        _validate_authored(card, key, strict=strict)
         _embed_authored_extra_images(card, base_dir, media, key)
     elif source == "io":
+        if strict:
+            _validate_anking_search_evidence(card, key)
         _validate_masks(card, key)
         _embed_io_media(card, base_dir, media, key)
     else:
@@ -385,6 +444,11 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     raw_cards = data.get("cards")
     if not isinstance(raw_cards, list) or not raw_cards:
         raise ValueError("deck-data sem cards")
+    release_result: dict[str, Any] | None = None
+    if not args.legacy_unreviewed_v3:
+        release_result = validate_release(data, source_path)
+        if not release_result["passed"]:
+            raise ValueError("release_gate reprovado: " + "; ".join(release_result["errors"]))
     deck_identity = _canonical_deck_identity(data)
     target_deck = _canonical_deck_name(deck_identity)
     supplied_target = args.deck or data.get("target_deck")
@@ -396,7 +460,10 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         data.get("anking_source_filter") or 'deck:"AnKing Step Deck"'
     ).strip()
     cards = [
-        _prepare_v3_card(x, i, source_path.parent, media, anking_source_filter)
+        _prepare_v3_card(
+            x, i, source_path.parent, media, anking_source_filter,
+            strict=release_result is not None,
+        )
         for i, x in enumerate(raw_cards)
         if isinstance(x, dict)
     ]
@@ -430,6 +497,20 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "cards": cards,
         "media": list(media.values()),
     }
+    if release_result is not None:
+        manifest["release_gate"] = {
+            key: release_result[key]
+            for key in (
+                "schema",
+                "card_budget_hard_max",
+                "concept_count",
+                "nuclear_concept_count",
+                "covered_nuclear_count",
+                "e1_source_sha256",
+                "e1_pdf_sha256",
+            )
+        }
+        manifest["release_gate"]["passed"] = True
     manifest["manifest_sha256"] = _hash_obj(manifest)
     return manifest
 
@@ -506,6 +587,11 @@ def main() -> int:
     ap.add_argument("--min-margin", type=float, default=0.06)
     ap.add_argument("--max-candidates", type=int, default=80)
     ap.add_argument("--require-anking-marker", action="store_true")
+    ap.add_argument(
+        "--legacy-unreviewed-v3",
+        action="store_true",
+        help="somente migração/testes: permite deck-data antigo sem release_gate",
+    )
     args = ap.parse_args()
 
     modes = sum(bool(x) for x in (args.deck_data, args.conceitos, args.curado))
