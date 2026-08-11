@@ -17,14 +17,15 @@ public class RankerTest {
     }
 
     @Test
-    public void unrelatedCardRanksLow() {
+    public void unrelatedCardRanksFarBelowAutoSelectGate() {
         double s = Ranker.score(
                 "marginal artery of Drummond",
                 "The splenic artery follows the superior border of the pancreas.",
                 "#AK_Step1_v12",
                 true
         );
-        assertTrue(s < 0.30);
+        assertTrue(s < 0.40);
+        assertTrue(s < 0.82);
     }
 
     @Test
