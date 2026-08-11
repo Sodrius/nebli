@@ -34,7 +34,7 @@ O que diferencia esses quatro alarmes é a quantidade de informação que cada u
 
 Repare que a célula endotelial já aparece aqui como peça ativa, e não como cenário. Ela é o ponto em que a PARTE IV vai se encaixar: o alarme não convoca células apenas produzindo sinais solúveis, ele reescreve a superfície do vaso para que a célula certa consiga aderir. Tudo isso somado — sinais de dano, citocinas, mediadores, endotélio ativado — constitui a resposta imune inata, voltada à restauração da homeostasia.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-06.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-06.png",
   largura: 76%,
   legenda: [O tecido em repouso já contém os sensores. Rompida a barreira, cada tipo celular dá um alarme com resolução diferente: dano genérico das células do tecido, informação específica dos macrófagos, reação rápida dos mastócitos e mudança de superfície do endotélio.])
 
@@ -44,7 +44,7 @@ Repare que a célula endotelial já aparece aqui como peça ativa, e não como c
 
 O reflexo é imaginar que a resposta inata é um ciclo fechado: entrou algo, a inata resolve, a homeostasia volta e o caso termina. Antes de desfazer essa impressão, vale ver o que a inata de fato executa. Dois processos concentram a maior parte do trabalho efetor. O primeiro é a fagocitose, um mecanismo antiquíssimo — protozoários já comem por fagocitose — que o organismo aproveitou: a célula engloba a partícula e, depois de ingeri-la, ainda tem trabalho a fazer com ela, porque digerir e processar o que foi comido é justamente o que abre a porta para a apresentação de antígeno na PARTE III. O segundo é a citotoxicidade celular, mais sofisticada: uma célula citotóxica reconhece uma célula-alvo, entrega a ela um sinal, e a célula-alvo executa um programa próprio de morte. A efetora não explode junto — ela se desliga do cadáver e vai procurar outro alvo.
 
-#figura-lateral("/figuras/imuno-01-organizacao-sistema-imune/slide-08.png",
+#figura-lateral("/figuras/imuno-02-organizacao-sistema-imune/slide-08.png",
   lado: "right",
   largura-figura: 42%,
   texto: [O ponto fino da citotoxicidade é que quem morre executa a própria morte. A célula efetora não perfura e dissolve o alvo como quem estoura um balão; ela entrega um sinal que aciona um programa de apoptose já escrito dentro da célula-alvo. É por isso que a mesma efetora pode matar várias células em sequência — ela gasta sinal, não gasta a si mesma —, e é por isso que a morte sai contida, sem derramar o conteúdo celular no tecido e sem ampliar a inflamação.],
@@ -110,7 +110,7 @@ Por que tanto vaivém? Porque cada linfócito reconhece um único antígeno. Par
 
 Falta a peça que fecha o mecanismo, e ela é a mais bonita: como o linfócito sabe que aquele ponto do vaso é um órgão linfoide secundário? Ele está dentro de um vaso sanguíneo; tudo o que ele enxerga é endotélio. A resposta é que os órgãos linfoides secundários possuem vênulas especiais, de endotélio alto — as #sigla("HEV", [high endothelial venules — vênulas de endotélio alto, porta de entrada do linfócito do sangue para o órgão linfoide secundário]). Enquanto o endotélio comum é achatado, o dessas vênulas é cúbico e alto, e expõe moléculas de adesão que funcionam como uma placa: aqui é o ponto de saída. O linfócito naïve carrega a chave correspondente — a L-selectina, ou CD62L, que reconhece as adressinas periféricas expostas na HEV — e a quimiocina apresentada ali, agindo sobre o receptor CCR7 do linfócito, converte esse toque em parada firme e entrada no órgão. É por isso que a HEV é o endereço: ela é o único trecho do vaso que exibe simultaneamente o ligante da selectina e a quimiocina de entrada.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-13.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-13.png",
   largura: 74%,
   legenda: [O circuito do linfócito naïve. Do órgão primário para o sangue, do sangue para o órgão linfoide secundário atravessando a HEV, e do órgão de volta ao sangue pela linfa. A entrada é pelo sangue, a saída é pela linfa — e nenhuma seta retorna ao órgão primário.])
 
@@ -128,7 +128,7 @@ Com as chaves novas, ele passa a procurar no organismo os pontos em que as célu
 
 Há ainda um refinamento que o professor faz questão de marcar: a redistribuição não é tão aleatória quanto parece. O linfócito aprende com o órgão linfoide em que foi ativado. Quem foi ativado no MALT tende a recircular pelo MALT; quem foi ativado num linfonodo tende a recircular por linfonodos. Faz sentido funcional — o tipo de agressão esperada na mucosa não é o mesmo esperado em outros territórios, e é bom que a célula treinada para um cenário volte a patrulhar aquele cenário. O saldo estrutural do sistema é uma geração somática e aleatória do repertório, uma distribuição inicial quase aleatória pelos órgãos linfoides e uma redistribuição contínua, que dá ao sistema imune uma fluidez histológica e funcional. Nenhum órgão linfoide é uma peça fixa: ele é um ponto de passagem com composição mutável, e é por isso que prever com exatidão onde e quando uma resposta vai acontecer é tão difícil.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-14.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-14.png",
   largura: 74%,
   legenda: [A circulação do linfócito ativado. O trajeto de saída é o mesmo — linfa e depois sangue —, mas o destino muda: em vez de voltar ao órgão linfoide secundário, ele procura tecidos onde o endotélio sinaliza perturbação.])
 
@@ -166,7 +166,7 @@ O macrófago é a segunda apresentadora, e a divisão de trabalho entre ele e a 
 
 O linfócito B é a terceira, e é o caso curioso — uma célula que tem receptor clonal e ainda assim apresenta antígeno. A apresentação dele é seletiva, e a palavra é precisa. Dendrítica e macrófago são fagocíticos: capturam de forma inespecífica o que passa na frente deles. O linfócito B não fagocita; ele tem uma âncora de altíssima afinidade para segurar antígeno, que é a imunoglobulina de membrana. A constante de afinidade desse receptor pelo seu antígeno é cerca de dez mil vezes maior do que a afinidade com que a dendrítica ou o macrófago capturam coisas em geral. A consequência é decisiva: com muito antígeno disponível, a dendrítica captura melhor; com pouquíssimo antígeno, quem pega é o linfócito B específico. Ele captura, processa, apresenta — e essa apresentação é o que permite que ele converse intimamente com o linfócito T que enxerga o mesmo antígeno. Dessa conversa saem dois sinais: um que ativa o linfócito T e outro que ativa o próprio linfócito B a fazer aquilo que ele sabe fazer, que é anticorpo. Sem essa apresentação, a resposta humoral nunca seria específica nem dependente de T.
 
-#figura-lateral("/figuras/imuno-01-organizacao-sistema-imune/slide-18.png",
+#figura-lateral("/figuras/imuno-02-organizacao-sistema-imune/slide-18.png",
   lado: "left",
   largura-figura: 40%,
   texto: [O elo molecular dessa conversa tem nome. Ao reconhecer o antígeno apresentado pelo linfócito B em MHC de classe II, o linfócito T auxiliar expressa CD40L, que se liga ao CD40 do linfócito B; junto com as citocinas que o T secreta, esse par é o sinal que autoriza o B a trocar a classe do anticorpo e a formar centro germinativo. É por isso que defeitos em CD40L produzem a síndrome de hiper-IgM — o B até produz IgM, mas nunca recebe a licença para trocar de classe.],
@@ -184,7 +184,7 @@ O baço recebe a informação diretamente pelo sangue — não tem linfa aferent
 
 O MALT recebe a informação da luz da mucosa, e a solução anatômica é bonita. No epitélio que recobre o tecido linfoide associado à mucosa existe uma célula especializada, a célula M, cuja função é servir de porta: ela capta o material da luz e o transporta através de si mesma por transcitose, entregando-o ao tecido linfoide logo abaixo. E há um segundo caminho: em microscopia intravital de placas de Peyer vê-se células dendríticas emitindo prolongamentos que atravessam as junções entre as células epiteliais e amostram diretamente o conteúdo da luz, sem romper a barreira.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-19.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-19.png",
   largura: 82%,
   legenda: [Três portas de entrada para a informação. No linfonodo ela vem pela linfa aferente; no baço, pelo sangue; no MALT, da luz da mucosa, via célula M e amostragem por células dendríticas.])
 
@@ -210,7 +210,7 @@ Quando o órgão linfoide recebe o estímulo correto, cada compartimento respond
 
 Uma última nota sobre o folículo: há linfócitos T dentro dele, e não por acaso. A resposta do linfócito B ao antígeno proteico depende de ajuda de linfócito T — são os T foliculares auxiliares que, pelo par CD40L–CD40 e por citocinas, autorizam a hipermutação e a troca de classe.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-20.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-20.png",
   largura: 80%,
   legenda: [A regionalização da expansão clonal. À esquerda, o folículo em repouso com a célula dendrítica folicular entre os linfócitos B; à direita, o mesmo folículo depois do estímulo correto, com o centro germinativo instalado.])
 
@@ -280,7 +280,7 @@ Ao mesmo tempo, o extravasamento de plasma e o aumento da pressão tecidual empu
 
 O fecho do circuito é o detalhe mais bonito do esquema: os produtos da resposta adquirida — anticorpos que vão para o plasma e células que vão para o sangue — passam a integrar aquilo que será recrutado no próximo episódio de lesão. Ou seja, numa segunda agressão a resposta inata já chega misturada com produtos da adquirida anterior. É exatamente isso que uma vacina fabrica: fazer com que, no primeiro alarme, já existam células e produtos plasmáticos capazes de lidar com aquele agente de maneira específica e mais eficiente.
 
-#figura-nebli("/figuras/imuno-01-organizacao-sistema-imune/slide-24.png",
+#figura-nebli("/figuras/imuno-02-organizacao-sistema-imune/slide-24.png",
   largura: 84%,
   legenda: [O esquema completo. À esquerda o eixo do tecido, com alarme e recrutamento; embaixo o eixo do órgão linfoide, com aferência da paisagem molecular e reconhecimento clonal; à direita, as setas tracejadas que devolvem os produtos da resposta adquirida ao recrutamento inato do episódio seguinte.])
 

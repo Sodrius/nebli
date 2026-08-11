@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- imuno-01-organizacao-sistema-imune | pipeline e1-deck-v9
+// MAIN.TYP -- imuno-02-organizacao-sistema-imune | pipeline e1-deck-v9
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *

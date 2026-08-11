@@ -1,4 +1,8 @@
 {
+  "companion_compat": {
+    "io_mode": "hide_all_guess_all",
+    "reason": "O Companion instalado no tablet é anterior ao commit 4e1d678 e ainda valida o nome legado do modo IO. O plano continua canônico (hide_two_guess_two, duas máscaras, pair_rationale); só o valor gravado no manifesto acompanha o runtime instalado. Remover quando o APK for reconstruído."
+  },
   "metadata": {
     "uc": "UC03",
     "prova": "P1",
@@ -8,9 +12,9 @@
   "release_gate": {
     "schema": "nebli-e1-deck-release-v1",
     "e1_source": "../../typst-build/etapa1.typ",
-    "e1_source_sha256": "c748b60e63eb5ae25db64eea497f7a7011cd3c09498e4203a7acac65e6023bbe",
-    "e1_pdf": "../../typst-build/imuno-01-organizacao-sistema-imune.pdf",
-    "e1_pdf_sha256": "dbc938654d5208df32b5ce5982ca7115251ae2ee992986def210831c1d189972",
+    "e1_source_sha256": "50f699830cf04915b4644ac2ab2cc6b4308ca5ad5e5dd8f958882f48c9d95b9b",
+    "e1_pdf": "../../typst-build/imuno-02-organizacao-sistema-imune.pdf",
+    "e1_pdf_sha256": "2583bf24b308a38fca9cc8d9e29c7a13e34fad5d8ec22fa9695ac930e72dd5cc",
     "card_budget_hard_max": 52,
     "e1_review": {
       "slide_inventory_complete": true,

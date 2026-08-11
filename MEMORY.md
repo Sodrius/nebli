@@ -52,13 +52,20 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Um único card inválido bloqueia o lote.
 - O recibo do Companion precisa confirmar `installed_card_count == expected_card_count`.
 
-## Primeira corrida real do v9 — imuno-01
+## Primeira corrida real do v9 — imuno-02
 
-`imuno-01-organizacao-sistema-imune` (UC03 · P1 · Imunologia) foi a primeira aula
+`imuno-02-organizacao-sistema-imune` (UC03 · P1 · Imunologia, confirmados na planilha
+mestre do Drive) foi a primeira aula
 real fechada no pipeline v9: E1 de 24 páginas, 44 conceitos, teto congelado em 52
 e **50 cards** (26 AnKing com fallback validado, 22 autorais, 2 IO), gate card a
 card 100% e release gate aprovado. Checkpoint em
-`arquivos-trabalho/imuno-01-organizacao-sistema-imune/CHECKPOINT.md`.
+`arquivos-trabalho/imuno-02-organizacao-sistema-imune/CHECKPOINT.md`.
+
+A primeira instalação bloqueou: o APK do tablet é anterior ao commit `4e1d678` e
+ainda exige o nome legado do modo IO. O Companion passou a aceitar os dois nomes
+e o `deck-data.json` pode declarar `companion_compat.io_mode` para gravar o valor
+que o runtime instalado entende, sem mexer no plano nem nos gates (`ERROS.md`
+#52). Reconstruído o APK a partir do `main`, o bloco de compatibilidade sai.
 
 Limitação registrada: a sessão que roda o pipeline pode não ter acesso à coleção
 AnkiDroid (ela vive no tablet). Nesse caso os cards AnKing viajam curados no

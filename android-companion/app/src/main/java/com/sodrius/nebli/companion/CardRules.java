@@ -73,7 +73,13 @@ public final class CardRules {
             double[][] boxes
     ) {
         List<String> failures = new ArrayList<>();
-        if (!"hide_two_guess_two".equals(mode)) failures.add("io_mode_must_be_hide_two_guess_two");
+        // O contrato canônico é hide_two_guess_two. O nome legado hide_all_guess_all
+        // descreve o mesmo comportamento para um card de uma ou duas máscaras e continua
+        // aceito: um manifesto novo não pode ser rejeitado por um APK antigo nem o
+        // contrário. O limite de duas máscaras vale para os dois nomes.
+        if (!"hide_two_guess_two".equals(mode) && !"hide_all_guess_all".equals(mode)) {
+            failures.add("io_mode_must_be_hide_two_guess_two");
+        }
         if (maskCount < 1) failures.add("io_requires_mask");
         if (maskCount > 2) failures.add("hide_two_guess_two_max_two_masks");
         if (maskCount > 1 && !coherentSet) failures.add("multi_mask_io_requires_coherent_set");

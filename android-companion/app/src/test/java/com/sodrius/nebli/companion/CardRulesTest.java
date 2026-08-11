@@ -92,6 +92,20 @@ public class CardRulesTest {
     }
 
     @Test
+    public void legacyIoModeNameIsStillAcceptedWithinTwoMaskLimit() {
+        double[][] good = new double[][]{{0.1, 0.2, 0.2, 0.08}, {0.6, 0.4, 0.15, 0.06}};
+        List<String> ok = CardRules.validateIo(
+                "hide_all_guess_all", 2, true, true, true, true, true, false, true, good
+        );
+        assertTrue(ok.toString(), ok.isEmpty());
+
+        List<String> unknown = CardRules.validateIo(
+                "hide_one_guess_one", 2, true, true, true, true, true, false, true, good
+        );
+        assertTrue(unknown.contains("io_mode_must_be_hide_two_guess_two"));
+    }
+
+    @Test
     public void ioAnswerLeakAndWrongMaskPolicyFail() {
         double[][] box = new double[][]{{0.1, 0.1, 0.2, 0.1}};
         List<String> failures = CardRules.validateIo(

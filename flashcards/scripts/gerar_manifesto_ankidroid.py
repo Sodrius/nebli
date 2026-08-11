@@ -31,6 +31,9 @@ SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
 SCHEMA_V3 = "nebli-ankidroid-deck-v3"
 CARD_CONTRACT = "nebli-card-quality-v1"
 CLOZE_RE = re.compile(r"\{\{c(\d+)::([^}:]+)(?:::[^}]*)?}}", re.I | re.S)
+CANONICAL_IO_MODE = "hide_two_guess_two"
+LEGACY_IO_MODE = "hide_all_guess_all"
+SUPPORTED_IO_WIRE_MODES = (CANONICAL_IO_MODE, LEGACY_IO_MODE)
 
 
 def _list_from_curado(data: Any) -> list[dict[str, Any]]:
@@ -187,7 +190,7 @@ def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
 def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -> None:
     if card.get("source") != "io":
         raise ValueError(f"{where}: IO deve ter source=io")
-    expected_mode = "hide_two_guess_two" if strict else "hide_all_guess_all"
+    expected_mode = CANONICAL_IO_MODE if strict else LEGACY_IO_MODE
     if card.get("mode") != expected_mode:
         raise ValueError(f"{where}: IO deve usar {expected_mode}")
     masks = card.get("masks")
@@ -402,7 +405,7 @@ def _prepare_authored_anking_images(card: dict[str, Any], where: str, *, strict:
 
 def _prepare_fallback(
     fallback: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str,
-    *, strict: bool = False,
+    *, strict: bool = False, io_wire_mode: str = CANONICAL_IO_MODE,
 ) -> dict[str, Any]:
     f = deepcopy(fallback)
     source = str(f.get("source") or "").lower()
@@ -414,6 +417,7 @@ def _prepare_fallback(
     elif source == "io":
         _validate_masks(f, where, strict=strict)
         _embed_io_media(f, base_dir, media, where)
+        f["mode"] = io_wire_mode
     else:
         raise ValueError(f"{where}: fallback deve ser authored ou io")
     return f
@@ -422,6 +426,7 @@ def _prepare_fallback(
 def _prepare_v3_card(
     raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]],
     anking_source_filter: str, *, strict: bool = False,
+    io_wire_mode: str = CANONICAL_IO_MODE,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
@@ -461,7 +466,8 @@ def _prepare_v3_card(
         if not isinstance(fallback, dict):
             raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
         card["fallback"] = _prepare_fallback(
-            fallback, base_dir, media, f"{key}.fallback", strict=strict
+            fallback, base_dir, media, f"{key}.fallback", strict=strict,
+            io_wire_mode=io_wire_mode,
         )
         expected_answers = card.get("expected_answers") or []
         if isinstance(expected_answers, str):
@@ -499,6 +505,7 @@ def _prepare_v3_card(
             _validate_anking_search_evidence(card, key)
         _validate_masks(card, key, strict=strict)
         _embed_io_media(card, base_dir, media, key)
+        card["mode"] = io_wire_mode
     else:
         raise ValueError(f"{key}: source não suportado: {source}")
 
@@ -559,10 +566,21 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     anking_source_filter = str(
         data.get("anking_source_filter") or 'deck:"AnKing Step Deck"'
     ).strip()
+    compat = data.get("companion_compat") or {}
+    if not isinstance(compat, dict):
+        raise ValueError("companion_compat deve ser objeto")
+    io_wire_mode = str(compat.get("io_mode") or CANONICAL_IO_MODE).strip()
+    if io_wire_mode not in SUPPORTED_IO_WIRE_MODES:
+        raise ValueError(
+            f"companion_compat.io_mode inválido: {io_wire_mode}; use um de {SUPPORTED_IO_WIRE_MODES}"
+        )
+    if io_wire_mode != CANONICAL_IO_MODE and len(str(compat.get("reason") or "").strip()) < 20:
+        raise ValueError("companion_compat.io_mode legado exige reason concreto")
     cards = [
         _prepare_v3_card(
             x, i, source_path.parent, media, anking_source_filter,
             strict=release_result is not None,
+            io_wire_mode=io_wire_mode,
         )
         for i, x in enumerate(raw_cards)
         if isinstance(x, dict)
@@ -585,6 +603,7 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "mutate_source": False,
         "open_ankidroid_after_install": True,
         "card_quality_contract": CARD_CONTRACT,
+        "io_mode_contract": CANONICAL_IO_MODE,
         "search": {
             "min_score": args.min_score,
             "min_margin": args.min_margin,
@@ -597,6 +616,11 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "cards": cards,
         "media": list(media.values()),
     }
+    if io_wire_mode != CANONICAL_IO_MODE:
+        manifest["companion_compat"] = {
+            "io_mode": io_wire_mode,
+            "reason": str(compat.get("reason") or "").strip(),
+        }
     if release_result is not None:
         manifest["release_gate"] = {
             key: release_result[key]

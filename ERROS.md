@@ -84,6 +84,17 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     precisa executar no runtime Android com AnkiDroid oficial instalado, criar
     fonte local, resolver/copy AnKing, instalar autoral e confirmar a contagem
     real de cards pelo Content Provider antes de publicar o artefato.
+52. Gate de runtime do Companion não pode ser deduzido da fonte do repo: o APK
+    instalado pode ser mais antigo que o canônico. Uma renomeação de valor de
+    protocolo — como `hide_all_guess_all` virar `hide_two_guess_two` — quebra a
+    instalação inteira com `IllegalArgumentException` mesmo com o plano correto.
+    Regras: o Companion aceita o nome canônico **e** o legado enquanto o
+    comportamento for o mesmo; o `deck-data.json` pode declarar
+    `companion_compat.io_mode` com motivo concreto para gravar o nome que o
+    runtime instalado entende; o plano e os gates continuam no valor canônico e o
+    manifesto registra `io_mode_contract`. Ao mudar qualquer valor de protocolo
+    lido pelo Companion, aceitar o valor anterior na mesma versão.
+
 ## Qualidade funcional da recuperação
 
 36. Passar nos gates formais não significa ser um bom card. A revisão final

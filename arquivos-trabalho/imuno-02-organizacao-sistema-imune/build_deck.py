@@ -13,7 +13,7 @@ from pathlib import Path
 
 WD = Path(__file__).resolve().parent
 ROOT = WD.parents[1]
-SLUG = "imuno-01-organizacao-sistema-imune"
+SLUG = "imuno-02-organizacao-sistema-imune"
 E1_SOURCE = "../../typst-build/etapa1.typ"
 E1_PDF = f"../../typst-build/{SLUG}.pdf"
 HARD_MAX = 52
@@ -801,6 +801,15 @@ def main() -> None:
     assert len(cards) <= HARD_MAX, f"{len(cards)} cards excede hard_max {HARD_MAX}"
 
     deck = {
+        "companion_compat": {
+            "io_mode": "hide_all_guess_all",
+            "reason": (
+                "O Companion instalado no tablet é anterior ao commit 4e1d678 e ainda valida o "
+                "nome legado do modo IO. O plano continua canônico (hide_two_guess_two, duas "
+                "máscaras, pair_rationale); só o valor gravado no manifesto acompanha o runtime "
+                "instalado. Remover quando o APK for reconstruído."
+            ),
+        },
         "metadata": {
             "uc": "UC03",
             "prova": "P1",

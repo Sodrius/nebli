@@ -1,4 +1,4 @@
-# CHECKPOINT — imuno-01-organizacao-sistema-imune
+# CHECKPOINT — imuno-02-organizacao-sistema-imune
 
 Pipeline: `e1-deck-v9` · backend `ankidroid` · schema `nebli-ankidroid-deck-v3`
 Fase: **concluída** (E1 congelada, gate card a card 100%, release gate aprovado, manifesto gerado).
@@ -24,8 +24,8 @@ Subdeck de opcionais: `…::Optional` (1 card).
 ## E1
 
 - `typst-build/etapa1.typ` (4 PARTES, 18 subtópicos) + `resumindo.typ` (20 blocos) + `main.typ`.
-- PDF: `typst-build/imuno-01-organizacao-sistema-imune.pdf` (24 páginas).
-- Figuras: `figuras/imuno-01-organizacao-sistema-imune/slide-NN.png` (renderizadas do PDF da aula; não versionadas).
+- PDF: `typst-build/imuno-02-organizacao-sistema-imune.pdf` (24 páginas).
+- Figuras: `figuras/imuno-02-organizacao-sistema-imune/slide-NN.png` (renderizadas do PDF da aula; não versionadas).
 - Revisão independente registrada em `release_gate.e1_review`: inventário dos 26 slides, os 5 objetivos, mecanismos explícitos, diagramas interpretados em prosa, Step 1 revisado, nenhuma omissão ou ambiguidade nuclear pendente.
 
 ## Aprofundamento Step 1 incorporado à E1 antes dos cards
@@ -55,6 +55,42 @@ Geometria calculada a partir das caixas reais de texto do PDF da aula; previews 
 
 A coleção AnkiDroid não é acessível a partir deste ambiente de execução (o Companion resolve AnKing localmente, no tablet). Os 26 cards `source="anking"` foram curados por conhecimento do conteúdo AnKing/First Aid e viajam no manifesto com `search_queries`, `expected_answers`, restrições e fallback autoral validado; o `score` registrado na validação é o mínimo contratual (`score_basis="plan_contract_minimum"`), não uma medida local. Como `anking_required=true`, uma nota ausente na coleção bloqueia o lote em vez de cair em fallback silencioso — comportamento canônico esperado.
 
+## Incidente de instalação (corrigido)
+
+Primeira tentativa de instalação bloqueou com
+`IllegalArgumentException: io-recirculacao-hev-linfa IO gate: [io_mode_must_be_hide_all_guess_all]`
+e nenhum lote parcial foi mantido — o rollback funcionou como previsto.
+
+Causa: o APK instalado no tablet é anterior ao commit `4e1d678` (PR #19), que
+renomeou o modo IO de `hide_all_guess_all` para `hide_two_guess_two`. O plano
+estava correto; o runtime instalado é que ainda valida o nome antigo. Comparado o
+`FullDeckInstaller` pré-#19: o caminho IO é idêntico ao atual, e a única
+divergência é o nome do modo (o limite de duas máscaras já é cumprido).
+
+Correção em três frentes:
+
+1. `CardRules.validateIo` passa a aceitar o nome canônico **e** o legado,
+   mantendo o teto de duas máscaras nos dois — testado no runtime real da classe.
+2. `gerar_manifesto_ankidroid.py` ganhou `companion_compat.io_mode`: o plano e os
+   gates seguem em `hide_two_guess_two` e só o valor gravado no manifesto
+   acompanha o runtime instalado; o manifesto declara `io_mode_contract`.
+3. `ERROS.md` #52 registra a regra geral para qualquer valor de protocolo.
+
+Quando o APK for reconstruído a partir do `main` atual, basta remover o bloco
+`companion_compat` do `deck-data.json` e regerar.
+
+## Metadados confirmados
+
+Planilha mestre "2026" (Drive do Davi), linha `07/08 · 08:00–10:00 ·
+Anfiteatro Microbiologia nº 2104 · IM · Organização e funcionamento do sistema
+imune · P1`. Confirma componente Imunologia e **prova P1**; a UC03 vem do bloco
+em que a aula está, o mesmo de `radiologia-01-ferramentas-diagnostico`. A aula
+seguinte na planilha, "Reconhecimento pelo sistema imune na resposta inata"
+(11/08, P1), é exatamente o gancho deixado na conclusão da E1.
+
+Slug corrigido para `imuno-02-…`: a numeração é por disciplina e a UC02 já tem
+`imuno-01-disturbios-imunidade`, do mesmo docente.
+
 ## Próximo passo
 
-Abrir `entregas/imuno-01-organizacao-sistema-imune/imuno-01-organizacao-sistema-imune.ankidroid.json` no Nebli Companion e conferir no recibo `installed_card_count == 50`.
+Abrir `entregas/imuno-02-organizacao-sistema-imune/imuno-02-organizacao-sistema-imune.ankidroid.json` no Nebli Companion e conferir no recibo `installed_card_count == 50`.
