@@ -44,14 +44,17 @@ public final class FullDeckInstaller {
         validateManifest(manifest);
         String slug = manifest.getString("lesson_slug");
         String rootDeck = manifest.getString("target_deck");
-        long rootDid = anki.ensureDeck(rootDeck);
         String optionalDeck = rootDeck + "::Optional";
-        long optionalDid = hasOptional(manifest.getJSONArray("cards")) ? anki.ensureDeck(optionalDeck) : -1L;
 
+        // Planning is read-only. Finish it before creating decks so a malformed
+        // manifest or provider search failure can never leave an empty deck.
         List<Plan> plans = planAll(manifest);
         if (plans.size() != manifest.getInt("expected_card_count")) {
             throw new IllegalStateException("planned count != expected_card_count");
         }
+
+        long rootDid = anki.ensureDeck(rootDeck);
+        long optionalDid = hasOptional(manifest.getJSONArray("cards")) ? anki.ensureDeck(optionalDeck) : -1L;
 
         Set<String> neededMedia = new HashSet<>();
         for (Plan p : plans) neededMedia.addAll(p.mediaKeys);
@@ -196,7 +199,12 @@ public final class FullDeckInstaller {
         Map<Long, Candidate> candidates = new LinkedHashMap<>();
         for (String q : queries) {
             String ankiQuery = sourceFilter.isEmpty() ? q : sourceFilter + " " + q;
-            for (AnkiBridge.NoteSnapshot n : anki.searchNotes(ankiQuery, maxCandidates, true)) {
+            // One query can be unsupported by a specific AnkiDroid/provider
+            // version. Treat it as unresolved so the validated fallback is
+            // used instead of aborting the entire lesson.
+            List<AnkiBridge.NoteSnapshot> found = ProviderSearchPolicy.unresolvedOnProviderFailure(
+                    () -> anki.searchNotes(ankiQuery, maxCandidates, true));
+            for (AnkiBridge.NoteSnapshot n : found) {
                 boolean ankingLike = Ranker.looksAnKing(n.tags);
                 if (requireMarker && !ankingLike) continue;
                 Candidate c = candidates.computeIfAbsent(n.nid, ignored -> new Candidate(n));
