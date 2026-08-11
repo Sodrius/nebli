@@ -109,6 +109,23 @@ public final class CardRules {
         return count;
     }
 
+    /** Basic-note fallback when a collection has no cloze model. */
+    public static String clozeQuestion(String text) {
+        if (text == null) return "";
+        Matcher m = CLOZE.matcher(text);
+        if (!m.find()) return text;
+        return m.replaceFirst("<span class=\"cloze\">[…]</span>");
+    }
+
+    /** Shows the original sentence with the answer emphasized. */
+    public static String clozeAnswer(String text) {
+        if (text == null) return "";
+        Matcher m = CLOZE.matcher(text);
+        if (!m.find()) return text;
+        String answer = m.group(2);
+        return m.replaceFirst("<span class=\"cloze\"><b>" + Matcher.quoteReplacement(answer) + "</b></span>");
+    }
+
     private static int wordCount(String s) {
         if (s == null) return 0;
         String x = s.trim().replaceAll("\\s+", " ");
