@@ -289,6 +289,9 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     ]
     if len(cards) != len(raw_cards):
         raise ValueError("deck-data contém card não-objeto")
+    keys = [c["card_key"] for c in cards]
+    if len(set(keys)) != len(keys):
+        raise ValueError("card_key duplicado no deck final")
 
     manifest: dict[str, Any] = {
         "schema": SCHEMA_V3,
