@@ -17,6 +17,12 @@ public class RankerTest {
     }
 
     @Test
+    public void normalizesClozeHintAndLiteralClosingBraces() {
+        assertEquals("tlr4 recognizes lps", Ranker.normalize(
+                "TLR4 recognizes {{c1::LPS::microbial ligand}}"));
+    }
+
+    @Test
     public void unrelatedCardCannotCrossAutoSelectGate() {
         double s = Ranker.score(
                 "marginal artery of Drummond",

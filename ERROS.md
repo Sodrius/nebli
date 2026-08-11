@@ -77,3 +77,6 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     não deve ser compilada em inicializador estático crítico. OpenJDK e Android
     podem divergir; um padrão aceito apenas no teste JVM não pode inutilizar o
     Companion com `ExceptionInInitializerError`.
+34. Ao corrigir incompatibilidade de regex Android/JVM, auditar todas as
+    ocorrências de `Pattern.compile`, `replaceAll`, `split` e `matches` no app;
+    não encerrar a correção após encontrar somente o primeiro padrão inválido.
