@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v4",
+  "pipeline_version": "e1-deck-v5",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -8,7 +8,9 @@
   "anki_backend": "ankidroid",
   "anki_backend_fallback": "desktop",
   "ankidroid": {
-    "manifest_schema": "nebli-ankidroid-v1",
+    "manifest_schema": "nebli-ankidroid-lesson-v2",
+    "legacy_manifest_schema": "nebli-ankidroid-v1",
+    "resolution_mode": "concepts_local",
     "write_prefix": "NEBLI::",
     "copy_mode": "exact_fields",
     "preserve_note_type": true,
@@ -16,7 +18,15 @@
     "reset_scheduling": true,
     "selected_sibling_policy": "suspend_unselected",
     "mutate_source": false,
-    "require_install_receipt": true
+    "require_install_receipt": true,
+    "ranking": {
+      "min_score": 0.82,
+      "min_margin": 0.06,
+      "max_candidates": 80,
+      "prefer_anking": true,
+      "require_anking_marker": false,
+      "ambiguous_policy": "leave_unresolved"
+    }
   },
   "require_offline_apkg": false,
   "require_apkg_audit": false,
