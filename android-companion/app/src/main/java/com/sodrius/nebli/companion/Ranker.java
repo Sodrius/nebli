@@ -19,7 +19,9 @@ public final class Ranker {
         String x = s.replace('\u001f', ' ')
                 .replaceAll("<[^>]+>", " ")
                 .replaceAll("\\{\\{c\\d+::", " ")
-                .replaceAll("::[^}]+}}", " ")
+                // Android rejects bare closing braces in regexes even when
+                // the desktop OpenJDK used by unit tests accepts them.
+                .replaceAll("::[^}]+\\}\\}", " ")
                 .replace("}}", " ")
                 .replace("&nbsp;", " ");
         x = Normalizer.normalize(x, Normalizer.Form.NFD).replaceAll("\\p{M}+", "");
