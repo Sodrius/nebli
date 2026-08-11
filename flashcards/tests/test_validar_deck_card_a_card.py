@@ -33,6 +33,8 @@ def anking_card(i: int) -> dict:
         "search_queries_ok": True,
         "expected_answers_ok": True,
         "anking_marker_ok": True,
+        "anking_required": True,
+        "resolved_without_fallback": True,
         "score": 0.94,
         "second_score": 0.63,
         "exact_phrase": True,
@@ -57,6 +59,7 @@ def external_card(i: int) -> dict:
         "second_score": 0.62,
         "exact_phrase": True,
         "requires_visual": False,
+        **anking_search_audit(),
     }
 
 
@@ -75,6 +78,7 @@ def authored_card(i: int) -> dict:
         "has_extra_media": False,
         "anking_search_complete": True,
         "anking_rejection_reason": "No exact AnKing retrieval remained after review.",
+        **anking_search_audit(),
     }
 
 
@@ -94,6 +98,17 @@ def io_card(i: int) -> dict:
         "answer_leak": False,
         "mask_geometry_ok": True,
         "media_ok": True,
+        **anking_search_audit(),
+    }
+
+
+def anking_search_audit() -> dict:
+    return {
+        "anking_search_queries_ok": True,
+        "anking_scope_expanded": True,
+        "anking_siblings_reviewed": True,
+        "anking_candidates_reviewed_ok": True,
+        "anking_rejections_ok": True,
     }
 
 
@@ -232,6 +247,26 @@ def test_direct_authored_requires_anking_search_evidence():
     assert result["ok"] is False
     assert "anking_search_incomplete" in result["cards"][31]["failures"]
     assert "anking_rejection_reason_missing" in result["cards"][31]["failures"]
+
+
+def test_non_anking_card_requires_broad_audited_search():
+    report = realistic_40_card_report()
+    card = report["cards"][31]
+    card["anking_search_queries_ok"] = False
+    card["anking_siblings_reviewed"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    failures = result["cards"][31]["failures"]
+    assert "anking_search_queries_ok" in failures
+    assert "anking_siblings_reviewed" in failures
+
+
+def test_selected_anking_is_always_required():
+    report = realistic_40_card_report()
+    report["cards"][3]["anking_required"] = False
+    result = gate.validate_report(report, 0.82, 0.06)
+    assert result["ok"] is False
+    assert "anking_required" in result["cards"][3]["failures"]
 
 
 def test_external_deck_uses_same_rank_and_fallback_gates():

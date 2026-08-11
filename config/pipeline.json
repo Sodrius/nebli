@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v7",
+  "pipeline_version": "e1-deck-v8",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -55,12 +55,31 @@
       "block_on_any_failure": true,
       "validator": "flashcards/scripts/validar_deck_card_a_card.py",
       "ci_reference_deck_size": 40
+    },
+    "release_gate": {
+      "schema": "nebli-e1-deck-release-v1",
+      "required": true,
+      "require_reviewed_e1_source_and_pdf_hashes": true,
+      "require_complete_nuclear_coverage": true,
+      "minimum_nuclear_coverage_quality": 2,
+      "require_every_card_linked_to_e1_concept": true,
+      "require_independent_e1_review": true,
+      "block_unresolved_core_omissions": true,
+      "block_unresolved_ambiguities": true
     }
   },
   "require_offline_apkg": false,
   "require_apkg_audit": false,
   "require_e1_anchor_for_every_card": true,
   "source_priority": ["anking", "external_deck", "authored"],
+  "non_anking_requires": {
+    "completed_anking_search": true,
+    "minimum_independent_queries": 3,
+    "expanded_scope": true,
+    "siblings_reviewed": true,
+    "candidate_count_recorded": true,
+    "candidate_rejections_recorded": true
+  },
   "card_quality_contract": "docs/canon/CARD-QUALITY.md",
   "card_budget": {
     "enforce_contract_hard_max": true,
@@ -100,5 +119,13 @@
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,
-  "optional_cards_separate": true
+  "optional_cards_separate": true,
+  "user_delivery": {
+    "finalizer": "flashcards/scripts/finalizar_entrega_canonica.py",
+    "visible_files": ["e1_pdf", "ankidroid_manifest"],
+    "hide_internal_work_artifacts": true,
+    "manifest_open_starts_install_automatically": true,
+    "open_ankidroid_after_install": true,
+    "manual_card_selection": false
+  }
 }

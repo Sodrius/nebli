@@ -47,7 +47,10 @@ sinônimos/aliases e siblings relevantes. Um candidato só entra se cobrir
 
 Nota e sibling são decisões distintas: a nota é encontrada pelo contexto; o
 sibling/cloze é escolhido pela resposta esperada. Todo autoral direto registra
-`anking_search_complete=true` e o motivo concreto de rejeição dos candidatos.
+`anking_search_complete=true`, no mínimo três consultas independentes, expansão
+de escopo, revisão de siblings, contagem de candidatos e o motivo concreto de
+rejeição de cada candidato. IO e deck externo obedecem à mesma prova de busca
+AnKing, pois também são rotas posteriores na prioridade.
 Se um AnKing adequado já foi validado, ele usa `anking_required=true` e uma
 falha técnica bloqueia o lote em vez de instalar autoral.
 
@@ -80,6 +83,9 @@ Hard rules:
 - a pista deve tornar a resposta inequívoca sem entregar a resposta;
 - frente enxuta; limite operacional de 360 caracteres;
 - `Extra` até 100 palavras e apenas para contexto realmente útil.
+- `retrieval_target` explícito;
+- revisão registrada de pergunta inequívoca, inglês médico natural, ausência de
+  duplicata funcional e Extra que apenas apoia a resposta.
 
 ### Exemplos de direção
 

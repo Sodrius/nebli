@@ -66,6 +66,18 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
             failures.append("media_cognitive_purpose_ok")
 
 
+def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> None:
+    for key in (
+        "anking_search_queries_ok",
+        "anking_scope_expanded",
+        "anking_siblings_reviewed",
+        "anking_candidates_reviewed_ok",
+        "anking_rejections_ok",
+    ):
+        if not _bool(card, key):
+            failures.append(key)
+
+
 def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
     if card.get("mode") != "hide_all_guess_all":
         failures.append("io_mode")
@@ -119,8 +131,12 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
                 failures.append(key)
         if source == "anking" and not _bool(card, "anking_marker_ok"):
             failures.append("anking_marker_ok")
+        if source == "anking" and not _bool(card, "anking_required"):
+            failures.append("anking_required")
         if source == "anking" and _bool(card, "anking_required") and not _bool(card, "resolved_without_fallback"):
             failures.append("required_anking_unresolved")
+        if source == "external_deck":
+            _validate_anking_search_audit(card, failures)
         if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
             failures.append("source_filter_ok")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
@@ -128,6 +144,7 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
 
     elif source == "authored":
         _validate_authored(card, failures)
+        _validate_anking_search_audit(card, failures)
         if not _bool(card, "anking_search_complete"):
             failures.append("anking_search_incomplete")
         if not str(card.get("anking_rejection_reason", "")).strip():
@@ -137,6 +154,7 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
 
     elif source == "io":
         _validate_io(card, failures)
+        _validate_anking_search_audit(card, failures)
 
     else:
         failures.append("unsupported_source")

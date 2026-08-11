@@ -4,7 +4,10 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Estado atual
 
-- Pipeline canônico: `e1-deck-v7`.
+- Pipeline canônico: `e1-deck-v8`.
+- A entrega só libera com `nebli-e1-deck-release-v1`: E1 fonte/PDF congeladas,
+  revisão semântica independente, core nuclear 100% coberto e todo card ligado a
+  uma âncora. Para Davi aparecem somente E1/PDF e manifesto do Companion.
 - Produto padrão: **E1 + Deck-Aula completo no AnkiDroid**.
 - Backend normal: AnkiDroid via Nebli Companion.
 - Schema final: `nebli-ankidroid-deck-v3`.
