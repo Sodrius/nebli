@@ -26,6 +26,14 @@
       "prefer_anking": true,
       "require_anking_marker": false,
       "ambiguous_policy": "leave_unresolved"
+    },
+    "final_validation": {
+      "mode": "every_card",
+      "required_pass_fraction": 1.0,
+      "require_expected_equals_validated": true,
+      "block_on_any_failure": true,
+      "validator": "flashcards/scripts/validar_deck_card_a_card.py",
+      "ci_reference_deck_size": 40
     }
   },
   "require_offline_apkg": false,
