@@ -51,21 +51,7 @@ jobs:
           profile: pixel_2
           disable-animations: true
           working-directory: android-companion
-          script: |
-            adb install -r AnkiDroid-2.24.0.apk
-            adb root
-            adb wait-for-device
-            ANKI_DATA=/data/user/0/com.ichi2.anki
-            ANKI_UID=$(adb shell stat -c %u "$ANKI_DATA" | tr -d '\r')
-            adb shell mkdir -p "$ANKI_DATA/shared_prefs" "$ANKI_DATA/files/AnkiDroid"
-            printf '%s\n' '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>' '<map>' '  <string name="deckPath">/data/user/0/com.ichi2.anki/files/AnkiDroid</string>' '</map>' \
-              | adb shell "cat > $ANKI_DATA/shared_prefs/com.ichi2.anki_preferences.xml"
-            adb shell chown -R "$ANKI_UID:$ANKI_UID" "$ANKI_DATA"
-            adb shell restorecon -R "$ANKI_DATA"
-            adb install -r app/build/outputs/apk/debug/app-debug.apk
-            adb install -r app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
-            adb shell pm grant com.sodrius.nebli.companion com.ichi2.anki.permission.READ_WRITE_DATABASE
-            adb shell am instrument -w -r com.sodrius.nebli.companion.test/androidx.test.runner.AndroidJUnitRunner
+          script: bash ci/run-ankidroid-e2e.sh
       - uses: actions/upload-artifact@v4
         with:
           name: nebli-ankidroid-companion-debug
