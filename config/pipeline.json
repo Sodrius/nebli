@@ -14,6 +14,7 @@
     "full_deck_direct_install": true,
     "resolution_mode": "local_decks_with_validated_fallbacks",
     "anking_direct_copy": true,
+    "anking_source_filter": "deck:\"AnKing Step Deck\"",
     "external_deck_direct_copy": true,
     "authored_direct_install": true,
     "authored_extra_media_direct_install": true,
