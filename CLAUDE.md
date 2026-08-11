@@ -17,11 +17,12 @@ Leia, nesta ordem:
 3. `ERROS.md` — bloqueios recorrentes;
 4. `config/pipeline.json` — configuração mecânica vigente;
 5. `docs/canon/CARD-QUALITY.md` — hard gate de qualidade de cards;
-6. `docs/canon/ANKIDROID-COMPANION.md`;
-7. `docs/canon/LOCAL-DECKS-AND-MEDIA.md`;
-8. `docs/canon/PIPELINE-E1-DECK.md`;
-9. `docs/canon/COBERTURA-E-STEP1.md`;
-10. `.claude/commands/resumo.md` — execução detalhada do pipeline.
+6. `docs/canon/SELECAO-DE-CARDS.md` — hard gate de quantidade e merecimento;
+7. `docs/canon/ANKIDROID-COMPANION.md`;
+8. `docs/canon/LOCAL-DECKS-AND-MEDIA.md`;
+9. `docs/canon/PIPELINE-E1-DECK.md`;
+10. `docs/canon/COBERTURA-E-STEP1.md`;
+11. `.claude/commands/resumo.md` — execução detalhada do pipeline.
 
 `docs/legacy/` é histórico. Não carregar nem aplicar em corrida normal.
 
@@ -45,6 +46,13 @@ Regras nucleares:
 
 - `atomic=true` e `relevant=true` para todo card;
 - não criar card só para atingir quantidade;
+- teto derivado dos objetivos da aula: `4 × objetivos`, piso 12 e teto 32;
+- card só existe se a informação **decai**, é **cobrada** e **falha sozinha**;
+  tese, motivação e enquadramento ficam só na E1;
+- conceito nuclear exige cobertura na E1, não card: sem card, exige
+  `no_card_reason`;
+- uma ideia, um card — instâncias repetidas e pares viram um só;
+- aprofundamento Step 1 ≤ 1/4 do deck e no máximo um card por molécula;
 - contar cards Anki reais e respeitar `card_budget.hard_max`;
 - autoral em inglês médico, Extra curto em português;
 - autoral com exatamente um `c1`; cloze de 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ bloqueia;

@@ -16,7 +16,56 @@ ROOT = WD.parents[1]
 SLUG = "imuno-02-organizacao-sistema-imune"
 E1_SOURCE = "../../typst-build/etapa1.typ"
 E1_PDF = f"../../typst-build/{SLUG}.pdf"
-HARD_MAX = 52
+OBJECTIVE_COUNT = 5          # objetivos declarados no slide 3
+CARDS_PER_OBJECTIVE = 4      # docs/canon/SELECAO-DE-CARDS.md §2
+HARD_MAX = OBJECTIVE_COUNT * CARDS_PER_OBJECTIVE
+
+# docs/canon/SELECAO-DE-CARDS.md §3/§7: o plano abaixo mantém todas as
+# recuperações consideradas; só estas sobrevivem ao teste de merecimento. As
+# demais viram conceito coberto pela E1 com no_card_reason registrado.
+KEEP = {
+    "ak-selecao-negativa", "au-malt", "ak-paracortex-hev", "ak-foliculo-b",
+    "ak-centro-germinativo", "ak-cordoes-medulares", "au-spleen-no-afferent",
+    "ak-celulas-m", "io-recirculacao-hev-linfa", "io-foliculo-fdc-centro-germinativo",
+    "au-activated-switch", "ak-dc-naive-t", "ak-apresentacao-cruzada",
+    "au-b-cell-affinity", "au-response-tolerance", "ak-rolamento-selectinas",
+    "ak-adesao-firme-icam", "ak-lad1-cd18", "au-chemokine-families",
+    "ak-il8-neutrofilo",
+}
+
+# §6: aprofundamento cujo nome a aula não pronuncia. Teto de 1/4 do deck.
+STEP1_ENRICHMENT = {
+    "ak-paracortex-hev", "ak-centro-germinativo", "ak-apresentacao-cruzada",
+    "ak-lad1-cd18",
+}
+
+NO_CARD_REASON = {
+    "c001": "Tese de abertura da aula: o aluno reconstrói a comparação lendo a E1 e ela não decai como um nome ou um valor.",
+    "c002": "Tese que organiza a aula inteira e reaparece implícita em todo card de compartimento; entendida uma vez, não se perde.",
+    "c003": "A aula seguinte do cronograma, Reconhecimento pelo sistema imune na resposta inata, cobra DAMP e receptores de padrão.",
+    "c004": "Mecanismo ensinado com figura na E1 e cobrado na aula de mecanismos efetores; aqui é contexto da inata, não recuperação.",
+    "c005": "Enquadramento, e a resposta admitia macrófago e mastócito como alternativas defensáveis — reprovaria no gate de ambiguidade.",
+    "c006": "Conteúdo que a própria aula trata como revisão da UC02; a E1 o reancora como pré-requisito em vez de recobrá-lo.",
+    "c007": "Par com a seleção negativa: §5 manda ficar com o card de maior rendimento do par, e a E1 carrega o lado do córtex.",
+    "c009": "Aprofundamento cujo nome a aula não pronuncia; permanece ensinado na E1 com a correlação clínica, fora do deck.",
+    "c011": "Tese estrutural que se deduz do próprio par primário/secundário; não decai isoladamente.",
+    "c012": "Consequência direta do circuito já cobrado pelo card de Image Occlusion da recirculação.",
+    "c013": "A máscara Linfa do card de Image Occlusion já cobra esta recuperação, e com a tarefa espacial que a aula pede.",
+    "c015": "Motivação da recirculação: a E1 a explica uma vez e o aluno a reconstrói, sem decaimento.",
+    "c016": "Aprofundamento cuja molécula a aula sequer nomeia; §6 manda mantê-lo na E1 e fora do deck.",
+    "c018": "Motivação da arquitetura do órgão linfoide; é raciocínio de projeto, não recuperação que decai.",
+    "c021": "Divisão geográfica de trabalho que se deduz do card da célula dendrítica; a E1 fecha o contraste.",
+    "c023": "Dois cards de aprofundamento para a mesma molécula; §6 permite no máximo um por molécula e a cota já está preenchida.",
+    "c024": "Instância repetida da ideia de aferência, já cobrada pelo baço e pela célula M.",
+    "c026": "Correlação clínica acima da cota de aprofundamento; segue ensinada na E1 com a leitura complementar da aula.",
+    "c028": "Terceira instância da mesma ideia de área timo-dependente; §5 manda ficar com uma e tabelar o resto na E1.",
+    "c033": "Aprofundamento clínico acima da cota, citado de passagem pela aula como consequência da morada medular.",
+    "c034": "Fato verdadeiro porém periférico ao objetivo, que é organização e funcionamento, não cinética da resposta.",
+    "c039": "Terceiro degrau da cascata já cobrada em rolamento e adesão firme; a E1 fecha a sequência.",
+    "c040": "Vocabulário lateral da mesma família de ligantes já cobrada pelo card de rolamento.",
+    "c043": "Instância adicional de quimiotaxia já cobrada por CXCL8; §5 manda ficar com uma.",
+    "c044": "Tese de fechamento: síntese que a E1 entrega inteira e o aluno reconstrói.",
+}
 
 CLOZE_RE = re.compile(r"\{\{c(\d+)::([^}:]+)(?:::[^}]*)?}}")
 
@@ -793,7 +842,33 @@ def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def apply_selection() -> None:
+    """Aplica docs/canon/SELECAO-DE-CARDS.md ao plano bruto."""
+    considered = {c["card_key"] for c in cards}
+    assert KEEP <= considered, f"KEEP cita card inexistente: {KEEP - considered}"
+
+    for card in cards:
+        if card["card_key"] in STEP1_ENRICHMENT:
+            card["step1_enrichment"] = True
+    cards[:] = [c for c in cards if c["card_key"] in KEEP]
+
+    for row in concepts:
+        row["card_keys"] = [k for k in row["card_keys"] if k in KEEP]
+        if row["card_keys"]:
+            row.pop("no_card_reason", None)
+            continue
+        reason = NO_CARD_REASON.get(row["concept_id"])
+        assert reason, f"{row['concept_id']} ficou sem card e sem motivo registrado"
+        row["no_card_reason"] = reason
+
+    enrichment = [c for c in cards if c.get("step1_enrichment")]
+    assert len(enrichment) * 4 <= len(cards), (
+        f"aprofundamento Step 1 ({len(enrichment)}) excede 1/4 de {len(cards)}"
+    )
+
+
 def main() -> None:
+    apply_selection()
     keys = [c["card_key"] for c in cards]
     assert len(keys) == len(set(keys)), "card_key duplicada"
     referenced = {k for c in concepts for k in c["card_keys"]}
@@ -823,6 +898,8 @@ def main() -> None:
             "e1_pdf": E1_PDF,
             "e1_pdf_sha256": sha256_file((WD / E1_PDF).resolve()),
             "card_budget_hard_max": HARD_MAX,
+            "objective_count": OBJECTIVE_COUNT,
+            "cards_per_objective": CARDS_PER_OBJECTIVE,
             "e1_review": {
                 "slide_inventory_complete": True,
                 "objectives_covered": True,
@@ -944,7 +1021,12 @@ def main() -> None:
     by_source: dict[str, int] = {}
     for card in cards:
         by_source[card["source"]] = by_source.get(card["source"], 0) + 1
-    print(f"cards={len(cards)} hard_max={HARD_MAX} conceitos={len(concepts)} {by_source}")
+    uncarded = sum(1 for row in concepts if not row["card_keys"])
+    enrichment = sum(1 for card in cards if card.get("step1_enrichment"))
+    print(
+        f"cards={len(cards)} hard_max={HARD_MAX} ({CARDS_PER_OBJECTIVE}x{OBJECTIVE_COUNT}) "
+        f"conceitos={len(concepts)} sem_card={uncarded} step1={enrichment} {by_source}"
+    )
 
 
 if __name__ == "__main__":

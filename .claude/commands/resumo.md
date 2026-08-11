@@ -58,8 +58,11 @@ Para cada conceito registre:
 - necessidade visual;
 - **recuperação específica que o card deve testar**.
 
-Classifique o porte, fixe `card_budget.hard_max` e congele o teto antes de fechar
-cards. Não use faixas como meta de quantidade.
+Conte os objetivos declarados pela aula, fixe
+`card_budget.hard_max = 4 × objetivos` (piso 12, teto 32) e congele o teto antes
+de fechar cards. O teto é total e a distribuição é proporcional ao peso de cada
+objetivo, nunca cota fixa por objetivo. Porte do material não é critério de
+quantidade.
 
 ## 3. E1 antes dos cards
 
@@ -79,7 +82,11 @@ ancorados e nenhuma omissão/ambiguidade nuclear pendente.
 
 ## 4. Atomizar recuperações, não apenas tópicos
 
-Para cada conceito, decida se merece card. Hard gate:
+Para cada conceito, decida se merece card aplicando
+`docs/canon/SELECAO-DE-CARDS.md` §3: a informação **decai**, é **cobrada** e
+**falha sozinha**. Tese, motivação, enquadramento, consequência dedutível de
+outro card e conteúdo da aula seguinte não viram card — ficam na E1 e o conceito
+registra `no_card_reason`. Hard gate:
 
 - precisa ser cobrado/relevante para a aula;
 - precisa representar uma recuperação útil;

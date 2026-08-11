@@ -1,84 +1,19 @@
 {
-  "expected_card_count": 50,
-  "card_budget_hard_max": 52,
-  "validated_card_count": 50,
-  "passed_card_count": 50,
+  "expected_card_count": 20,
+  "card_budget_hard_max": 20,
+  "validated_card_count": 20,
+  "passed_card_count": 20,
   "failed_card_count": 0,
   "all_cards_validated": true,
   "within_card_budget": true,
   "cards": [
-    {
-      "card_key": "au-exterior-sensing",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-clonal-distribution",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-damps",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-mastocito-histamina",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-cytotoxicity",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-ilc-direction",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-somatic-receptor-genes",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-b-medula-ossea",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-selecao-positiva",
-      "ok": true,
-      "failures": []
-    },
     {
       "card_key": "ak-selecao-negativa",
       "ok": true,
       "failures": []
     },
     {
-      "card_key": "ak-aire",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "au-malt",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-recognition-site",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-one-way",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-exit-lymph",
       "ok": true,
       "failures": []
     },
@@ -93,22 +28,7 @@
       "failures": []
     },
     {
-      "card_key": "au-recirculation-why",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-fingolimode",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "au-activated-switch",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-probability",
       "ok": true,
       "failures": []
     },
@@ -123,27 +43,7 @@
       "failures": []
     },
     {
-      "card_key": "au-macrophage-tissue-apc",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "au-b-cell-affinity",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-cd40l",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-hiper-igm",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-ln-lymphocyte-entry",
       "ok": true,
       "failures": []
     },
@@ -153,27 +53,12 @@
       "failures": []
     },
     {
-      "card_key": "ak-asplenia-encapsulados",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "ak-celulas-m",
       "ok": true,
       "failures": []
     },
     {
-      "card_key": "ak-pals-baco",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "ak-foliculo-b",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-fdc",
       "ok": true,
       "failures": []
     },
@@ -189,16 +74,6 @@
     },
     {
       "card_key": "ak-cordoes-medulares",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-mieloma-multiplo",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-two-weeks",
       "ok": true,
       "failures": []
     },
@@ -223,37 +98,12 @@
       "failures": []
     },
     {
-      "card_key": "ak-lad1-coto-umbilical",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-pecam-diapedese",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-addressins",
-      "ok": true,
-      "failures": []
-    },
-    {
       "card_key": "au-chemokine-families",
       "ok": true,
       "failures": []
     },
     {
       "card_key": "ak-il8-neutrofilo",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "ak-c5a-quimiotaxia",
-      "ok": true,
-      "failures": []
-    },
-    {
-      "card_key": "au-vaccine-circuit",
       "ok": true,
       "failures": []
     }

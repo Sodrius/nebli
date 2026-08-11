@@ -36,11 +36,26 @@ Rejeitados explicitamente (registro em `release_gate.concepts[].step1`): recepto
 
 ## Orçamento e gate
 
-- `card_budget.hard_max` congelado em **52**; deck real com **50** cards (porte grande, faixa de sanidade 35–55).
-- Fontes: **26 AnKing** (todos com `anking_required=true` e fallback autoral validado), **22 autorais**, **2 Image Occlusion**.
-- `validar_deck_card_a_card.py`: `expected = validated = passed = 50`, `failed = 0`.
+Primeiro corte saiu com 50 cards e estava inflado. Recortado por
+`docs/canon/SELECAO-DE-CARDS.md`:
+
+- teto derivado dos 5 objetivos da aula: `4 × 5 = 20`, congelado antes da seleção;
+- deck real com **20** cards: **12 AnKing** (todos com `anking_required=true` e fallback autoral validado), **6 autorais**, **2 Image Occlusion**;
+- 4 cards de aprofundamento Step 1 (20% do deck, teto de 25%);
+- 25 dos 44 conceitos ficam cobertos só pela E1, cada um com `no_card_reason`;
+- `validar_deck_card_a_card.py`: `expected = validated = passed = 20`, `failed = 0`.
+
+Distribuição por objetivo, proporcional ao peso da aula: órgãos e tecidos
+linfoides 9; células apresentadoras 3; moléculas de adesão 3; recirculação 2;
+quimiocinas 2; resposta × tolerância 1. Os objetivos 4 e 5 aparecem em cinza no
+slide, e o professor pede explicitamente para não se concentrar neles — daí o
+peso menor.
+
+O que foi cortado e por quê está em `build_deck.py`: o plano bruto guarda as 50
+recuperações consideradas, `KEEP` marca as que passaram no teste de merecimento e
+`NO_CARD_REASON` registra o motivo de cada corte.
 - `validar_release_e1_deck.py`: aprovado — 44 conceitos, 41 nucleares, 41 com cobertura ≥ 2.
-- `finalizar_entrega_canonica.py`: manifesto `nebli-ankidroid-deck-v3` com `expected_card_count=50` e 2 mídias embutidas por SHA-256.
+- `finalizar_entrega_canonica.py`: manifesto `nebli-ankidroid-deck-v3` com `expected_card_count=20` e 2 mídias embutidas por SHA-256.
 
 ## Image Occlusion
 

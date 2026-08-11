@@ -17,6 +17,10 @@ from typing import Any
 
 
 SCHEMA = "nebli-e1-deck-release-v1"
+# docs/canon/SELECAO-DE-CARDS.md §2: o teto sai do que a aula cobra, não do porte.
+CARDS_PER_OBJECTIVE = 4
+BUDGET_FLOOR = 12
+BUDGET_CEILING = 32
 REVIEW_FLAGS = (
     "slide_inventory_complete",
     "objectives_covered",
@@ -103,6 +107,28 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
     elif len(cards) > hard_max:
         errors.append(f"deck tem {len(cards)} cards e excede hard_max={hard_max}")
 
+    objectives = release.get("objective_count")
+    per_objective = release.get("cards_per_objective", CARDS_PER_OBJECTIVE)
+    if not isinstance(objectives, int) or isinstance(objectives, bool) or objectives < 1:
+        errors.append("release_gate.objective_count deve ser inteiro positivo")
+    elif isinstance(per_objective, int) and not isinstance(per_objective, bool) and per_objective > 0:
+        derived = max(BUDGET_FLOOR, min(BUDGET_CEILING, per_objective * objectives))
+        if isinstance(hard_max, int) and hard_max > derived:
+            errors.append(
+                f"card_budget_hard_max={hard_max} excede o teto derivado dos objetivos ({derived})"
+            )
+    else:
+        errors.append("release_gate.cards_per_objective inválido")
+
+    enrichment = [
+        card for card in cards
+        if isinstance(card, dict) and card.get("step1_enrichment") is True
+    ]
+    if cards and len(enrichment) * 4 > len(cards):
+        errors.append(
+            f"cards de aprofundamento Step 1 ({len(enrichment)}) excedem 1/4 do deck ({len(cards)})"
+        )
+
     concepts = release.get("concepts")
     if not isinstance(concepts, list) or not concepts:
         errors.append("release_gate.concepts[] obrigatório e não vazio")
@@ -135,9 +161,15 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         elif importance == "nuclear":
             covered_nuclear += 1
         refs = row.get("card_keys")
-        if not isinstance(refs, list) or not refs:
-            errors.append(f"{cid}: card_keys vazio")
+        if not isinstance(refs, list):
+            errors.append(f"{cid}: card_keys deve ser lista")
             refs = []
+        if not refs:
+            # docs/canon/SELECAO-DE-CARDS.md §4: cobertura é da E1, não do card.
+            # Conceito sem card é decisão legítima, mas nunca silenciosa.
+            reason = str(row.get("no_card_reason") or "").strip()
+            if len(reason) < 20:
+                errors.append(f"{cid}: conceito sem card exige no_card_reason concreto")
         for ref in refs:
             key = str(ref).strip()
             if key not in card_keys:

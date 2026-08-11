@@ -52,6 +52,10 @@ Antes de criar ou aceitar qualquer card, aplicar `docs/canon/CARD-QUALITY.md`.
 Resumo dos hard gates:
 
 - um card = uma recuperação independente;
+- teto = `4 × objetivos` da aula, piso 12 e teto 32, congelado antes da seleção;
+- card só existe se a informação decai, é cobrada e falha sozinha;
+- conceito coberto pela E1 pode não ter card, com `no_card_reason` registrado;
+- aprofundamento Step 1 ≤ 1/4 do deck, um card por molécula;
 - card precisa ser relevante para a aula e ter âncora literal na E1;
 - não criar cards para cumprir cota;
 - congelar e respeitar `card_budget.hard_max`;

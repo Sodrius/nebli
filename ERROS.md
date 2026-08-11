@@ -95,6 +95,17 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     manifesto registra `io_mode_contract`. Ao mudar qualquer valor de protocolo
     lido pelo Companion, aceitar o valor anterior na mesma versão.
 
+53. Não derivar o teto do porte da aula. Porte mede quanto a aula ensina; o
+    deck mede quanto ela cobra. Teto é `4 × objetivos`, piso 12 e teto 32, e
+    chegar perto dele não é meta.
+54. Não transformar contrato de cobertura em gerador de cards. Conceito nuclear
+    exige cobertura na E1, não card. Conceito sem card declara `no_card_reason`;
+    conceito sem card e sem motivo bloqueia o lote.
+55. Tese, motivação, enquadramento e consequência dedutível de outro card não
+    viram card: não decaem e cobram revisão para sempre. Instâncias repetidas da
+    mesma ideia em órgãos diferentes são uma ideia. Aprofundamento Step 1 fica em
+    no máximo 1/4 do deck e um card por molécula.
+
 ## Qualidade funcional da recuperação
 
 36. Passar nos gates formais não significa ser um bom card. A revisão final

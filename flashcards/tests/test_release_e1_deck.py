@@ -71,6 +71,7 @@ def canonical_data(tmp_path: Path) -> dict:
             "e1_pdf": pdf.name,
             "e1_pdf_sha256": sha(pdf),
             "card_budget_hard_max": 25,
+            "objective_count": 7,
             "e1_review": {
                 "slide_inventory_complete": True,
                 "objectives_covered": True,
@@ -360,3 +361,56 @@ def test_finalizer_materializes_only_user_visible_e1_and_manifest(tmp_path):
         "Reconhecimento inato - E1.pdf",
         "reconhecimento-inato.ankidroid.json",
     ]
+
+
+def _release_result(tmp_path: Path, data: dict) -> dict:
+    sys.path.insert(0, str(SCRIPT.parent))
+    from validar_release_e1_deck import validate_release
+
+    deck = tmp_path / "deck-data.json"
+    deck.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    return validate_release(data, deck.resolve())
+
+
+def test_concept_without_card_needs_explicit_reason(tmp_path):
+    """SELECAO-DE-CARDS §4: cobertura é da E1; conceito sem card é decisão, não omissão."""
+    data = canonical_data(tmp_path)
+    data["release_gate"]["concepts"].append({
+        "concept_id": "c-tese",
+        "importance": "nuclear",
+        "e1_anchor": "iniciando a resposta imune inata",
+        "coverage_quality": 2,
+        "card_keys": [],
+        "step1": {"decision": "not_applicable"},
+    })
+
+    silent = _release_result(tmp_path, data)
+    assert not silent["passed"]
+    assert any("no_card_reason" in error for error in silent["errors"])
+
+    data["release_gate"]["concepts"][-1]["no_card_reason"] = (
+        "Tese de enquadramento da aula: o aluno reconstrói lendo a E1 e a recuperação não decai."
+    )
+    assert _release_result(tmp_path, data)["passed"]
+
+
+def test_budget_cannot_exceed_ceiling_derived_from_objectives(tmp_path):
+    """SELECAO-DE-CARDS §2: o teto sai do que a aula cobra, não do porte da aula."""
+    data = canonical_data(tmp_path)
+    data["release_gate"]["objective_count"] = 5
+    data["release_gate"]["card_budget_hard_max"] = 52
+    result = _release_result(tmp_path, data)
+    assert not result["passed"]
+    assert any("teto derivado dos objetivos" in error for error in result["errors"])
+
+    data["release_gate"]["card_budget_hard_max"] = 20
+    assert _release_result(tmp_path, data)["passed"]
+
+
+def test_step1_enrichment_cards_are_capped_at_a_quarter_of_the_deck(tmp_path):
+    """SELECAO-DE-CARDS §6: aprofundamento regula profundidade, não escopo."""
+    data = canonical_data(tmp_path)
+    data["cards"][0]["step1_enrichment"] = True
+    result = _release_result(tmp_path, data)
+    assert not result["passed"]
+    assert any("aprofundamento Step 1" in error for error in result["errors"])

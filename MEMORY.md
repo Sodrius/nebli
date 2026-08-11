@@ -38,6 +38,9 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Um card = uma recuperação independente, específica e relevante.
 - Todo card deve ter âncora literal na E1.
 - Não criar cards por cota; respeitar teto congelado da aula.
+- Teto vem dos objetivos (`4 × objetivos`, piso 12, teto 32), não do porte.
+- Card só existe se a informação decai, é cobrada e falha sozinha; tese e
+  motivação ficam na E1 e o conceito registra `no_card_reason`.
 - Autorais: frente em inglês médico natural, Extra curto em português, exatamente um `c1`.
 - Cloze: 1 palavra por padrão; 2 quando necessário; 3 raramente e com justificativa; 4+ bloqueia.
 - IO: só quando reconhecimento/localização agrega; máscara cobre o rótulo-resposta, não a estrutura; usar uma ou duas máscaras, com `pair_rationale` quando forem duas.
@@ -56,9 +59,11 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 `imuno-02-organizacao-sistema-imune` (UC03 · P1 · Imunologia, confirmados na planilha
 mestre do Drive) foi a primeira aula
-real fechada no pipeline v9: E1 de 24 páginas, 44 conceitos, teto congelado em 52
-e **50 cards** (26 AnKing com fallback validado, 22 autorais, 2 IO), gate card a
-card 100% e release gate aprovado. Checkpoint em
+real fechada no pipeline v9: E1 de 24 páginas e 44 conceitos. O primeiro corte
+saiu com 50 cards e estava inflado; recortado por
+`docs/canon/SELECAO-DE-CARDS.md`, fechou em **20 cards** (12 AnKing, 6 autorais,
+2 IO) com 25 conceitos cobertos só pela E1 e `no_card_reason` registrado. Gate
+card a card 100% e release gate aprovado. Checkpoint em
 `arquivos-trabalho/imuno-02-organizacao-sistema-imune/CHECKPOINT.md`.
 
 A primeira instalação bloqueou: o APK do tablet é anterior ao commit `4e1d678` e

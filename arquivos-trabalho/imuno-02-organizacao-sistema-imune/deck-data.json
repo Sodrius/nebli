@@ -15,7 +15,9 @@
     "e1_source_sha256": "50f699830cf04915b4644ac2ab2cc6b4308ca5ad5e5dd8f958882f48c9d95b9b",
     "e1_pdf": "../../typst-build/imuno-02-organizacao-sistema-imune.pdf",
     "e1_pdf_sha256": "2583bf24b308a38fca9cc8d9e29c7a13e34fad5d8ec22fa9695ac930e72dd5cc",
-    "card_budget_hard_max": 52,
+    "card_budget_hard_max": 20,
+    "objective_count": 5,
+    "cards_per_objective": 4,
     "e1_review": {
       "slide_inventory_complete": true,
       "objectives_covered": true,
@@ -37,90 +39,81 @@
         "importance": "nuclear",
         "e1_anchor": "O sistema nervoso inclui o exterior por meio de luz, som, temperatura e pressão.",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-exterior-sensing"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Tese de abertura da aula: o aluno reconstrói a comparação lendo a E1 e ela não decai como um nome ou um valor."
       },
       {
         "concept_id": "c002",
         "importance": "nuclear",
         "e1_anchor": "Cada linfócito T ou B expressa um único tipo de receptor e, portanto, reconhece um único antígeno",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-clonal-distribution"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Tese que organiza a aula inteira e reaparece implícita em todo card de compartimento; entendida uma vez, não se perde."
       },
       {
         "concept_id": "c003",
         "importance": "nuclear",
         "e1_anchor": "As células do próprio tecido dão o alarme mais primitivo",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-damps",
-          "ak-mastocito-histamina"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "rejected",
           "rationale": "O aprofundamento natural aqui seria receptor de reconhecimento de padrão e inflamassoma; a própria aula adia isso para a aula seguinte, que trata de como o organismo reconhece que houve lesão."
-        }
+        },
+        "no_card_reason": "A aula seguinte do cronograma, Reconhecimento pelo sistema imune na resposta inata, cobra DAMP e receptores de padrão."
       },
       {
         "concept_id": "c004",
         "importance": "nuclear",
         "e1_anchor": "uma célula citotóxica reconhece uma célula-alvo, entrega a ela um sinal, e a célula-alvo executa um programa próprio de morte",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-cytotoxicity"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Mecanismo ensinado com figura na E1 e cobrado na aula de mecanismos efetores; aqui é contexto da inata, não recuperação."
       },
       {
         "concept_id": "c005",
         "importance": "nuclear",
         "e1_anchor": "Parte do direcionamento dessa resposta é dado justamente pelas células inatas residentes, as ILC entre elas",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-ilc-direction"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Enquadramento, e a resposta admitia macrófago e mastócito como alternativas defensáveis — reprovaria no gate de ambiguidade."
       },
       {
         "concept_id": "c006",
         "importance": "nuclear",
         "e1_anchor": "Eles são montados somaticamente, dentro do precursor linfocitário, por recombinação de segmentos gênicos",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-somatic-receptor-genes",
-          "ak-b-medula-ossea"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Conteúdo que a própria aula trata como revisão da UC02; a E1 o reancora como pré-requisito em vez de recobrá-lo."
       },
       {
         "concept_id": "c007",
         "importance": "nuclear",
         "e1_anchor": "é a seleção positiva, que ocorre no córtex tímico",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-selecao-positiva"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — Immunology, thymic positive selection",
           "rationale": "Nomeia o córtex como sítio da primeira prova que a aula descreve funcionalmente, sem abrir tópico novo."
-        }
+        },
+        "no_card_reason": "Par com a seleção negativa: §5 manda ficar com o card de maior rendimento do par, e a E1 carrega o lado do córtex."
       },
       {
         "concept_id": "c008",
@@ -142,15 +135,14 @@
         "importance": "nuclear",
         "e1_anchor": "Quem força essa exibição é o fator de transcrição AIRE, expresso pelas células epiteliais medulares do timo",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-aire"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — AIRE / APECED",
           "rationale": "Explica o mecanismo molecular da deleção clonal que a aula apresenta e traz correlação clínica estável."
-        }
+        },
+        "no_card_reason": "Aprofundamento cujo nome a aula não pronuncia; permanece ensinado na E1 com a correlação clínica, fora do deck."
       },
       {
         "concept_id": "c010",
@@ -169,36 +161,33 @@
         "importance": "nuclear",
         "e1_anchor": "porque é neles que o reconhecimento do antígeno acontece",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-recognition-site"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Tese estrutural que se deduz do próprio par primário/secundário; não decai isoladamente."
       },
       {
         "concept_id": "c012",
         "importance": "nuclear",
         "e1_anchor": "fisiologicamente nenhum linfócito volta para o órgão linfoide primário",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-one-way"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Consequência direta do circuito já cobrado pelo card de Image Occlusion da recirculação."
       },
       {
         "concept_id": "c013",
         "importance": "nuclear",
         "e1_anchor": "a saída do órgão linfoide secundário se faz pela linfa, não pelo sangue",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-exit-lymph"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "A máscara Linfa do card de Image Occlusion já cobra esta recuperação, e com a tarefa espacial que a aula pede."
       },
       {
         "concept_id": "c014",
@@ -221,27 +210,25 @@
         "importance": "nuclear",
         "e1_anchor": "Em qualquer instante, um dado linfonodo abriga apenas uma fração do repertório.",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-recirculation-why"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Motivação da recirculação: a E1 a explica uma vez e o aluno a reconstrói, sem decaimento."
       },
       {
         "concept_id": "c016",
         "importance": "nuclear",
         "e1_anchor": "é abundante na linfa e no sangue e escassa dentro do órgão linfoide",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-fingolimode"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — fingolimod, S1P receptor modulator",
           "rationale": "Explica pelo avesso o mecanismo da saída pela linfa que a aula afirma, sem abrir tópico de terapêutica da esclerose múltipla."
-        }
+        },
+        "no_card_reason": "Aprofundamento cuja molécula a aula sequer nomeia; §6 manda mantê-lo na E1 e fora do deck."
       },
       {
         "concept_id": "c017",
@@ -260,12 +247,11 @@
         "importance": "nuclear",
         "e1_anchor": "Porque isso aumenta a probabilidade de encontro entre o antígeno e o receptor clonal que o reconhece.",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-probability"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Motivação da arquitetura do órgão linfoide; é raciocínio de projeto, não recuperação que decai."
       },
       {
         "concept_id": "c019",
@@ -299,12 +285,11 @@
         "importance": "nuclear",
         "e1_anchor": "quem reapresenta o antígeno para ele é o macrófago, que é muito mais abundante nos tecidos",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-macrophage-tissue-apc"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Divisão geográfica de trabalho que se deduz do card da célula dendrítica; a E1 fecha o contraste."
       },
       {
         "concept_id": "c022",
@@ -323,28 +308,25 @@
         "importance": "nuclear",
         "e1_anchor": "o linfócito T auxiliar expressa CD40L, que se liga ao CD40 do linfócito B",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-cd40l",
-          "ak-hiper-igm"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — CD40L/CD40 and hyper-IgM syndrome",
           "rationale": "Dá o elo molecular da conversa T-B que a aula apresenta funcionalmente, com correlação clínica direta."
-        }
+        },
+        "no_card_reason": "Dois cards de aprofundamento para a mesma molécula; §6 permite no máximo um por molécula e a cota já está preenchida."
       },
       {
         "concept_id": "c024",
         "importance": "nuclear",
         "e1_anchor": "a informação entra pela linfa, os linfócitos entram pelo sangue, e ambos saem pela linfa",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-ln-lymphocyte-entry"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Instância repetida da ideia de aferência, já cobrada pelo baço e pela célula M."
       },
       {
         "concept_id": "c025",
@@ -363,15 +345,14 @@
         "importance": "nuclear",
         "e1_anchor": "ele é o principal responsável por depurar e responder a micro-organismos circulantes, especialmente os encapsulados",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-asplenia-encapsulados"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — asplenia and encapsulated organisms",
           "rationale": "Correlação clínica estável da função do baço que a aula ensina, ancorada na própria leitura complementar indicada."
-        }
+        },
+        "no_card_reason": "Correlação clínica acima da cota de aprofundamento; segue ensinada na E1 com a leitura complementar da aula."
       },
       {
         "concept_id": "c027",
@@ -390,12 +371,11 @@
         "importance": "nuclear",
         "e1_anchor": "A área timo-dependente é a região paracortical no linfonodo, a bainha periarteriolar no baço e a área interfolicular no MALT.",
         "coverage_quality": 3,
-        "card_keys": [
-          "ak-pals-baco"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Terceira instância da mesma ideia de área timo-dependente; §5 manda ficar com uma e tabelar o resto na E1."
       },
       {
         "concept_id": "c029",
@@ -415,7 +395,6 @@
         "e1_anchor": "ela retém antígeno intacto na superfície, muitas vezes já ligado a anticorpo, e o oferece ao linfócito B",
         "coverage_quality": 3,
         "card_keys": [
-          "ak-fdc",
           "io-foliculo-fdc-centro-germinativo"
         ],
         "step1": {
@@ -454,27 +433,25 @@
         "importance": "supporting",
         "e1_anchor": "o tumor maligno de plasmócitos quase sempre se manifesta como tumor de medula em vários pontos ao mesmo tempo, o mieloma múltiplo",
         "coverage_quality": 2,
-        "card_keys": [
-          "ak-mieloma-multiplo"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — multiple myeloma",
           "rationale": "Correlação clínica citada pelo próprio professor como consequência da morada medular do plasmócito."
-        }
+        },
+        "no_card_reason": "Aprofundamento clínico acima da cota, citado de passagem pela aula como consequência da morada medular."
       },
       {
         "concept_id": "c034",
         "importance": "supporting",
         "e1_anchor": "A expansão clonal dentro do órgão linfoide secundário leva cerca de duas semanas até produzir uma resposta cheia e mensurável.",
         "coverage_quality": 2,
-        "card_keys": [
-          "au-two-weeks"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Fato verdadeiro porém periférico ao objetivo, que é organização e funcionamento, não cinética da resposta."
       },
       {
         "concept_id": "c035",
@@ -525,8 +502,7 @@
         "e1_anchor": "queda tardia do coto umbilical, e uma neutrofilia altíssima no sangue",
         "coverage_quality": 3,
         "card_keys": [
-          "ak-lad1-cd18",
-          "ak-lad1-coto-umbilical"
+          "ak-lad1-cd18"
         ],
         "step1": {
           "decision": "incorporated",
@@ -540,27 +516,25 @@
         "importance": "nuclear",
         "e1_anchor": "e diapedese entre as células endoteliais, mediada por PECAM-1",
         "coverage_quality": 2,
-        "card_keys": [
-          "ak-pecam-diapedese"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "incorporated",
           "same_theme": true,
           "source_ref": "AnKing Step 1 — diapedesis and PECAM-1",
           "rationale": "Fecha a cascata de extravasamento que a aula chama de transmigração."
-        }
+        },
+        "no_card_reason": "Terceiro degrau da cascata já cobrada em rolamento e adesão firme; a E1 fecha a sequência."
       },
       {
         "concept_id": "c040",
         "importance": "optional",
         "e1_anchor": "o termo adressina, de endereço, aparece justamente para elas",
         "coverage_quality": 1,
-        "card_keys": [
-          "au-addressins"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Vocabulário lateral da mesma família de ligantes já cobrada pelo card de rolamento."
       },
       {
         "concept_id": "c041",
@@ -591,326 +565,26 @@
         "importance": "nuclear",
         "e1_anchor": "As células têm receptores para tudo isso e migram no sentido da maior concentração.",
         "coverage_quality": 2,
-        "card_keys": [
-          "ak-c5a-quimiotaxia"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Instância adicional de quimiotaxia já cobrada por CXCL8; §5 manda ficar com uma."
       },
       {
         "concept_id": "c044",
         "importance": "nuclear",
         "e1_anchor": "numa segunda agressão a resposta inata já chega misturada com produtos da adquirida anterior",
         "coverage_quality": 3,
-        "card_keys": [
-          "au-vaccine-circuit"
-        ],
+        "card_keys": [],
         "step1": {
           "decision": "not_applicable"
-        }
+        },
+        "no_card_reason": "Tese de fechamento: síntese que a E1 entrega inteira e o aluno reconstrói."
       }
     ]
   },
   "cards": [
-    {
-      "card_key": "au-exterior-sensing",
-      "concept_id": "c001",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Only two systems include the outside world in homeostasis: the immune system, which reads molecular signals, and the {{c1::nervous}} system.",
-      "extra": "O sistema nervoso lê o exterior por luz, som, temperatura e pressão; o imune lê o exterior pela química do que encosta no organismo. Os demais sistemas monitoram apenas o meio interno.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Qual é o outro sistema que inclui o exterior na manutenção da homeostasia.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "immune system homeostasis external environment molecular signals",
-        "nervous and immune systems monitor the outside world",
-        "immune system senses molecular signals unlike other organ systems"
-      ],
-      "anking_rejection_reason": "A recuperação é o enquadramento conceitual da aula (quais sistemas incluem o exterior na homeostasia); o material Step 1 organiza imunologia por células, moléculas e doenças e não testa essa comparação entre sistemas."
-    },
-    {
-      "card_key": "au-clonal-distribution",
-      "concept_id": "c002",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "The receptor repertoire recognizes almost any antigen, yet each lymphocyte binds only one, because the repertoire is distributed {{c1::clonally}}.",
-      "extra": "Cada linfócito T ou B expressa um único tipo de receptor e transmite essa especificidade às células-filhas, formando um clone. O sistema reconhece tudo; a célula reconhece uma coisa só.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Como o repertório completo se distribui entre as células.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "clonal distribution of antigen receptors one lymphocyte one specificity",
-        "clonal selection theory lymphocyte single antigen receptor",
-        "antigen receptor diversity repertoire distributed among lymphocyte clones"
-      ],
-      "anking_rejection_reason": "O material Step 1 testa seleção clonal pela expansão do clone após o antígeno; a recuperação desta aula é anterior e diferente — como o repertório completo está distribuído antes de qualquer antígeno aparecer."
-    },
-    {
-      "card_key": "au-damps",
-      "concept_id": "c003",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Cells of an injured tissue raise the most primitive alarm by releasing intracellular molecules called {{c1::DAMPs}}.",
-      "extra": "O sinal diz apenas que há dano, sem informar de que tipo. É o degrau mais baixo do alarme: as citocinas do macrófago, logo acima, já informam mais ou menos o que está errado.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Que classe de molécula a célula do tecido lesada libera como alarme.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "damage associated molecular patterns released by injured cells",
-        "DAMPs versus PAMPs danger signals from necrotic tissue",
-        "endogenous danger signals released by damaged host cells"
-      ],
-      "anking_rejection_reason": "As notas Step 1 sobre DAMP tratam do reconhecimento por receptores de padrão e do inflamassoma, matéria da aula seguinte; a recuperação daqui é a atribuição do sinal à célula do tecido lesada dentro da graduação do alarme."
-    },
-    {
-      "card_key": "ak-mastocito-histamina",
-      "concept_id": "c003",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "mast cell degranulation releases preformed histamine causing vasodilation and increased vascular permeability",
-      "aliases": [
-        "mast cell granules histamine release inflammation",
-        "mast cell preformed mediators immediate vascular response"
-      ],
-      "search_queries": [
-        "mast cell degranulation releases preformed histamine causing vasodilation and increased vascular permeability",
-        "mast cell granules histamine release inflammation",
-        "mast cell preformed mediators immediate vascular response"
-      ],
-      "expected_answers": [
-        "histamine"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "The mast cell is the tissue alarm that degranulates all at once, releasing preformed {{c1::histamine}}.",
-        "extra": "Vasodilatação e aumento de permeabilidade em minutos: é o alarme que troca informação detalhada por velocidade.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual mediador pré-formado o mastócito libera ao degranular.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "au-cytotoxicity",
-      "concept_id": "c004",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "In cell-mediated cytotoxicity the effector delivers a signal, the target dies by {{c1::apoptosis}}, and the effector survives to seek another target.",
-      "extra": "A morte é programada e contida: o conteúdo da célula-alvo não extravasa para o tecido, e a mesma efetora mata vários alvos em sequência porque gasta sinal, não gasta a si mesma.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "De que modo a célula-alvo morre na citotoxicidade celular.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "cytotoxic T cell kills target by inducing apoptosis perforin granzyme",
-        "cell mediated cytotoxicity target cell programmed death",
-        "NK cell cytotoxicity apoptosis of target cell serial killing"
-      ],
-      "anking_rejection_reason": "As notas Step 1 equivalentes são sobre perforina e granzima e sobre marcadores de célula NK; a recuperação desta aula é o princípio de que quem morre executa a própria morte enquanto a efetora sobrevive."
-    },
-    {
-      "card_key": "au-ilc-direction",
-      "concept_id": "c005",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Beyond macrophages and mast cells, the tissue hosts innate lymphocytes that bias which kind of acquired response will follow: the {{c1::ILCs}}.",
-      "extra": "A resposta adquirida não é o plano B: ela se monta no mesmo episódio, dirigida às moléculas daquele tecido. As células inatas residentes é que inclinam o tipo de resposta que vai se desenvolver.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Que célula residente do tecido direciona o tipo de resposta adquirida.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "innate lymphoid cells direct type of adaptive immune response",
-        "ILC tissue resident innate lymphocytes shape adaptive immunity",
-        "innate cells instruct adaptive response polarization in tissue"
-      ],
-      "anking_rejection_reason": "O conteúdo Step 1 sobre ILC praticamente se limita a citá-las como equivalentes inatas dos linfócitos T auxiliares; a recuperação da aula é o papel delas em direcionar a resposta adquirida do mesmo episódio."
-    },
-    {
-      "card_key": "au-somatic-receptor-genes",
-      "concept_id": "c006",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "The genes encoding clonal antigen receptors are absent from the germline and are assembled {{c1::somatically}} inside the primary lymphoid organ.",
-      "extra": "Cada precursor recombina segmentos gênicos e sorteia a própria combinação; é desse sorteio que sai a diversidade do repertório, e ele só acontece no timo e na medula óssea.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Como e onde nascem os genes que codificam o receptor clonal.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "antigen receptor genes assembled by somatic VDJ recombination",
-        "immunoglobulin gene rearrangement occurs in developing lymphocytes",
-        "TCR gene rearrangement in thymus generates receptor diversity"
-      ],
-      "anking_rejection_reason": "As notas Step 1 correspondentes cobram os segmentos V, D e J e a enzima RAG; a recuperação da aula é anterior a esse detalhe — que o gene do receptor não existe na linhagem germinativa e é montado somaticamente."
-    },
-    {
-      "card_key": "ak-b-medula-ossea",
-      "concept_id": "c006",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "B lymphocytes complete maturation in the bone marrow whereas T lymphocytes mature in the thymus",
-      "aliases": [
-        "B cell maturation site bone marrow primary lymphoid organ",
-        "site of B lymphocyte development and maturation"
-      ],
-      "search_queries": [
-        "B lymphocytes complete maturation in the bone marrow whereas T lymphocytes mature in the thymus",
-        "B cell maturation site bone marrow primary lymphoid organ",
-        "site of B lymphocyte development and maturation"
-      ],
-      "expected_answers": [
-        "bone marrow"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Whereas T lymphocytes mature in the thymus, B lymphocytes complete maturation in the {{c1::bone marrow}}.",
-        "extra": "Os dois são órgãos linfoides primários: geram o repertório e o selecionam isolados do meio externo.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Onde o linfócito B amadurece.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "ak-selecao-positiva",
-      "concept_id": "c007",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "positive selection of thymocytes occurs in the thymic cortex and requires the TCR to bind self MHC on cortical epithelial cells",
-      "aliases": [
-        "thymic cortex positive selection MHC restriction thymocyte",
-        "thymocyte that cannot bind self MHC dies by neglect"
-      ],
-      "search_queries": [
-        "positive selection of thymocytes occurs in the thymic cortex and requires the TCR to bind self MHC on cortical epithelial cells",
-        "thymic cortex positive selection MHC restriction thymocyte",
-        "thymocyte that cannot bind self MHC dies by neglect"
-      ],
-      "expected_answers": [
-        "cortex",
-        "thymic cortex"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "A thymocyte whose receptor cannot bind self-MHC at all dies by neglect during positive selection, which occurs in the thymic {{c1::cortex}}.",
-        "extra": "É a primeira prova da seleção tímica: só segue adiante quem consegue interagir com a molécula apresentadora.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Onde ocorre a seleção positiva do timócito.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
     {
       "card_key": "ak-selecao-negativa",
       "concept_id": "c008",
@@ -952,45 +626,6 @@
       }
     },
     {
-      "card_key": "ak-aire",
-      "concept_id": "c009",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "AIRE autoimmune regulator drives expression of tissue restricted self antigens in thymic medullary epithelial cells and its mutation causes autoimmune polyendocrine syndrome type 1",
-      "aliases": [
-        "AIRE gene APECED autoimmune polyendocrinopathy candidiasis",
-        "thymic expression of peripheral self antigens transcription factor"
-      ],
-      "search_queries": [
-        "AIRE autoimmune regulator drives expression of tissue restricted self antigens in thymic medullary epithelial cells and its mutation causes autoimmune polyendocrine syndrome type 1",
-        "AIRE gene APECED autoimmune polyendocrinopathy candidiasis",
-        "thymic expression of peripheral self antigens transcription factor"
-      ],
-      "expected_answers": [
-        "AIRE"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Display of tissue-restricted self antigens inside the thymic medulla, required for clonal deletion, depends on the transcription factor {{c1::AIRE}}.",
-        "extra": "Sem essa vitrine completa do próprio escapam clones autorreativos: é a APECED, com candidíase mucocutânea crônica, hipoparatireoidismo e insuficiência adrenal.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual fator de transcrição expõe antígenos próprios periféricos no timo.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
       "card_key": "au-malt",
       "concept_id": "c010",
       "tier": "nucleo",
@@ -1019,96 +654,6 @@
         "secondary lymphoid organs associated with mucosal surfaces"
       ],
       "anking_rejection_reason": "O material Step 1 usa MALT apenas como rótulo dentro das notas de placas de Peyer e de IgA secretora; a recuperação da aula é a própria agregação — reconhecer que apêndice, anel de Waldeyer e placas de Peyer são o mesmo compartimento."
-    },
-    {
-      "card_key": "au-recognition-site",
-      "concept_id": "c011",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Lymphocytes must leave the organ where they were generated because antigen recognition takes place only in {{c1::secondary}} lymphoid organs.",
-      "extra": "No órgão primário o repertório é gerado e selecionado, mas nenhuma resposta acontece ali. O reconhecimento exige o encontro, e o encontro é organizado no órgão secundário.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Em que classe de órgão linfoide ocorre o reconhecimento do antígeno.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "primary versus secondary lymphoid organs function generation recognition",
-        "site of antigen recognition secondary lymphoid organ",
-        "lymph node spleen site where adaptive response is initiated"
-      ],
-      "anking_rejection_reason": "As notas Step 1 listam quais órgãos são primários e quais são secundários; a recuperação da aula é a divisão funcional entre eles — gerar e selecionar de um lado, reconhecer do outro."
-    },
-    {
-      "card_key": "au-one-way",
-      "concept_id": "c012",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Traffic out of a primary lymphoid organ is one-way: physiologically a lymphocyte never re-enters the {{c1::primary}} organ.",
-      "extra": "O trajeto fisiológico é órgão primário, sangue, órgão linfoide secundário, linfa e sangue de novo. Só uma destruição total do órgão quebraria essa regra.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Para qual órgão o linfócito nunca retorna depois de sair.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "lymphocyte recirculation route blood lymph node efferent lymph",
-        "naive lymphocyte trafficking from bone marrow and thymus",
-        "lymphocyte does not return to thymus or bone marrow"
-      ],
-      "anking_rejection_reason": "O material Step 1 descreve o trajeto do linfócito naïve até o linfonodo, mas não cobra a irreversibilidade da saída do órgão primário, que é a recuperação pedida aqui."
-    },
-    {
-      "card_key": "au-exit-lymph",
-      "concept_id": "c013",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "A lymphocyte that entered a lymph node from the blood leaves it not through the blood, but through the {{c1::lymph}}.",
-      "extra": "O linfócito visto no sangue saindo de um linfonodo nunca entrou nele: apenas não encontrou a porta de saída do vaso. Daí o nome linfócito, célula da linfa.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Por qual via o linfócito deixa o órgão linfoide secundário.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "efferent lymphatics carry lymphocytes out of the lymph node",
-        "lymphocyte egress from lymph node route",
-        "afferent versus efferent lymphatic vessels lymph node"
-      ],
-      "anking_rejection_reason": "As notas Step 1 sobre linfáticos aferentes e eferentes cobram anatomia e drenagem regional; a recuperação da aula é a assimetria entrada pelo sangue e saída pela linfa, que elas não testam."
     },
     {
       "card_key": "ak-paracortex-hev",
@@ -1149,7 +694,8 @@
           "extra_only_supports_answer": true,
           "medical_english_reviewed": true
         }
-      }
+      },
+      "step1_enrichment": true
     },
     {
       "card_key": "io-recirculacao-hev-linfa",
@@ -1201,75 +747,6 @@
       "anking_rejection_reason": "As imagens Step 1 desse tema mostram a cascata de adesão na parede da HEV ou a histologia do linfonodo, não o mapa do circuito completo entrada-saída que esta aula usa como espinha dorsal."
     },
     {
-      "card_key": "au-recirculation-why",
-      "concept_id": "c015",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Continuous recirculation is necessary because at any given moment one lymph node holds only a fraction of the whole {{c1::repertoire}}.",
-      "extra": "Como cada linfócito reconhece um único antígeno, nenhum órgão consegue guardar o repertório inteiro. Se o clone certo não está aqui agora, ele passa por aqui em breve.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Por que a recirculação linfocitária é indispensável.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "why do lymphocytes continuously recirculate through lymphoid organs",
-        "lymphocyte recirculation increases repertoire coverage",
-        "clonal diversity distribution across lymph nodes recirculation"
-      ],
-      "anking_rejection_reason": "O material Step 1 descreve o trajeto da recirculação, mas não cobra a razão funcional dela; a recuperação daqui é justamente o argumento de amostragem incompleta do repertório."
-    },
-    {
-      "card_key": "ak-fingolimode",
-      "concept_id": "c016",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "fingolimod is a sphingosine 1 phosphate receptor modulator that sequesters lymphocytes in lymph nodes and is used in multiple sclerosis",
-      "aliases": [
-        "S1P receptor modulator prevents lymphocyte egress lymph node",
-        "drug causing lymphopenia by trapping lymphocytes in lymph nodes"
-      ],
-      "search_queries": [
-        "fingolimod is a sphingosine 1 phosphate receptor modulator that sequesters lymphocytes in lymph nodes and is used in multiple sclerosis",
-        "S1P receptor modulator prevents lymphocyte egress lymph node",
-        "drug causing lymphopenia by trapping lymphocytes in lymph nodes"
-      ],
-      "expected_answers": [
-        "fingolimod"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Lymphocyte egress into lymph follows an S1P gradient, and the drug that abolishes it by internalizing S1PR1 is {{c1::fingolimod}}.",
-        "extra": "A linfopenia periférica resultante não vem de destruição: os linfócitos estão vivos, apenas retidos no linfonodo. O fármaco confirma que a saída é ativa.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual fármaco impede a saída do linfócito do linfonodo.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
       "card_key": "au-activated-switch",
       "concept_id": "c017",
       "tier": "nucleo",
@@ -1298,36 +775,6 @@
         "effector lymphocyte loses lymph node homing receptors"
       ],
       "anking_rejection_reason": "As notas Step 1 tratam de receptores específicos de homing em tecidos isolados, como pele e intestino; a recuperação da aula é o princípio geral da troca de padrão de adesão como causa da mudança de destino."
-    },
-    {
-      "card_key": "au-probability",
-      "concept_id": "c018",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Secondary lymphoid organs crowd lymphocytes and presenting cells together in order to raise the {{c1::probability}} of encounter between an antigen and its rare clone.",
-      "extra": "Muito da resposta imune é estatística. A vacina age primeiro por aí: aumenta a frequência dos clones específicos e faz o encontro acontecer mais depressa.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Qual é a finalidade funcional da alta densidade celular no órgão linfoide.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "why lymph nodes concentrate lymphocytes and antigen presenting cells",
-        "probability of antigen meeting specific lymphocyte clone",
-        "lymphoid organ architecture increases antigen lymphocyte encounter"
-      ],
-      "anking_rejection_reason": "O material Step 1 descreve a arquitetura do linfonodo por compartimentos; a recuperação da aula é o argumento probabilístico que explica por que essa arquitetura existe."
     },
     {
       "card_key": "ak-dc-naive-t",
@@ -1407,37 +854,8 @@
           "extra_only_supports_answer": true,
           "medical_english_reviewed": true
         }
-      }
-    },
-    {
-      "card_key": "au-macrophage-tissue-apc",
-      "concept_id": "c021",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Once the primed T cell reaches the inflamed tissue, the cell that re-presents antigen to it there is the {{c1::macrophage}}.",
-      "extra": "Há muito mais macrófago do que célula dendrítica nos tecidos. Além de apresentar, ele é efetor: em estados ativados destrói com eficiência o que fagocita.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Qual célula reapresenta o antígeno ao linfócito já ativado no tecido.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
       },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "macrophage as antigen presenting cell in peripheral tissue",
-        "macrophage MHC class II presentation to effector T cell",
-        "tissue macrophage reactivates effector T lymphocytes"
-      ],
-      "anking_rejection_reason": "As notas Step 1 sobre macrófago cobram fagocitose, polarização e formação de granuloma; a recuperação da aula é a divisão geográfica de trabalho com a dendrítica, apresentada no órgão linfoide contra reapresentada no tecido."
+      "step1_enrichment": true
     },
     {
       "card_key": "au-b-cell-affinity",
@@ -1470,117 +888,6 @@
       "anking_rejection_reason": "O material Step 1 trata o linfócito B como apresentadora profissional sem quantificar a vantagem de afinidade; a recuperação da aula é justamente essa ordem de grandeza, que explica quem captura antígeno escasso."
     },
     {
-      "card_key": "ak-cd40l",
-      "concept_id": "c023",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "CD40 ligand on the helper T cell binds CD40 on the B cell and drives immunoglobulin class switching in the germinal center",
-      "aliases": [
-        "CD40L CD40 interaction B cell class switch recombination",
-        "helper T cell signal required for isotype switching"
-      ],
-      "search_queries": [
-        "CD40 ligand on the helper T cell binds CD40 on the B cell and drives immunoglobulin class switching in the germinal center",
-        "CD40L CD40 interaction B cell class switch recombination",
-        "helper T cell signal required for isotype switching"
-      ],
-      "expected_answers": [
-        "CD40L",
-        "CD40 ligand"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Class switching requires the helper T cell to engage CD40 on the B cell through {{c1::CD40L}}.",
-        "extra": "O linfócito B apresenta o antígeno em MHC de classe II ao linfócito T auxiliar; o par CD40L-CD40 e as citocinas do T autorizam a troca de classe.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual molécula do linfócito T auxiliar engata o CD40 do linfócito B.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "ak-hiper-igm",
-      "concept_id": "c023",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "hyper IgM syndrome results from defective CD40 ligand with normal or elevated IgM and absent IgG IgA and IgE",
-      "aliases": [
-        "X linked hyper IgM syndrome CD40L deficiency recurrent infection",
-        "failure of class switching normal IgM low IgG immunodeficiency"
-      ],
-      "search_queries": [
-        "hyper IgM syndrome results from defective CD40 ligand with normal or elevated IgM and absent IgG IgA and IgE",
-        "X linked hyper IgM syndrome CD40L deficiency recurrent infection",
-        "failure of class switching normal IgM low IgG immunodeficiency"
-      ],
-      "expected_answers": [
-        "hyper-IgM",
-        "hyper IgM syndrome",
-        "CD40L"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Inability to class switch, with high IgM and absent IgG, IgA and IgE, defines {{c1::hyper-IgM}} syndrome.",
-        "extra": "É a prova clínica de que a troca de classe depende da licença dada pelo linfócito T ao linfócito B.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual imunodeficiência resulta da falha do par CD40L-CD40.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "au-ln-lymphocyte-entry",
-      "concept_id": "c024",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "In a lymph node the antigenic information arrives with the afferent lymph, whereas the lymphocytes themselves arrive from the {{c1::blood}}.",
-      "extra": "Entram por vias diferentes e saem pela mesma: tanto a linfa quanto os linfócitos deixam o linfonodo pelo vaso eferente. É a confusão mais comum do tema.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "De onde vêm os linfócitos que entram no linfonodo.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "lymph node afferent lymph brings antigen lymphocytes enter from blood",
-        "how do lymphocytes enter the lymph node circulation",
-        "lymph node inputs antigen presenting cells lymph and blood"
-      ],
-      "anking_rejection_reason": "As notas Step 1 sobre linfonodo cobram compartimentos e drenagem regional; a recuperação da aula é a assimetria entre a via da informação e a via das células, que elas não separam."
-    },
-    {
       "card_key": "au-spleen-no-afferent",
       "concept_id": "c025",
       "tier": "nucleo",
@@ -1609,46 +916,6 @@
         "difference between lymph node and spleen antigen delivery"
       ],
       "anking_rejection_reason": "O material Step 1 descreve polpa branca, polpa vermelha e a zona marginal do baço, mas não cobra a ausência de linfa aferente como a razão da amostragem sanguínea."
-    },
-    {
-      "card_key": "ak-asplenia-encapsulados",
-      "concept_id": "c026",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "asplenia or functional hyposplenism predisposes to overwhelming sepsis by encapsulated organisms such as pneumococcus meningococcus and Haemophilus influenzae",
-      "aliases": [
-        "splenectomy encapsulated organisms vaccination sickle cell",
-        "loss of splenic function increases risk of encapsulated bacteria"
-      ],
-      "search_queries": [
-        "asplenia or functional hyposplenism predisposes to overwhelming sepsis by encapsulated organisms such as pneumococcus meningococcus and Haemophilus influenzae",
-        "splenectomy encapsulated organisms vaccination sickle cell",
-        "loss of splenic function increases risk of encapsulated bacteria"
-      ],
-      "expected_answers": [
-        "encapsulated organisms",
-        "encapsulated"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Because the spleen is the lymphoid organ that samples blood, losing it leaves the patient vulnerable above all to {{c1::encapsulated}} organisms.",
-        "extra": "Ali residem também os linfócitos B de memória IgM que controlam pneumococo. Daí a vacinação obrigatória antes de esplenectomia eletiva.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "A que classe de micro-organismo o asplênico fica especialmente vulnerável.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
     },
     {
       "card_key": "ak-celulas-m",
@@ -1691,47 +958,6 @@
       }
     },
     {
-      "card_key": "ak-pals-baco",
-      "concept_id": "c028",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "the periarteriolar lymphoid sheath of the splenic white pulp surrounds the central arteriole and contains T lymphocytes",
-      "aliases": [
-        "PALS periarteriolar lymphatic sheath spleen T cell zone",
-        "splenic white pulp T cell region around central arteriole"
-      ],
-      "search_queries": [
-        "the periarteriolar lymphoid sheath of the splenic white pulp surrounds the central arteriole and contains T lymphocytes",
-        "PALS periarteriolar lymphatic sheath spleen T cell zone",
-        "splenic white pulp T cell region around central arteriole"
-      ],
-      "expected_answers": [
-        "PALS",
-        "periarteriolar lymphoid sheath",
-        "T cells"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "The thymus-dependent T-cell zone of the splenic white pulp is the periarteriolar lymphoid sheath, abbreviated {{c1::PALS}}.",
-        "extra": "As áreas timo-dependentes têm um endereço por órgão: região paracortical no linfonodo, bainha periarteriolar no baço, área interfolicular no MALT.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual é a área timo-dependente do baço.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
       "card_key": "ak-foliculo-b",
       "concept_id": "c029",
       "source": "anking",
@@ -1762,46 +988,6 @@
         "front_language": "en",
         "extra_language": "pt-BR",
         "retrieval_target": "Que linfócito habita o folículo linfoide.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "ak-fdc",
-      "concept_id": "c030",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "follicular dendritic cells retain intact antigen and antigen antibody immune complexes on their surface to present to B cells within germinal centers",
-      "aliases": [
-        "follicular dendritic cell immune complex retention germinal center",
-        "cell that holds native antigen for B cells in the follicle"
-      ],
-      "search_queries": [
-        "follicular dendritic cells retain intact antigen and antigen antibody immune complexes on their surface to present to B cells within germinal centers",
-        "follicular dendritic cell immune complex retention germinal center",
-        "cell that holds native antigen for B cells in the follicle"
-      ],
-      "expected_answers": [
-        "follicular dendritic cell",
-        "follicular dendritic cells"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Intact antigen, often already bound to antibody, is retained inside the follicle for years by the {{c1::follicular dendritic}} cell.",
-        "extra": "Ela não apresenta em MHC ao linfócito T e não tem parentesco com a célula dendrítica clássica: funciona como cápsula de liberação lenta e sustenta a memória.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Que célula do folículo retém antígeno intacto para o linfócito B.",
         "authored_quality": {
           "single_retrieval": true,
           "unambiguous_prompt": true,
@@ -1897,7 +1083,8 @@
           "extra_only_supports_answer": true,
           "medical_english_reviewed": true
         }
-      }
+      },
+      "step1_enrichment": true
     },
     {
       "card_key": "ak-cordoes-medulares",
@@ -1937,75 +1124,6 @@
           "medical_english_reviewed": true
         }
       }
-    },
-    {
-      "card_key": "ak-mieloma-multiplo",
-      "concept_id": "c033",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "multiple myeloma is a malignant plasma cell neoplasm of the bone marrow with lytic bone lesions and a monoclonal immunoglobulin spike",
-      "aliases": [
-        "plasma cell malignancy bone marrow lytic lesions M spike",
-        "multiple myeloma CRAB features plasma cell neoplasm"
-      ],
-      "search_queries": [
-        "multiple myeloma is a malignant plasma cell neoplasm of the bone marrow with lytic bone lesions and a monoclonal immunoglobulin spike",
-        "plasma cell malignancy bone marrow lytic lesions M spike",
-        "multiple myeloma CRAB features plasma cell neoplasm"
-      ],
-      "expected_answers": [
-        "multiple myeloma"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Because long-lived plasma cells home to bone marrow, their malignant counterpart arises there at many sites at once as {{c1::multiple myeloma}}.",
-        "extra": "É o motivo do nome: tumor de medula em vários pontos. Quem circula é o linfócito B ativado em diferenciação, não o plasmócito maduro.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Que neoplasia decorre da morada medular dos plasmócitos.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "au-two-weeks",
-      "concept_id": "c034",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Clonal expansion inside a stimulated secondary lymphoid organ needs about {{c1::two weeks}} to produce a full, measurable response.",
-      "extra": "No início o órgão retém os clones específicos: entra linfa, mas quase não sai linfócito por um a dois dias. Esse atraso é a base da janela imunológica.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Quanto tempo leva a expansão clonal até uma resposta mensurável.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "kinetics of primary adaptive immune response two weeks antibody",
-        "time to detectable antibody after primary exposure window period",
-        "primary versus secondary immune response timing"
-      ],
-      "anking_rejection_reason": "As notas Step 1 comparam resposta primária e secundária em curvas de anticorpo e cobram a janela sorológica do HIV; a recuperação da aula é o tempo da expansão clonal dentro do órgão linfoide, incluindo o fechamento inicial da saída."
     },
     {
       "card_key": "au-response-tolerance",
@@ -2157,119 +1275,8 @@
           "extra_only_supports_answer": true,
           "medical_english_reviewed": true
         }
-      }
-    },
-    {
-      "card_key": "ak-lad1-coto-umbilical",
-      "concept_id": "c038",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "leukocyte adhesion deficiency presents with delayed separation of the umbilical cord recurrent bacterial infections without pus and marked neutrophilia",
-      "aliases": [
-        "delayed umbilical cord separation immunodeficiency neutrophilia",
-        "recurrent infections without pus formation leukocyte disorder"
-      ],
-      "search_queries": [
-        "leukocyte adhesion deficiency presents with delayed separation of the umbilical cord recurrent bacterial infections without pus and marked neutrophilia",
-        "delayed umbilical cord separation immunodeficiency neutrophilia",
-        "recurrent infections without pus formation leukocyte disorder"
-      ],
-      "expected_answers": [
-        "umbilical cord",
-        "delayed separation of the umbilical cord"
-      ],
-      "must_contain": [
-        "umbilical"
-      ],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "In leukocyte adhesion deficiency the neutrophil cannot leave the vessel, so infected lesions form no {{c1::pus}}.",
-        "extra": "O quadro é paradoxal: neutrofilia altíssima no sangue e ausência de neutrófilo no tecido. A queda tardia do coto umbilical é o sinal neonatal clássico.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Por que faltam pus e neutrófilos no tecido da LAD.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "ak-pecam-diapedese",
-      "concept_id": "c039",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "diapedesis of the leukocyte between endothelial cells is mediated by PECAM-1 also called CD31",
-      "aliases": [
-        "PECAM-1 CD31 transmigration diapedesis endothelial junction",
-        "final step of leukocyte extravasation between endothelial cells"
-      ],
-      "search_queries": [
-        "diapedesis of the leukocyte between endothelial cells is mediated by PECAM-1 also called CD31",
-        "PECAM-1 CD31 transmigration diapedesis endothelial junction",
-        "final step of leukocyte extravasation between endothelial cells"
-      ],
-      "expected_answers": [
-        "PECAM-1",
-        "CD31"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "The step in which the arrested leukocyte squeezes between endothelial cells is diapedesis, mediated by {{c1::PECAM-1}}.",
-        "extra": "É o que a palavra transmigração descreve: marginação, rolamento, adesão firme e, por fim, passagem entre as células endoteliais.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Que molécula medeia a diapedese do leucócito.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "au-addressins",
-      "concept_id": "c040",
-      "tier": "optional",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "The carbohydrate-rich, mucin-like endothelial ligands recognized by selectins are collectively called {{c1::addressins}}.",
-      "extra": "CD34, GlyCAM-1 e MAdCAM-1 são exemplos. O nome vem de endereço: elas identificam o território ao qual aquele trecho de endotélio pertence.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Como se chamam os ligantes mucina-símile reconhecidos pelas selectinas.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
       },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "addressin vascular mucin like ligand selectin homing receptor",
-        "GlyCAM-1 CD34 MAdCAM-1 peripheral node addressin",
-        "mucin like adhesion molecules on high endothelial venules"
-      ],
-      "anking_rejection_reason": "O material Step 1 cita sialyl Lewis X como ligante das selectinas, mas não trabalha a família mucina-símile nem o termo adressina, que é o vocabulário desta aula."
+      "step1_enrichment": true
     },
     {
       "card_key": "au-chemokine-families",
@@ -2340,75 +1347,6 @@
           "medical_english_reviewed": true
         }
       }
-    },
-    {
-      "card_key": "ak-c5a-quimiotaxia",
-      "concept_id": "c043",
-      "source": "anking",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "query": "chemotactic factors that attract neutrophils include C5a interleukin 8 leukotriene B4 and bacterial products",
-      "aliases": [
-        "C5a anaphylatoxin chemotaxis complement fragment neutrophil",
-        "mediators of neutrophil chemotaxis in acute inflammation"
-      ],
-      "search_queries": [
-        "chemotactic factors that attract neutrophils include C5a interleukin 8 leukotriene B4 and bacterial products",
-        "C5a anaphylatoxin chemotaxis complement fragment neutrophil",
-        "mediators of neutrophil chemotaxis in acute inflammation"
-      ],
-      "expected_answers": [
-        "C5a"
-      ],
-      "must_contain": [],
-      "must_not_contain": [],
-      "anking_required": true,
-      "fallback": {
-        "source": "authored",
-        "text": "Among complement fragments, the one that both attracts neutrophils and acts as an anaphylatoxin is {{c1::C5a}}.",
-        "extra": "Junto com os fatores lipídicos, como leucotrienos e PAF, ele forma a camada de quimiotaxia anterior à descoberta das quimiocinas.",
-        "front_language": "en",
-        "extra_language": "pt-BR",
-        "retrieval_target": "Qual fragmento do complemento é quimiotático para neutrófilo.",
-        "authored_quality": {
-          "single_retrieval": true,
-          "unambiguous_prompt": true,
-          "no_functional_duplicate": true,
-          "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
-        }
-      }
-    },
-    {
-      "card_key": "au-vaccine-circuit",
-      "concept_id": "c044",
-      "tier": "nucleo",
-      "atomic": true,
-      "relevant": true,
-      "source": "authored",
-      "text": "Vaccination works because, at the very first alarm, the blood recruited to the tissue already carries products of a previous {{c1::acquired}} response.",
-      "extra": "Anticorpos no plasma e células no sangue passam a integrar o que é recrutado no episódio seguinte. Por isso a resposta inata quase sempre chega misturada com a adquirida.",
-      "front_language": "en",
-      "extra_language": "pt-BR",
-      "retrieval_target": "Por que a resposta inata do próximo episódio já chega específica após uma vacina.",
-      "authored_quality": {
-        "single_retrieval": true,
-        "unambiguous_prompt": true,
-        "no_functional_duplicate": true,
-        "extra_only_supports_answer": true,
-        "medical_english_reviewed": true
-      },
-      "anking_search_complete": true,
-      "anking_search_scope_expanded": true,
-      "anking_siblings_reviewed": true,
-      "anking_candidates_reviewed": 0,
-      "anking_search_queries": [
-        "vaccination primes memory response faster secondary exposure",
-        "how does previous adaptive response accelerate innate recruitment",
-        "secondary immune response antibodies recruited at site of injury"
-      ],
-      "anking_rejection_reason": "O material Step 1 cobra tipos de vacina e curvas de resposta primária e secundária; a recuperação da aula é o fechamento do circuito, isto é, que os produtos da adquirida passam a ser recrutados pela inata."
     }
   ]
 }

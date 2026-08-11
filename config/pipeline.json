@@ -10,7 +10,10 @@
   "emergency_desktop_fallback_only_if_explicitly_requested": true,
   "ankidroid": {
     "manifest_schema": "nebli-ankidroid-deck-v3",
-    "legacy_manifest_schemas": ["nebli-ankidroid-lesson-v2", "nebli-ankidroid-v1"],
+    "legacy_manifest_schemas": [
+      "nebli-ankidroid-lesson-v2",
+      "nebli-ankidroid-v1"
+    ],
     "full_deck_direct_install": true,
     "resolution_mode": "local_decks_with_validated_fallbacks",
     "anking_direct_copy": true,
@@ -74,7 +77,11 @@
   "require_offline_apkg": false,
   "require_apkg_audit": false,
   "require_e1_anchor_for_every_card": true,
-  "source_priority": ["anking", "external_deck", "authored"],
+  "source_priority": [
+    "anking",
+    "external_deck",
+    "authored"
+  ],
   "non_anking_requires": {
     "completed_anking_search": true,
     "minimum_independent_queries": 3,
@@ -86,12 +93,13 @@
   "card_quality_contract": "docs/canon/CARD-QUALITY.md",
   "card_budget": {
     "enforce_contract_hard_max": true,
-    "sanity_ranges": {
-      "small": [15, 25],
-      "medium": [25, 40],
-      "large": [35, 55]
-    },
-    "manual_review_above": 60
+    "derive_hard_max_from_objectives": true,
+    "cards_per_objective": 4,
+    "hard_max_floor": 12,
+    "hard_max_ceiling": 32,
+    "step1_enrichment_fraction_max": 0.25,
+    "require_no_card_reason_for_uncarded_concept": true,
+    "manual_review_above": 32
   },
   "authored_cards": {
     "front_language": "en",
@@ -134,10 +142,14 @@
   "optional_cards_separate": true,
   "user_delivery": {
     "finalizer": "flashcards/scripts/finalizar_entrega_canonica.py",
-    "visible_files": ["e1_pdf", "ankidroid_manifest"],
+    "visible_files": [
+      "e1_pdf",
+      "ankidroid_manifest"
+    ],
     "hide_internal_work_artifacts": true,
     "manifest_open_starts_install_automatically": true,
     "open_ankidroid_after_install": true,
     "manual_card_selection": false
-  }
+  },
+  "card_selection_contract": "docs/canon/SELECAO-DE-CARDS.md"
 }

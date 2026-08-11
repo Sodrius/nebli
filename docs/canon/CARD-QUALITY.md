@@ -22,7 +22,10 @@ o lugar de introduzir matéria nova.
 
 ## 2. Quantidade
 
-- Definir e congelar `card_budget.hard_max` antes da seleção final.
+- Definir e congelar `card_budget.hard_max` antes da seleção final, derivando-o
+  dos objetivos da aula conforme `docs/canon/SELECAO-DE-CARDS.md` §2.
+- Aplicar o teste de merecimento (§3 daquele documento) antes de criar o card:
+  a informação decai, é cobrada e falha sozinha.
 - Contar **cards Anki reais**, não notas, conceitos ou linhas JSON.
 - Não criar cards só para atingir uma cota.
 - Não sacrificar um conceito nuclear relevante para economizar um card.
@@ -30,8 +33,9 @@ o lugar de introduzir matéria nova.
 - `nucleo` e `optional` não se misturam no mesmo card; opcionais vão para
   `<Deck-Aula>::Optional`.
 
-Faixas de sanidade, não metas: pequena 15–25; média 25–40; grande 35–55. O
-contrato da aula prevalece.
+O teto sai do que a aula **cobra**, não do porte do material: `4 × objetivos`,
+com piso 12 e teto 32. Faixas de porte não são mais critério de quantidade — uma
+aula longa pode ensinar muito na E1 e cobrar pouco no deck.
 
 ## 3. Ordem de fonte
 
