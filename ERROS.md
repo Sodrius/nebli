@@ -73,3 +73,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 32. Nunca consultar campos completos da coleção inteira para buscar AnKing. A
     busca deve incluir o deck-fonte, obter IDs primeiro e hidratar somente o
     pool limitado; coleções de vários GB podem derrubar o processo Android.
+33. Regex executada no Android precisa escapar chaves literais dos dois lados e
+    não deve ser compilada em inicializador estático crítico. OpenJDK e Android
+    podem divergir; um padrão aceito apenas no teste JVM não pode inutilizar o
+    Companion com `ExceptionInInitializerError`.
