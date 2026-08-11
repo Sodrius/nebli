@@ -73,7 +73,13 @@ public final class Ranker {
         }
         double answer = 0.0;
         for (String expected : expectedAnswers) {
-            answer = Math.max(answer, answerScore(expected, fields));
+            // Here `fields` is the whole note, not one extracted cloze answer.
+            // Do not dilute an exact expected answer just because the note has
+            // a long explanatory context around it.
+            double presence = coverage(expected, fields) >= 1.0
+                    ? 1.0
+                    : answerScore(expected, fields);
+            answer = Math.max(answer, presence);
         }
         double combined = context + 0.08 * answer;
         return Math.min(1.0, combined);
