@@ -22,8 +22,8 @@ def _bool(card: dict[str, Any], key: str, *, default: bool | None = None) -> boo
     return card.get(key) is True
 
 
-def _anking_rank_ok(card: dict[str, Any], min_score: float, min_margin: float) -> bool:
-    if card.get("source") != "anking":
+def _local_rank_ok(card: dict[str, Any], min_score: float, min_margin: float) -> bool:
+    if card.get("source") not in {"anking", "external_deck"}:
         return True
     score = float(card.get("score", 0.0))
     second = float(card.get("second_score", 0.0))
@@ -59,6 +59,13 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
         failures.append("front_characters>360")
     if _bool(card, "multi_retrieval", default=False):
         failures.append("multi_retrieval")
+    if _bool(card, "has_extra_media", default=False):
+        if not _bool(card, "media_ok"):
+            failures.append("media_ok")
+        if not _bool(card, "media_source_credit_ok"):
+            failures.append("media_source_credit_ok")
+        if not _bool(card, "media_cognitive_purpose_ok"):
+            failures.append("media_cognitive_purpose_ok")
 
 
 def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
@@ -75,6 +82,7 @@ def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
         "answer_preview_validated",
         "visual_ok",
         "real_source",
+        "source_credit_ok",
         "media_ok",
     ):
         if not _bool(card, key):
@@ -100,21 +108,18 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
     if str(card.get("tier", "")) not in {"nucleo", "optional"}:
         failures.append("invalid_tier")
 
-    if source == "anking":
+    if source in {"anking", "external_deck"}:
         if not _bool(card, "source_safe"):
             failures.append("source_safe")
-        if not _anking_rank_ok(card, min_score, min_margin):
-            failures.append("anking_rank")
+        if not _local_rank_ok(card, min_score, min_margin):
+            failures.append("local_deck_rank")
         for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok", "fallback_validated"):
             if not _bool(card, key):
                 failures.append(key)
-        if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
-            failures.append("visual_ok")
-
-    elif source == "external_deck":
-        for key in ("source_safe", "same_note_type", "same_fields", "media_ok", "sibling_policy_ok"):
-            if not _bool(card, key):
-                failures.append(key)
+        if source == "anking" and not _bool(card, "anking_marker_ok"):
+            failures.append("anking_marker_ok")
+        if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
+            failures.append("source_filter_ok")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 
