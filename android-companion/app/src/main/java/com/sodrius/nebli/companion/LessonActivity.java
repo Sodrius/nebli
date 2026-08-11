@@ -203,8 +203,19 @@ public class LessonActivity extends Activity {
     }
 
     private static String errorText(Throwable e) {
-        String name = e == null ? "Erro desconhecido" : e.getClass().getSimpleName();
-        String message = e == null ? "" : e.getMessage();
-        return message == null || message.isBlank() ? name : name + ": " + message;
+        if (e == null) return "Erro desconhecido";
+        StringBuilder out = new StringBuilder();
+        Throwable current = e;
+        int depth = 0;
+        while (current != null && depth++ < 5) {
+            if (out.length() > 0) out.append(" <- ");
+            out.append(current.getClass().getSimpleName());
+            String message = current.getMessage();
+            if (message != null && !message.isBlank()) out.append(": ").append(message);
+            Throwable next = current.getCause();
+            if (next == current) break;
+            current = next;
+        }
+        return out.toString();
     }
 }

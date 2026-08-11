@@ -68,6 +68,15 @@ public class CardRulesTest {
     }
 
     @Test
+    public void clozeWithHintAndClosingBracesParsesWithoutStaticInitializer() {
+        String text = "TLR4 recognizes {{c1::LPS::microbial ligand}}.";
+        assertEquals(1, CardRules.clozeCount(text));
+        assertEquals(1, CardRules.clozeWordCount(text));
+        assertFalse(CardRules.clozeQuestion(text).contains("{{c1::"));
+        assertTrue(CardRules.clozeAnswer(text).contains("LPS"));
+    }
+
+    @Test
     public void goodIoPassesAndBadGeometryFails() {
         double[][] good = new double[][]{{0.1, 0.2, 0.2, 0.08}, {0.6, 0.4, 0.15, 0.06}};
         List<String> ok = CardRules.validateIo(

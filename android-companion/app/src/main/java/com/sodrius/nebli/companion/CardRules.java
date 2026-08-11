@@ -8,7 +8,12 @@ import java.util.regex.Pattern;
 
 /** Hard card-quality rules shared by runtime install gates and unit tests. */
 public final class CardRules {
-    private static final Pattern CLOZE = Pattern.compile("\\{\\{c(\\d+)::([^}:]+)(?:::[^}]*)?}}", Pattern.CASE_INSENSITIVE);
+    // Keep both closing braces escaped. OpenJDK accepts bare `}}`, but
+    // Android's regex implementation can reject it during class
+    // initialization and wrap PatternSyntaxException in
+    // ExceptionInInitializerError. Compile lazily so a malformed pattern can
+    // never make the entire Companion class unloadable.
+    private static final String CLOZE_REGEX = "\\{\\{c(\\d+)::([^}:]+)(?:::[^}]*)?\\}\\}";
 
     private CardRules() {}
 
@@ -33,7 +38,7 @@ public final class CardRules {
             failures.add("extra_language_not_pt");
         }
 
-        Matcher m = CLOZE.matcher(text);
+        Matcher m = clozePattern().matcher(text);
         int count = 0;
         int words = 0;
         while (m.find()) {
@@ -96,14 +101,14 @@ public final class CardRules {
     }
 
     public static int clozeWordCount(String text) {
-        Matcher m = CLOZE.matcher(text == null ? "" : text);
+        Matcher m = clozePattern().matcher(text == null ? "" : text);
         int words = 0;
         while (m.find()) words = Math.max(words, wordCount(m.group(2)));
         return words;
     }
 
     public static int clozeCount(String text) {
-        Matcher m = CLOZE.matcher(text == null ? "" : text);
+        Matcher m = clozePattern().matcher(text == null ? "" : text);
         int count = 0;
         while (m.find()) count++;
         return count;
@@ -112,7 +117,7 @@ public final class CardRules {
     /** Basic-note fallback when a collection has no cloze model. */
     public static String clozeQuestion(String text) {
         if (text == null) return "";
-        Matcher m = CLOZE.matcher(text);
+        Matcher m = clozePattern().matcher(text);
         if (!m.find()) return text;
         return m.replaceFirst("<span class=\"cloze\">[…]</span>");
     }
@@ -120,7 +125,7 @@ public final class CardRules {
     /** Shows the original sentence with the answer emphasized. */
     public static String clozeAnswer(String text) {
         if (text == null) return "";
-        Matcher m = CLOZE.matcher(text);
+        Matcher m = clozePattern().matcher(text);
         if (!m.find()) return text;
         String answer = m.group(2);
         return m.replaceFirst("<span class=\"cloze\"><b>" + Matcher.quoteReplacement(answer) + "</b></span>");
@@ -130,6 +135,10 @@ public final class CardRules {
         if (s == null) return 0;
         String x = s.trim().replaceAll("\\s+", " ");
         return x.isBlank() ? 0 : x.split(" ").length;
+    }
+
+    private static Pattern clozePattern() {
+        return Pattern.compile(CLOZE_REGEX, Pattern.CASE_INSENSITIVE);
     }
 
     private static int plainWordCount(String s) {
