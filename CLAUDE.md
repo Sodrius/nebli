@@ -1,51 +1,69 @@
 # NEBLI — entrada canônica
 
-O NEBLI transforma o material de uma aula em dois produtos: **E1 para aprender** e
-**deck-aula Anki para reter**. O comando normal `/resumo` já executa esse fluxo.
-E2, E3 e RemNote estão suspensos e não pertencem ao pipeline padrão.
+O NEBLI transforma o material de uma aula em dois produtos: **E1 para aprender** e **Deck-Aula Anki para reter**. O fluxo normal é `/resumo` e termina com um manifesto único `.ankidroid.json` que o Nebli Companion instala diretamente no AnkiDroid.
+
+E2, E3, RemNote, Drive/Colab e APKG estão fora do fluxo normal.
+
+## Próxima sessão
+
+Se a sessão recebeu PDFs/arquivos de uma aula e o pedido é “rode o pipeline”, leia primeiro `NEXT-SESSION.md` e execute o pipeline completo sem pedir decisões que possam ser resolvidas pelo canônico.
 
 ## Leitura obrigatória
 
-Leia, nesta ordem, antes de produzir qualquer aula:
+Leia, nesta ordem:
 
-1. `MEMORY.md` — estado e pendências atuais;
-2. `ERROS.md` — bloqueios recorrentes ativos;
-3. `docs/canon/PRODUTO-DECK-AULA.md`;
-4. `docs/canon/COBERTURA-E-STEP1.md`;
-5. `docs/canon/PIPELINE-E1-DECK.md`;
-6. `docs/canon/CARDS.md`;
-7. `docs/canon/EXEMPLOS-CARDS.md`;
-8. `docs/canon/VISUAL-E-IO.md`;
-9. `docs/canon/APKG.md`;
-10. `docs/canon/ANKING-PRIVADO.md`;
-11. `docs/canon/REVISAO.md`.
+1. `NEXT-SESSION.md` — handoff operacional e definição de pronto;
+2. `MEMORY.md` — estado vivo atual;
+3. `ERROS.md` — bloqueios recorrentes;
+4. `config/pipeline.json` — configuração mecânica vigente;
+5. `docs/canon/CARD-QUALITY.md` — hard gate de qualidade de cards;
+6. `docs/canon/ANKIDROID-COMPANION.md`;
+7. `docs/canon/LOCAL-DECKS-AND-MEDIA.md`;
+8. `docs/canon/PIPELINE-E1-DECK.md`;
+9. `docs/canon/COBERTURA-E-STEP1.md`;
+10. `.claude/commands/resumo.md` — execução detalhada do pipeline.
 
-Os documentos em `docs/legacy/` são históricos. Não os carregue nem aplique, a
-menos que Davi peça explicitamente uma recuperação histórica.
+`docs/legacy/` é histórico. Não carregar nem aplicar em corrida normal.
 
 ## Autoridade e execução
 
-- A **sessão principal** lê fontes, define cobertura, escreve e corrige a E1,
-  seleciona cards, admite aprofundamentos Step 1, escolhe imagens, gera IO,
-  cria cards autorais, monta o APKG e aplica correções.
-- Agentes são **somente revisores**. Eles não redigem partes do produto e não
-  alteram arquivos silenciosamente.
-- O slide e os objetivos da aula definem o escopo. AnKing e bibliografia Step 1
-  aprofundam o mesmo tema. Todo conteúdo de card precisa estar explicado na E1.
-- AnKing e decks externos são fontes privadas, somente leitura e nunca entram no
-  GitHub. Cópias NEBLI recebem GUID novo e preservam conteúdo, mídia e crédito.
+- A sessão principal executa o pipeline inteiro: fontes, cobertura, E1, seleção AnKing/decks externos, autoria, visual/IO, validação, manifesto e correções.
+- Revisores podem apontar problemas depois dos artefatos completos, mas não substituem a sessão principal.
+- Slides, objetivos e perguntas orientadoras definem o escopo. Step 1 aprofunda apenas o mesmo tema/mecanismo.
+- Todo conteúdo cobrado por um card precisa estar ensinado e ancorado na E1.
+- Ordem de fonte: **AnKing adequado → deck externo real adequado → autoral**.
+- Fonte privada é somente leitura. Nunca versionar AnKing, índices privados ou mídia protegida.
 
-## Gates de fechamento
+## Cards — hard gates
 
-Uma aula não fecha se houver conceito nuclear sem card adequado, card sem âncora
-literal na E1, aprofundamento que escapou do tema, necessidade visual obrigatória
-não atendida, autoral sem rejeição documentada das fontes reais, mídia quebrada
-ou APKG não auditado. Também bloqueiam: exceder o teto de cards congelado no
-contrato, card com mais de uma recuperação independente, cloze acima de três
-palavras e IO cuja máscara não cubra o rótulo-resposta. Relatórios declaratórios
-não substituem a inspeção do arquivo `.apkg` entregue.
+Um card bom testa uma recuperação independente, específica e relevante. O contrato completo está em `docs/canon/CARD-QUALITY.md` e não é opcional.
+
+Regras nucleares:
+
+- `atomic=true` e `relevant=true` para todo card;
+- não criar card só para atingir quantidade;
+- contar cards Anki reais e respeitar `card_budget.hard_max`;
+- autoral em inglês médico, Extra curto em português;
+- autoral com exatamente um `c1`; cloze de 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ bloqueia;
+- IO somente quando a tarefa visual agrega; em conjunto coerente usar `hide_all_guess_all`;
+- máscara cobre o rótulo-resposta, não a estrutura que deve ser reconhecida;
+- fonte visual real, crédito, previews pergunta/resposta e ausência de vazamento são obrigatórios;
+- AnKing/deck externo é copiado literalmente, preservando note type, campos, HTML, clozes, tags e mídia; sibling não selecionado fica suspenso;
+- fallback validado evita curadoria manual quando a busca local é ausente/ambígua.
+
+## Definição de pronto
+
+A aula só fecha quando:
+
+1. E1 cobre todo conceito nuclear;
+2. todo card tem âncora E1;
+3. **100% dos cards reais** passam no gate card a card;
+4. `expected_card_count == validated_card_count == passed_card_count`;
+5. manifesto `nebli-ankidroid-deck-v3` é gerado com nome canônico `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
+6. o Companion consegue instalar AnKing, decks externos, autorais, mídia nova e IO diretamente no AnkiDroid;
+7. qualquer falha de runtime causa rollback das notas novas;
+8. o recibo final confirma `installed_card_count == expected_card_count`.
 
 ## Configuração ativa
 
-`config/pipeline.json` é a configuração mecânica. O padrão atual é E1 + deck,
-25 novos/dia, revisão sem teto prático, APKG offline e E2/E3/RemNote desligados.
+`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v6`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.
