@@ -66,3 +66,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 28. Não depender de Drive, Colab, AnkiConnect ou APKG no fluxo normal.
 29. Não versionar AnKing, decks privados, índices privados ou mídia protegida.
 30. E2, E3 e RemNote não podem reaparecer no comando padrão.
+31. Uma consulta local incompatível com a versão do Content Provider não pode
+    abortar a aula inteira: a busca vira `unresolved` e usa o fallback validado
+    daquele card. O planejamento é somente leitura e precisa terminar antes da
+    criação do deck, para nenhuma falha deixar deck vazio.
