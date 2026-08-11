@@ -84,3 +84,45 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     precisa executar no runtime Android com AnkiDroid oficial instalado, criar
     fonte local, resolver/copy AnKing, instalar autoral e confirmar a contagem
     real de cards pelo Content Provider antes de publicar o artefato.
+
+## Qualidade funcional da recuperação
+
+36. Passar nos gates formais não significa ser um bom card. A revisão final
+    precisa julgar a recuperação produzida: pergunta inequívoca, resposta útil,
+    dificuldade adequada e relação direta com a âncora da E1.
+37. Bloquear cloze de palavra genérica ou previsível pela gramática quando ele
+    não recupera conhecimento médico específico. Termos como “contexto”,
+    “resposta”, “migração”, “adaptação” ou “plasticidade” exigem uma pista que
+    determine precisamente o conceito e exclua sinônimos plausíveis.
+38. Não mostrar metade de um par para esconder apenas a outra (`X e {{c1::Y}}`)
+    quando o objetivo é aprender a associação completa. Tratar o par canônico
+    como uma unidade justificável ou criar recuperações independentes.
+39. O conteúdo efetivamente cobrado pelo cloze deve coincidir com o conceito e
+    com a consulta AnKing. Se a busca pede duas moléculas, uma via ou uma
+    relação completa, não aceitar um card que teste somente um fragmento fácil.
+40. Informação presente apenas no Extra não conta como cobertura. Toda afirmação
+    nuclear precisa ser recuperada no Front/cloze de pelo menos um card; o Extra
+    serve para explicar, contextualizar ou corrigir confusões.
+41. Cards de mecanismo devem cobrar o elo causal ou funcional relevante, não
+    somente o nome da etapa. Saber o rótulo “priming”, por exemplo, não substitui
+    recuperar o que ele produz e como difere da montagem/ativação posterior.
+42. Sequências, mapas topológicos e vias devem ser decompostos em recuperações
+    atômicas suficientes. Um card abstrato sobre “localização” não cobre as
+    associações concretas entre compartimento, sensor e ligante.
+43. Bloquear respostas com várias alternativas semanticamente defensáveis. Se
+    “destruição”, “eliminação”, “inflamação” ou “morte” cabem na mesma lacuna, a
+    formulação precisa ser reescrita até existir uma resposta claramente melhor.
+44. Atomicidade funcional é diferente de ter uma única marca `c1`. Uma frase
+    com um cloze pode continuar exigindo uma lista, esconder múltiplas relações
+    ou revelar a própria resposta por pistas vizinhas.
+45. Quantidade correta de cards não comprova cobertura. Conferir a distribuição
+    por objetivos e mecanismos da E1, substituindo cards fracos antes de usar a
+    margem do orçamento para simplesmente adicionar mais cards.
+46. Para card AnKing, validar o card realmente selecionado — nota, ordinal e
+    pergunta/resposta renderizadas — e não apenas a semelhança temática da nota.
+    Resultado clínico vizinho, cloze irrelevante ou card excessivamente guiado
+    deve ser rejeitado e substituído pelo próximo candidato ou pelo fallback.
+47. Imagem no Extra precisa acrescentar compreensão mecanística ou espacial ao
+    card. Não criar IO quando não há tarefa visual de reconhecimento, mas também
+    não aceitar um deck inteiramente verbal quando a E1 exige interpretar uma
+    estrutura, lâmina, mapa ou relação espacial.
