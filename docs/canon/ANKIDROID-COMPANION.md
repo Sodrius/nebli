@@ -1,129 +1,120 @@
 # AnkiDroid Companion — arquitetura canônica
 
-Status: backend preferido do pipeline `e1-deck-v5`. Desktop/AnkiConnect permanece apenas como fallback.
+Status: backend preferido do pipeline. Desktop permanece como fallback para casos ainda não suportados nativamente.
 
 ## Objetivo
 
-O AnkiDroid instalado no tablet é simultaneamente:
+O AnkiDroid instalado no tablet passa a ser simultaneamente:
 
 1. fonte local do AnKing;
-2. motor de busca/seleção dos cards-fonte;
-3. destino do deck-aula;
-4. dono da mídia já existente na coleção.
+2. destino do deck-aula;
+3. dono da mídia já existente na coleção.
 
-O fluxo normal não exige Drive, Colab, índice externo de 6 GB, `.apkg` nem importação manual de cards AnKing.
+O fluxo normal não deve exigir Drive, Colab, `.apkg` nem importação manual para cards AnKing.
 
 ## Regra de segurança
 
 - READ permitido em qualquer deck fonte, inclusive AnKing.
 - WRITE permitido somente em decks cujo nome comece por `NEBLI::`.
 - UPDATE/DELETE de notas fonte são proibidos.
-- Toda cópia relê a origem depois da escrita e verifica `mid + flds + tags` inalterados.
-- Instalação é idempotente por `lesson_slug + source_note_id`.
-- Falha parcial nunca autoriza apagar ou alterar a fonte.
-- Resultado ambíguo não é auto-selecionado: fica `unresolved`.
+- Uma instalação é idempotente por aula + note fonte + ordinal selecionado.
+- Falha parcial não autoriza apagar ou alterar a fonte.
+- Resultado de busca ambíguo fica `unresolved`; nunca é escolhido à força.
 
 ## Semântica da cópia
 
 Para cards provenientes do AnKing/deck externo:
 
-- preservar o `mid`/note type;
-- preservar `flds` literalmente, incluindo HTML, clozes e referências de mídia;
-- preservar tags de origem e acrescentar apenas proveniência NEBLI;
-- criar nota nova no deck-aula;
+- preservar note type/model;
+- preservar todos os campos sem reescrita;
+- preservar HTML, clozes e referências de mídia;
+- preservar tags de origem e acrescentar apenas tags de proveniência NEBLI;
+- criar uma nota nova no deck-aula;
 - não carregar scheduling/history da fonte;
-- inferir o ordinal relevante em notas cloze quando houver evidência suficiente;
-- suspender siblings não selecionados;
-- se o sibling correto não puder ser inferido com segurança, bloquear a cópia daquele conceito.
+- irmãos não selecionados devem nascer suspensos quando o manifesto selecionar apenas um ordinal;
+- reler a origem após a cópia e comprovar que `mid/flds/tags` permaneceram intactos.
 
-É proibido prefixar ou modificar `Text` em cópias AnKing.
+É proibido prefixar ou modificar `Text` em cópias AnKing. A fidelidade do conteúdo é literal.
 
-## Manifesto preferido — v2
+## Manifesto v2
 
-O core produz `flashcards/manifests/<slug>.ankidroid.json`. Ele não precisa conhecer IDs locais do AnkiDroid.
+O `nebli-core` produz `flashcards/manifests/<slug>.ankidroid.json` no schema
+`nebli-ankidroid-lesson-v2`. O manifesto carrega conceitos atômicos e aliases,
+não IDs locais obrigatórios e não contém a mídia pesada do AnKing.
 
-```json
-{
-  "schema": "nebli-ankidroid-lesson-v2",
-  "lesson_slug": "anato-10-intestino-grosso",
-  "target_deck": "NEBLI::UC02::P3::Anatomia::Intestino grosso",
-  "mutate_source": false,
-  "search": {
-    "min_score": 0.82,
-    "min_margin": 0.06,
-    "max_candidates": 80,
-    "prefer_anking": true,
-    "require_anking_marker": false
-  },
-  "concepts": [
-    {
-      "id": "c001",
-      "query": "marginal artery of Drummond",
-      "aliases": ["marginal artery of the colon"],
-      "required": true
-    }
-  ]
-}
-```
+O Companion resolve cada conceito diretamente contra a coleção local do
+AnkiDroid, aplica ranking conservador e copia somente candidatos confiáveis.
 
-O Companion recebe os conceitos atômicos, busca na coleção local, ranqueia candidatos e copia somente os casos que passam os gates.
+## Ranking
 
-O schema `nebli-ankidroid-v1`, baseado em IDs/query já curados, permanece como compatibilidade legada.
+Parâmetros canônicos atuais:
 
-## Busca e ranking local
+- `min_score = 0.82`;
+- `min_margin = 0.06` quando não há frase exata forte;
+- no máximo 80 candidatos por conceito;
+- preferência por marcadores AnKing;
+- ambiguidade => `unresolved`.
 
-O caminho preferido usa a própria busca do AnkiDroid; não duplica os 6 GB do AnKing.
+Um match lexical parcial nunca deve ser tratado como lacuna comprovada nem como
+seleção automática só por aparecer em primeiro lugar.
 
-Para cada conceito:
+## Pipeline
 
-1. buscar a query principal e aliases;
-2. ampliar de forma limitada por tokens longos se a busca vier estreita demais;
-3. remover cópias `NEBLI::source::copy` do pool;
-4. preferir candidatos com marcadores típicos do AnKing quando existirem;
-5. calcular cobertura lexical + bônus de frase exata + bônus pequeno de proveniência AnKing;
-6. exigir `min_score` e margem sobre o segundo colocado;
-7. bloquear em vez de adivinhar quando a margem for insuficiente.
+1. Extrair conceitos da aula.
+2. Gerar queries/aliases médicos em PT/EN quando úteis.
+3. Enviar manifesto v2 ao Companion.
+4. Companion consulta o AnKing local e ranqueia candidatos.
+5. Candidatos confiáveis são copiados literalmente para `NEBLI::*`.
+6. Ambíguos ficam `unresolved`.
+7. Autorais/IO só cobrem lacunas reais após nova busca.
+8. Rodar gates de atomicidade, cloze, visual e cobertura.
+9. Gerar um registro de validação para **cada card real do deck**.
+10. Rodar `flashcards/scripts/validar_deck_card_a_card.py`.
+11. Instalar/fechar somente se 100% dos cards passarem.
+12. Conferir recibo e exigir total instalado = total validado.
 
-Ranking local é um **pré-curador conservador**, não uma licença para selecionar qualquer resultado textual. O core continua responsável por atomizar bem os conceitos e por tratar lacunas reais.
+## Gate card a card
 
-## Cloze siblings
+A validação final nunca usa amostragem. `expected_card_count` é o número real do
+deck daquela aula e precisa ser igual a `validated_card_count` e
+`passed_card_count`. `failed_card_count` deve ser zero.
 
-Uma note do AnKing pode gerar vários cards. Ao selecionar uma note:
+O registro por card inclui, conforme a fonte:
 
-- se há apenas um número de cloze, ele é ativado;
-- se há vários, o Companion compara o texto de cada resposta cloze com o conceito;
-- somente um ordinal claramente compatível é ativado;
-- siblings não selecionados são suspensos;
-- ausência de evidência suficiente gera `ambiguous_cloze_sibling` e nenhuma cópia automática para aquele conceito.
+- identidade (`card_key`, `concept_id`, `source`);
+- atomicidade e relevância;
+- segurança da fonte;
+- score/margem da seleção AnKing;
+- preservação de note type e campos;
+- mídia;
+- política de siblings;
+- tamanho do cloze autoral;
+- QA visual quando aplicável.
 
-## Pipeline canônico
+Qualquer falha individual bloqueia o deck inteiro até correção e nova execução do
+gate.
 
-1. Extrair learning objectives e conceitos atômicos da aula.
-2. Gerar E1 e garantir que cada conceito candidato esteja ancorado.
-3. Gerar o manifesto v2 com conceitos/aliases.
-4. Abrir o manifesto no Companion.
-5. Companion busca no AnKing local e ranqueia candidatos.
-6. Candidatos confiáveis são copiados fielmente para `NEBLI::*`.
-7. Casos ambíguos/lacunas ficam `unresolved` no recibo.
-8. O core cria autorais/IO apenas para lacunas comprovadas e mantém as regras de atomicidade/cloze/visual do pipeline.
-9. Gate final compara conceitos previstos, resolvidos e pendentes.
+O CI mantém um teste de regressão de **40 cards**, distribuídos como um deck-aula
+realista (30 AnKing, 6 autorais e 4 IO). Esse 40 não é limite do produto: numa
+aula real validam-se todos os cards existentes, sejam 20, 37, 52 ou outro total
+dentro do contrato da aula.
 
 ## Recibo
 
-Após cada corrida o Companion grava recibo JSON contendo:
+Após instalar, o Companion produz/expõe um recibo com:
 
-- `concepts_total`;
-- `resolved_count`;
-- `unresolved_count`;
-- notas criadas e reaproveitadas idempotentemente;
-- fontes verificadas intactas;
-- siblings suspensos;
-- `resolved[]` com `source_note_id`, `copy_note_id`, score e ordinais;
-- `unresolved[]` com motivo (`no_candidate`, `low_confidence`, `ambiguous_cloze_sibling`, etc.);
+- conceitos resolvidos/pendentes;
+- notas previstas/criadas/puladas;
+- cards previstos/criados/suspensos;
+- verificações de fonte;
+- erros;
 - timestamp.
 
-`unresolved_count > 0` não autoriza seleção forçada. Esses itens voltam ao pipeline para refino/autorais.
+O total confirmado no recibo deve ser igual ao total que passou no gate card a
+card. Divergência é falha de pipeline.
 
 ## Compatibilidade
 
-`montar_deck_aula.py --backend desktop` mantém AnkiConnect/APKG como fallback. O backend canônico é `ankidroid`, manifest v2, resolução local por conceitos.
+Enquanto autorais/IO ainda exigirem recursos não disponíveis no Companion, apenas
+essas lacunas podem usar o backend desktop/APKG como fallback. O AnKing não volta
+a depender do índice privado/Drive/Colab.
