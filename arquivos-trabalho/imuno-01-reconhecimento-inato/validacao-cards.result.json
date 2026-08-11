@@ -1,0 +1,208 @@
+{
+  "expected_card_count": 39,
+  "card_budget_hard_max": 40,
+  "anking_source_available": false,
+  "validated_card_count": 39,
+  "passed_card_count": 39,
+  "failed_card_count": 0,
+  "all_cards_validated": true,
+  "within_card_budget": true,
+  "cards": [
+    {
+      "card_key": "hierarquia-prr-primeiro",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tolerancia-estado-homeostatico",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "pamp-definicao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "damp-definicao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr-sempre-de-membrana",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr4-lps",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "rlr-rna-viral-citoplasma",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "alr-localizacao-io",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "complemento-prr-soluvel",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr-dimerizacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "myd88-adaptador-principal",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "myd88-nfkb-citocinas",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "trif-irf-interferon",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr-akt-sobrevivencia",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr-caspase8-apoptose",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "tlr-aciona-inflamassoma",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "nlr-monta-inflamassoma",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "nod-nfkb-nao-inflamassoma",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "inflamassoma-caspase1",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "inflamassoma-priming-precursor",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "caspase1-il18",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "ifn-bloqueia-replicacao-vizinhas",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "ifn-sintomas-gripe",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "citotoxicidade-apoptose",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "citotoxicidade-fasl",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "fagocitose-quimiotaxia",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "fagocitose-opsonizacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "fagocitose-ziper",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "fagolisossomo",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "explosao-respiratoria",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "febre-defesa-lagarto",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "citocina-pleiotropica",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "citocina-exige-receptor",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "interleucina-nome",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "ifn-tipo-ii-gama",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "araquidonico-leucotrienos",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "exossomos",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "il6-covid",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "toll-drosofila-embriogenese",
+      "ok": true,
+      "failures": []
+    }
+  ],
+  "ok": true
+}

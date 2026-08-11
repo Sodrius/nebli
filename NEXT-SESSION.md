@@ -83,6 +83,15 @@ Para uma recuperação planejada como AnKing/deck externo:
 8. se ausente/ambíguo, usar o fallback validado; se `anking_required=true`,
    bloquear em vez de cair silenciosamente no autoral.
 
+## Quando a coleção AnKing não está ao alcance da sessão
+
+Se não houver AnkiDroid nem índice privado local acessível, não invente busca.
+Declare `anking_source_availability.available=false` no `deck-data.json` (motivo
+concreto + `checked[]`), use `anking_search_status="source_unavailable"` e três
+ou mais `anking_upgrade_queries` por card, e ponha `anking_source_available=false`
+no relatório card a card. O gerador bloqueia `source="anking"` nesse estado e o
+finalizador exige que deck-data e relatório concordem. Detalhes em `ERROS.md` 52.
+
 ## Autorais e IO
 
 Toda lacuna/fallback já deve chegar ao manifesto validada.

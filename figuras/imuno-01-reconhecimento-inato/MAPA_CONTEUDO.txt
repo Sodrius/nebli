@@ -1,0 +1,28 @@
+# MAPA_CONTEUDO -- imuno-01-reconhecimento-inato
+# Slide-fonte: PDF2024TAIMReconhSIInato_1.pdf (23 slides)
+# Transcricao-fonte: Transcricao de Aula em PDF - IM Reconhecimento inato no Sistema Imune.docx.pdf
+# Render: pypdfium2 scale=2.6 (2496x1404 px)
+
+slide-01: Reconhecimento Inato no Sistema Imune - Unidade curricular-3 - Curso de Medicina - Jose Alexandre M. Barbuto
+slide-02: Objetivos do tema (1) PRR como sensores da homeostase; (2) familias de PRR com enfase nos TLR e localizacao celular/sub-celular; (3) vias moleculares de ativacao dos PRR e consequencias; (4) citocinas e quimiocinas como consequencia da ativacao
+slide-03: Recapitulando - repertorio clonal completo, gerado aleatoriamente + selecao; reconhecimento gera respostas diferentes
+slide-04: Recapitulando - selecao do repertorio nos orgaos linfoides primarios; distincao proprio / nao-proprio
+slide-05: Recapitulando - reconhecimento especifico -> eliminacao (resposta imune) ou tolerancia; ambas geram memoria; estado homeostatico do tecido como fator decisivo
+slide-06: Reconhecimento hierarquico - PRR (TLR, NLR, CTLR, scavenger) leem "homeostasia"/padroes moleculares -> imunidade inata; TCR e Ig/BCR leem antigenos -> imunidade adquirida
+slide-07: Ponte inata-adquirida - APC captura, processa e apresenta antigenos nos orgaos linfoides secundarios
+slide-08: [TABELA] Familias de PRR x localizacao x exemplos - CTLR e scavenger (membranas), TLR (membranas), NLR (membranas e citoplasma), RLR (citoplasma), ALR (nucleo); DAMP e PAMP -> Resposta. FONTE DO CARD IO.
+slide-09: Da sinalizacao a efetuacao - salvar vizinhas (IFN tipo I), eliminar doentes (citotoxicidade), limpar a area (fagocitose), recrutar ajuda (citocinas/quimiocinas); febre
+slide-10: Acao protetora dos IFNs - celula infectada libera IFN, vizinhas ficam protegidas; efeitos sistemicos
+slide-11: Citotoxicidade celular - reconhecimento, sinalizacao/desgranulacao, FasL-Fas, apoptose da celula-alvo, busca de novo alvo
+slide-12: Fagocitose em etapas - quimiotaxia, adesao/opsonizacao, motilidade de membrana, ziper, fagossoma, fusao com lisossomas, enzimas e radicais livres / explosao respiratoria
+slide-13: Sinais de perigo - citocinas (IL, GF/CSF, IFN), quimiocinas, mediadores lipidicos (prostaglandinas, leucotrienos, PAF), exossomos/nanovesiculas
+slide-14: Exemplos de citocinas - interleucinas, G-CSF/GM-CSF/VEGF/TGF-beta, TNF-alfa/beta, IFN tipo I e II, quimiocinas CXC/CC/CX3C/XC
+slide-15: Citacao de Paul Ehrlich (Nobel 1908) - quimismo da celula e alvo molecular racional
+slide-16: [FIGURA Takeuchi & Akira 2010] Ligantes conhecidos dos TLR
+slide-17: [FIGURA Takeuchi & Akira 2010] Ligantes de NLR, CTLR e RLR
+slide-18: [ESQUEMA] Vias moleculares ativadas pelos TLR - DAMP/PAMP -> TLR (dimerizacao / mudanca conformacional) -> MyD88 e TRIF -> NF-kB e AP-1 (citocinas e quimiocinas -> inflamacao), AKT (sobrevivencia), caspase 8 (apoptose), inflamassoma (TRIF), IRFs (IFN tipo I -> antiviral e ativacao de linfocitos T). Legenda de siglas no canto inferior esquerdo.
+slide-19: [FIGURA Gay et al. 2014] Montagem e localizacao dos complexos de sinalizacao dos TLR
+slide-20: Inflamassoma - plataformas moleculares ativadas por PRR da familia NLR (NODs, NLRPs, IPAF) e AIM-2; NODs -> NF-kB -> citocinas; demais -> inflamassoma -> caspase-1 -> IL-1beta e IL-18
+slide-21: [FIGURA Schroder & Tschopp 2010] Ativacao do inflamassoma NLRP3 - sinais de perigo, montagem da plataforma, ativacao da caspase, clivagem da pro-IL-1-beta, liberacao; priming por TLR/TNF/IL-1beta
+slide-22: Em resumo - a ativacao dos PRR libera produtos armazenados, modificados apos ativacao, produzidos apos ativacao e de degradacao celular; plasticidade da resposta inata
+slide-23: Leitura complementar - Takeuchi & Akira 2010; Gay et al. 2014; Schroder & Tschopp 2010

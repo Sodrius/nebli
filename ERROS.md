@@ -139,3 +139,12 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 51. O nome do deck não é campo livre. Gerador e Companion derivam e conferem
     `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>` a partir dos quatro
     metadados; override divergente ou segmento ausente bloqueia a instalação.
+52. Sessão sem coleção AnKing alcançável não fabrica evidência de busca. Se não
+    houver AnkiDroid nem índice privado local, declarar
+    `anking_source_availability.available=false` no `deck-data.json`, com motivo
+    concreto e `checked[]`. Nesse estado, `source="anking"` fica bloqueado, todo
+    card usa `anking_search_status="source_unavailable"` e registra ao menos três
+    `anking_upgrade_queries` para a promoção futura; o relatório card a card
+    declara `anking_source_available=false` e o finalizador exige que os dois
+    concordem. Nunca declarar `anking_search_complete=true`, nota escolhida,
+    score ou sibling que ninguém verificou.

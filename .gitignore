@@ -98,3 +98,6 @@ Thumbs.db
 # ---- Logs e caches de Typst ----
 *.log
 .typst-cache/
+
+# ---- Entregas (PDF gerado; manifesto continua versionado) ----
+entregas/**/*.pdf

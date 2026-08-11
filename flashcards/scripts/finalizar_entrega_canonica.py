@@ -44,6 +44,12 @@ def main() -> int:
         raise SystemExit("ERRO: contagem validada diverge do deck-data")
     if result["card_budget_hard_max"] != release.get("card_budget_hard_max"):
         raise SystemExit("ERRO: teto validado diverge do release_gate")
+    availability = deck.get("anking_source_availability") or {}
+    deck_anking_available = availability.get("available", True) is not False
+    if deck_anking_available != result.get("anking_source_available", True):
+        raise SystemExit(
+            "ERRO: estado da fonte AnKing diverge entre deck-data e validation-report"
+        )
 
     e1_pdf = Path(str(release.get("e1_pdf") or ""))
     if not e1_pdf.is_absolute():

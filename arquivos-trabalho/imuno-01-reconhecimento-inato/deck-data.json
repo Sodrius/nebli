@@ -1,0 +1,1553 @@
+{
+  "metadata": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Imunologia",
+    "nome_curto": "Reconhecimento inato"
+  },
+  "anking_source_availability": {
+    "available": false,
+    "reason": "A resolução AnKing do v9 lê a coleção local do AnkiDroid ou um índice privado local. Esta sessão roda em container remoto sem coleção montada, sem índice privado e sem qualquer export AnKing no repositório — versionar AnKing é proibido pelo canônico (ERROS 29). Nenhuma busca foi executada, portanto nenhum card declara busca completa nem fonte anking.",
+    "checked": [
+      "AnkiDroid ContentProvider (ausente: sem dispositivo/coleção neste ambiente)",
+      "índice privado local de flashcards/scripts/search_private_index.py (inexistente)",
+      "referencias-externas/ (apenas decks NEBLI próprios, sem AnKing)"
+    ]
+  },
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "../../typst-build/etapa1.typ",
+    "e1_source_sha256": "b49d1af8f1090dcec20a034f36bc948e767c9446e8702cde5421d763acebad50",
+    "e1_pdf": "E1.pdf",
+    "e1_pdf_sha256": "bc7338b8489d0dc1620c7c07ab4112e7fc21cd5503219d14aabafaf7dfbb86f3",
+    "card_budget_hard_max": 40,
+    "e1_review": {
+      "slide_inventory_complete": true,
+      "objectives_covered": true,
+      "core_coverage_complete": true,
+      "mechanisms_explicit": true,
+      "visual_information_explained": true,
+      "core_study_without_slides": true,
+      "step1_depth_reviewed": true,
+      "card_content_anchored": true,
+      "independent_review_passed": true,
+      "notes_review_status": "covered",
+      "unresolved_core_omissions": [],
+      "unresolved_ambiguities": [],
+      "summary": "Revisão slide a slide (23 slides) contra a transcrição integral da aula. Os quatro objetivos do slide 2 estão cobertos: PRR como sensores da homeostasia (PARTE I), famílias e localização subcelular (1.5 e figura do slide 8), vias moleculares dos TLR e inflamassoma (PARTE II) e citocinas/quimiocinas (PARTE IV). Seis figuras da aula são reproduzidas e interpretadas na E1 — slides 6, 8, 10, 12, 18 e 21; as figuras de referência dos slides 16, 17 e 19 ficam como leitura complementar, conforme a própria aula orienta. A transcrição integral do professor substitui as notas de slide e foi coberta ponto a ponto."
+    },
+    "concepts": [
+      {
+        "concept_id": "c01-hierarquia",
+        "importance": "nuclear",
+        "e1_anchor": "O reconhecimento no sistema imune é hierárquico, e a primeira pergunta não é sobre antígeno, é sobre homeostasia",
+        "coverage_quality": 3,
+        "card_keys": [
+          "hierarquia-prr-primeiro"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c02-tolerancia-contexto",
+        "importance": "nuclear",
+        "e1_anchor": "O principal fator que decide entre tolerância e resposta é o estado homeostático do tecido de onde aquele antígeno veio quando foi levado ao sistema imune",
+        "coverage_quality": 3,
+        "card_keys": [
+          "tolerancia-estado-homeostatico"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Abbas, Imunologia Celular e Molecular — tolerância periférica e contexto de apresentação",
+          "rationale": "Explicita, dentro do mesmo mecanismo da aula, por que o tumor é tolerado e o enxerto é rejeitado."
+        }
+      },
+      {
+        "concept_id": "c03-pamp",
+        "importance": "nuclear",
+        "e1_anchor": "Os padrões moleculares associados a patógenos são chamados de",
+        "coverage_quality": 3,
+        "card_keys": [
+          "pamp-definicao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c04-damp",
+        "importance": "nuclear",
+        "e1_anchor": "são moléculas do próprio hospedeiro que normalmente estão trancadas dentro da célula e que, extravasadas, denunciam morte ou lesão",
+        "coverage_quality": 3,
+        "card_keys": [
+          "damp-definicao"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Janeway's Immunobiology — inflamação estéril e DAMPs",
+          "rationale": "Acrescenta ao mesmo mecanismo a consequência de que infarto, trauma e cristal inflamam sem patógeno."
+        }
+      },
+      {
+        "concept_id": "c05-tlr-membrana",
+        "importance": "nuclear",
+        "e1_anchor": "Todo TLR é um receptor de membrana, seja da membrana plasmática, seja da membrana do lisossomo — nenhum deles fica solto no citosol",
+        "coverage_quality": 3,
+        "card_keys": [
+          "tlr-sempre-de-membrana"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c06-tlr4-lps",
+        "importance": "nuclear",
+        "e1_anchor": "o ligante típico do TLR4 é o lipopolissacarídeo bacteriano, a endotoxina de bactérias gram-negativas",
+        "coverage_quality": 3,
+        "card_keys": [
+          "tlr4-lps"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Abbas — LPS de gram-negativas como ligante de TLR4/MD-2",
+          "rationale": "Precisa a origem bacteriana do ligante já citado na aula, sem abrir tópico novo."
+        }
+      },
+      {
+        "concept_id": "c07-rlr-citoplasma",
+        "importance": "nuclear",
+        "e1_anchor": "RIG-I e MDA5 detectam RNA viral livre no citoplasma",
+        "coverage_quality": 2,
+        "card_keys": [
+          "rlr-rna-viral-citoplasma"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c08-alr-nucleo",
+        "importance": "nuclear",
+        "e1_anchor": "como AIM2 e IFI16, vigiam o núcleo",
+        "coverage_quality": 2,
+        "card_keys": [
+          "alr-localizacao-io"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c09-complemento-soluvel",
+        "importance": "nuclear",
+        "e1_anchor": "o sistema de proteínas plasmáticas que funciona como um sistema solúvel de reconhecimento de padrões é o complemento",
+        "coverage_quality": 2,
+        "card_keys": [
+          "complemento-prr-soluvel"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c10-dimerizacao",
+        "importance": "nuclear",
+        "e1_anchor": "a sinalização começa porque os receptores sofrem dimerização",
+        "coverage_quality": 3,
+        "card_keys": [
+          "tlr-dimerizacao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c11-myd88-adaptador",
+        "importance": "nuclear",
+        "e1_anchor": "O principal adaptador proximal que transduz o sinal da maioria dos TLR é o",
+        "coverage_quality": 3,
+        "card_keys": [
+          "myd88-adaptador-principal"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c12-myd88-nfkb",
+        "importance": "nuclear",
+        "e1_anchor": "A sinalização por MyD88 converge sobre o fator de transcrição",
+        "coverage_quality": 3,
+        "card_keys": [
+          "myd88-nfkb-citocinas"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c13-trif-irf-ifn",
+        "importance": "nuclear",
+        "e1_anchor": "Por ativar esses fatores, o ramo do TRIF leva à produção de interferons do tipo I",
+        "coverage_quality": 3,
+        "card_keys": [
+          "trif-irf-interferon"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c14-akt-sobrevivencia",
+        "importance": "nuclear",
+        "e1_anchor": "a sinalização por TLR pode promover sobrevivência celular por meio da AKT",
+        "coverage_quality": 2,
+        "card_keys": [
+          "tlr-akt-sobrevivencia"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c15-caspase8-apoptose",
+        "importance": "nuclear",
+        "e1_anchor": "a sinalização por TLR também pode levar à apoptose, ativando a caspase-8",
+        "coverage_quality": 2,
+        "card_keys": [
+          "tlr-caspase8-apoptose"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c16-tlr-inflamassoma",
+        "importance": "nuclear",
+        "e1_anchor": "além de citocinas e interferons, a sinalização por TLR pode acionar outra plataforma molecular, o inflamassoma, por meio do TRIF",
+        "coverage_quality": 2,
+        "card_keys": [
+          "tlr-aciona-inflamassoma"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c17-nlr-monta-inflamassoma",
+        "importance": "nuclear",
+        "e1_anchor": "A família de receptores cujos membros montam inflamassomas é a dos NOD-like receptors",
+        "coverage_quality": 3,
+        "card_keys": [
+          "nlr-monta-inflamassoma"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c18-nod-nfkb",
+        "importance": "nuclear",
+        "e1_anchor": "os NOD ficam soltos no citoplasma, reconhecem produtos bacterianos e ativam o NF-κB em vez de montar inflamassoma",
+        "coverage_quality": 3,
+        "card_keys": [
+          "nod-nfkb-nao-inflamassoma"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c19-caspase1",
+        "importance": "nuclear",
+        "e1_anchor": "A enzima que o inflamassoma montado ativa é a caspase-1",
+        "coverage_quality": 3,
+        "card_keys": [
+          "inflamassoma-caspase1"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c20-priming",
+        "importance": "nuclear",
+        "e1_anchor": "um inflamassoma montado não consegue liberar IL-1-beta se um sinal pró-inflamatório anterior não tiver induzido a pró-IL-1-beta",
+        "coverage_quality": 3,
+        "card_keys": [
+          "inflamassoma-priming-precursor"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c21-il18",
+        "importance": "nuclear",
+        "e1_anchor": "uma protease que cliva a pró-IL-1-beta e a pró-IL-18",
+        "coverage_quality": 2,
+        "card_keys": [
+          "caspase1-il18"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c22-ifn-protege-vizinhas",
+        "importance": "nuclear",
+        "e1_anchor": "se elas estiverem sob ação do interferon, o interferon bloqueia a replicação viral dentro delas",
+        "coverage_quality": 3,
+        "card_keys": [
+          "ifn-bloqueia-replicacao-vizinhas"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c23-ifn-sintomas",
+        "importance": "nuclear",
+        "e1_anchor": "é produzida pelo interferon, e não pelo vírus em si",
+        "coverage_quality": 2,
+        "card_keys": [
+          "ifn-sintomas-gripe"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c24-citotoxicidade-apoptose",
+        "importance": "nuclear",
+        "e1_anchor": "A citotoxicidade celular não destrói a célula-alvo de fora: ela induz a célula-alvo a morrer por apoptose",
+        "coverage_quality": 3,
+        "card_keys": [
+          "citotoxicidade-apoptose"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c25-fasl",
+        "importance": "nuclear",
+        "e1_anchor": "a célula efetora pode disparar a apoptose do alvo por sinalização de membrana através do FasL",
+        "coverage_quality": 2,
+        "card_keys": [
+          "citotoxicidade-fasl"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c26-quimiotaxia",
+        "importance": "nuclear",
+        "e1_anchor": "A primeira etapa da fagocitose é a migração celular dirigida em direção ao alvo, isto é, a quimiotaxia",
+        "coverage_quality": 3,
+        "card_keys": [
+          "fagocitose-quimiotaxia"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c27-opsonizacao",
+        "importance": "nuclear",
+        "e1_anchor": "A adesão da partícula ao fagócito é facilitada por moléculas que recobrem o alvo, num processo chamado opsonização",
+        "coverage_quality": 3,
+        "card_keys": [
+          "fagocitose-opsonizacao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c28-ziper",
+        "importance": "nuclear",
+        "e1_anchor": "A membrana do fagócito se fecha em torno da partícula por interações sucessivas entre receptores e ligantes, um processo descrito como o fechamento de um zíper",
+        "coverage_quality": 2,
+        "card_keys": [
+          "fagocitose-ziper"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c29-fagolisossomo",
+        "importance": "nuclear",
+        "e1_anchor": "A fusão do fagossoma com os lisossomas forma o fagolisossomo",
+        "coverage_quality": 3,
+        "card_keys": [
+          "fagolisossomo"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Janeway's Immunobiology — formação do fagolisossomo",
+          "rationale": "Dá nome ao compartimento que a aula descreve funcionalmente, sem sair do mesmo processo."
+        }
+      },
+      {
+        "concept_id": "c30-explosao-respiratoria",
+        "importance": "nuclear",
+        "e1_anchor": "o aumento abrupto do consumo de oxigênio que acompanha esse processo é a explosão respiratória",
+        "coverage_quality": 3,
+        "card_keys": [
+          "explosao-respiratoria"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c31-febre-defesa",
+        "importance": "nuclear",
+        "e1_anchor": "Se um lagarto infectado é impedido de se aquecer, ou seja, impedido de desenvolver febre, sua mortalidade aumenta muito",
+        "coverage_quality": 3,
+        "card_keys": [
+          "febre-defesa-lagarto"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c32-citocina-pleiotropica",
+        "importance": "nuclear",
+        "e1_anchor": "uma citocina age sobre muitos alvos diferentes e produz muitos efeitos diferentes, isto é, ela é pleiotrópica",
+        "coverage_quality": 3,
+        "card_keys": [
+          "citocina-pleiotropica"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c33-citocina-receptor",
+        "importance": "nuclear",
+        "e1_anchor": "Uma citocina só muda o comportamento de uma célula se essa célula expressar o receptor correspondente",
+        "coverage_quality": 3,
+        "card_keys": [
+          "citocina-exige-receptor"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c34-interleucina",
+        "importance": "nuclear",
+        "e1_anchor": "Uma citocina batizada por servir à comunicação entre leucócitos chama-se interleucina",
+        "coverage_quality": 2,
+        "card_keys": [
+          "interleucina-nome"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c35-ifn-tipos",
+        "importance": "nuclear",
+        "e1_anchor": "IFN-alfa e IFN-beta são interferons do tipo I, enquanto o único interferon do tipo II é o IFN-gama",
+        "coverage_quality": 3,
+        "card_keys": [
+          "ifn-tipo-ii-gama"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c36-mediadores-lipidicos",
+        "importance": "nuclear",
+        "e1_anchor": "é liberado e metabolizado em duas famílias de mediadores: as prostaglandinas e os leucotrienos",
+        "coverage_quality": 2,
+        "card_keys": [
+          "araquidonico-leucotrienos"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Bibliografia Step 1 — via do ácido araquidônico e alvo dos AINEs",
+          "rationale": "Liga o mediador lipídico citado na aula ao ponto farmacológico do mesmo mecanismo, sem abrir tópico de conduta."
+        }
+      },
+      {
+        "concept_id": "c37-exossomos",
+        "importance": "nuclear",
+        "e1_anchor": "As nanovesículas envoltas por membrana que as células liberam e que circulam no sangue carregando sinais são os exossomos",
+        "coverage_quality": 2,
+        "card_keys": [
+          "exossomos"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c38-il6-covid",
+        "importance": "optional",
+        "e1_anchor": "A interleucina-6 tornou-se alvo de anticorpos neutralizantes em formas graves de COVID-19",
+        "coverage_quality": 2,
+        "card_keys": [
+          "il6-covid"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "c39-toll-drosofila",
+        "importance": "optional",
+        "e1_anchor": "foi dado à molécula descoberta na drosófila, onde seu papel inicial é a embriogênese",
+        "coverage_quality": 2,
+        "card_keys": [
+          "toll-drosofila-embriogenese"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      }
+    ]
+  },
+  "cards": [
+    {
+      "card_key": "hierarquia-prr-primeiro",
+      "concept_id": "c01-hierarquia",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "pattern recognition receptors innate immune sensors",
+        "innate versus adaptive immune recognition germline encoded",
+        "PRR sensors of homeostasis danger"
+      ],
+      "source": "authored",
+      "text": "Immune recognition is hierarchical: the receptors that answer the first question — is this tissue still in order? — are the {{c1::PRRs}}.",
+      "extra": "Os receptores clonais leem antígeno; os PRR leem se há homeostasia. A resposta dos PRR é o contexto que decide o destino do antígeno depois.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Identificar qual classe de receptor responde à primeira pergunta do reconhecimento imune.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tolerancia-estado-homeostatico",
+      "concept_id": "c02-tolerancia-contexto",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "tolerance versus immunity tissue context antigen presentation",
+        "immunologic tolerance determinants inflammatory context",
+        "danger model tissue homeostasis immune response decision"
+      ],
+      "source": "authored",
+      "text": "Whether an antigen ends in tolerance or in an immune response is decided mainly by the {{c1::homeostatic}} state of the tissue it came from.",
+      "extra": "Não é próprio versus não-próprio que decide. É o contexto do tecido no momento da captura — daí a tolerância ao tumor e a rejeição do enxerto.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o fator que decide entre tolerância e resposta imune.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "pamp-definicao",
+      "concept_id": "c03-pamp",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "pathogen associated molecular patterns definition",
+        "PAMP examples LPS flagellin double stranded RNA",
+        "conserved microbial structures germline encoded receptors"
+      ],
+      "source": "authored",
+      "text": "Conserved molecular signatures that reveal the presence of a micro-organism, such as bacterial LPS or double-stranded viral RNA, are called {{c1::PAMPs}}.",
+      "extra": "São estruturas de que o micro-organismo não pode abrir mão, por isso o receptor pôde ser codificado na linha germinativa.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a classe de padrão molecular que denuncia micro-organismo.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "damp-definicao",
+      "concept_id": "c04-damp",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "damage associated molecular patterns sterile inflammation",
+        "DAMP alarmins HMGB1 uric acid crystals",
+        "danger signals released by necrotic cells innate immunity"
+      ],
+      "source": "authored",
+      "text": "Host molecules normally locked inside the cell that, once spilled by injury, are read by PRRs as a danger signal are called {{c1::DAMPs}}.",
+      "extra": "Entram pelos mesmos receptores e nas mesmas vias que os PAMP. É por isso que infarto, trauma e cristal de urato produzem inflamação estéril.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a classe de padrão molecular que denuncia dano tecidual.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr-sempre-de-membrana",
+      "concept_id": "c05-tlr-membrana",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "toll like receptors membrane localization plasma endosome",
+        "TLR3 TLR7 TLR9 endosomal nucleic acid sensing",
+        "TLR cellular localization surface versus intracellular"
+      ],
+      "source": "authored",
+      "text": "No TLR is ever free in the cytosol. Besides the plasma membrane, the only other place a TLR is found is the membrane of the {{c1::lysosome}}.",
+      "extra": "É onde ficam os TLR que reconhecem ácido nucleico: só encontram material genético depois que a partícula foi internalizada e degradada. Endossomo e lisossomo são o mesmo compartimento nessa descrição.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a segunda membrana em que os TLR são encontrados.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr4-lps",
+      "concept_id": "c06-tlr4-lps",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TLR4 lipopolysaccharide recognition",
+        "TLR4 LPS endotoxin gram negative innate immunity",
+        "bacterial LPS pattern recognition receptor MD-2 CD14"
+      ],
+      "source": "authored",
+      "text": "The typical ligand of TLR4, the endotoxin of gram-negative bacteria, is {{c1::LPS}}.",
+      "extra": "O ligante listado é o típico, não o exclusivo: o mesmo TLR4 reconhece outras estruturas, inclusive próprias.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o ligante típico do TLR4.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "rlr-rna-viral-citoplasma",
+      "concept_id": "c07-rlr-citoplasma",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "RIG-I MDA5 cytosolic viral RNA sensors",
+        "RIG-I like receptors location cytoplasm",
+        "cytosolic RNA sensing innate immunity interferon"
+      ],
+      "source": "authored",
+      "text": "RIG-I and MDA5 do not sit in any membrane: they detect free viral RNA in the {{c1::cytoplasm}}.",
+      "extra": "É exatamente onde um vírus em replicação deixa esse rastro — a localização do sensor segue a localização da ameaça.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o compartimento vigiado pelos RIG-like receptors.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "alr-localizacao-io",
+      "concept_id": "c08-alr-nucleo",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "AIM2 like receptors nuclear DNA sensing",
+        "AIM2 IFI16 location nucleus innate immune sensor",
+        "pattern recognition receptor families subcellular localization table"
+      ],
+      "source": "io",
+      "mode": "hide_two_guess_two",
+      "image_path": "../../figuras/imuno-01-reconhecimento-inato/slide-08.png",
+      "answers": [
+        "Núcleo"
+      ],
+      "masks": [
+        {
+          "x": 0.386,
+          "y": 0.63,
+          "w": 0.115,
+          "h": 0.05
+        }
+      ],
+      "coherent_set": false,
+      "masks_labels_not_structures": true,
+      "question_preview_validated": true,
+      "answer_preview_validated": true,
+      "visual_ok": true,
+      "real_source": true,
+      "answer_leak": false,
+      "source_credit": "Slide 8 — Reconhecimento Inato no Sistema Imune, Prof. José Alexandre M. Barbuto (UC03)",
+      "cognitive_purpose": "Objetivo 2 da aula pede localização celular e sub-celular das famílias de PRR. Aqui o aluno precisa reconhecer, na própria tabela, qual compartimento é vigiado pelos AIM2-like receptors — a única família nuclear.",
+      "didactic_value_reviewed": true,
+      "retrieval_target": "Localizar o compartimento vigiado pelos AIM2-like receptors na tabela de famílias de PRR."
+    },
+    {
+      "card_key": "complemento-prr-soluvel",
+      "concept_id": "c09-complemento-soluvel",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "complement soluble pattern recognition system",
+        "complement opsonization chemotaxis innate immunity",
+        "soluble pattern recognition molecules plasma proteins"
+      ],
+      "source": "authored",
+      "text": "Pattern recognition is not restricted to membrane receptors: the plasma protein system that works as a soluble pattern-recognition system is {{c1::complement}}.",
+      "extra": "É uma das fontes de moléculas quimiotáticas que atraem o fagócito para o alvo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Identificar o sistema solúvel de reconhecimento de padrões do plasma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr-dimerizacao",
+      "concept_id": "c10-dimerizacao",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TLR dimerization ligand induced signaling",
+        "toll like receptor preformed dimer conformational change",
+        "TIR domain recruitment after receptor dimerization"
+      ],
+      "source": "authored",
+      "text": "When a ligand binds two TLRs that were separate in the membrane, signalling starts because the receptors undergo {{c1::dimerization}}.",
+      "extra": "A outra rota é o dímero já pré-formado: aí o ligante não junta receptores, apenas muda a conformação do dímero. Os dois caminhos entregam o mesmo domínio intracelular pronto para recrutar adaptador.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o evento físico que converte ligação em sinal no TLR.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "myd88-adaptador-principal",
+      "concept_id": "c11-myd88-adaptador",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "MyD88 adaptor TLR signaling",
+        "MyD88 IRAK4 IRAK1 signaling cascade",
+        "toll like receptor adaptor proteins MyD88 TRIF"
+      ],
+      "source": "authored",
+      "text": "The main proximal adaptor that transduces the signal of most TLRs is {{c1::MyD88}}.",
+      "extra": "A partir dele o sinal passa pelas quinases IRAK antes de chegar aos fatores de transcrição. Camundongos nocaute para MyD88 são modelo clássico dessa via.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear o adaptador proximal principal da via dos TLR.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "myd88-nfkb-citocinas",
+      "concept_id": "c12-myd88-nfkb",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "MyD88 NF-kB inflammatory cytokine transcription",
+        "TLR signaling NF-kB AP-1 activation",
+        "NF-kB target genes proinflammatory cytokines innate immunity"
+      ],
+      "source": "authored",
+      "text": "Signalling through MyD88 converges on the transcription factor {{c1::NF-kB}}, which switches on the genes of inflammatory cytokines.",
+      "extra": "Junto com o AP-1. O produto final desse ramo são citocinas e quimiocinas inflamatórias — ou seja, inflamação e chamada de fagócitos.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o fator de transcrição terminal do ramo MyD88.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "trif-irf-interferon",
+      "concept_id": "c13-trif-irf-ifn",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TRIF IRF3 type I interferon production TLR",
+        "TLR3 TLR4 TRIF dependent interferon beta",
+        "interferon regulatory factors downstream of TLR signaling"
+      ],
+      "source": "authored",
+      "text": "The TLR branch that runs through TRIF and activates the IRFs produces type I {{c1::interferons}}.",
+      "extra": "São os interferons da resposta antiviral, que também participam da ativação de linfócitos T.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o produto terminal do ramo TRIF/IRF.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr-akt-sobrevivencia",
+      "concept_id": "c14-akt-sobrevivencia",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TLR signaling AKT cell survival",
+        "PI3K AKT pathway innate immune receptor",
+        "toll like receptor survival signal kinase"
+      ],
+      "source": "authored",
+      "text": "Besides inflammation, TLR signalling can promote cell survival through the kinase {{c1::AKT}}.",
+      "extra": "Mesma ativação, programas opostos: sobrevivência por AKT e morte por caspase-8. O que pende a balança são os outros sinais que a célula recebe.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a quinase pela qual o TLR promove sobrevivência celular.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr-caspase8-apoptose",
+      "concept_id": "c15-caspase8-apoptose",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TLR signaling caspase 8 apoptosis",
+        "caspase 8 death receptor apoptosis initiator",
+        "toll like receptor induced cell death pathway"
+      ],
+      "source": "authored",
+      "text": "TLR signalling can also push the cell the opposite way, triggering apoptosis through {{c1::caspase-8}}.",
+      "extra": "Não confundir com a caspase-1 do inflamassoma: esta cliva pró-citocina, aquela executa apoptose.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a caspase pela qual o TLR induz apoptose.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "tlr-aciona-inflamassoma",
+      "concept_id": "c16-tlr-inflamassoma",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "TLR signaling inflammasome activation priming",
+        "TRIF dependent inflammasome activation",
+        "toll like receptor consequences inflammasome caspase 1"
+      ],
+      "source": "authored",
+      "text": "Beyond cytokines and interferons, TLR signalling can switch on a further molecular platform, the {{c1::inflammasome}}.",
+      "extra": "Pela via do TRIF, segundo o esquema da aula. É também o sinal de priming que fabrica a pró-IL-1-beta.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a plataforma molecular acionada pelo TLR além de citocinas e interferons.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "nlr-monta-inflamassoma",
+      "concept_id": "c17-nlr-monta-inflamassoma",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "NOD like receptors inflammasome assembly NLRP3",
+        "NLR family NLRP3 IPAF AIM2 inflammasome",
+        "which pattern recognition receptors form inflammasomes"
+      ],
+      "source": "authored",
+      "text": "The PRR family whose members assemble inflammasomes, NLRP3 and IPAF among them, is the {{c1::NOD-like}} receptor family.",
+      "extra": "Junta-se a eles o AIM2, da família ALR. Nem todo membro da família monta inflamassoma — os NOD, não.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Identificar a família de PRR que monta inflamassomas.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "nod-nfkb-nao-inflamassoma",
+      "concept_id": "c18-nod-nfkb",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "NOD1 NOD2 NF-kB signaling bacterial peptidoglycan",
+        "NOD proteins versus NLRP3 inflammasome function",
+        "cytosolic NOD receptors RIP2 NF-kB activation"
+      ],
+      "source": "authored",
+      "text": "NOD1 and NOD2 sense bacterial products in the cytosol but assemble no inflammasome; unlike NLRP3, they signal to {{c1::NF-kB}}.",
+      "extra": "Pertencer à mesma família estrutural não implica ter a mesma função efetora — é o principal contraste dentro dos NLR.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o desfecho de sinalização dos NOD, em contraste com o NLRP3.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "inflamassoma-caspase1",
+      "concept_id": "c19-caspase1",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "inflammasome caspase 1 activation",
+        "ASC CARD caspase 1 recruitment inflammasome",
+        "caspase 1 cleaves pro IL-1 beta"
+      ],
+      "source": "authored",
+      "text": "The protease activated by an assembled inflammasome is {{c1::caspase-1}}.",
+      "extra": "Ela não transcreve nada: cliva precursores já prontos, a pró-IL-1-beta e a pró-IL-18.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a enzima ativada pelo inflamassoma montado.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "inflamassoma-priming-precursor",
+      "concept_id": "c20-priming",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "inflammasome two signal model priming pro-IL-1 beta",
+        "NLRP3 priming signal one signal two",
+        "pro IL-1 beta transcription NF-kB before caspase 1 cleavage"
+      ],
+      "source": "authored",
+      "text": "An assembled inflammasome cannot release IL-1beta unless an earlier pro-inflammatory signal has already induced its inactive precursor, {{c1::pro-IL-1beta}}.",
+      "extra": "São dois sinais com controles distintos: um fabrica o precursor (priming, via TLR, TNF ou IL-1beta), o outro monta a plataforma que o corta.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o que precisa existir antes para o inflamassoma liberar IL-1beta.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "caspase1-il18",
+      "concept_id": "c21-il18",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "caspase 1 substrates IL-1 beta IL-18",
+        "IL-18 maturation inflammasome",
+        "inflammasome derived cytokines interleukin 18"
+      ],
+      "source": "authored",
+      "text": "Besides pro-IL-1beta, the other pro-inflammatory precursor cleaved by caspase-1 is pro-{{c1::IL-18}}.",
+      "extra": "As duas citocinas maturadas pelo inflamassoma são centrais na reação inflamatória.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o segundo substrato da caspase-1.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "ifn-bloqueia-replicacao-vizinhas",
+      "concept_id": "c22-ifn-protege-vizinhas",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "type I interferon antiviral state neighbouring cells",
+        "interferon alpha beta blocks viral replication",
+        "interferon induced antiviral response infected cell"
+      ],
+      "source": "authored",
+      "text": "Interferon released by a virus-infected cell does not rescue that cell; in the neighbouring cells it blocks viral {{c1::replication}}.",
+      "extra": "Por isso o professor chama o interferon de ação solidária: a célula que o produz morre de qualquer jeito, mas protege as do lado.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o efeito do interferon do tipo I sobre as células vizinhas.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "ifn-sintomas-gripe",
+      "concept_id": "c23-ifn-sintomas",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "type I interferon systemic effects flu symptoms",
+        "interferon fever myalgia influenza symptoms",
+        "interferon therapy side effects flu like syndrome"
+      ],
+      "source": "authored",
+      "text": "Fever and body aches during influenza are produced mostly not by the virus itself but by {{c1::interferon}}.",
+      "extra": "O mal-estar não é o dano do agente: é o custo sistêmico da defesa montada contra ele.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Atribuir os sintomas sistêmicos da gripe ao mediador correto.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "citotoxicidade-apoptose",
+      "concept_id": "c24-citotoxicidade-apoptose",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "cell mediated cytotoxicity target cell apoptosis",
+        "cytotoxic granules granzyme induced apoptosis",
+        "NK cell killing mechanism apoptosis not lysis"
+      ],
+      "source": "authored",
+      "text": "Cell-mediated cytotoxicity does not lyse the target from outside; it makes the target die by {{c1::apoptosis}}.",
+      "extra": "Morte ativa, executada pelo programa da própria célula-alvo — um suicídio induzido, não um tiro.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o modo de morte que a citotoxicidade celular induz no alvo.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "citotoxicidade-fasl",
+      "concept_id": "c25-fasl",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "FasL Fas apoptosis cytotoxic lymphocyte",
+        "membrane signaling death receptor cytotoxicity",
+        "granule exocytosis versus Fas ligand killing"
+      ],
+      "source": "authored",
+      "text": "Besides releasing cytotoxic granules, the effector cell can trigger apoptosis of the target by membrane signalling through {{c1::FasL}}.",
+      "extra": "As moléculas já estavam nas duas membranas; o reconhecimento específico apenas as aproxima.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a molécula de membrana que dispara apoptose no alvo.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "fagocitose-quimiotaxia",
+      "concept_id": "c26-quimiotaxia",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "phagocytosis steps chemotaxis first",
+        "chemotaxis neutrophil migration complement C5a",
+        "directed migration phagocyte toward target"
+      ],
+      "source": "authored",
+      "text": "The first step of phagocytosis is the directed migration of the phagocyte towards its target, that is, {{c1::chemotaxis}}.",
+      "extra": "As moléculas quimiotáticas vêm do próprio micro-organismo e do complemento.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a primeira etapa da fagocitose.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "fagocitose-opsonizacao",
+      "concept_id": "c27-opsonizacao",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "opsonization phagocytosis antibody complement",
+        "opsonins C3b IgG Fc receptor phagocyte",
+        "adhesion step phagocytosis opsonin receptors"
+      ],
+      "source": "authored",
+      "text": "Adhesion of the particle to the phagocyte is made efficient by molecules that coat the target, a process called {{c1::opsonization}}.",
+      "extra": "A opsonina gruda na partícula e tem receptor no fagócito — é a ponte que a membrana sozinha não faria.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear o processo que facilita a adesão do alvo ao fagócito.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "fagocitose-ziper",
+      "concept_id": "c28-ziper",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "zipper mechanism phagocytosis membrane",
+        "phagocytosis pseudopod zipper model receptors",
+        "sequential receptor engagement particle engulfment"
+      ],
+      "source": "authored",
+      "text": "The phagocyte membrane wraps the particle through successive receptor-ligand interactions, a mechanism described as the closing of a {{c1::zipper}}.",
+      "extra": "Cada novo receptor que engata puxa mais um pedaço de membrana sobre o alvo, até fechar o fagossoma.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a metáfora mecanística do englobamento da partícula.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "fagolisossomo",
+      "concept_id": "c29-fagolisossomo",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "phagolysosome formation phagosome lysosome fusion",
+        "phagosome maturation lysosomal enzymes killing",
+        "intracellular killing phagocyte phagolysosome"
+      ],
+      "source": "authored",
+      "text": "Fusion of the phagosome with lysosomes, which delivers the hydrolytic enzymes, forms the {{c1::phagolysosome}}.",
+      "extra": "É onde enzimas e radicais livres se somam para degradar a partícula fagocitada.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear o compartimento formado pela fusão fagossoma-lisossoma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "explosao-respiratoria",
+      "concept_id": "c30-explosao-respiratoria",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "respiratory burst NADPH oxidase phagocyte",
+        "oxidative burst reactive oxygen species killing",
+        "phagocyte oxygen consumption free radicals microbicidal"
+      ],
+      "source": "authored",
+      "text": "The abrupt rise in oxygen consumption that fuels free-radical production inside the phagocyte is the {{c1::respiratory burst}}.",
+      "extra": "O oxigênio consumido não vai para ATP: vai para fabricar radicais destrutivos na membrana do fagossoma.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear o fenômeno metabólico que gera radicais livres na fagocitose.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "febre-defesa-lagarto",
+      "concept_id": "c31-febre-defesa",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "fever adaptive defence mechanism experiment lizard",
+        "behavioural fever ectotherm infection survival",
+        "fever benefit host defence evidence"
+      ],
+      "source": "authored",
+      "text": "An infected lizard kept from warming itself, and therefore from developing fever, shows a marked rise in {{c1::mortality}}.",
+      "extra": "O experimento é o argumento clássico de que a febre é mecanismo de defesa, não efeito colateral inútil da inflamação.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o resultado experimental que mostra que a febre é defesa.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "citocina-pleiotropica",
+      "concept_id": "c32-citocina-pleiotropica",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "cytokine pleiotropy definition",
+        "cytokine properties pleiotropic redundant synergistic",
+        "pleiotropism cytokines multiple cell targets"
+      ],
+      "source": "authored",
+      "text": "A cytokine acts on many different target cells and produces many different effects; this property is called being {{c1::pleiotropic}}.",
+      "extra": "É por isso que se pode demonstrar quase qualquer ação de uma citocina montando o experimento do jeito certo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear a propriedade de agir sobre múltiplos alvos com múltiplos efeitos.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "citocina-exige-receptor",
+      "concept_id": "c33-citocina-receptor",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "cytokine receptor expression determines response",
+        "cytokine action requires specific receptor target cell",
+        "cytokine receptor signaling specificity"
+      ],
+      "source": "authored",
+      "text": "A cytokine changes the behaviour of a cell only if that cell expresses the corresponding {{c1::receptor}}.",
+      "extra": "É o que devolve especificidade a moléculas pleiotrópicas: a mesma citocina, no mesmo tecido, faz coisas diferentes conforme quem está ouvindo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a condição para que uma citocina atue sobre uma célula.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "interleucina-nome",
+      "concept_id": "c34-interleucina",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "interleukin nomenclature definition cytokine",
+        "cytokine families interleukins growth factors interferons",
+        "IL numbering leukocyte communication"
+      ],
+      "source": "authored",
+      "text": "A cytokine named after its role in communication between leukocytes is called an {{c1::interleukin}}.",
+      "extra": "Abreviada IL mais um número; já há mais de trinta descritas. O nome é histórico e não prevê a função.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar o nome dado às citocinas de comunicação entre leucócitos.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "ifn-tipo-ii-gama",
+      "concept_id": "c35-ifn-tipos",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "type I versus type II interferon classification",
+        "IFN gamma type II interferon",
+        "interferon alpha beta gamma differences immunology"
+      ],
+      "source": "authored",
+      "text": "IFN-alpha and IFN-beta are type I interferons; the only type II interferon is IFN-{{c1::gamma}}.",
+      "extra": "Os do tipo I são os da resposta antiviral discutida antes. Alfa e beta têm uso clínico frequente; o gama nunca se firmou.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Distinguir interferons do tipo I do único interferon do tipo II.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "araquidonico-leucotrienos",
+      "concept_id": "c36-mediadores-lipidicos",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "arachidonic acid prostaglandins leukotrienes pathway",
+        "eicosanoid synthesis cyclooxygenase lipoxygenase",
+        "lipid mediators inflammation PAF prostaglandins"
+      ],
+      "source": "authored",
+      "text": "Arachidonic acid released from the membrane phospholipid is metabolized into two families of mediators: prostaglandins and {{c1::leukotrienes}}.",
+      "extra": "Somam-se o PAF e outros mediadores. É sobre essa via que atuam os anti-inflamatórios não esteroidais.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar as duas famílias de mediadores derivadas do ácido araquidônico.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "exossomos",
+      "concept_id": "c37-exossomos",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "exosomes extracellular vesicles intercellular communication",
+        "exosome cargo signaling immune cells",
+        "microvesicles nanovesicles cell communication blood"
+      ],
+      "source": "authored",
+      "text": "Membrane-bound nanovesicles released by cells, circulating in the blood and carrying signals to other cells, are the {{c1::exosomes}}.",
+      "extra": "Têm membrana e conteúdo; não são resto celular. Em algumas situações mudam completamente a função da célula que os recebe.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Nomear as nanovesículas de comunicação intercelular liberadas pelas células.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "il6-covid",
+      "concept_id": "c38-il6-covid",
+      "tier": "optional",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "IL-6 tocilizumab severe COVID-19",
+        "interleukin 6 blockade cytokine target therapy",
+        "anti IL-6 receptor antibody clinical use"
+      ],
+      "source": "authored",
+      "text": "The interleukin blocked by neutralizing antibodies in severe COVID-19 is {{c1::IL-6}}.",
+      "extra": "Exemplo de citocina que virou alvo terapêutico direto.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a citocina alvo de anticorpo neutralizante na COVID-19 grave.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    },
+    {
+      "card_key": "toll-drosofila-embriogenese",
+      "concept_id": "c39-toll-drosofila",
+      "tier": "optional",
+      "atomic": true,
+      "relevant": true,
+      "anking_search_status": "source_unavailable",
+      "anking_upgrade_queries": [
+        "Toll Drosophila dorsoventral embryogenesis discovery",
+        "origin of toll like receptor name Drosophila",
+        "Toll protein fruit fly immunity history"
+      ],
+      "source": "authored",
+      "text": "The Drosophila protein that gave the Toll-like receptors their name was first described for its role in {{c1::embryogenesis}}.",
+      "extra": "Os receptores humanos foram batizados por semelhança estrutural com ela; a função imune veio depois.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Recuperar a função original da molécula Toll na drosófila.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      }
+    }
+  ]
+}

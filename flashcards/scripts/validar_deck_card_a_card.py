@@ -73,7 +73,19 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
             failures.append("anking_visual_preference_unresolved")
 
 
-def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> None:
+def _validate_anking_search_audit(
+    card: dict[str, Any], failures: list[str], *, source_available: bool = True
+) -> None:
+    if not source_available:
+        # Sem coleção AnKing alcançável não existe busca a auditar. O registro
+        # honesto é o estado declarado + as consultas de promoção futura.
+        if str(card.get("anking_search_status", "")) != "source_unavailable":
+            failures.append("anking_search_status_source_unavailable")
+        if _bool(card, "anking_search_complete", default=False):
+            failures.append("anking_search_complete_claimed_without_source")
+        if not _bool(card, "anking_upgrade_queries_ok"):
+            failures.append("anking_upgrade_queries_ok")
+        return
     for key in (
         "anking_search_queries_ok",
         "anking_scope_expanded",
@@ -116,7 +128,10 @@ def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
         failures.append("mask_geometry_ok")
 
 
-def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> list[str]:
+def validate_card(
+    card: dict[str, Any], min_score: float, min_margin: float,
+    *, anking_source_available: bool = True,
+) -> list[str]:
     failures: list[str] = []
     source = str(card.get("source", "")).lower()
 
@@ -130,6 +145,9 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
 
     if str(card.get("tier", "")) not in {"nucleo", "optional"}:
         failures.append("invalid_tier")
+
+    if source == "anking" and not anking_source_available:
+        failures.append("anking_source_unavailable")
 
     if source in {"anking", "external_deck"}:
         if not _bool(card, "source_safe"):
@@ -149,7 +167,9 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
         if source == "anking" and _bool(card, "anking_required") and not _bool(card, "resolved_without_fallback"):
             failures.append("required_anking_unresolved")
         if source == "external_deck":
-            _validate_anking_search_audit(card, failures)
+            _validate_anking_search_audit(
+                card, failures, source_available=anking_source_available
+            )
         if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
             failures.append("source_filter_ok")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
@@ -157,17 +177,22 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
 
     elif source == "authored":
         _validate_authored(card, failures)
-        _validate_anking_search_audit(card, failures)
-        if not _bool(card, "anking_search_complete"):
-            failures.append("anking_search_incomplete")
-        if not str(card.get("anking_rejection_reason", "")).strip():
-            failures.append("anking_rejection_reason_missing")
+        _validate_anking_search_audit(
+            card, failures, source_available=anking_source_available
+        )
+        if anking_source_available:
+            if not _bool(card, "anking_search_complete"):
+                failures.append("anking_search_incomplete")
+            if not str(card.get("anking_rejection_reason", "")).strip():
+                failures.append("anking_rejection_reason_missing")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 
     elif source == "io":
         _validate_io(card, failures)
-        _validate_anking_search_audit(card, failures)
+        _validate_anking_search_audit(
+            card, failures, source_available=anking_source_available
+        )
 
     else:
         failures.append("unsupported_source")
@@ -182,9 +207,11 @@ def validate_report(data: dict[str, Any], min_score: float, min_margin: float) -
 
     expected = int(data.get("expected_card_count", len(cards)))
     hard_max = int(data.get("card_budget_hard_max", expected))
+    anking_source_available = data.get("anking_source_available", True) is not False
     result: dict[str, Any] = {
         "expected_card_count": expected,
         "card_budget_hard_max": hard_max,
+        "anking_source_available": anking_source_available,
         "validated_card_count": len(cards),
         "passed_card_count": 0,
         "failed_card_count": 0,
@@ -200,7 +227,10 @@ def validate_report(data: dict[str, Any], min_score: float, min_margin: float) -
             key = f"index:{idx}"
         else:
             key = str(raw.get("card_key") or f"index:{idx}")
-            failures = validate_card(raw, min_score, min_margin)
+            failures = validate_card(
+                raw, min_score, min_margin,
+                anking_source_available=anking_source_available,
+            )
             if key in seen:
                 failures.append("duplicate_card_key")
             seen.add(key)

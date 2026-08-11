@@ -32,6 +32,17 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - fazer rollback das notas novas em falha parcial;
 - selecionar/abrir o deck correto no AnkiDroid ao concluir.
 
+## Fonte AnKing quando a sessão não alcança a coleção
+
+A resolução AnKing acontece na coleção local (AnkiDroid) ou num índice privado
+local. Sessão que não alcança nenhum dos dois declara
+`anking_source_availability.available=false` com motivo e `checked[]`: o gerador
+bloqueia `source="anking"`, cada card autoral/IO carrega
+`anking_search_status="source_unavailable"` mais `anking_upgrade_queries[]`, e o
+relatório card a card declara `anking_source_available=false`. O deck sai
+completo e instalável; a promoção a AnKing fica registrada como pendência
+auditável, nunca como busca fabricada. Regra em `ERROS.md` 52.
+
 ## Decisões vigentes de card
 
 - Ordem: AnKing adequado → deck externo adequado → autoral.
@@ -51,6 +62,15 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - CI mantém regressão realista de 40 cards, mas uma aula real valida o número real do deck.
 - Um único card inválido bloqueia o lote.
 - O recibo do Companion precisa confirmar `installed_card_count == expected_card_count`.
+
+## Aulas fechadas pelo pipeline v9
+
+- `imuno-01-reconhecimento-inato` (UC03 · P1 · Imunologia · Reconhecimento
+  inato): E1 de 17 páginas, 39 cards (37 nucleares + 2 opcionais, 1 IO sobre a
+  tabela de famílias de PRR), gate card a card 39/39, teto 40. Rodada sem
+  coleção AnKing alcançável — todos os cards são NEBLI autorais/IO com
+  `anking_upgrade_queries` registradas. Falta apenas o recibo de instalação do
+  Companion no tablet.
 
 ## Próxima corrida real
 

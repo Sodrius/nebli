@@ -155,7 +155,65 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
                 raise ValueError(f"{where}: authored_quality.{key}=true é obrigatório")
 
 
-def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
+def _anking_availability(data: dict[str, Any]) -> dict[str, Any]:
+    """Estado declarado da fonte AnKing para esta corrida.
+
+    A resolução AnKing do v9 acontece na coleção local (AnkiDroid) ou num índice
+    privado local. Quando a sessão que planeja o deck não alcança nenhum dos
+    dois, a saída canônica não é inventar evidência de busca: é declarar a
+    indisponibilidade, com motivo e com o que foi verificado, e deixar cada card
+    registrar as consultas que uma sessão com coleção deve rodar depois.
+    """
+    raw = data.get("anking_source_availability")
+    if raw is None:
+        return {"available": True}
+    if not isinstance(raw, dict):
+        raise ValueError("anking_source_availability deve ser objeto")
+    if raw.get("available") is not False:
+        return {"available": True}
+    reason = str(raw.get("reason") or "").strip()
+    if len(reason) < 40:
+        raise ValueError(
+            "anking_source_availability.available=false exige reason concreto (>=40 caracteres)"
+        )
+    checked = raw.get("checked")
+    if not isinstance(checked, list) or not checked:
+        raise ValueError(
+            "anking_source_availability.available=false exige checked[] com o que foi verificado"
+        )
+    return {
+        "available": False,
+        "reason": reason,
+        "checked": [str(value).strip() for value in checked if str(value).strip()],
+    }
+
+
+def _validate_anking_unavailable_evidence(card: dict[str, Any], where: str) -> None:
+    if card.get("anking_search_status") != "source_unavailable":
+        raise ValueError(
+            f"{where}: fonte AnKing indisponível exige anking_search_status='source_unavailable'"
+        )
+    if card.get("anking_search_complete") is True:
+        raise ValueError(
+            f"{where}: não declare anking_search_complete=true com a fonte AnKing indisponível"
+        )
+    queries = card.get("anking_upgrade_queries")
+    if not isinstance(queries, list):
+        queries = []
+    distinct = {str(value).strip().casefold() for value in queries if str(value).strip()}
+    if len(distinct) < 3:
+        raise ValueError(
+            f"{where}: exige ao menos 3 anking_upgrade_queries para a promoção futura"
+        )
+    card["anking_upgrade_pending"] = True
+
+
+def _validate_anking_search_evidence(
+    card: dict[str, Any], where: str, *, anking_available: bool = True
+) -> None:
+    if not anking_available:
+        _validate_anking_unavailable_evidence(card, where)
+        return
     if card.get("anking_search_complete") is not True:
         raise ValueError(f"{where}: exige anking_search_complete=true")
     queries = card.get("anking_search_queries")
@@ -421,7 +479,7 @@ def _prepare_fallback(
 
 def _prepare_v3_card(
     raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]],
-    anking_source_filter: str, *, strict: bool = False,
+    anking_source_filter: str, *, strict: bool = False, anking_available: bool = True,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
@@ -440,6 +498,11 @@ def _prepare_v3_card(
 
     source = str(card.get("source") or "").lower()
     card["source"] = source
+    if source == "anking" and not anking_available:
+        raise ValueError(
+            f"{key}: source=anking exige coleção AnKing alcançável na curadoria; "
+            "com a fonte indisponível o card precisa ser autoral/IO com anking_upgrade_queries"
+        )
     if source in {"anking", "external_deck"}:
         if not str(card.get("query") or "").strip():
             raise ValueError(f"{key}: card de deck local sem query")
@@ -481,12 +544,14 @@ def _prepare_v3_card(
         if strict and source == "anking" and not card["anking_required"]:
             raise ValueError(f"{key}: AnKing curado exige anking_required=true")
         if strict and source == "external_deck":
-            _validate_anking_search_evidence(card, key)
+            _validate_anking_search_evidence(card, key, anking_available=anking_available)
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
     elif source == "authored":
         if strict:
-            _validate_anking_search_evidence(card, key)
+            _validate_anking_search_evidence(card, key, anking_available=anking_available)
+        elif not anking_available:
+            _validate_anking_unavailable_evidence(card, key)
         elif card.get("anking_search_complete") is not True:
             raise ValueError(f"{key}: autoral direto exige anking_search_complete=true")
         elif not str(card.get("anking_rejection_reason") or "").strip():
@@ -496,7 +561,9 @@ def _prepare_v3_card(
         _prepare_authored_anking_images(card, key, strict=strict)
     elif source == "io":
         if strict:
-            _validate_anking_search_evidence(card, key)
+            _validate_anking_search_evidence(card, key, anking_available=anking_available)
+        elif not anking_available:
+            _validate_anking_unavailable_evidence(card, key)
         _validate_masks(card, key, strict=strict)
         _embed_io_media(card, base_dir, media, key)
     else:
@@ -559,10 +626,12 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     anking_source_filter = str(
         data.get("anking_source_filter") or 'deck:"AnKing Step Deck"'
     ).strip()
+    availability = _anking_availability(data)
     cards = [
         _prepare_v3_card(
             x, i, source_path.parent, media, anking_source_filter,
             strict=release_result is not None,
+            anking_available=availability["available"],
         )
         for i, x in enumerate(raw_cards)
         if isinstance(x, dict)
@@ -597,6 +666,8 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "cards": cards,
         "media": list(media.values()),
     }
+    if not availability["available"]:
+        manifest["anking_source_availability"] = availability
     if release_result is not None:
         manifest["release_gate"] = {
             key: release_result[key]
