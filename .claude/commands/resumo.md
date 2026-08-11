@@ -1,128 +1,183 @@
 ---
-description: Gera a E1 e o deck-aula Anki completo, visual e auditado
+description: Gera E1 + Deck-Aula completo e diretamente instalável no AnkiDroid
 argument-hint: <slug> <slide.pdf> [UC] [Prova] [Componente] [Nome curto]
 ---
 
-# /resumo — pipeline E1 + deck-aula
+# /resumo — pipeline E1 + Deck-Aula v6
 
 Argumentos: $ARGUMENTS
 
-A **sessão principal executa todo o trabalho**. Não delegue redação, curadoria,
-aprofundamento, visual, autoria ou montagem. Agentes só podem ser chamados após
-existirem artefatos completos, em modo revisor e somente leitura.
+A **sessão principal executa o pipeline inteiro**. Pergunte ao usuário somente se
+uma ambiguidade inevitável impedir o produto correto. Não delegue redação,
+curadoria, autoria, visual ou montagem; revisores podem atuar depois dos
+artefatos completos, em leitura.
 
-## 0. Carregar o canônico
+## 0. Carregar e obedecer o canônico
 
-Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/PIPELINE-E1-DECK.md`,
-`docs/canon/ANKIDROID-COMPANION.md` e os demais arquivos canônicos. Leia
-`config/pipeline.json` e confirme:
+Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
+`docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
+canônicos. Confirme em `config/pipeline.json`:
 
-- `pipeline_version=e1-deck-v5`;
-- backend preferido `ankidroid`;
-- manifest `nebli-ankidroid-lesson-v2`;
-- validação final `mode=every_card` e aprovação obrigatória de 100%;
-- E2, E3 e RemNote desligados;
+- `pipeline_version=e1-deck-v6`;
+- backend `ankidroid`;
+- schema `nebli-ankidroid-deck-v3`;
+- instalação direta de AnKing + autorais + IO;
+- validação de **todo card real**, aprovação 100%;
+- E2/E3/RemNote desligados;
 - 25 novos/dia;
-- teto de cards, cloze 1/2/3 palavras e IO multi-rótulo `hide_all_guess_all`.
+- desktop/APKG fora do fluxo normal.
 
-Nunca leia `docs/legacy/` durante corrida normal.
+Nunca leia `docs/legacy/` numa corrida normal.
 
-## 1. Entrada e checkpoint
+## 1. Entrada, metadados e checkpoint
 
-Resolva slug, slide, UC, prova, componente e nome curto. Use cronogramas quando
-possível; pergunte apenas se a ambiguidade alterar o produto. Crie
-`arquivos-trabalho/<slug>/CHECKPOINT.md` com fase, fontes, decisões, pendências e
-próximo passo literal. Atualize após cada fase.
+Resolva slug, slide, UC, prova, componente e nome curto por contexto/cronograma.
+Pergunte apenas se a ambiguidade mudaria de fato o deck. Crie
+`arquivos-trabalho/<slug>/CHECKPOINT.md` e mantenha fase, fontes, decisões,
+pendências e próximo passo.
 
-## 2. Fontes e contrato inicial
+O deck canônico será:
 
-Extraia slides e objetivos. Crie
-`arquivos-trabalho/<slug>/contrato-cobertura.json` a partir do schema canônico.
-Registre cada conceito com nome PT/EN, subtópico, origem, importância, aliases e
-necessidade visual. Classifique o porte, proponha `card_budget.hard_max` e congele
-o teto antes da seleção. Slides/objetivos definem o escopo.
+`NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`
 
-## 3. E1 rascunho
+O pipeline deve preencher esses metadados no `deck-data.json`; não obrigue o
+usuário a nomear manualmente no Companion.
 
-Escreva `typst-build/etapa1.typ` e `resumindo.typ` no estilo didático NEBLI.
-Mecanismo antes de nomenclatura; aluno com conhecimento inicial baixo; figuras
-quando carregam estrutura, mecanismo ou comparação. Não gere E2/E3/RemNote.
+## 2. Contrato de cobertura e orçamento
 
-## 4. Atomização para busca local
+Extraia slides, objetivos e perguntas orientadoras. Crie o contrato de cobertura.
+Para cada conceito registre:
 
-Converta a E1 em conceitos recuperáveis e atômicos. Cada conceito deve ter:
+- id estável;
+- nome PT/EN;
+- subtópico;
+- origem na aula;
+- importância (`nucleo`/`optional`);
+- âncora E1;
+- query em inglês médico e aliases;
+- necessidade visual;
+- **recuperação específica que o card deve testar**.
 
-- `id` estável;
-- `query` preferencialmente em inglês médico;
-- `aliases` quando houver sinônimos úteis;
-- `required=true` para núcleo da aula;
-- âncora literal na E1.
+Classifique o porte, fixe `card_budget.hard_max` e congele o teto antes de fechar
+cards. Não use faixas como meta de quantidade.
 
-Grave `arquivos-trabalho/<slug>/conceitos-anking.json`. Não selecione cards por
-memória, não dependa de Drive/Colab e não exija IDs do Anki nesta etapa.
+## 3. E1 antes dos cards
 
-## 5. Passe Step 1 → E1
+Escreva `typst-build/etapa1.typ` e `resumindo.typ`. A E1 precisa ensinar o
+conteúdo antes que um card o cobre. Mecanismo antes de nomenclatura, conexão com
+a aula, explicação suficiente para aluno com base inicial baixa. Não gere
+E2/E3/RemNote.
 
-Para cada conceito que aprofunda o mesmo mecanismo/estrutura da aula, aplique
-`docs/canon/COBERTURA-E-STEP1.md`. Conteúdo aceito entra na E1 antes do card.
-Conteúdo de próxima aula/Step 2 fica fora. Revalide as âncoras e congele o
-contrato.
+Nenhum card pode introduzir aprofundamento ausente da E1. Conteúdo Step 1 aceito
+entra primeiro na E1 e recebe nova âncora.
 
-## 6. Gerar manifesto AnkiDroid v2
+## 4. Atomizar recuperações, não apenas tópicos
 
-Execute:
+Para cada conceito, decida se merece card. Hard gate:
 
-```bash
-python flashcards/scripts/gerar_manifesto_ankidroid.py \
-  --slug <slug> \
-  --deck "NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>" \
-  --conceitos arquivos-trabalho/<slug>/conceitos-anking.json
+- precisa ser cobrado/relevante para a aula;
+- precisa representar uma recuperação útil;
+- uma recuperação independente por card;
+- sem duplicata funcional;
+- `nucleo` e `optional` separados.
+
+Se não agrega valor de recuperação, **não crie card**.
+
+## 5. Busca AnKing primeiro
+
+Para cada recuperação elegível:
+
+1. gere query em inglês médico;
+2. gere aliases/sinônimos úteis;
+3. procure AnKing/deck externo antes de autoria;
+4. não trate uma busca vazia como prova imediata de lacuna;
+5. aceite AnKing somente se testar a mesma recuperação, não apenas tema vizinho;
+6. quando houver siblings, planeje o sibling específico;
+7. para recuperação visual, só aceite AnKing visualmente adequado.
+
+No `deck-data.json`, um card preferencialmente AnKing deve ter:
+
+- `source: "anking"`;
+- `query` + `aliases`;
+- `atomic: true`, `relevant: true`;
+- `requires_visual` quando aplicável;
+- **fallback validado** autoral ou IO.
+
+O fallback existe para que o deck final nunca dependa de a coleção local ter
+exatamente o candidato esperado. No tablet, o Companion usa AnKing se houver
+match confiável; caso contrário usa o fallback, sem pedir decisão manual.
+
+## 6. Autorais — contrato rígido
+
+Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
+
+- frente em inglês médico natural;
+- Extra curto em português;
+- uma recuperação;
+- exatamente **uma ocorrência de `c1`**;
+- cloze preferencialmente 1 palavra;
+- 2 quando necessário;
+- 3 muito raramente, com justificativa em `three_word_cloze_reason`;
+- 4+ bloqueia;
+- sem enumerações, mini-resumos ou múltiplas decisões;
+- pista inequívoca sem entregar a resposta;
+- `atomic=true`, `relevant=true`.
+
+A existência de um fallback não permite autoria preguiçosa: ele precisa ser um
+bom card por si só.
+
+## 7. Visual e IO
+
+Defina decisão visual para cada recuperação antes de fechar o card.
+
+Prioridade: mídia AnKing adequada → fonte externa/real adequada → slide quando é
+a fonte útil da própria aula. Imagem decorativa não entra.
+
+Para IO:
+
+- usar apenas quando reconhecimento/localização agrega;
+- `mode=hide_all_guess_all` para mapa coerente;
+- máscara cobre o **rótulo-resposta**, não a estrutura;
+- múltiplas máscaras somente se formarem conjunto coerente;
+- coordenadas normalizadas dentro de `[0,1]`;
+- `question_preview_validated=true`;
+- `answer_preview_validated=true`;
+- `visual_ok=true`;
+- `real_source=true`;
+- `answer_leak=false`;
+- registrar `source_credit`;
+- validar crop, legibilidade e solução.
+
+Se um card AnKing `requires_visual=true`, seu fallback deve ser IO válido.
+
+## 8. Construir o plano final `deck-data.json`
+
+Crie `arquivos-trabalho/<slug>/deck-data.json` com metadados e **todos os cards
+reais pretendidos**.
+
+Estrutura mínima:
+
+```json
+{
+  "metadata": {
+    "uc": "UC02",
+    "prova": "P3",
+    "componente": "Anatomia",
+    "nome_curto": "Intestino grosso"
+  },
+  "cards": []
+}
 ```
 
-O manifesto não contém os 6 GB do AnKing. Ele leva conceitos/aliases ao Companion,
-que pesquisa diretamente a coleção local do tablet.
+Todo card tem `card_key` única, `concept_id`, `source`, `tier`, `atomic=true` e
+`relevant=true`.
 
-## 7. Resolução local no Companion
+Conte cards reais e confirme que o total está ≤ `card_budget.hard_max`.
 
-O Companion deve, por conceito:
+## 9. Validação card a card antes de empacotar
 
-1. buscar na coleção do AnkiDroid;
-2. remover cópias NEBLI do pool;
-3. preferir marcadores AnKing quando existirem;
-4. ranquear candidatos;
-5. exigir score e margem mínimos;
-6. inferir o sibling cloze correto quando houver vários;
-7. copiar literalmente `mid + flds + tags` para `NEBLI::*`;
-8. suspender siblings não selecionados;
-9. reler a fonte e comprovar que permaneceu intacta;
-10. deixar resultado ambíguo como `unresolved`, nunca escolher à força.
-
-## 8. Lacunas reais, autoria e visual
-
-O recibo do Companion separa `resolved[]` e `unresolved[]`. Só `unresolved`
-comprovado pode virar autoral/IO. Para cada lacuna:
-
-- refaça buscas com aliases antes de autorar;
-- use externo real quando superior;
-- autoral em inglês médico, atômico, uma recuperação;
-- cloze 1 palavra por padrão, 2 quando necessário, 3 raramente;
-- IO apenas quando a tarefa espacial agrega valor;
-- IO multi-rótulo coerente usa `hide_all_guess_all`;
-- imagem deve ter função cognitiva e passar QA visual.
-
-## 9. Validação obrigatória card a card
-
-Depois de resolver AnKing e fechar autorais/IO, gere
-`arquivos-trabalho/<slug>/validacao-cards.json` contendo **um registro para cada
-card real do deck final**. `expected_card_count` deve ser exatamente o total final
-do contrato; não use amostra.
-
-Para cada card registre, conforme a fonte: `card_key`, `concept_id`, `source`,
-`selected`, `atomic`, `relevant`, `source_safe`, score/margem da seleção AnKing,
-`same_note_type`, `same_fields`, `media_ok`, `sibling_policy_ok`, `cloze_words`,
-`requires_visual` e `visual_ok`.
-
-Execute obrigatoriamente:
+Gere `arquivos-trabalho/<slug>/validacao-cards.json` com **um registro por card
+real** e rode:
 
 ```bash
 python flashcards/scripts/validar_deck_card_a_card.py \
@@ -130,45 +185,84 @@ python flashcards/scripts/validar_deck_card_a_card.py \
   --out arquivos-trabalho/<slug>/validacao-cards.result.json
 ```
 
-O gate passa somente se `validated_card_count == expected_card_count`,
-`failed_card_count == 0` e `passed_card_count == expected_card_count`. Um único
-card com falha bloqueia a instalação/entrega até ser corrigido. O CI usa 40 cards
-como regressão de porte médio, mas numa corrida real o número validado é o número
-real do deck, qualquer que seja ele.
+Obrigatório:
 
-## 10. Revisão independente
+- `validated_card_count == expected_card_count`;
+- `passed_card_count == expected_card_count`;
+- `failed_card_count == 0`.
 
-Com E1, manifesto, recibo, autorais/IO e validação card a card completos, podem
-rodar `revisor-cobertura`, `revisor-cards-visual` e os auditores aplicáveis. Eles
-não editam. A sessão principal lê os relatórios e aplica correções; depois roda o
-gate card a card novamente sobre o lote corrigido.
+Uma falha bloqueia; corrija o card e rode novamente. Não use amostragem.
 
-## 11. Gates finais
+## 10. Gerar o pacote único do AnkiDroid
+
+Somente após o gate 100%:
+
+```bash
+python flashcards/scripts/gerar_manifesto_ankidroid.py \
+  --slug <slug> \
+  --deck-data arquivos-trabalho/<slug>/deck-data.json \
+  --out flashcards/manifests/<slug>.ankidroid.json
+```
+
+O gerador v3 deve:
+
+- derivar o nome do deck dos metadados;
+- revalidar regras autorais e IO;
+- rejeitar `card_key` duplicada;
+- exigir fallback para AnKing;
+- embutir mídia nova com SHA-256/base64;
+- remover caminhos locais do manifesto;
+- definir `expected_card_count` no total real;
+- gerar hash de cada card e do manifesto.
+
+Não inclua o banco/índice/mídia privada do AnKing no GitHub.
+
+## 11. Instalação local automática
+
+Ao abrir `<slug>.ankidroid.json` no Nebli Companion:
+
+1. criar/reusar o deck canônico;
+2. criar `::Optional` se necessário;
+3. resolver todos os cards AnKing localmente;
+4. copiar literal `mid/flds/tags` quando confiável;
+5. suspender siblings não selecionados;
+6. reler e provar fonte intacta;
+7. usar fallback validado nos casos ausentes/ambíguos;
+8. criar autorais diretamente no AnkiDroid;
+9. importar mídia e criar IO diretamente;
+10. validar render/runtime por card;
+11. fazer rollback das notas novas se qualquer card falhar;
+12. exigir `installed_card_count == expected_card_count`;
+13. selecionar o deck raiz;
+14. abrir o AnkiDroid.
+
+Nenhuma pesquisa/seleção card a card pelo usuário é parte do fluxo normal.
+
+## 12. Revisão independente e fechamento
+
+Revisores podem auditar cobertura/cards/visual após os artefatos estarem
+completos. A sessão principal aplica correções e repete os gates afetados.
 
 Bloqueie se houver:
 
-- qualquer card sem registro de validação;
-- qualquer registro `ok=false` no gate card a card;
-- conceito nuclear sem card real ou lacuna explicitamente tratada;
-- seleção AnKing de baixa confiança;
-- fonte modificada;
-- card não atômico;
-- cloze longo;
-- teto excedido;
-- IO com máscara/pista errada;
+- lacuna nuclear;
+- card sem âncora E1;
+- card não atômico/irrelevante;
+- AnKing escolhido por semelhança apenas;
+- AnKing sem fallback;
+- autoral ruim/cloze longo;
+- IO inadequado;
 - mídia quebrada;
-- card órfão da E1;
-- `unresolved` ignorado;
-- total instalado diferente do total validado.
+- teto excedido;
+- contagem divergente;
+- fonte modificada;
+- write fora de `NEBLI::*`.
 
-A instalação só é considerada concluída quando o recibo do Companion confirma o
-mesmo número de cards que passou no gate card a card.
+## 13. Entrega
 
-## 12. Entrega
+Entregue E1/PDF, `deck-data.json`, `validacao-cards.result.json`, manifesto v3 e
+relatório final. Quando houver recibo do Companion, exigir contagem final exata.
 
-Entregue primeiro E1/PDF, depois o manifesto AnkiDroid v2 e o relatório final com
-conceitos resolvidos/pendentes, cards por fonte, decisões visuais, autorais/IO,
-`validacao-cards.result.json` e recibo de instalação. O fluxo preferido no tablet
-é abrir o manifesto no Nebli Companion e deixar a resolução/cópia AnKing ocorrer
-localmente. Configure 25 novos/dia e 9999 revisões/dia. Nunca marque concluído só
-porque comandos foram executados.
+Definição operacional final: o usuário abre **um arquivo** no Companion e recebe
+o deck completo com o nome correto, no AnkiDroid, sem Colab/Drive/APKG e sem
+curadoria manual de cards.
