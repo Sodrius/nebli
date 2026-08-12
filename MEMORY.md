@@ -16,7 +16,11 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 - Desktop/APKG/Drive/Colab não pertencem ao fluxo normal.
 - **Atualizar o Companion do tablet:** o APK sai do CI. Workflow
   `Android Companion` no GitHub → run verde do branch → artefato
-  `nebli-ankidroid-companion-debug` → instalar o `app-debug.apk` no tablet. O
+  `nebli-ankidroid-companion-debug` → instalar o `app-debug.apk` no tablet.
+  Build mais recente aprovado (2026-08-12, commit `ad6c1f9`, run 106):
+  https://github.com/Sodrius/nebli/actions/runs/31596148326/artifacts/9141201203
+  — inclui o alias de vocabulário de IO, o preflight de contrato e o recibo com
+  `companion_io_modes`. O
   artefato só é publicado quando os testes unitários E o round trip real com o
   AnkiDroid no emulador passam — APK sem teste real continua bloqueado.
   Depois de instalar e confirmar por um recibo real, trocar
