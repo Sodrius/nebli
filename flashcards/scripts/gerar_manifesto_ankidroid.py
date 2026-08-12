@@ -32,6 +32,17 @@ SEARCH_MODE_DEFERRED = "device_deferred"
 SEARCH_MODE_UNAVAILABLE = "unavailable"
 SEARCH_MODES = {SEARCH_MODE_SESSION, SEARCH_MODE_DEFERRED, SEARCH_MODE_UNAVAILABLE}
 
+# Vocabulário do modo de Image Occlusion.
+#
+# O canônico é o nome da REGRA (no máximo duas máscaras, duas respostas
+# coerentes) e é o que o deck-data declara. O token EMITIDO no manifesto pode
+# ser o alias antigo, porque quem lê o manifesto é o Companion já instalado no
+# aparelho — e um Companion antigo não conhece nomes novos. Trocar o nome sem
+# alias derruba o lote inteiro no primeiro card IO.
+IO_MODE_CANONICAL = "hide_two_guess_two"
+IO_MODE_LEGACY = "hide_all_guess_all"
+IO_MODE_TOKENS = (IO_MODE_CANONICAL, IO_MODE_LEGACY)
+
 SCHEMA_V1 = "nebli-ankidroid-v1"
 SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
 SCHEMA_V3 = "nebli-ankidroid-deck-v3"
@@ -254,6 +265,17 @@ def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -
             raise ValueError(f"{where}: máscara {i} fora dos limites")
 
 
+def _apply_io_mode_token(card: dict[str, Any], token: str) -> None:
+    """Grava no card o nome que o Companion do aparelho entende.
+
+    A regra validada continua sendo a canônica; `io_mode_contract` preserva
+    isso no manifesto para que o recibo mostre contra o que o card foi medido,
+    e não apenas qual rótulo foi emitido.
+    """
+    card["io_mode_contract"] = IO_MODE_CANONICAL
+    card["mode"] = token
+
+
 def _resolve_media_path(raw: Any, base_dir: Path, where: str) -> Path:
     path = Path(str(raw))
     if not path.is_absolute():
@@ -427,7 +449,7 @@ def _prepare_authored_anking_images(card: dict[str, Any], where: str, *, strict:
 
 def _prepare_fallback(
     fallback: dict[str, Any], base_dir: Path, media: dict[str, dict[str, Any]], where: str,
-    *, strict: bool = False,
+    *, strict: bool = False, io_mode_token: str = IO_MODE_CANONICAL,
 ) -> dict[str, Any]:
     f = deepcopy(fallback)
     source = str(f.get("source") or "").lower()
@@ -438,6 +460,7 @@ def _prepare_fallback(
         _prepare_authored_anking_images(f, where, strict=strict)
     elif source == "io":
         _validate_masks(f, where, strict=strict)
+        _apply_io_mode_token(f, io_mode_token)
         _embed_io_media(f, base_dir, media, where)
     else:
         raise ValueError(f"{where}: fallback deve ser authored ou io")
@@ -447,6 +470,7 @@ def _prepare_fallback(
 def _prepare_v3_card(
     raw: dict[str, Any], index: int, base_dir: Path, media: dict[str, dict[str, Any]],
     anking_source_filter: str, *, strict: bool = False,
+    io_mode_token: str = IO_MODE_CANONICAL,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
@@ -489,7 +513,8 @@ def _prepare_v3_card(
         if not isinstance(fallback, dict):
             raise ValueError(f"{key}: fonte local precisa fallback para garantir deck completo")
         card["fallback"] = _prepare_fallback(
-            fallback, base_dir, media, f"{key}.fallback", strict=strict
+            fallback, base_dir, media, f"{key}.fallback", strict=strict,
+            io_mode_token=io_mode_token,
         )
         expected_answers = card.get("expected_answers") or []
         if isinstance(expected_answers, str):
@@ -530,6 +555,7 @@ def _prepare_v3_card(
         if strict:
             _validate_anking_search_evidence(card, key)
         _validate_masks(card, key, strict=strict)
+        _apply_io_mode_token(card, io_mode_token)
         _embed_io_media(card, base_dir, media, key)
     else:
         raise ValueError(f"{key}: source não suportado: {source}")
@@ -591,10 +617,15 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     anking_source_filter = str(
         data.get("anking_source_filter") or 'deck:"AnKing Step Deck"'
     ).strip()
+    io_mode_token = str(getattr(args, "io_mode_token", None) or IO_MODE_CANONICAL)
+    if io_mode_token not in IO_MODE_TOKENS:
+        raise ValueError(
+            f"io-mode-token desconhecido: {io_mode_token}; aceitos: {', '.join(IO_MODE_TOKENS)}"
+        )
     cards = [
         _prepare_v3_card(
             x, i, source_path.parent, media, anking_source_filter,
-            strict=release_result is not None,
+            strict=release_result is not None, io_mode_token=io_mode_token,
         )
         for i, x in enumerate(raw_cards)
         if isinstance(x, dict)
@@ -629,6 +660,10 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "mutate_source": False,
         "open_ankidroid_after_install": True,
         "card_quality_contract": CARD_CONTRACT,
+        "companion_requirements": {
+            "io_mode_token": io_mode_token,
+            "io_mode_contract": IO_MODE_CANONICAL,
+        },
         "search": {
             "min_score": args.min_score,
             "min_margin": args.min_margin,
@@ -732,6 +767,13 @@ def main() -> int:
     ap.add_argument("--min-margin", type=float, default=0.06)
     ap.add_argument("--max-candidates", type=int, default=80)
     ap.add_argument("--require-anking-marker", action="store_true")
+    ap.add_argument(
+        "--io-mode-token",
+        default=IO_MODE_CANONICAL,
+        choices=list(IO_MODE_TOKENS),
+        help="nome do modo IO gravado no manifesto; use o alias antigo enquanto o "
+             "Companion instalado no aparelho for anterior ao v9",
+    )
     ap.add_argument(
         "--legacy-unreviewed-v3",
         action="store_true",

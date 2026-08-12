@@ -1,13 +1,30 @@
 package com.sodrius.nebli.companion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /** Hard card-quality rules shared by runtime install gates and unit tests. */
 public final class CardRules {
+    // Vocabulário aceito para o modo de Image Occlusion.
+    //
+    // `hide_two_guess_two` é o nome canônico desde o v9. `hide_all_guess_all` é
+    // o nome anterior e continua aceito como alias: com o teto de duas máscaras
+    // vigente, esconder todas e cobrar todas É esconder duas e cobrar duas — os
+    // dois nomes descrevem exatamente o mesmo card.
+    //
+    // Manter o alias não é cosmético. Renomear um token do manifesto quebra
+    // toda instalação do Companion que já esteja no aparelho, e o lote inteiro
+    // morre no primeiro card IO com rollback. Um nome novo entra somando-se ao
+    // antigo; o antigo só sai depois que o APK do aparelho for reinstalado.
+    public static final Set<String> IO_MODES = Collections.unmodifiableSet(
+            new LinkedHashSet<>(Arrays.asList("hide_two_guess_two", "hide_all_guess_all")));
     // Keep both closing braces escaped. OpenJDK accepts bare `}}`, but
     // Android's regex implementation can reject it during class
     // initialization and wrap PatternSyntaxException in
@@ -73,8 +90,9 @@ public final class CardRules {
             double[][] boxes
     ) {
         List<String> failures = new ArrayList<>();
-        if (!"hide_two_guess_two".equals(mode)) failures.add("io_mode_must_be_hide_two_guess_two");
+        if (!IO_MODES.contains(mode)) failures.add("io_mode_unsupported:" + mode);
         if (maskCount < 1) failures.add("io_requires_mask");
+        // O teto vale para qualquer um dos nomes aceitos: é a regra, não o rótulo.
         if (maskCount > 2) failures.add("hide_two_guess_two_max_two_masks");
         if (maskCount > 1 && !coherentSet) failures.add("multi_mask_io_requires_coherent_set");
         if (!masksLabelsNotStructures) failures.add("io_must_mask_answer_label_not_visual_target");

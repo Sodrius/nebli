@@ -14,7 +14,11 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 - E2, E3 e RemNote desligados.
 - Retenção longitudinal: 25 novos/dia; revisões 9999/dia.
 - Desktop/APKG/Drive/Colab não pertencem ao fluxo normal.
-- O Nebli Companion final foi instalado e os testes reais de conexão, busca local e cópia segura no AnkiDroid passaram no tablet.
+- O Nebli Companion instalado no tablet foi compilado do commit `942e665` (#18)
+  e **não conhece o token `hide_two_guess_two`**. Enquanto não for reinstalado, o
+  manifesto sai com o alias `hide_all_guess_all`, controlado por
+  `config/pipeline.json → ankidroid.installed_companion`. O Companion deste repo
+  aceita os dois nomes.
 
 ## O que o Companion final suporta
 
@@ -23,7 +27,9 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 - usar deck externo local com filtro/ranking e a mesma política de cópia segura;
 - criar cards autorais diretamente no AnkiDroid;
 - importar mídia nova para Extra de autorais, exigindo função cognitiva e crédito;
-- criar Image Occlusion diretamente, com `hide_two_guess_two` e alvo de duas respostas coerentes por card;
+- criar Image Occlusion diretamente, com o contrato `hide_two_guess_two` (no
+  máximo duas máscaras, duas respostas coerentes), aceito também pelo nome
+  antigo `hide_all_guess_all`;
 - separar opcionais em `<Deck>::Optional`;
 - criar o deck com nome canônico `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>`;
 - resetar scheduling das cópias sem alterar a fonte;

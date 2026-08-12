@@ -13,6 +13,8 @@ on:
       - "flashcards/tests/test_release_e1_deck.py"
       - "flashcards/tests/test_validar_deck_card_a_card.py"
       - "flashcards/tests/test_qualidade_funcional_e_modos.py"
+      - "flashcards/tests/test_contrato_companion.py"
+      - "android-companion/app/src/main/java/com/sodrius/nebli/companion/CardRules.java"
       - "flashcards/scripts/test_pipeline_configuration.py"
       - "config/pipeline.json"
       - ".github/workflows/ankidroid-manifest.yml"
@@ -27,6 +29,8 @@ on:
       - "flashcards/tests/test_release_e1_deck.py"
       - "flashcards/tests/test_validar_deck_card_a_card.py"
       - "flashcards/tests/test_qualidade_funcional_e_modos.py"
+      - "flashcards/tests/test_contrato_companion.py"
+      - "android-companion/app/src/main/java/com/sodrius/nebli/companion/CardRules.java"
       - "flashcards/scripts/test_pipeline_configuration.py"
       - "config/pipeline.json"
       - ".github/workflows/ankidroid-manifest.yml"
@@ -47,4 +51,5 @@ jobs:
           flashcards/tests/test_release_e1_deck.py
           flashcards/tests/test_validar_deck_card_a_card.py
           flashcards/tests/test_qualidade_funcional_e_modos.py
+          flashcards/tests/test_contrato_companion.py
           flashcards/scripts/test_pipeline_configuration.py

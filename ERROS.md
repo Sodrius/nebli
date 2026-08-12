@@ -148,6 +148,26 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     formulação é a recuperação correta — se não houver o que escrever, o card
     está errado e deve ser reescrito.
 
+## Contrato entre manifesto e Companion instalado
+
+56. **Renomear um token do manifesto é mudança quebrante.** Quem lê o manifesto
+    é o Companion **já instalado no aparelho**, não o código do repo. Em
+    2026-08-12 o token de IO virou `hide_two_guess_two` nos dois lados do repo,
+    mas o APK do tablet era do #18: a instalação morreu no primeiro card IO,
+    `IO gate: [io_mode_must_be_hide_all_guess_all]`, com rollback do lote
+    inteiro depois de 23 cards criados.
+    Regra: nome novo **soma-se** ao antigo como alias no Companion; o antigo só
+    sai depois que o APK do aparelho for reinstalado e um recibo real confirmar.
+57. O vocabulário emitido no manifesto vive em
+    `config/pipeline.json → ankidroid.installed_companion.io_mode_token` e
+    descreve o **aparelho**, não o repo. Só trocar esse valor depois de
+    reinstalar o Companion e confirmar por recibo. `io_mode_contract` continua
+    registrando a regra canônica contra a qual o card foi validado.
+58. Gerador Python e gate Java precisam ser comparados por teste
+    (`flashcards/tests/test_contrato_companion.py`), que lê `IO_MODES` do
+    `CardRules.java`. Sem isso, os dois lados podem divergir e a falha só
+    aparece na hora da instalação, no aparelho, com o lote perdido.
+
 ## Resolução AnKing e identidade do deck
 
 48. `prefer_anking=true` sem efeito mecânico não é prioridade. A nota deve ser

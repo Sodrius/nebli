@@ -82,6 +82,13 @@
       "require_independent_e1_review": true,
       "block_unresolved_core_omissions": true,
       "block_unresolved_ambiguities": true
+    },
+    "installed_companion": {
+      "io_mode_token": "hide_all_guess_all",
+      "io_mode_contract": "hide_two_guess_two",
+      "built_from_commit": "942e665",
+      "verified_on": "2026-08-12",
+      "note": "Token de IO que o APK instalado no tablet aceita. O canônico é hide_two_guess_two; o APK do aparelho é anterior ao v9 e só conhece o alias antigo. Só trocar este valor DEPOIS de reinstalar o Companion no aparelho e confirmar por um recibo real."
     }
   },
   "require_offline_apkg": false,

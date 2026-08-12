@@ -4,12 +4,14 @@ Levantado durante a primeira corrida real do `e1-deck-v9` numa aula nova
 (`imuno-01-reconhecimento-inato`). O pedido era rodar o pipeline inteiro e, no
 caminho, achar o que faz o deck não sair como o Davi quer.
 
-Os quatro problemas abaixo têm a mesma raiz: **o gate media declarações, não
+Os quatro primeiros problemas abaixo têm a mesma raiz: **o gate media declarações, não
 conteúdo**. Todo o contrato de qualidade estava escrito em prosa e verificado
 por booleanos que a própria sessão preenchia. Enquanto a sessão for quem
 declara e quem é avaliado, o pipeline converge para “preencher o formulário”, e
 não para “fazer um card bom” — e o deck passa em 100% dos gates sendo,
-ainda assim, o deck errado.
+ainda assim, o deck errado. O quinto foi descoberto depois, na instalação real,
+e é de outra natureza: um contrato entre o repo e o aparelho que ninguém estava
+conferindo.
 
 ---
 
@@ -124,6 +126,50 @@ recusar objetivo sem cobertura, em vez de confiar na distribuição feita a olho
 
 ---
 
+## 5. Renomear um token do manifesto quebrava toda instalação existente
+
+**O que aconteceu.** Descoberto na instalação real, depois do resto deste
+documento. O commit #19 renomeou o modo de IO de `hide_all_guess_all` para
+`hide_two_guess_two` — nos dois lados do repo, coerentemente. Mas o APK do
+tablet era do #18. O manifesto de 52 cards morreu no card 24:
+
+```
+IllegalArgumentException: k22-io-vias IO gate: [io_mode_must_be_hide_all_guess_all]
+```
+
+O rollback funcionou como projetado e nada parcial ficou. Ainda assim, o lote
+inteiro se perdeu por causa de um nome.
+
+**Por que nada pegou isso.** O manifesto é lido pelo Companion **instalado no
+aparelho**, e o repo não tinha nenhuma forma de dizer qual contrato aquele
+aparelho fala. Além disso, nenhum teste comparava o vocabulário do gerador
+Python com o do gate Java: os dois podiam concordar entre si e discordar da
+realidade.
+
+**Correção, em três camadas.**
+
+1. *Companion aceita os dois nomes.* `CardRules.IO_MODES` passa a conter o nome
+   canônico e o alias antigo — com duas máscaras no teto, esconder todas e
+   cobrar todas **é** esconder duas e cobrar duas. O teto continua valendo para
+   os dois nomes: a regra é a regra, o rótulo é só o rótulo. Assim uma renomeação
+   futura nunca mais derruba um aparelho que ainda não foi atualizado.
+2. *O aparelho vira dado explícito.* `config/pipeline.json →
+   ankidroid.installed_companion` declara o token que o APK do tablet aceita, de
+   qual commit ele foi compilado e quando isso foi verificado. O finalizador lê
+   esse valor e passa `--io-mode-token` ao gerador; o manifesto sai com
+   `companion_requirements`, e cada card IO carrega `io_mode_contract` com a
+   regra canônica contra a qual foi validado. Só mexer nesse campo depois de
+   reinstalar o Companion e confirmar por recibo.
+3. *Teste de deriva.* `flashcards/tests/test_contrato_companion.py` lê `IO_MODES`
+   direto do `CardRules.java` e recusa qualquer token que o gerador possa emitir
+   e o Companion não aceite — inclusive o token declarado como instalado no
+   aparelho.
+
+**Verificação.** O gate do APK do tablet (commit 942e665) foi reimplementado e
+rodado contra o manifesto regerado: 52/52 aprovados, 2 mídias embutidas e
+referenciadas. Do lado Java, `CardRules` compilado e exercitado com as
+coordenadas reais dos dois cards IO desta aula, nos dois vocabulários.
+
 ## Regressões
 
 `flashcards/tests/test_qualidade_funcional_e_modos.py` cobre os três problemas
@@ -131,4 +177,4 @@ corrigidos: divergência entre número declarado e card real, âncora ausente da
 E1, cada uma das checagens do lint, e os três modos de procedência (incluindo a
 recusa de fonte local sem busca e de busca delegada com `anking_required`).
 
-Suíte completa: 76 testes, todos passando.
+Suíte completa: 80 testes Python, todos passando, mais os testes Java do Companion.

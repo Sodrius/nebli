@@ -60,8 +60,24 @@ motivo está registrado card a card e a distribuição aparece em
 `search.anking_search_modes` no manifesto. Ver
 `arquivos-trabalho/DIAGNOSTICO-PIPELINE-2026-08-12.md`.
 
+## Instalação
+
+Primeira tentativa (2026-08-12) bloqueada pelo Companion:
+`k22-io-vias IO gate: [io_mode_must_be_hide_all_guess_all]`. Rollback correto,
+nada parcial ficou. Causa: o APK do tablet foi compilado do commit `942e665`
+(#18) e é anterior à renomeação do token de IO feita no #19 — o deck estava
+certo, o vocabulário é que era novo demais para o aparelho.
+
+Manifesto regerado com `mode: hide_all_guess_all` (mesma regra: duas máscaras,
+duas respostas coerentes; `io_mode_contract` registra o nome canônico). O gate
+daquele APK foi reimplementado e rodado contra o manifesto novo: 52/52.
+
 ## Pendência
 
-Instalar o manifesto no Nebli Companion e conferir o recibo
+Instalar o manifesto regerado e conferir o recibo
 (`installed_card_count == 52`). Enquanto o recibo não existir, a aula não está
 fechada pela definição de pronto do canônico.
+
+Quando o Companion do tablet for reinstalado a partir deste repo, atualizar
+`config/pipeline.json → ankidroid.installed_companion.io_mode_token` para
+`hide_two_guess_two` e registrar a data — só depois de um recibo real.

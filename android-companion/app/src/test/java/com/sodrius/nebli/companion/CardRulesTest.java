@@ -102,6 +102,30 @@ public class CardRulesTest {
     }
 
     @Test
+    public void legacyIoModeNameStillInstalls() {
+        // Um Companion já instalado no aparelho fala o vocabulário da versão em
+        // que foi compilado. Renomear o token no manifesto matava o lote inteiro
+        // no primeiro card IO; o alias impede que isso volte a acontecer.
+        double[][] good = new double[][]{{0.1, 0.2, 0.2, 0.08}, {0.6, 0.4, 0.15, 0.06}};
+        List<String> ok = CardRules.validateIo(
+                "hide_all_guess_all", 2, true, true, true, true, true, false, true, good);
+        assertTrue(ok.toString(), ok.isEmpty());
+
+        List<String> unknown = CardRules.validateIo(
+                "hide_three_guess_three", 2, true, true, true, true, true, false, true, good);
+        assertTrue(unknown.contains("io_mode_unsupported:hide_three_guess_three"));
+    }
+
+    @Test
+    public void legacyIoModeStillRespectsTheTwoMaskCeiling() {
+        double[][] boxes = new double[][]{
+                {0.1, 0.1, 0.1, 0.1}, {0.3, 0.1, 0.1, 0.1}, {0.5, 0.1, 0.1, 0.1}};
+        List<String> failures = CardRules.validateIo(
+                "hide_all_guess_all", 3, true, true, true, true, true, false, true, boxes);
+        assertTrue(failures.contains("hide_two_guess_two_max_two_masks"));
+    }
+
+    @Test
     public void hideTwoRejectsMoreThanTwoMasks() {
         double[][] boxes = new double[][]{
                 {0.1, 0.1, 0.1, 0.1}, {0.3, 0.1, 0.1, 0.1}, {0.5, 0.1, 0.1, 0.1}};

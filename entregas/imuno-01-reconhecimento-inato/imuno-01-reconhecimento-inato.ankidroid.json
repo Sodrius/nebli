@@ -1,6 +1,6 @@
 {
   "schema": "nebli-ankidroid-deck-v3",
-  "generated_at": "2026-08-12T11:44:56.292325+00:00",
+  "generated_at": "2026-08-12T12:10:36.728334+00:00",
   "lesson_slug": "imuno-01-reconhecimento-inato",
   "deck_identity": {
     "uc": "UC03",
@@ -15,6 +15,10 @@
   "mutate_source": false,
   "open_ankidroid_after_install": true,
   "card_quality_contract": "nebli-card-quality-v1",
+  "companion_requirements": {
+    "io_mode_token": "hide_all_guess_all",
+    "io_mode_contract": "hide_two_guess_two"
+  },
   "search": {
     "min_score": 0.82,
     "min_margin": 0.06,
@@ -565,7 +569,7 @@
       "atomic": true,
       "relevant": true,
       "requires_visual": true,
-      "mode": "hide_two_guess_two",
+      "mode": "hide_all_guess_all",
       "masks": [
         {
           "x": 0.415,
@@ -597,8 +601,9 @@
       "answer_leak": false,
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
+      "io_mode_contract": "hide_two_guess_two",
       "media_key": "m_88d09cf30840ffd04749",
-      "card_sha256": "81a4832554d86353ed37b2cc74d50fe72770695d8a4ca5d3de6a0b2f8245e284"
+      "card_sha256": "403c2c20b013e13802556c4d6373cc0d71257bdac366256e91413bd0e1634dc3"
     },
     {
       "card_key": "k23-caspase8",
@@ -792,7 +797,7 @@
       "atomic": true,
       "relevant": true,
       "requires_visual": true,
-      "mode": "hide_two_guess_two",
+      "mode": "hide_all_guess_all",
       "masks": [
         {
           "x": 0.045,
@@ -824,8 +829,9 @@
       "answer_leak": false,
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
+      "io_mode_contract": "hide_two_guess_two",
       "media_key": "m_1f9f355cee81e135b3d2",
-      "card_sha256": "bee9360c360799d22d70ae3a96f52df30f9fd39eb317f0e87db9a4c9bdc79fff"
+      "card_sha256": "fc3ac39295c8f1ee716e33bd08de1ea62d1d05909840a856516b4c75d041d7f7"
     },
     {
       "card_key": "k29-lisossomo",
@@ -1294,5 +1300,5 @@
     "e1_pdf_sha256": "49b495593089e1a5757b3b24dcde91d576532d9cace68fc3d3e92461815eab41",
     "passed": true
   },
-  "manifest_sha256": "fa7b0814e904bd5d7da417ee36d14fab36b135772ce490ffca40ac86509e369e"
+  "manifest_sha256": "26999be3c27396059352cf8588c8a3b34336fd61b5ee6f3cbcf7a36ee0d88b04"
 }

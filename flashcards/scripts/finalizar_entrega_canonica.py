@@ -13,6 +13,24 @@ from pathlib import Path
 from derivar_validacao_cards import derive
 from validar_deck_card_a_card import validate_report
 
+def _installed_io_mode_token(start: Path) -> str | None:
+    """Lê de config/pipeline.json o vocabulário que o aparelho entende.
+
+    O manifesto é lido pelo Companion JÁ INSTALADO, não pelo código do repo. Se
+    o pipeline emitir um nome que aquele APK não conhece, o lote inteiro morre
+    no primeiro card IO. O nome do repo é o canônico; o nome emitido é o do
+    aparelho, e vive no config para ser trocado num lugar só.
+    """
+    for parent in [start, *start.parents]:
+        config = parent / "config" / "pipeline.json"
+        if config.is_file():
+            data = json.loads(config.read_text(encoding="utf-8"))
+            installed = (data.get("ankidroid") or {}).get("installed_companion") or {}
+            token = str(installed.get("io_mode_token") or "").strip()
+            return token or None
+    return None
+
+
 # Campos que se lê do próprio card e que, portanto, ninguém pode declarar
 # diferente do que o deck contém. Fatos de resolução (score, note type, sibling)
 # continuam fora daqui: eles pertencem ao aparelho, não ao plano.
@@ -92,9 +110,13 @@ def main() -> int:
     with tempfile.TemporaryDirectory(prefix="nebli-release-", dir=out_dir) as raw:
         temp = Path(raw)
         temp_manifest = temp / final_manifest.name
+        command = [sys.executable, str(generator), "--slug", args.slug,
+                   "--deck-data", str(deck_path), "--out", str(temp_manifest)]
+        io_mode_token = _installed_io_mode_token(Path(__file__).resolve().parent)
+        if io_mode_token:
+            command += ["--io-mode-token", io_mode_token]
         proc = subprocess.run(
-            [sys.executable, str(generator), "--slug", args.slug,
-             "--deck-data", str(deck_path), "--out", str(temp_manifest)],
+            command,
             capture_output=True,
             text=True,
         )
