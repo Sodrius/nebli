@@ -1,0 +1,272 @@
+{
+  "expected_card_count": 52,
+  "card_budget_hard_max": 54,
+  "validated_card_count": 52,
+  "passed_card_count": 52,
+  "failed_card_count": 0,
+  "all_cards_validated": true,
+  "within_card_budget": true,
+  "cards": [
+    {
+      "card_key": "k03-contexto",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k04-memoria",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k05-tolerancia",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k07-pamp",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k08-damp",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k10-rlr",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k10-alr",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k11-dectina",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k12-endolisossomo",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k12-extracelular",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k13-tlr4",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k13-tlr5",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k13-tlr2",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k14-tlr3",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k14-tlr9",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k14-tlr8",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k15-tlr10",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k16-rigi",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k16-mda5",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k17-nod2",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k19-dimero",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k20-myd88",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k21-trif",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k22-io-vias",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k23-caspase8",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k24-cruzamento",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k25-localizacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k26-maturacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k26-caspase1",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k26-il18",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k27-nod",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k28-proil1b",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k29-io-nlrp3",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k29-lisossomo",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k30-asc",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k32-replicacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k32-sistemico",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k34-apoptose",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k34-fas",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k34-prr",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k35-complemento",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k36-opsonizacao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k37-ziper",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k37-explosao",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k38-pleiotropica",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k38-receptor",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k40-araquidonico",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k42-cisteina",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k42-cxcl8",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k43-il6",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k44-febre",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k45-modificado",
+      "ok": true,
+      "failures": []
+    }
+  ],
+  "ok": true
+}

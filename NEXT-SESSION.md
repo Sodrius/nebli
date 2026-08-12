@@ -91,7 +91,21 @@ Autorais e IO são instalados diretamente pelo Companion. Mídia nova é self-co
 
 ## Validação final obrigatória
 
-Não amostrar. Validar cada card real.
+Não amostrar. Validar cada card real. **Não escrever `validacao-cards.json` à
+mão** — derivá-lo do deck:
+
+```bash
+python flashcards/scripts/derivar_validacao_cards.py \
+  arquivos-trabalho/<slug>/deck-data.json \
+  --out arquivos-trabalho/<slug>/validacao-cards.json
+```
+
+Se um card reprovar, corrigir o **card** e derivar de novo. Nunca editar o
+relatório.
+
+Sem coleção AnKing ao alcance da sessão, cada card declara
+`anking_search_mode: "unavailable"` com `anking_deferral_reason` concreto — nunca
+`anking_search_complete: true`.
 
 Obrigatório:
 

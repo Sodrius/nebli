@@ -45,7 +45,10 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
     hashes da E1 fonte/PDF, revisão semântica, teto e matriz conceito → âncora →
     qualidade → cards. Todo nuclear exige cobertura 2–3 e toda omissão ou
     ambiguidade nuclear precisa estar resolvida.
-16. Rodar o gate card a card no total real. Uma falha impede empacotamento.
+16. Derivar o relatório card-a-card do deck com
+    `flashcards/scripts/derivar_validacao_cards.py` e rodar o gate no total
+    real. Uma falha impede empacotamento e se corrige no card, nunca no
+    relatório. O lint de qualidade funcional roda dentro do gerador.
 17. Fechar a entrega pelo comando único:
 
     `python flashcards/scripts/finalizar_entrega_canonica.py --slug <slug> --deck-data arquivos-trabalho/<slug>/deck-data.json --validation-report arquivos-trabalho/<slug>/validacao-cards.json --out-dir entregas/<slug>`
@@ -97,7 +100,10 @@ Bloqueiam a conclusão:
 - card não atômico ou irrelevante;
 - teto excedido;
 - AnKing escolhido apenas por tema semelhante;
-- autoral direto sem busca AnKing completa e motivo real de rejeição;
+- autoral direto sem busca AnKing completa e motivo real de rejeição, ou sem
+  `anking_search_mode` honesto quando a coleção não estava ao alcance;
+- relatório card-a-card escrito à mão ou divergente do conteúdo dos cards;
+- card reprovado no lint de qualidade funcional;
 - card não-AnKing sem três buscas independentes, expansão de escopo, revisão de
   siblings e registro dos candidatos/rejeições;
 - AnKing previamente validado que caiu silenciosamente em fallback;

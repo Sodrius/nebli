@@ -24,7 +24,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from lint_qualidade_funcional import lint_cards
 from validar_release_e1_deck import SCHEMA as RELEASE_SCHEMA, validate_release
+
+SEARCH_MODE_SESSION = "session_local"
+SEARCH_MODE_DEFERRED = "device_deferred"
+SEARCH_MODE_UNAVAILABLE = "unavailable"
+SEARCH_MODES = {SEARCH_MODE_SESSION, SEARCH_MODE_DEFERRED, SEARCH_MODE_UNAVAILABLE}
 
 SCHEMA_V1 = "nebli-ankidroid-v1"
 SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
@@ -156,6 +162,25 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
 
 
 def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
+    mode = str(card.get("anking_search_mode") or SEARCH_MODE_SESSION).strip().lower()
+    if mode not in SEARCH_MODES:
+        raise ValueError(f"{where}: anking_search_mode inválido: {mode}")
+    if mode != SEARCH_MODE_SESSION:
+        # Sem coleção ao alcance não existe evidência de busca — existe o motivo
+        # concreto de não ter buscado aqui. Exigir os booleanos assim mesmo só
+        # ensinaria o pipeline a declará-los sem tê-los verificado.
+        reason = str(card.get("anking_deferral_reason") or "").strip()
+        if len(reason) < 40:
+            raise ValueError(f"{where}: {mode} exige anking_deferral_reason concreto")
+        if mode == SEARCH_MODE_DEFERRED:
+            queries = [str(q).strip() for q in (card.get("search_queries") or []) if str(q).strip()]
+            if len({q.casefold() for q in queries}) < 3:
+                raise ValueError(f"{where}: busca delegada exige 3 search_queries independentes")
+            if not [a for a in (card.get("expected_answers") or []) if str(a).strip()]:
+                raise ValueError(f"{where}: busca delegada exige expected_answers")
+            if card.get("anking_required") is True:
+                raise ValueError(f"{where}: busca delegada não pode usar anking_required=true")
+        return
     if card.get("anking_search_complete") is not True:
         raise ValueError(f"{where}: exige anking_search_complete=true")
     queries = card.get("anking_search_queries")
@@ -440,6 +465,9 @@ def _prepare_v3_card(
 
     source = str(card.get("source") or "").lower()
     card["source"] = source
+    card["anking_search_mode"] = str(
+        card.get("anking_search_mode") or SEARCH_MODE_SESSION
+    ).strip().lower()
     if source in {"anking", "external_deck"}:
         if not str(card.get("query") or "").strip():
             raise ValueError(f"{key}: card de deck local sem query")
@@ -478,9 +506,13 @@ def _prepare_v3_card(
                 values = [values]
             card[field] = [str(x).strip() for x in values if str(x).strip()]
         card["anking_required"] = bool(card.get("anking_required", False))
-        if strict and source == "anking" and not card["anking_required"]:
-            raise ValueError(f"{key}: AnKing curado exige anking_required=true")
-        if strict and source == "external_deck":
+        mode = str(card.get("anking_search_mode") or SEARCH_MODE_SESSION).strip().lower()
+        card["anking_search_mode"] = mode
+        if mode == SEARCH_MODE_UNAVAILABLE:
+            raise ValueError(f"{key}: fonte local exige busca na sessão ou delegada ao Companion")
+        if strict and mode == SEARCH_MODE_SESSION and source == "anking" and not card["anking_required"]:
+            raise ValueError(f"{key}: AnKing curado na sessão exige anking_required=true")
+        if strict and (source == "external_deck" or mode != SEARCH_MODE_SESSION):
             _validate_anking_search_evidence(card, key)
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
@@ -573,6 +605,18 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
     if len(set(keys)) != len(keys):
         raise ValueError("card_key duplicado no deck final")
 
+    if release_result is not None:
+        # Forma correta não é qualidade de recuperação: o lint funcional roda
+        # sobre o texto real dos cards antes de qualquer empacotamento.
+        problems = lint_cards(raw_cards)
+        if problems:
+            raise ValueError("lint de qualidade funcional reprovou: " + "; ".join(problems))
+
+    search_modes: dict[str, int] = {}
+    for card in cards:
+        mode = str(card.get("anking_search_mode") or SEARCH_MODE_SESSION)
+        search_modes[mode] = search_modes.get(mode, 0) + 1
+
     manifest: dict[str, Any] = {
         "schema": SCHEMA_V3,
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -593,6 +637,7 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
             "require_anking_marker": True,
             "source_filter_is_hint": True,
             "ambiguous_policy": "use_validated_fallback",
+            "anking_search_modes": search_modes,
         },
         "cards": cards,
         "media": list(media.values()),

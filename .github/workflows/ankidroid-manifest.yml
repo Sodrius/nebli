@@ -6,9 +6,13 @@ on:
     paths:
       - "flashcards/scripts/gerar_manifesto_ankidroid.py"
       - "flashcards/scripts/validar_deck_card_a_card.py"
+      - "flashcards/scripts/derivar_validacao_cards.py"
+      - "flashcards/scripts/lint_qualidade_funcional.py"
+      - "flashcards/scripts/finalizar_entrega_canonica.py"
       - "flashcards/tests/test_manifesto_*.py"
       - "flashcards/tests/test_release_e1_deck.py"
       - "flashcards/tests/test_validar_deck_card_a_card.py"
+      - "flashcards/tests/test_qualidade_funcional_e_modos.py"
       - "flashcards/scripts/test_pipeline_configuration.py"
       - "config/pipeline.json"
       - ".github/workflows/ankidroid-manifest.yml"
@@ -16,9 +20,13 @@ on:
     paths:
       - "flashcards/scripts/gerar_manifesto_ankidroid.py"
       - "flashcards/scripts/validar_deck_card_a_card.py"
+      - "flashcards/scripts/derivar_validacao_cards.py"
+      - "flashcards/scripts/lint_qualidade_funcional.py"
+      - "flashcards/scripts/finalizar_entrega_canonica.py"
       - "flashcards/tests/test_manifesto_*.py"
       - "flashcards/tests/test_release_e1_deck.py"
       - "flashcards/tests/test_validar_deck_card_a_card.py"
+      - "flashcards/tests/test_qualidade_funcional_e_modos.py"
       - "flashcards/scripts/test_pipeline_configuration.py"
       - "config/pipeline.json"
       - ".github/workflows/ankidroid-manifest.yml"
@@ -38,4 +46,5 @@ jobs:
           flashcards/tests/test_manifesto_*.py
           flashcards/tests/test_release_e1_deck.py
           flashcards/tests/test_validar_deck_card_a_card.py
+          flashcards/tests/test_qualidade_funcional_e_modos.py
           flashcards/scripts/test_pipeline_configuration.py

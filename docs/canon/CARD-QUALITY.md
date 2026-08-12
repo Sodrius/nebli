@@ -41,6 +41,12 @@ A ordem é:
 2. deck externo real e superior, quando disponível;
 3. autoral apenas para lacuna comprovada.
 
+Antes disso, o card declara a **procedência** da busca em `anking_search_mode`:
+`session_local` quando a coleção esteve ao alcance de quem planejou,
+`device_deferred` quando a resolução roda no Companion, `unavailable` quando não
+há coleção alguma ao alcance. Exigir prova de uma busca impossível só produz
+declaração falsa; os dois últimos modos pedem `anking_deferral_reason` concreto.
+
 Uma busca sem resultado não comprova lacuna. Usar query em inglês médico,
 sinônimos/aliases e siblings relevantes. Um candidato só entra se cobrir
 **exatamente a recuperação da aula**, não apenas um tema vizinho.
@@ -137,7 +143,18 @@ realmente distintas e ambas justificadas.
 
 ## 7. Gate card a card
 
-Antes da instalação, gerar um registro de validação para **cada card real**.
+Antes da instalação, gerar um registro de validação para **cada card real**. O
+registro é **derivado** do `deck-data.json` por
+`flashcards/scripts/derivar_validacao_cards.py` — nunca escrito à mão em
+paralelo ao deck. Números mensuráveis saem do card; a âncora é conferida contra
+a E1 fonte; o que é juízo é copiado do deck-data, e um flag ausente reprova.
+
+Junto com ele roda o lint de qualidade funcional
+(`flashcards/scripts/lint_qualidade_funcional.py`), que executa as regras de
+`ERROS.md` 36–47: cloze genérico, resposta vazada na frente, cloze com mais de
+uma resposta, enumeração, metade de par canônico e duplicata funcional. Os
+escapes (`generic_answer_reason`, `pair_is_unit_reason`,
+`duplicate_answer_reason`) exigem justificativa escrita.
 
 O gate exige:
 

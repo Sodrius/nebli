@@ -10,7 +10,10 @@
   "emergency_desktop_fallback_only_if_explicitly_requested": true,
   "ankidroid": {
     "manifest_schema": "nebli-ankidroid-deck-v3",
-    "legacy_manifest_schemas": ["nebli-ankidroid-lesson-v2", "nebli-ankidroid-v1"],
+    "legacy_manifest_schemas": [
+      "nebli-ankidroid-lesson-v2",
+      "nebli-ankidroid-v1"
+    ],
     "full_deck_direct_install": true,
     "resolution_mode": "local_decks_with_validated_fallbacks",
     "anking_direct_copy": true,
@@ -46,7 +49,13 @@
       "separate_note_context_from_expected_answer": true,
       "direct_authored_requires_completed_anking_search": true,
       "external_deck_may_use_source_filter": true,
-      "ambiguous_policy": "use_validated_fallback"
+      "ambiguous_policy": "use_validated_fallback",
+      "anking_search_modes": [
+        "session_local",
+        "device_deferred",
+        "unavailable"
+      ],
+      "require_explicit_search_mode_reason": true
     },
     "final_validation": {
       "mode": "every_card",
@@ -57,7 +66,11 @@
       "validator": "flashcards/scripts/validar_deck_card_a_card.py",
       "ci_reference_deck_size": 40,
       "require_rendered_media_roundtrip": true,
-      "require_real_ankidroid_e2e": true
+      "require_real_ankidroid_e2e": true,
+      "report_generator": "flashcards/scripts/derivar_validacao_cards.py",
+      "report_must_be_derived_from_deck_data": true,
+      "functional_quality_linter": "flashcards/scripts/lint_qualidade_funcional.py",
+      "block_on_functional_lint_failure": true
     },
     "release_gate": {
       "schema": "nebli-e1-deck-release-v1",
@@ -74,7 +87,11 @@
   "require_offline_apkg": false,
   "require_apkg_audit": false,
   "require_e1_anchor_for_every_card": true,
-  "source_priority": ["anking", "external_deck", "authored"],
+  "source_priority": [
+    "anking",
+    "external_deck",
+    "authored"
+  ],
   "non_anking_requires": {
     "completed_anking_search": true,
     "minimum_independent_queries": 3,
@@ -87,9 +104,18 @@
   "card_budget": {
     "enforce_contract_hard_max": true,
     "sanity_ranges": {
-      "small": [15, 25],
-      "medium": [25, 40],
-      "large": [35, 55]
+      "small": [
+        15,
+        25
+      ],
+      "medium": [
+        25,
+        40
+      ],
+      "large": [
+        35,
+        55
+      ]
     },
     "manual_review_above": 60
   },
@@ -134,7 +160,10 @@
   "optional_cards_separate": true,
   "user_delivery": {
     "finalizer": "flashcards/scripts/finalizar_entrega_canonica.py",
-    "visible_files": ["e1_pdf", "ankidroid_manifest"],
+    "visible_files": [
+      "e1_pdf",
+      "ankidroid_manifest"
+    ],
     "hide_internal_work_artifacts": true,
     "manifest_open_starts_install_automatically": true,
     "open_ankidroid_after_install": true,

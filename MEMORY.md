@@ -1,6 +1,6 @@
 # MEMORY.md — estado vivo do NEBLI
 
-Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
+Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
 
 ## Estado atual
 
@@ -46,11 +46,26 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Validação
 
+- O relatório card-a-card é **derivado** do `deck-data.json`
+  (`derivar_validacao_cards.py`), nunca escrito à mão. O finalizador recusa
+  relatório que divirja do conteúdo real dos cards.
+- O lint de qualidade funcional (`lint_qualidade_funcional.py`) roda dentro do
+  gerador no caminho estrito: cloze genérico, resposta vazada, meia-parcela de
+  par canônico, enumeração e duplicata funcional bloqueiam o lote.
+- A procedência da busca AnKing é declarada em `anking_search_mode`
+  (`session_local` / `device_deferred` / `unavailable`) e aparece no manifesto.
 - Gate final é **card a card, sem amostragem**.
 - `expected_card_count == validated_card_count == passed_card_count` e `failed_card_count == 0`.
 - CI mantém regressão realista de 40 cards, mas uma aula real valida o número real do deck.
 - Um único card inválido bloqueia o lote.
 - O recibo do Companion precisa confirmar `installed_card_count == expected_card_count`.
+
+## Última corrida real
+
+`imuno-01-reconhecimento-inato` (UC03 · P1 · Imunologia), 2026-08-12:
+E1 de 22 páginas, 52 cards (50 autorais + 2 IO), 36 conceitos, 28 nucleares
+todos cobertos, gate 52/52, manifesto v3 gerado. Diagnóstico das falhas de
+pipeline encontradas na corrida em `arquivos-trabalho/DIAGNOSTICO-PIPELINE-2026-08-12.md`.
 
 ## Próxima corrida real
 

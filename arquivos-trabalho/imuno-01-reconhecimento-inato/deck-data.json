@@ -1,0 +1,1681 @@
+{
+  "metadata": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Imunologia",
+    "nome_curto": "Reconhecimento inato"
+  },
+  "lesson_slug": "imuno-01-reconhecimento-inato",
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "../../typst-build/etapa1.typ",
+    "e1_source_sha256": "705d148bd623aed277812c921980393ccc7b2420516beb8050d8bc62cd8ec777",
+    "e1_pdf": "../../typst-build/main.pdf",
+    "e1_pdf_sha256": "49b495593089e1a5757b3b24dcde91d576532d9cace68fc3d3e92461815eab41",
+    "card_budget_hard_max": 54,
+    "e1_review": {
+      "slide_inventory_complete": true,
+      "objectives_covered": true,
+      "core_coverage_complete": true,
+      "mechanisms_explicit": true,
+      "visual_information_explained": true,
+      "core_study_without_slides": true,
+      "step1_depth_reviewed": true,
+      "card_content_anchored": true,
+      "independent_review_passed": true,
+      "notes_review_status": "covered",
+      "unresolved_core_omissions": [],
+      "unresolved_ambiguities": [],
+      "summary": "Revisão slide a slide dos 23 slides contra a transcrição integral da aula. Os quatro objetivos têm conceito e card. As duas tabelas de ligantes (slides 16 e 17) foram lidas da imagem e transcritas para a E1, incluindo localização e origem do ligante. As figuras de IFN, citotoxicidade, fagocitose, vias do TLR e NLRP3 estão explicadas em texto. A narração do professor foi usada como nota de aula e está coberta, inclusive o experimento do lagarto, a advertência sobre nomenclatura de citocinas e a separação NOD versus NLRP dentro da família NLR."
+    },
+    "concepts": [
+      {
+        "concept_id": "k03",
+        "importance": "nuclear",
+        "e1_anchor": "O que hoje parece ser o principal fator de diferenciação é o estado homeostático do tecido de onde o antígeno veio quando foi levado ao sistema imune",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k03-contexto"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k04",
+        "importance": "supporting",
+        "e1_anchor": "Tanto a resposta quanto a tolerância deixam",
+        "coverage_quality": 2,
+        "card_keys": [
+          "k04-memoria"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k05",
+        "importance": "nuclear",
+        "e1_anchor": "Havendo o sinal da imunidade inata, aqueles antígenos desencadeiam uma resposta imune adquirida; não havendo, o mesmo antígeno tende à tolerância",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k05-tolerancia"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k07",
+        "importance": "nuclear",
+        "e1_anchor": "Quando a assinatura molecular pertence a um micro-organismo, fala-se em",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k07-pamp"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k08",
+        "importance": "nuclear",
+        "e1_anchor": "É por incluir os DAMP que o sistema consegue disparar sem que exista qualquer infecção",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k08-damp"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k10",
+        "importance": "nuclear",
+        "e1_anchor": "eles estão distribuídos por toda a célula, na membrana externa, nas membranas internas, soltos no citoplasma e até dentro do núcleo",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k10-rlr",
+          "k10-alr"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k11",
+        "importance": "supporting",
+        "e1_anchor": "Entre os CLR, de membrana plasmática: Dectina-1 e Dectina-2 reconhecem β-glucano de fungos",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k11-dectina"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k12",
+        "importance": "nuclear",
+        "e1_anchor": "Por que os TLR que leem ácido nucleico são endossomais e não de superfície?",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k12-endolisossomo",
+          "k12-extracelular"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Abbas, Imunologia Celular e Molecular, cap. 4 — compartimentalização dos TLR de ácido nucleico",
+          "rationale": "Aprofunda o mesmo mecanismo do slide (localização dos TLR) explicando por que a segregação topológica existe e o que acontece quando ela falha."
+        }
+      },
+      {
+        "concept_id": "k13",
+        "importance": "nuclear",
+        "e1_anchor": "Na membrana plasmática: TLR1 reconhece lipoproteína triacilada de bactérias",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k13-tlr4",
+          "k13-tlr5",
+          "k13-tlr2"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k14",
+        "importance": "nuclear",
+        "e1_anchor": "No endossomo/lisossomo: TLR3 reconhece",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k14-tlr3",
+          "k14-tlr9",
+          "k14-tlr8"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k15",
+        "importance": "nuclear",
+        "e1_anchor": "TLR10 permanece com ligante desconhecido",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k15-tlr10"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k16",
+        "importance": "nuclear",
+        "e1_anchor": "RIG-I reconhece dsRNA curto e dsRNA com trifosfato na extremidade 5′",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k16-rigi",
+          "k16-mda5"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k17",
+        "importance": "nuclear",
+        "e1_anchor": "NOD1 reconhece iE-DAP e NOD2 reconhece",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k17-nod2"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Takeuchi O, Akira S. Cell 2010;140:805–820 — NOD2 e doença de Crohn",
+          "rationale": "Mantém o mesmo mecanismo (NOD2 lendo peptidoglicano no citosol) e apenas mostra a consequência de um sensor mal calibrado."
+        }
+      },
+      {
+        "concept_id": "k19",
+        "importance": "nuclear",
+        "e1_anchor": "O primeiro evento é mecânico, não químico.",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k19-dimero"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k20",
+        "importance": "nuclear",
+        "e1_anchor": "a rota MyD88 é a rota da inflamação",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k20-myd88"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k21",
+        "importance": "nuclear",
+        "e1_anchor": "a rota TRIF é a rota antiviral",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k21-trif"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k22",
+        "importance": "nuclear",
+        "e1_anchor": "que leva a NF-κB e AP-1 e às citocinas inflamatórias, ou TRIF, que leva aos IRF e aos interferons do tipo I",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k22-io-vias"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k23",
+        "importance": "nuclear",
+        "e1_anchor": "A ativação de TLR também sinaliza sobrevivência celular pela via da AKT, morte por ativação da caspase-8",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k23-caspase8"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k24",
+        "importance": "supporting",
+        "e1_anchor": "de modo que um ligante que aciona um TLR essencialmente MyD88 pode acabar produzindo interferon",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k24-cruzamento"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k25",
+        "importance": "supporting",
+        "e1_anchor": "Não adianta ativar a molécula MyD88 se ela não estiver perto das quinases IRAK4 e IRAK1 para poder ativá-las",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k25-localizacao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k26",
+        "importance": "nuclear",
+        "e1_anchor": "A função dessa plataforma é muito específica — promover a maturação de citocinas pró-inflamatórias",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k26-maturacao",
+          "k26-caspase1",
+          "k26-il18"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k27",
+        "importance": "nuclear",
+        "e1_anchor": "eles ficam soltos no citoplasma, reconhecem produtos bacterianos e ativam a via do NF-κB",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k27-nod"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k28",
+        "importance": "nuclear",
+        "e1_anchor": "um estímulo pró-inflamatório — TLR, TNF, a própria IL-1β — ativa NF-κB e faz a célula transcrever e sintetizar a pró-IL-1β",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k28-proil1b"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Schroder K, Tschopp J. Cell 2010;140(6):821–32 — priming e sinal 2 do NLRP3",
+          "rationale": "O slide já traz a figura do NLRP3; a E1 apenas explicita a exigência de dois sinais que a figura desenha."
+        }
+      },
+      {
+        "concept_id": "k29",
+        "importance": "nuclear",
+        "e1_anchor": "sinais de perigo que incluem ATP extracelular agindo no receptor P2X7 com efluxo de potássio pela panexina-1",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k29-io-nlrp3",
+          "k29-lisossomo"
+        ],
+        "step1": {
+          "decision": "incorporated",
+          "same_theme": true,
+          "source_ref": "Schroder K, Tschopp J. Cell 2010;140(6):821–32 — vias de ativação do NLRP3",
+          "rationale": "Mesmo mecanismo da figura do slide, com os três braços do segundo sinal nomeados."
+        }
+      },
+      {
+        "concept_id": "k30",
+        "importance": "supporting",
+        "e1_anchor": "o NLRP3 oligomeriza pelos seus domínios NACHT, recruta o adaptador ASC pelo domínio PYD, e o ASC recruta a pró-caspase-1 pelo domínio CARD",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k30-asc"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k32",
+        "importance": "nuclear",
+        "e1_anchor": "O que o interferon faz não é curar a célula que o produziu; é induzir um estado antiviral nas vizinhas ainda sadias",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k32-replicacao",
+          "k32-sistemico"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k34",
+        "importance": "nuclear",
+        "e1_anchor": "é um convencimento da célula-alvo a morrer, um suicídio induzido",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k34-apoptose",
+          "k34-fas",
+          "k34-prr"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k35",
+        "importance": "supporting",
+        "e1_anchor": "proteínas do plasma que funcionam como um sistema de PRR solúvel, e cujo nome é complemento",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k35-complemento"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k36",
+        "importance": "nuclear",
+        "e1_anchor": "o sistema também produz moléculas que grudam na partícula e para as quais existem receptores no fagócito",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k36-opsonizacao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k37",
+        "importance": "nuclear",
+        "e1_anchor": "os receptores da superfície do fagócito vão grudando na partícula, ponto a ponto, e a membrana vai se fechando em volta",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k37-ziper",
+          "k37-explosao"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k38",
+        "importance": "nuclear",
+        "e1_anchor": "As citocinas são proteínas ou glicoproteínas produzidas pelas células com múltiplas ações",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k38-pleiotropica",
+          "k38-receptor"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k40",
+        "importance": "supporting",
+        "e1_anchor": "O ácido araquidônico, pendurado no fosfolipídio de membrana, é fragmentado e gera prostaglandinas e leucotrienos",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k40-araquidonico"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k42",
+        "importance": "nuclear",
+        "e1_anchor": "as quatro famílias — CXC, CC, CX3C e XC — são definidas pelo arranjo dos primeiros resíduos de cisteína da molécula",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k42-cisteina",
+          "k42-cxcl8"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k43",
+        "importance": "supporting",
+        "e1_anchor": "a IL-6 tornou-se alvo terapêutico com anticorpos que bloqueiam sua ação em formas graves de COVID-19",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k43-il6"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k44",
+        "importance": "nuclear",
+        "e1_anchor": "infectando o animal e impedindo que ele se aqueça, ou seja, impedindo que desenvolva febre, ele morre com muito mais facilidade",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k44-febre"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k45",
+        "importance": "nuclear",
+        "e1_anchor": "Produtos previamente produzidos e armazenados, prontos para sair; produtos modificados após a ativação",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k45-modificado"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      }
+    ]
+  },
+  "cards": [
+    {
+      "card_key": "k03-contexto",
+      "concept_id": "k03",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Whether a presented antigen ends in elimination or in acceptance is decided by the {{c1::homeostatic}} state of the tissue it was collected from.",
+      "extra": "Não é a identidade química do antígeno que decide o desfecho, e sim o contexto do tecido de onde ele veio.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O fator que decide entre resposta e tolerância.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k04-memoria",
+      "concept_id": "k04",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Not only an eliminating response but also immunological tolerance leaves lasting {{c1::memory}}.",
+      "extra": "Tolerância é desfecho ativo do reconhecimento: o sistema se adapta para repetir o mesmo tratamento na próxima vez.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Que tolerância também deixa memória.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k05-tolerancia",
+      "concept_id": "k05",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "When an antigen reaches the lymph node with no concurrent innate signal, the adaptive outcome is biased toward {{c1::tolerance}}.",
+      "extra": "A inata autoriza a adquirida: sem sinal de perda de homeostasia, o antígeno apresentado tende a ser aceito.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O desfecho adquirido na ausência de sinal inato.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k07-pamp",
+      "concept_id": "k07",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "A molecular signature restricted to microorganisms and read by ready-made innate sensors is a {{c1::PAMP}}.",
+      "extra": "Pathogen associated molecular pattern — padrão molecular associado a patógeno.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O nome do padrão de origem microbiana.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k08-damp",
+      "concept_id": "k08",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Sterile inflammation after a burn, an infarction or a trauma is triggered by host molecules displaced by injury, the {{c1::DAMPs}}.",
+      "extra": "É por ler DAMP que a resposta inata dispara sem que exista infecção alguma.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O padrão que explica inflamação sem infecção.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k10-rlr",
+      "concept_id": "k10",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Sensors that detect replicating viral RNA free in the cytosol, such as RIG-I and MDA5, belong to the {{c1::RLR}} family.",
+      "extra": "RIG-I-like receptors. O endereço citoplasmático combina com o lugar onde o vírus replica.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A família de PRR exclusivamente citoplasmática de RNA.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k10-alr",
+      "concept_id": "k10",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The PRR family described with a nuclear localization, comprising AIM2 and IFI16, is the {{c1::ALR}} family.",
+      "extra": "AIM2-like receptors. É a única família da tabela cujo endereço é o núcleo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A família de PRR de localização nuclear.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k11-dectina",
+      "concept_id": "k11",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Fungal β-glucan is recognized at the plasma membrane by the C-type lectin receptor {{c1::Dectin-1}}.",
+      "extra": "Dectina-1 e Dectina-2 leem β-glucano de parede fúngica; MINCLE lê SAP130.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O CLR que reconhece β-glucano.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k12-endolisossomo",
+      "concept_id": "k12",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Every TLR that senses nucleic acid is placed in the {{c1::endolysosome}} instead of on the cell surface.",
+      "extra": "Regra topológica: superfície lê lipídio e proteína; compartimento interno lê ácido nucleico.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O compartimento de todos os TLR de ácido nucleico.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k12-extracelular",
+      "concept_id": "k12",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Keeping nucleic-acid sensors inside an acidified compartment prevents reaction to host DNA, which circulates freely in the {{c1::extracellular}} space.",
+      "extra": "A separação entre próprio e não-próprio, aqui, é topológica e não química — daí o elo com autoimunidade.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Por que o sensor de ácido nucleico não fica na superfície.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k13-tlr4",
+      "concept_id": "k13",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Bacterial endotoxin, LPS, is sensed at the plasma membrane by {{c1::TLR4}}.",
+      "extra": "Lipopolissacarídeo da parede de Gram-negativas. A origem listada do ligante inclui vírus e próprio.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR que reconhece LPS.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k13-tlr5",
+      "concept_id": "k13",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Bacterial flagellin is the typical plasma-membrane ligand of {{c1::TLR5}}.",
+      "extra": "Flagelina é proteína de superfície bacteriana — coerente com um sensor voltado para fora.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR que reconhece flagelina.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k13-tlr2",
+      "concept_id": "k13",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Bacterial lipoprotein, whose listed origin spans viruses, parasites and even self, is read by {{c1::TLR2}}.",
+      "extra": "A coluna de origem mostra que a tabela não é uma lista de ligantes exclusivamente microbianos.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR que reconhece lipoproteína.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k14-tlr3",
+      "concept_id": "k14",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Double-stranded RNA formed during viral replication is sensed inside the endolysosome by {{c1::TLR3}}.",
+      "extra": "dsRNA é intermediário de replicação de muitos vírus.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR endolisossomal de dsRNA.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k14-tlr9",
+      "concept_id": "k14",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Unmethylated CpG-DNA is the typical endolysosomal ligand of {{c1::TLR9}}.",
+      "extra": "O DNA bacteriano e viral tem motivos CpG não metilados; o DNA próprio é metilado.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR endolisossomal de CpG-DNA.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k14-tlr8",
+      "concept_id": "k14",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "In humans the endolysosomal sensor of single-stranded RNA is {{c1::TLR8}}, whereas the mouse uses TLR7.",
+      "extra": "Peculiaridade de espécie explicitada na aula: o humano não tem TLR7 funcional e o camundongo não tem TLR8.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O sensor humano de ssRNA.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k15-tlr10",
+      "concept_id": "k15",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Among the TLRs of the ligand table, the one still listed with an unknown ligand is {{c1::TLR10}}.",
+      "extra": "A tabela traz o ligante típico de cada receptor, não uma lista exclusiva nem completa — onze receptores jamais cobririam todos os padrões existentes.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR cujo ligante permanece desconhecido.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k16-rigi",
+      "concept_id": "k16",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Short double-stranded RNA bearing a 5'-triphosphate is the cytosolic ligand of {{c1::RIG-I}}.",
+      "extra": "O trifosfato na extremidade 5′ é marca química que o RNA próprio maduro não tem.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O RLR que lê dsRNA curto com 5′-trifosfato.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k16-mda5",
+      "concept_id": "k16",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Long double-stranded RNA, characteristic of picornaviruses, is sensed in the cytosol by {{c1::MDA5}}.",
+      "extra": "O comprimento do dsRNA separa MDA5 de RIG-I.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O RLR que lê dsRNA longo.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k17-nod2",
+      "concept_id": "k17",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Muramyl dipeptide, a fragment of bacterial peptidoglycan, is the cytosolic ligand of {{c1::NOD2}}.",
+      "extra": "Variantes de perda de função no NOD2 estão entre os fatores de risco genético mais estabelecidos para doença de Crohn.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O NLR citoplasmático que lê MDP.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k19-dimero",
+      "concept_id": "k19",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "When a TLR already sits in the membrane as a preformed dimer, the ligand starts signalling by changing its {{c1::conformation}}.",
+      "extra": "A outra possibilidade é o ligante forçar a dimerização de receptores isolados. Nos dois casos muda a geometria das caudas citoplasmáticas.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Como um dímero pré-formado passa a sinalizar.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k20-myd88",
+      "concept_id": "k20",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The adaptor recruited by most TLRs, and knocked out in mice to abolish that signalling route, is {{c1::MyD88}}.",
+      "extra": "Myeloid differentiation primary response protein 88 — a rota da inflamação.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O adaptador da rota inflamatória do TLR.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k21-trif",
+      "concept_id": "k21",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The adaptor that couples TLR signalling to the IRFs, and therefore to type I interferon, is {{c1::TRIF}}.",
+      "extra": "TIR domain-containing adaptor protein inducing IFN-β — a rota antiviral.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O adaptador da rota antiviral do TLR.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k22-io-vias",
+      "concept_id": "k22",
+      "source": "io",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "requires_visual": true,
+      "mode": "hide_two_guess_two",
+      "image_path": "../../figuras/imuno-01-reconhecimento-inato/io-tlr-vias.png",
+      "masks": [
+        {
+          "x": 0.415,
+          "y": 0.532,
+          "w": 0.062,
+          "h": 0.052
+        },
+        {
+          "x": 0.462,
+          "y": 0.86,
+          "w": 0.048,
+          "h": 0.052
+        }
+      ],
+      "answers": [
+        "NF-kB",
+        "IRFs"
+      ],
+      "coherent_set": true,
+      "pair_rationale": "As duas máscaras cobrem os fatores de transcrição terminais das duas rotas: o da rota que termina em citocinas inflamatórias e o da rota que termina em interferon do tipo I. Cobrar um sem o outro perde justamente a distinção entre as rotas.",
+      "cognitive_purpose": "Localizar no mapa qual fator de transcrição pertence ao ramo inflamatório e qual pertence ao ramo do interferon, tarefa espacial que um card verbal não reproduz.",
+      "source_credit": "Slide 18 da aula (Barbuto, Reconhecimento inato no sistema imune, UC-3), recorte sem a legenda.",
+      "masks_labels_not_structures": true,
+      "question_preview_validated": true,
+      "answer_preview_validated": true,
+      "didactic_value_reviewed": true,
+      "visual_ok": true,
+      "real_source": true,
+      "answer_leak": false,
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k23-caspase8",
+      "concept_id": "k23",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Besides transcription, TLR signalling can also drive cell death by activating {{c1::caspase-8}}.",
+      "extra": "A mesma ativação sinaliza sobrevivência pela AKT e morte pela caspase-8 — o saldo depende do contexto.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A caspase pela qual o TLR sinaliza apoptose.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k24-cruzamento",
+      "concept_id": "k24",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Because the two adaptor routes branch and cross, a ligand acting on an essentially MyD88-coupled TLR can still end in the production of {{c1::interferon}}.",
+      "extra": "Entre adaptador e fator de transcrição há muitas moléculas intermediárias, com ramificações.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A consequência prática do cruzamento entre as vias.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k25-localizacao",
+      "concept_id": "k25",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "MyD88 cannot pass the signal on unless it has been actively brought close to the kinases {{c1::IRAK4}} and IRAK1.",
+      "extra": "O citoplasma não é um saco homogêneo. Como a pré-ativação muda onde as moléculas estão, o mesmo estímulo pode render resultados diferentes em duas células.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A quinase de que o MyD88 precisa estar perto.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k26-maturacao",
+      "concept_id": "k26",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Unlike the transcriptional routes, the inflammasome acts on cytokines the cell already made, promoting their {{c1::maturation}}.",
+      "extra": "A pró-citocina existe mas não é funcional; a plataforma corta e gera a forma ativa.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A função específica da plataforma do inflamassoma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k26-caspase1",
+      "concept_id": "k26",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The protease activated inside the assembled platform, which cleaves pro-IL-1β into its mature form, is {{c1::caspase-1}}.",
+      "extra": "A ativação se dá por proximidade, quando a plataforma junta várias pró-caspases.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A enzima efetora do inflamassoma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k26-il18",
+      "concept_id": "k26",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The inflammasome matures IL-1β and one further pro-inflammatory cytokine, {{c1::IL-18}}.",
+      "extra": "As duas citocinas maduras dependem da mesma clivagem por caspase-1.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A segunda citocina madurada pelo inflamassoma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k27-nod",
+      "concept_id": "k27",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Despite belonging to the NLR family, the NODs assemble no platform at all: they act on gene {{c1::transcription}} through NF-κB.",
+      "extra": "Dentro dos sensores citoplasmáticos há dois destinos: transcrição pelos NOD e clivagem pelos NLRP, IPAF e AIM2.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O destino de sinalização dos NOD, oposto ao do inflamassoma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k28-proil1b",
+      "concept_id": "k28",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The priming signal of NLRP3 activation is what makes the cell synthesize {{c1::pro-IL-1β}}.",
+      "extra": "Sem priming não existe substrato para cortar — a célula que recebeu só o sinal de perigo não libera IL-1β.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O produto que o priming fabrica.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k29-io-nlrp3",
+      "concept_id": "k29",
+      "source": "io",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "requires_visual": true,
+      "mode": "hide_two_guess_two",
+      "image_path": "../../figuras/imuno-01-reconhecimento-inato/io-nlrp3-membrana.png",
+      "masks": [
+        {
+          "x": 0.045,
+          "y": 0.268,
+          "w": 0.085,
+          "h": 0.062
+        },
+        {
+          "x": 0.245,
+          "y": 0.198,
+          "w": 0.15,
+          "h": 0.062
+        }
+      ],
+      "answers": [
+        "P2X7",
+        "Pannexin-1"
+      ],
+      "coherent_set": true,
+      "pair_rationale": "As duas máscaras cobrem as duas proteínas de membrana do mesmo braço do segundo sinal: o receptor que o ATP extracelular aciona e o canal por onde o potássio sai. Elas formam uma unidade funcional e são reconhecidas pela posição na membrana.",
+      "cognitive_purpose": "Reconhecer, pela posição na membrana e pelo ligante desenhado, quais são as duas proteínas que traduzem ATP extracelular em efluxo de potássio.",
+      "source_credit": "Schroder K, Tschopp J. The inflammasomes. Cell 2010;140(6):821–32, reproduzida no slide 21 da aula.",
+      "masks_labels_not_structures": true,
+      "question_preview_validated": true,
+      "answer_preview_validated": true,
+      "didactic_value_reviewed": true,
+      "visual_ok": true,
+      "real_source": true,
+      "answer_leak": false,
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k29-lisossomo",
+      "concept_id": "k29",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Crystalline and particulate ligands activate NLRP3 after being phagocytosed and causing lysosomal {{c1::rupture}}.",
+      "extra": "É o mecanismo por trás da gota: cristais de urato fagocitados rompem o lisossomo e acionam o NLRP3.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "Como um cristal aciona o NLRP3.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k30-asc",
+      "concept_id": "k30",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "NLRP3 does not bind pro-caspase-1 directly; it reaches the protease through the adaptor {{c1::ASC}}.",
+      "extra": "NLRP3 oligomeriza pelo NACHT, recruta ASC pelo PYD, e o ASC recruta a pró-caspase-1 pelo CARD.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O adaptador entre o sensor e a protease.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k32-replicacao",
+      "concept_id": "k32",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Type I interferon protects an uninfected neighbour cell by blocking, inside it, viral {{c1::replication}}.",
+      "extra": "A célula que produziu o interferon será destruída assim mesmo: o que ela compra é a sobrevivência das vizinhas.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O que o interferon bloqueia dentro da célula vizinha.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k32-sistemico",
+      "concept_id": "k32",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Type I interferon does not act only where it was made; among its systemic effects, the most obvious one is {{c1::fever}}.",
+      "extra": "Boa parte dos sintomas de gripe vem do interferon, e não diretamente do vírus.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O efeito sistêmico mais visível do interferon.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k34-apoptose",
+      "concept_id": "k34",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Cell-mediated cytotoxicity does not destroy the target from the outside; it induces the target cell to undergo {{c1::apoptosis}}.",
+      "extra": "É um suicídio induzido — um convencimento da célula-alvo a morrer, não um tiro.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O tipo de morte que a citotoxicidade celular induz.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k34-fas",
+      "concept_id": "k34",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "One cytotoxic route needs no granules at all: membrane molecules that were already there are simply brought close, as in the {{c1::FasL-Fas}} pair.",
+      "extra": "Quem faz a aproximação é o próprio reconhecimento específico entre efetora e alvo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O par de membrana que mata sem desgranulação.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k34-prr",
+      "concept_id": "k34",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "A cytotoxic effector can identify its target through clonal receptors or, with no prior adaptation whatsoever, through {{c1::PRRs}}.",
+      "extra": "É o elo entre esta aula e a citotoxicidade: parte do reconhecimento do alvo é inata.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O receptor inato usado no reconhecimento do alvo.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k35-complemento",
+      "concept_id": "k35",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The plasma proteins that behave as a soluble pattern-recognition system and generate chemotactic signals are known collectively as {{c1::complement}}.",
+      "extra": "Nem todo PRR é de membrana: há um sistema solúvel de reconhecimento de padrões no plasma.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O sistema de PRR solúvel do plasma.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k36-opsonizacao",
+      "concept_id": "k36",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Coating a particle with host molecules for which the phagocyte carries receptors is called {{c1::opsonization}}.",
+      "extra": "Encostar não basta: a partícula pode não interagir bem com a membrana do fagócito.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O nome do revestimento que viabiliza a adesão.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k37-ziper",
+      "concept_id": "k37",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The phagocyte membrane closes around the particle through successive receptor-ligand interactions, much like a {{c1::zipper}}.",
+      "extra": "Motilidade da membrana e fechamento em zíper são as duas etapas explicitamente moduláveis.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A metáfora mecânica do englobamento.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k37-explosao",
+      "concept_id": "k37",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "A phagocytosing cell consumes far more oxygen than a resting one because free-radical generation drives the respiratory {{c1::burst}}.",
+      "extra": "A destruição do conteúdo do fagossoma soma enzimas lisossômicas e radicais livres de oxigênio.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O fenômeno que explica o consumo extra de oxigênio.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k38-pleiotropica",
+      "concept_id": "k38",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "One cytokine produces many different effects depending on the target cell, which is why cytokines are described as {{c1::pleiotropic}}.",
+      "extra": "É a pleiotropia que dá plasticidade à resposta — e que torna fácil demonstrar quase qualquer efeito no experimento certo.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A propriedade que define o comportamento das citocinas.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k38-receptor",
+      "concept_id": "k38",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "A cytokine flooding a tissue changes only the cells that express its matching {{c1::receptor}}.",
+      "extra": "Não adianta ter a citocina: quem escuta a mensagem é definido pela expressão do receptor.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O que determina quais células respondem a uma citocina.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
+      "generic_answer_reason": "A palavra é comum, mas aqui é a resposta exata e única: a frase pergunta o que seleciona as células respondedoras, e nenhum sinônimo — ligante, sinal, via — cabe na lacuna sem tornar a afirmação falsa."
+    },
+    {
+      "card_key": "k40-araquidonico",
+      "concept_id": "k40",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Prostaglandins and leukotrienes are produced when the activated cell cleaves membrane {{c1::arachidonic}} acid.",
+      "extra": "O ácido araquidônico está pendurado no fosfolipídio de membrana; dele saem também o PAF.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O lipídio de membrana que origina prostaglandinas e leucotrienos.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k42-cisteina",
+      "concept_id": "k42",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Chemokines, unlike the other cytokines, are classified by structure — the arrangement of their first {{c1::cysteine}} residues.",
+      "extra": "Daí as quatro famílias: CXC, CC, CX3C e XC.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O critério estrutural que classifica as quimiocinas.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k42-cxcl8",
+      "concept_id": "k42",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The chemokine also called IL-8, the clearest case of one molecule named twice, is {{c1::CXCL8}}.",
+      "extra": "Foi batizada uma vez pela função entre leucócitos e outra pela estrutura.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A quimiocina com nomenclatura dupla.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k43-il6",
+      "concept_id": "k43",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "The interleukin neutralized by therapeutic antibodies in severe COVID-19 is {{c1::IL-6}}.",
+      "extra": "Exemplo de citocina que virou alvo clínico direto.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A interleucina bloqueada na COVID-19 grave.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k44-febre",
+      "concept_id": "k44",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "In the classic lizard experiment, preventing an infected animal from warming itself raised its {{c1::mortality}}.",
+      "extra": "O lagarto regula a temperatura expondo-se ao sol; impedir isso é impedir a febre. A febre é mecanismo de defesa.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A evidência experimental de que a febre é defesa.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k45-modificado",
+      "concept_id": "k45",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Pro-IL-1β cleaved into IL-1β is the example of an innate product that is only {{c1::modified}} after cell activation.",
+      "extra": "Os outros três tipos são produtos já estocados, produtos sintetizados só após ativação e produtos de degradação celular.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A categoria de produto que a clivagem da pró-IL-1β exemplifica.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    }
+  ]
+}

@@ -15,6 +15,25 @@ from typing import Any
 DEFAULT_MIN_SCORE = 0.82
 DEFAULT_MIN_MARGIN = 0.06
 
+# Modos de procedência da busca AnKing.
+#
+# `session_local`  — a coleção estava ao alcance de quem planejou e a busca
+#                    realmente aconteceu; vale o contrato de evidência antigo.
+# `device_deferred`— a resolução acontece no Companion, no aparelho onde a
+#                    coleção existe; no plano só dá para validar a consulta, a
+#                    resposta esperada e o fallback que será instalado se a
+#                    busca falhar.
+# `unavailable`    — nenhuma coleção AnKing ao alcance; o card é autoral/IO e
+#                    precisa se sustentar sozinho.
+#
+# A distinção existe porque exigir prova de uma busca impossível só produz
+# declaração falsa: o gate deixava de medir qualidade e passava a medir
+# obediência ao formulário.
+SEARCH_MODE_SESSION = "session_local"
+SEARCH_MODE_DEFERRED = "device_deferred"
+SEARCH_MODE_UNAVAILABLE = "unavailable"
+SEARCH_MODES = {SEARCH_MODE_SESSION, SEARCH_MODE_DEFERRED, SEARCH_MODE_UNAVAILABLE}
+
 
 def _bool(card: dict[str, Any], key: str, *, default: bool | None = None) -> bool:
     if key not in card:
@@ -73,7 +92,19 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
             failures.append("anking_visual_preference_unresolved")
 
 
+def _search_mode(card: dict[str, Any]) -> str:
+    return str(card.get("anking_search_mode") or SEARCH_MODE_SESSION).strip().lower()
+
+
 def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> None:
+    mode = _search_mode(card)
+    if mode not in SEARCH_MODES:
+        failures.append("anking_search_mode_invalid")
+        return
+    if mode != SEARCH_MODE_SESSION:
+        if not _bool(card, "anking_deferral_reason_ok"):
+            failures.append("anking_deferral_reason_ok")
+        return
     for key in (
         "anking_search_queries_ok",
         "anking_scope_expanded",
@@ -132,36 +163,54 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
         failures.append("invalid_tier")
 
     if source in {"anking", "external_deck"}:
-        if not _bool(card, "source_safe"):
-            failures.append("source_safe")
-        if not _local_rank_ok(card, min_score, min_margin):
-            failures.append("local_deck_rank")
-        for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok", "fallback_validated"):
-            if not _bool(card, key):
-                failures.append(key)
-        for key in ("search_queries_ok", "expected_answers_ok"):
-            if not _bool(card, key):
-                failures.append(key)
-        if source == "anking" and not _bool(card, "anking_marker_ok"):
-            failures.append("anking_marker_ok")
-        if source == "anking" and not _bool(card, "anking_required"):
-            failures.append("anking_required")
-        if source == "anking" and _bool(card, "anking_required") and not _bool(card, "resolved_without_fallback"):
-            failures.append("required_anking_unresolved")
-        if source == "external_deck":
+        mode = _search_mode(card)
+        if mode == SEARCH_MODE_UNAVAILABLE:
+            # uma fonte local só faz sentido se alguém — sessão ou Companion —
+            # de fato for procurar nela
+            failures.append("local_source_without_search")
+        elif mode == SEARCH_MODE_DEFERRED:
+            # no plano só existe o que o plano pode provar: a consulta que o
+            # Companion vai rodar, a resposta esperada e o card que entra se a
+            # busca falhar. Score, note type e siblings são propriedades do
+            # resultado, e por isso ficam para o recibo pós-instalação.
+            for key in ("fallback_validated", "search_queries_ok", "expected_answers_ok"):
+                if not _bool(card, key):
+                    failures.append(key)
+            if _bool(card, "anking_required"):
+                failures.append("deferred_search_cannot_be_anking_required")
             _validate_anking_search_audit(card, failures)
-        if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
-            failures.append("source_filter_ok")
+        else:
+            if not _bool(card, "source_safe"):
+                failures.append("source_safe")
+            if not _local_rank_ok(card, min_score, min_margin):
+                failures.append("local_deck_rank")
+            for key in ("same_note_type", "same_fields", "media_ok", "sibling_policy_ok", "fallback_validated"):
+                if not _bool(card, key):
+                    failures.append(key)
+            for key in ("search_queries_ok", "expected_answers_ok"):
+                if not _bool(card, key):
+                    failures.append(key)
+            if source == "anking" and not _bool(card, "anking_marker_ok"):
+                failures.append("anking_marker_ok")
+            if source == "anking" and not _bool(card, "anking_required"):
+                failures.append("anking_required")
+            if source == "anking" and _bool(card, "anking_required") and not _bool(card, "resolved_without_fallback"):
+                failures.append("required_anking_unresolved")
+            if source == "external_deck":
+                _validate_anking_search_audit(card, failures)
+            if source == "external_deck" and card.get("source_filter_required") is True and not _bool(card, "source_filter_ok"):
+                failures.append("source_filter_ok")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 
     elif source == "authored":
         _validate_authored(card, failures)
         _validate_anking_search_audit(card, failures)
-        if not _bool(card, "anking_search_complete"):
-            failures.append("anking_search_incomplete")
-        if not str(card.get("anking_rejection_reason", "")).strip():
-            failures.append("anking_rejection_reason_missing")
+        if _search_mode(card) == SEARCH_MODE_SESSION:
+            if not _bool(card, "anking_search_complete"):
+                failures.append("anking_search_incomplete")
+            if not str(card.get("anking_rejection_reason", "")).strip():
+                failures.append("anking_rejection_reason_missing")
         if _bool(card, "requires_visual", default=False) and not _bool(card, "visual_ok"):
             failures.append("visual_ok")
 

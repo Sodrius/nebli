@@ -1,4 +1,4 @@
-#import "../typst-template/nebli_v2_apostila.typ": *
+#import "../../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
   [Sobre a física que gera a imagem em cada método, é correto afirmar:],

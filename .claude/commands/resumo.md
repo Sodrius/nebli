@@ -136,8 +136,11 @@ Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
 - sem enumerações, mini-resumos ou múltiplas decisões;
 - pista inequívoca sem entregar a resposta;
 - `atomic=true`, `relevant=true`.
-- autoral direto registra `anking_search_complete=true` e
-  `anking_rejection_reason` concreto;
+- autoral direto registra a procedência real da busca em `anking_search_mode`:
+  `session_local` com `anking_search_complete=true` e `anking_rejection_reason`
+  quando a coleção esteve ao alcance, ou `unavailable` com
+  `anking_deferral_reason` concreto quando não esteve. Não declarar busca que
+  não aconteceu;
 - registra ao menos três `anking_search_queries`, expansão de escopo, revisão de
   siblings, número de candidatos revisados e rejeição individual dos candidatos;
 - registra `retrieval_target` e `authored_quality` com revisão de recuperação
@@ -204,13 +207,24 @@ Conte cards reais e confirme que o total está ≤ `card_budget.hard_max`.
 
 ## 9. Validação card a card antes de empacotar
 
-Gere `arquivos-trabalho/<slug>/validacao-cards.json` com **um registro por card
-real** e rode:
+**Derive** `arquivos-trabalho/<slug>/validacao-cards.json` do deck — não escreva
+o relatório à mão, senão o gate passa a medir o relatório em vez do deck:
 
 ```bash
+python flashcards/scripts/derivar_validacao_cards.py \
+  arquivos-trabalho/<slug>/deck-data.json \
+  --out arquivos-trabalho/<slug>/validacao-cards.json
+
 python flashcards/scripts/validar_deck_card_a_card.py \
   arquivos-trabalho/<slug>/validacao-cards.json \
   --out arquivos-trabalho/<slug>/validacao-cards.result.json
+```
+
+Rode também o lint de qualidade funcional (o gerador já o executa, mas antes vale
+ver a lista inteira de problemas de uma vez):
+
+```bash
+python flashcards/scripts/lint_qualidade_funcional.py arquivos-trabalho/<slug>/deck-data.json
 ```
 
 Obrigatório:

@@ -1,4 +1,4 @@
-#import "../typst-template/nebli_v2_apostila.typ": *
+#import "../../typst-template/nebli_v2_apostila.typ": *
 
 #discursiva("Q1",
   [Explique, em termos físicos, por que o ultrassom é barrado pelo gás e pelo osso, e por que aumentar a potência do aparelho não resolveria essa cegueira.],

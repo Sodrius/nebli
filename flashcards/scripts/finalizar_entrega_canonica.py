@@ -10,7 +10,39 @@ import sys
 import tempfile
 from pathlib import Path
 
+from derivar_validacao_cards import derive
 from validar_deck_card_a_card import validate_report
+
+# Campos que se lê do próprio card e que, portanto, ninguém pode declarar
+# diferente do que o deck contém. Fatos de resolução (score, note type, sibling)
+# continuam fora daqui: eles pertencem ao aparelho, não ao plano.
+DERIVABLE_FIELDS = (
+    "source", "concept_id", "tier", "e1_anchor_ok",
+    "cloze_count", "cloze_index", "cloze_words",
+    "extra_words", "front_characters",
+    "mask_count", "mask_geometry_ok",
+)
+
+
+def _crosscheck(report: dict, deck: dict, deck_path: Path) -> None:
+    """Impede que o relatório afirme sobre o card algo que o card desmente."""
+    derived = {row["card_key"]: row for row in derive(deck, deck_path)["cards"]}
+    divergences: list[str] = []
+    for row in report.get("cards", []):
+        if not isinstance(row, dict):
+            continue
+        key = str(row.get("card_key") or "")
+        truth = derived.get(key)
+        if truth is None:
+            continue
+        for field in DERIVABLE_FIELDS:
+            if field in truth and field in row and row[field] != truth[field]:
+                divergences.append(f"{key}.{field}: relatório={row[field]!r} card={truth[field]!r}")
+    if divergences:
+        raise SystemExit(
+            "ERRO: relatório card-a-card diverge do conteúdo real dos cards: "
+            + "; ".join(divergences)
+        )
 
 
 def main() -> int:
@@ -39,6 +71,7 @@ def main() -> int:
     }
     if deck_keys != report_keys:
         raise SystemExit("ERRO: validation-report não corresponde exatamente aos cards de deck-data")
+    _crosscheck(report, deck, deck_path)
     release = deck.get("release_gate") or {}
     if result["expected_card_count"] != len(deck_keys):
         raise SystemExit("ERRO: contagem validada diverge do deck-data")

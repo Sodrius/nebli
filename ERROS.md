@@ -126,6 +126,28 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     não aceitar um deck inteiramente verbal quando a E1 exige interpretar uma
     estrutura, lâmina, mapa ou relação espacial.
 
+## Gate que mede declaração em vez de conteúdo
+
+52. O relatório card-a-card não pode ser escrito à mão em paralelo ao deck.
+    Gerar sempre com `flashcards/scripts/derivar_validacao_cards.py`: números
+    mensuráveis (cloze, frente, Extra, máscaras) saem do card real e a âncora é
+    conferida contra a E1 fonte. Dois arquivos independentes fazem o gate medir
+    o relatório, não o deck.
+53. Exigir prova de uma busca AnKing que a sessão não pode ter feito produz
+    declaração falsa, não bloqueio. Usar `anking_search_mode`: `session_local`
+    só quando a coleção esteve ao alcance; `device_deferred` quando o Companion
+    resolve no aparelho; `unavailable` quando não há coleção alguma, sempre com
+    `anking_deferral_reason` concreto. Fonte local com `unavailable` bloqueia.
+54. Não validar no plano o que só existe depois da instalação. Score, note type,
+    sibling e `resolved_without_fallback` são propriedades do resultado da busca;
+    em `device_deferred` o gate valida consulta, resposta esperada e o fallback
+    que será instalado.
+55. Passar no lint funcional é obrigatório e não substituível por justificativa
+    genérica. Os escapes (`generic_answer_reason`, `pair_is_unit_reason`,
+    `duplicate_answer_reason`) exigem texto que explique por que aquela
+    formulação é a recuperação correta — se não houver o que escrever, o card
+    está errado e deve ser reescrito.
+
 ## Resolução AnKing e identidade do deck
 
 48. `prefer_anking=true` sem efeito mecânico não é prioridade. A nota deve ser
