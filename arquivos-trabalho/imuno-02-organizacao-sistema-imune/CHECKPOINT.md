@@ -57,6 +57,19 @@ recuperações consideradas, `KEEP` marca as que passaram no teste de mereciment
 - `validar_release_e1_deck.py`: aprovado — 44 conceitos, 41 nucleares, 41 com cobertura ≥ 2.
 - `finalizar_entrega_canonica.py`: manifesto `nebli-ankidroid-deck-v3` com `expected_card_count=20` e 2 mídias embutidas por SHA-256.
 
+## Figuras
+
+Os slides são renderizados por `typst-build/limpar_figuras_slide.py`, que aplica
+a higiene de ativo do canônico: remove o retângulo de placeholder do template
+(presente em 25 dos 26 slides), corta no conteúdo e grava `_crop-boxes.json`.
+
+Sete figuras sobreviveram ao teste de merecimento visual — todas circuito, mapa
+ou relação entre compartimentos. Saiu a foto da célula dendrítica do slide 18:
+a imagem embutida tem 100×90 px nativos, não sustenta o tamanho de impressão, e
+a forma que ela mostraria já está dita pela etimologia no texto. O texto sobre
+CD40L que estava ao lado dela virou prosa corrente, porque figura, legenda e
+texto tratavam de três assuntos diferentes.
+
 ## Image Occlusion
 
 | card | slide | máscaras | tarefa |
@@ -64,7 +77,7 @@ recuperações consideradas, `KEEP` marca as que passaram no teste de mereciment
 | `io-recirculacao-hev-linfa` | 13 | HEV, Linfa | localizar entrada (sangue → HEV) e saída (linfa) do circuito do linfócito naïve |
 | `io-foliculo-fdc-centro-germinativo` | 20 | FDC, Centro germinativo | reconhecer a célula estrelada residente e a zona que surge com o estímulo correto |
 
-Geometria calculada a partir das caixas reais de texto do PDF da aula; previews de pergunta e resposta renderizados e conferidos visualmente antes de marcar `question_preview_validated` / `answer_preview_validated`.
+Geometria calculada a partir das caixas reais de texto do PDF da aula e recalculada pela transformação do corte quando as figuras foram limpas; previews de pergunta e resposta renderizados e conferidos visualmente antes de marcar `question_preview_validated` / `answer_preview_validated`.
 
 ## Limitação registrada desta corrida
 

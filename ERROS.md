@@ -106,6 +106,17 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     mesma ideia em órgãos diferentes são uma ideia. Aprofundamento Step 1 fica em
     no máximo 1/4 do deck e um card por molécula.
 
+56. Slide inteiro não é figura. Antes de publicar, remover artefato de template
+    (placeholder do PowerPoint), cortar no conteúdo e conferir a resolução
+    nativa do ativo. Imagem embutida pequena não é ampliada: é bloqueada.
+57. Figura, legenda e texto vizinho tratam do mesmo objeto. Composição em que a
+    figura mostra A, a legenda descreve B e a prosa ao lado explica C é erro,
+    ainda que os três estejam certos isoladamente.
+58. Recorte de imagem que alimenta IO obriga recálculo das coordenadas de
+    máscara pela transformação do corte, com clamp aos limites e revalidação dos
+    previews. Coordenada herdada de um recorte anterior passa nos gates formais
+    e quebra no runtime.
+
 ## Qualidade funcional da recuperação
 
 36. Passar nos gates formais não significa ser um bom card. A revisão final

@@ -12,9 +12,9 @@
   "release_gate": {
     "schema": "nebli-e1-deck-release-v1",
     "e1_source": "../../typst-build/etapa1.typ",
-    "e1_source_sha256": "50f699830cf04915b4644ac2ab2cc6b4308ca5ad5e5dd8f958882f48c9d95b9b",
+    "e1_source_sha256": "38dda9b4b10404b2375862e5d21138500b6c17a8ffa81cbd799ac198383d9781",
     "e1_pdf": "../../typst-build/imuno-02-organizacao-sistema-imune.pdf",
-    "e1_pdf_sha256": "2583bf24b308a38fca9cc8d9e29c7a13e34fad5d8ec22fa9695ac930e72dd5cc",
+    "e1_pdf_sha256": "9c72ce5a1362a9efa28ae47f54a8dcc115f6e7c04616a96492bb1dc05649d655",
     "card_budget_hard_max": 20,
     "objective_count": 5,
     "cards_per_objective": 4,
@@ -708,16 +708,16 @@
       "image_path": "io-recirculacao-hev-linfa.png",
       "masks": [
         {
-          "x": 0.4975,
-          "y": 0.293,
-          "w": 0.23,
-          "h": 0.043
+          "x": 0.4899,
+          "y": 0.2977,
+          "w": 0.287,
+          "h": 0.0597
         },
         {
-          "x": 0.684,
-          "y": 0.746,
-          "w": 0.06,
-          "h": 0.056
+          "x": 0.7226,
+          "y": 0.9269,
+          "w": 0.0749,
+          "h": 0.0731
         }
       ],
       "answers": [
@@ -1008,16 +1008,16 @@
       "image_path": "io-foliculo-fdc-centro-germinativo.png",
       "masks": [
         {
-          "x": 0.09,
-          "y": 0.91,
-          "w": 0.251,
-          "h": 0.044
+          "x": 0.003,
+          "y": 0.9371,
+          "w": 0.2855,
+          "h": 0.0466
         },
         {
-          "x": 0.714,
-          "y": 0.712,
-          "w": 0.16,
-          "h": 0.045
+          "x": 0.7127,
+          "y": 0.7274,
+          "w": 0.182,
+          "h": 0.0477
         }
       ],
       "answers": [

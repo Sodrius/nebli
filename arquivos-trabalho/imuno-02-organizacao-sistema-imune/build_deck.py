@@ -386,8 +386,7 @@ anking(
 io(
     "io-recirculacao-hev-linfa", "c014",
     "io-recirculacao-hev-linfa.png",
-    [{"x": 0.4975, "y": 0.2930, "w": 0.2300, "h": 0.0430},
-     {"x": 0.6840, "y": 0.7460, "w": 0.0600, "h": 0.0560}],
+    [{"x": 0.4899, "y": 0.2977, "w": 0.287, "h": 0.0597}, {"x": 0.7226, "y": 0.9269, "w": 0.0749, "h": 0.0731}],
     ["High endotelial venules (HEV)", "Linfa"],
     "Os dois rótulos nomeiam as duas vias opostas do mesmo circuito: a porta de entrada do sangue para o órgão linfoide secundário e a via de saída dele. Recuperá-las juntas é reconstruir o sentido da recirculação, que se perde quando cada via é decorada isoladamente.",
     "Localizar no mapa da recirculação por onde o linfócito naïve entra no órgão linfoide secundário e por onde ele sai, distinguindo entrada arterial de saída linfática.",
@@ -590,8 +589,7 @@ anking(
 io(
     "io-foliculo-fdc-centro-germinativo", "c030",
     "io-foliculo-fdc-centro-germinativo.png",
-    [{"x": 0.0900, "y": 0.9100, "w": 0.2510, "h": 0.0440},
-     {"x": 0.7140, "y": 0.7120, "w": 0.1600, "h": 0.0450}],
+    [{"x": 0.003, "y": 0.9371, "w": 0.2855, "h": 0.0466}, {"x": 0.7127, "y": 0.7274, "w": 0.182, "h": 0.0477}],
     ["Célula dendrítica folicular (FDC)", "Centro germinativo"],
     "As duas máscaras cobrem os dois elementos nomeados do mesmo folículo em dois estados: a célula ramificada que retém antígeno no folículo em repouso e a zona clara que aparece depois do estímulo correto. O par recupera a transição repouso para centro germinativo, que se perde se cada rótulo for estudado sozinho.",
     "Reconhecer, dentro do desenho do folículo linfoide, qual é a célula estrelada residente e qual é a zona que surge com a expansão clonal de linfócitos B.",

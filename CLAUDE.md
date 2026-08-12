@@ -58,6 +58,9 @@ Regras nucleares:
 - autoral com exatamente um `c1`; cloze de 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ bloqueia;
 - IO somente quando a tarefa visual agrega; usar `hide_two_guess_two`, em geral com duas respostas coerentes e nunca mais de duas;
 - máscara cobre o rótulo-resposta, não a estrutura que deve ser reconhecida;
+- slide não é figura: tirar artefato de template, cortar no conteúdo, conferir
+  resolução nativa e manter figura, legenda e prosa sobre o mesmo objeto;
+- recorte que alimenta IO exige recalcular as coordenadas e revalidar previews;
 - fonte visual real, crédito, previews pergunta/resposta e ausência de vazamento são obrigatórios;
 - AnKing/deck externo é copiado literalmente, preservando note type, campos, HTML, clozes, tags e mídia; sibling não selecionado fica suspenso;
 - fallback validado evita curadoria manual quando a busca local é ausente/ambígua.
