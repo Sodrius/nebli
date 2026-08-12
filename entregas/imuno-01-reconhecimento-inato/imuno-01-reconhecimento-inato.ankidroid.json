@@ -1,6 +1,6 @@
 {
   "schema": "nebli-ankidroid-deck-v3",
-  "generated_at": "2026-08-12T12:10:36.728334+00:00",
+  "generated_at": "2026-08-12T12:21:12.768554+00:00",
   "lesson_slug": "imuno-01-reconhecimento-inato",
   "deck_identity": {
     "uc": "UC03",
@@ -10,7 +10,7 @@
   },
   "target_deck": "NEBLI::UC03::P1::Imunologia::Reconhecimento inato",
   "optional_subdeck": "NEBLI::UC03::P1::Imunologia::Reconhecimento inato::Optional",
-  "expected_card_count": 52,
+  "expected_card_count": 53,
   "write_prefix": "NEBLI::",
   "mutate_source": false,
   "open_ankidroid_after_install": true,
@@ -28,7 +28,7 @@
     "source_filter_is_hint": true,
     "ambiguous_policy": "use_validated_fallback",
     "anking_search_modes": {
-      "unavailable": 52
+      "unavailable": 53
     }
   },
   "cards": [
@@ -154,11 +154,11 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "Sensors that detect replicating viral RNA free in the cytosol, such as RIG-I and MDA5, belong to the {{c1::RLR}} family.",
-      "extra": "RIG-I-like receptors. O endereço citoplasmático combina com o lugar onde o vírus replica.",
+      "text": "The PRR family that works exclusively free in the cytosol, where viruses replicate, is the {{c1::RLR}} family.",
+      "extra": "RIG-I-like receptors, com RIG-I, MDA5 e LGP2. O endereço citoplasmático combina com o lugar onde o vírus replica.",
       "front_language": "en",
       "extra_language": "pt-BR",
-      "retrieval_target": "A família de PRR exclusivamente citoplasmática de RNA.",
+      "retrieval_target": "A família de PRR exclusivamente citoplasmática.",
       "authored_quality": {
         "single_retrieval": true,
         "unambiguous_prompt": true,
@@ -168,7 +168,7 @@
       },
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
-      "card_sha256": "842a766ab8826b0f88511187722c2e2d8f3ce00ffe7277844b820d4b5675357d"
+      "card_sha256": "3a84794260dd8456d6e823dba68dcf8838e22a9b6a19bbd60fb7cb121c6df5ac"
     },
     {
       "card_key": "k10-alr",
@@ -177,8 +177,8 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "The PRR family described with a nuclear localization, comprising AIM2 and IFI16, is the {{c1::ALR}} family.",
-      "extra": "AIM2-like receptors. É a única família da tabela cujo endereço é o núcleo.",
+      "text": "The only PRR family whose described localization is the cell nucleus is the {{c1::ALR}} family.",
+      "extra": "AIM2-like receptors, com AIM2 e IFI16 — sensores de DNA de dupla fita.",
       "front_language": "en",
       "extra_language": "pt-BR",
       "retrieval_target": "A família de PRR de localização nuclear.",
@@ -191,7 +191,7 @@
       },
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
-      "card_sha256": "494545cbae0c2046169aad18b1f0a3f4f3786659289cd80ce7179bdf62ee53a5"
+      "card_sha256": "bcf8121f09be629fbfea0213d40189bb7e6bedbe342a26b3a1194fb518189987"
     },
     {
       "card_key": "k11-dectina",
@@ -215,6 +215,29 @@
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
       "card_sha256": "bd9a542cb404e5ccc8af3a7494d2de7c1939ee422896a55208eea2e1f699b1bc"
+    },
+    {
+      "card_key": "k46-scavenger",
+      "concept_id": "k46",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Membrane PRRs whose main job is uptake and clearance rather than inflammatory signalling — CD36, CD68, LOX-1 — are the {{c1::scavenger}} receptors.",
+      "extra": "Reconhecem de lipoproteínas modificadas a restos de células mortas. Nem todo PRR existe para inflamar: alguns existem para limpar.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A família de PRR voltada para captação e remoção.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
+      "card_sha256": "e8a102f99bc6dab6ed63870083985ae816c5d61b13b7bbbf4efb26f538b6babc"
     },
     {
       "card_key": "k12-endolisossomo",
@@ -658,7 +681,7 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "MyD88 cannot pass the signal on unless it has been actively brought close to the kinases {{c1::IRAK4}} and IRAK1.",
+      "text": "MyD88 only passes the signal on if it has been actively brought close to the kinase {{c1::IRAK4}}.",
       "extra": "O citoplasma não é um saco homogêneo. Como a pré-ativação muda onde as moléculas estão, o mesmo estímulo pode render resultados diferentes em duas células.",
       "front_language": "en",
       "extra_language": "pt-BR",
@@ -672,7 +695,7 @@
       },
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
-      "card_sha256": "61eac419567f51877fbe827d4a8d1f2545b4c4d34f8fe44e999432aef6b67717"
+      "card_sha256": "158b1a75ba68edeef17897bc3e7c2dd45dc10a75d90e6b7fc645de30ab058ff5"
     },
     {
       "card_key": "k26-maturacao",
@@ -1249,17 +1272,17 @@
       "card_sha256": "70fed79cb855bacde5d4566844990d080d605726226306c9d04416c7bbbc2a2f"
     },
     {
-      "card_key": "k45-modificado",
+      "card_key": "k45-estocado",
       "concept_id": "k45",
       "source": "authored",
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "Pro-IL-1β cleaved into IL-1β is the example of an innate product that is only {{c1::modified}} after cell activation.",
-      "extra": "Os outros três tipos são produtos já estocados, produtos sintetizados só após ativação e produtos de degradação celular.",
+      "text": "Some mediators appear within seconds of PRR activation, with no transcription at all, because the cell already had them {{c1::stored}}.",
+      "extra": "As quatro categorias são: produto já estocado, produto modificado após a ativação (a pró-IL-1β), produto sintetizado só depois dela e produto de degradação celular. Cada uma tem cinética própria — daí a plasticidade.",
       "front_language": "en",
       "extra_language": "pt-BR",
-      "retrieval_target": "A categoria de produto que a clivagem da pró-IL-1β exemplifica.",
+      "retrieval_target": "A categoria de produto que explica a liberação imediata.",
       "authored_quality": {
         "single_retrieval": true,
         "unambiguous_prompt": true,
@@ -1269,7 +1292,7 @@
       },
       "anking_search_mode": "unavailable",
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula.",
-      "card_sha256": "8499e3a38735a1353fdc60e0a97583bb64d4c1216b296db73f3a0bfc09ffa96b"
+      "card_sha256": "715355a97f767401c4edf96a78218485b356c1602683cb8b7fa19148c8ba41b1"
     }
   ],
   "media": [
@@ -1293,12 +1316,12 @@
   "release_gate": {
     "schema": "nebli-e1-deck-release-v1",
     "card_budget_hard_max": 54,
-    "concept_count": 36,
+    "concept_count": 37,
     "nuclear_concept_count": 28,
     "covered_nuclear_count": 28,
-    "e1_source_sha256": "705d148bd623aed277812c921980393ccc7b2420516beb8050d8bc62cd8ec777",
-    "e1_pdf_sha256": "49b495593089e1a5757b3b24dcde91d576532d9cace68fc3d3e92461815eab41",
+    "e1_source_sha256": "1cd62c7f03452901d8388cacdd2d583ed26a1a091a01b8e90de9c4fab1b8aa1b",
+    "e1_pdf_sha256": "cc7d21186faec48892cf4748aa3d7e02176b79f5c51bcc89ffce6ac8af1bc9b5",
     "passed": true
   },
-  "manifest_sha256": "26999be3c27396059352cf8588c8a3b34336fd61b5ee6f3cbcf7a36ee0d88b04"
+  "manifest_sha256": "12c49184c47dde4e89452689519b35bf7c1ce6e63ec89dd1502fe5f45876c27f"
 }

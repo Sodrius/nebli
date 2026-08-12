@@ -9,9 +9,9 @@
   "release_gate": {
     "schema": "nebli-e1-deck-release-v1",
     "e1_source": "../../typst-build/etapa1.typ",
-    "e1_source_sha256": "705d148bd623aed277812c921980393ccc7b2420516beb8050d8bc62cd8ec777",
+    "e1_source_sha256": "1cd62c7f03452901d8388cacdd2d583ed26a1a091a01b8e90de9c4fab1b8aa1b",
     "e1_pdf": "../../typst-build/main.pdf",
-    "e1_pdf_sha256": "49b495593089e1a5757b3b24dcde91d576532d9cace68fc3d3e92461815eab41",
+    "e1_pdf_sha256": "cc7d21186faec48892cf4748aa3d7e02176b79f5c51bcc89ffce6ac8af1bc9b5",
     "card_budget_hard_max": 54,
     "e1_review": {
       "slide_inventory_complete": true,
@@ -109,6 +109,18 @@
         "coverage_quality": 3,
         "card_keys": [
           "k11-dectina"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "k46",
+        "importance": "supporting",
+        "e1_anchor": "cuja função principal não é disparar inflamação e sim promover a captação e a remoção do que reconhecem",
+        "coverage_quality": 3,
+        "card_keys": [
+          "k46-scavenger"
         ],
         "step1": {
           "decision": "not_applicable"
@@ -483,7 +495,7 @@
         "e1_anchor": "Produtos previamente produzidos e armazenados, prontos para sair; produtos modificados após a ativação",
         "coverage_quality": 3,
         "card_keys": [
-          "k45-modificado"
+          "k45-estocado"
         ],
         "step1": {
           "decision": "not_applicable"
@@ -609,11 +621,11 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "Sensors that detect replicating viral RNA free in the cytosol, such as RIG-I and MDA5, belong to the {{c1::RLR}} family.",
-      "extra": "RIG-I-like receptors. O endereço citoplasmático combina com o lugar onde o vírus replica.",
+      "text": "The PRR family that works exclusively free in the cytosol, where viruses replicate, is the {{c1::RLR}} family.",
+      "extra": "RIG-I-like receptors, com RIG-I, MDA5 e LGP2. O endereço citoplasmático combina com o lugar onde o vírus replica.",
       "front_language": "en",
       "extra_language": "pt-BR",
-      "retrieval_target": "A família de PRR exclusivamente citoplasmática de RNA.",
+      "retrieval_target": "A família de PRR exclusivamente citoplasmática.",
       "authored_quality": {
         "single_retrieval": true,
         "unambiguous_prompt": true,
@@ -631,8 +643,8 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "The PRR family described with a nuclear localization, comprising AIM2 and IFI16, is the {{c1::ALR}} family.",
-      "extra": "AIM2-like receptors. É a única família da tabela cujo endereço é o núcleo.",
+      "text": "The only PRR family whose described localization is the cell nucleus is the {{c1::ALR}} family.",
+      "extra": "AIM2-like receptors, com AIM2 e IFI16 — sensores de DNA de dupla fita.",
       "front_language": "en",
       "extra_language": "pt-BR",
       "retrieval_target": "A família de PRR de localização nuclear.",
@@ -658,6 +670,28 @@
       "front_language": "en",
       "extra_language": "pt-BR",
       "retrieval_target": "O CLR que reconhece β-glucano.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
+    },
+    {
+      "card_key": "k46-scavenger",
+      "concept_id": "k46",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Membrane PRRs whose main job is uptake and clearance rather than inflammatory signalling — CD36, CD68, LOX-1 — are the {{c1::scavenger}} receptors.",
+      "extra": "Reconhecem de lipoproteínas modificadas a restos de células mortas. Nem todo PRR existe para inflamar: alguns existem para limpar.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "A família de PRR voltada para captação e remoção.",
       "authored_quality": {
         "single_retrieval": true,
         "unambiguous_prompt": true,
@@ -1091,7 +1125,7 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "MyD88 cannot pass the signal on unless it has been actively brought close to the kinases {{c1::IRAK4}} and IRAK1.",
+      "text": "MyD88 only passes the signal on if it has been actively brought close to the kinase {{c1::IRAK4}}.",
       "extra": "O citoplasma não é um saco homogêneo. Como a pré-ativação muda onde as moléculas estão, o mesmo estímulo pode render resultados diferentes em duas células.",
       "front_language": "en",
       "extra_language": "pt-BR",
@@ -1656,17 +1690,17 @@
       "anking_deferral_reason": "Nenhuma coleção AnKing está ao alcance desta sessão de planejamento — ela vive no AnkiDroid do tablet e só o Nebli Companion a enxerga. Em vez de declarar uma busca que não aconteceu, o card foi autorado para a recuperação exata da aula."
     },
     {
-      "card_key": "k45-modificado",
+      "card_key": "k45-estocado",
       "concept_id": "k45",
       "source": "authored",
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
-      "text": "Pro-IL-1β cleaved into IL-1β is the example of an innate product that is only {{c1::modified}} after cell activation.",
-      "extra": "Os outros três tipos são produtos já estocados, produtos sintetizados só após ativação e produtos de degradação celular.",
+      "text": "Some mediators appear within seconds of PRR activation, with no transcription at all, because the cell already had them {{c1::stored}}.",
+      "extra": "As quatro categorias são: produto já estocado, produto modificado após a ativação (a pró-IL-1β), produto sintetizado só depois dela e produto de degradação celular. Cada uma tem cinética própria — daí a plasticidade.",
       "front_language": "en",
       "extra_language": "pt-BR",
-      "retrieval_target": "A categoria de produto que a clivagem da pró-IL-1β exemplifica.",
+      "retrieval_target": "A categoria de produto que explica a liberação imediata.",
       "authored_quality": {
         "single_retrieval": true,
         "unambiguous_prompt": true,

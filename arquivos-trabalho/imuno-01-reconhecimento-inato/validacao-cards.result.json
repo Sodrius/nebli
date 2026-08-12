@@ -1,8 +1,8 @@
 {
-  "expected_card_count": 52,
+  "expected_card_count": 53,
   "card_budget_hard_max": 54,
-  "validated_card_count": 52,
-  "passed_card_count": 52,
+  "validated_card_count": 53,
+  "passed_card_count": 53,
   "failed_card_count": 0,
   "all_cards_validated": true,
   "within_card_budget": true,
@@ -44,6 +44,11 @@
     },
     {
       "card_key": "k11-dectina",
+      "ok": true,
+      "failures": []
+    },
+    {
+      "card_key": "k46-scavenger",
       "ok": true,
       "failures": []
     },
@@ -263,7 +268,7 @@
       "failures": []
     },
     {
-      "card_key": "k45-modificado",
+      "card_key": "k45-estocado",
       "ok": true,
       "failures": []
     }

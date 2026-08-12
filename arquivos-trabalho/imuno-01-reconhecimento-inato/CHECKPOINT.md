@@ -27,24 +27,31 @@ registrava UC03 com prova/componente pendentes desde a curadoria da Radiologia.
 | `typst-build/etapa1.typ` + `resumindo.typ` + `main.typ` | E1 fonte (22 páginas) |
 | `typst-build/main.pdf` | E1 compilada, hash no release gate |
 | `_montar_deck_data.py` | monta o plano; editar aqui, nunca o JSON |
-| `deck-data.json` | 52 cards, 36 conceitos |
+| `deck-data.json` | 53 cards, 37 conceitos |
 | `validacao-cards.json` | **derivado** do deck-data |
 | `entregas/imuno-01-reconhecimento-inato/` | os dois arquivos visíveis ao Davi |
 
 ## Resultado dos gates
 
-- release gate `nebli-e1-deck-release-v1`: aprovado; 36 conceitos, 28 nucleares,
+- release gate `nebli-e1-deck-release-v1`: aprovado; 37 conceitos, 28 nucleares,
   28 cobertos; todas as âncoras conferidas literalmente contra a E1 fonte.
-- lint de qualidade funcional: 0 problemas em 52 cards.
-- gate card a card: `expected = validated = passed = 52`, `failed = 0`,
+- lint de qualidade funcional: 0 problemas em 53 cards.
+- gate card a card: `expected = validated = passed = 53`, `failed = 0`,
   teto 54.
+- gate Java real (`CardRules` compilado): 53/53 aprovados.
 - manifesto `nebli-ankidroid-deck-v3` gerado com 2 mídias embutidas (SHA-256).
 
 ## Composição do deck
 
-50 autorais + 2 Image Occlusion. Distribuição por bloco da E1: 5 (recap e
-contexto), 15 (famílias de PRR e ligantes), 15 (vias do TLR e inflamassoma),
+51 autorais + 2 Image Occlusion. Distribuição por bloco da E1: 5 (recap e
+contexto), 16 (famílias de PRR e ligantes), 15 (vias do TLR e inflamassoma),
 17 (efetuação e citocinas) — proporcional ao peso dos slides.
+
+Auditoria posterior (ver item 6 do diagnóstico) corrigiu dois cards cuja frente
+entregava a resposta por semântica (RIG-I→RLR, AIM2→ALR), um par implícito
+(IRAK4/IRAK1), uma duplicata funcional em torno da pró-IL-1β, e fechou a única
+família de PRR sem card (scavenger receptors), com a E1 ganhando a oração que
+ensina a função deles.
 
 IO 1 — mapa das vias do TLR (slide 18, recortado para retirar a legenda que
 soletra NF-κB e IRF): máscaras sobre `NF-kB` e `IRFs`.
@@ -75,7 +82,7 @@ daquele APK foi reimplementado e rodado contra o manifesto novo: 52/52.
 ## Pendência
 
 Instalar o manifesto regerado e conferir o recibo
-(`installed_card_count == 52`). Enquanto o recibo não existir, a aula não está
+(`installed_card_count == 53`). Enquanto o recibo não existir, a aula não está
 fechada pela definição de pronto do canônico.
 
 Quando o Companion do tablet for reinstalado a partir deste repo, atualizar

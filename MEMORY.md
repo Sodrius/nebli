@@ -14,6 +14,14 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 - E2, E3 e RemNote desligados.
 - Retenção longitudinal: 25 novos/dia; revisões 9999/dia.
 - Desktop/APKG/Drive/Colab não pertencem ao fluxo normal.
+- **Atualizar o Companion do tablet:** o APK sai do CI. Workflow
+  `Android Companion` no GitHub → run verde do branch → artefato
+  `nebli-ankidroid-companion-debug` → instalar o `app-debug.apk` no tablet. O
+  artefato só é publicado quando os testes unitários E o round trip real com o
+  AnkiDroid no emulador passam — APK sem teste real continua bloqueado.
+  Depois de instalar e confirmar por um recibo real, trocar
+  `config/pipeline.json → ankidroid.installed_companion.io_mode_token` para
+  `hide_two_guess_two` e anotar a data.
 - O Nebli Companion instalado no tablet foi compilado do commit `942e665` (#18)
   e **não conhece o token `hide_two_guess_two`**. Enquanto não for reinstalado, o
   manifesto sai com o alias `hide_all_guess_all`, controlado por
@@ -37,6 +45,15 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 - instalar de forma idempotente;
 - fazer rollback das notas novas em falha parcial;
 - selecionar/abrir o deck correto no AnkiDroid ao concluir.
+
+## Referências externas do Davi
+
+- **Diário de Estudo 2026** (Google Sheets, `1T1RZ_vpqtchmdM8U2BXYmlHk7e-Ov-iCGM51PFIEqMU`,
+  título "2026"): registro diário de horas de estudo em blocos de 25 minutos, com
+  meta de 45–50 h por semana e o assunto de cada bloco (UC, disciplina, NEBLI,
+  trabalho, francês). Serve para dimensionar carga e ritmo quando o pipeline
+  precisar decidir volume de cards ou cadência de revisão.
+  https://docs.google.com/spreadsheets/d/1T1RZ_vpqtchmdM8U2BXYmlHk7e-Ov-iCGM51PFIEqMU/edit
 
 ## Decisões vigentes de card
 
@@ -69,8 +86,9 @@ Atualizado em 2026-08-12. Histórico e regras antigas permanecem em `docs/legacy
 ## Última corrida real
 
 `imuno-01-reconhecimento-inato` (UC03 · P1 · Imunologia), 2026-08-12:
-E1 de 22 páginas, 52 cards (50 autorais + 2 IO), 36 conceitos, 28 nucleares
-todos cobertos, gate 52/52, manifesto v3 gerado. Diagnóstico das falhas de
+E1 de 22 páginas, 53 cards (51 autorais + 2 IO), 37 conceitos, 28 nucleares
+todos cobertos, gate 53/53, manifesto v3 gerado e conferido contra o gate Java
+real do Companion. Diagnóstico das falhas de
 pipeline encontradas na corrida em `arquivos-trabalho/DIAGNOSTICO-PIPELINE-2026-08-12.md`.
 
 ## Próxima corrida real

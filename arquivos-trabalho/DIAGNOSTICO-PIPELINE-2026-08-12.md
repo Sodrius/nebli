@@ -160,15 +160,69 @@ realidade.
    `companion_requirements`, e cada card IO carrega `io_mode_contract` com a
    regra canônica contra a qual foi validado. Só mexer nesse campo depois de
    reinstalar o Companion e confirmar por recibo.
-3. *Teste de deriva.* `flashcards/tests/test_contrato_companion.py` lê `IO_MODES`
-   direto do `CardRules.java` e recusa qualquer token que o gerador possa emitir
-   e o Companion não aceite — inclusive o token declarado como instalado no
-   aparelho.
+3. *Teste de deriva, em duas pontas.*
+   `flashcards/tests/test_contrato_companion.py` lê `IO_MODES` direto do
+   `CardRules.java` e recusa qualquer token que o gerador possa emitir e o
+   Companion não aceite — inclusive o declarado como instalado no aparelho.
+4. *Manifesto dourado.* Faltava ainda o essencial: nenhum teste punha um
+   artefato **real** do gerador diante do gate **real** do Companion. Agora
+   `android-companion/.../resources/golden-manifest.json` é produzido pelo
+   gerador a partir de uma fixture e exercitado por
+   `GoldenManifestContractTest` contra `CardRules` e contra o preflight; do lado
+   Python, um teste garante que o dourado continua idêntico ao que o gerador
+   emite hoje. Os dois juntos fecham o laço gerador → manifesto → gate.
+5. *Preflight com mensagem útil.* `checkCompanionContract` roda antes de
+   qualquer planejamento e, diante de vocabulário desconhecido, diz o nome
+   exigido, o que este build fala e que é preciso reinstalar o Companion — em
+   vez de morrer no meio do lote com um token críptico. O recibo passa a
+   registrar `companion_io_modes`, o vocabulário do build que rodou.
 
 **Verificação.** O gate do APK do tablet (commit 942e665) foi reimplementado e
 rodado contra o manifesto regerado: 52/52 aprovados, 2 mídias embutidas e
 referenciadas. Do lado Java, `CardRules` compilado e exercitado com as
 coordenadas reais dos dois cards IO desta aula, nos dois vocabulários.
+
+---
+
+## 6. Auditoria do deck, depois de tudo passar nos gates
+
+Feita a pedido do Davi, com os 52 cards já aprovados em todos os gates. Achou
+quatro defeitos e uma lacuna — nenhum deles detectável pelas checagens
+mecânicas, o que delimita bem o que o lint alcança e o que não alcança.
+
+**Frente que entrega a resposta por semântica, não por texto.** Dois cards
+diziam “sensores como RIG-I e MDA5 pertencem à família {{c1::RLR}}” e
+“família que compreende AIM2 e IFI16, a {{c1::ALR}}”. RIG-I *é* RIG-I-like
+receptor; AIM2 *é* AIM2-like receptor. A resposta estava na frente, mas por
+significado, não por string — o lint procura o token da resposta entre as
+palavras visíveis e nada encontrava. Reescritos para cobrar endereço → família,
+sem citar os membros.
+
+**Meia-parcela que o regex não pega.** `MyD88 ... trazido para perto das
+quinases {{c1::IRAK4}} e IRAK1` — com IRAK1 visível, a resposta sai por padrão
+numérico. O `HALF_PAIR_RE` só dispara quando o cloze vem *depois* do “and”, e
+aqui vinha antes. Corrigido tirando IRAK1 da frente.
+
+**Duplicata funcional entre cards de conceitos diferentes.** Um card cobrava
+“o priming faz a célula sintetizar {{c1::pró-IL-1β}}” e outro cobrava
+“pró-IL-1β clivada em IL-1β é o produto {{c1::modificado}} após a ativação”. São
+recuperações distintas no papel, mas giram em torno do mesmo fato — e
+`modificado` ainda aceitava *clivado* e *processado* como sinônimos defensáveis.
+O segundo passou a cobrar a categoria vizinha (produto **já estocado**, liberado
+em segundos sem transcrição), que era a única das quatro sem card.
+
+**Lacuna de cobertura contra o objetivo 2.** Dos seis famílias de PRR nomeadas
+no slide 8, os *scavenger receptors* eram a única sem nenhum card. A E1 apenas
+os listava, então cobrar por card exigiria matéria não ensinada: a E1 ganhou uma
+oração dizendo o que eles fazem (captação e remoção, não inflamação) e o deck
+ganhou o card correspondente. Cobertura das seis famílias fechada.
+
+Resultado: 53 cards. O que isso ensina sobre o lint é que ele pega bem o
+mecânico (token, contagem, geometria, repetição literal) e não pega o
+semântico — sinonímia entre sigla e membro da família, par implícito,
+proximidade conceitual entre dois cards. Essa camada continua sendo leitura
+card a card, e vale registrá-la como limite conhecido em vez de supor que o
+gate cobre tudo.
 
 ## Regressões
 
@@ -177,4 +231,5 @@ corrigidos: divergência entre número declarado e card real, âncora ausente da
 E1, cada uma das checagens do lint, e os três modos de procedência (incluindo a
 recusa de fonte local sem busca e de busca delegada com `anking_required`).
 
-Suíte completa: 80 testes Python, todos passando, mais os testes Java do Companion.
+Suíte completa: 82 testes Python, todos passando, mais os testes Java do Companion.
+O deck real desta aula foi passado pelo `CardRules` compilado: 53/53 aprovados.

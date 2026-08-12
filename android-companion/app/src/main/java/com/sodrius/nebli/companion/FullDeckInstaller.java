@@ -555,8 +555,30 @@ public final class FullDeckInstaller {
         return out;
     }
 
+    /**
+     * Confere, antes de qualquer trabalho, se este build entende o vocabulário
+     * que o manifesto exige.
+     *
+     * Sem esta checagem, uma divergência de versão só aparecia lá adiante, no
+     * primeiro card que usasse o token desconhecido — depois de dezenas de notas
+     * criadas e desfeitas pelo rollback — e com uma mensagem que não dizia a
+     * única coisa útil: que o Companion do aparelho está velho.
+     */
+    static void checkCompanionContract(JSONObject m) {
+        JSONObject required = m.optJSONObject("companion_requirements");
+        if (required == null) return;
+        String ioToken = required.optString("io_mode_token", "");
+        if (!ioToken.isEmpty() && !CardRules.IO_MODES.contains(ioToken)) {
+            throw new IllegalArgumentException(
+                    "este Companion não conhece o modo de IO '" + ioToken + "' exigido pelo "
+                            + "manifesto; ele fala " + CardRules.IO_MODES + ". Reinstale o "
+                            + "Companion a partir do repo antes de instalar este deck.");
+        }
+    }
+
     private void validateManifest(JSONObject m) throws Exception {
         if (!SCHEMA.equals(m.optString("schema"))) throw new IllegalArgumentException("schema incompatível: " + m.optString("schema"));
+        checkCompanionContract(m);
         JSONObject release = m.optJSONObject("release_gate");
         if (release == null
                 || !"nebli-e1-deck-release-v1".equals(release.optString("schema"))
@@ -764,6 +786,9 @@ public final class FullDeckInstaller {
         r.put("lesson_slug", manifest.getString("lesson_slug"));
         r.put("target_deck", targetDeck);
         r.put("manifest_sha256", manifest.optString("manifest_sha256", ""));
+        // O recibo diz que vocabulário ESTE build fala. Sem isso, uma falha por
+        // versão obriga a adivinhar de qual commit veio o APK do aparelho.
+        r.put("companion_io_modes", new JSONArray(CardRules.IO_MODES));
         r.put("timestamp", Instant.now().toString());
         return r;
     }

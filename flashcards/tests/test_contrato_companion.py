@@ -12,7 +12,9 @@ prendem também o token do aparelho declarado em `config/pipeline.json`.
 """
 import json
 import re
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -69,3 +71,58 @@ def test_legacy_alias_survives_until_the_device_is_reinstalled():
         assert token in _tokens_accepted_by_companion(), (
             "o aparelho ainda depende do alias; removê-lo quebra a instalação"
         )
+
+
+FIXTURE = REPO / "flashcards" / "tests" / "fixtures" / "contrato-companion" / "deck-data.json"
+GOLDEN = (REPO / "android-companion" / "app" / "src" / "test" / "resources"
+          / "golden-manifest.json")
+GENERATOR = REPO / "flashcards" / "scripts" / "gerar_manifesto_ankidroid.py"
+REGENERATE = (
+    "python flashcards/scripts/gerar_manifesto_ankidroid.py "
+    "--slug contrato-companion "
+    "--deck-data flashcards/tests/fixtures/contrato-companion/deck-data.json "
+    "--io-mode-token {token} "
+    "--out android-companion/app/src/test/resources/golden-manifest.json"
+)
+
+
+def _stable(manifest: dict) -> dict:
+    """Remove o que muda a cada execução, mantendo o contrato."""
+    out = dict(manifest)
+    out.pop("generated_at", None)
+    out.pop("manifest_sha256", None)
+    return out
+
+
+def test_golden_manifest_still_matches_what_the_generator_produces():
+    """O manifesto que o teste Java exercita tem de ser o de hoje, não um fóssil.
+
+    O teste Java prova que o Companion aceita o manifesto dourado; este prova
+    que o manifesto dourado é o que o gerador realmente emite. Juntos, fecham o
+    laço gerador -> manifesto -> gate do Companion.
+    """
+    golden = json.loads(GOLDEN.read_text(encoding="utf-8"))
+    token = golden["companion_requirements"]["io_mode_token"]
+    with tempfile.TemporaryDirectory() as tmp:
+        out = Path(tmp) / "manifest.json"
+        proc = subprocess.run(
+            [sys.executable, str(GENERATOR), "--slug", "contrato-companion",
+             "--deck-data", str(FIXTURE), "--io-mode-token", token, "--out", str(out)],
+            capture_output=True, text=True,
+        )
+        assert proc.returncode == 0, proc.stderr
+        fresh = json.loads(out.read_text(encoding="utf-8"))
+    assert _stable(fresh) == _stable(golden), (
+        "o manifesto dourado ficou para trás do gerador; regenere com:\n  "
+        + REGENERATE.format(token=token)
+    )
+
+
+def test_golden_manifest_uses_the_token_the_device_speaks():
+    config = json.loads((REPO / "config" / "pipeline.json").read_text(encoding="utf-8"))
+    device = config["ankidroid"]["installed_companion"]["io_mode_token"]
+    golden = json.loads(GOLDEN.read_text(encoding="utf-8"))
+    assert golden["companion_requirements"]["io_mode_token"] == device, (
+        "a fixture precisa exercitar o vocabulário que o aparelho realmente usa; "
+        "regenere com:\n  " + REGENERATE.format(token=device)
+    )

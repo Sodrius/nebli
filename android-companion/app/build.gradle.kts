@@ -30,6 +30,9 @@ android {
 dependencies {
     implementation("androidx.core:core:1.15.0")
     testImplementation("junit:junit:4.13.2")
+    // org.json real no classpath de teste: sem ele o stub do Android
+    // devolve zero e o teste do manifesto dourado não valeria nada.
+    testImplementation("org.json:json:20240303")
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
 }

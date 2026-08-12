@@ -5,10 +5,12 @@ on:
   push:
     paths:
       - "android-companion/**"
+      - "flashcards/scripts/gerar_manifesto_ankidroid.py"
       - ".github/workflows/android-companion.yml"
   pull_request:
     paths:
       - "android-companion/**"
+      - "flashcards/scripts/gerar_manifesto_ankidroid.py"
       - ".github/workflows/android-companion.yml"
 
 jobs:

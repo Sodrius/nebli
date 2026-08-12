@@ -108,18 +108,23 @@ CARDS = [
 
     # --------------------------------------------------------- PARTE II
     a("k10-rlr", "k10",
-      "Sensors that detect replicating viral RNA free in the cytosol, such as RIG-I and MDA5, "
-      "belong to the {{c1::RLR}} family.",
-      "RIG-I-like receptors. O endereço citoplasmático combina com o lugar onde o vírus replica.",
-      "A família de PRR exclusivamente citoplasmática de RNA."),
+      "The PRR family that works exclusively free in the cytosol, where viruses replicate, is the "
+      "{{c1::RLR}} family.",
+      "RIG-I-like receptors, com RIG-I, MDA5 e LGP2. O endereço citoplasmático combina com o lugar onde o vírus replica.",
+      "A família de PRR exclusivamente citoplasmática."),
     a("k10-alr", "k10",
-      "The PRR family described with a nuclear localization, comprising AIM2 and IFI16, is the {{c1::ALR}} family.",
-      "AIM2-like receptors. É a única família da tabela cujo endereço é o núcleo.",
+      "The only PRR family whose described localization is the cell nucleus is the {{c1::ALR}} family.",
+      "AIM2-like receptors, com AIM2 e IFI16 — sensores de DNA de dupla fita.",
       "A família de PRR de localização nuclear."),
     a("k11-dectina", "k11",
       "Fungal β-glucan is recognized at the plasma membrane by the C-type lectin receptor {{c1::Dectin-1}}.",
       "Dectina-1 e Dectina-2 leem β-glucano de parede fúngica; MINCLE lê SAP130.",
       "O CLR que reconhece β-glucano."),
+    a("k46-scavenger", "k46",
+      "Membrane PRRs whose main job is uptake and clearance rather than inflammatory signalling — "
+      "CD36, CD68, LOX-1 — are the {{c1::scavenger}} receptors.",
+      "Reconhecem de lipoproteínas modificadas a restos de células mortas. Nem todo PRR existe para inflamar: alguns existem para limpar.",
+      "A família de PRR voltada para captação e remoção."),
     a("k12-endolisossomo", "k12",
       "Every TLR that senses nucleic acid is placed in the {{c1::endolysosome}} instead of on the cell surface.",
       "Regra topológica: superfície lê lipídio e proteína; compartimento interno lê ácido nucleico.",
@@ -207,8 +212,8 @@ CARDS = [
       "Entre adaptador e fator de transcrição há muitas moléculas intermediárias, com ramificações.",
       "A consequência prática do cruzamento entre as vias."),
     a("k25-localizacao", "k25",
-      "MyD88 cannot pass the signal on unless it has been actively brought close to the kinases "
-      "{{c1::IRAK4}} and IRAK1.",
+      "MyD88 only passes the signal on if it has been actively brought close to the kinase "
+      "{{c1::IRAK4}}.",
       "O citoplasma não é um saco homogêneo. Como a pré-ativação muda onde as moléculas estão, o mesmo estímulo pode render resultados diferentes em duas células.",
       "A quinase de que o MyD88 precisa estar perto."),
     a("k26-maturacao", "k26",
@@ -337,11 +342,11 @@ CARDS = [
       "its {{c1::mortality}}.",
       "O lagarto regula a temperatura expondo-se ao sol; impedir isso é impedir a febre. A febre é mecanismo de defesa.",
       "A evidência experimental de que a febre é defesa."),
-    a("k45-modificado", "k45",
-      "Pro-IL-1β cleaved into IL-1β is the example of an innate product that is only {{c1::modified}} "
-      "after cell activation.",
-      "Os outros três tipos são produtos já estocados, produtos sintetizados só após ativação e produtos de degradação celular.",
-      "A categoria de produto que a clivagem da pró-IL-1β exemplifica."),
+    a("k45-estocado", "k45",
+      "Some mediators appear within seconds of PRR activation, with no transcription at all, "
+      "because the cell already had them {{c1::stored}}.",
+      "As quatro categorias são: produto já estocado, produto modificado após a ativação (a pró-IL-1β), produto sintetizado só depois dela e produto de degradação celular. Cada uma tem cinética própria — daí a plasticidade.",
+      "A categoria de produto que explica a liberação imediata."),
 ]
 
 CONCEPTS = [
@@ -352,6 +357,7 @@ CONCEPTS = [
     ("k08", "nuclear", "É por incluir os DAMP que o sistema consegue disparar sem que exista qualquer infecção", 3, None),
     ("k10", "nuclear", "eles estão distribuídos por toda a célula, na membrana externa, nas membranas internas, soltos no citoplasma e até dentro do núcleo", 3, None),
     ("k11", "supporting", "Entre os CLR, de membrana plasmática: Dectina-1 e Dectina-2 reconhecem β-glucano de fungos", 3, None),
+    ("k46", "supporting", "cuja função principal não é disparar inflamação e sim promover a captação e a remoção do que reconhecem", 3, None),
     ("k12", "nuclear", "Por que os TLR que leem ácido nucleico são endossomais e não de superfície?", 3,
      ("incorporated", "Abbas, Imunologia Celular e Molecular, cap. 4 — compartimentalização dos TLR de ácido nucleico",
       "Aprofunda o mesmo mecanismo do slide (localização dos TLR) explicando por que a segregação topológica existe e o que acontece quando ela falha.")),

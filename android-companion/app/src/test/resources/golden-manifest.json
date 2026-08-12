@@ -1,0 +1,124 @@
+{
+  "schema": "nebli-ankidroid-deck-v3",
+  "generated_at": "2026-08-12T12:18:03.392965+00:00",
+  "lesson_slug": "contrato-companion",
+  "deck_identity": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Imunologia",
+    "nome_curto": "Contrato"
+  },
+  "target_deck": "NEBLI::UC03::P1::Imunologia::Contrato",
+  "optional_subdeck": "NEBLI::UC03::P1::Imunologia::Contrato::Optional",
+  "expected_card_count": 2,
+  "write_prefix": "NEBLI::",
+  "mutate_source": false,
+  "open_ankidroid_after_install": true,
+  "card_quality_contract": "nebli-card-quality-v1",
+  "companion_requirements": {
+    "io_mode_token": "hide_all_guess_all",
+    "io_mode_contract": "hide_two_guess_two"
+  },
+  "search": {
+    "min_score": 0.82,
+    "min_margin": 0.06,
+    "max_candidates": 80,
+    "prefer_anking": true,
+    "require_anking_marker": true,
+    "source_filter_is_hint": true,
+    "ambiguous_policy": "use_validated_fallback",
+    "anking_search_modes": {
+      "unavailable": 2
+    }
+  },
+  "cards": [
+    {
+      "card_key": "f1-authored",
+      "concept_id": "f1",
+      "source": "authored",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "text": "Bacterial endotoxin, LPS, is sensed at the plasma membrane by {{c1::TLR4}}.",
+      "extra": "Lipopolissacarideo da parede de Gram-negativas.",
+      "front_language": "en",
+      "extra_language": "pt-BR",
+      "retrieval_target": "O TLR que reconhece LPS.",
+      "authored_quality": {
+        "single_retrieval": true,
+        "unambiguous_prompt": true,
+        "no_functional_duplicate": true,
+        "extra_only_supports_answer": true,
+        "medical_english_reviewed": true
+      },
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Fixture de contrato: nenhuma colecao AnKing participa deste teste de vocabulario.",
+      "card_sha256": "4f3a480d39ecb367b363c07608108cef310c7af0b1160104bb5aba9d4df35ded"
+    },
+    {
+      "card_key": "f2-io",
+      "concept_id": "f2",
+      "source": "io",
+      "tier": "nucleo",
+      "atomic": true,
+      "relevant": true,
+      "requires_visual": true,
+      "mode": "hide_all_guess_all",
+      "masks": [
+        {
+          "x": 0.1,
+          "y": 0.1,
+          "w": 0.2,
+          "h": 0.1
+        },
+        {
+          "x": 0.5,
+          "y": 0.6,
+          "w": 0.2,
+          "h": 0.1
+        }
+      ],
+      "answers": [
+        "MyD88",
+        "TRIF"
+      ],
+      "coherent_set": true,
+      "pair_rationale": "Os dois adaptadores das duas rotas do TLR, cobrados como um par.",
+      "cognitive_purpose": "Localizar no mapa qual adaptador leva a cada desfecho.",
+      "source_credit": "Fixture do repositorio NEBLI.",
+      "masks_labels_not_structures": true,
+      "question_preview_validated": true,
+      "answer_preview_validated": true,
+      "didactic_value_reviewed": true,
+      "visual_ok": true,
+      "real_source": true,
+      "answer_leak": false,
+      "anking_search_mode": "unavailable",
+      "anking_deferral_reason": "Fixture de contrato: nenhuma colecao AnKing participa deste teste de vocabulario.",
+      "io_mode_contract": "hide_two_guess_two",
+      "media_key": "m_edbcbf3013bd9c862984",
+      "card_sha256": "bfe3da62617fa7323b5b06d04d1421515077a102dfa02d8dce1841929c932e5e"
+    }
+  ],
+  "media": [
+    {
+      "key": "m_edbcbf3013bd9c862984",
+      "filename": "mascara.png",
+      "mime_type": "image/png",
+      "sha256": "edbcbf3013bd9c86298425ea44e930ed1074b2005a9fc782529f1544bd518a91",
+      "data_base64": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAEUlEQVR4nGM4sUADK2IYWhIAOxFkARm1rOgAAAAASUVORK5CYII=",
+      "source_credit": "Fixture do repositorio NEBLI."
+    }
+  ],
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "card_budget_hard_max": 4,
+    "concept_count": 2,
+    "nuclear_concept_count": 2,
+    "covered_nuclear_count": 2,
+    "e1_source_sha256": "be2948f63c2a1dc3efaae055d336b9c3ad1133532e0430e7016f59c17691a227",
+    "e1_pdf_sha256": "4bc56af122de13fe414aa6d811dcdece86d1ff44b4e6b7bddc4eaff2e87b3e16",
+    "passed": true
+  },
+  "manifest_sha256": "ef45221addb21763c5c5543f706eaa157db36a51e159c542da21e67f5cf48e87"
+}
