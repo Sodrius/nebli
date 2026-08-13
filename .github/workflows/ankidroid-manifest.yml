@@ -5,6 +5,13 @@ on:
   push:
     paths:
       - "flashcards/scripts/gerar_manifesto_ankidroid.py"
+      - "flashcards/scripts/canonical_cards.py"
+      - "flashcards/scripts/validar_release_e1_deck.py"
+      - "flashcards/scripts/validar_e1_formatacao.py"
+      - "flashcards/scripts/finalizar_entrega_canonica.py"
+      - "flashcards/schemas/**"
+      - "docs/canon/**"
+      - "AGENTS.md"
       - "flashcards/scripts/validar_deck_card_a_card.py"
       - "flashcards/tests/test_manifesto_*.py"
       - "flashcards/tests/test_release_e1_deck.py"
@@ -15,6 +22,13 @@ on:
   pull_request:
     paths:
       - "flashcards/scripts/gerar_manifesto_ankidroid.py"
+      - "flashcards/scripts/canonical_cards.py"
+      - "flashcards/scripts/validar_release_e1_deck.py"
+      - "flashcards/scripts/validar_e1_formatacao.py"
+      - "flashcards/scripts/finalizar_entrega_canonica.py"
+      - "flashcards/schemas/**"
+      - "docs/canon/**"
+      - "AGENTS.md"
       - "flashcards/scripts/validar_deck_card_a_card.py"
       - "flashcards/tests/test_manifesto_*.py"
       - "flashcards/tests/test_release_e1_deck.py"
@@ -38,4 +52,6 @@ jobs:
           flashcards/tests/test_manifesto_*.py
           flashcards/tests/test_release_e1_deck.py
           flashcards/tests/test_validar_deck_card_a_card.py
+          flashcards/tests/test_validar_e1_formatacao.py
+          flashcards/tests/test_card_cue_quality.py
           flashcards/scripts/test_pipeline_configuration.py

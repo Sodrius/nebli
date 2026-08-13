@@ -15,11 +15,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from card_cue_quality import (
-    portuguese_front_failures,
-    portuguese_text_failures,
-    semantic_cue_review_failures,
-)
+from validar_deck_card_a_card import validate_card
 from validar_e1_formatacao import validate_e1_formatting
 
 SCHEMA = "nebli-e1-deck-release-v1"
@@ -33,6 +29,14 @@ REVIEW_FLAGS = (
     "step1_depth_reviewed",
     "card_content_anchored",
     "independent_review_passed",
+    "source_to_e1_matrix_complete",
+    "beginner_zero_baseline_passed",
+    "stepwise_explanation_passed",
+    "didactic_flow_passed",
+    "uc02_exemplars_applied",
+    "rhetorical_questions_absent",
+    "visual_asset_hygiene_passed",
+    "rendered_pdf_visual_review_passed",
 )
 
 
@@ -96,6 +100,33 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
             errors.append(f"e1_review.{key} deve ser lista")
         elif value:
             errors.append(f"e1_review.{key} precisa estar vazio para liberar")
+    gaps = review.get("unresolved_beginner_gaps")
+    if not isinstance(gaps, list) or gaps:
+        errors.append("e1_review.unresolved_beginner_gaps deve ser lista vazia")
+    if source_text and "?" in source_text:
+        errors.append("E1 contém pergunta; perguntas retóricas e perguntas-âncora são proibidas")
+    matrix = release.get("source_to_e1_matrix")
+    if not isinstance(matrix, list) or not matrix:
+        errors.append("release_gate.source_to_e1_matrix[] obrigatório")
+    else:
+        allowed = {"ensinar", "integrar", "visual", "indisponível", "excluir"}
+        for index, row in enumerate(matrix):
+            if not isinstance(row, dict):
+                errors.append(f"source_to_e1_matrix[{index}] inválida"); continue
+            for key in ("origin", "decision"):
+                if not str(row.get(key) or "").strip(): errors.append(f"source_to_e1_matrix[{index}].{key} obrigatório")
+            if row.get("decision") not in allowed: errors.append(f"source_to_e1_matrix[{index}].decision inválida")
+            if row.get("decision") in {"ensinar", "integrar", "visual"} and not str(row.get("anchor") or "").strip():
+                errors.append(f"source_to_e1_matrix[{index}].anchor obrigatório")
+            if row.get("decision") in {"excluir", "indisponível"} and not str(row.get("exclusion_reason") or "").strip():
+                errors.append(f"source_to_e1_matrix[{index}].exclusion_reason obrigatório")
+    figures = review.get("visual_figure_ledger")
+    if figures:
+        for index, figure in enumerate(figures):
+            for key in ("file", "origin", "cognitive_task", "crop", "resolution", "caption_match", "rendered_page", "visual_approval"):
+                if not str(figure.get(key) or "").strip(): errors.append(f"visual_figure_ledger[{index}].{key} obrigatório")
+    elif not str(review.get("no_figure_rationale") or "").strip():
+        errors.append("E1 sem figuras exige e1_review.no_figure_rationale")
 
     errors.extend(validate_e1_formatting(release, deck_data_path))
 
@@ -196,7 +227,7 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
     if not isinstance(kernel_review, dict):
         errors.append("release_gate.retention_kernel_review obrigatório")
     else:
-        for flag in ("slots_fixed_before_search", "compression_review_passed", "ablation_review_passed"):
+        for flag in ("slots_fixed_before_authorship", "compression_review_passed", "ablation_review_passed"):
             if kernel_review.get(flag) is not True:
                 errors.append(f"retention_kernel_review.{flag}=true é obrigatório")
         if kernel_review.get("estimated_seconds_per_card_max") != 10:
@@ -208,10 +239,10 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         if not isinstance(card, dict):
             continue
         key = str(card.get("card_key") or "").strip()
-        estimated_seconds = card.get("estimated_seconds")
-        if (not isinstance(estimated_seconds, int) or isinstance(estimated_seconds, bool)
-                or estimated_seconds < 1 or estimated_seconds > 10):
-            errors.append(f"{key}: estimated_seconds deve ser inteiro entre 1 e 10")
+        for failure in validate_card(card):
+            errors.append(f"{key}: {failure}")
+        if source_text and _normalise(str(card.get("e1_anchor") or "")) not in source_text:
+            errors.append(f"{key}: e1_anchor não é literal na E1 revisada")
         cid = str(card.get("concept_id") or "").strip()
         if cid not in seen_concepts:
             errors.append(f"{key}: concept_id fora do release_gate: {cid}")
@@ -220,43 +251,6 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         actual_tier = str(card.get("tier") or "nucleo").lower()
         if actual_tier != expected_tier:
             errors.append(f"{key}: tier={actual_tier} diverge de importance={importance_by_concept.get(cid)}")
-        source = str(card.get("source") or "").lower()
-        if source == "authored":
-            for failure in portuguese_front_failures(
-                str(card.get("text") or ""), str(card.get("front_language") or "")
-            ):
-                errors.append(f"{key}: {failure}")
-            for failure in semantic_cue_review_failures(card, strict=True):
-                errors.append(f"{key}: {failure}")
-            for failure in portuguese_text_failures(
-                str(card.get("extra") or ""), str(card.get("extra_language") or ""), "extra"
-            ):
-                errors.append(f"{key}: {failure}")
-        elif source in {"anking", "external_deck"}:
-            if not str(card.get("validated_front") or "").strip():
-                errors.append(f"{key}: validated_front em português é obrigatório")
-            for failure in portuguese_front_failures(
-                str(card.get("validated_front") or ""),
-                str(card.get("front_language") or ""),
-            ):
-                errors.append(f"{key}: {failure}")
-            if card.get("portuguese_front_reviewed") is not True:
-                errors.append(f"{key}: portuguese_front_reviewed=true é obrigatório")
-        elif source == "io":
-            for failure in portuguese_text_failures(
-                str(card.get("prompt") or ""), str(card.get("prompt_language") or ""), "prompt"
-            ):
-                errors.append(f"{key}: {failure}")
-            if card.get("portuguese_prompt_reviewed") is not True:
-                errors.append(f"{key}: portuguese_prompt_reviewed=true é obrigatório")
-            for failure in portuguese_text_failures(
-                " ".join(str(answer) for answer in card.get("answers") or []),
-                str(card.get("answers_language") or ""),
-                "answers",
-            ):
-                errors.append(f"{key}: {failure}")
-            if card.get("portuguese_answers_reviewed") is not True:
-                errors.append(f"{key}: portuguese_answers_reviewed=true é obrigatório")
 
     return {
         "passed": not errors,

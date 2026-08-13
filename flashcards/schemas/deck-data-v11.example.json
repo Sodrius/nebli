@@ -1,0 +1,19 @@
+{
+  "metadata": {"uc": "UC03", "prova": "P1", "componente": "Componente", "nome_curto": "Aula"},
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "etapa1.typ",
+    "e1_source_sha256": "SHA256",
+    "e1_pdf": "Aula - E1.pdf",
+    "e1_pdf_sha256": "SHA256",
+    "card_budget_hard_max": 20,
+    "source_to_e1_matrix": [{"origin": "slide 1", "decision": "ensinar", "anchor": "Trecho literal"}],
+    "retention_kernel_review": {"slots_fixed_before_authorship": true, "compression_review_passed": true, "ablation_review_passed": true, "estimated_seconds_per_card_max": 10, "summary": "Revisão concluída."}
+  },
+  "cards": [{
+    "card_key": "c001", "concept_id": "conceito-1", "tier": "nucleo", "source": "authored",
+    "text": "O mecanismo produz {{c1::consequência}}.", "extra": "Explicação curta.",
+    "e1_anchor": "Trecho literal", "retrieval_target": "Recuperar a consequência.",
+    "semantic_review": {"ambiguity": "A pista determina uma resposta.", "anti_induction": "Exige conhecimento médico.", "duplicate_check": "Sem duplicação funcional."}
+  }]
+}
