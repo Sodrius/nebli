@@ -1,4 +1,4 @@
-# Pipeline canônico E1 + Deck-Aula — v9
+# Pipeline canônico E1 + Deck-Aula — v10
 
 ## Definição de pronto
 
@@ -15,10 +15,12 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
    objetivos, conteúdo visível, mecanismos, relações, informação visual e notas
    do professor cobertos ou explicitamente indisponíveis. A E1 precisa permitir
    estudar o core sem reabrir os slides na maior parte dos casos.
-5. Atomizar a E1 em conceitos nucleares, de apoio e opcionais.
-6. Definir porte e congelar `card_budget.hard_max` antes da seleção.
-7. Para cada conceito, definir a **recuperação específica** que justificaria um
-   card e sua âncora literal na E1.
+5. Classificar conceitos como `must_recall`, `derivable`, `e1_only` ou
+   `optional`, seguindo `docs/canon/NUCLEO-DE-RETENCAO.md`.
+6. Definir porte, congelar `card_budget.hard_max` e fixar os slots de recuperação
+   antes da busca AnKing.
+7. Para cada slot, definir a **recuperação específica** que justifica o card e
+   sua âncora literal na E1. Todo card deve caber em até 10 segundos.
 8. Planejar fonte na ordem AnKing → deck externo → autoral.
 9. Para cada recuperação, concluir a busca AnKing antes de autorar. Registrar
    consultas independentes, resposta esperada, contexto obrigatório/proibido,
@@ -44,7 +46,9 @@ manifesto completo `nebli-ankidroid-deck-v3`; APKG não faz parte do fluxo norma
 15. Registrar `release_gate=nebli-e1-deck-release-v1` no `deck-data.json`, com
     hashes da E1 fonte/PDF, revisão semântica, teto e matriz conceito → âncora →
     qualidade → cards. Todo nuclear exige cobertura 2–3 e toda omissão ou
-    ambiguidade nuclear precisa estar resolvida.
+    ambiguidade nuclear precisa estar resolvida. Incluir
+    `retention_kernel_review`: slots prévios à busca, compressão, ablação e teto
+    de 10 segundos aprovados.
 16. Rodar o gate card a card no total real. Uma falha impede empacotamento.
 17. Fechar a entrega pelo comando único:
 
@@ -96,6 +100,8 @@ Bloqueiam a conclusão:
 - card sem âncora E1;
 - card não atômico ou irrelevante;
 - teto excedido;
+- card removível sem perda relevante no teste de ablação;
+- conceito `derivable` sem caminho curto e explícito a partir de cards reais;
 - AnKing escolhido apenas por tema semelhante;
 - autoral direto sem busca AnKing completa e motivo real de rejeição;
 - card não-AnKing sem três buscas independentes, expansão de escopo, revisão de
