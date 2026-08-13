@@ -55,6 +55,7 @@ def canonical_data(tmp_path: Path) -> dict:
         "atomic": True,
         "relevant": True,
         "tier": "nucleo",
+        "estimated_seconds": 8,
         "fallback": authored_fallback(),
     }
     return {
@@ -71,6 +72,13 @@ def canonical_data(tmp_path: Path) -> dict:
             "e1_pdf": pdf.name,
             "e1_pdf_sha256": sha(pdf),
             "card_budget_hard_max": 25,
+            "retention_kernel_review": {
+                "slots_fixed_before_search": True,
+                "compression_review_passed": True,
+                "ablation_review_passed": True,
+                "estimated_seconds_per_card_max": 10,
+                "summary": "O card preserva uma recuperação indispensável do núcleo da aula.",
+            },
             "e1_review": {
                 "slide_inventory_complete": True,
                 "objectives_covered": True,
@@ -89,6 +97,7 @@ def canonical_data(tmp_path: Path) -> dict:
             "concepts": [{
                 "concept_id": "c-tlr4",
                 "importance": "nuclear",
+                "retention_class": "must_recall",
                 "e1_anchor": "O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana",
                 "coverage_quality": 3,
                 "card_keys": ["tlr4-lps"],
@@ -124,6 +133,7 @@ def direct_authored_card() -> dict:
         "tier": "nucleo",
         "atomic": True,
         "relevant": True,
+        "estimated_seconds": 8,
         **authored_fallback(),
         "anking_search_complete": True,
         "anking_search_queries": [
@@ -166,6 +176,46 @@ def test_nuclear_concept_without_quality_two_blocks_release(tmp_path):
     assert "coverage_quality" in (proc.stdout + proc.stderr)
 
 
+def test_derivable_nuclear_concept_does_not_require_its_own_card(tmp_path):
+    data = canonical_data(tmp_path)
+    data["release_gate"]["concepts"].append({
+        "concept_id": "c-response",
+        "importance": "nuclear",
+        "retention_class": "derivable",
+        "e1_anchor": "iniciando a resposta imune inata",
+        "coverage_quality": 3,
+        "card_keys": [],
+        "derived_from_card_keys": ["tlr4-lps"],
+        "derivation_rationale": "Reconhecer TLR4 como receptor de LPS reconstrói a abertura da resposta inata.",
+        "step1": {"decision": "not_applicable"},
+    })
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode == 0, proc.stderr
+    manifest = json.loads(out.read_text(encoding="utf-8"))
+    assert manifest["expected_card_count"] == 1
+    assert manifest["release_gate"]["nuclear_concept_count"] == 2
+
+
+def test_derivable_concept_requires_real_derivation_path(tmp_path):
+    data = canonical_data(tmp_path)
+    concept = data["release_gate"]["concepts"][0]
+    concept["retention_class"] = "derivable"
+    concept["card_keys"] = []
+    concept["derived_from_card_keys"] = []
+    concept["derivation_rationale"] = ""
+    proc, _ = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert "derivable exige" in (proc.stdout + proc.stderr)
+
+
+def test_release_requires_ablation_review(tmp_path):
+    data = canonical_data(tmp_path)
+    data["release_gate"]["retention_kernel_review"]["ablation_review_passed"] = False
+    proc, _ = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert "ablation_review_passed" in (proc.stdout + proc.stderr)
+
+
 def test_anking_card_cannot_be_silently_replaced_by_fallback(tmp_path):
     data = canonical_data(tmp_path)
     data["cards"][0]["anking_required"] = False
@@ -184,6 +234,7 @@ def test_direct_authorship_requires_broad_documented_anking_search(tmp_path):
         "tier": "nucleo",
         "atomic": True,
         "relevant": True,
+        "estimated_seconds": 10,
         **authored_fallback(),
         "anking_search_complete": True,
         "anking_search_queries": ["TLR4"],
@@ -276,6 +327,7 @@ def test_io_canonical_contract_is_hide_two_guess_two(tmp_path):
         "tier": "nucleo",
         "atomic": True,
         "relevant": True,
+        "estimated_seconds": 10,
         "mode": "hide_two_guess_two",
         "image_path": image.name,
         "answers": ["TLR4", "LPS"],
