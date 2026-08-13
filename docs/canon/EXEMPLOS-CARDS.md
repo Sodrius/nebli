@@ -48,7 +48,7 @@ caixa que simplesmente esconde o tecido.
 
 ## Volume
 
-Uma aula média com teto 40 pode terminar com 34 cards. Se a curadoria propõe 44,
-não cortar conceitos nucleares ao acaso nem exportar 44: deduplicar, atomizar sem
-fragmentar e revisar escopo. Se 44 continuar necessário, reabrir o contrato e
-justificar o novo teto antes do APKG.
+Uma aula média com teto 20 pode terminar com 16 cards. Se a curadoria propõe 24,
+não cortar conceitos nucleares ao acaso: deduplicar, procurar relações geradoras
+e revisar o escopo. Se o excesso continuar necessário, dividir a aula ou
+justificar explicitamente a exceção antes do manifesto.
