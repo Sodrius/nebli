@@ -69,4 +69,4 @@ A aula só fecha quando:
 
 ## Configuração ativa
 
-`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v9`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, release gate `nebli-e1-deck-release-v1`, 25 novos/dia e revisão sem teto prático. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.
+`config/pipeline.json` deve estar em `pipeline_version=e1-deck-v10`, backend `ankidroid`, schema `nebli-ankidroid-deck-v3`, release gate `nebli-e1-deck-release-v1`, 25 novos/dia e revisão sem teto prático. O deck é um núcleo de retenção de cards de até 10 segundos; siga `docs/canon/NUCLEO-DE-RETENCAO.md`. Desktop/APKG só podem reaparecer como fallback emergencial se o usuário pedir explicitamente.

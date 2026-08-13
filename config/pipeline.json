@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v9",
+  "pipeline_version": "e1-deck-v10",
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -86,12 +86,27 @@
   "card_quality_contract": "docs/canon/CARD-QUALITY.md",
   "card_budget": {
     "enforce_contract_hard_max": true,
+    "freeze_retrieval_slots_before_anking_search": true,
+    "require_compression_review": true,
+    "require_ablation_review": true,
+    "estimated_seconds_per_card_max": 10,
     "sanity_ranges": {
-      "small": [15, 25],
-      "medium": [25, 40],
-      "large": [35, 55]
+      "small": [8, 12],
+      "medium": [12, 18],
+      "large": [18, 22]
     },
-    "manual_review_above": 60
+    "default_hard_max": {
+      "small": 15,
+      "medium": 20,
+      "large": 25
+    },
+    "manual_review_above": 25,
+    "retention_classes": [
+      "must_recall",
+      "derivable",
+      "e1_only",
+      "optional"
+    ]
   },
   "authored_cards": {
     "front_language": "en",

@@ -21,6 +21,10 @@ class PipelineConfigurationTests(unittest.TestCase):
                          "nebli-ankidroid-deck-v3")
         self.assertEqual(config["new_cards_per_day"], 25)
         self.assertTrue(config["card_budget"]["enforce_contract_hard_max"])
+        self.assertTrue(config["card_budget"]["freeze_retrieval_slots_before_anking_search"])
+        self.assertTrue(config["card_budget"]["require_ablation_review"])
+        self.assertEqual(config["card_budget"]["estimated_seconds_per_card_max"], 10)
+        self.assertEqual(config["card_budget"]["default_hard_max"]["large"], 25)
         self.assertEqual(config["cloze_answer_words"]["preferred"], 1)
         self.assertEqual(config["cloze_answer_words"]["hard_max"], 3)
         self.assertEqual(config["image_occlusion"]["multi_label_mode"],

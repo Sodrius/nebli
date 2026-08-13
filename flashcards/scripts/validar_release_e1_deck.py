@@ -134,15 +134,35 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
             errors.append(f"{cid}: coverage_quality deve ser {minimum}..3")
         elif importance == "nuclear":
             covered_nuclear += 1
+        retention_class = str(row.get("retention_class") or "must_recall").lower()
+        if retention_class not in {"must_recall", "derivable", "e1_only", "optional"}:
+            errors.append(f"{cid}: retention_class inválido")
+        if importance == "nuclear" and retention_class == "e1_only":
+            errors.append(f"{cid}: conceito nuclear não pode ser e1_only")
         refs = row.get("card_keys")
-        if not isinstance(refs, list) or not refs:
-            errors.append(f"{cid}: card_keys vazio")
+        if not isinstance(refs, list):
+            errors.append(f"{cid}: card_keys deve ser lista")
             refs = []
+        if retention_class == "must_recall" and not refs:
+            errors.append(f"{cid}: must_recall exige card_keys")
         for ref in refs:
             key = str(ref).strip()
             if key not in card_keys:
                 errors.append(f"{cid}: card_key inexistente: {key}")
             referenced_cards.add(key)
+        derived_refs = row.get("derived_from_card_keys", [])
+        if not isinstance(derived_refs, list):
+            errors.append(f"{cid}: derived_from_card_keys deve ser lista")
+            derived_refs = []
+        if retention_class == "derivable":
+            if not derived_refs:
+                errors.append(f"{cid}: derivable exige derived_from_card_keys")
+            if not str(row.get("derivation_rationale") or "").strip():
+                errors.append(f"{cid}: derivable exige derivation_rationale")
+        for ref in derived_refs:
+            key = str(ref).strip()
+            if key not in card_keys:
+                errors.append(f"{cid}: derived_from_card_key inexistente: {key}")
         step1 = row.get("step1") or {}
         decision = step1.get("decision")
         if decision not in {"not_applicable", "incorporated", "rejected"}:
@@ -164,10 +184,26 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
     if unreferenced:
         errors.append("cards sem conceito de cobertura: " + ", ".join(unreferenced))
 
+    kernel_review = release.get("retention_kernel_review")
+    if not isinstance(kernel_review, dict):
+        errors.append("release_gate.retention_kernel_review obrigatório")
+    else:
+        for flag in ("slots_fixed_before_search", "compression_review_passed", "ablation_review_passed"):
+            if kernel_review.get(flag) is not True:
+                errors.append(f"retention_kernel_review.{flag}=true é obrigatório")
+        if kernel_review.get("estimated_seconds_per_card_max") != 10:
+            errors.append("retention_kernel_review.estimated_seconds_per_card_max deve ser 10")
+        if not str(kernel_review.get("summary") or "").strip():
+            errors.append("retention_kernel_review.summary obrigatório")
+
     for card in cards:
         if not isinstance(card, dict):
             continue
         key = str(card.get("card_key") or "").strip()
+        estimated_seconds = card.get("estimated_seconds")
+        if (not isinstance(estimated_seconds, int) or isinstance(estimated_seconds, bool)
+                or estimated_seconds < 1 or estimated_seconds > 10):
+            errors.append(f"{key}: estimated_seconds deve ser inteiro entre 1 e 10")
         cid = str(card.get("concept_id") or "").strip()
         if cid not in seen_concepts:
             errors.append(f"{key}: concept_id fora do release_gate: {cid}")

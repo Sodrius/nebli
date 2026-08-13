@@ -3,7 +3,7 @@ description: Gera E1 + Deck-Aula completo e diretamente instalável no AnkiDroid
 argument-hint: <slug> <slide.pdf> [UC] [Prova] [Componente] [Nome curto]
 ---
 
-# /resumo — pipeline E1 + Deck-Aula v9
+# /resumo — pipeline E1 + Deck-Aula v10
 
 Argumentos: $ARGUMENTS
 
@@ -15,10 +15,11 @@ artefatos completos, em leitura.
 ## 0. Carregar e obedecer o canônico
 
 Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
+`docs/canon/NUCLEO-DE-RETENCAO.md`,
 `docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
 canônicos. Confirme em `config/pipeline.json`:
 
-- `pipeline_version=e1-deck-v9`;
+- `pipeline_version=e1-deck-v10`;
 - backend `ankidroid`;
 - schema `nebli-ankidroid-deck-v3`;
 - instalação direta de AnKing + autorais + IO;
@@ -56,10 +57,11 @@ Para cada conceito registre:
 - âncora E1;
 - query em inglês médico e aliases;
 - necessidade visual;
-- **recuperação específica que o card deve testar**.
+- classe de retenção (`must_recall`/`derivable`/`e1_only`/`optional`);
+- **recuperação específica que o card deve testar**, quando houver slot.
 
-Classifique o porte, fixe `card_budget.hard_max` e congele o teto antes de fechar
-cards. Não use faixas como meta de quantidade.
+Classifique o porte, fixe `card_budget.hard_max`, congele o teto e os slots antes
+da busca AnKing. Não use faixas como meta de quantidade.
 
 ## 3. E1 antes dos cards
 
@@ -88,6 +90,11 @@ Para cada conceito, decida se merece card. Hard gate:
 - `nucleo` e `optional` separados.
 
 Se não agrega valor de recuperação, **não crie card**.
+
+Depois da montagem, rode compressão e ablação card a card. Se remover um card
+não elimina uma recuperação importante, remova-o. Registre o passe em
+`release_gate.retention_kernel_review`; todos os cards devem ser estimados em
+até 10 segundos.
 
 ## 5. Busca AnKing primeiro
 
