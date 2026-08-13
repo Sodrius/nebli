@@ -9,6 +9,10 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - A entrega só libera com `nebli-e1-deck-release-v1`: E1 fonte/PDF congeladas,
   revisão semântica independente, core nuclear 100% coberto e todo card ligado a
   uma âncora. Para Davi aparecem somente E1/PDF e manifesto do Companion.
+- E1 nunca é documento Typst autônomo: importa o template oficial, é montada por
+  `main.typ` com `pagina-padrao`, capa/sumário/etapa e `resumindo.typ`, e passa
+  revisão visual de todas as páginas. Redefinição local de página/parágrafo,
+  clipping, overflow ou defeito visual pendente bloqueiam o release.
 - Produto padrão: **E1 + Deck-Aula completo no AnkiDroid**.
 - Backend normal: AnkiDroid via Nebli Companion.
 - Schema final: `nebli-ankidroid-deck-v3`.
@@ -39,7 +43,7 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Um card = uma recuperação independente, específica e relevante.
 - Todo card deve ter âncora literal na E1.
 - Não criar cards por cota; respeitar teto congelado da aula.
-- Autorais: frente em inglês médico natural, Extra curto em português, exatamente um `c1`.
+- Todos os cards finais: frente, Extra, prompt e respostas de IO em português. Autorais usam exatamente um `c1` e gate universal anti-indução; rótulo estrangeiro de IO permanece coberto e recebe sobreposição em PT-BR.
 - Cloze: 1 palavra por padrão; 2 quando necessário; 3 raramente e com justificativa; 4+ bloqueia.
 - IO: só quando reconhecimento/localização agrega; máscara cobre o rótulo-resposta, não a estrutura; usar uma ou duas máscaras, com `pair_rationale` quando forem duas.
 - Card autoral procura primeiro mídia local do AnKing; slide/externa exige rejeição documentada. Toda imagem exige propósito cognitivo, crédito e QA didático.

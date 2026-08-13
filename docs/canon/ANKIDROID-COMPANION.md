@@ -46,6 +46,14 @@ Ele contém:
 A mídia pesada já existente no AnKing não é duplicada no manifesto: a cópia
 mantém as referências originais da coleção local.
 
+O runtime também impõe o contrato linguístico e cognitivo: frente e Extra
+autorais, prompt e respostas de IO em português, cópia local somente quando
+pergunta e resposta renderizadas estão em português e metadados de revisão
+anti-indução completos. O valor de `front_language` sozinho não basta; prosa
+inglesa marcada como PT-BR é bloqueada. Em IO derivado de imagem rotulada em
+outro idioma, a resposta mantém o rótulo original coberto e coloca no mesmo
+local um rótulo textual revisado em português.
+
 ## Nome e localização
 
 O nome é derivado exclusivamente de `deck_identity`:
@@ -77,7 +85,9 @@ Para cada card com `source=anking`:
 6. inferir o sibling/ordinal por `expected_answers`, separadamente do contexto;
 7. quando o conceito é visual, exigir que o candidato realmente tenha visual na
    pergunta;
-8. se o resultado for confiável, copiar literalmente a nota;
+8. se o resultado for confiável e a pergunta renderizada estiver em português,
+   copiar literalmente a nota; se estiver em inglês, usar o fallback autoral em
+   português e preservar a fonte apenas como referência de conteúdo/mídia;
 9. se for ambíguo, ausente ou visualmente insuficiente, usar o `fallback`
    validado do próprio manifesto — nunca escolher à força.
 

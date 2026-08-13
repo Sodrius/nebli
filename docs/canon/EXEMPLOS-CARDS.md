@@ -6,15 +6,15 @@ Os exemplos abaixo definem forma; não são artefatos de uma aula.
 
 **Preferido — uma palavra e uma recuperação**
 
-`The esophagus is lined by {{c1::squamous}} epithelium.`
+`O esôfago é revestido por epitélio {{c1::escamoso}}.`
 
 **Aceitável — duas palavras que formam uma unidade**
 
-`The distal esophagus is supplied by the {{c1::left gastric}} artery.`
+`O esôfago distal recebe irrigação da artéria {{c1::gástrica esquerda}}.`
 
 **Excepcional — três palavras**
 
-`The lower sphincter is a {{c1::physiologic high-pressure zone}}.`
+`O esfíncter inferior corresponde a uma {{c1::zona fisiológica hipertensiva}}.`
 
 Só aceitar o terceiro caso quando dividir destruir a expressão médica e registrar
 o motivo em `cloze_exception_reason`.
@@ -25,6 +25,17 @@ o motivo em `cloze_exception_reason`.
 - usar `c1` e `c2` na mesma nota;
 - duas ocorrências de cloze que cobram fatos lembráveis separadamente;
 - frente que já contém a resposta por sigla, definição ou pista gramatical.
+
+**Anti-indução — preferido**
+
+`A fixação imediata preserva a arquitetura ao impedir a {{c1::autólise}}.`
+
+**Anti-indução — reprovado**
+
+`A fixação impede a autólise e preserva a {{c1::arquitetura}}.`
+
+O segundo branco admite “morfologia”, “estrutura” e outras respostas e ainda
+oculta o termo mais previsível, não o mecanismo que merece retenção.
 
 ## Image Occlusion
 

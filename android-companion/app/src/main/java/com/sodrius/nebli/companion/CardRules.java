@@ -1,13 +1,22 @@
 package com.sodrius.nebli.companion;
 
+import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /** Hard card-quality rules shared by runtime install gates and unit tests. */
 public final class CardRules {
+    private static final Set<String> CLOZE_ROLES = new HashSet<>(Arrays.asList(
+            "mecanismo", "consequencia", "discriminador", "valor", "direcao", "rotulo_especifico"));
+    private static final Set<String> ENGLISH_FUNCTION_WORDS = new HashSet<>(Arrays.asList(
+            "the", "an", "is", "are", "was", "were", "by", "with", "when", "which",
+            "that", "from", "into", "during", "because", "requires", "uses"));
     // Keep both closing braces escaped. OpenJDK accepts bare `}}`, but
     // Android's regex implementation can reject it during class
     // initialization and wrap PatternSyntaxException in
@@ -24,7 +33,16 @@ public final class CardRules {
             String extraLanguage,
             boolean atomic,
             boolean relevant,
-            String clozeThreeWordReason
+            String clozeThreeWordReason,
+            boolean portugueseReviewed,
+            String clozeRole,
+            boolean knowledgeRequired,
+            boolean grammarOnlySolvable,
+            boolean lexicalLeak,
+            boolean answerVisibleElsewhere,
+            boolean blindReviewPassed,
+            int unresolvedPlausibleAlternatives,
+            boolean ambiguityReviewed
     ) {
         List<String> failures = new ArrayList<>();
         if (!atomic) failures.add("not_atomic");
@@ -33,10 +51,23 @@ public final class CardRules {
             failures.add("empty_text");
             return failures;
         }
-        if (!"en".equalsIgnoreCase(frontLanguage)) failures.add("front_language_not_en");
+        if (!isPortugueseLanguage(frontLanguage)) failures.add("front_language_not_pt");
+        if (looksEnglish(text)) failures.add("front_appears_english");
         if (!"pt-br".equalsIgnoreCase(extraLanguage) && !"pt".equalsIgnoreCase(extraLanguage)) {
             failures.add("extra_language_not_pt");
         }
+        if (looksEnglish(extra)) failures.add("extra_appears_english");
+        if (!portugueseReviewed) failures.add("portuguese_not_reviewed");
+        if (!CLOZE_ROLES.contains(clozeRole == null ? "" : clozeRole.toLowerCase(Locale.ROOT))) {
+            failures.add("invalid_cloze_role");
+        }
+        if (!knowledgeRequired) failures.add("knowledge_not_required");
+        if (grammarOnlySolvable) failures.add("grammar_only_solvable");
+        if (lexicalLeak) failures.add("lexical_leak");
+        if (answerVisibleElsewhere) failures.add("answer_visible_elsewhere");
+        if (!blindReviewPassed) failures.add("blind_review_not_passed");
+        if (unresolvedPlausibleAlternatives != 0) failures.add("unresolved_plausible_alternatives");
+        if (!ambiguityReviewed) failures.add("ambiguity_not_reviewed");
 
         Matcher m = clozePattern().matcher(text);
         int count = 0;
@@ -45,6 +76,9 @@ public final class CardRules {
             count++;
             if (!"1".equals(m.group(1))) failures.add("authored_cloze_must_use_c1_only");
             words = Math.max(words, wordCount(m.group(2)));
+        }
+        if (count == 1 && answerAppearsInVisibleStem(text)) {
+            failures.add("cloze_answer_visible_in_prompt");
         }
         if (count != 1) failures.add("authored_cloze_count_must_be_1");
         if (words < 1) failures.add("empty_cloze_answer");
@@ -57,6 +91,17 @@ public final class CardRules {
         if (normalized.length() > 360) failures.add("authored_front_too_long");
         if (looksLikeEnumeration(normalized)) failures.add("possible_multi_retrieval_enumeration");
         if (extra != null && plainWordCount(extra) > 100) failures.add("extra_too_long");
+        return failures;
+    }
+
+    public static List<String> validatePortuguesePrompt(
+            String prompt, String language, boolean portugueseReviewed
+    ) {
+        List<String> failures = new ArrayList<>();
+        if (prompt == null || prompt.isBlank()) failures.add("empty_prompt");
+        if (!isPortugueseLanguage(language)) failures.add("prompt_language_not_pt");
+        if (looksEnglish(prompt)) failures.add("prompt_appears_english");
+        if (!portugueseReviewed) failures.add("portuguese_prompt_not_reviewed");
         return failures;
     }
 
@@ -136,6 +181,36 @@ public final class CardRules {
         if (s == null) return 0;
         String x = s.trim().replaceAll("\\s+", " ");
         return x.isBlank() ? 0 : x.split(" ").length;
+    }
+
+    private static boolean isPortugueseLanguage(String language) {
+        return "pt".equalsIgnoreCase(language) || "pt-br".equalsIgnoreCase(language);
+    }
+
+    private static String normalizedWords(String value) {
+        String plain = value == null ? "" : value.replaceAll("<[^>]+>", " ");
+        String normalized = Normalizer.normalize(plain, Normalizer.Form.NFD)
+                .replaceAll("\\p{M}+", "")
+                .toLowerCase(Locale.ROOT)
+                .replaceAll("[^a-z0-9]+", " ")
+                .trim();
+        return normalized;
+    }
+
+    private static boolean looksEnglish(String value) {
+        int markers = 0;
+        for (String word : normalizedWords(value).split("\\s+")) {
+            if (ENGLISH_FUNCTION_WORDS.contains(word)) markers++;
+        }
+        return markers >= 3;
+    }
+
+    private static boolean answerAppearsInVisibleStem(String text) {
+        Matcher fresh = clozePattern().matcher(text == null ? "" : text);
+        if (!fresh.find()) return false;
+        String answer = normalizedWords(fresh.group(2));
+        String stem = normalizedWords(fresh.replaceFirst(" "));
+        return !answer.isBlank() && (" " + stem + " ").contains(" " + answer + " ");
     }
 
     private static Pattern clozePattern() {

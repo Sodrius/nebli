@@ -67,8 +67,14 @@
       "minimum_nuclear_coverage_quality": 2,
       "require_every_card_linked_to_e1_concept": true,
       "require_independent_e1_review": true,
+      "require_canonical_typst_template": true,
+      "forbid_local_page_and_paragraph_overrides": true,
+      "require_main_and_resumindo_structure": true,
+      "require_all_pages_rendered_and_visually_reviewed": true,
+      "format_validator": "flashcards/scripts/validar_e1_formatacao.py",
       "block_unresolved_core_omissions": true,
-      "block_unresolved_ambiguities": true
+      "block_unresolved_ambiguities": true,
+      "block_unresolved_visual_defects": true
     }
   },
   "require_offline_apkg": false,
@@ -109,7 +115,7 @@
     ]
   },
   "authored_cards": {
-    "front_language": "en",
+    "front_language": "pt-BR",
     "extra_language": "pt-BR",
     "retrievals_per_card": 1,
     "cloze_occurrences_per_card": 1,
@@ -122,6 +128,23 @@
     "slide_or_external_requires_anking_visual_rejection": true,
     "all_images_require_didactic_value_review": true
   },
+  "cue_quality": {
+    "applies_to_every_authored_card": true,
+    "require_medical_knowledge": true,
+    "block_grammar_only_answer": true,
+    "block_lexical_leak": true,
+    "block_answer_visible_elsewhere": true,
+    "require_blind_review": true,
+    "require_zero_unresolved_plausible_alternatives": true,
+    "allowed_cloze_roles": [
+      "mecanismo",
+      "consequencia",
+      "discriminador",
+      "valor",
+      "direcao",
+      "rotulo_especifico"
+    ]
+  },
   "cloze_answer_words": {
     "preferred": 1,
     "allowed": 2,
@@ -131,6 +154,11 @@
   },
   "image_occlusion": {
     "multi_label_mode": "hide_two_guess_two",
+    "prompt_language": "pt-BR",
+    "answers_language": "pt-BR",
+    "require_portuguese_prompt_review": true,
+    "require_portuguese_answers_review": true,
+    "replace_source_labels_with_portuguese_overlays_on_answer": true,
     "target_masks_per_card": 2,
     "minimum_masks_per_card": 1,
     "maximum_masks_per_card": 2,

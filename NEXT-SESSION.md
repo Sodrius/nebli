@@ -28,10 +28,12 @@ Isso deve ser suficiente.
 
 1. Leia `CLAUDE.md`, este arquivo, `MEMORY.md`, `ERROS.md` e `config/pipeline.json`.
 2. Leia `docs/canon/CARD-QUALITY.md`, `docs/canon/ANKIDROID-COMPANION.md`, `docs/canon/LOCAL-DECKS-AND-MEDIA.md`, `docs/canon/PIPELINE-E1-DECK.md` e `.claude/commands/resumo.md`.
-3. Confirme mecanicamente `pipeline_version=e1-deck-v10`, release gate
+3. Monte a E1 com o template oficial, compile e renderize todas as páginas;
+   valide `e1_format_review` antes de fechar o deck.
+4. Confirme mecanicamente `pipeline_version=e1-deck-v10`, release gate
    `nebli-e1-deck-release-v1` e schema `nebli-ankidroid-deck-v3`.
-4. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
-5. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
+5. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
+6. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
 
 ## Definição do Deck-Aula
 
@@ -63,7 +65,9 @@ Resumo dos hard gates:
 - nota AnKing é buscada pelo contexto e sibling é escolhido pela resposta esperada;
 - autoral direto exige busca AnKing completa e motivo concreto de rejeição;
 - cópia de fonte real é literal e a fonte é somente leitura;
-- autoral: inglês médico natural, Extra curto em português, exatamente um `c1`;
+- todo card final em português; autoral com frente e Extra em PT-BR, IO com
+  prompt/respostas/sobreposições em PT-BR, exatamente um `c1` nos autorais e
+  gate anti-indução;
 - cloze: 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ proibido;
 - evitar enumerações, mini-resumos, múltiplas respostas e redundância funcional;
 - visual só quando agrega uma tarefa cognitiva;
@@ -104,6 +108,7 @@ Obrigatório:
 - total ≤ `card_budget.hard_max`;
 - nenhuma `card_key` duplicada;
 - toda âncora E1 presente;
+- template canônico aplicado e revisão visual integral sem clipping/overflow;
 - todo fallback aplicável validado;
 - todo visual aplicável validado.
 

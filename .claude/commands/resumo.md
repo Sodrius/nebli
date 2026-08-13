@@ -65,9 +65,17 @@ da busca AnKing. Não use faixas como meta de quantidade.
 
 ## 3. E1 antes dos cards
 
-Escreva `typst-build/etapa1.typ` e `resumindo.typ`. A E1 precisa ensinar o
+Escreva `arquivos-trabalho/<slug>/main.typ`, `etapa1.typ` e `resumindo.typ`,
+sempre importando `typst-template/nebli_v2_apostila.typ`. `main.typ` aplica
+`pagina-padrao` e monta capa, sumário, cabeçalho de etapa e Resumindo; a E1 usa
+os helpers canônicos (`intro-box`, `parte-title`, `subtopico`, caixas e
+`conclusao-box`). É proibido redefinir localmente página, tipografia global,
+parágrafo, capa ou hierarquia visual.
+
+A E1 precisa ensinar o
 conteúdo antes que um card o cobre. Mecanismo antes de nomenclatura, conexão com
-a aula, explicação suficiente para aluno com base inicial baixa. Não gere
+a aula, explicação suficiente para aluno com base inicial baixa e parágrafos
+desenvolvidos — não um mosaico de frases, perguntas retóricas ou caixas. Não gere
 E2/E3/RemNote.
 
 Nenhum card pode introduzir aprofundamento ausente da E1. Conteúdo Step 1 aceito
@@ -78,6 +86,12 @@ Antes de congelar, faça revisão independente slide a slide e registre no
 explícitos, informação visual interpretada, notas cobertas ou indisponíveis,
 core estudável sem reabrir slides, aprofundamento Step 1 revisado, cards
 ancorados e nenhuma omissão/ambiguidade nuclear pendente.
+
+Compile o PDF e renderize **todas** as páginas. Faça revisão visual independente
+de hierarquia, espaçamento, legibilidade e integração das figuras, cortando a
+liberação diante de clipping, overflow ou defeito não resolvido. Registre o
+passe em `release_gate.e1_format_review` e rode
+`python flashcards/scripts/validar_e1_formatacao.py <deck-data.json>`.
 
 ## 4. Atomizar recuperações, não apenas tópicos
 

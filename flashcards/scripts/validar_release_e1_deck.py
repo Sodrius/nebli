@@ -15,6 +15,12 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from card_cue_quality import (
+    portuguese_front_failures,
+    portuguese_text_failures,
+    semantic_cue_review_failures,
+)
+from validar_e1_formatacao import validate_e1_formatting
 
 SCHEMA = "nebli-e1-deck-release-v1"
 REVIEW_FLAGS = (
@@ -90,6 +96,8 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
             errors.append(f"e1_review.{key} deve ser lista")
         elif value:
             errors.append(f"e1_review.{key} precisa estar vazio para liberar")
+
+    errors.extend(validate_e1_formatting(release, deck_data_path))
 
     cards = data.get("cards") if isinstance(data.get("cards"), list) else []
     card_keys = {
@@ -212,6 +220,43 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         actual_tier = str(card.get("tier") or "nucleo").lower()
         if actual_tier != expected_tier:
             errors.append(f"{key}: tier={actual_tier} diverge de importance={importance_by_concept.get(cid)}")
+        source = str(card.get("source") or "").lower()
+        if source == "authored":
+            for failure in portuguese_front_failures(
+                str(card.get("text") or ""), str(card.get("front_language") or "")
+            ):
+                errors.append(f"{key}: {failure}")
+            for failure in semantic_cue_review_failures(card, strict=True):
+                errors.append(f"{key}: {failure}")
+            for failure in portuguese_text_failures(
+                str(card.get("extra") or ""), str(card.get("extra_language") or ""), "extra"
+            ):
+                errors.append(f"{key}: {failure}")
+        elif source in {"anking", "external_deck"}:
+            if not str(card.get("validated_front") or "").strip():
+                errors.append(f"{key}: validated_front em português é obrigatório")
+            for failure in portuguese_front_failures(
+                str(card.get("validated_front") or ""),
+                str(card.get("front_language") or ""),
+            ):
+                errors.append(f"{key}: {failure}")
+            if card.get("portuguese_front_reviewed") is not True:
+                errors.append(f"{key}: portuguese_front_reviewed=true é obrigatório")
+        elif source == "io":
+            for failure in portuguese_text_failures(
+                str(card.get("prompt") or ""), str(card.get("prompt_language") or ""), "prompt"
+            ):
+                errors.append(f"{key}: {failure}")
+            if card.get("portuguese_prompt_reviewed") is not True:
+                errors.append(f"{key}: portuguese_prompt_reviewed=true é obrigatório")
+            for failure in portuguese_text_failures(
+                " ".join(str(answer) for answer in card.get("answers") or []),
+                str(card.get("answers_language") or ""),
+                "answers",
+            ):
+                errors.append(f"{key}: {failure}")
+            if card.get("portuguese_answers_reviewed") is not True:
+                errors.append(f"{key}: portuguese_answers_reviewed=true é obrigatório")
 
     return {
         "passed": not errors,

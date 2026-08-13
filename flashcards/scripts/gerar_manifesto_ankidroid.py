@@ -24,12 +24,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from card_cue_quality import (
+    portuguese_front_failures,
+    portuguese_text_failures,
+    semantic_cue_review_failures,
+)
 from validar_release_e1_deck import SCHEMA as RELEASE_SCHEMA, validate_release
 
 SCHEMA_V1 = "nebli-ankidroid-v1"
 SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
 SCHEMA_V3 = "nebli-ankidroid-deck-v3"
-CARD_CONTRACT = "nebli-card-quality-v1"
+CARD_CONTRACT = "nebli-card-quality-v2"
 CLOZE_RE = re.compile(r"\{\{c(\d+)::([^}:]+)(?:::[^}]*)?}}", re.I | re.S)
 
 
@@ -120,10 +125,18 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
         raise ValueError(f"{where}: fallback/autoral deve ter source=authored")
     text = str(card.get("text") or "")
     extra = str(card.get("extra") or "")
-    if card.get("front_language", "en").lower() != "en":
-        raise ValueError(f"{where}: autoral deve estar em inglês")
+    language_failures = portuguese_front_failures(
+        text, str(card.get("front_language") or "")
+    )
+    if language_failures:
+        raise ValueError(f"{where}: " + ", ".join(language_failures))
     if card.get("extra_language", "pt-BR").lower() not in {"pt", "pt-br"}:
         raise ValueError(f"{where}: Extra autoral deve estar em português")
+    extra_failures = portuguese_text_failures(
+        extra, str(card.get("extra_language") or ""), "extra"
+    )
+    if extra_failures:
+        raise ValueError(f"{where}: " + ", ".join(extra_failures))
     matches = list(CLOZE_RE.finditer(text))
     if len(matches) != 1:
         raise ValueError(f"{where}: autoral deve ter exatamente um cloze")
@@ -149,10 +162,13 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
             "unambiguous_prompt",
             "no_functional_duplicate",
             "extra_only_supports_answer",
-            "medical_english_reviewed",
+            "portuguese_reviewed",
         ):
             if quality.get(key) is not True:
                 raise ValueError(f"{where}: authored_quality.{key}=true é obrigatório")
+    cue_failures = semantic_cue_review_failures(card, strict=strict)
+    if cue_failures:
+        raise ValueError(f"{where}: " + ", ".join(cue_failures))
 
 
 def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
@@ -217,6 +233,25 @@ def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -
     if not str(card.get("source_credit") or "").strip():
         raise ValueError(f"{where}: IO exige source_credit")
     if strict:
+        prompt = str(card.get("prompt") or "")
+        if not prompt.strip():
+            raise ValueError(f"{where}: IO exige prompt em português")
+        language_failures = portuguese_text_failures(
+            prompt, str(card.get("prompt_language") or ""), "prompt"
+        )
+        if language_failures:
+            raise ValueError(f"{where}: " + ", ".join(language_failures))
+        if card.get("portuguese_prompt_reviewed") is not True:
+            raise ValueError(f"{where}: portuguese_prompt_reviewed=true é obrigatório")
+        answer_failures = portuguese_text_failures(
+            " ".join(str(answer) for answer in answers),
+            str(card.get("answers_language") or ""),
+            "answers",
+        )
+        if answer_failures:
+            raise ValueError(f"{where}: " + ", ".join(answer_failures))
+        if card.get("portuguese_answers_reviewed") is not True:
+            raise ValueError(f"{where}: portuguese_answers_reviewed=true é obrigatório")
         if len(str(card.get("cognitive_purpose") or "").strip()) < 10:
             raise ValueError(f"{where}: IO exige cognitive_purpose concreto")
         if card.get("didactic_value_reviewed") is not True:
@@ -441,6 +476,20 @@ def _prepare_v3_card(
     source = str(card.get("source") or "").lower()
     card["source"] = source
     if source in {"anking", "external_deck"}:
+        if strict:
+            if not str(card.get("validated_front") or "").strip():
+                raise ValueError(f"{key}: validated_front em português é obrigatório")
+            language_failures = portuguese_front_failures(
+                str(card.get("validated_front") or ""),
+                str(card.get("front_language") or ""),
+            )
+            if language_failures:
+                raise ValueError(
+                    f"{key}: cópia de deck local precisa de frente validada em português: "
+                    + ", ".join(language_failures)
+                )
+            if card.get("portuguese_front_reviewed") is not True:
+                raise ValueError(f"{key}: portuguese_front_reviewed=true é obrigatório")
         if not str(card.get("query") or "").strip():
             raise ValueError(f"{key}: card de deck local sem query")
         aliases = card.get("aliases") or []

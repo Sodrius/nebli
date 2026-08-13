@@ -34,6 +34,17 @@
       "unresolved_ambiguities": [],
       "summary": "Revisão independente concluída contra slides, objetivos e matriz de cobertura."
     },
+    "e1_format_review": {
+      "canonical_template_used": true,
+      "all_pages_rendered": true,
+      "layout_reviewed": true,
+      "paragraph_hierarchy_preserved": true,
+      "images_legible_and_integrated": true,
+      "no_clipping_or_overflow": true,
+      "independent_visual_review_passed": true,
+      "unresolved_visual_defects": [],
+      "summary": "E1 compilada com o template oficial; todas as páginas foram renderizadas e revisadas visualmente."
+    },
     "concepts": [
       {
         "concept_id": "c001",
@@ -63,15 +74,18 @@
       "query": "medical English note context",
       "aliases": ["independent medical alias"],
       "search_queries": ["medical English note context", "independent medical alias"],
-      "expected_answers": ["short answer"],
+      "expected_answers": ["resposta curta"],
       "must_contain": [],
       "must_not_contain": [],
+      "validated_front": "Um contexto médico específico identifica a resposta curta.",
+      "front_language": "pt-BR",
+      "portuguese_front_reviewed": true,
       "anking_required": true,
       "fallback": {
         "source": "authored",
-        "text": "Unambiguous medical context identifies {{c1::answer}}.",
+        "text": "Um contexto médico inequívoco identifica a {{c1::resposta}}.",
         "extra": "Explicação curta em português que apoia a recuperação.",
-        "front_language": "en",
+        "front_language": "pt-BR",
         "extra_language": "pt-BR",
         "retrieval_target": "Uma recuperação específica.",
         "authored_quality": {
@@ -79,7 +93,18 @@
           "unambiguous_prompt": true,
           "no_functional_duplicate": true,
           "extra_only_supports_answer": true,
-          "medical_english_reviewed": true
+          "portuguese_reviewed": true
+        },
+        "cue_quality": {
+          "cloze_role": "rotulo_especifico",
+          "knowledge_required": true,
+          "grammar_only_solvable": false,
+          "lexical_leak": false,
+          "answer_visible_elsewhere": false,
+          "blind_review_passed": true,
+          "plausible_alternatives": [],
+          "confounders_checked": [],
+          "ambiguity_review": "A pista específica determina uma única resposta médica no contexto."
         }
       }
     }

@@ -62,6 +62,7 @@ falha técnica bloqueia o lote em vez de instalar autoral.
 
 Cópias AnKing/deck externo:
 
+- só entram no deck final quando a frente renderizada já está em português;
 - conteúdo didático é literal, sem reescrita;
 - preservar note type, todos os campos, HTML, clozes, tags, mídia e créditos;
 - criar nota independente no Deck-Aula, com scheduling novo;
@@ -69,6 +70,8 @@ Cópias AnKing/deck externo:
 - selecionar somente o sibling relevante; os demais nascem suspensos;
 - se houver ambiguidade real de seleção, usar fallback validado em vez de
   escolher à força.
+- se a fonte adequada estiver em inglês, usá-la como referência de conteúdo,
+  profundidade e mídia; a recuperação final deve ser autoral em português.
 
 ## 4. Card autoral
 
@@ -76,7 +79,7 @@ O autoral existe para **lacuna real**, não para competir com um AnKing bom.
 
 Hard rules:
 
-- frente em inglês médico natural;
+- frente em português médico natural;
 - `Extra` curto em português;
 - uma única recuperação;
 - resposta estimada em até 10 segundos;
@@ -87,12 +90,30 @@ Hard rules:
 - 3 palavras apenas excepcionalmente e com justificativa registrada;
 - 4+ palavras bloqueia;
 - evitar enumerações e frases que peçam duas decisões independentes;
-- a pista deve tornar a resposta inequívoca sem entregar a resposta;
+- a pista deve tornar a resposta inequívoca sem entregá-la e sem permitir acerto
+  apenas por gramática, sobreposição lexical ou formato;
 - frente enxuta; limite operacional de 360 caracteres;
 - `Extra` até 100 palavras e apenas para contexto realmente útil.
 - `retrieval_target` explícito;
-- revisão registrada de pergunta inequívoca, inglês médico natural, ausência de
+- revisão registrada de pergunta inequívoca, português médico natural, ausência de
   duplicata funcional e Extra que apenas apoia a resposta.
+
+### Gate universal anti-indução
+
+Todo card autoral, independentemente da matéria, registra e passa:
+
+1. `cloze_role`: mecanismo, consequência, discriminador, valor, direção ou
+   rótulo específico;
+2. `knowledge_required=true`: acertar exige o conhecimento médico-alvo;
+3. `grammar_only_solvable=false`, `lexical_leak=false` e
+   `answer_visible_elsewhere=false`;
+4. revisão cega da frente mascarada;
+5. zero alternativas semanticamente defensáveis não resolvidas;
+6. lista dos confundidores próximos examinados e justificativa de unicidade.
+
+O teste central é: se alguém consegue completar o branco apenas relendo a frase,
+o cloze está no lugar errado. Mover o branco para o token de maior valor não
+autoriza ocultar uma oração longa: a resposta continua curta e atômica.
 
 ### Exemplos de direção
 
@@ -119,6 +140,9 @@ critério suficiente.
 Para IO:
 
 - usar `hide_two_guess_two`, normalmente com duas respostas coerentes;
+- escrever prompt e respostas finais em português e registrar revisão de ambos;
+- se a imagem-fonte trouxer rótulo em outro idioma, mantê-lo coberto também na
+  resposta e sobrepor a solução em português na mesma posição;
 - a máscara cobre o **rótulo-resposta**, não a estrutura que o aluno deve
   reconhecer;
 - no máximo duas máscaras; duas exigem `pair_rationale` e tarefa coerente;

@@ -133,8 +133,28 @@ public final class FullDeckInstaller {
                         && (search == null || search.optBoolean("require_anking_marker", true));
                 Resolution resolution = resolveLocalCopy(card, search, requireMarker, source);
                 p = resolution.plan;
+                if (p != null) {
+                    AnkiBridge.CardRow rendered = cardRow(p.sourceNote.nid, p.selectedOrd);
+                    List<String> languageFailures = CardRules.validatePortuguesePrompt(
+                            rendered == null ? "" : rendered.question,
+                            card.optString("front_language", ""),
+                            card.optBoolean("portuguese_front_reviewed", false)
+                    );
+                    languageFailures.addAll(CardRules.validatePortuguesePrompt(
+                            rendered == null ? "" : rendered.answer,
+                            card.optString("front_language", ""),
+                            card.optBoolean("portuguese_front_reviewed", false)
+                    ));
+                    if (!languageFailures.isEmpty()) {
+                        resolution = Resolution.unresolved(
+                                "source_front_not_portuguese", resolution.candidateCount,
+                                resolution.attemptedQueries);
+                        p = null;
+                    }
+                }
                 if (p == null) {
-                    if ("anking".equals(source) && card.optBoolean("anking_required", false)) {
+                    if ("anking".equals(source) && card.optBoolean("anking_required", false)
+                            && !"source_front_not_portuguese".equals(resolution.reason)) {
                         throw new IllegalStateException("AnKing validado não resolvido: "
                                 + card.optString("card_key") + " (" + resolution.reason + ")");
                     }
@@ -161,17 +181,44 @@ public final class FullDeckInstaller {
         Plan p = new Plan(card);
         p.actualSource = source;
         if ("authored".equals(source)) {
+            JSONObject authoredQuality = card.optJSONObject("authored_quality");
+            if (authoredQuality == null) authoredQuality = new JSONObject();
+            JSONObject cueQuality = card.optJSONObject("cue_quality");
+            if (cueQuality == null) cueQuality = new JSONObject();
+            JSONArray alternatives = cueQuality.optJSONArray("plausible_alternatives");
             List<String> failures = CardRules.validateAuthoredCloze(
                     card.optString("text"), card.optString("extra"),
-                    card.optString("front_language", "en"), card.optString("extra_language", "pt-BR"),
+                    card.optString("front_language", ""), card.optString("extra_language", "pt-BR"),
                     card.optBoolean("atomic", false), card.optBoolean("relevant", false),
-                    card.optString("three_word_cloze_reason", "")
+                    card.optString("three_word_cloze_reason", ""),
+                    authoredQuality.optBoolean("portuguese_reviewed", false),
+                    cueQuality.optString("cloze_role", ""),
+                    cueQuality.optBoolean("knowledge_required", false),
+                    cueQuality.optBoolean("grammar_only_solvable", true),
+                    cueQuality.optBoolean("lexical_leak", true),
+                    cueQuality.optBoolean("answer_visible_elsewhere", true),
+                    cueQuality.optBoolean("blind_review_passed", false),
+                    alternatives == null ? -1 : alternatives.length(),
+                    cueQuality.optString("ambiguity_review", "").trim().length() >= 20
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " authored gate: " + failures);
             p.mediaKeys.addAll(stringList(card.optJSONArray("media_keys")));
             resolveAnkingMediaRefs(p, search);
             p.resolutionStatus = "authored";
         } else if ("io".equals(source)) {
+            List<String> promptFailures = CardRules.validatePortuguesePrompt(
+                    card.optString("prompt"), card.optString("prompt_language", ""),
+                    card.optBoolean("portuguese_prompt_reviewed", false));
+            if (!promptFailures.isEmpty()) {
+                throw new IllegalArgumentException(p.cardKey + " Portuguese prompt gate: " + promptFailures);
+            }
+            List<String> ioAnswers = stringList(card.optJSONArray("answers"));
+            List<String> answerFailures = CardRules.validatePortuguesePrompt(
+                    String.join(" ", ioAnswers), card.optString("answers_language", ""),
+                    card.optBoolean("portuguese_answers_reviewed", false));
+            if (!answerFailures.isEmpty()) {
+                throw new IllegalArgumentException(p.cardKey + " Portuguese answers gate: " + answerFailures);
+            }
             double[][] boxes = boxes(card.getJSONArray("masks"));
             List<String> failures = CardRules.validateIo(
                     card.optString("mode"), boxes.length,
@@ -496,7 +543,8 @@ public final class FullDeckInstaller {
             List<double[]> boxList = boxList(card.getJSONArray("masks"));
             List<String> answers = stringList(card.optJSONArray("answers"));
             String question = IoRenderer.questionHtml(image, boxList, card.optString("prompt", "Identify the masked labels."));
-            String answer = IoRenderer.answerHtml(image, answers, card.optString("source_credit", ""));
+            String answer = IoRenderer.answerHtml(
+                    image, boxList, answers, card.optString("source_credit", ""));
             long ioMid = anki.ensureIoModel(targetDid);
             nid = anki.insertNote(ioMid,
                     new String[]{question, answer, card.optString("extra"), card.optString("source_credit")},
