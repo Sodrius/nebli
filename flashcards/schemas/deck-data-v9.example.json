@@ -12,6 +12,13 @@
     "e1_pdf": "Nome da aula - E1.pdf",
     "e1_pdf_sha256": "SHA256_DO_PDF_REVISADO",
     "card_budget_hard_max": 40,
+    "retention_kernel_review": {
+      "slots_fixed_before_search": true,
+      "compression_review_passed": true,
+      "ablation_review_passed": true,
+      "estimated_seconds_per_card_max": 10,
+      "summary": "Cada card restante preserva uma recuperação indispensável; derivações foram explicitadas."
+    },
     "e1_review": {
       "slide_inventory_complete": true,
       "objectives_covered": true,
@@ -31,6 +38,7 @@
       {
         "concept_id": "c001",
         "importance": "nuclear",
+        "retention_class": "must_recall",
         "e1_anchor": "Trecho literal da E1 que ensina o conceito.",
         "coverage_quality": 3,
         "card_keys": ["c001-anking"],
@@ -51,6 +59,7 @@
       "tier": "nucleo",
       "atomic": true,
       "relevant": true,
+      "estimated_seconds": 8,
       "query": "medical English note context",
       "aliases": ["independent medical alias"],
       "search_queries": ["medical English note context", "independent medical alias"],
