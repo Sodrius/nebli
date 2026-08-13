@@ -2,6 +2,7 @@ package com.sodrius.nebli.companion;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.net.Uri;
 import android.util.Base64;
 
@@ -84,6 +85,10 @@ public final class FullDeckInstaller {
                     throw new IllegalStateException("card gate failed: " + p.cardKey);
                 }
                 installed++;
+                if ((context.getApplicationInfo().flags & ApplicationInfo.FLAG_DEBUGGABLE) != 0
+                        && manifest.optInt("_integration_test_fail_after_installed", -1) == installed) {
+                    throw new IllegalStateException("falha controlada do teste de rollback");
+                }
                 skipped += r.skipped ? 1 : 0;
                 if ("anking".equals(r.actualSource)) anking++;
                 else if ("external_deck".equals(r.actualSource)) external++;
