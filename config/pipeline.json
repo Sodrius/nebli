@@ -62,13 +62,23 @@
     "release_gate": {
       "schema": "nebli-e1-deck-release-v1",
       "required": true,
+      "e1_contract": "docs/canon/E1.md",
       "require_reviewed_e1_source_and_pdf_hashes": true,
       "require_complete_nuclear_coverage": true,
       "minimum_nuclear_coverage_quality": 2,
       "require_every_card_linked_to_e1_concept": true,
       "require_independent_e1_review": true,
+      "require_source_to_e1_matrix": true,
+      "require_beginner_zero_baseline_review": true,
+      "require_stepwise_explanation_review": true,
+      "require_no_rhetorical_questions": true,
+      "require_uc02_exemplar_calibration": true,
+      "require_visual_figure_ledger": true,
+      "require_rendered_pdf_visual_review": true,
       "block_unresolved_core_omissions": true,
-      "block_unresolved_ambiguities": true
+      "block_unresolved_ambiguities": true,
+      "block_unresolved_beginner_gaps": true,
+      "block_unresolved_visual_defects": true
     }
   },
   "require_offline_apkg": false,

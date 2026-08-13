@@ -27,7 +27,24 @@ REVIEW_FLAGS = (
     "step1_depth_reviewed",
     "card_content_anchored",
     "independent_review_passed",
+    "source_to_e1_matrix_complete",
+    "beginner_zero_baseline_passed",
+    "stepwise_explanation_passed",
+    "didactic_flow_passed",
+    "uc02_exemplars_applied",
+    "rhetorical_questions_absent",
+    "visual_asset_hygiene_passed",
+    "rendered_pdf_visual_review_passed",
 )
+
+UNRESOLVED_REVIEW_LISTS = (
+    "unresolved_core_omissions",
+    "unresolved_ambiguities",
+    "unresolved_beginner_gaps",
+    "unresolved_visual_defects",
+)
+
+FIGURE_RE = re.compile(r"#figura(?:-nebli|-lateral)?\s*\(")
 
 
 def _normalise(value: str) -> str:
@@ -58,6 +75,7 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
     source_path = _resolve(base, release.get("e1_source"))
     pdf_path = _resolve(base, release.get("e1_pdf"))
     source_text = ""
+    source_raw = ""
     for label, path, hash_key in (
         ("e1_source", source_path, "e1_source_sha256"),
         ("e1_pdf", pdf_path, "e1_pdf_sha256"),
@@ -71,7 +89,8 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         elif expected != _sha256(path):
             errors.append(f"{hash_key} diverge do artefato revisado")
         if label == "e1_source":
-            source_text = _normalise(path.read_text(encoding="utf-8-sig"))
+            source_raw = path.read_text(encoding="utf-8-sig")
+            source_text = _normalise(source_raw)
 
     review = release.get("e1_review")
     if not isinstance(review, dict):
@@ -84,12 +103,46 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
         errors.append("e1_review.notes_review_status deve ser covered|unavailable")
     if not str(review.get("summary") or "").strip():
         errors.append("e1_review.summary obrigatório")
-    for key in ("unresolved_core_omissions", "unresolved_ambiguities"):
+    for key in UNRESOLVED_REVIEW_LISTS:
         value = review.get(key)
         if not isinstance(value, list):
             errors.append(f"e1_review.{key} deve ser lista")
         elif value:
             errors.append(f"e1_review.{key} precisa estar vazio para liberar")
+
+    source_without_comments = re.sub(r"(?m)^\s*//.*$", "", source_raw)
+    if "?" in source_without_comments:
+        errors.append("E1 contém ponto de interrogação; perguntas retóricas/âncora são bloqueadas")
+
+    source_figure_count = len(FIGURE_RE.findall(source_without_comments))
+    figure_ledger = review.get("visual_figure_ledger")
+    if not isinstance(figure_ledger, list):
+        errors.append("e1_review.visual_figure_ledger deve ser lista")
+        figure_ledger = []
+    if len(figure_ledger) != source_figure_count:
+        errors.append(
+            "e1_review.visual_figure_ledger precisa ter uma linha por figura "
+            f"({len(figure_ledger)} != {source_figure_count})"
+        )
+    for index, figure in enumerate(figure_ledger, start=1):
+        prefix = f"e1_review.visual_figure_ledger[{index}]"
+        if not isinstance(figure, dict):
+            errors.append(f"{prefix} deve ser objeto")
+            continue
+        for key in ("source_ref", "cognitive_task"):
+            if not str(figure.get(key) or "").strip():
+                errors.append(f"{prefix}.{key} obrigatório")
+        for flag in (
+            "crop_ok",
+            "native_resolution_ok",
+            "caption_mechanistic",
+            "text_figure_match",
+            "rendered_pdf_ok",
+        ):
+            if figure.get(flag) is not True:
+                errors.append(f"{prefix}.{flag}=true é obrigatório")
+    if source_figure_count == 0 and not str(review.get("no_figure_rationale") or "").strip():
+        errors.append("e1_review.no_figure_rationale obrigatório quando a E1 não tem figura")
 
     cards = data.get("cards") if isinstance(data.get("cards"), list) else []
     card_keys = {

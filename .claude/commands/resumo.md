@@ -15,6 +15,7 @@ artefatos completos, em leitura.
 ## 0. Carregar e obedecer o canônico
 
 Leia `CLAUDE.md`, `MEMORY.md`, `ERROS.md`, `docs/canon/CARD-QUALITY.md`,
+`docs/canon/E1.md`,
 `docs/canon/NUCLEO-DE-RETENCAO.md`,
 `docs/canon/PIPELINE-E1-DECK.md`, `docs/canon/ANKIDROID-COMPANION.md` e demais
 canônicos. Confirme em `config/pipeline.json`:
@@ -44,7 +45,14 @@ O deck canônico será:
 O pipeline deve preencher esses metadados no `deck-data.json`; não obrigue o
 usuário a nomear manualmente no Companion.
 
-## 2. Contrato de cobertura e orçamento
+## 2. Metadados pela planilha mestra
+
+Use a planilha mestra registrada em `MEMORY.md`, aba `Matérias`, como primeira
+autoridade para UC, prova, código/componente, número e título da aula. O arquivo
+da aula resolve diferenças de título; a planilha resolve organização. Pergunte
+somente se houver conflito material que as fontes não permitam decidir.
+
+## 3. Contrato de cobertura e orçamento
 
 Extraia slides, objetivos e perguntas orientadoras. Crie o contrato de cobertura.
 Para cada conceito registre:
@@ -63,23 +71,28 @@ Para cada conceito registre:
 Classifique o porte, fixe `card_budget.hard_max`, congele o teto e os slots antes
 da busca AnKing. Não use faixas como meta de quantidade.
 
-## 3. E1 antes dos cards
+## 4. E1 antes dos cards
 
-Escreva `typst-build/etapa1.typ` e `resumindo.typ`. A E1 precisa ensinar o
-conteúdo antes que um card o cobre. Mecanismo antes de nomenclatura, conexão com
-a aula, explicação suficiente para aluno com base inicial baixa. Não gere
-E2/E3/RemNote.
+Obedeça integralmente `docs/canon/E1.md`. Antes de redigir, leia as categorias
+universais e temáticas de `EXEMPLARES.md`, os anti-exemplares aplicáveis e pelo
+menos dois exemplares UC02 adequados ao tipo da aula. Crie a matriz fonte → E1
+com objetivos, slides, transcrição, perguntas orientadoras, notas e informação
+visual.
+
+Escreva `typst-build/etapa1.typ` e `resumindo.typ` para compreensão inicial zero.
+Retome pré-requisitos, explique cada mecanismo em etapas sem saltar elos, dê o
+nome técnico depois da ideia e conecte causa → mecanismo → consequência. Zero
+perguntas retóricas ou perguntas-âncora. Não gere E2/E3/RemNote.
 
 Nenhum card pode introduzir aprofundamento ausente da E1. Conteúdo Step 1 aceito
 entra primeiro na E1 e recebe nova âncora.
 
-Antes de congelar, faça revisão independente slide a slide e registre no
-`release_gate.e1_review`: inventário e objetivos completos, mecanismos
-explícitos, informação visual interpretada, notas cobertas ou indisponíveis,
-core estudável sem reabrir slides, aprofundamento Step 1 revisado, cards
-ancorados e nenhuma omissão/ambiguidade nuclear pendente.
+Antes de congelar, faça as quatro passadas de `docs/canon/E1.md`: fonte → E1;
+simulação do aluno inicial zero; comparação didática com UC02; PDF visual
+renderizado. Registre todos os campos canônicos em `release_gate.e1_review`, a
+matriz completa, listas de pendências vazias e uma linha auditável por figura.
 
-## 4. Atomizar recuperações, não apenas tópicos
+## 5. Atomizar recuperações, não apenas tópicos
 
 Para cada conceito, decida se merece card. Hard gate:
 
@@ -96,7 +109,7 @@ não elimina uma recuperação importante, remova-o. Registre o passe em
 `release_gate.retention_kernel_review`; todos os cards devem ser estimados em
 até 10 segundos.
 
-## 5. Busca AnKing primeiro
+## 6. Busca AnKing primeiro
 
 Para cada recuperação elegível:
 
@@ -128,7 +141,7 @@ validado em autoral.
 No fluxo v9, todo card planejado como `source="anking"` já é curado e portanto
 usa obrigatoriamente `anking_required=true`.
 
-## 6. Autorais — contrato rígido
+## 7. Autorais — contrato rígido
 
 Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
 
@@ -153,7 +166,7 @@ Autoral somente para lacuna real/fallback. Obedeça `CARD-QUALITY.md`:
 A existência de um fallback não permite autoria preguiçosa: ele precisa ser um
 bom card por si só.
 
-## 7. Visual e IO
+## 8. Visual e IO
 
 Defina decisão visual para cada recuperação antes de fechar o card.
 
@@ -179,7 +192,7 @@ Para IO:
 
 Se um card AnKing `requires_visual=true`, seu fallback deve ser IO válido.
 
-## 8. Construir o plano final `deck-data.json`
+## 9. Construir o plano final `deck-data.json`
 
 Crie `arquivos-trabalho/<slug>/deck-data.json` com metadados e **todos os cards
 reais pretendidos**.
@@ -209,7 +222,7 @@ gerador recusa qualquer deck sem esse bloco aprovado. Use
 
 Conte cards reais e confirme que o total está ≤ `card_budget.hard_max`.
 
-## 9. Validação card a card antes de empacotar
+## 10. Validação card a card antes de empacotar
 
 Gere `arquivos-trabalho/<slug>/validacao-cards.json` com **um registro por card
 real** e rode:
@@ -228,7 +241,7 @@ Obrigatório:
 
 Uma falha bloqueia; corrija o card e rode novamente. Não use amostragem.
 
-## 10. Fechar a entrega canônica
+## 11. Fechar a entrega canônica
 
 Somente após o gate 100%, execute o fechador único:
 
@@ -257,7 +270,7 @@ O gerador v3 deve:
 
 Não inclua o banco/índice/mídia privada do AnKing no GitHub.
 
-## 11. Instalação local automática
+## 12. Instalação local automática
 
 Ao abrir `<slug>.ankidroid.json` no Nebli Companion:
 
@@ -278,7 +291,7 @@ Ao abrir `<slug>.ankidroid.json` no Nebli Companion:
 
 Nenhuma pesquisa/seleção card a card pelo usuário é parte do fluxo normal.
 
-## 12. Revisão independente e fechamento
+## 13. Revisão independente e fechamento
 
 Revisores podem auditar cobertura/cards/visual após os artefatos estarem
 completos. A sessão principal aplica correções e repete os gates afetados.
@@ -286,6 +299,8 @@ completos. A sessão principal aplica correções e repete os gates afetados.
 Bloqueie se houver:
 
 - lacuna nuclear;
+- E1 que presume pré-requisito, salta elo explicativo ou usa pergunta retórica;
+- figura de slide sem higiene, ilegível ou não conferida no PDF renderizado;
 - card sem âncora E1;
 - card não atômico/irrelevante;
 - AnKing escolhido por semelhança apenas;
@@ -298,7 +313,7 @@ Bloqueie se houver:
 - fonte modificada;
 - write fora de `NEBLI::*`.
 
-## 13. Entrega
+## 14. Entrega
 
 Entregue ao usuário somente E1/PDF e manifesto v3. Preserve `deck-data.json`,
 validações e relatório como artefatos internos. Quando houver recibo do

@@ -139,3 +139,16 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 51. O nome do deck não é campo livre. Gerador e Companion derivam e conferem
     `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>` a partir dos quatro
     metadados; override divergente ou segmento ausente bloqueia a instalação.
+
+## E1 didática, completa e visual
+
+52. A reforma de 2026-08-09 moveu o contrato detalhado da E1 para `legacy` e
+    deixou no fluxo ativo apenas instruções abstratas. Resultado: E1 podia cobrir
+    tópicos sem realmente ensiná-los. O contrato vivo é `docs/canon/E1.md`; sua
+    leitura, os exemplares UC02 e as quatro passadas são obrigatórios.
+53. `core_coverage_complete=true` não prova didática. Bloquear E1 que presume
+    pré-requisito, salta elo causal, dá nome antes da ideia, enumera siglas ou
+    usa pergunta retórica para simular explicação.
+54. Imagem correta ainda pode estragar a E1. Bloquear slide inteiro, margem
+    morta, placeholder, ampliação borrada, legenda passiva, figura sem tarefa e
+    qualquer ativo não inspecionado no PDF renderizado.

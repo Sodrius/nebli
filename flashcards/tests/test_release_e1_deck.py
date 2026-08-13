@@ -89,9 +89,21 @@ def canonical_data(tmp_path: Path) -> dict:
                 "step1_depth_reviewed": True,
                 "card_content_anchored": True,
                 "independent_review_passed": True,
+                "source_to_e1_matrix_complete": True,
+                "beginner_zero_baseline_passed": True,
+                "stepwise_explanation_passed": True,
+                "didactic_flow_passed": True,
+                "uc02_exemplars_applied": True,
+                "rhetorical_questions_absent": True,
+                "visual_asset_hygiene_passed": True,
+                "rendered_pdf_visual_review_passed": True,
                 "notes_review_status": "unavailable",
                 "unresolved_core_omissions": [],
                 "unresolved_ambiguities": [],
+                "unresolved_beginner_gaps": [],
+                "unresolved_visual_defects": [],
+                "visual_figure_ledger": [],
+                "no_figure_rationale": "O fixture textual não contém informação visual.",
                 "summary": "E1 cobre o core da aula e integra apenas o aprofundamento diretamente útil.",
             },
             "concepts": [{
@@ -166,6 +178,74 @@ def test_missing_e1_semantic_review_blocks_release(tmp_path):
     assert proc.returncode != 0
     assert not out.exists()
     assert "core_study_without_slides" in (proc.stdout + proc.stderr)
+
+
+def test_beginner_zero_baseline_review_is_required(tmp_path):
+    data = canonical_data(tmp_path)
+    data["release_gate"]["e1_review"]["beginner_zero_baseline_passed"] = False
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert not out.exists()
+    assert "beginner_zero_baseline_passed" in (proc.stdout + proc.stderr)
+
+
+def test_question_mark_in_e1_blocks_release(tmp_path):
+    data = canonical_data(tmp_path)
+    e1 = tmp_path / data["release_gate"]["e1_source"]
+    e1.write_text(
+        "O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana. "
+        "Por que isso importa? A ligação inicia a resposta imune inata.",
+        encoding="utf-8",
+    )
+    data["release_gate"]["e1_source_sha256"] = sha(e1)
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert not out.exists()
+    assert "ponto de interrogação" in (proc.stdout + proc.stderr)
+
+
+def test_every_e1_figure_requires_visual_ledger_row(tmp_path):
+    data = canonical_data(tmp_path)
+    e1 = tmp_path / data["release_gate"]["e1_source"]
+    e1.write_text(
+        "O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana, "
+        "iniciando a resposta imune inata.\n"
+        '#figura-nebli("/figuras/tlr4.png", largura: 60%, legenda: [TLR4 e LPS.])',
+        encoding="utf-8",
+    )
+    data["release_gate"]["e1_source_sha256"] = sha(e1)
+    data["release_gate"]["e1_review"]["no_figure_rationale"] = ""
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert not out.exists()
+    assert "uma linha por figura" in (proc.stdout + proc.stderr)
+
+
+def test_complete_visual_ledger_allows_e1_figure(tmp_path):
+    data = canonical_data(tmp_path)
+    e1 = tmp_path / data["release_gate"]["e1_source"]
+    e1.write_text(
+        "O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana, "
+        "iniciando a resposta imune inata.\n"
+        '#figura-nebli("/figuras/tlr4.png", largura: 60%, '
+        "legenda: [O TLR4 reconhece o LPS e inicia a sinalização.])",
+        encoding="utf-8",
+    )
+    data["release_gate"]["e1_source_sha256"] = sha(e1)
+    review = data["release_gate"]["e1_review"]
+    review["no_figure_rationale"] = ""
+    review["visual_figure_ledger"] = [{
+        "source_ref": "slide 4, recorte TLR4-LPS",
+        "cognitive_task": "Relacionar ligante, receptor e início da sinalização.",
+        "crop_ok": True,
+        "native_resolution_ok": True,
+        "caption_mechanistic": True,
+        "text_figure_match": True,
+        "rendered_pdf_ok": True,
+    }]
+    proc, out = run_canonical(tmp_path, data)
+    assert proc.returncode == 0, proc.stderr
+    assert out.exists()
 
 
 def test_nuclear_concept_without_quality_two_blocks_release(tmp_path):

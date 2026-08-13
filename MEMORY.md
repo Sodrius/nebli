@@ -1,6 +1,6 @@
 # MEMORY.md — estado vivo do NEBLI
 
-Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
+Atualizado em 2026-08-13. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
 
 ## Estado atual
 
@@ -10,12 +10,28 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
   revisão semântica independente, core nuclear 100% coberto e todo card ligado a
   uma âncora. Para Davi aparecem somente E1/PDF e manifesto do Companion.
 - Produto padrão: **E1 + Deck-Aula completo no AnkiDroid**.
+- Contrato vivo da E1: `docs/canon/E1.md`. A E1 presume compreensão inicial
+  zero, explica passo a passo sem elos omitidos, não usa perguntas retóricas,
+  cobre integralmente o conteúdo relevante da aula e passa revisão visual do
+  PDF. As E1 da UC02 voltaram a ser exemplares operacionais obrigatórios.
 - Backend normal: AnkiDroid via Nebli Companion.
 - Schema final: `nebli-ankidroid-deck-v3`.
 - E2, E3 e RemNote desligados.
 - Retenção longitudinal: 25 novos/dia; revisões 9999/dia.
 - Desktop/APKG/Drive/Colab não pertencem ao fluxo normal.
 - O Nebli Companion final foi instalado e os testes reais de conexão, busca local e cópia segura no AnkiDroid passaram no tablet.
+
+## Planilha mestra do Davi
+
+- Google Sheets: `https://docs.google.com/spreadsheets/d/1T1RZ_vpqtchmdM8U2BXYmlHk7e-Ov-iCGM51PFIEqMU/edit`
+- ID: `1T1RZ_vpqtchmdM8U2BXYmlHk7e-Ov-iCGM51PFIEqMU`.
+- Título atual: `2026`; fuso `America/Sao_Paulo`.
+- Aba canônica para aulas: `Matérias` (`sheetId=1361835520`).
+- Usar como primeira autoridade de organização para UC, prova, código do
+  componente, número, data e título da aula. Os arquivos da aula continuam
+  autoridade para o conteúdo e resolvem diferenças pequenas de nomenclatura.
+- Não pedir esses metadados ao Davi quando a linha da planilha e os arquivos
+  permitirem inferência segura.
 
 ## O que o Companion final suporta
 
