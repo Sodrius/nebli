@@ -56,6 +56,16 @@ public class AnkiDroidIntegrationTest {
         throw new AssertionError("manifesto incompatível deveria ser bloqueado");
     }
 
+    @Test public void rollsBackEveryNewNoteAfterMidInstallFailure() throws Exception {
+        Context context = ApplicationProvider.getApplicationContext();
+        AnkiBridge anki = new AnkiBridge(context);
+        JSONObject m = manifest().put("lesson_slug", "ci-rollback").put("_integration_test_fail_after_installed", 1);
+        JSONObject receipt = new FullDeckInstaller(context).install(m);
+        assertTrue(receipt.toString(2), !receipt.getBoolean("ok"));
+        assertEquals(1, receipt.getInt("rolled_back_new_notes"));
+        assertEquals(-1L, anki.findNoteByTag("NEBLI::card::ci-rollback::pressao-valvula"));
+    }
+
     private static JSONObject manifest() throws Exception {
         JSONObject semantic = new JSONObject()
                 .put("ambiguity", "A relação causal delimita uma resposta única.")
