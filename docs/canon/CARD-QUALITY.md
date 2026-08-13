@@ -20,7 +20,7 @@ Antes de criar um card, deve existir:
 Se o conteúdo ainda precisa ser ensinado, ele entra primeiro na E1. O card não é
 o lugar de introduzir matéria nova.
 
-## 2. Quantidade
+## 2. Quantidade e cobertura
 
 - Definir e congelar `card_budget.hard_max` antes da seleção final.
 - Contar **cards Anki reais**, não notas, conceitos ou linhas JSON.
@@ -30,8 +30,14 @@ o lugar de introduzir matéria nova.
 - `nucleo` e `optional` não se misturam no mesmo card; opcionais vão para
   `<Deck-Aula>::Optional`.
 
-Faixas de sanidade, não metas: pequena 15–25; média 25–40; grande 35–55. O
-contrato da aula prevalece.
+O deck é o **núcleo de retenção**, não um espelho fato a fato da E1. Conceitos
+podem ser `must_recall`, `derivable`, `e1_only` ou `optional`, conforme
+`docs/canon/NUCLEO-DE-RETENCAO.md`. A cobertura completa pertence à E1; o deck
+retém o conjunto mínimo capaz de reconstruir o núcleo importante.
+
+Faixas de planejamento, não metas: pequena 8–12 (teto 15), média 12–18 (teto
+20), grande 18–22 (teto 25). Mais de 25 exige revisão explícita de divisão ou
+compressão da aula.
 
 ## 3. Ordem de fonte
 
@@ -73,6 +79,7 @@ Hard rules:
 - frente em inglês médico natural;
 - `Extra` curto em português;
 - uma única recuperação;
+- resposta estimada em até 10 segundos;
 - exatamente **uma ocorrência de cloze**;
 - usar `c1`;
 - resposta do cloze: **1 palavra por padrão**;
@@ -147,6 +154,7 @@ O gate exige:
 - card keys únicas;
 - nenhuma lacuna nuclear ignorada;
 - nenhuma mídia obrigatória ausente.
+- revisão de compressão e ablação aprovada para o núcleo inteiro.
 
 Após a instalação no AnkiDroid:
 
