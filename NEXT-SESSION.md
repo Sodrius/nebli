@@ -6,7 +6,7 @@ Este é o ponto de entrada operacional para uma nova sessão.
 
 A infraestrutura do Deck-Aula está pronta no `main`:
 
-- pipeline `e1-deck-v9`;
+- pipeline `e1-deck-v10`;
 - Companion AnkiDroid final instalado no tablet;
 - conexão real com AnkiDroid testada;
 - cópia segura real testada;
@@ -14,7 +14,7 @@ A infraestrutura do Deck-Aula está pronta no `main`:
 - AnKing, deck externo, autoral, mídia nova e IO suportados no fluxo direto;
 - hard gates de qualidade e regressão de 40 cards no CI.
 
-**Não reabra a arquitetura, não volte para Drive/Colab/APKG e não peça ao usuário para escolher cards manualmente.** Se uma aula real revelar um bug, corrija o bug dentro do pipeline v6.
+**Não reabra a arquitetura, não volte para Drive/Colab/APKG e não peça ao usuário para escolher cards manualmente.** Se uma aula real revelar um bug, corrija o bug dentro do pipeline canônico.
 
 ## Pedido que deve bastar na nova sessão
 
@@ -28,7 +28,7 @@ Isso deve ser suficiente.
 
 1. Leia `CLAUDE.md`, este arquivo, `MEMORY.md`, `ERROS.md` e `config/pipeline.json`.
 2. Leia `docs/canon/CARD-QUALITY.md`, `docs/canon/ANKIDROID-COMPANION.md`, `docs/canon/LOCAL-DECKS-AND-MEDIA.md`, `docs/canon/PIPELINE-E1-DECK.md` e `.claude/commands/resumo.md`.
-3. Confirme mecanicamente `pipeline_version=e1-deck-v9`, release gate
+3. Confirme mecanicamente `pipeline_version=e1-deck-v10`, release gate
    `nebli-e1-deck-release-v1` e schema `nebli-ankidroid-deck-v3`.
 4. Trate os PDFs/objetivos/perguntas orientadoras fornecidos como fontes da aula.
 5. Execute `/resumo` integralmente. Não pare entre etapas para pedir autorização.
@@ -54,6 +54,9 @@ Resumo dos hard gates:
 - um card = uma recuperação independente;
 - card precisa ser relevante para a aula e ter âncora literal na E1;
 - não criar cards para cumprir cota;
+- classificar conceitos como `must_recall`, `derivable`, `e1_only` ou `optional`;
+- fixar slots antes da busca e exigir resposta estimada em até 10 segundos;
+- remover todo card que não cause perda relevante no teste de ablação;
 - congelar e respeitar `card_budget.hard_max`;
 - ordem de fonte: AnKing adequado → deck externo adequado → autoral;
 - AnKing/deck externo deve testar exatamente a recuperação desejada, não um tema vizinho;
