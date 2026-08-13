@@ -19,9 +19,10 @@ a entrega ao usuário.
 - Volume proporcional ao peso da aula e limitado por `card_budget.hard_max` no
   contrato congelado. O total conta os cards Anki efetivamente gerados, inclusive
   opcionais; o montador não pode ultrapassar o teto silenciosamente.
-- Faixas de sanidade, não quotas: 15–25 cards para aula pequena, 25–40 para
-  média e 35–55 para grande. Mais de 60 exige revisão explícita do escopo e novo
-  teto antes da montagem.
+- O deck preserva o núcleo mínimo de retenção; fatos deriváveis e detalhes
+  `e1_only` não recebem cards próprios.
+- Faixas de planejamento, não quotas: 8–12 cards para aula pequena, 12–18 para
+  média e 18–22 para grande. Tetos padrão: 15, 20 e 25, respectivamente.
 - Ritmo longitudinal: 25 novos/dia e 9999 revisões/dia.
 - Cram usa busca/deck filtrado por UC, prova, componente, aula e importância.
 
