@@ -5,10 +5,16 @@ on:
   push:
     paths:
       - "android-companion/**"
+      - "config/pipeline.json"
+      - "docs/canon/**"
+      - "AGENTS.md"
       - ".github/workflows/android-companion.yml"
   pull_request:
     paths:
       - "android-companion/**"
+      - "config/pipeline.json"
+      - "docs/canon/**"
+      - "AGENTS.md"
       - ".github/workflows/android-companion.yml"
 
 jobs:

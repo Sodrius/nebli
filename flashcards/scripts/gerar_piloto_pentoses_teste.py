@@ -153,7 +153,7 @@ def main() -> None:
     facts = [{"id": cid, "e1_anchor": anchor, "importance": "nuclear", "route": {
         "source": "own", "card_refs": [text.replace("<b>", "").replace("</b>", "")], "coverage_quality": 2,
         "coverage_rationale": "card atômico recupera o fato e sua relação central na E1",
-        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}} for cid, _goal, text, _extra, anchor, _image in ROWS]
+        "prior_search": {"anking": "insufficient", "other_decks": "insufficient"}}} for cid, _goal, text, _extra, anchor, _image in ROWS]
     matrix = {"lesson_pipeline": "deck-aula-v1", "deck": DECK, "e1": {"path": E1},
               "e1_inventory": [{"id": cid} for cid, *_ in ROWS], "facts": facts,
               "e1_enrichments": [{"source_ref": "slides da aula", "importance": "nuclear", "decision": "incorporated", "e1_anchor": anchor} for _cid, _goal, _text, _extra, anchor, _image in ROWS]}

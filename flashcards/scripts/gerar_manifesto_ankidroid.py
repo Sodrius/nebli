@@ -30,6 +30,8 @@ from card_cue_quality import (
     semantic_cue_review_failures,
 )
 from validar_release_e1_deck import SCHEMA as RELEASE_SCHEMA, validate_release
+from canonical_cards import content_sha256, derived, ordered_card_set_sha256
+from validar_deck_card_a_card import validate_card
 
 SCHEMA_V1 = "nebli-ankidroid-v1"
 SCHEMA_V2 = "nebli-ankidroid-lesson-v2"
@@ -125,16 +127,10 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
         raise ValueError(f"{where}: fallback/autoral deve ter source=authored")
     text = str(card.get("text") or "")
     extra = str(card.get("extra") or "")
-    language_failures = portuguese_front_failures(
-        text, str(card.get("front_language") or "")
-    )
+    language_failures = portuguese_front_failures(text, "pt-BR")
     if language_failures:
         raise ValueError(f"{where}: " + ", ".join(language_failures))
-    if card.get("extra_language", "pt-BR").lower() not in {"pt", "pt-br"}:
-        raise ValueError(f"{where}: Extra autoral deve estar em português")
-    extra_failures = portuguese_text_failures(
-        extra, str(card.get("extra_language") or ""), "extra"
-    )
+    extra_failures = portuguese_text_failures(extra, "pt-BR", "extra")
     if extra_failures:
         raise ValueError(f"{where}: " + ", ".join(extra_failures))
     matches = list(CLOZE_RE.finditer(text))
@@ -151,24 +147,9 @@ def _validate_authored(card: dict[str, Any], where: str, *, strict: bool = False
         raise ValueError(f"{where}: Extra longo demais")
     if len(re.sub(r"<[^>]+>", "", text)) > 360:
         raise ValueError(f"{where}: frente excede 360 caracteres")
-    if strict:
-        if not str(card.get("retrieval_target") or "").strip():
-            raise ValueError(f"{where}: retrieval_target obrigatório")
-        quality = card.get("authored_quality")
-        if not isinstance(quality, dict):
-            raise ValueError(f"{where}: authored_quality obrigatório")
-        for key in (
-            "single_retrieval",
-            "unambiguous_prompt",
-            "no_functional_duplicate",
-            "extra_only_supports_answer",
-            "portuguese_reviewed",
-        ):
-            if quality.get(key) is not True:
-                raise ValueError(f"{where}: authored_quality.{key}=true é obrigatório")
-    cue_failures = semantic_cue_review_failures(card, strict=strict)
-    if cue_failures:
-        raise ValueError(f"{where}: " + ", ".join(cue_failures))
+    failures = validate_card(card)
+    if failures:
+        raise ValueError(f"{where}: " + ", ".join(failures))
 
 
 def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
@@ -203,7 +184,7 @@ def _validate_anking_search_evidence(card: dict[str, Any], where: str) -> None:
 def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -> None:
     if card.get("source") != "io":
         raise ValueError(f"{where}: IO deve ter source=io")
-    expected_mode = "hide_two_guess_two" if strict else "hide_all_guess_all"
+    expected_mode = "hide_two_guess_two"
     if card.get("mode") != expected_mode:
         raise ValueError(f"{where}: IO deve usar {expected_mode}")
     masks = card.get("masks")
@@ -211,51 +192,16 @@ def _validate_masks(card: dict[str, Any], where: str, *, strict: bool = False) -
         raise ValueError(f"{where}: IO sem máscaras")
     if strict and len(masks) > 2:
         raise ValueError(f"{where}: hide_two_guess_two permite no máximo 2 máscaras")
-    if len(masks) > 1 and card.get("coherent_set") is not True:
-        raise ValueError(f"{where}: IO multi-rótulo exige conjunto coerente")
     if strict and len(masks) == 2 and not str(card.get("pair_rationale") or "").strip():
         raise ValueError(f"{where}: par IO exige pair_rationale")
     answers = card.get("answers")
     if not isinstance(answers, list) or len(answers) != len(masks):
         raise ValueError(f"{where}: answers deve corresponder exatamente às máscaras")
-    hard_true = (
-        "masks_labels_not_structures",
-        "question_preview_validated",
-        "answer_preview_validated",
-        "visual_ok",
-        "real_source",
-    )
-    for key in hard_true:
-        if card.get(key) is not True:
-            raise ValueError(f"{where}: {key}=true é obrigatório")
-    if card.get("answer_leak", True):
-        raise ValueError(f"{where}: IO com vazamento de resposta")
     if not str(card.get("source_credit") or "").strip():
         raise ValueError(f"{where}: IO exige source_credit")
-    if strict:
-        prompt = str(card.get("prompt") or "")
-        if not prompt.strip():
-            raise ValueError(f"{where}: IO exige prompt em português")
-        language_failures = portuguese_text_failures(
-            prompt, str(card.get("prompt_language") or ""), "prompt"
-        )
-        if language_failures:
-            raise ValueError(f"{where}: " + ", ".join(language_failures))
-        if card.get("portuguese_prompt_reviewed") is not True:
-            raise ValueError(f"{where}: portuguese_prompt_reviewed=true é obrigatório")
-        answer_failures = portuguese_text_failures(
-            " ".join(str(answer) for answer in answers),
-            str(card.get("answers_language") or ""),
-            "answers",
-        )
-        if answer_failures:
-            raise ValueError(f"{where}: " + ", ".join(answer_failures))
-        if card.get("portuguese_answers_reviewed") is not True:
-            raise ValueError(f"{where}: portuguese_answers_reviewed=true é obrigatório")
-        if len(str(card.get("cognitive_purpose") or "").strip()) < 10:
-            raise ValueError(f"{where}: IO exige cognitive_purpose concreto")
-        if card.get("didactic_value_reviewed") is not True:
-            raise ValueError(f"{where}: IO exige didactic_value_reviewed=true")
+    failures = validate_card(card)
+    if failures:
+        raise ValueError(f"{where}: " + ", ".join(failures))
     for i, b in enumerate(masks):
         if not isinstance(b, dict):
             raise ValueError(f"{where}: máscara {i} inválida")
@@ -341,10 +287,6 @@ def _embed_authored_extra_images(
                 raise ValueError(f"{where}: extra_images[{i}] exige cognitive_purpose")
             if item.get("didactic_value_reviewed") is not True:
                 raise ValueError(f"{where}: extra_images[{i}] exige didactic_value_reviewed=true")
-            if item.get("anking_visual_search_complete") is not True:
-                raise ValueError(f"{where}: imagem externa exige busca visual AnKing completa")
-            if len(str(item.get("anking_visual_rejection_reason") or "").strip()) < 20:
-                raise ValueError(f"{where}: imagem externa exige rejeição visual AnKing concreta")
         key = _embed_media_file(raw_path, base_dir, media, f"{where}.extra_images[{i}]", credit)
         keys.append(key)
         evidence.append({
@@ -353,10 +295,6 @@ def _embed_authored_extra_images(
             "source_credit": credit,
             "cognitive_purpose": str(item.get("cognitive_purpose") or "").strip(),
             "didactic_value_reviewed": item.get("didactic_value_reviewed") is True,
-            "anking_visual_search_complete": item.get("anking_visual_search_complete") is True,
-            "anking_visual_rejection_reason": str(
-                item.get("anking_visual_rejection_reason") or ""
-            ).strip(),
         })
         blocks.append(
             '<div class="nebli-extra-image"><img src="nebli-media://'
@@ -468,13 +406,11 @@ def _prepare_v3_card(
     card["tier"] = str(card.get("tier") or "nucleo").lower()
     if card["tier"] not in {"nucleo", "optional"}:
         raise ValueError(f"{key}: tier deve ser nucleo ou optional")
-    if card.get("atomic") is not True:
-        raise ValueError(f"{key}: atomic=true é obrigatório")
-    if card.get("relevant") is not True:
-        raise ValueError(f"{key}: relevant=true é obrigatório")
 
     source = str(card.get("source") or "").lower()
     card["source"] = source
+    if strict and source in {"anking", "external_deck"}:
+        raise ValueError(f"{key}: source={source} está suspenso no modo authored_only")
     if source in {"anking", "external_deck"}:
         if strict:
             if not str(card.get("validated_front") or "").strip():
@@ -534,26 +470,23 @@ def _prepare_v3_card(
         if card.get("requires_visual") is True and card["fallback"]["source"] != "io":
             raise ValueError(f"{key}: conceito visual deve ter fallback IO")
     elif source == "authored":
-        if strict:
-            _validate_anking_search_evidence(card, key)
-        elif card.get("anking_search_complete") is not True:
-            raise ValueError(f"{key}: autoral direto exige anking_search_complete=true")
-        elif not str(card.get("anking_rejection_reason") or "").strip():
-            raise ValueError(f"{key}: autoral direto exige anking_rejection_reason")
+        if not strict:
+            if card.get("anking_search_complete") is not True:
+                raise ValueError(f"{key}: autoral legado exige anking_search_complete=true")
+            if not str(card.get("anking_rejection_reason") or "").strip():
+                raise ValueError(f"{key}: autoral legado exige anking_rejection_reason")
         _validate_authored(card, key, strict=strict)
         _embed_authored_extra_images(card, base_dir, media, key, strict=strict)
         _prepare_authored_anking_images(card, key, strict=strict)
     elif source == "io":
-        if strict:
-            _validate_anking_search_evidence(card, key)
         _validate_masks(card, key, strict=strict)
         _embed_io_media(card, base_dir, media, key)
     else:
         raise ValueError(f"{key}: source não suportado: {source}")
 
-    hashable = deepcopy(card)
-    hashable.pop("card_sha256", None)
-    card["card_sha256"] = _hash_obj(hashable)
+    card["derived"] = derived(card)
+    card["content_sha256"] = content_sha256(card)
+    card["card_sha256"] = card["content_sha256"]
     return card
 
 
@@ -624,6 +557,10 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
 
     manifest: dict[str, Any] = {
         "schema": SCHEMA_V3,
+        "pipeline_version": "e1-deck-v11",
+        "minimum_companion_version": "0.8.0",
+        "minimum_companion_version_code": 13,
+        "required_capabilities": ["authored_cards", "image_occlusion_hide_two_guess_two", "content_hash_validation", "transactional_install"],
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "lesson_slug": args.slug,
         "deck_identity": deck_identity,
@@ -631,21 +568,14 @@ def build_v3(args: argparse.Namespace) -> dict[str, Any]:
         "optional_subdeck": str(target_deck) + "::Optional",
         "expected_card_count": len(cards),
         "write_prefix": "NEBLI::",
+        "card_source_mode": "authored_only",
         "mutate_source": False,
         "open_ankidroid_after_install": True,
         "card_quality_contract": CARD_CONTRACT,
-        "search": {
-            "min_score": args.min_score,
-            "min_margin": args.min_margin,
-            "max_candidates": args.max_candidates,
-            "prefer_anking": True,
-            "require_anking_marker": True,
-            "source_filter_is_hint": True,
-            "ambiguous_policy": "use_validated_fallback",
-        },
         "cards": cards,
         "media": list(media.values()),
     }
+    manifest["ordered_card_set_sha256"] = ordered_card_set_sha256(cards)
     if release_result is not None:
         manifest["release_gate"] = {
             key: release_result[key]

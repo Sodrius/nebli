@@ -49,7 +49,7 @@ public class LessonActivity extends Activity {
         box.addView(title);
 
         TextView desc = new TextView(this);
-        desc.setText("Um arquivo da aula → AnKing local + lacunas autorais + Image Occlusion → deck completo no AnkiDroid.");
+        desc.setText("Um manifesto da aula → cards autorais + Image Occlusion → deck completo no AnkiDroid.");
         desc.setPadding(0, 14, 0, 24);
         box.addView(desc);
 
@@ -92,6 +92,7 @@ public class LessonActivity extends Activity {
             if (!FullDeckInstaller.SCHEMA.equals(m.optString("schema"))) {
                 throw new IllegalArgumentException("arquivo antigo/incompatível; gere novamente pelo pipeline atual");
             }
+            requireCompatibleCompanion(m);
             pendingManifest = m;
             if (!hasPermission()) {
                 status.setText("Conceda acesso ao AnkiDroid uma vez. Depois a instalação continua sozinha.");
@@ -217,5 +218,13 @@ public class LessonActivity extends Activity {
             current = next;
         }
         return out.toString();
+    }
+
+    static void requireCompatibleCompanion(JSONObject manifest) {
+        int requiredCode = manifest.optInt("minimum_companion_version_code", Integer.MAX_VALUE);
+        if (requiredCode > FullDeckInstaller.VERSION_CODE) {
+            String required = manifest.optString("minimum_companion_version", "mais recente");
+            throw new FullDeckInstaller.CompanionVersionException(required);
+        }
     }
 }

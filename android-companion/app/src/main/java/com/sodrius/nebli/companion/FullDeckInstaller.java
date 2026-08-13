@@ -31,6 +31,8 @@ import java.util.regex.Pattern;
 /** Installs a complete Nebli lesson: local deck copies + authored cards + IO. */
 public final class FullDeckInstaller {
     public static final String SCHEMA = "nebli-ankidroid-deck-v3";
+    public static final String VERSION = "0.8.0";
+    public static final int VERSION_CODE = 13;
     private static final Pattern CLOZE_TARGET = Pattern.compile("\\{\\{c(\\d+)::([^}:]+)", Pattern.CASE_INSENSITIVE);
 
     private final Context context;
@@ -181,54 +183,45 @@ public final class FullDeckInstaller {
         Plan p = new Plan(card);
         p.actualSource = source;
         if ("authored".equals(source)) {
-            JSONObject authoredQuality = card.optJSONObject("authored_quality");
-            if (authoredQuality == null) authoredQuality = new JSONObject();
-            JSONObject cueQuality = card.optJSONObject("cue_quality");
-            if (cueQuality == null) cueQuality = new JSONObject();
-            JSONArray alternatives = cueQuality.optJSONArray("plausible_alternatives");
+            JSONObject semantic = card.optJSONObject("semantic_review");
+            boolean semanticOk = semantic != null
+                    && semantic.optString("ambiguity").trim().length() >= 12
+                    && semantic.optString("anti_induction").trim().length() >= 12
+                    && semantic.optString("duplicate_check").trim().length() >= 12;
             List<String> failures = CardRules.validateAuthoredCloze(
                     card.optString("text"), card.optString("extra"),
-                    card.optString("front_language", ""), card.optString("extra_language", "pt-BR"),
-                    card.optBoolean("atomic", false), card.optBoolean("relevant", false),
+                    "pt-BR", "pt-BR", true, true,
                     card.optString("three_word_cloze_reason", ""),
-                    authoredQuality.optBoolean("portuguese_reviewed", false),
-                    cueQuality.optString("cloze_role", ""),
-                    cueQuality.optBoolean("knowledge_required", false),
-                    cueQuality.optBoolean("grammar_only_solvable", true),
-                    cueQuality.optBoolean("lexical_leak", true),
-                    cueQuality.optBoolean("answer_visible_elsewhere", true),
-                    cueQuality.optBoolean("blind_review_passed", false),
-                    alternatives == null ? -1 : alternatives.length(),
-                    cueQuality.optString("ambiguity_review", "").trim().length() >= 20
+                    true, "mecanismo", true, false, false, false,
+                    semanticOk, 0, semanticOk
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " authored gate: " + failures);
             p.mediaKeys.addAll(stringList(card.optJSONArray("media_keys")));
             resolveAnkingMediaRefs(p, search);
             p.resolutionStatus = "authored";
         } else if ("io".equals(source)) {
+            JSONObject visual = card.optJSONObject("visual_review");
+            if (visual == null) visual = new JSONObject();
             List<String> promptFailures = CardRules.validatePortuguesePrompt(
-                    card.optString("prompt"), card.optString("prompt_language", ""),
-                    card.optBoolean("portuguese_prompt_reviewed", false));
+                    card.optString("prompt"), "pt-BR", true);
             if (!promptFailures.isEmpty()) {
                 throw new IllegalArgumentException(p.cardKey + " Portuguese prompt gate: " + promptFailures);
             }
             List<String> ioAnswers = stringList(card.optJSONArray("answers"));
             List<String> answerFailures = CardRules.validatePortuguesePrompt(
-                    String.join(" ", ioAnswers), card.optString("answers_language", ""),
-                    card.optBoolean("portuguese_answers_reviewed", false));
+                    String.join(" ", ioAnswers), "pt-BR", true);
             if (!answerFailures.isEmpty()) {
                 throw new IllegalArgumentException(p.cardKey + " Portuguese answers gate: " + answerFailures);
             }
             double[][] boxes = boxes(card.getJSONArray("masks"));
             List<String> failures = CardRules.validateIo(
                     card.optString("mode"), boxes.length,
-                    card.optBoolean("masks_labels_not_structures", false),
-                    card.optBoolean("question_preview_validated", false),
-                    card.optBoolean("answer_preview_validated", false),
-                    card.optBoolean("visual_ok", false),
-                    card.optBoolean("real_source", false),
-                    card.optBoolean("answer_leak", true),
-                    card.optBoolean("coherent_set", boxes.length == 1),
+                    visual.optBoolean("labels_masked_not_structures", false),
+                    visual.optBoolean("question_preview", false),
+                    visual.optBoolean("answer_preview", false),
+                    visual.optBoolean("legible", false), true,
+                    !visual.optBoolean("no_leak", false),
+                    boxes.length == 1 || !card.optString("pair_rationale").isBlank(),
                     boxes
             );
             if (!failures.isEmpty()) throw new IllegalArgumentException(p.cardKey + " IO gate: " + failures);
@@ -605,6 +598,12 @@ public final class FullDeckInstaller {
 
     private void validateManifest(JSONObject m) throws Exception {
         if (!SCHEMA.equals(m.optString("schema"))) throw new IllegalArgumentException("schema incompatível: " + m.optString("schema"));
+        if (m.optInt("minimum_companion_version_code", Integer.MAX_VALUE) > VERSION_CODE) {
+            throw new CompanionVersionException(m.optString("minimum_companion_version", "mais recente"));
+        }
+        if (!"authored_only".equals(m.optString("card_source_mode"))) {
+            throw new IllegalArgumentException("manifesto não usa card_source_mode=authored_only");
+        }
         JSONObject release = m.optJSONObject("release_gate");
         if (release == null
                 || !"nebli-e1-deck-release-v1".equals(release.optString("schema"))
@@ -635,36 +634,22 @@ public final class FullDeckInstaller {
             String key = c.getString("card_key");
             if (!keys.add(key)) throw new IllegalArgumentException("card_key duplicado: " + key);
             if (c.optString("concept_id").isBlank()) throw new IllegalArgumentException("concept_id ausente: " + key);
-            if (!c.optBoolean("atomic", false)) throw new IllegalArgumentException("card não atômico: " + key);
-            if (!c.optBoolean("relevant", false)) throw new IllegalArgumentException("card irrelevante: " + key);
             String source = c.optString("source");
-            if (!"anking".equals(source) && !"external_deck".equals(source)
-                    && !"authored".equals(source) && !"io".equals(source)) {
-                throw new IllegalArgumentException("source v3 inválido: " + source);
-            }
-            if (("anking".equals(source) || "external_deck".equals(source))
-                    && (c.optJSONArray("search_queries") == null || c.optJSONArray("search_queries").length() == 0)) {
-                throw new IllegalArgumentException("card de fonte local sem search_queries: " + key);
-            }
-            if (("anking".equals(source) || "external_deck".equals(source))
-                    && (c.optJSONArray("expected_answers") == null || c.optJSONArray("expected_answers").length() == 0)) {
-                throw new IllegalArgumentException("card de fonte local sem expected_answers: " + key);
-            }
-            if ("anking".equals(source) && !c.optBoolean("anking_required", false)) {
-                throw new IllegalArgumentException("AnKing curado sem anking_required=true: " + key);
-            }
-            if ("external_deck".equals(source) || "authored".equals(source) || "io".equals(source)) {
-                validateAnkingSearchAudit(c, key);
-            }
-            if ("authored".equals(source)
-                    && (!c.optBoolean("anking_search_complete", false)
-                    || c.optString("anking_rejection_reason").isBlank())) {
-                throw new IllegalArgumentException("autoral direto sem prova de busca AnKing: " + key);
-            }
+            if (!"authored".equals(source) && !"io".equals(source)) throw new IllegalArgumentException("source suspenso no modo authored_only: " + source);
+            if (c.optString("content_sha256").length() != 64) throw new IllegalArgumentException("card sem content_sha256: " + key);
             if ("authored".equals(source)) validateAuthoredVisualContract(c, key);
             if ("io".equals(source)) validateIoContract(c, key);
         }
+        if (m.optString("ordered_card_set_sha256").length() != 64) throw new IllegalArgumentException("manifesto sem hash do conjunto ordenado");
         validateMediaCatalog(m, cards);
+    }
+
+    public static final class CompanionVersionException extends IllegalArgumentException {
+        public final String requiredVersion;
+        CompanionVersionException(String requiredVersion) {
+            super("Este manifesto exige Nebli Companion " + requiredVersion + " ou superior.");
+            this.requiredVersion = requiredVersion;
+        }
     }
 
     private void validateAuthoredVisualContract(JSONObject card, String key) throws Exception {
@@ -689,10 +674,8 @@ public final class FullDeckInstaller {
             for (String mediaKey : stringList(embedded)) {
                 JSONObject item = byKey.get(mediaKey);
                 if (item == null
-                        || !"slide_or_external".equals(item.optString("origin"))
-                        || !item.optBoolean("anking_visual_search_complete", false)
-                        || item.optString("anking_visual_rejection_reason").trim().length() < 20) {
-                    throw new IllegalArgumentException("imagem externa/slide sem rejeição visual AnKing documentada: " + key);
+                        || !"slide_or_external".equals(item.optString("origin"))) {
+                    throw new IllegalArgumentException("imagem externa/slide sem origem documentada: " + key);
                 }
                 if (!item.optBoolean("didactic_value_reviewed", false)
                         || item.optString("cognitive_purpose").trim().length() < 10
@@ -739,7 +722,8 @@ public final class FullDeckInstaller {
         if (card.optString("source_credit").isBlank()) {
             throw new IllegalArgumentException("IO sem crédito de origem: " + key);
         }
-        if (!card.optBoolean("didactic_value_reviewed", false)
+        JSONObject visual = card.optJSONObject("visual_review");
+        if (visual == null || !visual.optBoolean("didactic_value", false)
                 || card.optString("cognitive_purpose").trim().length() < 10) {
             throw new IllegalArgumentException("IO sem valor didático documentado: " + key);
         }

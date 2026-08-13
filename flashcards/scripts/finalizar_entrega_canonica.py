@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fecha o pipeline v9 e materializa somente E1/PDF + manifesto do Companion."""
+"""Fecha o pipeline canônico somente se relatório e artefatos ainda forem idênticos."""
 from __future__ import annotations
 
 import argparse
@@ -8,9 +8,11 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import hashlib
 from pathlib import Path
 
 from validar_deck_card_a_card import validate_report
+from canonical_cards import content_sha256, ordered_card_set_sha256, referenced_media_hashes, sha256_obj
 
 
 def main() -> int:
@@ -25,24 +27,23 @@ def main() -> int:
     report_path = args.validation_report.resolve()
     deck = json.loads(deck_path.read_text(encoding="utf-8"))
     report = json.loads(report_path.read_text(encoding="utf-8"))
-    result = validate_report(report, 0.82, 0.06)
-    if not result["ok"]:
-        raise SystemExit("ERRO: validação card a card reprovada: " + json.dumps(result, ensure_ascii=False))
+    if report.get("schema") != "nebli-card-validation-v2" or report.get("ok") is not True:
+        raise SystemExit("ERRO: relatório de validação ausente, antigo ou reprovado")
 
-    deck_keys = {
-        str(card.get("card_key") or "").strip()
-        for card in deck.get("cards", []) if isinstance(card, dict)
-    }
-    report_keys = {
-        str(card.get("card_key") or "").strip()
-        for card in report.get("cards", []) if isinstance(card, dict)
-    }
-    if deck_keys != report_keys:
-        raise SystemExit("ERRO: validation-report não corresponde exatamente aos cards de deck-data")
+    deck_cards = [card for card in deck.get("cards", []) if isinstance(card, dict)]
+    deck_rows = [{"card_key": str(card.get("card_key") or ""), "content_sha256": content_sha256(card)} for card in deck_cards]
+    report_rows = [{"card_key": str(card.get("card_key") or ""), "content_sha256": str(card.get("content_sha256") or "")} for card in report.get("cards", []) if isinstance(card, dict)]
+    if deck_rows != report_rows:
+        raise SystemExit("ERRO: cards, ordem ou conteúdo mudaram depois da validação")
+    deck_set_hash = ordered_card_set_sha256(deck_cards)
+    if report.get("ordered_card_set_sha256") != deck_set_hash:
+        raise SystemExit("ERRO: hash do conjunto ordenado diverge do relatório")
+    if report.get("media", []) != referenced_media_hashes(deck_cards, deck_path.parent):
+        raise SystemExit("ERRO: mídia mudou depois da revisão")
     release = deck.get("release_gate") or {}
-    if result["expected_card_count"] != len(deck_keys):
+    if report.get("expected_card_count") != len(deck_cards):
         raise SystemExit("ERRO: contagem validada diverge do deck-data")
-    if result["card_budget_hard_max"] != release.get("card_budget_hard_max"):
+    if report.get("card_budget_hard_max") != release.get("card_budget_hard_max"):
         raise SystemExit("ERRO: teto validado diverge do release_gate")
 
     e1_pdf = Path(str(release.get("e1_pdf") or ""))
@@ -67,6 +68,14 @@ def main() -> int:
         )
         if proc.returncode != 0:
             raise SystemExit(proc.stderr or proc.stdout or "ERRO: gerador de manifesto falhou")
+        manifest = json.loads(temp_manifest.read_text(encoding="utf-8"))
+        manifest_rows = [{"card_key": str(c.get("card_key") or ""), "content_sha256": str(c.get("content_sha256") or "")} for c in manifest.get("cards", [])]
+        if manifest_rows != report_rows or manifest.get("ordered_card_set_sha256") != deck_set_hash:
+            raise SystemExit("ERRO: manifesto gerado não contém exatamente os cards aprovados")
+        manifest["validation_report_sha256"] = hashlib.sha256(report_path.read_bytes()).hexdigest()
+        manifest.pop("manifest_sha256", None)
+        manifest["manifest_sha256"] = sha256_obj(manifest)
+        temp_manifest.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         temp_pdf = temp / final_pdf.name
         shutil.copy2(e1_pdf, temp_pdf)
         temp_pdf.replace(final_pdf)
