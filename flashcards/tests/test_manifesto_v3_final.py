@@ -13,12 +13,12 @@ def run(*args):
     return subprocess.run([sys.executable, str(SCRIPT), *argv], capture_output=True, text=True)
 
 
-def authored(text="The colon contains {{c1::haustra}}."):
+def authored(text="O cólon apresenta {{c1::haustrações}}."):
     return {
         "source": "authored",
         "text": text,
         "extra": "As haustrações resultam da organização da parede do cólon.",
-        "front_language": "en",
+        "front_language": "pt-BR",
         "extra_language": "pt-BR",
         "anking_search_complete": True,
         "anking_rejection_reason": "No exact AnKing retrieval remained after candidate review.",
@@ -90,7 +90,7 @@ def test_external_deck_is_supported_with_filter_and_validated_fallback(tmp_path)
         "source_filter": 'deck:"Anatomy Atlas"',
         "atomic": True,
         "relevant": True,
-        "fallback": authored("The inferior mesenteric artery supplies the {{c1::hindgut}}."),
+        "fallback": authored("A artéria mesentérica inferior irriga o {{c1::intestino posterior}}."),
     }
     spec = tmp_path / "deck.json"
     spec.write_text(json.dumps({

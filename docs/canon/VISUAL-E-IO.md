@@ -34,6 +34,10 @@ e são recuperadas juntas, reduzindo o número de cards sem criar listas longas.
 Um alvo isolado é permitido; mais de dois é bloqueado. O par precisa formar uma
 unidade cognitiva coerente e declarar `pair_rationale`.
 
+Prompt e respostas de IO são sempre revisados em português. Quando o rótulo
+impresso na imagem-fonte está em outro idioma, ele permanece coberto na face de
+resposta e o Companion sobrepõe a solução em português na posição da máscara.
+
 Anatomia macro combina, quando possível, esquema e peça real. Histologia combina
 identificação visual e card conceitual quando ambos são objetivos da aula.
 
@@ -42,7 +46,8 @@ identificação visual e card conceitual quando ambos são objetivos da aula.
 Todo visual declara necessidade, papel, tarefa, modo, fonte, crédito, hash,
 valor didático, preview e vazamento. IO declara rótulos, coordenadas, comportamento e se cada
 máscara cobre o rótulo-resposta. São obrigatórios preview de pergunta e de
-resposta, ambos revisados. Bloquear crop ruim, baixa resolução, resposta visível,
+resposta, ambos revisados, além de `answers_language=pt-BR` e revisão linguística
+das soluções. Bloquear crop ruim, baixa resolução, resposta visível,
 máscara sobre a pista anatômica/morfológica, rótulo duplicado exposto, imagem
 genérica ou preview ausente. O recibo de instalação compara as referências de
 mídia esperadas com pergunta e resposta realmente renderizadas no AnkiDroid.

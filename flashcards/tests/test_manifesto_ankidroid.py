@@ -85,12 +85,12 @@ def test_manifest_requires_exactly_one_input_mode(tmp_path):
     assert not out.exists()
 
 
-def authored(text="The hepatic portal vein drains into the {{c1::liver}}."):
+def authored(text="A veia porta hepática drena para o {{c1::fígado}}."):
     return {
         "source": "authored",
         "text": text,
         "extra": "A veia porta leva sangue do tubo digestório ao fígado.",
-        "front_language": "en",
+        "front_language": "pt-BR",
         "extra_language": "pt-BR",
         "anking_search_complete": True,
         "anking_rejection_reason": "No exact AnKing retrieval remained after candidate review.",
@@ -126,11 +126,11 @@ def test_v3_builds_complete_self_contained_deck_and_canonical_name(tmp_path):
                 "card_key": "c1-anking", "concept_id": "c1", "source": "anking",
                 "query": "marginal artery of Drummond", "aliases": ["marginal artery"],
                 "atomic": True, "relevant": True, "tier": "nucleo", "requires_visual": False,
-                "fallback": authored("The marginal artery of Drummond runs along the {{c1::colon}}."),
+                "fallback": authored("A artéria marginal de Drummond acompanha o {{c1::cólon}}."),
             },
             {
                 "card_key": "c2-authored", "concept_id": "c2", "atomic": True, "relevant": True,
-                **authored("The tenia libera is one of the {{c1::teniae coli}}."),
+                **authored("A tênia livre integra as {{c1::três tênias}} do cólon."),
             },
             {
                 "card_key": "c3-io", "concept_id": "c3", "atomic": True, "relevant": True,
@@ -155,7 +155,7 @@ def test_v3_builds_complete_self_contained_deck_and_canonical_name(tmp_path):
     assert manifest["search"]["ambiguous_policy"] == "use_validated_fallback"
     assert manifest["cards"][0]["fallback"]["source"] == "authored"
     assert manifest["cards"][0]["source_filter"] == 'deck:"AnKing Step Deck"'
-    assert manifest["cards"][0]["expected_answers"] == ["colon"]
+    assert manifest["cards"][0]["expected_answers"] == ["cólon"]
     assert manifest["cards"][0]["search_queries"] == [
         "marginal artery of Drummond", "marginal artery"
     ]
@@ -183,9 +183,9 @@ def test_v3_visual_anking_requires_io_fallback(tmp_path):
 
 def test_v3_rejects_long_or_multiple_authored_cloze(tmp_path):
     for bad_text in [
-        "The answer is {{c1::one two three four}}.",
+        "A resposta é {{c1::uma duas três quatro}}.",
         "{{c1::Portal}} blood enters the {{c1::liver}}.",
-        "The answer is {{c2::portal vein}}.",
+        "A resposta é {{c2::veia porta}}.",
     ]:
         data = {
             "metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"},
@@ -198,7 +198,7 @@ def test_v3_rejects_long_or_multiple_authored_cloze(tmp_path):
 
 def test_v3_rejects_duplicate_card_keys(tmp_path):
     a = {"card_key": "same", "concept_id": "a", "atomic": True, "relevant": True, **authored()}
-    b = {"card_key": "same", "concept_id": "b", "atomic": True, "relevant": True, **authored("The colon contains {{c1::haustra}}.")}
+    b = {"card_key": "same", "concept_id": "b", "atomic": True, "relevant": True, **authored("O cólon apresenta {{c1::haustrações}}.")}
     spec = tmp_path / "deck.json"
     spec.write_text(json.dumps({"metadata": {"uc": "UC01", "prova": "P1", "componente": "Teste", "nome_curto": "Aula"}, "cards": [a, b]}), encoding="utf-8")
     proc = run("--slug", "x", "--deck-data", str(spec), "--out", str(tmp_path / "out.json"))

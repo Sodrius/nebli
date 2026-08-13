@@ -7,58 +7,85 @@ import java.util.List;
 import org.junit.Test;
 
 public class CardRulesTest {
+    private static List<String> validateAuthored(
+            String text, String extra, String frontLanguage, String extraLanguage,
+            boolean atomic, boolean relevant, String threeWordReason
+    ) {
+        return CardRules.validateAuthoredCloze(
+                text, extra, frontLanguage, extraLanguage, atomic, relevant, threeWordReason,
+                true, "rotulo_especifico", true, false, false, false, true, 0, true);
+    }
+
     @Test
     public void goodAuthoredCardPasses() {
-        List<String> failures = CardRules.validateAuthoredCloze(
-                "The marginal artery runs along the {{c1::colon}}.",
+        List<String> failures = validateAuthored(
+                "A artéria marginal acompanha o {{c1::cólon}}.",
                 "A artéria marginal acompanha a borda mesentérica do cólon.",
-                "en", "pt-BR", true, true, ""
+                "pt-BR", "pt-BR", true, true, ""
         );
         assertTrue(failures.toString(), failures.isEmpty());
-        assertEquals(1, CardRules.clozeCount("The {{c1::colon}} has haustra."));
-        assertEquals(1, CardRules.clozeWordCount("The {{c1::colon}} has haustra."));
+        assertEquals(1, CardRules.clozeCount("O {{c1::cólon}} apresenta haustrações."));
+        assertEquals(1, CardRules.clozeWordCount("O {{c1::cólon}} apresenta haustrações."));
     }
 
     @Test
     public void multipleOrLongClozesFail() {
-        List<String> multiple = CardRules.validateAuthoredCloze(
-                "The {{c1::colon}} has {{c1::haustra}}.", "", "en", "pt-BR", true, true, ""
+        List<String> multiple = validateAuthored(
+                "O {{c1::cólon}} apresenta {{c1::haustrações}}.", "", "pt-BR", "pt-BR", true, true, ""
         );
         assertTrue(multiple.contains("authored_cloze_count_must_be_1"));
 
-        List<String> longAnswer = CardRules.validateAuthoredCloze(
-                "The structure is {{c1::one two three four}}.", "", "en", "pt-BR", true, true, ""
+        List<String> longAnswer = validateAuthored(
+                "A estrutura é {{c1::uma duas três quatro}}.", "", "pt-BR", "pt-BR", true, true, ""
         );
         assertTrue(longAnswer.contains("cloze_answer_over_3_words"));
     }
 
     @Test
     public void threeWordsNeedReason() {
-        List<String> noReason = CardRules.validateAuthoredCloze(
-                "The vessel is the {{c1::marginal artery Drummond}}.", "", "en", "pt-BR", true, true, ""
+        List<String> noReason = validateAuthored(
+                "O vaso é a {{c1::artéria marginal Drummond}}.", "", "pt-BR", "pt-BR", true, true, ""
         );
         assertTrue(noReason.contains("three_word_cloze_requires_reason"));
-        List<String> withReason = CardRules.validateAuthoredCloze(
-                "The vessel is the {{c1::marginal artery Drummond}}.", "", "en", "pt-BR", true, true,
-                "Irreducible anatomical name"
+        List<String> withReason = validateAuthored(
+                "O vaso é a {{c1::artéria marginal Drummond}}.", "", "pt-BR", "pt-BR", true, true,
+                "Nome anatômico irredutível"
         );
         assertFalse(withReason.contains("three_word_cloze_requires_reason"));
     }
 
     @Test
     public void languageAndAtomicityAreHardGates() {
-        List<String> failures = CardRules.validateAuthoredCloze(
-                "A estrutura é o {{c1::cólon}}.", "English extra", "pt", "en", false, false, ""
+        List<String> failures = validateAuthored(
+                "The structure is the {{c1::colon}}.",
+                "The extra is provided with English context.", "en", "en", false, false, ""
         );
         assertTrue(failures.contains("not_atomic"));
         assertTrue(failures.contains("not_relevant"));
-        assertTrue(failures.contains("front_language_not_en"));
+        assertTrue(failures.contains("front_language_not_pt"));
+        assertTrue(failures.contains("front_appears_english"));
         assertTrue(failures.contains("extra_language_not_pt"));
+        assertTrue(failures.contains("extra_appears_english"));
+    }
+
+    @Test
+    public void inductionReviewIsAHardGate() {
+        List<String> failures = CardRules.validateAuthoredCloze(
+                "A fixação imediata impede a {{c1::autólise}}.", "", "pt-BR", "pt-BR",
+                true, true, "", true, "mecanismo", false, true, true, true,
+                false, 2, false);
+        assertTrue(failures.contains("knowledge_not_required"));
+        assertTrue(failures.contains("grammar_only_solvable"));
+        assertTrue(failures.contains("lexical_leak"));
+        assertTrue(failures.contains("answer_visible_elsewhere"));
+        assertTrue(failures.contains("blind_review_not_passed"));
+        assertTrue(failures.contains("unresolved_plausible_alternatives"));
+        assertTrue(failures.contains("ambiguity_not_reviewed"));
     }
 
     @Test
     public void basicFallbackHidesAndRevealsOnlyTarget() {
-        String text = "The colon contains {{c1::haustra}}.";
+        String text = "O cólon apresenta {{c1::haustrações}}.";
         String q = CardRules.clozeQuestion(text);
         String a = CardRules.clozeAnswer(text);
         assertFalse(q.contains("{{c1::"));

@@ -24,6 +24,8 @@ def base(i: int, source: str) -> dict:
 def anking_card(i: int) -> dict:
     return {
         **base(i, "anking"),
+        "front_language": "pt-BR",
+        "portuguese_front_reviewed": True,
         "source_safe": True,
         "same_note_type": True,
         "same_fields": True,
@@ -45,6 +47,8 @@ def anking_card(i: int) -> dict:
 def external_card(i: int) -> dict:
     return {
         **base(i, "external_deck"),
+        "front_language": "pt-BR",
+        "portuguese_front_reviewed": True,
         "source_safe": True,
         "same_note_type": True,
         "same_fields": True,
@@ -66,7 +70,7 @@ def external_card(i: int) -> dict:
 def authored_card(i: int) -> dict:
     return {
         **base(i, "authored"),
-        "front_language": "en",
+        "front_language": "pt-BR",
         "extra_language": "pt-BR",
         "cloze_count": 1,
         "cloze_index": 1,
@@ -74,6 +78,15 @@ def authored_card(i: int) -> dict:
         "extra_words": 24,
         "front_characters": 92,
         "multi_retrieval": False,
+        "portuguese_reviewed": True,
+        "knowledge_required": True,
+        "blind_review_passed": True,
+        "ambiguity_reviewed": True,
+        "grammar_only_solvable": False,
+        "lexical_leak": False,
+        "answer_visible_elsewhere": False,
+        "cloze_role": "mecanismo",
+        "unresolved_plausible_alternatives": 0,
         "requires_visual": False,
         "has_extra_media": False,
         "anking_search_complete": True,
@@ -86,6 +99,10 @@ def io_card(i: int) -> dict:
     return {
         **base(i, "io"),
         "requires_visual": True,
+        "prompt_language": "pt-BR",
+        "answers_language": "pt-BR",
+        "portuguese_prompt_reviewed": True,
+        "portuguese_answers_reviewed": True,
         "mode": "hide_two_guess_two",
         "mask_count": 2,
         "coherent_set": True,
@@ -170,6 +187,19 @@ def test_bad_authored_cloze_blocks_card():
     failures = result["cards"][31]["failures"]
     assert "cloze_words>3" in failures
     assert "cloze_count_must_be_1" in failures
+
+
+def test_authored_cue_must_require_knowledge_without_induction():
+    report = realistic_40_card_report()
+    card = report["cards"][31]
+    card["grammar_only_solvable"] = True
+    card["knowledge_required"] = False
+    card["unresolved_plausible_alternatives"] = 2
+    result = gate.validate_report(report, 0.82, 0.06)
+    failures = result["cards"][31]["failures"]
+    assert "grammar_only_solvable" in failures
+    assert "knowledge_required" in failures
+    assert "unresolved_plausible_alternatives" in failures
 
 
 def test_three_word_authored_cloze_requires_reason():

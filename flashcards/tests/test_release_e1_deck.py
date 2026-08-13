@@ -16,9 +16,9 @@ def sha(path: Path) -> str:
 def authored_fallback():
     return {
         "source": "authored",
-        "text": "Bacterial lipopolysaccharide is sensed by {{c1::TLR4}}.",
+        "text": "O lipopolissacarídeo bacteriano é reconhecido pelo {{c1::TLR4}}.",
         "extra": "O TLR4 reconhece LPS bacteriano na imunidade inata.",
-        "front_language": "en",
+        "front_language": "pt-BR",
         "extra_language": "pt-BR",
         "retrieval_target": "Identificar o receptor inato que reconhece LPS.",
         "authored_quality": {
@@ -26,7 +26,18 @@ def authored_fallback():
             "unambiguous_prompt": True,
             "no_functional_duplicate": True,
             "extra_only_supports_answer": True,
-            "medical_english_reviewed": True,
+            "portuguese_reviewed": True,
+        },
+        "cue_quality": {
+            "cloze_role": "rotulo_especifico",
+            "knowledge_required": True,
+            "grammar_only_solvable": False,
+            "lexical_leak": False,
+            "answer_visible_elsewhere": False,
+            "blind_review_passed": True,
+            "plausible_alternatives": [],
+            "confounders_checked": ["TLR2", "TLR5"],
+            "ambiguity_review": "A pista LPS discrimina TLR4 de outros receptores inatos.",
         },
     }
 
@@ -34,8 +45,25 @@ def authored_fallback():
 def canonical_data(tmp_path: Path) -> dict:
     e1 = tmp_path / "etapa1.typ"
     e1.write_text(
+        '#import "../../typst-template/nebli_v2_apostila.typ": *\n'
+        '#intro-box[Introdução.]\n'
+        '#parte-title("PARTE I — Reconhecimento", primeira: true)\n'
+        '#subtopico("1.1 — TLR4")\n'
         "O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana, "
-        "iniciando a resposta imune inata.",
+        "iniciando a resposta imune inata.\n"
+        '#conclusao-box[Conclusão.]\n',
+        encoding="utf-8",
+    )
+    (tmp_path / "main.typ").write_text(
+        '#import "../../typst-template/nebli_v2_apostila.typ": *\n'
+        '#show: pagina-padrao\n#capa("Título", "Subtítulo", ())\n'
+        '#sumario(())\n#etapa-header("Etapa 1")\n'
+        '#include "etapa1.typ"\n#include "resumindo.typ"\n',
+        encoding="utf-8",
+    )
+    (tmp_path / "resumindo.typ").write_text(
+        '#import "../../typst-template/nebli_v2_apostila.typ": *\n'
+        '#resumindo-page((("Síntese", [Conteúdo.]),))\n',
         encoding="utf-8",
     )
     pdf = tmp_path / "Reconhecimento inato - E1.pdf"
@@ -44,6 +72,9 @@ def canonical_data(tmp_path: Path) -> dict:
         "card_key": "tlr4-lps",
         "concept_id": "c-tlr4",
         "source": "anking",
+        "validated_front": "O lipopolissacarídeo bacteriano é reconhecido pelo {{c1::TLR4}}.",
+        "front_language": "pt-BR",
+        "portuguese_front_reviewed": True,
         "query": "TLR4 lipopolysaccharide innate immune recognition",
         "aliases": ["TLR4 LPS recognition"],
         "search_queries": [
@@ -93,6 +124,17 @@ def canonical_data(tmp_path: Path) -> dict:
                 "unresolved_core_omissions": [],
                 "unresolved_ambiguities": [],
                 "summary": "E1 cobre o core da aula e integra apenas o aprofundamento diretamente útil.",
+            },
+            "e1_format_review": {
+                "canonical_template_used": True,
+                "all_pages_rendered": True,
+                "layout_reviewed": True,
+                "paragraph_hierarchy_preserved": True,
+                "images_legible_and_integrated": True,
+                "no_clipping_or_overflow": True,
+                "independent_visual_review_passed": True,
+                "unresolved_visual_defects": [],
+                "summary": "Todas as páginas foram renderizadas e revisadas no design system Nebli.",
             },
             "concepts": [{
                 "concept_id": "c-tlr4",
@@ -166,6 +208,31 @@ def test_missing_e1_semantic_review_blocks_release(tmp_path):
     assert proc.returncode != 0
     assert not out.exists()
     assert "core_study_without_slides" in (proc.stdout + proc.stderr)
+
+
+def test_standalone_typst_formatting_blocks_release(tmp_path):
+    data = canonical_data(tmp_path)
+    source = tmp_path / "etapa1.typ"
+    source.write_text(
+        '#set page(margin: 10mm)\n#set par(justify: false)\n'
+        'O lipopolissacarídeo bacteriano é reconhecido pelo TLR4 na membrana, '
+        'iniciando a resposta imune inata.',
+        encoding="utf-8",
+    )
+    data["release_gate"]["e1_source_sha256"] = sha(source)
+    proc, _ = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    output = proc.stdout + proc.stderr
+    assert "template oficial" in output
+    assert "#set page" in output
+
+
+def test_missing_full_visual_review_blocks_release(tmp_path):
+    data = canonical_data(tmp_path)
+    data["release_gate"]["e1_format_review"]["all_pages_rendered"] = False
+    proc, _ = run_canonical(tmp_path, data)
+    assert proc.returncode != 0
+    assert "all_pages_rendered" in (proc.stdout + proc.stderr)
 
 
 def test_nuclear_concept_without_quality_two_blocks_release(tmp_path):
@@ -329,6 +396,11 @@ def test_io_canonical_contract_is_hide_two_guess_two(tmp_path):
         "relevant": True,
         "estimated_seconds": 10,
         "mode": "hide_two_guess_two",
+        "prompt": "Identifique os dois rótulos ocultos.",
+        "prompt_language": "pt-BR",
+        "portuguese_prompt_reviewed": True,
+        "answers_language": "pt-BR",
+        "portuguese_answers_reviewed": True,
         "image_path": image.name,
         "answers": ["TLR4", "LPS"],
         "pair_rationale": "Receptor and ligand form a single coherent recognition pair.",
@@ -377,6 +449,8 @@ def test_finalizer_materializes_only_user_visible_e1_and_manifest(tmp_path):
             "card_key": "tlr4-lps",
             "concept_id": "c-tlr4",
             "source": "anking",
+            "front_language": "pt-BR",
+            "portuguese_front_reviewed": True,
             "tier": "nucleo",
             "selected": True,
             "atomic": True,

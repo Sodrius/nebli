@@ -31,6 +31,9 @@ Leia, nesta ordem:
 - Revisores podem apontar problemas depois dos artefatos completos, mas não substituem a sessão principal.
 - Slides, objetivos e perguntas orientadoras definem o escopo. Step 1 aprofunda apenas o mesmo tema/mecanismo.
 - Todo conteúdo cobrado por um card precisa estar ensinado e ancorado na E1.
+- Toda E1 usa `typst-template/nebli_v2_apostila.typ`, sem redefinições globais
+  locais. A liberação exige todas as páginas renderizadas e revisadas, sem
+  clipping, overflow ou defeito visual pendente.
 - Ordem de fonte: **AnKing adequado → deck externo real adequado → autoral**.
 - A busca da nota usa contexto; a escolha do sibling usa `expected_answers`.
   Autoral direto exige busca AnKing completa e motivo de rejeição. AnKing já
@@ -46,12 +49,14 @@ Regras nucleares:
 - `atomic=true` e `relevant=true` para todo card;
 - não criar card só para atingir quantidade;
 - contar cards Anki reais e respeitar `card_budget.hard_max`;
-- autoral em inglês médico, Extra curto em português;
+- todo card final em português; autoral com frente e Extra em PT-BR, e IO com
+  prompt, respostas e sobreposições finais em PT-BR;
 - autoral com exatamente um `c1`; cloze de 1 palavra por padrão, 2 quando necessário, 3 excepcionalmente com justificativa, 4+ bloqueia;
 - IO somente quando a tarefa visual agrega; usar `hide_two_guess_two`, em geral com duas respostas coerentes e nunca mais de duas;
 - máscara cobre o rótulo-resposta, não a estrutura que deve ser reconhecida;
 - fonte visual real, crédito, previews pergunta/resposta e ausência de vazamento são obrigatórios;
-- AnKing/deck externo é copiado literalmente, preservando note type, campos, HTML, clozes, tags e mídia; sibling não selecionado fica suspenso;
+- AnKing/deck externo só é copiado literalmente quando a frente já está em português; fonte inglesa serve para pesquisa, profundidade e mídia e a recuperação final vira autoral em PT-BR; sibling não selecionado fica suspenso;
+- todo cloze exige conhecimento médico e passa por revisão anti-indução: não pode ser resolvido só por gramática, sobreposição lexical, resposta visível ou alternativa semanticamente defensável;
 - fallback validado evita curadoria manual quando a busca local é ausente/ambígua.
 
 ## Definição de pronto

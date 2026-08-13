@@ -14,6 +14,10 @@ from typing import Any
 
 DEFAULT_MIN_SCORE = 0.82
 DEFAULT_MIN_MARGIN = 0.06
+PT_LANGUAGES = {"pt", "pt-br"}
+CLOZE_ROLES = {
+    "mecanismo", "consequencia", "discriminador", "valor", "direcao", "rotulo_especifico",
+}
 
 
 def _bool(card: dict[str, Any], key: str, *, default: bool | None = None) -> bool:
@@ -36,8 +40,8 @@ def _local_rank_ok(card: dict[str, Any], min_score: float, min_margin: float) ->
 
 
 def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
-    if str(card.get("front_language", "")).lower() != "en":
-        failures.append("front_language_not_en")
+    if str(card.get("front_language", "")).lower() not in PT_LANGUAGES:
+        failures.append("front_language_not_pt")
     if str(card.get("extra_language", "")).lower() not in {"pt", "pt-br"}:
         failures.append("extra_language_not_pt")
     if int(card.get("cloze_count", 0)) != 1:
@@ -57,6 +61,16 @@ def _validate_authored(card: dict[str, Any], failures: list[str]) -> None:
         failures.append("front_characters>360")
     if _bool(card, "multi_retrieval", default=False):
         failures.append("multi_retrieval")
+    for key in ("portuguese_reviewed", "knowledge_required", "blind_review_passed", "ambiguity_reviewed"):
+        if not _bool(card, key):
+            failures.append(key)
+    for key in ("grammar_only_solvable", "lexical_leak", "answer_visible_elsewhere"):
+        if _bool(card, key, default=True):
+            failures.append(key)
+    if str(card.get("cloze_role") or "").lower() not in CLOZE_ROLES:
+        failures.append("invalid_cloze_role")
+    if int(card.get("unresolved_plausible_alternatives", -1)) != 0:
+        failures.append("unresolved_plausible_alternatives")
     if _bool(card, "has_extra_media", default=False):
         if not _bool(card, "media_ok"):
             failures.append("media_ok")
@@ -86,6 +100,14 @@ def _validate_anking_search_audit(card: dict[str, Any], failures: list[str]) -> 
 
 
 def _validate_io(card: dict[str, Any], failures: list[str]) -> None:
+    if str(card.get("prompt_language", "")).lower() not in PT_LANGUAGES:
+        failures.append("prompt_language_not_pt")
+    if str(card.get("answers_language", "")).lower() not in PT_LANGUAGES:
+        failures.append("answers_language_not_pt")
+    if not _bool(card, "portuguese_prompt_reviewed"):
+        failures.append("portuguese_prompt_reviewed")
+    if not _bool(card, "portuguese_answers_reviewed"):
+        failures.append("portuguese_answers_reviewed")
     if card.get("mode") != "hide_two_guess_two":
         failures.append("io_mode")
     mask_count = int(card.get("mask_count", 0))
@@ -132,6 +154,10 @@ def validate_card(card: dict[str, Any], min_score: float, min_margin: float) -> 
         failures.append("invalid_tier")
 
     if source in {"anking", "external_deck"}:
+        if str(card.get("front_language", "")).lower() not in PT_LANGUAGES:
+            failures.append("front_language_not_pt")
+        if not _bool(card, "portuguese_front_reviewed"):
+            failures.append("portuguese_front_reviewed")
         if not _bool(card, "source_safe"):
             failures.append("source_safe")
         if not _local_rank_ok(card, min_score, min_margin):

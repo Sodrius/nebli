@@ -61,11 +61,11 @@ public class AnkiDroidIntegrationTest {
         String sourceDeck = "NEBLI::CI::AnKingSource";
         long sourceDid = anki.ensureDeck(sourceDeck);
         long basicMid = anki.ensureBasicModel(sourceDid);
-        String sourceFront = "Bacterial lipopolysaccharide is sensed at the plasma membrane by TLR4 "
+        String sourceFront = "O lipopolissacarídeo bacteriano é reconhecido na membrana pelo TLR4 "
                 + "<img src=\"" + sourceImage + "\">";
         long sourceNid = anki.insertNote(
                 basicMid,
-                new String[]{sourceFront, "Bacterial LPS is the ligand.", ""},
+                new String[]{sourceFront, "O LPS bacteriano é o ligante.", ""},
                 new HashSet<>(Arrays.asList("#AK_Step1_v12", "NEBLI_CI_SOURCE")),
                 sourceDid
         );
@@ -97,17 +97,20 @@ public class AnkiDroidIntegrationTest {
     }
 
     private static JSONObject manifest() throws Exception {
-        JSONObject fallback = new JSONObject()
+        JSONObject fallback = withCueQuality(new JSONObject()
                 .put("source", "authored")
-                .put("text", "TLR4 recognizes {{c1::LPS}}.")
+                .put("text", "O TLR4 reconhece o {{c1::LPS}} bacteriano.")
                 .put("extra", "O TLR4 reconhece o lipopolissacarídeo bacteriano.")
-                .put("front_language", "en")
-                .put("extra_language", "pt-BR");
+                .put("front_language", "pt-BR")
+                .put("extra_language", "pt-BR"));
 
         JSONObject anking = new JSONObject()
                 .put("card_key", "ci-anking")
                 .put("concept_id", "ci-tlr4")
                 .put("source", "anking")
+                .put("validated_front", "O lipopolissacarídeo bacteriano é reconhecido na membrana pelo TLR4.")
+                .put("front_language", "pt-BR")
+                .put("portuguese_front_reviewed", true)
                 .put("query", "TLR4 lipopolysaccharide plasma membrane")
                 .put("search_queries", new JSONArray()
                         .put("TLR4 lipopolysaccharide plasma membrane")
@@ -123,14 +126,14 @@ public class AnkiDroidIntegrationTest {
                 .put("requires_visual", true)
                 .put("fallback", fallback);
 
-        JSONObject authoredAnkingVisual = withAnkingSearchAudit(new JSONObject()
+        JSONObject authoredAnkingVisual = withAnkingSearchAudit(withCueQuality(new JSONObject()
                 .put("card_key", "ci-authored-anking-visual")
                 .put("concept_id", "ci-prr")
                 .put("source", "authored")
-                .put("text", "Innate immune sensing uses {{c1::PRRs}}.")
+                .put("text", "A imunidade inata reconhece padrões por meio de {{c1::PRRs}}.")
                 .put("extra", "PRRs reconhecem padrões moleculares conservados. "
                         + "<img src=\"nebli-anking-media://tlr4_visual\">")
-                .put("front_language", "en")
+                .put("front_language", "pt-BR")
                 .put("extra_language", "pt-BR")
                 .put("anking_media_refs", new JSONArray().put(new JSONObject()
                         .put("key", "tlr4_visual")
@@ -145,16 +148,16 @@ public class AnkiDroidIntegrationTest {
                         .put("didactic_value_reviewed", true)))
                 .put("atomic", true)
                 .put("relevant", true)
-                .put("tier", "nucleo"));
+                .put("tier", "nucleo")));
 
-        JSONObject authoredSlideVisual = withAnkingSearchAudit(new JSONObject()
+        JSONObject authoredSlideVisual = withAnkingSearchAudit(withCueQuality(new JSONObject()
                 .put("card_key", "ci-authored-slide-visual")
                 .put("concept_id", "ci-pamp")
                 .put("source", "authored")
-                .put("text", "Conserved microbial motifs are called {{c1::PAMPs}}.")
+                .put("text", "Motivos microbianos conservados são chamados de {{c1::PAMPs}}.")
                 .put("extra", "A imagem de aula ancora visualmente o padrão reconhecido. "
                         + "<img src=\"nebli-media://slide_visual\">")
-                .put("front_language", "en")
+                .put("front_language", "pt-BR")
                 .put("extra_language", "pt-BR")
                 .put("media_keys", new JSONArray().put("slide_visual"))
                 .put("visual_evidence", new JSONArray().put(new JSONObject()
@@ -167,7 +170,7 @@ public class AnkiDroidIntegrationTest {
                         .put("didactic_value_reviewed", true)))
                 .put("atomic", true)
                 .put("relevant", true)
-                .put("tier", "nucleo"));
+                .put("tier", "nucleo")));
 
         JSONObject io = withAnkingSearchAudit(new JSONObject()
                 .put("card_key", "ci-io-two-labels")
@@ -175,7 +178,11 @@ public class AnkiDroidIntegrationTest {
                 .put("source", "io")
                 .put("mode", "hide_two_guess_two")
                 .put("media_key", "slide_visual")
-                .put("prompt", "Identify both masked labels.")
+                .put("prompt", "Identifique os dois rótulos ocultos.")
+                .put("prompt_language", "pt-BR")
+                .put("portuguese_prompt_reviewed", true)
+                .put("answers_language", "pt-BR")
+                .put("portuguese_answers_reviewed", true)
                 .put("answers", new JSONArray().put("PRR").put("PAMP"))
                 .put("pair_rationale", "Os dois rótulos formam o par receptor-ligante recuperado em conjunto.")
                 .put("masks", new JSONArray()
@@ -246,6 +253,22 @@ public class AnkiDroidIntegrationTest {
                 .put("anking_siblings_reviewed", true)
                 .put("anking_candidates_reviewed", 0)
                 .put("anking_rejection_reason", "Busca AnKing ampla concluída; nenhum card cobria exatamente esta recuperação.");
+    }
+
+    private static JSONObject withCueQuality(JSONObject card) throws Exception {
+        return card
+                .put("authored_quality", new JSONObject()
+                        .put("portuguese_reviewed", true))
+                .put("cue_quality", new JSONObject()
+                        .put("cloze_role", "rotulo_especifico")
+                        .put("knowledge_required", true)
+                        .put("grammar_only_solvable", false)
+                        .put("lexical_leak", false)
+                        .put("answer_visible_elsewhere", false)
+                        .put("blind_review_passed", true)
+                        .put("plausible_alternatives", new JSONArray())
+                        .put("confounders_checked", new JSONArray())
+                        .put("ambiguity_review", "A pista imunológica determina uma única resposta no contexto."));
     }
 
     private static JSONObject box(double x, double y, double w, double h) throws Exception {

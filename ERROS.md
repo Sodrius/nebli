@@ -5,6 +5,13 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 
 ## Conteúdo e cobertura
 
+- E1 nunca é documento Typst autônomo: importa `nebli_v2_apostila.typ`, usa
+  `main.typ`/`resumindo.typ` e não redefine página, parágrafo, capa ou
+  hierarquia visual localmente.
+- PDF compilado ainda não está aprovado. Todas as páginas precisam ser
+  renderizadas e revisadas; clipping, overflow ou defeito visual pendente
+  bloqueiam a entrega.
+
 1. Não declarar cobertura por impressão. Todo conceito nuclear aparece no
    contrato, tem âncora literal na E1 e card adequado.
 2. Card não ensina conteúdo novo. Aprofundamento entra primeiro na E1.
@@ -17,7 +24,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 5. Buscar AnKing e decks externos antes de autorar; guardar a rejeição real.
 6. Preservar campos, HTML, note type, tags, mídia e créditos do card-fonte.
 7. A cópia NEBLI usa nota independente e nunca altera o original.
-8. Autoral: inglês médico natural, alvo único, **uma ocorrência de c1**, Extra
+8. Autoral: português médico natural, alvo único, **uma ocorrência de c1**, Extra
    curto em português e sem voz de apostila.
 9. Nunca misturar `nucleo` e `optional` no mesmo card; opcionais vão para
    `::Optional`.
