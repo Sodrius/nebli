@@ -1,0 +1,176 @@
+{
+  "schema": "nebli-card-validation-v2",
+  "expected_card_count": 25,
+  "card_budget_hard_max": 25,
+  "validated_card_count": 25,
+  "passed_card_count": 25,
+  "failed_card_count": 0,
+  "ordered_card_set_sha256": "e12d0508b0d0486b963968f7c8b3b23a73f8d61a818397e39d1a5167ede6bc78",
+  "media": [
+    {
+      "card_key": "pato01-io001",
+      "sha256": "474f9956c59058c325edb5e0f73d992cdce151843f3a6bbf95ad9de866c429d5"
+    },
+    {
+      "card_key": "pato01-io002",
+      "sha256": "02ef23237ef9e8f61af829fd1d068fe4d23df16951c430a83844dbabaa7ba18a"
+    },
+    {
+      "card_key": "pato01-io003",
+      "sha256": "9390da97dbd085467e6718fbc8661f5ba664ff887c4d4bb9d619b0bd7bb75b95"
+    }
+  ],
+  "cards": [
+    {
+      "card_key": "pato01-c001",
+      "content_sha256": "47c62b1a26053193d01501799d6ec5e0d2e145e561222b47b12879c172648d45",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c002",
+      "content_sha256": "4b8d77cdc2df92de1a491d79feb503e7a8c6969924818923d6ada523c7cf28b8",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c003",
+      "content_sha256": "9a419a35047d9350916fbae62437ba9a4937b934e5bf0719dc65940f65ba5086",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c004",
+      "content_sha256": "53fe2671af30dc5a3d609d74ccc9edca0fad89a5a59c12cbb53d4bb0ed4f2419",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c005",
+      "content_sha256": "9c45cb02f7ccd4609d186d83aca3bd7d391d77d1798ccb37db71bf92720f83a7",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c006",
+      "content_sha256": "4655f0fdb4f3d05e2baf7adb17e701ca26b832a7600c30c30cc362f9c1afae77",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c007",
+      "content_sha256": "e94389e2ec9efe9824a641f3f948f2db7e298603e917a9811dd7fcc30e93d523",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c008",
+      "content_sha256": "50be0e5944a845c7fe7e5611bf8ffc488a341458470657c09efc68ff95f9b1a8",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c009",
+      "content_sha256": "532d5d1956f56ef1995dfdbe6f212244636faf931de30d547601ca1204966f57",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c010",
+      "content_sha256": "2ebac39755c28d742eca5d382354cc8133a98e0b74289b28f952d438521e1097",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c011",
+      "content_sha256": "19a2afb7ed5d3e515a54b4b85439873c3aea9d1f5bb540cf3bf1a928ca8e8267",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c012",
+      "content_sha256": "7911075614400cba7f5d1cd23969d08d5f1e33d46f78c8a3772fd3df86e3da44",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c013",
+      "content_sha256": "a9cc9e96ac8fd0c479c7e8712a34cfc3f3723611dd5a45296dc3e39e66cc62a6",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c014",
+      "content_sha256": "04ab0ca9ead48f07dd82c4d16cd4cf7c364ab7329de1f35fdd65884756b53f8a",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c015",
+      "content_sha256": "4aee8ab0256771506b1c3c793d2cf595f3349019371e80c99774ce5227bfa743",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c016",
+      "content_sha256": "18a98fca125274414924fcbde442f568cd7ecbb7f3d8fbd3059df4c150ea2156",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c017",
+      "content_sha256": "d0ed54b961bb5cf9a081ae0f68d4baa918094df6344a43d18f0ee0808a3f3182",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c018",
+      "content_sha256": "1ab48b319c27b58fa4e2cc2de175d6746ca918bac8c8e716e1f6ce9fbbea38d5",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c019",
+      "content_sha256": "d3abb3b0f5e71b6ac3944996cfd6787fdc0650cb9f37190e1bb37f6a4be10d94",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c020",
+      "content_sha256": "548d905d3d7db29b8630a20a1e4f5cc5eca60fcb9733595dc88499ea8a350a83",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c021",
+      "content_sha256": "0c2c3c75fd3b5e532125d3d326590ccb8fcd8b9253efc6fb035ef8cf20016034",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-c022",
+      "content_sha256": "f9545dc18c0100b61046301d1081c5549629fa1db0a5c14ede9cdc506899b0d9",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-io001",
+      "content_sha256": "427120429bd8ce62695f3c44f4461fadecd73d39825743023f2e0d2df5af4d26",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-io002",
+      "content_sha256": "992bc6cc24502e074679c06e31b651b7c17d0a87dbf12514ab764de36f4f4eab",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "pato01-io003",
+      "content_sha256": "fdb92bfe2f02bff761c2a2ab376b6bac95790df0a6a8c4619e7c74886daee4b6",
+      "result": "passed",
+      "failures": []
+    }
+  ],
+  "ok": true
+}

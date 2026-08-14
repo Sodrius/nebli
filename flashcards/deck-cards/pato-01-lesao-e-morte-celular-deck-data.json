@@ -1,0 +1,1979 @@
+{
+  "metadata": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Patologia",
+    "nome_curto": "Lesão e morte celular",
+    "lesson_slug": "pato-01-lesao-e-morte-celular"
+  },
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "../../typst-build/_par_pato-01-lesao-e-morte-celular/etapa1.typ",
+    "e1_source_sha256": "83a54216dacbab37ecdbad5fdb4ae99d03ffae2a2122d38909dcc5138adaff7c",
+    "e1_pdf": "../../typst-build/_par_pato-01-lesao-e-morte-celular/Lesão e morte celular - E1.pdf",
+    "e1_pdf_sha256": "6ef87981041eb64f12c01b2f488e17d0b6feec8c4ec14c3d3dce86639d3e0554",
+    "card_budget_hard_max": 25,
+    "source_to_e1_matrix": [
+      {
+        "origin": "slide 01 — capa da aula",
+        "decision": "excluir",
+        "exclusion_reason": "Página de título institucional, sem conteúdo de aprendizagem."
+      },
+      {
+        "origin": "slide 02 — organograma da resposta celular à agressão",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "slide 03 — exemplos de adaptação, lesão reversível e irreversível",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "slide 04 — cardiomiócito normal, hipertrofiado e infartado",
+        "decision": "integrar",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "slide 05 — causas de lesão celular",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.2"
+      },
+      {
+        "origin": "slide 06 — curva efeito × duração da lesão",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.3"
+      },
+      {
+        "origin": "slide 07 — achados microscópicos e ultraestruturais da lesão reversível",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "slide 08 — critérios de irreversibilidade",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.5"
+      },
+      {
+        "origin": "slide 09 — túbulo renal na microscopia de luz (A, B, C)",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "slide 10 — túbulo renal na microscopia eletrônica (A, B, C)",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "slide 11 — cinética de mioglobina, CK-MB e troponina",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.6"
+      },
+      {
+        "origin": "slide 12 — panorama dos quatro mecanismos de lesão",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.1"
+      },
+      {
+        "origin": "slide 13 — cascata da isquemia a partir da queda de ATP",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.2"
+      },
+      {
+        "origin": "slide 14 — geração de espécies reativas de oxigênio",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.3"
+      },
+      {
+        "origin": "slide 15 — função do órgão após reperfusão",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.4"
+      },
+      {
+        "origin": "slide 16 — mitocôndria lesada: necrose × apoptose",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.5"
+      },
+      {
+        "origin": "slide 17 — cálcio citosólico e enzimas ativadas",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.6"
+      },
+      {
+        "origin": "slide 18 — os quatro mecanismos nomeados em texto",
+        "decision": "integrar",
+        "anchor": "PARTE II — 2.1"
+      },
+      {
+        "origin": "slide 19 — convergência das vias no dano de membrana",
+        "decision": "visual",
+        "anchor": "PARTE II — 2.7"
+      },
+      {
+        "origin": "slide 20 — chaperonas e redobragem proteica",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.8"
+      },
+      {
+        "origin": "slide 21 — capa da segunda parte (necrose e apoptose)",
+        "decision": "excluir",
+        "exclusion_reason": "Página de título institucional, sem conteúdo de aprendizagem."
+      },
+      {
+        "origin": "slide 22 — organograma da resposta celular (repetição do slide 2)",
+        "decision": "excluir",
+        "exclusion_reason": "Repetição literal do slide 2, já ensinado e ilustrado em 1.1."
+      },
+      {
+        "origin": "slide 23 — definições de necrose e apoptose",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.1"
+      },
+      {
+        "origin": "slide 24 — esquema de mecanismos (repetição dos slides 13 e 19)",
+        "decision": "excluir",
+        "exclusion_reason": "Composição dos slides 13 e 19, já ensinados e ilustrados em 2.2 e 2.7."
+      },
+      {
+        "origin": "slide 25 — cadeia da necrose e célula versus arcabouço",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.2"
+      },
+      {
+        "origin": "slide 26 — necrose e apoptose lado a lado, morfologia",
+        "decision": "visual",
+        "anchor": "PARTE IV — 4.5"
+      },
+      {
+        "origin": "slide 27 — morfologia da necrose: eosinofilia, picnose e cariorrexe",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.3"
+      },
+      {
+        "origin": "slide 28 — necrose coagulativa",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 29 — necrose liquefativa",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 30 — necrose caseosa",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 31 — fotomicrografias adicionais de necrose caseosa e liquefativa",
+        "decision": "integrar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 32 — necrose gordurosa (texto)",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 33 — necrose gordurosa (fotomicrografia)",
+        "decision": "visual",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 34 — necrose fibrinóide",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 35 — necrose gangrenosa",
+        "decision": "ensinar",
+        "anchor": "PARTE III — 3.4"
+      },
+      {
+        "origin": "slide 36 — causas fisiológicas e patológicas da apoptose",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.1"
+      },
+      {
+        "origin": "slide 37 — as quatro etapas do programa apoptótico",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.2"
+      },
+      {
+        "origin": "slide 38 — vias intrínseca e extrínseca",
+        "decision": "visual",
+        "anchor": "PARTE IV — 4.3"
+      },
+      {
+        "origin": "slide 39 — morfologia da apoptose com esquema integrado",
+        "decision": "integrar",
+        "anchor": "PARTE IV — 4.5"
+      },
+      {
+        "origin": "slide 40 — morfologia da apoptose (repetição do slide 39)",
+        "decision": "excluir",
+        "exclusion_reason": "Repetição do slide 39, com a mesma lista e o mesmo esquema já cobertos em 4.5."
+      },
+      {
+        "origin": "slide 41 — fotomicrografias e microscopia eletrônica da apoptose",
+        "decision": "visual",
+        "anchor": "PARTE IV — 4.5"
+      },
+      {
+        "origin": "slide 42 — proteínas pró e antiapoptóticas",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.3"
+      },
+      {
+        "origin": "slide 43 — quadro comparativo necrose × apoptose",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.6"
+      },
+      {
+        "origin": "slide 44 — correlações clínicas da apoptose",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.7"
+      },
+      {
+        "origin": "slide 45 — necroptose ou necrose programada",
+        "decision": "ensinar",
+        "anchor": "PARTE IV — 4.8"
+      },
+      {
+        "origin": "slide 46 — ilustração de humor sem conteúdo",
+        "decision": "excluir",
+        "exclusion_reason": "Cartum decorativo, sem informação de aprendizagem."
+      },
+      {
+        "origin": "slide 47 — citação institucional de encerramento",
+        "decision": "excluir",
+        "exclusion_reason": "Frase institucional de encerramento, sem conteúdo de aprendizagem."
+      },
+      {
+        "origin": "transcrição p. 2 — objetivo da aula: revisar conceitos de UC1 e UC2 e acrescentar os aspectos patológicos",
+        "decision": "integrar",
+        "anchor": "Introdução"
+      },
+      {
+        "origin": "transcrição p. 4 — percurso do organograma: homeostase, estresse, adaptação, lesão reversível e irreversível",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "transcrição p. 6 — adaptação exige estímulo leve e prolongado; exemplos de hipertrofia, atrofia e hipóxia",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "transcrição p. 8 — cardiomiócito: hipertrofia por estímulo crônico e infarto por estímulo intenso",
+        "decision": "integrar",
+        "anchor": "PARTE I — 1.1"
+      },
+      {
+        "origin": "transcrição p. 10 — causas de lesão celular, uma a uma, com exemplos clínicos",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.2"
+      },
+      {
+        "origin": "transcrição p. 12 — ordem das alterações e deslocamento da linha de irreversibilidade por tipo celular",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.3"
+      },
+      {
+        "origin": "transcrição p. 14 — alterações da lesão reversível, com blebs, microvilosidades, mitocôndria, retículo e núcleo",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "transcrição p. 16 — os dois critérios de irreversibilidade e a ordem entre eles conforme a causa",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.5"
+      },
+      {
+        "origin": "transcrição p. 18 — leitura do túbulo renal na microscopia de luz e reposição por proliferação",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "transcrição p. 20 — leitura ultraestrutural das três situações do túbulo renal",
+        "decision": "visual",
+        "anchor": "PARTE I — 1.4"
+      },
+      {
+        "origin": "transcrição p. 22 — aplicação clínica: troponina, CK-MB, mioglobina, angina, infarto, amilase e lipase",
+        "decision": "ensinar",
+        "anchor": "PARTE I — 1.6"
+      },
+      {
+        "origin": "transcrição p. 24 — elementos envolvidos: mitocôndria, reservatórios de cálcio, membranas e proteínas",
+        "decision": "integrar",
+        "anchor": "PARTE II — 2.1"
+      },
+      {
+        "origin": "transcrição p. 26 — cascata da isquemia: fosforilação oxidativa, ATP, bomba de sódio, glicólise e ribossomos",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.2"
+      },
+      {
+        "origin": "transcrição p. 28 — radicais livres: geração, defesas antioxidantes e alvos",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.3"
+      },
+      {
+        "origin": "transcrição p. 30 — cateterismo e retorno súbito de oxigênio",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.4"
+      },
+      {
+        "origin": "transcrição p. 32 — excesso de oxigênio na mitocôndria adaptada e lesão adicional",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.4"
+      },
+      {
+        "origin": "transcrição p. 34 — transplante renal, queda da função após reperfusão e janela de tempo",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.4"
+      },
+      {
+        "origin": "transcrição p. 36 — transição de permeabilidade e liberação do citocromo c",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.5"
+      },
+      {
+        "origin": "transcrição p. 38 — influxo de cálcio, reservatórios e enzimas ativadas",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.6"
+      },
+      {
+        "origin": "transcrição p. 40 — combinação dos quatro mecanismos até a irreversibilidade",
+        "decision": "integrar",
+        "anchor": "PARTE II — 2.1"
+      },
+      {
+        "origin": "transcrição p. 42 — dano de membrana como soma de fatores",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.7"
+      },
+      {
+        "origin": "transcrição p. 44 — dobramento proteico anômalo, chaperonas e dano direto ao material genético",
+        "decision": "ensinar",
+        "anchor": "PARTE II — 2.8"
+      },
+      {
+        "origin": "transcrição da segunda metade da aula (necrose e apoptose)",
+        "decision": "indisponível",
+        "exclusion_reason": "A transcrição fornecida termina no bloco de dobramento proteico e não cobre necrose nem apoptose; esse conteúdo foi reconstruído a partir dos slides 23 a 45, que trazem texto substantivo próprio."
+      },
+      {
+        "origin": "perguntas orientadoras da aula",
+        "decision": "indisponível",
+        "exclusion_reason": "Nenhum roteiro de perguntas orientadoras foi fornecido junto dos materiais."
+      },
+      {
+        "origin": "notas do professor fora da transcrição",
+        "decision": "indisponível",
+        "exclusion_reason": "Não há notas do professor além da transcrição da videoaula e dos slides."
+      }
+    ],
+    "e1_review": {
+      "slide_inventory_complete": true,
+      "objectives_covered": true,
+      "core_coverage_complete": true,
+      "mechanisms_explicit": true,
+      "visual_information_explained": true,
+      "core_study_without_slides": true,
+      "step1_depth_reviewed": true,
+      "card_content_anchored": true,
+      "independent_review_passed": true,
+      "source_to_e1_matrix_complete": true,
+      "beginner_zero_baseline_passed": true,
+      "stepwise_explanation_passed": true,
+      "didactic_flow_passed": true,
+      "uc02_exemplars_applied": true,
+      "rhetorical_questions_absent": true,
+      "visual_asset_hygiene_passed": true,
+      "rendered_pdf_visual_review_passed": true,
+      "notes_review_status": "unavailable",
+      "unresolved_core_omissions": [],
+      "unresolved_ambiguities": [],
+      "unresolved_beginner_gaps": [],
+      "summary": "Passada 1 (fonte → E1): os 47 slides e os 22 blocos de transcrição foram confrontados linha a linha com a matriz. Os cinco slides excluídos são capas, repetições literais (22, 24, 40) e material decorativo (46, 47), cada um com justificativa. A transcrição cobre apenas a primeira metade da aula; necrose e apoptose foram reconstruídas dos slides 23 a 45, que trazem texto substantivo próprio, e isso está declarado como indisponível na matriz. Passada 2 (aluno inicial zero): foram reescritos os pontos em que o aluno teria de adivinhar um elo — a razão de a adaptação exigir tempo (1.1), o motivo de o sódio arrastar água (2.2), o porquê de o excesso de oxigênio gerar radicais (2.3), a natureza do potencial de membrana mitocondrial (2.5) e a razão de o cálcio ser mantido fora do citoplasma (2.6). Cada sigla entra expandida e com função. Passada 3 (didática e voz): prosa expositiva contínua, sem pergunta retórica e sem ponto de interrogação em toda a fonte; termo técnico sempre depois da ideia; listas apenas em itens realmente paralelos (causas de lesão e tipos de necrose); a tabela comparativa entra por cruzar duas dimensões; boxes usados com parcimônia (dois de confusão prevista, um de atenção, um de clínica, duas sínteses e dois mini-resumos). Passada 4 (PDF visual): as 30 páginas foram renderizadas e inspecionadas; foram corrigidos o parêntese solto e a quebra do quadro comparativo, o transbordo do Resumindo para uma segunda página e três resíduos de marca institucional dentro de figuras.",
+      "visual_figure_ledger": [
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-02-organograma-resposta-celular.png",
+          "origin": "slide 2 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Situar as três saídas da agressão e o ponto em que a lesão irreversível se ramifica em necrose e apoptose.",
+          "crop": "Recorte do diagrama; faixa-título, e-mail do rodapé, crédito e logotipo institucional removidos.",
+          "resolution": "878x822 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda percorre as setas do desenho e nomeia adaptação, retorno ao normal e morte celular.",
+          "rendered_page": "página 4 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-06-curva-efeito-duracao.jpg",
+          "origin": "slide 6 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Ler a ordem temporal em que função, bioquímica, ultraestrutura, microscopia de luz e macroscopia se alteram.",
+          "crop": "Recorte da área do gráfico; faixa-título e crédito removidos.",
+          "resolution": "1035x856 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda aponta a curva da função como a primeira a se mover e a linha tracejada da irreversibilidade.",
+          "rendered_page": "página 6 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-09-tubulo-renal-microscopia-luz.jpg",
+          "origin": "slide 9 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer, na lâmina, a diferença entre túbulo normal, lesão reversível e lesão irreversível.",
+          "crop": "Recorte da faixa das três fotomicrografias; faixa-título e crédito removidos.",
+          "resolution": "1500x540 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve painel a painel e destaca a perda de núcleos no painel C.",
+          "rendered_page": "página 7 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-10-tubulo-renal-microscopia-eletronica.jpg",
+          "origin": "slide 10 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Ver as alterações ultraestruturais que a microscopia de luz não mostra na fase reversível.",
+          "crop": "Recorte dos três painéis de microscopia eletrônica; faixa-título e crédito removidos.",
+          "resolution": "1095x879 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda percorre microvilosidades, membrana e cromatina nos três painéis.",
+          "rendered_page": "página 8 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-11-marcadores-cardiacos.png",
+          "origin": "slide 11 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Comparar a cinética de mioglobina, CK-MB e troponina para justificar coletas seriadas.",
+          "crop": "Recorte da área do gráfico; faixa-título, crédito e logotipo removidos.",
+          "resolution": "1020x710 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve subida, pico e permanência de cada marcador.",
+          "rendered_page": "página 9 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-12-panorama-mecanismos.png",
+          "origin": "slide 12 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Fixar os quatro mecanismos de lesão como mapa antes de percorrê-los um a um.",
+          "crop": "Recorte da faixa dos quatro blocos; faixa-título e crédito removidos.",
+          "resolution": "1500x496 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda pede que a figura seja revisitada ao fim da PARTE II e antecipa a interdependência dos blocos.",
+          "rendered_page": "página 11 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-13-cascata-isquemia-atp.png",
+          "origin": "slide 13 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Seguir a cadeia isquemia, fosforilação oxidativa, ATP e os três ramos até os achados morfológicos.",
+          "crop": "Recorte da coluna direita; faixa-título, miniaturas de navegação e marca institucional removidas.",
+          "resolution": "1036x1139 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda liga cada ramo terminal aos achados já apresentados na PARTE I.",
+          "rendered_page": "página 12 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-14-geracao-radicais-livres.jpg",
+          "origin": "slide 14 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Ler a linha de conversão entre superóxido, peróxido de hidrogênio e radical hidroxila.",
+          "crop": "Recorte do painel da mitocôndria; faixa-título e miniaturas de navegação removidas.",
+          "resolution": "1353x756 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda nomeia cada passo e o caracteriza como defesa e risco ao mesmo tempo.",
+          "rendered_page": "página 13 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-15-funcao-apos-reperfusao.png",
+          "origin": "slide 15 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Constatar a queda de função que se segue à reperfusão, antes da recuperação.",
+          "crop": "Recorte da área do gráfico; faixa-título, miniaturas, crédito e logotipo removidos.",
+          "resolution": "1388x809 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda identifica a queda visível no gráfico como a própria lesão de reperfusão.",
+          "rendered_page": "página 14 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-16-mitocondria-necrose-apoptose.jpg",
+          "origin": "slide 16 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Distinguir os dois ramos mitocondriais que separam necrose de apoptose.",
+          "crop": "Recorte do painel da mitocôndria; faixa-título, miniaturas, crédito e logotipo removidos.",
+          "resolution": "765x963 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve o ramo da esquerda e o da direita separadamente, com seus desfechos.",
+          "rendered_page": "página 16 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-17-calcio-citosolico.jpg",
+          "origin": "slide 17 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Ver as três origens do cálcio citosólico e as quatro classes de enzima que ele ativa.",
+          "crop": "Recorte do painel da célula; faixa-título, miniaturas, crédito e logotipo removidos.",
+          "resolution": "750x963 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda dirige o olhar até a base da figura e nomeia os três desfechos convergentes.",
+          "rendered_page": "página 17 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-19-dano-de-membrana.jpg",
+          "origin": "slide 19 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Ver quatro vias independentes convergindo para o mesmo dano de membrana.",
+          "crop": "Recorte do painel da célula; faixa-título, miniaturas, crédito e marca institucional removidos.",
+          "resolution": "915x689 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda percorre as quatro colunas da esquerda para a direita e explica a convergência.",
+          "rendered_page": "página 17 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-27-picnose-cariorrexe.jpg",
+          "origin": "slide 27 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer eosinofilia, picnose e cariorrexe em tecido necrótico.",
+          "crop": "Recorte da fotomicrografia inferior; faixa-título e texto do slide removidos.",
+          "resolution": "1350x945 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve o citoplasma rosa homogêneo e os dois padrões nucleares presentes.",
+          "rendered_page": "página 20 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-28-necrose-coagulativa.jpg",
+          "origin": "slide 28 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer arquitetura preservada com perda de núcleos na necrose coagulativa.",
+          "crop": "Recorte da faixa das duas fotomicrografias; faixa-título, texto do slide e e-mail do rodapé removidos.",
+          "resolution": "1377x621 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve separadamente o miocárdio e o fígado e aponta o contraste com o tecido preservado.",
+          "rendered_page": "página 21 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-29-necrose-liquefativa.jpg",
+          "origin": "slide 29 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer cavidade e material liquefeito em tecido sem arcabouço ou com arcabouço destruído.",
+          "crop": "Recorte da faixa de imagens; faixa-título e texto do slide removidos.",
+          "resolution": "1500x720 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda percorre as três imagens e liga a cavidade à ausência de arcabouço.",
+          "rendered_page": "página 21 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-30-necrose-caseosa.jpg",
+          "origin": "slide 30 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer o material amorfo esbranquiçado do granuloma tuberculoso.",
+          "crop": "Recorte da fotografia macroscópica; faixa-título e texto do slide removidos.",
+          "resolution": "1020x675 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda contrasta o aspecto com o da coagulativa e o da liquefativa.",
+          "rendered_page": "página 22 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-33-necrose-gordurosa.jpg",
+          "origin": "slide 33 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer focos de destruição do tecido adiposo com depósito de cálcio.",
+          "crop": "Recorte da fotomicrografia; faixa-título e crédito removidos.",
+          "resolution": "1125x844 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda distingue adipócitos preservados dos focos granulares e basofílicos.",
+          "rendered_page": "página 22 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-34-necrose-fibrinoide.jpg",
+          "origin": "slide 34 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer a parede vascular substituída por material homogêneo eosinofílico.",
+          "crop": "Recorte da fotomicrografia; faixa-título e texto do slide removidos.",
+          "resolution": "1020x676 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve a luz com hemácias e a parede sem organização em camadas.",
+          "rendered_page": "página 23 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-35-necrose-gangrenosa.jpg",
+          "origin": "slide 35 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer o comprometimento necrótico de um segmento inteiro, e não de um tipo celular.",
+          "crop": "Recorte da fotografia clínica; faixa-título e texto do slide removidos.",
+          "resolution": "1110x1463 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda insiste no limite nítido e no envolvimento de todos os planos do segmento.",
+          "rendered_page": "página 23 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-38-vias-intrinseca-extrinseca.jpg",
+          "origin": "slide 38 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Comparar a via mitocondrial e a via dos receptores de morte no mesmo campo visual.",
+          "crop": "Recorte dos dois painéis; faixa-título, e-mail do rodapé, crédito e logotipo removidos.",
+          "resolution": "1940x1155 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve os estados A e B do painel esquerdo e a montagem do complexo no direito.",
+          "rendered_page": "página 25 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-26-necrose-versus-apoptose.jpg",
+          "origin": "slide 26 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Contrastar as duas trajetórias morfológicas a partir da mesma célula normal.",
+          "crop": "Recorte do esquema completo; faixa-título, crédito e marca institucional removidos.",
+          "resolution": "1502x1127 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda percorre as duas colunas e destaca o extravasamento numa e a fagocitose na outra.",
+          "rendered_page": "página 26 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-41-corpos-apoptoticos.jpg",
+          "origin": "slide 41 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Reconhecer a célula apoptótica isolada, sem inflamação em volta, e a cromatina condensada.",
+          "crop": "Recorte da faixa de imagens; faixa-título e crédito removidos.",
+          "resolution": "1470x834 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda descreve o painel A, o painel B e as imagens de fragmentação nuclear.",
+          "rendered_page": "página 27 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        },
+        {
+          "file": "/figuras/pato-01-lesao-e-morte-celular/slide-45-necroptose.png",
+          "origin": "slide 45 da apresentação da aula (Robbins, Pathologic basis of disease)",
+          "cognitive_task": "Seguir a bifurcação entre apoptose e necroptose conforme a caspase-8 seja ou não ativada.",
+          "crop": "Recorte do esquema; faixa-título e logotipo institucional removidos.",
+          "resolution": "540x985 px, largura de impressão compatível sem ampliação",
+          "caption_match": "A legenda nomeia os dois caminhos e o critério que os separa.",
+          "rendered_page": "página 28 do PDF renderizado",
+          "visual_approval": "aprovada na inspeção do PDF renderizado, sem corte de rótulo, sem marca de template e legível no tamanho impresso"
+        }
+      ]
+    },
+    "e1_format_review": {
+      "canonical_template_used": true,
+      "all_pages_rendered": true,
+      "layout_reviewed": true,
+      "paragraph_hierarchy_preserved": true,
+      "images_legible_and_integrated": true,
+      "no_clipping_or_overflow": true,
+      "independent_visual_review_passed": true,
+      "unresolved_visual_defects": [],
+      "summary": "main.typ, etapa1.typ e resumindo.typ importam nebli_v2_apostila.typ e não redefinem página, parágrafo nem helpers. As 30 páginas do PDF foram renderizadas e revisadas em folhas de contato e, nas páginas com defeito, em tamanho cheio. Corrigidos: parêntese literal solto após o quadro comparativo, quebra do quadro entre duas páginas (agora bloco não quebrável), Resumindo que ocupava duas páginas (reduzido a 8 cápsulas, agora em uma página) e resíduos de logotipo dentro das figuras dos slides 13, 14 e 28. Nenhuma figura ficou com rótulo cortado, nenhuma página saiu vazia e nenhum bloco transbordou a margem."
+    },
+    "retention_kernel_review": {
+      "slots_fixed_before_authorship": true,
+      "compression_review_passed": true,
+      "ablation_review_passed": true,
+      "estimated_seconds_per_card_max": 10,
+      "summary": "O núcleo foi congelado em 25 vagas antes da autoria, teto duro da faixa large do contrato, para uma aula de 47 slides e duas metades temáticas. Compressão: o par transição de permeabilidade e citocromo c foi unificado em um único card visual, o que eliminou dois cards textuais redundantes; eosinofilia e alterações nucleares ficaram em cards separados por serem recuperações independentes. Ablação: retirados os cards de catalase isolada, de ordem dos critérios por causa, de glicólise anaeróbica e de necrose coagulativa, liquefativa, gordurosa e fibrinóide, todos remapeados como conceitos deriváveis ou cobertos apenas pela E1, por serem reconstruíveis a partir dos cards mantidos. Cada card fecha em uma recuperação única, respondível em até dez segundos."
+    },
+    "concepts": [
+      {
+        "concept_id": "adaptacao-exige-tempo",
+        "importance": "nuclear",
+        "e1_anchor": "aquilo de que a adaptação depende",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c001"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "ordem-do-dano",
+        "importance": "nuclear",
+        "e1_anchor": "as alterações não aparecem todas ao mesmo tempo",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c002"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "blebs-citoesqueleto",
+        "importance": "nuclear",
+        "e1_anchor": "o citoesqueleto perde a ancoragem que mantinha a membrana esticada e presa",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c003"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "criterios-irreversibilidade",
+        "importance": "nuclear",
+        "e1_anchor": "destruição excessiva do DNA e das proteínas",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c004"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "enzima-intracelular-no-sangue",
+        "importance": "nuclear",
+        "e1_anchor": "enzima intracelular na circulação significa lesão celular irreversível",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c005"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "angina-versus-infarto",
+        "importance": "nuclear",
+        "e1_anchor": "com dor no peito e troponina normal",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c006"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "bomba-de-sodio-edema",
+        "importance": "nuclear",
+        "e1_anchor": "o sódio traz água consigo, por osmose",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c007"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "acidificacao-e-cromatina",
+        "importance": "supporting",
+        "e1_anchor": "O pH mais baixo faz a cromatina se condensar dentro do núcleo",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c008"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "reacao-de-fenton",
+        "importance": "nuclear",
+        "e1_anchor": "reação de Fenton e origina o radical hidroxila",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c009"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "peroxidacao-lipidica",
+        "importance": "nuclear",
+        "e1_anchor": "desorganiza a bicamada por peroxidação lipídica e altera a permeabilidade",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c010"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "lesao-de-reperfusao",
+        "importance": "nuclear",
+        "e1_anchor": "causado pela própria restauração do fluxo",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c011"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "calcio-depende-de-atp",
+        "importance": "nuclear",
+        "e1_anchor": "bombas que consomem ATP empurram o cálcio para fora da célula",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c012"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "enzimas-ativadas-pelo-calcio",
+        "importance": "nuclear",
+        "e1_anchor": "endonucleases quebram DNA e RNA",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c013"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "enzimas-lisossomicas",
+        "importance": "nuclear",
+        "e1_anchor": "o rompimento das membranas dos lisossomos",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c014"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "celula-versus-arcabouco",
+        "importance": "nuclear",
+        "e1_anchor": "é essa proporção que determina o aspecto final do tecido morto",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c015"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "eosinofilia-da-necrose",
+        "importance": "nuclear",
+        "e1_anchor": "as proteínas citoplasmáticas se desnaturam, e proteínas desnaturadas ligam mais eosina",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c016"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "alteracoes-nucleares-da-necrose",
+        "importance": "nuclear",
+        "e1_anchor": "esse núcleo picnótico se fragmenta em pedaços dispersos pelo citoplasma",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c017"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "necrose-caseosa",
+        "importance": "nuclear",
+        "e1_anchor": "Ela está geralmente associada ao granuloma da tuberculose",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c018"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "caspases",
+        "importance": "nuclear",
+        "e1_anchor": "proteases que existem na célula em forma inativa",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c019"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "via-extrinseca-fadd",
+        "importance": "nuclear",
+        "e1_anchor": "recrutam uma proteína adaptadora",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c020"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "apoptose-sem-inflamacao",
+        "importance": "nuclear",
+        "e1_anchor": "não há inflamação em volta",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c021"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "apoptose-fisiologica",
+        "importance": "nuclear",
+        "e1_anchor": "linfócitos que reconheceriam o próprio organismo são eliminados antes de causar autoimunidade",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-c022"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "desfechos-da-lesao-irreversivel",
+        "importance": "nuclear",
+        "e1_anchor": "que termina em morte celular por",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-io001"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "linha-de-conversao-dos-radicais",
+        "importance": "nuclear",
+        "e1_anchor": "transforma o superóxido em peróxido de hidrogênio",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-io002"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "mitocondria-desvia-necrose-apoptose",
+        "importance": "nuclear",
+        "e1_anchor": "abertura da transição de permeabilidade mitocondrial",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "pato01-io003"
+        ],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "causas-de-lesao-celular",
+        "importance": "supporting",
+        "e1_anchor": "A privação de oxigênio é a causa mais prevalente de todas",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "tres-saidas-da-agressao",
+        "importance": "nuclear",
+        "e1_anchor": "adaptação e lesão são caminhos alternativos",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-c001",
+          "pato01-c002",
+          "pato01-io001"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "Quem recupera que a adaptação exige tempo, que a função cai primeiro e quais são os dois desfechos de morte reconstrói o organograma inteiro sem um card próprio."
+      },
+      {
+        "concept_id": "edema-e-esteatose-na-microscopia",
+        "importance": "supporting",
+        "e1_anchor": "a célula inchada de água",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "glicolise-anaerobica-na-isquemia",
+        "importance": "supporting",
+        "e1_anchor": "Isso consome os estoques de glicogênio",
+        "coverage_quality": 1,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-c008"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "A acidificação recuperada no card do pH implica a glicólise anaeróbica que a produz e o consumo de glicogênio que a acompanha."
+      },
+      {
+        "concept_id": "desligamento-dos-ribossomos",
+        "importance": "supporting",
+        "e1_anchor": "com queda da síntese proteica",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "defesas-antioxidantes",
+        "importance": "supporting",
+        "e1_anchor": "decompõe o peróxido de hidrogênio em água e oxigênio",
+        "coverage_quality": 1,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-io002",
+          "pato01-c011"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "Quem nomeia os passos da linha de conversão e entende que a reperfusão esgota as defesas reconstrói o papel da catalase e da glutationa peroxidase."
+      },
+      {
+        "concept_id": "dano-de-membrana-convergente",
+        "importance": "supporting",
+        "e1_anchor": "ele é a soma de vias independentes que chegam ao mesmo ponto",
+        "coverage_quality": 1,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-c010",
+          "pato01-c012",
+          "pato01-c013"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "Peroxidação lipídica, dependência de ATP e enzimas do cálcio são os três ramos da convergência; recuperados, a figura de dano de membrana se remonta."
+      },
+      {
+        "concept_id": "dobramento-proteico-e-chaperonas",
+        "importance": "supporting",
+        "e1_anchor": "um complexo de proteínas chamadas chaperonas",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "cadeia-da-necrose",
+        "importance": "supporting",
+        "e1_anchor": "o rompimento da membrana plasmática libera proteínas e enzimas intracelulares para o meio extracelular",
+        "coverage_quality": 1,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-c014",
+          "pato01-c021"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "A ruptura lisossômica e a integridade de membrana da apoptose delimitam por contraste os dois ramos da cadeia necrótica."
+      },
+      {
+        "concept_id": "necrose-coagulativa",
+        "importance": "supporting",
+        "e1_anchor": "contornos celulares preservados e vazios",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "necrose-liquefativa",
+        "importance": "supporting",
+        "e1_anchor": "a digestão enzimática predomina e o arcabouço não resiste",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "necrose-gordurosa-e-fibrinoide",
+        "importance": "supporting",
+        "e1_anchor": "áreas focais de tecido adiposo são destruídas",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "necrose-gangrenosa",
+        "importance": "optional",
+        "e1_anchor": "designação clínica para o comprometimento necrótico de múltiplos tecidos",
+        "coverage_quality": 1,
+        "retention_class": "optional",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "via-intrinseca-bcl2",
+        "importance": "supporting",
+        "e1_anchor": "se agregam na membrana mitocondrial e formam um canal",
+        "coverage_quality": 1,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "derived_from_card_keys": [
+          "pato01-io003",
+          "pato01-c019"
+        ],
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derivation_rationale": "Quem recupera que o citocromo c sai da mitocôndria e que as caspases executam a demolição reconstrói o papel regulador da família Bcl-2 sobre esse canal."
+      },
+      {
+        "concept_id": "apoptose-desregulada",
+        "importance": "supporting",
+        "e1_anchor": "o resultado tende a ser doença autoimune",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "necroptose",
+        "importance": "supporting",
+        "e1_anchor": "forma-se o complexo RIP1–RIP3, chamado necrossomo",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "derived_from_card_keys": [],
+        "step1": {
+          "decision": "not_applicable"
+        }
+      }
+    ]
+  },
+  "cards": [
+    {
+      "card_key": "pato01-c001",
+      "concept_id": "adaptacao-exige-tempo",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Adaptar-se exige mudar a expressão de proteínas, e é por isso que a célula só consegue se adaptar quando o estímulo agressor lhe dá {{c1::tempo}}.",
+      "extra": "Estímulo leve e prolongado deixa espaço para a mudança de expressão proteica. Estímulo intenso ou de instalação rápida não deixa, e a célula vai direto para a lesão, sem passar pela adaptação.",
+      "e1_anchor": "aquilo de que a adaptação depende",
+      "retrieval_target": "Recuperar a variável que a adaptação exige e que a agressão aguda nega.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o recurso que falta na agressão aguda, e só a duração satisfaz a frase.",
+        "anti_induction": "Responder exige saber que adaptação depende de reprogramação da expressão proteica.",
+        "duplicate_check": "Nenhum outro card do lote recupera o requisito temporal da adaptação."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "A única resposta compatível com mudar expressão de proteínas é tempo; intensidade não completa a frase."
+      }
+    },
+    {
+      "card_key": "pato01-c002",
+      "concept_id": "ordem-do-dano",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "As alterações da lesão celular não surgem juntas: o primeiro alvo comprometido pela agressão, antes de qualquer alteração estrutural, é a {{c1::função}}.",
+      "extra": "Depois da função vêm as alterações bioquímicas, as ultraestruturais, as de microscopia de luz e, por último, as macroscópicas. A lâmina só denuncia o dano quando ele já é irreversível.",
+      "e1_anchor": "as alterações não aparecem todas ao mesmo tempo",
+      "retrieval_target": "Recuperar o primeiro elemento comprometido na sequência temporal da lesão.",
+      "semantic_review": {
+        "ambiguity": "A frase exclui alterações estruturais, restando apenas o desempenho da célula.",
+        "anti_induction": "Exige conhecer a curva efeito versus duração da lesão celular.",
+        "duplicate_check": "Os demais cards tratam de achados morfológicos, não da ordem de aparecimento."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "direcao",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Estrutura está explicitamente excluída no enunciado, o que elimina alternativas morfológicas."
+      }
+    },
+    {
+      "card_key": "pato01-c003",
+      "concept_id": "blebs-citoesqueleto",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "As bolhas de membrana da lesão reversível, os blebs, surgem quando a membrana plasmática perde a ancoragem que a prendia ao {{c1::citoesqueleto}}.",
+      "extra": "Sem ATP a célula não sustenta o acoplamento entre a membrana e a malha proteica interna. A membrana solta-se em bolhas e, nas células com microvilosidades, essas projeções também desaparecem.",
+      "e1_anchor": "o citoesqueleto perde a ancoragem que mantinha a membrana esticada e presa",
+      "retrieval_target": "Recuperar a estrutura cuja perda de ancoragem produz os blebs.",
+      "semantic_review": {
+        "ambiguity": "Só uma estrutura ancora a membrana por dentro, o que fixa a resposta.",
+        "anti_induction": "Exige saber que a membrana é tensionada por uma malha proteica interna.",
+        "duplicate_check": "Nenhum outro card recupera a origem estrutural dos blebs."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Ancoragem interna da membrana não admite outro candidato anatômico plausível."
+      }
+    },
+    {
+      "card_key": "pato01-c004",
+      "concept_id": "criterios-irreversibilidade",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Além da perda de permeabilidade seletiva da membrana, o segundo critério de irreversibilidade é a destruição excessiva de proteínas e do {{c1::DNA}}.",
+      "extra": "Enquanto o molde genético está preservado, a célula pode ressintetizar o que perdeu. Destruído o molde, não há reconstrução possível, mesmo que o agressor seja removido.",
+      "e1_anchor": "destruição excessiva do DNA e das proteínas",
+      "retrieval_target": "Recuperar o segundo critério objetivo de irreversibilidade.",
+      "semantic_review": {
+        "ambiguity": "O enunciado já dá o primeiro critério e as proteínas, restando o molde genético.",
+        "anti_induction": "Exige saber por que o material genético é condição de reconstrução celular.",
+        "duplicate_check": "Outro card do lote trata da ordem entre os dois critérios, não da identidade deles."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Com membrana e proteínas explicitadas, só o material genético fecha o par canônico."
+      }
+    },
+    {
+      "card_key": "pato01-c005",
+      "concept_id": "enzima-intracelular-no-sangue",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Troponina e CK-MB só alcançam o plasma se a barreira que as retinha deixou de ser seletiva, e por isso a elevação delas no sangue indica lesão celular {{c1::irreversível}}.",
+      "extra": "O mesmo raciocínio vale para amilase e lipase pancreáticas. Enzima intracelular na circulação significa que a membrana falhou, e falha de membrana é critério de morte celular.",
+      "e1_anchor": "enzima intracelular na circulação significa lesão celular irreversível",
+      "retrieval_target": "Recuperar a classificação da lesão que o extravasamento enzimático comprova.",
+      "semantic_review": {
+        "ambiguity": "A pista aponta falha de barreira, que corresponde a um único critério.",
+        "anti_induction": "Exige ligar permeabilidade de membrana ao critério de irreversibilidade.",
+        "duplicate_check": "O card seguinte trata do caso oposto, com marcador normal."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Falha de barreira seletiva é justamente o critério que define irreversibilidade, sem alternativa."
+      }
+    },
+    {
+      "card_key": "pato01-c006",
+      "concept_id": "angina-versus-infarto",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Dor torácica isquêmica com troponina que permanece normal nas coletas seriadas caracteriza {{c1::angina}}, e não infarto.",
+      "extra": "Houve isquemia e perda de função, mas a membrana não falhou. Restabelecida a oxigenação, a célula recupera a função e nenhuma célula morre.",
+      "e1_anchor": "com dor no peito e troponina normal",
+      "retrieval_target": "Recuperar o diagnóstico compatível com isquemia sem marcador elevado.",
+      "semantic_review": {
+        "ambiguity": "O enunciado exclui explicitamente o infarto, deixando um único quadro clínico.",
+        "anti_induction": "Exige saber que isquemia reversível não libera enzima intracelular.",
+        "duplicate_check": "O card anterior recupera o significado do marcador elevado, não o quadro sem elevação."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "discriminador",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Com infarto excluído no enunciado, resta o quadro isquêmico sem morte celular."
+      }
+    },
+    {
+      "card_key": "pato01-c007",
+      "concept_id": "bomba-de-sodio-edema",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Sem ATP a bomba de sódio e potássio desacelera, e o edema celular se instala porque o sódio que entra na célula arrasta {{c1::água}}.",
+      "extra": "Desse mesmo influxo derivam o edema do retículo endoplasmático, os blebs e a perda de microvilosidades. Toda a morfologia da lesão reversível cabe nesse elo.",
+      "e1_anchor": "o sódio traz água consigo, por osmose",
+      "retrieval_target": "Recuperar o que acompanha o sódio e produz o edema celular.",
+      "semantic_review": {
+        "ambiguity": "Edema é acúmulo de líquido, e a pista pede o que o sódio traz consigo.",
+        "anti_induction": "Exige entender osmose acoplada ao influxo de sódio.",
+        "duplicate_check": "Nenhum outro card recupera a origem osmótica do edema."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Somente água explica o ganho de volume descrito, sem alternativa iônica plausível."
+      }
+    },
+    {
+      "card_key": "pato01-c008",
+      "concept_id": "acidificacao-e-cromatina",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na isquemia, a cromatina se condensa dentro do núcleo como reação de proteção do material genético à queda do {{c1::pH}}.",
+      "extra": "A acidificação vem da glicólise anaeróbica, que consome glicogênio e produz ácido lático, somada a um efeito metabólico sistêmico. O ácido lático não é o componente maior.",
+      "e1_anchor": "O pH mais baixo faz a cromatina se condensar dentro do núcleo",
+      "retrieval_target": "Recuperar a alteração do meio intracelular que condensa a cromatina.",
+      "semantic_review": {
+        "ambiguity": "A pista pede a variável do meio que muda com a anaerobiose e afeta o núcleo.",
+        "anti_induction": "Exige ligar glicólise anaeróbica a acidificação e resposta nuclear.",
+        "duplicate_check": "Nenhum outro card recupera a causa da condensação da cromatina."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "valor",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Entre as variáveis alteradas na isquemia, só a acidez explica uma resposta protetora do DNA."
+      }
+    },
+    {
+      "card_key": "pato01-c009",
+      "concept_id": "reacao-de-fenton",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na presença de ferro, o peróxido de hidrogênio participa da reação de Fenton e origina o radical {{c1::hidroxila}}, o mais reativo do grupo.",
+      "extra": "A linha completa é oxigênio reduzido de forma incompleta, superóxido, peróxido de hidrogênio e radical hidroxila. Catalase e glutationa peroxidase removem o excedente.",
+      "e1_anchor": "reação de Fenton e origina o radical hidroxila",
+      "retrieval_target": "Recuperar o produto radicalar da reação de Fenton.",
+      "semantic_review": {
+        "ambiguity": "A pista nomeia reagente e reação, deixando apenas o produto em aberto.",
+        "anti_induction": "Exige conhecer a sequência de espécies reativas de oxigênio.",
+        "duplicate_check": "Nenhum outro card recupera um passo dessa linha de conversão."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Superóxido e peróxido já aparecem como etapas anteriores, o que exclui confusão de produto."
+      }
+    },
+    {
+      "card_key": "pato01-c010",
+      "concept_id": "peroxidacao-lipidica",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Ao reagir com os fosfolipídios da membrana, o radical livre desorganiza a bicamada por peroxidação lipídica e altera a {{c1::permeabilidade}}.",
+      "extra": "É o encontro entre os dois blocos da aula: o radical livre produz exatamente a falha que serve de critério de irreversibilidade. Nas proteínas ele causa oxidação, e no DNA, quebras.",
+      "e1_anchor": "desorganiza a bicamada por peroxidação lipídica e altera a permeabilidade",
+      "retrieval_target": "Recuperar a propriedade de membrana que a peroxidação compromete.",
+      "semantic_review": {
+        "ambiguity": "A pista limita o efeito a uma propriedade funcional da bicamada.",
+        "anti_induction": "Exige ligar oxidação de fosfolipídio a falha de barreira seletiva.",
+        "duplicate_check": "Outro card recupera o critério de irreversibilidade, não o efeito do radical sobre lipídio."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Bicamada desorganizada afeta a barreira, e nenhuma outra propriedade completa a frase."
+      }
+    },
+    {
+      "card_key": "pato01-c011",
+      "concept_id": "lesao-de-reperfusao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A lesão de reperfusão acontece porque o retorno súbito de oxigênio, com os antioxidantes já consumidos, dispara um surto de {{c1::radicais livres}}.",
+      "extra": "As células que estavam no limiar da irreversibilidade atravessam o ponto sem retorno e morrem. O saldo continua favorável, mas a janela para reperfundir precisa ser curta.",
+      "e1_anchor": "causado pela própria restauração do fluxo",
+      "retrieval_target": "Recuperar o agente do dano adicional que surge ao reabrir o vaso.",
+      "semantic_review": {
+        "ambiguity": "A pista já nomeia oxigênio e defesa antioxidante consumida, apontando um único agente.",
+        "anti_induction": "Exige saber que excesso de oxigênio também desorganiza a fosforilação oxidativa.",
+        "duplicate_check": "Outro card recupera o alvo lipídico do radical, não a origem do surto."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Antioxidantes consumidos só fazem sentido diante do agente que eles removeriam."
+      }
+    },
+    {
+      "card_key": "pato01-c012",
+      "concept_id": "calcio-depende-de-atp",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O cálcio se acumula no citoplasma durante a isquemia porque mantê-lo fora dele depende de bombas que consomem {{c1::ATP}}.",
+      "extra": "O cálcio vem do meio extracelular, do retículo endoplasmático e da mitocôndria. Uma vez no citoplasma, funciona como sinal de lesão e ativa enzimas degradativas.",
+      "e1_anchor": "bombas que consomem ATP empurram o cálcio para fora da célula",
+      "retrieval_target": "Recuperar o recurso de que a compartimentalização do cálcio depende.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o que as bombas gastam, e apenas um substrato energético serve.",
+        "anti_induction": "Exige saber que a manutenção de gradiente iônico é processo ativo.",
+        "duplicate_check": "Outro card recupera as enzimas ativadas pelo cálcio, não a causa do acúmulo."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Transporte contra gradiente exige moeda energética, sem alternativa plausível."
+      }
+    },
+    {
+      "card_key": "pato01-c013",
+      "concept_id": "enzimas-ativadas-pelo-calcio",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Entre as enzimas que o cálcio citosólico ativa, as que quebram DNA e RNA são as {{c1::endonucleases}}.",
+      "extra": "As outras são fosfolipases, que degradam fosfolipídios de membrana, proteases, que clivam citoesqueleto e proteínas de membrana, e ATPases, que consomem o ATP restante.",
+      "e1_anchor": "endonucleases quebram DNA e RNA",
+      "retrieval_target": "Recuperar a classe enzimática responsável pelo dano ao material genético.",
+      "semantic_review": {
+        "ambiguity": "A pista especifica ácidos nucleicos como substrato, o que separa as quatro classes.",
+        "anti_induction": "Exige distinguir as enzimas ativadas pelo cálcio por substrato.",
+        "duplicate_check": "Nenhum outro card recupera classes enzimáticas do influxo de cálcio."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Fosfolipases, proteases e ATPases têm outros substratos, o que elimina alternativas."
+      }
+    },
+    {
+      "card_key": "pato01-c014",
+      "concept_id": "enzimas-lisossomicas",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A autodigestão da célula necrótica começa quando se rompem as membranas dos {{c1::lisossomos}}, liberando suas enzimas no citoplasma.",
+      "extra": "Essas enzimas ficam guardadas em compartimento fechado justamente para não atacar a própria célula. O extravasamento pela membrana plasmática, em paralelo, recruta inflamação.",
+      "e1_anchor": "o rompimento das membranas dos lisossomos",
+      "retrieval_target": "Recuperar a organela cuja ruptura desencadeia a digestão celular.",
+      "semantic_review": {
+        "ambiguity": "A pista pede a organela que guarda enzimas digestivas em compartimento fechado.",
+        "anti_induction": "Exige saber onde a célula estoca hidrolases em segurança.",
+        "duplicate_check": "Nenhum outro card recupera a origem das enzimas digestivas da necrose."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Apenas uma organela armazena hidrolases isoladas do citoplasma."
+      }
+    },
+    {
+      "card_key": "pato01-c015",
+      "concept_id": "celula-versus-arcabouco",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O que decide se o tecido necrótico ficará firme e reconhecível ou virará massa líquida é o destino do {{c1::arcabouço}}.",
+      "extra": "Mantido, dá a necrose coagulativa, com fantasmas de células. Digerido, dá a liquefativa, com cavidade. Essa é a chave que organiza todos os tipos de necrose.",
+      "e1_anchor": "é essa proporção que determina o aspecto final do tecido morto",
+      "retrieval_target": "Recuperar o elemento tecidual que define o padrão macroscópico da necrose.",
+      "semantic_review": {
+        "ambiguity": "A pista contrasta firmeza e liquefação, que dependem de sustentação estrutural.",
+        "anti_induction": "Exige distinguir conteúdo celular de matriz de sustentação.",
+        "duplicate_check": "Outros cards recuperam padrões específicos, não o princípio que os organiza."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "discriminador",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Firmeza tecidual depende da matriz de sustentação, não do conteúdo celular."
+      }
+    },
+    {
+      "card_key": "pato01-c016",
+      "concept_id": "eosinofilia-da-necrose",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A célula necrótica fica intensamente eosinofílica porque perde RNA citoplasmático e porque suas proteínas sofrem {{c1::desnaturação}}.",
+      "extra": "O RNA é basofílico, e perdê-lo já desloca a cor para o rosa. Proteína desnaturada, além disso, liga mais eosina, e o citoplasma fica vermelho-róseo homogêneo.",
+      "e1_anchor": "as proteínas citoplasmáticas se desnaturam, e proteínas desnaturadas ligam mais eosina",
+      "retrieval_target": "Recuperar a alteração proteica que reforça a eosinofilia da necrose.",
+      "semantic_review": {
+        "ambiguity": "A perda de RNA já está no enunciado, restando a alteração proteica.",
+        "anti_induction": "Exige saber por que proteína alterada capta mais eosina.",
+        "duplicate_check": "Outro card recupera alterações nucleares, não a coloração citoplasmática."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Com a via do RNA explicitada, só a alteração conformacional das proteínas completa a causa."
+      }
+    },
+    {
+      "card_key": "pato01-c017",
+      "concept_id": "alteracoes-nucleares-da-necrose",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O núcleo picnótico que se parte em fragmentos dispersos pelo citoplasma caracteriza a {{c1::cariorrexe}}.",
+      "extra": "A sequência é picnose, com núcleo pequeno e denso, cariorrexe, com fragmentação, e cariólise, com desaparecimento do núcleo por ação das endonucleases.",
+      "e1_anchor": "esse núcleo picnótico se fragmenta em pedaços dispersos pelo citoplasma",
+      "retrieval_target": "Recuperar o nome da etapa nuclear de fragmentação.",
+      "semantic_review": {
+        "ambiguity": "A picnose já é citada como estado anterior, o que isola a etapa seguinte.",
+        "anti_induction": "Exige conhecer a sequência de alterações nucleares da necrose.",
+        "duplicate_check": "Nenhum outro card recupera etapas da degeneração nuclear."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Picnose está nomeada no enunciado e cariólise não envolve fragmentos, o que fixa a resposta."
+      }
+    },
+    {
+      "card_key": "pato01-c018",
+      "concept_id": "necrose-caseosa",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O padrão de necrose com debris amorfos cercados por halo de células inflamatórias, associado ao granuloma da tuberculose, é o {{c1::caseoso}}.",
+      "extra": "Não há preservação do arcabouço como na coagulativa nem liquefação completa como na liquefativa: o tecido vira massa amorfa delimitada, com aspecto macroscópico de queijo.",
+      "e1_anchor": "Ela está geralmente associada ao granuloma da tuberculose",
+      "retrieval_target": "Recuperar o padrão de necrose ligado ao granuloma tuberculoso.",
+      "semantic_review": {
+        "ambiguity": "A pista dá doença e arquitetura, que juntas apontam um único padrão.",
+        "anti_induction": "Exige associar granuloma tuberculoso ao seu padrão de necrose.",
+        "duplicate_check": "Outro card recupera o princípio do arcabouço, não um padrão nomeado."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Coagulativa e liquefativa são excluídas pela descrição de massa amorfa delimitada."
+      }
+    },
+    {
+      "card_key": "pato01-c019",
+      "concept_id": "caspases",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "As enzimas que executam a demolição interna da apoptose, e que existem na célula em forma inativa até serem clivadas, são as {{c1::caspases}}.",
+      "extra": "Organizam-se em cascata: as iniciadoras ativam as executoras, que quebram o citoesqueleto e ativam endonucleases responsáveis pela fragmentação do DNA.",
+      "e1_anchor": "proteases que existem na célula em forma inativa",
+      "retrieval_target": "Recuperar a classe enzimática executora do programa apoptótico.",
+      "semantic_review": {
+        "ambiguity": "A pista exige uma protease que circula inativa e é ativada por clivagem.",
+        "anti_induction": "Exige conhecer o executor enzimático da apoptose.",
+        "duplicate_check": "Outro card recupera enzimas ativadas pelo cálcio na necrose, não o executor apoptótico."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Zimogênio proteolítico específico da apoptose não admite alternativa entre as classes vistas."
+      }
+    },
+    {
+      "card_key": "pato01-c020",
+      "concept_id": "via-extrinseca-fadd",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na via extrínseca, o agrupamento dos receptores Fas aproxima os domínios de morte, que recrutam a proteína adaptadora {{c1::FADD}}.",
+      "extra": "A FADD aproxima várias moléculas de procaspase-8, e é a própria proximidade que permite a autoativação. A caspase-8 formada aciona as caspases executoras.",
+      "e1_anchor": "recrutam uma proteína adaptadora",
+      "retrieval_target": "Recuperar o adaptador que liga o receptor de morte à procaspase.",
+      "semantic_review": {
+        "ambiguity": "A pista situa o passo entre domínio de morte e caspase iniciadora.",
+        "anti_induction": "Exige conhecer a montagem do complexo de sinalização de morte.",
+        "duplicate_check": "Outro card recupera as caspases, não o adaptador que as aproxima."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Bcl-2 e APAF-1 pertencem à via intrínseca, o que descarta confusão de adaptador."
+      }
+    },
+    {
+      "card_key": "pato01-c021",
+      "concept_id": "apoptose-sem-inflamacao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A apoptose não provoca inflamação porque o conteúdo celular permanece embalado até ser fagocitado, ou seja, porque a membrana plasmática se mantém {{c1::íntegra}}.",
+      "extra": "Na necrose ocorre o oposto: a membrana rompe, o conteúdo extravasa e recruta leucócitos. A célula apoptótica encolhe, em vez de inchar, pelo mesmo motivo.",
+      "e1_anchor": "não há inflamação em volta",
+      "retrieval_target": "Recuperar o estado da membrana que explica a ausência de inflamação.",
+      "semantic_review": {
+        "ambiguity": "A pista pede a condição da membrana que impede extravasamento.",
+        "anti_induction": "Exige ligar integridade de membrana à ausência de sinal inflamatório.",
+        "duplicate_check": "Outro card recupera a morfologia nuclear da necrose, não o estado da membrana na apoptose."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Conteúdo embalado só é possível com barreira preservada, sem alternativa."
+      }
+    },
+    {
+      "card_key": "pato01-c022",
+      "concept_id": "apoptose-fisiologica",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A eliminação de linfócitos que reconheceriam o próprio organismo, antes que causem autoimunidade, é um exemplo fisiológico de {{c1::apoptose}}.",
+      "extra": "Outros exemplos fisiológicos são a embriogênese, a involução dependente de hormônio e a morte das células inflamatórias residentes ao fim de uma resposta imune.",
+      "e1_anchor": "linfócitos que reconheceriam o próprio organismo são eliminados antes de causar autoimunidade",
+      "retrieval_target": "Recuperar o tipo de morte celular usado em processos fisiológicos.",
+      "semantic_review": {
+        "ambiguity": "A pista descreve morte programada e útil, o que exclui a via necrótica.",
+        "anti_induction": "Exige saber que apenas uma forma de morte celular é fisiológica.",
+        "duplicate_check": "Outros cards recuperam mecanismo apoptótico, não seu papel fisiológico."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [],
+        "ambiguity_review": "Necrose é sempre patológica, o que elimina a única alternativa concorrente."
+      }
+    },
+    {
+      "card_key": "pato01-io001",
+      "concept_id": "desfechos-da-lesao-irreversivel",
+      "tier": "nucleo",
+      "source": "io",
+      "mode": "hide_two_guess_two",
+      "e1_anchor": "que termina em morte celular por",
+      "prompt": "No organograma da resposta celular à agressão, nomeie os dois desfechos de morte que partem da lesão irreversível.",
+      "answers": [
+        "Necrose",
+        "Apoptose"
+      ],
+      "masks": [
+        {
+          "x": 0.255,
+          "y": 0.838,
+          "w": 0.28,
+          "h": 0.1
+        },
+        {
+          "x": 0.68,
+          "y": 0.838,
+          "w": 0.285,
+          "h": 0.1
+        }
+      ],
+      "pair_rationale": "As duas máscaras cobrem os rótulos das duas saídas paralelas do mesmo nó, e só fazem sentido recuperadas juntas.",
+      "image_path": "../../figuras/pato-01-lesao-e-morte-celular/slide-02-organograma-resposta-celular.png",
+      "source_credit": "Robbins, Pathologic basis of disease, 9ª edição — figura reproduzida nos slides da aula de Lesão Celular (Prof. Luiz Fernando Ferraz da Silva, FMUSP)",
+      "cognitive_purpose": "Fixar a posição dos dois tipos de morte celular no mapa geral da resposta à agressão, distinguindo-os da lesão reversível que retorna à célula normal.",
+      "visual_review": {
+        "labels_masked_not_structures": true,
+        "question_preview": true,
+        "answer_preview": true,
+        "legible": true,
+        "no_leak": true,
+        "didactic_value": true
+      }
+    },
+    {
+      "card_key": "pato01-io002",
+      "concept_id": "linha-de-conversao-dos-radicais",
+      "tier": "nucleo",
+      "source": "io",
+      "mode": "hide_two_guess_two",
+      "e1_anchor": "transforma o superóxido em peróxido de hidrogênio",
+      "prompt": "Na linha de geração de espécies reativas de oxigênio, nomeie a enzima que converte superóxido em peróxido de hidrogênio e a reação que converte peróxido de hidrogênio em radical hidroxila.",
+      "answers": [
+        "Superóxido dismutase",
+        "Reação de Fenton"
+      ],
+      "masks": [
+        {
+          "x": 0.198,
+          "y": 0.518,
+          "w": 0.085,
+          "h": 0.082
+        },
+        {
+          "x": 0.443,
+          "y": 0.462,
+          "w": 0.128,
+          "h": 0.132
+        }
+      ],
+      "pair_rationale": "As duas máscaras cobrem os rótulos dos dois passos consecutivos da mesma cadeia de conversão, que se explicam um pelo outro.",
+      "image_path": "../../figuras/pato-01-lesao-e-morte-celular/slide-14-geracao-radicais-livres.jpg",
+      "source_credit": "Robbins, Pathologic basis of disease, 9ª edição — figura reproduzida nos slides da aula de Lesão Celular (Prof. Luiz Fernando Ferraz da Silva, FMUSP)",
+      "cognitive_purpose": "Recuperar, sobre o próprio esquema, quem catalisa cada passo da conversão entre as três espécies reativas de oxigênio.",
+      "visual_review": {
+        "labels_masked_not_structures": true,
+        "question_preview": true,
+        "answer_preview": true,
+        "legible": true,
+        "no_leak": true,
+        "didactic_value": true
+      }
+    },
+    {
+      "card_key": "pato01-io003",
+      "concept_id": "mitocondria-desvia-necrose-apoptose",
+      "tier": "nucleo",
+      "source": "io",
+      "mode": "hide_two_guess_two",
+      "e1_anchor": "abertura da transição de permeabilidade mitocondrial",
+      "prompt": "Na mitocôndria lesada, nomeie o evento que leva ao ramo da necrose e o que é liberado no ramo da apoptose.",
+      "answers": [
+        "Transição de permeabilidade mitocondrial",
+        "Citocromo c"
+      ],
+      "masks": [
+        {
+          "x": 0.04,
+          "y": 0.69,
+          "w": 0.385,
+          "h": 0.062
+        },
+        {
+          "x": 0.492,
+          "y": 0.738,
+          "w": 0.282,
+          "h": 0.095
+        }
+      ],
+      "pair_rationale": "As duas máscaras cobrem os rótulos dos dois ramos opostos do mesmo esquema, e a comparação entre eles é o objetivo do card.",
+      "image_path": "../../figuras/pato-01-lesao-e-morte-celular/slide-16-mitocondria-necrose-apoptose.jpg",
+      "source_credit": "Robbins, Pathologic basis of disease, 9ª edição — figura reproduzida nos slides da aula de Lesão Celular (Prof. Luiz Fernando Ferraz da Silva, FMUSP)",
+      "cognitive_purpose": "Recuperar sobre o esquema qual evento mitocondrial encaminha para cada tipo de morte celular, com os desfechos visíveis servindo de referência espacial.",
+      "visual_review": {
+        "labels_masked_not_structures": true,
+        "question_preview": true,
+        "answer_preview": true,
+        "legible": true,
+        "no_leak": true,
+        "didactic_value": true
+      }
+    }
+  ]
+}
