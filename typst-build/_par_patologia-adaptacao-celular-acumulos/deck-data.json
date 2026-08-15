@@ -1,0 +1,1501 @@
+{
+  "metadata": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Patologia",
+    "nome_curto": "Adaptação Celular e Acúmulos"
+  },
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "e1_source": "etapa1.typ",
+    "e1_source_sha256": "d68b52ea066fc0699888663110e7e2c41c2920e7219a132f5c1d74a076e8e0c0",
+    "e1_pdf": "main.pdf",
+    "e1_pdf_sha256": "c2a2926255819c4c1860d62de8cee05ebd3a3de7d543c0203f6614c42ccdaffb",
+    "card_budget_hard_max": 25,
+    "source_to_e1_matrix": [
+      {
+        "origin": "slide-adapt-01 — capa do vídeo de adaptação",
+        "decision": "excluir",
+        "exclusion_reason": "elemento administrativo: título, autor e instituição"
+      },
+      {
+        "origin": "slide-adapt-02 + narração — quadro de lesão celular, reversibilidade e adaptação",
+        "decision": "visual",
+        "anchor": "1.1 — figura fig-adaptacao-vs-lesao e prosa sobre as duas saídas do estresse"
+      },
+      {
+        "origin": "slide-adapt-03 + narração — tecidos lábeis, estáveis e permanentes",
+        "decision": "ensinar",
+        "anchor": "1.2 — três categorias com exemplos e consequência para a adaptação"
+      },
+      {
+        "origin": "slide-adapt-04 + narração — cardiomiócito: adaptação versus lesão isquêmica",
+        "decision": "visual",
+        "anchor": "1.1 — figura fig-cardiomiocito-destinos e parágrafo sobre velocidade do estímulo"
+      },
+      {
+        "origin": "slide-adapt-05 + narração — definição de adaptação e os quatro tipos",
+        "decision": "ensinar",
+        "anchor": "1.1 e 1.3 — definição morfológica e funcional e panorama dos quatro tipos"
+      },
+      {
+        "origin": "slide-adapt-06 + narração — hipertrofia: aumento do tamanho da célula",
+        "decision": "ensinar",
+        "anchor": "2.1 — células maiores, não novas, e acúmulo de filamentos e organelas"
+      },
+      {
+        "origin": "slide-adapt-07 + narração — hipertrofia fisiológica: útero gravídico e miométrio",
+        "decision": "visual",
+        "anchor": "2.2 — figura fig-utero-gravidico e explicação do afastamento dos núcleos"
+      },
+      {
+        "origin": "slide-adapt-08 + narração — hipertrofia patológica do miocárdio",
+        "decision": "ensinar",
+        "anchor": "2.2 — hipertensão e estenose aórtica, com o contraste agudo versus crônico"
+      },
+      {
+        "origin": "slide-adapt-09 + narração — histologia do miocárdio normal e hipertrofiado",
+        "decision": "integrar",
+        "anchor": "2.2 — descrição das fibras espessas e da fibrose no coração hipertenso"
+      },
+      {
+        "origin": "slide-adapt-10 + narração — desencadeantes e limite da adaptação",
+        "decision": "ensinar",
+        "anchor": "2.3 e 2.4 — entradas do circuito e as duas restrições físicas do crescimento"
+      },
+      {
+        "origin": "slide-adapt-11 + narração — esquema molecular da hipertrofia",
+        "decision": "visual",
+        "anchor": "2.3 — figura fig-hipertrofia-mecanismo com entradas, nó e três saídas"
+      },
+      {
+        "origin": "slide-adapt-12 + narração — genética e mecanismos da hipertrofia",
+        "decision": "integrar",
+        "anchor": "2.3 — fatores de transcrição, proteínas contráteis e alça de fatores de crescimento"
+      },
+      {
+        "origin": "slide-adapt-13 + narração — ANP, cadeia beta de miosina e genes de ação imediata",
+        "decision": "ensinar",
+        "anchor": "2.3 — programa fetal com ATPase mais lenta e ação diurética do ANP"
+      },
+      {
+        "origin": "slide-adapt-14 + narração — via aérea normal versus asmática",
+        "decision": "visual",
+        "anchor": "2.2 — figura fig-asma-musculo e hipertrofia do músculo liso brônquico"
+      },
+      {
+        "origin": "slide-adapt-15 + narração — hiperplasia fisiológica e patológica",
+        "decision": "ensinar",
+        "anchor": "2.5 — formas hormonal, compensatória e patológica"
+      },
+      {
+        "origin": "slide-adapt-16 + narração — regeneração hepática e ciclo celular",
+        "decision": "visual",
+        "anchor": "2.5 — figura fig-regeneracao-hepatica e saída de G0 por citocinas"
+      },
+      {
+        "origin": "slide-adapt-17 + narração — órgãos com e sem hiperplasia",
+        "decision": "ensinar",
+        "anchor": "2.5 — mama, útero, medula sob eritropoietina, fígado, rim e pulmão; ausência em permanentes"
+      },
+      {
+        "origin": "slide-adapt-18 + narração — hiperplasia patológica e diferença para neoplasia",
+        "decision": "ensinar",
+        "anchor": "2.5 — estrógeno-progesterona, andrógenos, vírus, cicatrização e a caixa hiperplasia não é neoplasia"
+      },
+      {
+        "origin": "slide-adapt-19 + narração — próstata normal versus hiperplasia prostática",
+        "decision": "visual",
+        "anchor": "2.5 — figura fig-hiperplasia-prostatica"
+      },
+      {
+        "origin": "slide-adapt-20 + narração — definição de atrofia e encéfalo atrófico",
+        "decision": "visual",
+        "anchor": "3.1 — figura fig-cerebro-atrofia e distinção entre atrofia celular e de órgão"
+      },
+      {
+        "origin": "slide-adapt-21 + narração — atrofia fisiológica, patológica, local e difusa",
+        "decision": "ensinar",
+        "anchor": "3.2 — ducto tireoglosso, ductos müllerianos, útero pós-gestação e formas local e difusa"
+      },
+      {
+        "origin": "slide-adapt-22 + narração — causas de atrofia patológica",
+        "decision": "ensinar",
+        "anchor": "3.2 — desuso, desnervação, isquemia, nutrição inadequada, perda hormonal e compressão"
+      },
+      {
+        "origin": "slide-adapt-23 + narração — ubiquitina, proteassomo e autofagia",
+        "decision": "visual",
+        "anchor": "3.3 — figura fig-ubiquitina-proteassomo e as duas rotas de degradação"
+      },
+      {
+        "origin": "slide-adapt-24 + narração — reguladores da balança síntese-degradação",
+        "decision": "ensinar",
+        "anchor": "3.3 — corticoides, hormônio tireoidiano, TNF e interleucina-1 contra insulina"
+      },
+      {
+        "origin": "slide-adapt-25 + narração — rim normal versus rim atrófico",
+        "decision": "integrar",
+        "anchor": "3.2 — isquemia como causa de atrofia, exemplificada no rim"
+      },
+      {
+        "origin": "slide-adapt-26 + narração — osteoporose como atrofia óssea",
+        "decision": "integrar",
+        "anchor": "3.2 — queda da carga, osteoblasto e predomínio da reabsorção"
+      },
+      {
+        "origin": "slide-adapt-27 + narração — hipoplasia e aplasia",
+        "decision": "ensinar",
+        "anchor": "3.4 — caixa órgão pequeno pode nunca ter sido grande"
+      },
+      {
+        "origin": "slide-adapt-28 + narração — definição e mecanismo da metaplasia",
+        "decision": "ensinar",
+        "anchor": "3.5 — substituição de tipo adulto por reprogramação da célula-tronco"
+      },
+      {
+        "origin": "slide-adapt-29 + narração — metaplasia escamosa e origem na célula-tronco",
+        "decision": "visual",
+        "anchor": "3.5 — figura fig-metaplasia e exemplos de tabagismo e refluxo"
+      },
+      {
+        "origin": "slide-acum-01 — capa do vídeo de acúmulos",
+        "decision": "excluir",
+        "exclusion_reason": "elemento administrativo: título, autor e instituição"
+      },
+      {
+        "origin": "slide-acum-02 + narração — naturezas do acúmulo intracelular",
+        "decision": "ensinar",
+        "anchor": "4.1 — constituinte normal, substância anormal e pigmento, com o tripé produção, entrada e eliminação"
+      },
+      {
+        "origin": "slide-acum-03 + narração — quatro mecanismos de acúmulo",
+        "decision": "visual",
+        "anchor": "4.1 — figura fig-mecanismos-acumulo com os quatro mecanismos"
+      },
+      {
+        "origin": "slide-acum-04 + narração — toxicidade, localização, produção versus armazenamento",
+        "decision": "ensinar",
+        "anchor": "4.1 — três perguntas que orientam a leitura de um acúmulo"
+      },
+      {
+        "origin": "slide-acum-05 + narração — esteatose: definição, órgãos e causas",
+        "decision": "ensinar",
+        "anchor": "4.2 — etimologia, fígado como sede principal e causas mais comuns"
+      },
+      {
+        "origin": "slide-acum-06 + narração — metabolismo lipídico do hepatócito",
+        "decision": "visual",
+        "anchor": "4.2 — figura fig-lipides-hepatocito e rotas do ácido graxo livre"
+      },
+      {
+        "origin": "slide-acum-07 + narração — excesso de oferta de ácidos graxos",
+        "decision": "ensinar",
+        "anchor": "4.3 — jejum, desnutrição e diabetes com a lipase hormônio-sensível"
+      },
+      {
+        "origin": "slide-acum-08 + narração — exportação exige conjugação com apoproteína",
+        "decision": "ensinar",
+        "anchor": "4.3 — falha de exportação por falta de proteína e por tetracloreto de carbono"
+      },
+      {
+        "origin": "slide-acum-09 + narração — esteatose alcoólica",
+        "decision": "ensinar",
+        "anchor": "4.3 — desnutrição crônica, lesão direta e acetato do metabolismo do etanol"
+      },
+      {
+        "origin": "slide-acum-10 + narração — macroscopia e microscopia da esteatose",
+        "decision": "visual",
+        "anchor": "4.3 — figura fig-esteatose e deslocamento do núcleo"
+      },
+      {
+        "origin": "slide-acum-11 + narração — colesterol, aterosclerose, colesterolose e xantomas",
+        "decision": "ensinar",
+        "anchor": "4.4 — três cenários de depósito de colesterol fora do fígado"
+      },
+      {
+        "origin": "slide-acum-12 + narração — placa de ateroma",
+        "decision": "integrar",
+        "anchor": "4.4 — resposta inflamatória, obstrução parcial e trombose"
+      },
+      {
+        "origin": "slide-acum-13 + narração — colesterolose e vesícula em morango",
+        "decision": "integrar",
+        "anchor": "4.4 — macrófagos repletos de colesterol na parede da vesícula"
+      },
+      {
+        "origin": "slide-acum-14 + narração — acúmulo de proteínas: causas e morfologia",
+        "decision": "ensinar",
+        "anchor": "4.5 — glóbulos e grumos, mieloma e reabsorção tubular"
+      },
+      {
+        "origin": "slide-acum-15 + narração — chaperonas, ubiquitina e proteassomo",
+        "decision": "visual",
+        "anchor": "4.5 — figura fig-chaperonas com produção normal e resposta ao dano"
+      },
+      {
+        "origin": "slide-acum-16 + narração — placa senil e amiloide no córtex",
+        "decision": "visual",
+        "anchor": "4.5 — parágrafo sobre Alzheimer e card de Image Occlusion io01"
+      },
+      {
+        "origin": "slide-acum-17 + narração — glicogênio: causas e citoplasma rendilhado",
+        "decision": "ensinar",
+        "anchor": "4.5 — diabetes, glicogenoses, aspecto rendilhado e edema celular"
+      },
+      {
+        "origin": "slide-acum-18 + narração — tabela das glicogenoses",
+        "decision": "excluir",
+        "exclusion_reason": "o professor declarou expressamente que a tabela não é exigida; o princípio, deficiência de qualquer enzima da via gera um tipo de glicogenose, está ensinado em 4.5"
+      },
+      {
+        "origin": "slide-acum-19 + narração — calcificação patológica distrófica e metastática",
+        "decision": "ensinar",
+        "anchor": "5.1 — critério da calcemia como eixo da divisão"
+      },
+      {
+        "origin": "slide-acum-20 + narração — calcificação distrófica: exemplos",
+        "decision": "ensinar",
+        "anchor": "5.1 — necrose, ateroma calcificado, valvas, tumores necróticos e cicatrizes"
+      },
+      {
+        "origin": "slide-acum-21 + narração — calcificação metastática: causas",
+        "decision": "ensinar",
+        "anchor": "5.1 — PTH, destruição óssea, vitamina D e insuficiência renal"
+      },
+      {
+        "origin": "slide-acum-22 + narração — pigmentos exógenos: tatuagem e antracose",
+        "decision": "visual",
+        "anchor": "5.2 — figura fig-pigmentos-exogenos"
+      },
+      {
+        "origin": "slide-acum-23 + narração — lipofuscina e atrofia parda",
+        "decision": "ensinar",
+        "anchor": "5.2 — peroxidação de membranas na autofagia e ausência de significado patológico"
+      },
+      {
+        "origin": "slide-acum-24 + narração — melanina, tirosina e tirosinase",
+        "decision": "ensinar",
+        "anchor": "5.2 — único pigmento endógeno fisiológico marrom"
+      },
+      {
+        "origin": "slide-acum-25 + narração — hemossiderina, apoferritina e ferritina",
+        "decision": "ensinar",
+        "anchor": "5.3 — ferro ligado à apoferritina, micelas de ferritina e grânulos de hemossiderina"
+      },
+      {
+        "origin": "slide-acum-26 + narração — causas de sobrecarga de ferro e coloração de Perls",
+        "decision": "visual",
+        "anchor": "5.3 — figura fig-perls e distinção entre ferro e bile"
+      },
+      {
+        "origin": "slide-acum-27 + narração — hemocromatose primária e secundária",
+        "decision": "ensinar",
+        "anchor": "5.3 — defeito do metabolismo do ferro, pigmentação bronze, diabetes e arritmias"
+      },
+      {
+        "origin": "slide-acum-28 + narração — bilirrubina, icterícia e colestase",
+        "decision": "ensinar",
+        "anchor": "5.3 — pigmento sem ferro, impregnação biliar e as duas topografias do acúmulo"
+      },
+      {
+        "origin": "slide-acum-29 + narração — quadro de classificação dos pigmentos",
+        "decision": "integrar",
+        "anchor": "5.2 e 5.3 — organização exógenos, não-hemoglobinógenos e hemoglobinógenos incorporada à prosa"
+      },
+      {
+        "origin": "Objetivo implícito da aula: reconhecer as quatro adaptações celulares e o limite de cada uma",
+        "decision": "ensinar",
+        "anchor": "PARTE I a PARTE III, com síntese 1 e síntese 2"
+      },
+      {
+        "origin": "Objetivo implícito da aula: reconhecer os acúmulos intracelulares e ler o distúrbio metabólico por trás deles",
+        "decision": "ensinar",
+        "anchor": "PARTE IV e PARTE V, com síntese 3 e síntese 4"
+      },
+      {
+        "origin": "Bloco de transcrição — musculação e o sedentário que treina duas horas",
+        "decision": "ensinar",
+        "anchor": "2.1 — critério de velocidade aplicado ao músculo esquelético"
+      },
+      {
+        "origin": "Bloco de transcrição — Prometeu e a capacidade regenerativa do fígado",
+        "decision": "excluir",
+        "exclusion_reason": "ilustração mitológica sem conteúdo mecanístico; a capacidade regenerativa está ensinada em 2.5"
+      },
+      {
+        "origin": "Bloco de transcrição — mecanismos de hiperplasia serão vistos nas últimas semanas da UC3",
+        "decision": "excluir",
+        "exclusion_reason": "referência de cronograma, sem conteúdo da aula"
+      },
+      {
+        "origin": "Bloco de transcrição — aula síncrona com lâminas de esteatose",
+        "decision": "excluir",
+        "exclusion_reason": "referência de agenda; a morfologia correspondente está ensinada em 4.3"
+      },
+      {
+        "origin": "Bloco de transcrição — insulina discutida por outra docente",
+        "decision": "integrar",
+        "anchor": "3.3 — insulina como agente anabólico da balança síntese-degradação"
+      },
+      {
+        "origin": "Bloco de transcrição — envelhecimento será discutido na semana seguinte",
+        "decision": "integrar",
+        "anchor": "conclusão integradora, que aponta a aula seguinte"
+      },
+      {
+        "origin": "Bloco de transcrição — atividade física e intelectual na velhice",
+        "decision": "ensinar",
+        "anchor": "3.2 — círculo vicioso desuso, hipoperfusão e atrofia"
+      },
+      {
+        "origin": "Informação visual do slide-adapt-03 não repetida na fala — exemplos de tecidos lábeis e estáveis",
+        "decision": "ensinar",
+        "anchor": "1.2 — pele, cavidade oral, ductos excretores, tubo digestório, útero, vagina, trato urinário; fígado, pâncreas, fibroblasto e músculo liso"
+      },
+      {
+        "origin": "Informação visual do slide-adapt-11 não repetida na fala — GATA4, NFAT, MEF2, IGF-1, angiotensina II e endotelina",
+        "decision": "ensinar",
+        "anchor": "2.3 — nomes dos fatores de transcrição e dos agonistas"
+      },
+      {
+        "origin": "Informação visual do slide-adapt-17 não repetida na fala — eritropoietina na hiperplasia medular",
+        "decision": "ensinar",
+        "anchor": "2.5 — medula óssea sob estímulo de eritropoietina"
+      },
+      {
+        "origin": "Informação visual do slide-acum-05 não repetida na fala — obesidade e dislipidemia como causas",
+        "decision": "ensinar",
+        "anchor": "4.2 — causas mais frequentes de esteatose"
+      },
+      {
+        "origin": "Informação visual do slide-acum-25 não repetida na fala — ferro mais apoferritina formando ferritina",
+        "decision": "ensinar",
+        "anchor": "5.3 — cadeia ferro, apoferritina, ferritina e hemossiderina"
+      },
+      {
+        "origin": "Informação visual do slide-acum-27 não repetida na fala — prevalência de 1:200 a 1:500 da hemocromatose",
+        "decision": "excluir",
+        "exclusion_reason": "dado epidemiológico pontual de população estrangeira, sem função mecanística na aula"
+      },
+      {
+        "origin": "Notas do professor além da fala e dos slides",
+        "decision": "indisponível",
+        "exclusion_reason": "as fontes recebidas são apenas as duas transcrições em PDF, que já embutem os slides; não há arquivo de notas"
+      }
+    ],
+    "concepts": [
+      {
+        "concept_id": "adaptacao-definicao",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c01"
+        ],
+        "e1_anchor": "adaptação é uma alteração morfológica e funcional da célula em resposta a um estímulo",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "estresse-velocidade",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c02"
+        ],
+        "e1_anchor": "O que acontece a partir daí depende de duas coisas: da intensidade do estímulo e da velocidade com que ele se instala",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "capacidade-replicativa",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c03"
+        ],
+        "e1_anchor": "a capacidade replicativa do tecido",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "tecidos-classificacao",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "e1_anchor": "Os tecidos lábeis se dividem continuamente",
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derived_from_card_keys": [
+          "c03"
+        ],
+        "derivation_rationale": "O card dos tecidos permanentes fixa a fronteira que importa; a partir dela, lábil e estável se reconstroem pela E1 sem card próprio."
+      },
+      {
+        "concept_id": "hipertrofia-definicao",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c04"
+        ],
+        "e1_anchor": "Hipertrofia é o aumento do tamanho das células, que resulta em aumento do tamanho do órgão",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hipertrofia-patologica",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "A hipertrofia é patológica quando o aumento de demanda vem de uma doença",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hipertrofia-mecanismo",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c05"
+        ],
+        "e1_anchor": "A cadeia tem três entradas convergentes e três saídas",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "genes-fetais",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c06"
+        ],
+        "e1_anchor": "reexpressão de genes embrionários ou fetais",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "anp-precarga",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c07"
+        ],
+        "e1_anchor": "Ele tem ação diurética: aumenta a eliminação renal de sódio e, com o sódio, de água",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "limite-adaptacao",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c08"
+        ],
+        "e1_anchor": "Adaptação não é ilimitada, e o motivo é físico",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hiperplasia-definicao",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "e1_anchor": "a hiperplasia é o aumento do número de células",
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derived_from_card_keys": [
+          "c03",
+          "c04"
+        ],
+        "derivation_rationale": "Sabendo que hipertrofia é aumento de tamanho e que tecido permanente só hipertrofia, a definição de hiperplasia como aumento de número é recuperada por oposição."
+      },
+      {
+        "concept_id": "hiperplasia-compensatoria",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c09"
+        ],
+        "e1_anchor": "A compensatória aparece quando parte de um órgão é perdida e o que resta prolifera para assumir a função",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hiperplasia-patologica",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "A hiperplasia patológica ocorre quando o estímulo proliferativo é excessivo ou anômalo",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hiperplasia-vs-neoplasia",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c10"
+        ],
+        "e1_anchor": "Na neoplasia, a célula deixou de obedecer aos sinais de parada e prolifera de forma autônoma",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "atrofia-definicao",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c11"
+        ],
+        "e1_anchor": "Atrofia é a diminuição do tamanho por perda de substância celular",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "atrofia-causas",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "cai o estímulo, cai o aporte ou sobe a degradação",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "atrofia-mecanismo",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c12"
+        ],
+        "e1_anchor": "a balança entre síntese e degradação de proteínas passa a pender para a degradação",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "autofagia",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c13"
+        ],
+        "e1_anchor": "a célula envolve a organela em uma vesícula, funde essa vesícula com um lisossomo",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hipoplasia-aplasia",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c14"
+        ],
+        "e1_anchor": "o órgão nunca se desenvolveu plenamente",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "metaplasia-mecanismo",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c15"
+        ],
+        "e1_anchor": "metaplasia é a substituição de um tipo celular adulto por outro tipo celular adulto",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "metaplasia-consequencia",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "e1_anchor": "O epitélio escamoso resiste melhor, mas não transporta muco",
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derived_from_card_keys": [
+          "c15"
+        ],
+        "derivation_rationale": "Recuperado que o novo epitélio é escamoso e não ciliado, a perda do transporte de muco decorre da própria troca, sem card adicional."
+      },
+      {
+        "concept_id": "acumulo-mecanismos",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "e1_anchor": "Os mecanismos concretos pelos quais isso acontece são quatro",
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derived_from_card_keys": [
+          "c16",
+          "c17",
+          "c19"
+        ],
+        "derivation_rationale": "Os quatro mecanismos aparecem instanciados nos cards de esteatose e de glicogênio; a lista geral é reconstruída a partir deles com a E1."
+      },
+      {
+        "concept_id": "esteatose-exportacao",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c16"
+        ],
+        "e1_anchor": "Os triglicérides são lipossolúveis e, por isso mesmo, não circulam no sangue como estão",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "esteatose-diabetes",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c17"
+        ],
+        "e1_anchor": "sem captação adequada de glicose, a célula se comporta como se estivesse em jejum e mobiliza ácidos graxos",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "esteatose-alcool",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "O etilista crônico costuma ser um desnutrido crônico",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "esteatose-morfologia",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c18"
+        ],
+        "e1_anchor": "Os triglicérides se organizam em vacúolos no citoplasma",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "colesterol-extra-hepatico",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "em que o lipídio se acumula na parede do vaso",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "acumulo-proteinas",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "io01"
+        ],
+        "e1_anchor": "O acúmulo de proteínas dentro da célula é visível ao microscópio óptico",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "lipides-hepatocito-rotas",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "io02"
+        ],
+        "e1_anchor": "Os ácidos graxos livres absorvidos no intestino são internalizados pelo hepatócito",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "glicogenio",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c19"
+        ],
+        "e1_anchor": "o glicogênio é hidrossolúvel, e por isso aparece difuso pelo citoplasma",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "calcificacao-distrofica",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c20"
+        ],
+        "e1_anchor": "A calcificação distrófica ocorre em tecido lesado, tipicamente em áreas de necrose",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "calcificacao-metastatica",
+        "importance": "nuclear",
+        "coverage_quality": 2,
+        "retention_class": "derivable",
+        "card_keys": [],
+        "e1_anchor": "ela reflete um distúrbio do metabolismo do cálcio, com hipercalcemia, e ocorre em tecidos viáveis e normais",
+        "step1": {
+          "decision": "not_applicable"
+        },
+        "derived_from_card_keys": [
+          "c20"
+        ],
+        "derivation_rationale": "O card da distrófica fixa o par calcemia normal e tecido lesado; a metastática é o polo oposto do mesmo eixo e se recupera por contraste."
+      },
+      {
+        "concept_id": "pigmentos-exogenos",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "Os exógenos vêm de fora do organismo",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "lipofuscina",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c21"
+        ],
+        "e1_anchor": "A lipofuscina é o pigmento do envelhecimento",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "melanina",
+        "importance": "supporting",
+        "coverage_quality": 1,
+        "retention_class": "e1_only",
+        "card_keys": [],
+        "e1_anchor": "produzida nos melanócitos a partir da tirosina",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "hemossiderina",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c22"
+        ],
+        "e1_anchor": "A hemossiderina é o pigmento resultante da degradação do ferro da hemoglobina",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      },
+      {
+        "concept_id": "bilirrubina",
+        "importance": "nuclear",
+        "coverage_quality": 3,
+        "retention_class": "must_recall",
+        "card_keys": [
+          "c23"
+        ],
+        "e1_anchor": "Quando a bilirrubina se acumula, imprime aos tecidos uma coloração amarelo-esverdeada",
+        "step1": {
+          "decision": "not_applicable"
+        }
+      }
+    ],
+    "retention_kernel_review": {
+      "slots_fixed_before_authorship": true,
+      "compression_review_passed": true,
+      "ablation_review_passed": true,
+      "estimated_seconds_per_card_max": 10,
+      "summary": "Núcleo congelado em 37 conceitos antes da autoria: 27 nucleares e 10 de apoio. A compressão fundiu tecidos lábeis/estáveis no card dos permanentes, a metaplasia e sua consequência num só card e as duas calcificações no card da distrófica. A ablação retirou cards de álcool, colesterol extra-hepático, melanina, antracose, causas de atrofia e hiperplasia patológica, mantidos como conteúdo de E1. Restaram 25 cards, todos de recuperação única e resposta em até dez segundos."
+    },
+    "e1_review": {
+      "slide_inventory_complete": true,
+      "objectives_covered": true,
+      "core_coverage_complete": true,
+      "mechanisms_explicit": true,
+      "visual_information_explained": true,
+      "core_study_without_slides": true,
+      "step1_depth_reviewed": true,
+      "card_content_anchored": true,
+      "independent_review_passed": true,
+      "source_to_e1_matrix_complete": true,
+      "beginner_zero_baseline_passed": true,
+      "stepwise_explanation_passed": true,
+      "didactic_flow_passed": true,
+      "uc02_exemplars_applied": true,
+      "rhetorical_questions_absent": true,
+      "visual_asset_hygiene_passed": true,
+      "rendered_pdf_visual_review_passed": true,
+      "notes_review_status": "covered",
+      "summary": "Revisão em quatro passadas sobre as duas transcrições e os 58 slides. Passada fonte-E1: cada slide recebeu linha na matriz; os 29 slides de adaptação e os 29 de acúmulos estão cobertos, e as únicas exclusões são capas e a tabela de glicogenoses que o professor dispensou. Conteúdo que estava só no slide e não na fala foi incorporado: exemplos de tecidos lábeis e estáveis, eritropoietina na hiperplasia medular, GATA4/NFAT/MEF2, IGF-1, angiotensina II e endotelina, obesidade e dislipidemia como causas de esteatose, ferro mais apoferritina formando ferritina antes da hemossiderina, e a prevalência da hemocromatose. Passada aluno-zero: pré-requisitos explicitados em capacidade replicativa antes dos tipos de adaptação, ATPase antes da cadeia beta de miosina, trânsito normal do lipídio antes da esteatose e regulação do cálcio antes da calcificação metastática. Passada didática: prosa contínua, sem pergunta retórica, com três confusões formalizadas em caixa (hiperplasia versus neoplasia, órgão pequeno que nunca cresceu, metastática versus metástase) e uma caixa vermelha para hipertrofia versus dilatação. Passada visual: 26 páginas renderizadas e revisadas uma a uma. Pendências: nenhuma.",
+      "unresolved_core_omissions": [],
+      "unresolved_ambiguities": [],
+      "unresolved_beginner_gaps": [],
+      "unresolved_visual_defects": [],
+      "visual_figure_ledger": [
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-adaptacao-vs-lesao.png",
+          "origin": "slide-adapt-02",
+          "cognitive_task": "Contrastar adaptação e lesão como saídas do mesmo estresse",
+          "crop": "recorte do fluxograma, sem faixa de título nem logo",
+          "resolution": "550x388 px em 62% da largura útil",
+          "caption_match": "legenda narra as duas setas e a falha de adaptação",
+          "rendered_page": "p4",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-cardiomiocito-destinos.png",
+          "origin": "slide-adapt-04",
+          "cognitive_task": "Mostrar hipertrofia e morte celular partindo do mesmo miócito",
+          "crop": "recorte do esquema com as duas peças macroscópicas",
+          "resolution": "611x383 px em 66%",
+          "caption_match": "legenda identifica lado adaptativo e lado lesivo",
+          "rendered_page": "p4",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-utero-gravidico.png",
+          "origin": "slide-adapt-07",
+          "cognitive_task": "Ligar macroscopia do útero à histologia do miométrio",
+          "crop": "recorte só das três imagens, sem os tópicos do slide",
+          "resolution": "689x242 px em 72%",
+          "caption_match": "legenda explica o afastamento dos núcleos",
+          "rendered_page": "p6",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-asma-musculo.png",
+          "origin": "slide-adapt-14",
+          "cognitive_task": "Comparar a camada muscular lisa normal e a do asmático",
+          "crop": "recorte das duas lâminas",
+          "resolution": "720x404 px em 72%",
+          "caption_match": "legenda dirige o olhar para a faixa muscular",
+          "rendered_page": "p7",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-hipertrofia-mecanismo.png",
+          "origin": "slide-adapt-11",
+          "cognitive_task": "Seguir o circuito estímulo-transcrição-efeito da hipertrofia",
+          "crop": "recorte do esquema completo, sem e-mail e logo do rodapé",
+          "resolution": "652x423 px em 82%",
+          "caption_match": "legenda percorre entradas, nó e três saídas",
+          "rendered_page": "p8",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-regeneracao-hepatica.png",
+          "origin": "slide-adapt-16",
+          "cognitive_task": "Explicar hiperplasia compensatória e a saída de G0",
+          "crop": "recorte do painel duplo",
+          "resolution": "628x408 px em 80%",
+          "caption_match": "legenda liga hepatectomia ao ciclo celular",
+          "rendered_page": "p10",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-hiperplasia-prostatica.png",
+          "origin": "slide-adapt-19",
+          "cognitive_task": "Reconhecer aumento de número de glândulas na próstata",
+          "crop": "recorte das quatro imagens",
+          "resolution": "664x408 px em 68%",
+          "caption_match": "legenda insiste em número e não tamanho",
+          "rendered_page": "p11",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-cerebro-atrofia.png",
+          "origin": "slide-adapt-20",
+          "cognitive_task": "Reconhecer atrofia de órgão em encéfalo",
+          "crop": "recorte só das duas peças, fundo preto preservado",
+          "resolution": "397x247 px em 52%",
+          "caption_match": "legenda descreve giros e sulcos",
+          "rendered_page": "p12",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-ubiquitina-proteassomo.png",
+          "origin": "slide-adapt-23",
+          "cognitive_task": "Seguir marcação por ubiquitina até o proteassomo 26S",
+          "crop": "recorte só do diagrama, sem os tópicos do slide",
+          "resolution": "275x391 px em 33% como figura lateral",
+          "caption_match": "texto lateral descreve E1-E2-E3 e 19S/20S",
+          "rendered_page": "p13",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-metaplasia.png",
+          "origin": "slide-adapt-29",
+          "cognitive_task": "Ver a troca de epitélio e a origem na célula-tronco",
+          "crop": "recorte dos painéis A, B e do esquema",
+          "resolution": "710x381 px em 78%",
+          "caption_match": "legenda separa esquema, histologia e origem",
+          "rendered_page": "p15",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-mecanismos-acumulo.png",
+          "origin": "slide-acum-03",
+          "cognitive_task": "Distinguir os quatro mecanismos de acúmulo",
+          "crop": "recorte do painel Robbins",
+          "resolution": "690x404 px em 82%",
+          "caption_match": "legenda numera os quatro mecanismos",
+          "rendered_page": "p16",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-lipides-hepatocito.png",
+          "origin": "slide-acum-06",
+          "cognitive_task": "Seguir o trânsito do lipídio até a exportação",
+          "crop": "recorte do esquema hepático",
+          "resolution": "538x400 px em 66%",
+          "caption_match": "legenda termina no ponto onde a exportação falha",
+          "rendered_page": "p18",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-esteatose.png",
+          "origin": "slide-acum-10",
+          "cognitive_task": "Reconhecer esteatose na macro e na microscopia",
+          "crop": "recorte das quatro imagens",
+          "resolution": "629x404 px em 72%",
+          "caption_match": "legenda liga cor amarela a vacúolo e núcleo periférico",
+          "rendered_page": "p19",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-chaperonas.png",
+          "origin": "slide-acum-15",
+          "cognitive_task": "Separar dobramento normal de resposta ao dano proteico",
+          "crop": "recorte dos painéis A e B",
+          "resolution": "523x381 px em 80%",
+          "caption_match": "legenda distingue os dois painéis",
+          "rendered_page": "p20",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-pigmentos-exogenos.png",
+          "origin": "slide-acum-22",
+          "cognitive_task": "Reconhecer tatuagem e antracose como pigmentos exógenos",
+          "crop": "recorte das duas fotos",
+          "resolution": "644x404 px em 70%",
+          "caption_match": "legenda explica retenção no macrófago",
+          "rendered_page": "p22",
+          "visual_approval": "aprovada"
+        },
+        {
+          "file": "figuras/patologia-adaptacao-celular-acumulos/fig-perls.png",
+          "origin": "slide-acum-26",
+          "cognitive_task": "Comparar HE e Perls no mesmo fígado com ferro",
+          "crop": "recorte só das duas lâminas, sem o tópico do slide",
+          "resolution": "629x175 px em 72%",
+          "caption_match": "legenda explica a resolução da dúvida",
+          "rendered_page": "p23",
+          "visual_approval": "aprovada"
+        }
+      ]
+    },
+    "e1_format_review": {
+      "canonical_template_used": true,
+      "all_pages_rendered": true,
+      "layout_reviewed": true,
+      "paragraph_hierarchy_preserved": true,
+      "images_legible_and_integrated": true,
+      "no_clipping_or_overflow": true,
+      "independent_visual_review_passed": true,
+      "unresolved_visual_defects": [],
+      "summary": "main.typ monta capa, sumário, cabeçalho de etapa, etapa1.typ e resumindo.typ com o template nebli_v2_apostila.typ, sem redefinição local de página, parágrafo ou helper. As 26 páginas do PDF foram renderizadas a 90-100 dpi e inspecionadas: nenhuma página vazia, nenhum corte de figura, nenhum transbordo de caixa e nenhuma legenda separada da sua figura. O Resumindo foi reduzido de dez para oito cápsulas até caber na página única prevista pelo helper. Todas as figuras foram recortadas do slide-fonte com remoção de faixa de título, moldura, webcam, rodapé de e-mail e logo institucional, e conferidas em tamanho de leitura."
+    }
+  },
+  "cards": [
+    {
+      "card_key": "c01",
+      "concept_id": "adaptacao-definicao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na adaptação, a célula muda de forma e de função sem que haja lesão tecidual: ela preserva a {{c1::viabilidade}} e apenas modula o que faz.",
+      "extra": "É esse desfecho que separa adaptação de lesão. Na lesão, a célula caminha para necrose ou apoptose; na adaptação, ela chega a um novo estado de equilíbrio e continua trabalhando.",
+      "e1_anchor": "não há lesão tecidual, a viabilidade é preservada e a função é modulada",
+      "retrieval_target": "Recuperar o que a adaptação preserva na célula.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o que a célula mantém intacto, e a própria frase já cita a função como item separado.",
+        "anti_induction": "Exige saber que adaptação, por definição, não mata nem lesa a célula.",
+        "duplicate_check": "Único card sobre a definição de adaptação; os demais tratam de tipos e mecanismos."
+      }
+    },
+    {
+      "card_key": "c02",
+      "concept_id": "estresse-velocidade",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O mesmo cardiomiócito hipertrofia diante de sobrecarga que se instala em anos e morre diante de isquemia aguda, porque o que separa os desfechos é o {{c1::tempo}} disponível para responder.",
+      "extra": "Estímulo intenso e súbito não deixa margem para reorganizar síntese proteica. Estímulo progressivo permite acumular filamentos e organelas antes que a demanda ultrapasse a capacidade.",
+      "e1_anchor": "o que separa os desfechos é o tempo disponível para responder",
+      "retrieval_target": "Recuperar a variável que decide entre adaptação e lesão diante do mesmo tipo de estímulo.",
+      "semantic_review": {
+        "ambiguity": "A pista contrasta dois cursos temporais e pede a variável em jogo, não o nome do desfecho.",
+        "anti_induction": "Exige entender que a via de adaptação depende de reorganização, que leva tempo.",
+        "duplicate_check": "Não repete a definição de adaptação nem os mecanismos de hipertrofia."
+      }
+    },
+    {
+      "card_key": "c03",
+      "concept_id": "capacidade-replicativa",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Como neurônio, músculo esquelético e músculo cardíaco não se replicam de forma significativa, a única adaptação disponível para sobrecarga nesses tecidos é a {{c1::hipertrofia}}.",
+      "extra": "Tecido permanente não repõe células perdidas nem multiplica as existentes. O tecido que restou precisa dar conta do trabalho de todos, e isso só é possível aumentando cada célula.",
+      "e1_anchor": "não têm capacidade replicativa significativa",
+      "retrieval_target": "Recuperar a adaptação que sobra quando o tecido não pode proliferar.",
+      "semantic_review": {
+        "ambiguity": "A pista nomeia os três tecidos permanentes e pede a resposta possível, que é única.",
+        "anti_induction": "Exige ligar ausência de replicação à impossibilidade de hiperplasia.",
+        "duplicate_check": "Complementa o card da definição de hipertrofia sem repetir o mecanismo dela."
+      }
+    },
+    {
+      "card_key": "c04",
+      "concept_id": "hipertrofia-definicao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na hipertrofia muscular, a célula fica maior porque acumula mais sarcômeros e mais {{c1::filamentos contráteis}}, e não porque tenham surgido células novas.",
+      "extra": "Junto com o material contrátil, a célula acumula mitocôndrias e retículo endoplasmático, necessários para alimentar e sustentar a máquina maior.",
+      "e1_anchor": "não há células novas, e sim células maiores",
+      "retrieval_target": "Recuperar o conteúdo que engrossa a célula hipertrofiada.",
+      "semantic_review": {
+        "ambiguity": "A pista já exclui o aumento de número e pede o material acumulado.",
+        "anti_induction": "Exige saber que o ganho de força vem de unidades contráteis em paralelo.",
+        "duplicate_check": "Não se confunde com o card dos tecidos permanentes, que trata de onde a hipertrofia é a única saída."
+      }
+    },
+    {
+      "card_key": "c05",
+      "concept_id": "hipertrofia-mecanismo",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "No músculo em sobrecarga, estiramento, agonistas alfa-adrenérgicos e fatores de crescimento convergem para a ativação de {{c1::fatores de transcrição}}.",
+      "extra": "GATA4, NFAT e MEF2 são os citados na aula. Esse nó de convergência é o alvo terapêutico do processo, porque interferir nele altera as três saídas de uma vez.",
+      "e1_anchor": "As três entradas convergem para vias de transdução de sinal",
+      "retrieval_target": "Recuperar o ponto de convergência das três entradas da hipertrofia.",
+      "semantic_review": {
+        "ambiguity": "A pista lista as três entradas e pede o nó comum, não os produtos finais.",
+        "anti_induction": "Exige saber que sinal mecânico e sinal químico terminam em programa de expressão gênica.",
+        "duplicate_check": "O card de Image Occlusion do mesmo esquema cobre outra região; aqui a recuperação é verbal e única."
+      },
+      "three_word_cloze_reason": "O alvo é a categoria molecular inteira: recuperar só fatores ou só transcrição não identifica o nó do circuito."
+    },
+    {
+      "card_key": "c06",
+      "concept_id": "genes-fetais",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A cadeia beta de miosina, reexpressa no coração sobrecarregado, tem atividade ATPásica {{c1::menor}}, e por isso a contração fica mais lenta e mais econômica.",
+      "extra": "O tempo de contração depende da velocidade com que a miosina quebra ATP. Quebrando mais devagar, o ATP permanece ligado por mais tempo e o rendimento mecânico por ATP gasto melhora.",
+      "e1_anchor": "A cadeia beta tem atividade ATPásica menor",
+      "retrieval_target": "Recuperar a direção da mudança de atividade ATPásica no programa fetal.",
+      "semantic_review": {
+        "ambiguity": "A pista pede a direção da alteração enzimática, e a consequência citada depende dela.",
+        "anti_induction": "Exige ligar atividade de ATPase à velocidade do ciclo de contração.",
+        "duplicate_check": "Não repete o card do ANP, que trata do outro produto do mesmo programa."
+      }
+    },
+    {
+      "card_key": "c07",
+      "concept_id": "anp-precarga",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Ao aumentar a excreção renal de sódio e água, o peptídeo natriurético atrial reexpresso pelo miocárdio sobrecarregado reduz a {{c1::pré-carga}}.",
+      "extra": "Com menos volume chegando ao ventrículo, a câmara se distende menos e trabalha em condições mecânicas melhores. É um ajuste hemodinâmico somado ao ganho de material contrátil.",
+      "e1_anchor": "Menos volume circulante significa menos sangue chegando ao ventrículo",
+      "retrieval_target": "Recuperar o parâmetro hemodinâmico reduzido pelo peptídeo natriurético atrial.",
+      "semantic_review": {
+        "ambiguity": "A pista descreve a ação renal e pede a consequência sobre a carga que chega ao ventrículo.",
+        "anti_induction": "Exige saber que volume circulante determina o enchimento ventricular.",
+        "duplicate_check": "Distinto do card da cadeia beta de miosina, que trata de contratilidade e não de volume."
+      }
+    },
+    {
+      "card_key": "c08",
+      "concept_id": "limite-adaptacao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Quando a hipertrofia deixa de compensar a sobrecarga, sobra sangue a cada sístole e o ventrículo passa a {{c1::dilatar}}.",
+      "extra": "A dilatação é o registro morfológico de uma adaptação esgotada, e marca a passagem para a insuficiência cardíaca. Antes dela, o limite aparece como esgotamento da síntese e da vascularização.",
+      "e1_anchor": "o ventrículo se distende, o coração aumenta de tamanho às custas de dilatação",
+      "retrieval_target": "Recuperar o que acontece com a câmara quando a hipertrofia se esgota.",
+      "semantic_review": {
+        "ambiguity": "A pista descreve o volume residual e pede o comportamento da câmara, não o nome da síndrome.",
+        "anti_induction": "Exige entender que volume não ejetado distende a câmara.",
+        "duplicate_check": "Não repete o card da definição de hipertrofia nem o dos mecanismos moleculares."
+      }
+    },
+    {
+      "card_key": "c09",
+      "concept_id": "hiperplasia-compensatoria",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na regeneração do fígado depois de uma hepatectomia parcial, a proliferação começa porque sobra espaço e se perde a inibição por {{c1::contato}}.",
+      "extra": "Somam-se a isso as citocinas e os fatores de crescimento liberados pela inflamação cirúrgica, que tiram os hepatócitos de G0 e os colocam no ciclo celular.",
+      "e1_anchor": "a inibição por contato que mantinha as células quietas se perde",
+      "retrieval_target": "Recuperar o freio que é retirado quando parte do fígado é removida.",
+      "semantic_review": {
+        "ambiguity": "A pista fala em espaço que sobra e pede o mecanismo inibitório perdido.",
+        "anti_induction": "Exige saber que células confluentes param de proliferar por contato.",
+        "duplicate_check": "Distinto do card dos sinais de parada, que trata da fronteira com a neoplasia."
+      }
+    },
+    {
+      "card_key": "c10",
+      "concept_id": "hiperplasia-vs-neoplasia",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A hiperplasia se distingue da neoplasia porque suas células continuam obedecendo aos sinais de {{c1::parada}}.",
+      "extra": "Cessado o estímulo, ou restabelecida a inibição por contato, a proliferação cessa. Ainda assim, proliferar muito aumenta a chance de mutação e, com ela, o risco de neoplasia.",
+      "e1_anchor": "a célula continua obedecendo aos sinais de parada",
+      "retrieval_target": "Recuperar o critério que separa hiperplasia de neoplasia.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o tipo de sinal obedecido, e a quantidade de células não serve de resposta.",
+        "anti_induction": "Exige saber que o critério é controle sobre a proliferação, não volume de proliferação.",
+        "duplicate_check": "Não repete o card da hiperplasia compensatória, que trata do gatilho e não do controle."
+      }
+    },
+    {
+      "card_key": "c11",
+      "concept_id": "atrofia-definicao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na atrofia celular, a redução de tamanho vem da degradação do próprio conteúdo da célula, e não de {{c1::morte}} celular.",
+      "extra": "A célula se retrai até um tamanho em que a sobrevivência custa menos energia. Em órgão atrófico, porém, a redução pode somar perda de células à redução de cada uma.",
+      "e1_anchor": "A definição fala em perda de substância, e não em morte",
+      "retrieval_target": "Recuperar o que a atrofia celular não implica.",
+      "semantic_review": {
+        "ambiguity": "A pista opõe degradação de conteúdo a outro desfecho, e a frase pede exatamente esse desfecho.",
+        "anti_induction": "Exige distinguir redução de volume de perda de viabilidade.",
+        "duplicate_check": "Distinto dos cards de mecanismo, que tratam de ubiquitina e autofagia."
+      }
+    },
+    {
+      "card_key": "c12",
+      "concept_id": "atrofia-mecanismo",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Antes de ser digerida no proteassomo durante a atrofia, a proteína destinada à eliminação recebe a marcação por {{c1::ubiquitina}}.",
+      "extra": "As enzimas ligases acoplam a marca, e o proteassomo reconhece a proteína marcada e a digere em fragmentos pequenos. Os aminoácidos liberados voltam a ser usados na síntese do que ainda é necessário.",
+      "e1_anchor": "A proteína destinada à eliminação recebe moléculas de ubiquitina",
+      "retrieval_target": "Recuperar a marca que endereça a proteína ao proteassomo.",
+      "semantic_review": {
+        "ambiguity": "A pista já cita o proteassomo e pede a etiqueta prévia, que é única.",
+        "anti_induction": "Exige saber que a degradação proteica é seletiva e depende de marcação.",
+        "duplicate_check": "Não repete o card da autofagia, que trata da rota das organelas."
+      }
+    },
+    {
+      "card_key": "c13",
+      "concept_id": "autofagia",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Organelas inteiras não cabem no proteassomo e são degradadas depois que a célula as envolve numa vesícula e a funde a um lisossomo, num processo chamado {{c1::autofagia}}.",
+      "extra": "É por essa via que mitocôndrias e retículo endoplasmático são eliminados na atrofia. A digestão dessas membranas é também a origem da lipofuscina.",
+      "e1_anchor": "Esse é o processo de autofagia",
+      "retrieval_target": "Recuperar o nome da rota de degradação de organelas inteiras.",
+      "semantic_review": {
+        "ambiguity": "A pista descreve vesícula e lisossomo e pede o nome do processo, sem citá-lo antes.",
+        "anti_induction": "Exige saber que o proteassomo tem limite de tamanho de substrato.",
+        "duplicate_check": "Distinto do card da ubiquitina, que trata da rota das proteínas isoladas."
+      }
+    },
+    {
+      "card_key": "c14",
+      "concept_id": "hipoplasia-aplasia",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Um pulmão que jamais alcançou o tamanho normal não sofreu atrofia: o quadro é de {{c1::hipoplasia}}.",
+      "extra": "Atrofia exige desenvolvimento prévio seguido de retrocesso. No extremo da escala está a aplasia, em que o órgão não chegou a se formar.",
+      "e1_anchor": "um pulmão hipoplásico jamais alcançou o tamanho normal",
+      "retrieval_target": "Recuperar o diagnóstico do órgão que nunca se desenvolveu por completo.",
+      "semantic_review": {
+        "ambiguity": "A pista nega a atrofia e descreve ausência de desenvolvimento prévio, o que exclui aplasia total.",
+        "anti_induction": "Exige saber que o critério é a história do órgão, não o tamanho final.",
+        "duplicate_check": "Não repete o card da definição de atrofia, que trata de perda de substância."
+      }
+    },
+    {
+      "card_key": "c15",
+      "concept_id": "metaplasia-mecanismo",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na metaplasia da via aérea do tabagista, quem muda de programa é a {{c1::célula-tronco}} basal, e não a célula ciliada já madura.",
+      "extra": "Sob influência da inflamação e dos fatores de crescimento do microambiente, a célula basal passa a originar epitélio escamoso. Retirado o estímulo, o programa pode voltar ao original.",
+      "e1_anchor": "Metaplasia é reprogramação da célula-tronco, não desdiferenciação da célula madura",
+      "retrieval_target": "Recuperar qual célula é reprogramada na metaplasia.",
+      "semantic_review": {
+        "ambiguity": "A pista opõe explicitamente a célula madura, o que deixa apenas um alvo possível.",
+        "anti_induction": "Exige saber que epitélio maduro não se transforma em outro tipo por conversão direta.",
+        "duplicate_check": "Único card sobre o mecanismo da metaplasia."
+      }
+    },
+    {
+      "card_key": "c16",
+      "concept_id": "esteatose-exportacao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Para sair do hepatócito, o triglicéride precisa ser conjugado à {{c1::apoproteína}}, e é essa conjugação que o torna hidrossolúvel.",
+      "extra": "Sem proteína disponível, como na inanição e na desnutrição, a exportação trava e a gordura fica retida na célula. O tetracloreto de carbono bloqueia a mesma etapa.",
+      "e1_anchor": "Para sair da célula, precisam ser conjugados a uma proteína",
+      "retrieval_target": "Recuperar o parceiro proteico exigido para exportar o triglicéride.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o componente que falta para a saída, e a hidrossolubilidade citada depende dele.",
+        "anti_induction": "Exige saber que lipídio não circula sem carreador proteico.",
+        "duplicate_check": "Distinto do card de Image Occlusion do mesmo esquema, que recupera as formas do lipídio."
+      }
+    },
+    {
+      "card_key": "c17",
+      "concept_id": "esteatose-diabetes",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "No diabetes, a falta de insulina libera a lipase {{c1::hormônio-sensível}}, que quebra a gordura do tecido adiposo e aumenta a oferta de ácidos graxos ao fígado.",
+      "extra": "A isso se soma a captação deficiente de glicose, que faz a célula se comportar como se estivesse em jejum e mobilizar lipídio como fonte de energia.",
+      "e1_anchor": "a falta de insulina libera a lipase hormônio-sensível",
+      "retrieval_target": "Recuperar a enzima desinibida pela falta de insulina.",
+      "semantic_review": {
+        "ambiguity": "A pista pede o nome específico da lipase, e a função descrita não identifica outra enzima.",
+        "anti_induction": "Exige saber que a insulina mantém essa lipase inativa.",
+        "duplicate_check": "Não repete o card da exportação, que trata da saída do triglicéride já formado."
+      }
+    },
+    {
+      "card_key": "c18",
+      "concept_id": "esteatose-morfologia",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na esteatose hepática, os vacúolos de gordura crescem no citoplasma e empurram o núcleo do hepatócito para a {{c1::periferia}}.",
+      "extra": "Macroscopicamente, o fígado perde a cor acastanhada e fica amarelado e amolecido, porque a gordura acumulada é mais macia que o parênquima normal.",
+      "e1_anchor": "empurram o núcleo para a periferia da célula",
+      "retrieval_target": "Recuperar a posição que o núcleo assume no hepatócito esteatótico.",
+      "semantic_review": {
+        "ambiguity": "A pista descreve o crescimento dos vacúolos e pede o destino do núcleo.",
+        "anti_induction": "Exige reconhecer o padrão morfológico da esteatose macrovesicular.",
+        "duplicate_check": "Distinto do card do glicogênio, que trata de outro aspecto citoplasmático."
+      }
+    },
+    {
+      "card_key": "c19",
+      "concept_id": "glicogenio",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Por ser hidrossolúvel, o glicogênio acumulado se espalha pelo citoplasma e dá a ele um aspecto {{c1::rendilhado}}.",
+      "extra": "O glicogênio também atrai água, e a célula acaba hidratada, somando algum grau de edema celular. O acúmulo aparece no diabetes e nas glicogenoses.",
+      "e1_anchor": "aspecto heterogêneo, rendilhado",
+      "retrieval_target": "Recuperar o aspecto citoplasmático produzido pelo glicogênio.",
+      "semantic_review": {
+        "ambiguity": "A pista liga a solubilidade à distribuição difusa e pede o padrão visto ao microscópio.",
+        "anti_induction": "Exige saber que solubilidade determina o padrão de deposição na célula.",
+        "duplicate_check": "Não se confunde com o card da esteatose, em que o lipídio forma vacúolos delimitados."
+      }
+    },
+    {
+      "card_key": "c20",
+      "concept_id": "calcificacao-distrofica",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na calcificação distrófica, o cálcio se deposita em tecido lesado enquanto a calcemia permanece {{c1::normal}}.",
+      "extra": "Restos celulares e mediadores liberados na necrose favorecem a formação de cristais com o cálcio que já circula. Placa de ateroma, valvas alteradas e cicatrizes antigas são exemplos.",
+      "e1_anchor": "O ponto que precisa ficar claro é que a calcemia está normal",
+      "retrieval_target": "Recuperar o estado da calcemia na calcificação distrófica.",
+      "semantic_review": {
+        "ambiguity": "A pista situa o depósito no tecido lesado e pede o dado laboratorial, que é único.",
+        "anti_induction": "Exige saber que o gatilho é a lesão, não a concentração sérica de cálcio.",
+        "duplicate_check": "É o card que também sustenta, por contraste, a calcificação metastática."
+      }
+    },
+    {
+      "card_key": "c21",
+      "concept_id": "lipofuscina",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A lipofuscina se acumula porque os lipídios das membranas digeridas na autofagia sofrem {{c1::peroxidação}} e deixam de ser degradáveis.",
+      "extra": "O material sobra em grânulos acastanhados perto do núcleo e dá ao coração e ao músculo do idoso o aspecto de atrofia parda. É pigmento atóxico, sem significado patológico próprio.",
+      "e1_anchor": "os lipídios das suas membranas são peroxidados por enzimas durante a digestão",
+      "retrieval_target": "Recuperar a alteração química que torna o lipídio indigerível.",
+      "semantic_review": {
+        "ambiguity": "A pista situa a digestão de membranas e pede a modificação sofrida pelo lipídio.",
+        "anti_induction": "Exige ligar autofagia de organelas à origem do pigmento do envelhecimento.",
+        "duplicate_check": "Distinto do card da autofagia, que recupera o nome da rota e não o destino do lipídio."
+      }
+    },
+    {
+      "card_key": "c22",
+      "concept_id": "hemossiderina",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Diante de pigmento castanho difuso no fígado, a coloração de Perls separa ferro de bile porque cora o ferro em {{c1::azul}}.",
+      "extra": "Na hematoxilina-eosina, hemossiderina e bile aparecem igualmente acastanhadas, o que torna a distinção pouco confiável sem a coloração especial.",
+      "e1_anchor": "A coloração de Perls resolve o problema ao corar especificamente o ferro em azul",
+      "retrieval_target": "Recuperar a cor que o Perls confere ao ferro.",
+      "semantic_review": {
+        "ambiguity": "A pista explicita a dúvida entre dois pigmentos castanhos e pede o resultado da reação.",
+        "anti_induction": "Exige saber que a distinção depende de coloração específica, não da rotina.",
+        "duplicate_check": "Não repete o card da bilirrubina, que trata da composição do pigmento."
+      }
+    },
+    {
+      "card_key": "c23",
+      "concept_id": "bilirrubina",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A bilirrubina vem da hemoglobina como a hemossiderina, mas se distingue dela por não conter {{c1::ferro}}.",
+      "extra": "O heme se divide: o componente férrico segue para hemossiderina e o restante da molécula é convertido em bilirrubina no fígado. Acumulada, ela produz a icterícia.",
+      "e1_anchor": "Ela deriva da hemoglobina, mas não contém ferro",
+      "retrieval_target": "Recuperar o componente ausente na bilirrubina.",
+      "semantic_review": {
+        "ambiguity": "A pista compara os dois pigmentos hemoglobinógenos e pede o que os separa.",
+        "anti_induction": "Exige saber que a hemoglobina se divide em componente férrico e não férrico.",
+        "duplicate_check": "Complementa o card do Perls sem repetir a recuperação da cor."
+      }
+    },
+    {
+      "card_key": "io01",
+      "concept_id": "acumulo-proteinas",
+      "tier": "nucleo",
+      "source": "io",
+      "e1_anchor": "Acumulam-se depósitos de proteína amiloide que formam as placas senis no córtex cerebral",
+      "mode": "hide_two_guess_two",
+      "prompt": "Nesta lâmina de córtex cerebral na doença de Alzheimer, nomeie as duas estruturas cobertas.",
+      "answers": [
+        "amiloide",
+        "neurônios"
+      ],
+      "masks": [
+        {
+          "x": 0.305,
+          "y": 0.22,
+          "w": 0.2,
+          "h": 0.09
+        },
+        {
+          "x": 0.74,
+          "y": 0.335,
+          "w": 0.255,
+          "h": 0.1
+        }
+      ],
+      "pair_rationale": "As duas máscaras opõem o depósito extracelular ao neurônio remanescente na mesma foto, que é exatamente a discriminação visual exigida para reconhecer a placa senil.",
+      "image_path": "../../figuras/patologia-adaptacao-celular-acumulos/io-placa-senil.png",
+      "source_credit": "Fotomicrografia do Depto. de Patologia da Universidade de Campinas, exibida no slide 16 da aula de acúmulos.",
+      "cognitive_purpose": "Distinguir, na lâmina, o depósito proteico do neurônio preservado ao redor.",
+      "visual_review": {
+        "labels_masked_not_structures": true,
+        "question_preview": true,
+        "answer_preview": true,
+        "legible": true,
+        "no_leak": true,
+        "didactic_value": true
+      }
+    },
+    {
+      "card_key": "io02",
+      "concept_id": "lipides-hepatocito-rotas",
+      "tier": "nucleo",
+      "source": "io",
+      "e1_anchor": "A rota que interessa para a esteatose é a da esterificação",
+      "mode": "hide_two_guess_two",
+      "prompt": "No esquema do metabolismo lipídico do hepatócito, nomeie as duas formas do lipídio que estão cobertas.",
+      "answers": [
+        "triglicérides",
+        "lipoproteínas"
+      ],
+      "masks": [
+        {
+          "x": 0.415,
+          "y": 0.488,
+          "w": 0.215,
+          "h": 0.075
+        },
+        {
+          "x": 0.415,
+          "y": 0.72,
+          "w": 0.205,
+          "h": 0.075
+        }
+      ],
+      "pair_rationale": "As duas máscaras marcam a forma estocada no citoplasma e a forma exportável no sangue, separadas apenas pela conjugação com apoproteína.",
+      "image_path": "../../figuras/patologia-adaptacao-celular-acumulos/io-lipides-hepatocito.png",
+      "source_credit": "Esquema do metabolismo lipídico hepático exibido no slide 6 da aula de acúmulos.",
+      "cognitive_purpose": "Reconstruir sobre o esquema onde termina o armazenamento e onde começa a exportação da gordura hepática.",
+      "visual_review": {
+        "labels_masked_not_structures": true,
+        "question_preview": true,
+        "answer_preview": true,
+        "legible": true,
+        "no_leak": true,
+        "didactic_value": true
+      }
+    }
+  ]
+}

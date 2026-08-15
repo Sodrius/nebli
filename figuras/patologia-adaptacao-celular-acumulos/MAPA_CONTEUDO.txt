@@ -1,0 +1,67 @@
+# MAPA_CONTEUDO -- patologia-adaptacao-celular-acumulos
+# Fonte: duas transcricoes em PDF da mesma aula (Prof. Luiz Fernando Ferraz da Silva,
+#   Depto. de Patologia FMUSP), gravada em dois videos:
+#   J. "Adaptacao Celular"  -> slide-adapt-01..29
+#   I. "Acumulos Celulares e Teciduais" -> slide-acum-01..29
+# Extracao: imagens embutidas do PDF (1280x720, 1 por pagina impar), recortadas
+#   na area util do slide (720x541) por script; figuras da E1 sao recortes
+#   adicionais dentro do slide, sem moldura, webcam, rodape ou logo.
+
+slide-adapt-01: capa -- Adaptacao Celular
+slide-adapt-02: fluxograma Robbins -- celula normal, estresse, adaptacao, lesao reversivel/irreversivel, necrose e apoptose  | fig-adaptacao-vs-lesao.png
+slide-adapt-03: tecidos labeis / estaveis (quiescentes) / permanentes, com exemplos
+slide-adapt-04: cardiomiocito -- adaptacao (hipertrofia) versus lesao celular reversivel e morte | fig-cardiomiocito-destinos.png
+slide-adapt-05: definicao de adaptacao + os quatro tipos
+slide-adapt-06: hipertrofia -- aumento do tamanho da celula, sem celulas novas (fisiculturistas)
+slide-adapt-07: hipertrofia fisiologica -- utero gravidico macro + miometrio normal/gravidico | fig-utero-gravidico.png
+slide-adapt-08: hipertrofia patologica -- coracao hipertrofiado (macro)
+slide-adapt-09: miocardio normal versus hipertrofiado (histologia)
+slide-adapt-10: desencadeantes da hipertrofia e limite da adaptacao
+slide-adapt-11: mecanismo molecular da hipertrofia (Robbins) | fig-hipertrofia-mecanismo.png / io-hipertrofia-mecanismo.png
+slide-adapt-12: hipertrofia -- genetica e mecanismos (esquema Robbins 7a ed)
+slide-adapt-13: genes embrionarios, ANP, alfa->beta miosina, genes de acao imediata
+slide-adapt-14: via aerea normal versus asmatica -- hipertrofia da musculatura lisa | fig-asma-musculo.png
+slide-adapt-15: hiperplasia -- fisiologica (hormonal/compensatoria) e patologica (Prometeu)
+slide-adapt-16: regeneracao hepatica pos-hepatectomia parcial e ciclo celular | fig-regeneracao-hepatica.png
+slide-adapt-17: hiperplasia fisiologica -- orgaos onde ocorre e onde nao ocorre
+slide-adapt-18: hiperplasia patologica e diferenca para neoplasia
+slide-adapt-19: prostata normal versus hiperplasia prostatica | fig-hiperplasia-prostatica.png
+slide-adapt-20: atrofia -- definicao + cerebro normal versus atrofico | fig-cerebro-atrofia.png
+slide-adapt-21: atrofia -- tipos (fisiologica/patologica, local/difusa)
+slide-adapt-22: atrofia patologica -- causas
+slide-adapt-23: mecanismo da atrofia -- ubiquitina-proteassomo e autofagia | fig-ubiquitina-proteassomo.png
+slide-adapt-24: balanco degradacao (corticoide, T3/T4, TNF, IL-1) versus sintese (insulina)
+slide-adapt-25: rim normal versus rim atrofico (macro)
+slide-adapt-26: atrofia ossea -- osteoporose
+slide-adapt-27: hipoplasia e aplasia
+slide-adapt-28: metaplasia -- definicao e mecanismo
+slide-adapt-29: metaplasia escamosa -- esquema + histologia | fig-metaplasia.png
+slide-acum-01: capa -- Acumulos Celulares e Teciduais
+slide-acum-02: acumulos intracelulares -- naturezas (constituinte normal, substancia anormal, pigmento)
+slide-acum-03: quatro mecanismos de acumulo intracelular (Robbins) | fig-mecanismos-acumulo.png
+slide-acum-04: o que avaliar num acumulo -- toxicidade, localizacao, producao versus armazenamento
+slide-acum-05: esteatose -- definicao, orgaos e causas
+slide-acum-06: metabolismo lipidico do hepatocito | fig-lipides-hepatocito.png / io-lipides-hepatocito.png
+slide-acum-07: causas de acumulo de lipides -- excesso de oferta, diabetes, esterificacao
+slide-acum-08: exportacao de lipides exige conjugacao com apoproteina (VLDL); inanicao e tetracloreto
+slide-acum-09: etilismo -- desnutricao cronica, lesao direta, etanol -> acetaldeido -> acido acetico
+slide-acum-10: esteatose -- macroscopia e microscopia | fig-esteatose.png
+slide-acum-11: colesterol e esteres -- aterosclerose, colesterolose, xantomas
+slide-acum-12: placa de ateroma (histologia)
+slide-acum-13: colesterolose -- vesicula em morango + macrofagos espumosos
+slide-acum-14: acumulo de proteinas -- causas e morfologia
+slide-acum-15: chaperonas, ubiquitina e proteassomo (Robbins) | fig-chaperonas.png
+slide-acum-16: placa senil e amiloide no cortex cerebral | io-placa-senil.png
+slide-acum-17: glicogenio -- causas de acumulo e citoplasma rendilhado
+slide-acum-18: tabela das glicogenoses (nao exigida)
+slide-acum-19: calcificacao patologica -- distrofica versus metastatica
+slide-acum-20: calcificacao distrofica -- exemplos e histologia
+slide-acum-21: calcificacao metastatica -- causas
+slide-acum-22: pigmentos exogenos -- tatuagem e antracose | fig-pigmentos-exogenos.png
+slide-acum-23: lipofuscina -- pigmento do envelhecimento e atrofia parda
+slide-acum-24: melanina -- tirosina, tirosinase, melanocitos
+slide-acum-25: hemossiderina -- ferro, apoferritina, ferritina, orgaos
+slide-acum-26: hemossiderose -- causas + coloracao de Perls | fig-perls.png
+slide-acum-27: hemocromatose primaria e secundaria
+slide-acum-28: bilirrubina, icterícia e colestase
+slide-acum-29: quadro de classificacao dos pigmentos

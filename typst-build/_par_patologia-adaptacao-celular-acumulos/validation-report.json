@@ -1,0 +1,172 @@
+{
+  "schema": "nebli-card-validation-v2",
+  "expected_card_count": 25,
+  "card_budget_hard_max": 25,
+  "validated_card_count": 25,
+  "passed_card_count": 25,
+  "failed_card_count": 0,
+  "ordered_card_set_sha256": "66ef8a4e5d5643cfe6c5dd7a92f2296bc7c3b335f4012d77e0f07fa6a6b536dd",
+  "media": [
+    {
+      "card_key": "io01",
+      "sha256": "1df56d31d34d719d1b9c20974aeea62a279c922975b4d816231972f4781c32df"
+    },
+    {
+      "card_key": "io02",
+      "sha256": "50b88b0c2f6d4b4cfabcc75e7ce7286a23877765152bec2bfa79b9ee4e381a54"
+    }
+  ],
+  "cards": [
+    {
+      "card_key": "c01",
+      "content_sha256": "b5b8df86ea055dbd7ad80cfd26ef6f642ddb33ae2524bb5b6108c0ed632f62b5",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c02",
+      "content_sha256": "21bbbbafacedc5d813d9df548cf4bc4525dfcefb826a0ddbc016ec9bbb21f1b1",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c03",
+      "content_sha256": "92e3aaf795edd075ebc9bb87a34a531724b327f48c1545611b8f45894f87f90d",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c04",
+      "content_sha256": "c37fa600c0871793343fda60da86f15fce9c2e8550005d7c4d19a3d449777684",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c05",
+      "content_sha256": "b9d67603c3dca4dd89715d4932409129572882c0401558bf585ab7378a8b1e6e",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c06",
+      "content_sha256": "94599c1ac97f4ccfa86a74a6842fc4a19e4a7cd96d2f12b5eccbbd2f96d0e16c",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c07",
+      "content_sha256": "950677b5499e6f0edf22c2e7ae20b54e4e717c124adae707a77741f0c26b7469",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c08",
+      "content_sha256": "e7f91c37b96202b0af8bf39b1d45947f2ebb0125eaed276af33eb853a0a68788",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c09",
+      "content_sha256": "09dbae4c66b67bea9d132c0c69f88c9fe9698386a9c246246cec234c44986f8c",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c10",
+      "content_sha256": "302a51646769bf61a594eef28f5522e9a04e96e2701f87364e68e2f298d2de05",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c11",
+      "content_sha256": "62ea7bf7671db770538475aa5e4f15e663c6120165f99b9d5a765f780e5dcd26",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c12",
+      "content_sha256": "ed0c42ae7ed53e45fb8edc5a1304277a95fefa77efc6900ac4e4434c34cbc1c7",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c13",
+      "content_sha256": "7d85d8c1c38677891cefff04f61cd47f474aa1ed64e87891f4e7894841077183",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c14",
+      "content_sha256": "4058fbbef91a18a1136cdb32d1a2b3d94683a05cee77cc9310e58fd2baf611b3",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c15",
+      "content_sha256": "4ad5b8d5919eeb5ce8a228aca0b83288d07930c55f2802fa4d46dc05556b6045",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c16",
+      "content_sha256": "67f22ef78590320a92e57de185f970b857f26de16f24fa5b2eef3fc5c550aca0",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c17",
+      "content_sha256": "6855c2a78bda658a1f7b6dc3a5426b6691fad4cc63951a5bba16d0d7b582305d",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c18",
+      "content_sha256": "3889908a0d9eb94cdddfb7f4a26c169b4186cc5f9f2032fcc607e3d56b5003b0",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c19",
+      "content_sha256": "70856dea7d885b61984e9f4717941c3f1731f4800dfcefa15821ec9e306651ef",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c20",
+      "content_sha256": "462dcf677bcb15e47ecc4a5d10c85b026abc0fe4312e6d5933ca3e648fde79bf",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c21",
+      "content_sha256": "dbdd446107448597eb404a6333df5d10d554ebe5922a4cefe7c0b381e46334cc",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c22",
+      "content_sha256": "5d5ccc80f3a053550459402972dac34d3459187607436cb95ff42e7669eefe6b",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c23",
+      "content_sha256": "1090c256105dd09d5b1f7b647c2b3150fba09703ef643b73061d5108fe700acf",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "io01",
+      "content_sha256": "f8544423d05b64f5b835844dbc5c09fbf54c7f4ab5370cd4e7686469c29466a2",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "io02",
+      "content_sha256": "595d300b81a2631a8706c79c8451c0cf09a63e32fb0c6a0ba8c43b77990c360e",
+      "result": "passed",
+      "failures": []
+    }
+  ],
+  "ok": true
+}

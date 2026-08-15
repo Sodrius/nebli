@@ -98,3 +98,6 @@ Thumbs.db
 # ---- Logs e caches de Typst ----
 *.log
 .typst-cache/
+
+# ---- Entrega final da corrida (PDF regeneravel; manifesto e versionado) ----
+typst-build/_par_*/entrega/*.pdf
