@@ -1,0 +1,86 @@
+{
+  "schema": "nebli-feedback-v1",
+  "origem": "apkg exportado do AnkiDroid em 2026-08-15",
+  "itens": [
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Adaptação Celular e Acúmulos",
+      "slug": "patologia-adaptacao-celular-acumulos",
+      "card_key": "c01",
+      "content_sha256_prefix": "b5b8df86ea055dbd",
+      "flag": null,
+      "frente": "Na adaptação, a célula muda de forma e de função sem que haja lesão tecidual: ela preserva a {{c1::viabilidade}} e apenas modula o que faz.",
+      "comentario": "há uma quantidade excessiva de cards sobre conceitos altamente genéricos, que não são da aula em específico e clozes que abrem espaço pra múltiplas interpretações.\n\no objetivo dos cards é que cada deck diga respeito mais aos conceitos difíceis de decorar daquela aula. assim, cards como esse só ocupam espaço sem me fazer reter na memória algo de muito interassente, porque é realmente muito básico esse mecanismo mencionado e é algo não específico dessa aula\nnão sei explicar direito, mas esse tipo de card não agrega.",
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Adaptação Celular e Acúmulos",
+      "slug": "patologia-adaptacao-celular-acumulos",
+      "card_key": "c02",
+      "content_sha256_prefix": "21bbbbafacedc5d8",
+      "flag": null,
+      "frente": "O mesmo cardiomiócito hipertrofia diante de sobrecarga que se instala em anos e morre diante de isquemia aguda, porque o que separa os desfechos é o {{c1::tempo}} disponível para responder.",
+      "comentario": "esse tipo de card não adiciona nenhum conhecimento à minha bagagem, faz uma relação meio esculambanhada e não me ajuda a aprender melhor e a longo prazo o conteúdo real da aula\nseria bom que houvesse um reestudo dos cards anking para entender o que é um bom card",
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c002",
+      "content_sha256_prefix": "4b8d77cdc2df92de",
+      "flag": "vermelha",
+      "frente": "As alterações da lesão celular não surgem juntas: o primeiro alvo comprometido pela agressão, antes de qualquer alteração estrutural, é a {{c1::função}}.",
+      "comentario": null,
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c009",
+      "content_sha256_prefix": "532d5d1956f56ef1",
+      "flag": "vermelha",
+      "frente": "Na presença de ferro, o peróxido de hidrogênio participa da reação de Fenton e origina o radical {{c1::hidroxila}}, o mais reativo do grupo.",
+      "comentario": "aqui seria útil uma imagem no comentário com toda a reação, pode ser a do slide mesmo",
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c013",
+      "content_sha256_prefix": "a9cc9e96ac8fd0c4",
+      "flag": null,
+      "frente": "Entre as enzimas que o cálcio citosólico ativa, as que quebram DNA e RNA são as {{c1::endonucleases}}.",
+      "comentario": "esse é um card que pode abordar mais temas, não no cloze, mas no enunciado direto e no comentário, com uma possível imagem no final. \n\naqui seria interessante, por exemplo, abordar outras ações do cálcio no processo de morte celular, poderia ser mencionando-as (três) com hide all guess all ou mencionando elas no comentário do card",
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c015",
+      "content_sha256_prefix": "4aee8ab025677150",
+      "flag": null,
+      "frente": "O que decide se o tecido necrótico ficará firme e reconhecível ou virará massa líquida é o destino do {{c1::arcabouço}}.",
+      "comentario": "de novo, caberiam imagens no comentário e colocar mais conceitos por card, pra revisar melhor todo o conteúdo da aula e permitir \"assuntos laterais\" serem cobertos sem gerar card em excesso",
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c017",
+      "content_sha256_prefix": "d0ed54b961bb5cf9",
+      "flag": "vermelha",
+      "frente": "O núcleo picnótico que se parte em fragmentos dispersos pelo citoplasma caracteriza a {{c1::cariorrexe}}.",
+      "comentario": null,
+      "status": "pendente"
+    },
+    {
+      "deck": "NEBLI::UC03::P1::Patologia::Lesão e morte celular",
+      "slug": "pato-01-lesao-e-morte-celular",
+      "card_key": "pato01-c018",
+      "content_sha256_prefix": "1ab48b319c27b58f",
+      "flag": "vermelha",
+      "frente": "O padrão de necrose com debris amorfos cercados por halo de células inflamatórias, associado ao granuloma da tuberculose, é o {{c1::caseoso}}.",
+      "comentario": "há e rever o que é conceito central e o que não é, para que haja cobertura ideal dos conceitos e mais outros conceitos poderiam estar no comentário do card\n\ntambém poderia ter imagem aqui nesse card",
+      "status": "pendente"
+    }
+  ]
+}
