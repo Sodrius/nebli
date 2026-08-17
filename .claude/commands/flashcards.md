@@ -1,8 +1,3 @@
----
-description: Comando legado suspenso; cards agora pertencem ao /resumo
-argument-hint: <slug>
----
+# /flashcards
 
-O fluxo RemNote foi suspenso. Não gere oito cards isolados nem reative a antiga
-Etapa 4. Oriente o usuário a executar `/resumo $ARGUMENTS`, que produz a E1 e o
-deck-aula `.apkg` completo no pipeline canônico `e1-deck-v3`.
+Leia `CLAUDE.md`, `FLASHCARDS.md` e `EXEMPLARES-CARDS.md` e execute o pipeline canônico v13. A seleção usa somente materiais da aula/E1 + contexto curricular da planilha mestra. A entrega final é E1 PDF + APKG auditado.

@@ -1,3 +1,3 @@
 # APKG
 
-APKG não pertence ao fluxo canônico. A entrega normal termina em manifesto do Companion.
+APKG é o backend canônico do pipeline v13. O procedimento e os scripts ativos estão documentados em [`../../CLAUDE.md`](../../CLAUDE.md).

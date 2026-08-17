@@ -1,3 +1,3 @@
-# Pipeline E1 + Deck
+# Pipeline E1 + deck
 
-Documento de compatibilidade. O contrato operacional vigente está em `EXECUCAO.md`; o pedagógico em `E1.md`; a autoridade mecânica em `config/pipeline.json`.
+O fluxo operacional canônico está em [`../../CLAUDE.md`](../../CLAUDE.md). As regras de cards estão em [`../../FLASHCARDS.md`](../../FLASHCARDS.md).
