@@ -1,9 +1,16 @@
 {
-  "pipeline_version": "e1-deck-v12",
+  "pipeline_version": "e1-deck-v13",
   "card_source_mode": "authored_only",
+  "generate_e1": true,
+  "generate_resumindo": true,
+  "generate_e2": false,
+  "generate_e3": false,
+  "generate_remnote": false,
+  "anki_backend": "apkg",
+  "normal_flow_desktop_fallback": false,
   "anking": {
     "status": "suspended",
-    "preserve_infrastructure": true,
+    "preserve_infrastructure": false,
     "allow_runtime_lookup": false,
     "require_search_before_authorship": false,
     "allow_source_copy": false
@@ -11,125 +18,30 @@
   "external_decks": {
     "status": "suspended"
   },
-  "generate_e1": true,
-  "generate_resumindo": true,
-  "generate_e2": false,
-  "generate_e3": false,
-  "generate_remnote": false,
-  "anki_backend": "ankidroid",
-  "normal_flow_desktop_fallback": false,
-  "emergency_desktop_fallback_only_if_explicitly_requested": true,
-  "ankidroid": {
-    "manifest_schema": "nebli-ankidroid-deck-v3",
-    "legacy_manifest_schemas": [
-      "nebli-ankidroid-lesson-v2",
-      "nebli-ankidroid-v1"
-    ],
-    "full_deck_direct_install": true,
-    "resolution_mode": "local_decks_with_validated_fallbacks",
-    "anking_direct_copy": false,
-    "anking_source_filter": "deck:\"AnKing Step Deck\"",
-    "external_deck_direct_copy": false,
-    "authored_direct_install": true,
-    "authored_extra_media_direct_install": true,
-    "authored_anking_media_reuse": false,
-    "image_occlusion_direct_install": true,
-    "self_contained_new_media": true,
-    "new_media_require_source_credit": true,
-    "open_ankidroid_after_install": true,
-    "select_target_deck_after_install": true,
-    "write_prefix": "NEBLI::",
-    "optional_subdeck_suffix": "::Optional",
-    "preserve_source_note_type": true,
-    "preserve_source_fields": true,
-    "preserve_source_tags": true,
-    "preserve_media_refs": true,
-    "reset_scheduling": true,
-    "selected_sibling_policy": "suspend_unselected",
-    "mutate_source": false,
-    "rollback_new_notes_on_partial_failure": true,
-    "require_install_receipt": true,
-    "require_installed_equals_expected": true,
-    "ranking": {
-      "min_score": 0.82,
-      "min_margin": 0.06,
-      "max_candidates": 80,
-      "prefer_anking": false,
-      "require_anking_marker_for_anking_source": true,
-      "source_filter_is_hint": true,
-      "separate_note_context_from_expected_answer": true,
-      "direct_authored_requires_completed_anking_search": false,
-      "external_deck_may_use_source_filter": true,
-      "ambiguous_policy": "use_validated_fallback"
-    },
-    "final_validation": {
-      "mode": "every_card",
-      "required_pass_fraction": 1.0,
-      "require_expected_equals_validated": true,
-      "require_installed_equals_validated": true,
-      "block_on_any_failure": true,
-      "validator": "flashcards/scripts/validar_deck_card_a_card.py",
-      "ci_reference_deck_size": 40,
-      "require_rendered_media_roundtrip": true,
-      "require_real_ankidroid_e2e": true
-    },
-    "release_gate": {
-      "schema": "nebli-e1-deck-release-v1",
-      "required": true,
-      "require_reviewed_e1_source_and_pdf_hashes": true,
-      "require_complete_nuclear_coverage": true,
-      "minimum_nuclear_coverage_quality": 2,
-      "require_every_card_linked_to_e1_concept": true,
-      "require_independent_e1_review": true,
-      "require_canonical_typst_template": true,
-      "forbid_local_page_and_paragraph_overrides": true,
-      "require_main_and_resumindo_structure": true,
-      "require_all_pages_rendered_and_visually_reviewed": true,
-      "format_validator": "flashcards/scripts/validar_e1_formatacao.py",
-      "block_unresolved_core_omissions": true,
-      "block_unresolved_ambiguities": true,
-      "block_unresolved_visual_defects": true
-    },
-    "install_identity_tags": [
-      "NEBLI::tier::<tier>",
-      "NEBLI::concept::<concept_id>"
-    ]
+  "learning_delta": {
+    "authority": "FLASHCARDS.md",
+    "inputs": ["lesson_materials", "e1", "master_sheet"],
+    "forbid_prior_deck_lookup": true,
+    "require_whole_lesson_read_before_cards": true,
+    "require_master_sheet_context": true,
+    "eligible_roles": ["foco_novo", "relacao_nova", "aprofundamento_novo"],
+    "non_card_roles": ["pre_requisito", "revisao", "contexto", "exemplo", "mencao"],
+    "require_positive_teaching_evidence": true,
+    "require_lesson_gain_for_card_eligible_concepts": true,
+    "validator": "flashcards/scripts/validar_ganho_aula.py"
   },
-  "require_offline_apkg": false,
-  "require_apkg_audit": false,
+  "source_priority": ["authored", "io"],
+  "require_offline_apkg": true,
+  "require_apkg_audit": true,
   "require_e1_anchor_for_every_card": true,
-  "source_priority": [
-    "authored",
-    "io"
-  ],
-  "non_anking_requires": {
-    "completed_anking_search": false,
-    "minimum_independent_queries": 0,
-    "expanded_scope": false,
-    "siblings_reviewed": false,
-    "candidate_count_recorded": false,
-    "candidate_rejections_recorded": false
-  },
-  "card_quality_contract": "docs/canon/CARD-QUALITY.md",
   "card_budget": {
     "enforce_contract_hard_max": true,
     "freeze_retrieval_slots_before_authorship": true,
-    "require_compression_review": true,
-    "require_ablation_review": true,
     "estimated_seconds_per_card_max": 10,
     "sanity_ranges": {
-      "small": [
-        8,
-        12
-      ],
-      "medium": [
-        12,
-        18
-      ],
-      "large": [
-        18,
-        22
-      ]
+      "small": [8, 12],
+      "medium": [12, 18],
+      "large": [18, 22]
     },
     "default_hard_max": {
       "small": 15,
@@ -137,37 +49,20 @@
       "large": 25
     },
     "manual_review_above": 25,
-    "retention_classes": [
-      "must_recall",
-      "derivable",
-      "e1_only",
-      "optional"
-    ],
+    "retention_classes": ["must_recall", "derivable", "e1_only", "optional"],
     "require_declared_hard_max": true,
     "forbid_hard_max_derived_from_card_count": true,
     "require_ablation_contract_per_card": true,
-    "ablation_contract_fields": [
-      "memory_gain",
-      "ablation_loss",
-      "why_not_e1_only",
-      "confusion_target"
-    ]
+    "ablation_contract_fields": ["memory_gain", "ablation_loss", "why_not_e1_only", "confusion_target"]
   },
   "authored_cards": {
-    "accepted_sources": [
-      "authored",
-      "io"
-    ],
+    "accepted_sources": ["authored", "io"],
     "language": "pt-BR",
     "retrievals_per_card": 1,
     "cloze_occurrences_per_card": 1,
     "cloze_index": 1,
     "max_front_characters": 360,
     "max_extra_words": 100,
-    "extra_images_require_cognitive_purpose": true,
-    "extra_images_require_source_credit": true,
-    "preferred_visual_source": "lesson_source",
-    "slide_or_external_requires_anking_visual_rejection": false,
     "all_images_require_didactic_value_review": true
   },
   "cue_quality": {
@@ -176,18 +71,7 @@
     "block_grammar_only_answer": true,
     "block_lexical_leak": true,
     "block_answer_visible_elsewhere": true,
-    "require_blind_review": true,
     "require_zero_unresolved_plausible_alternatives": true,
-    "allowed_cloze_roles": [
-      "mecanismo",
-      "consequencia",
-      "discriminador",
-      "valor",
-      "direcao",
-      "rotulo_especifico"
-    ],
-    "measure_language_on_front_only": true,
-    "english_marker_threshold": 2,
     "block_abstract_answer": true,
     "block_answer_with_alternatives": true,
     "require_answer_present_in_e1_anchor": true,
@@ -205,55 +89,35 @@
     "multi_label_mode": "hide_two_guess_two",
     "prompt_language": "pt-BR",
     "answers_language": "pt-BR",
-    "require_portuguese_prompt_review": true,
-    "require_portuguese_answers_review": true,
-    "replace_source_labels_with_portuguese_overlays_on_answer": true,
-    "target_masks_per_card": 2,
     "minimum_masks_per_card": 1,
     "maximum_masks_per_card": 2,
     "require_pair_rationale_for_two_masks": true,
     "mask_answer_label_not_visual_target": true,
-    "require_coherent_set_for_multiple_masks": true,
     "require_question_and_answer_previews": true,
     "require_real_source": true,
     "require_source_credit": true,
     "block_answer_leak": true,
     "require_cognitive_purpose": true,
-    "require_didactic_value_review": true,
-    "require_rendered_preview_hashes": true,
-    "max_crop_ratio_of_slide": 0.9,
-    "require_forbidden_terms_scan": true,
-    "forbid_prompt_default": true,
-    "forbid_answer_list_below_image": true,
-    "forbid_source_credit_in_review": true
+    "max_crop_ratio_of_slide": 0.9
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,
   "optional_cards_separate": true,
   "user_delivery": {
     "finalizer": "flashcards/scripts/finalizar_entrega_canonica.py",
-    "visible_files": [
-      "e1_pdf",
-      "ankidroid_manifest"
-    ],
+    "visible_files": ["e1_pdf", "apkg"],
     "hide_internal_work_artifacts": true,
-    "manifest_open_starts_install_automatically": true,
-    "open_ankidroid_after_install": true,
     "manual_card_selection": false
   },
   "feedback": {
-    "preserve_on_note_update": true,
-    "read_without_pending_tag": true,
-    "never_clear_comment_field": true,
-    "note_fields": [
-      "NEBLI_Comentario",
-      "NEBLI_Resposta",
-      "NEBLI_Historico"
-    ],
-    "regression_registry": "flashcards/tests/feedback_regressions.json"
+    "note_fields": ["NEBLI_Comentario", "NEBLI_Resposta", "NEBLI_Historico"],
+    "regression_registry": "flashcards/tests/feedback_regressions.json",
+    "regressions_required_in_ci": true
   },
-  "apkg_audit": {
-    "script": "flashcards/scripts/audit_apkg.py",
-    "scope": "per_deck"
+  "apkg": {
+    "writer": "flashcards/scripts/exportar_apkg_canonico.py",
+    "stable_identity_field": "card_key",
+    "audit": "flashcards/scripts/audit_apkg.py",
+    "require_roundtrip_audit": true
   }
 }
