@@ -41,6 +41,7 @@ jobs:
       - name: Active v13 gates and regressions
         run: >-
           pytest -q
+          flashcards/tests/test_e1_execution_contract.py
           flashcards/tests/test_learning_delta.py
           flashcards/tests/test_learning_delta_real_e1.py
           flashcards/tests/test_card_review.py
