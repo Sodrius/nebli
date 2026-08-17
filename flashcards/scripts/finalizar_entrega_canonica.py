@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fecha E1 + deck somente se ganho, revisão, cards, release e APKG estiverem aprovados."""
+"""Fecha E1 + deck somente se E1, ganho, cards e APKG estiverem realmente aprovados."""
 from __future__ import annotations
 import argparse, hashlib, json, shutil, tempfile
 from pathlib import Path
@@ -7,6 +7,7 @@ from apkg_schema11 import normalize_apkg, validate_apkg_schema11
 from audit_apkg import audit
 from canonical_cards import content_sha256, ordered_card_set_sha256, referenced_media_hashes
 from exportar_apkg_canonico import canonical_deck_name, export_apkg
+from validar_calibracao_e1 import validate_e1_calibration
 from validar_ganho_aula import validate_learning_delta
 from validar_release_e1_deck import validate_release
 from validar_revisao_cards import validate_card_review
@@ -21,6 +22,8 @@ def main() -> int:
     set_hash=ordered_card_set_sha256(cards)
     if report.get("ordered_card_set_sha256")!=set_hash: raise SystemExit("ERRO: hash do conjunto ordenado diverge do relatório")
     if report.get("media",[])!=referenced_media_hashes(cards,deck_path.parent): raise SystemExit("ERRO: mídia mudou depois da revisão")
+    calibration=validate_e1_calibration(deck)
+    if not calibration.get("passed"): raise SystemExit("ERRO: calibração/ordem da E1 reprovada:\n- "+"\n- ".join(calibration.get("errors") or []))
     gain=validate_learning_delta(deck)
     if not gain.get("passed"): raise SystemExit("ERRO: gate de ganho da aula reprovado:\n- "+"\n- ".join(gain.get("errors") or []))
     review=validate_card_review(deck)
@@ -42,7 +45,7 @@ def main() -> int:
         audited=audit(temp_apkg,expected)
         if not audited.get("passed"): raise SystemExit("ERRO: auditoria APKG reprovada:\n- "+"\n- ".join(audited.get("errors") or []))
         if audited.get("notes")!=len(cards) or audited.get("cards")!=len(cards): raise SystemExit("ERRO: APKG auditado não contém exatamente os cards aprovados")
-        proof=dict(audited); proof["schema11_compatibility"]=schema_check; proof["validation_report_sha256"]=hashlib.sha256(report_path.read_bytes()).hexdigest(); proof["ordered_card_set_sha256"]=set_hash; (temp/"apkg-audit.json").write_text(json.dumps(proof,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        proof=dict(audited); proof["e1_calibration"]=calibration; proof["schema11_compatibility"]=schema_check; proof["validation_report_sha256"]=hashlib.sha256(report_path.read_bytes()).hexdigest(); proof["ordered_card_set_sha256"]=set_hash; (temp/"apkg-audit.json").write_text(json.dumps(proof,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         tpdf=temp/final_pdf.name; shutil.copy2(e1,tpdf); tpdf.replace(final_pdf); temp_apkg.replace(final_apkg)
     print(final_pdf); print(final_apkg); return 0
 
