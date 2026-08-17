@@ -18,9 +18,38 @@
   "external_decks": {
     "status": "suspended"
   },
+  "e1_release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "required": true,
+    "authority": "docs/canon/E1.md",
+    "require_full_source_inventory": true,
+    "require_source_to_e1_matrix_before_drafting": true,
+    "require_calibration_before_drafting": true,
+    "require_universal_exemplar_categories": [1, 8, 14, 17],
+    "require_anti_exemplars_review": true,
+    "minimum_uc02_calibration_exemplars": 2,
+    "require_calibration_evidence": true,
+    "require_reviewed_e1_source_and_pdf_hashes": true,
+    "require_complete_nuclear_coverage": true,
+    "minimum_nuclear_coverage_quality": 2,
+    "require_every_card_linked_to_e1_concept": true,
+    "require_independent_e1_review": true,
+    "require_canonical_typst_template": true,
+    "forbid_local_page_and_paragraph_overrides": true,
+    "require_main_and_resumindo_structure": true,
+    "require_four_pass_review": true,
+    "require_all_pages_rendered_and_visually_reviewed": true,
+    "format_validator": "flashcards/scripts/validar_e1_formatacao.py",
+    "release_validator": "flashcards/scripts/validar_release_e1_deck.py",
+    "block_unresolved_core_omissions": true,
+    "block_unresolved_ambiguities": true,
+    "block_unresolved_beginner_gaps": true,
+    "block_unresolved_visual_defects": true
+  },
   "learning_delta": {
     "authority": "FLASHCARDS.md",
     "inputs": ["lesson_materials", "e1", "master_sheet"],
+    "e1_must_be_frozen_first": true,
     "forbid_prior_deck_lookup": true,
     "require_whole_lesson_read_before_cards": true,
     "require_master_sheet_context": true,
@@ -118,6 +147,7 @@
     "writer": "flashcards/scripts/exportar_apkg_canonico.py",
     "stable_identity_field": "card_key",
     "audit": "flashcards/scripts/audit_apkg.py",
-    "require_roundtrip_audit": true
+    "require_roundtrip_audit": true,
+    "require_schema11_metadata_compatibility": true
   }
 }
