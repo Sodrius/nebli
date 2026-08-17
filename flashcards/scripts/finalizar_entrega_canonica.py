@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fecha E1 + deck somente se ganho, cards, release e APKG estiverem aprovados."""
+"""Fecha E1 + deck somente se ganho, revisão, cards, release e APKG estiverem aprovados."""
 from __future__ import annotations
 import argparse, hashlib, json, shutil, tempfile
 from pathlib import Path
@@ -8,6 +8,7 @@ from canonical_cards import content_sha256, ordered_card_set_sha256, referenced_
 from exportar_apkg_canonico import canonical_deck_name, export_apkg
 from validar_ganho_aula import validate_learning_delta
 from validar_release_e1_deck import validate_release
+from validar_revisao_cards import validate_card_review
 
 
 def main() -> int:
@@ -21,6 +22,8 @@ def main() -> int:
     if report.get("media",[])!=referenced_media_hashes(cards,deck_path.parent): raise SystemExit("ERRO: mídia mudou depois da revisão")
     gain=validate_learning_delta(deck)
     if not gain.get("passed"): raise SystemExit("ERRO: gate de ganho da aula reprovado:\n- "+"\n- ".join(gain.get("errors") or []))
+    review=validate_card_review(deck)
+    if not review.get("passed"): raise SystemExit("ERRO: revisão final dos cards reprovada:\n- "+"\n- ".join(review.get("errors") or []))
     rel=validate_release(deck,deck_path)
     if not rel.get("passed"): raise SystemExit("ERRO: release E1/deck reprovado:\n- "+"\n- ".join(rel.get("errors") or []))
     release=deck.get("release_gate") or {}
