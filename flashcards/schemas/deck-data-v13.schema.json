@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nebli.local/schemas/deck-data-v13.schema.json",
+  "title": "NEBLI deck-data v13",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["metadata", "curriculum_context", "release_gate", "cards"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["uc", "prova", "componente", "nome_curto"],
+      "properties": {
+        "uc": {"type": "string", "minLength": 1},
+        "prova": {"type": "string", "minLength": 1},
+        "componente": {"type": "string", "minLength": 1},
+        "nome_curto": {"type": "string", "minLength": 1}
+      }
+    },
+    "curriculum_context": {
+      "type": "object",
+      "required": ["current_lesson", "prior_lessons"],
+      "properties": {
+        "current_lesson": {"$ref": "#/$defs/lessonRef"},
+        "prior_lessons": {"type": "array", "items": {"$ref": "#/$defs/lessonRef"}}
+      }
+    },
+    "release_gate": {
+      "type": "object",
+      "required": ["schema", "e1_source", "e1_source_sha256", "e1_pdf", "e1_pdf_sha256", "card_budget_hard_max", "learning_delta_review", "retention_kernel_review", "e1_review", "e1_format_review", "source_to_e1_matrix", "concepts", "card_review"],
+      "properties": {
+        "schema": {"const": "nebli-e1-deck-release-v1"},
+        "e1_source": {"type": "string", "minLength": 1},
+        "e1_source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "e1_pdf": {"type": "string", "minLength": 1},
+        "e1_pdf_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "card_budget_hard_max": {"type": "integer", "minimum": 1},
+        "learning_delta_review": {
+          "type": "object",
+          "required": ["whole_lesson_read_before_cards", "master_sheet_context_used", "claims_classified_before_authorship", "source_materials", "summary"],
+          "properties": {
+            "whole_lesson_read_before_cards": {"const": true},
+            "master_sheet_context_used": {"const": true},
+            "claims_classified_before_authorship": {"const": true},
+            "source_materials": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+            "summary": {"type": "string", "minLength": 20}
+          }
+        },
+        "retention_kernel_review": {"type": "object"},
+        "e1_review": {"type": "object"},
+        "e1_format_review": {"type": "object"},
+        "source_to_e1_matrix": {"type": "array", "minItems": 1},
+        "concepts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/concept"}},
+        "card_review": {
+          "type": "object",
+          "required": ["reviewer_stage", "reviewed_card_set_sha256", "reviewed_dimensions", "blocking_findings", "summary"],
+          "properties": {
+            "reviewer_stage": {"const": "independent"},
+            "reviewed_card_set_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            "reviewed_dimensions": {
+              "type": "array",
+              "allOf": [
+                {"contains": {"const": "learning_delta"}},
+                {"contains": {"const": "ambiguity"}},
+                {"contains": {"const": "anti_induction"}},
+                {"contains": {"const": "redundancy"}},
+                {"contains": {"const": "step1_scope"}},
+                {"contains": {"const": "visual"}}
+              ]
+            },
+            "blocking_findings": {"type": "array", "maxItems": 0},
+            "summary": {"type": "string", "minLength": 20}
+          }
+        }
+      }
+    },
+    "cards": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/card"}}
+  },
+  "$defs": {
+    "lessonRef": {
+      "type": "object",
+      "required": ["id", "title"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1}
+      }
+    },
+    "teachingEvidence": {
+      "type": "object",
+      "required": ["source", "locator", "rationale"],
+      "properties": {
+        "source": {"enum": ["slide", "e1", "master_sheet"]},
+        "locator": {"type": "string", "minLength": 3},
+        "rationale": {"type": "string", "minLength": 12}
+      }
+    },
+    "concept": {
+      "type": "object",
+      "required": ["concept_id", "importance", "learning_role", "teaching_evidence", "retention_class", "e1_anchor", "coverage_quality", "card_keys", "step1"],
+      "properties": {
+        "concept_id": {"type": "string", "minLength": 1},
+        "importance": {"enum": ["nuclear", "supporting", "optional"]},
+        "learning_role": {"enum": ["foco_novo", "relacao_nova", "aprofundamento_novo", "pre_requisito", "revisao", "contexto", "exemplo", "mencao"]},
+        "lesson_gain": {"type": "string", "minLength": 20},
+        "exclusion_reason": {"type": "string", "minLength": 1},
+        "curriculum_ref": {"type": "string"},
+        "teaching_evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/teachingEvidence"}},
+        "retention_class": {"enum": ["must_recall", "derivable", "e1_only", "optional"]},
+        "e1_anchor": {"type": "string", "minLength": 1},
+        "coverage_quality": {"type": "integer", "minimum": 1, "maximum": 3},
+        "card_keys": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "step1": {"type": "object"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"learning_role": {"enum": ["foco_novo", "relacao_nova", "aprofundamento_novo"]}}, "required": ["learning_role"]},
+          "then": {"required": ["lesson_gain"]},
+          "else": {"required": ["exclusion_reason"], "properties": {"card_keys": {"maxItems": 0}}}
+        }
+      ]
+    },
+    "card": {
+      "type": "object",
+      "required": ["card_key", "concept_id", "tier", "source", "e1_anchor"],
+      "properties": {
+        "card_key": {"type": "string", "minLength": 1},
+        "concept_id": {"type": "string", "minLength": 1},
+        "tier": {"enum": ["nucleo", "optional"]},
+        "source": {"enum": ["authored", "io"]},
+        "e1_anchor": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"source": {"const": "authored"}}, "required": ["source"]},
+          "then": {"required": ["text", "extra", "retrieval_target", "semantic_review", "authored_quality", "cue_quality", "memory_gain", "ablation_loss", "why_not_e1_only", "confusion_target"]},
+          "else": {"required": ["mode", "prompt", "answers", "masks", "image_path", "source_credit", "cognitive_purpose", "visual_review", "visual_evidence"]}
+        }
+      ]
+    }
+  }
+}
