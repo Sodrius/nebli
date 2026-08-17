@@ -48,6 +48,7 @@ jobs:
           flashcards/tests/test_schema_v13.py
           flashcards/tests/test_feedback_regressions.py
           flashcards/tests/test_apkg_export.py
+          flashcards/tests/test_apkg_schema11.py
           flashcards/tests/test_apkg_duplicate_answers.py
           flashcards/tests/test_release_e1_deck.py
           flashcards/tests/test_validar_deck_card_a_card.py
