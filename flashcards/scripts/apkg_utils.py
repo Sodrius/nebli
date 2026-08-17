@@ -131,7 +131,26 @@ def models_map(connection: sqlite3.Connection) -> dict[int, dict]:
     if legacy:
         return {int(key): value for key, value in legacy.items()}
     if _has_table(connection, "notetypes"):
-        return {int(row[0]): {"name": row[1]} for row in connection.execute("SELECT id, name FROM notetypes")}
+        # No schema novo o `col.models` está vazio e os campos moram em tabelas
+        # próprias. Sem preenchê-los, todo consumidor enxerga um note type sem
+        # campo nenhum e desiste de analisar a nota.
+        models = {
+            int(row[0]): {"name": row[1], "flds": [], "tmpls": []}
+            for row in connection.execute("SELECT id, name FROM notetypes")
+        }
+        if _has_table(connection, "fields"):
+            for ntid, ord_, name in connection.execute("SELECT ntid, ord, name FROM fields ORDER BY ntid, ord"):
+                model = models.get(int(ntid))
+                if model is not None:
+                    model["flds"].append({"name": name, "ord": int(ord_)})
+        if _has_table(connection, "templates"):
+            for ntid, ord_, name in connection.execute("SELECT ntid, ord, name FROM templates ORDER BY ntid, ord"):
+                model = models.get(int(ntid))
+                if model is not None:
+                    # qfmt/afmt vivem num blob de configuração binário; o nome
+                    # basta para contar templates.
+                    model["tmpls"].append({"name": name, "ord": int(ord_)})
+        return models
     return {}
 
 

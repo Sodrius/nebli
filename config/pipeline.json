@@ -8,7 +8,9 @@
     "require_search_before_authorship": false,
     "allow_source_copy": false
   },
-  "external_decks": {"status": "suspended"},
+  "external_decks": {
+    "status": "suspended"
+  },
   "generate_e1": true,
   "generate_resumindo": true,
   "generate_e2": false,
@@ -19,7 +21,10 @@
   "emergency_desktop_fallback_only_if_explicitly_requested": true,
   "ankidroid": {
     "manifest_schema": "nebli-ankidroid-deck-v3",
-    "legacy_manifest_schemas": ["nebli-ankidroid-lesson-v2", "nebli-ankidroid-v1"],
+    "legacy_manifest_schemas": [
+      "nebli-ankidroid-lesson-v2",
+      "nebli-ankidroid-v1"
+    ],
     "full_deck_direct_install": true,
     "resolution_mode": "local_decks_with_validated_fallbacks",
     "anking_direct_copy": false,
@@ -84,12 +89,19 @@
       "block_unresolved_core_omissions": true,
       "block_unresolved_ambiguities": true,
       "block_unresolved_visual_defects": true
-    }
+    },
+    "install_identity_tags": [
+      "NEBLI::tier::<tier>",
+      "NEBLI::concept::<concept_id>"
+    ]
   },
   "require_offline_apkg": false,
   "require_apkg_audit": false,
   "require_e1_anchor_for_every_card": true,
-  "source_priority": ["authored", "io"],
+  "source_priority": [
+    "authored",
+    "io"
+  ],
   "non_anking_requires": {
     "completed_anking_search": false,
     "minimum_independent_queries": 0,
@@ -106,9 +118,18 @@
     "require_ablation_review": true,
     "estimated_seconds_per_card_max": 10,
     "sanity_ranges": {
-      "small": [8, 12],
-      "medium": [12, 18],
-      "large": [18, 22]
+      "small": [
+        8,
+        12
+      ],
+      "medium": [
+        12,
+        18
+      ],
+      "large": [
+        18,
+        22
+      ]
     },
     "default_hard_max": {
       "small": 15,
@@ -121,10 +142,22 @@
       "derivable",
       "e1_only",
       "optional"
+    ],
+    "require_declared_hard_max": true,
+    "forbid_hard_max_derived_from_card_count": true,
+    "require_ablation_contract_per_card": true,
+    "ablation_contract_fields": [
+      "memory_gain",
+      "ablation_loss",
+      "why_not_e1_only",
+      "confusion_target"
     ]
   },
   "authored_cards": {
-    "accepted_sources": ["authored", "io"],
+    "accepted_sources": [
+      "authored",
+      "io"
+    ],
     "language": "pt-BR",
     "retrievals_per_card": 1,
     "cloze_occurrences_per_card": 1,
@@ -152,7 +185,14 @@
       "valor",
       "direcao",
       "rotulo_especifico"
-    ]
+    ],
+    "measure_language_on_front_only": true,
+    "english_marker_threshold": 2,
+    "block_abstract_answer": true,
+    "block_answer_with_alternatives": true,
+    "require_answer_present_in_e1_anchor": true,
+    "block_discriminator_only_in_extra": true,
+    "require_derivation_rationale_for_duplicate_retrieval": true
   },
   "cloze_answer_words": {
     "preferred": 1,
@@ -179,17 +219,41 @@
     "require_source_credit": true,
     "block_answer_leak": true,
     "require_cognitive_purpose": true,
-    "require_didactic_value_review": true
+    "require_didactic_value_review": true,
+    "require_rendered_preview_hashes": true,
+    "max_crop_ratio_of_slide": 0.9,
+    "require_forbidden_terms_scan": true,
+    "forbid_prompt_default": true,
+    "forbid_answer_list_below_image": true,
+    "forbid_source_credit_in_review": true
   },
   "new_cards_per_day": 25,
   "maximum_reviews_per_day": 9999,
   "optional_cards_separate": true,
   "user_delivery": {
     "finalizer": "flashcards/scripts/finalizar_entrega_canonica.py",
-    "visible_files": ["e1_pdf", "ankidroid_manifest"],
+    "visible_files": [
+      "e1_pdf",
+      "ankidroid_manifest"
+    ],
     "hide_internal_work_artifacts": true,
     "manifest_open_starts_install_automatically": true,
     "open_ankidroid_after_install": true,
     "manual_card_selection": false
+  },
+  "feedback": {
+    "preserve_on_note_update": true,
+    "read_without_pending_tag": true,
+    "never_clear_comment_field": true,
+    "note_fields": [
+      "NEBLI_Comentario",
+      "NEBLI_Resposta",
+      "NEBLI_Historico"
+    ],
+    "regression_registry": "flashcards/tests/feedback_regressions.json"
+  },
+  "apkg_audit": {
+    "script": "flashcards/scripts/audit_apkg.py",
+    "scope": "per_deck"
   }
 }

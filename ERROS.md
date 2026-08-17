@@ -21,9 +21,7 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 
 ## Cards
 
-5. Buscar AnKing e decks externos antes de autorar; guardar a rejeição real.
-6. Preservar campos, HTML, note type, tags, mídia e créditos do card-fonte.
-7. A cópia NEBLI usa nota independente e nunca altera o original.
+5. Autorar direto: `card_source_mode=authored_only` dispensa busca externa.
 8. Autoral: português médico natural, alvo único, **uma ocorrência de c1**, Extra
    curto em português e sem voz de apostila.
 9. Nunca misturar `nucleo` e `optional` no mesmo card; opcionais vão para
@@ -36,10 +34,6 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     recuperação específica pertence à aula e possui âncora E1.
 13. Não aceitar card que peça duas ou mais recuperações independentes, listas ou
     enumerações disfarçadas. Atomicidade é hard gate.
-14. Resultado AnKing ambíguo nunca é escolhido à força. Rebuscar com aliases e,
-    permanecendo ambíguo, usar fallback autoral/IO já validado.
-15. Todo card AnKing planejado no manifesto final precisa ter fallback válido;
-    assim uma diferença na coleção local não deixa o Deck-Aula incompleto.
 
 ## Visual
 
@@ -124,25 +118,35 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
 45. Quantidade correta de cards não comprova cobertura. Conferir a distribuição
     por objetivos e mecanismos da E1, substituindo cards fracos antes de usar a
     margem do orçamento para simplesmente adicionar mais cards.
-46. Para card AnKing, validar o card realmente selecionado — nota, ordinal e
-    pergunta/resposta renderizadas — e não apenas a semelhança temática da nota.
-    Resultado clínico vizinho, cloze irrelevante ou card excessivamente guiado
-    deve ser rejeitado e substituído pelo próximo candidato ou pelo fallback.
 47. Imagem no Extra precisa acrescentar compreensão mecanística ou espacial ao
     card. Não criar IO quando não há tarefa visual de reconhecimento, mas também
     não aceitar um deck inteiramente verbal quando a E1 exige interpretar uma
     estrutura, lâmina, mapa ou relação espacial.
 
-## Resolução AnKing e identidade do deck
+## Identidade do deck
 
-48. `prefer_anking=true` sem efeito mecânico não é prioridade. A nota deve ser
-    buscada por contexto e o sibling pela resposta esperada; usar a consulta
-    longa para pontuar um cloze curto produz falso `unresolved` e fallback.
-49. O nome local `AnKing Step Deck` não é identidade confiável. Para AnKing,
-    `source_filter` é dica; se falhar, rebuscar sem escopo e exigir marcador.
-50. Fallback autoral não pode ocultar falha técnica quando um AnKing adequado já
-    foi validado. `anking_required=true` bloqueia o lote e o recibo registra o
-    motivo, consultas tentadas e contagem de candidatos.
 51. O nome do deck não é campo livre. Gerador e Companion derivam e conferem
     `NEBLI::<UC>::<Prova>::<Componente>::<Nome curto>` a partir dos quatro
     metadados; override divergente ou segmento ausente bloqueia a instalação.
+
+## Suspenso — vale somente com `anking.status = active`
+
+As regras abaixo governam a cópia de AnKing e de decks externos. O modo ativo é
+`authored_only`, então **nenhuma delas se aplica hoje**. Ficam registradas porque
+descrevem trabalho já validado, não porque estejam em vigor: enquanto o canônico
+disser uma coisa e `config/pipeline.json` disser outra, o agente escolhe.
+
+- Buscar AnKing e decks externos antes de autorar; guardar a rejeição real.
+- Preservar campos, HTML, note type, tags, mídia e créditos do card-fonte.
+- A cópia NEBLI usa nota independente e nunca altera o original.
+- Resultado AnKing ambíguo nunca é escolhido à força. Rebuscar com aliases e,
+  permanecendo ambíguo, usar fallback autoral/IO já validado.
+- Todo card AnKing planejado no manifesto final precisa ter fallback válido.
+- Para card AnKing, validar o card realmente selecionado — nota, ordinal e
+  pergunta/resposta renderizadas — e não apenas a semelhança temática da nota.
+- `prefer_anking=true` sem efeito mecânico não é prioridade: buscar a nota por
+  contexto e o sibling pela resposta esperada.
+- O nome local `AnKing Step Deck` não é identidade confiável; `source_filter` é
+  dica, e falhando, rebuscar sem escopo e exigir marcador.
+- Fallback autoral não pode ocultar falha técnica quando um AnKing adequado já
+  foi validado.

@@ -4,7 +4,7 @@
 
 - Slides e objetivos dizem **o que** pertence à aula.
 - A E1 ensina e ancora o que será retido.
-- AnKing e bibliografia Step 1 dizem **até onde aprofundar o mesmo conceito**.
+- A bibliografia Step 1 diz **até onde aprofundar o mesmo conceito**.
 - O contrato de cobertura torna as decisões rastreáveis.
 
 ## Admissão Step 1

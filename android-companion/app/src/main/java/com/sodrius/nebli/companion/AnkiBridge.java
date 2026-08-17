@@ -176,6 +176,9 @@ public final class AnkiBridge {
                 if (low.contains("anking")) score += 10;
                 if (low.contains("overhaul")) score += 4;
                 if (ModelFields.supportFieldIndex(splitFields(f)) >= 0) score += 2;
+                // Preferir um note type que saiba guardar comentário: sem ele o
+                // feedback do usuário não tem onde morar.
+                if (ModelFields.supportsFeedback(splitFields(f))) score += 6;
                 if (score > bestScore) { bestScore = score; bestId = c.getLong(id); }
             }
         }
@@ -193,15 +196,31 @@ public final class AnkiBridge {
         );
     }
 
+    /**
+     * Note type IO v2: igual ao v1 mais os campos de feedback.
+     *
+     * <p>O v1 não tinha onde comentar um card de Image Occlusion, então todo
+     * defeito visual só podia ser relatado fora do Anki. Os três campos novos
+     * ficam fora do template: não aparecem durante a revisão, apenas no
+     * navegador e na auditoria.
+     */
     public long ensureIoModel(long defaultDid) {
         return ensureNormalModel(
-                "NEBLI Image Occlusion v1",
-                new String[]{"Question", "Answer", "Extra", "Source"},
+                "NEBLI Image Occlusion v2",
+                new String[]{"Question", "Answer", "Extra", "Source",
+                             ModelFields.COMMENT_FIELD, ModelFields.ANSWER_FIELD, ModelFields.HISTORY_FIELD},
                 "{{Question}}",
                 "{{FrontSide}}<hr id=answer>{{Answer}}{{#Extra}}<div class=\"nebli-extra\">{{Extra}}</div>{{/Extra}}",
                 IoRenderer.css(),
                 defaultDid
         );
+    }
+
+    /** Lê o feedback de uma nota já instalada, por nome de campo. */
+    public String[] readFeedback(long nid) {
+        NoteSnapshot note = readNote(nid);
+        if (note == null) return new String[]{"", "", ""};
+        return ModelFields.readFeedback(modelFields(note.mid), splitFields(note.fields));
     }
 
     public long ensureNormalModel(String name, String[] fields, String qfmt, String afmt, String css, long defaultDid) {

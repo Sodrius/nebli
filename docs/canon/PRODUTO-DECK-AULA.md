@@ -30,7 +30,6 @@ a entrega ao usuário.
 
 - todos os conceitos nucleares explicados na E1 e cobertos por card adequado;
 - aprofundamento Step 1 dentro do mesmo tema;
-- AnKing/decks externos consultados antes de autorar;
 - necessidades visuais satisfeitas;
 - originais privados intocados;
 - manifesto v3 aprovado pelo `release_gate=nebli-e1-deck-release-v1`;

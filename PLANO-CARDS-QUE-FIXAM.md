@@ -1,5 +1,10 @@
 # Plano — cards que fixam o conceito, não a frase
 
+> **Estado: fases 1–8 implementadas.** A fase 9 (regeneração das aulas) depende
+> dos materiais das aulas e de um AnkiDroid real, então continua aberta. O que
+> mudou está resumido em `## 7. O que foi implementado`, no fim do arquivo.
+
+
 Alvo: o deck-aula parar de produzir recuperações genéricas e passar a produzir
 recuperações que reconstroem o mecanismo da aula.
 
@@ -419,3 +424,111 @@ código outra, o agente escolhe.
 Fases 1, 2 e 4 mudam o que você vê no celular na próxima aula: frente em
 português, cloze com resposta discriminante, IO legível. Fases 3 e 6 são o que
 impede a reincidência. Fases 5, 7 e 8 fecham a auditoria.
+
+---
+
+## 7. O que foi implementado
+
+Fases 1–8 estão no código. A fase 9 continua aberta: regenerar uma aula exige os
+materiais dela e um AnkiDroid real, que não existem nesta execução.
+
+### Medição, antes e depois
+
+Rodando os gates contra as 142 frentes textuais do `NEBLI::UC03::P1`:
+
+| Gate | Antes | Depois |
+|---|---|---|
+| Frentes inglesas reprovadas | 65 de 142 | **142 de 142** |
+| Frentes portuguesas com termo médico inglês reprovadas por engano | — | **0 de 13** |
+| Clozes de resposta abstrata reprovados | 0 | **20** |
+
+A auditoria por aula, que antes devolvia "aprovado" para a coleção inteira:
+
+```
+$ audit_apkg.py NEBLI-20260817.apkg --deck "NEBLI::UC03::P1::Radiologia::Princípios de RX e USG"
+  19 frentes não estão em português
+  5 clozes têm resposta abstrata
+  1 cards IO repetem a resposta abaixo da imagem
+  1 cards IO imprimem o crédito na resposta
+  20 notas sem tag NEBLI::tier
+  20 notas sem tag NEBLI::concept
+```
+
+### Por fase
+
+**1. Idioma.** `validar_deck_card_a_card` passou a usar
+`card_cue_quality.portuguese_front_failures`, que mede **só a frente**. Lista de
+marcadores ampliada de 17 para 76 palavras e limiar de 3 para 2, mantendo fora
+artigos e preposições portuguesas para não acusar frase correta. `CardRules.java`
+recebeu a mesma lista e o mesmo limiar.
+
+**2. Gate cognitivo.** `semantic_cue_review_failures` era importada e nunca
+chamada; agora roda em `strict=True` dentro de `validate_card`, que o gerador de
+manifesto também usa. A lista `GENERIC` de 7 palavras virou `ABSTRACT_ANSWERS`
+bilíngue semeada com as 20 respostas medidas. Novo: `discriminator_only_in_extra`,
+que reprova o card cuja informação decisiva mora no verso.
+
+**3. Ablação e orçamento.** `card_budget_hard_max` deixou de cair para
+`expected`: ausente, bloqueia. Cada card declara `memory_gain`, `ablation_loss`,
+`why_not_e1_only` e `confusion_target`, e uma perda que só reformula o card
+reprova. Duplicação funcional é detectada por resposta normalizada e por
+`retrieval_target`.
+
+**4. Image Occlusion.** `IoRenderer.answerHtml` perdeu a lista repetida e o bloco
+de crédito — e perdeu também o parâmetro `sourceCredit`, para que o renderer não
+tenha como vazar a fonte. O prompt default `"Identify the masked labels."` saiu:
+prompt ausente ou inglês agora lança. `IoRendererTest.answerRevealsLabelsAndCredits`,
+que exigia o crédito visível, foi substituído por dois testes que exigem o
+contrário.
+
+**5. Prova visual.** `visual_evidence` passou a ser obrigatório: dois previews
+com hash, `crop_ratio` (recorte ≥ 90% do slide reprova), varredura de texto,
+`forbidden_terms` cobrindo todas as respostas e `leaked_terms` vazio. Um IO com
+`no_leak: true` e vazamento real agora reprova.
+
+**6. Feedback.** `ModelFields` ganhou leitura, migração e histórico do feedback;
+`installOne` lê o comentário **antes** do `deleteOwnNote` e o reescreve na nota
+nova, registrando `feedback_carried`/`feedback_lost` no recibo. O note type IO
+subiu para v2 com `NEBLI_Comentario`, `NEBLI_Resposta` e `NEBLI_Historico`.
+`ler_comentarios.py` procura campo preenchido além da tag — e **nunca apaga o
+comentário** ao responder, conforme pedido.
+
+**7. Identidade.** Toda nota instalada recebe `NEBLI::tier::<tier>` e
+`NEBLI::concept::<concept_id>`.
+
+**8. Auditoria.** `audit_apkg.py --deck` limita o escopo a uma aula. No caminho,
+apareceu um defeito maior: `apkg_utils.models_map` não populava campos no schema
+novo do Anki, então a auditoria estava **estruturalmente cega** em qualquer
+`.apkg` recente — nenhuma análise de campo rodava. Corrigido na raiz.
+
+### Comentários: eram 9, não 7
+
+A leitura por flag encontrava 7; a leitura por campo encontra **9**. Dois
+comentários nunca tiveram flag e por isso eram invisíveis das duas formas.
+Todos os 9 viraram entradas de `flashcards/tests/feedback_regressions.json`, e
+`test_feedback_regressions.py` roda cada exemplo reprovado contra o gate real:
+uma entrada que não bloqueia o próprio exemplo quebra o teste.
+
+Três comentários geraram gates que não estavam no plano original:
+
+- *"é horrível que haja x ou y, o certo é que haja uma palavra só"* →
+  `cloze_answer_offers_alternatives`, com escape via `compound_answer_reason`
+  para nome composto legítimo (RAG1/RAG2);
+- *"não sei o que é evaginação sacular"* / *"não compreendi esse"* →
+  `answer_not_in_e1_anchor`: o termo cobrado precisa existir na âncora da E1;
+- *"não apaga eles, vai mantendo, mesmo que estejam corrigidos"* → `responder`
+  preserva o comentário e acumula as respostas.
+
+### O que não foi verificado aqui
+
+O código Android **não foi compilado**: não há Android SDK neste ambiente.
+`IoRenderer`, `CardRules` e `ModelFields` não dependem de Android e foram
+compilados e exercitados por um harness próprio; `FullDeckInstaller` e
+`AnkiBridge` foram alterados sem compilação. Rodar `gradle test` antes de gerar
+o APK.
+
+`NEBLI Cloze v2` não foi criado: um note type de cloze não pode ser criado de
+forma confiável pelo ContentProvider do AnkiDroid. Em vez de fabricar a
+capacidade, `findClozeModel` passou a **preferir** um note type que já tenha os
+campos de feedback, e o recibo registra quando o feedback se perde por falta de
+campo.

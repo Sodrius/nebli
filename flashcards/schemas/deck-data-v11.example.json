@@ -13,7 +13,51 @@
   "cards": [{
     "card_key": "c001", "concept_id": "conceito-1", "tier": "nucleo", "source": "authored",
     "text": "O mecanismo produz {{c1::consequência}}.", "extra": "Explicação curta.",
-    "e1_anchor": "Trecho literal", "retrieval_target": "Recuperar a consequência.",
-    "semantic_review": {"ambiguity": "A pista determina uma resposta.", "anti_induction": "Exige conhecimento médico.", "duplicate_check": "Sem duplicação funcional."}
+    "e1_anchor": "Trecho literal com a consequência", "retrieval_target": "Recuperar a consequência do mecanismo.",
+    "semantic_review": {"ambiguity": "A pista determina uma resposta.", "anti_induction": "Exige conhecimento médico.", "duplicate_check": "Sem duplicação funcional."},
+
+    "authored_quality": {"portuguese_reviewed": true},
+    "cue_quality": {
+      "cloze_role": "consequencia",
+      "knowledge_required": true,
+      "blind_review_passed": true,
+      "grammar_only_solvable": false,
+      "lexical_leak": false,
+      "answer_visible_elsewhere": false,
+      "plausible_alternatives": [],
+      "confounders_checked": ["confundidor considerado"],
+      "ambiguity_review": "Revisão cega produziu uma única resposta."
+    },
+
+    "memory_gain": "O que passa a ser lembrado por causa deste card.",
+    "ablation_loss": "O que deixa de ser recuperável se ele sair, citando outro conceito do contrato.",
+    "why_not_e1_only": "Por que merece custo de revisão diária em vez de ficar só na E1.",
+    "confusion_target": "Qual erro ou confusão específica ele previne.",
+
+    "three_word_cloze_reason": "obrigatório apenas quando a resposta tem 3 palavras",
+    "compound_answer_reason": "obrigatório apenas quando a resposta traz / ou ou",
+    "derivation_rationale": "obrigatório apenas quando outro card recupera o mesmo alvo"
+  }, {
+    "card_key": "c002", "concept_id": "conceito-2", "tier": "nucleo", "source": "io",
+    "mode": "hide_two_guess_two",
+    "prompt": "Identifique os dois rótulos ocultos no esquema.",
+    "answers": ["rótulo um", "rótulo dois"],
+    "masks": [{"x": 0.1, "y": 0.2, "w": 0.2, "h": 0.1}, {"x": 0.6, "y": 0.2, "w": 0.2, "h": 0.1}],
+    "pair_rationale": "Os dois rótulos delimitam a mesma via, então formam par funcional coerente.",
+    "image_path": "figura.png", "extra": "Explicação curta.",
+    "e1_anchor": "Trecho literal da E1",
+    "source_credit": "Fonte real da imagem.",
+    "cognitive_purpose": "Reconhecer visualmente a estrutura.",
+    "visual_review": {"labels_masked_not_structures": true, "question_preview": true, "answer_preview": true, "legible": true, "no_leak": true, "didactic_value": true},
+    "visual_evidence": {
+      "question_preview": "c002-pergunta.png",
+      "question_preview_sha256": "SHA256",
+      "answer_preview": "c002-resposta.png",
+      "answer_preview_sha256": "SHA256",
+      "crop_ratio": 0.42,
+      "text_scan": "ocr",
+      "forbidden_terms": ["rótulo um", "rótulo dois"],
+      "leaked_terms": []
+    }
   }]
 }

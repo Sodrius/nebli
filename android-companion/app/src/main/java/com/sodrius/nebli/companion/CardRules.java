@@ -14,9 +14,22 @@ import java.util.regex.Pattern;
 public final class CardRules {
     private static final Set<String> CLOZE_ROLES = new HashSet<>(Arrays.asList(
             "mecanismo", "consequencia", "discriminador", "valor", "direcao", "rotulo_especifico"));
+    // Espelha flashcards/scripts/card_cue_quality.py: mesma lista, mesmo limiar.
+    // Artigos e preposições portuguesas ("a", "e", "as", "da", "no") ficam de
+    // fora de propósito — acusariam frases corretas.
     private static final Set<String> ENGLISH_FUNCTION_WORDS = new HashSet<>(Arrays.asList(
             "the", "an", "is", "are", "was", "were", "by", "with", "when", "which",
-            "that", "from", "into", "during", "because", "requires", "uses"));
+            "that", "from", "into", "during", "because", "requires", "uses",
+            "of", "in", "to", "and", "for", "its", "can", "may", "does", "than",
+            "both", "after", "before", "without", "through", "between", "each",
+            "this", "these", "their", "not", "only", "also", "but", "while",
+            "whereas", "occurs", "contains", "leaves", "produces", "determines",
+            "called", "unlike", "besides", "yields", "follows", "belongs",
+            "within", "against", "across", "below", "above", "such", "still",
+            "able", "first", "second", "higher", "lower", "increasing", "using",
+            "require", "prevents", "preserves", "identifies", "improves",
+            "reduces", "insert", "inserts", "specific"));
+    private static final int ENGLISH_MARKER_THRESHOLD = 2;
     // Keep both closing braces escaped. OpenJDK accepts bare `}}`, but
     // Android's regex implementation can reject it during class
     // initialization and wrap PatternSyntaxException in
@@ -197,12 +210,12 @@ public final class CardRules {
         return normalized;
     }
 
-    private static boolean looksEnglish(String value) {
+    public static boolean looksEnglish(String value) {
         int markers = 0;
         for (String word : normalizedWords(value).split("\\s+")) {
             if (ENGLISH_FUNCTION_WORDS.contains(word)) markers++;
         }
-        return markers >= 3;
+        return markers >= ENGLISH_MARKER_THRESHOLD;
     }
 
     private static boolean answerAppearsInVisibleStem(String text) {

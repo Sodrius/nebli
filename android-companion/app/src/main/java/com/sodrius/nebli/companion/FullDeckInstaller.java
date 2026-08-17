@@ -439,6 +439,7 @@ public final class FullDeckInstaller {
         String hash = card.optString("card_sha256", sha256(card.toString().getBytes(StandardCharsets.UTF_8)));
         String hashTag = "NEBLI::hash::" + hash.substring(0, Math.min(16, hash.length()));
         long existing = anki.findNoteByTag(stableTag);
+        String[] carriedFeedback = new String[]{"", "", ""};
         if (existing >= 0) {
             AnkiBridge.NoteSnapshot ex = anki.readNote(existing);
             if (ex != null && ex.tags != null && ex.tags.contains(hashTag)) {
@@ -451,6 +452,13 @@ public final class FullDeckInstaller {
                 rr.put("failures", mediaOk ? new JSONArray() : new JSONArray().put("existing_media_not_rendered"));
                 if (mediaOk) return new CardInstallResult(true, true, p.actualSource, rr);
             }
+            // O feedback é lido ANTES de apagar. Recriar a nota por mudança de
+            // hash era o que fazia comentário e resposta do usuário sumirem.
+            carriedFeedback = anki.readFeedback(existing);
+            if (ModelFields.hasFeedback(carriedFeedback)) {
+                carriedFeedback = ModelFields.appendHistory(
+                        carriedFeedback, "conteúdo atualizado em " + hashTag);
+            }
             anki.deleteOwnNote(existing);
         }
 
@@ -462,7 +470,7 @@ public final class FullDeckInstaller {
             AnkiBridge.NoteSnapshot before = anki.readNote(p.sourceNote.nid);
             if (before == null) throw new IllegalStateException("source note desapareceu: " + p.sourceNote.nid);
             Set<String> tags = mergeSourceTags(
-                    before.tags, stableTag, hashTag, "NEBLI::source::" + p.actualSource, "NEBLI::" + safe(slug));
+                    before.tags, identityTags(slug, stableTag, hashTag, p.actualSource, card));
             String[] fields = before.fields == null ? new String[]{""} : before.fields.split("\u001f", -1);
             nid = anki.insertNote(before.mid, fields, tags, targetDid);
             createdThisRun.add(nid);
@@ -503,20 +511,26 @@ public final class FullDeckInstaller {
             if (hasMediaPlaceholder(text) || hasMediaPlaceholder(extra)) {
                 failures.put("authored_media_placeholder_unresolved");
             }
+            String[] authoredTags = identityTags(slug, stableTag, hashTag, "authored", card);
             long clozeMid = anki.findClozeModel();
+            String[] authoredNames;
             if (clozeMid >= 0) {
-                String[] names = anki.modelFields(clozeMid);
-                String[] values = AnkiBridge.fieldsForModel(names, text, extra);
-                nid = anki.insertNote(clozeMid, values,
-                        AnkiBridge.tags(stableTag, hashTag, "NEBLI::source::authored", "NEBLI::" + safe(slug)), targetDid);
+                authoredNames = anki.modelFields(clozeMid);
+                String[] values = ModelFields.carryFeedback(
+                        authoredNames, AnkiBridge.fieldsForModel(authoredNames, text, extra), carriedFeedback);
+                nid = anki.insertNote(clozeMid, values, AnkiBridge.tags(authoredTags), targetDid);
                 rr.put("authored_note_mode", "native_cloze");
             } else {
                 long basicMid = anki.ensureBasicModel(targetDid);
-                nid = anki.insertNote(basicMid,
+                authoredNames = anki.modelFields(basicMid);
+                String[] values = ModelFields.carryFeedback(
+                        authoredNames,
                         new String[]{CardRules.clozeQuestion(text), CardRules.clozeAnswer(text), extra},
-                        AnkiBridge.tags(stableTag, hashTag, "NEBLI::source::authored", "NEBLI::" + safe(slug)), targetDid);
+                        carriedFeedback);
+                nid = anki.insertNote(basicMid, values, AnkiBridge.tags(authoredTags), targetDid);
                 rr.put("authored_note_mode", "basic_cloze_fallback");
             }
+            recordFeedback(rr, authoredNames, carriedFeedback);
             createdThisRun.add(nid);
             List<AnkiBridge.CardRow> authoredRows = anki.cards(nid);
             if (authoredRows.size() != 1) failures.put("authored_generated_card_count_not_1");
@@ -540,13 +554,26 @@ public final class FullDeckInstaller {
             if (image == null) throw new IllegalStateException("mídia IO não instalada: " + p.mediaKey);
             List<double[]> boxList = boxList(card.getJSONArray("masks"));
             List<String> answers = stringList(card.optJSONArray("answers"));
-            String question = IoRenderer.questionHtml(image, boxList, card.optString("prompt", "Identify the masked labels."));
-            String answer = IoRenderer.answerHtml(
-                    image, boxList, answers, card.optString("source_credit", ""));
+            // Sem default: um prompt ausente instalava os sete IO do lote com a
+            // mesma frase em inglês. Prompt é conteúdo do card, não fallback.
+            String prompt = card.optString("prompt", "").trim();
+            if (prompt.isEmpty()) {
+                throw new IllegalArgumentException("card IO sem prompt: " + p.cardKey);
+            }
+            if (CardRules.looksEnglish(prompt)) {
+                throw new IllegalArgumentException("prompt de IO precisa ser português: " + p.cardKey);
+            }
+            String question = IoRenderer.questionHtml(image, boxList, prompt);
+            String answer = IoRenderer.answerHtml(image, boxList, answers);
             long ioMid = anki.ensureIoModel(targetDid);
-            nid = anki.insertNote(ioMid,
-                    new String[]{question, answer, card.optString("extra"), card.optString("source_credit")},
-                    AnkiBridge.tags(stableTag, hashTag, "NEBLI::source::io", "NEBLI::" + safe(slug)), targetDid);
+            String[] ioNames = anki.modelFields(ioMid);
+            String[] ioValues = new String[ioNames.length];
+            java.util.Arrays.fill(ioValues, "");
+            String[] base = {question, answer, card.optString("extra"), card.optString("source_credit")};
+            System.arraycopy(base, 0, ioValues, 0, Math.min(base.length, ioValues.length));
+            nid = anki.insertNote(ioMid, ModelFields.carryFeedback(ioNames, ioValues, carriedFeedback),
+                    AnkiBridge.tags(identityTags(slug, stableTag, hashTag, "io", card)), targetDid);
+            recordFeedback(rr, ioNames, carriedFeedback);
             createdThisRun.add(nid);
             List<AnkiBridge.CardRow> rows = anki.cards(nid);
             boolean renderOk = rows.size() == 1 && rows.get(0).question.contains("nebli-io-mask")
@@ -862,6 +889,39 @@ public final class FullDeckInstaller {
             if (!s.isEmpty()) out.add(s);
         }
         return out;
+    }
+
+    /**
+     * Registra no recibo o destino do feedback do usuário.
+     *
+     * <p>Quando o note type de destino não tem os campos, a perda aparece como
+     * {@code feedback_lost} em vez de acontecer em silêncio.
+     */
+    private static void recordFeedback(JSONObject receipt, String[] names, String[] feedback) throws Exception {
+        boolean had = ModelFields.hasFeedback(feedback);
+        boolean supported = ModelFields.supportsFeedback(names);
+        receipt.put("feedback_supported", supported);
+        receipt.put("feedback_carried", had && supported);
+        receipt.put("feedback_lost", had && !supported);
+    }
+
+    /**
+     * Tags de identidade da nota instalada.
+     *
+     * <p>Sem {@code tier} e {@code concept} no AnkiDroid não há como conferir,
+     * depois da instalação, se o núcleo da aula está coberto: o tier só
+     * escolhia o subdeck e se perdia no caminho.
+     */
+    private static String[] identityTags(String slug, String stableTag, String hashTag, String source, JSONObject card) {
+        List<String> out = new ArrayList<>();
+        out.add(stableTag);
+        out.add(hashTag);
+        out.add("NEBLI::source::" + source);
+        out.add("NEBLI::" + safe(slug));
+        out.add("NEBLI::tier::" + ("optional".equalsIgnoreCase(card.optString("tier", "nucleo")) ? "optional" : "nucleo"));
+        String concept = card.optString("concept_id", "").trim();
+        if (!concept.isEmpty()) out.add("NEBLI::concept::" + safe(concept));
+        return out.toArray(new String[0]);
     }
 
     private static Set<String> mergeSourceTags(String source, String... extra) {

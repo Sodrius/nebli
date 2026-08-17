@@ -22,19 +22,33 @@ public class IoRendererTest {
     }
 
     @Test
-    public void answerRevealsLabelsAndCredits() {
+    public void answerShowsEachLabelExactlyOnceOverTheImage() {
         String html = IoRenderer.answerHtml(
                 "colon.png",
                 Arrays.asList(new double[]{0.1, 0.2, 0.2, 0.08}, new double[]{0.5, 0.3, 0.1, 0.06}),
-                Arrays.asList("flexura hepática", "flexura esplênica"),
-                "Atlas da aula"
+                Arrays.asList("flexura hepática", "flexura esplênica")
         );
         assertTrue(html.contains("colon.png"));
-        assertTrue(html.contains("flexura hepática"));
-        assertTrue(html.contains("flexura esplênica"));
-        assertTrue(html.contains("Atlas da aula"));
         assertEquals(2, occurrences(html, "nebli-io-answer-label"));
         assertFalse(html.contains("nebli-io-mask"));
+        // Cada resposta aparece uma única vez. A lista repetida abaixo da imagem
+        // era o que produzia "light chainheavy chain" no texto plano da nota.
+        assertEquals(1, occurrences(html, "flexura hepática"));
+        assertEquals(1, occurrences(html, "flexura esplênica"));
+        assertFalse(html.contains("nebli-io-answers"));
+    }
+
+    @Test
+    public void answerNeverRendersTheSourceCredit() {
+        String html = IoRenderer.answerHtml(
+                "colon.png",
+                Arrays.asList(new double[]{0.1, 0.2, 0.2, 0.08}),
+                Arrays.asList("flexura hepática")
+        );
+        // O crédito continua guardado no campo Source da nota; ele apenas não é
+        // lido durante a revisão.
+        assertFalse(html.contains("nebli-source"));
+        assertFalse(html.contains("Atlas da aula"));
     }
 
     @Test
@@ -42,11 +56,10 @@ public class IoRendererTest {
         String q = IoRenderer.questionHtml("x.png", Arrays.asList(new double[]{0.1, 0.1, 0.1, 0.1}), "<script>x</script>");
         String a = IoRenderer.answerHtml(
                 "x.png", Arrays.asList(new double[]{0.1, 0.1, 0.1, 0.1}),
-                Arrays.asList("<b>resposta</b>"), "A&B");
+                Arrays.asList("<b>resposta</b>"));
         assertFalse(q.contains("<script>"));
         assertTrue(q.contains("&lt;script&gt;"));
         assertTrue(a.contains("&lt;b&gt;resposta&lt;/b&gt;"));
-        assertTrue(a.contains("A&amp;B"));
     }
 
     private int occurrences(String s, String needle) {

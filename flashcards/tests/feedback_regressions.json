@@ -1,0 +1,227 @@
+{
+  "schema": "nebli-feedback-regressions-v1",
+  "purpose": "Todo comentário do usuário vira um teste permanente. O pipeline não deve apenas ler o feedback: deve mudar de forma que o mesmo defeito não passe de novo.",
+  "regressions": [
+    {
+      "id": "trofia-desenvolvimento",
+      "pattern": "wrong_content",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-suf-trofia (.apkg 2026-08-17)",
+      "comment": "trofia é desenvolvimento, não crescimento, porque atrofia não é crescimento",
+      "enforced_by": "python",
+      "forbidden_pair": {"stem_contains": "trofia", "answer_is": "crescimento"},
+      "required_after_fix": "-trofia responde por desenvolvimento; atrofia é desenvolvimento deficiente, não crescimento negativo.",
+      "reproved_example": {
+        "text": "Em <b>hipertrofia</b>, -trofia indica <b>{{c1::crescimento}}</b>.",
+        "extra": "Hipertrofia é o aumento do tamanho das células."
+      },
+      "expected_failure": "regression:trofia-desenvolvimento"
+    },
+    {
+      "id": "filia-dois-clozes",
+      "pattern": "two_clozes_same_note",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-suf-filia (.apkg 2026-08-17)",
+      "comment": "clozes com muitas palavras. conteúdo é importante, mas o card é ruim, vale reescrevê-lo",
+      "enforced_by": "python",
+      "required_after_fix": "Uma recuperação por card: -filo e eosinofilia viram cards separados, cada um com resposta curta.",
+      "reproved_example": {
+        "text": "Em <b>eosinófilo</b>, -filo indica <b>{{c1::afinidade pela eosina}}</b>; <b>eosinofilia</b> indica <b>{{c1::aumento de eosinófilos}}</b>.",
+        "extra": "O aumento pertence ao termo clínico eosinofilia."
+      },
+      "expected_failure": "exactly_one_c1_occurrence_required"
+    },
+    {
+      "id": "atresia-resposta-longa",
+      "pattern": "multi_word_cloze",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-suf-atresia (.apkg 2026-08-17)",
+      "comment": "muito avançado com comentário fraco. poderia decompor a-tresia, para ficar mais didático. o cloze também tem muitas respostas",
+      "enforced_by": "python",
+      "required_after_fix": "A resposta cabe em uma ou duas palavras e a decomposição a-/tresia entra no Extra.",
+      "reproved_example": {
+        "text": "Em <b>atresia esofágica</b>, atresia indica <b>{{c1::ausência congênita de luz}}</b>.",
+        "extra": "Pode resultar de falha de canalização."
+      },
+      "expected_failure": "cloze_answer_must_have_1_to_3_words"
+    },
+    {
+      "id": "resposta-com-alternativas",
+      "pattern": "answer_with_alternatives",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-pre-dis (.apkg 2026-08-17)",
+      "comment": "nesse tipo de card, é horrível que haja x ou y, o certo é que haja uma palavra só. duas palavras não aumentam o valor pedagógico, só atrapalham, porque dificultam a reter",
+      "enforced_by": "python",
+      "required_after_fix": "Uma palavra por resposta. Nome composto legítimo exige compound_answer_reason declarado.",
+      "reproved_example": {
+        "text": "Em <b>disjunção</b>, dis- indica {{c1::separação ou afastamento}}.",
+        "extra": "Disjunção é a separação de estruturas antes unidas."
+      },
+      "expected_failure": "cloze_answer_offers_alternatives"
+    },
+    {
+      "id": "termo-da-resposta-nao-ensinado",
+      "pattern": "missing_prerequisite",
+      "origin": "comentários nas notas etim-pt2-diverticul-o e etim-v3-auto-etim-v2-suf-iase (.apkg 2026-08-17)",
+      "comment": "não sei o que é evaginação sacular / não compreendi esse",
+      "enforced_by": "python",
+      "required_after_fix": "O termo cobrado aparece na âncora da E1: o card não estreia conteúdo.",
+      "reproved_example": {
+        "text": "A forma combinatória diverticul/o refere-se a uma {{c1::evaginação}}.",
+        "extra": "Diverticulite é inflamação de divertículo.",
+        "e1_anchor": "o aumento da pressão abre a válvula de saída"
+      },
+      "expected_failure": "answer_not_in_e1_anchor"
+    },
+    {
+      "id": "duas-respostas-plausiveis",
+      "pattern": "multiple_plausible_answers",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-pre-para (.apkg 2026-08-17)",
+      "comment": "lado ou anormal? não sei e o card não explica, só confunde",
+      "enforced_by": "python",
+      "test": "cue_quality.plausible_alternatives precisa estar vazio e blind_review_passed=true",
+      "required_after_fix": "Alternativa plausível não resolvida bloqueia o card na revisão cega."
+    },
+    {
+      "id": "contraste-ausente",
+      "pattern": "contrast_missing",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-pre-exo (.apkg 2026-08-17)",
+      "comment": "aqui valeria comparar ecto e exo, pra saber a diferença (esse tipo de coisa ajuda a reter)",
+      "enforced_by": "manual",
+      "required_after_fix": "Par confundível recebe card discriminador, com cue_quality.cloze_role=discriminador e o confundidor listado em confounders_checked."
+    },
+    {
+      "id": "comentario-nunca-apagado",
+      "pattern": "feedback_must_persist",
+      "origin": "comentário na nota etim-v3-auto-etim-v2-pre-exo (.apkg 2026-08-17)",
+      "comment": "quando for ver os comentários, não apaga eles, vai mantendo, mesmo que estejam corrigidos, porque daí uma hora reúnos e vemos seus erros mais frequentes",
+      "enforced_by": "python",
+      "test": "ler_comentarios preserva NEBLI_Comentario ao responder e o histórico acumula",
+      "required_after_fix": "Responder nunca limpa o comentário; comentário respondido continua legível para revisão de padrões."
+    },
+    {
+      "id": "frente-em-ingles",
+      "pattern": "english_front",
+      "origin": "142 de 142 frentes do NEBLI::UC03::P1 no .apkg 2026-08-17",
+      "comment": "o deck saiu inteiro em inglês, com Extra em português",
+      "enforced_by": "python",
+      "required_after_fix": "A frente é medida sozinha; um Extra português não compensa mais uma frente inglesa.",
+      "reproved_example": {
+        "text": "Routine tissue fixation prevents autolysis and preserves {{c1::architecture}}.",
+        "extra": "A formalina estabiliza os componentes celulares antes do processamento."
+      },
+      "expected_failure": "front_appears_english"
+    },
+    {
+      "id": "cloze-generico",
+      "pattern": "generic_cloze",
+      "origin": "20 cards do NEBLI::UC03::P1 no .apkg 2026-08-17",
+      "comment": "respostas que servem a qualquer frase: tempo, tamanho, probabilidade, memória, arquitetura",
+      "enforced_by": "python",
+      "required_after_fix": "A resposta precisa exigir conhecimento médico, não caber em qualquer lacuna.",
+      "reproved_example": {
+        "text": "O retorno do eco determina a profundidade pelo {{c1::tempo}}.",
+        "extra": "Quanto mais tarde o eco retorna, maior o trajeto."
+      },
+      "expected_failure": "generic_cloze"
+    },
+    {
+      "id": "discriminador-so-no-extra",
+      "pattern": "weak_extra",
+      "origin": "revisão do NEBLI::UC03::P1",
+      "comment": "a informação que decide a resposta mora no Extra, que só é lido depois de responder",
+      "enforced_by": "python",
+      "required_after_fix": "A frente sozinha sustenta a recuperação declarada em retrieval_target.",
+      "reproved_example": {
+        "text": "A montagem final depende da {{c1::ligase}}.",
+        "extra": "O complexo sela as extremidades codificantes já processadas pelo NHEJ.",
+        "retrieval_target": "Recuperar qual complexo sela extremidades codificantes processadas."
+      },
+      "expected_failure": "discriminator_only_in_extra"
+    },
+    {
+      "id": "ablacao-sem-perda",
+      "pattern": "no_ablation_loss",
+      "origin": "docs/canon/NUCLEO-DE-RETENCAO.md vs. 52 cards numa aula de teto 25",
+      "comment": "cards entram sem que ninguém declare o que se perde se eles saírem",
+      "enforced_by": "python",
+      "required_after_fix": "Card sem perda concreta na ablação sai do deck.",
+      "reproved_example": {
+        "text": "O aumento da pressão abre a {{c1::válvula}} de saída.",
+        "extra": "A abertura permite que a água avance.",
+        "ablation_loss": "O aumento da pressão abre a de saída."
+      },
+      "expected_failure": "ablation_loss_restates_card"
+    },
+    {
+      "id": "recuperacao-duplicada",
+      "pattern": "duplicate_retrieval",
+      "origin": "electron microscopy, CXCL8, constant region e cisteínas duplicados no .apkg 2026-08-17",
+      "comment": "a mesma recuperação cobrada duas vezes, às vezes em aulas diferentes da mesma prova",
+      "enforced_by": "python",
+      "scope": "report",
+      "required_after_fix": "Dois cards com a mesma resposta ou o mesmo alvo exigem derivation_rationale.",
+      "expected_failure": "duplicate_retrieval"
+    },
+    {
+      "id": "teto-estourado",
+      "pattern": "budget_overflow",
+      "origin": "Reconhecimento inato com 52 cards e Recombinação com 35, teto canônico 25",
+      "comment": "o teto se autoajustava ao número de cards e nunca bloqueava",
+      "enforced_by": "python",
+      "scope": "report",
+      "required_after_fix": "Teto ausente bloqueia; teto excedido bloqueia.",
+      "expected_failure": "card_budget_hard_max_missing"
+    },
+    {
+      "id": "resposta-renderizada-duas-vezes",
+      "pattern": "answer_rendered_twice",
+      "origin": "7 de 7 cards IO do .apkg 2026-08-17",
+      "comment": "a resposta aparecia sobre a imagem e de novo numa lista abaixo: \"light chainheavy chain\"",
+      "enforced_by": "java",
+      "test": "IoRendererTest.answerShowsEachLabelExactlyOnceOverTheImage",
+      "required_after_fix": "Cada resposta aparece exatamente uma vez e nebli-io-answers não existe."
+    },
+    {
+      "id": "fonte-visivel-na-revisao",
+      "pattern": "source_visible_in_review",
+      "origin": "7 de 7 cards IO do .apkg 2026-08-17",
+      "comment": "o crédito da fonte era impresso no fim da resposta",
+      "enforced_by": "java",
+      "test": "IoRendererTest.answerNeverRendersTheSourceCredit",
+      "required_after_fix": "O renderer não recebe o crédito; ele fica no campo Source e não é lido na revisão."
+    },
+    {
+      "id": "prompt-io-em-ingles",
+      "pattern": "io_prompt_not_portuguese",
+      "origin": "7 de 7 cards IO com \"Identify the masked labels.\" no .apkg 2026-08-17",
+      "comment": "o prompt default em inglês vazava para o produto quando o manifesto não trazia prompt",
+      "enforced_by": "java",
+      "test": "FullDeckInstaller.installOne lança quando o prompt falta ou parece inglês",
+      "required_after_fix": "Prompt ausente ou inglês bloqueia a instalação em vez de virar default."
+    },
+    {
+      "id": "io-sem-campo-de-comentario",
+      "pattern": "io_comment_field_missing",
+      "origin": "note type NEBLI Image Occlusion v1",
+      "comment": "não havia onde comentar um card de Image Occlusion",
+      "enforced_by": "java",
+      "test": "ModelFields.supportsFeedback sobre os campos do IO v2",
+      "required_after_fix": "O IO v2 tem NEBLI_Comentario, NEBLI_Resposta e NEBLI_Historico."
+    },
+    {
+      "id": "feedback-perdido-na-atualizacao",
+      "pattern": "feedback_lost_on_update",
+      "origin": "FullDeckInstaller.installOne apagava a nota quando o hash mudava",
+      "comment": "comentário, resposta e histórico sumiam a cada atualização de conteúdo",
+      "enforced_by": "java",
+      "test": "ModelFields.carryFeedback migra o feedback para a nota recriada",
+      "required_after_fix": "O feedback é lido antes do delete e reescrito na nota nova; a perda aparece no recibo."
+    },
+    {
+      "id": "comentario-sem-tag-invisivel",
+      "pattern": "feedback_unreadable",
+      "origin": "7 comentários reais sem a tag NEBLI_comentario::pendente no .apkg 2026-08-17",
+      "comment": "quem digita no AnkiDroid não aplica tag, e o leitor só consultava a tag",
+      "enforced_by": "python",
+      "test": "ler_comentarios.pendentes consulta tag e campo preenchido",
+      "required_after_fix": "Comentário digitado no celular aparece na primeira execução."
+    }
+  ]
+}

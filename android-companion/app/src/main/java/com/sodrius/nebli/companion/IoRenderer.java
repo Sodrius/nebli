@@ -23,9 +23,15 @@ public final class IoRenderer {
         return sb.toString();
     }
 
-    public static String answerHtml(
-            String imageFile, List<double[]> boxes, List<String> answers, String sourceCredit
-    ) {
+    /**
+     * Verso do card IO: a imagem com os rótulos sobrepostos, e nada mais.
+     *
+     * <p>Não recebe o crédito de propósito. Ele fica guardado no campo {@code Source}
+     * da nota e não é lido durante a revisão; um renderer que não conhece a fonte
+     * não tem como vazá-la. Também não repete os rótulos numa lista abaixo da
+     * imagem: cada resposta aparece exatamente uma vez.
+     */
+    public static String answerHtml(String imageFile, List<double[]> boxes, List<String> answers) {
         StringBuilder sb = new StringBuilder();
         sb.append("<div class=\"nebli-io-wrap\"><img class=\"nebli-io-img\" src=\"")
           .append(escapeAttr(imageFile)).append("\" />");
@@ -38,14 +44,6 @@ public final class IoRenderer {
               .append("%;\">").append(escape(answers.get(i))).append("</span>");
         }
         sb.append("</div>");
-        if (answers != null && !answers.isEmpty()) {
-            sb.append("<div class=\"nebli-io-answers\">");
-            for (String a : answers) sb.append("<div>").append(escape(a)).append("</div>");
-            sb.append("</div>");
-        }
-        if (sourceCredit != null && !sourceCredit.isBlank()) {
-            sb.append("<div class=\"nebli-source\">").append(escape(sourceCredit)).append("</div>");
-        }
         return sb.toString();
     }
 
@@ -56,9 +54,7 @@ public final class IoRenderer {
                 + ".nebli-io-img{display:block;max-width:100%;height:auto;}"
                 + ".nebli-io-mask{position:absolute;display:block;background:#f4f4f4;border:2px solid #111;box-sizing:border-box;}"
                 + ".nebli-io-answer-label{position:absolute;display:flex;align-items:center;justify-content:center;background:#fff;border:2px solid #16665f;box-sizing:border-box;color:#114f4a;font-size:clamp(10px,2.4vw,20px);font-weight:700;line-height:1.05;text-align:center;}"
-                + ".nebli-io-answers{margin-top:12px;line-height:1.35;}"
-                + ".nebli-extra{margin-top:14px;font-size:.88em;line-height:1.35;}"
-                + ".nebli-source{margin-top:10px;font-size:.68em;opacity:.65;line-height:1.2;}";
+                + ".nebli-extra{margin-top:14px;font-size:.88em;line-height:1.35;}";
     }
 
     private static String pct(double v) {

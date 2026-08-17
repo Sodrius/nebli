@@ -9,9 +9,8 @@ operação mental.
 
 1. Classificar cada conceito como `must_recall`, `derivable`, `e1_only` ou
    `optional`.
-2. Fixar os **slots de recuperação** antes de procurar AnKing. A busca escolhe a
-   melhor implementação de cada slot; a oferta de cards encontrados não aumenta
-   o número de slots.
+2. Fixar os **slots de recuperação** antes de autorar. Cada slot recebe uma
+   implementação; nenhuma oferta externa aumenta o número de slots.
 3. Preferir uma relação causal ou discriminadora que permita reconstruir vários
    detalhes a memorizar fatos vizinhos separadamente.
 4. Manter respostas curtas e uma única decisão. Compressão de cobertura não
