@@ -1,69 +1,82 @@
 # CLAUDE.md — execução canônica do NEBLI
 
-Este arquivo descreve **como executar** o pipeline. Não duplica regras pedagógicas.
+Este arquivo descreve **como executar** o pipeline. A política pedagógica da E1 continua em `docs/canon/E1.md`; a política pedagógica dos cards continua em `FLASHCARDS.md`.
 
-## Autoridades
+## Princípio operacional
 
-Antes de produzir cards, leia nesta ordem:
+A corrida tem duas fases pedagógicas independentes e sequenciais:
 
-1. `FLASHCARDS.md` — todas as regras de seleção e qualidade;
-2. `EXEMPLARES-CARDS.md` — exemplos e anti-exemplos;
-3. `docs/canon/E1.md` — contrato da E1;
-4. `config/pipeline.json` — parâmetros mecânicos ativos.
+1. **ensinar a aula** — construir e congelar a E1;
+2. **reter o ganho da aula** — selecionar e fabricar os cards a partir da E1 aprovada.
 
-Não usar `MEMORY.md`, planos antigos, documentos legacy, decks anteriores ou contexto pessoal para decidir cards.
+Não usar critérios de seleção de cards para encurtar, simplificar ou excluir conteúdo necessário da E1.
 
-## Entradas permitidas para seleção de cards
+## Fase A — E1
 
-- materiais da aula atual;
-- E1 construída a partir desses materiais;
-- planilha mestra, usada para posição curricular e aulas anteriores relevantes.
+1. Identificar UC, prova, componente, número e título da aula na planilha mestra.
+2. Ler todos os materiais da aula e inventariar objetivos, slides, blocos textuais, perguntas orientadoras, notas e informação visual relevante.
+3. Ler `docs/canon/E1.md` integralmente.
+4. Fazer a calibração **antes de redigir**:
+   - categorias universais 1, 8 e 14 de `EXEMPLARES.md`;
+   - categoria 17 de `EXEMPLARES.md`;
+   - categorias temáticas pertinentes;
+   - sintomas relevantes de `ANTI-EXEMPLARES.md`;
+   - documentos didáticos indicados por `docs/canon/E1.md` quando aplicáveis;
+   - pelo menos dois exemplares UC02 adequados dentre os apontados por `docs/canon/E1.md`.
+5. Construir `source_to_e1_matrix` com uma linha por unidade relevante da fonte e congelá-la **antes do primeiro parágrafo**.
+6. Produzir `main.typ`, `etapa1.typ` e `resumindo.typ` usando o template canônico.
+7. Executar as quatro revisões obrigatórias:
+   - fonte → E1;
+   - aluno inicial zero;
+   - didática/voz comparada aos exemplares;
+   - PDF visual renderizado página por página.
+8. Preencher evidência concreta da calibração e revisão no `e1_review`.
+9. A E1 só congela com zero lacuna nuclear, zero ambiguidade aberta, zero lacuna de iniciante e zero defeito visual.
 
-Não consultar decks antigos para inferir o que o usuário já estudou.
+Nenhum card é autorado antes desse congelamento.
 
-## Fluxo v13
+## Fase B — ganho da aula e cards
 
-1. Identificar UC, prova, componente e aula na planilha mestra.
-2. Ler **todos** os materiais da aula antes de autorar cards.
-3. Construir/revisar a E1 conforme `docs/canon/E1.md`.
-4. Extrair `curriculum_context` da planilha mestra (`current_lesson` + `prior_lessons` relevantes).
-5. Classificar os conceitos da aula conforme `FLASHCARDS.md` e preencher a matriz de ganho em `release_gate.concepts[]`.
-6. Rodar o gate do ganho da aula antes da autoria:
+Somente depois da E1 aprovada:
+
+1. Ler `FLASHCARDS.md`.
+2. Ler `EXEMPLARES-CARDS.md`.
+3. Extrair `curriculum_context` da planilha mestra (`current_lesson` + aulas anteriores relevantes).
+4. Classificar os claims da aula por `learning_role` e preencher `release_gate.concepts[]`.
+5. Rodar:
    `python flashcards/scripts/validar_ganho_aula.py <deck-data.json>`
-7. Congelar o núcleo de retenção e o `card_budget_hard_max`.
-8. Autorar somente os cards autorizados pela matriz.
-9. Validar 100% dos cards:
+6. Congelar o núcleo de retenção e `card_budget_hard_max`.
+7. Autorar somente cards autorizados pela matriz de ganho.
+8. Validar 100% dos cards:
    `python flashcards/scripts/validar_deck_card_a_card.py <deck-data.json> --out <validation.json>`
-10. Fazer a revisão final do conjunto depois da última alteração.
-11. Finalizar a entrega:
-   `python flashcards/scripts/finalizar_entrega_canonica.py --slug <slug> --deck-data <deck-data.json> --validation-report <validation.json> --out-dir <pasta>`
-12. Entregar somente os artefatos visíveis finais.
+9. Fazer revisão independente do conjunto final, ligada ao hash exato do lote.
 
-## Saída canônica
+Para selecionar cards, usar somente materiais da aula atual, E1 aprovada e planilha mestra. Não consultar decks anteriores para inferir o que o aluno já estudou.
 
-Cada aula entrega:
+## Fase C — entrega
+
+Finalizar com:
+
+`python flashcards/scripts/finalizar_entrega_canonica.py --slug <slug> --deck-data <deck-data.json> --validation-report <validation.json> --out-dir <pasta>`
+
+A saída visível é:
 
 - `<Aula> - E1.pdf`;
 - `<slug>.apkg` pronto para importar diretamente no Anki/AnkiDroid.
 
-O backend canônico é **APKG offline**. Companion, manifesto AnkiDroid e AnkiConnect não fazem parte do fluxo normal.
+O backend canônico é APKG offline. Companion, manifesto AnkiDroid e AnkiConnect não fazem parte do fluxo normal.
 
-O APKG deve ser gerado por `flashcards/scripts/exportar_apkg_canonico.py` e reaberto/auditado por `flashcards/scripts/audit_apkg.py` antes da entrega.
-
-## Regras operacionais importantes
-
-- não escrever cards durante a primeira leitura;
-- não criar card antes de a matriz de ganho estar classificada;
-- não alterar cards depois da validação sem gerar novo relatório;
-- regressões de feedback fazem parte da CI obrigatória;
-- qualquer falha no gate de ganho, validação card-a-card, release da E1 ou auditoria APKG bloqueia a entrega;
-- `card_key` é identidade estável: correções de conteúdo não devem criar uma nova identidade lógica para o mesmo card.
+O `.apkg` deve ser gerado por `flashcards/scripts/exportar_apkg_canonico.py`, reaberto e auditado por `flashcards/scripts/audit_apkg.py`. A entrega é bloqueada se a estrutura legada do pacote não for compatível com o schema aceito pelo importador atual do Anki.
 
 ## Fonte de verdade
 
-Se houver conflito entre documentos antigos e os arquivos acima, prevalecem:
+Em caso de conflito:
 
-1. `FLASHCARDS.md` para política de cards;
-2. `EXEMPLARES-CARDS.md` para exemplos;
-3. `CLAUDE.md` para execução;
-4. `config/pipeline.json` e os validadores para invariantes mecânicos.
+1. `docs/canon/E1.md` governa a E1;
+2. `EXEMPLARES.md`/`ANTI-EXEMPLARES.md` calibram a E1;
+3. `FLASHCARDS.md` governa os cards;
+4. `EXEMPLARES-CARDS.md` exemplifica os cards;
+5. `CLAUDE.md` governa a ordem operacional;
+6. `config/pipeline.json` e validadores governam invariantes mecânicos.
+
+Uma declaração de revisão não substitui evidência. Se a E1, os cards ou o pacote mudarem depois da revisão correspondente, a evidência anterior deixa de valer.
