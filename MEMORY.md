@@ -1,10 +1,10 @@
 # MEMORY.md — estado vivo do NEBLI
 
-Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
+Atualizado em 2026-08-17. Histórico e regras antigas permanecem em `docs/legacy/` e no Git.
 
 ## Estado atual
 
-- Pipeline canônico: `e1-deck-v10`.
+- Pipeline canônico: `e1-deck-v12`.
 - Deck-Aula = núcleo mínimo de retenção, com slots prévios à busca, cards de até 10 s e revisão de compressão/ablação; detalhes deriváveis não recebem cards próprios.
 - A entrega só libera com `nebli-e1-deck-release-v1`: E1 fonte/PDF congeladas,
   revisão semântica independente, core nuclear 100% coberto e todo card ligado a
@@ -39,7 +39,8 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Decisões vigentes de card
 
-- Ordem: AnKing adequado → deck externo adequado → autoral.
+- Autoral direto: `authored_only` dispensa busca externa, e o Companion recusa
+  manifesto com `source=anking`/`external_deck`.
 - Um card = uma recuperação independente, específica e relevante.
 - Todo card deve ter âncora literal na E1.
 - Não criar cards por cota; respeitar teto congelado da aula.
@@ -49,6 +50,40 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - Card autoral procura primeiro mídia local do AnKing; slide/externa exige rejeição documentada. Toda imagem exige propósito cognitivo, crédito e QA didático.
 - AnKing/deck externo nunca é reescrito e a fonte nunca é modificada.
 
+## Gates que medem em vez de acreditar
+
+Desde v12, o validador não aceita declaração no lugar de evidência:
+
+- idioma medido **só na frente** — Extra em português não compensa frente inglesa;
+- `cue_quality` com papel do cloze e revisão cega, aplicado de verdade
+  (a função existia e nunca era chamada);
+- resposta abstrata, resposta com alternativas (`x ou y`) e termo ausente da
+  âncora da E1 bloqueiam;
+- card cuja informação discriminante mora só no Extra bloqueia;
+- contrato de ablação por card: `memory_gain`, `ablation_loss`, `why_not_e1_only`
+  e `confusion_target`; perda que só reformula o card bloqueia;
+- `card_budget_hard_max` ausente bloqueia — o teto nunca deriva da contagem;
+- duplicação funcional por resposta e por alvo exige `derivation_rationale`;
+- IO exige `visual_evidence` com previews hasheados, `crop_ratio`, varredura de
+  texto e termos proibidos cobrindo as respostas.
+
+## Feedback do usuário
+
+- Comentário e resposta sobrevivem à recriação da nota: `installOne` lê o
+  feedback antes do delete e o recibo registra `feedback_carried`/`feedback_lost`.
+- Note type IO é `NEBLI Image Occlusion v2`, com `NEBLI_Comentario`,
+  `NEBLI_Resposta` e `NEBLI_Historico`.
+- `ler_comentarios.py` acha comentário por campo preenchido, não só por tag, e
+  **nunca apaga** o comentário ao responder.
+- Todo comentário vira entrada em `flashcards/tests/feedback_regressions.json`,
+  e o teste roda cada exemplo reprovado contra o gate real.
+
+## Auditoria
+
+- `audit_apkg.py --deck "<deck>"` audita uma aula, não a coleção.
+- `apkg_utils.models_map` popula campos no schema novo do Anki; sem isso a
+  auditoria era estruturalmente cega em qualquer `.apkg` recente.
+
 ## Validação
 
 - Gate final é **card a card, sem amostragem**.
@@ -56,6 +91,14 @@ Atualizado em 2026-08-11. Histórico e regras antigas permanecem em `docs/legacy
 - CI mantém regressão realista de 40 cards, mas uma aula real valida o número real do deck.
 - Um único card inválido bloqueia o lote.
 - O recibo do Companion precisa confirmar `installed_card_count == expected_card_count`.
+
+## Pendência conhecida
+
+- O deck UC03 no AnkiDroid é anterior a estes gates: frentes em inglês, clozes
+  genéricos, IO com resposta duplicada e notas sem `tier`/`concept`. Regenerar
+  aula por aula, começando por Radiologia (20 cards).
+- O Companion foi alterado sem compilar (sem Android SDK no ambiente da
+  correção). Rodar `gradle test` antes de gerar o APK.
 
 ## Próxima corrida real
 

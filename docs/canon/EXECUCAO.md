@@ -12,13 +12,13 @@ A entrada é o conjunto de materiais da aula. A saída visível é o PDF da E1 e
 4. Compilar, renderizar e revisar todas as páginas; preencher o ledger de figuras ou justificar a ausência delas.
 5. Congelar o núcleo de retenção antes da autoria. Aplicar compressão e ablação; não preencher cotas.
 6. Criar somente cards `source=authored` e `source=io`, integralmente em português. Não executar busca AnKing/deck externo.
-7. Rodar `validar_release_e1_deck.py` e `validar_deck_card_a_card.py --out validation-report.json`.
+7. Rodar `validar_release_e1_deck.py` e `validar_deck_card_a_card.py --out validation-report.json`. O validador mede o idioma na frente, aplica o gate cognitivo, o contrato de ablação, o teto congelado, a duplicação funcional e as regressões de feedback já registradas.
 8. Rodar `finalizar_entrega_canonica.py`. Ele rejeita mudança posterior de card, ordem, conjunto, E1 ou mídia.
 9. Abrir o manifesto no Companion 0.8.0+ e conferir o recibo: contagens iguais, deck selecionado, mídia funcional, idempotência e rollback.
 
 ## Artefatos calculáveis
 
-O agente informa somente identidade, conteúdo, âncora, recuperação-alvo, revisão semântica compacta e dados visuais. Scripts calculam número/índice/tamanho de clozes, caracteres, idioma provável, resposta visível, contagens e hashes. O `content_sha256` cobre o conteúdo que afeta aprendizagem/renderização; o relatório e o manifesto carregam também o hash do conjunto ordenado e hashes de mídia.
+O agente informa identidade, conteúdo, âncora, recuperação-alvo, revisão semântica compacta, `cue_quality`, o contrato de ablação, os dados visuais com `visual_evidence` e o teto congelado do lote. Scripts calculam número/índice/tamanho de clozes, caracteres, idioma provável, resposta visível, contagens e hashes. O `content_sha256` cobre o conteúdo que afeta aprendizagem/renderização; o relatório e o manifesto carregam também o hash do conjunto ordenado e hashes de mídia.
 
 ## Definição de pronto
 

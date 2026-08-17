@@ -5,7 +5,7 @@ CFG=Path(__file__).parents[2]/'config'/'pipeline.json'
 
 def test_authored_only_is_mechanical_authority():
     c=json.loads(CFG.read_text())
-    assert c['pipeline_version']=='e1-deck-v11'
+    assert c['pipeline_version']=='e1-deck-v12'
     assert c['card_source_mode']=='authored_only'
     assert c['source_priority']==['authored','io']
     assert c['anking']=={'status':'suspended','preserve_infrastructure':True,'allow_runtime_lookup':False,'require_search_before_authorship':False,'allow_source_copy':False}

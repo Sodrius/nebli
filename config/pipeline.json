@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v11",
+  "pipeline_version": "e1-deck-v12",
   "card_source_mode": "authored_only",
   "anking": {
     "status": "suspended",

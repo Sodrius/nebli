@@ -399,7 +399,7 @@ documentos ativos ainda mandam consultar AnKing:
 - `docs/canon/PRODUTO-DECK-AULA.md:33` — "AnKing/decks externos consultados antes
   de autorar", na definição de pronto;
 - `docs/canon/COBERTURA-E-STEP1.md:7` — AnKing como autoridade ativa de profundidade;
-- `ERROS.md` — regras 5, 14–15, 46 e 48–50.
+- `ERROS.md` — as regras de busca, cópia e resolução AnKing.
 
 Mover para uma seção explicitamente condicional ("aplicável somente quando
 `anking.status = active`"). Manter o texto — apagar seria perder trabalho — mas
