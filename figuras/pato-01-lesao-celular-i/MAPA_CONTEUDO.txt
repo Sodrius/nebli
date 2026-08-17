@@ -1,0 +1,26 @@
+# MAPA_CONTEUDO -- pato-01-lesao-celular-i
+# Fonte: 04ad6cd8-G__Transcri__o_de_Aula_em_PDF__Parte_1__Les_o_Celular__PT__Mecanismos_de_Les_o_e_Morte_Celular_1.pdf
+# Imagens embutidas extraidas; min 100px lado.
+
+img-p001-01.jpeg (1280x720) | pag 1 | 
+img-p003-01.jpeg (1280x720) | pag 3 | 
+img-p005-01.jpeg (1280x720) | pag 5 | 
+img-p007-01.jpeg (1280x720) | pag 7 | 
+img-p009-01.jpeg (1280x720) | pag 9 | 
+img-p011-01.jpeg (1280x720) | pag 11 | 
+img-p013-01.jpeg (1280x720) | pag 13 | 
+img-p015-01.jpeg (1280x720) | pag 15 | 
+img-p017-01.jpeg (1280x720) | pag 17 | 
+img-p019-01.jpeg (1280x720) | pag 19 | 
+img-p021-01.jpeg (1280x720) | pag 21 | 
+img-p023-01.jpeg (1280x720) | pag 23 | 
+img-p025-01.jpeg (1280x720) | pag 25 | 
+img-p027-01.jpeg (1280x720) | pag 27 | 
+img-p029-01.jpeg (1280x720) | pag 29 | 
+img-p031-01.jpeg (1280x720) | pag 31 | 
+img-p033-01.jpeg (1280x720) | pag 33 | 
+img-p035-01.jpeg (1280x720) | pag 35 | 
+img-p037-01.jpeg (1280x720) | pag 37 | 
+img-p039-01.jpeg (1280x720) | pag 39 | 
+img-p041-01.jpeg (1280x720) | pag 41 | 
+img-p043-01.jpeg (1280x720) | pag 43 | 

@@ -1,0 +1,147 @@
+{
+  "schema": "nebli-card-validation-v2",
+  "expected_card_count": 22,
+  "card_budget_hard_max": 25,
+  "validated_card_count": 22,
+  "passed_card_count": 22,
+  "failed_card_count": 0,
+  "ordered_card_set_sha256": "4bdf4b6917bae4c61c3aa88ab41b13988c76d5307c3c74af37ef6bf68ae8e558",
+  "media": [],
+  "duplicate_retrievals": {},
+  "report_failures": [],
+  "cards": [
+    {
+      "card_key": "c001",
+      "content_sha256": "1e53e7eba5df3b0a9816bb735f73b005c4e31388adcc0ccbdcd4f5e017bb738f",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c002",
+      "content_sha256": "af0d419b9b25cad95dd18fb69c333b914673cef4eccd99aeb96a18d9d5f41ef1",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c003",
+      "content_sha256": "372d6b0be03d17a15a564b0e917cfef5116f587c28b90ddb17111705aaa3eee7",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c004",
+      "content_sha256": "80364b092475c1310fd87dc9c5c709fdf658e7ecb45478f6edaf63f4d7af0b24",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c005",
+      "content_sha256": "ebf475fa3153fe875c0af03491afaf39f4450e54eef5d60f13d86caa1f1ca31d",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c006",
+      "content_sha256": "157415993e7db079d5df2b35601d2426b5f68f297458ec3f42e043d45eeb4721",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c007",
+      "content_sha256": "288dff24b452655226e3f327b08f45a1cf9b023c9e5a841deb4e0f39b430a776",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c008",
+      "content_sha256": "1338927962089dd966e58b2d8d126d618b41394f0c43fd44e5d7aaf82324d6ac",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c009",
+      "content_sha256": "6e70ad3a305070f9aeb27f74fbfecea9d2cd2db02624252d7225db79735c1847",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c010",
+      "content_sha256": "0830a93bde0e6388e99d086c0bcd4f0cd40e6ff77639ccb8456423f210aed51a",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c011",
+      "content_sha256": "2130d20ddb9cad2c7954cd5bd0d4c8fe870656279fcdef6b92afbb6e2e554a3a",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c012",
+      "content_sha256": "55a6485ee41e64551fb79c2d38b04b0d99701d335a4381eeee6a00597b52641c",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c013",
+      "content_sha256": "fa228ddd72454a6816484cfa92f726aa48f03e9fd07a89fd302d359e35cfab21",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c014",
+      "content_sha256": "dc50a9f1bc1ce9f96cfb0e6eec66b8f0684d2268137f3c3e45f19cc399ec16ee",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c015",
+      "content_sha256": "da51e951f758380b856fdcc1434726371b696c06f4b4d6a5518deec7ceb0ce3f",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c016",
+      "content_sha256": "8956fbe327936d35d9fcfc24d2b34ed1bb5a32d2185d8279d9fe9cc4dbb12798",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c017",
+      "content_sha256": "07a5f6cd8dfb726689907e99127350279b87f6f7e77cadbc2db9d16770c3ec07",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c018",
+      "content_sha256": "100ca94e2b2f8e82ea41f7907a331315b4066bf82a6a5439630b860f2f9d6a80",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c019",
+      "content_sha256": "53a3d3a9642c9c4dfc3e9cc39ed4336fe4d37752dd4162f4bd5ccfc514a3e9ba",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c020",
+      "content_sha256": "8957b16c1820340c84941e0bed2635a344f43145e7a9ce37e272db38ccb1a39d",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c021",
+      "content_sha256": "8cbb547363a766ab95e0af39f91a4726273ce436dde284c69af619727af71a05",
+      "result": "passed",
+      "failures": []
+    },
+    {
+      "card_key": "c022",
+      "content_sha256": "cd55d68d0bf0368a6b098fcf2f68170dda120073505ca6e6ed5727da61f657f4",
+      "result": "passed",
+      "failures": []
+    }
+  ],
+  "ok": true
+}

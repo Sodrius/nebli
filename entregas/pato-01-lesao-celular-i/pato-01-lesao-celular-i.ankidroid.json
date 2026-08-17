@@ -1,0 +1,1168 @@
+{
+  "schema": "nebli-ankidroid-deck-v3",
+  "pipeline_version": "e1-deck-v11",
+  "minimum_companion_version": "0.8.0",
+  "minimum_companion_version_code": 13,
+  "required_capabilities": [
+    "authored_cards",
+    "image_occlusion_hide_two_guess_two",
+    "content_hash_validation",
+    "transactional_install"
+  ],
+  "generated_at": "2026-08-17T15:50:32.624085+00:00",
+  "lesson_slug": "pato-01-lesao-celular-i",
+  "deck_identity": {
+    "uc": "UC03",
+    "prova": "P1",
+    "componente": "Patologia",
+    "nome_curto": "Lesão Celular — Mecanismos de Lesão"
+  },
+  "target_deck": "NEBLI::UC03::P1::Patologia::Lesão Celular — Mecanismos de Lesão",
+  "optional_subdeck": "NEBLI::UC03::P1::Patologia::Lesão Celular — Mecanismos de Lesão::Optional",
+  "expected_card_count": 22,
+  "write_prefix": "NEBLI::",
+  "card_source_mode": "authored_only",
+  "mutate_source": false,
+  "open_ankidroid_after_install": true,
+  "card_quality_contract": "nebli-card-quality-v2",
+  "cards": [
+    {
+      "card_key": "c001",
+      "concept_id": "criterios-de-irreversibilidade",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Os dois critérios que tornam a lesão irreversível são a destruição excessiva de DNA e proteínas e a perda de {{c1::permeabilidade}} da membrana.",
+      "extra": "Enquanto a membrana ainda retém o conteúdo celular, retirar o agressor devolve a célula ao normal. Na hipóxia essa perda vem primeiro; nos grandes danos genéticos, o DNA é destruído antes. Antes da lesão existe ainda a adaptação — hipertrofia cardíaca na hipertensão, atrofia por desuso —, possível só com estímulo leve e prolongado.",
+      "e1_anchor": "os dois critérios que tornam a lesão irreversível são a destruição excessiva de DNA e proteínas e a perda de permeabilidade da membrana",
+      "retrieval_target": "Recuperar qual falha de membrana entra como critério de irreversibilidade.",
+      "semantic_review": {
+        "ambiguity": "A frente pede o segundo critério do par, e só um termo de membrana completa a lacuna.",
+        "anti_induction": "Exige saber que o critério é funcional, não morfológico; nenhuma pista gramatical entrega a resposta.",
+        "duplicate_check": "Nenhum outro card do lote recupera o critério de membrana."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "discriminador",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "integridade estrutural",
+          "potencial de membrana",
+          "ruptura mecânica"
+        ],
+        "ambiguity_review": "Revisão cega: com o par citado e a membrana nomeada, a única resposta médica possível é a perda de permeabilidade."
+      },
+      "memory_gain": "Fixa o par exato que define irreversibilidade, no lugar de uma noção vaga de dano grave.",
+      "ablation_loss": "Sem ele, troponina no sangue e ausência de núcleo viram achados soltos, sem o critério comum que os une.",
+      "why_not_e1_only": "É o critério que organiza a leitura clínica inteira da aula e precisa estar disponível em segundos, não relido.",
+      "confusion_target": "Tratar membrana deformada, com blebs e edema, como membrana já permeável.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 144,
+        "extra_words": 54,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "1e53e7eba5df3b0a9816bb735f73b005c4e31388adcc0ccbdcd4f5e017bb738f",
+      "card_sha256": "1e53e7eba5df3b0a9816bb735f73b005c4e31388adcc0ccbdcd4f5e017bb738f"
+    },
+    {
+      "card_key": "c002",
+      "concept_id": "enzima-intracelular-no-sangue",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Enzima intracelular encontrada na circulação sanguínea significa lesão celular {{c1::irreversível}}.",
+      "extra": "Troponina e creatina quinase MB vivem dentro do cardiomiócito; para chegarem ao sangue, a membrana precisou deixar de reter o conteúdo. A mesma leitura vale para amilase e lipase na pancreatite. A coleta é seriada porque a mioglobina sobe e cai cedo, enquanto a troponina permanece elevada por dias.",
+      "e1_anchor": "enzima intracelular encontrada na circulação sanguínea significa lesão celular irreversível",
+      "retrieval_target": "Recuperar o que a presença de enzima intracelular no sangue prova sobre o estado da lesão.",
+      "semantic_review": {
+        "ambiguity": "A pista é a localização anormal da enzima, e ela determina um único desfecho.",
+        "anti_induction": "Exige ligar vazamento enzimático a ruptura de barreira; sem esse elo a frase não se resolve.",
+        "duplicate_check": "Recuperação distinta da de c001, que pede o critério, não a conclusão clínica."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "lesão reversível",
+          "inflamação sem morte celular"
+        ],
+        "ambiguity_review": "Revisão cega: enzima intracelular fora da célula só é compatível com perda de permeabilidade, portanto irreversibilidade."
+      },
+      "memory_gain": "Transforma um achado laboratorial corriqueiro em leitura direta do critério de membrana.",
+      "ablation_loss": "Sem ele, o aluno decora valores de troponina sem saber o que a elevação prova sobre o critério de barreira.",
+      "why_not_e1_only": "É a regra que o plantão cobra em segundos diante de um exame, e não pode depender de reabrir a apostila.",
+      "confusion_target": "Ler troponina elevada como marcador de isquemia em geral, e não de morte celular.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 100,
+        "extra_words": 49,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "af0d419b9b25cad95dd18fb69c333b914673cef4eccd99aeb96a18d9d5f41ef1",
+      "card_sha256": "af0d419b9b25cad95dd18fb69c333b914673cef4eccd99aeb96a18d9d5f41ef1"
+    },
+    {
+      "card_key": "c003",
+      "concept_id": "angina-versus-infarto",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Dor torácica isquêmica sem elevação de troponina corresponde a lesão miocárdica ainda reversível, quadro chamado {{c1::angina}}.",
+      "extra": "Restabelecida a oxigenação, o miocárdio volta às funções normais e não há morte celular. Troponina elevada já indica infarto, ou seja, o outro lado do ponto de retorno. Nem toda lesão irreversível é isquêmica: o vírus destrói o hepatócito na hepatite aguda, e na tuberculose a resposta imune destrói a célula infectada.",
+      "e1_anchor": "este quadro de dor torácica sem morte celular chama-se angina",
+      "retrieval_target": "Recuperar o nome do quadro de dor torácica isquêmica que ainda não teve morte celular.",
+      "semantic_review": {
+        "ambiguity": "A combinação de dor isquêmica com troponina normal nomeia um único quadro.",
+        "anti_induction": "Exige saber que a troponina separa os dois quadros; a frase sozinha não sugere o rótulo.",
+        "duplicate_check": "Nenhum outro card recupera o nome do quadro reversível."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "infarto sem supra",
+          "pericardite"
+        ],
+        "ambiguity_review": "Revisão cega: dor isquêmica com troponina normal e lesão reversível corresponde a angina, sem alternativa concorrente."
+      },
+      "memory_gain": "Amarra um rótulo clínico de uso diário ao conceito de lesão reversível.",
+      "ablation_loss": "Sem ele, a distinção reversível/irreversível fica abstrata e não chega ao paciente com dor torácica.",
+      "why_not_e1_only": "É decisão de pronto-socorro e precisa estar automática, não reconstruída a partir do texto.",
+      "confusion_target": "Chamar de infarto todo quadro de dor torácica isquêmica.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 128,
+        "extra_words": 52,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "372d6b0be03d17a15a564b0e917cfef5116f587c28b90ddb17111705aaa3eee7",
+      "card_sha256": "372d6b0be03d17a15a564b0e917cfef5116f587c28b90ddb17111705aaa3eee7"
+    },
+    {
+      "card_key": "c004",
+      "concept_id": "nucleo-ausente-na-histologia",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "No túbulo renal lesado, a ausência de {{c1::núcleo}} nas células marca a passagem para a lesão irreversível.",
+      "extra": "Na lesão reversível as células estão tumefeitas e perderam microvilosidades, mas os núcleos permanecem corados; à microscopia eletrônica, a cromatina já começa a condensar antes de o núcleo sumir. Perdido o núcleo, o epitélio só se recupera por proliferação de células novas.",
+      "e1_anchor": "no túbulo renal, a ausência de núcleo nas células marca a passagem para a lesão irreversível",
+      "retrieval_target": "Recuperar o achado que marca irreversibilidade na lâmina do túbulo renal.",
+      "semantic_review": {
+        "ambiguity": "A frente localiza o tecido e pede um achado único da lâmina.",
+        "anti_induction": "Exige reconhecer o que muda entre os painéis B e C da histologia; nada na frase entrega a estrutura.",
+        "duplicate_check": "Nenhum outro card recupera um achado de microscopia do túbulo."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "discriminador",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "borda em escova",
+          "citoplasma eosinofílico"
+        ],
+        "ambiguity_review": "Revisão cega: entre os achados possíveis do túbulo, só a perda nuclear é critério de morte celular."
+      },
+      "memory_gain": "Dá ao aluno um critério visual objetivo para separar lesão reversível de morte na lâmina.",
+      "ablation_loss": "Sem ele, o aluno reconhece edema tubular mas não sabe dizer se aquelas células ainda voltam.",
+      "why_not_e1_only": "Reconhecimento de lâmina é habilidade de prova prática e depende de recuperação rápida, não de leitura.",
+      "confusion_target": "Tomar a perda de microvilosidades, que é reversível, como sinal de morte celular.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 108,
+        "extra_words": 42,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "80364b092475c1310fd87dc9c5c709fdf658e7ecb45478f6edaf63f4d7af0b24",
+      "card_sha256": "80364b092475c1310fd87dc9c5c709fdf658e7ecb45478f6edaf63f4d7af0b24"
+    },
+    {
+      "card_key": "c005",
+      "concept_id": "ordem-de-deteccao-dos-achados",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na lesão celular, as alterações {{c1::ultraestruturais}} aparecem depois das bioquímicas e antes das de microscópio de luz.",
+      "extra": "A ordem completa é função, bioquímica, ultraestrutura, microscópio de luz e macroscopia. Como o olho só alcança as duas últimas, enxergar um infarto a olho nu já é enxergá-lo irreversível.",
+      "e1_anchor": "Depois delas aparecem as alterações ultraestruturais, que só o microscópio eletrônico revela.",
+      "retrieval_target": "Recuperar qual etapa entra entre as alterações bioquímicas e as de microscópio de luz.",
+      "semantic_review": {
+        "ambiguity": "A frente fixa os dois vizinhos da sequência e pede o elo do meio.",
+        "anti_induction": "Exige conhecer a curva de detecção; a posição não é dedutível da frase.",
+        "duplicate_check": "Nenhum outro card recupera a ordem temporal dos achados."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "direcao",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "alterações macroscópicas",
+          "perda de função"
+        ],
+        "ambiguity_review": "Revisão cega: entre bioquímica e microscópio de luz só cabe a ultraestrutura, detectada por microscopia eletrônica."
+      },
+      "memory_gain": "Converte a curva efeito × duração numa sequência recuperável em segundos.",
+      "ablation_loss": "Sem ele, o aluno perde a justificativa temporal do diagnóstico precoce e da dosagem seriada de marcadores.",
+      "why_not_e1_only": "É a base para entender por que macroscopia chega tarde, e uma sequência só se retém por recuperação repetida.",
+      "confusion_target": "Supor que o microscópio de luz detecta a lesão reversível tão bem quanto a eletrônica.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 123,
+        "extra_words": 30,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "ebf475fa3153fe875c0af03491afaf39f4450e54eef5d60f13d86caa1f1ca31d",
+      "card_sha256": "ebf475fa3153fe875c0af03491afaf39f4450e54eef5d60f13d86caa1f1ca31d"
+    },
+    {
+      "card_key": "c006",
+      "concept_id": "edema-celular-microscopia-de-luz",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Ao microscópio de luz, o achado que caracteriza a lesão celular reversível é o {{c1::edema}} celular.",
+      "extra": "No máximo aparece também alteração gordurosa, a esteatose, que é inespecífica. A riqueza morfológica da lesão reversível está na ultraestrutura, não no microscópio de luz.",
+      "e1_anchor": "Ao microscópio de luz, o achado que caracteriza a lesão celular reversível é o edema celular",
+      "retrieval_target": "Recuperar o achado de microscópio de luz próprio da lesão reversível.",
+      "semantic_review": {
+        "ambiguity": "A frente limita o método e o estado da lesão, e um único achado responde.",
+        "anti_induction": "Exige saber o que a lesão reversível mostra em rotina; a frase não sugere o termo.",
+        "duplicate_check": "Distinto de c004, que recupera achado de irreversibilidade."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "esteatose",
+          "cariólise",
+          "hipereosinofilia"
+        ],
+        "ambiguity_review": "Revisão cega: entre os achados de rotina, o característico da lesão reversível é a tumefação, e a esteatose é apenas eventual."
+      },
+      "memory_gain": "Dá o achado que o aluno vai procurar primeiro numa lâmina de lesão reversível.",
+      "ablation_loss": "Sem ele, o aluno sabe que a lesão reversível é pobre em rotina mas não sabe o que efetivamente procurar.",
+      "why_not_e1_only": "É item de prova prática e teórica, e reconhecimento rápido só se constrói recuperando.",
+      "confusion_target": "Esperar encontrar na rotina os blebs e as mitocôndrias edemaciadas, que são ultraestruturais.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 101,
+        "extra_words": 25,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "157415993e7db079d5df2b35601d2426b5f68f297458ec3f42e043d45eeb4721",
+      "card_sha256": "157415993e7db079d5df2b35601d2426b5f68f297458ec3f42e043d45eeb4721"
+    },
+    {
+      "card_key": "c007",
+      "concept_id": "blebs-e-ultraestrutura-reversivel",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A perda do acoplamento entre a membrana plasmática e o citoesqueleto faz a membrana se soltar em bolhas chamadas {{c1::blebs}}.",
+      "extra": "É a alteração ultraestrutural mais característica da lesão reversível e nasce da queda de ATP: sem energia a bomba de sódio falha, entra água e a membrana perde a ancoragem no esqueleto interno.",
+      "e1_anchor": "a membrana se solta em bolhas na superfície da célula, e essas bolhas se chamam blebs",
+      "retrieval_target": "Recuperar o nome das bolhas de membrana que surgem na lesão reversível.",
+      "semantic_review": {
+        "ambiguity": "A frente descreve o mecanismo exato e pede o rótulo correspondente.",
+        "anti_induction": "Exige o vocabulário morfológico da lesão reversível; a descrição não contém o termo.",
+        "duplicate_check": "Nenhum outro card recupera esse rótulo."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "vesículas citoplasmáticas",
+          "corpos apoptóticos"
+        ],
+        "ambiguity_review": "Revisão cega: bolhas por desacoplamento membrana-citoesqueleto têm um único nome consagrado."
+      },
+      "memory_gain": "Liga um termo que aparece solto nos slides ao mecanismo que o produz.",
+      "ablation_loss": "Sem ele, o termo vira palavra decorada sem a causa, e o aluno não o distingue de vesícula ou corpo apoptótico.",
+      "why_not_e1_only": "É rótulo de alta frequência em prova e o tipo de item que a E1 não fixa sozinha.",
+      "confusion_target": "Confundir blebs de lesão reversível com as vesículas citoplasmáticas da lesão irreversível.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 127,
+        "extra_words": 33,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "288dff24b452655226e3f327b08f45a1cf9b023c9e5a841deb4e0f39b430a776",
+      "card_sha256": "288dff24b452655226e3f327b08f45a1cf9b023c9e5a841deb4e0f39b430a776"
+    },
+    {
+      "card_key": "c008",
+      "concept_id": "sensibilidade-celular-diferencial",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O tempo de lesão reversível antes da irreversibilidade é curtíssimo em células sensíveis como o {{c1::neurônio}}.",
+      "extra": "A linha que separa reversível de irreversível muda de lugar conforme o tipo celular: mais à direita nas células resistentes, quase na origem no tecido nervoso. Por isso poucos minutos de parada lesam o encéfalo.",
+      "e1_anchor": "o tempo de lesão reversível é curtíssimo em células sensíveis como o neurônio",
+      "retrieval_target": "Recuperar o tipo celular com a menor janela de lesão reversível.",
+      "semantic_review": {
+        "ambiguity": "A frente pede a célula de menor tolerância, e a resposta é única na aula.",
+        "anti_induction": "Exige conhecer a sensibilidade diferencial dos tecidos à isquemia.",
+        "duplicate_check": "Nenhum outro card trata de tolerância celular à isquemia."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "valor",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "cardiomiócito",
+          "célula tubular renal"
+        ],
+        "ambiguity_review": "Revisão cega: entre os tecidos citados na aula, o nervoso é o de janela mais curta, sem concorrente."
+      },
+      "memory_gain": "Fixa que o ponto de retorno é uma propriedade do tecido, e não um valor único.",
+      "ablation_loss": "Sem ele, o aluno aplica a mesma janela de tempo a todos os órgãos, apagando a diferença que decide conduta.",
+      "why_not_e1_only": "É a base da urgência neurológica e precisa vir automática diante de um caso de parada.",
+      "confusion_target": "Tratar a linha de irreversibilidade como fixa e igual para todos os tecidos.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 113,
+        "extra_words": 35,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "1338927962089dd966e58b2d8d126d618b41394f0c43fd44e5d7aaf82324d6ac",
+      "card_sha256": "1338927962089dd966e58b2d8d126d618b41394f0c43fd44e5d7aaf82324d6ac"
+    },
+    {
+      "card_key": "c009",
+      "concept_id": "cascata-isquemica-fosforilacao-oxidativa",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na isquemia, a queda de ATP começa pela redução da {{c1::fosforilação oxidativa}} mitocondrial.",
+      "extra": "Sem oxigênio chegando, a cadeia respiratória fica sem aceptor final para os elétrons. A privação de oxigênio é a mais prevalente das sete causas de lesão, ao lado de agentes físicos, químicos, infecciosos, imunológicos, genéticos e nutricionais. Um terceiro ramo da cascata desprende os ribossomos e reduz a síntese proteica.",
+      "e1_anchor": "na isquemia a queda de ATP começa pela redução da fosforilação oxidativa mitocondrial",
+      "retrieval_target": "Recuperar o primeiro passo mitocondrial que derruba o ATP na isquemia.",
+      "semantic_review": {
+        "ambiguity": "A frente pede o processo mitocondrial inicial, e só um responde.",
+        "anti_induction": "Exige ligar falta de oxigênio à cadeia respiratória; a frase não nomeia o processo.",
+        "duplicate_check": "Nenhum outro card recupera o passo inicial da cascata."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "ciclo de Krebs",
+          "glicólise anaeróbica"
+        ],
+        "ambiguity_review": "Revisão cega: o passo que depende diretamente do oxigênio e cai primeiro é a fosforilação oxidativa."
+      },
+      "memory_gain": "Ancora toda a cascata isquêmica num nó inicial identificável.",
+      "ablation_loss": "Sem ele, os três ramos da cascata ficam sem origem comum e viram três listas independentes.",
+      "why_not_e1_only": "É o ponto a partir do qual o aluno reconstrói edema, acidose e queda de síntese proteica de memória.",
+      "confusion_target": "Achar que a isquemia bloqueia primeiro a glicólise, e não a cadeia dependente de oxigênio.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          2
+        ],
+        "front_characters": 95,
+        "extra_words": 50,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "6e70ad3a305070f9aeb27f74fbfecea9d2cd2db02624252d7225db79735c1847",
+      "card_sha256": "6e70ad3a305070f9aeb27f74fbfecea9d2cd2db02624252d7225db79735c1847"
+    },
+    {
+      "card_key": "c010",
+      "concept_id": "falencia-da-bomba-de-sodio",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Toda a alteração ultraestrutural da lesão isquêmica reversível decorre da queda de ATP que desliga a bomba de {{c1::sódio}}.",
+      "extra": "Sem ATP a bomba desacelera: entra sódio e água, sai potássio e começa a entrar cálcio. Daí saem o edema celular, a dilatação do retículo, os blebs e a perda de microvilosidades.",
+      "e1_anchor": "Toda a alteração ultraestrutural da lesão reversível decorre, no fundo, da falência da bomba de sódio por queda de ATP.",
+      "retrieval_target": "Recuperar qual bomba, ao falhar, gera a morfologia inteira da lesão reversível.",
+      "semantic_review": {
+        "ambiguity": "A frente pede a bomba responsável, e a morfologia citada aponta para uma só.",
+        "anti_induction": "Exige saber qual transportador consome ATP e governa o volume celular.",
+        "duplicate_check": "Distinto de c007, que recupera o rótulo da bolha, não a bomba que a origina."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "bomba de cálcio do retículo",
+          "ATPase de próton"
+        ],
+        "ambiguity_review": "Revisão cega: a bomba cuja falha produz influxo de água e edema é a de sódio e potássio."
+      },
+      "memory_gain": "Reduz uma lista de achados ultraestruturais a uma única causa recuperável.",
+      "ablation_loss": "Sem ele, edema, blebs e perda de microvilosidades continuam sendo itens avulsos de decoreba.",
+      "why_not_e1_only": "É o elo que economiza memória: um card substitui a memorização de quatro achados soltos.",
+      "confusion_target": "Atribuir o edema celular ao acúmulo de cálcio em vez da falência da bomba de sódio.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 124,
+        "extra_words": 32,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "0830a93bde0e6388e99d086c0bcd4f0cd40e6ff77639ccb8456423f210aed51a",
+      "card_sha256": "0830a93bde0e6388e99d086c0bcd4f0cd40e6ff77639ccb8456423f210aed51a"
+    },
+    {
+      "card_key": "c011",
+      "concept_id": "glicolise-anaerobica-e-acidose",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A acidose intracelular da glicólise anaeróbica leva o núcleo a condensar a {{c1::cromatina}}, como proteção do DNA.",
+      "extra": "A glicólise anaeróbica consome glicogênio e produz ácido lático, mas a queda de pH tem também componente metabólico sistêmico. Condensar não é destruir: a cromatina condensada ainda é lesão reversível.",
+      "e1_anchor": "a acidose intracelular leva o núcleo a condensar a cromatina, uma reação de proteção do DNA num ambiente mais ácido",
+      "retrieval_target": "Recuperar o que o núcleo faz em resposta à acidose da lesão isquêmica.",
+      "semantic_review": {
+        "ambiguity": "A frente pede a resposta nuclear à acidose, e ela é única.",
+        "anti_induction": "Exige saber que a condensação é reação protetora, não dano; nada na frase entrega o termo.",
+        "duplicate_check": "Nenhum outro card recupera resposta nuclear à acidose."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "fragmentação do DNA",
+          "cariólise"
+        ],
+        "ambiguity_review": "Revisão cega: a reação nuclear descrita para ambiente ácido na lesão reversível é a condensação da cromatina."
+      },
+      "memory_gain": "Explica um achado ultraestrutural pelo ramo metabólico que o produz.",
+      "ablation_loss": "Sem ele, a condensação da cromatina é confundida com a destruição de DNA do critério de irreversibilidade.",
+      "why_not_e1_only": "É exatamente o ponto em que o aluno erra a fronteira reversível/irreversível, e erro assim só se corrige recuperando.",
+      "confusion_target": "Ler cromatina condensada como destruição de DNA, isto é, como irreversibilidade.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 115,
+        "extra_words": 30,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "2130d20ddb9cad2c7954cd5bd0d4c8fe870656279fcdef6b92afbb6e2e554a3a",
+      "card_sha256": "2130d20ddb9cad2c7954cd5bd0d4c8fe870656279fcdef6b92afbb6e2e554a3a"
+    },
+    {
+      "card_key": "c012",
+      "concept_id": "quatro-processos-convergentes",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Além da queda de ATP, dos radicais livres e do influxo de cálcio, o quarto processo que fecha a cascata da irreversibilidade é o dano {{c1::mitocondrial}}.",
+      "extra": "Nenhum deles basta sozinho. O quadro do Robbins organiza os mesmos danos por alvo: mitocôndria, reservatórios de cálcio, membranas e proteínas mal dobradas ou DNA lesado.",
+      "e1_anchor": "quatro processos combinados empurram a lesão até a irreversibilidade: queda de ATP, produção de radicais livres, influxo de cálcio e dano mitocondrial",
+      "retrieval_target": "Recuperar o quarto processo que fecha o conjunto responsável pela irreversibilidade.",
+      "semantic_review": {
+        "ambiguity": "A frente lista três dos quatro processos e pede o que falta.",
+        "anti_induction": "Exige conhecer o conjunto fechado da aula; a frase não sugere o termo ausente.",
+        "duplicate_check": "Nenhum outro card recupera o conjunto dos quatro processos."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "discriminador",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "dano lisossômico",
+          "dano de membrana plasmática"
+        ],
+        "ambiguity_review": "Revisão cega: dados três dos quatro processos da síntese da aula, resta apenas o dano mitocondrial."
+      },
+      "memory_gain": "Dá ao aluno o índice mental da PARTE III, do qual os demais cards penduram.",
+      "ablation_loss": "Sem ele, cálcio, radicais livres e ATP viram mecanismos paralelos sem a moldura que os une.",
+      "why_not_e1_only": "É a estrutura de recuperação da aula inteira, e estrutura não se retém lendo uma vez.",
+      "confusion_target": "Achar que um único mecanismo isolado basta para tornar a lesão irreversível.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 155,
+        "extra_words": 26,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "55a6485ee41e64551fb79c2d38b04b0d99701d335a4381eeee6a00597b52641c",
+      "card_sha256": "55a6485ee41e64551fb79c2d38b04b0d99701d335a4381eeee6a00597b52641c"
+    },
+    {
+      "card_key": "c013",
+      "concept_id": "defesas-antioxidantes",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A enzima que transforma o peróxido de hidrogênio em água e oxigênio é a {{c1::catalase}}.",
+      "extra": "A superóxido dismutase converte superóxido em peróxido de hidrogênio; a glutationa peroxidase também degrada peróxido, mas sem liberar oxigênio molecular. Remover o peróxido impede a reação de Fenton. O radical sobra tanto quando falta oxigênio quanto quando ele está em excesso, e o sistema antioxidante é finito.",
+      "e1_anchor": "a enzima que transforma o peróxido de hidrogênio em água e oxigênio é a catalase",
+      "retrieval_target": "Recuperar a enzima que converte peróxido de hidrogênio em água e oxigênio.",
+      "semantic_review": {
+        "ambiguity": "A frente nomeia substrato e os dois produtos, o que distingue uma única enzima.",
+        "anti_induction": "Exige saber qual antioxidante libera oxigênio molecular; a frase não contém o nome.",
+        "duplicate_check": "Distinto de c014, que recupera a reação e não a enzima."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "glutationa peroxidase",
+          "superóxido dismutase"
+        ],
+        "ambiguity_review": "Revisão cega: entre os três antioxidantes da aula, só a catalase devolve água e oxigênio, o que exclui a glutationa peroxidase."
+      },
+      "memory_gain": "Fixa qual peça do sistema antioxidante age sobre qual substrato.",
+      "ablation_loss": "Sem ele, superóxido dismutase, catalase e glutationa peroxidase viram três nomes intercambiáveis.",
+      "why_not_e1_only": "São três enzimas de nomes parecidos numa mesma cadeia, o caso clássico em que só a recuperação separa.",
+      "confusion_target": "Trocar catalase por superóxido dismutase, que atua um passo antes na mesma cadeia.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 89,
+        "extra_words": 47,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "fa228ddd72454a6816484cfa92f726aa48f03e9fd07a89fd302d359e35cfab21",
+      "card_sha256": "fa228ddd72454a6816484cfa92f726aa48f03e9fd07a89fd302d359e35cfab21"
+    },
+    {
+      "card_key": "c014",
+      "concept_id": "reacao-de-fenton",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A reação que usa ferro para converter peróxido de hidrogênio no radical hidroxila chama-se reação de {{c1::Fenton}}.",
+      "extra": "O radical hidroxila é o mais agressivo dos três. Impedir essa reação depende de remover o peróxido antes, tarefa da catalase e da glutationa peroxidase.",
+      "e1_anchor": "converter peróxido de hidrogênio no radical hidroxila chama-se reação de Fenton",
+      "retrieval_target": "Recuperar o nome da reação que gera radical hidroxila a partir do peróxido.",
+      "semantic_review": {
+        "ambiguity": "A frente descreve reagentes e produto, e a reação tem nome próprio único.",
+        "anti_induction": "Exige o vocabulário da bioquímica do estresse oxidativo.",
+        "duplicate_check": "Distinto de c013, que recupera a enzima protetora."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "reação de Haber-Weiss",
+          "dismutação"
+        ],
+        "ambiguity_review": "Revisão cega: a conversão de peróxido em hidroxila dependente de ferro tem um único nome consagrado na aula."
+      },
+      "memory_gain": "Dá nome ao passo que fabrica o radical mais agressivo da cadeia.",
+      "ablation_loss": "Sem ele, o aluno sabe que existe hidroxila mas não sabe de onde ele vem nem por que o ferro importa.",
+      "why_not_e1_only": "É rótulo puro de alta frequência em prova, o tipo de item que a prosa não fixa.",
+      "confusion_target": "Atribuir a formação do radical hidroxila à superóxido dismutase.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 116,
+        "extra_words": 25,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "dc50a9f1bc1ce9f96cfb0e6eec66b8f0684d2268137f3c3e45f19cc399ec16ee",
+      "card_sha256": "dc50a9f1bc1ce9f96cfb0e6eec66b8f0684d2268137f3c3e45f19cc399ec16ee"
+    },
+    {
+      "card_key": "c015",
+      "concept_id": "alvos-do-radical-livre",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Sobre os lipídios, o radical livre ataca os fosfolipídios da membrana por {{c1::peroxidação}} lipídica, alterando sua permeabilidade.",
+      "extra": "Sobre as proteínas, oxida e faz perder alosteria e atividade enzimática; sobre o DNA, favorece quebra e dificulta reparo. Dos três alvos, é a membrana que aproxima o radical livre do critério de irreversibilidade.",
+      "e1_anchor": "o radical livre ataca os fosfolipídios da membrana por peroxidação lipídica, desorganizando-a e alterando sua permeabilidade",
+      "retrieval_target": "Recuperar a reação pela qual o radical livre destrói os fosfolipídios da membrana.",
+      "semantic_review": {
+        "ambiguity": "A frente fixa alvo e efeito, e o processo tem nome técnico único.",
+        "anti_induction": "Exige distinguir peroxidação de oxidação proteica; a frase não entrega o termo.",
+        "duplicate_check": "Nenhum outro card recupera o mecanismo de ataque aos lipídios."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "oxidação proteica",
+          "glicação"
+        ],
+        "ambiguity_review": "Revisão cega: o ataque do radical livre a fosfolipídios de membrana chama-se peroxidação lipídica, sem concorrente."
+      },
+      "memory_gain": "Liga o estresse oxidativo diretamente ao critério de permeabilidade da membrana.",
+      "ablation_loss": "Sem ele, o radical livre fica como um agressor genérico, sem via concreta até a perda de permeabilidade.",
+      "why_not_e1_only": "É o elo entre a PARTE III e o critério de irreversibilidade, e precisa estar pronto para uso.",
+      "confusion_target": "Achar que o dano do radical livre à membrana é o mesmo processo do dano a proteínas.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 133,
+        "extra_words": 34,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "da51e951f758380b856fdcc1434726371b696c06f4b4d6a5518deec7ceb0ce3f",
+      "card_sha256": "da51e951f758380b856fdcc1434726371b696c06f4b4d6a5518deec7ceb0ce3f"
+    },
+    {
+      "card_key": "c016",
+      "concept_id": "lesao-de-reperfusao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Depois de reperfundir o rim transplantado, a função cai antes de voltar a subir porque o excesso de oxigênio gerou {{c1::radicais livres}}.",
+      "extra": "A mitocôndria estava adaptada à escassez e as defesas antioxidantes, esgotadas. O surto peroxidou membranas, DNA e proteínas de células que estavam no limiar, e elas cruzaram o ponto de retorno.",
+      "e1_anchor": "Depois de reperfundir o rim transplantado, a função cai antes de voltar a subir porque o excesso de oxigênio gerou radicais livres",
+      "retrieval_target": "Recuperar o agente que provoca a queda de função logo após a reperfusão.",
+      "semantic_review": {
+        "ambiguity": "A frente descreve o momento exato e pede o agente do dano adicional.",
+        "anti_induction": "Exige entender que o oxigênio de volta é agressor; a frase não contém o termo.",
+        "duplicate_check": "Nenhum outro card recupera a causa do dano de reperfusão."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "trombo residual",
+          "inflamação neutrofílica"
+        ],
+        "ambiguity_review": "Revisão cega: o dano que aparece no instante do retorno do oxigênio é atribuído ao surto de radicais livres."
+      },
+      "memory_gain": "Explica um resultado contraintuitivo, a piora logo após tratar, por um mecanismo nomeável.",
+      "ablation_loss": "Sem ele, a queda de função pós-reperfusão parece erro técnico e não consequência prevista do estresse oxidativo.",
+      "why_not_e1_only": "É contraintuitivo, e conteúdo contraintuitivo é o que mais se perde quando fica só no texto.",
+      "confusion_target": "Interpretar a queda de função pós-reperfusão como falha do procedimento.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          2
+        ],
+        "front_characters": 139,
+        "extra_words": 31,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "8956fbe327936d35d9fcfc24d2b34ed1bb5a32d2185d8279d9fe9cc4dbb12798",
+      "card_sha256": "8956fbe327936d35d9fcfc24d2b34ed1bb5a32d2185d8279d9fe9cc4dbb12798"
+    },
+    {
+      "card_key": "c017",
+      "concept_id": "janela-terapeutica-da-reperfusao",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Reperfundir o miocárdio mais de {{c1::24 horas}} depois do infarto agudo traz benefício mínimo no quadro agudo.",
+      "extra": "A essa altura, as células que poderiam ser salvas já cruzaram o ponto de retorno. A mesma lógica de janela curta vale para o transplante e para a revascularização.",
+      "e1_anchor": "Reperfundir o miocárdio mais de 24 horas depois do infarto agudo traz benefício mínimo no quadro agudo",
+      "retrieval_target": "Recuperar o limite de tempo além do qual reperfundir o miocárdio deixa de compensar.",
+      "semantic_review": {
+        "ambiguity": "A frente pede um limite numérico específico do quadro agudo.",
+        "anti_induction": "Exige o dado da aula; nenhuma pista textual sugere a grandeza.",
+        "duplicate_check": "Nenhum outro card recupera valor de tempo."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "valor",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "12 horas",
+          "48 horas"
+        ],
+        "ambiguity_review": "Revisão cega: o limite ensinado na aula para benefício da reperfusão no quadro agudo é o de vinte e quatro horas."
+      },
+      "memory_gain": "Transforma o princípio de que tempo importa num número que a prova cobra.",
+      "ablation_loss": "Sem ele, o aluno guarda a ideia vaga de urgência sem o corte que decide indicar ou não o procedimento.",
+      "why_not_e1_only": "Valores numéricos são o caso mais claro de conteúdo que a prosa não fixa e a recuperação fixa.",
+      "confusion_target": "Supor que reperfundir sempre compensa, independentemente do tempo decorrido.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          2
+        ],
+        "front_characters": 111,
+        "extra_words": 29,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "07a5f6cd8dfb726689907e99127350279b87f6f7e77cadbc2db9d16770c3ec07",
+      "card_sha256": "07a5f6cd8dfb726689907e99127350279b87f6f7e77cadbc2db9d16770c3ec07"
+    },
+    {
+      "card_key": "c018",
+      "concept_id": "permeabilidade-de-transicao-e-necrose",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A abertura da permeabilidade de transição mitocondrial dissipa o potencial de membrana, impede gerar ATP e leva a célula à {{c1::necrose}}.",
+      "extra": "É uma alça de retroalimentação: sem potencial não se forma ATP, e sem crista funcionante o pouco oxigênio que chega gera ainda mais radical livre.",
+      "e1_anchor": "A abertura da permeabilidade de transição mitocondrial dissipa o potencial de membrana, impede gerar ATP e leva a célula à necrose",
+      "retrieval_target": "Recuperar a forma de morte celular que resulta da perda do potencial mitocondrial.",
+      "semantic_review": {
+        "ambiguity": "A frente descreve a rota completa e pede o desfecho, que é único.",
+        "anti_induction": "Exige separar as duas saídas mitocondriais; a frase não nomeia o desfecho.",
+        "duplicate_check": "Distinto de c019, que recupera a outra saída da mesma mitocôndria."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "apoptose",
+          "autofagia"
+        ],
+        "ambiguity_review": "Revisão cega: a rota que passa por colapso de potencial e falência energética termina em necrose, não em apoptose."
+      },
+      "memory_gain": "Separa, dentro do mesmo evento mitocondrial, a rota que leva à necrose.",
+      "ablation_loss": "Sem ele, as duas saídas da mitocôndria se confundem e a diferença necrose/apoptose perde o mecanismo.",
+      "why_not_e1_only": "É um par de rotas quase idênticas na origem, o caso em que só a recuperação impede a fusão das duas.",
+      "confusion_target": "Atribuir a necrose isquêmica à liberação de citocromo c.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 139,
+        "extra_words": 25,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "100ca94e2b2f8e82ea41f7907a331315b4066bf82a6a5439630b860f2f9d6a80",
+      "card_sha256": "100ca94e2b2f8e82ea41f7907a331315b4066bf82a6a5439630b860f2f9d6a80"
+    },
+    {
+      "card_key": "c019",
+      "concept_id": "citocromo-c-e-apoptose",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "A alteração de permeabilidade da mitocôndria libera das cristas o {{c1::citocromo c}}, que ativa enzimas pró-apoptóticas.",
+      "extra": "É a via intrínseca, ou mitocondrial, da apoptose. O mesmo evento de permeabilidade que dissipa o potencial e leva à necrose pode, por esta outra saída, levar à apoptose.",
+      "e1_anchor": "libera das cristas o citocromo c, que ativa enzimas pró-apoptóticas no citoplasma",
+      "retrieval_target": "Recuperar a proteína das cristas cuja saída dispara a via intrínseca da apoptose.",
+      "semantic_review": {
+        "ambiguity": "A frente localiza a proteína nas cristas e pede o que a mitocôndria libera.",
+        "anti_induction": "Exige conhecer a peça da cadeia respiratória que dispara apoptose.",
+        "duplicate_check": "Distinto de c018, que recupera o desfecho da outra rota."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "Bcl-2",
+          "caspase-9"
+        ],
+        "ambiguity_review": "Revisão cega: a molécula liberada das cristas mitocondriais que ativa a via intrínseca é o citocromo c."
+      },
+      "memory_gain": "Nomeia a peça que faz a ponte entre dano mitocondrial e apoptose.",
+      "ablation_loss": "Sem ele, a via intrínseca fica sem o mensageiro concreto e vira apenas a mitocôndria que decide morrer.",
+      "why_not_e1_only": "É item de altíssima frequência em prova e a ponte com a aula de apoptose.",
+      "confusion_target": "Achar que o citocromo c liberado causa necrose, e não apoptose.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          2
+        ],
+        "front_characters": 121,
+        "extra_words": 29,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "53a3d3a9642c9c4dfc3e9cc39ed4336fe4d37752dd4162f4bd5ccfc514a3e9ba",
+      "card_sha256": "53a3d3a9642c9c4dfc3e9cc39ed4336fe4d37752dd4162f4bd5ccfc514a3e9ba"
+    },
+    {
+      "card_key": "c020",
+      "concept_id": "acumulo-de-calcio-citosolico",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Na célula lesada o cálcio se acumula no citoplasma porque as bombas que o mantêm nos reservatórios dependem de {{c1::ATP}}.",
+      "extra": "Os reservatórios são o retículo endoplasmático e a mitocôndria, e há ainda a extrusão para o meio extracelular. Cálcio citoplasmático alto é lido pela célula como sinal de lesão, e o cálcio que entra na mitocôndria ainda aumenta a permeabilidade de transição.",
+      "e1_anchor": "o cálcio se acumula no citoplasma porque as bombas que o mantêm nos reservatórios dependem de ATP",
+      "retrieval_target": "Recuperar de que insumo dependem as bombas que mantêm o cálcio fora do citoplasma.",
+      "semantic_review": {
+        "ambiguity": "A frente pede o insumo do transporte ativo, e só um responde.",
+        "anti_induction": "Exige ligar a falência energética ao influxo de cálcio; a frase não entrega o termo.",
+        "duplicate_check": "Nenhum outro card recupera a causa da subida do cálcio."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "mecanismo",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "gradiente de sódio",
+          "potencial de membrana"
+        ],
+        "ambiguity_review": "Revisão cega: o transporte ativo que segura o cálcio depende de ATP, e é a queda de ATP que o libera."
+      },
+      "memory_gain": "Faz o cálcio deixar de ser um quinto mecanismo solto e virar consequência da queda de ATP.",
+      "ablation_loss": "Sem ele, o influxo de cálcio parece um evento independente, e a cascata perde a costura entre seus processos.",
+      "why_not_e1_only": "É o elo que conecta dois dos quatro processos e precisa estar disponível para reconstruir a cascata.",
+      "confusion_target": "Tratar o influxo de cálcio como causa primária, e não como consequência da falta de ATP.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 123,
+        "extra_words": 42,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "8957b16c1820340c84941e0bed2635a344f43145e7a9ce37e272db38ccb1a39d",
+      "card_sha256": "8957b16c1820340c84941e0bed2635a344f43145e7a9ce37e272db38ccb1a39d"
+    },
+    {
+      "card_key": "c021",
+      "concept_id": "enzimas-ativadas-pelo-calcio",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "O cálcio citosólico ativa proteases que rompem o {{c1::citoesqueleto}} e desancoram a membrana plasmática.",
+      "extra": "Perdem-se tanto proteínas da membrana quanto as que a prendiam ao esqueleto interno. O cálcio ativa ainda fosfolipases, endonucleases e ATPases. As quatro linhas que somadas rompem a barreira são peroxidação lipídica, queda da síntese de fosfolipídios, fosfolipases e proteases.",
+      "e1_anchor": "o cálcio citosólico ativa proteases que rompem o citoesqueleto e desancoram a membrana plasmática",
+      "retrieval_target": "Recuperar a estrutura interna que as proteases ativadas pelo cálcio destroem.",
+      "semantic_review": {
+        "ambiguity": "A frente nomeia a enzima e pede o alvo estrutural que ela destrói.",
+        "anti_induction": "Exige saber o que a protease ataca; a frase não entrega a estrutura.",
+        "duplicate_check": "Distinto de c020, que recupera a causa da subida do cálcio."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "consequencia",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "fosfolipídios de membrana",
+          "DNA nuclear"
+        ],
+        "ambiguity_review": "Revisão cega: entre os alvos das quatro enzimas, o das proteases é o citoesqueleto e as proteínas de ancoragem."
+      },
+      "memory_gain": "Mostra por que o cálcio produz dano de membrana mesmo sem tocar nos lipídios.",
+      "ablation_loss": "Sem ele, as quatro enzimas do cálcio viram uma lista sem alvo, e o dano de membrana perde uma de suas quatro linhas.",
+      "why_not_e1_only": "É o passo que explica a convergência final para a perda de permeabilidade, e precisa vir de memória.",
+      "confusion_target": "Atribuir todo o dano de membrana às fosfolipases, esquecendo a via das proteases.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 106,
+        "extra_words": 40,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "8cbb547363a766ab95e0af39f91a4726273ce436dde284c69af619727af71a05",
+      "card_sha256": "8cbb547363a766ab95e0af39f91a4726273ce436dde284c69af619727af71a05"
+    },
+    {
+      "card_key": "c022",
+      "concept_id": "dobramento-proteico-e-chaperonas",
+      "tier": "nucleo",
+      "source": "authored",
+      "text": "Proteína mal dobrada é normalmente resgatada pelo complexo das {{c1::chaperonas}}; falhando o resgate, a célula dispara apoptose.",
+      "extra": "É rota independente da cascata de ATP, radicais livres e cálcio. A doença de Creutzfeldt-Jakob, correlato humano da encefalopatia espongiforme bovina, é o exemplo clássico.",
+      "e1_anchor": "Proteína mal dobrada é normalmente resgatada pelo complexo das chaperonas, e quando esse resgate falha a célula dispara sinalizações intracelulares de morte",
+      "retrieval_target": "Recuperar o complexo que redobra a proteína com conformação errada.",
+      "semantic_review": {
+        "ambiguity": "A frente descreve a função de resgate e pede o complexo responsável.",
+        "anti_induction": "Exige o vocabulário do controle de qualidade proteico.",
+        "duplicate_check": "Nenhum outro card trata de dobramento proteico."
+      },
+      "authored_quality": {
+        "portuguese_reviewed": true
+      },
+      "cue_quality": {
+        "cloze_role": "rotulo_especifico",
+        "knowledge_required": true,
+        "blind_review_passed": true,
+        "grammar_only_solvable": false,
+        "lexical_leak": false,
+        "answer_visible_elsewhere": false,
+        "plausible_alternatives": [],
+        "confounders_checked": [
+          "proteassomo",
+          "ubiquitina"
+        ],
+        "ambiguity_review": "Revisão cega: o complexo que redobra proteína mal enovelada é o das chaperonas, distinto do proteassomo que a degrada."
+      },
+      "memory_gain": "Garante que a rota independente da isquemia não desapareça da memória do aluno.",
+      "ablation_loss": "Sem ele, a única rota lembrada é a isquêmica, e o grupo das doenças de dobramento some do repertório.",
+      "why_not_e1_only": "É um bloco inteiro da aula que, sem card, tende a ser lido uma vez e nunca mais recuperado.",
+      "confusion_target": "Confundir chaperona, que redobra, com proteassomo, que degrada.",
+      "derived": {
+        "cloze_occurrences": 1,
+        "cloze_indices": [
+          1
+        ],
+        "cloze_answer_words": [
+          1
+        ],
+        "front_characters": 129,
+        "extra_words": 25,
+        "answer_visible": false,
+        "probable_language": "pt-BR"
+      },
+      "content_sha256": "cd55d68d0bf0368a6b098fcf2f68170dda120073505ca6e6ed5727da61f657f4",
+      "card_sha256": "cd55d68d0bf0368a6b098fcf2f68170dda120073505ca6e6ed5727da61f657f4"
+    }
+  ],
+  "media": [],
+  "ordered_card_set_sha256": "4bdf4b6917bae4c61c3aa88ab41b13988c76d5307c3c74af37ef6bf68ae8e558",
+  "release_gate": {
+    "schema": "nebli-e1-deck-release-v1",
+    "card_budget_hard_max": 25,
+    "concept_count": 32,
+    "nuclear_concept_count": 22,
+    "covered_nuclear_count": 22,
+    "e1_source_sha256": "2ebc22fffdd6a0860305c6ef8c62bb1aad15f44a9f562db2c4056522ae006b42",
+    "e1_pdf_sha256": "77feed1b52940bf7367ea7aa7bc1f85b80b6f53f2942868d62943bc4a01a2701",
+    "passed": true
+  },
+  "validation_report_sha256": "fb85afda733fd5fa31c10d7b7014cae9b21e0f03b3bd052b70813fd0b0fcb586",
+  "manifest_sha256": "b52916c24a051e37e52abb78907cadc6a93df4f7b1336313bd0ccc6a7e82f4d7"
+}
