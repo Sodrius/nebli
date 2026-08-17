@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse, hashlib, json, shutil, tempfile
 from pathlib import Path
+from apkg_schema11 import normalize_apkg, validate_apkg_schema11
 from audit_apkg import audit
 from canonical_cards import content_sha256, ordered_card_set_sha256, referenced_media_hashes
 from exportar_apkg_canonico import canonical_deck_name, export_apkg
@@ -34,10 +35,14 @@ def main() -> int:
     with tempfile.TemporaryDirectory(prefix="nebli-release-",dir=out) as raw:
         temp=Path(raw); temp_apkg=temp/final_apkg.name; exp=export_apkg(deck,deck_path,temp_apkg); expected=canonical_deck_name(deck)
         if exp.get("deck_name")!=expected or exp.get("card_count")!=len(cards): raise SystemExit("ERRO: exportador APKG não preservou deck/contagem aprovados")
+        schema_fix=normalize_apkg(temp_apkg)
+        if not schema_fix.get("passed"): raise SystemExit("ERRO: normalização schema11 do APKG reprovada:\n- "+"\n- ".join(schema_fix.get("errors") or []))
+        schema_check=validate_apkg_schema11(temp_apkg)
+        if not schema_check.get("passed"): raise SystemExit("ERRO: metadata APKG incompatível com importador Anki:\n- "+"\n- ".join(schema_check.get("errors") or []))
         audited=audit(temp_apkg,expected)
         if not audited.get("passed"): raise SystemExit("ERRO: auditoria APKG reprovada:\n- "+"\n- ".join(audited.get("errors") or []))
         if audited.get("notes")!=len(cards) or audited.get("cards")!=len(cards): raise SystemExit("ERRO: APKG auditado não contém exatamente os cards aprovados")
-        proof=dict(audited); proof["validation_report_sha256"]=hashlib.sha256(report_path.read_bytes()).hexdigest(); proof["ordered_card_set_sha256"]=set_hash; (temp/"apkg-audit.json").write_text(json.dumps(proof,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        proof=dict(audited); proof["schema11_compatibility"]=schema_check; proof["validation_report_sha256"]=hashlib.sha256(report_path.read_bytes()).hexdigest(); proof["ordered_card_set_sha256"]=set_hash; (temp/"apkg-audit.json").write_text(json.dumps(proof,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         tpdf=temp/final_pdf.name; shutil.copy2(e1,tpdf); tpdf.replace(final_pdf); temp_apkg.replace(final_apkg)
     print(final_pdf); print(final_apkg); return 0
 
