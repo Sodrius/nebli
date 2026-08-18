@@ -135,9 +135,8 @@ Feedback 2026-07-16: "formatação ainda está no padrão NEBLI, todos têm que 
 ## A21 — Erro factual ou card que não renderiza
 Feedback 2026-07-16: "esse card faz sentido? não seria mitose?" (conteúdo incorreto) e "esse card deu problema e não apareceu" (cloze quebrado). **Conserto:** todo card passa por checagem de veracidade (bate com a E1/bibliografia?) e de render (o cloze fecha, aparece no estudo). Card factualmente duvidoso volta pra prancheta antes de dessuspender.
 
-## A22 — Card sem rótulo temático neutro
-
-Todo card novo começa com uma ou duas palavras em negrito que o situam: `<b>Bioquímica.</b>`, `<b>Etimologia.</b>`, `<b>Sistema digestório.</b>`. O rótulo nunca contém a resposta, sinônimo ou pista. “Sistema renal” antes de pedir “rim” é indução excessiva; “Etimologia” antes de pedir “prefixo” é neutro.
+> **A22 — removido (2026-08-17).** O rótulo temático em negrito no início do card
+> foi aposentado a pedido do usuário. Nenhum card novo o leva, e nenhum gate o cobra.
 
 ## A23 — Raiz óbvia sem ganho adicional
 

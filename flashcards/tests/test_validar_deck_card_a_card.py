@@ -147,3 +147,46 @@ def test_blocks_answer_absent_from_e1_anchor(tmp_path):
     _, data=lesson(tmp_path); bad=copy.deepcopy(data['cards'][0])
     bad['text']='A forma diverticul/o refere-se a uma {{c1::evaginação}}.'
     assert 'answer_not_in_e1_anchor' in one(bad)['cards'][0]['failures']
+
+
+# --- Fase 2 (2026-08-17): dica de tipo, frente seca e imagem no Extra --------
+# Os três defeitos que passaram inteiros no lote de Lesão Celular I: 22 cards
+# sem dica de tipo, frente com textura de apostila e deck 100% verbal.
+
+def test_blocks_single_word_cloze_without_type_hint(tmp_path):
+    """A14: sem a dica, o erro vem de ambiguidade de categoria, não de conteúdo."""
+    _, data = lesson(tmp_path); bad = copy.deepcopy(data['cards'][0])
+    bad['text'] = 'O aumento da pressão abre a {{c1::válvula}} de saída.'
+    assert 'single_word_cloze_requires_type_hint' in one(bad)['cards'][0]['failures']
+
+
+def test_accepts_single_word_cloze_with_declared_reason(tmp_path):
+    _, data = lesson(tmp_path); card = copy.deepcopy(data['cards'][0])
+    card['text'] = 'O aumento da pressão abre a {{c1::válvula}} de saída.'
+    card['type_hint_not_needed_reason'] = 'A frente já diz que o alvo é a peça que se abre.'
+    assert one(card)['ok']
+
+
+def test_two_word_answer_does_not_require_hint(tmp_path):
+    """Expressão de duas palavras já nomeia a própria categoria."""
+    _, data = lesson(tmp_path); card = copy.deepcopy(data['cards'][0])
+    card['text'] = 'O gradiente abre a {{c1::válvula mitral}} durante a diástole.'
+    card['e1_anchor'] = 'o aumento da pressão abre a válvula de saída'
+    assert 'single_word_cloze_requires_type_hint' not in one(card)['cards'][0]['failures']
+
+
+def test_blocks_type_hint_that_leaks_the_answer(tmp_path):
+    _, data = lesson(tmp_path); bad = copy.deepcopy(data['cards'][0])
+    bad['text'] = 'O aumento da pressão abre a {{c1::válvula::válvula de saída}}.'
+    assert 'type_hint_leaks_answer' in one(bad)['cards'][0]['failures']
+
+
+def test_blocks_front_with_apostila_texture(tmp_path):
+    """A20: card é afirmação seca, não parágrafo. Acima do teto, exige motivo."""
+    _, data = lesson(tmp_path); bad = copy.deepcopy(data['cards'][0])
+    bad['text'] = ('Levando em conta tudo o que foi exposto sobre o circuito e a maneira '
+                   'como a pressão se acumula ao longo do enchimento da câmara, chega o '
+                   'momento exato em que finalmente se abre a {{c1::válvula::peça do circuito}} de saída.')
+    assert 'front_over_style_limit_180' in one(bad)['cards'][0]['failures']
+    bad['long_front_reason'] = 'O enunciado precisa das duas condições para não admitir outra peça.'
+    assert 'front_over_style_limit_180' not in one(bad)['cards'][0]['failures']

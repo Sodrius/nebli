@@ -397,6 +397,7 @@ def _prepare_v3_card(
     anking_source_filter: str, *, strict: bool = False,
 ) -> dict[str, Any]:
     card = deepcopy(raw)
+    pre_embed_sha: str | None = None
     key = str(card.get("card_key") or f"card-{index+1:03d}").strip()
     concept = str(card.get("concept_id") or "").strip()
     if not concept:
@@ -476,6 +477,11 @@ def _prepare_v3_card(
             if not str(card.get("anking_rejection_reason") or "").strip():
                 raise ValueError(f"{key}: autoral legado exige anking_rejection_reason")
         _validate_authored(card, key, strict=strict)
+        # O embed reescreve `extra` com o bloco <img> renderizado. Esse bloco é
+        # artefato de renderização, não conteúdo revisado: se entrar no hash, o
+        # manifesto diverge do deck-data validado e o finalizador reprova todo
+        # card autoral com imagem.
+        pre_embed_sha = content_sha256(card)
         _embed_authored_extra_images(card, base_dir, media, key, strict=strict)
         _prepare_authored_anking_images(card, key, strict=strict)
     elif source == "io":
@@ -485,7 +491,7 @@ def _prepare_v3_card(
         raise ValueError(f"{key}: source não suportado: {source}")
 
     card["derived"] = derived(card)
-    card["content_sha256"] = content_sha256(card)
+    card["content_sha256"] = pre_embed_sha if pre_embed_sha is not None else content_sha256(card)
     card["card_sha256"] = card["content_sha256"]
     return card
 

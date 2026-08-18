@@ -230,3 +230,47 @@ def semantic_cue_review_failures(card: dict[str, Any], *, strict: bool) -> list[
     if len(str(cue.get("ambiguity_review") or "").strip()) < 20:
         failures.append("cue_quality.ambiguity_review")
     return failures
+
+# ---------------------------------------------------------------------------
+# Dica de tipo no cloze (A14)
+# ---------------------------------------------------------------------------
+# Feedback registrado do usuário: "dentro do cloze poderia estar escrito
+# (processo) para eu saber que o cloze de dilatação era um processo, algo que
+# não dava para saber sozinho". Sem a dica, o erro vem de ambiguidade sobre a
+# categoria da resposta, não de desconhecer o conteúdo.
+#
+# A regra alcança apenas respostas de UMA palavra: expressão de duas palavras
+# ("fosforilação oxidativa", "citocromo c", "radicais livres") já nomeia a
+# própria categoria. Quando a frase realmente entrega o tipo, o card declara
+# `type_hint_not_needed_reason`, no mesmo padrão de `three_word_cloze_reason`.
+
+CLOZE_WITH_HINT_RE = re.compile(r"\{\{c(\d+)::([^}:]+)::([^}]*)}}", re.I | re.S)
+
+
+def cloze_hints(text: str) -> list[str]:
+    return [match.group(3).strip() for match in CLOZE_WITH_HINT_RE.finditer(text or "")]
+
+
+def type_hint_failures(card: dict[str, Any]) -> list[str]:
+    text = str(card.get("text") or "")
+    answers = cloze_answers(text)
+    if not answers:
+        return []
+    hints = cloze_hints(text)
+    failures: list[str] = []
+
+    single_word = [a for a in answers if len(_normalise(a).split()) == 1]
+    if single_word and not hints and not str(card.get("type_hint_not_needed_reason") or "").strip():
+        failures.append("single_word_cloze_requires_type_hint")
+
+    # A dica delimita a categoria; se ela repete a resposta, entrega o card.
+    for hint in hints:
+        if not hint:
+            failures.append("empty_type_hint")
+            continue
+        hint_words = {w for w in _normalise(hint).split() if len(w) >= 4}
+        for answer in answers:
+            answer_words = {w for w in _normalise(answer).split() if len(w) >= 4}
+            if _normalise(hint) == _normalise(answer) or (hint_words & answer_words):
+                failures.append("type_hint_leaks_answer")
+    return failures

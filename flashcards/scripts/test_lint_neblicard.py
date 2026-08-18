@@ -18,8 +18,9 @@ class LintNebliCardTests(unittest.TestCase):
     def test_rejects_missing_cloze(self):
         self.assertEqual(lint_text("<b>Anatomia.</b> The answer is visible.")["status"], "REJECT")
 
-    def test_rejects_missing_theme(self):
-        self.assertEqual(lint_text("The <b>{{c1::answer}}</b> is hidden.")["status"], "REJECT")
+    def test_card_sem_rotulo_tematico_passa(self):
+        # Rótulo temático aposentado em 2026-08-17: a ausência dele não reprova mais.
+        self.assertEqual(lint_text("The <b>{{c1::answer}}</b> is hidden.")["status"], "PASS")
 
     def test_rejects_cloze_over_three_words(self):
         result = lint_text("<b>Fisiologia.</b> The result is <b>{{c1::more than three words here}}</b>.")

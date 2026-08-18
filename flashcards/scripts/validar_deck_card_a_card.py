@@ -17,12 +17,17 @@ from card_cue_quality import (
     portuguese_front_failures,
     portuguese_text_failures,
     semantic_cue_review_failures,
+    type_hint_failures,
 )
 from feedback_regressions import regression_failures
 
 # Campos do contrato de ablação: um card só existe se a sua remoção causa perda
 # nomeável. Ver docs/canon/NUCLEO-DE-RETENCAO.md.
 ABLATION_FIELDS = ("memory_gain", "ablation_loss", "why_not_e1_only", "confusion_target")
+
+# Teto de estilo da frente (config/pipeline.json → authored_cards.style_max_front_characters).
+# O teto duro de 360 caracteres continua valendo; este é o limite da voz seca.
+STYLE_FRONT_LIMIT = 180
 
 
 def _semantic_review_ok(card: dict[str, Any], failures: list[str]) -> None:
@@ -59,12 +64,17 @@ def _authored(card: dict[str, Any], failures: list[str]) -> None:
     if count == 3 and not str(card.get("three_word_cloze_reason") or "").strip(): failures.append("three_word_cloze_requires_reason")
     if metrics["answer_visible"]: failures.append("lexical_leak_or_visible_answer")
     if metrics["front_characters"] > 360: failures.append("front_over_360_characters")
+    # Teto de estilo: o card é afirmação seca, não parágrafo de apostila (A20).
+    # Acima do limite, exige justificativa escrita em vez de bloquear cego.
+    if metrics["style_front_characters"] > STYLE_FRONT_LIMIT and not str(card.get("long_front_reason") or "").strip():
+        failures.append(f"front_over_style_limit_{STYLE_FRONT_LIMIT}")
     if metrics["extra_words"] > 100: failures.append("extra_over_100_words")
     answers = [normalized(match.group(2)) for match in CLOZE_RE.finditer(text)]
     failures.extend(abstract_answer_failures(text))
     failures.extend(discriminator_placement_failures(card))
     failures.extend(alternative_answer_failures(card))
     failures.extend(anchor_coverage_failures(card))
+    failures.extend(type_hint_failures(card))
     if answers and len(words(answers[0])) >= 3 and len(words(CLOZE_RE.sub("", text))) < 4: failures.append("whole_clause_or_definition_cloze")
     if not str(card.get("retrieval_target") or "").strip(): failures.append("retrieval_target_missing")
     if not extra.strip(): failures.append("extra_missing")

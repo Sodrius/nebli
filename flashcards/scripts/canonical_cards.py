@@ -16,6 +16,9 @@ LEARNING_FIELDS = {
     "card_key", "concept_id", "tier", "source", "text", "extra", "e1_anchor",
     "retrieval_target", "semantic_review", "three_word_cloze_reason", "prompt",
     "answers", "mode", "masks", "pair_rationale", "source_credit", "cognitive_purpose",
+    # A imagem declarada no Extra afeta o que se aprende: trocar a figura precisa
+    # invalidar o hash, senão o finalizador libera um card com outra imagem.
+    "extra_images",
 }
 
 
@@ -53,8 +56,16 @@ def content_sha256(card: dict[str, Any]) -> str:
 
 
 def ordered_card_set_sha256(cards: list[dict[str, Any]]) -> str:
+    """Hash do conjunto ordenado.
+
+    Quando o card já carrega `content_sha256`, esse valor manda: é o hash do
+    conteúdo revisado, tirado antes de qualquer renderização. Recalcular a
+    partir do card renderizado faria o manifesto divergir do deck-data aprovado
+    sempre que uma imagem fosse embutida no Extra.
+    """
     return sha256_obj([
-        {"card_key": str(card.get("card_key") or ""), "content_sha256": content_sha256(card)}
+        {"card_key": str(card.get("card_key") or ""),
+         "content_sha256": str(card.get("content_sha256") or "") or content_sha256(card)}
         for card in cards
     ])
 
@@ -65,7 +76,11 @@ def derived(card: dict[str, Any]) -> dict[str, Any]:
     matches = list(CLOZE_RE.finditer(text))
     answers = [m.group(2).strip() for m in matches]
     visible = CLOZE_RE.sub(" ", text)
+    # Comprimento que o aluno lê, com a resposta no lugar da marcação: medir o
+    # texto cru puniria a dica de tipo, que é justamente o que queremos incentivar.
+    inlined = CLOZE_RE.sub(lambda m: m.group(2), text)
     return {
+        "style_front_characters": len(_plain(inlined)),
         "cloze_occurrences": len(matches),
         "cloze_indices": [int(m.group(1)) for m in matches],
         "cloze_answer_words": [len(words(value)) for value in answers],
@@ -90,11 +105,24 @@ def media_hashes(manifest_or_deck: dict[str, Any]) -> list[dict[str, str]]:
     return out
 
 
+def _media_paths(card: dict[str, Any]) -> list[str]:
+    """Toda mídia que o card declara: a imagem do IO e as imagens do Extra."""
+    paths: list[str] = []
+    raw = card.get("image_path")
+    if raw:
+        paths.append(str(raw))
+    for item in card.get("extra_images") or []:
+        if isinstance(item, dict):
+            value = item.get("path") or item.get("image_path")
+            if value:
+                paths.append(str(value))
+    return paths
+
+
 def referenced_media_hashes(cards: list[dict[str, Any]], base: Path) -> list[dict[str, str]]:
     out: list[dict[str, str]] = []
     for card in cards:
-        raw = card.get("image_path")
-        if not raw: continue
-        path = Path(str(raw)); path = path if path.is_absolute() else (base / path).resolve()
-        out.append({"card_key": str(card.get("card_key") or ""), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
+        for raw in _media_paths(card):
+            path = Path(raw); path = path if path.is_absolute() else (base / path).resolve()
+            out.append({"card_key": str(card.get("card_key") or ""), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
     return out

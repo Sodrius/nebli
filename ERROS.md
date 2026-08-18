@@ -146,6 +146,18 @@ Consultar antes de fechar E1 ou deck-aula. O contrato detalhado de cards está e
     não aceitar um deck inteiramente verbal quando a E1 exige interpretar uma
     estrutura, lâmina, mapa ou relação espacial.
 
+53. Resposta de uma palavra leva dica de tipo no cloze. Sem ela, o erro vem de
+    ambiguidade sobre a categoria pedida, não de desconhecer o conteúdo. A dica
+    delimita e nunca repete a resposta; a exceção é declarada em
+    `type_hint_not_needed_reason`.
+54. Frente é afirmação seca. Acima do teto de estilo, o motivo fica escrito em
+    `long_front_reason` — o card não é parágrafo de apostila reduzido.
+55. E1 com figuras revisadas não fecha com deck inteiramente verbal. Imagem de
+    Extra ou IO cobre os alvos visuais, ou a corrida declara
+    `visual_card_absence_rationale`.
+56. Rótulo temático em negrito no início do card está aposentado desde
+    2026-08-17. Não exigir, não gerar, não verificar.
+
 ## Identidade do deck
 
 52. O nome do deck não é campo livre. Gerador e Companion derivam e conferem

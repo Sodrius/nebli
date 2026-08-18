@@ -121,6 +121,21 @@ def validate_release(data: dict[str, Any], deck_data_path: Path) -> dict[str, An
             if row.get("decision") in {"excluir", "indisponível"} and not str(row.get("exclusion_reason") or "").strip():
                 errors.append(f"source_to_e1_matrix[{index}].exclusion_reason obrigatório")
     figures = review.get("visual_figure_ledger")
+    # ERROS.md 51: E1 que depende de lâmina, mapa ou fluxograma não fecha com um
+    # deck inteiramente verbal. Foi assim que a aula de lesão celular saiu com 14
+    # figuras revisadas e zero card com imagem.
+    lot = data.get("cards") if isinstance(data.get("cards"), list) else []
+    visual_cards = [
+        str(card.get("card_key") or "")
+        for card in lot
+        if isinstance(card, dict)
+        and (str(card.get("source") or "").lower() == "io" or card.get("extra_images"))
+    ]
+    if figures and not visual_cards and not str(release.get("visual_card_absence_rationale") or "").strip():
+        errors.append(
+            "E1 tem visual_figure_ledger e o deck não tem nenhum card visual: "
+            "anexar imagem ou IO, ou declarar release_gate.visual_card_absence_rationale"
+        )
     if figures:
         for index, figure in enumerate(figures):
             for key in ("file", "origin", "cognitive_task", "crop", "resolution", "caption_match", "rendered_page", "visual_approval"):

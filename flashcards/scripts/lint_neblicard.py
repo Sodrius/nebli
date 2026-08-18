@@ -150,9 +150,7 @@ def lint_text(text):
     flags = []
     hard = []
     score = 0
-    theme = THEME_RE.match(text)
-    if not theme or not 1 <= len(theme.group(1).split()) <= 2:
-        hard.append("missing_or_invalid_theme_label")
+    # Rótulo temático aposentado em 2026-08-17: nenhum card novo o leva.
     distinct_indexes = sorted({c["idx"] for c in cs})
     if distinct_indexes != ["1"]:
         hard.append("multiple_cloze_indexes:" + ",".join(distinct_indexes))
@@ -199,11 +197,6 @@ def lint_text(text):
         elif ccount == 1:
             flags.append("possible_mechanism_in_stem")
             score += 1
-    if theme:
-        theme_roots = {stem_word(w) for w in content_words(theme.group(1))}
-        answer_roots = {stem_word(w) for c in cs for w in content_words(c["answer"])}
-        if theme_roots & answer_roots:
-            hard.append("theme_label_hints_answer")
     if hard:
         return {"status": "REJECT", "score": 99, "flags": sorted(set(hard + flags)), "text": text}
     if score >= 5:

@@ -4,7 +4,7 @@ Atualizado em 2026-08-17. Histórico e regras antigas permanecem em `docs/legacy
 
 ## Estado atual
 
-- Pipeline canônico: `e1-deck-v12`.
+- Pipeline canônico: `e1-deck-v13`.
 - Deck-Aula = núcleo mínimo de retenção, com slots prévios à busca, cards de até 10 s e revisão de compressão/ablação; detalhes deriváveis não recebem cards próprios.
 - A entrega só libera com `nebli-e1-deck-release-v1`: E1 fonte/PDF congeladas,
   revisão semântica independente, core nuclear 100% coberto e todo card ligado a

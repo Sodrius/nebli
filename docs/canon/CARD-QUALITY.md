@@ -13,6 +13,10 @@ Bloqueiam também, por medição e não por declaração:
 - card cuja informação discriminante mora só no Extra, que só é lido depois de responder;
 - perda de ablação que apenas reformula o próprio card;
 - duas recuperações do mesmo alvo sem `derivation_rationale`;
+- resposta de uma palavra sem dica de tipo no cloze e sem `type_hint_not_needed_reason`;
+- dica de tipo que repete a resposta ou compartilha palavra com ela;
+- frente acima do teto de estilo sem `long_front_reason`: o card é afirmação seca, não parágrafo de apostila;
+- deck sem nenhum card visual quando a E1 registrou figuras no `visual_figure_ledger`;
 - defeito já apontado pelo usuário e registrado em `flashcards/tests/feedback_regressions.json`.
 
 O agente registra `semantic_review` compacto com `ambiguity`, `anti_induction` e `duplicate_check`, mais `cue_quality` com o papel do cloze e a revisão cega. Métricas objetivas e hashes são calculados pelo validador.

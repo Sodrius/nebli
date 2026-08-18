@@ -1,5 +1,5 @@
 {
-  "pipeline_version": "e1-deck-v12",
+  "pipeline_version": "e1-deck-v13",
   "card_source_mode": "authored_only",
   "anking": {
     "status": "suspended",
@@ -88,7 +88,8 @@
       "format_validator": "flashcards/scripts/validar_e1_formatacao.py",
       "block_unresolved_core_omissions": true,
       "block_unresolved_ambiguities": true,
-      "block_unresolved_visual_defects": true
+      "block_unresolved_visual_defects": true,
+      "require_visual_card_when_e1_has_figures": true
     },
     "install_identity_tags": [
       "NEBLI::tier::<tier>",
@@ -168,7 +169,9 @@
     "extra_images_require_source_credit": true,
     "preferred_visual_source": "lesson_source",
     "slide_or_external_requires_anking_visual_rejection": false,
-    "all_images_require_didactic_value_review": true
+    "all_images_require_didactic_value_review": true,
+    "style_max_front_characters": 180,
+    "require_theme_label": false
   },
   "cue_quality": {
     "applies_to_every_authored_card": true,
@@ -192,7 +195,9 @@
     "block_answer_with_alternatives": true,
     "require_answer_present_in_e1_anchor": true,
     "block_discriminator_only_in_extra": true,
-    "require_derivation_rationale_for_duplicate_retrieval": true
+    "require_derivation_rationale_for_duplicate_retrieval": true,
+    "require_type_hint_for_single_word_answer": true,
+    "type_hint_must_not_leak_answer": true
   },
   "cloze_answer_words": {
     "preferred": 1,

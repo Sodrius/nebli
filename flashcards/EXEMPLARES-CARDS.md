@@ -12,18 +12,10 @@
 
 ## Exemplares por gesto
 
-### G0 — rótulo temático neutro
-
-```text
-<b>Etimologia.</b> Em subcutâneo, <b>sub-</b> funciona morfologicamente como <b>{{c1::prefixo}}</b>.
-```
-
-O rótulo localiza o card, mas não reduz o espaço de respostas. “Etimologia” não entrega “prefixo”; “Sistema renal” seria inadequado se o cloze pedisse justamente o sistema.
-
 ### G0b — comparação recuperada de uma vez
 
 ```text
-<b>Etimologia.</b> Incisão usa <b>{{c1::-tomia}}</b>; remoção, <b>{{c1::-ectomia}}</b>; abertura exteriorizada, <b>{{c1::-stomia}}</b>.
+Incisão usa <b>{{c1::-tomia}}</b>; remoção, <b>{{c1::-ectomia}}</b>; abertura exteriorizada, <b>{{c1::-stomia}}</b>.
 Extra: gastrotomia = incisão; gastrectomia = remoção; gastrostomia = abertura.
 ```
 
@@ -32,7 +24,7 @@ As três ocorrências são `c1`: um único card obriga a associar cada significa
 ### G0c — raiz simples com Extra que expande
 
 ```text
-<b>Etimologia.</b> A forma <b>derm/o</b> remete a <b>{{c1::pele}}</b>.
+A forma <b>derm/o</b> remete a <b>{{c1::pele}}</b>.
 Extra: dermatomicose = derm/o + micose; infecção fúngica da pele.
 ```
 

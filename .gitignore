@@ -101,3 +101,4 @@ Thumbs.db
 
 # ---- Entrega ao usuario: manifesto versionado, PDF regeneravel ----
 entregas/**/*.pdf
+figuras/**/*.jpg

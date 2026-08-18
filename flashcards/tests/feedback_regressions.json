@@ -8,7 +8,10 @@
       "origin": "comentário na nota etim-v3-auto-etim-v2-suf-trofia (.apkg 2026-08-17)",
       "comment": "trofia é desenvolvimento, não crescimento, porque atrofia não é crescimento",
       "enforced_by": "python",
-      "forbidden_pair": {"stem_contains": "trofia", "answer_is": "crescimento"},
+      "forbidden_pair": {
+        "stem_contains": "trofia",
+        "answer_is": "crescimento"
+      },
       "required_after_fix": "-trofia responde por desenvolvimento; atrofia é desenvolvimento deficiente, não crescimento negativo.",
       "reproved_example": {
         "text": "Em <b>hipertrofia</b>, -trofia indica <b>{{c1::crescimento}}</b>.",
@@ -222,6 +225,53 @@
       "enforced_by": "python",
       "test": "ler_comentarios.pendentes consulta tag e campo preenchido",
       "required_after_fix": "Comentário digitado no celular aparece na primeira execução."
+    },
+    {
+      "id": "cloze-sem-dica-de-tipo",
+      "pattern": "ambiguous_answer_category",
+      "origin": "revisão do deck pato-01-lesao-celular-i (2026-08-17)",
+      "comment": "22 cards seguidos sem dica de tipo; o usuário já havia pedido a dica em 2026-07 e o pedido não virou gate",
+      "enforced_by": "python",
+      "enforced_rule": "card_cue_quality.type_hint_failures — resposta de uma palavra exige {{c1::x::dica}} ou type_hint_not_needed_reason",
+      "required_after_fix": "Toda resposta de uma palavra declara a categoria na dica ou justifica por que a frente já a entrega.",
+      "expected_failure": "single_word_cloze_requires_type_hint",
+      "reproved_example": {
+        "text": "O aumento da pressão abre a {{c1::válvula}} de saída.",
+        "extra": "A abertura permite que a água avance sem retornar."
+      }
+    },
+    {
+      "id": "deck-inteiramente-verbal",
+      "pattern": "missing_visual",
+      "origin": "revisão do deck pato-01-lesao-celular-i (2026-08-17)",
+      "comment": "E1 com 14 figuras revisadas e deck com zero card visual; nenhum gate reclamou",
+      "enforced_by": "manual",
+      "enforced_rule": "validar_release_e1_deck — visual_figure_ledger não vazio exige card com extra_images ou IO, ou visual_card_absence_rationale (testado em test_release_e1_deck.test_blocks_all_verbal_deck_when_e1_has_figures)",
+      "required_after_fix": "Deck de aula com E1 ilustrada carrega imagem no Extra dos cards cujo alvo é visual.",
+      "expected_failure": "E1 tem visual_figure_ledger e o deck não tem nenhum card visual"
+    },
+    {
+      "id": "frente-com-textura-de-apostila",
+      "pattern": "card_voice",
+      "origin": "revisão do deck pato-01-lesao-celular-i (2026-08-17)",
+      "comment": "frente média de 119 caracteres, com prosa de apostila em vez de afirmação seca",
+      "enforced_by": "python",
+      "enforced_rule": "validar_deck_card_a_card — style_front_characters acima de 180 exige long_front_reason",
+      "required_after_fix": "Frente seca; acima do teto de estilo, o motivo fica escrito no card.",
+      "expected_failure": "front_over_style_limit_180",
+      "reproved_example": {
+        "text": "Levando em conta tudo o que foi exposto sobre o circuito e a maneira como a pressão se acumula ao longo do enchimento da câmara, chega o momento exato em que finalmente se abre a {{c1::válvula::peça do circuito}} de saída.",
+        "extra": "A abertura permite que a água avance sem retornar."
+      }
+    },
+    {
+      "id": "rotulo-tematico-aposentado",
+      "pattern": "rule_retired",
+      "origin": "pedido do usuário (2026-08-17): \"3 é uma coisa ultrapassada, tira de onde tiver\"",
+      "comment": "o rótulo temático em negrito no início do card deixa de ser exigido",
+      "enforced_by": "manual",
+      "enforced_rule": "removido de ANTI-EXEMPLARES-CARDS (A22), EXEMPLARES-CARDS (G0), lint_neblicard e build_card",
+      "required_after_fix": "Nenhum card novo leva prefixo de rótulo e nenhum gate o cobra."
     }
   ]
 }

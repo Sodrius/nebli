@@ -11,7 +11,6 @@ Ensinar o estudante a inferir termos novos por morfemas, famílias, contrastes e
 - Texto com até 25 palavras;
 - um cloze como padrão, dois em contrastes naturais, máximo de três;
 - Extra obrigatório, geralmente até 25 palavras e excepcionalmente até 40 para termos novos;
-- rótulo temático neutro de uma ou duas palavras;
 - cloze revelado em negrito;
 - respostas de uma palavra como padrão, duas quando necessário, três excepcionalmente;
 - comparações recuperadas juntas usam o mesmo `c1`;

@@ -50,34 +50,23 @@ def norm(s):
 
 
 def infer_theme(slug, explicit=None):
-    if explicit:
-        label = explicit.strip().rstrip(".")
-    else:
-        label = THEME_BY_SLUG.get((slug or "").split("-", 1)[0], "")
-    if not label or len(label.split()) > 2:
-        raise ValueError("theme_label obrigatório, neutro e com 1–2 palavras")
-    return label
+    # Rótulo temático aposentado em 2026-08-17. A função sobrevive para não
+    # quebrar chamadas antigas, mas nunca mais exige nem inventa um rótulo.
+    return (explicit or "").strip().rstrip(".")
 
 
 def themed_text(text, label):
-    if THEME_RE.match(text or ""):
-        return text
-    return f"<b>{label}.</b> {text.strip()}"
+    # No-op: cards novos não recebem prefixo de rótulo.
+    return (text or "").strip()
 
 
-def validate_text_gate(text, label):
-    match = THEME_RE.match(text or "")
-    if not match or match.group(1) != label:
-        raise ValueError("Text sem rótulo temático canônico")
+def validate_text_gate(text, label=None):
+    # Rótulo temático aposentado em 2026-08-17: não é exigido nem verificado.
     answers = CLOZE_RE.findall(text or "")
     if not answers:
         raise ValueError("Text sem cloze")
     if len(BOLDED_CLOZE_RE.findall(text or "")) != len(answers):
         raise ValueError("todo cloze deve estar em negrito")
-    label_words = {x.lower() for x in re.findall(r"\w+", label)}
-    answer_words = {x.lower() for a in answers for x in re.findall(r"\w+", norm(a))}
-    if label_words & answer_words:
-        raise ValueError("rótulo temático dá pista da resposta")
     for answer in answers:
         if len(re.findall(r"\S+", norm(answer))) > 3:
             raise ValueError("cloze com mais de 3 palavras")
