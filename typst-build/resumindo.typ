@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("Três constrições, não quatro",
+   [O esôfago estreita em três pontos — cervical (a própria contração cricofaríngea, que é o esfíncter superior), broncoaórtico e diafragmático. É neles que corpo estranho entala, cáustico queima mais fundo e o endoscópio perfura a parede.]),
+
+  ("A junção esofagogástrica fecha sem anel muscular",
+   [A competência é somada: tônus da musculatura lisa distal, pinça do pilar direito no hiato de T10, ângulo agudo de entrada e compressão do segmento intra-abdominal. Alargar o hiato rouba três desses quatro fatores de uma vez.]),
+
+  ("A linha Z marca troca de epitélio",
+   [O escamoso do esôfago encontra o colunar do estômago numa borda irregular. Linha Z deslocada para cima significa epitélio trocado para sobreviver ao ácido — e é nesse revestimento fora de lugar que nasce o adenocarcinoma distal.]),
+
+  ("Face anterior perfura, face posterior sangra",
+   [A face anterior olha para a cavidade livre: a úlcera que a atravessa despeja ar e conteúdo, e o ar aparece sob o diafragma. A posterior olha para o leito gástrico e erode a artéria esplênica — hemorragia, não peritonite.]),
+
+  ("O estômago em cinco regiões e duas curvaturas",
+   [Cárdia, fundo, corpo, antro pilórico e canal pilórico, da entrada para a saída. A incisura cárdica fica em cima, entre esôfago e fundo; a angular fica embaixo, na curvatura menor, separando corpo de antro.]),
+
+  ("Três camadas musculares porque misturar não é empurrar",
+   [Duas camadas cruzadas produzem uma onda que avança — basta ao esôfago. A oblíqua interna acrescenta uma terceira direção e transforma a contração em amassamento, produzindo o quimo; na saída, a circular espessada forma o piloro.]),
+
+  ("O duodeno é um C fixo, com um trecho móvel só",
+   [Quatro porções abraçam a cabeça do pâncreas: superior em L1, descendente até L3, horizontal em L3 e ascendente até L2. Só a superior é intraperitoneal — por isso a úlcera de bulbo perfura para a cavidade livre.]),
+
+  ("Na papila maior, um cálculo bloqueia duas vias",
+   [Colédoco e ducto pancreático se unem na ampola antes de desembocar na segunda porção do duodeno. Saída comum significa que um cálculo represa bile e suco pancreático juntos: icterícia e pancreatite ao mesmo tempo.]),
+
+  ("Treitz fixa a flexura e divide alto de baixo",
+   [O ligamento suspensor é feixe misto, com músculo liso próprio, que sobe da flexura duodenojejunal ao pilar do diafragma. Mantém a angulação contra o refluxo jejunal e serve de fronteira entre sangramento alto e baixo.]),
+
+  ("O mesentério entrega quem é jejuno e quem é íleo",
+   [Jejuno: poucas arcadas grandes, vasos retos longos, mesentério translúcido, parede espessa, pregas altas. Íleo: muitas arcadas curtas, vasos retos curtos, gordura até a alça, parede fina. Mais arcadas significam mais caminhos alternativos.]),
 ))

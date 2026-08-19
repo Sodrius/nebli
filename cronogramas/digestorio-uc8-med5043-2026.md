@@ -42,5 +42,5 @@
 **Locais:** anf. 06 / 202 · lab 007 (Anatomia) · sala 130 ICBI (BioTec/Fisiologia).
 
 ## Estado NEBLI
-- Nenhum resumo gerado ainda.
+- **1 resumo gerado (2026-08-19):** *Esôfago, Estômago e Intestino Delgado* (Anatomia, P1) — slug `digest-anato-01-esofago-estomago-delgado`, 38 páginas (E1 com 19), 22 figuras do slide da Profa. Castelucci. Master em `resumos-gerados/`, cópia leve em `resumos-gerados/leves/`. Deck-aula ainda **não** montado (o pedido foi só Etapas 1 a 3; sem Anki alcançável nesta sessão).
 - **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.
