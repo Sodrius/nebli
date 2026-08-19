@@ -1,28 +1,44 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  (
+    "A especificidade mora no receptor",
+    [O hormônio banha todas as células do corpo, mas só produz efeito onde existe o receptor correspondente. Por isso o mesmo sinal significa coisas diferentes em tecidos diferentes, e a resposta depende da máquina que está atrás do receptor.],
+  ),
+  (
+    "Solubilidade decide o resto",
+    [Hormônio hidrossolúvel é estocado em vesícula, viaja livre, dura pouco e usa receptor de superfície. Hormônio lipossolúvel não pode ser estocado, viaja ligado a proteína, dura horas ou dias e usa receptor intracelular.],
+  ),
+  (
+    "Duas rotas, duas velocidades",
+    [O receptor de superfície recria o recado como segundo mensageiro e muda a atividade de enzimas já prontas, em segundos. O receptor intracelular é um fator de transcrição e muda a quantidade de proteína, em horas — mais lento, porém duradouro.],
+  ),
+  (
+    "Amplificação e freio",
+    [Cada degrau da cascata multiplica moléculas ativadas, e por isso uma concentração nanomolar reprograma um órgão inteiro. Por isso mesmo cada degrau precisa de freio: a proteína G hidrolisa seu próprio GTP, a fosfodiesterase destrói o AMP cíclico, as fosfatases removem os fosfatos.],
+  ),
+  (
+    "A célula beta converte glicose em ATP",
+    [Glicose entra pelo GLUT2 e é fosforilada pela glicoquinase — ambos de baixa afinidade, para não saturar e continuar informando. O ATP que sobe fecha o canal de potássio, a membrana despolariza, o cálcio entra e as vesículas de insulina se fundem.],
+  ),
+  (
+    "Insulina desfosforila, glucagon fosforila",
+    [A insulina ativa uma fosfatase que, de uma vez, ativa a glicogênio-sintase e inativa a glicogênio-fosforilase; o glucagon faz o oposto pela cascata do AMP cíclico e da proteína-quinase A. A mesma marca química significa coisas opostas em cada enzima.],
+  ),
+  (
+    "Glucagon é hepático; adrenalina alcança o músculo",
+    [A fibra muscular não tem receptor de glucagon, e sem glicose-6-fosfatase não exporta glicose: o glicogênio muscular serve só ao próprio músculo. Quem o mobiliza é a adrenalina, pela mesma cascata do AMP cíclico usada pelo glucagon no fígado.],
+  ),
+  (
+    "O tecido decide o hormônio tireoidiano",
+    [A tireoide libera sobretudo T4, que é pró-hormônio. A desiodinase de cada tecido escolhe ativá-lo em T3 ou inativá-lo em T3 reverso, e o receptor, já pousado no DNA, freia a transcrição enquanto o hormônio não chega.],
+  ),
+  (
+    "Cortisol mantém glicose para o cérebro",
+    [Estimula gliconeogênese no fígado, degrada proteína no músculo e libera glicerol do tecido adiposo, enquanto freia a insulina. Sustentado por tempo demais, o mesmo mecanismo produz hiperglicemia, atrofia muscular e imunossupressão.],
+  ),
+  (
+    "Enganar o receptor é fácil",
+    [Como o reconhecimento é apenas encaixe de forma, uma molécula estranha pode imitar o hormônio e disparar resposta indevida, ou bloquear o sítio e apagar a ordem legítima. A farmacologia usa esse mesmo princípio de propósito, com dose e alvo escolhidos.],
+  ),
 ))

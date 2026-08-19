@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- bioq-mecanismo-acao-hormonal | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,34 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Controle Hormonal",
+  "",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Bioquímica"),
+    ("Onde estudar", "Slides da Profa. Déborah (IQ-USP) · Lehninger cap. 23 (regulação hormonal e integração do metabolismo dos mamíferos) · Berg/Stryer cap. 14 (transdução de sinal) e cap. 21 (metabolismo do glicogênio) · Devlin cap. 21"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Como um sinal químico vira ordem metabólica", (
+      "1.1 As três alavancas da regulação",
+      "1.2 O que define um hormônio",
+      "1.3 A cadeia regulável e as classes químicas",
+      "1.4 Receptor de superfície e receptor nuclear",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Insulina e glucagon: guardar ou gastar", (
+      "2.1 A insulina nasce cortada",
+      "2.2 Como a célula beta mede a glicemia",
+      "2.3 O que a insulina faz no fígado e no músculo",
+      "2.4 O glucagon e a cascata do AMPc",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Adrenalina, tireoidianos e esteroides", (
+      "3.1 Catecolaminas: o metabolismo em alerta",
+      "3.2 Tireoidianos: pró-hormônio e ativação no tecido",
+      "3.3 Cortisol: do colesterol ao gene",
+      "3.4 Quando o receptor é enganado",
     )),
   )),
 ))
@@ -57,39 +58,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "C"),
+    ("02", "ECCC"),
+    ("03", "E"),
+    ("04", "B"),
+    ("05", "ECCE"),
+    ("06", "D"),
+    ("07", "A"),
+    ("08", "CCEE"),
+    ("09", "C"),
+    ("10", "E"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("11", "B"),
+    ("12", "ECEC"),
+    ("13", "D"),
+    ("14", "A"),
+    ("15", "CEEC"),
+    ("16", "E"),
+    ("17", "C"),
+    ("18", "ECCE"),
+    ("19", "B"),
+    ("20", "D"),
+    ("21", "CCEC"),
+    ("22", "A"),
+    ("23", "E"),
+    ("24", "EECC"),
+    ("25", "B"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "D"),
+    ("27", "C"),
+    ("28", "ECEC"),
+    ("29", "A"),
+    ("30", "E"),
   )),
 ))

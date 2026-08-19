@@ -1,0 +1,185 @@
+slug: bioq-mecanismo-acao-hormonal
+titulo: "Controle Hormonal"
+subtitulo: ""
+meta:
+  - ["Disciplina", "Bioquímica"]
+  - ["Onde estudar", "Slides da Profa. Déborah (IQ-USP) · Lehninger cap. 23 (regulação hormonal e integração do metabolismo dos mamíferos) · Berg/Stryer cap. 14 (transdução de sinal) e cap. 21 (metabolismo do glicogênio) · Devlin cap. 21"]
+
+# ---------------------------------------------------------------------------
+# SEÇÃO A — Tema · Slug · Alvo · Recorte · Prioridades desta corrida
+# ---------------------------------------------------------------------------
+# Profundidade: PADRÃO (10 Cons · 15 Int · 5 Apl). Aula ampla de mecanismo de ação
+#   hormonal, que costura sinalização celular (receptor, proteína G, segundo mensageiro,
+#   receptor nuclear) com metabolismo já visto (glicogênio, glicólise, lipídeos).
+# Alvo de páginas E1: piso 2, TETO 22 (alvo 16-20 — aula larga, mas com um único eixo).
+# profundidade: padrao   (dial CANON 2026-07-12 — default já elevado)
+# Recorte: o slide se chama "Controle Hormonal" e vai de "o que é regulação metabólica"
+#   até disruptores endócrinos, passando por insulina, glucagon, catecolaminas,
+#   tireoidianos e cortisol. O recorte do resumo é o MECANISMO DE AÇÃO (como o sinal
+#   vira resposta), usando cada hormônio como caso concreto — não é uma aula de
+#   endocrinologia clínica nem uma revisão do metabolismo do glicogênio em si.
+#
+# Prioridades desta corrida:
+#   P1. Diário (biocel-07, peso alto): tema INTEIRAMENTE feito de cadeias espaciais
+#       (cascata do AMPc, secreção da célula beta, receptor nuclear no DNA) → figura
+#       obrigatória em toda cadeia multi-passo. O slide é rico em esquemas — usar.
+#   P2. Abrir cada subtópico por afirmação direta + mecanismo (pergunta âncora banida).
+#   P3. Prosa fluida, nunca rajada de siglas (AMPc/PKA/PP1/GSK3 dentro de frases com
+#       sujeito+verbo+complemento — anti-padrão A4).
+#   P4. Aprofundamento ≈1 injeção mecanística por subtópico, colada ao mecanismo já
+#       aberto (regra-mestra: slide regula O QUE, bibliografia regula ATÉ ONDE).
+#   P5. E2: ~10 C/E (sempre 4 itens I-IV) nas três categorias + 3 "assinale a incorreta";
+#       paridade banda dupla 0.80-1.25 em Q01-Q30; gabarito sorteado com guarda.
+#   P6. Termo-nota nunca repete o termo na prosa (ERROS #20).
+#
+# NOTA DE PIPELINE (corrida remota): esta sessão roda em container sem Anki/AnkiConnect
+#   e sem rclone autorizado. Portanto o passo 11 do /resumo (curadoria AnKing + deck-aula
+#   + upload Drive) NÃO roda aqui — o pedido do Davi foi "roda etapas 1 a 3". O eixo
+#   Cards×E1 do Índice de completude fica declarado como NÃO AVALIADO nesta corrida.
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Como um sinal químico vira ordem metabólica"
+        subtopicos:
+          - "1.1 As três alavancas da regulação"
+          - "1.2 O que define um hormônio"
+          - "1.3 A cadeia regulável e as classes químicas"
+          - "1.4 Receptor de superfície e receptor nuclear"
+      - titulo: "PARTE II — Insulina e glucagon: guardar ou gastar"
+        subtopicos:
+          - "2.1 A insulina nasce cortada"
+          - "2.2 Como a célula beta mede a glicemia"
+          - "2.3 O que a insulina faz no fígado e no músculo"
+          - "2.4 O glucagon e a cascata do AMPc"
+      - titulo: "PARTE III — Adrenalina, tireoidianos e esteroides"
+        subtopicos:
+          - "3.1 Catecolaminas: o metabolismo em alerta"
+          - "3.2 Tireoidianos: pró-hormônio e ativação no tecido"
+          - "3.3 Cortisol: do colesterol ao gene"
+          - "3.4 Quando o receptor é enganado"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B — Figuras planejadas (mínimo 3 por PARTE)
+# ---------------------------------------------------------------------------
+# PARTE I: slide-03 (3 alavancas) · slide-10 (endo/para/autócrino) · slide-09 (classes
+#   químicas) · slide-13 (6 transdutores) · slide-15 (as duas rotas gerais) · slide-16
+#   (amplificação em pirâmide).
+# PARTE II: slide-20 (par insulina/glucagon) · slide-22 (pré-pró-insulina) · slide-26
+#   (secreção da célula beta) · slide-25 (glicoquinase × hexoquinase) · slide-33
+#   (insulina no organismo + alvos) · slide-31 (fosforilase b→a) · slide-37 (cascata do
+#   glucagon) · slide-38 (glucagon no organismo + alvos).
+# PARTE III: slide-40 (biossíntese das catecolaminas) · slide-41 (cascata da epinefrina +
+#   efeitos) · slide-43 (eixo TRH-TSH e rT3) · slide-45 (T4→T3 e TR/RXR nos tecidos) ·
+#   slide-51 (esteroidogênese adrenal) · slide-50 (eixo do cortisol e Addison) · slide-52
+#   (GR/HSP90 → elemento responsivo) · slide-55 (disruptores endócrinos).
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.bis — Registro de abertura por subtópico (sem repetir vizinho)
+# ---------------------------------------------------------------------------
+# 1.1 enquadramento | 1.2 ponto-de-quebra (hormônio não é "substância que faz efeito")
+# 1.3 integração-posterior (prepara as duas rotas) | 1.4 analogia concreta (interfone × chave)
+# 2.1 ponto-de-quebra (a insulina não é traduzida pronta) | 2.2 enquadramento
+# 2.3 integração-anterior (retoma o receptor tirosina-quinase) | 2.4 analogia concreta (o mesmo botão, sinal oposto)
+# 3.1 integração-anterior (mesma cascata do glucagon, outro tecido) | 3.2 ponto-de-quebra (o que a tireoide libera não é o hormônio ativo)
+# 3.3 enquadramento | 3.4 integração-posterior (fecha o princípio do receptor)
+
+# ---------------------------------------------------------------------------
+# SEÇÃO B.ter — Pré-requisitos cruzados com frase-âncora pronta
+# ---------------------------------------------------------------------------
+# glicogênio: "o polímero ramificado de glicose que fígado e músculo guardam como
+#   estoque de liberação rápida"
+# glicólise: "a sequência citosólica que quebra glicose até piruvato, rendendo ATP"
+# gliconeogênese: "a via hepática que fabrica glicose nova a partir de lactato,
+#   aminoácidos e glicerol quando o estoque acaba"
+# fosforilação de proteína: "acrescentar um grupo fosfato do ATP a uma serina, treonina
+#   ou tirosina — muda a forma da proteína e, com ela, sua atividade"
+# transcrição: "copiar um gene em RNA mensageiro, primeiro passo para fabricar proteína nova"
+
+# ---------------------------------------------------------------------------
+# SEÇÃO C — Termo-notas obrigatórios (6-10)
+# ---------------------------------------------------------------------------
+# receptor · segundo mensageiro · proteína G trimérica · adenilato-ciclase ·
+# peptídeo C · canal de potássio sensível a ATP · glicoquinase · fosfoproteína-fosfatase 1 ·
+# fosfodiesterase · desiodinase · elemento responsivo · disruptor endócrino ·
+# radioimunoensaio · sulfonilureia
+#
+# Distribuição da E2 (PADRÃO): Q01-Q10 Consolidação · Q11-Q25 Integração · Q26-Q30 Aplicação.
+# Formatos: 10 C/E (4 itens I-IV cada) espalhados nas 3 categorias + 3 "assinale a incorreta".
+
+# ---------------------------------------------------------------------------
+# SEÇÃO D — Pontos de quebra do raciocínio (voz de mecanismo)
+# ---------------------------------------------------------------------------
+# - Quebra: achar que hormônio lipossolúvel é o único que muda expressão gênica e que
+#   hormônio de membrana só muda atividade de enzima já pronta.
+#   Correção: a cascata de segundo mensageiro também chega ao núcleo (a PKA fosforila
+#   fatores de transcrição); a diferença real é de VELOCIDADE e de onde o receptor mora.
+# - Quebra: tratar "amplificação" como sinônimo de "muito hormônio".
+#   Correção: a amplificação é numérica e ocorre em cada degrau — um receptor ativa
+#   várias proteínas G, cada ciclase faz muitas moléculas de segundo mensageiro.
+# - Quebra: inverter o sinal do canal de potássio na célula beta.
+#   Correção: o ATP FECHA o canal; fechar impede a saída de potássio, o interior fica
+#   menos negativo (despolariza) e o canal de cálcio dependente de voltagem abre.
+# - Quebra: dizer que a insulina "abre" o GLUT4.
+#   Correção: o GLUT4 já existe, guardado em vesículas; a insulina manda a vesícula
+#   fundir com a membrana — o número de transportadores na superfície é que sobe.
+# - Quebra: achar que glucagon e adrenalina agem nos mesmos tecidos pelo mesmo receptor.
+#   Correção: o músculo não tem receptor de glucagon; quem mobiliza glicogênio muscular
+#   é a adrenalina — e a glicose liberada fica no próprio músculo (sem glicose-6-fosfatase).
+# - Quebra: chamar T4 de hormônio ativo.
+#   Correção: T4 circula como reservatório e é a desiodinase do tecido-alvo que decide
+#   ativá-lo em T3 ou inativá-lo em T3 reverso.
+# - Quebra: ler a hiperpigmentação da insuficiência adrenal como efeito do cortisol baixo.
+#   Correção: sem cortisol não há retroalimentação negativa, a hipófise dispara ACTH, e o
+#   fragmento inicial da molécula de ACTH estimula o melanócito.
+
+# ---------------------------------------------------------------------------
+# SEÇÃO E — Exemplares-âncora
+# ---------------------------------------------------------------------------
+# Cat 1 (mecanismo parágrafo-a-parágrafo) — espinha da E1 inteira: cada cascata contada
+#   como causa → mecanismo → consequência, um ator por vez.
+# Cat 8 e 14 (universais) — boxes e siglas.
+# Cat 7 (analogia construtiva) — "interfone × chave da porta" para receptor de membrana ×
+#   receptor nuclear; usar UMA vez, sem esticar.
+# Cat 4 (magnitudes ancoradas) — concentração nanomolar do hormônio × massa de glicogênio
+#   mobilizada; sustenta o subtópico da amplificação.
+# Cat 6 (organização terminológica) — classes químicas de hormônio e famílias de GLUT.
+# Cat 9 (clinica-box) — insulinoma, diabetes tipo 2 e sulfonilureia, insuficiência adrenal.
+# Cat 16 (catálogo de família) — tabela dos GLUTs (gatilho de tabela da Cat 18).
+# ANTI-EXEMPLARES A2/A3 (camada sem porquê) e A4 (rajada de siglas) — vigiar de perto:
+#   este tema é um campo minado de siglas.
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "ECCC"]
+    - ["03", "E"]
+    - ["04", "B"]
+    - ["05", "ECCE"]
+    - ["06", "D"]
+    - ["07", "A"]
+    - ["08", "CCEE"]
+    - ["09", "C"]
+    - ["10", "E"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "ECEC"]
+    - ["13", "D"]
+    - ["14", "A"]
+    - ["15", "CEEC"]
+    - ["16", "E"]
+    - ["17", "C"]
+    - ["18", "ECCE"]
+    - ["19", "B"]
+    - ["20", "D"]
+    - ["21", "CCEC"]
+    - ["22", "A"]
+    - ["23", "E"]
+    - ["24", "EECC"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "C"]
+    - ["28", "ECEC"]
+    - ["29", "A"]
+    - ["30", "E"]

@@ -1,231 +1,232 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [Um hormônio lançado na corrente sanguínea alcança praticamente todas as células do corpo, mas apenas alguns tecidos alteram seu comportamento. O que explica mecanisticamente essa seletividade:],
+  (("A", [A molécula do hormônio carrega uma sequência de endereçamento reconhecida pelas células-alvo, que a captam ativamente, enquanto os demais tecidos a degradam antes que ela atravesse a parede do capilar.]),
+   ("B", [O fluxo sanguíneo preferencial dirige o hormônio aos órgãos-alvo, de modo que os outros tecidos recebem concentrações baixas demais para ocupar seus receptores e disparar qualquer resposta.]),
+   ("C", [Somente as células que expressam o receptor correspondente ligam o hormônio com alta afinidade e convertem essa ligação numa mudança interna; as demais são banhadas pela molécula sem reagir a ela.]),
+   ("D", [As proteínas transportadoras do plasma soltam o hormônio apenas na vizinhança dos órgãos-alvo, e é essa liberação localizada, e não o receptor, que determina qual tecido responde ao sinal.]),
+   ("E", [O tamanho da molécula impede sua passagem pelo endotélio da maior parte dos capilares, restringindo o acesso do hormônio aos tecidos cujos capilares são fenestrados ou descontínuos.])))
 
-#questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+#questao-ce("02", badge-consolidacao,
+  [Julgue os itens sobre a relação entre a classe química de um hormônio e o modo como ele é armazenado, transportado e reconhecido:],
+  (("I", [Hormônios esteroides são guardados em grânulos secretores prontos, o que permite liberá-los em segundos diante de um estresse agudo.]),
+   ("II", [A fração de cortisol ligada à globulina transportadora funciona como reservatório e não tem acesso ao receptor enquanto permanecer ligada.]),
+   ("III", [Hormônios peptídicos não atravessam a membrana plasmática e por isso dependem obrigatoriamente de receptores situados na superfície da célula.]),
+   ("IV", [Os hormônios tireoidianos, embora derivem de tirosina, comportam-se como moléculas lipossolúveis e encontram seu receptor dentro da célula.])))
 
-#questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+#questao-mc("03", badge-consolidacao,
+  [Na célula beta pancreática, o aumento da razão entre ATP e ADP atua sobre o canal de potássio sensível a ATP. O efeito desse aumento sobre o potencial de membrana e sua causa imediata são:],
+  (("A", [O canal se abre, o potássio sai em maior quantidade levando carga positiva embora, e a membrana se hiperpolariza até que os canais de cálcio dependentes de voltagem se fechem completamente.]),
+   ("B", [O canal se fecha, o cloreto passa a entrar para compensar a carga retida, e a membrana se hiperpolariza, impedindo a fusão das vesículas de insulina com a membrana plasmática.]),
+   ("C", [O canal se abre e permite a entrada de potássio a favor do gradiente eletroquímico, o que despolariza a membrana e ativa diretamente a exocitose, sem participação do cálcio.]),
+   ("D", [O canal permanece inalterado, e a despolarização decorre da entrada de glicose acompanhada de sódio pelo transportador, que carrega carga positiva para dentro da célula beta.]),
+   ("E", [O canal se fecha, interrompendo a saída de potássio que mantinha o interior muito negativo; a carga positiva retida despolariza a membrana e abre canais de cálcio dependentes de voltagem.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [Por que a glicoquinase do hepatócito e da célula beta serve como sensor de glicemia, enquanto a hexoquinase dos demais tecidos não serve:],
+  (("A", [Porque a glicoquinase fosforila a glicose usando GTP em vez de ATP, de modo que sua velocidade acompanha o estado energético da célula em vez de acompanhar a concentração externa de glicose.]),
+   ("B", [Porque a glicoquinase tem baixa afinidade e não é inibida pelo próprio produto, permanecendo longe da saturação na faixa fisiológica, de modo que sua velocidade acompanha a glicemia.]),
+   ("C", [Porque a glicoquinase é a única das duas capaz de fosforilar a glicose no carbono 6, e essa fosforilação é o passo que aprisiona o açúcar dentro da célula que o captou.]),
+   ("D", [Porque a hexoquinase só é expressa em tecidos que dependem de insulina para captar glicose, e a presença do hormônio mascara qualquer informação sobre a concentração circulante do açúcar.]),
+   ("E", [Porque a glicoquinase é uma enzima alostérica regulada por AMP cíclico, o que a torna sensível ao glucagon e, indiretamente, à concentração de glicose presente no sangue naquele momento.])))
 
-#questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+#questao-ce("05", badge-consolidacao,
+  [Julgue os itens sobre os efeitos da insulina no músculo esquelético e no fígado:],
+  (("I", [A insulina eleva a captação muscular de glicose porque induz, em poucos minutos, a síntese de novas moléculas de transportador GLUT4 na membrana.]),
+   ("II", [A fosfoproteína-fosfatase 1 ativada pela via da insulina remove fosfatos da glicogênio-sintase, e essa desfosforilação a torna ativa.]),
+   ("III", [A mesma fosfatase remove fosfatos da glicogênio-fosforilase, e nessa enzima a desfosforilação produz o efeito oposto, inativando-a.]),
+   ("IV", [O hepatócito depende do recrutamento de GLUT4 para a membrana para captar a glicose que chega após a refeição.])))
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+#questao-mc("06", badge-consolidacao,
+  [Sobre a cascata disparada pelo glucagon no hepatócito, assinale a alternativa *incorreta*:],
+  (("A", [O receptor de sete hélices transmembrana, ao ligar o glucagon, faz a subunidade alfa da proteína G soltar o GDP e captar um GTP, o que a desprende e a ativa.]),
+   ("B", [A adenilato-ciclase ativada converte ATP em AMP cíclico, e esse segundo mensageiro se liga às subunidades reguladoras da proteína-quinase A, liberando as subunidades catalíticas.]),
+   ("C", [A proteína-quinase A fosforila a fosforilase-quinase, e é esta que fosforila a glicogênio-fosforilase, convertendo a forma b, pouco ativa, na forma a, ativa.]),
+   ("D", [A proteína-quinase A ativa a fosfoproteína-fosfatase 1, que desfosforila a glicogênio-sintase e acelera a incorporação de glicose ao glicogênio hepático durante o jejum.]),
+   ("E", [O sinal é encerrado em mais de um degrau: a subunidade alfa hidrolisa o próprio GTP, e a fosfodiesterase degrada o AMP cíclico acumulado no citoplasma.])))
 
 #questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+  [Uma concentração hormonal da ordem de nanomolar é capaz de mobilizar quantidades de glicogênio milhares de vezes maiores em massa. O mecanismo que explica essa desproporção é:],
+  (("A", [O ganho se multiplica a cada degrau da cascata: um receptor ocupado ativa várias proteínas G, cada ciclase produz muitas moléculas de segundo mensageiro e cada quinase fosforila muitos alvos.]),
+   ("B", [O hormônio permanece ligado ao receptor por horas, e a duração prolongada da ocupação, e não o número de moléculas ativadas em cada etapa, é o que multiplica a resposta final.]),
+   ("C", [O receptor internaliza o hormônio e o transporta até o núcleo, onde uma única molécula é suficiente para transcrever milhares de cópias do RNA mensageiro da enzima-alvo.]),
+   ("D", [A enzima final da cascata é alostérica, e sua curva sigmoide converte a pequena variação de concentração hormonal numa variação enorme de velocidade sem qualquer etapa intermediária.]),
+   ("E", [O hormônio circula ligado a proteínas transportadoras que o concentram cerca de mil vezes na superfície da célula-alvo antes de entregá-lo ao receptor de membrana correspondente.])))
 
-#questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+#questao-ce("08", badge-consolidacao,
+  [Julgue os itens sobre os hormônios tireoidianos:],
+  (("I", [O T4 é secretado em quantidade muito maior que o T3, mas o receptor nuclear tem afinidade bem maior pelo T3.]),
+   ("II", [A retirada de um iodo do anel interno gera T3 reverso, que não ativa o receptor e representa uma via de inativação.]),
+   ("III", [A conversão de T4 em T3 ocorre exclusivamente dentro da tireoide, antes que o hormônio seja lançado na circulação.]),
+   ("IV", [O receptor de hormônio tireoidiano só se associa ao DNA depois de ter ligado o hormônio, permanecendo solúvel no citoplasma até então.])))
 
-#questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+#questao-mc("09", badge-consolidacao,
+  [Qual é a função do peptídeo C na biossíntese da insulina, e por que sua dosagem informa sobre a produção endógena do hormônio:],
+  (("A", [Ele é a porção da molécula que se liga ao receptor de insulina; sua dosagem estima quantos receptores estão ocupados e, portanto, o quanto o hormônio está sendo efetivamente utilizado.]),
+   ("B", [Ele é a sequência-sinal que endereça a cadeia nascente ao retículo endoplasmático; como é clivado logo na entrada, sua concentração reflete a velocidade de tradução do hormônio.]),
+   ("C", [Ele mantém as cadeias A e B alinhadas enquanto as pontes dissulfeto se formam e depois é removido e secretado junto com a insulina, ausente nas preparações farmacêuticas do hormônio.]),
+   ("D", [Ele é a proteína transportadora que carrega a insulina no plasma e prolonga sua meia-vida; sua dosagem informa quanto hormônio está protegido da degradação hepática de primeira passagem.]),
+   ("E", [Ele é o fragmento gerado pela degradação da insulina no fígado, de modo que sua concentração no plasma acompanha a intensidade da depuração hepática do hormônio circulante.])))
 
 #questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+  [Na via de biossíntese das catecolaminas, qual etapa é limitante e qual a consequência disso para a regulação da via:],
+  (("A", [A descarboxilação da DOPA em dopamina é a etapa limitante, de modo que regular a disponibilidade de vitamina B6 é o principal mecanismo de controle da produção de adrenalina.]),
+   ("B", [A metilação final da noradrenalina é limitante, e por isso a produção de todas as catecolaminas depende diretamente da concentração de cortisol que chega à medula adrenal.]),
+   ("C", [A captação de tirosina pela célula cromafim é limitante, o que faz a produção de catecolaminas variar de acordo com a oferta alimentar de aminoácidos aromáticos ao longo do dia.]),
+   ("D", [A hidroxilação da dopamina em noradrenalina é limitante, e é ela que determina a proporção final entre noradrenalina e adrenalina liberadas na circulação pela medula da suprarrenal.]),
+   ("E", [A hidroxilação da tirosina em DOPA é a etapa limitante, e por isso essa primeira enzima da via é o ponto onde a produção do conjunto das catecolaminas é regulada.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [Considere um hepatócito em jejum, exposto a glucagon. Comparando o número de moléculas envolvidas em cada degrau da via, a afirmação que descreve corretamente a amplificação é:],
+  (("A", [O número de moléculas ativadas permanece constante ao longo da via, porque cada proteína ativa exatamente uma proteína seguinte; o que amplifica é a duração do estímulo hormonal.]),
+   ("B", [Cada degrau multiplica o número do degrau anterior, de modo que os ganhos se compõem e poucas moléculas de hormônio geram milhares de moléculas de fosforilase ativa.]),
+   ("C", [A amplificação ocorre apenas no último degrau, quando a glicogênio-fosforilase ativa remove milhares de resíduos de glicose de uma única molécula ramificada de glicogênio.]),
+   ("D", [O ganho é subtrativo, pois parte do sinal se perde a cada etapa por ação de fosfatases, e a resposta final é sempre menor que a prevista pelo número de receptores ocupados.]),
+   ("E", [A amplificação depende de o hormônio entrar na célula e ativar diretamente várias enzimas ao mesmo tempo, dispensando a formação de segundo mensageiro no citoplasma do hepatócito.])))
 
 #questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+  [Julgue os itens que relacionam a solubilidade do hormônio ao mecanismo do seu receptor:],
+  (("I", [Por serem lipossolúveis, esteroides e hormônios tireoidianos dispensam proteínas transportadoras para circular no plasma.]),
+   ("II", [O receptor de glicocorticoide é mantido inativo no citoplasma por uma proteína-chaperona até que o hormônio chegue e o libere.]),
+   ("III", [A resposta mediada por receptor nuclear se instala em segundos, na mesma escala de tempo da resposta mediada por AMP cíclico.]),
+   ("IV", [Tanto o receptor de glicocorticoide quanto o de hormônio tireoidiano atuam ligando-se a sequências específicas do DNA e alterando a transcrição.])))
 
 #questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+  [Um fármaco liga-se ao canal de potássio sensível a ATP da célula beta e o mantém aberto. Considerando a cadeia que acopla glicemia e secreção, o efeito esperado sobre a insulina e a situação clínica em que isso é útil são:],
+  (("A", [A célula despolariza continuamente e secreta mais insulina, o que é útil no diabetes tipo 2, em que a resistência periférica exige concentrações hormonais mais altas para o mesmo efeito.]),
+   ("B", [A secreção passa a acompanhar mais fielmente a glicemia, porque o canal aberto restaura a proporcionalidade perdida entre a produção de ATP e o potencial de membrana da célula beta.]),
+   ("C", [A entrada de cálcio aumenta por difusão através do próprio canal aberto, elevando a secreção de insulina de modo independente da glicemia, o que é útil no diabetes de longa data.]),
+   ("D", [A membrana permanece hiperpolarizada, os canais de cálcio não se abrem e a secreção cai, o que é útil na hiperinsulinemia por insulinoma enquanto a cirurgia não é realizada.]),
+   ("E", [O efeito é idêntico ao de uma sulfonilureia, já que ambos os fármacos agem no mesmo canal, e a diferença entre eles está apenas na duração do efeito sobre a célula beta.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [Insulina e glucagon produzem efeitos opostos sobre as mesmas duas enzimas do metabolismo do glicogênio. A explicação mecanística dessa oposição é:],
+  (("A", [Um deles retira e o outro põe fosfatos nas mesmas enzimas, e como o fosfato ativa a fosforilase e inativa a sintase, a mesma marca química produz efeitos opostos em cada uma.]),
+   ("B", [Cada hormônio ativa uma isoforma tecidual diferente das duas enzimas, de modo que não há competição pelo mesmo substrato e os efeitos se somam em vez de se anularem.]),
+   ("C", [O glucagon age sobre a enzima de degradação e a insulina sobre a de síntese, sem que nenhum dos dois interfira na enzima controlada pelo hormônio contrário no hepatócito.]),
+   ("D", [A oposição é apenas de expressão gênica: um hormônio induz a transcrição da sintase e o outro induz a da fosforilase, e o efeito só aparece algumas horas depois do estímulo.]),
+   ("E", [Ambos elevam o AMP cíclico, mas em magnitudes diferentes, e é o valor absoluto do segundo mensageiro que determina qual das duas enzimas prevalece naquele momento.])))
 
 #questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+  [Julgue os itens sobre a mobilização de glicogênio no músculo e no fígado durante o exercício:],
+  (("I", [A adrenalina mobiliza o glicogênio muscular pela mesma cascata do AMP cíclico que o glucagon utiliza no hepatócito.]),
+   ("II", [O glucagon contribui diretamente para a glicogenólise muscular, ligando-se a receptores próprios na membrana da fibra.]),
+   ("III", [A glicose liberada do glicogênio muscular é exportada para o sangue e ajuda a sustentar a glicemia durante o esforço.]),
+   ("IV", [A adrenalina inibe a secreção de insulina e estimula a de glucagon, reforçando a mobilização de combustível.])))
 
 #questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+  [Pró-insulina e pró-glucagon ilustram um mesmo princípio de processamento pós-traducional. Qual afirmação captura esse princípio comum:],
+  (("A", [Em ambos os casos o precursor já é biologicamente ativo, e o corte proteolítico serve apenas para encurtar a molécula e facilitar sua passagem pela parede do capilar fenestrado.]),
+   ("B", [Em ambos os casos o corte ocorre no retículo endoplasmático imediatamente após a tradução, e o produto final é armazenado em vesículas sem sofrer qualquer modificação posterior.]),
+   ("C", [Em ambos os casos o precursor é clivado no plasma por proteases circulantes, de modo que o tecido de origem não influencia qual fragmento ativo será finalmente gerado.]),
+   ("D", [Em ambos os casos o fragmento descartado é degradado localmente, razão pela qual nenhum deles pode ser dosado no sangue para estimar a produção do hormônio correspondente.]),
+   ("E", [Em ambos os casos o corte proteolítico é etapa reguladora, e no pró-glucagon a protease expressa em cada tecido decide se o produto será glucagon ou uma incretina.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [Sobre o desligamento da sinalização por AMP cíclico e sua falha na cólera, assinale a alternativa *incorreta*:],
+  (("A", [A subunidade alfa da proteína G é ela própria uma enzima que hidrolisa o GTP a que está ligada, e essa hidrólise a devolve ao estado inativo depois de alguns segundos.]),
+   ("B", [A toxina bacteriana modifica quimicamente essa subunidade e impede a hidrólise do GTP, de modo que a adenilato-ciclase permanece continuamente ativa no enterócito.]),
+   ("C", [O acúmulo de AMP cíclico reduz a secreção de cloreto pela membrana apical, e a diarreia decorre da má absorção de glicose e de sódio pelas células da mucosa intestinal.]),
+   ("D", [A fosfodiesterase encerra o sinal degradando o AMP cíclico acumulado, e é um dos alvos pelos quais a própria insulina apaga a via do hormônio contrário.]),
+   ("E", [As fosfatases removem os fosfatos colocados pelas quinases, revertendo as alterações de atividade enzimática produzidas durante a fase ativa da cascata.])))
 
-#questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+#questao-ce("18", badge-integracao,
+  [Julgue os itens sobre a ativação tecidual dos hormônios tireoidianos e o eixo que os controla:],
+  (("I", [A queda de T3 acompanhada de aumento de T3 reverso em doença grave indica falência primária da glândula tireoide.]),
+   ("II", [Com a alça de retroalimentação íntegra, o hormônio tireoestimulante se move na direção oposta à do hormônio produzido pela glândula.]),
+   ("III", [Cada tecido regula localmente a intensidade do sinal tireoidiano que recebe por meio das suas próprias desiodinases.]),
+   ("IV", [A retroalimentação negativa exercida pelos hormônios tireoidianos age apenas sobre o hipotálamo, poupando a hipófise.])))
 
 #questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+  [Um paciente em uso prolongado de glicocorticoide desenvolve hiperglicemia apesar de concentrações elevadas de insulina. A explicação mecanística que integra os dois hormônios é:],
+  (("A", [O glicocorticoide degrada a insulina circulante no fígado, e a hiperglicemia decorre da redução da meia-vida do hormônio, apesar de sua secreção pancreática estar aumentada.]),
+   ("B", [O cortisol estimula a gliconeogênese hepática e inibe a captação de glicose no músculo e no tecido adiposo, opondo-se à ação da insulina nesses mesmos tecidos.]),
+   ("C", [O glicocorticoide bloqueia fisicamente o receptor de insulina na membrana da fibra muscular, impedindo a autofosforilação das tirosinas e o recrutamento do transportador.]),
+   ("D", [O cortisol reduz a expressão de glicoquinase na célula beta, o que impede o pâncreas de perceber a glicemia elevada e de secretar insulina em quantidade proporcional a ela.]),
+   ("E", [O excesso de glicocorticoide converte o receptor de insulina num receptor acoplado a proteína G, o que desvia a sinalização para o AMP cíclico e produz efeito contrário ao esperado.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [A enzima que converte noradrenalina em adrenalina é expressa em quantidade praticamente só na medula da suprarrenal. A explicação anatômica e mecanística desse fato é:],
+  (("A", [A medula adrenal é o único tecido que capta tirosina em quantidade suficiente, e a concentração local do aminoácido precursor é o que determina a expressão da enzima metiltransferase.]),
+   ("B", [A enzima depende de oxigênio em tensão elevada, e apenas a medula adrenal recebe sangue arterial direto, sem que ele tenha atravessado antes qualquer leito capilar.]),
+   ("C", [A medula adrenal deriva da crista neural, e essa origem embrionária determina, por si só, quais enzimas da via das catecolaminas serão expressas em cada tecido do organismo.]),
+   ("D", [O sangue que irriga a medula passa antes pelo córtex adrenal e chega carregado de cortisol, que induz a expressão da enzima ali em concentração muito maior que a sistêmica.]),
+   ("E", [A enzima é inibida pela noradrenalina liberada nas terminações simpáticas, de modo que só nos tecidos sem inervação simpática significativa ela consegue permanecer funcionalmente ativa.])))
 
-#questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens sobre a família dos transportadores de glicose e sua relação com a insulina:],
+  (("I", [O GLUT2 do hepatócito e da célula beta tem baixa afinidade, o que permite que o fluxo de glicose acompanhe as oscilações da glicemia.]),
+   ("II", [O GLUT3 dos neurônios tem alta afinidade e sustenta a captação mesmo quando a glicemia cai abaixo do valor basal.]),
+   ("III", [O GLUT1, responsável pela captação basal em vários tecidos, depende da insulina para ser deslocado até a membrana plasmática.]),
+   ("IV", [O GLUT4 do músculo e do tecido adiposo é recrutado de vesículas citoplasmáticas para a membrana sob comando da insulina.])))
 
 #questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+  [Comparando o receptor de insulina com o receptor de glucagon, a diferença mecanística fundamental entre eles é:],
+  (("A", [O de insulina é uma enzima que se autofosforila em tirosinas e cria plataformas de ancoragem, enquanto o de glucagon atua trocando nucleotídeo numa proteína G que ativa a ciclase.]),
+   ("B", [O de insulina atravessa a membrana uma única vez e o de glucagon a atravessa sete vezes, e essa diferença de topologia é o que determina a velocidade de cada resposta celular.]),
+   ("C", [O de insulina é intracelular e atua sobre o DNA, enquanto o de glucagon é de superfície e atua exclusivamente sobre enzimas já existentes no citoplasma do hepatócito.]),
+   ("D", [O de insulina não produz segundo mensageiro algum e o de glucagon produz vários simultaneamente, o que explica por que a resposta ao glucagon é mais duradoura que a da insulina.]),
+   ("E", [O de insulina precisa dimerizar antes de ligar o hormônio, enquanto o de glucagon já é constitutivamente dimérico e apenas muda de conformação quando o hormônio se acomoda nele.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Durante uma corrida intensa, a fibra muscular mobiliza glicogênio mesmo antes que a adrenalina circulante alcance concentração máxima. O mecanismo responsável por essa mobilização precoce é:],
+  (("A", [A queda do pH intracelular converte a glicogênio-fosforilase b em a sem participação de quinase alguma, dispensando qualquer sinal hormonal durante a fase inicial do esforço.]),
+   ("B", [O cálcio liberado do retículo sarcoplasmático inibe a fosfoproteína-fosfatase, e essa inibição sozinha mantém a fosforilase na forma fosforilada por várias horas de exercício.]),
+   ("C", [A insulina liberada pelo próprio esforço fosforila a fosforilase muscular, num efeito oposto ao que ela exerce no hepatócito em repouso e após a refeição.]),
+   ("D", [A glicose-6-fosfatase muscular hidrolisa o produto e desloca o equilíbrio da reação, o que acelera a glicogenólise independentemente do estado de fosforilação da enzima.]),
+   ("E", [O AMP acumulado pelo consumo de ATP se liga alostericamente à forma b da fosforilase e a ativa, de modo que a necessidade energética local antecipa a ordem hormonal.])))
 
-#questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+#questao-ce("24", badge-integracao,
+  [Julgue os itens sobre disruptores endócrinos e o receptor de hormônios lipossolúveis:],
+  (("I", [Um disruptor que bloqueia o receptor produz o mesmo quadro funcional que um disruptor que imita o hormônio.]),
+   ("II", [Os receptores de superfície são os mais vulneráveis à ação de disruptores lipossolúveis presentes no ambiente.]),
+   ("III", [Um imitador dispara uma resposta em momento e intensidade que não foram determinados por glândula alguma.]),
+   ("IV", [Compostos lipossolúveis persistentes acumulam-se no tecido adiposo, prolongando a exposição muito além do contato inicial.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+#questao-mc("25", badge-integracao,
+  [Por que a meia-vida do cortisol é medida em horas enquanto a da insulina é medida em minutos, e qual a consequência funcional dessa diferença:],
+  (("A", [Porque o cortisol é uma molécula muito maior e resiste mais à filtração glomerular, o que permite respostas rápidas ao estresse agudo com concentrações plasmáticas baixas.]),
+   ("B", [Porque o cortisol circula em grande parte ligado a uma globulina transportadora que o protege da degradação, o que sustenta um sinal prolongado em vez de um ajuste minuto a minuto.]),
+   ("C", [Porque o receptor do cortisol é intracelular e o mantém sequestrado no citoplasma, de modo que a molécula deixa de estar disponível para ser depurada pelo fígado ou pelo rim.]),
+   ("D", [Porque a insulina é degradada por proteases plasmáticas específicas que não existem para esteroides, e a diferença de meia-vida não guarda relação com o transporte no plasma.]),
+   ("E", [Porque o cortisol é sintetizado continuamente e estocado em grânulos no córtex adrenal, e é a reposição constante do estoque que dá a impressão de uma meia-vida mais longa.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Um homem de 42 anos, sem diabetes, é levado ao pronto-socorro com sudorese e confusão. A glicemia é de 38 mg/dL, a insulina plasmática está muito elevada e o peptídeo C está indetectável. A interpretação mecanística correta é:],
+  (("A", [Trata-se de um insulinoma, pois o tumor de células beta secreta insulina de forma autônoma e a hipoglicemia resultante suprime a produção do peptídeo acompanhante pelas ilhotas restantes.]),
+   ("B", [Trata-se de deficiência de glicoquinase hepática, que impede o fígado de captar glicose e obriga o pâncreas a secretar insulina em excesso, consumindo o estoque de peptídeo disponível.]),
+   ("C", [Trata-se de resistência periférica à insulina, situação em que o hormônio se acumula no plasma sem produzir efeito e o peptídeo acompanhante é depurado mais rapidamente pelo rim.]),
+   ("D", [Trata-se de insulina administrada de fora, pois o peptídeo secretado junto com o hormônio endógeno não acompanha as preparações farmacêuticas e por isso está ausente no plasma.]),
+   ("E", [Trata-se de insuficiência adrenal, em que a falta de cortisol remove o efeito contrarregulador e eleva a insulina plasmática, ao mesmo tempo suprimindo a secreção do peptídeo pelas ilhotas.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+  [Uma mulher de 30 anos apresenta, minutos após uma picada de inseto, urticária, hipotensão e sibilos difusos. Recebe adrenalina intramuscular. Sobre a base mecanística dessa conduta, assinale a alternativa *incorreta*:],
+  (("A", [A contração da musculatura lisa vascular mediada por receptores alfa eleva a resistência periférica e ajuda a restaurar a pressão arterial que havia caído com a vasodilatação difusa.]),
+   ("B", [O relaxamento da musculatura lisa brônquica mediado por receptores beta amplia o calibre da via aérea e alivia o componente obstrutivo responsável pelos sibilos difusos.]),
+   ("C", [O efeito começa em horas porque depende da ligação do hormônio a um receptor intracelular e da consequente transcrição de genes que codificam as proteínas efetoras da resposta.]),
+   ("D", [O aumento da frequência e da força de contração do coração eleva o débito cardíaco, somando-se à vasoconstrição periférica na recuperação da perfusão dos órgãos vitais.]),
+   ("E", [A catecolamina já se encontra pronta em vesículas quando liberada pelo próprio organismo, e é essa mesma rapidez de ação que a torna adequada como fármaco nessa emergência.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+  [Uma mulher de 35 anos procura atendimento por fadiga, perda de peso, hipotensão postural e escurecimento progressivo da pele e das mucosas. Julgue os itens:],
+  (("I", [O escurecimento da pele decorre diretamente do excesso de cortisol circulante estimulando os melanócitos.]),
+   ("II", [A ausência de retroalimentação negativa eleva o hormônio adrenocorticotrófico, cujos primeiros aminoácidos estimulam o melanócito.]),
+   ("III", [O quadro é compatível com lesão da hipófise, situação em que cortisol e hormônio adrenocorticotrófico estariam ambos elevados.]),
+   ("IV", [A reposição de glicocorticoide tende a atenuar a hiperpigmentação ao restaurar o freio sobre a secreção hipofisária.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Um homem de 68 anos com diabetes tipo 2 em uso de sulfonilureia é encontrado sonolento após pular o almoço. A glicemia capilar é de 44 mg/dL. O mecanismo que explica esse desfecho é:],
+  (("A", [A sulfonilureia fecha o canal de potássio da célula beta diretamente, de modo que a secreção de insulina deixa de ser proporcional à glicemia e prossegue mesmo em jejum.]),
+   ("B", [A sulfonilureia aumenta a sensibilidade periférica à insulina no músculo, e o jejum prolongado esgota o glicogênio hepático antes que a gliconeogênese consiga assumir a produção.]),
+   ("C", [A sulfonilureia inibe a glicogênio-fosforilase hepática, impedindo que o fígado libere glicose no intervalo entre as refeições e provocando queda progressiva da glicemia.]),
+   ("D", [A sulfonilureia bloqueia o receptor de glucagon no hepatócito, o que anula a resposta contrarreguladora e deixa o paciente sem defesa diante de qualquer período de jejum.]),
+   ("E", [A sulfonilureia estimula a captação muscular de glicose ao recrutar transportadores GLUT4 para a membrana, efeito que persiste mesmo quando não há glicose sendo absorvida.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+  [O rastreamento neonatal identifica hipotireoidismo congênito, e a reposição é iniciada nos primeiros dias de vida porque o atraso produz dano neurológico irreversível. O mecanismo molecular que sustenta essa urgência é:],
+  (("A", [Sem hormônio tireoidiano, o receptor nuclear é marcado para degradação no proteassomo, e a reposição tardia encontra a célula sem receptor disponível para responder ao hormônio administrado, de modo que a janela terapêutica se fecha.]),
+   ("B", [O hormônio tireoidiano é o único capaz de atravessar a barreira hematoencefálica no período neonatal, e essa permeabilidade se perde nas primeiras semanas de vida, quando as junções oclusivas do endotélio terminam de amadurecer.]),
+   ("C", [O excesso compensatório de hormônio tireoestimulante lesa diretamente o tecido nervoso em formação ao superestimular receptores presentes no neurônio imaturo, e a reposição precoce serve sobretudo para suprimir essa elevação hipofisária.]),
+   ("D", [A ausência do hormônio impede a conversão periférica de T4 em T3, e sem T3 o encéfalo passa a depender exclusivamente do T3 reverso, que não sustenta o crescimento neuronal.]),
+   ("E", [O receptor já ocupa o DNA na ausência do hormônio e mantém reprimidos os genes que controla, de modo que a carência não é apenas falta de estímulo, e sim um freio ativo sobre a expressão.])))
