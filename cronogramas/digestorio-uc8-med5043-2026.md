@@ -42,5 +42,5 @@
 **Locais:** anf. 06 / 202 · lab 007 (Anatomia) · sala 130 ICBI (BioTec/Fisiologia).
 
 ## Estado NEBLI
-- Nenhum resumo gerado ainda.
+- **1º resumo da UC-8 gerado (2026-08-19):** *Tubo digestório e estômago* — Bio Tecidual II, aula 1 (Módulo 1 Estrutura Geral + Módulo 2 Estômago), Profa. Dra. Patrícia Gama (ICB-USP). Slug `biotec-01-tubo-digestorio-estomago`; PDF `Tubo Digestório e Estômago - Etapas 1 a 3 - PG.pdf` (41 pp., E1 de 22). Cobre a aula de Bio Tecidual do bloco P1 (Turma B, 17/08 e 24/08). Deck-aula ainda **não** montado — AnkiConnect é localhost e a sessão rodou em container remoto.
 - **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.
