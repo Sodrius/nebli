@@ -1,0 +1,58 @@
+slug: biotec-01-tubo-digestorio-estomago
+titulo: "Tubo digestório e estômago"
+subtitulo: "Biologia Tecidual"
+meta:
+  - ["Disciplina", "Biologia Tecidual — Sistema Digestório"]
+  - ["Onde estudar", "Junqueira & Carneiro · Histologia Básica (14ª ed.), cap. 15–16 · Kierszenbaum · Histologia e Biologia Celular (4ª ed.), cap. 15 · Gartner & Hiatt · Atlas Colorido de Histologia · Wheater · Histologia Funcional"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O plano comum: as quatro túnicas"
+        subtopicos:
+          - "1.1–1.2 Plano geral e mucosa por dentro"
+          - "1.3–1.4 Submucosa, muscular e os dois plexos"
+          - "1.5 Serosa ou adventícia"
+      - titulo: "PARTE II — A entrada do tubo: da boca ao esôfago"
+        subtopicos:
+          - "2.1–2.2 Boca, língua e dente"
+          - "2.3 Glândulas salivares"
+          - "2.4 Esôfago — o plano em forma legível"
+      - titulo: "PARTE III — O estômago: mucosa, regiões e células"
+        subtopicos:
+          - "3.1–3.2 Túnicas gástricas e as três regiões"
+          - "3.3–3.4 Eixo istmo-colo-base e os tipos celulares"
+          - "3.5–3.6 Célula parietal e a barreira mucosa"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "CCEE"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "B"]
+    - ["07", "CCCE"]
+    - ["08", "A"]
+    - ["09", "ECCE"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "E"]
+    - ["13", "CCCE"]
+    - ["14", "D"]
+    - ["15", "B"]
+    - ["16", "ECCE"]
+    - ["17", "C"]
+    - ["18", "A"]
+    - ["19", "ECCC"]
+    - ["20", "E"]
+    - ["21", "D"]
+    - ["22", "CECC"]
+    - ["23", "A"]
+    - ["24", "D"]
+    - ["25", "CEEC"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "ECEE"]
+    - ["28", "E"]
+    - ["29", "C"]
+    - ["30", "EECE"]

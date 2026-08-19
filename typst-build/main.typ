@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- biotec-01-tubo-digestorio-estomago | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,31 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Tubo digestório e estômago",
+  "Biologia Tecidual",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Biologia Tecidual — Sistema Digestório"),
+    ("Onde estudar", "Junqueira & Carneiro · Histologia Básica (14ª ed.), cap. 15–16 · Kierszenbaum · Histologia e Biologia Celular (4ª ed.), cap. 15 · Gartner & Hiatt · Atlas Colorido de Histologia · Wheater · Histologia Funcional"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O plano comum: as quatro túnicas", (
+      "1.1–1.2 Plano geral e mucosa por dentro",
+      "1.3–1.4 Submucosa, muscular e os dois plexos",
+      "1.5 Serosa ou adventícia",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A entrada do tubo: da boca ao esôfago", (
+      "2.1–2.2 Boca, língua e dente",
+      "2.3 Glândulas salivares",
+      "2.4 Esôfago — o plano em forma legível",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — O estômago: mucosa, regiões e células", (
+      "3.1–3.2 Túnicas gástricas e as três regiões",
+      "3.3–3.4 Eixo istmo-colo-base e os tipos celulares",
+      "3.5–3.6 Célula parietal e a barreira mucosa",
     )),
   )),
 ))
@@ -57,39 +55,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("01", "B"),
+    ("02", "D"),
+    ("03", "CCEE"),
     ("04", "D"),
     ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("06", "B"),
+    ("07", "CCCE"),
+    ("08", "A"),
+    ("09", "ECCE"),
+    ("10", "C"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("11", "B"),
+    ("12", "E"),
+    ("13", "CCCE"),
+    ("14", "D"),
+    ("15", "B"),
+    ("16", "ECCE"),
+    ("17", "C"),
+    ("18", "A"),
+    ("19", "ECCC"),
+    ("20", "E"),
+    ("21", "D"),
+    ("22", "CECC"),
+    ("23", "A"),
+    ("24", "D"),
+    ("25", "CEEC"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "B"),
+    ("27", "ECEE"),
+    ("28", "E"),
+    ("29", "C"),
+    ("30", "EECE"),
   )),
 ))

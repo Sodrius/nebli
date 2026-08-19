@@ -1,0 +1,60 @@
+# MAPA_CONTEUDO -- biotec-01-tubo-digestorio-estomago
+# Slide-fonte: 4172ba57-BioTecidual_tubodigestorio_aula_1_25.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Imagem: Mariana A A Kuriyama
+slide-02: Trato gastrintestinal Wheather Histology Text and Atlas Giulia Enders
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: Kierszenbaum, 2016
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: Kierszenbaum, 2016
+slide-07: Língua- superfície ventral
+slide-08: Gartner & Hyatt
+slide-09: dente em crescimento Esmalte Dentina Polpa Osso alveolar Ligamento periodontal Cemento Coroa raiz
+slide-10: Glândulas anexas parótida submandibular sublingual Sobotta- Histologie
+slide-11: Kierszenbaum, 2016
+slide-12: Wheather- Histolology Text & Atlas
+slide-13: Sobotta- Histologie camada mucosa camada submucosa plexo mioentérico pl. submucoso túnicas musculares camada serosa ou adventícia
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: Motilidade e trânsito Gartner and Hiatt, 2007
+slide-16: Plexo submucoso Submucosa Túnica muscular Circular interna Motilidade e trânsito
+slide-17: Túnicas musculares Circular interna Longitunal externa Plexo mioentérico
+slide-18: Imagem: Mariana A A Kuriyama
+slide-19: Gartner and Hiatt, 2007
+slide-20: [VISUAL -- usar adjacente com titulo extraivel]
+slide-21: Mucosa gástrica
+slide-22: Estômago (fase pré-natal- rato) 18 dias 19 dias Alvares, 1994
+slide-23: Desenvolvimento pós- natal Animais de laboratório Maturação da mucosa gástrica Celeste Simões nascimento 7 dias 14 dias 21 dias amamentação desmame
+slide-24: Celeste Simões Crescimento da glândula gástrica
+slide-25: Compartimento proliferativo Manutenção das populações Crescimento e diferenciação
+slide-26: Estômago- região cárdia fosseta Cells. Secretoras de muco Glândulas enoveladas- aspecto tortuoso Kierszenbaum, 2016
+slide-27: Estômago região do corpo + fundo Fosseta Glândula gástrica Kierszenbaum, 2016
+slide-28: Estômago região antro pilórico Fossetas profundas e glândulas rasas Função principal Produção de muco e de hormônios Kierszenbaum, 2016
+slide-29: Istmo Colo Base mucosa Fosseta Glândula Mucosa gástrica- região do corpo Tec epitelial Lâmina própria Muscular da mucosa E P Alvares
+slide-30: Superfície do estômago Kierszenbaum, 2016
+slide-31: Superfície do estômago Fosseta células produtora de muco
+slide-32: Helicobacter pylori Infecção na região antro pilórico, principalmente
+slide-33: Kierszenbaum, 2016
+slide-34: Estômago região do corpo + fundo Região +++ importante- digestão Fosseta Glândula gástrica Kierszenbaum, 2016
+slide-35: Tipos celulares mucosa gástrica Manieri et al, Nature Communications, 2023. https://doi.org/10.1038/s41467-023-43619-y
+slide-36: corpo Kierszenbaum, 2016 Junqueira e Carneiro, 2023 Célula mucosa superficial Célula parietal Célula zimogênica Célula mucosa do colo Estômago Fosseta Glândula gástrica
+slide-37: Região glandular Células parietais Fosseta Glândula Istmo Colo Base
+slide-38: mitocôndrias canalículo Célula parietal = oxíntica
+slide-39: repouso B estímulo C ativo A repouso B ativo C super ativo HCl Gartner and Hiatt, 2007 Kierszenbaum, 2016
+slide-40: Kierszenbaum, 2016
+slide-41: Kierszenbaum, 2016
+slide-42: Glândula Região do colo Células mucosas do colo Mucina 6 TFF2/PS2 TGFα Antibiótico
+slide-43: célula mucosa do colo Histoquímica em PAS-AB/ historesina- 60x BED ICB USP
+slide-44: Base glandular células zimogênicas pepsinogênio Fosseta Glândula Istmo Colo Base
+slide-45: Células enteroendócrinas Gherlina Células X/A-like Aumento do apetite Papel sobre o crescimento Kierszenbaum, 2016
+slide-46: Kierszenbaum, 2016
+slide-47: Figure 3. Restrictive and malabsorptive bariatric surgeries. The mechanisms underlying bariatric surgeries range from being primarily malabsorptive, such as occurs with the (A) jejunoileal bypass, to completely restrictive as in (D) vertical banded g...
+slide-48: The Lancet Gastroenterology and Hepatology- https://doi org/10 1016/S2468 1253(20)30331 9
+slide-49: [VISUAL -- usar adjacente com titulo extraivel]
+slide-50: Organoides Seidlitz et al., Cell Death Diff 2021. https://doi.org/10.1038/s41418-020-00662-2
+slide-51: Seidlitz et al., Cell Death Diff 2021. https://doi.org/10.1038/s41418-020-00662-2
+slide-52: Profa. Dra. Patrícia Gama Laboratório de Biologia dos Epitélios Digestivos- BED Departamento de Biologia Celular e do Desenvolvimento Instituto de Ciências Biomédicas Universidade de São Paulo https://sites.usp.br/patgamalab/ CV Lattes: http://lattes...
