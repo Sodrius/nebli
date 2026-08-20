@@ -1,0 +1,47 @@
+# MAPA_CONTEUDO -- regulacao-massa-corporea
+# Slide-fonte: 52e12620-Regula__o_da_massa_corp_rea2024_final.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Regulação hormonal do metabolismo e da massa corpórea deborah@iq.usp.br
+slide-02: Homeostasia é a capacidade de manter estoque de energia adequada mas não excessiva
+slide-03: Body mass index (BMI).
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: A coordenação do metabolismo envolve o sistema neuroendócrino
+slide-06: Sinalização adrenérgica integra respostas ao estresse
+slide-07: A cordenação do metabolismo envolve o sistema neuroendócrino
+slide-08: https://www.slideshare.net/RebeccaWilliams115/austin-journal-of-endocrinology-and-diabetes-69481519
+slide-09: Regulação hormonal do metabolism e da massa corpórea
+slide-10: Como sabemos quando comer e quando parar de comer?
+slide-11: Homeostasia Calórica ou energética Teoria lipostática Energia consumida = energia utilizada + energia armazenada
+slide-12: Aumento de obesidade porque? • Temos capacidade de armazenar comida, com o tempo a necessidade de armazenar diminuiu por termos comida disponível mais frequentemente. • Ser magro era uma proteção contra predação não mais necessária. • Comida estimula...
+slide-13: https://youtu.be/Qbcr9RAOWtM
+slide-14: Doenças relacionadas a obesidade
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: https://www.researchgate.net/publication/328718181_Prediabetes_Pathogenesis_and_Adverse_Outcomes/figures?lo=1
+slide-17: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507106/pdf/AMS-13-27238.pdf
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: Como o organism mantém o controle lipídico?
+slide-20: Teoria lipostática Leptin
+slide-21: Hormônios secretados pelo tecido adiposo
+slide-22: Leptina – produto do gene OB (Saciedade) • Apetite voraz Obesidade • Síndrome metabólica Sensibilidade ao frio
+slide-23: Como explicar esses resultados de parabiose?
+slide-24: [VISUAL -- usar adjacente com titulo extraivel]
+slide-25: Leptina – Solução para Obesidade? • -Maioria dos humanos obesos tem excesso de leptina • -Tratamento com leptina não reduz massa corporal • -Defeitos demonstrados em receptores (DB) e sinais de resposta.
+slide-26: Leptina - Efeitos Periféricos
+slide-27: Adiponectina - Peptídeo liberado pelo tecido adipose maior quantidade em indivíduos magros. - Defeito de produção = sintomas metabólicos semelhantes à DM II - Obesos tem menor taxa de adiponectina sérica (TNFinibe) - Ativa a fosforilação de Acetil-C...
+slide-28: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507106/pdf/AMS-13-27238.pdf
+slide-29: Saciedade peptídeos gastrointestinais
+slide-30: https://youtu.be/EVkFPeP5sFI
+slide-31: GLP-1 (glucagon-like peptide-1) Controle neural do apetite
+slide-32: AGRP (Agouti related peptide) NPY- (Neuro peptide Y) POMC/ CART (pro-opiomelanocortina) MSH (melanocyte stimulating hormone) CART (Cocaine and amphetamine-regulated transcript) (MSH e CART inibidores do apetite e estimulantes de gasto de energia)
+slide-33: [VISUAL -- usar adjacente com titulo extraivel]
+slide-34: Controle neural do apetite
+slide-35: Circuitos identificados por optogenética
+slide-36: DMHLepR neurons are ARCAgRP neuron inhibitory afferents This video shows optogenetic activation of a critical, inhibitory circuit to AgRP neurons results in hypophagia. Precise stimulation of this upstream efferent projection silences AgRP neurons an...
+slide-37: https://youtu.be/oN3woHJ7ZDY
+slide-38: [VISUAL -- usar adjacente com titulo extraivel]
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]

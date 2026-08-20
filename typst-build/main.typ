@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- regulacao-massa-corporea | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,31 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Regulação da massa corpórea",
+  "Bioquímica",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Bioquímica — regulação hormonal e integração do metabolismo"),
+    ("Onde estudar", "Lehninger, Princípios de Bioquímica (7ª ed.), cap. 23 — Regulação hormonal e integração do metabolismo · Stryer/Berg/Tymoczko, Bioquímica (7ª ed.)"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O balanço energético e a orquestra que o comanda", (
+      "1.1 A conta da energia diária",
+      "1.3 Cascata, amplificação e retroalimentação",
+      "1.5 Adiposo como glândula endócrina",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Adipocinas: leptina, adiponectina e o freio que falha", (
+      "2.1 Leptina e o gene ob",
+      "2.3 Braço periférico: lipólise e termogênese",
+      "2.5 Adiponectina e a AMPK",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — O comando hipotalâmico e a doença metabólica", (
+      "3.1 Núcleo arqueado: fome contra saciedade",
+      "3.3 Sinais de curto prazo do tubo digestivo",
+      "3.5 Do circuito ao remédio",
     )),
   )),
 ))
@@ -58,38 +56,38 @@
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
     ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("02", "E"),
+    ("03", "CCEE"),
     ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("05", "C"),
+    ("06", "B"),
+    ("07", "EECC"),
+    ("08", "A"),
+    ("09", "B"),
+    ("10", "CEEC"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
+    ("11", "B"),
+    ("12", "ECCC"),
+    ("13", "C"),
     ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
+    ("15", "D"),
+    ("16", "EEEC"),
+    ("17", "B"),
     ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
+    ("19", "ECCE"),
+    ("20", "C"),
+    ("21", "D"),
+    ("22", "CCEC"),
     ("23", "B"),
     ("24", "E"),
-    ("25", "ECCC"),
+    ("25", "CECC"),
   )),
   ("Aplicação (Q26–Q30)", (
     ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("27", "CEEE"),
+    ("28", "C"),
+    ("29", "E"),
+    ("30", "CCCE"),
   )),
 ))

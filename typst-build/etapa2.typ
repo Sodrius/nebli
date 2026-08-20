@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [Por que o organismo estoca energia de longo prazo na forma de triacilglicerol, e não de glicogênio:],
+  (("A", [O triacilglicerol é mais reduzido e rende cerca de 9 kcal por grama, além de ser guardado anidro, enquanto o glicogênio rende 4 kcal por grama e arrasta várias vezes o próprio peso em água.]),
+   ("B", [O glicogênio não pode ser mobilizado com rapidez entre as refeições e serve apenas como reserva estrutural do hepatócito, de modo que o triacilglicerol é a única forma capaz de sustentar o jejum curto.]),
+   ("C", [O triacilglicerol é convertido em glicose pela gliconeogênese com rendimento maior que o do glicogênio, o que o torna a reserva preferencial para manter a glicemia ao longo do jejum prolongado.]),
+   ("D", [O adipócito não dispõe das enzimas da síntese de glicogênio, de modo que a escolha do triacilglicerol é imposta pela ausência da via naquele tecido, e não por vantagem energética da molécula.]),
+   ("E", [O glicogênio é mais oxidado que o triacilglicerol e por isso libera mais energia por grama, mas ocupa volume maior no citoplasma, o que limita sua acumulação no fígado e no músculo.])))
 
 #questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+  [Sobre a arquitetura de uma cascata hormonal do tipo hipotálamo-hipófise-glândula-alvo:],
+  (("A", [A amplificação ocorre porque o hipotálamo secreta o hormônio em concentração maior que a hipófise, e esta em concentração maior que a glândula-alvo, numa escala decrescente de potência ao longo do eixo.]),
+   ("B", [A retroalimentação negativa exercida pelo hormônio final atinge exclusivamente a glândula que o produziu, o que permite suspender bruscamente um corticoide exógeno sem risco de insuficiência dessa glândula.]),
+   ("C", [A hipófise anterior e a posterior recebem o mesmo comando pelos vasos porta e ambas sintetizam os hormônios que liberam, diferindo apenas na velocidade com que respondem ao estímulo hipotalâmico.]),
+   ("D", [A célula que inicia a cascata é endócrina clássica e incapaz de gerar potencial de ação, e o sistema é chamado neuroendócrino apenas pela proximidade anatômica entre o hipotálamo e a hipófise.]),
+   ("E", [Cada degrau multiplica o sinal, de modo que picomols de hormônio hipotalâmico geram nanomols de hormônio hipofisário e micromols de hormônio final, e este último freia os dois degraus acima.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+  [Julgue os itens sobre as duas linhas de resposta ao estresse e suas velocidades:],
+  (("I", [A liberação de catecolaminas pela medula adrenal é comandada por fibra simpática direta, o que explica a resposta instalada em segundos.]),
+   ("II", [O cortisol é lipossolúvel, liga-se a receptor intracelular e altera a transcrição gênica — daí a latência de minutos a horas.]),
+   ("III", [A medula e o córtex da adrenal têm a mesma origem embrionária e ambos respondem ao ACTH liberado pela hipófise anterior.]),
+   ("IV", [Diferentemente das catecolaminas, o cortisol não mobiliza substrato energético; sua ação restringe-se à supressão de respostas imunes.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [A propriedade da leptina que a qualifica como o sinal previsto pela teoria lipostática é:],
+  (("A", [Sua concentração plasmática sobe poucos minutos após o início de uma refeição e cai algumas horas depois, informando ao hipotálamo o momento exato de encerrar aquela ingestão de alimento.]),
+   ("B", [Sua secreção pelo estômago aumenta durante o jejum e é suprimida pela chegada de nutriente ao duodeno, o que faz dela o principal sinal de início de refeição do tubo digestivo.]),
+   ("C", [Sua produção ocorre no próprio hipotálamo e depende do tônus simpático, de modo que o sistema nervoso central mede o estoque sem precisar de qualquer informação vinda da periferia.]),
+   ("D", [Sua concentração plasmática é proporcional à massa de tecido adiposo, de modo que a leitura hipotalâmica dessa concentração informa o tamanho do estoque acumulado ao longo de dias e semanas.]),
+   ("E", [Sua meia-vida plasmática é de poucos segundos, o que permite ao hipotálamo acompanhar em tempo real cada oscilação da glicemia e ajustar imediatamente a ingestão de alimento naquela refeição.])))
 
 #questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+  [Na resposta do adipócito à noradrenalina liberada pelas fibras simpáticas, a sequência correta é:],
+  (("A", [A noradrenalina ativa o receptor β#sub[3], que abre um canal de cálcio da membrana; o cálcio ativa diretamente a lipase hormônio-sensível, dispensando qualquer segundo mensageiro nessa via.]),
+   ("B", [A noradrenalina entra no adipócito por difusão, liga-se a receptor nuclear e induz a transcrição da lipase hormônio-sensível, o que explica a latência de horas dessa resposta lipolítica.]),
+   ("C", [A noradrenalina ativa o receptor β#sub[3] acoplado a proteína G, que estimula a adenilato-ciclase; o AMPc formado ativa a PKA, que fosforila a perilipina e a lipase, liberando ácidos graxos.]),
+   ("D", [A noradrenalina ativa o receptor β#sub[3], que fosforila diretamente a perilipina por atividade tirosina-quinase intrínseca, sem participação de AMPc nem de proteína-quinase A na transdução.]),
+   ("E", [A noradrenalina inibe a adenilato-ciclase por proteína Gi, e a queda do AMPc retira o freio que a PKA exercia sobre a perilipina, permitindo que a lipase alcance o triacilglicerol.])))
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+#questao-mc("06", badge-consolidacao,
+  [Sobre a adiponectina e a via de sinalização que ela aciona:],
+  (("A", [É secretada em maior quantidade por indivíduos obesos e ativa a acetil-CoA carboxilase, elevando o malonil-CoA e favorecendo a entrada de ácidos graxos na mitocôndria para serem oxidados.]),
+   ("B", [É mais abundante em indivíduos magros e ativa a AMPK, que fosforila e inativa a acetil-CoA carboxilase; com menos malonil-CoA, a carnitina-aciltransferase I é liberada e a β-oxidação aumenta.]),
+   ("C", [É mais abundante em indivíduos magros e inibe a AMPK, o que reduz a fosforilação da acetil-CoA carboxilase e desloca o metabolismo hepático para a síntese de novo de ácidos graxos.]),
+   ("D", [É secretada pelo hipotálamo em resposta à leptina e age no tecido adiposo aumentando a expressão de UCP1, respondendo por praticamente toda a termogênese adaptativa observada no adulto.]),
+   ("E", [É uma citocina pró-inflamatória que sobe com a hipertrofia do adipócito e ativa serina-quinases de estresse, contribuindo de forma direta para a resistência à insulina no músculo esquelético.])))
 
-#questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+#questao-ce("07", badge-consolidacao,
+  [Julgue os itens sobre os neurônios de primeira ordem do núcleo arqueado:],
+  (("I", [A leptina inibe tanto o neurônio NPY/AgRP quanto o neurônio POMC/CART, reduzindo a atividade do núcleo arqueado como um todo.]),
+   ("II", [O núcleo arqueado é protegido por barreira hematoencefálica íntegra, e a leptina só o alcança após ser convertida em metabólito lipossolúvel.]),
+   ("III", [O neurônio POMC/CART é anorexígeno: quando disparado, reduz a ingestão de alimento e aumenta o gasto energético.]),
+   ("IV", [A grelina ativa o neurônio NPY/AgRP, ou seja, age sobre a mesma célula que a leptina inibe, com sinal oposto.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+  [Sobre o tecido adiposo como órgão endócrino, assinale a alternativa *incorreta*:],
+  (("A", [Todas as adipocinas variam no mesmo sentido da massa gorda, de modo que o aumento do tecido adiposo eleva de forma proporcional a leptina, a adiponectina e o fator de necrose tumoral alfa.]),
+   ("B", [O adipócito branco estoca triacilglicerol numa gota única que desloca o núcleo para a periferia da célula, e é a principal fonte da leptina que circula no plasma do organismo.]),
+   ("C", [O tecido adiposo pardo é rico em mitocôndrias e expressa UCP1, existindo para gerar calor em vez de estocar energia — função oposta à desempenhada pelo tecido adiposo branco.]),
+   ("D", [A massa do tecido adiposo pode variar várias vezes no mesmo indivíduo, o que faz do sinal por ele emitido uma grandeza de amplitude incomum entre os órgãos endócrinos do corpo.]),
+   ("E", [Ser órgão endócrino não exige cápsula, ducto nem localização única: basta secretar mensageiro na circulação com alvo a distância, critério que o tecido adiposo cumpre mesmo estando disperso.])))
 
-#questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+#questao-mc("09", badge-consolidacao,
+  [Entre os peptídeos gastrointestinais que participam do controle da ingestão de alimento:],
+  (("A", [A colecistocinina é liberada pelo estômago vazio antes da refeição e constitui o principal sinal orexígeno do trato digestório, ativando o neurônio NPY/AgRP no núcleo arqueado.]),
+   ("B", [A grelina é o único orexígeno do grupo: sobe com o estômago vazio, antes da refeição, e cai após a ingestão, enquanto colecistocinina, PYY e GLP-1 sinalizam saciedade.]),
+   ("C", [O GLP-1 é secretado pelas células beta pancreáticas em resposta à hiperglicemia e age no intestino retardando o esvaziamento gástrico, num arranjo que vai do pâncreas para o tubo digestivo.]),
+   ("D", [O PYY é liberado pelo duodeno diante de gordura, contrai a vesícula biliar, estimula a secreção enzimática do pâncreas e encerra a refeição em curso por ação vagal direta.]),
+   ("E", [Todos os peptídeos gastrointestinais informam o hipotálamo sobre o tamanho do estoque energético acumulado, operando na mesma escala de dias e semanas em que opera a leptina do adipócito.])))
 
-#questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+#questao-ce("10", badge-consolidacao,
+  [Julgue os itens sobre a resistência à leptina no paciente com obesidade:],
+  (("I", [Na maioria dos obesos a leptina plasmática está elevada, e não reduzida, em proporção à massa de tecido adiposo.]),
+   ("II", [Por esse motivo, a administração de leptina recombinante é o tratamento de escolha para a obesidade comum do adulto.]),
+   ("III", [A resistência decorre de defeito na síntese do hormônio pelo adipócito hipertrofiado, que passa a secretar uma forma inativa.]),
+   ("IV", [A deficiência congênita de leptina é rara, cursa com leptina indetectável e responde de forma marcante à reposição do hormônio.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [Um pesquisador afirma que o obeso humano típico se parece mais com o camundongo _db/db_ do que com o _ob/ob_. A justificativa mecanística dessa afirmação é:],
+  (("A", [No obeso humano a leptina plasmática é indetectável, como no _db/db_, e por isso a reposição do hormônio corrige o quadro em ambos, o que não se observa no _ob/ob_.]),
+   ("B", [No obeso humano a leptina circula em concentração alta sem produzir efeito, situação análoga à do _db/db_, que secreta leptina em excesso mas não dispõe de receptor capaz de responder.]),
+   ("C", [Ambos apresentam mutação com perda de função no gene _ob_, o que explica a hiperfagia e a ausência de resposta à leptina exógena tanto no camundongo quanto no paciente obeso.]),
+   ("D", [No obeso humano o defeito está na síntese hipotalâmica de leptina e no _db/db_ na síntese pelo adipócito; nos dois casos o receptor está íntegro e a reposição hormonal é eficaz.]),
+   ("E", [Ambos apresentam receptor íntegro e concentração hormonal baixa, e a obesidade decorre exclusivamente do aumento da eficiência de absorção intestinal observado nas duas condições.])))
 
 #questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+  [Julgue os itens que aproximam a alça leptina-hipotálamo da arquitetura geral de retroalimentação negativa:],
+  (("I", [Como toda alça de retroalimentação negativa, a da leptina corrige desvios em segundos, na mesma escala de tempo do reflexo barorreceptor.]),
+   ("II", [Em ambas, o produto final da via — hormônio da glândula-alvo ou gordura estocada — realimenta e inibe as etapas que o geraram.]),
+   ("III", [Em ambas, defeito no receptor produz sinal circulante alto com efeito biológico ausente, quadro distinto do defeito de produção.]),
+   ("IV", [Em ambas, a estabilidade da variável controlada depende de o sensor medir com fidelidade a grandeza regulada — massa gorda, no caso da leptina.])))
 
 #questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+  [A noradrenalina que dispara a lipólise no adipócito em resposta à leptina tem origem:],
+  (("A", [Na medula adrenal, que a libera na circulação após estimulação pelo ACTH hipofisário, alcançando o adipócito por via sanguínea junto com o cortisol produzido no córtex adrenal.]),
+   ("B", [No próprio adipócito, que a sintetiza a partir de tirosina quando a leptina se liga ao seu receptor de membrana, num arranjo autócrino independente do sistema nervoso simpático.]),
+   ("C", [Nas terminações simpáticas que inervam o tecido adiposo, cujo tônus aumenta depois que neurônios hipotalâmicos leem a leptina — a ordem chega ao adipócito por nervo, e não por hormônio.]),
+   ("D", [Nas células cromafins do córtex adrenal, estimuladas diretamente pela leptina circulante, o que explica a perda completa de termogênese em pacientes submetidos a adrenalectomia bilateral.]),
+   ("E", [Na hipófise posterior, que a libera junto com a vasopressina em resposta ao aumento da leptina plasmática, alcançando o tecido adiposo pela circulação sistêmica em poucos minutos.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [A queda da adiponectina na obesidade agrava a resistência à insulina porque:],
+  (("A", [Reduz a secreção de leptina pelo adipócito, e a perda do sinal lipostático leva o hipotálamo a aumentar a ingestão, o que sobrecarrega a célula beta pancreática de forma progressiva.]),
+   ("B", [Aumenta a atividade da AMPK no músculo, o que acelera a síntese de malonil-CoA e bloqueia a entrada de ácidos graxos na mitocôndria, desviando-os para a via do diacilglicerol.]),
+   ("C", [Retira o estímulo à AMPK e mantém a acetil-CoA carboxilase ativa com malonil-CoA alto; sem β-oxidação, o acil-CoA acumulado vira diacilglicerol e ceramida, que ativam serina-quinases.]),
+   ("D", [Impede a fosforilação em tirosina do receptor de insulina pela própria adiponectina, que atua normalmente como cofator obrigatório da autofosforilação desse receptor nos tecidos periféricos.]),
+   ("E", [Eleva a expressão de UCP1 no tecido adiposo branco, e o desacoplamento resultante consome o ATP necessário para a translocação do GLUT4 até a membrana da célula muscular.])))
 
-#questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+#questao-mc("15", badge-integracao,
+  [Em um voluntário mantido em jejum por doze horas, o padrão esperado de sinalização hipotalâmica é:],
+  (("A", [Grelina baixa e leptina alta, com inibição do neurônio NPY/AgRP e ativação do POMC, o que sustentaria a ausência de fome tida como característica do jejum prolongado.]),
+   ("B", [Grelina alta ativando o neurônio POMC/CART, cujo α-MSH ocupa o receptor MC4R e produz a sensação de fome que antecede a refeição seguinte daquele voluntário.]),
+   ("C", [Grelina alta e leptina alta, ambas ativando o neurônio NPY/AgRP, uma vez que os dois hormônios convergem no mesmo receptor e com o mesmo efeito sobre a ingestão.]),
+   ("D", [Grelina alta ativando o neurônio NPY/AgRP e leptina em queda, retirando a inibição sobre esse mesmo neurônio — dois sinais somados na direção de aumentar a ingestão de alimento.]),
+   ("E", [Grelina inalterada, já que ela responde apenas à composição da refeição, e leptina em queda abrupta proporcional às horas de jejum, com ativação isolada do neurônio POMC/CART.])))
 
-#questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+#questao-ce("16", badge-integracao,
+  [Um paciente tem mutação bialélica com perda de função no MC4R e obesidade grave desde a infância. Julgue os itens:],
+  (("I", [A leptina plasmática estará indetectável, uma vez que o defeito interrompe a alça já em seu primeiro degrau.]),
+   ("II", [O neurônio POMC do arqueado estará silencioso, porque depende do MC4R para ser ativado pela leptina circulante.]),
+   ("III", [A administração de leptina recombinante corrige o quadro, já que o sinal a montante do receptor mutado permanece íntegro.]),
+   ("IV", [O sinal de saciedade é gerado normalmente e para no receptor de segunda ordem, o que explica a hiperfagia apesar de leptina elevada.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [A relação entre a capacidade de expansão do tecido adiposo subcutâneo e o risco metabólico se explica por:],
+  (("A", [Quanto maior a capacidade de expansão do subcutâneo, maior o risco metabólico, pois cada adipócito adicional secreta uma quantidade fixa de fator de necrose tumoral alfa na circulação.]),
+   ("B", [Quando o subcutâneo atinge seu limite de expansão, o excedente de ácido graxo é depositado em fígado, músculo e gordura visceral — tecidos que, ao acumular lipídio, tornam-se resistentes à insulina.]),
+   ("C", [A expansão do subcutâneo consome ácidos graxos que seriam oxidados pelo músculo, e é essa competição por substrato, e não o depósito ectópico de lipídio, que gera a hiperglicemia observada.]),
+   ("D", [O tecido adiposo subcutâneo não participa do estoque de triacilglicerol no adulto e serve apenas como isolante térmico, de modo que todo o excedente é obrigatoriamente depositado no fígado.]),
+   ("E", [A hipertrofia do adipócito aumenta a produção de adiponectina de forma proporcional ao volume da gota lipídica, e é esse excesso que ativa as serina-quinases de estresse no hepatócito.])))
 
 #questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+  [Sobre o efeito da UCP1 sobre o termo "gasto" da equação do balanço energético:],
+  (("A", [A UCP1 aumenta a síntese de ATP por unidade de oxigênio consumido, e o ATP adicional é dissipado como calor durante a hidrólise em repouso, o que eleva o gasto energético total.]),
+   ("B", [A UCP1 inibe a cadeia transportadora de elétrons, e a redução do consumo de oxigênio obriga a célula a compensar aumentando a β-oxidação, o que eleva o gasto de forma indireta.]),
+   ("C", [A UCP1 atua no citosol desviando acetil-CoA da síntese de ácidos graxos, de modo que o excedente calórico deixa de ser estocado sem que haja qualquer mudança no consumo de oxigênio.]),
+   ("D", [A UCP1 permite que prótons retornem à matriz sem passar pela ATP-sintase, e a energia do gradiente sai como calor: o substrato é oxidado sem render ATP, e o gasto energético sobe.]),
+   ("E", [A UCP1 bloqueia a entrada de ácidos graxos na mitocôndria e força sua reesterificação em triacilglicerol, e o custo em ATP desse ciclo fútil é a origem do calor gerado no adipócito pardo.])))
 
-#questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+#questao-ce("19", badge-integracao,
+  [Julgue os itens sobre o que a parabiose demonstrou e sobre a lógica geral que dela se extrai:],
+  (("I", [Unido a um animal normal, o camundongo _db/db_ emagrece, o que indica falta de fator circulante nesse mutante.]),
+   ("II", [O parceiro normal do _db/db_ emagrece até a inanição, o que indica excesso de fator circulante no animal mutante.]),
+   ("III", [Diante de efeito hormonal ausente, hormônio plasmático baixo aponta defeito de produção e hormônio alto aponta defeito de receptor ou de transdução.]),
+   ("IV", [A parabiose transfere tecido adiposo entre os animais, e é a colonização desse tecido no parceiro que produz a mudança de peso observada.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [Em paciente com resistência à insulina e célula beta ainda preservada, o análogo de GLP-1 reduz a glicemia porque:],
+  (("A", [Substitui a insulina endógena ligando-se ao receptor de insulina do músculo e do fígado, o que dispensa a integridade da célula beta para produzir o efeito hipoglicemiante pretendido.]),
+   ("B", [Inibe a enzima que degrada o GLP-1 endógeno no plasma e bloqueia as serina-quinases de estresse, restaurando a fosforilação em tirosina do substrato do receptor de insulina no músculo.]),
+   ("C", [Amplifica a secreção de insulina de modo dependente de glicose pela célula beta preservada, reduz o glucagon e retarda o esvaziamento gástrico, somando efeitos pancreáticos, gástricos e centrais.]),
+   ("D", [Aumenta a expressão de GLUT4 na membrana do adipócito de forma independente de insulina, o que corrige a captação periférica de glicose mesmo quando a célula beta já se esgotou.]),
+   ("E", [Estimula a secreção de insulina de forma contínua e independente da glicemia, o que explica tanto a eficácia sobre a glicose quanto o alto risco de hipoglicemia grave atribuído à classe.])))
 
 #questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+  [Sobre a organização do circuito hipotalâmico do apetite, assinale a alternativa *incorreta*:],
+  (("A", [Os neurônios de primeira ordem do núcleo arqueado leem hormônios circulantes graças à barreira hematoencefálica frouxa da eminência mediana, estrutura vizinha a esse núcleo hipotalâmico.]),
+   ("B", [O α-MSH liberado pelo neurônio POMC ativa o receptor MC4R em neurônios de segunda ordem do núcleo paraventricular, o que produz saciedade e aumento do gasto energético.]),
+   ("C", [O neurônio NPY/AgRP inibe o neurônio POMC vizinho pela liberação de GABA, efeito que se soma ao antagonismo exercido pelo AgRP sobre o receptor MC4R de segunda ordem.]),
+   ("D", [O AgRP é agonista parcial do MC4R, e a fome que ele produz decorre da ativação sustentada desse receptor, em intensidade maior do que a alcançada pelo α-MSH liberado pelo POMC.]),
+   ("E", [O neurônio orexígeno projeta-se também para a área hipotalâmica lateral, onde as células produtoras de MCH empurram o comportamento na direção de comer mais.])))
 
-#questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+#questao-ce("22", badge-integracao,
+  [Julgue os itens sobre o adipócito hipertrofiado e o comportamento das adipocinas:],
+  (("I", [Ao crescer além do alcance dos capilares, o adipócito torna-se hipóxico e pode necrosar, o que recruta macrófagos para o tecido.]),
+   ("II", [O fator de necrose tumoral alfa produzido no tecido inflamado inibe a expressão de adiponectina, o que explica sua queda na obesidade.]),
+   ("III", [A infiltração de macrófagos eleva a adiponectina local, e é esse aumento que dispara o estado pró-inflamatório do tecido adiposo.]),
+   ("IV", [A queda da adiponectina reduz a polarização anti-inflamatória do macrófago e favorece disfunção endotelial, com menos óxido nítrico disponível.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Um paciente com hipercortisolismo crônico desenvolve obesidade central, hiperglicemia e hipertensão. O mecanismo que une esses achados é:],
+  (("A", [O cortisol inibe a gliconeogênese hepática e aumenta a captação muscular de glicose, e a hiperglicemia decorre exclusivamente da destruição autoimune das células beta pancreáticas.]),
+   ("B", [O cortisol mobiliza aminoácidos do músculo e aciona a gliconeogênese, eleva a insulina de forma compensatória e redistribui gordura para o compartimento visceral, o mais lipolítico e inflamatório.]),
+   ("C", [O cortisol atua como agonista do receptor β#sub[3] do adipócito, e a lipólise contínua daí resultante explica tanto a hiperglicemia quanto o acúmulo paradoxal de gordura no tronco.]),
+   ("D", [O cortisol suprime a secreção de leptina pelo tecido adiposo, e a queda do sinal lipostático é, isoladamente, a causa da obesidade central e da elevação da pressão arterial do paciente.]),
+   ("E", [O cortisol é liberado pela medula adrenal em resposta ao tônus simpático elevado, e é a hiperatividade adrenérgica sustentada que responde pelos três achados descritos no caso clínico.])))
 
 #questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+  [A sensibilidade ao frio do camundongo _ob/ob_ se explica por:],
+  (("A", [Perda da gordura subcutânea que funcionaria como isolante térmico, consequência direta da hiperfagia e do desvio de substrato para o compartimento visceral observado nesses animais.]),
+   ("B", [Incapacidade de sintetizar UCP1 por mutação no gene dessa proteína, herdada em conjunto com a mutação do gene _ob_ pela proximidade física entre os dois locos no mesmo cromossomo.]),
+   ("C", [Ativação exagerada do eixo hipotálamo-hipófise-tireoide, cujo excesso de hormônio tireoidiano consome as reservas de gordura parda disponíveis para a termogênese adaptativa do animal.]),
+   ("D", [Excesso de leptina circulante que, ao saturar o receptor β#sub[3] do adipócito pardo, impede a resposta à noradrenalina liberada pelas fibras simpáticas durante a exposição ao frio.]),
+   ("E", [Ausência do sinal de leptina que aumentaria o tônus simpático sobre o tecido adiposo pardo; sem noradrenalina no receptor β#sub[3], não há indução de UCP1 nem termogênese adequada.])))
 
 #questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+  [Julgue os itens sobre o valor de massa gorda defendido pelo organismo e a suspensão de um análogo de GLP-1:],
+  (("I", [A perda de peso reduz a leptina circulante, e a queda desse sinal aumenta a fome e reduz o gasto energético.]),
+   ("II", [O uso prolongado do análogo reprograma de forma permanente o valor de massa gorda defendido pelo eixo leptina-melanocortina.]),
+   ("III", [Suspenso o fármaco, o sistema volta a defender o estoque anterior, o que explica a tendência ao reganho de peso.]),
+   ("IV", [Essa lógica sustenta o desenho do tratamento como contínuo, e não como um curso com data marcada para terminar.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Um lactente de nove meses é levado ao serviço por ganho de peso acelerado desde o segundo mês, com fome incessante e choro que só cessa à alimentação. A distribuição da gordura é generalizada, e a dosagem de leptina sérica vem indetectável. A conduta com maior chance de reverter o quadro, e sua justificativa mecanística, é:],
+  (("A", [Restrição calórica isolada, pois a leptina indetectável indica que o hipotálamo já recebe sinal máximo de saciedade e o excesso de peso decorre apenas da oferta excessiva de alimento.]),
+   ("B", [Agonista de GLP-1, porque a via incretínica substitui integralmente o sinal lipostático ausente e restabelece a leitura hipotalâmica do tamanho do estoque de gordura corporal da criança.]),
+   ("C", [Reposição de leptina recombinante, porque a dissociação entre grande massa gorda e leptina indetectável aponta defeito de produção do hormônio, situação em que a via a jusante está íntegra.]),
+   ("D", [Bloqueio do receptor MC4R, uma vez que a hiperfagia extrema desse quadro decorre de ativação excessiva da via de melanocortina nos neurônios do núcleo paraventricular do hipotálamo.]),
+   ("E", [Reposição de hormônio tireoidiano, já que a leptina indetectável reflete hipometabolismo primário, e a correção do eixo tireoidiano normaliza o apetite e o gasto energético da criança.])))
 
-#questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+#questao-ce("27", badge-aplicacao,
+  [Homem de 42 anos, circunferência abdominal aumentada, glicemia de jejum de 96 mg/dL e insulina de jejum bastante elevada. Triglicerídeos altos, HDL baixo, pressão de 145/92 mmHg e ultrassom com esteatose hepática. Julgue os itens:],
+  (("I", [A insulina elevada com glicemia ainda normal indica resistência à insulina compensada por célula beta preservada.]),
+   ("II", [A glicemia normal afasta a resistência à insulina e torna desnecessária qualquer intervenção sobre o peso corporal.]),
+   ("III", [A esteatose hepática desse paciente exige consumo abusivo de álcool para ser explicada, já que a obesidade não deposita lipídio no hepatócito.]),
+   ("IV", [Os achados são doenças independentes que apenas coexistem, sem mecanismo comum que as ligue ao excesso de tecido adiposo.])))
 
-#questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+#questao-mc("28", badge-aplicacao,
+  [Uma paciente com obesidade e diabetes tipo 2 inicia semaglutida semanal. Em três meses relata saciedade precoce, refere que a comida "demora a descer" e perde peso; a glicemia melhora sem episódios de hipoglicemia. O conjunto de mecanismos que explica o relato é:],
+  (("A", [Bloqueio do receptor de leptina no hipotálamo, o que reduz a fome, somado à inibição direta da lipase gástrica, responsável pela sensação de esvaziamento lento relatada pela paciente.]),
+   ("B", [Estimulação contínua e independente de glicose da célula beta, com aumento do glucagon hepático e aceleração do esvaziamento gástrico, o que reduz o tempo de exposição intestinal ao nutriente.]),
+   ("C", [Ação central reduzindo a ingestão, retardo do esvaziamento gástrico que prolonga a saciedade e secreção de insulina dependente de glicose com queda do glucagon — daí o baixo risco de hipoglicemia.]),
+   ("D", [Aumento da expressão de UCP1 no tecido adiposo branco, com termogênese suficiente para explicar isoladamente a perda de peso, sem qualquer participação de mecanismos que reduzam a ingestão.]),
+   ("E", [Antagonismo do receptor MC4R no núcleo paraventricular, o que desliga o sinal de fome, associado à inibição da absorção intestinal de gordura, responsável pela lentidão digestiva relatada.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Menino de seis anos com obesidade grave desde os dois anos, hiperfagia intensa, estatura acima do esperado para a família e aumento de massa magra; o pai teve obesidade de início precoce. A leptina sérica é elevada e compatível com a massa gorda. A hipótese diagnóstica e o ponto acometido no circuito são:],
+  (("A", [Deficiência congênita de leptina, com interrupção da alça no próprio adipócito, que deixa de secretar o hormônio apesar da grande massa de gordura corporal acumulada.]),
+   ("B", [Resistência adquirida à leptina por inflamação do tecido adiposo, com bloqueio do transporte do hormônio pela barreira hematoencefálica secundário ao excesso calórico crônico.]),
+   ("C", [Mutação no receptor de grelina do núcleo arqueado, que passa a sinalizar de forma constitutiva e mantém o neurônio orexígeno ativo independentemente do estado nutricional.]),
+   ("D", [Hipercortisolismo de início precoce, com redistribuição visceral da gordura e resistência à insulina, o que explicaria a hiperfagia e a aceleração do crescimento linear observada.]),
+   ("E", [Mutação com perda de função no MC4R, com o sinal de saciedade gerado normalmente e interrompido no receptor de segunda ordem — daí leptina alta com hiperfagia mantida.])))
 
-#questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+#questao-ce("30", badge-aplicacao,
+  [Uma paciente perdeu 18 kg em oito meses com dieta e exercício e, nos dois anos seguintes, recuperou 15 kg mantendo o mesmo padrão de esforço que sustentou a perda. Julgue os itens:],
+  (("I", [A queda da leptina que acompanha a perda de massa gorda aumenta a fome e reduz o gasto energético, o que favorece o reganho.]),
+   ("II", [O gasto energético após a perda tende a ficar abaixo do previsto para o novo peso, fenômeno conhecido como adaptação metabólica.]),
+   ("III", [O organismo defende ativamente o estoque anterior, de modo que manter o peso perdido exige contrariar uma alça de retroalimentação.]),
+   ("IV", [O reganho demonstra ausência de aderência da paciente, já que nenhum mecanismo fisiológico se opõe à manutenção do peso perdido.])))

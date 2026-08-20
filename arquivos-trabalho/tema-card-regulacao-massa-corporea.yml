@@ -1,0 +1,58 @@
+slug: regulacao-massa-corporea
+titulo: "Regulação da massa corpórea"
+subtitulo: "Bioquímica"
+meta:
+  - ["Disciplina", "Bioquímica — regulação hormonal e integração do metabolismo"]
+  - ["Onde estudar", "Lehninger, Princípios de Bioquímica (7ª ed.), cap. 23 — Regulação hormonal e integração do metabolismo · Stryer/Berg/Tymoczko, Bioquímica (7ª ed.)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O balanço energético e a orquestra que o comanda"
+        subtopicos:
+          - "1.1 A conta da energia diária"
+          - "1.3 Cascata, amplificação e retroalimentação"
+          - "1.5 Adiposo como glândula endócrina"
+      - titulo: "PARTE II — Adipocinas: leptina, adiponectina e o freio que falha"
+        subtopicos:
+          - "2.1 Leptina e o gene ob"
+          - "2.3 Braço periférico: lipólise e termogênese"
+          - "2.5 Adiponectina e a AMPK"
+      - titulo: "PARTE III — O comando hipotalâmico e a doença metabólica"
+        subtopicos:
+          - "3.1 Núcleo arqueado: fome contra saciedade"
+          - "3.3 Sinais de curto prazo do tubo digestivo"
+          - "3.5 Do circuito ao remédio"
+gabarito:
+  consolidacao:
+    - ["01", "A"]
+    - ["02", "E"]
+    - ["03", "CCEE"]
+    - ["04", "D"]
+    - ["05", "C"]
+    - ["06", "B"]
+    - ["07", "EECC"]
+    - ["08", "A"]
+    - ["09", "B"]
+    - ["10", "CEEC"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "ECCC"]
+    - ["13", "C"]
+    - ["14", "C"]
+    - ["15", "D"]
+    - ["16", "EEEC"]
+    - ["17", "B"]
+    - ["18", "D"]
+    - ["19", "ECCE"]
+    - ["20", "C"]
+    - ["21", "D"]
+    - ["22", "CCEC"]
+    - ["23", "B"]
+    - ["24", "E"]
+    - ["25", "CECC"]
+  aplicacao:
+    - ["26", "C"]
+    - ["27", "CEEE"]
+    - ["28", "C"]
+    - ["29", "E"]
+    - ["30", "CCCE"]

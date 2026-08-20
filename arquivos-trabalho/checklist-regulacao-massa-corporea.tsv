@@ -1,0 +1,84 @@
+# checklist-alvo semeada da E1 por gerar_checklist.py
+# formato: <id>\t<frase-alvo>\t<termo_pt|termo_en>
+# AJUSTAR: complete os <EN?>, funda/remova conceitos redundantes,
+# e acrescente subtopico que a E1 ensina mas nao marcou como termo-nota.
+# PARTE I — O balanço energético e a orquestra que o comanda
+1.1	A conta da energia diária	conta energia diária|<EN?>
+1.3	Cascata, amplificação e retroalimentação	Cascata amplificação retroalimentação|<EN?>
+1.5	Adiposo como glândula endócrina	Adiposo como glândula|<EN?>
+1.4	triacilglicerol	triacilglicerol|<EN?>
+1.5	retroalimentação negativa	retroalimentação negativa|<EN?>
+1.6	catecolaminas	catecolaminas|<EN?>
+1.7	adipocinas	adipocinas|<EN?>
+1.8	termogênese	termogênese|<EN?>
+1.9	CRH — hormônio liberador de corticotropina	CRH|<EN?>
+1.10	ACTH — hormônio adrenocorticotrófico	ACTH|<EN?>
+# PARTE II — As adipocinas: leptina, adiponectina e o freio que falha
+2.1	Leptina e o gene ob	Leptina gene|<EN?>
+2.3	Braço periférico: lipólise e termogênese	Braço periférico lipólise|<EN?>
+2.5	Adiponectina e a AMPK	Adiponectina AMPK|<EN?>
+2.4	parabiose	parabiose|<EN?>
+2.5	adenilato-ciclase	adenilato-ciclase|<EN?>
+2.6	perilipina	perilipina|<EN?>
+2.7	lipólise	lipólise|<EN?>
+2.8	acetil-CoA carboxilase	acetil-CoA carboxilase|<EN?>
+2.9	ATP — adenosina trifosfato	ATP|adenosina trifosfato
+2.10	AMPc — AMP cíclico	AMPc|<EN?>
+2.11	PKA — proteína-quinase A	PKA|<EN?>
+2.12	UCP1 — proteína desacopladora 1	UCP1|<EN?>
+2.13	AMPK — proteína-quinase ativada por AMP	AMPK|<EN?>
+2.14	AMP — adenosina monofosfato	AMP|adenosina monofosfato
+# PARTE III — O comando hipotalâmico e a doença que nasce quando ele é vencido
+3.1	Núcleo arqueado: fome contra saciedade	Núcleo arqueado fome|<EN?>
+3.3	Sinais de curto prazo do tubo digestivo	Sinais curto prazo|<EN?>
+3.5	Do circuito ao remédio	circuito remédio|<EN?>
+3.4	orexígena	orexígena|<EN?>
+3.5	anorexígena	anorexígena|<EN?>
+3.6	incretina	incretina|<EN?>
+3.7	esteatose hepática	esteatose hepática|<EN?>
+3.8	optogenética	optogenética|<EN?>
+3.9	NPY — neuropeptídeo Y	NPY|<EN?>
+3.10	AgRP — proteína relacionada ao agouti	AgRP|<EN?>
+3.11	POMC — pró-opiomelanocortina	POMC|<EN?>
+3.12	CART — transcrito regulado por cocaína e anfetamina	CART|<EN?>
+3.13	α-MSH — hormônio estimulador de melanócitos alfa	α-MSH|<EN?>
+3.14	MC4R — receptor de melanocortina tipo 4	MC4R|receptor de melanocortina tipo 4
+3.15	GABA — ácido gama-aminobutírico	GABA|<EN?>
+3.16	MCH — hormônio concentrador de melanina	MCH|<EN?>
+3.17	CCK — colecistocinina	CCK|<EN?>
+3.18	GLP-1 — peptídeo semelhante ao glucagon tipo 1	GLP-1|<EN?>
+3.19	PYY — peptídeo YY	PYY|<EN?>
+3.20	TNF-α — fator de necrose tumoral alfa	TNF-α|fator de necrose tumoral alfa
+3.21	IL-6 — interleucina 6	IL-6|<EN?>
+3.22	GLUT4 — transportador de glicose sensível à insulina	GLUT4|<EN?>
+# E2 — alvos avaliados; cada um exige card, escopo justificado ou retorno à E1
+E2.1	Por que o organismo estoca energia de longo prazo na forma de triacilglicerol, e não de glicogênio:	organismo estoca energia|<EN?>
+E2.2	Sobre a arquitetura de uma cascata hormonal do tipo hipotálamo-hipófise-glândula-alvo:	Sobre arquitetura cascata|<EN?>
+E2.3	Julgue os itens sobre as duas linhas de resposta ao estresse e suas velocidades:	Julgue itens sobre|<EN?>
+E2.4	A propriedade da leptina que a qualifica como o sinal previsto pela teoria lipostática é:	propriedade leptina qualifica|<EN?>
+E2.5	Na resposta do adipócito à noradrenalina liberada pelas fibras simpáticas, a sequência correta é:	resposta adipócito noradrenalina|<EN?>
+E2.6	Sobre a adiponectina e a via de sinalização que ela aciona:	Sobre adiponectina sinalização|<EN?>
+E2.7	Julgue os itens sobre os neurônios de primeira ordem do núcleo arqueado:	Julgue itens sobre|<EN?>
+E2.8	Sobre o tecido adiposo como órgão endócrino, assinale a alternativa incorreta:	Sobre tecido adiposo|<EN?>
+E2.9	Entre os peptídeos gastrointestinais que participam do controle da ingestão de alimento:	Entre peptídeos gastrointestinais|<EN?>
+E2.10	Julgue os itens sobre a resistência à leptina no paciente com obesidade:	Julgue itens sobre|<EN?>
+E2.11	Um pesquisador afirma que o obeso humano típico se parece mais com o camundongo db/db do que com o ob/ob. A justificativa mecanística dessa afirmação é:	pesquisador afirma obeso|<EN?>
+E2.12	Julgue os itens que aproximam a alça leptina-hipotálamo da arquitetura geral de retroalimentação negativa:	Julgue itens aproximam|<EN?>
+E2.13	A noradrenalina que dispara a lipólise no adipócito em resposta à leptina tem origem:	noradrenalina dispara lipólise|<EN?>
+E2.14	A queda da adiponectina na obesidade agrava a resistência à insulina porque:	queda adiponectina obesidade|<EN?>
+E2.15	Em um voluntário mantido em jejum por doze horas, o padrão esperado de sinalização hipotalâmica é:	voluntário mantido jejum|<EN?>
+E2.16	Um paciente tem mutação bialélica com perda de função no MC4R e obesidade grave desde a infância. Julgue os itens:	paciente mutação bialélica|<EN?>
+E2.17	A relação entre a capacidade de expansão do tecido adiposo subcutâneo e o risco metabólico se explica por:	relação entre capacidade|<EN?>
+E2.18	Sobre o efeito da UCP1 sobre o termo "gasto" da equação do balanço energético:	Sobre efeito sobre|<EN?>
+E2.19	Julgue os itens sobre o que a parabiose demonstrou e sobre a lógica geral que dela se extrai:	Julgue itens sobre|<EN?>
+E2.20	Em paciente com resistência à insulina e célula beta ainda preservada, o análogo de GLP-1 reduz a glicemia porque:	paciente resistência insulina|<EN?>
+E2.21	Sobre a organização do circuito hipotalâmico do apetite, assinale a alternativa incorreta:	Sobre organização circuito|<EN?>
+E2.22	Julgue os itens sobre o adipócito hipertrofiado e o comportamento das adipocinas:	Julgue itens sobre|<EN?>
+E2.23	Um paciente com hipercortisolismo crônico desenvolve obesidade central, hiperglicemia e hipertensão. O mecanismo que une esses achados é:	paciente hipercortisolismo crônico|<EN?>
+E2.24	A sensibilidade ao frio do camundongo ob/ob se explica por:	sensibilidade frio camundongo|<EN?>
+E2.25	Julgue os itens sobre o valor de massa gorda defendido pelo organismo e a suspensão de um análogo de GLP-1:	Julgue itens sobre|<EN?>
+E2.26	Um lactente de nove meses é levado ao serviço por ganho de peso acelerado desde o segundo mês, com fome incessante e choro que só cessa à alimentação. A distribuição da gordura é generalizada, e a dosagem de leptina sérica vem indetectável. A conduta com maior chance de reverter o quadro, e sua justificativa mecanística, é:	lactente nove meses|<EN?>
+E2.27	Homem de 42 anos, circunferência abdominal aumentada, glicemia de jejum de 96 mg/dL e insulina de jejum bastante elevada. Triglicerídeos altos, HDL baixo, pressão de 145/92 mmHg e ultrassom com esteatose hepática. Julgue os itens:	Homem anos circunferência|<EN?>
+E2.28	Uma paciente com obesidade e diabetes tipo 2 inicia semaglutida semanal. Em três meses relata saciedade precoce, refere que a comida "demora a descer" e perde peso; a glicemia melhora sem episódios de hipoglicemia. O conjunto de mecanismos que explica o relato é:	paciente obesidade diabetes|<EN?>
+E2.29	Menino de seis anos com obesidade grave desde os dois anos, hiperfagia intensa, estatura acima do esperado para a família e aumento de massa magra; o pai teve obesidade de início precoce. A leptina sérica é elevada e compatível com a massa gorda. A hipótese diagnóstica e o ponto acometido no circuito são:	Menino seis anos|<EN?>
+E2.30	Uma paciente perdeu 18 kg em oito meses com dieta e exercício e, nos dois anos seguintes, recuperou 15 kg mantendo o mesmo padrão de esforço que sustentou a perda. Julgue os itens:	paciente perdeu oito|<EN?>
