@@ -1,0 +1,543 @@
+
+===== slide-01.png =====
+Olá, vamos continuar a nossa exploração do sistema imune. E hoje nós
+vamos olhar como é que o reconhecimento inato acontece no sistema
+imune.
+Aquela resposta inata depende de receptores que estão prontos.
+Portanto, a capacidade de reconhecimento é inata. Ao contrário do
+reconhecimento que depende dos receptores clonais que são gerados
+aleatoriamente.
+
+===== slide-02.png =====
+Então, hoje, esse tema inclui esses itens aí. Identiﬁcar esses receptores
+para padrões moleculares, os PRR, como sensores da homeostasia,
+desencadeadores da resposta inata.
+Dar uma olhada nas diferentes famílias de PRR, realmente dar uma
+olhada, e vamos olhar um pouquinho mais para os toll-like receptors
+e onde eles estão.
+Dar uma olhada muito breve sobre as vias moleculares de ativação
+dos PRR e consequência disso, começar a olhar um pouco mais
+precisamente para essas moléculas de comunicação, as citocinas e
+quimiocinas.
+
+===== slide-03.png =====
+É sempre bom lembrar que aquele repertório capaz de reconhecer
+tudo, o repertório dos receptores clonais, é gerado aleatoriamente. E
+para que ele não comece a reconhecer o que não deve, ele sofre um
+processo de seleção. A geração é aleatória, mas sofre seleção, e mesmo
+assim, o reconhecimento por esse receptor não tem sempre o mesmo
+resultado. As respostas são diferentes dependendo da situação.
+
+===== slide-04.png =====
+Então, essa seleção do repertório completo clonal acontece nos órgãos
+linfóides primários, onde você tem o antígeno próprio como fator de
+seleção, permitindo que, de maneira muito geral, o repertório distinga
+o próprio do não próprio. Mas isso não é completo, obviamente, e há
+situações em que isso não funciona, em que você desenvolve a doença
+autoimune, ou situações em que, se fosse só distinção entre próprio
+e não próprio, a gente ia começar a responder contra coisas que não
+precisa, comida, por exemplo.
+
+===== slide-05.png =====
+Então, nós acabamos de falar, e vocês já viram esse slide, que o
+reconhecimento especíﬁco vai gerar dois tipos de resposta. Ou uma
+resposta que tende a eliminar o que foi reconhecido, e em geral a
+gente chama isso de resposta imune, ou uma adaptação do sistema que
+aceita a presença daquele antígeno sem tentar eliminá-lo, e a gente
+chama isso de tolerância imunológica.
+Tanto tolerância quanto resposta geram memória, ou seja, o sistema
+vai se adaptando para lidar com aquele mesmo estímulo da mesma
+maneira. Isso é uma questão essencial na imunologia, porque, se vocês
+pensarem bem, quando você faz um transplante, seria ótimo que você
+induzisse tolerância ao órgão transplantado. E quando você tem um
+tumor, seria ótimo que você respondesse e tentasse eliminar o tumor.
+O problema é que no indivíduo que tem o tumor, o sistema já aprendeu
+que aquilo não é problema.
+Então essa é uma questão essencial na imunologia. Hoje a gente
+já tem uma boa ideia. Na verdade, o que distingue, o que parece ser
+o principal fator de diferenciação, é o estado homeostático do tecido
+onde esse antígeno estava quando foi levado ao sistema imune, aos
+órgãos linfóides, para ser reconhecido.
+
+===== slide-06.png =====
+Então, o reconhecimento no sistema imune eu chamei de hierárquico.
+A primeira pergunta é: existe homeostasia? Se sim, isso é detectado
+por esses receptores para padrões moleculares. Se não existir, isso
+desencadeia uma resposta imune inata.
+Mas ao mesmo tempo em que esses receptores estão atuando, a
+constituição molecular do tecido está sendo reconhecida. Os seus
+antígenos estão sendo apresentados para os receptores clonais e nós
+vimos na aula passada que isso acontece lá nos órgãos linfóides
+secundários e que, havendo o sinal da imunidade inata, esses
+antígenos vão desencadear uma resposta imune adquirida.
+
+===== slide-07.png =====
+E a ponte entre essas duas maneiras do sistema imune reagir, a
+maneira inata e a maneira adquirida, é feita por aquele fenômeno
+chamado de apresentação de antígenos. Onde células apresentadoras
+de antígenos, que estão capturando todas as moléculas do tecido
+e ao mesmo tempo avaliando o estado homeostático desse tecido,
+processam e apresentam para os linfócitos T.
+Os antígenos podem ir diretamente ou podem ser capturados pelos
+linfócitos B e nós vimos na aula passada que os linfócitos B também
+podem funcionar como células apresentadoras de antígenos. E com
+isso, eu vou ter o desenvolvimento de uma resposta adquirida que
+pode ir para a tolerância ou pode ir para a resposta de eliminar o que
+foi reconhecido.
+
+===== slide-08.png =====
+Então, o ponto central é: existe perda de homeostasia? E isso
+é detectado pelos Pattern Recognition Receptors (PRR), que são
+inúmeros. Na verdade, há uma tabela com algumas famílias de
+receptores. Identiﬁcou-se um e disse-se que existem vários outros
+parecidos. Portanto, temos a família dos C-Type Lactin Receptors, a
+família dos Cavenger Receptors e assim por diante.
+Eles estão distribuídos por toda a célula. Na verdade, estão na
+membrana externa, nas membranas internas, soltos no citoplasma
+e até dentro do núcleo. Essas moléculas são capazes de reconhecer
+determinados padrões moleculares que podem estar associados ao
+dano tecidual, então chamamos de DAMP, Damage Associated
+Molecular Pattern, ou PAMP, Patogen Associated Molecular
+Pattern.Isso desencadeará a resposta.
+Apenas um dado histórico: o primeiro a falar sobre isso foi um
+pesquisador americano chamado Pauli Metzinger, que chamava de
+Danger Associated Molecular Pattern. Era o perigo para o organismo,
+era o que desencadearia a resposta.
+
+===== slide-09.png =====
+Então, uma vez desencadeado, o que é essa resposta? Essa resposta é
+uma tentativa de restauração da homeostasia. Como é que ela é feita?
+Ou seja, quais são as estratégias do sistema?
+Primeiro é tentar salvar células vizinhas e quem faz isso muito bem
+são os interferons do tipo 1. Outro é eliminar células doentes, é a
+citotoxicidade celular, ou seja, se eu tenho algo errado aqui, o sistema
+é capaz de reconhecer a célula que está errada e tentar eliminar essa
+célula. Outro, que é essencial, é limpar a área, é chamar células capazes
+de fagocitar, chamar e capacitar essas células para eliminar o que
+elas fagocitam. E um quarto, uma quarta estratégia é simplesmente
+chamar socorro. Na verdade, não é uma quarta, essa está embutida
+em todas as outras praticamente, que é produção de fatores de
+crescimento, citocinas, quimiocinas e vários outros mediadores que
+vão modular o ambiente, mudar tanto a chegada de células, chamar
+um tipo celular ou outro tipo celular, quanto modular a função das
+células que estão ali.
+E um fenômeno que é típico dessa resposta é a febre. Ou seja,
+são esses produtos que são produzidos na resposta inata que podem
+ser modulados pela adquirida, sempre. Vão provocar uma alteração
+sistêmica e a febre é a manifestação mais óbvia. Todo mundo já
+teve febre e a febre é uma adaptação do organismo para tentar
+lidar com uma perda de homeostasia. Ou seja, a febre, a gente dá
+toma antitérmico, tá com febre, toma antitérmico, mas a febre é um
+mecanismo de defesa. Tem dados suﬁcientes hoje para mostrar que é
+de fato um mecanismo de defesa.
+No lagarto, ele não tem a temperatura controlada, ele controla a
+temperatura se expondo mais ou menos ao sol. Se você infecta um
+lagarto e impede que ele ﬁque mais tempo no sol, ou seja, impede que
+ele desenvolva a febre, ele morre muito mais fácil. Ou seja, a febre é
+um mecanismo de defesa.
+
+===== slide-10.png =====
+Então, vamos olhar para os interferons, só para a gente ter uma ideia.
+O interferon é uma ação solidária da célula infectada por vírus. Ou
+seja, aqui uma ilustraçãozinha. O vírus adere à célula e quando a
+gente fala em neutralização do vírus, a gente fala uma capacidade de
+bloquear ou a adesão do vírus à célula-alvo, ou a penetração. Ou seja,
+você pode bloquear ainda deixando aderir, mas não deixando o vírus
+liberar o ácido nucleico.
+Agora, se ele entra na célula, libera o ácido nucleico, vai ter uma
+resposta da célula imediata, uma resposta inata, que é a produção de
+interferon. Esse interferon vai ser liberado e vai atingir as células que
+estão em volta. Os vírus que estão ali vão atingir as células que estão
+em volta também. Mas se elas estiverem sob a ação do interferon, o
+interferon bloqueia a replicação viral dentro delas. O resultado disso
+é que aquela célula que está infectada vai ser destruída pelo vírus. Ela
+não tem mais o que fazer, mas ela protege as células do lado.
+Ou seja, a produção de interferon é um mecanismo essencial de
+proteção contra o vírus. E muitas vezes a gente esquece. A gente
+ﬁca pensando na resposta adaptativa e esquece que a resposta inata
+é essencial.
+Da mesma forma que outros mediadores sistêmicos, outros
+mediadores produzidos no sítio da reação, o interferon tem efeitos
+sistêmicos, inclusive febre, dor no corpo. Os sintomas da gripe são
+muitas vezes causados pelo interferon, mais do que pelo vírus em si.
+
+===== slide-11.png =====
+Outro mecanismo que nós falamos é a citotoxidade celular. Ou seja,
+uma célula é induzida a morrer. Não é uma destruição. Não é como
+dar um tiro na célula, matar a célula de fora.
+Na verdade, a citotoxidade celular é um convencimento da célula a
+morrer. Ou seja, as células efetoras da citotoxidade celular identiﬁcam
+a célula-alvo por mecanismos vários. Mecanismos usando receptores
+clonais, então da imunidade adquirida, mas também mecanismos
+usando receptores inatos. Ou seja, são células que não precisam
+sofrer nenhuma adaptação para reconhecer. Os Pattern Recognition
+Receptors.
+Identiﬁcada a célula-alvo, as duas células se encontram, ocorre esse
+reconhecimento, e nesse reconhecimento há uma sinalização. Ou por
+moléculas da membrana, interação de moléculas de membrana que
+estão lá o tempo todo e só precisavam ser aproximadas. E quem faz
+essa aproximação é o reconhecimento especíﬁco.
+Ou pela desgranulação.Essas células citotóxicas possuem grânulos
+que têm substâncias capazes de, agindo sobre a célula-alvo, induzir a
+célula-alvo à morte ativa num processo de apoptose. Então, a célula-
+alvo sofre apoptose destruída e a célula citotóxica está pronta para
+procurar outras células-alvo. Esse é um processo muito elegante do
+sistema. Qual é o papel biológico dele? A gente pode discutir.
+
+===== slide-12.png =====
+Bom, e o outro fenômeno que eu falei que é essencial é a fagocitose.
+Ou seja, a fagocitose funciona desde os protozoários.
+Eu não vou falar muito aqui, mas o que é o processo da fagocitose?
+Também se desenvolvem etapas. Eu tenho a célula fagocítica que
+identiﬁca o alvo. Ou ela é chamada para perto do alvo. Ela sofre
+uma migração celular dirigida, um processo de quimiotaxia. E a gente
+vai ver que há vários mecanismos para a geração dessas moléculas
+quimiotáticas em contato com os alvos.
+Um deles é um sistema de reconhecimento de padrão solúvel.
+Ou seja, você tem proteínas solúveis, proteínas no plasma, que são
+capazes de funcionar como um pattern recognition receptor system.
+O nome disso é o complemento. Mas esse é um dos mecanismos.
+A própria bactéria, por exemplo, gera moléculas que induzem essa
+quimiotaxia. Ou seja, o sistema está preparado. Tem receptores,
+reconhece as moléculas e migra para lá.
+Uma vez localizado, a primeira parte é a adesão. Ou seja, não
+adianta as células encostarem porque a partícula, a bactéria, pode
+não interagir direito com aquela membrana do fagócito. Para isso,
+os fagócitos têm receptores de padrões moleculares que identiﬁcam
+vários padrões comuns em alvos que devem ser fagocitados. Mas o
+sistema também usa, o sistema também gera moléculas capazes de
+facilitar essa adesão. Por quê? Porque grudam na partícula e para elas
+existem receptores na célula fagocítica.
+Daí, por um processo ativo da membrana, o fagócito engloba essa
+partícula como se fosse um zíper. Você vai fechando os receptores
+na superfície do fagócito, na membrana, vão grudando na partícula
+e você vai fechando em volta disso e se forma um fagossomo. Esse
+fagossomo, então, se funde com lisossomas que têm uma série de
+enzimas e, na verdade, na membrana do fagossomo você já tem um
+processo de geração de radicais livres, radicais livres de oxigênio,
+por isso você provoca uma explosão respiratória na célula, a célula
+fagocítica consome muito mais oxigênio do que uma célula que não
+está fagocitando.
+No processo da fagocitose, você ativa esses mecanismos, você tem
+uma explosão respiratória, você joga radical livre, que é destruidor,
+você joga enzimas e isso acaba destruindo aquela partícula fagocitada.
+
+===== slide-13.png =====
+Para tudo isso acontecer, é importante informação. Sem informação,
+as coisas não funcionam. E para manter o homeostase, o organismo
+tem uma série de mediadores de comunicação intercelular.
+Um muito importante, porque é muito plástico, você consegue
+gerar muitos tipos de respostas, são as citocinas. São proteínas,
+glicoproteínas em geral, produzidas pelas células, que têm múltiplas
+ações e, por isso, são pleiotrópicas. Eu brinco que se você quiser
+mostrar que uma determinada citocina faz uma determinada ação, é
+fácil, é só você montar o experimento do jeito certo. Elas são muito
+pleiotrópicas.
+Não adianta nada você ter a citocina. Você tem que ter o receptor
+para a citocina. Isso torna a resposta muito adaptável. E os nomes que
+essas citocinas recebem. Citocina é um nome genérico, um produto
+proteico que a célula produz para a comunicação com outras células.
+Algumas dessas citocinas recebem o nome de interleucinas. Ou
+seja, é uma citocina que serve para a comunicação entre leucócitos.
+A abreviatura é IL e um número. Então IL1, IL2, interleucina 1,
+interleucina 2, interleucina 3. Já tem mais de 30 descritas.
+Algumas outras citocinas recebem o nome de fatores de
+crescimento. E o nome dessas citocinas ou tem um GF no ﬁnal, de
+growth factor, ou algumas são muito especíﬁcas. Foram descobertas
+no estudo da hematopoiese. São chamadas de colon stimulating
+factors, CSF. Então você tem uma letra na frente dizendo que tipo de
+colônia se forma, CSF.
+Outras, como nós já vimos, uma que nós já ouvimos, interferons.
+São moléculas de comunicação. E as quimiocinas que nós falamos na
+aula passada. Aqui vale um comentário. Embora você tenha todos
+esses nomes. Ah, o GM-CSF. É um fator de crescimento, produz
+colônias, mas as ações são pleiotrópicas. Então às vezes o nome, não
+necessariamente uma citocina que tem, chama interleucina, é só uma
+molécula de comunicação, ou é uma molécula de comunicação que
+não induz crescimento. Você pode ter uma molécula de comunicação
+que é um fator de crescimento, mas ela não recebeu o nome de fator de
+crescimento. Portanto, isso aqui é só um comentário. A nomenclatura
+é complicada. Prestem atenção e tentem quando possível ter uma
+noção da origem. É impossível saber todas, porque os nomes às vezes
+são absolutamente tirados do sonho do pesquisador que inventou.
+Um outro tipo de molécula de comunicação que é muito importante
+são os mediadores lipídicos. Vocês vão estudar que quando a célula é
+ativada, uma das respostas é pegar lipídios da membrana, metabolizar
+e gerar mediadores. Um desses lipídios, o ácido aracdônico, que está
+pendurado lá no fosfolipide de membrana, fragmentar e gerar dois
+tipos de mediadores, as prostaglandinas e os leucotrienos, e o PAF. E
+esses mediadores são muito importantes também.
+Uma outra família de mediadores que tem começado a ser estudada
+mais recentemente, porque é muito mais complexo, são os exossomos.
+Na verdade, os exossomos são nanopartículas, são vesículas que a
+célula produz, e inicialmente você fala, isso é um resto, mas não, na
+verdade essas vesículas, ou seja, elas têm membrana, têm conteúdo
+e elas são liberadas e circulam, você tem exossomos circulantes no
+sangue, e elas são muito sinalizadoras sim. Você percebe, em algumas
+situações, que uma célula consegue mudar completamente a função
+da outra célula através dos seus exossomos. E hoje se tem começado
+a estudar os exossomos como instrumento terapêutico, inclusive. Nós
+vamos discutir isso bem mais pra frente.
+
+===== slide-14.png =====
+Só para dar nomes, e aqui eu não vou ﬁcar lendo todos esses nomes,
+vocês veem, têm nomes aos montes. Vários dessas citocinas vocês vão
+ouvir falar bastante ao longo da sua vida.
+Algumas, por exemplo, a interleucina 6, hoje, é um alvo de
+tratamento na COVID. Tem vários estudos tentando usar anticorpos
+que neutralizam, que impedem a ação da interleucina 6 para tratar
+formas graves da COVID-19.
+Fatores de crescimento tipo GCSF, GMSF, de novo, são remédios.
+Você usa isso em transplantes, em algumas situações. E é assim por
+diante.
+Os interferons, alfa e beta, são usados na clínica com bastante
+frequência. O interferon gama, embora aparecesse como muito
+tentador, nunca deu certo na clínica, embora haja ainda estudos para
+isso.
+E as quimiocinas, que nós já falamos na aula anterior, de novo, só
+uma lista.
+
+===== slide-15.png =====
+E agora, vamos voltar a mais de 100 anos. Em 1908, quando o Paul
+Ehrlich ganhou o Prêmio Nobel de Medicina na Nobel Prize Lecture,
+e eu sugiro vocês lerem no site da Fundação Nobel. Você tem as
+Nobel Prize Lectures, as aulas que os ganhadores do Prêmio Nobel
+dão quando ganham, e são muito interessantes.
+E essa daqui, olhem só que interessante. Ele diz, em 1908, que agora,
+nesse momento, chegou a hora de entrar na bioquímica da célula, no
+quimismo mais sutil da célula, e quebrar o conceito da célula como
+uma unidade, mas sim como, na verdade, uma combinação de muitas
+funções parciais especíﬁcas.
+Estava dizendo, vamos estudar bioquímica, porque é essencial para
+entender os processos da vida, entender os mecanismos íntimos. E,
+sendo médicos, se eu souber exatamente o que está acontecendo ali
+dentro, eu vou conseguir desenvolver remédios muito mais precisos.
+É o que hoje está absolutamente na moda. É o remédio com alvo
+certo, alvo molecular certo. Eu identiﬁco o que está errado numa
+determinada doença, que molécula na célula está errada, e tento
+corrigir desenhando um remédio para aquilo.
+
+===== slide-16.png =====
+Bom, então, se vamos mais a fundo, vamos um pouquinho mais
+precisamente olhar para os toll-like receptors. E aqui é uma lista
+tirada dessa referência que aparece aí, que eu sugiro vocês darem uma
+olhada.
+Se vocês quiserem, será muito bom vocês lerem, mas é muito, aí
+vai muito fundo. E aqui é só uma lista para vocês verem. Os toll-
+like receptors conhecidos, que vão de 1 a 11, pulando ali, o 7 é no
+camundongo, o 8 é no humano, e vocês veem que o humano não tem
+7 e o camundongo não tem 8.
+Onde eles ﬁcam? Nas membranas. Os toll-like receptors são
+proteínas de membrana. Essa membrana pode ser a membrana
+externa, a membrana plasmática, ou pode ser a membrana do
+lisossomo. E nessa membrana, o que eles estão reconhecendo? Aqui
+vocês têm uma lista, mas essa lista obviamente não é completa, na
+verdade.
+Alguém descobriu que o TLR1, toll-like receptor 1, reconhece triacil
+lipoproteínas, que são lipoproteínas que existem em bactérias. É só
+isso que ele reconhece? Com certeza não. Só isso estava mal. Você só
+tinha 11 padrões moleculares. Na verdade, esse é o que é tipicamente
+reconhecido. Esses são exemplos, são tipicamente reconhecidos. Mas
+há outros, ou seja, é muito possível que o toll-like receptor 4, que é
+tipicamente reconhecedor de LPS, endotoxina bacteriana, reconheça
+outras coisas. Inclusive, porque está falando vírus com LPS, próprio
+com LPS, ou seja, tem padrões moleculares que a gente não consegue
+discernir exatamente.
+
+===== slide-17.png =====
+Além dos Toll-like receptors, porque, bom, não vou entrar nos Toll-
+like receptors, a origem dos nomes é muito interessante também. Toll,
+uma palavra em alemão, quer dizer bacana, super, divertido. E ele foi
+descoberto em drosóﬁla. Na drosóﬁla, o papel inicial da molécula Toll
+é um papel de embriogênese. E daí, como as moléculas Toll-like são
+parecidas com essa molécula Toll estruturalmente, tem essa função de
+reconhecimento de padrões moleculares, uma função na imunidade
+inata. E aí você tem várias outras famílias de RIG-I-like receptors,
+que reconhecem um monte de coisas, estão distribuídas em todos os
+lugares, açúcares, ácidos nucleicos, peptídeos, e assim por diante.
+
+===== slide-18.png =====
+Então, como é que funciona? E vamos agora olhar um pouco mais
+como é que funciona a ativação do toll-like receptor.
+Você tem lá os dumps e os pumps, aqueles mediadores todos,
+que são reconhecidos pelos toll-like receptors. Acontecer esse
+reconhecimento tem dois fenômenos possíveis. Um, o ligante força
+uma dimerização do toll-like receptor. Esse toll-like receptor estava
+isolado na membrana, e o ligante acaba dimerizando. Ao dimerizar,
+ele vai ser capaz de dar sinal. Ou, o ligante muda a conformação
+de um dimero, já estava formado, mas o ligante entrando naquele
+dimer, se ligando ao dimero, muda a conformação. Isso leva a
+uma sinalização que vai terminar com a produção de citocinas
+inﬂamatórias, quimiocinas inﬂamatórias, que leva àquele fenômeno
+de inﬂamação, chamada dos fagócitos e tentativas de restauração da
+homeostasia.
+Por onde passa isso daí? É um caminho comprido e passa,
+essencialmente, um principal mediador, transdutor do sinal, da ligação
+do toll-like receptor com o seu alvo, essa molécula aqui, é o MyD88,
+My Alloy Diﬀerentiation Primary Response Protein 88. Vocês veem
+que os nomes são muito complicados de guardar. Eu só pus aí uma
+lista pra vocês terem uma ideia, mas os nomes, é mais fácil guardar
+a sigla. Não vai precisar guardar a sigla. Algumas dessas vão ser tão
+usadas que é bom guardar, porque você vai, inclusive, começar a usá-
+las como alvo. Vai ter remédio que tenta inibir aquilo, inibir outro,
+ou pelo menos para modelos experimentais. Hoje você tem inúmeros
+modelos de animais em que você nocauteia essa molécula, o MyD88,,
+e vê o que acontece com a resposta nesse animal que não tem essa
+sinalização.
+Essa é uma via complicada, mas vai acabar gerando dois fatores
+de transcrição, o NFK-B, o fator nuclear KB, ou o fator nuclear,
+a proteína ativadora 1, e isso, no núcleo, vai ativar os genes que
+produzem essas citocinas. Mas não é só esse o caminho de ativação.
+Os TLRs também podem ativar uma outra via, chamada do TRIF, que
+é Teardomain-containing-adaptive-protein-inducing-interferon-beta.
+Vocês veem que o nome é complicado. Esse TRIF é o fator de ligação
+imediata com o receptor que vai eventualmente levar à formação
+de vários fatores regulatórios de interferon. Portanto, vai levar à
+produção de interferon. Os interferons, como nós já vimos, têm uma
+atividade antiviral e também uma função na ativação de linfócitos T,
+que vocês vão entender mais pra frente exatamente como. Pelo menos
+mais um dos mecanismos.
+O que é importante saber é que alguns TLRs vão pela via do MyD88,
+outros vão pela via do TRIF, mas que alguns vão pelas duas, e mais do
+que isso, as duas vias se cruzam. Ou seja, a via de ativar, porque não
+é o MyD88 que dá direto no NFKB, você tem várias moléculas pelo
+caminho e entre essas moléculas você pode ter ramiﬁcações e você
+vai ativando um ligante que liga num Toll-Like Receptor que sinaliza
+essencialmente por MyD88, que deveria levar à produção de citocinas,
+pode levar à produção de interferon, porque tem uma ramiﬁcação.
+Essas não são as únicas consequências de ativação dos Toll-Like
+Receptors. Você dá sinais para a célula tanto de sobrevivência, via
+molécula AKT, quanto de morte, via ativação de caspase-8. E tem mais
+uma consequência. Você pode levar a ativação de um outro complexo
+molecular chamado inﬂamassoma, via TRIF, que nós vamos ver em
+seguida.
+Então vocês veem ativação do Toll-Like Receptors tem um monte
+de consequências. Todas ao mesmo tempo? Não. Você tem mais
+uma, menos outra. E do que depende? Da disposição dos Toll-Like
+Receptors, quantos Toll-Like Receptors você tem e de que outros
+sinais a célula está recebendo. Ou seja, a gente começa a entrar mais
+a fundo e você começa a se perder no universo de possibilidades.
+
+===== slide-19.png =====
+Para vocês terem uma ideia, aqui está uma ﬁgura tirada de uma das
+referências que eu sugeri para vocês lerem. Não é para olhar com
+detalhes, mas vocês veem.
+Tem um monte de moléculas envolvidas nesse caminho, mas mais
+do que tudo, você tem um cruzamento. Ou seja, eu entro por aqui, mas
+eu posso ir para lá. Normalmente deveria vir por aqui, mas esse aqui
+é o principal, seria esse o mecanismo principal desses dois aqui, que
+levam à produção de interferon.
+E vocês podem ver, eles reconhecem ácidos nucleicos. Esse também
+reconhece um monte de coisa, o Toll-Like Receptor 4. Mas você leva
+para todo lado.
+E aqui vale a pena um outro conceito. Está tudo muito bonitinho.
+Você tem lá os vários Toll-Like Receptors reconhecendo várias coisas
+e com efeitos diferentes. Só que se vocês olharem, todos eles se
+ligam e acabam fazendo a mesma coisa. Então, embora a gente diga
+a via molecular é essa, o efeito desse ligante desse ligante Toll-Like
+Receptor é aquele, mas peraí, mas todo mundo tem o mesmo caminho.
+Então, é e não é o mesmo caminho.
+Embora a gente tenha esse conceito de que o citoplasma é um saco
+onde está tudo misturado, não é. A anatomia, que é importante na
+função dos órgãos, e a gente percebe, eu preciso ter o músculo ligado
+aqui para ele conseguir dobrar essa articulação, isso vale também
+dentro da célula. Só que essa anatomia celular é muito mais difícil
+de eu estudar. Eu não sei onde estão. Mas não adianta eu ativar essa
+molécula My-D88 se ela não estiver perto do IRAK 4, IRAK 1, para ela
+poder ativar. Ou se ela estiver ou não perto do IRAK 1. Essas moléculas
+não estão ﬂutuando no meio. Elas estão ativamente levadas para cá
+ou para lá.
+Ou seja, a pré ativação da célula traz uma coisa, produz
+um determinado substrato. Isso é dinâmico. Isso é complicado,
+obviamente, estudar. É muito difícil estudar, mas é um desaﬁo
+interessantíssimo. E o conhecimento disso pode gerar saltos na nossa
+capacidade de tratar as doenças e de entender. Primeiro de entender
+porque a doença funciona e depois como tratar.
+
+===== slide-20.png =====
+E o que é esse inﬂamassoma de que nós falamos aqui atrás? Ativação
+do inﬂamassoma. Vou pegar uma deﬁnição que é adaptada livremente
+dessa outra referência que eu sugeri para vocês.
+Inﬂamassoma é uma plataforma, são plataformas moléculares. O
+que é isso? É um aglomerado, uma molécula que se junta com a outra,
+que se junta com a outra e que se forma a partir da ativação de alguns
+Pattern Recognition Receptors (PAMPS).
+E essas plataformas moleculares têm uma função muito especíﬁca.
+Maturação de citocinas pró-inﬂamatórias. O que é maturação? O
+gene ativado pelo fator de transcrição gera uma proteína que ainda
+não é funcional. É uma pró-citocina inﬂamatória. E o inﬂamassoma
+vai lá e corta essa pró-citocina inﬂamatória e gera uma citocina
+inﬂamatória ativa. E as duas principais são a interleucina-1-beta e a
+interleucina 18. A interleucina 1 é uma das primeiras interleucinas,
+uma das primeiras citocinas a ser descrita. E ela é muito importante
+na reação inﬂamatória. E, portanto, os inﬂamassomas são essenciais
+à imunidade inata.
+À medida que a gente foi entendendo isso, nós começamos
+a perceber que alterações em moléculas do inﬂamassoma estão
+associadas a doenças inﬂamatórias hereditárias, algumas que são
+raras, mas doenças inﬂamatórias adquiridas. E, portanto, conhecer
+isso é muito importante.
+Então, só para especiﬁcar, que pattern recognition receptors ativam
+o inﬂamassoma. Essencialmente, os pattern recognition receptors
+são as famílias dos NLR, dos nod-like receptors. E é curioso, então,
+você tem os NODs, e tem esses outros, NLRP123 e PAF M2. Os
+nomes eu não vou ﬁcar entrando em detalhes aqui. Os NODs,
+embora a família seja dos Nod-like receptors, são ativadores da via
+do NFKB, do Nucleofactor KB, que vão levar à produção de citocinas
+inﬂamatórias. Os NODs estão soltos no citoplasma, reconhecem
+produtos bacterianos ali e ativam a resposta do NFKB.
+Vocês notem que o NFKB vocês vão ouvir falar muito ao longo da
+imunologia, da microbiologia, porque esse fator nuclear, esse fator
+de transição é muito importante no controle da atividade das células
+do sistema imune. Para mostrar quão importante é, como a natureza
+percebe, o vírus da imunodeﬁciência adquirida, o HIV, se liga e
+modiﬁca a função do NFKB. O NFKB é um alvo do HIV também,
+porque é essencial na resposta imune.
+Mas voltando para o nosso inﬂamassoma, então os NODs dão
+origem a isso aí, mas os outros três formam esses complexos
+moleculares quando ativados. Os inﬂamassomas. Esses complexos
+moleculares, como é que eles vão levar a clivagem? Eles ativam uma
+enzima, a caspase 1, que é uma enzima clivadora de proteína, e essa
+caspase 1 vai clivar o IL-1, o pra-pro IL-1, beta-pro IL-18, que vão levar
+à inﬂamação.
+
+===== slide-21.png =====
+Então, só aqui de novo, o esquema retirado do artigo que eu citei
+ali, só para vocês verem que a estrutura do complexo molecular é
+razoavelmente conhecida. Você sabe que domínios que precisa ter
+ali para você gerar esse inﬂamassoma, que gera a caspase 1, que
+cliva a pro-IL-1-beta. E, portanto, para o inﬂamassoma funcionar, eu
+preciso ter algum sinal para a produção da pro-IL-1-beta. Ou seja, eu
+preciso ter os sinais. Uma célula que só tem esse sinal de ativação,
+provavelmente não vai pra frente. E daí, eu tenho a liberação do
+interleucina-1-beta.
+
+===== slide-22.png =====
+Então, resumindo essa aula, eu espero que tenha sido mais curta. Ou
+seja, a ativação dos PAMPs leva uma célula a liberar citocinas, ou seja,
+essa célula vai dar sinais.
+Alguns desses sinais estão produzidos e estavam guardados, e nós
+não falamos de todos esses. Outros são modiﬁcados após a ativação
+da célula. A IL-1-beta, a pro-IL-1-beta é modiﬁcada pelo sinal e daí
+é liberada com IL-1-beta. Outros, citocinas ou outros produtos, são
+produzidos só quando eu ativo. Ou seja, a célula não tem nada
+armazenado, o que ela tem é a capacidade de produzir e eu induzo,
+ativo ou induzo.
+A célula vai morrer várias vezes e o produto de degradação celular é
+liberado por essa ativação. Tudo isso dá, obviamente, uma plasticidade
+enorme pra resposta imune inata. Então, embora a gente fale ou pense
+talvez, a resposta imune adquirida que reconhece qualquer coisa é
+muito diversa, já a inata é monótona. É monótona nada, vocês estão
+vendo, tem um monte de variações.
+E tudo isso tem que ser testado. A gente não pode prever. Nós
+falamos lá que o diacil lipoproteína ativa o Toll-like receptor 6. É, mas
+você pode ter diacil lipoproteína diferente do outro diacil lipoproteína.
+E os sinais são diferentes. Embora o receptor seja o mesmo, o ligante
+e a mudança que o ligante induz na célula é um pouquinho diferente.
+A resposta imune inata também é muito plástica. Isso torna o
+organismo capaz de se adaptar a inúmeras situações, mas também
+torna um desaﬁo muito grande a gente entender tudo isso. Óbvio que
+por ser desaﬁante é gostoso estudar. E oferece inúmeras possibilidades
+de intervenção. À medida que eu entendo, eu posso intervir e resolver
+problemas cada vez mais especiﬁcamente. E é o que no ﬁnal das contas
+você quer. Você quer tratar a doença sem provocar outra doença.
