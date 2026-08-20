@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- imuno-20-mhc-processamento-apresentacao | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,34 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "MHC e apresentação de antígenos",
+  "Imunologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Imunologia"),
+    ("Onde estudar", "Abbas · Imunologia Celular e Molecular (10ª ed.), caps. 6 e 7 · Murphy · Janeway's Immunobiology (10ª ed.), cap. 6 · Kuby · Immunology, cap. 8"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Por que o linfócito T precisa que alguém mostre", (
+      "1.1 Reconhecer é o primeiro ato",
+      "1.2 BCR vê inteiro, TCR vê fragmento",
+      "1.3 As três apresentadoras profissionais",
+      "1.4 Da periferia ao linfonodo",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A molécula que mostra", (
+      "2.1 A fenda e os dois reconhecimentos",
+      "2.2 Classe I e classe II",
+      "2.3 Correceptor e restrição ao MHC",
+      "2.4 HLA: herança e polimorfismo",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Processar: as vias que fabricam o peptídeo", (
+      "3.1 A origem do antígeno decide a via",
+      "3.2 Via citosólica: proteassoma e TAP",
+      "3.3 Via endocítica: cadeia invariante e DM",
+      "3.4 Apresentação cruzada e os dois sinais",
     )),
   )),
 ))
@@ -57,39 +58,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "C"),
+    ("02", "E"),
+    ("03", "CEEC"),
+    ("04", "A"),
+    ("05", "D"),
+    ("06", "ECCE"),
+    ("07", "B"),
+    ("08", "E"),
+    ("09", "CCEE"),
+    ("10", "C"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
+    ("11", "A"),
+    ("12", "EECC"),
+    ("13", "D"),
+    ("14", "B"),
+    ("15", "C"),
+    ("16", "CCEC"),
+    ("17", "E"),
+    ("18", "A"),
+    ("19", "EECE"),
+    ("20", "D"),
+    ("21", "B"),
+    ("22", "CECC"),
+    ("23", "C"),
     ("24", "E"),
-    ("25", "ECCC"),
+    ("25", "ECEE"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "A"),
+    ("27", "D"),
+    ("28", "ECCC"),
+    ("29", "B"),
+    ("30", "CEEC"),
   )),
 ))

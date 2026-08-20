@@ -1,0 +1,61 @@
+slug: imuno-20-mhc-processamento-apresentacao
+titulo: "MHC e apresentação de antígenos"
+subtitulo: "Imunologia"
+meta:
+  - ["Disciplina", "Imunologia"]
+  - ["Onde estudar", "Abbas · Imunologia Celular e Molecular (10ª ed.), caps. 6 e 7 · Murphy · Janeway's Immunobiology (10ª ed.), cap. 6 · Kuby · Immunology, cap. 8"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Por que o linfócito T precisa que alguém mostre"
+        subtopicos:
+          - "1.1 Reconhecer é o primeiro ato"
+          - "1.2 BCR vê inteiro, TCR vê fragmento"
+          - "1.3 As três apresentadoras profissionais"
+          - "1.4 Da periferia ao linfonodo"
+      - titulo: "PARTE II — A molécula que mostra"
+        subtopicos:
+          - "2.1 A fenda e os dois reconhecimentos"
+          - "2.2 Classe I e classe II"
+          - "2.3 Correceptor e restrição ao MHC"
+          - "2.4 HLA: herança e polimorfismo"
+      - titulo: "PARTE III — Processar: as vias que fabricam o peptídeo"
+        subtopicos:
+          - "3.1 A origem do antígeno decide a via"
+          - "3.2 Via citosólica: proteassoma e TAP"
+          - "3.3 Via endocítica: cadeia invariante e DM"
+          - "3.4 Apresentação cruzada e os dois sinais"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "E"]
+    - ["03", "CEEC"]
+    - ["04", "A"]
+    - ["05", "D"]
+    - ["06", "ECCE"]
+    - ["07", "B"]
+    - ["08", "E"]
+    - ["09", "CCEE"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "EECC"]
+    - ["13", "D"]
+    - ["14", "B"]
+    - ["15", "C"]
+    - ["16", "CCEC"]
+    - ["17", "E"]
+    - ["18", "A"]
+    - ["19", "EECE"]
+    - ["20", "D"]
+    - ["21", "B"]
+    - ["22", "CECC"]
+    - ["23", "C"]
+    - ["24", "E"]
+    - ["25", "ECEE"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "D"]
+    - ["28", "ECCC"]
+    - ["29", "B"]
+    - ["30", "CEEC"]
