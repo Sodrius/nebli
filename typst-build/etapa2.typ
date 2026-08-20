@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [Por que a consistência das fezes funciona como termômetro do tempo que o conteúdo passou dentro do intestino grosso?],
+  (("A", [Porque o intestino grosso completa a digestão enzimática dos carboidratos complexos que o delgado não conseguiu quebrar, e o grau de quebra alcançado determina diretamente quanto resíduo sólido sobra ao final do trajeto.]),
+   ("B", [Porque as bactérias da luz colônica produzem gás em quantidade proporcional ao tempo de permanência, e é o volume de gás retido entre as saculações que dá às fezes a consistência final observada na evacuação.]),
+   ("C", [Porque a reabsorção de água pela mucosa colônica depende do tempo de contato entre o conteúdo e a parede, de modo que trânsito acelerado devolve pouca água ao organismo e trânsito lento devolve muita, ressecando o resíduo.]),
+   ("D", [Porque a secreção de muco pelas células caliciformes aumenta de forma linear com o tempo de trânsito, e é a quantidade de muco incorporada ao bolo fecal que define se ele sairá líquido, pastoso ou endurecido na evacuação.]),
+   ("E", [Porque a absorção de nutrientes continua ao longo de todo o colo com a mesma intensidade do delgado, e quanto maior o tempo disponível, maior a fração de conteúdo absorvida e menor o volume de resíduo que resta.])))
 
-#questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+#questao-ce("02", badge-consolidacao,
+  [Julgue os itens sobre as três marcas que distinguem o intestino grosso do delgado à inspeção.],
+  (("I",   [As tênias do colo são faixas em que a camada muscular longitudinal se concentra, e correm do ceco até a junção com o reto.]),
+   ("II",  [As saculações se formam porque a mucosa do colo produz pregas transversais permanentes que compartimentam a luz em bolsas sucessivas.]),
+   ("III", [Os apêndices omentais são bolsas de gordura recobertas por peritônio, presas à superfície externa do colo e desprovidas de luz própria.]),
+   ("IV",  [O intestino delgado não apresenta tênia, saculação nem apêndice omental, e sua camada longitudinal reveste o tubo de modo uniforme.])))
 
-#questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+#questao-mc("03", badge-consolidacao,
+  [Como se explica que o colo ascendente e o colo descendente praticamente não se deslocam, enquanto o transverso e o sigmoide têm mobilidade ampla?],
+  (("A", [Ascendente e descendente conservaram mesocolo próprio, mas são mantidos em posição pelas tênias, que funcionam como tirantes tensionados e impedem qualquer deslocamento lateral desses dois segmentos.]),
+   ("B", [Ascendente e descendente nasceram desde o início atrás do peritônio, sem nunca terem tido mesentério, ao passo que transverso e sigmoide se formaram dentro da cavidade peritoneal e ali permaneceram livres.]),
+   ("C", [Ascendente e descendente estão presos ao músculo psoas maior por fibras que atravessam o peritônio, e essa aderência muscular direta é o que retira desses dois segmentos qualquer possibilidade de movimento.]),
+   ("D", [Ascendente e descendente são mais estreitos e por isso mais rígidos, enquanto transverso e sigmoide, de calibre maior, acomodam volume e ganham liberdade de deslocamento dentro da cavidade abdominal.]),
+   ("E", [Ascendente e descendente foram suspensos por mesocolo no início do desenvolvimento, mas essa dobra encostou na parede posterior e fundiu-se a ela, tornando-os secundariamente retroperitoneais; transverso e sigmoide preservaram o mesocolo.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [Sobre o ceco e a válvula ileocecal, assinale a alternativa *incorreta*.],
+  (("A", [O íleo terminal projeta-se para dentro da luz do ceco formando a papila ileal, saliência constituída por dois lábios que se encontram e delimitam entre si o óstio ileal.]),
+   ("B", [O fechamento da passagem depende de um anel de músculo liso próprio, espesso e bem delimitado, comparável em estrutura e em espessura ao esfíncter pilórico da saída do estômago.]),
+   ("C", [O lábio ileocólico é o superior, voltado para o colo ascendente, e o lábio ileocecal é o inferior, voltado para o fundo cego do segmento onde o íleo desemboca.]),
+   ("D", [O ceco é uma bolsa cega porque o íleo desemboca na sua parede lateral e não na sua extremidade, restando abaixo da desembocadura um fundo fechado apoiado na fossa ilíaca direita.]),
+   ("E", [Além do óstio ileal, existe no interior do ceco um segundo orifício, o óstio do apêndice, situado alguns centímetros abaixo da papila e comunicando a luz cecal com a do apêndice vermiforme.])))
 
-#questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+#questao-ce("05", badge-consolidacao,
+  [Julgue os itens sobre o apêndice vermiforme.],
+  (("I",   [O apêndice é um cordão sólido, sem luz própria, que se prende à superfície externa do ceco sem comunicação com a luz intestinal.]),
+   ("II",  [A parede do apêndice é rica em folículos linfoides, o que o coloca na vigilância imune do conteúdo que entra no intestino grosso.]),
+   ("III", [A base do apêndice corresponde ao ponto em que as três tênias do colo convergem no ceco, e essa posição é constante.]),
+   ("IV",  [O apêndice não possui mesentério próprio: sua irrigação vem de ramos que atravessam diretamente a parede do ceco.])))
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+#questao-mc("06", badge-consolidacao,
+  [Por que o reto não apresenta tênias, saculações nem apêndices omentais?],
+  (("A", [Porque na junção retossigmoide as três tênias se abrem e se espalham, refazendo uma lâmina longitudinal contínua ao redor de todo o tubo; sem faixas curtas puxando a parede, o franzimento que gera as saculações deixa de existir.]),
+   ("B", [Porque o reto perde a camada muscular longitudinal por completo e passa a contar apenas com a camada circular, que produz as pregas transversas em lugar das saculações vistas no colo.]),
+   ("C", [Porque o reto é o único segmento inteiramente extraperitoneal do tubo digestório, e sem revestimento de peritônio não há como formar as bolsas de gordura nem as faixas musculares que caracterizam o colo.]),
+   ("D", [Porque o reto tem calibre uniformemente maior que o do sigmoide, e a distensão permanente da sua parede apaga o relevo das saculações e das tênias sem alterar a organização das camadas musculares.]),
+   ("E", [Porque as tênias terminam no ceco e nunca chegam ao segmento distal do colo, de modo que sigmoide e reto compartilham a mesma ausência de faixas longitudinais e de saculações.])))
 
-#questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+#questao-ce("07", badge-consolidacao,
+  [Julgue os itens sobre os marcos do interior do canal anal.],
+  (("I",   [As colunas anais são cristas longitudinais da mucosa da porção superior do canal, cada uma contendo um ramo terminal dos vasos retais superiores.]),
+   ("II",  [O seio anal é o recesso situado entre as bases de duas colunas vizinhas e recebe a desembocadura dos ductos das glândulas anais.]),
+   ("III", [A linha pectinada e a junção anorretal são o mesmo marco anatômico, descritos com nomes diferentes conforme a escola de anatomia.]),
+   ("IV",  [A linha branca, ou anocutânea, situa-se abaixo da linha pectinada e marca a transição para a pele com pelos e glândulas.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+  [O que explica que revestimento, artéria, veia, linfático e inervação mudem todos no mesmo nível do canal anal?],
+  (("A", [O nível corresponde ao ponto em que o esfíncter anal externo termina e o interno assume sozinho o fechamento, e essa troca de músculo arrasta consigo a troca dos vasos e dos nervos que os acompanham.]),
+   ("B", [O nível corresponde à altura em que o peritônio se reflete sobre o canal anal, e a presença ou ausência de revestimento seroso define de que território cada estrutura vascular e nervosa provém.]),
+   ("C", [O nível corresponde ao limite superior do assoalho pélvico atravessado pelo canal, e é a passagem por essa camada muscular que separa os territórios vasculares, linfáticos e nervosos entre si.]),
+   ("D", [O nível corresponde à linha em que se fundiram o intestino posterior, de origem endodérmica, e o proctodeu, de origem ectodérmica; cada um trouxe a irrigação, a drenagem e a inervação do território de onde veio.]),
+   ("E", [O nível corresponde à altura em que a camada circular de músculo liso se espessa para formar o esfíncter interno, e esse espessamento redistribui os vasos e nervos da parede em dois territórios distintos.])))
 
-#questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+#questao-mc("09", badge-consolidacao,
+  [Como se distinguem, quanto à natureza e ao controle, os dois esfíncteres que fecham o canal anal?],
+  (("A", [Ambos são de músculo estriado esquelético e voluntários, mas o interno recebe inervação autonômica adicional que lhe permite manter contração tônica mesmo durante o sono, enquanto o externo depende só da vontade.]),
+   ("B", [Ambos são de músculo liso e involuntários, e o que os diferencia é apenas a posição: o interno envolve os dois terços superiores do canal e o externo o acompanha por fora em toda a sua extensão.]),
+   ("C", [O interno é o espessamento da camada circular de músculo liso do próprio tubo e é involuntário; o externo é músculo estriado esquelético, inervado pelo nervo pudendo, e obedece à vontade, embora se fatigue.]),
+   ("D", [O interno é músculo estriado esquelético que responde ao nervo pudendo e sustenta a continência voluntária; o externo é músculo liso de contração tônica permanente e não participa do controle consciente.]),
+   ("E", [O interno é formado pela camada longitudinal do tubo e o externo pela camada circular; ambos respondem ao nervo pudendo, e a diferença está no fato de o externo se contrair apenas durante o esforço evacuatório.])))
 
-#questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+#questao-ce("10", badge-consolidacao,
+  [Julgue os itens sobre a topografia do intestino grosso na parede abdominal.],
+  (("I",   [O ceco e o apêndice vermiforme projetam-se na região inguinal esquerda, ao passo que o colo sigmoide ocupa a região inguinal direita.]),
+   ("II",  [A flexura cólica direita é mais alta, mais posterior e mais aguda que a esquerda, e é ela que o ligamento frenocólico ancora ao diafragma.]),
+   ("III", [O sulco paracólico é a goteira entre o colo ascendente ou descendente e a parede lateral do abdome, por onde líquido e pus podem escorrer entre andares da cavidade.]),
+   ("IV",  [O colo transverso cruza a região umbilical, e o colo ascendente ocupa a região lateral direita da grade de nove regiões.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [Comparando o colo transverso e o colo sigmoide, ambos dotados de mesocolo, o sigmoide é de longe o mais sujeito a torção no adulto. A explicação mecânica dessa diferença é que],
+  (("A", [o sigmoide, por ser o segmento de menor calibre do intestino grosso, sofre tensão de parede maior a cada aumento de pressão intraluminal, e é essa tensão que inicia o movimento de rotação da alça.]),
+   ("B", [o mesocolo transverso é mantido esticado pela aderência do omento maior, o que confere ao transverso uma rigidez que o sigmoide não possui, apesar de ambos terem raízes de mesocolo de comprimento idêntico.]),
+   ("C", [o sigmoide é o único segmento cujo mesocolo carrega vasos por dentro, de modo que apenas nele a rotação consegue estrangular o suprimento vascular e converter um deslocamento simples em obstrução.]),
+   ("D", [o transverso é fixado nas duas extremidades pelas flexuras cólicas, que funcionam como pontos de ancoragem ósseos, enquanto o sigmoide não tem nenhuma fixação em nenhuma de suas extremidades.]),
+   ("E", [o sigmoide reúne alça longa e raiz de mesocolo estreita, e uma alça comprida presa por base curta pode girar sobre o próprio eixo vascular, fechando a luz nas duas extremidades e estrangulando os vasos que o mesocolo conduz.])))
 
-#questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+#questao-mc("12", badge-integracao,
+  [Diante de uma obstrução mecânica no colo descendente, a competência da válvula ileocecal altera o comportamento do quadro. Com a válvula competente, espera-se que],
+  (("A", [o conteúdo reflua livremente para o íleo, descomprimindo o colo de forma retrógrada; o paciente vomita mais precocemente, e o segmento colônico permanece protegido do aumento de pressão intraluminal.]),
+   ("B", [o segmento colônico fique fechado nas duas extremidades e a pressão suba rapidamente; como o ceco é o ponto de maior calibre, é nele que a tensão de parede se torna crítica primeiro, com risco de perfuração longe do obstáculo.]),
+   ("C", [a distensão se concentre imediatamente antes do ponto obstruído, que é onde a pressão é maior, de modo que a perfuração ocorra no próprio colo descendente e não em segmentos proximais a ele.]),
+   ("D", [o íleo terminal se distenda antes do colo, porque a válvula competente impede a saída do conteúdo do delgado, e a alça mais fina do íleo suporte pior o aumento de pressão do que a parede do ceco.]),
+   ("E", [a pressão se distribua igualmente por todo o tubo digestório acima do obstáculo, de modo que nenhum segmento assuma risco particular de ruptura e o quadro evolua apenas com dor difusa e vômitos.])))
 
-#questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+#questao-ce("13", badge-integracao,
+  [Durante uma apendicectomia, o cirurgião não encontra a ponta do apêndice na posição habitual. Julgue os itens sobre a estratégia anatômica para localizá-lo.],
+  (("I",   [Rastrear as tênias do ceco até o ponto em que as três convergem localiza a base do apêndice, que ocupa posição constante.]),
+   ("II",  [A tênia livre é a mais difícil de rastrear na superfície do ceco porque está encoberta pelos apêndices omentais em todo o seu trajeto.]),
+   ("III", [Encontrar o ponto de McBurney na parede abdominal garante que a ponta do apêndice esteja imediatamente abaixo dele.]),
+   ("IV",  [A posição retrocecal, a mais frequente, mantém a base no mesmo lugar e desloca apenas o corpo e a ponta do órgão.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [Um apêndice de posição pélvica inflama. Em relação a um apêndice retrocecal inflamado, a diferença esperada no quadro decorre de que],
+  (("A", [o apêndice pélvico tem irrigação por artéria distinta da apendicular, o que altera a velocidade da isquemia e faz o quadro evoluir mais lentamente até a fase de gangrena da parede.]),
+   ("B", [o apêndice pélvico é sempre mais longo que o retrocecal, e o comprimento maior aumenta a superfície inflamada, o que intensifica a resposta sistêmica sem mudar a localização da dor referida.]),
+   ("C", [o apêndice retrocecal, por ficar aplicado contra o peritônio parietal anterior, produz defesa abdominal mais intensa e mais precocemente localizada, enquanto o pélvico permanece afastado desse peritônio e mantém dor difusa até a perfuração.]),
+   ("D", [o apêndice pélvico fica junto ao reto e à bexiga e irrita essas estruturas, produzindo urgência para evacuar, ardência ao urinar e dor ao toque retal, enquanto o retrocecal fica protegido do peritônio parietal anterior e dá dor mais lateral e lombar.]),
+   ("E", [o apêndice pélvico se projeta exatamente sobre o ponto de McBurney, o que torna a dor localizada com precisão desde a primeira hora do quadro e dispensa por completo a fase inicial de dor visceral referida à região periumbilical.])))
 
-#questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+#questao-mc("15", badge-integracao,
+  [A dor da apendicite começa periumbilical e vaga e depois se localiza na fossa ilíaca direita. Esse mesmo princípio de inervação explica, no canal anal, que],
+  (("A", [a hemorroida interna, situada acima da linha pectinada em território de inervação visceral, sangre e prolapse com pouca ou nenhuma dor, enquanto a externa, em território somático do nervo pudendo, doa intensamente ao trombosar.]),
+   ("B", [a hemorroida externa, por estar mais próxima do plexo venoso profundo, sangre mais abundantemente que a interna, embora ambas compartilhem a mesma inervação somática do nervo pudendo.]),
+   ("C", [tanto a hemorroida interna quanto a externa produzam dor idêntica, já que o canal anal recebe inervação somática uniforme em toda a sua extensão a partir dos ramos do plexo sacral.]),
+   ("D", [a hemorroida interna doa mais que a externa, porque as colunas anais concentram terminações nervosas somáticas e qualquer dilatação venosa nelas comprime essas terminações contra a parede.]),
+   ("E", [a dor da hemorroida dependa apenas do grau de prolapso e do tamanho do coxim dilatado, sem relação com o nível em que ele se situa em relação à linha pectinada do canal anal.])))
 
-#questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+#questao-ce("16", badge-integracao,
+  [Julgue os itens sobre a soma de mecanismos que sustenta a continência e sobre o que se altera na defecação.],
+  (("I",   [Em repouso, a maior parte da pressão de fechamento do canal vem do esfíncter interno, que é liso e não se fatiga.]),
+   ("II",  [O ângulo anorretal agudo, mantido pela alça do puborretal, atua como mecanismo de continência independente dos esfíncteres.]),
+   ("III", [O esfíncter externo, por ser estriado esquelético, sustenta contração máxima por horas e é o responsável pela continência durante o sono.]),
+   ("IV",  [Na defecação, basta o relaxamento dos dois esfíncteres, sendo dispensável o relaxamento do puborretal para que a coluna fecal progrida.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [Sobre a drenagem venosa do canal anal e sua relação com o relevo interno, assinale a alternativa *incorreta*.],
+  (("A", [Cada coluna anal contém um ramo terminal dos vasos retais superiores, o que faz do relevo mucoso da porção alta do canal a expressão visível de um plexo vascular subjacente.]),
+   ("B", [Acima da linha pectinada, o plexo venoso interno drena pela veia retal superior, que integra o território da veia mesentérica inferior e conduz o sangue ao sistema porta.]),
+   ("C", [Como as duas metades do canal anal drenam para o mesmo território venoso, não existe ali comunicação entre a circulação porta e a circulação sistêmica, e a região não se dilata quando a passagem pelo fígado encontra resistência.]),
+   ("D", [Abaixo da linha pectinada, o plexo venoso externo drena pelas veias retais inferiores, que pertencem ao território da veia ilíaca interna e conduzem o sangue ao sistema da veia cava.]),
+   ("E", [O encontro dos dois territórios venosos no mesmo segmento faz do canal anal um ponto de anastomose portossistêmica, por onde o sangue pode buscar desvio quando o fluxo hepático encontra resistência aumentada.])))
 
 #questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+  [Ao examinar um paciente com lesão maligna do canal anal, o achado de linfonodos aumentados e palpáveis na região inguinal indica que a lesão],
+  (("A", [ultrapassou o assoalho pélvico e alcançou o espaço entre os esfíncteres, único trajeto pelo qual células tumorais do canal anal conseguem atingir cadeias linfáticas superficiais da parede abdominal.]),
+   ("B", [permanece restrita à porção acima da linha pectinada, cujo território linfático drena para as cadeias superficiais da virilha antes de alcançar qualquer linfonodo situado dentro da pelve.]),
+   ("C", [comprometeu diretamente o plexo venoso interno, e as células chegaram à virilha por via hematogênica retrógrada, já que o canal anal não possui drenagem linfática própria organizada em cadeias.]),
+   ("D", [invadiu o esfíncter anal interno, cuja rede linfática acompanha os vasos gonadais até a raiz do membro inferior, produzindo aumento dos linfonodos palpáveis na prega inguinal do lado acometido.]),
+   ("E", [se situa abaixo da linha pectinada, região derivada do proctodeu e drenada para os linfonodos inguinais superficiais, ao contrário da porção acima da linha, que drena para linfonodos ilíacos internos dentro da pelve.])))
 
-#questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+#questao-ce("19", badge-integracao,
+  [Julgue os itens sobre as vias por onde líquido e pus se deslocam na cavidade peritoneal.],
+  (("I",   [A escavação retovesical no homem e a retouterina na mulher situam-se acima do nível das flexuras cólicas, o que impede o acúmulo de líquido nelas na posição ortostática.]),
+   ("II",  [O terço inferior do reto é extraperitoneal, de modo que uma coleção situada na escavação peritoneal se relaciona com o terço superior e não com o inferior.]),
+   ("III", [O sulco paracólico direito permite que pus originado na pelve ascenda até a região situada abaixo do fígado.]),
+   ("IV",  [A escavação vesicouterina é o ponto mais baixo da cavidade peritoneal na posição de pé e é a primeira a acumular líquido livre.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [Em um paciente com megacólon chagásico, a associação entre a lesão nervosa e o risco aumentado de vólvulo se estabelece porque],
+  (("A", [a destruição dos neurônios entéricos torna a parede colônica friável e propensa a se romper sob pressão mínima, e é a fragilidade adquirida dessa parede, e não qualquer alteração no comprimento ou na forma do segmento, que caracteriza o risco cirúrgico do paciente.]),
+   ("B", [a morte dos neurônios do plexo mioentérico retira do segmento a capacidade de relaxar à frente da onda de contração, o trânsito trava e o colo se dilata e se alonga de forma crônica; alça longa com raiz de mesocolo curta é a condição que permite a torção.]),
+   ("C", [a doença destrói seletivamente as tênias do colo, e sem as faixas longitudinais que mantêm o segmento franzido, o sigmoide perde a sustentação e passa a girar livremente sobre a parede posterior do abdome.]),
+   ("D", [o parasito provoca aderências entre o sigmoide e a parede pélvica, e são essas aderências que criam o eixo fixo em torno do qual a alça gira, produzindo a torção característica do quadro obstrutivo.]),
+   ("E", [a perda dos neurônios eleva de modo permanente o tônus da camada circular e estreita a luz do sigmoide, criando uma obstrução mecânica fixa que obriga o segmento proximal a se torcer sobre si mesmo na tentativa de vencer o ponto estreitado.])))
 
-#questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens sobre por que a doença de Crohn forma fístulas e a retocolite ulcerativa não.],
+  (("I",   [A retocolite ulcerativa acomete o reto e avança de forma contínua e homogênea em direção ao colo proximal, restrita à mucosa e à submucosa.]),
+   ("II",  [A inflamação transmural da doença de Crohn atravessa toda a espessura da parede e pode escavar trajetos que comunicam a alça com outra alça, com a bexiga ou com a pele.]),
+   ("III", [A doença de Crohn acomete apenas o intestino grosso, poupando obrigatoriamente esôfago, estômago e intestino delgado.]),
+   ("IV",  [Na região perianal, um trajeto fistuloso só alcança a pele depois de destruir por completo o esfíncter anal externo, pois não há planos frouxos entre as fibras.])))
 
 #questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+  [Um abscesso perianal se origina, na maior parte dos casos, da obstrução do ducto de uma glândula anal. A sequência anatômica que leva desse ponto à formação de um túnel para a pele é],
+  (("A", [obstrução do ducto que se abre na linha branca, formação de coleção dentro da submucosa do reto e drenagem espontânea para a luz retal, sem envolvimento dos planos musculares nem da pele.]),
+   ("B", [obstrução de um ducto que desemboca na base de uma coluna anal, acúmulo de secreção dentro do próprio plexo venoso interno e ruptura desse plexo para dentro da luz do canal, produzindo sangramento sem trajeto externo.]),
+   ("C", [obstrução do ducto no ponto em que ele atravessa o esfíncter externo, coleção contida pela fáscia do levantador do ânus e drenagem obrigatória para a escavação peritoneal, sem trajeto em direção à pele.]),
+   ("D", [obstrução do ducto que desemboca em um seio anal, infecção da glândula e formação de abscesso no espaço entre os esfíncteres, com dissecção pelos planos frouxos até a pele perianal e persistência de um trajeto epitelizado.]),
+   ("E", [obstrução do ducto ao nível da junção anorretal, formação de coleção acima do assoalho pélvico e drenagem através da parede posterior da bexiga, sem que se estabeleça comunicação com a superfície cutânea.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Sobre a organização do reto e do canal anal em altura, assinale a alternativa *incorreta*.],
+  (("A", [Somente o terço superior do reto é revestido por peritônio à frente e nas laterais; o terço médio recebe peritônio apenas à frente e o terço inferior é totalmente extraperitoneal.]),
+   ("B", [As pregas transversas correspondem, do lado externo, às flexuras laterais do reto, e a prega média serve de marco por corresponder aproximadamente ao nível da reflexão peritoneal anterior.]),
+   ("C", [A porção do canal anal situada acima da linha pectinada é irrigada por ramos da artéria retal superior e drena a linfa para linfonodos ilíacos internos, dentro da pelve.]),
+   ("D", [O canal anal cirúrgico é mais curto que o anatômico, porque começa na linha pectinada e termina na linha branca, ao passo que o anatômico é contado a partir da junção anorretal.]),
+   ("E", [A ampola retal situa-se imediatamente acima da flexura anorretal e é a porção dilatada que acomoda volume antes que a pressão dentro do reto se eleve de modo significativo.])))
 
-#questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+#questao-ce("24", badge-integracao,
+  [Durante a mobilização cirúrgica do colo descendente, o cirurgião procura o plano correto de dissecção. Julgue os itens.],
+  (("I",   [O plano de fusão entre o colo secundariamente retroperitoneal e a parede posterior é frouxo e praticamente avascular, o que permite descolar o segmento com pouco sangramento.]),
+   ("II",  [Ultrapassar esse plano em profundidade expõe o cirurgião a lesar o ureter e os vasos gonadais, que correm imediatamente atrás dele.]),
+   ("III", [O colo descendente é retroperitoneal primário, isto é, nunca teve mesocolo, razão pela qual não existe plano de clivagem entre ele e a parede posterior.]),
+   ("IV",  [O rim esquerdo e o músculo quadrado lombar estão entre as estruturas da parede posterior relacionadas ao colo descendente.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+#questao-mc("25", badge-integracao,
+  [A capacidade de distinguir se o conteúdo que chega ao canal anal é gás, líquido ou sólido depende de dois elementos anatômicos combinados, que são],
+  (("A", [a complacência da ampola retal, que acomoda volume e permite a distensão progressiva das paredes, e a inervação somática da mucosa situada abaixo da linha pectinada, capaz de discriminar a natureza do conteúdo.]),
+   ("B", [a contração tônica do esfíncter interno, que comprime o conteúdo contra a parede, e a rede de terminações nervosas das colunas anais, situadas acima da linha pectinada e dotadas de sensibilidade somática fina.]),
+   ("C", [a rigidez das três pregas transversas do reto, que fracionam a coluna fecal em porções, e a inervação visceral da mucosa retal, que identifica pela consistência qual porção está em contato com a parede.]),
+   ("D", [o tônus da alça do puborretal, que mede a resistência oferecida pelo conteúdo ao passar pelo ângulo, e a inervação autonômica do plexo mioentérico, que interpreta essa resistência como gás, líquido ou sólido.]),
+   ("E", [a espessura do coxim vascular submucoso, que se deforma de modo distinto conforme a natureza do conteúdo, e a inervação visceral do canal anal acima da linha pectinada, sensível a pressão e a temperatura.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Homem de 72 anos chega ao pronto-socorro com dor abdominal difusa em cólica há dois dias, parada de eliminação de fezes e gases e abdome muito distendido e timpânico. A laparotomia exploratória revela vólvulo de sigmoide. A razão pela qual esse quadro exige intervenção rápida, e não apenas descompressão, é que],
+  (("A", [a torção compromete apenas a passagem do conteúdo, e o risco decorre da absorção de toxinas bacterianas pela mucosa distendida, processo que se resolve assim que a luz é desobstruída por via endoscópica.]),
+   ("B", [a distensão do sigmoide comprime o ureter esquerdo contra a parede pélvica, e a obstrução urinária resultante é a complicação que determina a urgência do tratamento cirúrgico nesse tipo de quadro.]),
+   ("C", [o gás preso na alça torcida difunde-se para a cavidade peritoneal através da parede distendida, produzindo pneumoperitônio sem perfuração e irritação química do peritônio parietal adjacente.]),
+   ("D", [a torção desloca o ponto de maior tensão de parede para o próprio sigmoide, cujo calibre reduzido o torna o segmento mais vulnerável à ruptura, ao contrário do que ocorre nas obstruções sem torção.]),
+   ("E", [o giro sobre o eixo do mesocolo estrangula os vasos que ele conduz: a drenagem venosa cede antes da entrada arterial, a parede ingurgita e edemacia, e a pressão intramural acaba impedindo o fluxo arterial, levando a necrose e perfuração.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+  [Mulher de 24 anos apresenta há 30 horas dor abdominal que começou ao redor do umbigo e agora se concentra no flanco direito, com pouca defesa à palpação da fossa ilíaca direita e desconforto ao estender ativamente a coxa direita. A hipótese anatômica que melhor concilia esses achados é],
+  (("A", [apendicite aguda com apêndice em posição retrocecal, que fica afastado do peritônio parietal anterior e próximo ao músculo psoas, o que explica a defesa discreta e o incômodo à extensão da coxa.]),
+   ("B", [apendicite aguda com apêndice em posição pélvica, cuja proximidade com o reto e a bexiga produz irritação dessas estruturas e desloca a dor para o flanco direito em vez do hipogástrio.]),
+   ("C", [diverticulite do colo descendente, cuja inflamação atravessa o sulco paracólico esquerdo e produz dor referida ao lado direito por continuidade do espaço peritoneal entre os dois flancos.]),
+   ("D", [vólvulo de ceco, no qual a rotação do segmento sobre seu eixo desloca a dor para o flanco e produz defesa mínima, já que a alça torcida se afasta da parede abdominal anterior.]),
+   ("E", [inflamação do apêndice em posição pré-ileal, situação em que a alça de delgado interposta entre o órgão inflamado e a parede impede a dor de se localizar e a desvia para a região lombar.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+  [Homem de 45 anos relata sangramento vermelho vivo ao evacuar, indolor, há três meses, e refere um episódio recente de nódulo perianal muito doloroso que surgiu em poucas horas. Julgue os itens.],
+  (("I",   [O sangramento indolor é compatível com hemorroida interna, originada acima da linha pectinada, em território de inervação visceral.]),
+   ("II",  [O nódulo perianal doloroso é compatível com trombose de hemorroida externa, situada abaixo da linha pectinada, em pele inervada pelo nervo pudendo.]),
+   ("III", [A dor intensa do nódulo indica necessariamente que a lesão se originou acima da linha pectinada e prolapsou através do canal.]),
+   ("IV",  [As duas lesões drenam para territórios venosos distintos, uma para o sistema porta e a outra para o sistema da veia cava.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Homem de 42 anos procura o ambulatório de coloproctologia com prurido anal, dor local e saída de secreção de odor fétido. Ao exame, encontra-se um orifício na pele perianal, a cerca de 2 cm da margem do ânus, com drenagem espontânea de material purulento. O cirurgião explica que apenas drenar a coleção não resolve o problema. A justificativa anatômica dessa explicação é que],
+  (("A", [o orifício externo se comunica diretamente com a escavação retovesical, de modo que a coleção se refaz a partir do peritônio, e só a abordagem intracavitária interrompe a produção de secreção.]),
+   ("B", [o trajeto se origina na obstrução de um ducto que desemboca em um seio anal, na altura da linha pectinada; enquanto esse orifício interno permanecer aberto, o túnel epitelizado continua sendo alimentado a partir dele.]),
+   ("C", [a secreção provém do plexo venoso externo rompido, e a drenagem simples não interrompe o fluxo venoso que alimenta a coleção, sendo necessária a ligadura do plexo para que o quadro se resolva.]),
+   ("D", [a coleção se forma dentro da própria ampola retal e escoa para a pele por um trajeto criado pela distensão da parede, de modo que só a redução do volume fecal armazenado impede a recidiva do quadro.]),
+   ("E", [o material purulento provém dos apêndices omentais do sigmoide, que se inflamam e drenam para a região perianal pelos planos frouxos da pelve, exigindo a remoção desses apêndices para cessar a drenagem.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+  [Mulher de 58 anos relata perda involuntária de fezes há oito meses. Na anamnese, refere parto vaginal aos 26 anos com laceração perineal extensa, e afirma que nunca teve qualquer queixa de continência nas três décadas seguintes. A explicação anatômica para o intervalo de trinta anos entre a lesão e o sintoma é que],
+  (("A", [a lesão obstétrica atinge apenas o esfíncter interno, cujo tônus é irrelevante para a continência enquanto a paciente permanece jovem, tornando-se necessário somente após a menopausa.]),
+   ("B", [o esfíncter anal externo se regenera espontaneamente após a laceração e mantém a continência por décadas, até que a fibrose cicatricial tardia substitua o tecido muscular recuperado e o sintoma apareça.]),
+   ("C", [a continência resulta da soma de quatro mecanismos — tônus do esfíncter interno, ângulo mantido pelo puborretal, contração voluntária do externo e coxim vascular —, e a perda de uma peça só se manifesta quando outra enfraquece com a idade.]),
+   ("D", [a laceração perineal não compromete estrutura muscular alguma e o sintoma tardio decorre exclusivamente da redução da complacência da ampola retal, que passa a não acomodar volume com o avanço da idade.]),
+   ("E", [o nervo pudendo lesado no parto reinerva o esfíncter externo ao longo dos primeiros anos, e a incontinência surge quando essa reinervação se desfaz por desuso progressivo da musculatura do assoalho pélvico.])))

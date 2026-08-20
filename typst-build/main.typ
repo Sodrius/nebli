@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- anato-03-intestino-grosso-canal-anal | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,44 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Intestino grosso, reto e canal anal",
+  "Anatomia do Sistema Digestório",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Anatomia do Sistema Digestório"),
+    ("Onde estudar", "Moore, Anatomia Orientada para a Clínica (6ª ed.) · Netter, Atlas de Anatomia Humana · Sobotta (23ª ed.) · Prometheus · Dangelo & Fattini"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O tubo que reabsorve", (
+      "1.1 As dez partes e o trajeto",
+      "1.2 Fixo e móvel: quem se torce",
+      "1.3 Tênias, saculações e apêndices",
+      "1.4 Quadrantes, flexuras e sulcos",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A junção ileocecal", (
+      "2.1 Ceco e válvula ileocecal",
+      "2.2 Apêndice vermiforme",
+      "2.3 Posição variável e McBurney",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Reto e canal anal", (
+      "3.1 Reto, flexuras e puborretal",
+      "3.2 Ampola, pregas e relações",
+      "3.3 Canal anal por dentro",
+      "3.4 A fronteira da linha pectinada",
+      "3.5 O aparelho esfincteriano",
+    )),
+  )),
+  ("Etapa 2 — 30 objetivas", (
+    (none, (
+      "Consolidação, Integração e Aplicação — múltipla escolha e certo/errado",
+    )),
+  )),
+  ("Etapa 3 — 5 discursivas", (
+    (none, (
+      "Casos e mecanismos ancorados nas três PARTES",
     )),
   )),
 ))
@@ -57,39 +68,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "C"),
+    ("02", "CECC"),
+    ("03", "E"),
+    ("04", "B"),
+    ("05", "ECCE"),
+    ("06", "A"),
+    ("07", "CCEC"),
+    ("08", "D"),
+    ("09", "C"),
+    ("10", "EECC"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
+    ("11", "E"),
+    ("12", "B"),
+    ("13", "CEEC"),
+    ("14", "D"),
+    ("15", "A"),
+    ("16", "CCEE"),
+    ("17", "C"),
+    ("18", "E"),
+    ("19", "ECCE"),
+    ("20", "B"),
+    ("21", "CCEE"),
     ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("23", "D"),
+    ("24", "CCEC"),
+    ("25", "A"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
+    ("26", "E"),
     ("27", "A"),
     ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("29", "B"),
+    ("30", "C"),
   )),
 ))

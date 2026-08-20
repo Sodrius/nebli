@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("A função manda na forma",
+   [Ele não absorve nutriente: recupera cerca de um litro e meio de água por dia, compacta o resíduo e o armazena. Como a reabsorção depende de tempo de contato, trânsito rápido dá fezes líquidas e trânsito lento, fezes ressecadas.]),
+
+  ("O tripé que identifica o grosso",
+   [Tênias, saculações e apêndices omentais existem no colo e não no delgado. As tênias são a camada longitudinal concentrada em faixas mais curtas que o tubo: por isso franzem a parede e criam as saculações. No reto elas se abrem em lâmina contínua e as marcas somem.]),
+
+  ("Fixo e móvel decidem o vólvulo",
+   [Ascendente e descendente são secundariamente retroperitoneais e não se deslocam; transverso e sigmoide conservaram mesocolo. Alça longa com raiz curta é a receita da torção: o sigmoide gira sobre o eixo vascular, fecha a luz nas duas pontas e estrangula os próprios vasos.]),
+
+  ("Válvula ileocecal: dois lábios, não um esfíncter",
+   [A papila ileal projeta o íleo no ceco com dois lábios — ileocólico acima, ileocecal abaixo — e o óstio entre eles. Fecha por geometria, não por anel. Se for competente, obstrução distal vira alça fechada, e o ceco, de maior calibre, é quem perfura.]),
+
+  ("Apêndice: base fixa, ponta livre",
+   [A base está sempre na convergência das três tênias no ceco; a ponta é retrocecal em 64% e pélvica em 34%. Saída única mais tecido linfoide explica a apendicite: obstrução da luz, congestão venosa, isquemia da artéria terminal e perfuração.]),
+
+  ("A dor da apendicite muda de lugar por trocar de inervação",
+   [Começa periumbilical porque a distensão da víscera dá dor visceral referida ao intestino médio. Quando a inflamação alcança o peritônio parietal, entra a inervação somática e a dor migra para a fossa ilíaca direita, com ponto exato perto de McBurney.]),
+
+  ("Reto: reservatório com ângulo de segurança",
+   [Quinze centímetros sem tênia, sem saculação e sem apêndice omental. A flexura sacral acompanha o osso; a anorretal é o ângulo agudo mantido pela alça do puborretal. A ampola acomoda volume sem subir pressão, e é a distensão dela que gera o desejo de evacuar.]),
+
+  ("A linha pectinada é uma fronteira embrionária",
+   [Acima dela o canal vem do intestino posterior endodérmico; abaixo, do proctodeu ectodérmico. Por isso mudam de uma vez revestimento, artéria, veia, linfático e nervo — uma causa só gerando quatro consequências que não precisam ser decoradas.]),
+
+  ("Acima não dói, abaixo dói",
+   [A hemorroida interna nasce do plexo interno, em inervação visceral: sangra vivo e prolapsa, mas dói pouco. A externa nasce do plexo externo, em pele do pudendo: quando trombosa, dói muito. A mesma linha manda o tumor de cima para os ilíacos internos e o de baixo para os inguinais.]),
+
+  ("Continência é a soma de quatro peças",
+   [Tônus do esfíncter interno, liso e incansável; ângulo mantido pelo puborretal; contração voluntária do externo, estriado e fatigável; e o coxim vascular que veda a luz. Na defecação o puborretal relaxa e retifica o ângulo — sem isso, abrir os esfíncteres não basta.]),
 ))
