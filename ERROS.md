@@ -144,6 +144,16 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
+### 21. Header dessincronizado na 1ª página de cada seção (`set-etapa` depois do `pagebreak`)
+
+**Sintoma (achado 2026-08-20, imuno-17):** a página que abre o Resumindo, a Etapa 2, a Etapa 3 e o Gabarito imprime no header o nome da seção **anterior** — "RESUMINDO" no topo da página cujo corpo traz o banner "Etapa 2 — 30 objetivas". A partir da 2ª página de cada seção o header acerta. O `auditar_pdf_visual.py` pega isso como **ERROR bloqueante** ("header continua 'X' mas banner de 'Y' aparece no corpo — BUG header dessincronizado").
+
+**Causa:** `#etapa-header(titulo)` (e `#resumindo-page`, `#gabarito-page`) faz `pagebreak(weak: true)` e **só depois** chama `set-etapa(titulo)`. O header da página é `context state("etapa").get()`, resolvido no topo da página — ou seja, antes da atualização que acontece no corpo. Um passo de atraso, em toda transição de seção.
+
+**Como evitar:** **corrigido na origem em 2026-08-20** — `gerar_main.py` passou a emitir `#set-etapa("...")` na linha ANTES de cada `#etapa-header(...)`, de cada `#include "resumindo.typ"` e de cada `#gabarito-page(...)`. A atualização passa a valer no fim da página anterior (cujo header já resolveu), e o topo da página nova lê o valor certo. Sem tocar no template canônico (`nebli_v2_apostila.typ` intacto). Backup: `backups/tecnicos/gerar_main.py.bak-2026-08-20-header-sync`. Se um `main.typ` antigo for recompilado, o bug volta — regerar via `gerar_main.py`.
+
+**Warnings vizinhos que são falso-positivo (não confundir):** (a) `#mini-resumo` imprime o rótulo "Resumindo até aqui:", e o `auditar_pdf_visual.py` o lê como banner de seção — daí "página N: header continua 'etapa1' mas banner de 'resumindo' aparece no corpo (transição tolerada)" em páginas de mini-resumo; (b) o mesmo rótulo engana o `auditar_pdf.py` na contagem de palavras da E1 (ele delimita o miolo entre "Etapa 1" e o primeiro "Resumindo", e para no 1º mini-resumo — reportou 809 palavras num miolo real de ~9.500); (c) `auditar_pdf_visual.py` cobra `#prova-consolidacao/-integracao/-aplicacao` em `etapa2.typ`, helpers da E4 aposentada — a E2 canônica usa `badge-*` via `questao-mc`/`questao-ce`, e as cores saem corretas. Os três são ruído do auditor, não defeito do resumo.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)
@@ -167,6 +177,7 @@
 | 15 | Markdown bold vazado | precompile + auto-fix | SIM | warn |
 | 18 | Integração disfarçada de Consolidação | mapa A+B pré-redação | não | sim |
 | 19 | Título da capa grande demais (30pt fixo) | validação visual da capa | não | warn |
+| 21 | Header dessincronizado na 1ª pág. de seção | auditar_pdf_visual | SIM (gerar_main) | sim |
 
 ---
 

@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- imuno-17-reconhecimento-adaptativa | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,31 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Reconhecimento na resposta adaptativa",
+  "Imunologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Imunologia"),
+    ("Onde estudar", "Abbas · Imunologia Celular e Molecular (10ª ed.), caps. 5 e 12 · Murphy · Janeway's Immunobiology (10ª ed.), caps. 4 e 5"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — A resposta adquirida: o que é, onde mora, quem participa", (
+      "1.1 Repertório sorteado e podado",
+      "1.2 Reconhecimento composto: APC, T e B",
+      "1.3 Especificidade, memória e transferência",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — O anticorpo: da mancha no gel à molécula em Y", (
+      "2.1 Gama-globulina e eletroforese",
+      "2.2 Mieloma e o paradoxo constante-variável",
+      "2.3 Estrutura em Y, isotipos e alotipos",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — O que o anticorpo faz e de onde vem a diversidade", (
+      "3.1 Sítio de ligação e funções do Fc",
+      "3.2 Divisão de trabalho entre as classes",
+      "3.3 Recombinação somática e TCR restrito",
     )),
   )),
 ))
@@ -44,52 +42,56 @@
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#set-etapa("Gabarito — Etapa 2")
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "C"),
+    ("02", "E"),
+    ("03", "CEEC"),
+    ("04", "A"),
+    ("05", "ECCE"),
+    ("06", "D"),
+    ("07", "CCEE"),
+    ("08", "B"),
+    ("09", "EECC"),
+    ("10", "E"),
   )),
   ("Integração (Q11–Q25)", (
     ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("12", "A"),
+    ("13", "CECC"),
+    ("14", "D"),
+    ("15", "E"),
+    ("16", "ECEE"),
+    ("17", "B"),
+    ("18", "A"),
+    ("19", "CCEC"),
+    ("20", "D"),
+    ("21", "C"),
+    ("22", "EEEC"),
+    ("23", "E"),
+    ("24", "B"),
+    ("25", "CEEE"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
+    ("26", "D"),
     ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("28", "ECCC"),
+    ("29", "C"),
+    ("30", "E"),
   )),
 ))

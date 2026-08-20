@@ -1,0 +1,434 @@
+MAPA DE CONTEUDO -- imuno-17-reconhecimento-adaptativa
+Fonte: transcricao da aula (slide na pagina impar + fala do professor na par)
+
+--- slide-01 ---
+Olá, continuamos a nossa exploração do sistema imune e hoje nós
+vamos começar a entrar mais na resposta adaptativa ou adquirida.
+Ou seja, aquela resposta que inicialmente foi identiﬁcada como algo
+muito interessante: a capacidade do organismo de adquirir imunidade,
+resistência às doenças.
+Esse é um tema que requer que vocês leiam o livro, mas o que eu
+vou tentar fazer nessa aula é introduzir o tema novamente e mostrar
+como pode ser uma aventura o estudo da imunologia.
+
+--- slide-02 ---
+O primeiro objetivo da aula é reconhecer a necessidade de descrever
+os processos de seleção, como nós já vimos nas aulas passadas. Então
+hoje nós vamos passar rapidamente por eles.
+O segundo objetivo é descrever os anticorpos (o que eles são, como
+eles funcionam), e o terceiro objetivo é descrever um fenômeno muito
+interessante, que é a troca de classes.
+A troca de classes foi uma das dicas para os cientistas da época
+descobrirem como é gerada a diversidade dos receptores. Se vocês
+pensarem, é um problema complicado e deu muito trabalho apar eles.
+
+--- slide-03 ---
+Então, como sabemos, os órgãos linfóides primários são o local onde
+é gerado o repertório.
+Ou seja, um repertório completo é gerado aleatoriamente e esse
+repertório completo é selecionado de maneiras diferentes, mas o
+critério de seleção essencialmente é a interação com o próprio.
+Tanto que esse livro bastante antigo, de Ian Klein, que chama
+“Imunologia: a ciência da discriminação do próprio para o não
+próprio” (“Self, non-self discrimination”) ainda é um livro interessante
+de ler, embora os conceitos novos obviamente não apareçam lá, mas
+o racional do sistema imune aparece bem.
+
+--- slide-04 ---
+Como é o reconhecimento no sistema imune? Nós vimos que
+linfócitos T e linfócitos B têm um repertório completo, portanto, é
+gerado aleatoriamente e distribuído clonalmente.
+Ou seja, cada linfócito tem um único receptor, e o sistema tem
+esse repertório completo, mas o linfócito T e B tem um só. E o outro
+componente essencial para o reconhecimento é a célula apresentadora
+de antígeno.
+Essa célula apresentadora de antígeno captura o mundo molecular:
+moléculas que vêm de micróbios, moléculas próprias alteradas,
+moléculas dos alimentos e moléculas próprias.
+E o mesmo tempo, ela percebe o estado homeostático do
+microambiente onde ela está. Os receptores para padrões moleculares
+são o que ela usa para fazer isso, e ela traduz essa informação para os
+linfócitos T.
+Os linfócitos T são as células deﬁnidoras do que vai acontecer,
+porque tudo depende do sinal que ela der para o linfócito B (se ele vai
+reagir ou não), e ela pode dar sinal para todas as outras células. Mas
+ela depende da apresentação pela célula apresentadora de antígeno.
+O linfócito B não precisa de apresentação de antígeno, na verdade,
+esse mundo molecular é identiﬁcado diretamente pelos linfócitos B.
+Os receptores clonais do linfócito B interagem diretamente com os
+antígenos.
+O linfócito B reconhece diretamente e vai decidir o que fazer uma
+vez reconhecido, dependendo dos sinais que recebe do linfócito T. As
+vezes ele pod
+
+--- slide-05 ---
+E o que é essa resposta? Quais são as características dessa resposta?
+Essencialmente, o que ela tem é especiﬁcidade e memória.
+Como é que perceberam isso? Experimentalmente, pegaram uma
+bactéria virulenta X e injetaram em um animal, no caso apresentado
+é um camundongo, e isso levou o animal à morte.
+Porém, antes de injetar essa bactéria virulenta, caso faça algum
+tratamento com ela que atenue sua virulência e injete no animal, e
+após isso esperar algumas semanas, ao injetar no animal o animal com
+a X virulenta, você vai descobrir que esse animal sobrevive. Ou seja,
+ele se tornou resistente àquela bactéria.
+E isso é especíﬁco, porque se você injetar uma bactéria Y atenuada
+em uma outra bactéria, e depois desaﬁar com a bactéria X virulenta,
+o camundongo morre.
+Portanto, essa capacidade de resistir a um agente se chama
+imunidade.
+
+--- slide-06 ---
+Então, você pegou esse camundongo, que agora está imune, pois
+desenvolveu imunidade. A pergunta é: onde está essa imunidade?
+Como estamos falando do começo do século XX, o primeiro
+experimento que se podia fazer na época era tirar o soro do animal.
+Até hoje vocês vão fazer a sorologia das doenças, que é para estudar
+o soro à procura de sinais de imunidade, e isso vem daquela época.
+Dessa forma, se você tirar o soro desse animal que se tornou imune,
+transferir para um outro animal, e daí, para esse outro animal que
+recebeu o soro imune, você desaﬁar com a bactéria X virulenta, ele
+pode sobreviver. E essa imunidade que está presente nos humores se
+chamou imunidade humoral.
+O ponto é que nem sempre essa resistência do animal que foi
+imunizado (que recebeu a bactéria atenuada e, portanto, desenvolveu
+uma resposta imune), é transferível pelo soro.
+Às vezes, embora o animal que deu o soro estivesse imune, o animal
+que recebeu o soro não ﬁcou imune, e então essa imunidade não é
+humoral.
+Muito tempo depois se descobriu e se tornou possível retirar células
+do animal que estava imune, transferir essas células para outro animal
+e daí desaﬁá-lo com a bactéria virulenta.
+Pois bem, quando a imunidade não é transferível pelo soro, mas é
+transferível por células, se chama de imunidade celular.
+
+--- slide-07 ---
+Então o soro do animal tem algo que o torna resistente, que o torna
+imune. O primeiro nome que se deu a isso foi anticorpos, mas não se
+sabia exatamente o que era isso na época.
+Um dos instrumentos mais simples para estudar proteínas
+antigamente é fazer uma eletroforese de proteínas.
+Esse instrumento consiste em colocar as proteínas num meio que
+diﬁculta a migração, inserir em um campo elétrico e as proteínas,
+dependendo da sua carga elétrica, do tamanho e peso molecular, vão
+migrar.
+Se você ﬁzer isso com as proteínas do soro humano, elas vão migrar
+com um padrão razoavelmente contínuo. Você tem uma proteína
+que é a mais frequente no soro, que migra mais depressa, e ela é
+relativamente pequena e bem carregada, chamada de albumina, e as
+outras proteínas são as globulinas.
+O que distingue albumina e globulina não é a velocidade de
+migração, é a capacidade de ﬁcar solúvel quando vai aumentando a
+concentração de sais.
+As globulinas precipitam muito antes, já a albumina continua em
+solução ao aumentar a concentração de sal na solução.
+Essas globulinas, quando migram nesse campo eletroforético,
+podem ser separadas em picos. Se você ﬁzer uma densitometria desses
+picos, você vai separar em pico alfa 1, alfa 2, beta e gama.
+Chama atenção que o pico da gamaglobulina é muito extenso, não
+é um pico bonitinho, na verdade, ele é uma montanha larga.
+E se vocês observarem, são quatro eletrofor
+
+--- slide-08 ---
+Além disso, as gama-globulinas são muito heterogêneas. Então, na
+época, como elas foram estudadas?
+Uma grande ajuda para isso foi uma doença, o mieloma múltiplo.
+O mieloma múltiplo é uma doença hematológica, ou seja, das células
+do sangue, e o nome se refere à múltiplas lesões nos ossos, na medula
+óssea.
+Então você tem o “mielo” de medula, “oma”de tumor, mieloma, e
+como são múltiplas lesões, você chama de mieloma múltiplo.
+Quando há uma dessas lesões isoladas e você vai observar, descobre
+que ela tem plasmócito. E isso dá uma boa dica do que o que essa
+doença vai produzir.
+Só para ilustrar, temos aqui uma ﬁgura que eu peguei da internet,
+vocês veem várias lesões inﬁltrativas no osso que caracterizam esse
+mieloma nos ossos, realmente é múltiplo.
+Quando o paciente tem um mieloma múltiplo e eu faço eletroforese
+de proteínas, aparece na eletroforese um pico que a gente chama de
+monoclonal.
+Ou seja, é um único clone produzindo aquela proteína que ele
+faz, portanto, o plasmócito produzindo o anticorpo. Dessa forma, é
+monoclonal, caracterizado por ser reto e com uma base estreita.
+Há variações interessantes, não vou ﬁcar entrando em muitos
+detalhes, mas tem variações do mieloma.
+
+--- slide-09 ---
+Em 1965 já se começa a ter uma ideia dessa estrutura, e os
+pesquisadores Dreyer e Bennet perceberam coisas que são essenciais
+para a gente entender a estrutura e os anticorpos.
+Os dois pesquisadores estudaram várias proteínas do mieloma
+monoclonal diferentes, e quando eles sequenciaram, perceberam que
+todas elas tinham um pedaço que era comum.
+Ou seja, pacientes diferentes tinham um pedaço da proteína do
+mieloma, que é o produto do plasmócito, igual. Chamaram isso de
+sequência comum. E tinha uma parte dessa proteína que era variável,
+cada mieloma tinha uma porção variável diferente.
+Com essa observação, os pesquisadores pensaram que era algum
+tipo de associação. Imaginaram que havia uma cadeia constante, feita
+por um gene, uma cadeia variável feita por outro gene, e na hora
+que vai secretar como proteína de mieloma, isso é unido por algum
+mecanismo pós-tradução lá do RNA.
+Mas não, eles viram que não é uma cadeia polipeptídica, é uma única
+cadeia polipeptídica, e para isso teria que ser um gene codiﬁcando.
+Então, opa, o que será que é isso?
+
+--- slide-10 ---
+E, na verdade, esse mesmo fenômeno de associação de uma porção
+constante com uma porção variável diferente acontece quando você
+vai olhar a resposta imune humoral à produção do anticorpo.
+Nesse caso, não é mais olhando uma única proteína, mas o
+fenômeno.
+Quando você faz anticorpo, você tem tipos diferentes de anticorpo.
+Você começa fazendo um anticorpo que se chama imunoglobulina
+M, durante o primeiro contato que você tem com um determinado
+antígeno.
+Depois de um certo tempo, você começa a fazer um outro tipo de
+imunoglobulina, chamada imunoglobulina G, a IgM e a IgG.
+Os anticorpos são gama-globulinas que se ligam a um determinado
+antígeno. E como os anticorpos são gama-globulinas e eles estão
+associados a uma função imune, eles recebem um nome genérico de
+imunoglobulinas.
+O que é uma imunoglobulina? É uma gama-globulina que tem a
+função de anticorpo. Um anticorpo é uma imunoglobulina, sim.
+Uma imunoglobulina é um anticorpo? É, obviamente que é, mas
+quando eu falo imunoglobulina não estou pensando na especiﬁcidade,
+é um anticorpo para alguma coisa. Porém, se eu falo anticorpo, eu
+estou pensando num alvo.
+Então, essa resposta tem IgM seguida de IgG. Quando essa resposta
+evoluir, ou quando eu tiver um segundo contato, eu vou produzir de
+novo IgM e IgG, só que eu vou fazer muito mais IgG.
+Ou seja, aparentemente, nessa resposta, o sistema começa fazendo
+IgM e depois faz IgG, só que
+
+--- slide-11 ---
+Com a ciência e os métodos avançando, chegaram em uma estrutura
+básica das imunoglobulinas.
+Um dos primeiros métodos que se usou foi digerir. Há enzimas que
+digerem proteína em uma forma de digestão controlada, sem deixar a
+enzima agir o tempo todo, mas por certo tempo e realizando diluição.
+A primeira coisa que se conseguiu foi separar fragmentos desta
+proteína anticorpo, através da digestão controlada e com a enzima do
+mamão, a papaína.
+Ou seja, como realizaram esse procedimento com uma enzima
+que mexe com proteína, uma protease, sabem que estão quebrando
+ligações peptídicas, e não cadeias juntas por outros mecanismos.
+E quando ﬁzeram isso, separaram o anticorpo com a papaína e
+obtiveram dois fragmentos.
+Um fragmento que se liga ainda ao antígeno, e portanto, se chama
+Fab, “F” de fragmento e “ab” de Antigen binding.
+O outro fragmento não se liga ao antígeno, mas é cristalizável. Ou
+seja, ele é muito mais homogêneo e acaba formando cristais, e se
+chama FC.
+Se, ao invés de usar papaína, eu usar pepsina, a pepsina vai gerar
+um único fragmento que tem a capacidade de se ligar ao antígeno
+também.
+Só que ao contrário do Fab, que se liga a um antígeno, o fragmento
+que se liga ao antígeno produzido pela pepsina se liga a dois antígenos.
+E a pepsina come a imunoglobulina da porção C-terminal até
+antes dessa porção central aqui, chamada de “hand”, dobradiça. Nessa
+porção de dobradiça, 
+
+--- slide-12 ---
+Quais são os tipos e como é que você classiﬁca as imunoglobulinas? Os
+anticorpos são imunoglobulinas, mas estudando as imunoglobulinas,
+dá para separar tipos?
+Esses tipos de imunoglobulinas estão presentes em todos os
+indivíduos da espécie. Portanto, são iguais em todos os indivíduos da
+espécie, são isotipos, e o primeiro nome que eles receberam foram de
+classes e subclasses.
+Quando se estava estudando o anticorpo do ponto de vista
+só bioquímico, e os métodos de análise eram mais grosseiros
+(eletroforese, carga, migração e resistência), foi classiﬁcado em
+classes. Assim, você tinha IgG.
+Quando soﬁsticou um pouco e aumentou a capacidade de
+análise, perceberam que, na verdade, tem moléculas que têm o
+comportamento geral da IgG, ou seja, o peso molecular, a migração e a
+densidade são similares, mas que apesar de ser IgG, é possível separar
+tipos diferentes, então tem as subclasses.
+Se aprendeu mais e descobriu que, na verdade, cada uma das classes
+ou subclasses, é codiﬁcada por um gene de cadeia pesada diferente.
+Isso nós estamos falando do ser humano, se for para outras espécies
+você tem uma composição diferente de isotipos.
+Ou seja, são tipos de anticorpos que têm características físico-
+químicas e biológicas diferentes, mas que tem em todo o mundo.
+O peso molecular é diferente e o momento de produção na resposta
+imune é diferente, e esse é um fator muito importante. E, pelas
+ca
+
+--- slide-13 ---
+Bom, e quais são as propriedades biológicas? Há a propriedade
+biológica básica, quem tem anticorpo contra a bactéria X está imune
+à bactéria X. Mas como é que o anticorpo confere essa proteção?
+A propriedade central do anticorpo é sua capacidade de ligar
+com alta aﬁnidade com determinada molécula de antígeno. Mas isso
+depende de um pedaço da molécula que está localizado no fragmento
+FAB, o Fragment Antigen Binding.
+E para ser mais preciso, o fragmento FAB, se vocês lembrarem da
+estrutura, tem uma porção constante e uma porção variável. A ligação
+ao antígeno, está num sítio especíﬁco que está na porção variável,
+tanto da cadeia pesada quanto da cadeia leve, e isso é o que se liga
+no antígeno.
+Esse sítio é composto por determinados pedacinhos muito
+pequenos, da cadeia, que formam uma bolsa, que é essa bolsinha que
+se liga ao antígeno.
+Então, embora a molécula seja gigante, o que se liga ao antígeno
+é um pedaço muito pequenininho, é a região determinante de
+complementaridade, o CDR, Complementarity Determinant Region.
+Então, para eu trocar a especiﬁcidade do anticorpo, eu só tenho que
+mudar alguns aminoácidos nesse CDR. O resto não pode ser alterado,
+porque se eu mudar, perco a estrutura, e se eu perder a estrutura, esse
+anticorpo não funciona mais.
+Essa capacidade do anticorpo de se ligar ao antígeno com
+alta aﬁnidade já dá uma das funções essenciais: a capacidade de
+neutralizar.
+
+--- slide-14 ---
+Agora, se eu tenho um monte de anticorpos diferentes, como é que um
+monte de classes de anticorpos e de isotipos se encaixam na resposta?
+No começo da resposta, a primeira coisa que o linfócito B produz
+ao virar plasmócito é a IgM, imunoglobulina M.
+E a imunoglobulina M é uma molécula que, por ser pentamérica, ou
+seja, aquele tetrâmero (duas cadeias pesadas, duas cadeias leves) na
+IgM está multiplicado por 5, consiste em uma aranha de anticorpos.
+Então, a IgG tem um braço (uma cadeia pesada e uma cadeia leve), e
+as duas juntas fazem um sítio de ligação com o antígeno e tem também
+um segundo sítio. Portanto, uma IgG tem dois sítios de ligação com o
+antígeno, e a IgM tem esses dois sítios vezes cinco.
+Dessa forma, anticorpos mesmo pouco especíﬁcos para aquele
+antígeno se grudam, porque a força não é uma mão segurando, são
+dez mãos segurando. Ou seja, a IgM tem uma alta avidez.
+Portanto, eles vão funcionar, ou seja, eles vão grudar. E isso é ótimo
+no começo da resposta, pois o organismo ainda não teve tempo de
+selecionar.
+E sobre a função de ativação do complemento, ela leva à inﬂamação,
+é essencialmente um gerador de inﬂamação. E isso é ótimo, pois no
+começo eu quero inﬂamar e portanto faço o IgM que ativa muito bem
+o complemento, gerando inﬂamação.
+Portanto, no começo da resposta eu produzo um anticorpo que tem
+capacidade de se ligar bem mesmo que o encaixe dele não seja bom.
+Is
+
+--- slide-15 ---
+Então eu tenho os diferentes tipos de hemoglobina, tenho os isotipos,
+IgM, IgD, as várias IgGs, as várias IgAs, IgE, eu tenho os alotipos e
+tenho os idiotipos públicos.
+O que é um idiotipo público? Eu falei que os anticorpos diferentes
+podem ter idiotipos diferentes. Mas tem alguns idiotipos (alguns tipos
+de anticorpo), que embora sejam diferentes dos outros anticorpos do
+corpo, eles são parecidos entre si, mas com alvos diferentes.
+Eles são idiotipos públicos, ao contrário dos idiotipos privados, que
+são aqueles que seriam mais especíﬁcos. Vocês vão entender qual é a
+origem desses idiotipos públicos mais pra frente.
+Bom, mas o fato é que independente disso tudo, não interessa o tipo
+de imunoglobulina, isso não muda a especiﬁcidade do anticorpo.
+Quando vocês forem estudar um pouco melhor a resposta humoral,
+em que vocês vão ler que à medida que a resposta humoral avança,
+tem aquela substituição da IgM pela IgG. E tem um outro fenômeno
+que é chamado maturação da aﬁnidade, vocês vão achar que a IgG
+tem uma aﬁnidade maior pelo antígeno do que a IgM.
+Mas isso está errado. O tipo de imunoglobulina não afeta a
+especiﬁcidade, não afeta a aﬁnidade, mas afeta sim a avidez.
+A IgM tem uma avidez maior. A avidez é uma medida global da
+molécula, já a aﬁnidade é uma medida do sítio de ligação. A aﬁnidade
+e a especiﬁcidade não mudam quando muda o anticorpo. A avidez
+pode mudar.
+Então… Guardem
+
+--- slide-16 ---
+E esse é um fato que foi essencial para as pessoas entenderem como
+é que se gera a diversidade dos receptores. Como é que eu faço um
+repertório completo?
+Uma das primeiras hipóteses diz que 99% do genoma está fazendo
+o anticorpo. Então eu tenho um gene para cada molécula que
+eventualmente eu possa encontrar.
+Vocês percebem que isso cria um problema gigantesco, porque
+como é que eu vou manter um gene no meu genoma ao longo
+de milhares de anos estável, mantendo as funções biológicas
+adequadamente?
+Ou seja, posso ter um anticorpo guardado e nunca usado, mas se
+ele não é usado, é passível de mutação, e quando eu precisar dele, ele
+não funciona mais. Embora ele grude no antígeno, pode ser que tenha
+outras complicações de funcionamento.
+Então como é que eu mantenho a funcionalidade desses genes
+inúteis ao longo da evolução? Isso era um problema, mas tinha gente
+que achava que deveriam ter mecanismos de controle, porém ninguém
+conhecia.
+Como é gerada essa diversidade? Eu tenho tudo pronto no genoma
+ou não?
+A primeira dica de que tinha uma saída melhor que essa veio
+daquele paper que eu mostrei pra vocês do Dreyer e do Bennett.
+As proteínas do mieloma têm uma porção constante e uma porção
+variável, e esse mesmo fenômeno acontece na troca de classes.
+Eu tenho uma IgM contra o antígeno X, de repente vira uma IgG
+contra o antígeno X. E essa situação era curiosa, portanto teve um
+sujeito q
+
+--- slide-17 ---
+Sobre o linfócito T, ele possui um outro problema muito maior.
+Se vocês notarem, temos aqui um artigo que introduz um trabalho
+histórico que fala sobre a primeira vista do elusivo receptor para
+antígeno do linfócito T.
+Elusivo quer dizer que “se esconde”, pois enquanto o anticorpo, ao
+ser secretado, vai lá e gruda no antígeno, o receptor do linfócito T não
+gruda no antígeno.
+Isso ocorre, pois o reconhecimento dele foi restrito pela sua
+capacidade de reação com moléculas codiﬁcadas pelo complexo
+principal de histocompatibilidade lá no timo quando ele foi gerado.
+Então ele só gruda no antígeno, através da molécula codiﬁcada
+pelo complexo principal de histocompatibilidade, pelo HLA no ser
+humano, apresentando um fragmento do antígeno. Dessa forma, não
+tinha como enxergar isso facilmente.
+O James Allison, autor desse artigo e ganhador do prêmio Nobel
+recentemente por pesquisas sobre tratamento de câncer, pegou um
+tumor de linfócitos T (linfoma T), e foi produzir anticorpos contra ele.
+A maior parte dos anticorpos que você produz contra reage com
+substâncias, com proteínas, com alvos que são comuns a vários
+linfócitos.
+Ele conseguiu, neste trabalho, produzir um anticorpo que reconhece
+só aquele linfoma T. Se ele pegasse um outro linfoma T, igualzinho,
+não conhecia. Então, isso é uma coisa que é única do linfócito T, é algo
+clonal, ele achou o receptor clonal do linfócito T.
+Na verda
+
+--- slide-18 ---
+Então, resumindo o que nós vimos aqui, que a resposta imune
+adquirida é especíﬁca, tem memória, e foi inicialmente classiﬁcada
+como humoral celular.
+Por que eu disse inicialmente classiﬁcada? Porque, se vocês usarem
+os critérios que nós temos hoje para estudar a resposta imune,
+ﬁca muito difícil separá-las, as respostas se misturam, porque uma
+resposta celular depende também do anticorpo.
+Mas a deﬁnição inicial é muito simples: se eu transﬁro com soro é
+humoral, se eu não transﬁro com soro e transﬁro com células é celular.
+Vocês vão ﬁcar tentados depois a dizer que se a resposta depende
+do linfócito T, é porque é celular. Mas não, pois a resposta humoral
+depende do linfócito T também.
+Bom, a resposta humoral depende de moléculas chamadas
+anticorpos, identiﬁcadas genericamente como imunoglobulinas.
+A estrutura básica da imunoglobulina é um tetrâmero, duas cadeias
+pesadas e duas cadeias leves. Tanto as cadeias pesadas quanto
+as cadeias leves, que são cadeias polipeptídicas, têm uma região
+constante e uma região variável que são rearranjadas, essencialmente
+no fenômeno da troca de classes.
+E a diversidade dos receptores depende de um mecanismo
+semelhante, que é esse rearranjo que acontece com segmentos da
+região variável, ou seja, a região variável não existe no genoma da
+célula germinativa, ela é montada no precursor do linfócito T e do
+linfócito B.
+Uma vez montada a porção variá
+
+--- slide-19 ---
+Então, eu só listei aqui como literatura complementar os trabalhos
+históricos. Todos eles estão disponíveis na internet, mas não precisam
+ler, não é essencial vocês lerem.
+É muito interessante observar como o conhecimento evolui e as
+sacadas que vocês precisam ter. Eu acho bonito o esforço de resolver
+um problema usando a inteligência, que é o que vocês, quando tiverem
+um doente na sua frente, vão ter que fazer.
+Para entender a ﬁsiologia do organismo, para entender a patologia,
+é sempre esse esforço de juntar as informações.
+Eu sei que foi um pouco confuso, porque é muita informação, e por
+isso que eu disse que vocês têm que ler.
+Até mais.
+

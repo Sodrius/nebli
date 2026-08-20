@@ -175,17 +175,21 @@ HEADER = '''// ================================================================
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#set-etapa("Gabarito — Etapa 2")
 {gabarito}
 '''
 
@@ -208,9 +212,11 @@ HEADER_SEM_E2 = '''// ==========================================================
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 '''

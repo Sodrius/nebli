@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [O repertório de receptores clonais é descrito como completo e gerado aleatoriamente nos órgãos linfoides primários. O que explica o sistema conseguir reconhecer moléculas que a espécie nunca encontrou ao longo de sua evolução:],
+  (("A", [A célula apresentadora instrui o linfócito recém-formado sobre a estrutura do micróbio encontrado na periferia, e o receptor é então ajustado sob encomenda para encaixar naquela molécula específica.]),
+   ("B", [O genoma germinativo mantém um gene funcional para cada especificidade possível, e a seleção nos órgãos linfoides primários apenas escolhe qual desses genes será transcrito em cada linfócito.]),
+   ("C", [Os receptores são sorteados antes de qualquer encontro com antígeno, de modo que a cobertura do mundo molecular não depende de experiência prévia da espécie com aquela molécula.]),
+   ("D", [Os receptores de padrão molecular herdados reconhecem assinaturas comuns a classes inteiras de micróbios, e é dessa amplitude herdada que deriva a cobertura do repertório clonal adaptativo.]),
+   ("E", [A poda contra antígenos próprios acrescenta ao repertório especificidades novas dirigidas ao não-próprio, ampliando durante a maturação a variedade que havia sido sorteada inicialmente.])))
 
 #questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+  [A célula apresentadora de antígeno entrega ao linfócito T duas informações obtidas por vias distintas. O que impede o sistema de responder contra tudo o que essa célula amostra:],
+  (("A", [Ela captura exclusivamente moléculas de origem microbiana, descartando por triagem prévia as moléculas próprias e as alimentares antes que qualquer informação chegue ao linfócito T.]),
+   ("B", [Os receptores clonais do linfócito T distinguem antígeno próprio de antígeno estranho pela estrutura química da molécula, dispensando qualquer informação sobre o ambiente de origem dela.]),
+   ("C", [A resposta é bloqueada porque o linfócito B reconhece o antígeno diretamente e emite, ao encontrar molécula alimentar, sinal inibitório que desliga a célula apresentadora antes da ativação do linfócito T.]),
+   ("D", [O estado homeostático do microambiente é registrado pelos receptores clonais da própria célula apresentadora, que assim compara o conteúdo capturado com o repertório sorteado durante sua maturação.]),
+   ("E", [Além do conteúdo molecular capturado, ela informa o estado do microambiente lido pelos receptores de padrão, e é esse contexto que separa uma proteína alimentar de uma proteína microbiana.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+  [Julgue os itens sobre as propriedades da resposta adquirida e sobre a distinção entre imunidade humoral e imunidade celular.],
+  (("I", [Um animal imunizado com a bactéria Y atenuada e depois desafiado com a bactéria X virulenta morre, porque a resistência adquirida é dirigida a um alvo e não confere vigor inespecífico.]),
+   ("II", [O intervalo de semanas entre a imunização e o desafio é exigência técnica do protocolo, sem relação com a expansão dos clones cujo receptor encaixa no agente.]),
+   ("III", [Uma imunidade que não é transferível pelo soro do animal doador indica que esse doador não chegou a montar resposta contra o agente utilizado.]),
+   ("IV", [A memória persiste depois de o agente atenuado ter sido eliminado, o que mostra que a proteção depende do que foi construído e não da permanência do micróbio.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [A classificação da imunidade adquirida em humoral e celular nasceu de experimentos de transferência entre animais. O critério que originalmente a definiu é:],
+  (("A", [A fração do animal imune capaz de proteger o receptor: quando o soro protege, a imunidade é humoral; quando só a transferência de células protege, ela é chamada de celular.]),
+   ("B", [O tipo de linfócito responsável pela resposta: quando o linfócito B produz o efetor a imunidade é humoral, e quando o linfócito T atua diretamente sobre o alvo ela é celular.]),
+   ("C", [A velocidade de instalação da proteção: respostas que aparecem em poucos dias são classificadas como humorais, e as que exigem semanas de maturação são classificadas como celulares.]),
+   ("D", [O compartimento anatômico em que a resposta é montada: linfonodo e baço geram imunidade humoral, enquanto medula óssea e timo geram a imunidade descrita como celular.]),
+   ("E", [A dependência de sinal do linfócito T: respostas independentes desse sinal são humorais, e as que exigem cooperação do linfócito T são obrigatoriamente classificadas como celulares.])))
 
-#questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+#questao-ce("05", badge-consolidacao,
+  [Julgue os itens sobre a natureza do repertório clonal e sobre a identificação bioquímica dos anticorpos no soro.],
+  (("I", [Cada linfócito exibe em sua membrana um conjunto de receptores com especificidades distintas, e é essa variedade dentro da célula que dá ao sistema seu repertório completo.]),
+   ("II", [A poda nos órgãos linfoides primários usa como critério a interação com antígenos próprios, únicos disponíveis naquele compartimento durante a maturação do linfócito.]),
+   ("III", [Albumina e globulinas são distinguidas pelo comportamento frente ao aumento da concentração de sais, e não pela velocidade de migração no campo elétrico.]),
+   ("IV", [A faixa gama de uma eletroforese normal aparece como pico estreito e simétrico, refletindo a homogeneidade das imunoglobulinas que circulam no soro.])))
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+#questao-mc("06", badge-consolidacao,
+  [Imunizar um animal com um antígeno e repetir em seguida a eletroforese de proteínas do soro não altera o perfil obtido. A explicação mecanística desse achado negativo é:],
+  (("A", [A resposta humoral consome as gama-globulinas pré-existentes na mesma proporção em que produz as novas, mantendo constante a quantidade total de proteína naquela faixa do gel.]),
+   ("B", [Os anticorpos produzidos após a imunização migram na faixa da albumina por serem menores que as demais globulinas, e por isso não deslocam o pico gama do traçado.]),
+   ("C", [A eletroforese separa proteínas apenas por peso molecular, e como as imunoglobulinas novas têm o mesmo peso das antigas, nenhuma alteração de posição pode ser detectada no gel.]),
+   ("D", [O organismo já produz anticorpos continuamente contra estímulos ambientais, de modo que o contingente novo dirigido ao antígeno injetado se dilui na faixa gama pré-existente.]),
+   ("E", [A produção de anticorpo ocorre nos órgãos linfoides e a molécula só alcança o soro semanas depois, prazo mais longo que o intervalo em que a eletroforese costuma ser repetida.])))
 
-#questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+#questao-ce("07", badge-consolidacao,
+  [Julgue os itens sobre o mieloma múltiplo e sobre o que o estudo das proteínas monoclonais revelou a respeito da estrutura do anticorpo.],
+  (("I", [O pico monoclonal é reto e de base estreita porque um único clone de plasmócitos produz uma proteína homogênea em grande quantidade.]),
+   ("II", [Proteínas de mieloma de pacientes diferentes compartilham um trecho de sequência idêntico e diferem em outro, o que define uma porção constante e uma porção variável na mesma molécula.]),
+   ("III", [Dreyer e Bennett demonstraram que a porção constante e a porção variável estão em cadeias polipeptídicas separadas, unidas por mecanismo pós-traducional no momento da secreção.]),
+   ("IV", [O paciente com mieloma múltiplo tem gama-globulina sérica elevada e, por isso, apresenta proteção humoral acima da média contra agentes infecciosos.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+  [A digestão controlada da imunoglobulina com papaína e com pepsina gera fragmentos diferentes. A comparação entre os dois resultados permite concluir que:],
+  (("A", [A papaína gera um único fragmento bivalente e a pepsina gera dois fragmentos monovalentes, porque a pepsina ataca acima da dobradiça e a papaína ataca abaixo dela.]),
+   ("B", [A papaína corta acima da dobradiça e libera dois Fab monovalentes mais o Fc, enquanto a pepsina corta abaixo e preserva os dois braços unidos num fragmento bivalente.]),
+   ("C", [Ambas as enzimas separam cadeia pesada de cadeia leve, o que demonstra que essas cadeias estão unidas entre si por ligações peptídicas passíveis de hidrólise enzimática.]),
+   ("D", [A papaína libera fragmentos que perderam a capacidade de ligar antígeno, e a pepsina libera o fragmento cristalizável íntegro, responsável pelas funções efetoras da molécula.]),
+   ("E", [Os fragmentos obtidos com as duas enzimas são equivalentes em valência e diferem apenas quanto à preservação dos carboidratos ligados à porção constante da cadeia pesada.])))
 
 #questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+  [Julgue os itens sobre a arquitetura da molécula de imunoglobulina e sobre o comportamento dela frente a proteases.],
+  (("I", [As quatro cadeias do tetrâmero são mantidas unidas por ligações peptídicas, razão pela qual a digestão controlada por proteases separa a cadeia leve da cadeia pesada.]),
+   ("II", [O tipo de cadeia leve, kappa ou lambda, determina a classe da imunoglobulina, de modo que uma IgG só pode ser montada com um desses dois tipos.]),
+   ("III", [O domínio de imunoglobulina é um enovelamento de cerca de cento e dez aminoácidos que expõe pouco da cadeia ao solvente e a protege da proteólise.]),
+   ("IV", [A dobradiça é o alvo preferencial da papaína porque fica fora dos domínios enovelados, permanecendo flexível e acessível à enzima.])))
 
 #questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+  [Isotipos, alotipos e idiotipos são três eixos independentes de variação das imunoglobulinas. A distinção correta entre eles é:],
+  (("A", [Isotipos variam entre indivíduos da mesma espécie, alotipos são idênticos em todos os indivíduos e idiotipos correspondem às subclasses definidas por genes distintos de cadeia pesada.]),
+   ("B", [Isotipos são as variantes alélicas da cadeia leve, alotipos são as classes definidas pela cadeia pesada e idiotipos são diferenças de glicosilação adquiridas após a secreção.]),
+   ("C", [Isotipos e alotipos moram ambos na porção variável, enquanto idiotipos resultam de genes de cadeia pesada distintos e definem o comportamento eletroforético da molécula no gel.]),
+   ("D", [Isotipos diferem entre anticorpos de um mesmo indivíduo, alotipos diferem entre espécies e idiotipos são iguais em todos os indivíduos, servindo como marcador taxonômico.]),
+   ("E", [Isotipos são as classes e subclasses presentes em todos os indivíduos da espécie, alotipos são variantes alélicas entre indivíduos e idiotipos diferem entre anticorpos do mesmo indivíduo.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [Sobre a relação entre a arquitetura da imunoglobulina e as funções biológicas que dela derivam, assinale a alternativa *incorreta*:],
+  (("A", [A ligação de alta afinidade ao antígeno depende das porções variáveis das cadeias pesada e leve, que juntas formam a bolsa de contato localizada no fragmento Fab.]),
+   ("B", [A opsonização exige as duas extremidades da molécula: o Fab segura o alvo e o Fc é reconhecido por receptores do fagócito, tornando a partícula agarrável.]),
+   ("C", [O transporte do anticorpo através de epitélios só ocorre quando o sítio de ligação está ocupado pelo antígeno, pois é essa ocupação que expõe o Fc aos receptores epiteliais.]),
+   ("D", [A neutralização de uma toxina decorre diretamente da ocupação dela pelo anticorpo, sem necessidade de recrutar qualquer outra célula ou proteína plasmática para o processo.]),
+   ("E", [A ativação do sistema complemento e a ativação celular direta dependem das porções constantes das cadeias pesadas e convergem ambas para a geração de inflamação.])))
 
-#questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+#questao-mc("12", badge-integracao,
+  [Um camundongo geneticamente modificado tem timo cujas células estromais não expressam moléculas do complexo principal de histocompatibilidade. Nesse animal, esperar-se-ia que:],
+  (("A", [O compartimento de linfócitos T maduros ficasse gravemente reduzido, porque a sobrevivência tímica exige que o receptor recém-montado consiga reconhecer as moléculas de apresentação do hospedeiro.]),
+   ("B", [O repertório de linfócitos T saísse ampliado, já que a ausência do critério de restrição eliminaria uma das etapas de descarte às quais os timócitos normalmente são submetidos.]),
+   ("C", [A recombinação dos segmentos gênicos do receptor fosse abolida, uma vez que a montagem da porção variável depende do sinal fornecido pelas moléculas de apresentação do estroma.]),
+   ("D", [Os linfócitos B também deixassem de amadurecer, porque o receptor deles é selecionado pelo mesmo critério de restrição imposto aos linfócitos T durante a passagem pelo timo.]),
+   ("E", [Os linfócitos T maduros produzidos passassem a reconhecer antígeno solúvel diretamente, comportando-se como linfócitos B por terem perdido a dependência de apresentação prévia.])))
 
-#questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+#questao-ce("13", badge-integracao,
+  [Julgue os itens sobre a relação entre a definição de imunidade humoral e o papel do linfócito T no reconhecimento composto.],
+  (("I", [A resposta humoral é transferível pelo soro porque seu produto efetor é uma molécula solúvel que continua funcionando depois de separada da célula que a produziu.]),
+   ("II", [Concluir que uma resposta é celular a partir da observação de que ela depende do linfócito T está correto, já que o linfócito T não participa da resposta humoral.]),
+   ("III", [O linfócito B reconhece o antígeno íntegro por seus receptores clonais, mas o tipo de anticorpo que passará a produzir depende do sinal recebido do linfócito T.]),
+   ("IV", [Com os critérios atuais a separação entre as duas categorias é difícil, porque respostas ditas celulares também recrutam anticorpo e respostas humorais exigem sensibilização de linfócitos T.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [A caracterização bioquímica dos anticorpos ficou bloqueada por anos e foi destravada pelo estudo de proteínas de mieloma. O obstáculo que essas proteínas removeram foi:],
+  (("A", [A instabilidade das imunoglobulinas séricas em solução, que se degradavam durante a purificação e só puderam ser analisadas quando o plasmócito tumoral passou a secretá-las de forma estabilizada.]),
+   ("B", [A ausência de método capaz de separar proteínas por carga elétrica, limitação superada quando a eletroforese foi aplicada pela primeira vez ao soro de pacientes com lesões líticas ósseas.]),
+   ("C", [A impossibilidade de obter anticorpos dirigidos contra um antígeno conhecido, já que só o plasmócito tumoral produz molécula com especificidade definida e mensurável em laboratório.]),
+   ("D", [A heterogeneidade do soro normal, que oferece milhões de moléculas diferentes em concentrações mínimas; o clone tumoral fornece uma proteína pura e em quantidade suficiente para sequenciar.]),
+   ("E", [A falta de reagentes capazes de distinguir albumina de globulina, distinção que só se tornou possível com a densitometria aplicada aos traçados de pacientes com pico monoclonal.])))
 
-#questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+#questao-mc("15", badge-integracao,
+  [Num ensaio de ligação são comparadas uma IgM e uma IgG produzidas pelo mesmo clone contra o mesmo antígeno. O resultado esperado dessa comparação é:],
+  (("A", [A IgG apresentará maior afinidade por sítio, porque a troca de classes ocorre no fim da resposta e substitui a porção variável por uma versão mais bem ajustada ao antígeno.]),
+   ("B", [A IgM apresentará maior especificidade, uma vez que a multivalência lhe permite discriminar melhor o antígeno alvo de moléculas estruturalmente semelhantes presentes na mesma amostra.]),
+   ("C", [As duas moléculas apresentarão avidez idêntica, pois a avidez é propriedade do sítio de ligação e este é construído pela mesma porção variável nas duas classes comparadas.]),
+   ("D", [A IgG apresentará maior avidez, porque sua distribuição tecidual mais ampla aumenta o número de encontros produtivos entre o sítio de ligação e o antígeno disponível no meio.]),
+   ("E", [Afinidade e especificidade serão iguais nas duas, porque dependem do sítio construído pela porção variável; a IgM terá avidez maior por dispor de dez sítios em vez de dois.])))
 
-#questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+#questao-ce("16", badge-integracao,
+  [Julgue os itens sobre a troca de classes de imunoglobulina e sobre o que esse fenômeno altera na molécula de anticorpo.],
+  (("I", [Na troca de classes o plasmócito substitui a porção variável da cadeia pesada, o que explica o aumento de afinidade observado ao longo da resposta humoral.]),
+   ("II", [Uma mesma célula pode deixar de produzir IgM e passar a produzir IgG mantendo a especificidade, o que mostra que o fenômeno não é exclusivo do plasmócito tumoral.]),
+   ("III", [A maturação de afinidade e a troca de classes são o mesmo fenômeno descrito em dois níveis, molecular e celular, e por isso ocorrem sempre de forma acoplada.]),
+   ("IV", [Após a troca de classes o anticorpo passa a reconhecer um conjunto ampliado de antígenos, o que aumenta a cobertura da resposta secundária.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [A papaína quebra ligações peptídicas em qualquer cadeia polipeptídica, mas na imunoglobulina íntegra sua ação se concentra na dobradiça. O que explica essa seletividade e o produto dela:],
+  (("A", [A dobradiça é a única região da molécula que contém ligações peptídicas, já que o restante da cadeia é mantido por pontes dissulfeto; por isso o corte gera dois braços ainda unidos.]),
+   ("B", [O enovelamento em domínios deixa pouca cadeia exposta ao solvente, e a dobradiça fica fora dos domínios; o corte ali libera dois braços monovalentes separados mais o tronco cristalizável.]),
+   ("C", [A carga elétrica concentrada na dobradiça atrai a enzima, e o corte nessa posição preserva a valência dupla da molécula original, gerando um fragmento capaz de ligar dois antígenos.]),
+   ("D", [Os carboidratos ligados às porções constantes protegem o tronco da molécula, obrigando a enzima a atuar na ponta dos braços e a liberar o fragmento cristalizável íntegro.]),
+   ("E", [A dobradiça concentra os resíduos que a papaína reconhece como substrato específico, e o corte ali destrói os sítios de ligação ao antígeno, deixando apenas o fragmento efetor.])))
 
 #questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+  [Um recém-nascido a termo, amamentado exclusivamente, é protegido por anticorpos maternos de duas origens e em dois compartimentos. A descrição correta dessa proteção é:],
+  (("A", [A IgG atravessou a placenta e circula no sangue do lactente, enquanto a IgA do leite permanece na luz intestinal sem ser absorvida, protegendo a superfície mucosa onde ele é mais exposto.]),
+   ("B", [A IgA atravessou a placenta e sustenta a proteção sistêmica, enquanto a IgG do leite é absorvida no intestino e reforça a concentração sérica até que a produção própria amadureça.]),
+   ("C", [Ambas as classes são absorvidas a partir do leite e distribuídas pela circulação, o que torna a proteção sistêmica independente do que a mãe transferiu durante a gestação.]),
+   ("D", [A IgM materna atravessa a placenta por ser pentamérica e ativar complemento, oferecendo ao lactente a proteção inflamatória que o repertório imaturo dele ainda não consegue montar.]),
+   ("E", [O transporte transplacentário depende de o anticorpo materno estar ligado ao antígeno correspondente, e por isso a proteção do lactente cobre apenas os agentes ativos durante a gestação.])))
 
-#questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+#questao-ce("19", badge-integracao,
+  [Julgue os itens sobre as funções efetoras do anticorpo e sobre os limites de cada uma delas.],
+  (("I", [O bloqueio de aderência interrompe a infecção na primeira etapa, mas não impede que a bactéria ligada continue produzindo toxina e se dividindo em suspensão.]),
+   ("II", [A opsonização não é a fagocitose em si: ela reveste o alvo para que o fagócito consiga agarrá-lo, e a internalização é o passo seguinte, executado pela célula.]),
+   ("III", [O sistema complemento só é ativado por complexos formados entre anticorpo e antígeno, o que o torna um braço exclusivo da resposta adquirida.]),
+   ("IV", [A ativação do complemento e a ativação celular direta convergem para a inflamação, que amplifica a resposta ao recrutar mais células e moléculas para o local.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [Um paciente politransfundido desenvolve anticorpos dirigidos contra imunoglobulinas presentes no plasma dos doadores. O mecanismo dessa sensibilização é:],
+  (("A", [Reconhecimento dos idiotipos dos doadores, que por definição diferem entre indivíduos e por isso são interpretados como estranhos pelo repertório do receptor a cada nova transfusão.]),
+   ("B", [Reconhecimento de isotipos ausentes no receptor, já que classes e subclasses de imunoglobulina variam entre indivíduos da espécie conforme o padrão de exposição antigênica de cada um.]),
+   ("C", [Perda da tolerância ao próprio induzida pelo volume transfundido, que satura os órgãos linfoides primários e permite o escape de clones autorreativos previamente silenciados.]),
+   ("D", [Reconhecimento de alotipos, variantes alélicas da imunoglobulina que o doador possui e o receptor não; por não estarem presentes durante a seleção, são tratados como não-próprio.]),
+   ("E", [Reação contra a porção variável dos anticorpos transfundidos, cuja diversidade é gerada ao acaso e por isso nunca coincide entre dois indivíduos da mesma espécie.])))
 
 #questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+  [Sobre as propriedades que distinguem os isotipos de imunoglobulina e sobre o papel de cada um na resposta, assinale a alternativa *incorreta*:],
+  (("A", [A IgM predomina no início da resposta e ativa o complemento com eficiência, gerando a inflamação que recruta células e moléculas para o local da agressão.]),
+   ("B", [A IgG é monomérica e bem menor que a IgM, o que lhe permite penetrar nos tecidos sem depender do aumento prévio da permeabilidade vascular local.]),
+   ("C", [A IgA é a imunoglobulina mais concentrada no soro e atua principalmente amplificando a inflamação na mucosa intestinal, onde a resposta precisa ser mais intensa.]),
+   ("D", [A IgE quase não circula livre: fica ancorada pelo Fc em células que carregam mediadores capazes de provocar reações musculares e vasculares abruptas.]),
+   ("E", [A IgD funciona essencialmente como receptor de membrana ao lado da IgM no linfócito B maduro e praticamente não é secretada em condições fisiológicas.])))
 
-#questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+#questao-ce("22", badge-integracao,
+  [Julgue os itens sobre a geração da diversidade dos receptores clonais e sobre as evidências que a estabeleceram.],
+  (("I", [A hipótese de que o genoma germinativo carrega um gene pronto para cada especificidade foi descartada por falta de espaço físico no genoma para armazenar tantas sequências.]),
+   ("II", [Tonegawa demonstrou que os segmentos gênicos da porção variável estão próximos da porção constante em todas as células do organismo, inclusive nas germinativas.]),
+   ("III", [O rearranjo observado nos linfócitos é transmitido à descendência do indivíduo, o que explica a melhora do repertório ao longo das gerações de uma população exposta.]),
+   ("IV", [O paradoxo apontado por Dreyer e Bennett, com porção constante compartilhada e porção variável exclusiva na mesma cadeia, foi a pista que levou à hipótese de geração somática.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Uma paciente apresenta hormônio tireoidiano elevado e tireotrofina hipofisária suprimida, com anticorpos dirigidos ao receptor de tireotrofina da célula folicular. O mecanismo do quadro é:],
+  (("A", [Os anticorpos bloqueiam o receptor e impedem a resposta ao estímulo hipofisário, o que reduz a produção hormonal e desencadeia elevação compensatória da tireotrofina circulante.]),
+   ("B", [Os anticorpos opsonizam as células foliculares e a destruição delas pelo fagócito libera hormônio pré-formado na circulação, elevando de modo transitório os níveis séricos.]),
+   ("C", [Os anticorpos ativam o complemento na superfície folicular, e a inflamação resultante aumenta a permeabilidade vascular e a passagem de hormônio já armazenado para o sangue.]),
+   ("D", [Os anticorpos se ligam ao hormônio circulante e prolongam sua meia-vida ao protegê-lo da degradação, o que eleva a concentração sérica sem alterar a produção glandular.]),
+   ("E", [Os anticorpos agem como agonistas do receptor e mantêm a célula folicular produzindo hormônio fora da alça de retroalimentação, de modo que a queda da tireotrofina não desliga a glândula.])))
 
 #questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+  [A largura do pico gama numa eletroforese de soro normal é informativa sobre a arquitetura do repertório humoral. O que essa largura indica é:],
+  (("A", [A presença de agregados de imunoglobulina formados durante a coleta, cuja migração irregular alarga a banda e é corrigida pela densitometria antes da leitura do traçado.]),
+   ("B", [A coexistência de um número enorme de moléculas com sequências diferentes, produto de clones distintos, cada uma migrando de modo levemente distinto no campo elétrico.]),
+   ("C", [A soma das quatro subclasses de IgG, que por terem pesos moleculares muito distintos entre si ocupam faixas separadas e se somam num traçado aparentemente contínuo.]),
+   ("D", [A contaminação da fração gama por globulinas alfa e beta, cuja separação incompleta pelo gel produz uma sobreposição que se resolve com corridas eletroforéticas mais longas.]),
+   ("E", [A variação da concentração de sais ao longo do gel, que altera a solubilidade das globulinas de forma progressiva e espalha a proteína por uma faixa mais ampla.])))
 
 #questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+  [Julgue os itens sobre a diferença entre o reconhecimento realizado pelo linfócito B e o realizado pelo linfócito T.],
+  (("I", [O receptor do linfócito T foi chamado de elusivo porque não se liga a antígeno solúvel, o que impediu que fosse identificado por ensaios simples de ligação.]),
+   ("II", [O receptor do linfócito T e o do linfócito B são gerados por mecanismos moleculares distintos, e é essa diferença que impõe ao primeiro a restrição pelas moléculas de apresentação.]),
+   ("III", [O linfócito B, como o T, depende da célula apresentadora para ter acesso ao antígeno, e é por isso que ambos precisam de sinal do microambiente para responder.]),
+   ("IV", [O grupo de Mark Davis identificou o receptor isolando o material genético comum a linfócitos B e T, no qual o gene procurado estava presente em maior quantidade.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Um adulto não vacinado sofre ferimento profundo contaminado com terra. Além da vacina antitetânica, recebe imunoglobulina antitetânica humana, que confere proteção imediata. A base dessa conduta é:],
+  (("A", [A imunoglobulina administrada estimula o linfócito B do paciente a produzir anticorpo próprio contra a toxina, acelerando a resposta que a vacina isoladamente levaria semanas para induzir.]),
+   ("B", [A imunoglobulina opsoniza os bacilos presentes na ferida e permite que os fagócitos os removam, o que impede a germinação dos esporos e a produção subsequente de toxina.]),
+   ("C", [A imunoglobulina ativa o complemento na ferida e a inflamação resultante isola o foco, contendo o agente até que a resposta induzida pela vacina alcance concentração protetora.]),
+   ("D", [A imunoglobulina entrega anticorpo pronto que neutraliza a toxina de imediato, enquanto a vacina inicia a resposta própria, que exige semanas de expansão clonal para produzir proteção.]),
+   ("E", [A imunoglobulina transfere linfócitos de memória do doador para o receptor, que passa a dispor de clones já expandidos e capazes de responder ao primeiro contato com a toxina.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+  [Homem de 68 anos com dor óssea, anemia e perda de função renal apresenta banda estreita e alta na faixa gama da eletroforese sérica, com queda das demais imunoglobulinas. Assinale a alternativa *incorreta*:],
+  (("A", [A elevação da gama-globulina total assegura proteção humoral aumentada, e infecções de repetição nesse paciente devem ser atribuídas exclusivamente à imunossupressão do tratamento.]),
+   ("B", [A banda estreita indica produto de um único clone, ao contrário da montanha larga da gama normal, que reflete milhões de moléculas com sequências diferentes entre si.]),
+   ("C", [A queda das demais imunoglobulinas retira do paciente a variedade de especificidades que cobre o mundo molecular, e é a variedade, não a quantidade, que confere proteção.]),
+   ("D", [As lesões líticas decorrem da proliferação plasmocitária na medula, que ativa reabsorção óssea e explica a dor, o risco de fratura e a elevação do cálcio sérico.]),
+   ("E", [A proteína monoclonal produzida em excesso sobrecarrega o rim, o que contribui para a perda de função renal observada na apresentação clínica desse paciente.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+  [Uma criança com deficiência seletiva de IgA apresenta infecções respiratórias e intestinais de repetição, com as demais classes de imunoglobulina sérica em níveis normais. Julgue os itens.],
+  (("I", [O quadro se explica pela incapacidade de gerar inflamação nas mucosas, já que a IgA é a principal ativadora do complemento nesses territórios.]),
+   ("II", [A IgA normalmente é lançada na luz e ali neutraliza vírus e toxinas e bloqueia a aderência bacteriana, impedindo que o agente alcance o epitélio.]),
+   ("III", [A proteção sérica preservada não compensa a falha, porque a IgG atua predominantemente no compartimento vascular e tecidual, e não na superfície luminal.]),
+   ("IV", [A IgA é a imunoglobulina mais produzida no organismo, ainda que a IgG seja a mais concentrada no soro, o que reflete a prioridade dada à defesa das superfícies.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Duas semanas após uma segunda exposição ao mesmo vírus, um paciente apresenta títulos elevados de anticorpo específico. Comparada à resposta ao primeiro contato, a resposta atual difere por:],
+  (("A", [Produzir exclusivamente IgM, agora em concentração muito maior, porque a memória imunológica reside na expansão dos clones que secretam a classe inicial da resposta.]),
+   ("B", [Depender de nova seleção do repertório nos órgãos linfoides primários, etapa que precisa se repetir a cada exposição para gerar clones capazes de reconhecer o agente.]),
+   ("C", [Produzir de novo IgM e IgG, mas com predomínio marcado de IgG, cuja meia-vida longa e boa distribuição tecidual fazem dela o suporte material da memória humoral.]),
+   ("D", [Alcançar afinidade maior porque o isotipo mudou de IgM para IgG, e a porção constante da cadeia pesada participa diretamente da formação do sítio de ligação.]),
+   ("E", [Dispensar a participação do linfócito T, uma vez que os clones de linfócito B já sensibilizados respondem de forma autônoma a partir do segundo encontro com o antígeno.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+  [Um paciente recebe transplante de órgão de doador não aparentado e desenvolve rejeição mediada por linfócitos T, apesar de nunca ter tido contato prévio com tecido daquele doador. O reconhecimento se explica porque:],
+  (("A", [Os linfócitos T do receptor foram selecionados no timo contra antígenos do doador, e o transplante apenas reativou clones que já haviam sido expandidos durante a maturação.]),
+   ("B", [O reconhecimento é feito por receptores de padrão molecular herdados, que identificam assinaturas de dano tecidual comuns a qualquer enxerto, sem participação do repertório clonal.]),
+   ("C", [A rejeição decorre exclusivamente de anticorpos pré-formados contra alotipos de imunoglobulina do doador, que opsonizam as células do enxerto e recrutam fagócitos para destruí-las.]),
+   ("D", [O repertório do receptor foi ampliado após o transplante por recombinação somática adicional, que gerou clones novos dirigidos especificamente às moléculas do órgão implantado.]),
+   ("E", [O repertório é sorteado antes de qualquer encontro e filtrado apenas contra o próprio; moléculas de apresentação do doador nunca estiveram presentes na seleção e ativam clones sobreviventes.])))
