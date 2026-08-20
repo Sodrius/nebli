@@ -144,6 +144,29 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
+### 21. Expoentes e subscritos Unicode saem com tamanho/peso inconsistentes
+
+**Sintoma (2026-08-20, resumo de radiologia):** `10⁻¹²` e `10¹⁶` saíram tipograficamente quebrados no corpo — parte dos dígitos num tamanho, parte em outro, alguns em negrito aparente.
+
+**Causa (verificada com amostra compilada):** os dígitos sobrescritos moram em **dois blocos Unicode diferentes**. `¹ ² ³` (U+00B9/B2/B3) vêm do Latin-1 e existem no Merriweather; `⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁻` (U+2070…) **não** existem no Merriweather e caem no fallback do Typst. Resultado: `10¹⁶` renderiza o `¹` numa fonte e o `⁶` em outra. Os subscritos `₀-₉` caem todos no mesmo fallback e ficam consistentes entre si, mas em corpo pequeno ficam quase ilegíveis (`B₀` chega a parecer "B,").
+
+**Como evitar:**
+- Em **modo conteúdo**: expressão numérica vai em math mode — `$10^(-12)$`, `$10^(16)$`; símbolo isolado usa helper — `B#sub[0]`, `x#super[2]`.
+- Em **string** (título de `#subtopico("...")`, `titulo`/`subtitulo`/`sumario` do Tema Card YAML): não há markup possível. Reescrever em palavras ("campo principal").
+- Fórmulas químicas correntes (`H₂O`, `CO₂`, `NAD⁺`, `FADH₂`) seguem aceitáveis — são consistentes entre si e já consagradas nos resumos anteriores. O problema é a **mistura** dentro de um mesmo expoente multi-dígito.
+- Auto-check antes de fechar a E1 (o bracket-range de `grep` não é confiável aqui — usar Python):
+  ```bash
+  python3 -c "import glob;bad=set('₀₁₂₃₄₅₆₇₈₉⁰⁴⁵⁶⁷⁸⁹⁻');[print(f,[c for c in open(f,encoding='utf-8').read() if c in bad]) for f in glob.glob('typst-build/*.typ')]"
+  ```
+
+### 22. `auditar_pdf.py` conta palavras da E1 errado quando há `#mini-resumo` cedo
+
+**Sintoma:** o aviso "palavras E1: 1035 (esperado 3500-5000)" numa E1 de ~12.500 palavras. Não bloqueia, mas induz o operador a achar que o miolo saiu raso.
+
+**Causa:** a função delimita o miolo entre a 1ª ocorrência de "Etapa 1" e a 1ª de "Resumindo" no texto extraído. O helper `#mini-resumo` imprime o rótulo **"Resumindo até aqui:"**, então o primeiro mini-resumo do resumo fecha a contagem prematuramente.
+
+**Como evitar:** tratar o aviso como não-informativo quando o resumo usa `#mini-resumo`. Para o número real, contar até o banner do Resumindo de verdade: `pdftotext <pdf> - | sed -n '/^Resumindo$/q;p' | wc -w`. Conserto na origem (buscar a última ocorrência, ou o banner isolado) fica como pendência.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)

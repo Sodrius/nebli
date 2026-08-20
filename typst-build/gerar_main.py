@@ -139,12 +139,32 @@ def render_sumario(estrutura):
     return "\n".join(lines)
 
 
+def _faixa(items, fallback):
+    """Rotulo de faixa (Qaa-Qbb) derivado dos numeros presentes no bloco.
+
+    Antes era fixo em Q01-Q10 / Q11-Q25 / Q26-Q30, o que imprimia faixa
+    errada em distribuicoes PROFUNDO/SUPERFICIAL (8/17/5, 12/13/5).
+    """
+    nums = []
+    for num, _letra in items:
+        try:
+            nums.append(int(str(num)))
+        except (TypeError, ValueError):
+            continue
+    if not nums:
+        return fallback
+    return f"Q{min(nums):02d}\u2013Q{max(nums):02d}"
+
+
 def render_gabarito(gabarito):
     """gabarito = {consolidacao: [...], integracao: [...], aplicacao: [...]}"""
+    cons = gabarito.get("consolidacao", [])
+    integ = gabarito.get("integracao", [])
+    aplic = gabarito.get("aplicacao", [])
     blocos = [
-        ("Consolidação (Q01–Q10)", gabarito.get("consolidacao", [])),
-        ("Integração (Q11–Q25)", gabarito.get("integracao", [])),
-        ("Aplicação (Q26–Q30)", gabarito.get("aplicacao", [])),
+        (f"Consolidação ({_faixa(cons, 'Q01–Q10')})", cons),
+        (f"Integração ({_faixa(integ, 'Q11–Q25')})", integ),
+        (f"Aplicação ({_faixa(aplic, 'Q26–Q30')})", aplic),
     ]
     lines = ["#gabarito-page(("]
     for titulo, items in blocos:

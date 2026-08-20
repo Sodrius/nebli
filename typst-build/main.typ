@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- radiologia-02-principios-fisicos | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,44 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Física dos métodos de imagem",
+  "Radiologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Radiologia — Preceptoria FMUSP"),
+    ("Onde estudar", "Brant & Helms — Fundamentos de Radiologia Diagnóstica · Herring — Radiologia Básica · Bushberg — The Essential Physics of Medical Imaging · Westbrook — MRI in Practice"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Radiografia: a sombra que soma tudo", (
+      "1.1 O tubo e o feixe",
+      "1.2 As cinco densidades",
+      "1.3 Projeção e magnificação",
+      "1.4 Silhueta e contraste",
+      "1.5 Efeito biológico",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Ultrassonografia: a imagem feita de ecos", (
+      "2.1 Som, transdutor e eco",
+      "2.2 Frequência contra penetração",
+      "2.3 Descritores ecogênicos",
+      "2.4 Sombra e reforço",
+      "2.5 Corte, orientação e FAST",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Tomografia: densidade que vira número", (
+      "3.1 Do feixe ao helicoidal",
+      "3.2 Voxel e reconstrução",
+      "3.3 Unidades Hounsfield",
+      "3.4 Janela e nível",
+      "3.5 Contraste, fases e artefatos",
+    )),
+    ("PARTE IV — Ressonância: o sinal que o próton devolve", (
+      "4.1 Por que hidrogênio",
+      "4.2 Dentro do campo principal",
+      "4.3 Precessão e radiofrequência",
+      "4.4 T1 e T2",
+      "4.5 Ponderação e gadolínio",
     )),
   )),
 ))
@@ -56,40 +67,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
+  ("Consolidação (Q01–Q08)", (
+    ("01", "C"),
+    ("02", "A"),
+    ("03", "CECC"),
+    ("04", "E"),
     ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("06", "ECCE"),
+    ("07", "D"),
+    ("08", "CCEC"),
   )),
-  ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
+  ("Integração (Q09–Q25)", (
+    ("09", "A"),
+    ("10", "CEEC"),
+    ("11", "E"),
+    ("12", "C"),
+    ("13", "ECCC"),
+    ("14", "B"),
+    ("15", "D"),
+    ("16", "A"),
+    ("17", "CCEE"),
+    ("18", "E"),
+    ("19", "C"),
+    ("20", "EECC"),
+    ("21", "B"),
     ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("23", "ECEE"),
+    ("24", "A"),
+    ("25", "CEEE"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
+    ("26", "E"),
+    ("27", "C"),
+    ("28", "CCCE"),
+    ("29", "B"),
     ("30", "D"),
   )),
 ))
