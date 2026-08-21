@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("Do estresse à lesão, e por que a isquemia lidera",
+   [Estresse dentro da margem produz adaptação, um novo estado estável; acima dela, lesão. A hipóxia preserva o fluxo e deixa a glicólise anaeróbia abastecida; a isquemia corta oxigênio, substrato e remoção de catabólitos ao mesmo tempo, e por isso mata em minutos.]),
+
+  ("Lesão reversível tem duas caras",
+   [O edema celular vem da falência da bomba de sódio: o sódio se acumula, a água entra e a célula incha. A esteatose vem da queda de síntese proteica: sem apoproteína, o triglicerídeo não é exportado e fica retido em vacúolos.]),
+
+  ("Irreversibilidade, e o atraso da morfologia",
+   [A lesão vira irreversível quando a membrana perde a permeabilidade seletiva e quando DNA e proteínas são destruídos além do reparo — é o primeiro critério que coloca troponina no sangue. A morfologia atrasa horas: um miocárdio já morto pode parecer preservado ao H&E.]),
+
+  ("A depleção de ATP desliga serviços em cadeia",
+   [Sem fosforilação oxidativa, o ATP despenca. A bomba de sódio falha e a célula incha; a glicólise anaeróbia acidifica o meio e condensa a cromatina; os ribossomos se soltam do retículo e a síntese proteica cai, retendo lipídio.]),
+
+  ("A mitocôndria decide o desfecho",
+   [Lesão mitocondrial ampla abre o poro de transição de permeabilidade, dissipa o potencial e zera o ATP — necrose. Vazamento seletivo de citocromo c com ATP preservado monta o apoptossomo — apoptose. Sem ATP, a célula não consegue apoptar.]),
+
+  ("O cálcio lesa porque ativa enzimas",
+   [O cálcio citosólico é mantido dez mil vezes menor que o extracelular. Quando sobe, ativa fosfolipase, que degrada a membrana; protease, que desmonta o citoesqueleto; endonuclease, que fragmenta o DNA; e ATPase, que consome a energia que já falta.]),
+
+  ("Radicais livres em três degraus",
+   [A redução incompleta do oxigênio gera superóxido; a superóxido-dismutase o converte em peróxido de hidrogênio; o ferro reduzido o transforma em radical hidroxila pela reação de Fenton. Catalase e glutationa-peroxidase fecham a via em água.]),
+
+  ("Necrose e apoptose invertem a ordem dos eventos",
+   [Na necrose o dano letal vem primeiro e a digestão enzimática depois. Na apoptose a ativação enzimática programada é o que produz o dano letal. A membrana rompida da necrose extravasa conteúdo e recruta inflamação; a íntegra da apoptose não.]),
+
+  ("O arcabouço decide o padrão de necrose",
+   [Na coagulativa a acidez desnatura também as enzimas lisossômicas, a digestão é bloqueada e o arcabouço permanece — células-fantasma no infarto. Na liquefativa as hidrolases dominam e destroem a trama, produzindo abscesso ou cavidade cerebral.]),
+
+  ("As duas vias convergem nas caspases executoras",
+   [A via intrínseca responde a sinais internos: sensores antagonizam Bcl-2, Bax e Bak abrem a mitocôndria e o citocromo c ativa a caspase-9. A extrínseca parte de Fas ou do receptor de TNF via FADD e ativa a caspase-8. Ambas ativam as caspases 3, 6 e 7.]),
 ))
