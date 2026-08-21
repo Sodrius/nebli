@@ -1,28 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("Solubilidade decide tudo",
+   [Hormônio hidrossolúvel (peptídico, catecolamina) não atravessa a membrana: usa receptor de superfície, gera segundo mensageiro e modifica enzimas prontas em segundos a minutos. Lipossolúvel (esteroide, tireoidiano) entra, usa receptor nuclear e muda quantas enzimas existem, em horas a dias.]),
+
+  ("Insulina é o hormônio do guarde",
+   [A célula beta converte glicemia em secreção: GLUT2 e glicoquinase de afinidade baixa deixam a entrada proporcional à glicose, o ATP gerado fecha o canal de potássio, a célula despolariza, entra cálcio e o grânulo funde. Quem sobe é o ATP, e é ele que fecha o canal.]),
+
+  ("O efeito da insulina no tecido",
+   [Pelo receptor tirosina-cinase e pela PKB, a insulina leva GLUT4 já existente até a membrana do músculo e do adipócito, ativa a fosfatase PP1 (que liga a sintase e desliga a fosforilase de glicogênio) e destrói o AMPc pela fosfodiesterase, apagando o recado do glucagon.]),
+
+  ("Glucagon age só no fígado",
+   [O músculo não tem receptor de glucagon nem glicose-6-fosfatase, então seu glicogênio nunca vira glicemia. No fígado, a cascata AMPc-PKA quebra glicogênio, trava a síntese, empurra a gliconeogênese e, no jejum longo, produz corpos cetônicos para o encéfalo.]),
+
+  ("Adrenalina é a versão urgente",
+   [Sintetizada da tirosina com a hidroxilase inicial como etapa limitante, ela mobiliza glicogênio no fígado e no músculo, libera ácidos graxos do adipócito, acelera o coração, relaxa o brônquio e ainda inclina a ilhota: mais glucagon, menos insulina.]),
+
+  ("Tireoidiano ativo é o T3",
+   [O T4 circula como reservatório de afinidade baixa; a deiodinase do tecido-alvo gera T3, que troca correpressor por coativador no receptor já pousado no DNA. O efeito é subir o metabolismo basal e aumentar a expressão de receptores adrenérgicos — daí a taquicardia do excesso.]),
+
+  ("Cortisol sustenta a escassez longa",
+   [Ele fornece matéria-prima e maquinaria para a gliconeogênese: degrada proteína muscular, mobiliza glicerol e induz a síntese das enzimas hepáticas, enquanto reduz a captação periférica de glicose. Em excesso crônico, redistribui gordura para o tronco e suprime a imunidade.]),
+
+  ("Amplificação é catalítica, não numérica",
+   [Um receptor ativa dezenas de proteínas G, cada ciclase fabrica milhares de AMPc e cada cinase fosforila muitos alvos — ganho de até cem milhões. Por isso concentração nanomolar de hormônio move milimoles de glicose, e por isso desligar exige três freios independentes.]),
+
+  ("Feedback lido de trás para frente",
+   [Como o hormônio da glândula freia hipotálamo e hipófise, o hormônio de cima anda ao contrário do de baixo: tireoide preguiçosa deixa o TSH subir, e córtex adrenal destruído deixa o ACTH subir tanto que escurece a pele, porque ACTH e hormônio melanocítico compartilham a mesma ponta.]),
 ))

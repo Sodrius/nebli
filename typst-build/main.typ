@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- bioq-26-acao-hormonal | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,31 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Ação hormonal",
+  "Bioquímica",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Bioquímica"),
+    ("Onde estudar", "Lehninger · Princípios de Bioquímica, cap. 23 (regulação hormonal e integração do metabolismo) · Berg & Stryer · Biochemistry (transdução de sinal) · Marzzoco & Torres · Bioquímica Básica"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Regulação metabólica e a identidade do hormônio", (
+      "1.1 As três alavancas da regulação",
+      "1.2 O que faz de uma molécula um hormônio",
+      "1.3 Classe química decide a rota",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A máquina da transdução do sinal", (
+      "2.1 Cinco jeitos de atravessar a membrana",
+      "2.2 A cascata do AMPc e a amplificação",
+      "2.3 O receptor que reescreve o programa",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Os hormônios do metabolismo em ação", (
+      "3.1 Insulina: sensor, secreção e efeito",
+      "3.2 Glucagon e adrenalina na escassez",
+      "3.3 Tireoidianos, cortisol e impostores",
     )),
   )),
 ))
@@ -57,39 +55,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "D"),
+    ("02", "CEEC"),
+    ("03", "B"),
+    ("04", "E"),
+    ("05", "ECCE"),
+    ("06", "A"),
+    ("07", "C"),
+    ("08", "CCEE"),
+    ("09", "E"),
+    ("10", "B"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
+    ("11", "D"),
+    ("12", "EECC"),
     ("13", "A"),
     ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("15", "CECC"),
+    ("16", "D"),
+    ("17", "ECCC"),
+    ("18", "CEEE"),
+    ("19", "B"),
+    ("20", "E"),
+    ("21", "CCEC"),
+    ("22", "A"),
+    ("23", "E"),
+    ("24", "EECE"),
+    ("25", "D"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "B"),
+    ("27", "C"),
+    ("28", "ECEE"),
+    ("29", "A"),
+    ("30", "B"),
   )),
 ))
