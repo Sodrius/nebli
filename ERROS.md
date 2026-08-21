@@ -144,6 +144,14 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
+### 21. `#mini-resumo` engana o contador de palavras da E1 do `auditar_pdf.py`
+
+**Sintoma (2026-08-21, imuno-01-organizacao-sistema-imune):** `auditar_pdf.py` emite `! palavras E1: 566 (esperado 3500-5000). Miolo curto` numa E1 que tem ~8.000 palavras e 20 páginas. Warning falso.
+
+**Causa:** `contar_palavras_e1` delimita o miolo entre a primeira ocorrência de `"Etapa 1"` e a primeira de `"Resumindo"` no texto do PDF. O helper `#mini-resumo` renderiza o rótulo *"Resumindo até aqui:"* — então o primeiro `"Resumindo"` do documento é o primeiro mini-resumo da E1, não o banner da página Resumindo. Quanto mais cedo aparece um `#mini-resumo`, menor a contagem.
+
+**Como evitar:** ao ver esse warning, conferir a contagem real antes de reescrever qualquer coisa (`pdftotext arquivo.pdf - | wc -w` no intervalo certo, ou contar `typst-build/etapa1.typ`). O warning não bloqueia. Correção de raiz (pendência pequena): delimitar o fim do miolo pelo banner real — buscar `"Resumindo"` a partir da última `#conclusao-box`, ou usar `"Etapa 2"` como limite sempre.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)
@@ -167,6 +175,7 @@
 | 15 | Markdown bold vazado | precompile + auto-fix | SIM | warn |
 | 18 | Integração disfarçada de Consolidação | mapa A+B pré-redação | não | sim |
 | 19 | Título da capa grande demais (30pt fixo) | validação visual da capa | não | warn |
+| 21 | `palavras E1` falso-baixo por `#mini-resumo` | auditar_pdf | não | warn (falso) |
 
 ---
 
