@@ -1,0 +1,33 @@
+# MAPA_CONTEUDO -- biomol-recombinacao-vdj-imunoglobulinas
+# Slide-fonte: aula1-recombinacao-somatica-imunoglobulinas.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Dr. Alexandre Bruni-Cardoso Professor Associado Departamento de Bioquímica Instituto de Química – USP brunicar@iq.usp.br
+slide-02: As aulas do Alexandre Recombinação Regulação da expressão gênica em procariotos - o modelo do operon Regulação da expressão gênica em eucariotos I Regulação da expressão gênica em eucariotos II RNAs não codificadores Oncogenes e genes supressores de ...
+slide-03: Geração de diversidade de anticorpos por recombinação Bibliografia: Capítulo 24: The Innate and Adaptive Immune Systems Molecular Biology of the Cell, 6th edition, Alberts Capítulo 12: site-specific recombination and transposition Molecular Biology o...
+slide-04: Meta: Entender ao nível molecular o mecanismo envolvido na geração de anticorpos Objetivos: 1. Entender o desafio biológico de gerar a diversidade de anticorpos/imunoglobulinas observada no sistema immune 2. Descrever a estrutura/função proteica das ...
+slide-05: Antígenos e Anticorpos Antígeno - capaz de induzir uma resposta imune (frequentemente uma proteína) Na resposta imune humoral os antígenos são reconhecidos por anticorpos (imunoglobulinas) A região do antígeno reconhecida pelo anticorpo é chamada de ...
+slide-06: Fonte: Alberts, Mol Biol of the CELL, 5th edition
+slide-07: Fonte: Alberts, Mol Biol of the CELL, 5th edition Fonte: Lewin’s Genes XI, 11th edition
+slide-08: Estrutura das imunoglobulinas (Ig) Fonte: Molecular Biology of the Gene, 7th edition (2013), Watson
+slide-09: Mesmo na ausência de estímulo por antígenos, o corpo humano é capaz de fazer mais de 1012 diferentes imunoglobulinas O genoma humano contém ~ 25.000 genes!!! Como cada um de nós pode produzir tantos Igs diferentes?
+slide-10: Estrutura das imunoglobulinas (Ig) Fonte: Alberts, Mol Biol of the CELL, 5th edition
+slide-11: Fonte: Alberts, Mol Biol of the CELL, 5th edition A recombinação V(D)J
+slide-12: O grande número de segmentos de genes V, J e D herdados disponíveis para codificar cadeias de Ig e a junção combinatória desses segmentos (chamada diversificação combinatória) contribui bastante para a diversidade de Ig, Cadeia Κappa: 35 segmentos V ...
+slide-13: Fonte: Molecular Biology of the Gene, 7th edition (2013), Watson Regra 12/23 Recombinases reconhecem sequências de recombinação (RSS) específicas nos segmentos V(D)J O que garante que um segmento V vai sempre se unir com um segmento J nas cadeias lev...
+slide-14: Exclusão Alélica é ativada por uma recombinação que produz uma Ig funcional
+slide-15: Recombinação V(D)J – primeiro passo Recombinases (enzima RAG1 e RAG2)
+slide-16: Recombinação V(D)J – primeiro passo
+slide-17: A Recombinação V(D)J é imprecisa: a diversidade juncional Durante a recombinação V(DJ), frequentemente se perde um número variável de nucleotídeos das extremidades dos segmentos e um ou mais nucleotídeos aleatórios também são inseridos. Esse processo...
+slide-18: Recombinação V(D)J – segundo passo Depende de um mecanismo de reparo de quebra de dupla fita chamado de Junção não homóloga de extremidades (JNHE)
+slide-19: Reparando Quebras no DNA Recombinação Homóloga Junção Não Homóloga de Extremidades Depende da cromátide irmã
+slide-20: Junção Não Homóloga de Extremidades (JNHE) Tipicamente, nucleotídeos são perdidos no sítio de quebra durante JNHE Portanto, a JNHE frequentemente leva a mutações (e variabilidade!!)
+slide-21: Recombinação V(D)J – segundo passo JNHE
+slide-22: A hipermutação somática aumenta a dimensão da diversificação Ocorre durante a expansão clonal das células B ativadas A sequência da região variável é mutada por enzimas. Por exemplo, a enzima Activation-Induced Desaminase (AID) que é expressa em célu...
+slide-23: Mudança de classe de Ig por recombinação – esse processo não gera diversidade Fonte: Alberts, Mol Biol of the CELL, 5th edition
+slide-24: Mecanismos que geram diversidade de imunoglobulinas Diversificação combinatória pela junção dos segmentos V(D)J Diversidade Juncional Junção das cadeias L e H Imprecisao do reparo JNHE Hipermutação somática
+slide-25: Possíveis consequencias indesejadas deste processo de geração de diversidade? Células B que não vão produzir anticorpos ou que não vão produzir anticorpos com estrutura funcional Células B que vão produzir anticorpos que reconhecem antígenos próprios...

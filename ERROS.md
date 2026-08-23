@@ -144,6 +144,18 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
+### 21. Header da página defasado na primeira página de cada etapa
+
+**Sintoma (achado 2026-08-23):** a primeira página de cada etapa — a que traz o banner navy grande — imprime no cabeçalho o nome da etapa *anterior*. Na prática: a página de abertura da E1 sai com "SUMÁRIO" no topo, a página de abertura da E2 sai com "RESUMINDO", e a página do gabarito sai com "ETAPA 3". O `auditar_pdf_visual.py` captura o caso resumindo→etapa2 como **ERROR** (bloqueia a movimentação do PDF); os outros dois estão na lista de transições toleradas e passavam em silêncio.
+
+**Causa:** `#etapa-header` fazia `pagebreak(weak: true)` **antes** de `set-etapa(titulo)`. O cabeçalho de página do Typst resolve o `state` no **topo** da página, então um update feito depois da quebra só era visto pela página seguinte.
+
+**Como evitar:** RESOLVIDO na origem — `set-etapa(titulo)` agora vem **antes** do `pagebreak(weak: true)` no helper (`typst-template/nebli_v2_apostila.typ`). Backup do original em `backups/tecnicos/nebli_v2_apostila.typ.bak-2026-08-23-header-sync`. Reverter é trocar as duas linhas de volta. **Mudança aguardando sanção do Davi** (ver `MEMORY.md` § Pendências).
+
+**Falsos positivos vizinhos, que continuam de pé:** o helper `#mini-resumo` imprime o rótulo "Resumindo até aqui:", e o `auditar_pdf.py` usa a string "Resumindo" para delimitar o miolo da E1 na contagem de palavras. Resultado: em resumo com `#mini-resumo` no meio da PARTE I, a contagem de palavras da E1 sai muito menor que a real e o `auditar_pdf_visual` acusa "banner de resumindo no corpo" nessas páginas. Nenhum dos dois bloqueia. Correção pendente: delimitar pelo banner real (`#resumindo-page`), não pela palavra solta.
+
+---
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)

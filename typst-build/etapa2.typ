@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [Um antígeno proteico de 300 aminoácidos é injetado em um animal e induz a produção de vários anticorpos distintos, cada um produzido por um clone diferente de linfócito B. Sobre o que cada um desses anticorpos efetivamente reconhece, é correto afirmar:],
+  (("A", [Cada anticorpo reconhece a proteína inteira em sua conformação nativa, de modo que a existência de vários clones reflete apenas diferenças de afinidade pela mesma superfície global da molécula injetada.]),
+   ("B", [Cada anticorpo reconhece o antígeno pela sequência linear completa de seus 300 aminoácidos, e a multiplicidade de clones decorre da leitura da mesma cadeia em diferentes quadros de leitura possíveis.]),
+   ("C", [Cada anticorpo reconhece um epítopo, região de cerca de 10 a 12 aminoácidos da superfície do antígeno; como a proteína exibe vários epítopos distintos, clones diferentes reconhecem regiões diferentes da mesma molécula.]),
+   ("D", [Cada anticorpo reconhece um epítopo obrigatoriamente formado por resíduos contíguos na cadeia polipeptídica, razão pela qual a desnaturação térmica da proteína preserva integralmente o reconhecimento por todos os clones gerados.]),
+   ("E", [Cada anticorpo reconhece um determinante de açúcar acoplado à proteína, e a diversidade de clones reflete a variedade de cadeias glicídicas presentes na superfície do antígeno introduzido no animal.])))
 
 #questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+  [Sobre a arquitetura da imunoglobulina e a localização do sítio que se liga ao antígeno, é correto afirmar:],
+  (("A", [O sítio de ligação forma-se na interface entre o domínio variável da cadeia leve e o domínio variável da cadeia pesada; como as duas metades do Y são idênticas, as duas pontas têm a mesma especificidade.]),
+   ("B", [O sítio de ligação é constituído exclusivamente pelos três domínios variáveis da cadeia pesada, cabendo à cadeia leve apenas a função estrutural de estabilizar a haste do Y por pontes dissulfeto.]),
+   ("C", [O sítio de ligação localiza-se na haste do Y, formada pelas regiões constantes das duas cadeias pesadas, o que explica por que a classe do anticorpo determina qual antígeno ele consegue reconhecer.]),
+   ("D", [O sítio de ligação forma-se entre o domínio variável de uma cadeia leve e o domínio constante da cadeia pesada oposta, arranjo que confere ao anticorpo duas especificidades distintas em cada braço.]),
+   ("E", [O sítio de ligação corresponde ao arcabouço conservado do domínio variável, ficando as três alças hipervariáveis voltadas para o interior da molécula, onde estabilizam o enovelamento das fitas beta.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+  [Julgue os itens a seguir sobre as classes de imunoglobulina e o que as define:],
+  (("I",   [A classe de um anticorpo é determinada pelo tipo de região constante da cadeia pesada — μ, δ, γ, α ou ε —, correspondendo respectivamente a IgM, IgD, IgG, IgA e IgE.]),
+   ("II",  [A escolha entre cadeia leve do tipo κ e do tipo λ define se o anticorpo será da classe IgM ou da classe IgG.]),
+   ("III", [A IgE é a classe mais abundante no sangue circulante e a principal responsável por ativar a via clássica do complemento.]),
+   ("IV",  [A IgG é a única classe capaz de atravessar a placenta, o que confere ao recém-nascido proteção transitória herdada da mãe.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [Uma célula B madura tem, em seu locus de cadeia leve κ, um segmento V3 diretamente adjacente a um segmento J3, enquanto no fibroblasto do mesmo indivíduo esses dois segmentos estão separados por milhares de pares de base. Sobre o processo responsável por essa diferença, é correto afirmar:],
+  (("A", [Trata-se de splicing alternativo do transcrito primário, processo reversível que aproxima V3 de J3 no RNA mensageiro sem alterar a sequência do DNA cromossômico da célula B.]),
+   ("B", [Trata-se de metilação diferencial do DNA, que aproxima fisicamente os dois segmentos por condensação da cromatina intermediária sem qualquer clivagem de ligações fosfodiéster no locus.]),
+   ("C", [Trata-se de conversão gênica a partir de um locus doador silencioso, que substitui a sequência entre V3 e J3 por uma cópia encurtada mantendo intacto o número total de segmentos V.]),
+   ("D", [Trata-se de recombinação V(D)J, que corta o DNA nos dois pontos, deleta em definitivo os segmentos intermediários e cola V3 a J3 — alteração cromossômica herdada por toda a descendência daquela célula B.]),
+   ("E", [Trata-se de transcrição reversa de um mensageiro já processado, cujo produto de DNA complementar é reintegrado ao locus original substituindo a versão germinativa não rearranjada.])))
 
 #questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+  [Sobre as sequências-sinal de recombinação e a regra 12/23, assinale a alternativa *incorreta*:],
+  (("A", [Cada sequência-sinal é composta por um heptâmero conservado adjacente ao segmento codificante, um espaçador e um nonâmero conservado, sendo o heptâmero e o nonâmero os elementos efetivamente reconhecidos pela recombinase.]),
+   ("B", [A sequência de bases do espaçador é altamente conservada entre os diferentes segmentos e é justamente essa conservação de sequência que permite à recombinase distinguir os dois tipos de sinal.]),
+   ("C", [O espaçador existe em dois comprimentos, de 12 e de 23 pares de base, que correspondem aproximadamente a uma e a duas voltas completas da dupla-hélice do DNA.]),
+   ("D", [A regra 12/23 estabelece que uma sequência-sinal com espaçador de 12 pares só recombina com uma de 23 pares, o que torna impossível a junção direta entre dois segmentos V.]),
+   ("E", [A regra restringe quais tipos de segmento podem se unir, mas não determina qual segmento V ou qual segmento J específico será utilizado, escolha que permanece aleatória em cada célula.])))
 
 #questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+  [Julgue os itens a seguir sobre a atuação das recombinases RAG1 e RAG2 no primeiro passo da recombinação V(D)J:],
+  (("I",   [A RAG2 carrega o sítio catalítico do complexo e é capaz de clivar o DNA mesmo na ausência da RAG1, que atua apenas como fator acessório de ancoragem.]),
+   ("II",  [O complexo só executa a clivagem depois de reunir as duas sequências-sinal num mesmo complexo, na etapa chamada sinapse, o que impede a geração de quebras dispersas pelo genoma.]),
+   ("III", [Após o corte de fita única, a hidroxila 3' liberada ataca a ligação fosfodiéster da fita oposta, reação que completa a quebra de dupla fita e sela a extremidade codificante numa alça em grampo.]),
+   ("IV",  [Ao final do primeiro passo, tanto as extremidades codificantes quanto as extremidades de sinal encontram-se seladas em grampo, exigindo abertura enzimática antes de qualquer religação.])))
 
 #questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+  [O corte executado pelas recombinases gera quatro extremidades de DNA, que recebem destinos diferentes durante o reparo. Sobre esses destinos, é correto afirmar:],
+  (("A", [As extremidades codificantes são unidas com precisão absoluta, sem perda de bases, enquanto as extremidades de sinal sofrem aparo variável, o que explica a diversidade observada no repertório.]),
+   ("B", [As quatro extremidades são unidas duas a duas ao acaso, de modo que a junta codificante pode conter um sinal e a junta-sinal pode conter parte de um segmento codificante do locus.]),
+   ("C", [As extremidades de sinal permanecem no cromossomo formando o novo sítio de ligação ao antígeno, enquanto as extremidades codificantes saem do genoma num círculo que é posteriormente degradado.]),
+   ("D", [Todas as quatro extremidades permanecem no cromossomo, de modo que o DNA situado entre os segmentos recombinados é conservado e apenas deixado de fora durante o processamento do transcrito.]),
+   ("E", [As extremidades codificantes formam a junta codificante, imprecisa, que fica no cromossomo e vira a região variável; as de sinal formam uma junta precisa num círculo de DNA que se perde nas divisões seguintes.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+  [Durante a formação da junta codificante, dois tipos de nucleotídeos extras podem ser incorporados ao ponto de emenda. Sobre a origem de cada um deles, é correto afirmar:],
+  (("A", [Os nucleotídeos P são inseridos sem molde pela desoxinucleotidil-transferase terminal, ao passo que os nucleotídeos N resultam da abertura assimétrica do grampo formado pela recombinase durante o corte.]),
+   ("B", [Ambos os tipos são copiados do segmento germinativo adjacente por uma polimerase de reparo, diferindo apenas quanto à fita utilizada como molde durante o preenchimento da lacuna.]),
+   ("C", [Os nucleotídeos P surgem da abertura assimétrica do grampo, sendo palindrômicos por copiarem a sequência vizinha; os nucleotídeos N são adicionados sem molde pela desoxinucleotidil-transferase terminal.]),
+   ("D", [Os nucleotídeos P e os N designam o mesmo evento molecular, sendo a diferença de nomenclatura apenas histórica e relacionada ao locus em que a inserção é descrita, leve ou pesada.]),
+   ("E", [Os nucleotídeos P são removidos por exonucleases antes da ligação final, e apenas os nucleotídeos N permanecem na junção madura, razão pela qual só estes contribuem para a diversidade juncional.])))
 
-#questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+#questao-mc("09", badge-consolidacao,
+  [A desaminase induzida por ativação atua sobre o DNA da região variável em células B já ativadas. Sobre o mecanismo pelo qual sua ação se converte em mutação, é correto afirmar:],
+  (("A", [A enzima insere diretamente bases erradas no lugar das corretas, agindo como uma polimerase de baixa fidelidade restrita à região variável já rearranjada do locus de imunoglobulina.]),
+   ("B", [A enzima cliva a dupla fita na região variável, e a mutação surge exclusivamente do aparo de bases realizado durante a religação das extremidades pela maquinaria de junção não homóloga.]),
+   ("C", [A enzima metila citosinas na região variável, e a mutação surge da desaminação espontânea da citosina metilada em timina ao longo das divisões da célula B ativada em expansão clonal.]),
+   ("D", [A enzima desamina citosina em uracila; a mutação nasce depois, quando a replicação lê a uracila como timina ou quando a remoção da uracila cria um sítio abásico preenchido ao acaso.]),
+   ("E", [A enzima remove nucleotídeos das extremidades da região variável, e a mutação decorre do deslocamento da fase de leitura provocado pela perda de um número variável de bases na alça CDR3.])))
 
-#questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+#questao-ce("10", badge-consolidacao,
+  [Julgue os itens a seguir sobre a mudança de classe de imunoglobulina e o controle do número de receptores por célula:],
+  (("I",   [A mudança de classe recombina regiões switch situadas antes de cada região constante e deleta o DNA intermediário, mantendo a montagem VDJ rigorosamente inalterada.]),
+   ("II",  [Por deletar de forma definitiva as regiões constantes intermediárias, a mudança de classe é irreversível: uma célula que passou a produzir IgA não retorna a IgM.]),
+   ("III", [A mudança de classe amplia a diversidade do repertório, uma vez que gera novas especificidades de reconhecimento ao alterar a sequência da região variável.]),
+   ("IV",  [Na exclusão alélica, os dois alelos de cada locus rearranjam simultaneamente, e a célula descarta depois o produto de menor afinidade pelo antígeno.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [A teoria da seleção clonal só se sustenta se cada linfócito B expressar um único tipo de receptor. Sobre o mecanismo que garante essa condição e sua relação com a lógica da seleção clonal, é correto afirmar:],
+  (("A", [Na exclusão alélica, o rearranjo produtivo de um alelo gera uma cadeia expressa na membrana cujo sinal desliga as recombinases, deixando o outro alelo germinativo — sem isso, o antígeno selecionaria um clone que também secretaria anticorpo de alvo desconhecido.]),
+   ("B", [A condição é garantida pela inativação de um dos dois cromossomos homólogos por compactação da cromatina, mecanismo idêntico ao da inativação do cromossomo X, que silencia todo o alelo antes do início do rearranjo no linfócito imaturo.]),
+   ("C", [A condição é garantida pela seleção periférica: a célula B expressa inicialmente vários receptores distintos e, ao encontrar o antígeno no linfonodo, retém apenas o receptor de maior afinidade e degrada os demais junto com seus transcritos.]),
+   ("D", [A condição não é necessária, pois a expansão clonal amplifica igualmente todos os receptores de uma mesma célula, de modo que a resposta permanece específica mesmo quando dois alelos são rearranjados de forma produtiva na mesma célula.]),
+   ("E", [A condição é garantida porque cada célula B herda apenas um dos dois alelos do locus de imunoglobulina, tendo o outro sido eliminado por perda cromossômica programada durante o comprometimento com a linhagem linfoide na medula.])))
 
 #questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+  [Considere a aritmética do repertório de anticorpos e as fontes que a compõem, e julgue os itens:],
+  (("I",   [Como cada segmento V pode se juntar a qualquer segmento J, o número de regiões variáveis κ possíveis obtém-se somando os 35 segmentos V aos 5 segmentos J.]),
+   ("II",  [O produto da combinatória de segmentos com o emparelhamento entre cadeias leves e pesadas, da ordem de 10⁶, já é suficiente para explicar o repertório humano de mais de 10¹² anticorpos.]),
+   ("III", [A cadeia pesada contribui mais que a leve para a diversidade combinatória porque sua região variável é montada a partir de três famílias de segmentos, e não de duas.]),
+   ("IV",  [A diversificação juncional amplia a diversidade em várias ordens de grandeza e responde pela maior parte da distância entre o número combinatório e o repertório real.])))
 
 #questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+  [No locus da cadeia pesada, o segmento D é flanqueado dos dois lados por sequências-sinal de espaçador 12, enquanto os segmentos V e J são flanqueados por sequências-sinal de espaçador 23. Sobre a consequência funcional desse arranjo, é correto afirmar:],
+  (("A", [O arranjo permite que um segmento V se una diretamente a um segmento J, tornando o segmento D dispensável e explicando por que parte das cadeias pesadas maduras não contém sequência derivada de D.]),
+   ("B", [O arranjo impõe que o rearranjo ocorra em duas etapas — D com J primeiro, V com o bloco DJ depois — porque a regra 12/23 proíbe a união direta entre V e J, ambos com espaçador 23.]),
+   ("C", [O arranjo garante que o segmento D seja sempre utilizado em duplicata, com um D unindo-se a outro D antes que o conjunto se ligue ao segmento J escolhido pela recombinase naquela célula.]),
+   ("D", [O arranjo não impõe ordem alguma, já que a regra 12/23 se aplica apenas aos loci de cadeia leve, nos quais existem somente dois tipos de segmento a serem combinados pela recombinase.]),
+   ("E", [O arranjo faz com que a cadeia pesada recombine antes da leve, pois espaçadores de 12 pares de base são reconhecidos com maior afinidade pela recombinase do que espaçadores de 23 pares.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [Em um camundongo geneticamente modificado, a recombinase é substituída por uma nuclease que produz cortes cegos de dupla fita nos mesmos sítios, sem formar estruturas em grampo. Sobre a consequência esperada para o repertório, é correto afirmar:],
+  (("A", [O repertório seria mais diverso, pois a ausência do grampo dispensaria a etapa de abertura enzimática e permitiria que a desoxinucleotidil-transferase terminal atuasse por mais tempo sobre extremidades livres.]),
+   ("B", [O repertório permaneceria inalterado, uma vez que o grampo é apenas um intermediário transitório da reação de corte, sem qualquer contribuição para a sequência final da junta codificante formada.]),
+   ("C", [O repertório seria abolido, pois sem grampo as extremidades codificantes não poderiam ser reconhecidas pela junção não homóloga e a quebra permaneceria aberta até a morte da célula em desenvolvimento.]),
+   ("D", [O repertório perderia a contribuição dos nucleotídeos inseridos sem molde, já que a transferase terminal só reconhece extremidades resultantes da abertura assimétrica de estruturas em grampo pela nuclease Artemis.]),
+   ("E", [O repertório perderia os nucleotídeos P, que surgem da abertura assimétrica do grampo e são palindrômicos; a diversidade juncional diminuiria, embora aparo e inserção sem molde continuassem operando.])))
 
 #questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+  [Julgue os itens a seguir sobre a escolha da via de reparo empregada na recombinação V(D)J:],
+  (("I",   [A junção não homóloga é a via utilizada porque o linfócito em desenvolvimento não está em fase de síntese e, portanto, não dispõe de cromátide-irmã para servir de molde.]),
+   ("II",  [A recombinação homóloga seria preferível caso estivesse disponível, pois sua fidelidade permitiria gerar junções codificantes mais diversas do que as produzidas pela junção não homóloga.]),
+   ("III", [A imprecisão característica da junção não homóloga, que em outros contextos representa dano, é aqui parte do resultado desejado pela célula em desenvolvimento.]),
+   ("IV",  [O heterodímero Ku prende e aproxima as extremidades quebradas e serve de plataforma de recrutamento, mas quem sela a emenda é a DNA ligase IV associada ao XRCC4.])))
 
 #questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+  [Estima-se que apenas cerca de um terço dos rearranjos V(D)J mantenha a fase de leitura correta. Sobre a origem desse desperdício e sobre como a célula lida com ele, é correto afirmar:],
+  (("A", [O aparo e a inserção de nucleotídeos na junção não respeitam múltiplos de três; quando o saldo desloca a fase, nenhuma cadeia funcional é produzida, não há sinal de desligamento e a célula tenta o segundo alelo, morrendo se também falhar.]),
+   ("B", [O desperdício decorre da regra 12/23, que frequentemente permite junções entre segmentos do mesmo tipo; a célula corrige o erro reabrindo a junção formada e reunindo as extremidades numa segunda tentativa sobre o mesmo alelo já rearranjado.]),
+   ("C", [O desperdício decorre da alta taxa de mutação introduzida pela desaminase durante o rearranjo na medula óssea; a célula compensa selecionando, na periferia, apenas os clones cujas mutações restauraram a fase de leitura original do transcrito.]),
+   ("D", [O desperdício decorre da perda do círculo de DNA que contém a junta-sinal, evento que remove segmentos ainda necessários; a célula compensa transcrevendo o alelo homólogo, que permanece na configuração germinativa e é usado como molde de reparo.]),
+   ("E", [O desperdício é aparente, pois transcritos fora de fase são corrigidos por edição do RNA mensageiro antes da tradução; a célula só é eliminada quando ambos os alelos apresentam deleção completa do conjunto de segmentos J disponíveis.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [Sobre a hipermutação somática e a mudança de classe, ambas dependentes da desaminase induzida por ativação, assinale a alternativa *incorreta*:],
+  (("A", [A hipermutação somática atua sobre a região variável já rearranjada e introduz trocas de base pontuais, alterando a afinidade do receptor pelo antígeno ao longo da expansão clonal.]),
+   ("B", [A mudança de classe atua sobre regiões repetitivas situadas antes de cada região constante e resulta na deleção de um bloco inteiro de DNA entre a montagem VDJ e a nova constante.]),
+   ("C", [Ambos os processos ocorrem na medula óssea durante o desenvolvimento do linfócito B, antes de qualquer contato com antígeno, e por isso contribuem para o repertório primário disponível na saída.]),
+   ("D", [Apenas a hipermutação somática altera a especificidade do anticorpo; a mudança de classe preserva integralmente a região variável e, portanto, o epítopo reconhecido.]),
+   ("E", [A maioria das mutações introduzidas pela hipermutação é neutra ou deletéria para a ligação, e o ganho de afinidade da resposta decorre da seleção subsequente das células mais bem adaptadas.])))
 
-#questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+#questao-ce("18", badge-integracao,
+  [Julgue os itens a seguir sobre a alça CDR3 da cadeia pesada e sua relação com o reconhecimento do antígeno:],
+  (("I",   [A CDR3 da cadeia pesada é a alça mais variável do anticorpo porque é codificada por uma família de segmentos V especialmente numerosa e polimórfica no genoma herdado.]),
+   ("II",  [A CDR3 corresponde justamente à região codificada pelo ponto de emenda entre os segmentos, o que a torna a única porção da proteína cuja sequência não está escrita no genoma germinativo.]),
+   ("III", [As alças hipervariáveis pertencem exclusivamente à cadeia pesada, cabendo à leve apenas o arcabouço conservado que as sustenta na posição correta.]),
+   ("IV",  [O epítopo reconhecido por essa superfície corresponde à molécula antigênica inteira em sua conformação nativa, e não a um trecho dela.])))
 
 #questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+  [Um paciente desenvolve resposta imune contra um helminto intestinal, e a análise dos anticorpos revela predomínio de IgE com a mesma especificidade da IgM produzida na fase inicial. Sobre o que ocorreu no locus da cadeia pesada e sobre o que determinou o destino da troca, é correto afirmar:],
+  (("A", [Ocorreu hipermutação somática nas regiões constantes do locus, convertendo a sequência de Cμ na de Cε; a especificidade se manteve porque a região variável não é alvo da desaminase nesse processo.]),
+   ("B", [Ocorreu splicing alternativo do transcrito primário, que passou a incluir o éxon Cε em lugar de Cμ; o processo é reversível e a célula volta a produzir IgM quando o estímulo helmíntico cessa.]),
+   ("C", [Ocorreu novo rearranjo V(D)J utilizando segmentos V distintos, e a coincidência de especificidade entre IgM e IgE resulta de convergência estrutural entre as regiões variáveis geradas independentemente.]),
+   ("D", [Ocorreu mudança de classe por recombinação entre regiões switch, com deleção do DNA entre a montagem VDJ e Cε; a classe de destino foi determinada pelas citocinas liberadas por linfócitos T no microambiente.]),
+   ("E", [Ocorreu troca da cadeia leve de κ para λ, alteração que redefine a classe do anticorpo sem modificar o sítio de ligação, uma vez que este é formado apenas pelos domínios variáveis da cadeia pesada.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [Um linfócito B virgem, que ainda não encontrou antígeno, exibe simultaneamente IgM e IgD de mesma especificidade em sua membrana. Sobre o mecanismo responsável por essa coexpressão, é correto afirmar:],
+  (("A", [Cada uma das duas imunoglobulinas provém de um alelo diferente do locus de cadeia pesada, situação de exceção em que a exclusão alélica é suspensa para permitir a expressão de duas classes na célula virgem.]),
+   ("B", [Um único transcrito longo, contendo a montagem VDJ seguida de Cμ e Cδ, é processado por splicing alternativo, gerando mensageiros distintos sem que nenhuma deleção de DNA tenha ocorrido no locus.]),
+   ("C", [Ocorreu mudança de classe parcial, com deleção da região switch de Cμ apenas em parte das moléculas de DNA da célula, o que permite a manutenção transitória das duas classes na superfície.]),
+   ("D", [A IgD resulta da clivagem proteolítica da IgM na superfície celular, processo que remove parte da região constante μ e expõe determinantes reconhecidos como pertencentes à classe IgD.]),
+   ("E", [As duas classes provêm de dois rearranjos V(D)J independentes concluídos na mesma célula, cuja coincidência de especificidade decorre do uso obrigatório do mesmo par de segmentos V e J em ambos.])))
 
-#questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens a seguir sobre falhas na maquinaria de recombinação e reparo e suas consequências clínicas:],
+  (("I",   [A perda de função da RAG1 ou da RAG2 impede a geração da quebra de dupla fita, e o linfócito não completa o desenvolvimento por não montar seu receptor.]),
+   ("II",  [Em imunodeficiência por ausência de recombinase, as células natural killer tendem a estar preservadas, pois seus receptores não dependem de recombinação somática para serem montados.]),
+   ("III", [Mutações que apenas reduzem a atividade da recombinase abolem por completo o desenvolvimento linfoide, sendo indistinguíveis, quanto ao número de linfócitos, das mutações que a inativam totalmente.]),
+   ("IV",  [A deficiência de Artemis associa imunodeficiência a sensibilidade aumentada à radiação ionizante, porque a enzima também participa do reparo geral de quebras de dupla fita.])))
 
 #questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+  [Considere um organismo hipotético cujo locus de cadeia pesada perdeu inteiramente os segmentos D, mantendo 40 segmentos V e 6 segmentos J capazes de se unir diretamente, e cujos loci de cadeia leve permanecem intactos com 295 regiões variáveis possíveis. Sobre a diversidade combinatória resultante, é correto afirmar:],
+  (("A", [A diversidade combinatória total permaneceria em torno de 1,6 × 10⁶, pois o número de anticorpos distintos depende do emparelhamento entre cadeias e não do número de famílias de segmentos da pesada.]),
+   ("B", [A diversidade combinatória cairia a zero, porque a ausência de segmentos D impede a montagem de qualquer região variável de cadeia pesada, restando apenas as cadeias leves sem parceiro de emparelhamento.]),
+   ("C", [A diversidade combinatória subiria, pois a supressão de uma etapa de rearranjo aumenta a proporção de junções em fase de leitura e, com isso, o número absoluto de anticorpos funcionais obtidos.]),
+   ("D", [A pesada cairia de 5 520 para 240 regiões variáveis, e como o sítio se forma na interface das duas cadeias, o total cairia de cerca de 1,6 × 10⁶ para cerca de 7 × 10⁴ combinações leve-pesada.]),
+   ("E", [A diversidade combinatória seria preservada por compensação, uma vez que a perda dos segmentos D é contrabalançada pelo aumento proporcional do número de nucleotídeos inseridos sem molde na junção.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Sobre o controle da autorreatividade no linfócito B em desenvolvimento e sua relação com a exclusão alélica, assinale a alternativa *incorreta*:],
+  (("A", [A edição de receptor consiste em novo rearranjo do locus de cadeia pesada, único capaz de alterar a especificidade do receptor, uma vez que a cadeia leve não participa da formação do sítio de ligação.]),
+   ("B", [O linfócito B imaturo que reconhece com forte avidez um antígeno próprio ainda na medula óssea pode ser eliminado por apoptose antes de sair para a periferia, no processo conhecido como deleção clonal.]),
+   ("C", [Uma alternativa à eliminação é a anergia, estado em que a célula sobrevive e continua circulando pelo organismo, mas perde a capacidade de ser ativada mesmo diante do antígeno que reconhece.]),
+   ("D", [Na edição de receptor, as recombinases voltam a ser expressas e promovem novo rearranjo, o que representa a única suspensão deliberada do silenciamento que a exclusão alélica havia imposto àquela célula.]),
+   ("E", [A autorreatividade é consequência esperada de um sistema que combina segmentos ao acaso, sem qualquer consulta prévia ao conjunto de moléculas próprias, e por isso exige um filtro ativo antes da saída da medula.])))
 
-#questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+#questao-ce("24", badge-integracao,
+  [Julgue os itens a seguir sobre onde e quando cada etapa da construção do repertório acontece:],
+  (("I",   [O repertório primário é construído nos órgãos linfoides periféricos, depois que o antígeno instrui a célula B sobre qual conformação seu receptor deve assumir.]),
+   ("II",  [A hipermutação somática ocorre na medula óssea, simultaneamente ao rearranjo V(D)J, e é a principal responsável pela diversidade do repertório disponível na saída.]),
+   ("III", [A recombinação V(D)J ocorre na medula óssea e é independente de antígeno, de modo que a diversidade do repertório já está pronta quando o primeiro antígeno é encontrado.]),
+   ("IV",  [A hipermutação somática ocorre na periferia e amplia o repertório por gerar novas montagens VDJ nas células B já ativadas pelo antígeno.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+#questao-mc("25", badge-integracao,
+  [Linfomas de linhagem B frequentemente exibem translocações que aproximam um oncogene do locus de imunoglobulina. Sobre a relação entre esses eventos e os mecanismos de geração de diversidade, é correto afirmar:],
+  (("A", [As translocações decorrem de erros da maquinaria de splicing, que ocasionalmente une éxons de cromossomos diferentes e gera transcritos quiméricos posteriormente reintegrados ao DNA por transcrição reversa na célula tumoral.]),
+   ("B", [As translocações são independentes dos mecanismos de diversificação e resultam apenas do estresse replicativo característico de células B em expansão clonal, sem participação das enzimas que atuam sobre o locus de imunoglobulina.]),
+   ("C", [RAG e AID geram quebras de dupla fita programadas no locus; quando essas quebras são reparadas junto a quebras acidentais de outro cromossomo, o oncogene passa a ser transcrito sob elementos regulatórios potentes da célula B.]),
+   ("D", [As translocações resultam da perda do círculo de DNA que contém a junta-sinal, o qual, ao não ser degradado, reintegra-se ao acaso em outro cromossomo levando consigo o promotor do locus de imunoglobulina rearranjado.]),
+   ("E", [As translocações decorrem da hipermutação somática atuando fora da região variável e introduzindo mutações pontuais que criam novos sítios de recombinação homóloga entre cromossomos não homólogos na célula B ativada.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Lactente de 4 meses apresenta candidíase oral persistente, diarreia crônica e pneumonia por germe oportunista. A contagem revela ausência quase completa de linfócitos T e B, com células natural killer em número normal. As imunoglobulinas séricas estão indetectáveis. Qual defeito molecular melhor explica esse conjunto de achados?],
+  (("A", [Deficiência da desaminase induzida por ativação, que impede a maturação de afinidade e a troca de classe, deixando o paciente com IgM elevada e demais classes ausentes apesar de contagem linfocitária normal.]),
+   ("B", [Deficiência da desoxinucleotidil-transferase terminal, que abole a inserção de nucleotídeos sem molde na junção e reduz drasticamente o número de linfócitos T e B maduros circulantes no sangue periférico.]),
+   ("C", [Deficiência de ligase IV restrita à linhagem linfoide, que preserva a formação da quebra e a abertura do grampo mas impede a expressão de moléculas de classe II na superfície das células apresentadoras.]),
+   ("D", [Bloqueio da via de sinalização do receptor de interleucina, que impede a proliferação dos progenitores linfoides e cursa tipicamente com ausência também das células natural killer no sangue periférico.]),
+   ("E", [Perda de função de RAG1 ou RAG2, que impede a quebra de dupla fita e o rearranjo V(D)J; sem receptor montado, linfócitos T e B não se desenvolvem, enquanto as natural killer, que não recombinam, permanecem.])))
 
-#questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+#questao-ce("27", badge-aplicacao,
+  [Menino de 6 anos tem infecções bacterianas sinopulmonares de repetição. A dosagem mostra IgM muito elevada, com IgG, IgA e IgE indetectáveis. A contagem de linfócitos B é normal e os linfonodos apresentam centros germinativos aumentados. Julgue os itens:],
+  (("I",   [O quadro é compatível com falha na recombinação V(D)J, uma vez que a ausência de três classes indica que o rearranjo do locus de cadeia pesada não foi concluído na medula óssea.]),
+   ("II",  [A IgM elevada com demais classes ausentes é compatível com defeito na desaminase induzida por ativação, que impede a recombinação entre regiões switch.]),
+   ("III", [A mesma deficiência enzimática compromete também a hipermutação somática, de modo que os anticorpos produzidos tendem a permanecer de baixa afinidade.]),
+   ("IV",  [A presença de linfócitos B em número normal é coerente com um defeito situado a jusante do desenvolvimento na medula, em etapa dependente de ativação periférica.])))
 
-#questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+#questao-mc("28", badge-aplicacao,
+  [Recém-nascido com imunodeficiência combinada grave é submetido a exame de imagem e, semanas depois, apresenta toxicidade tecidual desproporcional à dose de radiação recebida. Cultura de fibroblastos do paciente mostra reparo deficiente de quebras de dupla fita induzidas por radiação. Qual defeito melhor concilia a imunodeficiência com a radiossensibilidade?],
+  (("A", [Perda de função de RAG1, cuja atividade é restrita a linfócitos mas cuja ausência compromete indiretamente o reparo de quebras em fibroblastos por acúmulo de sinais não resolvidos de dano ao DNA.]),
+   ("B", [Perda de função da nuclease Artemis, que abre o grampo na recombinação V(D)J e também participa do reparo geral de quebras de dupla fita — daí a imunodeficiência somar-se à radiossensibilidade.]),
+   ("C", [Perda de função da desoxinucleotidil-transferase terminal, expressa em linfócitos em desenvolvimento e também recrutada para o preenchimento de extremidades em qualquer quebra induzida por radiação.]),
+   ("D", [Perda de função da desaminase induzida por ativação, que atua na troca de classe e cuja ausência gera acúmulo de uracila no DNA de todos os tecidos, tornando-os sensíveis à radiação ionizante.]),
+   ("E", [Perda de função das sequências-sinal de recombinação por mutação no heptâmero, o que impede a sinapse nos linfócitos e desestabiliza a cromatina de células somáticas expostas a radiação ionizante.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Biópsia de linfonodo de paciente jovem mostra linfoma de células B com alto índice proliferativo. A citogenética revela translocação que justapõe um oncogene ao locus de cadeia pesada de imunoglobulina, com ponto de quebra situado em uma região switch. Qual explicação mecanística é a mais adequada?],
+  (("A", [A translocação decorre de erro da recombinação homóloga entre os dois cromossomos 14 durante a fase de síntese, e o ponto de quebra em região switch é achado incidental sem relação com a linhagem.]),
+   ("B", [A translocação decorre de inserção do círculo de DNA gerado na recombinação V(D)J em outro cromossomo, o que transporta consigo o oncogene para as proximidades do locus de imunoglobulina.]),
+   ("C", [A quebra foi gerada pela desaminase induzida por ativação durante a troca de classe; reparada junto a uma quebra em outro cromossomo, deixou o oncogene sob os potentes elementos regulatórios do locus de imunoglobulina.]),
+   ("D", [A quebra foi gerada pela desoxinucleotidil-transferase terminal ao inserir nucleotídeos sem molde em região switch, o que fragilizou a dupla-hélice e favoreceu a recombinação ilegítima entre cromossomos distintos.]),
+   ("E", [A translocação precede o desenvolvimento linfoide e está presente em todas as células do paciente, sendo o ponto de quebra em região switch consequência da transcrição ativa do locus na célula tumoral.])))
 
-#questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+#questao-ce("30", badge-aplicacao,
+  [Paciente recebe uma segunda dose de vacina contra um mesmo antígeno. Comparados aos da primeira exposição, os anticorpos da resposta secundária apresentam afinidade muito maior e predomínio de IgG sobre IgM. Julgue os itens:],
+  (("I",   [O aumento de afinidade decorre de hipermutação somática seguida de seleção das células B cujo receptor mutado liga melhor o antígeno.]),
+   ("II",  [O predomínio de IgG indica que a região variável dos anticorpos foi substituída por outra, de maior afinidade, durante a mudança de classe.]),
+   ("III", [A troca de IgM para IgG amplia o repertório de especificidades disponível contra aquele antígeno, por gerar novas combinações VDJ na célula B ativada.]),
+   ("IV",  [Como a resposta secundária é mais potente, conclui-se que a vacina criou no repertório especificidades que não existiam antes da primeira imunização.])))

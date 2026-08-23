@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- biomol-recombinacao-vdj-imunoglobulinas | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,36 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Geração de diversidade de anticorpos",
+  "Biologia Molecular",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Biologia Molecular"),
+    ("Onde estudar", "Alberts · Molecular Biology of the Cell (6ª ed.), cap. 24 · Watson · Molecular Biology of the Gene (7ª ed.), cap. 12 · Krebs · Lewin's Genes XI, cap. 18"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O desafio: um repertório maior que o genoma", (
+      "1.1 O que o anticorpo reconhece",
+      "1.2 Onde mora a variabilidade",
+      "1.3 Classe e função efetora",
+      "1.4 O paradoxo e a hipótese",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A máquina: a recombinação V(D)J", (
+      "2.1 O locus em segmentos",
+      "2.2 A conta da combinatória",
+      "2.3 RSS e a regra 12/23",
+      "2.4 As recombinases RAG cortam",
+      "2.5 A junção não homóloga costura",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Ampliar a diversidade, e pagar por ela", (
+      "3.1 Diversidade juncional",
+      "3.2 Exclusão alélica",
+      "3.3 Hipermutação somática",
+      "3.4 Mudança de classe",
+      "3.5 O preço do sistema",
     )),
   )),
 ))
@@ -57,39 +60,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("01", "C"),
+    ("02", "A"),
+    ("03", "CEEC"),
     ("04", "D"),
     ("05", "B"),
-    ("06", "CECC"),
+    ("06", "ECCE"),
     ("07", "E"),
     ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("09", "D"),
+    ("10", "CCEE"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
+    ("11", "A"),
+    ("12", "EECC"),
+    ("13", "B"),
+    ("14", "E"),
+    ("15", "CECC"),
+    ("16", "A"),
+    ("17", "C"),
+    ("18", "ECEE"),
+    ("19", "D"),
+    ("20", "B"),
+    ("21", "CCEC"),
     ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("23", "A"),
+    ("24", "EECE"),
+    ("25", "C"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "E"),
+    ("27", "ECCC"),
+    ("28", "B"),
+    ("29", "C"),
+    ("30", "CEEE"),
   )),
 ))

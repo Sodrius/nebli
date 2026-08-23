@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("O problema em uma conta",
+   [Um epítopo tem 10 a 12 aminoácidos, e há cerca de 10¹³ superfícies possíveis desse tamanho. O corpo produz mais de 10¹² anticorpos com um genoma de 25 000 genes — logo, a diversidade é fabricada, não armazenada.]),
+
+  ("A molécula e onde ela varia",
+   [O anticorpo é um Y de duas pesadas e duas leves idênticas. A região variável, nas pontas, forma o sítio na interface entre os domínios variáveis das duas cadeias; a constante, na haste, define a classe e a função efetora, sem tocar na especificidade.]),
+
+  ("Segmentos no DNA, splicing no RNA",
+   [A região variável existe no genoma herdado como coleções de peças — V e J na leve, V, D e J na pesada. A célula B corta o DNA e deleta o que fica entre as peças escolhidas, reescrevendo o cromossomo; o splicing vem depois, no transcrito, e só remove o que sobrou até o C.]),
+
+  ("A conta da combinatória",
+   [Leve: 35 × 5 = 175 regiões κ, mais 120 λ, somando 295. Pesada: 40 × 23 × 6 = 5 520. Como qualquer leve emparelha com qualquer pesada, 295 × 5 520 ≈ 1,6 × 10⁶ — ainda um milhão de vezes menos que o repertório real.]),
+
+  ("A regra 12/23 impede a junção errada",
+   [Cada segmento é flanqueado por heptâmero, espaçador e nonâmero. Só recombina um espaçador de 12 com um de 23, porque equivalem a uma e a duas voltas da hélice e alinham os blocos conservados na mesma face do DNA.]),
+
+  ("Cortar em grampo, costurar sem molde",
+   [RAG1 e RAG2 reúnem os dois sinais num só complexo e cortam uma fita; a hidroxila liberada ataca a fita oposta e fecha a extremidade codificante num grampo. Ku, DNA-PKcs, Artemis e a ligase IV então abrem o grampo e colam as pontas.]),
+
+  ("A imprecisão é a maior fonte de diversidade",
+   [Aparo de bases, nucleotídeos P vindos da abertura assimétrica do grampo e nucleotídeos N inseridos sem molde pela TdT tornam cada junção única e criam a CDR3. O preço é que só um terço dos rearranjos mantém a fase de leitura.]),
+
+  ("Duas junções, dois destinos",
+   [A junta codificante, imprecisa, fica no cromossomo e vira a região variável daquela célula. A junta-sinal, precisa, sai num círculo de DNA sem origem de replicação e se dilui até desaparecer nas divisões seguintes.]),
+
+  ("Exclusão alélica: o sucesso desliga a máquina",
+   [O rearranjo produtivo gera uma cadeia expressa na membrana que sinaliza o desligamento das recombinases, deixando o segundo alelo intacto. A ordem é fixa — pesada primeiro, leve depois — e garante uma única especificidade por célula.]),
+
+  ("AID: mesma enzima, dois destinos opostos",
+   [Na região variável, a AID desamina citosina e o reparo converte isso em mutação pontual: é a hipermutação, que muda a afinidade. Nas regiões switch, ela dispara quebras que deletam constantes inteiras: é a mudança de classe, que muda a função e não gera diversidade.]),
 ))

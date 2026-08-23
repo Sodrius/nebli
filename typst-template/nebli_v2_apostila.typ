@@ -114,8 +114,14 @@
 // ======= Banner de etapa =======
 // Caixa navy com cantos arredondados (apostila moderna, não bandeira chapada).
 #let etapa-header(titulo) = {
-  pagebreak(weak: true)
+  // set-etapa ANTES do pagebreak (2026-08-23): o header da pagina resolve o
+  // state no TOPO da pagina; um update feito depois do pagebreak so seria
+  // visto pela pagina seguinte, e a primeira pagina de cada etapa saia com o
+  // header da etapa anterior (ERROR de auditar_pdf_visual, transicao
+  // resumindo->etapa2). Backup do original em
+  // backups/tecnicos/nebli_v2_apostila.typ.bak-2026-08-23-header-sync
   set-etapa(titulo)
+  pagebreak(weak: true)
   block(
     fill: navy, inset: (x: 20pt, y: 14pt), width: 100%, radius: 4pt,
     text(font: titulo-fam, size: 17pt, weight: "bold", fill: white, tracking: 0.5pt, titulo)
