@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- geriatria-envelhecimento-celular-tecidual | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,47 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Envelhecimento celular e tecidual",
+  "Geriatria · Patologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Geriatria e Patologia — Ciclo da Vida I"),
+    ("Onde estudar", "Robbins, Bases Patológicas das Doenças — cap. 1 (lesão celular e envelhecimento) · Jacob Filho & Kikuchi, Geriatria e Gerontologia Básicas"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O que envelhece primeiro é a margem", (
+      "1.1 Senescência e senilidade",
+      "1.2 Reserva funcional e homeostenose",
+      "1.3 O retrato externo da senescência",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Os quatro motores celulares", (
+      "2.1 Quatro entradas, um destino",
+      "2.2 Radicais livres e dano ao DNA",
+      "2.3 Telômeros e o relógio das divisões",
+      "2.4 Proteínas danificadas e o freio metabólico",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Do dano celular ao corpo do idoso", (
+      "3.1 Três engrenagens em todo aparelho",
+      "3.2 Pulmão e coração",
+      "3.3 Cérebro e rim",
+    )),
+  )),
+  ("Resumindo", (
+    (none, (
+      "Dez cápsulas de revisão rápida",
+    )),
+  )),
+  ("Etapa 2 — 30 questões objetivas", (
+    (none, (
+      "Consolidação, integração e aplicação",
+    )),
+  )),
+  ("Etapa 3 — 5 discursivas", (
+    (none, (
+      "Cadeias mecanísticas com resposta-modelo",
     )),
   )),
 ))
@@ -57,39 +71,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("01", "C"),
+    ("02", "CECC"),
+    ("03", "A"),
     ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
+    ("05", "ECCE"),
+    ("06", "B"),
     ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("08", "CCEC"),
+    ("09", "C"),
+    ("10", "A"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("11", "D"),
+    ("12", "EECC"),
+    ("13", "CEEC"),
+    ("14", "B"),
+    ("15", "CCEE"),
+    ("16", "E"),
+    ("17", "C"),
+    ("18", "ECCC"),
+    ("19", "A"),
+    ("20", "D"),
+    ("21", "CEEE"),
+    ("22", "A"),
+    ("23", "E"),
+    ("24", "EECC"),
+    ("25", "C"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "A"),
+    ("27", "D"),
+    ("28", "ECCE"),
+    ("29", "B"),
+    ("30", "C"),
   )),
 ))
