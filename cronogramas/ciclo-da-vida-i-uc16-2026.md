@@ -43,4 +43,5 @@
 ## Estado NEBLI
 - **Aula 1** (Brentani) — ✅ resumo gerado: `PEDIATRIA-01-DESENVOLVIMENTO-PRIMEIRA-INFANCIA` · deck `NEBLI::Ciclo da Vida I::Pediatria::…` (16 marcos AnKing + fila NEBLIcards).
 - Aulas 2-8 — pendentes.
+- **Vídeo-aula de Patologia "Envelhecimento Celular e Tecidual"** (Prof. Luiz Fernando Ferraz da Silva) — ✅ resumo gerado: `GERIATRIA-ENVELHECIMENTO-CELULAR-TECIDUAL` (Etapas 1 a 3). Não é aula do cronograma: é material complementar que sustenta as aulas 5 (Senescência e senilidade) e 7 (Teorias do Envelhecimento). Deck-aula **pendente** (corrida feita em sessão remota, sem Anki vivo).
 - **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - <sigla docente>`; árvore de deck `NEBLI::Ciclo da Vida I::<Pediatria|Geriatria>::<aula>`. Prova única → sem nível de prova na árvore (ou usar `PF`).

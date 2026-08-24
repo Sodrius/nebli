@@ -1,0 +1,58 @@
+slug: geriatria-envelhecimento-celular-tecidual
+titulo: "Envelhecimento Celular e Tecidual"
+subtitulo: "Geriatria — Ciclo da Vida I"
+meta:
+  - ["Disciplina", "Geriatria — Ciclo da Vida I (UC-16) · Patologia"]
+  - ["Onde estudar", "Robbins & Cotran · Patologia — Bases Patológicas das Doenças (cap. Envelhecimento celular) · Jacob Filho & Kikuchi · Geriatria e Gerontologia Básicas (Elsevier) · Kane · Essentials of Clinical Geriatrics (8ª ed.)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Envelhecer é perder margem, não perder função"
+        subtopicos:
+          - "1.1 Senescência e senilidade"
+          - "1.2 A reserva funcional"
+          - "1.3 Homeostenose e descompensação"
+      - titulo: "PARTE II — Os quatro mecanismos celulares"
+        subtopicos:
+          - "2.1 Dano ao DNA e radicais livres"
+          - "2.2 Telômeros e o relógio mitótico"
+          - "2.3 Proteínas e nutrientes"
+      - titulo: "PARTE III — Do mecanismo ao corpo"
+        subtopicos:
+          - "3.1 Aspectos gerais e respiratório"
+          - "3.2 Sistema nervoso"
+          - "3.3 Cardiovascular, renal e locomotor"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "CEEC"]
+    - ["04", "A"]
+    - ["05", "E"]
+    - ["06", "ECCE"]
+    - ["07", "C"]
+    - ["08", "D"]
+    - ["09", "CCEE"]
+    - ["10", "A"]
+  integracao:
+    - ["11", "E"]
+    - ["12", "B"]
+    - ["13", "CCEC"]
+    - ["14", "C"]
+    - ["15", "E"]
+    - ["16", "EECC"]
+    - ["17", "A"]
+    - ["18", "D"]
+    - ["19", "CEEE"]
+    - ["20", "B"]
+    - ["21", "C"]
+    - ["22", "CECC"]
+    - ["23", "E"]
+    - ["24", "E"]
+    - ["25", "EECE"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "ECEE"]
+    - ["28", "D"]
+    - ["29", "B"]
+    - ["30", "CCCE"]

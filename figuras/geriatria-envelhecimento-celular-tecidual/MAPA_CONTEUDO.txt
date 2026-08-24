@@ -1,0 +1,30 @@
+# MAPA_CONTEUDO -- geriatria-envelhecimento-celular-tecidual
+# Slide-fonte: envelhecimento-celular-tecidual.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: burns@usp.br Envelhecimento Celular e Tecidual Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-02: burns@usp.br Definições • Redução da capacidade adaptativa e diminuição da reserva funcional Senescência Efeitos celulares, anatômicos e funcionais naturais do processo de envelhecimento – redução da reserva funcional Senilidade Alterações produzidas...
+slide-03: burns@usp.br O conceito de Reserva Funcional Banks SE – Anesthesiology Clin 2003
+slide-04: burns@usp.br Mecanismos Gerais Robbins, Pathologic basis of disesases – 9th edition
+slide-05: burns@usp.br Mecanismos Gerais Robbins, Pathologic basis of disesases – 9th edition
+slide-06: burns@usp.br Telômeros Robbins, Pathologic basis of disesases – 9th edition
+slide-07: burns@usp.br Mecanismos Gerais Robbins, Pathologic basis of disesases – 9th edition
+slide-08: burns@usp.br Radicais Livres
+slide-09: burns@usp.br Mecanismos Gerais Robbins, Pathologic basis of disesases – 9th edition
+slide-10: burns@usp.br Mecanismos Gerais Robbins, Pathologic basis of disesases – 9th edition
+slide-11: burns@usp.br Síndrome de Werner
+slide-12: burns@usp.br Aspectos Gerais • Perda de estatura – 1 cm por década • Aumento de peso • Diminuição água corporal • Perda de pelos • Perda de turgor e elasticidade cutâneos • Alteração de olfato e gustação • Presbiopia e presbiacusia
+slide-13: burns@usp.br Aparelho Respiratório • Redução da expansibilidade torácica • Redução da eficiência do transporte mucociliar • Redução do reflexo de tosse • Alterações de volume residual • Redução da elasticidade pulmonar
+slide-14: burns@usp.br Aparelho Respiratório
+slide-15: burns@usp.br Sistema Nervoso • Redução do número de neurônios e peso cerebral • Redução da condução nervosa • Redução de neurotransmissores
+slide-16: burns@usp.br Sistema Nervoso
+slide-17: burns@usp.br Aparelho Cardiovascular • Espessamento valvar • Diminuição complacência ventricular • Diminuição da frequência cardíaca • Aumento rigidez da parede vascular
+slide-18: burns@usp.br Aparelho Urinário • Redução do fluxo renal – 1% ao ano após os 50 • Redução da capacidade de modificação da [ ] urinária • Redução da filtração glomerular
+slide-19: burns@usp.br Aparelho Locomotor • Redução de até 50% nas fibras musculares • Fragmentação e degeneração de fibras elásticas • Redução progressiva da massa óssea – osteopenia • Redução hidratação de cartilagens
+slide-20: burns@usp.br Aparelho Locomotor • Redução do débito cardíaco • Diminuição da complacência e freqüência cardíaca • Rigidez vascular e aterosclerose
+slide-21: burns@usp.br Resumo J. Intens. Care Med. 16: 114–127, 2001
+slide-22: [VISUAL -- usar adjacente com titulo extraivel]
