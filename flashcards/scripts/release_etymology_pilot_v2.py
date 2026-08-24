@@ -8,7 +8,7 @@ import json
 import time
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 ETIM = Path(__file__).resolve().parents[1] / "etimologia"
 PILOT = ETIM / "cards" / "cards_pilot_v2.json"

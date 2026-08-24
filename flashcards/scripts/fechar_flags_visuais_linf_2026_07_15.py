@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from anki import call
+from nebli_anki import call
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "arquivos-trabalho" / "mutirao-qualidade" / "feedback"

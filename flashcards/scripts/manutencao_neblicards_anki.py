@@ -16,7 +16,7 @@ import argparse
 import re
 import sys
 
-from anki import call
+from nebli_anki import call
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")

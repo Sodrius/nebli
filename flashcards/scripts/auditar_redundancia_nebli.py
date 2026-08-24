@@ -13,7 +13,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")

@@ -5,7 +5,7 @@ import argparse
 import datetime as dt
 import json
 from pathlib import Path
-from anki import call
+from nebli_anki import call
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--query", default="deck:NEBLI::* -deck:NEBLI::STAGING::*")

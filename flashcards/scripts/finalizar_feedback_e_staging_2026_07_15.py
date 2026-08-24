@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from anki import call
+from nebli_anki import call
 
 STAMP = "2026-07-15"
 ROOT = Path("arquivos-trabalho/mutirao-qualidade")

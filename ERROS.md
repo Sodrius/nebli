@@ -146,6 +146,16 @@
 
 ---
 
+### 21. Módulo local com nome de biblioteca (`anki.py` sombreando a lib `anki`)
+
+**Sintoma (2026-08-24):** `flashcards/scripts/anki.py` (o helper do AnkiConnect) tornava a lib oficial `anki` **impossível de importar** por qualquer script daquela pasta — o Python resolve `import anki` pelo `sys.path[0]`, que é o diretório do script, antes de chegar em `site-packages`. O erro não aparece enquanto ninguém precisa da lib; explodiu só quando o backend de coleção passou a precisar dela, e o traceback aponta para um `ImportError` circular confuso, não para o nome duplicado.
+
+**Como evitar:** nenhum arquivo em `flashcards/scripts/` (nem em qualquer pasta que vire `sys.path[0]`) pode ter o nome de um pacote instalado — `anki.py`, `json.py`, `typing.py`, `email.py`. O helper virou `nebli_anki.py` justamente por isso. Diagnóstico rápido quando um import de lib falhar sem explicação: `python3 -c "import X; print(X.__file__ or X.__path__)"` de dentro da pasta do script — se apontar para o repo em vez de `dist-packages`, é sombra de nome. Cuidado com o falso alarme inverso: `__file__` vindo `None` é normal em *namespace package* (é o caso da lib `anki`); quem decide é o `__path__`.
+
+**Armadilha irmã (mesma origem):** a lib `anki` tem import circular interno — `from anki.collection import Collection` precisa vir **antes** de `anki.decks`/`anki.models`/`anki.cards`, senão o erro é `cannot import name 'Card' from partially initialized module`.
+
+---
+
 ## § Erros que viram CHECK no pipeline (auditoria automática)
 
 | # | Erro | Detecção | Auto-fix? | Bloqueio |

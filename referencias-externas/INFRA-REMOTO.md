@@ -1,8 +1,39 @@
 # Infra remota — deck sempre-on, controle pelo celular, emails do monitor
 
-Objetivo do Davi: mexer no deck **sem o Anki aberto**, controlar o Claude Code **pelo celular** de fora de casa, e receber os **emails do monitor** todo dia. Restrição dura confirmada: o AnkiConnect exige uma instância Anki rodando, e agentes na nuvem da Anthropic **não** alcançam o `localhost` do PC. Logo, tudo que fala com o deck roda **no próprio PC** (Docker + Task Scheduler); a nuvem não serve.
+Objetivo do Davi: mexer no deck **sem o Anki aberto**, controlar o Claude Code **pelo celular** de fora de casa, e receber os **emails do monitor** todo dia.
 
-Três peças independentes — pode ligar uma de cada vez.
+> **Atualização 2026-08-24 — a premissa mudou.** Este documento nascia de uma restrição que parecia dura: "o AnkiConnect exige uma instância Anki rodando, agentes na nuvem não alcançam o `localhost` do PC, logo a nuvem não serve". A primeira metade continua verdadeira — a nuvem realmente não alcança o seu PC. A conclusão, não: o caminho não é a nuvem chegar ao AnkiConnect, é **a nuvem ter a própria coleção**, sincronizada pelo AnkiWeb. Ver § 0. As três peças abaixo seguem válidas para o que roda no PC.
+
+## 0. Caminho da nuvem — coleção via AnkiWeb (§ novo, 2026-08-24)
+
+Uma sessão do Claude Code na nuvem (tablet, celular, web) opera a coleção **diretamente**, com o PC desligado: baixa a coleção do AnkiWeb pela lib oficial `anki`, faz curadoria AnKing e deck injection, e devolve as mudanças no sync. Três peças em `flashcards/scripts/`:
+
+| Peça | Papel |
+|---|---|
+| `anki_collection_backend.py` | Opera a coleção pela lib `anki` + sync AnkiWeb. Mesma superfície do AnkiConnect (36 ações). |
+| `ankiconnect_local.py` | Sobe um **AnkiConnect emulado** em `127.0.0.1:8765` sobre esse backend. É o que faz os ~31 scripts com `urllib` próprio funcionarem sem edição. |
+| `nebli_anki.py` | O helper `call()` de sempre (era `anki.py`), agora com dois transportes e escolha automática. |
+
+```bash
+pip install anki                                    # 1x por sessão na nuvem
+python flashcards/scripts/ankiconnect_local.py &    # a porta 8765 passa a existir
+# daqui em diante todo script do NEBLI roda como se o Anki estivesse aberto
+python flashcards/scripts/testar_backend_anki.py    # 38 checagens, coleção descartável
+```
+
+**Credencial (env var do environment, nunca no git):** `ANKIWEB_HKEY` — token de sync, não a senha, revogável trocando a senha do AnkiWeb. Alternativa `ANKIWEB_USER`/`ANKIWEB_PASS`: o primeiro login imprime o hkey para guardar, e a senha não é mais necessária. Mesma mecânica de `NEBLI_DRIVE_SA_JSON` — configurada uma vez, vale para todas as sessões futuras.
+
+**Regra de segurança dura:** um sync que exigiria `FULL_UPLOAD` ou `FULL_SYNC` **aborta com mensagem explicativa**. A sessão na nuvem nunca decide sozinha qual lado da coleção sobrevive. `FULL_DOWNLOAD` só é aceito quando a coleção local está vazia (servidor → cliente, seguro). Antes de operar pela nuvem: sincronize o PC/celular, e não revise em outro lugar enquanto a sessão trabalha.
+
+**Mídia:** o sync é sem mídia por padrão (rápido). Image Occlusion e `.apkg` com figuras exigem `NEBLI_ANKI_SYNC_MEDIA=1` — pesado, e o `exportPackage` avisa quando exporta sem mídia.
+
+**Ganho lateral:** o `guid` das notas, que o AnkiConnect **não** expõe no `notesInfo`, aparece aqui. O casamento card-a-card do apply deixa de depender do texto bruto do campo 1 (`raw0`) e vira identidade exata — some a perda de 1–2 cards quando o AnKing atualiza um texto.
+
+Outras variáveis: `NEBLI_ANKI_DIR` (onde mora a coleção, default `~/.nebli-anki`), `NEBLI_ANKI_BACKEND` (`connect|collection|auto`), `NEBLI_ANKI_AUTOSYNC=0`, `NEBLI_ANKI_OFFLINE=1` (testes, sem rede).
+
+---
+
+As três peças abaixo continuam sendo o caminho do **PC** — pode ligar uma de cada vez.
 
 ## 1. Anki headless em Docker (o "sem Anki aberto")
 Roda o Anki como serviço permanente, sem janela, com AnkiConnect na 8765 e sync com o AnkiWeb (o celular vê as mudanças pelo app AnkiDroid/AnkiMobile).

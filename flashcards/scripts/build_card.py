@@ -31,7 +31,7 @@ import os
 import re
 import sys
 
-from anki import call
+from nebli_anki import call
 from PIL import Image
 
 MODEL = "AnKingOverhaul (AnKing Step Deck / AnKingMed)"

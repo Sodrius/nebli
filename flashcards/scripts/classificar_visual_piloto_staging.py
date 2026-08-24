@@ -7,7 +7,7 @@ import argparse
 import json
 from collections import defaultdict
 
-from anki import call
+from nebli_anki import call
 
 
 QUERY = "tag:NEBLI::mutirao_piloto"

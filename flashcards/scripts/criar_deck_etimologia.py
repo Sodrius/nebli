@@ -14,7 +14,7 @@ import argparse
 import json
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 
 ROOT = Path(__file__).resolve().parents[1]

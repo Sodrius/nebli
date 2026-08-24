@@ -3,7 +3,7 @@
 """Corrige os únicos excessos de Extra e uma generalização histórica legada."""
 from __future__ import annotations
 
-from anki import call
+from nebli_anki import call
 
 FIXES = {
     1784227543173: {

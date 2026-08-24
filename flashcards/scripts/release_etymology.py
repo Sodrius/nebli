@@ -22,7 +22,7 @@ import json
 import time
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 ETIM = Path(__file__).resolve().parents[1] / "etimologia"
 DEFAULT_LOTE = ETIM / "cards" / "lote-00.json"

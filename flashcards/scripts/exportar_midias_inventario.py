@@ -11,7 +11,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from anki import call
+from nebli_anki import call
 
 
 def main() -> None:

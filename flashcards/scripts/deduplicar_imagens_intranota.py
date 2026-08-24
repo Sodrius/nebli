@@ -16,7 +16,7 @@ import re
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-from anki import call
+from nebli_anki import call
 
 IMG_RE = re.compile(r"<img\b[^>]*\bsrc\s*=\s*(['\"])(.*?)\1[^>]*>", re.I | re.S)
 FIELDS = ("Text", "Texto", "Front", "Question", "Pergunta", "Extra", "Back Extra", "Remarks", "Explicacao", "Explicação")

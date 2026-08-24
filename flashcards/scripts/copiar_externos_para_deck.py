@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from anki import call  # noqa: E402
+from nebli_anki import call  # noqa: E402
 
 
 def norm_html(s):

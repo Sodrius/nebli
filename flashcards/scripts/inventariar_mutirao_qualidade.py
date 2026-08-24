@@ -16,7 +16,7 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)

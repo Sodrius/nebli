@@ -10,7 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 
 def fields_plain(note: dict) -> dict[str, str]:

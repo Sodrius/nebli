@@ -12,7 +12,7 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 ETIM = Path(__file__).resolve().parents[1] / "etimologia"
 PAYLOAD = ETIM / "cards" / "cards_approved_v3.json"

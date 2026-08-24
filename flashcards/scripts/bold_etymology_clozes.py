@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse
 import re
 
-from anki import call
+from nebli_anki import call
 
 QUERY = 'deck:"NEBLI::Etimologia"'
 CLOZE_RE = re.compile(r"\{\{c\d+::.*?\}\}", re.S)

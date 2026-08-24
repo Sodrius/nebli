@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 QUERY = 'deck:"NEBLI::Etimologia"'
 LABEL = "<b>Etimologia.</b> "

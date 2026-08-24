@@ -16,7 +16,7 @@ from pathlib import Path
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from anki import call
+from nebli_anki import call
 
 STAMP = "2026-07-15"
 OUT = Path("arquivos-trabalho/mutirao-qualidade/feedback")

@@ -9,7 +9,7 @@ Uso:
 """
 import argparse, base64, json, os, sys
 from pathlib import Path
-from anki import call
+from nebli_anki import call
 from validar_manifesto_visual import validate as validate_visual
 
 MODEL = "IO-one by one (AnKing Step Deck / AnKingMed)"

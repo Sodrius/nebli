@@ -10,7 +10,7 @@ import json
 import re
 from pathlib import Path
 
-from anki import call
+from nebli_anki import call
 
 STAMP = "2026-07-15"
 
