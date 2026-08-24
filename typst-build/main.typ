@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- imuno-02-mecanismos-efetores | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,37 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Mecanismos efetores do sistema imune",
+  "Imunologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Imunologia"),
+    ("Onde estudar", "Abbas — Imunologia Celular e Molecular, caps. 4, 6, 10 e 11 · Barbuto, Wastowski, Carneiro-Sampaio e Donadi — Imunologia Básica para o Clínico"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Reconhecer antes de agir", (
+      "1.1 O arco do reconhecimento",
+      "1.2 PAMPs, DAMPs e os três endereços do receptor",
+      "1.3 NOD, inflamassoma e piroptose",
+      "1.4 Citocinas, quimiocinas e a saída do vaso",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Os efetores da imunidade inata", (
+      "2.1 Barreiras e peptídeos antimicrobianos",
+      "2.2 Fagocitose e opsonização",
+      "2.3 Burst oxidativo e óxido nítrico",
+      "2.4 O neutrófilo, do rolamento à NETose",
+      "2.5 Células NK e citotoxicidade por anticorpo",
+      "2.6 Macrófagos: um tipo, três programas",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Os efetores da imunidade adaptativa", (
+      "3.1 Do linfonodo aos três sinais",
+      "3.2 Polarização do CD4: Th1, Th2, Th17",
+      "3.3 O CD4 que reprograma o macrófago",
+      "3.4 O linfócito T citotóxico",
+      "3.5 Equilíbrio, homeostasia e memória",
     )),
   )),
 ))
@@ -57,39 +61,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("01", "C"),
+    ("02", "CECC"),
+    ("03", "A"),
     ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("05", "ECCC"),
+    ("06", "E"),
+    ("07", "B"),
+    ("08", "CCEC"),
+    ("09", "D"),
+    ("10", "EECC"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
+    ("11", "A"),
+    ("12", "E"),
+    ("13", "CEEC"),
+    ("14", "B"),
+    ("15", "C"),
+    ("16", "CCEE"),
+    ("17", "E"),
+    ("18", "A"),
+    ("19", "CCCE"),
+    ("20", "D"),
+    ("21", "C"),
+    ("22", "CEEE"),
     ("23", "B"),
     ("24", "E"),
-    ("25", "ECCC"),
+    ("25", "EECC"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "A"),
+    ("27", "D"),
+    ("28", "ECEE"),
+    ("29", "B"),
+    ("30", "C"),
   )),
 ))

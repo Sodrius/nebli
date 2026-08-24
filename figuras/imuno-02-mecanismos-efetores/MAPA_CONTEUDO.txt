@@ -1,0 +1,72 @@
+# MAPA_CONTEUDO -- imuno-02-mecanismos-efetores
+# Slide-fonte: imuno-mecanismos-efetores.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Mecanismos Efetores do Sistema Imune (celulares e acelulares) Niels Olsen Niels@icb.usp.br 30917388
+slide-02: Sistema Imune como um Sistema de Reconhecimento Alteração de Homeostasia Perigo/Não próprio Próprio (autoantígenos) Retorno ao Normal – Lesão tecidual Resposta do Sistema Imune
+slide-03: Sistema de Reconhecimento Perigo (Alarmina) Receptor Função efetora Imediata Tardia (transcrição gênica) Ativação Diferenciação Degranulação Migração Células Moléculas Sinalizadores Fatores de Transcrição Organelas Mudanças em metabolismo
+slide-04: Sistema de Reconhecimento
+slide-05: Virus Bactéria Protozoários Fungos Helmintos Anticorpos Naturais IgM lectinas tipo C: MBL Modificado de Köhl 2006 Receptores de reconhecimento de PAMPs (produtos moleculares associados aos patógenos) PCR DAMPs: Produtos associados ao Perigo (danger) ...
+slide-06: Receptores de Padrões moleculares associados aos patógenos Solúveis Associados a membrana Intra-citoplasmático PCR C1q MBL TLR NLR Ø Determinados na linhagem germinativa Ø Especificidade limitada Ø Reconhecem padrões moleculares conservados associado...
+slide-07: Homólogas ao Toll Receptores semelhantes ao Toll (TRL) Humanos Mosca
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: Família de receptores citosólicos NOD
+slide-10: Família de receptores citosólicos NOD Bactérias Gram + Bactérias Gram - Peptideoglicanos DAP (ácido diaminopimélico) MDP (muramil dipeptídeo) NOD 1 NOD 2
+slide-11: Inflamassoma Dois receptores Proteína adaptadora Enzima - caspase Mudança conformacional Caspase ativada – IL1beta ativada Morte celular (Piroptose)
+slide-12: Quem faz o reconhecimento?
+slide-13: Sistema Imune: células, moléculas e órgãos Citocinas: TNFa, IFN gama, IFN a/b, IL-2 Quimiocinas: MCP-1 Mediadores inflamatórios: PCR, Proteína Amilóide Mediadores metabólicos: Sucinato
+slide-14: Células presentes no processo inflamatório Mastócito Mastócito de mucosa Mastócito de tecido conjuntivo Neutrófilo Eosinófilo Basófilo Monócito Linfócito Plaquetas
+slide-15: Receptor Fc de Ig Dectina-1 Receptor de manose Receptor “scavenger” TLR Receptor de C3b (CR1) Reconhecimento por células
+slide-16: Citocinas e Quimiocinas http://estacio.webaula.com.br/cursos/go0070/aula7.html https://luiufu.blogspot.com/2017/10/qual-o-papel-das-quimiocinas.html
+slide-17: o o o o o o o o o o o o o o o o o LTB4 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 LTB4 LTB4 LTB4 LTB4 LTB4 LTB4 LTB4 alérgeno LTB4 LTB4 eotaxina eotaxina eotaxina eotaxina PAF PAF PAF PAF PAF Migração leucocitária induzida ...
+slide-18: Mediadores da Inflamação
+slide-19: Quais são os mec. efetores?
+slide-20: Mecanismos inespecíficos Mecanismos específicos Imunidade natural Imunidade adquirida ü primeira linha de defesa do organismo ü tem pouca especificidade para microorganismos ü não guarda memória ü é dependente de fagócitos, células NK e proteínas pla...
+slide-21: Imunidades inata e adaptativa
+slide-22: ü Barreiras físicas: ü Epitélio e Mucosas ü Muco ü Cílios e Peristaltismo ü Fluxo de ar e urinário ü pH ácido ü Secreções ü Suor, lágrima, saliva, urina, bile... ü Lactoferrina, lisozima... ü Peptídeos anti-microbianos: ü Induzidas ü Cels epiteliais/...
+slide-23: Fagocitose https://www.khanacademy.org/test- prep/mcat/cells/transport-across-a-cell- membrane/a/phagocytosis
+slide-24: Biomed Res Int. 2017; 2017: 9042851. Fagocitose
+slide-25: Fagocitose Biomed Res Int. 2017; 2017: 9042851.
+slide-26: C3b Receptor de C3bi (CR3 e CR4) Receptor de C3b (CR1) FcgR Opsonização
+slide-27: Ig C3b iC3b C4b CR FcR fagócito Opsonização Sem opsoninas Com opsoninas
+slide-28: Produção de Espécies Reativas de Oxigênio NADPH 02 NADP+ 02- + H+ NADPH oxidase Superóxido Dismutase Mieloperoxidase H202 + + HOCl OH- Fe++ Ácido hipocloroso, peróxido de hidrogênio, e hidroxil matam as bactérias Radical Superóxido Radical Hidroxila ...
+slide-29: Produção de NO e de Espécies Reativas de Nitrogênio Sintese do Óxido Nítrico Arginina Citrulina Peroxinitrito Intermediários reativos de Nitrogênio
+slide-30: 30 Neutrófilos: origem https://pt.wikipedia.org/wiki/Hematopoiese#/media/File:Hematopoiesis_(human)_diagram_pt.svg Neutrófilo (45-70%) Célula tronco pluripotente Progenitor mieloide comum Eritrócito Mastócito Mieloblasto Megacariócito Plaquetas Basóf...
+slide-31: 31 Kevin M. Rigby and Frank R. DeLeo, Semin Immunopatho. 2011 Neutrófilos: funções/ativação Sítio da infecção Adesão e rolamento Extravasamento Migração quimiotática Fagocitose Burst Oxidativo/eliminação do patógeno Degranulaçao e NETs Ativação compl...
+slide-32: Neutrófilos: funções/ativação
+slide-33: Neutrophil Extracelular Traps - NETs Paul Hasler et al. Swiss medical weekly. 2016. 33 Neutrófilo NETose Cristiane Naffah de Souza et al. Front. Immunol. 2018 Controle Ionomicina MPO/DNA/Histona H3 citrulinada Estímulo: Bactérias, ionomicina, fungo, ...
+slide-34: https://pt.wikipedia.org/wiki/Citotoxicidade_mediada_por_células_dependente_de_anticorpos Citotoxicidade celular dependente de anticorpos (ADCC) Presente tbm em: neutrófilos, macro, eosinófilos
+slide-35: Células NK (assassinas naturais) • Sub-tipo de linfócito • Sem TCR • 5 a 20% das células mononucleares • Não ativação • Funções: – Tumores – Vírus • Produz IFN gama
+slide-36: Mecanismos efetores das células NK Citoxicidade depedente de anticorpo: receptor FcRgama III (CD16) Jornal de Pediatria - Vol. 84, No 4 (Supl), 2008
+slide-37: Mecanismos efetores das células NK Célula NK Granzimas
+slide-38: Mecanismos efetores Macrofagos
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: [VISUAL -- usar adjacente com titulo extraivel]
+slide-41: [VISUAL -- usar adjacente com titulo extraivel]
+slide-42: [VISUAL -- usar adjacente com titulo extraivel]
+slide-43: [VISUAL -- usar adjacente com titulo extraivel]
+slide-44: Mecanismos efetores dos linfócitos T
+slide-45: Migração dos LTs naives
+slide-46: (Toll-2) (Toll-4) Início da Resposta Imune Adaptativa
+slide-47: Migração dos LTs efetores
+slide-48: Dinâmica da migração dos LTs efetores https://doi.org/10.3389/fimmu.2013.00311
+slide-49: Imunologia Básica para o Clínico José A. Barbuto Isabela J. Wastowski Magda Carneiro-Sampaio Eduardo A. Donadi Apresentação de antígenos
+slide-50: Imunologia Básica para o Clínico José A. Barbuto Isabela J. Wastowski Magda Carneiro-Sampaio Eduardo A. Donadi Apresentação de antígenos – ativação celular
+slide-51: Tipos de Imunidade Mediada por Células
+slide-52: Ativação de Macrófagos e Eliminação dos patógenos
+slide-53: Funções das Células Th1
+slide-54: Funções das Células Th2
+slide-55: Células Th17 são geradas na presença de IL-6 + TGF-β Secretam IL-17
+slide-56: Jyonouchi S, Sullivan KE. Deficiencies of Innate and Adaptive Immunity. ACP Medicine. 2013.
+slide-57: Funções efetoras de Linfócitos T CD8+ (CTLs) Ø Reconhecimento peptídeos associados a molécula MHC I Ø CTLs ativados liberam grânulos Ø Enzimas citotóxicas (Ex.: granzimas e perforinas) levam à morte da célula-alvo infectada
+slide-58: Mecanismo de Lise das Células-Alvo
+slide-59: [VISUAL -- usar adjacente com titulo extraivel]
+slide-60: Imunologia Básica para o Clínico José A. Barbuto Isabela J. Wastowski Magda Carneiro-Sampaio Eduardo A. Donadi Dinâmica da Resposta Imune
+slide-61: Funções efetoras de Linfócitos T CD4+ Ø LT CD4+ (Th1) à ativação de macrófagos Ø aumento da atividade microbicida à morte do patógeno
+slide-62: Mas e os LT CD4+ Th2? Ø Estimulam inflamação rica em eosinófilos e mastócitos Ø Limitam a ativação dos macrófagos
+slide-63: O que é melhor, perfil Th1 ou Th2? Ø Ideal é eu haja o equilíbrio entre as respostas Ø A prevalência de um dos perfis pode levar a resistência ou a suscetibilidade à doença
+slide-64: Papel dos linfócitos T CD4 CD8
