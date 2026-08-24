@@ -25,6 +25,27 @@ Depois disso, `zerar_deck_anking.py`, `aplicar_curadoria_anking.py`, `revisao_di
 
 > Config do AnkiConnect: manter `webBindAddress=127.0.0.1` (só o PC acessa). Sync AnkiWeb bidirecional mantém o celular do Davi espelhado. Antes de operações grandes, o container deve sincronizar (`sync` via AnkiConnect) pra não divergir do celular.
 
+## 1b. Alternativa sem Docker e sem GUI — `ankiconnect_local.py`
+
+Quando não há Anki desktop nem Docker (container de sessão remota, CI, máquina emprestada), `flashcards/scripts/ankiconnect_local.py` levanta um servidor que **fala o mesmo protocolo do AnkiConnect** na 8765, mas operando direto numa coleção local aberta pela biblioteca `anki` (pip). Todos os scripts de `flashcards/scripts/` funcionam sem alteração — eles só enxergam `http://localhost:8765`.
+
+```bash
+pip install anki
+python flashcards/scripts/ankiconnect_local.py &          # coleção padrão, vazia
+python flashcards/scripts/ankiconnect_local.py \
+    --import "flashcards/decks-apkg/P3 - UC02 completo.apkg"   # semeando de um .apkg
+curl http://localhost:8765   # "AnkiConnect v.6 (nebli local shim)"
+```
+
+Coleção padrão em `~/.local/share/nebli-anki/collection.anki2` (criada vazia na primeira execução; `--collection` ou `NEBLI_ANKI_COLLECTION` mudam o caminho). Cobre as 46 ações que o pipeline usa — `findNotes`/`findCards`/`notesInfo`/`cardsInfo`, `addNote(s)`/`updateNoteFields`/`deleteNotes`, tags, suspend/unsuspend/flags, mídia, modelos, `exportPackage`/`importPackage`, `multi`.
+
+Duas diferenças deliberadas, para o comportamento local bater com a instalação do Davi:
+
+* **`notesInfo` não devolve `guid`** — o AnkiConnect real dele também não (ver `MEMORY.md` § piloto ANATO-06), então o casamento card-a-card continua pelo texto bruto do campo 1 nos dois lados. `--expose-guid` liga o campo se algum dia precisar.
+* **`sync` vem desligado** — sincronizar daqui escreveria na coleção AnkiWeb de verdade. Só roda com `--allow-sync` + `ANKIWEB_USERNAME`/`ANKIWEB_PASSWORD`.
+
+Serve para desenvolver e testar script de pipeline sem risco de tocar no deck de produção; o caminho de produção continua sendo o Anki do PC (seção 1).
+
 ## 2. Controle pelo celular — `claude remote-control`
 A sessão do Claude Code roda no PC (acesso total a arquivos locais + AnkiConnect); o celular vira uma janela. Não é a versão web (essa é sandbox na nuvem e não fala com o localhost).
 
