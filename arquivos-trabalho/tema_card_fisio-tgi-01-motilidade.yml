@@ -1,0 +1,61 @@
+slug: fisio-tgi-01-motilidade
+titulo: "Motilidade do Tubo Digestório"
+subtitulo: "Fisiologia do Sistema Digestório"
+meta:
+  - ["Disciplina", "Fisiologia — Sistema Digestório"]
+  - ["Onde estudar", "Berne & Levy · Fisiologia (7ª ed.), cap. 26 · Guyton & Hall · Tratado de Fisiologia Médica (14ª ed.), cap. 63 · Koeppen & Stanton · Berne and Levy Physiology (6ª ed.), Fig. 9-17 e 27-2 · Barrett · Ganong Fisiologia Médica (26ª ed.), cap. 25"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A parede que se move"
+        subtopicos:
+          - "1.1 Esquelético nas pontas, liso no meio"
+          - "1.2 Circular estreita, longitudinal encurta"
+          - "1.3 Contração fásica e contração tônica"
+          - "1.4 Esfíncteres — tônus que vira porta"
+      - titulo: "PARTE II — Quem dá as ordens"
+        subtopicos:
+          - "2.1 Plexos mioentérico e submucoso"
+          - "2.2 Reflexo curto, resolvido na parede"
+          - "2.3 Reflexo longo vago-vagal"
+          - "2.4 Acetilcolina, VIP e óxido nítrico"
+      - titulo: "PARTE III — Do nervo à força"
+        subtopicos:
+          - "3.1 Junção neuroefetora sem placa motora"
+          - "3.2 Cálcio, calmodulina e MLCK"
+          - "3.3 Relaxamento por miosina fosfatase"
+          - "3.4 Sensibilização ao cálcio via RhoA"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "CECC"]
+    - ["03", "C"]
+    - ["04", "CECC"]
+    - ["05", "A"]
+    - ["06", "E"]
+    - ["07", "E"]
+    - ["08", "E"]
+    - ["09", "D"]
+    - ["10", "EECC"]
+  integracao:
+    - ["11", "CCEC"]
+    - ["12", "A"]
+    - ["13", "EECC"]
+    - ["14", "C"]
+    - ["15", "A"]
+    - ["16", "C"]
+    - ["17", "D"]
+    - ["18", "EEEC"]
+    - ["19", "E"]
+    - ["20", "ECCE"]
+    - ["21", "A"]
+    - ["22", "A"]
+    - ["23", "D"]
+    - ["24", "EEEC"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "ECEE"]
+    - ["27", "D"]
+    - ["28", "D"]
+    - ["29", "E"]
+    - ["30", "CCEC"]

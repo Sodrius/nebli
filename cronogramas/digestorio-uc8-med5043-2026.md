@@ -42,5 +42,5 @@
 **Locais:** anf. 06 / 202 · lab 007 (Anatomia) · sala 130 ICBI (BioTec/Fisiologia).
 
 ## Estado NEBLI
-- Nenhum resumo gerado ainda.
+- **1º resumo gerado (2026-08-24):** *Motilidade do Tubo Digestório* (`fisio-tgi-01-motilidade`), Fisiologia, Profa. Fran Goulart da Silva (ICB/USP) — slide "Aula 1". Recorte declarado: o slide é a aula **geral** de motilidade (músculo, plexos, reflexos, esfíncteres, acoplamento no liso), mais largo que a linha "Intestinos — Fisiologia: motilidade e absorção" do cronograma, que trata do segmento intestinal. Bloco P1.
 - **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.

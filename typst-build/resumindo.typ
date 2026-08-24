@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("Esfíncteres e a regra da distensão",
+   [Esfíncter é músculo circular tonicamente contraído: fechado por padrão, precisa ser ativamente relaxado. A distensão do segmento anterior abre a porta à frente, nunca a fecha — só o piloro recebe também a ordem oposta, vinda do duodeno cheio.]),
+
+  ("A dupla que relaxa",
+   [Acetilcolina e substância P vêm do neurônio excitatório e contraem; VIP e óxido nítrico vêm do inibitório e relaxam. Perder só o braço inibitório trava o esfíncter e dilata o segmento acima — acalasia e megaesôfago chagásico.]),
+
+  ("O cérebro da parede",
+   [O sistema entérico fecha um arco reflexo completo dentro da parede. O plexo mioentérico fica entre os dois músculos e manda em motilidade; o submucoso fica junto às glândulas e manda em secreção. O autônomo apenas modula essa rede.]),
+
+  ("Reflexo curto e reflexo longo",
+   [O reflexo curto se fecha na parede e é rápido, ajustando a contração segmento a segmento. O longo sobe pelas aferências vagais ao tronco encefálico e volta pelo vago, coordenando segmentos distantes. Ambos terminam no mesmo neurônio motor entérico.]),
+
+  ("A geometria que transporta",
+   [A circular contrai e estreita a luz; a longitudinal contrai e encurta o segmento. Contração atrás e relaxamento à frente geram peristalse e transportam; contrações alternadas sem sequência espacial geram segmentação, que mistura sem propelir.]),
+
+  ("Fásico, tônico e o marcapasso",
+   [A contração fásica sobe e desce em segundos; a tônica sustenta força por horas já com cálcio e fosforilação baixos, no estado de trava. As células de Cajal geram ondas lentas que não contraem, mas definem quando a contração pode ocorrer.]),
+
+  ("Onde a vontade acaba",
+   [Um terço da musculatura é esquelética e ocupa as duas pontas do tubo — faringe, terço superior do esôfago e esfíncter anal externo. Os outros dois terços são liso, comandados pelo entérico e pelo autônomo, fora do alcance da vontade.]),
+
+  ("Cálcio, calmodulina e MLCK",
+   [O músculo liso não tem troponina. O cálcio, vindo sobretudo de fora da célula, liga-se à calmodulina; o complexo ativa a quinase que fosforila a cadeia leve da miosina. A regulação está no filamento grosso, não no fino.]),
+
+  ("Relaxar é processo ativo",
+   [Relaxar exige duas engrenagens juntas: as ATPases da membrana e do retículo retiram o cálcio, e a miosina fosfatase retira o fosfato da cadeia leve. Uma sem a outra não encerra a contração — relaxamento não é ausência de estímulo.]),
+
+  ("Sensibilização ao cálcio",
+   [Receptores acoplados a proteína G liberam cálcio pelo trifosfato de inositol e, pelo braço RhoA–Rho-quinase, inibem a miosina fosfatase. Com a fosfatase freada, a mesma dose de cálcio rende mais força — é assim que o tônus sai barato.]),
 ))

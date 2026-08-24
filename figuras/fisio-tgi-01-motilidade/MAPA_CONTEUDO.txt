@@ -1,0 +1,14 @@
+# MAPA_CONTEUDO -- fisio-tgi-01-motilidade
+# Slide-fonte: Aula1_Motilidade_TGI_MED_2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: MOTILIDADE DO TGI AULA -1 Fran Goulart da Silva Departamento de Fisiologia e Biofísica – ICB/USP
+slide-02: TGI MÚSCULO ESQUELÉTICO (1/3) MÚSCULO LISO (2/3) INVERVAÇÃO INTRÍNSECA VS EXTRÍNSECA SNA SNE PARASSIMPÁTICO (estimulação) SIMPÁTICO (inibição) PLEXO MIOENTÉRICO -mm circular e longitudinal- -mm tônico e fásico- -contração / relaxamento- PLEXO SUBMUCO...
+slide-03: nn sensorial nn sensorial Parede do tubo digestório Tronco Encefálico (SNC) Nervo Vago (parassimpático) + + MECANORRECEPTORES REFLEXO CURTO REFLEXO INTRAMURAL REFLEXO LONGO REFLEXO VAGO-VAGAL nn excitatório – Ach nn inibitório – VIP CONTRAÇÃO E RELAX...
+slide-04: EES EEI P EIC EAI / EAE Distensão do tubo = relaxamento dos esfíncteres Piloro: Regulação antral-anterógrada (relaxamento) Regulação duodenal-retrógrada (contração) Contração fásica Contração tônica
+slide-05: JUNÇÃO NEUROEFETORA Ca2+ + + + + Ca2+ Ca2+ Ca2+ / CAM Miosina-K CONTRAÇÃO Extrusão Ca2+ Miosina-K RES Ca2+ ATPase (+) MIOSINA FOSFATASE ( - ) K+ Na/K-ATPase K+ Na+
+slide-06: ATIVAÇÃO DA SINALIZAÇÃO INTRACELULAR DA CONTRAÇÃO INIBIÇÃO DA SINALIZAÇÃO INTRACELULAR DO RELAXAMENTO

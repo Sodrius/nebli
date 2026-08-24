@@ -1,0 +1,21 @@
+#import "../typst-template/nebli_v2_apostila.typ": *
+
+#discursiva("Q1",
+  [Explique, em termos físicos, por que o ultrassom é barrado pelo gás e pelo osso, e por que aumentar a potência do aparelho não resolveria essa cegueira.],
+  [O ultrassom forma imagem pelos ecos que o pulso sonoro devolve nas interfaces entre tecidos. Quando a diferença de impedância acústica é enorme — tecido contra ar ou tecido contra osso —, quase todo o som é refletido de uma vez na interface, e praticamente nada segue adiante; forma-se uma sombra acústica, e a região atrás fica sem informação. Por isso gás intestinal, pulmão e osso barram o método. Não é falta de potência: é a reflexão quase total na interface, uma propriedade da física da onda. A solução é trocar de método — tomografia ou ressonância —, não turbinar o aparelho.])
+
+#discursiva("Q2",
+  [Defina o que são as unidades Hounsfield na tomografia e explique o que significa, na prática, escolher a janela de parênquima ou a janela óssea numa mesma aquisição.],
+  [A unidade Hounsfield mede o quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar fica perto de −1000 e o osso é muito positivo. Cada valor é então convertido num tom de cinza. Como o olho não distingue mil tons ao mesmo tempo, escolhe-se uma janela: a faixa de valores de atenuação que será espalhada na escala de cinzas. A janela de parênquima realça as partes moles; a janela óssea realça o osso. São os mesmos números da mesma aquisição, relidos de dois modos — sem nova varredura e sem radiação adicional.])
+
+#discursiva("Q3",
+  [Compare a tomografia e a ressonância magnética quanto à física, à radiação, à velocidade e à resolução de partes moles, e diga em que situação cada uma é preferida.],
+  [Tomografia e ressonância diferem já na física. A tomografia usa raios-X e mede atenuação, então entrega radiação ionizante, é muito rápida — segundos — e tem alta resolução espacial, vantagens no trauma e na urgência. A ressonância usa campo magnético e ondas de rádio, sem radiação ionizante, e capta o sinal dos prótons de água ao relaxar; sua força é a resolução de contraste entre partes moles, insuperável para cérebro, medula e fígado. O custo dela é o tempo, de minutos, com sedação de crianças e claustrofóbicos, e a contraindicação a material ferromagnético. Escolhe-se pela pergunta: velocidade pede tomografia; detalhe de partes moles pede ressonância.])
+
+#discursiva("Q4",
+  [Explique por que vias mecanísticas o contraste iodado (tomografia) e o gadolínio (ressonância) realçam as estruturas, e por que a função renal é checada antes de injetar o iodado.],
+  [O contraste iodado e o gadolínio realçam por vias diferentes. O iodo é muito denso aos raios-X: onde se acumula, atenua fortemente o feixe e faz vasos e órgãos vascularizados acenderem em branco na tomografia. O gadolínio não atenua raios — ele encurta o T1 dos tecidos onde chega, que passam a brilhar nas imagens ponderadas em T1 da ressonância. A função renal é checada antes do iodado porque ele é eliminado pelos rins e pode precipitar uma queda aguda da função renal, a nefropatia por contraste, sobretudo em quem já tem o rim comprometido.])
+
+#discursiva("Q5",
+  [Um homem de 60 anos chega ao pronto-socorro com déficit neurológico súbito e rebaixamento do nível de consciência. A equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. Indique o exame inicial de escolha e justifique a decisão pela física do método, explicando também por que a ressonância não é a primeira opção nessa urgência.],
+  [O exame inicial é a tomografia de crânio sem contraste, e a escolha decorre da física. A tomografia é veloz — questão de segundos —, o que importa num paciente instável que coopera pouco; e o sangue agudo é espontaneamente hiperdenso, atenuando muito os raios-X, de modo que uma hemorragia aparece branca sem precisar de contraste. Isso permite confirmar ou excluir de imediato o AVC hemorrágico, que muda a conduta. A ressonância, embora superior para detectar o isquêmico precoce, é lenta, de vários minutos, e menos disponível na emergência, ficando para um segundo tempo. Aqui a regra da aula se cumpre: a física do método — rapidez e hiperdensidade do sangue agudo — é que escolheu o exame.])
