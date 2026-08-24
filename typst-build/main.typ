@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- patologia-01-lesao-celular | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,50 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Lesão celular",
+  "Patologia — mecanismos de lesão e morte celular",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Patologia — Mecanismos de lesão e morte celular"),
+    ("Onde estudar", "Robbins & Cotran — Patologia: Bases Patológicas das Doenças (10ª ed.) cap. 2 · Robbins Patologia Básica (10ª ed.) cap. 1-2 · Kumar, Abbas & Aster — Fundamentos de Patologia"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — Do equilíbrio à irreversibilidade", (
+      "1.1 Adaptação, lesão e o limiar",
+      "1.2 As causas da lesão celular",
+      "1.3 Cronologia e morfologia reversível",
+      "1.4 O ponto sem retorno",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — A cascata da isquemia", (
+      "2.1 Queda de ATP e bombas",
+      "2.2 Mitocôndria e poro de transição",
+      "2.3 Cálcio citosólico como demolidor",
+      "2.4 Dano de membrana: via final",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Oxigênio, proteínas e destino", (
+      "3.1 Radicais livres e defesas",
+      "3.2 Lesão de isquemia-reperfusão",
+      "3.3 Proteínas mal dobradas e DNA",
+      "3.4 Necrose e apoptose",
+    )),
+  )),
+  ("Resumindo", (
+    (none, (
+    )),
+  )),
+  ("Etapa 2 — 30 questões objetivas", (
+    (none, (
+    )),
+  )),
+  ("Etapa 3 — 5 discursivas", (
+    (none, (
+    )),
+  )),
+  ("Gabarito da Etapa 2", (
+    (none, (
     )),
   )),
 ))
@@ -57,39 +74,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
+    ("01", "D"),
     ("02", "B"),
-    ("03", "ECCC"),
+    ("03", "CECC"),
     ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("05", "ECEE"),
+    ("06", "E"),
+    ("07", "B"),
+    ("08", "CCCE"),
+    ("09", "B"),
+    ("10", "E"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
+    ("11", "A"),
+    ("12", "ECCC"),
+    ("13", "B"),
+    ("14", "A"),
     ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("16", "C"),
+    ("17", "A"),
+    ("18", "E"),
+    ("19", "ECCC"),
+    ("20", "A"),
+    ("21", "C"),
+    ("22", "CECC"),
+    ("23", "D"),
+    ("24", "C"),
+    ("25", "ECCE"),
   )),
   ("Aplicação (Q26–Q30)", (
     ("26", "C"),
     ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("28", "CEEC"),
+    ("29", "C"),
+    ("30", "CCEC"),
   )),
 ))
