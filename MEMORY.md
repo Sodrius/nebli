@@ -135,6 +135,10 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 ## § Histórico de decisões canônicas
 
 ### 2026-08-25
+- **Teto da E1 cai de 22 para 15 páginas (pedido de Davi: "quero, a partir de agora, etapas 1 com até 15 pgs").** Vale para todo resumo daqui pra frente. Wiring: `CLAUDE.md` § Rules globais (bullet novo, com a reconciliação "ensinar bem > concisão" → o teto se cumpre por recorte mais estreito, nunca por prosa comprimida); `ROLES.md` § Redator diretriz 2 (reescrita: orçamento de 8-10 subtópicos · 9-12 figuras · 3.500-5.500 palavras + 4 alavancas + lista do que NÃO é alavanca) e § Orquestrador Seção A; `ERROS.md` erro #7 (+ sintoma irmão "declarar 15 e entregar 23"), tabela de checks e F4 (4 alavancas em ordem de preferência). **Estourar o teto deixa de ser default do redator** — vira pergunta ao Davi no fechamento.
+- **`auditar_pdf.py` ganha `check_paginas_e1`** — o teto era "manual/warn" e agora é medido no PDF (aviso, não bloqueio). Faixa de palavras da E1 subiu de 3.500-5.000 para 3.500-5.500 para ficar coerente com 15 páginas (~370 palavras/página, incluindo páginas de figura).
+- **Bug corrigido no contador de palavras da E1.** `check_palavras_e1` delimitava o miolo no primeiro "Resumindo" do texto — que é o `#mini-resumo` ("Resumindo até aqui:"), não o banner. Reportava ~840 palavras em vez de ~8.600, escondendo justamente o estouro que o teto existe para pegar. Agora usa `_RESUMINDO_BANNER_RE`, que ignora "Resumindo até aqui".
+- **Empiria de calibração (acúmulos celulares):** reduzir as 15 figuras em 4-6 pontos percentuais cada economizou **zero** páginas. Encolher figura em bloco não é alavanca de página; cortar figura fraca e fundir subtópico irmão são.
 - **Patologia entra como componente novo do 2º semestre (sem cronograma assimilado).** Resumo gerado a partir de slide + transcrição da vídeo-aula do **Prof. Dr. Luiz Fernando Ferraz da Silva** (Depto. de Patologia FMUSP), módulo "Acúmulos e Adaptação Celular — Parte 2": slug `patologia-02-acumulos-celulares`, PDF `Acúmulos Celulares - Etapas 1 a 3 - LFFS.pdf`. **Não há `cronogramas/` para Patologia** — a UC/prova a que a aula pertence não foi declarada, então a aula não foi encaixada em árvore de deck nem em pasta de Drive. **Pendência para o Davi:** mandar o cronograma da disciplina de Patologia para que `cronogramas/` ganhe o digest e o naming/deck fiquem completos.
 - **Transcrição da vídeo-aula como 2ª fonte canônica quando existir.** Nesta corrida a transcrição (58 pp.) foi mais rica que o slide (30 telas, quase só rótulos) e forneceu o mecanismo falado — fluxo hepático do ácido graxo, hierarquia chaperona/ubiquitina, cronologia de cor do hematoma, eixo PTH/calcitonina. Quando o Davi anexar transcrição junto do slide, tratá-la como fonte de **profundidade** (o slide continua regulando o **escopo**).
 - **Corrida rodada em container remoto, sem Anki.** As Etapas 1 a 3 fecharam completas (E1 + Resumindo + E2 30 objetivas + E3 5 discursivas + gabarito). O **passo 11 do `/resumo` (deck-aula) não rodou** — AnkiConnect vive em localhost e não é alcançável da sessão remota. Deck-aula fica pendente para sessão local.
@@ -280,7 +284,7 @@ Auditoria detalhada em `backups/pre-faxina-2026-05-29/raiz/CHANGELOG_CLAUDE.md` 
 
 ### Missão NEBLI (canônica 2026-05-25)
 
-**Apostila de extrema qualidade, do básico ao aprofundado**, para aluno que sabe pouco aprender muito. Ensinar bem > concisão. Teto E1 = 22 páginas. Comprimir essencial trai a missão.
+**Apostila de extrema qualidade, do básico ao aprofundado**, para aluno que sabe pouco aprender muito. Ensinar bem > concisão. **Teto E1 = 15 páginas (canônico 2026-08-25; era 22).** Comprimir essencial trai a missão — por isso o teto se cumpre estreitando o recorte, não espremendo a prosa.
 
 ### Identidade visual ativa (pacote v2, canônico 2026-05-19)
 

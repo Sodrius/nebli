@@ -210,18 +210,79 @@ def check_fonte(pdf_path: Path) -> tuple[list, list]:
     return errors, warnings
 
 
+# Marca do banner "Resumindo" (pagina propria, apos a Conclusao integradora).
+# CUIDADO (bug corrigido 2026-08-25): o helper #mini-resumo imprime
+# "Resumindo ate aqui:" DENTRO do corpo da E1. Buscar "Resumindo" cru
+# encontrava o primeiro mini-resumo e truncava o miolo -- o contador de
+# palavras da E1 reportava ~840 em vez de ~8.600, escondendo justamente o
+# estouro que o teto de paginas existe para pegar.
+_RESUMINDO_BANNER_RE = re.compile(r"Resumindo(?!\s+at[ée]\s+aqui)")
+
+
+def _idx_resumindo(texto: str, inicio: int = 0) -> int:
+    """Indice do banner "Resumindo" real, ignorando "Resumindo ate aqui:"."""
+    m = _RESUMINDO_BANNER_RE.search(texto, inicio)
+    return m.start() if m else -1
+
+
+def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
+    """Conta as paginas ocupadas pela Etapa 1 e compara com o teto canonico.
+
+    CANONICO 2026-08-25 (pedido de Davi): teto da E1 = 15 paginas.
+    Substitui o teto de 22 vigente desde 2026-05-25. O teto e de
+    PLANEJAMENTO -- quem estoura deve estreitar o recorte / fundir
+    subtopicos no Tema Card, nao comprimir leading nem cortar figura no
+    fim. Warning, nao bloqueio: quem decide se o tema justifica e o Davi.
+
+    Delimitacao: da pagina de abertura da etapa (titulo em caixa mista
+    "Etapa 1 - Texto didatico") ate a pagina anterior ao banner
+    "Resumindo".
+    """
+    errors, warnings = [], []
+    n_pages = pdf_pages(pdf_path)
+    if n_pages < 4:
+        return errors, warnings
+
+    inicio = fim = None
+    for i in range(1, n_pages + 1):
+        t = pdf_text(pdf_path, i, i)
+        if not t:
+            continue
+        if inicio is None and "Etapa 1 — Texto didático" in t:
+            inicio = i
+            continue
+        if inicio is not None and _idx_resumindo(t) != -1:
+            fim = i
+            break
+
+    if inicio is None or fim is None:
+        warnings.append("  ! paginas E1: nao consegui delimitar (banner ausente)")
+        return errors, warnings
+
+    n = fim - inicio
+    TETO = 15
+    if n <= TETO:
+        print(f"  v paginas E1: {n} (teto {TETO})")
+    else:
+        warnings.append(
+            f"  ! paginas E1: {n} (teto canonico {TETO}, canonico 2026-08-25). "
+            f"Estreitar recorte / fundir subtopicos irmaos / reduzir figuras no "
+            f"PLANEJAMENTO do Tema Card -- nao comprimir leading no fim.")
+    return errors, warnings
+
+
 def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     """B6 (canônico 2026-05-22): conta palavras do miolo da E1 e reporta
-    se fora da faixa 3.500-5.000. NUNCA bloqueia -- só sinaliza.
+    se fora da faixa 3.500-5.500. NUNCA bloqueia -- só sinaliza.
 
     Miolo da E1 = intro-box + 3 PARTES + conclusão integradora.
     Delimitado pelo banner navy "Etapa 1" (início) e pelo banner gold
     "Resumindo" (fim, vem antes da E2). Capa, sumário, Resumindo, E2,
     E3 e Gabarito ficam fora da contagem.
 
-    Faixa canônica 3.500-5.000 palavras: REDATOR-E1 §regra 2 (piso 2
-    teto 20 páginas, sem meta rígida desde 2026-05-18). Esta contagem
-    é só um aviso -- tema legítimamente complexo pode inflar.
+    Faixa 3.500-5.500 palavras (teto subido de 5.000 em 2026-08-25 para
+    ficar coerente com o teto de 15 páginas da E1: ~370 palavras/página
+    incluindo as páginas de figura). Aviso, não bloqueio.
     """
     errors, warnings = [], []
     n_pages = pdf_pages(pdf_path)
@@ -235,8 +296,9 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     # pdftotext quebra linhas, então busca tolerante.
     upper = texto_total
     idx_e1 = upper.find("Etapa 1")
-    idx_resumindo = upper.find("Resumindo")
-    # Fallback: se não achar "Resumindo", usa "Etapa 2" como limite
+    # Ignora "Resumindo até aqui:" dos #mini-resumo (ver nota acima).
+    idx_resumindo = _idx_resumindo(upper, max(idx_e1, 0))
+    # Fallback: se não achar o banner, usa "Etapa 2" como limite
     if idx_resumindo == -1:
         idx_resumindo = upper.find("Etapa 2")
     if idx_e1 == -1 or idx_resumindo == -1 or idx_resumindo <= idx_e1:
@@ -247,7 +309,7 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     palavras = [w for w in re.split(r"\s+", miolo) if w and any(c.isalpha() for c in w)]
     n = len(palavras)
 
-    PISO, TETO = 3500, 5000
+    PISO, TETO = 3500, 5500
     if PISO <= n <= TETO:
         print(f"  v palavras E1: {n} (faixa {PISO}-{TETO})")
     elif n < PISO:
@@ -306,6 +368,11 @@ def main():
 
     print("\n-> Fonte embarcada (Merriweather + Montserrat)")
     e, w = check_fonte(pdf_path)
+    all_errors.extend(e); all_warnings.extend(w)
+    for msg in e + w: print(msg)
+
+    print("\n-> Paginas da E1 (teto 15, aviso)")
+    e, w = check_paginas_e1(pdf_path)
     all_errors.extend(e); all_warnings.extend(w)
     for msg in e + w: print(msg)
 

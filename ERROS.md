@@ -58,9 +58,11 @@
 
 ### 7. Tema-card com teto E1 errado
 
-**Sintoma:** declarar "piso 9, teto 14" ou "teto 20" no Tema Card.
+**Sintoma:** declarar teto errado no Tema Card — hoje, qualquer coisa diferente de 15.
 
-**Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 22** páginas". Alvo mais estreito é permitido dentro disso ("alvo 12-18"), mas o teto absoluto é 22.
+**Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 15** páginas" (CANON 2026-08-25 — substitui o teto de 22 vigente entre 2026-05-25 e 2026-08-25). Alvo mais estreito é permitido dentro disso ("alvo 10-13"), mas o teto absoluto é 15. Tema-cards antigos em `arquivos-trabalho/` guardam "teto 22" como registro histórico — não são fonte para corrida nova.
+
+**Sintoma irmão, mais caro:** declarar 15 e entregar 23. O teto é **orçamento de planejamento**: 8-10 subtópicos, 9-12 figuras, ~3.500-5.500 palavras. Se o esqueleto da Seção B já tem 12 subtópicos e 15 figuras, ele não cabe — e isso se descobre antes de redigir, não depois. Alavancas e proibições em `ROLES.md` § Redator diretriz 2.
 
 ### 8. Página em branco entre etapas (`#etapa-header` duplicado)
 
@@ -156,7 +158,7 @@
 | 4 | Heredoc ENAMETOOLONG | falha shell | usar Write | sim |
 | 5 | `questao-ce` string em vez de tupla | compilação Typst | não | sim |
 | 6 | Termo-notas < 6 | grep | não | warn |
-| 7 | Teto E1 > 22 páginas | manual | não | warn |
+| 7 | Teto E1 > 15 páginas | `auditar_pdf.py` (`check_paginas_e1`) | não | warn |
 | 8 | `#etapa-header` duplicado | precompile + auto-fix | SIM | sim |
 | 9 | Gabarito embaralhado | template fix + verificar_gabarito_resumo | não | sim |
 | 10 | "ETAPA 4" no PDF | pos_pipeline_check | não | sim |
@@ -186,14 +188,17 @@ Davi NÃO quer "spot-check humano" em fase de verificação — substituir por a
 
 Resumos NEBLI tendem ao excesso de `#atencao-box` (vermelhos). Cota máxima 1-2 por PARTE. Default é prosa. Confusão educativa vira parágrafo dialogado ("a confusão clássica aqui é..."). Reservar box para inversões com risco letal (cianeto bloqueia o IV — diagnóstico errado mata). Ver erro #16 acima e regra 13 do § Redator em `ROLES.md`.
 
-### F4. Calibração de tamanho da E1 (teto 22 páginas)
+### F4. Calibração de tamanho da E1 (teto 15 páginas — CANON 2026-08-25)
 
-Três alavancas quando o tema é denso e o resumo estoura o teto:
-1. **Figuras 50–55%** em resumos com 12+ figuras (reservar 65–80% só para estruturais críticas).
-2. **Máx 2 boxes pesados** (`confusao-prevista` + `atencao-box` somados) por PARTE — restante vira prosa.
-3. **Fundir subtópicos conceitualmente irmãos** quando PARTE tem >6 subtópicos ("via extrínseca" + "via intrínseca" → "as duas vias para o mesmo destino").
+Quatro alavancas quando o tema é denso e o esqueleto não cabe no teto, **em ordem de preferência**:
+1. **Estreitar o recorte e declarar** — "o slide cobre X; esta E1 cobre X₁, e X₂ fica para outra corrida". É a alavanca mais honesta e a menos explorada.
+2. **Fundir subtópicos conceitualmente irmãos** quando a PARTE tem >4 subtópicos ("via extrínseca" + "via intrínseca" → "as duas vias para o mesmo destino"; "distrófica" + "metastática" → "as duas calcificações").
+3. **Cortar figura de baixo rendimento** pelo filtro da diretriz 15 — remover 3 figuras fracas rende mais que encolher 15 boas. (Empiria 2026-08-25: reduzir 15 figuras em 4-6 pontos percentuais cada economizou **zero** páginas.)
+4. **Máx 2 boxes pesados** (`confusao-prevista` + `atencao-box` somados) por PARTE — restante vira prosa.
 
-Aplicar no planejamento (orçamento de páginas prévio no Tema Card), não na cirurgia pós-redação.
+**Não é alavanca:** comprimir leading/spacing, encolher fonte, cortar a conclusão integradora, transformar prosa em tópico para poupar linha. Isso troca páginas por didática.
+
+Aplicar no planejamento (orçamento de páginas prévio no Tema Card), não na cirurgia pós-redação. Se depois de tudo o tema ainda não couber, reportar e perguntar — estourar o teto é decisão do Davi, não default.
 
 ### F5. Figuras: largura 40-80% + relatório auditável
 
