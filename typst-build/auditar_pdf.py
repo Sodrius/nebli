@@ -228,11 +228,13 @@ def _idx_resumindo(texto: str, inicio: int = 0) -> int:
 def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
     """Conta as paginas ocupadas pela Etapa 1 e compara com o teto canonico.
 
-    CANONICO 2026-08-25 (pedido de Davi): teto da E1 = 15 paginas.
-    Substitui o teto de 22 vigente desde 2026-05-25. O teto e de
-    PLANEJAMENTO -- quem estoura deve estreitar o recorte / fundir
-    subtopicos no Tema Card, nao comprimir leading nem cortar figura no
-    fim. Warning, nao bloqueio: quem decide se o tema justifica e o Davi.
+    CANONICO 2026-08-25 (pedido de Davi): teto da E1 = 15 paginas,
+    cumprido por CONCISAO. Substitui o teto de 22 vigente desde 2026-05-25.
+    Cobertura completa do slide, passe de aprofundamento e conclusao
+    integradora sao INVARIANTES -- nao se corta conteudo para caber. O que
+    encolhe e a verbosidade: preambulo, paragrafo que reafirma o anterior,
+    moldura conversacional, legenda que reexplica o texto, mini-resumo
+    ritual. Warning, nao bloqueio.
 
     Delimitacao: da pagina de abertura da etapa (titulo em caixa mista
     "Etapa 1 - Texto didatico") ate a pagina anterior ao banner
@@ -266,8 +268,9 @@ def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
     else:
         warnings.append(
             f"  ! paginas E1: {n} (teto canonico {TETO}, canonico 2026-08-25). "
-            f"Estreitar recorte / fundir subtopicos irmaos / reduzir figuras no "
-            f"PLANEJAMENTO do Tema Card -- nao comprimir leading no fim.")
+            f"Cortar VERBOSIDADE, nao conteudo: preambulo antes do mecanismo, "
+            f"paragrafo que reafirma o anterior, moldura conversacional, legenda "
+            f"que reexplica o texto, mini-resumo ritual. Ver ERROS.md F4.")
     return errors, warnings
 
 
@@ -280,9 +283,11 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     "Resumindo" (fim, vem antes da E2). Capa, sumário, Resumindo, E2,
     E3 e Gabarito ficam fora da contagem.
 
-    Faixa 3.500-5.500 palavras (teto subido de 5.000 em 2026-08-25 para
-    ficar coerente com o teto de 15 páginas da E1: ~370 palavras/página
-    incluindo as páginas de figura). Aviso, não bloqueio.
+    Faixa 3.500-5.000 palavras: e o alvo de um E1 de <=15 paginas com
+    cobertura completa e prosa concisa (10-12 subtopicos de ~350-420
+    palavras). Estourar aqui quase sempre significa verbosidade -- parágrafo
+    que reafirma o anterior, moldura conversacional, legenda que reexplica o
+    texto --, nao excesso de conteudo. Aviso, nao bloqueio.
     """
     errors, warnings = [], []
     n_pages = pdf_pages(pdf_path)
@@ -309,7 +314,7 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     palavras = [w for w in re.split(r"\s+", miolo) if w and any(c.isalpha() for c in w)]
     n = len(palavras)
 
-    PISO, TETO = 3500, 5500
+    PISO, TETO = 3500, 5000
     if PISO <= n <= TETO:
         print(f"  v palavras E1: {n} (faixa {PISO}-{TETO})")
     elif n < PISO:

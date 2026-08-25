@@ -62,7 +62,7 @@
 
 **Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 15** páginas" (CANON 2026-08-25 — substitui o teto de 22 vigente entre 2026-05-25 e 2026-08-25). Alvo mais estreito é permitido dentro disso ("alvo 10-13"), mas o teto absoluto é 15. Tema-cards antigos em `arquivos-trabalho/` guardam "teto 22" como registro histórico — não são fonte para corrida nova.
 
-**Sintoma irmão, mais caro:** declarar 15 e entregar 23. O teto é **orçamento de planejamento**: 8-10 subtópicos, 9-12 figuras, ~3.500-5.500 palavras. Se o esqueleto da Seção B já tem 12 subtópicos e 15 figuras, ele não cabe — e isso se descobre antes de redigir, não depois. Alavancas e proibições em `ROLES.md` § Redator diretriz 2.
+**Sintoma irmão, mais caro:** declarar 15 e entregar 23. O teto se cumpre por **concisão**, não por corte de conteúdo — orçamento típico: 10-12 subtópicos de ~350-420 palavras, 9-12 figuras, ~4.000-5.000 palavras. Se o esqueleto da Seção B tem 12 subtópicos, ele cabe: o que não cabe é escrever 720 palavras em cada um. Alavancas e proibições em `ROLES.md` § Redator diretriz 2.
 
 ### 8. Página em branco entre etapas (`#etapa-header` duplicado)
 
@@ -188,17 +188,22 @@ Davi NÃO quer "spot-check humano" em fase de verificação — substituir por a
 
 Resumos NEBLI tendem ao excesso de `#atencao-box` (vermelhos). Cota máxima 1-2 por PARTE. Default é prosa. Confusão educativa vira parágrafo dialogado ("a confusão clássica aqui é..."). Reservar box para inversões com risco letal (cianeto bloqueia o IV — diagnóstico errado mata). Ver erro #16 acima e regra 13 do § Redator em `ROLES.md`.
 
-### F4. Calibração de tamanho da E1 (teto 15 páginas — CANON 2026-08-25)
+### F4. Calibração de tamanho da E1 (teto 15 páginas por CONCISÃO — CANON 2026-08-25)
 
-Quatro alavancas quando o tema é denso e o esqueleto não cabe no teto, **em ordem de preferência**:
-1. **Estreitar o recorte e declarar** — "o slide cobre X; esta E1 cobre X₁, e X₂ fica para outra corrida". É a alavanca mais honesta e a menos explorada.
-2. **Fundir subtópicos conceitualmente irmãos** quando a PARTE tem >4 subtópicos ("via extrínseca" + "via intrínseca" → "as duas vias para o mesmo destino"; "distrófica" + "metastática" → "as duas calcificações").
-3. **Cortar figura de baixo rendimento** pelo filtro da diretriz 15 — remover 3 figuras fracas rende mais que encolher 15 boas. (Empiria 2026-08-25: reduzir 15 figuras em 4-6 pontos percentuais cada economizou **zero** páginas.)
-4. **Máx 2 boxes pesados** (`confusao-prevista` + `atencao-box` somados) por PARTE — restante vira prosa.
+**Invariantes — cortar qualquer um destes para caber é proibido:** cobertura completa do slide (todo subtópico entra), passe de aprofundamento (≈1 injeção mecanística por subtópico), conclusão integradora de 4 camadas, cota de figura por PARTE, termo-notas 6-10. Também não valem: comprimir leading/spacing, encolher fonte, virar tópico. Tudo isso troca páginas por didática.
 
-**Não é alavanca:** comprimir leading/spacing, encolher fonte, cortar a conclusão integradora, transformar prosa em tópico para poupar linha. Isso troca páginas por didática.
+**A alavanca é escrever mais direto e mais didático.** O corte é de palavras por ideia. Em ordem de rendimento:
+1. **Preâmbulo antes do mecanismo** — abrir afirmando o mecanismo, não anunciando que ele vem.
+2. **Parágrafo que reafirma o anterior** em outro registro — se não traz passo mecanístico novo, sai.
+3. **Moldura conversacional** — manobras da Categoria 17 do `EXEMPLARES.md` custam página; em regime de 15, no máximo 1 por subtópico.
+4. **Legenda que reexplica o texto** — legenda acrescenta o que a figura mostra e o parágrafo não disse, em 1-3 linhas.
+5. **`#mini-resumo` ritual** — é para parágrafo longo de verdade, não fecho de cada subtópico. Um por PARTE costuma bastar.
+6. **Catálogo em prosa que devia ser tabela** (gatilhos da Categoria 18) — mesma informação em um terço do espaço.
+7. **Adjetivo/advérbio de reforço** — "extremamente", "exatamente", "simplesmente", "justamente".
 
-Aplicar no planejamento (orçamento de páginas prévio no Tema Card), não na cirurgia pós-redação. Se depois de tudo o tema ainda não couber, reportar e perguntar — estourar o teto é decisão do Davi, não default.
+**Teste de fechamento:** por parágrafo, *que passo mecanístico novo ele entrega?* "Nenhum, reforça o anterior" = sai.
+
+**Empiria 2026-08-25 (acúmulos celulares):** 12 subtópicos em 8.643 palavras = 720 por subtópico, 23 páginas. O mesmo conteúdo, com a mesma cobertura e o mesmo aprofundamento, cabe em ~4.500 palavras. **E:** reduzir as 15 figuras em 4-6 pontos percentuais cada economizou **zero** páginas — encolher figura em bloco não é alavanca.
 
 ### F5. Figuras: largura 40-80% + relatório auditável
 
