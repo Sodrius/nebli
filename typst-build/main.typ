@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- patologia-02-acumulos-celulares | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,34 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Acúmulos Celulares e Teciduais",
+  "Patologia Geral",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Patologia — Departamento de Patologia FMUSP"),
+    ("Onde estudar", "Robbins & Cotran · Patologia — Bases Patológicas das Doenças (cap. Lesão e adaptação celular · Acúmulos intracelulares · Calcificação patológica) · Bogliolo · Patologia Geral (Degenerações e Pigmentações)"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — A lógica do acúmulo e a gordura no fígado", (
+      "1.1 Acúmulo é balanço quebrado",
+      "1.2 O trânsito da gordura no hepatócito",
+      "1.3 Esteatose: onde o trânsito quebra",
+      "1.4 Colesterol fora do fígado",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Proteína, glicogênio e cálcio", (
+      "2.1 Proteínas e o controle de qualidade",
+      "2.2 Glicogênio: duas causas, um estoque",
+      "2.3 Calcificação distrófica",
+      "2.4 Calcificação metastática",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Pigmentos: a memória colorida da célula", (
+      "3.1 Pigmentos exógenos",
+      "3.2 Lipofuscina e melanina",
+      "3.3 Hemossiderina e o ferro",
+      "3.4 Bilirrubina e icterícia",
     )),
   )),
 ))
@@ -57,39 +58,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
+    ("01", "D"),
     ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("03", "EEEC"),
+    ("04", "E"),
+    ("05", "EECC"),
+    ("06", "C"),
+    ("07", "C"),
+    ("08", "CECC"),
+    ("09", "E"),
+    ("10", "CEEE"),
   )),
   ("Integração (Q11–Q25)", (
     ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
+    ("12", "CCEC"),
+    ("13", "B"),
+    ("14", "D"),
+    ("15", "CEEE"),
+    ("16", "E"),
+    ("17", "A"),
+    ("18", "EECE"),
+    ("19", "B"),
+    ("20", "C"),
+    ("21", "ECEE"),
+    ("22", "E"),
     ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("24", "CCEE"),
+    ("25", "A"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "B"),
+    ("27", "EEEC"),
+    ("28", "B"),
+    ("29", "A"),
+    ("30", "E"),
   )),
 ))

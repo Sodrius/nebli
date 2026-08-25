@@ -1,0 +1,61 @@
+slug: patologia-02-acumulos-celulares
+titulo: "Acúmulos Celulares e Teciduais"
+subtitulo: "Patologia Geral"
+meta:
+  - ["Disciplina", "Patologia — Departamento de Patologia FMUSP"]
+  - ["Onde estudar", "Robbins & Cotran · Patologia — Bases Patológicas das Doenças (cap. Lesão e adaptação celular · Acúmulos intracelulares · Calcificação patológica) · Bogliolo · Patologia Geral (Degenerações e Pigmentações)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A lógica do acúmulo e a gordura no fígado"
+        subtopicos:
+          - "1.1 Acúmulo é balanço quebrado"
+          - "1.2 O trânsito da gordura no hepatócito"
+          - "1.3 Esteatose: onde o trânsito quebra"
+          - "1.4 Colesterol fora do fígado"
+      - titulo: "PARTE II — Proteína, glicogênio e cálcio"
+        subtopicos:
+          - "2.1 Proteínas e o controle de qualidade"
+          - "2.2 Glicogênio: duas causas, um estoque"
+          - "2.3 Calcificação distrófica"
+          - "2.4 Calcificação metastática"
+      - titulo: "PARTE III — Pigmentos: a memória colorida da célula"
+        subtopicos:
+          - "3.1 Pigmentos exógenos"
+          - "3.2 Lipofuscina e melanina"
+          - "3.3 Hemossiderina e o ferro"
+          - "3.4 Bilirrubina e icterícia"
+gabarito:
+  consolidacao:
+    - ["01", "D"]
+    - ["02", "B"]
+    - ["03", "EEEC"]
+    - ["04", "E"]
+    - ["05", "EECC"]
+    - ["06", "C"]
+    - ["07", "C"]
+    - ["08", "CECC"]
+    - ["09", "E"]
+    - ["10", "CEEE"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "CCEC"]
+    - ["13", "B"]
+    - ["14", "D"]
+    - ["15", "CEEE"]
+    - ["16", "E"]
+    - ["17", "A"]
+    - ["18", "EECE"]
+    - ["19", "B"]
+    - ["20", "C"]
+    - ["21", "ECEE"]
+    - ["22", "E"]
+    - ["23", "B"]
+    - ["24", "CCEE"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "EEEC"]
+    - ["28", "B"]
+    - ["29", "A"]
+    - ["30", "E"]

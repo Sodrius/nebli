@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Sobre a física que gera a imagem em cada método, é correto afirmar:],
-  (("A", [O ultrassom forma a imagem a partir dos ecos de um pulso sonoro refletido nas interfaces entre tecidos de densidades diferentes.]),
-   ("B", [A tomografia computadorizada forma a imagem a partir do sinal de rádio devolvido pelos prótons de hidrogênio dentro de um campo magnético.]),
-   ("C", [A ressonância magnética forma a imagem medindo o quanto um feixe de raios-X é atenuado pelos tecidos que atravessa no caminho.]),
-   ("D", [A radiografia convencional forma a imagem a partir da mudança de frequência do som causada pelo movimento do sangue nos vasos.]),
-   ("E", [Os quatro métodos formam a imagem pela mesma interação física, mudando apenas o tipo de detector posicionado do outro lado.])))
+  [A lógica comum a todos os acúmulos intracelulares — do triglicéride que enche o hepatócito ao pigmento de carvão retido no macrófago — é melhor descrita por qual formulação?],
+  (("A", [A célula ativa deliberadamente uma via de estocagem quando prevê escassez futura, e o acúmulo representa uma reserva programada que será mobilizada assim que a demanda metabólica do tecido aumentar.]),
+   ("B", [Toda substância acumulada é estranha ao organismo e chega por via exógena, de modo que o achado sempre indica exposição ambiental ou iatrogênica identificável na história clínica do paciente.]),
+   ("C", [O acúmulo decorre invariavelmente de mutação no gene que codifica alguma enzima da via de degradação, e por isso todo depósito intracelular tem base genética identificável por sequenciamento.]),
+   ("D", [A quantidade que entra ou é produzida ultrapassou a que sai ou é consumida — por produção aumentada, por metabolismo reduzido, por exportação bloqueada ou por material que nenhuma via celular degrada.]),
+   ("E", [A membrana plasmática perde seletividade e passa a permitir influxo passivo de macromoléculas vindas do interstício, que se depositam no citoplasma por gradiente de concentração sustentado.])))
 
 #questao-mc("02", badge-consolidacao,
-  [A ecogenicidade de uma estrutura ao ultrassom traduz, sobretudo:],
-  (("A", [A quantidade de radiação que a estrutura absorve do feixe, de modo que o osso seja o tecido mais ecogênico por atenuar mais.]),
-   ("B", [O quanto a estrutura reflete o som de volta ao transdutor — o que reflete muito aparece claro, e o líquido puro, que quase não reflete, aparece preto.]),
-   ("C", [A velocidade com que os prótons de hidrogênio da estrutura relaxam após o pulso de rádio, gerando um sinal mais ou menos intenso.]),
-   ("D", [A densidade física da estrutura medida em unidades Hounsfield e convertida diretamente num tom de cinza pelo computador do aparelho.]),
-   ("E", [O grau em que a estrutura se sobrepõe às vizinhas na projeção somada, escondendo ou revelando os detalhes mais finos da imagem.])))
+  [O triglicéride sintetizado dentro do hepatócito não deixa a célula sem antes ser conjugado a apoproteína. O que explica essa exigência?],
+  (("A", [Porque a apoproteína funciona como sinal de endereçamento reconhecido pelo complexo de Golgi, sem o qual a vesícula de secreção não é formada nem direcionada à membrana plasmática do hepatócito.]),
+   ("B", [Porque o triglicéride é lipossolúvel e não circula em plasma aquoso; a apoproteína forma a casca hidrofílica da lipoproteína, e é ela que torna a partícula transportável pelo sangue.]),
+   ("C", [Porque a apoproteína carrega a atividade enzimática que hidrolisa o triglicéride em ácidos graxos livres já na saída do hepatócito, permitindo que estes atravessem a membrana por difusão simples.]),
+   ("D", [Porque o triglicéride, sendo hidrossolúvel, precipitaria dentro do citosol se não fosse estabilizado por uma proteína carreadora que mantém as moléculas dispersas até o momento da exportação.]),
+   ("E", [Porque a apoproteína neutraliza a carga negativa dos ácidos graxos esterificados, condição necessária para que o transportador de membrana do hepatócito reconheça o complexo e o exporte ativamente.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre por que o ultrassom é barrado por certas estruturas:],
-  (("I", [A cegueira do ultrassom para o gás poderia ser resolvida apenas aumentando a potência do aparelho, sem precisar trocar de método.]),
-   ("II", [Na interface entre tecido e gás, quase todo o som é refletido de uma vez, e nada alcança o que está atrás — forma-se a sombra acústica.]),
-   ("III", [O osso barra o ultrassom pelo mesmo motivo do gás: a diferença brutal de densidade na interface reflete a maior parte do pulso sonoro.]),
-   ("IV", [Uma camada espessa de gordura atenua o som no trajeto e degrada a imagem em pacientes obesos.])))
+  [Julgue os itens sobre os mecanismos que levam ao acúmulo de lípide no hepatócito.],
+  (("I",   [Na desnutrição grave, a esteatose hepática decorre do aumento da ingestão de gordura na dieta, que satura a capacidade oxidativa do hepatócito.]),
+   ("II",  [No diabetes, a esteatose decorre da inibição da lipase hormônio-sensível pela hiperglicemia, o que impede a saída de ácido graxo do adipócito.]),
+   ("III", [O tetracloreto de carbono produz esteatose por aumentar a oferta de ácido graxo ao fígado, sem interferir na conjugação e na exportação de lipoproteína.]),
+   ("IV",  [No etilismo, o ácido acético gerado no metabolismo do etanol serve de substrato para esterificar ácidos graxos, somando-se à desnutrição crônica e à lesão direta do hepatócito.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Na tomografia computadorizada, as unidades Hounsfield expressam:],
-  (("A", [A dose de radiação ionizante que cada tecido do corpo recebe durante a varredura completa, à medida que o tubo de raios-X gira em torno do paciente.]),
-   ("B", [O tempo que o pulso de ondas de rádio leva para inclinar os prótons de hidrogênio de cada tecido para fora do seu alinhamento com o campo magnético do aparelho.]),
-   ("C", [A frequência do eco sonoro devolvido por cada interface entre dois tecidos de densidades acústicas diferentes ao longo do trajeto do pulso.]),
-   ("D", [O quanto cada tecido atenuou o feixe de raios-X, numa escala em que a água vale zero, o ar cerca de −1000 e o osso é muito positivo.]),
-   ("E", [O número de projeções somadas numa única imagem plana antes que o computador reconstrua, a partir delas, os cortes finos do volume examinado.])))
+  [Uma vesícula biliar aberta mostra mucosa acastanhada densamente salpicada de pontos amarelos, aspecto descrito como vesícula "em morango". Esse achado corresponde a:],
+  (("A", [Múltiplos cálculos de colesterol impactados na luz, cuja superfície amarelada se projeta através da mucosa adelgaçada e confere o aspecto pontilhado observado na peça aberta.]),
+   ("B", [Focos de necrose isquêmica da parede com deposição secundária de sais de cálcio, que aparecem como pontos claros distribuídos de forma irregular sobre a mucosa remanescente da vesícula.]),
+   ("C", [Metaplasia intestinal da mucosa vesicular com células caliciformes repletas de muco, cujo conteúdo claro produz o padrão pontilhado característico das colecistites crônicas de longa evolução.]),
+   ("D", [Acúmulo de bilirrubina em hepatócitos ectópicos presentes na parede da vesícula, que impregna a mucosa de amarelo em focos correspondentes exatamente a essas ilhas de tecido hepático.]),
+   ("E", [Acúmulo de colesterol em macrófagos da lâmina própria, que ficam com citoplasma espumoso; cada ponto amarelo da peça é um agregado dessas células, sem obstrução da luz da vesícula.])))
 
-#questao-mc("05", badge-consolidacao,
-  [Escolher a janela de parênquima ou a janela óssea numa mesma tomografia significa:],
-  (("A", [Repetir a varredura com uma dose maior de radiação para realçar o osso ou as partes moles conforme a necessidade clínica.]),
-   ("B", [Decidir qual faixa dos valores de atenuação será espalhada na escala de cinzas, relendo a mesma aquisição de dois jeitos diferentes.]),
-   ("C", [Injetar contraste iodado numa fase específica para que o osso ou o parênquima se destaque melhor do fundo ao redor.]),
-   ("D", [Trocar o plano de corte entre axial, coronal e sagital para que a estrutura de interesse fique mais bem representada.]),
-   ("E", [Aplicar a supressão de gordura sobre a imagem, apagando o sinal do tecido gorduroso que esconde o osso ou o parênquima.])))
+#questao-ce("05", badge-consolidacao,
+  [Julgue os itens sobre acúmulo intracelular de proteínas e o sistema de controle de qualidade proteico.],
+  (("I",   [O acúmulo proteico intracelular resulta sempre de aumento da síntese, sendo o mieloma múltiplo o modelo único desse mecanismo.]),
+   ("II",  [A ubiquitina redobra a proteína desnaturada e lhe devolve a conformação nativa, enquanto a chaperona a encaminha ao proteassoma para degradação.]),
+   ("III", [A célula tubular renal pode acumular gotículas proteicas quando a carga filtrada excede sua capacidade de reabsorção, sem que tenha sintetizado a proteína acumulada.]),
+   ("IV",  [Proteínas desnaturadas por radical livre ou radiação podem ser recuperadas por chaperonas; quando isso não é possível, o destino é a ubiquitinação seguida de degradação no proteassoma.])))
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre as sequências básicas da ressonância magnética:],
-  (("I", [Na ponderação em T1 a gordura aparece clara e a água, escura, o que a torna útil para o detalhe anatômico.]),
-   ("II", [A supressão de gordura (fat sat) serve para realçar o brilho do tecido gorduroso, tornando-o ainda mais claro na imagem.]),
-   ("III", [Na ponderação em T2 a água aparece clara, e como quase toda lesão retém água, é a sequência que faz a doença brilhar.]),
-   ("IV", [O contraste entre os tecidos nasce da diferença na velocidade com que os prótons relaxam após o pulso de rádio.])))
+#questao-mc("06", badge-consolidacao,
+  [As glicogenoses recebem nomes distintos, afetam órgãos diferentes e produzem quadros clínicos variados. O que explica essa variedade a partir de um princípio único?],
+  (("A", [Cada glicogenose decorre de uma mutação distinta no gene da glicogênio-sintase, e a variação de fenótipo reflete o grau de função residual que essa mesma enzima conserva em cada família acometida.]),
+   ("B", [Cada glicogenose corresponde a uma forma química diferente do polímero de glicogênio armazenado, e a solubilidade dessa forma determina em qual tecido o depósito se torna clinicamente relevante.]),
+   ("C", [A via de degradação do glicogênio é uma sequência de enzimas, e a falta de qualquer uma delas trava a mobilização a montante; qual enzima falta define o tecido afetado e o quadro resultante.]),
+   ("D", [As glicogenoses resultam de defeito no transportador que leva glicose para dentro da célula, e a distribuição tecidual de cada isoforma desse transportador determina o órgão predominantemente comprometido.]),
+   ("E", [A variedade decorre da idade de início do acúmulo, já que o glicogênio se deposita progressivamente nos tecidos de maior demanda conforme a atividade física do paciente muda ao longo da vida.])))
 
 #questao-mc("07", badge-consolidacao,
-  [Constitui contraindicação clássica à realização de ressonância magnética:],
-  (("A", [A insuficiência renal do paciente, porque o campo magnético sobrecarrega diretamente a filtração glomerular durante o exame.]),
-   ("B", [A gestação em qualquer idade, porque as ondas de rádio do aparelho são uma forma potente de radiação ionizante para o feto.]),
-   ("C", [A obesidade acentuada, porque a espessura de gordura atenua o campo magnético antes que ele alcance as estruturas profundas.]),
-   ("D", [A presença de gás intestinal abundante, porque ele reflete as ondas de rádio e impede a formação de qualquer sinal útil.]),
-   ("E", [A presença de marca-passo ou de material ferromagnético, porque o campo intenso pode deslocar ou aquecer essas estruturas.])))
+  [Sobre a calcificação distrófica, assinale a alternativa *incorreta*.],
+  (("A", [Ocorre em tecidos previamente lesados, nos quais restos celulares e matriz de reparo funcionam como núcleo de cristalização para o cálcio que circula normalmente no sangue.]),
+   ("B", [Aparece em necrose caseosa, em placas de ateroma, em valvas cardíacas alteradas por senilidade ou febre reumática, em tumores com áreas necróticas e em cicatrizes antigas.]),
+   ("C", [Depende de elevação da concentração sérica de cálcio, de modo que sua ocorrência indica distúrbio do metabolismo do cálcio que precisa ser investigado no paciente.]),
+   ("D", [O processo guarda semelhança com a mineralização óssea, com deposição de cristais sobre componentes celulares e sobre a matriz extracelular produzida no local da lesão.]),
+   ("E", [Na esclerose calcificante de Mönckeberg o depósito ocorre na túnica média arterial, o que a distingue da placa de ateroma calcificada, que é uma lesão de íntima.])))
 
-#questao-mc("08", badge-consolidacao,
-  [A principal limitação da radiografia convencional em relação à tomografia decorre de:],
-  (("A", [Usar radiação ionizante numa dose muito maior que a da tomografia, o que a torna proibida em crianças e gestantes.]),
-   ("B", [Depender obrigatoriamente de contraste iodado endovenoso para gerar qualquer imagem útil das partes moles do corpo.]),
-   ("C", [Registrar uma única projeção em que todas as estruturas do caminho somam suas sombras, de modo que uma lesão pode ficar escondida.]),
-   ("D", [Formar a imagem a partir de ecos sonoros, o que a impede de atravessar o gás e o osso presentes no trajeto do feixe.]),
-   ("E", [Exigir vários minutos de aquisição com o paciente imóvel, o que obriga a sedar crianças pequenas e claustrofóbicos.])))
+#questao-ce("08", badge-consolidacao,
+  [Julgue os itens sobre calcificação metastática.],
+  (("I",   [A calcificação metastática requer hipercalcemia e deposita-se em tecidos viáveis, sem necessidade de lesão prévia no local do depósito.]),
+   ("II",  [O termo "metastática" indica que o cálcio se deposita dentro de implantes tumorais secundários, o que restringe o achado a pacientes oncológicos.]),
+   ("III", [O paratormônio eleva o cálcio circulante ao promover reabsorção óssea, enquanto a calcitonina favorece a deposição de cálcio na matriz óssea.]),
+   ("IV",  [Distúrbios relacionados à vitamina D podem gerar calcificação metastática ao reduzir a captação óssea de cálcio e aumentar sua fração livre na circulação.])))
 
-#questao-ce("09", badge-consolidacao,
-  [Julgue os itens sobre radiação ionizante nos métodos de imagem:],
-  (("I", [A radiografia e a tomografia usam raios-X, uma radiação com energia suficiente para arrancar elétrons e lesar o DNA.]),
-   ("II", [O ultrassom e a ressonância magnética não empregam radiação ionizante, sendo mais seguros para repetir e em populações vulneráveis.]),
-   ("III", [A dose de radiação preocupa mais no adulto jovem saudável do que na criança, cujas células são menos radiossensíveis.]),
-   ("IV", [Entre os métodos que usam raios-X, a tomografia é hoje a maior fonte de exposição médica à radiação.])))
+#questao-mc("09", badge-consolidacao,
+  [Lipofuscina e melanina são dois pigmentos endógenos de cor acastanhada. Como se distinguem quanto à origem?],
+  (("A", [A lipofuscina é sintetizada por enzima lisossômica específica em resposta ao envelhecimento celular, ao passo que a melanina se forma por oxidação espontânea da tirosina, sem participação enzimática.]),
+   ("B", [Ambas derivam da degradação da hemoglobina, mas a lipofuscina retém o componente férrico do heme e a melanina retém o anel porfirínico já desprovido de qualquer átomo de ferro.]),
+   ("C", [A melanina é resíduo de digestão incompleta de membranas dentro do melanócito, e a lipofuscina é produto de via enzimática dedicada em células de vida longa, como o cardiomiócito.]),
+   ("D", [As duas são pigmentos exógenos que chegam por fagocitose de material particulado, diferindo apenas quanto ao tecido em que predominam os macrófagos que as capturaram inicialmente.]),
+   ("E", [A lipofuscina é resíduo insolúvel da peroxidação lipídica de membranas digeridas na autofagia; a melanina é produto final de via enzimática própria, a partir da tirosina, pela tirosinase.])))
 
-#questao-mc("10", badge-consolidacao,
-  [Os ACR Appropriateness Criteria servem para:],
-  (("A", [Padronizar a dose de contraste iodado injetada em cada tipo de tomografia, de acordo com o peso e a função renal do paciente.]),
-   ("B", [Definir a ordem fixa das fases arterial, portal e excretora que todo exame contrastado deve obrigatoriamente seguir.]),
-   ("C", [Estabelecer o intervalo mínimo de segurança entre dois exames que usam radiação ionizante no mesmo paciente.]),
-   ("D", [Pontuar, de 1 a 9, o quanto cada exame de imagem é adequado a um dado cenário clínico, orientando a solicitação.]),
-   ("E", [Classificar os achados de imagem em benignos ou malignos segundo uma escala numérica reconhecida internacionalmente.])))
+#questao-ce("10", badge-consolidacao,
+  [Julgue os itens sobre pigmentos acumulados no interior de células.],
+  (("I",   [O ferro liberado do heme liga-se à apoferritina formando ferritina; a agregação dessas micelas produz os grânulos de hemossiderina visíveis ao microscópio óptico.]),
+   ("II",  [A hemossiderina acumula-se preferencialmente em tecidos de baixa renovação de hemácias, como pele e tecido subcutâneo, e é rara em fígado, baço e medula óssea.]),
+   ("III", [O pigmento de carvão da antracose é degradado lentamente por enzimas lisossômicas do macrófago, o que explica o clareamento progressivo do pulmão após a cessação da exposição.]),
+   ("IV",  [Transfusões de repetição não aumentam o depósito de ferro, porque hemácias transfundidas compatíveis não são destruídas pelo organismo do receptor.])))
 
 #questao-mc("11", badge-integracao,
-  [Um clínico precisa avaliar em tempo real o fluxo de sangue numa artéria do pescoço, sem expor o paciente à radiação. O recurso adequado e sua base física são:],
-  (("A", [A tomografia com contraste na fase arterial, porque só o iodo endovenoso permite ver o sangue circulando dentro do vaso.]),
-   ("B", [A radiografia com contraste, porque a projeção somada revela o vaso preenchido sem necessidade de cortes ou de reconstrução.]),
-   ("C", [O Doppler ao ultrassom, porque o movimento do sangue muda a frequência do eco, e isso mapeia o fluxo em tempo real sem radiação.]),
-   ("D", [A ressonância sem contraste na sequência T1, porque a gordura clara ao redor do vaso destaca por si só o sangue em movimento.]),
-   ("E", [A tomografia sem contraste na janela óssea, porque o vaso calcificado se destaca do fundo e permite estimar o fluxo indiretamente.])))
+  [Um modelo experimental submete animais a restrição proteica isolada, mantendo o aporte calórico total preservado. Os fígados desenvolvem esteatose. O mecanismo predominante é:],
+  (("A", [A restrição proteica reduz a atividade da álcool-desidrogenase hepática, e o acúmulo de acetaldeído desvia ácidos graxos da oxidação mitocondrial para a esterificação no citoplasma.]),
+   ("B", [A queda da oferta de aminoácidos ativa a gliconeogênese hepática a partir de lipídio, e o intermediário glicerol é reesterificado em triglicéride que permanece dentro da célula.]),
+   ("C", [A síntese de apoproteína cai, e sem ela o triglicéride já formado dentro do hepatócito não pode ser conjugado em lipoproteína nem exportado para o plasma; a gordura fica retida no citoplasma.]),
+   ("D", [A restrição proteica reduz a expressão de chaperonas, e o acúmulo de proteínas mal dobradas no retículo desloca fisicamente as vesículas de lipoproteína, impedindo sua fusão com a membrana.]),
+   ("E", [A falta de aminoácidos reduz a produção de sais biliares, e a bile empobrecida não emulsifica gordura no duodeno, aumentando a fração de ácido graxo desviada ao fígado pela circulação porta.])))
 
 #questao-ce("12", badge-integracao,
-  [Julgue os itens que contrastam tomografia e ressonância magnética:],
-  (("I", [A tomografia usa raios-X e entrega radiação ionizante; a ressonância usa campo magnético e ondas de rádio, sem radiação ionizante.]),
-   ("II", [A ressonância tende a superar a tomografia na resolução de contraste entre partes moles, como substância branca e cinzenta.]),
-   ("III", [A tomografia costuma ser mais rápida que a ressonância, o que a favorece no trauma e na urgência.]),
-   ("IV", [A ressonância é o exame preferido no trauma agudo instável justamente por ser mais rápida e dispensar cooperação do paciente.])))
+  [Julgue os itens sobre a relação entre o acúmulo de colesterol na parede arterial e a deposição de cálcio.],
+  (("I",   [Macrófagos que fagocitaram colesterol na íntima arterial podem morrer, e seus restos passam a servir de núcleo para deposição de cálcio dentro da placa.]),
+   ("II",  [A calcificação da placa de ateroma é distrófica, ocorrendo com concentração sérica de cálcio normal.]),
+   ("III", [A esclerose de Mönckeberg e a placa de ateroma calcificada acometem a mesma túnica arterial, diferindo apenas na quantidade de cálcio depositada.]),
+   ("IV",  [A obstrução parcial da luz pela placa favorece turbilhonamento do fluxo, ativação endotelial e formação de trombo sobre a lesão.])))
 
 #questao-mc("13", badge-integracao,
-  [Sobre a diferença entre o contraste iodado da tomografia e o gadolínio da ressonância, é correto afirmar:],
-  (("A", [O iodo atenua fortemente os raios-X e faz vasos e órgãos acenderem na tomografia; o gadolínio encurta o T1 e realça em T1 na ressonância.]),
-   ("B", [Ambos são o mesmo composto, usado em concentrações diferentes conforme o aparelho, e agem sempre por atenuação do feixe de raios-X.]),
-   ("C", [O gadolínio é injetado na tomografia e o iodo na ressonância, pois cada um responde melhor à física do aparelho oposto ao seu.]),
-   ("D", [Nenhum dos dois é endovenoso; ambos são administrados apenas por via oral para opacificar a luz do tubo digestivo antes do exame.]),
-   ("E", [O contraste iodado age escurecendo os vasos na imagem, enquanto o gadolínio age tornando toda a água do corpo invisível na sequência T2.])))
+  [Em um paciente com diabetes descompensado, a glicemia está alta e, ainda assim, o hepatócito se comporta metabolicamente como se estivesse em jejum. Qual encadeamento explica a esteatose resultante?],
+  (("A", [A hiperglicemia satura a via glicolítica hepática, e o excesso de piruvato é convertido diretamente em triglicéride dentro do hepatócito, sem passar pela mobilização de gordura do tecido adiposo.]),
+   ("B", [Sem insulina, a captação de glicose cai e a lipase hormônio-sensível deixa de ser inibida; ela hidrolisa triglicéride do adipócito e envia ácido graxo ao fígado, que esterifica o excedente.]),
+   ("C", [A hiperglicemia glicosila a apoproteína e impede sua conjugação ao triglicéride, de modo que a lipoproteína não se forma e a gordura fica retida no hepatócito por bloqueio de exportação.]),
+   ("D", [O excesso de insulina circulante ativa a lipase hormônio-sensível no adipócito, aumentando a oferta de ácido graxo ao fígado, que responde esterificando o excedente na forma de triglicéride.]),
+   ("E", [A glicose em excesso é polimerizada em glicogênio até saturar a capacidade hepática, e a partir desse ponto o hepatócito passa a estocar o excedente energético sob a forma de gordura neutra.])))
 
 #questao-mc("14", badge-integracao,
-  [Antes de injetar contraste iodado endovenoso numa tomografia, checa-se a função renal do paciente porque:],
-  (("A", [O contraste iodado é filtrado pelos pulmões, e a insuficiência renal reduz indiretamente a troca gasosa necessária para eliminá-lo.]),
-   ("B", [A dose de radiação da tomografia aumenta muito quando há contraste, e o rim comprometido tolera pior essa carga adicional de raios.]),
-   ("C", [O iodo é eliminado pelos rins e pode desencadear queda aguda da função renal, sobretudo em quem já tem o rim comprometido.]),
-   ("D", [O contraste iodado só realça bem os vasos quando a filtração glomerular está reduzida, retendo o iodo por mais tempo na circulação.]),
-   ("E", [A função renal define qual janela — parênquima ou óssea — será usada para ler as imagens obtidas após a injeção do contraste.])))
+  [Duas lâminas de fígado mostram citoplasma alterado. Na primeira há vacúolos claros e nítidos com núcleo deslocado contra a membrana; na segunda o citoplasma está difusamente heterogêneo, com aspecto rendilhado e núcleo central. A diferença decorre de:],
+  (("A", [Diferença de tempo de evolução: o aspecto rendilhado precede o vacúolo, e ambos correspondem ao mesmo acúmulo de triglicéride em estágios sucessivos de confluência das gotículas lipídicas.]),
+   ("B", [Diferença de técnica: o vacúolo aparece quando o corte é processado em parafina e o aspecto rendilhado quando é congelado, sendo os dois padrões do mesmo material acumulado.]),
+   ("C", [Diferença de compartimento: o vacúolo corresponde a acúmulo dentro de lisossomos e o aspecto rendilhado a acúmulo livre no citosol, ambos referentes ao mesmo lípide neutro estocado.]),
+   ("D", [Diferença de solubilidade: o lípide é insolúvel e forma glóbulos de contorno nítido que rechaçam o núcleo; o glicogênio é hidrossolúvel, distribui-se pelo citosol e deixa a textura rendilhada.]),
+   ("E", [Diferença de origem: o vacúolo indica material fagocitado do meio extracelular e o rendilhado indica material sintetizado pela própria célula, sem relação com a natureza química do depósito.])))
 
 #questao-ce("15", badge-integracao,
-  [Julgue os itens sobre as fases do contraste iodado na tomografia:],
-  (("I", [A fase é simplesmente o instante da aquisição depois da injeção endovenosa, e cada instante mostra uma parte da circulação do contraste.]),
-   ("II", [Na fase portal ou venosa o contraste já banhou o parênquima, e é quando o fígado aparece mais homogêneo para avaliar suas lesões.]),
-   ("III", [Na fase excretora, mais tardia, o contraste ainda não saiu das artérias e não pode ser visto no sistema urinário.]),
-   ("IV", [Na fase arterial, adquirida logo após a injeção, lesões muito vascularizadas tendem a se destacar do tecido ao redor.])))
+  [Julgue os itens sobre a sequência que leva um paciente com insuficiência renal crônica a depositar cálcio em tecidos viáveis.],
+  (("I",   [A retenção de fosfato pelo rim insuficiente reduz o cálcio sérico em um primeiro momento, e essa queda estimula cronicamente a paratireoide.]),
+   ("II",  [O hiperparatireoidismo dessa situação é primário, decorrente de neoplasia autônoma da glândula, e independe da função renal.]),
+   ("III", [O depósito de cálcio na insuficiência renal é distrófico, ocorrendo apenas em áreas previamente necrosadas do parênquima pulmonar e gástrico.]),
+   ("IV",  [Por ser um distúrbio do metabolismo do cálcio, o quadro dispensa qualquer participação do paratormônio na sua instalação.])))
 
 #questao-mc("16", badge-integracao,
-  [A colangiorressonância consegue mostrar as vias biliares como estradas claras, sem injetar contraste, porque:],
-  (("A", [Usa uma dose extra de raios-X que atravessa a bile sem ser atenuada, projetando os ductos em branco sobre o fundo escuro.]),
-   ("B", [É uma sequência fortemente ponderada em T2, e a bile, por ser líquido praticamente parado, brilha intensamente nessa ponderação.]),
-   ("C", [Injeta ar nas vias biliares antes do exame, e o gás preenchido nos ductos aparece preto, delineando o trajeto por contraste.]),
-   ("D", [Aproveita o eco do ultrassom transmitido pela bile, que por ser líquida conduz o som melhor que os tecidos sólidos vizinhos.]),
-   ("E", [Aplica a janela óssea sobre a tomografia de abdome, faixa em que a bile concentrada atinge valores de atenuação muito altos.])))
+  [Um fragmento hepático corado pela rotina mostra hepatócitos repletos de granulações acastanhadas. O patologista solicita coloração específica para ferro. Qual raciocínio justifica esse pedido?],
+  (("A", [A coloração para ferro confirma a natureza hemoglobinogênica do pigmento, o que basta para separar hemossiderina de bilirrubina, já que apenas a primeira deriva da degradação da hemoglobina.]),
+   ("B", [A coloração para ferro quantifica a carga total do pigmento, informação que a coloração de rotina não fornece e que é indispensável para distinguir depósito fisiológico de sobrecarga patológica.]),
+   ("C", [A coloração para ferro é necessária porque a hemossiderina é incolor na rotina, tornando-se visível apenas após precipitação química do ferro contido nas micelas de ferritina agregadas.]),
+   ("D", [A coloração para ferro distingue hemossiderina de lipofuscina, pigmentos que só podem ser separados por técnica especial, uma vez que a bilirrubina é sempre esverdeada na rotina.]),
+   ("E", [A hemoglobina degradada gera dois pigmentos castanhos: o ferro do heme vira hemossiderina e o restante do anel vira bilirrubina, sem ferro; a técnica cora o ferro de azul e desfaz a ambiguidade.])))
 
-#questao-ce("17", badge-integracao,
-  [Julgue os itens sobre a escolha do método diante do risco de radiação:],
-  (("I", [Em crianças e gestantes, o custo biológico da radiação pesa mais, o que favorece o ultrassom e a ressonância quando eles respondem à pergunta.]),
-   ("II", [A tomografia deve ser o primeiro exame em toda criança com dor abdominal, por ser a mais sensível, independentemente da dose de radiação.]),
-   ("III", [A criança é mais radiossensível que o adulto porque suas células em divisão são mais vulneráveis e ela tem mais anos para expressar um dano tardio.]),
-   ("IV", [Como o ultrassom não usa radiação ionizante, ele costuma ser o primeiro exame de imagem do encéfalo do recém-nascido, pela fontanela.])))
+#questao-mc("17", badge-integracao,
+  [O coração de um paciente idoso tem massa reduzida e coloração acastanhada difusa na superfície de corte. Como o acúmulo de lipofuscina se relaciona com a redução de volume do órgão?],
+  (("A", [A redução de volume e o pigmento têm a mesma raiz na autofagia: a digestão de organelas encolhe a célula e deixa como resíduo o lípide peroxidado, que se concentra no citoplasma remanescente.]),
+   ("B", [A lipofuscina depositada nas fibras exerce efeito tóxico direto sobre o sarcômero e induz sua degradação progressiva, de modo que o pigmento é a causa proximal da perda de massa do órgão.]),
+   ("C", [O pigmento ocupa espaço citoplasmático e desloca as miofibrilas, o que reduz a força de contração e leva, por desuso funcional, à perda gradual de massa muscular do miocárdio envelhecido.]),
+   ("D", [A lipofuscina resulta da degradação da hemoglobina retida no miocárdio isquêmico, e a atrofia decorre da isquemia crônica, sendo os dois achados consequências independentes do mesmo evento.]),
+   ("E", [O acúmulo de lipofuscina obstrui os capilares intramiocárdicos e reduz a perfusão, o que explica tanto a coloração acastanhada da peça quanto a redução progressiva da massa do órgão.])))
 
-#questao-mc("18", badge-integracao,
-  [Comparado à radiografia simples, o ultrassom de abdome tem a vantagem específica de:],
-  (("A", [Atravessar melhor o gás das alças intestinais, o que o torna superior à radiografia justamente no abdome cheio de ar.]),
-   ("B", [Registrar uma projeção somada de todo o abdome num único disparo, evitando a sobreposição que limita a radiografia.]),
-   ("C", [Entregar a maior resolução espacial entre todos os métodos, resolvendo detalhes ósseos que a radiografia não consegue mostrar.]),
-   ("D", [Ver estruturas em tempo real e caracterizar líquidos, como cistos e coleções, sem usar radiação ionizante nenhuma.]),
-   ("E", [Dispensar qualquer contato com a pele do paciente, formando a imagem à distância a partir do calor emitido pelos órgãos.])))
+#questao-ce("18", badge-integracao,
+  [Julgue as associações entre as rotas gerais de acúmulo intracelular e seus exemplos.],
+  (("I",   [O acúmulo de pigmento de tatuagem na derme exemplifica a rota do defeito de dobramento proteico.]),
+   ("II",  [A esteatose hepática do etilista exemplifica a rota da ingestão de material indigerível pela célula.]),
+   ("III", [As glicogenoses exemplificam a rota da falta de enzima, com represamento do substrato a montante do bloqueio.]),
+   ("IV",  [A placa senil da doença de Alzheimer exemplifica a rota do metabolismo desviado de lípides dentro do neurônio.])))
 
 #questao-mc("19", badge-integracao,
-  [Aplica-se a supressão de gordura (fat sat) numa ressonância quando se quer:],
-  (("A", [Aumentar o brilho da gordura para usá-la como referência anatômica de fundo em torno da lesão que se investiga.]),
-   ("B", [Reduzir o tempo total do exame, suprimindo as aquisições da gordura para que o paciente permaneça menos tempo imóvel.]),
-   ("C", [Converter a sequência T2 em T1, invertendo o comportamento da água para que ela apareça escura em vez de clara.]),
-   ("D", [Substituir o gadolínio, produzindo por software o mesmo realce que o contraste endovenoso daria aos tecidos vascularizados.]),
-   ("E", [Apagar o sinal do tecido gorduroso para revelar uma lesão que o brilho da gordura estaria escondendo na imagem.])))
+  [Um paciente com mieloma múltiplo apresenta lesões líticas ósseas, hipercalcemia e, à necropsia, depósitos de cálcio em pulmão e mucosa gástrica. Sobre esse conjunto, assinale a alternativa *incorreta*.],
+  (("A", [O plasmócito neoplásico acumula imunoglobulina dentro do próprio citoplasma porque produz muito além do que consegue secretar, o que configura acúmulo proteico pela rota do excesso de síntese.]),
+   ("B", [Os depósitos em pulmão e mucosa gástrica são distróficos, o que indica que houve necrose prévia nesses órgãos como condição para a deposição do cálcio observada.]),
+   ("C", [A destruição do tecido ósseo pelas lesões líticas libera na circulação o cálcio que estava mineralizado na matriz, o que sustenta a hipercalcemia encontrada no paciente.]),
+   ("D", [A deposição de cálcio em órgãos íntegros caracteriza calcificação metastática, cujo pré-requisito é a hipercalcemia e não a existência de lesão tecidual no local do depósito.]),
+   ("E", [O termo metastática nesse contexto não indica implante de célula tumoral no pulmão ou no estômago, e sim depósito mineral secundário ao distúrbio do metabolismo do cálcio.])))
 
-#questao-ce("20", badge-integracao,
-  [Julgue os itens sobre planos e reconstrução na tomografia:],
-  (("I", [Por reconstruir um volume, a tomografia permite ver a mesma região nos planos axial, coronal e sagital.]),
-   ("II", [A capacidade de seccionar o corpo em cortes é o que faz a tomografia resolver a sobreposição que limita a radiografia.]),
-   ("III", [A radiografia convencional também fornece cortes axiais do corpo, de forma equivalente à tomografia, apenas com menos nitidez.]),
-   ("IV", [Trocar de plano de corte exige uma nova varredura com radiação adicional, pois cada plano é uma aquisição independente.])))
+#questao-mc("20", badge-integracao,
+  [Um paciente com hemocromatose apresenta pele em tom bronze, glicemia elevada e, à biópsia hepática, esteatose além do depósito de ferro. Qual encadeamento explica a esteatose nesse caso?],
+  (("A", [O ferro depositado no hepatócito bloqueia diretamente a conjugação do triglicéride com apoproteína, retendo a gordura na célula por mecanismo análogo ao do tetracloreto de carbono.]),
+   ("B", [A pigmentação bronze indica sobrecarga cutânea de melanina induzida pelo ferro, e a mesma via aumenta a lipogênese hepática, o que explica a coexistência dos dois achados no paciente.]),
+   ("C", [O ferro lesa as ilhotas pancreáticas e gera diabetes; sem insulina, a lipase hormônio-sensível desinibida despeja ácido graxo no fígado, que esterifica o excedente como triglicéride.]),
+   ("D", [O ferro acumulado catalisa peroxidação das membranas do hepatócito, e o lípide peroxidado resultante é o próprio material que se acumula no citoplasma sob a forma de vacúolos claros.]),
+   ("E", [A sobrecarga de ferro reduz a absorção intestinal de proteína, e a desnutrição proteica secundária impede a exportação hepática de lipoproteína, retendo o triglicéride no hepatócito.])))
 
-#questao-mc("21", badge-integracao,
-  [O pneumoperitônio e os níveis hidroaéreos são achados que a radiografia detecta bem porque:],
-  (("A", [O método reconstrói cortes finos do abdome em que pequenas bolhas de ar ganham valores de atenuação muito positivos.]),
-   ("B", [A supressão de gordura aplicada à radiografia apaga as partes moles e deixa visível apenas o ar acumulado na cavidade.]),
-   ("C", [O ultrassom acoplado à radiografia transmite o som pelo ar livre, que assim se destaca das estruturas sólidas vizinhas.]),
-   ("D", [O contraste iodado injetado antes do exame se acumula nas bolhas de ar e as faz acender em branco sobre o fundo escuro.]),
-   ("E", [O ar quase não freia os raios-X e aparece bem preto, contrastando com os tecidos ao redor mesmo numa projeção somada.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens sobre a bile e os materiais que podem se acumular a partir dela.],
+  (("I",   [A bile é composta exclusivamente de bilirrubina, o que explica por que sua estase produz coloração amarelo-esverdeada nos tecidos.]),
+   ("II",  [Além do pigmento biliar, a bile carrega sais biliares e colesterol, e é essa presença de colesterol que permite a formação de cálculo na luz da vesícula.]),
+   ("III", [A colesterolose da parede vesicular e o cálculo de colesterol são o mesmo fenômeno, diferindo apenas no volume de lípide depositado.]),
+   ("IV",  [A bilirrubina, por derivar da hemoglobina, contém ferro em sua estrutura e por isso cora em azul pela técnica específica para esse metal.])))
 
 #questao-mc("22", badge-integracao,
-  [Sobre o ultrassom, assinale a alternativa INCORRETA:],
-  (("A", [Forma a imagem a partir dos ecos de um pulso sonoro e não utiliza radiação ionizante em momento algum do exame.]),
-   ("B", [É dinâmico e portátil, o que permite avaliar estruturas em movimento e levar o aparelho até o leito do paciente.]),
-   ("C", [Caracteriza bem líquidos, como o conteúdo de um cisto ou a urina na bexiga, que aparecem escuros por quase não refletirem o som.]),
-   ("D", [Atravessa o osso e o gás com facilidade, o que o torna o método de escolha para avaliar o pulmão e o interior dos ossos.]),
-   ("E", [Pelo efeito Doppler, detecta o movimento do sangue e mapeia o fluxo nos vasos, tudo isso em tempo real e sem radiação.])))
+  [Um pulmão de necropsia de adulto urbano mostra manchas enegrecidas ao longo dos septos e nos linfonodos hilares. Aplicando os critérios que qualificam um acúmulo, qual leitura é a mais adequada?],
+  (("A", [O achado indica pneumoconiose estabelecida, uma vez que a presença de material particulado no interstício pulmonar é por si só critério diagnóstico dessa categoria de doença ocupacional.]),
+   ("B", [O achado indica que os macrófagos alveolares perderam capacidade fagocitária, já que o pigmento permaneceu no interstício em vez de ser removido pela drenagem linfática habitual do pulmão.]),
+   ("C", [O achado indica hemorragia alveolar antiga, pois o pigmento escuro no interstício corresponde a hemossiderina oxidada acumulada em macrófagos após episódios repetidos de sangramento.]),
+   ("D", [O achado indica exposição ocupacional específica, pois o carvão elementar do material particulado urbano não alcança o alvéolo em quantidade suficiente para produzir pigmentação visível.]),
+   ("E", [O achado é acúmulo de carvão fagocitado e não digerível, quase universal no adulto urbano; a toxicidade depende da carga e do tipo de partícula, e não da simples presença do pigmento.])))
 
 #questao-mc("23", badge-integracao,
-  [Sobre a ressonância magnética, assinale a alternativa INCORRETA:],
-  (("A", [Aproveita os prótons de hidrogênio da água e da gordura, que devolvem um sinal de rádio ao relaxar dentro do campo magnético.]),
-   ("B", [É um exame rápido, de poucos segundos, e por isso constitui o método de escolha para o trauma agudo instável na sala de emergência.]),
-   ("C", [Oferece resolução de contraste de partes moles insuperável, distinguindo com nitidez estruturas como a substância branca e a cinzenta.]),
-   ("D", [Não usa radiação ionizante, o que a torna atraente quando se quer evitar a exposição do paciente a raios-X.]),
-   ("E", [Exige rastrear material ferromagnético antes do exame, pois o campo intenso pode deslocar ou aquecer estruturas metálicas.])))
+  [Comparando calcificação distrófica e calcificação metastática, assinale a alternativa *incorreta*.],
+  (("A", [Na distrófica o determinante é o estado do tecido, que oferece restos celulares e matriz como sítio de nucleação; na metastática o determinante é a concentração de cálcio no sangue.]),
+   ("B", [A distrófica tende a ser difusa e simultânea em vários órgãos, ao passo que a metastática é focal e restrita ao território em que ocorreu a lesão tecidual desencadeante.]),
+   ("C", [A calcemia é normal na distrófica e está elevada na metastática, e essa diferença basta para orientar a investigação laboratorial diante de um depósito de cálcio encontrado.]),
+   ("D", [O tecido que calcifica é necrótico, cicatricial ou degenerado na distrófica, ao passo que na metastática ele é histologicamente viável e não sofreu agressão prévia identificável.]),
+   ("E", [Insuficiência renal, hiperparatireoidismo e destruição óssea por neoplasia conduzem à forma metastática; necrose caseosa, placa de ateroma, valva alterada e cicatriz antiga conduzem à forma distrófica.])))
 
-#questao-mc("24", badge-integracao,
-  [O contraste administrado por via oral ou retal numa tomografia tem a finalidade de:],
-  (("A", [Encurtar o T1 das alças intestinais para que elas brilhem, do mesmo modo que o gadolínio faz na ressonância magnética.]),
-   ("B", [Reduzir a dose de radiação necessária, já que o contraste luminal absorve parte dos raios-X antes que eles atinjam o paciente.]),
-   ("C", [Substituir a fase arterial do contraste endovenoso, opacificando os vasos abdominais a partir de dentro da luz intestinal.]),
-   ("D", [Provocar o peristaltismo das alças para que o exame capte o intestino em movimento, à maneira dinâmica do ultrassom.]),
-   ("E", [Opacificar a luz do tubo digestivo, delimitando as alças e ajudando a separá-las de uma coleção ou de um órgão vizinho.])))
+#questao-ce("24", badge-integracao,
+  [Um lactente com glicogenose por deficiência de glicose-6-fosfatase apresenta hepatomegalia e hipoglicemia grave em jejum curto. Julgue os itens.],
+  (("I",   [O glicogênio hepático se acumula porque a via de degradação está bloqueada, e o polímero não pode ser convertido em glicose livre exportável.]),
+   ("II",  [A hipoglicemia mantida obriga o organismo a mobilizar lipídio do tecido adiposo como fonte alternativa de energia.]),
+   ("III", [A hepatomegalia decorre exclusivamente do peso do polímero acumulado, sem contribuição de retenção de água pelo hepatócito.]),
+   ("IV",  [Por ser um defeito genético de enzima, o quadro corresponde à mesma rota de acúmulo que produz o pigmento de tatuagem na derme.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens que cruzam o talento de cada método com sua cegueira:],
-  (("I", [A tomografia é lenta e pobre em detalhe espacial, o que a torna inadequada para as situações de trauma e de urgência.]),
-   ("II", [O ultrassom brilha em líquidos e tempo real, mas é cego onde há gás, gordura espessa ou osso no caminho do som.]),
-   ("III", [A ressonância vence na resolução de partes moles, mas paga com tempo longo de exame e com a contraindicação ferromagnética.]),
-   ("IV", [A radiografia é imediata para osso e ar, porém a sobreposição das sombras pode esconder uma lesão atrás de outra estrutura.])))
+#questao-mc("25", badge-integracao,
+  [Um paciente com obstrução completa da via biliar extra-hepática apresenta icterícia e fezes descoradas. Qual encadeamento liga a obstrução ao prejuízo do aproveitamento das gorduras da dieta?],
+  (("A", [A bile produzida no hepatócito não alcança o duodeno; sem ela não há emulsificação adequada da gordura, e a bilirrubina represada reflui e impregna tecidos e mucosas de amarelo-esverdeado.]),
+   ("B", [A obstrução impede a síntese de bilirrubina pelo hepatócito, e a ausência do pigmento na luz intestinal reduz a atividade das lipases pancreáticas, comprometendo a digestão de triglicérides.]),
+   ("C", [A obstrução eleva a pressão na via biliar e lesa o hepatócito, que perde a capacidade de conjugar triglicéride com apoproteína, de modo que a gordura da dieta permanece retida no fígado.]),
+   ("D", [A bile represada é reabsorvida pela circulação porta e retorna ao fígado, onde satura os transportadores de ácido graxo e impede a captação hepática dos lípides absorvidos no intestino.]),
+   ("E", [A obstrução impede a chegada de colesterol ao intestino, e sem colesterol não se formam as micelas necessárias à absorção de gordura, o que explica as fezes descoradas do paciente.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um paciente chega ao pronto-socorro com déficit neurológico súbito, e a equipe precisa distinguir rapidamente um AVC hemorrágico de um isquêmico. O exame inicial adequado e a razão física são:],
-  (("A", [A ressonância de crânio com gadolínio, porque só o realce pelo contraste endovenoso permite ver sangue dentro do parênquima cerebral.]),
-   ("B", [O ultrassom transcraniano com Doppler, porque o eco do sangue coagulado o distingue de imediato do tecido cerebral normal ao redor.]),
-   ("C", [A tomografia de crânio sem contraste, porque é veloz e o sangue agudo é espontaneamente hiperdenso, aparecendo branco sem contraste.]),
-   ("D", [A radiografia de crânio em duas projeções, porque a sobreposição das sombras ósseas revela a área de sangramento por transparência.]),
-   ("E", [A colangiorressonância adaptada ao crânio, porque a ponderação em T2 faz o sangue parado brilhar como faz com a bile nas vias biliares.])))
+  [Homem de 48 anos, etilista pesado há vinte anos, com desnutrição. À ultrassonografia, fígado difusamente hiperecogênico e aumentado. Qual conjunto de mecanismos explica melhor o achado?],
+  (("A", [Ingestão calórica elevada com hiperinsulinemia sustentada, que estimula a lipogênese hepática de novo e satura a capacidade de exportação de lipoproteína pelo hepatócito íntegro.]),
+   ("B", [Desnutrição crônica que reduz apoproteína e mobiliza ácido graxo, lesão direta do hepatócito pelo etanol, e acetato do metabolismo do álcool servindo de substrato para esterificar mais gordura.]),
+   ("C", [Sobrecarga de ferro secundária ao consumo de bebidas destiladas, com depósito de hemossiderina nos hepatócitos e reação inflamatória que altera difusamente a ecogenicidade do parênquima.]),
+   ("D", [Obstrução dos canalículos biliares por tampões de bile, com represamento de pigmento no hepatócito e aumento difuso do volume hepático por retenção de água nos espaços portais.]),
+   ("E", [Acúmulo de glicogênio por distúrbio adquirido do metabolismo dos carboidratos, com citoplasma rendilhado e hepatomegalia por arraste osmótico de água para dentro do hepatócito.])))
 
-#questao-mc("27", badge-aplicacao,
-  [Diante de forte suspeita de obstrução intestinal, um exame simples, rápido e de baixo custo já pode confirmar o quadro à beira do leito. Trata-se de:],
-  (("A", [A radiografia de abdome em ortostase, na qual ar e líquido se separam nas alças distendidas e formam os níveis hidroaéreos característicos.]),
-   ("B", [A ressonância de abdome ponderada em T2, na qual o líquido acumulado nas alças brilha e revela o ponto exato da obstrução do trânsito.]),
-   ("C", [A tomografia com contraste na fase excretora, na qual o meio iodado eliminado pela urina desenha o trajeto até o ponto obstruído.]),
-   ("D", [O ultrassom com Doppler das alças, no qual a ausência de fluxo sanguíneo na parede confirma de imediato a obstrução mecânica.]),
-   ("E", [A colangiorressonância das alças, na qual a bile refluída para o intestino delineia em branco o segmento distendido pela obstrução.])))
+#questao-ce("27", badge-aplicacao,
+  [Mulher de 55 anos com pele em tom bronze, diabetes de início recente e episódios de arritmia. A biópsia hepática cora intensamente em azul pela técnica para ferro. Julgue os itens.],
+  (("I",   [A coloração azul indica que o pigmento acumulado é bilirrubina, derivada da hemoglobina.]),
+   ("II",  [O diabetes dessa paciente decorre de resistência periférica à insulina causada pela pigmentação cutânea.]),
+   ("III", [O quadro só pode ser secundário a transfusões de repetição, já que a forma genética é excepcionalmente rara.]),
+   ("IV",  [O depósito de ferro em ilhotas pancreáticas, pele e miocárdio explica simultaneamente o diabetes, a cor bronze e as arritmias.])))
 
-#questao-ce("28", badge-aplicacao,
-  [Uma paciente investiga cálculos e possível obstrução das vias biliares. Julgue os itens:],
-  (("I", [O ultrassom é um bom primeiro exame, pois avalia a vesícula sem radiação e um cálculo produz sombra acústica posterior típica.]),
-   ("II", [A colangiorressonância pode mapear as vias biliares sem contraste nem radiação, aproveitando o brilho da bile na ponderação em T2.]),
-   ("III", [Uma radiografia simples de abdome é o método mais sensível para ver a maioria dos cálculos biliares, que aparecem sempre bem brancos.]),
-   ("IV", [Evitar a radiação é desejável nessa investigação, sobretudo se a paciente for jovem e o quadro exigir exames repetidos.])))
+#questao-mc("28", badge-aplicacao,
+  [Homem de 62 anos com icterícia progressiva indolor. A biópsia hepática mostra tampões de bile em canalículos dilatados, com arquitetura lobular preservada e sem necrose significativa. Esse padrão sugere:],
+  (("A", [Hemólise intravascular maciça, com sobrecarga de bilirrubina que ultrapassa a capacidade de conjugação do hepatócito e se deposita nos canalículos sob a forma de tampões pigmentados.]),
+   ("B", [Obstrução da via biliar a jusante, com hepatócito produzindo e excretando bile normalmente, mas sem drenagem possível, o que faz o pigmento represar e formar tampões nos canalículos.]),
+   ("C", [Defeito genético da enzima de conjugação da bilirrubina, que se acumula no citoplasma do hepatócito antes mesmo de alcançar o canalículo, produzindo o padrão descrito na biópsia.]),
+   ("D", [Sobrecarga de ferro com depósito de hemossiderina, cujos grânulos acastanhados nos canalículos são indistinguíveis de bile na coloração de rotina do fragmento hepático examinado.]),
+   ("E", [Hepatite aguda com lesão difusa do hepatócito, em que a perda da capacidade de captação da bilirrubina produz estase de pigmento e desorganização da arquitetura lobular do fígado.])))
 
-#questao-ce("29", badge-aplicacao,
-  [Uma gestante apresenta dor no andar superior do abdome e será investigada por imagem. Julgue os itens:],
-  (("I", [Prefere-se começar pelo ultrassom, porque não usa radiação ionizante e caracteriza bem a vesícula, o fígado e eventuais líquidos.]),
-   ("II", [A ressonância magnética é uma alternativa sem radiação ionizante quando o ultrassom não responde à pergunta clínica.]),
-   ("III", [A tomografia com contraste iodado deve ser o primeiro exame de rotina, por ser rápida, apesar de expor o feto à radiação.]),
-   ("IV", [O fato de o ultrassom e a ressonância não usarem radiação ionizante os torna especialmente adequados a essa paciente.])))
+#questao-mc("29", badge-aplicacao,
+  [Paciente de 58 anos em hemodiálise há oito anos por doença renal crônica. A necropsia revela depósitos de cálcio em septos alveolares, mucosa gástrica e paredes vasculares, em tecidos histologicamente preservados, sem áreas de necrose prévia. O paratormônio sérico estava cronicamente elevado e o fosfato, retido. Qual sequência explica o quadro?],
+  (("A", [Retenção de fosfato pelo rim insuficiente, queda inicial do cálcio sérico, estímulo crônico da paratireoide e hiperparatireoidismo secundário que eleva o cálcio circulante e o deposita em tecidos viáveis.]),
+   ("B", [Necrose isquêmica difusa dos tecidos por hipoperfusão durante as sessões de diálise, com deposição distrófica de cálcio sobre os restos celulares liberados nas áreas comprometidas.]),
+   ("C", [Neoplasia autônoma de paratireoide produzindo paratormônio sem controle, com hipercalcemia primária e depósito difuso de cálcio, sendo a doença renal apenas comorbidade coincidente.]),
+   ("D", [Intoxicação por vitamina D administrada durante o tratamento, com aumento da absorção intestinal de cálcio e supressão do paratormônio, o que explica os depósitos em múltiplos órgãos.]),
+   ("E", [Perda urinária de fosfato pelo rim doente, com queda do produto cálcio-fosfato e precipitação compensatória de sais nos tecidos que apresentam maior alcalinidade intersticial local.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um politraumatizado grave e instável chega ao pronto-socorro, e a equipe precisa de uma varredura ampla e veloz para localizar hemorragias internas. O exame de escolha e o motivo são:],
-  (("A", [A ressonância de corpo inteiro, porque sua resolução de partes moles é a maior de todas e revela qualquer sangramento com nitidez.]),
-   ("B", [A radiografia em múltiplas projeções, porque a soma das sombras num único filme cobre todo o corpo mais rápido que qualquer outro método.]),
-   ("C", [O ultrassom de todo o abdome e do tórax, porque atravessa bem o gás e o osso das costelas e localiza o sangramento em tempo real.]),
-   ("D", [A tomografia, porque é rápida — questão de segundos —, e sua alta resolução espacial cobre grandes regiões do corpo de uma vez e localiza com precisão as hemorragias internas.]),
-   ("E", [A colangiorressonância ampliada, porque a ponderação em T2 faz qualquer líquido, inclusive o sangue, brilhar sobre o fundo escuro.])))
+  [Adolescente de 16 anos com diabetes tipo 1 chega ao pronto-socorro em cetoacidose, após semanas sem insulina. Glicemia muito elevada, corpos cetônicos positivos, hepatomegalia dolorosa. A biópsia hepática, feita semanas depois em investigação de hepatomegalia persistente, mostra hepatócitos com vacúolos lipídicos e, em outras áreas, citoplasma rendilhado. Qual leitura integra os achados?],
+  (("A", [Os dois padrões representam o mesmo acúmulo de triglicéride em estágios distintos de confluência, e a hepatomegalia decorre apenas do volume de gordura estocado durante a descompensação metabólica.]),
+   ("B", [O vacúolo lipídico é artefato de processamento e o padrão real é o rendilhado, indicando que o acúmulo predominante no diabetes descompensado é exclusivamente de glicogênio hepático.]),
+   ("C", [O rendilhado corresponde a depósito de hemossiderina secundário à hemólise da cetoacidose, e o vacúolo lipídico traduz esteatose por lesão direta do hepatócito pelos corpos cetônicos circulantes.]),
+   ("D", [Ambos os padrões são inespecíficos e refletem apenas edema celular por desequilíbrio osmótico da hiperglicemia, sem correspondência com acúmulo de substrato dentro do hepatócito.]),
+   ("E", [Sem insulina, a lipase desinibida enviou ácido graxo ao fígado, que o esterificou em triglicéride insolúvel — o vacúolo; o glicogênio, hidrossolúvel, dá o rendilhado e ainda arrasta água, somando volume.])))
