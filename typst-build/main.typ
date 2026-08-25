@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- patologia-adaptacao-acumulos | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,35 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Adaptação Celular e Acúmulos",
+  "Patologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Patologia — Departamento de Patologia"),
+    ("Onde estudar", "Robbins & Cotran, Patologia — Bases Patológicas das Doenças (10ª ed.), Cap. 1 e 2 · Brasileiro Filho, Bogliolo — Patologia (10ª ed.), Cap. 4 a 6"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — A célula que se adapta", (
+      "1.1 Adaptação, lesão e tipo de tecido",
+      "1.2 Hipertrofia: célula maior",
+      "1.3 Hiperplasia: mais células",
+      "1.4 Atrofia, hipoplasia e aplasia",
+      "1.5 Metaplasia: trocar de identidade",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Acúmulos: lógica, lipídios e proteínas", (
+      "2.1 As quatro rotas do acúmulo",
+      "2.2 Esteatose: o balanço do hepatócito",
+      "2.3 Colesterol: ateroma, xantoma, colesterolose",
+      "2.4 Acúmulos proteicos e amiloide",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Glicogênio, pigmentos e cálcio", (
+      "3.1 Glicogênio: diabetes e glicogenoses",
+      "3.2 Lipofuscina e melanina",
+      "3.3 Hemossiderina, ferro e bilirrubina",
+      "3.4 Calcificação distrófica e metastática",
     )),
   )),
 ))
@@ -57,39 +59,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("01", "D"),
+    ("02", "CECC"),
+    ("03", "B"),
+    ("04", "E"),
+    ("05", "CCEC"),
+    ("06", "A"),
+    ("07", "C"),
+    ("08", "ECCE"),
+    ("09", "E"),
+    ("10", "B"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
+    ("11", "A"),
+    ("12", "CEEC"),
+    ("13", "D"),
     ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("15", "CCCE"),
+    ("16", "E"),
+    ("17", "A"),
+    ("18", "ECCE"),
+    ("19", "D"),
+    ("20", "EECC"),
+    ("21", "CCEE"),
+    ("22", "B"),
+    ("23", "E"),
+    ("24", "ECCC"),
+    ("25", "C"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "B"),
+    ("27", "D"),
+    ("28", "ECEE"),
+    ("29", "A"),
+    ("30", "C"),
   )),
 ))

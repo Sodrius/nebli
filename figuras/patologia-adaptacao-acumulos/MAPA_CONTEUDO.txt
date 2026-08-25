@@ -1,0 +1,71 @@
+# MAPA_CONTEUDO -- patologia-adaptacao-acumulos
+# Slide-fonte: 26db81ba-C__Apresenta__o_em_PDF_da_V_deo_Aula__Parte_1__Adapta__o__PT__Ac_mulos_e_Adapta__o_Celular_1_1.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: burns@usp.br Adaptação Celular Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-02: burns@usp.br Lesão celular Robbins, Pathologic basis of disease, 9th edition
+slide-03: burns@usp.br Adaptação Celular • Tecidos que se dividem continuamente (lábeis) – Superfícies epiteliais – pele, cavidade oral, ductos excretores, TGI, útero, vagina, trato urinário, células hematopoiéticas • Tecidos estáveis (quiescentes) – Órgãos pa...
+slide-04: burns@usp.br Adaptação Celular Robbins, Pathologic basis of disease, 9th edition
+slide-05: burns@usp.br Adaptação Celular ADAPTAÇÃO CEULAR • Alteração morfológica e funcional da célula em resposta a um estímulo, que determina um novo estado de equilíbrio celular, preservando sua viabilidade e modulando sua função TIPOS • Hiperplasia • Hipe...
+slide-06: burns@usp.br • Aumento do tamanho das células que resulta em aumento do tamanho do órgão – não há células novas e sim maiores • Pode ocorrer ser fisiológica ou patológica Hipertrofia
+slide-07: burns@usp.br Hipertrofia • Hipertrofia Fisiológica – Aumento da demanda funcional – Estímulo hormonal e de fatores de crescimento
+slide-08: burns@usp.br Hipertrofia • Hipertrofia patológica – Associada a doença – Hipertrofia do miocárdio por hipertensão ou doença valvar aórtica
+slide-09: burns@usp.br Hipertrofia
+slide-10: burns@usp.br Hipertrofia • Desencadeantes – Estiramento – Ativação de receptores alfa-adrenérgicos • Desencadeamento de sinalização para fatores de crescimento e proteínas estruturais – Melhor desempenho celular – Existe um limite da adaptação: iníci...
+slide-11: burns@usp.br Hipertrofia – Mecanismos Alvo terapêutico
+slide-12: burns@usp.br Hipertrofia – Genética e mecanismos Robbins, Pathologic basis of disease, 7th edition
+slide-13: burns@usp.br Hipertrofia – Mecanismos • Re-expressão de genes embrionários – Fator Natriurético atrial • Ação diurética - carga hemodinâmica por redução de sódio e água – Transformação de proteínas adultas em proteínas fetais • αMHC (Myosin heavy ch...
+slide-14: burns@usp.br Mauad et al, JACI, 2007 Hipertrofia
+slide-15: burns@usp.br Hiperplasia • Fisiológica – Hormonal – Compensatória • Patológica
+slide-16: burns@usp.br Hiperplasia Robbins, Pathologic basis of disease, 7th edition
+slide-17: burns@usp.br Hiperplasia • Fisiológica: proliferação celular – Hormonal: mamas e útero na gravidez, medula no sangramento (eritropoietina) – Compensatória: fígado, pulmão (pós- retirada de fragmentos / segmentos) – Em que órgãos não ocorre?
+slide-18: burns@usp.br Hiperplasia • Patológica: – Estimulação hormonal excessiva/fatores de crescimento • Alterações no equilíbrio estrógeno/progesterona: sangramentos endometriais (hiperplasia do endométrio) • Andrógenos: Hiperplasia prostática • Infecções v...
+slide-19: burns@usp.br Hiperplasia
+slide-20: burns@usp.br Atrofia Robbins, Pathologic basis of disease, 9th edition • Diminuição do tamanho pela perda de substância celular • Retração da célula para um tamanho menor onde a sobrevivência é possível – Se envolve todo o órgão: atrófico – Células n...
+slide-21: burns@usp.br Atrofia - Tipos • Fisiológica – Ducto Tireoglosso, notocorda, útero pós gestação • Patológica – Envelhecimento • Local – Em geral associada a fluxo sanguíneo deficitário • Difusa – Atletas após aposentadoria, envelhecimento
+slide-22: burns@usp.br Atrofia Patológica - Causas • Diminuição da carga – desuso – Músculatura e osso em indivíduos acamados • Perda de inervação • Isquemia – Atrofia senil (cérebro, coração, etc) • Nutrição inadequada – Caquexia – relação com o TNF / perda d...
+slide-23: burns@usp.br Via também presente no catabolismo neoplásico Atrofia • Síntese proteica diminuída • Degradação proteica aumentada – Via Ubiquitina – proteossomo • Ligação da ubiquitina (ligases) • Digestão no proteossomo – Autofagia
+slide-24: burns@usp.br Atrofia • degradação de proteínas – corticóide – hormônio tireoideano – TNFa – IL1b • síntese de proteínas – insulina
+slide-25: burns@usp.br Atrofia
+slide-26: burns@usp.br Atrofia - Osteoporose
+slide-27: burns@usp.br Hipoplasia • Orgão que nunca desenvolveu! • Pode parecer atrofia... • No extemo: aplasia!
+slide-28: burns@usp.br Metaplasia • Um tipo celular adulto é substituído por outro tipo celular adulto – Reprogramação genética das células tronco e não uma desdiferenciação – Células mais capazes de suportar ambiente hostil – Fumo: epitélio ciliado para epité...
+slide-29: burns@usp.br Metaplasia
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+
+
+# ===== PARTE 2 — Acúmulos Celulares e Teciduais (slides 31-60) =====
+slide-31: burns@usp.br Acúmulos Celulares e Teciduais Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-32: burns@usp.br Acúmulos Intracelulares • Resposta a distúrbios do metabolismo – Constituinte normal da célula • Água, lípides, proteína – Substância anormal, de origem exógena ou endógena • Proteína anormal, cálcio, mineral – Pigmento
+slide-33: burns@usp.br Acúmulos Intracelulares
+slide-34: burns@usp.br Acúmulos Intracelulares • Toxicidade • Localização • A célula pode produzir ou armazenar • Tipos principais de acúmulos – Substância endógena: > produção ou < metabolismo – Acúmulo consequente a defeito genético / adquirido – Substância ...
+slide-35: burns@usp.br Acúmulos – Lípides • Esteatose • Mais comum no fígado (metabolizador de gorduras), pode ocorrer também no coração, rim e músculo • Causas mais comuns: – Desnutrição – Alcoolismo – Doenças metabólicas (diabete mellitus, obesidade, dislipi...
+slide-36: burns@usp.br Acúmulos – Lípides
+slide-37: burns@usp.br Acúmulos – Lípides • Excesso de oferta de ácidos graxos no fígado – Jejum ou desnutrição – Doenças metabólicas (diabetes descompensado) • Ambos causam intensa mobilização de ácidos graxos do tecido adiposo • Diabetes – ativação excessiva...
+slide-38: burns@usp.br Acúmulos – Lípides • Exportação de lipídeos do hepatócito requer conjugação com lipoproteínas - VLDL – Inanição – Redução de lipoproteínas – Tetracloreto de carbono
+slide-39: burns@usp.br Acúmulos – Lípides • Desnutrição crônica • Ação direta lesiva nos hepatócitos • Metabolismo do álcool produz ácido acético em excesso – utilizado para sintetizar ácidos graxos
+slide-40: burns@usp.br Acúmulos – Lípides
+slide-41: burns@usp.br Acúmulos – Lípides • Colesterol e esteres de colesterol – Normalmente utilizado na síntese de membrans celulares – Aterosclerose – Colesterolose – Xantomas
+slide-42: burns@usp.br Acúmulos – Lípides
+slide-43: burns@usp.br Acúmulos – Lípides
+slide-44: burns@usp.br Acúmulos – Proteínas • Diferentes causas • Visíveis ao microscópio ótico – Glóbulos, cristais, acúmulo amorfo • Excesso de produção – Plasmócitos – Mieloma • Dificuldade de reabsorção – Células renais
+slide-45: burns@usp.br Acúmulos – Proteínas Robbins, Pathologic basis of disease, 9th edition
+slide-46: burns@usp.br Acúmulos – Proteínas Depto de Patologia – Universidade de Campinas
+slide-47: burns@usp.br Acúmulos – Glicogênio • Fonte rápida de energia estocada no organismo • Causas de acúmulo: – Distúrbio adquirido do metabolismo – Diabetes – Defeitos genéticos - Glicogenoses
+slide-48: burns@usp.br Acúmulos – Glicogênio
+slide-49: burns@usp.br Calcificação Patológica • Deposição ANORMAL de sais de cálcio • DISTRÓFICA – Tecidos necróticos – Independente da concentração de cálcio – Independente de distúrbios do metabolismo do cálcio • METASTÁTICA – Reflete distúrbio no metabolis...
+slide-50: burns@usp.br Calcificação Patológica – Distrófica • Necrose (caseosa) • Aterosclerose: placas de aterosclerose de Monchkberg – média dos vasos • Valvas cardíacas alteradas – senilidade e febre reumática • Tumores necróticos • Cicatrizes antigas
+slide-51: burns@usp.br Calcificação Patológica – Metastática • Aumento da secreção de PTH aumento da reabsorção óssea • Destruição do tecido ósseo: mieloma, metástases óesseas • Distúrbios relacionados à vitamina D • Insuficiência renal retenção de fosfato ...
+slide-52: burns@usp.br Acúmulos – Pigmentos
+slide-53: burns@usp.br Acúmulos – Pigmentos • Lipofucsina – Pigmento do envelhecimento – Resultado da peroxidação lipídica das membranas celualres – Atóxico – Atrofia Parda
+slide-54: burns@usp.br Acúmulos – Pigmentos • Melanina – Tirosina Dihidroxifenilalanina – Enzima tirosinase em melanócitos – Único pigmento endógeno fisiológico marrom
+slide-55: burns@usp.br Acúmulos – Pigmentos • Hemosiderina – Pigmento derivado da hemoglobina – Amarronzado, granular e brilhante nas células – Ferro + Apoferritina micelas de ferritina – Acúmulo de ferritina grânulos de hemossiderina – Fígado, medula óssea ...
+slide-56: burns@usp.br Acúmulos – Pigmentos • Situações de aumento da quebra de hemáceas – Hemorragias – Hemólises • Transfusões de repetição • Aumento da absorção de ferro ou aumento do ferro na dieta
+slide-57: burns@usp.br Acúmulos – Pigmentos • Hemocromatose pode ser primária ou secundária • Genético – defeito na absorção de ferro – Pigmentação bronze na pele – Diabestes mellitus – Arritmias cardíacas • Prevalência é de 1:200 a 1:500 pessoas nos EUA
+slide-58: burns@usp.br Acúmulos – Pigmentos • Bilirrubina – Principal componente da bile – Deriva da hemoglobina, mas não tem ferro – Icterícia – e impregnação biliar de órgãos – amarelo esverdeado
+slide-59: burns@usp.br Acúmulos – Pigmentos
+slide-60: [VISUAL -- usar adjacente com titulo extraivel]
