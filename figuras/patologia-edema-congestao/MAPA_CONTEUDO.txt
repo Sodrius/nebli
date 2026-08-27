@@ -1,0 +1,24 @@
+# MAPA_CONTEUDO -- patologia-edema-congestao
+# Slide-fonte: edema-slide.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Edema e Congestão Luiz Fernando Ferraz da Silva
+slide-02: Objetivos •Conceituar edema, hiperemia e congestão •Definir hidrotórax, hidropericárdio, ascite e anasarca •Descrever a fisiopatologia dos principais tipos de edema •Citar exemplos de formas específicas de edema e congestão e seus correspondentes mor...
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: Fisioloogia da Circulação
+slide-05: Processo Fisiopatológico Aumento de Pressão Hidrástica Limitação de fluxo (congestão e edema) parcial ou total Redução de Pressão Oncótica Perda de proteínas Redução da produção de proteínas Aumento de permeabilidade vascular
+slide-06: Processo Fisiopatológico
+slide-07: Processo Fisiopatológico
+slide-08: Processo Fisiopatológico
+slide-09: Processo Fisiopatológico
+slide-10: Processo Fisiopatológico
+slide-11: Processo Fisiopatológico
+slide-12: Processo Fisiopatológico
+slide-13: Processo Fisiopatológico
+slide-14: Processo Fisiopatológico
+slide-15: Processo Fisiopatológico
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]

@@ -141,10 +141,23 @@ def render_sumario(estrutura):
 
 def render_gabarito(gabarito):
     """gabarito = {consolidacao: [...], integracao: [...], aplicacao: [...]}"""
+    def _faixa(nome, items):
+        """Rotulo com a faixa REAL de questoes do bloco.
+
+        Antes os rotulos eram fixos (Q01-Q10 / Q11-Q25 / Q26-Q30), o que so
+        vale para a distribuicao PADRAO. Num resumo PROFUNDO (8/17/5) ou
+        SUPERFICIAL (12-13/12-13/5) o rotulo impresso mentia sobre o proprio
+        gabarito. Agora a faixa e derivada dos numeros presentes no bloco.
+        """
+        if not items:
+            return nome
+        nums = [str(n) for n, _ in items]
+        return f"{nome} (Q{nums[0]}\u2013Q{nums[-1]})"
+
     blocos = [
-        ("Consolidação (Q01–Q10)", gabarito.get("consolidacao", [])),
-        ("Integração (Q11–Q25)", gabarito.get("integracao", [])),
-        ("Aplicação (Q26–Q30)", gabarito.get("aplicacao", [])),
+        (_faixa("Consolidação", gabarito.get("consolidacao", [])), gabarito.get("consolidacao", [])),
+        (_faixa("Integração", gabarito.get("integracao", [])), gabarito.get("integracao", [])),
+        (_faixa("Aplicação", gabarito.get("aplicacao", [])), gabarito.get("aplicacao", [])),
     ]
     lines = ["#gabarito-page(("]
     for titulo, items in blocos:

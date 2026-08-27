@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- patologia-edema-congestao | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,88 +8,97 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Edema e Congestão",
+  "Patologia Geral",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Patologia Geral — Princípios do Desenvolvimento das Doenças"),
+    ("Onde estudar", "Robbins & Cotran · Patologia — Bases Patológicas das Doenças (10ª ed.), Cap. 4 — Distúrbios Hemodinâmicos · Bogliolo · Patologia Geral, cap. de Distúrbios da Circulação"),
   ),
 )
 
 // ======= SUMÁRIO =======
+#set-etapa("Sumário")
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O interstício, as forças de Starling e o vocabulário das coleções", (
+      "1.1 Onde a água do corpo mora",
+      "1.2 As quatro forças e o dreno linfático",
+      "1.3 Transudato, exsudato, hiperemia e congestão",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Os cinco mecanismos que produzem edema", (
+      "2.1 Pressão hidrostática aumentada",
+      "2.2 Pressão oncótica reduzida",
+      "2.3 Linfa, sódio e permeabilidade",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Morfologia, órgãos-alvo e consequência clínica", (
+      "3.1 Morfologia do edema e da congestão",
+      "3.2 Pulmão: transudato e dano alveolar",
+      "3.3 Ascite, cirrose e o preço do edema",
     )),
   )),
 ))
 
 // ======= ETAPA 1 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 1 — Texto didático")
 #etapa-header("Etapa 1 — Texto didático")
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#pagebreak(weak: true)
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#pagebreak(weak: true)
+#set-etapa("Gabarito — Etapa 2")
 #gabarito-page((
-  ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "CECC"),
-    ("07", "E"),
+  ("Consolidação (Q01–Q08)", (
+    ("01", "B"),
+    ("02", "E"),
+    ("03", "CECC"),
+    ("04", "B"),
+    ("05", "A"),
+    ("06", "ECCE"),
+    ("07", "D"),
     ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
   )),
-  ("Integração (Q11–Q25)", (
-    ("11", "C"),
-    ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
+  ("Integração (Q09–Q25)", (
+    ("09", "E"),
+    ("10", "CCEE"),
+    ("11", "A"),
+    ("12", "C"),
+    ("13", "EECC"),
+    ("14", "D"),
+    ("15", "D"),
     ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
+    ("17", "CEEC"),
+    ("18", "A"),
     ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("20", "ECCC"),
+    ("21", "C"),
+    ("22", "A"),
+    ("23", "CCEC"),
+    ("24", "D"),
+    ("25", "EECE"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("26", "B"),
+    ("27", "CEEE"),
+    ("28", "E"),
+    ("29", "ECEE"),
+    ("30", "C"),
   )),
 ))
