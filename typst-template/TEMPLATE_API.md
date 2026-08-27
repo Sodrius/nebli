@@ -243,6 +243,17 @@ Gabarito consolidado da E2, organizado por categoria.
 ### `resumindo-page(secoes)`
 Página "Resumindo" — 1 página, 2 colunas, banner âmbar. Chamada **logo após Conclusão integradora da E1**, antes da E2. REDATOR-E1 entrega `resumindo.typ` com a estrutura `secoes-resumindo`.
 
+### `resumindo-zero-page(termos, abertura: none)` — NOVO 2026-08-27
+Página "Do zero" — **2ª parte do Resumindo**, banner teal, 2 colunas. Vem logo depois do `resumindo-page(...)` e antes da Etapa 2. Público: quem **não leu a E1** e quer chegar na aula sabendo os termos. `termos` é tupla de pares `(termo, definicao)`, em **ordem lógica de construção, nunca alfabética**. `abertura` é um bloco cinza opcional de 3–5 linhas situando o leigo. 15–30 termos, 15–30 palavras cada, linguagem do dia a dia, sem sigla nova e sem footnote.
+```typst
+#resumindo-zero-page(
+  abertura: [Esta aula trata de como o ambiente adoece quem vive nele...],
+  (("Poluente", [Qualquer substância no ar em quantidade capaz de fazer mal a quem respira.]),
+   ("Alvéolo", [A bolsinha microscópica no fim do pulmão onde o ar encontra o sangue.])),
+)
+```
+O `gerar_main.py` inclui a seção sozinho quando `typst-build/resumindo-zero.typ` existe — resumo antigo sem o arquivo compila igual.
+
 ### `mapa-parte(parte: none, centro: [], nos: (), arestas: (), fecha-com: none)`
 Mapa hub-and-spoke ao final de cada PARTE da E1. **Limites operacionais:** `centro` ≤12 palavras, `no.titulo` ≤3, `no.texto` ≤10–12, label da aresta ≤3–4, `fecha-com` ≤18.
 ```typst
@@ -348,4 +359,4 @@ Cartão pequeno do rodapé. Mesma observação acima.
 
 ---
 
-**Resumo:** 38 helpers (35 anteriores + `mindmap-fechamento` + `mindmap-estacao` + `mindmap-cartao`). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.
+**Resumo:** 39 helpers (38 anteriores + `resumindo-zero-page`, canônico 2026-08-27). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.

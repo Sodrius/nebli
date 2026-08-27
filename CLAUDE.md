@@ -210,7 +210,8 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
    - **Bloco "Onde aprofundar" — SUSPENSO 2026-07-07 (não vai mais pra capa).** Detalhe histórico do formato antigo em `MEMORY.md`/memória `onde-aprofundar-anking-capa.md`. A exceção de vocabulário Step 1 na capa caiu junto: fora da capa o banimento Step 1/USMLE segue integral (ver `ROLES.md` Redator regra 10 + `precompile-check.py`).
 2. **Sumário** (1 página: máx 3 itens por PARTE da E1, descrições 3–5 palavras).
 3. **Etapa 1 — texto didático** (intro-box + 3 PARTES + **conclusão integradora obrigatória** — a E1 fecha sempre no `#conclusao-box`, costurando as PARTES em 4 camadas: princípio unificador → mecanismo nuclear → clínica retomada → projeção; ver `ROLES.md` § Redator diretriz 11). **A conclusão VOLTA a ser gate do `precompile-check.py` (CANON 2026-07-03 — reverte a suspensão de 2026-07-01)** — `#conclusao-box` é exigido `>=1` em toda E1. Siglas como footnote no rodapé de cada página.
-4. **Resumindo** (1 página) — logo após Conclusão integradora da E1.
+4. **Resumindo** (1–2 páginas) — logo após Conclusão integradora da E1.
+4b. **Do zero** (2ª parte do Resumindo, canônico 2026-08-27) — logo depois do Resumindo, antes da E2.
 5. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline.
 6. **Etapa 3** — 5 discursivas, modelo de resposta ≤100 palavras (Q5 ≤130).
 7. **Gabarito consolidado da Etapa 2** (última seção).
@@ -261,11 +262,31 @@ Default = prosa expositiva contínua. Bullets/tabelas só em 3 casos: (a) compar
 - **Siglas:** `#sigla("ATP", [adenosina trifosfato — moeda energética])` na 1ª aparição. Sem teto. Subsequentes não geram footnote.
 - Glossário de siglas em página dedicada: removido do pipeline. `#glossario-siglas-page()` é no-op silencioso.
 
-## Resumindo
+## Resumindo — duas partes (2ª parte canônica 2026-08-27)
+
+O Resumindo tem **duas partes com públicos diferentes**, nesta ordem: primeiro o **Resumindo** clássico (revisão para quem já leu a E1), depois o **Do zero** (primeiro contato para quem não leu nada).
+
+### Parte 1 — Resumindo (banner gold)
 
 1–2 páginas (canônico 2026-05-20 após #27 v2 — Davi flexibilizou), 2 colunas, banner gold. 8–12 seções, ~25–35 palavras cada, ordenadas por relevância clínica decrescente. Frases concretas com sujeito+verbo+complemento — nunca aglomerado de siglas. Caber em 1 página ainda é o ideal; 2 páginas é aceitável quando o tema é denso (Krebs, gliconeogênese, transmissão sináptica), evitando comprimir leading/spacing de forma agressiva.
 
 REDATOR-E1 entrega `resumindo.typ` junto da Etapa 1. Assinatura: `#resumindo-page(((titulo, corpo), (titulo, corpo), ...))` — tupla dupla por seção.
+
+### Parte 2 — Do zero (banner teal) — CANÔNICO 2026-08-27
+
+**Pedido de Davi:** "um resumo 100% do zero para leigos do assunto, alguém que não leu a E1 e quer acompanhar melhor a aula — os principais termos de forma sucinta, para eu ter um primeiro contato".
+
+Público **oposto** ao da Parte 1. A Parte 1 é revisão para quem já estudou; a Parte 2 é **primeiro contato**, lida idealmente *antes* da aula presencial, por alguém que não sabe nada do tema. É glossário, não prosa expositiva — e é a única seção do NEBLI em que a definição pode preceder o mecanismo, porque a função aqui é dar nome às coisas que o professor vai falar, não ensinar o mecanismo (isso é papel da E1).
+
+Regras de redação:
+
+- **15–30 termos**, cada um com definição de **15–30 palavras**: uma frase que diz *o que é* e *por que importa*.
+- **Ordem lógica de construção, nunca alfabética.** A lista tem que poder ser lida de cima para baixo como uma escada: se o termo B precisa do termo A para ser entendido, A vem antes.
+- **Linguagem do dia a dia, zero pressuposto.** "Inchaço" antes de "edema"; "a parte líquida do sangue" antes de "plasma". Sem sigla nova, sem remissão a outro resumo, sem `#termo-nota` nem `#sigla` (a footnote é recurso da E1).
+- **`abertura` (opcional, mas recomendada):** 3–5 linhas dizendo do que a aula trata, em linguagem de leigo, antes do primeiro termo.
+- **Cobertura:** todo termo que a E1 marcou como `#termo-nota` ou `#sigla` deveria ter entrada aqui, mais os termos que o professor usa em aula sem definir.
+
+Assinatura: `#resumindo-zero-page(((termo, definicao), ...), abertura: [...])`. Arquivo `typst-build/resumindo-zero.typ`, entregue junto do `resumindo.typ`. O `gerar_main.py` inclui a seção **automaticamente quando o arquivo existe** (retrocompatível: resumo antigo sem o arquivo compila igual).
 
 ## Verificação do PDF (resumo — detalhes no compilador.md)
 

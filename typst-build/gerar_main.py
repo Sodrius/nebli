@@ -169,6 +169,27 @@ def render_gabarito(gabarito):
     return "\n".join(lines)
 
 
+def _bloco_resumindo_zero(out_path):
+    """Emite o include do "Do zero" -- 2a parte do Resumindo (canônico 2026-08-27).
+
+    Público diferente do Resumindo comum: aquele é revisão para quem já leu a
+    E1; este é primeiro contato, para chegar na aula sabendo os termos. Fica
+    logo depois do Resumindo e antes da Etapa 2.
+
+    Opcional por retrocompatibilidade: resumos antigos, que não têm o arquivo,
+    seguem compilando sem a seção.
+    """
+    zero = Path(out_path).resolve().parent / "resumindo-zero.typ"
+    if not zero.exists():
+        return ""
+    return (
+        '\n// ======= DO ZERO (2a parte do Resumindo) =======\n'
+        '#pagebreak(weak: true)\n'
+        '#set-etapa("Do zero")\n'
+        '#include "resumindo-zero.typ"\n'
+    )
+
+
 HEADER = '''// ================================================================
 // MAIN.TYP -- {slug} | Gerado por gerar_main.py
 // ================================================================
@@ -181,24 +202,35 @@ HEADER = '''// ================================================================
 {capa}
 
 // ======= SUMÁRIO =======
+#set-etapa("Sumário")
 {sumario}
 
 // ======= ETAPA 1 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 1 — Texto didático")
 #etapa-header("Etapa 1 — Texto didático")
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#pagebreak(weak: true)
+#set-etapa("Resumindo")
 #include "resumindo.typ"
-
+{resumindo_zero}
 // ======= ETAPA 2 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#pagebreak(weak: true)
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#pagebreak(weak: true)
+#set-etapa("Gabarito — Etapa 2")
 {gabarito}
 '''
 
@@ -214,6 +246,7 @@ HEADER_SEM_E2 = '''// ==========================================================
 {capa}
 
 // ======= SUMÁRIO =======
+#set-etapa("Sumário")
 {sumario}
 
 // ======= ETAPA 1 =======
@@ -263,6 +296,7 @@ def gerar_main(card_path: Path, out_path: Path):
             capa=capa_text,
             sumario=sumario_text,
             gabarito=gabarito_text,
+            resumindo_zero=_bloco_resumindo_zero(out_path),
         )
     out_path.write_text(text, encoding="utf-8")
     return len(text)

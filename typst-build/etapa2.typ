@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Durante o episódio de Londres em dezembro de 1952, a inversão térmica antecedeu o pico de mortalidade. Qual o papel exato da inversão térmica nesse encadeamento?],
-  (("A", [A inversão térmica converteu quimicamente o dióxido de enxofre emitido em ácido sulfúrico, criando um poluente mais agressivo que aquele originalmente lançado pelas chaminés domésticas e industriais da cidade.]),
-   ("B", [A queda brusca de temperatura aumentou a demanda de aquecimento e, com ela, a queima domiciliar de carvão, sendo o aumento de emissão o único responsável pelo pico de concentração registrado.]),
-   ("C", [A camada fria junto ao solo reduziu a solubilidade dos gases nas mucosas respiratórias, permitindo que poluentes normalmente retidos nas vias superiores alcançassem os alvéolos da população exposta.]),
-   ("D", [A camada de ar quente sobreposta ao ar frio funcionou como tampa e impediu a dispersão vertical do que já vinha sendo emitido, elevando a concentração respirada sem que a emissão precisasse aumentar.]),
-   ("E", [A estagnação atmosférica prolongou o tempo de permanência das partículas maiores, que passaram a predominar sobre as finas e a produzir dano alveolar por sobrecarga de massa depositada.])))
+  [Em tecidos normais, cerca de 20 litros de plasma são filtrados por dia no conjunto dos leitos capilares e cerca de 17 litros são reabsorvidos na extremidade venular. Qual afirmação explica corretamente o destino do excedente e sua importância?],
+  (("A", [O excedente é reabsorvido pelos capilares linfáticos apenas quando a pressão intersticial se torna negativa, mecanismo que só opera durante o exercício e que explicaria o edema de repouso prolongado em pessoas sedentárias.]),
+   ("B", [Os vasos linfáticos recolhem o excedente e, ao remover junto a proteína que escapou do plasma, mantêm baixa a pressão oncótica intersticial — é essa remoção que preserva o gradiente que puxa água de volta ao capilar.]),
+   ("C", [O excedente é devolvido pela própria extremidade venular quando a pressão oncótica plasmática se eleva ao final do trajeto capilar, mecanismo que dispensa a drenagem linfática em tecidos com endotélio contínuo íntegro.]),
+   ("D", [O excedente permanece no interstício como reserva fisiológica de água, e é sua mobilização osmótica pelas células vizinhas que impede o acúmulo detectável de líquido nos tecidos periféricos ao longo do dia.]),
+   ("E", [O excedente é eliminado por transcitose através das células endoteliais, processo dependente de vesículas que devolvem tanto água quanto proteína à luz do vaso e dispensam qualquer participação do ducto torácico.])))
 
-#questao-ce("02", badge-consolidacao,
-  [Julgue os itens sobre os conceitos que abrem a patologia ambiental.],
-  (("I", [Xenobiótico designa qualquer substância estranha ao metabolismo do organismo, e sua capacidade de causar dano depende de dose, via de entrada, tempo de exposição e do próprio metabolismo do hospedeiro.]),
-   ("II", [Poluentes secundários são aqueles formados na atmosfera a partir da reação entre poluentes primários, geralmente sob ação da luz solar.]),
-   ("III", [A diretriz de concentração da Organização Mundial da Saúde corresponde ao limiar biológico abaixo do qual não se observa efeito sobre a saúde.]),
-   ("IV", [O ozônio da estratosfera e o ozônio de nível do solo são a mesma molécula, com papéis opostos definidos pela localização em que se encontram.])))
+#questao-mc("02", badge-consolidacao,
+  [Um paciente com insuficiência cardíaca descompensada acumula três litros de líquido na cavidade pleural. A análise revela líquido claro, com pouca proteína e praticamente sem células. Como se explica essa composição?],
+  (("A", [O volume acumulado é tão grande que dilui a proteína originalmente presente no líquido pleural, de modo que a dosagem subestima a concentração real e faz um exsudato ser classificado como transudato.]),
+   ("B", [A pressão venosa elevada comprime os linfáticos pleurais e impede a saída da proteína já filtrada, que se acumula no interstício e não alcança a cavidade, empobrecendo o líquido ali coletado.]),
+   ("C", [A insuficiência cardíaca reduz a síntese hepática de albumina por congestão passiva crônica, e o líquido filtrado apenas reflete a baixa concentração plasmática de proteína existente no momento da coleta.]),
+   ("D", [O aumento da pressão hidrostática abre fendas entre as células endoteliais, mas o fluxo rápido através delas arrasta apenas água, deixando as moléculas maiores retidas pelo atrito na parede do capilar.]),
+   ("E", [A pressão hidrostática elevada empurra ultrafiltrado, mas não altera a permeabilidade da parede: o endotélio íntegro continua retendo proteína, de modo que pressão alta produz muito líquido pobre em proteína.])))
 
-#questao-mc("03", badge-consolidacao,
-  [O iceberg dos efeitos da poluição relaciona gravidade do desfecho e número de afetados. Qual leitura desse modelo é correta?],
-  (("A", [Os dois eixos correm em sentidos opostos: quanto mais grave o desfecho, menos pessoas o alcançam, de modo que a inflamação subclínica atinge muita gente e a mortalidade, poucas — e é a base submersa que escapa aos registros.]),
-   ("B", [Os dois eixos correm no mesmo sentido, já que populações mais expostas acumulam simultaneamente mais desfechos graves e mais desfechos leves na mesma proporção, o que torna a mortalidade registrada um estimador confiável do total de afetados.]),
-   ("C", [A base do iceberg representa os indivíduos que procuraram serviço de saúde sem receber diagnóstico formal, sendo portanto integralmente captável pelos sistemas de informação hospitalar desde que se aplique o ajuste estatístico adequado aos registros.]),
-   ("D", [O modelo indica que os efeitos leves precedem temporalmente os graves dentro de um mesmo indivíduo, descrevendo a progressão natural da doença ambiental ao longo dos anos de exposição continuada à mesma fonte.]),
-   ("E", [A inflamação subclínica ocupa a base por ser inteiramente reversível e sem consequência a longo prazo, servindo apenas como marcador biológico de exposição recente e sem qualquer relação com a doença crônica futura.])))
+#questao-ce("03", badge-consolidacao,
+  [Julgue os itens sobre os compartimentos líquidos do organismo e a nomenclatura das coleções.],
+  (("I", [No adulto, o líquido intersticial ocupa um volume várias vezes maior que o do plasma, e é por isso que vários litros podem se acumular antes de o edema tornar-se clinicamente evidente.]),
+   ("II", [O acúmulo de líquido na cavidade pericárdica é chamado de ascite, enquanto o acúmulo na cavidade peritoneal recebe o nome de hidropericárdio.]),
+   ("III", [Anasarca designa edema subcutâneo grave e generalizado, e não uma coleção restrita a uma cavidade revestida por serosa.]),
+   ("IV", [Edema é, por definição, acúmulo anormal de líquido no interstício ou em cavidades revestidas por serosa, e não aumento do volume de água dentro das células.])))
 
 #questao-mc("04", badge-consolidacao,
-  [O metabolismo hepático de xenobióticos ocorre em duas fases. Qual afirmação descreve corretamente a relação entre essas fases e a toxicidade?],
-  (("A", [A fase I conjuga o xenobiótico a glutationa, glicuronídeo ou sulfato, e a fase II insere oxigênio na molécula já conjugada, sequência de duas etapas que garante a redução progressiva da reatividade química do composto original.]),
-   ("B", [Ambas as fases reduzem a reatividade do composto, de modo que a toxicidade de um xenobiótico depende apenas da dose absorvida e da velocidade com que o fígado consegue processá-lo.]),
-   ("C", [A fase I frequentemente ativa em vez de desativar: ao inserir ou expor um grupo reativo, pode gerar um eletrófilo mais tóxico que a molécula original, e a lesão ocorre quando a conjugação da fase II não dá conta dele.]),
-   ("D", [A fase II é dispensável quando a fase I já tornou a molécula hidrossolúvel, situação em que o metabólito é excretado diretamente pela urina sem necessidade de qualquer conjugação prévia.]),
-   ("E", [A bioativação ocorre exclusivamente em tecidos extra-hepáticos que não dispõem de citocromo P-450, razão pela qual o fígado é considerado um órgão protegido contra metabólitos reativos.])))
+  [Dois tecidos apresentam-se aumentados de volume e avermelhados. No primeiro, a coloração é vermelho-viva; no segundo, vermelho-azulada. Qual explicação mecanística distingue os dois quadros?],
+  (("A", [O primeiro é congestão por obstrução venosa parcial, em que parte do sangue ainda escoa e mantém a oxigenação; o segundo é hiperemia intensa, em que o consumo tecidual de oxigênio ultrapassa a oferta arterial aumentada.]),
+   ("B", [O primeiro é hiperemia, processo ativo de dilatação arteriolar que aumenta o influxo de sangue oxigenado; o segundo é congestão, processo passivo em que o sangue não escoa e a desoxi-hemoglobina se acumula.]),
+   ("C", [O primeiro reflete maior número de capilares recrutados e o segundo reflete o mesmo número de capilares com hemácias mais concentradas, de modo que a diferença é de hematócrito local e não de fluxo.]),
+   ("D", [Ambos são congestão, e a diferença de cor depende apenas do tempo decorrido: nas primeiras horas o sangue represado permanece oxigenado e vermelho, escurecendo somente quando a estase ultrapassa vinte e quatro horas.]),
+   ("E", [O primeiro decorre de extravasamento de hemácias com hemoglobina ainda oxigenada, e o segundo, de extravasamento mais antigo cuja hemoglobina já foi convertida em pigmento de ferro pelos macrófagos locais.])))
 
 #questao-mc("05", badge-consolidacao,
-  [Entre os gases poluentes, o dióxido de enxofre produz irritação intensa das vias aéreas superiores e pouco dano alveolar. Qual propriedade explica essa distribuição do dano?],
-  (("A", [Seu peso molecular elevado impede que ele acompanhe o fluxo de ar até as vias distais, de modo que ele se acumula por sedimentação gravitacional nas porções mais proximais da árvore respiratória.]),
-   ("B", [Sua baixa reatividade química exige contato prolongado com a mucosa para produzir dano, contato que só ocorre nas vias superiores, onde a velocidade do fluxo aéreo é mais lenta.]),
-   ("C", [Sua conversão a ácido depende da presença de metais de transição, disponíveis apenas no muco das vias superiores e ausentes no revestimento de surfactante do espaço alveolar.]),
-   ("D", [Sua afinidade pela hemoglobina faz com que ele seja removido do ar inspirado ainda na circulação brônquica, antes que o gás alcance a barreira alvéolo-capilar do pulmão profundo.]),
-   ("E", [Sua alta solubilidade em água faz com que ele se dissolva na primeira mucosa úmida que encontra, formando ácido ali mesmo e sobrando pouco gás para alcançar o alvéolo.])))
+  [Sobre o papel do sistema linfático no controle do edema, assinale a alternativa *incorreta*:],
+  (("A", [Os capilares linfáticos só entram em operação quando a pressão hidrostática capilar ultrapassa o valor da pressão oncótica plasmática, permanecendo colapsados e sem fluxo em condições fisiológicas de repouso.]),
+   ("B", [Além de volume, o linfático remove do interstício a proteína que escapou do plasma, e essa remoção mantém baixa a pressão oncótica intersticial, preservando o gradiente de reabsorção do capilar.]),
+   ("C", [O sistema linfático dispõe de reserva funcional e pode aumentar seu fluxo várias vezes, motivo pelo qual pequenos aumentos da pressão hidrostática capilar não produzem edema clinicamente detectável.]),
+   ("D", [A obstrução do linfático produz edema rico em proteína, que estimula fibrose e resulta em tecido firme, com pele espessada e habitualmente sem o sinal do cacifo à compressão digital.]),
+   ("E", [A linfa coletada retorna ao sangue nas veias grandes da base do pescoço, sendo o ducto torácico a via que devolve a drenagem do lado esquerdo do corpo à circulação.])))
 
-#questao-mc("06", badge-consolidacao,
-  [Sobre o material particulado atmosférico, assinale a alternativa *incorreta*:],
-  (("A", [A composição do material particulado inclui nitratos, sulfatos, metais pesados e de transição e hidrocarbonetos policíclicos aromáticos adsorvidos em sua superfície.]),
-   ("B", [PM10 e PM2,5 são categorias mutuamente exclusivas, de modo que uma partícula classificada como PM2,5 não integra a fração PM10 medida na mesma amostra de ar.]),
-   ("C", [O diâmetro aerodinâmico corresponde ao diâmetro de uma esfera de densidade unitária que sedimentaria na mesma velocidade que a partícula real, incorporando forma e densidade.]),
-   ("D", [As fontes de material particulado são tanto naturais, como solo, oceano, vulcões e florestas, quanto antropogênicas, como transporte, indústria e combustões incompletas.]),
-   ("E", [Partículas com diâmetro aerodinâmico abaixo de 0,1 µm podem atravessar a barreira alvéolo-capilar e alcançar a circulação sistêmica.])))
+#questao-ce("06", badge-consolidacao,
+  [Julgue os itens sobre a distinção entre transudato e exsudato.],
+  (("I", [Um derrame de grande volume caracteriza, por si só, um exsudato, uma vez que a quantidade de líquido acumulado reflete a intensidade do aumento da permeabilidade vascular.]),
+   ("II", [O transudato tem densidade abaixo de 1,012 e é essencialmente acelular, porque resulta de ultrafiltração através de um endotélio que permanece íntegro.]),
+   ("III", [A presença de fibrina no líquido coletado sugere exsudato, pois indica que o fibrinogênio plasmático atravessou a parede vascular e polimerizou fora do vaso.]),
+   ("IV", [Aumentos muito acentuados da pressão hidrostática capilar acabam por gerar exsudato, pois a força mecânica excessiva desfaz as junções entre as células endoteliais.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens sobre a intoxicação por monóxido de carbono.],
-  (("I", [A cianose é achado precoce e característico da intoxicação, decorrente do acúmulo de hemoglobina desoxigenada nos leitos capilares periféricos.]),
-   ("II", [A afinidade do monóxido de carbono pela hemoglobina é cerca de duzentas vezes maior que a do oxigênio, de modo que concentrações baixas no ar já produzem carboxiemoglobina significativa.]),
-   ("III", [O único mecanismo de hipóxia é a ocupação do sítio de ligação, sem qualquer efeito sobre a liberação do oxigênio que permanece ligado às demais subunidades.]),
-   ("IV", [A oximetria de pulso convencional pode mostrar saturação normal, pois não distingue carboxiemoglobina de oxiemoglobina.])))
+#questao-mc("07", badge-consolidacao,
+  [Uma criança desenvolve edema periorbital duas semanas após faringite estreptocócica, acompanhado de hipertensão e hematúria. Qual mecanismo explica o edema neste quadro?],
+  (("A", [A perda maciça de albumina pela urina reduz a pressão oncótica do plasma, e o líquido escapa dos capilares em todos os leitos, com predomínio facial em razão da posição adotada durante o sono.]),
+   ("B", [A inflamação glomerular libera mediadores sistêmicos que aumentam a permeabilidade capilar em todo o organismo, produzindo exsudato rico em proteína que se acumula preferencialmente nos tecidos frouxos da face.]),
+   ("C", [A obstrução dos linfáticos cervicais pela adenite reativa à infecção estreptocócica impede a drenagem da face, e o líquido retido acumula-se lentamente na região periorbital, com espessamento da pele.]),
+   ("D", [A retenção renal primária de sódio arrasta água e expande o volume: a pressão hidrostática capilar sobe e a diluição das proteínas plasmáticas reduz a oncótica; o tecido periorbital, frouxo, cede primeiro.]),
+   ("E", [A queda do débito cardíaco secundária à miocardite estreptocócica reduz a perfusão renal e ativa o sistema renina-angiotensina-aldosterona, cuja retenção de sódio e água produz o edema descrito no quadro.])))
 
 #questao-mc("08", badge-consolidacao,
-  [A biomassa é fonte relevante de poluição intradomiciliar em grande parte do mundo. Qual afirmação descreve corretamente esse cenário de exposição?],
-  (("A", [Por se tratar de combustível de origem natural, a fumaça da lenha tem composição distinta da fumaça industrial e não contém hidrocarbonetos policíclicos aromáticos nem monóxido de carbono em quantidade relevante.]),
-   ("B", [A exposição intradomiciliar é menos relevante que a urbana porque ocorre em ambiente de menor volume de ar, o que favorece a sedimentação rápida das partículas antes que sejam inaladas.]),
-   ("C", [O dano associado à queima de biomassa limita-se a sintomas irritativos de olhos e vias aéreas superiores, sem repercussão sobre a função pulmonar a longo prazo dos expostos.]),
-   ("D", [A combustão incompleta em fogão sem exaustão gera particulado fino, monóxido de carbono e hidrocarbonetos em concentrações que superam as da via pública, e a maior dose recai sobre quem cozinha e sobre crianças pequenas.]),
-   ("E", [A doença pulmonar obstrutiva crônica associada à biomassa ocorre apenas em indivíduos que também fumam, funcionando a fumaça de lenha como cofator dependente do tabagismo prévio.])))
+  [Minutos após uma picada de inseto, a pele ao redor do ponto de inoculação fica elevada e edemaciada, e o líquido coletado é rico em proteína. Qual mecanismo responde por esse achado?],
+  (("A", [Lesão direta e necrose das células endoteliais pelo veneno inoculado, com descolamento da camada de revestimento vascular e vazamento prolongado que só cessa após a regeneração completa do endotélio.]),
+   ("B", [Aumento da pressão hidrostática nos capilares da região por vasodilatação arteriolar, que empurra ultrafiltrado pobre em proteína para o interstício até que os linfáticos locais sejam sobrepujados.]),
+   ("C", [Histamina liberada por mastócitos faz a célula endotelial contrair seu citoesqueleto e retrair, abrindo fendas entre células vizinhas nas vênulas pós-capilares por onde plasma inteiro escapa — fenômeno rápido e reversível.]),
+   ("D", [Adesão e degranulação de neutrófilos sobre o endotélio local, com liberação de proteases e espécies reativas de oxigênio que digerem a membrana basal e permitem a saída de plasma rico em proteína.]),
+   ("E", [Queda abrupta da pressão oncótica plasmática por consumo local de albumina na neutralização do veneno, o que reduz a força que retém água dentro do capilar naquele território cutâneo.])))
 
 #questao-mc("09", badge-integracao,
-  [Uma cidade registra emissão diária estável de poluentes, mas apresenta variação expressiva da mortalidade diária ao longo do inverno. Qual explicação articula corretamente meteorologia e desfecho populacional?],
-  (("A", [A queda de temperatura aumenta a solubilidade dos gases poluentes na mucosa respiratória, o que amplia a fração retida nas vias superiores e explica o excesso de óbitos por causa respiratória alta.]),
-   ("B", [A variação de mortalidade reflete apenas a sazonalidade das infecções respiratórias virais, sem relação com a concentração atmosférica de poluentes, que permanece estável com a emissão constante.]),
-   ("C", [Com emissão constante, a concentração respirada depende das condições de dispersão: episódios de inversão térmica represam os poluentes junto ao solo, e a dose sobe sem que a fonte tenha mudado.]),
-   ("D", [O frio desloca a curva de dissociação da hemoglobina para a direita e amplia a entrega tecidual de oxigênio, mecanismo que protege a população exposta e reduz a mortalidade nos dias mais frios do período.]),
-   ("E", [A inversão térmica reduz a radiação ultravioleta incidente e diminui a formação de poluentes secundários, de modo que os dias de maior estagnação são justamente os de menor risco à saúde.])))
+  [Em um paciente com insuficiência cardíaca, o bloqueio farmacológico da enzima conversora de angiotensina reduz o edema. Qual encadeamento explica esse efeito sobre as forças de Starling?],
+  (("A", [A droga aumenta diretamente a síntese hepática de albumina, elevando a pressão oncótica plasmática e deslocando o balanço capilar no sentido da reabsorção em todos os leitos do organismo.]),
+   ("B", [A droga dilata seletivamente as vênulas pós-capilares, o que eleva a pressão hidrostática na extremidade venular e favorece a passagem de líquido do interstício de volta para a luz do capilar.]),
+   ("C", [A droga inibe a contração do citoesqueleto endotelial e fecha as fendas interendoteliais, revertendo o aumento de permeabilidade responsável pelo edema rico em proteína da insuficiência cardíaca descompensada.]),
+   ("D", [A droga aumenta a capacidade de transporte dos vasos linfáticos, ampliando a remoção do excedente filtrado e permitindo que a filtração aumentada seja compensada sem acúmulo intersticial de líquido.]),
+   ("E", [A droga interrompe a produção de angiotensina II e, com ela, a liberação de aldosterona: o rim retém menos sódio e água, o volume circulante cai e a pressão hidrostática capilar diminui.])))
 
-#questao-mc("10", badge-integracao,
-  [Hidrocarbonetos policíclicos aromáticos adsorvidos ao material particulado estão associados a câncer de pulmão. Qual sequência liga corretamente a exposição ao desfecho neoplásico?],
-  (("A", [A partícula carreia o hidrocarboneto ao pulmão, o citocromo P-450 o converte em epóxido reativo, o metabólito liga-se covalentemente ao DNA formando adutos, e a replicação sobre o aduto não reparado fixa a mutação.]),
-   ("B", [O hidrocarboneto adsorvido é liberado no alvéolo e age como oxidante direto sobre a membrana do pneumócito, cuja morte repetida induz proliferação compensatória e transformação maligna por exaustão replicativa.]),
-   ("C", [A conjugação de fase II converte o hidrocarboneto em metabólito hidrossolúvel que se acumula no núcleo celular, onde interfere fisicamente no pareamento das bases e impede a atuação das enzimas de reparo.]),
-   ("D", [Os metais de transição da partícula desmetilam os promotores de genes supressores tumorais, e o silenciamento epigenético resultante dispensa qualquer alteração da sequência de bases do DNA celular.]),
-   ("E", [O hidrocarboneto é fagocitado pelo macrófago alveolar e apresentado ao linfócito, e a inflamação crônica resultante é o único elo entre a exposição e a carcinogênese, sem participação de dano direto ao DNA.])))
+#questao-ce("10", badge-integracao,
+  [Julgue os itens que comparam o edema pulmonar cardiogênico e o dano alveolar difuso.],
+  (("I", [No edema cardiogênico, o material que preenche o alvéolo é granular e róseo, pobre em proteína, e a parede alveolar permanece estruturalmente íntegra.]),
+   ("II", [No dano alveolar difuso, o fibrinogênio que atravessa a barreira lesada polimeriza e, junto a restos de pneumócitos necróticos, compõe a membrana hialina que reveste a parede alveolar.]),
+   ("III", [Em ambos os quadros a pressão de enchimento do ventrículo esquerdo encontra-se elevada, o que torna a redução volêmica agressiva o tratamento inicial de escolha nos dois casos.]),
+   ("IV", [A distinção entre os dois quadros é feita pelo volume de líquido presente no alvéolo, sendo o dano alveolar difuso definido por volumes acima de mil mililitros.])))
 
-#questao-ce("11", badge-integracao,
-  [Julgue os itens que relacionam propriedades físico-químicas dos poluentes ao sítio anatômico do dano.],
-  (("I", [Quanto maior a solubilidade em água de um gás poluente, mais profundamente na árvore respiratória ele consegue depositar sua agressão.]),
-   ("II", [Partículas com diâmetro aerodinâmico entre 10 e 5 µm alcançam preferencialmente o espaço alveolar, onde permanecem por não haver transporte mucociliar naquele nível.]),
-   ("III", [O ozônio e o dióxido de nitrogênio, por serem pouco solúveis, escapam da retenção nas vias superiores e agem como oxidantes em bronquíolos terminais e alvéolos.]),
-   ("IV", [Partículas retidas nas vias aéreas condutoras são removidas em horas pelo transporte mucociliar, enquanto as depositadas no alvéolo dependem do macrófago e permanecem por muito mais tempo.])))
+#questao-mc("11", badge-integracao,
+  [A lesão dos podócitos na síndrome nefrótica produz proteinúria maciça. Qual sequência liga corretamente essa lesão glomerular ao edema generalizado observado no paciente?],
+  (("A", [Perda da seletividade da barreira glomerular, albumina na urina, queda da pressão oncótica plasmática, escape de líquido em todos os leitos capilares, queda do volume arterial efetivo e retenção renal de sódio que realimenta o edema.]),
+   ("B", [Lesão dos podócitos, redução da superfície de filtração, queda da taxa de filtração glomerular, retenção primária de sódio, expansão do volume circulante e aumento isolado da pressão hidrostática capilar sistêmica.]),
+   ("C", [Passagem de proteína para o espaço urinário, inflamação tubular, liberação sistêmica de mediadores vasoativos, aumento generalizado da permeabilidade capilar e formação de exsudato rico em proteína no subcutâneo.]),
+   ("D", [Perda urinária de albumina, estímulo hepático compensatório, hiperprodução de lipoproteínas, aumento da viscosidade plasmática, lentificação do fluxo capilar e extravasamento passivo de líquido para o interstício.]),
+   ("E", [Dano glomerular, obstrução dos linfáticos renais, represamento de linfa no interstício do rim, refluxo de líquido rico em proteína para a circulação sistêmica e sobrecarga de volume com edema periférico.])))
 
 #questao-mc("12", badge-integracao,
-  [Um paciente exposto a monóxido de carbono apresenta hipóxia tecidual grave com pressão parcial de oxigênio arterial normal. Qual mecanismo explica essa dissociação?],
-  (("A", [O monóxido de carbono bloqueia a citocromo c oxidase mitocondrial, impedindo o uso do oxigênio pela célula, e a pressão parcial arterial permanece normal porque o gás dissolvido não é consumido pelos tecidos.]),
-   ("B", [O monóxido de carbono desloca a curva de dissociação da hemoglobina para a direita, o que reduz a captação pulmonar de oxigênio sem alterar a pressão parcial do gás dissolvido no plasma arterial.]),
-   ("C", [O monóxido de carbono induz metemoglobinemia ao oxidar o ferro do heme do estado ferroso para o férrico, forma incapaz de ligar oxigênio, sem interferir na fração de gás dissolvido no plasma.]),
-   ("D", [O monóxido de carbono provoca vasoconstrição pulmonar hipóxica generalizada, com desvio de sangue para áreas mal ventiladas e queda da entrega tecidual apesar da troca alveolar preservada.]),
-   ("E", [A pressão parcial mede apenas o oxigênio dissolvido, que não muda; o que cai é o transporte, pois a hemoglobina está ocupada por monóxido, e a curva deslocada para a esquerda ainda dificulta a entrega do restante.])))
+  [Na congestão passiva crônica do fígado, a lesão hepatocitária concentra-se na região centrolobular. Qual característica da arquitetura do lóbulo explica essa distribuição?],
+  (("A", [A veia centrolobular possui parede mais delgada que os ramos portais e se rompe primeiro sob pressão elevada, de modo que a hemorragia local é a causa inicial da lesão hepatocitária observada.]),
+   ("B", [Os hepatócitos centrolobulares têm menor conteúdo de mitocôndrias e menor capacidade oxidativa, sendo por isso mais vulneráveis a qualquer redução da oferta de oxigênio, independentemente da posição no lóbulo.]),
+   ("C", [O sangue entra pela periferia do lóbulo e atravessa os sinusóides até a veia central, de modo que o hepatócito centrolobular é o último a receber oxigênio e o primeiro a sofrer com a estase.]),
+   ("D", [A drenagem linfática do lóbulo hepático converge para a região centrolobular, e sua obstrução na congestão impede a remoção do excedente filtrado justamente nessa área do parênquima hepático.]),
+   ("E", [A artéria hepática irriga preferencialmente a região central do lóbulo, e sua compressão pelo sinusóide dilatado interrompe o aporte arterial exatamente onde ele é mais necessário ao metabolismo celular.])))
 
-#questao-mc("13", badge-integracao,
-  [O ozônio troposférico não é emitido por nenhuma fonte, mas atinge picos de concentração em tardes ensolaradas de cidades com tráfego intenso. Qual encadeamento explica esse padrão e seu efeito?],
-  (("A", [O ozônio é emitido diretamente pelos motores a diesel e acumula-se ao longo do dia por não sofrer degradação atmosférica, agindo no pulmão pela sua alta solubilidade nas mucosas das vias superiores.]),
-   ("B", [Óxidos de nitrogênio e hidrocarbonetos emitidos pelo tráfego reagem sob radiação ultravioleta e formam ozônio, poluente secundário que, por ser pouco solúvel, alcança o alvéolo e age como oxidante direto.]),
-   ("C", [O aquecimento da superfície urbana eleva a temperatura da camada de ar junto ao solo e libera o ozônio previamente adsorvido no material particulado depositado sobre as vias públicas da cidade.]),
-   ("D", [O ozônio migra da estratosfera para a troposfera nos períodos de maior radiação solar, e sua toxicidade decorre da capacidade de absorver ultravioleta e liberar essa energia dentro do tecido pulmonar.]),
-   ("E", [A luz solar decompõe o dióxido de enxofre industrial em trióxido e ozônio, e este último produz broncoconstrição por estimulação direta de receptores irritantes das vias aéreas superiores dos expostos.])))
+#questao-ce("13", badge-integracao,
+  [Julgue os itens sobre a drenagem linfática e o linfedema.],
+  (("I", [O linfedema que se segue ao esvaziamento axilar decorre da interrupção do retorno venoso do membro superior, e por isso costuma cursar com sinal do cacifo bem marcado.]),
+   ("II", [Na filariose, o edema resulta da ocupação física do interstício pelo parasita adulto, que desloca o líquido tecidual e impede sua reabsorção pelos capilares.]),
+   ("III", [O aspecto de casca de laranja na pele da mama decorre de edema dérmico por obstrução tumoral dos linfáticos, com a pele mantida presa aos ligamentos que a ancoram à fáscia profunda.]),
+   ("IV", [O líquido do linfedema é rico em proteína, o que estimula a deposição de colágeno e explica o endurecimento progressivo do membro comprometido ao longo dos anos.])))
 
-#questao-ce("14", badge-integracao,
-  [Julgue os itens sobre os mecanismos físicos de deposição de partículas na árvore respiratória.],
-  (("I", [A impactação inercial predomina para partículas de maior diâmetro e ocorre nas bifurcações das vias aéreas de maior calibre, onde a partícula não acompanha a curvatura do fluxo.]),
-   ("II", [A difusão browniana é o mecanismo dominante para partículas de maior massa, cuja inércia as faz colidir com a parede antes de alcançar as vias distais.]),
-   ("III", [A sedimentação gravitacional é irrelevante em toda a árvore respiratória, uma vez que o fluxo aéreo turbulento mantém as partículas em suspensão até a expiração.]),
-   ("IV", [O diâmetro aerodinâmico é preferido ao diâmetro geométrico porque prevê o comportamento da partícula no fluxo aéreo, incorporando forma e densidade além do tamanho.])))
+#questao-mc("14", badge-integracao,
+  [Na injúria renal aguda com oligúria, o edema se instala mesmo sem perda urinária de proteína. Qual é o duplo efeito da retenção de sódio sobre as forças de Starling?],
+  (("A", [O sódio retido eleva a osmolaridade do interstício e atrai água diretamente do compartimento intracelular, expandindo o volume tecidual sem que a pressão hidrostática dentro do capilar seja em algum momento modificada.]),
+   ("B", [O sódio retido é trocado por potássio no túbulo distal, e a elevação do potássio plasmático altera a permeabilidade das junções interendoteliais, permitindo a passagem de proteína plasmática para o compartimento intersticial.]),
+   ("C", [O sódio retido estimula diretamente a liberação de aldosterona, que age sobre o endotélio capilar reduzindo a reabsorção de líquido na extremidade venular e mantendo a taxa de filtração continuamente aumentada.]),
+   ("D", [A água segue o sódio e expande o volume circulante: a pressão hidrostática capilar sobe e, simultaneamente, as proteínas plasmáticas são diluídas, reduzindo a oncótica — os dois termos empurram para a filtração.]),
+   ("E", [O sódio retido é excretado com a mesma velocidade com que é reabsorvido, de modo que o edema da injúria renal aguda decorre exclusivamente da queda da pressão oncótica por desnutrição associada.])))
 
 #questao-mc("15", badge-integracao,
-  [Metais de transição adsorvidos ao material particulado potencializam a lesão tecidual. Qual é o mecanismo bioquímico envolvido?],
-  (("A", [Os metais ligam-se covalentemente às bases do DNA do pneumócito e formam adutos estáveis, mecanismo idêntico ao dos hidrocarbonetos e independente de qualquer participação de espécies reativas.]),
-   ("B", [Os metais inibem a superóxido dismutase e a catalase do epitélio respiratório, e a lesão decorre exclusivamente da perda dessas defesas, sem geração adicional de espécies reativas de oxigênio.]),
-   ("C", [Ferro, vanádio e níquel catalisam a conversão de peróxido de hidrogênio em radical hidroxila pela reação de Fenton, gerando dentro do tecido a espécie reativa mais agressiva da série.]),
-   ("D", [Os metais deslocam o zinco de fatores de transcrição do tipo dedo de zinco, e a perda de função desses fatores explica a inflamação crônica observada nos expostos a longo prazo.]),
-   ("E", [Os metais precipitam-se no surfactante alveolar e reduzem sua tensão superficial, o que provoca colapso alveolar e atelectasia progressiva nos territórios de maior deposição de partículas.])))
+  [Um paciente cirrótico com ascite apresenta volume sanguíneo total aumentado e, ao mesmo tempo, intensa retenção renal de sódio. Qual mecanismo concilia esses dois achados aparentemente contraditórios?],
+  (("A", [A hipoalbuminemia da cirrose reduz o volume plasmático a ponto de o volume total de sangue estar de fato diminuído, e a medida do volume total superestima o compartimento arterial nesses pacientes.]),
+   ("B", [A ascite comprime a veia cava inferior e reduz o retorno venoso ao coração, de modo que o débito cardíaco cai e o rim responde à queda absoluta de fluxo retendo sódio e água.]),
+   ("C", [A insuficiência hepática impede a degradação da aldosterona, e o hormônio acumulado retém sódio de forma autônoma, independentemente de qualquer sinal hemodinâmico percebido pelos sensores de pressão do organismo.]),
+   ("D", [A vasodilatação esplâncnica mediada por óxido nítrico alarga o leito arterial, e o volume arterial efetivo percebido pelos sensores cai mesmo com volume total alto — o rim responde retendo sódio e água.]),
+   ("E", [A hipertensão portal desvia sangue para a circulação colateral, e o sequestro nesse território reduz o hematócrito sistêmico, sinal interpretado pelo aparelho justaglomerular como necessidade de expandir o volume corporal.])))
 
-#questao-ce("16", badge-integracao,
-  [Julgue os itens sobre o comportamento do macrófago alveolar na exposição crônica a material particulado.],
-  (("I", [Na exposição repetida, o macrófago entra em estado de ativação persistente e passa a ser ele próprio fonte de mediadores inflamatórios e de espécies reativas de oxigênio.]),
-   ("II", [A interleucina-8 liberada pelo macrófago ativado recruta neutrófilos, que ao degranular liberam proteases e oxidantes no espaço alveolar.]),
-   ("III", [A inflamação crônica resultante é apenas uma inflamação aguda prolongada, mantendo o mesmo predomínio neutrofílico e a mesma reversibilidade completa do quadro inicial.]),
-   ("IV", [A remoção das partículas depositadas no alvéolo é feita pelo transporte mucociliar, que naquele nível opera com a mesma eficiência observada nas vias aéreas condutoras.])))
+#questao-mc("16", badge-integracao,
+  [No início de uma resposta inflamatória aguda, a região afetada torna-se quente e vermelho-viva antes de qualquer acúmulo significativo de líquido. Qual é a base mecanística desse achado?],
+  (("A", [Congestão inicial por compressão das vênulas pelo edema em formação, o que retém sangue no leito capilar e produz coloração avermelhada antes que o líquido acumulado se torne clinicamente perceptível.]),
+   ("B", [Mediadores como histamina e óxido nítrico relaxam a musculatura lisa das arteríolas, e a dilatação aumenta o influxo de sangue oxigenado — hiperemia ativa, que precede o aumento da permeabilidade.]),
+   ("C", [Migração precoce de neutrófilos para o interstício, cuja atividade metabólica eleva a temperatura local e cuja hemoglobina liberada durante a degranulação confere ao tecido a coloração vermelho-viva descrita.]),
+   ("D", [Aumento imediato da permeabilidade das vênulas pós-capilares, que permite a saída de hemácias para o interstício e produz coloração vermelha por hemorragia antes que o plasma comece a extravasar.]),
+   ("E", [Abertura de anastomoses arteriovenosas que desviam o sangue do leito capilar, elevando a velocidade do fluxo local e conferindo à área a coloração e a temperatura características da fase inicial.])))
 
-#questao-mc("17", badge-integracao,
-  [Uma mulher de 62 anos, que nunca fumou, cozinhou a vida inteira em fogão a lenha em ambiente fechado e apresenta obstrução ao fluxo aéreo pouco reversível. Qual encadeamento explica o quadro?],
-  (("A", [A ausência de tabagismo torna improvável o diagnóstico de doença obstrutiva, e a limitação ao fluxo deve ser atribuída a deficiência de alfa-1-antitripsina, única causa não tabágica descrita para o quadro.]),
-   ("B", [A fumaça de lenha produz dano exclusivamente restritivo, por fibrose intersticial secundária à deposição de partículas grosseiras nos septos alveolares, e a obstrução descrita seria achado incidental.]),
-   ("C", [A exposição a monóxido de carbono da combustão reduz cronicamente a oferta tecidual de oxigênio e provoca atrofia da musculatura respiratória, o que explica a limitação ventilatória sem doença de via aérea.]),
-   ("D", [A combustão incompleta gera particulado fino e gases irritantes que, inalados diariamente por décadas, mantêm inflamação crônica com remodelamento brônquico e destruição alveolar — o mesmo desfecho obstrutivo do tabagismo, por outra fonte.]),
-   ("E", [O quadro decorre de infecções respiratórias de repetição na infância, e a fumaça de biomassa participa apenas como fator de confusão epidemiológico sem contribuição mecanística direta para a obstrução.])))
+#questao-ce("17", badge-integracao,
+  [Julgue os itens que relacionam o achado morfológico do edema ao mecanismo que o produziu.],
+  (("I", [Edema mole, com sinal do cacifo, acumulado nos tornozelos do paciente que deambula e na região sacral do paciente acamado, aponta para causa hemodinâmica sistêmica.]),
+   ("II", [Edema firme, assimétrico, sem sinal do cacifo e com pele espessada é o padrão esperado da hipoalbuminemia da síndrome nefrótica.]),
+   ("III", [Ao microscópio, o edema intersticial caracteriza-se por infiltrado inflamatório perivascular e necrose das fibras colágenas adjacentes aos capilares comprometidos.]),
+   ("IV", [O edema periorbital como manifestação inicial é típico das causas renais, e sua explicação está na frouxidão do tecido conjuntivo dessa região.])))
 
-#questao-ce("18", badge-integracao,
-  [Julgue os itens que relacionam o iceberg dos efeitos ao desenho de estudos populacionais.],
-  (("I", [Estimar o impacto da poluição apenas pela mortalidade capta adequadamente o efeito total, uma vez que os desfechos leves são proporcionais aos graves e podem ser deles inferidos.]),
-   ("II", [O aumento do consumo de broncodilatador por asmáticos em dias de pior qualidade do ar é um desfecho intermediário do modelo, mais frequente que internação e menos frequente que inflamação subclínica.]),
-   ("III", [A faixa de inflamação subclínica só se torna mensurável em estudos desenhados especificamente para procurá-la, pois esses indivíduos não geram registro em serviços de saúde.]),
-   ("IV", [Efeitos subclínicos mantidos por anos contribuem para a doença crônica futura, deslocando o risco de toda a população em vez de adoecer apenas alguns indivíduos.])))
+#questao-mc("18", badge-integracao,
+  [A biópsia pulmonar de um paciente com estenose mitral de longa data mostra septos alveolares espessados e macrófagos com pigmento castanho no citoplasma. Qual é a natureza desse achado?],
+  (("A", [São macrófagos alveolares que fagocitaram hemácias extravasadas em episódios repetidos de congestão e acumularam hemossiderina; somados à fibrose septal, compõem a induração parda do pulmão cronicamente congesto.]),
+   ("B", [São histiócitos de origem intersticial que acumularam lipofuscina resultante do estresse oxidativo crônico, achado inespecífico e independente da presença de hemorragia prévia dentro dos espaços alveolares.]),
+   ("C", [São pneumócitos do tipo II em proliferação reparadora, cujo pigmento corresponde a surfactante retido em vesículas após lesão da barreira alvéolo-capilar por aumento da permeabilidade vascular.]),
+   ("D", [São macrófagos carregados de pigmento biliar transportado pelo sangue a partir do fígado congesto, achado que traduz falência hepática associada e não hemorragia prévia dentro do pulmão.]),
+   ("E", [São células gigantes multinucleadas de reação a corpo estranho, formadas em resposta à fibrina depositada nos septos durante episódios prévios de dano alveolar difuso não diagnosticado.])))
 
 #questao-mc("19", badge-integracao,
-  [A inflamação iniciada no alvéolo repercute em órgãos distantes. Qual sequência descreve corretamente essa propagação sistêmica?],
-  (("A", [Interleucina-6 liberada no pulmão alcança o fígado e dispara a resposta de fase aguda, com aumento de proteína C-reativa e fibrinogênio, enquanto a medula responde liberando mais leucócitos e plaquetas.]),
-   ("B", [O macrófago alveolar carregado de partículas migra pelos linfáticos até o fígado e a medula óssea, onde a fagocitose do material transportado desencadeia diretamente a resposta inflamatória sistêmica.]),
-   ("C", [A hipoxemia decorrente da inflamação alveolar estimula a produção renal de eritropoetina, e a policitemia resultante é o mecanismo central que liga a exposição respiratória ao risco cardiovascular.]),
-   ("D", [Os poluentes gasosos absorvidos alcançam o fígado pela circulação porta e induzem síntese de proteínas de fase aguda por ação tóxica direta sobre o hepatócito, sem participação de citocinas.]),
-   ("E", [A inflamação pulmonar consome fatores de coagulação circulantes, e o estado de hipocoagulabilidade resultante explica o aumento de eventos vasculares observado nos períodos de pico de poluição.])))
+  [Sobre a distinção entre o edema pulmonar cardiogênico e o dano alveolar difuso, assinale a alternativa *incorreta*:],
+  (("A", [No edema cardiogênico o capilar permanece íntegro e o líquido que alcança o alvéolo é um ultrafiltrado pobre em proteína, com aspecto granular róseo e homogêneo ao microscópio óptico.]),
+   ("B", [A membrana hialina que reveste a parede alveolar é composta por fibrina e restos celulares, e sua presença indica que a barreira alvéolo-capilar sofreu lesão estrutural.]),
+   ("C", [No dano alveolar difuso a pressão de enchimento do ventrículo esquerdo costuma estar normal, e a retirada agressiva de volume não corrige o vazamento pela barreira lesada.]),
+   ("D", [O líquido espumoso e rosado que escorre da superfície de corte do pulmão no edema cardiogênico corresponde a transudato misturado ao ar durante os movimentos respiratórios.]),
+   ("E", [Como os dois quadros produzem opacificação difusa na radiografia, a distinção entre eles é essencialmente radiológica, e a análise da composição do líquido alveolar não acrescenta informação.])))
 
-#questao-mc("20", badge-integracao,
-  [Sobre as partículas ultrafinas e seus efeitos vasculares, assinale a alternativa *incorreta*:],
-  (("A", [Partículas com diâmetro abaixo de 0,1 µm depositam-se no alvéolo predominantemente por difusão browniana, e não por impactação inercial ou sedimentação gravitacional.]),
-   ("B", [Ultrafinas que atravessam a barreira alvéolo-capilar e alcançam a circulação sistêmica podem atuar diretamente sobre o endotélio vascular, sem depender exclusivamente da liberação pulmonar de mediadores inflamatórios para produzir efeito.]),
-   ("C", [A disfunção endotelial associada à exposição corresponde à redução da vasodilatação dependente de óxido nítrico e à perda da superfície antitrombótica, antes de qualquer estenose.]),
-   ("D", [Os efeitos cardiovasculares da exposição ao material particulado exigem décadas de acúmulo de placa para se manifestar, de modo que não há aumento mensurável de eventos isquêmicos ou arrítmicos nos dias de pico de concentração.]),
-   ("E", [A estimulação de receptores das vias aéreas por partículas altera o equilíbrio simpático-vagal, com aumento da frequência cardíaca e queda da variabilidade.])))
+#questao-ce("20", badge-integracao,
+  [Julgue os itens sobre a repercussão da insuficiência de cada metade do coração.],
+  (("I", [A falência do ventrículo esquerdo represa sangue no território venoso sistêmico, produzindo como manifestação inicial o edema de membros inferiores e o ingurgitamento das jugulares.]),
+   ("II", [A falência do ventrículo direito represa sangue nas veias sistêmicas e produz congestão hepática, que pode evoluir para o aspecto de noz-moscada na superfície de corte.]),
+   ("III", [A causa mais comum de falência do ventrículo direito é a falência esquerda de longa data, razão pela qual os quadros avançados combinam congestão pulmonar e sistêmica.]),
+   ("IV", [O edema da insuficiência cardíaca distribui-se conforme a gravidade, o que explica seu predomínio na região sacral em pacientes acamados.])))
 
-#questao-ce("21", badge-integracao,
-  [Julgue os itens sobre a oxidação da LDL e sua consequência na parede arterial.],
-  (("I", [A LDL oxidada deixa de ser reconhecida pelo receptor de LDL convencional e passa a ser captada por receptores scavenger do macrófago, que não sofrem retroalimentação negativa.]),
-   ("II", [A captação sem retroalimentação leva o macrófago a acumular lipídio indefinidamente, convertendo-se na célula espumosa característica da lesão aterosclerótica inicial.]),
-   ("III", [A oxidação da LDL reduz sua imunogenicidade, razão pela qual não se detectam autoanticorpos dirigidos contra a partícula oxidada nos indivíduos expostos.]),
-   ("IV", [A oxidação depende de espécies reativas de oxigênio, o que estabelece a ligação direta entre o estresse oxidativo induzido pelo poluente e a progressão da placa.])))
+#questao-mc("21", badge-integracao,
+  [Dez anos após tratamento de câncer de mama com esvaziamento axilar e radioterapia, uma paciente apresenta braço volumoso, firme, com pele espessada e sem depressão à compressão digital. Qual mecanismo explica a consistência do membro?],
+  (("A", [A radioterapia induziu fibrose direta do tecido celular subcutâneo, e o volume aumentado corresponde a tecido cicatricial, e não a líquido acumulado no interstício do membro comprometido.]),
+   ("B", [A obstrução venosa axilar residual produziu estase crônica com hipóxia tecidual, e a fibrose resultante é consequência da isquemia, não da composição do líquido retido no interstício.]),
+   ("C", [A drenagem linfática interrompida retém no interstício o líquido rico em proteína que a linfa removeria; a proteína acumulada estimula fibroblastos e deposição de colágeno, endurecendo o tecido e abolindo o cacifo.]),
+   ("D", [A perda de linfonodos reduziu a filtração de antígenos e instalou inflamação crônica de baixo grau no membro, cujo infiltrado mononuclear responde tanto pelo volume quanto pela consistência firme.]),
+   ("E", [O líquido retido é pobre em proteína, e a firmeza decorre exclusivamente do aumento da pressão dentro do compartimento fascial, que impede a depressão do tecido pela compressão do examinador.])))
 
 #questao-mc("22", badge-integracao,
-  [No experimento de exposição controlada, o ar poluído aumentou a espessura da placa aterosclerótica sem aumentar seu teor lipídico. Qual interpretação mecanística esse achado sustenta?],
-  (("A", [A poluição atua elevando a concentração plasmática de LDL, e o aumento de espessura reflete maior aporte de colesterol à íntima, sendo o teor lipídico estável apenas artefato do método de coloração.]),
-   ("B", [O achado indica que a poluição promove regressão do núcleo lipídico enquanto espessa a camada média por hipertrofia de células musculares lisas, produzindo placa mais estável do que a do grupo controle.]),
-   ("C", [A ausência de aumento lipídico demonstra que a poluição não interfere na aterogênese, e o espessamento observado decorre do envelhecimento vascular esperado para o período de seguimento do estudo.]),
-   ("D", [A exposição aumentou apenas a fração de colesterol esterificado dentro das células espumosas, o que engrossa a placa sem alterar a quantidade total de lipídio detectável pela coloração empregada.]),
-   ("E", [A poluição age modificando quimicamente o lipídio já presente em vez de acrescentar lipídio novo: a LDL oxidada alimenta células espumosas e resposta imune, e o que cresce é o componente inflamatório e matricial.])))
+  [Um paciente com síndrome nefrótica recebe diurético em dose alta, perde dois quilos e, poucos dias depois, retorna com o mesmo edema de antes. Qual encadeamento explica a recidiva?],
+  (("A", [Retirar volume não corrige a hipoalbuminemia: com a oncótica baixa, o líquido reposto volta a escapar do vaso, o volume arterial efetivo cai de novo e o eixo renina-angiotensina-aldosterona retém sódio outra vez.]),
+   ("B", [O diurético em dose alta lesou o túbulo renal e aumentou a perda urinária de albumina, agravando a proteinúria original e acelerando a queda da pressão oncótica plasmática do paciente.]),
+   ("C", [A perda de peso reduziu a massa muscular e, com ela, a bomba muscular do retorno venoso, elevando a pressão hidrostática nos capilares dos membros inferiores e refazendo o edema descrito.]),
+   ("D", [O diurético provocou aumento reflexo da permeabilidade capilar por liberação de mediadores vasoativos, convertendo o transudato original em exsudato rico em proteína e de remoção mais difícil.]),
+   ("E", [A restrição de sódio associada ao diurético reduziu a osmolaridade plasmática e deslocou água para o compartimento intracelular, o que se manifestou como aumento do volume dos tecidos periféricos.])))
 
-#questao-mc("23", badge-integracao,
-  [O aquecimento global é tratado em patologia ambiental como determinante de doença. Qual conjunto de mecanismos justifica essa inclusão?],
-  (("A", [O aumento da temperatura eleva diretamente a taxa metabólica basal da população exposta, e o consumo aumentado de oxigênio explica por si só o excesso de mortalidade cardiovascular projetado para o século.]),
-   ("B", [A relação é exclusivamente indireta e econômica, decorrente do custo de adaptação climática sobre os sistemas de saúde, sem que exista mecanismo biológico identificável ligando temperatura e doença.]),
-   ("C", [Ondas de calor produzem mortalidade direta em idosos e cardiopatas, a elevação térmica amplia a área e a estação de vetores, e seca e incêndio despejam material particulado sobre regiões inteiras.]),
-   ("D", [O aquecimento reduz a umidade relativa do ar e aumenta a solubilidade dos gases poluentes nas mucosas, deslocando o dano dos alvéolos para as vias aéreas superiores da população exposta.]),
-   ("E", [A elevação da temperatura acelera a degradação atmosférica dos poluentes primários, de modo que o efeito líquido esperado sobre a saúde respiratória é protetor nas regiões mais aquecidas.])))
+#questao-ce("23", badge-integracao,
+  [Julgue os itens sobre a ascite da cirrose hepática.],
+  (("I", [A ascite da hipertensão portal é tipicamente um transudato, e a presença de líquido rico em proteína e em células deve levantar a suspeita de infecção ou de neoplasia.]),
+   ("II", [A vasodilatação esplâncnica mediada por óxido nítrico alarga o leito arterial e reduz o volume arterial efetivo, ativando a retenção renal de sódio mesmo com volume sanguíneo total elevado.]),
+   ("III", [Na síndrome hepatorrenal, a biópsia renal mostra necrose tubular aguda extensa, o que explica a irreversibilidade da perda de função mesmo após transplante hepático bem-sucedido.]),
+   ("IV", [O aumento da produção de linfa hepática, que extravasa pela cápsula do fígado, é um dos componentes que somam ao acúmulo de líquido na cavidade peritoneal.])))
 
-#questao-ce("24", badge-integracao,
-  [Julgue os itens sobre a curva dose-resposta entre material particulado fino e mortalidade.],
-  (("I", [A curva apresenta um limiar bem definido, abaixo do qual reduções adicionais de concentração não produzem benefício mensurável sobre a mortalidade.]),
-   ("II", [Como o efeito individual é pequeno, a redução da concentração média em uma população de milhões produz um número desprezível de óbitos evitados.]),
-   ("III", [O material particulado fino correlaciona-se melhor com a mortalidade do que a fração grosseira, o que é coerente com sua maior penetração e permanência no pulmão.]),
-   ("IV", [A diretriz da Organização Mundial da Saúde foi endurecida em 2021, o que é compatível com a demonstração de efeito em concentrações antes consideradas aceitáveis.])))
+#questao-mc("24", badge-integracao,
+  [Entre as localizações possíveis do edema, a encefálica é a de desfecho mais rápido e grave. Qual característica anatômica explica essa gravidade particular?],
+  (("A", [O tecido nervoso tem teor de água superior ao dos demais tecidos, de modo que qualquer aumento adicional de líquido representa incremento proporcionalmente maior de volume do que em outros órgãos.]),
+   ("B", [O encéfalo não dispõe de vasos linfáticos convencionais em seu parênquima, de modo que o excedente filtrado não tem qualquer via de remoção e se acumula indefinidamente até a falência neuronal.]),
+   ("C", [A barreira hematoencefálica torna o endotélio cerebral mais permeável a proteínas que o de outros territórios, de modo que o edema encefálico é sempre um exsudato de remoção particularmente difícil.]),
+   ("D", [O crânio é uma caixa rígida de volume fixo, e o tecido que aumenta só pode ser acomodado às custas de compressão e deslocamento pelas aberturas naturais — a herniação comprime o tronco encefálico.]),
+   ("E", [O consumo de oxigênio do encéfalo é o mais alto do organismo, e o afastamento entre capilar e neurônio produzido pelo edema interrompe a oferta antes que ocorra qualquer compressão mecânica.])))
 
-#questao-mc("25", badge-integracao,
-  [A queda das concentrações de dióxido de nitrogênio durante as restrições de circulação de 2020 é frequentemente citada como evidência. O que esse experimento natural efetivamente sustenta?],
-  (("A", [Sustenta a causalidade completa entre poluição e mortalidade, uma vez que a interrupção da exposição foi a única variável alterada no período em todas as regiões estudadas.]),
-   ("B", [Não sustenta nada além de coincidência temporal, pois experimentos naturais não permitem qualquer inferência sobre relação entre exposição e desfecho em saúde populacional.]),
-   ("C", [Sustenta que o dióxido de nitrogênio é o poluente de maior toxicidade entre os emitidos pelo tráfego, já que foi o que apresentou a queda percentual mais expressiva no período observado.]),
-   ("D", [Sustenta o elo entre fonte e exposição — a concentração caiu onde o tráfego parou e voltou quando ele retornou —, mas não isola o efeito sobre desfechos, pois muitas variáveis mudaram simultaneamente.]),
-   ("E", [Sustenta que a exposição prévia era irrelevante, pois a queda rápida de concentração não foi acompanhada de redução proporcional e imediata da mortalidade cardiovascular nas mesmas regiões.])))
+#questao-ce("25", badge-integracao,
+  [Julgue os itens sobre as consequências do edema e sobre a lógica da conduta.],
+  (("I", [O edema do subcutâneo é inteiramente inócuo do ponto de vista tecidual, tendo importância apenas como sinal clínico de doença cardíaca ou renal subjacente.]),
+   ("II", [A remoção do líquido acumulado corrige de forma definitiva o edema, qualquer que seja o mecanismo que o produziu, razão pela qual o diurético é a conduta central em todos os casos.]),
+   ("III", [O edema pulmonar compromete a troca gasosa mesmo com a parede alveolar íntegra, e o líquido acumulado ainda favorece infecção secundária.]),
+   ("IV", [A composição do líquido acumulado é irrelevante para a conduta, uma vez que transudato e exsudato respondem igualmente bem à mesma abordagem terapêutica.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Adolescente asmático piora de forma consistente quando corre no fim da tarde ao longo de uma avenida movimentada, e não apresenta sintomas ao correr de manhã cedo num parque. Qual conjunto de fatores melhor explica a diferença?],
-  (("A", [O pico vespertino de ozônio formado fotoquimicamente, somado ao aumento do volume ventilado e à respiração bucal do exercício, eleva a dose de oxidante que alcança a via aérea já hiper-reativa.]),
-   ("B", [O exercício vespertino coincide com o nadir do cortisol endógeno, e a menor disponibilidade de glicocorticoide explica integralmente a broncoconstrição observada apenas nesse horário do dia.]),
-   ("C", [A temperatura mais alta do fim da tarde aumenta a solubilidade do ozônio no muco das vias superiores, retendo-o antes do brônquio e provocando irritação restrita à faringe do adolescente.]),
-   ("D", [A concentração de material particulado grosseiro é maior à tarde, e essa fração deposita-se no alvéolo por difusão browniana, produzindo o broncoespasmo característico do quadro descrito.]),
-   ("E", [A diferença decorre apenas da inalação de pólen no parque pela manhã, sendo a poluição da avenida irrelevante para a resposta brônquica de um paciente previamente sensibilizado a aeroalérgenos.])))
+  [Homem de 58 anos, acamado há uma semana após cirurgia de quadril, apresenta edema doloroso e assimétrico apenas na perna esquerda, com panturrilha aumentada e quente. Qual mecanismo melhor explica o achado?],
+  (("A", [Queda da pressão oncótica plasmática por hipoalbuminemia pós-operatória, com escape de líquido em todos os leitos capilares e predomínio no membro mantido em posição declive por mais tempo.]),
+   ("B", [Obstrução venosa localizada por trombose, que eleva a pressão hidrostática apenas no território drenado por aquela veia — daí o edema restrito a um membro, com o contralateral preservado.]),
+   ("C", [Retenção renal primária de sódio pela injúria renal do pós-operatório, com expansão de volume e aumento generalizado da pressão hidrostática nos capilares de ambos os membros inferiores.]),
+   ("D", [Obstrução linfática do membro por linfadenite reativa à ferida operatória, com acúmulo lento de líquido rico em proteína e endurecimento progressivo do tecido subcutâneo comprometido.]),
+   ("E", [Aumento generalizado da permeabilidade capilar por resposta inflamatória sistêmica à cirurgia, com formação de exsudato rico em proteína predominantemente nos territórios de maior pressão hidrostática.])))
 
 #questao-ce("27", badge-aplicacao,
-  [Uma família de quatro pessoas é levada ao pronto-socorro no inverno com cefaleia, náusea e confusão mental, todas com início na mesma noite. A casa tem aquecedor a gás em ambiente fechado. Nenhum paciente está cianótico e a oximetria de pulso mostra saturação de 98%. Julgue os itens:],
-  (("I", [A saturação normal na oximetria de pulso e a ausência de cianose afastam hipóxia tecidual significativa neste cenário.]),
-   ("II", [O acometimento simultâneo de vários moradores do mesmo ambiente fechado é dado que reforça fortemente a hipótese de intoxicação por monóxido de carbono.]),
-   ("III", [A coloração rosada da pele é compatível com o quadro, pois a carboxiemoglobina formada tem cor vermelho-viva.]),
-   ("IV", [A confirmação diagnóstica exige a dosagem da carboxiemoglobina, e não a leitura da oximetria de pulso convencional.])))
+  [Homem de 52 anos, cirrótico, com ascite volumosa, chega ao pronto-socorro com febre, dor abdominal difusa e piora da função hepática. A punção do líquido ascítico mostra contagem elevada de neutrófilos, sem qualquer evidência de perfuração de víscera. Julgue os itens:],
+  (("I", [O quadro é compatível com peritonite bacteriana espontânea, favorecida pela pobreza do líquido ascítico em proteínas de defesa.]),
+   ("II", [A ausência de perfuração afasta a origem intestinal das bactérias e obriga a buscar um foco infeccioso a distância com disseminação hematogênica exclusiva.]),
+   ("III", [O achado de neutrófilos abundantes indica que a ascite deste paciente sempre foi um exsudato, o que exclui a hipertensão portal como mecanismo de formação do líquido.]),
+   ("IV", [A elevação da creatinina que costuma seguir-se a esse quadro indica necessariamente lesão estrutural do parênquima renal, o que contraindica considerar o transplante hepático.])))
 
 #questao-mc("28", badge-aplicacao,
-  [Um serviço de emergência observa aumento de internações por infarto agudo do miocárdio na semana seguinte a um período de queimadas com material particulado muito elevado. Qual mecanismo explica esse efeito agudo?],
-  (("A", [A inalação de monóxido de carbono das queimadas reduziu o transporte de oxigênio a ponto de provocar necrose miocárdica por hipóxia isolada, sem participação de doença coronariana prévia.]),
-   ("B", [A inflamação pulmonar aguda libera mediadores que recrutam fígado e medula, e a inflamação sistêmica resultante agrava a disfunção endotelial, favorece trombose e desequilibra o tônus autonômico em pacientes já ateroscleróticos.]),
-   ("C", [O material particulado depositado nos alvéolos difundiu-se até o miocárdio e provocou lesão direta dos cardiomiócitos por sobrecarga de massa nas fibras da parede ventricular esquerda.]),
-   ("D", [A exposição aguda elevou de forma abrupta os níveis plasmáticos de LDL, e o aumento súbito de colesterol circulante precipitou a formação de novas placas ateroscleróticas em poucos dias.]),
-   ("E", [O efeito é apenas de notificação, pois a fumaça aumenta a procura por serviços de emergência sem que exista qualquer mecanismo biológico ligando exposição aguda e evento coronariano.])))
+  [Menino de 5 anos apresenta edema que começou nas pálpebras e generalizou em uma semana. Os exames mostram proteinúria de 6 g em 24 horas, albumina sérica de 1,8 g/dL e colesterol elevado. Qual afirmação descreve corretamente o mecanismo do edema?],
+  (("A", [A retenção primária de sódio pelo glomérulo inflamado expande o volume circulante e eleva a pressão hidrostática capilar, sendo a hipoalbuminemia achado secundário sem papel na formação do edema.]),
+   ("B", [O aumento da permeabilidade capilar sistêmica produz exsudato rico em proteína, e a proteinúria representa a fração desse exsudato filtrada secundariamente pelos glomérulos íntegros do paciente.]),
+   ("C", [A hiperlipidemia eleva a viscosidade do plasma e lentifica o fluxo capilar, e a estase resultante é o fator determinante do extravasamento de líquido para o interstício dos tecidos.]),
+   ("D", [A obstrução dos linfáticos renais impede a devolução do excedente filtrado à circulação, o que explicaria tanto a proteinúria maciça quanto o caráter rico em proteína do edema descrito.]),
+   ("E", [A perda urinária de albumina derruba a pressão oncótica do plasma, o líquido escapa do vaso, o volume arterial efetivo cai e a retenção renal de sódio realimenta o edema generalizado.])))
 
 #questao-ce("29", badge-aplicacao,
-  [Uma gestora municipal propõe reduzir a concentração média anual de material particulado fino da cidade de 12 para 9 µg/m³, e é questionada porque o valor atual já está próximo da antiga diretriz internacional. Julgue os itens:],
-  (("I", [A ausência de limiar identificável na curva dose-resposta sustenta que a redução proposta ainda evita óbitos, mesmo partindo de concentração considerada baixa.]),
-   ("II", [O benefício esperado em número absoluto de óbitos evitados cresce com o tamanho da população exposta, ainda que o risco individual se desloque pouco.]),
-   ("III", [Como a diretriz anterior era de 10 µg/m³, uma cidade em 12 µg/m³ estaria em faixa sem efeito biológico demonstrável sobre a mortalidade.]),
-   ("IV", [O endurecimento da diretriz internacional para 5 µg/m³ é coerente com a proposta, por refletir evidência de dano em concentrações antes toleradas.])))
+  [Mulher de 40 anos desenvolve insuficiência respiratória grave 48 horas após um quadro de sepse de origem abdominal. A radiografia mostra infiltrado bilateral difuso e a pressão de enchimento do ventrículo esquerdo é normal. Julgue os itens:],
+  (("I", [O quadro corresponde a edema pulmonar cardiogênico, e a normalidade da pressão de enchimento decorre de a medida ter sido feita após reposição volêmica insuficiente.]),
+   ("II", [A lesão da barreira alvéolo-capilar permite a passagem de plasma rico em fibrinogênio para o alvéolo, e a fibrina polimerizada compõe as membranas hialinas.]),
+   ("III", [O tratamento de escolha é a redução volêmica agressiva com diurético em dose alta, que reverte o vazamento ao restaurar a integridade do endotélio lesado.]),
+   ("IV", [O líquido alveolar esperado neste quadro é um transudato pobre em proteína, indistinguível daquele encontrado na insuficiência ventricular esquerda descompensada.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Um estudante afirma que a poluição do ar é problema respiratório e que o cardiologista não precisa se ocupar dela. Qual argumento, apoiado no mecanismo, melhor refuta essa afirmação?],
-  (("A", [A afirmação procede quanto ao mecanismo, e a associação entre poluição e desfecho cardiovascular observada nos estudos populacionais decorre da confusão com tabagismo e condição socioeconômica.]),
-   ("B", [A refutação está no fato de que a doença pulmonar obstrutiva crônica leva a cor pulmonale, sendo esse o único caminho pelo qual a exposição ambiental alcança o aparelho cardiovascular do paciente.]),
-   ("C", [A refutação é apenas estatística: os estudos mostram associação com mortalidade cardiovascular, embora nenhum mecanismo biológico ligando exposição inalatória e parede arterial tenha sido demonstrado.]),
-   ("D", [A afirmação procede para partículas finas, mas não para gases, que por serem absorvidos na circulação pulmonar agem diretamente sobre o miocárdio sem passar por qualquer etapa inflamatória.]),
-   ("E", [A inflamação alveolar recruta fígado e medula e instala inflamação sistêmica, as ultrafinas alcançam direto a circulação, e daí saem disfunção endotelial, aterosclerose acelerada e trombose — o desfecho mais numeroso é cardiovascular.])))
+  [Homem de 67 anos com insuficiência cardíaca de longa data chega dispneico, com estertores nas bases pulmonares, jugulares ingurgitadas, edema de membros inferiores com sinal do cacifo e fígado aumentado e doloroso. A ecografia abdominal descreve fígado com padrão heterogêneo. Qual conjunto de mecanismos explica simultaneamente todos os achados?],
+  (("A", [Aumento generalizado da permeabilidade capilar por mediadores inflamatórios liberados no miocárdio isquêmico, com formação de exsudato rico em proteína no pulmão, no subcutâneo e nos sinusóides hepáticos.]),
+   ("B", [Perda de albumina pela congestão da mucosa intestinal, com hipoalbuminemia consequente e queda da pressão oncótica como mecanismo único e suficiente para os edemas pulmonar, periférico e hepático.]),
+   ("C", [Falência esquerda represando sangue no pulmão, falência direita represando nas veias sistêmicas e o eixo renina-angiotensina-aldosterona retendo sódio e água; a congestão hepática crônica produz o padrão heterogêneo.]),
+   ("D", [Obstrução linfática do ducto torácico pela pressão venosa central elevada, impedindo a devolução da linfa ao sangue e acumulando líquido rico em proteína em todos os territórios.]),
+   ("E", [Retenção renal primária de sódio por injúria renal aguda associada, sendo a expansão de volume o mecanismo isolado do edema pulmonar, do edema periférico e da congestão hepática.])))

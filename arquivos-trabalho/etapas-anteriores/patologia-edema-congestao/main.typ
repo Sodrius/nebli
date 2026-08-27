@@ -49,6 +49,11 @@
 #set-etapa("Resumindo")
 #include "resumindo.typ"
 
+// ======= DO ZERO (2a parte do Resumindo) =======
+#pagebreak(weak: true)
+#set-etapa("Do zero")
+#include "resumindo-zero.typ"
+
 // ======= ETAPA 2 =======
 #pagebreak(weak: true)
 #set-etapa("Etapa 2 — 30 objetivas")
