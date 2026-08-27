@@ -1,33 +1,27 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("O balanço que governa tudo",
-   [A pressão hidrostática empurra líquido para fora do capilar e a pressão oncótica das proteínas plasmáticas puxa de volta; sobram cerca de 2 a 3 litros por dia, que o sistema linfático recolhe e devolve ao sangue. Edema é qualquer desses três termos saindo da faixa.]),
+  ("O tamanho decide o destino",
+   [O diâmetro aerodinâmico define até onde a partícula chega: entre 10 e 5 µm é barrada por impactação nas bifurcações, entre 5 e 1 µm sedimenta nas vias de pequeno calibre, e abaixo de 1 µm alcança o alvéolo por difusão browniana. Quanto menor, mais fundo e por mais tempo.]),
 
-  ("Cinco mecanismos, cinco doenças-modelo",
-   [Pressão hidrostática alta produz o edema da insuficiência cardíaca e da trombose venosa; pressão oncótica baixa, o da síndrome nefrótica e da cirrose; obstrução linfática, o linfedema; retenção primária de sódio, o da glomerulonefrite aguda; e permeabilidade aumentada, o edema inflamatório.]),
+  ("Solubilidade decide a profundidade do gás",
+   [Gás muito solúvel, como o dióxido de enxofre, dissolve-se na primeira mucosa e irrita as vias superiores. Gás pouco solúvel, como ozônio e dióxido de nitrogênio, escapa dessa retenção e alcança o alvéolo, onde age como oxidante direto. O que mais arde no nariz não é o que mais lesa o alvéolo.]),
 
-  ("Transudato e exsudato revelam o mecanismo",
-   [Com endotélio íntegro, o líquido que sai é ultrafiltrado pobre em proteína e em células — transudato, densidade baixa. Quando a permeabilidade aumenta, passa proteína e passam leucócitos — exsudato, densidade alta. A composição denuncia a causa; o volume só mede a gravidade.]),
+  ("Do macrófago à doença obstrutiva",
+   [Na exposição repetida o macrófago alveolar entra em ativação persistente e vira fonte de mediadores. Interleucina-6 e interleucina-8 recrutam neutrófilos, e metais de transição geram radical hidroxila pela reação de Fenton. Anos disso produzem remodelamento brônquico e doença obstrutiva, com ou sem cigarro.]),
 
-  ("Congestão não é hiperemia",
-   [Hiperemia é ativa: a arteríola dilata, entra mais sangue oxigenado e o tecido fica vermelho vivo. Congestão é passiva: o sangue não sai pela via venosa, acumula-se desoxigenado e o tecido fica cianótico. Congestão crônica leva a hipóxia, hemorragia, hemossiderina e fibrose.]),
+  ("O desfecho mais numeroso é cardiovascular",
+   [Mediadores liberados no alvéolo recrutam fígado e medula e instalam inflamação sistêmica; as ultrafinas ainda atravessam direto para a circulação. O endotélio perde a vasodilatação e a superfície antitrombótica, e daí saem hipertensão, aterosclerose acelerada e trombose. Na exposição experimental a placa engrossa sem ganhar lipídio — o que cresce é o componente inflamatório.]),
 
-  ("O círculo vicioso da insuficiência cardíaca",
-   [O ventrículo falho ejeta menos, a perfusão renal cai e o rim, lendo hipovolemia, ativa o sistema renina-angiotensina-aldosterona. O sódio e a água retidos aumentam o volume circulante, que sobrecarrega ainda mais o coração doente — a resposta correta do rim agrava a congestão que a disparou.]),
+  ("Poluente secundário é formado no ar, não emitido",
+   [Primário é o que sai da chaminé ou do escapamento; secundário é o que a atmosfera fabrica a partir dele sob luz solar. O ozônio de nível do solo é secundário e está entre os mais lesivos — e é a mesma molécula que, na estratosfera, protege contra o ultravioleta.]),
 
-  ("O paradoxo do edema por hipoalbuminemia",
-   [Com albumina baixa, o líquido escapa do vaso em todos os leitos; o volume arterial efetivo cai e o rim retém sódio e água. Só que o líquido retido também escapa, por falta da mesma proteína — daí o edema generalizado que resiste ao diurético isolado.]),
+  ("Monóxido de carbono não dá cianose",
+   [Sua afinidade pela hemoglobina é cerca de duzentas vezes maior que a do oxigênio, e a carboxiemoglobina formada é vermelho-viva: o paciente fica rosado enquanto o tecido asfixia. Ainda desloca a curva de dissociação para a esquerda, dificultando a entrega do oxigênio restante.]),
 
-  ("Ascite na cirrose soma quatro forças",
-   [A hipertensão portal eleva a pressão hidrostática esplâncnica, a síntese reduzida de albumina derruba a oncótica, a linfa hepática extravasa pela cápsula e a vasodilatação esplâncnica reduz o volume arterial efetivo, ativando o rim. A vasoconstrição renal dessa mesma cascata produz a síndrome hepatorrenal.]),
+  ("Poluição intradomiciliar é exposição diária",
+   [A queima de biomassa em fogão sem exaustão é combustão incompleta, e gera particulado fino, monóxido de carbono e hidrocarbonetos em concentração que supera a da via pública. Quem cozinha e quem está no colo recebe a maior dose — daí a doença obstrutiva em mulheres que nunca fumaram.]),
 
-  ("Dois edemas pulmonares, duas morfologias",
-   [No cardiogênico o capilar está íntegro sob pressão: alvéolo com material róseo homogêneo, pobre em proteína. No dano alveolar difuso a barreira está destruída: plasma rico em fibrinogênio inunda o alvéolo e deposita membrana hialina revestindo a parede. Só o segundo é exsudato.]),
-
-  ("A morfologia entrega o mecanismo",
-   [Edema mole com sinal do cacifo e distribuição dependente aponta causa hemodinâmica; edema periorbital aponta causa renal; edema firme, assimétrico e sem cacifo aponta obstrução linfática. No órgão, induração parda do pulmão e fígado em noz-moscada assinam congestão passiva crônica.]),
-
-  ("Onde o edema mata",
-   [No subcutâneo o edema é sinal, mas atrasa cicatrização e favorece infecção. No pulmão bloqueia a troca gasosa e serve de meio de cultura. No encéfalo, dentro de uma caixa rígida, empurra o tecido pelas aberturas do crânio e comprime o tronco encefálico.]),
+  ("Medir só óbito subestima, e não há limiar seguro",
+   [Abaixo das mortes estão internações, consultas e medicamentos, e na base a inflamação subclínica de muita gente. A mortalidade cresce com o particulado fino sem degrau abaixo do qual o efeito cesse — por isso a diretriz da Organização Mundial da Saúde caiu de 10 para 5 µg/m³ em 2021.]),
 ))

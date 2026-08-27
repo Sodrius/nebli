@@ -1,0 +1,43 @@
+# MAPA_CONTEUDO -- patologia-ambiental
+# Slide-fonte: ambiental.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Patologia Ambiental Luiz Fernando Ferraz da Silva UC3 – Princípios do Desenvolvimento das Doenças
+slide-02: Imagem: O Homem – Amesbury M, 1995 – Óleo sobre tela A história da poluição
+slide-03: Século XVIII – Revolução Industrial Imagens: Industrial Revolution Newspaper Project – Industrial Revolution: A Blessing or a Curse A história da poluição
+slide-04: O homem como vítima • 1952 – Grande nevoeiro 4000 mortes em 1 semana > 8000 em 3 semanas Logan WP – Lancet 1953 Imagens: www.bbc.co.uk
+slide-05: December, 1952 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 2500 2000 1500 1000 500 0 deaths per day smoke (ug/m3) O homem como vítima Logan WP – Lancet 1953
+slide-06: O homem como vítima mortes internações consultas médicas uso de medicamentos Inflamação subclínica gravidade número de afetados
+slide-07: Mudanças Climáticas IPCC-2021 – https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf
+slide-08: Mudanças Climáticas
+slide-09: Mudanças Climáticas
+slide-10: Mudanças Climáticas
+slide-11: Mudanças Climáticas
+slide-12: Mudanças Climáticas Environment International - Volume 103, June 2017, Pages 99-108
+slide-13: O problema das megacidades 0 20 40 60 80 100 120 140 160 180 200 1930 1950 1970 1990 2010 população (milhões) total urbano rural Fonte: IBGE
+slide-14: O problema das megacidades Atlas ambiental do município de São Paulo, 2009
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: O problema das megacidades 28 mg/m3 20 mg/m3 16 mg/m3 WHO Air Quality Guideline 10 mg/m3
+slide-19: Poluentes primários e secundários Indústrias SO² SO² NOX MP MP MP HPA CO HPA CO CO HPA NOX MP metais metais O3 NO2 H2SO4 CO2 SOx NOX Poluição Atmosférica Biomassa Veículos leves Veículos pesados SO3 (NH4)2SO4
+slide-20: Poluição atmosférica Material Particulado Composição: nitratos, sulfatos, metais pesados e de transição, HPA Fontes naturais: solo, oceano, vulcões e florestas Fontes antropogências: transporte, indústria, combustões incompletas Classificação – diâme...
+slide-21: Poluição Atmosférica Saldiva et al, in Brasileiro Filho – Bogliolo Patologia - 2010 PM 10 PM 2,5 Ultrafinas
+slide-22: 200 100 30 0 30 100 200 40,00 30,00 20,00 10,00 NO2 (ug/m3) Poluição Atmosférica
+slide-23: Poluição Atmosférica
+slide-24: Age-, sex-, and race- adjusted mortality rates in U.S. cities for 1980 fine particulate (PM2.5) air pollution 8 10 12 14 16 18 20 22 24 26 28 30 32 34 Adjusted Mortality for 1980 (Deaths/Yr/100,000) 600 650 700 750 800 850 900 950 1000 PM2.5 Pope et ...
+slide-25: Life Expectancy vs PM2.5 1980-2000 71 72 73 74 75 76 77 78 79 80 81 5 10 15 20 25 30 PM2.5 (mg/m3) Life Expectancy Los Angeles, CA San Jose, CA San Diego, CA  São Paulo 28.1 mg/m3 Poluição e Saúde
+slide-26: categories of coronary luminal area (um/100) 11 to 63 3 to 10 1 to 2 2,5 2,0 1,5 1,0 ,5 0,0 filtered polluted Poluição e Saúde
+slide-27: Poluição e Saúde
+slide-28: 8-ISO: semelhante nos grupos MAC2: ?CSH Aorta Oil Red (400X) Poluição potencializa: • Oxidação LDL colesterol • Produção de Auto- Anticorpos anti LDLox e anti-Peptídeo D (inédito) • Aumenta a espessura da placa aterosclerótica • Não aumenta o teor li...
+slide-29: Mills, Inhal Toxicol, 2007 Poluição e Saúde
+slide-30: Poluição e Saúde
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: Salvi SS et al., Lancet 2009 >75% 51-74% 26-50% <25% Biomassa – Muito além da cana
+slide-33: p = 0,004 p = 0,038 p =0,022 p < 0,001 p =0,010 p = 0,818 Biomassa – Indoor
+slide-34: Gases e PM Alterações mucociliares NO2 Infecções respiratórias Expectoração CO, Metano, NO2 , etc Irritação química Coceira nos olhos Lacrimejamento Irritação química Alteração do muco Gases e PM Coriza Atividade Macrofágica e linfocitária PM Reaçõe...
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
