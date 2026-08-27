@@ -169,24 +169,24 @@ def render_gabarito(gabarito):
     return "\n".join(lines)
 
 
-def _bloco_resumindo_zero(out_path):
-    """Emite o include do "Do zero" -- 2a parte do Resumindo (canônico 2026-08-27).
+def _bloco_pre_aula(out_path):
+    """Emite o include da "Pré-aula" -- 2a parte do Resumindo (canônico 2026-08-27).
 
-    Público diferente do Resumindo comum: aquele é revisão para quem já leu a
-    E1; este é primeiro contato, para chegar na aula sabendo os termos. Fica
-    logo depois do Resumindo e antes da Etapa 2.
+    Público oposto ao do Resumindo comum: aquele é revisão para quem já leu a
+    E1; esta é primeiro contato, texto corrido para quem vai ASSISTIR a aula
+    sem ter lido nada. Fica logo depois do Resumindo e antes da Etapa 2.
 
     Opcional por retrocompatibilidade: resumos antigos, que não têm o arquivo,
     seguem compilando sem a seção.
     """
-    zero = Path(out_path).resolve().parent / "resumindo-zero.typ"
-    if not zero.exists():
+    pre = Path(out_path).resolve().parent / "pre-aula.typ"
+    if not pre.exists():
         return ""
     return (
-        '\n// ======= DO ZERO (2a parte do Resumindo) =======\n'
+        '\n// ======= PRÉ-AULA (2a parte do Resumindo) =======\n'
         '#pagebreak(weak: true)\n'
-        '#set-etapa("Do zero")\n'
-        '#include "resumindo-zero.typ"\n'
+        '#set-etapa("Pré-aula")\n'
+        '#include "pre-aula.typ"\n'
     )
 
 
@@ -215,7 +215,7 @@ HEADER = '''// ================================================================
 #pagebreak(weak: true)
 #set-etapa("Resumindo")
 #include "resumindo.typ"
-{resumindo_zero}
+{pre_aula}
 // ======= ETAPA 2 =======
 #pagebreak(weak: true)
 #set-etapa("Etapa 2 — 30 objetivas")
@@ -296,7 +296,7 @@ def gerar_main(card_path: Path, out_path: Path):
             capa=capa_text,
             sumario=sumario_text,
             gabarito=gabarito_text,
-            resumindo_zero=_bloco_resumindo_zero(out_path),
+            pre_aula=_bloco_pre_aula(out_path),
         )
     out_path.write_text(text, encoding="utf-8")
     return len(text)

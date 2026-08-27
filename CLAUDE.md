@@ -211,7 +211,7 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
 2. **Sumário** (1 página: máx 3 itens por PARTE da E1, descrições 3–5 palavras).
 3. **Etapa 1 — texto didático** (intro-box + 3 PARTES + **conclusão integradora obrigatória** — a E1 fecha sempre no `#conclusao-box`, costurando as PARTES em 4 camadas: princípio unificador → mecanismo nuclear → clínica retomada → projeção; ver `ROLES.md` § Redator diretriz 11). **A conclusão VOLTA a ser gate do `precompile-check.py` (CANON 2026-07-03 — reverte a suspensão de 2026-07-01)** — `#conclusao-box` é exigido `>=1` em toda E1. Siglas como footnote no rodapé de cada página.
 4. **Resumindo** (1–2 páginas) — logo após Conclusão integradora da E1.
-4b. **Do zero** (2ª parte do Resumindo, canônico 2026-08-27) — logo depois do Resumindo, antes da E2.
+4b. **Pré-aula** (2ª parte do Resumindo, canônico 2026-08-27) — logo depois do Resumindo, antes da E2.
 5. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline.
 6. **Etapa 3** — 5 discursivas, modelo de resposta ≤100 palavras (Q5 ≤130).
 7. **Gabarito consolidado da Etapa 2** (última seção).
@@ -264,7 +264,7 @@ Default = prosa expositiva contínua. Bullets/tabelas só em 3 casos: (a) compar
 
 ## Resumindo — duas partes (2ª parte canônica 2026-08-27)
 
-O Resumindo tem **duas partes com públicos diferentes**, nesta ordem: primeiro o **Resumindo** clássico (revisão para quem já leu a E1), depois o **Do zero** (primeiro contato para quem não leu nada).
+O Resumindo tem **duas partes com públicos opostos**, nesta ordem: primeiro o **Resumindo** clássico (revisão para quem já leu a E1), depois a **Pré-aula** (primeiro contato, para quem vai *assistir* a aula sem ter lido nada).
 
 ### Parte 1 — Resumindo (banner gold)
 
@@ -272,21 +272,22 @@ O Resumindo tem **duas partes com públicos diferentes**, nesta ordem: primeiro 
 
 REDATOR-E1 entrega `resumindo.typ` junto da Etapa 1. Assinatura: `#resumindo-page(((titulo, corpo), (titulo, corpo), ...))` — tupla dupla por seção.
 
-### Parte 2 — Do zero (banner teal) — CANÔNICO 2026-08-27
+### Parte 2 — Pré-aula (banner teal) — CANÔNICO 2026-08-27
 
-**Pedido de Davi:** "um resumo 100% do zero para leigos do assunto, alguém que não leu a E1 e quer acompanhar melhor a aula — os principais termos de forma sucinta, para eu ter um primeiro contato".
+**Pedido de Davi**, em duas rodadas no mesmo dia: primeiro *"um resumo 100% do zero para leigos do assunto, alguém que não leu a E1 e quer acompanhar melhor a aula — os principais termos de forma sucinta"*; depois, corrigindo a forma: *"quero que essa funcionalidade chame **pré-aula** e seja um **texto corrido**, linguagem NEBLI, aprofundamento correto, de **até 2 páginas**, com as informações mais importantes em **negrito preto**"*. A primeira versão saiu como glossário e foi substituída — vale como registro de que **a forma é prosa, não lista**, mesmo aqui.
 
-Público **oposto** ao da Parte 1. A Parte 1 é revisão para quem já estudou; a Parte 2 é **primeiro contato**, lida idealmente *antes* da aula presencial, por alguém que não sabe nada do tema. É glossário, não prosa expositiva — e é a única seção do NEBLI em que a definição pode preceder o mecanismo, porque a função aqui é dar nome às coisas que o professor vai falar, não ensinar o mecanismo (isso é papel da E1).
+Público **oposto** ao da Parte 1. A Parte 1 é revisão para quem já estudou; a Pré-aula é **primeiro contato**, escrita para ser lida *antes* da aula presencial por alguém que não sabe nada do tema e quer acompanhar o professor sem se perder no vocabulário.
 
 Regras de redação:
 
-- **15–30 termos**, cada um com definição de **15–30 palavras**: uma frase que diz *o que é* e *por que importa*.
-- **Ordem lógica de construção, nunca alfabética.** A lista tem que poder ser lida de cima para baixo como uma escada: se o termo B precisa do termo A para ser entendido, A vem antes.
-- **Linguagem do dia a dia, zero pressuposto.** "Inchaço" antes de "edema"; "a parte líquida do sangue" antes de "plasma". Sem sigla nova, sem remissão a outro resumo, sem `#termo-nota` nem `#sigla` (a footnote é recurso da E1).
-- **`abertura` (opcional, mas recomendada):** 3–5 linhas dizendo do que a aula trata, em linguagem de leigo, antes do primeiro termo.
-- **Cobertura:** todo termo que a E1 marcou como `#termo-nota` ou `#sigla` deveria ter entrada aqui, mais os termos que o professor usa em aula sem definir.
+- **Prosa corrida em voz NEBLI.** Monitor explicando — não glossário, não lista, não bullet. Os termos entram *dentro* da frase que os explica, na ordem em que o professor vai usá-los. Vale tudo o que já rege a E1 sobre fluidez: sem pergunta retórica, sem empilhamento de siglas, cadeia causa → mecanismo → consequência.
+- **Teto de 2 páginas** (~1.000–1.200 palavras). Coluna única, justificada — prosa longa em 2 colunas cansa.
+- **Linguagem do dia a dia, zero pressuposto, mas com aprofundamento correto.** "Inchaço" antes de "edema", "a parte líquida do sangue" antes de "plasma". Simplificar não é permitir erro: se o mecanismo não cabe em linguagem simples, entrega-se o *gesto* certo e deixa-se o detalhe para a E1.
+- **Negrito preto marcando o que o leitor leva embora** — tipicamente o nome técnico na 1ª aparição e a frase-chave de cada bloco. O template já força `show strong: set text(fill: text-main)`, então `*termo*` sai preto sem ajuste.
+- **Sem sigla nova, sem `#termo-nota`, sem footnote, sem remissão a outro resumo.** Footnote é recurso da E1; aqui a explicação está inteira na frente do olho.
+- **Cobertura:** todo termo que a E1 marcou como `#termo-nota` ou `#sigla` deveria aparecer na prosa, mais o que o professor usa em aula sem definir.
 
-Assinatura: `#resumindo-zero-page(((termo, definicao), ...), abertura: [...])`. Arquivo `typst-build/resumindo-zero.typ`, entregue junto do `resumindo.typ`. O `gerar_main.py` inclui a seção **automaticamente quando o arquivo existe** (retrocompatível: resumo antigo sem o arquivo compila igual).
+Assinatura: `#pre-aula-page[...]` — recebe o conteúdo direto, sem estrutura de tupla. Arquivo `typst-build/pre-aula.typ`, entregue junto do `resumindo.typ`. O `gerar_main.py` inclui a seção **automaticamente quando o arquivo existe** (retrocompatível: resumo antigo sem o arquivo compila igual). Exemplar de referência em `arquivos-trabalho/exemplares-pre-aula/`.
 
 ## Verificação do PDF (resumo — detalhes no compilador.md)
 

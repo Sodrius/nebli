@@ -243,16 +243,18 @@ Gabarito consolidado da E2, organizado por categoria.
 ### `resumindo-page(secoes)`
 Página "Resumindo" — 1 página, 2 colunas, banner âmbar. Chamada **logo após Conclusão integradora da E1**, antes da E2. REDATOR-E1 entrega `resumindo.typ` com a estrutura `secoes-resumindo`.
 
-### `resumindo-zero-page(termos, abertura: none)` — NOVO 2026-08-27
-Página "Do zero" — **2ª parte do Resumindo**, banner teal, 2 colunas. Vem logo depois do `resumindo-page(...)` e antes da Etapa 2. Público: quem **não leu a E1** e quer chegar na aula sabendo os termos. `termos` é tupla de pares `(termo, definicao)`, em **ordem lógica de construção, nunca alfabética**. `abertura` é um bloco cinza opcional de 3–5 linhas situando o leigo. 15–30 termos, 15–30 palavras cada, linguagem do dia a dia, sem sigla nova e sem footnote.
+### `pre-aula-page(conteudo)` — NOVO 2026-08-27
+Página "Pré-aula" — **2ª parte do Resumindo**, banner teal, coluna única justificada, corpo 9.8pt. Vem logo depois do `resumindo-page(...)` e antes da Etapa 2. Público: quem **não leu a E1** e vai assistir a aula. **Prosa corrida em voz NEBLI, teto de 2 páginas**, com negrito preto no que o leitor leva embora. Sem glossário, sem lista, sem footnote.
 ```typst
-#resumindo-zero-page(
-  abertura: [Esta aula trata de como o ambiente adoece quem vive nele...],
-  (("Poluente", [Qualquer substância no ar em quantidade capaz de fazer mal a quem respira.]),
-   ("Alvéolo", [A bolsinha microscópica no fim do pulmão onde o ar encontra o sangue.])),
-)
+#pre-aula-page[
+  Se você vai assistir a esta aula sem ter lido nada antes, comece por uma imagem só.
+  Pense no sangue circulando dentro de um tubo de parede porosa — o *capilar*...
+]
 ```
-O `gerar_main.py` inclui a seção sozinho quando `typst-build/resumindo-zero.typ` existe — resumo antigo sem o arquivo compila igual.
+O `gerar_main.py` inclui a seção sozinho quando `typst-build/pre-aula.typ` existe — resumo antigo sem o arquivo compila igual.
+
+### `resumindo-zero-page(termos, abertura: none)` — RETROCOMPAT, não usar
+Versão em glossário da mesma seção, substituída por `#pre-aula-page` no mesmo dia a pedido de Davi ("texto corrido, não lista"). Mantido só para que os 2 resumos de UC3 fechados com ele sigam recompilando.
 
 ### `mapa-parte(parte: none, centro: [], nos: (), arestas: (), fecha-com: none)`
 Mapa hub-and-spoke ao final de cada PARTE da E1. **Limites operacionais:** `centro` ≤12 palavras, `no.titulo` ≤3, `no.texto` ≤10–12, label da aresta ≤3–4, `fecha-com` ≤18.
@@ -359,4 +361,4 @@ Cartão pequeno do rodapé. Mesma observação acima.
 
 ---
 
-**Resumo:** 39 helpers (38 anteriores + `resumindo-zero-page`, canônico 2026-08-27). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.
+**Resumo:** 40 helpers (38 anteriores + `pre-aula-page` canônico 2026-08-27 + `resumindo-zero-page` em retrocompat). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.

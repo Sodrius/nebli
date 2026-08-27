@@ -1007,37 +1007,35 @@
 }
 
 // ====================================================================
-// PRE-AULA -- 2a parte do Resumindo (canônico 2026-08-27)
+// DO ZERO -- 2a parte do Resumindo (canônico 2026-08-27, pedido de Davi)
 // ====================================================================
-// Função: texto corrido que prepara para ASSISTIR a aula. Público oposto
-// ao do Resumindo comum: aquele é revisão para quem já leu a Etapa 1;
-// este é PRIMEIRO CONTATO, para quem não leu nada e quer acompanhar o
-// professor sem se perder no vocabulário.
+// Função: resumo 100% do zero, para quem NÃO leu a Etapa 1 e quer chegar
+// na aula sabendo os termos. Público diferente do Resumindo comum: aquele
+// é revisão para quem já estudou; este é PRIMEIRO CONTATO.
 //
 // Regra de redação (ver ROLES.md § Redator diretriz 5.bis):
-//   - PROSA CORRIDA em voz NEBLI -- monitor explicando, não glossário,
-//     não lista, não bullet. Os termos entram DENTRO da frase que os
-//     explica, na ordem em que o professor vai usá-los.
-//   - Linguagem do dia a dia, zero pressuposto, mas com aprofundamento
-//     correto: nada de simplificação que vira erro. Se o mecanismo não
-//     cabe em linguagem simples, dá o gesto certo e deixa o detalhe
-//     para a E1.
-//   - Negrito preto (`*termo*`) marcando o que o leitor leva embora --
-//     tipicamente o nome técnico na 1a aparição e a frase-chave de cada
-//     bloco. Sem sigla nova, sem footnote, sem remissão a outro resumo.
-//   - Teto de 2 páginas. Coluna única e justificada, porque prosa longa
-//     em 2 colunas cansa.
+//   - Linguagem do dia a dia. Zero pressuposto. Se um termo precisa de
+//     outro termo para ser entendido, o outro vem ANTES na lista.
+//   - Ordem lógica de construção, nunca alfabética -- a lista tem que
+//     poder ser lida de cima para baixo como uma escada.
+//   - Definição de 15 a 30 palavras: uma frase que diz O QUE É e POR QUE
+//     IMPORTA. Sem sigla nova, sem remissão a outro resumo.
+//   - `abertura` (opcional): 3 a 5 linhas dizendo do que a aula trata,
+//     em linguagem de leigo, antes do primeiro termo.
+//
+// Banner teal para distinguir do Resumindo (gold) à primeira folheada.
 
-// RETROCOMPAT -- `resumindo-zero-page` (glossário "Do zero", 2026-08-27 manhã).
-// Substituído no mesmo dia por `#pre-aula-page` (prosa corrida), a pedido de
-// Davi. Mantido apenas para que os 2 resumos de UC3 já fechados com ele
-// sigam recompilando. NÃO usar em resumo novo.
 #let resumindo-zero-page(termos, abertura: none) = {
   pagebreak(weak: true)
   set-etapa("Do zero")
   block(fill: teal, inset: (x: 18pt, y: 10pt), width: 100%, radius: 4pt,
-    text(font: titulo-fam, weight: "bold", size: 14pt, fill: white,
-         tracking: 1.5pt, "Do zero"))
+    stack(spacing: 5pt,
+      text(font: titulo-fam, weight: "bold", size: 14pt, fill: white,
+           tracking: 1.5pt, "Do zero"),
+      text(font: titulo-fam, size: 8pt, fill: rgb("#DCEFEF"), tracking: 0.5pt,
+           "os termos da aula em linguagem simples — para quem está no primeiro contato")
+    )
+  )
   v(12pt)
   if abertura != none {
     block(fill: gray-bg, inset: (x: 14pt, y: 11pt), width: 100%, radius: 4pt,
@@ -1048,31 +1046,19 @@
   set par(justify: false, leading: 0.95em, spacing: 0.7em)
   for (idx, par-termo) in termos.enumerate() {
     let (termo, definicao) = par-termo
-    if idx > 0 { v(5pt); line(length: 100%, stroke: 0.4pt + gray-border); v(5pt) }
+    if idx > 0 {
+      v(5pt)
+      line(length: 100%, stroke: 0.4pt + gray-border)
+      v(5pt)
+    }
     block(breakable: false, {
-      text(font: titulo-fam, weight: "bold", size: 9.5pt, fill: navy, tracking: 0.2pt, termo)
+      text(font: titulo-fam, weight: "bold", size: 9.5pt, fill: navy,
+           tracking: 0.2pt, termo)
       v(3pt)
       set text(size: 9pt)
       definicao
     })
   }
-}
-
-#let pre-aula-page(conteudo) = {
-  pagebreak(weak: true)
-  set-etapa("Pré-aula")
-  block(fill: teal, inset: (x: 18pt, y: 10pt), width: 100%, radius: 4pt,
-    stack(spacing: 5pt,
-      text(font: titulo-fam, weight: "bold", size: 14pt, fill: white,
-           tracking: 1.5pt, "Pré-aula"),
-      text(font: titulo-fam, size: 8pt, fill: rgb("#DCEFEF"), tracking: 0.5pt,
-           "para chegar na aula com o vocabulário e o mapa do assunto — mesmo sem ter lido nada antes")
-    )
-  )
-  v(14pt)
-  set par(justify: true, leading: 0.98em, spacing: 1.15em)
-  set text(size: 9.8pt)
-  conteudo
 }
 
 // ====================================================================
