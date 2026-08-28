@@ -139,12 +139,30 @@ def render_sumario(estrutura):
     return "\n".join(lines)
 
 
+def _faixa(items):
+    """Rotulo de faixa a partir das contagens reais do bloco.
+
+    Ate 2026-08-28 os titulos eram literais ("Consolidacao (Q01-Q10)" etc.),
+    o que so estava certo na distribuicao PADRAO 10/15/5. As taxonomias
+    SUPERFICIAL (12-13/12-13/5) e PROFUNDO (8/17/5) do ROLES.md § Taxonomia E2
+    imprimiam faixas erradas no gabarito -- na pratica, eram inalcancaveis.
+    Agora a faixa sai das proprias listas do Tema Card.
+    """
+    if not items:
+        return ""
+    nums = [str(n) for n, _ in items]
+    return f" (Q{nums[0]}–Q{nums[-1]})"
+
+
 def render_gabarito(gabarito):
     """gabarito = {consolidacao: [...], integracao: [...], aplicacao: [...]}"""
+    cons = gabarito.get("consolidacao", [])
+    integ = gabarito.get("integracao", [])
+    apl = gabarito.get("aplicacao", [])
     blocos = [
-        ("Consolidação (Q01–Q10)", gabarito.get("consolidacao", [])),
-        ("Integração (Q11–Q25)", gabarito.get("integracao", [])),
-        ("Aplicação (Q26–Q30)", gabarito.get("aplicacao", [])),
+        (f"Consolidação{_faixa(cons)}", cons),
+        (f"Integração{_faixa(integ)}", integ),
+        (f"Aplicação{_faixa(apl)}", apl),
     ]
     lines = ["#gabarito-page(("]
     for titulo, items in blocos:

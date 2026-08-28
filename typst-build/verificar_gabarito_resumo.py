@@ -45,12 +45,17 @@ BUILD_DIR = Path(__file__).resolve().parent
 
 QMC_RE = re.compile(
     r'#questao-mc\("(\d+)",\s*badge-(\w+),\s*\[([\s\S]*?)\],\s*'
-    r'\(\(([\s\S]*?)\)\)\)',
+    # 2026-08-28: os tres parenteses finais nao sao necessariamente
+    # contiguos -- o fechamento canonico quebra linha entre a tupla de
+    # alternativas e o fim da chamada (`]))\n)`). Exigir `\)\)\)` colado
+    # fazia o parser devolver ZERO questoes e o verificador acusar as 30
+    # como ausentes. Tolerar espaco/quebra entre eles.
+    r'\(\(([\s\S]*?)\)\s*\)\s*\)',
     re.MULTILINE
 )
 QCE_RE = re.compile(
     r'#questao-ce\("(\d+)",\s*badge-(\w+),\s*\[([\s\S]*?)\],\s*'
-    r'\(\(([\s\S]*?)\)\)\)',
+    r'\(\(([\s\S]*?)\)\s*\)\s*\)',
     re.MULTILINE
 )
 ALT_RE = re.compile(r'\("([A-E]|I|II|III|IV)",\s*\[((?:[^\[\]]|\[[^\[\]]*\])*)\]\)')
@@ -192,7 +197,17 @@ def main():
     args = parser.parse_args()
 
     if args.slug:
-        tema_card_path = TEMA_CARDS_DIR / f"tema_card_{args.slug}.yml"
+        # O Tema Card mora em dois lugares na pratica: a subpasta
+        # `arquivos-trabalho/tema-cards/` (convencao antiga) e a raiz de
+        # `arquivos-trabalho/` (o que o /resumo usa hoje e o que o
+        # gerar_main.py recebe). Procurar nos dois, subpasta primeiro, em vez
+        # de falhar seco -- pendencia aberta na corrida correlacao-radio-pato-2
+        # (MEMORY.md § Pendencias, 2026-08-28).
+        candidatos = [
+            TEMA_CARDS_DIR / f"tema_card_{args.slug}.yml",
+            ROOT / "arquivos-trabalho" / f"tema_card_{args.slug}.yml",
+        ]
+        tema_card_path = next((c for c in candidatos if c.exists()), candidatos[0])
         etapa2_path = BUILD_DIR / "etapa2.typ"
     elif args.tema_card and args.etapa2:
         tema_card_path = Path(args.tema_card)

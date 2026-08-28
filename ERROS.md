@@ -144,17 +144,13 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
-### 21. Contador de palavras da E1 do `auditar_pdf.py` é enganado por `#mini-resumo` que começa com "Resumindo"
+### 21. Contador de palavras da E1 do `auditar_pdf.py` fecha a janela no primeiro `#mini-resumo` — ✅ CORRIGIDO 2026-08-28
 
-**Sintoma (2026-08-28, correlacao-radio-pato-2):** `auditar_pdf.py` acusou `! palavras E1: 726 (esperado 3500-5000)` numa E1 que tinha **7227 palavras reais** em 19 páginas. Warning não bloqueia, mas induz a sessão a "engordar" um miolo que já está no ponto — ou a fechar achando que o resumo saiu raso.
+**Sintoma:** `auditar_pdf.py` acusa um miolo absurdamente curto. Em `correlacao-radio-pato-2` acusou `726` num miolo real de 7227; em `micro-01-morfologia-estrutura-bacterias`, `800` num miolo real de 9784. Warning não bloqueia, mas induz a sessão a "engordar" um miolo que já está no ponto — ou a fechar achando que o resumo saiu raso.
 
-**Causa:** o contador delimita o miolo entre a primeira ocorrência de `"Etapa 1"` e a primeira de `"Resumindo"` no texto do PDF (`auditar_pdf.py:237-241`). Como o `#mini-resumo` aceita as fórmulas variadas da diretriz 1 do Redator, um mini-resumo aberto com **"Resumindo até aqui:"** na página 4 fecha a janela cedo e o contador mede só o intro-box mais o primeiro subtópico.
+**Causa-raiz (mais ampla do que o registro original de 2026-08-28 supunha):** o contador delimitava o miolo entre a primeira ocorrência de `"Etapa 1"` e a primeira de `"Resumindo"` no texto do PDF. O diagnóstico inicial culpou o autor por abrir um `#mini-resumo` com a palavra "Resumindo" — mas o helper `#mini-resumo` do template **sempre** imprime a etiqueta fixa `"Resumindo até aqui:"` (`nebli_v2_apostila.typ:254`). Ou seja: a janela fechava no **primeiro mini-resumo da E1** em *todo* resumo que usa o helper, independentemente do texto escrito.
 
-**Como evitar/ler:** o warning só é confiável quando nenhum `#mini-resumo` da E1 começa com a palavra "Resumindo". Antes de reagir a ele, conferir o número real:
-```bash
-python3 -c "import pymupdf,re; d=pymupdf.open(PDF); t=chr(10).join(d[i].get_text() for i in range(P1,P2)); print(len([w for w in re.split(r'\\s+',t) if any(c.isalpha() for c in w)]))"
-```
-com `P1..P2` = faixa de páginas da E1. Correção definitiva (backlog): ancorar o fim do miolo no **banner** do Resumindo, não na palavra solta.
+**Correção aplicada:** o fim do miolo agora ancora no **banner** da página Resumindo, que sai do extrator como uma **linha isolada** `Resumindo` (regex `^[ \t]*Resumindo[ \t]*$`, buscada a partir do início da E1); a etiqueta do mini-resumo nunca é linha isolada porque vem colada ao conteúdo. Fallback continua o banner da `Etapa 2`. Na mesma passada, a faixa esperada foi recalibrada de `3500-5000` para `3500-10500`: a antiga datava de quando a E1 tinha ~12 páginas, e com o teto de 22 páginas e o padrão de profundidade elevado (`CLAUDE.md` 2026-07-12) uma E1 cheia entrega ~450 palavras por página impressa, legendas e footnotes inclusas.
 
 ### 22. Sessão remota (nuvem) não vem com `typst` nem com o poppler
 
@@ -172,6 +168,21 @@ cd /tmp && curl -sSL -o typst.tar.xz \
 2. **Poppler** — `auditar_pdf.py` e `pos_pipeline_check.py` chamam `pdftotext`, `pdfinfo` e `pdffonts` por `subprocess`. Se o `apt` não estiver disponível, criar os três como *shims* de uma linha sobre o **pymupdf**, que já é dependência do `extrair_slides.py`. O `pdftotext` precisa aceitar `-f`/`-l` (faixa de páginas) e `-` como saída; o `pdffonts`, imprimir as duas linhas de cabeçalho antes das fontes, senão o parser do auditor não casa.
 
 **Nota:** os shims são de sessão, não vão para o repositório. Em máquina local com poppler instalado nada disso é necessário — é armadilha exclusiva de corrida remota.
+
+### 23. Gabarito C/E sorteado antes da redação sai divergente dos itens
+
+**Sintoma (`micro-01-morfologia-estrutura-bacterias`, 2026-08-28):** **6 das 10** questões C/E tinham, no Tema Card, uma sequência diferente da verdade real das assertivas escritas. Nenhum gate automático pega isso: o `precompile-check` só audita paridade de MC e distribuição de letras, e o `verificar_gabarito_resumo.py` confere numeração e formato, não semântica.
+
+**Causa:** a regra do § Gabarito sorteado manda sortear o sinal de cada questão *antes* de redigir. Em múltipla escolha isso funciona, porque a correta é uma só e basta posicioná-la na letra sorteada. Em C/E não funciona: a verdade de cada uma das 4 assertivas nasce do conteúdo no momento em que ela é escrita, e forçar a assertiva a caber numa sequência pré-sorteada é exatamente a "engenharia da resposta" que o canônico proíbe.
+
+**Como evitar (procedimento correto para C/E):**
+1. Redigir as 4 assertivas pelo conteúdo, decidindo livremente quais são verdadeiras.
+2. **Ler item a item e anotar a sequência REAL** — é este o gabarito, não o sorteado.
+3. Só então aplicar a guarda anti-degeneração sobre as sequências reais: sem `CCCC`/`EEEE`, sem `CECE`/`ECEC`, sem que quase todas fiquem 2C-2E (padrão que o aluno explora), e contagem global de C e E próxima do equilíbrio sem ser exatamente 50/50 forçado.
+4. Quando a guarda pedir mudança, **reescrever a assertiva** para inverter a verdade dela (isso é autoria e é legítimo) — nunca trocar a letra no gabarito.
+5. Gravar a sequência real no Tema Card e regerar o `main.typ`.
+
+O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não puder rodar, a passada item a item é obrigatória à mão antes de compilar.
 
 ---
 
@@ -196,6 +207,8 @@ cd /tmp && curl -sSL -o typst.tar.xz \
 | 15 | Markdown bold vazado | precompile + auto-fix | SIM | warn |
 | 18 | Integração disfarçada de Consolidação | mapa A+B pré-redação | não | sim |
 | 19 | Título da capa grande demais (30pt fixo) | validação visual da capa | não | warn |
+| 21 | Contagem de palavras da E1 falseada pelo mini-resumo | auditar_pdf (âncora no banner) | SIM (corrigido) | warn |
+| 23 | Gabarito C/E divergente dos itens | revisor-gabarito ou passada manual | não | sim |
 
 ---
 

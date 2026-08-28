@@ -233,12 +233,26 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
 
     # Boundaries por string. "Etapa 1" e "Resumindo" aparecem como banner.
     # pdftotext quebra linhas, então busca tolerante.
+    #
+    # ERROS.md #21 (corrigido 2026-08-28): o fim do miolo NAO pode ancorar na
+    # palavra "Resumindo" solta. O helper `#mini-resumo` do template imprime
+    # SEMPRE a etiqueta "Resumindo ate aqui:" (nebli_v2_apostila.typ:254), de
+    # modo que a primeira ocorrencia da palavra cai no PRIMEIRO mini-resumo da
+    # E1 -- e a janela fechava na pagina 6 de um miolo de 22 paginas, em TODO
+    # resumo que usa o helper (nao so quando o autor comecava a frase com ela).
+    # O banner da pagina Resumindo, por ser um bloco de titulo, sai no texto
+    # extraido como uma LINHA ISOLADA "Resumindo" -- e e nessa linha que se
+    # ancora. Fallback continua sendo o banner da Etapa 2.
     upper = texto_total
     idx_e1 = upper.find("Etapa 1")
-    idx_resumindo = upper.find("Resumindo")
-    # Fallback: se não achar "Resumindo", usa "Etapa 2" como limite
-    if idx_resumindo == -1:
-        idx_resumindo = upper.find("Etapa 2")
+    idx_resumindo = -1
+    if idx_e1 != -1:
+        m_banner = re.search(r"^[ \t]*Resumindo[ \t]*$", upper[idx_e1:], re.MULTILINE)
+        if m_banner:
+            idx_resumindo = idx_e1 + m_banner.start()
+        else:
+            pos_e2 = upper.find("Etapa 2", idx_e1)
+            idx_resumindo = pos_e2
     if idx_e1 == -1 or idx_resumindo == -1 or idx_resumindo <= idx_e1:
         warnings.append("  ! palavras E1: não consegui delimitar miolo (banner ausente)")
         return errors, warnings
@@ -247,7 +261,12 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     palavras = [w for w in re.split(r"\s+", miolo) if w and any(c.isalpha() for c in w)]
     n = len(palavras)
 
-    PISO, TETO = 3500, 5000
+    # Faixa recalibrada em 2026-08-28 junto com o conserto da ancora acima.
+    # A antiga (3500-5000) datava de quando a E1 tinha ~12 paginas; com o
+    # teto de 22 paginas e o padrao de profundidade elevado (CLAUDE.md
+    # 2026-07-12), uma E1 cheia entrega ~450 palavras/pagina impressa
+    # (legendas e footnotes inclusas). Continua sendo aviso, nao bloqueio.
+    PISO, TETO = 3500, 10500
     if PISO <= n <= TETO:
         print(f"  v palavras E1: {n} (faixa {PISO}-{TETO})")
     elif n < PISO:

@@ -53,9 +53,9 @@
 
 Backlog vivo (absorveu `pendências de melhora.md` em 2026-05-29; itens já executados foram podados ou movidos pra § Histórico). Revisitar antes de cada sessão.
 
-### Achados na corrida `correlacao-radio-pato-2` (2026-08-28)
-- **`gerar_main.render_gabarito` engessa a distribuição da E2.** Os títulos dos blocos do gabarito são literais no código (`"Consolidação (Q01–Q10)"`, `"Integração (Q11–Q25)"`, `"Aplicação (Q26–Q30)"`, `gerar_main.py:145-147`), então **só a distribuição PADRÃO (10·15·5) imprime rótulo correto**. A taxonomia SUPERFICIAL (12-13·12-13·5) e a PROFUNDO (8·17·5) do `ROLES.md` § Taxonomia E2 são inalcançáveis na prática: escolher PROFUNDO hoje imprime faixas erradas no gabarito. Aconteceu neste resumo — o dial pedia PROFUNDO e a corrida caiu para 10·15·5, compensando com Consolidação de ângulo "por que/como". **Correção:** derivar os rótulos das contagens reais de cada bloco do Tema Card (`len()` de cada lista), em vez de fixá-los. Uma função, sem mudança de formato de entrada.
-- **Tema Card mora em dois caminhos diferentes.** `gerar_main.py` aceita o caminho que receber (uso corrente: `arquivos-trabalho/tema_card_<slug>.yml`), mas `verificar_gabarito_resumo.py` procura em `arquivos-trabalho/tema-cards/tema_card_<slug>.yml` e falha seco quando não acha. Nesta corrida foi preciso copiar o arquivo à mão para o verificador rodar. **Correção:** o verificador procurar nos dois lugares (subpasta primeiro, raiz depois) antes de desistir.
+### Achados na corrida `correlacao-radio-pato-2` (2026-08-28) — ✅ RESOLVIDOS em 2026-08-28 (corrida `micro-01`)
+- ✅ **`gerar_main.render_gabarito` engessava a distribuição da E2.** Rótulos de faixa agora saem das contagens reais de cada bloco do Tema Card (`_faixa()` em `gerar_main.py`). As taxonomias SUPERFICIAL (12-13·12-13·5) e PROFUNDO (8·17·5) do `ROLES.md` § Taxonomia E2 voltam a ser usáveis.
+- ✅ **Tema Card em dois caminhos.** `verificar_gabarito_resumo.py` procura em `arquivos-trabalho/tema-cards/` e, se não achar, na raiz de `arquivos-trabalho/`. Junto veio um bug maior: o regex de `parse_etapa2` exigia `\)\)\)` colado e devolvia **zero questões** no formato canônico (`]))\n)`), fazendo o verificador acusar as 30 como ausentes — corrigido para tolerar espaço/quebra entre os parênteses.
 
 ### Canonizados 2026-07-12 (sancionados a construir)
 - **UC03 — cronograma oficial de P3/P4 e prova nova.** As aulas de P3/P4 em `banco/aulas_uc03.yml` estão `provisorio: true` (vieram do calendário mensal, não da tabela oficial — que só ia até o conteúdo 33). Quando o Davi trouxer a tabela estendida: tirar a flag e preencher `conteudo:`. E a cada prova nova da UC03: extrair as subquestões e acrescentar a `referencias-externas/uc03/provas-questoes.json` (receita na § Manutenção do `CALIBRACAO.md`). Confirmar também o Grand Round 6 (aterosclerose/IAM, citado na prova de 2025, ausente no calendário de 2026).
@@ -139,6 +139,15 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 - **Tier 3 propostas** — UI editável de Tema Card, banco colaborativo turma 114, SRS inteligente, mini-resumo on-demand.
 
 ## § Histórico de decisões canônicas
+
+### 2026-08-28 (2ª sessão — corrida `micro-01-morfologia-estrutura-bacterias`)
+- **Resumo `micro-01-morfologia-estrutura-bacterias` gerado** (Morfologia e estrutura bacteriana, Profa. Elisabete Vicente, ICB/USP — **primeira aula de Microbiologia da UC03**, conteúdo 26, dial `profundidade: padrao`). 43 páginas: capa · "Antes da aula" (2p) · sumário · E1 com 23 páginas e 16 subtópicos · Resumindo em 1 página · 30 objetivas · 5 discursivas · gabarito. 16 figuras, todas do slide do professor. Passo 2b da calibração UC03 rodou (27 subquestões de MB no acervo 2015-2025). **Deck-aula do passo 11 não rodou** — sessão remota não alcança o AnkiConnect local (mesmo bloqueio da corrida do fígado).
+- **Três consertos de pipeline aplicados** (dois eram pendências abertas da corrida do fígado, o terceiro apareceu nesta):
+  1. `gerar_main.py` — rótulos de faixa do gabarito derivados das contagens reais (destrava SUPERFICIAL e PROFUNDO).
+  2. `verificar_gabarito_resumo.py` — Tema Card procurado nos dois caminhos **e** regex de `parse_etapa2` tolerando o fechamento canônico em duas linhas (antes devolvia 0 questões e o verificador era inútil).
+  3. `auditar_pdf.py` — contador de palavras da E1 ancorado no **banner** do Resumindo (linha isolada), não na palavra solta; faixa recalibrada para 3500-10500. Ver `ERROS.md` #21 reescrito.
+- **`ERROS.md` #21 reescrito com a causa-raiz real** — o defeito não dependia de o autor começar o mini-resumo com "Resumindo": o helper `#mini-resumo` **sempre** imprime a etiqueta "Resumindo até aqui:", então a janela fechava no primeiro mini-resumo de **todo** resumo que usa o helper. Nesta corrida acusou 800 palavras num miolo de 9784.
+- **`ERROS.md` #23 novo — gabarito C/E precisa de conferência item a item.** Nesta corrida, 6 das 10 questões C/E tinham a sequência do Tema Card divergente da verdade real dos itens. Sortear a sequência antes de redigir os itens não funciona em C/E: a verdade de cada assertiva é decidida no momento da redação. O procedimento correto ficou registrado.
 
 ### 2026-08-28
 - **Duas pendências técnicas registradas na § Pendências** (achadas na corrida do fígado): `gerar_main.render_gabarito` com rótulos de faixa literais, que torna as taxonomias SUPERFICIAL e PROFUNDO inalcançáveis; e o Tema Card procurado em dois caminhos distintos por `gerar_main.py` e `verificar_gabarito_resumo.py`.

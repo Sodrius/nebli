@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- correlacao-radio-pato-2 | Gerado por gerar_main.py
+// MAIN.TYP -- micro-01-morfologia-estrutura-bacterias | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Correlação radiopatológica do fígado",
-  "Radiologia e Patologia",
+  "Morfologia e estrutura bacteriana",
+  "Microbiologia",
   (
-    ("Disciplina", "Correlação Radiológica-Patológica — Preceptoria"),
-    ("Onde estudar", "Robbins & Cotran — Patologia (cap. Fígado e vias biliares) · Brant & Helms — Fundamentos de Radiologia (abdome) · Bogliolo — Patologia · Herring — Radiologia Básica"),
+    ("Disciplina", "Microbiologia"),
+    ("Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Microbiologia de Brock (cap. 2) · Tortora — Microbiologia (cap. 4)"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O fígado normal e a régua da imagem", (
-      "1.1 A arquitetura que a imagem enxerga",
-      "1.2 Ecogenicidade e densidade no fígado normal",
-      "1.3 As três fases do contraste",
+    ("PARTE I — A bactéria e o que ela mostra", (
+      "1.1 Procarioto: viver sem núcleo",
+      "1.2 Da amostra ao grupo",
+      "1.3 Colônia: o clone visível",
     )),
-    ("PARTE II — Caso 1: o nódulo achado por acaso", (
-      "2.1 O achado incidental e a pergunta que ele obriga",
-      "2.2 O padrão dinâmico que fecha o diagnóstico",
-      "2.3 A macroscopia e a histologia do hemangioma",
+    ("PARTE II — Membrana e parede", (
+      "2.2 Peptidoglicano e pressão osmótica",
+      "2.4 Gram-negativas: LPS e periplasma",
+      "2.5 A coloração de Gram e suas fugas",
     )),
-    ("PARTE III — Caso 2: o fígado que endureceu", (
-      "3.1 Do álcool à esteatose",
-      "3.2 Fibrose e nódulos de regeneração",
-      "3.3 Hipertensão portal e suas colaterais",
-      "3.4 Colestase, falência e carcinoma",
+    ("PARTE III — Estruturas que definem o comportamento", (
+      "3.1 Nucleoide, plasmídeo e 70S",
+      "3.3 Flagelo, pili e adesão",
+      "3.5 Cápsula, biofilme e esporo",
     )),
   )),
 ))
@@ -59,39 +58,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "C"),
-    ("02", "A"),
-    ("03", "CECC"),
-    ("04", "D"),
-    ("05", "B"),
-    ("06", "ECCE"),
-    ("07", "E"),
-    ("08", "CCEC"),
+    ("01", "D"),
+    ("02", "B"),
+    ("03", "CCEE"),
+    ("04", "E"),
+    ("05", "EECC"),
+    ("06", "A"),
+    ("07", "CCEC"),
+    ("08", "C"),
     ("09", "C"),
-    ("10", "ECCC"),
+    ("10", "EECC"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "A"),
-    ("12", "CCCE"),
-    ("13", "D"),
-    ("14", "B"),
-    ("15", "CCEE"),
-    ("16", "E"),
-    ("17", "B"),
-    ("18", "CEEC"),
-    ("19", "A"),
-    ("20", "C"),
-    ("21", "CCEC"),
-    ("22", "B"),
+    ("11", "B"),
+    ("12", "CEEC"),
+    ("13", "A"),
+    ("14", "D"),
+    ("15", "CEEE"),
+    ("16", "C"),
+    ("17", "E"),
+    ("18", "ECCE"),
+    ("19", "B"),
+    ("20", "E"),
+    ("21", "CECC"),
+    ("22", "A"),
     ("23", "E"),
-    ("24", "ECCC"),
-    ("25", "C"),
+    ("24", "ECCE"),
+    ("25", "E"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "D"),
-    ("27", "A"),
-    ("28", "CCCE"),
-    ("29", "B"),
-    ("30", "E"),
+    ("26", "B"),
+    ("27", "D"),
+    ("28", "EECC"),
+    ("29", "E"),
+    ("30", "C"),
   )),
 ))

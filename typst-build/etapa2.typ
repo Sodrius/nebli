@@ -1,231 +1,261 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Por que o parênquima hepático normal atinge o pico de realce na fase portal, e não na fase arterial:],
-  (("A", [Porque o contraste iodado é captado ativamente pelos hepatócitos, que o concentram no citoplasma e só o devolvem ao interstício depois de alguns minutos de processamento metabólico.]),
-   ("B", [Porque a artéria hepática tem calibre menor que a veia porta e oferece resistência que atrasa a chegada do contraste ao leito sinusoidal, embora carregue volume equivalente ao dela.]),
-   ("C", [Porque três quartos do sangue hepático chegam pela veia porta, e esse sangue atravessa antes o leito capilar do intestino, o que atrasa sua chegada em cerca de meio minuto.]),
-   ("D", [Porque o contraste só se torna radiopaco depois de sofrer conjugação hepática, de modo que a opacificação máxima ocorre necessariamente após a primeira passagem pelo órgão.]),
-   ("E", [Porque a fase arterial é adquirida antes de a injeção terminar, e o volume circulante ainda é insuficiente para opacificar de forma consistente qualquer estrutura do abdome superior.])))
+  [A bactéria não possui envoltório nuclear separando o cromossomo do citoplasma. Assinale a alternativa que descreve corretamente a consequência funcional dessa ausência.],
+  (("A", [O cromossomo permanece protegido de nucleases citoplasmáticas por associação a histonas, o que dispensa o envoltório e mantém a informação genética íntegra ao longo de todo o ciclo celular.]),
+   ("B", [A transcrição só se inicia depois de concluída a replicação do cromossomo inteiro, o que sincroniza a expressão gênica com o ciclo celular e reduz o custo energético da célula.]),
+   ("C", [A tradução ocorre exclusivamente após o transporte do RNA mensageiro para a periferia da célula, junto à membrana, onde os ribossomos permanecem ancorados durante todo o processo.]),
+   ("D", [O ribossomo alcança o RNA mensageiro enquanto ele ainda está sendo transcrito, de modo que transcrição e tradução ocorrem acopladas e a resposta a mudanças do meio fica muito rápida.]),
+   ("E", [A recombinação entre cromossomo e plasmídeo passa a ser obrigatória a cada divisão, já que sem compartimento nuclear as duas moléculas competem pelo mesmo aparato de replicação.]))
+)
 
 #questao-mc("02", badge-consolidacao,
-  [O que explica a zona 3 do ácino hepático ser a primeira região a necrosar em quadros de hipoperfusão sistêmica:],
-  (("A", [Ela ocupa a extremidade final do trajeto do sangue, junto à veia centrolobular, e recebe sangue cujo oxigênio já foi em grande parte consumido pelos hepatócitos das zonas anteriores.]),
-   ("B", [Ela concentra a maior densidade de células estreladas do parênquima, e essas células consomem oxigênio em taxa muito superior à do hepatócito comum, esgotando a oferta local.]),
-   ("C", [Ela fica imediatamente adjacente ao espaço porta e recebe primeiro qualquer toxina absorvida no intestino, somando agressão química à queda de perfusão que já a atinge.]),
-   ("D", [Ela é a única zona irrigada exclusivamente pela artéria hepática, e a artéria colaba antes da veia porta quando a pressão arterial média cai durante o choque.]),
-   ("E", [Ela contém hepatócitos de maior volume citoplasmático, com demanda energética proporcionalmente maior, o que antecipa a depleção de trifosfato de adenosina nessa faixa do lóbulo.])))
+  [O laboratório de microbiologia trabalha em duas velocidades diante de uma amostra clínica. Sobre a diferença entre elas, é correto afirmar:],
+  (("A", [A cultura em meio sólido é a etapa mais rápida porque permite ler a morfologia da colônia em poucos minutos, ao passo que a bacterioscopia exige preparo demorado da lâmina.]),
+   ("B", [A bacterioscopia entrega em minutos apenas o grupo da bactéria, o que basta para orientar o tratamento inicial, enquanto a cultura entrega em dias a espécie e o perfil de sensibilidade.]),
+   ("C", [A amplificação de ácido nucleico substituiu integralmente a cultura na rotina porque informa, além da identidade do agente, o perfil de sensibilidade a cada classe de antimicrobiano testada.]),
+   ("D", [Uma bacterioscopia sem bactérias visíveis exclui infecção bacteriana, já que o limite de detecção do microscópio óptico é bem inferior à carga presente em qualquer material infectado.]),
+   ("E", [A bacterioscopia identifica a espécie pela forma e pelo arranjo das células, e a cultura serve apenas para confirmar esse resultado e produzir massa bacteriana para outros exames.]))
+)
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens sobre as duas réguas físicas usadas para descrever o fígado normal:],
-  (("I",   [A ecogenicidade de um tecido ao ultrassom depende da quantidade de interfaces internas capazes de refletir o som de volta ao transdutor.]),
-   ("II",  [Uma lesão descrita como hiperecogênica ao ultrassom será necessariamente hiperdensa à tomografia sem contraste, porque ambas as escalas medem a mesma propriedade tecidual.]),
-   ("III", [O parênquima hepático normal mede em torno de 55 a 65 unidades Hounsfield na aquisição sem contraste e é mais denso que o baço.]),
-   ("IV",  [As veias hepáticas aparecem anecoicas ao ultrassom porque o sangue em fluxo é homogêneo e devolve pouquíssimo eco ao transdutor.])))
+  [Julgue os itens a seguir sobre a organização geral da célula bacteriana e sobre o que a distingue da célula eucariótica.],
+  (("I",   [A separação dos seres vivos em três domínios — Bactéria, Arqueia e Eucarioto — foi construída a partir da comparação de sequências do RNA ribossomal, e não de semelhanças morfológicas.]),
+   ("II",  [O ribossomo bacteriano é o 70S, formado pelas subunidades 50S e 30S; a soma dos coeficientes de sedimentação não é aritmética porque o valor depende de massa e forma da partícula.]),
+   ("III", [O cromossomo bacteriano é linear e mantém-se compactado por histonas, à semelhança do que ocorre nos nucleossomos da cromatina eucariótica.]),
+   ("IV",  [A ausência de mitocôndria obriga a bactéria a obter ATP exclusivamente por fermentação, já que nenhuma membrana da célula é capaz de sustentar cadeia transportadora de elétrons.]))
+)
 
 #questao-mc("04", badge-consolidacao,
-  [Sobre as fases da tomografia com contraste no estudo do fígado, assinale a alternativa *incorreta*:],
-  (("A", [A fase arterial é adquirida cerca de 25 a 35 segundos após a injeção e evidencia estruturas cujo aporte sanguíneo é predominantemente arterial, como a aorta, o baço e lesões hipervasculares.]),
-   ("B", [A fase portal é adquirida entre 60 e 80 segundos e corresponde ao momento em que o parênquima hepático normal alcança seu maior grau de realce.]),
-   ("C", [A fase de equilíbrio, obtida após cerca de três minutos, mostra o contraste já distribuído pelo interstício corporal e em processo de eliminação progressiva.]),
-   ("D", [O termo washout designa a eliminação renal do contraste iodado e é medido pela queda da densidade da aorta entre a fase arterial e a fase de equilíbrio do exame.]),
-   ("E", [O intervalo que separa a fase arterial da portal existe porque o sangue destinado à veia porta precisa atravessar um leito capilar inteiro antes de alcançar o fígado.])))
+  [As bactérias espiraladas costumam ser tratadas como um grupo único, mas se subdividem em três categorias com diferenças relevantes. Sobre essas categorias, é correto afirmar:],
+  (("A", [O vibrião é um espirilo de menor comprimento, com corpo rígido e um único flagelo polar, e a distinção entre os dois é apenas de tamanho e não de estrutura de locomoção.]),
+   ("B", [A espiroqueta possui corpo rígido e se desloca por flagelos externos bipolares, o que lhe permite atravessar meios viscosos com mais eficiência do que qualquer bacilo flagelado.]),
+   ("C", [O espirilo tem corpo flexível e se move por contrações citoplasmáticas, sem apêndice locomotor externo, sendo esse o desenho de _Treponema_ e de _Leptospira_.]),
+   ("D", [As três categorias compartilham o mesmo mecanismo de locomoção, baseado em filamento axial interno que gira dentro do envelope e deforma a célula em saca-rolha.]),
+   ("E", [A espiroqueta tem corpo flexível e se move por filamentos internos ao envelope; o espirilo tem corpo rígido e flagelos externos; o vibrião tem uma única curvatura em vírgula.]))
+)
 
-#questao-mc("05", badge-consolidacao,
-  [Como se explica que o hemangioma cavernoso apareça francamente hiperecogênico ao ultrassom:],
-  (("A", [O tecido fibroso dos septos internos da lesão tem impedância acústica muito superior à do parênquima hepático, e é essa dureza aumentada que devolve mais som ao transdutor.]),
-   ("B", [A lesão contém milhares de interfaces entre sangue e paredes de tecido conjuntivo por unidade de volume, e cada uma dessas transições reflete som de volta ao transdutor.]),
-   ("C", [O sangue estagnado dentro dos espaços cavernosos tem viscosidade elevada e velocidade próxima de zero, condição em que o eritrócito passa a se comportar como refletor especular do feixe.]),
-   ("D", [A ausência de hepatócitos no interior da lesão elimina a absorção do som pelo citoplasma celular, de modo que praticamente toda a energia emitida retorna ao transdutor.]),
-   ("E", [Os depósitos de cálcio que costumam se formar nos septos do hemangioma refletem quase integralmente o feixe sonoro e produzem sombra acústica posterior característica.])))
+#questao-ce("05", badge-consolidacao,
+  [Julgue os itens sobre a composição e a função da parede celular bacteriana.],
+  (("I",   [O peptidoglicano é uma proteína fibrosa de cadeia longa, sendo os açúcares apenas ramificações laterais acopladas ao esqueleto proteico.]),
+   ("II",  [O esqueleto do peptidoglicano é formado pelos açúcares N-acetilglicosamina e N-acetilmurâmico alternados, com um peptídeo curto pendendo de cada unidade de N-acetilglicosamina.]),
+   ("III", [A parede existe porque o citoplasma bacteriano é hiperosmótico em relação ao meio: sem a malha que contenha a entrada de água, a célula se rompe.]),
+   ("IV",  [Vários aminoácidos do peptídeo lateral estão na forma D, configuração que dificulta a degradação por proteases do hospedeiro, que reconhecem aminoácidos L.]))
+)
 
-#questao-ce("06", badge-consolidacao,
-  [Julgue os itens sobre a esteatose hepática de origem alcoólica:],
-  (("I",   [O acúmulo de gordura no hepatócito decorre principalmente do excesso calórico das bebidas, e não de alteração do estado redox intracelular.]),
-   ("II",  [A oxidação do etanol eleva a razão entre a forma reduzida e a forma oxidada da nicotinamida adenina dinucleotídeo, o que freia a beta-oxidação de ácidos graxos.]),
-   ("III", [O padrão macrovesicular apresenta gota lipídica única e volumosa que desloca o núcleo do hepatócito para a periferia da célula.]),
-   ("IV",  [A infiltração gordurosa eleva a densidade hepática na tomografia sem contraste, tornando o fígado mais claro que o baço.])))
+#questao-mc("06", badge-consolidacao,
+  [A membrana citoplasmática bacteriana tem cerca de 60% de proteína e 40% de lipídio, proporção invertida em relação à da célula humana. Sobre essa membrana, é correto afirmar:],
+  (("A", [A alta proporção de proteína decorre de essa membrana única concentrar funções que no eucarioto estão distribuídas entre mitocôndria, retículo endoplasmático e complexo de Golgi.]),
+   ("B", [A membrana bacteriana é a estrutura responsável por manter a forma da célula e por resistir à pressão osmótica interna, papel que na célula vegetal cabe à parede de celulose.]),
+   ("C", [Por não conter esteróis, a membrana bacteriana é incapaz de sustentar gradiente de prótons, e a produção de ATP passa a depender exclusivamente da fermentação no citoplasma.]),
+   ("D", [As proteínas de membrana bacteriana são majoritariamente estruturais, com função de ancoragem do peptidoglicano, e não participam de transporte nem de sinalização ambiental.]),
+   ("E", [A membrana é impermeável a qualquer soluto, e toda a captação de nutrientes ocorre por vesículas de endocitose formadas em invaginações da própria bicamada lipídica.]))
+)
 
-#questao-mc("07", badge-consolidacao,
-  [Qual conjunto de alterações define histologicamente a cirrose hepática:],
-  (("A", [Deposição maciça de colágeno nos espaços porta, sem alteração da relação entre os cordões de hepatócitos e as veias centrolobulares, que permanecem no lugar original.]),
-   ("B", [Presença de nódulos de hepatócitos proliferados em número aumentado, ainda que não haja septos fibrosos separando esses nódulos uns dos outros no parênquima.]),
-   ("C", [Necrose confluente da zona 3 acompanhada de infiltrado inflamatório mononuclear difuso, sem que exista deposição significativa de matriz extracelular no parênquima.]),
-   ("D", [Capilarização isolada dos sinusoides, com perda das fenestras endoteliais e espessamento da parede vascular, mantida a arquitetura lobular original do órgão.]),
-   ("E", [Fibrose em ponte formando septos que se anastomosam entre si, somada a nódulos de regeneração de hepatócitos desprovidos de veia centrolobular própria.])))
+#questao-ce("07", badge-consolidacao,
+  [Julgue os itens sobre a parede das bactérias Gram-positivas.],
+  (("I",   [O peptidoglicano pode representar de 15% a 60% do peso seco da célula, organizado em muitas camadas empilhadas e entrecruzadas.]),
+   ("II",  [O ácido teicoico está ligado ao peptidoglicano, enquanto o ácido lipoteicóico atravessa a parede e se ancora por uma cauda lipídica na membrana citoplasmática.]),
+   ("III", [A ausência de membrana externa implica ausência completa de espaço periplasmático nas bactérias Gram-positivas.]),
+   ("IV",  [Os ácidos teicoicos funcionam como adesinas ao epitélio do hospedeiro, regulam a atividade de autolisinas e servem de antígeno para identificação sorológica.]))
+)
 
-#questao-ce("08", badge-consolidacao,
-  [Julgue os itens sobre os achados macroscópicos e microscópicos do hemangioma cavernoso hepático:],
-  (("I",   [A cor vermelho-escura da lesão à macroscopia corresponde a sangue estagnado nos espaços vasculares dilatados, e não a tecido necrótico.]),
-   ("II",  [Os espaços vasculares são revestidos por uma única camada de células endoteliais achatadas, sem estratificação e sem atipia nuclear.]),
-   ("III", [O interior da lesão contém cordões de hepatócitos preservados entremeados aos espaços vasculares, o que a distingue das lesões metastáticas.]),
-   ("IV",  [Os espaços vasculares são separados entre si por septos delgados de tecido conjuntivo fibroso, sem cápsula própria envolvendo a lesão.])))
+#questao-mc("08", badge-consolidacao,
+  [Sobre o envelope das bactérias Gram-negativas, assinale a alternativa *incorreta*.],
+  (("A", [O peptidoglicano corresponde a cerca de 5% do peso seco e se resume a uma ou poucas camadas, alojadas no espaço periplasmático entre a membrana citoplasmática e a membrana externa.]),
+   ("B", [A membrana externa é assimétrica: a folha voltada para o periplasma é de fosfolipídios e a folha voltada para o meio externo é constituída de lipopolissacarídeo.]),
+   ("C", [O envelope Gram-negativo é estruturalmente mais simples que o Gram-positivo, pois a redução da espessura do peptidoglicano dispensa camadas adicionais de revestimento externo.]),
+   ("D", [As porinas são canais proteicos da membrana externa que permitem a passagem de moléculas pequenas e hidrofílicas, e sua perda é um mecanismo real de resistência a antimicrobianos.]),
+   ("E", [O espaço periplasmático é um compartimento metabolicamente ativo, contendo enzimas de degradação e proteínas de ligação a nutrientes, e não um espaço vazio entre as duas membranas.]))
+)
 
 #questao-mc("09", badge-consolidacao,
-  [Uma peça de fígado cirrótico avançado tem coloração esverdeada difusa. O que essa cor indica:],
-  (("A", [Necrose isquêmica extensa do parênquima, em que a hemoglobina liberada dos eritrócitos degradados foi convertida localmente em pigmentos de tonalidade esverdeada.]),
-   ("B", [Colonização bacteriana do parênquima a partir do trato biliar ascendente, condição em que os pigmentos produzidos pelas bactérias conferem a tonalidade à peça.]),
-   ("C", [Retenção de bilirrubina conjugada dentro dos hepatócitos e dos canalículos biliares, porque a célula doente perdeu a capacidade de excretá-la pelo polo canalicular.]),
-   ("D", [Impregnação por cobre acumulado nos lisossomos dos hepatócitos, achado que caracteriza toda hepatopatia crônica em fase avançada independentemente da causa inicial.]),
-   ("E", [Deposição de hemossiderina resultante da destruição acelerada de eritrócitos no baço congesto, com posterior captação do pigmento pelos macrófagos hepáticos.])))
+  [Uma amostra clínica é semeada em meio sólido diferencial contendo lactose, um indicador de pH e hemácias. Sobre o que se observa após a incubação, é correto afirmar:],
+  (("A", [Cada colônia corresponde a uma célula bacteriana que aumentou de volume até tornar-se visível, mantendo-se unicelular e adquirindo pigmento próprio à medida que envelhece no meio.]),
+   ("B", [A cor observada nas colônias corresponde ao pigmento sintetizado pela parede celular da espécie, característica constante que permite identificar o agente independentemente do meio usado.]),
+   ("C", [Cada colônia é um clone de cerca de cem milhões de células, e a cor resulta da acidificação do meio pela fermentação da lactose, detectada pelo indicador de pH incorporado ao ágar.]),
+   ("D", [O halo transparente ao redor de algumas colônias resulta da fagocitose das hemácias pelas bactérias da periferia, processo que consome o ágar e clareia a região adjacente à colônia.]),
+   ("E", [Meio seletivo e meio diferencial são sinônimos, pois ambos operam inibindo o crescimento das espécies que não interessam e deixando crescer apenas o agente que se procura isolar.]))
+)
 
 #questao-ce("10", badge-consolidacao,
-  [Julgue os itens sobre as anastomoses portossistêmicas e sua repercussão clínica:],
-  (("I",   [Sob hipertensão portal, o organismo forma vasos inteiramente novos entre os territórios portal e sistêmico por angiogênese induzida pela pressão elevada.]),
-   ("II",  [As varizes esofágicas resultam da dilatação de anastomoses entre as veias gástricas e as veias esofágicas tributárias do sistema ázigos.]),
-   ("III", [A cabeça de medusa decorre da recanalização da veia paraumbilical e de sua conexão com as veias da parede abdominal anterior.]),
-   ("IV",  [As hemorroidas de causa portal surgem da anastomose entre a veia hemorroidária superior, do território portal, e as hemorroidárias média e inferior, sistêmicas.])))
+  [Julgue os itens sobre a técnica da coloração de Gram e sobre o papel de cada reagente.],
+  (("I",   [O cristal violeta é aplicado apenas às bactérias Gram-positivas e a safranina apenas às Gram-negativas, o que torna a técnica uma coloração seletiva.]),
+   ("II",  [O lugol atua como corante secundário, acrescentando um segundo pigmento que se soma ao cristal violeta e intensifica a cor final observada.]),
+   ("III", [A descoloração pelo álcool é a etapa diferencial: ela dissolve os lipídios da membrana externa da Gram-negativa e desidrata a malha espessa da Gram-positiva.]),
+   ("IV",  [A safranina penetra em todas as células, mas na Gram-positiva o roxo já retido encobre completamente o tom rosado do contracorante.]))
+)
 
 #questao-mc("11", badge-integracao,
-  [Um nódulo em fígado cirrótico realça intensamente na fase arterial e fica mais escuro que o parênquima na fase de equilíbrio. Qual alteração estrutural explica esse comportamento:],
-  (("A", [O nódulo perdeu os espaços porta internos e passou a ser irrigado quase exclusivamente por neovasos arteriais, de modo que enche cedo e esvazia antes do parênquima ao redor.]),
-   ("B", [O nódulo desenvolveu uma cápsula fibrosa espessa que retarda a entrada do contraste na fase arterial e acelera sua saída durante as aquisições tardias do exame.]),
-   ("C", [O nódulo mantém irrigação portal preservada, porém seus hepatócitos captam o contraste iodado com avidez muito maior que a do parênquima cirrótico circundante.]),
-   ("D", [O nódulo contém espaços vasculares dilatados de fluxo lento, semelhantes aos do hemangioma, que retêm contraste e depois o liberam durante as fases tardias do exame.]),
-   ("E", [O nódulo comprime os sinusoides vizinhos e cria uma zona de isquemia perilesional, que aparece escura na fase de equilíbrio e simula perda de contraste pela lesão.])))
+  [Um antimicrobiano de peso molecular elevado e caráter hidrofóbico mostra excelente atividade contra cocos Gram-positivos e atividade nula contra bacilos Gram-negativos, mesmo quando o alvo intracelular está presente e íntegro nas duas. A melhor explicação é:],
+  (("A", [O peptidoglicano espesso da Gram-positiva funciona como reservatório que concentra a droga junto à membrana, enquanto a malha fina da Gram-negativa não retém quantidade suficiente do fármaco.]),
+   ("B", [A membrana externa da Gram-negativa é uma barreira de permeabilidade que exclui moléculas grandes e hidrofóbicas, e as porinas admitem apenas solutos pequenos e hidrofílicos.]),
+   ("C", [As bactérias Gram-negativas degradam o antimicrobiano no espaço periplasmático por meio de proteases inespecíficas, antes que ele alcance a membrana citoplasmática e o alvo interno.]),
+   ("D", [O ácido lipoteicóico da Gram-positiva atua como transportador ativo, bombeando o antimicrobiano para dentro da célula contra o gradiente de concentração estabelecido no meio.]),
+   ("E", [O lipopolissacarídeo neutraliza quimicamente a droga pela ligação covalente ao lipídio A, inativando-a antes que ela atravesse a membrana externa e alcance o periplasma.]))
+)
 
 #questao-ce("12", badge-integracao,
-  [Julgue os itens sobre a relação entre a organização zonal do ácino hepático e a distribuição das lesões:],
-  (("I",   [A zona 1 é a mais próxima do espaço porta e recebe sangue com maior tensão de oxigênio que as demais zonas do ácino.]),
-   ("II",  [A necrose por paracetamol predomina na zona 3 porque nela se concentra o sistema enzimático que gera o metabólito tóxico do fármaco.]),
-   ("III", [O gradiente metabólico entre as zonas é explicado pelo ácino de Rappaport, unidade funcional centrada no eixo vascular que emerge do espaço porta.]),
-   ("IV",  [A esteatose alcoólica costuma iniciar-se na zona 1 porque é ali que a maior oferta de oxigênio favorece a esterificação dos ácidos graxos em triglicerídeo.])))
+  [Uma cultura contendo bactérias em plena fase de multiplicação e outra contendo a mesma espécie em estado dormente são expostas a um antibiótico beta-lactâmico. Julgue os itens.],
+  (("I",   [O beta-lactâmico inibe a transpeptidase e impede a formação de ligações cruzadas novas entre cadeias de peptidoglicano.]),
+   ("II",  [O efeito bactericida será equivalente nas duas culturas, pois o antibiótico hidrolisa diretamente as ligações já existentes entre N-acetilglicosamina e N-acetilmurâmico.]),
+   ("III", [A célula dormente é destruída com a mesma rapidez, porque o beta-lactâmico degrada quimicamente a parede já formada, sem depender da síntese de material novo.]),
+   ("IV",  [A morte da célula em crescimento ocorre por lise osmótica, já que a malha incompleta deixa de conter a entrada de água imposta pelo citoplasma hiperosmótico.]))
+)
 
 #questao-mc("13", badge-integracao,
-  [Numa tomografia sem contraste, o fígado mede 32 unidades Hounsfield e o baço mede 50. Qual a interpretação correta e o mecanismo por trás dela:],
-  (("A", [O baço está anormalmente denso por congestão passiva secundária à hipertensão portal, e o fígado permanece dentro da faixa de normalidade esperada para o órgão.]),
-   ("B", [O fígado está anormalmente denso porque a fibrose depositada no espaço de Disse eleva a atenuação do parênquima acima da do baço nas aquisições sem contraste.]),
-   ("C", [O achado é normal, já que o baço é fisiologicamente mais denso que o fígado por conter maior volume de sangue por unidade de tecido em qualquer indivíduo.]),
-   ("D", [Há esteatose hepática, porque a gordura tem atenuação muito negativa e derruba a densidade do fígado, invertendo a relação normal em que ele supera o baço.]),
-   ("E", [Há deposição de ferro no parênquima hepático, condição em que o metal absorve raios X e reduz a atenuação medida do órgão em relação à do baço vizinho.])))
+  [Uma amostra de abscesso é processada e a leitura da lâmina mostra cocos em cacho corados de rosa. A cultura, no dia seguinte, isola _Staphylococcus aureus_. A explicação mais provável para a discordância é:],
+  (("A", [Descoloração excessiva pelo álcool ou autólise de parede em material envelhecido fizeram a Gram-positiva perder o complexo cristal-violeta–iodo e aparecer como falsa Gram-negativa.]),
+   ("B", [A safranina foi aplicada antes do cristal violeta, invertendo a ordem dos reagentes e fazendo com que apenas o contracorante fosse retido pela parede espessa da Gram-positiva.]),
+   ("C", [Bactérias Gram-negativas em cultura envelhecida sintetizam peptidoglicano adicional e passam a reter o cristal violeta, o que gera resultado róseo na lâmina e roxo na cultura.]),
+   ("D", [O arranjo em cacho impede a penetração uniforme do lugol nas células do interior do agregado, de modo que apenas as células periféricas retêm o complexo corante formado.]),
+   ("E", [A presença de material purulento no esfregaço bloqueia a ação do cristal violeta, e a leitura correta exige repetir a coloração após digestão enzimática prévia da amostra.]))
+)
 
 #questao-mc("14", badge-integracao,
-  [Por que o contraste preenche o hemangioma de fora para dentro ao longo das três fases, em vez de preenchê-lo por inteiro na fase arterial:],
-  (("A", [Porque a periferia da lesão contém septos fibrosos mais delgados, que oferecem menor resistência à difusão do contraste do que os septos espessos da região central.]),
-   ("B", [Porque o contraste entra por ramos arteriais periféricos e avança lentamente por lagos vasculares de fluxo quase estagnado, levando minutos para alcançar os espaços centrais.]),
-   ("C", [Porque a região central da lesão sofreu necrose isquêmica e perdeu comunicação vascular com a periferia, permanecendo permanentemente sem realce em todas as fases.]),
-   ("D", [Porque a lesão é alimentada exclusivamente por ramos da veia porta, que só entregam contraste após a fase arterial, e esses ramos abordam a lesão pela superfície.]),
-   ("E", [Porque a pressão dentro dos espaços cavernosos centrais supera a pressão arterial média, impedindo a entrada do contraste enquanto o bolus injetado ainda estiver concentrado.])))
+  [Um paciente com sepse por bacilo Gram-negativo recebe a primeira dose de um antibiótico bactericida adequado e, nas horas seguintes, apresenta piora clínica com febre alta e queda pressórica. O mecanismo que melhor explica esse curso é:],
+  (("A", [O antibiótico induziu a síntese e a secreção acelerada de exotoxinas pela população bacteriana remanescente, num mecanismo de resposta ao estresse mediado pelo próprio fármaco.]),
+   ("B", [A droga selecionou uma subpopulação portadora de plasmídeo de resistência, que se multiplicou rapidamente e ampliou a carga bacteriana total nas primeiras horas de tratamento.]),
+   ("C", [O polissacarídeo O liberado das cadeias externas do lipopolissacarídeo é o componente tóxico e passa a circular livremente assim que a membrana externa é desorganizada.]),
+   ("D", [A lise bacteriana em massa liberou grande quantidade de lipídio A, peça estrutural da membrana externa, que ao ser reconhecido pela imunidade inata amplificou a cascata de citocinas.]),
+   ("E", [A queda abrupta da carga bacteriana reduziu o estímulo antigênico e desregulou o eixo febril, produzindo instabilidade térmica e vasomotora transitória sem participação de mediador algum.]))
+)
 
 #questao-ce("15", badge-integracao,
-  [Julgue os itens que relacionam a histologia do hemangioma ao seu aspecto ultrassonográfico:],
-  (("I",   [Cada transição entre o sangue contido nos lagos vasculares e a parede conjuntiva que os separa funciona como uma interface refletora de som.]),
-   ("II",  [A densidade dessas interfaces por unidade de volume é muito maior na lesão do que no parênquima hepático, que é comparativamente homogêneo.]),
-   ("III", [O aspecto hiperecogênico indica que a lesão é mais rígida que o parênquima adjacente, o que a diferencia das lesões císticas.]),
-   ("IV",  [O aspecto hiperecogênico é exclusivo do hemangioma entre as lesões hepáticas focais, o que dispensa a caracterização dinâmica por contraste.])))
+  [Um quadro de pneumonia atípica não responde a nenhum beta-lactâmico e o agente identificado é _Mycoplasma pneumoniae_. Julgue os itens.],
+  (("I",   [A ausência de parede celular retira o alvo dos antibióticos que inibem a síntese de peptidoglicano, o que torna a espécie intrinsecamente insensível a essa classe.]),
+   ("II",  [Mesmo sem parede, a célula mantém forma bacilar constante, sustentada por um citoesqueleto interno de proteínas contráteis que substitui funcionalmente o peptidoglicano.]),
+   ("III", [A resistência decorre de beta-lactamase codificada em plasmídeo, adquirida por conjugação a partir de bactérias da microbiota respiratória.]),
+   ("IV",  [A perda da parede é evento recente na linhagem e a membrana é estabilizada por uma segunda camada de peptidoglicano modificado.]))
+)
 
 #questao-mc("16", badge-integracao,
-  [Sobre a ativação da célula estrelada e suas consequências sobre o sinusoide hepático, assinale a alternativa *incorreta*:],
-  (("A", [Em repouso, a célula estrelada ocupa o espaço de Disse e funciona como reservatório de vitamina A, sem atividade contrátil relevante sobre a parede do sinusoide.]),
-   ("B", [Uma vez ativada, ela adquire fenótipo de miofibroblasto, expressa actina de músculo liso e passa a sintetizar colágeno do tipo I no espaço perissinusoidal.]),
-   ("C", [O colágeno depositado oblitera as fenestras do endotélio sinusoidal, processo chamado de capilarização, que reduz o contato direto entre o plasma e o hepatócito.]),
-   ("D", [A contração do miofibroblasto estreita a luz do sinusoide e contribui para o aumento da resistência intra-hepática à passagem do sangue portal.]),
-   ("E", [A deposição de colágeno no espaço de Disse aumenta a superfície de troca entre o sangue sinusoidal e o hepatócito, o que compensa parcialmente a perda funcional inicial.])))
+  [O escarro de um paciente com tosse crônica é submetido à coloração de Gram e nenhuma bactéria é evidenciada, apesar da suspeita clínica forte. O laboratório opta por Ziehl-Neelsen e encontra o agente. O fundamento estrutural dessa escolha é:],
+  (("A", [O agente tem envelope de bactéria Gram-negativa e largura abaixo do limite de resolução da luz visível, o que exige impregnação por prata ou observação em campo escuro.]),
+   ("B", [O agente não possui parede celular e por isso não retém nenhum dos corantes do Gram, situação em que a fucsina fenicada aquecida se liga diretamente à membrana citoplasmática.]),
+   ("C", [A parede tem arquitetura de Gram-positiva coberta por camada cerosa de ácido micólico, que impede a entrada do corante e confere resistência à descoloração por álcool-ácido.]),
+   ("D", [O agente é intracelular obrigatório e só pode ser evidenciado pelas inclusões citoplasmáticas que produz na célula hospedeira, reveladas pela coloração de Giemsa do esfregaço.]),
+   ("E", [A cápsula polissacarídica espessa afasta o corante da parede, e o aquecimento da fucsina serve para dissolver esse revestimento e permitir o contato do pigmento com o peptidoglicano.]))
+)
 
 #questao-mc("17", badge-integracao,
-  [Qual a relação mecânica entre a arquitetura do fígado cirrótico e a elevação da pressão no sistema porta:],
-  (("A", [Os nódulos de regeneração comprimem a veia cava inferior no seu trajeto retro-hepático, e é essa compressão extrínseca que eleva a pressão em todo o território a montante.]),
-   ("B", [Os septos fibrosos e os nódulos deformam e estreitam o leito sinusoidal, aumentando a resistência que o sangue portal precisa vencer para atravessar o parênquima até a veia hepática.]),
-   ("C", [A fibrose oblitera preferencialmente os ramos da artéria hepática, e o sangue portal precisa então suprir sozinho a demanda de oxigênio do órgão, elevando o fluxo e a pressão.]),
-   ("D", [Os nódulos de regeneração consomem volume desproporcional de sangue portal por serem metabolicamente hiperativos, e essa demanda aumentada eleva a pressão no sistema a montante.]),
-   ("E", [A perda de hepatócitos reduz a produção de albumina, e a queda da pressão oncótica plasmática eleva de forma direta a pressão hidrostática dentro do sistema venoso portal.])))
+  [Numa unidade de terapia intensiva, um gene de resistência idêntico é detectado em espécies bacterianas diferentes isoladas de pacientes distintos ao longo de duas semanas. O mecanismo que melhor explica essa disseminação é:],
+  (("A", [Mutação pontual espontânea recorrente no mesmo sítio cromossômico, favorecida pela pressão seletiva do antimicrobiano usado como esquema empírico padrão da unidade.]),
+   ("B", [Transformação, com captação do DNA livre liberado por bactérias mortas pelo antibiótico, mecanismo que exige integração obrigatória do gene ao cromossomo da célula receptora.]),
+   ("C", [Transdução por bacteriófago, único mecanismo capaz de transferir material genético entre bactérias de espécies diferentes por não depender de contato físico entre as células.]),
+   ("D", [Duplicação do nucleoide seguida de segregação desigual, que gera células-filhas com número variável de cópias do gene e, portanto, com graus distintos de resistência ao fármaco.]),
+   ("E", [Conjugação mediada por pilus sexual, com transferência de cópia de plasmídeo que se replica de forma independente e pode passar entre bactérias vivas de espécies diferentes.]))
+)
 
 #questao-ce("18", badge-integracao,
-  [Julgue os itens sobre os territórios anatômicos onde a hipertensão portal se manifesta:],
-  (("I",   [As veias mesentérica superior, mesentérica inferior e esplênica convergem para formar a veia porta, de modo que a pressão elevada se propaga ao intestino e ao baço.]),
-   ("II",  [O aumento do baço na hipertensão portal decorre de infiltração do parênquima esplênico por hepatócitos deslocados pelo fluxo retrógrado.]),
-   ("III", [A veia esplênica drena diretamente para a veia cava inferior, e por isso o volume do baço independe da pressão vigente no sistema porta.]),
-   ("IV",  [As colaterais retroperitoneais podem drenar volume significativo sem produzir qualquer sinal visível ao exame físico do abdome.])))
+  [Uma bactéria peritríquia é colocada num meio com gradiente crescente de nutriente. Julgue os itens sobre a estrutura e o funcionamento do sistema que a leva até a fonte.],
+  (("I",   [O flagelo bacteriano ondula ao longo do próprio comprimento com gasto direto de ATP, do mesmo modo que o flagelo do espermatozoide.]),
+   ("II",  [O motor do corpo basal é movido pelo gradiente de prótons gerado pela cadeia transportadora de elétrons instalada na membrana citoplasmática.]),
+   ("III", [A célula não é capaz de comparar concentrações entre as extremidades do próprio corpo; ela compara a concentração atual com a de instantes anteriores.]),
+   ("IV",  [A flagelina é proteína estritamente estrutural e não é reconhecida pela imunidade inata, o que faz da motilidade uma vantagem sem custo imunológico para a bactéria.]))
+)
 
 #questao-mc("19", badge-integracao,
-  [Um paciente cirrótico apresenta plaquetas em 60 mil e sangramento volumoso por variz esofágica. Como se articulam os mecanismos por trás desses dois achados:],
-  (("A", [O baço congesto por hipertensão portal sequestra e destrói plaquetas, e o fígado falido sintetiza menos fatores de coagulação, de modo que a variz rota sangra sem contenção espontânea.]),
-   ("B", [A plaquetopenia decorre de consumo periférico das plaquetas na própria variz rota, e a hemorragia se autoperpetua até que a reposição de hemocomponentes interrompa o ciclo.]),
-   ("C", [O álcool suprime diretamente a linhagem megacariocítica da medula óssea, e a plaquetopenia resultante é a causa isolada tanto da rotura quanto da persistência do sangramento.]),
-   ("D", [A pressão portal elevada empurra as plaquetas para o interstício esplâncnico por extravasamento capilar, reduzindo sua contagem e comprometendo a hemostasia primária na mucosa.]),
-   ("E", [A vitamina K deixa de ser absorvida no intestino congesto, e sua falta explica ao mesmo tempo a queda das plaquetas circulantes e a dilatação progressiva das veias esofágicas.])))
+  [Sobre a cápsula bacteriana, sua ação sobre a resposta do hospedeiro e a estratégia vacinal que dela decorre, assinale a alternativa *incorreta*.],
+  (("A", [A cápsula impede que as opsoninas depositadas pelo hospedeiro alcancem a parede, e sem esse ponto de ancoragem o receptor do fagócito não consegue estabelecer contato firme.]),
+   ("B", [A proteção conferida pela cápsula decorre da toxicidade direta do polissacarídeo capsular sobre o fagócito, que sofre lesão de membrana ao entrar em contato com a superfície bacteriana.]),
+   ("C", [A resolução da infecção por bactéria capsulada depende da produção de anticorpo específico contra o polissacarídeo da cápsula, que restabelece a opsonização eficaz do agente.]),
+   ("D", [As vacinas contra pneumococo e meningococo são construídas a partir do polissacarídeo capsular, e não da bactéria inteira, o que reflete diretamente o alvo protetor relevante.]),
+   ("E", [Embora seja mais frequente entre Gram-negativas, a cápsula também ocorre em Gram-positivas clinicamente importantes, como _Streptococcus pneumoniae_ e _Streptococcus agalactiae_.]))
+)
 
 #questao-mc("20", badge-integracao,
-  [Por que o tratamento da ascite do cirrótico combina restrição de sódio, diurético antagonista da aldosterona e reposição de albumina:],
-  (("A", [Porque as três medidas atuam sobre um mesmo mecanismo, a hipoalbuminemia, e a associação apenas acelera a correção da pressão oncótica plasmática já comprometida.]),
-   ("B", [Porque a ascite do cirrótico é primariamente inflamatória, e cada medida reduz um mediador diferente da resposta peritoneal ao extravasamento de linfa hepática.]),
-   ("C", [Porque a ascite resulta de hipertensão sinusoidal, de queda da síntese de albumina e de retenção renal de sódio pela ativação do eixo renina-angiotensina-aldosterona, e cada medida ataca uma dessas pernas.]),
-   ("D", [Porque a restrição de sódio e o diurético tratam a ascite, enquanto a albumina tem função exclusivamente nutricional no paciente cirrótico desnutrido e não interfere na dinâmica do líquido.]),
-   ("E", [Porque o objetivo é elevar a pressão portal de forma controlada, o que redistribui o líquido do peritônio de volta ao território esplâncnico e reduz o volume abdominal.])))
+  [Bactérias recolhidas do interior de um biofilme maduro sobrevivem a concentrações de antibiótico que matam a mesma cepa cultivada em meio líquido; testadas isoladamente em cultura, porém, mostram-se plenamente sensíveis. A explicação correta é:],
+  (("A", [A matriz do biofilme induz mutações no gene-alvo da droga, que revertem quando a célula é retirada do agregado e volta a crescer isoladamente em meio de cultura líquido.]),
+   ("B", [As células do biofilme adquirem plasmídeo de resistência por conjugação com as vizinhas e o perdem por segregação instável assim que são semeadas em meio sem antimicrobiano.]),
+   ("C", [A matriz sequestra quimicamente o antibiótico por ligação covalente irreversível, de modo que nenhuma molécula da droga alcança as camadas mais profundas da comunidade bacteriana.]),
+   ("D", [O biofilme aumenta a expressão de bombas de efluxo de forma permanente e herdável, transmitindo o fenótipo às gerações seguintes mesmo fora do ambiente do agregado polimérico.]),
+   ("E", [A matriz limita a penetração da droga e a difusão de nutrientes, e as células internas ficam pouco ativas — como boa parte dos antibióticos exige crescimento, há tolerância e não resistência.]))
+)
 
 #questao-ce("21", badge-integracao,
-  [Julgue os itens sobre a colestase que acompanha a cirrose avançada:],
-  (("I",   [A retenção de bile decorre da falência do próprio hepatócito em captar, conjugar e excretar a bilirrubina, e não de obstrução mecânica da via biliar extra-hepática.]),
-   ("II",  [O hepatócito comprimido entre septos fibrosos e mal perfundido perde a energia necessária para operar os transportadores do polo canalicular.]),
-   ("III", [Nessa situação, a desobstrução endoscópica da via biliar principal corrige a icterícia, porque restaura o fluxo de bile represado a montante.]),
-   ("IV",  [Trombos biliares nos canalículos e impregnação esverdeada difusa da peça são achados esperados nesse tipo de colestase.])))
+  [Material cirúrgico contaminado com endósporos de _Bacillus_ é submetido a diferentes processos de descontaminação. Julgue os itens.],
+  (("I",   [A resistência do endósporo ao calor decorre da desidratação profunda do núcleo, do acúmulo de dipicolinato de cálcio e das proteínas que revestem e protegem o DNA.]),
+   ("II",  [A fervura em água a 100 °C é suficiente para destruir endósporos, uma vez que a temperatura desnatura as proteínas do córtex e das capas do esporo.]),
+   ("III", [A esterilização confiável exige vapor sob pressão, tipicamente a 121 °C, condição alcançada em autoclave e não em água fervente à pressão ambiente.]),
+   ("IV",  [A esporulação é um programa genético de várias etapas, restrito a poucos gêneros, e não uma resposta improvisada de qualquer bactéria submetida a estresse.]))
+)
 
 #questao-mc("22", badge-integracao,
-  [Qual o elo mecanístico entre a cirrose e o desenvolvimento de carcinoma hepatocelular:],
-  (("A", [A fibrose depositada isola quimicamente os hepatócitos de fatores de crescimento circulantes, e essa privação seleciona clones capazes de proliferar sem estímulo externo.]),
-   ("B", [O fígado cirrótico mantém hepatócitos em ciclo celular permanente num ambiente rico em espécies reativas e citocinas, e cada divisão acumula mutações não corrigidas.]),
-   ("C", [A hipertensão portal reduz o aporte de oxigênio ao parênquima, e a hipóxia crônica sozinha é suficiente para transformar hepatócitos normais em células malignas.]),
-   ("D", [A bile retida nos canalículos age como carcinógeno direto sobre o núcleo do hepatócito, provocando as mutações que iniciam a sequência até o carcinoma invasor.]),
-   ("E", [A célula estrelada ativada perde o controle de proliferação e origina o tumor, que só depois adquire características de diferenciação hepatocelular ao amadurecer.])))
+  [O RNA ribossomal 16S ocupa dois papéis distintos na microbiologia, um taxonômico e outro terapêutico. Sobre esses dois papéis, é correto afirmar:],
+  (("A", [Ele serve de relógio filogenético por estar em todo organismo celular e mudar devagar, e é sítio de ligação de aminoglicosídeo na subunidade 30S, o que faz o ribossomo ler o código errado.]),
+   ("B", [Ele é usado na classificação por ser a molécula que mais rapidamente acumula mutações entre gerações, e é alvo dos macrolídeos, que se ligam à subunidade maior do ribossomo bacteriano.]),
+   ("C", [Ele compõe a subunidade 50S do ribossomo bacteriano e, por ser exclusivo de procariotos, garante que nenhum antibiótico que a ele se ligue produza efeito adverso no paciente tratado.]),
+   ("D", [Ele foi escolhido como marcador filogenético por ser abundante e fácil de purificar, e sua função terapêutica se restringe a servir de molde para a síntese de antibióticos peptídicos.]),
+   ("E", [Ele é encontrado apenas em bactérias de crescimento rápido e por isso permite separar espécies cultiváveis de não cultiváveis, sendo também o alvo das quinolonas na replicação do DNA.]))
+)
 
 #questao-mc("23", badge-integracao,
-  [Sobre o uso do comportamento dinâmico do contraste na decisão clínica diante de nódulos hepáticos, assinale a alternativa *incorreta*:],
-  (("A", [Em paciente com cirrose conhecida, realce arterial intenso seguido de washout nas fases tardias em nódulo acima de um centímetro é considerado diagnóstico de carcinoma hepatocelular.]),
-   ("B", [O padrão de realce periférico nodular descontínuo com preenchimento centrípeto e retenção tardia caracteriza o hemangioma e dispensa a punção diagnóstica da lesão.]),
-   ("C", [O rastreio semestral do paciente cirrótico é feito por ultrassonografia, e a tomografia entra depois para caracterizar o nódulo que a ultrassonografia encontrou.]),
-   ("D", [A comparação com exames anteriores acrescenta informação decisiva, porque o nódulo de regeneração tende a permanecer estável enquanto o carcinoma cresce entre os exames.]),
-   ("E", [Como todo fígado cirrótico é constituído por nódulos, qualquer nódulo detectado nesse contexto deve ser puncionado antes de qualquer caracterização dinâmica por contraste.])))
+  [Uma paciente jovem apresenta pielonefrite aguda por _Escherichia coli_. A explicação estrutural mais direta para a bactéria ter alcançado o parênquima renal a partir do intestino é:],
+  (("A", [A produção de exotoxina que paralisa o peristaltismo ureteral, permitindo refluxo passivo do conteúdo vesical até a pelve renal e implantação do agente no interstício.]),
+   ("B", [A presença de cápsula polissacarídica, que impede a fagocitose pelas células do urotélio e permite a permanência prolongada da bactéria na luz da bexiga até atingir o rim.]),
+   ("C", [A capacidade de formar endósporos resistentes ao pH ácido da urina, que germinam ao alcançar o ambiente menos hostil da pelve renal e reiniciam a multiplicação bacteriana.]),
+   ("D", [A motilidade conferida por flagelos peritríquios, único mecanismo capaz de vencer o fluxo urinário, uma vez que estruturas de adesão não resistem à força de arrasto da urina.]),
+   ("E", [A presença de fímbrias cuja adesina reconhece receptor específico do epitélio urinário, o que fixa a bactéria contra o fluxo da urina e permite a colonização ascendente até o rim.]))
+)
 
 #questao-ce("24", badge-integracao,
-  [Julgue os itens sobre os achados ultrassonográficos da infiltração gordurosa do fígado:],
-  (("I",   [A queda da ecogenicidade do parênquima abaixo da do córtex renal é o achado que define a esteatose ao ultrassom.]),
-   ("II",  [A atenuação do feixe nas porções profundas ocorre porque parte da energia sonora é refletida logo na entrada, restando menos som para atravessar o órgão.]),
-   ("III", [O apagamento das paredes dos ramos portais decorre da perda de contraste entre a bainha fibrosa do vaso e um parênquima que ficou tão claro quanto ela.]),
-   ("IV",  [Cada gotícula lipídica no citoplasma do hepatócito cria uma interface com o meio aquoso circundante, e a soma dessas interfaces eleva a ecogenicidade difusa.])))
+  [Uma lâmina de líquido cefalorraquidiano é lida em regime de urgência e mostra diplococos corados de rosa. Julgue os itens sobre o que essa leitura permite concluir e sobre o que ela não permite.],
+  (("I",   [O arranjo em par indica que as células se agregaram no líquor por afinidade de superfície, e não que se dividiram num único plano com separação incompleta.]),
+   ("II",  [A leitura entrega o grupo — coco Gram-negativo — mas não a espécie, que depende de cultura, teste bioquímico ou método molecular.]),
+   ("III", [A informação obtida em minutos é suficiente para orientar a escolha do esquema antimicrobiano inicial, antes que a cultura fique pronta.]),
+   ("IV",  [A ausência de bactérias visíveis numa bacterioscopia excluiria infecção bacteriana, já que o método detecta cargas de qualquer magnitude.]))
+)
 
 #questao-mc("25", badge-integracao,
-  [Qual critério histológico separa o hemangioma cavernoso do angiossarcoma hepático, e por quê:],
-  (("A", [O tamanho dos espaços vasculares, porque o angiossarcoma forma lagos muito maiores que os do hemangioma, capazes de ocupar sozinhos um lobo hepático inteiro.]),
-   ("B", [A presença de septos fibrosos, porque eles existem apenas no hemangioma e desaparecem completamente quando o tecido vascular adquire comportamento maligno.]),
-   ("C", [O aspecto do endotélio, porque no hemangioma ele é monocamada achatada e sem atipia, enquanto no angiossarcoma é atípico, empilhado e disseca os cordões de hepatócitos.]),
-   ("D", [A quantidade de hemácias no interior dos espaços, porque o angiossarcoma tem fluxo mais rápido e seus espaços aparecem praticamente vazios no corte histológico.]),
-   ("E", [A localização subcapsular, porque o hemangioma se instala tipicamente sob a cápsula e o angiossarcoma nasce sempre no centro do parênquima, junto ao hilo hepático.])))
+  [Uma enterobactéria é semeada em meio sólido com lactose e indicador de pH, e produz colônias coradas. Ligando o transporte de membrana ao resultado observado na placa, é correto afirmar:],
+  (("A", [A cor da colônia é o pigmento que a bactéria exporta pela membrana citoplasmática por meio de transporte ativo primário, dependente da hidrólise direta de ATP pela bomba.]),
+   ("B", [A lactose entra por endocitose mediada por receptor, é degradada em vacúolo digestivo e os produtos ácidos são devolvidos ao meio, alterando o pH ao redor da colônia.]),
+   ("C", [A ausência de organelas impede que a bactéria fermente lactose, de modo que a cor observada resulta apenas da degradação do indicador de pH pelas enzimas hidrolíticas secretadas.]),
+   ("D", [A translocação de grupo transporta a lactose sem modificá-la quimicamente, e é essa integridade da molécula que permite sua reexportação e a acidificação do meio circundante.]),
+   ("E", [O açúcar é captado por transportador da membrana, muitas vezes com modificação química na travessia que impede o retorno, e a fermentação acidifica o meio e vira a cor do indicador.]))
+)
 
 #questao-mc("26", badge-aplicacao,
-  [Mulher de 22 anos, assintomática, tem nódulo hepático de 2 cm achado em ultrassom de rotina: sólido, homogêneo, hiperecogênico, bem delimitado, em fígado de textura normal. Qual a conduta e sua justificativa:],
-  (("A", [Indicar punção percutânea imediata, porque nenhum nódulo sólido em adulto jovem pode ser considerado benigno sem confirmação citológica obtida por agulha fina.]),
-   ("B", [Solicitar dosagem seriada de marcadores tumorais séricos e repetir o ultrassom em três meses, adiando qualquer método de imagem com contraste até que os marcadores subam.]),
-   ("C", [Indicar ressecção cirúrgica da lesão, porque o risco de rotura espontânea de lesões hepáticas sólidas em paciente jovem supera o risco do procedimento eletivo.]),
-   ("D", [Solicitar tomografia trifásica, porque o padrão dinâmico do contraste caracteriza a lesão sem punção, e agulhar lesão vascular acrescenta risco de sangramento sem ganho diagnóstico.]),
-   ("E", [Iniciar seguimento anual sem qualquer outro exame, porque a paciente é assintomática e o ultrassom já demonstrou lesão de limites regulares em parênquima normal.])))
+  [Um jardineiro de 54 anos sofre ferimento perfurante profundo com ferramenta enferrujada e procura atendimento tardiamente, com trismo e rigidez de nuca. Sobre a estrutura bacteriana que explica esse quadro, é correto afirmar:],
+  (("A", [A bactéria alcançou a ferida na forma vegetativa e sobreviveu no solo graças à cápsula polissacarídica, que a protege da dessecação e da fagocitose no tecido lesado.]),
+   ("B", [O agente persiste no solo como endósporo, forma latente e desidratada; no tecido desvitalizado e pouco oxigenado ele germina e a célula vegetativa passa a secretar a toxina.]),
+   ("C", [O endósporo é a forma reprodutiva da bactéria: ao germinar na ferida, cada esporo origina várias células-filhas, e essa multiplicação explica a rapidez da instalação do quadro.]),
+   ("D", [A resistência do agente no ambiente decorre da camada de ácido micólico da parede, que também impede a fagocitose no sítio da lesão e retarda a resposta inflamatória local.]),
+   ("E", [A toxina responsável pelo quadro é a endotoxina liberada da membrana externa do agente quando ele se rompe no tecido, o que explica a instalação tardia da manifestação clínica.]))
+)
 
 #questao-mc("27", badge-aplicacao,
-  [Homem de 32 anos, etilista, com dor abdominal. Ultrassom mostra fígado difusamente hiperecogênico com atenuação posterior e paredes portais apagadas, sem nódulos e sem ascite. Qual a leitura correta:],
-  (("A", [O quadro corresponde a esteatose difusa, alteração ainda reversível com abstinência, e o achado não permite por si só afirmar que já exista fibrose estabelecida.]),
-   ("B", [O quadro corresponde a cirrose estabelecida, porque a atenuação posterior do feixe é achado exclusivo de parênquima já reorganizado em nódulos de regeneração.]),
-   ("C", [O quadro corresponde a hepatite alcoólica aguda, e a hiperecogenicidade difusa reflete o infiltrado inflamatório de neutrófilos que preenche os sinusoides do órgão.]),
-   ("D", [O quadro corresponde a congestão hepática por insuficiência cardíaca, condição em que o sangue represado nos sinusoides eleva de forma difusa a ecogenicidade do parênquima.]),
-   ("E", [O quadro não permite conclusão alguma, porque a ecogenicidade hepática varia demais entre aparelhos e operadores para sustentar qualquer hipótese diagnóstica.])))
+  [Uma _Salmonella_ isolada de hemocultura é caracterizada como móvel, positiva para antígeno H e positiva para antígeno K. Sobre a relação entre esses marcadores e as estruturas bacterianas, assinale a alternativa *incorreta*.],
+  (("A", [O antígeno H corresponde à flagelina, proteína que compõe o filamento do flagelo, e sua detecção é compatível com a caracterização da amostra como bactéria móvel.]),
+   ("B", [O antígeno K corresponde ao polissacarídeo da cápsula, camada depositada por fora do envelope que dificulta a opsonização e, com ela, a fagocitose do agente.]),
+   ("C", [O antígeno O corresponde ao polissacarídeo externo do lipopolissacarídeo, e sua variabilidade entre cepas é o que sustenta a sorotipagem desse componente da membrana externa.]),
+   ("D", [O antígeno H é conferido pelas fímbrias de adesão, estruturas curtas e numerosas que também são responsáveis pela motilidade observada nos testes de mobilidade em meio semissólido.]),
+   ("E", [A porção tóxica do lipopolissacarídeo é o lipídio A, ancorado na membrana externa, e não o polissacarídeo O, que responde pela variabilidade antigênica entre as cepas.]))
+)
 
 #questao-ce("28", badge-aplicacao,
-  [Paciente cirrótico chega ao pronto-socorro com hematêmese volumosa. Julgue os itens sobre o raciocínio fisiopatológico do caso:],
-  (("I",   [A hipótese principal é rotura de variz esofagogástrica, colateral dilatada por hipertensão portal e recoberta por mucosa delgada.]),
-   ("II",  [O aumento do diâmetro da veia com afinamento progressivo da parede eleva a tensão parietal e é o que precipita a rotura.]),
-   ("III", [A plaquetopenia por hiperesplenismo e a queda dos fatores de coagulação agravam o sangramento uma vez instalado.]),
-   ("IV",  [O rastreio endoscópico prévio seria desnecessário, porque a profilaxia de sangramento só se justifica após o primeiro episódio hemorrágico.])))
+  [Um paciente internado evolui com febre, hipotensão e hemocultura positiva para bacilo Gram-negativo produtor de beta-lactamase codificada em plasmídeo. Julgue os itens.],
+  (("I",   [A hipotensão decorre da ação direta do polissacarídeo O sobre o músculo liso vascular, independentemente de mediadores inflamatórios do hospedeiro.]),
+   ("II",  [O plasmídeo que carrega o gene de resistência é indispensável à viabilidade da bactéria, já que replica junto com o cromossomo e sob o mesmo controle.]),
+   ("III", [A febre e a vasodilatação resultam do reconhecimento do lipídio A pela imunidade inata, com liberação de citocinas inflamatórias.]),
+   ("IV",  [O gene de resistência pode ser transferido a bactérias de outras espécies por conjugação, sem que cada uma precise adquiri-lo por mutação própria.]))
+)
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 58 anos com cirrose em acompanhamento faz ultrassom semestral, que mostra nódulo novo de 2,5 cm. A tomografia trifásica revela realce arterial intenso e densidade inferior à do parênquima na fase tardia. Qual a interpretação:],
-  (("A", [Trata-se de hemangioma, porque o realce arterial intenso é o achado que define essa lesão, e a queda tardia corresponde ao preenchimento centrípeto ainda incompleto.]),
-   ("B", [Trata-se de carcinoma hepatocelular, porque a troca do suprimento portal por arterial produz realce arterial precoce, e a drenagem rápida produz o washout tardio.]),
-   ("C", [Trata-se de nódulo de regeneração, porque em fígado cirrótico todo nódulo mantém irrigação portal e por isso realça de forma heterogênea ao longo das fases do exame.]),
-   ("D", [Trata-se de abscesso hepático, porque o realce arterial corresponde à parede inflamada e hipervascularizada, e o centro que não capta representa o conteúdo purulento.]),
-   ("E", [Trata-se de metástase, porque lesões secundárias em fígado cirrótico apresentam tipicamente realce arterial em anel contínuo seguido de perda de contraste nas fases tardias.])))
+  [Homem de 38 anos com tosse por dois meses, febre vespertina e emagrecimento. A bacterioscopia do escarro pelo Gram é considerada não informativa e o laboratório processa a amostra por outra técnica, encontrando bacilos vermelhos sobre fundo azul. A leitura correta é:],
+  (("A", [Trata-se de bactéria sem parede celular, que por isso não retém corante algum no Gram e só é evidenciada por técnicas que coram diretamente a membrana citoplasmática.]),
+   ("B", [Trata-se de bactéria Gram-negativa cuja membrana externa foi dissolvida durante o preparo, o que explica a perda do corante primário e a coloração avermelhada final.]),
+   ("C", [O achado indica bactéria capsulada, e o fundo azul corresponde ao polissacarídeo capsular corado pelo azul de metileno enquanto a célula retém a fucsina fenicada.]),
+   ("D", [O achado é inespecífico, pois qualquer bactéria retém fucsina após aquecimento, e a confirmação depende exclusivamente do resultado da cultura em meio próprio.]),
+   ("E", [Trata-se de bacilo álcool-ácido resistente: a parede rica em ácido micólico retém a fucsina mesmo após descoloração por álcool-ácido, e os debris coram-se com azul de metileno.]))
+)
 
 #questao-mc("30", badge-aplicacao,
-  [Numa tomografia de abdome, o fígado tem contorno ondulado, o lobo caudado está hipertrofiado, há líquido livre e veias tortuosas no hilo esplênico com baço aumentado. Qual a explicação unificada desses achados:],
-  (("A", [Carcinomatose peritoneal com implantes na superfície hepática, que deformam o contorno do órgão e produzem ascite por bloqueio da drenagem linfática do peritônio.]),
-   ("B", [Insuficiência cardíaca direita descompensada, em que a congestão retrógrada aumenta fígado e baço, produz ascite e dilata as veias do território esplâncnico.]),
-   ("C", [Trombose aguda e isolada da veia esplênica, que explica o baço aumentado e as colaterais no hilo, mas não guarda relação com o contorno hepático nem com a ascite.]),
-   ("D", [Sobrecarga hídrica iatrogênica em paciente com função hepática preservada, situação em que o líquido livre e a esplenomegalia regridem apenas com ajuste do balanço volêmico.]),
-   ("E", [Cirrose com hipertensão portal, em que os nódulos deformam o contorno, a resistência somada ao hiperfluxo abre colaterais e congestiona o baço, e a hipertensão sinusoidal gera ascite.])))
+  [Paciente em uso prolongado de cateter venoso central apresenta febre persistente. As hemoculturas isolam _Staphylococcus epidermidis_ sensível ao antimicrobiano prescrito, mas a febre não cede com o tratamento adequado mantido por dias. A conduta e sua justificativa mecanística são:],
+  (("A", [Manter o cateter e dobrar a dose, pois a falha decorre de concentração sérica insuficiente para atingir bactérias aderidas ao endotélio adjacente ao dispositivo implantado.]),
+   ("B", [Trocar por antimicrobiano de outra classe, pois a sensibilidade demonstrada em cultura indica erro de identificação da espécie e não corresponde ao agente realmente presente.]),
+   ("C", [Retirar o cateter, pois há biofilme aderido ao dispositivo: a matriz limita a penetração da droga e as células internas, pouco ativas, escapam de antibióticos que exigem crescimento.]),
+   ("D", [Manter a conduta e aguardar, uma vez que a espécie isolada compõe a microbiota da pele e o achado em hemocultura de paciente com cateter é sempre contaminação de coleta.]),
+   ("E", [Associar um segundo antimicrobiano com ação sobre parede, pois a falha se explica pela produção de beta-lactamase induzida pela permanência prolongada do dispositivo no vaso.]))
+)
