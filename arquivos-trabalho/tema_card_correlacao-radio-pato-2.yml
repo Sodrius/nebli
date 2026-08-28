@@ -1,0 +1,59 @@
+slug: correlacao-radio-pato-2
+titulo: "Correlação radiopatológica do fígado"
+subtitulo: "Radiologia e Patologia"
+meta:
+  - ["Disciplina", "Correlação Radiológica-Patológica — Preceptoria"]
+  - ["Onde estudar", "Robbins & Cotran — Patologia (cap. Fígado e vias biliares) · Brant & Helms — Fundamentos de Radiologia (abdome) · Bogliolo — Patologia · Herring — Radiologia Básica"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O fígado normal e a régua da imagem"
+        subtopicos:
+          - "1.1 A arquitetura que a imagem enxerga"
+          - "1.2 Ecogenicidade e densidade no fígado normal"
+          - "1.3 As três fases do contraste"
+      - titulo: "PARTE II — Caso 1: o nódulo achado por acaso"
+        subtopicos:
+          - "2.1 O achado incidental e a pergunta que ele obriga"
+          - "2.2 O padrão dinâmico que fecha o diagnóstico"
+          - "2.3 A macroscopia e a histologia do hemangioma"
+      - titulo: "PARTE III — Caso 2: o fígado que endureceu"
+        subtopicos:
+          - "3.1 Do álcool à esteatose"
+          - "3.2 Fibrose e nódulos de regeneração"
+          - "3.3 Hipertensão portal e suas colaterais"
+          - "3.4 Colestase, falência e carcinoma"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CECC"]
+    - ["04", "D"]
+    - ["05", "B"]
+    - ["06", "ECCE"]
+    - ["07", "E"]
+    - ["08", "CCEC"]
+    - ["09", "C"]
+    - ["10", "ECCC"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "CCCE"]
+    - ["13", "D"]
+    - ["14", "B"]
+    - ["15", "CCEE"]
+    - ["16", "E"]
+    - ["17", "B"]
+    - ["18", "CEEC"]
+    - ["19", "A"]
+    - ["20", "C"]
+    - ["21", "CCEC"]
+    - ["22", "B"]
+    - ["23", "E"]
+    - ["24", "ECCC"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "A"]
+    - ["28", "CCCE"]
+    - ["29", "B"]
+    - ["30", "E"]

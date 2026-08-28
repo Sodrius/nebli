@@ -144,6 +144,18 @@
 
 **Como evitar:** `#termo-nota[X][def]` **substitui** a primeira menção de X na prosa — escrever a frase como se o helper *fosse* a palavra X, sem repetir X antes nem depois. Ex.: "A matriz é sustentada por #termo-nota[fibras reticulares][colágeno III, finas e ramificadas], que formam a trama." Auto-check antes de fechar a E1: para cada `#termo-nota[T]`, procurar `T` solto adjacente e remover. Mesmo cuidado vale pra `#sigla("X",...)` seguido de "X" repetido.
 
+### 21. Contador de palavras da E1 do `auditar_pdf.py` é enganado por `#mini-resumo` que começa com "Resumindo"
+
+**Sintoma (2026-08-28, correlacao-radio-pato-2):** `auditar_pdf.py` acusou `! palavras E1: 726 (esperado 3500-5000)` numa E1 que tinha **7227 palavras reais** em 19 páginas. Warning não bloqueia, mas induz a sessão a "engordar" um miolo que já está no ponto — ou a fechar achando que o resumo saiu raso.
+
+**Causa:** o contador delimita o miolo entre a primeira ocorrência de `"Etapa 1"` e a primeira de `"Resumindo"` no texto do PDF (`auditar_pdf.py:237-241`). Como o `#mini-resumo` aceita as fórmulas variadas da diretriz 1 do Redator, um mini-resumo aberto com **"Resumindo até aqui:"** na página 4 fecha a janela cedo e o contador mede só o intro-box mais o primeiro subtópico.
+
+**Como evitar/ler:** o warning só é confiável quando nenhum `#mini-resumo` da E1 começa com a palavra "Resumindo". Antes de reagir a ele, conferir o número real:
+```bash
+python3 -c "import pymupdf,re; d=pymupdf.open(PDF); t=chr(10).join(d[i].get_text() for i in range(P1,P2)); print(len([w for w in re.split(r'\\s+',t) if any(c.isalpha() for c in w)]))"
+```
+com `P1..P2` = faixa de páginas da E1. Correção definitiva (backlog): ancorar o fim do miolo no **banner** do Resumindo, não na palavra solta.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)

@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- radiologia-01-ferramentas-diagnostico | Gerado por gerar_main.py
+// MAIN.TYP -- correlacao-radio-pato-2 | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,33 +8,32 @@
 
 // ======= CAPA =======
 #capa(
-  "Ferramentas do Diagnóstico Radiológico",
-  "Radiologia — Métodos de Imagem",
+  "Correlação radiopatológica do fígado",
+  "Radiologia e Patologia",
   (
-    ("Disciplina", "Radiologia (UC-03) — Preceptoria FMUSP"),
-    ("Onde estudar", "Brant & Helms · Fundamentos de Radiologia (Herring) · ACR Appropriateness Criteria (acr.org) · Paul & Juhl — Interpretação Radiológica"),
+    ("Disciplina", "Correlação Radiológica-Patológica — Preceptoria"),
+    ("Onde estudar", "Robbins & Cotran — Patologia (cap. Fígado e vias biliares) · Brant & Helms — Fundamentos de Radiologia (abdome) · Bogliolo — Patologia · Herring — Radiologia Básica"),
   ),
 )
 
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A pergunta clínica e as três físicas", (
-      "1.1 A pergunta antes do exame",
-      "1.2 Três físicas, quatro métodos",
-      "1.3 Radiação ionizante ou não",
+    ("PARTE I — O fígado normal e a régua da imagem", (
+      "1.1 A arquitetura que a imagem enxerga",
+      "1.2 Ecogenicidade e densidade no fígado normal",
+      "1.3 As três fases do contraste",
     )),
-    ("PARTE II — Cada método por talento e cegueira", (
-      "2.1 Ultrassom: imagem de ecos",
-      "2.2 Tomografia: densidade em cinza",
-      "2.3 Ressonância: sinal dos prótons",
-      "2.4 Radiografia: sombra somada",
+    ("PARTE II — Caso 1: o nódulo achado por acaso", (
+      "2.1 O achado incidental e a pergunta que ele obriga",
+      "2.2 O padrão dinâmico que fecha o diagnóstico",
+      "2.3 A macroscopia e a histologia do hemangioma",
     )),
-    ("PARTE III — Contraste, fases e prática", (
-      "3.1 Meios de contraste",
-      "3.2 Fases lidas no tempo",
-      "3.3 Sequências que resolvem",
-      "3.4 A física na decisão clínica",
+    ("PARTE III — Caso 2: o fígado que endureceu", (
+      "3.1 Do álcool à esteatose",
+      "3.2 Fibrose e nódulos de regeneração",
+      "3.3 Hipertensão portal e suas colaterais",
+      "3.4 Colestase, falência e carcinoma",
     )),
   )),
 ))
@@ -57,39 +56,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q10)", (
-    ("01", "A"),
-    ("02", "B"),
-    ("03", "ECCC"),
+    ("01", "C"),
+    ("02", "A"),
+    ("03", "CECC"),
     ("04", "D"),
     ("05", "B"),
-    ("06", "CECC"),
+    ("06", "ECCE"),
     ("07", "E"),
-    ("08", "C"),
-    ("09", "CCEC"),
-    ("10", "D"),
+    ("08", "CCEC"),
+    ("09", "C"),
+    ("10", "ECCC"),
   )),
   ("Integração (Q11–Q25)", (
-    ("11", "C"),
+    ("11", "A"),
     ("12", "CCCE"),
-    ("13", "A"),
-    ("14", "C"),
-    ("15", "CCEC"),
-    ("16", "B"),
-    ("17", "CECC"),
-    ("18", "D"),
-    ("19", "E"),
-    ("20", "CCEE"),
-    ("21", "E"),
-    ("22", "D"),
-    ("23", "B"),
-    ("24", "E"),
-    ("25", "ECCC"),
+    ("13", "D"),
+    ("14", "B"),
+    ("15", "CCEE"),
+    ("16", "E"),
+    ("17", "B"),
+    ("18", "CEEC"),
+    ("19", "A"),
+    ("20", "C"),
+    ("21", "CCEC"),
+    ("22", "B"),
+    ("23", "E"),
+    ("24", "ECCC"),
+    ("25", "C"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
+    ("26", "D"),
     ("27", "A"),
-    ("28", "CCEC"),
-    ("29", "CCEC"),
-    ("30", "D"),
+    ("28", "CCCE"),
+    ("29", "B"),
+    ("30", "E"),
   )),
 ))
