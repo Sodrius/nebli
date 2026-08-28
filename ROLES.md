@@ -107,7 +107,7 @@ Filtrar `banco_slim.json` por `aula: <slug>` → `arquivos-trabalho/questoes-de-
 
 ## § Redator-E1
 
-Gera `etapa1.typ` (intro-box + 3 PARTES + conclusão integradora **obrigatória** — ver diretriz 11) e `resumindo.typ`. Não gera capa, sumário, etapa-headers, nem qualquer seção fora desse escopo.
+Gera `etapa1.typ` (intro-box + 3 PARTES + conclusão integradora **obrigatória** — ver diretriz 11), `resumindo.typ` e `pre-aula.typ` (ver diretriz 18). Não gera capa, sumário, etapa-headers, nem qualquer seção fora desse escopo.
 
 ### Diretrizes 1–9 (piso técnico — imperativo)
 
@@ -152,6 +152,12 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 **16. Calibração externa invisível — `blueprint-step1.md` (convite, 2026-06-30).** Antes de redigir a E1 de um slug, olhe a linha dele em `referencias-externas/blueprint-step1.md`. Se a coluna "Aprofundar na E1" tiver conteúdo E o slide já abriu aquele assunto, acrescente **1-2 frases sucintas de mecanismo** no ponto indicado — diluídas na prosa, não um bloco novo. Se a coluna marca **BAIXO** (ou está vazia), não force nada: mantém foco puro no slide. A fonte é invisível como o banco — a frase entra como mecanismo/cenário clínico puro, jamais citando "Step 1/residência/USMLE" (vocabulário banido, regra 10 detalhada). Convite, não cota: aprofundar só onde flui.
 
 **17. Passe de aprofundamento por subtópico (loop card→E1→E2, CANON 2026-07-10).** Antes das injeções, fazer um passe leve **Fontes→E1**: comparar Tema Card/slide, banco FMUSP já filtrado e blueprint já consultado com a E1; listar ausências relevantes e incorporar somente as que pertencem ao recorte. Não criar ledger novo. Depois do rascunho da E1 e da seleção de cards (ver `FLASHCARDS.md` § Loop Card→E1), fazer um passe voltando na E1 e injetando **≈1 conteúdo extra mecanístico por subtópico** — pequeno (1-3 frases), colado a um mecanismo que o subtópico já abriu. Dá ~9-12 por resumo; a soma faz a E1 ir **um tiquinho além do slide** (o norte do Davi: aprofundar bem a base durável). Fontes do que injetar, em ordem: (a) **bons cards do AnKing** que cobrem o conceito com mais profundidade — muitos aprofundamentos são *induzidos* por esses cards, que vão para o deck-aula; (b) mapa de cobertura offline do export quando o Anki está fora; (c) `blueprint-step1.md`; (d) bibliografia do curso em `_material/` (leitura dirigida das páginas do ponto). **Regra-mestra:** o **slide regula O QUE entra** (escopo — nada fora do tema da aula), o **AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**. Se um subtópico não tem onde encaixar, não injeta. Cada injeção é prosa/mecanismo puro (vocabulário Step 1 banido no PDF). **Efeito colateral desejado:** o aprofundamento sobe também o teto da E2 — por isso o ideal é rodar este passe ANTES de redigir a E2 (E2 já cobra o extra); se a E2 já estiver escrita, atualizá-la nos pontos aprofundados revalidando paridade/gabarito. Exemplos concretos no piloto embrio-gastrulacao-neurulacao (SHH, EMT→metástase, cílios do nó→lateralidade, crista→Hirschsprung, somito→esclerótomo/miótomo/dermátomo, dobramento→frênico).
+
+**18. "Antes da aula" — `pre-aula.typ` (CANON 2026-08-28).** Toda E1 fechada gera também a seção de abertura do PDF, que vive entre a capa e o sumário. **2 páginas de prosa contínua na voz NEBLI contando a história da aula**, 900–1100 palavras, **sem figura**, encerrando em uma linha do tipo "chegue com esse mapa na cabeça". Não é sumário executivo nem mini-E1: é a narrativa do que a aula vai fazer e em que ordem, para o aluno ler na véspera.
+
+Os **principais termos** que o professor vai usar como se o aluno já soubesse entram em negrito dentro da prosa, cada um seguido da frase curta que o define. Nesta seção o negrito marca o termo sendo plantado, então a cota de 2–3 negritos por parágrafo da diretriz 1 **não se aplica** — 4–5 é normal.
+
+Escrever **depois** da E1 (o pré-aula é destilado dela, inclusive dos aprofundamentos da diretriz 17) e **antes** de compilar. Gravação: `#pre-aula-page[ ... ]` em `typst-build/pre-aula.typ`, com o `#import` do template no topo como qualquer etapa. `gerar_main.py` inclui sozinho quando o arquivo existe; `precompile-check.py` audita junto das etapas.
 
 ### Índice de completude (CANON 2026-07-10) — 3 notas no relatório de fechamento
 

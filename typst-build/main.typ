@@ -16,6 +16,9 @@
   ),
 )
 
+// ======= ANTES DA AULA =======
+#include "pre-aula.typ"
+
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (

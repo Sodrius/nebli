@@ -89,6 +89,20 @@ Pedido de Davi. Valem para **todo resumo daqui pra frente** e entram no pipeline
 
 5. **Sessão de revisão final pré-compilação — revisor de completude MÚTUA E1↔cards (Sonnet).** Antes de compilar, roda um revisor que audita os dois sentidos: **(a)** todo card do deck-aula está explicado na E1? **(b)** todo subtópico da E1 tem card à altura? Dá nota 0-10 a cada eixo, aponta onde a E1 precisa de 1-3 frases novas e onde faltam cards (ou cards melhores), e corrige — injeta frase na E1 / adiciona card, sempre no nível de profundidade elevado. Integra o Índice de completude existente (E1×slide, E2×E1, cards×E1) + o loop Card→E1. Papel em `ROLES.md` § Revisor-completude (a detalhar). Curadoria de card em **duas camadas de julgamento**: (1) isso bate com o que a FMUSP cobra? (mais importante) (2) isso cobre bem a E1 e aprofunda pra base do Step 1?
 
+## "Antes da aula" — seção de abertura de todo resumo (CANON 2026-08-28)
+
+Pedido de Davi: **faltava um resumo pra ver ANTES da aula.** A apostila E1–E3 é material de consolidação — ela só existe depois. O que faltava era a leitura de véspera, que faz o aluno chegar na aula sabendo o caminho.
+
+**O que é.** Uma seção de abertura chamada **"Antes da aula"**, dentro do próprio PDF do resumo, **entre a capa e o sumário**. Helper `#pre-aula-page(conteudo)` (faixa teal, corpo 10.5pt, margens mais largas), arquivo `typst-build/pre-aula.typ`. Vale para **todo resumo daqui pra frente**.
+
+**Forma — 2 páginas de prosa contínua na voz NEBLI, contando a história da aula.** Não é sumário executivo, não é lista de objetivos, não é mini-E1. É narrativa: o que a aula vai fazer, em que ordem, e por quê — na mesma voz de monitor da E1, com as mesmas proibições (sem bullet, sem pergunta retórica, sem mnemônico). **Sem figura** (canônico: as figuras todas ficam na E1). Alvo 900–1100 palavras.
+
+**Função dupla — contar a aula e plantar os termos.** Os principais termos técnicos que o professor vai usar como se o aluno já soubesse entram **dentro da prosa, em negrito**, cada um com a frase curta que o define no contexto. Aqui o negrito marca *o termo sendo plantado*, então a cota de 2–3 negritos por parágrafo da E1 (Redator diretriz 1) **não se aplica** — 4–5 por parágrafo é normal e desejável.
+
+**Escrever quando.** Depois da E1 fechada (o pré-aula é destilado dela, não escrito no escuro), antes de compilar. Assim ele reflete o recorte real do resumo, incluindo os aprofundamentos injetados.
+
+**Pipeline.** `gerar_main.py` insere `#include "pre-aula.typ"` entre capa e sumário **só se o arquivo existir** — resumos antigos regeneram idênticos. `precompile-check.py` audita `pre-aula.typ` como as etapas (exige `#pre-aula-page`, checa vocabulário banido, acentuação, markdown vazado, fechamento limpo) e só quando o arquivo existe.
+
 ## Nomenclatura única + upload automático pro Drive (CANON 2026-07-12)
 
 **Um nome só, que bate em tudo.** Cada aula tem um **nome curto e simples** (ex.: `Embriologia II`) que é, ao mesmo tempo: o **nome da pasta** no Drive, o nome-base do **.apkg** do deck-aula, e o nome-base do **PDF** do resumo. A pasta da aula no Drive contém **slide + resumo (PDF) + .apkg**.
@@ -208,12 +222,13 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
 
 1. **Capa:** faixa navy com tema + subtítulo (vazio ou disciplina seca); bloco meta canônico (Disciplina · Onde estudar) — canônico 2026-05-26: "Nota de uso" removida do bloco meta a pedido de Davi; **"Onde aprofundar" REMOVIDO da capa (canônico 2026-07-07, a pedido de Davi 2× — vale para todo resumo gerado a partir de agora).** `gerar_main.render_capa` filtra qualquer linha meta cujo rótulo contenha "aprofundar"; o Orquestrador não emite mais essa linha. Rodapé identificador apenas na capa ("Davi Sousa — Turma 114" / "(61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com"). **Proibido no PDF qualquer página:** bloco/prova (P1/P2/P3), número/posição da aula, código de slug, turma, semestre, calendário.
    - **Bloco "Onde aprofundar" — SUSPENSO 2026-07-07 (não vai mais pra capa).** Detalhe histórico do formato antigo em `MEMORY.md`/memória `onde-aprofundar-anking-capa.md`. A exceção de vocabulário Step 1 na capa caiu junto: fora da capa o banimento Step 1/USMLE segue integral (ver `ROLES.md` Redator regra 10 + `precompile-check.py`).
-2. **Sumário** (1 página: máx 3 itens por PARTE da E1, descrições 3–5 palavras).
-3. **Etapa 1 — texto didático** (intro-box + 3 PARTES + **conclusão integradora obrigatória** — a E1 fecha sempre no `#conclusao-box`, costurando as PARTES em 4 camadas: princípio unificador → mecanismo nuclear → clínica retomada → projeção; ver `ROLES.md` § Redator diretriz 11). **A conclusão VOLTA a ser gate do `precompile-check.py` (CANON 2026-07-03 — reverte a suspensão de 2026-07-01)** — `#conclusao-box` é exigido `>=1` em toda E1. Siglas como footnote no rodapé de cada página.
-4. **Resumindo** (1 página) — logo após Conclusão integradora da E1.
-5. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline.
-6. **Etapa 3** — 5 discursivas, modelo de resposta ≤100 palavras (Q5 ≤130).
-7. **Gabarito consolidado da Etapa 2** (última seção).
+2. **Antes da aula** (2 páginas, `#pre-aula-page`) — prosa contínua contando a história da aula e plantando em negrito os termos que o professor vai usar. Sem figura. Canônico 2026-08-28; ver § "Antes da aula".
+3. **Sumário** (1 página: máx 3 itens por PARTE da E1, descrições 3–5 palavras).
+4. **Etapa 1 — texto didático** (intro-box + 3 PARTES + **conclusão integradora obrigatória** — a E1 fecha sempre no `#conclusao-box`, costurando as PARTES em 4 camadas: princípio unificador → mecanismo nuclear → clínica retomada → projeção; ver `ROLES.md` § Redator diretriz 11). **A conclusão VOLTA a ser gate do `precompile-check.py` (CANON 2026-07-03 — reverte a suspensão de 2026-07-01)** — `#conclusao-box` é exigido `>=1` em toda E1. Siglas como footnote no rodapé de cada página.
+5. **Resumindo** (1 página) — logo após Conclusão integradora da E1.
+6. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline.
+7. **Etapa 3** — 5 discursivas, modelo de resposta ≤100 palavras (Q5 ≤130).
+8. **Gabarito consolidado da Etapa 2** (última seção).
 
 (Etapa 4 removida do PDF canônico em 2026-05-22 — banco vira material de calibração, não inclusão direta. Ver § "Banco como calibração". Etapa 5 NEBLIcards permanece em standby.)
 
@@ -226,7 +241,7 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
 2. Ler `banco/indice/banco_slim.json` filtrado por `aula: <slug>` → **calibração** do nível esperado, jargão recorrente, armadilhas históricas. Banco NÃO é material de inclusão no PDF.
 3. ORQUESTRADOR roda `extrair_slides.py [slide.pdf] [slug]` → PNGs + `figuras/[tema]/MAPA_CONTEUDO.txt`.
 4. ORQUESTRADOR gera Tema Card (Seção A + B + C). Validar antes de redigir.
-5. REDATOR-E1 gera `etapa1.typ` + `resumindo.typ`. Cita slides baseado no `MAPA_CONTEUDO`.
+5. REDATOR-E1 gera `etapa1.typ` + `resumindo.typ` (e, depois da E1 fechada, `pre-aula.typ` — ver § "Antes da aula"). Cita slides baseado no `MAPA_CONTEUDO`.
 6. QUESTIONADOR gera `etapa2.typ` + `etapa3.typ`. Usa banco filtrado por aula como calibração (não como anexo).
 6.5 **ORQUESTRADOR — Revisão de cards + loop Card→E1 (pós-E3, pré-compile).** Ver `FLASHCARDS.md` § Pipeline. Resumo: `gerar_checklist.py` (E1+E2 como fonte) → `buscar_tags_lote.py` → pool+pré-filtro → matriz conceito×card com coluna "In E1?" → patch da E1 para cards qualificados (critérios em `FLASHCARDS.md` § Loop Card→E1) → `verificar_cobertura_anking.py` (X/Y COBERTOS) → `aplicar_curadoria_anking.py`. **Só depois de aplicar os cards a sessão passa para o COMPILADOR.**
 7. COMPILADOR roda `gerar_main.py` → compila Typst → audita → move PDF para `resumos-gerados/[SLUG-MAIUSCULO].pdf` apenas se a auditoria passar.

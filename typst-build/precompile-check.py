@@ -166,6 +166,7 @@ TEMPLATE_HELPERS = [
     "termo-nota", "sigla",
     "glossario-siglas-page",
     "capa", "sumario", "gabarito-bloco", "gabarito-page", "resumindo-page",
+    "pre-aula-page",
 ]
 
 # ============================================================
@@ -173,6 +174,12 @@ TEMPLATE_HELPERS = [
 # ============================================================
 
 EXPECTATIONS = {
+    # "Antes da aula" (canonico 2026-08-28) -- secao de abertura entre capa e
+    # sumario. Opcional: `main()` so audita o arquivo se ele existir no CWD, de
+    # modo que resumos antigos seguem passando sem ele.
+    "pre-aula.typ": {
+        "needs": [(r"#pre-aula-page\b", 1, ">=1", "pre-aula-page")],
+    },
     "etapa1.typ": {
         "needs": [
             (r"#intro-box\b",     1, ">=1", "intro-box"),

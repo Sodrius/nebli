@@ -18,7 +18,7 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
    - `C:\AI use\nebli\ROLES.md` — §§ Orquestrador, Redator-E1, Questionador como referência prescritiva
    - `banco/aulas_uc<N>.yml` — confirmar slug existe
 
-3. **Limpar workspace.** `rm typst-build/etapa1.typ typst-build/etapa2.typ typst-build/etapa3.typ typst-build/resumindo.typ typst-build/main.typ` (evita contaminação do resumo anterior — `ERROS.md` erro 3).
+3. **Limpar workspace.** `rm typst-build/etapa1.typ typst-build/etapa2.typ typst-build/etapa3.typ typst-build/resumindo.typ typst-build/pre-aula.typ typst-build/main.typ` (evita contaminação do resumo anterior — `ERROS.md` erro 3).
 
 4. **Extrair slides.** Rodar `python typst-build/extrair_slides.py <slide.pdf> <slug>` — gera `figuras/<slug>/slide-XX.png` + `MAPA_CONTEUDO.txt`.
 
@@ -31,6 +31,8 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
 6. **Redigir E1 (rascunho)** seguindo as regras do `redator-e1.md`. Gravar via heredoc `etapa1.typ` e `resumindo.typ`. Aplicar filtro de utilidade pedagógica de figuras (regra 15). Reportar paridade de densidade entre PARTES (regra 14).
 
 6b. **Seleção de cards + passe de aprofundamento da E1 (CANON 2026-07-10, ANTES da E2).** Rodar a seleção de cards (passo 11a-c abaixo, com Anki vivo OU seleção offline do export) para descobrir o que o campo trata como núcleo. Depois, fazer o **passe de aprofundamento**: voltar na E1 e injetar **≈1 conteúdo extra mecanístico por subtópico** (~9-12 no total), colado a um mecanismo já aberto — o **slide regula O QUE entra, o AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**; se não há onde encaixar, não encaixa. Muitos aprofundamentos são induzidos por bons cards do AnKing (que vão pro deck-aula). Detalhe em `CLAUDE.md` § Aprofundamento da E1 + `ROLES.md` § Redator diretriz 17 + `FLASHCARDS.md` § Loop Card→E1. **Só depois de aprofundar a E1, seguir para a E2** (assim a E2 já cobra o extra). Sem Anki vivo: o aprofundamento nasce do mapa de cobertura offline + blueprint + bibliografia.
+
+6c. **Redigir `pre-aula.typ` (CANON 2026-08-28).** Com a E1 já aprofundada, destilar dela a seção **"Antes da aula"**: 2 páginas de prosa contínua na voz NEBLI contando a história da aula em ordem, **sem figura**, com os principais termos plantados em negrito dentro da prosa (a cota de negritos da E1 não vale aqui). Gravar `typst-build/pre-aula.typ` com `#pre-aula-page[...]`. Ela vai para o PDF entre a capa e o sumário — `gerar_main.py` inclui sozinho. Regras em `ROLES.md` § Redator diretriz 18 + `CLAUDE.md` § "Antes da aula".
 
 7. **Redigir E2/E3** seguindo `ROLES.md` § Questionador. Para **Q01-Q30** reportar quadro completo de ratio de paridade (gate hard banda dupla 0.80-1.25 — canônico 2026-05-29).
 

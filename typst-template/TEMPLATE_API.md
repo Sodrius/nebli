@@ -227,6 +227,15 @@ Subsequente: só `"ATP"`, sem footnote. Sem teto.
      "#FirstAid::01_Biochem::01_Nucleotides — 42 cards"))))
 ```
 
+### `pre-aula-page(conteudo)`
+Seção "Antes da aula" (canônico 2026-08-28) — 2 páginas de prosa contínua **entre a capa e o sumário**, com faixa teal, corpo 10.5pt e margens mais largas que o miolo. Sem figura, sem bullet. Termina em `pagebreak()`.
+```typst
+#pre-aula-page[
+A aula de hoje tem dois pacientes e um órgão só. ...
+]
+```
+O `main.typ` inclui `pre-aula.typ` sozinho quando o arquivo existe (`gerar_main.render_pre_aula`). Regras de redação em `ROLES.md` § Redator diretriz 18.
+
 ### `sumario(estrutura)`
 Sumário em 2 níveis. Veja o `main.typ` do #6 (Ácidos Nucleicos) para exemplo completo.
 
@@ -348,4 +357,4 @@ Cartão pequeno do rodapé. Mesma observação acima.
 
 ---
 
-**Resumo:** 38 helpers (35 anteriores + `mindmap-fechamento` + `mindmap-estacao` + `mindmap-cartao`). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.
+**Resumo:** 39 helpers (35 anteriores + `pre-aula-page` + `mindmap-fechamento` + `mindmap-estacao` + `mindmap-cartao`). Para detalhe de implementação, abra o `nebli_v2_apostila.typ` pelo nome. Para casos de uso real, ver os 6 resumos compilados em `resumos-gerados/` + a amostra do helper `mindmap-fechamento` em `arquivos-trabalho/mindmap-amostras/`.

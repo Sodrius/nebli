@@ -166,7 +166,7 @@ HEADER = '''// ================================================================
 
 // ======= CAPA =======
 {capa}
-
+{pre_aula}
 // ======= SUMÁRIO =======
 {sumario}
 
@@ -199,7 +199,7 @@ HEADER_SEM_E2 = '''// ==========================================================
 
 // ======= CAPA =======
 {capa}
-
+{pre_aula}
 // ======= SUMÁRIO =======
 {sumario}
 
@@ -214,6 +214,18 @@ HEADER_SEM_E2 = '''// ==========================================================
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 '''
+
+
+def render_pre_aula(build_dir: Path) -> str:
+    """Bloco "Antes da aula" (canonico 2026-08-28).
+
+    Fica ENTRE a capa e o sumario. So entra se `pre-aula.typ` existir no
+    diretorio de build -- resumos antigos, sem o arquivo, regeneram o main.typ
+    exatamente como antes.
+    """
+    if not (build_dir / "pre-aula.typ").exists():
+        return ""
+    return '\n// ======= ANTES DA AULA =======\n#include "pre-aula.typ"\n'
 
 
 def gerar_main(card_path: Path, out_path: Path):
@@ -234,6 +246,7 @@ def gerar_main(card_path: Path, out_path: Path):
     gabarito = card.get("gabarito", {})
 
     capa_text = render_capa(titulo, subtitulo, meta)
+    pre_aula_text = render_pre_aula(out_path.parent)
     sumario_text = render_sumario(sumario)
     sem_e2 = bool(card.get("sem_e2", False))
 
@@ -241,6 +254,7 @@ def gerar_main(card_path: Path, out_path: Path):
         text = HEADER_SEM_E2.format(
             slug=slug,
             capa=capa_text,
+            pre_aula=pre_aula_text,
             sumario=sumario_text,
         )
     else:
@@ -248,6 +262,7 @@ def gerar_main(card_path: Path, out_path: Path):
         text = HEADER.format(
             slug=slug,
             capa=capa_text,
+            pre_aula=pre_aula_text,
             sumario=sumario_text,
             gabarito=gabarito_text,
         )

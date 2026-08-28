@@ -26,6 +26,7 @@ Detalhes em `../MEMORY.md` § "Identidade visual ativa". Resumo:
 - Negrito do corpo em preto, não navy.
 - Resumindo banner gold, títulos navy 10.5pt.
 - PARTE 16pt navy bold + pagebreak antes (se não primeira).
+- **"Antes da aula" (`#pre-aula-page`, canônico 2026-08-28):** faixa **teal** (a capa é navy, o Resumindo é gold), corpo 10.5pt, margens laterais 2.2cm. Fica entre capa e sumário, 2 páginas, sem figura. A faixa teal é o sinal visual de que a seção vem ANTES do material, não dentro dele.
 
 ## Mapas mentais
 
