@@ -42,6 +42,8 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
 
 6c. **Redigir `pre-aula.typ` (CANON 2026-08-28).** Com a E1 já aprofundada, destilar dela a seção **"Antes da aula"**: 2 páginas de prosa contínua na voz NEBLI contando a história da aula em ordem, **sem figura**, com os principais termos plantados em negrito dentro da prosa (a cota de negritos da E1 não vale aqui). Gravar `typst-build/pre-aula.typ` com `#pre-aula-page[...]`. Ela vai para o PDF entre a capa e o sumário — `gerar_main.py` inclui sozinho. Regras em `ROLES.md` § Redator diretriz 18 + `CLAUDE.md` § "Antes da aula".
 
+   **Passo obrigatório — é gate hard (CANON 2026-08-29).** O `precompile-check.py` do passo 8 falha se `pre-aula.typ` não existir, e reprova a seção que tiver bullet, figura, caixa, helper de E1, interrogação, menos de 15 negritos ou contagem fora de 800–1300 palavras. Não pular este passo para "compilar rápido e voltar depois".
+
 7. **Redigir E2/E3** seguindo `ROLES.md` § Questionador. **UC03:** o acervo do passo 2b é fonte de distratora plausível-errada (o que o gabarito da FMUSP corrige como erro comum) e o verbo da E3 imita o da casa (*explique · descreva · justifique · qual o mecanismo mais provável*); o caso motivador pode ser multiárea como na prova — a E1 é que não pode. Para **Q01-Q30** reportar quadro completo de ratio de paridade (gate hard banda dupla 0.80-1.25 — canônico 2026-05-29).
 
 8. **Compilar** via `python typst-build/gerar_main.py <slug>` → `python typst-build/precompile-check.py` → `cd typst-build && typst compile --root .. --font-path ../fonts main.typ <SLUG>.pdf` → `python typst-build/auditar_pdf.py <SLUG>.pdf`.

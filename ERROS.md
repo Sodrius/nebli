@@ -209,6 +209,7 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 | 19 | Título da capa grande demais (30pt fixo) | validação visual da capa | não | warn |
 | 21 | Contagem de palavras da E1 falseada pelo mini-resumo | auditar_pdf (âncora no banner) | SIM (corrigido) | warn |
 | 23 | Gabarito C/E divergente dos itens | revisor-gabarito ou passada manual | não | sim |
+| 24 | `pre-aula.typ` ausente ou fora da forma canônica | precompile (`check_pre_aula`) | não | sim |
 
 ---
 

@@ -157,7 +157,9 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 
 Os **principais termos** que o professor vai usar como se o aluno já soubesse entram em negrito dentro da prosa, cada um seguido da frase curta que o define. Nesta seção o negrito marca o termo sendo plantado, então a cota de 2–3 negritos por parágrafo da diretriz 1 **não se aplica** — 4–5 é normal.
 
-Escrever **depois** da E1 (o pré-aula é destilado dela, inclusive dos aprofundamentos da diretriz 17) e **antes** de compilar. Gravação: `#pre-aula-page[ ... ]` em `typst-build/pre-aula.typ`, com o `#import` do template no topo como qualquer etapa. `gerar_main.py` inclui sozinho quando o arquivo existe; `precompile-check.py` audita junto das etapas.
+Escrever **depois** da E1 (o pré-aula é destilado dela, inclusive dos aprofundamentos da diretriz 17) e **antes** de compilar. Gravação: `#pre-aula-page[ ... ]` em `typst-build/pre-aula.typ`, com o `#import` do template no topo como qualquer etapa. `gerar_main.py` inclui sozinho quando o arquivo existe.
+
+**É gate hard desde 2026-08-29** (`check_pre_aula` no `precompile-check.py`): sem `pre-aula.typ` o precompile falha e não se compila. O que bloqueia: menos de 800 ou mais de 1300 palavras; bullet ou lista; figura; helper de E1 dentro da seção; qualquer interrogação; menos de 15 termos em negrito. O que apenas avisa: palavras fora de 900–1100 e negritos entre 15 e 24. Escape `--legado` só para regerar resumo histórico anterior à canonização.
 
 ### Índice de completude (CANON 2026-07-10) — 3 notas no relatório de fechamento
 

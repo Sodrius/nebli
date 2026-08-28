@@ -175,8 +175,10 @@ TEMPLATE_HELPERS = [
 
 EXPECTATIONS = {
     # "Antes da aula" (canonico 2026-08-28) -- secao de abertura entre capa e
-    # sumario. Opcional: `main()` so audita o arquivo se ele existir no CWD, de
-    # modo que resumos antigos seguem passando sem ele.
+    # sumario. GATE HARD desde 2026-08-29 (pedido de Davi): todo resumo novo
+    # PRECISA do arquivo, e ele passa por `check_pre_aula` (2 paginas, prosa
+    # continua, sem figura, sem pergunta, termos plantados em negrito). Para
+    # REGERAR um resumo historico que nasceu sem a secao, use `--legado`.
     "pre-aula.typ": {
         "needs": [(r"#pre-aula-page\b", 1, ">=1", "pre-aula-page")],
     },
@@ -793,6 +795,81 @@ def audit_e2_regras_extra(questoes, gabarito):
 # Validacao do template canonico
 # ============================================================
 
+def check_pre_aula(content, fname):
+    """Gate HARD da secao "Antes da aula" (canonico 2026-08-28, endurecido 2026-08-29).
+
+    Ate agora `pre-aula.typ` era auditado apenas SE existisse -- na pratica,
+    opcional. Davi canonizou como gate hard: todo resumo abre com a leitura de
+    vespera. O que se verifica aqui e o que a regra promete:
+
+      - **2 paginas de prosa** -> 800-1300 palavras (alvo 900-1100, fora disso avisa).
+      - **prosa fluida contínua** -> sem bullet/lista, sem caixa, sem helper de E1.
+      - **sem figura** -> as figuras todas ficam na E1 (canonico).
+      - **sem pergunta retorica** -> mesmo banimento da E1 (canonico 2026-05-29).
+      - **os topicos/termos mais importantes plantados** -> negrito e o marcador
+        do termo sendo plantado; a cota de 2-3 por paragrafo da E1 NAO vale aqui,
+        e um pre-aula que planta menos de 15 termos nao esta cumprindo a funcao.
+
+    A presenca do arquivo em si e cobrada no `main()`, nao aqui.
+    """
+    errors, warnings = [], []
+
+    # --- 2 paginas: contagem de palavras ---
+    limpo = re.sub(r"#[\w-]+", "", content)
+    palavras = [w for w in re.split(r"\s+", limpo) if any(c.isalpha() for c in w)]
+    n = len(palavras)
+    if n < 800 or n > 1300:
+        errors.append(f"  x {fname}: {n} palavras -- fora de 800-1300, nao fecha as 2 paginas "
+                      f"canonicas (alvo 900-1100). Ver CLAUDE.md § \"Antes da aula\".")
+    elif n < 900 or n > 1100:
+        warnings.append(f"  ! {fname}: {n} palavras -- fora do alvo 900-1100 (ainda dentro do "
+                        f"aceitavel de 2 paginas).")
+    else:
+        print(f"  palavras pre-aula: {n} (alvo 900-1100)")
+
+    # --- prosa continua: sem bullet, sem lista ---
+    bullets = re.findall(r"^[ \t]*[-+][ \t]+\S", content, re.MULTILINE)
+    if bullets or "#list(" in content:
+        errors.append(f"  x {fname}: {len(bullets)} bullet(s)/lista detectada(s) -- a secao e "
+                      f"PROSA CONTINUA. Termo importante entra em negrito dentro da frase, "
+                      f"nunca como item de lista.")
+
+    # --- sem figura ---
+    figuras = [h for h in ("#figura-nebli", "#figura-lateral", "image(") if h in content]
+    if figuras:
+        errors.append(f"  x {fname}: figura detectada ({', '.join(figuras)}) -- a secao "
+                      f"\"Antes da aula\" nao leva figura; as figuras todas ficam na E1.")
+
+    # --- sem helper de E1 (a secao nao e mini-E1) ---
+    proibidos = ("#parte-title", "#subtopico", "#intro-box", "#mini-resumo", "#atencao-box",
+                 "#clinica-box", "#confusao-prevista", "#sintese-box", "#conclusao-box",
+                 "#etapa-header", "#set-etapa")
+    achados = [h for h in proibidos if h in content]
+    if achados:
+        errors.append(f"  x {fname}: helper de E1 dentro do pre-aula ({', '.join(achados)}) -- "
+                      f"a secao e narrativa continua, nao mini-E1 nem sumario executivo.")
+
+    # --- sem pergunta retorica (mesmo banimento da E1) ---
+    n_perg = content.count("?")
+    if n_perg:
+        errors.append(f"  x {fname}: {n_perg} interrogacao(oes) -- pergunta ancora/retorica e "
+                      f"banida (canonico 2026-05-29). Abertura e afirmacao direta.")
+
+    # --- termos plantados em negrito ---
+    negritos = re.findall(r"\*[^*\n]{2,60}\*", content)
+    if len(negritos) < 15:
+        errors.append(f"  x {fname}: apenas {len(negritos)} termo(s) em negrito -- a funcao dupla "
+                      f"da secao e contar a aula E plantar os termos que o professor vai usar "
+                      f"como se o aluno ja soubesse. Piso 15; 4-5 por paragrafo e normal aqui.")
+    elif len(negritos) < 25:
+        warnings.append(f"  ! {fname}: {len(negritos)} termos em negrito -- baixo para 2 paginas; "
+                        f"conferir se os principais termos da aula foram plantados.")
+    else:
+        print(f"  termos plantados: {len(negritos)} em negrito")
+
+    return errors, warnings
+
+
 def check_template_helpers(content, fname):
     errors = []
     for helper in TEMPLATE_HELPERS:
@@ -961,6 +1038,11 @@ def check_file(path):
     if fname == "etapa2.typ":
         errors.extend(check_ce_quatro_itens(content, fname))
 
+    # "Antes da aula" -- gate hard (canonico 2026-08-29)
+    if fname == "pre-aula.typ":
+        e_pa, w_pa = check_pre_aula(content, fname)
+        errors.extend(e_pa); warnings.extend(w_pa)
+
     # v6 checks (2026-05-26): siglas em prosa sem #sigla() na 1a aparicao;
     # cadeia >=4 setas sem #figura-nebli adjacente. Aplicaveis so a etapa1.typ.
     if fname == "etapa1.typ":
@@ -1035,6 +1117,9 @@ def main():
     no_template = "--no-template" in args
     no_paridade = "--no-paridade" in args
     no_e2_regras = "--no-e2-regras" in args
+    # Escape documentado para REGERAR resumo historico anterior a 2026-08-28,
+    # que nasceu sem a secao "Antes da aula". Nunca usar em resumo novo.
+    legado = "--legado" in args
     # --slug NOME -- forca slug do mapa-confusoes (CWD `_par_<slug>/` infere automatico)
     slug_override = None
     if "--slug" in args:
@@ -1042,10 +1127,12 @@ def main():
         if idx + 1 < len(args):
             slug_override = args[idx + 1]
             args = args[:idx] + args[idx+2:]
-    args = [a for a in args if a not in ("--strict", "--no-template", "--no-paridade", "--no-e2-regras")]
+    args = [a for a in args if a not in ("--strict", "--no-template", "--no-paridade",
+                                        "--no-e2-regras", "--legado")]
 
     cwd = Path.cwd()
 
+    pre_aula_ausente = None
     if args:
         files = [Path(a) for a in args]
         check_tpl = False
@@ -1060,6 +1147,18 @@ def main():
         check_tpl = not no_template
         check_par = not no_paridade
         check_e2 = not no_e2_regras
+        # Gate hard da secao "Antes da aula" (canonico 2026-08-29): a ausencia
+        # do arquivo e erro, nao silencio. Antes, `pre-aula.typ` so era auditado
+        # se existisse -- o que na pratica o deixava opcional.
+        if not legado and not (cwd / "pre-aula.typ").exists():
+            pre_aula_ausente = ("  x pre-aula.typ AUSENTE -- a secao \"Antes da aula\" e "
+                                "obrigatoria em todo resumo (canonico 2026-08-28, gate hard "
+                                "2026-08-29): 2 paginas de prosa continua na voz NEBLI contando "
+                                "a historia da aula, sem figura, com os principais termos "
+                                "plantados em negrito. Escrever DEPOIS da E1 fechada. "
+                                "Regenerando resumo historico? use --legado.")
+        else:
+            pre_aula_ausente = None
 
     slug = slug_override or infer_slug(cwd)
 
@@ -1081,6 +1180,11 @@ def main():
 
     all_errors = []
     all_warnings = []
+
+    if pre_aula_ausente:
+        print("-> pre-aula.typ")
+        print(pre_aula_ausente)
+        all_errors.append(pre_aula_ausente)
 
     for path in files:
         print(f"-> {path.name}")

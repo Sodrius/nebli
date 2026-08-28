@@ -101,7 +101,9 @@ Pedido de Davi: **faltava um resumo pra ver ANTES da aula.** A apostila E1–E3 
 
 **Escrever quando.** Depois da E1 fechada (o pré-aula é destilado dela, não escrito no escuro), antes de compilar. Assim ele reflete o recorte real do resumo, incluindo os aprofundamentos injetados.
 
-**Pipeline.** `gerar_main.py` insere `#include "pre-aula.typ"` entre capa e sumário **só se o arquivo existir** — resumos antigos regeneram idênticos. `precompile-check.py` audita `pre-aula.typ` como as etapas (exige `#pre-aula-page`, checa vocabulário banido, acentuação, markdown vazado, fechamento limpo) e só quando o arquivo existe.
+**Pipeline.** `gerar_main.py` insere `#include "pre-aula.typ"` entre capa e sumário quando o arquivo existe.
+
+**GATE HARD (CANON 2026-08-29, pedido de Davi).** A seção deixou de ser auditada-se-existir e passou a ser **obrigatória em todo resumo novo**: `precompile-check.py` falha com exit ≠ 0 quando `pre-aula.typ` não existe, e `check_pre_aula` verifica o que a regra promete — **(a) 2 páginas** → 800–1300 palavras (fora do alvo 900–1100 avisa); **(b) prosa contínua** → sem bullet, sem `#list`, sem caixa e sem helper de E1 (`#parte-title`, `#subtopico`, `#intro-box`, `#mini-resumo`, `#atencao-box`, `#clinica-box`, `#confusao-prevista`, `#conclusao-box`); **(c) sem figura** → nenhum `#figura-nebli`/`#figura-lateral`/`image(`; **(d) sem pergunta âncora ou retórica** → zero interrogações, mesmo banimento da E1; **(e) os tópicos mais importantes plantados** → piso de 15 termos em negrito, aviso abaixo de 25. Continuam valendo os checks gerais (vocabulário banido, acentuação, markdown vazado, fechamento limpo). Para **regerar um resumo histórico** nascido antes de 2026-08-28 existe o escape documentado `--legado`; nunca usar em resumo novo.
 
 ## Nomenclatura única + upload automático pro Drive (CANON 2026-07-12)
 
