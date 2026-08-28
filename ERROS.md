@@ -156,6 +156,23 @@ python3 -c "import pymupdf,re; d=pymupdf.open(PDF); t=chr(10).join(d[i].get_text
 ```
 com `P1..P2` = faixa de páginas da E1. Correção definitiva (backlog): ancorar o fim do miolo no **banner** do Resumindo, não na palavra solta.
 
+### 22. Sessão remota (nuvem) não vem com `typst` nem com o poppler
+
+**Sintoma (2026-08-28):** numa sessão de Claude Code na nuvem, `typst compile` não existe no PATH e `auditar_pdf.py` morre em `x pdftotext nao encontrado. Instale poppler-utils.` — o pipeline trava sem que haja nada de errado com o resumo. O container remoto clona o repositório, mas não traz o ambiente da máquina do Davi.
+
+**Como resolver (duas etapas, ~1 minuto):**
+
+1. **Typst** — baixar o binário estático e pôr no PATH:
+```bash
+cd /tmp && curl -sSL -o typst.tar.xz \
+  "https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz" \
+  && tar xf typst.tar.xz && cp typst-*/typst /usr/local/bin/ && typst --version
+```
+
+2. **Poppler** — `auditar_pdf.py` e `pos_pipeline_check.py` chamam `pdftotext`, `pdfinfo` e `pdffonts` por `subprocess`. Se o `apt` não estiver disponível, criar os três como *shims* de uma linha sobre o **pymupdf**, que já é dependência do `extrair_slides.py`. O `pdftotext` precisa aceitar `-f`/`-l` (faixa de páginas) e `-` como saída; o `pdffonts`, imprimir as duas linhas de cabeçalho antes das fontes, senão o parser do auditor não casa.
+
+**Nota:** os shims são de sessão, não vão para o repositório. Em máquina local com poppler instalado nada disso é necessário — é armadilha exclusiva de corrida remota.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)
