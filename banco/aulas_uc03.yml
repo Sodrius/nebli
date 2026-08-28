@@ -1,0 +1,751 @@
+# Aulas da UC03 — FMUSP, Turma 114, 2026
+# UC03 = "Princípios do Desenvolvimento das Doenças" (FMUSP / ICB / IQ).
+# Fonte P1+P2: tabela oficial da UC03 na planilha de cronograma do Davi (colunas Data/Horário/
+#   Local/N/C/Tema/P), lida em 2026-08-27.
+# Fonte P3+P4: cronograma mensal da MESMA planilha (as linhas da tabela oficial só iam até o
+#   conteúdo 33 / 18-09). Marcadas `provisorio: true` — confirmar com Davi quando a tabela oficial
+#   for estendida. Título e data vêm do calendário; o número de conteúdo (`conteudo:`) fica vazio.
+#
+# Convenção de slug (mesma família de aulas_uc01/uc02):
+#   [componente-abrev]-[numero-na-componente]-[tema-curto]
+#   componentes UC03:
+#     rad     -> Radiologia / diagnóstico por imagem      (código da prova: RD)
+#     pat     -> Patologia geral                          (código da prova: PT)
+#     imuno   -> Imunologia                               (código da prova: IM)
+#     micro   -> Microbiologia (bacterio, mico, virologia)(código da prova: MB)
+#     biomol  -> Biologia Molecular + Bioquímica          (códigos da prova: BM, BQ, BQ/BM)
+#     pat-rad -> aula-correlação Patologia × Radiologia   (código da prova: PT-RD)
+#     gr      -> Grand Round (integrada, todas as áreas)  (código da prova: GR)
+#   `conteudo:` = número oficial do conteúdo na UC03 (é ele que a prova cita, não a ordem do dia).
+#   `apelidos:` = slugs alternativos já usados em resumos gerados (o consultar.py aceita os dois).
+#   `chaves:` = termos de busca usados por referencias-externas/uc03/consultar.py para achar,
+#   no acervo de provas, as questões que pertencem A ESTA aula — e só a ela.
+#
+# REGRA DE ESCOPO (canônica para UC03, 2026-08-27):
+#   A prova da UC03 é integrada por CASO CLÍNICO, mas cada subquestão é etiquetada por uma única
+#   área. O resumo NEBLI é da AULA, não do caso: o que entra é o que pertence ao slug. Conteúdo de
+#   outra aula só aparece como retomada de 1-2 frases quando o mecanismo desta aula depende dele —
+#   nunca como subtópico próprio. Detalhe em referencias-externas/uc03/CALIBRACAO.md § Fronteiras.
+
+uc: UC03
+nome: "Princípios do Desenvolvimento das Doenças"
+turma: 114
+ano: 2026
+provas:
+  P1: 2026-08-28   # conteúdos 1-13 e 15-22 (o conteúdo 14 não é cobrado)
+  P2: 2026-10-02
+  P3: 2026-11-06
+  P4: 2026-12-04
+observacao_provas: >-
+  Conteúdos 3, 4, 5 e 12 (ferramentas de diagnóstico patológico e radiológico) são cobrados em
+  TODAS as quatro provas — são as aulas-ferramenta da UC. Toda prova abre caso com exame de imagem
+  e pede modalidade + descrição radiológica.
+
+aulas:
+  # =================================================================
+  # P1 (28/08) — FERRAMENTAS, LESÃO CELULAR E RECONHECIMENTO IMUNE
+  # =================================================================
+  - slug: rad-01-ferramentas-diagnostico-radiologico
+    componente: Radiologia
+    codigo_prova: RD
+    conteudo: 2
+    data: 2026-08-04
+    prova: P1
+    titulo: "Ferramentas do diagnóstico radiológico"
+    chaves: [modalidade de exame, ferramentas do diagnóstico, escolha do exame, indicação do exame]
+
+  - slug: pat-01-ferramentas-diagnostico-patologico
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 3
+    data: 2026-08-06
+    prova: "P1;P2;P3;P4"
+    titulo: "Ferramentas do diagnóstico patológico"
+    chaves: [biópsia, autópsia, anatomopatológico, macroscópic, microscópic, declaração de óbito, imunohistoquímic, laudo]
+
+  - slug: rad-02-radiografia-ultrassonografia
+    componente: Radiologia
+    codigo_prova: RD
+    conteudo: 4
+    data: 2026-08-06
+    prova: "P1;P2;P3;P4"
+    titulo: "Princípios da radiografia convencional e ultrassonografia"
+    chaves: [radiografia, radiopac, radiotranspar, opacidade, ultrassonografia, ecogênic, hipoecog, hiperecog, doppler, transdutor, piezo]
+
+  - slug: rad-03-tomografia-computadorizada
+    componente: Radiologia
+    codigo_prova: RD
+    conteudo: 5
+    data: 2026-08-06
+    prova: "P1;P2;P3;P4"
+    titulo: "Princípios da tomografia computadorizada"
+    chaves: [tomografia, atenua, hipoatenuant, hiperatenuant, hounsfield, vidro fosco, janela óssea, reconstrução]
+
+  - slug: imuno-01-organizacao-sistema-imune
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 7
+    data: 2026-08-07
+    prova: P1
+    titulo: "Organização e funcionamento do sistema imune"
+    chaves: [órgãos linfoides, linfonodo, timo, inata e adaptativa, diferença entre as respostas imunes, tecido linfoide]
+
+  - slug: biomol-01-mecanismos-acao-hormonal
+    componente: Biologia Molecular
+    codigo_prova: BM
+    conteudo: 10
+    data: 2026-08-07
+    prova: P1
+    titulo: "Mecanismos de ação hormonal"
+    chaves: [receptor nuclear, hormônio tireoide, T3, T4, segundo mensageiro, receptor de membrana, PPAR, transdução do sinal hormonal]
+
+  - slug: imuno-02-reconhecimento-inato
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 8
+    data: 2026-08-11
+    prova: P1
+    titulo: "Reconhecimento pelo sistema imune na resposta inata"
+    chaves: [PAMP, DAMP, receptor de reconhecimento de padrão, PRR, TLR, imunidade inata, imunidade treinada, primeira linha]
+
+  - slug: biomol-02-recombinacao-vdj
+    componente: Biologia Molecular
+    codigo_prova: BM
+    conteudo: 18
+    data: 2026-08-11
+    prova: P1
+    titulo: "Recombinação VDJ"
+    chaves: [recombinação, VDJ, RAG, diversidade de anticorpos, hipermutação somática, switch de classe, rearranjo gênico]
+
+  - slug: imuno-03-reconhecimento-adaptativo
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 17
+    data: 2026-08-13
+    prova: P1
+    titulo: "Reconhecimento pelo sistema imune na resposta adaptativa"
+    chaves: [receptor de células T, TCR, BCR, especificidade, Fab, Fc, estrutura do anticorpo, imunoglobulina]
+
+  - slug: rad-04-ressonancia-magnetica
+    componente: Radiologia
+    codigo_prova: RD
+    conteudo: 12
+    data: 2026-08-13
+    prova: "P1;P2;P3;P4"
+    titulo: "Princípios da ressonância magnética"
+    chaves: [ressonância magnética, T1, T2, hipossinal, hipersinal, radiofrequência, campo magnético, ponderada]
+
+  - slug: pat-02-lesao-celular-necrose-apoptose
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 9
+    data: 2026-08-14
+    prova: P1
+    titulo: "Mecanismos de lesão celular: necrose e apoptose"
+    chaves: [lesão celular, reversív, irreversív, necrose, apoptose, coagulativa, liquefativa, caseosa, gordurosa, gangrena, isquemia, radicais livres, troponina]
+
+  - slug: pat-03-acumulos-adaptacao-celular
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 11
+    data: 2026-08-14
+    prova: P1
+    titulo: "Acúmulos e adaptação celular"
+    chaves: [acúmulo, esteatose, hipertrofia, hiperplasia, atrofia, metaplasia, displasia, antracose, lipofuscina, hemossiderina, bilirrubina, adaptação celular]
+
+  - slug: pat-04-envelhecimento-celular-tecidual
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 13
+    data: 2026-08-21
+    prova: P1
+    titulo: "Envelhecimento celular e tecidual"
+    chaves: [senescência, senilidade, envelhecimento, reserva funcional, plasticidade, telômero na célula normal]
+
+  - slug: pat-rad-01-correlacao-pneumonia
+    componente: Patologia + Radiologia
+    codigo_prova: PT-RD
+    conteudo: 6
+    data: 2026-08-20
+    prova: P1
+    titulo: "Correlação patológica-radiológica 1 (pneumonia)"
+    apelidos: [correlacao-radio-pato-1]
+    chaves: [pneumonia, consolidação, condensação, correlação radiológica, broncograma]
+
+  - slug: biomol-03-regulacao-hormonal-metabolismo
+    componente: Biologia Molecular
+    codigo_prova: BM
+    conteudo: 16
+    data: 2026-08-21
+    prova: P1
+    titulo: "Regulação hormonal do metabolismo e da massa corpórea"
+    chaves: [leptina, grelina, GLP-1, saciedade, massa corpórea, resistência à insulina, obesidade, adipocina]
+
+  - slug: imuno-04-mhc-apresentacao-antigenos
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 20
+    data: 2026-08-20
+    prova: P1
+    titulo: "MHC, processamento e apresentação de antígenos"
+    chaves: [MHC, HLA, apresentação de antígeno, célula dendrítica, processamento, classe I, classe II, cross-presentation]
+
+  - slug: imuno-05-mecanismos-efetores
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 22
+    data: 2026-08-25
+    prova: P1
+    titulo: "Mecanismos efetores do sistema imune"
+    chaves: [citotóxic, NK, opsoniz, ADCC, mecanismo efetor, fagocitose, granzima, perforina]
+
+  - slug: gr-01-esquizofrenia
+    componente: Grand Round
+    codigo_prova: GR
+    conteudo: 15
+    data: 2026-08-18
+    prova: P1
+    titulo: "Grand Round 1 (esquizofrenia)"
+    chaves: [grand round]
+    nota: "Questão de GR vale para todas as áreas. Não vira resumo NEBLI próprio."
+
+  # =================================================================
+  # P2 (02/10) — BACTERIOLOGIA, INFLAMAÇÃO E INTEGRAÇÃO METABÓLICA
+  # =================================================================
+  - slug: pat-05-edema-congestao
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 23
+    data: 2026-08-27
+    prova: P2
+    titulo: "Edema e congestão"
+    chaves: [edema, exsudato, transudato, congestão, permeabilidade vascular, pressão hidrostática, pressão oncótica, ascite, derrame]
+
+  - slug: biomol-04-integracao-metabolica-i
+    componente: Bioquímica
+    codigo_prova: BQ/BM
+    conteudo: 25
+    data: 2026-09-01
+    prova: P2
+    titulo: "Integração metabólica I: especialização por órgãos e tecidos"
+    chaves: [especialização metabólica, fígado e músculo, ciclo alanina-glicose, ciclo de Cori, tecido adiposo, cérebro glicose]
+
+  - slug: pat-rad-02-correlacao-patologica-radiologica-2
+    componente: Patologia + Radiologia
+    codigo_prova: PT-RD
+    conteudo: 19
+    data: 2026-09-01
+    prova: P2
+    titulo: "Correlação patológica-radiológica 2"
+    apelidos: [correlacao-radio-pato-2]   # slug usado no resumo já gerado
+    chaves: [correlação patológic, correlação radiológic]
+
+  - slug: pat-06-patologia-ambiental
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 24
+    data: 2026-09-03
+    prova: P2
+    titulo: "Patologia ambiental"
+    chaves: [poluição, material particulado, PM2.5, queima de biomassa, tabagismo, álcool, agente ambiental, exposição ocupacional]
+
+  - slug: micro-01-morfologia-estrutura-bacterias
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 26
+    data: 2026-09-03
+    prova: P2
+    titulo: "Morfologia e estrutura das bactérias"
+    chaves: [gram positiv, gram negativ, coloração de gram, peptideoglicano, LPS, lipídeo A, cápsula bacteriana, fímbria, flagelo, parede celular bacteriana]
+
+  - slug: micro-02-fisiologia-crescimento-bacteriano
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 27
+    data: 2026-09-04
+    prova: P2
+    titulo: "Fisiologia e crescimento bacteriano"
+    chaves: [curva de crescimento, fase lag, fase log, estacionária, tempo de duplicação, cultura demora, meio de cultura, anaerób]
+
+  - slug: micro-03-pratica-morfologia-assepsia
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 28
+    data: 2026-09-04
+    prova: P2
+    titulo: "Prática 1: morfologia da célula bacteriana e assepsia"
+    chaves: [assepsia, bacterioscopia, esfregaço, prática de bacteriologia]
+
+  - slug: biomol-05-operon-procariotos
+    componente: Biologia Molecular
+    codigo_prova: BM
+    conteudo: 29
+    data: 2026-09-08
+    prova: P2
+    titulo: "Regulação da expressão gênica em procariotos: modelo do operon"
+    chaves: [operon, lac, lacI, repressor, operador, CAP, cAMP, IPTG, X-Gal, diploide parcial, repressão por catabólito, beta-galactosidase]
+
+  - slug: imuno-06-sistema-complemento
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 31
+    data: 2026-09-08
+    prova: P2
+    titulo: "Sistema complemento"
+    chaves: [complemento, via clássica, via alternativa, via das lectinas, C3, C4, C5, CH50, AH50, MAC, fator H, properdina, anafilatoxina, C3b]
+
+  - slug: micro-04-controle-microbiologico
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 30
+    data: 2026-09-10
+    prova: P2
+    titulo: "Controle microbiológico"
+    chaves: [esterilização, desinfecção, autoclave, antisséptico, glutaraldeído, controle microbiológico, termo-resistente]
+
+  - slug: micro-05-antibioticos-resistencia
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 32
+    data: 2026-09-10
+    prova: P2
+    titulo: "Mecanismos de ação de antibióticos e resistência bacteriana"
+    chaves: [antibiótico, antibiograma, MIC, CIM, halo de inibição, beta-lactam, cefalosporina, carbapenêmico, quinolona, aminoglicosídeo, resistência, bacteriostático, bactericida, MRSA]
+
+  - slug: micro-06-genetica-bacteriana
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 34
+    data: 2026-09-11
+    prova: P2
+    titulo: "Genética bacteriana"
+    chaves: [plasmídeo, conjugação, transdução, transformação bacteriana, transposon, integron, gene de resistência, sequenciamento bacteriano, bioinformática]
+
+  - slug: pat-07-inflamacao-aguda
+    componente: Patologia
+    codigo_prova: PT
+    conteudo: 38
+    data: 2026-09-11
+    prova: P2
+    titulo: "Patologia da inflamação aguda"
+    chaves: [inflamação aguda, sinais flogísticos, neutrófilo, vasodilatação, marginação, rolamento, diapedese, padrão morfológico, supurativa, flegmonosa, serosa, fibrinosa, pus, abscesso]
+
+  - slug: micro-07-patogenicidade-bacteriana
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 35
+    data: 2026-09-15
+    prova: P2
+    titulo: "Patogenicidade bacteriana"
+    chaves: [fator de virulência, adesina, exotoxina, endotoxina, superantígeno, invasina, sideróforo, hemolisina, patogenicidade, colonização]
+
+  - slug: imuno-07-inflamacao-inicio-resolucao
+    componente: Imunologia
+    codigo_prova: IM
+    conteudo: 37
+    data: 2026-09-17
+    prova: P2
+    titulo: "Inflamação: início e resolução"
+    chaves: [mediador inflamatório, histamina, bradicinina, prostaglandina, leucotrieno, IL-1, TNF, lipoxina, resolvina, resolução da inflamação, cinética]
+
+  - slug: micro-08-integracao-homem-ambiente-microrganismo
+    componente: Microbiologia
+    codigo_prova: MB
+    conteudo: 39
+    data: 2026-09-17
+    prova: P2
+    titulo: "Fundamentos da integração homem–ambiente–micro-organismo"
+    chaves: [microbiota, MNCH, microbiota normal, comensal, colonização normal, disbiose]
+
+  - slug: biomol-06-integracao-metabolica-ii
+    componente: Bioquímica
+    codigo_prova: BQ/BM
+    conteudo: 33
+    data: 2026-09-18
+    prova: P2
+    titulo: "Integração metabólica II: estados alimentares"
+    chaves: [jejum, jejum prolongado, estado alimentado, glicogenólise, gliconeogênese, cetogênese, insulina/glucagon, catabolismo, caquexia]
+
+  - slug: gr-02
+    componente: Grand Round
+    codigo_prova: GR
+    conteudo:
+    data: 2026-09-29
+    prova: P2
+    titulo: "Grand Round 2"
+    chaves: [grand round]
+    nota: "Não vira resumo NEBLI próprio."
+
+  # =================================================================
+  # P3 (06/11) — MICOLOGIA, VIROLOGIA, INFLAMAÇÃO CRÔNICA E REPARO
+  # (provisório: reconstruído do cronograma mensal — confirmar números de conteúdo)
+  # =================================================================
+  - slug: imuno-08-ativacao-linfocitos-t
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-10-06
+    prova: P3
+    provisorio: true
+    titulo: "Ativação de linfócitos T"
+    chaves: [linfócito T, célula T, Th1, Th2, Th17, CD4, CD8, coestimulação, CD28, sinapse imunológica, Treg, Foxp3]
+
+  - slug: micro-09-micoses-cutaneas
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-06
+    prova: P3
+    provisorio: true
+    titulo: "Micoses cutâneas"
+    chaves: [dermatófito, micose superficial, micose cutânea, queratinólise, tinea, queratina]
+
+  - slug: biomol-07-expressao-genica-eucariotos-i
+    componente: Biologia Molecular
+    codigo_prova: BM
+    data: 2026-10-08
+    prova: P3
+    provisorio: true
+    titulo: "Regulação da expressão gênica em eucariotos I"
+    chaves: [cromatina, acetilação de histona, metilação, epigenétic, fator de transcrição, promotor eucariótico, enhancer, gene repórter]
+
+  - slug: pat-08-inflamacao-granulomatosa
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-10-08
+    prova: P3
+    provisorio: true
+    titulo: "Inflamação granulomatosa"
+    chaves: [granuloma, célula epitelioide, célula gigante, Langhans, caseificação, IFN-gama e macrófago, granulomatosa]
+
+  - slug: micro-10-micoses-subcutaneas
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-09
+    prova: P3
+    provisorio: true
+    titulo: "Micoses subcutâneas"
+    chaves: [micose subcutânea, esporotricose, cromoblastomicose, implantação traumática]
+
+  - slug: imuno-09-ativacao-linfocitos-b
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-10-09
+    prova: P3
+    provisorio: true
+    titulo: "Ativação de células B"
+    chaves: [linfócito B, plasmócito, centro germinativo, IgM, IgG, troca de classe, memória B, resposta primária e secundária]
+
+  - slug: micro-11-micoses-sistemicas
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-15
+    prova: P3
+    provisorio: true
+    titulo: "Micoses sistêmicas"
+    chaves: [dimorf, Paracoccidioides, Histoplasma, Cryptococcus, cápsula do fungo, levedura, micélio, conídio, micose sistêmica, parede celular do fungo, beta-glucano, quitina]
+
+  - slug: biomol-08-expressao-genica-eucariotos-ii
+    componente: Biologia Molecular
+    codigo_prova: BM
+    data: 2026-10-15
+    prova: P3
+    provisorio: true
+    titulo: "Regulação da expressão gênica em eucariotos II"
+    chaves: [splicing, processamento do RNA, regulação pós-transcricional, estabilidade do mRNA, tradução regulada]
+
+  - slug: imuno-10-disturbios-sistema-imune
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-10-16
+    prova: P3
+    provisorio: true
+    titulo: "Distúrbios do sistema imune"
+    chaves: [imunodeficiência, autoimun, autoinflamatór, lúpus, anti-DNA, anti-SM, infecções de repetição, tolerância]
+
+  - slug: micro-12-pratica-micologia
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-16
+    prova: P3
+    provisorio: true
+    titulo: "Prática de micologia"
+    chaves: [exame micológico, KOH, cultura de fungo, tinta da china, prática de micologia]
+
+  - slug: imuno-11-resposta-imune-virus-fungos
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-10-20
+    prova: P3
+    provisorio: true
+    titulo: "Resposta imune aos vírus e fungos"
+    chaves: [interferon, resposta antiviral, resposta antifúngica, NK antiviral, Th17 e fungo, imunidade inata antiviral]
+
+  - slug: imuno-12-hipersensibilidade
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-10-20
+    prova: P3
+    provisorio: true
+    titulo: "Hipersensibilidade"
+    chaves: [hipersensibilidade, tipo I, tipo II, tipo III, tipo IV, IgE, mastócito, alérgeno, sensibilização, PPD, asma alérgica, anafilaxia]
+
+  - slug: micro-13-principios-gerais-virus
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-22
+    prova: P3
+    provisorio: true
+    titulo: "Princípios gerais dos vírus"
+    chaves: [estrutura viral, capsídeo, envelope, envelopado, RNA fita simples, senso positivo, genoma viral, partícula viral]
+
+  - slug: micro-14-multiplicacao-viral
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-22
+    prova: P3
+    provisorio: true
+    titulo: "Multiplicação viral"
+    chaves: [ciclo de multiplicação, replicação viral, adsorção, penetração, RdRp, RNA-polimerase RNA-dependente, montagem, brotamento, efeito citopático]
+
+  - slug: micro-15-patogenese-viral
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-23
+    prova: P3
+    provisorio: true
+    titulo: "Patogênese viral"
+    chaves: [tropismo, via de transmissão viral, disseminação viral, viremia, latência, contagiosidade, patogênese viral]
+
+  - slug: biomol-09-rnas-nao-codificadores
+    componente: Biologia Molecular
+    codigo_prova: BM
+    data: 2026-10-23
+    prova: P3
+    provisorio: true
+    titulo: "RNAs não codificadores"
+    chaves: [ncRNA, microRNA, miRNA, lncRNA, siRNA, regulação pós-transcricional, gene repórter, sistema gal4]
+
+  - slug: micro-16-aspectos-praticos-virologia
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-10-27
+    prova: P3
+    provisorio: true
+    titulo: "Aspectos práticos de virologia"
+    chaves: [PCR, RT-PCR, sorologia, antígeno viral, teste rápido, diagnóstico virológico, carga viral]
+
+  - slug: pat-09-patologia-infeccao-viral
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-10-27
+    prova: P3
+    provisorio: true
+    titulo: "Patologia da infecção viral"
+    chaves: [efeito citopático tecidual, inclusão viral, hepatite viral histolog, dano tecidual viral, necrose por vírus]
+
+  - slug: rad-05-contrastes-radiologicos
+    componente: Radiologia
+    codigo_prova: RD
+    data: 2026-10-30
+    prova: P3
+    provisorio: true
+    titulo: "Contrastes radiológicos"
+    chaves: [contraste, contraste iodado, gadolínio, angio-TC, realce, captação de contraste, nefropatia por contraste]
+
+  - slug: pat-10-inflamacao-cronica
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-10-30
+    prova: P3
+    provisorio: true
+    titulo: "Inflamação crônica"
+    chaves: [inflamação crônica, linfomononuclear, fibrose, remodelamento, tecido linfoide terciário, folículo linfoide ectópico, macrófago ativado]
+
+  - slug: pat-11-reparo-tecidual-cicatrizacao
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-03
+    prova: P3
+    provisorio: true
+    titulo: "Reparo tecidual e cicatrização"
+    chaves: [reparo, cicatrização, primeira intenção, segunda intenção, tecido de granulação, colágeno, deiscência, regeneração, fibrose cicatricial]
+
+  - slug: pat-12-hemostasia-trombose
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-03
+    prova: P3
+    provisorio: true
+    titulo: "Hemostasia e trombose"
+    chaves: [hemostasia, tríade de Virchow, trombo, plaqueta, cascata de coagulação, fator tecidual, petéquia, púrpura, endotélio pró-coagulante]
+
+  - slug: imuno-13-bases-imunologicas-transplantes
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-11-05
+    prova: P3
+    provisorio: true
+    titulo: "Bases imunológicas dos transplantes"
+    chaves: [transplante, rejeição, aloenxerto, imunossupress, enxerto, GVHD, compatibilidade HLA]
+
+  - slug: pat-13-embolia-infarto
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-05
+    prova: P3
+    provisorio: true
+    titulo: "Embolia e infarto"
+    chaves: [embolia, tromboembolismo, infarto branco, infarto vermelho, isquemia, circulação colateral, reperfusão, TEP]
+
+  - slug: gr-03
+    componente: Grand Round
+    codigo_prova: GR
+    data: 2026-10-13
+    prova: P3
+    provisorio: true
+    titulo: "Grand Round 3"
+    chaves: [grand round]
+    nota: "Não vira resumo NEBLI próprio."
+
+  - slug: gr-04
+    componente: Grand Round
+    codigo_prova: GR
+    data: 2026-10-29
+    prova: P3
+    provisorio: true
+    titulo: "Grand Round 4"
+    chaves: [grand round]
+    nota: "Não vira resumo NEBLI próprio."
+
+  # =================================================================
+  # P4 (04/12) — ONCOLOGIA, CHOQUE E REGULAÇÃO IMUNE
+  # (provisório: reconstruído do cronograma mensal)
+  # =================================================================
+  - slug: imuno-14-imunidade-mucosas
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-11-10
+    prova: P4
+    provisorio: true
+    titulo: "Imunidade de mucosas"
+    chaves: [mucosa, IgA secretora, célula M, placa de Peyer, MALT, dendrítica intestinal, barreira mucosa]
+
+  - slug: pat-14-choque-civd
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-10
+    prova: P4
+    provisorio: true
+    titulo: "Choque e CIVD"
+    chaves: [choque, cardiogênico, distributivo, hipovolêmico, obstrutivo, séptico, CIVD, fase compensada, descompensada, lactato, resistência vascular periférica]
+
+  - slug: imuno-15-regulacao-sistema-imune
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-11-13
+    prova: P4
+    provisorio: true
+    titulo: "Regulação do sistema imune"
+    chaves: [tolerância central, tolerância periférica, Treg, Foxp3, anergia, checkpoint, PD-1, CTLA-4, regulação da resposta]
+
+  - slug: pat-15-epidemiologia-biologia-tumores
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-13
+    prova: P4
+    provisorio: true
+    titulo: "Epidemiologia e biologia dos tumores"
+    chaves: [neoplasia benigna, maligna, nomenclatura tumoral, carcinoma, adenocarcinoma, sarcoma, anaplasia, estadiamento, rastreamento, incidência de câncer, hallmarks]
+
+  - slug: pat-16-carcinogenos-fisicos-quimicos
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-17
+    prova: P4
+    provisorio: true
+    titulo: "Carcinógenos físicos e químicos"
+    chaves: [carcinógeno físico, carcinógeno químico, radiação ionizante, UV, iniciação, promoção, adutos de DNA, tabaco carcinogênese]
+
+  - slug: pat-17-carcinogenese-sequencial
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-11-17
+    prova: P4
+    provisorio: true
+    titulo: "Carcinogênese sequencial"
+    chaves: [carcinogênese sequencial, multistep, adenoma-carcinoma, KRAS p16 TP53 SMAD4, acúmulo de mutações, evolução clonal, displasia para carcinoma]
+
+  - slug: biomol-10-oncogenes-genes-supressores
+    componente: Biologia Molecular
+    codigo_prova: BM
+    data: 2026-11-19
+    prova: P4
+    provisorio: true
+    titulo: "Oncogenes e genes supressores"
+    chaves: [oncogene, proto-oncogene, gene supressor, p53, TP53, RB, BRCA, ganho de função, perda de função, mismatch repair, BRAF, terapia-alvo]
+
+  - slug: micro-17-carcinogenos-biologicos
+    componente: Microbiologia
+    codigo_prova: MB
+    data: 2026-11-19
+    prova: P4
+    provisorio: true
+    titulo: "Carcinógenos biológicos"
+    chaves: [HPV, HBV, EBV, HTLV, vírus tumorigênico, oncogênico, E6, E7, mutagênese insercional, vacina profilática viral]
+
+  - slug: imuno-16-mecanismos-escape-imune
+    componente: Imunologia
+    codigo_prova: IM
+    data: 2026-11-24
+    prova: P4
+    provisorio: true
+    titulo: "Mecanismos de escape do sistema imune"
+    chaves: [escape imune, evasão, microambiente tumoral, PD-L1, checkpoint inhibitor, imunoedição, vigilância antitumoral]
+
+  - slug: biomol-11-metabolismo-celulas-neoplasicas
+    componente: Bioquímica
+    codigo_prova: BQ/BM
+    data: 2026-11-26
+    prova: P4
+    provisorio: true
+    titulo: "Aspectos metabólicos das células neoplásicas"
+    chaves: [efeito Warburg, glicólise aeróbia, caquexia tumoral, metabolismo tumoral, emagrecimento neoplasia]
+
+  - slug: pat-18-angiogenese-metastase
+    componente: Patologia
+    codigo_prova: PT
+    data: 2026-12-01
+    prova: P4
+    provisorio: true
+    titulo: "Angiogênese e metástase"
+    chaves: [angiogênese, VEGF, metástase, invasão, transição epitélio-mesenquimal, metaloproteinase, E-caderina, disseminação linfática, heterogeneidade da metástase]
+
+  - slug: biomol-12-telomeros-reparo-dna
+    componente: Biologia Molecular
+    codigo_prova: BM
+    data: 2026-12-01
+    prova: P4
+    provisorio: true
+    titulo: "Telômeros e reparo do DNA"
+    chaves: [telômero, telomerase, TERT, reparo do DNA, mismatch repair, excisão de base, instabilidade genômica, Lynch]
+
+  - slug: gr-05
+    componente: Grand Round
+    codigo_prova: GR
+    data: 2026-11-12
+    prova: P4
+    provisorio: true
+    titulo: "Grand Round 5"
+    chaves: [grand round]
+    nota: "Não vira resumo NEBLI próprio."
+
+  - slug: gr-07
+    componente: Grand Round
+    codigo_prova: GR
+    data: 2026-11-27
+    prova: P4
+    provisorio: true
+    titulo: "Grand Round 7"
+    chaves: [grand round]
+    nota: >-
+      Não vira resumo NEBLI próprio. O Grand Round 6 (aterosclerose e infarto do miocárdio, citado
+      na prova de 2025) não aparece nomeado no cronograma mensal de 2026 — confirmar com Davi.
