@@ -83,7 +83,7 @@
   (("I",   [A fibra muscular obtém dois ATP por glicose convertida em dois lactatos, que é o saldo da glicólise em condições anaeróbias.]),
    ("II",  [O fígado reconverte esses dois lactatos em glicose ao custo de seis ligações de alta energia, de modo que o balanço do circuito completo é negativo para o organismo.]),
    ("III", [O circuito permite recuperar integralmente a energia gasta durante o esforço muscular, e é essa recuperação que justifica sua existência.]),
-   ("IV",  [O lactato produzido é resíduo tóxico sem valor metabólico, eliminado pelo rim depois de neutralizado no fígado.]))
+   ("IV",  [O lactato sai do músculo e alcança o fígado pela veia porta, a mesma rota que traz ao hepatócito a glicose absorvida no intestino.]))
 )
 
 #questao-mc("11", badge-integracao,
