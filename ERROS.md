@@ -184,6 +184,16 @@ cd /tmp && curl -sSL -o typst.tar.xz \
 
 O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não puder rodar, a passada item a item é obrigatória à mão antes de compilar.
 
+### 25. Header da página fica uma seção atrasado (`set-etapa` depois do `pagebreak`)
+
+**Sintoma (`imuno-06-sistema-complemento`, 2026-08-29):** `auditar_pdf_visual.py` **bloqueia** com `pagina NN: header continua 'resumindo' mas banner de 'etapa2' aparece no corpo (BUG header dessincronizado)`. Na inspeção, a primeira página de cada seção carrega o cabeçalho da seção *anterior*: a página do Sumário sai com "ANTES DA AULA" no canto, a primeira página da E2 sai com "RESUMINDO".
+
+**Causa:** os helpers do template abrem com `pagebreak(weak: true)` e **só depois** chamam `set-etapa(...)` (`nebli_v2_apostila.typ`: `etapa-header`, `resumindo-page`, `sumario`, `gabarito-page`). O `context state.get()` do cabeçalho da página nova resolve antes dessa atualização, então imprime o valor antigo. O erro só vira bloqueio quando as duas páginas vizinhas são classificadas com o mesmo rótulo pelo auditor — o que acontece porque o header impresso vem com `tracking`, e o texto extraído sai `E TA PA 1`, que não casa com o marcador `Etapa 1`.
+
+**Como evitar (workaround por resumo, sem tocar no template):** depois de rodar `gerar_main.py`, inserir no `main.typ` um `#set-etapa("<mesmo título>")` **imediatamente antes** de cada `#etapa-header(...)`, e um `#set-etapa("Resumindo")` / `#set-etapa("Sumário")` / `#set-etapa("Gabarito — Etapa 2")` antes do respectivo `#include`/helper. A atualização passa a acontecer no fim da página anterior, e o cabeçalho da página nova já lê o valor certo. Verificar com `pdftotext -f N -l N` nas fronteiras de seção.
+
+**Fix real pendente (exige aprovação de Davi — regra da pasta `typst-template/`):** inverter a ordem dentro dos helpers, `set-etapa` antes do `pagebreak`. ~4 linhas em 4 helpers. Enquanto isso, o `gerar_main.py` poderia emitir os `#set-etapa` extras sozinho.
+
 ---
 
 ## § Erros que viram CHECK no pipeline (auditoria automática)
@@ -210,6 +220,7 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 | 21 | Contagem de palavras da E1 falseada pelo mini-resumo | auditar_pdf (âncora no banner) | SIM (corrigido) | warn |
 | 23 | Gabarito C/E divergente dos itens | revisor-gabarito ou passada manual | não | sim |
 | 24 | `pre-aula.typ` ausente ou fora da forma canônica | precompile (`check_pre_aula`) | não | sim |
+| 25 | Header uma seção atrasado (`set-etapa` após `pagebreak`) | auditar_pdf_visual | não | sim |
 
 ---
 

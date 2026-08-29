@@ -1,0 +1,59 @@
+slug: imuno-06-sistema-complemento
+titulo: "Sistema complemento"
+subtitulo: "Imunologia"
+profundidade: fundo
+meta:
+  - ["Disciplina", "Imunologia"]
+  - ["Onde estudar", "Abbas — Imunologia Celular e Molecular (10ª ed., cap. 13) · Janeway/Murphy — Immunobiology (10ª ed., cap. 2) · Roitt — Fundamentos de Imunologia (13ª ed., cap. 4)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Reconhecimento: três portas"
+        subtopicos:
+          - "1.1 Zimogênio, clivagem e convertase"
+          - "1.2 Via clássica: dois Fc vizinhos"
+          - "1.4 Via alternativa: vigilância contínua"
+      - titulo: "PARTE II — Fase enzimática e freios"
+        subtopicos:
+          - "2.1 O tioéster que cola a etiqueta"
+          - "2.2 Amplificação e decisão de superfície"
+          - "2.3 C5 convertase e o poro"
+      - titulo: "PARTE III — Fase efetora e clínica"
+        subtopicos:
+          - "3.1 Receptores e opsonização"
+          - "3.3 Imunocomplexos e corpos apoptóticos"
+          - "3.5 O mapa das deficiências"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "E"]
+    - ["03", "ECEE"]
+    - ["04", "B"]
+    - ["05", "E"]
+    - ["06", "CECC"]
+    - ["07", "E"]
+    - ["08", "CEEC"]
+  integracao:
+    - ["09", "C"]
+    - ["10", "C"]
+    - ["11", "CCEE"]
+    - ["12", "A"]
+    - ["13", "A"]
+    - ["14", "CCEC"]
+    - ["15", "D"]
+    - ["16", "ECCE"]
+    - ["17", "E"]
+    - ["18", "EECC"]
+    - ["19", "D"]
+    - ["20", "E"]
+    - ["21", "CCCE"]
+    - ["22", "A"]
+    - ["23", "A"]
+    - ["24", "EECE"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "A"]
+    - ["28", "ECCC"]
+    - ["29", "C"]
+    - ["30", "B"]

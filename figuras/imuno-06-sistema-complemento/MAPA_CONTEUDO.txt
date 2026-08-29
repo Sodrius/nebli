@@ -1,0 +1,68 @@
+# MAPA_CONTEUDO -- imuno-06-sistema-complemento
+# Slide-fonte: slide-complemento.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: SISTEMA COMPLEMENTO
+slide-02: Sistema Complemento Proteínas solúveis: C1q, C3 Proteínas membrana: MAC, CD59 Proteínas ativadoras Proteínas inibitórias Inflamação Reconhecimento Inato Mec. Efetor direto Ativa Cel. Dendrítica Co-estímulo Linf. B Opsonina Opsonização Autoimunidade I...
+slide-03: proteínas plasmáticas e de membrana atividade proteolítica atividade reguladora interação específica ativação do sistema Sistema Complemento . 30 proteínas plasmáticas . Produção: figado, monócitos, linfócito, endotélio, granulócito, células dendríti...
+slide-04: SISTEMA COMPLEMENTO FASE DE RECONHECIMENTO (Vias de ativação) FASE ENZIMÁTICA (Geração de convertases e fragmentos reconhecíveis pelas células) FASE DESTRUTIVA (Geração de mecanismos citotóxicos ou destrutivos)
+slide-05: Complexo Antígeno anticorpo Lectina se liga em açucares Superfície dos patógenos Ativação do complemento Recrutamento de cels inflamatórias Opsonização de patógenos Morte de patógenos Sistema Complemento 3 vias de ativação - início
+slide-06: Como funciona o sistema complemento ? Estímulo Proteína Complemento Proteína Frag a Frag b Frag b Proteína C3 Frag b Proteína Frag a Frag b Proteína Proteína Lise Proteína Proteína Convertase -Superfície celular - Anticorpos -Microorganismos Converta...
+slide-07: Complexo Antígeno anticorpo Lectina se liga em açucares Superfície dos patógenos Ativação do complemento Recrutamento de cels inflamatórias Opsonização de patógenos Morte de patógenos Sistema Complemento 3 vias de ativação - início
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: Ativação da Via Clássica Anticorpo IgG (CH2) Anticorpo IgM (CH3)
+slide-10: Via Clássica Componentes iniciais
+slide-11: C1q,2r,2s 2 anticorpos IgG
+slide-12: [VISUAL -- usar adjacente com titulo extraivel]
+slide-13: solúvel Gruda! Gruda! solúvel
+slide-14: solúvel Gruda! Gruda!
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: Imunoglobulina + Antígeno C1q C4 C4a C4b C2 C2b C2a C2a C4b C3 convertase C3 Resumo
+slide-21: Via Alternativa CONSTITUINTES DA PAREDE OU PRODUTOS DE PATÓGENOS Acido Teicóico Lipopolissacarídeos VENENOS Serpentes Sapos Vespas / Abelhas OUTROS Polímeros Enzimas do sistema de hemostasia e calicreínas/cininas
+slide-22: Via Alternativa: hidrólise espontânea do C3 C3 (H20) C3 (H20) + B Fator B C3 (H20)Bb C3 Fator D Ba
+slide-23: Via Alternativa
+slide-24: Complexo de ataque a membrana (MAC)
+slide-25: [VISUAL -- usar adjacente com titulo extraivel]
+slide-26: [VISUAL -- usar adjacente com titulo extraivel]
+slide-27: [VISUAL -- usar adjacente com titulo extraivel]
+slide-28: MBL /MASP1, 2 + manose Via das lectinas C4b2a C4; C2 MBL/MASP MBL MASP-1/MASP-2 MAp19 C4 C3 C2 N-acetil-glicosamina manose
+slide-29: MBP Ativação da MASP C4-------C4a + C4b C2-------C2a + C2b Proteína ligante a manose (MBP) ~ C1q
+slide-30: Via das Lectinas C4 C2 2a C4b C4a 2b C3 convertase C3 C3a C3b C3b C3 convertase C5 C5a C5b C5b6789n MAC
+slide-31: Quais as funções do complemento?
+slide-32: Sistema Complemento Proteínas solúveis: C1q, C3 Proteínas membrana: MAC, CD59 Proteínas ativadoras Proteínas inibitórias Inflamação Reconhecimento Inato Mec. Efetor direto Ativa Cel. Dendrítica Co-estímulo Linf. B Opsonina Opsonização Autoimunidade I...
+slide-33: Lise celular Opsonização Anafilotoxinas e Fatores quimiotáticos Remoção de imunocomplexos C5b-9 C1q, MBL, C3b, iC3b, C4b C3a, C5a, C4a C3b, C4b Funções biológicas dos produtos do Complemento
+slide-34: Lise de um patógeno Ligação de C3b ao micróbio, e ativação dos componentes tardios do complemento Formação do complexo de ataque a membrana Lise osmótica do micróbio
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Lise Opsonização bactéria fagócito Ativação da Resposta Inflamatória receptores de complemento desgranulação Remoção de Imunocomplexos complexo Ag-Ac fagócito MAC C3b/C4b →CR1 iC3b →CR3/CR4 C3a →C3aR C5a →C5aR C3b/C4b →CR1 Receptores dos produtos do ...
+slide-37: Remoção de corpos apoptóticos C1q, iC3b, C4b, MBL Funções biológicas dos produtos do Complemento
+slide-38: ¬ Solubilização e remoção de imunocomplexos da circulação + C3b C4b - solubilização - “clearance” via CR1 (CD35) IC
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: C3a, C5a :Anafilotoxinas C3a:Quimiotaxia de neutrófilos Amplificar a resposta inflamatória Vasodilatação, liberação de mediadores e recrutamento de leucócitos
+slide-41: vasodilatação Anafilatoxinas: C3a, C4a e C5a
+slide-42: Aumento de permeabilidade Anafilatoxinas: C3a, C4a e C5a
+slide-43: ¬ Imunidade Humoral CR2 z C3dg mIgM CD19 Células foliculares dendríticas Linfócitos B co-receptor CD81 ­ Ca2+ Jnk p38 Btk Erk2 Formação dos centros germinativos Linfócitos B de memória Plasmócitos Vav PIP-3 kinase PIP-5 kinase C3b retenção dos antíge...
+slide-44: Receptores para componentes do complemento Receptor Ligantes Função CR1 C3b> C4b>C3b Fagocitose, remoção de imunocomplexos circulantes, co-fator para degradação de C3b (fI) e inibe C3 e C4 convertases CR2 C3b (C3d, C3dg e iC3b) Ativação de LTB, capta...
+slide-45: Eventos inflamatórios mediados pelos componentes do complemento INFLAMAÇÃO Liberação de histamina dos mastócitos Contração da musculatura lisa Aumento da permeabilidade vascular Liberação das enzimas dos neutrófilos
+slide-46: organismo invasor ativação do complemento mastócito tecidual fator quimiotático moléculas de adesão celular receptores de adesão celular mediadores inflamatórios Eventos inflamatórios mediados pelos componentes do complemento
+slide-47: REGULAÇÃO DO SISTEMA COMPLEMENTO
+slide-48: Fator inativador do C1
+slide-49: [VISUAL -- usar adjacente com titulo extraivel]
+slide-50: [VISUAL -- usar adjacente com titulo extraivel]
+slide-51: FATORES I e H (co-fator)
+slide-52: C3b + Fator I (co-fatores) C4b + Fator I (co-fatores) C3c C3dg C4c C4d
+slide-53: [VISUAL -- usar adjacente com titulo extraivel]
+slide-54: ¬ Deficiências de componentes do complemento C5-C9 C1q C2 C4 doenças autoimunes - SLE deposição de imunocomplexos via clássica C3 infecções piogênicas deposição de imunocomplexos vias clássica e alternativa infecções piogênicas por Neisseria MAC Fato...
+slide-55: Deficiências do Sistema Complemento Via Alternativa - Repetidas infecções bacterianas (meningite, pneumonia) Neisseria meningitidis Streptococcus pneumoniae Haemophilus influenzae C3, fD, fH, fI, properdina Glomerulonefrite, síndrome hemolítica urêmi...
+slide-56: Deficiências do Sistema Complemento Via Clássica - Repetidas infecções bacterianas, glomerulonefrite, doenças AUTOIMUNES (Lúpus). C1 (C1q, C1r, C1s), C4, “C3”
+slide-57: Deficiências do Sistema Complemento Via Clássica - Angioedema Inibidor de C1
+slide-58: Deficiências do Sistema Complemento Via das Lectinas - Repetidas infecções bacterianas, glomerulonefrite, doenças AUTOIMUNES (Lúpus). MBL ~C1q
+slide-59: Deficiências do Sistema Complemento Via Terminal Comum - Repetidas infecções bacterianas (meningite) C6, C7, C8, C9 Neisseria meningitidis
+slide-60: C1q C1r C1s Ig Ag H2O OH O=CSH C-S O C3 nativo (C3H2O) Via Clássica Via Alternativa Via das Lectinas • Clivagem do C3 •Liberação de fragmentos (opsoninas e anafilatoxinas) • Formação do MAC Vias de ativação do Sistema Complemento ØIgM ØIgG
