@@ -1,33 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A parede é o centro de tudo",
-   [O citoplasma é hiperosmótico e a água entra sem parar. O peptidoglicano — cadeias de NAG e NAM costuradas em rede pela transpeptidase — é a malha que contém essa pressão, e é ela que impõe a forma da célula.]),
+  ("Especialização é repertório, não intensidade",
+   [O que separa fígado, músculo, adipócito e neurônio não é fazer as mesmas coisas em graus diferentes: é ter enzimas e transportadores que o outro não tem. Em quase todo ponto desta aula, a enzima *ausente* explica o comportamento do tecido melhor que a presente.]),
 
-  ("Gram-positiva: malha espessa, nada por fora",
-   [A parede chega a 60% do peso seco e é a superfície da célula. Atravessando-a estão o ácido teicoico (preso à parede) e o lipoteicóico (ancorado na membrana), que retêm cátions, regulam autolisinas e servem de antígeno.]),
+  ("A fosforilação é a catraca, e poucos têm a chave",
+   [Toda célula que capta glicose a fosforila, e a glicose-6-fosfato, carregada, não atravessa mais a membrana. Só o fígado e o córtex renal expressam a glicose-6-fosfatase que desfaz isso — por definição, só eles exportam glicose para o sangue.]),
 
-  ("Gram-negativa: envelope mais complexo",
-   [Só o peptidoglicano é fino (cerca de 5%). São três camadas: membrana citoplasmática, periplasma com a malha fina, e membrana externa assimétrica com LPS e porinas — barreira que barra vários antibióticos.]),
+  ("GLUT-2 e glicoquinase: baixa afinidade é o mecanismo do sensor",
+   [O transportador hepático tem Km de 15 a 25 milimolares e a glicoquinase, meia-velocidade perto de 8 — ambos muito acima da glicemia basal. Na hipoglicemia o fígado quase não capta, e é isso que deixa a glicose escassa para o cérebro.]),
 
-  ("Lipídio A é a endotoxina, e ela é estrutura",
-   [Dos três segmentos do LPS, a toxicidade está no lipídio A. Reconhecido pela imunidade inata, dispara citocinas que dão febre e hipotensão. Como não é secretado, sai em massa na lise — e o paciente pode piorar após o antibiótico certo.]),
+  ("Vias opostas não podem rodar juntas",
+   [A glicólise rende dois ATP por glicose; refazê-la custa seis ligações de alta energia. Se as duas rodassem ao mesmo tempo, cada volta hidrolisaria ATP e devolveria só calor — por isso as quatro enzimas irreversíveis são reguladas reciprocamente.]),
 
-  ("O Gram lê a parede, não escolhe corante",
-   [Todas as células recebem os quatro reagentes. O iodo é mordente e aprisiona o cristal violeta num complexo grande; o álcool, passo diferencial, dissolve a membrana externa da Gram-negativa e fecha a malha da Gram-positiva.]),
+  ("Frutose 2,6-bifosfato é recado, não intermediário",
+   [Ela não é substrato nem produto de via alguma. Uma enzima bifuncional a fabrica ou a destrói conforme esteja fosforilada, e o glucagon age exatamente aí: sem o sinal, a glicólise desacelera e a gliconeogênese se solta.]),
 
-  ("Quatro fugas do Gram, quatro motivos",
-   [Micobactéria não cora pela cera de ácido micólico e exige Ziehl-Neelsen, revelando o bacilo álcool-ácido resistente. Espiroqueta é fina demais para a luz. Clamídia é intracelular obrigatória. Micoplasma não tem parede — logo, beta-lactâmico nela não tem alvo.]),
+  ("A fosforilase hepática escuta glicose; a muscular escuta AMP",
+   [No fígado, a glicose livre empurra a enzima ao estado inativo e expõe seu fosfato à fosfatase, que encerra a degradação e em seguida ativa a sintase. No músculo, quem informa são AMP, ATP e glicose-6-fosfato — carga energética da própria fibra.]),
 
-  ("Plasmídeo e pilus espalham resistência",
-   [O plasmídeo é genoma acessório, replica-se sozinho e é dispensável. Pelo pilus sexual ele passa entre bactérias vivas, inclusive de espécies diferentes — velocidade que mutação isolada não explicaria.]),
+  ("Dois circuitos ligam músculo e fígado",
+   [O ciclo de Cori devolve carbono como lactato e custa quatro ligações de alta energia por volta: ele transfere o custo do músculo para o fígado, não gera energia. O ciclo glicose-alanina carrega, junto do carbono, o nitrogênio que o músculo não sabe transformar em ureia.]),
 
-  ("Flagelo move, fímbria prende",
-   [O flagelo gira como hélice movido pelo gradiente de prótons, e prolonga a corrida quando a concentração sobe. A fímbria não tem motor: a adesina da ponta reconhece um receptor específico e decide qual mucosa a bactéria coloniza.]),
+  ("Corpo cetônico é acetil-CoA em formato de entrega",
+   [Quando a beta-oxidação supera a capacidade do ciclo de Krebs, o fígado condensa o excedente em moléculas pequenas e hidrossolúveis que chegam ao cérebro. Ele não as consome: falta-lhe a transferase que as reativaria, e essa falta garante a exportação.]),
 
-  ("Cápsula bloqueia contato; biofilme dá tolerância",
-   [A cápsula é inerte: impede a opsonina de encostar na parede, e sem agarre não há fagocitose — daí a vacina de polissacarídeo capsular. No biofilme a matriz barra a droga e as células ficam pouco ativas, tolerantes sem gene de resistência.]),
+  ("O adipócito depende de glicose para guardar gordura",
+   [Sem glicerol-quinase, ele não reaproveita o próprio glicerol: o glicerol-3-fosfato da re-esterificação vem da glicólise ou da gliceroneogênese. O glicerol liberado segue para o fígado, onde é substrato gliconeogênico barato.]),
 
-  ("Endósporo é latência, não reprodução",
-   [Uma célula gera um endósporo e um endósporo germina em uma célula. A resistência vem do núcleo desidratado, do dipicolinato de cálcio e das proteínas que revestem o DNA — por isso fervura não basta e a autoclave a 121 °C existe.]),
+  ("O pâncreas não mede glicose, mede o próprio ATP",
+   [A célula beta usa o mesmo par de baixa afinidade do hepatócito. A glicose entra, é fosforilada, é oxidada, a razão ATP/ADP sobe, o canal de potássio fecha, a célula despolariza e o cálcio dispara a insulina — a glicoquinase é o ponto de ajuste.]),
 ))

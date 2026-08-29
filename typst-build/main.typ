@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- micro-01-morfologia-estrutura-bacterias | Gerado por gerar_main.py
+// MAIN.TYP -- biomol-04-integracao-metabolica-i | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Morfologia e estrutura bacteriana",
-  "Microbiologia",
+  "Especialização metabólica dos tecidos",
+  "Bioquímica",
   (
-    ("Disciplina", "Microbiologia"),
-    ("Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Microbiologia de Brock (cap. 2) · Tortora — Microbiologia (cap. 4)"),
+    ("Disciplina", "Bioquímica"),
+    ("Onde estudar", "Lehninger — Princípios de Bioquímica, cap. 23 · Berg & Stryer — Bioquímica, cap. 27 · Marks — Bioquímica Médica Básica, seção IV · Devlin — Manual de Bioquímica, cap. 20"),
   ),
 )
 
@@ -22,20 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A bactéria e o que ela mostra", (
-      "1.1 Procarioto: viver sem núcleo",
-      "1.2 Da amostra ao grupo",
-      "1.3 Colônia: o clone visível",
+    ("PARTE I — Quem guarda, quem gasta, quem manda", (
+      "1.1 Reservas desiguais por tecido",
+      "1.3 A circulação porta",
+      "1.4 Glicose-6-fosfato, a encruzilhada",
     )),
-    ("PARTE II — Membrana e parede", (
-      "2.2 Peptidoglicano e pressão osmótica",
-      "2.4 Gram-negativas: LPS e periplasma",
-      "2.5 A coloração de Gram e suas fugas",
+    ("PARTE II — O fígado decide a glicemia", (
+      "2.1 GLUT-2 e glicoquinase",
+      "2.3 Frutose 2,6-bifosfato",
+      "2.4 A fosforilase que escuta glicose",
     )),
-    ("PARTE III — Estruturas que definem o comportamento", (
-      "3.1 Nucleoide, plasmídeo e 70S",
-      "3.3 Flagelo, pili e adesão",
-      "3.5 Cápsula, biofilme e esporo",
+    ("PARTE III — Os outros tecidos e o sensor", (
+      "3.1 Músculo e o ciclo de Cori",
+      "3.4 Tecido adiposo e calor",
+      "3.6 O pâncreas fecha o circuito",
     )),
   )),
 ))
@@ -57,39 +57,39 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q10)", (
+  ("Consolidação (Q01–Q08)", (
     ("01", "D"),
-    ("02", "B"),
-    ("03", "CCEE"),
+    ("02", "ECCE"),
+    ("03", "B"),
     ("04", "E"),
     ("05", "EECC"),
     ("06", "A"),
-    ("07", "CCEC"),
+    ("07", "CEEC"),
     ("08", "C"),
-    ("09", "C"),
-    ("10", "EECC"),
   )),
-  ("Integração (Q11–Q25)", (
+  ("Integração (Q09–Q25)", (
+    ("09", "E"),
+    ("10", "CCEE"),
     ("11", "B"),
-    ("12", "CEEC"),
-    ("13", "A"),
-    ("14", "D"),
-    ("15", "CEEE"),
-    ("16", "C"),
-    ("17", "E"),
-    ("18", "ECCE"),
-    ("19", "B"),
-    ("20", "E"),
-    ("21", "CECC"),
-    ("22", "A"),
-    ("23", "E"),
-    ("24", "ECCE"),
-    ("25", "E"),
+    ("12", "D"),
+    ("13", "CCEC"),
+    ("14", "A"),
+    ("15", "C"),
+    ("16", "CECC"),
+    ("17", "D"),
+    ("18", "E"),
+    ("19", "ECCC"),
+    ("20", "D"),
+    ("21", "A"),
+    ("22", "CEEC"),
+    ("23", "C"),
+    ("24", "ECEE"),
+    ("25", "D"),
   )),
   ("Aplicação (Q26–Q30)", (
     ("26", "B"),
-    ("27", "D"),
-    ("28", "EECC"),
+    ("27", "E"),
+    ("28", "CEEE"),
     ("29", "E"),
     ("30", "C"),
   )),
