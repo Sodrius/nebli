@@ -45,7 +45,9 @@
 **Falha:** ≥1 subtópico sem cobertura no mapa.
 **Bom:** 100% cobertos.
 
-### T1.5 — Termo-notas no alvo (6–8 por resumo)
+### T1.5 — Termo-notas no alvo (6–10 por resumo)
+
+> Alvo atualizado: `CLAUDE.md` § Footnotes e siglas e `ROLES.md` § Redator diretriz 8 dizem **6–10**, não 6–8. Vale também checar que cada `#termo-nota`/`#sigla` é declarado na **1ª aparição do termo no arquivo** — incluindo legendas de figura, células de tabela e o texto de outras footnotes (achado da corrida `imuno-06-sistema-complemento`).
 
 **Pergunta:** `#termo-nota[...][...]` aparece quantas vezes em etapa1.typ?
 
@@ -60,7 +62,9 @@
 **Falha:** desalinhamento ≥1.
 **Bom:** todas alinhadas.
 
-### T1.7 — Mindmap de fechamento presente e bem-formado
+### T1.7 — Mindmap de fechamento presente e bem-formado [SUSPENSO]
+
+> **NÃO APLICAR.** `#mindmap-fechamento` foi suspenso em 2026-05-28 e `#mapa-parte` em 2026-05-19; ambos são no-op no template. A E1 fecha na **conclusão integradora obrigatória** (`#conclusao-box`), coberta por T2.9.
 
 **Pergunta:** `#mindmap-fechamento(` existe em etapa1.typ com `estacoes:` contendo 3 elementos e `cartoes:` contendo 3 elementos?
 
@@ -87,13 +91,15 @@
 
 **Severidade:** CRÍTICO falha = ERROR (bloqueia). IMPORTANTE falha = WARN (passa mas reporta). DESEJÁVEL falha = INFO.
 
-### T2.1 — Pergunta ingênua abrindo cada subtópico [CRÍTICO]
+### T2.1 — Abertura de subtópico pelos 5 registros canônicos [CRÍTICO]
 
-**Pergunta-julgamento:** a primeira sentença após cada `#subtopico(...)` é uma pergunta plausível que um aluno em dificuldade real faria, ou começa expositivamente?
+> **INVERTIDO em 2026-08-29.** A redação anterior deste critério premiava "pergunta ingênua abrindo cada subtópico". Esse recurso foi **banido** em 2026-05-29 (`CLAUDE.md` § Preferences + § Três regras editoriais, regra 1; `ERROS.md` #14). Um resumo que segue o canônico atual tirava 1 nesta rubrica. Julgar pela redação abaixo.
 
-**Falha (1–2):** maioria dos subtópicos abre com "A gliconeogênese é a via que…" ou similar — expositivo.
-**Aceitável (3):** metade dos subtópicos abre com pergunta.
-**Bom (4–5):** todos ou quase todos os subtópicos abrem com pergunta concreta, em voz de aluno.
+**Pergunta-julgamento:** a primeira sentença após cada `#subtopico(...)` é uma **afirmação direta + mecanismo**, em um dos 5 registros canônicos — enquadramento, integração-anterior, integração-posterior, analogia concreta, ponto-de-quebra?
+
+**Falha (1–2):** subtópicos abrem por pergunta âncora/retórica/ingênua (recurso banido), ou abrem por definição de dicionário sem mecanismo ("A via alternativa é uma das três vias de ativação do complemento.").
+**Aceitável (3):** maioria abre por afirmação, mas os registros se repetem entre vizinhos.
+**Bom (4–5):** todas as aberturas são afirmação + mecanismo, com rotação clara de registro e nenhum par vizinho compartilhando registro (cruzar com a Seção B.bis do Tema Card).
 
 **Onde olhar:** primeira sentença de cada `#subtopico` em etapa1.typ.
 
@@ -159,6 +165,8 @@
 **Pergunta-julgamento:** cada `#figura-nebli(...)` é referenciada explicitamente no parágrafo anterior ("repare no esquema abaixo", "veja a figura", "compare com o diagrama"), ou aparece como bloco solto que o aluno ignora?
 
 **Por que importa:** aluno em dificuldade não processa figura autônoma. Se o parágrafo não convida o olhar, a figura vira decoração.
+
+> **REBAIXADO a DESEJÁVEL em 2026-08-29.** A regra editorial "figura ancorada na prosa" foi **removida do canônico em 2026-05-28** (`CLAUDE.md` § Três regras editoriais, nota final). O padrão de casa passou a ser **legenda autossuficiente que carrega o mecanismo** — é assim que os resumos aceitos desde então foram escritos. Julgar a *legenda*: ela nomeia o mecanismo que a figura carrega, ou só rotula o que se vê? Convite no parágrafo anterior continua bem-vindo, mas a ausência dele não é mais falha.
 
 **Falha (1–2):** maioria das figuras aparece sem chamada do texto anterior.
 **Aceitável (3):** metade das figuras tem referência.
