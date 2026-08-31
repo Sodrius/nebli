@@ -1,261 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [A bactéria não possui envoltório nuclear separando o cromossomo do citoplasma. Assinale a alternativa que descreve corretamente a consequência funcional dessa ausência.],
-  (("A", [O cromossomo permanece protegido de nucleases citoplasmáticas por associação a histonas, o que dispensa o envoltório e mantém a informação genética íntegra ao longo de todo o ciclo celular.]),
-   ("B", [A transcrição só se inicia depois de concluída a replicação do cromossomo inteiro, o que sincroniza a expressão gênica com o ciclo celular e reduz o custo energético da célula.]),
-   ("C", [A tradução ocorre exclusivamente após o transporte do RNA mensageiro para a periferia da célula, junto à membrana, onde os ribossomos permanecem ancorados durante todo o processo.]),
-   ("D", [O ribossomo alcança o RNA mensageiro enquanto ele ainda está sendo transcrito, de modo que transcrição e tradução ocorrem acopladas e a resposta a mudanças do meio fica muito rápida.]),
-   ("E", [A recombinação entre cromossomo e plasmídeo passa a ser obrigatória a cada divisão, já que sem compartimento nuclear as duas moléculas competem pelo mesmo aparato de replicação.]))
-)
+  [Durante a divisão binária, uma proteína polimeriza num anel logo abaixo da membrana, no plano médio da célula. Sobre o papel desse anel na divisão bacteriana, é correto afirmar:],
+  (("A", [Ele funciona como fuso, prendendo as duas cópias do cromossomo pelos centrômeros e puxando-as para polos opostos antes que a constrição da membrana tenha início na região equatorial.]),
+   ("B", [Ele contrai a membrana por deslizamento de filamentos sobre motores moleculares, estrangulando a célula de fora para dentro até que as duas metades se separem por ruptura mecânica.]),
+   ("C", [Ele serve de andaime que recruta para o plano médio as enzimas de síntese de parede, de modo que o septo é uma parede nova erguida ali, e não uma ruptura da parede antiga.]),
+   ("D", [Ele degrada localmente o peptidoglicano por autolisinas recrutadas ao equador, abrindo uma fenda por onde a membrana invagina e completa a separação das duas células-filhas.]),
+   ("E", [Ele sinaliza o término da replicação do cromossomo e, uma vez formado, impede que uma nova rodada de replicação comece antes que as duas células-filhas estejam completamente separadas.])))
 
-#questao-mc("02", badge-consolidacao,
-  [O laboratório de microbiologia trabalha em duas velocidades diante de uma amostra clínica. Sobre a diferença entre elas, é correto afirmar:],
-  (("A", [A cultura em meio sólido é a etapa mais rápida porque permite ler a morfologia da colônia em poucos minutos, ao passo que a bacterioscopia exige preparo demorado da lâmina.]),
-   ("B", [A bacterioscopia entrega em minutos apenas o grupo da bactéria, o que basta para orientar o tratamento inicial, enquanto a cultura entrega em dias a espécie e o perfil de sensibilidade.]),
-   ("C", [A amplificação de ácido nucleico substituiu integralmente a cultura na rotina porque informa, além da identidade do agente, o perfil de sensibilidade a cada classe de antimicrobiano testada.]),
-   ("D", [Uma bacterioscopia sem bactérias visíveis exclui infecção bacteriana, já que o limite de detecção do microscópio óptico é bem inferior à carga presente em qualquer material infectado.]),
-   ("E", [A bacterioscopia identifica a espécie pela forma e pelo arranjo das células, e a cultura serve apenas para confirmar esse resultado e produzir massa bacteriana para outros exames.]))
-)
+#questao-ce("02", badge-consolidacao,
+  [Julgue os itens a seguir sobre as fases da curva de crescimento bacteriano.],
+  (("I",   [Na fase lag não há aumento do número de células, e por isso essa é a fase de menor atividade metabólica de todo o cultivo.]),
+   ("II",  [A fase log é o único trecho da curva em que a relação X = x₀ · 2ⁿ descreve a população, e nele o tempo de geração é constante.]),
+   ("III", [Na fase estacionária a situação mais comum é o número de células novas igualar o número de células que perdem viabilidade.]),
+   ("IV",  [A fase de declínio só se inicia quando a totalidade das células da população já perdeu a viabilidade, sendo por isso o trecho terminal da curva.])))
 
-#questao-ce("03", badge-consolidacao,
-  [Julgue os itens a seguir sobre a organização geral da célula bacteriana e sobre o que a distingue da célula eucariótica.],
-  (("I",   [A separação dos seres vivos em três domínios — Bactéria, Arqueia e Eucarioto — foi construída a partir da comparação de sequências do RNA ribossomal, e não de semelhanças morfológicas.]),
-   ("II",  [O ribossomo bacteriano é o 70S, formado pelas subunidades 50S e 30S; a soma dos coeficientes de sedimentação não é aritmética porque o valor depende de massa e forma da partícula.]),
-   ("III", [O cromossomo bacteriano é linear e mantém-se compactado por histonas, à semelhança do que ocorre nos nucleossomos da cromatina eucariótica.]),
-   ("IV",  [A ausência de mitocôndria obriga a bactéria a obter ATP exclusivamente por fermentação, já que nenhuma membrana da célula é capaz de sustentar cadeia transportadora de elétrons.]))
-)
+#questao-mc("03", badge-consolidacao,
+  [Uma cultura é iniciada com um inóculo de 10³ células de uma bactéria cujo tempo de geração, nas condições do cultivo, é de 30 minutos. Admitindo multiplicação exponencial ininterrupta durante 3 horas, o número final de células é:],
+  (("A", [3 × 10³ células, pois em 3 horas a população aumenta proporcionalmente ao número de horas decorridas, mantendo-se a razão entre o inóculo inicial e o tempo total de cultivo.]),
+   ("B", [6,4 × 10⁴ células, pois cabem 6 gerações em 3 horas e o inóculo inicial é multiplicado por 2 elevado a 6, o que corresponde a um fator de 64 vezes.]),
+   ("C", [1,8 × 10⁵ células, pois o expoente da fórmula corresponde ao tempo total de cultivo expresso em minutos dividido pelo número de gerações completas ocorridas no período.]),
+   ("D", [8 × 10³ células, pois o expoente a ser aplicado é o número de horas de cultivo, resultando em multiplicação do inóculo inicial por 2 elevado a 3, ou seja, por 8 vezes.]),
+   ("E", [1,0 × 10⁹ células, pois o expoente corresponde ao tempo total em minutos, de modo que o inóculo é multiplicado por 2 elevado a 180 ao longo das três horas de cultivo.])))
 
 #questao-mc("04", badge-consolidacao,
-  [As bactérias espiraladas costumam ser tratadas como um grupo único, mas se subdividem em três categorias com diferenças relevantes. Sobre essas categorias, é correto afirmar:],
-  (("A", [O vibrião é um espirilo de menor comprimento, com corpo rígido e um único flagelo polar, e a distinção entre os dois é apenas de tamanho e não de estrutura de locomoção.]),
-   ("B", [A espiroqueta possui corpo rígido e se desloca por flagelos externos bipolares, o que lhe permite atravessar meios viscosos com mais eficiência do que qualquer bacilo flagelado.]),
-   ("C", [O espirilo tem corpo flexível e se move por contrações citoplasmáticas, sem apêndice locomotor externo, sendo esse o desenho de _Treponema_ e de _Leptospira_.]),
-   ("D", [As três categorias compartilham o mesmo mecanismo de locomoção, baseado em filamento axial interno que gira dentro do envelope e deforma a célula em saca-rolha.]),
-   ("E", [A espiroqueta tem corpo flexível e se move por filamentos internos ao envelope; o espirilo tem corpo rígido e flagelos externos; o vibrião tem uma única curvatura em vírgula.]))
-)
+  [Uma bactéria anaeróbia estrita, semeada em placa e incubada em atmosfera ambiente, não cresce e perde viabilidade em poucas horas. O mecanismo que explica esse desfecho é:],
+  (("A", [A ausência de uma oxidase terminal capaz de reduzir o oxigênio a água, o que faz a cadeia transportadora de elétrons parar por saturação de transportadores reduzidos e interromper a produção de energia.]),
+   ("B", [A oxidação direta do peptidoglicano da parede pelo oxigênio molecular, que rompe as ligações cruzadas entre as cadeias e leva a célula à lise osmótica antes que qualquer divisão ocorra.]),
+   ("C", [A competição do oxigênio com o nitrato pelo sítio de ligação da nitrato-redutase, que impede a respiração anaeróbia e obriga a célula a fermentar com rendimento energético insuficiente.]),
+   ("D", [A ausência de superóxido-dismutase e de catalase, de modo que o superóxido e o peróxido formados espontaneamente na presença de oxigênio se acumulam e oxidam lipídeo, proteína e material genético.]),
+   ("E", [A inibição alostérica das enzimas da via glicolítica pelo oxigênio dissolvido, que desvia o metabolismo para vias de biossíntese e impede a obtenção de energia por fosforilação no nível do substrato.])))
 
 #questao-ce("05", badge-consolidacao,
-  [Julgue os itens sobre a composição e a função da parede celular bacteriana.],
-  (("I",   [O peptidoglicano é uma proteína fibrosa de cadeia longa, sendo os açúcares apenas ramificações laterais acopladas ao esqueleto proteico.]),
-   ("II",  [O esqueleto do peptidoglicano é formado pelos açúcares N-acetilglicosamina e N-acetilmurâmico alternados, com um peptídeo curto pendendo de cada unidade de N-acetilglicosamina.]),
-   ("III", [A parede existe porque o citoplasma bacteriano é hiperosmótico em relação ao meio: sem a malha que contenha a entrada de água, a célula se rompe.]),
-   ("IV",  [Vários aminoácidos do peptídeo lateral estão na forma D, configuração que dificulta a degradação por proteases do hospedeiro, que reconhecem aminoácidos L.]))
-)
+  [Julgue os itens a seguir sobre os tipos de meio de cultura.],
+  (("I",   [Um meio seletivo contém substância que impede o crescimento de parte das bactérias, reduzindo o número de espécies presentes na placa.]),
+   ("II",  [Um meio diferencial não inibe o crescimento de nenhum grupo: ele oferece um substrato e um indicador que traduzem uma diferença metabólica em cor.]),
+   ("III", [Um meio mínimo sustenta o crescimento de um número maior de espécies do que um meio completo, por conter apenas sais e uma fonte de carbono.]),
+   ("IV",  [Um mesmo meio pode ser simultaneamente seletivo e diferencial, reunindo inibidor e indicador na mesma formulação.])))
 
 #questao-mc("06", badge-consolidacao,
-  [A membrana citoplasmática bacteriana tem cerca de 60% de proteína e 40% de lipídio, proporção invertida em relação à da célula humana. Sobre essa membrana, é correto afirmar:],
-  (("A", [A alta proporção de proteína decorre de essa membrana única concentrar funções que no eucarioto estão distribuídas entre mitocôndria, retículo endoplasmático e complexo de Golgi.]),
-   ("B", [A membrana bacteriana é a estrutura responsável por manter a forma da célula e por resistir à pressão osmótica interna, papel que na célula vegetal cabe à parede de celulose.]),
-   ("C", [Por não conter esteróis, a membrana bacteriana é incapaz de sustentar gradiente de prótons, e a produção de ATP passa a depender exclusivamente da fermentação no citoplasma.]),
-   ("D", [As proteínas de membrana bacteriana são majoritariamente estruturais, com função de ancoragem do peptidoglicano, e não participam de transporte nem de sinalização ambiental.]),
-   ("E", [A membrana é impermeável a qualquer soluto, e toda a captação de nutrientes ocorre por vesículas de endocitose formadas em invaginações da própria bicamada lipídica.]))
-)
+  [Sobre os métodos de acompanhamento de uma cultura bacteriana ao longo do tempo, assinale a alternativa *incorreta*.],
+  (("A", [A contagem direta ao microscópio, em câmara de volume conhecido, fornece o número total de células presentes na amostra, sem distinguir as viáveis das que já perderam viabilidade.]),
+   ("B", [A leitura de turvação num espectrofotômetro quantifica exclusivamente as células viáveis em suspensão, uma vez que células mortas perdem a capacidade de espalhar a luz incidente.]),
+   ("C", [A contagem em meio sólido expressa o resultado em unidades formadoras de colônia, e subestima a população quando a bactéria cresce agrupada em cachos ou em cadeias.]),
+   ("D", [O acompanhamento da produção de um metabólito permite detectar crescimento em densidades celulares muito abaixo daquela necessária para produzir turvação visível no meio.]),
+   ("E", [Enquanto a cultura apenas cresce, turvação e contagem de viáveis evoluem juntas; a divergência entre as duas medidas começa a partir da fase estacionária do cultivo.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens sobre a parede das bactérias Gram-positivas.],
-  (("I",   [O peptidoglicano pode representar de 15% a 60% do peso seco da célula, organizado em muitas camadas empilhadas e entrecruzadas.]),
-   ("II",  [O ácido teicoico está ligado ao peptidoglicano, enquanto o ácido lipoteicóico atravessa a parede e se ancora por uma cauda lipídica na membrana citoplasmática.]),
-   ("III", [A ausência de membrana externa implica ausência completa de espaço periplasmático nas bactérias Gram-positivas.]),
-   ("IV",  [Os ácidos teicoicos funcionam como adesinas ao epitélio do hospedeiro, regulam a atividade de autolisinas e servem de antígeno para identificação sorológica.]))
-)
+#questao-mc("07", badge-consolidacao,
+  [Uma bactéria anaeróbia facultativa, transferida de atmosfera aerada para atmosfera sem oxigênio, mantém a glicólise em funcionamento reduzindo o piruvato a lactato. O papel dessa redução do piruvato é:],
+  (("A", [Produzir diretamente a maior parte do ATP obtido pela célula nessa condição, uma vez que a etapa de redução do piruvato é acoplada à fosforilação de ADP no nível do substrato.]),
+   ("B", [Eliminar o excesso de piruvato acumulado, que em concentração elevada inibiria alostericamente as enzimas iniciais da via glicolítica e interromperia a degradação da glicose.]),
+   ("C", [Gerar um intermediário capaz de ser oxidado pela cadeia transportadora de elétrons na ausência de oxigênio, funcionando como aceptor final alternativo ao nitrato e ao sulfato.]),
+   ("D", [Reduzir o pH intracelular a valores que favorecem a atividade das enzimas glicolíticas, ajustando o citoplasma à faixa ótima de funcionamento dessa via em anaerobiose.]),
+   ("E", [Reoxidar o transportador de elétrons reduzido na glicólise, devolvendo-o à forma que a via consome — sem essa regeneração, a degradação da glicose cessaria em poucos segundos.])))
 
-#questao-mc("08", badge-consolidacao,
-  [Sobre o envelope das bactérias Gram-negativas, assinale a alternativa *incorreta*.],
-  (("A", [O peptidoglicano corresponde a cerca de 5% do peso seco e se resume a uma ou poucas camadas, alojadas no espaço periplasmático entre a membrana citoplasmática e a membrana externa.]),
-   ("B", [A membrana externa é assimétrica: a folha voltada para o periplasma é de fosfolipídios e a folha voltada para o meio externo é constituída de lipopolissacarídeo.]),
-   ("C", [O envelope Gram-negativo é estruturalmente mais simples que o Gram-positivo, pois a redução da espessura do peptidoglicano dispensa camadas adicionais de revestimento externo.]),
-   ("D", [As porinas são canais proteicos da membrana externa que permitem a passagem de moléculas pequenas e hidrofílicas, e sua perda é um mecanismo real de resistência a antimicrobianos.]),
-   ("E", [O espaço periplasmático é um compartimento metabolicamente ativo, contendo enzimas de degradação e proteínas de ligação a nutrientes, e não um espaço vazio entre as duas membranas.]))
-)
+#questao-ce("08", badge-consolidacao,
+  [Julgue os itens a seguir sobre exigências nutricionais das bactérias.],
+  (("I",   [A fonte de energia e a fonte de carbono são eixos independentes, de modo que uma bactéria pode obter energia da oxidação de compostos inorgânicos e carbono do CO₂.]),
+   ("II",  [Fator de crescimento é uma substância que acelera a multiplicação bacteriana acima da velocidade determinada pelo tempo de geração da espécie.]),
+   ("III", [Fósforo e enxofre são classificados como micronutrientes, por serem exigidos apenas em quantidades traço e por não integrarem macromoléculas estruturais da célula.]),
+   ("IV",  [Nitrito e nitrato precisam ser reduzidos a amônio antes de terem o nitrogênio incorporado ao esqueleto de carbono dos aminoácidos.])))
 
-#questao-mc("09", badge-consolidacao,
-  [Uma amostra clínica é semeada em meio sólido diferencial contendo lactose, um indicador de pH e hemácias. Sobre o que se observa após a incubação, é correto afirmar:],
-  (("A", [Cada colônia corresponde a uma célula bacteriana que aumentou de volume até tornar-se visível, mantendo-se unicelular e adquirindo pigmento próprio à medida que envelhece no meio.]),
-   ("B", [A cor observada nas colônias corresponde ao pigmento sintetizado pela parede celular da espécie, característica constante que permite identificar o agente independentemente do meio usado.]),
-   ("C", [Cada colônia é um clone de cerca de cem milhões de células, e a cor resulta da acidificação do meio pela fermentação da lactose, detectada pelo indicador de pH incorporado ao ágar.]),
-   ("D", [O halo transparente ao redor de algumas colônias resulta da fagocitose das hemácias pelas bactérias da periferia, processo que consome o ágar e clareia a região adjacente à colônia.]),
-   ("E", [Meio seletivo e meio diferencial são sinônimos, pois ambos operam inibindo o crescimento das espécies que não interessam e deixando crescer apenas o agente que se procura isolar.]))
-)
+#questao-mc("09", badge-integracao,
+  [Duas amostras clínicas são semeadas no mesmo dia, em meios adequados a cada agente. A cultura de uma delas fornece colônias visíveis na manhã seguinte; a da outra exige de três a seis semanas de incubação. A explicação mecanística dessa diferença é:],
+  (("A", [O segundo agente permanece em fase lag durante todo o período de incubação, e só inicia a multiplicação quando o meio enriquecido tiver sido completamente hidrolisado pelas enzimas que ele secreta.]),
+   ("B", [O segundo agente cresce apenas em meio líquido, e o tempo adicional corresponde ao intervalo necessário para que a biomassa produzida em caldo seja transferida e adaptada ao meio sólido.]),
+   ("C", [O primeiro agente é um anaeróbio facultativo e o segundo, um aeróbio obrigatório, e a limitação de difusão do oxigênio para o interior do meio sólido retarda proporcionalmente o crescimento do segundo.]),
+   ("D", [Uma colônia visível exige cerca de 27 duplicações, o que a vinte minutos por geração leva menos de um dia e, a vinte horas por geração, leva semanas — a diferença está no tempo de geração.]),
+   ("E", [O primeiro agente forma colônias por agregação de células provenientes de várias unidades formadoras, enquanto o segundo depende de que uma única célula complete todas as duplicações isoladamente.])))
 
-#questao-ce("10", badge-consolidacao,
-  [Julgue os itens sobre a técnica da coloração de Gram e sobre o papel de cada reagente.],
-  (("I",   [O cristal violeta é aplicado apenas às bactérias Gram-positivas e a safranina apenas às Gram-negativas, o que torna a técnica uma coloração seletiva.]),
-   ("II",  [O lugol atua como corante secundário, acrescentando um segundo pigmento que se soma ao cristal violeta e intensifica a cor final observada.]),
-   ("III", [A descoloração pelo álcool é a etapa diferencial: ela dissolve os lipídios da membrana externa da Gram-negativa e desidrata a malha espessa da Gram-positiva.]),
-   ("IV",  [A safranina penetra em todas as células, mas na Gram-positiva o roxo já retido encobre completamente o tom rosado do contracorante.]))
-)
+#questao-mc("10", badge-integracao,
+  [Um agente que impede a formação das ligações cruzadas do peptidoglicano é acrescentado a duas alíquotas da mesma cultura: uma em plena fase log, outra em fase estacionária há várias horas. A alíquota em fase log sofre lise maciça; a outra permanece praticamente inalterada. A razão mecanística é:],
+  (("A", [Na fase log a maquinaria de síntese de parede está sendo recrutada continuamente para o plano de divisão, e o bloqueio das ligações cruzadas produz septo defeituoso e parede incapaz de conter a pressão osmótica.]),
+   ("B", [Na fase estacionária a bactéria expressa enzimas que hidrolisam o agente antes que ele alcance a parede, adquirindo assim resistência transmissível às células que dela descendem.]),
+   ("C", [Na fase log a permeabilidade da membrana externa está aumentada pela ação de porinas induzidas, o que eleva a concentração intracelular do agente até valores tóxicos para o citoplasma.]),
+   ("D", [Na fase estacionária o peptidoglicano é substituído por um polímero alternativo, insensível ao agente, que a célula passa a sintetizar quando o nutriente do meio se esgota completamente.]),
+   ("E", [Na fase log o consumo de oxigênio é máximo, e a associação entre o agente e os derivados reativos gerados pela respiração é o que efetivamente rompe a integridade da parede celular.])))
 
-#questao-mc("11", badge-integracao,
-  [Um antimicrobiano de peso molecular elevado e caráter hidrofóbico mostra excelente atividade contra cocos Gram-positivos e atividade nula contra bacilos Gram-negativos, mesmo quando o alvo intracelular está presente e íntegro nas duas. A melhor explicação é:],
-  (("A", [O peptidoglicano espesso da Gram-positiva funciona como reservatório que concentra a droga junto à membrana, enquanto a malha fina da Gram-negativa não retém quantidade suficiente do fármaco.]),
-   ("B", [A membrana externa da Gram-negativa é uma barreira de permeabilidade que exclui moléculas grandes e hidrofóbicas, e as porinas admitem apenas solutos pequenos e hidrofílicos.]),
-   ("C", [As bactérias Gram-negativas degradam o antimicrobiano no espaço periplasmático por meio de proteases inespecíficas, antes que ele alcance a membrana citoplasmática e o alvo interno.]),
-   ("D", [O ácido lipoteicóico da Gram-positiva atua como transportador ativo, bombeando o antimicrobiano para dentro da célula contra o gradiente de concentração estabelecido no meio.]),
-   ("E", [O lipopolissacarídeo neutraliza quimicamente a droga pela ligação covalente ao lipídio A, inativando-a antes que ela atravesse a membrana externa e alcance o periplasma.]))
-)
+#questao-ce("11", badge-integracao,
+  [Uma cultura é acompanhada simultaneamente por turvação e por contagem em meio sólido, do início até 48 horas. Julgue os itens.],
+  (("I",   [Durante a fase log a turvação sobe enquanto a contagem de viáveis permanece constante, porque as células recém-formadas ainda não são capazes de originar colônias.]),
+   ("II",  [A partir da fase de declínio a turvação pode manter-se estável enquanto a contagem de viáveis cai, e essa divergência é a medida da morte celular.]),
+   ("III", [O platô observado na turvação ao redor de 10⁸ células por mililitro decorre do limite de resolução do espectrofotômetro, e não de qualquer limitação do cultivo.]),
+   ("IV",  [Se a bactéria em estudo cresce agrupada em cadeias, a contagem em meio sólido superestima o número real de células viáveis presentes na amostra.])))
 
-#questao-ce("12", badge-integracao,
-  [Uma cultura contendo bactérias em plena fase de multiplicação e outra contendo a mesma espécie em estado dormente são expostas a um antibiótico beta-lactâmico. Julgue os itens.],
-  (("I",   [O beta-lactâmico inibe a transpeptidase e impede a formação de ligações cruzadas novas entre cadeias de peptidoglicano.]),
-   ("II",  [O efeito bactericida será equivalente nas duas culturas, pois o antibiótico hidrolisa diretamente as ligações já existentes entre N-acetilglicosamina e N-acetilmurâmico.]),
-   ("III", [A célula dormente é destruída com a mesma rapidez, porque o beta-lactâmico degrada quimicamente a parede já formada, sem depender da síntese de material novo.]),
-   ("IV",  [A morte da célula em crescimento ocorre por lise osmótica, já que a malha incompleta deixa de conter a entrada de água imposta pelo citoplasma hiperosmótico.]))
-)
+#questao-mc("12", badge-integracao,
+  [Uma única célula de uma bactéria com tempo de geração de 20 minutos é semeada em meio sólido às 16 h de segunda-feira. Admitindo fase lag de 2 horas e multiplicação exponencial a partir daí, o número de gerações decorridas até as 16 h de terça-feira é:],
+  (("A", [72 gerações, porque o intervalo total de 24 horas deve ser integralmente convertido em gerações, já que durante a fase lag a célula mantém atividade metabólica intensa e contínua.]),
+   ("B", [24 gerações, porque cada hora de cultivo corresponde a uma geração completa, e o intervalo considerado compreende exatamente vinte e quatro horas contadas a partir da semeadura inicial.]),
+   ("C", [66 gerações, porque das 24 horas de cultivo devem ser descontadas as 2 horas de adaptação, restando 22 horas de multiplicação exponencial a três gerações por hora.]),
+   ("D", [69 gerações, porque a fase lag corresponde a uma geração perdida por hora de adaptação, de modo que apenas três gerações são subtraídas do total de setenta e duas do período.]),
+   ("E", [22 gerações, porque o número de gerações equivale ao número de horas de multiplicação exponencial efetiva, uma vez descontado do total o intervalo correspondente à fase de adaptação.])))
 
 #questao-mc("13", badge-integracao,
-  [Uma amostra de abscesso é processada e a leitura da lâmina mostra cocos em cacho corados de rosa. A cultura, no dia seguinte, isola _Staphylococcus aureus_. A explicação mais provável para a discordância é:],
-  (("A", [Descoloração excessiva pelo álcool ou autólise de parede em material envelhecido fizeram a Gram-positiva perder o complexo cristal-violeta–iodo e aparecer como falsa Gram-negativa.]),
-   ("B", [A safranina foi aplicada antes do cristal violeta, invertendo a ordem dos reagentes e fazendo com que apenas o contracorante fosse retido pela parede espessa da Gram-positiva.]),
-   ("C", [Bactérias Gram-negativas em cultura envelhecida sintetizam peptidoglicano adicional e passam a reter o cristal violeta, o que gera resultado róseo na lâmina e roxo na cultura.]),
-   ("D", [O arranjo em cacho impede a penetração uniforme do lugol nas células do interior do agregado, de modo que apenas as células periféricas retêm o complexo corante formado.]),
-   ("E", [A presença de material purulento no esfregaço bloqueia a ação do cristal violeta, e a leitura correta exige repetir a coloração após digestão enzimática prévia da amostra.]))
-)
+  [Um mesmo material clínico é semeado em duas placas preparadas a partir da mesma base nutritiva, à qual se acrescentou sangue desfibrinado de carneiro: em uma delas o sangue foi adicionado com a base abaixo de 40 °C; na outra, com a base ainda quente. Uma espécie fastidiosa cresce somente na segunda. A explicação é:],
+  (("A", [O aquecimento desnatura as imunoglobulinas e o complemento presentes no sangue, removendo da placa fatores inibitórios que impediriam o crescimento daquela espécie na placa preparada a frio.]),
+   ("B", [O aquecimento eleva a concentração de ágar por evaporação parcial da água do meio, tornando a superfície mais firme e favorecendo a formação de colônias por espécies de crescimento lento.]),
+   ("C", [O aquecimento converte a hemoglobina em metemoglobina, cuja afinidade reduzida pelo oxigênio cria na superfície da placa a tensão diminuída de que aquela espécie microaerófila necessita para crescer.]),
+   ("D", [O aquecimento inativa as enzimas hemolíticas do próprio material clínico, que na placa preparada a frio destruiriam as hemácias e liberariam produtos tóxicos para a espécie fastidiosa em questão.]),
+   ("E", [O aquecimento rompe as hemácias e libera no meio fatores intracelulares — entre eles o grupo heme e o nucleotídeo de nicotinamida — que aquela espécie não sintetiza e precisa receber prontos.])))
 
-#questao-mc("14", badge-integracao,
-  [Um paciente com sepse por bacilo Gram-negativo recebe a primeira dose de um antibiótico bactericida adequado e, nas horas seguintes, apresenta piora clínica com febre alta e queda pressórica. O mecanismo que melhor explica esse curso é:],
-  (("A", [O antibiótico induziu a síntese e a secreção acelerada de exotoxinas pela população bacteriana remanescente, num mecanismo de resposta ao estresse mediado pelo próprio fármaco.]),
-   ("B", [A droga selecionou uma subpopulação portadora de plasmídeo de resistência, que se multiplicou rapidamente e ampliou a carga bacteriana total nas primeiras horas de tratamento.]),
-   ("C", [O polissacarídeo O liberado das cadeias externas do lipopolissacarídeo é o componente tóxico e passa a circular livremente assim que a membrana externa é desorganizada.]),
-   ("D", [A lise bacteriana em massa liberou grande quantidade de lipídio A, peça estrutural da membrana externa, que ao ser reconhecido pela imunidade inata amplificou a cascata de citocinas.]),
-   ("E", [A queda abrupta da carga bacteriana reduziu o estímulo antigênico e desregulou o eixo febril, produzindo instabilidade térmica e vasomotora transitória sem participação de mediador algum.]))
-)
+#questao-ce("14", badge-integracao,
+  [Em um meio contendo lactose como único açúcar e um indicador de pH, colônias de duas espécies crescem lado a lado: umas ficam rosadas, outras permanecem incolores. Julgue os itens.],
+  (("I",   [A cor rosada indica que aquela colônia fermentou a lactose e acidificou o meio ao seu redor, virando o indicador de pH.]),
+   ("II",  [A colônia que permanece incolor não cresceu no meio, uma vez que a ausência de reação com o indicador demonstra ausência de atividade metabólica.]),
+   ("III", [A coloração observada corresponde a um pigmento produzido e exportado pela própria bactéria, e por isso independe da composição do meio.]),
+   ("IV",  [Uma espécie que crescesse nesse meio catabolizando aminoácidos, e não a lactose, tenderia a alcalinizar o entorno da colônia.])))
 
-#questao-ce("15", badge-integracao,
-  [Um quadro de pneumonia atípica não responde a nenhum beta-lactâmico e o agente identificado é _Mycoplasma pneumoniae_. Julgue os itens.],
-  (("I",   [A ausência de parede celular retira o alvo dos antibióticos que inibem a síntese de peptidoglicano, o que torna a espécie intrinsecamente insensível a essa classe.]),
-   ("II",  [Mesmo sem parede, a célula mantém forma bacilar constante, sustentada por um citoesqueleto interno de proteínas contráteis que substitui funcionalmente o peptidoglicano.]),
-   ("III", [A resistência decorre de beta-lactamase codificada em plasmídeo, adquirida por conjugação a partir de bactérias da microbiota respiratória.]),
-   ("IV",  [A perda da parede é evento recente na linhagem e a membrana é estabilizada por uma segunda camada de peptidoglicano modificado.]))
-)
+#questao-mc("15", badge-integracao,
+  [Uma bactéria isolada de sítio profundo cresce apenas em atmosfera sem oxigênio e, nessa condição, gera a maior parte de seu ATP por meio de uma cadeia transportadora de elétrons cujo aceptor final é o nitrato. Sobre esse organismo, é correto afirmar:],
+  (("A", [Trata-se de um aerotolerante, pois obtém energia exclusivamente por fosforilação no nível do substrato e possui superóxido-dismutase suficiente para não ser lesado pelo oxigênio atmosférico.]),
+   ("B", [Trata-se de um anaeróbio que realiza respiração, e não fermentação: anaerobiose define a ausência de oxigênio, enquanto respiração define a presença de cadeia transportadora com aceptor final externo.]),
+   ("C", [Trata-se necessariamente de um fermentador estrito, pois toda produção de ATP na ausência de oxigênio ocorre por transferência direta de fosfato a partir de intermediários da via glicolítica.]),
+   ("D", [Trata-se de um microaerófilo, pois a redução do nitrato só ocorre em tensões de oxigênio inferiores à atmosférica, condição em que a nitrato-redutase escapa da inibição pelo oxigênio dissolvido.]),
+   ("E", [Trata-se de um anaeróbio facultativo, pois a capacidade de reduzir nitrato implica necessariamente a posse de uma oxidase terminal capaz de utilizar oxigênio quando ele estiver disponível.])))
 
 #questao-mc("16", badge-integracao,
-  [O escarro de um paciente com tosse crônica é submetido à coloração de Gram e nenhuma bactéria é evidenciada, apesar da suspeita clínica forte. O laboratório opta por Ziehl-Neelsen e encontra o agente. O fundamento estrutural dessa escolha é:],
-  (("A", [O agente tem envelope de bactéria Gram-negativa e largura abaixo do limite de resolução da luz visível, o que exige impregnação por prata ou observação em campo escuro.]),
-   ("B", [O agente não possui parede celular e por isso não retém nenhum dos corantes do Gram, situação em que a fucsina fenicada aquecida se liga diretamente à membrana citoplasmática.]),
-   ("C", [A parede tem arquitetura de Gram-positiva coberta por camada cerosa de ácido micólico, que impede a entrada do corante e confere resistência à descoloração por álcool-ácido.]),
-   ("D", [O agente é intracelular obrigatório e só pode ser evidenciado pelas inclusões citoplasmáticas que produz na célula hospedeira, reveladas pela coloração de Giemsa do esfregaço.]),
-   ("E", [A cápsula polissacarídica espessa afasta o corante da parede, e o aquecimento da fucsina serve para dissolver esse revestimento e permitir o contato do pigmento com o peptidoglicano.]))
-)
+  [Sobre a fórmula X = x₀ · 2ⁿ e os limites de sua aplicação ao crescimento bacteriano, assinale a alternativa *incorreta*.],
+  (("A", [A base 2 decorre do modo de divisão, em que cada célula origina duas, e não de uma convenção adotada para simplificar o tratamento matemático do crescimento populacional.]),
+   ("B", [O expoente corresponde ao número de gerações decorridas, obtido pela divisão do tempo total de cultivo pelo tempo de geração da bactéria naquelas condições de meio e temperatura.]),
+   ("C", [Aplicada a um cultivo de 24 horas, a fórmula fornece resultados de várias ordens de grandeza acima do observado, porque descreve apenas o trecho exponencial do crescimento.]),
+   ("D", [A discrepância entre o valor calculado e o observado decorre de imprecisão da fórmula, que desconsidera a proporção de células que se dividem de forma assimétrica em cada geração.]),
+   ("E", [Aplicando-se logaritmo aos dois lados, o número de células passa a variar linearmente com o tempo, o que explica o aspecto retilíneo da fase exponencial em escala logarítmica.])))
 
-#questao-mc("17", badge-integracao,
-  [Numa unidade de terapia intensiva, um gene de resistência idêntico é detectado em espécies bacterianas diferentes isoladas de pacientes distintos ao longo de duas semanas. O mecanismo que melhor explica essa disseminação é:],
-  (("A", [Mutação pontual espontânea recorrente no mesmo sítio cromossômico, favorecida pela pressão seletiva do antimicrobiano usado como esquema empírico padrão da unidade.]),
-   ("B", [Transformação, com captação do DNA livre liberado por bactérias mortas pelo antibiótico, mecanismo que exige integração obrigatória do gene ao cromossomo da célula receptora.]),
-   ("C", [Transdução por bacteriófago, único mecanismo capaz de transferir material genético entre bactérias de espécies diferentes por não depender de contato físico entre as células.]),
-   ("D", [Duplicação do nucleoide seguida de segregação desigual, que gera células-filhas com número variável de cópias do gene e, portanto, com graus distintos de resistência ao fármaco.]),
-   ("E", [Conjugação mediada por pilus sexual, com transferência de cópia de plasmídeo que se replica de forma independente e pode passar entre bactérias vivas de espécies diferentes.]))
-)
+#questao-ce("17", badge-integracao,
+  [Julgue os itens a seguir, que comparam o comportamento das bactérias frente ao pH e à temperatura.],
+  (("I",   [A curva de velocidade de crescimento contra temperatura é assimétrica, com queda abrupta acima do ótimo porque nessa faixa ocorre desnaturação de proteínas.]),
+   ("II",  [Um neutrófilo tolera meio moderadamente ácido porque deixa o citoplasma acompanhar o pH externo, poupando a energia que o bombeamento de prótons custaria.]),
+   ("III", [Como a temperatura ótima de crescimento situa-se no ponto médio da faixa tolerada, elevar a temperatura em poucos graus acima do ótimo tem efeito equivalente a reduzi-la na mesma medida.]),
+   ("IV",  [Manter uma bactéria fora de sua faixa de pH de crescimento impede a multiplicação, mas não implica necessariamente a morte da população.])))
 
-#questao-ce("18", badge-integracao,
-  [Uma bactéria peritríquia é colocada num meio com gradiente crescente de nutriente. Julgue os itens sobre a estrutura e o funcionamento do sistema que a leva até a fonte.],
-  (("I",   [O flagelo bacteriano ondula ao longo do próprio comprimento com gasto direto de ATP, do mesmo modo que o flagelo do espermatozoide.]),
-   ("II",  [O motor do corpo basal é movido pelo gradiente de prótons gerado pela cadeia transportadora de elétrons instalada na membrana citoplasmática.]),
-   ("III", [A célula não é capaz de comparar concentrações entre as extremidades do próprio corpo; ela compara a concentração atual com a de instantes anteriores.]),
-   ("IV",  [A flagelina é proteína estritamente estrutural e não é reconhecida pela imunidade inata, o que faz da motilidade uma vantagem sem custo imunológico para a bactéria.]))
-)
+#questao-mc("18", badge-integracao,
+  [Duas alíquotas da mesma cultura bacteriana, com o mesmo inóculo e o mesmo meio, são incubadas uma a 37 °C e outra a 25 °C. Ambas são acompanhadas até a fase estacionária, com o número de células em escala logarítmica. O resultado esperado é:],
+  (("A", [A alíquota a 25 °C apresenta curva de formato inteiramente distinto, sem fase log identificável, uma vez que abaixo da temperatura ótima o crescimento deixa de ser exponencial e torna-se linear.]),
+   ("B", [As duas curvas se sobrepõem, pois a temperatura determina apenas a densidade celular máxima alcançada e não interfere na velocidade com que a população atinge esse patamar.]),
+   ("C", [A alíquota a 25 °C atinge densidade máxima proporcionalmente menor, na razão entre as duas temperaturas, mantendo inclinação idêntica à da alíquota incubada na temperatura ótima.]),
+   ("D", [A alíquota a 25 °C apresenta a mesma sequência de quatro fases, com reta de fase log menos inclinada, porque o tempo de geração é maior fora da temperatura ótima.]),
+   ("E", [A alíquota a 37 °C entra diretamente em fase estacionária, sem fase lag, porque na temperatura ótima a síntese de ribossomos e transportadores ocorre simultaneamente à divisão celular.])))
 
 #questao-mc("19", badge-integracao,
-  [Sobre a cápsula bacteriana, sua ação sobre a resposta do hospedeiro e a estratégia vacinal que dela decorre, assinale a alternativa *incorreta*.],
-  (("A", [A cápsula impede que as opsoninas depositadas pelo hospedeiro alcancem a parede, e sem esse ponto de ancoragem o receptor do fagócito não consegue estabelecer contato firme.]),
-   ("B", [A proteção conferida pela cápsula decorre da toxicidade direta do polissacarídeo capsular sobre o fagócito, que sofre lesão de membrana ao entrar em contato com a superfície bacteriana.]),
-   ("C", [A resolução da infecção por bactéria capsulada depende da produção de anticorpo específico contra o polissacarídeo da cápsula, que restabelece a opsonização eficaz do agente.]),
-   ("D", [As vacinas contra pneumococo e meningococo são construídas a partir do polissacarídeo capsular, e não da bactéria inteira, o que reflete diretamente o alvo protetor relevante.]),
-   ("E", [Embora seja mais frequente entre Gram-negativas, a cápsula também ocorre em Gram-positivas clinicamente importantes, como _Streptococcus pneumoniae_ e _Streptococcus agalactiae_.]))
-)
+  [Uma bactéria transferida de um meio completo para um meio mínimo, contendo apenas sais e glicose, apresenta fase lag prolongada e, depois, fase log com tempo de geração maior. Do ponto de vista metabólico, a explicação é:],
+  (("A", [No meio mínimo a glicose é o único aceptor final de elétrons disponível, o que obriga a célula a fermentar e reduz proporcionalmente a quantidade de ATP obtida por molécula degradada.]),
+   ("B", [No meio mínimo a ausência de tampão faz o pH cair rapidamente, e a célula precisa gastar parte da energia obtida no bombeamento de prótons para manter o citoplasma neutro.]),
+   ("C", [No meio mínimo a pressão osmótica é menor, o que aumenta a entrada de água e obriga a célula a espessar a parede antes de retomar o ciclo normal de divisão binária.]),
+   ("D", [No meio mínimo a célula precisa sintetizar do zero aminoácidos, bases e cofatores que antes recebia prontos, desviando intermediários da via central da produção de ATP para a biossíntese.]),
+   ("E", [No meio mínimo faltam os fatores de crescimento que induzem a expressão das enzimas glicolíticas, e a via de degradação da glicose passa a operar em regime basal de baixa atividade.])))
 
-#questao-mc("20", badge-integracao,
-  [Bactérias recolhidas do interior de um biofilme maduro sobrevivem a concentrações de antibiótico que matam a mesma cepa cultivada em meio líquido; testadas isoladamente em cultura, porém, mostram-se plenamente sensíveis. A explicação correta é:],
-  (("A", [A matriz do biofilme induz mutações no gene-alvo da droga, que revertem quando a célula é retirada do agregado e volta a crescer isoladamente em meio de cultura líquido.]),
-   ("B", [As células do biofilme adquirem plasmídeo de resistência por conjugação com as vizinhas e o perdem por segregação instável assim que são semeadas em meio sem antimicrobiano.]),
-   ("C", [A matriz sequestra quimicamente o antibiótico por ligação covalente irreversível, de modo que nenhuma molécula da droga alcança as camadas mais profundas da comunidade bacteriana.]),
-   ("D", [O biofilme aumenta a expressão de bombas de efluxo de forma permanente e herdável, transmitindo o fenótipo às gerações seguintes mesmo fora do ambiente do agregado polimérico.]),
-   ("E", [A matriz limita a penetração da droga e a difusão de nutrientes, e as células internas ficam pouco ativas — como boa parte dos antibióticos exige crescimento, há tolerância e não resistência.]))
-)
+#questao-ce("20", badge-integracao,
+  [Material purulento é aspirado de uma coleção profunda com suspeita de participação de anaeróbios. Julgue os itens.],
+  (("I",   [O ambiente da coleção favorece anaeróbios porque o consumo local de oxigênio pelo tecido lesado e pela microbiota acompanhante reduz o potencial de oxirredução.]),
+   ("II",  [Material colhido em swab e transportado exposto ao ar pode resultar em cultura negativa mesmo havendo infecção por anaeróbio estrito.]),
+   ("III", [Como o anaeróbio estrito é morto pelo oxigênio, a placa destinada ao seu isolamento deve conter necessariamente um inibidor seletivo de bactérias aeróbias.]),
+   ("IV",  [Um caldo em que o oxigênio difunde a partir da superfície permite classificar a bactéria pela posição em que o crescimento se concentra ao longo da coluna.])))
 
-#questao-ce("21", badge-integracao,
-  [Material cirúrgico contaminado com endósporos de _Bacillus_ é submetido a diferentes processos de descontaminação. Julgue os itens.],
-  (("I",   [A resistência do endósporo ao calor decorre da desidratação profunda do núcleo, do acúmulo de dipicolinato de cálcio e das proteínas que revestem e protegem o DNA.]),
-   ("II",  [A fervura em água a 100 °C é suficiente para destruir endósporos, uma vez que a temperatura desnatura as proteínas do córtex e das capas do esporo.]),
-   ("III", [A esterilização confiável exige vapor sob pressão, tipicamente a 121 °C, condição alcançada em autoclave e não em água fervente à pressão ambiente.]),
-   ("IV",  [A esporulação é um programa genético de várias etapas, restrito a poucos gêneros, e não uma resposta improvisada de qualquer bactéria submetida a estresse.]))
-)
+#questao-mc("21", badge-integracao,
+  [Um paciente com infecção associada a material implantado recebe antimicrobiano ao qual o agente isolado é sensível no teste laboratorial, mas apresenta recidiva após o término do tratamento. O mecanismo que melhor explica esse desfecho é:],
+  (("A", [A seleção, durante o tratamento, de subpopulação portadora de mutação que altera o alvo da droga, o que se transmite às células-filhas e se mantém após a suspensão do antimicrobiano.]),
+   ("B", [A aquisição de material genético móvel contendo genes de enzimas que degradam a droga, transferido de espécies acompanhantes que colonizam a superfície do material implantado.]),
+   ("C", [A permanência de subpopulação em baixa atividade metabólica, que não oferece à droga o processo em construção de que ela depende — tolerância sem gene de resistência, reversível ao voltar a crescer.]),
+   ("D", [A neutralização da droga pelo material do implante, que adsorve a molécula ativa em sua superfície e reduz a concentração livre disponível a valores abaixo do necessário para inibir o agente.]),
+   ("E", [A conversão do agente a uma forma de resistência dotada de envoltórios adicionais e núcleo desidratado, capaz de sobreviver ao tratamento e de germinar quando ele é interrompido.])))
 
 #questao-mc("22", badge-integracao,
-  [O RNA ribossomal 16S ocupa dois papéis distintos na microbiologia, um taxonômico e outro terapêutico. Sobre esses dois papéis, é correto afirmar:],
-  (("A", [Ele serve de relógio filogenético por estar em todo organismo celular e mudar devagar, e é sítio de ligação de aminoglicosídeo na subunidade 30S, o que faz o ribossomo ler o código errado.]),
-   ("B", [Ele é usado na classificação por ser a molécula que mais rapidamente acumula mutações entre gerações, e é alvo dos macrolídeos, que se ligam à subunidade maior do ribossomo bacteriano.]),
-   ("C", [Ele compõe a subunidade 50S do ribossomo bacteriano e, por ser exclusivo de procariotos, garante que nenhum antibiótico que a ele se ligue produza efeito adverso no paciente tratado.]),
-   ("D", [Ele foi escolhido como marcador filogenético por ser abundante e fácil de purificar, e sua função terapêutica se restringe a servir de molde para a síntese de antibióticos peptídicos.]),
-   ("E", [Ele é encontrado apenas em bactérias de crescimento rápido e por isso permite separar espécies cultiváveis de não cultiváveis, sendo também o alvo das quinolonas na replicação do DNA.]))
-)
+  [Duas espécies são cultivadas em paralelo, no mesmo meio e a partir do mesmo inóculo. A espécie A tem tempo de geração de 20 minutos; a espécie B, de 60 minutos. Ao final de 3 horas de fase log, a razão entre o número de células de A e o de B é:],
+  (("A", [De 3 para 1, pois a razão entre as populações finais reproduz a razão entre os tempos de geração das duas espécies quando o inóculo inicial e o meio de cultivo são idênticos.]),
+   ("B", [De 64 para 1, pois A completa 9 gerações e B completa 3, e a razão corresponde a 2 elevado a 9 dividido por 2 elevado a 3, ou seja, 2 elevado a 6.]),
+   ("C", [De 9 para 3, pois o número de células ao final da fase log é numericamente igual ao número de gerações completadas por cada espécie no intervalo considerado de três horas.]),
+   ("D", [De 512 para 1, pois a espécie A completa 9 gerações no período e a espécie B, por ter tempo de geração três vezes maior, não completa nenhuma geração no mesmo intervalo.]),
+   ("E", [De 1 para 1, pois em escala logarítmica as duas retas têm a mesma inclinação, e o tempo de geração determina apenas o momento de entrada na fase estacionária de cada cultura.])))
 
-#questao-mc("23", badge-integracao,
-  [Uma paciente jovem apresenta pielonefrite aguda por _Escherichia coli_. A explicação estrutural mais direta para a bactéria ter alcançado o parênquima renal a partir do intestino é:],
-  (("A", [A produção de exotoxina que paralisa o peristaltismo ureteral, permitindo refluxo passivo do conteúdo vesical até a pelve renal e implantação do agente no interstício.]),
-   ("B", [A presença de cápsula polissacarídica, que impede a fagocitose pelas células do urotélio e permite a permanência prolongada da bactéria na luz da bexiga até atingir o rim.]),
-   ("C", [A capacidade de formar endósporos resistentes ao pH ácido da urina, que germinam ao alcançar o ambiente menos hostil da pelve renal e reiniciam a multiplicação bacteriana.]),
-   ("D", [A motilidade conferida por flagelos peritríquios, único mecanismo capaz de vencer o fluxo urinário, uma vez que estruturas de adesão não resistem à força de arrasto da urina.]),
-   ("E", [A presença de fímbrias cuja adesina reconhece receptor específico do epitélio urinário, o que fixa a bactéria contra o fluxo da urina e permite a colonização ascendente até o rim.]))
-)
+#questao-ce("23", badge-integracao,
+  [Duas culturas da mesma espécie, uma aerada e outra sem oxigênio, recebem a mesma quantidade de glicose. Julgue os itens.],
+  (("I",   [Para obter a mesma quantidade de ATP, a cultura sem oxigênio precisa consumir muito mais glicose do que a cultura aerada.]),
+   ("II",  [O maior consumo de açúcar na cultura sem oxigênio acompanha-se de maior despejo de produtos ácidos no meio, que tende a acidificar.]),
+   ("III", [Na cultura aerada, esgotada a glicose, o catabolismo de aminoácidos consome a amônia do meio e tende a acidificá-lo progressivamente.]),
+   ("IV",  [Como o rendimento energético da respiração é maior, a cultura aerada desvia menos intermediários da via central para a biossíntese de precursores celulares.])))
 
-#questao-ce("24", badge-integracao,
-  [Uma lâmina de líquido cefalorraquidiano é lida em regime de urgência e mostra diplococos corados de rosa. Julgue os itens sobre o que essa leitura permite concluir e sobre o que ela não permite.],
-  (("I",   [O arranjo em par indica que as células se agregaram no líquor por afinidade de superfície, e não que se dividiram num único plano com separação incompleta.]),
-   ("II",  [A leitura entrega o grupo — coco Gram-negativo — mas não a espécie, que depende de cultura, teste bioquímico ou método molecular.]),
-   ("III", [A informação obtida em minutos é suficiente para orientar a escolha do esquema antimicrobiano inicial, antes que a cultura fique pronta.]),
-   ("IV",  [A ausência de bactérias visíveis numa bacterioscopia excluiria infecção bacteriana, já que o método detecta cargas de qualquer magnitude.]))
-)
+#questao-mc("24", badge-integracao,
+  [Bactérias patogênicas secretam moléculas de altíssima afinidade capazes de capturar ferro a partir de proteínas do hospedeiro. A razão pela qual esse mecanismo é vantajoso na infecção é:],
+  (("A", [O ferro livre é escasso no hospedeiro porque permanece sequestrado em proteínas de transporte e de armazenamento, e essa retenção funciona como forma ativa de defesa por privação nutricional.]),
+   ("B", [O ferro capturado é utilizado como aceptor final de elétrons na cadeia respiratória, substituindo o oxigênio nos tecidos profundos em que a tensão de oxigênio se encontra reduzida.]),
+   ("C", [O ferro retirado das proteínas do hospedeiro compromete o transporte de oxigênio pelo sangue, e a hipóxia tecidual resultante cria o ambiente de que o agente necessita para se multiplicar.]),
+   ("D", [O ferro é o único micronutriente exigido em quantidade comparável à dos macronutrientes, o que torna sua captação limitante para a velocidade de duplicação em qualquer ambiente.]),
+   ("E", [O ferro capturado neutraliza os derivados reativos do oxigênio produzidos pelo fagócito, funcionando como substituto químico da superóxido-dismutase nas espécies que não a possuem.])))
 
-#questao-mc("25", badge-integracao,
-  [Uma enterobactéria é semeada em meio sólido com lactose e indicador de pH, e produz colônias coradas. Ligando o transporte de membrana ao resultado observado na placa, é correto afirmar:],
-  (("A", [A cor da colônia é o pigmento que a bactéria exporta pela membrana citoplasmática por meio de transporte ativo primário, dependente da hidrólise direta de ATP pela bomba.]),
-   ("B", [A lactose entra por endocitose mediada por receptor, é degradada em vacúolo digestivo e os produtos ácidos são devolvidos ao meio, alterando o pH ao redor da colônia.]),
-   ("C", [A ausência de organelas impede que a bactéria fermente lactose, de modo que a cor observada resulta apenas da degradação do indicador de pH pelas enzimas hidrolíticas secretadas.]),
-   ("D", [A translocação de grupo transporta a lactose sem modificá-la quimicamente, e é essa integridade da molécula que permite sua reexportação e a acidificação do meio circundante.]),
-   ("E", [O açúcar é captado por transportador da membrana, muitas vezes com modificação química na travessia que impede o retorno, e a fermentação acidifica o meio e vira a cor do indicador.]))
-)
+#questao-ce("25", badge-integracao,
+  [Julgue os itens a seguir sobre agentes que não crescem nos meios de cultura de rotina.],
+  (("I",   [A dependência de fatores fornecidos pela célula hospedeira, decorrente da perda evolutiva de vias biossintéticas, explica por que alguns agentes não crescem em meio artificial.]),
+   ("II",  [Não crescer em meio artificial indica que o agente tem metabolismo insuficiente para causar doença grave no hospedeiro.]),
+   ("III", [Para um agente com tempo de geração medido em horas, o meio adequado existe e sustenta o crescimento; o que limita é o tempo necessário até a colônia tornar-se visível.]),
+   ("IV",  [Diante de agente não cultivável, o diagnóstico pode apoiar-se em coloração específica, detecção de material genético e avaliação da resposta imune do hospedeiro.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um jardineiro de 54 anos sofre ferimento perfurante profundo com ferramenta enferrujada e procura atendimento tardiamente, com trismo e rigidez de nuca. Sobre a estrutura bacteriana que explica esse quadro, é correto afirmar:],
-  (("A", [A bactéria alcançou a ferida na forma vegetativa e sobreviveu no solo graças à cápsula polissacarídica, que a protege da dessecação e da fagocitose no tecido lesado.]),
-   ("B", [O agente persiste no solo como endósporo, forma latente e desidratada; no tecido desvitalizado e pouco oxigenado ele germina e a célula vegetativa passa a secretar a toxina.]),
-   ("C", [O endósporo é a forma reprodutiva da bactéria: ao germinar na ferida, cada esporo origina várias células-filhas, e essa multiplicação explica a rapidez da instalação do quadro.]),
-   ("D", [A resistência do agente no ambiente decorre da camada de ácido micólico da parede, que também impede a fagocitose no sítio da lesão e retarda a resposta inflamatória local.]),
-   ("E", [A toxina responsável pelo quadro é a endotoxina liberada da membrana externa do agente quando ele se rompe no tecido, o que explica a instalação tardia da manifestação clínica.]))
-)
+  [Homem de 68 anos, internado com febre e calafrios, tem dois pares de hemoculturas coletados antes do início do antimicrobiano. O sistema automatizado sinaliza positividade em ambos os frascos 6 horas após a incubação, antes que qualquer turvação seja visível. Sobre esse resultado, é correto afirmar:],
+  (("A", [A positividade em 6 horas indica que o agente é fastidioso, pois somente espécies com exigências nutricionais elevadas produzem os metabólitos que o sensor do frasco é capaz de detectar tão precocemente.]),
+   ("B", [A ausência de turvação visível no momento do alarme indica falha do sensor, e o resultado deve ser confirmado por nova coleta antes de qualquer alteração na conduta terapêutica do paciente.]),
+   ("C", [O sistema detecta o metabolismo da população antes que ela produza turvação, e a positivação precoce em ambos os frascos sugere carga bacteriana elevada, o que aponta para foco endovascular.]),
+   ("D", [O alarme precoce decorre da fase lag abreviada do agente no meio do frasco, e não guarda relação com a carga bacteriana presente na amostra de sangue no momento da coleta.]),
+   ("E", [A positividade simultânea nos dois frascos indica contaminação por microbiota da pele durante a punção, pois um agente verdadeiramente circulante positiva apenas um dos pares coletados.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Uma _Salmonella_ isolada de hemocultura é caracterizada como móvel, positiva para antígeno H e positiva para antígeno K. Sobre a relação entre esses marcadores e as estruturas bacterianas, assinale a alternativa *incorreta*.],
-  (("A", [O antígeno H corresponde à flagelina, proteína que compõe o filamento do flagelo, e sua detecção é compatível com a caracterização da amostra como bactéria móvel.]),
-   ("B", [O antígeno K corresponde ao polissacarídeo da cápsula, camada depositada por fora do envelope que dificulta a opsonização e, com ela, a fagocitose do agente.]),
-   ("C", [O antígeno O corresponde ao polissacarídeo externo do lipopolissacarídeo, e sua variabilidade entre cepas é o que sustenta a sorotipagem desse componente da membrana externa.]),
-   ("D", [O antígeno H é conferido pelas fímbrias de adesão, estruturas curtas e numerosas que também são responsáveis pela motilidade observada nos testes de mobilidade em meio semissólido.]),
-   ("E", [A porção tóxica do lipopolissacarídeo é o lipídio A, ancorado na membrana externa, e não o polissacarídeo O, que responde pela variabilidade antigênica entre as cepas.]))
-)
+  [Mulher de 34 anos, em uso de antimicrobiano oral há três dias por conta própria, procura o serviço com febre persistente. Colhe-se material do sítio suspeito, e a cultura resulta sem crescimento após 48 horas. Sobre a interpretação desse resultado, assinale a alternativa *incorreta*.],
+  (("A", [O uso prévio de antimicrobiano pode ter reduzido a população viável na amostra a valores abaixo do limiar de detecção do método, sem que a infecção tenha sido efetivamente resolvida.]),
+   ("B", [O agente pode ser fastidioso e exigir fatores de crescimento que o meio empregado não fornecia, situação em que a ausência de colônias não informa nada sobre a presença do agente.]),
+   ("C", [O agente pode ter tempo de geração longo o bastante para que 48 horas de incubação sejam insuficientes, hipótese que exige prolongar o período antes de liberar o resultado.]),
+   ("D", [A coleta em sítio inadequado, ou o transporte que expôs ao ar um agente anaeróbio estrito, produz o mesmo resultado sem crescimento em amostra proveniente de infecção ativa.]),
+   ("E", [A ausência de crescimento após 48 horas exclui com segurança a etiologia bacteriana, e a conduta apropriada é suspender o antimicrobiano e investigar causas não infecciosas.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Um paciente internado evolui com febre, hipotensão e hemocultura positiva para bacilo Gram-negativo produtor de beta-lactamase codificada em plasmídeo. Julgue os itens.],
-  (("I",   [A hipotensão decorre da ação direta do polissacarídeo O sobre o músculo liso vascular, independentemente de mediadores inflamatórios do hospedeiro.]),
-   ("II",  [O plasmídeo que carrega o gene de resistência é indispensável à viabilidade da bactéria, já que replica junto com o cromossomo e sob o mesmo controle.]),
-   ("III", [A febre e a vasodilatação resultam do reconhecimento do lipídio A pela imunidade inata, com liberação de citocinas inflamatórias.]),
-   ("IV",  [O gene de resistência pode ser transferido a bactérias de outras espécies por conjugação, sem que cada uma precise adquiri-lo por mutação própria.]))
-)
+  [Homem de 52 anos, diabético, apresenta coleção purulenta profunda em coxa, de odor fétido, após ferimento perfurante ocorrido há dez dias. Julgue os itens sobre a abordagem microbiológica do caso.],
+  (("I",   [A coleta em swab, com transporte em tubo aberto ao ar, é adequada por preservar a viabilidade dos agentes anaeróbios eventualmente presentes na coleção.]),
+   ("II",  [O tecido desvitalizado e o consumo de oxigênio pela microbiota acompanhante reduzem o potencial de oxirredução local e favorecem o crescimento de anaeróbios estritos.]),
+   ("III", [A ausência de crescimento na cultura não permite excluir a participação de anaeróbios, sobretudo se a coleta e o transporte não preservaram as condições de anaerobiose.]),
+   ("IV",  [O material deve ser semeado também em meio incubado em atmosfera sem oxigênio, além das placas incubadas em atmosfera ambiente.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 38 anos com tosse por dois meses, febre vespertina e emagrecimento. A bacterioscopia do escarro pelo Gram é considerada não informativa e o laboratório processa a amostra por outra técnica, encontrando bacilos vermelhos sobre fundo azul. A leitura correta é:],
-  (("A", [Trata-se de bactéria sem parede celular, que por isso não retém corante algum no Gram e só é evidenciada por técnicas que coram diretamente a membrana citoplasmática.]),
-   ("B", [Trata-se de bactéria Gram-negativa cuja membrana externa foi dissolvida durante o preparo, o que explica a perda do corante primário e a coloração avermelhada final.]),
-   ("C", [O achado indica bactéria capsulada, e o fundo azul corresponde ao polissacarídeo capsular corado pelo azul de metileno enquanto a célula retém a fucsina fenicada.]),
-   ("D", [O achado é inespecífico, pois qualquer bactéria retém fucsina após aquecimento, e a confirmação depende exclusivamente do resultado da cultura em meio próprio.]),
-   ("E", [Trata-se de bacilo álcool-ácido resistente: a parede rica em ácido micólico retém a fucsina mesmo após descoloração por álcool-ácido, e os debris coram-se com azul de metileno.]))
-)
+  [Mulher de 26 anos com disúria tem urina semeada em volume calibrado, em placa contendo lactose, sais biliares, cristal violeta e indicador de pH. Após 18 horas surgem colônias rosadas, em contagem de 10⁵ unidades formadoras de colônia por mililitro. A leitura correta desse conjunto é:],
+  (("A", [As colônias rosadas correspondem a bactérias Gram-positivas, que retêm o cristal violeta do meio da mesma forma que o retêm no procedimento de coloração diferencial da parede.]),
+   ("B", [Cresceu uma Gram-negativa fermentadora de lactose: os sais biliares e o corante excluíram as Gram-positivas, e a acidificação pela fermentação virou o indicador de pH.]),
+   ("C", [A cor rosada resulta de pigmento difusível produzido pela bactéria, e a contagem obtida apenas confirma que o volume semeado foi adequadamente calibrado pelo laboratório.]),
+   ("D", [O crescimento em meio contendo sais biliares indica agente de origem intestinal, mas nada informa sobre a capacidade de fermentar lactose, que exige teste bioquímico complementar.]),
+   ("E", [A contagem de 10⁵ unidades por mililitro corresponde ao número exato de células presentes na amostra, uma vez que cada colônia se origina obrigatoriamente de uma única célula isolada.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Paciente em uso prolongado de cateter venoso central apresenta febre persistente. As hemoculturas isolam _Staphylococcus epidermidis_ sensível ao antimicrobiano prescrito, mas a febre não cede com o tratamento adequado mantido por dias. A conduta e sua justificativa mecanística são:],
-  (("A", [Manter o cateter e dobrar a dose, pois a falha decorre de concentração sérica insuficiente para atingir bactérias aderidas ao endotélio adjacente ao dispositivo implantado.]),
-   ("B", [Trocar por antimicrobiano de outra classe, pois a sensibilidade demonstrada em cultura indica erro de identificação da espécie e não corresponde ao agente realmente presente.]),
-   ("C", [Retirar o cateter, pois há biofilme aderido ao dispositivo: a matriz limita a penetração da droga e as células internas, pouco ativas, escapam de antibióticos que exigem crescimento.]),
-   ("D", [Manter a conduta e aguardar, uma vez que a espécie isolada compõe a microbiota da pele e o achado em hemocultura de paciente com cateter é sempre contaminação de coleta.]),
-   ("E", [Associar um segundo antimicrobiano com ação sobre parede, pois a falha se explica pela produção de beta-lactamase induzida pela permanência prolongada do dispositivo no vaso.]))
-)
+  [Homem de 41 anos, com tosse há dois meses, emagrecimento e sudorese noturna, tem escarro colhido para investigação. O laboratório informa que a cultura específica para o agente suspeito pode levar de três a seis semanas para fornecer resultado. Diante disso, a conduta e a justificativa corretas são:],
+  (("A", [Aguardar o resultado da cultura antes de qualquer decisão, pois o agente suspeito tem tempo de geração curto e a demora informada decorre apenas da necessidade de meio enriquecido especial.]),
+   ("B", [Repetir a coleta em maior volume, pois a demora da cultura decorre de carga bacteriana insuficiente na amostra inicial, e um inóculo maior reduz proporcionalmente o tempo até a positividade.]),
+   ("C", [Solicitar cultura em meio comum além da específica, pois o crescimento em meio de rotina é mais rápido e forneceria o mesmo diagnóstico em 48 horas, tornando desnecessária a espera prolongada.]),
+   ("D", [Recorrer a métodos que não dependem de multiplicação — coloração específica e detecção de material genético —, pois a demora reflete o tempo de geração longo do agente, e não o meio empregado.]),
+   ("E", [Considerar o quadro como não bacteriano até que a cultura seja liberada, pois um agente incapaz de crescer em 48 horas dificilmente apresenta metabolismo suficiente para causar doença progressiva.])))
