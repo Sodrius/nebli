@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- micro-01-morfologia-estrutura-bacterias | Gerado por gerar_main.py
+// MAIN.TYP -- imuno-07-inflamacao-inicio-resolucao | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Morfologia e estrutura bacteriana",
-  "Microbiologia",
+  "Inflamação: início e resolução",
+  "Imunologia",
   (
-    ("Disciplina", "Microbiologia"),
-    ("Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Microbiologia de Brock (cap. 2) · Tortora — Microbiologia (cap. 4)"),
+    ("Disciplina", "Imunologia"),
+    ("Onde estudar", "Abbas — Imunologia Celular e Molecular (cap. 2 e 4) · Robbins — Patologia Básica (cap. 2) · Murphy — Janeway's Imunobiologia (cap. 2 e 3)"),
   ),
 )
 
@@ -22,20 +22,31 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — A bactéria e o que ela mostra", (
-      "1.1 Procarioto: viver sem núcleo",
-      "1.2 Da amostra ao grupo",
-      "1.3 Colônia: o clone visível",
+    ("PARTE I — Reconhecer o perigo antes de reagir", (
+      "1.1 O que é, e o custo",
+      "1.2 Padrões em três endereços",
+      "1.4 Inflamassoma, IL-1β e piroptose",
     )),
-    ("PARTE II — Membrana e parede", (
-      "2.2 Peptidoglicano e pressão osmótica",
-      "2.4 Gram-negativas: LPS e periplasma",
-      "2.5 A coloração de Gram e suas fugas",
+    ("PARTE II — Abrir a barreira e trazer a célula", (
+      "2.1 Sequência vascular e sinais",
+      "2.3 Rolar, parar, atravessar",
+      "2.4 Fagocitose e ordem de chegada",
     )),
-    ("PARTE III — Estruturas que definem o comportamento", (
-      "3.1 Nucleoide, plasmídeo e 70S",
-      "3.3 Flagelo, pili e adesão",
-      "3.5 Cápsula, biofilme e esporo",
+    ("PARTE III — Mediadores, e quem manda parar", (
+      "3.2 Fator XII e quatro cascatas",
+      "3.4 Araquidônico e os fármacos",
+      "3.6 Resolução é programa ativo",
+    )),
+  )),
+  ("Etapa 2 — 30 objetivas", (
+    (none, (
+      "Consolidação (Q01–Q08) · Integração (Q09–Q25) · Aplicação (Q26–Q30)",
+      "Múltipla escolha, certo/errado e assinale a incorreta",
+    )),
+  )),
+  ("Etapa 3 — 5 discursivas", (
+    (none, (
+      "Cinética · estase · inflamassoma · farmacologia · resolução",
     )),
   )),
 ))
@@ -57,40 +68,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q10)", (
-    ("01", "D"),
-    ("02", "B"),
-    ("03", "CCEE"),
-    ("04", "E"),
-    ("05", "EECC"),
-    ("06", "A"),
+  ("Consolidação (Q01–Q08)", (
+    ("01", "C"),
+    ("02", "A"),
+    ("03", "CECC"),
+    ("04", "D"),
+    ("05", "ECCE"),
+    ("06", "B"),
     ("07", "CCEC"),
-    ("08", "C"),
-    ("09", "C"),
-    ("10", "EECC"),
+    ("08", "E"),
   )),
-  ("Integração (Q11–Q25)", (
-    ("11", "B"),
-    ("12", "CEEC"),
-    ("13", "A"),
-    ("14", "D"),
-    ("15", "CEEE"),
-    ("16", "C"),
+  ("Integração (Q09–Q25)", (
+    ("09", "C"),
+    ("10", "CEEC"),
+    ("11", "A"),
+    ("12", "D"),
+    ("13", "CCCE"),
+    ("14", "C"),
+    ("15", "B"),
+    ("16", "ECCC"),
     ("17", "E"),
-    ("18", "ECCE"),
-    ("19", "B"),
-    ("20", "E"),
-    ("21", "CECC"),
-    ("22", "A"),
-    ("23", "E"),
-    ("24", "ECCE"),
-    ("25", "E"),
+    ("18", "A"),
+    ("19", "CCEE"),
+    ("20", "D"),
+    ("21", "C"),
+    ("22", "EECC"),
+    ("23", "A"),
+    ("24", "D"),
+    ("25", "CEEE"),
   )),
   ("Aplicação (Q26–Q30)", (
     ("26", "B"),
-    ("27", "D"),
-    ("28", "EECC"),
-    ("29", "E"),
+    ("27", "E"),
+    ("28", "EECE"),
+    ("29", "A"),
     ("30", "C"),
   )),
 ))

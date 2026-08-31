@@ -1,0 +1,74 @@
+# MAPA_CONTEUDO -- imuno-07-inflamacao-inicio-resolucao
+# Slide-fonte: imuno-07-inflamacao-inicio-resolucao.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: [VISUAL -- usar adjacente com titulo extraivel]
+slide-02: O que existe em comum?
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: Ácido Úrico Silica
+slide-07: Definição • Inflamação…. –É uma resposta complexa a um estímulo lesivo: •que ocorre em tecidos vascularizados, •envolve o recrutamento e ativação de células, É fundamentalmente uma resposta protetora, mas é a principal causa de lesão tecidual em infe...
+slide-08: Sem inflamação não há reparação tecidual !
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]
+slide-10: Componentes da Inflamação
+slide-11: FUNÇÕES •Eliminação dos microorganismos: - acúmulo de células – macrófagos - transporte de antígenos - Linfonodos •Contenção da infecção: - barreira microvascular - e diluição de produtos tóxicos •Reparação dos tecidos danificados
+slide-12: Acúmulo celular • Inicialmente neutrófilos • Macrófagos 12-48 h após estímulo lesivo • Eosinófilos após 72 h (inflamação alérgica) • Linfócitos após 72 h
+slide-13: Fagocitose Adesão e rolamento Extravasamento Migração quimiotática Fagocitose Burst Oxidativo/eliminação do patógeno Degranulaçao e NETs Ativação completa do neutrófilo Kevin M. Rigby and Frank R. DeLeo, Semin Immunopatho. 2011
+slide-14: Produção de Espécies Reativas de Oxigênio
+slide-15: Reconhecimento de patógenos pela imunidade inata Solúveis Associados a membrana Intra-citoplasmático
+slide-16: Receptores de Padrões moleculares associados aos patógenos Solúveis Associados a membrana Intra-citoplasmático PCR C1q MBL TLR NOD Ø Determinados na linhagem germinativa Ø Especificidade limitada Ø Reconhecem padrões moleculares conservados associado...
+slide-17: Virus Bactéria Protozoários Fungos Helmintos Anticorpos Naturais IgM lectinas tipo C: MBL Modificado de Köhl 2006 Via do complemento e Receptores de reconhecimento de PAMPs PCR
+slide-18: Homólogas ao Toll Receptores semelhantes ao Toll (TRL) Humanos Mosca
+slide-19: Receptores TLR de membrana Ligação aos PAMPS Tradução do sinal (ativação celular)
+slide-20: Família de receptores Toll-like TLR 1 TLR 2 TLR 2 TLR 6 TLR 4 TLR 4 TLR 5 TLR 5? TLR 3 TLR 7 TLR 8 TLR 9 Compartimento interno Membrana celular Parasitas bacterianos Bactérias gram- Positivas e fungos Bactérias gram- negativas Bactérias flageladas ds...
+slide-21: Família de receptores citosólicos NOD
+slide-22: [VISUAL -- usar adjacente com titulo extraivel]
+slide-23: [VISUAL -- usar adjacente com titulo extraivel]
+slide-24: https://doi.org/10.1038/nrrheum.2017.155 Reconhecimento do Ácido úrico pelo Sistema Imune
+slide-25: üSolúveis: ü Proteínas do sistema complemento ü Membros da família das pentraxinas: PCR ü Proteínas ligadoras de açúcares: MBL ü Membrana: ü Receptores de resíduos de açúcares (Lectinas) ü Dectina-1 ü Scavengers: oxLDL ü Receptores semelhantes ao Tol...
+slide-26: Patógenos Barreiras e secreções Reconhecimento pelas células da imunidade inata Desencadeamento de um processo inflamatório Mecanismos efetores – estabelecimento de uma resposta inflamatória Mecanismos efetores – danos teciduais
+slide-27: TECIDO Í N T E G R O I N F L A M A Ç Ã O AGRESSÃO NÃO INFECCIOSA INFECCIOSA IMUNIDADE NATURAL IMUNIDADE ADQUIRIDA Eliminação de microorganismos REPARO TECIDUAL
+slide-28: Início da resposta inflamatória - microcirculação
+slide-29: • Vasoconstricção • Vasodilação • Aumento da permeabilidade vascular • Hemoconcentração and estase • Adesão leucocitária • Transmigração • Quimiotaxia • Infiltração no tecido • Fagocitose ACUTE INFLAMMATION Sequência de eventos
+slide-30: Quebra da barreira na microcirculação Capilares permeáveis permitem o Influxo do fluído (exudato) e das células Dano no tecido causa a liberação de fatores vasoativos e quimiotáticos que provoca o aumento do fluxo sanguíneo e da permeabilidade capila...
+slide-31: Calor Rubor Edema Dor
+slide-32: RUBOR – CALOR – TURGOR – DOR Vasoconstricção seguido de vasodilatação (arteríolas) Aumento da permeabilidade vascular (vênulas) Acúmulo de líquido no tecido (edema) Eventos iniciais na inflamação ü Perda da função Ativação de vários sistemas plasmáti...
+slide-33: Células da Inflamação • Reconhecimento do agressor • Mecanismos efetores para eliminar o agressor ou limitar suas ações • Estimular os linfócitos – Imunidade adquirida • Restaurar a integridade funcional e histológica do tecido. Neutrófilos Macrófago...
+slide-34: Células presentes no processo inflamatório Mastócito Mastócito de mucosa Mastócito de tecido conjuntivo Neutrófilo Eosinófilo Basófilo Monócito Linfócito Plaquetas
+slide-35: Mastócitos e Histamina • Mediadores: – Pré-formados: • Histamina • Serotonina – Neo-formados: • Citocinas • Mediadores lipídicos • Receptores: H1 a 4.
+slide-36: ACUTE INFLAMMATION LEUKOCYTE ADHESION
+slide-37: ACUTE INFLAMMATION EMIGRATION (TRANSMIGRATION)
+slide-38: ACUTE INFLAMMATION CHEMOTAXIS
+slide-39: Selectinas (E, P-selectinas) o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o Integrinas (LFA-1) e superfamília das imunoglobulinas (ICAMs) Integrinas e superfamília das imunoglobulinas (PECAM) o o o o o...
+slide-40: Integrina ICAM Quimiocinas ou receptor quimioatraente Quimiocinas ou receptor quimioatraente Neutrófilo Mucina E-selectina Interação mucina- selectina mediada pelo rolamento 1 Quimiocinas/quimioatraentes induzem mudanças nas integrinas 2 Integrinas a...
+slide-41: o o o o o o o o o o o o o o o o o LTB4 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 IL-8 LTB4 LTB4 LTB4 LTB4 LTB4 LTB4 LTB4 alérgeno LTB4 LTB4 eotaxina eotaxina eotaxina eotaxina PAF PAF PAF PAF PAF Migração leucocitária induzida ...
+slide-42: [VISUAL -- usar adjacente com titulo extraivel]
+slide-43: ACUTE INFLAMMATION
+slide-44: [VISUAL -- usar adjacente com titulo extraivel]
+slide-45: Mediadores do processo inflamatório Bradicinina Mediadores lipídicos Citocinas Produtos da ativação do sistema complemento (anafilatoxinas, opsoninas, MAC) Neuropeptídeos Fibrinopeptídeos Serotonina Fator ativador de plaquetas (PAF)
+slide-46: CININAS C3a C5a FATOR XII SISTEMA CININAS SISTEMA FIBRINOLÍTICO CASCATA DA COAGULAÇÃO TROMBINA PLASMINOGÊNIO PRÉ-CALICREÍNA CALICREÍNA PLASMINA FIBRINA PEPTÍDEOS QUIMIOTÁTICOS CININOGÊNIO BRADICININA degradação ativa SISTEMA COMPLEMENTO FIBRINOGÊNIO ...
+slide-47: terminações nervosas sensitivas estimulação antidrômica gânglios da espinha dorsal neuropeptídeos vênula histamina mediadores lipídicos mastócitos epiderme vasodilatação edema •• • • • • • •• • • • • • •• • • • • • queratina tecido conjuntivo Inflama...
+slide-48: vaso sangüíneo hormônio Ação endócrina célula alvo Ação parácrina célula alvo Mediador que atua na mesma célula que o produziu Ação autócrina Mediador atua a distância de onde é produzido Mediador atua em células próximas da que o produziu Citocinas ...
+slide-49: Mediadores Lipídicos Prostanóides Eicosanóides
+slide-50: Vasodilatação e aumento do fluxo sangüíneo – PGE2, PGI2 o o o o o o o o o o o o o o o o o o o o o o o o Vasoconstrição diminuição do fluxo sangüíneo – TxA2 o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o ...
+slide-51: PGD2, PGF2a, TxA2 Broncoconstrição Efeito dos prostanóides na musculatura lisa PGE2, PGI2 Broncodilatação
+slide-52: • aumento da permeabilidade vascular • migração de neutrófilos • aumento da expressão de integrinas em neutrófilos • contração ou relaxamento de músculo liso • ativação de neutrófilos, eosinófilos, macrófagos e células NK Leucotrieno B4 Efeito dos le...
+slide-53: Metabólitos do ácido araquidônico: intervenção terapêutica Diversos estímulos físicos, químicos, inflamatórios e mitogênicos Manutenção da integridade do tecido gastrointestinal
+slide-54: proteínas plasmáticas e de membrana atividade proteolítica atividade reguladora interação específica ativação do sistema Sistema Complemento
+slide-55: C1q C1r C1s Ig Ag H2O OH O=C SH C-S O C3 nativo (C3H2O) Via Clássica Via Alternativa Via das Lectinas • Clivagem do C3 •Liberação de fragmentos (opsoninas e anafilatoxinas) • Formação do MAC Vias de ativação do Sistema Complemento ØIgM ØIgG
+slide-56: Eventos inflamatórios mediados pelos componentes do complemento INFLAMAÇÃO Liberação de histamina dos mastócitos Contração da musculatura lisa Aumento da permeabilidade vascular Liberação das enzimas dos neutrófilos
+slide-57: vasodilatação Anafilatoxinas: C3a, C4a e C5a
+slide-58: Aumento de permeabilidade Anafilatoxinas: C3a, C4a e C5a
+slide-59: organismo invasor ativação do complemento mastócito tecidual fator quimiotático moléculas de adesão celular receptores de adesão celular mediadores inflamatórios Eventos inflamatórios mediados pelos componentes do complemento
+slide-60: Inflamação localizada: um resumo
+slide-61: Inflamação sistêmica: citocinas
+slide-62: TECIDO Í N T E G R O I N F L A M A Ç Ã O AGRESSÃO NÃO INFECCIOSA INFECCIOSA IMUNIDADE NATURAL IMUNIDADE ADQUIRIDA Eliminação de microorganismos REPARO TECIDUAL
+slide-63: IL-10 TGF-β H2O2 OCl- CO O2- Quinurenina O H Resolução do processo inflamatório
+slide-64: Ativação da Resposta Imune Adaptativa
+slide-65: (Toll-2) (Toll-4) Modulação da Resposta Imune Adaptativa
+slide-66: Imunidade Inata Imunidade Adquirida Células e fatores solúveis Citocinas e anticorpos

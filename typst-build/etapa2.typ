@@ -1,261 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [A bactéria não possui envoltório nuclear separando o cromossomo do citoplasma. Assinale a alternativa que descreve corretamente a consequência funcional dessa ausência.],
-  (("A", [O cromossomo permanece protegido de nucleases citoplasmáticas por associação a histonas, o que dispensa o envoltório e mantém a informação genética íntegra ao longo de todo o ciclo celular.]),
-   ("B", [A transcrição só se inicia depois de concluída a replicação do cromossomo inteiro, o que sincroniza a expressão gênica com o ciclo celular e reduz o custo energético da célula.]),
-   ("C", [A tradução ocorre exclusivamente após o transporte do RNA mensageiro para a periferia da célula, junto à membrana, onde os ribossomos permanecem ancorados durante todo o processo.]),
-   ("D", [O ribossomo alcança o RNA mensageiro enquanto ele ainda está sendo transcrito, de modo que transcrição e tradução ocorrem acopladas e a resposta a mudanças do meio fica muito rápida.]),
-   ("E", [A recombinação entre cromossomo e plasmídeo passa a ser obrigatória a cada divisão, já que sem compartimento nuclear as duas moléculas competem pelo mesmo aparato de replicação.]))
-)
+  [Um paciente com infarto agudo do miocárdio desenvolve, nas 48 horas seguintes, infiltrado neutrofílico intenso na área necrótica, sem qualquer evidência de infecção. Por que a inflamação se instala com essa intensidade na ausência de micro-organismo],
+  (("A", [Porque a isquemia gera hipóxia local e a hipóxia é reconhecida diretamente pelos receptores Toll-like da superfície do cardiomiócito, que respondem à queda de oxigênio disparando transcrição de citocinas inflamatórias.]),
+   ("B", [Porque o tecido necrótico expõe colágeno subendotelial que ativa apenas a cascata da coagulação, e é a trombina formada localmente o único mediador capaz de recrutar neutrófilo na inflamação estéril.]),
+   ("C", [Porque as células mortas liberam moléculas próprias que normalmente ficam confinadas — ATP, potássio, DNA mitocondrial, HMGB1 — e essas moléculas de dano são lidas pelos mesmos receptores de padrão que reconhecem micróbios.]),
+   ("D", [Porque a ausência de micróbio remove a inibição que os padrões microbianos exercem sobre o macrófago residente, liberando-o para produzir citocina de forma desregulada e recrutar neutrófilo em excesso no foco.]),
+   ("E", [Porque a inflamação estéril depende de anticorpos naturais preexistentes contra antígenos cardíacos, que formam imunocomplexos com proteínas liberadas do miócito e ativam a via clássica do complemento no tecido.])))
 
 #questao-mc("02", badge-consolidacao,
-  [O laboratório de microbiologia trabalha em duas velocidades diante de uma amostra clínica. Sobre a diferença entre elas, é correto afirmar:],
-  (("A", [A cultura em meio sólido é a etapa mais rápida porque permite ler a morfologia da colônia em poucos minutos, ao passo que a bacterioscopia exige preparo demorado da lâmina.]),
-   ("B", [A bacterioscopia entrega em minutos apenas o grupo da bactéria, o que basta para orientar o tratamento inicial, enquanto a cultura entrega em dias a espécie e o perfil de sensibilidade.]),
-   ("C", [A amplificação de ácido nucleico substituiu integralmente a cultura na rotina porque informa, além da identidade do agente, o perfil de sensibilidade a cada classe de antimicrobiano testada.]),
-   ("D", [Uma bacterioscopia sem bactérias visíveis exclui infecção bacteriana, já que o limite de detecção do microscópio óptico é bem inferior à carga presente em qualquer material infectado.]),
-   ("E", [A bacterioscopia identifica a espécie pela forma e pelo arranjo das células, e a cultura serve apenas para confirmar esse resultado e produzir massa bacteriana para outros exames.]))
-)
+  [Sobre as propriedades dos receptores de reconhecimento de padrões da imunidade inata, assinale a alternativa *incorreta*:],
+  (("A", [Cada receptor é gerado por recombinação somática de segmentos gênicos durante a maturação da célula, o que produz um repertório de milhões de especificidades distintas e permite expansão clonal com memória.]),
+   ("B", [São codificados na linhagem germinativa, de modo que o receptor é idêntico em todas as células que o expressam e não depende de encontro prévio com o agente para estar disponível.]),
+   ("C", [Reconhecem estruturas moleculares conservadas que o micróbio não pode perder sem prejuízo de viabilidade, como lipopolissacarídeo, peptidoglicano, flagelina e glicanos de manose terminal expostos na superfície.]),
+   ("D", [Reconhecem também moléculas próprias deslocadas de seu compartimento normal, como ATP extracelular e DNA mitocondrial citosólico, o que explica a inflamação disparada por trauma e por isquemia.]),
+   ("E", [Distribuem-se em três compartimentos — solúvel no plasma, associado a membrana e citosólico — e a localização de cada um informa em que compartimento do tecido o agente se encontra.])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens a seguir sobre a organização geral da célula bacteriana e sobre o que a distingue da célula eucariótica.],
-  (("I",   [A separação dos seres vivos em três domínios — Bactéria, Arqueia e Eucarioto — foi construída a partir da comparação de sequências do RNA ribossomal, e não de semelhanças morfológicas.]),
-   ("II",  [O ribossomo bacteriano é o 70S, formado pelas subunidades 50S e 30S; a soma dos coeficientes de sedimentação não é aritmética porque o valor depende de massa e forma da partícula.]),
-   ("III", [O cromossomo bacteriano é linear e mantém-se compactado por histonas, à semelhança do que ocorre nos nucleossomos da cromatina eucariótica.]),
-   ("IV",  [A ausência de mitocôndria obriga a bactéria a obter ATP exclusivamente por fermentação, já que nenhuma membrana da célula é capaz de sustentar cadeia transportadora de elétrons.]))
-)
+  [A família de receptores Toll-like distribui seus membros entre a membrana plasmática e o compartimento endossômico. Julgue os itens abaixo:],
+  (("I",   [Os receptores que reconhecem ácidos nucleicos virais e bacterianos localizam-se em vesículas endossômicas, e essa reclusão restringe a leitura ao material genético que chegou por endocitose.]),
+   ("II",  [O reconhecimento do lipopolissacarídeo pelo TLR4 dispensa proteínas acessórias, uma vez que o domínio extracelular do receptor acomoda o lipídeo A diretamente, sem participação de CD14 ou de MD-2.]),
+   ("III", [A via de sinalização converge na liberação do NF-κB, que migra ao núcleo e induz a transcrição de citocinas inflamatórias e de moléculas de adesão endotelial.]),
+   ("IV",  [Como o produto final da via é a transcrição de genes, o efeito biológico do estímulo do receptor aparece em horas, e não em segundos como o das aminas vasoativas pré-formadas.])))
 
 #questao-mc("04", badge-consolidacao,
-  [As bactérias espiraladas costumam ser tratadas como um grupo único, mas se subdividem em três categorias com diferenças relevantes. Sobre essas categorias, é correto afirmar:],
-  (("A", [O vibrião é um espirilo de menor comprimento, com corpo rígido e um único flagelo polar, e a distinção entre os dois é apenas de tamanho e não de estrutura de locomoção.]),
-   ("B", [A espiroqueta possui corpo rígido e se desloca por flagelos externos bipolares, o que lhe permite atravessar meios viscosos com mais eficiência do que qualquer bacilo flagelado.]),
-   ("C", [O espirilo tem corpo flexível e se move por contrações citoplasmáticas, sem apêndice locomotor externo, sendo esse o desenho de _Treponema_ e de _Leptospira_.]),
-   ("D", [As três categorias compartilham o mesmo mecanismo de locomoção, baseado em filamento axial interno que gira dentro do envelope e deforma a célula em saca-rolha.]),
-   ("E", [A espiroqueta tem corpo flexível e se move por filamentos internos ao envelope; o espirilo tem corpo rígido e flagelos externos; o vibrião tem uma única curvatura em vírgula.]))
-)
+  [Como se explica que o fluxo sanguíneo desacelere até a estase num foco inflamatório em que as arteríolas estão dilatadas e o aporte de sangue aumentou],
+  (("A", [A vasodilatação arteriolar é acompanhada de vasoconstrição venular reflexa e sustentada, e é o aumento da resistência na saída do leito que represa a coluna de sangue e reduz sua velocidade.]),
+   ("B", [O consumo local de oxigênio pelos leucócitos recrutados reduz a saturação da hemoglobina, e o sangue dessaturado tem viscosidade maior, o que por si só é suficiente para produzir a estase observada.]),
+   ("C", [A trombina gerada pela ativação do fator XII forma microtrombos de fibrina que obstruem parcialmente a luz venular, e essa obstrução mecânica progressiva é a causa primária da lentificação do fluxo.]),
+   ("D", [O aumento da permeabilidade venular deixa escapar plasma para o interstício; as hemácias ficam retidas, a fração celular do sangue sobe, a viscosidade aumenta, e sangue mais viscoso corre mais devagar.]),
+   ("E", [A dilatação arteriolar reduz a pressão de perfusão a jusante por queda da resistência total, e a menor diferença de pressão entre entrada e saída do leito capilar diminui a velocidade linear do fluxo.])))
 
 #questao-ce("05", badge-consolidacao,
-  [Julgue os itens sobre a composição e a função da parede celular bacteriana.],
-  (("I",   [O peptidoglicano é uma proteína fibrosa de cadeia longa, sendo os açúcares apenas ramificações laterais acopladas ao esqueleto proteico.]),
-   ("II",  [O esqueleto do peptidoglicano é formado pelos açúcares N-acetilglicosamina e N-acetilmurâmico alternados, com um peptídeo curto pendendo de cada unidade de N-acetilglicosamina.]),
-   ("III", [A parede existe porque o citoplasma bacteriano é hiperosmótico em relação ao meio: sem a malha que contenha a entrada de água, a célula se rompe.]),
-   ("IV",  [Vários aminoácidos do peptídeo lateral estão na forma D, configuração que dificulta a degradação por proteases do hospedeiro, que reconhecem aminoácidos L.]))
-)
+  [O aumento da permeabilidade vascular na inflamação aguda pode ser produzido por mais de um mecanismo. Julgue os itens:],
+  (("I",   [A contração da célula endotelial induzida por histamina produz aumento de permeabilidade imediato e sustentado por vários dias, porque a fenda intercelular aberta permanece independentemente da depuração do mediador.]),
+   ("II",  [A lesão endotelial direta por queimadura ou toxina produz aumento de permeabilidade imediato e sustentado, porque a recuperação depende de reparo do endotélio e não da depuração de um mediador.]),
+   ("III", [O líquido que sai por essa barreira quebrada é exsudato, rico em proteína e em células, distinto do transudato, que decorre de desequilíbrio de pressões com barreira vascular íntegra.]),
+   ("IV",  [A lesão endotelial mediada por leucócito instala-se nos primeiros segundos após o estímulo, antes mesmo do rolamento, sendo o primeiro dos três mecanismos a operar no foco.])))
 
 #questao-mc("06", badge-consolidacao,
-  [A membrana citoplasmática bacteriana tem cerca de 60% de proteína e 40% de lipídio, proporção invertida em relação à da célula humana. Sobre essa membrana, é correto afirmar:],
-  (("A", [A alta proporção de proteína decorre de essa membrana única concentrar funções que no eucarioto estão distribuídas entre mitocôndria, retículo endoplasmático e complexo de Golgi.]),
-   ("B", [A membrana bacteriana é a estrutura responsável por manter a forma da célula e por resistir à pressão osmótica interna, papel que na célula vegetal cabe à parede de celulose.]),
-   ("C", [Por não conter esteróis, a membrana bacteriana é incapaz de sustentar gradiente de prótons, e a produção de ATP passa a depender exclusivamente da fermentação no citoplasma.]),
-   ("D", [As proteínas de membrana bacteriana são majoritariamente estruturais, com função de ancoragem do peptidoglicano, e não participam de transporte nem de sinalização ambiental.]),
-   ("E", [A membrana é impermeável a qualquer soluto, e toda a captação de nutrientes ocorre por vesículas de endocitose formadas em invaginações da própria bicamada lipídica.]))
-)
+  [Qual é o papel funcional da quimiocina apresentada na superfície luminal do endotélio inflamado, durante a cascata de adesão leucocitária],
+  (("A", [Formar um gradiente de concentração no interior da luz vascular que atrai quimiotaticamente o leucócito circulante em direção à parede, substituindo a marginação física produzida pela estase do fluxo.]),
+   ("B", [Ativar a integrina que já está na membrana do leucócito, convertendo-a da conformação dobrada de baixa afinidade para a conformação estendida de alta afinidade, capaz de agarrar firmemente o ICAM-1.]),
+   ("C", [Induzir a síntese de novas moléculas de integrina no leucócito em rolamento, processo que depende de transcrição gênica e explica o intervalo de horas entre o estímulo inflamatório e a adesão firme.]),
+   ("D", [Estabilizar a ligação entre selectina endotelial e ligante leucocitário, aumentando a afinidade dessa interação até o ponto em que ela sozinha é capaz de interromper o rolamento e imobilizar a célula.]),
+   ("E", [Degradar localmente a membrana basal do vaso e a matriz adjacente, abrindo o caminho físico por onde o leucócito aderido atravessará a parede em direção ao interstício inflamado.])))
 
 #questao-ce("07", badge-consolidacao,
-  [Julgue os itens sobre a parede das bactérias Gram-positivas.],
-  (("I",   [O peptidoglicano pode representar de 15% a 60% do peso seco da célula, organizado em muitas camadas empilhadas e entrecruzadas.]),
-   ("II",  [O ácido teicoico está ligado ao peptidoglicano, enquanto o ácido lipoteicóico atravessa a parede e se ancora por uma cauda lipídica na membrana citoplasmática.]),
-   ("III", [A ausência de membrana externa implica ausência completa de espaço periplasmático nas bactérias Gram-positivas.]),
-   ("IV",  [Os ácidos teicoicos funcionam como adesinas ao epitélio do hospedeiro, regulam a atividade de autolisinas e servem de antígeno para identificação sorológica.]))
-)
+  [Sobre os mecanismos microbicidas do neutrófilo ativado no interior do fagossomo. Julgue os itens:],
+  (("I",   [A NADPH oxidase transfere elétrons ao oxigênio molecular gerando superóxido; a dismutação deste produz peróxido de hidrogênio, que a mieloperoxidase converte em hipoclorito na presença de cloreto.]),
+   ("II",  [A explosão respiratória não gera ATP: o oxigênio consumido é empregado na fabricação de oxidantes, e os elétrons usados vêm do NADPH produzido na via das pentoses-fosfato.]),
+   ("III", [A cobertura do alvo por C3b e por IgG é irrelevante para a eficiência da captura, uma vez que o receptor de manose do fagócito realiza sozinho o reconhecimento com a mesma eficácia.]),
+   ("IV",  [A armadilha extracelular do neutrófilo é composta por cromatina descondensada associada a enzimas granulares, expelida para o meio extracelular, e sua formação em geral custa a vida da célula.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Sobre o envelope das bactérias Gram-negativas, assinale a alternativa *incorreta*.],
-  (("A", [O peptidoglicano corresponde a cerca de 5% do peso seco e se resume a uma ou poucas camadas, alojadas no espaço periplasmático entre a membrana citoplasmática e a membrana externa.]),
-   ("B", [A membrana externa é assimétrica: a folha voltada para o periplasma é de fosfolipídios e a folha voltada para o meio externo é constituída de lipopolissacarídeo.]),
-   ("C", [O envelope Gram-negativo é estruturalmente mais simples que o Gram-positivo, pois a redução da espessura do peptidoglicano dispensa camadas adicionais de revestimento externo.]),
-   ("D", [As porinas são canais proteicos da membrana externa que permitem a passagem de moléculas pequenas e hidrofílicas, e sua perda é um mecanismo real de resistência a antimicrobianos.]),
-   ("E", [O espaço periplasmático é um compartimento metabolicamente ativo, contendo enzimas de degradação e proteínas de ligação a nutrientes, e não um espaço vazio entre as duas membranas.]))
-)
+  [Após a clivagem do C3 pela C3 convertase, os dois fragmentos gerados têm destinos e funções distintos. Qual alternativa descreve corretamente essa divisão],
+  (("A", [O fragmento maior, C3b, difunde-se pelo interstício e atua como anafilatoxina degranulando mastócitos, enquanto o menor, C3a, permanece ligado à superfície do alvo funcionando como opsonina.]),
+   ("B", [Ambos os fragmentos permanecem ligados covalentemente à superfície onde a convertase se formou, e a diferença entre eles está apenas na afinidade relativa pelos receptores do fagócito.]),
+   ("C", [O fragmento C3a nucleia diretamente a montagem do complexo de ataque à membrana, ao passo que o C3b é rapidamente inativado por proteínas reguladoras presentes no plasma circulante.]),
+   ("D", [Os dois fragmentos difundem-se livremente e agem como quimioatraentes de potência equivalente para o neutrófilo, sendo a opsonização realizada exclusivamente pela imunoglobulina G ligada ao antígeno.]),
+   ("E", [O fragmento maior, C3b, liga-se covalentemente à superfície e opsoniza o alvo para o fagócito, enquanto o menor, C3a, difunde-se e atua como anafilatoxina sobre mastócito e vaso.])))
 
-#questao-mc("09", badge-consolidacao,
-  [Uma amostra clínica é semeada em meio sólido diferencial contendo lactose, um indicador de pH e hemácias. Sobre o que se observa após a incubação, é correto afirmar:],
-  (("A", [Cada colônia corresponde a uma célula bacteriana que aumentou de volume até tornar-se visível, mantendo-se unicelular e adquirindo pigmento próprio à medida que envelhece no meio.]),
-   ("B", [A cor observada nas colônias corresponde ao pigmento sintetizado pela parede celular da espécie, característica constante que permite identificar o agente independentemente do meio usado.]),
-   ("C", [Cada colônia é um clone de cerca de cem milhões de células, e a cor resulta da acidificação do meio pela fermentação da lactose, detectada pelo indicador de pH incorporado ao ágar.]),
-   ("D", [O halo transparente ao redor de algumas colônias resulta da fagocitose das hemácias pelas bactérias da periferia, processo que consome o ágar e clareia a região adjacente à colônia.]),
-   ("E", [Meio seletivo e meio diferencial são sinônimos, pois ambos operam inibindo o crescimento das espécies que não interessam e deixando crescer apenas o agente que se procura isolar.]))
-)
+#questao-mc("09", badge-integracao,
+  [Em camundongo com deleção do adaptador MyD88, o endotélio da microcirculação exposto a lipopolissacarídeo não expressa E-selectina nem ICAM-1, e o recrutamento de neutrófilos fica abolido. Qual sequência explica esse fenótipo],
+  (("A", [A ausência do adaptador impede a montagem da NADPH oxidase no neutrófilo, e sem produção de oxidantes a célula não consegue aderir ao endotélio nem completar a diapedese pela junção intercelular.]),
+   ("B", [A deleção bloqueia a clivagem do C5 e suprime a produção de C5a; sem o principal quimioatraente do foco, o neutrófilo não recebe o sinal de ativação da integrina e permanece circulando na luz vascular.]),
+   ("C", [Sem o adaptador não há liberação do NF-κB; sem esse fator de transcrição, o endotélio não transcreve as moléculas de adesão induzíveis, e o leucócito perde os pontos de ancoragem necessários para parar na parede.]),
+   ("D", [A deleção impede a ativação da fosfolipase que libera ácido araquidônico, de modo que não se formam leucotrienos, e o neutrófilo deixa de expressar as selectinas necessárias ao rolamento sobre o endotélio.]),
+   ("E", [O adaptador é necessário para a exocitose dos grânulos endoteliais que contêm P-selectina pré-formada, e sem esse passo inicial de rolamento nenhuma das etapas subsequentes da cascata pode ocorrer.])))
 
-#questao-ce("10", badge-consolidacao,
-  [Julgue os itens sobre a técnica da coloração de Gram e sobre o papel de cada reagente.],
-  (("I",   [O cristal violeta é aplicado apenas às bactérias Gram-positivas e a safranina apenas às Gram-negativas, o que torna a técnica uma coloração seletiva.]),
-   ("II",  [O lugol atua como corante secundário, acrescentando um segundo pigmento que se soma ao cristal violeta e intensifica a cor final observada.]),
-   ("III", [A descoloração pelo álcool é a etapa diferencial: ela dissolve os lipídios da membrana externa da Gram-negativa e desidrata a malha espessa da Gram-positiva.]),
-   ("IV",  [A safranina penetra em todas as células, mas na Gram-positiva o roxo já retido encobre completamente o tom rosado do contracorante.]))
-)
+#questao-ce("10", badge-integracao,
+  [Um paciente internado por pneumonia apresenta proteína C reativa muito elevada. Julgue os itens sobre a relação entre reconhecimento inato e resposta hepática:],
+  (("I",   [A proteína C reativa é um receptor de padrão solúvel: liga fosfocolina exposta em parede bacteriana e em célula morta, opsoniza o alvo e ativa a via clássica do complemento.]),
+   ("II",  [A elevação plasmática decorre da síntese aumentada pelo próprio neutrófilo recrutado ao foco pulmonar, que exporta a proteína pronta para a circulação sem participação do fígado.]),
+   ("III", [Como a proteína C reativa é gerada por rearranjo somático de segmentos gênicos no hepatócito, sua especificidade aumenta a cada exposição, o que caracteriza memória humoral inata.]),
+   ("IV",  [A lectina ligadora de manose é também uma proteína de fase aguda, de modo que a resposta hepática amplifica simultaneamente duas portas distintas de ativação do complemento.])))
 
 #questao-mc("11", badge-integracao,
-  [Um antimicrobiano de peso molecular elevado e caráter hidrofóbico mostra excelente atividade contra cocos Gram-positivos e atividade nula contra bacilos Gram-negativos, mesmo quando o alvo intracelular está presente e íntegro nas duas. A melhor explicação é:],
-  (("A", [O peptidoglicano espesso da Gram-positiva funciona como reservatório que concentra a droga junto à membrana, enquanto a malha fina da Gram-negativa não retém quantidade suficiente do fármaco.]),
-   ("B", [A membrana externa da Gram-negativa é uma barreira de permeabilidade que exclui moléculas grandes e hidrofóbicas, e as porinas admitem apenas solutos pequenos e hidrofílicos.]),
-   ("C", [As bactérias Gram-negativas degradam o antimicrobiano no espaço periplasmático por meio de proteases inespecíficas, antes que ele alcance a membrana citoplasmática e o alvo interno.]),
-   ("D", [O ácido lipoteicóico da Gram-positiva atua como transportador ativo, bombeando o antimicrobiano para dentro da célula contra o gradiente de concentração estabelecido no meio.]),
-   ("E", [O lipopolissacarídeo neutraliza quimicamente a droga pela ligação covalente ao lipídio A, inativando-a antes que ela atravesse a membrana externa e alcance o periplasma.]))
-)
+  [Paciente com crise aguda de gota no hálux. A articulação está quente, vermelha e extremamente dolorosa, e o líquido sinovial mostra cristais de urato monossódico e neutrófilos abundantes. Qual encadeamento mecanístico sustenta esse quadro],
+  (("A", [O cristal fagocitado desestabiliza o fagolisossomo e dispara efluxo de potássio e espécies reativas; o NLRP3 se monta, a caspase-1 corta a pró-interleucina-1β, e a citocina madura ativa o endotélio sinovial recrutando neutrófilos.]),
+   ("B", [O cristal, por ser insolúvel, é reconhecido diretamente pelo TLR2 de superfície do sinoviócito, que sinaliza por MyD88 e induz a secreção imediata de interleucina-1β já madura estocada em grânulos citoplasmáticos.]),
+   ("C", [A hiperuricemia satura os transportadores tubulares renais e o urato circulante ativa a via clássica do complemento por ligação ao C1q, gerando C5a em quantidade suficiente para recrutar neutrófilo para a sinóvia.]),
+   ("D", [As arestas do cristal lesam mecanicamente a membrana do sinoviócito e do neutrófilo, e é o extravasamento de conteúdo citoplasmático dessas células rompidas o único mecanismo capaz de manter a resposta inflamatória.]),
+   ("E", [O cristal liga-se à albumina sinovial formando um neoantígeno reconhecido por anticorpos naturais preexistentes; o imunocomplexo depositado na cartilagem é o gatilho da resposta inflamatória local observada.])))
 
-#questao-ce("12", badge-integracao,
-  [Uma cultura contendo bactérias em plena fase de multiplicação e outra contendo a mesma espécie em estado dormente são expostas a um antibiótico beta-lactâmico. Julgue os itens.],
-  (("I",   [O beta-lactâmico inibe a transpeptidase e impede a formação de ligações cruzadas novas entre cadeias de peptidoglicano.]),
-   ("II",  [O efeito bactericida será equivalente nas duas culturas, pois o antibiótico hidrolisa diretamente as ligações já existentes entre N-acetilglicosamina e N-acetilmurâmico.]),
-   ("III", [A célula dormente é destruída com a mesma rapidez, porque o beta-lactâmico degrada quimicamente a parede já formada, sem depender da síntese de material novo.]),
-   ("IV",  [A morte da célula em crescimento ocorre por lise osmótica, já que a malha incompleta deixa de conter a entrada de água imposta pelo citoplasma hiperosmótico.]))
-)
+#questao-mc("12", badge-integracao,
+  [Durante a inflamação aguda, o leucócito abandona a coluna central de sangue e passa a trafegar rente à parede vascular. Qual é a relação entre os eventos hemodinâmicos e esse comportamento],
+  (("A", [A vasodilatação arteriolar aumenta a velocidade linear do sangue na vênula, e a força de cisalhamento elevada empurra o leucócito contra o endotélio, onde as selectinas então o capturam e iniciam o rolamento.]),
+   ("B", [A marginação é resultado exclusivo da expressão de selectinas na superfície endotelial, que capturam ativamente o leucócito na linha central do fluxo, independentemente de qualquer alteração da velocidade do sangue.]),
+   ("C", [A liberação de quimiocinas para a luz vascular cria um gradiente radial de concentração dentro do vaso, e é a quimiotaxia intraluminal ao longo desse gradiente que desloca o leucócito para a periferia da coluna.]),
+   ("D", [A perda de plasma para o interstício concentra as hemácias e eleva a viscosidade; o fluxo desacelera, e nesse regime lento o leucócito, maior e menos deformável, deixa a linha central e passa a rolar sobre a parede.]),
+   ("E", [A contração da célula endotelial reduz o calibre efetivo da vênula, e essa redução de área transversal força mecanicamente o leucócito contra a parede antes que qualquer molécula de adesão seja expressa ali.])))
 
-#questao-mc("13", badge-integracao,
-  [Uma amostra de abscesso é processada e a leitura da lâmina mostra cocos em cacho corados de rosa. A cultura, no dia seguinte, isola _Staphylococcus aureus_. A explicação mais provável para a discordância é:],
-  (("A", [Descoloração excessiva pelo álcool ou autólise de parede em material envelhecido fizeram a Gram-positiva perder o complexo cristal-violeta–iodo e aparecer como falsa Gram-negativa.]),
-   ("B", [A safranina foi aplicada antes do cristal violeta, invertendo a ordem dos reagentes e fazendo com que apenas o contracorante fosse retido pela parede espessa da Gram-positiva.]),
-   ("C", [Bactérias Gram-negativas em cultura envelhecida sintetizam peptidoglicano adicional e passam a reter o cristal violeta, o que gera resultado róseo na lâmina e roxo na cultura.]),
-   ("D", [O arranjo em cacho impede a penetração uniforme do lugol nas células do interior do agregado, de modo que apenas as células periféricas retêm o complexo corante formado.]),
-   ("E", [A presença de material purulento no esfregaço bloqueia a ação do cristal violeta, e a leitura correta exige repetir a coloração após digestão enzimática prévia da amostra.]))
-)
+#questao-ce("13", badge-integracao,
+  [Vinte minutos após uma picada de inseto, a pele apresenta pápula circundada por eritema. Julgue os itens sobre os mediadores e o mecanismo envolvidos:],
+  (("I",   [A histamina responsável pelo edema inicial estava pré-formada em grânulos do mastócito, o que explica seu efeito em segundos a minutos, sem necessidade de síntese proteica.]),
+   ("II",  [O edema decorre da contração da célula endotelial da vênula pós-capilar, com abertura de fenda intercelular, e não da dilatação de poros na membrana da célula endotelial.]),
+   ("III", [Além da ligação cruzada de IgE de superfície, as anafilatoxinas C3a e C5a, os neuropeptídeos e o trauma físico também são capazes de degranular o mastócito.]),
+   ("IV",  [O eritema que ultrapassa os limites do ponto picado só pode ser explicado por difusão passiva da histamina pelo interstício, já que a fibra sensitiva conduz o impulso apenas em direção à medula.])))
 
 #questao-mc("14", badge-integracao,
-  [Um paciente com sepse por bacilo Gram-negativo recebe a primeira dose de um antibiótico bactericida adequado e, nas horas seguintes, apresenta piora clínica com febre alta e queda pressórica. O mecanismo que melhor explica esse curso é:],
-  (("A", [O antibiótico induziu a síntese e a secreção acelerada de exotoxinas pela população bacteriana remanescente, num mecanismo de resposta ao estresse mediado pelo próprio fármaco.]),
-   ("B", [A droga selecionou uma subpopulação portadora de plasmídeo de resistência, que se multiplicou rapidamente e ampliou a carga bacteriana total nas primeiras horas de tratamento.]),
-   ("C", [O polissacarídeo O liberado das cadeias externas do lipopolissacarídeo é o componente tóxico e passa a circular livremente assim que a membrana externa é desorganizada.]),
-   ("D", [A lise bacteriana em massa liberou grande quantidade de lipídio A, peça estrutural da membrana externa, que ao ser reconhecido pela imunidade inata amplificou a cascata de citocinas.]),
-   ("E", [A queda abrupta da carga bacteriana reduziu o estímulo antigênico e desregulou o eixo febril, produzindo instabilidade térmica e vasomotora transitória sem participação de mediador algum.]))
-)
+  [Sobre a articulação entre o sistema complemento e a fagocitose no foco inflamatório, assinale a alternativa *incorreta*:],
+  (("A", [O C3b depositado covalentemente na superfície do micróbio é reconhecido por receptores de complemento do fagócito, e esse engajamento dispara a polimerização de actina que fecha o fagossomo.]),
+   ("B", [A cápsula polissacarídica de algumas bactérias dificulta a deposição estável de C3b na superfície, e é em parte por esse mecanismo que os encapsulados resistem à fagocitose eficiente.]),
+   ("C", [A lise direta pelo complexo de ataque à membrana é o principal mecanismo pelo qual o complemento elimina bactérias em geral, superando em importância clínica a opsonização e o recrutamento celular.]),
+   ("D", [O C5a acumula três funções no foco: aumenta a permeabilidade vascular, atrai o neutrófilo por quimiotaxia e ativa essa mesma célula, potencializando sua capacidade microbicida.]),
+   ("E", [A via alternativa inicia-se por hidrólise espontânea e contínua do C3 no plasma, e é a ausência de proteínas reguladoras na superfície microbiana que permite à cascata prosseguir ali.])))
 
-#questao-ce("15", badge-integracao,
-  [Um quadro de pneumonia atípica não responde a nenhum beta-lactâmico e o agente identificado é _Mycoplasma pneumoniae_. Julgue os itens.],
-  (("I",   [A ausência de parede celular retira o alvo dos antibióticos que inibem a síntese de peptidoglicano, o que torna a espécie intrinsecamente insensível a essa classe.]),
-   ("II",  [Mesmo sem parede, a célula mantém forma bacilar constante, sustentada por um citoesqueleto interno de proteínas contráteis que substitui funcionalmente o peptidoglicano.]),
-   ("III", [A resistência decorre de beta-lactamase codificada em plasmídeo, adquirida por conjugação a partir de bactérias da microbiota respiratória.]),
-   ("IV",  [A perda da parede é evento recente na linhagem e a membrana é estabilizada por uma segunda camada de peptidoglicano modificado.]))
-)
+#questao-mc("15", badge-integracao,
+  [Um politraumatizado sem qualquer foco infeccioso apresenta queda dos níveis séricos de C3 e sinais sistêmicos de inflamação. Qual mecanismo liga a lesão tecidual extensa ao consumo de complemento],
+  (("A", [O trauma expõe antígenos intracelulares que se combinam a imunoglobulina M natural, e é exclusivamente por essa via clássica dependente de anticorpo que o complemento pode ser consumido na ausência de infecção.]),
+   ("B", [A exposição de colágeno subendotelial autoativa o fator XII, que gera calicreína; a calicreína converte plasminogênio em plasmina, e a plasmina cliva diretamente o C3, gerando fragmentos ativos sem nenhuma das três vias canônicas.]),
+   ("C", [A hemorragia dilui as proteínas plasmáticas de forma proporcional, e a queda medida do C3 reflete apenas essa diluição, sem que haja consumo real por ativação da cascata do complemento no tecido.]),
+   ("D", [O tecido necrótico expõe manose terminal em glicoproteínas próprias desnaturadas, e a via das lectinas é a única capaz de consumir complemento em quadro estéril, por reconhecimento desse açúcar exposto.]),
+   ("E", [A trombina formada na coagulação inibe as proteínas reguladoras de membrana das células do hospedeiro, e o consumo observado decorre da lise autóloga de hemácias e endotélio pelo complexo de ataque à membrana.])))
 
-#questao-mc("16", badge-integracao,
-  [O escarro de um paciente com tosse crônica é submetido à coloração de Gram e nenhuma bactéria é evidenciada, apesar da suspeita clínica forte. O laboratório opta por Ziehl-Neelsen e encontra o agente. O fundamento estrutural dessa escolha é:],
-  (("A", [O agente tem envelope de bactéria Gram-negativa e largura abaixo do limite de resolução da luz visível, o que exige impregnação por prata ou observação em campo escuro.]),
-   ("B", [O agente não possui parede celular e por isso não retém nenhum dos corantes do Gram, situação em que a fucsina fenicada aquecida se liga diretamente à membrana citoplasmática.]),
-   ("C", [A parede tem arquitetura de Gram-positiva coberta por camada cerosa de ácido micólico, que impede a entrada do corante e confere resistência à descoloração por álcool-ácido.]),
-   ("D", [O agente é intracelular obrigatório e só pode ser evidenciado pelas inclusões citoplasmáticas que produz na célula hospedeira, reveladas pela coloração de Giemsa do esfregaço.]),
-   ("E", [A cápsula polissacarídica espessa afasta o corante da parede, e o aquecimento da fucsina serve para dissolver esse revestimento e permitir o contato do pigmento com o peptidoglicano.]))
-)
+#questao-ce("16", badge-integracao,
+  [Um paciente com pneumonia bacteriana apresenta temperatura de 39,2 °C e refere sensação de frio intenso com tremores no início do episódio. Julgue os itens:],
+  (("I",   [A prostaglandina E₂ que produz a febre é sintetizada no foco pulmonar e transportada pelo sangue até o hipotálamo, onde então desloca para cima o ponto de ajuste do centro termorregulador.]),
+   ("II",  [O tremor muscular e a vasoconstrição cutânea são mecanismos efetores acionados para elevar a temperatura corporal até o novo ponto de ajuste, e não consequências passivas da infecção.]),
+   ("III", [A sensação de frio com tremores no início do episódio é coerente com um ponto de ajuste já deslocado para cima enquanto a temperatura corporal ainda está abaixo do novo alvo.]),
+   ("IV",  [O antitérmico age inibindo a ciclo-oxigenase e reduzindo a síntese hipotalâmica de prostaglandina, o que faz o ponto de ajuste retornar ao valor normal.])))
 
 #questao-mc("17", badge-integracao,
-  [Numa unidade de terapia intensiva, um gene de resistência idêntico é detectado em espécies bacterianas diferentes isoladas de pacientes distintos ao longo de duas semanas. O mecanismo que melhor explica essa disseminação é:],
-  (("A", [Mutação pontual espontânea recorrente no mesmo sítio cromossômico, favorecida pela pressão seletiva do antimicrobiano usado como esquema empírico padrão da unidade.]),
-   ("B", [Transformação, com captação do DNA livre liberado por bactérias mortas pelo antibiótico, mecanismo que exige integração obrigatória do gene ao cromossomo da célula receptora.]),
-   ("C", [Transdução por bacteriófago, único mecanismo capaz de transferir material genético entre bactérias de espécies diferentes por não depender de contato físico entre as células.]),
-   ("D", [Duplicação do nucleoide seguida de segregação desigual, que gera células-filhas com número variável de cópias do gene e, portanto, com graus distintos de resistência ao fármaco.]),
-   ("E", [Conjugação mediada por pilus sexual, com transferência de cópia de plasmídeo que se replica de forma independente e pode passar entre bactérias vivas de espécies diferentes.]))
-)
+  [Em um modelo experimental, neutrófilos recrutados para o peritônio são impedidos de entrar em apoptose por bloqueio farmacológico da via apoptótica. O infiltrado persiste e o dano tecidual se agrava. Qual mecanismo explica melhor esse agravamento],
+  (("A", [Sem apoptose o neutrófilo retorna à circulação carregado de enzimas granulares, e é a redistribuição sistêmica dessas enzimas por via hematogênica que produz o dano observado em outros órgãos.]),
+   ("B", [O bloqueio da apoptose impede a montagem da NADPH oxidase no fagossomo, e o acúmulo de micro-organismos viáveis não eliminados é a causa direta da lesão progressiva do peritônio.]),
+   ("C", [A persistência do neutrófilo consome o oxigênio disponível no exsudato e a hipóxia resultante é o mecanismo primário de morte das células mesoteliais adjacentes ao infiltrado inflamatório.]),
+   ("D", [Neutrófilos que não morrem deixam de expressar selectinas e passam a bloquear mecanicamente a luz das vênulas do mesentério, e a isquemia por obstrução explica a progressão do dano tecidual.]),
+   ("E", [A remoção do neutrófilo depende da apoptose seguida de eferocitose; bloqueada essa rota, a célula evolui para necrose secundária e derrama proteases, oxidantes e moléculas de dano no tecido, perpetuando o foco.])))
 
-#questao-ce("18", badge-integracao,
-  [Uma bactéria peritríquia é colocada num meio com gradiente crescente de nutriente. Julgue os itens sobre a estrutura e o funcionamento do sistema que a leva até a fonte.],
-  (("I",   [O flagelo bacteriano ondula ao longo do próprio comprimento com gasto direto de ATP, do mesmo modo que o flagelo do espermatozoide.]),
-   ("II",  [O motor do corpo basal é movido pelo gradiente de prótons gerado pela cadeia transportadora de elétrons instalada na membrana citoplasmática.]),
-   ("III", [A célula não é capaz de comparar concentrações entre as extremidades do próprio corpo; ela compara a concentração atual com a de instantes anteriores.]),
-   ("IV",  [A flagelina é proteína estritamente estrutural e não é reconhecida pela imunidade inata, o que faz da motilidade uma vantagem sem custo imunológico para a bactéria.]))
-)
+#questao-mc("18", badge-integracao,
+  [Por que os receptores Toll-like que reconhecem ácidos nucleicos estão confinados ao compartimento endossômico, e não à membrana plasmática],
+  (("A", [Porque ácido nucleico próprio, liberado por células que morrem no tecido, circularia livremente no meio extracelular; confinar esses receptores ao endossomo condiciona a leitura ao material que chegou por endocitose.]),
+   ("B", [Porque o pH ácido do endossomo é indispensável ao pareamento de bases entre o RNA viral e o domínio de reconhecimento do receptor, reação que não ocorre no pH neutro do líquido extracelular.]),
+   ("C", [Porque esses receptores derivam evolutivamente de proteínas lisossomais e mantiveram o sinal de endereçamento ancestral, sem que a localização traga vantagem funcional relevante à resposta imune inata.]),
+   ("D", [Porque os ácidos nucleicos microbianos só adquirem a conformação reconhecível após degradação parcial por nucleases endossômicas, e o material íntegro na superfície celular seria invisível ao receptor.]),
+   ("E", [Porque a sinalização desses receptores exige o adaptador TRIF, proteína ancorada exclusivamente à face citosólica da membrana endossômica e ausente na face interna da membrana plasmática.])))
 
-#questao-mc("19", badge-integracao,
-  [Sobre a cápsula bacteriana, sua ação sobre a resposta do hospedeiro e a estratégia vacinal que dela decorre, assinale a alternativa *incorreta*.],
-  (("A", [A cápsula impede que as opsoninas depositadas pelo hospedeiro alcancem a parede, e sem esse ponto de ancoragem o receptor do fagócito não consegue estabelecer contato firme.]),
-   ("B", [A proteção conferida pela cápsula decorre da toxicidade direta do polissacarídeo capsular sobre o fagócito, que sofre lesão de membrana ao entrar em contato com a superfície bacteriana.]),
-   ("C", [A resolução da infecção por bactéria capsulada depende da produção de anticorpo específico contra o polissacarídeo da cápsula, que restabelece a opsonização eficaz do agente.]),
-   ("D", [As vacinas contra pneumococo e meningococo são construídas a partir do polissacarídeo capsular, e não da bactéria inteira, o que reflete diretamente o alvo protetor relevante.]),
-   ("E", [Embora seja mais frequente entre Gram-negativas, a cápsula também ocorre em Gram-positivas clinicamente importantes, como _Streptococcus pneumoniae_ e _Streptococcus agalactiae_.]))
-)
+#questao-ce("19", badge-integracao,
+  [Um paciente toma anti-inflamatório não esteroidal para dor articular e apresenta melhora da dor, mas desenvolve epigastralgia. Julgue os itens:],
+  (("I",   [A prostaglandina E₂ não excita diretamente o nociceptor; ela reduz o limiar de disparo dessa terminação, de modo que estímulos habitualmente indolores passam a doer.]),
+   ("II",  [A epigastralgia relaciona-se à inibição da ciclo-oxigenase constitutiva da mucosa gástrica, cujo produto estimula a secreção de muco e de bicarbonato protetores.]),
+   ("III", [O fármaco atua sobre a fosfolipase A₂, impedindo a liberação de ácido araquidônico da membrana, e por isso suprime simultaneamente prostanoides e leucotrienos.]),
+   ("IV",  [A bradicinina responsável pela dor é sintetizada localmente pelo fibroblasto a partir de aminoácidos livres e age sobre o mesmo receptor de prostaglandina que o fármaco bloqueia.])))
 
 #questao-mc("20", badge-integracao,
-  [Bactérias recolhidas do interior de um biofilme maduro sobrevivem a concentrações de antibiótico que matam a mesma cepa cultivada em meio líquido; testadas isoladamente em cultura, porém, mostram-se plenamente sensíveis. A explicação correta é:],
-  (("A", [A matriz do biofilme induz mutações no gene-alvo da droga, que revertem quando a célula é retirada do agregado e volta a crescer isoladamente em meio de cultura líquido.]),
-   ("B", [As células do biofilme adquirem plasmídeo de resistência por conjugação com as vizinhas e o perdem por segregação instável assim que são semeadas em meio sem antimicrobiano.]),
-   ("C", [A matriz sequestra quimicamente o antibiótico por ligação covalente irreversível, de modo que nenhuma molécula da droga alcança as camadas mais profundas da comunidade bacteriana.]),
-   ("D", [O biofilme aumenta a expressão de bombas de efluxo de forma permanente e herdável, transmitindo o fenótipo às gerações seguintes mesmo fora do ambiente do agregado polimérico.]),
-   ("E", [A matriz limita a penetração da droga e a difusão de nutrientes, e as células internas ficam pouco ativas — como boa parte dos antibióticos exige crescimento, há tolerância e não resistência.]))
-)
+  [Em um quadro de sepse grave, o paciente apresenta simultaneamente sangramento em locais de punção e microtrombos na microcirculação. Qual mecanismo articula a resposta inflamatória sistêmica a essa combinação aparentemente contraditória],
+  (("A", [O fator de necrose tumoral em concentração elevada lisa diretamente as plaquetas circulantes, e a plaquetopenia resultante explica o sangramento, enquanto os microtrombos derivam apenas da estase da microcirculação.]),
+   ("B", [As citocinas inflamatórias ativam a fibrinólise de forma primária e maciça, e a plasmina em excesso degrada fibrinogênio circulante, o que causa sangramento sem que haja qualquer trombose associada verdadeira.]),
+   ("C", [O lipopolissacarídeo liga-se diretamente ao fator XII e o autoativa em toda a circulação; o sangramento decorre do consumo desse fator isolado, sem participação do endotélio nem das citocinas.]),
+   ("D", [Interleucina-1 e fator de necrose tumoral induzem fator tecidual no endotélio e suprimem os anticoagulantes naturais que ele expressava; a coagulação difusa consome plaquetas e fatores, e o consumo é o que produz o sangramento.]),
+   ("E", [O óxido nítrico produzido em excesso inibe a agregação plaquetária e causa o sangramento, ao passo que os microtrombos observados são compostos apenas de leucócitos aderidos ao endotélio, sem fibrina.])))
 
-#questao-ce("21", badge-integracao,
-  [Material cirúrgico contaminado com endósporos de _Bacillus_ é submetido a diferentes processos de descontaminação. Julgue os itens.],
-  (("I",   [A resistência do endósporo ao calor decorre da desidratação profunda do núcleo, do acúmulo de dipicolinato de cálcio e das proteínas que revestem e protegem o DNA.]),
-   ("II",  [A fervura em água a 100 °C é suficiente para destruir endósporos, uma vez que a temperatura desnatura as proteínas do córtex e das capas do esporo.]),
-   ("III", [A esterilização confiável exige vapor sob pressão, tipicamente a 121 °C, condição alcançada em autoclave e não em água fervente à pressão ambiente.]),
-   ("IV",  [A esporulação é um programa genético de várias etapas, restrito a poucos gêneros, e não uma resposta improvisada de qualquer bactéria submetida a estresse.]))
-)
+#questao-mc("21", badge-integracao,
+  [Sobre o programa de resolução da inflamação aguda, assinale a alternativa *incorreta*:],
+  (("A", [A prostaglandina E₂ acumulada no foco induz a expressão da 15-lipoxigenase, o que desloca o metabolismo do ácido araquidônico da produção de leucotrieno B₄ para a produção de lipoxinas.]),
+   ("B", [As lipoxinas inibem a quimiotaxia e a adesão de neutrófilos e estimulam o macrófago a remover os restos celulares, atuando em sentido oposto ao do leucotrieno B₄.]),
+   ("C", [A resolução é essencialmente passiva: cessado o estímulo, os mediadores deixam de ser produzidos e o infiltrado se dissipa por inércia, sem que haja síntese de moléculas dedicadas ao desligamento.]),
+   ("D", [A fagocitose do neutrófilo apoptótico pelo macrófago reprograma esta célula, que passa a secretar interleucina-10 e fator de transformação do crescimento beta em vez de citocinas pró-inflamatórias.]),
+   ("E", [O desfecho depende da integridade do arcabouço de matriz: preservado, há restituição integral; destruído, o fator de transformação do crescimento beta conduz a deposição de colágeno e a cicatriz.])))
 
-#questao-mc("22", badge-integracao,
-  [O RNA ribossomal 16S ocupa dois papéis distintos na microbiologia, um taxonômico e outro terapêutico. Sobre esses dois papéis, é correto afirmar:],
-  (("A", [Ele serve de relógio filogenético por estar em todo organismo celular e mudar devagar, e é sítio de ligação de aminoglicosídeo na subunidade 30S, o que faz o ribossomo ler o código errado.]),
-   ("B", [Ele é usado na classificação por ser a molécula que mais rapidamente acumula mutações entre gerações, e é alvo dos macrolídeos, que se ligam à subunidade maior do ribossomo bacteriano.]),
-   ("C", [Ele compõe a subunidade 50S do ribossomo bacteriano e, por ser exclusivo de procariotos, garante que nenhum antibiótico que a ele se ligue produza efeito adverso no paciente tratado.]),
-   ("D", [Ele foi escolhido como marcador filogenético por ser abundante e fácil de purificar, e sua função terapêutica se restringe a servir de molde para a síntese de antibióticos peptídicos.]),
-   ("E", [Ele é encontrado apenas em bactérias de crescimento rápido e por isso permite separar espécies cultiváveis de não cultiváveis, sendo também o alvo das quinolonas na replicação do DNA.]))
-)
+#questao-ce("22", badge-integracao,
+  [Sobre a cinética das moléculas de adesão endotelial e sua relação com as citocinas do foco. Julgue os itens:],
+  (("I",   [A P-selectina depende de transcrição gênica induzida no endotélio e por isso só alcança a superfície várias horas depois do estímulo por histamina ou por trombina.]),
+   ("II",  [A E-selectina encontra-se pré-formada nos corpúsculos de Weibel-Palade e é externalizada em poucos minutos, sem necessidade de síntese proteica nova.]),
+   ("III", [O ICAM-1 tem expressão basal baixa que aumenta acentuadamente sob estímulo de interleucina-1 e de fator de necrose tumoral, e é esse incremento que sustenta a adesão firme.]),
+   ("IV",  [A ligação da integrina VLA-4 ao VCAM-1 favorece o recrutamento de monócitos e linfócitos, contribuindo para a mudança do perfil do infiltrado ao longo dos dias.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma paciente jovem apresenta pielonefrite aguda por _Escherichia coli_. A explicação estrutural mais direta para a bactéria ter alcançado o parênquima renal a partir do intestino é:],
-  (("A", [A produção de exotoxina que paralisa o peristaltismo ureteral, permitindo refluxo passivo do conteúdo vesical até a pelve renal e implantação do agente no interstício.]),
-   ("B", [A presença de cápsula polissacarídica, que impede a fagocitose pelas células do urotélio e permite a permanência prolongada da bactéria na luz da bexiga até atingir o rim.]),
-   ("C", [A capacidade de formar endósporos resistentes ao pH ácido da urina, que germinam ao alcançar o ambiente menos hostil da pelve renal e reiniciam a multiplicação bacteriana.]),
-   ("D", [A motilidade conferida por flagelos peritríquios, único mecanismo capaz de vencer o fluxo urinário, uma vez que estruturas de adesão não resistem à força de arrasto da urina.]),
-   ("E", [A presença de fímbrias cuja adesina reconhece receptor específico do epitélio urinário, o que fixa a bactéria contra o fluxo da urina e permite a colonização ascendente até o rim.]))
-)
+  [Uma célula que morre por piroptose amplifica a inflamação de modo muito mais intenso do que uma célula que morre por apoptose. Qual é a base mecanística dessa diferença],
+  (("A", [O fragmento amino-terminal da gasdermina D forma poro na membrana; a célula incha, rompe e derrama no interstício conteúdo citosólico rico em moléculas de dano, além de liberar a interleucina-1β madura.]),
+   ("B", [A piroptose consome as reservas de ATP da célula muito mais rapidamente, e é a depleção energética do tecido vizinho, com falência das bombas iônicas, o que amplifica a resposta inflamatória local observada.]),
+   ("C", [Na piroptose a célula expõe fosfatidilserina na face externa da membrana com densidade muito maior, e esse sinal em excesso ativa o macrófago para um perfil pró-inflamatório sustentado no foco.]),
+   ("D", [A caspase-1 ativada difunde para o meio extracelular e cliva diretamente componentes da matriz, e são os fragmentos de matriz gerados por essa protease os principais responsáveis pela amplificação do processo.]),
+   ("E", [A piroptose ocorre preferencialmente em células endoteliais, e é a perda de integridade da barreira vascular, e não o conteúdo liberado pela célula morta, o que amplifica a resposta inflamatória no tecido.])))
 
-#questao-ce("24", badge-integracao,
-  [Uma lâmina de líquido cefalorraquidiano é lida em regime de urgência e mostra diplococos corados de rosa. Julgue os itens sobre o que essa leitura permite concluir e sobre o que ela não permite.],
-  (("I",   [O arranjo em par indica que as células se agregaram no líquor por afinidade de superfície, e não que se dividiram num único plano com separação incompleta.]),
-   ("II",  [A leitura entrega o grupo — coco Gram-negativo — mas não a espécie, que depende de cultura, teste bioquímico ou método molecular.]),
-   ("III", [A informação obtida em minutos é suficiente para orientar a escolha do esquema antimicrobiano inicial, antes que a cultura fique pronta.]),
-   ("IV",  [A ausência de bactérias visíveis numa bacterioscopia excluiria infecção bacteriana, já que o método detecta cargas de qualquer magnitude.]))
-)
+#questao-mc("24", badge-integracao,
+  [O infiltrado de um foco inflamatório agudo é predominantemente neutrofílico nas primeiras horas e passa a predominantemente macrofágico entre doze e quarenta e oito horas. O que explica essa substituição],
+  (("A", [O macrófago fagocita seletivamente os neutrófilos viáveis do foco e os elimina de forma ativa, e essa depuração dirigida é o mecanismo que impõe a troca do elenco celular observada no tecido.]),
+   ("B", [O neutrófilo migra do tecido de volta para a luz vascular assim que o estímulo perde intensidade, retornando à circulação, ao passo que o macrófago é incapaz de fazer esse trajeto reverso.]),
+   ("C", [A expressão de selectinas no endotélio cai abruptamente após seis horas, o que impede qualquer novo recrutamento de neutrófilos, enquanto o macrófago atravessa a parede por mecanismo independente de adesão.]),
+   ("D", [O neutrófilo vive poucas horas no tecido e entra em apoptose por relógio interno, sem ser reposto; o macrófago responde a quimiocinas de expressão mais tardia, sobrevive dias e acaba herdando o foco.]),
+   ("E", [A queda progressiva do oxigênio no exsudato inviabiliza o metabolismo do neutrófilo, que é estritamente dependente de fosforilação oxidativa, ao contrário do macrófago, que sustenta sua função por glicólise anaeróbia.])))
 
-#questao-mc("25", badge-integracao,
-  [Uma enterobactéria é semeada em meio sólido com lactose e indicador de pH, e produz colônias coradas. Ligando o transporte de membrana ao resultado observado na placa, é correto afirmar:],
-  (("A", [A cor da colônia é o pigmento que a bactéria exporta pela membrana citoplasmática por meio de transporte ativo primário, dependente da hidrólise direta de ATP pela bomba.]),
-   ("B", [A lactose entra por endocitose mediada por receptor, é degradada em vacúolo digestivo e os produtos ácidos são devolvidos ao meio, alterando o pH ao redor da colônia.]),
-   ("C", [A ausência de organelas impede que a bactéria fermente lactose, de modo que a cor observada resulta apenas da degradação do indicador de pH pelas enzimas hidrolíticas secretadas.]),
-   ("D", [A translocação de grupo transporta a lactose sem modificá-la quimicamente, e é essa integridade da molécula que permite sua reexportação e a acidificação do meio circundante.]),
-   ("E", [O açúcar é captado por transportador da membrana, muitas vezes com modificação química na travessia que impede o retorno, e a fermentação acidifica o meio e vira a cor do indicador.]))
-)
+#questao-ce("25", badge-integracao,
+  [Sobre a ação das anafilatoxinas do complemento sobre o mastócito e a microcirculação. Julgue os itens:],
+  (("I",   [O C5a e o C3a degranulam o mastócito por receptor próprio, o que libera histamina pré-formada e conecta a ativação do complemento ao aumento imediato da permeabilidade venular.]),
+   ("II",  [Entre os fragmentos gerados, o C3a é a anafilatoxina mais potente e o único com função quimiotática relevante sobre o neutrófilo, papel que o C5a praticamente não desempenha.]),
+   ("III", [A degranulação do mastócito por anafilatoxina exige sensibilização prévia por IgE específica, razão pela qual esse mecanismo só opera em indivíduos previamente alergizados.]),
+   ("IV",  [A histamina liberada age no receptor H1 do músculo liso arteriolar promovendo vasoconstrição, o que reduz o fluxo local e limita a formação de edema no território afetado.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um jardineiro de 54 anos sofre ferimento perfurante profundo com ferramenta enferrujada e procura atendimento tardiamente, com trismo e rigidez de nuca. Sobre a estrutura bacteriana que explica esse quadro, é correto afirmar:],
-  (("A", [A bactéria alcançou a ferida na forma vegetativa e sobreviveu no solo graças à cápsula polissacarídica, que a protege da dessecação e da fagocitose no tecido lesado.]),
-   ("B", [O agente persiste no solo como endósporo, forma latente e desidratada; no tecido desvitalizado e pouco oxigenado ele germina e a célula vegetativa passa a secretar a toxina.]),
-   ("C", [O endósporo é a forma reprodutiva da bactéria: ao germinar na ferida, cada esporo origina várias células-filhas, e essa multiplicação explica a rapidez da instalação do quadro.]),
-   ("D", [A resistência do agente no ambiente decorre da camada de ácido micólico da parede, que também impede a fagocitose no sítio da lesão e retarda a resposta inflamatória local.]),
-   ("E", [A toxina responsável pelo quadro é a endotoxina liberada da membrana externa do agente quando ele se rompe no tecido, o que explica a instalação tardia da manifestação clínica.]))
-)
+  [Menino de 4 anos com abscessos cutâneos de repetição por #emph[Staphylococcus aureus] e #emph[Serratia]. O teste funcional do neutrófilo mostra produção de oxidantes muito reduzida; a contagem de neutrófilos e as moléculas de adesão são normais. Qual etapa está comprometida],
+  (("A", [O rolamento sobre o endotélio, por deficiência de ligante de selectina no leucócito, o que impede a marginação e reduz a chegada de neutrófilo ao foco apesar da contagem sanguínea normal.]),
+   ("B", [A geração de superóxido pela NADPH oxidase no fagossomo, de modo que não se formam peróxido nem hipoclorito e o micro-organismo fagocitado sobrevive dentro da célula que o engoliu.]),
+   ("C", [A opsonização do alvo por C3b, por deficiência de componente inicial da via alternativa do complemento, o que torna a captura lenta e ineficiente mesmo com neutrófilos plenamente funcionais.]),
+   ("D", [A quimiotaxia ao longo do gradiente tecidual, por defeito do receptor de peptídeos formilados, o que mantém o neutrófilo próximo ao vaso e distante do sítio real de multiplicação bacteriana.]),
+   ("E", [A fusão do grânulo azurófilo com o fagossomo, o que impede a entrega de mieloperoxidase e defensinas ao compartimento onde o micro-organismo fagocitado se encontra confinado.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Uma _Salmonella_ isolada de hemocultura é caracterizada como móvel, positiva para antígeno H e positiva para antígeno K. Sobre a relação entre esses marcadores e as estruturas bacterianas, assinale a alternativa *incorreta*.],
-  (("A", [O antígeno H corresponde à flagelina, proteína que compõe o filamento do flagelo, e sua detecção é compatível com a caracterização da amostra como bactéria móvel.]),
-   ("B", [O antígeno K corresponde ao polissacarídeo da cápsula, camada depositada por fora do envelope que dificulta a opsonização e, com ela, a fagocitose do agente.]),
-   ("C", [O antígeno O corresponde ao polissacarídeo externo do lipopolissacarídeo, e sua variabilidade entre cepas é o que sustenta a sorotipagem desse componente da membrana externa.]),
-   ("D", [O antígeno H é conferido pelas fímbrias de adesão, estruturas curtas e numerosas que também são responsáveis pela motilidade observada nos testes de mobilidade em meio semissólido.]),
-   ("E", [A porção tóxica do lipopolissacarídeo é o lipídio A, ancorado na membrana externa, e não o polissacarídeo O, que responde pela variabilidade antigênica entre as cepas.]))
-)
+  [Paciente asmático usa ácido acetilsalicílico para cefaleia e desenvolve broncoespasmo intenso em minutos, sem urticária e sem hipotensão. Qual mecanismo explica melhor esse desfecho],
+  (("A", [Reação de hipersensibilidade mediada por IgE específica contra o salicilato, com degranulação maciça de mastócito brônquico e liberação de histamina suficiente para contrair o músculo liso das vias aéreas.]),
+   ("B", [Inibição da fosfolipase A₂ pelo fármaco, que suprime a produção de prostaciclina broncodilatadora e deixa o tônus da via aérea sob domínio exclusivo da inervação colinérgica parassimpática.]),
+   ("C", [Ativação direta do complemento pelo fármaco, com geração de C5a em quantidade suficiente para degranular mastócitos da mucosa brônquica e produzir contração da musculatura lisa respiratória.]),
+   ("D", [Acetilação irreversível da mieloperoxidase do eosinófilo brônquico, o que aumenta a produção local de espécies reativas e desencadeia contração da musculatura lisa por lesão epitelial oxidativa.]),
+   ("E", [Bloqueio da ciclo-oxigenase com acúmulo de ácido araquidônico, que é desviado para a 5-lipoxigenase; o excesso de cisteinil-leucotrienos contrai o músculo liso brônquico com potência muito superior à da histamina.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Um paciente internado evolui com febre, hipotensão e hemocultura positiva para bacilo Gram-negativo produtor de beta-lactamase codificada em plasmídeo. Julgue os itens.],
-  (("I",   [A hipotensão decorre da ação direta do polissacarídeo O sobre o músculo liso vascular, independentemente de mediadores inflamatórios do hospedeiro.]),
-   ("II",  [O plasmídeo que carrega o gene de resistência é indispensável à viabilidade da bactéria, já que replica junto com o cromossomo e sob o mesmo controle.]),
-   ("III", [A febre e a vasodilatação resultam do reconhecimento do lipídio A pela imunidade inata, com liberação de citocinas inflamatórias.]),
-   ("IV",  [O gene de resistência pode ser transferido a bactérias de outras espécies por conjugação, sem que cada uma precise adquiri-lo por mutação própria.]))
-)
+  [Homem de 62 anos com bacteriemia por Gram-negativo apresenta pressão arterial de 70/40 mmHg que não responde a volume, edema difuso e plaquetopenia. Julgue os itens sobre a fisiopatologia do quadro:],
+  (("I",   [A hipotensão refratária decorre exclusivamente da perda absoluta de volume intravascular para o interstício, sem participação de vasodilatação sistêmica mediada por óxido nítrico.]),
+   ("II",  [O edema difuso decorre de lesão endotelial direta produzida pelo lipopolissacarídeo em todos os leitos, mecanismo distinto da contração endotelial que opera no foco localizado.]),
+   ("III", [A plaquetopenia decorre do consumo de plaquetas na coagulação intravascular disseminada, desencadeada pelo fator tecidual induzido no endotélio sob ação das citocinas.]),
+   ("IV",  [O lipopolissacarídeo é reconhecido no citosol do macrófago pelo NOD2, e é essa via, e não o TLR4 de superfície, que dispara a liberação sistêmica de citocinas na sepse.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 38 anos com tosse por dois meses, febre vespertina e emagrecimento. A bacterioscopia do escarro pelo Gram é considerada não informativa e o laboratório processa a amostra por outra técnica, encontrando bacilos vermelhos sobre fundo azul. A leitura correta é:],
-  (("A", [Trata-se de bactéria sem parede celular, que por isso não retém corante algum no Gram e só é evidenciada por técnicas que coram diretamente a membrana citoplasmática.]),
-   ("B", [Trata-se de bactéria Gram-negativa cuja membrana externa foi dissolvida durante o preparo, o que explica a perda do corante primário e a coloração avermelhada final.]),
-   ("C", [O achado indica bactéria capsulada, e o fundo azul corresponde ao polissacarídeo capsular corado pelo azul de metileno enquanto a célula retém a fucsina fenicada.]),
-   ("D", [O achado é inespecífico, pois qualquer bactéria retém fucsina após aquecimento, e a confirmação depende exclusivamente do resultado da cultura em meio próprio.]),
-   ("E", [Trata-se de bacilo álcool-ácido resistente: a parede rica em ácido micólico retém a fucsina mesmo após descoloração por álcool-ácido, e os debris coram-se com azul de metileno.]))
-)
+  [Uma criança apresenta infecções bacterianas graves de repetição desde o nascimento, com cicatrização lenta do coto umbilical e feridas sem pus, apesar de leucometria persistentemente acima de 30.000 por mm³. A biópsia da lesão cutânea mostra pouquíssimos neutrófilos no tecido, embora as vênulas estejam repletas deles. Qual defeito molecular explica esse conjunto],
+  (("A", [Deficiência da subunidade comum das integrinas leucocitárias: o neutrófilo rola normalmente, mas não converte o rolamento em adesão firme ao ICAM-1, não atravessa a parede e permanece na circulação, o que produz leucocitose sem pus.]),
+   ("B", [Deficiência de mieloperoxidase no grânulo azurófilo, o que impede a conversão de peróxido em hipoclorito e torna o neutrófilo incapaz de eliminar o micro-organismo já fagocitado no interior do fagossomo.]),
+   ("C", [Deficiência dos componentes terminais do complemento, com incapacidade de montar o complexo de ataque à membrana, o que compromete a lise direta das bactérias e explica a gravidade e a recorrência das infecções.]),
+   ("D", [Defeito na sinalização do TLR4 por ausência do adaptador MyD88, o que abole a produção de citocinas inflamatórias e impede o reconhecimento de bactérias Gram-negativas pelo macrófago residente do tecido.]),
+   ("E", [Deficiência da NADPH oxidase fagocitária, com incapacidade de gerar superóxido, o que permite ao micro-organismo sobreviver dentro do fagócito e leva à formação de granulomas nos sítios de infecção.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Paciente em uso prolongado de cateter venoso central apresenta febre persistente. As hemoculturas isolam _Staphylococcus epidermidis_ sensível ao antimicrobiano prescrito, mas a febre não cede com o tratamento adequado mantido por dias. A conduta e sua justificativa mecanística são:],
-  (("A", [Manter o cateter e dobrar a dose, pois a falha decorre de concentração sérica insuficiente para atingir bactérias aderidas ao endotélio adjacente ao dispositivo implantado.]),
-   ("B", [Trocar por antimicrobiano de outra classe, pois a sensibilidade demonstrada em cultura indica erro de identificação da espécie e não corresponde ao agente realmente presente.]),
-   ("C", [Retirar o cateter, pois há biofilme aderido ao dispositivo: a matriz limita a penetração da droga e as células internas, pouco ativas, escapam de antibióticos que exigem crescimento.]),
-   ("D", [Manter a conduta e aguardar, uma vez que a espécie isolada compõe a microbiota da pele e o achado em hemocultura de paciente com cateter é sempre contaminação de coleta.]),
-   ("E", [Associar um segundo antimicrobiano com ação sobre parede, pois a falha se explica pela produção de beta-lactamase induzida pela permanência prolongada do dispositivo no vaso.]))
-)
+  [Homem de 45 anos sofre queimadura de segundo grau em 20% da superfície corporal. Nas primeiras horas há edema intenso e persistente na área queimada; ao terceiro dia, o exame histológico mostra infiltrado predominantemente macrofágico e início de deposição de matriz. Qual sequência mecanística descreve corretamente esses dois momentos],
+  (("A", [O edema inicial resulta de contração endotelial mediada por histamina, de curta duração; o infiltrado macrofágico do terceiro dia decorre do retorno dos neutrófilos à circulação, que abre espaço para o monócito recrutado.]),
+   ("B", [O edema inicial decorre de queda isolada da pressão oncótica plasmática por perda de albumina pela superfície queimada, e o infiltrado tardio reflete apenas a proliferação local de macrófagos residentes do tecido.]),
+   ("C", [O edema inicial vem de lesão endotelial direta, imediata e sustentada porque depende de reparo do endotélio; o predomínio macrofágico tardio decorre da apoptose não reposta do neutrófilo e da eferocitose, que reprograma o macrófago para o reparo.]),
+   ("D", [O edema inicial é mediado por leucotrienos liberados pelo neutrófilo já aderido à parede vascular, e o infiltrado do terceiro dia representa a segunda onda de neutrófilos atraída pelo leucotrieno B₄ acumulado na ferida.]),
+   ("E", [O edema inicial decorre de obstrução linfática pelo calor, sem alteração da permeabilidade vascular, e o infiltrado macrofágico tardio é resposta à infecção secundária que se instala invariavelmente na área desvitalizada.])))
