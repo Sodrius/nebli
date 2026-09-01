@@ -1,301 +1,319 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Uma bactéria é uma célula com poucos micrômetros de comprimento, sem núcleo, sem mitocôndria e sem retículo endoplasmático — e mesmo assim ela precisa resolver os mesmos problemas que qualquer célula viva resolve: não estourar, produzir energia, copiar o próprio material genético, chegar aonde tem comida e escapar de quem quer destruí-la. Como ela não tem organelas para dividir esse trabalho, tudo é resolvido por poucas estruturas que acumulam funções. É por isso que esta aula tem uma lógica única do começo ao fim: *cada estrutura da bactéria é a resposta física a um problema de sobrevivência* — e é também, por consequência direta, o que permite identificá-la no laboratório, o que explica por que ela adoece o hospedeiro, e o que o antibiótico vai atacar.
+Uma bactéria no seu intestino carrega mais ou menos quatro mil genes e, a qualquer momento, usa uma fração pequena deles. Fabricar proteína é a coisa mais cara que uma célula faz: cada ligação peptídica custa energia, ocupa um ribossomo e consome aminoácidos que poderiam virar outra coisa. Uma bactéria que produzisse todas as suas enzimas o tempo todo seria varrida por qualquer vizinha que só produzisse o necessário. É por isso que existe regulação — e, em procariotos, ela se concentra quase toda num único ponto: a decisão de iniciar ou não a transcrição de um bloco de genes.
 
-Guarde essa ordem, porque ela organiza as três PARTES. A PARTE I mostra o que a bactéria revela quando você simplesmente olha para ela — a olho nu na placa de cultura e ao microscópio na lâmina. A PARTE II abre o envelope: membrana e parede, a estrutura que divide praticamente todas as bactérias de interesse médico em dois grandes grupos e que decide o resultado da coloração mais usada da microbiologia. A PARTE III percorre as demais estruturas, que não estão em todas as bactérias e por isso mesmo são as que diferenciam comportamento: material genético móvel, motilidade, adesão, disfarce e resistência.
+Este resumo constrói esse mecanismo em três movimentos. Na PARTE I montamos a peça de hardware: o que é um operon, como o DNA bacteriano é pontuado e por que uma sequência de DNA e uma proteína reguladora obedecem a regras opostas. Na PARTE II entra o controle negativo — o repressor que segura o operon desligado, a molécula que o solta, e a genética de bancada que provou tudo isso antes de existir sequenciamento. Na PARTE III entra o controle positivo, que é onde o modelo fica realmente interessante: um promotor deliberadamente fraco, um ativador que responde ao nível de açúcar, e uma decisão que só sai ligada quando duas condições independentes são satisfeitas ao mesmo tempo.
 ]
 
-#parte-title("PARTE I — A bactéria e o que ela mostra", primeira: true)
+#parte-title("PARTE I — A lógica do operon e a gramática do DNA bacteriano", primeira: true)
 
-#subtopico("1.1 Procarioto: o que viver sem núcleo obriga")
+#subtopico("1.1 — Por que uma bactéria regula, e quanto ela regula")
 
-A separação mais profunda entre os seres vivos não é entre planta e animal, nem entre micróbio e organismo grande. É entre três linhagens que se afastaram há bilhões de anos: *Bactéria*, *Arqueia* e *Eucarioto*. Essa divisão em três domínios foi proposta por Carl Woese em 1977 e não veio de olhar formas ao microscópio — veio de comparar sequências de #sigla("rRNA", [RNA ribossomal — o RNA que compõe o ribossomo, presente em todo ser vivo]). O raciocínio é elegante e vale entender, porque a mesma ferramenta reaparece o tempo todo no laboratório: o gene do rRNA existe em absolutamente todo organismo celular e muda muito devagar ao longo do tempo evolutivo. Duas linhagens que se separaram há pouco acumularam poucas diferenças nessa sequência; duas que se separaram há muito acumularam muitas. Contar diferenças, portanto, é medir tempo.
+Regular expressão gênica é decidir quanto de cada proteína existe na célula num dado momento. Em bactéria, essa decisão é tomada quase inteiramente na largada: a célula controla se a #sigla("RNAP", [RNA polimerase — enzima que copia uma fita de DNA em RNA]) inicia ou não a transcrição de um trecho do genoma. Não há núcleo separando transcrição de tradução, o mRNA bacteriano dura poucos minutos e o ribossomo começa a traduzir a extremidade 5' enquanto a polimerase ainda copia a 3'. Quem controla a iniciação controla, na prática, tudo o que vem depois.
 
-Na prática o procedimento é curto: extrai-se o #sigla("DNA", [ácido desoxirribonucleico — molécula que guarda a informação genética]) das células, amplifica-se por #sigla("PCR", [reação em cadeia da polimerase — técnica que produz milhões de cópias de um trecho definido de DNA]) o gene que codifica o rRNA, sequencia-se esse gene e alinha-se a sequência obtida com as de outros organismos. Um algoritmo compara base a base e desenha a árvore. Foi assim que se descobriu algo contraintuitivo: a arqueia, que a olho de microscópio parece uma bactéria qualquer, é geneticamente mais próxima de nós do que da bactéria. *O ponto fino é que semelhança de aparência e parentesco evolutivo são coisas diferentes* — e a molécula, não a forma, é quem arbitra.
+O ganho é energético e é grande. Uma #emph[Escherichia coli] crescendo em glicose não tem nenhum motivo para fabricar a enzima que quebra lactose: seriam mil e poucos aminoácidos gastos por molécula de enzima, multiplicados por milhares de cópias, para catalisar uma reação cujo substrato não está lá. Quando a lactose aparece e a glicose acaba, a mesma célula precisa dessa enzima em minutos. Regulação é o que permite os dois comportamentos no mesmo genoma.
 
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-04.png",
-  largura: 66%,
-  legenda: [Os três domínios da vida e a tecnologia que os revelou. À esquerda, a árvore que separa Bactéria, Arqueia e Eucarioto a partir de um ancestral comum. À direita, o caminho concreto: extrair DNA, amplificar o gene do rRNA, sequenciar e alinhar. As bases destacadas em amarelo são as diferenças acumuladas — quanto mais diferenças entre dois organismos, mais tempo desde que se separaram.])
+A amplitude dessa regulação é o número que vale guardar: *a transcrição do bloco da lactose cai cerca de mil vezes quando o açúcar está ausente*. Mil vezes, não infinitas vezes. Essa distinção parece detalhe e não é — o resíduo que sobra no estado desligado tem função, e vamos precisar dele em 2.2 para explicar como o sistema consegue sair do repouso. Guarde por enquanto que "operon desligado" significa transcrição residual, nunca transcrição nula.
 
-O que interessa clinicamente vem do prefixo "pro-cario": *antes do núcleo*. A bactéria não tem envoltório nuclear, e essa ausência única encadeia uma série de consequências. Sem membrana separando o material genético do citoplasma, o ribossomo alcança o #sigla("RNA", [ácido ribonucleico — cópia de trabalho da informação genética]) mensageiro enquanto ele ainda está sendo transcrito: transcrição e tradução acontecem acopladas, no mesmo lugar e ao mesmo tempo. É por isso que uma bactéria responde a uma mudança do meio em minutos, fabricando a enzima nova quase junto com a decisão de fabricá-la. Sem mitocôndria, a cadeia transportadora de elétrons e a produção de #sigla("ATP", [adenosina trifosfato — a moeda energética da célula]) migram para a membrana citoplasmática, que assim acumula uma função que em nós é terceirizada. Sem retículo nem complexo de Golgi, a síntese e a exportação de macromoléculas também passam por essa mesma membrana.
+#mini-resumo[Proteína é cara → a bactéria só fabrica o que o meio pede → o ponto de controle é a iniciação da transcrição → a amplitude é de ~1000×, não de zero a tudo.]
 
-O material genético em si é um cromossomo circular, único, sem histonas e sem envoltório, concentrado numa região do citoplasma que se chama nucleoide. Ele mede cerca de mil vezes o comprimento da célula que o abriga, e só cabe ali porque está torcido sobre si mesmo em superenovelamento. *Nada disso é curiosidade de taxonomia:* toda a farmacologia antibacteriana nasce dessas diferenças. Um antibiótico útil é aquele que ataca uma peça que a bactéria tem e nós não — a parede, o ribossomo de tipo bacteriano, a enzima que desenrola o cromossomo circular.
+#subtopico("1.2 — A pontuação do DNA bacteriano e o mRNA policistrônico")
 
-#mini-resumo[Sem núcleo e sem organelas, a bactéria concentra na membrana e em poucas estruturas funções que o eucarioto distribui — e é justamente cada uma dessas peças exclusivas que vira alvo de antibiótico.]
+Um texto sem pontuação é ilegível não porque falte conteúdo, mas porque falta a marcação de onde cada unidade começa e termina. O DNA tem o mesmo problema, e o resolve com sinais de sequência que a maquinaria lê como pontuação. O #termo-nota[promotor][trecho de DNA a montante do gene onde a RNA polimerase se posiciona antes de começar a copiar] é o sinal de início: é ali que a polimerase pousa. A primeira base efetivamente copiada recebe o número +1, e tudo que está antes dela ganha coordenada negativa — o que estiver 35 pares de base antes do início é a posição -35. No fim do trecho há um terminador, que sinaliza à polimerase para soltar o molde.
 
-#subtopico("1.2 Da amostra ao grupo: por que a estrutura abre o diagnóstico")
-
-Tudo o que vem nas próximas páginas — espessura de parede, presença de cápsula, tipo de apêndice — ganha sentido prático num único cenário: um paciente com suspeita de infecção bacteriana, e um médico que precisa decidir o tratamento hoje. O caminho do laboratório tem duas velocidades muito diferentes, e entender essa diferença é entender por que morfologia e estrutura ainda são as primeiras coisas que se olha, num tempo de sequenciamento genômico.
-
-A primeira etapa é rápida. Colhe-se o material do sítio suspeito — escarro, urina, líquor, sangue, secreção de ferida — e prepara-se um esfregaço numa lâmina. Uma coloração e alguns minutos ao #sigla("M.O.", [microscópio óptico — o microscópio de luz visível do laboratório de rotina]) já entregam duas informações: a *forma* da bactéria e a *resposta dela à coloração de Gram*. Cruzando as duas, o material sai da lâmina classificado em um de quatro grandes grupos — coco Gram-positivo, coco Gram-negativo, bacilo Gram-positivo, bacilo Gram-negativo. Não é o nome da espécie, mas é um recorte enorme: cada um desses quatro grupos tem um repertório previsível de agentes e uma sensibilidade previsível a classes de antimicrobianos. É com essa informação, e só com ela, que se escolhe o tratamento inicial.
-
-A segunda etapa é lenta e específica. A mesma amostra vai para cultura em meio sólido, e daí para testes bioquímicos que identificam a espécie, teste de sensibilidade a antimicrobianos, pesquisa de anticorpos, amplificação de ácido nucleico por PCR e, quando necessário, sequenciamento de trechos ou do genoma inteiro. Esse conjunto entrega o nome exato e o perfil de sensibilidade — mas cobra de um a vários dias, porque quase tudo depende de a bactéria crescer primeiro. *O preço dessa espera é clínico:* numa meningite ou numa sepse, o intervalo entre a coleta e o resultado da cultura é exatamente o intervalo em que o paciente pode morrer sem tratamento.
-
-Vale registrar as limitações de cada velocidade, porque elas são simétricas. A leitura da lâmina é barata, imediata e universal, mas não dá espécie nem sensibilidade, e precisa de uma carga bacteriana razoável na amostra — abaixo de dezenas de milhares de bactérias por mililitro, simplesmente não se vê nada, e não ver não é o mesmo que não haver. A cultura é específica e permite testar antimicrobianos, mas demora e falha quando a bactéria é de crescimento lento, exigente ou intracelular obrigatória. O método molecular é o mais sensível de todos e detecta até bactéria já morta pelo antibiótico — vantagem quando o paciente já foi medicado, desvantagem quando se quer saber se o agente ainda está vivo, e ele não informa sensibilidade a droga nenhuma.
-
-#mini-resumo[Se você só lembrar de uma coisa: a morfologia e a coloração entregam em minutos o grupo que orienta o tratamento inicial; a cultura entrega em dias o nome e a sensibilidade que o ajustam.]
-
-#subtopico("1.3 Morfologia macroscópica: a colônia como clone visível")
-
-Pense numa única bactéria depositada sobre a superfície de um meio de cultura sólido, com nutrientes e temperatura adequados. Ela se divide em duas, as duas em quatro, as quatro em oito. Cada geração leva dezenas de minutos em espécies de crescimento rápido, e as células filhas não se afastam: ficam empilhadas onde a mãe estava. Ao fim de uma noite de incubação, aquela célula invisível virou um monte esbranquiçado de poucos milímetros, perfeitamente visível a olho nu. Esse monte é a *colônia*, e ele contém cerca de cem milhões de células.
-
-A frase que importa aqui é que a colônia é um *clone*: todas aquelas células descendem de uma só e, salvo mutação, são geneticamente idênticas. É essa propriedade que faz da placa de cultura um instrumento e não apenas um cultivo. Semeando uma amostra clínica de modo que as bactérias fiquem separadas na superfície, cada bactéria original vira uma colônia própria, e uma amostra que era uma mistura de espécies vira um tabuleiro de populações puras, cada uma disponível para ser estudada isoladamente. *Esse é o gesto fundador da bacteriologia:* separar no espaço o que estava misturado no líquido.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-08.png",
-  largura: 58%,
-  legenda: [Morfologia macroscópica. À esquerda, uma amostra de solo semeada em meio sólido — cada colônia veio de uma célula. À direita, meios diferenciais: as cores separam enterobactérias que fermentam lactose das que não fermentam, e os halos ao redor das colônias de estreptococo mostram graus distintos de destruição das hemácias do meio.])
-
-A colônia também *fala*, e é aqui que o meio de cultura deixa de ser suporte passivo. Num meio diferencial, adiciona-se um açúcar e um indicador de pH. A bactéria que fermenta aquele açúcar acidifica o meio ao redor de si, o indicador vira de cor, e a colônia aparece colorida; a que não fermenta permanece incolor. A cor, portanto, não é a cor da bactéria — *é o metabolismo dela traduzido em pigmento*, e isso separa grupos inteiros de enterobactérias numa única placa. O mesmo princípio, com outra química, produz a leitura da hemólise: quando a espécie secreta uma toxina que perfura a membrana das hemácias incorporadas ao ágar, forma-se ao redor da colônia um halo transparente, e o tamanho e o aspecto desse halo distinguem grupos de estreptococos. Repare no encadeamento: a toxina difunde pelo gel, atinge hemácias a distância e as rompe — ou seja, o halo é a exotoxina tornada visível.
-
-Uma distinção que costuma se embaralhar merece ser desfeita antes de seguir. Meio *seletivo* e meio *diferencial* não são a mesma coisa. O seletivo contém um inibidor — sal em alta concentração, um corante, um antibiótico — que impede o crescimento de tudo o que não interessa; ele filtra. O diferencial deixa todo mundo crescer e separa por aparência; ele revela. Muitos meios usados na rotina fazem as duas coisas ao mesmo tempo, o que ajuda a confundir, mas são propriedades independentes.
-
-#subtopico("1.4 Morfologia microscópica: forma, arranjo e escala")
-
-Sob o microscópio, a variedade morfológica das bactérias é surpreendentemente pequena, e a razão disso é estrutural: quem impõe a geometria não é a membrana, que é fluida e não sustenta nada, mas a malha rígida de peptidoglicano que a envolve. Retire essa malha e qualquer bactéria vira uma esfera, porque a esfera é a forma que a pressão interna produz quando não há nada para contrariá-la. Toda a classificação por forma que vem a seguir é, no fundo, uma classificação da parede.
-
-Três formas básicas cobrem quase tudo. O *coco* é esférico ou ovalado, com cerca de um micrômetro de diâmetro. O *bacilo* é alongado, tipicamente dois a três micrômetros de comprimento por um de largura. E as *espiraladas* são curvas ou helicoidais, com uma subdivisão que vale separar com cuidado, porque as três subclasses se movem de maneiras diferentes. O *vibrião* tem uma única curvatura, em forma de vírgula, e o exemplo clássico é o agente do cólera. O *espirilo* tem corpo rígido em hélice e nada com flagelos externos, presos nas duas extremidades. A *espiroqueta* também é helicoidal, mas o corpo é flexível e a locomoção vem de filamentos internos que giram dentro do próprio envelope, deformando a célula em saca-rolha — é o desenho de *Treponema*, *Leptospira* e *Borrelia*, e ele permite avançar em meio viscoso onde uma bactéria de flagelo externo travaria.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-10.png",
-  largura: 72%,
-  legenda: [Formas e arranjos. Em cima, os arranjos de cocos: isolados, em cadeia (estreptococos), em cacho (estafilococos) e aos pares (diplococos). À esquerda, bacilos isolados e em cadeia. À direita, as três subclasses de espiraladas com seus representantes — repare que espiroqueta, espirilo e vibrião diferem menos na forma do que no modo de se mover.])
-
-O *arranjo* é a segunda camada de informação, e ele não descreve bactérias que se juntaram: descreve como elas se dividiram. Quando o coco se divide sempre no mesmo plano e as células filhas não se separam por completo, o resultado é uma cadeia — o estreptococo. Quando ele se divide em planos sucessivamente diferentes, forma-se um cacho irregular — o estafilococo. Quando as células se separam após um único par, tem-se o diplococo. *Dito de outro modo: o arranjo é o registro fóssil do plano de divisão*, e por isso é uma característica estável da espécie, útil na identificação. O mesmo vale para bacilos que permanecem enfileirados, os estreptobacilos.
-
-Falta a escala, e ela decide o que é possível ver. O vírus influenza tem cerca de 200 nanômetros de diâmetro e está abaixo do limite de resolução da luz visível — nenhum microscópio óptico o mostra, é preciso microscópio eletrônico. A bactéria, com um a três micrômetros, é visível ao microscópio óptico, mas só no limite: exige objetiva de 100 vezes combinada à ocular de 10, um aumento total de mil vezes, e óleo de imersão. O fungo, com dez a quarenta micrômetros, é confortavelmente visto com objetiva de 40 e aumento total de 400 vezes. *O detalhe que se costuma perder é o papel do óleo:* ele não aumenta nada. Ao substituir a camada de ar entre a lâmina e a objetiva por um meio com índice de refração parecido com o do vidro, ele impede que os raios mais inclinados se desviem e se percam — recupera resolução, que é a capacidade de separar dois pontos vizinhos. Aumentar sem resolver apenas amplia o borrão.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-09.png",
-  largura: 62%,
-  legenda: [As três escalas lado a lado. O vírus só aparece ao microscópio eletrônico; a bactéria exige mil vezes de aumento com óleo de imersão; o fungo é visto com 400 vezes. Repare na diferença de tamanho entre o coco de 1 µm e a levedura de dezenas de micrômetros — é a mesma distância que separa uma bola de tênis de um carro.])
-
-Com forma, arranjo e escala na mão, falta a informação que divide o mundo bacteriano ao meio — e ela não está na aparência da célula, está na composição da parede que a envolve. É para lá que a PARTE II vai.
-
-#parte-title("PARTE II — Membrana e parede: o envelope que divide o mundo bacteriano")
-
-#subtopico("2.1 A membrana citoplasmática concentra o que o eucarioto distribui")
-
-A PARTE I fechou com a ideia de que a forma da bactéria é imposta pela parede. Antes de chegar à parede, porém, é preciso passar pela camada que fica logo abaixo dela e que é, essa sim, universal: a membrana citoplasmática. Toda bactéria tem uma, sem exceção, e a composição dela já anuncia o desvio em relação ao que se conhece da célula humana. São cerca de 40% de fosfolipídios formando a bicamada — uma folha dupla com as caudas gordurosas voltadas para dentro e as cabeças com carga voltadas para a água — e cerca de 60% de proteínas mergulhadas nessa bicamada. É uma membrana *proteica* muito mais do que a nossa, e a razão é funcional.
-
-#figura-lateral("/figuras/micro-01-morfologia-estrutura-bacterias/slide-12.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [A proporção invertida — mais proteína que lipídio — não é detalhe de composição. Ela existe porque essa única membrana carrega, sozinha, funções que na célula eucariótica estão espalhadas por mitocôndria, retículo endoplasmático e complexo de Golgi. Cada função extra significa mais proteínas ancoradas na bicamada.],
-  legenda: [Membrana citoplasmática bacteriana: proteínas (60%) imersas numa bicamada de fosfolipídios (40%).])
-
-Vale percorrer essas funções, porque cada uma reaparece adiante. A primeira é o *transporte de solutos*, e ela tem três modos. Na difusão facilitada, a molécula desce o gradiente por um poro proteico, sem gasto. No transporte ativo, a célula gasta energia para puxar a molécula contra o gradiente. E há um terceiro modo que não existe em nós e merece atenção: a *translocação de grupo*, em que a molécula é quimicamente modificada durante a travessia — a glicose entra já fosforilada. A vantagem é sutil e decisiva: a glicose fosforilada não é reconhecida pelo transportador e portanto não consegue sair, de modo que a modificação química funciona como catraca.
-
-A segunda função é a *produção de energia*. É na membrana citoplasmática que se instala a cadeia transportadora de elétrons e a fosforilação oxidativa — o mesmo processo que em nós ocorre na membrana interna da mitocôndria. Elétrons descem por uma fila de proteínas, cada passagem bombeia prótons para fora da célula, e o gradiente de prótons acumulado é gasto para fabricar ATP. Guarde esse gradiente: ele vai reaparecer na PARTE III como o motor que gira o flagelo. A terceira função é a *biossíntese de macromoléculas* — os próprios lipídios da membrana, o peptidoglicano da parede, os ácidos teicoicos, os polissacarídeos que serão exportados — e é também na membrana que se ancora o complexo que duplica o DNA. A quarta é a *excreção de enzimas hidrolíticas*, que digerem no meio externo o que é grande demais para atravessar. E a quinta é a *taxia*: os sensores que detectam gradientes de nutriente ou de luz são proteínas de membrana.
-
-#mini-resumo[Uma membrana só, carregando transporte, respiração, biossíntese de parede, secreção e sensoriamento — é por concentrar tudo isso que ela tem 60% de proteína.]
-
-#subtopico("2.2 Peptidoglicano: a malha que segura a pressão osmótica")
-
-O citoplasma bacteriano é uma solução concentradíssima de íons, açúcares, aminoácidos e proteínas, muito mais concentrada do que a água do meio em que a bactéria costuma viver. Pela osmose, a água entra sem parar, e a pressão interna que resulta disso chega a vários atmosferas — pressão comparável à de um pneu de caminhão. Uma bicamada de fosfolipídios não aguenta isso por um segundo. A solução bacteriana é envolver a membrana numa malha externa rígida, e essa malha é o #termo-nota[peptidoglicano][polímero misto de açúcares e peptídeos, exclusivo de bactéria; também chamado mureína], ou #termo-nota[mureína][sinônimo de peptidoglicano, do latim _murus_, muro].
-
-A construção dela é simples de descrever e vale ser vista com cuidado, porque três antibióticos importantes atacam exatamente essa construção. O esqueleto é uma cadeia de açúcares alternados: #sigla("NAG", [N-acetilglicosamina — um dos dois açúcares alternados do peptidoglicano]) e #sigla("NAM", [N-acetilmurâmico — o outro açúcar, que carrega o peptídeo lateral]), NAG, NAM, NAG, NAM, indefinidamente. De cada NAM pende um peptídeo curto de quatro aminoácidos — em geral L-alanina, D-glutamato, um aminoácido básico e D-alanina. Essas cadeias paralelas de açúcar são então costuradas umas às outras por ligações entre os peptídeos laterais, e é essa costura, feita por uma enzima chamada transpeptidase, que transforma fios soltos numa rede tridimensional.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-18.png",
-  largura: 60%,
-  legenda: [Peptidoglicano. Em cima, o esqueleto de NAG e NAM alternados, com o tetrapeptídeo pendendo de cada NAM e as pontes que ligam uma cadeia à vizinha. Embaixo, o monômero isolado. É essa costura entre cadeias — e só ela — que a penicilina impede de acontecer.])
-
-Duas observações fecham o mecanismo. A primeira é que a malha ligada em rede é, funcionalmente, *uma única macromolécula* envolvendo a célula inteira, como uma sacola de náilon tecida sem costura. Isso explica por que quebrar relativamente poucas ligações já compromete o conjunto. A segunda é a presença de aminoácidos na forma D, que é rara na natureza: as proteases do hospedeiro e de outros micro-organismos reconhecem aminoácidos L, e usar D é uma defesa química contra digestão.
-
-À primeira vista, parece natural pensar que a lisozima da lágrima e a penicilina fazem a mesma coisa, já que ambas destroem a parede. O caminho de cada uma, porém, é oposto — e a diferença tem consequência clínica direta.
-
-#confusao-prevista(
-  titulo: "Lisozima desmonta; penicilina impede montar",
-  aluno_acha: [aluno junta as duas como "substâncias que destroem a parede"],
-  mecanismo: [a *lisozima* é uma enzima que hidrolisa a ligação já existente entre NAG e NAM — ela corta o esqueleto pronto, e por isso age em bactéria parada. A *penicilina* e os demais beta-lactâmicos inibem a transpeptidase, impedindo que a ligação cruzada *nova* se forme. Como só se forma ligação nova em célula que está crescendo e dividindo, o beta-lactâmico só mata bactéria em multiplicação — e é inútil contra uma população dormente.],
-)
-
-#mini-resumo[O que ficou de pé: a parede existe para conter a entrada de água por osmose. Sem ela, a célula não murcha — ela estoura.]
-
-#subtopico("2.3 Gram-positivas: parede espessa e ácidos teicoicos")
-
-Se a parede é uma sacola tecida, a diferença entre os dois grandes grupos bacterianos é a espessura do tecido e o que existe por fora dele. Na bactéria Gram-positiva, o tecido é grosso: o peptidoglicano representa de 15% a 60% do peso seco da célula e se organiza em muitas camadas empilhadas e entrecruzadas, formando um bloco de dezenas de nanômetros. Por fora dessa parede não há mais nada — a parede é a superfície da célula, em contato direto com o meio.
-
-Atravessando essa espessura toda, dois polímeros aparecem exclusivamente aqui e vale distingui-los com precisão, porque os nomes são quase iguais e a diferença é de ancoragem. O #termo-nota[ácido teicoico][polímero de ribitol ou glicerol ligado ao peptidoglicano, exclusivo de Gram-positivas] está preso ao próprio peptidoglicano. O #termo-nota[ácido lipoteicóico][variante do ácido teicoico ancorada por uma cauda lipídica na membrana citoplasmática] atravessa a parede toda e ancora-se, por uma cauda lipídica, na membrana citoplasmática abaixo — costurando parede e membrana num conjunto só.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-19.png",
-  largura: 58%,
-  legenda: [Envelope Gram-positivo. As muitas camadas de peptidoglicano formam o bloco espesso; os ácidos teicoicos (presos à parede) e lipoteicoicos (ancorados na membrana) atravessam a malha como estacas. À direita, cocos Gram-positivos em cacho corados de roxo — a espessura desta parede é exatamente o que produz aquela cor.])
-
-Esses polímeros não são enchimento estrutural. Eles carregam carga negativa densa, e cada uma das propriedades que decorre disso tem consequência prática. A carga retém cátions divalentes junto à superfície, o que mantém a concentração local de magnésio e cálcio de que várias enzimas de parede dependem. Ela regula a atividade das autolisinas — as enzimas que a própria bactéria usa para abrir brechas na malha e inserir material novo durante o crescimento, um processo que precisa ser controlado com precisão, já que autolisina descontrolada mata a célula. Os ácidos teicoicos funcionam também como adesinas, ajudando a bactéria a grudar no epitélio do hospedeiro, e servem de sítio de ancoragem para bacteriófagos. E, por serem moléculas de superfície variáveis entre espécies, são antígenos — a base da identificação sorológica de vários Gram-positivos.
-
-Um esclarecimento antes de seguir, porque ele previne um erro comum de raciocínio: não ter membrana externa não significa não ter periplasma. A Gram-positiva tem sim um espaço periplasmático entre a membrana citoplasmática e a parede, apenas mais estreito e menos compartimentalizado que o da Gram-negativa. E, sobretudo, não ter endotoxina não significa ser inofensiva. O peptidoglicano e o ácido teicoico são potentes indutores de inflamação por conta própria, e várias Gram-positivas causam doença sobretudo por exotoxinas secretadas — o tétano, o botulismo e a gangrena gasosa são quadros de toxina, não de invasão.
-
-#clinica-box("Gram-positivas e o que elas causam", [Vale ancorar os nomes nos quadros para que a classificação não fique abstrata. Entre os cocos, o *Staphylococcus aureus* — em cacho — causa infecções de pele e pneumonia; o *Streptococcus pneumoniae* — em par — causa pneumonia e meningite; o *Enterococcus* domina infecções do trato urinário em ambiente hospitalar. Entre os bacilos, o gênero *Clostridium* responde por tétano, botulismo e gangrena gasosa, o *Bacillus* por intoxicação alimentar e antraz, e a *Listeria* por infecção alimentar com predileção por gestante e imunossuprimido. Repare no padrão: nos cocos predomina a invasão do tecido; nos bacilos formadores de esporo, predomina o efeito de toxina — o que faz sentido, já que o esporo permite que a bactéria chegue ao alimento ou à ferida em estado latente, germine ali e secrete.])
-
-#subtopico("2.4 Gram-negativas: parede fina, membrana externa e LPS")
-
-Aqui a intuição costuma derrapar. Como se aprende que a Gram-negativa tem "parede fina", é natural concluir que o envelope dela seja mais simples. É o contrário: *o envelope Gram-negativo é o mais complexo dos dois*. O que é fino é apenas o peptidoglicano, que representa cerca de 5% do peso seco e se resume a uma ou poucas camadas. Em compensação, existe uma terceira estrutura que a Gram-positiva não tem — uma segunda membrana, por fora da parede, chamada membrana externa.
-
-Isso cria três compartimentos em vez de dois. De dentro para fora: membrana citoplasmática, depois o *espaço periplasmático*, onde flutua a fina camada de peptidoglicano junto com enzimas de degradação e proteínas de ligação a nutrientes, e depois a membrana externa. O periplasma não é vazio — é um compartimento metabólico ativo, uma espécie de antecâmara onde a célula processa o que capturou antes de deixar entrar.
-
-A membrana externa merece atenção porque ela é assimétrica, e a assimetria é o ponto decisivo. A folha voltada para o periplasma é de fosfolipídios comuns. A folha voltada para o meio externo é feita de #sigla("LPS", [lipopolissacarídeo — molécula exclusiva da folha externa da membrana externa de Gram-negativas]). Como o LPS é uma molécula grande e densamente empacotada, a membrana externa funciona como uma barreira seletiva bem mais fechada que uma bicamada comum: moléculas grandes e hidrofóbicas simplesmente não passam. A célula compensa isso com *porinas*, proteínas em forma de canal que deixam passar moléculas pequenas e hidrofílicas. *O preço dessa arquitetura é farmacológico:* vários antibióticos eficazes contra Gram-positivas não alcançam o alvo em Gram-negativas porque não atravessam a membrana externa — e mutações que fecham porinas são um mecanismo real de resistência.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-23.png",
-  largura: 70%,
-  legenda: [Envelope Gram-negativo em detalhe. De baixo para cima: membrana citoplasmática, periplasma com a fina camada de peptidoglicano, e a membrana externa assimétrica — fosfolipídio na folha interna, LPS na externa. O LPS tem três partes: lipídio A ancorado na membrana, o núcleo de açúcares e o polissacarídeo O projetado para fora. A porina é o canal que deixa passar molécula pequena.])
-
-O LPS tem três partes, e separá-las é o que evita o erro mais comum sobre endotoxina. A parte externa, projetada para o meio, é o *polissacarídeo O* — cadeias repetidas de açúcares, altamente variáveis entre cepas da mesma espécie. Ele é o antígeno O, e é sobre ele que se baseia a sorotipagem de salmonelas e escherichias. No meio vem o *núcleo* de açúcares, mais conservado. E ancorado na bicamada está o #termo-nota[lipídeo A][porção lipídica do LPS, responsável por toda a toxicidade da endotoxina], que é a *endotoxina* propriamente dita.
-
-O mecanismo pelo qual o lipídio A adoece o hospedeiro vale ser percorrido inteiro, porque ele explica um quadro clínico completo. Receptores da imunidade inata nas células de defesa reconhecem o lipídio A como assinatura inequívoca de bactéria Gram-negativa. O reconhecimento dispara a liberação maciça de citocinas inflamatórias, que atuam no centro termorregulador produzindo febre, dilatam os vasos e aumentam a permeabilidade capilar. Vasodilatação difusa somada a extravasamento de líquido derruba a pressão arterial; a queda de perfusão leva a hipóxia tecidual, acidose e falência de órgãos. É o choque séptico, e ele nasce de uma molécula estrutural da bactéria.
-
-#atencao-box("A endotoxina é estrutura, não secreção — e por isso pode piorar com o tratamento", [A distinção entre exotoxina e endotoxina não é vocabulário: ela muda o que se espera do paciente. A *exotoxina* é uma proteína que a bactéria fabrica e secreta ativamente; é específica, muito potente, e pode ser neutralizada por antitoxina. A *endotoxina* é o lipídio A, uma peça estrutural da membrana externa que a bactéria não secreta — ela só é apresentada em massa ao hospedeiro quando a bactéria se rompe. A consequência é contraintuitiva e clinicamente real: ao administrar um antibiótico que lisa bactérias Gram-negativas em grande número, libera-se de uma vez uma carga enorme de lipídio A, e o paciente pode piorar nas horas seguintes ao início do tratamento correto. Quem lê endotoxina como "toxina que a Gram-negativa produz" não consegue prever esse fenômeno.])
-
-#clinica-box("Gram-negativas e o que elas causam", [Os representantes mais frequentes seguem uma lógica de porta de entrada. Do trato digestivo vêm a *Escherichia coli* — gastroenterite, intoxicação alimentar e, por via ascendente, infecção urinária —, a *Salmonella*, a *Shigella* e o *Vibrio cholerae* do cólera. Da via respiratória e das mucosas vêm a *Neisseria*, responsável por meningite e gonorreia, e a *Legionella*. Em todos, dois traços estruturais se repetem: o LPS que produz a resposta inflamatória sistêmica e apêndices de adesão que decidem qual mucosa a bactéria consegue colonizar. É por isso que, diante de um paciente com febre alta, hipotensão e bacilos Gram-negativos no material, o raciocínio pula direto para endotoxina.])
-
-#subtopico("2.5 A coloração de Gram: a técnica que lê a parede")
-
-Com as duas arquiteturas descritas, a coloração descrita por Christian Gram em 1884 deixa de ser um protocolo a decorar e vira consequência previsível. O ponto de partida é o que mais se perde: *todas as bactérias da lâmina recebem os mesmos quatro reagentes, na mesma ordem, pelo mesmo tempo*. Não existe um corante para Gram-positiva e outro para Gram-negativa. Quem decide a cor final é a parede.
-
-O primeiro reagente é o *cristal violeta*, um corante básico que atravessa qualquer envelope e cora todas as células de roxo. Nesse momento, a lâmina inteira está roxa e nada foi distinguido ainda. O segundo é o *lugol*, solução de iodo — e ele não é corante, é *mordente*: o iodo reage com o cristal violeta dentro da célula formando um complexo muito maior que a molécula original. A lâmina continua toda roxa, mas agora o pigmento está aprisionado em partículas grandes demais para atravessar uma malha apertada. Sem essa etapa, o passo seguinte descoraria as duas.
-
-O terceiro reagente é o *álcool*, e é aqui que a coloração acontece de fato. Nas duas paredes, ele age de modo oposto. Na Gram-negativa, o álcool dissolve os lipídios da membrana externa e a desorganiza, abrindo brechas; sem essa barreira, e com apenas uma ou poucas camadas de peptidoglicano, o complexo cristal-violeta–iodo escapa e a célula fica incolor. Na Gram-positiva, o álcool desidrata a espessa malha de peptidoglicano, o que a faz encolher e fechar os poros; o complexo, grande, fica preso lá dentro e a célula permanece roxa. *Este é o passo diferencial, e ele é o único cronometrado do procedimento*, porque descolorir por tempo demais arranca o pigmento também da Gram-positiva.
-
-O quarto reagente é a *safranina*, ou fucsina, um contracorante rosa-avermelhado. Ele entra em todas as células, mas na Gram-positiva o roxo já instalado o encobre completamente. O resultado final, portanto, é: Gram-positiva roxa, Gram-negativa rosa — e a Gram-negativa é rosa porque *perdeu* o roxo, não porque recebeu um corante próprio.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-16.png",
-  largura: 72%,
-  legenda: [A coloração de Gram passo a passo. Repare na coluna do meio: até a etapa do iodo, todas as células estão roxas. É a descoloração pelo álcool que separa — a Gram-negativa fica incolor e só reaparece com a safranina. À esquerda, o desenho do envelope que explica o resultado: a membrana externa vermelha da Gram-negativa é justamente o que o álcool dissolve.])
-
-Duas armadilhas técnicas decorrem diretamente desse mecanismo e explicam a maioria dos resultados discordantes na rotina. A primeira já foi dita: descoloração excessiva transforma Gram-positiva em falso Gram-negativa. A segunda tem a ver com a idade da amostra — em cultura velha, a Gram-positiva sofre autólise, a parede perde integridade, e a célula deixa de reter o complexo. Nos dois casos, o erro é sempre na mesma direção: *Gram-positiva pode aparecer como negativa; o inverso praticamente não acontece*, porque não há mecanismo que faça uma parede fina reter o corante.
-
-#subtopico("2.6 As quatro fugas do Gram")
-
-A coloração de Gram cobre a grande maioria das bactérias de interesse médico, mas não todas — e as exceções não são caprichos taxonômicos. Cada uma escapa por um motivo estrutural distinto, e reconhecer o motivo é o que indica o método alternativo. São quatro situações, e vale percorrê-las porque cada uma corresponde a doenças importantes.
-
-A primeira é a das *micobactérias*, agentes da tuberculose e da hanseníase. A arquitetura de parede delas é de Gram-positiva — peptidoglicano em quantidade razoável —, mas por cima dessa parede existe uma camada espessa e cerosa de #termo-nota[ácido micólico][ácido graxo de cadeia muito longa que forma a camada cerosa da parede das micobactérias], que impede o corante de entrar. A solução é forçar: na coloração de Ziehl-Neelsen, cobre-se a lâmina com fucsina fenicada e *aquece-se* até emitir vapores, o que amolece a cera e permite a entrada do corante. Em seguida vem a etapa que dá nome ao achado: descolora-se com álcool-ácido, um agente bem mais agressivo que o álcool do Gram. A micobactéria retém a fucsina mesmo assim, e por isso é chamada de #sigla("BAAR", [bacilo álcool-ácido resistente — bactéria que retém a fucsina após descoloração por álcool-ácido]). Contracora-se com azul de metileno, e o resultado é inconfundível: bacilos vermelhos sobre fundo azul. *O gesto conceitual é outro:* o Gram testa a espessura da parede, o Ziehl-Neelsen testa a impermeabilidade da cera.
-
-A segunda é a das *espiroquetas* — *Treponema pallidum* da sífilis, *Leptospira* da leptospirose. O envelope delas é de Gram-negativa, e o corante até entra; o problema é a largura. São células longas mas finíssimas, abaixo do limite de resolução do microscópio óptico, de modo que a bactéria corada continua invisível. As saídas são três, e todas contornam o mesmo obstáculo. Pode-se *espessar* a célula por impregnação com íons de prata, que se depositam na superfície e engrossam o perfil. Pode-se mudar a iluminação para *microscopia de campo escuro*, bloqueando os raios centrais de modo que apenas luz oblíqua atinja a amostra — a bactéria aparece brilhante sobre fundo preto, como poeira num facho de luz. Ou pode-se marcá-la com anticorpo acoplado a fluoróforo, a #sigla("IFD", [imunofluorescência direta — marcação do agente com anticorpo específico ligado a um fluoróforo]).
-
-A terceira é a da *Chlamydia trachomatis*, a bactéria sexualmente transmissível mais frequente e causa importante de infertilidade feminina. Ela tem morfologia de Gram-negativa, mas é *intracelular obrigatória* e muito pequena: não cresce fora da célula hospedeira e não é vista como bactéria livre. O que se observa é o efeito dela sobre a célula infectada — inclusões citoplasmáticas granulosas e densas, evidenciadas pela coloração de Giemsa, exatamente como se procede numa infecção viral. Na prática atual, o diagnóstico é molecular. E há um agravante epidemiológico que decorre da própria biologia: a infecção é frequentemente assintomática, de modo que a lesão tubária se instala sem aviso.
-
-A quarta é a mais radical. *Mycoplasma* e *Ureaplasma* não se coram pelo Gram por uma razão simples: *não têm parede celular*. Não é perda recente nem defeito — a linhagem nunca teve, e a membrana é estabilizada por esteróis incorporados do hospedeiro. Duas consequências vêm juntas. Sem parede, não há forma definida: a célula é pleomórfica e muito pequena, com cerca de 0,3 µm, menor que a maioria das bactérias. E, mais importante, *não há alvo* para nenhum antibiótico que ataque a síntese de parede — o micoplasma é intrinsecamente insensível a beta-lactâmicos, e prescrever um deles nessa infecção é prescrever nada.
-
-#mini-resumo[Em uma frase: micobactéria escapa por cera, espiroqueta por espessura, clamídia por viver dentro da célula, e micoplasma por não ter parede — quatro motivos diferentes, quatro soluções diferentes.]
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-29.png",
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-04.png",
   largura: 52%,
-  legenda: [Micobactéria e Ziehl-Neelsen. A parede rica em ácido micólico impede a entrada do corante do Gram; a fucsina fenicada aquecida atravessa a cera e, uma vez dentro, resiste à descoloração por álcool-ácido. Os bacilos vermelhos sobre fundo azul do escarro são a leitura do BAAR.])
+  legenda: [A pontuação mínima de uma unidade transcricional: promotor, o sítio +1 de início e o terminador. Toda coordenada que aparecer daqui pra frente conta a partir do +1.])
 
-Com o envelope descrito e os dois grandes grupos separados, o que resta são as estruturas que *nem toda* bactéria tem — e é exatamente por não serem universais que elas explicam por que espécies com o mesmo Gram e a mesma forma se comportam de maneiras tão diferentes.
+O detalhe que separa bactéria de célula humana é o que cabe entre um promotor e um terminador. Em eucariotos, a regra geral é um promotor para um gene. Em bactéria, um único promotor pode servir a vários genes enfileirados, e a transcrição atravessa todos eles de uma vez, produzindo um mRNA único que carrega várias mensagens em sequência — um #termo-nota[mRNA policistrônico][RNA mensageiro que contém as sequências codificantes de mais de uma proteína, transcritas a partir de um só promotor]. É essa arquitetura que permite coordenar genes: se as três enzimas de uma via metabólica estão no mesmo transcrito, ligar uma é necessariamente ligar as três.
 
-#parte-title("PARTE III — As estruturas que definem o comportamento")
-
-#subtopico("3.1 Nucleoide e plasmídeo: dois genomas com destinos diferentes")
-
-Tudo o que vem nesta PARTE prepara um ponto que só fecha no fim dela: duas bactérias podem ter a mesma forma e o mesmo resultado no Gram e ainda assim causar doenças completamente diferentes. A diferença está nas estruturas *não universais* — e a primeira delas é genética.
-
-O genoma principal da bactéria é o cromossomo, uma molécula de DNA de fita dupla, circular e única, concentrada na região chamada *nucleoide*. Vale insistir no que essa palavra não significa: não há envoltório, não há histonas organizando o DNA em nucleossomos, não há separação física do citoplasma. A compactação vem de superenovelamento — o DNA torcido sobre o próprio eixo — auxiliado por proteínas associadas. O detalhe importa porque a enzima que administra esse superenovelamento, a DNA girase, não tem equivalente em nós, e é justamente o alvo da classe das quinolonas.
-
-Ao lado do cromossomo, muitas bactérias carregam *plasmídeos*: moléculas de DNA também circulares, muito menores, que se replicam de forma independente porque têm origem de replicação própria. A independência é o traço definidor. O plasmídeo não é um fragmento solto do cromossomo — ele é um genoma acessório, e a célula sobrevive perfeitamente sem ele. O que ele carrega é o que é útil em circunstância específica: genes de resistência a antimicrobianos, fatores de virulência, enzimas metabólicas incomuns.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-34.png",
-  largura: 46%,
-  legenda: [Os dois genomas. O nucleoide, com o cromossomo circular único superenovelado, ocupa a região central; os plasmídeos são anéis muito menores, dispersos, que se replicam por conta própria e podem ser transferidos de uma célula a outra.])
-
-A consequência mais pesada dessa arquitetura é que o plasmídeo é *móvel*. E aqui vale organizar os três modos pelos quais uma bactéria adquire DNA de fora, porque tratar tudo como "conjugação" é o erro mais comum do tema. Na *transformação*, a célula capta DNA livre no meio, liberado por outra bactéria que morreu. Na *transdução*, um bacteriófago carrega, por engano, um pedaço de DNA bacteriano de uma célula para a próxima que infectar. Na *conjugação*, duas células se conectam fisicamente por um apêndice e uma cópia do plasmídeo passa de uma para a outra. *A diferença que muda tudo é a última:* a conjugação transfere genes entre bactérias vivas, inclusive entre espécies diferentes, e é por isso que a resistência a antibiótico se espalha por uma população hospitalar numa velocidade que nenhuma mutação isolada explicaria.
-
-#subtopico("3.2 Ribossomo 70S: a diferença que o antibiótico explora")
-
-O ribossomo é a peça mais conservada da vida, presente em absolutamente todas as células, e mesmo assim ele difere entre bactéria e eucarioto o suficiente para sustentar classes inteiras de antibióticos. O ribossomo bacteriano é o *70S*, formado por duas subunidades — a maior de 50S, com rRNA 23S e 5S mais cerca de trinta proteínas, e a menor de 30S, com rRNA 16S mais cerca de vinte proteínas. O nosso é o *80S*, com subunidades de 60S e 40S.
-
-Antes de seguir, um esclarecimento que evita uma conta errada e frequente: o "S" é o coeficiente de sedimentação de Svedberg, que mede a velocidade com que a partícula sedimenta numa ultracentrífuga. Ele depende de massa *e* de forma juntas, e por isso não é aditivo — 50S mais 30S dá 70S, e não 80S, sem que haja erro em lugar nenhum.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-35.png",
-  largura: 58%,
-  legenda: [Ribossomo procariótico e eucariótico montados a partir de seus rRNA e proteínas. Em cima, 50S mais 30S formam o 70S bacteriano; embaixo, 60S mais 40S formam o 80S eucariótico. É essa diferença estrutural — não de eficiência — que dá seletividade a boa parte dos antibióticos.])
-
-A diferença estrutural entre 70S e 80S é a base da *toxicidade seletiva*: um antibiótico que se encaixa no 70S trava a síntese proteica da bactéria e passa ao largo do nosso 80S. Os aminoglicosídeos ligam-se ao rRNA 16S da subunidade 30S e fazem o ribossomo ler o código incorretamente, produzindo proteínas defeituosas; os macrolídeos ligam-se à 50S e bloqueiam o avanço da cadeia peptídica. *A parte fina, que a estrutura explica, é o efeito adverso:* a mitocôndria humana tem ribossomos do tipo bacteriano, herança da origem dela, e por isso as reações tóxicas dessas drogas se concentram justamente em tecidos de alta demanda mitocondrial.
-
-O mesmo 16S que serve de alvo é, como se viu na PARTE I, o marcador que desenha a árvore da vida. Uma molécula só, dois usos: régua evolutiva e alvo terapêutico.
-
-#subtopico("3.3 Flagelo: motilidade e taxia")
-
-Imagine um barco a motor com uma hélice na popa — não um remo que bate, mas uma hélice que gira continuamente. O flagelo bacteriano é literalmente isso, e a distinção não é estética: o flagelo do espermatozoide ondula, dobrando-se ao longo do comprimento com gasto direto de ATP, enquanto o flagelo bacteriano é rígido e *gira* em torno da base, empurrando a célula como uma hélice empurra o barco. Bactérias móveis atingem de 200 a 500 micrômetros por segundo — algo como cinquenta a cem vezes o próprio comprimento por segundo.
-
-Três partes compõem a estrutura. O *corpo basal* é o motor, ancorado na membrana citoplasmática e atravessando as camadas do envelope; ele é movido não por ATP, mas pelo gradiente de prótons que a cadeia respiratória acumulou — os prótons voltando para dentro fazem o rotor girar, exatamente como água caindo faz girar uma roda-d'água. O *gancho* é a peça curva que acopla o motor ao filamento. E o *filamento* é o longo apêndice externo, feito de subunidades repetidas de uma única proteína, a *flagelina*.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-37.png",
-  largura: 62%,
-  legenda: [Arranjos de flagelo. Monotríquio: um único flagelo em uma extremidade. Anfitríquio: um em cada polo. Lofotríquio: um tufo em um polo. Peritríquio: flagelos distribuídos por toda a superfície. O arranjo é característica estável da espécie e entra na identificação.])
-
-O arranjo dos flagelos na superfície é constante dentro de cada espécie e por isso serve à identificação. São quatro padrões, cada um definido pela posição e pelo número: *monotríquio*, com um único flagelo polar; *anfitríquio*, com um flagelo em cada polo; *lofotríquio*, com um tufo de flagelos num dos polos; e *peritríquio*, com flagelos distribuídos por toda a superfície.
-
-A função que o flagelo serve não é nadar por nadar — é *taxia*, o deslocamento orientado por um gradiente. Na quimiotaxia, a bactéria se move em direção a um nutriente ou para longe de uma substância nociva; na fototaxia, em relação à luz. O mecanismo é mais engenhoso do que parece e vale ser dito, porque a intuição erra aqui. A bactéria não é capaz de "apontar" para a direção certa: ela é pequena demais para comparar concentrações entre a frente e o fundo do próprio corpo. O que ela faz é alternar corridas em linha reta com giros aleatórios que a reorientam ao acaso — e, comparando a concentração *agora* com a de um instante atrás, prolongar a corrida sempre que a concentração estiver subindo. *Ou seja: a bactéria não escolhe a direção, ela apenas insiste mais quando está dando certo* — e o resultado líquido de milhares dessas decisões é um deslocamento eficiente rumo ao gradiente.
-
-Há um segundo papel do flagelo que só aparece quando se pensa no hospedeiro. A flagelina é uma proteína de superfície abundante e altamente antigênica — é o *antígeno H* usado na sorotipagem de salmonelas e escherichias — e é também um dos padrões moleculares que a imunidade inata reconhece de imediato. Vale reter o duplo efeito: o flagelo ajuda a bactéria a alcançar a mucosa e, ao mesmo tempo, denuncia a chegada dela.
-
-#subtopico("3.4 Pili e fímbrias: agarrar e trocar genes")
-
-Se o flagelo resolve o problema de chegar, os pili resolvem o de ficar. E vale marcar bem a diferença, porque a semelhança visual — ambos são fios saindo da superfície — esconde estruturas e funções sem nenhuma sobreposição. O flagelo é longo, ondulado e motorizado; o *pilus*, também chamado *fímbria*, é curto, reto, rígido e não tem motor nenhum. Ele não move a célula; ele a prende.
-
-As fímbrias de adesão são numerosas — centenas por célula — e curtas, e a ponta de cada uma carrega uma proteína chamada adesina, que reconhece um receptor específico na superfície da célula do hospedeiro. Essa especificidade é o que define *onde* uma bactéria consegue se instalar. Sem aderir, a bactéria é levada embora pelo fluxo de muco, de urina ou de conteúdo intestinal antes de conseguir se multiplicar; com a adesina certa, ela resiste ao fluxo e coloniza.
-
-#clinica-box("Fímbria e infecção urinária ascendente", [O exemplo mais direto dessa lógica é a infecção urinária. A *Escherichia coli* é a bactéria mais comum do intestino grosso e, por proximidade anatômica, coloniza a região perineal. A urina flui de dentro para fora, o que deveria varrer qualquer bactéria que subisse pela uretra — e varre, na maioria das vezes. As cepas uropatogênicas, porém, carregam fímbrias específicas, entre elas a chamada fímbria P, cuja adesina reconhece um glicolipídio presente no epitélio urinário. Ancorada, a bactéria resiste ao fluxo e sobe: uretra, bexiga, e daí pelo ureter até a pelve e o parênquima renal, produzindo a pielonefrite. A uretra mais curta da mulher encurta esse trajeto e explica boa parte da diferença de incidência entre os sexos. Repare que *toda* a explicação do quadro está numa proteína de superfície de poucos nanômetros.])
-
-O segundo tipo de pilus é estruturalmente parecido, mas serve a outra coisa inteiramente. O *pilus sexual* é longo e existe em número de um ou poucos por célula. Ele se estende até tocar uma célula receptora, adere e se retrai, aproximando as duas até que se forme uma ponte citoplasmática — e por essa ponte passa uma cópia do plasmídeo. É a conjugação descrita no subtópico 3.1, agora com a peça física à vista. *O ponto que fecha o raciocínio é este:* a resistência a antibiótico não precisa surgir em cada bactéria por mutação própria; basta que uma célula da população a tenha em plasmídeo e disponha de pilus sexual para distribuí-la.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-39.png",
-  largura: 66%,
-  legenda: [Flagelo e pili lado a lado. À esquerda, flagelos longos e ondulados, para motilidade; ao centro, fímbrias curtas e numerosas, para adesão. À direita, os dois outros papéis do pilus: o bacteriófago que se ancora nele para infectar a célula, e a ponte de conjugação por onde um plasmídeo passa de uma _E. coli_ para outra.])
-
-Há ainda um terceiro papel, e ele é involuntário: o pilus é *sítio de adesão de bacteriófagos*. Vários vírus de bactéria reconhecem especificamente essa estrutura como ponto de ancoragem para injetar o próprio genoma. A mesma peça que permite trocar genes com uma parceira permite que um vírus entre — e é essa especificidade de reconhecimento que determina quais bactérias um dado fago consegue infectar.
-
-#subtopico("3.5 Cápsula, glicocálice e biofilme: a superfície que esconde e adere")
-
-Por fora de tudo o que já foi descrito, muitas bactérias secretam uma camada de polímeros. O nome geral é *substâncias poliméricas extracelulares*, e vale organizar a terminologia antes de definir cada peça, porque os termos se sobrepõem na literatura. O critério é a organização do material. Quando ele forma uma camada densa, firmemente aderida e com limite nítido ao microscópio, chama-se *cápsula*. Quando é frouxo, difuso, sem contorno definido e se desprende facilmente, chama-se *camada mucosa* ou #termo-nota[glicocálice][revestimento polissacarídico difuso secretado pela bactéria, base estrutural do biofilme]. E quando esse material passa a unir muitas bactérias entre si e a uma superfície sólida, o conjunto vira *biofilme*.
-
-A cápsula é quase sempre polissacarídica e resolve um problema específico: escapar da fagocitose. O mecanismo costuma ser mal compreendido, então vale ser explícito. *A cápsula não mata nem lesa o fagócito* — ela é quimicamente inerte e mecanicamente escorregadia. O que ela faz é impedir o contato: o sistema de defesa marca micro-organismos com opsoninas, moléculas que se depositam na superfície e funcionam como alça para o receptor do fagócito agarrar. Sob a cápsula, a parede fica inacessível, a opsonina não encosta, e sem ponto de agarre não há fagocitose. O hospedeiro só resolve um capsulado quando fabrica anticorpo específico *contra o polissacarídeo da cápsula* — e é exatamente por isso que as vacinas contra pneumococo e meningococo são feitas do polissacarídeo capsular, e não da bactéria inteira.
-
-#confusao-prevista(
-  titulo: "Cápsula não é privilégio de Gram-negativa",
-  aluno_acha: [aluno associa cápsula a Gram-negativa porque os exemplos clássicos de sepse são Gram-negativos],
-  mecanismo: [a cápsula é mais frequente em Gram-negativas — _Klebsiella pneumoniae_, _Neisseria meningitidis_, _Haemophilus influenzae_, _Pseudomonas aeruginosa_ —, mas Gram-positivas capsuladas existem e são clinicamente centrais: _Streptococcus pneumoniae_, _Streptococcus pyogenes_ e _Streptococcus agalactiae_. A cápsula é uma camada *adicional*, depositada por fora do envelope, e independe de o envelope ser de um tipo ou de outro.],
-)
-
-O glicocálice difuso resolve outro problema: aderir a superfícies inertes. Ele reveste a bactéria e permite fixação firme em pele, válvula cardíaca, cateter, prótese, dente. À medida que as células aderidas se multiplicam e continuam secretando matriz, forma-se o *biofilme* — uma comunidade organizada, embebida em polímero, grudada na superfície.
-
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-44.png",
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-05.png",
   largura: 64%,
-  legenda: [Da cápsula ao biofilme. Em (1), a cápsula definida e aderida; em (2), a camada mucosa difusa, o glicocálice; em (3), a comunidade grudada na superfície, embebida na própria matriz — o biofilme. À direita, as espécies capsuladas, Gram-negativas e Gram-positivas.])
+  legenda: [Um mRNA, três proteínas. Repare que cada trecho codificante tem seu próprio sítio de ligação ao ribossomo (RBS) e seus próprios códons de início e parada — o mRNA não vira uma proteína gigante que depois é cortada.])
 
-O biofilme importa clinicamente por uma razão que não é resistência genética, e a distinção é fina o bastante para merecer nome próprio. A matriz polimérica dificulta a penetração do antimicrobiano e limita a difusão de oxigênio e nutrientes, de modo que as células do interior ficam em baixa atividade metabólica — quase dormentes. Como boa parte dos antibióticos depende de a bactéria estar crescendo para agir, essas células escapam sem ter nenhum gene de resistência. É *tolerância*, um estado fisiológico reversível, e não resistência herdável. A consequência prática é que infecção de dispositivo raramente se resolve só com antibiótico: costuma ser preciso retirar o dispositivo. *Pseudomonas aeruginosa* no pulmão do paciente com fibrose cística, *Staphylococcus epidermidis* e estreptococos do grupo viridans em válvula cardíaca, e *Streptococcus mutans* na superfície do dente, formando a placa que precede a cárie, são três faces do mesmo mecanismo.
+Vale desfazer aqui uma leitura errada que atrapalha adiante. O mRNA policistrônico não é traduzido como uma proteína grande que depois é clivada; cada trecho codificante tem seu próprio #sigla("RBS", [sítio de ligação ao ribossomo — sequência curta antes do códon de início que recruta a subunidade menor do ribossomo]), seu códon de início e seu códon de parada, e o ribossomo entra em cada um deles de forma independente. *A consequência é fina e é útil:* como cada RBS tem eficiência própria, e como o mRNA vai sendo degradado a partir de uma das extremidades, os genes de um mesmo operon não geram quantidades iguais de proteína. No bloco da lactose, a primeira enzima sai em quantidade muito maior que a última, mesmo saindo do mesmo transcrito.
 
-#subtopico("3.6 Esporo e grânulos: sobreviver ao que mataria a célula")
+A esse conjunto — promotor, sítios de controle e genes estruturais transcritos juntos — dá-se o nome de *operon*. É a resposta bacteriana ao problema de coordenar genes funcionalmente relacionados, e é simples justamente porque o mecanismo está todo no DNA contíguo.
 
-Algumas bactérias resolvem o problema da adversidade de um modo que nenhuma das estruturas anteriores permite: elas desligam. Quando faltam nutrientes, quando o meio seca, quando a temperatura sobe acima do tolerável ou quando aparece um agente químico antibacteriano, parte da população inicia um programa genético de várias etapas chamado *esporulação*, ao fim do qual cada célula produz um *endósporo* — uma estrutura interna, desidratada e metabolicamente inerte, que pode permanecer viável por anos e voltar a germinar quando as condições melhorarem.
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-06.png",
+  largura: 62%,
+  legenda: [O operon do triptofano: um promotor, cinco genes estruturais, um mRNA, cinco enzimas de uma mesma via biossintética. Coordenar aqui não exige nada além de estarem juntos.])
 
-Antes de descrever o processo, vale desfazer a comparação que se faz automaticamente com o esporo dos fungos, porque as duas estruturas têm o mesmo nome e propósitos opostos.
+#subtopico("1.3 — A regra que resolve o resto: sequência age em cis, proteína age em trans")
+
+Aqui está o conceito que separa quem entende o operon de quem decorou o operon. Dentro de uma unidade regulada convivem duas classes de elementos que se comportam de maneiras opostas, e confundir as duas torna impossível prever o efeito de qualquer mutação.
+
+A primeira classe é de *sequências de DNA*: o promotor, o sítio onde uma proteína reguladora se encaixa, o operador. Elas não são transcritas em nada útil — são endereços. Um endereço não sai do lugar. Se ele estiver estragado, o estrago afeta apenas os genes que estão naquela mesma molécula de DNA, porque não existe forma de um endereço de uma molécula influenciar outra molécula. Diz-se que essas sequências agem em #termo-nota[cis][do latim "do mesmo lado" — um elemento que só influencia os genes fisicamente ligados a ele, na mesma molécula de DNA]: só do próprio lado.
+
+A segunda classe é de *genes reguladores*: trechos que são transcritos e traduzidos, e cujo produto é uma proteína. Proteína é difusível. Uma vez sintetizada, ela solta do ribossomo e circula pelo citoplasma inteiro, encontrando qualquer sítio compatível em qualquer molécula de DNA que esteja na célula. Diz-se então que o produto age em *trans*, "do outro lado" — a distância física é irrelevante.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-42.png",
+  largura: 78%,
+  legenda: [As duas classes lado a lado. À esquerda, o gene regulador produz ativador ou repressor, que difundem. À direita, sítio do ativador e operador são endereços fixos no DNA, imediatamente antes dos genes estruturais A, B e C. Endereço não difunde; produto difunde.])
+
+*O ponto fino é que cis e trans não têm nada a ver com distância.* Um operador colado ao gene e um sítio de ligação a 200 pares de base dele são igualmente cis. O gene regulador do bloco da lactose fica logo ao lado do próprio operon, mas isso é acidente do arranjo do genoma: funcionalmente ele poderia estar do outro lado do cromossomo, ou até num plasmídeo separado, e continuaria funcionando exatamente igual, porque o que ele exporta é proteína.
+
+#atencao-box("Cis e trans não são posições, são naturezas",
+  [A confusão que mais estraga previsão de fenótipo é ler cis/trans como "perto/longe". Não é geografia, é o tipo de coisa que o elemento produz. Sequência de DNA que serve de sítio de ligação age *sempre* em cis, esteja onde estiver, porque um sítio não se desprende do DNA. Gene que codifica proteína reguladora age *sempre* em trans, esteja onde estiver, porque a proteína se desprende do ribossomo. Fixar isso agora resolve sozinho toda a PARTE II: para qualquer mutante novo, a primeira coisa a perguntar não é "onde está a mutação", é "o elemento mutado é endereço ou é produto".])
+
+#subtopico("1.4 — O operon lac, peça por peça")
+
+Com o vocabulário montado, o sistema concreto fica fácil de ler. O bloco da lactose de #emph[E. coli] é o exemplo canônico porque foi nele que o modelo nasceu, e porque ele contém, ao mesmo tempo, um exemplar de cada elemento descrito acima.
+
+Os genes estruturais são três, transcritos num mRNA único. O #emph[lacZ] codifica a #termo-nota[β-galactosidase][enzima que hidrolisa a ligação entre a galactose e a glicose da lactose, liberando os dois monossacarídeos], a enzima que corta a lactose em galactose e glicose. O #emph[lacY] codifica a lactose-permease, o transportador de membrana que traz lactose de fora para dentro. O #emph[lacA] codifica uma transacetilase, de papel acessório na eliminação de galactosídeos que a célula não consegue metabolizar. Note a lógica: o transportador que traz o substrato e a enzima que o quebra estão sob o mesmo interruptor — não faria sentido ter um sem o outro.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-15.png",
+  largura: 80%,
+  legenda: [O operon completo, com o tamanho real de cada trecho em pares de base. Repare em duas coisas: o #emph[lacI] tem promotor próprio (o P à esquerda) e não faz parte do transcrito do operon; e o operador ocupa apenas 82 pares de base entre o promotor e o início do #emph[lacZ] — pouca sequência para um efeito de mil vezes.])
+
+À frente deles estão os elementos em cis. O promotor do operon, chamado P#sub[lac], é onde a polimerase pousa. O #termo-nota[operador][sequência curta de DNA, sobreposta ao início da transcrição, onde o repressor se encaixa e bloqueia a saída da polimerase] fica logo depois, sobreposto ao ponto de início da transcrição — essa sobreposição é o que torna a repressão possível, e voltamos a ela em 2.1. E, mais a montante, por volta da posição -61, há um terceiro endereço: o sítio de ligação do ativador, o sítio CAP, que fica guardado para a PARTE III.
+
+Fora do operon, com promotor próprio e transcrição contínua e independente, está o #emph[lacI] — o gene regulador. Ele é transcrito o tempo todo, num nível baixo e constante, e seu produto é o repressor Lac. Como todo produto proteico, ele age em trans. *É a única peça do sistema que não obedece ao interruptor que ela mesma controla.*
+
+#mini-resumo[Três genes estruturais num transcrito (lacZ, lacY, lacA) · três endereços em cis a montante (sítio CAP, promotor, operador) · um gene regulador fora do operon (lacI) cujo produto difunde. Toda a PARTE II é sobre o que o produto do lacI faz com o operador.]
+
+#parte-title("PARTE II — Controle negativo: o repressor como sensor, e a genética que provou")
+
+#subtopico("2.1 — O que exatamente o repressor bloqueia")
+
+O repressor Lac é uma proteína montada a partir de quatro cópias idênticas da cadeia codificada pelo #emph[lacI] — um tetrâmero. Essa estrutura quaternária não é detalhe decorativo: ela tem duas consequências que vão aparecer em 2.5 e 2.6, e que explicam comportamentos genéticos que de outra forma pareceriam arbitrários. Por ora basta a função: cada tetrâmero tem domínios que reconhecem a sequência do operador e se encaixam nela com afinidade altíssima.
+
+Com o operador ocupado, a transcrição do operon despenca. A pergunta que importa é *como* — e é aqui que a intuição da maioria dos alunos erra o alvo.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-09.png",
+  largura: 72%,
+  legenda: [O repressor Lac produzido pelo #emph[lacI] difunde e se encaixa no operador, imediatamente a jusante do promotor. Os três genes estruturais deixam de ser transcritos ao mesmo tempo — coordenação sem nenhum mecanismo adicional.])
+
+A imagem intuitiva é a de um tampão que impede a polimerase de encostar no DNA. Não é isso. O operador não fica sobre o promotor: fica *depois* dele, sobreposto ao ponto de início da transcrição e ao começo do trecho transcrito. A polimerase continua reconhecendo e ocupando o promotor normalmente. O que ela não consegue fazer é o passo seguinte — abrir a dupla-hélice para formar a bolha de transcrição e escapar do promotor para o alongamento. O repressor age como uma trava física logo à frente da linha de partida, não como um muro em volta dela.
+
+#atencao-box("O repressor não impede o pouso da polimerase",
+  [Descrever a repressão como "a polimerase não consegue se ligar" inverte o mecanismo e destrói a previsão de qualquer experimento posterior. A polimerase se liga; ela é que fica presa. Por que isso importa na prática: se o bloqueio fosse a ligação, um promotor mais forte compensaria a repressão, e não compensa. E o modelo errado também não explica o vazamento de ~1/1000 que o sistema tem, que existe justamente porque uma polimerase já posicionada eventualmente escapa quando o repressor se desprende por um instante.])
+
+Esse vazamento merece uma frase a mais, porque é a peça que faz o sistema inteiro funcionar. A ligação do repressor ao operador é reversível: ela tem uma constante de dissociação muito baixa, mas não é zero. O tetrâmero solta e volta a se ligar continuamente, e a cada janela em que ele está solto uma polimerase que já estava posicionada consegue escapar. É por isso que a repressão dá mil vezes e não dez mil vezes, e por isso que sempre há um punhado de moléculas de permease e de β-galactosidase na célula mesmo no estado desligado.
+
+#subtopico("2.2 — O indutor é a alolactose, e é por isso que o sistema consegue arrancar")
+
+Se o repressor fica preso ao operador com afinidade tão alta, alguma coisa precisa tirá-lo de lá quando a lactose aparece. A resposta imediata seria "a lactose tira" — e essa resposta está errada de um jeito que vale a pena entender, porque o erro esconde o mecanismo mais elegante da aula.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-11.png",
+  largura: 56%,
+  legenda: [Lactose ausente: o tetrâmero ocupa o operador e o operon fica no nível residual.])
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-13.png",
+  largura: 56%,
+  legenda: [Indutor presente: ele se liga ao repressor num sítio próprio, longe do domínio de DNA. A mudança de forma resultante derruba a afinidade pelo operador, e o tetrâmero se solta — sem nunca competir pelo mesmo sítio.])
+
+Quem se liga ao repressor é a #termo-nota[alolactose][isômero da lactose em que a galactose está unida ao carbono 6 da glicose em vez do carbono 4; é o indutor fisiológico do operon], um isômero da lactose. E a alolactose não vem de fora: ela é produzida dentro da célula pela própria β-galactosidase, que além de cortar a lactose também catalisa, numa fração das vezes, a transferência da galactose para outra posição da glicose. A enzima que o operon codifica é a mesma que fabrica o sinal que liga o operon.
+
+Isso monta um problema circular que vale enunciar em voz alta: para produzir alolactose é preciso ter β-galactosidase; para ter β-galactosidase é preciso que o operon esteja ligado; para ligar o operon é preciso alolactose. Se o estado desligado fosse mesmo zero, o sistema jamais arrancaria. *É exatamente aqui que aquele resíduo de 1/1000 deixa de ser detalhe e vira o mecanismo.* As poucas moléculas de permease que existem no estado reprimido trazem as primeiras lactoses para dentro; as poucas moléculas de β-galactosidase convertem parte delas em alolactose; a alolactose solta alguns repressores; mais transcrição acontece; mais permease e mais enzima aparecem; e a alça se retroalimenta até o operon estar plenamente induzido em poucos minutos.
+
+O modo de ação da alolactose sobre o repressor é alostérico, e a distinção importa. Ela não disputa o operador com o repressor, nem o arranca à força. Ela se encaixa num sítio próprio do tetrâmero, distante do domínio que reconhece o DNA, e a mudança de conformação que essa ligação provoca reposiciona os domínios de DNA de forma que eles deixam de encaixar bem no operador. A afinidade cai algumas ordens de grandeza e o repressor se solta sozinho.
 
 #confusao-prevista(
-  titulo: "Endósporo é resistência, não reprodução",
-  aluno_acha: [aluno transporta a lógica do esporo de fungo, que é forma de dispersão e multiplicação],
-  mecanismo: [uma célula vegetativa bacteriana forma *um* endósporo, e esse endósporo germina em *uma* célula. O número de indivíduos não aumenta em nenhum momento — não há reprodução. A esporulação é um estado de latência para atravessar o período ruim, e a bactéria formadora nem sequer se multiplica enquanto esporula: ela para tudo para construir a estrutura.],
+  titulo: "Lactose não é indutor; alolactose é",
+  aluno_acha: [aluno acha que a lactose que entra na célula se liga ao repressor e o retira do operador],
+  mecanismo: [a lactose precisa antes ser convertida em alolactose pela própria β-galactosidase. Só a alolactose tem geometria compatível com o sítio alostérico do repressor. A consequência experimental é direta: mutante sem β-galactosidase funcional não induz o operon com lactose, mesmo tendo repressor e operador perfeitos — porque nunca fabrica o indutor.],
 )
 
-O processo passa por estágios ordenados. O cromossomo se duplica e se alonga; a membrana invagina e separa uma porção menor do citoplasma, o pré-esporo, que é então *engolfado* pela célula-mãe e passa a existir como compartimento dentro dela. Ao redor dele deposita-se um córtex de peptidoglicano de estrutura modificada, e por fora vêm as capas proteicas do esporo e, em algumas espécies, um envoltório externo adicional. Por fim a célula-mãe se lisa e libera o endósporo maduro.
+Há ainda um indutor artificial que aparece em toda bancada e que resolve esse problema por atalho: o #sigla("IPTG", [isopropil-β-D-tiogalactosídeo — análogo sintético da alolactose que induz o operon sem ser metabolizado]). O IPTG tem forma parecida o bastante com a alolactose para ocupar o sítio alostérico do repressor, mas a β-galactosidase não consegue quebrá-lo, porque a ligação glicosídica foi trocada por uma ligação com enxofre. Ele entra, induz e permanece — indução constante, sem consumo, sem depender de ter enzima ativa. Por isso ele é chamado de indutor gratuito.
 
-#figura-nebli("/figuras/micro-01-morfologia-estrutura-bacterias/slide-40.png",
-  largura: 70%,
-  legenda: [Esporulação e localização do endósporo. À esquerda, os estágios: duplicação do cromossomo, invaginação e engolfamento do pré-esporo, deposição do córtex e das capas, lise da célula-mãe. À direita, as três posições que a estrutura pode ocupar — terminal, subterminal e central —, característica estável de cada espécie.])
+#mini-resumo[O operon não é induzido pelo substrato bruto, e sim por um isômero que a própria enzima do operon fabrica. Sem expressão basal, o circuito não teria como começar. O IPTG é o atalho de bancada porque induz sem ser metabolizado.]
 
-A resistência extraordinária do endósporo não vem da casca, e essa é a parte que merece ser entendida em mecanismo. Vem de três coisas somadas. Primeiro, a *desidratação profunda do núcleo*: sem água livre, as reações de degradação que o calor catalisa simplesmente não acontecem, e é isso que confere termorresistência. Segundo, o acúmulo de #termo-nota[ácido dipicolínico][composto que, complexado a cálcio, substitui a água no núcleo do esporo e estabiliza suas macromoléculas] complexado a cálcio, que ocupa o lugar da água e estabiliza as macromoléculas. Terceiro, um conjunto de proteínas pequenas — as #sigla("SASP", [small acid-soluble proteins — proteínas pequenas que revestem o DNA do esporo e o protegem de calor e radiação]) — que se ligam ao DNA, alteram a conformação dele e o protegem de calor, radiação ultravioleta e agentes químicos.
+#subtopico("2.3 — Como se enxerga o operon funcionando: X-Gal, IPTG e a placa azul e branca")
 
-#clinica-box("Por que fervura não basta", [A consequência prática dessa arquitetura é direta e define a rotina de esterilização. Água fervente a 100 °C mata a forma vegetativa de praticamente qualquer bactéria em minutos, mas não mata o endósporo — no interior desidratado não há água livre para conduzir a desnaturação. Por isso a esterilização de material cirúrgico exige vapor *sob pressão*, tipicamente 121 °C, temperatura que só se alcança em autoclave. A mesma propriedade explica o perfil das doenças causadas por esporulados. O *Clostridium tetani* vive no solo como esporo, entra por ferimento perfurante, encontra tecido desvitalizado e pouco oxigênio, germina ali e secreta a toxina do tétano. O *Clostridium botulinum* germina em conserva mal processada. O *Bacillus cereus* sobrevive ao cozimento do arroz e germina enquanto o alimento esfria devagar — motivo pelo qual reaquecer não resolve, se a toxina já foi produzida. Repare que a estrutura, e não a virulência, é o que define a via de contágio.])
+Nada do que foi dito acima seria demonstrável se não houvesse um jeito de olhar para uma colônia de bactérias e saber, a olho nu, se a β-galactosidase está sendo produzida ali. O truque é dar à enzima um substrato falso que, ao ser cortado, libera um pigmento.
 
-A posição do endósporo dentro da célula é constante para cada espécie — terminal, subterminal ou central — e por isso entra na identificação morfológica. E vale um registro final sobre quem esporula: a capacidade é restrita a poucos gêneros, quase todos Gram-positivos, sendo *Bacillus* e *Clostridium* os de interesse médico. Não é uma resposta que qualquer bactéria improvise sob estresse.
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-19.png",
+  largura: 68%,
+  legenda: [O X-Gal é um galactosídeo com um indol preso no lugar da glicose. A β-galactosidase corta a ligação, o indol liberado dimeriza espontaneamente e oxida, e o produto é um pigmento índigo insolúvel que fica retido na colônia. Colônia azul significa enzima presente; colônia branca significa enzima ausente ou inativa.])
 
-Fecham a lista os *grânulos citoplasmáticos*, depósitos de reserva que a célula acumula quando a fonte de energia sobra e o crescimento está limitado por outro nutriente. São inclusões de fósforo, de enxofre, de polímeros de carbono — reservas guardadas para o momento em que faltarem. Não são organelas: não têm bicamada verdadeira ao redor, e sua função é puramente de armazenamento.
+O X-Gal é *substrato*, não indutor — ele revela a enzima que já existe, e não faz nada para que ela passe a existir. Quem induz é o IPTG, que é adicionado junto. Os dois cumprem funções diferentes e complementares no mesmo meio de cultura: o IPTG força o operon a ligar, o X-Gal denuncia se ele ligou. É por isso que um meio de triagem carrega os dois.
+
+A leitura da placa exige um cuidado. Colônia azul é conclusiva num sentido só: há β-galactosidase ativa, logo o operon está sendo expresso. Colônia branca é ambígua por natureza — ela apenas informa que não há atividade enzimática, e isso pode ter várias causas mecanísticas distintas: o gene #emph[lacZ] pode estar mutado, o promotor pode estar destruído, o repressor pode ter perdido a capacidade de responder ao indutor, o sítio do ativador pode estar inutilizado. *A placa é um filtro, não um diagnóstico.* Foi combinando esse filtro simples com variação sistemática das condições de cultura — com e sem glicose, com e sem indutor — que Jacob e Monod, no Instituto Pasteur, extraíram o modelo inteiro no começo dos anos 1960, muito antes de existir qualquer método de leitura direta de sequência.
+
+#clinica-box("O mesmo pigmento, meio século depois, no laboratório de rotina",
+  [A triagem azul-e-branca não ficou na história da genética: ela é a base de boa parte da clonagem molecular usada até hoje para produzir proteínas recombinantes de uso clínico, como insulina humana e fatores de coagulação. O plasmídeo receptor carrega o começo do #emph[lacZ]; quando um fragmento estranho de DNA é inserido exatamente ali, o gene é interrompido e a bactéria perde a β-galactosidase funcional. Na placa com X-Gal e IPTG, as colônias que receberam o inserto ficam brancas e as que apenas recircularizaram o plasmídeo vazio ficam azuis. O pesquisador escolhe as brancas a olho nu. O mecanismo que se está usando é exatamente o desta aula — expressão do operon revelada por substrato cromogênico —, aplicado como ferramenta de seleção.])
+
+#subtopico("2.4 — Dois caminhos para o mesmo fenótipo constitutivo")
+
+Jacob e Monod isolaram mutantes que perderam a regulação: bactérias que produziam β-galactosidase o tempo todo, com ou sem lactose no meio. Esse comportamento recebeu o nome de expressão *constitutiva* — sem controle pelo sinal. O achado decisivo foi que existiam dois tipos de mutante constitutivo, indistinguíveis na placa e completamente diferentes por dentro.
+
+O primeiro tipo tem mutação no operador. A sequência continua no lugar, mas foi alterada o bastante para que o repressor não a reconheça mais. Chama-se O#super[c], de operador constitutivo. O repressor produzido é perfeitamente funcional — ele simplesmente não tem mais onde se encaixar naquele trecho de DNA.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-20.png",
+  largura: 58%,
+  legenda: [Operador mutante: repressor normal, produzido normalmente, mas sem sítio de encaixe. O operon é transcrito e traduzido continuamente.])
+
+O segundo tipo tem mutação no #emph[lacI]. O operador está intacto, mas a proteína produzida é um repressor defeituoso, incapaz de se ligar ao DNA. Chama-se lacI#super[-]. O resultado observável é o mesmo — expressão contínua — mas a causa é o produto, não o endereço.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-21.png",
+  largura: 58%,
+  legenda: [Gene regulador mutante: o operador está perfeito, mas o repressor sintetizado não reconhece DNA. Mesmo fenótipo, mecanismo oposto.])
+
+Vale registrar uma precisão que muita gente perde: constitutivo não quer dizer "no máximo". Quer dizer "sem resposta ao indutor". Um mutante O#super[c] crescendo em meio rico em glicose expressa o operon de forma constitutiva e, ainda assim, em nível baixo — porque o outro braço de controle, que veremos na PARTE III, continua desligado. *Constitutivo é sobre perda de regulação por um sinal específico, não sobre intensidade.*
+
+#mini-resumo[Dois mutantes constitutivos, um fenótipo só na placa: O#super[c] é endereço estragado (age em cis), lacI#super[-] é produto estragado (age em trans). Para separá-los é preciso um experimento que coloque duas cópias na mesma célula.]
+
+#subtopico("2.5 — Diploide parcial: o experimento que separa cis de trans")
+
+Se dois mutantes dão o mesmo resultado numa célula com uma cópia só do operon, a saída é dar à célula duas cópias — uma mutante, outra normal — e ver o que acontece. É isso que faz o #termo-nota[diploide parcial][bactéria haploide que recebeu um plasmídeo F′ carregando uma segunda cópia apenas da região do operon lac, ficando com duas cópias dessa região e uma só de todo o resto]: o cromossomo carrega uma versão, o plasmídeo carrega outra, e as duas convivem no mesmo citoplasma.
+
+Aqui a regra de 1.3 faz todo o trabalho. Se o elemento defeituoso for um *produto difusível*, a cópia boa fabrica proteína boa, essa proteína circula e corrige as duas moléculas de DNA. Se o elemento defeituoso for um *endereço*, nada corrige: cada molécula carrega o próprio destino.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-23.png",
+  largura: 62%,
+  legenda: [Repressor em trans. Uma das moléculas tem lacI mutado, mas a outra produz repressor funcional. Como o repressor difunde, ele ocupa os dois operadores e as duas cópias ficam reguladas. O alelo lacI#super[-] é, portanto, recessivo.])
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-22.png",
+  largura: 62%,
+  legenda: [Operador em cis. O repressor funcional é produzido em abundância e ocupa o operador normal, silenciando aquela molécula. Mas o operador mutante da outra molécula não o reconhece, e os genes ligados a ele continuam sendo transcritos. O alelo O#super[c] é dominante — e a dominância vale apenas para os genes da própria molécula.])
+
+Reunindo os dois resultados numa leitura só: o alelo lacI#super[-] é *recessivo*, porque basta uma cópia boa do gene regulador em qualquer lugar da célula para restaurar o controle; e o alelo O#super[c] é *dominante em cis*, porque ele impõe expressão constitutiva aos genes que estão fisicamente ligados a ele, e apenas a esses. É esse par de resultados que estabelece, sem nenhuma ferramenta molecular, que o operador é um sítio de DNA e que o produto do #emph[lacI] é uma molécula que se desloca.
+
+Um genótipo concreto ajuda a fixar. Considere uma bactéria com o cromossomo I#super[+] P#super[+] O#super[c] Z#super[+] e um plasmídeo I#super[-] P#super[+] O#super[+] Z#super[+]. Sem indutor, o repressor produzido pelo I#super[+] do cromossomo circula e silencia o operador normal do plasmídeo, mas não consegue silenciar o O#super[c] do cromossomo: há produção de β-galactosidase, vinda apenas da cópia cromossômica. Com indutor, o repressor solta também do plasmídeo, e as duas cópias produzem — a quantidade sobe. O fenótipo global, portanto, é constitutivo e dominante, com atuação em cis, e a explicação inteira sai de dois passos: *identificar quem produz repressor difusível* e, em seguida, *verificar qual operador reconhece esse repressor*.
+
+#subtopico("2.6 — Os dois alelos que fecham a lógica, e um método para prever qualquer genótipo")
+
+O modelo fica completo com dois alelos do #emph[lacI] que não são simples perdas de função e que, por isso mesmo, testam se o raciocínio foi realmente entendido.
+
+O primeiro é o lacI#super[s], chamado super-repressor. A mutação não atinge o domínio que reconhece o DNA — atinge o sítio alostérico onde a alolactose se encaixa. O resultado é um repressor que liga o operador normalmente e nunca solta, porque não enxerga mais o indutor. O fenótipo é o oposto do constitutivo: *não-induzível*. E, como se trata de um produto difusível, esse repressor cego circula pela célula e trava também o operador da outra cópia — de modo que lacI#super[s] é dominante em trans. Um diploide parcial com lacI#super[s] em qualquer uma das duas moléculas fica branco na placa mesmo com IPTG.
+
+O segundo é o lacI#super[-d], dominante-negativo. Aqui volta a estrutura quaternária mencionada em 2.1. Como o repressor funcional é um tetrâmero montado a partir de quatro cadeias, uma célula que produz cadeias normais e cadeias defeituosas ao mesmo tempo monta tetrâmeros mistos. Basta uma subunidade ruim para desestabilizar a geometria de encaixe do complexo inteiro, e a maioria dos tetrâmeros formados fica inútil. É perda de função com efeito dominante — o alelo ruim envenena o produto do alelo bom.
+
+#confusao-prevista(
+  titulo: "Nem todo alelo dominante é ganho de função",
+  aluno_acha: [aluno associa dominante a "faz mais" e recessivo a "faz menos"],
+  mecanismo: [o lacI#super[-d] não faz nada a mais: ele produz uma subunidade quebrada. Torna-se dominante porque o produto é multimérico e uma peça ruim inutiliza o conjunto montado. Dominância descreve o comportamento do alelo quando há outro presente, não a direção do efeito bioquímico.],
+)
+
+Com isso é possível abandonar as tabelas e usar um procedimento. Diante de qualquer genótipo novo, três passos resolvem, nesta ordem. *Primeiro passo:* separar os elementos mutados em sequência (P, O, sítio CAP) e gene que produz proteína (I) — isso decide de saída o que é cis e o que é trans. *Segundo passo:* somar todos os produtos difusíveis presentes na célula e decidir se existe repressor capaz de ligar DNA e se ele ainda responde ao indutor — isso define o estado do braço negativo. *Terceiro passo:* percorrer molécula por molécula perguntando se aquele operador reconhece o repressor disponível e se aquele gene estrutural é funcional — isso define quanto de enzima sai de cada cópia. Somar as contribuições das duas moléculas dá o fenótipo final, com e sem indutor.
+
+#mini-resumo[lacI#super[-] recessivo e constitutivo · lacI#super[s] dominante e não-induzível · lacI#super[-d] dominante-negativo por tetramerização · O#super[c] dominante só em cis. Um método de três perguntas substitui a memorização: separar endereço de produto, somar os produtos da célula inteira, depois ler molécula por molécula.]
+
+A PARTE II fecha com o operon inteiramente explicado por controle negativo — e com um resultado experimental que esse modelo não consegue explicar. Se a lactose está presente e o repressor está solto, a transcrição deveria ir ao máximo. Quando a bactéria cresce em lactose *e* glicose ao mesmo tempo, ela não vai. É desse buraco que nasce a PARTE III.
+
+#parte-title("PARTE III — Controle positivo: promotor fraco, CAP-cAMP e a decisão combinatória")
+
+#subtopico("3.1 — O buraco que o controle negativo deixa")
+
+Feche os olhos e rode o modelo da PARTE II para uma bactéria em meio com lactose e glicose. Há lactose, logo há alolactose, logo o repressor está solto, logo o operador está livre. O modelo negativo prevê transcrição plena. O experimento mostra pouquíssimo mRNA — a célula consome a glicose primeiro e praticamente ignora a lactose enquanto houver glicose disponível.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-26.png",
+  largura: 60%,
+  legenda: [Com indutor presente, o operador está livre e a polimerase encontra o promotor desobstruído — e mesmo assim sai pouco mRNA. O gargalo não está mais no operador.])
+
+Duas conclusões saem daí. A primeira é que remover o repressor é condição necessária, não suficiente: liberar o operador apenas devolve o promotor ao seu comportamento natural. A segunda, mais incômoda, é que o comportamento natural desse promotor é ruim. Se com operador livre a transcrição continua baixa, então *o promotor lac, sozinho, é fraco* — e entender por que ele é fraco, e por que isso é uma escolha e não um defeito, é o assunto dos próximos dois subtópicos.
+
+#subtopico("3.2 — Anatomia de um promotor bacteriano e a ideia de consenso")
+
+A RNA polimerase bacteriana é uma enzima só, e o núcleo dessa enzima não sabe distinguir um promotor de qualquer outro trecho de DNA. Quem sabe é uma subunidade destacável que se acopla ao núcleo e forma a holoenzima: a #termo-nota[subunidade sigma][subunidade da RNA polimerase bacteriana responsável por reconhecer o promotor; a versão principal em crescimento normal é a σ70]. É ela que lê o DNA e escolhe onde a transcrição vai começar.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-29.png",
+  largura: 72%,
+  legenda: [Os dois elementos que a subunidade σ lê ficam a montante do +1: a caixa em torno de -35 e a caixa em torno de -10, separadas por cerca de 17 pares de base. A separação faz parte do sinal — dois domínios da mesma proteína precisam alcançar as duas caixas ao mesmo tempo.])
+
+O que ela lê são duas caixas curtas, uma centrada por volta de -35 e outra por volta de -10, separadas por aproximadamente 17 pares de base. A separação não é enchimento: a subunidade σ tem dois domínios de reconhecimento a uma distância fixa entre si, e só consegue tocar as duas caixas simultaneamente se elas estiverem espaçadas dentro de uma faixa estreita. Um promotor com sequências perfeitas mas espaçamento de 12 ou de 22 pares de base é um promotor ruim, porque a proteína não alcança as duas âncoras de uma vez.
+
+O segundo conceito é o de #termo-nota[sequência consenso][a base mais frequente em cada posição, obtida alinhando muitos promotores reais; nenhum promotor individual precisa ser idêntico a ela]. Alinhando dezenas de promotores de *E. coli* e anotando qual base aparece com mais frequência em cada posição, obtém-se TTGACA para a caixa -35 e TATAAT para a caixa -10. Isso não é a sequência que todo promotor tem — é uma média estatística, e quase nenhum promotor real bate com ela em todas as posições.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-31.png",
+  largura: 66%,
+  legenda: [Promotores reais de #emph[E. coli] alinhados. Cada linha é um gene; as colunas destacadas são as caixas -35 e -10. Os números embaixo do consenso indicam em quantos por cento dos promotores aquela base aparece — nenhuma coluna chega a 100%.])
+
+E é dessa imperfeição que nasce toda a regulação por força de promotor. *Quanto mais próxima do consenso, mais forte é o promotor* — a subunidade σ se encaixa melhor, a holoenzima permanece mais tempo no sítio, a probabilidade de abrir a bolha e iniciar a transcrição sobe. Quanto mais distante do consenso, mais fraco. A célula bacteriana usa esse gradiente como forma nativa de calibrar a expressão de cada gene, sem precisar de nenhum regulador: um gene ribossômico, necessário em quantidade enorme e o tempo todo, tem promotor quase consenso; um gene de uso ocasional tem promotor divergente.
+
+#subtopico("3.3 — O promotor lac é fraco de propósito")
+
+Chega a hora de olhar as letras. O promotor do operon lac diverge do consenso nas duas caixas, e diverge exatamente onde dói.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-33.png",
+  largura: 62%,
+  legenda: [Duas trocas, dois efeitos. Na caixa -35, o G do consenso virou T; na caixa -10, as duas últimas posições saíram do padrão. Cada divergência tira um contato entre a subunidade σ e o DNA.])
+
+Na caixa -35, o consenso é TTGACA e o promotor lac traz TTTACA — uma troca de G por T. Na caixa -10, o consenso é TATAAT e o lac traz TATGTT. Cada divergência dessas custa um contato entre a subunidade σ e a dupla-hélice; somadas, elas explicam por que a holoenzima ocupa esse promotor de forma instável e raramente progride para o alongamento.
+
+*O ponto que muda a leitura inteira da aula é este:* isso não é um promotor defeituoso. É a sequência selvagem, conservada, e a fraqueza é uma escolha de projeto. Um promotor forte já opera perto do teto e não tem para onde subir — não sobra amplitude para regular. Um promotor fraco, ao contrário, é uma base baixa sobre a qual um ativador pode construir uma diferença de dezenas de vezes. *A fraqueza não é o problema que o ativador resolve; a fraqueza é a condição que torna o ativador útil.*
+
+#atencao-box("Promotor fraco não é promotor mutante",
+  [Tratar a fraqueza do promotor lac como defeito leva a duas previsões erradas em cadeia. A primeira é achar que existe alguma condição em que o operon dispensa o ativador — não existe, porque a sequência não muda. A segunda é achar que ativador e repressor são forças simétricas atuando sobre a mesma coisa. Não são: o repressor decide se a polimerase pode sair da linha de partida, e o ativador decide com que frequência ela chega lá. São dois gargalos em série, e por isso o operon exige que os dois estejam liberados ao mesmo tempo.])
+
+#subtopico("3.4 — CAP-cAMP: o interruptor que conta glicose")
+
+O ativador do operon lac é uma proteína chamada #sigla("CAP", [proteína ativadora dependente de cAMP — também chamada CRP; liga-se ao DNA a montante do promotor e recruta a RNA polimerase]), e ela só funciona acompanhada. Sozinha, a CAP não reconhece DNA. Ela precisa antes ligar duas moléculas de #sigla("cAMP", [AMP cíclico — nucleotídeo mensageiro produzido a partir do ATP pela enzima adenilato-ciclase]), e é essa ligação que muda sua conformação e cria a superfície capaz de reconhecer o sítio CAP no DNA.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-34.png",
+  largura: 74%,
+  legenda: [O sítio CAP fica a montante do promotor, por volta da posição -61 — bem antes do trecho coberto pela RNA polimerase e muito antes do trecho coberto pelo repressor. Ativador e repressor não disputam espaço: cada um tem seu endereço.])
+
+O que a CAP faz depois de ligada é mecanicamente concreto e vale a pena visualizar. Ela se encaixa no sítio a -61 e *dobra o DNA em cerca de 90 graus*. Essa dobra aproxima a própria CAP da região onde a polimerase pousa, e o contato que se estabelece ali é entre a superfície da CAP e o domínio carboxi-terminal da subunidade α da polimerase. Esse contato proteína-proteína é energia livre a favor: ele segura a holoenzima no promotor por tempo suficiente para que ela abra a bolha e escape, compensando exatamente o que as duas caixas divergentes tiraram.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-38.png",
+  largura: 54%,
+  legenda: [O dímero de CAP (em azul) encaixado no DNA. Repare na curvatura acentuada que a dupla-hélice sofre ao redor da proteína — é essa deformação que reposiciona o promotor em relação ao ativador.])
+
+Falta a parte que faz da CAP um sensor. Ela responde ao cAMP, e o nível de cAMP na célula responde à glicose — de forma inversa e por um caminho que vale seguir passo a passo, porque é aqui que quase todo mundo pula direto para a conclusão.
+
+A glicose entra na bactéria por um transportador que a fosforila durante a própria passagem, e a fonte do fosfato é uma cadeia de proteínas transportadoras que termina numa peça chamada #sigla("EIIA", [enzima IIA específica para glicose — componente do sistema de transporte da glicose que funciona também como sensor e distribuidor de sinal]). Quando há glicose entrando, a EIIA está constantemente entregando seu fosfato ao açúcar que passa, e portanto permanece na forma desfosforilada. Quando não há glicose entrando, o fosfato não tem para onde ir e a EIIA se acumula fosforilada. *A EIIA é, portanto, um medidor direto de fluxo de glicose* — e ela distribui essa informação por duas saídas independentes.
+
+A primeira saída é a adenilato-ciclase, a enzima que fabrica cAMP a partir do ATP. Ela só é ativada pela EIIA fosforilada. Logo: glicose alta → EIIA desfosforilada → ciclase parada → cAMP baixo → CAP sem ligante → CAP não liga o sítio → nenhuma dobra, nenhum recrutamento → promotor fraco operando sozinho → pouco mRNA. E o inverso: glicose baixa → EIIA fosforilada → ciclase ativa → cAMP alto → CAP ativada → dobra e recrutamento → transcrição forte.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-39.png",
+  largura: 56%,
+  legenda: [O sentido da seta é o que mais confunde: a glicose derruba o cAMP, e é o cAMP que ativa a CAP. Glicose alta significa CAP inativa e operon lac no chão, mesmo com lactose sobrando.])
+
+A segunda saída é mais direta ainda: a EIIA desfosforilada se liga à lactose-permease e a inibe. Isso se chama *exclusão do indutor*, e é um mecanismo distinto da repressão por catabólito, ainda que provocado pela mesma glicose. Um fecha a porta de entrada da lactose; o outro derruba o ativador do promotor. A célula usa duas alavancas independentes para garantir a mesma prioridade metabólica.
+
+#confusao-prevista(
+  titulo: "A glicose não age no operador",
+  aluno_acha: [aluno resume "com glicose o operon fica reprimido" e associa isso ao repressor Lac],
+  mecanismo: [o repressor Lac responde apenas à alolactose e ignora completamente a glicose. A glicose atua no braço positivo, e por sinalização, não por consumo: mantém a EIIA desfosforilada, a adenilato-ciclase parada e o cAMP baixo, deixando a CAP sem ligante. O termo #termo-nota[repressão por catabólito][queda da expressão de operons de açúcares alternativos quando há glicose, mediada pela redução de cAMP e consequente inativação da CAP] é historicamente infeliz: não há repressor envolvido, e sim ausência de ativação.],
+)
+
+#subtopico("3.5 — Quatro estados, a curva diáuxica e o mapa geral da regulação")
+
+Com os dois braços montados, o comportamento do operon vira uma tabela pequena de duas entradas. E, mais importante do que a tabela, vira uma lógica: o operon só liga forte quando *falta glicose* e *sobra lactose*. As duas condições precisam ser satisfeitas ao mesmo tempo, porque cada uma libera um gargalo diferente.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-40.png",
+  largura: 78%,
+  legenda: [Os estados que importam. Em (a), sem lactose, o repressor ocupa o operador e nada acontece — a situação da CAP é irrelevante. Em (b), com lactose e com glicose, o operador está livre mas a CAP está inativa: só o nível basal do promotor fraco. Em (c), com lactose e sem glicose, o operador está livre e a CAP dobra o DNA: transcrição alta.])
+
+#table(
+  columns: (auto, auto, auto, auto, auto),
+  stroke: 0.5pt + rgb("#c8ccd4"),
+  table.header(
+    [*Glicose*], [*Lactose*], [*Repressor no operador*], [*CAP ativa*], [*Transcrição*]
+  ),
+  [alta], [ausente], [sim], [não], [nula],
+  [alta], [presente], [não], [não], [basal, muito baixa],
+  [baixa], [ausente], [sim], [sim], [nula],
+  [baixa], [presente], [não], [sim], [alta],
+)
+
+A leitura da última coluna mostra que a saída só é alta numa das quatro combinações. E há uma assimetria que a tabela revela e que vale nomear: quando não há lactose, o estado da CAP não muda absolutamente nada, porque o repressor no operador é um bloqueio a jusante — ele trava a polimerase depois de ela já ter sido recrutada. *Recrutar melhor uma polimerase que vai ficar presa não adianta.* Por isso o braço negativo tem precedência lógica sobre o positivo.
+
+Essa lógica tem uma manifestação visível no crescimento da bactéria. Cultivada num meio com glicose e lactose juntas, *E. coli* cresce em duas fases separadas por um platô — o fenômeno chamado crescimento diáuxico. Na primeira fase ela consome glicose e ignora a lactose. Quando a glicose acaba, o crescimento para por um intervalo, e depois recomeça mais lentamente com a lactose. *O platô não é descanso:* é o tempo material de subir o cAMP, ativar a CAP, transcrever o operon, traduzir o mRNA e acumular permease e β-galactosidase suficientes. O gráfico de crescimento é, na prática, uma leitura direta do tempo de indução de um operon.
+
+#figura-nebli("/figuras/biomol-05-operon-procariotos/slide-41.png",
+  largura: 66%,
+  legenda: [Os três regimes, no mesmo promotor. Sem regulador, o promotor entrega seu nível basal. Com repressor no operador, cai abaixo dele. Com ativador no sítio a montante, sobe acima dele. Regulação negativa e positiva não são opostos — são duas direções a partir de uma mesma linha de base.])
+
+Falta generalizar, porque o operon lac é um caso e não a regra inteira. Duas dimensões independentes classificam qualquer operon. A primeira é o *efeito da proteína reguladora*: negativa quando a proteína ligada ao DNA reduz a transcrição, positiva quando a aumenta. A segunda é o *sentido do sinal*: um operon é indutível quando um pequeno metabólito liga a via, e reprimível quando um pequeno metabólito a desliga. Como as duas dimensões são independentes, existem operons negativos indutíveis, negativos reprimíveis, positivos indutíveis e positivos reprimíveis. O lac ocupa duas casas ao mesmo tempo: é negativo indutível pelo lado do repressor e positivo indutível pelo lado da CAP.
+
+A regra de fundo por trás dessa classificação é metabólica, e é o que responde ao problema de quando cada tipo de controle é necessário. *Via catabólica — que consome um nutriente — costuma ser indutível, porque faz sentido ligar a máquina quando o substrato aparece.* *Via anabólica — que fabrica um produto — costuma ser reprimível, porque faz sentido desligar a fábrica quando o produto já está sobrando.* O operon do triptofano ilustra o segundo caso de forma exata: seu repressor, o TrpR, nasce incapaz de ligar DNA e só ganha essa capacidade quando o próprio triptofano se acopla a ele. O triptofano funciona ali como #termo-nota[co-repressor][pequeno metabólito que ativa um repressor, permitindo que ele ligue o operador — o inverso funcional de um indutor], e o comportamento é o espelho perfeito da alolactose: uma molécula que solta o repressor, outra que o prende.
+
+E o triptofano ainda acrescenta uma camada que só é possível porque em bactéria transcrição e tradução acontecem juntas. Além da repressão pelo TrpR, o operon trp tem #termo-nota[atenuação][mecanismo em que a estrutura secundária do RNA nascente decide se a transcrição continua ou é abortada, controlada pela velocidade do ribossomo que traduz um peptídeo-líder], em que um ribossomo traduzindo um pequeno peptídeo no começo do próprio mRNA nascente determina, pela sua velocidade, qual grampo o RNA vai formar — e um dos grampos possíveis é um terminador que aborta a transcrição antes dos genes estruturais. Com triptofano abundante o ribossomo corre, forma-se o terminador e a transcrição para; com triptofano escasso ele emperra, o terminador não se forma e a transcrição segue. É controle fino sobreposto ao controle grosso.
+
+Por fim, um caso mostra que nem a dicotomia positivo/negativo é rígida: no operon da arabinose, a proteína AraC atua como repressor quando não há arabinose e como ativador quando há, mudando de papel conforme o ligante. A mesma proteína, os mesmos genes, dois sinais opostos.
+
+#mini-resumo[O operon lac é uma porta lógica: liga só com lactose presente E glicose ausente. O braço negativo tem precedência porque trava a polimerase depois do recrutamento. Indutível ou reprimível é sobre o sinal; positivo ou negativo é sobre o efeito da proteína — e as duas dimensões se combinam livremente.]
 
 #conclusao-box[
-Um único princípio organiza tudo o que foi visto: *na bactéria, a estrutura é a função, e a função é o que se lê no laboratório e o que se ataca no tratamento*. Sem organelas para dividir tarefas, cada peça do envelope e cada apêndice de superfície resolve um problema de sobrevivência de forma direta e verificável — e é justamente por serem tão diretos que esses componentes servem simultaneamente de critério de classificação, de mecanismo de doença e de alvo terapêutico.
+*O princípio que unifica a aula* é que regular expressão em bactéria é, quase sempre, modular a probabilidade de a RNA polimerase iniciar a transcrição num promotor — e que essa modulação é feita por proteínas difusíveis que leem o meio e se encaixam em endereços fixos no DNA. Todo o resto são variações sobre esse tema: se a proteína reduz ou aumenta a probabilidade, se o metabólito prende ou solta a proteína, se o endereço fica antes ou depois do ponto de início.
 
-O mecanismo nuclear da aula é a *parede celular*. Ela existe porque o citoplasma hiperosmótico atrai água e a célula estouraria sem uma malha externa que contenha a pressão; a malha é o peptidoglicano, costurado em rede pela transpeptidase. A partir dessa peça única, tudo se ramifica. A espessura dessa malha e a presença ou ausência de uma membrana externa dividem as bactérias em dois grandes grupos, e essa mesma diferença — malha espessa que aprisiona o complexo cristal-violeta–iodo contra malha fina cuja membrana externa o álcool dissolve — é o que a coloração de Gram lê em minutos. Quem escapa do Gram escapa por um desvio estrutural nomeável: cera de ácido micólico, largura abaixo da resolução da luz, vida intracelular obrigatória, ou ausência total de parede.
+*O mecanismo nuclear a levar embora* é a arquitetura de dois gargalos em série do operon lac. O operador, imediatamente a jusante do promotor, decide se a polimerase que já pousou consegue abrir a bolha e escapar; o sítio CAP, bem a montante, decide com que frequência ela é recrutada para lá. O repressor responde à alolactose e ignora a glicose; a CAP responde ao cAMP, que é o relatório que a célula escreve sobre o fluxo de glicose pelo transportador. Como os dois gargalos são independentes e ambos precisam estar abertos, a saída obedece a uma lógica de conjunção — e é essa conjunção, não a repressão isolada, que dá ao sistema a capacidade de escolher entre dois açúcares.
 
-Na clínica, essa cadeia aparece inteira. O lipídio A, âncora estrutural do LPS na folha externa da membrana externa, é reconhecido pela imunidade inata e dispara a cascata de citocinas que produz febre, vasodilatação e hipotensão — e, por ser estrutura e não secreção, é liberado em massa quando o antibiótico lisa a bactéria, o que explica a piora paradoxal nas primeiras horas do tratamento correto. A fímbria com a adesina certa é o que permite a uma bactéria intestinal subir contra o fluxo da urina até o rim. A cápsula bloqueia o contato entre opsonina e parede, e por isso a vacina contra capsulados é feita do polissacarídeo capsular. O endósporo desidratado com dipicolinato de cálcio atravessa a fervura, e por isso a autoclave existe.
+*A clínica que isso sustenta* já está no laboratório em que a medicina se apoia. A triagem de colônias azuis e brancas, que usa um substrato cromogênico para revelar a atividade de β-galactosidase, é a etapa de seleção de boa parte da clonagem molecular que produz insulina humana, hormônio de crescimento e fatores de coagulação recombinantes: o inserto interrompe o #emph[lacZ], a colônia perde a cor e é escolhida a olho nu. E o próprio operon é usado como interruptor de expressão sob demanda — construções controladas por operador lac permanecem silenciosas até que se acrescente IPTG ao fermentador, exatamente porque o indutor gratuito não é consumido e mantém a produção estável. Entender por que uma colônia fica branca é entender por que aquele frasco de insulina existe.
 
-O que vem a seguir é a continuação natural dessa lógica. Descrita a célula parada, o passo seguinte é vê-la em movimento: como uma população cresce em fases, quanto tempo cada espécie leva para dobrar, e por que essa cinética decide desde o tempo de espera de uma cultura até a razão pela qual o beta-lactâmico só age em bactéria que está se dividindo. Depois vem o controle — quais agentes matam qual estrutura, e por que a escolha entre calor, químico e radiação depende exatamente do que se descreveu aqui.
+*O que vem a seguir* é a mesma pergunta feita a uma célula com núcleo. O eucarioto perde as duas conveniências que tornam o operon simples: seus genes não estão agrupados por via metabólica, e transcrição e tradução acontecem em compartimentos separados, o que inviabiliza mecanismos como a atenuação. Em troca, ele ganha camadas que a bactéria não tem — o DNA enrolado em nucleossomos, que precisa ser aberto antes de qualquer coisa; sítios reguladores a milhares de pares de base do promotor; e controle sobre processamento, exportação, estabilidade e tradução do mRNA. Ao ler aquele material, o mapa desta aula continua servindo: continue perguntando quem é endereço e quem é produto difusível, e o que o produto difusível está medindo no meio.
 ]

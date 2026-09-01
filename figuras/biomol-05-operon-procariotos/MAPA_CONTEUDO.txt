@@ -1,0 +1,50 @@
+# MAPA_CONTEUDO -- biomol-05-operon-procariotos
+# Slide-fonte: b4bcacae-G__Slides_da_aula__BM__Regula__o_procariotos.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Regulação da Expressão Gênica em Procariotos Bibliografia: Capítulo 18: Transcriptional regulation in prokaryotes pgs. 615-635 Molecular Biology of the Gene. J.D. Watson, T.A. Baker, S. P. Bell, A. Gann, M. Levine, R. Losick. CSH Press, 7th edition (...
+slide-02: Objetivos: 1. Explicar o que é um operon 2. Explicar o papel dos repressores/indutores no controle negativo da expressão e o papel de ativadores no controle positivo da expressão. 3. Prever mudanças na expressão gênica quando alterações são feitas no...
+slide-03: AONDE ESTAMOS E PARA ONDE VAMOS Dogma Central 1. DNA – Estrutura, replicação, reparo e recombinação 2. RNA e transcrição 3. O código genético e síntese de proteínas 4. Regulação
+slide-04: Pontuação da transcrição
+slide-05: RNAs bacterianos são policistrônicos
+slide-06: As bactérias tem um mecanismo simples de coordenar a expressão de genes que estão funcionalmente relacionados: Promotor estes genes estão organizados em uma unidade transcricional chamada operon
+slide-07: Metabolismo de lactose em E.coli Jacob e Monod propuseram a regulação coordenada de genes envolvidos no metabolismo da lactose β-galactosidase
+slide-08: Os primeiros experimentos sobre regulação da expressão gênica foram feitos por Jacob e Monod no Instituto Pasteur. Regulação da Expressão Gênica em Procariotos Eles estavam estudando a produção da enzima β-galactosidase em E. coli em resposta à lacto...
+slide-09: Regulação negativa do operon da lactose pela ligação do repressor no operador. Repressor Lac β-galactosidase Lactose permease Transacetilase
+slide-10: Como a ligação do repressor Lac afeta a transcrição do Operon?
+slide-11: Como o repressor funciona como um sensor de lactose? Lactose ausente
+slide-12: Como o repressor funciona como um sensor de lactose? Lactose presente Lactose
+slide-13: Como o repressor funciona como um sensor de lactose? Lactose presente Lactose
+slide-14: Na ausência de lactose o operon está reprimido (↓ 1000x a transcrição) Adição do Indutor promove a dissociação do repressor do operador
+slide-15: Operon Lac lacI lacZ lacY lacA P O P
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: Como Jacob e Monod monitoravam o metabolismo de lactose para selecionar mutantes?
+slide-19: Como Jacob e Monod monitoravam o metabolismo de lactose para selecionar mutantes?
+slide-20: Mutação no operador: expressão constitutiva Repressor não liga no operador mutante Oc Operon é transcrito e traduzido
+slide-21: Mutação no lacI: expressão constitutiva LacI inativo não liga no operador Operon é transcrito e traduzido
+slide-22: Diploide parcial: operador atua apenas em cis Diploide parcial
+slide-23: Diploide parcial: o repressor atua em trans Repressor inativo (mutação em LacI) Repressor ativo
+slide-24: Mas e a resposta à glicose? Na presença de glicose e lactose, haverá indução da β- galactosidase? Não!!! O Operon lac só é ativado na ausência de glicose e presença de lactose! Como o operon lac é regulado pela presença/ausência de glicose?
+slide-25: Mas e a resposta à glicose? A transcrição não ocorre Nível basal de transcrição Nenhum mRNA pouco mRNA
+slide-26: Nível basal de transcrição pouco mRNA O Promotor lac é um promotor “fraco”
+slide-27: 1. Entender como a RNAP reconhece o promotor bacteriano. 2. Entender o que é uma sequência consenso (matriz consenso). 3. Entender o conceito de “força” de um promotor Conceitos importantes da aula de transcrição
+slide-28: Como a RNAP bacteriana reconhece o promotor? A subunidade σ da RNA polimerase se liga às regiões “-35” e “–10” do promotor .
+slide-29: Anatomia de um promotor bacteriano Os elementos mais importantes são as regiões a -10 e a -35. Estas regiões são separadas por ~17 pares de base. Os promotores bacterianos são compostos de elementos de sequência conservada localizados a 5’ (acima) do...
+slide-30: Matriz consenso do promotor bacteriano
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: A ausência de conformidade com o consenso é a base para o controle da expressão gênica • Alguns promotores tem similaridade baixa com o consenso e são, portanto, promotores “fracos”. • Os ativadores funcionam recrutando a RNA polimerase para os promo...
+slide-33: O Promotor lac não é perfeitamente idêntico à sequência consenso dos promotores bacterianos Sequência consenso -35: TTGACA Sequência de lac -35: TTTACA Sequência consenso -10: TATAAT Sequência de lac -10: TATGTT
+slide-34: O ativador CAP se liga à 5’ do promotor
+slide-35: A interação entre CAP e a RNAP compensa a imperfeição das sequências do promotor lac em relação ao consenso das sequências promotoras A energia livre favorável à interação entre CAP e a RNAP ajuda a manter a RNAP no promotor. A proteína CAP regulatór...
+slide-36: Nível basal de transcrição Repressão da transcrição Ativação da transcrição
+slide-37: Como a proteína CAP funciona como um sensor de glicose? CAP: cAMP-dependent activator protein
+slide-38: [VISUAL -- usar adjacente com titulo extraivel]
+slide-39: cAMP INATIVO OPERON LAC cAMP ATIVO GLICOSE GLICOSE Como a proteína CAP funciona como um sensor de glicose?
+slide-40: [VISUAL -- usar adjacente com titulo extraivel]
+slide-41: Nível basal de transcrição Repressão da transcrição Ativação da transcrição Regulação transcricional Regulação negativa Regulação positiva Ausência de regulação
+slide-42: mRNA policistrônico Genes estruturais Sequências regulatórias Sítio de ligação do repressor Operador Promotor A B C Sítio de ligação do Ativador Gene regulador Ativador Repressor OU Produtos gênicos que atuam em trans (são difusíveis e atuam a distân...

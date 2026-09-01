@@ -1,33 +1,35 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
-#resumindo-page((
-  ("A parede é o centro de tudo",
-   [O citoplasma é hiperosmótico e a água entra sem parar. O peptidoglicano — cadeias de NAG e NAM costuradas em rede pela transpeptidase — é a malha que contém essa pressão, e é ela que impõe a forma da célula.]),
+#let secoes-resumindo = (
+  ("O que é um operon",
+   [Um promotor, sítios de controle em cis e vários genes estruturais transcritos num mRNA policistrônico único. Como o transcrito é um só, ligar um gene é ligar todos — é assim que a bactéria coordena uma via metabólica inteira sem precisar de nenhum mecanismo adicional.]),
 
-  ("Gram-positiva: malha espessa, nada por fora",
-   [A parede chega a 60% do peso seco e é a superfície da célula. Atravessando-a estão o ácido teicoico (preso à parede) e o lipoteicóico (ancorado na membrana), que retêm cátions, regulam autolisinas e servem de antígeno.]),
+  ("Cis e trans decidem tudo",
+   [Sequência de DNA — promotor, operador, sítio CAP — age em cis: só afeta os genes da própria molécula, porque endereço não difunde. Gene regulador produz proteína, que age em trans e alcança qualquer cópia da célula. Não é distância, é natureza do elemento.]),
 
-  ("Gram-negativa: envelope mais complexo",
-   [Só o peptidoglicano é fino (cerca de 5%). São três camadas: membrana citoplasmática, periplasma com a malha fina, e membrana externa assimétrica com LPS e porinas — barreira que barra vários antibióticos.]),
+  ("O repressor Lac e o que ele trava",
+   [O tetrâmero codificado pelo lacI ocupa o operador, sobreposto ao início da transcrição. A polimerase ainda pousa no promotor; o que ela não consegue é abrir a bolha e escapar para o alongamento. A queda é de cerca de mil vezes, nunca até zero.]),
 
-  ("Lipídio A é a endotoxina, e ela é estrutura",
-   [Dos três segmentos do LPS, a toxicidade está no lipídio A. Reconhecido pela imunidade inata, dispara citocinas que dão febre e hipotensão. Como não é secretado, sai em massa na lise — e o paciente pode piorar após o antibiótico certo.]),
+  ("Alolactose é o indutor, não a lactose",
+   [A β-galactosidase converte parte da lactose em alolactose, que se liga a um sítio alostérico do repressor e derruba sua afinidade pelo operador. O resíduo basal de permease e enzima é o que permite ao circuito arrancar; o IPTG induz sem ser consumido.]),
 
-  ("O Gram lê a parede, não escolhe corante",
-   [Todas as células recebem os quatro reagentes. O iodo é mordente e aprisiona o cristal violeta num complexo grande; o álcool, passo diferencial, dissolve a membrana externa da Gram-negativa e fecha a malha da Gram-positiva.]),
+  ("Constitutivo por dois caminhos",
+   [O#super[c] é operador que o repressor não reconhece mais: dominante, mas só sobre os genes da própria molécula. lacI#super[-] é repressor incapaz de ligar DNA: recessivo, porque uma cópia boa difunde e corrige as duas. Mesmo fenótipo na placa, mecanismos opostos.]),
 
-  ("Quatro fugas do Gram, quatro motivos",
-   [Micobactéria não cora pela cera de ácido micólico e exige Ziehl-Neelsen, revelando o bacilo álcool-ácido resistente. Espiroqueta é fina demais para a luz. Clamídia é intracelular obrigatória. Micoplasma não tem parede — logo, beta-lactâmico nela não tem alvo.]),
+  ("Diploide parcial e os alelos que fecham a lógica",
+   [Duas cópias da região lac na mesma célula separam endereço de produto. lacI#super[s] perdeu o sítio do indutor e prende o operador para sempre — não-induzível e dominante em trans. lacI#super[-d] produz subunidade que envenena o tetrâmero misto: perda de função com efeito dominante.]),
 
-  ("Plasmídeo e pilus espalham resistência",
-   [O plasmídeo é genoma acessório, replica-se sozinho e é dispensável. Pelo pilus sexual ele passa entre bactérias vivas, inclusive de espécies diferentes — velocidade que mutação isolada não explicaria.]),
+  ("Promotor fraco é projeto, não defeito",
+   [As caixas -35 e -10 do promotor lac divergem do consenso TTGACA e TATAAT, e cada divergência custa um contato com a subunidade σ. Promotor forte já opera no teto e não deixa amplitude para regular; a base baixa é justamente o que torna o ativador útil.]),
 
-  ("Flagelo move, fímbria prende",
-   [O flagelo gira como hélice movido pelo gradiente de prótons, e prolonga a corrida quando a concentração sobe. A fímbria não tem motor: a adesina da ponta reconhece um receptor específico e decide qual mucosa a bactéria coloniza.]),
+  ("CAP-cAMP como sensor de glicose",
+   [Glicose entrando mantém a EIIA desfosforilada, a adenilato-ciclase parada e o cAMP baixo, deixando a CAP sem ligante. Sem glicose o cAMP sobe, a CAP dobra o DNA e recruta a polimerase pelo contato com a subunidade α. A mesma EIIA ainda inibe a permease — exclusão do indutor.]),
 
-  ("Cápsula bloqueia contato; biofilme dá tolerância",
-   [A cápsula é inerte: impede a opsonina de encostar na parede, e sem agarre não há fagocitose — daí a vacina de polissacarídeo capsular. No biofilme a matriz barra a droga e as células ficam pouco ativas, tolerantes sem gene de resistência.]),
+  ("Quatro estados e uma porta lógica",
+   [O operon só transcreve alto com lactose presente e glicose ausente, porque cada sinal libera um gargalo diferente. Sem lactose o estado da CAP é irrelevante: recrutar melhor uma polimerase que vai ficar travada no operador não adianta. O platô da curva diáuxica é o tempo dessa indução.]),
 
-  ("Endósporo é latência, não reprodução",
-   [Uma célula gera um endósporo e um endósporo germina em uma célula. A resistência vem do núcleo desidratado, do dipicolinato de cálcio e das proteínas que revestem o DNA — por isso fervura não basta e a autoclave a 121 °C existe.]),
-))
+  ("O mapa geral: trp e ara",
+   [Efeito da proteína (negativo reduz, positivo aumenta) e sentido do sinal (indutível liga, reprimível desliga) são dimensões independentes. No trp, o triptofano é co-repressor e ainda há atenuação pelo peptídeo-líder; no operon da arabinose, a AraC reprime sem o açúcar e ativa com ele.]),
+)
+
+#resumindo-page(secoes-resumindo)

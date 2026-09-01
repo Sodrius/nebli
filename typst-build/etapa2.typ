@@ -1,261 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [A bactéria não possui envoltório nuclear separando o cromossomo do citoplasma. Assinale a alternativa que descreve corretamente a consequência funcional dessa ausência.],
-  (("A", [O cromossomo permanece protegido de nucleases citoplasmáticas por associação a histonas, o que dispensa o envoltório e mantém a informação genética íntegra ao longo de todo o ciclo celular.]),
-   ("B", [A transcrição só se inicia depois de concluída a replicação do cromossomo inteiro, o que sincroniza a expressão gênica com o ciclo celular e reduz o custo energético da célula.]),
-   ("C", [A tradução ocorre exclusivamente após o transporte do RNA mensageiro para a periferia da célula, junto à membrana, onde os ribossomos permanecem ancorados durante todo o processo.]),
-   ("D", [O ribossomo alcança o RNA mensageiro enquanto ele ainda está sendo transcrito, de modo que transcrição e tradução ocorrem acopladas e a resposta a mudanças do meio fica muito rápida.]),
-   ("E", [A recombinação entre cromossomo e plasmídeo passa a ser obrigatória a cada divisão, já que sem compartimento nuclear as duas moléculas competem pelo mesmo aparato de replicação.]))
-)
+  [O que torna possível a uma bactéria coordenar a expressão de três enzimas de uma mesma via metabólica sem precisar de nenhum mecanismo regulatório adicional além do próprio arranjo do DNA:],
+  (("A", [os três genes ficam sob um único promotor e são copiados num mRNA policistrônico único, de modo que qualquer decisão tomada na iniciação da transcrição atinge necessariamente os três ao mesmo tempo]),
+   ("B", [cada gene tem promotor próprio, mas os três promotores compartilham a mesma sequência consenso, o que faz a subunidade sigma reconhecê-los simultaneamente e iniciar as três transcrições em paralelo]),
+   ("C", [os três genes são transcritos separadamente e os mRNAs resultantes são unidos no citoplasma por uma ligase de RNA, formando um transcrito composto que o ribossomo traduz de uma só vez]),
+   ("D", [a coordenação ocorre na tradução: um único sítio de ligação ao ribossomo serve aos três genes, e a estequiometria idêntica dos produtos garante que as três enzimas apareçam juntas]),
+   ("E", [os três genes compartilham o mesmo terminador de transcrição, e é o terminador comum que sincroniza o término das três cópias e, por consequência, o aparecimento das três enzimas])))
 
 #questao-mc("02", badge-consolidacao,
-  [O laboratório de microbiologia trabalha em duas velocidades diante de uma amostra clínica. Sobre a diferença entre elas, é correto afirmar:],
-  (("A", [A cultura em meio sólido é a etapa mais rápida porque permite ler a morfologia da colônia em poucos minutos, ao passo que a bacterioscopia exige preparo demorado da lâmina.]),
-   ("B", [A bacterioscopia entrega em minutos apenas o grupo da bactéria, o que basta para orientar o tratamento inicial, enquanto a cultura entrega em dias a espécie e o perfil de sensibilidade.]),
-   ("C", [A amplificação de ácido nucleico substituiu integralmente a cultura na rotina porque informa, além da identidade do agente, o perfil de sensibilidade a cada classe de antimicrobiano testada.]),
-   ("D", [Uma bacterioscopia sem bactérias visíveis exclui infecção bacteriana, já que o limite de detecção do microscópio óptico é bem inferior à carga presente em qualquer material infectado.]),
-   ("E", [A bacterioscopia identifica a espécie pela forma e pelo arranjo das células, e a cultura serve apenas para confirmar esse resultado e produzir massa bacteriana para outros exames.]))
-)
+  [Uma cultura de #emph[E. coli] cresce em meio sem lactose. Descreva corretamente o que a ligação do repressor Lac ao operador impede que aconteça:],
+  (("A", [a RNA polimerase ainda ocupa o promotor, mas fica impedida de abrir a dupla-hélice e escapar para o alongamento, porque o operador está sobreposto ao ponto de início da transcrição]),
+   ("B", [a RNA polimerase é impedida de reconhecer e ocupar o promotor, porque o repressor recobre fisicamente as caixas -35 e -10 e as torna inacessíveis à subunidade sigma da holoenzima]),
+   ("C", [o mRNA do operon continua sendo produzido normalmente, mas é degradado logo após a síntese por ribonucleases recrutadas pelo próprio repressor ligado à região do operador]),
+   ("D", [os ribossomos ficam impedidos de encontrar o sítio de ligação de cada cistron, de modo que o transcrito é produzido em quantidade normal mas nunca chega a ser traduzido em proteína]),
+   ("E", [a subunidade sigma é sequestrada pelo repressor e não consegue se acoplar ao núcleo da enzima, o que impede a formação da holoenzima capaz de reconhecer qualquer promotor da célula])))
 
 #questao-ce("03", badge-consolidacao,
-  [Julgue os itens a seguir sobre a organização geral da célula bacteriana e sobre o que a distingue da célula eucariótica.],
-  (("I",   [A separação dos seres vivos em três domínios — Bactéria, Arqueia e Eucarioto — foi construída a partir da comparação de sequências do RNA ribossomal, e não de semelhanças morfológicas.]),
-   ("II",  [O ribossomo bacteriano é o 70S, formado pelas subunidades 50S e 30S; a soma dos coeficientes de sedimentação não é aritmética porque o valor depende de massa e forma da partícula.]),
-   ("III", [O cromossomo bacteriano é linear e mantém-se compactado por histonas, à semelhança do que ocorre nos nucleossomos da cromatina eucariótica.]),
-   ("IV",  [A ausência de mitocôndria obriga a bactéria a obter ATP exclusivamente por fermentação, já que nenhuma membrana da célula é capaz de sustentar cadeia transportadora de elétrons.]))
-)
+  [Julgue os itens sobre elementos que agem em cis e em trans no operon lac:],
+  (("I",   [O operador é um elemento que age em cis: uma alteração nele afeta apenas os genes estruturais localizados na mesma molécula de DNA.]),
+   ("II",  [O gene #emph[lacI] age em cis, porque está fisicamente próximo do operon que ele controla no cromossomo de #emph[E. coli].]),
+   ("III", [O sítio de ligação da CAP, por estar a cerca de 60 pares de base do início da transcrição, age em trans sobre os dois operadores presentes num diploide parcial.]),
+   ("IV",  [Um elemento age em trans quando seu produto é uma molécula difusível capaz de alcançar qualquer cópia de DNA presente na célula.])))
 
 #questao-mc("04", badge-consolidacao,
-  [As bactérias espiraladas costumam ser tratadas como um grupo único, mas se subdividem em três categorias com diferenças relevantes. Sobre essas categorias, é correto afirmar:],
-  (("A", [O vibrião é um espirilo de menor comprimento, com corpo rígido e um único flagelo polar, e a distinção entre os dois é apenas de tamanho e não de estrutura de locomoção.]),
-   ("B", [A espiroqueta possui corpo rígido e se desloca por flagelos externos bipolares, o que lhe permite atravessar meios viscosos com mais eficiência do que qualquer bacilo flagelado.]),
-   ("C", [O espirilo tem corpo flexível e se move por contrações citoplasmáticas, sem apêndice locomotor externo, sendo esse o desenho de _Treponema_ e de _Leptospira_.]),
-   ("D", [As três categorias compartilham o mesmo mecanismo de locomoção, baseado em filamento axial interno que gira dentro do envelope e deforma a célula em saca-rolha.]),
-   ("E", [A espiroqueta tem corpo flexível e se move por filamentos internos ao envelope; o espirilo tem corpo rígido e flagelos externos; o vibrião tem uma única curvatura em vírgula.]))
-)
+  [Uma linhagem tem operador, promotor e gene #emph[lacI] perfeitamente selvagens, mas carrega uma deleção que inativa a β-galactosidase. Explique por que essa linhagem não induz o operon quando cresce em meio com lactose:],
+  (("A", [o indutor fisiológico é a alolactose, isômero produzido pela própria β-galactosidase a partir da lactose; sem a enzima ativa, o sinal que retira o repressor do operador nunca chega a ser fabricado]),
+   ("B", [a lactose intacta é o indutor, mas ela precisa antes ser fosforilada pela β-galactosidase para adquirir carga negativa e conseguir atravessar o sítio alostérico do repressor tetramérico]),
+   ("C", [sem β-galactosidase a lactose se acumula no citoplasma e compete com a alolactose pelo mesmo sítio do repressor, deslocando o indutor verdadeiro e mantendo o operador continuamente ocupado]),
+   ("D", [a β-galactosidase é necessária para degradar o repressor Lac já sintetizado; sem essa proteólise o tetrâmero permanece íntegro sobre o operador mesmo na presença de concentrações altas de indutor]),
+   ("E", [a ausência de β-galactosidase impede a produção de galactose livre, que é o verdadeiro ligante alostérico do repressor e o único açúcar capaz de reduzir sua afinidade pela sequência do operador])))
 
-#questao-ce("05", badge-consolidacao,
-  [Julgue os itens sobre a composição e a função da parede celular bacteriana.],
-  (("I",   [O peptidoglicano é uma proteína fibrosa de cadeia longa, sendo os açúcares apenas ramificações laterais acopladas ao esqueleto proteico.]),
-   ("II",  [O esqueleto do peptidoglicano é formado pelos açúcares N-acetilglicosamina e N-acetilmurâmico alternados, com um peptídeo curto pendendo de cada unidade de N-acetilglicosamina.]),
-   ("III", [A parede existe porque o citoplasma bacteriano é hiperosmótico em relação ao meio: sem a malha que contenha a entrada de água, a célula se rompe.]),
-   ("IV",  [Vários aminoácidos do peptídeo lateral estão na forma D, configuração que dificulta a degradação por proteases do hospedeiro, que reconhecem aminoácidos L.]))
-)
+#questao-mc("05", badge-consolidacao,
+  [Explique o que significa dizer que a sequência consenso de um promotor bacteriano é TTGACA na região -35 e TATAAT na região -10:],
+  (("A", [significa que todo promotor funcional de #emph[E. coli] contém exatamente essas duas sequências; promotores que divergem delas em qualquer posição não são reconhecidos pela subunidade sigma e não iniciam transcrição]),
+   ("B", [significa que essas são as sequências do promotor mais forte já descrito na bactéria, e que os demais promotores foram derivados dele por acúmulo de mutações ao longo da história evolutiva da espécie]),
+   ("C", [significa que, alinhando muitos promotores reais, essas são as bases mais frequentes em cada posição; nenhum promotor individual precisa ser idêntico a elas, e o grau de aproximação determina a força]),
+   ("D", [significa que essas sequências são reconhecidas pelo núcleo da RNA polimerase, enquanto a subunidade sigma reconhece separadamente o espaçador de 17 pares de base que fica entre as duas caixas]),
+   ("E", [significa que a transcrição começa dentro dessas duas caixas, uma delas fornecendo a base +1 e a outra fornecendo o molde inicial que a polimerase copia antes de escapar do promotor])))
 
-#questao-mc("06", badge-consolidacao,
-  [A membrana citoplasmática bacteriana tem cerca de 60% de proteína e 40% de lipídio, proporção invertida em relação à da célula humana. Sobre essa membrana, é correto afirmar:],
-  (("A", [A alta proporção de proteína decorre de essa membrana única concentrar funções que no eucarioto estão distribuídas entre mitocôndria, retículo endoplasmático e complexo de Golgi.]),
-   ("B", [A membrana bacteriana é a estrutura responsável por manter a forma da célula e por resistir à pressão osmótica interna, papel que na célula vegetal cabe à parede de celulose.]),
-   ("C", [Por não conter esteróis, a membrana bacteriana é incapaz de sustentar gradiente de prótons, e a produção de ATP passa a depender exclusivamente da fermentação no citoplasma.]),
-   ("D", [As proteínas de membrana bacteriana são majoritariamente estruturais, com função de ancoragem do peptidoglicano, e não participam de transporte nem de sinalização ambiental.]),
-   ("E", [A membrana é impermeável a qualquer soluto, e toda a captação de nutrientes ocorre por vesículas de endocitose formadas em invaginações da própria bicamada lipídica.]))
-)
+#questao-ce("06", badge-consolidacao,
+  [Uma placa de cultura contém meio sólido com X-Gal e IPTG. Julgue os itens:],
+  (("I",   [O X-Gal atua como indutor do operon: ao entrar na célula, liga-se ao repressor Lac e reduz sua afinidade pelo operador.]),
+   ("II",  [O IPTG induz o operon e não é metabolizado pela β-galactosidase, o que mantém a indução estável ao longo do crescimento da colônia.]),
+   ("III", [Uma colônia azul indica que há β-galactosidase ativa clivando o X-Gal e liberando um produto que dimeriza e oxida a um pigmento índigo.]),
+   ("IV",  [Uma colônia branca demonstra necessariamente que o gene #emph[lacZ] daquela linhagem foi deletado.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens sobre a parede das bactérias Gram-positivas.],
-  (("I",   [O peptidoglicano pode representar de 15% a 60% do peso seco da célula, organizado em muitas camadas empilhadas e entrecruzadas.]),
-   ("II",  [O ácido teicoico está ligado ao peptidoglicano, enquanto o ácido lipoteicóico atravessa a parede e se ancora por uma cauda lipídica na membrana citoplasmática.]),
-   ("III", [A ausência de membrana externa implica ausência completa de espaço periplasmático nas bactérias Gram-positivas.]),
-   ("IV",  [Os ácidos teicoicos funcionam como adesinas ao epitélio do hospedeiro, regulam a atividade de autolisinas e servem de antígeno para identificação sorológica.]))
-)
+#questao-mc("07", badge-consolidacao,
+  [Descreva corretamente a relação entre a concentração de glicose no meio e a atividade da proteína CAP:],
+  (("A", [a glicose liga-se diretamente à CAP num sítio alostérico e a converte na forma capaz de reconhecer o sítio a montante do promotor, o que explica por que a ativação exige glicose disponível no meio]),
+   ("B", [a glicose reduz a concentração intracelular de cAMP; sem cAMP ligado, a CAP não adota a conformação que reconhece o DNA e o promotor lac fica operando apenas com sua força intrínseca baixa]),
+   ("C", [a glicose aumenta a concentração intracelular de cAMP, que se liga à CAP e a mantém presa ao sítio de ligação, o que garante recrutamento eficiente da polimerase enquanto houver glicose no meio]),
+   ("D", [a glicose é convertida em cAMP pela adenilato-ciclase, de modo que a concentração do mensageiro acompanha a do açúcar e a CAP funciona como um medidor direto da oferta energética da célula]),
+   ("E", [a glicose desloca o cAMP já ligado à CAP por competição pelo mesmo sítio, liberando a proteína do DNA e permitindo que o repressor Lac ocupe o operador imediatamente a jusante do promotor])))
 
 #questao-mc("08", badge-consolidacao,
-  [Sobre o envelope das bactérias Gram-negativas, assinale a alternativa *incorreta*.],
-  (("A", [O peptidoglicano corresponde a cerca de 5% do peso seco e se resume a uma ou poucas camadas, alojadas no espaço periplasmático entre a membrana citoplasmática e a membrana externa.]),
-   ("B", [A membrana externa é assimétrica: a folha voltada para o periplasma é de fosfolipídios e a folha voltada para o meio externo é constituída de lipopolissacarídeo.]),
-   ("C", [O envelope Gram-negativo é estruturalmente mais simples que o Gram-positivo, pois a redução da espessura do peptidoglicano dispensa camadas adicionais de revestimento externo.]),
-   ("D", [As porinas são canais proteicos da membrana externa que permitem a passagem de moléculas pequenas e hidrofílicas, e sua perda é um mecanismo real de resistência a antimicrobianos.]),
-   ("E", [O espaço periplasmático é um compartimento metabolicamente ativo, contendo enzimas de degradação e proteínas de ligação a nutrientes, e não um espaço vazio entre as duas membranas.]))
-)
+  [Sobre os elementos que compõem a região do operon lac, assinale a alternativa *incorreta*:],
+  (("A", [o gene #emph[lacI] possui promotor próprio e é transcrito de forma contínua e independente, não fazendo parte do mRNA policistrônico que carrega as mensagens dos genes estruturais do operon]),
+   ("B", [o gene #emph[lacY] codifica a lactose-permease, transportador de membrana sem o qual a entrada de lactose fica muito reduzida e a indução eficiente do operon deixa de acontecer]),
+   ("C", [o operador está situado a montante do promotor, de modo que o repressor ligado a ele recobre as caixas -35 e -10 e impede o reconhecimento do promotor pela subunidade sigma da holoenzima]),
+   ("D", [o sítio de ligação da CAP fica a montante do promotor, por volta da posição -61, em região distinta daquela ocupada pela RNA polimerase e daquela ocupada pelo repressor Lac]),
+   ("E", [o gene #emph[lacZ] codifica a β-galactosidase, enzima que hidrolisa a lactose em glicose e galactose e que também produz, como reação secundária, o isômero que funciona como indutor])))
 
-#questao-mc("09", badge-consolidacao,
-  [Uma amostra clínica é semeada em meio sólido diferencial contendo lactose, um indicador de pH e hemácias. Sobre o que se observa após a incubação, é correto afirmar:],
-  (("A", [Cada colônia corresponde a uma célula bacteriana que aumentou de volume até tornar-se visível, mantendo-se unicelular e adquirindo pigmento próprio à medida que envelhece no meio.]),
-   ("B", [A cor observada nas colônias corresponde ao pigmento sintetizado pela parede celular da espécie, característica constante que permite identificar o agente independentemente do meio usado.]),
-   ("C", [Cada colônia é um clone de cerca de cem milhões de células, e a cor resulta da acidificação do meio pela fermentação da lactose, detectada pelo indicador de pH incorporado ao ágar.]),
-   ("D", [O halo transparente ao redor de algumas colônias resulta da fagocitose das hemácias pelas bactérias da periferia, processo que consome o ágar e clareia a região adjacente à colônia.]),
-   ("E", [Meio seletivo e meio diferencial são sinônimos, pois ambos operam inibindo o crescimento das espécies que não interessam e deixando crescer apenas o agente que se procura isolar.]))
-)
+#questao-mc("09", badge-integracao,
+  [Um mutante do #emph[lacI] produz cadeias polipeptídicas que se montam normalmente com cadeias selvagens, mas cujo domínio de ligação ao DNA está deformado. Em um diploide parcial que carrega esse alelo e um alelo selvagem, o resultado esperado e sua explicação são:],
+  (("A", [expressão normalmente regulada, porque metade dos tetrâmeros formados contém apenas cadeias selvagens e essa fração é suficiente para ocupar os dois operadores e manter a repressão íntegra]),
+   ("B", [expressão não-induzível, porque os tetrâmeros mistos perdem o sítio de ligação ao indutor e permanecem ancorados aos dois operadores mesmo quando a alolactose se acumula no citoplasma]),
+   ("C", [expressão constitutiva, porque a maioria dos tetrâmeros montados incorpora ao menos uma cadeia deformada, o que inutiliza o complexo inteiro e caracteriza uma perda de função com efeito dominante]),
+   ("D", [expressão constitutiva apenas na molécula que carrega o alelo mutante, porque o defeito de montagem só se manifesta nos tetrâmeros sintetizados nas proximidades do gene alterado]),
+   ("E", [expressão normalmente regulada, porque a célula compensa o alelo defeituoso aumentando a transcrição do alelo selvagem até restaurar a concentração fisiológica de repressor funcional])))
 
-#questao-ce("10", badge-consolidacao,
-  [Julgue os itens sobre a técnica da coloração de Gram e sobre o papel de cada reagente.],
-  (("I",   [O cristal violeta é aplicado apenas às bactérias Gram-positivas e a safranina apenas às Gram-negativas, o que torna a técnica uma coloração seletiva.]),
-   ("II",  [O lugol atua como corante secundário, acrescentando um segundo pigmento que se soma ao cristal violeta e intensifica a cor final observada.]),
-   ("III", [A descoloração pelo álcool é a etapa diferencial: ela dissolve os lipídios da membrana externa da Gram-negativa e desidrata a malha espessa da Gram-positiva.]),
-   ("IV",  [A safranina penetra em todas as células, mas na Gram-positiva o roxo já retido encobre completamente o tom rosado do contracorante.]))
-)
+#questao-mc("10", badge-integracao,
+  [Uma linhagem hipotética tem repressão absoluta: o repressor Lac ligado ao operador reduz a transcrição a zero, sem qualquer vazamento. Prevê-se que essa linhagem, colocada em meio contendo apenas lactose como fonte de carbono, apresente:],
+  (("A", [indução mais rápida que a linhagem selvagem, porque a ausência de transcrição residual concentra toda a maquinaria de transcrição disponível no operon assim que o primeiro indutor aparece]),
+   ("B", [indução normal, porque a lactose atravessa a membrana por difusão simples em quantidade suficiente e se liga diretamente ao repressor sem depender de nenhuma enzima previamente existente]),
+   ("C", [indução normal, porque o cAMP acumulado na ausência de glicose ativa a CAP e o recrutamento da polimerase pelo ativador dispensa a retirada prévia do repressor do operador]),
+   ("D", [indução mais lenta, porém completa, porque a permease necessária para importar lactose é fornecida por outros transportadores de açúcar da membrana até que o operon alcance seu nível pleno]),
+   ("E", [ausência de indução, porque sem permease e sem β-galactosidase residuais a lactose não entra em quantidade útil nem é convertida em alolactose, e o sinal que retiraria o repressor nunca se forma])))
 
 #questao-mc("11", badge-integracao,
-  [Um antimicrobiano de peso molecular elevado e caráter hidrofóbico mostra excelente atividade contra cocos Gram-positivos e atividade nula contra bacilos Gram-negativos, mesmo quando o alvo intracelular está presente e íntegro nas duas. A melhor explicação é:],
-  (("A", [O peptidoglicano espesso da Gram-positiva funciona como reservatório que concentra a droga junto à membrana, enquanto a malha fina da Gram-negativa não retém quantidade suficiente do fármaco.]),
-   ("B", [A membrana externa da Gram-negativa é uma barreira de permeabilidade que exclui moléculas grandes e hidrofóbicas, e as porinas admitem apenas solutos pequenos e hidrofílicos.]),
-   ("C", [As bactérias Gram-negativas degradam o antimicrobiano no espaço periplasmático por meio de proteases inespecíficas, antes que ele alcance a membrana citoplasmática e o alvo interno.]),
-   ("D", [O ácido lipoteicóico da Gram-positiva atua como transportador ativo, bombeando o antimicrobiano para dentro da célula contra o gradiente de concentração estabelecido no meio.]),
-   ("E", [O lipopolissacarídeo neutraliza quimicamente a droga pela ligação covalente ao lipídio A, inativando-a antes que ela atravesse a membrana externa e alcance o periplasma.]))
-)
+  [Considere o diploide parcial de genótipo I#super[+] P#super[+] O#super[c] Z#super[+] no cromossomo e I#super[-] P#super[+] O#super[+] Z#super[+] no plasmídeo. O comportamento esperado da produção de β-galactosidase, na ausência e na presença de IPTG, é:],
+  (("A", [ausência de produção sem IPTG e produção pelas duas cópias com IPTG, porque o repressor produzido pelo alelo I#super[+] cromossômico difunde e silencia os dois operadores enquanto não houver indutor]),
+   ("B", [produção pela cópia cromossômica sem IPTG e produção pelas duas cópias com IPTG, porque o operador mutante não reconhece o repressor difusível e o operador selvagem do plasmídeo reconhece]),
+   ("C", [produção pelas duas cópias em ambas as condições, porque o alelo I#super[-] do plasmídeo impede a formação de qualquer repressor funcional na célula, tornando o sistema inteiramente constitutivo]),
+   ("D", [produção apenas pela cópia plasmidial em ambas as condições, porque o operador mutante bloqueia a transcrição dos genes ligados a ele e transfere toda a expressão para a outra molécula]),
+   ("E", [ausência de produção em ambas as condições, porque o alelo O#super[c] impede a ligação do ativador CAP e o promotor sozinho não sustenta transcrição detectável de β-galactosidase])))
 
 #questao-ce("12", badge-integracao,
-  [Uma cultura contendo bactérias em plena fase de multiplicação e outra contendo a mesma espécie em estado dormente são expostas a um antibiótico beta-lactâmico. Julgue os itens.],
-  (("I",   [O beta-lactâmico inibe a transpeptidase e impede a formação de ligações cruzadas novas entre cadeias de peptidoglicano.]),
-   ("II",  [O efeito bactericida será equivalente nas duas culturas, pois o antibiótico hidrolisa diretamente as ligações já existentes entre N-acetilglicosamina e N-acetilmurâmico.]),
-   ("III", [A célula dormente é destruída com a mesma rapidez, porque o beta-lactâmico degrada quimicamente a parede já formada, sem depender da síntese de material novo.]),
-   ("IV",  [A morte da célula em crescimento ocorre por lise osmótica, já que a malha incompleta deixa de conter a entrada de água imposta pelo citoplasma hiperosmótico.]))
-)
+  [Quatro linhagens crescem em meio com X-Gal e IPTG, sem glicose, e todas produzem colônias brancas. Julgue as explicações propostas para cada caso:],
+  (("I",   [Uma deleção no gene #emph[lacZ] produz colônia branca, porque não há enzima capaz de clivar o X-Gal, ainda que o operon esteja sendo transcrito normalmente.]),
+   ("II",  [Uma mutação que destrói as caixas -35 e -10 do promotor produz colônia branca, porque a holoenzima não reconhece mais o sítio e a transcrição do operon deixa de ocorrer.]),
+   ("III", [Um alelo lacI#super[s], cujo repressor perdeu o sítio de ligação ao indutor, produz colônia azul nessas condições, porque o IPTG do meio garante a indução do operon.]),
+   ("IV",  [Uma mutação que inutiliza o sítio de ligação da CAP produz colônia branca absoluta, porque sem o ativador a transcrição do operon é reduzida a zero.])))
 
 #questao-mc("13", badge-integracao,
-  [Uma amostra de abscesso é processada e a leitura da lâmina mostra cocos em cacho corados de rosa. A cultura, no dia seguinte, isola _Staphylococcus aureus_. A explicação mais provável para a discordância é:],
-  (("A", [Descoloração excessiva pelo álcool ou autólise de parede em material envelhecido fizeram a Gram-positiva perder o complexo cristal-violeta–iodo e aparecer como falsa Gram-negativa.]),
-   ("B", [A safranina foi aplicada antes do cristal violeta, invertendo a ordem dos reagentes e fazendo com que apenas o contracorante fosse retido pela parede espessa da Gram-positiva.]),
-   ("C", [Bactérias Gram-negativas em cultura envelhecida sintetizam peptidoglicano adicional e passam a reter o cristal violeta, o que gera resultado róseo na lâmina e roxo na cultura.]),
-   ("D", [O arranjo em cacho impede a penetração uniforme do lugol nas células do interior do agregado, de modo que apenas as células periféricas retêm o complexo corante formado.]),
-   ("E", [A presença de material purulento no esfregaço bloqueia a ação do cristal violeta, e a leitura correta exige repetir a coloração após digestão enzimática prévia da amostra.]))
-)
+  [Um pesquisador substitui as caixas -35 e -10 do promotor lac pelas sequências consenso, mantendo intactos o operador, o gene #emph[lacI] e o sítio da CAP. Prevê-se que, em meio com lactose e com glicose abundante, essa construção apresente:],
+  (("A", [transcrição nula, porque o promotor consenso é reconhecido por uma subunidade sigma alternativa que não está disponível durante o crescimento em meio rico em glicose]),
+   ("B", [transcrição idêntica à da construção selvagem, porque na presença de glicose o fator limitante é a ocupação do operador pelo repressor, e o operador não foi alterado pela substituição]),
+   ("C", [transcrição nula, porque a ausência de dobra do DNA pela CAP impede a formação do complexo aberto independentemente da qualidade das sequências reconhecidas pela subunidade sigma]),
+   ("D", [transcrição reduzida em relação à selvagem, porque promotores consenso ligam a holoenzima com afinidade tão alta que ela deixa de escapar para o alongamento e permanece retida no sítio]),
+   ("E", [transcrição elevada, porque o operador está livre pela ação do indutor e o promotor agora recruta a polimerase por conta própria, deixando de depender da ativação por CAP-cAMP])))
 
 #questao-mc("14", badge-integracao,
-  [Um paciente com sepse por bacilo Gram-negativo recebe a primeira dose de um antibiótico bactericida adequado e, nas horas seguintes, apresenta piora clínica com febre alta e queda pressórica. O mecanismo que melhor explica esse curso é:],
-  (("A", [O antibiótico induziu a síntese e a secreção acelerada de exotoxinas pela população bacteriana remanescente, num mecanismo de resposta ao estresse mediado pelo próprio fármaco.]),
-   ("B", [A droga selecionou uma subpopulação portadora de plasmídeo de resistência, que se multiplicou rapidamente e ampliou a carga bacteriana total nas primeiras horas de tratamento.]),
-   ("C", [O polissacarídeo O liberado das cadeias externas do lipopolissacarídeo é o componente tóxico e passa a circular livremente assim que a membrana externa é desorganizada.]),
-   ("D", [A lise bacteriana em massa liberou grande quantidade de lipídio A, peça estrutural da membrana externa, que ao ser reconhecido pela imunidade inata amplificou a cascata de citocinas.]),
-   ("E", [A queda abrupta da carga bacteriana reduziu o estímulo antigênico e desregulou o eixo febril, produzindo instabilidade térmica e vasomotora transitória sem participação de mediador algum.]))
-)
+  [Uma linhagem tem o sistema de transporte de glicose alterado de tal modo que a proteína EIIA permanece constitutivamente fosforilada, mesmo com glicose abundante no meio. Prevê-se que, nessa linhagem crescendo em glicose e lactose:],
+  (("A", [o operon lac seja transcrito em nível alto, porque a EIIA fosforilada mantém a adenilato-ciclase ativa, o cAMP elevado e a CAP capaz de dobrar o DNA e recrutar a polimerase]),
+   ("B", [o operon lac permaneça no nível basal, porque a fosforilação da EIIA é irrelevante para a adenilato-ciclase e o que determina o cAMP é a concentração citoplasmática de glicose-6-fosfato]),
+   ("C", [o operon lac seja completamente silenciado, porque a EIIA fosforilada liga-se ao operador e reforça a ação do repressor Lac, somando dois bloqueios sobre a mesma região do DNA]),
+   ("D", [o operon lac seja transcrito em nível alto apenas se a lactose for retirada do meio, porque a EIIA fosforilada substitui a alolactose como ligante alostérico do repressor tetramérico]),
+   ("E", [o operon lac permaneça silenciado, porque a EIIA fosforilada inibe a lactose-permease com mais intensidade que a forma desfosforilada, impedindo a entrada do açúcar indutor na célula])))
 
 #questao-ce("15", badge-integracao,
-  [Um quadro de pneumonia atípica não responde a nenhum beta-lactâmico e o agente identificado é _Mycoplasma pneumoniae_. Julgue os itens.],
-  (("I",   [A ausência de parede celular retira o alvo dos antibióticos que inibem a síntese de peptidoglicano, o que torna a espécie intrinsecamente insensível a essa classe.]),
-   ("II",  [Mesmo sem parede, a célula mantém forma bacilar constante, sustentada por um citoesqueleto interno de proteínas contráteis que substitui funcionalmente o peptidoglicano.]),
-   ("III", [A resistência decorre de beta-lactamase codificada em plasmídeo, adquirida por conjugação a partir de bactérias da microbiota respiratória.]),
-   ("IV",  [A perda da parede é evento recente na linhagem e a membrana é estabilizada por uma segunda camada de peptidoglicano modificado.]))
-)
+  [Julgue os itens sobre o mRNA policistrônico do operon lac e seus produtos:],
+  (("I",   [O transcrito é traduzido como uma poliproteína única, que em seguida é clivada por proteases específicas em três polipeptídeos separados.]),
+   ("II",  [Um único mRNA carrega as sequências codificantes de #emph[lacZ], #emph[lacY] e #emph[lacA], e cada uma delas possui seu próprio sítio de ligação ao ribossomo.]),
+   ("III", [A eficiência distinta de cada sítio de ligação ao ribossomo, somada à degradação progressiva do transcrito, faz com que a β-galactosidase seja produzida em quantidade maior que a transacetilase.]),
+   ("IV",  [A tradução do transcrito só pode começar depois que a RNA polimerase o libera por inteiro, o que separa no tempo a transcrição e a tradução em bactérias.])))
 
 #questao-mc("16", badge-integracao,
-  [O escarro de um paciente com tosse crônica é submetido à coloração de Gram e nenhuma bactéria é evidenciada, apesar da suspeita clínica forte. O laboratório opta por Ziehl-Neelsen e encontra o agente. O fundamento estrutural dessa escolha é:],
-  (("A", [O agente tem envelope de bactéria Gram-negativa e largura abaixo do limite de resolução da luz visível, o que exige impregnação por prata ou observação em campo escuro.]),
-   ("B", [O agente não possui parede celular e por isso não retém nenhum dos corantes do Gram, situação em que a fucsina fenicada aquecida se liga diretamente à membrana citoplasmática.]),
-   ("C", [A parede tem arquitetura de Gram-positiva coberta por camada cerosa de ácido micólico, que impede a entrada do corante e confere resistência à descoloração por álcool-ácido.]),
-   ("D", [O agente é intracelular obrigatório e só pode ser evidenciado pelas inclusões citoplasmáticas que produz na célula hospedeira, reveladas pela coloração de Giemsa do esfregaço.]),
-   ("E", [A cápsula polissacarídica espessa afasta o corante da parede, e o aquecimento da fucsina serve para dissolver esse revestimento e permitir o contato do pigmento com o peptidoglicano.]))
-)
+  [O operon lac contém uma alça de retroalimentação positiva. Identifique o par de elementos que a constitui e explique como ela opera:],
+  (("A", [o repressor e o operador: quanto mais repressor a célula produz, mais operadores ficam ocupados, e a queda de transcrição resultante reduz a síntese do próprio repressor num circuito autolimitado]),
+   ("B", [a CAP e o cAMP: quanto mais CAP ativa se liga ao sítio a montante, maior a produção de adenilato-ciclase codificada pelo operon, o que eleva ainda mais o cAMP disponível na célula]),
+   ("C", [a transacetilase e a permease: a transacetilase modifica galactosídeos tóxicos e assim protege a permease da inativação, permitindo entrada progressivamente maior de lactose na célula]),
+   ("D", [o promotor e a subunidade sigma: a transcrição do operon libera moléculas de sigma que reingressam no ciclo e aumentam a frequência de reconhecimento do próprio promotor lac]),
+   ("E", [a permease e a β-galactosidase: mais permease traz mais lactose, mais β-galactosidase converte parte dela em alolactose, mais repressores se soltam e mais dos dois produtos são sintetizados])))
 
 #questao-mc("17", badge-integracao,
-  [Numa unidade de terapia intensiva, um gene de resistência idêntico é detectado em espécies bacterianas diferentes isoladas de pacientes distintos ao longo de duas semanas. O mecanismo que melhor explica essa disseminação é:],
-  (("A", [Mutação pontual espontânea recorrente no mesmo sítio cromossômico, favorecida pela pressão seletiva do antimicrobiano usado como esquema empírico padrão da unidade.]),
-   ("B", [Transformação, com captação do DNA livre liberado por bactérias mortas pelo antibiótico, mecanismo que exige integração obrigatória do gene ao cromossomo da célula receptora.]),
-   ("C", [Transdução por bacteriófago, único mecanismo capaz de transferir material genético entre bactérias de espécies diferentes por não depender de contato físico entre as células.]),
-   ("D", [Duplicação do nucleoide seguida de segregação desigual, que gera células-filhas com número variável de cópias do gene e, portanto, com graus distintos de resistência ao fármaco.]),
-   ("E", [Conjugação mediada por pilus sexual, com transferência de cópia de plasmídeo que se replica de forma independente e pode passar entre bactérias vivas de espécies diferentes.]))
-)
+  [Sobre a posição do operador e a etapa da transcrição que ele bloqueia, assinale a alternativa *incorreta*:],
+  (("A", [o operador está sobreposto ao ponto de início da transcrição, e é essa sobreposição que permite ao repressor interferir num evento posterior ao reconhecimento do promotor pela holoenzima]),
+   ("B", [o bloqueio imposto pelo repressor pode ser superado pela substituição do promotor lac por um promotor mais forte, porque a etapa limitante nesse estado é a afinidade da holoenzima pelo sítio]),
+   ("C", [a repressão reduz a transcrição em cerca de mil vezes, e o resíduo que persiste decorre da natureza reversível da ligação entre o tetrâmero repressor e a sequência do operador]),
+   ("D", [a RNA polimerase consegue ocupar o promotor mesmo com o repressor ligado, de modo que descrever a repressão como impedimento ao pouso da enzima descreve mal o mecanismo real]),
+   ("E", [o resíduo de transcrição que escapa da repressão tem papel funcional, por manter na célula as poucas moléculas de permease e de β-galactosidase necessárias para a indução começar])))
 
 #questao-ce("18", badge-integracao,
-  [Uma bactéria peritríquia é colocada num meio com gradiente crescente de nutriente. Julgue os itens sobre a estrutura e o funcionamento do sistema que a leva até a fonte.],
-  (("I",   [O flagelo bacteriano ondula ao longo do próprio comprimento com gasto direto de ATP, do mesmo modo que o flagelo do espermatozoide.]),
-   ("II",  [O motor do corpo basal é movido pelo gradiente de prótons gerado pela cadeia transportadora de elétrons instalada na membrana citoplasmática.]),
-   ("III", [A célula não é capaz de comparar concentrações entre as extremidades do próprio corpo; ela compara a concentração atual com a de instantes anteriores.]),
-   ("IV",  [A flagelina é proteína estritamente estrutural e não é reconhecida pela imunidade inata, o que faz da motilidade uma vantagem sem custo imunológico para a bactéria.]))
-)
+  [Julgue os itens sobre as duas alavancas pelas quais a glicose reduz a expressão do operon lac:],
+  (("I",   [A repressão por catabólito atua sobre o braço positivo: com glicose entrando, o cAMP cai e a CAP deixa de ser capaz de reconhecer seu sítio no DNA.]),
+   ("II",  [A exclusão do indutor consiste na inibição da lactose-permease pela EIIA desfosforilada, o que reduz a entrada do açúcar que originaria o indutor.]),
+   ("III", [A repressão por catabólito recebe esse nome porque a glicose ativa um repressor que se liga ao operador em conjunto com o repressor Lac.]),
+   ("IV",  [As duas alavancas são disparadas pelo mesmo evento, o transporte de glicose pelo sistema de fosfotransferase, mas atuam sobre alvos moleculares diferentes.])))
 
 #questao-mc("19", badge-integracao,
-  [Sobre a cápsula bacteriana, sua ação sobre a resposta do hospedeiro e a estratégia vacinal que dela decorre, assinale a alternativa *incorreta*.],
-  (("A", [A cápsula impede que as opsoninas depositadas pelo hospedeiro alcancem a parede, e sem esse ponto de ancoragem o receptor do fagócito não consegue estabelecer contato firme.]),
-   ("B", [A proteção conferida pela cápsula decorre da toxicidade direta do polissacarídeo capsular sobre o fagócito, que sofre lesão de membrana ao entrar em contato com a superfície bacteriana.]),
-   ("C", [A resolução da infecção por bactéria capsulada depende da produção de anticorpo específico contra o polissacarídeo da cápsula, que restabelece a opsonização eficaz do agente.]),
-   ("D", [As vacinas contra pneumococo e meningococo são construídas a partir do polissacarídeo capsular, e não da bactéria inteira, o que reflete diretamente o alvo protetor relevante.]),
-   ("E", [Embora seja mais frequente entre Gram-negativas, a cápsula também ocorre em Gram-positivas clinicamente importantes, como _Streptococcus pneumoniae_ e _Streptococcus agalactiae_.]))
-)
+  [Duas linhagens crescem em meio com IPTG, X-Gal e sem glicose. A linhagem 1 forma colônias brancas e a linhagem 2 forma colônias azuis intensas mesmo quando o IPTG é retirado. Os genótipos mais compatíveis com esses resultados são, respectivamente:],
+  (("A", [linhagem 1 com operador mutante e linhagem 2 com repressor incapaz de responder ao indutor, porque o operador alterado silencia os genes ligados a ele e o repressor cego libera a transcrição]),
+   ("B", [linhagem 1 com sítio da CAP inutilizado e linhagem 2 com promotor substituído pelo consenso, porque nenhuma das duas alterações mantém qualquer resposta ao indutor adicionado ao meio]),
+   ("C", [linhagem 1 com deleção da permease e linhagem 2 com deleção da transacetilase, porque ambas as enzimas participam diretamente da conversão do X-Gal no pigmento azul insolúvel]),
+   ("D", [linhagem 1 com repressor que perdeu o sítio do indutor e linhagem 2 com operador que o repressor não reconhece, porque a primeira é não-induzível e a segunda é constitutiva]),
+   ("E", [linhagem 1 com adenilato-ciclase inativa e linhagem 2 com excesso de cAMP, porque a primeira não ativa a CAP e a segunda mantém o ativador permanentemente ligado ao seu sítio])))
 
 #questao-mc("20", badge-integracao,
-  [Bactérias recolhidas do interior de um biofilme maduro sobrevivem a concentrações de antibiótico que matam a mesma cepa cultivada em meio líquido; testadas isoladamente em cultura, porém, mostram-se plenamente sensíveis. A explicação correta é:],
-  (("A", [A matriz do biofilme induz mutações no gene-alvo da droga, que revertem quando a célula é retirada do agregado e volta a crescer isoladamente em meio de cultura líquido.]),
-   ("B", [As células do biofilme adquirem plasmídeo de resistência por conjugação com as vizinhas e o perdem por segregação instável assim que são semeadas em meio sem antimicrobiano.]),
-   ("C", [A matriz sequestra quimicamente o antibiótico por ligação covalente irreversível, de modo que nenhuma molécula da droga alcança as camadas mais profundas da comunidade bacteriana.]),
-   ("D", [O biofilme aumenta a expressão de bombas de efluxo de forma permanente e herdável, transmitindo o fenótipo às gerações seguintes mesmo fora do ambiente do agregado polimérico.]),
-   ("E", [A matriz limita a penetração da droga e a difusão de nutrientes, e as células internas ficam pouco ativas — como boa parte dos antibióticos exige crescimento, há tolerância e não resistência.]))
-)
+  [Num diploide parcial com genótipo I#super[+] P#super[+] O#super[c] Z#super[-] no cromossomo e I#super[+] P#super[+] O#super[+] Z#super[+] no plasmídeo, a produção de β-galactosidase na ausência de indutor será:],
+  (("A", [alta, porque o operador mutante do cromossomo mantém aquela molécula em transcrição contínua e o gene estrutural do plasmídeo fornece a enzima funcional que falta na cópia cromossômica]),
+   ("B", [alta, porque o repressor produzido pelas duas cópias do gene regulador é titulado pelos dois operadores presentes e sobra pouca proteína livre para manter qualquer um deles ocupado]),
+   ("C", [intermediária, porque metade dos transcritos produzidos na célula vem da molécula constitutiva e essa metade é suficiente para gerar enzima funcional a partir do gene selvagem]),
+   ("D", [nula ou residual, porque a molécula que transcreve de forma constitutiva carrega um gene estrutural inativo e a molécula que carrega o gene funcional está com o operador reprimido]),
+   ("E", [nula ou residual, porque o alelo O#super[c] é dominante e impõe silenciamento constitutivo às duas moléculas presentes na célula, independentemente do estado dos genes estruturais])))
 
 #questao-ce("21", badge-integracao,
-  [Material cirúrgico contaminado com endósporos de _Bacillus_ é submetido a diferentes processos de descontaminação. Julgue os itens.],
-  (("I",   [A resistência do endósporo ao calor decorre da desidratação profunda do núcleo, do acúmulo de dipicolinato de cálcio e das proteínas que revestem e protegem o DNA.]),
-   ("II",  [A fervura em água a 100 °C é suficiente para destruir endósporos, uma vez que a temperatura desnatura as proteínas do córtex e das capas do esporo.]),
-   ("III", [A esterilização confiável exige vapor sob pressão, tipicamente a 121 °C, condição alcançada em autoclave e não em água fervente à pressão ambiente.]),
-   ("IV",  [A esporulação é um programa genético de várias etapas, restrito a poucos gêneros, e não uma resposta improvisada de qualquer bactéria submetida a estresse.]))
-)
+  [Julgue os itens sobre a combinação dos dois braços de regulação do operon lac:],
+  (("I",   [Na ausência de lactose, o estado de ativação da CAP é irrelevante para a transcrição do operon, porque o repressor bloqueia uma etapa posterior ao recrutamento da polimerase.]),
+   ("II",  [Com lactose presente e glicose abundante, o operador está livre e a transcrição atinge seu nível máximo.]),
+   ("III", [A transcrição alta exige simultaneamente operador desocupado e CAP ativa, o que faz do operon uma conjunção de duas condições independentes.]),
+   ("IV",  [Com glicose baixa e lactose ausente, o cAMP elevado mantém a CAP ligada ao seu sítio, mas a transcrição permanece no nível reprimido.])))
 
 #questao-mc("22", badge-integracao,
-  [O RNA ribossomal 16S ocupa dois papéis distintos na microbiologia, um taxonômico e outro terapêutico. Sobre esses dois papéis, é correto afirmar:],
-  (("A", [Ele serve de relógio filogenético por estar em todo organismo celular e mudar devagar, e é sítio de ligação de aminoglicosídeo na subunidade 30S, o que faz o ribossomo ler o código errado.]),
-   ("B", [Ele é usado na classificação por ser a molécula que mais rapidamente acumula mutações entre gerações, e é alvo dos macrolídeos, que se ligam à subunidade maior do ribossomo bacteriano.]),
-   ("C", [Ele compõe a subunidade 50S do ribossomo bacteriano e, por ser exclusivo de procariotos, garante que nenhum antibiótico que a ele se ligue produza efeito adverso no paciente tratado.]),
-   ("D", [Ele foi escolhido como marcador filogenético por ser abundante e fácil de purificar, e sua função terapêutica se restringe a servir de molde para a síntese de antibióticos peptídicos.]),
-   ("E", [Ele é encontrado apenas em bactérias de crescimento rápido e por isso permite separar espécies cultiváveis de não cultiváveis, sendo também o alvo das quinolonas na replicação do DNA.]))
-)
+  [Um promotor sintético é construído com as caixas -35 e -10 exatamente iguais ao consenso, porém separadas por 24 pares de base em vez dos 17 habituais. Prevê-se que esse promotor seja:],
+  (("A", [mais forte que o consenso canônico, porque o espaçamento maior facilita a abertura da dupla-hélice entre as duas caixas e reduz a energia necessária para formar a bolha de transcrição]),
+   ("B", [equivalente ao consenso canônico, porque a força de um promotor depende exclusivamente da identidade das bases nas duas caixas, e ambas foram mantidas idênticas ao padrão de referência]),
+   ("C", [reconhecido apenas pelo núcleo da RNA polimerase sem a subunidade sigma, o que resulta em iniciação aleatória ao longo de todo o trecho de DNA situado entre as duas caixas conservadas]),
+   ("D", [mais forte apenas na presença da CAP, porque a dobra imposta pelo ativador ao DNA reduz a distância efetiva entre as caixas e restaura o alinhamento perdido pelo espaçamento excessivo]),
+   ("E", [mais fraco que o consenso canônico, porque os dois domínios de reconhecimento da subunidade sigma ficam a uma distância fixa entre si e não alcançam as duas caixas ao mesmo tempo])))
 
-#questao-mc("23", badge-integracao,
-  [Uma paciente jovem apresenta pielonefrite aguda por _Escherichia coli_. A explicação estrutural mais direta para a bactéria ter alcançado o parênquima renal a partir do intestino é:],
-  (("A", [A produção de exotoxina que paralisa o peristaltismo ureteral, permitindo refluxo passivo do conteúdo vesical até a pelve renal e implantação do agente no interstício.]),
-   ("B", [A presença de cápsula polissacarídica, que impede a fagocitose pelas células do urotélio e permite a permanência prolongada da bactéria na luz da bexiga até atingir o rim.]),
-   ("C", [A capacidade de formar endósporos resistentes ao pH ácido da urina, que germinam ao alcançar o ambiente menos hostil da pelve renal e reiniciam a multiplicação bacteriana.]),
-   ("D", [A motilidade conferida por flagelos peritríquios, único mecanismo capaz de vencer o fluxo urinário, uma vez que estruturas de adesão não resistem à força de arrasto da urina.]),
-   ("E", [A presença de fímbrias cuja adesina reconhece receptor específico do epitélio urinário, o que fixa a bactéria contra o fluxo da urina e permite a colonização ascendente até o rim.]))
-)
+#questao-ce("23", badge-integracao,
+  [Julgue os itens que comparam o operon lac e o operon trp:],
+  (("I",   [O operon lac controla uma via catabólica e é indutível: o metabólito relacionado ao substrato retira o repressor do operador.]),
+   ("II",  [O operon trp controla uma via anabólica e é reprimível: o triptofano funciona como co-repressor, tornando o TrpR capaz de ligar o operador.]),
+   ("III", [O operon trp possui, além da repressão pelo TrpR, um mecanismo de atenuação que decide se a transcrição prossegue além da região líder.]),
+   ("IV",  [Tanto no lac quanto no trp o pequeno metabólito atua reduzindo a afinidade da proteína reguladora pela sequência do operador.])))
 
-#questao-ce("24", badge-integracao,
-  [Uma lâmina de líquido cefalorraquidiano é lida em regime de urgência e mostra diplococos corados de rosa. Julgue os itens sobre o que essa leitura permite concluir e sobre o que ela não permite.],
-  (("I",   [O arranjo em par indica que as células se agregaram no líquor por afinidade de superfície, e não que se dividiram num único plano com separação incompleta.]),
-   ("II",  [A leitura entrega o grupo — coco Gram-negativo — mas não a espécie, que depende de cultura, teste bioquímico ou método molecular.]),
-   ("III", [A informação obtida em minutos é suficiente para orientar a escolha do esquema antimicrobiano inicial, antes que a cultura fique pronta.]),
-   ("IV",  [A ausência de bactérias visíveis numa bacterioscopia excluiria infecção bacteriana, já que o método detecta cargas de qualquer magnitude.]))
-)
+#questao-mc("24", badge-integracao,
+  [Sobre o mecanismo pelo qual a CAP ativa a transcrição do operon lac, assinale a alternativa *incorreta*:],
+  (("A", [a CAP ligada ao seu sítio dobra a dupla-hélice de forma acentuada, e essa deformação reposiciona o ativador em relação à região onde a RNA polimerase se acomoda no promotor]),
+   ("B", [o contato entre a superfície da CAP e o domínio carboxi-terminal da subunidade alfa da polimerase fornece energia livre favorável e estabiliza a holoenzima sobre um promotor divergente]),
+   ("C", [a CAP altera as sequências das caixas -35 e -10 do promotor lac, convertendo-as no padrão consenso e tornando desnecessária a manutenção do ativador ligado durante a transcrição]),
+   ("D", [a CAP só reconhece o DNA depois de ligar cAMP, de modo que sua atividade reflete indiretamente o fluxo de glicose através do sistema de transporte por fosfotransferase]),
+   ("E", [o efeito da CAP compensa a perda de contatos causada pela divergência do promotor lac em relação ao consenso, sem alterar a sequência de nenhum dos elementos envolvidos])))
 
-#questao-mc("25", badge-integracao,
-  [Uma enterobactéria é semeada em meio sólido com lactose e indicador de pH, e produz colônias coradas. Ligando o transporte de membrana ao resultado observado na placa, é correto afirmar:],
-  (("A", [A cor da colônia é o pigmento que a bactéria exporta pela membrana citoplasmática por meio de transporte ativo primário, dependente da hidrólise direta de ATP pela bomba.]),
-   ("B", [A lactose entra por endocitose mediada por receptor, é degradada em vacúolo digestivo e os produtos ácidos são devolvidos ao meio, alterando o pH ao redor da colônia.]),
-   ("C", [A ausência de organelas impede que a bactéria fermente lactose, de modo que a cor observada resulta apenas da degradação do indicador de pH pelas enzimas hidrolíticas secretadas.]),
-   ("D", [A translocação de grupo transporta a lactose sem modificá-la quimicamente, e é essa integridade da molécula que permite sua reexportação e a acidificação do meio circundante.]),
-   ("E", [O açúcar é captado por transportador da membrana, muitas vezes com modificação química na travessia que impede o retorno, e a fermentação acidifica o meio e vira a cor do indicador.]))
-)
+#questao-ce("25", badge-integracao,
+  [Julgue os itens sobre a atenuação no operon trp e sua dependência da organização celular procariótica:],
+  (("I",   [A atenuação poderia operar em uma célula eucariótica de maneira idêntica, uma vez que depende apenas da estrutura secundária do RNA transcrito.]),
+   ("II",  [Com triptofano escasso, o ribossomo avança rapidamente pela região líder e favorece a formação do grampo terminador, abortando a transcrição.]),
+   ("III", [A atenuação depende de um ribossomo traduzir um peptídeo-líder no mRNA que ainda está sendo sintetizado pela RNA polimerase.]),
+   ("IV",  [O acoplamento entre transcrição e tradução que a atenuação exige é possível porque, em procariotos, não há envoltório nuclear separando os dois processos.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Um jardineiro de 54 anos sofre ferimento perfurante profundo com ferramenta enferrujada e procura atendimento tardiamente, com trismo e rigidez de nuca. Sobre a estrutura bacteriana que explica esse quadro, é correto afirmar:],
-  (("A", [A bactéria alcançou a ferida na forma vegetativa e sobreviveu no solo graças à cápsula polissacarídica, que a protege da dessecação e da fagocitose no tecido lesado.]),
-   ("B", [O agente persiste no solo como endósporo, forma latente e desidratada; no tecido desvitalizado e pouco oxigenado ele germina e a célula vegetativa passa a secretar a toxina.]),
-   ("C", [O endósporo é a forma reprodutiva da bactéria: ao germinar na ferida, cada esporo origina várias células-filhas, e essa multiplicação explica a rapidez da instalação do quadro.]),
-   ("D", [A resistência do agente no ambiente decorre da camada de ácido micólico da parede, que também impede a fagocitose no sítio da lesão e retarda a resposta inflamatória local.]),
-   ("E", [A toxina responsável pelo quadro é a endotoxina liberada da membrana externa do agente quando ele se rompe no tecido, o que explica a instalação tardia da manifestação clínica.]))
-)
+  [Uma indústria farmacêutica produz insulina humana recombinante em #emph[E. coli]. O gene da insulina foi colocado sob controle de um operador lac, e o fermentador só recebe o indutor quando a cultura atinge densidade elevada. Explique a razão dessa estratégia:],
+  (("A", [o indutor é necessário para que a bactéria metabolize a lactose do meio de cultura, e adicioná-lo cedo demais esgotaria a fonte de carbono antes que a cultura atingisse a densidade desejada]),
+   ("B", [a adição tardia do indutor permite que o repressor seja degradado gradualmente ao longo do crescimento, o que sincroniza a produção de insulina entre todas as células da população]),
+   ("C", [o indutor precisa ser adicionado quando o cAMP já caiu, porque só nessas condições a CAP se desliga do sítio e libera o promotor para a transcrição eficiente do gene heterólogo]),
+   ("D", [a expressão precoce do gene aumentaria a concentração de alolactose no meio, e o excesso de indutor natural saturaria o repressor antes que a cultura alcançasse a densidade necessária]),
+   ("E", [manter o operador reprimido durante o crescimento evita o custo metabólico e a toxicidade de produzir uma proteína estranha; a indução na hora certa concentra esse custo na fase de produção])))
 
-#questao-mc("27", badge-aplicacao,
-  [Uma _Salmonella_ isolada de hemocultura é caracterizada como móvel, positiva para antígeno H e positiva para antígeno K. Sobre a relação entre esses marcadores e as estruturas bacterianas, assinale a alternativa *incorreta*.],
-  (("A", [O antígeno H corresponde à flagelina, proteína que compõe o filamento do flagelo, e sua detecção é compatível com a caracterização da amostra como bactéria móvel.]),
-   ("B", [O antígeno K corresponde ao polissacarídeo da cápsula, camada depositada por fora do envelope que dificulta a opsonização e, com ela, a fagocitose do agente.]),
-   ("C", [O antígeno O corresponde ao polissacarídeo externo do lipopolissacarídeo, e sua variabilidade entre cepas é o que sustenta a sorotipagem desse componente da membrana externa.]),
-   ("D", [O antígeno H é conferido pelas fímbrias de adesão, estruturas curtas e numerosas que também são responsáveis pela motilidade observada nos testes de mobilidade em meio semissólido.]),
-   ("E", [A porção tóxica do lipopolissacarídeo é o lipídio A, ancorado na membrana externa, e não o polissacarídeo O, que responde pela variabilidade antigênica entre as cepas.]))
-)
+#questao-ce("27", badge-aplicacao,
+  [Um laboratório clona um fragmento de DNA humano dentro do início do gene #emph[lacZ] de um plasmídeo e semeia as bactérias transformadas em meio com X-Gal e IPTG. Julgue os itens:],
+  (("I",   [As colônias que receberam o fragmento inserido aparecem brancas, porque a interrupção do #emph[lacZ] impede a produção de β-galactosidase funcional.]),
+   ("II",  [As colônias azuis correspondem a plasmídeos que se recircularizaram sem inserto, mantendo o #emph[lacZ] íntegro.]),
+   ("III", [A presença de IPTG no meio é dispensável, porque o X-Gal já induz por si só a transcrição do operon no plasmídeo.]),
+   ("IV",  [Uma colônia branca garante que o fragmento inserido está na orientação correta para expressar a proteína humana.])))
 
-#questao-ce("28", badge-aplicacao,
-  [Um paciente internado evolui com febre, hipotensão e hemocultura positiva para bacilo Gram-negativo produtor de beta-lactamase codificada em plasmídeo. Julgue os itens.],
-  (("I",   [A hipotensão decorre da ação direta do polissacarídeo O sobre o músculo liso vascular, independentemente de mediadores inflamatórios do hospedeiro.]),
-   ("II",  [O plasmídeo que carrega o gene de resistência é indispensável à viabilidade da bactéria, já que replica junto com o cromossomo e sob o mesmo controle.]),
-   ("III", [A febre e a vasodilatação resultam do reconhecimento do lipídio A pela imunidade inata, com liberação de citocinas inflamatórias.]),
-   ("IV",  [O gene de resistência pode ser transferido a bactérias de outras espécies por conjugação, sem que cada uma precise adquiri-lo por mutação própria.]))
-)
+#questao-mc("28", badge-aplicacao,
+  [Um estudante cultiva #emph[E. coli] em meio contendo glicose e lactose e registra a curva de crescimento. Observa duas fases exponenciais separadas por um platô de aproximadamente vinte minutos. A explicação mecanística correta para o platô é:],
+  (("A", [durante o platô a bactéria consome o oxigênio residual do meio e passa ao metabolismo fermentativo, o que reduz o rendimento energético e interrompe temporariamente a divisão celular]),
+   ("B", [o platô corresponde ao tempo necessário para que a lactose acumulada seja transportada para fora da célula, evitando a toxicidade osmótica antes que o metabolismo do segundo açúcar comece]),
+   ("C", [o platô reflete a degradação do repressor Lac acumulado durante a primeira fase, processo que depende de proteases e só se completa após o esgotamento total da glicose do meio]),
+   ("D", [ao esgotar a glicose, o cAMP sobe e a CAP é ativada, mas o operon ainda precisa ser transcrito e traduzido até que haja permease e β-galactosidase suficientes para sustentar o crescimento]),
+   ("E", [o platô resulta da queda de pH provocada pelos ácidos orgânicos liberados na primeira fase, e o crescimento só recomeça depois que o tampão do meio restabelece as condições fisiológicas])))
 
-#questao-mc("29", badge-aplicacao,
-  [Homem de 38 anos com tosse por dois meses, febre vespertina e emagrecimento. A bacterioscopia do escarro pelo Gram é considerada não informativa e o laboratório processa a amostra por outra técnica, encontrando bacilos vermelhos sobre fundo azul. A leitura correta é:],
-  (("A", [Trata-se de bactéria sem parede celular, que por isso não retém corante algum no Gram e só é evidenciada por técnicas que coram diretamente a membrana citoplasmática.]),
-   ("B", [Trata-se de bactéria Gram-negativa cuja membrana externa foi dissolvida durante o preparo, o que explica a perda do corante primário e a coloração avermelhada final.]),
-   ("C", [O achado indica bactéria capsulada, e o fundo azul corresponde ao polissacarídeo capsular corado pelo azul de metileno enquanto a célula retém a fucsina fenicada.]),
-   ("D", [O achado é inespecífico, pois qualquer bactéria retém fucsina após aquecimento, e a confirmação depende exclusivamente do resultado da cultura em meio próprio.]),
-   ("E", [Trata-se de bacilo álcool-ácido resistente: a parede rica em ácido micólico retém a fucsina mesmo após descoloração por álcool-ácido, e os debris coram-se com azul de metileno.]))
-)
+#questao-ce("29", badge-aplicacao,
+  [Uma cepa de #emph[E. coli] isolada de urina é analisada em laboratório. Ela cresce normalmente em glicose, mas não consegue usar lactose como única fonte de carbono. O sequenciamento mostra o gene #emph[lacZ] íntegro e o gene #emph[lacI] íntegro. Julgue os itens:],
+  (("I",   [Uma mutação que inutilize as caixas -35 e -10 do promotor lac explicaria o fenótipo, porque sem transcrição do operon não há permease nem β-galactosidase.]),
+   ("II",  [Um alelo lacI#super[s] explicaria o fenótipo mesmo com o gene íntegro, porque o super-repressor resulta de uma modificação pós-traducional do repressor selvagem.]),
+   ("III", [Uma deleção do sítio de ligação da CAP explicaria o fenótipo de forma completa, porque sem o ativador a transcrição do operon é reduzida a zero.]),
+   ("IV",  [Uma mutação que inative o gene #emph[lacY] explicaria o fenótipo, porque sem a permease a lactose praticamente não entra na célula.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Paciente em uso prolongado de cateter venoso central apresenta febre persistente. As hemoculturas isolam _Staphylococcus epidermidis_ sensível ao antimicrobiano prescrito, mas a febre não cede com o tratamento adequado mantido por dias. A conduta e sua justificativa mecanística são:],
-  (("A", [Manter o cateter e dobrar a dose, pois a falha decorre de concentração sérica insuficiente para atingir bactérias aderidas ao endotélio adjacente ao dispositivo implantado.]),
-   ("B", [Trocar por antimicrobiano de outra classe, pois a sensibilidade demonstrada em cultura indica erro de identificação da espécie e não corresponde ao agente realmente presente.]),
-   ("C", [Retirar o cateter, pois há biofilme aderido ao dispositivo: a matriz limita a penetração da droga e as células internas, pouco ativas, escapam de antibióticos que exigem crescimento.]),
-   ("D", [Manter a conduta e aguardar, uma vez que a espécie isolada compõe a microbiota da pele e o achado em hemocultura de paciente com cateter é sempre contaminação de coleta.]),
-   ("E", [Associar um segundo antimicrobiano com ação sobre parede, pois a falha se explica pela produção de beta-lactamase induzida pela permanência prolongada do dispositivo no vaso.]))
-)
+  [Um grupo de pesquisa constrói um circuito genético sintético em que um gene repórter é colocado sob controle simultâneo de um operador lac e de um sítio de ligação para um ativador. O objetivo declarado é obter alta amplitude de resposta entre o estado desligado e o estado ligado. A escolha de promotor mais coerente com esse objetivo é:],
+  (("A", [um promotor com as caixas consenso e espaçamento canônico, porque a amplitude de resposta depende sobretudo do nível máximo alcançável e esse é o promotor com maior taxa de iniciação]),
+   ("B", [um promotor sem caixa -35 reconhecível, porque a dependência total do ativador elimina qualquer expressão residual e garante que o estado desligado tenha transcrição rigorosamente nula]),
+   ("C", [um promotor consenso combinado com a remoção do operador, porque manter apenas o controle positivo simplifica o circuito e evita interferência entre o repressor e o ativador ligados ao DNA]),
+   ("D", [um promotor reconhecido por uma subunidade sigma alternativa, porque a competição entre fatores sigma amplia a diferença entre os dois estados sem depender da qualidade das caixas conservadas]),
+   ("E", [um promotor divergente do consenso, porque um nível basal baixo deixa espaço para o ativador construir uma diferença grande, enquanto um promotor forte já opera perto do teto e não sobe])))
