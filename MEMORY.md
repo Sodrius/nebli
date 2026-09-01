@@ -43,6 +43,12 @@
 
 **Entradas:**
 
+### 2026-08-31 · imuno-07-inflamacao-inicio-resolucao
+- **Observei:** Davi apontou que o relatório de fechamento estava longo demais para o que tinha a dizer — "dá pra falar mais com menos palavras".
+- **Regra envolvida:** `ERROS.md` F10 (nova) + `CLAUDE.md` § Preferences.
+- **Peso:** alto
+- **Decai em:** 5 resumos sem reincidência
+
 ### 2026-05-29 · biocel-07-divisao-celular
 - **Observei:** Davi pediu "100% do zero" sem anexar slide, e a sessão entregou 35 páginas SEM nenhuma figura. Tratei "sem slide" como "sem figura possível" — decisão unilateral errada. Coreografia espacial (mitose, anel contrátil, eixo APC/C-securina-separatase) precisava de figura mesmo sem slide do professor.
 - **Regra envolvida:** Redator-E1 regra 7 (figura é canônica, slide é PRIORIDADE não única fonte) + ERROS erro 12 (cadeia ≥4 setas sem figura — warning saiu e foi ignorado).
@@ -141,6 +147,7 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 ## § Histórico de decisões canônicas
 
 ### 2026-08-31 (corrida `imuno-07-inflamacao-inicio-resolucao`)
+- **Economia de palavra no chat vira canônica** (pedido de Davi no fechamento desta corrida). Resposta ao Davi = resumo executivo, não log: artefatos auditáveis continuam obrigatórios, a prosa em volta deles encolhe; alvo de ~300 palavras no relatório de fechamento. Escopo é o chat — a prosa da E1 segue regida pelos exemplares. Gravado em `CLAUDE.md` § Preferences e `ERROS.md` F10.
 - **Resumo `imuno-07-inflamacao-inicio-resolucao` gerado** (Inflamação: início e resolução — **primeira aula de Imunologia da UC03 na P2**, conteúdo 37, data 17/09). Dial **`profundidade: fundo`** a pedido explícito do Davi ("roda as etapas 1 a 3 com nível maior que o da prova"). 48 páginas: capa · "Antes da aula" (2p, 1085 palavras, 62 termos plantados) · sumário (1p) · E1 com 25 páginas e 14 subtópicos · Resumindo em 1 página · 30 objetivas (20 MC + 10 C/E + 3 "assinale a incorreta") · 5 discursivas · gabarito. 14 figuras, todas do slide do professor. Passo 2b da calibração UC03 rodou (15 subquestões de IM no acervo 2015-2025; teto histórico = cinética de mediadores e células; degrau declarado = resolução como programa ativo).
 - **Quebra declarada:** E1 fechou em **25 páginas contra o teto canônico de 22** (warn, não gate). Causa: 10.547 palavras de miolo, decorrentes do dial `fundo` pedido. A alavanca 1 do F4 (reduzir larguras de figura) foi testada e **não rendeu página nenhuma** — o texto é que é o binding constraint —, então as larguras foram devolvidas ao valor deliberado por legibilidade de cada figura. Cortar ~1.250 palavras para caber no teto contrariaria o pedido explícito; a decisão fica com o Davi.
 - **Deck-aula do passo 11 não rodou** — sessão remota não alcança o AnkiConnect local (mesmo bloqueio das corridas do fígado e do `micro-01`).

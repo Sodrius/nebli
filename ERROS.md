@@ -272,3 +272,18 @@ Regras completas em `flashcards/_REGRAS.md`. Ver § Flashcards em `ROLES.md`.
 **Não tentar reabilitar REDATOR-E1 como Task subagent Opus sem mudar modelo.** Piloto morte celular 2026-05-28 confirmou em 2 spawns: ANCORAGEM correta + simulação de tool calls como texto inline + `tool_uses: 0` + turno encerrado. Hipótese: incompatibilidade Opus 4.7 + Agent tool customizado neste ambiente, não problema de system prompt. CADERNISTA (Sonnet 4.6) nunca apresentou o bug.
 
 Caminhos viáveis (ordem de risco crescente): (1) manter fundido na sessão principal (padrão desde 2026-05-26); (2) migrar REDATOR-E1 para Sonnet 4.6 (testa hipótese, voz pode degradar); (3) só QUESTIONADOR vira Sonnet, REDATOR permanece fundido. Re-spawnar com prompts diferentes NÃO resolve — é determinístico no nível modelo+tool.
+
+### F10. Economia de palavra no chat
+
+**Observado (Davi, 2026-08-31):** *"você tem escrito demais ora falar pouca coisa, dá pra falar mais com menos palavras."* Dito no fechamento do resumo de inflamação, cujo relatório final tinha ~1.100 palavras para entregar meia dúzia de números.
+
+**A regra.** A resposta ao Davi é o **resumo executivo** do trabalho, não o log dele. Ele já sabe o que pediu; o que ele precisa é do resultado, do que quebrou e do que decidir.
+
+**Como fica na prática:**
+- **Tabela e número no lugar de parágrafo.** Ratio, contagem, cobertura e nota já são a informação — não precisam de frase de apresentação nem de comentário depois.
+- **Um relatório de fechamento cabe em ~300 palavras.** Os artefatos auditáveis (ratio Q01-Q30, tabela de figuras, subtópico→questões, índice de completude) continuam **obrigatórios** — o que encolhe é a prosa em volta deles.
+- **Não narrar o processo.** Passo que deu certo não vira parágrafo; ele vira uma linha ou some. Só o que quebrou, o que ficou de fora e o que exige decisão do Davi merecem prosa.
+- **Não repetir o que a tabela já disse.** Se a linha diz `20/20 PASS`, não existe frase "todas as vinte passaram".
+- **Uma pergunta por vez, no fim.** Nada de oferecer três caminhos alternativos que ninguém pediu.
+
+**Escopo.** Vale para o **chat**. A prosa da E1, do Resumindo e do pré-aula é governada pelo `EXEMPLARES.md` e pela missão de ensinar bem — ali completude vence concisão (`CLAUDE.md` § Missão). Confundir os dois escopos é o erro a evitar nos dois sentidos: chat inflado, ou E1 amputada em nome da economia.

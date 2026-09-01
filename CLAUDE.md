@@ -24,7 +24,7 @@ Convite, não gate: essa reframe altera *como* leio o canônico, não substitui 
 **Leitura obrigatória em TODA sessão NEBLI (sem precisar pedir):**
 
 1. `MEMORY.md` (raiz do projeto) — Active Projects, Scheduled Tasks, **§ Diário de revisões**, Pendências, Histórico, Core Memory. Carrega automaticamente.
-2. `ERROS.md` (raiz do projeto) — armadilhas técnicas (§ Erros recorrentes, 18 itens) + feedbacks de processo (§ Feedbacks F1-F9). Consultar SEMPRE antes de fechar um resumo. Não esperar Davi pedir.
+2. `ERROS.md` (raiz do projeto) — armadilhas técnicas (§ Erros recorrentes, 18 itens) + feedbacks de processo (§ Feedbacks F1-F10). Consultar SEMPRE antes de fechar um resumo. Não esperar Davi pedir.
 3. `ROLES.md` (raiz do projeto) — papéis do pipeline (Orquestrador, Redator-E1, Questionador, Compilador, Cadernista, Flashcards, 4 Revisores). Stubs em `.claude/agents/` apontam pra cá.
 
 **Antes de gerar qualquer resumo, aplicar o § Diário de revisões.** Entradas vivas com peso alto viram **lista de prioridades pra esta corrida**, declarada no Tema Card Seção A. Decaimento automático após 5 resumos sem reincidência.
@@ -41,6 +41,7 @@ Regras gerais (canônico 2026-05-29 pós-faxina):
 - Em dúvida, pergunte com opções numeradas, não texto livre.
 - Plano antes de execução para qualquer tarefa não-trivial.
 - Pushback construtivo > validação automática.
+- **Economia de palavra no chat (canônico 2026-08-31).** Dizer mais com menos. A resposta ao Davi é o resumo executivo do trabalho, não o log dele: relatório de fechamento em tabela e número, prosa só onde ela decide algo. Vale para o chat — a prosa da E1 é regida pelos exemplares, não por esta regra. Ver `ERROS.md` F10.
 - **Baseline do aluno (canônico 2026-05-25, atualizado 2026-05-29):** presumir conhecimento BAIXO e dificuldade real com o assunto. O resumo abre cada conceito com **afirmação direta do mecanismo**, dá o nome técnico só DEPOIS do mecanismo entendido. Aprofundamento vem por camadas — primeiro o "porquê" cru, depois nuance/exceção/integração clínica. Nunca presumir que o aluno "já sabe" um pré-requisito sem retomar em 1–2 frases. **Sem pergunta âncora / pergunta retórica / pergunta ingênua como recurso de abertura** (canônico 2026-05-29 — substitui o antigo "ancora em pergunta ingênua plausível"). Os 5 registros de abertura canônicos são: enquadramento, integração-anterior, integração-posterior, analogia concreta, ponto-de-quebra.
 
 ## Rules globais
