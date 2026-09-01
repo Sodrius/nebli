@@ -139,12 +139,30 @@ def render_sumario(estrutura):
     return "\n".join(lines)
 
 
+def _faixa(items):
+    """Rotulo de faixa a partir das contagens reais do bloco.
+
+    Ate 2026-08-28 os titulos eram literais ("Consolidacao (Q01-Q10)" etc.),
+    o que so estava certo na distribuicao PADRAO 10/15/5. As taxonomias
+    SUPERFICIAL (12-13/12-13/5) e PROFUNDO (8/17/5) do ROLES.md § Taxonomia E2
+    imprimiam faixas erradas no gabarito -- na pratica, eram inalcancaveis.
+    Agora a faixa sai das proprias listas do Tema Card.
+    """
+    if not items:
+        return ""
+    nums = [str(n) for n, _ in items]
+    return f" (Q{nums[0]}–Q{nums[-1]})"
+
+
 def render_gabarito(gabarito):
     """gabarito = {consolidacao: [...], integracao: [...], aplicacao: [...]}"""
+    cons = gabarito.get("consolidacao", [])
+    integ = gabarito.get("integracao", [])
+    apl = gabarito.get("aplicacao", [])
     blocos = [
-        ("Consolidação (Q01–Q10)", gabarito.get("consolidacao", [])),
-        ("Integração (Q11–Q25)", gabarito.get("integracao", [])),
-        ("Aplicação (Q26–Q30)", gabarito.get("aplicacao", [])),
+        (f"Consolidação{_faixa(cons)}", cons),
+        (f"Integração{_faixa(integ)}", integ),
+        (f"Aplicação{_faixa(apl)}", apl),
     ]
     lines = ["#gabarito-page(("]
     for titulo, items in blocos:
@@ -166,7 +184,7 @@ HEADER = '''// ================================================================
 
 // ======= CAPA =======
 {capa}
-
+{pre_aula}
 // ======= SUMÁRIO =======
 {sumario}
 
@@ -199,7 +217,7 @@ HEADER_SEM_E2 = '''// ==========================================================
 
 // ======= CAPA =======
 {capa}
-
+{pre_aula}
 // ======= SUMÁRIO =======
 {sumario}
 
@@ -214,6 +232,18 @@ HEADER_SEM_E2 = '''// ==========================================================
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 '''
+
+
+def render_pre_aula(build_dir: Path) -> str:
+    """Bloco "Antes da aula" (canonico 2026-08-28).
+
+    Fica ENTRE a capa e o sumario. So entra se `pre-aula.typ` existir no
+    diretorio de build -- resumos antigos, sem o arquivo, regeneram o main.typ
+    exatamente como antes.
+    """
+    if not (build_dir / "pre-aula.typ").exists():
+        return ""
+    return '\n// ======= ANTES DA AULA =======\n#include "pre-aula.typ"\n'
 
 
 def gerar_main(card_path: Path, out_path: Path):
@@ -234,6 +264,7 @@ def gerar_main(card_path: Path, out_path: Path):
     gabarito = card.get("gabarito", {})
 
     capa_text = render_capa(titulo, subtitulo, meta)
+    pre_aula_text = render_pre_aula(out_path.parent)
     sumario_text = render_sumario(sumario)
     sem_e2 = bool(card.get("sem_e2", False))
 
@@ -241,6 +272,7 @@ def gerar_main(card_path: Path, out_path: Path):
         text = HEADER_SEM_E2.format(
             slug=slug,
             capa=capa_text,
+            pre_aula=pre_aula_text,
             sumario=sumario_text,
         )
     else:
@@ -248,6 +280,7 @@ def gerar_main(card_path: Path, out_path: Path):
         text = HEADER.format(
             slug=slug,
             capa=capa_text,
+            pre_aula=pre_aula_text,
             sumario=sumario_text,
             gabarito=gabarito_text,
         )

@@ -1,0 +1,65 @@
+slug: imuno-07-inflamacao-inicio-resolucao
+titulo: "Inflamação: início e resolução"
+subtitulo: "Imunologia"
+meta:
+  - ["Disciplina", "Imunologia"]
+  - ["Onde estudar", "Abbas — Imunologia Celular e Molecular (cap. 2 e 4) · Robbins — Patologia Básica (cap. 2) · Murphy — Janeway's Imunobiologia (cap. 2 e 3)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — Reconhecer o perigo antes de reagir"
+        subtopicos:
+          - "1.1 O que é, e o custo"
+          - "1.2 Padrões em três endereços"
+          - "1.4 Inflamassoma, IL-1β e piroptose"
+      - titulo: "PARTE II — Abrir a barreira e trazer a célula"
+        subtopicos:
+          - "2.1 Sequência vascular e sinais"
+          - "2.3 Rolar, parar, atravessar"
+          - "2.4 Fagocitose e ordem de chegada"
+      - titulo: "PARTE III — Mediadores, e quem manda parar"
+        subtopicos:
+          - "3.2 Fator XII e quatro cascatas"
+          - "3.4 Araquidônico e os fármacos"
+          - "3.6 Resolução é programa ativo"
+  - titulo: "Etapa 2 — 30 objetivas"
+    descricoes:
+      - "Consolidação (Q01–Q08) · Integração (Q09–Q25) · Aplicação (Q26–Q30)"
+      - "Múltipla escolha, certo/errado e assinale a incorreta"
+  - titulo: "Etapa 3 — 5 discursivas"
+    descricoes:
+      - "Cinética · estase · inflamassoma · farmacologia · resolução"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CECC"]
+    - ["04", "D"]
+    - ["05", "ECCE"]
+    - ["06", "B"]
+    - ["07", "CCEC"]
+    - ["08", "E"]
+  integracao:
+    - ["09", "C"]
+    - ["10", "CEEC"]
+    - ["11", "A"]
+    - ["12", "D"]
+    - ["13", "CCCE"]
+    - ["14", "C"]
+    - ["15", "B"]
+    - ["16", "ECCC"]
+    - ["17", "E"]
+    - ["18", "A"]
+    - ["19", "CCEE"]
+    - ["20", "D"]
+    - ["21", "C"]
+    - ["22", "EECC"]
+    - ["23", "A"]
+    - ["24", "D"]
+    - ["25", "CEEE"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "E"]
+    - ["28", "EECE"]
+    - ["29", "A"]
+    - ["30", "C"]

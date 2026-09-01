@@ -1,6 +1,6 @@
 ---
 description: Inicia geração de um resumo NEBLI completo (Tema Card → E1 → E2/E3 → compilação → PDF)
-argument-hint: <slug> <slide.pdf> [UC1|UC2]
+argument-hint: <slug> <slide.pdf> [UC1|UC2|UC3]
 ---
 
 Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05-26 — subagentes REDATOR-E1 e QUESTIONADOR estão suspensos por bug de loop; thread principal faz redação direta lendo `ROLES.md` §§ Orquestrador/Redator-E1/Questionador como referência prescritiva).
@@ -9,7 +9,7 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
 
 **Tarefa:**
 
-1. **Validar entrada.** Parse os argumentos: `<slug>` (ex.: `bioq-17-ciclo-krebs`), `<slide.pdf>` (caminho absoluto ou relativo), `<UC>` (opcional, infere de `banco/aulas_uc01.yml` ou `banco/aulas_uc02.yml` pelo slug). Se algo faltar ou for ambíguo, pergunte com opções numeradas antes de prosseguir.
+1. **Validar entrada.** Parse os argumentos: `<slug>` (ex.: `bioq-17-ciclo-krebs`), `<slide.pdf>` (caminho absoluto ou relativo), `<UC>` (opcional, infere de `banco/aulas_uc01.yml`, `banco/aulas_uc02.yml` ou `banco/aulas_uc03.yml` pelo slug). Se algo faltar ou for ambíguo, pergunte com opções numeradas antes de prosseguir.
 
 2. **Leitura canônica obrigatória** (em paralelo):
    - `C:\AI use\nebli\CLAUDE.md` — núcleo prescritivo
@@ -18,11 +18,19 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
    - `C:\AI use\nebli\ROLES.md` — §§ Orquestrador, Redator-E1, Questionador como referência prescritiva
    - `banco/aulas_uc<N>.yml` — confirmar slug existe
 
-3. **Limpar workspace.** `rm typst-build/etapa1.typ typst-build/etapa2.typ typst-build/etapa3.typ typst-build/resumindo.typ typst-build/main.typ` (evita contaminação do resumo anterior — `ERROS.md` erro 3).
+2b. **Se — e só se — a aula for de UC03: calibrar pelas provas antigas** (canônico 2026-08-27).
+   - `python referencias-externas/uc03/consultar.py --slug <slug>` → subquestões reais das provas da UC03 (2015-2025) que pertencem **àquela aula** (filtro por área etiquetada + palavras-chave do `banco/aulas_uc03.yml`).
+   - Ler `referencias-externas/uc03/CALIBRACAO.md` §§ "A régua", "Fronteiras" e a linha da aula na tabela da prova correspondente.
+   - Produto: **uma linha na Seção A do Tema Card** — "teto histórico desta aula: X; a E1 vai um degrau acima em Y" — e o alvo do passe de aprofundamento do passo 6b.
+   - **Contrato:** o slide manda no escopo; a prova antiga só diz *até onde* aprofundar. **Nada do acervo vai colado no PDF** — nem enunciado, nem "caiu na prova tal", nem número de prova (o `CLAUDE.md` já proíbe citar prova/bloco no PDF).
+   - **Anti-mistura (o ponto que o Davi pediu explicitamente):** a prova da UC03 integra áreas dentro de um mesmo caso clínico, mas cada subquestão é de uma área só. O resumo cobre **um slug**; conteúdo de outra aula entra no máximo como retomada de 1-2 frases, nunca como subtópico com figura própria. A integração multiárea vive no texto motivador da E2/E3, não na E1.
+   - Aula de qualquer outra UC → **pular este passo inteiro**; a calibração é escopada a UC03.
+
+3. **Limpar workspace.** `rm typst-build/etapa1.typ typst-build/etapa2.typ typst-build/etapa3.typ typst-build/resumindo.typ typst-build/pre-aula.typ typst-build/main.typ` (evita contaminação do resumo anterior — `ERROS.md` erro 3).
 
 4. **Extrair slides.** Rodar `python typst-build/extrair_slides.py <slide.pdf> <slug>` — gera `figuras/<slug>/slide-XX.png` + `MAPA_CONTEUDO.txt`.
 
-5. **Gerar Tema Card** em `arquivos-trabalho/tema-card-<slug>.md` — Seções A (escopo), B (baseline aluno), C (profundidade + distribuição E2), D (Mapa de Confusões inicial), **Seção E (exemplares-âncora)**. Validar com Davi se houver ambiguidade (recorte slide × tema).
+5. **Gerar Tema Card** em `arquivos-trabalho/tema-card-<slug>.md` — Seções A (escopo), B (baseline aluno), C (profundidade + distribuição E2), D (Mapa de Confusões inicial), **Seção E (exemplares-âncora)**. Validar com Davi se houver ambiguidade (recorte slide × tema). **UC03:** a Seção A carrega também a linha de teto/degrau do passo 2b, e a Seção C declara a fronteira da aula (o que fica de fora por ser de outro slug).
 
    *Antes de redigir o Tema Card,* dar uma passada no índice `## Quando usar` do `EXEMPLARES.md` e escolher os exemplares que vão guiar a voz deste tema. Não tem número certo — sempre as 3 universais (1, 8, 14) e quantos temáticos fizerem sentido para os gestos que o tema vai exigir (abertura, cadeia mecanística, analogia, cálculo, etc.). Para cada exemplar escolhido, anotar em 1–2 linhas: "este exemplar acerta em [gesto/ritmo/escolha]; vou usar isso em [subtópico] adaptando para [como]." Esses pares vão na **Seção E** do Tema Card. É anotação curta (5–15 linhas), não relatório.
 
@@ -32,7 +40,11 @@ Você é o **ORQUESTRADOR + REDATOR + QUESTIONADOR fundidos** (canônico 2026-05
 
 6b. **Seleção de cards + passe de aprofundamento da E1 (CANON 2026-07-10, ANTES da E2).** Rodar a seleção de cards (passo 11a-c abaixo, com Anki vivo OU seleção offline do export) para descobrir o que o campo trata como núcleo. Depois, fazer o **passe de aprofundamento**: voltar na E1 e injetar **≈1 conteúdo extra mecanístico por subtópico** (~9-12 no total), colado a um mecanismo já aberto — o **slide regula O QUE entra, o AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**; se não há onde encaixar, não encaixa. Muitos aprofundamentos são induzidos por bons cards do AnKing (que vão pro deck-aula). Detalhe em `CLAUDE.md` § Aprofundamento da E1 + `ROLES.md` § Redator diretriz 17 + `FLASHCARDS.md` § Loop Card→E1. **Só depois de aprofundar a E1, seguir para a E2** (assim a E2 já cobra o extra). Sem Anki vivo: o aprofundamento nasce do mapa de cobertura offline + blueprint + bibliografia.
 
-7. **Redigir E2/E3** seguindo `ROLES.md` § Questionador. Para **Q01-Q30** reportar quadro completo de ratio de paridade (gate hard banda dupla 0.80-1.25 — canônico 2026-05-29).
+6c. **Redigir `pre-aula.typ` (CANON 2026-08-28).** Com a E1 já aprofundada, destilar dela a seção **"Antes da aula"**: 2 páginas de prosa contínua na voz NEBLI contando a história da aula em ordem, **sem figura**, com os principais termos plantados em negrito dentro da prosa (a cota de negritos da E1 não vale aqui). Gravar `typst-build/pre-aula.typ` com `#pre-aula-page[...]`. Ela vai para o PDF entre a capa e o sumário — `gerar_main.py` inclui sozinho. Regras em `ROLES.md` § Redator diretriz 18 + `CLAUDE.md` § "Antes da aula".
+
+   **Passo obrigatório — é gate hard (CANON 2026-08-29).** O `precompile-check.py` do passo 8 falha se `pre-aula.typ` não existir, e reprova a seção que tiver bullet, figura, caixa, helper de E1, interrogação, menos de 15 negritos ou contagem fora de 800–1300 palavras. Não pular este passo para "compilar rápido e voltar depois".
+
+7. **Redigir E2/E3** seguindo `ROLES.md` § Questionador. **UC03:** o acervo do passo 2b é fonte de distratora plausível-errada (o que o gabarito da FMUSP corrige como erro comum) e o verbo da E3 imita o da casa (*explique · descreva · justifique · qual o mecanismo mais provável*); o caso motivador pode ser multiárea como na prova — a E1 é que não pode. Para **Q01-Q30** reportar quadro completo de ratio de paridade (gate hard banda dupla 0.80-1.25 — canônico 2026-05-29).
 
 8. **Compilar** via `python typst-build/gerar_main.py <slug>` → `python typst-build/precompile-check.py` → `cd typst-build && typst compile --root .. --font-path ../fonts main.typ <SLUG>.pdf` → `python typst-build/auditar_pdf.py <SLUG>.pdf`.
 

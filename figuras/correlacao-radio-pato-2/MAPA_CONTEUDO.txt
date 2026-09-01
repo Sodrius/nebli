@@ -1,0 +1,41 @@
+# MAPA_CONTEUDO -- correlacao-radio-pato-2
+# Slide-fonte: e35e63aa-B__PDF_da_Aula_de_2023__RD_PT__Correla__o_Radiol_igica__Patol_gica_2_2.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: CORRELAÇÃO PATO/RADIO II
+slide-02: Caso 1 FB, mulher, 20 anos. Assintomática. Exames de rotina.
+slide-03: [VISUAL -- usar adjacente com titulo extraivel]
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: [VISUAL -- usar adjacente com titulo extraivel]
+slide-07: [VISUAL -- usar adjacente com titulo extraivel]
+slide-08: [VISUAL -- usar adjacente com titulo extraivel]
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]
+slide-10: Caso 2 JPJ, 30 anos. Dor abdominal difusa há 2 dias. AP: etilista e tabagista
+slide-11: [VISUAL -- usar adjacente com titulo extraivel]
+slide-12: [VISUAL -- usar adjacente com titulo extraivel]
+slide-13: [VISUAL -- usar adjacente com titulo extraivel]
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: [VISUAL -- usar adjacente com titulo extraivel]
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: [VISUAL -- usar adjacente com titulo extraivel]
+slide-23: [VISUAL -- usar adjacente com titulo extraivel]
+slide-24: [VISUAL -- usar adjacente com titulo extraivel]
+slide-25: Vamos analisar este fígado… Normal
+slide-26: [VISUAL -- usar adjacente com titulo extraivel]
+slide-27: [VISUAL -- usar adjacente com titulo extraivel]
+slide-28: Hipertensão portal
+slide-29: [VISUAL -- usar adjacente com titulo extraivel]
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: [VISUAL -- usar adjacente com titulo extraivel]
+slide-33: [VISUAL -- usar adjacente com titulo extraivel]

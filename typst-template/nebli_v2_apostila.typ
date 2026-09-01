@@ -675,6 +675,34 @@
   pagebreak()
 }
 
+// ======= Antes da aula (pré-aula) — canônico 2026-08-28 =======
+// Seção de abertura que fica ENTRE a capa e o sumário. Duas páginas de prosa
+// contínua na voz NEBLI, contando a história da aula e plantando os termos que
+// o professor vai usar como se o aluno já soubesse. Sem figura, sem bullet,
+// sem questão — é leitura de cinco minutos na véspera, não estudo.
+//
+// Faixa TEAL (a capa é navy, o Resumindo é gold, a etapa é navy): o teal marca
+// que isto vem ANTES do material, não dentro dele. Corpo 10.5pt e margens mais
+// largas que o miolo — o texto respira porque a leitura aqui é corrida, não
+// consultiva.
+#let pre-aula-page(conteudo) = {
+  set page(margin: (top: 2.0cm, bottom: 2.1cm, left: 2.2cm, right: 2.2cm))
+  set-etapa("Antes da aula")
+  block(fill: teal, inset: (x: 18pt, y: 10pt), width: 100%, radius: 4pt,
+    text(font: titulo-fam, weight: "bold", size: 14pt, fill: white,
+      tracking: 1.5pt, "Antes da aula")
+  )
+  v(7pt)
+  block(below: 15pt,
+    text(font: corpo-fam, size: 8.5pt, style: "italic", fill: text-light,
+      "Cinco minutos de leitura para chegar na aula sabendo o caminho — o material completo vem depois dela.")
+  )
+  set par(justify: true, leading: 1.02em, spacing: 1.15em, first-line-indent: 0em)
+  set text(size: 10.5pt)
+  conteudo
+  pagebreak()
+}
+
 // ======= Sumário =======
 // Visual mais "apostila clássica": rótulos da etapa em caixa-alta com tracking,
 // parte em teal, itens em corpo serif com pontilhado opcional via dot leaders.

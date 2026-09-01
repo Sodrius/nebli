@@ -1,28 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("A física escolhe o exame",
-   [Cada método enxerga por uma física distinta — som, raios-X ou campo magnético —, e é ela que define talento, cegueira e indicação. Entender a física é saber qual exame pedir.]),
-  ("Ultrassonografia",
-   [Forma imagem pelos ecos do som; ótima em tempo real e para líquidos, sem radiação. É cega para gás, gordura espessa e osso, que refletem o som e criam sombra acústica.]),
-  ("Tomografia computadorizada",
-   [Mede a atenuação dos raios-X em unidades Hounsfield (água 0, ar −1000, osso alto), virada tom de cinza. Rápida e de alta resolução espacial, ao custo de radiação ionizante.]),
-  ("Ressonância magnética",
-   [Capta o sinal dos prótons de água num campo magnético; resolução de partes moles insuperável, sem radiação. É lenta e contraindicada com marca-passo ou material ferromagnético.]),
-  ("Radiografia convencional",
-   [Projeção única em que as sombras se somam; rápida, barata e ótima para osso e ar — pneumoperitônio, nível hidroaéreo. Limita-se pela sobreposição das estruturas.]),
-  ("Radiação ionizante",
-   [RX e TC usam raios-X, com custo biológico cumulativo que pesa em criança e gestante. US e RM não empregam radiação ionizante — mais seguros para repetir e em vulneráveis.]),
-  ("T1 e T2 na ressonância",
-   [Em T1 a gordura é clara e a água escura (anatomia); em T2 a água e o edema são claros (patologia). O fat sat apaga a gordura para revelar o que ela esconde.]),
-  ("Meios de contraste",
-   [O iodado (TC) atenua os raios-X e faz vasos acenderem; o gadolínio (RM) encurta o T1 e brilha em T1; o luminal delimita alças. O iodado exige checar a função renal.]),
-  ("Fases do contraste",
-   [Após o iodado endovenoso, cada momento da aquisição é uma fase: arterial (lesões hipervasculares), portal (parênquima hepático), equilíbrio e excretora (via urinária).]),
-  ("Colangiorressonância",
-   [Sequência fortemente ponderada em T2 que faz a bile parada brilhar, mapeando as vias biliares como estradas claras — sem contraste e sem radiação.]),
-  ("Decisão na urgência",
-   [Déficit neurológico súbito pede TC de crânio sem contraste — rápida, e o sangue agudo é hiperdenso. Suspeita de obstrução pede RX em ortostase, com níveis hidroaéreos.]),
-  ("ACR Appropriateness",
-   [Diretrizes que pontuam de 1 a 9 o quanto cada exame é adequado a um cenário clínico — a materialização de que a pergunta clínica vem antes do aparelho.]),
+  ("O que a inflamação é",
+   [Resposta do tecido *vascularizado* a qualquer estímulo lesivo — infarto, cristal e trauma inflamam sem micróbio. Protetora por projeto e lesiva por consequência, porque o arsenal não distingue parede microbiana de tecido próprio. Sem inflamação não há reparo.]),
+
+  ("Reconhecer sem nunca ter visto",
+   [Os receptores de padrão vêm prontos da linhagem germinativa e não deixam memória. Leem estruturas conservadas de micróbio (PAMP) e moléculas próprias fora de lugar (DAMP). Ficam em três endereços — plasma, membrana, citosol — e o endereço informa *onde* o agente está.]),
+
+  ("Toll-like: o ligante segue a localização",
+   [Na superfície ficam os que leem parede e flagelo; no endossomo, os que leem ácido nucleico — reclusão que impede a leitura de ácido nucleico próprio. TLR4 precisa de CD14 e MD-2. Todos convergem em NF-κB, e como o produto é transcrição, o efeito leva horas.]),
+
+  ("Inflamassoma: dois sinais para uma citocina",
+   [O primeiro sinal fabrica pró-IL-1β inativa no citosol; o segundo (cristal, ATP, efluxo de K⁺, ROS) monta o NLRP3 e ativa a caspase-1, que corta o precursor. A mesma caspase corta a gasdermina D — o poro libera a citocina e mata a célula por piroptose.]),
+
+  ("A hidráulica dos sinais cardinais",
+   [Vasodilatação arteriolar dá rubor e calor; o aumento de permeabilidade na *vênula pós-capilar* dá o edema. A perda de plasma concentra hemácias e freia o fluxo, e é essa estase que joga o leucócito contra a parede. A dor vem de bradicinina somada à PGE₂, que baixa o limiar do nociceptor.]),
+
+  ("Sair do vaso em quatro tempos",
+   [A selectina freia mas não estaciona. A quimiocina presa ao glicocálix não puxa a célula para fora: ela estende a integrina, que agarra o ICAM. Segue adesão firme, diapedese por PECAM entre células endoteliais, e caminhada pelo gradiente de IL-8, C5a e LTB₄ já no tecido.]),
+
+  ("Matar custa oxidante",
+   [Opsonizado por C3b e IgG, o alvo é engolido; a NADPH oxidase gera superóxido, a dismutação dá peróxido, a mieloperoxidase o converte em hipoclorito. Falhar no primeiro passo é a doença granulomatosa crônica. Neutrófilo nas primeiras horas, macrófago em 12–48 h, linfócito e eosinófilo após 72 h.]),
+
+  ("Mediadores organizados pelo relógio",
+   [O que estava no grânulo age em segundos (histamina); o cortado de precursor plasmático, em minutos (bradicinina, C3a, C5a); o vindo de lipídio de membrana, em minutos a horas (prostanoides, leucotrienos); o que passa pelo núcleo, em horas (IL-1, IL-6, TNF-α).]),
+
+  ("Complemento e araquidônico: onde a farmacologia entra",
+   [Três portas convergem na C3 convertase — C3b fica e opsoniza, C3a e C5a viajam e inflamam. Na via lipídica a fosfolipase A₂ é o passo limitante: o AINE bloqueia só a ciclo-oxigenase e desvia substrato para leucotrieno; o corticoide age acima e derruba os dois braços.]),
+
+  ("Parar é uma ação",
+   [A PGE₂ acumulada liga a 15-lipoxigenase e troca LTB₄ por lipoxinas, que bloqueiam o recrutamento. O neutrófilo entra em apoptose e é engolido inteiro pelo macrófago; essa eferocitose o reprograma para IL-10 e TGF-β. Matriz preservada, restituição integral; matriz destruída, fibrose.]),
 ))

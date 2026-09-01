@@ -1,0 +1,58 @@
+slug: micro-01-morfologia-estrutura-bacterias
+titulo: "Morfologia e estrutura bacteriana"
+subtitulo: "Microbiologia"
+meta:
+  - ["Disciplina", "Microbiologia"]
+  - ["Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Microbiologia de Brock (cap. 2) · Tortora — Microbiologia (cap. 4)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A bactéria e o que ela mostra"
+        subtopicos:
+          - "1.1 Procarioto: viver sem núcleo"
+          - "1.2 Da amostra ao grupo"
+          - "1.3 Colônia: o clone visível"
+      - titulo: "PARTE II — Membrana e parede"
+        subtopicos:
+          - "2.2 Peptidoglicano e pressão osmótica"
+          - "2.4 Gram-negativas: LPS e periplasma"
+          - "2.5 A coloração de Gram e suas fugas"
+      - titulo: "PARTE III — Estruturas que definem o comportamento"
+        subtopicos:
+          - "3.1 Nucleoide, plasmídeo e 70S"
+          - "3.3 Flagelo, pili e adesão"
+          - "3.5 Cápsula, biofilme e esporo"
+gabarito:
+  consolidacao:
+    - ["01", "D"]
+    - ["02", "B"]
+    - ["03", "CCEE"]
+    - ["04", "E"]
+    - ["05", "EECC"]
+    - ["06", "A"]
+    - ["07", "CCEC"]
+    - ["08", "C"]
+    - ["09", "C"]
+    - ["10", "EECC"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "CEEC"]
+    - ["13", "A"]
+    - ["14", "D"]
+    - ["15", "CEEE"]
+    - ["16", "C"]
+    - ["17", "E"]
+    - ["18", "ECCE"]
+    - ["19", "B"]
+    - ["20", "E"]
+    - ["21", "CECC"]
+    - ["22", "A"]
+    - ["23", "E"]
+    - ["24", "ECCE"]
+    - ["25", "E"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "D"]
+    - ["28", "EECC"]
+    - ["29", "E"]
+    - ["30", "C"]
