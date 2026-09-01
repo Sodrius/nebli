@@ -1,231 +1,261 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Um paciente com infarto agudo do miocárdio desenvolve, nas 48 horas seguintes, infiltrado neutrofílico intenso na área necrótica, sem qualquer evidência de infecção. Por que a inflamação se instala com essa intensidade na ausência de micro-organismo],
-  (("A", [Porque a isquemia gera hipóxia local e a hipóxia é reconhecida diretamente pelos receptores Toll-like da superfície do cardiomiócito, que respondem à queda de oxigênio disparando transcrição de citocinas inflamatórias.]),
-   ("B", [Porque o tecido necrótico expõe colágeno subendotelial que ativa apenas a cascata da coagulação, e é a trombina formada localmente o único mediador capaz de recrutar neutrófilo na inflamação estéril.]),
-   ("C", [Porque as células mortas liberam moléculas próprias que normalmente ficam confinadas — ATP, potássio, DNA mitocondrial, HMGB1 — e essas moléculas de dano são lidas pelos mesmos receptores de padrão que reconhecem micróbios.]),
-   ("D", [Porque a ausência de micróbio remove a inibição que os padrões microbianos exercem sobre o macrófago residente, liberando-o para produzir citocina de forma desregulada e recrutar neutrófilo em excesso no foco.]),
-   ("E", [Porque a inflamação estéril depende de anticorpos naturais preexistentes contra antígenos cardíacos, que formam imunocomplexos com proteínas liberadas do miócito e ativam a via clássica do complemento no tecido.])))
+  [Por que o fígado usa glicoquinase, e não a hexoquinase presente nos demais tecidos, para reter glicose no período absortivo:],
+  (("A", [Porque a glicoquinase tem constante de Michaelis muito baixa e é fortemente inibida pelo produto, o que garante ao hepatócito captação máxima já em glicemia basal e prioridade sobre os outros tecidos.]),
+   ("B", [Porque a glicoquinase é a única hexoquinase capaz de fosforilar glicose sem consumir ATP, o que torna a retenção hepática energeticamente gratuita quando a carga de açúcar da refeição é grande.]),
+   ("C", [Porque o Km alto e a ausência de inibição pelo produto fazem a enzima só operar em concentrações elevadas de glicose, de modo que o fígado sequestra o excesso e deixa a glicemia basal para cérebro e hemácia.]),
+   ("D", [Porque a glicoquinase é induzida pelo glucagon durante o jejum e permanece ativa depois da refeição, dando ao fígado uma janela de captação que independe da concentração plasmática de glicose naquele momento.]),
+   ("E", [Porque a glicoquinase transporta a glicose através da membrana ao mesmo tempo em que a fosforila, dispensando o transportador e acelerando a retenção hepática nas primeiras horas depois da refeição.]))
+)
 
 #questao-mc("02", badge-consolidacao,
-  [Sobre as propriedades dos receptores de reconhecimento de padrões da imunidade inata, assinale a alternativa *incorreta*:],
-  (("A", [Cada receptor é gerado por recombinação somática de segmentos gênicos durante a maturação da célula, o que produz um repertório de milhões de especificidades distintas e permite expansão clonal com memória.]),
-   ("B", [São codificados na linhagem germinativa, de modo que o receptor é idêntico em todas as células que o expressam e não depende de encontro prévio com o agente para estar disponível.]),
-   ("C", [Reconhecem estruturas moleculares conservadas que o micróbio não pode perder sem prejuízo de viabilidade, como lipopolissacarídeo, peptidoglicano, flagelina e glicanos de manose terminal expostos na superfície.]),
-   ("D", [Reconhecem também moléculas próprias deslocadas de seu compartimento normal, como ATP extracelular e DNA mitocondrial citosólico, o que explica a inflamação disparada por trauma e por isquemia.]),
-   ("E", [Distribuem-se em três compartimentos — solúvel no plasma, associado a membrana e citosólico — e a localização de cada um informa em que compartimento do tecido o agente se encontra.])))
+  [Como a insulina consegue, com um único evento químico, ativar a síntese de glicogênio e inativar sua degradação:],
+  (("A", [Ativando uma quinase que fosforila simultaneamente a glicogênio sintase e a glicogênio fosforilase, já que a adição de fosfato ativa a primeira enzima e inativa a segunda no mesmo movimento.]),
+   ("B", [Induzindo a transcrição da glicogênio sintase e reprimindo a da glicogênio fosforilase, o que altera a proporção entre as duas enzimas no hepatócito ao longo das horas seguintes à refeição.]),
+   ("C", [Elevando o cAMP intracelular, que ativa a glicogênio sintase por ligação alostérica direta e desloca a glicogênio fosforilase para a conformação tensa, inativando-a sem necessidade de modificação covalente.]),
+   ("D", [Promovendo a translocação da glicogênio sintase do núcleo para o citoplasma e o sequestro da glicogênio fosforilase no núcleo, o que separa fisicamente as duas atividades dentro da célula.]),
+   ("E", [Ativando a fosfoproteína fosfatase 1, que ao remover fosfato ativa a glicogênio sintase e inativa a glicogênio fosforilase, porque a polaridade da modificação é definida pela enzima-alvo e não pelo fosfato.]))
+)
 
 #questao-ce("03", badge-consolidacao,
-  [A família de receptores Toll-like distribui seus membros entre a membrana plasmática e o compartimento endossômico. Julgue os itens abaixo:],
-  (("I",   [Os receptores que reconhecem ácidos nucleicos virais e bacterianos localizam-se em vesículas endossômicas, e essa reclusão restringe a leitura ao material genético que chegou por endocitose.]),
-   ("II",  [O reconhecimento do lipopolissacarídeo pelo TLR4 dispensa proteínas acessórias, uma vez que o domínio extracelular do receptor acomoda o lipídeo A diretamente, sem participação de CD14 ou de MD-2.]),
-   ("III", [A via de sinalização converge na liberação do NF-κB, que migra ao núcleo e induz a transcrição de citocinas inflamatórias e de moléculas de adesão endotelial.]),
-   ("IV",  [Como o produto final da via é a transcrição de genes, o efeito biológico do estímulo do receptor aparece em horas, e não em segundos como o das aminas vasoativas pré-formadas.])))
+  [Julgue os itens sobre a lipogênese hepática no período absortivo:],
+  (("I", [O acetil-CoA gerado na mitocôndria atravessa a membrana interna por um transportador específico e chega ao citosol, onde serve de substrato para a síntese de ácido graxo.]),
+   ("II", [O citrato exerce função dupla: é o veículo do carbono até o citosol e é o ativador alostérico da acetil-CoA carboxilase.]),
+   ("III", [O malonil-CoA, além de doar carbonos à cadeia em crescimento, inibe a carnitina-palmitoil transferase I e impede a degradação do ácido graxo recém-sintetizado.]),
+   ("IV", [Todo o NADPH consumido na síntese de ácido graxo provém da via das pentoses-fosfato, sem contribuição de outras reações citosólicas.]))
+)
 
 #questao-mc("04", badge-consolidacao,
-  [Como se explica que o fluxo sanguíneo desacelere até a estase num foco inflamatório em que as arteríolas estão dilatadas e o aporte de sangue aumentou],
-  (("A", [A vasodilatação arteriolar é acompanhada de vasoconstrição venular reflexa e sustentada, e é o aumento da resistência na saída do leito que represa a coluna de sangue e reduz sua velocidade.]),
-   ("B", [O consumo local de oxigênio pelos leucócitos recrutados reduz a saturação da hemoglobina, e o sangue dessaturado tem viscosidade maior, o que por si só é suficiente para produzir a estase observada.]),
-   ("C", [A trombina gerada pela ativação do fator XII forma microtrombos de fibrina que obstruem parcialmente a luz venular, e essa obstrução mecânica progressiva é a causa primária da lentificação do fluxo.]),
-   ("D", [O aumento da permeabilidade venular deixa escapar plasma para o interstício; as hemácias ficam retidas, a fração celular do sangue sobe, a viscosidade aumenta, e sangue mais viscoso corre mais devagar.]),
-   ("E", [A dilatação arteriolar reduz a pressão de perfusão a jusante por queda da resistência total, e a menor diferença de pressão entre entrada e saída do leito capilar diminui a velocidade linear do fluxo.])))
+  [O que a expressão translocação da glicoquinase do núcleo para o citoplasma descreve, do ponto de vista mecanístico:],
+  (("A", [A síntese de novas moléculas da enzima no núcleo em resposta à insulina, seguida da exportação do produto recém-traduzido para o compartimento onde há substrato disponível.]),
+   ("B", [A liberação de um estoque pronto: a enzima estava sequestrada por uma proteína reguladora nuclear, e a glicose elevada desfaz esse complexo, permitindo que ela alcance o citosol em minutos.]),
+   ("C", [A migração da enzima acompanhando o transportador GLUT2, que a arrasta até a membrana plasmática para que a fosforilação ocorra no mesmo ponto em que a glicose entra na célula.]),
+   ("D", [A clivagem proteolítica de um precursor nuclear inativo, que gera a forma catalítica madura da enzima e a libera para o citoplasma sempre que a razão insulina/glucagon se eleva.]),
+   ("E", [A mudança conformacional da enzima induzida pela frutose-6-fosfato elevada, que aumenta sua afinidade pela glicose e a desloca para o citosol durante o jejum prolongado.]))
+)
 
-#questao-ce("05", badge-consolidacao,
-  [O aumento da permeabilidade vascular na inflamação aguda pode ser produzido por mais de um mecanismo. Julgue os itens:],
-  (("I",   [A contração da célula endotelial induzida por histamina produz aumento de permeabilidade imediato e sustentado por vários dias, porque a fenda intercelular aberta permanece independentemente da depuração do mediador.]),
-   ("II",  [A lesão endotelial direta por queimadura ou toxina produz aumento de permeabilidade imediato e sustentado, porque a recuperação depende de reparo do endotélio e não da depuração de um mediador.]),
-   ("III", [O líquido que sai por essa barreira quebrada é exsudato, rico em proteína e em células, distinto do transudato, que decorre de desequilíbrio de pressões com barreira vascular íntegra.]),
-   ("IV",  [A lesão endotelial mediada por leucócito instala-se nos primeiros segundos após o estímulo, antes mesmo do rolamento, sendo o primeiro dos três mecanismos a operar no foco.])))
+#questao-mc("05", badge-consolidacao,
+  [Sobre a cascata do glucagon no hepatócito, assinale a alternativa *incorreta*:],
+  (("A", [O receptor de glucagon é acoplado a proteína G e ativa a adenilato ciclase, elevando o cAMP e liberando as subunidades catalíticas da proteína quinase A no citosol do hepatócito.]),
+   ("B", [A proteína quinase A não fosforila diretamente a glicogênio fosforilase: ela fosforila a fosforilase quinase, que por sua vez converte a fosforilase b na forma a, ativa.]),
+   ("C", [A proteína quinase A fosforila o inibidor-1, que passa a bloquear a fosfoproteína fosfatase 1 e impede que a desfosforilação desfaça o efeito recém-produzido pela cascata.]),
+   ("D", [O músculo esquelético responde ao glucagon com a mesma cascata do fígado, e é por isso que o glicogênio muscular também é mobilizado para elevar a glicemia nos intervalos entre refeições.]),
+   ("E", [O degrau intermediário da fosforilase quinase existe para amplificar o sinal, de modo que concentrações picomolares do hormônio mobilizam quantidades muito maiores de glicogênio armazenado.]))
+)
 
-#questao-mc("06", badge-consolidacao,
-  [Qual é o papel funcional da quimiocina apresentada na superfície luminal do endotélio inflamado, durante a cascata de adesão leucocitária],
-  (("A", [Formar um gradiente de concentração no interior da luz vascular que atrai quimiotaticamente o leucócito circulante em direção à parede, substituindo a marginação física produzida pela estase do fluxo.]),
-   ("B", [Ativar a integrina que já está na membrana do leucócito, convertendo-a da conformação dobrada de baixa afinidade para a conformação estendida de alta afinidade, capaz de agarrar firmemente o ICAM-1.]),
-   ("C", [Induzir a síntese de novas moléculas de integrina no leucócito em rolamento, processo que depende de transcrição gênica e explica o intervalo de horas entre o estímulo inflamatório e a adesão firme.]),
-   ("D", [Estabilizar a ligação entre selectina endotelial e ligante leucocitário, aumentando a afinidade dessa interação até o ponto em que ela sozinha é capaz de interromper o rolamento e imobilizar a célula.]),
-   ("E", [Degradar localmente a membrana basal do vaso e a matriz adjacente, abrindo o caminho físico por onde o leucócito aderido atravessará a parede em direção ao interstício inflamado.])))
+#questao-ce("06", badge-consolidacao,
+  [Julgue os itens sobre a frutose-2,6-bifosfato:],
+  (("I", [Ela ativa a fosfofrutoquinase-1 e inibe a frutose-1,6-bifosfatase, de modo que sua elevação favorece a glicólise e trava a gliconeogênese.]),
+   ("II", [A enzima que a sintetiza e a enzima que a degrada são dois sítios catalíticos de uma mesma cadeia polipeptídica.]),
+   ("III", [Ela é um intermediário da via glicolítica, situado entre a frutose-6-fosfato e a frutose-1,6-bifosfato, e é consumida pela aldolase.]),
+   ("IV", [No período pós-absortivo sua concentração cai, porque a fosforilação pela proteína quinase A desliga o sítio quinase e liga o sítio fosfatase da enzima bifuncional hepática.]))
+)
 
-#questao-ce("07", badge-consolidacao,
-  [Sobre os mecanismos microbicidas do neutrófilo ativado no interior do fagossomo. Julgue os itens:],
-  (("I",   [A NADPH oxidase transfere elétrons ao oxigênio molecular gerando superóxido; a dismutação deste produz peróxido de hidrogênio, que a mieloperoxidase converte em hipoclorito na presença de cloreto.]),
-   ("II",  [A explosão respiratória não gera ATP: o oxigênio consumido é empregado na fabricação de oxidantes, e os elétrons usados vêm do NADPH produzido na via das pentoses-fosfato.]),
-   ("III", [A cobertura do alvo por C3b e por IgG é irrelevante para a eficiência da captura, uma vez que o receptor de manose do fagócito realiza sozinho o reconhecimento com a mesma eficácia.]),
-   ("IV",  [A armadilha extracelular do neutrófilo é composta por cromatina descondensada associada a enzimas granulares, expelida para o meio extracelular, e sua formação em geral custa a vida da célula.])))
+#questao-mc("07", badge-consolidacao,
+  [Como a própria glicose, sem intermediação hormonal, contribui para desligar a glicogenólise hepática:],
+  (("A", [Ligando-se a um sítio alostérico da glicogênio fosforilase ativa, o que desloca a enzima para a conformação tensa e expõe o resíduo fosforilado, entregando-o à fosfoproteína fosfatase 1 para remoção.]),
+   ("B", [Competindo com a glicose-1-fosfato pelo sítio catalítico da glicogênio fosforilase, o que reduz a velocidade da reação por inibição competitiva clássica e interrompe a liberação de açúcar.]),
+   ("C", [Reduzindo a concentração citosólica de fosfato inorgânico necessária à fosforólise, o que torna a clivagem do glicogênio termodinamicamente desfavorável enquanto houver glicose livre no hepatócito.]),
+   ("D", [Estimulando a fosfodiesterase a degradar o cAMP remanescente, o que inativa a proteína quinase A e interrompe a fosforilação da fosforilase quinase na etapa anterior da cascata.]),
+   ("E", [Ligando-se à subunidade reguladora da fosforilase quinase e impedindo que ela reconheça a glicogênio fosforilase b como substrato, o que bloqueia a conversão à forma ativa.]))
+)
 
 #questao-mc("08", badge-consolidacao,
-  [Após a clivagem do C3 pela C3 convertase, os dois fragmentos gerados têm destinos e funções distintos. Qual alternativa descreve corretamente essa divisão],
-  (("A", [O fragmento maior, C3b, difunde-se pelo interstício e atua como anafilatoxina degranulando mastócitos, enquanto o menor, C3a, permanece ligado à superfície do alvo funcionando como opsonina.]),
-   ("B", [Ambos os fragmentos permanecem ligados covalentemente à superfície onde a convertase se formou, e a diferença entre eles está apenas na afinidade relativa pelos receptores do fagócito.]),
-   ("C", [O fragmento C3a nucleia diretamente a montagem do complexo de ataque à membrana, ao passo que o C3b é rapidamente inativado por proteínas reguladoras presentes no plasma circulante.]),
-   ("D", [Os dois fragmentos difundem-se livremente e agem como quimioatraentes de potência equivalente para o neutrófilo, sendo a opsonização realizada exclusivamente pela imunoglobulina G ligada ao antígeno.]),
-   ("E", [O fragmento maior, C3b, liga-se covalentemente à superfície e opsoniza o alvo para o fagócito, enquanto o menor, C3a, difunde-se e atua como anafilatoxina sobre mastócito e vaso.])))
+  [Por que o organismo mantém pares de enzimas opostas, como a fosfofrutoquinase-1 e a frutose-1,6-bifosfatase, em vez de uma única enzima reversível:],
+  (("A", [Porque as reações envolvidas são termodinamicamente reversíveis e a duplicação de enzimas apenas acelera o equilíbrio, dobrando a velocidade com que o sistema alcança a proporção final de metabólitos.]),
+   ("B", [Porque uma enzima reversível seria incapaz de operar em pH citosólico, e a separação em duas proteínas distintas permite que cada uma trabalhe na faixa de pH em que é mais estável.]),
+   ("C", [Porque as duas enzimas ocupam compartimentos distintos da célula, e o par existe para que cada compartimento tenha sua própria via completa sem depender de transporte de intermediários.]),
+   ("D", [Porque duas enzimas reguladas de forma independente permitem controlar o fluxo líquido em cada sentido separadamente, e o gasto de ATP do ciclo é o preço pago por esse controle fino.]),
+   ("E", [Porque a enzima da gliconeogênese precisa ser induzida por cortisol enquanto a da glicólise é constitutiva, e um par de proteínas é a única forma de acomodar dois tipos de regulação transcricional.]))
+)
 
 #questao-mc("09", badge-integracao,
-  [Em camundongo com deleção do adaptador MyD88, o endotélio da microcirculação exposto a lipopolissacarídeo não expressa E-selectina nem ICAM-1, e o recrutamento de neutrófilos fica abolido. Qual sequência explica esse fenótipo],
-  (("A", [A ausência do adaptador impede a montagem da NADPH oxidase no neutrófilo, e sem produção de oxidantes a célula não consegue aderir ao endotélio nem completar a diapedese pela junção intercelular.]),
-   ("B", [A deleção bloqueia a clivagem do C5 e suprime a produção de C5a; sem o principal quimioatraente do foco, o neutrófilo não recebe o sinal de ativação da integrina e permanece circulando na luz vascular.]),
-   ("C", [Sem o adaptador não há liberação do NF-κB; sem esse fator de transcrição, o endotélio não transcreve as moléculas de adesão induzíveis, e o leucócito perde os pontos de ancoragem necessários para parar na parede.]),
-   ("D", [A deleção impede a ativação da fosfolipase que libera ácido araquidônico, de modo que não se formam leucotrienos, e o neutrófilo deixa de expressar as selectinas necessárias ao rolamento sobre o endotélio.]),
-   ("E", [O adaptador é necessário para a exocitose dos grânulos endoteliais que contêm P-selectina pré-formada, e sem esse passo inicial de rolamento nenhuma das etapas subsequentes da cascata pode ocorrer.])))
+  [Em um indivíduo saudável com glicemia de 4,5 mM, comparam-se a taxa de fosforilação de glicose no hepatócito e a taxa de captação pelo neurônio. O que explica a diferença observada:],
+  (("A", [O neurônio expressa glicoquinase de Km alto e o hepatócito expressa hexoquinase de Km baixo, de modo que o tecido nervoso satura primeiro e garante para si a maior fração da glicose circulante.]),
+   ("B", [Ambos os tecidos dependem de insulina para captar glicose, e a diferença vem apenas do número de transportadores expostos na membrana de cada tipo celular naquele momento do ciclo alimentar.]),
+   ("C", [O hepatócito capta mais porque seu transportador de alto Km opera acima da saturação em qualquer glicemia, enquanto o neurônio depende de recrutamento vesicular que só ocorre após a refeição.]),
+   ("D", [A diferença é apenas de fluxo sanguíneo regional, já que fígado e encéfalo expressam a mesma família de transportadores com constantes cinéticas equivalentes em condições fisiológicas normais.]),
+   ("E", [O neurônio usa transportador de Km próximo de 1 mM, saturado nessa glicemia, e capta de forma praticamente constante; o hepatócito, com transportador e quinase de Km alto, só sequestra glicose quando há excesso.]))
+)
 
 #questao-ce("10", badge-integracao,
-  [Um paciente internado por pneumonia apresenta proteína C reativa muito elevada. Julgue os itens sobre a relação entre reconhecimento inato e resposta hepática:],
-  (("I",   [A proteína C reativa é um receptor de padrão solúvel: liga fosfocolina exposta em parede bacteriana e em célula morta, opsoniza o alvo e ativa a via clássica do complemento.]),
-   ("II",  [A elevação plasmática decorre da síntese aumentada pelo próprio neutrófilo recrutado ao foco pulmonar, que exporta a proteína pronta para a circulação sem participação do fígado.]),
-   ("III", [Como a proteína C reativa é gerada por rearranjo somático de segmentos gênicos no hepatócito, sua especificidade aumenta a cada exposição, o que caracteriza memória humoral inata.]),
-   ("IV",  [A lectina ligadora de manose é também uma proteína de fase aguda, de modo que a resposta hepática amplifica simultaneamente duas portas distintas de ativação do complemento.])))
+  [Julgue os itens sobre a comutação entre síntese e degradação de glicogênio:],
+  (("I", [A fosforilação inativa a glicogênio sintase e ativa a glicogênio fosforilase, de modo que a polaridade do efeito é determinada pela enzima-alvo, não pelo grupo fosfato.]),
+   ("II", [A proteína quinase B ativada pela insulina fosforila a glicogênio sintase quinase 3 e a ativa, o que mantém a glicogênio sintase desligada durante o período absortivo.]),
+   ("III", [O bloqueio da fosfoproteína fosfatase 1 pelo inibidor-1 fosforilado é necessário para que a glicogenólise induzida pelo glucagon se sustente.]),
+   ("IV", [A fosfodiesterase ativada pela insulina degrada o cAMP residual, o que impede que a cascata do glucagon volte a operar enquanto a síntese está em curso.]))
+)
 
 #questao-mc("11", badge-integracao,
-  [Paciente com crise aguda de gota no hálux. A articulação está quente, vermelha e extremamente dolorosa, e o líquido sinovial mostra cristais de urato monossódico e neutrófilos abundantes. Qual encadeamento mecanístico sustenta esse quadro],
-  (("A", [O cristal fagocitado desestabiliza o fagolisossomo e dispara efluxo de potássio e espécies reativas; o NLRP3 se monta, a caspase-1 corta a pró-interleucina-1β, e a citocina madura ativa o endotélio sinovial recrutando neutrófilos.]),
-   ("B", [O cristal, por ser insolúvel, é reconhecido diretamente pelo TLR2 de superfície do sinoviócito, que sinaliza por MyD88 e induz a secreção imediata de interleucina-1β já madura estocada em grânulos citoplasmáticos.]),
-   ("C", [A hiperuricemia satura os transportadores tubulares renais e o urato circulante ativa a via clássica do complemento por ligação ao C1q, gerando C5a em quantidade suficiente para recrutar neutrófilo para a sinóvia.]),
-   ("D", [As arestas do cristal lesam mecanicamente a membrana do sinoviócito e do neutrófilo, e é o extravasamento de conteúdo citoplasmático dessas células rompidas o único mecanismo capaz de manter a resposta inflamatória.]),
-   ("E", [O cristal liga-se à albumina sinovial formando um neoantígeno reconhecido por anticorpos naturais preexistentes; o imunocomplexo depositado na cartilagem é o gatilho da resposta inflamatória local observada.])))
+  [Um hepatócito é exposto a glucagon depois de horas em meio rico em glicose. Qual evento é condição necessária para que a beta-oxidação de ácidos graxos comece nessa célula:],
+  (("A", [A indução transcricional de novas moléculas de carnitina-palmitoil transferase I, cuja quantidade limita o transporte de acil-CoA graxo através da membrana mitocondrial interna nas primeiras horas.]),
+   ("B", [A queda do malonil-CoA, que ao deixar de inibir a carnitina-palmitoil transferase I libera a entrada do acil-CoA graxo de cadeia longa na mitocôndria e permite sua degradação.]),
+   ("C", [O aumento do citrato citosólico, que ativa a acetil-CoA carboxilase e desloca o equilíbrio da célula em direção à oxidação dos ácidos graxos previamente armazenados no hepatócito.]),
+   ("D", [A saída do acetil-CoA mitocondrial para o citosol pelo transportador de tricarboxilato, etapa sem a qual a beta-oxidação não teria destino para os produtos que gera dentro da organela.]),
+   ("E", [A ativação da ATP-citrato liase pela proteína quinase A, que ao clivar o citrato remove o inibidor alostérico da carnitina-palmitoil transferase I e destrava a oxidação lipídica hepática.]))
+)
 
 #questao-mc("12", badge-integracao,
-  [Durante a inflamação aguda, o leucócito abandona a coluna central de sangue e passa a trafegar rente à parede vascular. Qual é a relação entre os eventos hemodinâmicos e esse comportamento],
-  (("A", [A vasodilatação arteriolar aumenta a velocidade linear do sangue na vênula, e a força de cisalhamento elevada empurra o leucócito contra o endotélio, onde as selectinas então o capturam e iniciam o rolamento.]),
-   ("B", [A marginação é resultado exclusivo da expressão de selectinas na superfície endotelial, que capturam ativamente o leucócito na linha central do fluxo, independentemente de qualquer alteração da velocidade do sangue.]),
-   ("C", [A liberação de quimiocinas para a luz vascular cria um gradiente radial de concentração dentro do vaso, e é a quimiotaxia intraluminal ao longo desse gradiente que desloca o leucócito para a periferia da coluna.]),
-   ("D", [A perda de plasma para o interstício concentra as hemácias e eleva a viscosidade; o fluxo desacelera, e nesse regime lento o leucócito, maior e menos deformável, deixa a linha central e passa a rolar sobre a parede.]),
-   ("E", [A contração da célula endotelial reduz o calibre efetivo da vênula, e essa redução de área transversal força mecanicamente o leucócito contra a parede antes que qualquer molécula de adesão seja expressa ali.])))
+  [Dois moduladores agem sobre a fosfofrutoquinase-1 em sentidos opostos conforme o estado nutricional. Qual descrição está correta:],
+  (("A", [A frutose-2,6-bifosfato, alta no estado alimentado, ativa a enzima e acelera a glicólise; o citrato, acumulado quando há carbono suficiente rio abaixo, a inibe e sinaliza que a via já produziu o bastante.]),
+   ("B", [A frutose-2,6-bifosfato inibe a enzima no estado alimentado, o que preserva glicose-6-fosfato para a síntese de glicogênio, enquanto o citrato a ativa por indicar disponibilidade de oxaloacetato mitocondrial.]),
+   ("C", [Ambos os moduladores ativam a enzima, sendo a frutose-2,6-bifosfato o sinal de curto prazo e o citrato o sinal de longo prazo, o que garante glicólise contínua enquanto houver substrato disponível.]),
+   ("D", [O citrato ativa a enzima ao ser clivado no citosol e liberar oxaloacetato, e a frutose-2,6-bifosfato apenas modula essa ativação sem exercer efeito próprio sobre a velocidade da reação catalisada.]),
+   ("E", [A frutose-2,6-bifosfato age como substrato alternativo da enzima e o citrato como produto final da via, de modo que os dois competem pelo mesmo sítio catalítico da fosfofrutoquinase-1.]))
+)
 
 #questao-ce("13", badge-integracao,
-  [Vinte minutos após uma picada de inseto, a pele apresenta pápula circundada por eritema. Julgue os itens sobre os mediadores e o mecanismo envolvidos:],
-  (("I",   [A histamina responsável pelo edema inicial estava pré-formada em grânulos do mastócito, o que explica seu efeito em segundos a minutos, sem necessidade de síntese proteica.]),
-   ("II",  [O edema decorre da contração da célula endotelial da vênula pós-capilar, com abertura de fenda intercelular, e não da dilatação de poros na membrana da célula endotelial.]),
-   ("III", [Além da ligação cruzada de IgE de superfície, as anafilatoxinas C3a e C5a, os neuropeptídeos e o trauma físico também são capazes de degranular o mastócito.]),
-   ("IV",  [O eritema que ultrapassa os limites do ponto picado só pode ser explicado por difusão passiva da histamina pelo interstício, já que a fibra sensitiva conduz o impulso apenas em direção à medula.])))
+  [Julgue os itens sobre o destino do glicogênio muscular e o ciclo de Cori:],
+  (("I", [O músculo esquelético não expressa glicose-6-fosfatase, de modo que o produto da glicogenólise muscular não pode deixar a fibra como glicose livre.]),
+   ("II", [O ciclo de Cori é energeticamente favorável para o organismo, porque o fígado recupera mais ATP na ressíntese de glicose do que o músculo gastou para produzir lactato.]),
+   ("III", [A hemácia não participa do ciclo de Cori, porque exporta piruvato em vez de lactato e o piruvato não é substrato da gliconeogênese hepática.]),
+   ("IV", [O músculo esquelético não possui receptor de glucagon, e sua glicogenólise é disparada por adrenalina e pelo cálcio liberado na contração.]))
+)
 
 #questao-mc("14", badge-integracao,
-  [Sobre a articulação entre o sistema complemento e a fagocitose no foco inflamatório, assinale a alternativa *incorreta*:],
-  (("A", [O C3b depositado covalentemente na superfície do micróbio é reconhecido por receptores de complemento do fagócito, e esse engajamento dispara a polimerização de actina que fecha o fagossomo.]),
-   ("B", [A cápsula polissacarídica de algumas bactérias dificulta a deposição estável de C3b na superfície, e é em parte por esse mecanismo que os encapsulados resistem à fagocitose eficiente.]),
-   ("C", [A lise direta pelo complexo de ataque à membrana é o principal mecanismo pelo qual o complemento elimina bactérias em geral, superando em importância clínica a opsonização e o recrutamento celular.]),
-   ("D", [O C5a acumula três funções no foco: aumenta a permeabilidade vascular, atrai o neutrófilo por quimiotaxia e ativa essa mesma célula, potencializando sua capacidade microbicida.]),
-   ("E", [A via alternativa inicia-se por hidrólise espontânea e contínua do C3 no plasma, e é a ausência de proteínas reguladoras na superfície microbiana que permite à cascata prosseguir ali.])))
+  [Sobre a hiperglicemia do diabetes mellitus tipo 1 e a captação de glicose pelos tecidos, assinale a alternativa *incorreta*:],
+  (("A", [O músculo esquelético e o tecido adiposo reduzem a captação porque o GLUT4 deixa de ser recrutado às suas membranas, permanecendo retido em vesículas intracelulares na ausência do sinal da insulina.]),
+   ("B", [O encéfalo continua captando glicose apesar da ausência de insulina, porque seus transportadores são constitutivos e têm constante de Michaelis muito abaixo da glicemia plasmática habitual.]),
+   ("C", [A hiperglicemia é explicada exclusivamente pela redução da captação periférica, uma vez que a produção hepática de glicose se interrompe automaticamente quando a glicemia plasmática se eleva.]),
+   ("D", [A ausência de insulina retira o freio parácrino sobre a célula alfa, e a hiperglucagonemia resultante intensifica a glicogenólise e a gliconeogênese hepáticas já em curso.]),
+   ("E", [A glicose que ultrapassa a capacidade de reabsorção do túbulo proximal permanece na luz tubular e arrasta água, o que produz poliúria e, secundariamente, desidratação e sede.]))
+)
 
 #questao-mc("15", badge-integracao,
-  [Um politraumatizado sem qualquer foco infeccioso apresenta queda dos níveis séricos de C3 e sinais sistêmicos de inflamação. Qual mecanismo liga a lesão tecidual extensa ao consumo de complemento],
-  (("A", [O trauma expõe antígenos intracelulares que se combinam a imunoglobulina M natural, e é exclusivamente por essa via clássica dependente de anticorpo que o complemento pode ser consumido na ausência de infecção.]),
-   ("B", [A exposição de colágeno subendotelial autoativa o fator XII, que gera calicreína; a calicreína converte plasminogênio em plasmina, e a plasmina cliva diretamente o C3, gerando fragmentos ativos sem nenhuma das três vias canônicas.]),
-   ("C", [A hemorragia dilui as proteínas plasmáticas de forma proporcional, e a queda medida do C3 reflete apenas essa diluição, sem que haja consumo real por ativação da cascata do complemento no tecido.]),
-   ("D", [O tecido necrótico expõe manose terminal em glicoproteínas próprias desnaturadas, e a via das lectinas é a única capaz de consumir complemento em quadro estéril, por reconhecimento desse açúcar exposto.]),
-   ("E", [A trombina formada na coagulação inibe as proteínas reguladoras de membrana das células do hospedeiro, e o consumo observado decorre da lise autóloga de hemácias e endotélio pelo complexo de ataque à membrana.])))
+  [Um paciente em jejum de 36 horas mantém glicemia estável. De onde vem o carbono da glicose que o fígado está produzindo nesse momento:],
+  (("A", [Principalmente do acetil-CoA gerado pela beta-oxidação dos ácidos graxos mobilizados do tecido adiposo, que é convertido a piruvato pela reversão da piruvato desidrogenase no hepatócito.]),
+   ("B", [Exclusivamente do glicerol liberado na lipólise, já que os aminoácidos musculares só são mobilizados depois que os corpos cetônicos atingem concentração plasmática máxima no plasma.]),
+   ("C", [Dos corpos cetônicos reabsorvidos pelo fígado, que são reconvertidos a acetil-CoA e daí a oxaloacetato pela ação combinada da tiolase e da piruvato carboxilase hepáticas.]),
+   ("D", [De lactato, glicerol e aminoácidos, sobretudo alanina e glutamina: a oxidação da gordura fornece ATP e sinal para a gliconeogênese, mas não fornece carbono líquido para ela.]),
+   ("E", [Da glicose-6-fosfato ainda estocada como glicogênio hepático, cujo depósito é suficiente para sustentar a glicemia por vários dias antes que outras fontes precisem ser recrutadas.]))
+)
 
 #questao-ce("16", badge-integracao,
-  [Um paciente com pneumonia bacteriana apresenta temperatura de 39,2 °C e refere sensação de frio intenso com tremores no início do episódio. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ que produz a febre é sintetizada no foco pulmonar e transportada pelo sangue até o hipotálamo, onde então desloca para cima o ponto de ajuste do centro termorregulador.]),
-   ("II",  [O tremor muscular e a vasoconstrição cutânea são mecanismos efetores acionados para elevar a temperatura corporal até o novo ponto de ajuste, e não consequências passivas da infecção.]),
-   ("III", [A sensação de frio com tremores no início do episódio é coerente com um ponto de ajuste já deslocado para cima enquanto a temperatura corporal ainda está abaixo do novo alvo.]),
-   ("IV",  [O antitérmico age inibindo a ciclo-oxigenase e reduzindo a síntese hipotalâmica de prostaglandina, o que faz o ponto de ajuste retornar ao valor normal.])))
+  [Julgue os itens comparando a leitura do sinal hormonal no indivíduo saudável e no diabetes tipo 2:],
+  (("I", [O tecido-alvo responde à razão entre insulina e glucagon, e não à concentração absoluta de glicose plasmática.]),
+   ("II", [No diabetes tipo 2 a insulinemia inicial costuma estar normal ou elevada, e a falha está na transmissão do sinal rio abaixo do receptor.]),
+   ("III", [A resistência à insulina do tipo 2 decorre, na maioria dos casos, do desaparecimento do receptor de insulina da superfície das células musculares e adiposas.]),
+   ("IV", [A deficiência de secreção no tipo 2 antecede a resistência periférica e é o evento que inaugura a doença.]))
+)
 
 #questao-mc("17", badge-integracao,
-  [Em um modelo experimental, neutrófilos recrutados para o peritônio são impedidos de entrar em apoptose por bloqueio farmacológico da via apoptótica. O infiltrado persiste e o dano tecidual se agrava. Qual mecanismo explica melhor esse agravamento],
-  (("A", [Sem apoptose o neutrófilo retorna à circulação carregado de enzimas granulares, e é a redistribuição sistêmica dessas enzimas por via hematogênica que produz o dano observado em outros órgãos.]),
-   ("B", [O bloqueio da apoptose impede a montagem da NADPH oxidase no fagossomo, e o acúmulo de micro-organismos viáveis não eliminados é a causa direta da lesão progressiva do peritônio.]),
-   ("C", [A persistência do neutrófilo consome o oxigênio disponível no exsudato e a hipóxia resultante é o mecanismo primário de morte das células mesoteliais adjacentes ao infiltrado inflamatório.]),
-   ("D", [Neutrófilos que não morrem deixam de expressar selectinas e passam a bloquear mecanicamente a luz das vênulas do mesentério, e a isquemia por obstrução explica a progressão do dano tecidual.]),
-   ("E", [A remoção do neutrófilo depende da apoptose seguida de eferocitose; bloqueada essa rota, a célula evolui para necrose secundária e derrama proteases, oxidantes e moléculas de dano no tecido, perpetuando o foco.])))
+  [Por que a cetogênese hepática se intensifica justamente quando a gliconeogênese está no máximo:],
+  (("A", [Porque o oxaloacetato está sendo desviado para a produção de glicose, e o acetil-CoA da beta-oxidação, sem par para entrar no ciclo de Krebs, é condensado em corpos cetônicos.]),
+   ("B", [Porque a gliconeogênese consome NADPH em excesso e o desequilíbrio redox resultante força a mitocôndria hepática a reduzir acetoacetato a beta-hidroxibutirato como via de descarte.]),
+   ("C", [Porque a glicose recém-formada inibe alostericamente a HMG-CoA liase, o que desloca o equilíbrio da via em direção ao acúmulo de acetoacetato no interior do hepatócito.]),
+   ("D", [Porque a piruvato carboxilase ativada pelo acetil-CoA gera oxaloacetato em excesso, e o excedente que não entra na gliconeogênese é convertido a corpos cetônicos pela tiolase mitocondrial.]),
+   ("E", [Porque o glucagon induz a transcrição das enzimas cetogênicas apenas quando a concentração de glicose intracelular ultrapassa o limiar necessário para ativar a glicoquinase hepática.]))
+)
 
 #questao-mc("18", badge-integracao,
-  [Por que os receptores Toll-like que reconhecem ácidos nucleicos estão confinados ao compartimento endossômico, e não à membrana plasmática],
-  (("A", [Porque ácido nucleico próprio, liberado por células que morrem no tecido, circularia livremente no meio extracelular; confinar esses receptores ao endossomo condiciona a leitura ao material que chegou por endocitose.]),
-   ("B", [Porque o pH ácido do endossomo é indispensável ao pareamento de bases entre o RNA viral e o domínio de reconhecimento do receptor, reação que não ocorre no pH neutro do líquido extracelular.]),
-   ("C", [Porque esses receptores derivam evolutivamente de proteínas lisossomais e mantiveram o sinal de endereçamento ancestral, sem que a localização traga vantagem funcional relevante à resposta imune inata.]),
-   ("D", [Porque os ácidos nucleicos microbianos só adquirem a conformação reconhecível após degradação parcial por nucleases endossômicas, e o material íntegro na superfície celular seria invisível ao receptor.]),
-   ("E", [Porque a sinalização desses receptores exige o adaptador TRIF, proteína ancorada exclusivamente à face citosólica da membrana endossômica e ausente na face interna da membrana plasmática.])))
+  [Qual propriedade do transportador GLUT2 permite que a célula beta pancreática converta glicemia em taxa de secreção de insulina:],
+  (("A", [Sua dependência de insulina para chegar à membrana, o que cria uma alça de retroalimentação positiva em que cada pulso secretor aumenta a captação de glicose pela própria célula beta.]),
+   ("B", [Seu transporte ativo secundário acoplado ao sódio, que permite acumular glicose contra o gradiente e amplificar pequenas variações da glicemia em grandes variações intracelulares de substrato.]),
+   ("C", [Sua constante de Michaelis muito baixa, que o mantém saturado em toda a faixa fisiológica e garante entrada constante de glicose independentemente das oscilações do plasma ao longo do dia.]),
+   ("D", [Sua localização exclusiva em vesículas intracelulares, que só se fundem à membrana quando o cálcio citosólico se eleva, acoplando o transporte ao mesmo sinal que dispara a exocitose.]),
+   ("E", [Seu Km muito acima da glicemia fisiológica, que o impede de saturar: o influxo acompanha proporcionalmente a concentração plasmática, e a célula transforma concentração em fluxo metabólico.]))
+)
 
 #questao-ce("19", badge-integracao,
-  [Um paciente toma anti-inflamatório não esteroidal para dor articular e apresenta melhora da dor, mas desenvolve epigastralgia. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ não excita diretamente o nociceptor; ela reduz o limiar de disparo dessa terminação, de modo que estímulos habitualmente indolores passam a doer.]),
-   ("II",  [A epigastralgia relaciona-se à inibição da ciclo-oxigenase constitutiva da mucosa gástrica, cujo produto estimula a secreção de muco e de bicarbonato protetores.]),
-   ("III", [O fármaco atua sobre a fosfolipase A₂, impedindo a liberação de ácido araquidônico da membrana, e por isso suprime simultaneamente prostanoides e leucotrienos.]),
-   ("IV",  [A bradicinina responsável pela dor é sintetizada localmente pelo fibroblasto a partir de aminoácidos livres e age sobre o mesmo receptor de prostaglandina que o fármaco bloqueia.])))
+  [Julgue os itens sobre o destino do nitrogênio muscular no jejum e no diabetes tipo 1:],
+  (("I", [O músculo exporta o nitrogênio dos aminoácidos degradados principalmente como amônia livre, forma em que ele circula com segurança até o fígado.]),
+   ("II", [A alanina é preferida como carregador porque uma única transaminação hepática a devolve a piruvato, substrato direto da gliconeogênese.]),
+   ("III", [No diabetes tipo 1 o balanço nitrogenado é negativo mesmo com ingestão preservada, porque a ausência de insulina mantém a proteólise muscular ativa.]),
+   ("IV", [A glutamina exportada pelo músculo é usada pelo córtex renal como substrato gliconeogênico, e a mesma reação libera amônio na urina.]))
+)
 
 #questao-mc("20", badge-integracao,
-  [Em um quadro de sepse grave, o paciente apresenta simultaneamente sangramento em locais de punção e microtrombos na microcirculação. Qual mecanismo articula a resposta inflamatória sistêmica a essa combinação aparentemente contraditória],
-  (("A", [O fator de necrose tumoral em concentração elevada lisa diretamente as plaquetas circulantes, e a plaquetopenia resultante explica o sangramento, enquanto os microtrombos derivam apenas da estase da microcirculação.]),
-   ("B", [As citocinas inflamatórias ativam a fibrinólise de forma primária e maciça, e a plasmina em excesso degrada fibrinogênio circulante, o que causa sangramento sem que haja qualquer trombose associada verdadeira.]),
-   ("C", [O lipopolissacarídeo liga-se diretamente ao fator XII e o autoativa em toda a circulação; o sangramento decorre do consumo desse fator isolado, sem participação do endotélio nem das citocinas.]),
-   ("D", [Interleucina-1 e fator de necrose tumoral induzem fator tecidual no endotélio e suprimem os anticoagulantes naturais que ele expressava; a coagulação difusa consome plaquetas e fatores, e o consumo é o que produz o sangramento.]),
-   ("E", [O óxido nítrico produzido em excesso inibe a agregação plaquetária e causa o sangramento, ao passo que os microtrombos observados são compostos apenas de leucócitos aderidos ao endotélio, sem fibrina.])))
+  [A adrenalina eleva o cAMP tanto no hepatócito quanto no cardiomiócito, mas produz efeitos opostos sobre a glicólise nesses dois tecidos. O que explica a divergência:],
+  (("A", [O cardiomiócito não expressa proteína quinase A e responde ao cAMP por uma via alternativa dependente de cálcio, que ativa diretamente a fosfofrutoquinase-1 sem passar por modificação covalente.]),
+   ("B", [A adrenalina liga-se a receptores de subtipos diferentes nos dois tecidos, e apenas no fígado o receptor está acoplado à adenilato ciclase, de modo que só ali o cAMP chega a se elevar de fato.]),
+   ("C", [As isoformas da enzima bifuncional PFK-2/FBPase-2 respondem de modo oposto à mesma fosforilação: no fígado ela desliga o sítio quinase, no coração ela o liga, e a frutose-2,6-bifosfato segue em direções contrárias.]),
+   ("D", [O coração não possui frutose-2,6-bifosfato e regula a glicólise apenas por concentração de substrato, de modo que a elevação do cAMP não tem alvo regulatório nesse tecido durante o estímulo adrenérgico.]),
+   ("E", [O fígado degrada o cAMP muito mais rápido que o coração por expressar mais fosfodiesterase, e a diferença de duração do sinal, e não de sua natureza, explica os efeitos metabólicos divergentes.]))
+)
 
 #questao-mc("21", badge-integracao,
-  [Sobre o programa de resolução da inflamação aguda, assinale a alternativa *incorreta*:],
-  (("A", [A prostaglandina E₂ acumulada no foco induz a expressão da 15-lipoxigenase, o que desloca o metabolismo do ácido araquidônico da produção de leucotrieno B₄ para a produção de lipoxinas.]),
-   ("B", [As lipoxinas inibem a quimiotaxia e a adesão de neutrófilos e estimulam o macrófago a remover os restos celulares, atuando em sentido oposto ao do leucotrieno B₄.]),
-   ("C", [A resolução é essencialmente passiva: cessado o estímulo, os mediadores deixam de ser produzidos e o infiltrado se dissipa por inércia, sem que haja síntese de moléculas dedicadas ao desligamento.]),
-   ("D", [A fagocitose do neutrófilo apoptótico pelo macrófago reprograma esta célula, que passa a secretar interleucina-10 e fator de transformação do crescimento beta em vez de citocinas pró-inflamatórias.]),
-   ("E", [O desfecho depende da integridade do arcabouço de matriz: preservado, há restituição integral; destruído, o fator de transformação do crescimento beta conduz a deposição de colágeno e a cicatriz.])))
+  [A chegada de glicose ao hepatócito depois de uma refeição atua sobre duas enzimas antes mesmo de a insulina completar seu efeito. Qual descrição está correta:],
+  (("A", [A glicose desfaz o sequestro nuclear da glicoquinase, liberando-a para o citosol, e liga-se à glicogênio fosforilase a, expondo seu fosfato à fosfoproteína fosfatase 1 e levando à inativação da enzima.]),
+   ("B", [A glicose induz a transcrição da glicoquinase e reprime a da glicogênio fosforilase, de modo que a mudança no perfil enzimático se completa dentro dos primeiros minutos após a refeição.]),
+   ("C", [A glicose inibe competitivamente a glicoquinase pelo acúmulo do próprio produto e ativa a glicogênio fosforilase por ligação ao sítio catalítico, o que acelera a reciclagem do glicogênio recém-formado.]),
+   ("D", [A glicose ativa a fosforilase quinase e inativa a glicoquinase, transferindo o controle do fluxo hepático para a via das pentoses-fosfato enquanto durar a elevação da glicemia portal.]),
+   ("E", [A glicose se liga à proteína reguladora nuclear e a estabiliza junto à glicoquinase, o que mantém a enzima inativa até que a insulina promova a dissociação do complexo horas depois.]))
+)
 
 #questao-ce("22", badge-integracao,
-  [Sobre a cinética das moléculas de adesão endotelial e sua relação com as citocinas do foco. Julgue os itens:],
-  (("I",   [A P-selectina depende de transcrição gênica induzida no endotélio e por isso só alcança a superfície várias horas depois do estímulo por histamina ou por trombina.]),
-   ("II",  [A E-selectina encontra-se pré-formada nos corpúsculos de Weibel-Palade e é externalizada em poucos minutos, sem necessidade de síntese proteica nova.]),
-   ("III", [O ICAM-1 tem expressão basal baixa que aumenta acentuadamente sob estímulo de interleucina-1 e de fator de necrose tumoral, e é esse incremento que sustenta a adesão firme.]),
-   ("IV",  [A ligação da integrina VLA-4 ao VCAM-1 favorece o recrutamento de monócitos e linfócitos, contribuindo para a mudança do perfil do infiltrado ao longo dos dias.])))
+  [Julgue os itens sobre corpos cetônicos e os limites de substrato dos tecidos:],
+  (("I", [O ácido graxo de cadeia longa circula ligado à albumina e não atravessa a barreira hematoencefálica em quantidade útil, o que torna o corpo cetônico a alternativa do encéfalo à glicose.]),
+   ("II", [A acetona resulta da descarboxilação espontânea do acetoacetato, não é aproveitada como combustível e é eliminada pela via respiratória.]),
+   ("III", [O fígado é o principal consumidor dos corpos cetônicos que produz, o que garante o aproveitamento local do excesso de acetil-CoA gerado na beta-oxidação.]),
+   ("IV", [A hemácia madura oxida corpos cetônicos com eficiência, e é isso que a torna independente da glicose durante o jejum prolongado.]))
+)
 
 #questao-mc("23", badge-integracao,
-  [Uma célula que morre por piroptose amplifica a inflamação de modo muito mais intenso do que uma célula que morre por apoptose. Qual é a base mecanística dessa diferença],
-  (("A", [O fragmento amino-terminal da gasdermina D forma poro na membrana; a célula incha, rompe e derrama no interstício conteúdo citosólico rico em moléculas de dano, além de liberar a interleucina-1β madura.]),
-   ("B", [A piroptose consome as reservas de ATP da célula muito mais rapidamente, e é a depleção energética do tecido vizinho, com falência das bombas iônicas, o que amplifica a resposta inflamatória local observada.]),
-   ("C", [Na piroptose a célula expõe fosfatidilserina na face externa da membrana com densidade muito maior, e esse sinal em excesso ativa o macrófago para um perfil pró-inflamatório sustentado no foco.]),
-   ("D", [A caspase-1 ativada difunde para o meio extracelular e cliva diretamente componentes da matriz, e são os fragmentos de matriz gerados por essa protease os principais responsáveis pela amplificação do processo.]),
-   ("E", [A piroptose ocorre preferencialmente em células endoteliais, e é a perda de integridade da barreira vascular, e não o conteúdo liberado pela célula morta, o que amplifica a resposta inflamatória no tecido.])))
+  [Sobre o triacilglicerol hepático e sua relação com a resistência à insulina, assinale a alternativa *incorreta*:],
+  (("A", [No período absortivo o triacilglicerol sintetizado pelo fígado é embalado com apoproteínas em lipoproteína de densidade muito baixa e exportado para o tecido adiposo, em vez de ser retido no hepatócito.]),
+   ("B", [O adipócito resistente à insulina mantém a lipólise ativa de forma inapropriada e envia ácidos graxos livres ao fígado em quantidade superior à sua capacidade de exportação.]),
+   ("C", [O acúmulo de metabólitos lipídicos em tecidos não adiposos interfere na transmissão do sinal da insulina rio abaixo do receptor, agravando a resistência periférica já instalada.]),
+   ("D", [A retenção de triacilglicerol no hepatócito costuma associar-se a dislipidemia, com elevação de partículas de baixa densidade e redução das de alta densidade circulantes.]),
+   ("E", [A retenção de triacilglicerol pelo hepatócito é o comportamento fisiológico esperado no período absortivo, e é ela que constitui o principal depósito energético mobilizado durante o jejum prolongado.]))
+)
 
 #questao-mc("24", badge-integracao,
-  [O infiltrado de um foco inflamatório agudo é predominantemente neutrofílico nas primeiras horas e passa a predominantemente macrofágico entre doze e quarenta e oito horas. O que explica essa substituição],
-  (("A", [O macrófago fagocita seletivamente os neutrófilos viáveis do foco e os elimina de forma ativa, e essa depuração dirigida é o mecanismo que impõe a troca do elenco celular observada no tecido.]),
-   ("B", [O neutrófilo migra do tecido de volta para a luz vascular assim que o estímulo perde intensidade, retornando à circulação, ao passo que o macrófago é incapaz de fazer esse trajeto reverso.]),
-   ("C", [A expressão de selectinas no endotélio cai abruptamente após seis horas, o que impede qualquer novo recrutamento de neutrófilos, enquanto o macrófago atravessa a parede por mecanismo independente de adesão.]),
-   ("D", [O neutrófilo vive poucas horas no tecido e entra em apoptose por relógio interno, sem ser reposto; o macrófago responde a quimiocinas de expressão mais tardia, sobrevive dias e acaba herdando o foco.]),
-   ("E", [A queda progressiva do oxigênio no exsudato inviabiliza o metabolismo do neutrófilo, que é estritamente dependente de fosforilação oxidativa, ao contrário do macrófago, que sustenta sua função por glicólise anaeróbia.])))
+  [No jejum de vários dias, o córtex renal passa a contribuir de forma relevante para a produção de glicose. Qual descrição integra corretamente esse fato ao equilíbrio ácido-base:],
+  (("A", [O rim produz glicose a partir de lactato e devolve bicarbonato ao plasma na mesma reação, o que compensa diretamente o consumo de tampão causado pelos corpos cetônicos circulantes.]),
+   ("B", [O rim usa glutamina como substrato gliconeogênico, e a mesma via libera amônio, que é excretado na urina e ajuda a eliminar o excesso de ácido gerado pela cetogênese hepática.]),
+   ("C", [O rim converte corpos cetônicos em glicose, retirando-os da circulação e corrigindo simultaneamente a acidose metabólica e a demanda de substrato dos tecidos dependentes de glicose.]),
+   ("D", [O rim depende de glicose-6-fosfatase ausente em seu córtex e por isso exporta glicose-6-fosfato, cuja hidrólise no plasma consome prótons e eleva o pH sanguíneo durante o jejum.]),
+   ("E", [O rim degrada alanina em ureia e glicose, e a excreção de ureia carrega consigo os prótons excedentes, mecanismo que substitui o tamponamento pelo bicarbonato no jejum prolongado.]))
+)
 
 #questao-ce("25", badge-integracao,
-  [Sobre a ação das anafilatoxinas do complemento sobre o mastócito e a microcirculação. Julgue os itens:],
-  (("I",   [O C5a e o C3a degranulam o mastócito por receptor próprio, o que libera histamina pré-formada e conecta a ativação do complemento ao aumento imediato da permeabilidade venular.]),
-   ("II",  [Entre os fragmentos gerados, o C3a é a anafilatoxina mais potente e o único com função quimiotática relevante sobre o neutrófilo, papel que o C5a praticamente não desempenha.]),
-   ("III", [A degranulação do mastócito por anafilatoxina exige sensibilização prévia por IgE específica, razão pela qual esse mecanismo só opera em indivíduos previamente alergizados.]),
-   ("IV",  [A histamina liberada age no receptor H1 do músculo liso arteriolar promovendo vasoconstrição, o que reduz o fluxo local e limita a formação de edema no território afetado.])))
+  [Julgue os itens sobre a secreção de insulina no indivíduo saudável e no diabetes tipo 2:],
+  (("I", [Uma carga de glicose administrada por via oral produz secreção de insulina maior do que a mesma carga infundida por via venosa.]),
+   ("II", [As incretinas são liberadas pelo pâncreas endócrino em resposta à elevação da glicemia arterial e agem sobre o intestino retardando o esvaziamento gástrico.]),
+   ("III", [A estimulação crônica da célula beta imposta pela resistência periférica é protetora e preserva a capacidade secretora ao longo dos anos de doença.]),
+   ("IV", [No diabetes tipo 2 a glicemia elevada continua estimulando a secreção de insulina, mas os níveis de glicose permanecem altos porque o tecido-alvo não responde adequadamente.]))
+)
 
 #questao-mc("26", badge-aplicacao,
-  [Menino de 4 anos com abscessos cutâneos de repetição por #emph[Staphylococcus aureus] e #emph[Serratia]. O teste funcional do neutrófilo mostra produção de oxidantes muito reduzida; a contagem de neutrófilos e as moléculas de adesão são normais. Qual etapa está comprometida],
-  (("A", [O rolamento sobre o endotélio, por deficiência de ligante de selectina no leucócito, o que impede a marginação e reduz a chegada de neutrófilo ao foco apesar da contagem sanguínea normal.]),
-   ("B", [A geração de superóxido pela NADPH oxidase no fagossomo, de modo que não se formam peróxido nem hipoclorito e o micro-organismo fagocitado sobrevive dentro da célula que o engoliu.]),
-   ("C", [A opsonização do alvo por C3b, por deficiência de componente inicial da via alternativa do complemento, o que torna a captura lenta e ineficiente mesmo com neutrófilos plenamente funcionais.]),
-   ("D", [A quimiotaxia ao longo do gradiente tecidual, por defeito do receptor de peptídeos formilados, o que mantém o neutrófilo próximo ao vaso e distante do sítio real de multiplicação bacteriana.]),
-   ("E", [A fusão do grânulo azurófilo com o fagossomo, o que impede a entrega de mieloperoxidase e defensinas ao compartimento onde o micro-organismo fagocitado se encontra confinado.])))
+  [Um homem de 24 anos, magro, chega ao pronto-socorro com náusea, respiração profunda e hálito adocicado. Glicemia 380 mg/dL, bicarbonato baixo, ânion gap elevado, cetonúria intensa. Qual mecanismo explica o conjunto:],
+  (("A", [A hiperglicemia intensa desidratou o paciente e a hipoperfusão tecidual resultante gerou acidose lática, e os corpos cetônicos detectados na urina são achado secundário sem participação no distúrbio ácido-base.]),
+   ("B", [A insulina em concentração normal falhou em promover captação muscular, mas manteve a lipólise contida, de modo que a acidose observada decorre do acúmulo de lactato e não da produção de corpos cetônicos.]),
+   ("C", [O excesso de glucagon estimulou a glicogenólise hepática até esgotar o depósito, e a acidose decorre do consumo de bicarbonato pela hidrólise da glicose-6-fosfato liberada durante esse processo.]),
+   ("D", [A ausência de insulina liberou a lipase hormônio-sensível sem contrapeso; o fígado, inundado de ácido graxo, produziu corpos cetônicos sem teto, e esses ácidos consumiram o bicarbonato plasmático.]),
+   ("E", [A hiperglicemia inibiu a carnitina-palmitoil transferase I por acúmulo de malonil-CoA, e a acidose resulta do desvio do piruvato para lactato imposto pelo bloqueio da beta-oxidação hepática.]))
+)
 
-#questao-mc("27", badge-aplicacao,
-  [Paciente asmático usa ácido acetilsalicílico para cefaleia e desenvolve broncoespasmo intenso em minutos, sem urticária e sem hipotensão. Qual mecanismo explica melhor esse desfecho],
-  (("A", [Reação de hipersensibilidade mediada por IgE específica contra o salicilato, com degranulação maciça de mastócito brônquico e liberação de histamina suficiente para contrair o músculo liso das vias aéreas.]),
-   ("B", [Inibição da fosfolipase A₂ pelo fármaco, que suprime a produção de prostaciclina broncodilatadora e deixa o tônus da via aérea sob domínio exclusivo da inervação colinérgica parassimpática.]),
-   ("C", [Ativação direta do complemento pelo fármaco, com geração de C5a em quantidade suficiente para degranular mastócitos da mucosa brônquica e produzir contração da musculatura lisa respiratória.]),
-   ("D", [Acetilação irreversível da mieloperoxidase do eosinófilo brônquico, o que aumenta a produção local de espécies reativas e desencadeia contração da musculatura lisa por lesão epitelial oxidativa.]),
-   ("E", [Bloqueio da ciclo-oxigenase com acúmulo de ácido araquidônico, que é desviado para a 5-lipoxigenase; o excesso de cisteinil-leucotrienos contrai o músculo liso brônquico com potência muito superior à da histamina.])))
+#questao-ce("27", badge-aplicacao,
+  [Uma mulher de 61 anos, obesa, é internada com glicemia de 780 mg/dL, osmolaridade plasmática muito elevada, desidratação grave e sonolência. A cetonúria é discreta e o pH está próximo do normal. Julgue os itens:],
+  (("I", [A insulina residual, ainda insuficiente para a captação muscular, é suficiente para conter a lipólise no adipócito, o que limita a oferta de ácido graxo ao fígado.]),
+   ("II", [A ausência de cetoacidose significativa indica que a produção hepática de glicose está adequadamente suprimida nessa paciente.]),
+   ("III", [A hiperosmolaridade decorre da retenção de sódio pelo túbulo renal, e não da glicose plasmática elevada e da perda de água que ela provoca.]),
+   ("IV", [A glicemia muito mais alta que a da cetoacidose indica instalação abrupta, em poucas horas, típica da falência súbita da secreção pancreática de insulina.]))
+)
 
-#questao-ce("28", badge-aplicacao,
-  [Homem de 62 anos com bacteriemia por Gram-negativo apresenta pressão arterial de 70/40 mmHg que não responde a volume, edema difuso e plaquetopenia. Julgue os itens sobre a fisiopatologia do quadro:],
-  (("I",   [A hipotensão refratária decorre exclusivamente da perda absoluta de volume intravascular para o interstício, sem participação de vasodilatação sistêmica mediada por óxido nítrico.]),
-   ("II",  [O edema difuso decorre de lesão endotelial direta produzida pelo lipopolissacarídeo em todos os leitos, mecanismo distinto da contração endotelial que opera no foco localizado.]),
-   ("III", [A plaquetopenia decorre do consumo de plaquetas na coagulação intravascular disseminada, desencadeada pelo fator tecidual induzido no endotélio sob ação das citocinas.]),
-   ("IV",  [O lipopolissacarídeo é reconhecido no citosol do macrófago pelo NOD2, e é essa via, e não o TLR4 de superfície, que dispara a liberação sistêmica de citocinas na sepse.])))
+#questao-mc("28", badge-aplicacao,
+  [Uma criança apresenta hipoglicemia grave após poucas horas de jejum, com hepatomegalia, lactato e triacilglicerol plasmáticos elevados, e não responde à administração de glucagon. Qual defeito enzimático é mais compatível:],
+  (("A", [Deficiência de glicose-6-fosfatase hepática: o glicogênio é mobilizado normalmente, mas a glicose-6-fosfato não pode ser hidrolisada a glicose livre, acumula no hepatócito e é desviada para lactato e lipogênese.]),
+   ("B", [Deficiência da carnitina-palmitoil transferase I hepática, que impede a entrada de ácido graxo na mitocôndria e por isso eleva o triacilglicerol plasmático e reduz a resposta ao estímulo do glucagon.]),
+   ("C", [Deficiência de glicogênio sintase hepática, que impede a formação do depósito e por isso deixa o fígado sem substrato para responder ao glucagon logo nas primeiras horas de jejum noturno.]),
+   ("D", [Deficiência do receptor de insulina no músculo esquelético, que desloca toda a carga de glicose para o fígado e produz hipoglicemia de jejum acompanhada de acúmulo hepático de glicogênio.]),
+   ("E", [Deficiência de piruvato carboxilase muscular, que impede a exportação de alanina para o fígado e priva a gliconeogênese hepática do carbono necessário nas primeiras horas de jejum.]))
+)
 
 #questao-mc("29", badge-aplicacao,
-  [Uma criança apresenta infecções bacterianas graves de repetição desde o nascimento, com cicatrização lenta do coto umbilical e feridas sem pus, apesar de leucometria persistentemente acima de 30.000 por mm³. A biópsia da lesão cutânea mostra pouquíssimos neutrófilos no tecido, embora as vênulas estejam repletas deles. Qual defeito molecular explica esse conjunto],
-  (("A", [Deficiência da subunidade comum das integrinas leucocitárias: o neutrófilo rola normalmente, mas não converte o rolamento em adesão firme ao ICAM-1, não atravessa a parede e permanece na circulação, o que produz leucocitose sem pus.]),
-   ("B", [Deficiência de mieloperoxidase no grânulo azurófilo, o que impede a conversão de peróxido em hipoclorito e torna o neutrófilo incapaz de eliminar o micro-organismo já fagocitado no interior do fagossomo.]),
-   ("C", [Deficiência dos componentes terminais do complemento, com incapacidade de montar o complexo de ataque à membrana, o que compromete a lise direta das bactérias e explica a gravidade e a recorrência das infecções.]),
-   ("D", [Defeito na sinalização do TLR4 por ausência do adaptador MyD88, o que abole a produção de citocinas inflamatórias e impede o reconhecimento de bactérias Gram-negativas pelo macrófago residente do tecido.]),
-   ("E", [Deficiência da NADPH oxidase fagocitária, com incapacidade de gerar superóxido, o que permite ao micro-organismo sobreviver dentro do fagócito e leva à formação de granulomas nos sítios de infecção.])))
+  [Um paciente com diabetes tipo 2 mantém glicemias de jejum aceitáveis nas medidas domiciliares, mas a hemoglobina glicada permanece elevada. Qual interpretação é mecanisticamente correta:],
+  (("A", [A hemoglobina glicada mede a fração de hemoglobina ligada a glicose no momento da coleta, de modo que o resultado elevado indica erro pré-analítico ou coleta feita fora do período de jejum recomendado.]),
+   ("B", [A glicação é catalisada por uma enzima eritrocitária cuja atividade varia entre indivíduos, e o valor elevado reflete atividade enzimática aumentada, não exposição maior à glicose plasmática.]),
+   ("C", [A glicação é não enzimática e depende de concentração e tempo; como a hemácia vive cerca de 120 dias e não repõe suas proteínas, o exame registra a exposição das últimas semanas, incluindo os períodos pós-refeição.]),
+   ("D", [Valores de jejum normais excluem hiperglicemia relevante, e a elevação da hemoglobina glicada nesse contexto decorre necessariamente de anemia hemolítica com sobrevida eritrocitária encurtada.]),
+   ("E", [A hemoglobina glicada reflete apenas a glicemia das últimas 24 horas, e a divergência indica que o paciente apresentou hipoglicemias noturnas seguidas de hiperglicemia de rebote nas manhãs seguintes.]))
+)
 
-#questao-mc("30", badge-aplicacao,
-  [Homem de 45 anos sofre queimadura de segundo grau em 20% da superfície corporal. Nas primeiras horas há edema intenso e persistente na área queimada; ao terceiro dia, o exame histológico mostra infiltrado predominantemente macrofágico e início de deposição de matriz. Qual sequência mecanística descreve corretamente esses dois momentos],
-  (("A", [O edema inicial resulta de contração endotelial mediada por histamina, de curta duração; o infiltrado macrofágico do terceiro dia decorre do retorno dos neutrófilos à circulação, que abre espaço para o monócito recrutado.]),
-   ("B", [O edema inicial decorre de queda isolada da pressão oncótica plasmática por perda de albumina pela superfície queimada, e o infiltrado tardio reflete apenas a proliferação local de macrófagos residentes do tecido.]),
-   ("C", [O edema inicial vem de lesão endotelial direta, imediata e sustentada porque depende de reparo do endotélio; o predomínio macrofágico tardio decorre da apoptose não reposta do neutrófilo e da eferocitose, que reprograma o macrófago para o reparo.]),
-   ("D", [O edema inicial é mediado por leucotrienos liberados pelo neutrófilo já aderido à parede vascular, e o infiltrado do terceiro dia representa a segunda onda de neutrófilos atraída pelo leucotrieno B₄ acumulado na ferida.]),
-   ("E", [O edema inicial decorre de obstrução linfática pelo calor, sem alteração da permeabilidade vascular, e o infiltrado macrofágico tardio é resposta à infecção secundária que se instala invariavelmente na área desvitalizada.])))
+#questao-ce("30", badge-aplicacao,
+  [Um homem saudável passa 72 horas em jejum sob supervisão. A glicemia cai pouco, a cetonemia sobe cerca de dez vezes e a excreção urinária de nitrogênio, alta no primeiro dia, diminui. Julgue os itens:],
+  (("I", [A manutenção da glicemia nesse período depende principalmente do glicogênio hepático, cujo depósito é suficiente para sustentar vários dias de jejum.]),
+   ("II", [A queda da excreção de nitrogênio ocorre porque os corpos cetônicos passam a cobrir grande parte da demanda energética do encéfalo, reduzindo a necessidade de gliconeogênese a partir de aminoácidos.]),
+   ("III", [O glicerol liberado na lipólise chega ao fígado como substrato gliconeogênico, enquanto os ácidos graxos fornecem o ATP que custeia a via.]),
+   ("IV", [O encéfalo abandona completamente o uso de glicose a partir do terceiro dia, passando a depender apenas de corpos cetônicos.]))
+)

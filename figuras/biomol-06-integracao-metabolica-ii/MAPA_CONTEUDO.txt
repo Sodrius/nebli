@@ -1,0 +1,57 @@
+# MAPA_CONTEUDO -- biomol-06-integracao-metabolica-ii
+# Slide-fonte: d58f7bdd-F__Transcri__o_da_Aula_em_PDF__BM___Integra__o_Metab_lica_2___Estados_Alimentares.mp4.pdf.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Insulina e Glucagon
+slide-02: Variação hormonal no sangue
+slide-03: Ingestão de nutrientes Insulina gliconeogênese Vias biosintéticas Enzimas que aceleram a mobolização dos depósitos de energia. Intervalo entre as refeições Glucagon Cortisol (supra renal) Vias biosintéticas Enzimas que aceleram a mobolização dos depó...
+slide-04: Concentração plasmática de glicose, e hormônios após a ingestão de uma refeição (tempo zero)
+slide-05: Período Absortivo
+slide-06: Período Absortivo
+slide-07: Alta razão insulina/ glucagon Glicoquinase (transloca do núcleo para o citoplasma) retenção da glicose no fígado. Glicose inibe a glicogênio fosforilase (degradação do glicogênio) Síntese de glicogênio Ativação da via das Pentoses-P Síntese de TAG
+slide-08: Glicogênio sintase Glicogênio fosforilase Fosfatase ativa Síntese de glicogênio Regulação do metabolismo do glicogênio
+slide-09: Período Absortivo- Carboidratos Acetyl CoA ATP Acetyl CoA Ácidos graxos de cadeia longa ATP ADP AMP citrato Frutose 2,6 bifosfato AMP citrato Frutose 2,6 bifosfato ADP Glicólise Gliconeogênese
+slide-10: Piruvato desidrogenase TCA Acetyl-CoA Período Absortivo – Metabolismo de carboidratos
+slide-11: [VISUAL -- usar adjacente com titulo extraivel]
+slide-12: Acetyl-CoA Aumento de oxaloacetato e de Acetyl-CoA acelera o Ciclo de Krebs e a produção de NADH e FADH2 Cadeia de transporte de elétrons e fosforilação oxidativa ATP Período Absortivo – Metabolismo de carboidratos
+slide-13: ATP Fosforilação oxidativa Cadeia de transporte de elétrons NADH Citrato Citrato NADH NADH Período Absortivo – Metabolismo de carboidratos
+slide-14: Citrato citosol Período Absortivo – Síntese de lipídeos
+slide-15: Ativa a síntese de ácidos graxos e inibe a carnitina-acil transferase I inibindo a degradação dos ácidos graxos recém sintetizados. Insulin Período Absortivo – Síntese de lipídeos
+slide-16: Síntese de ácidos graxos NADPH Ativa a via das pentoses-P NADP Período Absortivo – Síntese de lipídeos
+slide-17: Glicólise Piruvato Acetyl CoA e Oxaloacetato NADH e FADH2 ATP ATP e citrato Produção de AG e NADP Glicólise Pentose fosfato NADPH Período Absortivo
+slide-18: Produtos da síntese hepática com exceção do glicogênio são destinados à exportação. Ácidos graxos Triacil gliceróis Fosfolipídios Colesterol Apoproteínas ] Lipoproteínas liberadas na circulação Período Absortivo
+slide-19: Insulina Entrada de aa nos tecidos Síntese de proteínas Período Absortivo – Síntese de proteínas
+slide-20: Período Absortivo
+slide-21: Concentração plasmática de glicose, e hormônios após a ingestão de uma refeição (tempo zero)
+slide-22: Utilização da Glicose
+slide-23: Pós-absortivo: 1. Diminuição na secreção de insulina e elevação na secreção de glucagon 2. Secreção de glucagon sinaliza o estado de jejum. O principal alvo é o fígado 3. No fígado a sinalização de glucagon inibe a síntese de glicogênio e ácidos grax...
+slide-24: -↓ glicemia - Secreção de glucagon - glicogenólise - Manutenção da glicemia Metabolismo do glicogênio
+slide-25: Período Pós-absortivo Acetyl CoA ATP Acetyl CoA Ácidos graxos de cadeia longa ATP ADP AMP citrato Frutose 2,6 bifosfato AMP citrato Frutose 2,6 bifosfato ADP Glicólise Gliconeogênese
+slide-26: Fosfortutokinase 2
+slide-27: Captação de glicose feita apenas por tecidos que independem de insulina para a captação de glicose. Tecidos que tem outros receptores além do GLUT4. Cérebro, hemácias e medula renal (que oxidam apenas glicose). Músculo e tecido adiposo não captam gli...
+slide-28: Ativa a lipase hormônio sensível b-oxidação
+slide-29: Pós-absortivo – Metabolismo de Lipídeos
+slide-30: Acetil-CoA derivada da degradação dos ácidos graxos (ativa PDK4 hepática e a piruvato carboxilase). b-oxidação Acetyl- CoA gliconeogênese Inibe a piruvato desidrogenase e ativa a carboxilação do piruvato a oxaloacetato. Pós-absortivo – Metabolismo de...
+slide-31: Período Pós - Absortivo
+slide-32: Período Absortivo Período Pós-Absortivo (Jejum)
+slide-33: JEJUM Maioria dos aminiácidos se convertem a alanina e glutamina Formação de Piruvato e a-cetoglutarato
+slide-34: [VISUAL -- usar adjacente com titulo extraivel]
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Jejum Corpos cetônicos
+slide-37: Corpos Cetônicos Jejum
+slide-38: Período Pós-Absortivo (Jejum)
+slide-39: DIABETES MELLITUS DEFINIÇÃO Grupo de doenças metabólicas caracterizadas por hiperglicemia, devido a defeito na secreção de insulina, na sua ação, ou ambos. Tipo 1 – Dependente de Insulina (juvenile) Tipo 2- Não dependente de insulina (maturidade se d...
+slide-40: −Predomínio em idade < 20 anos −Deficiência absoluta de insulina (destruição auto-imune) −Indivíduo magro −Sintomas: polidipsia, poliúria, polifagia e emagrecimento −Descompensação tipo cetoacidose −Herança associada ao sist. HLA −Predomínio em idade...
+slide-41: Tipo 1 – Dependente de Insulina (juvenile) Deficiências das células beta do pâncreas. Susceptibilidade genética, reação auto-imune que destrói as células beta. Requerem : Administrações diárias de insulina Dieta rigorosa Exercícios Sobrevida pode ser...
+slide-42: Tipo 1 – Dependente de Insulina (juvenile). Semelhante ao Jejum Deficiência de insulina impede o aproveitamento de glicose Não há inibição da síntese de glucagon pela insulina Hiperglucagonemia, que agrava a hiperglicemia. Razão insulina/ glucagon ba...
+slide-43: Tipo 2- Não dependente de insulina Resistência a insulina e secreção de insulina perturbada Responsável por mais de 90% dos casos de diabetes (afeta 18% da população acima de 65 anos e geralmente ocorre em obesos). Predisposição genética. Podem ter n...
+slide-44: Inibição da entrada de glicose (músculo e tecido adiposo) Glicemia estimula a secreção de insulina porém os níveis de glicose Permanecem altos. Estimulação crônica das células beta levam à sua falência e à secreção deficiente do hormônio, Associada à...
+slide-45: DEFEITOS METABÓLICOS NA DM TIPO 2 Adaptado de De Fronzo. Diabetes 1988 Hiperglicemia RESISTÊNCIA À INSULINA Captação de glicose diminuída Pâncreas SECREÇÃO DEFICIENTE DE INSULINA Produção hepática de glicose aumentada Fígado Tecido adiposo e muscular
+slide-46: Diabetes tipo 2 desenvolve durante o tempo Pessoas que desenvolvem essa doença tem resistência a insulina vários anos antes dos níveis de insulina no sangue aumentarem. O corpo tenta compensar produzindo mais insulina. O corpo produz níveis anormais ...
+slide-47: Tratamento para o tipo 2 No começo pode ser tratada pela dieta e exercício. Diminuindo a necessidade do corpo para insulina. Antidiabéticos (hipoglicemiantes) orais tem diversas ações como: redução da produção de glicose pelo fígado, promover a absor...
+slide-48: https://www.youtube.com/watch?v=7_D5mPQ1GT8
+slide-49: Referências Imagens google images Bioquímica por L. Stryer Bioquímica Básica por Marzzoco e Torres

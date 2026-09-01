@@ -1,33 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("O que a inflamação é",
-   [Resposta do tecido *vascularizado* a qualquer estímulo lesivo — infarto, cristal e trauma inflamam sem micróbio. Protetora por projeto e lesiva por consequência, porque o arsenal não distingue parede microbiana de tecido próprio. Sem inflamação não há reparo.]),
+  ("O sinal é a razão, não a glicemia",
+   [A célula-alvo não lê a concentração de glicose: lê a proporção entre insulina e glucagon. A mesma glicemia de 5 milimolares acompanha síntese quando desce do pico da refeição e mobilização quando sobe do fundo do jejum.]),
 
-  ("Reconhecer sem nunca ter visto",
-   [Os receptores de padrão vêm prontos da linhagem germinativa e não deixam memória. Leem estruturas conservadas de micróbio (PAMP) e moléculas próprias fora de lugar (DAMP). Ficam em três endereços — plasma, membrana, citosol — e o endereço informa *onde* o agente está.]),
+  ("O fígado retém glicose pelo destino, não pela porta",
+   [O GLUT2 é constitutivo e a glicose entra por gradiente. Quem prende é a glicoquinase, de Km alto e sem inibição pelo produto: ela só trabalha em excesso, e o fosfato impede a saída.]),
 
-  ("Toll-like: o ligante segue a localização",
-   [Na superfície ficam os que leem parede e flagelo; no endossomo, os que leem ácido nucleico — reclusão que impede a leitura de ácido nucleico próprio. TLR4 precisa de CD14 e MD-2. Todos convergem em NF-κB, e como o produto é transcrição, o efeito leva horas.]),
+  ("Um fosfato comuta os dois lados do glicogênio",
+   [A PP1 ativada pela insulina desfosforila a glicogênio sintase, que liga, e a fosforilase, que desliga. O glucagon faz o inverso pelo mesmo fosfato — e bloqueia a PP1 pelo inibidor-1, para a quebra não ser desfeita.]),
 
-  ("Inflamassoma: dois sinais para uma citocina",
-   [O primeiro sinal fabrica pró-IL-1β inativa no citosol; o segundo (cristal, ATP, efluxo de K⁺, ROS) monta o NLRP3 e ativa a caspase-1, que corta o precursor. A mesma caspase corta a gasdermina D — o poro libera a citocina e mata a célula por piroptose.]),
+  ("Malonil-CoA constrói a gordura e tranca a queima",
+   [O citrato leva o carbono ao citosol e ativa a acetil-CoA carboxilase. O malonil-CoA é o tijolo da síntese e, ao mesmo tempo, inibe a carnitina-palmitoil transferase I — a porta da beta-oxidação.]),
 
-  ("A hidráulica dos sinais cardinais",
-   [Vasodilatação arteriolar dá rubor e calor; o aumento de permeabilidade na *vênula pós-capilar* dá o edema. A perda de plasma concentra hemácias e freia o fluxo, e é essa estase que joga o leucócito contra a parede. A dor vem de bradicinina somada à PGE₂, que baixa o limiar do nociceptor.]),
+  ("A frutose-2,6-bifosfato decide a direção do fluxo",
+   [Ela não é intermediário de via nenhuma: ativa a fosfofrutoquinase-1 e inibe a frutose-1,6-bifosfatase. Como a enzima que a produz e a que a destrói são dois sítios da mesma proteína, uma fosforilação inverte o sentido.]),
 
-  ("Sair do vaso em quatro tempos",
-   [A selectina freia mas não estaciona. A quimiocina presa ao glicocálix não puxa a célula para fora: ela estende a integrina, que agarra o ICAM. Segue adesão firme, diapedese por PECAM entre células endoteliais, e caminhada pelo gradiente de IL-8, C5a e LTB₄ já no tecido.]),
+  ("A assimetria entre tecidos torna o jejum viável",
+   [Só músculo e adiposo dependem de insulina para captar; cérebro, hemácia e medula renal usam transportadores de Km baixo e seguem captando. E falta ao miócito a glicose-6-fosfatase: quem devolve glicose ao sangue é o fígado.]),
 
-  ("Matar custa oxidante",
-   [Opsonizado por C3b e IgG, o alvo é engolido; a NADPH oxidase gera superóxido, a dismutação dá peróxido, a mieloperoxidase o converte em hipoclorito. Falhar no primeiro passo é a doença granulomatosa crônica. Neutrófilo nas primeiras horas, macrófago em 12–48 h, linfócito e eosinófilo após 72 h.]),
+  ("A gordura autoriza a gliconeogênese; o carbono vem do músculo",
+   [O acetil-CoA da beta-oxidação inibe a piruvato desidrogenase e ativa a piruvato carboxilase — fornece ATP e sinal, nunca carbono. O carbono novo sai do músculo como alanina e glutamina, atóxicas.]),
 
-  ("Mediadores organizados pelo relógio",
-   [O que estava no grânulo age em segundos (histamina); o cortado de precursor plasmático, em minutos (bradicinina, C3a, C5a); o vindo de lipídio de membrana, em minutos a horas (prostanoides, leucotrienos); o que passa pelo núcleo, em horas (IL-1, IL-6, TNF-α).]),
+  ("Corpo cetônico existe para poupar proteína",
+   [O fígado converte o excesso de acetil-CoA em acetoacetato e beta-hidroxibutirato, que cruzam a barreira hematoencefálica. Como lhe falta a transferase que os reativa, ele não consome o que produz.]),
 
-  ("Complemento e araquidônico: onde a farmacologia entra",
-   [Três portas convergem na C3 convertase — C3b fica e opsoniza, C3a e C5a viajam e inflamam. Na via lipídica a fosfolipase A₂ é o passo limitante: o AINE bloqueia só a ciclo-oxigenase e desvia substrato para leucotrieno; o corticoide age acima e derruba os dois braços.]),
+  ("Tipo 1 é o jejum executado sobre sangue hiperglicêmico",
+   [Sem insulina, a captação para e o fígado continua produzindo glicose; sem freio parácrino, o glucagon sobe e agrava. A lipólise sem contrapeso leva a cetogênese sem teto, e daí a acidose com ânion gap.]),
 
-  ("Parar é uma ação",
-   [A PGE₂ acumulada liga a 15-lipoxigenase e troca LTB₄ por lipoxinas, que bloqueiam o recrutamento. O neutrófilo entra em apoptose e é engolido inteiro pelo macrófago; essa eferocitose o reprograma para IL-10 e TGF-β. Matriz preservada, restituição integral; matriz destruída, fibrose.]),
+  ("Tipo 2 soma três defeitos e descompensa sem cetose",
+   [Resistência pós-receptor, produção hepática que não desliga e célula beta que enfim falha. A insulina residual ainda segura a lipólise, e por isso a descompensação é hiperosmolar. A glicação produz a lesão crônica.]),
 ))

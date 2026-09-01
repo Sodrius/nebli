@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- imuno-07-inflamacao-inicio-resolucao | Gerado por gerar_main.py
+// MAIN.TYP -- biomol-06-integracao-metabolica-ii | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Inflamação: início e resolução",
-  "Imunologia",
+  "Integração metabólica II",
+  "Bioquímica",
   (
-    ("Disciplina", "Imunologia"),
-    ("Onde estudar", "Abbas — Imunologia Celular e Molecular (cap. 2 e 4) · Robbins — Patologia Básica (cap. 2) · Murphy — Janeway's Imunobiologia (cap. 2 e 3)"),
+    ("Disciplina", "Bioquímica — estados alimentares"),
+    ("Onde estudar", "Marzzoco & Torres — Bioquímica Básica (integração do metabolismo) · Stryer — Bioquímica (integração metabólica e diabetes) · Lehninger — Princípios de Bioquímica (regulação hormonal do metabolismo de combustíveis)"),
   ),
 )
 
@@ -22,31 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — Reconhecer o perigo antes de reagir", (
-      "1.1 O que é, e o custo",
-      "1.2 Padrões em três endereços",
-      "1.4 Inflamassoma, IL-1β e piroptose",
+    ("PARTE I — O estado alimentado", (
+      "1.1 A razão insulina/glucagon",
+      "1.2 Glicoquinase e retenção hepática",
+      "1.4 Citrato, malonil-CoA e gordura",
     )),
-    ("PARTE II — Abrir a barreira e trazer a célula", (
-      "2.1 Sequência vascular e sinais",
-      "2.3 Rolar, parar, atravessar",
-      "2.4 Fagocitose e ordem de chegada",
+    ("PARTE II — O período pós-absortivo", (
+      "2.1 Glucagon, cAMP e trava dupla",
+      "2.2 Frutose-2,6-bifosfato decide",
+      "2.4 Gordura autoriza a gliconeogênese",
     )),
-    ("PARTE III — Mediadores, e quem manda parar", (
-      "3.2 Fator XII e quatro cascatas",
-      "3.4 Araquidônico e os fármacos",
-      "3.6 Resolução é programa ativo",
-    )),
-  )),
-  ("Etapa 2 — 30 objetivas", (
-    (none, (
-      "Consolidação (Q01–Q08) · Integração (Q09–Q25) · Aplicação (Q26–Q30)",
-      "Múltipla escolha, certo/errado e assinale a incorreta",
-    )),
-  )),
-  ("Etapa 3 — 5 discursivas", (
-    (none, (
-      "Cinética · estase · inflamassoma · farmacologia · resolução",
+    ("PARTE III — Jejum e sinalização quebrada", (
+      "3.1 Alanina, glutamina e Cori",
+      "3.2 Corpos cetônicos poupam proteína",
+      "3.3 Diabetes: o jejum permanente",
     )),
   )),
 ))
@@ -70,38 +59,38 @@
 #gabarito-page((
   ("Consolidação (Q01–Q08)", (
     ("01", "C"),
-    ("02", "A"),
-    ("03", "CECC"),
-    ("04", "D"),
-    ("05", "ECCE"),
-    ("06", "B"),
-    ("07", "CCEC"),
-    ("08", "E"),
+    ("02", "E"),
+    ("03", "ECCE"),
+    ("04", "B"),
+    ("05", "D"),
+    ("06", "CCEC"),
+    ("07", "A"),
+    ("08", "D"),
   )),
   ("Integração (Q09–Q25)", (
-    ("09", "C"),
-    ("10", "CEEC"),
-    ("11", "A"),
-    ("12", "D"),
-    ("13", "CCCE"),
+    ("09", "E"),
+    ("10", "CECC"),
+    ("11", "B"),
+    ("12", "A"),
+    ("13", "CEEC"),
     ("14", "C"),
-    ("15", "B"),
-    ("16", "ECCC"),
-    ("17", "E"),
-    ("18", "A"),
-    ("19", "CCEE"),
-    ("20", "D"),
-    ("21", "C"),
-    ("22", "EECC"),
-    ("23", "A"),
-    ("24", "D"),
-    ("25", "CEEE"),
+    ("15", "D"),
+    ("16", "CCEE"),
+    ("17", "A"),
+    ("18", "E"),
+    ("19", "ECCC"),
+    ("20", "C"),
+    ("21", "A"),
+    ("22", "CCEE"),
+    ("23", "E"),
+    ("24", "B"),
+    ("25", "CEEC"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "B"),
-    ("27", "E"),
-    ("28", "EECE"),
-    ("29", "A"),
-    ("30", "C"),
+    ("26", "D"),
+    ("27", "CEEE"),
+    ("28", "A"),
+    ("29", "C"),
+    ("30", "ECCE"),
   )),
 ))

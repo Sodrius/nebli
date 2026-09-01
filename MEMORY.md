@@ -363,3 +363,6 @@ Template ativo: `typst-template/nebli_v2_apostila.typ` (monolítico, ~42 KB). Pa
 - **`MEMORY.md` (este arquivo)** absorveu `pendências de melhora.md` e versão compacta do `CHANGELOG_CLAUDE.md`. Versão completa do changelog (619 linhas) preservada em `backups/pre-faxina-2026-05-29/raiz/`.
 - **ARCHIVE.md deletado** em 2026-05-29 (esqueleto vazio, nunca acionado).
 - **FILOSOFIA.md deletado** em 2026-05-29 (congelado desde 2026-05-04, conteúdo já migrado).
+
+### 2026-09-01 · Resumo `biomol-06-integracao-metabolica-ii` (UC03 · BQ/BM · P2)
+Gerado a partir do deck do professor (49 slides, "Integração Metabólica 2 — Estados Alimentares"), a pedido de Davi, "num nível um pouco acima do da prova" → `profundidade: fundo`. 39 páginas · E1 17 páginas / 6.593 palavras / 12 subtópicos · 15 figuras do próprio deck · 30 objetivas (8/17/5, 10 C/E, 3 "incorreta") + 5 discursivas. Calibração UC03 aplicada (8 subquestões, 2017-2025). Paridade Q01-Q30 sem FAIL na primeira calibração. Deck-aula (passo 11 do `/resumo`) NÃO rodou: sessão remota não alcança o AnkiConnect local (`INFRA-REMOTO.md`).
