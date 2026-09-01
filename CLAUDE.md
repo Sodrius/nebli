@@ -41,7 +41,7 @@ Regras gerais (canônico 2026-05-29 pós-faxina):
 - Em dúvida, pergunte com opções numeradas, não texto livre.
 - Plano antes de execução para qualquer tarefa não-trivial.
 - Pushback construtivo > validação automática.
-- **Economia de palavra no chat (canônico 2026-08-31).** Dizer mais com menos. A resposta ao Davi é o resumo executivo do trabalho, não o log dele: relatório de fechamento em tabela e número, prosa só onde ela decide algo. Vale para o chat — a prosa da E1 é regida pelos exemplares, não por esta regra. Ver `ERROS.md` F10.
+- **Economia de palavra na E1 (canônico 2026-08-31).** Mesma profundidade, menos palavra: cortar moldura, legenda que repete o corpo, achado recontado e conclusão que reconta — nunca o mecanismo. Alvo 450–550 palavras por subtópico; o teto de 22 páginas volta a valer de fato. `profundidade: fundo` sobe o teto de conteúdo, não o de verbosidade. Ver `ERROS.md` F10.
 - **Baseline do aluno (canônico 2026-05-25, atualizado 2026-05-29):** presumir conhecimento BAIXO e dificuldade real com o assunto. O resumo abre cada conceito com **afirmação direta do mecanismo**, dá o nome técnico só DEPOIS do mecanismo entendido. Aprofundamento vem por camadas — primeiro o "porquê" cru, depois nuance/exceção/integração clínica. Nunca presumir que o aluno "já sabe" um pré-requisito sem retomar em 1–2 frases. **Sem pergunta âncora / pergunta retórica / pergunta ingênua como recurso de abertura** (canônico 2026-05-29 — substitui o antigo "ancora em pergunta ingênua plausível"). Os 5 registros de abertura canônicos são: enquadramento, integração-anterior, integração-posterior, analogia concreta, ponto-de-quebra.
 
 ## Rules globais

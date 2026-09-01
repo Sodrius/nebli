@@ -273,17 +273,19 @@ Regras completas em `flashcards/_REGRAS.md`. Ver § Flashcards em `ROLES.md`.
 
 Caminhos viáveis (ordem de risco crescente): (1) manter fundido na sessão principal (padrão desde 2026-05-26); (2) migrar REDATOR-E1 para Sonnet 4.6 (testa hipótese, voz pode degradar); (3) só QUESTIONADOR vira Sonnet, REDATOR permanece fundido. Re-spawnar com prompts diferentes NÃO resolve — é determinístico no nível modelo+tool.
 
-### F10. Economia de palavra no chat
+### F10. Economia de palavra na E1
 
-**Observado (Davi, 2026-08-31):** *"você tem escrito demais ora falar pouca coisa, dá pra falar mais com menos palavras."* Dito no fechamento do resumo de inflamação, cujo relatório final tinha ~1.100 palavras para entregar meia dúzia de números.
+**Observado (Davi, 2026-08-31):** *"você tem escrito demais ora falar pouca coisa, dá pra falar mais com menos palavras."* Dito sobre a **E1** do resumo de inflamação — 10.547 palavras, 25 páginas contra o teto de 22, 660 palavras por subtópico. O chat está bom; o que inflou foi a apostila.
 
-**A regra.** A resposta ao Davi é o **resumo executivo** do trabalho, não o log dele. Ele já sabe o que pediu; o que ele precisa é do resultado, do que quebrou e do que decidir.
+**A regra.** Mesma profundidade, menos palavra. Não é cortar mecanismo — é cortar o que não é mecanismo. O `profundidade: fundo` sobe o teto de *conteúdo*, nunca o de *verbosidade*.
 
-**Como fica na prática:**
-- **Tabela e número no lugar de parágrafo.** Ratio, contagem, cobertura e nota já são a informação — não precisam de frase de apresentação nem de comentário depois.
-- **Um relatório de fechamento cabe em ~300 palavras.** Os artefatos auditáveis (ratio Q01-Q30, tabela de figuras, subtópico→questões, índice de completude) continuam **obrigatórios** — o que encolhe é a prosa em volta deles.
-- **Não narrar o processo.** Passo que deu certo não vira parágrafo; ele vira uma linha ou some. Só o que quebrou, o que ficou de fora e o que exige decisão do Davi merecem prosa.
-- **Não repetir o que a tabela já disse.** Se a linha diz `20/20 PASS`, não existe frase "todas as vinte passaram".
-- **Uma pergunta por vez, no fim.** Nada de oferecer três caminhos alternativos que ninguém pediu.
+**Os cinco desperdícios a caçar antes de fechar a E1:**
+1. **Moldura antes do conteúdo.** Parágrafo que anuncia o que o subtópico vai fazer ("aqui está o problema que o sistema precisa resolver…") antes de resolvê-lo. Abrir já no mecanismo — é o que os 5 registros canônicos pedem.
+2. **Legenda que repete o corpo.** A legenda dirige o olhar para o que o texto *não* disse; se ela reconta o parágrafo, uma das duas some.
+3. **Repetição do mesmo achado em pontos diferentes.** Se a arquitetura de tempo dos mediadores já foi montada, as reaparições dela são meia frase de retomada, não o argumento inteiro de novo.
+4. **Conclusão que reconta.** O `#conclusao-box` amarra em 4 camadas; ele não é um segundo Resumindo. Recontar PARTE por PARTE é gordura.
+5. **Duas frases onde uma cabe.** Reformulação ("ou seja", "dito de outro modo") vale 2 ou 3 vezes no resumo inteiro (Categoria 17, manobra 6) — acima disso vira tique.
 
-**Escopo.** Vale para o **chat**. A prosa da E1, do Resumindo e do pré-aula é governada pelo `EXEMPLARES.md` e pela missão de ensinar bem — ali completude vence concisão (`CLAUDE.md` § Missão). Confundir os dois escopos é o erro a evitar nos dois sentidos: chat inflado, ou E1 amputada em nome da economia.
+**Réguas.** Alvo **450–550 palavras por subtópico** (era ~660 na corrida que gerou este feedback). O **teto de 22 páginas volta a ser levado a sério**: estourá-lo é sinal de gordura, não de profundidade — checar os cinco desperdícios acima antes de culpar o dial. Na dúvida entre cortar mecanismo e cortar moldura, corta moldura; se ainda não couber, é aí que a `§ Missão` decide (ensinar bem vence o teto) — e a quebra vai declarada no relatório.
+
+**O que a regra NÃO autoriza.** Tirar o "porquê", encurtar cadeia causal, virar bullet, ou trocar prosa por lista para economizar linha. O alvo é o texto que não ensina nada; o mecanismo é intocável.
