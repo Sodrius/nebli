@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- imuno-07-inflamacao-inicio-resolucao | Gerado por gerar_main.py
+// MAIN.TYP -- micro-06-genetica-bacteriana | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Inflamação: início e resolução",
-  "Imunologia",
+  "Genética bacteriana",
+  "Microbiologia",
   (
-    ("Disciplina", "Imunologia"),
-    ("Onde estudar", "Abbas — Imunologia Celular e Molecular (cap. 2 e 4) · Robbins — Patologia Básica (cap. 2) · Murphy — Janeway's Imunobiologia (cap. 2 e 3)"),
+    ("Disciplina", "Microbiologia"),
+    ("Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Brock — Biologia dos Micro-organismos (cap. 9–11) · Snyder & Champness — Molecular Genetics of Bacteria"),
   ),
 )
 
@@ -22,31 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — Reconhecer o perigo antes de reagir", (
-      "1.1 O que é, e o custo",
-      "1.2 Padrões em três endereços",
-      "1.4 Inflamassoma, IL-1β e piroptose",
+    ("PARTE I — O genoma bacteriano", (
+      "1.1 Onde fica o DNA bacteriano",
+      "1.3 Plasmídeo: replicon acessório",
+      "1.4 Replicação e partição",
     )),
-    ("PARTE II — Abrir a barreira e trazer a célula", (
-      "2.1 Sequência vascular e sinais",
-      "2.3 Rolar, parar, atravessar",
-      "2.4 Fagocitose e ordem de chegada",
+    ("PARTE II — Mutação e reparo", (
+      "2.1 O erro que a química impõe",
+      "2.3 Destinos do DNA lesado",
+      "2.4 Quando reparar deixa de servir",
     )),
-    ("PARTE III — Mediadores, e quem manda parar", (
-      "3.2 Fator XII e quatro cascatas",
-      "3.4 Araquidônico e os fármacos",
-      "3.6 Resolução é programa ativo",
-    )),
-  )),
-  ("Etapa 2 — 30 objetivas", (
-    (none, (
-      "Consolidação (Q01–Q08) · Integração (Q09–Q25) · Aplicação (Q26–Q30)",
-      "Múltipla escolha, certo/errado e assinale a incorreta",
-    )),
-  )),
-  ("Etapa 3 — 5 discursivas", (
-    (none, (
-      "Cinética · estase · inflamassoma · farmacologia · resolução",
+    ("PARTE III — Recombinação", (
+      "3.1 Transformação: DNA nu",
+      "3.2 Conjugação: contato e Hfr",
+      "3.4 Transposons e ilhas",
     )),
   )),
 ))
@@ -69,39 +58,39 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q08)", (
-    ("01", "C"),
-    ("02", "A"),
-    ("03", "CECC"),
-    ("04", "D"),
-    ("05", "ECCE"),
-    ("06", "B"),
-    ("07", "CCEC"),
-    ("08", "E"),
+    ("01", "D"),
+    ("02", "CEEC"),
+    ("03", "B"),
+    ("04", "B"),
+    ("05", "E"),
+    ("06", "CCEE"),
+    ("07", "A"),
+    ("08", "C"),
   )),
   ("Integração (Q09–Q25)", (
-    ("09", "C"),
-    ("10", "CEEC"),
-    ("11", "A"),
+    ("09", "E"),
+    ("10", "CEEE"),
+    ("11", "CECC"),
     ("12", "D"),
-    ("13", "CCCE"),
-    ("14", "C"),
-    ("15", "B"),
-    ("16", "ECCC"),
-    ("17", "E"),
-    ("18", "A"),
-    ("19", "CCEE"),
-    ("20", "D"),
-    ("21", "C"),
-    ("22", "EECC"),
+    ("13", "D"),
+    ("14", "ECCE"),
+    ("15", "A"),
+    ("16", "CCCE"),
+    ("17", "C"),
+    ("18", "B"),
+    ("19", "ECEE"),
+    ("20", "E"),
+    ("21", "E"),
+    ("22", "ECCC"),
     ("23", "A"),
-    ("24", "D"),
-    ("25", "CEEE"),
+    ("24", "CCEC"),
+    ("25", "C"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "B"),
-    ("27", "E"),
+    ("26", "D"),
+    ("27", "B"),
     ("28", "EECE"),
-    ("29", "A"),
-    ("30", "C"),
+    ("29", "C"),
+    ("30", "E"),
   )),
 ))

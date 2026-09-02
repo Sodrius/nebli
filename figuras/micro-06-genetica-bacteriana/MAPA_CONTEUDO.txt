@@ -1,0 +1,815 @@
+# MAPA_CONTEUDO -- micro-06-genetica-bacteriana
+# Slide-fonte: Genetica Bacteriana (Profa. Elisabeth Vicente, ICB-USP) -- transcricao da aula
+# Cada slide-XX.png = imagem nativa 1440x900 do slide XX; o texto abaixo e a
+# transcricao da fala da professora sobre AQUELE slide (pagina seguinte do PDF-fonte).
+
+## slide-01.png
+Olá, bom dia, boa tarde, boa noite a todos. Eu sou a professora Elisabeth Vicente, do ICB-USP, e o
+tema da nossa aula de hoje é genética bacteriana. Então, vamos falar primeiro sobre quem são os
+atores desse teatro da genética bacteriana, quem são os participantes, e depois como essa cena se
+desenvolve.
+
+## slide-02.png
+Vamos começar discutindo qual seria a natureza do material genético. Essa preocupação de qual era a
+natureza do material genético foi uma preocupação muito grande que assolou os pesquisadores no
+começo do século XX, por volta de 1900, porque se pensava que o material genético era constituído
+pelas proteínas. As proteínas deveriam ser o material genético, pois são formadas por 20
+aminoácidos, 20 bloquinhos, então se imaginava que poderiam compor um vocabulário mais adequado para
+ser informacional para a vida. Na aula de hoje, veremos os experimentos que demonstraram que a
+natureza do material genético, na verdade, é o DNA. Uma vez que foi descoberto que a natureza do
+material genético é o DNA, a pergunta é como ele está organizado. E até hoje essa pergunta ainda
+continua sendo detalhada. Como ele é organizado nos procariontes, incluindo as bactérias e as
+arqueias. Nos cursos da área médica, nos preocupamos com as bactérias, e de vez em quando falamos
+algo sobre arqueias. E nos organismos eucarióticos, como é que esse material genético está
+organizado? Essa é a grande pergunta.
+
+## slide-03.png
+Nos procariontes, sabemos que o DNA está organizado dentro do citoplasma das células. Procarionte
+quer dizer que não tem núcleo verdadeiro, o DNA está dentro das células. Já nos eucariontes, o DNA
+está dentro do núcleo, uma organela à parte, o DNA está todo contido ali. Normalmente, o DNA dos
+procariontes, na maioria dos casos, é de ﬁta dupla e frequentemente tem a estrutura circular, mas
+pode ser linear. Nos eucariontes, o DNA cromossomal está no núcleo, é sempre de ﬁta dupla e linear.
+Além do DNA cromossomal, as bactérias, os procariontes, podem ter um outro DNA chamado
+extracromossômico, que está fora do cromossomo, que é o DNA plasmidial, ou simplesmente plasmídio. O
+DNA plasmidial codiﬁca funções extras. O que seriam funções extras? A bactéria que adquire um
+plasmídio pode adquirir resistência a um antibiótico, resistência a drogas, resistência a um metal
+pesado, capacidade de fazer adesão à mucosa, invasão aos tecidos, fermentação de açúcares
+diferentes. Por exemplo, a E. coli é capaz de fermentar glicose e lactose, mas pode passar a
+fermentar outros açúcares mais complexos se adquirir algum plasmídio que lhe conﬁra essa capacidade.
+Quando a bactéria adquire um plasmídio, esse plasmídio, em sua sequência, codiﬁca um RNA mensageiro,
+que será traduzido em uma proteína, e essa proteína terá uma função enzimática ou estrutural,
+conferindo essas novas funções à bactéria. No caso da resistência a drogas, a expressão dessa
+proteína pode ser uma enzima que, exportada para fora da célula, levará à lise do antibiótico. No
+caso de adesão e invasão, são proteínas que a bactéria passará a expressar, conferindo-lhe essas
+características. São fatores de virulência que veremos na aula de patogenicidade. Se a bactéria
+adquirir um plasmídio, ela adquire uma ferramenta extra e uma capacidade adicional, além daquela que
+já está codiﬁcada no cromossomo. Se a bactéria perder esse plasmídio ela continua sendo ela mesma,
+só perde essa capacidade adicional que ela tinha. A bactéria, como E. coli, Salmonella, Shigella,
+Staphylococcus, é identiﬁcada como sendo ela pelo que está codiﬁcado no seu DNA cromossomal. A
+identiﬁcação da bactéria se baseia no que está escrito no DNA cromossomal. Nos eucariontes, além do
+DNA cromossomal, podem existir outras categorias de DNA, como o DNA mitocondrial e o DNA de
+cloroplastos nas plantas. Também podem ter DNA plasmidial, como as leveduras. Mas isso não compete a
+nossa discussão agora.
+
+## slide-04.png
+Material genético nas bactérias: estamos falando da organização. Existem bactérias com genomas
+extremamente pequenos, como o Mycoplasma genitalium, com 0,58 vezes 10⁶ pares de bases e 480 genes,
+DNA cromossomal de ﬁta dupla circular. A variação do tamanho do DNA cromossomal é grande, de 0,5x10⁶
+até 8x10⁶ pares de bases. Por exemplo, Mycoplasma tem 0,6, Staphylococcus aureus tem 2,8,
+Clostridium tem 3,6, E. coli tem 4,67, Mycobacterium tem 4,4, Bacillus cereus tem 5,7, e
+Streptomyces, que produz muitos antibióticos, tem 8 vezes 10⁶ pares de bases. A variação do número
+de genes também é signiﬁcativa. Bactérias com genomas pequenos codiﬁcam cerca de 500 genes, enquanto
+as de vida livre geralmente têm entre 2 mil e 5 mil genes. A maioria tem DNA circular de ﬁta dupla,
+mas algumas têm DNA de ﬁta dupla linear e plasmídios lineares. Bactérias com genomas grandes, como
+Streptomyces, têm DNA de ﬁta dupla linear. Comparando esses genomas bacterianos com o genoma da
+Saccharomyces cerevisiae, a levedura da cerveja, do pão e do vinho, ela tem 1,2 vezes 10⁷ pares de
+bases, 16 cromossomos lineares e vários plasmídios circulares. O Homo sapiens, o ser humano, tem
+3,2x10⁹ pares de bases e entre 60 mil a 100 mil genes.
+
+## slide-05.png
+Vamos para o item sobre a replicação do material genético bacteriano. Como as bactérias replicam seu
+material genético? Então você tem aqui um bacilo, o DNA roxinho que está se dividindo, durante a
+divisão celular, a ﬁta de DNA se divide a partir de um ponto central, o mesossomo septal. Nessa
+posição cada ﬁta ﬁca de um lado. A replicação é bidirecional, e no ﬁnal da divisão, as duas
+bactérias têm uma cópia da ﬁta antiga e uma cópia da ﬁta nova, resultando em células idênticas.
+
+## slide-06.png
+Se a célula bacteriana tem plasmídio, o cromossomo se replica como mostrado, e os plasmídios se
+distribuem entre as células. Eles tem origem de replicação autônoma, por isso são chamados de
+replicons, e se dividem entre as células na separação do conteúdo citoplasmático. Existem plasmídios
+de baixo número de cópias e plasmídios com número maior de cópias. Plasmídios de baixo número de
+cópias podem ser perdidos durante a divisão celular, resultando em uma população onde algumas
+células perdem o plasmídio. Plasmídeos de alto número de cópias geralmente são divididos entre as
+células. Como você consegue identiﬁcar as populações que perderam os plasmídios? Porque esses
+plasmídeos podem carregar resistência a antibióticos, por exemplo, resistência à ampicilina, daí na
+divisão celular as duas cópias ﬁcaram em uma única célula, e quando você semear as duas populações
+em meio com antibiótico e meio sem antibiótico, você vai ver uma colônia maior no meio sem
+antibiótico que no meio com antibiótico. A microscopia eletrônica de transmissão mostra a extensão
+do plasmídio, comparando seu tamanho. No passado, essa ferramenta era muito usada para comparar o
+tamanho dos plasmídios.
+
+## slide-07.png
+Voltando à questão da genética, estamos convencidos de que o DNA é o material genético e que ele
+está nas várias células. A grande pergunta é como ocorre a auto-perpetuação das espécies e, ao mesmo
+tempo, a variação genética. Existem regras para que a variação aconteça? Vamos discutir os
+mecanismos de variação genética nas bactérias, que podem ocorrer por mutação ou recombinação.
+
+## slide-08.png
+Os mecanismos de variação genética só podem acontecer de duas formas: mutação ou recombinação. Se
+você está de frente com uma E. coli e esperava que ela fosse de um jeito, aí você está diante de um
+isolado que está se apresentando de modo diferente. Então você pergunta assim: como é que esse
+isolado que está se apresentando de modo diferente foi formado? Então isso só pode ter acontecido em
+decorrência de dois mecanismos: ou de mutação ou de recombinação, não tem outra possibilidade. Então
+se alguém te perguntar como é que foi que isso aconteceu, você vai falar: foi recombinação ou foi
+mutação. E acertou, 100%, nota 10 para você.
+
+## slide-09.png
+Beleza, então vamos começar olhando a mutação. Vamos olhar a mutação que está ocorrendo em todos os
+seres vivos e os mecanismos de reparo de DNA.
+
+## slide-10.png
+Você vai ver que a mutação é um fenômeno que pode ocorrer por uma modiﬁcação súbita na sequência do
+DNA: A, T, C, G, G, G. Aí você compara a mesma região em outro isolado bacteriano e vê que está
+TCGGG, está TCCCC, está diferente, mudou a sequência de letrinhas. Então isso é a mutação, é a
+sequência molecular. A mutação vem sendo explicada, agora a nível molecular. Vamos explicar direto:
+a nível molecular signiﬁca uma alteração da sequência de bases do DNA. E ela pode ocorrer por um
+fenômeno espontâneo, que a gente chamava espontâneo, e até hoje ainda chama espontâneo. E assim,
+espontâneo, parece que aconteceu sem querer, foi nada. Mas como é que ocorre espontâneo? Espontâneo
+é assim: se durante a replicação do DNA, nós temos aí, a bioquímica explica para nós a replicação do
+DNA, tem a DNA polimerase, que é a enzima que está fazendo em bactéria, em eucarioto, são
+diferentes, mas é a enzima que faz a replicação do DNA, DNA polimerase, DNA polimerase bacteriana,
+são vários de um tipo, de eucarioto de outro, isso é um pouco diferente, mas DNA polimerase. A DNA
+polimerase tem atividade redatora, ou seja, ela é processiva, ela vai avançando na ﬁta, ela é uma
+ﬁta móvel, ela vai botando as bases complementares processivamente, mas à medida que ela coloca um
+nucleotídeo, ela olha se colocou certo. Se está errado, ela volta. Ela tem atividade redatora no
+sentido contrário da síntese. Ela troca aquele e põe outro. Mas mesmo com essa atividade redatora
+que ela tem, vamos pensar que a cada 1 em 10^8, na média, ela coloca uma base errada, com tudo isso
+daí. E por que a DNA polimerase coloca um erro? Em 1 em 10^8, ela insere uma base errada? Ela erra?
+O que ela tem, meu Deus do céu? O que acontece é o seguinte: as bases nitrogenadas do DNA estão em
+água. Dentro da célula tem água. E aí existe um equilíbrio tautomérico, as bases se hidratam e aí
+formam um equilíbrio bioquímico da tautomeria e elas mudam a conformação. Com a conformação da base
+alterada, vai fazer com que a base que se pareia não pareia corretamente. Então, aqui tem um C. Ela
+teria que colocar um G, mas quando ela olha para aquele C, aquele C está diferente, ele está
+hidratado, está alterado. Então, ela vê errado, pensa que é outra base e coloca uma base errada.
+Isso vai acontecer com uma frequência muito baixa, mas vai acabar acontecendo e vai levar ao que se
+chama de mutações espontâneas. Vai ocorrer. E a gente vai dizer: nossa, que desgraça, eu pensava que
+o DNA era uma molécula ﬁrme, era uma molécula rígida, que era copiada, igual xerox, assim, sem erro.
+Isso daí vai levar a uma instabilidade muito grande na formação genética. Na verdade, isso daí é uma
+coisa selecionada pela própria evolução, porque a própria evolução selecionou essa molécula, o DNA,
+com essa possibilidade de cópia, com esse baixíssimo erro, mas aí permite o surgimento de variantes.
+E essas variantes, algumas podem ser meio capenga. Então, imagina uma variante em uma corrida, você
+tem ali um corredor que sofreu, digamos assim, que a bactéria é um corredor em uma corrida, uma
+enzima lá dela, né? Então, essa enzima, ela não está funcionando tão bem, não é? Então, aí as outras
+bactérias que não sofreram mutações, têm aquele passo melhorado, têm vantagem, têm metabolismo mais
+rápido, andam mais rápido, correm mais rápido. Mas naquela população bacteriana toda, naquele tubo
+de ensaio, naquele monte de bactéria que a gente tem, naquela população toda das bactérias várias,
+você vai ter ali, por ml 10^8, 10^9 células, você vai ter uma celulinha ali, um mutante ali que está
+com a enzima muito melhor e ele vai ganhar a corrida. E, ao longo do tempo, ele vai ser selecionado.
+E é assim que a evolução vai avançando, sempre no sentido de propiciar surgimento de mutantes com
+vantagens. Então, a mutação espontânea é um fenômeno natural que propicia o surgimento de mutantes
+bem adaptados à situação. Mutações induzidas. Mutações induzidas são aquelas que ocorrem em
+decorrência de um agente mutagênico, um agente que incide sob as cadeias do DNA e provoca alteração.
+
+## slide-11.png
+Então, um agente mutagênico, ou a gente chama também de genotóxico, ele pode bater no DNA e produzir
+uma alteração. Dentre os agentes mutagênicos, nós devemos considerar os mutagênicos físicos, que nós
+temos aí as radiações. Então, nós temos a radiação ultravioleta. A radiação ultravioleta, quando
+incide nas bases DNA, ela provoca o surgimento de dímeros de pirimidina.
+
+## slide-12.png
+Dímero de pirimidina é timina-timina, timina-citosina, citosina- citosina. Quando formam esses
+dímeros, a radiação incide na cadeia, olha lá, formam-se os dímeros, essas cadeias aqui estão mais
+bem desenhadas, aqui nesse desenho está mais detalhado. Então forma-se uma ligação covalente entre
+pirimidinas adjacentes, forma uma ligação covalente entre elas, isso vai levar a uma distorção da
+cadeia, que essa base deixa de parear com a outra lá do lado, e a cadeia vai dar um dobramento, vai
+fazer um cotovelo assim dobrado. Aí, se a replicação começar, quando a replicação começa, quando vai
+copiar essa ﬁta, não consegue copiar a ﬁta que tem esse dímero de pirimidina, tá? Isso é radiação
+ultravioleta, que faz só esse tipo de lesão.
+
+## slide-13.png
+A radiação ionizante, essa daí já provoca danos mais diversos. Ela vai provocar quebras na cadeia,
+você tem a cadeia de DNA, é uma dupla ﬁta, pode quebrar numa ﬁta só, ou pode quebrar as duas ﬁtas,
+romper completamente a dupla ﬁta do DNA. Então, vai levar a vários tipos de lesões. Calor,
+temperatura elevada, também vai provocar vários, o calor provoca vários tipos de lesões. Então,
+agentes físicos são esses. A radiação ionizante, gente, raio-X, raio-gama, aquele raio-X lá que você
+tira é uma radiação ionizante, provoca quebra de cadeia dupla do DNA. Se a pessoa for submetida
+muitas vezes à radiação-X, leva a quebra de cadeia dupla no alvo que pegou. Ah, esqueci de
+mencionar, mas vou mencionar porque dá para mencionar agora, porque quando a gente fala de agente
+mutagênico, a gente se preocupa só com o DNA, ou se preocupa com esse alvo do DNA. Porque se o
+agente mutagênico alvejar proteína, ele alveja proteína, lipídio, todos os componentes celulares.
+Mas se o DNA está lá, é perfeito, ele pode codiﬁcar o DNA mensageiro e ressintetizar aquela
+molécula. Agora, se o próprio DNA for alvejado, aí a situação pode complicar de várias maneiras,
+como a gente já vai ver. Mutagênicos químicos, nós temos as moléculas planares, uma quantidade
+bastante grande de molécula planar. O que é uma molécula planar? É como se fosse uma folha, e você
+tem a dupla ﬁta DNA, como se fosse uma escada serpente, e você pega uma molécula planar, essa folha,
+e ela pode entrar ali no meio, de uma das cadeias. E se ela entrar no meio de uma das cadeias, a DNA
+polimerase vem passando para tentar replicar, e ela tenta colocar as bases, e essa planária entrou
+bem aqui. Então, na hora que vai copiar, a folha está na frente e a DNA polimerase não encontra nada
+para replicar. Então, a síntese é interrompida nesse ponto, chega aqui, ela não consegue achar qual
+é a base complementar, a síntese para aqui, retoma depois… mas ela vai fazendo isso, vai fazendo
+isso, vai fazendo isso. Para, continua. Para, continua. Interrompe a síntese e retoma a síntese. Aí
+depois tem outra interrupção mais acima. Só que chega uma hora que ﬁca tantas interrupções que isso
+tem problema. A gente já vai ver. Prometo de etídeo, dodecil sulfato de sódio, SDS, aquele que a
+gente checa o detergente que tem na pasta de dente, mas ele não chega a ser tóxico nessa quantidade.
+Agentes alquilantes, metilmetanosulfonato, EMS. Agentes alquilantes são aqueles agentes que colocam
+radicais alquila ou alquila. Etila ou metila no DNA, se liga covalentemente ao DNA. Água oxigenada
+provoca vários danos na cadeia do DNA, oxida, muitos danos pode produzir. Então com isso a gente
+falou sobre os mutagênicos físicos e os mutagênicos químicos, que vão levar às mutações induzidas.
+
+## slide-14.png
+Existem alguns conceitos, gente, que aparecem nos livros, que na prática eu não acho que são
+importantes, mas só para vocês terem os termos, chamados mutações por transição. Quando você tem uma
+pirimidina trocada por uma outra pirimidina, ou uma púrica trocada por outra púrica é uma transição.
+E as transversões quando trocam as categorias. Mas esses termos são termos só para você saber o
+signiﬁcado, mas as consequências de entendimento disso não são tão importantes. Elas vão ser
+importantes quando você estuda a mutagem no especíﬁco, lá na sua pesquisa, e você precisa saber como
+é que ele está atuando. Mas para nós são só os conceitos.
+
+## slide-15.png
+Eventos possíveis. Agora, isso aqui é importante. Isso aqui é bastante importante ﬁcar bem claro.
+Então, o que acontece quando você tem uma célula bacteriana? Vamos pensar na bactéria, que é nosso
+ator aqui da aula de hoje, mas a mutação é um fenômeno estocástico. Ou seja, o agente mutagênico
+bate na bactéria, ele bate na nossa pele, ele bate em todas as formas de vida, em plantas, animais.
+Mas vamos pensar em bactéria. Então, o DNA, você tem um DNA que está dentro de uma célula e chega um
+agente mutagênico, um agente mutagênico qualquer. Esse agente mutagênico bate no DNA e quando ele
+bate no DNA, o que pode acontecer? O que pode acontecer é o seguinte, gente. As formas de vida, como
+eu vou mostrar daqui a pouquinho, todas elas, desde bactéria até o ser humano, existem mecanismos
+multienzimáticos em todas as células para a reparação dessa lesão. Então, o DNA está lá. Chega um
+agente mutagênico, bate neles. Aí vai dar uma lesão. O DNA vai ﬁcar com lesão. Ah, o DNA está dodói.
+Está com lesão. O DNA está com lesão? Muito bem. Vocês perceberam que a replicação do DNA vai ser
+iniciada. Se ela for iniciada e tiver a lesão lá, ela vai ser interrompida. Ou então a célula vai
+morrer. Então, o que acontece? Na Terra, todos os seres na Terra, desde bactéria, fungo ﬁlamentoso,
+levedura, animais, plantas, têm sistemas multienzimáticos para fazer a reparação do genoma que foi
+alvejado. Só que ele pode conseguir fazer a reparação correta, pode fazer o conserto dessa lesão
+corretamente. Se ele conseguir, se o ser alvejado conseguir fazer a reparação correta do seu DNA, o
+DNA ﬁca restaurado, ﬁca recuperado totalmente, quer dizer, voltou ao que era antes. Mas esse DNA com
+lesão, a célula não tiver mecanismo para reparar, ela não tem enzima para reparar. É uma bactéria
+que tem um problema, essa bactéria aí não tem a reparação. Ou ela é um mutante, ela não tem a
+reparação, ou a célula não consegue reparar. Então, a ausência do reparo. Se houver ausência de
+reparação, a célula vai à morte, porque não é possível continuar a replicação do DNA com esse DNA
+alvejado. Você vai falar, mas só na ausência, só quando a célula não tem os mecanismos de reparo? A
+gente vai ver que não. Às vezes a célula tem os mecanismos de reparo, só que acontece que a
+quantidade de lesão é tão grande que ela esgotou todas as possibilidades. Ela já tentou isso, já
+usou toda a maquinaria de reparo que ela tem, mas tem muita lesão. Tem muita lesão e ela não deu
+conta de consertar todas as lesões. Aí, se ela não deu conta de consertar todas as lesões, continua
+tendo lesão, o mecanismo de reparo não deu conta de consertar tudo, a célula vai à morte. A célula
+bacteriana vai à morte. Muito bem, mas se a outra possibilidade, na hora que ela está tentando se
+safar para não morrer, porque a morte vai acontecer, ela começa a entrar por um outro sistema de
+tentar se socorrer, ela tenta reparar o DNA, mas nessa tentativa ela coloca erros na sequência,
+então surgem os mutantes. Então vamos ver com um pouquinho mais de detalhe como é que isso se
+apresenta? Muito bem.
+
+## slide-16.png
+Então, eu falei para vocês que todas as células têm mecanismos multienzimáticos de reparação das
+lesões. Vamos ver o primeiro mecanismo.
+
+## slide-17.png
+O primeiro mecanismo para reparar lesões do DNA é um mecanismo que opera em presença de luz visível,
+chamado fotorreativação, presença de luz visível. E a gente vai ver com um pouquinho mais de
+detalhe. E na ausência de luz também existem mecanismos multienzimáticos. Então, na presença de luz
+visível, você tem aqui a sequência do DNA, e aí forma-se um dímero de timina, ou de pirimidina, de
+um modo genérico, formou-se um dímero de pirimidina, todas as células, desde bactérias até o ser
+humano, e tem uma enzima chamada DNA fotoliase, que é ativada pela luz visível. Essa enzima DNA
+fotoliase, em presença de luz visível, restaura completamente o dímero de pirimidina. A cadeia, esse
+dímero que tinha se formado, é desfeito. Ele é desfeito, simplesmente. Por isso que a gente fala:
+isso aqui existe para a bactéria, para a bactéria E. coli, para as bactérias, e também existe para o
+ser humano. Aqui coloquei uma tabelinha de UVA, UVB, UVC, os comprimentos de onda. À medida que vai
+diminuindo o comprimento de onda, ele vai ﬁcando com maior energia. A gente usa como lâmpada
+germicida no laboratório 260 nanômetros. É uma lâmpada que já é germicida. Aquela lâmpada que a
+gente usa para fazer descontaminação está nessa faixa do UVC. Então, é por isso que se recomenda que
+as pessoas vão à praia no momento em que tenha maior porcentagem de luz visível do que de radiação
+UV. Vamos ver, em poucas palavras: a radiação UV bate na superfície e forma dímeros de pirimidina.
+Se tiver luz visível, nós temos a enzima DNA fotoliase, que está presente e se liga nas lesões. A
+DNA fotoliase percebe, tem uma conformação e identiﬁca esses dobramentos, essas alterações na
+conformação do DNA. A DNA fotoliase se liga ali, recebe energia da luz visível, precisa ser
+energizada pela luz visível, pega essa energia e desfaz o dímero. Então, você tem completamente o
+conserto disso. É um reparo em presença de luz que não leva a danos, restaura completamente o seu
+DNA. Perfeito? Muito bem. Uma coisa que é muito importante lembrar é que a luz visível, duas coisas:
+primeiro, a radiação ultravioleta não tem poder de penetração. Ela penetra frações, milímetros, um,
+dois milímetros é o que ela consegue penetrar. Então, a pessoa que tomar muito sol, que ﬁcar muito
+exposta ao sol, pode adquirir queimaduras, até câncer de pele. Na pele, mas não vai adquirir um
+câncer de estômago, de esôfago, porque ela não penetra, ela só tem ação na superfície, porque não
+tem energia para penetrar no corpo humano, tem baixa energia, tá certo? E esse dímero de pirimidina,
+a luz visível consegue desfazer os dímeros de pirimidina, é a única lesão no DNA que a luz visível
+consegue desfazer. Então, se você estiver trabalhando no laboratório, fazendo irradiação de
+bactérias, depois de fazer irradiação de bactérias com radiação UV, você não pode mais deixar ﬁcar
+exposto à luz visível.
+
+## slide-18.png
+Muito bem. Mas o que acontece quando você tem um problema, uma lesão no DNA, que está interna no
+corpo, ou a bactéria que está no tubinho escuro, ou na placa de Petri, na estufa, que não tem luz?
+Será que daí sem luz, o que acontece? Existem outros mecanismos multienzimáticos que operam na
+ausência de luz visível. São dois mecanismos: o mecanismo que é a excisão de base. Você tem uma
+sequência de bases e tem a lesão. Então, vem uma enzima, que são enzimas que cortam, que fazem a
+excisão, elas cortam esse DNA que está com a lesão, reconhecem essa estrutura deformada no DNA e
+recortam, cortam, chama excisa, daí o nome é excisão. E aí faz a ressíntese, uma outra DNA
+polimerase, em bactéria tem uma outra DNA polimerase especíﬁca para isso, que vai fazer a ressíntese
+desse material. Isso é chamado mecanismo de reparo por excisão de bases ou por excisão ressíntese,
+são sinônimos. Esse mecanismo é presente em bactéria e em todos os seres vivos. Outro mecanismo que
+existe é o recombinacional. O que acontece no recombinacional? A bactéria tem uma cópia só de ﬁtas,
+DNA dupla ﬁta, mas uma cópia só. Mas os seres eucarióticos e também as bactérias, quando estão
+replicadas, o DNA está com cópia dupla. Então, é possível fazer a troca de cadeias e se recuperar
+dessa lesão. Esse é chamado de mecanismo de reparo recombinacional. Esses mecanismos de reparo,
+tanto o excisão ressíntese quanto o recombinacional, após terem entrado, a sequência do DNA é
+recuperada totalmente, você não tem mutação nenhuma, o DNA restaura perfeitamente.
+
+## slide-19.png
+E quando vai acontecer problema, então? Vai dar problema quando você tem as ﬁtas com muita
+quantidade de lesão. Se a quantidade de lesão é muito grande, o reparo em presença de luz já passou,
+você está no escuro. Aquele recombinacional, a excisão ressíntese já passou. O DNA está sendo
+replicado e não dá mais tempo de fazer nada. E aí, o que vai acontecer? A forquilha de replicação
+precisa replicar esse DNA, precisa avançar, precisa usar como molde, e não tem jeito, esse DNA não
+está se portando como um bom molde. Aí, se ele não estiver se portando como molde, por exemplo,
+houve o conserto, tudo bonitinho, e a forquilha passou. Mas, do outro lado, a forquilha de
+replicação começou, as lesões, a alteração está lá, e não consegue achar a base correta nessa
+posição. Então, o que acontece? Interrompe a síntese e retoma adiante. Mas chega um momento em que a
+quantidade de gaps é tão grande, o que ele faz? A DNA polimerase perde a atividade redatora, existe
+toda uma indução para ela perder isso, ela perde essa atividade redatora e coloca uma base errada,
+uma base qualquer. Quando ela coloca uma base errada nessa posição, pronto, aí surgiu a alteração. O
+que é a mutação? Uma base que tinha, ela tinha que colocar um C e coloca um G, tinha que colocar um
+C e coloca um T, trocou a letrinha e pronto, mutação aconteceu. Então, resultou em mutação. Por isso
+que chama mecanismo de reparo, mas na verdade também se chama tolerância às lesões, porque se ela
+não ﬁzer alguma coisa, a morte é certa, a quantidade de gap é muito grande. Então, ela prefere,
+existe uma hora que a atividade redatora da bactéria é suprimida, existe um sistema que suprime isso
+e a DNA polimerase vai e coloca qualquer base tentando sobreviver. Por isso o nome tolerância às
+lesões.
+
+## slide-20.png
+Muito bem, tudo isso que a gente estudou até agora sobre reparo é muito longo, confuso e extenso,
+mas quero dizer que tem uma aplicação muito grande. Quais são as aplicações que ela pode ter e o que
+eu quero que vocês gravem nisso?
+
+## slide-21.png
+Então, o que eu quero que vocês gravem é que os sistemas biológicos têm mecanismos de reparo
+multienzimáticos, que operam na presença de luz e na ausência de luz. Esses mecanismos de reparo
+permitem a gente sair aí fora no dia ensolarado, tomar radiação ultravioleta, ir ao hospital, tomar
+raio-x e consertar as lesões no nosso corpo. Mas quando a quantidade de lesão for muito grande e não
+tiver dado tempo para recuperação, aí vai se estabelecer as mutações. É isso basicamente que eu
+quero falar para vocês.
+
+## slide-22.png
+E como estão as explicações mais moleculares? E as aplicações hoje em dia, gente? Como é que a gente
+usa isso hoje em dia? A gente usa tudo isso que conhece de radiobiologia para duas coisas bem
+práticas. Uma, obtenção de mutantes. O que quer dizer mutante? No laboratório de genética, eu quero
+obter mutante que não cresça em leucina para poder fazer um cruzamento. Isso é coisa bem mais
+clássica. Mas também quero obter um mutante que produza mais antibiótico. Ele está com a via de
+produção de antibiótico alterada e está produzindo mais antibiótico. Aí quero obter um mutante
+bacteriano que cresça no meio de cultura diferente. Então, vou submetê-lo a uma radiação para ver se
+consigo isolar um mutante que consiga fazer tal coisa. Para a obtenção de mutantes… você vai falar,
+mas e se bactéria? Vamos pensar em uma coisa eucariótica, planta. Eu tenho uma plantação de tomate e
+quero obter uma semente diferente. Eu posso submeter, é claro que é tudo muito mais complicado de
+controlar, mas há uma possibilidade. Por exemplo, quando eles foram obter a cepa que produz
+penicilina, do Penicillium notatum, tinha a cepa de Penicillium notatum que produzia tantas unidades
+por ml. E aí, um dos programas que foi feito para se obter essa cepa maravilhosa que nós temos hoje,
+que produz mais de 10 mil vezes a quantidade que a cepa original produzia, foi um programa de
+obtenção de mutantes. Vai submetendo a vários rounds de cultivo, radiação e isolamento de mutantes
+com capacidade aumentada de produção daquela substância desejada. Então, a produção de antibióticos
+é um exemplo bem concreto para a gente ver. Mas a outra coisa muito importante também que se usa
+hoje em dia, e é no mundo inteiro, as duas coisas que são no mundo inteiro, é para a detecção de
+substâncias mutagênicas.
+
+## slide-23.png
+E aqui vou dar um exemplo para vocês. Toda vez que você vai desenvolver um novo fármaco,
+principalmente, mas várias substâncias, você precisa ter certeza que essa substância não terá efeito
+mutagênico sobre o ser humano. Para fazer o teste de substâncias mutagênicas, existem bactérias
+especiais, que vou explicar bem rapidamente. Um teste chamado teste de Ames, onde você, em um
+tubinho de cultura, põe a bactéria, põe a substância, e aqui é o tubinho controle. No tubinho
+controle, você não põe substância nenhuma. A bactéria é um mutante, se essa bactéria é um mutante
+que não consegue crescer nesse meio de cultura aqui, que é o meio mineral, o meio mínimo. Mas essa
+mutação que ela tem aqui nesse gene his-, ela é um mutante que não consegue crescer se você não
+puser histidina, mas ela pode reverter para ser his+. E aí nesse meio de cultura que não tem
+histidina, você veriﬁca o número de colônias revertentes his+ que crescem. Então, se a substância
+sua induzir mutação, você tem colônia his+. E o seu controle, claro, que vai ser solução ﬁsiológica,
+não vai induzir nada, você não tem enriquecimento nenhum. Aí existe toda uma curva de calibração que
+você vai entender quão mutagênica é a substância que você está usando. Esse é o chamado teste de
+Ames. Gente, claro que tem um protocolo, o ISO 9000, que tem que ser seguido, quantiﬁcado. E aí,
+depois você põe os dados todos numa curva, faz os gráﬁcos, para poder fazer uma interpretação
+matemática, que é uma interpretação qualitativa. E existe um teste que está aqui, mostrado para
+vocês, chamado cromoteste. Isso aqui é até mais fácil de vocês entenderem. Para a detecção de uma
+substância mutagênica, você pega, até ﬁz aqui para vocês, está aqui feito para vocês, eu ﬁz aqui um
+cromoteste para vocês. Vocês pegam um tubo controle, onde a bactéria que você vai usar é a bactéria
+Escherichia coli, é uma bactéria construída por engenharia genética, que tem uma fusão, e essa fusão
+gênica aqui, que é um pedaço de uma sequência estrutural do gene beta-galactosidase. E essa fusão
+faz o seguinte: o controle é a bactéria crescida que você vai adicionar tantos microlitros, 100
+microlitros, você que vai fazer o seu protocolo de salina. E aí o 0 é o tempo, aqui no caso está em
+tempo, você pode fazer a curva ou por tempo ou por volume, aqui no caso a curva está em tempo.
+Digamos que você adiciona 200 microlitros aqui de salina, aqui no seu teste você põe 200 microlitros
+em todos os tubos, e você incuba aqui por uma hora, por uma hora e meia, por duas horas e meia e por
+três horas. Você incuba ao longo do tempo. E aí você vai olhando o efeito que vai dando, né? Então,
+o tubo controle, o tubo controle você não adicionou nada, ﬁca branquinho. E o tubo que você colocou
+o produto que você quer analisar, o agente mutagênico que você quer analisar, você deixou incubar
+pelo mesmo tempo, só que você faz o controle todo bonitinho aqui. O controle se incuba pelos mesmos
+tempos. E a substância que você quer analisar, ao longo do tempo, vai aumentando a intensidade
+amarela. E você, então, quantiﬁca isso no espectrofotômetro. Você vai lá e quantiﬁca. Você coloca na
+curva e vai comparar. As bactérias são usadas para fazer um teste de detecção de substâncias
+mutagênicas. Então, toda vez que você vai desenvolver um novo fármaco, é preciso fazer vários testes
+laboratoriais para saber se essa substância não é tóxica para o corpo humano. E você vai me falar
+assim, por que eu tenho que saber que ela não é mutagênica? É, porque se ela for mutagênica para a
+bactéria, se ela produz mutante em bactéria, que é unicelular, no nosso corpo, que é pluricelular,
+se ela alvejar controle de replicação da célula, todo agente mutagênico é potencialmente
+cancerígeno. Então, se a substância for mutagênica, ela já não passou na primeira parte do teste. Se
+ela passar nessa primeira parte do teste de detecção de substância mutagênica, aí ela vai para um
+segundo teste, que é teste já mais avançado, com camundongo, aí vai. Se ela não passar nesse teste
+aqui, no teste de Ames e no cromoteste, acabou. A substância está jogada fora. E vocês sabem que
+hoje em dia na indústria farmacêutica, milhares e milhares de novos produtos, antibióticos, tudo,
+são analisados. E precisa saber se faz o efeito do que você deseja. Mas não adianta fazer o desejo
+que você deseja e a substância ser uma substância que causa malefício. Então, esse é o primeiro
+teste que é feito para provar uma substância na indústria farmacêutica. Ok? Basicamente é isso que
+eu queria falar para vocês de mutação. E deixar esse grande recado aqui para vocês, como que isso é
+importante. Nessa explicaçãozinha tão simples que eu dei para vocês, eu já falei para vocês que os
+mutantes podem ser obtidos para a gente obter cepas que produzem mais antibióticos, maior quantidade
+de cepas industriais, ou para você fazer detecção de substância mutagênica. Nesse caso aqui,
+principalmente de substância mutagênica, você tem que seguir um protocolo. A CETESB tem, o
+Ministério da Saúde tem. No mundo inteiro segue esse protocolo. Tem a curva que você tem que seguir,
+usar isso tudo direitinho. E você consegue fazer essa curva aqui no laboratório. Tem laboratórios
+cadastrados só para fazer esses testes de todo o material. E com isso a gente vai encerrar a
+discussão sobre mutação. Se vocês tiveram uma ideia geral da mutação e das bactérias aqui,
+esclarecendo para a gente bastante a mutação. Agora, então, nós vamos falar da recombinação, que é
+outro mecanismo pelo qual as bactérias podem fazer a variação genética.
+
+## slide-24.png
+A variação genética, então, o primeiro mecanismo de variação genética que foi descrito foi a
+transformação bacteriana. E ele foi descrito por Frederick Griﬃth em 1928. E é aquela experiência
+clássica que vocês conhecem, daquela camundonga cepa lisa de pneumococcus, que era chamado na época
+Diplococcus pneumoniae, porque se você olhar a morfologia é um coco em dupla, duplo coco. Ela é
+chamada cepa lisa porque tem cápsula. Quando injetada no camundongo, o camundongo morria. E a cepa
+rugosa, aquela sem cápsula, que quando injetada no camundongo, o camundongo vive. Aí o Griﬃth, em
+1928, pegou essa cepa lisa que matava o camundongo e esquentou no bico de Bunsen, fez um lisado, e
+esse lisado ele injetou no camundongo. O lisado da cepa lisa não mata o camundongo. Aí ele fez um
+outro experimento, ele pegou o lisado da cepa lisa, misturou com a cepa rugosa, e aí ele veriﬁcou
+essa mistureba aqui, ele injetou no camundongo, e aí o camundongo morreu. O camundongo morreu, ele
+abre o peritônio do camundongo, o que ele encontra? Cepa lisa. Aí o Griﬃth, em 1928, diz assim: o
+lisado da cepa lisa transforma a cepa rugosa em lisa. Ele que criou o termo transforma. E aí ele
+criou o termo transforma, e aí surgiu o termo transformação. Só que em 1928, ninguém sabia qual era
+a natureza do princípio transformante. Então, você vai… o nosso fundador do nosso laboratório, o Sr.
+Sérgio Olavo, que é um médico, ele publicou trabalhos no laboratório dele. Você tem papers dele
+publicados em revistas internacionais, ainda assim, que ele trabalhava lá com Proteus mirabilis, que
+causam infecção urinária. Ele dizia assim: o princípio transformante foi usado na transformação
+genética. Todo mundo falava nos papers, o princípio transformante. Parecia assim, o Espírito Santo.
+O princípio transformante transforma a bactéria de um jeito em outro jeito. O princípio
+transformante leva resistência para a bactéria. A bactéria cresce com antibiótico, adquire
+resistência a antibiótico. Ficou aquela coisa, aquele Espírito Santo. Somente em 1944, vocês estão
+vendo aqui, olha aí que é legal você ver a história, em 1944, que esses três pesquisadores aqui, o
+Avery, o McCarty e o MacLeod, três pesquisadores, a bioquímica havia avançado o suﬁciente para fazer
+a separação dos componentes desse princípio transformante. Esse lisado aqui foi separado dos
+componentes, sim, lipídio, polissacarídeo, proteínas e ácidos nucleicos. E cada um desses
+componentes, cada uma dessas partes, cada um desses componentes desse princípio transformante
+puriﬁcado, foi incubado em presença da cepa rugosa, e somente esse componente ácido nucleico, quando
+incubado com a cepa rugosa, é que transformou a cepa rugosa em cepa lisa letal. E aí, em 1944, eles
+publicaram um trabalho que falaram assim: a natureza do princípio transformante é o DNA, porque aqui
+em ácido nucleico era DNA e RNA. RNA sabia que nem aguenta muito nem ﬁcar no tubo, é muito instável.
+Então, a natureza do princípio transformante é o DNA, né? Em 44 surgiu isso. Até que não faz tanto
+tempo, né? Então, esse aqui foi o experimento… gente, esse aqui é o experimento de todo o Prêmio
+Nobel. Esses caras aqui ganharam tudo o Prêmio Nobel. Hoje a aula de hoje só tem Prêmio Nobel. Bom,
+voltamos para os dias atuais, saímos da história e voltamos para os dias atuais. O que signiﬁca
+transformação genética? Transformação genética é o mecanismo de transferência do material genético.
+O que é material genético, gente? DNA, tá certo? Então esse DNA, se esse DNA estiver entrando,
+entrando para dentro da célula bacteriana, isso é chamado de transformação genética. Aqui no
+experimento do Griﬃth, alguém isolou o DNA? Não, era fragmento de DNA que estava entrando. Qual era
+a bactéria? Streptococcus pneumoniae. Streptococcus pneumoniae recebe fragmentos de DNA?
+
+## slide-25.png
+Olha aqui, recebeu. Foi assim que foi descoberta a transformação genética. Então, fragmento de DNA
+entrando, membrana, né? Membrana, que é a bactéria aqui, entrando aqui pela membrana, entrando no
+citoplasma, fragmentinho de DNA entrando aqui. Ocorre uma recombinação e ele se insere aqui no
+genoma. Então, isso é chamado transformação. Transformação é entrar DNA nu na célula. Algumas
+bactérias recebem DNA linear. Que bactérias que recebem DNA linear? A gente acabou de ver. Essa
+bactéria aqui, o Streptococcus pneumoniae. Mas tem algumas bactérias que só recebem
+preferencialmente plasmídeos, como, por exemplo, a bactéria E. coli, que recebe preferencialmente
+plasmídeo. Streptococcus pneumoniae e DNA linear. E. coli.
+
+## slide-26.png
+E aí surgiram vários experimentos no laboratório para se veriﬁcar qual era o limite. Você tem aqui
+um tubo de bactéria, uma população bacteriana, você vai aumentando a concentração de DNA e vai vendo
+quantos transformantes você obtém. Aí você vai ver um ponto que não adianta colocar mais DNA, que a
+bactéria não consegue captar mais DNA. Isso aqui é só um ﬂagrante para a gente falar desse detalhe,
+que existe um limite. Não adianta você colocar um quilo e meio de DNA que a célula chega um tanto
+que não consegue pegar. Existe um limite da entrada desse DNA aqui na célula. E aí, gente, isso aqui
+a gente gosta de discutir lá na pós-graduação, mas já que a gente está falando aqui com vocês, vamos
+dar só uma palhinha. A pergunta é a seguinte: vocês viram que o Streptococcus pneumoniae pegou DNA
+que é assim. E eu estou falando para vocês que a E. coli gosta de pegar preferencialmente plasmídio,
+né? Então, vocês estão vendo que já tem barreiras, né? Streptococcus pneumoniae pega DNA de um
+jeito, E. coli já pega DNA de outro. Mas será que essa é a única barreira? Vou deixar essa pergunta
+para vocês aí na aula, e quando a gente estiver discutindo presencialmente, vocês vão discutir isso
+comigo. Se o Streptococcus pneumoniae, vocês estão vendo aqui a fotograﬁa, se ele está pegando um
+fragmento de DNA de fora e está entrando aqui para dentro da célula, ele pegou esse DNA e incorporou
+aqui no genoma, isso é transformação, é a deﬁnição de transformação. Eu pergunto para vocês, os
+geneticistas pensaram por muito tempo, e ainda essas perguntas continuam. Como é que o Streptococcus
+pneumoniae, que consegue fazer isso, não vira uma E. coli? Se esse DNA que está entrando aqui nele,
+se esse DNA que está entrando aqui nele for uma E. coli, esse Streptococcus aqui azulzinho, vai
+entrar DNA, vai entrar DNA, vai entrar DNA, então quer dizer que uma hora o Streptococcus pneumoniae
+vai virar uma E. coli? Vai virar uma Salmonella? O Streptococcus vai virar ela? O que está
+acontecendo aí? Tem limite? Vou perguntar para vocês. Tem limite? Qual é o limite? E como é que isso
+é que é controlado? Lembra aquela pergunta lá no começo da genética? Como é que é possível você ter
+a hereditariedade e mesmo assim ter a variação? Essa é a pergunta. A hereditariedade e a variação.
+Como é que ﬁca aqui essa pergunta? Vou deixar lá para vocês responderem.
+
+## slide-27.png
+Outro mecanismo de entrada de variação genética é a conjugação bacteriana. Conjugação bacteriana,
+mecanismo de transferência material geneticamente de uma bactéria para outra, e acontece via um pili
+de conjugação, principalmente nas bactérias gram-negativas. As bactérias gram-positivas parece que
+elas só se aproximam e transferem direto, nem precisa de pili de conjugação. Mas esse pili aqui é
+tão famoso que ele aparece sempre que a gente fala de conjugação bacteriana. Então as bactérias
+aqui, digamos, um bacilo, você está vendo aqui as fímbrias dele, que as fímbrias ligadas com a
+adesão, fímbrias, e tem uma fímbra especial, que é uma fímbra mais longa, que se aproxima da outra
+bactéria. Essa aproximação é feita por aproximação apenas eletrostática da bactéria doadora para a
+bactéria receptora. Então, existe uma atração eletrostática. Tem uma carga, a outra tem outra carga,
+e elas se aproximam, e essa daqui consegue transferir da doadora para a receptora, por esse pili de
+conjugação.
+
+## slide-28.png
+Quem descobriu esse princípio, essa mecânica de transferência de matéria genética, foi o Lederberg e
+o Tatum, que também ganharam o Prêmio Nobel. E com esse equipamento fantástico que eles desenharam,
+que era um tubinho. Então, o que eles ﬁzeram? Em 1946, eles tinham duas cepas, dois isolados da
+bactéria E. coli. O isolado da bactéria E. coli, por exemplo, era a metionina menos. Está vendo o
+mutante metionina menos? Ele não conseguia… esses vermelhinhos quer dizer que ele não consegue, ele
+não conseguia crescer no meio de cultura se você não colocasse metionina. Claro que ele cultivava no
+meio completo, depois ele lavava, centrifugava, ressuspendia em água ou em soro ﬁsiológico e semeava
+aqui na placa contendo o meio mínimo. Então, no colonis, você semeia no meio mineral, como ele era
+metionina a menos, ele não conseguia crescer. Tinha uma outra cepa, a cepa B, que era metionina a
+mais, mas ela leucina a menos. Essa aqui era leucina a menos. Essa leucina a menos é a mesma
+história. No meio mínimo, você semeava ela, ela não crescia. Mas aí um dia… o Lederberg e o Tatum
+estavam brincando no laboratório, fazendo experimentos de tarde. A internet estava fraca naquela
+época. Eles então pegaram as duas culturas bacterianas e inocularam no mesmo meio de cultura.
+Inocularam A aqui nesse meio e inocularam B aqui nesse meio de cultura. Inocularam as duas bactérias
+juntas e semearam e deixaram incubando de um dia para o outro na estufa. No dia seguinte vieram e
+semearam no meio mínimo. E aí eles veriﬁcaram, também nesses pontinhos azuis escuros, eles
+veriﬁcaram colônias crescendo. E aí a pergunta é, quem é que está crescendo aqui? Como é que isso
+está acontecendo? E eles tinham feito os controles. Lembrar que todo experimento genético tem que
+ter controle. Nesse mesmo dia, eles tinham mantido os tubos das culturas A, da cultura B e da
+cultura AB aqui no meio. Então, A não cresce, B não cresce e AB crescia. E eles pensaram, meu Deus,
+o que é que está acontecendo aqui? Será que isso aqui é o princípio transformante? Então, para saber
+se era o princípio transformante, que era isso aqui, a entrada do DNA na célula, que seria o DNA,
+que eles já sabiam que a natureza do DNA era um material genético, olha lá, 44, eles estavam
+antenados com a pesquisa, sabiam que em 44 a natureza do material genético era o DNA, então o que
+eles ﬁzeram? Eles falaram assim, então nós vamos desenhar um experimento para veriﬁcar se é o DNA ou
+se não é o DNA. Então ﬁzeram um experimento com o tubinho U, o tubinho U que tem uma membrana
+semipermeável aqui no meio, que deixa passar o DNA de um lado para o outro, mas o DNA é uma molécula
+pequena, comparativamente é a célula bacteriana, que tem um a dois micras, se for um bacilo, o DNA é
+muito menor que isso. É submicroscópico o DNA. O DNA passa de um lado para o outro, mas a bactéria
+não passava de um lado para o outro. Então, expuseram a cultura A de um lado e a cultura B do outro
+lado. Incubaram isso na estufa e no dia seguinte vieram, pegaram uma alíquota, semearam aqui no meio
+mínimo e essa alíquota que semearam no meio mínimo. E veriﬁcaram que nada crescia. Nada crescia.
+Então, o Lederberg e o Tatum concluíram o seguinte: que para poder acontecer crescimento, esse
+crescimento que eles tinham observado aqui, somente acontecia quando as duas bactérias eram
+crescidas juntas, em contato íntimo. Claro que daí eles ﬁzeram um monte de contraprova, ﬁzeram uma
+cultura dessa daqui velha, essa daqui nova, essa daqui nova, essa daqui velha. Bom, a conclusão ﬁnal
+foi o seguinte: que somente eles conseguiam ver esse fenômeno quando as duas bactérias estavam
+jovens, culturas novas, feitas de véspera, inoculadas, e aí no meio novo, novinho, por exemplo, em 1
+ml de LB, você coloca 1 ml de uma cultura e 1 ml da outra cultura e refaz um cultivo junto das duas
+bactérias. Então, como essas duas bactérias tinham que estar próximas para que acontecesse essa
+transferência de material genético, eles denominaram essa transferência de conjugação. Uma bactéria
+está conjugando com a outra bactéria. É mais perto do sexo que as bactérias chegam.
+
+## slide-29.png
+Olha essa ﬂagra, que imagem que é essa daqui. Isso aqui é uma publicação que saiu na revista Nature
+em 2001. Eu peguei esse número dessa revista Nature na época, mas por causa da fotograﬁa que está
+muito linda. É uma bactéria fazendo conjugação. Aqui ela está participando da conjugação com duas
+outras bactérias. Provavelmente ela está transferindo o plasmídeo para essa.
+
+## slide-30.png
+Determinantes genéticos de origem em plasmídeo. Eu falei para vocês logo no começo que tudo que é
+importante para a bactéria é codiﬁcado no DNA cromossomal. Então o que é codiﬁcado no DNA
+plasmidial? Fertilidade, como a transferência. Mas essa transferência, vocês estão vendo, transferir
+material genético da bactéria para outra, existem alguns plasmídeos, chamados plasmídeos F de
+fertilidade, que conseguem se inserir no genoma da bactéria e ﬁcam lá dentro do genoma e na hora da
+conjugação, ele mobiliza o genoma inteiro para outra bactéria, criando o que se chama Hfr, bactéria
+de alta frequência de transferência, alta frequência de recombinação. Na verdade, a bactéria do
+Leatherback Tator era um Hfr. Eles tiveram tanta sorte que essa bactéria era um Hfr, que estava
+passando um marcador de síntese de metionina e de leucina. Então, ela é um Hfr que eles estavam
+fazendo a conjugação. Mas existem também plasmídeos R, plasmídeos R de resistência, plasmídeos Col,
+de colicina, que é uma substância que age negativamente no controle de enterobactérias. Produção de
+bactericidas, Col, por exemplo. Resistência a metais pesados, pode ser resistência a mercúrio, a
+antibióticos, o R aparecendo de novo. Produção de enterotoxina, que a gente vai ver na aula de
+patogenicidade, é codiﬁcada pela presença de plasmídio. Resistência à cânfora, substância orgânica,
+tumor em plantas, como a Agrobacterium tumefaciens, que causam aquelas lesões nas plantas, são
+codiﬁcadas por plasmídio. Aqui, gente, uma ﬁgura mostrando a transferência do plasmídeo de uma
+bactéria doadora para uma bactéria receptora. Bactéria doadora, é importante salientar um ponto aqui
+que eu não tinha comentado: nem todas as bactérias tem plasmídio, então elas podem ter ou podem não
+ter plasmídeo. Então, existem isolados de E. coli que não têm plasmídeo, existem isolados de E. coli
+que têm plasmídeo. Existem bactérias E. coli que têm plasmídeo, mas o plasmídeo não é conjugativo.
+Mas existem algumas bactérias E. coli que têm plasmídeo e o plasmídeo que a bactéria E. coli tem é
+conjugativo. Alguns plasmídeos, quando a bactéria tem um plasmídeo que é conjugativo, ela tem um
+pili de conjugação e transfere esse plasmídeo por esse pili . E quando ela transfere esse plasmídeo
+por esse pili, ela manda uma cópia de uma ﬁta. Ela manda uma ﬁta para outra bactéria receptora, tá
+certo? A partir dessa ﬁta que foi enviada, é ressintetizada a outra ﬁta. E a ﬁta que ﬁca aqui
+ressintetiza a ﬁta. Após a conjugação, as duas bactérias, a doadora e a receptora, ambas têm uma
+cópia do plasmídeo, porque foi uma ﬁta, ﬁcou uma ﬁta e aí faz a ressíntese, ok? Muito bem,
+aproveitando isso aqui, falar novamente que a bactéria pode ter pode não ter plasmídeo, pode ter
+plasmídeo e não ser conjugativo, pode ter plasmídeo conjugativo, pode ter plasmídeo conjugativo
+episomal. Epissomal quer dizer que ele se insere no genoma. Se ele for episomal, na hora que ele se
+conjuga, ele pode passar o genoma inteiro da bactéria. Nem todo plasmídeo é epissomal. Normalmente,
+os plasmídeos que são conjugativos são plasmídeos de tamanhos grandes e estão em baixo número de
+cópias, porque são grandes.
+
+## slide-31.png
+Aqui é o desenho da conjugação acontecendo, que eu já tinha comentado com vocês. É a ﬁta sendo
+passada. Aqui é a partir do pili de conjugação, a ﬁta sendo transferida para outra bactéria
+receptora. Aqui é a bactéria quando ela é uma bactéria Hfr, o F está aqui no momento, a bactéria ﬁca
+com o plasmídeo inserido no que ela estava solto, o replicon estava solto, o replicon passou a se
+inserir no genoma, ﬁcou integrado, então esse plasmídeo é o epissoma. Nesse momento da conjugação,
+ela vai transferir o genoma inteirinho de uma bactéria para outra bactéria. E aí, por recombinação,
+você tem esse pedaço do genoma aqui sendo trocado o anterior pelo que chegou e a recombinação
+acontecendo.
+
+## slide-32.png
+Aqui é o mapa, gente, antes da biologia molecular de sequenciamento acontecer, o genoma da bactéria
+E. coli foi todo mapeado por conjugação bacteriana. A conjugação começa e em 90 minutos o cromossomo
+inteirinho da bactéria consegue ser transferido para outra bactéria. E com marcadores genéticos, foi
+possível ir acompanhando essa transferência de material genético. Então, os pesquisadores faziam
+tubos de conjugação e em cada tubo de conjugação ia agitando para interromper o pili de conjugação e
+veriﬁcar que marcadores haviam sido transferidos. Um trabalho complicado, extenso de fazer. Como é
+que você faz isso? Com uma bactéria receptora que tem vários marcadores, ou seja, não consegue
+sintetizar um aminoácido, o que está passando agora é uma resistência. E nas placas todas de
+seleção, depois de 10 minutos, 20 minutos, 50 minutos, vai semeando em diferentes meios de cultura.
+E por aquela semeadura e os números que você está vendo, você vai vendo que marcas estão passando ou
+não estão passando. E assim, com bactérias da Hfr, eles foram mapeando o genoma da bactéria E. coli
+inteirinha. Foi tudo mapeado assim, dessa maneira, claro que com a precisão ali da genética, mas
+ﬁcou muito bem mapeado, de isolados.
+
+## slide-33.png
+Aqui, gente, é para eu comentar com vocês bastante que existem plasmídeos chamados promíscuos, tipo
+o plasmídeo RP4. E aqui é uma fotograﬁa de uma publicação que saiu agora, recente. Essa publicação é
+de uma revista médica que saiu agora bastante recente, dessa altura que Lu et al, vocês podem até
+entrar aqui, que ela vai abrir. Não vou nem abrir para não estragar a minha gravação, mas vocês
+podem abrir aqui no PowerPoint. Esse plasmídeo aqui, ele está vindo aqui de uma bactéria E. coli,
+está vendo? Ele está sendo transferido para uma Pseudomonas putida. Você vai falar, nossa, então
+quer dizer que ele consegue vir de E. coli, Escherichia coli, que é uma enterobactéria fermentadora
+de glicose, para uma Pseudomonas putida, que é não fermentadora. Pois é, existem plasmídeos
+promíscuos que conseguem se transferir para qualquer bactéria gram-negativa. Isso para lembrar de
+falar para vocês que a conjugação bacteriana é um mecanismo de transferência de material genético
+que basta duas bactérias estarem próximas para passar material genético de uma bactéria para outra.
+E passando com essa facilidade, esse plasmídeo RP4 aqui carrega resistência a vários antibióticos,
+como eu já vou discutir com vocês, a três ou quatro antibióticos. E essa bactéria aqui, receptora,
+essa Pseudomonas, ela não tinha resistência,. só que depois da conjugação, essa daqui vai continuar
+com o plasmídeo e essa daqui vai adquirir. Então, se o seu paciente lá no hospital estava com uma
+infecção por Pseudomonas, você estava tratando e essa bactéria do seu paciente fez contato com essa
+outra bactéria, agora essa Pseudomonas aqui ﬁcou resistente. Quatro antibióticos assim, numa só, ela
+vai ﬁcar resistente. Plasmídeos promíscuos conseguem viajar para qualquer bactéria gram-negativa.
+Existem plasmídeos promíscuos de bactéria gram- positiva. Viajam para qualquer gram-positiva. Se
+transferem pela conjugação.
+
+## slide-34.png
+Outro mecanismo de recombinação genética é a transdução. Aí tem a participação de vírus, onde os
+vírus infectam as bactérias e, quando estão infectando as bactérias, injetam seu material e se
+aproximam das bactérias por cargas eletrostáticas apenas. Depois que estão sobre a bactéria, injetam
+DNA para dentro da bactéria, interrompem o metabolismo bacteriano e fragmentam todo o DNA do genoma
+da bactéria. Depois, encapsulam fragmentos do DNA nessa cabeça aqui do fago, do bacteriófago. E às
+vezes, por erro, encapsulam, ao invés de pegar o DNA do fago, pegam o DNA aqui, esse azulzinho, do
+genoma da bactéria. E aí depois ele sai, forma a partícula fágica que vai fazer outro ciclo. E aí de
+novo ele injeta. Quando ele injetar esse DNA, ele pode injetar DNA de fago, mas também pode injetar
+DNA da bactéria anterior que ele visitou. Então, quando o DNA chega na bactéria, ele chega por
+intermédio, ele chega por um veículo, o veículo da transferência foi um fago, esse mecanismo é
+chamado transdução.
+
+## slide-35.png
+Existem dois tipos de transdução: a transdução generalizada, que praticamente foi isso que eu
+expliquei, e existe a transdução especializada. A especializada é quando esse fago, em vez de entrar
+na célula e já ir para o sítio lítico, existem vários fagos que, quando entram na célula, seguem um
+ciclo chamado lisogênico, que primeiramente se inserem no genoma e ﬁcam lá no genoma e a bactéria se
+divide por N divisões celulares. E somente no momento que a bactéria é exposta a um estresse
+qualquer, esse fago se excisa do genoma. E quando ele se excisa do genoma, geralmente carrega… no
+jeito aqui do material genético viral bacteriano, ele carrega um pedacinho da sequência vizinha de
+onde ele tinha se inserido. Então, as partículas fágicas vão ser montadas, claro, com o material
+genético do fago, mas carregando, muitas vezes, um pedaço do genoma do sítio que ele tinha se
+inserido. Então, é por isso que é chamado de transdução especializada. Bom, aí é repetindo o que eu
+falei para vocês, aqui mais detalhes. E aí vou falar dos transposons. Ah, isso aqui é importante só
+falar da transdução generalizada e da transdução de modo geral, que existem certas doenças
+bacterianas, como por exemplo a difteria, que é causada somente por Corynebacterium diphtheriae. A
+bactéria Corynebacterium está na nossa garganta normalmente, é um habitante normal da nossa
+microbiota normal do corpo humano. Mas quando o Corynebacterium diphtheriae é visitado por um
+bacteriófago, esse bacteriófago que ele é visitado carrega, codiﬁca, traz com ele a sequência de
+codiﬁcação de uma toxina, toxina diftérica. Então, somente quando a Corynebacterium diphtheriae
+recebe um fago, o fago ﬁca dessa forma, inserido no genoma. Inserido no genoma, passa a produzir a
+toxina diftérica e a Corynebacterium diphtheriae vai causar a difteria. E a bactéria que está nessa
+forma, que é assim, com o fago inserido no genoma, é chamada que ela sofreu conversão lisogênica.
+Então, aí o fago é o fator também de trazer material genético, fator de virulência para a bactéria.
+O outro jeito que a bactéria adquire virulência.
+
+## slide-36.png
+E nós vamos também discutir isso lá na aula de patogenicidade, que a gente vai ter alguns exemplos.
+Agora vamos falar dos elementos genéticos transponíveis. Estamos chegando no ﬁnalzinho. Elementos
+transponíveis, gente, são os transposons. Isso aqui foi um… vamos dizer assim, foi a última luz
+clássica que surgiu no genoma dos seres vivos. E não se entendia direito o que ele era. Porque a
+maioria dos genes tem uma posição ﬁxa no cromossomo. Tanto em bactéria como no nosso cromossomo, em
+planta, tudo.
+
+## slide-37.png
+Nos anos 40, apareceu uma coisa bastante estranha, que foi descoberta pela Bárbara McClintock, essa
+senhora que está aqui olhando para nós, com essa cara de desconﬁança, que ganhou o Prêmio Nobel,
+está na minha aula, só tem Prêmio Nobel. E a Bárbara McClintock se viu de frente com uma
+estabilidade genética muito alta em espiga de milho. Então, os grãozinhos de milho, a espiga em vez
+de ter uma bonitinha assim igual essa que está aqui no fundo, toda amarelinha, a espiga selvagem de
+milho, a espiga natural de milho, quando você vai lá na natureza, tem grãozinhos claros e escuros,
+às vezes enegrecidos e às vezes avermelhados. E essa instabilidade que ela se olhou para isso, ela
+não conseguia entender, porque naquela época, em 1940, ela olhava para isso e falava, mas o que é
+isso? Isso não pode ser mutação, não pode ser recombinação, o pé de milho está lá, não está
+recombinando com nada, como é que… a espiga, como é que está aparecendo essas espigas. Então, ela
+não conseguia entender.
+
+## slide-38.png
+E aí… não conseguia explicar pelos mecanismos que ela estava… isso aí muitos anos, muita pesquisa,
+muito número, muita observação. E aí, então, ela propôs que ela, Bárbara McClintock, por isso que
+ela ganhou o Prêmio Nobel, ela não conseguiu explicar o que era molecularmente, mas ela conseguiu
+criar várias perguntas e vários nomes foram criados. Então, assim, elementos controladores,
+cassetes, genes saltadores, genes que roveram. Roverar é aquilo que o helicóptero faz, ele rovera.
+Genes móveis, elementos genéticos móveis, transposons, aí pegou esse nome, elementos genéticos
+transponíveis. E hoje em dia, mais abreviadamente, transposons. Então, quando você vê uma coisa que
+tem muito nome e que as pessoas não estão entendendo, signiﬁca que você não está entendendo o que
+está acontecendo. A clareza sobre isso somente surgiu depois com os estudos, em 1960, com bactérias.
+Porque bactérias, o genoma de bactéria é bem mais fácil para a gente entender do que o genoma de
+milho. Então aí foi possível trazer luz sobre isso. Aí que se veriﬁcou no genoma de milho,
+analisando sequências de DNA de plasmídeos bacterianos. Vamos direto já para o ponto. Toda
+resistência a um antibiótico, por exemplo, beta-lactamase. Beta-lactamase é aquela enzima que quando
+a bactéria produz, ela excreta para fora e se tiver ampicilina, qualquer penicilina, ampicilina é o
+derivado, beta-lactâmico, antibiótico beta- lactâmico, ela vai clivar, vai clivar o anel beta-
+lactâmico. Se essa enzima cliva o anel beta-lactâmico, a bactéria cresce ali, ela é resistente, ela
+ignora o antibiótico. E o que você veriﬁcou é que essa resistência aqui, a beta-lactamase, ela é
+ladeada por uma sequência, quando você vai fazer uma sequência aqui, sequenciamento do DNA, por
+sequências que são repetidas e invertidas, como a minha mão assim. Então, digamos que assim, aqui
+você tinha o gene da beta- lactamase, ladeado por sequências repetidas e invertidas, IR, inverted
+repeats, ok? Então, aí essas sequências inverted repeats, eles foram veriﬁcar, tinha outras enzimas
+codiﬁcando, essa enzima transposase, essa enzima transposase fazia com que essa sequência saltasse
+dessa posição do genoma, faz um loop, aquela pontinha, e salta para outra posição do genoma. E como
+é que salta para outra posição do genoma? Se formar uma bactéria E. coli, que está tudo muito bem
+esclarecido, como é que eles encontraram esses IR, essas sequências aqui, inverted repeats,
+presentes também no cromossomo bacteriano, presentes em vários plasmídeos. Então esse IR ali tem
+cerca de dezenas de pares de base, parecia um durex, aonde ele achava outro IR, ele batia assim,
+batia assim e se inseria, né?
+
+## slide-39.png
+Vamos ver outro aqui. O transposon Tn9. O Tn9 é da resistência ao cloranfenicol, ladeado também por
+esses IR aqui. O transposon Tn10 é da resistência à tetraciclina, ladeado também por essa sequência.
+Às vezes, esse IR é mais complexo, que é a insertion sequence, que pode ser invertida também, ou às
+vezes pode ser sequência direta. Mas são sequências palindrômicas. O que é palindrômica? Ela diz
+assim: “subi no ônibus” e de trás para frente também é “subi no ônibus”. A letra é A, T, C, G. Daqui
+para lá, A, T, C, G de lá para cá. Sequências palindrômicas. E essas sequências palindrômicas
+repetidas você encontra no genoma.
+
+## slide-40.png
+Está muito complicado? Vamos ver aqui mais detalhes e vai ﬁcar mais claro. Por exemplo, alguns
+transposons de bactéria. Vocês vão ver qu e não é só em bactéria que tem transposon, não. Olha, a
+ampicilina tem vários transposons. O que quer dizer transposon, então? É um gene de resistência
+ladeado por sequências repetidas e invertidas. Aí eu estou vendo um transposon aqui diferente, Tn4,
+que tem ampicilina, estreptomicina, sulfonamida. Exatamente, um transposon pode, no meio dele, no
+meio dessas sequências repetidas e invertidas, ter sequência de várias resistências antibióticas.
+Tn5, canamicina; Tn6, canamicina. Ah, então quer dizer que cada marcador de resistência pode estar
+presente em diferentes transposons? Sim, de acordo com a sequência que está ali ladeando. Tem vários
+aqui: Tn9, Tn10, tetraciclina, né? Então, tem vários. Vamos ver isso tudo? Ah, antes da gente
+avançar, olha lá. Você tem aqui esse Tn, a ampicilina aqui, ó, 4.954. Aquele inverte, ele repete
+4.000. Imagina 4.957 repetidinho desse lado daquele outro em sentido inverso. É um verdadeiro
+chiclete, é um verdadeiro durex para grudar onde achar o outro e é igual, né?
+
+## slide-41.png
+Aqui nós estamos vendo agora a fotograﬁa de um plasmídeo de verdade, que tem materialidade. Agora
+que a gente vai entender melhor. Então, digamos que você está diante de um plasmídeo. Vamos pegar
+esse pedacinho aqui, olha lá, o Tn10. Tn10 a gente tinha visto ele aqui, ó, Tn10. Esse é a
+tetraciclina, você viu ele aqui. Agora vamos ver o Tn10 aqui dentro desse plasmídeo. Plasmídeo
+circular, dupla ﬁta, né? E o Tn10 está aqui. A resistência tetraciclina é ladeada pelo IS10. Está
+vendo? Então, essa sequência está ladeando ele. Vamos pegar agora esse outro determinante de
+resistência. IS1- IS1. É um transposon gigantão que tem várias resistências aqui dentro dele,
+codiﬁcadas: cloranfenicol, canamicina, estreptomicina, ampicilina, resistência a mercúrio. Dentro
+desse IS1 tem um Tn5 e um Tn3. Isso, essas sequências aqui que ladeiam esse grande transposon, vão
+encontrar outras regiões IS1 no genoma e isso aqui pode fazer um pop-out e sair e ligar. Pode sair
+do plasmídeo e se inserir no cromossomo. E se a bactéria tem mais de um plasmídeo, ele pode sair de
+um plasmídeo e ir para outro plasmídeo. Mas geralmente quando ele sai, não é que ele sai inteiro,
+ele manda uma cópia, ele manda uma ﬁta, a outra ﬁca. Então, na verdade, duplica esses determinantes
+de resistência. E vocês vão me perguntar, e daí? Para mim, o que me importa saber se isso daqui
+salta, se isso aqui não salta? Para mim, interessa saber se a bactéria é resistente. Muito bem,
+falou bem. Acontece o seguinte: se a bactéria adquire um plasmídeo, o plasmídeo, já mostrei para
+vocês, ele pode ser perdido ao longo das divisões. Agora, se essas sequências, se esses transposons
+saltam do plasmídeo e vão para o genoma, o que você vai construir? Você vai construir bactérias que
+têm essas sequências que estavam no plasmídeo e que agora migraram para o genoma. E migrando no
+genoma, qual é a consequência? Aumentou a estabilidade. Será que eu só tenho nesse plasmídeo
+sequências que codiﬁcam resistência? Não, não. Você tem sequências aqui no meio que podem codiﬁcar
+invasão, adesão, produção de toxina. Tudo isso pode estar no plasmídeo uma hora e depois ter viajado
+para o cromossomo, criando regiões no cromossomo da bactéria chamadas de ilhas de patogenicidade.
+Ilhas de maldade. Então, uma hora a bactéria de um plasmídeo, por exemplo, eu falei para vocês que o
+plasmídeo pode vir de uma bactéria de uma espécie para outra espécie, de um gênero para outro
+gênero. Então, a bactéria E. coli viu uma bactéria Shigella e elas se encontraram, né? No evento, a
+bactéria Shigella, que é toda cheia de maldade, encontrou com a bactéria E. coli, passou o
+plasmídeo. Passou o plasmídeo, o plasmídeo está lá se dividindo. Aí esses transposons saltaram do
+plasmídeo para o genoma. A bactéria E. coli agora criou no genoma uma região que não tinha. Essa
+região, como é que é chamada? Ilha de patogenicidade. Como é que eu sei que é uma ilha de
+patogenicidade? Porque a sequência do DNA da bactéria E. coli tem uma certa riqueza em porcentagem
+de CG. Tem tantos porcentos de CG. E a de Shigella tem outra porcentagem de CG. Você vai olhar no
+genoma, bem na região que você está olhando lá, a sequência que está codiﬁcando a toxina, a
+invasina, aquela região, você vê que a porcentagem do CG está é diferente, está batendo com a outra
+bactéria. Você consegue até fazer uma polícia ali, uma investigação, e tentar fazer uma ideia de
+onde é que foi que essa bactéria capturou essa sequência. Isso é bonito de ver.
+
+## slide-42.png
+Bom, aqui é um outro plasmídeo R, só para mostrar para vocês, os plasmídeos R de resistência,
+codiﬁcando resistência a todos esses antibióticos aqui: tetraciclina, cloranfenicol, estreptomicina,
+sulfa, ampicilina e mercúrio. Você vai falar, determinante, tem vários outros determinantes, é que
+geralmente quando você olha, se encontra esse R. Depois aí na frente a gente vai mostrar para vocês
+plasmídeo, né? Outra aula de patogenicidade. Esses plasmídeos mostrando outras regiões aqui.
+
+## slide-43.png
+Bom, gente, aí para terminar, só um assunto bem rápido, a questão do CRISPR-Cas9. CRISPR-Cas9, o
+CRISPR, que é bastante moderno, é um outro assunto que não impacta vocês diretamente, mas
+basicamente é um assunto que está aí na pesquisa. O sistema CRISPR-Cas9 foi descoberto, o CRISPR foi
+descoberto mais recentemente, bem recente, e você percebe regiões repetidas no genoma da bactéria.
+Essas regiões são repetidas, são chamadas repetições palindrômicas. É curto, palindrômica é aquela
+região que vai para cá, para cima e para baixo é idêntica. Palindrômicas curtas que são agrupadas e
+regularmente intercaladas. E nesse intercalamento encontram-se sequências de bacteriófagos. Então,
+percebeu-se que as bactérias usam essa estrutura para se preservar de reinfecções virais. E como é
+que ela faz isso? Quando ela sofre uma infecção por um bacteriófago, ela deixa uma sequência do
+fragmento desse vírus ali, e se ela for reinfectada com aquele vírus, essa sequência do vírus,
+quando entra no genoma, a bactéria vai lá e excisa. E o pessoal da biologia molecular, usando essa
+ideia, está usando esse princípio natural da bactéria para fazer construção de recombinantes
+moleculares. Então, só para estar aí para vocês, tem um ﬁlmezinho ali que você pode ver essa
+sequência funcionando. Então, a identiﬁcação é sequências estranhas no genoma, ela consegue cortar.
+E essa maquinaria de corte especíﬁco está sendo usada na biologia molecular para fazer toda uma
+clonagem molecular.
+
+## slide-44.png
+Isso está sendo possível fazer clonagem não só em bactéria, como em levedura e em outros sistemas
+biológicos. E a biologia molecular está avançando muito por causa dessa ferramenta nova. E eu não
+vou me detalhar muito sobre isso. Bom, aqui deixei questões simples para vocês só brincarem,
+praticamente, porque diante de uma aula dessa complexidade, isso aqui são perguntas bastante
+simples, mas são perguntas do capítulo do livro, do capítulo do livro sobre genética. Mas vocês
+estão vendo que é bastante simples, que vocês têm condição de acertar isso assim, brincando, que
+vira uma brincadeira mesmo, tão simples que é. E aí eu quero agradecer a vocês a atenção de estarem
+aqui vendo essa aula, né? E a gente discute, lembrar das perguntas que eu deixei para vocês, a gente
+discute no nosso encontro que a gente vai ter para discutir essa aula.

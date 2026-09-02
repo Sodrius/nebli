@@ -1,0 +1,58 @@
+slug: micro-06-genetica-bacteriana
+titulo: "Genética bacteriana"
+subtitulo: "Microbiologia"
+meta:
+  - ["Disciplina", "Microbiologia"]
+  - ["Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Brock — Biologia dos Micro-organismos (cap. 9–11) · Snyder & Champness — Molecular Genetics of Bacteria"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O genoma bacteriano"
+        subtopicos:
+          - "1.1 Onde fica o DNA bacteriano"
+          - "1.3 Plasmídeo: replicon acessório"
+          - "1.4 Replicação e partição"
+      - titulo: "PARTE II — Mutação e reparo"
+        subtopicos:
+          - "2.1 O erro que a química impõe"
+          - "2.3 Destinos do DNA lesado"
+          - "2.4 Quando reparar deixa de servir"
+      - titulo: "PARTE III — Recombinação"
+        subtopicos:
+          - "3.1 Transformação: DNA nu"
+          - "3.2 Conjugação: contato e Hfr"
+          - "3.4 Transposons e ilhas"
+gabarito:
+  consolidacao:
+    - ["01", "D"]
+    - ["02", "CEEC"]
+    - ["03", "B"]
+    - ["04", "B"]
+    - ["05", "E"]
+    - ["06", "CCEE"]
+    - ["07", "A"]
+    - ["08", "C"]
+  integracao:
+    - ["09", "E"]
+    - ["10", "CEEE"]
+    - ["11", "CECC"]
+    - ["12", "D"]
+    - ["13", "D"]
+    - ["14", "ECCE"]
+    - ["15", "A"]
+    - ["16", "CCCE"]
+    - ["17", "C"]
+    - ["18", "B"]
+    - ["19", "ECEE"]
+    - ["20", "E"]
+    - ["21", "E"]
+    - ["22", "ECCC"]
+    - ["23", "A"]
+    - ["24", "CCEC"]
+    - ["25", "C"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "B"]
+    - ["28", "EECE"]
+    - ["29", "C"]
+    - ["30", "E"]

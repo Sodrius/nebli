@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Um paciente com infarto agudo do miocárdio desenvolve, nas 48 horas seguintes, infiltrado neutrofílico intenso na área necrótica, sem qualquer evidência de infecção. Por que a inflamação se instala com essa intensidade na ausência de micro-organismo],
-  (("A", [Porque a isquemia gera hipóxia local e a hipóxia é reconhecida diretamente pelos receptores Toll-like da superfície do cardiomiócito, que respondem à queda de oxigênio disparando transcrição de citocinas inflamatórias.]),
-   ("B", [Porque o tecido necrótico expõe colágeno subendotelial que ativa apenas a cascata da coagulação, e é a trombina formada localmente o único mediador capaz de recrutar neutrófilo na inflamação estéril.]),
-   ("C", [Porque as células mortas liberam moléculas próprias que normalmente ficam confinadas — ATP, potássio, DNA mitocondrial, HMGB1 — e essas moléculas de dano são lidas pelos mesmos receptores de padrão que reconhecem micróbios.]),
-   ("D", [Porque a ausência de micróbio remove a inibição que os padrões microbianos exercem sobre o macrófago residente, liberando-o para produzir citocina de forma desregulada e recrutar neutrófilo em excesso no foco.]),
-   ("E", [Porque a inflamação estéril depende de anticorpos naturais preexistentes contra antígenos cardíacos, que formam imunocomplexos com proteínas liberadas do miócito e ativam a via clássica do complemento no tecido.])))
+  [O cromossomo de _E. coli_ mede cerca de mil vezes o comprimento da célula que o abriga. O que torna essa acomodação possível — e por que ela interessa à farmacologia:],
+  (("A", [O envoltório nuclear bacteriano comprime o cromossomo em cromatina densa, e é essa compactação por histonas que as quinolonas desfazem assim que entram na célula.]),
+   ("B", [A cadeia se dobra passivamente por falta de espaço no citoplasma, sem consumo de energia e sem participação enzimática — o alvo antibiótico correspondente é a própria membrana.]),
+   ("C", [A DNA polimerase compacta o anel enquanto o replica, e as quinolonas atuam impedindo a síntese das novas fitas durante essa compactação simultânea à cópia.]),
+   ("D", [Topoisomerases mantêm o anel superenovelado gastando energia, cortando e religando as fitas; a DNA girase faz esse trabalho e é justamente o alvo das quinolonas.]),
+   ("E", [O cromossomo circular se fragmenta em segmentos menores durante a interfase bacteriana, e cada fragmento é acomodado à parte por proteínas semelhantes às nossas laminas.])))
 
-#questao-mc("02", badge-consolidacao,
-  [Sobre as propriedades dos receptores de reconhecimento de padrões da imunidade inata, assinale a alternativa *incorreta*:],
-  (("A", [Cada receptor é gerado por recombinação somática de segmentos gênicos durante a maturação da célula, o que produz um repertório de milhões de especificidades distintas e permite expansão clonal com memória.]),
-   ("B", [São codificados na linhagem germinativa, de modo que o receptor é idêntico em todas as células que o expressam e não depende de encontro prévio com o agente para estar disponível.]),
-   ("C", [Reconhecem estruturas moleculares conservadas que o micróbio não pode perder sem prejuízo de viabilidade, como lipopolissacarídeo, peptidoglicano, flagelina e glicanos de manose terminal expostos na superfície.]),
-   ("D", [Reconhecem também moléculas próprias deslocadas de seu compartimento normal, como ATP extracelular e DNA mitocondrial citosólico, o que explica a inflamação disparada por trauma e por isquemia.]),
-   ("E", [Distribuem-se em três compartimentos — solúvel no plasma, associado a membrana e citosólico — e a localização de cada um informa em que compartimento do tecido o agente se encontra.])))
+#questao-ce("02", badge-consolidacao,
+  [Julgue os itens sobre a natureza e o comportamento do DNA plasmidial:],
+  (("I",   [O plasmídeo tem origem de replicação própria e por isso se duplica independentemente do ciclo de replicação do cromossomo.]),
+   ("II",  [A identificação da espécie bacteriana baseia-se no conteúdo do plasmídeo, de modo que perdê-lo converte a bactéria em outra espécie.]),
+   ("III", [Todo plasmídeo presente numa bactéria é capaz de se transferir por conjugação para uma célula vizinha em contato.]),
+   ("IV",  [Plasmídeos conjugativos tendem a ser grandes, porque carregam a maquinaria de transferência, e por isso costumam existir em baixo número de cópias.])))
 
-#questao-ce("03", badge-consolidacao,
-  [A família de receptores Toll-like distribui seus membros entre a membrana plasmática e o compartimento endossômico. Julgue os itens abaixo:],
-  (("I",   [Os receptores que reconhecem ácidos nucleicos virais e bacterianos localizam-se em vesículas endossômicas, e essa reclusão restringe a leitura ao material genético que chegou por endocitose.]),
-   ("II",  [O reconhecimento do lipopolissacarídeo pelo TLR4 dispensa proteínas acessórias, uma vez que o domínio extracelular do receptor acomoda o lipídeo A diretamente, sem participação de CD14 ou de MD-2.]),
-   ("III", [A via de sinalização converge na liberação do NF-κB, que migra ao núcleo e induz a transcrição de citocinas inflamatórias e de moléculas de adesão endotelial.]),
-   ("IV",  [Como o produto final da via é a transcrição de genes, o efeito biológico do estímulo do receptor aparece em horas, e não em segundos como o das aminas vasoativas pré-formadas.])))
+#questao-mc("03", badge-consolidacao,
+  [Por que uma cultura irradiada com luz ultravioleta trava a replicação, mesmo sem que nenhuma base tenha sido trocada por outra:],
+  (("A", [A ultravioleta ioniza o esqueleto de açúcar-fosfato e rompe as duas fitas no mesmo ponto; a forquilha não avança porque a molécula perdeu continuidade física.]),
+   ("B", [O fóton força ligação covalente entre pirimidinas vizinhas da mesma fita; o par fundido deixa de parear, a hélice dobra e a polimerase não encontra molde legível.]),
+   ("C", [A ultravioleta remove o grupo amina da citosina, que passa a ser lida como uracila; a polimerase reconhece a base estranha e interrompe a síntese até removê-la.]),
+   ("D", [O fóton insere uma molécula planar entre dois pares de base empilhados, deslocando a fase de leitura da polimerase a partir daquele ponto do molde.]),
+   ("E", [A ultravioleta liga um radical metila ao oxigênio da guanina, que passa a parear com timina, e a polimerase trava ao detectar o pareamento irregular.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Como se explica que o fluxo sanguíneo desacelere até a estase num foco inflamatório em que as arteríolas estão dilatadas e o aporte de sangue aumentou],
-  (("A", [A vasodilatação arteriolar é acompanhada de vasoconstrição venular reflexa e sustentada, e é o aumento da resistência na saída do leito que represa a coluna de sangue e reduz sua velocidade.]),
-   ("B", [O consumo local de oxigênio pelos leucócitos recrutados reduz a saturação da hemoglobina, e o sangue dessaturado tem viscosidade maior, o que por si só é suficiente para produzir a estase observada.]),
-   ("C", [A trombina gerada pela ativação do fator XII forma microtrombos de fibrina que obstruem parcialmente a luz venular, e essa obstrução mecânica progressiva é a causa primária da lentificação do fluxo.]),
-   ("D", [O aumento da permeabilidade venular deixa escapar plasma para o interstício; as hemácias ficam retidas, a fração celular do sangue sobe, a viscosidade aumenta, e sangue mais viscoso corre mais devagar.]),
-   ("E", [A dilatação arteriolar reduz a pressão de perfusão a jusante por queda da resistência total, e a menor diferença de pressão entre entrada e saída do leito capilar diminui a velocidade linear do fluxo.])))
+  [Sobre a replicação e a partição do material genético bacteriano, assinale a alternativa *incorreta*:],
+  (("A", [A replicação parte de uma origem única e segue por duas forquilhas em sentidos opostos, que percorrem cada uma metade do anel e se encontram do lado oposto.]),
+   ("B", [Ao fim da divisão, uma célula-filha recebe o anel formado pelas duas fitas antigas e a outra recebe o anel formado pelas duas fitas recém-sintetizadas.]),
+   ("C", [As duas cópias do cromossomo são ancoradas em pontos opostos da célula antes do fechamento do septo, de modo que cada filha recebe exatamente uma delas.]),
+   ("D", [Plasmídeos replicam-se a partir de origem própria e se distribuem com o citoplasma, sem o sistema de segregação ativa de que o cromossomo dispõe.]),
+   ("E", [Um plasmídeo presente em poucas cópias pode ir inteiro para uma única célula-filha, gerando na população células geneticamente diferentes das irmãs.])))
 
-#questao-ce("05", badge-consolidacao,
-  [O aumento da permeabilidade vascular na inflamação aguda pode ser produzido por mais de um mecanismo. Julgue os itens:],
-  (("I",   [A contração da célula endotelial induzida por histamina produz aumento de permeabilidade imediato e sustentado por vários dias, porque a fenda intercelular aberta permanece independentemente da depuração do mediador.]),
-   ("II",  [A lesão endotelial direta por queimadura ou toxina produz aumento de permeabilidade imediato e sustentado, porque a recuperação depende de reparo do endotélio e não da depuração de um mediador.]),
-   ("III", [O líquido que sai por essa barreira quebrada é exsudato, rico em proteína e em células, distinto do transudato, que decorre de desequilíbrio de pressões com barreira vascular íntegra.]),
-   ("IV",  [A lesão endotelial mediada por leucócito instala-se nos primeiros segundos após o estímulo, antes mesmo do rolamento, sendo o primeiro dos três mecanismos a operar no foco.])))
+#questao-mc("05", badge-consolidacao,
+  [Uma célula bacteriana recebe uma dose de agente genotóxico que danifica seu DNA. Os desfechos possíveis para essa molécula lesada são:],
+  (("A", [Reparação correta, reparação incorreta, ou integração da lesão ao genoma como novo gene funcional, conforme a fase do ciclo em que a célula se encontra.]),
+   ("B", [Apenas reparação correta ou morte celular, porque nenhum sistema enzimático conhecido é capaz de prosseguir a replicação sobre uma fita que contenha lesão.]),
+   ("C", [Reparação correta, transferência da lesão à célula-filha por conjugação, ou remoção do trecho danificado por excisão sem ressíntese, o que encurta o cromossomo.]),
+   ("D", [Mutação obrigatória em todos os casos, porque a presença de lesão suprime permanentemente a atividade revisora da polimerase daquela célula e das descendentes.]),
+   ("E", [Reparação correta com restauração da sequência, ausência de reparo com morte celular, ou reparo que tolera a lesão e deixa erro — a origem da mutação induzida.])))
 
-#questao-mc("06", badge-consolidacao,
-  [Qual é o papel funcional da quimiocina apresentada na superfície luminal do endotélio inflamado, durante a cascata de adesão leucocitária],
-  (("A", [Formar um gradiente de concentração no interior da luz vascular que atrai quimiotaticamente o leucócito circulante em direção à parede, substituindo a marginação física produzida pela estase do fluxo.]),
-   ("B", [Ativar a integrina que já está na membrana do leucócito, convertendo-a da conformação dobrada de baixa afinidade para a conformação estendida de alta afinidade, capaz de agarrar firmemente o ICAM-1.]),
-   ("C", [Induzir a síntese de novas moléculas de integrina no leucócito em rolamento, processo que depende de transcrição gênica e explica o intervalo de horas entre o estímulo inflamatório e a adesão firme.]),
-   ("D", [Estabilizar a ligação entre selectina endotelial e ligante leucocitário, aumentando a afinidade dessa interação até o ponto em que ela sozinha é capaz de interromper o rolamento e imobilizar a célula.]),
-   ("E", [Degradar localmente a membrana basal do vaso e a matriz adjacente, abrindo o caminho físico por onde o leucócito aderido atravessará a parede em direção ao interstício inflamado.])))
+#questao-ce("06", badge-consolidacao,
+  [Julgue os itens sobre os sistemas de reparo do DNA:],
+  (("I",   [A DNA fotoliase desfaz o dímero de pirimidina com energia de luz visível e restaura a sequência sem remover nenhuma base.]),
+   ("II",  [O reparo recombinacional depende de uma segunda cópia da região e por isso só opera depois que aquele trecho já foi replicado.]),
+   ("III", [O reparo por excisão de nucleotídeo remove uma única base quimicamente alterada e deixa um sítio abásico, preenchido diretamente pela ligase.]),
+   ("IV",  [A tolerância a lesões é o mais fiel dos sistemas sob alta carga de dano, porque restaura a sequência original antes de a forquilha avançar.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Sobre os mecanismos microbicidas do neutrófilo ativado no interior do fagossomo. Julgue os itens:],
-  (("I",   [A NADPH oxidase transfere elétrons ao oxigênio molecular gerando superóxido; a dismutação deste produz peróxido de hidrogênio, que a mieloperoxidase converte em hipoclorito na presença de cloreto.]),
-   ("II",  [A explosão respiratória não gera ATP: o oxigênio consumido é empregado na fabricação de oxidantes, e os elétrons usados vêm do NADPH produzido na via das pentoses-fosfato.]),
-   ("III", [A cobertura do alvo por C3b e por IgG é irrelevante para a eficiência da captura, uma vez que o receptor de manose do fagócito realiza sozinho o reconhecimento com a mesma eficácia.]),
-   ("IV",  [A armadilha extracelular do neutrófilo é composta por cromatina descondensada associada a enzimas granulares, expelida para o meio extracelular, e sua formação em geral custa a vida da célula.])))
+#questao-mc("07", badge-consolidacao,
+  [O que define um evento como transformação genética não é o material transferido, e sim o veículo da transferência. Por essa definição, ocorre transformação quando:],
+  (("A", [DNA livre no meio, liberado por bactérias que se romperam ali perto, atravessa a membrana da célula receptora sem intermediário algum e sem contato entre células.]),
+   ("B", [Um fragmento do cromossomo de uma bactéria é embalado numa cápsula viral e injetado na célula receptora, que passa a expressar os genes contidos nele.]),
+   ("C", [Uma fita do plasmídeo atravessa um canal formado na junção entre duas células em contato físico, e cada um dos lados ressintetiza a fita complementar.]),
+   ("D", [Um segmento ladeado por repetições invertidas é cortado do plasmídeo por uma transposase e inserido em outro ponto do genoma da mesma célula.]),
+   ("E", [O cromossomo inteiro da célula doadora é mobilizado por um fator de fertilidade integrado a ele e transferido em ordem para a célula receptora.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Após a clivagem do C3 pela C3 convertase, os dois fragmentos gerados têm destinos e funções distintos. Qual alternativa descreve corretamente essa divisão],
-  (("A", [O fragmento maior, C3b, difunde-se pelo interstício e atua como anafilatoxina degranulando mastócitos, enquanto o menor, C3a, permanece ligado à superfície do alvo funcionando como opsonina.]),
-   ("B", [Ambos os fragmentos permanecem ligados covalentemente à superfície onde a convertase se formou, e a diferença entre eles está apenas na afinidade relativa pelos receptores do fagócito.]),
-   ("C", [O fragmento C3a nucleia diretamente a montagem do complexo de ataque à membrana, ao passo que o C3b é rapidamente inativado por proteínas reguladoras presentes no plasma circulante.]),
-   ("D", [Os dois fragmentos difundem-se livremente e agem como quimioatraentes de potência equivalente para o neutrófilo, sendo a opsonização realizada exclusivamente pela imunoglobulina G ligada ao antígeno.]),
-   ("E", [O fragmento maior, C3b, liga-se covalentemente à superfície e opsoniza o alvo para o fagócito, enquanto o menor, C3a, difunde-se e atua como anafilatoxina sobre mastócito e vaso.])))
+  [Um transposon salta de uma molécula de DNA para outra dentro da mesma célula. As peças mínimas que tornam esse salto possível são:],
+  (("A", [Duas origens de replicação nas extremidades, que permitem ao elemento se duplicar independentemente do replicon em que estiver inserido naquele momento.]),
+   ("B", [Um promotor único numa das pontas e uma integrase que captura cassetes gênicos sem promotor próprio, inserindo-os em fila num sítio de recombinação.]),
+   ("C", [Repetições invertidas nas duas extremidades, que servem de sítio de reconhecimento, e o gene de uma transposase codificada no interior do elemento, que corta e insere.]),
+   ("D", [Uma origem de transferência e uma relaxase que corta uma das fitas e a conduz através do canal montado entre duas células bacterianas em contato.]),
+   ("E", [Um sítio de integração específico no cromossomo bacteriano e uma integrase viral que reconhece esse sítio e insere ali o genoma do elemento móvel.])))
 
 #questao-mc("09", badge-integracao,
-  [Em camundongo com deleção do adaptador MyD88, o endotélio da microcirculação exposto a lipopolissacarídeo não expressa E-selectina nem ICAM-1, e o recrutamento de neutrófilos fica abolido. Qual sequência explica esse fenótipo],
-  (("A", [A ausência do adaptador impede a montagem da NADPH oxidase no neutrófilo, e sem produção de oxidantes a célula não consegue aderir ao endotélio nem completar a diapedese pela junção intercelular.]),
-   ("B", [A deleção bloqueia a clivagem do C5 e suprime a produção de C5a; sem o principal quimioatraente do foco, o neutrófilo não recebe o sinal de ativação da integrina e permanece circulando na luz vascular.]),
-   ("C", [Sem o adaptador não há liberação do NF-κB; sem esse fator de transcrição, o endotélio não transcreve as moléculas de adesão induzíveis, e o leucócito perde os pontos de ancoragem necessários para parar na parede.]),
-   ("D", [A deleção impede a ativação da fosfolipase que libera ácido araquidônico, de modo que não se formam leucotrienos, e o neutrófilo deixa de expressar as selectinas necessárias ao rolamento sobre o endotélio.]),
-   ("E", [O adaptador é necessário para a exocitose dos grânulos endoteliais que contêm P-selectina pré-formada, e sem esse passo inicial de rolamento nenhuma das etapas subsequentes da cascata pode ocorrer.])))
+  [Uma cultura de _E. coli_ portadora de plasmídeo de resistência à ampicilina é mantida por muitas gerações em meio sem antibiótico e depois semeada em duas placas — uma com ampicilina, outra sem. A placa com ampicilina apresenta menos colônias. O que explica a diferença:],
+  (("A", [O antibiótico induziu mutações no plasmídeo de parte da população, e essas células perderam a capacidade de expressar a beta-lactamase durante o crescimento na placa.]),
+   ("B", [A ampicilina inibiu a replicação do cromossomo nas células portadoras do plasmídeo, retardando a formação de colônia sem alterar o número de células viáveis semeadas.]),
+   ("C", [Na ausência de antibiótico o plasmídeo foi transferido por conjugação para o meio de cultura, de onde não pôde retornar às células que o cederam.]),
+   ("D", [As células perderam o plasmídeo porque ele foi degradado por enzimas de restrição da própria bactéria, que reconhecem o padrão de metilação estrangeiro daquele DNA.]),
+   ("E", [Parte das células perdeu o plasmídeo na partição, já que ele se distribui com o citoplasma sem segregação ativa; sem pressão seletiva, essas células cresceram na população.])))
 
 #questao-ce("10", badge-integracao,
-  [Um paciente internado por pneumonia apresenta proteína C reativa muito elevada. Julgue os itens sobre a relação entre reconhecimento inato e resposta hepática:],
-  (("I",   [A proteína C reativa é um receptor de padrão solúvel: liga fosfocolina exposta em parede bacteriana e em célula morta, opsoniza o alvo e ativa a via clássica do complemento.]),
-   ("II",  [A elevação plasmática decorre da síntese aumentada pelo próprio neutrófilo recrutado ao foco pulmonar, que exporta a proteína pronta para a circulação sem participação do fígado.]),
-   ("III", [Como a proteína C reativa é gerada por rearranjo somático de segmentos gênicos no hepatócito, sua especificidade aumenta a cada exposição, o que caracteriza memória humoral inata.]),
-   ("IV",  [A lectina ligadora de manose é também uma proteína de fase aguda, de modo que a resposta hepática amplifica simultaneamente duas portas distintas de ativação do complemento.])))
+  [Julgue os itens sobre a DNA girase e sua relação com as quinolonas:],
+  (("I",   [A DNA girase introduz torção negativa cortando as duas fitas, passando um segmento do anel pela abertura e religando o corte.]),
+   ("II",  [A quinolona inibe a DNA polimerase bacteriana, impedindo a incorporação de novos nucleotídeos na forquilha de replicação.]),
+   ("III", [O superenovelamento do cromossomo bacteriano ocorre passivamente, por falta de espaço no citoplasma, sem consumo de energia.]),
+   ("IV",  [A resistência à quinolona por alteração da girase exige a aquisição de um gene novo, trazido por plasmídeo conjugativo.])))
 
-#questao-mc("11", badge-integracao,
-  [Paciente com crise aguda de gota no hálux. A articulação está quente, vermelha e extremamente dolorosa, e o líquido sinovial mostra cristais de urato monossódico e neutrófilos abundantes. Qual encadeamento mecanístico sustenta esse quadro],
-  (("A", [O cristal fagocitado desestabiliza o fagolisossomo e dispara efluxo de potássio e espécies reativas; o NLRP3 se monta, a caspase-1 corta a pró-interleucina-1β, e a citocina madura ativa o endotélio sinovial recrutando neutrófilos.]),
-   ("B", [O cristal, por ser insolúvel, é reconhecido diretamente pelo TLR2 de superfície do sinoviócito, que sinaliza por MyD88 e induz a secreção imediata de interleucina-1β já madura estocada em grânulos citoplasmáticos.]),
-   ("C", [A hiperuricemia satura os transportadores tubulares renais e o urato circulante ativa a via clássica do complemento por ligação ao C1q, gerando C5a em quantidade suficiente para recrutar neutrófilo para a sinóvia.]),
-   ("D", [As arestas do cristal lesam mecanicamente a membrana do sinoviócito e do neutrófilo, e é o extravasamento de conteúdo citoplasmático dessas células rompidas o único mecanismo capaz de manter a resposta inflamatória.]),
-   ("E", [O cristal liga-se à albumina sinovial formando um neoantígeno reconhecido por anticorpos naturais preexistentes; o imunocomplexo depositado na cartilagem é o gatilho da resposta inflamatória local observada.])))
+#questao-ce("11", badge-integracao,
+  [Julgue os itens sobre a especificidade dos mecanismos que corrigem lesões induzidas por radiação:],
+  (("I",   [A DNA fotoliase reconhece a deformação do dímero, absorve energia de um fóton de luz visível e rompe a ligação covalente entre as duas pirimidinas.]),
+   ("II",  [A fotorreativação corrige também as quebras de dupla fita produzidas por radiação ionizante, desde que haja luz visível disponível.]),
+   ("III", [Uma cultura irradiada com ultravioleta e mantida sob luz ambiente apresenta menos mutantes do que a mesma cultura mantida no escuro.]),
+   ("IV",  [O reparo por excisão de nucleotídeo retira um oligonucleotídeo em torno da lesão volumosa e ressintetiza o trecho sobre a fita oposta.])))
 
 #questao-mc("12", badge-integracao,
-  [Durante a inflamação aguda, o leucócito abandona a coluna central de sangue e passa a trafegar rente à parede vascular. Qual é a relação entre os eventos hemodinâmicos e esse comportamento],
-  (("A", [A vasodilatação arteriolar aumenta a velocidade linear do sangue na vênula, e a força de cisalhamento elevada empurra o leucócito contra o endotélio, onde as selectinas então o capturam e iniciam o rolamento.]),
-   ("B", [A marginação é resultado exclusivo da expressão de selectinas na superfície endotelial, que capturam ativamente o leucócito na linha central do fluxo, independentemente de qualquer alteração da velocidade do sangue.]),
-   ("C", [A liberação de quimiocinas para a luz vascular cria um gradiente radial de concentração dentro do vaso, e é a quimiotaxia intraluminal ao longo desse gradiente que desloca o leucócito para a periferia da coluna.]),
-   ("D", [A perda de plasma para o interstício concentra as hemácias e eleva a viscosidade; o fluxo desacelera, e nesse regime lento o leucócito, maior e menos deformável, deixa a linha central e passa a rolar sobre a parede.]),
-   ("E", [A contração da célula endotelial reduz o calibre efetivo da vênula, e essa redução de área transversal força mecanicamente o leucócito contra a parede antes que qualquer molécula de adesão seja expressa ali.])))
+  [Posições do genoma em que a citosina está metilada acumulam trocas de C para T em frequência muito acima da média do restante da molécula. O mecanismo que explica esse acúmulo é:],
+  (("A", [A metilação impede o acesso da polimerase replicativa àquela posição, obrigando uma polimerase de translesão a copiá-la, e essa enzima insere timina preferencialmente.]),
+   ("B", [A citosina metilada é reconhecida pelas enzimas de restrição da própria bactéria, que clivam ali e obrigam um reparo recombinacional propenso a erro.]),
+   ("C", [A metilação torna a citosina mais suscetível à formação de dímero com a pirimidina vizinha, e a resolução desse dímero deixa uma timina no lugar.]),
+   ("D", [A desaminação espontânea da citosina metilada produz timina, base legítima do DNA; sem base estranha para sinalizar o dano, o sistema de vigilância não a remove.]),
+   ("E", [A desaminação da citosina metilada produz uracila, prontamente removida por glicosilase, e a lacuna resultante é preenchida ao acaso pela polimerase de reparo.])))
 
-#questao-ce("13", badge-integracao,
-  [Vinte minutos após uma picada de inseto, a pele apresenta pápula circundada por eritema. Julgue os itens sobre os mediadores e o mecanismo envolvidos:],
-  (("I",   [A histamina responsável pelo edema inicial estava pré-formada em grânulos do mastócito, o que explica seu efeito em segundos a minutos, sem necessidade de síntese proteica.]),
-   ("II",  [O edema decorre da contração da célula endotelial da vênula pós-capilar, com abertura de fenda intercelular, e não da dilatação de poros na membrana da célula endotelial.]),
-   ("III", [Além da ligação cruzada de IgE de superfície, as anafilatoxinas C3a e C5a, os neuropeptídeos e o trauma físico também são capazes de degranular o mastócito.]),
-   ("IV",  [O eritema que ultrapassa os limites do ponto picado só pode ser explicado por difusão passiva da histamina pelo interstício, já que a fibra sensitiva conduz o impulso apenas em direção à medula.])))
+#questao-mc("13", badge-integracao,
+  [A DNA polimerase bacteriana incorpora, em média, uma base errada a cada 10#super[8] bases. Considere um inóculo de 10#super[9] células de _E. coli_, cujo cromossomo tem cerca de 4,6 × 10#super[6] pares de base, replicando-se uma única vez. A ordem de grandeza do número de mutações introduzidas em toda a população nessa rodada é de:],
+  (("A", [Cerca de 10 mutações, porque a taxa se aplica ao genoma inteiro de cada célula e não a cada base individualmente incorporada durante a replicação.]),
+   ("B", [Cerca de 4,6 × 10#super[3] mutações, obtidas dividindo o tamanho do genoma pela taxa de erro, sem considerar o número de células presentes na população.]),
+   ("C", [Cerca de 10#super[9] mutações, uma por célula, porque cada genoma replicado acumula exatamente um erro, independentemente do tamanho que esse genoma tenha.]),
+   ("D", [Cerca de 4,6 × 10#super[7] mutações, resultado de multiplicar células por tamanho do genoma para obter as bases copiadas e dividir esse total pela taxa de erro.]),
+   ("E", [Cerca de 4,6 × 10#super[15] mutações, número que corresponde ao total de bases copiadas na população inteira e não ao total de erros cometidos ao copiá-las.])))
 
-#questao-mc("14", badge-integracao,
-  [Sobre a articulação entre o sistema complemento e a fagocitose no foco inflamatório, assinale a alternativa *incorreta*:],
-  (("A", [O C3b depositado covalentemente na superfície do micróbio é reconhecido por receptores de complemento do fagócito, e esse engajamento dispara a polimerização de actina que fecha o fagossomo.]),
-   ("B", [A cápsula polissacarídica de algumas bactérias dificulta a deposição estável de C3b na superfície, e é em parte por esse mecanismo que os encapsulados resistem à fagocitose eficiente.]),
-   ("C", [A lise direta pelo complexo de ataque à membrana é o principal mecanismo pelo qual o complemento elimina bactérias em geral, superando em importância clínica a opsonização e o recrutamento celular.]),
-   ("D", [O C5a acumula três funções no foco: aumenta a permeabilidade vascular, atrai o neutrófilo por quimiotaxia e ativa essa mesma célula, potencializando sua capacidade microbicida.]),
-   ("E", [A via alternativa inicia-se por hidrólise espontânea e contínua do C3 no plasma, e é a ausência de proteínas reguladoras na superfície microbiana que permite à cascata prosseguir ali.])))
+#questao-ce("14", badge-integracao,
+  [Julgue os itens sobre a resposta celular ao dano no DNA e suas consequências:],
+  (("I",   [Essa resposta mantém intacta a atividade revisora da polimerase, e por isso não altera a taxa de mutação da população.]),
+   ("II",  [O sinal que dispara a resposta é a fita simples exposta numa forquilha de replicação travada por lesão.]),
+   ("III", [O mesmo sinal que induz as polimerases de translesão pode induzir a excisão de um profago integrado ao cromossomo.]),
+   ("IV",  [Uma cultura tratada com dose subletal de quinolona apresenta taxa de mutação menor do que a mesma cultura sem antibiótico.])))
 
 #questao-mc("15", badge-integracao,
-  [Um politraumatizado sem qualquer foco infeccioso apresenta queda dos níveis séricos de C3 e sinais sistêmicos de inflamação. Qual mecanismo liga a lesão tecidual extensa ao consumo de complemento],
-  (("A", [O trauma expõe antígenos intracelulares que se combinam a imunoglobulina M natural, e é exclusivamente por essa via clássica dependente de anticorpo que o complemento pode ser consumido na ausência de infecção.]),
-   ("B", [A exposição de colágeno subendotelial autoativa o fator XII, que gera calicreína; a calicreína converte plasminogênio em plasmina, e a plasmina cliva diretamente o C3, gerando fragmentos ativos sem nenhuma das três vias canônicas.]),
-   ("C", [A hemorragia dilui as proteínas plasmáticas de forma proporcional, e a queda medida do C3 reflete apenas essa diluição, sem que haja consumo real por ativação da cascata do complemento no tecido.]),
-   ("D", [O tecido necrótico expõe manose terminal em glicoproteínas próprias desnaturadas, e a via das lectinas é a única capaz de consumir complemento em quadro estéril, por reconhecimento desse açúcar exposto.]),
-   ("E", [A trombina formada na coagulação inibe as proteínas reguladoras de membrana das células do hospedeiro, e o consumo observado decorre da lise autóloga de hemácias e endotélio pelo complexo de ataque à membrana.])))
+  [Sobre as barreiras que impedem uma bactéria naturalmente competente de incorporar indefinidamente DNA de outras espécies, assinale a alternativa *incorreta*:],
+  (("A", [Um fragmento linear captado do meio possui origem de replicação própria e por isso persiste no citoplasma indefinidamente, mesmo sem se recombinar com o cromossomo.]),
+   ("B", [A recombinação do fragmento captado com o cromossomo exige homologia de sequência, o que na prática restringe a troca produtiva a organismos aparentados.]),
+   ("C", [Enzimas de restrição clivam o DNA que entra quando ele não apresenta o padrão de metilação característico daquela linhagem, funcionando como triagem de origem.]),
+   ("D", [A competência é um estado fisiológico transitório, com genes próprios, que em muitas espécies só é ativado quando a densidade populacional cruza um limiar.]),
+   ("E", [A captação satura: acima de certa concentração oferecida, o número de transformantes deixa de crescer porque os sítios de captação da superfície são finitos.])))
 
 #questao-ce("16", badge-integracao,
-  [Um paciente com pneumonia bacteriana apresenta temperatura de 39,2 °C e refere sensação de frio intenso com tremores no início do episódio. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ que produz a febre é sintetizada no foco pulmonar e transportada pelo sangue até o hipotálamo, onde então desloca para cima o ponto de ajuste do centro termorregulador.]),
-   ("II",  [O tremor muscular e a vasoconstrição cutânea são mecanismos efetores acionados para elevar a temperatura corporal até o novo ponto de ajuste, e não consequências passivas da infecção.]),
-   ("III", [A sensação de frio com tremores no início do episódio é coerente com um ponto de ajuste já deslocado para cima enquanto a temperatura corporal ainda está abaixo do novo alvo.]),
-   ("IV",  [O antitérmico age inibindo a ciclo-oxigenase e reduzindo a síntese hipotalâmica de prostaglandina, o que faz o ponto de ajuste retornar ao valor normal.])))
+  [Julgue os itens sobre a conjugação bacteriana e o estado Hfr:],
+  (("I",   [Hfr designa uma célula cujo fator de fertilidade está integrado ao cromossomo, e não uma espécie bacteriana distinta.]),
+   ("II",  [Interromper a conjugação em tempos crescentes e verificar quais marcadores já chegaram permite ordenar os genes ao longo do cromossomo.]),
+   ("III", [A transferência do cromossomo inteiro por uma célula Hfr leva cerca de noventa minutos e raramente se completa, porque a ponte se rompe antes.]),
+   ("IV",  [Ao final da transferência de um plasmídeo conjugativo, apenas a célula receptora fica com a molécula, pois a doadora cede sua única cópia.])))
 
 #questao-mc("17", badge-integracao,
-  [Em um modelo experimental, neutrófilos recrutados para o peritônio são impedidos de entrar em apoptose por bloqueio farmacológico da via apoptótica. O infiltrado persiste e o dano tecidual se agrava. Qual mecanismo explica melhor esse agravamento],
-  (("A", [Sem apoptose o neutrófilo retorna à circulação carregado de enzimas granulares, e é a redistribuição sistêmica dessas enzimas por via hematogênica que produz o dano observado em outros órgãos.]),
-   ("B", [O bloqueio da apoptose impede a montagem da NADPH oxidase no fagossomo, e o acúmulo de micro-organismos viáveis não eliminados é a causa direta da lesão progressiva do peritônio.]),
-   ("C", [A persistência do neutrófilo consome o oxigênio disponível no exsudato e a hipóxia resultante é o mecanismo primário de morte das células mesoteliais adjacentes ao infiltrado inflamatório.]),
-   ("D", [Neutrófilos que não morrem deixam de expressar selectinas e passam a bloquear mecanicamente a luz das vênulas do mesentério, e a isquemia por obstrução explica a progressão do dano tecidual.]),
-   ("E", [A remoção do neutrófilo depende da apoptose seguida de eferocitose; bloqueada essa rota, a célula evolui para necrose secundária e derrama proteases, oxidantes e moléculas de dano no tecido, perpetuando o foco.])))
+  [Um isolado de _E. coli_ apresenta, no cromossomo, um bloco de genes de invasina e toxina cuja proporção de guanina e citosina difere da do restante do genoma. A sequência de eventos que melhor explica esse achado é:],
+  (("A", [Uma mutação pontual num gene ancestral alterou simultaneamente a função codificada e a composição de bases de todo o bloco em que esse gene se encontra.]),
+   ("B", [A bactéria captou DNA livre do meio e o manteve como replicon independente no citoplasma, onde ele permanece estável sem jamais se integrar ao cromossomo.]),
+   ("C", [A bactéria recebeu por conjugação um plasmídeo de outra espécie, e um transposon levou aqueles genes do plasmídeo ao cromossomo, onde passaram a ser segregados de forma estável.]),
+   ("D", [O bloco corresponde a um profago integrado que preservou a composição de bases do vírus, e os genes de invasina ali contidos são de origem exclusivamente viral.]),
+   ("E", [A proporção diferente de bases resulta do reparo por tolerância a lesões naquela região, que insere bases ao acaso e altera a composição local do cromossomo.])))
 
 #questao-mc("18", badge-integracao,
-  [Por que os receptores Toll-like que reconhecem ácidos nucleicos estão confinados ao compartimento endossômico, e não à membrana plasmática],
-  (("A", [Porque ácido nucleico próprio, liberado por células que morrem no tecido, circularia livremente no meio extracelular; confinar esses receptores ao endossomo condiciona a leitura ao material que chegou por endocitose.]),
-   ("B", [Porque o pH ácido do endossomo é indispensável ao pareamento de bases entre o RNA viral e o domínio de reconhecimento do receptor, reação que não ocorre no pH neutro do líquido extracelular.]),
-   ("C", [Porque esses receptores derivam evolutivamente de proteínas lisossomais e mantiveram o sinal de endereçamento ancestral, sem que a localização traga vantagem funcional relevante à resposta imune inata.]),
-   ("D", [Porque os ácidos nucleicos microbianos só adquirem a conformação reconhecível após degradação parcial por nucleases endossômicas, e o material íntegro na superfície celular seria invisível ao receptor.]),
-   ("E", [Porque a sinalização desses receptores exige o adaptador TRIF, proteína ancorada exclusivamente à face citosólica da membrana endossômica e ausente na face interna da membrana plasmática.])))
+  [Um bacteriófago temperado integra-se sempre no mesmo sítio do cromossomo de sua hospedeira. Ao ser induzido, origina partículas capazes de transferir genes bacterianos. O padrão esperado dessa transferência é:],
+  (("A", [Qualquer trecho do cromossomo pode ser transferido com igual probabilidade, porque o genoma bacteriano foi previamente fragmentado ao acaso pela maquinaria viral.]),
+   ("B", [Apenas os genes vizinhos ao sítio de integração são transferidos, porque a excisão imprecisa do genoma viral leva junto um trecho do DNA bacteriano adjacente.]),
+   ("C", [Apenas plasmídeos são transferidos, já que a cápsula viral não acomoda fragmentos lineares do cromossomo bacteriano, e sim moléculas circulares de menor tamanho.]),
+   ("D", [Os genes transferidos são sempre os de resistência a antibiótico, porque a maquinaria de empacotamento reconhece as repetições invertidas que costumam ladeá-los.]),
+   ("E", [O cromossomo inteiro da hospedeira é mobilizado atrás do genoma viral, em ordem, e a transferência se interrompe apenas quando a partícula se rompe.])))
 
 #questao-ce("19", badge-integracao,
-  [Um paciente toma anti-inflamatório não esteroidal para dor articular e apresenta melhora da dor, mas desenvolve epigastralgia. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ não excita diretamente o nociceptor; ela reduz o limiar de disparo dessa terminação, de modo que estímulos habitualmente indolores passam a doer.]),
-   ("II",  [A epigastralgia relaciona-se à inibição da ciclo-oxigenase constitutiva da mucosa gástrica, cujo produto estimula a secreção de muco e de bicarbonato protetores.]),
-   ("III", [O fármaco atua sobre a fosfolipase A₂, impedindo a liberação de ácido araquidônico da membrana, e por isso suprime simultaneamente prostanoides e leucotrienos.]),
-   ("IV",  [A bradicinina responsável pela dor é sintetizada localmente pelo fibroblasto a partir de aminoácidos livres e age sobre o mesmo receptor de prostaglandina que o fármaco bloqueia.])))
+  [Julgue os itens sobre elementos genéticos móveis e plataformas de captura de genes:],
+  (("I",   [O integron desloca-se sozinho entre plasmídeo e cromossomo, usando a própria integrase como transposase.]),
+   ("II",  [Os cassetes gênicos capturados pelo integron não têm promotor próprio e são transcritos a partir de um promotor único da plataforma.]),
+   ("III", [As repetições invertidas das extremidades de um transposon codificam a enzima que catalisa o salto do elemento.]),
+   ("IV",  [Um gene de resistência transposto do plasmídeo para o cromossomo torna-se mais facilmente perdível a cada divisão celular.])))
 
 #questao-mc("20", badge-integracao,
-  [Em um quadro de sepse grave, o paciente apresenta simultaneamente sangramento em locais de punção e microtrombos na microcirculação. Qual mecanismo articula a resposta inflamatória sistêmica a essa combinação aparentemente contraditória],
-  (("A", [O fator de necrose tumoral em concentração elevada lisa diretamente as plaquetas circulantes, e a plaquetopenia resultante explica o sangramento, enquanto os microtrombos derivam apenas da estase da microcirculação.]),
-   ("B", [As citocinas inflamatórias ativam a fibrinólise de forma primária e maciça, e a plasmina em excesso degrada fibrinogênio circulante, o que causa sangramento sem que haja qualquer trombose associada verdadeira.]),
-   ("C", [O lipopolissacarídeo liga-se diretamente ao fator XII e o autoativa em toda a circulação; o sangramento decorre do consumo desse fator isolado, sem participação do endotélio nem das citocinas.]),
-   ("D", [Interleucina-1 e fator de necrose tumoral induzem fator tecidual no endotélio e suprimem os anticoagulantes naturais que ele expressava; a coagulação difusa consome plaquetas e fatores, e o consumo é o que produz o sangramento.]),
-   ("E", [O óxido nítrico produzido em excesso inibe a agregação plaquetária e causa o sangramento, ao passo que os microtrombos observados são compostos apenas de leucócitos aderidos ao endotélio, sem fibrina.])))
+  [Duas linhagens da mesma espécie são cultivadas junto a doadoras portadoras de um plasmídeo conjugativo de resistência. A linhagem que possui sistema CRISPR ativo com espaçador correspondente a esse plasmídeo adquire a resistência em frequência muito menor. O mecanismo é:],
+  (("A", [O sistema CRISPR metila o plasmídeo recebido, o que impede sua replicação e o mantém em número de cópias baixo demais para conferir fenótipo resistente.]),
+   ("B", [O espaçador se emparelha com o pilus de conjugação da doadora e impede o estabelecimento do contato físico de que a transferência depende.]),
+   ("C", [O sistema CRISPR dispara a resposta celular ao dano na receptora, que passa a degradar indistintamente todo DNA de fita simples que entre pelo canal.]),
+   ("D", [As enzimas Cas inserem o plasmídeo no cromossomo da receptora, onde ele deixa de ser expresso por ficar sob o controle de um promotor silencioso.]),
+   ("E", [Pequenos RNAs derivados do espaçador guiam uma nuclease Cas até a sequência complementar do plasmídeo que entrou, e o corte da dupla-fita o destrói antes que ele se replique.])))
 
 #questao-mc("21", badge-integracao,
-  [Sobre o programa de resolução da inflamação aguda, assinale a alternativa *incorreta*:],
-  (("A", [A prostaglandina E₂ acumulada no foco induz a expressão da 15-lipoxigenase, o que desloca o metabolismo do ácido araquidônico da produção de leucotrieno B₄ para a produção de lipoxinas.]),
-   ("B", [As lipoxinas inibem a quimiotaxia e a adesão de neutrófilos e estimulam o macrófago a remover os restos celulares, atuando em sentido oposto ao do leucotrieno B₄.]),
-   ("C", [A resolução é essencialmente passiva: cessado o estímulo, os mediadores deixam de ser produzidos e o infiltrado se dissipa por inércia, sem que haja síntese de moléculas dedicadas ao desligamento.]),
-   ("D", [A fagocitose do neutrófilo apoptótico pelo macrófago reprograma esta célula, que passa a secretar interleucina-10 e fator de transformação do crescimento beta em vez de citocinas pró-inflamatórias.]),
-   ("E", [O desfecho depende da integridade do arcabouço de matriz: preservado, há restituição integral; destruído, o fator de transformação do crescimento beta conduz a deposição de colágeno e a cicatriz.])))
+  [Cada agente genotóxico produz um tipo característico de lesão, e cada lesão é substrato de um sistema de reparo. Assinale a correspondência *incorreta*:],
+  (("A", [Radiação ultravioleta produz dímero de pirimidina, lesão volumosa que distorce a hélice e é substrato tanto da fotoliase quanto do reparo por excisão de nucleotídeo.]),
+   ("B", [Radiação ionizante produz quebra de dupla fita, para a qual não há fita íntegra local de referência, e cuja resolução fiel exige a cópia irmã já replicada.]),
+   ("C", [Agente alquilante liga radical metila à base e altera sua preferência de pareamento, dano corrigido pela remoção da base alterada e ressíntese daquela posição.]),
+   ("D", [Molécula planar intercalada entre pares de base leva à inserção ou à omissão de um nucleotídeo, deslocando a fase de leitura a partir daquele ponto.]),
+   ("E", [A desaminação espontânea da citosina produz uracila, base normal do DNA, que por isso passa despercebida pelos sistemas de vigilância e nunca chega a ser removida.])))
 
 #questao-ce("22", badge-integracao,
-  [Sobre a cinética das moléculas de adesão endotelial e sua relação com as citocinas do foco. Julgue os itens:],
-  (("I",   [A P-selectina depende de transcrição gênica induzida no endotélio e por isso só alcança a superfície várias horas depois do estímulo por histamina ou por trombina.]),
-   ("II",  [A E-selectina encontra-se pré-formada nos corpúsculos de Weibel-Palade e é externalizada em poucos minutos, sem necessidade de síntese proteica nova.]),
-   ("III", [O ICAM-1 tem expressão basal baixa que aumenta acentuadamente sob estímulo de interleucina-1 e de fator de necrose tumoral, e é esse incremento que sustenta a adesão firme.]),
-   ("IV",  [A ligação da integrina VLA-4 ao VCAM-1 favorece o recrutamento de monócitos e linfócitos, contribuindo para a mudança do perfil do infiltrado ao longo dos dias.])))
+  [Julgue os itens sobre a detecção laboratorial de substâncias mutagênicas:],
+  (("I",   [O teste de Ames quantifica a mortalidade bacteriana provocada pela substância, comparando o número de sobreviventes ao do controle.]),
+   ("II",  [A inclusão de uma fração de enzimas hepáticas de mamífero no ensaio serve para simular a ativação metabólica que ocorre no organismo.]),
+   ("III", [Colônias que crescem em meio sem histidina indicam que a mutação que bloqueava a via de síntese daquele aminoácido foi revertida.]),
+   ("IV",  [A triagem de carcinogênicos em bactéria se justifica porque a molécula de DNA e a química que a danifica são as mesmas nos dois organismos.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma célula que morre por piroptose amplifica a inflamação de modo muito mais intenso do que uma célula que morre por apoptose. Qual é a base mecanística dessa diferença],
-  (("A", [O fragmento amino-terminal da gasdermina D forma poro na membrana; a célula incha, rompe e derrama no interstício conteúdo citosólico rico em moléculas de dano, além de liberar a interleucina-1β madura.]),
-   ("B", [A piroptose consome as reservas de ATP da célula muito mais rapidamente, e é a depleção energética do tecido vizinho, com falência das bombas iônicas, o que amplifica a resposta inflamatória local observada.]),
-   ("C", [Na piroptose a célula expõe fosfatidilserina na face externa da membrana com densidade muito maior, e esse sinal em excesso ativa o macrófago para um perfil pró-inflamatório sustentado no foco.]),
-   ("D", [A caspase-1 ativada difunde para o meio extracelular e cliva diretamente componentes da matriz, e são os fragmentos de matriz gerados por essa protease os principais responsáveis pela amplificação do processo.]),
-   ("E", [A piroptose ocorre preferencialmente em células endoteliais, e é a perda de integridade da barreira vascular, e não o conteúdo liberado pela célula morta, o que amplifica a resposta inflamatória no tecido.])))
+  [_Mycoplasma genitalium_ tem 0,58 × 10#super[6] pares de base e cerca de 480 genes, e exige meios de cultura muito enriquecidos para crescer no laboratório. A relação entre os dois fatos é:],
+  (("A", [A vida permanente dentro do hospedeiro tornou dispensáveis as vias biossintéticas, cujos genes se perderam; sem eles, a bactéria precisa receber prontos os precursores que não fabrica.]),
+   ("B", [O genoma pequeno limita fisicamente a quantidade de ribossomos que a célula monta, e o meio enriquecido compensa essa lentidão de tradução oferecendo proteínas prontas.]),
+   ("C", [Bactérias de genoma reduzido são evolutivamente primitivas e ainda não desenvolveram as vias biossintéticas que as bactérias de vida livre vieram a adquirir depois.]),
+   ("D", [O meio enriquecido é necessário porque o genoma pequeno se replica muito rapidamente, e o consumo acelerado esgota um meio comum antes da formação da colônia.]),
+   ("E", [A ausência de parede nessa espécie exige meio com alta concentração de solutos, e é essa exigência osmótica, e não a nutricional, que define o enriquecimento.])))
 
-#questao-mc("24", badge-integracao,
-  [O infiltrado de um foco inflamatório agudo é predominantemente neutrofílico nas primeiras horas e passa a predominantemente macrofágico entre doze e quarenta e oito horas. O que explica essa substituição],
-  (("A", [O macrófago fagocita seletivamente os neutrófilos viáveis do foco e os elimina de forma ativa, e essa depuração dirigida é o mecanismo que impõe a troca do elenco celular observada no tecido.]),
-   ("B", [O neutrófilo migra do tecido de volta para a luz vascular assim que o estímulo perde intensidade, retornando à circulação, ao passo que o macrófago é incapaz de fazer esse trajeto reverso.]),
-   ("C", [A expressão de selectinas no endotélio cai abruptamente após seis horas, o que impede qualquer novo recrutamento de neutrófilos, enquanto o macrófago atravessa a parede por mecanismo independente de adesão.]),
-   ("D", [O neutrófilo vive poucas horas no tecido e entra em apoptose por relógio interno, sem ser reposto; o macrófago responde a quimiocinas de expressão mais tardia, sobrevive dias e acaba herdando o foco.]),
-   ("E", [A queda progressiva do oxigênio no exsudato inviabiliza o metabolismo do neutrófilo, que é estritamente dependente de fosforilação oxidativa, ao contrário do macrófago, que sustenta sua função por glicólise anaeróbia.])))
+#questao-ce("24", badge-integracao,
+  [Julgue os itens sobre o módulo de toxina e antitoxina codificado por certos plasmídeos:],
+  (("I",   [O módulo combina uma toxina de longa meia-vida com um antídoto que se degrada rapidamente.]),
+   ("II",  [A célula-filha que nasce sem o plasmídeo perde o antídoto antes de perder a toxina herdada, e morre.]),
+   ("III", [Esse sistema impede que o plasmídeo seja perdido durante a partição, garantindo que toda célula-filha o receba.]),
+   ("IV",  [O efeito prático do módulo é manter a população inteiramente portadora do plasmídeo mesmo sem pressão seletiva.])))
 
-#questao-ce("25", badge-integracao,
-  [Sobre a ação das anafilatoxinas do complemento sobre o mastócito e a microcirculação. Julgue os itens:],
-  (("I",   [O C5a e o C3a degranulam o mastócito por receptor próprio, o que libera histamina pré-formada e conecta a ativação do complemento ao aumento imediato da permeabilidade venular.]),
-   ("II",  [Entre os fragmentos gerados, o C3a é a anafilatoxina mais potente e o único com função quimiotática relevante sobre o neutrófilo, papel que o C5a praticamente não desempenha.]),
-   ("III", [A degranulação do mastócito por anafilatoxina exige sensibilização prévia por IgE específica, razão pela qual esse mecanismo só opera em indivíduos previamente alergizados.]),
-   ("IV",  [A histamina liberada age no receptor H1 do músculo liso arteriolar promovendo vasoconstrição, o que reduz o fluxo local e limita a formação de edema no território afetado.])))
+#questao-mc("25", badge-integracao,
+  [Três culturas mistas produzem recombinantes, e controles distintos permitem atribuir cada resultado à sua rota de transferência. A correspondência correta entre controle e conclusão é:],
+  (("A", [Adicionar DNase à cultura abole os recombinantes, o que indica conjugação, já que a fita transferida entre células em contato fica exposta ao meio durante a travessia.]),
+   ("B", [Separar as culturas por membrana que retém células e deixa passar DNA mantém os recombinantes, o que indica conjugação e afasta a hipótese de transformação.]),
+   ("C", [Separar as culturas por membrana que retém células e deixa passar DNA abole os recombinantes, o que indica conjugação, pois o contato físico é indispensável a ela.]),
+   ("D", [Filtrar o sobrenadante para remover partículas virais mantém os recombinantes, o que indica transdução, já que o fago atravessa filtros que retêm células bacterianas.]),
+   ("E", [Adicionar DNase ao sobrenadante mantém os recombinantes, o que indica transformação, pois o DNA livre é o veículo e resiste à degradação enzimática no meio.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Menino de 4 anos com abscessos cutâneos de repetição por #emph[Staphylococcus aureus] e #emph[Serratia]. O teste funcional do neutrófilo mostra produção de oxidantes muito reduzida; a contagem de neutrófilos e as moléculas de adesão são normais. Qual etapa está comprometida],
-  (("A", [O rolamento sobre o endotélio, por deficiência de ligante de selectina no leucócito, o que impede a marginação e reduz a chegada de neutrófilo ao foco apesar da contagem sanguínea normal.]),
-   ("B", [A geração de superóxido pela NADPH oxidase no fagossomo, de modo que não se formam peróxido nem hipoclorito e o micro-organismo fagocitado sobrevive dentro da célula que o engoliu.]),
-   ("C", [A opsonização do alvo por C3b, por deficiência de componente inicial da via alternativa do complemento, o que torna a captura lenta e ineficiente mesmo com neutrófilos plenamente funcionais.]),
-   ("D", [A quimiotaxia ao longo do gradiente tecidual, por defeito do receptor de peptídeos formilados, o que mantém o neutrófilo próximo ao vaso e distante do sítio real de multiplicação bacteriana.]),
-   ("E", [A fusão do grânulo azurófilo com o fagossomo, o que impede a entrega de mieloperoxidase e defensinas ao compartimento onde o micro-organismo fagocitado se encontra confinado.])))
+  [Paciente entubado em unidade intensiva há doze dias. A _Pseudomonas aeruginosa_ isolada do aspirado traqueal na admissão era sensível a carbenicilina, canamicina, neomicina e tetraciclina; o isolado de hoje, da mesma espécie e do mesmo sítio, é resistente às quatro. No período o paciente recebeu apenas cefepime. O mecanismo mais provável é:],
+  (("A", [Seleção de mutantes espontâneos resistentes a cada uma das quatro drogas, favorecida pela pressão que o cefepime exerceu sobre a população originalmente sensível.]),
+   ("B", [Indução da resposta ao dano no DNA pelo cefepime, que elevou a taxa de mutação e produziu, em poucos dias, alterações independentes nos quatro alvos distintos.]),
+   ("C", [Transdução por bacteriófago ambiental que empacotou os quatro genes de resistência a partir do cromossomo de uma bactéria previamente lisada na mesma unidade.]),
+   ("D", [Aquisição, por conjugação, de plasmídeo de amplo espectro de hospedeiro que carrega os quatro determinantes num bloco único, dispensando exposição prévia às drogas.]),
+   ("E", [Transformação a partir de DNA livre liberado por bactérias mortas pelo cefepime, incorporado ao cromossomo por recombinação homóloga em quatro sítios distintos.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Paciente asmático usa ácido acetilsalicílico para cefaleia e desenvolve broncoespasmo intenso em minutos, sem urticária e sem hipotensão. Qual mecanismo explica melhor esse desfecho],
-  (("A", [Reação de hipersensibilidade mediada por IgE específica contra o salicilato, com degranulação maciça de mastócito brônquico e liberação de histamina suficiente para contrair o músculo liso das vias aéreas.]),
-   ("B", [Inibição da fosfolipase A₂ pelo fármaco, que suprime a produção de prostaciclina broncodilatadora e deixa o tônus da via aérea sob domínio exclusivo da inervação colinérgica parassimpática.]),
-   ("C", [Ativação direta do complemento pelo fármaco, com geração de C5a em quantidade suficiente para degranular mastócitos da mucosa brônquica e produzir contração da musculatura lisa respiratória.]),
-   ("D", [Acetilação irreversível da mieloperoxidase do eosinófilo brônquico, o que aumenta a produção local de espécies reativas e desencadeia contração da musculatura lisa por lesão epitelial oxidativa.]),
-   ("E", [Bloqueio da ciclo-oxigenase com acúmulo de ácido araquidônico, que é desviado para a 5-lipoxigenase; o excesso de cisteinil-leucotrienos contrai o músculo liso brônquico com potência muito superior à da histamina.])))
+  [Mulher de 32 anos com pielonefrite por _E. coli_ inicia ciprofloxacino. No quinto dia, ainda febril, nova urocultura isola _E. coli_ da mesma linhagem, agora resistente ao ciprofloxacino e sensível às demais classes testadas. O que melhor explica o achado:],
+  (("A", [Aquisição de plasmídeo conjugativo trazendo um integron com cassete de resistência a quinolona, o que explicaria também a manutenção da sensibilidade às outras classes.]),
+   ("B", [Mutação no gene da girase alterando o sítio de ligação da droga, favorecida pela própria resposta ao dano que o ciprofloxacino dispara e que eleva a taxa de mutação.]),
+   ("C", [Conversão lisogênica por bacteriófago que carrega gene de bomba de efluxo, expresso apenas na presença de concentrações subterapêuticas do antibiótico na urina.]),
+   ("D", [Transformação com DNA liberado por bactérias da microbiota intestinal, incorporado ao cromossomo em região homóloga ao gene que codifica o alvo do ciprofloxacino.]),
+   ("E", [Perda do plasmídeo que codificava a porina de entrada da droga, o que reduziu o acesso do ciprofloxacino ao citoplasma sem alterar em nada o alvo enzimático.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Homem de 62 anos com bacteriemia por Gram-negativo apresenta pressão arterial de 70/40 mmHg que não responde a volume, edema difuso e plaquetopenia. Julgue os itens sobre a fisiopatologia do quadro:],
-  (("I",   [A hipotensão refratária decorre exclusivamente da perda absoluta de volume intravascular para o interstício, sem participação de vasodilatação sistêmica mediada por óxido nítrico.]),
-   ("II",  [O edema difuso decorre de lesão endotelial direta produzida pelo lipopolissacarídeo em todos os leitos, mecanismo distinto da contração endotelial que opera no foco localizado.]),
-   ("III", [A plaquetopenia decorre do consumo de plaquetas na coagulação intravascular disseminada, desencadeada pelo fator tecidual induzido no endotélio sob ação das citocinas.]),
-   ("IV",  [O lipopolissacarídeo é reconhecido no citosol do macrófago pelo NOD2, e é essa via, e não o TLR4 de superfície, que dispara a liberação sistêmica de citocinas na sepse.])))
+  [Criança de 4 anos com diarreia sanguinolenta há três dias, iniciada após consumo de hambúrguer malpassado. A coprocultura está em andamento e a suspeita é de _E. coli_ produtora de toxina Shiga. Julgue os itens:],
+  (("I",   [Iniciar quinolona empiricamente reduz a carga bacteriana e, com isso, a quantidade de toxina liberada na luz intestinal.]),
+   ("II",  [O gene da toxina Shiga é cromossômico e de expressão constitutiva, sem relação com elementos genéticos móveis.]),
+   ("III", [O dano ao DNA provocado pelo antibiótico pode induzir a excisão do profago que carrega o gene da toxina, aumentando a produção dela.]),
+   ("IV",  [A síndrome hemolítico-urêmica que pode complicar o quadro decorre da multiplicação da bactéria na corrente sanguínea.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Uma criança apresenta infecções bacterianas graves de repetição desde o nascimento, com cicatrização lenta do coto umbilical e feridas sem pus, apesar de leucometria persistentemente acima de 30.000 por mm³. A biópsia da lesão cutânea mostra pouquíssimos neutrófilos no tecido, embora as vênulas estejam repletas deles. Qual defeito molecular explica esse conjunto],
-  (("A", [Deficiência da subunidade comum das integrinas leucocitárias: o neutrófilo rola normalmente, mas não converte o rolamento em adesão firme ao ICAM-1, não atravessa a parede e permanece na circulação, o que produz leucocitose sem pus.]),
-   ("B", [Deficiência de mieloperoxidase no grânulo azurófilo, o que impede a conversão de peróxido em hipoclorito e torna o neutrófilo incapaz de eliminar o micro-organismo já fagocitado no interior do fagossomo.]),
-   ("C", [Deficiência dos componentes terminais do complemento, com incapacidade de montar o complexo de ataque à membrana, o que compromete a lise direta das bactérias e explica a gravidade e a recorrência das infecções.]),
-   ("D", [Defeito na sinalização do TLR4 por ausência do adaptador MyD88, o que abole a produção de citocinas inflamatórias e impede o reconhecimento de bactérias Gram-negativas pelo macrófago residente do tecido.]),
-   ("E", [Deficiência da NADPH oxidase fagocitária, com incapacidade de gerar superóxido, o que permite ao micro-organismo sobreviver dentro do fagócito e leva à formação de granulomas nos sítios de infecção.])))
+  [Duas crianças da mesma creche têm _Corynebacterium diphtheriae_ isolada da orofaringe. Uma desenvolve pseudomembrana e miocardite; a outra permanece assintomática, e seu isolado não produz toxina no teste específico. A diferença entre as duas linhagens está em que:],
+  (("A", [A linhagem assintomática perdeu o plasmídeo que codifica a toxina diftérica ao longo de sucessivas divisões, e por isso deixou de expressar o fator de virulência.]),
+   ("B", [Uma mutação espontânea no gene cromossômico da toxina, presente apenas na linhagem assintomática, gerou uma proteína truncada e desprovida de atividade.]),
+   ("C", [Apenas a linhagem da criança doente carrega, integrado ao cromossomo, o profago cujo genoma contém o gene da toxina — sem esse fago, a bactéria é habitante comum da orofaringe.]),
+   ("D", [A linhagem assintomática adquiriu por transformação um trecho de DNA que se recombinou com o gene da toxina e o inativou por interrupção da sequência codificadora.]),
+   ("E", [A criança assintomática está colonizada por linhagem cujo sistema CRISPR degradou o gene da toxina no próprio cromossomo, mecanismo que também impede reinfecções.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Homem de 45 anos sofre queimadura de segundo grau em 20% da superfície corporal. Nas primeiras horas há edema intenso e persistente na área queimada; ao terceiro dia, o exame histológico mostra infiltrado predominantemente macrofágico e início de deposição de matriz. Qual sequência mecanística descreve corretamente esses dois momentos],
-  (("A", [O edema inicial resulta de contração endotelial mediada por histamina, de curta duração; o infiltrado macrofágico do terceiro dia decorre do retorno dos neutrófilos à circulação, que abre espaço para o monócito recrutado.]),
-   ("B", [O edema inicial decorre de queda isolada da pressão oncótica plasmática por perda de albumina pela superfície queimada, e o infiltrado tardio reflete apenas a proliferação local de macrófagos residentes do tecido.]),
-   ("C", [O edema inicial vem de lesão endotelial direta, imediata e sustentada porque depende de reparo do endotélio; o predomínio macrofágico tardio decorre da apoptose não reposta do neutrófilo e da eferocitose, que reprograma o macrófago para o reparo.]),
-   ("D", [O edema inicial é mediado por leucotrienos liberados pelo neutrófilo já aderido à parede vascular, e o infiltrado do terceiro dia representa a segunda onda de neutrófilos atraída pelo leucotrieno B₄ acumulado na ferida.]),
-   ("E", [O edema inicial decorre de obstrução linfática pelo calor, sem alteração da permeabilidade vascular, e o infiltrado macrofágico tardio é resposta à infecção secundária que se instala invariavelmente na área desvitalizada.])))
+  [Numa investigação de surto, o genoma de uma _Klebsiella pneumoniae_ isolada de três pacientes é sequenciado. A análise identifica a espécie por genes conservados, localiza dois genes de beta-lactamase e revela um segmento de dezoito mil pares de base cuja proporção de guanina e citosina destoa do restante do cromossomo, ladeado por sequências repetidas. A leitura correta desse conjunto de achados é:],
+  (("A", [O segmento de composição divergente corresponde a região de reparo recombinacional recente, e as repetições nas bordas são cicatrizes da invasão de fita promovida pela RecA.]),
+   ("B", [A divergência de composição indica erro de sequenciamento naquela região, e as repetições nas bordas confirmam que o trecho foi montado em duplicidade pelo algoritmo.]),
+   ("C", [A presença dos genes de beta-lactamase no cromossomo exclui aquisição horizontal, já que gene adquirido permanece obrigatoriamente em plasmídeo enquanto conferir vantagem.]),
+   ("D", [O segmento divergente é um profago íntegro, e as repetições que o ladeiam são os sítios de integração viral que permitirão sua excisão diante de estresse celular.]),
+   ("E", [O segmento veio de outra espécie e foi fixado no cromossomo por transposição, e a composição divergente de bases, somada às repetições das bordas, é a assinatura dessa aquisição.])))
